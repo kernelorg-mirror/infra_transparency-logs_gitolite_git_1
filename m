@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0894487179794591707=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 18 Jun 2024 02:44:34 -0000
-Message-Id: <171867867463.11705.14569235644305191635@gitolite.kernel.org>
-
---===============0894487179794591707==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 18 Jun 2024 02:45:23 -0000
+Message-Id: <171867872391.14248.7928789915794732688@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,431 +11,747 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: 5f16a352e5126c614e3c7130110341e13e09e68b
-    new: 02dc2387ade79e3dfa34b720e14f66287e895d47
-    log: revlist-5f16a352e512-02dc2387ade7.txt
-
---===============0894487179794591707==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f16a352e512-02dc2387ade7.txt
-
-9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
-10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
-9fad9d560af5c654bb38e0b07ee54a4e9acdc5cd scsi: sr: Fix unintentional arithmetic wraparound
-51071f0831ea975fc045526dd7e17efe669dc6e1 scsi: qedf: Don't process stag work during unload and recovery
-78e88472b60936025b83eba57cffa59d3501dc07 scsi: qedf: Wait for stag work during unload
-6c3bb589debd763dc4b94803ddf3c13b4fcca776 scsi: qedf: Set qed_slowpath_params to zero before use
-e4f5f8298cf6ddae43210d236ad65ac2c6379559 scsi: mpt3sas: Add missing kerneldoc parameter descriptions
-637c435f08ea7e77c53a2ad590b651d0de225e3b wifi: ath11k: Fix error path in ath11k_pcic_ext_irq_config
-21ae74e1bf18331ae5e279bd96304b3630828009 wifi: ath10k: fix QCOM_RPROC_COMMON dependency
-5134acb15d9ef27aa2b90aad46d4e89fcef79fdc efi/libstub: zboot.lds: Discard .discard sections
-7c23b186ab892088f76a3ad9dbff1685ffe2e832 efi: pstore: Return proper errors on UEFI failures
-e6722ea6b9ed731f7392277d76ca912dfffca7ee i2c: synquacer: Remove a clk reference from struct synquacer_i2c
-e61bcf42d290e73025bab38e0e55a5586c2d8ad5 i2c: Remove I2C_CLASS_SPD
-2360497238261f17d4a3f6cbc02d6dbd8951c23c HID: intel-ish-hid: Fix build error for COMPILE_TEST
-0a3f9f7fc59feb8a91a2793b8b60977895c72365 HID: nvidia-shield: Add missing check for input_ff_create_memless
-ed281c6ab6eb8a914f06c74dfeaebde15b34a3f4 wifi: ath11k: fix WCN6750 firmware crash caused by 17 num_vdevs
-6e16782d6b4a724f9c9dcd49471219643593b60c wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
-803482f472ccc9576c0e606143725d1d8c61019d KVM: x86/mmu: Use SHADOW_NONPRESENT_VALUE for atomic zap in TDP MMU
-40e8a6901a2c983e3e541a363865e02cf591d458 KVM: VMX: Don't kill the VM on an unexpected #VE
-d1b32ecdc8ad0346ac551866d9f6831995fd70de KVM: nVMX: Initialize #VE info page for vmcs02 when proving #VE support
-9031b42139b9d45ef806c9a7fee166c1b6443c3c KVM: nVMX: Always handle #VEs in L0 (never forward #VEs from L2 to L1)
-837d557aba6b816985141ddbeb7649444ed26d3b KVM: x86/mmu: Add sanity checks that KVM doesn't create EPT #VE SPTEs
-743f1773366461cb44de297b1caf0a4292eb8fda KVM: VMX: Dump VMCS on unexpected #VE
-bca99c0356524a620126b789edbaf25934415467 KVM: x86/mmu: Print SPTEs on unexpected #VE
-a5dc0c9b557573315633bc78bacf8f548352f95b KVM: VMX: Enumerate EPT Violation #VE support in /proc/cpuinfo
-6af6142e3a62efd6074905e4a94d64956a3f4b7c KVM: x86: Disable KVM_INTEL_PROVE_VE by default
-76d5363c20eeeb937b56c0ac6c61e697bd1bf154 KVM: x86: Force KVM_WERROR if the global WERROR is enabled
-b4bd556467477420ee3a91fbcba73c579669edc6 KVM: SVM: WARN on vNMI + NMI window iff NMIs are outright masked
-d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
-825fc49497957310e421454fe3fb8b8d8d8e2dd2 media: mgb4: Fix double debugfs remove
-7ff6c798eca05e4a9dcb80163cb454d7787a4bc3 ACPI: APEI: EINJ: Fix einj_dev release leak
-f6f172dc6a6d7775b2df6adfd1350700e9a847ec ACPI: EC: Abort address space access upon error
-c4bd7f1d78340e63de4d073fd3dbe5391e2996e5 ACPI: EC: Avoid returning AE_OK on errors in address space handler
-9e69acc1de306b5243ca2ef8a54242e56d01b8e5 thermal/debugfs: Print initial trip temperature and hysteresis in tze_seq_show()
-5a599e10e53d1914adf0032c730bc0f604a5d947 thermal/debugfs: Allow tze_seq_show() to print statistics for invalid trips
-cb573eec609c44f44b27c2fa07afd926eddc9f89 thermal: core: Introduce thermal_trip_crossed()
-ae2170d6ea96e652c7fb5689f1980986bf48b7b8 thermal: trip: Trigger trip down notifications when trips involved in mitigation become invalid
-e5c7bd4e5ca0f549108a7013ba77885926c6a56b tools include UAPI: Sync linux/stat.h with the kernel sources
-0efc88e444d9d74f220f60a3e37143c8decf1bea tools headers UAPI: Sync linux/prctl.h with the kernel sources
-1437a9f06f740cc2950d9b6ac23fad838ff023a3 tools headers UAPI: Sync fcntl.h with the kernel sources to pick F_DUPFD_QUERY
-a3eed53beec4a7bac8acd109abcb187df2577781 perf beauty: Update copy of linux/socket.h with the kernel sources
-001821b0e79716c4e17c71d8e053a23599a7a508 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources to pick POSTED_MSI_NOTIFICATION
-947051e361d551e0590777080ffc4926190f62f2 KVM: arm64: Fix AArch32 register narrowing on userspace write
-dfe6d190f38fc5df5ff2614b463a5195a399c885 KVM: arm64: Allow AArch32 PSTATE.M to be restored as System mode
-c92e8b9eacebb4060634ebd9395bba1b29aadc68 KVM: arm64: AArch32: Fix spurious trapping of conditional instructions
-fd7ccfb112302c6941f03095544c10879ced98be media: Documentation: v4l: Fix ACTIVE route flag
-fe61b2906bd046535f4ef7dfcd69562f531ccd38 media: intel/ipu6: Fix some redundant resources freeing in ipu6_pci_remove()
-266b44ec9a26dd2ad5d1dfcbb2f7f4e2c10da3fb media: intel/ipu6: Move isys_remove() close to isys_probe()
-ab0ed481012811fed052f609b364c118ce8a576e media: intel/ipu6: Fix an error handling path in isys_probe()
-c19fa08c1414644b0d9275d336bdaff90af57d0b media: intel/ipu6: fix the buffer flags caused by wrong parentheses
-da42b5229b27bb5c0eff3408c92f025e6041dad3 tools headers: Update the syscall tables and unistd.h, mostly to support the new 'mseal' syscall
-f13e01b89daf42330a4a722f451e48c3e2edfc8d btrfs: ensure fast fsync waits for ordered extents after a write failure
-43cad521c6d228ea0c51e248f8e5b3a6295a2849 tools/power/cpupower: Fix Pstate frequency reporting on AMD Family 1Ah CPUs
-a0fc1a053b7a212244ff109e44469b8deff280c5 of: of_test: add MODULE_DESCRIPTION()
-ac4b069035783f7a54b3ab841119f4b6bf435f98 tools arch x86: Sync the msr-index.h copy with the kernel sources
-88e520512a68b4e724cb0f4281c79ae28673ccb1 tools headers UAPI: Sync kvm headers with the kernel sources
-c7a5096781732e0f9784551309484f3e103f6750 PNP: Make dev_is_pnp() to be a function and export it for modules
-edcde848c01eb071a91d479a6b3101d9cf48e905 PNP: Hide pnp_bus_type from the non-PNP code
-2f523f29d3b19a668b8d4ce6f768d8faff976b3a tools headers UAPI: Update i915_drm.h with the kernel sources
-ac62f52138f752d6c74adc6321e4996d84caf5bb ACPI: AC: Properly notify powermanagement core about changes
-779b8a14afde110dd3502566be907289eba72447 cpufreq: amd-pstate: remove global header file
-e4731baaf29438508197d3a8a6d4f5a8c51663f8 cpufreq: amd-pstate: Fix the inconsistency in max frequency units
-1ae088232bc9cda89e09844f64de1f593d3cdf60 Merge tag 'linux-cpupower-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux into pm-tools
-d55510527153d17a3af8cc2df69c04f95ae1350d cxl/test: Add missing vmalloc.h for tools/testing/cxl/test/mem.c
-49ba7b515c4c0719b866d16f068e62d16a8a3dd1 cxl/region: Fix memregion leaks in devm_cxl_add_region()
-4fedb1f0959973738ef9ac7e52ea0c260f1a3302 Merge branch '6.10/scsi-queue' into 6.10/scsi-fixes
-b7d7f11a291830fdf69d3301075dd0fb347ced84 wifi: mac80211: mesh: Fix leak of mesh_preq_queue objects
-6f6291f09a322c1c1578badac8072d049363f4e6 wifi: mac80211: mesh: init nonpeer_pm to active by default in mesh sdata
-44c06bbde6443de206b30f513100b5670b23fc5e wifi: mac80211: Fix deadlock in ieee80211_sta_ps_deliver_wakeup()
-4dc3a3893dae5a7f73e5809273aca0f1f3548d55 wifi: cfg80211: validate HE operation element parsing
-e296c95eac655008d5a709b8cf54d0018da1c916 wifi: cfg80211: fully move wiphy work to unbound workqueue
-642f89daa34567d02f312d03e41523a894906dae wifi: cfg80211: Lock wiphy in cfg80211_get_station
-ab904521f4de52fef4f179d2dfc1877645ef5f5c wifi: cfg80211: pmsr: use correct nla_get_uX functions
-02c665f048a439c0d58cc45334c94634bd7c18e6 wifi: mac80211: apply mcast rate only if interface is up
-177c6ae9725d783f9e96f02593ce8fb2639be22f wifi: mac80211: handle tasklet frames before stopping
-f7a8b10bfd614d7a9a16fbe80d28ead4f063cb00 wifi: cfg80211: fix 6 GHz scan request building
-8ecc4d7a7cd3e9704b63b8e4f6cd8b6b7314210f wifi: mac80211: pass proper link id for channel switch started notification
-92158790ce4391ce4c35d8dfbce759195e4724cb wifi: iwlwifi: mvm: don't initialize csa_work twice
-98b7017ddb914a32152ed9aec7468386fff85f8f wifi: iwlwifi: mvm: always set the TWT IE offset
-788e4c75f831d06fcfbbec1d455fac429521e607 wifi: iwlwifi: mvm: fix a crash on 7265
-b7ffca99313d856f7d1cc89038d9061b128e8e97 wifi: iwlwifi: mvm: d3: fix WoWLAN command version lookup
-4a7aace2899711592327463c1a29ffee44fcc66e wifi: iwlwifi: mvm: revert gen2 TX A-MPDU size to 64
-0f2e9f6f21d1ff292363cdfb5bc4d492eeaff76e wifi: iwlwifi: mvm: set properly mac header
-87821b67dea87addbc4ab093ba752753b002176a wifi: iwlwifi: dbg_ini: move iwl_dbg_tlv_free outside of debugfs ifdef
-cc3ba78f202de9752aceb16342ab62bdfbffac7e wifi: iwlwifi: mvm: remove stale STA link data during restart
-08b16d1b5997dc378533318e2a9cd73c7a898284 wifi: iwlwifi: mvm: Handle BIGTK cipher in kek_kck cmd
-4d08c0b3357cba0aeffaf3abc62cae0c154f2816 wifi: iwlwifi: mvm: handle BA session teardown in RF-kill
-989830d1cf16bd149bf0690d889a9caef95fb5b1 wifi: iwlwifi: mvm: properly set 6 GHz channel direct probe option
-60d62757df30b74bf397a2847a6db7385c6ee281 wifi: iwlwifi: mvm: check n_ssids before accessing the ssids
-e6dd2936ce7ce94a1915b799f8af8193ec628e87 wifi: iwlwifi: mvm: Fix scan abort handling with HW rfkill
-4bb95f4535489ed830cf9b34b0a891e384d1aee4 wifi: iwlwifi: mvm: don't read past the mfuart notifcation
-0c2fd18f7ec552796179c14f13a0e06942f09d16 wifi: mac80211: fix Spatial Reuse element size check
-a26d8dc5227f449a54518a8b40733a54c6600a8b wifi: mac80211: correctly parse Spatial Reuse Parameter Set element
-92ecbb3ac6f3fe8ae9edf3226c76aa17b6800699 wifi: mac80211: fix UBSAN noise in ieee80211_prep_hw_scan()
-84081a885394fc94055c24c727c99c321df6abac dt-bindings: arm: sunxi: Fix incorrect '-' usage
-321e4fa68ce15660ec578bdec5cc9607635087cf dt-bindings: arm: stm32: st,mlahb: Drop spurious "reg" property from example
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
-2607133196c35f31892ee199ce7ffa717bea4ad1 clk: sifive: Do not register clkdevs for PRCI clocks
-328af04b1ac279f17c09ddd5958aa6ec47131c80 media: mei: csi: Put the IPU device reference
-cc864821c7e8b921ebbfb21b17c92f8b3ea3d7ff media: mei: csi: Warn less verbosely of a missing device fwnode
-54880795b494e6557b47fe3cf3f21f2f54c2aa68 media: intel/ipu6: update the maximum supported csi2 port number to 6
-ffb9072bce200a4d004006e8b40c366933cf517b media: intel/ipu6: add csi2 port sanity check in notifier bound
-41011e2de3480f9adb6420b35b67628b2d903355 KVM: arm64: nv: Fix relative priorities of exceptions generated by ERETAx
-47eb2d68d10208e6a9e89d10b66018e8d6ca0623 KVM: arm64: nv: Expose BTI and CSV_frac to a guest hypervisor
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
-d53b681ce9ca7db5ef4ecb8d2cf465ae4a031264 scsi: ufs: mcq: Fix error output and clean up ufshcd_mcq_abort()
-935df1bd40d43c4ee91838c42a20e9af751885cc of/irq: Factor out parsing of interrupt-map parent phandle+args from of_irq_parse_raw()
-e7985f43609c782132f8f5794ee6cc4cdb66ca75 of: property: Fix fw_devlink handling of interrupt-map
-2d707b4e37f9b0c37b8b2392f91b04c5b63ea538 RISC-V: KVM: No need to use mask when hart-index-bit is 0
-c66f3b40b17d3dfc4b6abb5efde8e71c46971821 RISC-V: KVM: Fix incorrect reg_subtype labels in kvm_riscv_vcpu_set_reg_isa_ext function
-539d33b5783804f22a62bd62ff463dfd1cef4265 drm/komeda: remove unused struct 'gamma_curve_segment'
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
-7dc3bfcb4c9cc58970fff6aaa48172cb224d85aa nvme-fabrics: use reserved tag for reg read/write command
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
-b1a1fdd7096dd2d67911b07f8118ff113d815db4 nvme: fix nvme_pr_* status code parsing
-62da3acd28955e7299babebdfcb14243b789e773 selftests/bpf: fix inet_csk_accept prototype in test_sk_storage_tracing.c
-aeb8fe0283d4d3b0f27a87c5f5c938e7324f7d8f bpf: Fix bpf_session_cookie BTF_ID in special_kfunc_set list
-7d0b3953f6d832daec10a0d76e2d4db405768a8b libbpf: don't close(-1) in multi-uprobe feature detector
-10bc8558b59a264b2e342363c9ed6b2fae7a060d Merge tag 'ath-current-20240531' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath
-ebfb5e8fc8b45040b979f4bf0012a01d0abac8d4 Revert "wifi: wilc1000: convert list management to RCU"
-3596717a6fbd54c64e97e085a9f77ed511ff59f9 Revert "wifi: wilc1000: set atomic flag on kmemdup in srcu critical section"
-596c195680dceb34e6b994ff5571331d5dba8299 wifi: wilc1000: document SRCU usage instead of SRCU
-40cecacabc460f5074398753feb9ed7d43e8dfa6 wifi: mt76: mt7615: add missing chanctx ops
-819bda58e77bb67974f94dc1aa11b0556b6f6889 wifi: rtlwifi: Ignore IEEE80211_CONF_CHANGE_RETRY_LIMITS
-5fc16fa5f13b3c06fdb959ef262050bd810416a2 io_uring: check for non-NULL file pointer in io_file_can_poll()
-30636258a7c9174be44ddb2318bae4f66d4beab0 virtio_net: fix missing lock protection on control_buf access
-7679935b8bdf8d2bc298b04ed579d1ed78e81907 MAINTAINERS: remove Peter Geis
-89e281ebff72e6d37dce2df0e142b2909dafb267 ethtool: init tsinfo stats if requested
-9e0945b1901c9eed4fbee3b8a3870487b2bdc936 virtio_net: fix possible dim status unrecoverable
-d1f0bd01bc58f35b5353ad9dbe5f7249a8f3368e virtio_net: fix a spurious deadlock issue
-45c0a209dcf2c5179b54f8b7ed47b00a0a204b96 Merge branch 'virtio_net-fix-lock-warning-and-unrecoverable-state'
-3c34fb0bd4a4237592c5ecb5b2e2531900c55774 ax25: Fix refcount imbalance on inbound connections
-166fcf86cd34e15c7f383eda4642d7a212393008 ax25: Replace kfree() in ax25_dev_free() with ax25_dev_put()
-8105378c0c02309221b63d15cfe8fe92e7fe1434 net: rps: fix error when CONFIG_RFS_ACCEL is off
-e85e271dec0270982afed84f70dc37703fcc1d52 net/ncsi: Fix the multi thread manner of NCSI driver
-33700a0c9b562700c28d31360a5f04508f459a45 net/tcp: Don't consider TCP_CLOSE in TCP_AO_ESTABLISHED
-c4aff1d1ec90d9596c71b6f06b0bfab40a36a34a Merge tag 'i2c-host-6.10-pt2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
-b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
-3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
-beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
-1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
-eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
-629f2b4e05225e53125aaf7ff0b87d5d53897128 drm/panel: sitronix-st7789v: Add check for of_drm_get_panel_orientation
-38a38f5a36da9820680d413972cb733349400532 Input: silead - Always support 10 fingers
-84b26f509c1b9c8b3c3c63d75912701f151fd148 platform/x86: touchscreen_dmi: Drop "silead,max-fingers" property
-55624db051c8bdd39acbb1f35774c3f7b97c07b8 platform/x86: touchscreen_dmi: Use 2-argument strscpy()
-078fc56f5c1787a9272373742f817b320c046d1a platform/x86: yt2-1380: add CONFIG_EXTCON dependency
-1981b296f858010eae409548fd297659b2cc570e platform/x86: dell-smbios: Fix wrong token data in sysfs
-306aec7eea8c83e8212f4dd6e5b358c508e3e466 platform/x86: dell-smbios: Simplify error handling
-77f1972bdcf7513293e8bbe376b9fe837310ee9c platform/x86/amd/hsmp: Check HSMP support on AMD family of processors
-0110c4b110477bb1f19b0d02361846be7ab08300 irqchip/riscv-intc: Prevent memory leak when riscv_intc_init_common() fails
-6149db4997f582e958da675092f21c666e3b67b7 net: phy: micrel: fix KSZ9477 PHY issues after suspend/resume
-e306a894bd511804ba9db7c00ca9cc05b55df1f2 irqchip/sifive-plic: Chain to parent IRQ after handlers are ready
-8c219e52ca4d9a67cd6a7074e91bf29b55edc075 gpio: tqmx86: fix typo in Kconfig label
-9d6a811b522ba558bcb4ec01d12e72a0af8e9f6e gpio: tqmx86: introduce shadow register for GPIO output value
-08af509efdf8dad08e972b48de0e2c2a7919ea8b gpio: tqmx86: store IRQ trigger type and unmask status separately
-90dd7de4ef7ba584823dfbeba834c2919a4bb55b gpio: tqmx86: fix broken IRQ_TYPE_EDGE_BOTH interrupt type
-4a77c3dead97339478c7422eb07bf4bf63577008 SUNRPC: Fix loop termination condition in gss_free_in_token_pages()
-c6144a21169fe7d0d70f1a0dae6f6301e5918d30 tomoyo: update project links
-994af1825a2aa286f4903ff64a1c7378b52defe6 riscv: fix overlap of allocated page and PTR_ERR
-e2c79b4c5c4d83520abb570ca633ded09621c0a6 Revert "riscv: mm: accelerate pagefault when badaccess"
-2317dc2c22cc353b699c7d1db47b2fe91f54055c bpf, devmap: Remove unnecessary if check in for loop
-93c1800b3799f17375989b0daf76497dd3e80922 x86/kexec: Fix bug with call depth tracking
-1e24c31351787e24b7eebe84866bd55fd62a0aef cpufreq: intel_pstate: Fix unchecked HWP MSR access
-2884dc7d08d98a89d8d65121524bb7533183a63a bpf: Fix a potential use-after-free in bpf_link_free()
-b97e8a2f7130a4b30d1502003095833d16c028b3 irqchip/gic-v3-its: Fix potential race condition in its_vlpi_prop_update()
-f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-27bd5fdc24c0d5d1306f968ef24105c4577242b0 KVM: SEV-ES: Prevent MSR access post VMSA encryption
-d922056215617eedfbdbc29fe49953423686fe5e KVM: SEV-ES: Disallow SEV-ES guests when X86_FEATURE_LBRV is absent
-b7e4be0a224fe5c6be30c1c8bdda8d2317ad6ba4 KVM: SEV-ES: Delegate LBR virtualization to the processor
-89a58812c47f1823191e9d0b08b53df2dd304ae2 KVM: x86: Drop support for hand tuning APIC timer advancement from userspace
-b3233c737ec5bf8b35130cdb6b3fe49b26a2be99 Merge branch 'kvm-fixes-6.10-1' into HEAD
-b50788f7cd31a07e0c69c02d2f34b65121ff8775 Merge tag 'kvm-riscv-fixes-6.10-1' of https://github.com/kvm-riscv/linux into HEAD
-d6283b160a12010b2113cc64726a3c9eda13dc5f tools headers uapi: Sync linux/stat.h with the kernel sources to pick STATX_SUBVOL
-2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-ffbe335b8d471f79b259e950cb20999700670456 vmxnet3: disable rx data ring on dma allocation failure
-2fe40483ec257de2a0d819ef88e3e76c7e261319 ipv6: ioam: block BH from ioam6_output()
-db0090c6eb12c31246438b7fe2a8f1b833e7a653 net: ipv6: rpl_iptunnel: block BH in rpl_output() and rpl_input()
-c0b98ac1cc104f48763cdb27b1e9ac25fd81fc90 ipv6: sr: block BH in seg6_output_core() and seg6_input_core()
-cf28ff8e4c02e1ffa850755288ac954b6ff0db8c ila: block BH in ila_output()
-2fe6fb36c781b50482b1c3323fb526bc07d1af59 net: dst_cache: add two DEBUG_NET warnings
-d730a42ca6205713d8d88b14d728283c910d2baa Merge branch 'dst_cache-fix-possible-races'
-c6cab01d7e20a028ffcee1e0a0b782332a16b5e6 lib/test_rhashtable: add missing MODULE_DESCRIPTION() macro
-d6301802607bc036823fb47abaa2cf92fb74db91 Merge tag 'wireless-2024-06-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-4aa2dcfbad538adf7becd0034a3754e1bd01b2b5 HID: core: remove unnecessary WARN_ON() in implement()
-3ec8ebd8a5b782d56347ae884de880af26f93996 EDAC/amd64: Convert PCIBIOS_* return codes to errnos
-f8367a74aebf88dc8b58a0db6a6c90b4cb8fc9d3 EDAC/igen6: Convert PCIBIOS_* return codes to errnos
-a535d59432370343058755100ee75ab03c0e3f91 net: tls: fix marking packets as decrypted
-a295ec52c8624883885396fde7b4df1a179627c3 iommu/amd: Fix sysfs leak in iommu init
-cc8d89d0637990c66440a226f443d95340979a04 iommu/dma: Fix domain init
-89e8a2366e3bce584b6c01549d5019c5cda1205e iommu: Return right value in iommu_sva_bind_device()
-998a0a362b0b4cf501161c3319e6994d37c45a8c iommu/amd: Fix workqueue name
-48dc345a23b984c457d1c5878168d026c500618f iommu/amd: Check EFR[EPHSup] bit before enabling PPR
-526606b0a1998b0791b42c199d53550c3ba724b5 iommu/amd: Fix Invalid wait context issue
-415ce0ea55c5a3afea501a773e002be9ed7149f5 io_uring/napi: fix timeout calculation
-91215f70ea8541e9011c0b48f8b59b9e0ce6953b io_uring/io-wq: avoid garbage value of 'match' in io_wq_enqueue()
-73254a297c2dd094abec7c9efee32455ae875bdf io_uring: fix possible deadlock in io_register_iowq_max_workers()
-87bb39ed40bdf1596b8820e800226e24eb642677 KVM: arm64: Reintroduce __sve_save_state
-45f4ea9bcfe909b3461059990b1e232e55dde809 KVM: arm64: Fix prototype for __sve_save_state/__sve_restore_state
-6d8fb3cbf7e06431a607c30c1bc4cd53a62c220a KVM: arm64: Abstract set/clear of CPTR_EL2 bits behind helper
-e511e08a9f496948b13aac50610f2d17335f56c3 KVM: arm64: Specialize handling of host fpsimd state on trap
-66d5b53e20a6e00b7ce3b652a3e2db967f7b33d0 KVM: arm64: Allocate memory mapped at hyp for host sve state in pKVM
-b5b9955617bc0b41546f2fa7c3dbcc048b43dc82 KVM: arm64: Eagerly restore host fpsimd/sve state in pKVM
-1696fc2174dbab12228ea9ec4c213d6aeea348f8 KVM: arm64: Consolidate initializing the host data's fpsimd_state/sve in pKVM
-a69283ae1db8dd416870d931caa9e2d3d2c1cd8b KVM: arm64: Refactor CPACR trap bit setting/clearing to use ELx format
-afb91f5f8ad7af172d993a34fde1947892408f53 KVM: arm64: Ensure that SME controls are disabled in protected mode
-ce3af2ee95170b7d9e15fff6e500d67deab1e7b3 HID: logitech-dj: Fix memory leak in logi_dj_recv_switch_to_dj_mode()
-655a8a7684b897721f87c59798fd04d8b79f1b69 HID: nintendo: Fix an error handling path in nintendo_hid_probe()
-9e438fe31e96b75c2ec599f6a9239950e6712358 HID: intel-ish-hid: fix endian-conversion
-9c8f05cf1d7abd1bfb53cebe691bf3acb7baee99 HID: logitech-hidpp: add missing MODULE_DESCRIPTION() macro
-0698ff57bf327d9a5735a898f78161b8dada160b drm/xe/pf: Update the LMTT when freeing VF GT config
-c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep mechanism
-290be0a40276ca36a5110b191d73a71b8bbe466f Merge branch 'efi/next' into efi/urgent
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-dc6abbbde4b099e936cd5428e196d86a5e119aae tools headers arm64: Sync arm64's cputype.h with the kernel sources
-51214520ad62e6cd5ec216e9b840999b4aaceb5f Merge tag 'devicetree-fixes-for-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-0ea00e249ca992adee54dc71a526ee70ef109e40 tpm_tis: Do *not* flush uninitialized work
-f071d02ecad4cfbf3ab41807c90bd1fef1cbfd3f tpm: Switch to new Intel CPU model defines
-d0d1df8ba18abc57f28fb3bc053b2bf319367f2c bpf: Set run context for rawtp test_run callback
-7fcf26b315bbb728036da0862de6b335da83dff2 Revert "xsk: Support redirect to any socket bound to the same umem"
-03e38d315f3c5258270ad50f2ae784b6372e87c3 Revert "xsk: Document ability to redirect to any socket bound to the same umem"
-99280413a5b785f22d91e8a8a66dc38f4a214495 efi: Add missing __nocfi annotations to runtime wrappers
-8b0f7410942cdc420c4557eda02bfcdf60ccec17 octeontx2-af: Always allocate PF entries from low prioriy zone
-fb0aa0781a5f457e3864da68af52c3b1f4f7fd8f net/smc: avoid overwriting when adjusting sock bufsizes
-0a8d3f2e3e8d8aea8af017e14227b91d5989b696 net: phy: Micrel KSZ8061: fix errata solution not taking effect problem
-491aee894a08bc9b8bb52e7363b9d4bc6403f363 ionic: fix kernel panic in XDP_TX action
-affc18fdc694190ca7575b9a86632a73b9fe043d net: sched: sch_multiq: fix possible OOB write in multiq_tune()
-1cd4bc987abb2823836cbb8f887026011ccddc8a vxlan: Fix regression when dropping packets due to invalid src addresses
-712115a24b1a5318c10fc757d48d8f33815a6bfa selftests: hsr: add missing config for CONFIG_BRIDGE
-14951beaec93696b092a906baa0f29322cf34004 arm64: armv8_deprecated: Fix warning in isndep cpuhp starting process
-45ce0314bf258bd387d92782d5393e7b84b0121f Merge tag 'kvmarm-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-db574f2f96d0c9a245a9e787e3d9ec288fb2b445 KVM: x86/mmu: Don't save mmu_invalidate_seq after checking private attr
-a46d0ea5c94205f40ecf912d1bb7806a8a64704f tcp: count CLOSE-WAIT sockets for TCP_MIB_CURRESTAB
-9633e9377e6af0244f7381e86b9aac5276f5be97 mptcp: count CLOSE-WAIT sockets for MPTCP_MIB_CURRESTAB
-e137596ec1bb8e6d203e05e492ec63f39d063340 Merge branch 'tcp-mptcp-close-wait'
-5b4b62a169e10401cca34a6e7ac39161986f5605 rtnetlink: make the "split" NLM_DONE handling generic
-5c40e428aea644c9d924e491b1bc22fa9f272bcc arm64/io: add constant-argument check
-c57e558194430d10d5e5f4acd8a8655b68dade13 net: ethernet: mtk_eth_soc: handle dma buffer size soc specific
-33afbfcc105a572159750f2ebee834a8a70fdd96 net/mlx5: Stop waiting for PCI if pci channel is offline
-c8b3f38d2dae0397944814d691a419c451f9906f net/mlx5: Always stop health timer during driver removal
-f8f0de9d58d956884eb9b7a18266ac750412e777 Merge branch 'mlx5-fixes'
-74751ef5c1912ebd3e65c3b65f45587e05ce5d36 perf/core: Fix missing wakeup when waiting for context reference
-f92a59f6d12e31ead999fee9585471b95a8ae8a3 locking/atomic: scripts: fix ${atomic}_sub_and_test() kerneldoc
-5b3cde198878b2f3269d5e7efbc0d514899b1fd8 Revert "perf record: Reduce memory for recording PERF_RECORD_LOST_SAMPLES event"
-ca9680821dfec73c9100860bda4fab1f1309722e perf bpf: Fix handling of minimal vmlinux.h file when interrupting the build
-9a64e1bfd8a10c015c41fe0d289e89862486c50d bcachefs: Fix GFP_KERNEL allocation in break_cycle()
-fdccb24352e589bb59c9ba90f23c4e0994b90518 bcachefs: Rereplicate now moves data off of durability=0 devices
-319fef29e96524966bb8593117ce0c5867846eea bcachefs: Fix trans->locked assert
-1bfc0835d40c8b4f19f8c1db8c42edddb265df5f Merge branches 'acpi-ec', 'acpi-apei' and 'pnp'
-d38e48563c1f70460503de7ffff9a7f46b54b67d s390/crash: Do not use VM info if os_info does not have it
-01c51a32dc18f128d2e55a7b2128b77fc01a2285 KVM: s390x: selftests: Add shared zeropage test
-9b7e7ff0fe44bc6e571ecddbd76fcea7498033c1 Merge branch 'pm-cpufreq'
-71d7b52cc33bc3b6697cce8a0a5ac9032f372e47 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-9d274c19a71b3a276949933859610721a453946b btrfs: fix crash on racing fsync and size-extending write into prealloc
-fb33eb2ef0d88e75564983ef057b44c5b7e4fded btrfs: fix leak of qgroup extent records after transaction abort
-208d9b65c0dfe619aa24c1942f4acc6e1112fc84 Merge tag 'tpmdd-next-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-558dc49aacc7f3a348c1f10af7d1169bed2fe426 Merge tag 'i2c-for-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-267cace556e8a53d703119f7435ab556209e5b6a drm/amd: Fix shutdown (again) on some SMU v13.0.4/11 platforms
-c6c4dd54012551cce5cde408b35468f2c62b0cce drm/amdgpu/pptable: Fix UBSAN array-index-out-of-bounds
-c462ecd659b5fce731f1d592285832fd6ad54053 null_blk: fix validation of block size
-27d024235bdb16af917809d33916392452c3ac85 Merge tag 'nvme-6.10-2024-06-05' of git://git.infradead.org/nvme into block-6.10
-e20b269d738b388e24f81fdf537cb4db7c693131 Merge tag 'bcachefs-2024-06-05' of https://evilpiepirate.org/git/bcachefs
-19ca0d8a433ff37018f9429f7e7739e9f3d3d2b4 Merge tag 'for-6.10-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-c625dabbf1c4a8e77e4734014f2fde7aa9071a1f x86/amd_nb: Check for invalid SMN reads
-229bedbf62b13af5aba6525ad10b62ad38d9ccb5 net/mlx5: Fix tainted pointer delete is case of flow rules creation fail
-64c6a36d79a92f9ea22c470a52e4692db660d955 Merge tag 'pm-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-553352597d1c975ba7f734051f7946bffb3464c6 Merge tag 'acpi-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2df0193e62cf887f373995fb8a91068562784adc Merge tag 'thermal-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-f921a58ae20852d188f70842431ce6519c4fdc36 net/sched: taprio: always validate TCA_TAPRIO_ATTR_PRIOMAP
-323a359f9b077f382f4483023d096a4d316fd135 ptp: Fix error message on failed pin verification
-1cfa043fc012150ced0b8b60c44ebdd481335f9d Merge tag 'drm-xe-fixes-2024-06-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-886bf9172da06a85de3c68a651477d7d625fd6cc Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-426826933109093503e7ef15d49348fc5ab505fe drm/vmwgfx: Filter modes which exceed graphics memory
-fb5e19d2dd03eb995ccd468d599b2337f7f66555 drm/vmwgfx: 3D disabled should not effect STDU memory limits
-dde1de06bd7248fd83c4ce5cf0dbe9e4e95bbb91 drm/vmwgfx: Remove STDU logic from generic mode_valid function
-a54a200f3dc710db0572aba45c5c06b12b74489a drm/vmwgfx: Standardize use of kibibytes when logging
-7ef91dcba172441582962602ff6899bfec6078b7 drm/vmwgfx: Don't destroy Screen Target when CRTC is enabled but inactive
-0d648dd5c899f33154b98a6aef6e3dab0f4de613 mm: drop the 'anon_' prefix for swap-out mTHP counters
-94d46bf17916965e918bd2f3d2eec057f7c5578d mm: huge_mm: fix undefined reference to `mthp_stats' for CONFIG_SYSFS=n
-6434e69814b159608a23135ca2be36024f402717 mm: arm64: fix the out-of-bounds issue in contpte_clear_young_dirty_ptes
-36eef400c2d571d05b6e41a9a61f874d4a7b82c5 memcg: remove the lockdep assert from __mod_objcg_mlstate()
-a4ca369ca221bb7e06c725792ac107f0e48e82e7 nilfs2: fix potential kernel bug due to lack of writeback flag waiting
-7cc5a5d65011983952a9c62f170f5b79e24b1239 mm: page_alloc: fix highatomic typing in multi-block buddies
-0105eaabb27f31d9b8d340aca6fb6a3420cab30f vmalloc: check CONFIG_EXECMEM in is_vmalloc_or_module_addr()
-2ef3cec44c60ae171b287db7fc2aa341586d65ba kmsan: do not wipe out origin when doing partial unpoisoning
-730cdc2c72c6905a2eda2fccbbf67dcef1206590 mm/ksm: fix ksm_pages_scanned accounting
-c2dc78b86e0821ecf9a9d0c35dba2618279a5bb6 mm/ksm: fix ksm_zero_pages accounting
-8daf9c702ee7f825f0de8600abff764acfedea13 mm/hugetlb: do not call vma_add_reservation upon ENOMEM
-3f0c44c8c21cfa3bb6b756b939491b7a60932cd1 codetag: avoid race at alloc_slab_obj_exts
-9415983599413f847ec9f081e9f9e5ed6cdeb342 mm: fix xyz_noprof functions calling profiled functions
-7373a51e7998b508af7136530f3a997b286ce81c nilfs2: fix nilfs_empty_dir() misjudgment and long loop on I/O errors
-b91e05f1fcf755c9d2c4ca10907383e39def05bd drm/vmwgfx: remove unused struct 'vmw_stdu_dma'
-03e4a092be8ce3de7c1baa7ae14e68b64e3ea644 ice: fix iteration of TLVs in Preserved Fields Area
-cfa747a66e5da34793ac08c26b814e7709613fab ice: fix reads from NVM Shadow RAM on E830 and E825-C devices
-adbf5a42341f6ea038d3626cd4437d9f0ad0b2dd ice: remove af_xdp_zc_qps bitmap
-744d197162c2070a6045a71e2666ed93a57cc65d ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
-f3df4044254c98128890b512bf19cc05588f1fe5 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
-7d67d11fbe194f71298263f48e33ae2afa38197e igc: Fix Energy Efficient Ethernet support declaration
-5899c885131a7b2926ed26f6a5df1fc3c878418d Merge branch 'intel-wired-lan-driver-updates-2024-05-29-ice-igc'
-5703fc058efdafcdd6b70776ee562478f0753acb drm/vmwgfx: Don't memcmp equivalent pointers
-b0c9a26435413b81799047a7be53255640432547 net: wwan: iosm: Fix tainted pointer delete is case of region creation fail
-26bfb8b57063f52b867f9b6c8d1742fcb5bd656c af_unix: Set sk->sk_state under unix_state_lock() for truly disconencted peer.
-942238f9735a4a4ebf8274b218d9a910158941d1 af_unix: Annodate data-races around sk->sk_state for writers.
-3a0f38eb285c8c2eead4b3230c7ac2983707599d af_unix: Annotate data-race of sk->sk_state in unix_inq_len().
-eb0718fb3e97ad0d6f4529b810103451c90adf94 af_unix: Annotate data-races around sk->sk_state in unix_write_space() and poll().
-a9bf9c7dc6a5899c01cb8f6e773a66315a5cd4b7 af_unix: Annotate data-race of sk->sk_state in unix_stream_connect().
-1b536948e805aab61a48c5aa5db10c9afee880bd af_unix: Annotate data-race of sk->sk_state in unix_accept().
-8a34d4e8d9742a24f74998f45a6a98edd923319b af_unix: Annotate data-races around sk->sk_state in sendmsg() and recvmsg().
-af4c733b6b1aded4dc808fafece7dfe6e9d2ebb3 af_unix: Annotate data-race of sk->sk_state in unix_stream_read_skb().
-0aa3be7b3e1f8f997312cc4705f8165e02806f8f af_unix: Annotate data-races around sk->sk_state in UNIX_DIAG.
-b0632e53e0da8054e36bc973f0eec69d30f1b7c6 af_unix: Annotate data-races around sk->sk_sndbuf.
-bd9f2d05731f6a112d0c7391a0d537bfc588dbe6 af_unix: Annotate data-race of net->unx.sysctl_max_dgram_qlen.
-45d872f0e65593176d880ec148f41ad7c02e40a7 af_unix: Use unix_recvq_full_lockless() in unix_stream_connect().
-83690b82d228b3570565ebd0b41873933238b97f af_unix: Use skb_queue_empty_lockless() in unix_release_sock().
-5d915e584d8408211d4567c22685aae8820bfc55 af_unix: Use skb_queue_len_lockless() in sk_diag_show_rqlen().
-efaf24e30ec39ebbea9112227485805a48b0ceb1 af_unix: Annotate data-race of sk->sk_shutdown in sk_diag_fill().
-411c0ea696cc4fcd14a32f2093c909e0c59c5dd7 Merge branch 'af_unix-fix-lockless-access-of-sk-sk_state-and-others-fields'
-c181689bc479d3b2300f91fc4d53e089d7631898 kconfig: remove unneeded code for user-supplied values being out of range
-46edf4372e336ef3a61c3126e49518099d2e2e6d kconfig: gconf: give a proper initial state to the Save button
-bf83266a1eef8251e2f126dba635039de069104a kconfig: doc: fix a typo in the note about 'imply'
-45c7f555bf5e716d9c6ffb737e97d4cc9b4c21ef kconfig: doc: document behavior of 'select' and 'imply' followed by 'if'
-b01e1c030770ff3b4fe37fc7cc6bca03f594133f ipv6: fix possible race in __fib6_drop_pcpu_from()
-77a92660d8fe8d29503fae768d9f5eb529c88b36 kconfig: remove wrong expr_trans_bool()
-0dcc53abf58d572d34c5313de85f607cd33fc691 net: ethtool: fix the error condition in ethtool_get_phy_stats_ethtool()
-09fe2bfa6b83f865126ce3964744863f69a4a030 ata: pata_macio: Fix max_segment_size with PAGE_SIZE == 64K
-41b02ea4c0adfcc6761fbfed42c3ce6b6412d881 selftests: net: lib: support errexit with busywait
-79322174bcc780b99795cb89d237b26006a8b94b selftests: net: lib: avoid error removing empty netns name
-84a8bc3ec225b28067b168e9410e452c83d706da selftests: net: lib: set 'i' as local
-27bc86540899ee793ab2f4c846e745aa0de443f1 Merge branch 'selftests-net-lib-small-fixes'
-a34adf6010d723abc26c9f50ac2b326bf5ae0b9e Merge tag 'efi-fixes-for-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-2faf6332c506fc3bd23815f8fe8f6d0c35271c17 Merge tag 'tomoyo-pr-20240606' of git://git.code.sf.net/p/tomoyo/tomoyo
-d30d0e49da71de8df10bf3ff1b3de880653af562 Merge tag 'net-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f3a5367c679d31473d3fbb391675055b4792c309 btrfs: protect folio::private when attaching extent buffer folios
-d91e656262aeef16f6a296a2b6c8b0f7243f408a Merge tag 'pci-v6.10-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-8a92980606e3585d72d510a03b59906e96755b8a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-2d4218311071389682cc1f74b23eb85bb677909a Merge tag 'amd-drm-fixes-6.10-2024-06-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-26033424ed0897deecbbc82ae348c12e27bfb29c Merge tag 'drm-misc-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-eb55943aab89be99a26e34fc2175ebb3583a2778 Merge tag 'drm-misc-next-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-96c965667b9dbbd713acdffa95ebab8c225f8595 kbuild: explicitly run mksysmap as sed script from link-vmlinux.sh
-9185afeac2a3dcce8300a5684291a43c2838cfd6 modpost: do not warn about missing MODULE_DESCRIPTION() for vmlinux.o
-02c418774f76a0a36a6195c9dbf8971eb4130a15 smb: client: fix deadlock in smb2_find_smb_tcon()
-a88d60903696c01de577558080ec4fc738a70475 cifs: Don't advance the I/O iterator before terminating subrequest
-64054eb716db52e4246527dc9414377c5bc5b01d gpio: add missing MODULE_DESCRIPTION() macros
-89e1ee118d6f0ee6bd6e80d8fe08839875daa241 hid: asus: asus_report_fixup: fix potential read out of bounds
-0c7dd00de018ff70b3452c424901816e26366a8a input: Add event code for accessibility key
-22d6d060ac77955291deb43efc2f3f4f9632c6cb input: Add support for "Do Not Disturb"
-8d3ae46c64336b538898af76b4f504dfbe89b886 dt-bindings: HID: i2c-hid: add dedicated Ilitek ILI2901 schema
-07fc16fa55522520f5e4b2e35c72650f11079c35 dt-bindings: HID: i2c-hid: elan: add Elan eKTH5015M
-e538d4b85b8f1e3534dfbb42c2273f18bbb59d6e dt-bindings: HID: i2c-hid: elan: add 'no-reset-on-power-off' property
-0eafc58f2194dbd01d4be40f99a697681171995b HID: i2c-hid: elan: fix reset suspend current leakage
-a3a5a37efba11b7cf1a86abe7bccfbcdb521764e HID: Ignore battery for ELAN touchscreens 2F2C and 4116
-2e32d580757362edc95fdd7a86d3b869b78e58d8 Merge tag 'drm-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/kernel
-e693c5026c28ab2ca1f718f66f47a6a041ec8f3a Merge tag 'ata-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-f24b46ea10d7d2096ea1c9ce5746a0c85920ec62 Merge tag 'iommu-fixes-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-96e09b8f81668278e2bb70db4cbf80d7549bf7a1 Merge tag 'platform-drivers-x86-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-8d437867bafd8b5cfd209bdedddf1ca065f04a96 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-8d6b029e15ab47986e486f52b2b768ca6faa5cbe Merge tag 's390-6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-0a02756d9145725c1b9979f0486c268f91471a48 Merge tag 'riscv-for-linus-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-eecba7c070283f053434808fa69abda36cf154b4 Merge tag 'nfsd-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-07978330e63456a75a6d5c1c5053de24bdc9d16f Merge tag 'for-6.10-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-e33915892d8871b28d17675fecc1b5b36b0d5721 Merge tag 'io_uring-6.10-20240607' of git://git.kernel.dk/linux
-602079a0a13c69d190e16297d123ad3d279364e5 Merge tag 'block-6.10-20240607' of git://git.kernel.dk/linux
-e60721bf3ccaebcaff8dec3548a2daa6578f9361 Merge tag 'gpio-fixes-for-v6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-dc772f8237f9b0c9ea3f34d0dc4a57d1f6a5070d Merge tag 'mm-hotfixes-stable-2024-06-07-15-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-bbc5332b8cda95cd081cff9c405c1cfece872f20 Merge tag 'locking-urgent-2024-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7cec2e16cb62ed597791fb2d266e5ddd5818f1b3 Merge tag 'perf-urgent-2024-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7cedb020d537105acdc9e9311a0c30d110043491 Merge tag 'x86-urgent-2024-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-36714d69b186ab38f2f9eb833a2dfa57878095c6 Merge tag 'irq-urgent-2024-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1e7ccdd3255c9d146cc077d681c56e4559f90cda Merge tag 'media/v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-329f70c5beaefe0e1197b7919e776dc005213b59 Merge tag 'kbuild-fixes-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-061d1af7b0305227182bd9da60c7706c079348b7 Merge tag 'for-linus-2024060801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-771ed66105de9106a6f3e4311e06451881cdac5e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
-caf7bcb550a96b2839238f95472ff9d375d9d9a2 NFSD: harden svcxdr_dupstr() and svcxdr_tmpalloc() against integer overflows
-d9ee82a80e4c9f86e00f46f8f7a2ddbd5fb0f6bf NFSD: remove unused structs 'nfsd3_voidargs'
-88d7b235e8aefdacf5103e47592ef2801fdbf743 svcrdma: Refactor the creation of listener CMA ID
-99409d830f893bf7219e4b0eccef0cee42c8e6c4 svcrdma: Handle ADDR_CHANGE CM event properly
-a4727667164914a2c6259d47bedf8869975f72f8 NFSD: Fix nfsdcld warning
-10cecb4ef73f2b813121f86be7607f7c8aa928f5 lockd: Use *-y instead of *-objs in Makefile
-50f73efbc1da023114f62347d2545f3e1e2942dd NFSD: Support write delegations in LAYOUTGET
-1bd315f53d109556836daec3427991a359fc3382 SUNRPC: Add a trace point in svc_xprt_deferred_close
-f346ceed810c5760907f5981dac10f58bd1b009b sunrpc: fix up the special handling of sv_nrpools == 1
-f1bb3cd3b63cddf1c7681e0d621ddb6b533e3317 nfsd: make nfsd_svc take an array of thread counts
-e24c9eb3fb3bc5ed979af2ec17fd4375d190fdde nfsd: allow passing in array of thread counts via netlink
-06bb21e0028fd720108c1ed9452ef697cf0636ed sunrpc: refactor pool_mode setting code
-4ddfda417a50309f17aeb85f8d1a9a9efbc7d81c nfsd: new netlink ops to get/set server pool_mode
-e19bef97c4389d88bb76fc280540c4a0970249ea nfs: pass nfs_client to nfs_initiate_pgio
-e82c0a6d7c62d67a3cb135ddb1deb7b4772f7580 nfs: pass descriptor thru nfs_initiate_pgio path
-83c5ee2c1aa284bb1d668009a4470a833f62e7a6 nfs: pass struct file to nfs_init_pgio and nfs_init_commit
-eedcd9f3522a449aae7381c66a309629e9fb5a98 sunrpc: add rpcauth_map_to_svc_cred_local
-871370e9c6c04dac408fe5859845babae7b32596 nfs_common: add NFS LOCALIO protocol extension enablement
-e1f166d4e1b60445fc2ca36ec5c9d7226cb5b12f nfs/nfsd: add "localio" support
-5b2f5cb3ac6b12442df45411fb8ecf9446976c71 NFS: Enable localio for non-pNFS I/O
-771d0dfdec0f6c3ede15c559989118fcdad5c0c4 pnfs/flexfiles: Enable localio for flexfiles I/O
-231bd8674383281ba9f245a79c861c5fa111dbe8 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
-503ba3135c860b8e3c032e6b13685a6f773049d1 nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
-5027dc831a7a3d8c3dedef7a75d0d8bb7802c017 nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
-8e53ffea4f282e2e85281cc92677b258aa67fe8d nfs/localio: move managing nfsd_open_local_fh symbol to nfs_common
-4fea86a5b15627326954ede5863ae8e8e32018bd nfs/nfsd: ensure localio server always uses its network namespace
-0c616468538eecadc5fad0b5123a945dd8ce766e nfsd/localio: manage netns reference in nfsd_open_local_fh
-b735753909d249aa0c8fe2fae88e1027f7eba892 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
-35d593e2c208bcb9205a95495777d6e52712c3ed nfsd: use SRCU to dereference nn->nfsd_serv
-fea7f87869b04063702be8052fe56160ca99cf74 nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
-02dc2387ade79e3dfa34b720e14f66287e895d47 nfs/localio: use dedicated workqueues for filesystem read and write
-
---===============0894487179794591707==--
+  - ref: refs/tags/exportfs-6.9
+    old: 0000000000000000000000000000000000000000
+    new: fa20de45189430530042cc1521ebb51a5a523abd
+  - ref: refs/tags/linus-master
+    old: 0000000000000000000000000000000000000000
+    new: 92953ff38ba59b4f7b1a54ab28b84be35fafaecc
+  - ref: refs/tags/next-20240617
+    old: 0000000000000000000000000000000000000000
+    new: fdc2a84e8b9ed9cff184ada0a6b1f28015aa3a15
+  - ref: refs/tags/nfsd-4.10
+    old: 0000000000000000000000000000000000000000
+    new: 94b282e4fc076e6bf8fe6b4abb9fc3d700df445d
+  - ref: refs/tags/nfsd-4.10-1
+    old: 0000000000000000000000000000000000000000
+    new: 5fac3b700996adac50a01712d494c8e9bf4075fe
+  - ref: refs/tags/nfsd-4.10-2
+    old: 0000000000000000000000000000000000000000
+    new: 5da7e202c4bbfbb2a9155f2debc070b8e23fc449
+  - ref: refs/tags/nfsd-4.10-3
+    old: 0000000000000000000000000000000000000000
+    new: 2b6ab0307bac482d9f0a94ed400e6367a6408a1e
+  - ref: refs/tags/nfsd-4.11
+    old: 0000000000000000000000000000000000000000
+    new: aa972f7b8cd010dd6b40df46b958fc762ba3128b
+  - ref: refs/tags/nfsd-4.11-1
+    old: 0000000000000000000000000000000000000000
+    new: 05a2a7bc98e6f10fef506fa46e070eaffe26118a
+  - ref: refs/tags/nfsd-4.11-2
+    old: 0000000000000000000000000000000000000000
+    new: 015136368ebb469da3fb5f64b03ff42c1907adc5
+  - ref: refs/tags/nfsd-4.11-3
+    old: 0000000000000000000000000000000000000000
+    new: b9720f7156f8c673e7bfec1c20a4830373a9aff5
+  - ref: refs/tags/nfsd-4.12
+    old: 0000000000000000000000000000000000000000
+    new: 7d11674b93b84c368e22f2f94d377a0b812fe0ab
+  - ref: refs/tags/nfsd-4.12-1
+    old: 0000000000000000000000000000000000000000
+    new: 26b50656680e0eb8c3a5be55fa2733ec8b465d62
+  - ref: refs/tags/nfsd-4.13
+    old: 0000000000000000000000000000000000000000
+    new: 68a51f482b7135187b168941052dc7a54a354be4
+  - ref: refs/tags/nfsd-4.13-1
+    old: 0000000000000000000000000000000000000000
+    new: efe6606241adadc9619492c4b57cb038dd393971
+  - ref: refs/tags/nfsd-4.13-2
+    old: 0000000000000000000000000000000000000000
+    new: 824b8a9823c287410b14be4712dcd745df7bf846
+  - ref: refs/tags/nfsd-4.14
+    old: 0000000000000000000000000000000000000000
+    new: 91246d01934319285a31c7f8c09d2e516590b71a
+  - ref: refs/tags/nfsd-4.14-1
+    old: 0000000000000000000000000000000000000000
+    new: c05da3e3c72f29538e0386d3a2497ec940623e28
+  - ref: refs/tags/nfsd-4.15
+    old: 0000000000000000000000000000000000000000
+    new: 6d23d6fe10a18b7373db755f0e27b14b1c23c8fa
+  - ref: refs/tags/nfsd-4.15-1
+    old: 0000000000000000000000000000000000000000
+    new: acd4b953037dccb0c0a542315d21c202a69b28bf
+  - ref: refs/tags/nfsd-4.16
+    old: 0000000000000000000000000000000000000000
+    new: 06af90991a9a07925de6e1cf43b2f45e9d147e8e
+  - ref: refs/tags/nfsd-4.16-1
+    old: 0000000000000000000000000000000000000000
+    new: e8b3b256f13897c66ca903e60e9b0987d400bca9
+  - ref: refs/tags/nfsd-4.17
+    old: 0000000000000000000000000000000000000000
+    new: 5fe538a57eebc8abc316cbd7320571a0400dec3e
+  - ref: refs/tags/nfsd-4.18
+    old: 0000000000000000000000000000000000000000
+    new: 9ab902c4528f2bd94d76e9659ae689997fa905bd
+  - ref: refs/tags/nfsd-4.19
+    old: 0000000000000000000000000000000000000000
+    new: 5fc848f2daf254ad99f52c90c2f985288ba285c1
+  - ref: refs/tags/nfsd-4.19-1
+    old: 0000000000000000000000000000000000000000
+    new: 1b5cbf6e97720ff7267590a3fd54207aba9bc8be
+  - ref: refs/tags/nfsd-4.20
+    old: 0000000000000000000000000000000000000000
+    new: 462b8a922dbe50b64e5096591737b4e3e0e58eb2
+  - ref: refs/tags/nfsd-4.20-1
+    old: 0000000000000000000000000000000000000000
+    new: 861c2ee8d2b77b66274369aebb850ed8154ce680
+  - ref: refs/tags/nfsd-4.21
+    old: 0000000000000000000000000000000000000000
+    new: 4e6abc7626e685f0a8dc5b65c7b2ce0e77b37406
+  - ref: refs/tags/nfsd-4.3
+    old: 0000000000000000000000000000000000000000
+    new: 14601ff4436aa47110fd2498c2a2ecbb882dacac
+  - ref: refs/tags/nfsd-4.3-1
+    old: 0000000000000000000000000000000000000000
+    new: b533d1fa680211cd60e9dc5305571764fe07ffa9
+  - ref: refs/tags/nfsd-4.3-2
+    old: 0000000000000000000000000000000000000000
+    new: 9b9c540629d482be9d7ef8fdd8307a3e26ab8d80
+  - ref: refs/tags/nfsd-4.4
+    old: 0000000000000000000000000000000000000000
+    new: 0eb83408631054f7e35823ec6e6786d4219d23bf
+  - ref: refs/tags/nfsd-4.4-1
+    old: 0000000000000000000000000000000000000000
+    new: 5cdb8a7dfe92b49607da7db7258b6bc38ea16de8
+  - ref: refs/tags/nfsd-4.5
+    old: 0000000000000000000000000000000000000000
+    new: 7d92544f0aa57edfcf7f0580c46bc7e809efb38e
+  - ref: refs/tags/nfsd-4.5-1
+    old: 0000000000000000000000000000000000000000
+    new: 5961de4e0c7bdb859a271162fa7a59522bf6d012
+  - ref: refs/tags/nfsd-4.6
+    old: 0000000000000000000000000000000000000000
+    new: e813715b1216507c2b42a13b0fea93751ea794a6
+  - ref: refs/tags/nfsd-4.6-1
+    old: 0000000000000000000000000000000000000000
+    new: 4a45b7c4cf24cc92422854415ca533ae007c1033
+  - ref: refs/tags/nfsd-4.7
+    old: 0000000000000000000000000000000000000000
+    new: 0453c52c47e0fec0e0ae64a8b7eefdfab096c340
+  - ref: refs/tags/nfsd-4.7-1
+    old: 0000000000000000000000000000000000000000
+    new: 446d7a05ac2349ecf1bcaa71eb99de64b26d41bd
+  - ref: refs/tags/nfsd-4.7-2
+    old: 0000000000000000000000000000000000000000
+    new: 59e26b2654f228c88d15fae5e339ef4a7c4d2029
+  - ref: refs/tags/nfsd-4.7-3
+    old: 0000000000000000000000000000000000000000
+    new: 28952ba7d23b01cf3e56d04ae0d8f0dd003adf01
+  - ref: refs/tags/nfsd-4.8
+    old: 0000000000000000000000000000000000000000
+    new: 47237ddd246093dbe7d6e9e225cf5fb547246b2d
+  - ref: refs/tags/nfsd-4.8-1
+    old: 0000000000000000000000000000000000000000
+    new: 4bc70bfa25faade89041aa513760a2bc3d9af086
+  - ref: refs/tags/nfsd-4.8-2
+    old: 0000000000000000000000000000000000000000
+    new: 4a301703310d33314c3ac3a2e3440158afa1bb7c
+  - ref: refs/tags/nfsd-4.9
+    old: 0000000000000000000000000000000000000000
+    new: b1e1395818d0563514987f38d2e1439386c2b26f
+  - ref: refs/tags/nfsd-4.9-1
+    old: 0000000000000000000000000000000000000000
+    new: fe54505253fffe0a9723fc80aac4ebea370d2cb1
+  - ref: refs/tags/nfsd-4.9-2
+    old: 0000000000000000000000000000000000000000
+    new: 8148ba520abcc8e52901dff00c2ebc671e706642
+  - ref: refs/tags/nfsd-5.0-1
+    old: 0000000000000000000000000000000000000000
+    new: 95edb56e225d37d9e36a4016caad5b846d83bcef
+  - ref: refs/tags/nfsd-5.0-2
+    old: 0000000000000000000000000000000000000000
+    new: a0dc4a68d6fe0475b321e46a02335154f70cd3a2
+  - ref: refs/tags/nfsd-5.1
+    old: 0000000000000000000000000000000000000000
+    new: 47e89c45eee0536446947fdd4614a202e86e554c
+  - ref: refs/tags/nfsd-5.1-1
+    old: 0000000000000000000000000000000000000000
+    new: 823d33ed556105926ee18ad3b8b84ae5958accef
+  - ref: refs/tags/nfsd-5.11
+    old: 0000000000000000000000000000000000000000
+    new: f09143885b8f64eace3c6c55fa60e71f375e93bf
+  - ref: refs/tags/nfsd-5.11-1
+    old: 0000000000000000000000000000000000000000
+    new: 40181b67982cdff4241ed13abc1ffffd9a831aa8
+  - ref: refs/tags/nfsd-5.11-2
+    old: 0000000000000000000000000000000000000000
+    new: 46f2370a969df101c896d536231206dce877514c
+  - ref: refs/tags/nfsd-5.11-3
+    old: 0000000000000000000000000000000000000000
+    new: 2ec55b41e008d2fa3e34bea3e082c27b332c135f
+  - ref: refs/tags/nfsd-5.12
+    old: 0000000000000000000000000000000000000000
+    new: 641ba7979336f902a7a866ad81abd571ab920374
+  - ref: refs/tags/nfsd-5.12-1
+    old: 0000000000000000000000000000000000000000
+    new: 627299e3ef7b01bf8953b8f704ccbe63ea9d5836
+  - ref: refs/tags/nfsd-5.12-2
+    old: 0000000000000000000000000000000000000000
+    new: c0215585ca9a93121d501f7db2f84c443aced81f
+  - ref: refs/tags/nfsd-5.13
+    old: 0000000000000000000000000000000000000000
+    new: d0201a60cd99d64b304e0fdef6dad3d77964f63f
+  - ref: refs/tags/nfsd-5.13-1
+    old: 0000000000000000000000000000000000000000
+    new: d873dd26f93da50a153df566f72a21207e1839c5
+  - ref: refs/tags/nfsd-5.15
+    old: 0000000000000000000000000000000000000000
+    new: 2b86e8f301643bb18398cc8eaa8191b014e7cf7e
+  - ref: refs/tags/nfsd-5.15-1
+    old: 0000000000000000000000000000000000000000
+    new: 1dbbd9c832ae37aea959248ac8eb198a434294e7
+  - ref: refs/tags/nfsd-5.15-2
+    old: 0000000000000000000000000000000000000000
+    new: 9e344d9f95c0163a1615633456c4098264a570d5
+  - ref: refs/tags/nfsd-5.15-3
+    old: 0000000000000000000000000000000000000000
+    new: adeb1d0c9622d2546fcb4c85cfa6cc4a84006ee2
+  - ref: refs/tags/nfsd-5.16-3
+    old: 0000000000000000000000000000000000000000
+    new: c267c3a5466ea769c5753a2ea24dbe4a51d8638e
+  - ref: refs/tags/nfsd-5.17
+    old: 0000000000000000000000000000000000000000
+    new: 94397b8c18286a35232a1f31b599310b67a34d21
+  - ref: refs/tags/nfsd-5.17-1
+    old: 0000000000000000000000000000000000000000
+    new: dd2f37a922333add566e8c72d5a51885904595aa
+  - ref: refs/tags/nfsd-5.17-2
+    old: 0000000000000000000000000000000000000000
+    new: 4b26cca022ab9667a1c51704a1b92fbde9193192
+  - ref: refs/tags/nfsd-5.18
+    old: 0000000000000000000000000000000000000000
+    new: dfa59b6f7f26bc32621d9e2cd4e94f5e968e5b19
+  - ref: refs/tags/nfsd-5.18-1
+    old: 0000000000000000000000000000000000000000
+    new: 18d29bb2cde7bd6cab01f9985b5b21db0d4c77df
+  - ref: refs/tags/nfsd-5.19
+    old: 0000000000000000000000000000000000000000
+    new: 8a3ddf8b15077e5cef7e9f5b2374eec71123e4be
+  - ref: refs/tags/nfsd-5.19-1
+    old: 0000000000000000000000000000000000000000
+    new: c0253773635233696bc870efc768a4ac902bbd39
+  - ref: refs/tags/nfsd-5.19-2
+    old: 0000000000000000000000000000000000000000
+    new: 6e30bfb9cc86cf457b82b3c507e147471b098c43
+  - ref: refs/tags/nfsd-5.19-3
+    old: 0000000000000000000000000000000000000000
+    new: 6248f393ce9392d5765b38babb3bfcea1e0333ba
+  - ref: refs/tags/nfsd-5.2
+    old: 0000000000000000000000000000000000000000
+    new: 1082b28a9780f4d97f4b8694b1a85c2b09650763
+  - ref: refs/tags/nfsd-5.2-1
+    old: 0000000000000000000000000000000000000000
+    new: 4e2370d35fbac1dc28afd555150b89cb5b2e78e8
+  - ref: refs/tags/nfsd-5.2-2
+    old: 0000000000000000000000000000000000000000
+    new: 2a5501b8948be9fe9c723f9c8cab2563a08a6d85
+  - ref: refs/tags/nfsd-5.3
+    old: 0000000000000000000000000000000000000000
+    new: c860a951dce9782af7bac8fd163f721534b574f3
+  - ref: refs/tags/nfsd-5.3-1
+    old: 0000000000000000000000000000000000000000
+    new: cb2b59489f5f2ae860690f30a7a56b28158ab261
+  - ref: refs/tags/nfsd-5.4
+    old: 0000000000000000000000000000000000000000
+    new: 6295799e6cbe6336fc4aa4fb2808c7463d94baed
+  - ref: refs/tags/nfsd-5.5
+    old: 0000000000000000000000000000000000000000
+    new: c1e8237cb1b19bf3e99cd137e493f5dc73ccdd1d
+  - ref: refs/tags/nfsd-5.6
+    old: 0000000000000000000000000000000000000000
+    new: b1d2baeab6e4a05f395f123e8cec802a611dd118
+  - ref: refs/tags/nfsd-5.7
+    old: 0000000000000000000000000000000000000000
+    new: b659d8b8dff0421565c5dfc2540fa4462438d220
+  - ref: refs/tags/nfsd-5.7-rc-1
+    old: 0000000000000000000000000000000000000000
+    new: fe5ad4a7a629e38089a2798d7f07dc4df2722d4f
+  - ref: refs/tags/nfsd-5.7-rc-2
+    old: 0000000000000000000000000000000000000000
+    new: 2976a1ec76523d982a61c4a710aed7a24414b08a
+  - ref: refs/tags/nfsd-5.8
+    old: 0000000000000000000000000000000000000000
+    new: f572d37e42cf6250ceb3a620f103a731091c37bb
+  - ref: refs/tags/nfsd-5.8-1
+    old: 0000000000000000000000000000000000000000
+    new: d3b985c0c1758fd6746793a5e7432e41353e0bad
+  - ref: refs/tags/nfsd-5.8-2
+    old: 0000000000000000000000000000000000000000
+    new: 96520cd9dca52f52035dd0782cf0942622a487f6
+  - ref: refs/tags/nfsd-5.9
+    old: 0000000000000000000000000000000000000000
+    new: b83710d182be7ebc1fd03596cab0f6e6c43b79b2
+  - ref: refs/tags/nfsd-5.9-1
+    old: 0000000000000000000000000000000000000000
+    new: 5e75b49d23a6c6fa6db2e43570df0bf49015cc8a
+  - ref: refs/tags/nfsd-5.9-2
+    old: 0000000000000000000000000000000000000000
+    new: d1da547fc4b50a2d762fa5d269e544127ecd7d75
+  - ref: refs/tags/nfsd-6.0
+    old: 0000000000000000000000000000000000000000
+    new: 963eed02475e480508c4a9141b9171227c255b44
+  - ref: refs/tags/nfsd-6.0-1
+    old: 0000000000000000000000000000000000000000
+    new: 7a0728e3918037e74f7ad58c0b03162b216a9d10
+  - ref: refs/tags/nfsd-6.1
+    old: 0000000000000000000000000000000000000000
+    new: e749753ed33b235d5d295b82bd2346b6583445ce
+  - ref: refs/tags/nfsd-6.1-1
+    old: 0000000000000000000000000000000000000000
+    new: 1e058927806bc3ee2ac4e7fee81948819713cdcc
+  - ref: refs/tags/nfsd-6.1-2
+    old: 0000000000000000000000000000000000000000
+    new: 1e0b056e9e63d00b2818c15777626d06972fd320
+  - ref: refs/tags/nfsd-6.1-3
+    old: 0000000000000000000000000000000000000000
+    new: 3f10132f4b9a69188237dcf799e3ea0d8c55d9a5
+  - ref: refs/tags/nfsd-6.1-4
+    old: 0000000000000000000000000000000000000000
+    new: ddeece5a8e432c5fd8e8e6c917adc633cfc8fd9f
+  - ref: refs/tags/nfsd-6.1-5
+    old: 0000000000000000000000000000000000000000
+    new: 0f4b8a89c8dbad1aa947f3b10233645c1cb24ee7
+  - ref: refs/tags/nfsd-6.1-6
+    old: 0000000000000000000000000000000000000000
+    new: 12dc750bbd3fea9b252e4b763dd048ac74494ee7
+  - ref: refs/tags/nfsd-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 0c7d655cadb5ac94ce02840ea3da0b777be1ce56
+  - ref: refs/tags/nfsd-6.10-1
+    old: 0000000000000000000000000000000000000000
+    new: 502bafbe1b9125383f47278747e4ecda65cf8c80
+  - ref: refs/tags/nfsd-6.2
+    old: 0000000000000000000000000000000000000000
+    new: 9c4c2fc062ae440b9c16d7988ac740d84e6fd2d6
+  - ref: refs/tags/nfsd-6.2-1
+    old: 0000000000000000000000000000000000000000
+    new: e4c45cd99844a9f319947183510043306cdd9238
+  - ref: refs/tags/nfsd-6.2-2
+    old: 0000000000000000000000000000000000000000
+    new: da9f83a3cf5612cdc7c5310605cd156111c4d301
+  - ref: refs/tags/nfsd-6.2-3
+    old: 0000000000000000000000000000000000000000
+    new: 58f7ac0c73cccf09092c0f1ab8d9d94f7eeb08b3
+  - ref: refs/tags/nfsd-6.2-4
+    old: 0000000000000000000000000000000000000000
+    new: 2184fad010641febd5d19e33de1983beedb9ea4e
+  - ref: refs/tags/nfsd-6.2-5
+    old: 0000000000000000000000000000000000000000
+    new: fda23e4ccd474fe6d3b66a11cee87e85fbaaf6ff
+  - ref: refs/tags/nfsd-6.2-6
+    old: 0000000000000000000000000000000000000000
+    new: 920287a709d89b141865d9069d6898ed590c8a91
+  - ref: refs/tags/nfsd-6.3
+    old: 0000000000000000000000000000000000000000
+    new: e53b0858f4a8583dfc5ba3ce217a9140c2c81f63
+  - ref: refs/tags/nfsd-6.3-1
+    old: 0000000000000000000000000000000000000000
+    new: 86ed4c40cec1cba80e1902ac8f087a4c87b3a23d
+  - ref: refs/tags/nfsd-6.3-2
+    old: 0000000000000000000000000000000000000000
+    new: dfff1b8a7512e49521980d9fa6f4be6a81116fc3
+  - ref: refs/tags/nfsd-6.3-3
+    old: 0000000000000000000000000000000000000000
+    new: 9961bac48f2b347ec935e3b936f5730496eb319e
+  - ref: refs/tags/nfsd-6.3-4
+    old: 0000000000000000000000000000000000000000
+    new: 1004f2b1c375fddbcf8f2e890b6329e0a8cfee7e
+  - ref: refs/tags/nfsd-6.3-5
+    old: 0000000000000000000000000000000000000000
+    new: 093a1b683ec68e599050a432936a7135847cbe81
+  - ref: refs/tags/nfsd-6.3-6
+    old: 0000000000000000000000000000000000000000
+    new: 1b8d1f6db637e326651e634fa6ba6995e3247773
+  - ref: refs/tags/nfsd-6.4
+    old: 0000000000000000000000000000000000000000
+    new: 24ce85f861f113df2e888b8e30af4d7088a2ec23
+  - ref: refs/tags/nfsd-6.4-1
+    old: 0000000000000000000000000000000000000000
+    new: 07d30fd03cd0d91c70f0f45649ca1cb3b9ef31b1
+  - ref: refs/tags/nfsd-6.4-2
+    old: 0000000000000000000000000000000000000000
+    new: 6d56448115ee6c32f10f4459a9153927ef5b675b
+  - ref: refs/tags/nfsd-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 98813468c23572f111fb8c86d0ad4fc568d16c2b
+  - ref: refs/tags/nfsd-6.5-1
+    old: 0000000000000000000000000000000000000000
+    new: 29822cfb7f902e9c00e68fa38d0374f508cd0307
+  - ref: refs/tags/nfsd-6.5-2
+    old: 0000000000000000000000000000000000000000
+    new: 6fe4a9f9857759728069c00a89dc32464dc4a3ac
+  - ref: refs/tags/nfsd-6.5-3
+    old: 0000000000000000000000000000000000000000
+    new: 4683047bee51809690954689ef72de1418a5b426
+  - ref: refs/tags/nfsd-6.5-4
+    old: 0000000000000000000000000000000000000000
+    new: d1c4e1453375da3643cf5df4dbceb5d0e01085e6
+  - ref: refs/tags/nfsd-6.5-5
+    old: 0000000000000000000000000000000000000000
+    new: fe3048510107a1809fc2315695ea2b9e50263a54
+  - ref: refs/tags/nfsd-6.6
+    old: 0000000000000000000000000000000000000000
+    new: b90a4844f403c516d70d99a3a34518fd5dffe801
+  - ref: refs/tags/nfsd-6.6-1
+    old: 0000000000000000000000000000000000000000
+    new: 30cf5b7c1bfb5e7d658579cd365fa9fb901eb2b9
+  - ref: refs/tags/nfsd-6.6-2
+    old: 0000000000000000000000000000000000000000
+    new: 0dc24d11a326b1117b54c5481c51374947ba0cf4
+  - ref: refs/tags/nfsd-6.7
+    old: 0000000000000000000000000000000000000000
+    new: 27ef4e9d6506443484fe1ced9c1227e143ab5382
+  - ref: refs/tags/nfsd-6.7-1
+    old: 0000000000000000000000000000000000000000
+    new: 8b0f7c4ddc695fa20cdaa3d8eb2212777a75e672
+  - ref: refs/tags/nfsd-6.7-2
+    old: 0000000000000000000000000000000000000000
+    new: 1a8546cef1e9a89c0c09cc2725296841cb2b27ab
+  - ref: refs/tags/nfsd-6.7-3
+    old: 0000000000000000000000000000000000000000
+    new: 4cc1ff06986e672c5990f050f710eb2bcf2d7469
+  - ref: refs/tags/nfsd-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 8ca2933bcb320232d44c946a5cdfb2400d0930cc
+  - ref: refs/tags/nfsd-6.8-1
+    old: 0000000000000000000000000000000000000000
+    new: 566b88192f3061be780900be77e34db74f96f845
+  - ref: refs/tags/nfsd-6.8-2
+    old: 0000000000000000000000000000000000000000
+    new: a5b3e91cfbe9b062b434b48c23e3c602b1fd12f4
+  - ref: refs/tags/nfsd-6.8-3
+    old: 0000000000000000000000000000000000000000
+    new: 8bf0f95eb4414a5b9c4b5dd58aac0198dab1bb5c
+  - ref: refs/tags/nfsd-6.9
+    old: 0000000000000000000000000000000000000000
+    new: c82fa560131a89b12f91eca28521d14b5afc4347
+  - ref: refs/tags/nfsd-6.9-1
+    old: 0000000000000000000000000000000000000000
+    new: ce43b5c07d89905a2a08b879d3baab7d079b35e5
+  - ref: refs/tags/nfsd-6.9-2
+    old: 0000000000000000000000000000000000000000
+    new: fa1f7931e13cd654ccfb6213febf548ab0a3f020
+  - ref: refs/tags/nfsd-6.9-3
+    old: 0000000000000000000000000000000000000000
+    new: f6b7a5c0361d3b27afbbbca99a8f0243d02e842e
+  - ref: refs/tags/nfsd-6.9-4
+    old: 0000000000000000000000000000000000000000
+    new: b5140d2162c1301cf0c894f2b46cc7c2c4ba4f56
+  - ref: refs/tags/nfsd-6.9-5
+    old: 0000000000000000000000000000000000000000
+    new: ba993ce91d837b0af696e36cd64c81832bb96018
+  - ref: refs/tags/nfsd-6.9-6
+    old: 0000000000000000000000000000000000000000
+    new: d0782c3cba9d2857c4d1ccd4d4c918cd35daded4
+  - ref: refs/tags/v5.10.1
+    old: 0000000000000000000000000000000000000000
+    new: f12366d9f172c4fc84cd114801b87588cb663074
+  - ref: refs/tags/v5.10.10
+    old: 0000000000000000000000000000000000000000
+    new: 424ddf6974d1a28d13a79609a186f5b8a7e6720b
+  - ref: refs/tags/v5.10.100
+    old: 0000000000000000000000000000000000000000
+    new: dc88e7468752712707221cad5652afaddb86cef5
+  - ref: refs/tags/v5.10.101
+    old: 0000000000000000000000000000000000000000
+    new: 35cc41cb6469ec351bf185915b62fee1f9516527
+  - ref: refs/tags/v5.10.102
+    old: 0000000000000000000000000000000000000000
+    new: 3154397d9caa98a25be0e70ae4993c09194b52a6
+  - ref: refs/tags/v5.10.103
+    old: 0000000000000000000000000000000000000000
+    new: 62b6d71f2492dd62df19014ffd2a7530514f17ba
+  - ref: refs/tags/v5.10.104
+    old: 0000000000000000000000000000000000000000
+    new: bc32b1670ab56f202dd67c3b5a4512383b9f1acb
+  - ref: refs/tags/v5.10.11
+    old: 0000000000000000000000000000000000000000
+    new: 4fb044562641e742ff558811ffbd0c7fa8da8a05
+  - ref: refs/tags/v5.10.12
+    old: 0000000000000000000000000000000000000000
+    new: 0442c7bb172bbd7625cf65a2da7b86f1c2297410
+  - ref: refs/tags/v5.10.13
+    old: 0000000000000000000000000000000000000000
+    new: 77fbca2a77dd34be125e4eaa3c9c2d7c33664593
+  - ref: refs/tags/v5.10.14
+    old: 0000000000000000000000000000000000000000
+    new: bf84793032b0f5095a6040888b2454283ee52c27
+  - ref: refs/tags/v5.10.15
+    old: 0000000000000000000000000000000000000000
+    new: 0b4f554eac0edd57d41f556111936072d8b937dc
+  - ref: refs/tags/v5.10.16
+    old: 0000000000000000000000000000000000000000
+    new: 1302b295c2178266649f016757d3ed136ff7f933
+  - ref: refs/tags/v5.10.17
+    old: 0000000000000000000000000000000000000000
+    new: 2cb2bc6111d2169b5c58a5c0d6147702c0510360
+  - ref: refs/tags/v5.10.18
+    old: 0000000000000000000000000000000000000000
+    new: e649d2d24e886d30edc3672ebf43c694b4ee2230
+  - ref: refs/tags/v5.10.19
+    old: 0000000000000000000000000000000000000000
+    new: ae6a359f10b0a3c4bad5c91b927c5d0f2246b4b0
+  - ref: refs/tags/v5.10.2
+    old: 0000000000000000000000000000000000000000
+    new: e07d8033a98423c1a753140f3d71d4d460f14879
+  - ref: refs/tags/v5.10.20
+    old: 0000000000000000000000000000000000000000
+    new: 502b1e6e233b4d71f29ef19f9b08338be824ab96
+  - ref: refs/tags/v5.10.21
+    old: 0000000000000000000000000000000000000000
+    new: ca664480a5bdc6dff3662eea0ba374b425ec988b
+  - ref: refs/tags/v5.10.22
+    old: 0000000000000000000000000000000000000000
+    new: 068fcb4af9360bac1e393fd7a81851fe3c221410
+  - ref: refs/tags/v5.10.23
+    old: 0000000000000000000000000000000000000000
+    new: 9b6a106f851e0b2b14c526ad9fdbafd23418278a
+  - ref: refs/tags/v5.10.24
+    old: 0000000000000000000000000000000000000000
+    new: acd07024f1263e0fef9df79bebf71cd8f7160e3a
+  - ref: refs/tags/v5.10.25
+    old: 0000000000000000000000000000000000000000
+    new: bfea799d50ea54d9dbeb917ec31b6a4d948f5d5d
+  - ref: refs/tags/v5.10.26
+    old: 0000000000000000000000000000000000000000
+    new: d21c465def321e984b0663d79da034d799089b3a
+  - ref: refs/tags/v5.10.27
+    old: 0000000000000000000000000000000000000000
+    new: ff8a6edb748c3f307f6782ca4bf9c46f30c134cc
+  - ref: refs/tags/v5.10.28
+    old: 0000000000000000000000000000000000000000
+    new: 6f6d9038ac966ec6b70e72a707cb9b76213fe864
+  - ref: refs/tags/v5.10.29
+    old: 0000000000000000000000000000000000000000
+    new: dfaff3ae33d46cf92cdfa22d6088dc94a919a6d2
+  - ref: refs/tags/v5.10.3
+    old: 0000000000000000000000000000000000000000
+    new: a58f7f72ec7d6424873704b7e3e4984fded86c5f
+  - ref: refs/tags/v5.10.30
+    old: 0000000000000000000000000000000000000000
+    new: 8597904f495bfcf9117074336da60eec58d3d0d6
+  - ref: refs/tags/v5.10.31
+    old: 0000000000000000000000000000000000000000
+    new: 5b6eca85dc65609fa71587745e2de04cbbd2564d
+  - ref: refs/tags/v5.10.32
+    old: 0000000000000000000000000000000000000000
+    new: e1b81efb14dd2c7d31e2317c0a19c545e9f47cc2
+  - ref: refs/tags/v5.10.33
+    old: 0000000000000000000000000000000000000000
+    new: 5a004d8ea97d6e6c6fabe0b9c744d4ae1be80704
+  - ref: refs/tags/v5.10.34
+    old: 0000000000000000000000000000000000000000
+    new: dcee53f60bf35376343e5ede00c7466d02888ccc
+  - ref: refs/tags/v5.10.35
+    old: 0000000000000000000000000000000000000000
+    new: 387bbc0dbb1b51dc34baf346e2593773ddf66f4b
+  - ref: refs/tags/v5.10.36
+    old: 0000000000000000000000000000000000000000
+    new: b12929afbf309fd0719b689985cfb2f73286b2d6
+  - ref: refs/tags/v5.10.37
+    old: 0000000000000000000000000000000000000000
+    new: 2825599bf7b947672d5fb33a1a68478f7804ecad
+  - ref: refs/tags/v5.10.38
+    old: 0000000000000000000000000000000000000000
+    new: b59c00b74ccf1b3e056be3623ff6210aec56a856
+  - ref: refs/tags/v5.10.39
+    old: 0000000000000000000000000000000000000000
+    new: 80ce7e935747fd8bd1f59217514b9b33f7cf2322
+  - ref: refs/tags/v5.10.4
+    old: 0000000000000000000000000000000000000000
+    new: 9701b9dcf8213f8bbd78625eb687f9089c3b5b95
+  - ref: refs/tags/v5.10.40
+    old: 0000000000000000000000000000000000000000
+    new: b1b56524301597363afff292769dfa75fbd2aae7
+  - ref: refs/tags/v5.10.41
+    old: 0000000000000000000000000000000000000000
+    new: 6e1c69d7d79c21330e6af07d309b4c3680d61259
+  - ref: refs/tags/v5.10.42
+    old: 0000000000000000000000000000000000000000
+    new: 2276a4a138780f4afe90d41ecb80d0715cf48f5a
+  - ref: refs/tags/v5.10.43
+    old: 0000000000000000000000000000000000000000
+    new: 97583088e1a46f5fa9538fcd37a72d3890c32a43
+  - ref: refs/tags/v5.10.44
+    old: 0000000000000000000000000000000000000000
+    new: f26222a3daac2c03855d7137e9a6268db0518865
+  - ref: refs/tags/v5.10.45
+    old: 0000000000000000000000000000000000000000
+    new: baa778721ef3434658dd98f6163da1b7493beb56
+  - ref: refs/tags/v5.10.46
+    old: 0000000000000000000000000000000000000000
+    new: 7149d0f2e67d7f8204e0db060ba86c6bae8746e5
+  - ref: refs/tags/v5.10.47
+    old: 0000000000000000000000000000000000000000
+    new: 9d430e31bc5ab0fbd7cec991a73d0662dc7b6d81
+  - ref: refs/tags/v5.10.48
+    old: 0000000000000000000000000000000000000000
+    new: a307db2510643f12e293c3d164bfac1994787b70
+  - ref: refs/tags/v5.10.49
+    old: 0000000000000000000000000000000000000000
+    new: 25bd06f595ad0667aa26cfe567051af05deae0f2
+  - ref: refs/tags/v5.10.5
+    old: 0000000000000000000000000000000000000000
+    new: cd08e7af38649132c2c867b47b91da80c6c070d8
+  - ref: refs/tags/v5.10.50
+    old: 0000000000000000000000000000000000000000
+    new: ec0c62569082587c7fbceccc53a22419160756ff
+  - ref: refs/tags/v5.10.51
+    old: 0000000000000000000000000000000000000000
+    new: 6a01decb5c78976b35dd817ff76e02cc39f887dc
+  - ref: refs/tags/v5.10.52
+    old: 0000000000000000000000000000000000000000
+    new: f171ff6943001ff3eea62ba5e5f200a40fa825c4
+  - ref: refs/tags/v5.10.53
+    old: 0000000000000000000000000000000000000000
+    new: e9e098c85cd5c0b1113315d44ef3bc3663c4ab19
+  - ref: refs/tags/v5.10.54
+    old: 0000000000000000000000000000000000000000
+    new: d98b21ec6be4f14dd22fbd3dfe29b2f3f8dde36c
+  - ref: refs/tags/v5.10.55
+    old: 0000000000000000000000000000000000000000
+    new: 5d06fc98e2b7945ed41a357b6d63917d3f513b57
+  - ref: refs/tags/v5.10.56
+    old: 0000000000000000000000000000000000000000
+    new: b15fcee581c77a22151169537acec986e8d05b73
+  - ref: refs/tags/v5.10.57
+    old: 0000000000000000000000000000000000000000
+    new: f2dfdd18067183a9e9c84b1eb3325205674e3012
+  - ref: refs/tags/v5.10.58
+    old: 0000000000000000000000000000000000000000
+    new: 6edc75bf867d6895a900f80ee5347b2987568d54
+  - ref: refs/tags/v5.10.59
+    old: 0000000000000000000000000000000000000000
+    new: d5178fd6fcca6c331bd3b7b14f2edf75e2fd3afe
+  - ref: refs/tags/v5.10.6
+    old: 0000000000000000000000000000000000000000
+    new: 3a009ea166de1d0b804ddc6274b559c2ce0eebf3
+  - ref: refs/tags/v5.10.60
+    old: 0000000000000000000000000000000000000000
+    new: 6a0911843b5114f0793fa884e8305d8ac883fee1
+  - ref: refs/tags/v5.10.61
+    old: 0000000000000000000000000000000000000000
+    new: 74a7bcf9ce4ffbaaf9f59276a2a18d514d005747
+  - ref: refs/tags/v5.10.62
+    old: 0000000000000000000000000000000000000000
+    new: 8fbf7489b8c667ca9200c9f279ea49d4ebbdddb4
+  - ref: refs/tags/v5.10.63
+    old: 0000000000000000000000000000000000000000
+    new: 8fdb78a98cacd20ce7a00e87369668370888f353
+  - ref: refs/tags/v5.10.64
+    old: 0000000000000000000000000000000000000000
+    new: bed6d60e2cc6dcb57f1dd376d686b411198bc4dd
+  - ref: refs/tags/v5.10.65
+    old: 0000000000000000000000000000000000000000
+    new: 43ceb4e4354135939207669f68ff10beaac3ba4e
+  - ref: refs/tags/v5.10.66
+    old: 0000000000000000000000000000000000000000
+    new: 92f794460ea4fbdb0f25cacc00c15651526b077d
+  - ref: refs/tags/v5.10.67
+    old: 0000000000000000000000000000000000000000
+    new: 7eff07b953619567880d347a6a5fa4b7f5a7ed48
+  - ref: refs/tags/v5.10.68
+    old: 0000000000000000000000000000000000000000
+    new: 845a075b301ed1596d3782b40a4eb2b5d26cd1f2
+  - ref: refs/tags/v5.10.69
+    old: 0000000000000000000000000000000000000000
+    new: 573281ca0278f7e9358d5877b06b3d2e64dbc1a2
+  - ref: refs/tags/v5.10.7
+    old: 0000000000000000000000000000000000000000
+    new: 2cb4544ab3ee04a6acd24837d5477d476a0688ba
+  - ref: refs/tags/v5.10.70
+    old: 0000000000000000000000000000000000000000
+    new: 3fb4f61dc3307eedb69425c8c20f1c71bc17ffad
+  - ref: refs/tags/v5.10.71
+    old: 0000000000000000000000000000000000000000
+    new: 33432b5005a5db90f79fa4c3f1239115b464f724
+  - ref: refs/tags/v5.10.72
+    old: 0000000000000000000000000000000000000000
+    new: 8a3699288efa98f4119659ec0f674eb94a620c62
+  - ref: refs/tags/v5.10.73
+    old: 0000000000000000000000000000000000000000
+    new: 7de2c0938fa2d9fa140d3ee444c0c4841678c7ed
+  - ref: refs/tags/v5.10.74
+    old: 0000000000000000000000000000000000000000
+    new: 7cfd1889d583ccceecf65846b073467cce961263
+  - ref: refs/tags/v5.10.75
+    old: 0000000000000000000000000000000000000000
+    new: 63c28652e29f957f49ff93302dd00ce9cfa3eb33
+  - ref: refs/tags/v5.10.76
+    old: 0000000000000000000000000000000000000000
+    new: 8f2c97c909946b6a494d84092904460ad14b2e8e
+  - ref: refs/tags/v5.10.77
+    old: 0000000000000000000000000000000000000000
+    new: c7ebe18db543821939117805add8c4066a5bd453
+  - ref: refs/tags/v5.10.78
+    old: 0000000000000000000000000000000000000000
+    new: a29d9c6190af1fd32d61fb3178922bebc697facd
+  - ref: refs/tags/v5.10.79
+    old: 0000000000000000000000000000000000000000
+    new: a4f82cc79b0538bf077b2fb180125aa503954d08
+  - ref: refs/tags/v5.10.8
+    old: 0000000000000000000000000000000000000000
+    new: 3096769c8d9dd9a1cf155e0836a120ab5b49929f
+  - ref: refs/tags/v5.10.80
+    old: 0000000000000000000000000000000000000000
+    new: 07b84418fcab20f2f57a8a9609943cf422d17318
+  - ref: refs/tags/v5.10.81
+    old: 0000000000000000000000000000000000000000
+    new: cc4c9a040ffc1141b1b4f47bd8c477b3dcecf1a2
+  - ref: refs/tags/v5.10.82
+    old: 0000000000000000000000000000000000000000
+    new: c31c6516697e061838b1b5f8d215cf127f2379e1
+  - ref: refs/tags/v5.10.83
+    old: 0000000000000000000000000000000000000000
+    new: 2518b8d7bc0fb7b6be1cf7fe7271f848e2f72d25
+  - ref: refs/tags/v5.10.84
+    old: 0000000000000000000000000000000000000000
+    new: 6bcb33ad4060cd878b1ecfeb3228a8f1b8589c9f
+  - ref: refs/tags/v5.10.85
+    old: 0000000000000000000000000000000000000000
+    new: 4d0eeb62b6f2ac46e26d8aabd0f5325228d87a9d
+  - ref: refs/tags/v5.10.86
+    old: 0000000000000000000000000000000000000000
+    new: 39f16efb0388482247fcb1660dcbe7a6cb5e8a93
+  - ref: refs/tags/v5.10.87
+    old: 0000000000000000000000000000000000000000
+    new: 35b8a3ade72244711af64b61cd4f4e545f8676a8
+  - ref: refs/tags/v5.10.88
+    old: 0000000000000000000000000000000000000000
+    new: f5c1d21bf90612bd7e7fc966fe2404689b98f10e
+  - ref: refs/tags/v5.10.89
+    old: 0000000000000000000000000000000000000000
+    new: 1614b0aff5ae6901f71d20910e74cd73ade5eb88
+  - ref: refs/tags/v5.10.9
+    old: 0000000000000000000000000000000000000000
+    new: 984bc0a86b20b7d413ea5ebebdf715467faf39d1
+  - ref: refs/tags/v5.10.90
+    old: 0000000000000000000000000000000000000000
+    new: 84fc93aaae2ce3875cd7f1e8c95e867f57a5534d
+  - ref: refs/tags/v5.10.91
+    old: 0000000000000000000000000000000000000000
+    new: b9c28c563fc9727bf5549665fa73016b78dd3531
+  - ref: refs/tags/v5.10.92
+    old: 0000000000000000000000000000000000000000
+    new: 85e5b54f5824586beec545a2858d3da5ad4bf714
+  - ref: refs/tags/v5.10.93
+    old: 0000000000000000000000000000000000000000
+    new: 965d76a89808974ee1d4382c439bd03f8b35dfa9
+  - ref: refs/tags/v5.10.94
+    old: 0000000000000000000000000000000000000000
+    new: 1d7f22eba95f78b4cc16bfcbd68fe71ab680a370
+  - ref: refs/tags/v5.10.95
+    old: 0000000000000000000000000000000000000000
+    new: cf899be6f7cf619e283548eb92422e012fe1b317
+  - ref: refs/tags/v5.10.96
+    old: 0000000000000000000000000000000000000000
+    new: dc8e6eb26207aeb671c83e6ca180575a66ec3ea7
+  - ref: refs/tags/v5.10.97
+    old: 0000000000000000000000000000000000000000
+    new: 64b9f9888a14554f55344ec25d1e02e5155f2c4c
+  - ref: refs/tags/v5.10.98
+    old: 0000000000000000000000000000000000000000
+    new: 139aafda4b45baea1e21b2d1768f8ad8b44c18da
+  - ref: refs/tags/v5.10.99
+    old: 0000000000000000000000000000000000000000
+    new: a2436672dd452dfc750e3499892ad3fb48b7fb80
