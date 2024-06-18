@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2464609100946874211=="
+Content-Type: multipart/mixed; boundary="===============2121524072997671863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Tue, 18 Jun 2024 20:35:16 -0000
-Message-Id: <171874291659.15512.6764153916280149542@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 20:41:33 -0000
+Message-Id: <171874329307.20806.14582896595106716726@gitolite.kernel.org>
 
---===============2464609100946874211==
+--===============2121524072997671863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,31 @@ user: pinchartl
 git_push_cert_status: E
 changes:
   - ref: refs/heads/vsp1/link-validation
-    old: 7e2a0c45fd2d0fe64379ffe3d90c560e351e10bc
-    new: 229cf4ef0fc23e1af5da478719f9854419150c63
+    old: 229cf4ef0fc23e1af5da478719f9854419150c63
+    new: 57e9aa6fc975923293660878303bf1260671fe66
     log: |
-         229cf4ef0fc23e1af5da478719f9854419150c63 media: renesas: vsp1: Validate all links through .link_validate()
+         57e9aa6fc975923293660878303bf1260671fe66 media: renesas: vsp1: Validate all links through .link_validate()
          
 
---===============2464609100946874211==
+--===============2121524072997671863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher laurent.pinchart@ideasonboard.com 1718742889 +0300
+pusher laurent.pinchart@ideasonboard.com 1718743260 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1718742908-1f89edb68e522488bc99da1e2ce7dbd3af4255f0
+nonce 1718743279-310c3e0d072838e9b48bb8b29d3549c9d1f61767
 
-7e2a0c45fd2d0fe64379ffe3d90c560e351e10bc 229cf4ef0fc23e1af5da478719f9854419150c63 refs/heads/vsp1/link-validation
+229cf4ef0fc23e1af5da478719f9854419150c63 57e9aa6fc975923293660878303bf1260671fe66 refs/heads/vsp1/link-validation
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnHvaSIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kU+oA/280FD2lepK8
-347TBqUJgruYgPEh9YP5QyeStYuebgpiAQCLLs2hUWAt/DcghqbeoY/OoyjL1pzw
-3mxUqtXVqb1ZAw==
-=8EMT
+iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnHw3CIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kl5oBAMySvMe7vVcp
+Rmy31Bh+hYVYBC5FMI2WQggo1VW4iFfFAP9drkcFBdWBZjJPwt9O93g/6brZrsTA
+XU6fZNSlLSb1Cg==
+=lHrm
 -----END PGP SIGNATURE-----
 
---===============2464609100946874211==--
+--===============2121524072997671863==--
