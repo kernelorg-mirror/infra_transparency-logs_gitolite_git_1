@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Tue, 18 Jun 2024 17:20:54 -0000
-Message-Id: <171873125439.552.1400301503394269884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 18 Jun 2024 17:32:50 -0000
+Message-Id: <171873197087.8211.4600523430222417901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/tags/linux_kselftest-fixes-6.10-rc5
     old: 0000000000000000000000000000000000000000
-    new: ebcb5c58187d353edfa78452a803bf7e968d3435
+    new: b55a0aa16b80e40c2a0cb291126dff6101687107
