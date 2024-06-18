@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0210783672954759295=="
+Content-Type: multipart/mixed; boundary="===============8110783516837315231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 18 Jun 2024 09:10:12 -0000
-Message-Id: <171870181233.2363.7211433232130242792@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 09:10:21 -0000
+Message-Id: <171870182173.2496.14449225772278379620@gitolite.kernel.org>
 
---===============0210783672954759295==
+--===============8110783516837315231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c3f38fa61af77b49866b006939479069cd451173
+  - ref: refs/heads/staging-linus
+    old: c3552ab19aeb8101b751e7c7ad45deab9e1134e1
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-c3f38fa61af7-6ba59ff42279.txt
+    log: revlist-c3552ab19aeb-6ba59ff42279.txt
 
---===============0210783672954759295==
+--===============8110783516837315231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701813 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701822 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1718701810-d9e62d048e20e62dea990576dbe861223b9eb8e5
+nonce 1718701817-86657f26851b7f9d338a33d2acfbba55bddf4664
 
-c3f38fa61af77b49866b006939479069cd451173 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/main
+c3552ab19aeb8101b751e7c7ad45deab9e1134e1 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTvUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+npgP/0YTtd65u4ubMXSbhAIf
-+vWLFTiAlTOsPppTB55MtQkarm+XFxvJg/ReaesLB59PG8mKQEsLpfjEoQgNsQHN
-Nxb2BQdjI8kKADmjQKtPg7M1N9yI92cZMKusAd1UrI2gMDvJEvhFDK2k8H1G7/xX
-6HFaP9AsD9ejLB/ek0oJ6n9tiqF6t0S4jdf5ibUCKryUH0mFUVMJ6OChDppMf5Ol
-EQ8fEstso3mX2J02LdHZGWKUL31PcsXrlPMhGyZlqXCFjbPP4q71QMlBUV0gCdte
-+VQTYESm6Cna5gWldRjx9zeCrCZG2z+D3gWko36lmHg1p2yYc0awDyUA+Pjy/PDV
-md2fUXW1xwlnxr7YqRkDhkinuLVIRyi6QFAkc0XmpoeVGsh+u44xbWpqUBAl0KoC
-XxbbWgaoooFAJbrsajv1Jg+wXjWGvO8rdJkGgw+DNTMLq/KT2UaAwiTHuXxA3fQ6
-iW87Pfdiw29LH4tI2rnfKrKNIam+r4UKUJYWVjUkg5ypkT6kU3UaSfTgfL4nicwX
-dCp4G2VYQv8YbZXPUNgE5SSxarbw/KL3DPrV/tPBqDYZewFpfeNzQM0bQxssBm9d
-QBx8flI9Rwopshs2yRgaOCbwKndqrsjzSexMaUj6kOsMr145ffOkMsjijNo18mhF
-EYsbq5puya9vH+FQIL+03Z6I
-=1wyn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTv4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2PcP/jPaXh9FS+K1uSghx2c3
+lrg+alKheR0zEK1gn/abNX8NYGh8BUbad4cIO9xESQIWQlXI1AETpkbenQbN+Dq4
++iCuMIq5q2mxQLmWNxMG5ijtxykG/ZSx3/u+rAg5vl/vKrR+RMmiA1LY+5ofdQ0V
+us/3/v2qSDaFQe6xxGEj8q5zwl26MkalVh0p8Pbgk3qhfHqpAuiqPjdPoCz/ersq
+E+g7WbPqcEvHmlDoJtE7kCdY5gE8k+rzaxAoXtYw6wvXLD8vBkDulSNNB7Pmczrd
+0bcRBUSFInGa7hhSO57OlBiPttihn1oIRxyMi3+H0+nGOdMvcTe6LxITisl8jEpS
+d8/qJVShXtvnEEDXjVx7uY/4lSqyjF/ZSo4u9VCwxpfj42dU1CB0YMB9zcVfN53E
+WcQ3DfNybdzpzepXY4qgFVLIyugefsrgRxbElznwcrgYBH1sJFJPgdnzLC5JJuny
+aTEYorBCYNv617pDDFzMu9+omYDHMzZzd6i9cUXm79arYci6nb5U3xLIOVOnANO7
+h1/WcnsZgoPU3sUTVgl5RaHHOzTIMlTnvUoh6rhab7aNp1dg1nQl0Y7fyH82tqzY
+qnVye+pd7RNoQmaUH1aZm8B6syXtpsBuuD2fX+1ZU0NxtDbvxSIYEIQBlvtUY0pW
+k59vfYnfDDXX8+2khozNFqVD
+=NnBj
 -----END PGP SIGNATURE-----
 
---===============0210783672954759295==
+--===============8110783516837315231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-c3552ab19aeb-6ba59ff42279.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -300,7 +300,6 @@ d6301802607bc036823fb47abaa2cf92fb74db91 Merge tag 'wireless-2024-06-03' of git:
 3ec8ebd8a5b782d56347ae884de880af26f93996 EDAC/amd64: Convert PCIBIOS_* return codes to errnos
 f8367a74aebf88dc8b58a0db6a6c90b4cb8fc9d3 EDAC/igen6: Convert PCIBIOS_* return codes to errnos
 a535d59432370343058755100ee75ab03c0e3f91 net: tls: fix marking packets as decrypted
-c3552ab19aeb8101b751e7c7ad45deab9e1134e1 staging: vchiq_debugfs: Fix NPD in vchiq_dump_state
 a295ec52c8624883885396fde7b4df1a179627c3 iommu/amd: Fix sysfs leak in iommu init
 cc8d89d0637990c66440a226f443d95340979a04 iommu/dma: Fix domain init
 89e8a2366e3bce584b6c01549d5019c5cda1205e iommu: Return right value in iommu_sva_bind_device()
@@ -698,4 +697,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============0210783672954759295==--
+--===============8110783516837315231==--
