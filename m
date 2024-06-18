@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 18 Jun 2024 11:30:06 -0000
-Message-Id: <171871020698.24301.2419004116295469969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 18 Jun 2024 11:31:30 -0000
+Message-Id: <171871029052.24890.9219867313323901675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 90523865a3a7ac9cd1ff2989f73fbba1395646c8
-    new: 20d8a574a1bba47290d57940a30a821ee33c7bd7
+    old: 041cc86b3653cbcdf6ab96c2f2ae34f3d0a99b0a
+    new: e845bb84fb6ec57f979cfba40e794c6e8b249585
     log: |
-         c402d0cd6278e4d0a865fd5351758ceff7d49a4b linux-firmware: Update firmware file for Intel Bluetooth Pulsar core
-         afb0e48601e5f166d7a7134108d4e0b169560770 linux-firmware: Update firmware file for Intel Bluetooth Solar core
-         b595262c790ff97b0ab7cfc400cb45de3e54bcff linux-firmware: Update firmware file for Intel Bluetooth Magnetor core
-         3ba1644a2199b7fa21c071231215ee2dedbdd7f1 linux-firmware: Update firmware file for Intel BlazarU core
-         20d8a574a1bba47290d57940a30a821ee33c7bd7 Merge branch 'main' into 'main'
+         777b8afb8179155353ec14b1d8153122410aba29 net: phy: introduce core support for phy-mode = "10g-qxgmii"
+         5dfabcdd76b1455c5378abbcb2e68285cf7eb554 dt-bindings: net: ethernet-controller: add 10g-qxgmii mode
+         e845bb84fb6ec57f979cfba40e794c6e8b249585 Merge branch 'introduce-phy-mode-10g-qxgmii'
          
