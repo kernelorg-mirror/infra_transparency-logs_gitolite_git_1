@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 18 Jun 2024 15:18:38 -0000
-Message-Id: <171872391890.5632.10116205099839372733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 18 Jun 2024 15:19:40 -0000
+Message-Id: <171872398096.6063.15155039957347528441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 9360c2da682fbf8a26aaca805be4307411f80392
-    new: 81e5a080450a93875db58fa25847d009dc18ebed
+    old: 3c7be53da81d5186c2fc7398ea39e256de9a53bb
+    new: 8384e6548a46c4b3f5f133f37f0a50d754ba35be
     log: |
-         81e5a080450a93875db58fa25847d009dc18ebed Bluetooth: ISO: Check socket flag instead of hcon
+         8384e6548a46c4b3f5f133f37f0a50d754ba35be Tue Jun 18 11:18:51 AM EDT 2024
          
