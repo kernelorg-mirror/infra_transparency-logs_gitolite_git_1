@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Jun 2024 15:48:50 -0000
-Message-Id: <171872573080.29155.4440196068833685008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 18 Jun 2024 15:50:03 -0000
+Message-Id: <171872580341.30461.15173463418398143802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/20240612_krzysztof_kozlowski_asoc_codecs_wcd_family_cleanups
-    old: 0000000000000000000000000000000000000000
-    new: 34935cd4721f0492eafbc516dd1fc7f5f687fa76
-  - ref: refs/heads/fileGNDtWY
-    old: 0000000000000000000000000000000000000000
-    new: 9f774c757e3fb2ac32dc4377e8f21f3364a8df81
-  - ref: refs/heads/v2_20240613_andrejs_cainikovs_asoc_nau8822_add_mclk_support
-    old: 0000000000000000000000000000000000000000
-    new: 93f12a75682698ad4d2614b88cc68f52bb8fb917
+  - ref: refs/heads/for-6.11/block
+    old: b83bd486b43d2b7f10595a9d7a52d41023eaa9c1
+    new: bb7e5a193d8becf3920e3848287f1b23c5fc9b24
+    log: |
+         bb7e5a193d8becf3920e3848287f1b23c5fc9b24 block, bfq: remove blkg_path()
+         
+  - ref: refs/heads/for-next
+    old: 7c7a0732285c9dbdc52c04241a518df0367fd116
+    new: bd7eca402ba9a8efd608cf4ddc0fc91fb61c62b9
+    log: |
+         bb7e5a193d8becf3920e3848287f1b23c5fc9b24 block, bfq: remove blkg_path()
+         bd7eca402ba9a8efd608cf4ddc0fc91fb61c62b9 Merge branch 'for-6.11/block' into for-next
+         
