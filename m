@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 18 Jun 2024 01:00:58 -0000
-Message-Id: <171867245842.31567.1027379737064691650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 18 Jun 2024 01:07:19 -0000
+Message-Id: <171867283956.5118.14358024217859332283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11.v4
-    old: 0000000000000000000000000000000000000000
-    new: 5f16a352e5126c614e3c7130110341e13e09e68b
-  - ref: refs/tags/nfs-for-6.10-2
-    old: 0000000000000000000000000000000000000000
-    new: 015493048e4cb79c55d202e4d86177d69a86682f
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
-  - ref: refs/tags/v6.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
+  - ref: refs/heads/main
+    old: 0b9130247f3b6a1122478471ff0e014ea96bb735
+    new: d46401052c2d5614da8efea5788532f0401cb164
+    log: |
+         9e046bb111f13461d3f9331e24e974324245140e tcp: clear tp->retrans_stamp in tcp_rcv_fastopen_synack()
+         e874557fce1b6023efafd523aee0c347bf7f1694 selftests: mptcp: userspace_pm: fixed subtest names
+         2eab4543a2204092c3a7af81d7d6c506e59a03a6 ipv6: prevent possible NULL deref in fib6_nh_init()
+         b86762dbe19a62e785c189f313cda5b989931f37 ipv6: prevent possible NULL dereference in rt6_probe()
+         d46401052c2d5614da8efea5788532f0401cb164 xfrm6: check ip6_dst_idev() return value in xfrm6_get_saddr()
+         
