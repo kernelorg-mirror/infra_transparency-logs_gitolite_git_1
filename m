@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 18 Jun 2024 01:35:45 -0000
-Message-Id: <171867454568.26538.11191489931572458645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 18 Jun 2024 01:43:43 -0000
+Message-Id: <171867502362.32370.8910854063790145060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b379c2dc74738e995166c7b2ca8d1db118e2d8d6
-    new: 02524400b9d0bf2b6a6e25d7460ba0b3b94c9ee5
+  - ref: refs/heads/main
+    old: 0d9bb144276edfb53d61bd0b42788568b19bc718
+    new: efb459303dd5dd6e198a0d58322dc04c3356dc23
     log: |
-         02524400b9d0bf2b6a6e25d7460ba0b3b94c9ee5 patches/next: commit cleanup: further wordsmith messages
+         efb459303dd5dd6e198a0d58322dc04c3356dc23 net: Move dev_set_hwtstamp_phylib to net/core/dev.h
          
