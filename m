@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6448373413207504626=="
+Content-Type: multipart/mixed; boundary="===============3401546413166290104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 18 Jun 2024 09:07:24 -0000
-Message-Id: <171870164444.31357.8377122495187006786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 18 Jun 2024 09:07:33 -0000
+Message-Id: <171870165393.31557.9223721768636372661@gitolite.kernel.org>
 
---===============6448373413207504626==
+--===============3401546413166290104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/tty-6.10-rc4
-    old: f1cfb60a3f25494e89dff964cdbcb039eddf36ed
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/tags/v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
 
---===============6448373413207504626==
+--===============3401546413166290104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701645 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1718701643-6da45f7061583f63cf2e9444fca45644ce7aeec5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701651 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1718701649-2b85f21e7fc57602a9cc892dc89716bcb8bf99e2
 
-f1cfb60a3f25494e89dff964cdbcb039eddf36ed 0000000000000000000000000000000000000000 refs/tags/tty-6.10-rc4
+0000000000000000000000000000000000000000 c17c3ec8582ec50a5af41b359d7b281e56593201 refs/tags/v6.10-rc3
+0000000000000000000000000000000000000000 4d21bfe7c007bb471984890c70a39d01141bc65b refs/tags/v6.10-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTk0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ecgP/jcn2WcLiH3ozMHeyjuR
-bCU5rDr9qCzl0ciCLAWyAnEHSV7zCdrH+DLZztu0RyqqKYHsjcQi6mGa/fN9nIST
-7G7dqfQ9JbSt40CbSrrYizuou5f3ROYreS/txY7jCw4GjfjhcwuEQ+m2CTsNecsl
-J/OVqip6qpRCmvQnpkQYyQewYCUPqJpinSYLKJ1mzfX4L5FjIGqT2S5F2xzQ+XQf
-5lA+76sWsASdRZqgrgh4diGezwxTqF2d5s7H171o928y7mF9m1sk7zi1/FjQ+ot0
-NUdh40Dr6fOKW19cvl7cdUGKWN+b6v3I9JOW+8uAn1M1nLM0mhiyA5lx0tAgGaXW
-jyKbFj8XYRStO5uQdqR1JnCvtbwLesmaZAB0S3a8rEJSyJvG6mtrJFdLIct8+nTM
-3+/NL37YeT9StAEWQdTfck19Vjm59CFo/ED1hN112hTPNpO2tRS5TYG1jME/AATN
-69r4/hbgc/bhQZiOFOt0yqSY91YDkIRZhMUI9mZj+u8Lqg0t2BZz4dDsh7sy4C7L
-bg6GJOzqyYrreNuNVRXwUtOJEKkEkwuvawqWeHpDHQMAO+ALjmZNLBExGDpA2gTE
-4xzpH1M3pBl+9W6Cbaf6PtmFlcq+HcwNe8EEB771SmGhL6z3KWyQzIq8MiggWV1i
-zJrONozw1O9qGRba4HOExQNz
-=qqID
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTlMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JOgQAKZO/wXMrWrPNHqmJWD/
+oBd3mjn4h0UWtvdde9B5u+8Uz+ackNAKpjHUImU3Q6RNK/wcw7ZmgGshlu+64CvJ
+PZ77iGtesa/YUsf9pReKiQwqP1K5XPFVXBCe7xabgO5Eyl956w2VCIKZo3MDe+YO
+QYHsj99HuEKIzSWns2Wl/T8R+6a3v3RpRSMil6ai+/YiMlB4XIoqcXIgr+P4j0V4
+0L8JWpTmYEkwqoa8dwpLE2k481ovnaft6xPSYNs3CU0xIULfVr8dIiRpz9I9ZG2M
+scIn3cybj3VkAf1PWx0nZ0N3zJISpFgdHjYhkv/UMb8x7XzaP1leRG0giFq4PXOu
+RkaMzuiX1lDNSK/kcFgVsfOM5qvmDpigZmfuIlZbVcNHDLS1JnWl35IF1TZDefF3
+M4guTXlrWYnDwgpvjY5dNvpWiYaWOrm273Ih6niLqfWF2zBC6WGVRaW8TGpD4au9
+N3yXcG8yCgVM78VIu9WhDHy1grhyYDlhX9X1/FynoL4gtWtNBDOrfFCjtsKAEFy8
+8C/KiMMBU3Qx1q2iSYI4H4jgScgRPrTuz7xYr74yxljhBftEC1969dNhJaU/+4kK
+biscFC43/uRIrX8YTOzSZUV5RjSgOtocQ/OCzaLlHbQ3cI8xrLqKc6Gn0VY86Ird
+KAtQQb2QMvt/Lwt4r+PPhB40
+=sesJ
 -----END PGP SIGNATURE-----
 
---===============6448373413207504626==--
+--===============3401546413166290104==--
