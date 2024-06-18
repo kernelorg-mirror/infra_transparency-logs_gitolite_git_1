@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 18 Jun 2024 20:31:12 -0000
-Message-Id: <171874267221.12360.3804919442774872324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 18 Jun 2024 20:33:07 -0000
+Message-Id: <171874278754.13109.12795341490039521677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: d7f2bb23b532dfcac7f2178abe148f5aed91248b
-    new: db68634b738b8ba6078f879889d29e4795e585e3
+  - ref: refs/heads/main
+    old: 88c67aeb14070bab61d3dd8be96c8b42ebcaf53a
+    new: e2b447c9a1bba718f9c07513a1e8958209e862a1
     log: |
-         db68634b738b8ba6078f879889d29e4795e585e3 bindings: python: gpiod v2.2.0
+         81d23d2a24012e448f651e007fac2cfd20a45ce0 ptp: fix integer overflow in max_vclocks_store
+         e2b447c9a1bba718f9c07513a1e8958209e862a1 selftests: openvswitch: Use bash as interpreter
          
