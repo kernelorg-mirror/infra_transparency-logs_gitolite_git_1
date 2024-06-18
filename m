@@ -1,48 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3890699099345335741=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 18 Jun 2024 08:21:48 -0000
-Message-Id: <171869890838.29867.13294425430132490781@gitolite.kernel.org>
-
---===============3890699099345335741==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 18 Jun 2024 08:35:31 -0000
+Message-Id: <171869973103.7196.15120781822210942048@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 490d573b5a8579178beb648a69a2cbab91495a7b
-    new: fe899f891073dd002a13c1900d73985f8dfe9634
+  - ref: refs/heads/experimental
+    old: eaa61e46a21b2c491efb4b7b01da7d85fbd72da8
+    new: c1e7d65cfbbb87816e068123c667d12ef15b2e1d
     log: |
-         5958448d8edf6294d4a342b66bb57471a75c037d dt-bindings: platform: Add Lenovo Yoga C630 EC
-         5e5f2f92cccc29f356422d3cbc104f7f42430f22 platform: arm64: add Lenovo Yoga C630 WOS EC driver
-         fe899f891073dd002a13c1900d73985f8dfe9634 Merge branch 'pdx86/platform-drivers-x86-lenovo-c630' into review-ilpo
+         1a34df51725d379a56cc93425462c44716f4dade erofs-utils: simplify erofs_insert_ihash
+         d46957e3c8a87312f7ffd8a6a16185bf61828c85 erofs-utils: mkfs: minor cleanup & rearrangement
+         8c692343e8e3fafa5ceda0aac7975bd0b2806436 erofs-utils: fix up root inode for incremental builds
+         eb4c93b21855918648ed7beb0cd6de933c0f03a0 erofs-utils: introduce incremental builds
+         56661d6669d63013743b56427200efcab581bf6b erofs-utils: fix up unchanged directory pNIDs for incremental builds
+         106ebd8884548f7650eeb925b5628b48e0d3aff0 erofs-utils: support building image with reserved space
+         43f38e01b2c184b05ea172bdbff93cb720d10561 erofs-utils: fix incremental builds for tarerofs index mode
+         feece75b57d6e0469107ef0c2140484693d249bd erofs-utils: enable incremental builds
+         4570ff5f97db7b7536018752ff67ec710fe82299 erofs-utils: enable mapfile for `--tar=f`
+         c1e7d65cfbbb87816e068123c667d12ef15b2e1d erofs-utils: lib: drop prefix_sha256 digests
          
-
---===============3890699099345335741==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1718698902 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1718698904-a665559cc2fe99dc2c40f2702dca2a4583418735
-
-490d573b5a8579178beb648a69a2cbab91495a7b fe899f891073dd002a13c1900d73985f8dfe9634 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZnFDmwAKCRBZrE9hU+XO
-MX9xAPwJULs46UoHpZhegUjUSLztedrjee7+UaeNUKBtsW9MwQEAyjJD1On2iSe+
-bc+bkMoiOI5rzDvW5OB2ok9eSyBn4wM=
-=kPp4
------END PGP SIGNATURE-----
-
---===============3890699099345335741==--
