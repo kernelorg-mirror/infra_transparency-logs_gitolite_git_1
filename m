@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 18 Jun 2024 09:48:28 -0000
-Message-Id: <171870410878.11384.11413242526334916560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 18 Jun 2024 09:48:42 -0000
+Message-Id: <171870412205.11546.11705687067912840181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: pratyush
 changes:
-  - ref: refs/heads/for-6.11
-    old: 46edf5d7aed5438078a8b4b1ab4230a41a032dd0
-    new: 61894818e3049e8b3864fecf52164b125bd77aae
+  - ref: refs/heads/spi-nor/next
+    old: 2d95d13248446355fec961ef96703e552b75fe52
+    new: e159079a8be0222cf95909ed35eace0d6b2d12bf
     log: |
-         61894818e3049e8b3864fecf52164b125bd77aae selftests: livepatch: Test atomic replace against multiple modules
+         e159079a8be0222cf95909ed35eace0d6b2d12bf mtd: spi-nor: simplify spi_nor_get_flash_info()
          
