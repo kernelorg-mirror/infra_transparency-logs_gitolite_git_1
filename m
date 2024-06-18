@@ -1,44 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0897600811353065248=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 18 Jun 2024 07:51:34 -0000
-Message-Id: <171869709409.24759.17019824048543640@gitolite.kernel.org>
-
---===============0897600811353065248==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 18 Jun 2024 07:52:16 -0000
+Message-Id: <171869713665.25077.18191360331945792620@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 955490b3d0ff1dd27c803040cc1fde2fd6ee8c68
-    new: 7efd94878682c61791c3ca7f047afa30cde60f2c
-    log: revlist-955490b3d0ff-7efd94878682.txt
-
---===============0897600811353065248==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-955490b3d0ff-7efd94878682.txt
-
-29e1590867e4a0c6167df02c62c03ba22f09c746 drm: Place Renesas drivers in a separate dir
-2a78ff0b0ab60ac2fb3cc6ea6b4895e2a7e7e769 drm: Allow const struct drm_driver
-a22cc74b0ca35870b3c72e7217db709ce6fe8527 drm: add drmm_encoder_alloc()
-4c3a87e6f902a7cf60af291cc264f15c3be2b47d drm/plane: add drmm_universal_plane_alloc()
-23f47fd9d00a87fff53ece8fe0030fdceb3cb3cd drm/crtc: add drmm_crtc_alloc_with_planes()
-c9d5c2fd80fb124e01dbb79fb701e56d269ee5eb drm/crtc: Introduce drmm_crtc_init_with_planes
-c738321f55cf5ed0eed3a1e9051579c3a2a6cb82 dt-bindings: display: Document Renesas RZ/G2L DU bindings
-5fdc56c8229873ed28b7a26734124c7b6fa10306 dt-bindings: display: renesas,rzg2l-du: Document RZ/V2L DU bindings
-92672773016c4c2910dabcba5ccba00c7dfdf789 drm: renesas: Add RZ/G2L DU Support
-7c5c7ce382049111e43edee5d3e4269eb53f68f9 arm64: dts: renesas: r9a07g044: Add DU node
-8bbc9214e97a4ccfcb28ac20dc4aafb776c3e17f arm64: dts: renesas: r9a07g054: Add DU node
-a7311dcc7f7c9887d7ee2181df2456b8af62e216 Revert "arm64: dts: renesas: Drop ADV7535 IRQ"
-8dc1f15d3a33014986979e0c6c10e4469bc2e091 arm64: dts: renesas: rzg2l-smarc: Enable DU and link with DSI
-7efd94878682c61791c3ca7f047afa30cde60f2c arm64: defconfig: Enable Renesas RZ/G2L display unit DRM driver
-
---===============0897600811353065248==--
+  - ref: refs/heads/experimental
+    old: 7da0dd84b5fe8747649b419808afcb37d154203c
+    new: eaa61e46a21b2c491efb4b7b01da7d85fbd72da8
+    log: |
+         c8456d95d3154633ce9031591644f7d63ad34196 erofs-utils: introduce incremental builds
+         7fde6adabe94ead47d863f2f9d4213ccdd3a1305 erofs-utils: fix up unchanged directory pNIDs for incremental builds
+         1ba27fdb5c67d9526770d348734f8b23472b411e erofs-utils: support building image with reserved space
+         818a844d3dd29234d75f4dee4dc13cca59385c88 erofs-utils: fix incremental builds for tarerofs index mode
+         9dcac64f23983cdbe86ddea1a2a27e538af63c6d erofs-utils: enable incremental builds
+         5366ebaa149fc63717a9098fb88f8f77f0cb7889 erofs-utils: enable mapfile for `--tar=f`
+         eaa61e46a21b2c491efb4b7b01da7d85fbd72da8 erofs-utils: lib: drop prefix_sha256 digests
+         
