@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1876707528646031452=="
+Content-Type: multipart/mixed; boundary="===============8282883888211848311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 18 Jun 2024 09:08:38 -0000
-Message-Id: <171870171800.32038.11362402426759727962@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 09:08:45 -0000
+Message-Id: <171870172548.32136.11242627453918168545@gitolite.kernel.org>
 
---===============1876707528646031452==
+--===============8282883888211848311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c3f38fa61af77b49866b006939479069cd451173
+  - ref: refs/heads/tty-linus
+    old: ae01e52da244af5d650378ada1bfd2d946dc1b45
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-c3f38fa61af7-6ba59ff42279.txt
+    log: revlist-ae01e52da244-6ba59ff42279.txt
 
---===============1876707528646031452==
+--===============8282883888211848311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701718 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701726 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1718701716-061d6822748c36dee742cd32b8d12b353755fd46
+nonce 1718701722-7a435f35ed2e77b74d715006f072ef0478504185
 
-c3f38fa61af77b49866b006939479069cd451173 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/main
+ae01e52da244af5d650378ada1bfd2d946dc1b45 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTpYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c7MP/jhw9teEdWgv/5sfD7Ex
-8M/kl9ENKHuTXJYPpXmn9iXKyr3YPUOdxmaNpqNPe65wV3h2Jw+Ns0eLOHSmyLIP
-3k2I0wfdDH1geSeEgdhzEhmJMILc0MXfQfNeTwx4mEn6WTDhbNgDCtui1X0eGlBN
-LgMsxQlx02r6jqMvT3MVDen9p/KCAVq1fTiap/RM5124ysqHrx9ixEL5wat66UVx
-nb7mlhL5OdTmz/3tM4h/5onQdzJxuwakkLwue8520SkQAbzPVgafx3lbiy8TEvWc
-sYObsXDuoGnNxA17q9R6i7cA4mIlxe9Wdjh14nsyyARqRfiY4oIllqOxIjlSSC7D
-plOYza50fvJ1Lk7xGNV4snoU6CUznloVGlB+yj4hAnGqIkkRKnkl37+cciC6nzGX
-VVFzblEaYnmDPFZ1CAS6vQ6xYFuucSxGvIl8zv3jtLCnBua2QvhbUxZfbz0a+EzB
-60grPGDY+wS+9zqxX2xz0H/h5xB8hkchTFSRg/nGDVRqgirddp6EAchThaEeEZco
-+NI+zR4zFqz+OlHJ5nppV2mLTXylLSGEdGYHK9ptxy4dFKlJ0gSZ0mSEf9746jio
-5HuDwyGKOc707XwLWHV5AyixgXL+aCeamorYSaLzWXL9hKwx6MjrYiFMmlEv5cTp
-bxSkk2+x/jURAq5a7hpOMcii
-=NPLX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTp4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3iAQANNtRIQ0RaKtfsMX5THt
+uAWcdpc7GLXq/9RsdsNCmpMcTQ49OmwgDZ+gat7DYMoZSqDth9I8dQ3ILw1xhs2Q
+jpwPuxxIn6aSAN/DeerKMRRnXA1GWHcfqMNfXMBu/ya8VAJCBFwYO5GSdupGWFgy
+09xTZaTW/IhzYL+Uor3pJRFDi2NQO6hDbv+0wj1gdDiMN/C7+04kRRtpa9/sxxYT
+c8R0PLvi8G5PjEWQFN6GHmBw4/zmJl0XtkRm0yiQoQRQDrVn8ypiALflAaJKyQd9
+3FajmwQaZxTm1rjV9G+riOp5/jgQJ/rxouSBIL8wJgQxmle7c1mG0SOn04VmVPV+
+QYBXK3AylVxg+AHEZ8bQAOgEXhigZ/kzKEyyhlpJavhJzs2SpZYnmxi3wAmZuScL
+67hHNsFNwB0h852kb82VMJVGxCTM6PkJyick20fatL2cPs1SaGr6TmHz1PYlNrUe
+nKxiDx9l+vyACDxP3gEFXZQizoxBMgZbxuR6fkocu/EDMKMGzl4YcZX0LqmUZMZQ
+QvFLC4Gj/GU8vpdjhXg4doq523YPq6Zn/w6z4SE5y3DAk9KY7Ou/7VNEEymkedXz
+BTdm9Vc5al30nQ+a8wAKY+97IJmD9wuQ6DpLW1Y5tE0lqO2Nx1dVRTqEn/8taDxV
+FR2G+QpFgTPraEqyDSb7leWf
+=NJZk
 -----END PGP SIGNATURE-----
 
---===============1876707528646031452==
+--===============8282883888211848311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-ae01e52da244-6ba59ff42279.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -307,14 +307,6 @@ cc8d89d0637990c66440a226f443d95340979a04 iommu/dma: Fix domain init
 998a0a362b0b4cf501161c3319e6994d37c45a8c iommu/amd: Fix workqueue name
 48dc345a23b984c457d1c5878168d026c500618f iommu/amd: Check EFR[EPHSup] bit before enabling PPR
 526606b0a1998b0791b42c199d53550c3ba724b5 iommu/amd: Fix Invalid wait context issue
-b19ab7ee2c4c1ec5f27c18413c3ab63907f7d55c tty: n_tty: Fix buffer offsets when lookahead is used
-87d80bfbd577912462061b1a45c0ed9c7fcb872f serial: 8250_dw: Don't use struct dw8250_data outside of 8250_dw
-2c94512055f362dd789e0f87b8566feeddec83c9 serial: 8250_dw: Revert "Move definitions to the shared header"
-5208e7ced520a813b4f4774451fbac4e517e78b2 serial: 8250_pxa: Configure tx_loadsz to match FIFO IRQ level
-ca84cd379b45e9b1775b9e026f069a3a886b409d serial: port: Don't block system suspend even if bytes are left to xmit
-4e534ff4b69c6960a165cab2c851b48f0a0da945 serial: sc16is7xx: rename Kconfig CONFIG_SERIAL_SC16IS7XX_CORE
-7a2e8e30ad89f498b206977396d028e10174390a serial: sc16is7xx: re-add Kconfig SPI or I2C dependency
-ae01e52da244af5d650378ada1bfd2d946dc1b45 serial: drop debugging WARN_ON_ONCE() from uart_write()
 718d4a63c0a62d16af1d0425d515d7e76f35681e Revert "usb: chipidea: move ci_ulpi_init after the phy initialization"
 415ce0ea55c5a3afea501a773e002be9ed7149f5 io_uring/napi: fix timeout calculation
 fc3568f142cc5fe071d83be02d1851717d1fbf66 usb: typec: ucsi: glink: increase max ports for x1e80100
@@ -698,4 +690,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============1876707528646031452==--
+--===============8282883888211848311==--
