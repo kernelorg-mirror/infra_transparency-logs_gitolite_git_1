@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 18 Jun 2024 11:31:30 -0000
-Message-Id: <171871029052.24890.9219867313323901675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 18 Jun 2024 11:35:07 -0000
+Message-Id: <171871050740.28813.4327540257844781706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 041cc86b3653cbcdf6ab96c2f2ae34f3d0a99b0a
-    new: e845bb84fb6ec57f979cfba40e794c6e8b249585
+    old: 20d8a574a1bba47290d57940a30a821ee33c7bd7
+    new: a34a7ad5014c2b833c6a2c0f89357f98a0bddab0
     log: |
-         777b8afb8179155353ec14b1d8153122410aba29 net: phy: introduce core support for phy-mode = "10g-qxgmii"
-         5dfabcdd76b1455c5378abbcb2e68285cf7eb554 dt-bindings: net: ethernet-controller: add 10g-qxgmii mode
-         e845bb84fb6ec57f979cfba40e794c6e8b249585 Merge branch 'introduce-phy-mode-10g-qxgmii'
+         7d931f8afa51d83e9eaee3a3f449bc2f86a5edf3 amlogic: Update bluetooth firmware binary
+         a34a7ad5014c2b833c6a2c0f89357f98a0bddab0 Merge branch 'upstream' into 'main'
          
