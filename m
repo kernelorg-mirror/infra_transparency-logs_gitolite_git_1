@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2121524072997671863=="
+Content-Type: multipart/mixed; boundary="===============5795196474027629982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Tue, 18 Jun 2024 20:41:33 -0000
-Message-Id: <171874329307.20806.14582896595106716726@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 20:42:32 -0000
+Message-Id: <171874335264.21227.17415070708495890305@gitolite.kernel.org>
 
---===============2121524072997671863==
+--===============5795196474027629982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,31 @@ user: pinchartl
 git_push_cert_status: E
 changes:
   - ref: refs/heads/vsp1/link-validation
-    old: 229cf4ef0fc23e1af5da478719f9854419150c63
-    new: 57e9aa6fc975923293660878303bf1260671fe66
+    old: 57e9aa6fc975923293660878303bf1260671fe66
+    new: 1c641cbae30e4c745547003bff1ea9cf45ba837b
     log: |
-         57e9aa6fc975923293660878303bf1260671fe66 media: renesas: vsp1: Validate all links through .link_validate()
+         1c641cbae30e4c745547003bff1ea9cf45ba837b media: renesas: vsp1: Validate all links through .link_validate()
          
 
---===============2121524072997671863==
+--===============5795196474027629982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher laurent.pinchart@ideasonboard.com 1718743260 +0300
+pusher laurent.pinchart@ideasonboard.com 1718743318 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1718743279-310c3e0d072838e9b48bb8b29d3549c9d1f61767
+nonce 1718743338-77089447100608242099f92d3fd70cbbc2decfa0
 
-229cf4ef0fc23e1af5da478719f9854419150c63 57e9aa6fc975923293660878303bf1260671fe66 refs/heads/vsp1/link-validation
+57e9aa6fc975923293660878303bf1260671fe66 1c641cbae30e4c745547003bff1ea9cf45ba837b refs/heads/vsp1/link-validation
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnHw3CIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kl5oBAMySvMe7vVcp
-Rmy31Bh+hYVYBC5FMI2WQggo1VW4iFfFAP9drkcFBdWBZjJPwt9O93g/6brZrsTA
-XU6fZNSlLSb1Cg==
-=lHrm
+iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnHxFiIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95k/W8BAIb/fHhINc47
+2X2Uw/a2jaFQI/s0ecH68ZF4e50UDHBIAP9PjZJGEd16tdwGEcj9LGCyOGdco0dq
+g47bnxBy9hCDAw==
+=R3v6
 -----END PGP SIGNATURE-----
 
---===============2121524072997671863==--
+--===============5795196474027629982==--
