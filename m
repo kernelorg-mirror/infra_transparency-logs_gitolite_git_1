@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6059903746105254447=="
+Content-Type: multipart/mixed; boundary="===============6597750897316272807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 18 Jun 2024 09:07:04 -0000
-Message-Id: <171870162444.30932.10273498984623375319@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 09:07:09 -0000
+Message-Id: <171870162949.31058.2539718996060734205@gitolite.kernel.org>
 
---===============6059903746105254447==
+--===============6597750897316272807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c3f38fa61af77b49866b006939479069cd451173
+  - ref: refs/heads/usb-linus
+    old: 22f00812862564b314784167a89f27b444f82a46
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-c3f38fa61af7-6ba59ff42279.txt
+    log: revlist-22f008128625-6ba59ff42279.txt
 
---===============6059903746105254447==
+--===============6597750897316272807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701625 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718701630 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1718701623-dddada72a82306a7d50f256007cfd60d3dff1b26
+nonce 1718701627-65fa2f2146cddcea3b5683e7e23e6d8ac72b7e60
 
-c3f38fa61af77b49866b006939479069cd451173 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/main
+22f00812862564b314784167a89f27b444f82a46 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTjkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WmAP/0XuCxbT/8eaenodg6l+
-zSsunmc4O/Cfz+w9OhZ+60D6JKQYCwHesMZKTRHXWgyP+0msT1R2IfI4d9B4eD8z
-4JZVh7+u9zpM01FQh8MUpxQjljEm+Yx4/thHdpee9A6XYIBGlaZZIoGqKMmwjhFQ
-6+286+BFXsVO1HuMtpCSWK0bvi/NhxjF77+eSVh8/PNHb4MGrbbYiCo4fiHUZ/L6
-4YdxA2CnIoFUNIo7W9UJTcICelPaRU3jc5SbMZhL4IBqN0gYkBYAxcNHtO0lJQcx
-tu4P8rHPRBYhJJ8VS9Fbg+ftqNFzkfrYZ7y8kOXZjCVL9VN+nAslc1iwyyf6UemY
-zvkHKbvaU3ruIdiaHr0dusvm0P6O4RwMyVfanPTmwBCzf8TxOnf+dKq5ROox8YIM
-tTopgmioFWSetFC6ITJwFaGJZ2o0LgU9ssZPDaAre9fuAN3bj5HQHEG8jAaNWzFY
-KKRh0qBqpvg+qbywtF+QSpEhnSePBb+9u+2UWfQJ951wZJCExvWs5qSwdsbf1LPr
-DDQk9uvYMY5UTy09Sa2lVjYTMDFZhHxh/PfkzRReRDjXnfwmoA7XfIRjjSpTI933
-iGxEwH+OGnAXJa1FD6fvFo7+R4zZl5l4KZ+jwcGfOeLkYd3/gf/AFL4bAt8BQRob
-KhNz39Iu0PBbwWvYnbPSbHAR
-=babl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZxTj4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hzQQAKh1vXN1RJ6UO1hdadfH
+x6Bqj6JovftK2CkK9J66mdFdLsyCwGKBPOrRkSKrkYmPLfuovNIUfNJYvM76htX2
+89E08GgwC6rC8CtiyzoOYcYTsr3C8uic4WpVwe+LcZNJNchlnStpIz15arV+ha3J
+icbU89sXDRF36yIHF5bgs/lY1CEcuXu8LXtrv7RtZx0JRPY/0lBre8QtBk6O8jmj
+TY+qZkhS7sIrBCl9E4XGUKfGJa1VNebV3GF4AdSLHVQXhT8mfXUzdrNCPrjjiMcY
+EJlBuMjFOXX5W5jeuzLUR6GqAmieQL8hkjQ423eOc1MVnpo+g13KxFqc0OtLhmVd
+8qxjCQ/OIDS0BePt8GkO4uqgCQLDmLW5s398gBlEao3/5pIGxvFIZuMbY2ui48qd
+LFhkly3pr69fWs9a2iQ9W39cIKLopI4W3qULZw3Nu+mhVl6H6iBBy6m3Mqellkvh
+tdmfzfEOfjojt3iXkhCHoC5TDe677Oa7m3QbTP6ai6XTdOYc33qsJf1n4i1Iq4lG
+/hjDrjV34sE7ETkMMHcT9ggeVdWdtE39fw82UC63gE0gCl09wMKITvNp42dA5xSW
+roKQL2UYfHSTQi2UeJ9cWgr3eQxvxY3LqCoe9VQLGsPpysL6wPELZrdz6psTu75p
+VfmYL+PDjRyMyQb1rtCRgLl/
+=41bp
 -----END PGP SIGNATURE-----
 
---===============6059903746105254447==
+--===============6597750897316272807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-22f008128625-6ba59ff42279.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -210,7 +210,6 @@ e7985f43609c782132f8f5794ee6cc4cdb66ca75 of: property: Fix fw_devlink handling o
 2d707b4e37f9b0c37b8b2392f91b04c5b63ea538 RISC-V: KVM: No need to use mask when hart-index-bit is 0
 c66f3b40b17d3dfc4b6abb5efde8e71c46971821 RISC-V: KVM: Fix incorrect reg_subtype labels in kvm_riscv_vcpu_set_reg_isa_ext function
 e0eec24e2e199873f43df99ec39773ad3af2bff7 memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
-985cfe501b74f214905ab4817acee0df24627268 thunderbolt: debugfs: Fix margin debugfs node creation condition
 539d33b5783804f22a62bd62ff463dfd1cef4265 drm/komeda: remove unused struct 'gamma_curve_segment'
 0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
 7dc3bfcb4c9cc58970fff6aaa48172cb224d85aa nvme-fabrics: use reserved tag for reg read/write command
@@ -315,16 +314,7 @@ ca84cd379b45e9b1775b9e026f069a3a886b409d serial: port: Don't block system suspen
 4e534ff4b69c6960a165cab2c851b48f0a0da945 serial: sc16is7xx: rename Kconfig CONFIG_SERIAL_SC16IS7XX_CORE
 7a2e8e30ad89f498b206977396d028e10174390a serial: sc16is7xx: re-add Kconfig SPI or I2C dependency
 ae01e52da244af5d650378ada1bfd2d946dc1b45 serial: drop debugging WARN_ON_ONCE() from uart_write()
-718d4a63c0a62d16af1d0425d515d7e76f35681e Revert "usb: chipidea: move ci_ulpi_init after the phy initialization"
 415ce0ea55c5a3afea501a773e002be9ed7149f5 io_uring/napi: fix timeout calculation
-fc3568f142cc5fe071d83be02d1851717d1fbf66 usb: typec: ucsi: glink: increase max ports for x1e80100
-8475ffcfb381a77075562207ce08552414a80326 USB: xen-hcd: Traverse host/ when CONFIG_USB_XEN_HCD is selected
-e7e921918d905544500ca7a95889f898121ba886 usb: typec: tcpm: fix use-after-free case in tcpm_register_source_caps
-fc8fb9eea94d8f476e15f3a4a7addeb16b3b99d6 usb: typec: tcpm: Ignore received Hard Reset in TOGGLING state
-e4228cfd092351c2d9b1a3048b2070287291ccbb dt-bindings: usb: realtek,rts5411: Add missing "additionalProperties" on child nodes
-f85d39dd7ed89ffdd622bc1de247ffba8d961504 kcov, usb: disable interrupts in kcov_remote_start_usb_softirq
-8bdf8a42bca4f47646fd105a387ab6926948c7f1 usb: typec: ucsi: Ack also failed Get Error commands
-16637fea001ab3c8df528a8995b3211906165a30 usb-storage: alauda: Check whether the media is initialized
 91215f70ea8541e9011c0b48f8b59b9e0ce6953b io_uring/io-wq: avoid garbage value of 'match' in io_wq_enqueue()
 73254a297c2dd094abec7c9efee32455ae875bdf io_uring: fix possible deadlock in io_register_iowq_max_workers()
 971187350602d03c4a27c0783ff412502b95720a driver core: remove devm_device_add_groups()
@@ -511,7 +501,6 @@ c44711b78608c98a3e6b49ce91678cd0917d5349 liquidio: Adjust a NULL pointer handlin
 a3a5a37efba11b7cf1a86abe7bccfbcdb521764e HID: Ignore battery for ELAN touchscreens 2F2C and 4116
 e79a10652bbd320649da705ca1ea0c04351af403 ACPI: x86: Force StorageD3Enable on more products
 8f40af31971ce012c0a4b13444900aed3f708edf Merge tag 'iio-fixes-for-6.10a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-1092c4126bf8fa57d7298724d9894ba3b1c07f86 Merge tag 'thunderbolt-for-v6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 2e32d580757362edc95fdd7a86d3b869b78e58d8 Merge tag 'drm-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/kernel
 e693c5026c28ab2ca1f718f66f47a6a041ec8f3a Merge tag 'ata-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 f24b46ea10d7d2096ea1c9ce5746a0c85920ec62 Merge tag 'iommu-fixes-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
@@ -604,10 +593,6 @@ f6b2f578df8d1cb993e0951b786820410a04268c Merge tag 'for-net-2024-06-10' of git:/
 be27b896529787e23a35ae4befb6337ce73fcca0 net: stmmac: replace priv->speed with the portTransmitRate from the tc-cbs parameters
 1cdeca6a7264021e20157de0baf7880ff0ced822 ksmbd: move leading slash check to smb2_get_name()
 2bfc4214c69c62da13a9da8e3c3db5539da2ccd3 ksmbd: fix missing use of get_write in in smb2_set_ea()
-f0260589b439e2637ad54a2b25f00a516ef28a57 xhci: Set correct transferred length for cancelled bulk transfers
-17bd54555c2aaecfdb38e2734149f684a73fa584 xhci: Apply reset resume quirk to Etron EJ188 xHCI host
-91f7a1524a92c70ffe264db8bdfa075f15bbbeb9 xhci: Apply broken streams quirk to Etron EJ188 xHCI host
-5ceac4402f5d975e5a01c806438eb4e554771577 xhci: Handle TD clearing for multiple streams case
 0320ca14c6fb68ad19aa72e55a1a21c061b2946b drm: renesas: shmobile: Call drm_atomic_helper_shutdown() at shutdown time
 c38896ca6318c2df20bbe6c8e3f633e071fda910 drm/mediatek: Call drm_atomic_helper_shutdown() at shutdown time
 350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
@@ -653,7 +638,6 @@ e3e53683cc2f3d172cece742157c71f25c93172a Merge tag 'nvme-6.10-2024-06-13' of git
 ae1e782362e90f84ae5b3e66c5f65c197dcf034f Merge tag 'exynos-drm-fixes-for-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
 f1909e859753c9bda87c6d2b82a7f832ef80aa2d Merge tag 'drm-xe-fixes-2024-06-13' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 f4a1254f2a076afb0edd473589bf40f9b4d36b41 io_uring: fix cancellation overwriting req->flags
-22f00812862564b314784167a89f27b444f82a46 USB: class: cdc-wdm: Fix CPU lockup caused by excessive log messages
 41f590e31c6c8b8a0a490b7c1ad2e57c20ec3d9b arm/komeda: Remove all CONFIG_DEBUG_FS conditional compilations
 14731a640e5513bd514adcf35e96c84ad42f540d Merge drm/drm-fixes into drm-misc-fixes
 a6a75edc8669a4f030546c7390808ef0cc034742 ata: libata-scsi: Set the RMB bit only for removable media devices
@@ -698,4 +682,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============6059903746105254447==--
+--===============6597750897316272807==--
