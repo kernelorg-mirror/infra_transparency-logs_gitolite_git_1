@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0923296943748438361=="
+Content-Type: multipart/mixed; boundary="===============1683771403253058630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 18 Jun 2024 15:20:18 -0000
-Message-Id: <171872401875.8029.10863874707219713449@gitolite.kernel.org>
+Date: Tue, 18 Jun 2024 15:20:56 -0000
+Message-Id: <171872405620.8378.12069840145079016563@gitolite.kernel.org>
 
---===============0923296943748438361==
+--===============1683771403253058630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: dea9bffd24e4d556bb05511d60ae78c302e66b4f
-    new: 22d3179e59a7ca6ba107d00524f282686048172a
-    log: revlist-dea9bffd24e4-22d3179e59a7.txt
+  - ref: refs/heads/1GbE
+    old: 89aa3619d141d6cfb6040a561aebb6d99d3e2285
+    new: 88c67aeb14070bab61d3dd8be96c8b42ebcaf53a
+    log: revlist-89aa3619d141-88c67aeb1407.txt
 
---===============0923296943748438361==
+--===============1683771403253058630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dea9bffd24e4-22d3179e59a7.txt
+Content-Disposition: attachment; filename=revlist-89aa3619d141-88c67aeb1407.txt
 
 0941772342d59e48733131ac3a202fa1a4d832e9 wifi: cfg80211: wext: set ssids=NULL for passive scans
 6ef09cdc5ba0f93826c09d810c141a8d103a80fc wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
@@ -64,9 +64,5 @@ c44d3ffd85db03ebcc3090e55589e10d5af9f3a9 net: phy: mxl-gpy: Remove interrupt mas
 d864319871b05fadd153e0aede4811ca7008f5d6 net/sched: act_api: fix possible infinite loop in tcf_idr_check_alloc()
 2ebe8f840c7450ecbfca9d18ac92e9ce9155e269 tipc: force a dst refcount before doing decryption
 88c67aeb14070bab61d3dd8be96c8b42ebcaf53a sched: act_ct: add netns into the key of tcf_ct_flow_table
-dd26d484771c587f14f0e6bf5657255891cfb804 ice: Rebuild TC queues on VSI queue reconfiguration
-30c5e2ff602bbbaef0b23f372331e32517478e90 idpf: extend tx watchdog timeout
-d4dc9bba8ba2820490de7dbcd247bfe060b7d958 ice: Fix VSI list rule with ICE_SW_LKUP_LAST type
-22d3179e59a7ca6ba107d00524f282686048172a e1000e: Fix S0ix residency on corporate systems
 
---===============0923296943748438361==--
+--===============1683771403253058630==--
