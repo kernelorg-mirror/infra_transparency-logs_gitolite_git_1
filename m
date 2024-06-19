@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6969187457754300605=="
+Content-Type: multipart/mixed; boundary="===============7794070993254465553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 19 Jun 2024 17:05:39 -0000
-Message-Id: <171881673964.12421.14681772950434702410@gitolite.kernel.org>
+Date: Wed, 19 Jun 2024 17:07:16 -0000
+Message-Id: <171881683683.14611.16285246904401970622@gitolite.kernel.org>
 
---===============6969187457754300605==
+--===============7794070993254465553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 2f79e7408ac1b22ce8abc4a22b92793a57a3077d
-    new: 29fb64d20007c8018d99e713eb637bcd79915e7c
-    log: revlist-2f79e7408ac1-29fb64d20007.txt
+  - ref: refs/heads/ti-next
+    old: d524a4960826e5ba8502d1bed843e6c9ca5d8539
+    new: 6f77635fed190290b44b7cef897dd4ac00c6e6e0
+    log: revlist-d524a4960826-6f77635fed19.txt
 
---===============6969187457754300605==
+--===============7794070993254465553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f79e7408ac1-29fb64d20007.txt
+Content-Disposition: attachment; filename=revlist-d524a4960826-6f77635fed19.txt
 
 b82feb3a56e25919d6729b98c8152d950045fc5b arm64: dts: ti: k3-am642-sk: Add power supply temperature sensors
 5ebd992081ebb59808129b51d180a665edbe7859 arm64: dts: ti: k3-j784s4-main: Add node for EHRPWMs
@@ -44,5 +44,6 @@ e7842e3c6d3e595cf71dc7f4d58d87d3b92c1abf arm64: dts: ti: k3-j722s: Switch to k3-
 f49eee940608a327653f13d4c10c48ecef21cb70 arm64: dts: ti: k3-j722s-main: Add SERDES and PCIe support
 ccc5589b9bbcef670640098d720d800d61e9b9b8 arm64: dts: ti: k3-j722s: Enable PCIe and USB support on J722S-EVM
 29fb64d20007c8018d99e713eb637bcd79915e7c arm64: dts: ti: k3-am62p-j722s: Move SoC-specific node properties
+6f77635fed190290b44b7cef897dd4ac00c6e6e0 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============6969187457754300605==--
+--===============7794070993254465553==--
