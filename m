@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3882400921835752083=="
+Content-Type: multipart/mixed; boundary="===============6894510741978802967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 19 Jun 2024 14:18:11 -0000
-Message-Id: <171880669189.17464.13175024674925226842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 19 Jun 2024 14:18:12 -0000
+Message-Id: <171880669236.17507.2565871509795154124@gitolite.kernel.org>
 
---===============3882400921835752083==
+--===============6894510741978802967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 11d9af4adb9926630654f275b16c5d2ae1586b75
-    new: b9d4823a1624053cf8df6317bc9a26ab2a41e092
-    log: |
-         b9d4823a1624053cf8df6317bc9a26ab2a41e092 drop drm patch
-         
+  - ref: refs/heads/vfs.all
+    old: ab3611a3087656f788f84e5eeb2aeb2fda4212af
+    new: 7ac62028c012a29e075f9475cd2576390e42d597
+    log: revlist-ab3611a30876-7ac62028c012.txt
+  - ref: refs/heads/vfs.misc
+    old: 9f96146abc5a0aa0550fcd3437036d546168fac8
+    new: 849b386e287667e94999b981af6c24f60aafb7b4
 
---===============3882400921835752083==
+--===============6894510741978802967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ab3611a30876-7ac62028c012.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718806691 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1718806690-7d70eff3d74eb91730da2775fe369c8921d275de
+543663f7157e8302a47d19cce98635ed61d7d05f Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+feffbd9d5bea5c9606f58c2ae6200931d1b3ab2b Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+809835766fe1fd4fdb72be259d4810b4e54b39ea Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+7de8f9d9da357439214724f8ba7c20979e5d79c0 Merge branch 'vfs.module.description' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+87ea906334407c6344ac48da1c2500fa5616a47b Merge branch 'vfs.pg_error' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+63d09ed43c21bf86a064b13fd5a71cf28be77665 Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+7852967c4a9f26445f6af011e6c9f4caedf0d88d Merge branch 'vfs.casefold' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+69fcf0dd1172cb5943f0dcb66b68c0adb070550e Merge branch 'vfs.inode.rcu' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+f6bb39ec827a9f82f46c2f512beddab3b3598776 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+e4ff9886ca412b7d547dbd41c53d2169a998625f Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+7ac62028c012a29e075f9475cd2576390e42d597 Merge branch 'vfs.iomap' into vfs.all
 
-11d9af4adb9926630654f275b16c5d2ae1586b75 b9d4823a1624053cf8df6317bc9a26ab2a41e092 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZy6KMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W9QP/1fnPtcf8kO4G9JCUtQM
-VYM5dnEzOO+HZN5FIA/dfiP7cCIi2qvBgRRg+uQ49bJ8ZbyDYlSYaCcQDqc9BrZp
-NbJJdpSU8AVLHAVnV5W9rfApWhnoaUxYqIUckD4s0BTEafRSm+uzh2Q1P5U8jWuf
-CC1Yj5gF8/SyZBIZ4wagd/fOHeXZ+CBvBeiDjGbrm/qgmQ5iZ04j4UtD8sbG+3dA
-95vWFqV1aiGzE/mmcr6SfQcNJhRMIQ1ez0yWkLOrLd5REyf315Y0ic4vlklS9zOj
-gcQf4Vy65uj2pSE0yFdWeK2iueQRnY9Oaq9ikvKV2+U2RIURwJq9RAPRthhXjcv/
-gtR0T1DiHvi+AXDuJQxnOvhOZJ2yxAWeGtqQMkbNPxWoskGmE+lwul+fL5X1U/Eg
-pIDldIFJkglWswNventwxXRvrH2mVMiQB18fkGhcRpzrgIy4lwfPZ2VC5yIKsTwE
-UDuozDXGZWJ4bnCbHu8D3dX28L6nlb+yUjU0nHKj4HHvblQtjYqVgYlJ4rOwUefK
-TwiDMcFdGETPJ1Tk6bfLvaULKJfK2ZYdOMxWQPrmOq14GExqbjOIfhMlG/DIIQya
-AxlBcnrH1cJ9g9tSKK8EVbb3jrFo6hMa8Ac9yKtAI7ImbyVRaZGS8HwKRGj3TnZz
-asqC5YGeV97gBtnoS5pLJvUg
-=4fk1
------END PGP SIGNATURE-----
-
---===============3882400921835752083==--
+--===============6894510741978802967==--
