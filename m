@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 19 Jun 2024 11:03:46 -0000
-Message-Id: <171879502685.27022.899763184414695544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 19 Jun 2024 11:05:42 -0000
+Message-Id: <171879514225.29397.2238042425927626755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/v6_20240619_kuninori_morimoto_gx_asoc_grace_time_for_dpcm_cleanup
+  - ref: refs/tags/mips-fixes_6.10_1
     old: 0000000000000000000000000000000000000000
-    new: 284e09a2cc0d773eeaf370b66284acea24de9ca2
+    new: 13bc8481e26dad8b4b3b20490cb5a4467df171a4
