@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 19 Jun 2024 21:45:53 -0000
-Message-Id: <171883355320.26495.1384693195507706062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 19 Jun 2024 21:50:32 -0000
+Message-Id: <171883383284.29791.13265218734003100082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
   - ref: refs/heads/for-next
-    old: 21c186154e663f4a19eaf6d074faebf4828a31aa
-    new: 8ad009a7eae6a32bb598f504ecb19fc59439e0a7
+    old: 0e9899feed9cbb7d33c01ad849dc307b1560b0ab
+    new: 94ff46de4a738e7916b68ab5cc0b0380729f02af
     log: |
-         1e297069cc1c588bbece4752e0840b6a15982148 ARM: dts: rockchip: add hdmi-sound node to rk3066a
-         8ad009a7eae6a32bb598f504ecb19fc59439e0a7 Merge branch 'v6.11-armsoc/dts32' into for-next
-         
-  - ref: refs/heads/v6.11-armsoc/dts32
-    old: a6b661c2a38a92b7de826f74e57596fe33fe17fa
-    new: 1e297069cc1c588bbece4752e0840b6a15982148
-    log: |
-         1e297069cc1c588bbece4752e0840b6a15982148 ARM: dts: rockchip: add hdmi-sound node to rk3066a
+         1e4c64b71c9bf230b25fde12cbcceacfdc8b3332 mm/memblock: Add "reserve_mem" to reserved named memory at boot up
+         d9d814eebb1ae9742e7fd7f39730653b16326bd4 pstore/ramoops: Add ramoops.mem_name= command line option
+         94ff46de4a738e7916b68ab5cc0b0380729f02af memblock: Move late alloc warning down to phys alloc
          
