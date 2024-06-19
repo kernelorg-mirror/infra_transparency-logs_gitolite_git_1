@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5466583623146200601=="
+Content-Type: multipart/mixed; boundary="===============4672795745996162245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 19 Jun 2024 09:29:59 -0000
-Message-Id: <171878939950.5628.14672892720295348602@gitolite.kernel.org>
+Date: Wed, 19 Jun 2024 09:30:33 -0000
+Message-Id: <171878943383.7581.16038581242742128388@gitolite.kernel.org>
 
---===============5466583623146200601==
+--===============4672795745996162245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
+  - ref: refs/heads/pwm/for-nexxt
     old: 4a8b59bc68f55c831835caa54ca5253a7f3294fe
     new: 5fe08cd6d186498553d5ae6b8675028e7a1e2a03
     log: revlist-4a8b59bc68f5-5fe08cd6d186.txt
 
---===============5466583623146200601==
+--===============4672795745996162245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ e96b75f70c8c9411c278d77f02f5eb83f3d279c1 pwm: cros-ec: Don't care about consumer
 93489b626b116898ae0004adc9d2a800df52b4a6 bus: ts-nbus: Use pwm_apply_might_sleep()
 5fe08cd6d186498553d5ae6b8675028e7a1e2a03 pwm: Drop pwm_apply_state()
 
---===============5466583623146200601==--
+--===============4672795745996162245==--
