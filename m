@@ -1,40 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1896503005913203793=="
+Content-Type: multipart/mixed; boundary="===============5370307738661481967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 19 Jun 2024 17:15:15 -0000
-Message-Id: <171881731558.21312.4356867331468879633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 19 Jun 2024 17:17:51 -0000
+Message-Id: <171881747151.22336.42667431923927349@gitolite.kernel.org>
 
---===============1896503005913203793==
+--===============5370307738661481967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/ti-next
-    old: 9d97c3a9bb42074bd9c81e0a33fef2c1cfadb120
-    new: 3ec2700870807638ba21b50dfc619e09a7cc8111
-    log: revlist-9d97c3a9bb42-3ec270087080.txt
+  - ref: refs/heads/dev
+    old: f29bcafffef0ecc8a5d2cdc1bbef9a6889225263
+    new: 5de389c01139241b5541df8199521c18d02f5f57
+    log: revlist-f29bcafffef0-5de389c01139.txt
 
---===============1896503005913203793==
+--===============5370307738661481967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d97c3a9bb42-3ec270087080.txt
+Content-Disposition: attachment; filename=revlist-f29bcafffef0-5de389c01139.txt
 
-117937ff2fbf1f67e6e7cbe1635bbe1cc72dbee2 arm64: dts: ti: am642-evm: Add overlay for NAND expansion card
-3ad6579f106db8f94fb8495063cb4b0f0eaaaa9a arm64: dts: ti: am62p: Rename am62p-{}.dtsi to am62p-j722s-common-{}.dtsi
-77044cfb9346d1601bfe8759b7d785c664a73f84 arm64: dts: ti: k3-am62p-j722s: Move AM62P specific USB1 to am62p-main.dtsi
-731626cc3180b263216805f82e006ca1f1df02c3 arm64: dts: ti: k3-j722s: Add main domain peripherals specific to J722S
-18fb2b7c8a09ca454709b806efc5c38b8a012ab4 arm64: dts: ti: k3-j722s: Switch to k3-am62p-j722s-common-{}.dtsi includes
-6f9323f6ad818008fc58d2f804ee4140c1b8424d arm64: dts: ti: k3-serdes: Add SERDES0/SERDES1 lane-muxing macros for J722S
-628e0a0118e69bed9dad14e7dbd8a8802652f5f2 arm64: dts: ti: k3-j722s-main: Add SERDES and PCIe support
-485705df5d5fc0ad6bc5b3657fa63a96a421770d arm64: dts: ti: k3-j722s: Enable PCIe and USB support on J722S-EVM
-ed07d82f9e3e8220d8e2f92afd323d718b860f21 arm64: dts: ti: k3-am62p-j722s: Move SoC-specific node properties
-3ec2700870807638ba21b50dfc619e09a7cc8111 Merge branch 'ti-k3-dts-next' into ti-next
+9cd3151a6b3fd15ab1e5cf0a9aa3e2c307a971bb rcutorture: Remove redundant rcu_torture_ops get_gp_completed fields
+c0a680bd4a8d6a1c6d41d246ebd267ab52a473fd rcutorture: Add SRCU ->same_gp_state and ->get_comp_state functions
+6b1398549cad292b99f18717e7f0d95d60364656 rcutorture: Generic test for NUM_ACTIVE_*RCU_POLL*
+d65635ebba92ee02e8284acfabbaf6b59ec0b5b6 srcu: Make Tiny SRCU able to operate in preemptible kernels
+7a1fcbb52e611c49331bd66dd2da1efa4c0afef7 rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
+56d497dc54b2acba09c830567e39234bd47fc0b9 tools/memory-model: Document herd7 (abstract) representation
+10dc45b98a1509b03bf5913d4a76f5053e229982 EXP x86/syscall: Mark exit[_group] syscall handlers __noreturn
+6c94258a0f2c775580a7baf64e1625cbdb94ed2a EXP srcu: Check for concurrent updates of heuristics
+41946de4050e3197b71a40608092ff2e28757aeb EXP rcu Move wakeup out from under lock
+ad519f8378c73e0319e4e2a322dd1b7e8f91bbc4 rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
+116407294d98b2661d5985e45bd8621ea40b18ee EXP drm/msm: remove python 3.9 dependency for compiling msm
+d7628f14bc0ac293352bdb854397c1625168ed80 rcu/kfree: Warn on unexpected tail state
+ced845db10eb661a6e25a2fe462a827e2f019ad8 context_tracking: Tag context_tracking_enabled_this_cpu() __always_inline
+5de389c01139241b5541df8199521c18d02f5f57 rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
 
---===============1896503005913203793==--
+--===============5370307738661481967==--
