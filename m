@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 19 Jun 2024 15:07:58 -0000
-Message-Id: <171880967898.23304.11389655450459176477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 19 Jun 2024 15:09:38 -0000
+Message-Id: <171880977895.23986.4696755105947920151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    new: 895a37028a4854962def6e2f2820a23c84062f66
-    log: |
-         895a37028a4854962def6e2f2820a23c84062f66 arm64: mm: Permit PTE SW bits to change in live mappings
-         
+  - ref: refs/heads/v4_20240619_paulha_cirrus_logic_family_of_adcs
+    old: 0000000000000000000000000000000000000000
+    new: 14e4175ccba862aa0bdee9931bf2cbe5271adaf5
