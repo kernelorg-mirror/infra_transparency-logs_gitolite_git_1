@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 19 Jun 2024 00:30:23 -0000
-Message-Id: <171875702317.28061.8320385164082566573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 19 Jun 2024 00:42:07 -0000
+Message-Id: <171875772733.4465.16797834573550770898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 5d7048f103c9caaafbc16e75ea21523b13e4a19d
-    new: f68427b2910c31aa7ef8a1f5ce21068fa5fdb0cc
+  - ref: refs/heads/experimental
+    old: c1e7d65cfbbb87816e068123c667d12ef15b2e1d
+    new: 33542a5c3d522500b948fe9533548bc6317753ed
     log: |
-         f68427b2910c31aa7ef8a1f5ce21068fa5fdb0cc patches/next: cleanup unnecessary meta-changes
+         32d8733f68d99a918c718dd696d2e1d6ac93e8f5 erofs-utils: skip all unidentified xattrs from local paths
+         33542a5c3d522500b948fe9533548bc6317753ed erofs-utils: lib: drop prefix_sha256 digests
          
