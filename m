@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 19 Jun 2024 14:39:38 -0000
-Message-Id: <171880797800.1271.15330960330563964582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 19 Jun 2024 14:48:47 -0000
+Message-Id: <171880852783.7837.3389560928280022659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 8fceb14529d7a33a72182d55ffbea67965ad21d5
-    new: fa9057ccb9c323816e0f2599a2d91f5c856b0004
+  - ref: refs/heads/master
+    old: 5e09ee77215ecd0c361ec798c37aa5291380b664
+    new: bc6bc4a8d664ac72338e5e15e3b22b49a4d8cc36
     log: |
-         bda38f9a41d89b47dce54932f88d0e0edee00cae HID: asus: use hid for brightness control on keyboard
-         fa9057ccb9c323816e0f2599a2d91f5c856b0004 Merge branch 'for-6.11/asus' into for-next
+         57e59f57cb1a4098378bfca271956f1e99547c87 Add 64-bit length variants of {f,m}advise
+         bc6bc4a8d664ac72338e5e15e3b22b49a4d8cc36 Merge branch 'advise'
          
-  - ref: refs/heads/for-6.11/asus
-    old: 0000000000000000000000000000000000000000
-    new: bda38f9a41d89b47dce54932f88d0e0edee00cae
