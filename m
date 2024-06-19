@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4102368253428681020=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 Jun 2024 13:49:59 -0000
-Message-Id: <171880499942.27315.5774572697738311577@gitolite.kernel.org>
-
---===============4102368253428681020==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 19 Jun 2024 13:50:03 -0000
+Message-Id: <171880500378.28562.11641368874444448130@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 9f774c757e3fb2ac32dc4377e8f21f3364a8df81
-    new: 3ec1428d7b7c519d757a013cef908d7e33dee882
+  - ref: refs/heads/master
+    old: 46d1907d1caaaaa422ae814c52065f243caa010a
+    new: 92e5605a199efbaee59fb19e15d6cc2103a04ec2
     log: |
-         3ec1428d7b7c519d757a013cef908d7e33dee882 ASoC: cs35l56: Accept values greater than 0 as IRQ numbers
+         2049aad5d3a6921f80121029afe6fbcfb2727861 selftests: filesystems: fix warn_unused_result build warnings
+         04e1f99afe8bec27ad2d2726897ac8185bf0532c selftests: seccomp: fix format-zero-length warnings
+         442b15a2d7a3f01534cb80585b84d7b60e4e2219 selftests/openat2: fix clang build failures: -static-libasan, LOCAL_HDRS
+         ed3994ac847e0d6605f248e7f6776b1d4f445f4b selftests/fchmodat2: fix clang build failure due to -static-libasan
+         5d272dd1b3430bb31fa30042490fa081512424e4 cpumask: limit FORCE_NR_CPUS to just the UP case
+         92e5605a199efbaee59fb19e15d6cc2103a04ec2 Merge tag 'linux_kselftest-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
          
-
---===============4102368253428681020==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1718804997 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1718804997-596672342d3b52d731b5b4bb17afc00af164d943
-
-9f774c757e3fb2ac32dc4377e8f21f3364a8df81 3ec1428d7b7c519d757a013cef908d7e33dee882 refs/heads/asoc-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZy4gUACgkQJNaLcl1U
-h9BXMQf+IQLL+vmNEuHOJdqjzYUoDWTOQEfKcdy9OL5TkqEylYw5sLk+9K01l9HG
-lqAZ/LF9ezpFR+3Sx8nfPMdlOf6ZUiO8jy42Su3TW4XikFiZd22jrIR0bdXPAf9f
-vcRZhM3+bpT0SAugFdp2WCTUjbf4iol7UZXkeW9UZ4M8PNPw19E815KpdL95LCUl
-q5nk1t1zM/HNKNikVMrtVV5epr7vom5MmP/TVi0pWXzaIpDT/JwyPh/0sDQvCI6l
-WH9qz1w4FZ3EzHa8IlTXslwtXQidS/ALAgQuv6frLZf9/1+B0d9eJEIkiQCkkJTm
-yT+Ltt+a1dHD6X2Aa5ipBgBgsclSFg==
-=JxX7
------END PGP SIGNATURE-----
-
---===============4102368253428681020==--
