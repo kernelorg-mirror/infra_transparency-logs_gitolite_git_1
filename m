@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 19 Jun 2024 19:47:45 -0000
-Message-Id: <171882646558.4518.2229894843999924156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 19 Jun 2024 19:54:23 -0000
+Message-Id: <171882686395.8552.17079121997610374090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: 7d38a219a84d181d5c16a93cf7424b609195820d
-    new: 05dc1ef7d3119c9312f4ab85279afa410e07853f
+  - ref: refs/heads/master
+    old: 92e5605a199efbaee59fb19e15d6cc2103a04ec2
+    new: e5b3efbe1ab1793bb49ae07d56d0973267e65112
     log: |
-         3e485770e5d1c1a915cdd0d8877a72f144dc65d2 nfs/localio: use dedicated workqueues for filesystem read and write
-         25cc6c49a000d7c18f97cd788efe9169ae1fbfb9 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
-         17edd06eda6c517c1090ca8ce04f852009495723 nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
-         fc26d2953f29b248a02c4c075efdad44c7f2a9ea nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
-         75fa34cbf5f2a674ad0adcffde81dc30b25dc578 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
-         bca5a63c7fea9dcfe9273c0c9cae84ea038d89d3 nfsd: use SRCU to dereference nn->nfsd_serv
-         11b8ed4d8386d79c9b116182611a30e94b3becaa nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
-         8a87352d285f09fb41c5df49bd1a556c4bd70bb3 nfs: add Documentation/filesystems/nfs/localio.rst
-         05dc1ef7d3119c9312f4ab85279afa410e07853f nfs/nfsd: add Kconfig options to allow localio to be enabled
+         ae9daffd9028f2500c9ac1517e46d4f2b57efb80 MIPS: Routerboard 532: Fix vendor retry check code
+         277a0363120276645ae598d8d5fea7265e076ae9 MIPS: pci: lantiq: restore reset gpio polarity
+         ce5cdd3b05216b704a704f466fb4c2dff3778caf mips: bmips: BCM6358: make sure CBR is correctly set
+         3572bd5689b0812b161b40279e39ca5b66d73e88 tracing: Build event generation tests only as modules
+         6e5aee08bd2517397c9572243a816664f2ead547 Revert "MIPS: pci: lantiq: restore reset gpio polarity"
+         6785e3cc09f149c42ce70eb92736d68c0db64684 Merge tag 'mips-fixes_6.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+         e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
