@@ -1,44 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8036041513529380696=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Wed, 19 Jun 2024 16:52:03 -0000
-Message-Id: <171881592304.2487.17106373366131101411@gitolite.kernel.org>
-
---===============8036041513529380696==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 19 Jun 2024 16:53:52 -0000
+Message-Id: <171881603270.3215.10571115552298903588@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/tags/next-media-renesas-20240619
-    old: 0000000000000000000000000000000000000000
-    new: 718409ad97202da25421575c06740e0cd80abf01
-
---===============8036041513529380696==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher laurent.pinchart@ideasonboard.com 1718815888 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1718815908-77b3ce108683b04868856a9eebec9e5e422cf9e7
-
-0000000000000000000000000000000000000000 718409ad97202da25421575c06740e0cd80abf01 refs/tags/next-media-renesas-20240619
------BEGIN PGP SIGNATURE-----
-
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnMMkCIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95k1/AA/R8u8ADvN1QA
-yDyFGU9oyQAuLwnR5pfd1I9o3y7ocxoOAP9gyuQ+hmbpdTBCTHM84f7BU03utxCE
-ic54I2b2dKe2Dg==
-=3YXY
------END PGP SIGNATURE-----
-
---===============8036041513529380696==--
+  - ref: refs/heads/bleeding-edge
+    old: 7da9e1a5c61d144696a45c88a2acb3cf124dec13
+    new: c74b5bdad6008f86fc2e42b80ef68f23d6c052d2
+    log: |
+         3fd84db96b212a321ad381bf0341f45f952285b7 ACPI: sysfs: convert utf-16 from _STR to utf-8 only once
+         30fb30aa9ab68e0f638ae775de6284c41e8910b2 ACPI: sysfs: use device lifecycle for _STR result
+         11648778445c89977988310e30cd13ff30e106ed ACPI: sysfs: manage attributes as attribute_group
+         f21f13d59e6dc743f5ff794af89dcf738588c7c7 ACPI: sysfs: manage sysfs attributes through device core
+         fe66d86311693574aca1b9624f92e273c13d1b3b ACPI: sysfs: remove return value of acpi_device_setup_files()
+         c74b5bdad6008f86fc2e42b80ef68f23d6c052d2 Merge branch 'acpi-sysfs' into bleeding-edge
+         
