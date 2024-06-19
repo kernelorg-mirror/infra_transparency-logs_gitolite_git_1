@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7794070993254465553=="
+Content-Type: multipart/mixed; boundary="===============8004807650589654526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 19 Jun 2024 17:07:16 -0000
-Message-Id: <171881683683.14611.16285246904401970622@gitolite.kernel.org>
+Date: Wed, 19 Jun 2024 17:11:13 -0000
+Message-Id: <171881707302.17801.2251071122217591018@gitolite.kernel.org>
 
---===============7794070993254465553==
+--===============8004807650589654526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-next
-    old: d524a4960826e5ba8502d1bed843e6c9ca5d8539
-    new: 6f77635fed190290b44b7cef897dd4ac00c6e6e0
-    log: revlist-d524a4960826-6f77635fed19.txt
+  - ref: refs/heads/ti-k3-dts-next
+    old: 29fb64d20007c8018d99e713eb637bcd79915e7c
+    new: 4509365311bf5a9383fa144aba45bcaa56a5bab8
+    log: revlist-29fb64d20007-4509365311bf.txt
 
---===============7794070993254465553==
+--===============8004807650589654526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d524a4960826-6f77635fed19.txt
+Content-Disposition: attachment; filename=revlist-29fb64d20007-4509365311bf.txt
 
-b82feb3a56e25919d6729b98c8152d950045fc5b arm64: dts: ti: k3-am642-sk: Add power supply temperature sensors
-5ebd992081ebb59808129b51d180a665edbe7859 arm64: dts: ti: k3-j784s4-main: Add node for EHRPWMs
-58df88eea2fce880039bf9bae7674dcee8b9c7ec arm64: dts: ti: am642-phyboard-electra: Remove PCIe pinmuxing
-329ba8a03655037ec1e8368d12f6669b7532daa6 arm64: dts: ti: am642-phyboard-electra: Add overlay to enable PCIe
-cd6f12dcb10e01771f41ef19b74b70d73c8a0f27 arm64: dts: ti: k3-j721e: Add overlay for J721E Infotainment Expansion Board
-f72cd97b8951eeaaf2a535b898dcb3993df99371 arm64: dts: ti: k3-am64-phycore-som: Add serial_flash label
-36d5600d70c8a74df63ed08125ec96113d647e1a arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable eth phy
-8b7e300cd7a51bcd5e917463e798614ea59503e6 arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable rtc
-48ceaaa0d8278ac24af343716021f7aa2d38b207 arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable spi nor
-de3db2a334f1b65821db60cdfb16a36240e53d75 arm64: dts: ti: am642-evm: Add overlay for NAND expansion card
-a9202e67bff434565cfeacde27c00ef4e5f6e392 arm64: dts: ti: am62p: Rename am62p-{}.dtsi to am62p-j722s-common-{}.dtsi
-c96bde9948e1d376e721e05fc172f9be921e9df7 arm64: dts: ti: k3-am62p-j722s: Move AM62P specific USB1 to am62p-main.dtsi
-bd585ec88d10834923e39e218fce1e43a742569b arm64: dts: ti: k3-j722s: Add main domain peripherals specific to J722S
-e7842e3c6d3e595cf71dc7f4d58d87d3b92c1abf arm64: dts: ti: k3-j722s: Switch to k3-am62p-j722s-common-{}.dtsi includes
-01775ad6ad1ab97a2d54446e43676edd81859bbf arm64: dts: ti: k3-serdes: Add SERDES0/SERDES1 lane-muxing macros for J722S
-f49eee940608a327653f13d4c10c48ecef21cb70 arm64: dts: ti: k3-j722s-main: Add SERDES and PCIe support
-ccc5589b9bbcef670640098d720d800d61e9b9b8 arm64: dts: ti: k3-j722s: Enable PCIe and USB support on J722S-EVM
-29fb64d20007c8018d99e713eb637bcd79915e7c arm64: dts: ti: k3-am62p-j722s: Move SoC-specific node properties
-6f77635fed190290b44b7cef897dd4ac00c6e6e0 Merge branch 'ti-k3-dts-next' into ti-next
+f53f477bfcb8aa7490b3bd3030e3bef1b95dbdce arm64: dts: ti: k3-j784s4-main: Add node for EHRPWMs
+927718d246fcf14b2b642691936f2abe2e80917e arm64: dts: ti: am642-phyboard-electra: Remove PCIe pinmuxing
+e9bb631b3eb41309063fd8ad804a3935665009a4 arm64: dts: ti: am642-phyboard-electra: Add overlay to enable PCIe
+9c0fa304fa561abfe83d328ffc4f638c0152bead arm64: dts: ti: k3-j721e: Add overlay for J721E Infotainment Expansion Board
+1fc3858a906bf3e8c48a14587106bb61c2f8d7c5 arm64: dts: ti: k3-am64-phycore-som: Add serial_flash label
+1322b1796d7143dfa75e10e036c6099927ef510d arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable eth phy
+a0b552605f8c588fdd9ea062886fb90d50534a8d arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable rtc
+9a32378884931d8f66d0d7122873156199fa422f arm64: dts: ti: k3-am6xx-phycore-som: Add overlay to disable spi nor
+32c7dd16f8a5bb546645184db673463288797d75 arm64: dts: ti: am642-evm: Add overlay for NAND expansion card
+440056b09315c8c65c373e9433ba1411614f6498 arm64: dts: ti: am62p: Rename am62p-{}.dtsi to am62p-j722s-common-{}.dtsi
+7be885d53cc6cea4cecb880d4847877c5ed45c65 arm64: dts: ti: k3-am62p-j722s: Move AM62P specific USB1 to am62p-main.dtsi
+b559972c852d56521a2c2b14ff0858ee0b9e1b9c arm64: dts: ti: k3-j722s: Add main domain peripherals specific to J722S
+f79e3540eaf630b47d8ab595d3cca4de4676054c arm64: dts: ti: k3-j722s: Switch to k3-am62p-j722s-common-{}.dtsi includes
+c783d1ea73295b16fe97ff76b4b3ec28d9ff914e arm64: dts: ti: k3-serdes: Add SERDES0/SERDES1 lane-muxing macros for J722S
+693b2d80d680fd51150fc278fd396abe34a0aa03 arm64: dts: ti: k3-j722s-main: Add SERDES and PCIe support
+f0e05ca79ccc666db00e202faccacaaa9be7535a arm64: dts: ti: k3-j722s: Enable PCIe and USB support on J722S-EVM
+4509365311bf5a9383fa144aba45bcaa56a5bab8 arm64: dts: ti: k3-am62p-j722s: Move SoC-specific node properties
 
---===============7794070993254465553==--
+--===============8004807650589654526==--
