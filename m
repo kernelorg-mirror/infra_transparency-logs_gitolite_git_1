@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 19 Jun 2024 08:58:14 -0000
-Message-Id: <171878749479.14544.18426810754700373537@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6592038774772353710=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 19 Jun 2024 09:14:57 -0000
+Message-Id: <171878849769.26825.13743939093253280538@gitolite.kernel.org>
+
+--===============6592038774772353710==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/nv-at-WIP
-    old: d68bd91b1f67693cf96037780650a5b080b44b3e
-    new: 4e48c1b16243e36c1b10e0681adae44c0c7e0868
+  - ref: refs/heads/master
+    old: 138202130cd48cb86feb6f2096e54b5bc0038d8f
+    new: 21dd7b9705514d0de1a69cc07a48b7084c298e7f
     log: |
-         2cb44c0c16c7c09f55cbfb254f2dcd7f83756f56 KVM: arm64: nv: Honor absence of FEAT_PAN2
-         94368c4ed1683dd86dd6727e3c18fe99b44fa38a KVM: arm64: nv: Add basic emulation of AT S1E{0,1}{R,W}
-         acecfb40a8eb070cf96b75fec5a9d1c15bcc4d59 KVM: arm64: nv: Add basic emulation of AT S1E2{R,W}
-         12378a4cd8a28d651e92869708b658f927157a7a KVM: arm64: nv: Add emulation of AT S12E{0,1}{R,W}
-         4df301a8f470d8d58742ecf975f40e1ffed41a64 KVM: arm64: nv: Make ps_to_output_size() generally available
-         8a564a7652ad83882ebfa40b6a678741d1fa338d KVM: arm64: nv: Add SW walker for AT S1 emulation
-         4e48c1b16243e36c1b10e0681adae44c0c7e0868 KVM: arm64: nv: Plumb handling of AT S1* traps from EL2
+         21dd7b9705514d0de1a69cc07a48b7084c298e7f 4.19-stable patches
          
+
+--===============6592038774772353710==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718788496 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1718788495-e482ca3da80360466ffef675b6b3c3649f758248
+
+138202130cd48cb86feb6f2096e54b5bc0038d8f 21dd7b9705514d0de1a69cc07a48b7084c298e7f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZyoZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7cIP/iZ4QFweeILPynB8kP8N
+Fi0WHTPKr1KuBf3jmt6NA3z0uRIdrQvIyIGgciKOrktsQbaHJAtJNhWdyPl35K7I
+v14lig5X6CkCeKqLCYhF6dOkJ/X3ydr+EX4/cIuClcCLlKTxGCAhlHvnJElIP+7C
+O++OHIY52cCWpz/lYiHJNtrtATEwZLV338eQpCH44GiTGMgTcARaRLT9Zr5lO4Aa
+jGoXNyHtoLnFCWgESfJY6q4y8jSdVk1t7M49pL4ouYvu2Wsyz1IAb1t2rpSi/rYW
+T0PPIUyJ2AE+/lbCT4dBkNPYk9izXyGo8oS1sH8Suambm2NyWYzkHGbhKK26KIh7
+0QRtst8eTjCuH/f6FAPK5BARPMd88Zqvqkxz6QUZ/GkPW9PxFqOO2tkT5kwAVM5f
+MddYBDZxPZUCDAZEGeP8IslqRKNWcSCGgxQ6LgOVSq1I7kWWTzCj77a0lc4Q4diB
+VS6E0nRIDQNdN6/2YUGyszrv2MvbvefcAcMcNEa3eQ0e2e+ixnISqtKen7/+hpfR
+pHaf8kqhPwfNP3/97HF4ddRLx+xGdudQIlWOe69VgE8EpNM7kn949kfpGdqCQjni
+KAaBeOBaX0aT8N1ZH97gXLBCA6gJ/1DEHGvwNZh6GRCdLaXRnPV9sK8KCwZk8pDX
+efhomE/Mn02CzFu+b074PIRe
+=btqk
+-----END PGP SIGNATURE-----
+
+--===============6592038774772353710==--
