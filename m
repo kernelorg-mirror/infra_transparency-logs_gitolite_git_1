@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 19 Jun 2024 03:16:07 -0000
-Message-Id: <171876696747.25852.4351289081524518240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 19 Jun 2024 03:50:14 -0000
+Message-Id: <171876901494.18120.657341998771434561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 90e4ed6bb02ad93663f17411d17e8e714a765a6b
-    new: ce5b5bef86c3062a4ea01af4b774fd9f180fd4d3
+  - ref: refs/heads/dev
+    old: 496621d5130e5a140147ada5f8d7cc1bc79452e1
+    new: f29bcafffef0ecc8a5d2cdc1bbef9a6889225263
     log: |
-         ce5b5bef86c3062a4ea01af4b774fd9f180fd4d3 cpufreq: sun50i: add Allwinner H700 speed bin
+         f29bf513fe24c22964da51000c9aca77d0c3140d context_tracking: Tag context_tracking_enabled_this_cpu() __always_inline
+         f29bcafffef0ecc8a5d2cdc1bbef9a6889225263 rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
          
