@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 19 Jun 2024 16:56:15 -0000
-Message-Id: <171881617597.5728.10414728689092629774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 19 Jun 2024 17:01:16 -0000
+Message-Id: <171881647605.9234.9813428097544471490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: 89f818fc1f6323bf7c76d346106f59230bc47b03
-    new: 7d38a219a84d181d5c16a93cf7424b609195820d
+  - ref: refs/heads/kwilczynski/sysfs-static-resource-attributes
+    old: 7f395964ea2fe94ad5099688ff13d6ba89c68f97
+    new: 5d8f30d2c62fd53dda82173d10e63557e23d59b7
     log: |
-         ec593ac68c2877548acf0706f2f5154f065abfcc nfs: add Documentation/filesystems/nfs/localio.rst
-         7d38a219a84d181d5c16a93cf7424b609195820d nfs/nfsd: add Kconfig options to allow localio to be enabled
+         5d8f30d2c62fd53dda82173d10e63557e23d59b7 PCI/sysfs: Limit pci_sysfs_init() late initcall compile time scope
          
