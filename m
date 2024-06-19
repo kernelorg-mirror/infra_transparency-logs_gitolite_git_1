@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 19 Jun 2024 03:07:53 -0000
-Message-Id: <171876647301.19291.15890443924970083040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 19 Jun 2024 03:08:45 -0000
+Message-Id: <171876652513.19674.7924865292744796468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 842b4d98ae338522babab38347297f0932fa7afd
-    new: 1226a1b2e5611d17aae55a01ad9d6883879feab4
+  - ref: refs/heads/scx-cpuperf
+    old: 0e7ef20ae9d29c734e14ea3a4cd1f32535b014e5
+    new: 3049cfbbee553cab70e10d2ac1f9646386df12a6
     log: |
-         699383466851e3fb8284e1eefeed78ec30989b3b dt-bindings: hwmon: ti,tmp108: document V+ supply, add short description
-         27972a41423291b0ca438fc3f0b104429bf270f2 hwmon: (spd5118) Use regmap to implement paging
-         1226a1b2e5611d17aae55a01ad9d6883879feab4 hwmon: (spd5118) Add support for Renesas/ITD SPD5118 hub controllers
+         ac3e7417e563b43f2e3f5ff046cb3064a9fb5632 cpufreq_schedutil: Refactor sugov_cpu_is_busy()
+         3049cfbbee553cab70e10d2ac1f9646386df12a6 sched_ext: Add cpuperf support
          
