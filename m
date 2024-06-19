@@ -1,103 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8079518110950285112=="
+Content-Type: multipart/mixed; boundary="===============0647305312560728247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 19 Jun 2024 15:23:57 -0000
-Message-Id: <171881063728.1605.4178628928483906982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 19 Jun 2024 15:24:19 -0000
+Message-Id: <171881065906.1906.6937678180730838748@gitolite.kernel.org>
 
---===============8079518110950285112==
+--===============0647305312560728247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
-  - ref: refs/heads/fs-next
-    old: 4746b72f0449e439452aeb739d6cd3dee32af01d
-    new: fa93de167a736ca41338f9e0b84e5d071a9b2295
-    log: revlist-4746b72f0449-fa93de167a73.txt
   - ref: refs/heads/master
     old: 0c52056d9f77508cb6d4d68d3fc91c6c08ec71af
     new: 2102cb0d050d34d50b9642a3a50861787527e922
     log: revlist-0c52056d9f77-2102cb0d050d.txt
-  - ref: refs/heads/stable
-    old: 14d7c92f8df9c0964ae6f8b813c1b3ac38120825
-    new: 92e5605a199efbaee59fb19e15d6cc2103a04ec2
-    log: revlist-14d7c92f8df9-92e5605a199e.txt
-  - ref: refs/tags/next-20240319
-    old: 021d46afb1c722086c9e2b030182d6a512f99519
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240619
     old: 0000000000000000000000000000000000000000
     new: 31feca981a3902391d6040135b0931a38491f587
 
---===============8079518110950285112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4746b72f0449-fa93de167a73.txt
-
-2049aad5d3a6921f80121029afe6fbcfb2727861 selftests: filesystems: fix warn_unused_result build warnings
-04e1f99afe8bec27ad2d2726897ac8185bf0532c selftests: seccomp: fix format-zero-length warnings
-442b15a2d7a3f01534cb80585b84d7b60e4e2219 selftests/openat2: fix clang build failures: -static-libasan, LOCAL_HDRS
-ed3994ac847e0d6605f248e7f6776b1d4f445f4b selftests/fchmodat2: fix clang build failure due to -static-libasan
-7180f8d91fcbf252de572d9ffacc945effed0060 vfs: add rcu-based find_inode variants for iget ops
-3a8e2f99f18d69389366e16375e9a0e41ed43779 btrfs: use iget5_locked_rcu
-ddd4cd4824fa315c799174f2f655a474bf221a6c xfs: preserve i_state around inode_init_always in xfs_reinit_inode
-5a9b911b8a24eda19eb0a5ab3b06688299a20711 vfs: partially sanitize i_state zeroing on inode creation
-e9dae2fb991b3211108187f90551d62968ef06a1 xfs: remove now spurious i_state initialization in xfs_inode_alloc
-267574dee6ae0da68f5b454a30ff276d45976cf8 bcachefs: remove now spurious i_state initialization
-d042dae6ad74df8a00ee8a3c6b77b53bc9e32f64 lockref: speculatively spin waiting for the lock to be released
-bdf609118326e7c15f1c7efbc629bd9f7f307231 vfs: move d_lockref out of the area used by RCU lookup
-9a95c5bfbf02a0a7f5983280fe284a0ff0836c34 ima: Avoid blocking in RCU read-side critical section
-a1439d89480754ddbc0a837544129ff5100f4087 efi/arm: Disable LPAE PAN when calling EFI runtime services
-75dde792d6f6c2d0af50278bd374bf0c512fe196 efi/x86: Free EFI memory map only when installing a new one.
-46e27b9961d8712bc89234444ede314cec0e8bae efi/arm64: Fix kmemleak false positive in arm64_efi_rt_init()
-348a1983cf4cf5099fc398438a968443af4c9f65 xfs: fix unlink vs cluster buffer instantiation race
-3d54351c64e8f9794e8838196036a2de3d752fce Merge tag 'lsm-pr-20240617' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-704026c008ebabcc809fc52ec3e21817f5164a03 proc: pass file instead of inode to proc_mem_open
-d664684332787397c404f3868e7764ae882da2e8 proc: restrict /proc/pid/mem
-b85100a1897a20eb9e646b1816b5b4662a6b6c6c fs: fix dentry size
-1ad10f1d44bd11e03cb62d2b58696367340b1acb Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-bd57761893300eb50c767a60f5942dda2ba55caf Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-6fc9a218455c455c2bf28deee4d31ef3e65caebc Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-3fad7758e1def4407ab383e98a1271e90d8e8cfc Merge branch 'vfs.module.description' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-66b11d75f7606f66deab7885d43ba362881df404 Merge branch 'vfs.pg_error' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f324654a812909f5648a2a890768ef6ff6ef56fd Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-6391ee80dd471e1d647e1d2418fb37ee61f41727 Merge branch 'vfs.iomap' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-8136b2e0094e8bf29616215e3d7b33f01eba48c4 Merge branch 'vfs.casefold' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-bba8872b1f0a0a26788ee975fea2e90fc52670db Merge branch 'vfs.inode.rcu' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f5cdd7daf9f105b81d1f561804287cf4cf1d4fe0 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-aa89e7ad9d47d460674bcc60f938fee7ee218b91 Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-46d1907d1caaaaa422ae814c52065f243caa010a Merge tag 'efi-fixes-for-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-5d272dd1b3430bb31fa30042490fa081512424e4 cpumask: limit FORCE_NR_CPUS to just the UP case
-92e5605a199efbaee59fb19e15d6cc2103a04ec2 Merge tag 'linux_kselftest-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-29433a17a79caa8680b9c0761f2b10502fda9ce3 cifs: drop the incorrect assertion in cifs_swap_rw()
-ce63fc4c8d45e6a722b9d32106c93c9833137c58 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-f45f67f10433be72e4ed7372ef7b6b13e405eaa4 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-686ef179f7f2c330e76e9c9be4387b9062c376d0 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-7bca4d719b2fa833dce265c7e7aeea4b7c74d7f3 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-aa2c36263eef67177c26c19f736791b759ea2673 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-1ebe251663d9cfad08e997cda924beb5e17ec049 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-fdfef31b0018d74647e780d74fbee8edf90afb72 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-019367da3310940ebeb6a9bb5674c8d592045e70 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-7defe190adb97f5e0473089c7d8877b5456441c7 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-87a8a84f2fb89259c5c3360d2240a92ecf69ba6d Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-bf86e7dfe0773a982b4d5e70d9293b58293f60b6 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-541a9a83ea8dc8f797c52ac7b7de59bfa419988a Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-6a8a38682602f38c21e764937a552255121deb54 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-38aa8f4ea2e394cc6df4fb60f8c71430be24edd7 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-8eb141801094271b43cb317e28c24c3cd58b48d6 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-c3bb3865e9bcdfb32d63df6cd50d6d9684cd6ed6 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-252a2a47af766f488d9f9b46485c932966da1303 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-eaafa0347f907e9c656d410548d45b74655665e9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-c120eef23273fdccc12062268a92df5e20aa14e8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-fa93de167a736ca41338f9e0b84e5d071a9b2295 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============8079518110950285112==
+--===============0647305312560728247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -990,23 +916,4 @@ accbe9f6b744ca8630ac9c719b3d05f6e60336bc Merge branch 'sysctl-next' of git://git
 8b930b396d477258da1bf50c81ea9ea2fa5e8a50 Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 2102cb0d050d34d50b9642a3a50861787527e922 Add linux-next specific files for 20240619
 
---===============8079518110950285112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14d7c92f8df9-92e5605a199e.txt
-
-2049aad5d3a6921f80121029afe6fbcfb2727861 selftests: filesystems: fix warn_unused_result build warnings
-04e1f99afe8bec27ad2d2726897ac8185bf0532c selftests: seccomp: fix format-zero-length warnings
-442b15a2d7a3f01534cb80585b84d7b60e4e2219 selftests/openat2: fix clang build failures: -static-libasan, LOCAL_HDRS
-ed3994ac847e0d6605f248e7f6776b1d4f445f4b selftests/fchmodat2: fix clang build failure due to -static-libasan
-9a95c5bfbf02a0a7f5983280fe284a0ff0836c34 ima: Avoid blocking in RCU read-side critical section
-a1439d89480754ddbc0a837544129ff5100f4087 efi/arm: Disable LPAE PAN when calling EFI runtime services
-75dde792d6f6c2d0af50278bd374bf0c512fe196 efi/x86: Free EFI memory map only when installing a new one.
-46e27b9961d8712bc89234444ede314cec0e8bae efi/arm64: Fix kmemleak false positive in arm64_efi_rt_init()
-3d54351c64e8f9794e8838196036a2de3d752fce Merge tag 'lsm-pr-20240617' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-46d1907d1caaaaa422ae814c52065f243caa010a Merge tag 'efi-fixes-for-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-5d272dd1b3430bb31fa30042490fa081512424e4 cpumask: limit FORCE_NR_CPUS to just the UP case
-92e5605a199efbaee59fb19e15d6cc2103a04ec2 Merge tag 'linux_kselftest-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-
---===============8079518110950285112==--
+--===============0647305312560728247==--
