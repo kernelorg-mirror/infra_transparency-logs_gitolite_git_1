@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 19 Jun 2024 19:54:23 -0000
-Message-Id: <171882686395.8552.17079121997610374090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 19 Jun 2024 19:55:03 -0000
+Message-Id: <171882690371.10434.16978972955125449706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 92e5605a199efbaee59fb19e15d6cc2103a04ec2
-    new: e5b3efbe1ab1793bb49ae07d56d0973267e65112
+  - ref: refs/heads/for-next/kspp
+    old: f5fa6aa8a0f86aad48b8425025a7e7e2b261deb2
+    new: d9d46c76da56d5dd62abcafc9d2e3d288e82e29a
     log: |
-         ae9daffd9028f2500c9ac1517e46d4f2b57efb80 MIPS: Routerboard 532: Fix vendor retry check code
-         277a0363120276645ae598d8d5fea7265e076ae9 MIPS: pci: lantiq: restore reset gpio polarity
-         ce5cdd3b05216b704a704f466fb4c2dff3778caf mips: bmips: BCM6358: make sure CBR is correctly set
-         3572bd5689b0812b161b40279e39ca5b66d73e88 tracing: Build event generation tests only as modules
-         6e5aee08bd2517397c9572243a816664f2ead547 Revert "MIPS: pci: lantiq: restore reset gpio polarity"
-         6785e3cc09f149c42ce70eb92736d68c0db64684 Merge tag 'mips-fixes_6.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-         e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         d6f635bcaca8d38dfa47ee20658705f9eff156b5 x86/alternatives: Make FineIBT mode Kconfig selectable
+         d9d46c76da56d5dd62abcafc9d2e3d288e82e29a Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
          
