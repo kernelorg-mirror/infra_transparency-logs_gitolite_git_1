@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 19 Jun 2024 14:38:48 -0000
-Message-Id: <171880792819.819.13514347551305254549@gitolite.kernel.org>
+Date: Wed, 19 Jun 2024 14:39:38 -0000
+Message-Id: <171880797800.1271.15330960330563964582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,12 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: 52befae576701c246f19a1ac67d061b17cffe281
-    new: 8fceb14529d7a33a72182d55ffbea67965ad21d5
+    old: 8fceb14529d7a33a72182d55ffbea67965ad21d5
+    new: fa9057ccb9c323816e0f2599a2d91f5c856b0004
     log: |
-         f4ceb2a044f653344ea52c79d775fb876dfb1d1c HID: uclogic: Avoid linking common code into multiple modules
-         22c0a46a0d9731566ec05813f15dc22cf1096b3a HID: uclogic: Add module description
-         8fceb14529d7a33a72182d55ffbea67965ad21d5 Merge branch 'for-6.10/upstream-fixes' into for-next
+         bda38f9a41d89b47dce54932f88d0e0edee00cae HID: asus: use hid for brightness control on keyboard
+         fa9057ccb9c323816e0f2599a2d91f5c856b0004 Merge branch 'for-6.11/asus' into for-next
          
+  - ref: refs/heads/for-6.11/asus
+    old: 0000000000000000000000000000000000000000
+    new: bda38f9a41d89b47dce54932f88d0e0edee00cae
