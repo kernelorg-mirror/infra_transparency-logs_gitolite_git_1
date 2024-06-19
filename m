@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 19 Jun 2024 20:39:41 -0000
-Message-Id: <171882958145.10022.8310942404226548832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 19 Jun 2024 21:45:53 -0000
+Message-Id: <171883355320.26495.1384693195507706062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/tmp.master
-    old: 6a2b27c0f512619b0e7a769a18a0fb05bb3789a5
-    new: 693522ee3a947d732d26506ee133773b125d422a
+  - ref: refs/heads/for-next
+    old: 21c186154e663f4a19eaf6d074faebf4828a31aa
+    new: 8ad009a7eae6a32bb598f504ecb19fc59439e0a7
     log: |
-         94a01bde592c555b3eb526aeb4c2ad695c5660d8 dwarf_loader: Add missing cus__add(cus, cu) to cus__merge_and_process_cu()
-         f7e3f0942fedb9454a174020b65486116d4ee240 pahole: Bail out when not finding debug anywhere
-         e82a0fdcfb8ea0ce2b3d324d9de63bbbb163363d dwarf_loader: Simplify tag__print_not_supported()
-         43f9515d82114987f092cc294f615bafdc4cb31c dwarf_loader: Print the DWARF offset in tag__print_unsupported_tag()
-         693522ee3a947d732d26506ee133773b125d422a core: Ignore DW_TAG_inheritance with byte_size zero when finding holes
+         1e297069cc1c588bbece4752e0840b6a15982148 ARM: dts: rockchip: add hdmi-sound node to rk3066a
+         8ad009a7eae6a32bb598f504ecb19fc59439e0a7 Merge branch 'v6.11-armsoc/dts32' into for-next
+         
+  - ref: refs/heads/v6.11-armsoc/dts32
+    old: a6b661c2a38a92b7de826f74e57596fe33fe17fa
+    new: 1e297069cc1c588bbece4752e0840b6a15982148
+    log: |
+         1e297069cc1c588bbece4752e0840b6a15982148 ARM: dts: rockchip: add hdmi-sound node to rk3066a
          
