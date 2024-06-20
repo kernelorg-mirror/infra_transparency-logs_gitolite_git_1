@@ -1,35 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 20 Jun 2024 00:00:45 -0000
-Message-Id: <171884164553.26352.18332584401394202619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 20 Jun 2024 00:23:01 -0000
+Message-Id: <171884298125.9706.6599592375761293076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/jd/vdso-skip-insn
-    old: e0546a14ad90daa5650581e0a5d3027c0b6624b9
-    new: ae0b44e67d0e3cccfd4794a8908b7deca3e784fd
+  - ref: refs/heads/main
+    old: a8763466669d21b570b26160d0a5e0a2ee529d22
+    new: 74382aebc9035470ec4c789bdb0d09d8c14f261e
     log: |
-         ba4b48157fd8c076b6a09cf3f41d95d401a8d3a3 mm: add VM_DROPPABLE for designating always lazily freeable mappings
-         02cefff8a9e0e2c6759930305deb92b39b15eee0 random: add vgetrandom_alloc() syscall
-         9e1228a69eb906681911eb15e6765c0691c6834e arch: allocate vgetrandom_alloc() syscall number
-         475a82710ed522a6b79772a032e4b38d29a4562d random: introduce generic vDSO getrandom() implementation
-         1d5b418dbb6208b0d2ddea80ca0afcd99011b870 x86: vdso: Wire up getrandom() vDSO implementation
-         da0833925f9599783823a77e7e45a2b846aea966 mm: Do not OOM when failing VM_DROPPABLE faults
-         ae0b44e67d0e3cccfd4794a8908b7deca3e784fd x86: mm: Skip faulting instruction for VM_DROPPABLE faults
-         
-  - ref: refs/heads/vdso
-    old: 3ba9cd1987da2768b6e5469110fd8fa372986922
-    new: 1d5b418dbb6208b0d2ddea80ca0afcd99011b870
-    log: |
-         ba4b48157fd8c076b6a09cf3f41d95d401a8d3a3 mm: add VM_DROPPABLE for designating always lazily freeable mappings
-         02cefff8a9e0e2c6759930305deb92b39b15eee0 random: add vgetrandom_alloc() syscall
-         9e1228a69eb906681911eb15e6765c0691c6834e arch: allocate vgetrandom_alloc() syscall number
-         475a82710ed522a6b79772a032e4b38d29a4562d random: introduce generic vDSO getrandom() implementation
-         1d5b418dbb6208b0d2ddea80ca0afcd99011b870 x86: vdso: Wire up getrandom() vDSO implementation
+         02a176d42a88805b3520148a4eee28b0760cd8c0 ipv6: bring NLM_DONE out to a separate recv() again
+         74382aebc9035470ec4c789bdb0d09d8c14f261e ice: Fix VSI list rule with ICE_SW_LKUP_LAST type
          
