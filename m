@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0748218907120599440=="
+Content-Type: multipart/mixed; boundary="===============0900439084527631203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 20 Jun 2024 22:26:35 -0000
-Message-Id: <171892239533.11745.7231040107954542507@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 22:26:50 -0000
+Message-Id: <171892241080.11921.15773515214584191322@gitolite.kernel.org>
 
---===============0748218907120599440==
+--===============0900439084527631203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: a012f9a752a5856b29610057c76079fbdbe02abf
-    new: a6ec08beec9ea93f342d6daeac922208709694dc
-    log: revlist-a012f9a752a5-a6ec08beec9e.txt
+  - ref: refs/heads/dev-queue
+    old: ac5086335416203fbb2562762aba73b2bf5cac4d
+    new: f784c44ba045dbca61248cc569628e6a8bd0cff8
+    log: revlist-ac5086335416-f784c44ba045.txt
 
---===============0748218907120599440==
+--===============0900439084527631203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a012f9a752a5-a6ec08beec9e.txt
+Content-Disposition: attachment; filename=revlist-ac5086335416-f784c44ba045.txt
 
 8a01ef749b0a632f0e1f4ead0f08b3310d99fcb1 iio: adc: ad9467: fix scan type sign
 72d0a20fabcf231c9b4b17b0cabdcde0949d05eb dt-bindings: iio: dac: fix ad354xr output range
@@ -329,5 +329,69 @@ fba383985354e83474f95f36d7c65feb75dba19d net: usb: rtl8150 fix unintiatilzed var
 042742a1ff1f37ca88c303a9e61afc8c56b23657 Merge tag 'sound-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 d5a7fc58da039903b332041e8c67daae36f08b50 Merge tag 'net-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a6ec08beec9ea93f342d6daeac922208709694dc Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+946d833c66241a01278e10209141efa69dee28d0 ice: store representor ID in bridge port
+13673a162f11798e3face63d5b5f848bbdc452e4 ice: move devlink locking outside the port creation
+aeeadfa2d792afc23a552ba32881dfac65770102 ice: move VSI configuration outside repr setup
+15d71a6c242698c11911171e19b1de04d39632b5 ice: update representor when VSI is ready
+27f76ab2558b739c5c023659dbaec5819ee2f8b0 ice: Add a per-VF limit on number of FDIR filters
+05498e3c7cc71f7d53c72cf887b8c9940a01ee45 ice: add parser create and destroy skeleton
+24b1800f304332b60073707a84f3ade01e421e23 ice: parse and init various DDP parser sections
+ae53b48c2a3a2e58c4211ca114104dd78c90cf16 ice: add debugging functions for the parser sections
+1cfbf82b26af094909ddd5546e8d5997272db386 ice: add parser internal helper functions
+58e0a3af306113ab38e966965925ca03bc56ebc3 ice: add parser execution main loop
+c12e5a9f4d6b97bf035a7f6d5fa1a973d03df04b ice: support turning on/off the parser's double vlan mode
+5af3ed88f2aff025f85a6215122a3f2d5d3f5fe4 ice: add UDP tunnels support to the parser
+cf816be38455060ad609a8bd3fed12b5f3ab0539 ice: add API for parser profile initialization
+964bbe875b2ba49f004306a3c095184c03863709 virtchnl: support raw packet in protocol header
+a8b933e88aa8ad092e3c5af17b01cf81d37554ba ice: add method to disable FDIR SWAP option
+1b67cf0b1192f44e239dca59a7ef86fdbc948615 ice: enable FDIR filters from raw binary patterns for VFs
+b12ba96ca300d920c6c23f6aa01121d1882346f1 iavf: refactor add/del FDIR filters
+b85d8d8c20c8eb6acf03e26e46afb3206cc1c5ce iavf: add support for offloading tc U32 cls filters
+65904ddec63264c9b4ea9c82f081cf67a9988ab4 ice: Check all ice_vsi_rebuild() errors in function
+911fd704154771642c74d69febc8a1221c480c12 ice: Add get/set hw address for VFs using devlink commands
+f461075c98f1867467bc12dabe30f6ebeb94e1c5 ice: Rebuild TC queues on VSI queue reconfiguration
+e555e3d1a1c9ca881eda10667fdfae691dcdd597 virtchnl: add support for enabling PTP on iAVF
+ab453650754c4cb122d213b2c016ecc5d2a47739 ice: support Rx timestamp on flex descriptor
+3554953c02bbe337b939a16da182b7e5bfd46595 virtchnl: add enumeration for the rxdid format
+c230851481287b2c984fd1467c0b637cf8678747 iavf: add support for negotiating flexible RXDID format
+8a8d7605a72502929e1acd3b87f7ae894ea90cab iavf: negotiate PTP capabilities
+14b2ed68927311426e18cfa32c6e50e6476f769a iavf: add initial framework for registering PTP clock
+ba45dd05bc389036ae1023bb6077c6482a78760e iavf: add support for indirect access to PHC time
+890e4f8d83e74768bb245376705fd2c3211d3941 iavf: periodically cache PHC time
+aba856244a7e0fc504d9a637a578d547e13c1fdc iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+4ebdbf325e15968e8085e7c399b3937c5799ece8 iavf: Implement checking DD desc field
+e05834de8a39c1cb8c5697f486a04d8c6ef99b23 iavf: handle set and get timestamps ops
+34d2f8726c7ef3af3b892025b1eac3556f43579c iavf: add support for Rx timestamps to hotpath
+649d540005207eacf68c161ee183a8d6e7d784ea net: docs: add missing features that can have stats
+6b9834f0a719bdc81fbb18344bfafda68b59130f ice: implement ethtool standard stats
+63b92a583f0237dbe096aa57d2f043c5a70b68f3 ice: add tracking of good transmit timestamps
+e7c207a18a7e833e25e9e07ea833f8ad895fd153 ice: implement transmit hardware timestamp statistics
+7a0c3667915ae0c66bd3b9028f1e50f1f626e544 ice: refactor to use helpers
+b48a19aa065494bba8207084d4fa9b783a2ca8be e1000e: Fix S0ix residency on corporate systems
+0b3f8473010c041de8931fe62480e94d4f0e6b90 ice: Allow different FW API versions based on MAC type
+9b0d1c86e66759ffb281c2d1850dc7a3777a9706 ice: Add support for devlink local_forwarding param.
+af114bc42410571a57df702cc996079a65ef24ed ice: add new VSI type for subfunctions
+161346e48f1c7746bb0afef236f8bd88b45dc5ac ice: export ice ndo_ops functions
+de7aa4112b2b069a0b8962e3b1223f21505780ab ice: add basic devlink subfunctions support
+9b54da7406c424d706addc1e4b60a8505dddf5ff ice: treat subfunction VSI the same as PF VSI
+fe7261fb26946d86e34a207324d755d22dc14560 ice: allocate devlink for subfunction
+e02f70494427488ff436607cd9e05d67bf90d2fa ice: base subfunction aux driver
+af3ec6cceaceb2c943f5ae9d3979672624030968 ice: implement netdev for subfunction
+d52701cd46c9843d18a13d00e2415bb6250b9547 ice: make representor code generic
+eb7398ae6eddc93194130534389f865d165bf69c ice: create port representor for SF
+2a5871e59658b87a64a3b3a0ccd351431bd9ccff ice: don't set target VSI for subfunction
+23be61019e6aaac9f81a86b34d63199dac68ba1f ice: check if SF is ready in ethtool ops
+1fcbef841282fe3e70af2add202b0740e1104bed ice: implement netdevice ops for SF representor
+03eff0ec8a47892399113856d53b7461cadcacda ice: support subfunction devlink Tx topology
+bf1ef70cb7a2b22e3d0a9d74aaf2703f48810c81 ice: basic support for VLAN in subfunctions
+8f8b53f5949278849c8293901610c854b29490b3 ice: allow to activate and deactivate subfunction
+1bd8ed0da3b9b2f3eee0e08661ed7ee83e8663bd igc: Remove the internal 'eee_advert' field
+440e78944de5e8c66940fd0f4d75eb15455433f9 ice: Distinguish driver reset and removal for AQ shutdown
+057d0d908c912d8eebc43b9111f1cdf9c9c76a15 ice: use proper macro for testing bit
+e39d4406ddfc7ff411303ae9061dda0a1f728115 ice: Extend Sideband Queue command to support flags
+714eb258929fb953f0788073fb826974a27a6cf4 ice: Implement driver functionality to dump fec statistics
+f3acbbfe2c168a951b1520af81d1224bf93df729 ice: Implement driver functionality to dump serdes equalizer values
+4ec11bd9d5810917a547ac8845990a149379f9a7 ice: do not init struct ice_adapter more times than needed
+f784c44ba045dbca61248cc569628e6a8bd0cff8 MAINTAINERS: update Intel Ethernet maintainers
 
---===============0748218907120599440==--
+--===============0900439084527631203==--
