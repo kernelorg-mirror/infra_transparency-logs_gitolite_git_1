@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2540755654143679821=="
+Content-Type: multipart/mixed; boundary="===============2157461283225948483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Jun 2024 15:52:25 -0000
-Message-Id: <171889874569.4982.12131424002718606994@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 15:54:59 -0000
+Message-Id: <171889889948.5982.14009768100678053393@gitolite.kernel.org>
 
---===============2540755654143679821==
+--===============2157461283225948483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: e2b447c9a1bba718f9c07513a1e8958209e862a1
+  - ref: refs/heads/100GbE
+    old: 8d8981c790a756181b496fa9f909e5b91192f97d
     new: fba383985354e83474f95f36d7c65feb75dba19d
-    log: revlist-e2b447c9a1bb-fba383985354.txt
+    log: revlist-8d8981c790a7-fba383985354.txt
 
---===============2540755654143679821==
+--===============2157461283225948483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2b447c9a1bb-fba383985354.txt
+Content-Disposition: attachment; filename=revlist-8d8981c790a7-fba383985354.txt
 
 cd6f12e173df44a20c2ac2ac110007dc14968088 net: phy: dp83tg720: wake up PHYs in managed mode
 40a64cc9679540ff7c46ecc51178b07d42abbb1c net: phy: dp83tg720: get master/slave configuration in link down state
@@ -54,4 +54,4 @@ b7bfcb4c7ce44fd0070ce8bccbc91c56341f05c1 bnxt_en: Set TSO max segs on devices wi
 48dea8f7bb011608fd969749a1980f8311ef45f2 selftests: virtio_net: add forgotten config options
 fba383985354e83474f95f36d7c65feb75dba19d net: usb: rtl8150 fix unintiatilzed variables in rtl8150_get_link_ksettings
 
---===============2540755654143679821==--
+--===============2157461283225948483==--
