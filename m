@@ -1,187 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4265240973691746339=="
+Content-Type: multipart/mixed; boundary="===============1266858681621838136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 20 Jun 2024 16:07:43 -0000
-Message-Id: <171889966339.17539.2917804264141134211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 20 Jun 2024 16:08:03 -0000
+Message-Id: <171889968309.17766.15753454705204843280@gitolite.kernel.org>
 
---===============4265240973691746339==
+--===============1266858681621838136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
-  - ref: refs/heads/fs-next
-    old: fa93de167a736ca41338f9e0b84e5d071a9b2295
-    new: b0f1b921f924dd89edd30c4402cf7358bc145498
-    log: revlist-fa93de167a73-b0f1b921f924.txt
   - ref: refs/heads/master
     old: 2102cb0d050d34d50b9642a3a50861787527e922
     new: b992b79ca8bc336fa8e2c80990b5af80ed8f36fd
     log: revlist-2102cb0d050d-b992b79ca8bc.txt
-  - ref: refs/heads/stable
-    old: 92e5605a199efbaee59fb19e15d6cc2103a04ec2
-    new: e5b3efbe1ab1793bb49ae07d56d0973267e65112
-    log: |
-         ae9daffd9028f2500c9ac1517e46d4f2b57efb80 MIPS: Routerboard 532: Fix vendor retry check code
-         277a0363120276645ae598d8d5fea7265e076ae9 MIPS: pci: lantiq: restore reset gpio polarity
-         ce5cdd3b05216b704a704f466fb4c2dff3778caf mips: bmips: BCM6358: make sure CBR is correctly set
-         3572bd5689b0812b161b40279e39ca5b66d73e88 tracing: Build event generation tests only as modules
-         6e5aee08bd2517397c9572243a816664f2ead547 Revert "MIPS: pci: lantiq: restore reset gpio polarity"
-         6785e3cc09f149c42ce70eb92736d68c0db64684 Merge tag 'mips-fixes_6.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-         e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
-  - ref: refs/tags/next-20240320
-    old: 57d6eb85617342b3c94ce578addd09625f1b8001
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240620
     old: 0000000000000000000000000000000000000000
     new: 1efa1f63c47f13498f2232460fab034a2fe0a63e
 
---===============4265240973691746339==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa93de167a73-b0f1b921f924.txt
-
-ae9daffd9028f2500c9ac1517e46d4f2b57efb80 MIPS: Routerboard 532: Fix vendor retry check code
-277a0363120276645ae598d8d5fea7265e076ae9 MIPS: pci: lantiq: restore reset gpio polarity
-ce5cdd3b05216b704a704f466fb4c2dff3778caf mips: bmips: BCM6358: make sure CBR is correctly set
-3572bd5689b0812b161b40279e39ca5b66d73e88 tracing: Build event generation tests only as modules
-6e5aee08bd2517397c9572243a816664f2ead547 Revert "MIPS: pci: lantiq: restore reset gpio polarity"
-92492f5575632222f3340ef3021455f8d4697532 proc: pass file instead of inode to proc_mem_open
-39efa92f9e5fceb44edef5536c58e3750b9d638d proc: restrict /proc/pid/mem
-2ae4db5647d807efb6a87c09efaa6d1db9c905d7 fs: don't misleadingly warn during thaw operations
-702eb71fd6501b3566283f8c96d7ccc6ddd662e9 fsnotify: Do not generate events for O_PATH file descriptors
-7d1cf5e624ef5d81b933e8b7f4927531166c0f7a vfs: generate FS_CREATE before FS_OPEN when ->atomic_open used.
-849b386e287667e94999b981af6c24f60aafb7b4 hfs: fix to initialize fields of hfs_inode_info after hfs_alloc_inode()
-a39403605f0856f7b9800885d3805dcf9e6f6de7 bcachefs: set_worker_desc() for delete_dead_snapshots
-f905db8d944172f9c02a1c8502b6496afc932e99 bcachefs: fix missing include
-c7d04ffdf7f9a6f8ae2374da49ee86533d68f386 bcachefs: add might_sleep() annotations for fsck_err()
-e8eb55af5f522658ebefadb69db71f829a410c95 bcachefs: Use try_cmpxchg() family of functions instead of cmpxchg()
-a6e2c9cf4aa8e58f5763b56e5c0694ede4e77dc5 bcachefs: Check for bsets past bch_btree_ptr_v2.sectors_written
-eb08d59f3599864eb3198ce5eb3c61bcf93e1906 bcachefs: btree_ptr_sectors_written() now takes bkey_s_c
-573ec9c16db9f86c26ad22b2660c27fc8880aed6 bcachefs: make offline fsck set read_only fs flag
-4b72e661ba0db0935d50aadb262bb4b63256b3da bcachefs: don't expose "read_only" as a mount option
-29e623824497ad3434db0ba14eedf1335ad19372 bcachefs: bch2_printbuf_strip_trailing_newline()
-a2585420025d3901596ac9ca8f4e4ca8b5e6ae80 bcachefs: Replace bare EEXIST with private error codes
-b911f6c7116530aff6761b4a40c81bb984e5219e bcachefs: allow passing full device path for target options
-83e325cd76c9326f923df00c3f1f808a493f1b5b bcachefs: check_key_has_inode()
-42598c33667c8e624134c8f0f10fd5e869a80516 bcachefs: bch_alloc->stripe_sectors
-0070a218e1892ac3d76e3312016fbc6cb23182d0 bcachefs: BCH_DATA_unstriped
-c4a8b90b910d6c55ac79bd6a4f3cd93b2819bbe3 bcachefs: metadata version bucket_stripe_sectors
-227794ce5d9972475eff175dc8b52f3cfad8e477 bcachefs: add printbuf arg to bch2_parse_mount_opts()
-1e99284c21b2120a2343a5d0d5b7689dfba97884 bcachefs: Add error code to defer option parsing
-0882ba9bee16456e7506e4041da1e6db324711ff bcachefs: use new mount API
-26c760b83471b53a2e541a80121b43d93d89c3da bcachefs: KEY_TYPE_accounting
-c2ac0feed585e758e39d26de823ea304ddf74518 bcachefs: Accumulate accounting keys in journal replay
-aa0fcf7bc9c9115e4b4698e7cdcee05fdf5891fa bcachefs: btree write buffer knows how to accumulate bch_accounting keys
-fa639aba1bb6b120c0b01b8b10c6ba4c642b73c6 bcachefs: Disk space accounting rewrite
-ae2adfddb59c6f35bfd79cbb39269c157765b0bc bcachefs: Coalesce accounting keys before journal replay
-44c23316da41218d31df5a2198cf06e6f27f639c bcachefs: dev_usage updated by new accounting
-1dcd9f98ac1e475fa8a2bdf647ace08eea2b6040 bcachefs: Kill bch2_fs_usage_initialize()
-222397b333b1d859ab071ee44134c65e30b90cd4 bcachefs: Convert bch2_ioctl_fs_usage() to new accounting
-2340c52e9152936cda7ea031dae5c9bf5c6f0df3 bcachefs: kill bch2_fs_usage_read()
-6df883c130d0308171490acb7a2946e03fe26091 bcachefs: Kill writing old accounting to journal
-cb45d9ac87fdf3f473137876e612f74340563aef bcachefs: Delete journal-buf-sharded old style accounting
-5cfcc14214c97012cd06005164c613a872c5ffbc bcachefs: Kill bch2_fs_usage_to_text()
-206b5274077343d102b18f1d86a7e495bb6881c8 bcachefs: Kill fs_usage_online
-0ac7541b4275282672286b1cdaa8d6d7b7652347 bcachefs: Kill replicas_journal_res
-35a11a179121293c488829754dd8f4c28441ed9c bcachefs: Convert gc to new accounting
-025da421d4ed675c382ffd89ca14e6f92a7f7290 bcachefs: Convert bch2_replicas_gc2() to new accounting
-b64d3362595aeab68e5cbdde7762d5b90cd0a9cb bcachefs: bch2_verify_accounting_clean()
-2ba6aa5c358ba8fb18ce924a47cdaf0fb7ef94d0 bcachefs: bch_acct_compression
-6d4f9d0cf4c72116805298778b04bad3647f8353 bcachefs: Convert bch2_compression_stats_to_text() to new accounting
-8b95c3619c71fbf7b3bc2b9c6dbef94787c3ed01 bcachefs: bch2_fs_accounting_to_text()
-3902130fc4ee33f04724817f9252f6bc03adc4b3 bcachefs: bch2_fs_usage_base_to_text()
-f1c9ddd25aec1768271356ccb40e8a37e6c0f588 bcachefs: bch_acct_snapshot
-2b83c161a4b0ed06823e09ac0ba9ebe79d85aa52 bcachefs: bch_acct_btree
-a115f54c219be5f4f346fb6f545d0e8c3661bc3a bcachefs: bch_acct_rebalance_work
-4438151154765432b899a4d262e83e30f84f433d bcachefs: Eytzinger accumulation for accounting keys
-8050f36bce00ba7274a41d15fad7780151ec3ac4 bcachefs: Kill bch2_mount()
-90752333220a90cd4d69c3f1196b3a54a525b18d bcachefs: bch2_fs_get_tree() cleanup
-6ac9f5800260fb53f0e0c11206c4396d48ceae61 bcachefs: Don't block journal when finishing check_allocations()
-b6e4cff5f0078f35611cd8bd903ea2692b592de6 bcachefs: Walk leaf to root in btree_gc
-3570fe26516a51079540404236aa00681f335ec8 bcachefs: Initialize gc buckets in alloc trigger
-3d200f8192e6c38bf180fa7c9c3cb0ed6078ca82 bcachefs: Delete old assertion for online fsck
-cee8bdce6abbc1c014fc638861ecb31657b68efa bcachefs: btree_types bitmask cleanups
-897afb281013385e16b13e9dc4a611859957452f bcachefs: fsck_err() may now take a btree_trans
-ce161f7e7ad2f7f09caedc50a86c636c6329c56e bcachefs: Plumb more logging through stdio redirect
-8d9ba818a7abdbc522e69fdcef06cf71fe770501 bcachefs: twf: convert bch2_stdio_redirect_readline() to darray
-e3f0bd32159334dffaab95f57e25a5825fd871a8 bcachefs: bch2_stdio_redirect_readline_timeout()
-d3d44eecb2eb812cf315ef11c66450ec847a76bd bcachefs: twf: delete dead struct fields
-cfcf96dea36c9b80b62ac74e068bee7dfd778aea bcachefs: bch2_dir_emit() - fix directory reads in the fuse driver
-bb90f4afe29fdc97b47670f875806e1d67ccf0ba bcachefs: track writeback errors using the generic tracking infrastructure
-2794327c4bad75e7966b41009123a812b26282c2 bcachefs: Add tracepoints for bch2_sync_fs() and bch2_fsync()
-fa196c9a4b419429ce8d5a6eae70fefca12cc7f1 bcachefs: Clear trans->last_unlock_ip when setting trans->locked
-2a4892689fdf2e7dc37c320e3fe9b45da9b4ca95 bcachefs: Unlock trans when waiting for user input in fsck
-3be995378251b91fede26551fd075a062b40081c bcachefs: implement FS_IOC_GETVERSION to support lsattr
-76114dc212e7b407031d26ae571be0285ac2f921 bcachefs: support get fs label
-fb6de4d11c550b58720d0750e0b67d2e5fdedf75 bcachefs: support FS_IOC_SETFSLABEL
-4de9b753226518d22b76aaee8c329f7599fa527e bcachefs: support REMAP_FILE_DEDUP in bch2_remap_file_range
-361b26bce0ce7cff56013ecc54648c9cd42bed2e bcachefs: BCH_IOCTL_QUERY_ACCOUNTING
-afdebcb37ca79a319fd80708c03b272b0138c19e bcachefs: bch2_btree_insert() - add btree iter flags
-c7918fe8e25c002ec7cf68218256d409d1a905cf bcachefs: Fix race in bch2_accounting_mem_insert()
-aeace2b00ed1d9884de4b71f88d86b6792b33947 bcachefs: fix smatch data leak warning in fs usage ioctl
-32d4f465b2f75de119b9400f5e9197c929fe3808 bcachefs: Refactor disk accounting data structures
-7c238334e610380c378c7ff9db4bc40269b29752 bcachefs: bch2_accounting_mem_gc()
-b686be192a962314e562283b6a636c7ae5a45b99 bcachefs: Fix bch2_gc_accounting_done() locking
-e4be9932e42ffb4d8be14b5544bc51c4619b78a4 bcachefs: Kill gc_pos_btree_node()
-b6fd937d156b3b9d5d8835e7dd57c92e32c4dbbf bcachefs: bch2_btree_id_to_text()
-08a3de8a2b5808fa9d736b720ce3d3bb82401d23 bcachefs: bch2_gc_pos_to_text()
-d47fa65142d3f5103543a7df41f61376559e4946 bcachefs: btree_node_unlock() assert
-37a340feb37387f01e2a436424ac4516b3bbc3be bcachefs: btree_path_cached_set()
-c2b3491d820e2ef67d3bca727c7b670758fe88ee bcachefs: kill key cache arg to bch2_assert_pos_locked()
-563f338c999cff8d15d650ec0afe904ab493bffb MAINTAINERS: remove Brian Foster as a reviewer for bcachefs
-a95257635bd00a016da1641ccd1de979abbc2524 bcachefs: per_cpu_sum()
-14f403a713a38203d4a528a436c72fa8a55385c9 bcachefs: Reduce the scope of gc_lock
-ed026901a6ffb0b71acb0533bfc6f8b7b6cc4852 bcachefs: use FGP_WRITEBEGIN instead of combining individual flags
-dbf8c63c4a6ad1509c5c704901848ac885939e05 bcachefs: set fgf order hint before starting a buffered write
-fefb405bb4cc6c6be3ac6276da7b0822ae2bd482 bcachefs: bch2_btree_key_cache_drop() now evicts
-af4eb6f46f440a98f303cfc34bf5b1f2e108367e iomap: Optimize iomap_read_folio
-a7ca193bc9b6be34dd7c22106c01034f2e77e220 Documentation: the design of iomap and how to port
-d048945150b798147b324f05f7e8c857772b0d3f xfs: reserve blocks for truncating large realtime inode
-602f09f4029c7b5e1a2f44a7651ac8922a904a1b iomap: don't increase i_size in iomap_write_end()
-543663f7157e8302a47d19cce98635ed61d7d05f Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-feffbd9d5bea5c9606f58c2ae6200931d1b3ab2b Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-809835766fe1fd4fdb72be259d4810b4e54b39ea Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7de8f9d9da357439214724f8ba7c20979e5d79c0 Merge branch 'vfs.module.description' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-87ea906334407c6344ac48da1c2500fa5616a47b Merge branch 'vfs.pg_error' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-63d09ed43c21bf86a064b13fd5a71cf28be77665 Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7852967c4a9f26445f6af011e6c9f4caedf0d88d Merge branch 'vfs.casefold' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-69fcf0dd1172cb5943f0dcb66b68c0adb070550e Merge branch 'vfs.inode.rcu' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f6bb39ec827a9f82f46c2f512beddab3b3598776 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-e4ff9886ca412b7d547dbd41c53d2169a998625f Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7ac62028c012a29e075f9475cd2576390e42d597 Merge branch 'vfs.iomap' into vfs.all
-6785e3cc09f149c42ce70eb92736d68c0db64684 Merge tag 'mips-fixes_6.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-8bf0287528da1992c5e49d757b99ad6bbc34b522 cifs: fix typo in module parameter enable_gcm_256
-678e745ce8820b37eff52643bff29304d0acc054 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-eda1b00a2ab93e2311c4494c10950315636e0019 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-74a3a7ce8b91d3183f684817687baab596d1240f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-8fef52586e423b0eb2068c2f7d7d0179e9846a6d Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-bec6db04c1fad7c955364e5e7d886bfefea7da95 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-4777710ea293e1956c68e9c10163caaf51c59a49 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-7fe3521decfb11c87ded7dceb53bb7778c901f3a Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-3ae44cd76e404b87841299d3e8e27e9bdaaa25f4 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-94de311c7a5584a21a627a8754e5b7fe6414f42c Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-96fa44366b912e47828bf39a4aff319d528fa9ea Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-78e16ed2dd351ba3d612f88d3cd6d9f37b2962e9 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-d94c26fd3ce55e41d525b0537990860622e1f847 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-05a62dfb692dd155ace4b8a332d0211d8260b203 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-dd0b1ad7775ba55ea46542d0668426b9a3404c90 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-312f47b548cb6532f39b628450bbb0d50976fa63 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-d2a4e3e47e300395ec352a5d34f69530bca4a6bd Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-e26650becdff181783dc38701f6d37cc994bc064 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-39de8d28a2a645cb3dfdc2226ca6538e86a2656d Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-217b5cfe1d7e525f43492d56248ca5a0a7735c75 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-b0f1b921f924dd89edd30c4402cf7358bc145498 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============4265240973691746339==
+--===============1266858681621838136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -870,4 +712,4 @@ e9f1d1e084514de3e0a211c4c6d4355b8abeaf00 Merge branch 'for-next/kspp' of git://g
 41b8c3ecba7aeaed2c224e8502a8b4918ab16a6b Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 b992b79ca8bc336fa8e2c80990b5af80ed8f36fd Add linux-next specific files for 20240620
 
---===============4265240973691746339==--
+--===============1266858681621838136==--
