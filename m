@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5752413995783604132=="
+Content-Type: multipart/mixed; boundary="===============4041281204226396401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 20 Jun 2024 22:45:40 -0000
-Message-Id: <171892354065.26443.2484877769838641325@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 22:45:47 -0000
+Message-Id: <171892354737.26538.3020689338042643307@gitolite.kernel.org>
 
---===============5752413995783604132==
+--===============4041281204226396401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 8a2ebb775a497a95a79a8ac83027a4f159c36f32
-    new: 24bc9ea87875ac17e70619b17ce74f28a3e2f4f1
-    log: revlist-8a2ebb775a49-24bc9ea87875.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99
+    new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+    log: revlist-cbf3fb5b29e9-6ba59ff42279.txt
 
---===============5752413995783604132==
+--===============4041281204226396401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1718923538 +0200
+pusher andi.shyti@kernel.org 1718923545 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1718923537-a8ba6ffcef70adb548ba7b11cd0a9fc0f9272e8d
+nonce 1718923545-c76f5973bfbe74fa3903d5ed7ac06d7019b64087
 
-8a2ebb775a497a95a79a8ac83027a4f159c36f32 24bc9ea87875ac17e70619b17ce74f28a3e2f4f1 refs/heads/i2c/i2c-host
+cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnSxEhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u1OUA/RuGlYVrVanT0gDu7JwzIm7al/Gz
-gJanzKDteWjN+jzYAP42p4RUY2+PqBMVacbe0dbt4u4Xx+Xvn4F5kPtAI0uHAQ==
-=FVDI
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnSxGRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uWf4A/3+IK6l00un9D+8XUbszcLL0e5eM
+LaalcYIeHHuJZhzdAP9RJ7sasfODQG11MNNjwiEI7V0zprdjBXgFPg9aO1rYBg==
+=2lp0
 -----END PGP SIGNATURE-----
 
---===============5752413995783604132==
+--===============4041281204226396401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a2ebb775a49-24bc9ea87875.txt
+Content-Disposition: attachment; filename=revlist-cbf3fb5b29e9-6ba59ff42279.txt
 
 aad11473f8f4be3df86461081ce35ec5b145ba68 NFSv4: Fix memory leak in nfs4_set_security_label
 6cbe14f42be3b596e9590d48e12436982ba26e4b MAINTAINERS: Change email address for Trond Myklebust
@@ -217,8 +217,6 @@ f0260589b439e2637ad54a2b25f00a516ef28a57 xhci: Set correct transferred length fo
 0320ca14c6fb68ad19aa72e55a1a21c061b2946b drm: renesas: shmobile: Call drm_atomic_helper_shutdown() at shutdown time
 c38896ca6318c2df20bbe6c8e3f633e071fda910 drm/mediatek: Call drm_atomic_helper_shutdown() at shutdown time
 350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
-d6d5645e5fc1233a7ba950de4a72981c394a2557 i2c: at91: Fix the functionality flags of the slave-only interface
-cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 i2c: designware: Fix the functionality flags of the slave-only interface
 cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
 9b1ebce6a1fded90d4a1c6c57dc6262dac4c4c14 block: sed-opal: avoid possible wrong address reference in read_sed_opal_key()
 1933192a91be0a570663a3c6310c46e4ce3b2baa block: Optimize disk zone resource cleanup
@@ -303,9 +301,5 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 4301487e6b25276e0270a7547150e0304da2ba78 Merge tag 'i2c-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
-c0c60d7c9c83ce2b488edeaa7198a891daaf4d54 i2c: i801: Add support for Intel Arrow Lake-H
-a09122409e5e19fc165dd15fe6c1c31e151ae362 i2c: add missing MODULE_DESCRIPTION() macros
-f8e5d3735c924a4aff304cec20e12f531c6407e7 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
-24bc9ea87875ac17e70619b17ce74f28a3e2f4f1 i2c: omap: wakeup the controller during suspend() callback
 
---===============5752413995783604132==--
+--===============4041281204226396401==--
