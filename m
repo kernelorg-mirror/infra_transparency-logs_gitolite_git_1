@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5238288564678297108=="
+Content-Type: multipart/mixed; boundary="===============7322037654964516400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 20 Jun 2024 09:00:51 -0000
-Message-Id: <171887405180.7640.2336160200994755653@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 09:01:22 -0000
+Message-Id: <171887408243.7917.17697145956509085985@gitolite.kernel.org>
 
---===============5238288564678297108==
+--===============7322037654964516400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: a7c08b0ccc52d9924ccefe6958ccb3b2a13d89e0
-    new: 84bb8d8bbd8384081c3fc5c4f20b223524af529d
-    log: revlist-a7c08b0ccc52-84bb8d8bbd83.txt
+  - ref: refs/heads/next
+    old: d6cd1206ffaaa890e81f5d1134856d9edd406ec6
+    new: 623c6d5ec554abc5880d57e6495b8e94498edc7a
+    log: revlist-d6cd1206ffaa-623c6d5ec554.txt
+  - ref: refs/tags/v6.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/tags/v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
 
---===============5238288564678297108==
+--===============7322037654964516400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7c08b0ccc52-84bb8d8bbd83.txt
+Content-Disposition: attachment; filename=revlist-d6cd1206ffaa-623c6d5ec554.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -670,5 +676,12 @@ ebc4fc34eae8ddfbef49f2bdaced1bf4167ef80d mmc: sdhci-pci: Convert PCIBIOS_* retur
 a91bf3b3beadbb4f8b3bbc7969fb2ae1615e25c8 mmc: sdhci-pci-o2micro: Convert PCIBIOS_* return codes to errnos
 d77dc388cd61dfdafe30b98025fa827498378199 mmc: sdhci-brcmstb: check R1_STATUS for erase/trim/discard
 84bb8d8bbd8384081c3fc5c4f20b223524af529d Revert "mmc: moxart-mmc: Use sg_miter for PIO"
+734401c84172520b54f3fe75839dc82b646c7d88 dt-bindings: arm: bcm: Add BCM2712 SoC support
+ad177268cb15950f86e44717cf500bbfe2e8be43 dt-bindings: mmc: Add support for BCM2712 SD host controller
+78d08697e3932052d8855821d5c0864666bfa832 mmc: sdhci-brcmstb: Add BCM2712 support
+b81e4cc84bfcf9d06b90701cc3112b7ecbe2ae71 mmc: sdhci-of-dwcmshc: set CQE irq-handler for rockchip variants
+e83c868521597b27c7c06b9c92fde0ae1869e2a2 dt-bindings: mmc: sdhci-msm: Document the SDX75 compatible
+99464ff96a2e14c8293c9a8ccb7d6d7ce6ecf167 dt-bindings: mmc: meson-gx: add optional power-domains
+623c6d5ec554abc5880d57e6495b8e94498edc7a mmc: Merge branch fixes into next
 
---===============5238288564678297108==--
+--===============7322037654964516400==--
