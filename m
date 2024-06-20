@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6555675367933283429=="
+Content-Type: multipart/mixed; boundary="===============2540755654143679821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Jun 2024 15:52:23 -0000
-Message-Id: <171889874331.4907.15754439161695115289@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 15:52:25 -0000
+Message-Id: <171889874569.4982.12131424002718606994@gitolite.kernel.org>
 
---===============6555675367933283429==
+--===============2540755654143679821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e2b447c9a1bba718f9c07513a1e8958209e862a1
     new: fba383985354e83474f95f36d7c65feb75dba19d
     log: revlist-e2b447c9a1bb-fba383985354.txt
 
---===============6555675367933283429==
+--===============2540755654143679821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ b7bfcb4c7ce44fd0070ce8bccbc91c56341f05c1 bnxt_en: Set TSO max segs on devices wi
 48dea8f7bb011608fd969749a1980f8311ef45f2 selftests: virtio_net: add forgotten config options
 fba383985354e83474f95f36d7c65feb75dba19d net: usb: rtl8150 fix unintiatilzed variables in rtl8150_get_link_ksettings
 
---===============6555675367933283429==--
+--===============2540755654143679821==--
