@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 20 Jun 2024 12:18:04 -0000
-Message-Id: <171888588499.8313.3897904110926091729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Thu, 20 Jun 2024 12:18:38 -0000
+Message-Id: <171888591822.8586.2331742980103059184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/v2_20240620_neil_armstrong_asoc_dt_bindings_convert_everest_es7134_txt_everest_es7241_txt_to_dt_sche
-    old: 0000000000000000000000000000000000000000
-    new: 534a0e5e737f8117344372d8658a4702ae816281
+  - ref: refs/heads/loongarch-fixes
+    old: 2350868d3fba32b2dea626d7503a000df31f371f
+    new: 85f43626343070d355e5cac99ae3e06127e44534
+    log: |
+         940fadfffc19afc9cc59ed9f49e6052421077206 LoongArch: Only allow OBJTOOL & ORC unwinder if toolchain supports -mthin-add-sub
+         ba6ac354ba27210e88d894430346f316fa0ba6cd LoongArch: Fix watchpoint setting error
+         c997adbd8a668362b6da6c069474594fc880ae18 LoongArch: Trigger user-space watchpoints correctly
+         2fe2c446ba35ea8955c64cd0c9078d6fe63ed0a2 LoongArch: Fix multiple hardware watchpoint issues
+         85f43626343070d355e5cac99ae3e06127e44534 LoongArch: KVM: Remove an unneeded semicolon
+         
