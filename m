@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1564014585250711008=="
+Content-Type: multipart/mixed; boundary="===============8958778365588314593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 20 Jun 2024 21:08:28 -0000
-Message-Id: <171891770849.17488.3106341091962724407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 20 Jun 2024 21:08:35 -0000
+Message-Id: <171891771507.17615.15097636012166902550@gitolite.kernel.org>
 
---===============1564014585250711008==
+--===============8958778365588314593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: 78b05172b42d14a4c6fc6b75b31590b8977900dc
     new: 741b31df024c397edbc499525fa2de1514b1a627
     log: |
@@ -30,28 +30,28 @@ changes:
          741b31df024c397edbc499525fa2de1514b1a627 spi: Merge up fixes
          
 
---===============1564014585250711008==
+--===============8958778365588314593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1718917707 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1718917706-fbdf6ae5f73ca69cc85355d167e6d03aaa52a5b1
+pusher C3F436CA30F5D8EB 1718917713 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1718917712-267a67a4fffe3d18275540eee3c89dc63703e248
 
-78b05172b42d14a4c6fc6b75b31590b8977900dc 741b31df024c397edbc499525fa2de1514b1a627 refs/heads/for-6.11
+78b05172b42d14a4c6fc6b75b31590b8977900dc 741b31df024c397edbc499525fa2de1514b1a627 refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ0mksACgkQJNaLcl1U
-h9Akdwf/YT+K4d1nSF86KYdiAS8JYnBi3ANIb4lzs8D20sNW5IB5ijR/RoRmEB3x
-myPsr4Rx5LcqRk7Gu8XxEIKk5q7YXLC5ECsYADHjFvoBDN2HVTnMhLSQ3Crjxfwv
-ryRg0JSjBMgkNcYWBHMnkpBzD+8Zf7SbaePKwLKKlzbbHU6+ZFFbfKLiJO61evBC
-CbTM04ne7Wzmx8II5dtfxQ5I7Cag3A2ssZyXdNp0OzCM2ijiD60R0zAiPgJ2xJjm
-rgvX3ghZJggjLj4cGD/p+fJ/xGeSj+1DkjnrCrvCHgm3Mo0R92DklJrF1UEajZ9+
-1vcCpzdvixmA+n98oEFaXpynOuFIKg==
-=w7Mv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ0mlEACgkQJNaLcl1U
+h9BJ8Af/TB8CALcVi586m2ebOEZtswqi2zrMFuL/cTH/byOsUyzKaZxzelXnL18a
+8/zn9IeEcA5ZTbdQkyvPyLWhym/zAi6lGwXZ/FOaiW7O/o1dHRWevidymUMEhits
+qGwqrjfAkmBiKpXZSgP+WoGKCSLanVEltbm7y74mppkTsu7vaG1Hnh1O0RoAsriN
+OOTnfZKXsKP6qQ/yVxliuCyS9mi8L7fFXfagXLEWJirAfvfDx2kAYgyKP5GQkaDo
+S/PXdMdW6VlbAvzxFPmeV0RWuk94Q+4aczxr8yxE3wmM8RLJKJxzbtsCwg/LMsry
+A9qpC+K69v/6l+sNyPVkwVTcWEjSSg==
+=zwO7
 -----END PGP SIGNATURE-----
 
---===============1564014585250711008==--
+--===============8958778365588314593==--
