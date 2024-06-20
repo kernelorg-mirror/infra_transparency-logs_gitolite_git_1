@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5713171719528467815=="
+Content-Type: multipart/mixed; boundary="===============3216351024466303535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 20 Jun 2024 11:32:26 -0000
-Message-Id: <171888314672.5327.12062131441539608557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 20 Jun 2024 11:36:52 -0000
+Message-Id: <171888341238.8897.16499854496101362760@gitolite.kernel.org>
 
---===============5713171719528467815==
+--===============3216351024466303535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 589bb210ef46f73df9254f49f234b54b5610f954
-    new: ffaad71eb5f859bd3096446206bb86b27b89ede7
-    log: |
-         ffaad71eb5f859bd3096446206bb86b27b89ede7 gsd-to-cve-request: colorize and fix bug where commit is in mainline
-         
+  - ref: refs/heads/kdevops
+    old: 027047340bdb7bc2f52fd7b31d7abbcc2ac99552
+    new: 20c59d62fbd2fef1269d58ef555f2eeaaaa89c95
+    log: revlist-027047340bdb-20c59d62fbd2.txt
 
---===============5713171719528467815==
+--===============3216351024466303535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-027047340bdb-20c59d62fbd2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718883143 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1718883143-ce932f4a6ced96cbe5b204e1a7db1c2c16cc7244
+23cc6ef6fd453b13502caae23130844e7d6ed0fe fs: remove accidental overflow during wraparound check
+3aa63a569c64e708df547a8913c84e64a06e7853 fs: switch timespec64 fields in inode to discrete integers
+ef44c8ab06b300a5b9b30e5b630f491ac7bc4d3e fs: fsconfig: intercept non-new mount API in advance for FSCONFIG_CMD_CREATE_EXCL command
+620c266f394932e5decc4b34683a75dfc59dc2f4 fhandle: relax open_by_handle_at() permission checks
+54018131e663a1df05021fcb22a18d6c5ebef734 vfs: replace WARN(down_read_trylock, ...) abuse with proper asserts
+c12c0bb031cbaccf4f7d375db466b6457453bfa8 readdir: Remove unused header include
+992f03ff8661bb0427f1db59c283f3fa63182b09 readdir: Add missing quote in macro comment
+2a010c41285345da60cece35575b4e0af7e7bf44 fs: don't block i_writecount during exec
+ca86a5d2f9feed16e11023891c8c70aa57ced24e tmpfs: don't interrupt fallocate with EINTR
+969ce92da3112e05d1a70c344f8740a85e933f2e vfs: stop using user_path_at_empty in do_readlinkat
+dff60734fc7606fabde668ab6a26feacec8787cc vfs: retire user_path_at_empty and drop empty arg from getname_flags
+632586fb1b5da157f060730549ad45ba9f5e0371 vfs: shave a branch in getname_flags
+5692e757930626680eae82a0bbf420edb47c6be4 Improve readability of copy_tree
+f3c1a1ddb493bdd1040c7255d532e8e470bcd961 hfsplus: fix to avoid false alarm of circular locking
+1166d3fbbb8f695255c47d67a6acbc04242b8a46 fs: don't copy to userspace under namespace semaphore
+3974231f18218131388cc5269d37f8b950272371 path: add cleanup helper
+34d4c4345b51de5c87a9a170d9afc492c4996fa2 fs: simplify error handling
+47c9e8aa19f7a60d36e0e034ad09e1366c427ba4 listmount: allow listing in reverse order
+08ce6f724ce9453cf2b3be8742cc6e3e6926d7a1 proc: Remove usage of the deprecated ida_simple_xx() API
+849b386e287667e94999b981af6c24f60aafb7b4 hfs: fix to initialize fields of hfs_inode_info after hfs_alloc_inode()
+656de011c9f5bad1ba3fe5545b45f0c45d6e3d4a fs: turn inode ctime fields into a single ktime_t
+8079a6b1bcb6573c1f551fd1a73d88feffdb7435 fs: uninline inode_get_ctime and inode_set_ctime_to_ts
+d6466a7254f2dbe38f0d0fe334168c13ee406a7e fs: add infrastructure for multigrain timestamps
+dc5bdb415a7bdda8605682e26059f9ec5512b9b0 fs: have setattr_copy handle multigrain timestamps appropriately
+55dcf38431c5eb9070dc5e46bd77f8749e5d94bc xfs: switch to multigrain timestamps
+7af3096a6277849bd778d596450824a7b3483745 ext4: switch to multigrain timestamps
+667e36be62d7e332b0c094d8ef7e5b1965299414 btrfs: convert to multigrain timestamps
+4fc000ec629ff3078968fa85830facd2264439ab tmpfs: add support for multigrain timestamps
+20c59d62fbd2fef1269d58ef555f2eeaaaa89c95 fs: add percpu counters to count fine vs. coarse timestamps
 
-589bb210ef46f73df9254f49f234b54b5610f954 ffaad71eb5f859bd3096446206bb86b27b89ede7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0E0cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XTQP/1iGVKegTWWxlCYASm5U
-rtqaQkOgWX+Bxr7E8IBp81S1Jkwx7WPDcTFJSpbVw58/16Bf5KQc3HA04s3N8vi7
-F6tC3TMi87WIxNksQe1XVWFnkkSoVx5UBIPFa1PPykne4g5rEKd+2kSZ6To7qS48
-qlkxtyVRC8c5pchuvTTg7ynyEPqOtVM2sXfxo5tG1+O0djzGnCFVP36lVGf3p3hg
-deZKmBG+J6s3+hQY1jQZ4LPjGBsyXH533plTobwnqzxT1PYyxNjDGS0WX4wurtnc
-Hme9shvl/j07RhCcINl21Hl4QSDDv/tMTNd96REsVxSRZiFXaZVay60oYucyuynu
-R4v+Vj1+AX3HFYJOK9uwTmPocZsvHkzqFWAfdZagzvtGz049CGWrpBUS6zus4VNe
-ECsMuKydvvu5Ko5yLPUD3bwciR1D7hpBdHGtznlYy93ym1WKy3+4gGJ8Tj5eWLWH
-nGnKyQe3F1G6k5Y6T7ZAnS3fwhyIp7mB8/UYP5qjhQW3tIyv0Y4CInKfVnpWUgRb
-IgKvA7MTQQwTPJ8gRvXZghvRGAKaNdHtk5xo91fw+NirD0U2Lpvm76y9nB3x6Wr+
-LeDjNX6dRLEcn4TCJZ5kK1+KmVCDq8c0bqiCvm17X0NxsSALgnZUhyjfZR4gX6a+
-7hGg9s0g1Rp+xQQKhYZkK8si
-=Fcd6
------END PGP SIGNATURE-----
-
---===============5713171719528467815==--
+--===============3216351024466303535==--
