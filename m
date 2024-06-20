@@ -1,56 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2641078223606023121=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 20 Jun 2024 06:48:02 -0000
-Message-Id: <171886608289.6010.9176685934994080287@gitolite.kernel.org>
-
---===============2641078223606023121==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 20 Jun 2024 07:24:19 -0000
+Message-Id: <171886825908.32080.2426609373128030153@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 68161e1f51f2b31346b9448bda9caf29e36ba9fb
-    new: 35d1c0b143aecd344ab0183953e080786fe83b57
+  - ref: refs/heads/work.ns_ioctl
+    old: d4054684aa9049db6398344ffe9806d98762902c
+    new: 8677ab84123aeb7a4ecb3b911d28e7bd547495df
     log: |
-         35d1c0b143aecd344ab0183953e080786fe83b57 assigned CVE-2024-38619
+         bff33439302445bf96550248d32cf8d1ac7b98ba To: linux-fsdevel@vger.kernel.org Cc: Alexander Mikhalitsyn <alexander@mihalicyn.com> Cc: Stephane Graber <stgraber@stgraber.org> Cc: Tycho Andersen <tandersen@netflix.com> Cc: Aleksa Sarai <cyphar@cyphar.com> Cc: Joel Fernandes <joel@joelfernandes.org> To: Christian Brauner <brauner@kernel.org>
+         8677ab84123aeb7a4ecb3b911d28e7bd547495df nsfs: add pid translation ioctls
          
-
---===============2641078223606023121==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718866078 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1718866078-f548e0732a2758bf267afdad479a87195bee4c72
-
-68161e1f51f2b31346b9448bda9caf29e36ba9fb 35d1c0b143aecd344ab0183953e080786fe83b57 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZz0J4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VVwQAIXBya54v9uaMTBboQ2F
-qkz32QALtGUYwnys/3xU5uvCq/dBrCHeCFsSi5qax/Xy3YN/plm4N7BOBVza2gKL
-W75P0YbUu4dIPC6f24HQMwYR7z1LPF3lqpPuOa0oMHUXAEw+mR6IC6arXCTsvapP
-QjxjiADXCMR52Dh4W/TXCuHiAQIODEsO2wOTbm9FhsUixpaDgg20gcV1gm1t7o8E
-4R88vxjlNhh0IOfkYpDXUCsQm//xMYlqFOTCzgWJnl4KAM5Hxznt4mdgjJogNaWQ
-vBf8kRPAm1kHFtJUc/tHc044dJAJvRPBZqaAEgqlVB8SqcxbI+XlHFqXqnvqD3KG
-mg9arFVh+tE6hVyiCTLVSU6Vl5HxVX343naY8bY7ZKvNE2HuD4hZBsz8o7hrc+BI
-ARsVr+Cgz9LgvnqO6p08Lqm5Pho5KzYwk+5thxoEL7ntp3l6KeTm/W6PhpjDws1g
-OBnf8uX46DNiqgRomOr35Ia92tz4sWES9LeAbVRvLOOOBqagNUOMC5VS8qKQU2Ag
-imK2oXWax7tuMYo7Pxug5VfpND6bo1z5q6v8I4/nfFszDqLE4LYE/TS4GVyGc9Nj
-nc+JBKc3/Wb2FRy1SbsVpoMH/xOEy/juOe7E5uRWPAWbH9+UzWsXp7AvPv9Ol5Qx
-Vk0E3eqScqmq+MLXkLNzi/Xr
-=IcKZ
------END PGP SIGNATURE-----
-
---===============2641078223606023121==--
