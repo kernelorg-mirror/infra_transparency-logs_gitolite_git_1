@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 20 Jun 2024 18:35:15 -0000
-Message-Id: <171890851531.30128.5717454164181928899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 20 Jun 2024 18:35:33 -0000
+Message-Id: <171890853339.30325.7744010802196668934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 2003e483a81cc235e29f77da3f6b256cb4b348e7
-    new: ef40d28f17bd384d7e0b630c7d83f108a526351b
+  - ref: refs/heads/x86/sev
+    old: 99ef9f59847cab1f9091cd4b9d7efbee0ae4fc86
+    new: 3991b04d4870fd334b77b859a8642ca7fb592603
     log: |
-         ef40d28f17bd384d7e0b630c7d83f108a526351b randomize_kstack: Remove non-functional per-arch entropy filtering
+         3991b04d4870fd334b77b859a8642ca7fb592603 virt: sev-guest: Mark driver struct with __refdata to prevent section mismatch
          
