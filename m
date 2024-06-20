@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6646359951703593427=="
+Content-Type: multipart/mixed; boundary="===============5474116790435141469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 20 Jun 2024 16:06:00 -0000
-Message-Id: <171889956003.15245.1218496234050416085@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 16:06:02 -0000
+Message-Id: <171889956285.15318.8581682948208277448@gitolite.kernel.org>
 
---===============6646359951703593427==
+--===============5474116790435141469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 15cd4559b0f693edcf91f3da59ed620817e45201
+  - ref: refs/heads/10GbE
+    old: 3ec8d7572a69d142d49f52b28ce8d84e5fef9131
     new: a012f9a752a5856b29610057c76079fbdbe02abf
-    log: revlist-15cd4559b0f6-a012f9a752a5.txt
+    log: revlist-3ec8d7572a69-a012f9a752a5.txt
 
---===============6646359951703593427==
+--===============5474116790435141469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15cd4559b0f6-a012f9a752a5.txt
+Content-Disposition: attachment; filename=revlist-3ec8d7572a69-a012f9a752a5.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -405,4 +405,4 @@ b501d261a5b39fed653a90ab5db9f3c3d93c2486 net: txgbe: add FDIR ATR support
 e3511997d7dc981d1e11c60d6a57e95361669595 Merge branch 'add-flow-director-for-txgbe'
 a012f9a752a5856b29610057c76079fbdbe02abf igb: Add MII write support
 
---===============6646359951703593427==--
+--===============5474116790435141469==--
