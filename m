@@ -1,41 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1193049346573437664=="
+Content-Type: multipart/mixed; boundary="===============5659143546264129566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 20 Jun 2024 17:35:06 -0000
-Message-Id: <171890490628.18029.2625566976451050118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 20 Jun 2024 17:35:58 -0000
+Message-Id: <171890495846.18414.14503346954226679545@gitolite.kernel.org>
 
---===============1193049346573437664==
+--===============5659143546264129566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: c588e447c2a9bdb17618e8255c9710fded174806
-    new: afbc1bebc1f1b92799c7abcfc47f996af5ae8b04
-    log: revlist-c588e447c2a9-afbc1bebc1f1.txt
+  - ref: refs/heads/usb-linus
+    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+    new: 8e1ec117efdfd4b2f59f57bd0ad16b4edf5b963f
+    log: |
+         fd80731e5e9d1402cb2f85022a6abf9b1982ec5f usb: gadget: printer: SS+ support
+         e587a7633dfee8987a999cf253f7c52a8e09276c usb: gadget: printer: fix races against disable
+         2eabb655a968b862bc0c31629a09f0fbf3c80d51 usb: atm: cxacru: fix endpoint checking in cxacru_bind()
+         8e1ec117efdfd4b2f59f57bd0ad16b4edf5b963f usb: ucsi: stm32: fix command completion handling
+         
 
---===============1193049346573437664==
+--===============5659143546264129566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c588e447c2a9-afbc1bebc1f1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4e8ff73eb7ae3f7a7ec1d59f4d54935ae28f4795 KVM: arm64: Get sys_reg encoding from descriptor in idregs_debug_show()
-410db103f6ebc68a505ef541291ec327e385205a KVM: arm64: Make idregs debugfs iterator search sysreg table directly
-97ca3fcc15cc0b19ccacb56d25545f1df080fbc0 KVM: arm64: Use read-only helper for reading VM ID registers
-d7508d27dd8878eb09e470855a546d96e0cfd4d3 KVM: arm64: Add helper for writing ID regs
-44241f34fac96d23cb8eac944815a1fdbf4ce523 KVM: arm64: nv: Use accessors for modifying ID registers
-f1ff3fc5209a1d63a4018bdb4231fbb073063c9a KVM: arm64: unify code to prepare traps
-2843cae26644fbc922e93c7c4c279f70fb3275f1 KVM: arm64: Treat CTR_EL0 as a VM feature ID register
-bb4fa769dcdd0b6e47ecbf0363489be510498b1d KVM: arm64: show writable masks for feature registers
-76d36012276a328ac0a1e9c7415cafd092447ce7 KVM: arm64: rename functions for invariant sys regs
-11a31be88fb6191f2584a0b6364b11e21d068685 KVM: selftests: arm64: Test writes to CTR_EL0
-afbc1bebc1f1b92799c7abcfc47f996af5ae8b04 Merge branch kvm-arm64/ctr-el0 into kvmarm/next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718904957 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1718904956-f71f3540287598fcd1159be7b707289ce19c120f
 
---===============1193049346573437664==--
+6ba59ff4227927d3a8530fc2973b80e94b54d58f 8e1ec117efdfd4b2f59f57bd0ad16b4edf5b963f refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0aH0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sq4QAKJwU+qU3bfud+nGLBDP
+dwdxaSwO9egzAmsyz9pBMNFRDgycfPJYliAFIleVjcc1+Q8WOK2pxYFI9wRodJsA
+r1HTsnmRxuF0OP6GbZTaO1aidN1ahicNxtzHyNDvbe6If1HsNfrTnBsC+D5rbYzI
+lGy9NxIIMXFWC2NeM1EMrbY/PciofZf/Q1drEc8DO3OtX3HcSfTlP5S0J2xx4Agl
+92aBiwhlTJZmo6FcjaGIf1pr9SiKCMyJS2EEUPIT/mV7wKbkikNr8uh59Cz9DU7x
+aK3ZQrdXBd8SLsenuolOjTu9J/kH/zsNUasC2WKc0SnBfzB2RQ0V0LhdRDtCKWYQ
+e5RVoXIipCYJ1XHGo5mosa0HBzzmI6geUjVGNsVu3+a0ao6ioxrRDVJU0UKIv9SE
+W7fY/nIZoQMVjYV9+/LNt+vfVgWZeHhJVFbZK34ilkzFTEdvJWbVktiEzyzGHqs/
+NbXtAcPInfjorvlPvuCSrTJpF3tQDw9i0IQ/yGy13xIMcP3PzXgeLBCVJSncCOAo
+OHPkDYsYffsTHRA7uP1Ony16ToLTz0RwbYgKGNSHmKPOUPFkMhF9DsvlMYDpiDqt
+O53f2chyKJGJT4OIqXLhT3BX0YxXq/nZwiSmvehBsx+LanO6wCDCT2AlqIsQcZWI
+J/Ly3R2BIAhJilcJ0+pDrzn2
+=K5t0
+-----END PGP SIGNATURE-----
+
+--===============5659143546264129566==--
