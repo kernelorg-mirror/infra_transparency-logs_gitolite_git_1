@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4185409760629265082=="
+Content-Type: multipart/mixed; boundary="===============6213286116038913519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 20 Jun 2024 11:37:53 -0000
-Message-Id: <171888347313.10352.13435992111169384984@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 11:37:59 -0000
+Message-Id: <171888347955.10457.5127382182604138440@gitolite.kernel.org>
 
---===============4185409760629265082==
+--===============6213286116038913519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: eb36e520f4f1b690fd776f15cbac452f82ff7bfa
     new: 2350868d3fba32b2dea626d7503a000df31f371f
     log: revlist-eb36e520f4f1-2350868d3fba.txt
 
---===============4185409760629265082==
+--===============6213286116038913519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -666,4 +666,4 @@ b1df95591e17e604cad830612d5a9806e34b28dd LoongArch: Only allow OBJTOOL & ORC unw
 0ac2aa61804ba836d328ce13e66b2f2a8799c3cd LoongArch: Fix multiple hardware watchpoint issues
 2350868d3fba32b2dea626d7503a000df31f371f LoongArch: KVM: Remove an unneeded semicolon
 
---===============4185409760629265082==--
+--===============6213286116038913519==--
