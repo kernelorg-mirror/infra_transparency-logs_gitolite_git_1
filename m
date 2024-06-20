@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4206747177688096734=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 20 Jun 2024 13:32:40 -0000
-Message-Id: <171889036065.30275.11044819636712333526@gitolite.kernel.org>
-
---===============4206747177688096734==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Thu, 20 Jun 2024 13:36:27 -0000
+Message-Id: <171889058733.880.16927649201266898681@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: ba8939afb774daa973aeb4f9203468a0937958c2
-    new: 0fe6460e9fbf2e042f1ce7089e95f069a6eeae8d
+  - ref: refs/heads/for_next
+    old: a66c186557cb152a605abf7211455bf9f8951acf
+    new: aaa35b813d2da17508f193122cb07a0a01807e91
     log: |
-         0fe6460e9fbf2e042f1ce7089e95f069a6eeae8d strip some email headers
+         27ab33854873e6fb958cb074681a0107cc2ecc4c udf: Fix bogus checksum computation in udf_rename()
+         112ab5a7473375ba948927131cd28dba7cc6c8cb udf: Avoid using corrupted block bitmap buffer
+         5a405b91cb96ded045f94c2b925a65f961d58ea0 udf: Drop load_block_bitmap() wrapper
+         3533a6bc34badaa3d32c7b0f2816dcf1bade7f8a udf: Avoid excessive partition lengths
+         0b058943e21fe0034b3bd7d634ddb1508380f50f udf: prevent integer overflow in udf_bitmap_free_blocks()
+         aaa35b813d2da17508f193122cb07a0a01807e91 Pull UDF consistency fixes.
          
-
---===============4206747177688096734==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718890357 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1718890357-b6d780308d66464817d1208e015f7ae84a8824bd
-
-ba8939afb774daa973aeb4f9203468a0937958c2 0fe6460e9fbf2e042f1ce7089e95f069a6eeae8d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0L3UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9WIQAJrzdkPXcNyfLYGu9quy
-P8CRuCR9BQclLmnfJWdu6zaprwmntsNBRISo7LQOQAgmXjR/ucavaEjcELrB+c7D
-BQya3s6T19cAr6Gs/1/MIEVYnyZx3AVNbyKZzKWWjcQb71RTX9cAKDmO/k62qYMg
-wcjlDxhI7BP4kfMnzNpl9JcEEncKz3JsmqaFuhNojeFqOHuctVifhBQcV3L9hv93
-V2Pm3oWj3t1CrzEpJ8EDUS8s2YiURw4+WXwcbEY9qqivwK5CPLnOxSGrQj3Lw6Lb
-7ukGJSzmnfbgJuERDx4DVV+dvGZW7EbDs5ClOqLsG8g8WV4l+wn/FHMv3Zux1xaw
-v4/CpCI8MDAGBnh6JczCFq20yFLFZRWvMzHb9aHdE4TVUZpkjPbRhjoORTfh45sd
-YQuuMdkzguh0YdtB0T16TtaQRpmPLNOyKTjzPWL8vFrg/xyu945mJORAqfK75yf5
-ZlxYINklgg1aQhg7zo6446UfdgKWBjJh2OFkEgLjrLJzyedamSve9GOyYegiGMBT
-upikP8ZC+4SSiYrgKQ1lbkIbyYixvL13SIxR3vJ/S9Cr4uwG9AZMwy/YyIdRpNbF
-+leczRRS1GlLv3/M59yXfpgvXVtTDLGQ0GZCNtgWZbNV2EZvz/r/dxWz2/v0i7iv
-hQCdvter68UEPykWKV+LcjNF
-=kUNo
------END PGP SIGNATURE-----
-
---===============4206747177688096734==--
