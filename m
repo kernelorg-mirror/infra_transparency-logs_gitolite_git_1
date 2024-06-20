@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Thu, 20 Jun 2024 13:23:53 -0000
-Message-Id: <171888983319.23816.8686070390897025505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 20 Jun 2024 13:26:27 -0000
+Message-Id: <171888998772.26374.10181847274563455783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/overlayfs/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/ovl-fixes-6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: df1cfac59e9400849998f249224e6140adc8c168
+  - ref: refs/heads/main
+    old: e3511997d7dc981d1e11c60d6a57e95361669595
+    new: a012f9a752a5856b29610057c76079fbdbe02abf
+    log: |
+         a012f9a752a5856b29610057c76079fbdbe02abf igb: Add MII write support
+         
