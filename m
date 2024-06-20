@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1933074149426491171=="
+Content-Type: multipart/mixed; boundary="===============4945413673974506784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 20 Jun 2024 17:31:57 -0000
-Message-Id: <171890471765.15153.10115436579318204892@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 17:32:28 -0000
+Message-Id: <171890474868.15408.8316097116331438100@gitolite.kernel.org>
 
---===============1933074149426491171==
+--===============4945413673974506784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,57 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 58be297b675d919e30a3804f9a08b546994e0d99
-    new: 2e031f50651df6d4d71704e89688694ea68313e5
-    log: revlist-58be297b675d-2e031f50651d.txt
+    old: 2e031f50651df6d4d71704e89688694ea68313e5
+    new: 90c478ee37bebe1adaab920e3e06228fef3b9364
+    log: |
+         2be53b0436fda455e1bf6968ebae53f5d4f3cb0b usb: typec-mux: ptn36502: unregister typec switch on probe error and remove
+         74b64e760ee3433c0f8d95715038c869bcddacf7 usb: typec-mux: nb7vpq904m: unregister typec switch on probe error and remove
+         a96abf3bad810d4d281a3f47f1985a2470daa9ed usb: typec-mux: ptn36502: broadcast typec state to next mux
+         90c478ee37bebe1adaab920e3e06228fef3b9364 usb: typec-mux: nb7vpq904m: broadcast typec state to next mux
+         
 
---===============1933074149426491171==
+--===============4945413673974506784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718904716 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718904747 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1718904715-c5c99079226e4d5366241f48b23a7ae5f95dfa84
+nonce 1718904747-4bb0ce4c691cde806ed904133abd315ea30b73e0
 
-58be297b675d919e30a3804f9a08b546994e0d99 2e031f50651df6d4d71704e89688694ea68313e5 refs/heads/usb-testing
+2e031f50651df6d4d71704e89688694ea68313e5 90c478ee37bebe1adaab920e3e06228fef3b9364 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0Z4wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9yQP/3e/6zu7Yv80e4kkORps
-AI1hbRwQIVJpJswt5uzLZZg9C2vQt2RfaSRBsPHcOGXY3YmvNVhN7U/ZjAK41J99
-o0SEyBQhiaqvkxF0m60Ma+CgzLOhsY9C/NjqFvYIhIz36artm/w+XVFX+IBOvkqa
-UcUbecmuuJ/6vWXfVCnGnJhqHP1LWb4p8s0OfLY/0yyUTe1Rffn1Iz6J8+GwB4sj
-dynCo5DWvirk83viMO65BFTyeo589QUBNDbtoZpeZ7uSMjG0ITgAQU80zwmLExYp
-nkPHnN1EJcwjNs2iGvkrG6qHQDGJqT1teB7BT2Y3HIRi9T/fYwWKvE/bssb7H/f6
-201BZ2xRszsJqS8Ivzpc/MAUYezDGqfiQeekQrkpZ4Nxf//og70QlJz4jfn0VnHX
-b7JCyaq0swfnapMi8kkNZWjbPEWKTMore9nmfgL0MzYWERhx/gBTOhkFk9fBd+2P
-hZroAIR6hTvuEnf7Gz37geVH1W4MQDeibF25CLB4N40hKfVcWSq6J7UZrXTVaoJy
-THe7qmbC4GKmx+JYcIF9Ta5mlFAquP8v33gF18Bt6G9acx+STPF1d1d5EYO7WQV5
-muDICLgclqhrJt/LEQgcmkPZDml4AGqf5FFOGVybHPJFewOjWs6UtciHdtWSVo5e
-tTMYZpoNpbjocwv2DeKvLKAM
-=6TEG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0Z6sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bkgQAJzNVEvcxgBa3RcduAme
+O1OYvOca4+KDlcUxGwxrM+leNYOK4hZxUzSyCzcnJVOzJDmFx7v6Ldn+aeG7Fmf8
+doy2/oULB3gA9vX6ojm+uZkNx7OLPg+tgLzDUCVUV2I37G2utiR9tawwqPzKo7GM
+V6A8oFEjE+k6Cu1YJiWEE+smlQmw8yttlkUy8IuYKzDJLNnghgCjPW7UkEWqPU22
+eV+r8ydT4j8h2lsOM42OznQRvx/C1tXjFWVVn5prHdVGzESTK/qErfTsccoU5Yvh
+R7+kqiTbpke0vUX/JVaRHP+Rrej9pSWoH6tz+fCTWSHYG4K+TgushXwzZvkd1Pr4
+iPUuiFNJqzcUUvl/ivZRUrkVg5xkPLnFdUeO/lwe4ZZsAQ+AVVyRoLM/Ox2Uu5l/
+xG6W5PZKQFWgO/z/ruQATCIaUqXwMIXekRXpuB4MB512SxT4MG6RM2N2SGmrjc3h
+AXKtEYGcE68+BjjCdsbQ4vUtf5GtISFSyz4QMYAgAeKUY0Yf0OgVid4cIX8sNZ7q
+XxaYT8Dvv4Wb3ZUCs7D/SBoU9X53THNibiFrqxX1+YwsOMwka8XzTpV+x00pGzam
+3/6z7axh+emD/bnXpRxn51p08LYhltOmzHjjm1XEf89IgxPAyu5HP7bK9e7/c3Wr
+bIQn3uFGMcgQlMdsqq9wgvu8
+=PUPz
 -----END PGP SIGNATURE-----
 
---===============1933074149426491171==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58be297b675d-2e031f50651d.txt
-
-38935f3366801355ac64731d8df1c6bb5d6609ee usb: typec: tcpm: use 'time_left' variable with wait_for_completion_timeout()
-5315052d3c6fa7d2d6a8795276bf89c8c2a6f600 usb: typec: tipd: drop second firmware name read
-916b8e5fa73d399a61156da7d914abfae74b962b usb: typec: tipd: add error log to provide firmware name and size
-2bc0bea11c6112e61fbd663c993892ee56956577 usb: typec: tipd: use min() to set tps6598x firmware packet size
-b7ec7fd63256ff39eb95e27546efbd16b3915bf4 usb: dwc3: Support quirk for writing high-low order
-bc162403e33e1d57e40994977acaf19f1434e460 xhci: Add a quirk for writing ERST in high-low order
-a353686e7f5f3f3eef3ac4561ae7ade1f8e5dfdd usb: host: xhci-plat: Add support for XHCI_WRITE_64_HI_LO
-50a7230a02ec1218441ef21ba863596d282ff90b usb: typec: ucsi: don't retrieve PDOs if not supported
-34aa3ca43902baf3440480bf95abf88b4e092588 dt-bindings: usb: qcom,dwc3: Add SC8180X compatibles
-06f49cc255b3ba4fa605c64d893c7c120041f549 dt-bindings: usb: gpio-sbu-mux: Add an entry for TMUXHS4212
-3560b37525d3c9059c62da7f4d74daa2d5338626 usb: typec: ucsi: Changing the driver data type to void
-2e031f50651df6d4d71704e89688694ea68313e5 usb: typec: ucsi: psy: Add support for the charge type property
-
---===============1933074149426491171==--
+--===============4945413673974506784==--
