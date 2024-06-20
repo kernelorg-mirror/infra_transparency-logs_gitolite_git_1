@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 20 Jun 2024 18:38:24 -0000
-Message-Id: <171890870429.424.17203872585015415620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 20 Jun 2024 18:43:39 -0000
+Message-Id: <171890901979.4133.4060835473027500218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: ef3aa84b8b30434148cbc48be85b9e1f9a555547
-    new: ccea4ba13a443796a4acde98114f4aa6b3517f25
+  - ref: refs/heads/master
+    old: d49e051916f1ffa33dbda00c2050359ed011f47c
+    new: d367026ab5845d22660c30e0279484c06b4922e3
     log: |
-         663b815141b2789ac64e4b7e6cccf4a885f9b1fe nfs: add Documentation/filesystems/nfs/localio.rst
-         ccea4ba13a443796a4acde98114f4aa6b3517f25 nfs/nfsd: add Kconfig options to allow localio to be enabled
+         469169803d52a5d8f0dc781090638e851a7d22b1 x86/kconfig: Add as-instr64 macro to properly evaluate AS_WRUSS
+         3991b04d4870fd334b77b859a8642ca7fb592603 virt: sev-guest: Mark driver struct with __refdata to prevent section mismatch
+         e257d0d43a192a0964427bea8c074b9345f15388 Merge branch into tip/master: 'x86/build'
+         d367026ab5845d22660c30e0279484c06b4922e3 Merge branch into tip/master: 'x86/sev'
          
