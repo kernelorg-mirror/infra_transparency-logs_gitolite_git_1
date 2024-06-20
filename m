@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 20 Jun 2024 20:53:18 -0000
-Message-Id: <171891679871.2901.12749688101987529797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 20 Jun 2024 20:53:41 -0000
+Message-Id: <171891682102.3110.10518434556564823352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 3c1f81a1b554f49e99b34ca45324b35948c885db
-    new: e21de658f8e808551c2f9702727442980bdc0ad7
+  - ref: refs/heads/master
+    old: 125e95224ff85ad9ad73cc95927542cc37eb05ea
+    new: ab06f2a87139101f96664a708fd5392b6944ba66
     log: |
-         e21de658f8e808551c2f9702727442980bdc0ad7 MAINTAINERS: thead: update Maintainer
+         27070c067ecd21ac0683b227b3a60ed3ea951c5f foo
+         ab06f2a87139101f96664a708fd5392b6944ba66 foo
          
