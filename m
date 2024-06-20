@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9135428513130676564=="
+Content-Type: multipart/mixed; boundary="===============9009865938984297853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Jun 2024 06:28:08 -0000
-Message-Id: <171886488814.23187.14749344919795319532@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 06:28:34 -0000
+Message-Id: <171886491497.23446.15273779008448791043@gitolite.kernel.org>
 
---===============9135428513130676564==
+--===============9009865938984297853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,34 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e849ddb70f48606660d956d9eb5f69e5b223cc64
-    new: fab17543a619a05626ea6f3ea645a3b5897107cf
-    log: revlist-e849ddb70f48-fab17543a619.txt
+    old: fab17543a619a05626ea6f3ea645a3b5897107cf
+    new: 118f09b83229aca6325f562fd4772eafa15966ba
+    log: revlist-fab17543a619-118f09b83229.txt
 
---===============9135428513130676564==
+--===============9009865938984297853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e849ddb70f48-fab17543a619.txt
+Content-Disposition: attachment; filename=revlist-fab17543a619-118f09b83229.txt
 
-ae9daffd9028f2500c9ac1517e46d4f2b57efb80 MIPS: Routerboard 532: Fix vendor retry check code
-277a0363120276645ae598d8d5fea7265e076ae9 MIPS: pci: lantiq: restore reset gpio polarity
-ce5cdd3b05216b704a704f466fb4c2dff3778caf mips: bmips: BCM6358: make sure CBR is correctly set
-2049aad5d3a6921f80121029afe6fbcfb2727861 selftests: filesystems: fix warn_unused_result build warnings
-04e1f99afe8bec27ad2d2726897ac8185bf0532c selftests: seccomp: fix format-zero-length warnings
-442b15a2d7a3f01534cb80585b84d7b60e4e2219 selftests/openat2: fix clang build failures: -static-libasan, LOCAL_HDRS
-ed3994ac847e0d6605f248e7f6776b1d4f445f4b selftests/fchmodat2: fix clang build failure due to -static-libasan
-3572bd5689b0812b161b40279e39ca5b66d73e88 tracing: Build event generation tests only as modules
-6e5aee08bd2517397c9572243a816664f2ead547 Revert "MIPS: pci: lantiq: restore reset gpio polarity"
-1f0a79c829b2b0bdf65c428cb2ffd455175b3501 x86/fpu: Introduce the x86_task_fpu() helper method
-c822542ba0bcec130ce659f8075faced5722fd42 x86/fpu: Convert task_struct::thread.fpu accesses to use x86_task_fpu()
-81106b7e0b136e96a4116efdd5fe3df2b6a478b9 x86/fpu: Make task_struct::thread constant size
-80733352295340ab492002bd023ea8a1db8025f5 x86/fpu: Remove the thread::fpu pointer
-025136aa3c05c6c79a6dbf1e643e2a6bb6e19744 x86/fpu: Push 'fpu' pointer calculation into the fpu__drop() call
-c4fb3a595f60cca76286aabef0c2dd539ba91ffa x86/fpu: Make sure x86_task_fpu() doesn't get called for PF_KTHREAD|PF_USER_WORKER tasks during exit
-d0ce4e3657ec50d9784d8c18b83082aa00781345 x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
-a5c15ef0d6b833e513b6e27f0f632d68ceceaf9d x86/fpu: Use 'fpstate' variable names consistently
-26553b73af106045898fb7a951e3069cf563779d x86/fpu: Fix stale comment in ex_handler_fprestore()
-5d272dd1b3430bb31fa30042490fa081512424e4 cpumask: limit FORCE_NR_CPUS to just the UP case
-92e5605a199efbaee59fb19e15d6cc2103a04ec2 Merge tag 'linux_kselftest-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-6785e3cc09f149c42ce70eb92736d68c0db64684 Merge tag 'mips-fixes_6.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-519984e94791ecca7711da0df6515d76aee230e8 Merge branch into tip/master: 'WIP.x86/fpu'
-fab17543a619a05626ea6f3ea645a3b5897107cf Merge branch 'linus'
+dbee9787e675405103957081c802635776cb8220 Merge branch into tip/master: 'x86/urgent'
+0ad9ee8f9960119ab7be51459597d87b9648c937 Merge branch into tip/master: 'WIP.x86/fpu'
+50b99a97357b0c17bd99b3fb007979fd976ec91e Merge branch into tip/master: 'irq/core'
+12fea44bcc6ee14ef97c6e9726648df18cc56404 Merge branch into tip/master: 'locking/core'
+bca0807a4a968f761412d52de56d6fa315dda201 Merge branch into tip/master: 'perf/core'
+b3e11f3b3da2b40f42520b6e697f3ca772bb3ed8 Merge branch into tip/master: 'ras/core'
+93b8d0f0b589bd7ea6b220845cf48b3d8bf71e04 Merge branch into tip/master: 'sched/core'
+84951c5a04debf5380ad54af164c39a87bfc257d Merge branch into tip/master: 'smp/core'
+7cc0180e27daecf0654bdee3b9bc6f9f89fb0ee7 Merge branch into tip/master: 'timers/core'
+4a021790e17f08c33a7702a12abe2107b4f936bc Merge branch into tip/master: 'x86/alternatives'
+ed303f41e654120e597b08c2a3288c9f0f9b1527 Merge branch into tip/master: 'x86/boot'
+c9cc9feb5b22ccec9fc8df00e012c357a1d9bc38 Merge branch into tip/master: 'x86/cache'
+aa816cddb4b74a19ac813117e5784a8539e7f056 Merge branch into tip/master: 'x86/cc'
+e28acf2847c2f9daaa69f159f23732f8f072d369 Merge branch into tip/master: 'x86/cleanups'
+e1bd3a65006f61197e1c5a5cc0a97b338cbfb3cc Merge branch into tip/master: 'x86/core'
+175e0adf61086bbb4363a383033ae131240489a2 Merge branch into tip/master: 'x86/cpu'
+f51a6dfd03e8f00070d37dcc0bed2a085917b127 Merge branch into tip/master: 'x86/misc'
+78a0bbe8ff05f187ef16945446f1fbe88c3d9192 Merge branch into tip/master: 'x86/percpu'
+118f09b83229aca6325f562fd4772eafa15966ba Merge branch into tip/master: 'x86/sev'
 
---===============9135428513130676564==--
+--===============9009865938984297853==--
