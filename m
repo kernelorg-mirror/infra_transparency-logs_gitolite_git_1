@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 20 Jun 2024 09:03:51 -0000
-Message-Id: <171887423172.9075.5927054346004246660@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 09:04:00 -0000
+Message-Id: <171887424068.9176.14704606967974521994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: b70c7996d4ffb2e02895132e8a79a37cee66504f
+  - ref: refs/heads/acpi_arm64_cleanup
+    old: 42a57f7800194bcb7a0cf0027f10b6c5fa037216
     new: 0000000000000000000000000000000000000000
