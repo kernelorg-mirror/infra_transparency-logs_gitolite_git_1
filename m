@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 20 Jun 2024 08:46:38 -0000
-Message-Id: <171887319872.29527.8158171962937059073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 20 Jun 2024 08:48:29 -0000
+Message-Id: <171887330983.30222.8568820754675591556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/experimental
-    old: 68b0099910e936a775e9a8699378fb54ac7bd1d0
-    new: 791ea4d50d2fc8d781cc01cac7c0a9ad8380ffd5
+  - ref: refs/tags/vexpress-updates-6.11
+    old: 3454710b6e9c63f45d226e26be78c3773023a900
+    new: 1995861a2ccf4008bb69a038cb545f02e440a0e2
     log: |
-         7550a30c332c6115d901770918c15d093bc3072f erofs-utils: enable incremental builds
-         d4f7a5b445650fa15face5fb533392026d5f417d erofs-utils: enable mapfile for `--tar=f`
-         3037f8958f3b2a35bda230f9dda765accca7c1c0 erofs-utils: skip all unidentified xattrs from local paths
-         af25ff9ced064c369cc044e53dea2f0ebe9f9842 erofs-utils: optimize write_uncompressed_file_from_fd()
-         791ea4d50d2fc8d781cc01cac7c0a9ad8380ffd5 erofs-utils: lib: drop prefix_sha256 digests
+         69a6661b6f2f1a4d6dbbc58f7c9acfc84484145b bus: vexpress-config: Add missing MODULE_DESCRIPTION() macro
          
