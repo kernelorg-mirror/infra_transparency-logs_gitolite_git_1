@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/anna-maria/linux-devel
-Date: Thu, 20 Jun 2024 08:11:26 -0000
-Message-Id: <171887108631.3723.13231098813379248819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 20 Jun 2024 08:22:32 -0000
+Message-Id: <171887175268.10878.7555857560818240284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/anna-maria/linux-devel
-user: anna-maria
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/vdso/cleanup
-    old: 1f2cec28b82b702d8baeb95bb9b66061e876d6c5
-    new: e354054c91471ab4f7be4365c8f43bde4dd77e46
+  - ref: refs/heads/objtool-diff
+    old: db53ef128a4fc2a5c759b7b1fc7e809b9e8f9d28
+    new: 2bd68b8bb91b82d7d19ce5c24c33717eeb299cc1
+    log: |
+         2bd68b8bb91b82d7d19ce5c24c33717eeb299cc1 todo
+         
