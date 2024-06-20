@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6946416457337108748=="
+Content-Type: multipart/mixed; boundary="===============5014099708481884735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Jun 2024 22:14:47 -0000
-Message-Id: <171892168701.1865.4074278340609346327@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 22:14:49 -0000
+Message-Id: <171892168949.1944.9968810754866879786@gitolite.kernel.org>
 
---===============6946416457337108748==
+--===============5014099708481884735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: fba383985354e83474f95f36d7c65feb75dba19d
     new: d5a7fc58da039903b332041e8c67daae36f08b50
     log: revlist-fba383985354-d5a7fc58da03.txt
 
---===============6946416457337108748==
+--===============5014099708481884735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -259,4 +259,4 @@ e5b3efbe1ab1793bb49ae07d56d0973267e65112 Merge tag 'probes-fixes-v6.10-rc4' of g
 042742a1ff1f37ca88c303a9e61afc8c56b23657 Merge tag 'sound-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 d5a7fc58da039903b332041e8c67daae36f08b50 Merge tag 'net-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6946416457337108748==--
+--===============5014099708481884735==--
