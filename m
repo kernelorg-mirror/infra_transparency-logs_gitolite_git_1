@@ -1,59 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4945413673974506784=="
+Content-Type: multipart/mixed; boundary="===============1193049346573437664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 20 Jun 2024 17:32:28 -0000
-Message-Id: <171890474868.15408.8316097116331438100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 20 Jun 2024 17:35:06 -0000
+Message-Id: <171890490628.18029.2625566976451050118@gitolite.kernel.org>
 
---===============4945413673974506784==
+--===============1193049346573437664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/usb-testing
-    old: 2e031f50651df6d4d71704e89688694ea68313e5
-    new: 90c478ee37bebe1adaab920e3e06228fef3b9364
-    log: |
-         2be53b0436fda455e1bf6968ebae53f5d4f3cb0b usb: typec-mux: ptn36502: unregister typec switch on probe error and remove
-         74b64e760ee3433c0f8d95715038c869bcddacf7 usb: typec-mux: nb7vpq904m: unregister typec switch on probe error and remove
-         a96abf3bad810d4d281a3f47f1985a2470daa9ed usb: typec-mux: ptn36502: broadcast typec state to next mux
-         90c478ee37bebe1adaab920e3e06228fef3b9364 usb: typec-mux: nb7vpq904m: broadcast typec state to next mux
-         
+  - ref: refs/heads/next
+    old: c588e447c2a9bdb17618e8255c9710fded174806
+    new: afbc1bebc1f1b92799c7abcfc47f996af5ae8b04
+    log: revlist-c588e447c2a9-afbc1bebc1f1.txt
 
---===============4945413673974506784==
+--===============1193049346573437664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c588e447c2a9-afbc1bebc1f1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718904747 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1718904747-4bb0ce4c691cde806ed904133abd315ea30b73e0
+4e8ff73eb7ae3f7a7ec1d59f4d54935ae28f4795 KVM: arm64: Get sys_reg encoding from descriptor in idregs_debug_show()
+410db103f6ebc68a505ef541291ec327e385205a KVM: arm64: Make idregs debugfs iterator search sysreg table directly
+97ca3fcc15cc0b19ccacb56d25545f1df080fbc0 KVM: arm64: Use read-only helper for reading VM ID registers
+d7508d27dd8878eb09e470855a546d96e0cfd4d3 KVM: arm64: Add helper for writing ID regs
+44241f34fac96d23cb8eac944815a1fdbf4ce523 KVM: arm64: nv: Use accessors for modifying ID registers
+f1ff3fc5209a1d63a4018bdb4231fbb073063c9a KVM: arm64: unify code to prepare traps
+2843cae26644fbc922e93c7c4c279f70fb3275f1 KVM: arm64: Treat CTR_EL0 as a VM feature ID register
+bb4fa769dcdd0b6e47ecbf0363489be510498b1d KVM: arm64: show writable masks for feature registers
+76d36012276a328ac0a1e9c7415cafd092447ce7 KVM: arm64: rename functions for invariant sys regs
+11a31be88fb6191f2584a0b6364b11e21d068685 KVM: selftests: arm64: Test writes to CTR_EL0
+afbc1bebc1f1b92799c7abcfc47f996af5ae8b04 Merge branch kvm-arm64/ctr-el0 into kvmarm/next
 
-2e031f50651df6d4d71704e89688694ea68313e5 90c478ee37bebe1adaab920e3e06228fef3b9364 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0Z6sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bkgQAJzNVEvcxgBa3RcduAme
-O1OYvOca4+KDlcUxGwxrM+leNYOK4hZxUzSyCzcnJVOzJDmFx7v6Ldn+aeG7Fmf8
-doy2/oULB3gA9vX6ojm+uZkNx7OLPg+tgLzDUCVUV2I37G2utiR9tawwqPzKo7GM
-V6A8oFEjE+k6Cu1YJiWEE+smlQmw8yttlkUy8IuYKzDJLNnghgCjPW7UkEWqPU22
-eV+r8ydT4j8h2lsOM42OznQRvx/C1tXjFWVVn5prHdVGzESTK/qErfTsccoU5Yvh
-R7+kqiTbpke0vUX/JVaRHP+Rrej9pSWoH6tz+fCTWSHYG4K+TgushXwzZvkd1Pr4
-iPUuiFNJqzcUUvl/ivZRUrkVg5xkPLnFdUeO/lwe4ZZsAQ+AVVyRoLM/Ox2Uu5l/
-xG6W5PZKQFWgO/z/ruQATCIaUqXwMIXekRXpuB4MB512SxT4MG6RM2N2SGmrjc3h
-AXKtEYGcE68+BjjCdsbQ4vUtf5GtISFSyz4QMYAgAeKUY0Yf0OgVid4cIX8sNZ7q
-XxaYT8Dvv4Wb3ZUCs7D/SBoU9X53THNibiFrqxX1+YwsOMwka8XzTpV+x00pGzam
-3/6z7axh+emD/bnXpRxn51p08LYhltOmzHjjm1XEf89IgxPAyu5HP7bK9e7/c3Wr
-bIQn3uFGMcgQlMdsqq9wgvu8
-=PUPz
------END PGP SIGNATURE-----
-
---===============4945413673974506784==--
+--===============1193049346573437664==--
