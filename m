@@ -1,45 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 20 Jun 2024 14:00:29 -0000
-Message-Id: <171889202994.19154.9869545281912124090@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2960640387586475513=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 20 Jun 2024 14:02:39 -0000
+Message-Id: <171889215929.20009.16345979184275865761@gitolite.kernel.org>
+
+--===============2960640387586475513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 5e329aa400f9854db857694375c56dc0b609086c
-    new: 3509dcb314bb35b2f3343a2e7d20d6872827dead
+  - ref: refs/heads/master
+    old: 0fe6460e9fbf2e042f1ce7089e95f069a6eeae8d
+    new: 73432711006e3ff37fb2a14e88f89ca32113b5f8
     log: |
-         14238337d024800904bdd245f6be45a5b67a6a4c wifi: ath12k: implement WoW enable and wakeup commands
-         3502b92e7565e06052fd391ad03d0bfe7715b236 wifi: ath12k: add basic WoW functionalities
-         6499bb49866c8a7d912f0eba28ef6b1124d57263 wifi: ath12k: add WoW net-detect functionality
-         59224faa767a84a347180a9d75fc53a5815610af wifi: ath12k: implement hardware data filter
-         79e04384199efe9bfdf9e6356afb16f3b070fecb wifi: ath12k: support ARP and NS offload
-         fca2dc067bf686be185df66cf1bbfac36aeba195 wifi: ath12k: support GTK rekey offload
-         56108c15fa86c37a8b50b58122e01a6ab9b29b02 wifi: ath12k: handle keepalive during WoWLAN suspend and resume
-         130d220f3fb021b462443db9dc51ba717ad6efc2 wifi: ath11k: Add firmware coredump collection support
-         44ae07628b68375f476895f4fc1e89a570790ac0 wifi: ath12k: Add firmware coredump collection support
-         3509dcb314bb35b2f3343a2e7d20d6872827dead Merge branch 'pending' into master-pending
+         73432711006e3ff37fb2a14e88f89ca32113b5f8 add 6.9.5 review from greg
          
-  - ref: refs/heads/pending
-    old: c7a85ee1eec930383337097da56c920a3ab10986
-    new: 44ae07628b68375f476895f4fc1e89a570790ac0
-    log: |
-         14238337d024800904bdd245f6be45a5b67a6a4c wifi: ath12k: implement WoW enable and wakeup commands
-         3502b92e7565e06052fd391ad03d0bfe7715b236 wifi: ath12k: add basic WoW functionalities
-         6499bb49866c8a7d912f0eba28ef6b1124d57263 wifi: ath12k: add WoW net-detect functionality
-         59224faa767a84a347180a9d75fc53a5815610af wifi: ath12k: implement hardware data filter
-         79e04384199efe9bfdf9e6356afb16f3b070fecb wifi: ath12k: support ARP and NS offload
-         fca2dc067bf686be185df66cf1bbfac36aeba195 wifi: ath12k: support GTK rekey offload
-         56108c15fa86c37a8b50b58122e01a6ab9b29b02 wifi: ath12k: handle keepalive during WoWLAN suspend and resume
-         130d220f3fb021b462443db9dc51ba717ad6efc2 wifi: ath11k: Add firmware coredump collection support
-         44ae07628b68375f476895f4fc1e89a570790ac0 wifi: ath12k: Add firmware coredump collection support
-         
-  - ref: refs/tags/ath-pending-202406201357
-    old: 0000000000000000000000000000000000000000
-    new: 3509dcb314bb35b2f3343a2e7d20d6872827dead
+
+--===============2960640387586475513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718892156 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1718892156-435fcf668a7d8cbe1676d17b71d441d2ba0941fd
+
+0fe6460e9fbf2e042f1ce7089e95f069a6eeae8d 73432711006e3ff37fb2a14e88f89ca32113b5f8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0NnwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQYQAI/WvEYe/GpX5JbW9VEd
+lYAc0v/PUqVGqw32hDoutw48bC+++ahx2MMwgC2bC+WZkI5YROwJWpl7PZtyGouR
+oRdCynHdhgQgbz2Q6FtZxluGb3GEl1xavNQCot7BW3sBRQ02ylyW2GP+ZUP9yaJH
+zsOb2GNWjHrnzz3TJH1AjK1VsZtgR91+6ae5aemjXLDrFTA5kDI3TID15Ih2d1oA
+EjZQqqR9iYVsIDx64GvyyqkboI7QMpih4jH9Wmn/NIrfQfpm7dGaUcNeM7FPHfr2
+AS+dVHBsLsO00uAhUXYJP+tage+3hbXabyFqnwHLqgjhFIXywGgOB5LxxE3FY4et
+9yiEu0YFWECzE8b2LeyLN2A2kvEYPK+7wjEaZOKAbqKDPAyKB4RuBxEKSQPtowKz
+NDMFVImFwOdzye6EHEfiGgptxpqj85TOUSgnOvBuXDaZkGoOa/+VF8dEOBz2XdNS
+cP+UKlSCISUhNc/XxvH0youIiS2180fumh/9jXgMHU1LSwjEw9UPnxqLtgodc8cQ
+QsHMzHk8RotNlivrgtluAWTbJpWiqOf5axL85iFTTwhSeV4KnfbzPTJvqsAJbffN
+backG2eGFNXOB49prg+zeAYrzLzMZDCl8f9WNK0+Vt6nqe9IwHbK4x6bAzxuYI4U
+LU1xAjBGehOBnDAQvvwgfjnj
+=x2/n
+-----END PGP SIGNATURE-----
+
+--===============2960640387586475513==--
