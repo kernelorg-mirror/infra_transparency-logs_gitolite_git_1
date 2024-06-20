@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1635030621706388664=="
+Content-Type: multipart/mixed; boundary="===============7181304240747952724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Jun 2024 15:42:08 -0000
-Message-Id: <171889812807.29758.14287100183418381355@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 15:42:13 -0000
+Message-Id: <171889813358.29864.14912993582709015439@gitolite.kernel.org>
 
---===============1635030621706388664==
+--===============7181304240747952724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e2b447c9a1bba718f9c07513a1e8958209e862a1
-    new: fba383985354e83474f95f36d7c65feb75dba19d
-    log: revlist-e2b447c9a1bb-fba383985354.txt
+  - ref: refs/heads/dev-queue
+    old: 0a8975e20f25bb2f5edb28d883dc715802231e71
+    new: 388ab435d5a52a4c1aa624566fdd493b29f95348
+    log: revlist-0a8975e20f25-388ab435d5a5.txt
 
---===============1635030621706388664==
+--===============7181304240747952724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2b447c9a1bb-fba383985354.txt
+Content-Disposition: attachment; filename=revlist-0a8975e20f25-388ab435d5a5.txt
 
 cd6f12e173df44a20c2ac2ac110007dc14968088 net: phy: dp83tg720: wake up PHYs in managed mode
 40a64cc9679540ff7c46ecc51178b07d42abbb1c net: phy: dp83tg720: get master/slave configuration in link down state
@@ -53,5 +53,8 @@ b7bfcb4c7ce44fd0070ce8bccbc91c56341f05c1 bnxt_en: Set TSO max segs on devices wi
 3f67782e10f25d36abc909c2a5756382d937cd6f Merge branch 'bnxt_en-bug-fixes-for-net'
 48dea8f7bb011608fd969749a1980f8311ef45f2 selftests: virtio_net: add forgotten config options
 fba383985354e83474f95f36d7c65feb75dba19d net: usb: rtl8150 fix unintiatilzed variables in rtl8150_get_link_ksettings
+d99ec02d4ffc72bda677f1143fa7a730d1ef7e98 ice: Rebuild TC queues on VSI queue reconfiguration
+4521c613787fb181ff5e807ebf96b30091f1ad99 e1000e: Fix S0ix residency on corporate systems
+388ab435d5a52a4c1aa624566fdd493b29f95348 ice: Add a per-VF limit on number of FDIR filters
 
---===============1635030621706388664==--
+--===============7181304240747952724==--
