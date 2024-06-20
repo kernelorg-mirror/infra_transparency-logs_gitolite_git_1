@@ -1,35 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 20 Jun 2024 12:19:35 -0000
-Message-Id: <171888597510.9099.11024957183329823019@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6628372908769199760=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 20 Jun 2024 12:19:58 -0000
+Message-Id: <171888599830.9304.16921461948728212863@gitolite.kernel.org>
+
+--===============6628372908769199760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/jd/vdso-skip-insn
-    old: a7c1092d1e74ca4b8aa8ccb6c574646481d4d39f
-    new: 5af798ff0237812e21bed36cfc6493492b8ad580
+  - ref: refs/heads/master
+    old: 1a1d7fa3dd329f36f9556b824fdfd36747860ff6
+    new: ba8939afb774daa973aeb4f9203468a0937958c2
     log: |
-         3a1b0fe3864e3b8b7f221c906947d4408ed9db0b random: add vgetrandom_alloc() syscall
-         62a5784709967423bb7ab3f6806d6e5d8591c7ee arch: allocate vgetrandom_alloc() syscall number
-         0e17507f1a91474cd7cd4c9dc87a8a2e04cffb91 random: introduce generic vDSO getrandom() implementation
-         7669d7b679838b9fdfb786ce1c53164a659bd1e8 x86: vdso: Wire up getrandom() vDSO implementation
-         31da42b232e3b32bf10edf7499f8acd2c7a25066 wireguard: selftests: re-use/ab-use test harness to run vDSO tests
-         f777a4ee2e4d3f5bce3e14ef2fc2d6d187e10a87 mm: Do not OOM when failing VM_DROPPABLE faults
-         5af798ff0237812e21bed36cfc6493492b8ad580 x86: mm: Skip faulting instruction for VM_DROPPABLE faults
+         ba8939afb774daa973aeb4f9203468a0937958c2 update gsd/processed/gsd-request-2022-10-04.review
          
-  - ref: refs/heads/vdso
-    old: d4a4dc1f55a0c50b356bf9291357231c004d9574
-    new: 31da42b232e3b32bf10edf7499f8acd2c7a25066
-    log: |
-         3a1b0fe3864e3b8b7f221c906947d4408ed9db0b random: add vgetrandom_alloc() syscall
-         62a5784709967423bb7ab3f6806d6e5d8591c7ee arch: allocate vgetrandom_alloc() syscall number
-         0e17507f1a91474cd7cd4c9dc87a8a2e04cffb91 random: introduce generic vDSO getrandom() implementation
-         7669d7b679838b9fdfb786ce1c53164a659bd1e8 x86: vdso: Wire up getrandom() vDSO implementation
-         31da42b232e3b32bf10edf7499f8acd2c7a25066 wireguard: selftests: re-use/ab-use test harness to run vDSO tests
-         
+
+--===============6628372908769199760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718885995 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1718885995-7567f91ea76c4dc79790256ccc7b6a64ff3cf435
+
+1a1d7fa3dd329f36f9556b824fdfd36747860ff6 ba8939afb774daa973aeb4f9203468a0937958c2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ0HmsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S6sP/AsSgya+tdR+UzN6eUDI
+6X+4hXDhIFxwaj1NlsHmbnLqqgmiHTamf9VuedjvZNMRj5uWD/zu02YMXiOE9al0
+f/dz/Dfud0V99KeXVXL9IFRUpe2gf2M4zAKgXp9N2uxXMPrd1ISKXeT+oJK5hPSq
+m9IEoRXyPaaGVtKirTr3H0zb1LEQFC+U/s9TEGiARSwpntgH3TAOYtCm7hC6kAjy
+ymMcijDQHqXUuK8mqY7MnKPXNCMVkGU98pvDQFMZcJsFFY1pky9Wwb6HLgRnSC9H
+6VvkHuAd6HWiBzQFpaM315tkI6fG3PZ3eCnaQCJ5mvbFU2yECp+2aZKimx78SBKr
+qt4Mc4diZUpJ8W/g5Sm127S68UDfkqhRCwfiBkb8b41VXclcfXhjP1QFyCGLBcJB
+61p1Yd7mNiRkj4yAZrR6wLYTAqsiyccx3DRdRoJQb3pcyQdWMkFi6SfZkqOHOYH4
+CAkzXmxmS9+pd9wsfTmmqqu6fiiQnp9Eon2MMwQVpHTpZQ+T5LUKDKBMOh2DJ2id
+nJgiZ6qa0JWdbKonGwF3e4KoeJesS1j0/HjSmNZNB04h8i84MCFLjvncU5jW90tE
+KL/cLtK2zPrcmYGLCSOysydix9HKgHNduWFmPkp6UyTwVNWyYfj8l2nkOPPGAujA
+59ytXA0INrXRvORScuOQJuOd
+=Juie
+-----END PGP SIGNATURE-----
+
+--===============6628372908769199760==--
