@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 20 Jun 2024 09:04:11 -0000
-Message-Id: <171887425196.9318.9501173300673185737@gitolite.kernel.org>
+Date: Thu, 20 Jun 2024 09:04:47 -0000
+Message-Id: <171887428789.9576.6137866386858308622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/v6.1/ffa_notif_backport
-    old: 2c3a6c3887fa6072f35ba1b6ede8853c171d908f
+  - ref: refs/heads/ffa-ts-dev
+    old: 784ce15fbad003f40f9f2f9187fcdce33edc694a
     new: 0000000000000000000000000000000000000000
