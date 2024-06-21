@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Fri, 21 Jun 2024 21:31:04 -0000
-Message-Id: <171900546493.9814.221741929421296958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
+Date: Fri, 21 Jun 2024 21:31:55 -0000
+Message-Id: <171900551557.10171.10070760708348260244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/devsec/spdm
+user: lukas
 changes:
-  - ref: refs/heads/kvm-arm64/ffa-1p1
-    old: 0000000000000000000000000000000000000000
-    new: 42fb33dde42b826d5505ec8d391ec473932d1694
+  - ref: refs/meta/cgit
+    old: 8ee82baabe8721ef84b54b8e7e896d2c8bc8607a
+    new: 11e92f9c641981bfab8a63e96fbe37b09176b33e
+    log: |
+         11e92f9c641981bfab8a63e96fbe37b09176b33e Add initial cgitrc and README
+         
