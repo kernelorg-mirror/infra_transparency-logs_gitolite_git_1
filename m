@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 21 Jun 2024 16:06:21 -0000
-Message-Id: <171898598152.23669.9529074882000354954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 21 Jun 2024 16:06:41 -0000
+Message-Id: <171898600160.24046.9131952767919000886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: ccea4ba13a443796a4acde98114f4aa6b3517f25
-    new: cb0e13f00c6759f47223e407268efad8c7c589fe
+  - ref: refs/heads/100GbE
+    old: 3226607302ca5a74dee6f1c817580c713ef9d0dd
+    new: fff5cca345a66a341870512e58ca469042249f25
     log: |
-         e07170d7c110ad4fd480dd5cfc80a53fc6e6898e nfs: implement client support for NFS_LOCALIO_PROGRAM
-         a470211f848a9f0a779f33419cb375b274a82320 nfsd: implement server support for NFS_LOCALIO_PROGRAM
-         b80e8ce7992277fa7c3a3698c3642011a51c1202 nfs/nfsd: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
-         787cd2acc5e124673de5242e5d1c9769060b6f07 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
-         a55d210dbc73ec17712a46f494c72316565e4873 nfsd: use SRCU to dereference nn->nfsd_serv
-         573601af38c2f7ff628c145dfd1928ab3f351533 nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
-         401d4adb57fa82fddc612807defda9259796699a nfs: add Documentation/filesystems/nfs/localio.rst
-         a7874405c5e64be8eabc358b8873a63911095013 SUNRPC: replace program list with program array
-         cb0e13f00c6759f47223e407268efad8c7c589fe nfs/nfsd: add Kconfig options to allow localio to be enabled
+         639ac8ce8b65a44f176e3e831e39d5dde738ac71 ice: store representor ID in bridge port
+         8d2f518c0c9dc86be677c037a6e2f5e7da268866 ice: move devlink locking outside the port creation
+         4d364df2b5ed1718580f22df1458cfecf82787a2 ice: move VSI configuration outside repr setup
+         fff5cca345a66a341870512e58ca469042249f25 ice: update representor when VSI is ready
          
