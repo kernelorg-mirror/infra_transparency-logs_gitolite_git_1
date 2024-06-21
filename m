@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 21 Jun 2024 18:50:03 -0000
-Message-Id: <171899580313.19942.9552601773233024017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 21 Jun 2024 19:00:38 -0000
+Message-Id: <171899643878.27806.8507277268405890932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/for-6.11/block
-    old: caaf7101c01a91a882d3da2f566579dda692367d
-    new: 8324bb755a80d463ff53379e5d64991656512069
+  - ref: refs/heads/endpoint
+    old: 1b2ccd0341a6124d964211bae2ec378fafd0c8b2
+    new: 657463e393d136252eda0e0561c78ce22453a845
     log: |
-         8324bb755a80d463ff53379e5d64991656512069 block: Fix blk_validate_atomic_write_limits() build for arm32
-         
-  - ref: refs/heads/for-next
-    old: 075aa2a8d82a8416642d1b0421203b9ad9be27a0
-    new: b398f439dc8f6eeb855ba46842cb5d127f39ae77
-    log: |
-         8324bb755a80d463ff53379e5d64991656512069 block: Fix blk_validate_atomic_write_limits() build for arm32
-         b398f439dc8f6eeb855ba46842cb5d127f39ae77 Merge branch 'for-6.11/block' into for-next
+         657463e393d136252eda0e0561c78ce22453a845 misc: pci_endpoint_test: Add support for Rockchip rk3588
          
