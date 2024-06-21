@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 Jun 2024 09:17:44 -0000
-Message-Id: <171896146401.26769.15434509226673556323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 21 Jun 2024 09:18:59 -0000
+Message-Id: <171896153962.27271.7373781118154517114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: ad53f5f54f351e967128edbc431f0f26427172cf
-    new: a23ac973f67f37e77b3c634e8b1ad5b0164fcc1f
+    old: dcec8d291da8813b5e1c7c0967ae63463a8521f6
+    new: 4558645d139c01d5635cac7e3528a3d19bbb6526
     log: |
-         a23ac973f67f37e77b3c634e8b1ad5b0164fcc1f openvswitch: get related ct labels from its master if it is not confirmed
+         4558645d139c01d5635cac7e3528a3d19bbb6526 docs: net: document guidance of implementing the SR-IOV NDOs
          
