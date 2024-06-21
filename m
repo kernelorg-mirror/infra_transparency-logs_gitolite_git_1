@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4845674118575725440=="
+Content-Type: multipart/mixed; boundary="===============7075606600504848643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Jun 2024 14:11:05 -0000
-Message-Id: <171897906538.3897.1916351461252169950@gitolite.kernel.org>
+Date: Fri, 21 Jun 2024 14:11:08 -0000
+Message-Id: <171897906802.3971.12909980808565260859@gitolite.kernel.org>
 
---===============4845674118575725440==
+--===============7075606600504848643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d5a7fc58da039903b332041e8c67daae36f08b50
     new: 8406b56a91ec458172c4fe1bb13038031e975b6a
     log: revlist-d5a7fc58da03-8406b56a91ec.txt
 
---===============4845674118575725440==
+--===============7075606600504848643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e3f02f32a05009a688a87f5799e049ed6b55bab5 ionic: fix kernel panic due to multi-bu
 c28947de2bed40217cf256c5d0d16880054fcf13 mlxsw: spectrum_buffers: Fix memory corruptions on Spectrum-4 systems
 8406b56a91ec458172c4fe1bb13038031e975b6a Merge branch 'mlxsw-fixes'
 
---===============4845674118575725440==--
+--===============7075606600504848643==--
