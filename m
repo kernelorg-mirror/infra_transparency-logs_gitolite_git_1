@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============6640811651779159353=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 21 Jun 2024 13:04:35 -0000
-Message-Id: <171897507532.4097.8696538230530061975@gitolite.kernel.org>
-
---===============6640811651779159353==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 21 Jun 2024 13:06:30 -0000
+Message-Id: <171897519091.19472.541107215984230402@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,50 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: ae8fc2948b48f001514d4b73167fcef3b398a5fb
-    new: de7a09dec4b90a7f92b1ebcdfeed69400b5079f4
-    log: revlist-ae8fc2948b48-de7a09dec4b9.txt
-
---===============6640811651779159353==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae8fc2948b48-de7a09dec4b9.txt
-
-e0e8e4bce61cac674fdabd85d070e7bab1634a8b ASoC: SOF: Intel: hda-dai: skip tlv for dspless mode
-3b06e137089fc0beb5ffa6a869de9a93df984072 ASoC: SOF: Intel: hda-dai: remove skip_tlv label
-d3cb3516f2540e6c384eef96b4ffeb49425175ed MAINTAINERS: copy linux-arm-msm for sound/qcom changes
-a73a83021ae136ab6b0d08eb196d84b1d02814e9 ASoC: mxs: add missing MODULE_DESCRIPTION() macro
-7478e15bcc16cbc0fa1b8c431163bf651033c088 ASoC: fsl: add missing MODULE_DESCRIPTION() macro
-968c974c08106fcf911d8d390d0f049af855d348 ASoC: rt722-sdca-sdw: add silence detection register as volatile
-65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd ASoC: qcom: add missing MODULE_DESCRIPTION() macro
-afe377286ad49e0b69071d2a767e2c6553f4094b ASoC: cs42l43: Increase default type detect time and button delay
-b7c40988808f8d7426dee1e4d96a4e204de4a8bc ASoC: codecs: ES8326: Solve headphone detection issue
-4d46b699cd0c82e55c031ab515a6267ad17b7164 ASoC: SOF: Intel: hda-dai: skip tlv configuration for
-ccd8d753f0fe8f16745fa2b6be5946349731d901 ASoC: rockchip: i2s-tdm: Fix trcm mode by setting clock on right mclk
-97d8613679eb53bd0c07d0fbd3d8471e46ba46c1 ASoC: mediatek: mt8183-da7219-max98357: Fix kcontrol name collision
-2ed22161b19b11239aa742804549f63edd7c91e3 ASoC: atmel: atmel-classd: Re-add dai_link->platform to fix card init
-97ab304ecd95c0b1703ff8c8c3956dc6e2afe8e1 ASoC: topology: Fix references to freed memory
-fd660b1bd015e5aa9a558ee04088f2431010548d ASoC: Intel: avs: Fix route override
-daf0b99d4720c9f05bdb81c73b2efdb43fa9def3 ASoC: topology: Do not assign fields that are already set
-e0e7bc2cbee93778c4ad7d9a792d425ffb5af6f7 ASoC: topology: Clean up route loading
-e3209a1827646daaab744aa6a5767b1f57fb5385 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
-b9dd212b14d27a53b63fc6621c452c0b3a01f61d ASoC: topology: Fix route memory corruption
-e8343410ddf08fc36a9b9cc7c51a4e53a262d4c6 ALSA: dmaengine: Synchronize dma channel after drop()
-c5dcf8ab10606e76c1d8a0ec77f27d84a392e874 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-524d3f126362b6033e92cbe107ae2158d7fbff94 ASoC: ti: omap-hdmi: Fix too long driver name
-37a2c94c68ce543bc7e2105d5ab178b03bafc797 Fixes for McASP and dmaengine_pcm
-6f2a43e3d14f6e31a3b041a1043195d02c54d615 ASoC: SOF: sof-audio: Skip unprepare for in-use widgets on error rollback
-f3b198e4788fcc8d03ed0c8bd5e3856c6a5760c5 ASoC: rt722-sdca-sdw: add debounce time for type detection
-0298f51652be47b79780833e0b63194e1231fa34 ASoC: topology: Fix route memory corruption
-8af49868e51ed1ba117b74728af12abe1eda82e5 ASoC: cs35l56: Disconnect ASP1 TX sources when ASP1 DAI is hooked up
-be1fae62cf253a5b67526cee9fbc07689b97c125 ASoC: q6apm-lpass-dai: close graph on prepare errors
-60ff540a1d476c2d48b96f7bc8ac8581b820e878 ASoC: Intel: soc-acpi: mtl: fix speaker no sound on Dell SKU 0C64
-98d919dfee1cc402ca29d45da642852d7c9a2301 ASoC: amd: acp: add a null check for chip_pdev structure
-70fa3900c3ed92158628710e81d274e5cb52f92b ASoC: amd: acp: remove i2s configuration check in acp_i2s_probe()
-379bcd2c9197bf2c429434e8a01cea0ee1852316 ASoC: amd: acp: move chip->flag variable assignment
-90f3feb24172185f1832636264943e8b5e289245 ASoC: fsl-asoc-card: set priv->pdev before using it
-de7a09dec4b90a7f92b1ebcdfeed69400b5079f4 ASoC: Merge up fixes
-
---===============6640811651779159353==--
+  - ref: refs/heads/clone3-shadow-stack
+    old: 4b79af38edb816bcd2330027827d11d4bf22c90e
+    new: 470fa350131857167c522cf30487414d34bc9c99
+    log: |
+         bc93fb120e7bfaab4463333c2b531f8d67c1d0a9 fork: Add shadow stack support to clone3()
+         33934068bc7bc146d335c4da48386a0277bfeed8 selftests/clone3: Remove redundant flushes of output streams
+         4b5e80a0e42afe1196c98209c6bc066adf3a7741 selftests/clone3: Factor more of main loop into test_clone3()
+         78624c6cc72160e26b1aa4602bfc71ed5bf09cce selftests/clone3: Add test for specified child stack
+         5b8361f163b925afd9ade3f980e3a921c5b518ff selftests/clone3: Explicitly handle child exits due to signals
+         b2697ff14065b4de6e31030fedadc5b8d3aa06d1 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
+         470fa350131857167c522cf30487414d34bc9c99 selftests/clone3: Test shadow stack support
+         
