@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 21 Jun 2024 20:04:42 -0000
-Message-Id: <171900028280.8665.17168369887301931320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 21 Jun 2024 20:08:45 -0000
+Message-Id: <171900052553.13146.1587457397923889669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 2673315947c9f3890ad34a8196f62142e4ddef5a
-    new: 1d68f685a850705f47dfd55ebee2718706ad594c
+  - ref: refs/heads/dev-staging
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 51b45cc936d98cd8f94ed34a2f76265d9b60b1f2
     log: |
-         cfa1a2329a691ffd991fcf7248a57d752e712881 bpf: Fix overrunning reservations in ringbuf
-         1d68f685a850705f47dfd55ebee2718706ad594c selftests/bpf: Add more ring buffer test coverage
+         61df7b82820494368bd46071ca97e43a3dfc3b11 lsm: fixup the inode xattr capability handling
+         51b45cc936d98cd8f94ed34a2f76265d9b60b1f2 lsm: infrastructure management of the sock security
          
