@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8685681887016474438=="
+Content-Type: multipart/mixed; boundary="===============2946283794993630763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 21 Jun 2024 06:56:11 -0000
-Message-Id: <171895297116.18811.9998404243235003933@gitolite.kernel.org>
+Date: Fri, 21 Jun 2024 06:56:21 -0000
+Message-Id: <171895298188.18962.18014817438925428695@gitolite.kernel.org>
 
---===============8685681887016474438==
+--===============2946283794993630763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: f5072cffb35c122ec85d91ef327fa8814f04297b
     new: ff06ea04e4cf3ba2f025024776e83bfbdfa05155
     log: revlist-f5072cffb35c-ff06ea04e4cf.txt
 
---===============8685681887016474438==
+--===============2946283794993630763==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e61352d5ecdc0da2e7253121c15d9a3e040f78a1 clk: imx: imx8qxp: Register dc0_bypass0
 2c3499c761e0d695f08463943c1bca95ffc92d68 clk: imx: fracn-gppll: update rate table
 ff06ea04e4cf3ba2f025024776e83bfbdfa05155 clk: imx: clk-imx8mp: Allow media_disp pixel clock reconfigure parent rate
 
---===============8685681887016474438==--
+--===============2946283794993630763==--
