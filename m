@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8883616447355246849=="
+Content-Type: multipart/mixed; boundary="===============1195339890329865906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 Jun 2024 12:15:15 -0000
-Message-Id: <171897211559.12866.4608516775476667450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Jun 2024 12:15:22 -0000
+Message-Id: <171897212284.12999.3161436704303526008@gitolite.kernel.org>
 
---===============8883616447355246849==
+--===============1195339890329865906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: fe1ff61487ace69cd4e680e36169c90667eb9624
     new: ae8fc2948b48f001514d4b73167fcef3b398a5fb
     log: |
          ae8fc2948b48f001514d4b73167fcef3b398a5fb ASoC: dt-bindings: add missing vender prefix on filename
          
 
---===============8883616447355246849==
+--===============1195339890329865906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1718972114 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1718972113-122968cd823eb22f18e24ae59c5c9e7adcdf5181
+pusher C3F436CA30F5D8EB 1718972121 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1718972120-87a70c3b65be2274c7fadab8ea7570bd167fbb91
 
-fe1ff61487ace69cd4e680e36169c90667eb9624 ae8fc2948b48f001514d4b73167fcef3b398a5fb refs/heads/for-6.11
+fe1ff61487ace69cd4e680e36169c90667eb9624 ae8fc2948b48f001514d4b73167fcef3b398a5fb refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ1btIACgkQJNaLcl1U
-h9DBmAgAhd+cUN4kUJeCNVVo3C0EUVPB2CgAIpAbzpZLK3c8aH/eOGT73NHP6Yve
-/iltioXPvzEv1rduA5pjqyQHZeOR1wN/aSdFY8cv4QtG3jpda/LGeYvwmB12nUFN
-x2nL26wcVagB9hldYabMzDMpVv0Tmp+8QQVvUtIuGpX4cQTdtAjB0MHcg95p++40
-zGM7aZasA+MWooq0mEMjILn5mzwrjbv5fKYhiUW9OAIz6qpeGojW1HaHgVHfd4So
-WyylSgPTM8ZVXPBulXPQmA9xPYq4Q7a59J/kenk79VIs/02MNAR8qqM885um3HOW
-eo1JDcMabecYU+ZiPtd39wh748yO5Q==
-=I6x3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ1btkACgkQJNaLcl1U
+h9D31wf/YbDRpovN10pgGmUuHMRDmsdy0Ir+JMOXqR9+wyDwqGipaU5Sj1AvzHcj
+4fL5YRT7zNb9tauQNL255cHRoMjAr5h9TpRYb114m/6ncULozbwvm3JLtaICzA4D
+8ZS/yC04oDdlEOr6TexvUbS1c/Xgkk/lLkk6ChmOSeCGXnBgHPl0CruoDk0v5/eR
+5vBAIUsAadApQ610/QLeUap7lfSZaXIKAet3lfKgbuH/W+XLhCs7wG5/rCtPb+Ry
++UIQupcehnCLRf7V1HZ7B4OlpKQcvXZxEIAx3jq9gTu88m4GNPUKYLzs83T6dExI
+Ca4ljLDHVsczGt0A8lMsdiwHfhlEnw==
+=8Srk
 -----END PGP SIGNATURE-----
 
---===============8883616447355246849==--
+--===============1195339890329865906==--
