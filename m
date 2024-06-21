@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 21 Jun 2024 21:22:29 -0000
-Message-Id: <171900494961.2709.9943416440055810198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 21 Jun 2024 21:22:46 -0000
+Message-Id: <171900496658.2866.17702381566261860187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: andrii
 changes:
-  - ref: refs/heads/nvmem-fixes
-    old: ac9b2633e85f6b53cf368f90ae7589553e8998b6
-    new: c87ba397647e1ad84d2771461a6035a63d388198
+  - ref: refs/heads/master
+    old: 1d68f685a850705f47dfd55ebee2718706ad594c
+    new: fece2c43e667fafec0711989620a546e0e4c78be
+    log: |
+         fece2c43e667fafec0711989620a546e0e4c78be selftests/bpf: Add more ring buffer test coverage
+         
