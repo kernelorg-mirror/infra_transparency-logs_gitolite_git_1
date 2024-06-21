@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Fri, 21 Jun 2024 08:18:44 -0000
-Message-Id: <171895792454.14885.5382806875475226840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 21 Jun 2024 08:22:33 -0000
+Message-Id: <171895815358.17923.6733263173192821075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 1156a08e910614d9ea4e197a75c9aeb369ce0aa3
-    new: ce03cc096bb1fc74bfa63c9478c50671bf21aa0a
+  - ref: refs/heads/work.ns_ioctl
+    old: 8677ab84123aeb7a4ecb3b911d28e7bd547495df
+    new: 6a1b055576aed9690ab1480a57efbce4aed5b8e0
     log: |
-         cc6cf7cec1f7218d724ab18ae2668c96374cce54 wireless-regdb: Update regulatory info for Iceland (IS) on 6GHz
-         ce03cc096bb1fc74bfa63c9478c50671bf21aa0a wireless-regdb: Update regulatory info for Mauritius(MU) on 6GHz
+         6a1b055576aed9690ab1480a57efbce4aed5b8e0 nsfs: add pid translation ioctls
          
