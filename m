@@ -1,52 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3412519684725178901=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 21 Jun 2024 16:00:18 -0000
-Message-Id: <171898561825.19850.9266621891268286498@gitolite.kernel.org>
-
---===============3412519684725178901==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 21 Jun 2024 16:06:21 -0000
+Message-Id: <171898598152.23669.9529074882000354954@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/vfs.all
-    old: 61b9bc94fe7b83e464ff85d7ac4920e97b3c1d4e
-    new: 46fa54ed9b7b1cde24dc0b46ac454d595a3da2fa
-    log: revlist-61b9bc94fe7b-46fa54ed9b7b.txt
-  - ref: refs/heads/vfs.fixes
-    old: 7d1cf5e624ef5d81b933e8b7f4927531166c0f7a
-    new: 60bb6b6ed16cd2c39a587583cf69732596777875
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: ccea4ba13a443796a4acde98114f4aa6b3517f25
+    new: cb0e13f00c6759f47223e407268efad8c7c589fe
     log: |
-         ebf4067bfb3e343a0c69b4971f9df86d98974e4b netfs: Fix io_uring based write-through
-         ce85b8396bcabc99eda5d09a4af1bae8b3dbf26e netfs: Fix early issue of write op on partial write to folio tail
-         60bb6b6ed16cd2c39a587583cf69732596777875 netfs: Delete some xarray-wangling functions that aren't used
+         e07170d7c110ad4fd480dd5cfc80a53fc6e6898e nfs: implement client support for NFS_LOCALIO_PROGRAM
+         a470211f848a9f0a779f33419cb375b274a82320 nfsd: implement server support for NFS_LOCALIO_PROGRAM
+         b80e8ce7992277fa7c3a3698c3642011a51c1202 nfs/nfsd: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
+         787cd2acc5e124673de5242e5d1c9769060b6f07 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
+         a55d210dbc73ec17712a46f494c72316565e4873 nfsd: use SRCU to dereference nn->nfsd_serv
+         573601af38c2f7ff628c145dfd1928ab3f351533 nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
+         401d4adb57fa82fddc612807defda9259796699a nfs: add Documentation/filesystems/nfs/localio.rst
+         a7874405c5e64be8eabc358b8873a63911095013 SUNRPC: replace program list with program array
+         cb0e13f00c6759f47223e407268efad8c7c589fe nfs/nfsd: add Kconfig options to allow localio to be enabled
          
-
---===============3412519684725178901==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61b9bc94fe7b-46fa54ed9b7b.txt
-
-ebf4067bfb3e343a0c69b4971f9df86d98974e4b netfs: Fix io_uring based write-through
-ce85b8396bcabc99eda5d09a4af1bae8b3dbf26e netfs: Fix early issue of write op on partial write to folio tail
-60bb6b6ed16cd2c39a587583cf69732596777875 netfs: Delete some xarray-wangling functions that aren't used
-7530a09717e7d95f856daf8ec430f3c602aeb980 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-d2bb46b33da21e0c0aebe89fa0e8c768e385f45d Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-95de38191935432237b4192e2e4104a82e35e87e Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-701f093c447ff2d820fae59e40184a9b0a3f6762 Merge branch 'vfs.module.description' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-0232b4bbdf2b8de5fa093a8ea1f572bd9b261265 Merge branch 'vfs.pg_error' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-e3fca416e54a2051497c879c24c5f5560f47b84b Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f72e4fbd0be415044668904d3236f95c3a0034f8 Merge branch 'vfs.casefold' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-a964b652bae031093ae3fe34f52b756bd9bc74c6 Merge branch 'vfs.inode.rcu' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-daafd9e1a809710d111b1286b39bd93625d9172e Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-0d1d4a268e5e6e90c80122f11cc9b5fa45dcb844 Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-46fa54ed9b7b1cde24dc0b46ac454d595a3da2fa Merge branch 'vfs.iomap' into vfs.all
-
---===============3412519684725178901==--
