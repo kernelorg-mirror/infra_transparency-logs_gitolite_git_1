@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 21 Jun 2024 10:25:51 -0000
-Message-Id: <171896555155.26961.1464688063880038281@gitolite.kernel.org>
+Date: Fri, 21 Jun 2024 10:27:58 -0000
+Message-Id: <171896567842.27768.16657887956958639379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: a23ac973f67f37e77b3c634e8b1ad5b0164fcc1f
-    new: 00418d5530ca1f42d8721fe0a3e73d1ae477c223
+    old: 00418d5530ca1f42d8721fe0a3e73d1ae477c223
+    new: a95b031c6796bf9972da2d4b4b524a57734f3a0a
     log: |
-         00418d5530ca1f42d8721fe0a3e73d1ae477c223 net: mvpp2: fill-in dev_port attribute
+         a95b031c6796bf9972da2d4b4b524a57734f3a0a bonding: fix incorrect software timestamping report
          
