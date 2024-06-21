@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Fri, 21 Jun 2024 12:20:50 -0000
-Message-Id: <171897245076.16857.12709621798809606448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 21 Jun 2024 12:23:02 -0000
+Message-Id: <171897258219.17678.16065090138304418385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devsec/spdm
-user: lukas
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/meta/cgit
-    old: 5de702600ebab89231ba9c13f587a60342400fc7
-    new: 8fbe7b56ebe1b1f008e4806e043fcdfb42170fd0
+  - ref: refs/heads/master
+    old: 1dcf865d3bf5bff45e93cb2410911b3428dacb78
+    new: a5d8922ab2aec39336ebc78d7cefe3b84647b058
     log: |
-         8fbe7b56ebe1b1f008e4806e043fcdfb42170fd0 Add initial cgitrc and README.md
+         67ec8cdf29971677b2fb4b6d92871eb5d5e95597 hwrng: core - Remove add_early_randomness
+         a5d8922ab2aec39336ebc78d7cefe3b84647b058 crypto: qat - fix linking errors when PCI_IOV is disabled
          
