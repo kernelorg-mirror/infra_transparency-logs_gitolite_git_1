@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3904382180280097210=="
+Content-Type: multipart/mixed; boundary="===============5108392774345413470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Jun 2024 14:38:36 -0000
-Message-Id: <171898071605.24002.7162343576724625623@gitolite.kernel.org>
+Date: Fri, 21 Jun 2024 14:38:38 -0000
+Message-Id: <171898071870.24072.15003049170865446200@gitolite.kernel.org>
 
---===============3904382180280097210==
+--===============5108392774345413470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a6ec08beec9ea93f342d6daeac922208709694dc
     new: 3226607302ca5a74dee6f1c817580c713ef9d0dd
     log: revlist-a6ec08beec9e-3226607302ca.txt
 
---===============3904382180280097210==
+--===============5108392774345413470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ d7527fe98d79c2dfa46bfea3463d0d595f803db4 Merge branch 'qca8k-cleanup-and-port-is
 b0d3969d2b4db82602492cad576b8de494a12ddf net: ethernet: rtsn: Add support for Renesas Ethernet-TSN
 3226607302ca5a74dee6f1c817580c713ef9d0dd selftests: net: change shebang to bash in amt.sh
 
---===============3904382180280097210==--
+--===============5108392774345413470==--
