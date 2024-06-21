@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 21 Jun 2024 06:18:55 -0000
-Message-Id: <171895073547.23490.16443365487451311398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 21 Jun 2024 06:21:54 -0000
+Message-Id: <171895091494.26252.8693771102016475283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 139eb4bb33a2857fe439c02a201a85af52ce6186
-    new: 35636e92643ecface9655eefa50370df77f73e17
+  - ref: refs/heads/experimental
+    old: 791ea4d50d2fc8d781cc01cac7c0a9ad8380ffd5
+    new: 381c23cc08dce6f384b015e7a7065b4f2afe8d49
     log: |
-         b654441eed93946538b5cb3801a5a6dd58b5d692 dt-bindings: nvmem: amlogic,meson-gx-efuse: add optional power-domains
-         35636e92643ecface9655eefa50370df77f73e17 dt-bindings: nvmem: mediatek: efuse: add support for MT7988
+         f85b2a96704d7bbff064f519628c38f965c5f759 erofs-utils: optimize write_uncompressed_file_from_fd()
+         381c23cc08dce6f384b015e7a7065b4f2afe8d49 erofs-utils: lib: drop prefix_sha256 digests
          
