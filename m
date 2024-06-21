@@ -1,65 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2857858066822684891=="
+Content-Type: multipart/mixed; boundary="===============1954864932539721907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Jun 2024 14:38:46 -0000
-Message-Id: <171898072611.24310.8839440197203284998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 21 Jun 2024 14:40:11 -0000
+Message-Id: <171898081130.26498.4665878284612109358@gitolite.kernel.org>
 
---===============2857858066822684891==
+--===============1954864932539721907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/200GbE
-    old: a6ec08beec9ea93f342d6daeac922208709694dc
-    new: 3226607302ca5a74dee6f1c817580c713ef9d0dd
-    log: revlist-a6ec08beec9e-3226607302ca.txt
+  - ref: refs/heads/pwm/for-next
+    old: fd74fee4a2f6362ce286c4016bb2790a948452ce
+    new: 8ce1f09190f5f328e5583004b12605b142b5e725
+    log: revlist-fd74fee4a2f6-8ce1f09190f5.txt
 
---===============2857858066822684891==
+--===============1954864932539721907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6ec08beec9e-3226607302ca.txt
+Content-Disposition: attachment; filename=revlist-fd74fee4a2f6-8ce1f09190f5.txt
 
-0d6b1eb660be4c7817fc4686a85caf430d6111d0 nfc: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-d21a103b612c4bb149faf2b5eb25f4667378824b net: stmmac: unexport stmmac_pltfr_init/exit()
-08f116c9ea6dfddf2a9649a10032902a4d72f6da wifi: mt76: un-embedd netdev from mt76_dev
-01479f1b912aa499057fd29deddb1ffb9c72fa0a dt-bindings: ptp: Convert ptp-qoirq to yaml format
-243996d172a68fba79765cfe20ab910c29ec5f50 dt-bindings: net: Convert fsl-fman to yaml
-86474deeb5c3e57258839a4389ec75c7a871d4af Merge branch 'dt-bindings-net-convert-fsl-fman-related-file-to-yaml-format'
-a8bd4d7af70d3e042bcffbdc5aa785b30b1a393e ARM: dts: rockchip: rk3xxx: fix emac node
-a119aec5bf343be35adb5bee6c60c2d6bb5fdd26 net: ethernet: arc: remove emac_arc driver
-8a3913c8e05beb376572b074ad3c86a955b7dbf4 dt-bindings: net: remove arc_emac.txt
-9413b1be0be644f29423efd6181c82c0802388e9 Merge branch 'net-cleanup-arc-emac'
-88f56254a27522d3ecf95896ff2e7f57753fe0a5 bnxt_en: split rx ring helpers out from ring helpers
-2d694c27d32efc9467a8a20e4ad641ab5adfd07d bnxt_en: implement netdev_queue_mgmt_ops
-a0c6359df6c70f0754728e5353e828967910575b Merge branch 'bnxt_en-netdev_queue_mgmt_ops'
-c32fe1986f27cac329767d3497986e306cad1d5e net: fec: Fix FEC_ECR_EN1588 being cleared on link-down
-dcec8d291da8813b5e1c7c0967ae63463a8521f6 net: dsa: ksz_common: Allow only up to two HSR HW offloaded ports for KSZ9477
-4558645d139c01d5635cac7e3528a3d19bbb6526 docs: net: document guidance of implementing the SR-IOV NDOs
-39c469188b6d20db107c454cac3ddea941718850 octeontx2-pf: Add ucast filter count configurability via devlink.
-a744e2d03a91507646ffff8a03a19a2f34a6798a l2tp: remove unused list_head member in l2tp_tunnel
-aa5e17e1f5ecb68d3f67a069f7345dbf1a8f274f l2tp: store l2tpv3 sessions in per-net IDR
-2a3339f6c9636aa39f2493865e4664df1ef2baed l2tp: store l2tpv2 sessions in per-net IDR
-ff6a2ac23cb027ff9980d633412db17d5f7a1e7c l2tp: refactor udp recv to lookup to not use sk_user_data
-c37e0138ca5f3be6b69c3020470aecb94eb5d773 l2tp: don't use sk_user_data in l2tp_udp_encap_err_recv
-5f77c18ea55601822f9c495135a5b5d4b499d647 l2tp: use IDR for all session lookups
-8c6245af4fc5b6d244fb0f953d493e848d1e1387 l2tp: drop the now unused l2tp_tunnel_get_session
-d18d3f0a24fc4a3513495892ab1a3753628b341b l2tp: replace hlist with simple list for per-tunnel session list
-4fce809e4062b7e73642dfb3f5abf86026ea14f0 Merge branch 'l2tp-sk_user_data'
-e5efa3ff412dd1d3ff266be1eea6ee47c9d951c4 dt-bindings: net: mscc-miim: Add resets property
-9e6d33937b42ca4867af3b341e5d09abca4a2746 net: mdio: mscc-miim: Handle the switch reset
-28ba5c11719134b39cc593e67b15fa666cd03bd8 Merge branch 'net-mscc-miim-switch-reset'
-e85d3e6fea05c8ae21a40809a3c6b7adc97411c7 net: dsa: qca8k: do not write port mask twice in bridge join/leave
-412e1775f413c944b8c51bdadb675be957d83dc8 net: dsa: qca8k: factor out bridge join/leave logic
-422b64025ec10981c48f9367311846bf4bd38042 net: dsa: qca8k: add support for bridge port isolation
-d7527fe98d79c2dfa46bfea3463d0d595f803db4 Merge branch 'qca8k-cleanup-and-port-isolation'
-b0d3969d2b4db82602492cad576b8de494a12ddf net: ethernet: rtsn: Add support for Renesas Ethernet-TSN
-3226607302ca5a74dee6f1c817580c713ef9d0dd selftests: net: change shebang to bash in amt.sh
+c45fcf46ca2368dafe7e5c513a711a6f0f974308 pwm: stm32: Refuse too small period requests
+49742946ca6d8d0e1aa1acaaa837bec224afe94c pwm: stm32: Fix calculation of prescaler
+8c5dfe444586e611cb2e6b23cf327326f6b03239 pwm: stm32: Fix error message to not describe the previous error path
+7f16b0d64817b84bfa921a51c1db98ee1e3993c4 dt-bindings: pwm: describe the cells in #pwm-cells in pwm.yaml
+bbeba8e9feb9ef557bf91d9dbbbab8f99071a1ba dt-bindings: pwm: fsl-ftm: Convert to yaml format
+ccf39e234a60b486a7918123a84c6319e7635e8d dt-bindings: pwm: Add AXI PWM generator
+3d9caa401266a214e25a68b3c90867f992e5899e pwm: Add driver for AXI PWM generator
+17a61adf3ad40f1b898c53a1e378eb76ed7c25a8 pwm: jz4740: Another few conversions to regmap_{set,clear}_bits()
+275625286937e77a387aa29d9642ecb7e3ab3cbb pwm: axi-pwmgen: Make use of regmap_clear_bits()
+36cf4b0df006f4ec6c482d10a72a00422d452f93 pwm: add missing MODULE_DESCRIPTION() macros
+5d0c5a23bd41a192eca1e02fec69367fa10b7d5b pwm: Make use of a symbol namespace for the core
+d51c66122ef143c4c91bfc8957e70baa883ebef8 pwm: cros-ec: Don't care about consumers in .get_state()
+fef2f18c75d15748591e47c8b1b479eb1e7743c2 pwm: cros-ec: Simplify device tree xlation
+553a1ac19a122257e60f0722f73b31a29fe4693b pwm: Make pwm_request_from_chip() private to the core
+2a4b86ed1f45c912a704b99c514f8657cd0544ea pwm: Remove wrong implementation details from pwm_ops's documentation
+8767df243b2af1547d0d0f87aa216266f36526f4 bus: ts-nbus: Use pwm_apply_might_sleep()
+8ce1f09190f5f328e5583004b12605b142b5e725 pwm: Drop pwm_apply_state()
 
---===============2857858066822684891==--
+--===============1954864932539721907==--
