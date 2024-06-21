@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1954864932539721907=="
+Content-Type: multipart/mixed; boundary="===============0880205148030736796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 21 Jun 2024 14:40:11 -0000
-Message-Id: <171898081130.26498.4665878284612109358@gitolite.kernel.org>
+Date: Fri, 21 Jun 2024 14:40:18 -0000
+Message-Id: <171898081816.26609.4870531216147458960@gitolite.kernel.org>
 
---===============1954864932539721907==
+--===============0880205148030736796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
+  - ref: refs/heads/pwm/for-nexxt
     old: fd74fee4a2f6362ce286c4016bb2790a948452ce
     new: 8ce1f09190f5f328e5583004b12605b142b5e725
     log: revlist-fd74fee4a2f6-8ce1f09190f5.txt
 
---===============1954864932539721907==
+--===============0880205148030736796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ fef2f18c75d15748591e47c8b1b479eb1e7743c2 pwm: cros-ec: Simplify device tree xlat
 8767df243b2af1547d0d0f87aa216266f36526f4 bus: ts-nbus: Use pwm_apply_might_sleep()
 8ce1f09190f5f328e5583004b12605b142b5e725 pwm: Drop pwm_apply_state()
 
---===============1954864932539721907==--
+--===============0880205148030736796==--
