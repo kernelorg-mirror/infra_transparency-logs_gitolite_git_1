@@ -1,61 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============2913833558514547705=="
+Content-Type: multipart/mixed; boundary="===============8642597998459163128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Jun 2024 14:31:44 -0000
-Message-Id: <171898030468.18477.16379662284629071022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 21 Jun 2024 14:33:14 -0000
+Message-Id: <171898039487.19086.8172907105295587343@gitolite.kernel.org>
 
---===============2913833558514547705==
+--===============8642597998459163128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8b982a0ee553452abfeb54219f37fd64b92165af
-    new: 941ffa7ccd1b788136712c220c04b528946bf9c3
-    log: revlist-8b982a0ee553-941ffa7ccd1b.txt
+  - ref: refs/heads/perf-tools-next
+    old: eae7044b67a606f10d245ff2866ee04f235e1722
+    new: 788c5160526a6385fc70bc1ad32cf686e4ec3a61
+    log: revlist-eae7044b67a6-788c5160526a.txt
 
---===============2913833558514547705==
+--===============8642597998459163128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b982a0ee553-941ffa7ccd1b.txt
+Content-Disposition: attachment; filename=revlist-eae7044b67a6-788c5160526a.txt
 
-07394da76e19bb52beb1ffc05f00e2cba8ad6e00 net: docs: add missing features that can have stats
-8b68dc46aa3147afbb3a5f03a19b0b01e984af29 ice: implement ethtool standard stats
-695e4ad7bee3cc28b979248e599a80e6cf6718f0 ice: add tracking of good transmit timestamps
-2df218d4fa0767bed5b784405d36c471c2b4aeaf ice: implement transmit hardware timestamp statistics
-ec2aeb477cd6376677af6d9e9f0dde29257fb57e ice: refactor to use helpers
-307a727ba135318719e51d72ede1ee16153edb74 e1000e: Fix S0ix residency on corporate systems
-303065f9b665d5679e7a69eb4eed43fa94546126 ice: Allow different FW API versions based on MAC type
-60df8210858ef40193bad6caeb8aaab1f8f38b7f ice: Add support for devlink local_forwarding param.
-b29b96d304ef9cd63fafe2ae4e8ad7eff71cd38c ice: add new VSI type for subfunctions
-905f6db74f77209e3203ca930f00acf28c48b5c4 ice: export ice ndo_ops functions
-1ed95824da649df09f61c91ae3c5eda1ff6da582 ice: add basic devlink subfunctions support
-8e4834d22dfeee2c7f644b89a1d112b095192b94 ice: treat subfunction VSI the same as PF VSI
-4b93081f4da77380b60918caeb30dd04c0d8aa73 ice: allocate devlink for subfunction
-6038875aa771105c0c116fd73cb89c770edc6115 ice: base subfunction aux driver
-c8a0fff3230d2022ace49be7531bdc5450aec3dd ice: implement netdev for subfunction
-db9332b4e25ee666630484da8091b9aaa7c030e0 ice: make representor code generic
-5c676a9d84bea620ff1e91ed8f5789cb70357a37 ice: create port representor for SF
-743a63addca3f66c54f715732095d843497bd655 ice: don't set target VSI for subfunction
-79b58a74fecf88c79f5e7dad082dfb8384926d7a ice: check if SF is ready in ethtool ops
-2ecae77ae8c48e77b1ccdc1579ca05c18af10028 ice: implement netdevice ops for SF representor
-293d83c4536360ae560b8aff46b8c4c258a69822 ice: support subfunction devlink Tx topology
-8c7785d6693374ba7c08d20754beed4d3771dbc0 ice: basic support for VLAN in subfunctions
-5defb6a2f3e1c153286a68bf094cfb1262c290ce ice: allow to activate and deactivate subfunction
-1c7cfafbfd5786dc281adbb2817dae63a533d74e igc: Remove the internal 'eee_advert' field
-bca8a027dce6bba6b38a695cfd7c9ff3a001e41d ice: Distinguish driver reset and removal for AQ shutdown
-2e04cdaf09890132e25bd387e57a7f6b38da6eee ice: use proper macro for testing bit
-77015509052f53cb33a530b3945bfd4d5fb59f07 ice: Extend Sideband Queue command to support flags
-b2fd3e33fec5671c6513b5a36bd528324c2c396b ice: Implement driver functionality to dump fec statistics
-9a9edc2d5a152e92ba278a753145957a18351a48 ice: Implement driver functionality to dump serdes equalizer values
-332b9a2bd8eec3c0192cb78441cf4f6cf21d40bf ice: do not init struct ice_adapter more times than needed
-941ffa7ccd1b788136712c220c04b528946bf9c3 MAINTAINERS: update Intel Ethernet maintainers
+90d32e92011eaae8e70a9169b4e7acf4ca8f9d3a tools/perf: Handle perftool-testsuite_probe testcases fail when kernel debuginfo is not present
+b739759c4e96060b7882c22364a4e5d5b3fc7458 perf doc: Add AMD IBS usage document
+17d4b1922cf914df77460102883a23b56dc88197 perf vendor events: Update alderlake events/metrics
+72da747ddd89862ac3ac7dbb17993937a27f5272 perf vendor events: Update alderlaken events/metrics
+19121e877c9c840862cda9f45e429bb9e597646f perf vendor events: Add bonnell counter information
+39b8bd1635a15896d8abea869e6a9d2c4f689fef perf vendor events: Update broadwell metrics add event counter information
+6a8ec0b65e4c2ade040397819d8723a42fc352f4 perf vendor events: Update broadwellde metrics add event counter information
+87835d9f85d7dbe6f0f159160098e9f129473203 perf vendor events: Update broadwellx metrics add event counter information
+4cc49942444e958bd87059401f652f823cb8c6dc perf vendor events: Update cascadelakex events/metrics
+1e56e9191f65039c625e7035975e744d178f3499 perf vendor events: Update elkhartlake events
+40ccd6aa3e2e05be93394e3cd560c718dedfcc77 perf vendor events: Add/update emeraldrapids events/metrics
+faa35916403097f68010a9db207024f0742f9288 perf vendor events: Add goldmont counter information
+75e71be1289c2b7973e3ed5d02cc1c2c8ce4caa5 perf vendor events: Add goldmontplus counter information
+39c1471e3e53547b566221976bd9094830f76b0f perf vendor events: Update/add grandridge events/metrics
+917f63ad758076cb6261bda1d05e98a673947c95 perf vendor events: Update graniterapids events and add counter information
+b59307d0ed13cd9abc975bd3e6e583432ba5ecd6 perf vendor events: Add haswell counter information
+11c2302c9ea717cb0f1512e6fd896c01860606ed perf vendor events: Update haswellx metrics add event counter information
+91b59892124e42c1ea4ab4c04e0daa23149d1929 perf vendor events: Add/update icelake events/metrics
+fab88961e2defcdebf4b6c59cc85998c465d587d perf vendor events: Add/update icelakex events/metrics
+238a2117cc2934239ed8a00714973720987a7ab1 perf vendor events: Update ivybridge metrics add event counter information
+3235704cbdff37916486e493c5ebaed964496ac7 perf vendor events: Update ivytown metrics add event counter information
+8791622572df8f0077351b8b6e5b56f938126ed1 perf vendor events: Update jaketown metrics add event counter information
+025cce253b9fde9619c635832b1f86df559f8d5d perf vendor events: Add knightslanding counter information
+82eff6ee67739244813a3d274559cbb4dd16a765 perf vendor events: Add lunarlake counter information
+3323532ae5e75ea8e1e8bebf6b90f751e0edc49e perf vendor events: Update meteorlake events and add counter information
+af557589c4a3215bc59c40ccd5028ce846959bb9 perf vendor events: Add nehalemep counter information
+d69777225227a86097b9f7b2ba35a35c5033809a perf vendor events: Add nehalemex counter information
+bf0dd1f47f1c041e22ddce20ded7114b57eb716f perf vendor events: Add/update rocketlake events/metrics
+01cb5e3d98209ff9b78f77b74e15ba6983ca37ff perf vendor events: Update sandybridge metrics add event counter information
+5ecf682e618fabe8469719f4f352e3a7ef20b93b perf vendor events: Add/update sapphirerapids events/metrics
+951bf72acef84efc24a6c38e1303a5f4a57556ef perf vendor events: Add/update sierraforest events/metrics
+caccae3ce7b988b620ea203fbc33807c6ecfea12 perf vendor events: Add silvermont counter information
+e2641db83f18782f57a0e107c50d2d1731960fb8 perf vendor events: Add/update skylake events/metrics
+4c10b96f490efc6926b915a9611c5e1b28ac99ea perf vendor events: Add/update skylakex events/metrics
+7c79eb5cc226f29cbe6e419c85a9a7010504d0f6 perf vendor events: Add snowridgex counter information
+321e0ffa1aa63dbe77754786e035329757e931e8 perf vendor events: Add/update tigerlake events/metrics
+22123c26de13d0e239f36dbb2a8db7dbbc106349 perf vendor events: Add westmereep-dp counter information
+dc5f18a1026f72bf41eb339a4069063c0b6f9cbf perf vendor events: Add westmereep-sp counter information
+788c5160526a6385fc70bc1ad32cf686e4ec3a61 perf vendor events: Add westmereex counter information
 
---===============2913833558514547705==--
+--===============8642597998459163128==--
