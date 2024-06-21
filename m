@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5837550689700013531=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 21 Jun 2024 09:53:58 -0000
-Message-Id: <171896363847.2046.636584674151924702@gitolite.kernel.org>
-
---===============5837550689700013531==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Fri, 21 Jun 2024 09:58:39 -0000
+Message-Id: <171896391982.5374.4365196178542811689@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/tags/linux-can-fixes-for-6.10-20240621
-    old: 0000000000000000000000000000000000000000
-    new: a14c24d3533370890d69aa24021b6d9badc3281b
-
---===============5837550689700013531==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1718963635 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1718963635-0378d4022e156678724580dcbfeb8dc2069f8e53
-
-0000000000000000000000000000000000000000 a14c24d3533370890d69aa24021b6d9badc3281b refs/tags/linux-can-fixes-for-6.10-20240621
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmZ1TbMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b7PjB/9gjedVEbhJxdR/snv+NiQhWZlJR/Y+
-5uu1+U3y6HVRtAyCDBVlIPLifLV2vsgQouVB0HSfJozonxtEgjKhPyccVXBfDVWo
-uwPhAUjaHF2P52Ue57XpP/PiK15FAK8fccvtXPgbDwCXfM2EqdDVKqBqj7thBcli
-pvoUxdBE6DC/Yz9C5UpHzvrfJHDI7psaigQrB87RHLAeJ3ERVFCqfRYqHkR3SvOT
-JBkqI/yxdKjtn3SrbRZS4SXe5YveiE3XbXGTyfBWAxgfzLdXfjHgXgqRWudAnG62
-GOR8OuF+w0VrCAEaPLWAI9smlzJ5PcWgTzFz6Y+hotNI7gqap5YQjyRX
-=Nn48
------END PGP SIGNATURE-----
-
---===============5837550689700013531==--
+  - ref: refs/heads/next
+    old: 9b5fd115e7d5a98b82054cff5c96f6768ee06845
+    new: 5a4c1f0207d8925c45a516d8dc85f0dd70c020ef
+    log: |
+         b96f16bdf58dae08d841536820269c6b0d9c976b soundwire: Intel: clarify Copyright information
+         8e8c0dfc828c3f3ba5ebcee076b979d2134a6e27 soundwire: generic_bandwidth_allocation: change port_bo parameter to pointer
+         5a4c1f0207d8925c45a516d8dc85f0dd70c020ef soundwire: bus: simplify by using local slave->prop
+         
