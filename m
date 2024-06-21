@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 21 Jun 2024 11:38:38 -0000
-Message-Id: <171896991884.17006.1427884303441256902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
+Date: Fri, 21 Jun 2024 11:38:58 -0000
+Message-Id: <171896993895.17200.4155020183362859206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/devsec/spdm
+user: lukas
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: 6e69af1ba4972b33a326becbbee330da3813e1c8
-    new: 4b79af38edb816bcd2330027827d11d4bf22c90e
+  - ref: refs/heads/testing
+    old: 57af61720e9d8a4dc41363017e3f3d12d324b6f5
+    new: a06407199558036a90b14f428433bb664b7a8ce2
     log: |
-         d0e4ba34964fe25993ab602246cc7571fd9d688c fork: Add shadow stack support to clone3()
-         613aee21c23fa994758269eb100fecfeaa90e704 selftests/clone3: Remove redundant flushes of output streams
-         c32826d840a17cb4c8ed742d5d22c434e72e23f4 selftests/clone3: Factor more of main loop into test_clone3()
-         f2c3e9aefcf029afbf0f060a22009960e98e03af selftests/clone3: Add test for specified child stack
-         58342e9fa819b6c62fe79972966491483bb0a754 selftests/clone3: Explicitly handle child exits due to signals
-         eb3038c15a7676f0963a8ada93e03a48d3bf3956 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-         4b79af38edb816bcd2330027827d11d4bf22c90e selftests/clone3: Test shadow stack support
+         bcfdeee3fcd66746ed89d231ed10db68ad4e32f6 spdm: Introduce library to authenticate devices
+         a2656eb0137ba0b96784bc4baa797af0d2382890 PCI/CMA: Authenticate devices on enumeration
+         bb8abe0df3d107b1d08bb1dd85d30c8bc67738da PCI/CMA: Validate Subject Alternative Name in certificates
+         973d83a5e43d6d0f388235b5a3d65fdf4c66724d PCI/CMA: Reauthenticate devices on reset and resume
+         37dee22dca57ab9d07efbedc7f20aae6e23a5920 PCI/CMA: Expose in sysfs whether devices are authenticated
+         7202156b18edadb572f4b9fd7a5bcd13b8d33e1d PCI/CMA: Expose certificates in sysfs
+         0e0a12058e72f9b78d6ef0343b4b7e0b199e7911 sysfs: Allow bin_attributes to be added to groups
+         5e2a79c4c9e16aa804fbd63a0d1b5ab38b6d2cb4 sysfs: Allow symlinks to be added between sibling groups
+         4608cf271107bba462274d551f1545283e7931d1 PCI/CMA: Expose a log of received signatures in sysfs
+         a06407199558036a90b14f428433bb664b7a8ce2 spdm: Allow control of next requester nonce through sysfs
          
