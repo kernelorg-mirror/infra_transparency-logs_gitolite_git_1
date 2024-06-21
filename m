@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 21 Jun 2024 08:17:16 -0000
-Message-Id: <171895783683.14297.17929115257193855200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Fri, 21 Jun 2024 08:18:44 -0000
+Message-Id: <171895792454.14885.5382806875475226840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 6e5aee08bd2517397c9572243a816664f2ead547
-    new: 0d5679a0aae2d8cda72169452c32e5cb88a7ab33
+  - ref: refs/heads/master
+    old: 1156a08e910614d9ea4e197a75c9aeb369ce0aa3
+    new: ce03cc096bb1fc74bfa63c9478c50671bf21aa0a
     log: |
-         4a3e37b3caea817199757a0b13aa53dd7c9376c8 MIPS: mipsmtregs: Fix target register for MFTC0
-         0d5679a0aae2d8cda72169452c32e5cb88a7ab33 mips: fix compat_sys_lseek syscall
+         cc6cf7cec1f7218d724ab18ae2668c96374cce54 wireless-regdb: Update regulatory info for Iceland (IS) on 6GHz
+         ce03cc096bb1fc74bfa63c9478c50671bf21aa0a wireless-regdb: Update regulatory info for Mauritius(MU) on 6GHz
          
