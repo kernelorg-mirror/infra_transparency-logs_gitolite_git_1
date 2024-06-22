@@ -1,89 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2235297726497852791=="
+Content-Type: multipart/mixed; boundary="===============8739463389554801928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 22 Jun 2024 20:19:29 -0000
-Message-Id: <171908756965.17414.14190419652343173253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 22 Jun 2024 20:45:00 -0000
+Message-Id: <171908910051.3371.15003583064282678532@gitolite.kernel.org>
 
---===============2235297726497852791==
+--===============8739463389554801928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: ae8fc2948b48f001514d4b73167fcef3b398a5fb
-    new: de7a09dec4b90a7f92b1ebcdfeed69400b5079f4
-    log: revlist-ae8fc2948b48-de7a09dec4b9.txt
+  - ref: refs/heads/master
+    old: 0e326140d76464e29ec47b10bcf65cc88c655228
+    new: 38275459476ad162dd7c65cef7bda8111c427cf8
+    log: revlist-0e326140d764-38275459476a.txt
 
---===============2235297726497852791==
+--===============8739463389554801928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0e326140d764-38275459476a.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1719087568 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1719087567-9ed4a71385031e1b797d8ea4cc93e1c3d552608c
+b8ae9dbf9b4b8e07ba4effa103d0fbc5e9758ee0 README: Underline the short name, hkml
+1a1420bd32f479b48eacb8e98786a331c8e3ed70 _hkml/set_hkml_dir(): Run init() instead
+15fa292b934428f98141b187b9c7df9f016e4285 README: Remove inititalization step
+988e59fe4964119ff53424aaa43b028ba9f5b3a6 Update TODO and release_note
+2403674e300d6525fe51ba1c748f9204d38d1fb1 hkml_list: Support message id source type
+2ad6a75ec3c1bb1fded723b6c87589c44cf54ca3 hkml_view/ScrollableList/__draw(): Use last_drawn field directly
+9773338587196f9e0cb89e796bb53582e2ed2848 hkml_view: Implement a mails list menu for saving list as a text file
+27695b53d75ea6f4e8665719d2c8872abdbfedc5 hkml_view: Support clipboard saving
+a3a0c39e5c359a39903aefd5ae22b89cca306f5a hkml_view: Split out file path receiving code
+6ca74757e9db3a7b3a310cc6ff0429fa8e8346a3 hkml_view/mail_list_save(): Use receive_file_path()
+d9bee0727b650bffa81524f4b9ec70eb2848379d hkml_view: Use receive_file_path() for mails export
+054670821f87ec43510e1996fc2f689913b98122 hkml_view: Split out content saving logic
+279f01197f137808ac35a7dad3fbe468096f6e85 hkml_view: Implement 'save as ...' for general viewer
+38275459476ad162dd7c65cef7bda8111c427cf8 release_note: Update
 
-ae8fc2948b48f001514d4b73167fcef3b398a5fb de7a09dec4b90a7f92b1ebcdfeed69400b5079f4 refs/heads/asoc-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ3MdAACgkQJNaLcl1U
-h9C47gf/Raf3xzbeQRomcSsd1zSBmDJ8v54sG3I/7yBUBptOrcw9ByLk3rQyRJvH
-3snHwy7Z9zpkq78YwLcSzgOKqIJMACbwfSr3/HySEQLwOIlbKg53aH8BogQIePNz
-pyMJz57+WgunPlEbch1TLszJO4EmnJAXEtyRNyRtZuvRY/PEBcbkmydbnJXRQRSY
-2RVQoxvynEF4dBds0DcbB6avAhelp5xvrMHnZY5+68vH4qbs/siw4+NL0n26MfXf
-Byb3eO71GjZ2XUlySuTZt0XK6Do5e5QB8l29EEwn7wze7LS9RPOXsp489SGppnOJ
-JMI9tgqtWot30GRT17yzjx8JGRZBiw==
-=UEM/
------END PGP SIGNATURE-----
-
---===============2235297726497852791==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae8fc2948b48-de7a09dec4b9.txt
-
-e0e8e4bce61cac674fdabd85d070e7bab1634a8b ASoC: SOF: Intel: hda-dai: skip tlv for dspless mode
-3b06e137089fc0beb5ffa6a869de9a93df984072 ASoC: SOF: Intel: hda-dai: remove skip_tlv label
-d3cb3516f2540e6c384eef96b4ffeb49425175ed MAINTAINERS: copy linux-arm-msm for sound/qcom changes
-a73a83021ae136ab6b0d08eb196d84b1d02814e9 ASoC: mxs: add missing MODULE_DESCRIPTION() macro
-7478e15bcc16cbc0fa1b8c431163bf651033c088 ASoC: fsl: add missing MODULE_DESCRIPTION() macro
-968c974c08106fcf911d8d390d0f049af855d348 ASoC: rt722-sdca-sdw: add silence detection register as volatile
-65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd ASoC: qcom: add missing MODULE_DESCRIPTION() macro
-afe377286ad49e0b69071d2a767e2c6553f4094b ASoC: cs42l43: Increase default type detect time and button delay
-b7c40988808f8d7426dee1e4d96a4e204de4a8bc ASoC: codecs: ES8326: Solve headphone detection issue
-4d46b699cd0c82e55c031ab515a6267ad17b7164 ASoC: SOF: Intel: hda-dai: skip tlv configuration for
-ccd8d753f0fe8f16745fa2b6be5946349731d901 ASoC: rockchip: i2s-tdm: Fix trcm mode by setting clock on right mclk
-97d8613679eb53bd0c07d0fbd3d8471e46ba46c1 ASoC: mediatek: mt8183-da7219-max98357: Fix kcontrol name collision
-2ed22161b19b11239aa742804549f63edd7c91e3 ASoC: atmel: atmel-classd: Re-add dai_link->platform to fix card init
-97ab304ecd95c0b1703ff8c8c3956dc6e2afe8e1 ASoC: topology: Fix references to freed memory
-fd660b1bd015e5aa9a558ee04088f2431010548d ASoC: Intel: avs: Fix route override
-daf0b99d4720c9f05bdb81c73b2efdb43fa9def3 ASoC: topology: Do not assign fields that are already set
-e0e7bc2cbee93778c4ad7d9a792d425ffb5af6f7 ASoC: topology: Clean up route loading
-e3209a1827646daaab744aa6a5767b1f57fb5385 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
-b9dd212b14d27a53b63fc6621c452c0b3a01f61d ASoC: topology: Fix route memory corruption
-e8343410ddf08fc36a9b9cc7c51a4e53a262d4c6 ALSA: dmaengine: Synchronize dma channel after drop()
-c5dcf8ab10606e76c1d8a0ec77f27d84a392e874 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-524d3f126362b6033e92cbe107ae2158d7fbff94 ASoC: ti: omap-hdmi: Fix too long driver name
-37a2c94c68ce543bc7e2105d5ab178b03bafc797 Fixes for McASP and dmaengine_pcm
-6f2a43e3d14f6e31a3b041a1043195d02c54d615 ASoC: SOF: sof-audio: Skip unprepare for in-use widgets on error rollback
-f3b198e4788fcc8d03ed0c8bd5e3856c6a5760c5 ASoC: rt722-sdca-sdw: add debounce time for type detection
-0298f51652be47b79780833e0b63194e1231fa34 ASoC: topology: Fix route memory corruption
-8af49868e51ed1ba117b74728af12abe1eda82e5 ASoC: cs35l56: Disconnect ASP1 TX sources when ASP1 DAI is hooked up
-be1fae62cf253a5b67526cee9fbc07689b97c125 ASoC: q6apm-lpass-dai: close graph on prepare errors
-60ff540a1d476c2d48b96f7bc8ac8581b820e878 ASoC: Intel: soc-acpi: mtl: fix speaker no sound on Dell SKU 0C64
-98d919dfee1cc402ca29d45da642852d7c9a2301 ASoC: amd: acp: add a null check for chip_pdev structure
-70fa3900c3ed92158628710e81d274e5cb52f92b ASoC: amd: acp: remove i2s configuration check in acp_i2s_probe()
-379bcd2c9197bf2c429434e8a01cea0ee1852316 ASoC: amd: acp: move chip->flag variable assignment
-90f3feb24172185f1832636264943e8b5e289245 ASoC: fsl-asoc-card: set priv->pdev before using it
-de7a09dec4b90a7f92b1ebcdfeed69400b5079f4 ASoC: Merge up fixes
-
---===============2235297726497852791==--
+--===============8739463389554801928==--
