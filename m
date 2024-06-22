@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 22 Jun 2024 02:20:01 -0000
-Message-Id: <171902280124.26124.8725101555879353329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 22 Jun 2024 02:56:24 -0000
+Message-Id: <171902498429.21345.11441572048572744757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 9b5bad2616c25c5eb2ce61bb1b32227bac60498e
-    new: daa7da090dd38200c1d4a906c944c2118c5ded7e
+    old: bc6bc4a8d664ac72338e5e15e3b22b49a4d8cc36
+    new: 60b72aff8d9b000f8f55c01a4ed3768e64d9dc28
     log: |
-         daa7da090dd38200c1d4a906c944c2118c5ded7e foo
+         60b72aff8d9b000f8f55c01a4ed3768e64d9dc28 man/io_uring_setup: use correct IORING_FEAT_EXT_ARG flag
          
