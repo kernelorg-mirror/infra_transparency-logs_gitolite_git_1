@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 22 Jun 2024 18:50:15 -0000
-Message-Id: <171908221523.19078.9559175943234597661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sat, 22 Jun 2024 19:32:01 -0000
+Message-Id: <171908472178.15823.3217863557557045205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/testing
-    old: ed2c0e9b9ad7b238ae11d085802e86e5cd2d0846
-    new: e2afe21f9b0bfa3f188cd5a60940b07a85d65e9a
+  - ref: refs/heads/master
+    old: 8fe536b53f26b93849336713e50fd0d17272d200
+    new: dc3b42a261725ee9dad6e4e2611f965a0d3929d1
     log: |
-         dd4f51bdf84e38becbd07ec082245d7218433386 dt-bindings: iio: adf4350: add clk provider prop
-         e2afe21f9b0bfa3f188cd5a60940b07a85d65e9a iio: frequency: adf4350: add clk provider
+         d24490223f93fc1bdfda2f24569acc89b3e6dd10 Document program exit for inconsistent system call behavior.
+         dc3b42a261725ee9dad6e4e2611f965a0d3929d1 Work around a longstanding problem with glibc/fedora with segfaulting
          
