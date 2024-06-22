@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Sat, 22 Jun 2024 14:39:50 -0000
-Message-Id: <171906719006.28878.7610837046933480254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Sat, 22 Jun 2024 14:50:00 -0000
+Message-Id: <171906780071.3503.8894783487123767518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/pwm/for-6.10-rc5-fixes-take2
+  - ref: refs/tags/ata-6.10-rc5
     old: 0000000000000000000000000000000000000000
-    new: 19ad1722334ae44be8a1ece916be54d3e236a16f
+    new: b8a18bdf5507ec94e0f33d029f2be9c6e905522a
