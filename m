@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 22 Jun 2024 16:14:54 -0000
-Message-Id: <171907289482.1700.5679395186617483402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 22 Jun 2024 16:22:11 -0000
+Message-Id: <171907333192.7593.5110502207418126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: 934973c28b2f3487b1909b26987b9f2dfe389d78
-    new: d1be6506c419a92e9f2b64a46ecd045078bea3b1
-    log: |
-         d1be6506c419a92e9f2b64a46ecd045078bea3b1 selftests/clone3: Test shadow stack support
-         
+  - ref: refs/tags/spi-fix-v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 8777a44be9670a17919c0d5c0f44c209b1a91767
