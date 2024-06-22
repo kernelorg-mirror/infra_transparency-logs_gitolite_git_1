@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sat, 22 Jun 2024 07:02:12 -0000
-Message-Id: <171903973296.5930.16234909314537894783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 22 Jun 2024 07:57:45 -0000
+Message-Id: <171904306518.13814.14068099300049587015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 5fb89782a9e94936c14f2621637ef9df7c4ac0f0
-    new: 4031a2866a9f0f5c585cfee65b3fb5ab17c95276
+  - ref: refs/heads/for-next
+    old: 2d93937089be98713e27460e3d3a135668c8541b
+    new: e4066d17b92ea7930fbef990912c49b07430a6e0
     log: |
-         11926848eb550ea3018ad9e14761785a6f7f25df arm64: dts: ti: k3-am62a-main: Enable crypto accelerator
-         b6861f152b4bf6f194b5e5162ee238f2c97e5aec arm64: dts: ti: k3-am62*-main: Remove unwanted properties from crypto
-         2bb842f36562921fb80951ffa2f6791438a3b760 arm64: dts: ti: k3-am62x-sk-common: Reserve 128MiB of global CMA
-         4031a2866a9f0f5c585cfee65b3fb5ab17c95276 arm64: dts: ti: k3-am62a7-sk: Reserve 576MiB of global CMA
+         3402302cb128ec5067d885343a54df97231ac06f video: console: add missing MODULE_DESCRIPTION() macros
+         e4066d17b92ea7930fbef990912c49b07430a6e0 video: agp: add remaining missing MODULE_DESCRIPTION() macros
          
