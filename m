@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3718747064310960593=="
+Content-Type: multipart/mixed; boundary="===============1087369724144817878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sat, 22 Jun 2024 23:35:46 -0000
-Message-Id: <171909934606.31653.3785602635137246928@gitolite.kernel.org>
+Date: Sat, 22 Jun 2024 23:36:07 -0000
+Message-Id: <171909936707.31897.7831063255168592026@gitolite.kernel.org>
 
---===============3718747064310960593==
+--===============1087369724144817878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/rtc-fixes
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/rtc-next
+    old: 4c9a91b94c126d6585fbf185807b26dca5166209
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-4cece7649650-1613e604df0c.txt
+    log: revlist-4c9a91b94c12-1613e604df0c.txt
 
---===============3718747064310960593==
+--===============1087369724144817878==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-4c9a91b94c12-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============3718747064310960593==--
+--===============1087369724144817878==--
