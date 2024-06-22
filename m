@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Sat, 22 Jun 2024 00:46:44 -0000
-Message-Id: <171901720428.24159.18367181933481285807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 22 Jun 2024 00:47:00 -0000
+Message-Id: <171901722094.24341.4612902861992887393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 5cf3bf8f0dd741b1c2a13aa5f03b5445efc856f5
-    new: 776424a8f9158bfe9f53aa55f931af9f73437caf
+    old: ed465a708e0ffc362c2a3be01cf6dfff639a6cb1
+    new: 9b5bad2616c25c5eb2ce61bb1b32227bac60498e
     log: |
-         ab6eaa3409654c377275faa1d0c65aebad2270ae parser: Move non-variable case in parsesub to end
-         f14979510908b7ce4ff5dd6b43fe445bc6d646a1 parser: Merge first and last chkeofmark branches in parsesub
-         776424a8f9158bfe9f53aa55f931af9f73437caf parser: Add dollar single quote
+         12718864d86aca35342ab1f85a7340a4fa8a7663 foo
+         9b5bad2616c25c5eb2ce61bb1b32227bac60498e foo
          
