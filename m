@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sun, 23 Jun 2024 17:16:17 -0000
-Message-Id: <171916297747.12191.8745156671012648067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 23 Jun 2024 17:16:21 -0000
+Message-Id: <171916298184.12314.15157334853530099085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/validate_fpu_and_vector
-    old: 55de8faee4b2cccc42f5b073e9a7db403b606801
-    new: c9fa3c0bda2ea284197ba402e4f3b5bccb5f5b36
+  - ref: refs/heads/master
+    old: 4f5c3c9e1d1881fc5bbb963e47cbb5ed38eeb1d1
+    new: a0c20a4526f814a5e43bf15a0f5125bf8b0a72b8
     log: |
-         d5ef4fcb50794f799620fd0acb1cc3f9d1e34e0b add validation for vector
-         c9fa3c0bda2ea284197ba402e4f3b5bccb5f5b36 add validation for f & d
+         a0c20a4526f814a5e43bf15a0f5125bf8b0a72b8 patches/next: rearranch patches for corbet
          
