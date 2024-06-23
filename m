@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3210262058456354565=="
+Content-Type: multipart/mixed; boundary="===============6982494775727245750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 23 Jun 2024 17:21:10 -0000
-Message-Id: <171916327031.16418.6507821656417367653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 23 Jun 2024 17:21:26 -0000
+Message-Id: <171916328664.16603.867715459896565574@gitolite.kernel.org>
 
---===============3210262058456354565==
+--===============6982494775727245750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.11
+  - ref: refs/heads/for-next
     old: 3722873d49a1788d5420894d4f6f63e35f5c1f13
     new: 2604faa7b71291b0ccd17f8d6009f3ff6dae287b
     log: revlist-3722873d49a1-2604faa7b712.txt
 
---===============3210262058456354565==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1719163267 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1719163266-e8d4b65372a323b42af0031e69c30c2fb60a7935
-
-3722873d49a1788d5420894d4f6f63e35f5c1f13 2604faa7b71291b0ccd17f8d6009f3ff6dae287b refs/heads/asoc-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ4WYMACgkQJNaLcl1U
-h9BNqgf/TJnJQItMh5zLVqqtHT4KOHatObK/DtdwtXFtclpjH98f9cGAmP0hnxYU
-muE4LTebCO/q39ZvkdgLLcuj8ylm8suXRYjpFi46jdCTyEP8jUap9zT5RRm+0iZI
-/0mitgffdyl9qL5WlBQK0QTi4rkqK7dYWBvmRAzJr/fj0tE6z40xce41yuXViYZy
-kmVm2XOa4n0iIwCxpBBMRz0gknBiAyUTOulnWkD9BRWohw3/SdiCWzd7IH919eit
-a1ltFHzukgA8VORIMmjmNMCmA8ClG1kvZD+Ivcw6ZGgzgXNvZCtFEzgcNcNotCQ+
-e9IWhyhgY2twdf7wIiRWybhK73xI2g==
-=94Lb
------END PGP SIGNATURE-----
-
---===============3210262058456354565==
+--===============6982494775727245750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -106,4 +81,4 @@ d6bb39fe4fa077883a409f6eaca569ce61a28a94 ASoC: Add ak4619 codec support
 eed139331bbad92fcd4f8377e8da1065130bfa58 ASoC: qcom: display port changes
 2604faa7b71291b0ccd17f8d6009f3ff6dae287b ASoC: nau8822: add MCLK support
 
---===============3210262058456354565==--
+--===============6982494775727245750==--
