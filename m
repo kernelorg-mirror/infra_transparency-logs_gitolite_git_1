@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sun, 23 Jun 2024 19:04:14 -0000
-Message-Id: <171916945431.25164.695998530795888945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 23 Jun 2024 19:08:48 -0000
+Message-Id: <171916972893.30058.16838444904095068143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: f9d969ca6f2543ef897c7a7fb2f1fb96e5c77397
-    new: 0db5fde958179a3ec2af5f3edbc8425c7291f64a
+  - ref: refs/heads/next
+    old: 99f5be5269830ddaf458c15d427a67949342cb6a
+    new: cbab0f4aee379a63e5dffb17ae950d6e7d754fe5
     log: |
-         0db5fde958179a3ec2af5f3edbc8425c7291f64a TODO: Add an item for opening source file from text viewer
+         cbab0f4aee379a63e5dffb17ae950d6e7d754fe5 TODO: Add an item for 'damo show' on old kernels
          
