@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8185402671880418127=="
+Content-Type: multipart/mixed; boundary="===============6898735988088352360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sun, 23 Jun 2024 10:48:43 -0000
-Message-Id: <171913972359.15564.11959919436822464771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 23 Jun 2024 10:48:53 -0000
+Message-Id: <171913973313.15698.4425574717788525602@gitolite.kernel.org>
 
---===============8185402671880418127==
+--===============6898735988088352360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: ffe4b381e2ea97c7a5868dbe841c7522b1b0b408
     new: 7bbb71150e57875126efacc2efdc678e3cede919
     log: revlist-ffe4b381e2ea-7bbb71150e57.txt
 
---===============8185402671880418127==
+--===============6898735988088352360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719139719 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1719139719-0f1d894a40cbddef6890bfb6efa7f0b3d1de9948
+pusher C3F436CA30F5D8EB 1719139731 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1719139730-8f32c1b70ccdb679f238922888b7ba201de03767
 
-ffe4b381e2ea97c7a5868dbe841c7522b1b0b408 7bbb71150e57875126efacc2efdc678e3cede919 refs/heads/for-6.11
+ffe4b381e2ea97c7a5868dbe841c7522b1b0b408 7bbb71150e57875126efacc2efdc678e3cede919 refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ3/YcACgkQJNaLcl1U
-h9A6QAf/fUDy+ZtsfVw1HH7UIeHmf5DxW326gGGoSAL+81EsJJMAiGWKg60p48xb
-NZfU7zdSrkWRoCcR7ZyjWuMfnFQ9V/b4Kkz5qxOGS0G7cqWCltFjTu1Xoa9PShk2
-PhZg4Di8IbYryNUN9vJj4ZGGejKq2F9doy/aUORV79sEh9BYgnn5CJWXjph60O3L
-+i+BecPFgs6jVeSXfmNC4z9inOWFyarWTM5x54qs/CxdcK7N06RcnET6Uw4Zjsld
-s4kWlwdzZoms6SSKDuFTEG4tT4tPMmR4gpyCuQ6ZQdpwftcZPRvbKIQec3Gy6ZBT
-v4d7Vds77AhR8H5kfIBbPCbLmLUCFQ==
-=muP7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ3/ZMACgkQJNaLcl1U
+h9CQBQf/VdX6m4KVv6wqdmzSwQzpgadHHLXq4shk+37+z8L/JVUsGTWtwa7l0iJv
+0p/jE2SSxrWDUhGjNCu2MAHLxHQao8ew0vcAl260OW2lfYbQgat9OMzfKDGdlXSn
+2+A9jWUZBAlfaz1IdYBCj8UvNuzyD04qgfqQ5Rr4+N6bdlquE4QPARcLf7Xn9sxd
+b70x0oAyoOz2jO00LJzEy6V4aCCjrIqquwMdhzH4FeJ/ddDELwBKWD44zU8Mh26Q
+R9oMFmzfQnKlZcEGrVRTYNcG4JvpgIsrzGPsOUps+3KgdwbmlNsp0L3yMCZcUAFS
+EHoXEf8FV2vnK/fHvQEOg8AYxVWqog==
+=SyYR
 -----END PGP SIGNATURE-----
 
---===============8185402671880418127==
+--===============6898735988088352360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -693,4 +693,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 7bbb71150e57875126efacc2efdc678e3cede919 regulator: Merge up v6.10-rc4
 
---===============8185402671880418127==--
+--===============6898735988088352360==--
