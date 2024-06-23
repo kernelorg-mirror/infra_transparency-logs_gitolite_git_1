@@ -1,70 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2248574041285691878=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 23 Jun 2024 20:51:19 -0000
-Message-Id: <171917587989.7272.9227288194493745647@gitolite.kernel.org>
-
---===============2248574041285691878==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sun, 23 Jun 2024 21:02:01 -0000
+Message-Id: <171917652142.14437.13239549149640187791@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 413822f9810183d7150e2eeb2d0f98bdeb0f324b
-    new: ce65e919b5f8d8f32a34a9d3f6cc945e70c34c0d
-    log: revlist-413822f98101-ce65e919b5f8.txt
-  - ref: refs/heads/v6.11-armsoc/dts32
-    old: 1e297069cc1c588bbece4752e0840b6a15982148
-    new: 54c799c3c4abe2c5e2c22d47dbcba5c34ec99aae
+  - ref: refs/heads/arm32-for-6.11
+    old: 5756101babc5334a9bc99601d1cc0d6776fa9ada
+    new: 368a5aed131271600e75c715a5b79f0b613f0225
     log: |
-         57c69c92fb5412a0db6f7daff6b51f67aa00bbd6 Merge branch 'v6.11-shared/clkids' into v6.11-armsoc/dts32
-         65896f4a3f852f868bd5bbc0abea072b2f6e0470 ARM: dts: rockchip: Add D-PHY for RK3128
-         171ea1ff14e42041af420ed3745f6f480612baa0 ARM: dts: rockchip: Add DSI for RK3128
-         f87427158d268fe4747cc223de7a2523617b7475 ARM: dts: rockchip: Add i2s nodes for RK3128
-         d244d6cc718a048672bfb148a6bc9c593a0e1207 ARM: dts: rockchip: Add spdif node for RK3128
-         041f240e4df6c49d5a928e0dd4c672d0d3326466 ARM: dts: rockchip: add hdmi-sound node to rk3066a
-         54c799c3c4abe2c5e2c22d47dbcba5c34ec99aae ARM: dts: rockchip: Add SFC for RK3128
+         81fc54e62b5b391d78f741bf33c3a91f18464ffb ARM: dts: qcom: use generic node names for Adreno and QFPROM
+         5014e1e970dede6410c7b758c4f3665a0875bb7e ARM: dts: qcom: Add Sony Xperia Z3 Compact smartphone
+         f1a77eff4c60b9814d8b59abae21cfa80c00df79 ARM: dts: qcom: msm8974-sony-shinano: increase load on l21 for sdhc2
+         368a5aed131271600e75c715a5b79f0b613f0225 ARM: dts: qcom: msm8974: Use mboxes in smsm node
          
-  - ref: refs/heads/v6.11-clk/next
-    old: c9ba07b0c02acd89f2e521754357de30e704c254
-    new: fc547ab06c87f7c4a7e2425a89759f7a9a6fd7c1
+  - ref: refs/heads/arm64-for-6.11
+    old: b5477d5f5272a079e2ddeffd00490528884f5aa5
+    new: 585141c57a49315f6522d5f7265a3f1aa05424c1
     log: |
-         b7f5e0636f1d450c5df00fea194a8efd39f87a1b dt-bindings: clock: rk3128: Drop CLK_NR_CLKS
-         f9da49c3c4c43278d8d8fafb3df7f5514478eb28 dt-bindings: clock: rk3128: Add HCLK_SFC
-         5c0e997e57a66bd225318963193b8d006adbbb47 clk: rockchip: rk3128: Add HCLK_SFC
-         fc547ab06c87f7c4a7e2425a89759f7a9a6fd7c1 clk: rockchip: Switch to use kmemdup_array()
+         a69274e1c6f557c2fa7f35f194acb51d723adbc8 dt-bindings: arm: qcom: Add Sony Xperia Z3 Compact
+         61ba969e0e7d26a9260bcc658c54d2bf9a1f0a2b arm64: dts: qcom: msm8916-gplus-fl8005a: Add BMS
+         d315b45ab8b312d6e74d85064ef916aafd1bbdef arm64: dts: qcom: sm7225-fairphone-fp4: Configure PM8008 regulators
+         2cf5ec58e87bf4df1b360ab45c047d2b311930c8 arm64: dts: qcom: qcm6490-fairphone-fp5: Configure PM8008 regulators
+         4e915987ff5b91ea531e716367373ff4442d9614 arm64: dts: qcom: x1e80100: Enable tsens and thermal zone nodes
+         d605f9c75949997150dbb32bf082695326d3e110 arm64: dts: qcom: msm8916: Use mboxes in smsm node
+         9f8b7c4e3d8bbb6eb787752ad14a82e714d917ff arm64: dts: qcom: msm8939: Use mboxes in smsm node
+         e36402b55684c64af23575f39e0a6ce27272b5f7 arm64: dts: qcom: msm8953: Use mboxes in smsm node
+         585141c57a49315f6522d5f7265a3f1aa05424c1 arm64: dts: qcom: msm8976: Use mboxes in smsm node
          
-  - ref: refs/heads/v6.11-shared/clkids
-    old: 469d6e0e70eefe1a31a89a7abd379f169b33b1f4
-    new: 14a1d1dc35d346a1523f38f6517c349dfa447a58
-
---===============2248574041285691878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-413822f98101-ce65e919b5f8.txt
-
-57c69c92fb5412a0db6f7daff6b51f67aa00bbd6 Merge branch 'v6.11-shared/clkids' into v6.11-armsoc/dts32
-65896f4a3f852f868bd5bbc0abea072b2f6e0470 ARM: dts: rockchip: Add D-PHY for RK3128
-171ea1ff14e42041af420ed3745f6f480612baa0 ARM: dts: rockchip: Add DSI for RK3128
-f87427158d268fe4747cc223de7a2523617b7475 ARM: dts: rockchip: Add i2s nodes for RK3128
-d244d6cc718a048672bfb148a6bc9c593a0e1207 ARM: dts: rockchip: Add spdif node for RK3128
-041f240e4df6c49d5a928e0dd4c672d0d3326466 ARM: dts: rockchip: add hdmi-sound node to rk3066a
-b7f5e0636f1d450c5df00fea194a8efd39f87a1b dt-bindings: clock: rk3128: Drop CLK_NR_CLKS
-f9da49c3c4c43278d8d8fafb3df7f5514478eb28 dt-bindings: clock: rk3128: Add HCLK_SFC
-5c0e997e57a66bd225318963193b8d006adbbb47 clk: rockchip: rk3128: Add HCLK_SFC
-fc547ab06c87f7c4a7e2425a89759f7a9a6fd7c1 clk: rockchip: Switch to use kmemdup_array()
-54c799c3c4abe2c5e2c22d47dbcba5c34ec99aae ARM: dts: rockchip: Add SFC for RK3128
-365bf97ca039095d87b76443c4382c1abfbb20c2 Merge branch 'v6.10-armsoc/dtsfixes' into for-next
-9c7a1ee777c2a94b238f9e6280d5ab8682ebbe75 Merge branch 'v6.11-armsoc/drivers' into for-next
-36f71b2dd242f4c1edc0c199da1eec0129ee517b Merge branch 'v6.11-armsoc/dts32' into for-next
-392fce5bb010e528bf6a36be5bd0e4167ce215d3 Merge branch 'v6.11-armsoc/dts64' into for-next
-ce65e919b5f8d8f32a34a9d3f6cc945e70c34c0d Merge branch 'v6.11-clk/next' into for-next
-
---===============2248574041285691878==--
+  - ref: refs/heads/clk-for-6.11
+    old: b45120fbd39825ca0d32e39309c30a9e9d567cd8
+    new: 313e2909023bef36ef7b6d1d9ff2d98febcaa28d
+    log: |
+         313e2909023bef36ef7b6d1d9ff2d98febcaa28d clk: qcom: gpucc-sm8350: Park RCG's clk source at XO during disable
+         
