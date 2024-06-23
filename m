@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Sun, 23 Jun 2024 11:52:21 -0000
-Message-Id: <171914354135.31264.10754512413849991741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 23 Jun 2024 11:53:18 -0000
+Message-Id: <171914359851.31643.102507244887277964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 75adb54f4e4a23787a9affe9187f12d44ac08bc3
-    new: 4da366cadcd139d202a0a943ec015ab57c1a138c
+  - ref: refs/heads/main
+    old: 8a67cbd47bf431a1f531ba73e952ce4c114a33a5
+    new: f4b91c1d17c676b8ad4c6bd674da874f3f7d5701
     log: |
-         db47a47f3c52287800195ce688b481eb7d63788a Add hcesar.map
-         4da366cadcd139d202a0a943ec015ab57c1a138c Merge branch 'github-pull-118'
+         f4b91c1d17c676b8ad4c6bd674da874f3f7d5701 ice: Rebuild TC queues on VSI queue reconfiguration
          
