@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0497548220127560358=="
+Content-Type: multipart/mixed; boundary="===============3489453029459632004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 23 Jun 2024 01:26:25 -0000
-Message-Id: <171910598544.14999.11704220007897761238@gitolite.kernel.org>
+Date: Sun, 23 Jun 2024 01:33:53 -0000
+Message-Id: <171910643302.19400.6411285777473763184@gitolite.kernel.org>
 
---===============0497548220127560358==
+--===============3489453029459632004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,30 @@ repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/heads/nfs-localio-for-6.11
-    old: c1e818e7bbd6573e531b87c2c8c03e40e5d589fc
-    new: 22e2ae1d86fe022180ca3982c8e13d0b320b6298
-    log: revlist-c1e818e7bbd6-22e2ae1d86fe.txt
+    old: 22e2ae1d86fe022180ca3982c8e13d0b320b6298
+    new: 5b4e575b4d638fda1cf1b55b4e7df275468bd4ba
+    log: revlist-22e2ae1d86fe-5b4e575b4d63.txt
 
---===============0497548220127560358==
+--===============3489453029459632004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1e818e7bbd6-22e2ae1d86fe.txt
+Content-Disposition: attachment; filename=revlist-22e2ae1d86fe-5b4e575b4d63.txt
 
-6ee7f344e883c9a3b00daea21f96181a98cd2d4f nfs/nfsd: add "localio" support
-086eb021854936577e44470159f1bf8d4d176d3e nfsd/localio: manage netns reference in nfsd_open_local_fh
-08304737ae0f5a36e433d4785f42583a7fccc0dc NFS: Enable localio for non-pNFS I/O
-06a10b49d9726ac524a0bfa60af915416e57f687 pnfs/flexfiles: Enable localio for flexfiles I/O
-983ae594c10a5b9cbd93a48283ef1f4396c2915c nfs/localio: use dedicated workqueues for filesystem read and write
-55b0058bcaa940866bcad447800474af5af52c4f nfs/nfsd: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
-d53a8ffb55ee62ca427c8c41ce3f20855ebcf1c3 SUNRPC: remove call_allocate() BUG_ON if p_arglen=0 to allow RPC with void arg
-d3c1ac5ec0d555162776fe57947be5180507a7cf nfs: implement client support for NFS_LOCALIO_PROGRAM
-9864332304f4f1272c59b2c8854d633fec5217ea nfsd: implement server support for NFS_LOCALIO_PROGRAM
-1361a776acae8f700ac8e0ec7349f4881dd8178a SUNRPC: replace program list with program array
-85fc9114ed084f46dbf8c3607eec2a4604a7b998 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
-bf75e1c968838e6b131988faac9c6484241280d0 nfsd: use SRCU to dereference nn->nfsd_serv
-83895bb1579dc20e6df6d90fbf116767e5a5deb4 nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
-81b1aa4a7da9b193fcd8ad1c50faae852fd1d605 nfs: add Documentation/filesystems/nfs/localio.rst
-22e2ae1d86fe022180ca3982c8e13d0b320b6298 nfs/nfsd: add Kconfig options to allow localio to be enabled
+176c60ba589c07b2f2641320268e26a733cf7e6c nfs/nfsd: add "localio" support
+cd8868dce75a1e986eb911594c7be53980291757 nfsd/localio: manage netns reference in nfsd_open_local_fh
+cbe830f2f3f6921199ded95ef98b9ec1bb0f0eaf NFS: Enable localio for non-pNFS I/O
+481d95aff8d1d32200cfcff9eb53f1e1a3fb169c pnfs/flexfiles: Enable localio for flexfiles I/O
+1a154972b39ee6d2605418a3b4e9435810310731 nfs/localio: use dedicated workqueues for filesystem read and write
+e45c215e4d19a4aff0ffe9a6d1729548e5d97374 nfs/nfsd: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
+fb7c454f096f5fd71397926bfccc0c56d98fb3d3 SUNRPC: remove call_allocate() BUG_ON if p_arglen=0 to allow RPC with void arg
+95e23392597dbca82e7911d362172b5e7336372c nfs: implement client support for NFS_LOCALIO_PROGRAM
+790fcbb9e93e9117506869c6cfeb4d47be5bbc47 nfsd: implement server support for NFS_LOCALIO_PROGRAM
+453ba7bfc6c740c6de8f1213b81b5ad46a31dc7c SUNRPC: replace program list with program array
+dd9b047bb92c72887a186c406960952331f79002 nfsd: prepare to use SRCU to dereference nn->nfsd_serv
+a5df1231cd5c07e1741940c3b0446a5594967e30 nfsd: use SRCU to dereference nn->nfsd_serv
+a38cd0441ad60605ec8f8d542f31be0310642998 nfsd/localio: use SRCU to dereference nn->nfsd_serv in nfsd_open_local_fh
+a5e819fb8e91ebe0e4ddc1fe83904db59f1d14b1 nfs: add Documentation/filesystems/nfs/localio.rst
+5b4e575b4d638fda1cf1b55b4e7df275468bd4ba nfs/nfsd: add Kconfig options to allow localio to be enabled
 
---===============0497548220127560358==--
+--===============3489453029459632004==--
