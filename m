@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 23 Jun 2024 21:21:33 -0000
-Message-Id: <171917769329.29517.7921599110338407733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Sun, 23 Jun 2024 21:45:59 -0000
+Message-Id: <171917915969.15427.2878964860766226745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748
-    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
+  - ref: refs/heads/counter-current
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 0cf81c73e4c6a4861128a8f27861176ec312af4e
     log: |
-         f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
+         0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
          
-  - ref: refs/tags/v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
