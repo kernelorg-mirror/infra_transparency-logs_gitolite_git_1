@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Sun, 23 Jun 2024 06:20:13 -0000
-Message-Id: <171912361357.2324.947774068060591939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Sun, 23 Jun 2024 07:00:06 -0000
+Message-Id: <171912600674.30431.11197117509473479828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/tags/fixes-2024-06-23
+  - ref: refs/heads/kvm-arm64/nv-vgic-v4
     old: 0000000000000000000000000000000000000000
-    new: 7bff22910f6ffa7f2c6042fef922c396e5a3dd7b
+    new: 139bfc9a36c4a396829ba11d22869305f35a8aca
