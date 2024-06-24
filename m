@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2342335828034108898=="
+Content-Type: multipart/mixed; boundary="===============6739026793821845201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 24 Jun 2024 10:17:06 -0000
-Message-Id: <171922422656.875.12779527184144575606@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 10:17:23 -0000
+Message-Id: <171922424317.1059.11297887568436966107@gitolite.kernel.org>
 
---===============2342335828034108898==
+--===============6739026793821845201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 1d8491d3e726984343dd8c3cdbe2f2b47cfdd928
-    new: 156872f08e33af7a23c1e4827f6127d7861b23fd
-    log: |
-         ed58ae8554ee4a3d81a4db386d2150885109e63c m68k: emu: Add missing MODULE_DESCRIPTION() macros
-         156872f08e33af7a23c1e4827f6127d7861b23fd zorro: Use str_plural() in amiga_zorro_probe()
-         
-  - ref: refs/heads/master
-    old: 1a2a64296e177ae6ebde9ef3ff7263073c194093
-    new: bdf4cd121bfdde0794b391c3aa9382ec8bd2f426
-    log: revlist-1a2a64296e17-bdf4cd121bfd.txt
+  - ref: refs/heads/m68k-queue
+    old: 25bc9399a4fc7e9d44d59c67ba2da672acbaed6a
+    new: f9d408350053ffa4f4968becd2cdb947aa15b752
+    log: revlist-25bc9399a4fc-f9d408350053.txt
 
---===============2342335828034108898==
+--===============6739026793821845201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a2a64296e17-bdf4cd121bfd.txt
+Content-Disposition: attachment; filename=revlist-25bc9399a4fc-f9d408350053.txt
 
 bb3ca38ef7aa56dcfa7f6e81675c7a39d5ee9bf1 hv_balloon: Use kernel macros to simplify open coded sequences
 8852ebf1948d94ecaf4d1113032dda7e58e72b84 hv_balloon: Enable hot-add for memblock sizes > 128 MiB
@@ -364,8 +357,11 @@ b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://
 d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
-178efee3230f37dbf95dd40d08b2605a09d0405f Merge tag 'v6.10-rc5'
-4f448132457cd40ab1a15590f1111c273b441a56 m68k: emu: Add missing MODULE_DESCRIPTION() macros
-bdf4cd121bfdde0794b391c3aa9382ec8bd2f426 zorro: Use str_plural() in amiga_zorro_probe()
+068bb5ee453932b3c7b81aa2c3895aea04ed0d69 m68k: amiga: Turn off Warp1260 interrupts during boot
+2789ac823333e82258ad03e466f8d17b2e17f822 m68k: emu: Add missing MODULE_DESCRIPTION() macros
+f75af9517241dfa9dcd2040338cc54f41c319e4e zorro: Use str_plural() in amiga_zorro_probe()
+2115dc19eca202efd9cf08e911898a238113cac4 m68k: atari: usb: Add ISP1160 USB host controller support
+762a3cc37e8c5198d2544431765100236392cd3d m68k: atari: Update Kconfig.bus help text
+f9d408350053ffa4f4968becd2cdb947aa15b752 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2342335828034108898==--
+--===============6739026793821845201==--
