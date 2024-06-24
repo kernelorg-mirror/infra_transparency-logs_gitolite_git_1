@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4758681276561727628=="
+Content-Type: multipart/mixed; boundary="===============0051818308168560757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 24 Jun 2024 05:04:32 -0000
-Message-Id: <171920547218.17903.6476736214934612742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 24 Jun 2024 05:06:39 -0000
+Message-Id: <171920559957.20776.15267261784638025935@gitolite.kernel.org>
 
---===============4758681276561727628==
+--===============0051818308168560757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 163c1a356a847ab4767200fd4a45b3f8e4ddc900
+    old: e2d8ea0a066a6db51f31efd2710057271d685d2e
     new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    log: revlist-163c1a356a84-f2661062f16b.txt
+    log: revlist-e2d8ea0a066a-f2661062f16b.txt
   - ref: refs/tags/v6.10-rc4
     old: 0000000000000000000000000000000000000000
     new: 4d21bfe7c007bb471984890c70a39d01141bc65b
@@ -35,14 +35,12 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
 
---===============4758681276561727628==
+--===============0051818308168560757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-163c1a356a84-f2661062f16b.txt
+Content-Disposition: attachment; filename=revlist-e2d8ea0a066a-f2661062f16b.txt
 
-e634134180885574d1fe7aa162777ba41e7fcd5b net/sched: taprio: make q->picos_per_byte available to fill_sched_entry()
-fb66df20a7201e60f2b13d7f95d031b31a8831d3 net/sched: taprio: extend minimum interval restriction to entire cycle too
 e57f2187ccc125f1f14f6d2c83da80831fc3ce9a drm/panfrost: Fix dma_resv deadlock at drm object pin time
 8c2f5dd0c362ec036f0217da1d413ce2b8361080 drm/lima: Fix dma_resv deadlock at drm object pin time
 3b8407e81ed76c0d84d710c2a177a8fe24292702 drm/gem-shmem: Add import attachment warning to locked pin function
@@ -312,7 +310,6 @@ eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definiti
 0110c4b110477bb1f19b0d02361846be7ab08300 irqchip/riscv-intc: Prevent memory leak when riscv_intc_init_common() fails
 6149db4997f582e958da675092f21c666e3b67b7 net: phy: micrel: fix KSZ9477 PHY issues after suspend/resume
 e306a894bd511804ba9db7c00ca9cc05b55df1f2 irqchip/sifive-plic: Chain to parent IRQ after handlers are ready
-e2d8ea0a066a6db51f31efd2710057271d685d2e soundwire: fix usages of device_get_named_child_node()
 8c219e52ca4d9a67cd6a7074e91bf29b55edc075 gpio: tqmx86: fix typo in Kconfig label
 9d6a811b522ba558bcb4ec01d12e72a0af8e9f6e gpio: tqmx86: introduce shadow register for GPIO output value
 08af509efdf8dad08e972b48de0e2c2a7919ea8b gpio: tqmx86: store IRQ trigger type and unmask status separately
@@ -320,6 +317,9 @@ e2d8ea0a066a6db51f31efd2710057271d685d2e soundwire: fix usages of device_get_nam
 4a77c3dead97339478c7422eb07bf4bf63577008 SUNRPC: Fix loop termination condition in gss_free_in_token_pages()
 3d117494e2a88b9c1e8ad41bbbf2cf453a73620e cachefiles: remove unneeded include of <linux/fdtable.h>
 c6144a21169fe7d0d70f1a0dae6f6301e5918d30 tomoyo: update project links
+5314e84c33e7ad61df5203df540626ac59f9dcd9 phy: qcom-qmp: qserdes-txrx: Add missing registers offsets
+99bf89626335bbec71d8461f0faec88551440850 phy: qcom-qmp: pcs: Add missing v6 N4 register offsets
+163c1a356a847ab4767200fd4a45b3f8e4ddc900 phy: qcom: qmp-combo: Switch from V6 to V6 N4 register offsets
 994af1825a2aa286f4903ff64a1c7378b52defe6 riscv: fix overlap of allocated page and PTR_ERR
 e2c79b4c5c4d83520abb570ca633ded09621c0a6 Revert "riscv: mm: accelerate pagefault when badaccess"
 2317dc2c22cc353b699c7d1db47b2fe91f54055c bpf, devmap: Remove unnecessary if check in for loop
@@ -1066,4 +1066,4 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 
---===============4758681276561727628==--
+--===============0051818308168560757==--
