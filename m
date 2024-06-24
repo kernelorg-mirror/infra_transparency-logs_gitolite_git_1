@@ -1,42 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 24 Jun 2024 14:50:03 -0000
-Message-Id: <171924060378.22320.13777946794077753768@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5620647875015596840=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Jun 2024 14:50:45 -0000
+Message-Id: <171924064577.23117.10672549265802273067@gitolite.kernel.org>
+
+--===============5620647875015596840==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11/block
-    old: 85f86c5ede7697162c54744258908e657e456f57
-    new: 876835b128976e2e9a7d18daab58b4cba7742787
+  - ref: refs/heads/master
+    old: 89e7ba7562dc826612b44a6a6a8d8003cc5cce42
+    new: 2280fa4b05872392bff20b0798273c165f31dfc1
     log: |
-         876835b128976e2e9a7d18daab58b4cba7742787 brd: add missing MODULE_DESCRIPTION() macro
+         2280fa4b05872392bff20b0798273c165f31dfc1 6.6-stable patches
          
-  - ref: refs/heads/for-6.11/io_uring
-    old: 6bc9199d0c84f5cd72922223231c7708698059a2
-    new: 50cf5f3842af3135b88b041890e7e12a74425fcb
-    log: |
-         d57afd8bb7f2c4f0d86e9e9b276f7c3a7fedfc6d io_uring/msg_ring: tighten requirement for remote posting
-         c3ac76f9ca7a621428851149bc56bfca0aacaef4 io_uring: add remote task_work execution helper
-         f33096a3c99c0149be49fe1e107244a7ed860ecb io_uring: add io_add_aux_cqe() helper
-         0617bb500bfabf8447062f1e1edde92ed2b638f1 io_uring/msg_ring: improve handling of target CQE posting
-         50cf5f3842af3135b88b041890e7e12a74425fcb io_uring/msg_ring: add an alloc cache for io_kiocb entries
-         
-  - ref: refs/heads/for-next
-    old: 5b661d57bac0c215cdb8bb5837fd3358fd911667
-    new: c15ffe96c7765a779dea3dee6e964a3deb95904b
-    log: |
-         876835b128976e2e9a7d18daab58b4cba7742787 brd: add missing MODULE_DESCRIPTION() macro
-         0902a1ed7a2543bf645132a244fdf9affc192d92 Merge branch 'for-6.11/block' into for-next
-         d57afd8bb7f2c4f0d86e9e9b276f7c3a7fedfc6d io_uring/msg_ring: tighten requirement for remote posting
-         c3ac76f9ca7a621428851149bc56bfca0aacaef4 io_uring: add remote task_work execution helper
-         f33096a3c99c0149be49fe1e107244a7ed860ecb io_uring: add io_add_aux_cqe() helper
-         0617bb500bfabf8447062f1e1edde92ed2b638f1 io_uring/msg_ring: improve handling of target CQE posting
-         50cf5f3842af3135b88b041890e7e12a74425fcb io_uring/msg_ring: add an alloc cache for io_kiocb entries
-         c15ffe96c7765a779dea3dee6e964a3deb95904b Merge branch 'for-6.11/io_uring' into for-next
-         
+
+--===============5620647875015596840==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719240641 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1719240640-699ad89105465e0e40e828944432573efb15da81
+
+89e7ba7562dc826612b44a6a6a8d8003cc5cce42 2280fa4b05872392bff20b0798273c165f31dfc1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5h8EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ovYQAI433aExkgxhKqvLIkmF
++CBggNamz9wKR1QRTV+xQXJ9G+uAYCiH9aJ16564Bo9qYK2OAaB9QzoQvWzXZQ7b
+85SYuX5zSz8RY0IJTy9FMQuZDHJNfl+QAB8WTZmJfwSsPlWLdpmQTkqzz9S4SGf/
+jsCRhJuvmgofa1iDSOScKAezey0DSJhXqlVu7YRpbCe+0zylaoj5oEYJj5X8c7FA
+kknMZuD7kFfCB240kAEaO0UX5yI0qUwwW5dCym/k9ZbAcfAOVkw/IwQZDEjINSZP
+ruq05kj1Njt1S4WJ/WQYwFFXJ8Z+2H3Qjk/CrKIxwe0qcvsLslgh5Q8PF/JGlvtX
+0eDAvdnDk1zUlWHoSJYIpJhGKXdyhao4yKLPuxhTn0IVUAPTpFXltqe+Zho5/nys
+FFsELv9kOzHzN2MSiMIE5zOvUk6/nmNFMFwgOadrJfkCOGSO1zhLFmvVsE6zsUqH
+cVEMtP7q9/ZEK8OXn/fDvuT1OkKGx5JPsPZdfG/Nu7Yo4ZyBE9ylcSMwxJTCU+VH
+6raggpfsiOmXfKtOKMLTZ5t0u/4IKHwML6T8WbG1TSknI6GsoDxpzLr8uR67ycoD
+i2z3ilj0tHaihFBUbk4T/9VhIpRFYKIRvc18JvX4Zwa03LYcHxjRvLV4HX/a5tr6
+I1AmhtlaLcd8c10alAdTggks
+=6jEU
+-----END PGP SIGNATURE-----
+
+--===============5620647875015596840==--
