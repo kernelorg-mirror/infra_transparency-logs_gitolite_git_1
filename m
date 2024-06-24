@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 24 Jun 2024 09:15:22 -0000
-Message-Id: <171922052295.7241.1808180933219112801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Mon, 24 Jun 2024 09:40:07 -0000
+Message-Id: <171922200725.25358.14875255594092232259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/main
-    old: 02ea312055da84e08e3e5bce2539c1ff11c8b5f2
-    new: 058722ee350c0bdd664e467156feb2bf5d9cc271
+  - ref: refs/heads/fixes
+    old: d8354a1de2c4cc693812f6130fc922537a59217d
+    new: 6434b33faaa063df500af355ee6c3942e0f8d982
     log: |
-         058722ee350c0bdd664e467156feb2bf5d9cc271 net: usb: ax88179_178a: improve link status logs
+         6434b33faaa063df500af355ee6c3942e0f8d982 s390/sclp: Fix sclp_init() cleanup on failure
          
