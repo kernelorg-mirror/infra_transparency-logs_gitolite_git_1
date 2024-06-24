@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4851862189956523521=="
+Content-Type: multipart/mixed; boundary="===============5227635330206765163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 24 Jun 2024 16:57:33 -0000
-Message-Id: <171924825352.22744.8232395179497979215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 24 Jun 2024 16:57:37 -0000
+Message-Id: <171924825714.22860.503548308881895687@gitolite.kernel.org>
 
---===============4851862189956523521==
+--===============5227635330206765163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
   - ref: refs/heads/master-pending
@@ -27,7 +27,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8e24052fa49947a6f07bd72e7e933ec28c477084
 
---===============4851862189956523521==
+--===============5227635330206765163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,7 +54,7 @@ c0212cbedbe09b90b2031364f45d99889a957c1d wifi: ath12k: Add support to parse requ
 c9a58f27ab6f0d1dfc9efdeaf3846499655db8f1 wifi: ath12k: Dump additional Tx PDEV HTT stats
 8e24052fa49947a6f07bd72e7e933ec28c477084 Merge branch 'pending' into master-pending
 
---===============4851862189956523521==
+--===============5227635330206765163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ b7e64a16e53f4ce61230f4e3e64d041b259f2bbb wifi: ath12k: Add support to enable deb
 c0212cbedbe09b90b2031364f45d99889a957c1d wifi: ath12k: Add support to parse requested stats_type
 c9a58f27ab6f0d1dfc9efdeaf3846499655db8f1 wifi: ath12k: Dump additional Tx PDEV HTT stats
 
---===============4851862189956523521==--
+--===============5227635330206765163==--
