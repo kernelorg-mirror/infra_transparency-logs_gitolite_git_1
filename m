@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 24 Jun 2024 03:29:42 -0000
-Message-Id: <171919978232.12543.1400413273953879599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Mon, 24 Jun 2024 04:00:39 -0000
+Message-Id: <171920163921.4089.3551508050773820738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/main
-    old: c17d76ab5e84336bd98da30e0ea716f6a779e4ce
-    new: b98239da2f18d2bfe0934ac705ef8d8b92277f74
+  - ref: refs/heads/bleeding-edge
+    old: 06380da9ab1fc08349b6f249023c83e92c5dfce9
+    new: 95ba343087d6dafc44ef7fa37329ff5a1c0ae67d
     log: |
-         b98239da2f18d2bfe0934ac705ef8d8b92277f74 tests/meson.build: fix python and yaml tests not running
-         
-  - ref: refs/heads/master
-    old: c17d76ab5e84336bd98da30e0ea716f6a779e4ce
-    new: b98239da2f18d2bfe0934ac705ef8d8b92277f74
-    log: |
-         b98239da2f18d2bfe0934ac705ef8d8b92277f74 tests/meson.build: fix python and yaml tests not running
+         95ba343087d6dafc44ef7fa37329ff5a1c0ae67d cpufreq: amd-pstate: Don't create attributes when registration fails
          
