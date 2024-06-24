@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Jun 2024 21:34:29 -0000
-Message-Id: <171926486908.2019.7889502190374472523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 24 Jun 2024 21:41:45 -0000
+Message-Id: <171926530501.9136.1682590394633083891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/irq/urgent
-    old: a9c3ee5d0fdb069b54902300df6ac822027f3b0a
-    new: 9eee5330656bf92f51cb1f09b2dc9f8cf975b3d1
+  - ref: refs/heads/for-next
+    old: 86521b733a8450e451cc749ca1d1788f1da92d91
+    new: c74f037dfd452014f70eb21918a11eae5bafcf82
     log: |
-         9eee5330656bf92f51cb1f09b2dc9f8cf975b3d1 PCI/MSI: Fix UAF in msi_capability_init
+         c74f037dfd452014f70eb21918a11eae5bafcf82 Merge patch series "dt-bindings: interrupt-controller: riscv,cpu-intc"
          
