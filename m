@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5047182679866431345=="
+Content-Type: multipart/mixed; boundary="===============7166011463751598718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 24 Jun 2024 16:30:46 -0000
-Message-Id: <171924664656.2701.11544820162171206220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Mon, 24 Jun 2024 16:31:34 -0000
+Message-Id: <171924669428.3073.6277947837312236067@gitolite.kernel.org>
 
---===============5047182679866431345==
+--===============7166011463751598718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
+repo: pub/scm/linux/kernel/git/arnd/playground
 user: arnd
 changes:
-  - ref: refs/heads/syscall-fixes-6.10
-    old: cfa3c1449185cfcfd6f9c00cc1f40bc67dff36aa
+  - ref: refs/heads/to-build
+    old: c2dd777003347c510f9fecc965fb3e65d7c79a43
     new: f2548a9d6019f7ab1106a16893d65dea09b8909a
-    log: revlist-cfa3c1449185-f2548a9d6019.txt
+    log: revlist-c2dd77700334-f2548a9d6019.txt
 
---===============5047182679866431345==
+--===============7166011463751598718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfa3c1449185-f2548a9d6019.txt
+Content-Disposition: attachment; filename=revlist-c2dd77700334-f2548a9d6019.txt
 
 ce6f965b2003a7f0349b4080173b427941e2ebed ftruncate: pass a signed offset
 a8b9dba1b47c8547c274255de3fe60e02f118fc6 syscalls: fix compat_sys_io_pgetevents_time64 usage
@@ -40,4 +40,4 @@ d0870fd42b451acbc867efaf708bd4d410a07d27 s390: remove native mmap2() syscall
 78e22d8faff0f183a957910bf2242e13d6ee7ead syscalls: mmap(): use unsigned offset type consistently
 f2548a9d6019f7ab1106a16893d65dea09b8909a linux/syscalls.h: add missing __user annotations
 
---===============5047182679866431345==--
+--===============7166011463751598718==--
