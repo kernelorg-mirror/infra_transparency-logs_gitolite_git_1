@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7461742178446087014=="
+Content-Type: multipart/mixed; boundary="===============5204947847543576048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 24 Jun 2024 15:39:19 -0000
-Message-Id: <171924355902.28723.1420897591775947504@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 15:41:03 -0000
+Message-Id: <171924366347.31094.9061861514417991810@gitolite.kernel.org>
 
---===============7461742178446087014==
+--===============5204947847543576048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 12be1807789f8a5b88a12c855e61dc7a885908a4
-    new: b9f7777dc1e3cf087bb2a89d884d66b371470cf4
-    log: revlist-12be1807789f-b9f7777dc1e3.txt
+  - ref: refs/heads/1GbE
+    old: 3226607302ca5a74dee6f1c817580c713ef9d0dd
+    new: 568ebdaba6370c03360860f1524f646ddd5ca523
+    log: revlist-3226607302ca-568ebdaba637.txt
 
---===============7461742178446087014==
+--===============5204947847543576048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12be1807789f-b9f7777dc1e3.txt
+Content-Disposition: attachment; filename=revlist-3226607302ca-568ebdaba637.txt
 
 b1dc3c68e977273397619d901b34f25634666c24 can: mcp251x: Fix up includes
 5ca3801388f8ae69b145812410927d5e8156b67a can: sja1000: plx_pci: Reuse predefined CTI subvendor ID
@@ -64,53 +64,5 @@ e9212f9dd1fb903c24c9258bcee5f0cd93de782c Merge tag 'linux-can-next-for-6.11-2024
 185d72112b951404968cfaa9f77cd9ee19207205 net: xilinx: axienet: Enable multicast by default
 84562f9953ec5f91a4922baa2bd4f2d4f64fac31 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 568ebdaba6370c03360860f1524f646ddd5ca523 MAINTAINERS: adjust file entry in FREESCALE QORIQ DPAA FMAN DRIVER
-4e0e63cb3719f6842da442ddc2244a11dcf9cc6c ice: Add a per-VF limit on number of FDIR filters
-a5901c48abe2cffe91f3b9327b3eaf9790317346 ice: add parser create and destroy skeleton
-b857681a8511440b02b3a55228f958de74030b44 ice: parse and init various DDP parser sections
-9a76edb995cfab1ab1a87d77804f751fd1062ff3 ice: add debugging functions for the parser sections
-fbfbffbb0e76c606ea0d67c43d1ca4de7512abd5 ice: add parser internal helper functions
-ab92e952dab41a131ba226272fc30d116af23a6b ice: add parser execution main loop
-3d7bbe0329de329006395a84703a5259c2ed7741 ice: support turning on/off the parser's double vlan mode
-fcfc58a282bc0b9fecf4e43e84d51746070be927 ice: add UDP tunnels support to the parser
-e5613697b3ad3954885fa8e63faef66a5b5f1dab ice: add API for parser profile initialization
-34e561b134da8e1920a7be6c6f1ff1c756210a1f virtchnl: support raw packet in protocol header
-ae5221376a7dfae740c5c11de54b398d73958886 ice: add method to disable FDIR SWAP option
-3e5a504eb28843ac9bf0818c70d6ec1ee7affd77 ice: enable FDIR filters from raw binary patterns for VFs
-7a175d377b0e014d0630c0fb8988f3ba33e38688 iavf: refactor add/del FDIR filters
-0d3325ceca86c05744c9a69011aba95edc687f86 iavf: add support for offloading tc U32 cls filters
-c92f96fbd19aefd93892848ca392faba3b51f7b8 ice: Check all ice_vsi_rebuild() errors in function
-71589da9059d4b0698fce887b7e1135d4b863218 ice: Add get/set hw address for VFs using devlink commands
-ccde36dd8a9a0e77fbe66add5b75de02c7abb70c ice: Rebuild TC queues on VSI queue reconfiguration
-7d5492536460b2447293be61bb518a7b1608ea5d net: docs: add missing features that can have stats
-368728a0016625f5e671ffe10022377ef7e645fb ice: implement ethtool standard stats
-0ce255631e5efefdda7a910d7da1bca42bc17da5 ice: add tracking of good transmit timestamps
-c575134fb1a07fa9a6ba0e473e008f8ba24fbb8e ice: implement transmit hardware timestamp statistics
-f8ed1cd68ee657b6b349f83af301ec0c2b4e4be1 ice: refactor to use helpers
-8807bc5f3ea22f3d22e23bbef4490afcae15fe31 e1000e: Fix S0ix residency on corporate systems
-9046c970274c6203ff0dd16d4f90cbb10e867e20 ice: Allow different FW API versions based on MAC type
-592407dcd4ca51d41e6215c2c50e6af030b0eda0 ice: Add support for devlink local_forwarding param.
-8056c617de071f7c1a340822ae4fc535c77496e9 ice: add new VSI type for subfunctions
-be1ac00d62e383f9653072ed03d0482987a058c8 ice: export ice ndo_ops functions
-f0c0a89fbca2b88a0206624f50fe3cfb73b5b50c ice: add basic devlink subfunctions support
-0f61350aff898a79ff762b17909c25bd08479bf5 ice: treat subfunction VSI the same as PF VSI
-3eb50ab851edb936e1edb29c80bef623457a0293 ice: allocate devlink for subfunction
-3df5960c841fb5d63c25d6cecaba7e5f734ab465 ice: base subfunction aux driver
-15eb46998fa60da85f84ac8fe7b73533ff51b29e ice: implement netdev for subfunction
-22411fdb3701a4da7886adc5214e48fb85df6ea0 ice: make representor code generic
-cb1e625aaaf0155bb4916de137deca75ca1c13ea ice: create port representor for SF
-22e20e6e8264b74d8c8d6fb557a8748093067bb5 ice: don't set target VSI for subfunction
-8960340c408b5e556cbe7e1d238861c4797ac8a2 ice: check if SF is ready in ethtool ops
-318460197530272b348bc8390216754bdc178601 ice: implement netdevice ops for SF representor
-613cedf9dd23de0d12745469c7da4fdaae29d6df ice: support subfunction devlink Tx topology
-b006de61ea46130305a9e8bd85e80ab8ff0fb3ae ice: basic support for VLAN in subfunctions
-3620634c0f5760b5473f2ddafcaded4ef95685ec ice: allow to activate and deactivate subfunction
-96f274fff79f2822163e5d2c3f952acf1fefa0f5 igc: Remove the internal 'eee_advert' field
-102c069dba63450cb819cac8d2e04f47b538541c ice: Distinguish driver reset and removal for AQ shutdown
-5181ffe079d103e9e29eb1783ef858f0b8389191 ice: use proper macro for testing bit
-70bd254df19a98ac1ffb5bca7af5bca86d99ed9f ice: Extend Sideband Queue command to support flags
-6914b24fae57f798da9919f741387c0a2bb69963 ice: Implement driver functionality to dump fec statistics
-794b73ed37afe62b477027072cb628d735756e3f ice: Implement driver functionality to dump serdes equalizer values
-516727a604ed28d2067dc9f6a68ba6602f501f1b ice: do not init struct ice_adapter more times than needed
-b9f7777dc1e3cf087bb2a89d884d66b371470cf4 MAINTAINERS: update Intel Ethernet maintainers
 
---===============7461742178446087014==--
+--===============5204947847543576048==--
