@@ -1,24 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 24 Jun 2024 08:20:34 -0000
-Message-Id: <171921723405.31826.13138966921402809795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 24 Jun 2024 08:20:45 -0000
+Message-Id: <171921724559.31981.437537396423641304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 542bb08ab014ec52d71f3ff01e1725005cfb677a
-    new: 82a5cc783d49b86afd2f60e297ecd85223c39f88
+  - ref: refs/heads/for-next
+    old: 937a293bad3f0496f68addde835fd17207ded100
+    new: 1e1c9431ab5b3b82a27f03d9a509e6be2e27e0e9
     log: |
-         c1eb2512596fb3542357bb6c34c286f5e0374538 RDMA/mlx5: Remove extra unlock on error path
-         f637040c3339a2ed8c12d65ad03f9552386e2fe7 RDMA/mlx5: Follow rb_key.ats when creating new mkeys
-         2e4c02fdecf2f6f55cefe48cb82d93fa4f8e2204 RDMA/mlx5: Ensure created mkeys always have a populated rb_key
-         81497c148b7a2e4a4fbda93aee585439f7323e2e RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
-         36ab7ada64caf08f10ee5a114d39964d1f91e81d RDMA/mlx5: Add check for srq max_sge attribute
-         82a5cc783d49b86afd2f60e297ecd85223c39f88 RDMA/mana_ib: Ignore optional access flags for MRs
+         5375986e16207e573c0493009d25b0c01f44e01d firmware: meson_sm: add missing MODULE_DESCRIPTION() macro
+         7d7dd631d1af471a6c909e197be2ef3df526d00f dt-bindings: arm: amlogic: add OSMC Vero 4K
+         5feff053b08ce5d2167b9f44bcea3b466b5a81a0 arm64: dts: meson: add support for OSMC Vero 4K
+         4132d13bfcdb3551b0d1a6a74e2063351b4bfcaa dt-bindings: add dream vendor prefix
+         96cf7ca12bdcd44fcfdca74e56389c40ae47a7b1 dt-bindings: arm: amlogic: add support for Dreambox One/Two
+         83a6f4c62cb12aa902043fc1910fdbe483193f3c arm64: dts: meson: add initial support for Dreambox One/Two
+         594b5be08b728e1f3f90591142e3eb9c98d36078 Merge branch 'v6.11/arm64-dt' into for-next
+         1e1c9431ab5b3b82a27f03d9a509e6be2e27e0e9 Merge branch 'v6.11/drivers' into for-next
+         
+  - ref: refs/heads/v6.11/arm64-dt
+    old: e822ce43968daf9da4368617d2c948c22ccf93f9
+    new: 83a6f4c62cb12aa902043fc1910fdbe483193f3c
+    log: |
+         7d7dd631d1af471a6c909e197be2ef3df526d00f dt-bindings: arm: amlogic: add OSMC Vero 4K
+         5feff053b08ce5d2167b9f44bcea3b466b5a81a0 arm64: dts: meson: add support for OSMC Vero 4K
+         4132d13bfcdb3551b0d1a6a74e2063351b4bfcaa dt-bindings: add dream vendor prefix
+         96cf7ca12bdcd44fcfdca74e56389c40ae47a7b1 dt-bindings: arm: amlogic: add support for Dreambox One/Two
+         83a6f4c62cb12aa902043fc1910fdbe483193f3c arm64: dts: meson: add initial support for Dreambox One/Two
+         
+  - ref: refs/heads/v6.11/drivers
+    old: 2faaab64de0e89697e01f1a0c5d401ea74d52447
+    new: 5375986e16207e573c0493009d25b0c01f44e01d
+    log: |
+         5375986e16207e573c0493009d25b0c01f44e01d firmware: meson_sm: add missing MODULE_DESCRIPTION() macro
          
