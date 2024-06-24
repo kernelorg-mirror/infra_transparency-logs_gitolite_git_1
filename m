@@ -1,65 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7171745309862823991=="
+Content-Type: multipart/mixed; boundary="===============0799985992570674423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 24 Jun 2024 10:59:47 -0000
-Message-Id: <171922678730.30340.11885910236505575250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 24 Jun 2024 11:00:26 -0000
+Message-Id: <171922682690.32392.4760296626488912340@gitolite.kernel.org>
 
---===============7171745309862823991==
+--===============0799985992570674423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: b5dd424181f33c2978562c64b286fc22cf5ef4bf
-    new: 6b521fc111a2ad5ead39776960d3d2d289ce0722
+  - ref: refs/heads/char-misc-linus
+    old: 8fe050e94daeb0280338d04ff8c6207dea44ddfc
+    new: 06ebbce9c3a84e5632fa3cd0864ce07093793e32
     log: |
-         fca3eff7d36bcd1a51d2c256ccebbe3617d4fe3a parport: make parport_bus_type const
-         a674fefd17324fc467f043568e738b80ca22f2b4 rust: add abstraction for struct device
-         de6582833db0e695ba0c548e3cc2ad7dbb6aa260 rust: add firmware abstractions
-         2f3cfd2f4b7cf3026fe6b9b2a5320cc18f4c184e driver core: Make dev_err_probe() silent for -ENOMEM
-         269e974e664207cc45f83b579565ba73de1b75dc driver core: make [device_]driver_attach take a const *
-         bbe98f4fde5a52aa01a1e1d754e1398228815fb0 firmware: rust: improve safety comments
-         7bd08093999898c0c35c4e90102cb2daebfadd9a MAINTAINERS: add Rust FW abstractions to FIRMWARE LOADER
-         892fb846d6a04ad95c22ae8c758fd8998a0d237c MAINTAINERS: add Danilo as FIRMWARE LOADER maintainer
-         4ead6c37b04aa35943ea270f09db18ebb38e63ff device: rust: improve safety comments
-         6b521fc111a2ad5ead39776960d3d2d289ce0722 MAINTAINERS: add Rust device abstractions to DRIVER CORE
+         0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
+         06ebbce9c3a84e5632fa3cd0864ce07093793e32 Merge tag 'counter-fixes-for-6.10' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
          
 
---===============7171745309862823991==
+--===============0799985992570674423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719226786 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1719226786-62c1893e1957c574cc3ec9bc5a7b930b892220d7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719226826 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1719226825-70c855b77694aca6295a64871cb0e9e67450d403
 
-b5dd424181f33c2978562c64b286fc22cf5ef4bf 6b521fc111a2ad5ead39776960d3d2d289ce0722 refs/heads/driver-core-next
+8fe050e94daeb0280338d04ff8c6207dea44ddfc 06ebbce9c3a84e5632fa3cd0864ce07093793e32 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5UaIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qcUP/R4kfSCbDTpVKtwYCV3H
-ic5laho263ODRfz/yoIYqoxl2HeHaTwtT7Beea0uJfLOOchQyNRUqVwYUg91Z9hU
-J5PGC0RAPUBPuXftkVyTb2Qpec6KRHajv05FVGOhoYQ0Iwa0xnuH4VJYJlKO9w4A
-SjS75YBHG9K1Ur4I8qyQ7jyDFfge/oaGSOuAromMhvvF/ivjKhXmkubXPMUvdMdk
-pztpGcbb1TtO4nmlO+55FWO7yIbnyi8fn2vnDhEZyZASpOo7/7rnGkbLPjgsOasb
-KKqjjwgjJKiM2kT7djtq3UBcFAy/DB1SpqX9iez7iJJ7H8NHZ7yi+NYdjKss39E7
-uCyHvQ8k8Ell33F7PfMMPE3rzX9V6CCGEUCRChXOQppEtbcNlpJG5uLy9Y25hI6h
-l9ZC9vRobwD0E23JLPNo4zw82THX01Qd6w7nUwdaQECpD8oQ5e8odY13MhRyErp5
-c+QbjbTxd4HpyK2Bsu2zed++kzzpvgIQR4UChUrF37SAHbU5IYExexV2Hb9km8C2
-yPCQr5YAZSbG2e7MKCEESLsYlOSpBrFgKv+JDBiI0+xzwKnnxh9av3K0ya6vmujp
-elJSe3zhAurOc74R+aOHWBdZe30eg0NiqQnVklmxrIa3/8j0o9o2MiNEZUteHeqX
-OzboVZvstQPPUaMRqIpyuJ9R
-=i8qc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5UcobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UGkQAJ1lnqWQ6wrHbIADngM9
+UseSuvmI8sp6zc4BvjBhcg1fV4gTZduNFWfvXcN9+S5WBuD/xilrMRVQmaVbfwZ/
+SaU+s5RO/SXWx1Gb5ZDdl/WXsqtraOLH4SKyFICANNApP7HVK01GDL+hQTENL8o2
+ppIFtN/GgsC+oyMG/SFedQT528amCDAMNozfYux30tUKrCX5RmBMXNMHoAOx0Z/9
+xQcA0coR8KpM0kYeQSSCj+bxtfTd+TTfryrhSCuDkQnRazP8vUEghsKQuslc7r22
+b2F8eQLIU15xIhgl4PDnSjA9kt/yO9HK2nAlXgiafwr5YtqSB7DA3CtK+OR23GPa
+3TJ5sePPYdhHSYH0a9w7gcPzW2LPNmkqX3Mqk4LKUIx6l6k/M0hGrrs5SLnwrmqR
+xrMhMh92wOVxv/MD17DWCJOgvYExIgNXDokC1Gg1dOHBHiaRI2dr9rLVqlEJgx8F
+vT72OYF/ocU8jD09Zn+Bnbkkm5n5OxSmDO6bDQ6Q9n/RXjFV5/kRBsAb+jhRN+LL
+9UQluWHrDQzdE0M2Eiy15ti1GybB5F9noeSXGqmqRGYfMAtb/Ic47ZvgWggMAo/A
+4dOmkYwv1d7WQtCXWapT/9/SlfE9XVjy4IBAf/FgKwAMtVZ+vV2wxgbTGnZURQEW
+N75sKqVfRwNWO1J+MVdNoeCa
+=Tlw7
 -----END PGP SIGNATURE-----
 
---===============7171745309862823991==--
+--===============0799985992570674423==--
