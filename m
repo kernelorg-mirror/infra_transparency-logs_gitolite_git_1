@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2095306680913273541=="
+Content-Type: multipart/mixed; boundary="===============0362641609074749234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 24 Jun 2024 15:38:02 -0000
-Message-Id: <171924348258.27897.15803369762143256426@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 15:38:04 -0000
+Message-Id: <171924348492.28019.12774010715789102071@gitolite.kernel.org>
 
---===============2095306680913273541==
+--===============0362641609074749234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8406b56a91ec458172c4fe1bb13038031e975b6a
     new: 058722ee350c0bdd664e467156feb2bf5d9cc271
     log: revlist-8406b56a91ec-058722ee350c.txt
 
---===============2095306680913273541==
+--===============0362641609074749234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ f4b91c1d17c676b8ad4c6bd674da874f3f7d5701 ice: Rebuild TC queues on VSI queue rec
 02ea312055da84e08e3e5bce2539c1ff11c8b5f2 octeontx2-pf: Fix coverity and klockwork issues in octeon PF driver
 058722ee350c0bdd664e467156feb2bf5d9cc271 net: usb: ax88179_178a: improve link status logs
 
---===============2095306680913273541==--
+--===============0362641609074749234==--
