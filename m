@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Mon, 24 Jun 2024 12:52:18 -0000
-Message-Id: <171923353881.17484.7652333105244785711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/vulns-desc
+Date: Mon, 24 Jun 2024 12:52:19 -0000
+Message-Id: <171923353950.17539.2362213499923883381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/sashal/vulns-desc
+user: sashal
 changes:
-  - ref: refs/heads/icc-next
-    old: b571ac869bc9a44faf9a7cc83e7d3644753d4d67
-    new: 6bb78e13711640b0e722b0317b9b1d4755611244
+  - ref: refs/heads/master
+    old: a7f735ad024fe82f52a36d5b0fbe38fb770dcc4a
+    new: 0518c9c2308f8378d40497b4d63adc9c609735b0
     log: |
-         cd5ce4589081190281cc2537301edd4275fe55eb interconnect: qcom: qcm2290: Fix mas_snoc_bimc RPM master ID
-         6bb78e13711640b0e722b0317b9b1d4755611244 Merge branch 'icc-fixes' into icc-next
+         0518c9c2308f8378d40497b4d63adc9c609735b0 CVE Descriptions
          
