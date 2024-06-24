@@ -1,22 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 24 Jun 2024 17:33:43 -0000
-Message-Id: <171925042311.17511.17330710974775679907@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3102323633375980091=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 24 Jun 2024 17:40:15 -0000
+Message-Id: <171925081567.24355.284488909893667843@gitolite.kernel.org>
+
+--===============3102323633375980091==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: 298b1e4182d657c3e388adcc29477904e9600ed5
-    new: 8cb1f4080dd91c6e6b01dbea013a3f42341cb6a1
+  - ref: refs/heads/review-ilpo
+    old: 4261031484d8f8fcbd2bd6517416b88545447597
+    new: 618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4
     log: |
-         6efc3a05e6132812edf7eee0eb040eb88af34203 f2fs: enable atgc dynamically if conditions are met
-         6aeb084fa0b1ada0290df08c5230e41881aef783 f2fs: clean up set REQ_RAHEAD given rac
-         1efb7c8fd8bf6b9d6f10dd2a9e0fde9e7a650ab4 f2fs: fix to use mnt_{want,drop}_write_file replace file_{start,end}_wrtie
-         8cb1f4080dd91c6e6b01dbea013a3f42341cb6a1 f2fs: assign CURSEG_ALL_DATA_ATGC if blkaddr is valid
+         12046f8c77e0ed6d41beabde0edbb729499c970b platform/x86: wmi: Add driver_override support
+         618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4 platform/x86: wmi: Add bus ABI documentation
          
+
+--===============3102323633375980091==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1719250812 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1719250811-cba6f9265637b4c5f19896fee46ce5b8c49a980f
+
+4261031484d8f8fcbd2bd6517416b88545447597 618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZnmvfgAKCRBZrE9hU+XO
+MXwyAQD3fFq5XWto8cmfDiTXYwqXHHXmcWGgdVLKJCqkj5+nyAEAhjSN9fSA+PqM
+aNdpgZZ8sG4IL1wrj0yTn64rR7S9pAU=
+=DpP3
+-----END PGP SIGNATURE-----
+
+--===============3102323633375980091==--
