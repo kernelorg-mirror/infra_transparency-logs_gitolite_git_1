@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7379932328633813633=="
+Content-Type: multipart/mixed; boundary="===============4400862280910630739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 24 Jun 2024 15:41:08 -0000
-Message-Id: <171924366834.31290.581377668931627928@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 15:41:10 -0000
+Message-Id: <171924367071.31361.14100348657310778286@gitolite.kernel.org>
 
---===============7379932328633813633==
+--===============4400862280910630739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 3226607302ca5a74dee6f1c817580c713ef9d0dd
+  - ref: refs/heads/100GbE
+    old: fff5cca345a66a341870512e58ca469042249f25
     new: 568ebdaba6370c03360860f1524f646ddd5ca523
-    log: revlist-3226607302ca-568ebdaba637.txt
+    log: revlist-fff5cca345a6-568ebdaba637.txt
 
---===============7379932328633813633==
+--===============4400862280910630739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3226607302ca-568ebdaba637.txt
+Content-Disposition: attachment; filename=revlist-fff5cca345a6-568ebdaba637.txt
 
 b1dc3c68e977273397619d901b34f25634666c24 can: mcp251x: Fix up includes
 5ca3801388f8ae69b145812410927d5e8156b67a can: sja1000: plx_pci: Reuse predefined CTI subvendor ID
@@ -56,13 +56,9 @@ d4383d67a25b1972d41423cbeec56f3eecfc45cb can: mcp251x: simplify with spi_get_dev
 9cdae370c4ec415c4057f76c612089068b1ff01a can: mcp251xfd: simplify with spi_get_device_match_data()
 3da74c5145dc729e06e2fb950b4aa196f83bf65f Merge patch series "can: hi311x: simplify with spi_get_device_match_data()"
 cd5a46ce6fa62abedd7740e4bd9f3d82041210ee can: m_can: don't enable transceiver when probing
-639ac8ce8b65a44f176e3e831e39d5dde738ac71 ice: store representor ID in bridge port
-8d2f518c0c9dc86be677c037a6e2f5e7da268866 ice: move devlink locking outside the port creation
-4d364df2b5ed1718580f22df1458cfecf82787a2 ice: move VSI configuration outside repr setup
-fff5cca345a66a341870512e58ca469042249f25 ice: update representor when VSI is ready
 e9212f9dd1fb903c24c9258bcee5f0cd93de782c Merge tag 'linux-can-next-for-6.11-20240621' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 185d72112b951404968cfaa9f77cd9ee19207205 net: xilinx: axienet: Enable multicast by default
 84562f9953ec5f91a4922baa2bd4f2d4f64fac31 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 568ebdaba6370c03360860f1524f646ddd5ca523 MAINTAINERS: adjust file entry in FREESCALE QORIQ DPAA FMAN DRIVER
 
---===============7379932328633813633==--
+--===============4400862280910630739==--
