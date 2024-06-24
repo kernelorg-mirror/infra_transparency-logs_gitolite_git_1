@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1074971713340609962=="
+Content-Type: multipart/mixed; boundary="===============5447490799193917608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 24 Jun 2024 15:35:08 -0000
-Message-Id: <171924330800.25215.18329922361157583825@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 15:35:13 -0000
+Message-Id: <171924331325.25325.197536417258497643@gitolite.kernel.org>
 
---===============1074971713340609962==
+--===============5447490799193917608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8406b56a91ec458172c4fe1bb13038031e975b6a
-    new: 058722ee350c0bdd664e467156feb2bf5d9cc271
-    log: revlist-8406b56a91ec-058722ee350c.txt
+  - ref: refs/heads/dev-queue
+    old: 29b82d57e7708f4aeed886e92061e731892d1ba0
+    new: c09eae26c409276715bb2d0605049e47cd1e7b20
+    log: revlist-29b82d57e770-c09eae26c409.txt
 
---===============1074971713340609962==
+--===============5447490799193917608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8406b56a91ec-058722ee350c.txt
+Content-Disposition: attachment; filename=revlist-29b82d57e770-c09eae26c409.txt
 
 537a350d14321c8cca5efbf0a33a404fec3a9f9e batman-adv: Don't accept TT entries for out-of-spec VIDs
 6bfff3582416b2f809e6b08c6e9d57b18086bdbd Revert "batman-adv: prefer kfree_rcu() over call_rcu() with free-only callbacks"
@@ -46,5 +46,8 @@ bf1bff11e497a01b0cc6cb2afcff734340ae95f8 net: dsa: microchip: monitor potential 
 f4b91c1d17c676b8ad4c6bd674da874f3f7d5701 ice: Rebuild TC queues on VSI queue reconfiguration
 02ea312055da84e08e3e5bce2539c1ff11c8b5f2 octeontx2-pf: Fix coverity and klockwork issues in octeon PF driver
 058722ee350c0bdd664e467156feb2bf5d9cc271 net: usb: ax88179_178a: improve link status logs
+3e1c8980af095786678c898734d05bf3d80df977 e1000e: Fix S0ix residency on corporate systems
+f4a89808b06aaab1c137a0524f7f0302caa63572 ice: Add a per-VF limit on number of FDIR filters
+c09eae26c409276715bb2d0605049e47cd1e7b20 ice: use proper macro for testing bit
 
---===============1074971713340609962==--
+--===============5447490799193917608==--
