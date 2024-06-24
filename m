@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2727567737193535113=="
+Content-Type: multipart/mixed; boundary="===============0683940470271025220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 24 Jun 2024 14:14:18 -0000
-Message-Id: <171923845891.26901.1733164718627504940@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 14:15:15 -0000
+Message-Id: <171923851531.28984.13554320074776289397@gitolite.kernel.org>
 
---===============2727567737193535113==
+--===============0683940470271025220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    new: a81dbd0463eca317eee44985a66aa6cc2ce5c101
+    old: a81dbd0463eca317eee44985a66aa6cc2ce5c101
+    new: ea55c65dedf40e9c1911dc1e63e26bc9a59692b9
     log: |
-         0ac18dac43103ab1df6d26ec9a781c0126f83ced tty: serial: 8250: Fix port count mismatch with the device
-         9d141c1e615795eeb93cd35501ad144ee997a826 serial: 8250_omap: Implementation of Errata i2310
-         7c92a8bd53f24d50c8cf4aba53bb75505b382fed tty: mcf: MCF54418 has 10 UARTS
-         a81dbd0463eca317eee44985a66aa6cc2ce5c101 serial: imx: set receiver level before starting uart
+         c5603e2a621dac10c5e21cc430848ebcfa6c7e01 Revert "serial: core: only stop transmit when HW fifo is empty"
+         9bb43b9e8d9a288a214e9b17acc9e46fda3977cf serial: core: introduce uart_port_tx_limited_flags()
+         ea55c65dedf40e9c1911dc1e63e26bc9a59692b9 serial: bcm63xx-uart: fix tx after conversion to uart_port_tx_limited()
          
 
---===============2727567737193535113==
+--===============0683940470271025220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719238457 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719238514 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1719238457-e656423a19745eccd77884f28c11e11533bfd31d
+nonce 1719238513-6e3575561f7ba27c9e2a7af0a20c68c398d595d5
 
-6ba59ff4227927d3a8530fc2973b80e94b54d58f a81dbd0463eca317eee44985a66aa6cc2ce5c101 refs/heads/tty-linus
+a81dbd0463eca317eee44985a66aa6cc2ce5c101 ea55c65dedf40e9c1911dc1e63e26bc9a59692b9 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5fzkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j3QP/2KhOF0SYvSzEBRcdGce
-PD806CnVnmFbH4E6SDNzgOxJ5lWI5PdpOq8wIKE0qE5zGQOm0IO1AxCyITvAsOIH
-PD3JRsV61ywRYk3dLuAIRIlRjXLtT0vw8fmG1s8MFEaedRKcmNrMiAC4N8Ofxr9K
-rHHcopGzoS2XMORvmw6KnlnKHiL0ZF+P7ewVLXJ65UHDfANUroZRiGtSUg7kkr0y
-434Ir/ukYudkciJoZ28vbQLtcMDGhkAe+uDGP4XU22grPnT0CxmIp6jbKVjF+4Kt
-PuMJuq0ZX1pRJZNQHn/pX6mJ2TicBxHZjZPozcgWjXEBc3oTLegViSBF3IYgbCnD
-AMf4D4At/iOGer4OQNGr23oRFRGOI4SWy0b6QvwFQBEAiMNG5iunhuLUpXKWL4LN
-3RBGGQovpc80K3kaKkeOTv4b/4bSvCBipZsMORoeaccf7EQdGw0zsxQx0J1Kr3Bp
-ugO95u3C+dZAPRXn8F0vR4uOwco1Fknyldt3v0/Gi1m7m8gcz1gzd7DqFT/3ZK5C
-EzuXdSMAHpH699rQloL3BejQLZw2SyC+FgUlCgrnSC3qE7ZpREFPMCWLz1oTKWSW
-hKU99QVkQPOuyHBzm9iK9xIzvt1nXOg9jwiSQfH5CEQaPepQUyoWvIRYsFzyUcxJ
-FULouoKO+V+x/57Cmf+1L0qb
-=s+ja
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5f3IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uFQP/05gk5NDPxQPNZsaAEAv
+9nd5pzjDXXzkSyFB1J/ylTkDzVqt4MsNFWP6gYm2yua6PGI6f7c0vuZCVA2PKFGh
+5/hefhOSnulHA93RL/aKAms+EIh76XZA27y64xgXIABGFKfvjMX0zkjldAbHwsU8
+uoFqr3Tn/xxiMd8SJJUM7FNWXDqhsReo1YUFV3qDn4VBqu0W3Ajv5+mS6dHrSmYQ
+MPlnD1GGxacKi+NUlcugRAZIhD0pOdHsGTpGLe1mfsZtVQA6PxMVSPvqExDy2IlW
+Z5RCvX7kYmxjqMZRMPtGbxxZc4ea1JNIh8clvfyuRBhB5iYtZ6Iyee2nMfCM6AlY
+oEjErVTieW5b69QdIcDxsgz063eVR5vMFtrNZQx9Lo2G3+dn9Bm2/ExReA7UxaQS
+C7T0o5TniCBSJmWmOM63KEQDl1M1xHPaJftug71UhbwGFVN3/xXeCRgs3krGM70L
+33yKvrKiJeAyn+JWX1+okFD3VUkyt9YuUWIC9VBaySW4Goh5fjf8dc4k+N1XIdnS
+h2lvTQakJKle9X+BX6jXZ1ZEm/1/MjQjuNdt+mW10LJGrlL/B/f1tyaDbQpCsKh6
+ejD33pzQVx4vc1yk0HqMruSj/sqwwJXsCbWUWu+xH/NEEiRxdCb03cmrwvShuvde
+8l45O/8rB9k1nCqb90lWrZPt
+=sj6d
 -----END PGP SIGNATURE-----
 
---===============2727567737193535113==--
+--===============0683940470271025220==--
