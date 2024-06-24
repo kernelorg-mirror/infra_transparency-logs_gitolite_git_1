@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5204947847543576048=="
+Content-Type: multipart/mixed; boundary="===============7975708221858382225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 24 Jun 2024 15:41:03 -0000
-Message-Id: <171924366347.31094.9061861514417991810@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 15:41:05 -0000
+Message-Id: <171924366599.31211.17651028088283480907@gitolite.kernel.org>
 
---===============5204947847543576048==
+--===============7975708221858382225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3226607302ca5a74dee6f1c817580c713ef9d0dd
     new: 568ebdaba6370c03360860f1524f646ddd5ca523
     log: revlist-3226607302ca-568ebdaba637.txt
 
---===============5204947847543576048==
+--===============7975708221858382225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ e9212f9dd1fb903c24c9258bcee5f0cd93de782c Merge tag 'linux-can-next-for-6.11-2024
 84562f9953ec5f91a4922baa2bd4f2d4f64fac31 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 568ebdaba6370c03360860f1524f646ddd5ca523 MAINTAINERS: adjust file entry in FREESCALE QORIQ DPAA FMAN DRIVER
 
---===============5204947847543576048==--
+--===============7975708221858382225==--
