@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1130802641325893448=="
+Content-Type: multipart/mixed; boundary="===============0147676449771348474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Jun 2024 09:52:39 -0000
-Message-Id: <171922275980.14916.8998249385575546331@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 09:52:56 -0000
+Message-Id: <171922277652.15099.4336081903075879718@gitolite.kernel.org>
 
---===============1130802641325893448==
+--===============0147676449771348474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e018176a5a382806ea680150ed6bf05d30912fe6
-    new: 0fc6118d3ba655c4d8ee241c0a70ba637ab0e8e2
-    log: revlist-e018176a5a38-0fc6118d3ba6.txt
+    old: 0fc6118d3ba655c4d8ee241c0a70ba637ab0e8e2
+    new: cd3d1dc4c534f9a1a52304f95c5892dc4560849e
+    log: revlist-0fc6118d3ba6-cd3d1dc4c534.txt
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
 
---===============1130802641325893448==
+--===============0147676449771348474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e018176a5a38-0fc6118d3ba6.txt
+Content-Disposition: attachment; filename=revlist-0fc6118d3ba6-cd3d1dc4c534.txt
 
-1d840a595cba6b11beacb0261c4c21bc2ca349da Merge branch into tip/master: 'x86/merge'
-39619f3b43cf78c8bf4b89852e1737d52212bd32 Merge branch into tip/master: 'irq/urgent'
-f7774fb57a9763a6fc0e00d7efc9274b8998108e Merge branch into tip/master: 'smp/urgent'
-d0829606deb745e51ae37d9acedf89c0ae22fbdc Merge branch into tip/master: 'x86/urgent'
-51f08bdedc8eaca50ab1237768320990feb3ffa0 Merge branch into tip/master: 'WIP.x86/fpu'
-c988675f95ece60cd3be0c3954f61aad4373fc07 Merge branch into tip/master: 'irq/msi'
-17fcf40665f5b97154c0d5a232a54a7103b05036 Merge branch into tip/master: 'locking/core'
-8fdff898c9c99ab77220d4d7d5c1df48d0b20f2a Merge branch into tip/master: 'perf/core'
-6d7515c9af518b020f2a8293ecca471a177edc5b Merge branch into tip/master: 'ras/core'
-b5dbc453280f63027c21602ff19f6895878ae65e Merge branch into tip/master: 'sched/core'
-127e2cbacffc0f2188b81201c6390650287f7ad2 Merge branch into tip/master: 'smp/core'
-dad82ade11f56167c2b5aac1c5d7847096260b85 Merge branch into tip/master: 'timers/core'
-b4b25bded12eb373df6a0653452ff7efd8ba2d4e Merge branch into tip/master: 'x86/alternatives'
-8d169658188a81301a0454fca66840c5542dd8ec Merge branch into tip/master: 'x86/boot'
-714704f58b8f9abb2ad34312ede1f006d0bee9b8 Merge branch into tip/master: 'x86/build'
-a2822aa9b8613f7d17c6ebf96324b571336c3e90 Merge branch into tip/master: 'x86/cache'
-88cd8411ab3e629645cb13a29d934e480bf12481 Merge branch into tip/master: 'x86/cc'
-c9037d41441943b9e281d3082ed76c873e18aae4 Merge branch into tip/master: 'x86/cleanups'
-0940d67ecd9c099a39761912a4b55921c5f8abfb Merge branch into tip/master: 'x86/core'
-2477caec371f865d3bb3d5e9eb15d111f132cb58 Merge branch into tip/master: 'x86/misc'
-9d40fc1fb404c6d4c6fa9ba46a29adc208f8ff68 Merge branch into tip/master: 'x86/percpu'
-0fc6118d3ba655c4d8ee241c0a70ba637ab0e8e2 Merge branch into tip/master: 'x86/sev'
+2b85b7fb1376481f7d4c2cf92e5da942f06b2547 powerpc/crypto: Add generated P8 asm to .gitignore
+a986fa57fd81a1430e00b3c6cf8a325d6f894a63 KVM: PPC: Book3S HV: Prevent UAF in kvm_spapr_tce_attach_iommu_group()
+8043832e2a123fd9372007a29192f2f3ba328cd6 memblock: use numa_valid_node() helper to check for invalid node ID
+29433a17a79caa8680b9c0761f2b10502fda9ce3 cifs: drop the incorrect assertion in cifs_swap_rw()
+8bf0287528da1992c5e49d757b99ad6bbc34b522 cifs: fix typo in module parameter enable_gcm_256
+ce5291e56081730ec7d87bc9aa41f3de73ff3256 cifs: Defer read completion
+969b3010cbfcf58de65399dff8252c41b5e79292 cifs: Only pick a channel once per read request
+3f59138580bf8006fa99641b5803d0f683709f10 cifs: Move the 'pid' from the subreq to the req
+d4e001ffeccfc128c715057e866f301ac9b95728 dt-bindings: i2c: atmel,at91sam: correct path to i2c-controller schema
+5c8cfd592bb7632200b4edac8f2c7ec892ed9d81 dt-bindings: i2c: google,cros-ec-i2c-tunnel: correct path to i2c-controller schema
+5a72477273066b5b357801ab2d315ef14949d402 i2c: ocores: set IACK bit after core is enabled
+4a3e37b3caea817199757a0b13aa53dd7c9376c8 MIPS: mipsmtregs: Fix target register for MFTC0
+0d5679a0aae2d8cda72169452c32e5cb88a7ab33 mips: fix compat_sys_lseek syscall
+1cbf347288702af0fe8667c0ce760afbe982a2f1 i2c: Add nop fwnode operations
+d18b822c8f622ed37af7130088a0b7f1eb0b16e6 docs: i2c: summary: start sentences consistently.
+75d148c90a34b94a3e3e7e7b2f30a689d8fbb7c8 docs: i2c: summary: update I2C specification link
+a5b88cb9fdff337a2867f0dff7c5cd23d4bd6663 docs: i2c: summary: update speed mode description
+d77367fff7c0d67e20393a8236b519d5c48ee875 docs: i2c: summary: document use of inclusive language
+1e926ea19003680c423cdc3c7174b046fd462a35 docs: i2c: summary: document 'local' and 'remote' targets
+20738cb9fa7ad74c4f374c5b49c8189277df3a9d docs: i2c: summary: be clearer with 'controller/target' and 'adapter/client' pairs
+2c50f892caadc94ff216d42accd8222e172b5144 Merge tag 'i2c-host-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+d1505b5cd0426bbddbbc99f10e3ae0b52aaa1d1f Merge tag 'powerpc-6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+b9e6612d61de48dce0d838333b7a27583e0f5e2c Merge tag 'x86_urgent_for_v6.10_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+0971e82ea34c5e01cd3e68d231caa81780e8cafb Merge tag 'fixes-2024-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
+cd3d1dc4c534f9a1a52304f95c5892dc4560849e Merge branch 'linus'
 
---===============1130802641325893448==--
+--===============0147676449771348474==--
