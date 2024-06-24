@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 24 Jun 2024 16:34:54 -0000
-Message-Id: <171924689454.4613.601979364895054711@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4210144344114815050=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Jun 2024 16:39:07 -0000
+Message-Id: <171924714729.9160.5488679353185250004@gitolite.kernel.org>
+
+--===============4210144344114815050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath-next
-    old: 253ec89c9013b0e61f5c54344df7c065d54934d1
-    new: 7af01e5695295444d47f4ead3e27e91d8c9e60f4
+  - ref: refs/heads/master
+    old: db05585583697c8136ca8a6ecf9dcacd3b773e9c
+    new: 4f5226f0389ae3e36a4f400a113ddfe301d93fed
     log: |
-         3216b7bcd7197ca5da204d3eea81d308cae2a849 wifi: ath12k: add ATH12K_DBG_WOW log level
-         5931741709195da9abb0fb0b8c0fed5d0898b275 wifi: ath12k: implement WoW enable and wakeup commands
-         4a3c212eee0e36c1cd55bfbfb94041a0d3ad265b wifi: ath12k: add basic WoW functionalities
-         16f474d6d49db5d93e79c2d4bdcc3a730cf1d1f1 wifi: ath12k: add WoW net-detect functionality
-         66a9448b1b897793a3237f832b5ce3bb255e28e7 wifi: ath12k: implement hardware data filter
-         1666108c74c438180dd69973e57909420836fd49 wifi: ath12k: support ARP and NS offload
-         aab4ae566fa15c19efadad16a8b54306b9b37e10 wifi: ath12k: support GTK rekey offload
-         7af01e5695295444d47f4ead3e27e91d8c9e60f4 wifi: ath12k: handle keepalive during WoWLAN suspend and resume
+         4f5226f0389ae3e36a4f400a113ddfe301d93fed 6.1-stable patches
          
-  - ref: refs/heads/ath-qca
-    old: 363a76cfa1dabb0ca185d31a7258636dde643ef7
-    new: 780775b6930c47c6e5f30acdabd56c46c0437159
-    log: |
-         3216b7bcd7197ca5da204d3eea81d308cae2a849 wifi: ath12k: add ATH12K_DBG_WOW log level
-         5931741709195da9abb0fb0b8c0fed5d0898b275 wifi: ath12k: implement WoW enable and wakeup commands
-         4a3c212eee0e36c1cd55bfbfb94041a0d3ad265b wifi: ath12k: add basic WoW functionalities
-         16f474d6d49db5d93e79c2d4bdcc3a730cf1d1f1 wifi: ath12k: add WoW net-detect functionality
-         66a9448b1b897793a3237f832b5ce3bb255e28e7 wifi: ath12k: implement hardware data filter
-         1666108c74c438180dd69973e57909420836fd49 wifi: ath12k: support ARP and NS offload
-         aab4ae566fa15c19efadad16a8b54306b9b37e10 wifi: ath12k: support GTK rekey offload
-         7af01e5695295444d47f4ead3e27e91d8c9e60f4 wifi: ath12k: handle keepalive during WoWLAN suspend and resume
-         780775b6930c47c6e5f30acdabd56c46c0437159 Merge branch 'ath-next' into ath-qca
-         
+
+--===============4210144344114815050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719247146 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1719247142-9fc3a31146d6bb7f5210e5a4b9fc75c0aae65600
+
+db05585583697c8136ca8a6ecf9dcacd3b773e9c 4f5226f0389ae3e36a4f400a113ddfe301d93fed refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5oSobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V2kP/3kEl4neNj6NNZLQmUbA
+K9w6LKiJjZUDIDIyIpzE4iMXqrJMi0BzN/ah6qWBVDx63pnrRUFwi2dANROl9Xqe
+ALa9A759H8JtRf1NhMVLB1vSbjntlXqHp7Je1IlcrgreP+AvqxGJIFxRQEz/EjK7
+XkWeoNw6zv7k5uh4uJ5BC9qbZ+OJprLKneUf7MnVCFFiFaPBadQko6nscIyr5ijC
+Yce7n9talYndYpMcFcS8mQEmQ1qz+Vl18OQjtef+UTQ3VKo6iq/xcesjAR5X26LO
+WNVMeFkxJXD1CZbUOMg1YoLBdRUuF53gXcmbPBgN77xJnKHos/gx78TXOAU+am3i
+2U67xvs2iY0QIwSzeAXPWtqyIQb3kabrgL306YbDLfWOwSYJluQ+lauRIhh7GIgr
+BWCkWsEBiVUHF3Yj9O2JeZBZiL14KTDDo0si1MtSOxNM7Tq9NmwyARbt4KC38U7m
+Yqlgo9LGewh/tCmN1KfFtYn+eQOtH+el4X5DfktAxrUJArR691AJlJIc3uXqaqQI
+IKU9B9FEUxJc6gWnwhBCsHd9O73EirfNSMoBZ2+tZyNHVwEVdaTU+j51vOQ9VqD1
+ISTj++A3qa70JJLjnNzRlWkvpUZLBM7QKOye2djXqhR45b81dYFEemARyq7ay3hS
+UUZf4eJU3+gyCE0iSEa9C1Cr
+=kGNt
+-----END PGP SIGNATURE-----
+
+--===============4210144344114815050==--
