@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Jun 2024 13:48:39 -0000
-Message-Id: <171923691986.7333.10937939985730615873@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8821301765082776845=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 24 Jun 2024 13:51:22 -0000
+Message-Id: <171923708224.10115.14770324488092404666@gitolite.kernel.org>
+
+--===============8821301765082776845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a0b19b94a06e187b9b1fa260d0f5d70e0581edfa
-    new: 89e7ba7562dc826612b44a6a6a8d8003cc5cce42
+    old: e16b11197926c36d18506248351d8203a80f65e5
+    new: 7cc08fdb0b06270dc5c780dddb8913487023fc30
     log: |
-         58011a0e47920fc68f7eb27707ec0515241e5cce Drop remoteproc patches that break the build
-         c526d9e50d325479fff2ffe534fe9aff2247b1ef Fixes for 6.9
-         c9feaa0334a8dbe9031ae763de092f560bd308d9 Fixes for 6.6
-         516585ab642969f6752df2c8eb27ca7363b72cb6 Fixes for 6.1
-         eb0c204f0883a4fa5746d47297d6f0939e246fef Fixes for 5.15
-         8fa785d0e4c2cb605f9246886796600815a8e517 Fixes for 5.10
-         5f439620dc52f8e802122c93bfe131caac61e971 Fixes for 5.4
-         89e7ba7562dc826612b44a6a6a8d8003cc5cce42 Fixes for 4.19
+         7cc08fdb0b06270dc5c780dddb8913487023fc30 some 6.9.4 cves allocated
          
+
+--===============8821301765082776845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719237076 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1719237076-a5fd018b623eaff5f021539a9985ea09ed12107c
+
+e16b11197926c36d18506248351d8203a80f65e5 7cc08fdb0b06270dc5c780dddb8913487023fc30 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5edQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QQUP+gMYS7ZI16Q4m5/Qm9Fb
+maoCu2/iaDY113aU3P5w2HJZ+tUBy5KTJWLRg7XcszHwDgp4ajTfbiopuKlyNl12
+9Tlj5HP6I3hFbN/uJypbFpTIMPkwzQyQUeyjmzD2NxyXceNk+QZoRoS9EbKgLBvf
+PCcOHyV82W3LXB7wjjXuzNCaZeewmFSHPAk2co1LxnUz0lMhM62aPbk1iWz/4Tfv
+V/he3pvfMf65m9Nb6I2NWfEqBsq5gA5FO5d4LSjGU/OY3iEmAC8RFaLgK0p5Mxt7
+K+3myYOx5lBDibK+iH04P3GMB6RL3+IqpiUNOp2unch78Nr+gzOktviTs8K1jTZ0
+ulufSAnUtSmkFKq9SAiW0P5RnoyO/O9KcMOD1zOh1vm/QmnQoZQxsjVpUdGTbBhJ
+jlk6Wjp2sgzHn4JnUdYAGGsuKymydSJK73y2PZoJTAzi/9F7yCfRIieHv7YAXfGF
+JpZNEZHKVo1KV0Q+9x4Y3STnRvYs7WrwfYsdmJocGGm2yxo9JkM5BXl/NtpMDfJa
+yoMx8uIBbRfipSJ/NsUQov83VnMaMGYT12qpXRhp/JUwqD4T9DbIhlHmF1/uQPZT
+f7zcTuGUQWaqM2DKGFrTGoFtZPTUm5J4ZJWqAYduFrlMj2Y671okDOUYBIZRnZ15
+WhjY4esA+K2+c//KwNgj8g7u
+=cEAN
+-----END PGP SIGNATURE-----
+
+--===============8821301765082776845==--
