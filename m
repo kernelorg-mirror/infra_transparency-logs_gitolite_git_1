@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1614774712878872074=="
+Content-Type: multipart/mixed; boundary="===============7171745309862823991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 24 Jun 2024 10:59:21 -0000
-Message-Id: <171922676106.30142.4236746998392408867@gitolite.kernel.org>
+Date: Mon, 24 Jun 2024 10:59:47 -0000
+Message-Id: <171922678730.30340.11885910236505575250@gitolite.kernel.org>
 
---===============1614774712878872074==
+--===============7171745309862823991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_driver
-    old: f4b9252a85a6ce543ba43ddce935a318ed04a618
-    new: 2b3d078785ef93549428eddbb9fb7da8a7cfbc5b
+  - ref: refs/heads/driver-core-next
+    old: b5dd424181f33c2978562c64b286fc22cf5ef4bf
+    new: 6b521fc111a2ad5ead39776960d3d2d289ce0722
     log: |
-         9e5a212a7fd3d9c882d1ca65d7cbcb4eb56de3bd driver core: have match() callback in struct bus_type take a const *
-         32aa26e3ce040224440a584b02c5feb895ed1740 driver core: make driver_[create|remove]_file take a const *
-         9626087a38e70d7e486440a62a8fd97d8ec68103 driver core: make driver_find_device() take a const *
-         df37fdf72a86be98317ed3cacfe5a0bccf3877f5 driver core: module: make module_[add|remove]_driver take a const *
-         1fea75a2eab80a5ba645c35464196cfb2ee2b392 USB: make to_usb_driver() use container_of_const()
-         70f87a2849809f872508875c0fd7169aaea9e148 USB: make to_usb_device_driver() use container_of_const()
-         e82e5c4fd6de8638157aadf8afe93027465b8a64 USB: make single lock for all usb dynamic id lists
-         2b3d078785ef93549428eddbb9fb7da8a7cfbc5b USB: move dynamic ids out of usb driver structures
+         fca3eff7d36bcd1a51d2c256ccebbe3617d4fe3a parport: make parport_bus_type const
+         a674fefd17324fc467f043568e738b80ca22f2b4 rust: add abstraction for struct device
+         de6582833db0e695ba0c548e3cc2ad7dbb6aa260 rust: add firmware abstractions
+         2f3cfd2f4b7cf3026fe6b9b2a5320cc18f4c184e driver core: Make dev_err_probe() silent for -ENOMEM
+         269e974e664207cc45f83b579565ba73de1b75dc driver core: make [device_]driver_attach take a const *
+         bbe98f4fde5a52aa01a1e1d754e1398228815fb0 firmware: rust: improve safety comments
+         7bd08093999898c0c35c4e90102cb2daebfadd9a MAINTAINERS: add Rust FW abstractions to FIRMWARE LOADER
+         892fb846d6a04ad95c22ae8c758fd8998a0d237c MAINTAINERS: add Danilo as FIRMWARE LOADER maintainer
+         4ead6c37b04aa35943ea270f09db18ebb38e63ff device: rust: improve safety comments
+         6b521fc111a2ad5ead39776960d3d2d289ce0722 MAINTAINERS: add Rust device abstractions to DRIVER CORE
          
 
---===============1614774712878872074==
+--===============7171745309862823991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719226754 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719226786 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1719226753-3b03f5f3c334f1c7f36d79ab5b15aced65f624d3
+nonce 1719226786-62c1893e1957c574cc3ec9bc5a7b930b892220d7
 
-f4b9252a85a6ce543ba43ddce935a318ed04a618 2b3d078785ef93549428eddbb9fb7da8a7cfbc5b refs/heads/const_driver
+b5dd424181f33c2978562c64b286fc22cf5ef4bf 6b521fc111a2ad5ead39776960d3d2d289ce0722 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5UYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ryYP/jjqyks38bQNcpf73/5b
-QDKie/Kp0oDhRhfAMuE9P49M8PN9UfyCru+l2cbCdfSxJm9HhSJ7/UmXfefT+6cU
-OiGtltYncgQk8YIQY8Q6d0IBg5eBA9KDlTXN2Pb7IrsqYw+aOdspOwwIQ1eX87Kd
-bMZkQoi/4jdojMGiPEQpE2CUIpK0Phr1q7CoLHWy8KrFiEJanPDpMO0Cp5osyvdP
-X5g2vLc0BiL4N3P+4hTVJJ43alrcayrAntPW0vWCHua4qpE8jE3l2hAYFvCscWy7
-qHY5i9ZgsZTVh3siHTSKlxKip3G2dlUhFNx1nPnx1iRm/D/44nFw/KwQeG/bauk2
-WYitHUqQWYnItn6WY3rl9tYVrU1t0znKIHdDRZvVsRCngQ6TdBuLwOk9KBK5BbCo
-Sw8ncAkV/MVHMSop/woHFpQVc0C/1b3PokZ60KzRxuKUGD56DQ7e5bZq5Ah7dBOb
-cI/Tkt/vWO4Q3dEyLnGuCeSaPU3yOliJqB/9t34sg2q0O3avi671hKzr3Q5BLrTH
-AcHOP9L5yUXSujnfE3K7ycVy/yYKust3JWCIx+xQXeoBaRXOxnrGMFk/F5QCDTmU
-h9q/GgghGgmNTP+6fjqs+6rvj9nS8CtEI6VA8XZlBvz8/JJG+lfitxP+SM0Ek7qC
-hDLVtmqg6hNCziBa8VATyprC
-=/w1+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ5UaIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qcUP/R4kfSCbDTpVKtwYCV3H
+ic5laho263ODRfz/yoIYqoxl2HeHaTwtT7Beea0uJfLOOchQyNRUqVwYUg91Z9hU
+J5PGC0RAPUBPuXftkVyTb2Qpec6KRHajv05FVGOhoYQ0Iwa0xnuH4VJYJlKO9w4A
+SjS75YBHG9K1Ur4I8qyQ7jyDFfge/oaGSOuAromMhvvF/ivjKhXmkubXPMUvdMdk
+pztpGcbb1TtO4nmlO+55FWO7yIbnyi8fn2vnDhEZyZASpOo7/7rnGkbLPjgsOasb
+KKqjjwgjJKiM2kT7djtq3UBcFAy/DB1SpqX9iez7iJJ7H8NHZ7yi+NYdjKss39E7
+uCyHvQ8k8Ell33F7PfMMPE3rzX9V6CCGEUCRChXOQppEtbcNlpJG5uLy9Y25hI6h
+l9ZC9vRobwD0E23JLPNo4zw82THX01Qd6w7nUwdaQECpD8oQ5e8odY13MhRyErp5
+c+QbjbTxd4HpyK2Bsu2zed++kzzpvgIQR4UChUrF37SAHbU5IYExexV2Hb9km8C2
+yPCQr5YAZSbG2e7MKCEESLsYlOSpBrFgKv+JDBiI0+xzwKnnxh9av3K0ya6vmujp
+elJSe3zhAurOc74R+aOHWBdZe30eg0NiqQnVklmxrIa3/8j0o9o2MiNEZUteHeqX
+OzboVZvstQPPUaMRqIpyuJ9R
+=i8qc
 -----END PGP SIGNATURE-----
 
---===============1614774712878872074==--
+--===============7171745309862823991==--
