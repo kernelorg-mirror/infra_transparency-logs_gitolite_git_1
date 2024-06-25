@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Jun 2024 18:11:50 -0000
-Message-Id: <171933911063.18435.8579178098343994610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jun 2024 18:12:11 -0000
+Message-Id: <171933913181.18625.15211539041425233188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 17b3d26bcca5303468bc198287d0f386562c7076
-    new: 5cf18c2f29d18abec7c524a601d7948df96bc101
+    old: 46ea639eec4197b45d5b487fcfa5386b0357542b
+    new: b905658ee582d9146cef9d6a9951fd320ae5174c
     log: |
-         15c99e7fa9e2bb536e813478250d2a609863dcfb MAINTAINERS: adjust file entries after adding vendor prefix in sound dtbs
-         6f9faf1410fe151350ece4a93df30b9e06deec92 ASoC: codecs: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-         5cf18c2f29d18abec7c524a601d7948df96bc101 Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         a93f089ccf823dcb9cf678969e127047762a1473 spi: spi-imx: Switch to RUNTIME_PM_OPS/SYSTEM_SLEEP_PM_OPS()
+         6765e859fac9acdc1265b6f16ed33f42317ed30e spi: spi-fsl-lpspi: Switch to SYSTEM_SLEEP_PM_OPS()
+         b905658ee582d9146cef9d6a9951fd320ae5174c Merge remote-tracking branch 'spi/for-6.11' into spi-next
          
