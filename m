@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1627656272746733578=="
+Content-Type: multipart/mixed; boundary="===============7473736484196663750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 25 Jun 2024 17:46:24 -0000
-Message-Id: <171933758403.30929.4101869891424334775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jun 2024 17:46:33 -0000
+Message-Id: <171933759389.31058.1817134495312375012@gitolite.kernel.org>
 
---===============1627656272746733578==
+--===============7473736484196663750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.11
-    old: 5a31243aa2ce9b2a533a0b510a08989974313ab1
-    new: 92955a25f77046c1900f95748f97bf77192e9fe8
+  - ref: refs/heads/for-6.11
+    old: 17436001a6bc42c7f55dc547ca5b1a873208d91d
+    new: 6765e859fac9acdc1265b6f16ed33f42317ed30e
     log: |
-         92955a25f77046c1900f95748f97bf77192e9fe8 regmap: add missing MODULE_DESCRIPTION() macros
+         a93f089ccf823dcb9cf678969e127047762a1473 spi: spi-imx: Switch to RUNTIME_PM_OPS/SYSTEM_SLEEP_PM_OPS()
+         6765e859fac9acdc1265b6f16ed33f42317ed30e spi: spi-fsl-lpspi: Switch to SYSTEM_SLEEP_PM_OPS()
          
 
---===============1627656272746733578==
+--===============7473736484196663750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719337582 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1719337581-749d972bec94b92c1279bbc0a0576cb985c2c62b
+pusher C3F436CA30F5D8EB 1719337592 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1719337591-000b64d3dcda926fba387305eac34d7d49dcc8ee
 
-5a31243aa2ce9b2a533a0b510a08989974313ab1 92955a25f77046c1900f95748f97bf77192e9fe8 refs/heads/regmap-6.11
+17436001a6bc42c7f55dc547ca5b1a873208d91d 6765e859fac9acdc1265b6f16ed33f42317ed30e refs/heads/for-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ7Am4ACgkQJNaLcl1U
-h9AaAgf/YRCg8O7Zy0aL3pq4XTGkDODt0/r6xPRYJXzVQG8Rme/iYpHQTiwsspB9
-jp4/EzeZM1X+e+NRluaK9Ke0hhshGpm89GZP5BB/zi/A4RM69sq3bi/vF4XmP3t3
-R3ksPNybqeQGtJZaIN09+6PoaeLJ7n+e6IKkZ7M/XG+bLWJFzwPzl1ShCux3gbq0
-Vwy7QmJsttnJQa1+jp7SOvl8zsrCxdTeu5N9cjXi2pvtkBz6Qj0KD2zMSvgGoyyp
-klYCMX5gwyAr5tEJBI7me98Z1WXfuTlIyZFXjh8xujsM2iWuRx55++RO5mrjeWtd
-zwGUewwgqjl2lmti9xmLcjSsGbQD9g==
-=ZEOI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ7AngACgkQJNaLcl1U
+h9DZ6ggAgeEn8YDQeRsmg4U0L49D3x1xRf5j7P+/isf4BwKmfkV2KcMKiqbrH4EI
+A6Vi4hquovPPATROSqkHLSud21GVXzWxH8QujyJNCMCAuRdwl9d0FmCBdO3IZCPJ
+AQrLfr4MVPDTCuRUpwGZQMdm4Hucv8rsteiasTU4vswaKdBIqWmPhOtEMURZkk/Q
+Lfgm0+nL/G58D7KJ9AZ4HJuhiO3rqueIvnELG/EhrOl5xbzOhp7v2+7c6aeoml7l
+TNEFak3MPL++/a8RYDAgyyQ+996ve19nD0WjTwt73IW9BCwDLzach8ZFrSxwHyAl
+g1LZD9Urckrtaw/EeQwAFOwH9/IRkg==
+=/XiE
 -----END PGP SIGNATURE-----
 
---===============1627656272746733578==--
+--===============7473736484196663750==--
