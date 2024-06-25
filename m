@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8437716927553354433=="
+Content-Type: multipart/mixed; boundary="===============7286062481943689477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 25 Jun 2024 02:06:29 -0000
-Message-Id: <171928118932.15367.6598626271732450483@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 02:07:45 -0000
+Message-Id: <171928126541.17190.8775762492492188254@gitolite.kernel.org>
 
---===============8437716927553354433==
+--===============7286062481943689477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/master
     old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    new: 6eae0f085bf932a7931569aebe449b94d3c4efb1
-    log: revlist-83a7eefedc9b-6eae0f085bf9.txt
+    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
+    log: revlist-83a7eefedc9b-f2661062f16b.txt
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
 
---===============8437716927553354433==
+--===============7286062481943689477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83a7eefedc9b-6eae0f085bf9.txt
+Content-Disposition: attachment; filename=revlist-83a7eefedc9b-f2661062f16b.txt
 
 aad11473f8f4be3df86461081ce35ec5b145ba68 NFSv4: Fix memory leak in nfs4_set_security_label
 6cbe14f42be3b596e9590d48e12436982ba26e4b MAINTAINERS: Change email address for Trond Myklebust
@@ -613,7 +616,5 @@ b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://
 d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
-e41f107428237224fd51d99a4dc4358aba3b7d5f erofs: fix possible memory leak in z_erofs_gbuf_exit()
-6eae0f085bf932a7931569aebe449b94d3c4efb1 erofs: convert to use super_set_uuid to support for FS_IOC_GETFSUUID
 
---===============8437716927553354433==--
+--===============7286062481943689477==--
