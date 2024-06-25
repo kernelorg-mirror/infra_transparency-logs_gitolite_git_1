@@ -1,26 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Jun 2024 15:17:51 -0000
-Message-Id: <171932867117.15735.15328542086235763827@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0599505028745615317=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 25 Jun 2024 15:19:28 -0000
+Message-Id: <171932876886.16410.18083946365036547417@gitolite.kernel.org>
+
+--===============0599505028745615317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/x86/vmware
-    old: f9e4b7a02b61631b964d53f7f24d2f81539cb0d3
-    new: 57b7b6acb41b51087ceb40c562efe392ec8c9677
-    log: |
-         34bf25e820ae1ab38f9cd88834843ba76678a2fd x86/vmware: Introduce VMware hypercall API
-         54651bb4dcfea0949afe72775212511ec4193b85 ptp/vmware: Use VMware hypercall API
-         f0db90b4127c0e454cd9a19ec4256221b974b819 input/vmmouse: Use VMware hypercall API
-         90328eaaff34f5617b3ec9603681b08d4a8e72df drm/vmwgfx: Use VMware hypercall API
-         b2c13c23ea9c1f748315b8c2c028bb3ae18f1e12 x86/vmware: Use VMware hypercall API
-         86cb65448d07fe516e18d9512ae5786cd90db9bf x86/vmware: Correct macro names
-         9dfb18031f0df2378b3d33a13fc485ef89caa285 x86/vmware: Remove legacy VMWARE_HYPERCALL* macros
-         57b7b6acb41b51087ceb40c562efe392ec8c9677 x86/vmware: Add TDX hypercall support
-         
+  - ref: refs/heads/main
+    old: 058722ee350c0bdd664e467156feb2bf5d9cc271
+    new: b1c4b4d45263241ec6c2405a8df8265d4b58e707
+    log: revlist-058722ee350c-b1c4b4d45263.txt
+
+--===============0599505028745615317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-058722ee350c-b1c4b4d45263.txt
+
+380d5f89a4815ff88461a45de2fb6f28533df708 bpf: Add missed var_off setting in set_sext32_default_val()
+44b7f7151dfc2e0947f39ed4b9bc4b0c2ccd46fc bpf: Add missed var_off setting in coerce_subreg_to_size_sx()
+a62293c33b058415237c55058a6d20de313a2e61 selftests/bpf: Add a few tests to cover
+bfbcb2c9d2978a28e9f0a77100170dc14fcf7c79 Merge branch 'bpf-fix-missed-var_off-related-to-movsx-in-verifier'
+b90d77e5fd784ada62ddd714d15ee2400c28e1cf bpf: Fix remap of arena.
+66b5867150630e8f9c9a2b7430e55a3beaa83a5b bpf: Update BPF LSM maintainer list
+5337ac4c9b807bc46baa0713121a0afa8beacd70 bpf: Fix the corner case with may_goto and jump to the 1st insn.
+2673315947c9f3890ad34a8196f62142e4ddef5a selftests/bpf: Tests with may_goto and jumps to the 1st insn
+cfa1a2329a691ffd991fcf7248a57d752e712881 bpf: Fix overrunning reservations in ringbuf
+316930d06b92a2419d8e767193266e678545b31d selftests/bpf: Add more ring buffer test coverage
+2b2efe1937ca9f8815884bd4dcd5b32733025103 bpf: Fix may_goto with negative offset.
+280e4ebffd16ea1b55dc09761448545e216f60a9 selftests/bpf: Add tests for may_goto with negative offset.
+7e9f79428372c6eab92271390851be34ab26bfb4 xdp: Remove WARN() from __xdp_reg_mem_model()
+482000cf7fd5ff42214c0d71f30ed42c55bcb00a Merge tag 'for-netdev' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+0983d288caf984de0202c66641577b739caad561 ibmvnic: Add tx check to prevent skb leak
+ff46e3b4421923937b7f6e44ffcd3549a074f321 Fix race for duplicate reqsk on identical SYN
+b1c4b4d45263241ec6c2405a8df8265d4b58e707 net: dsa: microchip: fix wrong register write when masking interrupt
+
+--===============0599505028745615317==--
