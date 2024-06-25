@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 25 Jun 2024 06:24:18 -0000
-Message-Id: <171929665820.9870.5285504957558310399@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3349530320962569732=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 25 Jun 2024 06:34:13 -0000
+Message-Id: <171929725364.16662.13302691784059160616@gitolite.kernel.org>
+
+--===============3349530320962569732==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 1c73bb26381c58771e50768848222b18b3262a86
-    new: b7c596cd8b77876a4dd535650b64721764698d03
+  - ref: refs/heads/master
+    old: e97ede82d641e28d690500a647e4421a485600ad
+    new: e50ee906307d1e69680437df587079d29472f816
     log: |
-         7fc6f55b0ea3096a88898c02b928e7b4a60e1400 perf intel pt: Add new JMPABS instruction to the Intel PT instruction decoder
-         60451f6fa7861b3757621c2daa646482113668d8 perf tests: Add APX and other new instructions to x86 instruction decoder test
-         451fb8446ffd6d33170027added8ebaf869bc98d perf: Timehist account sch delay for scheduled out running
-         339d191738eb433b656df112f2c43a05b14ec321 util: constant -1 with expression of type char
-         2b2ae623d2b2815241be3cc4e9a902f633a907d3 perf unwind-libunwind: Add malloc() failure handling
-         ae0b9e3483ae44daf526fa54cc5a34db52154257 perf pmus: Fixes always false when compare duplicates aliases
-         b1b54568c433e968c9838770a3c9553ae88db089 perf report: Fix condition in sort__sym_cmp()
-         85ac0b66a2a912f119f56e5d5a22ab4b7558e401 perf symbol: Simplify kernel module checking
-         cffdefdf8483f7e722100d7e4aba3a14f94a3d2c perf tools: Fix a compiler warning of NULL pointer
-         b7c596cd8b77876a4dd535650b64721764698d03 perf mem: Fix a segfault with NULL event->name
+         e50ee906307d1e69680437df587079d29472f816 drop mips patch
          
+
+--===============3349530320962569732==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719297250 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1719297249-68fc1979feed124ecc4b65690a193977503e1e65
+
+e97ede82d641e28d690500a647e4421a485600ad e50ee906307d1e69680437df587079d29472f816 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ6ZOIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V/UQAKAZzw3wpVaICQHn7hnH
+VhHWtSFY0ndALvzTI9SQ96Tpjp4ugFBe+IhygAqgCsIhIOJ5LOHuFormXfFOp/yD
+9aIyyi0MZy4TgCbWD7a+Ery0CHH1TKn/TeKtYCTJ7uw/LWBQ043dNBm2mR5wkm6h
+YBsdeGyCmq5rmP9aS5Zl5KEH4fJwsrWxO1uecl6sY3YGfbMQ4l9gbJThwqpuDMO6
+3ZbVcPECfTct5y/zPXruFyoxZsB9+EqapFPHuztVx0Bh6EG/RrvlBWaukfYzKpoa
+Ut6+m4+jIFs61q0DKDTxg6kO0WrOm7yDQ6N3R70H9iPLamEzWg6q61M/DILh4aJS
+cXNE1kY2/KVCPz3x3fbA2SOsEvvHSViV8KXeldqu9QjU4H1YF3Uyz3xOZAU0zgqv
+xBufvGt4Jf+aeCyJa2eo5OGM2KrwEj+9zqmIdtECvFXVha7pgv7BGmhEQBmmgtSp
+q2/7rX/pClPH5/4xzhxVFC8X9dJ/NvVEKAGpUgtb0fC4UpQ8f85NCEPeTMvm2zyN
+AIH3QBSwtzA3H5+fXZqA90WDyZDXhON+Zvg9/JUaf+9J1AEaJmZg71gvNq9RzQz3
+LkP/mloPlJtsWCGQt4jLlRs29acNS2Tapw3gt16toxQPmgO6O2KEpo4LY+9KIJKq
+lubhqlRPhok7KY6SkWtPsHK5
+=0g5C
+-----END PGP SIGNATURE-----
+
+--===============3349530320962569732==--
