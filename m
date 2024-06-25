@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 25 Jun 2024 07:13:15 -0000
-Message-Id: <171929959551.16697.1010743120466596276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 25 Jun 2024 07:17:32 -0000
+Message-Id: <171929985248.19910.2310084324830302018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 7e92061f1e9d1f6d3bfa6113719534f2c773b041
-    new: 8657af6c0a9afaa11947b7476119834898823b52
+  - ref: refs/heads/objtool-diff
+    old: 0f0cdc98e2240e0599117fb18be73d618e51ee8e
+    new: ec581b59f9fb7bf2ff3bdb12ec3e9d98a1dd8ff0
     log: |
-         8657af6c0a9afaa11947b7476119834898823b52 pinctrl: da9062: replace gpiochip_get_desc() with gpio_device_get_desc()
+         ec581b59f9fb7bf2ff3bdb12ec3e9d98a1dd8ff0 todo
          
