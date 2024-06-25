@@ -1,24 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 25 Jun 2024 14:07:17 -0000
-Message-Id: <171932443745.27821.10241188058701969306@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0408162452038165625=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 25 Jun 2024 14:11:46 -0000
+Message-Id: <171932470636.31177.7570410156091767672@gitolite.kernel.org>
+
+--===============0408162452038165625==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5ebaeab4164f80539904b9a520d9b7a8307e06e2
-    new: 944909f2b2c850c270fa72b876d61657329a81f4
+  - ref: refs/heads/for-6.11
+    old: 00dd4d86ed908e70d912a96ad91d1248ff055b62
+    new: 694850baa4c85acf6fa6161d2a6d686f497d2efd
     log: |
-         e453627223db0d6488d2bdb2847dfc0865047730 shared/util: Fix null pointer dereference in util_ltv_foreach()
-         13da9252995465a904d1be944b8647c69ab98a94 shared/lc3: Rename LC3_BASE
-         98013b74e5b12b30dd5fa86c1f78c8234d7eeac5 test-bap: Move BASE defines to lc3.h
-         409251a95b6f452f000421c129c7b1b5b87478a6 test-bap: Add support to config multiple bsrc streams
-         4571cdba13a3b915be6e87858a4138a6bd701771 shared/lc3: Add defines for BASE with multiple BISes
-         944909f2b2c850c270fa72b876d61657329a81f4 test-bap: Add Broadcast Source STR MBIS tests
+         4eed78198b30c4c5975e454e7b1e6e25a7ac7353 ASoC: codecs: ES8326: Slove headphone detection issue
+         7e7dbdee96cbc660e7e8d3d9d7a512acaa6ca69d ASoC: codecs: ES8326: Minimize the pop noise
+         34fa846f52f9fbef8aa262d3b39e71188e8dd884 ASoC: codecs: ES8326: regcache_sync error issue
+         65c90df918205bc84f5448550cde76a54dae5f52 ASoC: Intel: sof_sdw: fix jack detection on ADL-N variant RVP
+         e364ffceab9252c06388727250d7583d6e0aea87 ASoC: Intel: maxim-common: add max_98373_get_tx_mask function
+         92d5b5930e7d55ca07b483490d6298eee828bbe4 ASoC: Intel: sof_sdw: add quirk for Dell SKU 0B8C
+         c073f0757663c104271c8749f7e6b19b29c7b8ac ASoC: Intel: sof_sdw: select PINCTRL_CS42L43 and SPI_CS42L43
+         4006f157db67bd258b2058a148868431f2e07c5e ASoC: codecs: ES8326: Solving headphone detection and
+         694850baa4c85acf6fa6161d2a6d686f497d2efd ASoC: Intel: boards: updates for 6.11 - part2
          
+
+--===============0408162452038165625==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1719324704 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1719324704-b329ba7f1d113939a6e7e8cf6f21e1a7817161b9
+
+00dd4d86ed908e70d912a96ad91d1248ff055b62 694850baa4c85acf6fa6161d2a6d686f497d2efd refs/heads/for-6.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ60CAACgkQJNaLcl1U
+h9CH/Qf9HRwDRCx3oMGSHFBNQP7/rdA7n7BkFwtFOngCsGbsu9z8rHMpLLur9pIL
+ShoyLHSuWDohCZuecQuX6yKnTDe3q1U5LEdiM0L5AL0FKC8SPEnLhOKiMngzeqMk
+aL5Ki972c9MqVbYbHJs4B9ZdeOem77Olf3HugqcguU8GBM8vshzwe/n8Virvyc+A
+WCqCvMsdzKgJOqLhYy9TlpY6SVCBxUJNnjeDL+MklG6TuB50tKGDcxuUD5dpSog4
+74P55KAYMJ3QLEqs5y/6Kx0ceYV5a3b0tnuw4HaStaESYsbQSH76j/beoZOQDZVU
+uYEVUPPHd2enttTLPazWD4FU3MbKdw==
+=otPD
+-----END PGP SIGNATURE-----
+
+--===============0408162452038165625==--
