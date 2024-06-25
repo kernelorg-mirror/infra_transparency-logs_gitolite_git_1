@@ -1,45 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6623772037320024945=="
+Content-Type: multipart/mixed; boundary="===============6112766836885248805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 25 Jun 2024 14:28:38 -0000
-Message-Id: <171932571812.10320.9280992190797292459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 25 Jun 2024 14:29:19 -0000
+Message-Id: <171932575935.10597.150414624946893176@gitolite.kernel.org>
 
---===============6623772037320024945==
+--===============6112766836885248805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip
-    old: 444ced20ae5f6a731d97915886ac8ebdd8856da4
-    new: 711d58a083d948a108c42e3b15f2a0722c638f2d
-    log: revlist-444ced20ae5f-711d58a083d9.txt
+  - ref: refs/heads/master
+    old: 06dd4f69de7a514af4bf333038943aa9f9e1a995
+    new: 59c5a0a3238a9a8dd4803f5bdb8276608e981b0d
+    log: |
+         3810e2df2badb38bbe9f3521de088cf7948967cb more 6.9.5 review from greg added
+         59c5a0a3238a9a8dd4803f5bdb8276608e981b0d more 6.9.5 cves allocated
+         
 
---===============6623772037320024945==
+--===============6112766836885248805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-444ced20ae5f-711d58a083d9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8cb1f4080dd91c6e6b01dbea013a3f42341cb6a1 f2fs: assign CURSEG_ALL_DATA_ATGC if blkaddr is valid
-388a2a0640e16a8887f0d47dab207f344fbdb913 f2fs: remove redundant sanity check in sanity_check_inode()
-00108dd7accf4f1cce41b038092d29d3ab322030 f2fs: get rid of buffer_head use
-88b50c6e71cbbd52696fcb8130638a852d7745ee f2fs: atomic: fix to avoid racing w/ GC
-36812055a629f13015cf242df586d5d398add9c8 f2fs: atomic: fix to not allow GC to pollute atomic_file
-3e0e03047952648d8de94e7ad7b315e601017f5a f2fs: atomic: fix to truncate pagecache before on-disk metadata truncation
-0038108d56da65454f884d498aa7976a5e80111a f2fs: atomic: fix to forbid dio in atomic_file
-fe7d9bfa73436d8e401289efdaa2d4bbb8e86bfd f2fs: clean up F2FS_I()
-362f881d054eac6174631de44385a0b94d45d3f1 f2fs: clean up addrs_per_{inode,block}()
-83fb677c142feedc3e97985dc275312ee083b219 f2fs: clean up data_blkaddr() and get_dnode_addr()
-3412a8885c00990e681467f759906c64b984872b f2fs: fix to update user block counts in block_operations()
-5417eb24100d7b6f2dbc3dbc47577a1dcc5ab276 f2fs: fix to avoid racing in between read and OPU dio write
-bce27c72c7b08b45a962a665fc09a1f2db034a66 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
-db803944feda7444610855c98d456b6d38bbc91d f2fs: introduce written_map to indicate written datas
-711d58a083d948a108c42e3b15f2a0722c638f2d f2fs: zone: don't block IO if there is remained open zone
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719325758 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1719325758-e8e58f8750e93818211d6a0d1b69d54405540ee1
 
---===============6623772037320024945==--
+06dd4f69de7a514af4bf333038943aa9f9e1a995 59c5a0a3238a9a8dd4803f5bdb8276608e981b0d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ61D4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hmYQAMa4HG2l0+zs1BJpFUQE
+3WNxDrgxvfoMgZPiOu9jTl0Rjx8ktBA5xrf0WhA6wIHpQBD8d+4r3/E3kIfVIv+6
+M1APOs+wgP9+4d3xCoZoU9gatrANgtf9tiNJqvKVLpxivRp+G7q4hWm1RM7f3PFl
+Ef2CYxsXBC4y1jGyZyHAdinszdixGuGZ6YaQvLVTJL8tdXzlY1Uwh+JqycIeQMFt
+1fsrcxnQzZj/UI/FgFbst2Y6yLVeM1bN0Zk6tnkdwPxcnl5pgIoXxXwEIOk9Lzrz
+r92J5kaqQvQLzWCQzEsYavGH+x0QH8vFdyO+9Pssgyg0reoisq9RDqihxk+F31Ow
+oFbbETKUsZkiA/W7/L4A+9GjxJFyhPpIFv59I5IQGflCw8gXG4ejXd3RYquWu/pK
+fexOKkQhHFeP6tfgXeBPtWzSGjBN5LH7YaYPkV2eKD4gPbZT9yD0p19i6iF9l0ss
+4eBYik08HnU2NvbECYZmUXKmfXrKKMIXsCPr7wyxxwTYKt2IjVJitJILuf+1QdVj
+bak2roefkf+s7H7Cks+YgxT31wX5IFDxvi/nnmovTmvQAUPtVNhfgScL5o/fT4AV
+mRNCmhZuLHJsWPiLnqr2HwhzqIyH1KK6h0DkUHkdbrYe1GXtavnlQ4B0Lg69ReEV
+buItpdHKe6Pypty+DLlE2ipr
+=UQCb
+-----END PGP SIGNATURE-----
+
+--===============6112766836885248805==--
