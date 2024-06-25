@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7042049763569042603=="
+Content-Type: multipart/mixed; boundary="===============6933046940629344679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 25 Jun 2024 20:48:48 -0000
-Message-Id: <171934852854.4653.9693627063796169228@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 20:48:52 -0000
+Message-Id: <171934853292.4779.16055798233756115051@gitolite.kernel.org>
 
---===============7042049763569042603==
+--===============6933046940629344679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 5a72477273066b5b357801ab2d315ef14949d402
-    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    log: revlist-5a7247727306-f2661062f16b.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 26b7c82ff3036f491ef19d522087316c0d2ce4d8
+    new: 280dc1cd4d1592910314aa850179b74c7fd498da
+    log: revlist-26b7c82ff303-280dc1cd4d15.txt
 
---===============7042049763569042603==
+--===============6933046940629344679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1719348527 +0200
+pusher andi.shyti@kernel.org 1719348532 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1719348526-bea090ea69b8a9238b040fe302f88d020684e462
+nonce 1719348530-d72ce7da2c1a9568dc431ffa197ce0db5c96b2c6
 
-5a72477273066b5b357801ab2d315ef14949d402 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/i2c/i2c-host-fixes
+26b7c82ff3036f491ef19d522087316c0d2ce4d8 280dc1cd4d1592910314aa850179b74c7fd498da refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnstLxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1utqQA/i455EUW1XyHHTK5Jnh1DpKqJTwQ
-ZB4mil5R8aJlsMCVAQDluOkAfeSbVHMSGSXTO1JBYJ0S5VbXAfSKfEfDiGJBCA==
-=CABM
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnstNBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uU2sA/RKgl7iHdHH0Z+vW5kz9WEjzneCF
+KJhlBiPuH/C+YYI0AP0c4XvFDv2uFkTGCnhZbe0z03iJAWvqQVGa78pOEZU9Cg==
+=wNVx
 -----END PGP SIGNATURE-----
 
---===============7042049763569042603==
+--===============6933046940629344679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a7247727306-f2661062f16b.txt
+Content-Disposition: attachment; filename=revlist-26b7c82ff303-280dc1cd4d15.txt
 
 bb3ca38ef7aa56dcfa7f6e81675c7a39d5ee9bf1 hv_balloon: Use kernel macros to simplify open coded sequences
 8852ebf1948d94ecaf4d1113032dda7e58e72b84 hv_balloon: Enable hot-add for memblock sizes > 128 MiB
@@ -375,5 +375,14 @@ b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://
 d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
+02fd2e59b4eda10492cce49d3b7b2cacc1091c57 i2c: i801: Add support for Intel Arrow Lake-H
+41a753215754e209ed82212a339e5f194df8d017 i2c: add missing MODULE_DESCRIPTION() macros
+c9c1f308d05f53f96c4c1d5f9bd20edf0d803661 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
+08b468df778b3ed93ab86b04a03040f0f316a845 i2c: omap: wakeup the controller during suspend() callback
+735a27a4321783f7a4f29dccf42b452723f81ff9 dt-bindings: i2c: atmel,at91sam: drop unneeded address/size-cells
+e94dacf35a875b86a194f082ff479b69e7434f12 dt-bindings: i2c: nvidia,tegra20: drop unneeded address/size-cells
+48399a1be05337e4b424757ea0109ba670679d18 dt-bindings: i2c: samsung,s3c2410: drop unneeded address/size-cells
+498a719757759f9645a876562f01678f9df3f0a3 dt-bindings: i2c: ti,omap4: reference i2c-controller.yaml schema
+280dc1cd4d1592910314aa850179b74c7fd498da dt-bindings: i2c: adjust indentation in DTS example to coding style
 
---===============7042049763569042603==--
+--===============6933046940629344679==--
