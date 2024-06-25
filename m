@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5777135592196563454=="
+Content-Type: multipart/mixed; boundary="===============5360143288659367586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 Jun 2024 15:22:15 -0000
-Message-Id: <171932893585.19351.17885664069783746552@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 15:22:18 -0000
+Message-Id: <171932893821.19421.14883883989162758869@gitolite.kernel.org>
 
---===============5777135592196563454==
+--===============5360143288659367586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 058722ee350c0bdd664e467156feb2bf5d9cc271
     new: b1c4b4d45263241ec6c2405a8df8265d4b58e707
     log: revlist-058722ee350c-b1c4b4d45263.txt
 
---===============5777135592196563454==
+--===============5360143288659367586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ cfa1a2329a691ffd991fcf7248a57d752e712881 bpf: Fix overrunning reservations in ri
 ff46e3b4421923937b7f6e44ffcd3549a074f321 Fix race for duplicate reqsk on identical SYN
 b1c4b4d45263241ec6c2405a8df8265d4b58e707 net: dsa: microchip: fix wrong register write when masking interrupt
 
---===============5777135592196563454==--
+--===============5360143288659367586==--
