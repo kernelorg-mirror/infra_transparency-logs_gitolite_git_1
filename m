@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6069011127748808436=="
+Content-Type: multipart/mixed; boundary="===============6031283444788911203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Tue, 25 Jun 2024 21:31:19 -0000
-Message-Id: <171935107984.4994.1435583157695464765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Tue, 25 Jun 2024 21:32:18 -0000
+Message-Id: <171935113835.5385.12241893633379030709@gitolite.kernel.org>
 
---===============6069011127748808436==
+--===============6031283444788911203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
+repo: pub/scm/linux/kernel/git/arnd/playground
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
-    old: 02af68767d27aa66c95ef0850545a9616c5e847e
+  - ref: refs/heads/to-build
+    old: f2548a9d6019f7ab1106a16893d65dea09b8909a
     new: 451f0cfa8dc270c4ca7ed6125075a801e7d82e02
-    log: revlist-02af68767d27-451f0cfa8dc2.txt
+    log: revlist-f2548a9d6019-451f0cfa8dc2.txt
 
---===============6069011127748808436==
+--===============6031283444788911203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02af68767d27-451f0cfa8dc2.txt
+Content-Disposition: attachment; filename=revlist-f2548a9d6019-451f0cfa8dc2.txt
 
 33defcacd207196a6b35857087e6335590adad62 drm/panel/lg-sw43408: select CONFIG_DRM_DISPLAY_DP_HELPER
 659a3062c705753a9ec6fd28a4c67ee4254f9584 drm/i915/selftests: Set always_coherent to false when reading from CPU
@@ -1051,4 +1051,4 @@ b1e31c134a8ab2e8f5fd62323b6b45a950ac704d powerpc: restore some missing spu sysca
 0fa8ab5f3533b307a7d0e438ab08ecd92725dad7 linux/syscalls.h: add missing __user annotations
 451f0cfa8dc270c4ca7ed6125075a801e7d82e02 Building with W=1 in some configurations produces a false positive warning for kallsyms:
 
---===============6069011127748808436==--
+--===============6031283444788911203==--
