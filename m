@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5865795296176968884=="
+Content-Type: multipart/mixed; boundary="===============1815955004319587204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 25 Jun 2024 11:32:38 -0000
-Message-Id: <171931515846.27627.4511321108372688901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Jun 2024 11:32:44 -0000
+Message-Id: <171931516478.27738.4787213098305472390@gitolite.kernel.org>
 
---===============5865795296176968884==
+--===============1815955004319587204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/regulator-6.10
     old: 0057222c45140830a7bf55e92fb67f84a2814f67
     new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
     log: revlist-0057222c4514-f2661062f16b.txt
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: 7bbb71150e57875126efacc2efdc678e3cede919
     new: 61a98ffc2081ac1e9070150932d9eb91d3935cf8
     log: |
          61a98ffc2081ac1e9070150932d9eb91d3935cf8 regulator: userspace-consumer: quiet device deferral
          
 
---===============5865795296176968884==
+--===============1815955004319587204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719315156 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1719315156-0858e0ba76675e9f6caeb673435b470a2c1df2cf
+pusher C3F436CA30F5D8EB 1719315163 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1719315162-9d6a197fd80a9227f2321a1a38eaa3feb5b93a83
 
-0057222c45140830a7bf55e92fb67f84a2814f67 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/for-6.10
-7bbb71150e57875126efacc2efdc678e3cede919 61a98ffc2081ac1e9070150932d9eb91d3935cf8 refs/heads/for-6.11
+0057222c45140830a7bf55e92fb67f84a2814f67 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/regulator-6.10
+7bbb71150e57875126efacc2efdc678e3cede919 61a98ffc2081ac1e9070150932d9eb91d3935cf8 refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ6qtQACgkQJNaLcl1U
-h9C0fgf9HhPb02DWYoZqddINaK9ImtYJEW4ynRa1A74xyMPQP3sYdprYbL1sa6bm
-IR6kymp6Rlu/V+ZtUTA+PeU6gE6WNybiU1gqI1h3IybBR4jByB7zcBGuLrBc2/uj
-8jiBtPWJ0+8zyAN+jfYaPRMd5DKUVh9jccdVTf4zFL1duyonFdTqtG3dsnZ0gVU5
-BrsFRYxrFu5vQDcCdJyDb3o/ZjbwMgn4fj7Kbcmi/2NynB46K6mkLtd8Z1ODciKI
-471paugtP4K8TK19VgV1+OfsA5B1KgpozD/1myjeZxuer+7tFGAYnb7cih3fIsOg
-SrSQg/usN8g8Q1L8JeEUC1s2RWj1YA==
-=kGLS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ6qtsACgkQJNaLcl1U
+h9DLKQf7BykJA0kjPIqewgFo/mZdhczK8/4Ya5f5SzHsg5o4Q5ZUVbWGSUSqqnKB
+/A5GreiIynJKOejNudizxEhIOvUStAMFOjIg1V9+V+33CQGh2zOP5mnWBg7M6dx3
+/p7TK1aIZv1z+JlDZalbyc3x5qd4m7HWj3wVW4F3VXXb+c+ZZmRLlpahaxulE5rR
+xQJDiVkMEhf/t4aVAvdgGFI3NyULKHs5SPM5t75DP0G9ITwPCcNFZOPV3KOo8wLe
+0J5MYQvrAyz7OytreahGXFkuVkOZhax5pegjg5Aox3hCDGHnAYWYTfQL4q/fXZ15
+obhe+q2Xymjib2x+MTBjZnwtaKi9uw==
+=1hhn
 -----END PGP SIGNATURE-----
 
---===============5865795296176968884==
+--===============1815955004319587204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1026,4 +1026,4 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 
---===============5865795296176968884==--
+--===============1815955004319587204==--
