@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5467966341998174850=="
+Content-Type: multipart/mixed; boundary="===============7042049763569042603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 25 Jun 2024 20:48:45 -0000
-Message-Id: <171934852529.4584.15468457831828521765@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 20:48:48 -0000
+Message-Id: <171934852854.4653.9693627063796169228@gitolite.kernel.org>
 
---===============5467966341998174850==
+--===============7042049763569042603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 24bc9ea87875ac17e70619b17ce74f28a3e2f4f1
-    new: 280dc1cd4d1592910314aa850179b74c7fd498da
-    log: revlist-24bc9ea87875-280dc1cd4d15.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 5a72477273066b5b357801ab2d315ef14949d402
+    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
+    log: revlist-5a7247727306-f2661062f16b.txt
 
---===============5467966341998174850==
+--===============7042049763569042603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1719348524 +0200
+pusher andi.shyti@kernel.org 1719348527 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1719348523-b8fa333ddd444ae3fbe657811be17d2cc1028d63
+nonce 1719348526-bea090ea69b8a9238b040fe302f88d020684e462
 
-24bc9ea87875ac17e70619b17ce74f28a3e2f4f1 280dc1cd4d1592910314aa850179b74c7fd498da refs/heads/i2c/i2c-host
+5a72477273066b5b357801ab2d315ef14949d402 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnstLBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uYRcA/09nG9mIUEihpHm3y5CS0AlnZfif
-fl5Iz6WWiJjFY0m4AQDtyeT5nL2ld/1ALPcRK4X2HQ6zw6gI+Q+0nM08KFNOBQ==
-=mF3G
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZnstLxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1utqQA/i455EUW1XyHHTK5Jnh1DpKqJTwQ
+ZB4mil5R8aJlsMCVAQDluOkAfeSbVHMSGSXTO1JBYJ0S5VbXAfSKfEfDiGJBCA==
+=CABM
 -----END PGP SIGNATURE-----
 
---===============5467966341998174850==
+--===============7042049763569042603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24bc9ea87875-280dc1cd4d15.txt
+Content-Disposition: attachment; filename=revlist-5a7247727306-f2661062f16b.txt
 
 bb3ca38ef7aa56dcfa7f6e81675c7a39d5ee9bf1 hv_balloon: Use kernel macros to simplify open coded sequences
 8852ebf1948d94ecaf4d1113032dda7e58e72b84 hv_balloon: Enable hot-add for memblock sizes > 128 MiB
@@ -306,9 +306,6 @@ e7c3696d4692e8046d25f6e63f983e934e12f2c5 firmware: psci: Fix return value from p
 c31745d2c508796a0996c88bf2e55f552d513f65 virt: guest_memfd: fix reference leak on hwpoisoned page
 676f819c3e982db3695a371f336a05086585ea4f KVM: Discard zero mask with function kvm_dirty_ring_reset
 fb443ce70da07b8e5ee1ca297d3c4b48692c1165 Merge tag 'kvmarm-fixes-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-d4e001ffeccfc128c715057e866f301ac9b95728 dt-bindings: i2c: atmel,at91sam: correct path to i2c-controller schema
-5c8cfd592bb7632200b4edac8f2c7ec892ed9d81 dt-bindings: i2c: google,cros-ec-i2c-tunnel: correct path to i2c-controller schema
-5a72477273066b5b357801ab2d315ef14949d402 i2c: ocores: set IACK bit after core is enabled
 a8080132ed0bdf238bf5b6616ad84e1a4797b331 Merge tag 'drm-intel-fixes-2024-06-19' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 07e06189c5ea7ffe897d12b546c918380d3bffb1 Merge tag 'amd-drm-fixes-6.10-2024-06-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 d1913b86f7351238106068785e9adc63d76d8790 Merge tag 'drm-xe-fixes-2024-06-20' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
@@ -378,14 +375,5 @@ b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://
 d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
-02fd2e59b4eda10492cce49d3b7b2cacc1091c57 i2c: i801: Add support for Intel Arrow Lake-H
-41a753215754e209ed82212a339e5f194df8d017 i2c: add missing MODULE_DESCRIPTION() macros
-c9c1f308d05f53f96c4c1d5f9bd20edf0d803661 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
-08b468df778b3ed93ab86b04a03040f0f316a845 i2c: omap: wakeup the controller during suspend() callback
-735a27a4321783f7a4f29dccf42b452723f81ff9 dt-bindings: i2c: atmel,at91sam: drop unneeded address/size-cells
-e94dacf35a875b86a194f082ff479b69e7434f12 dt-bindings: i2c: nvidia,tegra20: drop unneeded address/size-cells
-48399a1be05337e4b424757ea0109ba670679d18 dt-bindings: i2c: samsung,s3c2410: drop unneeded address/size-cells
-498a719757759f9645a876562f01678f9df3f0a3 dt-bindings: i2c: ti,omap4: reference i2c-controller.yaml schema
-280dc1cd4d1592910314aa850179b74c7fd498da dt-bindings: i2c: adjust indentation in DTS example to coding style
 
---===============5467966341998174850==--
+--===============7042049763569042603==--
