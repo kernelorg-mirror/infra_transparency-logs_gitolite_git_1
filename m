@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 25 Jun 2024 17:49:18 -0000
-Message-Id: <171933775839.32420.14832629864814044764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 25 Jun 2024 17:49:22 -0000
+Message-Id: <171933776219.32554.8649622440391356791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/v2_20240624_dlechner_spi_add_devm_spi_optimize_message_helper
-    old: 7e74a45c7afdd8a9f82d14fd79ae0383bbaaed1e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/damon/next-2024-06-25-10-49-on-v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: e93fef327aba05bed8c9ac11a63ce4a63ed9d15f
