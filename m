@@ -1,62 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1815955004319587204=="
+Content-Type: multipart/mixed; boundary="===============0826118543952694596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 25 Jun 2024 11:32:44 -0000
-Message-Id: <171931516478.27738.4787213098305472390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jun 2024 11:32:54 -0000
+Message-Id: <171931517482.27882.4284998737189692631@gitolite.kernel.org>
 
---===============1815955004319587204==
+--===============0826118543952694596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.10
-    old: 0057222c45140830a7bf55e92fb67f84a2814f67
-    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    log: revlist-0057222c4514-f2661062f16b.txt
-  - ref: refs/heads/regulator-6.11
-    old: 7bbb71150e57875126efacc2efdc678e3cede919
-    new: 61a98ffc2081ac1e9070150932d9eb91d3935cf8
-    log: |
-         61a98ffc2081ac1e9070150932d9eb91d3935cf8 regulator: userspace-consumer: quiet device deferral
-         
+  - ref: refs/heads/for-6.10
+    old: df75470b317b46affbe1f5f8f006b34175be9789
+    new: 40b3d0838a1ff242e61f341e49226074bbdd319f
+    log: revlist-df75470b317b-40b3d0838a1f.txt
 
---===============1815955004319587204==
+--===============0826118543952694596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719315163 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1719315162-9d6a197fd80a9227f2321a1a38eaa3feb5b93a83
+pusher C3F436CA30F5D8EB 1719315173 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1719315172-e18f2506ffdf9160652ab1bfa13194fba080131b
 
-0057222c45140830a7bf55e92fb67f84a2814f67 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/regulator-6.10
-7bbb71150e57875126efacc2efdc678e3cede919 61a98ffc2081ac1e9070150932d9eb91d3935cf8 refs/heads/regulator-6.11
+df75470b317b46affbe1f5f8f006b34175be9789 40b3d0838a1ff242e61f341e49226074bbdd319f refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ6qtsACgkQJNaLcl1U
-h9DLKQf7BykJA0kjPIqewgFo/mZdhczK8/4Ya5f5SzHsg5o4Q5ZUVbWGSUSqqnKB
-/A5GreiIynJKOejNudizxEhIOvUStAMFOjIg1V9+V+33CQGh2zOP5mnWBg7M6dx3
-/p7TK1aIZv1z+JlDZalbyc3x5qd4m7HWj3wVW4F3VXXb+c+ZZmRLlpahaxulE5rR
-xQJDiVkMEhf/t4aVAvdgGFI3NyULKHs5SPM5t75DP0G9ITwPCcNFZOPV3KOo8wLe
-0J5MYQvrAyz7OytreahGXFkuVkOZhax5pegjg5Aox3hCDGHnAYWYTfQL4q/fXZ15
-obhe+q2Xymjib2x+MTBjZnwtaKi9uw==
-=1hhn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ6quUACgkQJNaLcl1U
+h9BjtAf/bX3pLg+RjRvFVr5MlbtaEitT/jsYtf33duz6SZnynq57Rj8+/M5sTDhp
+tvnJ/ymDhLYfS905puoeRex95goBeb35KGX5ZWq6E4EAb+IBXlS3rVvowvstP+HW
+AJtL7vLfTW1N2KVPDfKorQ2i1yg64Z2nGnG+CkyHg7kx6BDIR9WT1onIYp18oBif
+MCxAt55KusqpnN0+3c7TPMnPW/6H1rLLvuc1B62xmP9MiGHc4l7NL5AeOOwtTweh
+PSVDSIzY07y574sU1dQVEjYxKZlhjDS2cpCdhZ7sWvh6G/gq57mGROqi/afFyyQp
+JfChDVSkYzNvYq43F1tka4VzSgfoFw==
+=IKHf
 -----END PGP SIGNATURE-----
 
---===============1815955004319587204==
+--===============0826118543952694596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0057222c4514-f2661062f16b.txt
+Content-Disposition: attachment; filename=revlist-df75470b317b-40b3d0838a1f.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -333,6 +326,7 @@ ca84cd379b45e9b1775b9e026f069a3a886b409d serial: port: Don't block system suspen
 4e534ff4b69c6960a165cab2c851b48f0a0da945 serial: sc16is7xx: rename Kconfig CONFIG_SERIAL_SC16IS7XX_CORE
 7a2e8e30ad89f498b206977396d028e10174390a serial: sc16is7xx: re-add Kconfig SPI or I2C dependency
 ae01e52da244af5d650378ada1bfd2d946dc1b45 serial: drop debugging WARN_ON_ONCE() from uart_write()
+8141b6da1763b9db009e5dcf873869bb31bcef45 regulator: tps6594-regulator: Fix the number of irqs for TPS65224 and TPS6594
 718d4a63c0a62d16af1d0425d515d7e76f35681e Revert "usb: chipidea: move ci_ulpi_init after the phy initialization"
 415ce0ea55c5a3afea501a773e002be9ed7149f5 io_uring/napi: fix timeout calculation
 fc3568f142cc5fe071d83be02d1851717d1fbf66 usb: typec: ucsi: glink: increase max ports for x1e80100
@@ -375,7 +369,6 @@ c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep
 290be0a40276ca36a5110b191d73a71b8bbe466f Merge branch 'efi/next' into efi/urgent
 32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 d9fef76e89498bf99cdb03f77b7091d7e95d7edd thermal/drivers/mediatek/lvts_thermal: Remove filtered mode for mt8188
-4eecb644b8b82f5279a348f6ebe77e3d6e5b1b05 spi: cs42l43: Correct SPI root clock speed
 dc6abbbde4b099e936cd5428e196d86a5e119aae tools headers arm64: Sync arm64's cputype.h with the kernel sources
 51214520ad62e6cd5ec216e9b840999b4aaceb5f Merge tag 'devicetree-fixes-for-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 0ea00e249ca992adee54dc71a526ee70ef109e40 tpm_tis: Do *not* flush uninitialized work
@@ -535,7 +528,6 @@ dbfb8864650ec0b69e0a1b9b667bf79c25ca33ca Merge branch 'hns3-fixes'
 1af89dedc8a58006d8e385b1e0d2cd24df8a3b69 thermal: core: Do not fail cdev registration because of invalid initial state
 7f18bd49cb6b6a3ab6d860fefccdc94f2a247db0 thermal: ACPI: Invalidate trip points with temperature of 0 or below
 c44711b78608c98a3e6b49ce91678cd0917d5349 liquidio: Adjust a NULL pointer handling path in lio_vf_rep_copy_packet
-60980cf5b8c8cc9182e5e9dbb62cbfd345c54074 spi: cs42l43: Drop cs35l56 SPI speed down to 11MHz
 0c76053e3fec801e86aca73f80072b3da4e72849 drm: have config DRM_WERROR depend on !WERROR
 a3a5a37efba11b7cf1a86abe7bccfbcdb521764e HID: Ignore battery for ELAN touchscreens 2F2C and 4116
 462237d2d93fc9e9221d1cf9f773954d27da83c0 dmaengine: xilinx: xdma: Fix data synchronisation in xdma_channel_isr()
@@ -606,6 +598,7 @@ b79922009214e6ab23c07db32a5606a45710f86e bcachefs: Add missing synchronize_srcu_
 31849bf07e0fb3e7d050c086b77ebdb6cec89167 drm/amdgpu: Fix the BO release clear memory warning
 07c54cc5988f19c9642fd463c2dbdac7fc52f777 tick/nohz_full: Don't abuse smp_call_function_single() in tick_setup_device()
 9dd5134c61580ba4c219296c37e08ff64c109a74 kunit/overflow: Adjust for __counted_by with DEFINE_RAW_FLEX()
+3f60497c658d2072714d097a177612d34b34aa3d regulator: core: Fix modpost error "regulator_get_regmap" undefined
 7124a8982b621e1a8af81c17f44b90587cdd161c bcachefs: Add missing bch_inode_info.ei_flags init
 44180feaccf266d9b0b28cc4ceaac019817deb5c net/sched: initialize noop_qdisc owner
 8031b58c3a9b1db3ef68b3bd749fbee2e1e1aaa3 mptcp: ensure snd_una is properly initialized on connect
@@ -667,6 +660,7 @@ d792011b6c282bfb787eb2893538e5e336d5e982 wifi: iwlwifi: mvm: unlock mvm mutex
 fcc356020a0171106c9ba524ba05a6792668451e wifi: iwlwifi: scan: correctly check if PSC listen period is needed
 7d09e17c0415fe6d946044c7e70bce31cda952ec wifi: mac80211: Recalc offload when monitor stop
 350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
+4cac29b846f38d5f0654cdfff5c5bfc37305081c regulator: bd71815: fix ramp values
 d6d5645e5fc1233a7ba950de4a72981c394a2557 i2c: at91: Fix the functionality flags of the slave-only interface
 cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 i2c: designware: Fix the functionality flags of the slave-only interface
 cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
@@ -679,6 +673,7 @@ e5d574ab37f5f2e7937405613d9b1a724811e5ad nvme: avoid double free special payload
 d76584e53f4244dbc154bec447c3852600acc914 nvmet-passthru: propagate status from id override functions
 cd0c1b8e045a8d2785342b385cb2684d9b48e426 nvmet: always initialize cqe.result
 54559642b96116b45e4b5ca7fd9f7835b8561272 io_uring/rsrc: don't lock while !TASK_RUNNING
+0057222c45140830a7bf55e92fb67f84a2814f67 regulator: axp20x: AXP717: fix LDO supply rails and off-by-ones
 957df9af723ccc570da835978cf7fe7863632842 nbd: Remove __force casts
 d71a989cf5d961989c273093cdff2550acdde314 vfio/pci: Insert full vma on mmap'd MMIO fault
 0b4989ebe8a608c68d5ec54d61078aba47baed22 Merge tag 'bcachefs-2024-06-12' of https://evilpiepirate.org/git/bcachefs
@@ -860,13 +855,9 @@ c44d3ffd85db03ebcc3090e55589e10d5af9f3a9 net: phy: mxl-gpy: Remove interrupt mas
 d864319871b05fadd153e0aede4811ca7008f5d6 net/sched: act_api: fix possible infinite loop in tcf_idr_check_alloc()
 2ebe8f840c7450ecbfca9d18ac92e9ce9155e269 tipc: force a dst refcount before doing decryption
 88c67aeb14070bab61d3dd8be96c8b42ebcaf53a sched: act_ct: add netns into the key of tcf_ct_flow_table
-c2bd0791c5f02e964402624dfff45ca8995f5397 spi: stm32: qspi: Fix dual flash mode sanity test in stm32_qspi_setup()
-63deee52811b2f84ed2da55ad47252f0e8145d62 spi: stm32: qspi: Clamp stm32_qspi_get_mode() output to CCR_BUSWIDTH_4
-d6a711a898672dd873aab3844f754a3ca40723a5 spi: Fix OCTAL mode support
 46d1907d1caaaaa422ae814c52065f243caa010a Merge tag 'efi-fixes-for-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 c3f3edf73a8f854f8766a69d2734198a58762e33 KVM: Stop processing *all* memslots when "null" mmu_notifier handler is found
 5d272dd1b3430bb31fa30042490fa081512424e4 cpumask: limit FORCE_NR_CPUS to just the UP case
-2c1b7bbe253986619fa5623a13055316e730e746 spi: Fix SPI slave probe failure
 81d23d2a24012e448f651e007fac2cfd20a45ce0 ptp: fix integer overflow in max_vclocks_store
 e2b447c9a1bba718f9c07513a1e8958209e862a1 selftests: openvswitch: Use bash as interpreter
 92e5605a199efbaee59fb19e15d6cc2103a04ec2 Merge tag 'linux_kselftest-fixes-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -884,7 +875,6 @@ b95a4afe2defd6f46891985f9436a568cd35a31c octeontx2-pf: Add error handling to VLA
 fa997b0576c9df635ee363406f5e014dba0f9264 ata: ahci: Do not enable LPM if no LPM states are supported by the HBA
 1062d03827b78614259b3b4b992deb27ee6aa84d octeontx2-pf: Fix linking objects into multiple modules
 a8763466669d21b570b26160d0a5e0a2ee529d22 selftests: openvswitch: Set value to nla flags.
-df75470b317b46affbe1f5f8f006b34175be9789 spi: spi-imx: imx51: revert burst length calculation back to bits_per_word
 8ecd06277a7664f4ef018abae3abd3451d64e7a6 netfilter: ipset: Fix suspicious rcu_dereference_protected()
 9a3bc8d16e0aacd65c31aaf23a2bced3288a7779 seg6: fix parameter passing when calling NF_HOOK() in End.DX4 and End.DX6 behaviors
 096597cfe4ea08b1830e775436d76d7c9d6d3037 thermal: int340x: processor_thermal: Support shared interrupts
@@ -1025,5 +1015,7 @@ b67eeff799489b2d5350130828d1793ff6c74cfb Merge tag 'mips-fixes_6.10_2' of git://
 d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
+ce1dac560a74220f2e53845ec0723b562288aed4 spi: imx: Don't expect DMA for i.MX{25,35,50,51,53} cspi devices
+40b3d0838a1ff242e61f341e49226074bbdd319f spi: axi-spi-engine: fix sleep calculation
 
---===============1815955004319587204==--
+--===============0826118543952694596==--
