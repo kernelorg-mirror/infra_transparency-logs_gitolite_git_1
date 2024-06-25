@@ -1,19 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 25 Jun 2024 01:12:11 -0000
-Message-Id: <171927793178.5982.6461825410319493251@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8588922971382233567=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 25 Jun 2024 01:18:32 -0000
+Message-Id: <171927831248.10660.6979812462135136213@gitolite.kernel.org>
+
+--===============8588922971382233567==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dt-bindings
-    old: ff36edde817e0c846c3a849021e5c5062ea27ec0
-    new: f55aed050631abf214a635903c3ea93c083ac1da
-    log: |
-         f55aed050631abf214a635903c3ea93c083ac1da dt-bindings: PCI: xilinx-cpm: Fix overlapping of bridge register and 32-bit BAR addresses
-         
+  - ref: refs/heads/main
+    old: 058722ee350c0bdd664e467156feb2bf5d9cc271
+    new: 482000cf7fd5ff42214c0d71f30ed42c55bcb00a
+    log: revlist-058722ee350c-482000cf7fd5.txt
+
+--===============8588922971382233567==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-058722ee350c-482000cf7fd5.txt
+
+380d5f89a4815ff88461a45de2fb6f28533df708 bpf: Add missed var_off setting in set_sext32_default_val()
+44b7f7151dfc2e0947f39ed4b9bc4b0c2ccd46fc bpf: Add missed var_off setting in coerce_subreg_to_size_sx()
+a62293c33b058415237c55058a6d20de313a2e61 selftests/bpf: Add a few tests to cover
+bfbcb2c9d2978a28e9f0a77100170dc14fcf7c79 Merge branch 'bpf-fix-missed-var_off-related-to-movsx-in-verifier'
+b90d77e5fd784ada62ddd714d15ee2400c28e1cf bpf: Fix remap of arena.
+66b5867150630e8f9c9a2b7430e55a3beaa83a5b bpf: Update BPF LSM maintainer list
+5337ac4c9b807bc46baa0713121a0afa8beacd70 bpf: Fix the corner case with may_goto and jump to the 1st insn.
+2673315947c9f3890ad34a8196f62142e4ddef5a selftests/bpf: Tests with may_goto and jumps to the 1st insn
+cfa1a2329a691ffd991fcf7248a57d752e712881 bpf: Fix overrunning reservations in ringbuf
+316930d06b92a2419d8e767193266e678545b31d selftests/bpf: Add more ring buffer test coverage
+2b2efe1937ca9f8815884bd4dcd5b32733025103 bpf: Fix may_goto with negative offset.
+280e4ebffd16ea1b55dc09761448545e216f60a9 selftests/bpf: Add tests for may_goto with negative offset.
+7e9f79428372c6eab92271390851be34ab26bfb4 xdp: Remove WARN() from __xdp_reg_mem_model()
+482000cf7fd5ff42214c0d71f30ed42c55bcb00a Merge tag 'for-netdev' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+
+--===============8588922971382233567==--
