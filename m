@@ -1,103 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0321684945524456481=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 25 Jun 2024 06:36:37 -0000
-Message-Id: <171929739773.19570.1230817620863859411@gitolite.kernel.org>
-
---===============0321684945524456481==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
+Date: Tue, 25 Jun 2024 06:40:53 -0000
+Message-Id: <171929765316.23988.18338998754778382185@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/devsec/spdm
+user: lukas
 changes:
-  - ref: refs/heads/master
-    old: 55fcf173e0ff21f17234a14dfa4e2d3106031ef5
-    new: 9bcc6fb40a26766b3372617893f7708e706f0dc3
-    log: revlist-55fcf173e0ff-9bcc6fb40a26.txt
-
---===============0321684945524456481==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55fcf173e0ff-9bcc6fb40a26.txt
-
-ebdfbfb4aa0b8a6f5281fa8bba0c3fac7db368bc foo
-efe240ae47859af7c125397eec5138041e1bd62b foo
-d1f5fc071252b354b52542853f53eccc89393117 foo
-41be89b111aba36b4647b250c57be952282f8a25 foo
-2031ef05db69118c0375717369bf27c8e071f23a foo
-27d1e1203611fa55b5427bd2b9a18cdd80bbed29 foo
-8bff35da2ed0a5ea3eb2175d04bf568b01c22992 foo
-d68886c470dda984a8200db14490d460e58056f8 foo
-a0bb022c1d5fcc90ecb54818f3ed1c6d56f865bf foo
-d2de3b2a70f1acf796b9eb83ca57eda9816689b2 foo
-80af070beac6203a520cdfe23b37e0ac3e507d77 foo
-ec88510c21fd850abe4114ef0e6b19344d33645b foo
-93fb3af52e0af0321b56185fb17da6e41bb61b77 foo
-cf047bfb1b6cf7860dee38b8365f79cf7c3b62da foo
-66c5b1ddcc2b106e8816bab238d0e16afef06bd1 foo
-e27acb45094d9a3923199d0a70f1dabd5bfda8ae foo
-f9a5dbec271c4bf951031172fec0fbd61172b63d foo
-d0219cb2318777ce09d37ad8cb680532dfb186d7 foo
-41053dc4c172bb6f3e15fe273017ab307d0316a4 foo
-60d09c84e7dc9aa06e95108ce123a9f0aae0657b foo
-47390ff5c2fb69831eff052b75f46894959527a9 foo
-4d5ac4d2107adf6f226728670ec8e30a67914e18 foo
-a2fce7b31b531b9a9026d14547d26e285d8ae549 foo
-e6484dcd755d6dd38ab6782abf9d30cc14a0b022 foo
-1699c07bf2551484be1e42be8a602f925436b594 foo
-0f1f4f587b0e4077926b9a53ac29cebe2fb399fd foo
-1190b25e18b0412cf50a03f02dc64628ec946eb9 foo
-4798dd2a41e67204eb2c0049263797756f68c8f1 foo
-06562fbc05da3a8f1e6a742dec8c2ebc6b8a7568 foo
-884954fe942b199a396c310384fa7f3e628cce60 foo
-1d585791d939afc205e984e2c58115a726e73e8c foo
-1efa5f5192698eb6073fc91ffa1920a91a942124 foo
-c44207246ac1f6d839be24e76db305784d754ad0 foo
-730372acb22a582b37cf62df0de156dae0a6abde foo
-7a6b0605dddf4076cf4449352ac684fe3150067e foo
-2f72088af6e9add58f1fd837ed529c4e7dd7442d foo
-3f7254fac909061f36c163f65e4e0c006f3a4c8c foo
-9350c5e639c3220f86a16265712813ef3a20c1ce foo
-6395a55c46885437066e7899e197139e90a879ec foo
-4fe2a8ada2ef010377163f2ab126e1f9f6a7e76f foo
-21dcf754d361db7cf7e4d0b0930caedcb27b18ee foo
-856f23498417f63d64402db297dee8ea968b1fe8 foo
-f8db64d5a95146a7ec1b8d21ee28e8bcd293af14 foo
-5957cde5db48e855d86d02233fb6db255926d9a7 foo
-6d17a2172c8e69b76640588d9d7aa7787140fcd9 foo
-879ac939f8aa90e651ddb1c77c9bdaddf5f89c86 foo
-bfd22d10a2d34acbd4c070b3c96a37d537bb2a14 foo
-9fd95b8498508fe7cdca9e330f4a283fc39be68a foo
-f4e7e0697fadfba3d13d02f2b5469c64dea38484 foo
-f3411794b36b3bf86cec708ae1efa22a3508ef30 foo
-17001279d1fab2d8596c555d5a726dfa74906aac foo
-6af66b70822292f17de3ef4fd9db85a18ad0c340 foo
-928a2ec418d5689f653e9db0d5ad377d4965c3fe foo
-96574f532d395d922fc609bacb7364fe46a6bd28 foo
-6fda8d49ec8bdac61369133d669aab8e08968608 foo
-fb9b55adc77650da823c88686b070dbba195ae5a foo
-daded3c4f1eb839bc4669377a5cde9a7b24d847d foo
-0f89bc4cda3d630e66dcc2b27e3aa226519105d1 foo
-ba905d59959f02a05996a5286fbbb87063dbd73f foo
-aff10d034e16b5fe829a55e38e2e50a7ab637b60 foo
-50f2e95a3ab9ed3344b4905caca094561a12695e foo
-eb2b7bfe96ca8f42439f2d56d9c1ca63ce3bdd2d foo
-31cc05db0afc05228130f7f3c5f750025a1545ca foo
-99b80ed09ce0cee43fc476e2612d7b8d92f56d59 foo
-a4e9aff19d9d0bf7d48c7181462c17d44e90ba21 foo
-d3a61a38c738fb248982ace713839ed636a6d607 foo
-319106c843306e6d279c011c6074ce84dae25275 foo
-3e905cb76619cbcca99286bb5db24d56139f5573 foo
-58ae650ff6f37308bc2e9157c34ffd91a7db4bf1 foo
-a744a3c369ab08551b8c2c4bce274831c4c26ed4 foo
-e338f483ad6678ccd8641a5ee68c95b9a2bfe012 foo
-37bec3b4064562f5926f1355c6209ab570597989 foo
-9bcc6fb40a26766b3372617893f7708e706f0dc3 foo
-
---===============0321684945524456481==--
+  - ref: refs/heads/testing
+    old: a06407199558036a90b14f428433bb664b7a8ce2
+    new: 07d8fabca82531c921389358fd3fcac3de5930be
+    log: |
+         369a8c8b4629ba7a3a418818537f4887cf14fe89 PCI/CMA: Expose in sysfs whether devices are authenticated
+         21ba8b5e92a58f33256a5d106138606c80eebfa0 PCI/CMA: Expose certificates in sysfs
+         a2d874cab09062a5aeba5bb73a63bdac7d631490 sysfs: Allow bin_attributes to be added to groups
+         cc6ddcbf6e6f0c87b305c9cac16f1093e4c5a78a sysfs: Allow symlinks to be added between sibling groups
+         c38f9faf994da86cb7ea7025c7c817132625d428 PCI/CMA: Expose a log of received signatures in sysfs
+         4cafac411a801fd1be1a991ee1dad6930560839d spdm: Limit memory consumed by log of received signatures
+         acb332be388e300b3f6196f3950bf55c4682b36b spdm: Authenticate devices despite invalid certificate chain
+         07d8fabca82531c921389358fd3fcac3de5930be spdm: Allow control of next requester nonce through sysfs
+         
