@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Tue, 25 Jun 2024 00:34:18 -0000
-Message-Id: <171927565881.2998.11599444023727200254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 25 Jun 2024 00:40:53 -0000
+Message-Id: <171927605336.9991.13150352853881818777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: ba8710c10e50c1b1de02f80478d23fb060b55beb
-    new: 50fc365e69f6004c97e86746ed7bdc1c38d04df0
+  - ref: refs/heads/todo
+    old: 0524b14f52194a88761ba5ae3dcd176c0a9fa451
+    new: b1d1cc72429c5e0a4865629a0b2fc42c1f4800cd
     log: |
-         50fc365e69f6004c97e86746ed7bdc1c38d04df0 TODO: Add an item to be more aggressive at mesage-id parsing
+         b1d1cc72429c5e0a4865629a0b2fc42c1f4800cd What's cooking (2024/06 #08)
          
