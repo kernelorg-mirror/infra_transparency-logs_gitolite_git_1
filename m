@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Tue, 25 Jun 2024 13:55:07 -0000
-Message-Id: <171932370708.18567.8776876199963174797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 25 Jun 2024 13:58:06 -0000
+Message-Id: <171932388612.19712.18218082339589006244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: 3e6358e9aa0618f6a7de3a58e545caaada03739f
-    new: b49cbdf48362aa431807a459e1e5c0c2d9549512
+  - ref: refs/heads/task/work
+    old: b51c689cd47ef3675844b20ece9ac7e4252c8f71
+    new: 114226143ba51560dc027f792f888ecfb53c46cb
     log: |
-         b49cbdf48362aa431807a459e1e5c0c2d9549512 CI: fix excluded files in checkpatch.conf
+         114226143ba51560dc027f792f888ecfb53c46cb mm: Drain LRUs upon resume to userspace on nohz_full CPUs
          
