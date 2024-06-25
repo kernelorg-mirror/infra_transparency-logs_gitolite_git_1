@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 25 Jun 2024 15:48:25 -0000
-Message-Id: <171933050520.7377.7125996043934159485@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 15:48:29 -0000
+Message-Id: <171933050955.7474.4137022075800391886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-6.10-rc2
-    old: f3a5367c679d31473d3fbb391675055b4792c309
+  - ref: refs/tags/for-6.10-rc2-tag
+    old: ca44bd0233d058159a0b63f8880d3472775d2460
     new: 0000000000000000000000000000000000000000
