@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4960671664699815339=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 25 Jun 2024 15:15:16 -0000
-Message-Id: <171932851633.14701.15743118486473917614@gitolite.kernel.org>
-
---===============4960671664699815339==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 25 Jun 2024 15:17:51 -0000
+Message-Id: <171932867117.15735.15328542086235763827@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 59c5a0a3238a9a8dd4803f5bdb8276608e981b0d
-    new: c6f96cb102b0a7af59f52274752b1d6e3ec1ab02
+  - ref: refs/heads/x86/vmware
+    old: f9e4b7a02b61631b964d53f7f24d2f81539cb0d3
+    new: 57b7b6acb41b51087ceb40c562efe392ec8c9677
     log: |
-         c6f96cb102b0a7af59f52274752b1d6e3ec1ab02 update cvelistV5
+         34bf25e820ae1ab38f9cd88834843ba76678a2fd x86/vmware: Introduce VMware hypercall API
+         54651bb4dcfea0949afe72775212511ec4193b85 ptp/vmware: Use VMware hypercall API
+         f0db90b4127c0e454cd9a19ec4256221b974b819 input/vmmouse: Use VMware hypercall API
+         90328eaaff34f5617b3ec9603681b08d4a8e72df drm/vmwgfx: Use VMware hypercall API
+         b2c13c23ea9c1f748315b8c2c028bb3ae18f1e12 x86/vmware: Use VMware hypercall API
+         86cb65448d07fe516e18d9512ae5786cd90db9bf x86/vmware: Correct macro names
+         9dfb18031f0df2378b3d33a13fc485ef89caa285 x86/vmware: Remove legacy VMWARE_HYPERCALL* macros
+         57b7b6acb41b51087ceb40c562efe392ec8c9677 x86/vmware: Add TDX hypercall support
          
-
---===============4960671664699815339==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719328521 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1719328513-94d4f41d391ed5a316a0fceea309e7841afa38fe
-
-59c5a0a3238a9a8dd4803f5bdb8276608e981b0d c6f96cb102b0a7af59f52274752b1d6e3ec1ab02 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ63wkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3IsP/RLSwfb47OXUY/5siphZ
-AiChpbh/ldZj2dxpf25p9YSpx9+tqjIwgYKUFALqCFoNfZxe1h50eVJ+y3GdMKsb
-7O8mf/SvMu2eHYX7+WWWUT9fodifLtIwNlpvOt+mhMu8US5TXlaYl9E1Xbhwgbrr
-HJAS3hTTM6AIjr+s1d+B3gjKbEOER5YCTGAOdazS3RJTSajBsciUHPL6AbKaS6UK
-hDDER5eH/7OMGBcJIhReYmnz94gEoDMO6iWL1Jkl+F3O0pL3OldwqDQulaXEArS8
-pD/VQZco28KrCXc9TIVDWwL3DREu2Hu0YVc1uyJTPA6iS37/EXlqONO6gYupN7EE
-T2gl6miMQwMVmYFb97WO4K90wdxrYMwo19ott0H4Fyt4BMjbVcK5ZBP317E9U1iq
-GHOhGFLwwivmGMMz5epAZIjRK8ZDmYQfG4LeAfRglzIVqNSVbPjQX6enp6dYEUjA
-q7HwzXPC/XA6rLSIJAgT62xtbkgiAkbrFyLypH6xyIdbhruxinQIb0dgktWIQOIv
-eLVBeUE8vTCtNN8ckLd9MbMQyq6F0maLGSOKC7XDaGU37qBycirfzv51Bmf4Pue3
-L+Z3OBuuDSI9pLNt4kOQl8vYRLij80YBpxSAVfu85wdO+7h4rNS0xVXHxHRGwPqf
-WjEa1Zhf0JFo6TOO1CmR+MAv
-=1ibf
------END PGP SIGNATURE-----
-
---===============4960671664699815339==--
