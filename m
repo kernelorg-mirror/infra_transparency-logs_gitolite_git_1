@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 25 Jun 2024 13:13:31 -0000
-Message-Id: <171932121185.18808.2982848283970430242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 25 Jun 2024 13:16:29 -0000
+Message-Id: <171932138994.21632.15486499225146796408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 6f49549109f74a10cba35f456b999c07b30b8265
-    new: 74bd7a851bf8a3b781dbc2dc1465479d8ededa19
+  - ref: refs/heads/main
+    old: ff46e3b4421923937b7f6e44ffcd3549a074f321
+    new: b1c4b4d45263241ec6c2405a8df8265d4b58e707
     log: |
-         cea5589e958f8aef301ce9d004bc73fa5bb3b304 s390/boot: Do not adjust GOT entries for undef weak sym
-         7014e2184573d40222f84da9ef50441d40b8e979 Merge branch 'fixes' into for-next
-         74bd7a851bf8a3b781dbc2dc1465479d8ededa19 Merge branch 'features' into for-next
+         b1c4b4d45263241ec6c2405a8df8265d4b58e707 net: dsa: microchip: fix wrong register write when masking interrupt
          
