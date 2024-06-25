@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 25 Jun 2024 01:50:03 -0000
-Message-Id: <171928020350.4307.9550853469932993500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 25 Jun 2024 02:01:13 -0000
+Message-Id: <171928087382.11861.11065938898038535965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/io_uring-6.10
-    old: a23800f08a60787dfbf2b87b2e6ed411cb629859
-    new: dbcabac138fdfc730ba458ed2199ff1f29a271fc
+  - ref: refs/heads/for-6.11
+    old: 8a6c6b4b935f1613273f71609b69844babd8ff9e
+    new: eb4a3b629b4d61e83dc49541185100a297a7e6ba
     log: |
-         26b97668e5339434e5df8ddc7b1898a37a350112 io_uring: remove dead struct io_submit_state member
-         dbcabac138fdfc730ba458ed2199ff1f29a271fc io_uring: signal SQPOLL task_work with TWA_SIGNAL_NO_IPI
+         eb4a3b629b4d61e83dc49541185100a297a7e6ba sched_ext: Drop tools_clean target from the top-level Makefile
+         
+  - ref: refs/heads/for-next
+    old: 8a6c6b4b935f1613273f71609b69844babd8ff9e
+    new: eb4a3b629b4d61e83dc49541185100a297a7e6ba
+    log: |
+         eb4a3b629b4d61e83dc49541185100a297a7e6ba sched_ext: Drop tools_clean target from the top-level Makefile
          
