@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2620729550564918433=="
+Content-Type: multipart/mixed; boundary="===============1637694137282749148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 25 Jun 2024 20:05:17 -0000
-Message-Id: <171934591748.5663.14794400358464612965@gitolite.kernel.org>
+Date: Tue, 25 Jun 2024 20:05:41 -0000
+Message-Id: <171934594168.5931.4786511278872910150@gitolite.kernel.org>
 
---===============2620729550564918433==
+--===============1637694137282749148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 2dfa1b7bfc07e58acb9f9eaa8c871f37189dbfee
     new: 3341d69268accb5294b569ec37e55212a8a28ac5
     log: revlist-2dfa1b7bfc07-3341d69268ac.txt
 
---===============2620729550564918433==
+--===============1637694137282749148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ bfe339ee8e010aee2295be5b051673526581dd75 iio: adc: hx711: remove hx711_remove()
 a4a9fc32f8156c7e1a9d6dddd20f19ca6acab452 iio: adc: ti-ads8688: drop ads8688_remove()
 3341d69268accb5294b569ec37e55212a8a28ac5 iio: dac: ad3552r: use devm_regulator_get_enable_read_voltage()
 
---===============2620729550564918433==--
+--===============1637694137282749148==--
