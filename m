@@ -1,56 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============6555885423195229259=="
+Content-Type: multipart/mixed; boundary="===============3458944955638640279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 25 Jun 2024 12:44:43 -0000
-Message-Id: <171931948361.16292.14742810701399223097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 25 Jun 2024 12:45:14 -0000
+Message-Id: <171931951404.18202.4854434042586449348@gitolite.kernel.org>
 
---===============6555885423195229259==
+--===============3458944955638640279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d4609d69beaf9b1d84d12a50ef1cd0a1f3d8f8ea
-    new: f17e85f9154bf588ff81adc9e266456e3281b26f
-    log: |
-         f17e85f9154bf588ff81adc9e266456e3281b26f drop drm patch
-         
+    old: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
+    new: 55027e689933ba2e64f3d245fb1ff185b3e7fc81
+    log: revlist-f2661062f16b-55027e689933.txt
 
---===============6555885423195229259==
+--===============3458944955638640279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719319480 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1719319479-16fca2651ae2a45f1a3f32523d9f5d9b3371996b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719319513 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1719319512-bb7275edf3aa7abc8e85bfff26acf074617d7ffb
 
-d4609d69beaf9b1d84d12a50ef1cd0a1f3d8f8ea f17e85f9154bf588ff81adc9e266456e3281b26f refs/heads/master
+f2661062f16b2de5d7b6a5c42a9a5c96326b8454 55027e689933ba2e64f3d245fb1ff185b3e7fc81 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ6u7gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pDAP/RlfYRoyoONDazSpe437
-Lb8e7haSfqfYJdkxhi9NE1V8NfOGAFNygaKmgamT6OorO6H+ZcP4o3abjZDouS33
-6R6jb0iPaljeesLN6WwETpxu5BEA+6uAM0K1xpIaya35+ny5W1RVyp1/k4LC0oJ2
-l/STgFVoBuaCri9MPhgBhxFX+mIeb/OIPD4k6JQ7mMU9K6teoasr1WflbKEuev1+
-Xdx809of6+2EgcV0r7M7FlcaqTAnSJjB9GnXmmdtDNW5rqasBIzwQNwpg9RTnNNb
-von6IeMLcTDaD1NMVHy0tp5n8gugjzQfD241oXsnGg+MNwlLe4fONPKUd7Zb5dV/
-USEoCEk144vd6I0ER1uBwqb1qoBNEmYxUqLtqoay2EMu00pRsjYQCUEaKAy00WcA
-GkyfM2+LJgoHloDlOz8s9vx+oeNWiz45eaYDabMITNRlPYdUVXgOMoweT9PHbqMu
-eYPodu9DNrnh3gIm8OD0/5LF4WMqKuDPyrUcsRKmYRpX9Iw1/1PyZjqeZj/Ky2ra
-BiwpJOkJ/b8Vy4kEJIcgo6R22q0TPsGiH1E+VpnZta9+Az4u511FBNHjeMvw9zzj
-drVnL8UmsKxZQqAdG07vOw2c2x/bVVeORUQ6llZs8XYfaJHGWy4V4ubv4D4Lc36a
-wN6UaZWuhwPBm6doPYnUcPdw
-=1mhD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ6u9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dpkP/2gk7X+0iiiDPe3IN7xi
+niqsRTeBfTWDDWZbGR6ULTQNJ0xbwMEpEODZvxGfXJ0WX42kBVCksFr22hcbXcDY
+VbrcstYmmdUkdlfVAxr40Y5Z4fmDWusxGi/p7QIg88+tTnAA1dyKU006SBNFEufN
+kfNEH8FzdVr/LpT8YSIM58d6wbue25DRvKdK9wNi+CLvox3C9m1PVl+f5ei/4ryy
+XM9H3/thT38alw0qcMySLLrfFK0bz8ldE/1r1y7xnOiz7LUV9rrK1EcYGBJ7VkDw
+Chk0OSTRNmp2w94137M7SJxfGFDdHKVJxPEqVfsWQ1lncBClKktSax8xmQtH44J5
+dtukBsIVHFOR2yLFobXT0ojYIi4JpmNj408F2s9H8qkWJ1T8XoadPFJgDH2/p+ca
+pLZuIuFTIVcZb7PueIRuffOVVoQGGsBsxb+Om6xb54KiNm8j9sgwXY8rHgAvD3tK
+le5MWNhvvnVliBoZiZFY/iEIfxQngjWI459L045qPIEPTQjjsBmF5CECjqWSxe2T
+c41Uvq9BiC5cc8LU6x88AbWw3ZBplOXa1aJ8sTIX6wZMkc0VRaAaeajewwx1oeY3
+0MAQBvrfZuxhFRGuzup/k+pQUJRaW/0Dnfw6VpFpalKykmcCkW4rEzangMZOS6+7
+kVYGYFwdMPYMrurvK9VGEiro
+=xsTp
 -----END PGP SIGNATURE-----
 
---===============6555885423195229259==--
+--===============3458944955638640279==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f2661062f16b-55027e689933.txt
+
+a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
+a69ce592cbe0417664bc5a075205aa75c2ec1273 Input: elantech - fix touchpad state on resume for Lenovo N24
+955af6355ddfe35140f9706a635838212a32513b Input: i8042 - add Ayaneo Kun to i8042 quirk table
+dff5c3de21e753d1e46517aa2df0ebd23c06ede5 Merge tag 'renesas-pinctrl-fixes-for-v6.10-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
+9f0fad0382124e7e23b3c730fa78818c22c89c0a Input: ili210x - fix ili251x_read_touch_data() return value
+cee77149ebe9cd971ba238d87aa10e09bd98f1c9 Input: xpad - add support for ASUS ROG RAIKIRI PRO
+8da86499d4cd125a9561f9cd1de7fba99b0aecbf pinctrl: qcom: spmi-gpio: drop broken pm8008 support
+550dec8593cd0b32ffc90bb88edb190c04efbb48 dt-bindings: pinctrl: qcom,pmic-gpio: drop pm8008
+03ecbe4bb61886cc7fff5b0efc3784e86ac16214 pinctrl: tps6594: add missing support for LP8764 PMIC
+61fef29ad120d3077aeb0ef598d76822acb8c4cb pinctrl: bcm2835: Fix permissions of persist_gpio_outputs
+adec57ff8e66aee632f3dd1f93787c13d112b7a1 pinctrl: fix deadlock in create_pinctrl() when handling -EPROBE_DEFER
+e8448a6c817c2aa6c6af785b1d45678bd5977e8d pinctrl: rockchip: fix pinmux bits for RK3328 GPIO2-B pins
+5ef6914e0bf578357b4c906ffe6b26e7eedb8ccf pinctrl: rockchip: fix pinmux bits for RK3328 GPIO3-B pins
+01b4b1d1cec48ef4c26616c2fc4600b2c9fec05a pinctrl: rockchip: use dedicated pinctrl type for RK3328
+4ea4d4808e342ddf89ba24b93ffa2057005aaced pinctrl: rockchip: fix pinmux reset in rockchip_pmx_set
+7c7b1be19b228b450c2945ec379d7fc6bfef9852 Input: ads7846 - use spi_device_id table
+626737a5791b59df5c4d1365c4dcfc9b0d70affe Merge tag 'pinctrl-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+55027e689933ba2e64f3d245fb1ff185b3e7fc81 Merge tag 'input-for-v6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+
+--===============3458944955638640279==--
