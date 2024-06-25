@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 25 Jun 2024 15:49:13 -0000
-Message-Id: <171933055391.7823.11591006356785326649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 25 Jun 2024 15:49:18 -0000
+Message-Id: <171933055807.7896.17350784139850769771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
   - ref: refs/heads/master-pending
