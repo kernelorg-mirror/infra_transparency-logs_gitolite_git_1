@@ -1,27 +1,41 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 26 Jun 2024 18:21:09 -0000
-Message-Id: <171942606908.1754.9736775452435953327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 26 Jun 2024 18:34:21 -0000
+Message-Id: <171942686180.9639.13757919421431772875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c7a5592e8e4d5e0ece94694e3932891a744c2b96
-    new: e8b86f0311a4b721663df8105a680e5968f21d4c
+  - ref: refs/heads/master-pending
+    old: 188e7855853428504aeb3c3ee8cef1fc3744a24f
+    new: 87f58f20f28ecd2a6840ce9cbccf0c6fe34e8234
     log: |
-         7f240209ba0e931acfb4e21fbdc95956d84413e7 perf build: Add '*.a' to clean targets
-         39f3ce5cabdcb0b3216e2ab0d05402b4e4cd4155 perf ui: Make ui its own library
-         49f4ac4b949762119eb0fd57a1682cf3a47dea89 perf pmu-events: Make pmu-events a library
-         1dad99af1a8211e2afc1b711c0cda4fbdd445ae2 perf test: Make tests its own library
-         21cc3bc00a68c1f4178feab1f89d1af3cfcfc84f perf bench: Make bench its own library
-         e467705a9fb37f51595aa6deaca085ccb4005454 perf util: Make util its own library
-         9dabf4003423c8d3a2f4f8915c3ff2f1158302a0 perf python: Switch module to linking libraries from building source
-         e4b19e2cc3e5f9be8f159ba0b4ba6aed8d993abf perf python: Clean up build dependencies
-         e8b86f0311a4b721663df8105a680e5968f21d4c perf test stat_bpf_counter.sh: Stabilize the test results
+         38a509a03a3d87062511de28f3ef3b9665e591a9 wifi: ath12k: fix driver initialization for WoW unsupported devices
+         8f03b693177a8153ec4490f277df41835021c8f1 wifi: ath: create common testmode_i.h file for ath drivers
+         7d5dd57428a5524e6695f2cd5c421eb3d65377b5 wifi: ath12k: export ath12k_wmi_tlv_hdr for testmode
+         1544e13b928218f69dc97d44401b97909c58aba4 wifi: ath12k: add factory test mode support
+         0711fb5259117e74e7d520133a6c6ba381b85a0f wifi: ath12k: Fill pdev id for fw test cmd
+         3c299ebb766f53000ef1bb6f8008718e9850610f wifi: ath11k: Add firmware coredump collection support
+         44497ba612393a1a47b16efe884ec99f8bd3d0c8 wifi: ath12k: Add firmware coredump collection support
+         87f58f20f28ecd2a6840ce9cbccf0c6fe34e8234 Merge branch 'pending' into master-pending
          
+  - ref: refs/heads/pending
+    old: 045c60ff22e31cc3e9b6a2b66c6ac4405bc3f663
+    new: 44497ba612393a1a47b16efe884ec99f8bd3d0c8
+    log: |
+         38a509a03a3d87062511de28f3ef3b9665e591a9 wifi: ath12k: fix driver initialization for WoW unsupported devices
+         8f03b693177a8153ec4490f277df41835021c8f1 wifi: ath: create common testmode_i.h file for ath drivers
+         7d5dd57428a5524e6695f2cd5c421eb3d65377b5 wifi: ath12k: export ath12k_wmi_tlv_hdr for testmode
+         1544e13b928218f69dc97d44401b97909c58aba4 wifi: ath12k: add factory test mode support
+         0711fb5259117e74e7d520133a6c6ba381b85a0f wifi: ath12k: Fill pdev id for fw test cmd
+         3c299ebb766f53000ef1bb6f8008718e9850610f wifi: ath11k: Add firmware coredump collection support
+         44497ba612393a1a47b16efe884ec99f8bd3d0c8 wifi: ath12k: Add firmware coredump collection support
+         
+  - ref: refs/tags/ath-pending-202406261832
+    old: 0000000000000000000000000000000000000000
+    new: 87f58f20f28ecd2a6840ce9cbccf0c6fe34e8234
