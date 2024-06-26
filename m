@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7154648329315668079=="
+Content-Type: multipart/mixed; boundary="===============2190944089427411019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 26 Jun 2024 06:10:56 -0000
-Message-Id: <171938225638.21571.2058579668865820812@gitolite.kernel.org>
+Date: Wed, 26 Jun 2024 06:11:28 -0000
+Message-Id: <171938228844.21850.9372108508708456801@gitolite.kernel.org>
 
---===============7154648329315668079==
+--===============2190944089427411019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: b401b621758e46812da61fa58a67c3fd8d91de0d
+  - ref: refs/heads/devfreq-next
+    old: ccad360a2d415447bd6f0de9e873eec05442d159
     new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    log: revlist-b401b621758e-f2661062f16b.txt
+    log: revlist-ccad360a2d41-f2661062f16b.txt
 
---===============7154648329315668079==
+--===============2190944089427411019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b401b621758e-f2661062f16b.txt
+Content-Disposition: attachment; filename=revlist-ccad360a2d41-f2661062f16b.txt
 
 8c2f5dd0c362ec036f0217da1d413ce2b8361080 drm/lima: Fix dma_resv deadlock at drm object pin time
 3b8407e81ed76c0d84d710c2a177a8fe24292702 drm/gem-shmem: Add import attachment warning to locked pin function
@@ -1051,4 +1051,4 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 
---===============7154648329315668079==--
+--===============2190944089427411019==--
