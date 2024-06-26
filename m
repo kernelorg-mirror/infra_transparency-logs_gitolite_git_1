@@ -1,28 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 26 Jun 2024 15:45:10 -0000
-Message-Id: <171941671080.16093.10142479118582013689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 26 Jun 2024 15:50:04 -0000
+Message-Id: <171941700405.19490.13804094342131168202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/ath-next
-    old: 7af01e5695295444d47f4ead3e27e91d8c9e60f4
-    new: 1eeafd64c7b455381b77c546e41bc267e13e2809
+  - ref: refs/heads/for-6.11/block
+    old: 44348870de4b8f292f97b84583a298d66fbaf738
+    new: e94b45d08b5d1c230c0f59c3eed758d28658851e
     log: |
-         2c7857677d695166e913123b23ed7e55d80f72be wifi: ath12k: Fix pdev id sent to firmware for single phy devices
-         1eeafd64c7b455381b77c546e41bc267e13e2809 wifi: ath12k: fix peer metadata parsing
+         cf546dd289e0f6d2594c25e2fb4e19ee67c6d988 block: change rq_integrity_vec to respect the iterator
+         573d5abf3df00c879fbd25774e4cf3e22c9cabd0 md: set md-specific flags for all queue limits
+         78887d004fb2bb03233122a048eaf46e850dabf4 block: correctly report cache type
+         ec9b1cf0b0ebfb52274971a8a0e74e0a133f64fb block: rename BLK_FEAT_MISALIGNED
+         fcf865e357f80285af12c0c9a49f89d71acb7f4b block: convert features and flags to __bitwise types
+         3302f6f09052274945f877beeb83f74641de2418 block: conding style fixup for blk_queue_max_guaranteed_bio
+         73781b3b81e76583708a652c853d54d03dce031d block: remove disk_update_readahead
+         abfc9d810926dfbf5645c7755c8d5ab96273f27d block: remove the fallback case in queue_dma_alignment
+         e94b45d08b5d1c230c0f59c3eed758d28658851e block: move dma_pad_mask into queue_limits
          
-  - ref: refs/heads/ath-qca
-    old: 780775b6930c47c6e5f30acdabd56c46c0437159
-    new: 9304ca1d4d3a9e698e53ee386a9e8e311fbd82fe
+  - ref: refs/heads/for-next
+    old: e6d130064a02f5242f50a6d11864fce2f0142a8c
+    new: c1440ed442a58eb4060a58f7c1f85775b6bb72ae
     log: |
-         2c7857677d695166e913123b23ed7e55d80f72be wifi: ath12k: Fix pdev id sent to firmware for single phy devices
-         1eeafd64c7b455381b77c546e41bc267e13e2809 wifi: ath12k: fix peer metadata parsing
-         9304ca1d4d3a9e698e53ee386a9e8e311fbd82fe Merge branch 'ath-next' into ath-qca
+         cf546dd289e0f6d2594c25e2fb4e19ee67c6d988 block: change rq_integrity_vec to respect the iterator
+         72e9cd924fccc36fc2210fcfe7671454c0f15be0 Merge branch 'for-6.11/block' into for-next
+         573d5abf3df00c879fbd25774e4cf3e22c9cabd0 md: set md-specific flags for all queue limits
+         78887d004fb2bb03233122a048eaf46e850dabf4 block: correctly report cache type
+         ec9b1cf0b0ebfb52274971a8a0e74e0a133f64fb block: rename BLK_FEAT_MISALIGNED
+         fcf865e357f80285af12c0c9a49f89d71acb7f4b block: convert features and flags to __bitwise types
+         3302f6f09052274945f877beeb83f74641de2418 block: conding style fixup for blk_queue_max_guaranteed_bio
+         73781b3b81e76583708a652c853d54d03dce031d block: remove disk_update_readahead
+         abfc9d810926dfbf5645c7755c8d5ab96273f27d block: remove the fallback case in queue_dma_alignment
+         e94b45d08b5d1c230c0f59c3eed758d28658851e block: move dma_pad_mask into queue_limits
+         c1440ed442a58eb4060a58f7c1f85775b6bb72ae Merge branch 'for-6.11/block' into for-next
          
