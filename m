@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2251048198970976582=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 26 Jun 2024 17:55:56 -0000
-Message-Id: <171942455603.15398.7524484187216831679@gitolite.kernel.org>
-
---===============2251048198970976582==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 26 Jun 2024 17:56:41 -0000
+Message-Id: <171942460197.15781.8878609344531784139@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: 0495ae13f4a2ad6654449daec00d66b7e7df1b7c
-    new: 9a32301f12fa6f7673a46d04f59c677ac66329ce
-    log: revlist-0495ae13f4a2-9a32301f12fa.txt
-
---===============2251048198970976582==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0495ae13f4a2-9a32301f12fa.txt
-
-0f8e3f69c61f8fe5eb6b7fb33d51c1de2debc798 nfs: add "localio" support
-1dc4086bb4d70139dec2064ac5a816590edf921d nfsd: add "localio" support
-8f9ce1780d2bc44901d03f58ed85f4af637a049e nfsd/localio: manage netns reference in nfsd_open_local_fh
-0c7c434850ff327dfeb9011ed3793d73d4b81802 nfsd: use percpu_ref to interlock nfsd_destroy_serv and nfsd_open_local_fh
-2a112b61e9118716d1a05f0bb6d73b44e5aa8eca nfs/nfsd: add Kconfig options to allow localio to be enabled
-07f02258181af49b6e7749d59edfe7d7238cd47d NFS: Enable localio for non-pNFS I/O
-04a628f2b9b9be1239ef2eea9580faf0e7653b15 pnfs/flexfiles: Enable localio for flexfiles I/O
-86aff00abd7802e12c3196b64d5108a0c83beb09 nfs: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
-eca696f72b65b58ad3381d3eb01d9b32bfbec22b SUNRPC: remove call_allocate() BUG_ON if p_arglen=0 to allow RPC with void arg
-a9090236ea956e55b8a8693ca3427972572bfe74 nfs: implement client support for NFS_LOCALIO_PROGRAM
-d1af6d53192ee36921ce8c520e07ebfe6ebd006b nfsd: implement server support for NFS_LOCALIO_PROGRAM
-dcafe4b5cf24471672f2700a99d9993f28122eb8 SUNRPC: replace program list with program array
-9a32301f12fa6f7673a46d04f59c677ac66329ce nfs: add Documentation/filesystems/nfs/localio.rst
-
---===============2251048198970976582==--
+  - ref: refs/heads/wip/jgg-for-next
+    old: a92fbeac7e94a420b55570c10fe1b90e64da4025
+    new: fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54
+    log: |
+         0d2e6992fc956e3308cd5376c18567def4cb3967 RDMA/mlx4: Fix truncated output warning in mad.c
+         5953e0647cec703ef436ead37fed48943507b433 RDMA/mlx4: Fix truncated output warning in alias_GUID.c
+         0c5275bf75ec3708d95654195ae4ed80d946d088 RDMA/mlx5: Use sq timestamp as QP timestamp when RoCE is disabled
+         844bc12e6da3e2d8ab0cd96d049fc695d5d8ba68 IB/core: add support for draining Shared receive queues
+         58945ddd7156b4d83206b7b21567e67fca16346a IB/isert: remove the handling of last WQE reached event
+         4adcaf969d77d3d3aa3871bbadc196258a38aec6 RDMA/rxe: Don't set BTH_ACK_MASK for UC or UD QPs
+         5a905e33b266f504e0b290055125e5002635e2e6 RDMA/hfi1: Constify struct mmu_rb_ops
+         47f9b4190a1d9db2db670c01af7deb648073e218 RDMA/efa: Use offset_in_page() function
+         fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54 RDMA/efa: Remove duplicate aenq enable macro
+         
