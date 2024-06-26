@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 26 Jun 2024 01:15:16 -0000
-Message-Id: <171936451630.30804.4999520748429351136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Wed, 26 Jun 2024 01:20:07 -0000
+Message-Id: <171936480741.3368.4704996252339039399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: c73a9683cb21012b6c0f14217974837151c527a8
-    new: d65f3767de20782e75d8a665fdc54f822f344802
+  - ref: refs/heads/master
+    old: b939b11c019b89ae31618777a099bdf769116e8e
+    new: a7560515ef5ac1a2ad655283ab2916bab0707a2f
     log: |
-         d65f3767de20782e75d8a665fdc54f822f344802 bpf: Fix tailcall cases in test_bpf
+         a7560515ef5ac1a2ad655283ab2916bab0707a2f TODO: Add an item for handling lines longer than max columns of the screen
          
