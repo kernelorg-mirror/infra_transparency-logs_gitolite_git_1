@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 26 Jun 2024 17:19:26 -0000
-Message-Id: <171942236641.19439.7398408143963556192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 26 Jun 2024 17:20:52 -0000
+Message-Id: <171942245292.21639.18394836334683407982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-linus
-    old: 63b47f026cc841bd3d3438dd6fccbc394dfead87
-    new: 68f97fe330e01450ace63da0ce5cab676fc97f9a
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: 3cba1ea60b546b735d0888d9128b1a347ca31fcd
+    new: 0495ae13f4a2ad6654449daec00d66b7e7df1b7c
     log: |
-         68f97fe330e01450ace63da0ce5cab676fc97f9a ASoC: rt5645: fix issue of random interrupt from push-button
-         
-  - ref: refs/heads/for-next
-    old: 746f9508a95e68fa48fd3c38356e7cbfbad6c975
-    new: a6e39dad0dbde56f464d603a078bbfe356bddcba
-    log: |
-         68f97fe330e01450ace63da0ce5cab676fc97f9a ASoC: rt5645: fix issue of random interrupt from push-button
-         a6e39dad0dbde56f464d603a078bbfe356bddcba Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         25e066636ebeda18e187496fa5a441ed71c918aa nfsd: implement server support for NFS_LOCALIO_PROGRAM
+         7a4400c9d2b7dbacc56014411362f9484fdbeed4 SUNRPC: replace program list with program array
+         0495ae13f4a2ad6654449daec00d66b7e7df1b7c nfs: add Documentation/filesystems/nfs/localio.rst
          
