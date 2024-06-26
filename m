@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 26 Jun 2024 17:31:42 -0000
-Message-Id: <171942310231.29077.2519669464671958741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 26 Jun 2024 17:32:28 -0000
+Message-Id: <171942314843.29433.14415985385743843892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/for-next
-    old: a6e39dad0dbde56f464d603a078bbfe356bddcba
-    new: d5f57c241b07de371fa1e8863ba05a936719e1d5
+    old: db9cc848128eb174b24a5dff82fc3e7589a3bf25
+    new: b498ddb6f283c1a3efff98851aa58d66307be620
     log: |
-         ebc1a54051b58d1aa3a8855faac8bf16b88b8af7 ASoC: codecs: lpass-macro: Gracefully handle unknown version
-         06462d6f3fb3c445b5abac7b134d9fe9e361113f ASoC: codecs: lpass-macro: Use enum for handling codec version
-         d5f57c241b07de371fa1e8863ba05a936719e1d5 Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         5d55721d6e24c8e99cc86ee1fcb90d776ef47964 power: supply: samsung-sdi-battery: Constify struct power_supply_vbat_ri_table
+         0b209ec85b2b73c38a09ba71dc05fbe4aee7be67 power: supply: samsung-sdi-battery: Constify struct power_supply_maintenance_charge_table
+         b498ddb6f283c1a3efff98851aa58d66307be620 power: reset: piix4: add missing MODULE_DESCRIPTION() macro
          
