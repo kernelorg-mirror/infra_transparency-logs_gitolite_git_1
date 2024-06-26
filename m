@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 26 Jun 2024 17:56:41 -0000
-Message-Id: <171942460197.15781.8878609344531784139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 26 Jun 2024 17:59:41 -0000
+Message-Id: <171942478179.16882.6923844114622960781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: a92fbeac7e94a420b55570c10fe1b90e64da4025
-    new: fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: 9a32301f12fa6f7673a46d04f59c677ac66329ce
+    new: 30b29c3ff62967dc27afccba259563e2dbde9984
     log: |
-         0d2e6992fc956e3308cd5376c18567def4cb3967 RDMA/mlx4: Fix truncated output warning in mad.c
-         5953e0647cec703ef436ead37fed48943507b433 RDMA/mlx4: Fix truncated output warning in alias_GUID.c
-         0c5275bf75ec3708d95654195ae4ed80d946d088 RDMA/mlx5: Use sq timestamp as QP timestamp when RoCE is disabled
-         844bc12e6da3e2d8ab0cd96d049fc695d5d8ba68 IB/core: add support for draining Shared receive queues
-         58945ddd7156b4d83206b7b21567e67fca16346a IB/isert: remove the handling of last WQE reached event
-         4adcaf969d77d3d3aa3871bbadc196258a38aec6 RDMA/rxe: Don't set BTH_ACK_MASK for UC or UD QPs
-         5a905e33b266f504e0b290055125e5002635e2e6 RDMA/hfi1: Constify struct mmu_rb_ops
-         47f9b4190a1d9db2db670c01af7deb648073e218 RDMA/efa: Use offset_in_page() function
-         fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54 RDMA/efa: Remove duplicate aenq enable macro
+         a1cee3ddd490ca6765afdf0d731ce72c6441c69d nfs: implement client support for NFS_LOCALIO_PROGRAM
+         42122ab18d2133844fc6de66f97d435088a92e26 nfsd: implement server support for NFS_LOCALIO_PROGRAM
+         5b81f8317e1cf3a7b7829ed7f21b5f7e90a9a08d SUNRPC: replace program list with program array
+         30b29c3ff62967dc27afccba259563e2dbde9984 nfs: add Documentation/filesystems/nfs/localio.rst
          
