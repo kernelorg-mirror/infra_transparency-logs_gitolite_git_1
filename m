@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 26 Jun 2024 17:37:55 -0000
-Message-Id: <171942347565.2078.5949682493161232965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Wed, 26 Jun 2024 17:40:30 -0000
+Message-Id: <171942363030.4676.8480719833950490316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 321028bc45f01edb9e57b0ae5c11c5c3600d00ca
-    new: c40ff9b662d08c86b7a46067155a97af0074bb93
+  - ref: refs/heads/next
+    old: a64a661460afe8bbf222255b8e66a2f8ac4f86d1
+    new: d8beb81b85384d632a1763a1ad25c550b157a28a
     log: |
-         c7049843db753475528ec2753c33065bc3e37258 MAINTAINERS: Remembering Larry Finger
-         c40ff9b662d08c86b7a46067155a97af0074bb93 MAINTAINERS: wifi: update ath.git location
+         e16cd345bc01cd6c58718328a0ff441a2d9c4926 _damon_args: Merge contiguous target regions when --numa_node is given
+         d8beb81b85384d632a1763a1ad25c550b157a28a tests/unit/test_damon_args: Add a test for merge_cont_ranges()
          
