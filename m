@@ -1,112 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4842099971945756926=="
+Content-Type: multipart/mixed; boundary="===============8259390423611612082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 26 Jun 2024 19:08:15 -0000
-Message-Id: <171942889580.4328.17498496314124175840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 26 Jun 2024 19:08:34 -0000
+Message-Id: <171942891441.4548.15993122428105134177@gitolite.kernel.org>
 
---===============4842099971945756926==
+--===============8259390423611612082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
-  - ref: refs/heads/fs-next
-    old: 9b4e5403a2604581626b11777785a1a503bca4cb
-    new: 8791fda1448118897882254798da221590dc0cf9
-    log: revlist-9b4e5403a260-8791fda14481.txt
   - ref: refs/heads/master
     old: 0fc4bfab2cd45f9acb86c4f04b5191e114e901ed
     new: df9574a57d02b265322e77fb8628d4d33641dda9
     log: revlist-0fc4bfab2cd4-df9574a57d02.txt
-  - ref: refs/tags/next-20240326
-    old: 4099895dca4869756f8915c7c1ab382f044a46ac
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240626
     old: 0000000000000000000000000000000000000000
     new: d133de4e5052626c51755fe4fa4edd1534e473d8
 
---===============4842099971945756926==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b4e5403a260-8791fda14481.txt
-
-0e337b40dbe8c9bcd878f54cdaaf64c70d57f23f fs: don't copy to userspace under namespace semaphore
-f50630d91d456c613492d8b55736280b5638cc0c path: add cleanup helper
-344c5e84b954b597fa17a7fc0715a69af38a9fc6 fs: simplify error handling
-cfa35bc63f66abc7628b2580bb0ff501a227712d listmount: allow listing in reverse order
-7f07ee5a23a5ed3da7ed3574913aada6f4143a22 proc: Remove usage of the deprecated ida_simple_xx() API
-26a2ed107929a855155429b11e1293b83e6b2a8b hfs: fix to initialize fields of hfs_inode_info after hfs_alloc_inode()
-5e362bd5eecdd7ccafc9611a108a53423ccd5065 vfs: reorder checks in may_create_in_sticky
-9b6a14f08b4875aa22ea0b5bc35042e2580b311b fs: Export in_group_or_capable()
-8444ee22adb0c8b09ccf9c183bdf6d649d67ddda f2fs: Use in_group_or_capable() helper
-153216cf7bd50842ffc3d500ea96adeb65db63ef fuse: Use in_group_or_capable() helper
-8e3447822d7d8c0f562c6851a7a31e24d1ede55e vfs: remove redundant smp_mb for thp handling in do_dentry_open
-ebfdd03a97486585cce837b2e33a4d213bc9b6ff fs: relax permissions for listmount()
-a2f1759d19d11a1d1de2246e1fa6368e4eb8b053 fs: relax permissions for statmount()
-0e79b98f19f8cffde602abf91594cf1a8151fa16 fs: keep an index of current mount namespaces
-c64449b0b4ae7f8aec93c150254124b446f251fb fs: export the mount ns id via statmount
-047afedd2e22c16da616f18ca783f3207b7a9bde fs: Allow listmount() in foreign mount namespace
-1661e867c9462369ff033e2ed76ef0ff54b258dd fs: Allow statmount() in foreign mount namespace
-00c8d859151bd953f5b55f3d336646eff8528e26 fs: add an ioctl to get the mnt ns id from nsfs
-f0f1033dd078339a6588b571fe1243e2a2c5e519 selftests: add a test for the foreign mnt ns extensions
-0394ceba72fe698f546188f8b721c11b7345d220 Merge patch series "Support foreign mount namespace with statmount/listmount"
-e0011bca603c101f2a3c007bdb77f7006fa78fb1 nfsd: initialise nfsd_info.mutex early.
-ac03629b1612ad008ea6603a3d142e291e3de9bb Revert "nfsd: fix oops when reading pool_stats before server is started"
-99c2133a8670c08e77af466d5d66c0e740ad0a40 fs: use guard for namespace_sem in statmount()
-b9682ea29360b68aa38fd45172bc4c3a48179609 nfsd: fix a regression in threads procfile interface
-117a01b23a6853bcb42c61528d87b71a778bd745 nfsd: allow passing in array of thread counts via netlink
-9d41f7b1832938bd96303622da43226cea0ee06b sunrpc: refactor pool_mode setting code
-d220689c55d12b4cf1e989996229a4bb128cfaca nfsd: new netlink ops to get/set server pool_mode
-899e02913a64c676159ebf9f6f47546a45a2e75a nsfs: add pid translation ioctls
-0875b7b7bcd230e49453eabf6482c348e1bbaf08 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-6fe15cb535c29f8f4504cb2f6abddadc4d720ed2 Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-1817a973e393b5e682259427452551b1c6f068d4 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-731bf100a135d9b84401bb291e53951a58323776 Merge branch 'vfs.module.description' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-d725113bc5747b8b8adae5053f46f538ee524689 Merge branch 'vfs.pg_error' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-77029f3bc5c9438e5a6334410404dbe712f87ee0 Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-1fa0a860cfdba0cb9dbe954f9e1c64fcd739e5e1 Merge branch 'vfs.casefold' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-dc3a2177e02ccb634b0d49d54d3a42695140c10c Merge branch 'vfs.inode.rcu' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-9f5e9693d6ffbd3856e13c156e3f76e93c6dd0d5 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-2e2029db17443b26f1f03c1a6ee11d7b4ef19122 Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-d6f8e538328d4858ea6a6564cb889d967c93f75b Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-75ee92d774fb2f6ad8e7996645ea9867753df005 Merge branch 'vfs.nsfs' into vfs.all
-4374e73db3d83cdeafddc5594605d07ba71cfe1b Merge branch 'vfs.iomap' into vfs.all
-610b29161b0aa9feb59b78dc867553274f17fb01 xfs: fix freeing speculative preallocations for preallocated files
-288e1f693f04e66be99f27e7cbe4a45936a66745 xfs: restrict when we try to align cow fork delalloc to cowextsz hints
-1ec9307fc066dd8a140d5430f8a7576aa9d78cd3 xfs: allow unlinked symlinks and dirs with zero size
-dc5e1cbae270b625dcb978f8ea762eb16a93a016 xfs: fix direction in XFS_IOC_EXCHANGE_RANGE
-673cd885bbbfd873aa6983ce2363a813b7826425 xfs: honor init_xattrs in xfs_init_new_inode for !ATTR fs
-9d01f6f6d8b57131c74810739b9d65141062e4c0 erofs: fix possible memory leak in z_erofs_gbuf_exit()
-cc69a681b2573e8865e29758f1a5b284328efb2d erofs: convert to use super_set_uuid to support for FS_IOC_GETFSUUID
-8c474c8d2f4349c232f6a9efbe8bccf10750e032 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-8f8df77ce4d28016562344e90822aed48dc0e8af Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-4ea00ad97dffda927d4ba1f80b526e3ded40b475 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-19da50d0e41175879dd3ebf0f9732a90caab5fe9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-44795a8bc4b5a7d1e8174fd828f8a5794cf53402 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9e74881f5d345839348550ee9bb66df0cad85418 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-0dc94dc99c7537f39ef9e637e1a293bbd99196c9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-c640d9532253d6004bfe71f56c923e4e9245093f Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-c5e5630186dd25767fb0f8ab4476b702fdb78eb9 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-59845af823fdad01bd992b6a51c3a5b0102fa008 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-1fbb3e88f3ac0b9e1ea3315cdd03e5a715c16d65 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-89f6a8bfce92a7d1dc70fc00e8bdec80f1375285 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-2e520c10e807ced95e32408326ae1ac89ca424af Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-35b2363351ae68b4730a0dce0666dab1d1044534 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-9815d779707295cbfb52247d611c7d67f169377f Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-17b863f8ad7c7d55410cdb53149678f2e0acd4fc Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-719c136f9e89e0335a207fcdbb5e265678191b47 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-0ef2bd7118a57bc73247a7d56e78183b124de81f Merge branch '9p-next' of git://github.com/martinetd/linux
-37b1688e8cd6fc691b3fcaceafabbd88d4a2b1c4 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-e5921d29dcc34fa7ebacd52a12ad08a8a62e9b2d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-8791fda1448118897882254798da221590dc0cf9 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============4842099971945756926==
+--===============8259390423611612082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1033,4 +950,4 @@ ca0d233eac7c7c32f4175e2f9bcede50c0e045d9 Merge branch 'for-next/execve' of git:/
 f08f18a7e4aab7f8c317c3889a39142d748d6cdd Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 df9574a57d02b265322e77fb8628d4d33641dda9 Add linux-next specific files for 20240626
 
---===============4842099971945756926==--
+--===============8259390423611612082==--
