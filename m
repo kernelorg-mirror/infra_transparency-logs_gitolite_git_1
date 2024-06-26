@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4132409017163383882=="
+Content-Type: multipart/mixed; boundary="===============8633548376665638185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 26 Jun 2024 09:05:30 -0000
-Message-Id: <171939273071.20541.14749220889556173281@gitolite.kernel.org>
+Date: Wed, 26 Jun 2024 09:05:45 -0000
+Message-Id: <171939274546.20704.18036057004832801052@gitolite.kernel.org>
 
---===============4132409017163383882==
+--===============8633548376665638185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.10-fixes
     old: 348a1983cf4cf5099fc398438a968443af4c9f65
     new: 673cd885bbbfd873aa6983ce2363a813b7826425
     log: revlist-348a1983cf4c-673cd885bbbf.txt
 
---===============4132409017163383882==
+--===============8633548376665638185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -362,4 +362,4 @@ f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 dc5e1cbae270b625dcb978f8ea762eb16a93a016 xfs: fix direction in XFS_IOC_EXCHANGE_RANGE
 673cd885bbbfd873aa6983ce2363a813b7826425 xfs: honor init_xattrs in xfs_init_new_inode for !ATTR fs
 
---===============4132409017163383882==--
+--===============8633548376665638185==--
