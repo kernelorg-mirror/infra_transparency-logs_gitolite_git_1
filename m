@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 26 Jun 2024 14:33:04 -0000
-Message-Id: <171941238424.16719.6059945044358030724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 26 Jun 2024 14:34:37 -0000
+Message-Id: <171941247737.17367.16539294101073014275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 50b70845fc5c22cf7e7d25b57d57b3dca1725aa5
-    new: a6a6a98094116b60e5523a571d9443c53325f5b1
+  - ref: refs/heads/vfs.misc
+    old: 33b321ac3a51e590225585f41c7412b86e987a0d
+    new: 9e6717bfa0c9bd6e5e2647b64a5c6693eb0a9f32
     log: |
-         a6a6a98094116b60e5523a571d9443c53325f5b1 net: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         9e6717bfa0c9bd6e5e2647b64a5c6693eb0a9f32 vfs: support statx(..., NULL, AT_EMPTY_PATH, ...)
          
