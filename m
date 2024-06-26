@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 26 Jun 2024 01:05:22 -0000
-Message-Id: <171936392208.21813.8485315171071304758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 Jun 2024 01:15:09 -0000
+Message-Id: <171936450921.30682.3119857976961524020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 84b767f9e34fdb143c09e66a2a20722fc2921821
-    new: 5dfe9d273932c647bdc9d664f939af9a5a398cbc
+  - ref: refs/heads/master
+    old: c73a9683cb21012b6c0f14217974837151c527a8
+    new: d65f3767de20782e75d8a665fdc54f822f344802
     log: |
-         5dfe9d273932c647bdc9d664f939af9a5a398cbc tcp: fix tcp_rcv_fastopen_synack() to enter TCP_CA_Loss for failed TFO
+         d65f3767de20782e75d8a665fdc54f822f344802 bpf: Fix tailcall cases in test_bpf
          
