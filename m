@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7627673319772637192=="
+Content-Type: multipart/mixed; boundary="===============5456529679319386303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 26 Jun 2024 16:17:34 -0000
-Message-Id: <171941865458.6898.13919503167854107836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 26 Jun 2024 16:17:38 -0000
+Message-Id: <171941865836.7013.14131397844846498168@gitolite.kernel.org>
 
---===============7627673319772637192==
+--===============5456529679319386303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
   - ref: refs/heads/master-pending
@@ -37,7 +37,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 188e7855853428504aeb3c3ee8cef1fc3744a24f
 
---===============7627673319772637192==
+--===============5456529679319386303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -432,4 +432,4 @@ e7aba26eec7a9e11ef3c8b6e559f8c4fc42fd663 wifi: ath12k: export ath12k_wmi_tlv_hdr
 045c60ff22e31cc3e9b6a2b66c6ac4405bc3f663 wifi: ath12k: Add firmware coredump collection support
 188e7855853428504aeb3c3ee8cef1fc3744a24f Merge branch 'pending' into master-pending
 
---===============7627673319772637192==--
+--===============5456529679319386303==--
