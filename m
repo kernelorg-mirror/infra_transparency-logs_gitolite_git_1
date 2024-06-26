@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 26 Jun 2024 08:03:54 -0000
-Message-Id: <171938903406.7345.8092089970708819389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 26 Jun 2024 08:18:54 -0000
+Message-Id: <171938993483.18788.18441825746946638080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/devfreq-next
-    old: d2e14ae1fec1e041488940d571232204ae95b744
-    new: 1d143dde76798ce6655d5de01b0a5d29f2011a38
+  - ref: refs/heads/gpio/for-current
+    old: 7aa9b96e9a73e4ec1771492d0527bd5fc5ef9164
+    new: 888119571b7c9518faeeeb2b431ffc4455e0028d
     log: |
-         1d143dde76798ce6655d5de01b0a5d29f2011a38 PM / devfreq: exynos: Use Use devm_clk_get_enabled() helpers
+         888119571b7c9518faeeeb2b431ffc4455e0028d gpio: graniterapids: Add missing raw_spinlock_init()
          
