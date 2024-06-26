@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 26 Jun 2024 00:48:15 -0000
-Message-Id: <171936289552.4760.15513213784750747463@gitolite.kernel.org>
+Date: Wed, 26 Jun 2024 00:50:08 -0000
+Message-Id: <171936300859.7144.9627489543938073459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c84f93243e5420547f720df1bcb701ceead31d5b
-    new: 63173885ccb253ff76e1da5cb148d1ca4b69a019
+    old: 63173885ccb253ff76e1da5cb148d1ca4b69a019
+    new: a425a973e9ceb13914ab5a790f8f22b10f3d6612
     log: |
-         0e942053e4dc42a760f48c1981f3239825430f15 linux/dim: move useful macros to .h file
-         b65e697a7c9e0ae28a6255257d8b9b3271960426 dim: make DIMLIB dependent on NET
-         f750dfe825b904164688adeb147950e0e0c4d262 ethtool: provide customized dim profile management
-         13ba28c5cd047e272f9dbbeb5c62c403873d8987 dim: add new interfaces for initialization and getting results
-         dcb67f6a9ead650360a60009ba8a68be385c2bde virtio-net: support dim profile fine-tuning
-         63173885ccb253ff76e1da5cb148d1ca4b69a019 Merge branch 'ethtool-provide-the-dim-profile-fine-tuning-channel'
+         1108566ca509e67aa8abfbf914b1cd31e9ff51f8 gve: Add adminq mutex lock
+         fcfe6318dbac45e6c3c5c7a40f5dd5c08600a5e9 gve: Add adminq extended command
+         3519c00557e0725906384c42e9f490d311c7b93f gve: Add flow steering device option
+         57718b60df9b67366291d1e4ce3e5dde7a7cf5a5 gve: Add flow steering adminq commands
+         6f3bc487565d30ae9535e338efad213dd74c04ec gve: Add flow steering ethtool support
+         a425a973e9ceb13914ab5a790f8f22b10f3d6612 Merge branch 'gve-add-flow-steering-support'
          
