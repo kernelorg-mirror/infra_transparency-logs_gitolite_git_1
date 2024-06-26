@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 26 Jun 2024 11:08:58 -0000
-Message-Id: <171940013810.28815.17702412109898761927@gitolite.kernel.org>
+Date: Wed, 26 Jun 2024 11:11:14 -0000
+Message-Id: <171940027490.31402.9130066582860408088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileb3Y1Zj
+  - ref: refs/heads/20240625_krzysztof_kozlowski_asoc_codecs_lpass_wsa_macro_add_support_for_newer_v2_5_version
     old: 0000000000000000000000000000000000000000
-    new: 63b47f026cc841bd3d3438dd6fccbc394dfead87
+    new: 727de4fbc5466c7150482b532f2b7f7e514134f3
