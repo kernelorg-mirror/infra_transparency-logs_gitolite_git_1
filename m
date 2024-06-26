@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6323826773750548809=="
+Content-Type: multipart/mixed; boundary="===============2035100714760026654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Wed, 26 Jun 2024 10:22:08 -0000
-Message-Id: <171939732897.25501.2610391219894878836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 26 Jun 2024 10:43:56 -0000
+Message-Id: <171939863647.8697.13678682524118457255@gitolite.kernel.org>
 
---===============6323826773750548809==
+--===============2035100714760026654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 707807f4c1128e39442519e849e4ce0b7c29b110
-    log: |
-         707807f4c1128e39442519e849e4ce0b7c29b110 pinctrl: samsung: Use scope based of_node_put() cleanups
-         
+  - ref: refs/heads/devel
+    old: 41f60a627e64b79e441687d77149cf6b0eda6bd0
+    new: 0cd9f140389bcd876e23aa3c06eea07f42892ad4
+    log: revlist-41f60a627e64-0cd9f140389b.txt
 
---===============6323826773750548809==
+--===============2035100714760026654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-41f60a627e64-0cd9f140389b.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1719397327 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1719397327-4237305a7fbbfe158fa33cf3326b8766c17a21ff
+11eefc0ac884b753c885f1256be182af7c13eefb pinctrl: tegra: Use scope based of_node_put() cleanups
+8fa99c00351ce673986dffd9a6839ad611e170dc pinctrl: starfive: Use scope based of_node_put() cleanups
+794e5dc533b070012d8e3cc9bf115596371ac040 pinctrl: sprd: Use scope based of_node_put() cleanups
+8c5dc2a5b3a76f1ebf483dd2e3514746e97898cd pinctrl: spear: Use scope based of_node_put() cleanups
+56c42f6c7b2cab1b531ba1a433320e10a613eb80 pinctrl: rockchip: Use scope based of_node_put() cleanups
+7c2aabb56f925a1f68373e857bce170e2fd29b46 pinctrl: at91: Use scope based of_node_put() cleanups
+3dcc01b36f18aafc0977d68f292414b2c2cfb874 pinctrl: s32cc: Use scope based of_node_put() cleanups
+c957ae7e7e68451b792eeff6fed968effb1a8716 pinctrl: nomadik: Use scope based of_node_put() cleanups
+3a0278cfb4486eb4fd218454050564d23606a000 pinctrl: mediatek: Use scope based of_node_put() cleanups
+240c5f238d59894c54df36ed5a157246bbae7e23 pinctrl: bcm: bcm63xx: Use scope based of_node_put() cleanups
+d7f5120a944a5b515d6307c8cbfcd4f1fde543fb pinctrl: pinconf-generic: Use scope based of_node_put() cleanups
+7f500f2011c0bbb6e1cacab74b4c99222e60248e pinctrl: freescale: mxs: Fix refcount of child
+3a882554a3bbd2fa7f671a48bdf1452bb0d961a1 pinctrl: k210: Use scope based of_node_put() cleanups
+2ffa7a35466212f31a0ffda5d948c49a236fac55 dt-bindings: pinctrl: qcom: Add SM4250 pinctrl
+c2e5a25e8d880638d771b19899b5a76feb8b82a0 pinctrl: qcom: Introduce SM4250 LPI pinctrl driver
+49b2b5c39e10fd442b89844ae6a510a207c0c8c9 dt-bindings: pinctrl: aspeed,ast2600-pinctrl: add NCSI groups
+f775c242307777d6c7739e21d2ef30987b737104 pinctrl: aspeed-g6: Add NCSI pin group config
+0cd9f140389bcd876e23aa3c06eea07f42892ad4 pinctrl: mlxbf3: Fix return value check for devm_platform_ioremap_resource
 
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 707807f4c1128e39442519e849e4ce0b7c29b110 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZ7688QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yfnD/4pKgtVJrWQ7aDNgPzylHFRjX8TxQpfQuVg
-gnJQ+6RIkTX3fxtj162rJ2r2tIIEvMxIRa2lYh/PLhMuurHSXg5im12cANym7c1c
-fK1oR49bePxzUbwVRinfTZL37XNiDZhgutpG9p1a8LS4oEieTaL4DRtJaEELXMwZ
-P0ImaIADAFZdSlreoLftZ/pTS+WbiCGmQEmsGfgIVcDNxN25bjDkSS+GmRRGTCKi
-RQO9kZ16EScDavAXAoW6WDfXVw/SPdoNQHW1ign9mLNyCAPFMkO8z8ngXHagidCx
-aDnJbxIa+AwChyZ1Q2wUP5sQn7uGorJgJby4F3pVuCqzWMPvwAueTMgOA2YC94Aq
-PJ6gQ6Xrwv4MUyZSdgYadoT19Spt0pr7aQrG8LgW6k3LMqUaUbnQDZHJLTRZrK2i
-2r+0fnM++2g0I8nshsYPhIOy+qXeN4HyYVv+nAgpTxjpxg0AUIefRRBock2jN6FT
-p/+lw11uQS/Wy/ftWnfp6pzIR4XjrcxD8ZJ7B68WNGBCNz2Asa9CIho4o5bBDMeu
-Avhd8SgnlZXaiXsiHTOL1DzLzi1NIre1EN6Q/RxdObqc7IvS0uN2KAyQwsJYbk+8
-Dr2j/Km4f+RfSMPbj0Y4S5eztVh2jdB/aeHiR0HOd0QS9+BCnrYlQ20d9mNNLq/Z
-rJhH2y0ZlQ==
-=D3E9
------END PGP SIGNATURE-----
-
---===============6323826773750548809==--
+--===============2035100714760026654==--
