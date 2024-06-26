@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 26 Jun 2024 18:40:31 -0000
-Message-Id: <171942723129.16708.4620022180715470003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 26 Jun 2024 18:57:16 -0000
+Message-Id: <171942823630.27418.15211582405278592951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 5d2a43c46931905ea13e0c090a5e7864a233367a
-    new: 54c9dfaa74e7cc8a4613494fd689c5e5c13f999e
+  - ref: refs/heads/nfsd-next
+    old: d220689c55d12b4cf1e989996229a4bb128cfaca
+    new: b927c29090acc637820cb426589900203aac504f
     log: |
-         54c9dfaa74e7cc8a4613494fd689c5e5c13f999e foo
+         b927c29090acc637820cb426589900203aac504f MAINTAINERS: Add a bugzilla link for NFSD
          
