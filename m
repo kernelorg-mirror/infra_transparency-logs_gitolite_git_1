@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2600666272635115883=="
+Content-Type: multipart/mixed; boundary="===============6339208971566631186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 26 Jun 2024 15:05:32 -0000
-Message-Id: <171941433284.11246.10133079940175145993@gitolite.kernel.org>
+Date: Wed, 26 Jun 2024 15:05:40 -0000
+Message-Id: <171941434059.11385.932081803704396536@gitolite.kernel.org>
 
---===============2600666272635115883==
+--===============6339208971566631186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.11
+  - ref: refs/heads/for-next
     old: 69d7125a61aeb5e55cafeebe7ae7582068589dbe
     new: ff8238de7e9674acabf8b7b4e75c83e91d6763b8
     log: revlist-69d7125a61ae-ff8238de7e96.txt
 
---===============2600666272635115883==
+--===============6339208971566631186==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
 ff8238de7e9674acabf8b7b4e75c83e91d6763b8 dm: optimize flushes
 
---===============2600666272635115883==--
+--===============6339208971566631186==--
