@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 26 Jun 2024 02:32:43 -0000
-Message-Id: <171936916318.22208.13612202312567235977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 26 Jun 2024 03:07:28 -0000
+Message-Id: <171937124862.16159.8963573038672140262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: f6faea753ac8172956eabfafed6137e4c8683091
-    new: ce84b7beeb524e7b20983838687862454ba54df7
+  - ref: refs/heads/master
+    old: 4f284e13497b41c9e2245b8049618b8e1d1e1f29
+    new: 9057e1007f9cfefbbb19067d17e79cfda7753383
     log: |
-         ce84b7beeb524e7b20983838687862454ba54df7 cpufreq: sti: add missing MODULE_DEVICE_TABLE entry for stih418
+         eaf6d5b125a7532d4089fd96ad84b77bb2ebd769 foo
+         0a5f0d448506ed840968cd8958ee488190222c3d foo
+         9057e1007f9cfefbbb19067d17e79cfda7753383 foo
          
