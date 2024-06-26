@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8403272902210318607=="
+Content-Type: multipart/mixed; boundary="===============1976406965240130008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 26 Jun 2024 06:08:00 -0000
-Message-Id: <171938208013.18680.2900895611223285270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Wed, 26 Jun 2024 06:09:41 -0000
+Message-Id: <171938218199.19355.2111540784701516851@gitolite.kernel.org>
 
---===============8403272902210318607==
+--===============1976406965240130008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: b401b621758e46812da61fa58a67c3fd8d91de0d
+  - ref: refs/heads/master
+    old: dd5a440a31fae6e459c0d6271dddd62825505361
     new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    log: revlist-b401b621758e-f2661062f16b.txt
+    log: revlist-dd5a440a31fa-f2661062f16b.txt
 
---===============8403272902210318607==
+--===============1976406965240130008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b401b621758e-f2661062f16b.txt
+Content-Disposition: attachment; filename=revlist-dd5a440a31fa-f2661062f16b.txt
 
 8c2f5dd0c362ec036f0217da1d413ce2b8361080 drm/lima: Fix dma_resv deadlock at drm object pin time
 3b8407e81ed76c0d84d710c2a177a8fe24292702 drm/gem-shmem: Add import attachment warning to locked pin function
@@ -1051,4 +1051,4 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 
---===============8403272902210318607==--
+--===============1976406965240130008==--
