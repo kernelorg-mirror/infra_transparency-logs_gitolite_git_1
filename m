@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7273858153792987637=="
+Content-Type: multipart/mixed; boundary="===============1979854897725187277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 27 Jun 2024 07:00:54 -0000
-Message-Id: <171947165415.12982.3744584238234932842@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 07:01:06 -0000
+Message-Id: <171947166612.13175.14764289313892509145@gitolite.kernel.org>
 
---===============7273858153792987637==
+--===============1979854897725187277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: dd5a440a31fae6e459c0d6271dddd62825505361
+  - ref: refs/heads/usb-next
+    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-dd5a440a31fa-6ba59ff42279.txt
+    log: revlist-39cd87c4eb2b-6ba59ff42279.txt
 
---===============7273858153792987637==
+--===============1979854897725187277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd5a440a31fa-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-39cd87c4eb2b-6ba59ff42279.txt
 
 05d6f442f31f901d27dbc64fd504a8ec7d5013de ice: Interpret .set_channels() input differently
 5e7695e0219bf6acb96081af3ba0ca08b1829656 idpf: Interpret .set_channels() input differently
@@ -1051,4 +1051,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============7273858153792987637==--
+--===============1979854897725187277==--
