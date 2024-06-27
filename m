@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 27 Jun 2024 18:50:03 -0000
-Message-Id: <171951420390.26275.17925772606461857039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 27 Jun 2024 18:51:58 -0000
+Message-Id: <171951431845.27111.3277265445141412479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/block-6.10
-    old: 5f75e081ab5cbfbe7aca2112a802e69576ee9778
-    new: cab598bcef0971f11679b048cc9f502cc8143c88
+  - ref: refs/heads/master
+    old: ff6b3cad757327dd2df3637793b930bb899c8f0c
+    new: e6ea1a52ce188f20ba85cdd79130d7b70f389f0f
     log: |
-         9570a48847e3acfa1a741cef431c923325ddc637 nvme: fix NVME_NS_DEAC may incorrectly identifying the disk as EXT_LBA.
-         f31e85a4d7c6ac4a3e014129c9cdc31592ea29f3 nvmet: do not return 'reserved' for empty TSAS values
-         5a5696a11f7e0c5ce3185b6234d02996f8267108 nvme-apple: add missing MODULE_DESCRIPTION()
-         f80a55fa90fa76d01e3fffaa5d0413e522ab9a00 nvme: fixup comment for nvme RDMA Provider Type
-         0f1f5803920d2a6b88bee950914fd37421e17170 nvmet: make 'tsas' attribute idempotent for RDMA
-         440e2051c577896275c0e0513ec26964e04c7810 nvmet-fc: Remove __counted_by from nvmet_fc_tgt_queue.fod[]
-         cab598bcef0971f11679b048cc9f502cc8143c88 Merge tag 'nvme-6.10-2024-06-27' of git://git.infradead.org/nvme into block-6.10
+         1a2e75e750eae9994291623c76fb719a943d361c Fixes for 6.9
+         43e4205dfa09eb63337b263342ce89d056407240 Fixes for 6.6
+         4dde684f9c29bd53da84e59ab54528b776117160 Fixes for 6.1
+         3993d6f0f5242736c3ee6c714b5f245ed261f435 Fixes for 5.15
+         d24b19b76506d055d0a50337127559dcea967aa1 Fixes for 5.10
+         151819a9a09f8c58384c366f26a8c4700eedfa33 Fixes for 5.4
+         e6ea1a52ce188f20ba85cdd79130d7b70f389f0f Fixes for 4.19
          
