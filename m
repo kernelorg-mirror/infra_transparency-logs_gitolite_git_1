@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7817063984155246589=="
+Content-Type: multipart/mixed; boundary="===============0315970281552069714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 27 Jun 2024 11:16:42 -0000
-Message-Id: <171948700265.22058.15367580052552920961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 27 Jun 2024 11:16:54 -0000
+Message-Id: <171948701480.22194.5938410698267991270@gitolite.kernel.org>
 
---===============7817063984155246589==
+--===============0315970281552069714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: b147ae7ae5141cb10c520d372ecabb2c520210c4
     new: db576ed76232875ca92372771bfd247ad47b46ce
     log: revlist-b147ae7ae514-db576ed76232.txt
 
---===============7817063984155246589==
+--===============0315970281552069714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719487001 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1719487000-02eeb3cb17315e48abcd04b6ea641d44d0e54a0c
+pusher C3F436CA30F5D8EB 1719487013 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1719487011-f7f68b2f4a26579c56e3be3e79c7648f7357128e
 
-b147ae7ae5141cb10c520d372ecabb2c520210c4 db576ed76232875ca92372771bfd247ad47b46ce refs/heads/for-6.11
+b147ae7ae5141cb10c520d372ecabb2c520210c4 db576ed76232875ca92372771bfd247ad47b46ce refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ9ShkACgkQJNaLcl1U
-h9CLrAf+LFy7WwRrPyGcCjRvHY3duuBLPtCVnNLHpVETrZNgJWv2K3gP7J5g70BO
-V48ehljUNcMPzdMbvE+6ViZExc1VdynS4cSuOwJo7JdGkyuVGjJ26fuiktgXQDOA
-lO5lKPEDZ8/LiYD9fMI5L5YLOelB2sE/e1i7VfXo0n+TyNAhrKFB7ebBUxDy2ej8
-klYsLdUOCMi3CwThYsuLaMkINqQ48jIDH9lXY8gAFBaYpNR37HCNMKxZIrzn7Jgm
-eyCTMHOdG/y3944745IkDTBhGtOvOeik5mD8Jh9GvLJl1NVwD9o7o0P7XBgrLHNg
-6JwXmS797DRydlNscaVeaIAQt3VM2Q==
-=nyjz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZ9SiUACgkQJNaLcl1U
+h9Af9Af9Gcpn0DoGZSvdEyBqUDCl1IjFp++Uxw8Azuf+D9FfsDnSUskFHDlh2I0f
+/e188Gq0bDcQtph+9X236fIElHAbPcFtlqxDahy5pNOB/hBQICiBbYEKDB1S/IB0
+XFqL6XI96yOWvHlfk7VcyyYVEiHaQ7QxYLUiAhb/9By9AkqSO2sgnJZ4spfS+6U8
+n2mJzW0a3zkhh4Mks1P5UVv9NlHCBvsVv0tBStVcnukBS4XogHyD0Yp8uRo2ROeA
+JvEWp3Di+MhUir5oKcgosi+sXsPpHpxNJZk4tkJYBFdNCIj75XcOnUXpyf3ZrUEN
+uBHiV92OuT1a4oktcv/tfj55OxxITQ==
+=RDR/
 -----END PGP SIGNATURE-----
 
---===============7817063984155246589==
+--===============0315970281552069714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -386,4 +386,4 @@ f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 84fbd6198766336f627ba08f073fd9970729074e regulator: Add Renesas RZ/G2L USB VBUS regulator driver
 db576ed76232875ca92372771bfd247ad47b46ce Add USB VBUS regulator for RZ/G2L
 
---===============7817063984155246589==--
+--===============0315970281552069714==--
