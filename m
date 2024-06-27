@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2194507280591273590=="
+Content-Type: multipart/mixed; boundary="===============8742681400185530056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 27 Jun 2024 09:44:29 -0000
-Message-Id: <171948146983.18084.1376061561474826792@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 09:46:35 -0000
+Message-Id: <171948159592.20593.3993771767360841488@gitolite.kernel.org>
 
---===============2194507280591273590==
+--===============8742681400185530056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/for-6.11/bpf
-    old: 9e16bada9299d74fcce1f6b03606a08a2c16da81
-    new: d3e15189bfd4d0a9d3a7ad8bd0e6ebb1c0419f93
-    log: revlist-9e16bada9299-d3e15189bfd4.txt
+  - ref: refs/heads/for-next
+    old: 3887862fd91bb49f034d7a5f456fb71d33f1a957
+    new: 48e326f1cee81d3bb083712c0fc0aaf2c9cc64dd
+    log: revlist-3887862fd91b-48e326f1cee8.txt
 
---===============2194507280591273590==
+--===============8742681400185530056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e16bada9299-d3e15189bfd4.txt
+Content-Disposition: attachment; filename=revlist-3887862fd91b-48e326f1cee8.txt
 
 ebae0b2a6f4b3b949f30f076fbc65d3b0bb04785 HID: bpf: fix dispatch_hid_bpf_device_event uninitialized ret value
 67eccf151d76a9939ad8a50c6db5cb486b01df24 HID: add source argument to HID low level functions
@@ -39,5 +39,6 @@ fe8d561db3e82a1130c59ebc143d557b0bdb0cff selftests/hid: add wq test for hid_bpf_
 9acbb7ba4589d4715141d4e14230a828ddc95f3d HID: bpf: allow hid_device_event hooks to inject input reports on self
 62f2e1a096cd4380eca7e55fa4369d50a8536ab8 selftests/hid: add another test for injecting an event from an event hook
 d3e15189bfd4d0a9d3a7ad8bd0e6ebb1c0419f93 selftests/hid: add an infinite loop test for hid_bpf_try_input_report
+48e326f1cee81d3bb083712c0fc0aaf2c9cc64dd Merge branch 'for-6.11/bpf' into for-next
 
---===============2194507280591273590==--
+--===============8742681400185530056==--
