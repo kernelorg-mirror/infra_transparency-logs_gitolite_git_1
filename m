@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2496608776939192526=="
+Content-Type: multipart/mixed; boundary="===============2106743106017177387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 27 Jun 2024 15:14:50 -0000
-Message-Id: <171950129048.26857.6081042880791012033@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 15:14:52 -0000
+Message-Id: <171950129287.26938.11233741979879746011@gitolite.kernel.org>
 
---===============2496608776939192526==
+--===============2106743106017177387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b1c4b4d45263241ec6c2405a8df8265d4b58e707
     new: b62cb6a7e83622783100182d9b70e9c70393cfbe
     log: revlist-b1c4b4d45263-b62cb6a7e836.txt
 
---===============2496608776939192526==
+--===============2106743106017177387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e400cfa38bb0419cf1313e5494ea2b7d114e86d7 af_unix: Fix wrong ioctl(SIOCATMARK) wh
 1864b8224195d0e43ddb92a8151f54f6562090cc net: mana: Fix possible double free in error handling path
 b62cb6a7e83622783100182d9b70e9c70393cfbe Merge tag 'nf-24-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============2496608776939192526==--
+--===============2106743106017177387==--
