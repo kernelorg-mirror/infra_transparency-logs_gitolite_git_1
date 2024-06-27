@@ -1,94 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7492977952649765737=="
+Content-Type: multipart/mixed; boundary="===============6750183836379488390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Thu, 27 Jun 2024 16:34:13 -0000
-Message-Id: <171950605352.20757.4840170482148771235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 27 Jun 2024 16:34:58 -0000
+Message-Id: <171950609849.21121.13804196059932267222@gitolite.kernel.org>
 
---===============7492977952649765737==
+--===============6750183836379488390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: a2cd07d05e9c0f9c6b389c3314e180f9abf3eece
-    new: 0f5cb7e6e3f3042bdc6780d9a4fae9ed2d217834
-    log: revlist-a2cd07d05e9c-0f5cb7e6e3f3.txt
-  - ref: refs/heads/next
-    old: 185dd99f8f203a8cbaa177af37a9ebdbbdec46be
-    new: 91aa9e4e18c70bc2160b63e403932a83226dfc67
-    log: revlist-185dd99f8f20-91aa9e4e18c7.txt
-  - ref: refs/heads/renesas-dts-for-v6.11
-    old: b486a0895ce147aeca1db10762655004f2bf0df7
-    new: 6ade6513832d21599bdcaca59c715f23dde026a8
-    log: revlist-b486a0895ce1-6ade6513832d.txt
-  - ref: refs/tags/renesas-devel-2024-06-27-v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a38aa3cd489ca6e2bc7ac295c2382db398d6e570
-  - ref: refs/tags/renesas-next-2024-06-27-v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 37548d38c6a15ef37b8b3d712252b4d2c22ddd08
+  - ref: refs/heads/renesas-clk
+    old: d6c5fc9add9eb7a0d5bd179ab07cbf43e32b28d8
+    new: c7e58843d1e49a6b54d528a8ea34933cafb713f2
+    log: |
+         c8bd9bd6446fa034a1877b553bf118606b37c025 clk: renesas: r9a08g045: Add clock, reset and power domain support for the VBATTB IP
+         1f5ed3ae020a0624c9f51ed9720f8279bb0cae60 clk: renesas: r8a779h0: Add Audio clocks
+         c7e58843d1e49a6b54d528a8ea34933cafb713f2 clk: renesas: r9a08g045: Add clock, reset and power domain support for I2C
+         
+  - ref: refs/heads/renesas-clk-for-v6.11
+    old: d6c5fc9add9eb7a0d5bd179ab07cbf43e32b28d8
+    new: c7e58843d1e49a6b54d528a8ea34933cafb713f2
+    log: |
+         c8bd9bd6446fa034a1877b553bf118606b37c025 clk: renesas: r9a08g045: Add clock, reset and power domain support for the VBATTB IP
+         1f5ed3ae020a0624c9f51ed9720f8279bb0cae60 clk: renesas: r8a779h0: Add Audio clocks
+         c7e58843d1e49a6b54d528a8ea34933cafb713f2 clk: renesas: r9a08g045: Add clock, reset and power domain support for I2C
+         
+  - ref: refs/heads/renesas-pinctrl
+    old: 9ba049c499cd35bb4a5add713dd768d2cea3590a
+    new: fb0024d1d0742b1a1c97cfb05025913daccfd81f
+    log: revlist-9ba049c499cd-fb0024d1d074.txt
+  - ref: refs/heads/renesas-pinctrl-for-v6.11
+    old: 9ba049c499cd35bb4a5add713dd768d2cea3590a
+    new: fb0024d1d0742b1a1c97cfb05025913daccfd81f
+    log: revlist-9ba049c499cd-fb0024d1d074.txt
 
---===============7492977952649765737==
+--===============6750183836379488390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2cd07d05e9c-0f5cb7e6e3f3.txt
+Content-Disposition: attachment; filename=revlist-9ba049c499cd-fb0024d1d074.txt
 
-66962b9086b8275b461587571f6863aa4b56428b arm64: dts: renesas: r8a779a0: Add missing hypervisor virtual timer IRQ
-b3f9ae2f450703331c023127ba27fe34dacc7c7d arm64: dts: renesas: r8a779f0: Add missing hypervisor virtual timer IRQ
-95800395d08582610395a5d2513bc50df7d585ee arm64: dts: renesas: r8a779g0: Add missing hypervisor virtual timer IRQ
-c40359d35ac46a96799cae589044a00c68292b77 arm64: dts: renesas: r9a07g043u: Add missing hypervisor virtual timer IRQ
-a0bc9f2b7cda02d5df788bba47340e4f3c418bd7 arm64: dts: renesas: r9a07g044: Add missing hypervisor virtual timer IRQ
-a7df58bcc697c4bd84fa6e5c7b110d590975d512 arm64: dts: renesas: r9a07g054: Add missing hypervisor virtual timer IRQ
-4054c40b6c1d9a1c4ac942b938a1f4678d28023f arm64: dts: renesas: r9a08g045: Add missing hypervisor virtual timer IRQ
-283056508ebed72cc22be063b925514a99c1c86a ARM: dts: renesas: Add interrupt-names to arch timer nodes
-2beaf2584e07b2a2e070f5de7a29debbda4a0c1d arm64: dts: renesas: Add interrupt-names to arch timer nodes
-8f3a0069fb2555a60841a15c523aaa110b8e9fb3 arm64: dts: renesas: r8a779g0: Tidy up sound DT settings
-6ade6513832d21599bdcaca59c715f23dde026a8 arm64: dts: renesas: r8a779h0: R-Car Sound support
-91aa9e4e18c70bc2160b63e403932a83226dfc67 Merge branch 'renesas-dts-for-v6.11' into renesas-next
-0f5cb7e6e3f3042bdc6780d9a4fae9ed2d217834 Merge branch 'renesas-next' into renesas-devel
+2192104e4851d0e70a57e214424a13d81240bae6 pinctrl: renesas: sh73a0: Use rdev_get_drvdata()
+ddc6e4cfd604e0b2b22751be5dee3fbc265969f9 pinctrl: renesas: r8a779g0: Fix CANFD5 suffix
+2f239af1212442cf6fd3b23cb2b4f69f99d32873 pinctrl: renesas: r8a779g0: Fix FXR_TXEN[AB] suffixes
+acd87fa621ecd5ed8a3642d44795e893a841ed55 pinctrl: renesas: r8a779g0: Fix (H)SCIF1 suffixes
+79f46ec20f5c3d29a03603dd5e75a3f16c1d451d pinctrl: renesas: r8a779g0: Fix (H)SCIF3 suffixes
+3b08e23b1ee22d848c7631e58de23881038cd631 pinctrl: renesas: r8a779g0: Fix IRQ suffixes
+443f4ed2335681f209c4cd53ace3e0ec0ee70a73 pinctrl: renesas: r8a779g0: FIX PWM suffixes
+042de761af0119f926267eaf4ff445ca75efa035 pinctrl: renesas: r8a779g0: Fix TCLK suffixes
+d7111050afbe38bd0f0daf89cc4516e1bfc1e783 pinctrl: renesas: r8a779g0: Fix TPU suffixes
+8fe2f6829f69c9b55b44ed584d9367d3530de747 pinctrl: renesas: r8a779h0: Add AVB MII pins and groups
+a7bdd00cc2c1fa4acc344958c35123063585a701 pinctrl: renesas: r8a779g0: Remove unneeded separators
+34cf4d3c6ad4ca6853463689dcda9a945d26ea16 pinctrl: renesas: r8a779g0: Add INTC-EX pins, groups, and function
+fb0024d1d0742b1a1c97cfb05025913daccfd81f pinctrl: renesas: r8a779h0: Remove unneeded separators
 
---===============7492977952649765737==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-185dd99f8f20-91aa9e4e18c7.txt
-
-66962b9086b8275b461587571f6863aa4b56428b arm64: dts: renesas: r8a779a0: Add missing hypervisor virtual timer IRQ
-b3f9ae2f450703331c023127ba27fe34dacc7c7d arm64: dts: renesas: r8a779f0: Add missing hypervisor virtual timer IRQ
-95800395d08582610395a5d2513bc50df7d585ee arm64: dts: renesas: r8a779g0: Add missing hypervisor virtual timer IRQ
-c40359d35ac46a96799cae589044a00c68292b77 arm64: dts: renesas: r9a07g043u: Add missing hypervisor virtual timer IRQ
-a0bc9f2b7cda02d5df788bba47340e4f3c418bd7 arm64: dts: renesas: r9a07g044: Add missing hypervisor virtual timer IRQ
-a7df58bcc697c4bd84fa6e5c7b110d590975d512 arm64: dts: renesas: r9a07g054: Add missing hypervisor virtual timer IRQ
-4054c40b6c1d9a1c4ac942b938a1f4678d28023f arm64: dts: renesas: r9a08g045: Add missing hypervisor virtual timer IRQ
-283056508ebed72cc22be063b925514a99c1c86a ARM: dts: renesas: Add interrupt-names to arch timer nodes
-2beaf2584e07b2a2e070f5de7a29debbda4a0c1d arm64: dts: renesas: Add interrupt-names to arch timer nodes
-8f3a0069fb2555a60841a15c523aaa110b8e9fb3 arm64: dts: renesas: r8a779g0: Tidy up sound DT settings
-6ade6513832d21599bdcaca59c715f23dde026a8 arm64: dts: renesas: r8a779h0: R-Car Sound support
-91aa9e4e18c70bc2160b63e403932a83226dfc67 Merge branch 'renesas-dts-for-v6.11' into renesas-next
-
---===============7492977952649765737==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b486a0895ce1-6ade6513832d.txt
-
-66962b9086b8275b461587571f6863aa4b56428b arm64: dts: renesas: r8a779a0: Add missing hypervisor virtual timer IRQ
-b3f9ae2f450703331c023127ba27fe34dacc7c7d arm64: dts: renesas: r8a779f0: Add missing hypervisor virtual timer IRQ
-95800395d08582610395a5d2513bc50df7d585ee arm64: dts: renesas: r8a779g0: Add missing hypervisor virtual timer IRQ
-c40359d35ac46a96799cae589044a00c68292b77 arm64: dts: renesas: r9a07g043u: Add missing hypervisor virtual timer IRQ
-a0bc9f2b7cda02d5df788bba47340e4f3c418bd7 arm64: dts: renesas: r9a07g044: Add missing hypervisor virtual timer IRQ
-a7df58bcc697c4bd84fa6e5c7b110d590975d512 arm64: dts: renesas: r9a07g054: Add missing hypervisor virtual timer IRQ
-4054c40b6c1d9a1c4ac942b938a1f4678d28023f arm64: dts: renesas: r9a08g045: Add missing hypervisor virtual timer IRQ
-283056508ebed72cc22be063b925514a99c1c86a ARM: dts: renesas: Add interrupt-names to arch timer nodes
-2beaf2584e07b2a2e070f5de7a29debbda4a0c1d arm64: dts: renesas: Add interrupt-names to arch timer nodes
-8f3a0069fb2555a60841a15c523aaa110b8e9fb3 arm64: dts: renesas: r8a779g0: Tidy up sound DT settings
-6ade6513832d21599bdcaca59c715f23dde026a8 arm64: dts: renesas: r8a779h0: R-Car Sound support
-
---===============7492977952649765737==--
+--===============6750183836379488390==--
