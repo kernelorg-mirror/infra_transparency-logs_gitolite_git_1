@@ -1,56 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============2655272372299439201=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 27 Jun 2024 11:53:32 -0000
-Message-Id: <171948921282.11081.13300019390398782346@gitolite.kernel.org>
-
---===============2655272372299439201==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Thu, 27 Jun 2024 11:53:38 -0000
+Message-Id: <171948921838.11208.11233171358136341606@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/notes/signatures/tar
-    old: cb01e535e2a259a27e57f39aac03a259f046c7a3
-    new: d09e34433d998e90c6bce7e2964bb547fc266e28
+  - ref: refs/heads/arm/allwinner
+    old: 13f024ae23d1936f58fee3cb4ab65340b59ae883
+    new: 8db07ce532c0b51fea974613002cdc6a27732929
+  - ref: refs/heads/iommu/fixes
+    old: bc7ee68adc47c8ac7ad56703b8ca0b42df14c786
+    new: 150bdf5f8d8f805d70bebbbfd07697bd2416771a
     log: |
-         d09e34433d998e90c6bce7e2964bb547fc266e28 Notes added by 'git notes add'
+         c362f32a59a84fe4453abecc6b53f5f70894a6d5 iommu/amd: Invalidate cache before removing device from domain list
+         041be2717b198dd65032f726648401ba293c1bba iommu/vt-d: Fix missed device TLB cache tag
+         150bdf5f8d8f805d70bebbbfd07697bd2416771a iommu/amd: Fix GT feature enablement again
          
-
---===============2655272372299439201==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719489211 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1719489209-d52332638a2f7cfdacc21c144bbda79d911c6526
-
-cb01e535e2a259a27e57f39aac03a259f046c7a3 d09e34433d998e90c6bce7e2964bb547fc266e28 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9UrsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E0oP/2fM+DWKSPfh/E9HIV8U
-nJaSQo+zFl7vseCip47uYXhliAc9YebyPYkCQMVzltedofmR8ZpyTSyR1ywDd9kE
-iPnJgyTMYg1B2iaibHS4wvmnq1PvGUkpj4K14CbdPpA0FNGEEa7g0oJJrKM/twpt
-o7wDczidRCAWZxfjfnVLmJQGgq90igaZGT8N1/vxcUXitr1FuM6ZM20Sb/CUPmA2
-+5cyWGWAymuAjiWzNKdEOwx/dRRvUcSOLXXt1pZY3EJ7T0uZafwnzoD8r8XxtKrp
-swOAN56v6HakAGvSe1hOU8s8bDytWqKyGQOobNyXuW4p9+USgy15D4/RqMiTk30C
-ZK2VlcuHvA9jqsgaeBJh024QCl7xp4hV4s813Pnto47GoN0HjRvcEDsFd2EVpi6H
-cK2oYwHZAYDdPJ6M2ksLUfr1/J/y+iC4QBLFfCn+nJQkDj/IRHQLfNPBLKHJFSgX
-o5GmO5nFoyNWDyWleexUVIceZeANFT4tW7mqmOrSMGcI7Q80TtYmaBJ3iH4peV3J
-M1TNm123S+iEKX3mDZd43NmOUb9SWaVyibX2/SKlv5wZSbEajTXUXSfcqjTwCea0
-z6jGVz5/VhTn36dtjovFwMIHFdEQ/VOMdC0pmE7eFEol2fQ2Ez17z46rIn75XMIa
-q1WuwqQMAJT1ojJnfP9pZaF/
-=kdCd
------END PGP SIGNATURE-----
-
---===============2655272372299439201==--
+  - ref: refs/heads/next
+    old: bd30dc6e6efeaf98c8f193783717e507cf6bcb81
+    new: 10fd4a0342d22f5b9535649a9ecd37efbedfc1c1
+    log: |
+         c362f32a59a84fe4453abecc6b53f5f70894a6d5 iommu/amd: Invalidate cache before removing device from domain list
+         041be2717b198dd65032f726648401ba293c1bba iommu/vt-d: Fix missed device TLB cache tag
+         150bdf5f8d8f805d70bebbbfd07697bd2416771a iommu/amd: Fix GT feature enablement again
+         10fd4a0342d22f5b9535649a9ecd37efbedfc1c1 Merge branches 'iommu/fixes', 'arm/allwinner', 'arm/msm', 'x86/amd', 'core' and 'x86/vt-d' into next
+         
