@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 27 Jun 2024 21:49:57 -0000
-Message-Id: <171952499719.30661.12196304215551347764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 27 Jun 2024 21:56:18 -0000
+Message-Id: <171952537822.3891.9168704960026401889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: cbd2275801ab70da97d313fb9e7335af090d79db
-    new: 627f35f2b090f57e803e930ccea28c263ca31753
-    log: |
-         627f35f2b090f57e803e930ccea28c263ca31753 foo
-         
+  - ref: refs/tags/v6.11-rockchip-dts32-1
+    old: 0000000000000000000000000000000000000000
+    new: bc931c81f7012bf3c8cd038c74e748d5102d2e09
