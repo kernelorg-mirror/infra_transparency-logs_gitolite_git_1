@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 27 Jun 2024 12:18:04 -0000
-Message-Id: <171949068425.22188.13985730110718150475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 27 Jun 2024 12:25:11 -0000
+Message-Id: <171949111193.28016.2517424177362877510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/stm32-next
-    old: fe65d3d60a06ce8a545fccfc6ad7e60f3d9a2391
-    new: c40791129b87d99f9e073409f7c843492560afe0
+  - ref: refs/heads/fixes-base
+    old: 90e6f08915ec6efe46570420412a65050ec826b2
+    new: 57619f3cdeb5ae9f4252833b0ed600e9f81da722
     log: |
-         ecca0715bdf895aeaa764187ab59790c321a9747 ARM: dts: stm32: add ethernet1 and ethernet2 support on stm32mp13
-         8f810dc9fc2d04121ca4ccc6bcddff4e0ecc72b9 ARM: dts: stm32: add ethernet1/2 RMII pins for STM32MP13F-DK board
-         c40791129b87d99f9e073409f7c843492560afe0 ARM: dts: stm32: add ethernet1 for STM32MP135F-DK board
+         135c6eb27a85c8b261a2cc1f5093abcda6ee9010 scsi: ufs: core: Free memory allocated for model before reinit
+         633aeefafc9c2a07a76a62be6aac1d73c3e3defa scsi: core: Introduce the BLIST_SKIP_IO_HINTS flag
+         57619f3cdeb5ae9f4252833b0ed600e9f81da722 scsi: usb: uas: Do not query the IO Advice Hints Grouping mode page for USB/UAS devices
          
