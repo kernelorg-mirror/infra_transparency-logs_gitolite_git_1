@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2020005252149092331=="
+Content-Type: multipart/mixed; boundary="===============4163819020665103995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 27 Jun 2024 03:38:03 -0000
-Message-Id: <171945948380.28571.16639687987235425451@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 03:38:23 -0000
+Message-Id: <171945950316.28790.4940511917923658213@gitolite.kernel.org>
 
---===============2020005252149092331==
+--===============4163819020665103995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,47 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 95f8bf932b46cd5c17c681d67be9234551234eac
-    new: 14d38356ec335b97a04c00719d7b6e73b136d291
+  - ref: refs/tags/mkp-scsi-staging
+    old: 291372467c9a4e9bf79030e237e022414866bf66
+    new: e84eb485b9f1f051ff96510dd40560e275874044
     log: |
-         14d38356ec335b97a04c00719d7b6e73b136d291 scsi: core: Fix an incorrect comment
+         5e0bf3e8aec2cbc51123f84b29aaacbd91fc56fa scsi: lpfc: Fix a possible null pointer dereference
+         4d66ecc6e5a5df965b43edace2d41d19ed15a2ea scsi: ufs: qcom: Add missing MODULE_DESCRIPTION() macro
+         bdee2f1dcd84dcd76d9557cf55e8f3662c6506eb scsi: ufs: ufs-pci: Add support for Intel Panther Lake
+         fc4444941140c80088102b39eb130d2a7a048e58 scsi: mpi3mr: HDB allocation and posting for hardware and firmware buffers
+         d8d08d1638ce1c237ce9c3f14649a3a4cf1b1749 scsi: mpi3mr: Trigger support
+         78b506984ebeaefaf63172059422fc606dc23e68 scsi: mpi3mr: Add ioctl support for HDB
+         3f7e469987f85a16d968ae056c886ecb6207305f scsi: mpi3mr: Update driver version to 8.9.1.0.50
+         06b91c00db396fafeed4c3201597bf3ed8261511 Merge patch series "mpi3mr: Host diag buffer support"
          
 
---===============2020005252149092331==
+--===============4163819020665103995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1719459482 -0400
+pusher 75C5DE3D 1719459488 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1719459482-7a557dc044f9da2bf091ab1dcf999c9178ff99f3
+nonce 1719459487-c79d70579508911b160a46d90a54b097002179b5
 
-95f8bf932b46cd5c17c681d67be9234551234eac 14d38356ec335b97a04c00719d7b6e73b136d291 refs/heads/queue
+291372467c9a4e9bf79030e237e022414866bf66 e84eb485b9f1f051ff96510dd40560e275874044 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZ83poACgkQ7ulgGnXF
-3j1Qlw/5AQIxKRJBUgPgNU1ke94pof5NjszV8Uyr9w2d5Edk3V9SKB/XxrTCsdXV
-oPVmPnuLEpefjZPURt99qiiC4KTUUcwkNK0W1rlFCm93kVXNepMq3r4tJZL/yFIn
-YTPL7a9QGrlXvjDuZAyBbvUEoL5++1PLUtsk35bOmdMJNuZ+7Ab5ui3rgNzfh73V
-OJxF7YjGqZuD0W1Uief03lN4G7/09mKQboXQAQ+/By5k2SAnvmvaAdVb5c027HPf
-zRZsIgQoEFLycPhrwiNC2wgZLrSE5ZLq+uPxBj+GJRzke1Fbt9c5y2yKq8YTzOYS
-q4zmdkGc5q/HNfYCkImHhmf8iF9qU1QMech66IutCOjJjWjyDqupJE+0xllA0fON
-pmFGQJqoAPLUdqe1Lq3mElxdDoVaHoqbVSjupSauT2Dqq4+re1uoFjT1K2pLy0DL
-oPiRPJVkeh3D9XdY3p+r/JPIV8doj7cwSg64AN9EcjYQcfC/xmlIpyrIkVVb3tBw
-bSv9chFzIprKdqj29Tuzmp+ZtMm8W2GhD+epxMAQmCcvy7sgqP/3+Qsijl1lSd4v
-8oWyytIqhPeHKXPoRDyM2cfHi2P7F+Oj1wpBDhihBrIU4P7WJUZgetkzixbK6A31
-+5UDZ2+AVmzVTOAM40hk9BfrjYcqW2fYH6kOjghZ2PqmRF6xNh8=
-=7AvL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZ83qAACgkQ7ulgGnXF
+3j0EdxAAodKvis/OymvsxDbHyrJSIOLrYHCvsJ8XY28M/hiklOyMxrYvMv9GAtHH
+z762xD/7plxxUzCO87QeouYj9VTXAixikckxNfmIoBPg6LxXL38oK3o/MlPQOilg
+1eSmv2wyff/2RR03IeqVGv4FW+aWNcKJbHWGd5tdXuSl6I26T7galyI1gTghbAwT
+dzn5u4gXVNTlBbbMgGbG3nzR2LODK/Z9Ugj0KetaiAxeyWpFyVoGPWkL92qQIQYe
+vNo2x5yJ838hfblfFfpgOU7GzgCR/L9j+pO/WDQRcML3YeSTTmVlip0WMI5aUih4
+fg2Ts8iLQog6I07si0Qmu5W5sqpii/70D7RCRNwNT34KLjwIhxFCNXCaFh6gIpcq
+nFXIsE0oOJTFo/8oGa3Mq5foWVhnM8muhU8B64TGX1D14axx313vN3ZZZ0IJt7I7
+Ezzs+dZ9qHrY+9flsbACC8n2DkCsxo125jIGQftWTFK6sCTKPr3VGWVfK0NLCYkY
+QnhF50GhByBwWxApDxJnaIYMcSjhV8A89tfJqA4g2jURAcqJn4atTWQqnovxSUya
+l2LWe8IMQaPvtzjfcDwAnHLAg24qMn7zfpngAqHP81rsSdtnze3nh3+toXHhpzpY
+B0tN7G2FEpytBCFYDvzRTdvkkeNqgcMxqURe0P3ilsbQYJ+adQY=
+=urNs
 -----END PGP SIGNATURE-----
 
---===============2020005252149092331==--
+--===============4163819020665103995==--
