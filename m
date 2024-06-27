@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4985964716955828843=="
+Content-Type: multipart/mixed; boundary="===============8050152626086095221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 27 Jun 2024 16:50:14 -0000
-Message-Id: <171950701441.2566.13894241230532154134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 27 Jun 2024 17:02:46 -0000
+Message-Id: <171950776647.10329.17692534339350943031@gitolite.kernel.org>
 
---===============4985964716955828843==
+--===============8050152626086095221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: d27f9f4a2dd80cbc9c71f2405c28ed6a48dd2276
-    new: 0abda6ec2f639084d6dd4a568683e0b1b70f604d
-    log: revlist-d27f9f4a2dd8-0abda6ec2f63.txt
+  - ref: refs/heads/main
+    old: c6c39f3c6da4bf093aad6d0eb1c5b07a7aa2dab7
+    new: 357808abd3a67bcf4d1444a25268c45dda62e87f
+    log: |
+         357808abd3a67bcf4d1444a25268c45dda62e87f ss: fix format string warnings
+         
 
---===============4985964716955828843==
+--===============8050152626086095221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d27f9f4a2dd8-0abda6ec2f63.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2b057685c6854bba0e624131684e020c8e52c6a0 PCI/MSI: Provide MSI_FLAG_PCI_MSI_MASK_PARENT
-b8577a042dce356232604b5ef45cc7b990f9f370 irqchip: Provide irq-msi-lib
-d90cc8c2fb36f5a5665fef8fc88349f87fc726ce irqchip/gic-v3-its: Provide MSI parent infrastructure
-1e58f4f6cfe539d2c781e8ff579a2792472c989b irqchip/irq-msi-lib: Prepare for PCI MSI/MSIX
-b2d49759d916c497feb01fabb3a2e6e0c451276e irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
-1c7ede1e90f511c1186d7cec6eaea8969fe07172 irqchip/irq-msi-lib: Prepare for DEVICE MSI to replace platform MSI
-653b856e60da592c40a749d254ae3a2fcfeb5568 irqchip/mbigen: Prepare for real per device MSI
-a06b1ee07629c57eb1e5cb0e16c980d12e856cd3 irqchip/irq-msi-lib: Prepare for DOMAIN_BUS_WIRED_TO_MSI
-621c1b5bf2db32cad3cf12180504992297638c7f irqchip/gic-v3-its: Switch platform MSI to MSI parent
-f18175bc8a9d5e34625ffbb3a276f669728f6840 irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
-feff4b28f33655f227a711c636e19a816129cd8d genirq/msi: Remove platform_msi_create_device_domain()
-37628fd4d1cdca2c86f60a9943b02c608ea4e355 irqchip/gic_v3_mbi: Switch over to parent domain
-ec472e732d26458b8b24d7951bebcb8b0d49ba92 irqchip/gic-v2m: Switch to device MSI
-3bb490967f4f337c9c1724b5442a1e09fde1d195 irqchip/imx-mu-msi: Switch to MSI parent
-f36a0e032e2069a1ccf669c47264969eee9f1a1d irqchip/irq-mvebu-icu: Prepare for real per device MSI
-bd41565af22af1b429111bc2b414d13a818d942a irqchip/mvebu-gicp: Switch to MSI parent
-6fb78551730c9151f21dea90d9331e6193addf1b irqchip/mvebu-odmi: Switch to parent MSI
-7f41b81210f436aa6df7f253006c4266d795cb2b irqchip/irq-mvebu-sei: Switch to MSI parent
-f15ee3b976ff7770bc83c3723531cb02215aa58e irqchip/irq-mvebu-icu: Remove platform MSI leftovers
-3c213f7d667c5da68252c97cb6fbd33ef911f947 genirq/msi: Remove platform MSI leftovers
-0abda6ec2f639084d6dd4a568683e0b1b70f604d genirq/msi: Move msi_device_data to core
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1719507766 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1719507766-619aa8ef4087cb111c1b73cff087194488591590
 
---===============4985964716955828843==--
+c6c39f3c6da4bf093aad6d0eb1c5b07a7aa2dab7 357808abd3a67bcf4d1444a25268c45dda62e87f refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmZ9mzYbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+Rw0P/jkCxwF++5EVAn4X0T0X
+fmIv2bQSDZLV40AJtcFRN8c8Zcqk1Ft8Jw6LUBc5y5TLn/e/mLyatzfxO6Ev5Egu
+cTI9GgMPTQw1M3+Q+dmvgEsXRizboi2LtPwJhmfZxWpKjoNMc4OpK9vgNiCjYHSo
+//J/ZuB14mirRY1N5e55/rz6pb5U2N1f+/krup/9MO32A86+pQ3yazT/Spre1iwR
+fasAQD+FHw4nzmoqexWQe6DCAN55DHySS351HyqPxvuSxM4/qMrqZ9tzHNXjNlqz
+OXx2V1/3KI8rWEn9Q8TZgXKKgWhm8HFqK9a8IncsTIVacrzUl+wfM5HDuL9hs2Xy
+6RZW5w9l0kmU31uSM92efF77RZS3v0EmFguynxlXTz9ecNe4+og/hm9+FthG4yVp
+EEOT2lHZ6EfSlUK9pX8fPupoQ4CY2PaUTZdwP7e0/WYCMviIXjOB/MyRMjSFxkHS
+fEJ9u6cQmCMe7fD4d6AbjTgiG2dZmv2XdlqJiX+9+jhsmL2e2jTgqBoWpTWTUzoH
+9NI8eysZ9HF8EUEtM+h8QPgQi5bnVi5+RDOLexuQYl1hWGN4GZ+RvEj+/tq0Y4DQ
+OmejRewQSZY78uJ/1gWGCgf3rGgLn9RG0LBAJFFNksKdp5I+z7aiM7QH91FJJmPP
+WYzAQQtMmwfoju/QelTKRIP1
+=92qx
+-----END PGP SIGNATURE-----
+
+--===============8050152626086095221==--
