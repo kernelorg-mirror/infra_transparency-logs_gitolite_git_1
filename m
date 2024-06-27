@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 27 Jun 2024 16:25:12 -0000
-Message-Id: <171950551218.15116.2684549939012408484@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 16:25:15 -0000
+Message-Id: <171950551536.15186.11860736446841262753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 625229220a4f64c9a8a9444905b74dc594e607ac
-    new: a2faca6591c2865712b68d76fd65ce017b815070
+  - ref: refs/heads/ath-next
+    old: 1eeafd64c7b455381b77c546e41bc267e13e2809
+    new: 9783e0407421a4dfc25e3a3001d0e0cff4236806
     log: |
          9783e0407421a4dfc25e3a3001d0e0cff4236806 wifi: ath12k: fix driver initialization for WoW unsupported devices
-         ea469831cb4bdf350397700b9d21b61624165390 Merge branch 'ath-next'
-         e248814893af26a47e1809ca6efc38adabc796f5 Merge remote-tracking branch 'mhi/mhi-next'
-         a2faca6591c2865712b68d76fd65ce017b815070 Add localversion-wireless-testing-ath
          
-  - ref: refs/tags/ath-202406271624
-    old: 0000000000000000000000000000000000000000
-    new: a2faca6591c2865712b68d76fd65ce017b815070
+  - ref: refs/heads/ath-qca
+    old: 9304ca1d4d3a9e698e53ee386a9e8e311fbd82fe
+    new: c699f3b3d3942f6497c9e5a2073811510e2fd637
+    log: |
+         9783e0407421a4dfc25e3a3001d0e0cff4236806 wifi: ath12k: fix driver initialization for WoW unsupported devices
+         c699f3b3d3942f6497c9e5a2073811510e2fd637 Merge branch 'ath-next' into ath-qca
+         
