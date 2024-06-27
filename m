@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 27 Jun 2024 16:29:21 -0000
-Message-Id: <171950576110.17142.5780229660989126670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 27 Jun 2024 16:33:15 -0000
+Message-Id: <171950599503.20236.13928324890745772683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 5e9a67bf606cd7e647c7214b4768eb798932b339
-    new: e788171b425131d4dd0ed0b1f26448d00ff21db1
+  - ref: refs/heads/riscv-cache-for-next
+    old: 4ca47d8bcca09af570e7133dbdf550980c86ca7b
+    new: 3d41249c1dee0fa22ebd8d27aa0a280edf943a0e
     log: |
-         e788171b425131d4dd0ed0b1f26448d00ff21db1 patches/next: wordsmith max_nr_regions online derease fix-2
+         3d41249c1dee0fa22ebd8d27aa0a280edf943a0e MAINTAINERS: add microchip soc binding directory to microchip soc driver entry
          
