@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2770266936416502797=="
+Content-Type: multipart/mixed; boundary="===============1666167003278160067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 27 Jun 2024 22:16:10 -0000
-Message-Id: <171952657039.18894.8401976901403714905@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 22:24:08 -0000
+Message-Id: <171952704808.23408.11591591915692088012@gitolite.kernel.org>
 
---===============2770266936416502797==
+--===============1666167003278160067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 504d771b6f563b39185cbe59c7b0138fab9ed815
-    new: 9ce03f25dcde5e514b620b7ec24ec3497cc0e5cd
-    log: revlist-504d771b6f56-9ce03f25dcde.txt
+  - ref: refs/heads/1GbE
+    old: b62cb6a7e83622783100182d9b70e9c70393cfbe
+    new: ffb7aa9fedad817b9fa0d868a3065c4eeb1f68c4
+    log: revlist-b62cb6a7e836-ffb7aa9fedad.txt
 
---===============2770266936416502797==
+--===============1666167003278160067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-504d771b6f56-9ce03f25dcde.txt
+Content-Disposition: attachment; filename=revlist-b62cb6a7e836-ffb7aa9fedad.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -299,13 +299,5 @@ afcd48134c58d6af45fb3fdb648f1260b20f2326 Merge tag 'mm-hotfixes-stable-2024-06-2
 3c1d29e53d34537063e60f5eafe0482780a1735a Merge tag 'sound-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 fd19d4a492af77b1e8fb0439781a3048d1d1f554 Merge tag 'net-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 ffb7aa9fedad817b9fa0d868a3065c4eeb1f68c4 Merge tag 'wireless-2024-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-bc238bf4b99224bbd4b563421029ca33cc84761a e1000e: Fix S0ix residency on corporate systems
-80b9b7d55fc84c8b4a10dbf5129f96a893f32bd0 ice: Add a per-VF limit on number of FDIR filters
-0b8ac828536cd55328d037832e45d9a0e66bb3b2 ice: use proper macro for testing bit
-3cd3a71f38768c48f0fd50312a09a3e79439e17b ice: Fix improper extts handling
-ba17a56a83ba120928e252d53824a8edeccc92ee ice: Don't process extts if PTP is disabled
-2bfa8a596a45034650a1b2e1727c8da428cff426 ice: Reject pin requests with unsupported flags
-32430aa32b7798d130904271efc0206f90974ff9 i40e: Fix XDP program unloading while removing the driver
-9ce03f25dcde5e514b620b7ec24ec3497cc0e5cd igc: Fix double reset adapter triggered from a single taprio cmd
 
---===============2770266936416502797==--
+--===============1666167003278160067==--
