@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 27 Jun 2024 13:26:45 -0000
-Message-Id: <171949480522.9346.11690972629899961986@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2458233626584877139=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 27 Jun 2024 13:28:59 -0000
+Message-Id: <171949493945.10188.10860772146084973788@gitolite.kernel.org>
+
+--===============2458233626584877139==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ccf238c8da15110c4a8266b67c8f6a86a67bda63
-    new: fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54
+  - ref: refs/heads/master
+    old: d490aae2f2b76fc2a5d439d5d0e66b6c33d07e16
+    new: 8dbdb28974258bc1f3f939cc5047c62cce564fc4
     log: |
-         a92fbeac7e94a420b55570c10fe1b90e64da4025 RDMA/cache: Release GID table even if leak is detected
-         0d2e6992fc956e3308cd5376c18567def4cb3967 RDMA/mlx4: Fix truncated output warning in mad.c
-         5953e0647cec703ef436ead37fed48943507b433 RDMA/mlx4: Fix truncated output warning in alias_GUID.c
-         0c5275bf75ec3708d95654195ae4ed80d946d088 RDMA/mlx5: Use sq timestamp as QP timestamp when RoCE is disabled
-         844bc12e6da3e2d8ab0cd96d049fc695d5d8ba68 IB/core: add support for draining Shared receive queues
-         58945ddd7156b4d83206b7b21567e67fca16346a IB/isert: remove the handling of last WQE reached event
-         4adcaf969d77d3d3aa3871bbadc196258a38aec6 RDMA/rxe: Don't set BTH_ACK_MASK for UC or UD QPs
-         5a905e33b266f504e0b290055125e5002635e2e6 RDMA/hfi1: Constify struct mmu_rb_ops
-         47f9b4190a1d9db2db670c01af7deb648073e218 RDMA/efa: Use offset_in_page() function
-         fe0812e4bcfa33d640cfd0e2dc99dfeef830fa54 RDMA/efa: Remove duplicate aenq enable macro
+         8dbdb28974258bc1f3f939cc5047c62cce564fc4 update CVE-2024-38564
          
+
+--===============2458233626584877139==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719494936 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1719494936-310eca92ea922668dc472591e82875a1566d6557
+
+d490aae2f2b76fc2a5d439d5d0e66b6c33d07e16 8dbdb28974258bc1f3f939cc5047c62cce564fc4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9aRgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++e8P/ikKuBWAtWceQ41rfgPt
+qoiUQO8QTOJS7cZOQovhPx5JQejqHWHnI7RQdi0zP1n4WlRcFyHk0MvASfmqGD7/
+VmIiAJ3ihqxthA0Q/DCORrQDQk445ADyHUbBm10PSinw87cErlaYNB3K+8YWMPya
+i03p0KCDiuE71vX5WL2Sy/KJk7EJ5WTQGdLPdTNWh2is78WNwRntwENu2Ij4/yZQ
++jqweQ/0ZFlJFvOEcVP+IIQ+dAgFNmsqhe8u49BfwGzvd/MA2dGHcw4vVz+eVA/D
+s0uiuzGKfPZYyRif2A5MeuNhEWXfzbZd7re16ryAsgK/XOjeiVexj+ELOPUcwBIp
+w60qXTLttOplwkVkTNEKVF+gs4PZUG/UfteIPvliGwZU+rCaG3pmpxcNcWdBBp/Z
+jWvKpq259XHxXqBfP9lfSslocrxhiy5f96bOHup7AtNGQzPQKQvdY5PmPb8PFjpM
+VNjG+gpLifBv4ITxi3OYQ3gkWmz3pjGBO0H2HBsg7dfWoaVO/XJfR6QaDOX2qQb1
+Geqz9KbM41IFwFK/VMZSzaKiEa/ENd1YyvEk1oVuIT4BLJrafxhhu+YvUSJz8Jk5
++afTDkuCtWxbnJm+DTseiqnxIrkgYV5iW7OjdgKt9EfZQdrZJ7V6CHKOHnpNRD07
+dp8Aos3hvkYOfKCxcjIBbT7/
+=H1Hq
+-----END PGP SIGNATURE-----
+
+--===============2458233626584877139==--
