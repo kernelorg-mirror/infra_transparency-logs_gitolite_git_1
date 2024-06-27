@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4163819020665103995=="
+Content-Type: multipart/mixed; boundary="===============2341189776333694734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 27 Jun 2024 03:38:23 -0000
-Message-Id: <171945950316.28790.4940511917923658213@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 03:38:40 -0000
+Message-Id: <171945952042.28975.12017604338607137392@gitolite.kernel.org>
 
---===============4163819020665103995==
+--===============2341189776333694734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 291372467c9a4e9bf79030e237e022414866bf66
-    new: e84eb485b9f1f051ff96510dd40560e275874044
+  - ref: refs/heads/6.11/scsi-staging
+    old: 14d38356ec335b97a04c00719d7b6e73b136d291
+    new: 06b91c00db396fafeed4c3201597bf3ed8261511
     log: |
          5e0bf3e8aec2cbc51123f84b29aaacbd91fc56fa scsi: lpfc: Fix a possible null pointer dereference
          4d66ecc6e5a5df965b43edace2d41d19ed15a2ea scsi: ufs: qcom: Add missing MODULE_DESCRIPTION() macro
@@ -30,33 +30,33 @@ changes:
          06b91c00db396fafeed4c3201597bf3ed8261511 Merge patch series "mpi3mr: Host diag buffer support"
          
 
---===============4163819020665103995==
+--===============2341189776333694734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1719459488 -0400
+pusher 75C5DE3D 1719459506 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1719459487-c79d70579508911b160a46d90a54b097002179b5
+nonce 1719459506-7c5b0c1a34cfa2ef5caaa1e3b328a8d4003d7e34
 
-291372467c9a4e9bf79030e237e022414866bf66 e84eb485b9f1f051ff96510dd40560e275874044 refs/tags/mkp-scsi-staging
+14d38356ec335b97a04c00719d7b6e73b136d291 06b91c00db396fafeed4c3201597bf3ed8261511 refs/heads/6.11/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZ83qAACgkQ7ulgGnXF
-3j0EdxAAodKvis/OymvsxDbHyrJSIOLrYHCvsJ8XY28M/hiklOyMxrYvMv9GAtHH
-z762xD/7plxxUzCO87QeouYj9VTXAixikckxNfmIoBPg6LxXL38oK3o/MlPQOilg
-1eSmv2wyff/2RR03IeqVGv4FW+aWNcKJbHWGd5tdXuSl6I26T7galyI1gTghbAwT
-dzn5u4gXVNTlBbbMgGbG3nzR2LODK/Z9Ugj0KetaiAxeyWpFyVoGPWkL92qQIQYe
-vNo2x5yJ838hfblfFfpgOU7GzgCR/L9j+pO/WDQRcML3YeSTTmVlip0WMI5aUih4
-fg2Ts8iLQog6I07si0Qmu5W5sqpii/70D7RCRNwNT34KLjwIhxFCNXCaFh6gIpcq
-nFXIsE0oOJTFo/8oGa3Mq5foWVhnM8muhU8B64TGX1D14axx313vN3ZZZ0IJt7I7
-Ezzs+dZ9qHrY+9flsbACC8n2DkCsxo125jIGQftWTFK6sCTKPr3VGWVfK0NLCYkY
-QnhF50GhByBwWxApDxJnaIYMcSjhV8A89tfJqA4g2jURAcqJn4atTWQqnovxSUya
-l2LWe8IMQaPvtzjfcDwAnHLAg24qMn7zfpngAqHP81rsSdtnze3nh3+toXHhpzpY
-B0tN7G2FEpytBCFYDvzRTdvkkeNqgcMxqURe0P3ilsbQYJ+adQY=
-=urNs
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZ83rIACgkQ7ulgGnXF
+3j00lg//QH7cUdfnDBvf4DSMnt4NYjZj2xaqs+gVEvLQ5Bs7I1Ad+9O4YhhYQJjt
+6m0vH8Up+63n3vrJ7Epzur5KfxotlEYVNatE4Ad03IyFdXAQBJB2bcTutoOchcOj
+2w7ZyCK8UQEOl8d620y4ypy692R9OTpndwNankfspbVBELKSVdvWKuHdEDyLVyVz
+8CFX/q+jH2weR76OCAlmXFEN1sdIg8y39iSIm3IuGVWqGjAjZ2HE1QcRc/YYG+I3
+YRx2FNy6rif94RSAALt2fMMVrjeoTtReZA2XmMQF6LXA4KjFF7p0ontWjqAeW/ks
+wS8llD4R4NHgtUeJLXdBgCAqXBJsygtCccq6pzd/Pu0RzusyfK4EXT2dUFE/DCDM
+aKyauPHeykVT+3BG11jVh2d1rAy5eCawb0w3A1IiUmQEX3o8PrZghaZ0xigfv3Bz
+35v4cXiyM3mfPegjG3ZWosiwDOhObJZB2UIT/bpXiRzEnyeXKeEYr4OcqFRaACyA
+maJUsaO5xfYwGe8a68UbEqLMChJ7TFxzZIcQOX7SU7bw/yNeuVLbYZ9gHhgvJilv
+ifNbg77R6CL8QMinTzDXkwbNSbY4PvUMEXnVvPoFQVurX0VN14Fzsoqr7RLTxZ0T
+al6H84kmFpvO5Dny5T31GeW6ftvIYtZhJYza5Z8FLJhDvfs/gmo=
+=gMry
 -----END PGP SIGNATURE-----
 
---===============4163819020665103995==--
+--===============2341189776333694734==--
