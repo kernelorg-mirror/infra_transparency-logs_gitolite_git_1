@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0849605403229909273=="
+Content-Type: multipart/mixed; boundary="===============4789079913810234711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 Jun 2024 14:22:48 -0000
-Message-Id: <171949816868.19723.14206609084458386762@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 14:24:43 -0000
+Message-Id: <171949828312.20466.2905985173406127785@gitolite.kernel.org>
 
---===============0849605403229909273==
+--===============4789079913810234711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: fe1b01a82f9d2af8e792db539324607676d8f35f
-    new: 2ea6d07efe5388d47afdb49079423334c97fe22b
+  - ref: refs/heads/usb-linus
+    old: dba7567c2fbbf10a4de2471cdb0e16e5572dc007
+    new: c50814a288dcee687285abc0cf935e9fe8928e59
     log: |
-         5958448d8edf6294d4a342b66bb57471a75c037d dt-bindings: platform: Add Lenovo Yoga C630 EC
-         5e5f2f92cccc29f356422d3cbc104f7f42430f22 platform: arm64: add Lenovo Yoga C630 WOS EC driver
-         13bbe1c83bc401c2538c758228d27b4042b08341 platform/arm64: build drivers even on non-ARM64 platforms
-         6694d31702674964af9bc8bf84ff16fcb16e69f2 Merge tag 'platform-drivers-x86-ib-lenovo-c630-v6.11-2' of https://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into usb-next
-         2ea6d07efe5388d47afdb49079423334c97fe22b usb: typec: ucsi: add Lenovo Yoga C630 glue driver
+         24bf27b92b1c6a322faa88977de2207aa8c26509 Revert "usb: gadget: u_ether: Re-attach netif device to mirror detachment"
+         c50814a288dcee687285abc0cf935e9fe8928e59 Revert "usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach"
          
 
---===============0849605403229909273==
+--===============4789079913810234711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719498168 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719498280 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1719498167-fe413fc421d3dabfcfbe8a1cfc3a5236517e8c34
+nonce 1719498280-61b1eb45f178c25aa9bb82d88df7dffc8e6e6f5c
 
-fe1b01a82f9d2af8e792db539324607676d8f35f 2ea6d07efe5388d47afdb49079423334c97fe22b refs/heads/usb-next
+dba7567c2fbbf10a4de2471cdb0e16e5572dc007 c50814a288dcee687285abc0cf935e9fe8928e59 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9dbgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ZIP/1eoXiCGo68XKitgzhzY
-nym5qsS1UXhsPr8ezqh7ydcF132sChE4gU4bkJg0DnxXDVnaoAgP9fKqwjCXey44
-bAxHbguVhoHTXe/dtMkUTUdDMTc7ydeGl0kR+1EZnwMVSlj82eYf6hqrun7uHLvn
-9cjNpR1WPbrqaUFgd6GgeGzlX/SOtzjm1CnjK9HGSb/SSGQUkiHdinmhgnjcqL5q
-B7sd7Sl7TqSqRZTUVSnScgtdUTevPPoX1g+IvLW8MX9HZ8QZgGMkU4RfIyPzlWBb
-VPewh4mWUDOveBxL2Ah7r0Wcaw3vUIPw2beyjrbUp4+8n9sjeh4RXmXjE3+uZixE
-fBghsd94hN++h0budm7qyNF7Fcpr6K8Q8t8XUuT+KEyRY5mtcVtKXmW85wnm8hJs
-ieVPXkIH5ILG9DDYf1+J9ukc1F05G1Sxu1voq8X26IynB/2LzDHqLFf1rXxbri78
-DUyFdLwkayqOvzy6vLHrz/DQq0yQc2meoMGENbrtdoizi9uY+2iI49MGxeC/7ob1
-qV1Q1ojl4Y63GPaTRzXtldQDtHtSm66Y95qPgJc3i7EmdXI4zi9j8W7dNAbJE8rT
-WfXBQ/FsHkpOkIdhlIt7+UBw5XIpApAvIPe7Pg7juo1cQVI1LQOAtFZGlhFk7Nzq
-6je54OFnRPm4TR9SZijctlVi
-=SEdQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9digbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T4kP/1qFnhmpfDQFxttHi27P
+CfTP+U/574+VORxILjIJj6X/1j/YANTyLlc8Ka5soup8iwZrwgcoEnyqnm6tRMtE
+p/c26CouYxCbegYgYlWUG36VA1I3dSOQh5wbm9GL4q4SFcwaoH8QU3WNxBtxiSmO
+5p5TxruQEBg0zNvQO2jQ1R8pFtBPnxSSK93d5no5jW0H5RxiZXRKZkoDRWTGc9di
+5FWSyumKryzqTWQuEt79KVKario9YjiEBbsMM4CAozVqNuSCpyjoP1YzvYkJdPWo
+qhHw1WG3jg077h+0zGs+2kpvydYZdjONUp07XSSj4da/l3XI7wR7KgfQtGHRoLCb
+Xl31krdKm5v8Zh3aQ+qWJ9lH0ov2nHF14DJUPI4dO/zrEcY1RD4ZzbN051Te5H2y
+KOsZ9EEQGu0qN/yyOTZ9EWVWDsZdSlfXMkP4nasS2BmgNhhirkAx1hkjPZ4x4DlU
+SV1J+a0wobZI/CbTYcXZ2I9ERndFho0wmGIsI75Fio/RkDkvPoND/7xp91ucdWNk
+RBFVz/BuVbVmFOJNmqDR8Tp/u9ndPHyTsQgVa3RprcQm/6sx+N4zCZzxOiO6mP/2
+3EMz6/I5cJMkEggFeKt1uq+ecYawsKgSTH6xDldBSZ9x8PJI69WrS3ZtjwN84x8V
++PbiXcggvq5hYGN8lWvnhYvL
+=OTsa
 -----END PGP SIGNATURE-----
 
---===============0849605403229909273==--
+--===============4789079913810234711==--
