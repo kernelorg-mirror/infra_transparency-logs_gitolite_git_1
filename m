@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 27 Jun 2024 01:53:57 -0000
-Message-Id: <171945323783.15898.11581939709100559755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 27 Jun 2024 02:07:53 -0000
+Message-Id: <171945407348.27088.9659135138030403477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: a7560515ef5ac1a2ad655283ab2916bab0707a2f
-    new: 0d381ce3e7925f41165aee5dbd600f589392ad93
+  - ref: refs/heads/main
+    old: 2e2de714d65d9c2739c774f4759e530b9c311c0b
+    new: f261aa15b2ca73d4f9dbb8b116b16743237edad9
     log: |
-         c9d0e5f3307d2ab4c0add20a5e02f44f5f698a23 hkml_list/mails_to_str(): Remove list_decorator None check
-         c0a44ceb0bda9272dde483bca14406a2458b4444 src/hkml_list/mails_to_str(): Reference list_decorator only when needed
-         61e9de25f02b71f154c491891bed98fa08b1100d hkml_list/mails_to_str(): calculate max_digits_for_idx just before being used
-         0d381ce3e7925f41165aee5dbd600f589392ad93 hkml_list: Split mails sorting and filtering logic out to a function
+         8b8fe280155d9fb6f3f6310f05f613cbdf30196b selftests: drv-net: try to check if port is in use
+         af8e51644a70f612974a6e767fa7d896d3c23f88 selftests: drv-net: add helper to wait for HW stats to sync
+         94fecaa6dcd04889eff4291707b0433ddfc09039 selftests: drv-net: add ability to wait for at least N packets to load gen
+         f898c16a0624e7f2dcb0b1cda6916c9be6489197 selftests: drv-net: rss_ctx: add tests for RSS configuration and contexts
+         f261aa15b2ca73d4f9dbb8b116b16743237edad9 Merge branch 'selftests-drv-net-rss_ctx-add-tests-for-rss-contexts'
          
