@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 27 Jun 2024 15:23:38 -0000
-Message-Id: <171950181817.1429.5426011323698074209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 27 Jun 2024 15:24:55 -0000
+Message-Id: <171950189588.1945.11247075599495910187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 888119571b7c9518faeeeb2b431ffc4455e0028d
-    new: b440396387418fe2feaacd41ca16080e7a8bc9ad
-    log: |
-         9919cce62f68e6ab68dc2a975b5dc670f8ca7d40 gpiolib: cdev: Disallow reconfiguration without direction (uAPI v1)
-         b440396387418fe2feaacd41ca16080e7a8bc9ad gpiolib: cdev: Ignore reconfiguration without direction
-         
+  - ref: refs/tags/s390-6.10-6
+    old: 0000000000000000000000000000000000000000
+    new: 67411347bda0758035baf3e57d26cb56f84f7fa9
