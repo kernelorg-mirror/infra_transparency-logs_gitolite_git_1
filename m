@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Jun 2024 21:23:15 -0000
-Message-Id: <171952339584.9678.4423382698322438665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 27 Jun 2024 21:25:46 -0000
+Message-Id: <171952354618.14189.13475828797448877918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 56bf02c26a362a270c7f12f1e36aeced95bc2287
-    new: 2a901623f0056ccdb64dbfd3d98f9072f704f065
+  - ref: refs/heads/arm64-for-6.11
+    old: 66d83a42f2a3f545c347a9612e9af39cc3804e9d
+    new: fd513b922e34edb0db1284a4abee7f6c10ffd9a7
     log: |
-         2a901623f0056ccdb64dbfd3d98f9072f704f065 tools: ynl: use display hints for formatting of scalar attrs
+         fd513b922e34edb0db1284a4abee7f6c10ffd9a7 arm64: dts: qcom: qcs6490-rb3gen2: enable hdmi bridge
          
