@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1530269134364558112=="
+Content-Type: multipart/mixed; boundary="===============3315215338604943210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 27 Jun 2024 11:40:35 -0000
-Message-Id: <171948843564.21618.6122795981181220150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 27 Jun 2024 11:47:23 -0000
+Message-Id: <171948884327.25714.15336338431103078507@gitolite.kernel.org>
 
---===============1530269134364558112==
+--===============3315215338604943210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/wireless-next-2024-06-27
-    old: 0000000000000000000000000000000000000000
-    new: 63f6fb25a4ff8824fcd85e1432abbd1e6e2ec29e
+  - ref: refs/heads/master
+    old: 40897fdfae4c5ff5702333d9f9ef7d4cfab2e0a3
+    new: 401db0199bf1b12ac9061abff6256d21e9756a06
+    log: |
+         401db0199bf1b12ac9061abff6256d21e9756a06 Linux 6.1.96
+         
 
---===============1530269134364558112==
+--===============3315215338604943210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1719488407 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1719488407-9f7abf847e71753cbad57120e389d5d6d46bb97d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719488842 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1719488841-13942014fb906d8ebdcae4ad62b55823bb33e432
 
-0000000000000000000000000000000000000000 63f6fb25a4ff8824fcd85e1432abbd1e6e2ec29e refs/tags/wireless-next-2024-06-27
+40897fdfae4c5ff5702333d9f9ef7d4cfab2e0a3 401db0199bf1b12ac9061abff6256d21e9756a06 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZ9T5cACgkQ10qiO8sP
-aADZUw/+KA5QQslkqdnT1Mv+WTqZLHffWLmfg9DVd/SVDBkfn73cFMnXobE406bF
-bvJxsZA1NPz1JaUH5vZcdAls9lJ7jN7YgrfTsjwFgAMqBA420OxbwPiv8H21/pu6
-WIoHbkoQbGCCrcn9E2H7EFGpDdT1ucCkn0oGLwd7CGSt8j/jDJ1eVWnm1LTrhLVJ
-HJSXuT0QCugyO8/ZAg/MDUC3egBS/D6tbTMtGQSj0xlNbxkiEBdaQ5LS2OI8ZGWe
-NYCQbFwIWNtzrNjegMxrGUrgGGDzPgEwVBVfgppgA8mQSmocJN/3VOwm2M6SG/qi
-f3PrhWNp9fQddGlGlz4TOyEIZ3c3S5tdAlepL+7v6QJ4UnT9LKy323HMx6yQi6xU
-BAPin9b2kshJ4UUBjSz/G1NS3SqtSweOqxi/1aGXZA641z50YtkMLQBbeiy6UIwx
-UE/FMW2aRZ9ttEdKRQ5wr6L2idG3WcHemNkSS2PLIW41/CKPO+Ny+utufj93NICW
-u4TdO351F/vUeRADyN1nWFsgtPcm10BFJVZ/YeUzJ43VSXEZIlkHUutFsV98gG3F
-T3G9nGlZEsceiV2X2bEVzd3tR0N34eAnvWN9FacvoypGkUE+q84yLORZirXfMljX
-hHuglO2X97TaGvQQ1uFXBjl5zMCR+L6VIGG6ZJUOP5k7gkH8hKE=
-=K6Ui
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9UUobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x54QAMBrU74wDH5Nw+wXIv3f
+4lqQSGAob45I4DqP6Ya2T+Scyicvti6/dOEL+MYaj3qAQNSzR32qZpg7m3Xf9KcB
+FZI8bEUetgoG+wYTxW8MQ5Wov9prqhIq6BhD8IkNJaUcDzM1D1oAf06Uvi3Hrpsx
+8l0Scy/xKOteXTCyn2pRl46sw60jxi6ItmneiFjQxnpZB5zWXEOoE5B+Wus/Qn6L
+JOoy3cw7K19MOb8zmYrebU+CI/LEjuXFDGaIG4oOhjFOF9E1H9AENqgxTFgWBvRl
+y0KhctPUjwiMOFSUnJ9CAbggvQLvSv85/I+8VG1kh6FYCmUNmgJ7iVVRaNmEaazS
+nVwQ2wKZeA8dbrtHelEB7dY6tditiE7EkEIVf09WHQzWKnm7eTa0dRT4S2l1XzM7
+Wwqr+nj7KpFSCc3M8/uXoaXUNLsAh0FdUtnCf8djB8wYtvzPXmxprtovNZbT9EW4
+MgyYuG38RjHMjzJZX7kt3g/dZW1Pq7pG8OGdRHMruoGeSiwGaRQCD7Yi6pbO3z6v
+9ooY359AhEo+VZsQqrPfiV41a3SnotqQI903G9O9eapgKnrAOIpY8XCB0I7othsT
+hrBEigdaVh3+kg+egVZKRTD3zFoXnGSzuRPjmBif08yJBHUO4EClrxON+wCKVgAL
+d5J158feSj/U1XGUWt27vFXR
+=q0RS
 -----END PGP SIGNATURE-----
 
---===============1530269134364558112==--
+--===============3315215338604943210==--
