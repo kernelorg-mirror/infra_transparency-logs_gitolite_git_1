@@ -1,128 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8648427952914909604=="
+Content-Type: multipart/mixed; boundary="===============4412350730948961461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 27 Jun 2024 17:46:45 -0000
-Message-Id: <171951040510.11750.14543932263302740541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 27 Jun 2024 17:47:04 -0000
+Message-Id: <171951042400.11980.7683969708251492943@gitolite.kernel.org>
 
---===============8648427952914909604==
+--===============4412350730948961461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
-  - ref: refs/heads/fs-next
-    old: 8791fda1448118897882254798da221590dc0cf9
-    new: 7e523ecfa3b49bb43beba7d9bf1143fccbb0cc4f
-    log: revlist-8791fda14481-7e523ecfa3b4.txt
   - ref: refs/heads/master
     old: df9574a57d02b265322e77fb8628d4d33641dda9
     new: 642a16ca7994a50d7de85715996a8ce171a5bdfb
     log: revlist-df9574a57d02-642a16ca7994.txt
-  - ref: refs/heads/stable
-    old: 55027e689933ba2e64f3d245fb1ff185b3e7fc81
-    new: afcd48134c58d6af45fb3fdb648f1260b20f2326
-    log: revlist-55027e689933-afcd48134c58.txt
-  - ref: refs/tags/next-20240327
-    old: 05d4ea02533e3b442d1c64276505c2a820eafff9
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240627
     old: 0000000000000000000000000000000000000000
     new: 131eccfc8cfe526274f06bf4c71c6483f7c20d7e
 
---===============8648427952914909604==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8791fda14481-7e523ecfa3b4.txt
-
-2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
-231035f18d6b80e5c28732a20872398116a54ecd workqueue: Increase worker desc's length to 32
-8c61291fd8500e3b35c7ec0c781b273d8cc96cde mm: fix incorrect vbq reference in purge_fragmented_block
-399ab86ea55039f9d0a5f621a68cb4631f796f37 /proc/pid/smaps: add mseal info for vma
-b4601d096aac8ed26afa88ef8b249975b0530ca1 mm/slab: fix 'variable obj_exts set but not used' warning
-34a023dc88696afed9ade7825f11f87ba657b133 mm: handle profiling for fake memory allocations during compaction
-1c61990d3762a020817daa353da0a0af6794140b kasan: fix bad call to unpoison_slab_object
-be346c1a6eeb49d8fda827d2a9522124c2f72f36 ocfs2: fix DIO failure due to insufficient transaction credits
-ff202303c398ed56386ca4954154de9a96eb732a mm: convert page type macros to enum
-8b8546d298dc9ce9d5d01a06c822e255d2159ca7 selftests/mm:fix test_prctl_fork_exec return failure
-f3228a2d4c3bf19e49bf933ca9a6e64555aafee3 MAINTAINERS: TPM DEVICE DRIVER: update the W-tag
-c6408250703530187cc6250dcd702d12a71c44f5 mm/migrate: make migrate_pages_batch() stats consistent
-54e7d59841dab977f6cb1183d658b1b82c9f4e94 nfs: drop the incorrect assertion in nfs_swap_rw()
-bf14ed81f571f8dba31cd72ab2e50fbcc877cc31 mm/page_alloc: Separate THP PCP into movable and non-movable categories
-ab1ffc86cb5bec1c92387b9811d9036512f8f4eb mm/memory: don't require head page for do_set_pmd()
-a90d4471146de21745980cba51ce88e7926bcc4f udf: Avoid using corrupted block bitmap buffer
-8037da38d33cd354deafc41eee62da0fbcb5135c udf: Drop load_block_bitmap() wrapper
-ebbe26fd54a9621994bc16b14f2ba8f84c089693 udf: Avoid excessive partition lengths
-56e69e59751d20993f243fb7dd6991c4e522424c udf: prevent integer overflow in udf_bitmap_free_blocks()
-322a6aff03937aa1ece33b4e46c298eafaf9ac41 ext2: Verify bitmap and itable block numbers before using them
-85f22bb5d2c2a0b15b10ab34d4413423c3c97884 Merge UDF consistency fixes.
-d98b7d7dda721ca009b6dc5dd3beeeb7fd46f4b4 netfs: Fix io_uring based write-through
-6470e0bc6fe1948dcc2dfe7264c5a6c7a4a6788a netfs: Fix early issue of write op on partial write to folio tail
-84dfbc9cad7d86984f2b5814bf36e61ff492f306 netfs: Delete some xarray-wangling functions that aren't used
-a81c98bfa40c11f8ea79b5a9b3f5fda73bfbb4d2 netfs: Fix netfs_page_mkwrite() to check folio->mapping is valid
-9d66154f73b7c7007c3be1113dfb50b99b791f8f netfs: Fix netfs_page_mkwrite() to flush conflicting data, not wait
-519f38de57cd0c5e0043795b5fb0686c97311f6d fs/ntfs3: Fix attr_insert_range at end of file
-69505fe98f198ee813898cbcaf6770949636430b fs/ntfs3: Replace inode_trylock with inode_lock
-a0dde5d7a58b6bf9184ef3d8c6e62275c3645584 fs/ntfs3: One more reason to mark inode bad
-f28d0866d8ff798aa497971f93d0cc58f442d946 fs/ntfs3: Correct undo if ntfs_create_inode failed
-50c47879650b4c97836a0086632b3a2e300b0f06 fs/ntfs3: Validate ff offset
-702d4930eb06dcfda85a2fa67e8a1a27bfa2a845 fs/ntfs3: Add a check for attr_names and oatbl
-83cf2cf18cbb97bfe87ea6a58f91df20e82ff38c fs/ntfs3: Rename variables
-ea7376783a9688dc9b66461080bfe0ae65e0d13d fs/ntfs3: Add some comments
-b366809dd151e8abb29decda02fd6a78b498831f fs/ntfs3: Drop stray '\' (backslash) in formatting string
-f27a8e2d3dfcede23782b1cae1ae4ca4bda4e8ef ntfs3: Convert ntfs_read_folio to use a folio
-00c91073a34e81be35e01cf71ba15b5952006ccb ntfs3: Convert ntfs_write_begin to use a folio
-ab055cf9db2027f7cb59c80663578c053fb0afde ntfs3: Convert attr_data_read_resident() to take a folio
-0c1a1566447ebeccaa3694e04ae65c7642fa783e ntfs3: Convert ntfs_write_end() to work on a folio
-d0c3df62779f875b9af953790e5e18bce2aed91e ntfs3: Convert attr_data_write_resident to use a folio
-562d060bed6637fbc3bc22802a0a0c5b00e12a38 ntfs3: Convert attr_make_nonresident to use a folio
-326a6fd9600c52016c3c18c1aeafca2fab254146 ntfs3: Remove calls to set/clear the error flag
-584f60ba22f79c89e6708ab82a5b5d9b8fa21fb2 ntfs3: Convert ntfs_get_frame_pages() to use a folio
-4d89b6716b00bf52e2c4f98d5d7788d300469a5f ntfs3: Convert ni_readpage_cmpr() to take a folio
-c091354d6bf60ec606d4c0772459ea2f3bbee271 ntfs3: Convert attr_wof_frame_info() to use a folio
-2f3e176fee66ac86ae387787bf06457b101d9f7a fs/ntfs3: Fix field-spanning write in INDEX_HDR
-76a65ae141a2edcd3c19799556a4c7ba94758af2 fs/ntfs3: Fix the format of the "nocase" mount option
-b582047b407b1a9024700639673d529c81045030 fs/ntfs3: Missed error return
-45da7f5a00d95c4b00c8bdff7a0a9686d8ed0ae4 fs/ntfs3: Keep runs for $MFT::$ATTR_DATA and $MFT::$ATTR_BITMAP
-27ba86795ed65b6f2f88f1b63786fe68c57b3b61 fs/ntfs3: Do copy_to_user out of run_lock
-dac66ae39997388ccda461d17b8826acf4457dca fs/ntfs3: Check more cases when directory is corrupted
-3e666d98b575486116e7f43e9635ec0cc8c491ac fs/ntfs3: Minor ntfs_list_ea refactoring
-93b9fb51705884b7d972620a9128499203bf7671 fs/ntfs3: Use function file_inode to get inode from file
-7f33989548483a6ed277a75603b59bda40782d5a fs/ntfs3: Redesign legacy ntfs support
-0a6a03ce384c074b486450e2769214334dd87a73 fs/ntfs3: Implement simple fileattr
-68ef5b8c612b0c607b586d53fce077870fe2b8d6 fs/ntfs3: Update log->page_{mask,bits} if log->page_size changed
-bde63e8eae5d67582b32517229de11ef00223e34 fs/ntfs3: Fix formatting, change comments, renaming
-b927c29090acc637820cb426589900203aac504f MAINTAINERS: Add a bugzilla link for NFSD
-24ca36a562d63f1bff04c3f11236f52969c67717 Merge tag 'wq-for-6.10-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-afcd48134c58d6af45fb3fdb648f1260b20f2326 Merge tag 'mm-hotfixes-stable-2024-06-26-17-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-61fee528b5c6c53c73546bf732f7cee5aa20a8ae Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-b0cef9f52297923d1465c9dec761661bfb06d53b Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-7cddcdaab21353a06da297c1a08ccfc7274b3537 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-f4eb5842948f4d6b4537a97f8fe8883bbb949b29 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-efb22f9b4910e125c550af0665af13b0d7a5022d Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9502cf7c88a91697f94adbb58a4351ecf61202ac Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-c0d8e6c06f49a49d8ed1ce3971b9322ad861d82d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-bd010b724c8891a551e8b77e91efa52252532876 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-730b4a87746c5c56366c6d0163ce39a3ffd48a9d Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-fb1acfdc84a833c99a0b980fce957f9e2837bc31 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-4e9f173aa3fd77b7517896711fac183c6262f84c Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-481d3334306bd9c715487dd9b446648fb69da1c0 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-d8f3c7377679549f99b6c23ec84701e8639c12c9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-fc2f3d4cadd586377aa48360139719954cae3b0d Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-2ef49da006bf7004e40254334397226707ba1011 Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-d4c8780b9c2afb4816e0832cec4ded445b7fa4b2 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-fd8bd169f5efbf6a7d0a582f9cc8cea39834d8a5 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-f0db1ed8b8a1a816eb687db235554a7c05edbb4e Merge branch '9p-next' of git://github.com/martinetd/linux
-b8cd6dca3d07ab0ec7a897d5bd9e1b5b0d22c184 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-cbea76b14382a4bcbd854241c07382dc8122d6be Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-7e523ecfa3b49bb43beba7d9bf1143fccbb0cc4f next-20240626/vfs-brauner
-
---===============8648427952914909604==
+--===============4412350730948961461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1040,28 +941,4 @@ abf2fa5ccb2e72dedc212095374ca76447f7cce4 Merge branch 'for-next' of git://git.ke
 8363231f38ea49c62ffd5c148bc41679e97700bc Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 642a16ca7994a50d7de85715996a8ce171a5bdfb Add linux-next specific files for 20240627
 
---===============8648427952914909604==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55027e689933-afcd48134c58.txt
-
-2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
-231035f18d6b80e5c28732a20872398116a54ecd workqueue: Increase worker desc's length to 32
-8c61291fd8500e3b35c7ec0c781b273d8cc96cde mm: fix incorrect vbq reference in purge_fragmented_block
-399ab86ea55039f9d0a5f621a68cb4631f796f37 /proc/pid/smaps: add mseal info for vma
-b4601d096aac8ed26afa88ef8b249975b0530ca1 mm/slab: fix 'variable obj_exts set but not used' warning
-34a023dc88696afed9ade7825f11f87ba657b133 mm: handle profiling for fake memory allocations during compaction
-1c61990d3762a020817daa353da0a0af6794140b kasan: fix bad call to unpoison_slab_object
-be346c1a6eeb49d8fda827d2a9522124c2f72f36 ocfs2: fix DIO failure due to insufficient transaction credits
-ff202303c398ed56386ca4954154de9a96eb732a mm: convert page type macros to enum
-8b8546d298dc9ce9d5d01a06c822e255d2159ca7 selftests/mm:fix test_prctl_fork_exec return failure
-f3228a2d4c3bf19e49bf933ca9a6e64555aafee3 MAINTAINERS: TPM DEVICE DRIVER: update the W-tag
-c6408250703530187cc6250dcd702d12a71c44f5 mm/migrate: make migrate_pages_batch() stats consistent
-54e7d59841dab977f6cb1183d658b1b82c9f4e94 nfs: drop the incorrect assertion in nfs_swap_rw()
-bf14ed81f571f8dba31cd72ab2e50fbcc877cc31 mm/page_alloc: Separate THP PCP into movable and non-movable categories
-ab1ffc86cb5bec1c92387b9811d9036512f8f4eb mm/memory: don't require head page for do_set_pmd()
-24ca36a562d63f1bff04c3f11236f52969c67717 Merge tag 'wq-for-6.10-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-afcd48134c58d6af45fb3fdb648f1260b20f2326 Merge tag 'mm-hotfixes-stable-2024-06-26-17-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-
---===============8648427952914909604==--
+--===============4412350730948961461==--
