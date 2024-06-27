@@ -1,60 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7870899545123419571=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 Jun 2024 14:07:18 -0000
-Message-Id: <171949723837.8098.2644426235407647054@gitolite.kernel.org>
-
---===============7870899545123419571==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 27 Jun 2024 14:07:50 -0000
+Message-Id: <171949727096.8485.7413095843481163875@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/usb-testing
-    old: 6a6aad7489b2aa9dae9807d2fc26992a82d5b438
-    new: 859976e8e744dc5e23903baca2724eebe85d9d27
+  - ref: refs/heads/master
+    old: 512ce5e8c1339cc893f7cde0eb9ddb1f4eaa48bb
+    new: ff6b3cad757327dd2df3637793b930bb899c8f0c
     log: |
-         9d32685a251a754f1823d287df233716aa23bcb9 usb: uas: set host status byte on data completion error
-         b38aa697bcdc6529a912c18ddd093b1329b3d8b1 dt-bindings: usb: dwc2: switch to unevaluatedProperties
-         c456c5763da4042348040e2ad727f10f7ac17982 usb: misc: onboard_usb_dev: Add match function
-         26faae34a61a62b60cee947bf3c4195c85507028 usb: chipidea: ci_hdrc_imx: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-         859976e8e744dc5e23903baca2724eebe85d9d27 usb: chipidea: ci_hdrc_tegra: Switch to RUNTIME_PM_OPS()
+         6623e30948d8d58212e6d88424318c74bb5ae258 Fixes for 6.9
+         6de641667efcdbb7f934a7ce03d9657d8917e066 Fixes for 6.6
+         f1701097f9fdce19dbe0ffdfa5375bfe9d599f5a Fixes for 6.1
+         cd24d38f3122d136ddfe60c299924ac0509fdd52 Fixes for 5.15
+         f94d4927aa225e2ed4ef0d609eed780f6242ab52 Fixes for 5.10
+         d6cfc7ce8020d1df777a614c148f40bc2d7597ba Fixes for 5.4
+         ff6b3cad757327dd2df3637793b930bb899c8f0c Fixes for 4.19
          
-
---===============7870899545123419571==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719497235 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1719497235-85b6349fdb971f8f9b158f6e7258e9897d38bed0
-
-6a6aad7489b2aa9dae9807d2fc26992a82d5b438 859976e8e744dc5e23903baca2724eebe85d9d27 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9chMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nFIP/14rtrKbNGRtgzSnOY0U
-VWULNkZOm0y2LlkXqntq0BKT6PAUJJjlxJ/g5Q/DPvWfdzxF7FFaw4uMuMS4xLSI
-g20BEgJqGfya7B65BPIVGPLS3L9XIGYtqlZkWmgtGPeijUgRX2Aro3Rdo1Pxyi5K
-R9mMNmYhPcguhSLPWu/6mwshrgBVYsu8hh4U0OmxbEe3jZaf2doFrO7i4euWUYp/
-guleDTdA3j+vlnK0cFzQ2eG0IvDKDLpHH/n8RSvhy3QjmopaViJ2yNH4rL1T4Dx8
-TBtzkhLJLjPbYfSqVl4ZOQOUh6Ubh0kygeABOMETohm/zf8JDVDEWJfUU7WNRuuo
-ScIjtqA3CF8Os2u0qRi3dtgV4N41IA87hYEhB3Bp2uslVy4QjmjZcz177ROHaR0K
-xLwD46PCsYeGd5ZmvXloqU+9Qc9jrIWFIbVh4PImZVqGIHVkeImI6jkNDqCaa1yO
-0KrUj2P2jRHemKEenHnHkpYgGxp6zpBKn1E2J59tiLAVo0Xj7wSXMjyVFAsvRYYD
-M3cHn20xlKfk9aihGsCvZD21CaiJx6EmJeG9nzE7P1rE8WtXmXO87AzTC9E5nTWk
-JKMahNzPRaq4xQikWo1dW/H9sFRsmOdfZKqgK29ADf4CCsiQ81LFuXmgarIrWnes
-hBbViIZ/pbm6noF8ga93WIzF
-=gFEA
------END PGP SIGNATURE-----
-
---===============7870899545123419571==--
