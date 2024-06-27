@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 27 Jun 2024 10:01:01 -0000
-Message-Id: <171948246126.30618.16594251987006390702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 27 Jun 2024 10:06:14 -0000
+Message-Id: <171948277494.1819.3034795723364101620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 5233a55a5254ea38dcdd8d836a0f9ee886c3df51
-    new: f531d13bdfe3f4f084aaa8acae2cb0f02295f5ae
+  - ref: refs/heads/usb-linus
+    old: 2604e08ff251dba330e16b65e80074c9c540aad7
+    new: 4298e400dbdbf259549d69c349e060652ad53611
     log: |
-         f531d13bdfe3f4f084aaa8acae2cb0f02295f5ae xfrm: support sending NAT keepalives in ESP in UDP states
+         4298e400dbdbf259549d69c349e060652ad53611 USB: serial: option: add Telit generic core-dump composition
          
