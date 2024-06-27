@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3933979930355637623=="
+Content-Type: multipart/mixed; boundary="===============8580210130124280966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 27 Jun 2024 22:34:43 -0000
-Message-Id: <171952768364.30958.13341793385823956667@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 22:35:02 -0000
+Message-Id: <171952770251.31980.8346686644253842578@gitolite.kernel.org>
 
---===============3933979930355637623==
+--===============8580210130124280966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 35e0e346c2f449f476ff3edef6e776d352ee57f8
-    new: 9d86f1e0a15d23ef4fc203a9e418742fb5453e3d
-    log: revlist-35e0e346c2f4-9d86f1e0a15d.txt
+  - ref: refs/heads/1GbE
+    old: cce346d441399209bd582f1aaf190a7784dd12f8
+    new: 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7
+    log: revlist-cce346d44139-346a03e5fbdb.txt
 
---===============3933979930355637623==
+--===============8580210130124280966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35e0e346c2f4-9d86f1e0a15d.txt
+Content-Disposition: attachment; filename=revlist-cce346d44139-346a03e5fbdb.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -472,75 +472,5 @@ ffb7aa9fedad817b9fa0d868a3065c4eeb1f68c4 Merge tag 'wireless-2024-06-27' of git:
 56bf02c26a362a270c7f12f1e36aeced95bc2287 Merge tag 'wireless-next-2024-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 2a901623f0056ccdb64dbfd3d98f9072f704f065 tools: ynl: use display hints for formatting of scalar attrs
 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7 s390/lcs: add missing MODULE_DESCRIPTION() macro
-283784a6bf9002156c8e0c3b46e431de8a587470 ice: Add a per-VF limit on number of FDIR filters
-98aec843b8397e73d988376224fba5907fcf4d1d ice: add parser create and destroy skeleton
-0ddb25efd5b090d86156ea51a4bdfd4f132accac ice: parse and init various DDP parser sections
-bce2e4333b59d7790301bb5e2977cb34b71e7937 ice: add debugging functions for the parser sections
-13627181932c17c92b406b01ca2305e9aeb56974 ice: add parser internal helper functions
-6d9fd13d65a14936c3c22ef6e413e6213045ea8d ice: add parser execution main loop
-02830f9d23197f648b8769f406a5162235ef6ad8 ice: support turning on/off the parser's double vlan mode
-b69f65dc81613dce73f7609294b58bf9f3d25790 ice: add UDP tunnels support to the parser
-54cdedb4a67cfcaaadc4c92b5423d073251bd229 ice: add API for parser profile initialization
-b9a0b2fbda194b7c19eaa8cd42c69de4147a9234 virtchnl: support raw packet in protocol header
-cecbe869c62ce90ce957e385883e67bb2cae623a ice: add method to disable FDIR SWAP option
-bfcfaf0d6565eaac7536d02e7df93ae4f3ff7ac1 ice: enable FDIR filters from raw binary patterns for VFs
-073e1a6bfeef49b56d7d8c761b6343b13705d0ff iavf: refactor add/del FDIR filters
-63c071a98ef61933f59855df1d8bd5437440bb6f iavf: add support for offloading tc U32 cls filters
-b0515ac8bafcdc110b93be06d7280ccb9c0a942b ice: Check all ice_vsi_rebuild() errors in function
-1b2c15fa2c6441bfafd2ee77f624824494611b4c ice: Add get/set hw address for VFs using devlink commands
-9086c4ca003bf8be3a874a7471a800830d169300 net: docs: add missing features that can have stats
-acaae0f1a9030e6518536e43f9ab8ff8e671e664 ice: implement ethtool standard stats
-c202b535b66f786435e81b36b85afedf8aae05b2 ice: add tracking of good transmit timestamps
-e9aab5a4141107e4e4179173c3bdceb304e31df3 ice: implement transmit hardware timestamp statistics
-2efe54d0f0425ba3b914fda638c0340f64970b87 ice: refactor to use helpers
-0a72d873558e73ff09994fe0ec86f69501872c4e e1000e: Fix S0ix residency on corporate systems
-344d006d1813f8ad7d3d1f816136d1f19feabcde ice: Allow different FW API versions based on MAC type
-0f1d2c98c82bdd82ce5a31ef467483b7afdb5a04 ice: Add support for devlink local_forwarding param.
-d8ca5126675fcda00313ee21f1b3664b53826d14 ice: add new VSI type for subfunctions
-32d151cc2122daa356078afee64b2a75618467b7 ice: export ice ndo_ops functions
-c30c753f9900d9cbc841d8dc0dd00c3babbc5993 ice: add basic devlink subfunctions support
-1e7c63e93d236d882964512dc6823aceadddb461 ice: treat subfunction VSI the same as PF VSI
-fb0b49b2b2e57af6f484d69157ae27b11e1d5e11 ice: allocate devlink for subfunction
-50f58e0e66e1d897226e4aa0a0078d32748c5266 ice: base subfunction aux driver
-a049b41e8ecc2055cfb8a6aac63bb0942aeb82fd ice: implement netdev for subfunction
-51f851a1e9ec58ede8d0effdf461e2a5c190a944 ice: make representor code generic
-eba85c10287ae1cb47b165aacece7091e0bb0dba ice: create port representor for SF
-d9e0daf099bd6921cec0078d4f847db1610923cd ice: don't set target VSI for subfunction
-5b561b5390f7c2268b1b60baa9f8d6f5d405c337 ice: check if SF is ready in ethtool ops
-259c4b16e811ca242c8e19dfdadc76487a353e20 ice: implement netdevice ops for SF representor
-d907e16e6b6c2bde378cc7e078f122a7c682a121 ice: support subfunction devlink Tx topology
-8fed42cd4cae8ad02c4604dfa154f93b28313e19 ice: basic support for VLAN in subfunctions
-be84ed20ec9397ab9cd926e268b453a44d03ead4 ice: allow to activate and deactivate subfunction
-4a60c176a23479d541a63314585067deff8f9100 igc: Remove the internal 'eee_advert' field
-ed623d66122a780f55ea21b23ae68e3d088c6956 ice: Distinguish driver reset and removal for AQ shutdown
-de5c46a79967f9fd8c54b256584e9937f101a2e9 ice: use proper macro for testing bit
-61009c0df22fbace083b306b0224dc35fffdd46b ice: Extend Sideband Queue command to support flags
-20a0205b984845fe2fc5f0c7f0c91a2cf9190a79 ice: Implement driver functionality to dump fec statistics
-f719e96a15e4b66f554ae38f42ec10769927ec18 ice: Implement driver functionality to dump serdes equalizer values
-7c527b5b8b15a56bf11d0a3b16b7091984b9f28b ice: do not init struct ice_adapter more times than needed
-b3ea8fc09373153d4159d6a09a45f90e165e3950 MAINTAINERS: update Intel Ethernet maintainers
-33016ff70e5ad86d8a89f5456683ae07ee7d5b28 ice: Fix improper extts handling
-453aff73f8b0b7814c6fb42e1242a04b4d28a888 ice: Don't process extts if PTP is disabled
-7be28bec6b32f68f547672253849aec4247d7765 ice: Reject pin requests with unsupported flags
-728d23d475749637de2b659efe1bbbfd412ace0a cache: add __cacheline_group_{begin, end}_aligned() (+ couple more)
-eae1554afefa025c894e2697f23800f6d2097a8b page_pool: use __cacheline_group_{begin, end}_aligned()
-84df3d514d2804a3a4bf8a3ed292af05562350a9 libeth: add cacheline / struct layout assertion helpers
-4cac62e562927df589d40121497798f97b315200 idpf: stop using macros for accessing queue descriptors
-bb4a92455ab4d02ed37108ffea6081b9fdf92e31 idpf: split &idpf_queue into 4 strictly-typed queue structures
-152456320625c98de73d5b019a87bd6e3dcb9937 idpf: avoid bloating &idpf_q_vector with big %NR_CPUS
-3f4ac162366174c300a9fc996b2819253333e4a8 idpf: strictly assert cachelines of queue and queue vector structures
-1988a57b19446685acbf0502c9f0a7a21d0cf52c idpf: merge singleq and splitq &net_device_ops
-fd5344fa1c0f105f21fbd030ef19e87780ae414b idpf: compile singleq code only under default-n CONFIG_IDPF_SINGLEQ
-eca2e132e41614529a1dcf57ac8b57eb09a4be62 idpf: reuse libeth's definitions of parsed ptype structures
-9940709e71db7c5d356c1a493d866dba61ac9183 idpf: remove legacy Page Pool Ethtool stats
-f3f703799e7e60f3cecd21a32643f7e4d7d37f48 libeth: support different types of buffers for Rx
-d27e3b950f6f807494782c189871924803e8a75d idpf: convert header split mode to libeth + napi_build_skb()
-d1beb90647306497a63c9053ed9c67e602a9de8b idpf: use libeth Rx buffer management for payload buffer
-2520857908b7c9823583f293f6ee2cee9b28697d i40e: Fix XDP program unloading while removing the driver
-4a0d1ce0b568ceba4c74ed8f6daa73ce1fb3105a igc: Fix double reset adapter triggered from a single taprio cmd
-4146b15625a8f6b19dec99e362055b9cce7d49ea igc: Get rid of spurious interrupts
-32f32b425ad51b91a09215c3c75ae5468a413c3a igc: Add MQPRIO offload support
-4c33ba3086569dbdaa7b5c0b812d3611b77ee1e2 ice: remove eswitch rebuild
-9d86f1e0a15d23ef4fc203a9e418742fb5453e3d e1000e: fix force smbus during suspend flow
 
---===============3933979930355637623==--
+--===============8580210130124280966==--
