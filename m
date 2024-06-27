@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4789079913810234711=="
+Content-Type: multipart/mixed; boundary="===============7329215079021313202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 Jun 2024 14:24:43 -0000
-Message-Id: <171949828312.20466.2905985173406127785@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 14:26:35 -0000
+Message-Id: <171949839565.22801.3460725188704042618@gitolite.kernel.org>
 
---===============4789079913810234711==
+--===============7329215079021313202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: dba7567c2fbbf10a4de2471cdb0e16e5572dc007
-    new: c50814a288dcee687285abc0cf935e9fe8928e59
+    old: c50814a288dcee687285abc0cf935e9fe8928e59
+    new: fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2
     log: |
-         24bf27b92b1c6a322faa88977de2207aa8c26509 Revert "usb: gadget: u_ether: Re-attach netif device to mirror detachment"
-         c50814a288dcee687285abc0cf935e9fe8928e59 Revert "usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach"
+         fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 usb: dwc3: core: Workaround for CSR read timeout
          
 
---===============4789079913810234711==
+--===============7329215079021313202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719498280 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719498393 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1719498280-61b1eb45f178c25aa9bb82d88df7dffc8e6e6f5c
+nonce 1719498392-edbf9c8be448361b5ae5e7dfb05583987f6a4bac
 
-dba7567c2fbbf10a4de2471cdb0e16e5572dc007 c50814a288dcee687285abc0cf935e9fe8928e59 refs/heads/usb-linus
+c50814a288dcee687285abc0cf935e9fe8928e59 fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9digbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T4kP/1qFnhmpfDQFxttHi27P
-CfTP+U/574+VORxILjIJj6X/1j/YANTyLlc8Ka5soup8iwZrwgcoEnyqnm6tRMtE
-p/c26CouYxCbegYgYlWUG36VA1I3dSOQh5wbm9GL4q4SFcwaoH8QU3WNxBtxiSmO
-5p5TxruQEBg0zNvQO2jQ1R8pFtBPnxSSK93d5no5jW0H5RxiZXRKZkoDRWTGc9di
-5FWSyumKryzqTWQuEt79KVKario9YjiEBbsMM4CAozVqNuSCpyjoP1YzvYkJdPWo
-qhHw1WG3jg077h+0zGs+2kpvydYZdjONUp07XSSj4da/l3XI7wR7KgfQtGHRoLCb
-Xl31krdKm5v8Zh3aQ+qWJ9lH0ov2nHF14DJUPI4dO/zrEcY1RD4ZzbN051Te5H2y
-KOsZ9EEQGu0qN/yyOTZ9EWVWDsZdSlfXMkP4nasS2BmgNhhirkAx1hkjPZ4x4DlU
-SV1J+a0wobZI/CbTYcXZ2I9ERndFho0wmGIsI75Fio/RkDkvPoND/7xp91ucdWNk
-RBFVz/BuVbVmFOJNmqDR8Tp/u9ndPHyTsQgVa3RprcQm/6sx+N4zCZzxOiO6mP/2
-3EMz6/I5cJMkEggFeKt1uq+ecYawsKgSTH6xDldBSZ9x8PJI69WrS3ZtjwN84x8V
-+PbiXcggvq5hYGN8lWvnhYvL
-=OTsa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZ9dpkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VIQQAItsadCqmu9qH2k7bMZm
+uOFaTOBJ01w8sNwlzkLDWg1750g/Kq7rxu/Xbj9cLLa1zIHp8IouSz3eirear9Bc
+q04r47dh2bsS3tmXtbkpGh6X4REgnY9NmTLGUYeQ8GdNcnLADRUXoo9RUz/3gvQt
+r2H5fbu52uo2O06MHRDFCIje2+KsKrwUzUMQMUlTNRw/qA3QWHlSanzLvGLB+VS1
+4oEASsyaAgrRuBds4d/90oGp2U8Ke3acklLsGJGqh92P7yPgtMcxJn5EFMWMlt8J
+/1wF2L9rWMWD+RYSni+bTLxGtHaiAETvI5acYEi7W9OgOhzumQYosmWhJ/wOolm7
+rkm+w8G5Gt7K9jB1VUGMCSVn3DUd8vaYMtDNwONAfoXjSqNPEEfcOnjMeLfffKna
+DSkuqI3Ib1AmTtqVzuqhVJLQPGcRgreKLsBViUNvpp6EQR4A4Z5yDc3zhB5W4g4S
+jxxzgI3D4pqwUVcn/KKj8jzizqPh1Uy09jEHuOf248ykgw6xVsETI/qciT9XZN9b
+qjxIJ0YLnG8L3FBcxj2ZdSJDtyzRp9usrytjEvptgsFwsAfVnGZSuNHZE7Fh1y6x
+8LQgbjXSk9aNH/F46WrQyAGZkpozdym7D6TGgfHNaX+c0ZPhTndws8KSOvnTegxD
+oNH0eAMeZ+9RV/0XHoL79m8s
+=z0MJ
 -----END PGP SIGNATURE-----
 
---===============4789079913810234711==--
+--===============7329215079021313202==--
