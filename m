@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6167032046553857108=="
+Content-Type: multipart/mixed; boundary="===============2610301046009454356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Jun 2024 12:53:16 -0000
-Message-Id: <171949279638.15958.18404934094748722228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 27 Jun 2024 12:56:18 -0000
+Message-Id: <171949297886.18716.7696837249567365241@gitolite.kernel.org>
 
---===============6167032046553857108==
+--===============2610301046009454356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: c213e520586a4ebe9131670a99f7622f6e495698
-    new: e2009f68e1a9d07467dc833fc2b0c3a7e9c19f37
-    log: revlist-c213e520586a-e2009f68e1a9.txt
+  - ref: refs/heads/for-next
+    old: 713f8834389f4b34bc8b449412202543c8b32214
+    new: 5a1906a476bc84145f20cd1941aa1250d38db4aa
+    log: revlist-713f8834389f-5a1906a476bc.txt
 
---===============6167032046553857108==
+--===============2610301046009454356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c213e520586a-e2009f68e1a9.txt
+Content-Disposition: attachment; filename=revlist-713f8834389f-5a1906a476bc.txt
 
-a1fbccced0c0b69adc61a5c5145469e96846ddb8 Merge branch into tip/master: 'x86/merge'
-231d9440b4d4cde30f61e594e392eeedcc8135d4 Merge branch into tip/master: 'irq/urgent'
-8265c50047aa40a8edc11c26c5f4060d639894f1 Merge branch into tip/master: 'smp/urgent'
-00f2d9af19c84d1353e53d0d64209f8699a54122 Merge branch into tip/master: 'timers/urgent'
-fff0a1e324eefb10df3d2d59a69b4d1e17cc142a Merge branch into tip/master: 'x86/urgent'
-d29e21440989401bbf3599ccc9908dcfd7259a07 Merge branch into tip/master: 'WIP.x86/fpu'
-bf59ca1785adb1125829e7477cb1347ebda0b15e Merge branch into tip/master: 'core/debugobjects'
-c3447b6feecf3c9cee7572c2dda7ef4d7b11d690 Merge branch into tip/master: 'irq/core'
-052923205d731d2ba5bf0a7488eccbbb4b57d87e Merge branch into tip/master: 'irq/msi'
-f60756a9333a2b5ca678b7710ca29e7a9a861850 Merge branch into tip/master: 'locking/core'
-d636c11088b98aab2dbcc0fee5634bf946a9dd3a Merge branch into tip/master: 'perf/core'
-9e391f3c4936be7c353e1cd5dcbed85a0a6c7c39 Merge branch into tip/master: 'ras/core'
-c0a7c4798c3772cd3c3feac33839ac42dc86c956 Merge branch into tip/master: 'sched/core'
-5b0781cda310ff022f468e3066b84f3fdeff4605 Merge branch into tip/master: 'smp/core'
-b29baa1975e430fc3b866c8775376cb9aeda5491 Merge branch into tip/master: 'timers/core'
-6cd2313ef63409855b3d7358e88a6beae8f82efc Merge branch into tip/master: 'x86/alternatives'
-669376f33ae7343ca12cadabd6e61912ab5a597d Merge branch into tip/master: 'x86/boot'
-73614e30f8e426caffa5adf0edb18c6dcd8ec602 Merge branch into tip/master: 'x86/build'
-85f2a3893a88a6c4bf646939a34d6192c3261613 Merge branch into tip/master: 'x86/cache'
-2bb1a98527d28e9ae44b46c567070161b6c2fbb1 Merge branch into tip/master: 'x86/cc'
-c77541e813d8441d8fb8ad0029f654fd70607535 Merge branch into tip/master: 'x86/cleanups'
-8f1a19325e45eef08fe28b919dd0d21513ae1598 Merge branch into tip/master: 'x86/core'
-08582976e4c0e7fbb04e9426808c83e764034bee Merge branch into tip/master: 'x86/misc'
-5f0b00acae4d69583adf9caa82c4a556d3293a5b Merge branch into tip/master: 'x86/percpu'
-c812e6bd3a736dce823b8eaf7e86f05338663e38 Merge branch into tip/master: 'x86/sev'
-e2009f68e1a9d07467dc833fc2b0c3a7e9c19f37 Merge branch into tip/master: 'x86/vmware'
+51316523d1f233c1cea182d4cccbc3b22ef75d87 gfs2: Minor gfs2_quota_init error path cleanup
+de0d95c26c41c1776e4d23b1a8b3f2bcfd1dae5f gfs2: Check quota consistency on mount
+2aedfe847b4d91eabee11a44c27244055cef4eb3 gfs2: Revert "introduce qd_bh_get_or_undo"
+59ebc33201237bf38e5adca3794716100660c5b4 gfs2: qd_check_sync cleanups
+4b4b6374dc6134849f2bdca81fa2945b6ed6d9fc gfs2: Revert "ignore negated quota changes"
+ec4b5200c8af9ce021399d3192b3379c089396c3 gfs2: Revert "Add quota_change type"
+7da4d6e178f405d7abdfc42ea7ac0074e9a6aa45 gfs2: Fix and clean up function do_qc
+b510af07aaa4d8a7095bc0368020d8bdba5af942 gfs2: quota need_sync cleanup
+614abc11870ee7ec5a32c81b7ecf4232ede48ecb gfs2: Fold qd_fish into gfs2_quota_sync
+d5563f42f59ed2cddf1021a34c9cdd8f4a89021c gfs2: Add some missing quota locking
+8d89e068deccb4f34d412df4042f37a75e126259 gfs2: Get rid of some unnecessary quota locking
+d9a75a60699dedaac17d2b5170bb2e3cdc03481e gfs2: Be more careful with the quota sync generation
+5a1906a476bc84145f20cd1941aa1250d38db4aa gfs2: Revert "check for no eligible quota changes"
 
---===============6167032046553857108==--
+--===============2610301046009454356==--
