@@ -1,50 +1,74 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 27 Jun 2024 19:26:56 -0000
-Message-Id: <171951641682.21074.2402449214226451521@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6472051325615584208=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 27 Jun 2024 19:28:57 -0000
+Message-Id: <171951653703.21900.8076811447018894625@gitolite.kernel.org>
+
+--===============6472051325615584208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: d9b2519ede20824b60c86e11673c23365bb87614
-    new: f789cef1d7df7352d5dfb7697ec5718db387c9b9
-    log: |
-         c5e56e620410696922cc01d4ab473fa03c627ca7 arm64: dts: rockchip: Drop invalid mic-in-differential on rk3568-rock-3a
-         26067ce0934480d772b76cb674055ef66411bc09 arm64: dts: rockchip: Fix mic-in-differential usage on rk3566-roc-pc
-         592d17ded2d569b60bd35d91889a79c70e5c6c5f arm64: dts: rockchip: Fix mic-in-differential usage on rk3568-evb1-v10
-         d45db4fcd3ae0d13191c8db00583f0bc49d9795d ARM: dts: rockchip: add #sound-dai-cells to hdmi node no rk3036
-         313da6f69fa41d044b03f2ea37e56fe49f1e8a42 ARM: dts: rockchip: add #sound-dai-cells to hdmi node on rk3128
-         40113edfe63310ad529700fca24f2ebd49ae09ea arm64: dts: rockchip: Delete the SoC variant dtsi for RK3399Pro
-         ec2265dc91307622e43a7d602c3ea425da6f5de1 clk: rockchip: rk3188: Drop CLK_NR_CLKS usage
-         7b0960f6838f35530d89112f2d843a1bcaadf22e Merge branch 'v6.11-armsoc/dts32' into for-next
-         b7d4a9865dfbda7b0ed1dc9be0a0061fa59937fc Merge branch 'v6.11-armsoc/dts64' into for-next
-         f789cef1d7df7352d5dfb7697ec5718db387c9b9 Merge branch 'v6.11-clk/next' into for-next
-         
-  - ref: refs/heads/v6.11-armsoc/dts32
-    old: 99a2b6d16b37258bcbdc2e07eb55e129362a182f
-    new: 313da6f69fa41d044b03f2ea37e56fe49f1e8a42
-    log: |
-         d45db4fcd3ae0d13191c8db00583f0bc49d9795d ARM: dts: rockchip: add #sound-dai-cells to hdmi node no rk3036
-         313da6f69fa41d044b03f2ea37e56fe49f1e8a42 ARM: dts: rockchip: add #sound-dai-cells to hdmi node on rk3128
-         
-  - ref: refs/heads/v6.11-armsoc/dts64
-    old: 41367db58cbf51ecb89ca017b7473688345caa7b
-    new: 40113edfe63310ad529700fca24f2ebd49ae09ea
-    log: |
-         c5e56e620410696922cc01d4ab473fa03c627ca7 arm64: dts: rockchip: Drop invalid mic-in-differential on rk3568-rock-3a
-         26067ce0934480d772b76cb674055ef66411bc09 arm64: dts: rockchip: Fix mic-in-differential usage on rk3566-roc-pc
-         592d17ded2d569b60bd35d91889a79c70e5c6c5f arm64: dts: rockchip: Fix mic-in-differential usage on rk3568-evb1-v10
-         40113edfe63310ad529700fca24f2ebd49ae09ea arm64: dts: rockchip: Delete the SoC variant dtsi for RK3399Pro
-         
-  - ref: refs/heads/v6.11-clk/next
-    old: fc547ab06c87f7c4a7e2425a89759f7a9a6fd7c1
-    new: ec2265dc91307622e43a7d602c3ea425da6f5de1
-    log: |
-         ec2265dc91307622e43a7d602c3ea425da6f5de1 clk: rockchip: rk3188: Drop CLK_NR_CLKS usage
-         
+  - ref: refs/heads/bleeding-edge
+    old: edb12129187ed40712536d10a9af7966f254c3fe
+    new: f7cd54956dc7b353eb7511054620cf02f9ae5027
+    log: revlist-edb12129187e-f7cd54956dc7.txt
+  - ref: refs/heads/linux-next
+    old: 87b765463f7650d4f687276e2570b9fa651032aa
+    new: f7cd54956dc7b353eb7511054620cf02f9ae5027
+    log: revlist-87b765463f76-f7cd54956dc7.txt
+  - ref: refs/heads/testing
+    old: 87b765463f7650d4f687276e2570b9fa651032aa
+    new: f7cd54956dc7b353eb7511054620cf02f9ae5027
+    log: revlist-87b765463f76-f7cd54956dc7.txt
+
+--===============6472051325615584208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-edb12129187e-f7cd54956dc7.txt
+
+a8f8c43082fd5a8ac723126f4a38bca08d277897 cpupower: Replace a dead reference link with working ones
+705c80dfefb5471b84395011f04e2d93008b6795 cpupower: Add 'help' target to the main Makefile
+3dbc921479ea718586c9aa75d5b9191beeac691c cpupower: Improve cpupower build process description
+a286db937ebd90067dac44aa0e0924468e8f0a90 cpupower: Remove absent 'v' parameter from monitor man page
+3e1f12c26646eb0ad67d3eaefd32f765997da6a8 cpupower: Change the var type of the 'monitor' subcommand display mode
+4f460bff7b6ac53d7d8509501a9fba7292a4a11a cpufreq: acpi: move MSR_K7_HWCR_CPB_DIS_BIT into msr-index.h
+c8c68c38b56f4036771ebe2f8d664a2e98728318 cpufreq: amd-pstate: initialize core precision boost state
+89ac482d5105b0c6710775bab1aa7d3d0730c642 cpufreq: amd-pstate: Cap the CPPC.max_perf to nominal_perf if CPB is off
+6d588891a90c5a946aaac11a93d06edd89ed9054 Documentation: cpufreq: amd-pstate: update doc for Per CPU boost control method
+b11ec63abec1dcaebfc3999cc3a53c903e511fd6 Merge back cpufreq material for v6.11.
+d763debcb6458b6e602655a9ab12514947e30019 Merge tag 'linux-cpupower-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+272af421823d82cadd20d636461bd1cbfd3c72fd Merge branch 'pm-tools' into linux-next
+f53b4bb83d5e29e0bce4d7505a89cc88302f1e72 Merge tag 'amd-pstate-v6.11-2024-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+f7cd54956dc7b353eb7511054620cf02f9ae5027 Merge branch 'pm-cpufreq' into linux-next
+
+--===============6472051325615584208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87b765463f76-f7cd54956dc7.txt
+
+a8f8c43082fd5a8ac723126f4a38bca08d277897 cpupower: Replace a dead reference link with working ones
+705c80dfefb5471b84395011f04e2d93008b6795 cpupower: Add 'help' target to the main Makefile
+3dbc921479ea718586c9aa75d5b9191beeac691c cpupower: Improve cpupower build process description
+a286db937ebd90067dac44aa0e0924468e8f0a90 cpupower: Remove absent 'v' parameter from monitor man page
+3e1f12c26646eb0ad67d3eaefd32f765997da6a8 cpupower: Change the var type of the 'monitor' subcommand display mode
+acfc429e42f09524653af52998548cd9317892a6 cpufreq: intel_pstate: Replace boot_cpu_has()
+4f460bff7b6ac53d7d8509501a9fba7292a4a11a cpufreq: acpi: move MSR_K7_HWCR_CPB_DIS_BIT into msr-index.h
+c8c68c38b56f4036771ebe2f8d664a2e98728318 cpufreq: amd-pstate: initialize core precision boost state
+89ac482d5105b0c6710775bab1aa7d3d0730c642 cpufreq: amd-pstate: Cap the CPPC.max_perf to nominal_perf if CPB is off
+6d588891a90c5a946aaac11a93d06edd89ed9054 Documentation: cpufreq: amd-pstate: update doc for Per CPU boost control method
+b11ec63abec1dcaebfc3999cc3a53c903e511fd6 Merge back cpufreq material for v6.11.
+d763debcb6458b6e602655a9ab12514947e30019 Merge tag 'linux-cpupower-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+272af421823d82cadd20d636461bd1cbfd3c72fd Merge branch 'pm-tools' into linux-next
+f53b4bb83d5e29e0bce4d7505a89cc88302f1e72 Merge tag 'amd-pstate-v6.11-2024-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+f7cd54956dc7b353eb7511054620cf02f9ae5027 Merge branch 'pm-cpufreq' into linux-next
+
+--===============6472051325615584208==--
