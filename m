@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2098503880361892781=="
+Content-Type: multipart/mixed; boundary="===============1722760114436354140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Thu, 27 Jun 2024 07:01:44 -0000
-Message-Id: <171947170400.13616.8855370483452541100@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 07:01:52 -0000
+Message-Id: <171947171257.13747.14184756461508176713@gitolite.kernel.org>
 
---===============2098503880361892781==
+--===============1722760114436354140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
     log: revlist-0bbac3facb5d-6ba59ff42279.txt
 
---===============2098503880361892781==
+--===============1722760114436354140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============2098503880361892781==--
+--===============1722760114436354140==--
