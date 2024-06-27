@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1979854897725187277=="
+Content-Type: multipart/mixed; boundary="===============1137128384562824888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 27 Jun 2024 07:01:06 -0000
-Message-Id: <171947166612.13175.14764289313892509145@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 07:01:19 -0000
+Message-Id: <171947167980.13337.5205915873128460164@gitolite.kernel.org>
 
---===============1979854897725187277==
+--===============1137128384562824888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
     log: revlist-39cd87c4eb2b-6ba59ff42279.txt
 
---===============1979854897725187277==
+--===============1137128384562824888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============1979854897725187277==--
+--===============1137128384562824888==--
