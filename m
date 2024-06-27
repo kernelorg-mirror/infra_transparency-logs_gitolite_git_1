@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 27 Jun 2024 13:11:50 -0000
-Message-Id: <171949391049.31300.13857762091166492906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 27 Jun 2024 13:17:53 -0000
+Message-Id: <171949427363.2792.14955154986429950602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/fileFCoKpY
+  - ref: refs/tags/net-6.10-rc6
     old: 0000000000000000000000000000000000000000
-    new: 36ac1e29f49ff4cbf1500465db311b17d8ba9213
-  - ref: refs/heads/fileN72baj
-    old: 0000000000000000000000000000000000000000
-    new: d8af8aef4db8c85ddf14221914ded2a4297fc4a1
+    new: d27a72e976901d2ac01baf7021dcfaee24fa0585
