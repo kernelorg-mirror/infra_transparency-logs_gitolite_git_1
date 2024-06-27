@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 27 Jun 2024 13:59:48 -0000
-Message-Id: <171949678866.312.13667679074898490166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Thu, 27 Jun 2024 14:00:51 -0000
+Message-Id: <171949685190.2637.3815897384704607697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 4ed9dd7fde22ed614384c03f8049723cbe7e6a58
-    new: 20fb7ca6bf04bc381636ae7e8898cb8d5c9e81ae
+  - ref: refs/heads/sunxi/dt-for-6.11
+    old: e1e61fe3452d511e53aa50720833148b11719269
+    new: 0c85e2e377c368e1e0f04ea28dcbc5aa06302551
     log: |
-         20fb7ca6bf04bc381636ae7e8898cb8d5c9e81ae drm/mediatek: Call drm_atomic_helper_shutdown() at shutdown time
+         0c85e2e377c368e1e0f04ea28dcbc5aa06302551 arm64: dts: allwinner: h616: add IOMMU node
          
