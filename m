@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1903538978201192097=="
+Content-Type: multipart/mixed; boundary="===============1081539688676375005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 27 Jun 2024 15:25:12 -0000
-Message-Id: <171950191273.3788.4542543811091696040@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 15:25:15 -0000
+Message-Id: <171950191526.3862.15110322997342203702@gitolite.kernel.org>
 
---===============1903538978201192097==
+--===============1081539688676375005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 73cfd947dbdb25ef9863ac49c4596a7d53ad4025
     new: cce346d441399209bd582f1aaf190a7784dd12f8
     log: revlist-73cfd947dbdb-cce346d44139.txt
 
---===============1903538978201192097==
+--===============1081539688676375005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ f261aa15b2ca73d4f9dbb8b116b16743237edad9 Merge branch 'selftests-drv-net-rss_ctx
 5bcc1afd021989593b40562819e314d299fde849 net: stmmac: dwmac-stm32: stm32: add management of stm32mp25 for stm32
 cce346d441399209bd582f1aaf190a7784dd12f8 Merge branch 'series-to-deliver-ethernet-for-stm32mp25'
 
---===============1903538978201192097==--
+--===============1081539688676375005==--
