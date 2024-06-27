@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 27 Jun 2024 18:34:48 -0000
-Message-Id: <171951328857.13115.1339634659669543374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 27 Jun 2024 18:50:03 -0000
+Message-Id: <171951420390.26275.17925772606461857039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 944909f2b2c850c270fa72b876d61657329a81f4
-    new: e3616b776ae0d50c94807ed970cb724518b8a47e
+  - ref: refs/heads/block-6.10
+    old: 5f75e081ab5cbfbe7aca2112a802e69576ee9778
+    new: cab598bcef0971f11679b048cc9f502cc8143c88
     log: |
-         a1e3ac87b547f8865d7ecf905c886dfed812e9c1 l2cap-tester: Add tests for multiple data packets
-         b6f8c0024a875f519a6f7f5642615ab02a0e2594 bthost: Introduce bthost_add_l2cap_server_custom
-         72c3f5bf1ce676a92064a21b61fc56bfea6b3361 l2cap-tester: Add tests for multiple data packets over LE
-         2ebb415b12c48a727b106b6f28452cc430996964 health/mcap: fix memory leak in mcap_create_mcl()
-         bf4ec513929bda951f54cc73fabbee3a7a12e3c7 media: fix memory leak in endpoint_init_pac()
-         e3616b776ae0d50c94807ed970cb724518b8a47e plugins/sixaxis: add NULL check in setup_device()
+         9570a48847e3acfa1a741cef431c923325ddc637 nvme: fix NVME_NS_DEAC may incorrectly identifying the disk as EXT_LBA.
+         f31e85a4d7c6ac4a3e014129c9cdc31592ea29f3 nvmet: do not return 'reserved' for empty TSAS values
+         5a5696a11f7e0c5ce3185b6234d02996f8267108 nvme-apple: add missing MODULE_DESCRIPTION()
+         f80a55fa90fa76d01e3fffaa5d0413e522ab9a00 nvme: fixup comment for nvme RDMA Provider Type
+         0f1f5803920d2a6b88bee950914fd37421e17170 nvmet: make 'tsas' attribute idempotent for RDMA
+         440e2051c577896275c0e0513ec26964e04c7810 nvmet-fc: Remove __counted_by from nvmet_fc_tgt_queue.fod[]
+         cab598bcef0971f11679b048cc9f502cc8143c88 Merge tag 'nvme-6.10-2024-06-27' of git://git.infradead.org/nvme into block-6.10
          
