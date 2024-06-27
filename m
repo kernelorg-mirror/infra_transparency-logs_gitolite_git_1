@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 27 Jun 2024 12:25:15 -0000
-Message-Id: <171949111553.28089.4165852621527518184@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 12:25:30 -0000
+Message-Id: <171949113043.28288.4491511654959043959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
-    old: 57619f3cdeb5ae9f4252833b0ed600e9f81da722
-    new: ab2068a6fb84751836a84c26ca72b3beb349619d
+  - ref: refs/heads/misc
+    old: 95f8bf932b46cd5c17c681d67be9234551234eac
+    new: 14d38356ec335b97a04c00719d7b6e73b136d291
     log: |
-         b402a0dce64aa3e14a9bd15ab1dd87a93967f90c scsi: scsi_debug: Fix create target debugfs failure
-         ab2068a6fb84751836a84c26ca72b3beb349619d scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
+         14d38356ec335b97a04c00719d7b6e73b136d291 scsi: core: Fix an incorrect comment
          
