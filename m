@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Jun 2024 21:40:04 -0000
-Message-Id: <171952440498.25507.16247223672446311034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 27 Jun 2024 21:49:57 -0000
+Message-Id: <171952499719.30661.12196304215551347764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 2a901623f0056ccdb64dbfd3d98f9072f704f065
-    new: 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7
+  - ref: refs/heads/master
+    old: cbd2275801ab70da97d313fb9e7335af090d79db
+    new: 627f35f2b090f57e803e930ccea28c263ca31753
     log: |
-         346a03e5fbdb868c5d36052b82bb8eacd1cb83b7 s390/lcs: add missing MODULE_DESCRIPTION() macro
+         627f35f2b090f57e803e930ccea28c263ca31753 foo
          
