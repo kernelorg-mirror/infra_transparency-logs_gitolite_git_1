@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5228525661290098562=="
+Content-Type: multipart/mixed; boundary="===============2087131966939154679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 27 Jun 2024 17:29:04 -0000
-Message-Id: <171950934484.29176.11652303303093102212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 27 Jun 2024 17:29:08 -0000
+Message-Id: <171950934863.29254.16602399021543259884@gitolite.kernel.org>
 
---===============5228525661290098562==
+--===============2087131966939154679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
+repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
   - ref: refs/heads/master-pending
@@ -27,7 +27,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 3dabeba9aba087304e212242f1c744ef074e00d1
 
---===============5228525661290098562==
+--===============2087131966939154679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,7 +51,7 @@ c30e0bdaffac8b3f1f79bd459ebdee1ca422ce06 wifi: ath12k: add factory test mode sup
 ace012261f300ae7e2a76d420b21757ad144f646 wifi: ath11k: Add firmware coredump collection support
 3dabeba9aba087304e212242f1c744ef074e00d1 Merge branch 'pending' into master-pending
 
---===============5228525661290098562==
+--===============2087131966939154679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ c30e0bdaffac8b3f1f79bd459ebdee1ca422ce06 wifi: ath12k: add factory test mode sup
 30b53a8847c9f69917d32011e458365547ff2ebe wifi: ath12k: Fill pdev id for fw test cmd
 ace012261f300ae7e2a76d420b21757ad144f646 wifi: ath11k: Add firmware coredump collection support
 
---===============5228525661290098562==--
+--===============2087131966939154679==--
