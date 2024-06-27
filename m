@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8580210130124280966=="
+Content-Type: multipart/mixed; boundary="===============8113818137068135073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 27 Jun 2024 22:35:02 -0000
-Message-Id: <171952770251.31980.8346686644253842578@gitolite.kernel.org>
+Date: Thu, 27 Jun 2024 22:35:05 -0000
+Message-Id: <171952770567.423.7254637592024978996@gitolite.kernel.org>
 
---===============8580210130124280966==
+--===============8113818137068135073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: cce346d441399209bd582f1aaf190a7784dd12f8
     new: 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7
     log: revlist-cce346d44139-346a03e5fbdb.txt
 
---===============8580210130124280966==
+--===============8113818137068135073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -473,4 +473,4 @@ ffb7aa9fedad817b9fa0d868a3065c4eeb1f68c4 Merge tag 'wireless-2024-06-27' of git:
 2a901623f0056ccdb64dbfd3d98f9072f704f065 tools: ynl: use display hints for formatting of scalar attrs
 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7 s390/lcs: add missing MODULE_DESCRIPTION() macro
 
---===============8580210130124280966==--
+--===============8113818137068135073==--
