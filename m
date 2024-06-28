@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 28 Jun 2024 07:56:39 -0000
-Message-Id: <171956139904.28017.15818581351359161325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Fri, 28 Jun 2024 07:56:41 -0000
+Message-Id: <171956140116.28086.8868548325775064490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/vfs.nsfs.2024-06-28
-    old: 0000000000000000000000000000000000000000
-    new: 1cbcd0fbb586ed09ba76dfb4e65cab2bcaec7e5e
+  - ref: refs/heads/main
+    old: 94833addfaba89d12e5dbd82e350a692c00648ab
+    new: 8fda53719a596fa2a2880c42b5fa4126fbbbfc3d
+    log: |
+         8fda53719a596fa2a2880c42b5fa4126fbbbfc3d dt-bindings: net: realtek,rtl82xx: Document known PHY IDs as compatible strings
+         
