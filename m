@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 28 Jun 2024 14:22:03 -0000
-Message-Id: <171958452389.385.12011388906754436642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 28 Jun 2024 14:22:27 -0000
+Message-Id: <171958454787.670.7277121701746543091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: ba5901bc8fd7206fb0db445fa405c72e93e36e46
-    new: ae61fa9ee01049abfca7a954a7c62e1274858d10
+  - ref: refs/heads/master
+    old: 5bbd9b249880dba032bffa002dd9cd12cd5af09c
+    new: ae5b33558fad6781d2235362d9a7b0c1ff8d2101
     log: |
-         e472369bd5624fa899d0d1dfbe69b594fd7e6e7d dt-bindings: mfd: rk817: Fixup clocks and reference dai-common
-         ae61fa9ee01049abfca7a954a7c62e1274858d10 dt-bindings: mfd: rk817: Merge support for RK809
+         f7af3635d8d6ce7eeccc379b83feaaf6f0be992e KEYS: trusted: add missing MODULE_DESCRIPTION()
+         ae5b33558fad6781d2235362d9a7b0c1ff8d2101 KEYS: encrypted: add missing MODULE_DESCRIPTION()
          
