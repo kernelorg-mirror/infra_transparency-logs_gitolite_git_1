@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 28 Jun 2024 22:05:33 -0000
-Message-Id: <171961233305.24296.418779558317148602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 28 Jun 2024 22:05:34 -0000
+Message-Id: <171961233440.24360.17662054551849067860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/next
-    old: f145b1fc3ab6e8676239fe315198a128260d6ef2
-    new: 62933f02c855f0895d0cce95bd5334a663ce24c0
+  - ref: refs/heads/dt-bindings
+    old: 1b029ce3b0b5643b3303cf4d4a3328c7c3b3bef6
+    new: b96fb1e8077938f7603ce418c66ffdbbb0190250
     log: |
-         dc1d234cdd4ac5bf1aa903d9ef0d34470b3faa14 KVM: Documentation: Fix typo `BFD`
-         03bd36a387b85089a38ff37a9646f7e0a1249fe4 KVM: Documentation: Enumerate allowed value macros of `irq_type`
-         810ecbefdd54b4c18aea467b68d45d2b86865142 KVM: Documentation: Correct the VGIC V2 CPU interface addr space size
-         62933f02c855f0895d0cce95bd5334a663ce24c0 Merge branch kvm-arm64/docs into kvmarm/next
+         948419cf9b19eb8e62664d4f6eb053171c9ccd13 dt-bindings: PCI: Add StarFive JH7110 PCIe controller
+         b96fb1e8077938f7603ce418c66ffdbbb0190250 dt-bindings: PCI: Add PLDA XpressRICH PCIe host common properties
          
