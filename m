@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 28 Jun 2024 01:45:30 -0000
-Message-Id: <171953913087.17181.13198200776412203782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Fri, 28 Jun 2024 02:44:03 -0000
+Message-Id: <171954264351.25713.8248310850573401195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: ff33c2e6af99afcac3024a5c3ec8730d1e6b8ac7
-    new: 95c0f5c3b8bb7acdc5c4f04bc6a7d3f40d319e9e
+  - ref: refs/heads/imx/dt64
+    old: cea0a8543d2948fc2947c5635225eace38db5024
+    new: 4752b1fb45adab2ee0fa06a9d1efd09d6c0738d6
     log: |
-         7b3058eb3f3b04e534d6cda6820ef8c7cf519a79 crypto: tcrypt - add skcipher speed for given alg
-         e0eece0cebe4b739c47abad958d17669ff8c005d crypto: deflate - Add aliases to deflate
-         ccacbbc3176277bbfc324f85fa827d1a2656bedf crypto: qat - initialize user_input.lock for rate_limiting
-         70003f512c5ff488081460c664340b11b57b1293 dt-bindings: rng: Add Exynos850 support to exynos-trng
-         76536caabedbeafb01d364690914c88ebadab5b3 hwrng: exynos - Improve coding style
-         81da8056e92bd255178413d36382653ed5a1a230 hwrng: exynos - Use devm_clk_get_enabled() to get the clock
-         e003d67067043488595f33f3a82230a4281686ca hwrng: exynos - Implement bus clock control
-         10bb6ac8f86f4b65ef8d227504868a61e0bcb148 hwrng: exynos - Add SMC based TRNG operation
-         b0c2036df8868b97176f9a97b777846620c9a74d hwrng: exynos - Enable Exynos850 support
-         95c0f5c3b8bb7acdc5c4f04bc6a7d3f40d319e9e hwrng: core - Fix wrong quality calculation at hw rng registration
+         00c7f867aae779d0c00738c0b38969e1a9f99ed0 arm64: dts: layerscape: add #dma-cells for qdma
+         c2aa7b493a6e1e22d414b46c5e86f315dd4227ea arm64: dts: layerscape: rename node name "wdt" to "watchdog"
+         256db3ec349ad8642591fc6d86d822f574c81e96 arm64: dts: layerscape: change pcie interrupt order
+         1bc8ad8138db3e15b27ea0725edb2b574fde9eec arm64: dts: layerscape: rename aux_bus to aux-bus
+         38397efe228326ab4f7928ee9e0c1f1f752d56a5 arm64: dts: fsl-ls1043a: remove unused clk-name at watchdog node
+         b2b4813f06dc457ab0a187b4183c1580e0d2bf71 arm64: dts: fsl-ls1046a: rename thermal node name
+         d75526a2b8f526aec38c05bdbd85a47ff5b9cd6e arm64: dts: layerscape: rename b(q)man-portals to b(q)man-portals-bus
+         4752b1fb45adab2ee0fa06a9d1efd09d6c0738d6 arm64: dts: imx8mp: Do not reconfigure Audio PLL2 on DH i.MX8M Plus DHCOM SoM
          
