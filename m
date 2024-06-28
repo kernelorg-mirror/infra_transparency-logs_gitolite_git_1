@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 28 Jun 2024 21:20:48 -0000
-Message-Id: <171960964875.24743.4491727690510301135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 28 Jun 2024 21:26:27 -0000
+Message-Id: <171960998739.28388.8820250380819212151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 52c1e818d66bfed276bd371f9e7947be4055af87
-    new: 38b2b022363d8c911dba40cf30af46febf4974fe
+  - ref: refs/heads/controller/keystone
+    old: a231707a91f323af1e5d9f1722055ec2fc1c7775
+    new: 86f271f22bbb6391410a07e08d6ca3757fda01fa
     log: |
-         45158b93d02bea7f32a2918641697731439f3e15 dt-bindings: hwmon: Add MPS mp2891
-         38b2b022363d8c911dba40cf30af46febf4974fe hwmon: add MP2891 driver
+         86f271f22bbb6391410a07e08d6ca3757fda01fa PCI: keystone: Add workaround for Errata #i2037 (AM65x SR 1.0)
          
