@@ -1,42 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4248369354920487959=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Fri, 28 Jun 2024 12:10:38 -0000
-Message-Id: <171957663819.1597.14446555538075936789@gitolite.kernel.org>
-
---===============4248369354920487959==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Fri, 28 Jun 2024 12:10:51 -0000
+Message-Id: <171957665109.1799.15064021971908202982@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: f789cef1d7df7352d5dfb7697ec5718db387c9b9
-    new: 84a3d3b435e7c109d2141c5bbb9eaab146c94df0
-    log: revlist-f789cef1d7df-84a3d3b435e7.txt
-
---===============4248369354920487959==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f789cef1d7df-84a3d3b435e7.txt
-
-7ef44e179af0e84962b5c450f09ea92a427981d8 arm64: dts: rockchip: Add PCIe endpoint mode support
-40658534756f8369e93b84fa75c20bde6528cb82 arm64: dts: rockchip: Add rock5b overlays for PCIe endpoint mode
-406a554b382200abfabd1df423a425f6efee53e0 arm64: dts: rockchip: Drop invalid mic-in-differential on rk3568-rock-3a
-e643e4eb4bef6a2f95bf0c61a20c991bccecb212 arm64: dts: rockchip: Fix mic-in-differential usage on rk3566-roc-pc
-ec03073888ad23223ebb986e62583c20a9ed3c07 arm64: dts: rockchip: Fix mic-in-differential usage on rk3568-evb1-v10
-9417909e253ffa57f014822a79cca9b1f2b25492 arm64: dts: rockchip: Delete the SoC variant dtsi for RK3399Pro
-dd89bb6cc87a5a14a7d7f21e7616b34b87bf45a1 arm64: dts: rockchip: add wolfvision pf5 visualizer display
-1571d4f31f0b9cdd540473cbde838437ca25c4fb Merge branch 'v6.10-armsoc/dtsfixes' into for-next
-3e6349b0261602b8eb1ef3e4d4e62a3c64842045 Merge branch 'v6.11-armsoc/drivers' into for-next
-961d1943ec6800a98502ea2d8ef54cd53428767f Merge branch 'v6.11-armsoc/dts32' into for-next
-198d1f545e7d6c83de06e6881735251f32d4fa75 Merge branch 'v6.11-armsoc/dts64' into for-next
-84a3d3b435e7c109d2141c5bbb9eaab146c94df0 Merge branch 'v6.11-clk/next' into for-next
-
---===============4248369354920487959==--
+  - ref: refs/heads/main
+    old: 109e2f5b98e8e093c276066df600e761c171df52
+    new: dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788
+    log: |
+         07aa33988ad92fef79056f5ec30b9a0e4364b616 mac802154: fix time calculation in ieee802154_configure_durations()
+         b8ec0dc3845f6c9089573cb5c2c4b05f7fc10728 net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
+         dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788 Merge tag 'ieee802154-for-net-2024-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan into main
+         
