@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 28 Jun 2024 12:40:03 -0000
-Message-Id: <171957840321.23937.4223999591661541724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 28 Jun 2024 12:53:12 -0000
+Message-Id: <171957919239.32015.12757261165979615209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/filehnofhO
+  - ref: refs/tags/renesas-clk-for-v6.11-tag2
     old: 0000000000000000000000000000000000000000
-    new: 730674b21db12be6ea6b3034c618de5d7a16987d
-  - ref: refs/heads/v5_20240627_piotr_wojtaszczyk_add_audio_support_for_lpc32xx_cpus
+    new: b0f375dcf1988df9ce6bf71b3fe85c1b3f169883
+  - ref: refs/tags/renesas-pinctrl-for-v6.11-tag2
     old: 0000000000000000000000000000000000000000
-    new: 0959de657a10cc40b2cc41cff9169ab0e0fd4456
+    new: ec6b465c26962c9a423fd539d045f43a2efb2f2a
