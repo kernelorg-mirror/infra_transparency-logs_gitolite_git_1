@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 28 Jun 2024 22:14:12 -0000
-Message-Id: <171961285219.30439.7595728620426564397@gitolite.kernel.org>
+Date: Fri, 28 Jun 2024 22:15:05 -0000
+Message-Id: <171961290522.32493.16949799198208538913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/dt-bindings
-    old: b96fb1e8077938f7603ce418c66ffdbbb0190250
-    new: 1b029ce3b0b5643b3303cf4d4a3328c7c3b3bef6
+  - ref: refs/heads/next.old
+    old: 0000000000000000000000000000000000000000
+    new: f117d19a8dc6e765092d674d36c5cbc2cc00102c
