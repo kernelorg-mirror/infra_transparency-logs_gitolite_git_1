@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6313812941285285480=="
+Content-Type: multipart/mixed; boundary="===============2474678358162000301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 28 Jun 2024 14:17:31 -0000
-Message-Id: <171958425178.29136.10392834444944128401@gitolite.kernel.org>
+Date: Fri, 28 Jun 2024 14:18:03 -0000
+Message-Id: <171958428351.29452.8146864460003962040@gitolite.kernel.org>
 
---===============6313812941285285480==
+--===============2474678358162000301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
     new: 5bbd9b249880dba032bffa002dd9cd12cd5af09c
     log: revlist-83a7eefedc9b-5bbd9b249880.txt
 
---===============6313812941285285480==
+--===============2474678358162000301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -814,4 +814,4 @@ ef8abe9668ce38d8b8b7048724c896cfccb40307 Merge tag 'pm-6.10-rc6' of git://git.ke
 1c52cf5e79d30ac996f34b64284f2c317004d641 Merge tag 'drm-fixes-2024-06-28' of https://gitlab.freedesktop.org/drm/kernel
 5bbd9b249880dba032bffa002dd9cd12cd5af09c Merge tag 'v6.10-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============6313812941285285480==--
+--===============2474678358162000301==--
