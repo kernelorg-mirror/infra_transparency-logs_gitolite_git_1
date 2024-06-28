@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2290888105944305672=="
+Content-Type: multipart/mixed; boundary="===============5959468882125745718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 28 Jun 2024 16:39:05 -0000
-Message-Id: <171959274572.9825.1201772636081406546@gitolite.kernel.org>
+Date: Fri, 28 Jun 2024 16:39:08 -0000
+Message-Id: <171959274819.9895.11369797724977179896@gitolite.kernel.org>
 
---===============2290888105944305672==
+--===============5959468882125745718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ffb7aa9fedad817b9fa0d868a3065c4eeb1f68c4
     new: dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788
     log: revlist-ffb7aa9fedad-dc6be0b73f4f.txt
 
---===============2290888105944305672==
+--===============5959468882125745718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e562f2d46d27576dd4108c1c4a67d501a5936e31 net/mlx5e: Approximate IPsec per-SA pay
 109e2f5b98e8e093c276066df600e761c171df52 Merge branch 'mlx5-fixes' into main
 dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788 Merge tag 'ieee802154-for-net-2024-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan into main
 
---===============2290888105944305672==--
+--===============5959468882125745718==--
