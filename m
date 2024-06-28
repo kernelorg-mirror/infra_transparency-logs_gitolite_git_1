@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3759582205385639867=="
+Content-Type: multipart/mixed; boundary="===============1345653803124360536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 28 Jun 2024 16:51:51 -0000
-Message-Id: <171959351185.19952.4696102538878670757@gitolite.kernel.org>
+Date: Fri, 28 Jun 2024 16:51:54 -0000
+Message-Id: <171959351418.20025.15742605423916302417@gitolite.kernel.org>
 
---===============3759582205385639867==
+--===============1345653803124360536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 346a03e5fbdb868c5d36052b82bb8eacd1cb83b7
     new: 748e3bbf47212d5e2e22d731328b0c15ee3b85ae
     log: revlist-346a03e5fbdb-748e3bbf4721.txt
 
---===============3759582205385639867==
+--===============1345653803124360536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ d361d78fe2cc8a7a60e8c71825f84e70d34938af selftests: mirror: Drop dual SW/HW test
 098ba97d0e895c204de95f933bfbfad9344206a5 selftests: mlxsw: mirror_gre: Obey TESTS
 748e3bbf47212d5e2e22d731328b0c15ee3b85ae Merge branch 'net-selftests-mirroring-cleanup' into main
 
---===============3759582205385639867==--
+--===============1345653803124360536==--
