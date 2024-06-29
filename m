@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 29 Jun 2024 01:20:35 -0000
-Message-Id: <171962403521.5263.7907614802958467024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 29 Jun 2024 01:42:54 -0000
+Message-Id: <171962537466.21000.7552920384699729325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788
-    new: 134061163ee5ca4759de5c24ca3bd71608891ba7
+  - ref: refs/heads/todo
+    old: b1d1cc72429c5e0a4865629a0b2fc42c1f4800cd
+    new: 0bc40cbe17491d13fd225772abce1c45360e259a
     log: |
-         134061163ee5ca4759de5c24ca3bd71608891ba7 bnx2x: Fix multiple UBSAN array-index-out-of-bounds
+         0bc40cbe17491d13fd225772abce1c45360e259a What's cooking (2024/06 #09)
          
