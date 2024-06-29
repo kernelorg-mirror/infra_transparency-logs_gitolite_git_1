@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 29 Jun 2024 19:05:46 -0000
-Message-Id: <171968794630.12213.13858783366790152442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sat, 29 Jun 2024 19:07:16 -0000
+Message-Id: <171968803663.14331.16714510442830647012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: d2ce9797fff3513033fdf2e167051de267efc54a
-    new: a832dcf755bf97b74aa8a448884de84c27e4d781
+  - ref: refs/heads/dev-test
+    old: cc69a681b2573e8865e29758f1a5b284328efb2d
+    new: 5f0ca5b7e304a79acbbe6404842f2d8d8ef4400b
     log: |
-         a832dcf755bf97b74aa8a448884de84c27e4d781 patches/next: wordsmith link to admin-guide
+         5f0ca5b7e304a79acbbe6404842f2d8d8ef4400b erofs: ensure m_llen is reset to 0 if metadata is invalid
          
