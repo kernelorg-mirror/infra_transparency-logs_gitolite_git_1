@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Sat, 29 Jun 2024 17:39:06 -0000
-Message-Id: <171968274666.14618.13497564807100058242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 29 Jun 2024 18:45:20 -0000
+Message-Id: <171968672094.30490.4533340468127141910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devsec/spdm
-user: lukas
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: 2c1faa35e91183d1d135aaaeea5c48ea56f2290f
-    new: 6f1bae2a94b0bd7f416c8b2ec2f81f8b9465e35f
+  - ref: refs/heads/next
+    old: 79d8997e3dd76ac9f686cfecc171cc8f84fadcd7
+    new: c76d137a2507a3731da80c94bf17aa92af453929
     log: |
-         2b3d0173a859b50ab5436acda09784e3aaecb32b PCI/CMA: Expose a log of received signatures in sysfs
-         e4d2da7a8d6224b59a94deca90251c3d65a29cc1 spdm: Limit memory consumed by log of received signatures
-         ef7e5af86050f2c2d3b6ff58d005c19ea095e407 spdm: Authenticate devices despite invalid certificate chain
-         6f1bae2a94b0bd7f416c8b2ec2f81f8b9465e35f spdm: Allow control of next requester nonce through sysfs
+         3bd32168d30b0fab3362684523919bf02a4ca693 _damo_dist: Implement a function for general distributions printing
+         b734f331886ec1afe0f1b6319888db9688e9a95b damo_report_footprint: Use _damo_dist.pr_dists()
+         1e034431dd780943ca36d35d6fce21ddcf6a0a09 damo_wss: Use _damo_dist.pr_dists()
+         be0a13c9641bde3a68eac9314a4e846cd7c0560a damo_wss: Remove unused function, pr_wss_dists()
+         518c0b803b3f220e5a9ccb64eca822fe9d06ad32 damo_report_footprint: Remove unused function, pr_dists()
+         030457dbefab68ca1134e3d911bfdea3a0092f9c _damo_dist: Add a function for formatting distributions output string
+         1f3c7979f4083750d9ac11e703e9b19b5ae2c6de damo_report_footprint: Use fmt_dists() for plotting
+         3417e248d6e5b8dbbd5c6750e592b4b65cf6b17d damo_wss: Drop dirty stdout hack for plotting graphs
+         c76d137a2507a3731da80c94bf17aa92af453929 damo_report_footprint: Fix --range help message
          
