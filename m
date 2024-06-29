@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 29 Jun 2024 22:17:13 -0000
-Message-Id: <171969943303.22781.4367998933295319621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/vulns-desc
+Date: Sat, 29 Jun 2024 22:25:54 -0000
+Message-Id: <171969995430.29068.10253592751534367265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/sashal/vulns-desc
+user: sashal
 changes:
-  - ref: refs/heads/next.old
-    old: 0000000000000000000000000000000000000000
-    new: f117d19a8dc6e765092d674d36c5cbc2cc00102c
+  - ref: refs/heads/master
+    old: 835cfd18c5e39219b73dbd3c1521036518bad0ae
+    new: 8bb6646f6e9bab9f2c9501ff66f6fe8620b460c3
+    log: |
+         8bb6646f6e9bab9f2c9501ff66f6fe8620b460c3 CVE Descriptions
+         
