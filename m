@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sat, 29 Jun 2024 19:48:51 -0000
-Message-Id: <171969053196.11366.14077799054206135857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sat, 29 Jun 2024 19:59:12 -0000
+Message-Id: <171969115219.18260.17638017208043297508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/devmsi-arm-v4-2
-    old: 0000000000000000000000000000000000000000
-    new: 174cd1b06aedd3142b0debd88c85e1a007b65ebd
+  - ref: refs/heads/nfs-localio-for-6.11.v10a
+    old: 8b87806101353cd67b048af65562f49bb7e5e5ed
+    new: ca87a20fc3e9b11125d7ef6d0112bd075f0d4bf1
+    log: |
+         ca87a20fc3e9b11125d7ef6d0112bd075f0d4bf1 xfs: enable WQ_MEM_RECLAIM on m_sync_workqueue
+         
