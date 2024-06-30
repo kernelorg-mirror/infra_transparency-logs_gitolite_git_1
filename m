@@ -1,45 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============9039076691906574754=="
+Content-Type: multipart/mixed; boundary="===============3795396035503306552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 30 Jun 2024 19:13:34 -0000
-Message-Id: <171977481438.8271.3768415987739885485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 30 Jun 2024 19:14:31 -0000
+Message-Id: <171977487109.8724.3669387814545576911@gitolite.kernel.org>
 
---===============9039076691906574754==
+--===============3795396035503306552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/next
-    old: c76d137a2507a3731da80c94bf17aa92af453929
-    new: 25aa9e223e83ec19261640b5981f2eceeb159327
-    log: revlist-c76d137a2507-25aa9e223e83.txt
+  - ref: refs/heads/damon/next
+    old: 5ccc622bd4569e88429f14c6e260e19292be8aa6
+    new: 35b8b4b8f77605584d23fca5cb6e0341a0186e05
+    log: revlist-5ccc622bd456-35b8b4b8f776.txt
 
---===============9039076691906574754==
+--===============3795396035503306552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c76d137a2507-25aa9e223e83.txt
+Content-Disposition: attachment; filename=revlist-5ccc622bd456-35b8b4b8f776.txt
 
-320c736e6cd9b3b63ffb85e8cfc33e161140f5bd damo_report: Add a new report type, 'holistic'
-5a35e513dd195763c1ef5e0128fa200a9c5861a2 damo_heatmap: Implement ascii-heatmap formatting function and use it
-61d8d7cf811706b5ca3d2249ab7025e95c0bdb9f damo_heatmap/pr_heats(): Use fmt_ascii_heatmap()
-3a6b964c6531e07cff863984e9f15ddd05ede506 damo_heatmap: Remove unused function, heatmap_plot_ascii()
-cdf96402f5b6bff3efe357d02e1658222992102e damo_heatmap: Print all heatmap of targets
-a4a72181527ee9b4bace8504d458254a61ea79fe damo_heatmap: Implement and use heats output formatting function
-c9f350482846ea90bbdea52ca18b36a0e87c135f damo_heatmap: Separate plotting code for image files terminal
-3ce115b69aeb9d67142bff0f17d7f2c0d7d1dfd5 damo_heatmap: Remove dirty stdout based hack for gnuplot
-93fec3f257ca19efed3aed4ed27a49019e909c31 TODO: Add more items
-af2703ebe79c6ecd54d1321b56d661b9e1a3e729 damo_report_holistic: Print heatmaps for all regions of all recorded targets
-c6d5188578d7ec34a1f688ab1e994ac0cfce6ae0 damo_report_holistic: Show working set size distribution
-6fa29720d37ddfead54c765dafd85e0a2d9876c2 damo_report_holistic: Print memory footprint distributions
-8f6d30dc244be74440891dbf11f7c6634db61cb3 damo_report_holistic: Provide help message for user's manual uses
-4f09927cc50edb15a3b5079316c88aeeb6687feb USAGE: Add a section for holistic report type
-25aa9e223e83ec19261640b5981f2eceeb159327 release_note: Update for next the release
+30d46bbc57bd01622bf8c961812a3e418e542b3c Docs/mm/damon/index: add links to design
+7fbf5d7127ab5e1391b4bd2a8a23e1b5db0e0561 Docs/mm/damon/index: add links to admin-guide doc
+683e81003c297c6a7c2b3dd9ee09458f199c363a ==== ACMA ====
+9d51ed791a5dc342da65b189261aab1441ce1d5e mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+6e9286e8fb9851429e8dc7faef8e06bf7b3dee7c mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+3765054d797128447308226ed09239e7bbbf5006 mm/page_reporting: implement a function for reporting specific pfn range
+7e6265a81424b0a58fce6b9cdbd6b476c99352fa mm/damon/acma: implement scale down feature
+bb489a2bc028a32bd74d66033ae43f115228e7ca mm/damon/acma: implement scale up feature
+20165b9ea1249741689a47276011441cad02b841 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+8e71dc73b6e1c3b7074a63cdd0bfc677bdcfec69 ==== write-only monitoring ====
+d550de7d476ef25bcb440e2314595b002ed4aaf3 ==== docs fixup for corbet ====
+be9a3148b99aa1a403609503e16091584636291e Docs/translations/ko_KR: move howto.rst under process/ directory
+c22e5a4f9f079970aa29cf7bf2da056e1133e25c Docs/translations/ko_KR: Link memory-barriers wrapper with other language versions
+4a979d36882aa02b63f8009af8e2aa31cdfd0bb5 ==== docs for DAMON ====
+35b8b4b8f77605584d23fca5cb6e0341a0186e05 Docs/mm/damon/design: add API link to damon_ctx
 
---===============9039076691906574754==--
+--===============3795396035503306552==--
