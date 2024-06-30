@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sun, 30 Jun 2024 15:01:41 -0000
-Message-Id: <171975970122.18296.9020320063994504411@gitolite.kernel.org>
+Date: Sun, 30 Jun 2024 15:07:44 -0000
+Message-Id: <171976006492.23657.13929875510992103909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/drivers-for-6.11
-    old: a40cf069ac613c0f441b9a9f42b84aa65aada8f7
-    new: 3a6fb9025cdf975146b2f2e3771b67f03c4ca3dc
+  - ref: refs/heads/sunxi/dt-for-6.11
+    old: 0c85e2e377c368e1e0f04ea28dcbc5aa06302551
+    new: 0ce1d34678e5d214746ee4887f9f7714c39e331f
     log: |
-         3a6fb9025cdf975146b2f2e3771b67f03c4ca3dc dt-bindings: sram: sunxi-sram: Add regulators child
+         8f2cf4442b49365031f62f7d97484989251b0707 riscv: dts: allwinner: d1s-t113: Add system LDOs
+         0ce1d34678e5d214746ee4887f9f7714c39e331f riscv: dts: allwinner: Add ClockworkPi and DevTerm devicetrees
          
