@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8800292535111802986=="
+Content-Type: multipart/mixed; boundary="===============4712562950580303755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sun, 30 Jun 2024 07:24:18 -0000
-Message-Id: <171973225832.28629.15973048969934188800@gitolite.kernel.org>
+Date: Sun, 30 Jun 2024 07:56:37 -0000
+Message-Id: <171973419749.21081.14059377666958587726@gitolite.kernel.org>
 
---===============8800292535111802986==
+--===============4712562950580303755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 4031a2866a9f0f5c585cfee65b3fb5ab17c95276
-    new: e564b3c6c6e636e156176b54b695550c396e90bf
-    log: revlist-4031a2866a9f-e564b3c6c6e6.txt
+  - ref: refs/heads/ti-next
+    old: 20ffc475a9f72614604d93cc1fa88b53d982cc10
+    new: 091c47479625fe34827724040ee047cdde11622b
+    log: revlist-20ffc475a9f7-091c47479625.txt
 
---===============8800292535111802986==
+--===============4712562950580303755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4031a2866a9f-e564b3c6c6e6.txt
+Content-Disposition: attachment; filename=revlist-20ffc475a9f7-091c47479625.txt
 
+11926848eb550ea3018ad9e14761785a6f7f25df arm64: dts: ti: k3-am62a-main: Enable crypto accelerator
+b6861f152b4bf6f194b5e5162ee238f2c97e5aec arm64: dts: ti: k3-am62*-main: Remove unwanted properties from crypto
+2bb842f36562921fb80951ffa2f6791438a3b760 arm64: dts: ti: k3-am62x-sk-common: Reserve 128MiB of global CMA
+4031a2866a9f0f5c585cfee65b3fb5ab17c95276 arm64: dts: ti: k3-am62a7-sk: Reserve 576MiB of global CMA
 f88781ad8707efe9a30633591f03ea757a83ae8b arm64: dts: k3-am625-verdin: enable nau8822 pll
 7283a04ea650fd8b5c8595a1cfb268418a062cd3 arm64: dts: ti: k3-am64-tqma64xxl: relicense to GPL-2.0-only OR MIT
 203961a793c6d782d9cd8faa6c01dbe64077228d arm64: dts: ti: k3-am6xx-phycore-qspi-nor: Add overlay to enable QSPI NOR
@@ -49,5 +53,9 @@ a265e980098bf1b8b019307f3514968b4dddcebc arm: dts: k3-am642-evm-nand: Add bootph
 90319ba36a15c23062ad8f8b8888f5820e38d216 arm64: dts: ti: k3-j784s4: Add cpsw-mac-efuse node to mcu_conf
 792ba339d0a4578d8438e208cc077624f185ac77 arm64: dts: ti: k3-am62a: Add cpsw-mac-efuse node to wkup_conf
 e564b3c6c6e636e156176b54b695550c396e90bf arm64: dts: ti: k3-am62: Add cpsw-mac-efuse node to wkup_conf
+90d3d2eed998fef92f7bbc8557a843360516ccee arm64: dts: ti: k3-pinctrl: Define a generic GPIO MUX Mode
+84935117f25f5174c84e940b0510e4cc13e73d15 arm64: dts: ti: k3-am62p: Add gpio-ranges properties
+2cfaaf49ce834165a473d90de3a06711817dcd90 arm64: dts: ti: k3-j722s: Add gpio-ranges properties
+091c47479625fe34827724040ee047cdde11622b Merge branch 'ti-k3-dts-next' into ti-next
 
---===============8800292535111802986==--
+--===============4712562950580303755==--
