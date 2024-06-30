@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 30 Jun 2024 17:02:31 -0000
-Message-Id: <171976695141.9323.17827027587473221249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Sun, 30 Jun 2024 17:30:40 -0000
+Message-Id: <171976864076.30361.10679736283240031739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: 769327258a141ba80ac8b96fce35c68631228370
-    new: e0b668b070348c36e0ab83af12987b6390f9ec26
+  - ref: refs/heads/uprobe_session_1
+    old: 9218ec4dc332803e87a84597867630f55d93c794
+    new: 43bb8822e9f56d8b62136d6c9e8c6b268880ca26
     log: |
-         9cc5f3bf63aa98bd7cc7ce8a8599077fde13283e kbuild: Install dtb files as 0644 in Makefile.dtbinst
-         07d4cc2e7444356faac6552d0688a1670cc9d749 kbuild: doc: Update default INSTALL_MOD_DIR from extra to updates
-         c61566538968ffb040acc411246fd7ad38c7e8c9 kbuild: Fix build target deb-pkg: ln: failed to create hard link
-         8d1001f7bdd0553a796998f4fff07ee13e1c1cad kbuild: rpm-pkg: fix build error with CONFIG_MODULES=n
-         7ed9d1318c127b3aec77099802a9fdf2480250b4 kbuild: Use $(obj)/%.cc to fix host C++ module builds
-         a11aaf6d0bb4282ce1989e388b13f8d87154ba75 kbuild: scripts/gdb: bring the "abspath" back
-         e0b668b070348c36e0ab83af12987b6390f9ec26 Merge tag 'kbuild-fixes-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+         657bfe9e8e41b0a7a0d1a33dd3ffe6138e05d544 uprobe: Add support for session consumer
+         e21ba91304721b9ab645b572f0a51da7bd7250f0 bpf: Add support for uprobe multi session attach
+         7b6da7c79fbac279e3dbcfe3ec15a50523a5f987 bpf: Add support for uprobe multi session context
+         0e72d46b1224970d6eec4064f9e7ec6189903401 libbpf: Add support for uprobe multi session attach
+         962e6c980f42277eaab4a11a51225c609d21943d libbpf: Add uprobe session attach type names to attach_type_name
+         c00cb5ca5e80047599b4a47ec168ba0468970717 selftests/bpf: Add uprobe session test
+         be1be3c97b5ab55a67d12f5e20f73c818a065780 selftests/bpf: Add uprobe session cookie test
+         724f6ae1dde620b26efd6c068a767254b4cd6efa selftests/bpf: Add uprobe session recursive test
+         43bb8822e9f56d8b62136d6c9e8c6b268880ca26 selftests/bpf: Add uprobe session consumers test
          
