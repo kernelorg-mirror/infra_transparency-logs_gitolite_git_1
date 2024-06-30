@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4848859799252201651=="
+Content-Type: multipart/mixed; boundary="===============3404648228094004113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sun, 30 Jun 2024 10:30:51 -0000
-Message-Id: <171974345149.17126.10720215416385638406@gitolite.kernel.org>
+Date: Sun, 30 Jun 2024 10:31:45 -0000
+Message-Id: <171974350589.17533.12311318405202614821@gitolite.kernel.org>
 
---===============4848859799252201651==
+--===============3404648228094004113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,29 @@ repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/v6.10/backports
+  - ref: refs/heads/nxp/v6.10/dev/rpi-cam/next
     old: 0000000000000000000000000000000000000000
-    new: 852e15af81e0ec06010e30cac29cbf02e199d7cf
-  - ref: refs/heads/v6.10/base
-    old: 0000000000000000000000000000000000000000
-    new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-  - ref: refs/heads/v6.10/dt/base
-    old: 0000000000000000000000000000000000000000
-    new: 852e15af81e0ec06010e30cac29cbf02e199d7cf
-  - ref: refs/heads/v6.10/dt/debix
-    old: 0000000000000000000000000000000000000000
-    new: 25fb687fa1059c159bfffee1825997eb058109e8
-  - ref: refs/heads/v6.10/dt/evk
-    old: 0000000000000000000000000000000000000000
-    new: 9248d24436b122b343fe71bb02bbb2555bbde9cc
-  - ref: refs/heads/v6.10/dt/imx8mp
-    old: 0000000000000000000000000000000000000000
-    new: 23932a4c28ca97957a669247c6e78e59f77cac08
-  - ref: refs/heads/v6.10/dt/maivin
-    old: 0000000000000000000000000000000000000000
-    new: a2fc429611aa79c70fe416620c6da11dddf2a679
-  - ref: refs/heads/v6.10/dt/phytec
-    old: 0000000000000000000000000000000000000000
-    new: 6f5447ab84e3943195677b95c59be2df8cfc2197
-  - ref: refs/heads/v6.10/dt/rk3399
-    old: 0000000000000000000000000000000000000000
-    new: 3fc303a2c5ac9a2580189a61a8a082e915459b8a
-  - ref: refs/heads/v6.10/dt/variscite
-    old: 0000000000000000000000000000000000000000
-    new: 3ad137e41de398a3f333f944771d69367fdbeb7c
-  - ref: refs/heads/v6.10/dt/verdin
-    old: 0000000000000000000000000000000000000000
-    new: 158d8bce4d7f0eb63d08af5aa65bbcbc056b72ac
-  - ref: refs/heads/v6.10/isi
-    old: 0000000000000000000000000000000000000000
-    new: ffc0067624717c5cde9fb669a1afe08dcc25545b
-  - ref: refs/heads/v6.10/isp
-    old: 0000000000000000000000000000000000000000
-    new: f1c6b44e109863f1d51525d9587b7eb53d35a0d0
-  - ref: refs/heads/v6.10/merge
-    old: 0000000000000000000000000000000000000000
-    new: 2b5bc9345e1ab220227f6255d8807c86f585114a
-  - ref: refs/heads/v6.10/metadata/v10/sensors
-    old: 0000000000000000000000000000000000000000
-    new: ff3365a135ffd521e46d34785434a664603d1d8d
-  - ref: refs/heads/v6.10/sensors/vcmipi
-    old: 0000000000000000000000000000000000000000
-    new: 640ca9ab4c7f9a40ca0dd31f35da79aa556934b1
+    new: 1c2a077117736d103302890c2fb85545bf8a7dd7
 
---===============4848859799252201651==
+--===============3404648228094004113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1719743420 +0300
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1719743478 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1719743439-d691ceb63ba555fc79b8ab56ec6605cda7e8ab2d
+nonce 1719743498-48610202999d5b9bc3498b8e77eecd937c186f8b
 
-0000000000000000000000000000000000000000 852e15af81e0ec06010e30cac29cbf02e199d7cf refs/heads/v6.10/backports
-0000000000000000000000000000000000000000 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 refs/heads/v6.10/base
-0000000000000000000000000000000000000000 852e15af81e0ec06010e30cac29cbf02e199d7cf refs/heads/v6.10/dt/base
-0000000000000000000000000000000000000000 25fb687fa1059c159bfffee1825997eb058109e8 refs/heads/v6.10/dt/debix
-0000000000000000000000000000000000000000 9248d24436b122b343fe71bb02bbb2555bbde9cc refs/heads/v6.10/dt/evk
-0000000000000000000000000000000000000000 23932a4c28ca97957a669247c6e78e59f77cac08 refs/heads/v6.10/dt/imx8mp
-0000000000000000000000000000000000000000 a2fc429611aa79c70fe416620c6da11dddf2a679 refs/heads/v6.10/dt/maivin
-0000000000000000000000000000000000000000 6f5447ab84e3943195677b95c59be2df8cfc2197 refs/heads/v6.10/dt/phytec
-0000000000000000000000000000000000000000 3fc303a2c5ac9a2580189a61a8a082e915459b8a refs/heads/v6.10/dt/rk3399
-0000000000000000000000000000000000000000 3ad137e41de398a3f333f944771d69367fdbeb7c refs/heads/v6.10/dt/variscite
-0000000000000000000000000000000000000000 158d8bce4d7f0eb63d08af5aa65bbcbc056b72ac refs/heads/v6.10/dt/verdin
-0000000000000000000000000000000000000000 ffc0067624717c5cde9fb669a1afe08dcc25545b refs/heads/v6.10/isi
-0000000000000000000000000000000000000000 f1c6b44e109863f1d51525d9587b7eb53d35a0d0 refs/heads/v6.10/isp
-0000000000000000000000000000000000000000 2b5bc9345e1ab220227f6255d8807c86f585114a refs/heads/v6.10/merge
-0000000000000000000000000000000000000000 ff3365a135ffd521e46d34785434a664603d1d8d refs/heads/v6.10/metadata/v10/sensors
-0000000000000000000000000000000000000000 640ca9ab4c7f9a40ca0dd31f35da79aa556934b1 refs/heads/v6.10/sensors/vcmipi
+0000000000000000000000000000000000000000 1c2a077117736d103302890c2fb85545bf8a7dd7 refs/heads/nxp/v6.10/dev/rpi-cam/next
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZoEzvCIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95k564BAJbzJ8jgZ6/K
-kY1NGwjLIIMoYfemBUR7f75ybjPy7taBAP49BnqEMY/xPWf+Y9jPEc7IZO+Gt05/
-S3tgHVZ+LBKAAQ==
-=+wPz
+iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZoEz9iIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kG5UBAK10yGvhqMPM
+AYQhprPE0yJfay/7pPakl/qD0FrTfHboAQDLT4/6oAupwBOQSHA+c32mhrZB4sSt
++njhzYjMuZP8Cw==
+=6mrE
 -----END PGP SIGNATURE-----
 
---===============4848859799252201651==--
+--===============3404648228094004113==--
