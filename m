@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2249807025094093400=="
+Content-Type: multipart/mixed; boundary="===============3184054677779997439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 30 Jun 2024 07:10:05 -0000
-Message-Id: <171973140523.20132.9454536955058850376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 30 Jun 2024 07:10:08 -0000
+Message-Id: <171973140891.20200.5656658016608834636@gitolite.kernel.org>
 
---===============2249807025094093400==
+--===============3184054677779997439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
     log: revlist-6ba59ff42279-f2661062f16b.txt
 
---===============2249807025094093400==
+--===============3184054677779997439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -358,4 +358,4 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 7c16f0a4ed1ce7b0dd1c01fc012e5bde89fe7748 Merge tag 'i2c-for-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 
---===============2249807025094093400==--
+--===============3184054677779997439==--
