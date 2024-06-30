@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1372832943500619214=="
+Content-Type: multipart/mixed; boundary="===============3453208966835292966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 30 Jun 2024 16:14:46 -0000
-Message-Id: <171976408666.6880.16858656935106227113@gitolite.kernel.org>
+Date: Sun, 30 Jun 2024 16:27:10 -0000
+Message-Id: <171976483011.16103.9754725406389602790@gitolite.kernel.org>
 
---===============1372832943500619214==
+--===============3453208966835292966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,32 @@ repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/heads/nfs-localio-for-6.11
-    old: 0f97d11d6ff9f9b27842892575c72293fdb39ca3
-    new: cc36c5be240c148f5797ca6ac55cf986a3a26a86
-    log: revlist-0f97d11d6ff9-cc36c5be240c.txt
+    old: cc36c5be240c148f5797ca6ac55cf986a3a26a86
+    new: 0a8110376861f8ad0773a794155f726ac3a58352
+    log: revlist-cc36c5be240c-0a8110376861.txt
 
---===============1372832943500619214==
+--===============3453208966835292966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f97d11d6ff9-cc36c5be240c.txt
+Content-Disposition: attachment; filename=revlist-cc36c5be240c-0a8110376861.txt
 
-7aeccec9d09ece80d77fe266b3ceff6d6e771bbb nfs_common: add NFS LOCALIO auxiliary protocol enablement
-326c708cb329c247ead24cc24b9c82f1ac45cd89 nfsd: add "localio" support
-1de23ed7c0b0a3df5f3813261a8d98c71af4a172 nfsd: add Kconfig options to allow localio to be enabled
-6f5f83a5daeb20879847a5015526f3b79309a5e3 nfsd: manage netns reference in nfsd_open_local_fh
-fef2bbb76c42ad6c70832ae1d373783b864d48b0 nfsd: use percpu_ref to interlock nfsd_destroy_serv and nfsd_open_local_fh
-98b81e573a6f84b9682e1a94752d71e30c679cef nfsd: implement server support for NFS_LOCALIO_PROGRAM
-1408067f2eb5ba440ed7bf6fc8e962ad8e91fcfc SUNRPC: replace program list with program array
-adf25e5956395f24904e26988606ed5d34da668f nfs: pass nfs_client to nfs_initiate_pgio
-008614d0329d835de3bf3d7a46cdd28af5eddff9 nfs: pass descriptor thru nfs_initiate_pgio path
-f8556266b76238e1af127057ff70282e2a6149e0 nfs: pass struct file to nfs_init_pgio and nfs_init_commit
-7cfc1c36dfbd5c7b21f6f178ce6b0655321c3e50 nfs: add "localio" support
-25415ffb7bdf85a61896bda8c1ffbe4c7f83e339 nfs: fix nfs_localio_vfs_getattr() to properly support v4
-49a2e2f7d49c2e27f313c5a9d099803f67583878 nfs: enable localio for non-pNFS I/O
-95cde98eb20c6d2ff168a61b2bd68bb01d2bffb3 pnfs/flexfiles: enable localio for flexfiles I/O
-cc473ef0da69b9c6992aaf8e0a1727c91d633056 SUNRPC: remove call_allocate() BUG_ON if p_arglen=0 to allow RPC with void arg
-a840180c9cc550e324ae45f6255866bf104ccb40 nfs: implement client support for NFS_LOCALIO_PROGRAM
-0bba74ce5e09544e06b4ec852c99cf1e562829f8 nfs: add Documentation/filesystems/nfs/localio.rst
-cc36c5be240c148f5797ca6ac55cf986a3a26a86 xfs: enable WQ_MEM_RECLAIM on m_sync_workqueue
+7290ecf502a9d34c8b106a0c36edf40bd1692350 nfsd: add "localio" support
+2959bef48109519f9c281ca730b79988858c5e6e nfsd: add Kconfig options to allow localio to be enabled
+1252550a6744dd24a972a90b1d78ba7b0c54046b nfsd: manage netns reference in nfsd_open_local_fh
+f7a3538d0d86f9f2c0495f6c6df0d327d7035ff3 nfsd: use percpu_ref to interlock nfsd_destroy_serv and nfsd_open_local_fh
+f614ca1a5d79694e40980a651e75ee1436e9070b nfsd: implement server support for NFS_LOCALIO_PROGRAM
+fc9ec2856f785808730b8e13754678dabdb3561f SUNRPC: replace program list with program array
+8a7a540d7f007367ad9aa18f4f952868866e98f1 nfs: pass nfs_client to nfs_initiate_pgio
+efe2c562dcd7552167148d415781efa0c2dd2e80 nfs: pass descriptor thru nfs_initiate_pgio path
+4619c70274149b66031cee1d0e796b81953d1c63 nfs: pass struct file to nfs_init_pgio and nfs_init_commit
+64b91061ff93a4323a0e1a2b04c375308dae8851 nfs: add "localio" support
+ec650960dfb96cde3376a7a70130bc20c09dfba6 nfs: fix nfs_localio_vfs_getattr() to properly support v4
+2e6097296f2b757799674f022c167a1bc68cfdee nfs: enable localio for non-pNFS I/O
+14d9a92f5fc96dc54013029a36d5a4fe544e3d60 pnfs/flexfiles: enable localio for flexfiles I/O
+fd1277e2a0400bb77070d600d9311f7838bba745 SUNRPC: remove call_allocate() BUG_ON if p_arglen=0 to allow RPC with void arg
+2eeb07fe5e28f1956b2ca3d9f2f8919a01f93c7b nfs: implement client support for NFS_LOCALIO_PROGRAM
+1f8f6312882cbc25b5ec1917fe251c555bf848bb nfs: add Documentation/filesystems/nfs/localio.rst
+0a8110376861f8ad0773a794155f726ac3a58352 xfs: enable WQ_MEM_RECLAIM on m_sync_workqueue
 
---===============1372832943500619214==--
+--===============3453208966835292966==--
