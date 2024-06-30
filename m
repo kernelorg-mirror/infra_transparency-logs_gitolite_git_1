@@ -1,54 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6447251895829581974=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sun, 30 Jun 2024 21:32:40 -0000
-Message-Id: <171978316097.11018.3788970097048354706@gitolite.kernel.org>
-
---===============6447251895829581974==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 30 Jun 2024 21:46:41 -0000
+Message-Id: <171978400113.22069.2027793809690267538@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/nxp/v6.10/dev/rpi-cam/next
-    old: c5fbea0f88623c0f79db081776577ff8ae921791
-    new: 54f046f697ffea18075681e9ffdd59e547dcb014
+  - ref: refs/heads/master
+    old: e0b668b070348c36e0ab83af12987b6390f9ec26
+    new: 22a40d14b572deb80c0648557f4bd502d7e83826
     log: |
-         983c37ffb9af9e88b97579564d09377635f32df1 media: i2c: Add a driver for the onsemi AR0144 camera sensor
-         5ef9d41aa336e77173b2e24fbf8aea371f64858c media: i2c: ar0144: Add support for the parallel interface
-         06b530c5c6040f98f75b53d95663062f0e5f97aa media: i2c: ar0144: Add internal image sink pad
-         6f8af0af9fc9d8a691177659246a9f2f51e3c8b5 media: i2c: ar0144: Add image stream
-         515ec527ac84fd090f37a9d94a733591356dd874 media: i2c: ar0144: Report internal routes to userspace
-         5ce81815d7199c1bbf232fd561eae1ed337bad10 media: i2c: ar0144: Add embedded data support
-         371275adb1eb56aed0022c1222491e17f946d400 media: v4l: ctrls: Add a control for companding
-         54f046f697ffea18075681e9ffdd59e547dcb014 media: i2c: ar0144: Add support for companding
+         1066fe825987da007669d7c25306b4dbb50bd7dd ata: libata-core: Add ATA_HORKAGE_NOLPM for all Crucial BX SSD1 models
+         5d92c7c566dc76d96e0e19e481d926bbe6631c1e ata: libata-core: Fix null pointer dereference on error
+         f6549f538fe0b2c389e1a7037f4e21039e25137a ata,scsi: libata-core: Do not leak memory for ata_port struct members
+         ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on error
+         eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
+         aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+         22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
          
-
---===============6447251895829581974==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1719783133 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1719783152-e2e4f9766e7eec47224dba776f3ebd96062b3fca
-
-c5fbea0f88623c0f79db081776577ff8ae921791 54f046f697ffea18075681e9ffdd59e547dcb014 refs/heads/nxp/v6.10/dev/rpi-cam/next
------BEGIN PGP SIGNATURE-----
-
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZoHO3SIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kxLwBAJ1OQFHaJKSv
-1pX/DAxwLYnEAb2oT1jnVR0iinS5VgTIAQCgWkJMLRHfP+EUWXKnysv3zeNZndDA
-4lvd9lVDal3cCA==
-=MolB
------END PGP SIGNATURE-----
-
---===============6447251895829581974==--
