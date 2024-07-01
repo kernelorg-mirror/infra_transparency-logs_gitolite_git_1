@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7604454739686920883=="
+Content-Type: multipart/mixed; boundary="===============5256601971775210547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 01 Jul 2024 11:56:27 -0000
-Message-Id: <171983498764.27671.17700144416049246271@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 11:56:35 -0000
+Message-Id: <171983499524.27801.4571946850987012040@gitolite.kernel.org>
 
---===============7604454739686920883==
+--===============5256601971775210547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+  - ref: refs/heads/char-misc-linus
+    old: 06ebbce9c3a84e5632fa3cd0864ce07093793e32
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-6ba59ff42279-22a40d14b572.txt
+    log: revlist-06ebbce9c3a8-22a40d14b572.txt
 
---===============7604454739686920883==
+--===============5256601971775210547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719834987 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719834994 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1719834986-6598324fbc86b56e84fd20ec4b9a07836b578cd3
+nonce 1719834992-fff56c467025a53303c5ccb62b1fe5952df94ca8
 
-6ba59ff4227927d3a8530fc2973b80e94b54d58f 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/main
+06ebbce9c3a84e5632fa3cd0864ce07093793e32 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmWsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oxEP/j/lebv/f9uOzXXwVvP/
-zn5ZRNOlufAF+zf4ZjNBlc8nV6dN42gmlxF9v4aG4nExJi1EoJ9QNe1FUAwL4q1y
-Ee+IiLItDOUesg/ghwxMNiQ8lIOTdgXKl9d6+CAUWSdbXhO0rSZYuydHcKcsV1+N
-gFjNR5kiPYJ5bGj7kX27L+D5SbK+0iR8JkZtCbZOHb1DzqBRC1gqZhdZbwxaHYD4
-gnpWIf6t9T+/YcSYSC4k/6zJRK38fARW55fxUn/Fo0+XEfPOo331vJ9kY4NoqT2q
-iyDbT9rbTpnWGcn4DTYtdmPp79lHGrjJn4qcceTqaemiR/0LQpD122HPm2Qwtt0N
-oE6L+K1J3LKHwaygMou9yZUdNPV81e8gXvtkkSs1bZOTzakARrflVWkSrMSVbXg/
-GM4XgeQMrgARQXecMy/NpJxmiEaF9LnMbo6nlxrsvg+2gv3E777+qJXmWKifFrU7
-9hh6iIgzVlsMD3zMW/W0jgK/W2N9gWWSAoc+xmiVvPhZvV6Je7HvDG/kOq+up4Sy
-IS2Tb3v3R147ete/D5TIUwSef1aX1wMpdweidee6X9ZwqtjL5p0h7Bpt61rTnkaN
-G4t0R1AJXWKYQEArtimmCVihvmIyGADySWR6Z+rxo133r54mBM5lu8wvMa0aK1QL
-w5E3XzQ8jt17JNpb4Xu2qQ05
-=SyS2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmXIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+obkQAKnH49Prqos/NqY7vkMm
+oif6xIYrb0JN96dfvjmObSf44rIknTQHNJmvKatNcA5+0DgLteW1QfuTBjv4hiSS
+Yek61m40dy43u29/VtlUxAGoSUm/BmBdaT/EWYPHUb/SdeK4MTn6ZaUR9MdJvaAZ
+Krf/woiD4VR18iUtVsubHBJoZSow5mHqAQy1xITFn1NiPs6uww20erC2OOXwK8l9
+DXv458P8hyGeqdGA4wDGcbx5s2rohJU8KIP1OAJ7HH17zcuGJgPMhRK1Fm9shFbt
+BurM4V8nS4WCxvMFyAZet7YlmP/zftEBwZPBTTs+jNgMtop+45Fxbm2fgNN8bzd/
+v40bi9/uwiAIW9ZgOQl128LKsRlwh4tVL5BU5YEVQj1ObUUTJAQwNoG7qlLp/3TX
+SRrbCqMg1DAHMTDfGX1ltFTNe8GoRmfawtCcofHK21Hcf2eVkfuPNRnjPfz4/TT4
+YijojEkbzVAsClwVVe9jMwusbVw9UKB3K/hdSbFOxb5eexouSNPnLpzK4c20cAUN
+7hFbhgXN6yYPeSFHTwItYJ6EOXu99HEy7R5bLT0hRZ0S5/xQgjeDYc1thn4hfa7Z
+YCNCLoK77oIsZwh0QOqY23WVyNRQ5CQVALuNcjWad4N6jhWpc3BRFNGPyhV1v88A
+ZLPdEn7JVnKRPfwnVkLoculD
+=xAKu
 -----END PGP SIGNATURE-----
 
---===============7604454739686920883==
+--===============5256601971775210547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba59ff42279-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-06ebbce9c3a8-22a40d14b572.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -109,16 +109,7 @@ f7d3b1ffc654b0435ac2c9c02a72fb2752bdb0fd yama: document function parameter
 462237d2d93fc9e9221d1cf9f773954d27da83c0 dmaengine: xilinx: xdma: Fix data synchronisation in xdma_channel_isr()
 9f0fad0382124e7e23b3c730fa78818c22c89c0a Input: ili210x - fix ili251x_read_touch_data() return value
 cee77149ebe9cd971ba238d87aa10e09bd98f1c9 Input: xpad - add support for ASUS ROG RAIKIRI PRO
-89b898c627a49b978a4c323ea6856eacfc21f6ba iio: xilinx-ams: Don't include ams_ctrl_channels in scan_mask
-a2b86132955268b2a1703082fbc2d4832fc001b8 iio: adc: ad7266: Fix variable checking bug
-a821d7111e3f7c8869961b606714a299bfe20014 iio: accel: fxls8962af: select IIO_BUFFER & IIO_KFIFO_BUF
 f67ac0061c7614c1548963d3ef1ee1606efd8636 RDMA/rxe: Fix responder length checking for UD request packets
-75183e461ce033605c3e85518a9f3d4e4ef848a3 iio: dac: fix ad9739a random config compile error
-9547d6a4c65e975e40e203900322342ef7379c52 iio: humidity: hdc3020: fix hysteresis representation
-ae1f7b93b52095be6776d0f34957b4f35dda44d9 iio: chemical: bme680: Fix pressure value output
-b47c0fee73a810c4503c4a94ea34858a1d865bba iio: chemical: bme680: Fix calibration data variable
-fdd478c3ae98c3f13628e110dce9b6cfb0d9b3c8 iio: chemical: bme680: Fix overflows in compensate() functions
-4241665e6ea063a9c1d734de790121a71db763fc iio: chemical: bme680: Fix sensor data read operation
 97ab304ecd95c0b1703ff8c8c3956dc6e2afe8e1 ASoC: topology: Fix references to freed memory
 fd660b1bd015e5aa9a558ee04088f2431010548d ASoC: Intel: avs: Fix route override
 daf0b99d4720c9f05bdb81c73b2efdb43fa9def3 ASoC: topology: Do not assign fields that are already set
@@ -261,7 +252,6 @@ da2c8fef130ec7197e2f91c7ed70a8c5bede4bea NFSD: grab nfsd_mutex in nfsd_nl_rpc_st
 44b7f7151dfc2e0947f39ed4b9bc4b0c2ccd46fc bpf: Add missed var_off setting in coerce_subreg_to_size_sx()
 a62293c33b058415237c55058a6d20de313a2e61 selftests/bpf: Add a few tests to cover
 bfbcb2c9d2978a28e9f0a77100170dc14fcf7c79 Merge branch 'bpf-fix-missed-var_off-related-to-movsx-in-verifier'
-8fe050e94daeb0280338d04ff8c6207dea44ddfc Merge tag 'iio-fixes-for-6.10b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 6226e74900d7c106c7c86b878dc6779cfdb20c2b Merge tag 'hyperv-fixes-signed-20240616' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 1ab1a422c0daedbd76f9f25c297eca48986ddea0 MAINTAINERS: Update entries for Kees Cook
 9570a48847e3acfa1a741cef431c923325ddc637 nvme: fix NVME_NS_DEAC may incorrectly identifying the disk as EXT_LBA.
@@ -483,7 +473,6 @@ d6c941570680d4d11e5c7480c3bcbeff8d3860f9 Merge tag 'drm-fixes-2024-06-22' of htt
 31392048f55f98cb01ca709d32d06d926ab9760a vxlan: Pull inner IP header in vxlan_xmit_one().
 a38b800db8506e874631df96d827e02fd9cd9e4f Merge tag 'linux-can-fixes-for-6.10-20240621' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 2ea8a02a35ed627fd5d91c765b78718ef5d330fc Merge tag 'batadv-net-pullrequest-20240621' of git://git.open-mesh.org/linux-merge
-0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
 d18b822c8f622ed37af7130088a0b7f1eb0b16e6 docs: i2c: summary: start sentences consistently.
 75d148c90a34b94a3e3e7e7b2f30a689d8fbb7c8 docs: i2c: summary: update I2C specification link
 a5b88cb9fdff337a2867f0dff7c5cd23d4bd6663 docs: i2c: summary: update speed mode description
@@ -536,7 +525,6 @@ f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 6434b33faaa063df500af355ee6c3942e0f8d982 s390/sclp: Fix sclp_init() cleanup on failure
 058722ee350c0bdd664e467156feb2bf5d9cc271 net: usb: ax88179_178a: improve link status logs
 996c3412a06578e9d779a16b9e79ace18125ab50 drm/i915/gt: Fix potential UAF by revoke of fence registers
-06ebbce9c3a84e5632fa3cd0864ce07093793e32 Merge tag 'counter-fixes-for-6.10' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 d56fbfbaf592a115b2e11c1044829afba34069d2 platform/mellanox: nvsw-sn2201: Add check for platform_device_add_resources
 7aa9b96e9a73e4ec1771492d0527bd5fc5ef9164 gpio: davinci: Validate the obtained number of IRQs
 151e78a0b89ee6dec93382dbdf5b1ef83f9c4716 platform/x86: wireless-hotkey: Add support for LG Airplane Button
@@ -744,4 +732,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============7604454739686920883==--
+--===============5256601971775210547==--
