@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 01 Jul 2024 15:13:44 -0000
-Message-Id: <171984682413.22436.14443124320483821569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 01 Jul 2024 15:13:48 -0000
+Message-Id: <171984682842.22513.4654331146035744766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/fileHn6wnB
-    old: 878f4c36f9235e8a15fe0c2ecde066d92c50c8ff
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 5b747c23f17d791e08fdf4baa7e14b704625518c
+    new: 2382a405c581ae8f39f898055654e2000e7dd0d3
+    log: |
+         d1a426171d76b2cdf3dea5d52f6266090e4aa254 bpf: Use precise image size for struct_ops trampoline
+         9f1e16fb1fc9826001c69e0551d51fbbcd2d74e9 riscv, bpf: Fix out-of-bounds issue when preparing trampoline image
+         2382a405c581ae8f39f898055654e2000e7dd0d3 riscv, bpf: Use bpf_prog_pack for RV64 bpf trampoline
+         
