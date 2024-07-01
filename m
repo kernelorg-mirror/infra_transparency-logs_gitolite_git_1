@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 01 Jul 2024 01:47:41 -0000
-Message-Id: <171979846114.7802.15868118927710818843@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 01:52:17 -0000
+Message-Id: <171979873780.11094.3277553205998304046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,14 @@ repo: pub/scm/utils/dtc/dtc
 user: dwg
 changes:
   - ref: refs/heads/main
-    old: ff4f17eb58650784ffb2e8a8fbefebce1038f80b
-    new: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
+    old: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
+    new: d54aaf93673c78669468737f1cbc1b465d6adfa0
     log: |
-         7b8a30eceabe7d8828d082c1bfe2458423bbac2f pylibfdt: fix Python version
-         ab86f1e9fda819a920d4243005bf282c0d7b5f4a pylibfdt: add VERSION.txt to Python sdist
+         d54aaf93673c78669468737f1cbc1b465d6adfa0 pylibfdt: clean up python build directory
          
   - ref: refs/heads/master
-    old: ff4f17eb58650784ffb2e8a8fbefebce1038f80b
-    new: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
+    old: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
+    new: d54aaf93673c78669468737f1cbc1b465d6adfa0
     log: |
-         7b8a30eceabe7d8828d082c1bfe2458423bbac2f pylibfdt: fix Python version
-         ab86f1e9fda819a920d4243005bf282c0d7b5f4a pylibfdt: add VERSION.txt to Python sdist
+         d54aaf93673c78669468737f1cbc1b465d6adfa0 pylibfdt: clean up python build directory
          
