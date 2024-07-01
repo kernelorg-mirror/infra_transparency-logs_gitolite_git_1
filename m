@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6736332077734086539=="
+Content-Type: multipart/mixed; boundary="===============2161391111752908800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 01 Jul 2024 15:41:52 -0000
-Message-Id: <171984851225.13581.11684703391671096991@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 15:41:54 -0000
+Message-Id: <171984851465.13662.5891668281426443931@gitolite.kernel.org>
 
---===============6736332077734086539==
+--===============2161391111752908800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 748e3bbf47212d5e2e22d731328b0c15ee3b85ae
     new: 74d6529b78f7a440a10aa7f4904ca9f27d1d2f3c
     log: revlist-748e3bbf4721-74d6529b78f7.txt
 
---===============6736332077734086539==
+--===============2161391111752908800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ ba0155f1e9fca8e5c59c840cf5451101b8360fe6 bnxt_en: Allow some TX packets to be un
 f61c72be2dc5880bcba6a467cda5e6059e885eb3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue into main
 74d6529b78f7a440a10aa7f4904ca9f27d1d2f3c net: ethtool: Fix the panic caused by dev being null when dumping coalesce
 
---===============6736332077734086539==--
+--===============2161391111752908800==--
