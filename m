@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4685039431720888757=="
+Content-Type: multipart/mixed; boundary="===============7222251444316445986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 01 Jul 2024 16:07:46 -0000
-Message-Id: <171985006672.881.2443289619590912048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 01 Jul 2024 16:07:52 -0000
+Message-Id: <171985007278.1018.16089566817609220565@gitolite.kernel.org>
 
---===============4685039431720888757==
+--===============7222251444316445986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 68f97fe330e01450ace63da0ce5cab676fc97f9a
     new: 2163aff6bebbb752edf73f79700f5e2095f3559e
     log: |
@@ -26,28 +26,28 @@ changes:
          2163aff6bebbb752edf73f79700f5e2095f3559e firmware: cs_dsp: Prevent buffer overrun when processing V2 alg headers
          
 
---===============4685039431720888757==
+--===============7222251444316445986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1719850065 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1719850064-772917138cfe2fa851bb7d7309fbaf5eafccb5bf
+pusher C3F436CA30F5D8EB 1719850071 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1719850070-ded685e538f33a308d1d16e5dc19b76a866ced46
 
-68f97fe330e01450ace63da0ce5cab676fc97f9a 2163aff6bebbb752edf73f79700f5e2095f3559e refs/heads/for-6.10
+68f97fe330e01450ace63da0ce5cab676fc97f9a 2163aff6bebbb752edf73f79700f5e2095f3559e refs/heads/asoc-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaC1FEACgkQJNaLcl1U
-h9CjHAf/ThRJnTrchyTLLf6SOioYw0MtFodi0cCwGJy47o3zx8n1ynqLdfKUWGXW
-b97xnUZNReiEyfeV8oflf71G10upvNvblOWs+STmIsyY3B0rATvvT5STlcoddCFI
-92MshGTGInerVLocGRMfPMxrcgWHJbDSeDI47GSQgHf0Yd+HlTtyLvxw/oLN4IoI
-28r+ZEpK9fkROnxi1Vqit0wffm/dEYM4ecd8uUZPwVQ9Vn1fZp8N650iShOWPf6R
-HaXdpbSR27IzWpIHhe+9CEGD2YL1KkQMiohEHzabS/u9RZpzqbuFpsKvk6JLkQPP
-Ul/qV+rFkyfPfrMu1/CA/NOdOMa4hw==
-=Nr7F
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaC1FcACgkQJNaLcl1U
+h9A1Swf/f6k49DKZq7mp9ZQuAc52PPvDofpbxaAENMeAx+rr5qAl6DtvJKof1vpX
+3fVXUkmLdZ4D2sL5kTERusNTZpKpK64sokgNBT1xdRqFX8zrmNGcdO8VWiICK092
+Fgm3q5uiQdyDRi621vuUkjQXyVqcoAeJdkn2z0lhsPKwobyLbMa7Qg+sdDHyymcA
+RKyb7sUaenZ3UxejYQMc1eob/0uj9BPzZ5hyn/bfx6OV1C4gIFwjznv1cmhj2Tw7
+uf6EfYNeIGNxSuBnw8ilswLHG/Za+wbwrZnTOnzBzwP1DwDhHpPgpBnKugmN/pPh
+sHiCNY0LGvidzDdKMa/J7hSTnVHPHw==
+=xGYC
 -----END PGP SIGNATURE-----
 
---===============4685039431720888757==--
+--===============7222251444316445986==--
