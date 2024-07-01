@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4938649762243977506=="
+Content-Type: multipart/mixed; boundary="===============3300124561081215823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 01 Jul 2024 12:24:00 -0000
-Message-Id: <171983664088.17064.4155693134384254047@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 12:24:22 -0000
+Message-Id: <171983666227.17284.16701443002560881937@gitolite.kernel.org>
 
---===============4938649762243977506==
+--===============3300124561081215823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 156872f08e33af7a23c1e4827f6127d7861b23fd
-    new: 75d3891ca19efe82392aa5e2810334979075a87a
-    log: |
-         f70065a9fd988983b2c693631b801f25a615fc04 m68k: atari: Fix TT bootup freeze / unexpected (SCU) interrupt messages
-         75d3891ca19efe82392aa5e2810334979075a87a m68k: defconfig: Update defconfigs for v6.10-rc1
-         
-  - ref: refs/heads/master
-    old: bdf4cd121bfdde0794b391c3aa9382ec8bd2f426
-    new: 6f44965e59fc53459d6ee658255be9705fbbd458
-    log: revlist-bdf4cd121bfd-6f44965e59fc.txt
+  - ref: refs/heads/m68k-queue
+    old: f9d408350053ffa4f4968becd2cdb947aa15b752
+    new: 6c4cdd35c889ba6d19b4dbe1700aa4a6dacb71a0
+    log: revlist-f9d408350053-6c4cdd35c889.txt
 
---===============4938649762243977506==
+--===============3300124561081215823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdf4cd121bfd-6f44965e59fc.txt
+Content-Disposition: attachment; filename=revlist-f9d408350053-6c4cdd35c889.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -388,7 +381,12 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
-3d99ccc69345ef3e38df1b7e6cac6c06d53e0f8e Merge tag 'v6.10-rc6'
-6f44965e59fc53459d6ee658255be9705fbbd458 m68k: atari: Fix TT bootup freeze / unexpected (SCU) interrupt messages
+2a14dfefe33ce7f4e760b354b65d3876406eba3c m68k: amiga: Turn off Warp1260 interrupts during boot
+7870e4d17d22286924a64c5278cd926bc550c4c9 m68k: emu: Add missing MODULE_DESCRIPTION() macros
+f3527b5cd749a3aa86188e3eed2bfabd6c5cb6ff zorro: Use str_plural() in amiga_zorro_probe()
+6aba6cff816b12c8865f2562d40e53584b099be9 m68k: atari: Fix TT bootup freeze / unexpected (SCU) interrupt messages
+31bd9e8f86c300798eecdf79c7e40789f9eea54b m68k: atari: usb: Add ISP1160 USB host controller support
+a23b7b7d8d61b60aad3bbe76717fbc214bdb8b3f m68k: atari: Update Kconfig.bus help text
+6c4cdd35c889ba6d19b4dbe1700aa4a6dacb71a0 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4938649762243977506==--
+--===============3300124561081215823==--
