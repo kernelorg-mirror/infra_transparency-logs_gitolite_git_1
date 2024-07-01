@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8523035099257771199=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 01 Jul 2024 12:09:56 -0000
-Message-Id: <171983579644.5949.11901755129692134483@gitolite.kernel.org>
-
---===============8523035099257771199==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Mon, 01 Jul 2024 12:13:29 -0000
+Message-Id: <171983600946.8906.1444318815082883547@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/tags/tty-6.10-rc6
-    old: dc32c0c9f80ffb02a29f5c63d4bdba664c365b84
-    new: 0000000000000000000000000000000000000000
-
---===============8523035099257771199==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719835796 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1719835795-a9cbc529c562d0394ac3bd16917bb3f87319e526
-
-dc32c0c9f80ffb02a29f5c63d4bdba664c365b84 0000000000000000000000000000000000000000 refs/tags/tty-6.10-rc6
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnJQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e48QAIkh18T830R2RDCzCkwe
-Vz7Tzvv1mDtztcFceMmreNUCMuHJsykK2QDQb7aBKGZNS1d8nHqGfhO4+R0juUpb
-gshrnAGx5qszoAVXNJUz4fFYQiKU4ZnsImcVyu4r1XquKI45t0KUS3YBhdGNWSgG
-ZVPeURaWDnuv9oP49KQWcqNv7OdwAwLVKARX8vxRs3EHk3606U3g+Qp80LH6FVk3
-V7SeOYpUtShS8nLrcGJHLDd0zjxPO81rbcYrFR81lILxcb9Z2owwWHFT3FcNiNNZ
-ctAtc2IAbmhMuaHMZjkqYOXM5vfecCcWfz2JxBDkXB4BracakCmJZWVrmfZN9Z6S
-YCbuyUEBkBxZAdOLfzJo5iSqcZHG8415YrV1qDPy/zfkKo3WFX/1qRFLgotWysk7
-FTT47fyGt6WXZ6wZ4j1JRi9BF05iLzkbhtyb0N7kYzepj7dEetDBK8nFFI4DkYOM
-6vqUD0F2xo3bKZRQDQ1m1RPp66c0T1P/q43cJXBAEmhIrFMIAXAcz7xujiZ2UwPc
-lJfXiwV7/OjoHDEeovCYa44i6r63ECEV/Mkzba7obVDc6Mh7l9jD/LCxfr8RLTtw
-7NrMFlXKxMvnb5dvTsIkwuDHJqMWef66zs2eUukD6xnD+38fGKFiUMevgklhwlqy
-S+SWPo/z05dvYYMNboEnooWZ
-=F6lg
------END PGP SIGNATURE-----
-
---===============8523035099257771199==--
+  - ref: refs/heads/main
+    old: 2e7b471121b09e7fa8ffb437bfa0e59d13f96053
+    new: f61c72be2dc5880bcba6a467cda5e6059e885eb3
+    log: |
+         28cf7829a77fdd0597edb3978bebeb1f8f245b72 MAINTAINERS: update Intel Ethernet maintainers
+         4dbb4f9b8fc679fb6c3db79989f64946fc7ff789 ice: Add get/set hw address for VFs using devlink commands
+         d47bf9a495cf424fad674321d943123dc12b926d ice: Check all ice_vsi_rebuild() errors in function
+         7dfefd0b90488da91de125f7383f966e58bcb034 ice: Allow different FW API versions based on MAC type
+         fdd288e9b7647557c51a28e72fd1003e3a9bf906 ice: Distinguish driver reset and removal for AQ shutdown
+         0f0023c649c7bc50543fbe6e1801eb6357b8bd63 ice: do not init struct ice_adapter more times than needed
+         f61c72be2dc5880bcba6a467cda5e6059e885eb3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue into main
+         
