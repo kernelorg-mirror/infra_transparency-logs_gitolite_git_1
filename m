@@ -1,70 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8458048835238783274=="
+Content-Type: multipart/mixed; boundary="===============3960442810703146367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 01 Jul 2024 14:27:25 -0000
-Message-Id: <171984404555.16485.3195430447022249042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 01 Jul 2024 14:28:06 -0000
+Message-Id: <171984408615.16836.13801580559532329029@gitolite.kernel.org>
 
---===============8458048835238783274==
+--===============3960442810703146367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 87eab3bd3ac44c28f36d142fc3b8a92a2ddd6294
-    new: 18fa4217da6961a24364775b7237dbbf3fdc3e40
-    log: revlist-87eab3bd3ac4-18fa4217da69.txt
+  - ref: refs/heads/master
+    old: d050e5db34951c6a9b1faa803792aecbb6fe32e6
+    new: d575793d770c828d1462a5b5d84d32b8db2fd76b
+    log: |
+         d575793d770c828d1462a5b5d84d32b8db2fd76b 6.9-stable patches
+         
 
---===============8458048835238783274==
+--===============3960442810703146367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87eab3bd3ac4-18fa4217da69.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ddabb3ce3f908a40d0f154defcf5ed327537d0ff arm64: dts: freescale: add TQMa8MPQL on MBa8MP-RAS314
-ee39dbd9a6cbd07a9297693f599e22eb0d34c30c arm64: dts: imx8dxl-evk: add imx8dxl_cm4, lsio mu5, related memory region
-106f68fc9da3d4835070b55a2229d2c54ef5cba1 arm64: dts: imx8mp: Fix pgc_mlmix location
-3343ab4cc698e8f32b360fed610da5d3c0dbeb50 arm64: dts: freescale: imx8m*-venice-*: fix gw,gsc dt-schema warnings
-2a93ce597484a927b14bcb611ffc6b0b47af2683 arm64: dts: imx8mm-venice-gw700x: add support for PHY LED's
-fdf7a55d3f499adfb7b66f644fc1ddca83ffeaca arm64: dts: imx8mp-venice-gw702x: add support for PHY LED's
-9f05b20ceedee5df991db1681d9806935b1fd099 arm64: dts: imx8mp-venice-gw74xx: add DP83867 configuration
-2f8405fb077bcb8e98c8cd87c2a0a238b15d8da8 arm64: dts: imx8mp: Fix pgc vpu locations
-d77a66c54013a14be511df70cab0b9c01c738b80 Merge tag 'imx-fixes-6.10' into imx/dt64
-9684ba497754383c47e342b8bc05538f7b57de44 arm64: dts: imx93-11x11-evk: fix duplicated lpi2c3 labels
-16d41d987f32a41b6fa2d47ae4b0239e8abbaabc arm64: dts: imx93-11x11-evk: reorder lpi2c2, lpi2c3, mu1 and mu2 label
-227b474081d35da895948d79758c89aeef7d6beb arm64: dts: fsl-ls1043a-rdb: use common spi-cs-setup(hold)-delay-ns
-d9c34491268880775334032aa48c3157eef7ed1b arm64: dts: imx95: add '#address-cells' and '#size-cells' for all i2c
-3b1d5deb29ffdc2f4fa7db1e25f7ca3af9d375a2 arm64: dts: imx95: add pcie[0,1] and pcie-ep[0,1] support
-9ceb5cb24d36613edb0165686dfd6ea465b81f28 arm64: dts: imx95-19x19-evk: add lpi2c7 and expander gpio pcal6524
-418ecfca8b115935696121efa0fa018bec496f68 arm64: dts: imx95-19x19-evk: add PCIe[0,1] support
-14949fe3f79945957e33dee6de75e3f475ac3308 arm64: dts: imx8qxp-mek: Pass memory-region to the DSP node
-45c5e504b34d36b05ced8a4aefa6532e838b0c6a arm64: dts: layerscape: rename node 'timer' as 'rtc'
-b26f63cf5b088253a0baac744fe2f222f8a9c01e arm64: dts: layerscape: add platform special compatible string for gpio
-9ba8e6c55f1c45b8814b3a449260d9798dd6b4d0 arm64: dts: fsl-lx2160a: fix #address-cells for pinctrl-single
-b4ce7305f804b3ced9e70960cd7b8db47a7a6fd4 arm64: dts: fsl-ls1012a: remove property 'snps,host-vbus-glitches'
-6fc79a90a7498330eb4f10ccb1122a7b9762fcc1 arm64: dts: layerscape: replace node name 'nor' with 'flash'
-04b22497dfafde06bf007cbd226ce27ab187b4a2 arm64: dts: layerscape: remove compatible string 'fsl,fman-xmdio' for fman3
-327d71aa59bdf8400f909e35183f74f2c7cfa660 arm64: dts: layerscape: add #dma-cells for qdma
-cfd95678a6fc814f16c16e6dd62934d5c3528ab5 arm64: dts: layerscape: rename node name "wdt" to "watchdog"
-7dcd914ba1e3caff3ddf2ac1123fd2651a676a17 arm64: dts: layerscape: change pcie interrupt order
-8cd751f27ade9edb099a58d4fea4f9c15ca483ba arm64: dts: layerscape: rename aux_bus to aux-bus
-dcb38239320fd19432b70679a9b0c52af6da6782 arm64: dts: fsl-ls1043a: remove unused clk-name at watchdog node
-a1107e7c8823b88b17c8d71e36e325cca66ccd1b arm64: dts: fsl-ls1046a: rename thermal node name
-8b898acb51da6e13e8b42a269f72097e07ca1cdf arm64: dts: layerscape: rename b(q)man-portals to b(q)man-portals-bus
-037ee58e0ae5bc48e770c2256dc06d6a82ade428 arm64: dts: imx8mp: Do not reconfigure Audio PLL2 on DH i.MX8M Plus DHCOM SoM
-a38d101e46080fd32135b139d8eafb778a214f68 arm64: dts: imx8mp: Update Fast ethernet PHY MDIO addresses to match DH i.MX8MP DHCOM rev.200
-29c4d4c54cdd7aeb9dceb4274dbbfb9b687f442a arm64: dts: imx8mp: Add audio XCVR device node
-710bdbee25893a838c22a217a6be98c78d241ff5 arm64: dts: imx8mp-evk: Add audio XCVR sound card
-9db27bc55bd8363570c5a259ff4dc77bd6a0b2cd arm64: dts: imx8mm-verdin: add TPM device
-5bdb097936aa0afb7285254caffe0baa3128b4a2 Merge branch 'imx/soc' into for-next
-61c9b79f4bb49f23bca648db69206aa44af3f53a Merge branch 'imx/bindings' into for-next
-505415788af899e73d4f3bda28d351fca87f0af9 Merge branch 'imx/dt' into for-next
-9774959bc53afe97e0ac35773f7ead5c7d7c1eb0 Merge branch 'imx/dt64' into for-next
-18fa4217da6961a24364775b7237dbbf3fdc3e40 Merge branch 'imx/defconfig' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719844084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1719844080-bb2fefcd6d69cae52b4dba1529de046abb1ca369
 
---===============8458048835238783274==--
+d050e5db34951c6a9b1faa803792aecbb6fe32e6 d575793d770c828d1462a5b5d84d32b8db2fd76b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCvPQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eOwP/jI+ImgpyIBa8JjuzpY1
+OzOWYKQbOOSW9glSLk/YIkZIopoCM1HuQqtJjbrX17f3fN6gpRfIQJ45c2ckCZXA
+P8uRurniVJ4FdJrNPwqMjFz9KpWH7serr/otzLcjn3a/pFCLCCe0gZGo5q3ldZUS
+DC18lmmzjoyY7QexGjiEv6wvNsuyAh0OrrXZcqOgwXxLxuECZGXC4gtMGMvC3MVv
+IQoCuNDwdLyuICRSirXSxhKLRs56+dRW3K/rwYiYrWRR1OjJK+4+zxoqbiPOQLCF
+RdkcGs5BfPblccBmc9iuvrM5rBnCN1VIInn9eMBUxmGdy2gUkIfsLveCgOyGFPl0
+7Zx71+LF1r9P41ciuerwQa6BGn9juIDfcbB5hAcJmK7ZGTxktMr1SuDi0Ay93jry
+72/hOle8u/r1sgUHzxpAECBmtPeJhr9fE6XlYty8NwTlZS3Xc7AFLsF+hBLnIAgl
+JDMtUMVdTyW3htIQUSsl0N6MW7WlphV1SVuDWaNOoH4qr+G2+zFJaPC9JhTdC/Qn
+4D1hKeWT7Je6IQ9Vd+ySe/r58XO20wFaUV70mY5BNgPdFhjP7dKO+XWMoJyAgL4B
+yDzns5dhAIq3SwZazqC+zGWRfZNKxVzORyht3KXZIBd3B6Q31Jyp5wYObIr1GuYC
+xsq8TN2dgPWSCCrxLxykPYfg
+=TxGj
+-----END PGP SIGNATURE-----
+
+--===============3960442810703146367==--
