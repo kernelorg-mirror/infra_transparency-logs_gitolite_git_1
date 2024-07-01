@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1753409846992376792=="
+Content-Type: multipart/mixed; boundary="===============6007615813176938513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 01 Jul 2024 15:30:03 -0000
-Message-Id: <171984780370.3376.16246334903750983276@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 15:30:06 -0000
+Message-Id: <171984780610.3939.14285904868643076946@gitolite.kernel.org>
 
---===============1753409846992376792==
+--===============6007615813176938513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: dc6be0b73f4f55ab6d49fa55dbce299cf9fa2788
     new: 42391445a86393bdb36b4148971f14a4aa5d97f9
     log: revlist-dc6be0b73f4f-42391445a863.txt
 
---===============1753409846992376792==
+--===============6007615813176938513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ f1a8f402f13f94263cf349216c257b2985100927 Bluetooth: L2CAP: Fix deadlock
 66be40e622e177316ae81717aa30057ba9e61dff tcp_metrics: validate source addr length
 42391445a86393bdb36b4148971f14a4aa5d97f9 Merge tag 'for-net-2024-06-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth into main
 
---===============1753409846992376792==--
+--===============6007615813176938513==--
