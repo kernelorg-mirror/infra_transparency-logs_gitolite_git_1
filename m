@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6859631839259008091=="
+Content-Type: multipart/mixed; boundary="===============9026295478225913345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 01 Jul 2024 12:00:18 -0000
-Message-Id: <171983521814.31348.4515642795492727673@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 12:00:24 -0000
+Message-Id: <171983522466.31469.3669552684756518367@gitolite.kernel.org>
 
---===============6859631839259008091==
+--===============9026295478225913345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2
-    new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-fc1d1a712b51-22a40d14b572.txt
+  - ref: refs/heads/usb-next
+    old: 2ea6d07efe5388d47afdb49079423334c97fe22b
+    new: f7697db8b1b3e80d8cd5af071a5af42c8b445fc4
+    log: revlist-2ea6d07efe53-f7697db8b1b3.txt
 
---===============6859631839259008091==
+--===============9026295478225913345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719835217 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719835221 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1719835216-fb1d22d1893018270fd2fc4137bbc5140294efd0
+nonce 1719835221-5e04ca1ad50b106284a057b5b31d9eaf50d4f728
 
-fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/usb-linus
+2ea6d07efe5388d47afdb49079423334c97fe22b f7697db8b1b3e80d8cd5af071a5af42c8b445fc4 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmlEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EcEP/14RQbTUSqjX/ClgZLCE
-rhT8fAGUB33xCl4VTs289J6e0AFvYn/yDIBRJ6EAWDB4Vw9pbhn7W+n07Wb4Lvuy
-FHHUUNfM9Xxr2jpaVvHRoAQ5PsqOOGSZZmorR8k8ALR6W6XSbbJPxSQMgA4IeRqY
-MrnjRn+WaP7+8rNiQa9PcQLDWaJ8CqtP4ZfqZnzTxpUJ5koP7k+0xtI2odaLIx/3
-NjlOMv5l7TwahC4dkI+kIpcys3X4RHZM57hHzLaDFdXG38vAoTtajowAKtCy+8kJ
-+W0zQr+4ViQrA2Ez3nUChpU9BbBNtOgxMVwcjQg2/nLUPzE0baEzqv1UI5XDUJmu
-ky+GAfQLQa8uRczAnyS8hOAU77NfgsvB68Thux7JOKEAmnoDo2ZCjCWMRA3TPzeW
-fD4ZJggwmEv2uNGKqWnKFuzjpmFNAguIfUvJ5EjewRbKobmUcN8qiq5S67JyA0rX
-sW+7hpq3R/tvzFIwWgu2DC+PyEk+vcStCXnUIRaw6eb/Og6qvPELA+BjkwVBKwVI
-QtkVLEBLSsFXU/AEziUIMST691bjQafXrb7HQgzVQQyQDdaSK/Pq00JU/jzuRit4
-HBP1zWkG0ni5lbqg4i33X6n/QT4MSUFdDQk59dQNDwbP/Pf7NUzoX+VMOZJ+r29B
-J3NgVsR9yASxYO6bI3cG6SY6
-=qRvD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmlUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ha8P/jYBnKxNAm4AgFUjvhqv
+ilt388RKVJ95DnF7U3RWK4IPp0zFG39tG19bl+lcg7KcOjJrQsTmQITNHDnkmCUO
++u49gZVtoGgJunv7PljBFUgYTmaERwvPV4s2grDKQLDe/bn0skyKZSMv423M0Ao3
+20jSXEUjOWFpniiFJAkxEtKjvR2sNvRepmuWriN8/wKcZv2zFrWn/YGs/OzBQlfz
+OGveaS+7m2XEq1h+zJP0Fjb9Ej/lYXvaDyhqiv88wez6GmmMMc84mgPKcSs3YGQI
+c3DqjBhWKQ2674UlSt5fZCnB/1QxYeaR5DMIYzbKbTOjFRSkl9Qw6I5xvlKzAleG
+hAowN/ITJF9yZAeKQc6vjp3tIjyHyRcgDBAK4CKS61XpIRYBAZ4Ghil1rcTNAi2r
+uBweipXAFI94usA1k28TQRFh50GCxfXirDROyCrX/RmADhovBJp1z7MRxpvUHQyp
+jXllVSBMDv6E/T9L0v2GLcNAuB5A3HtZDcYE7a+yBJNBRJnGxwUPid+8TRG/SzL5
+RobiwEOcN48Zc9vqF5R614vASKyd/I8wCFCnYNGEotm44AmQ5aW9q2kEYW9n3ftC
+CK+L0w1AC9akjRUrDfIkIqa70OYnsr8Tf1U3j71klcbxIhVDuZIN++dZ4QHSBKMN
+WDISZqLPQUv15gfr20qKJBrT
+=ks8N
 -----END PGP SIGNATURE-----
 
---===============6859631839259008091==
+--===============9026295478225913345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc1d1a712b51-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-2ea6d07efe53-f7697db8b1b3.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -387,6 +387,15 @@ ab069ce125965a5e282f7b53b86aee76ab32975c mmc: sdhci: Do not lock spinlock around
 3a7b3836bbaa25d3ee3d6c1d336991fbec8d8ed8 Merge tag 'mfd-fixes-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 5a5696a11f7e0c5ce3185b6234d02996f8267108 nvme-apple: add missing MODULE_DESCRIPTION()
 042742a1ff1f37ca88c303a9e61afc8c56b23657 Merge tag 'sound-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+fd80731e5e9d1402cb2f85022a6abf9b1982ec5f usb: gadget: printer: SS+ support
+e587a7633dfee8987a999cf253f7c52a8e09276c usb: gadget: printer: fix races against disable
+2eabb655a968b862bc0c31629a09f0fbf3c80d51 usb: atm: cxacru: fix endpoint checking in cxacru_bind()
+8e1ec117efdfd4b2f59f57bd0ad16b4edf5b963f usb: ucsi: stm32: fix command completion handling
+9e3caa9dd51b23e232f095a98336a84f42e4a7f2 usb: typec: ucsi_acpi: Add LG Gram quirk
+de644a4a86be04ed8a43ef8267d0f7d021941c5e usb: musb: da8xx: fix a resource leak in probe()
+c68942624e254a4e8a65afcd3c17ed95acda5489 usb: typec: ucsi: glink: fix child node release in probe function
+7838de15bb700c2898a7d741db9b1f3cbc86c136 usb: dwc3: core: remove lock of otg mode during gadget suspend/resume to avoid deadlock
+dba7567c2fbbf10a4de2471cdb0e16e5572dc007 usb: gadget: aspeed_udc: fix device address configuration
 d5a7fc58da039903b332041e8c67daae36f08b50 Merge tag 'net-6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f3ced000a2df53f4b12849e121769045a81a3b22 KVM: x86: Always sync PIR to IRR prior to scanning I/O APIC routes
 b018589013d6db43fdc894c635d6590e0a7e3285 MAINTAINERS: Drop Wanpeng Li as a Reviewer for KVM Paravirt support
@@ -673,6 +682,9 @@ c362f32a59a84fe4453abecc6b53f5f70894a6d5 iommu/amd: Invalidate cache before remo
 1864b8224195d0e43ddb92a8151f54f6562090cc net: mana: Fix possible double free in error handling path
 b62cb6a7e83622783100182d9b70e9c70393cfbe Merge tag 'nf-24-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 fcdd7b7bda3c21d1ba1247419e4a1eb8e2d0bfbb staging: vchiq_debugfs: Fix build if CONFIG_DEBUG_FS is not set
+24bf27b92b1c6a322faa88977de2207aa8c26509 Revert "usb: gadget: u_ether: Re-attach netif device to mirror detachment"
+c50814a288dcee687285abc0cf935e9fe8928e59 Revert "usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach"
+fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 usb: dwc3: core: Workaround for CSR read timeout
 9919cce62f68e6ab68dc2a975b5dc670f8ca7d40 gpiolib: cdev: Disallow reconfiguration without direction (uAPI v1)
 b440396387418fe2feaacd41ca16080e7a8bc9ad gpiolib: cdev: Ignore reconfiguration without direction
 7e1f4eb9a60d40dd17a97d9b76818682a024a127 kallsyms: rework symbol lookup return codes
@@ -731,5 +743,6 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
+f7697db8b1b3e80d8cd5af071a5af42c8b445fc4 Merge 6.10-rc6 into usb-next
 
---===============6859631839259008091==--
+--===============9026295478225913345==--
