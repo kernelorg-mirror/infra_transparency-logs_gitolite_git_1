@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0860132485380658632=="
+Content-Type: multipart/mixed; boundary="===============4334612439028493961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 01 Jul 2024 02:41:23 -0000
-Message-Id: <171980168302.15098.14259301902510392602@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 02:41:31 -0000
+Message-Id: <171980169187.15199.109922379108007104@gitolite.kernel.org>
 
---===============0860132485380658632==
+--===============4334612439028493961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
-    old: 0cf81c73e4c6a4861128a8f27861176ec312af4e
-    new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-0cf81c73e4c6-22a40d14b572.txt
+  - ref: refs/heads/counter-next
+    old: f045f1e1cc530f34688f9e71b1aeef6fece0f514
+    new: 474bbfc637c719daebffb5cabcf914dd749cf393
+    log: revlist-f045f1e1cc53-474bbfc637c7.txt
 
---===============0860132485380658632==
+--===============4334612439028493961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cf81c73e4c6-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-f045f1e1cc53-474bbfc637c7.txt
 
-971187350602d03c4a27c0783ff412502b95720a driver core: remove devm_device_add_groups()
-44a45be57f85165761fdabf072f9a97aa026ff61 sysfs: Unbreak the build around sysfs_bin_attr_simple_read()
-87bb39ed40bdf1596b8820e800226e24eb642677 KVM: arm64: Reintroduce __sve_save_state
-45f4ea9bcfe909b3461059990b1e232e55dde809 KVM: arm64: Fix prototype for __sve_save_state/__sve_restore_state
-6d8fb3cbf7e06431a607c30c1bc4cd53a62c220a KVM: arm64: Abstract set/clear of CPTR_EL2 bits behind helper
-e511e08a9f496948b13aac50610f2d17335f56c3 KVM: arm64: Specialize handling of host fpsimd state on trap
-66d5b53e20a6e00b7ce3b652a3e2db967f7b33d0 KVM: arm64: Allocate memory mapped at hyp for host sve state in pKVM
-b5b9955617bc0b41546f2fa7c3dbcc048b43dc82 KVM: arm64: Eagerly restore host fpsimd/sve state in pKVM
-1696fc2174dbab12228ea9ec4c213d6aeea348f8 KVM: arm64: Consolidate initializing the host data's fpsimd_state/sve in pKVM
-a69283ae1db8dd416870d931caa9e2d3d2c1cd8b KVM: arm64: Refactor CPACR trap bit setting/clearing to use ELx format
-afb91f5f8ad7af172d993a34fde1947892408f53 KVM: arm64: Ensure that SME controls are disabled in protected mode
-ce3af2ee95170b7d9e15fff6e500d67deab1e7b3 HID: logitech-dj: Fix memory leak in logi_dj_recv_switch_to_dj_mode()
-655a8a7684b897721f87c59798fd04d8b79f1b69 HID: nintendo: Fix an error handling path in nintendo_hid_probe()
 9e438fe31e96b75c2ec599f6a9239950e6712358 HID: intel-ish-hid: fix endian-conversion
 9c8f05cf1d7abd1bfb53cebe691bf3acb7baee99 HID: logitech-hidpp: add missing MODULE_DESCRIPTION() macro
 0698ff57bf327d9a5735a898f78161b8dada160b drm/xe/pf: Update the LMTT when freeing VF GT config
@@ -791,6 +778,7 @@ d6c941570680d4d11e5c7480c3bcbeff8d3860f9 Merge tag 'drm-fixes-2024-06-22' of htt
 31392048f55f98cb01ca709d32d06d926ab9760a vxlan: Pull inner IP header in vxlan_xmit_one().
 a38b800db8506e874631df96d827e02fd9cd9e4f Merge tag 'linux-can-fixes-for-6.10-20240621' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 2ea8a02a35ed627fd5d91c765b78718ef5d330fc Merge tag 'batadv-net-pullrequest-20240621' of git://git.open-mesh.org/linux-merge
+0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
 d18b822c8f622ed37af7130088a0b7f1eb0b16e6 docs: i2c: summary: start sentences consistently.
 75d148c90a34b94a3e3e7e7b2f30a689d8fbb7c8 docs: i2c: summary: update I2C specification link
 a5b88cb9fdff337a2867f0dff7c5cd23d4bd6663 docs: i2c: summary: update speed mode description
@@ -1050,5 +1038,17 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
+5f81aa76771eb43769c919064d4d5a52424857c3 counter: ftm-quaddec: add missing MODULE_DESCRIPTION() macro
+10365dd4c1842d0da422b56c5aa3827db0ca08d8 counter: ti-eqep: implement over/underflow events
+bc4666be63bdc7c562cfb2e9ea42cdb2c444a5b2 counter: ti-eqep: remove unused struct member
+1a84aaadb06b46f044eebf0de3bd3ac77a6ec52e counter: ti-eqep: remove counter_priv() wrapper
+151ebcf0797b1a3ba53c8843dc21748c80e098c7 dt-bindings: counter: Add new ti,am62-eqep compatible
+210457b651acd61fced405cf7fef12a482932ca1 counter/ti-eqep: Add new ti-am62-eqep compatible
+e2e1fce199b0db4fd4eba99ff6ef779826a55731 arm64: dts: ti: k3-am62-main: Add eQEP nodes
+ba5a251b1d539a82970823dd510ee25be06d6ca7 arm64: dts: ti: k3-am62a-main: Add eQEP nodes
+131eaf47c4c5ad444e3a0547960daacd3a40f82d arm64: dts: ti: k3-am62p-main: Add eQEP nodes
+afdfe6439a6d28a3062d576705b203da0857699f arm64: dts: ti: k3-am64-main: Add eQEP nodes
+7fb9d8854fcf23b7882a34a4cf247a7f60d02fef arm64: dts: ti: k3-am64x-sk: Enable eQEP
+474bbfc637c719daebffb5cabcf914dd749cf393 counter: ti-eqep: Allow eQEP driver to be built for K3 devices
 
---===============0860132485380658632==--
+--===============4334612439028493961==--
