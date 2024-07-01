@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2142929508348711781=="
+Content-Type: multipart/mixed; boundary="===============0860132485380658632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 01 Jul 2024 02:41:14 -0000
-Message-Id: <171980167465.14976.16674951529350226021@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 02:41:23 -0000
+Message-Id: <171980168302.15098.14259301902510392602@gitolite.kernel.org>
 
---===============2142929508348711781==
+--===============0860132485380658632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: 0cf81c73e4c6a4861128a8f27861176ec312af4e
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
     log: revlist-0cf81c73e4c6-22a40d14b572.txt
 
---===============2142929508348711781==
+--===============0860132485380658632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============2142929508348711781==--
+--===============0860132485380658632==--
