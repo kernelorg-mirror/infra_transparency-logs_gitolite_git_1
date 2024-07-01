@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 01 Jul 2024 08:44:08 -0000
-Message-Id: <171982344875.32560.15106473373030032662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Mon, 01 Jul 2024 08:44:52 -0000
+Message-Id: <171982349264.433.4958116899531927115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: d0621648b4b5a356e86cea23e842f2591461f0cf
-    new: c3b43d3a62cc1c069db13bc1924d3e15e9afcf8b
+  - ref: refs/heads/main
+    old: 17784801d888238571a0c4101b9ac4401fffeaa0
+    new: a051091cc3154be7dc533771070e90736654a1aa
     log: |
-         ef6065583694772837e48653c6fe70f73fc1503d proc_sysrq-trigger.5: ffix
-         26d792e86e714311ae2b93da4d203b90d13a360b wcscasecmp.3, wcsncasecmp.3: Merge
-         c3b43d3a62cc1c069db13bc1924d3e15e9afcf8b printf.3: Rework '
+         7c8110057b1bb9ab9f47ac0efc554d5c3a53b693 tcp_metrics: add UAPI to the header guard
+         85674625e0bc25be4dbaa165a556ef6037328379 tcp_metrics: add netlink protocol spec in YAML
+         a051091cc3154be7dc533771070e90736654a1aa Merge branch 'tcp_metrics-netlink-specs' into main
          
