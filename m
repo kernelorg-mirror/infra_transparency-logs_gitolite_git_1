@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6973028802984436923=="
+Content-Type: multipart/mixed; boundary="===============2614841442119618996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 01 Jul 2024 12:17:49 -0000
-Message-Id: <171983626971.12279.5441620992279223525@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 12:17:54 -0000
+Message-Id: <171983627401.12354.247713650925194043@gitolite.kernel.org>
 
---===============6973028802984436923==
+--===============2614841442119618996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+  - ref: refs/heads/tty-linus
+    old: cc8d5a2f09a54405321769abfd6ec3395482336a
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-6ba59ff42279-22a40d14b572.txt
+    log: revlist-cc8d5a2f09a5-22a40d14b572.txt
 
---===============6973028802984436923==
+--===============2614841442119618996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719836269 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719836273 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1719836268-815fef0a80109f24bd4bfcd0c5e5d41d6de34fa5
+nonce 1719836272-270657b5a944051890c1c1ac92b2fb17f9457d42
 
-6ba59ff4227927d3a8530fc2973b80e94b54d58f 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/main
+cc8d5a2f09a54405321769abfd6ec3395482336a 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnm0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vfAP/iZ4ZRQd3bXpJUd4putG
-dLduZdAM2spVilOh7RceXfDwWT7Z8nwDAq6/q1kFAUjQod5BOIDiT3+85j45iXb7
-oICk/wvlAX+w5kCQMGr71lJsxKb2f2cvGgLJviqMLUTfqUsu6uwn/rhHHFoFKBVM
-zxphePxl/kHMlBiMo4JSvYPRsH/8N9s06kOMojDhDMwvQwFJG8gUdTOZFWMiWhGK
-UBxgY4ieQRpqLMNDqC9sOub8LPVF2QXRavtJl3U3hCcr3ImqS1w244/o0qGfpJR2
-suYwLvCSjm19kqHlCNOA04eFBdNTp51ta+riXKsrseNT1R1l6yvgNSb1VrMtYo2e
-c1vvL0NXEovn1fs/KKRrKUvFivueJwMYOCuEX87ZfcV8+db8zHXmltquNq1nDW+4
-Jv1iid1JoGFWzsUi0qNfRJYbWDNd3yFrmh5YGCYw/POzSBM9pZcsann6DQujak4V
-G/HujFRzrtbAPjxWToncU0CiUPN/Jglyo5vamJlDe2KMqb1W2wijTSt0u40wNqtw
-owCOBGkj2/RW3RBQpRD8OfxOvLAwj7Y96OzXWrODPirkSecck229ydyFyZhNS/II
-rEPfqJweMN0ndcemPInKVpC0UqsCgW/AKcg0sdlDmpXK/WmfGOnVO1yUHbJIoQCg
-CzaSBrCJgt2aD2JABGKoa2Sc
-=jAEQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnnEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LLUP/3O0gTOGMU/YSB5sF7pR
+Ehh6qVb3Wh/MpYqpoKZR7IT3CzcX/HB99y5CZrYGYnjX0+p08Bl5sY8SrF/SJVb9
+WEQMqA7U73oVjzl/6R/CC5+vA7cxb13OfQ/ExTG9JRA4E4P1jDomgc/hpFLBFHWE
+oqEpO0lmhpuzNc85LFub+umJfEH5qvaZ9KnbQ/4UmiKhlKpXfMUBOVrvhAHY+r06
+2sR5WNIcSYIQy6AY7PTpAM/oYfX69mBq8cuo2vzPOUOblkWDzKOvZtL50Tl9mQgR
+/ukdf74YF0UguxtETtr4Y0XO/y42iACu+jpSVtwBOy9KmYR7SHaAxtmYnAbgMgnL
+7sGwotgz2dN0DZbKUmrW8wIPWmAXmBrGrYpi8ztOsltg58KazICIEwm1lxkL5Y+f
+GgyYFy07K2NnDxAdoASAvwhU2aSBQ2vUJ06QuajxSN/NwaOwYSPBh9ZgW8ZG22Mj
+dfQmI2Z/X/GzNpAnU3WEG1ZKjy5gc53D9Kso4+UtETWaMs/2r8IMCO58xoSdpV07
+6MEwRqKA2FccBwb+kNBo3bNAZw/xoIXl24sr/qMa6Gu+j6PhGAF8GmaGLApbnTfu
+geEpP3Jku7Q8kZ/zvq56ahZZYiGS+2owX+lSlsfYTbO3fJUTrVjawNy6DVM+8NCJ
+TF5QbxZ5FZyiAcE3o7F14I0j
+=JfDp
 -----END PGP SIGNATURE-----
 
---===============6973028802984436923==
+--===============2614841442119618996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba59ff42279-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-cc8d5a2f09a5-22a40d14b572.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -554,13 +554,6 @@ ecc54006f158ae0245a13e59026da2f0239c1b86 arm64: Clear the initial ID map correct
 282a4482e198e03781c152c88aac8aa382ef9a55 ASoC: mediatek: mt8195: Add platform entry for ETDM1_OUT_BE dai link
 d941b5877a4eaef367ca48325c22d2e1bd8e8619 staging: vc04_services: vchiq_arm: Fix initialisation check
 aef5daa2c49d510436b733827d4f0bab79fcc4a0 netfilter: fix undefined reference to 'netfilter_lwtunnel_*' when CONFIG_SYSCTL=n
-0ac18dac43103ab1df6d26ec9a781c0126f83ced tty: serial: 8250: Fix port count mismatch with the device
-9d141c1e615795eeb93cd35501ad144ee997a826 serial: 8250_omap: Implementation of Errata i2310
-7c92a8bd53f24d50c8cf4aba53bb75505b382fed tty: mcf: MCF54418 has 10 UARTS
-a81dbd0463eca317eee44985a66aa6cc2ce5c101 serial: imx: set receiver level before starting uart
-c5603e2a621dac10c5e21cc430848ebcfa6c7e01 Revert "serial: core: only stop transmit when HW fifo is empty"
-9bb43b9e8d9a288a214e9b17acc9e46fda3977cf serial: core: introduce uart_port_tx_limited_flags()
-ea55c65dedf40e9c1911dc1e63e26bc9a59692b9 serial: bcm63xx-uart: fix tx after conversion to uart_port_tx_limited()
 626737a5791b59df5c4d1365c4dcfc9b0d70affe Merge tag 'pinctrl-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 4b8e88e563b5f666446d002ad0dc1e6e8e7102b0 ftruncate: pass a signed offset
 55027e689933ba2e64f3d245fb1ff185b3e7fc81 Merge tag 'input-for-v6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
@@ -586,15 +579,6 @@ c6408250703530187cc6250dcd702d12a71c44f5 mm/migrate: make migrate_pages_batch() 
 54e7d59841dab977f6cb1183d658b1b82c9f4e94 nfs: drop the incorrect assertion in nfs_swap_rw()
 bf14ed81f571f8dba31cd72ab2e50fbcc877cc31 mm/page_alloc: Separate THP PCP into movable and non-movable categories
 ab1ffc86cb5bec1c92387b9811d9036512f8f4eb mm/memory: don't require head page for do_set_pmd()
-7312b740b70e77ccdc0dce11316f05861907d3ca Revert "serial: core: Fix ifdef for serial base console functions"
-3ddbc427df968f50e6048368fc01088d428491c7 Revert "serial: 8250: Fix add preferred console for serial8250_isa_init_ports()"
-12b7210ea83e7119a0041a54027948d65c5e6206 Revert "Documentation: kernel-parameters: Add DEVNAME:0.0 format for serial ports"
-740a79675833db5e14c89113d94be769ab8369c0 Revert "serial: 8250: Add preferred console in serial8250_isa_init_ports()"
-e406c56dd9e35cc0b456b592d6814b5d2d8791de Revert "serial: core: Handle serial console options"
-a5e4bb69ecddb4ad7895e21091f3657ad832e270 Revert "serial: core: Add support for DEVNAME:0.0 style naming for kernel console"
-deb091cb05a2b8555e15fcc2df5a0dcd9d06fea0 Revert "printk: Flag register_console() if console is set on command line"
-64f9f010c6177dd4f33e5023d2eab9af4af291e9 Revert "printk: Don't try to parse DEVNAME:0.0 console options"
-cc8d5a2f09a54405321769abfd6ec3395482336a Revert "printk: Save console options for add_preferred_console_match()"
 0983d288caf984de0202c66641577b739caad561 ibmvnic: Add tx check to prevent skb leak
 ff46e3b4421923937b7f6e44ffcd3549a074f321 Fix race for duplicate reqsk on identical SYN
 c5ab94ea280a9b4108723eecf0a636e22a5bb137 ALSA: seq: Fix missing channel at encoding RPN/NRPN MIDI2 messages
@@ -744,4 +728,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============6973028802984436923==--
+--===============2614841442119618996==--
