@@ -1,63 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0856473855831983304=="
+Content-Type: multipart/mixed; boundary="===============8020005217056920753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 01 Jul 2024 12:08:41 -0000
-Message-Id: <171983572151.5331.12772515045210856797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Mon, 01 Jul 2024 12:09:00 -0000
+Message-Id: <171983574077.5541.9197881698874168059@gitolite.kernel.org>
 
---===============0856473855831983304==
+--===============8020005217056920753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/const_driver
-    old: 54fc57a95e0bdbeb117e6e7ddf2ef4679abd9cc4
-    new: d382ec8299f1c375efe9d255b728c420a610f6a4
-    log: |
-         f6f54bb935ddb2be1e030b8a3fabbb5bd1d4415e driver core: have match() callback in struct bus_type take a const *
-         473be5a6eb5eab51e7c0c68c6d842ec7f287f3ea driver core: make driver_[create|remove]_file take a const *
-         0ff26e73dae04117e17f37c2c14a30b2f8fb7b31 driver core: make driver_find_device() take a const *
-         1d3261185003733e12f6a652e62d5c41dd57819e driver core: module: make module_[add|remove]_driver take a const *
-         64aec433bff4604b625c057ae8ee885beb7028fd USB: make to_usb_driver() use container_of_const()
-         3c75cd5b499f2a24ba9648fbd325fd80c7d27a09 USB: make to_usb_device_driver() use container_of_const()
-         996582939a8ad99aa425806c26315ac5b2fc9cc4 USB: make single lock for all usb dynamic id lists
-         d382ec8299f1c375efe9d255b728c420a610f6a4 USB: move dynamic ids out of usb driver structures
-         
+  - ref: refs/heads/main
+    old: 66be40e622e177316ae81717aa30057ba9e61dff
+    new: 42391445a86393bdb36b4148971f14a4aa5d97f9
+    log: revlist-66be40e622e1-42391445a863.txt
 
---===============0856473855831983304==
+--===============8020005217056920753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-66be40e622e1-42391445a863.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719835720 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1719835719-d24ba07e4c65305ad6888e85552a34f0f6452d98
+ed2a2ef16a6b9197a0e452308bf6acee6e01f709 Bluetooth: Add quirk to ignore reserved PHY bits in LE Extended Adv Report
+897e6120566f1c108b85fefe78d1c1bddfbd5988 Bluetooth: hci_bcm4377: Fix msgid release
+3f35d9b3e9a0e3c4684252ab91e648b96a179482 Bluetooth: btintel_pcie: Fix REVERSE_INULL issue reported by coverity
+ac65ecccae802417ce42e857defacad60e4b8329 Bluetooth: hci_event: Fix setting of unicast qos interval
+88e72239ead9814b886db54fc4ee39ef3c2b8f26 Bluetooth: qca: Fix BT enable failure again for QCA6390 after warm reboot
+0d151a103775dd9645c78c97f77d6e2a5298d913 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
+4183a7be77009fc31c5760429fe095f163bf96a9 Bluetooth: btnxpuart: Enable Power Save feature on startup
+015d79c96d62cd8a4a359fcf5be40d58088c936b Bluetooth: Ignore too large handle values in BIG
+89e856e124f9ae548572c56b1b70c2255705f8fe bluetooth/l2cap: sync sock recv cb and release
+596b6f081336e77764ca35cfeab66d0fcdbe544e Bluetooth: ISO: Check socket flag instead of hcon
+1cc18c2ab2e8c54c355ea7c0423a636e415a0c23 bluetooth/hci: disallow setting handle bigger than HCI_CONN_HANDLE_MAX
+f1a8f402f13f94263cf349216c257b2985100927 Bluetooth: L2CAP: Fix deadlock
+42391445a86393bdb36b4148971f14a4aa5d97f9 Merge tag 'for-net-2024-06-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth into main
 
-54fc57a95e0bdbeb117e6e7ddf2ef4679abd9cc4 d382ec8299f1c375efe9d255b728c420a610f6a4 refs/heads/const_driver
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnEgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/8sP/3d8bBFb/Pb8VEd6ni7r
-yH66Dhfbukt6zTCERTFmKsw5+GMIodQZN8AEICrekE96eh3AZA/sinDy5g82x62j
-RHf1hyWnjVsgHok82KS27jkL0E9V3DTz1jJqKuRXBJRV7KhI9r0uiF1mTUKdsRrW
-CK9xqGFDWCYLy6M+XuIyku+EUhaDmAAULhyrLgZPASFLdXQtSdRyirsehMVGg8kK
-+I8aeZGzS08uoBPDGTyzuu6pl7ZTnoQFaNsMHm8smidRcSo8O4u3K03l9fwTmGBV
-zMUdrGrZqI4j27Aew/scT0EzJxl9ckeu1+wnEftG/M+2HjKi0y+hzzO0RnqWsY1c
-+aQgZl38Y308I3ZKeQ0WlNnRaAs8gQeLNEVqDxpYCigjhINRFRwRV5y/MNNRLKzz
-Q6iWqCGbTCK62Wfz2xeyKBmj2+vvQfkq2WptXCZZv+/LUh2rKexNCP9cSgI6yw9q
-mOsFM3yTQpcS6IHoQkZFG27l9g5klPJKydBg0IIoDJSHz96AgWzbVhm3Wcf3M8e2
-kbNSS1J/U6e4W6LF/2E1rDjxF42E3K6F76f34GhWYWp0m+N6scEUurTcIaDT/4MA
-3KPEdtft6MNLG4zJihyFXOAe9fErGU/vwZXo042frbIG83I04KE9h6QXwE3q+N/S
-soeiTP2iVWPN9zeD2y39Secx
-=qBH5
------END PGP SIGNATURE-----
-
---===============0856473855831983304==--
+--===============8020005217056920753==--
