@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 01 Jul 2024 18:06:39 -0000
-Message-Id: <171985719961.26250.6513485540229070041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Mon, 01 Jul 2024 18:14:48 -0000
+Message-Id: <171985768880.31917.12668912084321418685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 90b042b607afb2888f78acba673c70f98b345da2
-    new: cec4a75a7cc9fa6b4d469261cb0afbac3ca384fe
-    log: |
-         cfff1997aafa25ea98c2ceb7251642276745266a ACPI: PMIC: Constify struct pmic_table
-         cec4a75a7cc9fa6b4d469261cb0afbac3ca384fe Merge branch 'acpi-pmic' into bleeding-edge
-         
+  - ref: refs/tags/clk-imx-6.11
+    old: 0000000000000000000000000000000000000000
+    new: 558466e7ced8a67481c71eaa29ddedb3dbd85a54
