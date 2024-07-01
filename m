@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3394995469516650081=="
+Content-Type: multipart/mixed; boundary="===============1826134677290102436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 01 Jul 2024 13:38:20 -0000
-Message-Id: <171984110047.9555.4614583504642225554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 01 Jul 2024 13:38:26 -0000
+Message-Id: <171984110695.9654.14371193010759714525@gitolite.kernel.org>
 
---===============3394995469516650081==
+--===============1826134677290102436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
     log: revlist-f2661062f16b-22a40d14b572.txt
 
---===============3394995469516650081==
+--===============1826134677290102436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -382,4 +382,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============3394995469516650081==--
+--===============1826134677290102436==--
