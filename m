@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 01 Jul 2024 14:58:09 -0000
-Message-Id: <171984588948.9667.9260352127741947650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 01 Jul 2024 15:03:38 -0000
+Message-Id: <171984621859.13414.14235494504115767148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/tags/v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
+  - ref: refs/heads/master
+    old: a12978712d9001b060bcc10eaae42ad5102abe2b
+    new: c77e572d3a8c0e21c5dca4cc2883c7cd8cbe981f
+    log: |
+         89cc8f1c5f22568142b7ad118c738204708e4207 netfilter: nf_tables: Add flowtable map for xdp offload
+         391bb6594fd3a567efb1cd3efc8136c78c4c9e31 netfilter: Add bpf_xdp_flow_lookup kfunc
+         c77e572d3a8c0e21c5dca4cc2883c7cd8cbe981f selftests/bpf: Add selftest for bpf_xdp_flow_lookup kfunc
+         
