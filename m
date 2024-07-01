@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5766948102933212645=="
+Content-Type: multipart/mixed; boundary="===============0320212346941033832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 01 Jul 2024 16:12:18 -0000
-Message-Id: <171985033878.4391.793317034429659292@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 16:14:33 -0000
+Message-Id: <171985047352.5268.5887772492804069949@gitolite.kernel.org>
 
---===============5766948102933212645==
+--===============0320212346941033832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: e564b3c6c6e636e156176b54b695550c396e90bf
-    new: cf645197f045147cd0232c7a205cdfed49590756
-    log: revlist-e564b3c6c6e6-cf645197f045.txt
+  - ref: refs/heads/ti-next
+    old: 091c47479625fe34827724040ee047cdde11622b
+    new: 0457310f1e9d5e767fd64cd88400e0e8f8f38a2c
+    log: revlist-091c47479625-0457310f1e9d.txt
 
---===============5766948102933212645==
+--===============0320212346941033832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e564b3c6c6e6-cf645197f045.txt
+Content-Disposition: attachment; filename=revlist-091c47479625-0457310f1e9d.txt
 
 feebfe95a6654e991befca7dee45788979fd7f72 arm64: dts: k3-am625-verdin: enable nau8822 pll
 60c2f9784d0ea1fad07a28c03a0576274beabdc3 arm64: dts: ti: k3-am64-tqma64xxl: relicense to GPL-2.0-only OR MIT
@@ -54,5 +54,6 @@ d72d73a44c3c98109764bfb56c329cd628c518cc arm64: dts: ti: k3-am62p: Add gpio-rang
 5e5c50964e2e524a7537c97303e9266b11f372d8 arm64: dts: ti: k3-j722s: Add gpio-ranges properties
 28a950c404679aba602e3311c733a19b7c945ab4 arm64: dts: ti: k3-am62p5-sk: fix graph_child_address warnings
 cf645197f045147cd0232c7a205cdfed49590756 arm64: dts: ti: k3-am62x-sk-common: Fix graph_child_address warns
+0457310f1e9d5e767fd64cd88400e0e8f8f38a2c Merge branch 'ti-k3-dts-next' into ti-next
 
---===============5766948102933212645==--
+--===============0320212346941033832==--
