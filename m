@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6717293352068320690=="
+Content-Type: multipart/mixed; boundary="===============2110988753334973448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 01 Jul 2024 06:05:44 -0000
-Message-Id: <171981394468.32637.11662656621321972444@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 06:06:45 -0000
+Message-Id: <171981400580.820.9171023108021029583@gitolite.kernel.org>
 
---===============6717293352068320690==
+--===============2110988753334973448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
+  - ref: refs/heads/linux-next
+    old: a3607581cd49c17128a486a526a36a97bafcb2bb
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-a38297e3fb01-22a40d14b572.txt
+    log: revlist-a3607581cd49-22a40d14b572.txt
 
---===============6717293352068320690==
+--===============2110988753334973448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38297e3fb01-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-a3607581cd49-22a40d14b572.txt
 
 44a45be57f85165761fdabf072f9a97aa026ff61 sysfs: Unbreak the build around sysfs_bin_attr_simple_read()
 87bb39ed40bdf1596b8820e800226e24eb642677 KVM: arm64: Reintroduce __sve_save_state
@@ -1051,4 +1051,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============6717293352068320690==--
+--===============2110988753334973448==--
