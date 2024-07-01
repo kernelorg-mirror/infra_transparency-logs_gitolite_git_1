@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 01 Jul 2024 12:54:38 -0000
-Message-Id: <171983847855.8158.15741667687228357863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 01 Jul 2024 13:10:13 -0000
+Message-Id: <171983941387.21673.9670955630304806592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/tags/asm-generic-fixes-6.10-2
-    old: f780dbf09222dd3815046dbc818ea02bce977b51
-    new: 069959661959959756d8cbcceee21ca8e22811c1
+  - ref: refs/heads/ti-drivers-soc-next
+    old: 13020adf6be9603ba71a9e269f130046dcea8cc8
+    new: b87a1cbb3385a806f8abfd9b8a2191e4c6620347
     log: |
-         63e2f40c9e3187641afacde4153f54b3ee4dbc8c syscalls: fix sys_fanotify_mark prototype
+         b87a1cbb3385a806f8abfd9b8a2191e4c6620347 dt-bindings: soc: ti: Move ti,j721e-system-controller.yaml to soc/ti
          
