@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4510502706071782630=="
+Content-Type: multipart/mixed; boundary="===============4634922425369090790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 01 Jul 2024 21:56:35 -0000
-Message-Id: <171987099554.1359.1767160218146338248@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 21:56:38 -0000
+Message-Id: <171987099814.1461.10118519189293877406@gitolite.kernel.org>
 
---===============4510502706071782630==
+--===============4634922425369090790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 103458874baca0bbc8ae0b66d50201d5faa8c17b
-    new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-103458874bac-22a40d14b572.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 66e33a51e0929e103a2f7b732f12b6e0a274f9c2
+    new: 04d6adabcdd5f854728bbd3ebf95c29b74173621
+    log: revlist-66e33a51e092-04d6adabcdd5.txt
 
---===============4510502706071782630==
+--===============4634922425369090790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1719870994 +0200
+pusher andi.shyti@kernel.org 1719870997 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1719870994-fe03915368bdb8ac2e3211fb9f0cdb1f2acbc536
+nonce 1719870996-37cb38c8e50fa52b9fa1c83e0a030c1bc41ed214
 
-103458874baca0bbc8ae0b66d50201d5faa8c17b 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/i2c/i2c-host-fixes
+66e33a51e0929e103a2f7b732f12b6e0a274f9c2 04d6adabcdd5f854728bbd3ebf95c29b74173621 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZoMmEhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uKzQA/1tEWNbfbRxgPlooSYwjNpz7jfhm
-t6jd40vSHTvcO6gWAP0XzCoYYMRlk66uHTdISEiz0Z7UzW4IHG0tYoTJ36nYCg==
-=9xfy
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZoMmFRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4b0BAKI8H6dZZHc7mybWd1kDsbUzqMMV
+puKut+qqeGIardZhAP9sjKZSDPMtG6Jp9490JbGMVoT0MSdW0u7wp6TQ2bNwDg==
+=zC/d
 -----END PGP SIGNATURE-----
 
---===============4510502706071782630==
+--===============4634922425369090790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-103458874bac-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-66e33a51e092-04d6adabcdd5.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -401,5 +401,15 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
+4fceee1dad3ae4683337558c0619f8fb862cb9bd i2c: i801: Add support for Intel Arrow Lake-H
+a0119ca9e5ea1f095620130b36fee4af1d3a55da i2c: add missing MODULE_DESCRIPTION() macros
+efe8d2235b1374abd9bc1e31a8f9c0b9538a5eb5 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
+9912bce4c639e532945065f334a20828fcbf809a i2c: omap: wakeup the controller during suspend() callback
+cf7feb642dc0e36bbbda9ec9fecc6601f439b8dd dt-bindings: i2c: atmel,at91sam: drop unneeded address/size-cells
+992dc943dae686f171eaff800f3de93180989f6d dt-bindings: i2c: nvidia,tegra20: drop unneeded address/size-cells
+be04a9f31c274a10c573b30d084ab2d2f8d302fd dt-bindings: i2c: samsung,s3c2410: drop unneeded address/size-cells
+726f4837c87127fe4f570998d7198598a0a5ce0c dt-bindings: i2c: ti,omap4: reference i2c-controller.yaml schema
+19a7aefea0db2807c528a4d2e98ff29a6c444ead dt-bindings: i2c: adjust indentation in DTS example to coding style
+04d6adabcdd5f854728bbd3ebf95c29b74173621 dt-bindings: i2c: nxp,lpc1788-i2c: convert to dt schema
 
---===============4510502706071782630==--
+--===============4634922425369090790==--
