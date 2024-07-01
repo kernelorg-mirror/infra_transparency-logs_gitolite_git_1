@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0597654910345321131=="
+Content-Type: multipart/mixed; boundary="===============8261511633820421426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Jul 2024 07:40:27 -0000
-Message-Id: <171981962791.19351.7259130661681354320@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 07:41:43 -0000
+Message-Id: <171981970395.19885.3785923429715843368@gitolite.kernel.org>
 
---===============0597654910345321131==
+--===============8261511633820421426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,95 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3e60034e1aca36058cd5033c5f4edb6e8a5e7b37
-    new: 863cbc1bd07218a58122edc0f4b7980c42ec2719
-    log: revlist-3e60034e1aca-863cbc1bd072.txt
-  - ref: refs/tags/v6.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
+    old: 863cbc1bd07218a58122edc0f4b7980c42ec2719
+    new: ec6574a634db84f25e4eee6698d76fed5649e3bd
+    log: revlist-863cbc1bd072-ec6574a634db.txt
 
---===============0597654910345321131==
+--===============8261511633820421426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e60034e1aca-863cbc1bd072.txt
+Content-Disposition: attachment; filename=revlist-863cbc1bd072-ec6574a634db.txt
 
-89b898c627a49b978a4c323ea6856eacfc21f6ba iio: xilinx-ams: Don't include ams_ctrl_channels in scan_mask
-a2b86132955268b2a1703082fbc2d4832fc001b8 iio: adc: ad7266: Fix variable checking bug
-a821d7111e3f7c8869961b606714a299bfe20014 iio: accel: fxls8962af: select IIO_BUFFER & IIO_KFIFO_BUF
-75183e461ce033605c3e85518a9f3d4e4ef848a3 iio: dac: fix ad9739a random config compile error
-9547d6a4c65e975e40e203900322342ef7379c52 iio: humidity: hdc3020: fix hysteresis representation
-ae1f7b93b52095be6776d0f34957b4f35dda44d9 iio: chemical: bme680: Fix pressure value output
-b47c0fee73a810c4503c4a94ea34858a1d865bba iio: chemical: bme680: Fix calibration data variable
-fdd478c3ae98c3f13628e110dce9b6cfb0d9b3c8 iio: chemical: bme680: Fix overflows in compensate() functions
-4241665e6ea063a9c1d734de790121a71db763fc iio: chemical: bme680: Fix sensor data read operation
-68e5afd8f440a2cc18deb53ae151aa74e2a8eced watchdog: lenovo_se10_wdt: add HAS_IOPORT dependency
-acf9e67a7625367b89440855572b29c5ec19dd20 watchdog: add missing MODULE_DESCRIPTION() macros
-8fe050e94daeb0280338d04ff8c6207dea44ddfc Merge tag 'iio-fixes-for-6.10b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-fd80731e5e9d1402cb2f85022a6abf9b1982ec5f usb: gadget: printer: SS+ support
-e587a7633dfee8987a999cf253f7c52a8e09276c usb: gadget: printer: fix races against disable
-2eabb655a968b862bc0c31629a09f0fbf3c80d51 usb: atm: cxacru: fix endpoint checking in cxacru_bind()
-8e1ec117efdfd4b2f59f57bd0ad16b4edf5b963f usb: ucsi: stm32: fix command completion handling
-9e3caa9dd51b23e232f095a98336a84f42e4a7f2 usb: typec: ucsi_acpi: Add LG Gram quirk
-de644a4a86be04ed8a43ef8267d0f7d021941c5e usb: musb: da8xx: fix a resource leak in probe()
-c68942624e254a4e8a65afcd3c17ed95acda5489 usb: typec: ucsi: glink: fix child node release in probe function
-7838de15bb700c2898a7d741db9b1f3cbc86c136 usb: dwc3: core: remove lock of otg mode during gadget suspend/resume to avoid deadlock
-dba7567c2fbbf10a4de2471cdb0e16e5572dc007 usb: gadget: aspeed_udc: fix device address configuration
-0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
-06ebbce9c3a84e5632fa3cd0864ce07093793e32 Merge tag 'counter-fixes-for-6.10' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-d941b5877a4eaef367ca48325c22d2e1bd8e8619 staging: vc04_services: vchiq_arm: Fix initialisation check
-0ac18dac43103ab1df6d26ec9a781c0126f83ced tty: serial: 8250: Fix port count mismatch with the device
-9d141c1e615795eeb93cd35501ad144ee997a826 serial: 8250_omap: Implementation of Errata i2310
-7c92a8bd53f24d50c8cf4aba53bb75505b382fed tty: mcf: MCF54418 has 10 UARTS
-a81dbd0463eca317eee44985a66aa6cc2ce5c101 serial: imx: set receiver level before starting uart
-c5603e2a621dac10c5e21cc430848ebcfa6c7e01 Revert "serial: core: only stop transmit when HW fifo is empty"
-9bb43b9e8d9a288a214e9b17acc9e46fda3977cf serial: core: introduce uart_port_tx_limited_flags()
-ea55c65dedf40e9c1911dc1e63e26bc9a59692b9 serial: bcm63xx-uart: fix tx after conversion to uart_port_tx_limited()
-7312b740b70e77ccdc0dce11316f05861907d3ca Revert "serial: core: Fix ifdef for serial base console functions"
-3ddbc427df968f50e6048368fc01088d428491c7 Revert "serial: 8250: Fix add preferred console for serial8250_isa_init_ports()"
-12b7210ea83e7119a0041a54027948d65c5e6206 Revert "Documentation: kernel-parameters: Add DEVNAME:0.0 format for serial ports"
-740a79675833db5e14c89113d94be769ab8369c0 Revert "serial: 8250: Add preferred console in serial8250_isa_init_ports()"
-e406c56dd9e35cc0b456b592d6814b5d2d8791de Revert "serial: core: Handle serial console options"
-a5e4bb69ecddb4ad7895e21091f3657ad832e270 Revert "serial: core: Add support for DEVNAME:0.0 style naming for kernel console"
-deb091cb05a2b8555e15fcc2df5a0dcd9d06fea0 Revert "printk: Flag register_console() if console is set on command line"
-64f9f010c6177dd4f33e5023d2eab9af4af291e9 Revert "printk: Don't try to parse DEVNAME:0.0 console options"
-cc8d5a2f09a54405321769abfd6ec3395482336a Revert "printk: Save console options for add_preferred_console_match()"
-b3d9ad61dc099bfd1e289460cde199b1ca4a7415 task_work: s/task_work_cancel()/task_work_cancel_func()/
-74e45974c966fdecafb7149edb08a2f210e7ab60 task_work: Introduce task_work_cancel() again
-73caafba7021a97c22bff58c3d123228e03cdc46 perf: Fix event leak upon exit
-b8accda880eaf60504446be8d5b81f9532b98b93 perf: Fix event leak upon exec and file release
-05f8404bcdf31822874bff41992336150240c109 Revert "sched/fair: Make sure to try to detach at least one movable task"
-a7accf658efa4fa5b04a74f21863833fd737f469 sched/deadline: fix task_struct reference leak
-45655e7bd66c78920b0a579d146aa67788545e3c sched: Move psi_account_irqtime() out of update_rq_clock_task() hotpath
-9cc5f3bf63aa98bd7cc7ce8a8599077fde13283e kbuild: Install dtb files as 0644 in Makefile.dtbinst
-07d4cc2e7444356faac6552d0688a1670cc9d749 kbuild: doc: Update default INSTALL_MOD_DIR from extra to updates
-c61566538968ffb040acc411246fd7ad38c7e8c9 kbuild: Fix build target deb-pkg: ln: failed to create hard link
-8d1001f7bdd0553a796998f4fff07ee13e1c1cad kbuild: rpm-pkg: fix build error with CONFIG_MODULES=n
-7ed9d1318c127b3aec77099802a9fdf2480250b4 kbuild: Use $(obj)/%.cc to fix host C++ module builds
-a11aaf6d0bb4282ce1989e388b13f8d87154ba75 kbuild: scripts/gdb: bring the "abspath" back
-fcdd7b7bda3c21d1ba1247419e4a1eb8e2d0bfbb staging: vchiq_debugfs: Fix build if CONFIG_DEBUG_FS is not set
-24bf27b92b1c6a322faa88977de2207aa8c26509 Revert "usb: gadget: u_ether: Re-attach netif device to mirror detachment"
-c50814a288dcee687285abc0cf935e9fe8928e59 Revert "usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach"
-fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 usb: dwc3: core: Workaround for CSR read timeout
-1066fe825987da007669d7c25306b4dbb50bd7dd ata: libata-core: Add ATA_HORKAGE_NOLPM for all Crucial BX SSD1 models
-327fceff3b634e6f21bbe60bd1d28e41d5b1d924 Merge tag 'linux-watchdog-6.10-rc-fixes' of git://www.linux-watchdog.org/linux-watchdog
-03c8b0bd46bcdce3b221fc9f87418c76fd36b28e Merge tag 'timers_urgent_for_v6.10_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4e41216009143efa48dcf11bc096d4f8ee1c0f12 Merge tag 'irq_urgent_for_v6.10_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3ffea9a7a6f71b5fb6f997d7b2ad95634dae57ab Merge tag 'smp_urgent_for_v6.10_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2c01c3d552c29da92a91bd44c067d2c74c500a95 Merge tag 'usb-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-3e334486ec5cc6e79e7b0c4f58757fe8e05fbe5a Merge tag 'tty-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-12529aa130276d622fe229f0c208ad3fb7e7138e Merge tag 'staging-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-84dd4373d566df74fc77175ff76b1658089f43b5 Merge tag 'char-misc-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-769327258a141ba80ac8b96fce35c68631228370 x86-32: fix cmpxchg8b_emu build error with clang
-e0b668b070348c36e0ab83af12987b6390f9ec26 Merge tag 'kbuild-fixes-v6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-5d92c7c566dc76d96e0e19e481d926bbe6631c1e ata: libata-core: Fix null pointer dereference on error
-f6549f538fe0b2c389e1a7037f4e21039e25137a ata,scsi: libata-core: Do not leak memory for ata_port struct members
-ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on error
-eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
-aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
-36e6dbc802c42d274d3e11d11d4b9f472452182b Merge branch into tip/master: 'perf/urgent'
-71193f87f40adcbaeb75cde22c3a7053fb32e32e Merge branch into tip/master: 'sched/urgent'
-863cbc1bd07218a58122edc0f4b7980c42ec2719 Merge branch 'linus'
+54023a7390709b0c8e246633ce2ecd9d9aa48aa9 Merge branch into tip/master: 'x86/merge'
+33666862cb1ed590917e6a4a37c2e53821a4264b Merge branch into tip/master: 'perf/urgent'
+220371fb8b17d5b760a2dd269bbe643ecc9ac3d2 Merge branch into tip/master: 'sched/urgent'
+b6473f63423d00b5059c84a82de4a3aa6deb2f76 Merge branch into tip/master: 'WIP.x86/fpu'
+4078120d247522ba20cdfa7d406dbb8bb04049a7 Merge branch into tip/master: 'core/debugobjects'
+f4b9ecec3f30a1186a68799e816ee40f88b5db9f Merge branch into tip/master: 'irq/core'
+b2d4f1dd7e8680d115daef53bdf52e6be6237661 Merge branch into tip/master: 'irq/msi'
+20f1f1f120ccfef85bd334e25586a3ce2b4bf8c5 Merge branch into tip/master: 'locking/core'
+b9c3efde6bb0c9ff972bdc566c57d3ec2cdf9c59 Merge branch into tip/master: 'perf/core'
+d29a5b0374a12e9be7634d53398a830a00797539 Merge branch into tip/master: 'ras/core'
+8861b72ee9c1b48d747861ef0bc299d3403da87f Merge branch into tip/master: 'sched/core'
+75d672e14e1a0039fca9a4bec19962af2e125ac8 Merge branch into tip/master: 'smp/core'
+8b018b40d48d08b05a88adc2696484b4f7106a26 Merge branch into tip/master: 'timers/core'
+5069f4946474531f71132988b8e93c7d6d2f798b Merge branch into tip/master: 'x86/alternatives'
+c3a769d1c5653df55b4756d236a5600fb05b845e Merge branch into tip/master: 'x86/boot'
+33a47dbcc1c8f0832119b800593377e00c34ce18 Merge branch into tip/master: 'x86/bugs'
+4970d15cfd6e59a9c0b9ba3e90779871f2a99f25 Merge branch into tip/master: 'x86/build'
+f5c708128071144e0ee201a3d1aac4bc00505d74 Merge branch into tip/master: 'x86/cache'
+7e3e75e93170cc96a30a6cea39c372db1515cc5b Merge branch into tip/master: 'x86/cc'
+811cc0f12b65deabb5316c6865fd505502f6c7fa Merge branch into tip/master: 'x86/cleanups'
+6ec374e31aaa3e34aa90ece3ae0f547853dc158d Merge branch into tip/master: 'x86/core'
+3c18808ce39e73162092aa220417176fb6130020 Merge branch into tip/master: 'x86/cpu'
+53013cc2d435f6e0d4364cef192c60dc99f9a99d Merge branch into tip/master: 'x86/misc'
+c926e0b05ce915d1dbe4f84de0eb9c58f2d273ee Merge branch into tip/master: 'x86/percpu'
+ef21c558d84c09c10ae585fe0b601ac8c2f459f6 Merge branch into tip/master: 'x86/sev'
+ec6574a634db84f25e4eee6698d76fed5649e3bd Merge branch into tip/master: 'x86/vmware'
 
---===============0597654910345321131==--
+--===============8261511633820421426==--
