@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0060681369912028953=="
+Content-Type: multipart/mixed; boundary="===============6166809348518976071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 01 Jul 2024 00:06:46 -0000
-Message-Id: <171979240685.25319.14664871535752300792@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 00:07:11 -0000
+Message-Id: <171979243197.26604.17194377401064053790@gitolite.kernel.org>
 
---===============0060681369912028953==
+--===============6166809348518976071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: 43e28e5ae31fecd473faa2d755b46042ee493246
-    new: 4fd25249ded2103dd2df349e28cf9e7def297479
-    log: revlist-43e28e5ae31f-4fd25249ded2.txt
+  - ref: refs/heads/testing
+    old: 6c05a1d1492ca810836af513366aba921fbee6a8
+    new: b399a16d385bd153ec739b96205811f30a7f8f4e
+    log: revlist-6c05a1d1492c-b399a16d385b.txt
 
---===============0060681369912028953==
+--===============6166809348518976071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43e28e5ae31f-4fd25249ded2.txt
+Content-Disposition: attachment; filename=revlist-6c05a1d1492c-b399a16d385b.txt
 
 89b898c627a49b978a4c323ea6856eacfc21f6ba iio: xilinx-ams: Don't include ams_ctrl_channels in scan_mask
 a2b86132955268b2a1703082fbc2d4832fc001b8 iio: adc: ad7266: Fix variable checking bug
@@ -190,8 +190,12 @@ aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.k
 a84fb968e8df41e20505bcc4fa52203657988eec hwmon: (spd5118-core) Add support for 16-bit addressing
 512dd6045388cd45561677598fb9b468e68b00f9 hwmon: (spd5118) Add I3C support
 d6347c1791cda9408b7a51789f6db4dffed1a8af Detect and support 16-bit register addressing
-abe6b61a5cf09ee2d609a17cebdbaa153e18d058 Merge branch 'hwmon-next' into hwmon-staging
-cf92bc9230e1fd9d6dca8d71236136a759e204e1 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-4fd25249ded2103dd2df349e28cf9e7def297479 Merge branch 'hwmon-amc6821' into hwmon-staging
+8b0eb8219fa19fdb8e39c4f74ceb613cb950b57e nios2: Call handle_mm_fault() with interrupts enabled
+12cb49764181ddfc7658290879f0f4f3ae074fdb kunit: time: Add faster unit test with shorter time range
+6767b861e8d2808aeaa58ec9892c2c909215821b Merge branch 'hwmon-next' into testing
+2e4900d0bd5c2d9b237d290c0088d12f3adeaa1d Merge branch 'nios2' into testing
+b72170addb11577c7801b22eb71be6536139db2e Merge branch 'kunit-improvements' into testing
+705db20d6dd10a607be501b33ee5c79249e47787 Merge branch 'hwmon-spd5118-i3c' into testing
+b399a16d385bd153ec739b96205811f30a7f8f4e Merge branch 'hwmon-amc6821' into testing
 
---===============0060681369912028953==--
+--===============6166809348518976071==--
