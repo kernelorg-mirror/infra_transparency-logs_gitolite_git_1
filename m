@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8020005217056920753=="
+Content-Type: multipart/mixed; boundary="===============8523035099257771199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Mon, 01 Jul 2024 12:09:00 -0000
-Message-Id: <171983574077.5541.9197881698874168059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 01 Jul 2024 12:09:56 -0000
+Message-Id: <171983579644.5949.11901755129692134483@gitolite.kernel.org>
 
---===============8020005217056920753==
+--===============8523035099257771199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 66be40e622e177316ae81717aa30057ba9e61dff
-    new: 42391445a86393bdb36b4148971f14a4aa5d97f9
-    log: revlist-66be40e622e1-42391445a863.txt
+  - ref: refs/tags/tty-6.10-rc6
+    old: dc32c0c9f80ffb02a29f5c63d4bdba664c365b84
+    new: 0000000000000000000000000000000000000000
 
---===============8020005217056920753==
+--===============8523035099257771199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66be40e622e1-42391445a863.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ed2a2ef16a6b9197a0e452308bf6acee6e01f709 Bluetooth: Add quirk to ignore reserved PHY bits in LE Extended Adv Report
-897e6120566f1c108b85fefe78d1c1bddfbd5988 Bluetooth: hci_bcm4377: Fix msgid release
-3f35d9b3e9a0e3c4684252ab91e648b96a179482 Bluetooth: btintel_pcie: Fix REVERSE_INULL issue reported by coverity
-ac65ecccae802417ce42e857defacad60e4b8329 Bluetooth: hci_event: Fix setting of unicast qos interval
-88e72239ead9814b886db54fc4ee39ef3c2b8f26 Bluetooth: qca: Fix BT enable failure again for QCA6390 after warm reboot
-0d151a103775dd9645c78c97f77d6e2a5298d913 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
-4183a7be77009fc31c5760429fe095f163bf96a9 Bluetooth: btnxpuart: Enable Power Save feature on startup
-015d79c96d62cd8a4a359fcf5be40d58088c936b Bluetooth: Ignore too large handle values in BIG
-89e856e124f9ae548572c56b1b70c2255705f8fe bluetooth/l2cap: sync sock recv cb and release
-596b6f081336e77764ca35cfeab66d0fcdbe544e Bluetooth: ISO: Check socket flag instead of hcon
-1cc18c2ab2e8c54c355ea7c0423a636e415a0c23 bluetooth/hci: disallow setting handle bigger than HCI_CONN_HANDLE_MAX
-f1a8f402f13f94263cf349216c257b2985100927 Bluetooth: L2CAP: Fix deadlock
-42391445a86393bdb36b4148971f14a4aa5d97f9 Merge tag 'for-net-2024-06-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth into main
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719835796 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1719835795-a9cbc529c562d0394ac3bd16917bb3f87319e526
 
---===============8020005217056920753==--
+dc32c0c9f80ffb02a29f5c63d4bdba664c365b84 0000000000000000000000000000000000000000 refs/tags/tty-6.10-rc6
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnJQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e48QAIkh18T830R2RDCzCkwe
+Vz7Tzvv1mDtztcFceMmreNUCMuHJsykK2QDQb7aBKGZNS1d8nHqGfhO4+R0juUpb
+gshrnAGx5qszoAVXNJUz4fFYQiKU4ZnsImcVyu4r1XquKI45t0KUS3YBhdGNWSgG
+ZVPeURaWDnuv9oP49KQWcqNv7OdwAwLVKARX8vxRs3EHk3606U3g+Qp80LH6FVk3
+V7SeOYpUtShS8nLrcGJHLDd0zjxPO81rbcYrFR81lILxcb9Z2owwWHFT3FcNiNNZ
+ctAtc2IAbmhMuaHMZjkqYOXM5vfecCcWfz2JxBDkXB4BracakCmJZWVrmfZN9Z6S
+YCbuyUEBkBxZAdOLfzJo5iSqcZHG8415YrV1qDPy/zfkKo3WFX/1qRFLgotWysk7
+FTT47fyGt6WXZ6wZ4j1JRi9BF05iLzkbhtyb0N7kYzepj7dEetDBK8nFFI4DkYOM
+6vqUD0F2xo3bKZRQDQ1m1RPp66c0T1P/q43cJXBAEmhIrFMIAXAcz7xujiZ2UwPc
+lJfXiwV7/OjoHDEeovCYa44i6r63ECEV/Mkzba7obVDc6Mh7l9jD/LCxfr8RLTtw
+7NrMFlXKxMvnb5dvTsIkwuDHJqMWef66zs2eUukD6xnD+38fGKFiUMevgklhwlqy
+S+SWPo/z05dvYYMNboEnooWZ
+=F6lg
+-----END PGP SIGNATURE-----
+
+--===============8523035099257771199==--
