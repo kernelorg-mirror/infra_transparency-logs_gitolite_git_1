@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0953953601265717819=="
+Content-Type: multipart/mixed; boundary="===============2142929508348711781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 01 Jul 2024 02:41:03 -0000
-Message-Id: <171980166319.14827.17701609155570723752@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 02:41:14 -0000
+Message-Id: <171980167465.14976.16674951529350226021@gitolite.kernel.org>
 
---===============0953953601265717819==
+--===============2142929508348711781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+  - ref: refs/heads/counter-fixes
+    old: 0cf81c73e4c6a4861128a8f27861176ec312af4e
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-1613e604df0c-22a40d14b572.txt
+    log: revlist-0cf81c73e4c6-22a40d14b572.txt
 
---===============0953953601265717819==
+--===============2142929508348711781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1613e604df0c-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-0cf81c73e4c6-22a40d14b572.txt
 
+971187350602d03c4a27c0783ff412502b95720a driver core: remove devm_device_add_groups()
 44a45be57f85165761fdabf072f9a97aa026ff61 sysfs: Unbreak the build around sysfs_bin_attr_simple_read()
 87bb39ed40bdf1596b8820e800226e24eb642677 KVM: arm64: Reintroduce __sve_save_state
 45f4ea9bcfe909b3461059990b1e232e55dde809 KVM: arm64: Fix prototype for __sve_save_state/__sve_restore_state
@@ -790,7 +791,6 @@ d6c941570680d4d11e5c7480c3bcbeff8d3860f9 Merge tag 'drm-fixes-2024-06-22' of htt
 31392048f55f98cb01ca709d32d06d926ab9760a vxlan: Pull inner IP header in vxlan_xmit_one().
 a38b800db8506e874631df96d827e02fd9cd9e4f Merge tag 'linux-can-fixes-for-6.10-20240621' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 2ea8a02a35ed627fd5d91c765b78718ef5d330fc Merge tag 'batadv-net-pullrequest-20240621' of git://git.open-mesh.org/linux-merge
-0cf81c73e4c6a4861128a8f27861176ec312af4e counter: ti-eqep: enable clock at probe
 d18b822c8f622ed37af7130088a0b7f1eb0b16e6 docs: i2c: summary: start sentences consistently.
 75d148c90a34b94a3e3e7e7b2f30a689d8fbb7c8 docs: i2c: summary: update I2C specification link
 a5b88cb9fdff337a2867f0dff7c5cd23d4bd6663 docs: i2c: summary: update speed mode description
@@ -1051,4 +1051,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============0953953601265717819==--
+--===============2142929508348711781==--
