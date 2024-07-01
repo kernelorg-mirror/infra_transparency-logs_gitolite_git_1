@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4962028693613809426=="
+Content-Type: multipart/mixed; boundary="===============8458048835238783274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 01 Jul 2024 14:26:14 -0000
-Message-Id: <171984397457.15986.11620680992267860467@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 14:27:25 -0000
+Message-Id: <171984404555.16485.3195430447022249042@gitolite.kernel.org>
 
---===============4962028693613809426==
+--===============8458048835238783274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 4752b1fb45adab2ee0fa06a9d1efd09d6c0738d6
-    new: 9db27bc55bd8363570c5a259ff4dc77bd6a0b2cd
-    log: revlist-4752b1fb45ad-9db27bc55bd8.txt
+  - ref: refs/heads/for-next
+    old: 87eab3bd3ac44c28f36d142fc3b8a92a2ddd6294
+    new: 18fa4217da6961a24364775b7237dbbf3fdc3e40
+    log: revlist-87eab3bd3ac4-18fa4217da69.txt
 
---===============4962028693613809426==
+--===============8458048835238783274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4752b1fb45ad-9db27bc55bd8.txt
+Content-Disposition: attachment; filename=revlist-87eab3bd3ac4-18fa4217da69.txt
 
 ddabb3ce3f908a40d0f154defcf5ed327537d0ff arm64: dts: freescale: add TQMa8MPQL on MBa8MP-RAS314
 ee39dbd9a6cbd07a9297693f599e22eb0d34c30c arm64: dts: imx8dxl-evk: add imx8dxl_cm4, lsio mu5, related memory region
@@ -61,5 +61,10 @@ a38d101e46080fd32135b139d8eafb778a214f68 arm64: dts: imx8mp: Update Fast etherne
 29c4d4c54cdd7aeb9dceb4274dbbfb9b687f442a arm64: dts: imx8mp: Add audio XCVR device node
 710bdbee25893a838c22a217a6be98c78d241ff5 arm64: dts: imx8mp-evk: Add audio XCVR sound card
 9db27bc55bd8363570c5a259ff4dc77bd6a0b2cd arm64: dts: imx8mm-verdin: add TPM device
+5bdb097936aa0afb7285254caffe0baa3128b4a2 Merge branch 'imx/soc' into for-next
+61c9b79f4bb49f23bca648db69206aa44af3f53a Merge branch 'imx/bindings' into for-next
+505415788af899e73d4f3bda28d351fca87f0af9 Merge branch 'imx/dt' into for-next
+9774959bc53afe97e0ac35773f7ead5c7d7c1eb0 Merge branch 'imx/dt64' into for-next
+18fa4217da6961a24364775b7237dbbf3fdc3e40 Merge branch 'imx/defconfig' into for-next
 
---===============4962028693613809426==--
+--===============8458048835238783274==--
