@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 01 Jul 2024 00:54:13 -0000
-Message-Id: <171979525382.26784.854531664155199753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 01 Jul 2024 01:47:41 -0000
+Message-Id: <171979846114.7802.15868118927710818843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 5f206dc2f8a2dbf2b3fb18c9cef01e8cb968e70a
-    new: 0af6e129d9d511e5fec5e394f228bd2555428353
+  - ref: refs/heads/main
+    old: ff4f17eb58650784ffb2e8a8fbefebce1038f80b
+    new: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
     log: |
-         0af6e129d9d511e5fec5e394f228bd2555428353 Sun Jun 30 08:53:14 PM EDT 2024
+         7b8a30eceabe7d8828d082c1bfe2458423bbac2f pylibfdt: fix Python version
+         ab86f1e9fda819a920d4243005bf282c0d7b5f4a pylibfdt: add VERSION.txt to Python sdist
+         
+  - ref: refs/heads/master
+    old: ff4f17eb58650784ffb2e8a8fbefebce1038f80b
+    new: ab86f1e9fda819a920d4243005bf282c0d7b5f4a
+    log: |
+         7b8a30eceabe7d8828d082c1bfe2458423bbac2f pylibfdt: fix Python version
+         ab86f1e9fda819a920d4243005bf282c0d7b5f4a pylibfdt: add VERSION.txt to Python sdist
          
