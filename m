@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1866373196248039843=="
+Content-Type: multipart/mixed; boundary="===============3984921162327189901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 01 Jul 2024 12:20:21 -0000
-Message-Id: <171983642127.15305.1738674903563955153@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 12:20:29 -0000
+Message-Id: <171983642913.15431.17693753426722912739@gitolite.kernel.org>
 
---===============1866373196248039843==
+--===============3984921162327189901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+  - ref: refs/heads/staging-linus
+    old: fcdd7b7bda3c21d1ba1247419e4a1eb8e2d0bfbb
     new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-6ba59ff42279-22a40d14b572.txt
+    log: revlist-fcdd7b7bda3c-22a40d14b572.txt
 
---===============1866373196248039843==
+--===============3984921162327189901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719836420 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719836428 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1719836419-ceb5d75d8932307a089dc23b0481c17acaf4b74f
+nonce 1719836424-37d00b35567cd6bfcb1fc5135f8e0a6c3eba402c
 
-6ba59ff4227927d3a8530fc2973b80e94b54d58f 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/main
+fcdd7b7bda3c21d1ba1247419e4a1eb8e2d0bfbb 22a40d14b572deb80c0648557f4bd502d7e83826 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnwQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AIAP+gMyreTNwgJZprgcoqWm
-doxSq3ehir2jqljEASCczpIMvOnR3T/7RWfElcHUlS3IIo8oYGIRG3cqYanXBVBI
-GuztzYfGXPxNTKX8mMCUY2bzxEDfx8H8lp7dmxphWMrbpX+5U0Kr4+AQIGe1mSR8
-RHh7LBz7Ltv7vEnR0+ujkg5C/UN2Txp4OhW9bR24xHalNd4zPCs7o5BCI0HckYRz
-GKpxePMcOjNgJItrR8DI1TMu5wnsdayz4sIqkRoVoGKrJ4Ml0SMWcbeGE2LbzM/J
-emWRoAMf1MQKgyIVtX6ymdHtR+hiipFO0gnmGD0QEPdNwhdK1xLaWuKIXP0I8a14
-EOEOkVOMNa2JnU5ndRXvGqHvCKjGqTbovcQ+6HFLNmeAm6Lakqe8+3Ug8NQ5r/li
-ykANWpTgiFsaXGtuFaG8IsaJxIHMNUTi/c2a3XUprT52yXlwQHrjO7RQ3c5mbJbQ
-UNPz7PN5563l/lCEfpSpgSaoBVnfThmhuCFvmEi7KeRwI7cNDn6We6cITmcIX/ZO
-wuoYDr35462kyxeIc/FdoOqpyGE4IvMhLJ+Kkoc+hXxxL5ZweG4qFGp/v7a7/f6K
-B3VnLGNtKbL9bkpuEKod54OhNL59gT/1Z6L6XZiiCxEbN7JPBgWKE6k+R8R/ynsE
-4N7Eitp8oriSA74RHqn4gw+W
-=z3o1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCnwwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7TkQAIckvEzk1Cjd9M6WKtjX
+7BloL34gk1wa3VFiO3YziWNnMFpquZQDFxmTL72u4sitx8/XZpSy2nzSZ7VG8y3P
+nkuH85ETP6yAXHTgXy2mhAEqYOvDaabaZt/aaGjbziz3WLi9G/6VIzeC8n3cVEeW
+7dzcYgDoSH8D2S5V6pzuBOtNjQcxOl8YYssr2/8pzIemHkUvJwyplyrdpJeyxQRi
+1jXHIVnpjN723UCGZsD9CdKPLna3xha3NeiOe6qJ9s+eDG4WNR6VYLAuFcj9HJ9k
+IdpzM7GCleDBVzpvPnXn2HX/85jtV9uiDKQ9BkMrOgxtBuyfYH1M83JY3ZGOh5rR
+H3Q2+siqyKlu2fIuFROZB2CWa7ZnDYFIQWl6wVS8B1rslCYm3MsuRCPHjFGgixJc
+dIcAA5+i/cQQP3tLNLqWKdsNrbRSWvYd7lTB1DaYxb66PyAbb8OzQRodbyl54lGU
+VSeoa/KcYjg+fMZTjthwNYgt8cy0ElZLu5ADH3yl+5iXVJrAvFeOHWjWzZ5xdyvV
+4RhO0wyT197QJ7VMMvjxaqT6q6QwsDKuKq8lbMhwHutUcfX3pwRxWYCGvciCn7Ii
+eGxNohCkSs9FkK9OrjEqkSvgXa34zYnymFo9tUG/zJ0QtG8ydTTMVuKkALW6qM/9
+VeTR0VPa3oSih/gqJT5ZCVcd
+=Mtx+
 -----END PGP SIGNATURE-----
 
---===============1866373196248039843==
+--===============3984921162327189901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba59ff42279-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-fcdd7b7bda3c-22a40d14b572.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -552,7 +552,6 @@ ecc54006f158ae0245a13e59026da2f0239c1b86 arm64: Clear the initial ID map correct
 280e4ebffd16ea1b55dc09761448545e216f60a9 selftests/bpf: Add tests for may_goto with negative offset.
 7e9f79428372c6eab92271390851be34ab26bfb4 xdp: Remove WARN() from __xdp_reg_mem_model()
 282a4482e198e03781c152c88aac8aa382ef9a55 ASoC: mediatek: mt8195: Add platform entry for ETDM1_OUT_BE dai link
-d941b5877a4eaef367ca48325c22d2e1bd8e8619 staging: vc04_services: vchiq_arm: Fix initialisation check
 aef5daa2c49d510436b733827d4f0bab79fcc4a0 netfilter: fix undefined reference to 'netfilter_lwtunnel_*' when CONFIG_SYSCTL=n
 0ac18dac43103ab1df6d26ec9a781c0126f83ced tty: serial: 8250: Fix port count mismatch with the device
 9d141c1e615795eeb93cd35501ad144ee997a826 serial: 8250_omap: Implementation of Errata i2310
@@ -681,7 +680,6 @@ c362f32a59a84fe4453abecc6b53f5f70894a6d5 iommu/amd: Invalidate cache before remo
 150bdf5f8d8f805d70bebbbfd07697bd2416771a iommu/amd: Fix GT feature enablement again
 1864b8224195d0e43ddb92a8151f54f6562090cc net: mana: Fix possible double free in error handling path
 b62cb6a7e83622783100182d9b70e9c70393cfbe Merge tag 'nf-24-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-fcdd7b7bda3c21d1ba1247419e4a1eb8e2d0bfbb staging: vchiq_debugfs: Fix build if CONFIG_DEBUG_FS is not set
 24bf27b92b1c6a322faa88977de2207aa8c26509 Revert "usb: gadget: u_ether: Re-attach netif device to mirror detachment"
 c50814a288dcee687285abc0cf935e9fe8928e59 Revert "usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach"
 fc1d1a712b517bbcb383b1f1f7ef478e7d0579f2 usb: dwc3: core: Workaround for CSR read timeout
@@ -744,4 +742,4 @@ eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
 
---===============1866373196248039843==--
+--===============3984921162327189901==--
