@@ -1,29 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 01 Jul 2024 13:48:46 -0000
-Message-Id: <171984172637.16853.9898249385502334700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 01 Jul 2024 13:50:03 -0000
+Message-Id: <171984180372.18560.14623870629055136615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 48e326f1cee81d3bb083712c0fc0aaf2c9cc64dd
-    new: 07fbb3e88d2205f2aba6642d56168c05a6ff0010
+  - ref: refs/heads/for-6.11/block
+    old: 62e35f942231e372f8e465d8484de66a60221226
+    new: f3bf25d5135539603f24e377c6dec3016fbd9786
     log: |
-         fcdf830ea634cf0ee6543b6cd6a4932f92464fc7 selftests/hid: ensure CKI can compile our new tests on old kernels
-         762ced1630a97a457ad2fd5f5a36849009808431 HID: bpf: fix gcc warning and unify __u64 into u64
-         260ffc9676b635c2ededc39285bfa41f83536ee1 HID: bpf: doc fixes for hid_hw_request() hooks
-         c79de517a226b86419a5baa867e65e3f8118829f HID: bpf: doc fixes for hid_hw_request() hooks
-         8a89db51873ca574de45b25fce68103f34266459 HID: bpf: Add a HID report composition helper macros
-         09c555faedb855b07d62503e0a4cd8cdf726da20 HID: bpf: add a driver for the Huion Inspiroy 2S (H641P)
-         c4015aa7d8faa43ca53608dccad681eafc22db09 HID: bpf: move the BIT() macro to hid_bpf_helpers.h
-         f03741540dbab48f8a65da44aaadbe04216d9a42 HID: bpf: Add support for the XP-PEN Deco Mini 4
-         9b52d81115db681efc1f83ded1d572e5b0b4fd49 HID: bpf: Add Huion Dial 2 bpf fixup
-         f58e7f404da44c94e46bfe657b8707195aebd25a HID: bpf: Thrustmaster TCA Yoke Boeing joystick fix
-         07fbb3e88d2205f2aba6642d56168c05a6ff0010 Merge branch 'for-6.11/bpf' into for-next
+         4e63aeb5d0101ddada36a2f64f048e2f9d2202fc blk-wbt: don't throttle swap writes in direct reclaim
+         f62e8edc0a9fda84fe5bf32d5f5874b489d6c301 block: remove a duplicate io_min check in blk_validate_limits
+         37105615f73125cb0466c09796f277a4c46d9295 block: don't reduce max_sectors based on io_opt
+         f3bf25d5135539603f24e377c6dec3016fbd9786 nvme: don't set io_opt if NOWS is zero
+         
+  - ref: refs/heads/for-next
+    old: c42a9e372432b6fd441d2e4ab4afa255a9bb6e53
+    new: ce62bd2da74670285a6db79af47d92eaa8a75932
+    log: |
+         4e63aeb5d0101ddada36a2f64f048e2f9d2202fc blk-wbt: don't throttle swap writes in direct reclaim
+         f62e8edc0a9fda84fe5bf32d5f5874b489d6c301 block: remove a duplicate io_min check in blk_validate_limits
+         37105615f73125cb0466c09796f277a4c46d9295 block: don't reduce max_sectors based on io_opt
+         f3bf25d5135539603f24e377c6dec3016fbd9786 nvme: don't set io_opt if NOWS is zero
+         ce62bd2da74670285a6db79af47d92eaa8a75932 Merge branch 'for-6.11/block' into for-next
          
