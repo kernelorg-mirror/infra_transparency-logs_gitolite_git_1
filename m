@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2161391111752908800=="
+Content-Type: multipart/mixed; boundary="===============0897768109980302935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 01 Jul 2024 15:41:54 -0000
-Message-Id: <171984851465.13662.5891668281426443931@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 15:41:57 -0000
+Message-Id: <171984851705.13749.1465517656210566188@gitolite.kernel.org>
 
---===============2161391111752908800==
+--===============0897768109980302935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 748e3bbf47212d5e2e22d731328b0c15ee3b85ae
+  - ref: refs/heads/100GbE
+    old: 0f0023c649c7bc50543fbe6e1801eb6357b8bd63
     new: 74d6529b78f7a440a10aa7f4904ca9f27d1d2f3c
-    log: revlist-748e3bbf4721-74d6529b78f7.txt
+    log: revlist-0f0023c649c7-74d6529b78f7.txt
 
---===============2161391111752908800==
+--===============0897768109980302935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-748e3bbf4721-74d6529b78f7.txt
+Content-Disposition: attachment; filename=revlist-0f0023c649c7-74d6529b78f7.txt
 
 605efd54b50437ed9f3915690539d0afddca9d95 netfilter: nf_tables: make struct nft_trans first member of derived subtypes
 17d8f3ad36a5fa5c93afab90ed03ba7ec748dd03 netfilter: nf_tables: move bind list_head into relevant subtypes
@@ -43,12 +43,6 @@ fe87a8deaad46c9a45381624f7e5f2f4fd145721 netfilter: cttimeout: remove 'l3num' at
 e29630247be24c3987e2b048f8e152771b32d38b netfilter: nf_tables: rise cap on SELinux secmark context
 742ad979f500c7707258b368c413c7215af09ed5 selftests: netfilter: nft_queue.sh: add test for disappearing listener
 f4ebd03496f6b67940b0af92ce885c1d0dc9e121 netfilter: xt_recent: Lift restrictions on max hitcount value
-28cf7829a77fdd0597edb3978bebeb1f8f245b72 MAINTAINERS: update Intel Ethernet maintainers
-4dbb4f9b8fc679fb6c3db79989f64946fc7ff789 ice: Add get/set hw address for VFs using devlink commands
-d47bf9a495cf424fad674321d943123dc12b926d ice: Check all ice_vsi_rebuild() errors in function
-7dfefd0b90488da91de125f7383f966e58bcb034 ice: Allow different FW API versions based on MAC type
-fdd288e9b7647557c51a28e72fd1003e3a9bf906 ice: Distinguish driver reset and removal for AQ shutdown
-0f0023c649c7bc50543fbe6e1801eb6357b8bd63 ice: do not init struct ice_adapter more times than needed
 10154dbded6d6a2fecaebdfda206609de0f121a9 udp: Allow GSO transmit from devices with no checksum offload
 3e400219c04dcfcada224303c8efa2c91beaae0b selftests/net: Add test coverage for UDP GSO software fallback
 db2dede28d824261cd79db98f37c4437371d11b8 Merge branch 'lift-udp_segment-restriction-for-egress-via-device-w-o-csum-offload'
@@ -88,4 +82,4 @@ ba0155f1e9fca8e5c59c840cf5451101b8360fe6 bnxt_en: Allow some TX packets to be un
 f61c72be2dc5880bcba6a467cda5e6059e885eb3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue into main
 74d6529b78f7a440a10aa7f4904ca9f27d1d2f3c net: ethtool: Fix the panic caused by dev being null when dumping coalesce
 
---===============2161391111752908800==--
+--===============0897768109980302935==--
