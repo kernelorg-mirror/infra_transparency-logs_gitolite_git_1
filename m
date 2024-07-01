@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4476538646148706485=="
+Content-Type: multipart/mixed; boundary="===============6123336007411059849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 01 Jul 2024 20:48:26 -0000
-Message-Id: <171986690696.16396.5010595763507795784@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 20:50:42 -0000
+Message-Id: <171986704201.18912.17687569315989429636@gitolite.kernel.org>
 
---===============4476538646148706485==
+--===============6123336007411059849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/soc/drivers
-    old: 1392cb2649e5389a6a87ab3cc1f9c6a760f7b0be
-    new: 276d7eab387a6fbbd423996d585b3ba3e91b346a
-    log: revlist-1392cb2649e5-276d7eab387a.txt
-  - ref: refs/heads/soc/dt
-    old: c5003718cb5ab71b75139a237741f413a147876e
-    new: 35b94a99fc67e1886e3be68179cc7477370f0b2a
-    log: revlist-c5003718cb5a-35b94a99fc67.txt
+  - ref: refs/heads/for-next
+    old: 7e820f46fdc7dcc76a8e955fedf0ca7e7db44b2e
+    new: bf35f851523ae5ab8389763dd68e3b4cb6b920ca
+    log: revlist-7e820f46fdc7-bf35f851523a.txt
 
---===============4476538646148706485==
+--===============6123336007411059849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1392cb2649e5-276d7eab387a.txt
-
-d1d0f1f6ff6013211e3ee00237e4cc25ad0cd64b soc: amlogic: meson-gx-socinfo: Add S905L ID
-2faaab64de0e89697e01f1a0c5d401ea74d52447 soc: amlogic: meson-gx-socinfo: add new A113X SoC id
-5375986e16207e573c0493009d25b0c01f44e01d firmware: meson_sm: add missing MODULE_DESCRIPTION() macro
-f5e6f47f2af07e14f29ae509cbab838df93d224c dt-bindings: firmware: add cznic,turris-omnia-mcu binding
-992f1a3d4e88498de04b0b13b94705d8540f3d81 platform: cznic: Add preliminary support for Turris Omnia MCU
-dfa556e45ae9ecc199e598222debc8f1883a7cce platform: cznic: turris-omnia-mcu: Add support for MCU connected GPIOs
-90e700fd12b618449d2f61e6f933ba5ac435831d platform: cznic: turris-omnia-mcu: Add support for poweroff and wakeup
-ab89fb5fb92c77a9486b6769bc8681251f094c67 platform: cznic: turris-omnia-mcu: Add support for MCU watchdog
-41bb142a4028949a0c8c505f7f4963067b0a739f platform: cznic: turris-omnia-mcu: Add support for MCU provided TRNG
-276d7eab387a6fbbd423996d585b3ba3e91b346a Merge tag 'amlogic-drivers-for-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/drivers
-
---===============4476538646148706485==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5003718cb5a-35b94a99fc67.txt
+Content-Disposition: attachment; filename=revlist-7e820f46fdc7-bf35f851523a.txt
 
 947bde9069c8241afe401433a6eff276595bb073 arm64: dts: amlogic: a1: add cooling-cells for DVFS feature
 049d141161903e656d9475950bb976240802c01c arm64: dts: amlogic: a1: introduce cpu temperature sensor
@@ -53,6 +32,8 @@ Content-Disposition: attachment; filename=revlist-c5003718cb5a-35b94a99fc67.txt
 fe7c551ea03e0df729966e33c58f9955f7408208 arm64: dts: microchip: sparx5_pcb134: move non-MMIO nodes out of axi
 3a94fa4cb86e96103657ba3550ee68b424269613 arm64: dts: microchip: sparx5_pcb135: move non-MMIO nodes out of axi
 5bbe5872fed4497a192556426d75fd9223c5bfeb dt-bindings: power: add Amlogic A4 power domains
+d1d0f1f6ff6013211e3ee00237e4cc25ad0cd64b soc: amlogic: meson-gx-socinfo: Add S905L ID
+2faaab64de0e89697e01f1a0c5d401ea74d52447 soc: amlogic: meson-gx-socinfo: add new A113X SoC id
 6c9b5ba73ca77ef3863cda6560856fdfe7dc237a arm64: dts: amlogic: ad402: move thermal-zones to top node
 f36596adb56f0381c0c46c5fab23ffd201f7e646 dt-bindings: arm: amlogic: add GXLX/S905L/p271 reference board
 f6386b5afa81724164263c30c48de733e0aab74c arm64: dts: meson: add GXLX/S905L/p271 support
@@ -70,6 +51,7 @@ e5d4d006a8c5504dfebce7f090ddfb75444491ba arm64: dts: amlogic: c3: use correct co
 ea99706a438f19cf352242ffabab46bbc76a03d3 arm64: dts: amlogic: a1: use correct node name for mmc controller
 edc15ee0e43948568fa5380c9147feb9a767ae67 arm64: dts: amlogic: a1: drop the invalid reset-name for usb@fe004400
 e822ce43968daf9da4368617d2c948c22ccf93f9 arm64: dts: amlogic: gxbb-odroidc2: fix invalid reset-gpio property
+5375986e16207e573c0493009d25b0c01f44e01d firmware: meson_sm: add missing MODULE_DESCRIPTION() macro
 7d7dd631d1af471a6c909e197be2ef3df526d00f dt-bindings: arm: amlogic: add OSMC Vero 4K
 5feff053b08ce5d2167b9f44bcea3b466b5a81a0 arm64: dts: meson: add support for OSMC Vero 4K
 4132d13bfcdb3551b0d1a6a74e2063351b4bfcaa dt-bindings: add dream vendor prefix
@@ -95,10 +77,20 @@ ecbc5206a1a0532258144a4703cccf4e70f3fe6c arm64: dts: renesas: r9a07g044: Add mis
 bd8d7546f9f74a0a70ea79885d5abcf3d66ad5c0 arm64: dts: renesas: r8a779g0: Tidy up sound DT settings
 07e777318911d76fa787fc57f02b595481382291 arm64: dts: renesas: r8a779h0: R-Car Sound support
 8181a2f151deacf0e806ee124b157e0c2cc99683 Merge tag 'renesas-dts-for-v6.11-tag2-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/dt
+f5e6f47f2af07e14f29ae509cbab838df93d224c dt-bindings: firmware: add cznic,turris-omnia-mcu binding
+992f1a3d4e88498de04b0b13b94705d8540f3d81 platform: cznic: Add preliminary support for Turris Omnia MCU
+dfa556e45ae9ecc199e598222debc8f1883a7cce platform: cznic: turris-omnia-mcu: Add support for MCU connected GPIOs
+90e700fd12b618449d2f61e6f933ba5ac435831d platform: cznic: turris-omnia-mcu: Add support for poweroff and wakeup
+ab89fb5fb92c77a9486b6769bc8681251f094c67 platform: cznic: turris-omnia-mcu: Add support for MCU watchdog
+41bb142a4028949a0c8c505f7f4963067b0a739f platform: cznic: turris-omnia-mcu: Add support for MCU provided TRNG
 04515932e52cbe517cf0e933fd22b254034874c4 ARM: dts: turris-omnia: Add MCU system-controller node
 ade990619444234d96ee5a79ca6305474c6c687b ARM: dts: turris-omnia: Add GPIO key node for front button
+276d7eab387a6fbbd423996d585b3ba3e91b346a Merge tag 'amlogic-drivers-for-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/drivers
 7f8165eee188536e3ca9f65564d4872dc1c2df06 Merge tag 'microchip-dt64-6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/dt
 04f08ef291d4b8d76f8d198bf2929ad43b96eecf arm/arm64: dts: arm: Use generic clock and regulator nodenames
 35b94a99fc67e1886e3be68179cc7477370f0b2a Merge tag 'amlogic-arm64-dt-for-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/dt
+c8f507a590312db7a87a89d455b222865e8e0ab6 Merge branch 'soc/dt' into for-next
+26d7dcc25675f4c0faa852f0988c25698b4f7f01 Merge branch 'soc/drivers' into for-next
+bf35f851523ae5ab8389763dd68e3b4cb6b920ca soc: document merges
 
---===============4476538646148706485==--
+--===============6123336007411059849==--
