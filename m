@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2618037653822932242=="
+Content-Type: multipart/mixed; boundary="===============8136748503315084756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 01 Jul 2024 11:54:29 -0000
-Message-Id: <171983486955.25209.15899250548673620062@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 11:54:42 -0000
+Message-Id: <171983488282.25359.16134363891886231532@gitolite.kernel.org>
 
---===============2618037653822932242==
+--===============8136748503315084756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: c4681b2b3862d2b5e8e3182a4205adf314e321aa
-    new: 783100f6ea0ae74a4ff3d616d4bce3b54badf347
-    log: |
-         783100f6ea0ae74a4ff3d616d4bce3b54badf347 mei: bus-fixup: set timeout for MKHI send operations
-         
+  - ref: refs/tags/char-misc-6.10-rc6
+    old: e11783a8d5da1fdaf08d4c25c00f7dee4478bd54
+    new: 0000000000000000000000000000000000000000
 
---===============2618037653822932242==
+--===============8136748503315084756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719834869 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719834882 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1719834868-7446db72b749e1bea84000eb4634008b985f1887
+nonce 1719834881-85f889886541e8bf861ccb7986287433fa49adf9
 
-c4681b2b3862d2b5e8e3182a4205adf314e321aa 783100f6ea0ae74a4ff3d616d4bce3b54badf347 refs/heads/char-misc-next
+e11783a8d5da1fdaf08d4c25c00f7dee4478bd54 0000000000000000000000000000000000000000 refs/tags/char-misc-6.10-rc6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmPUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JD0QALMQeeA88EMbr75XUAIe
-X0nIJ0m8HjuqiE47Nb9kYoA5J+OqjNJ7Pbv0Lc62A04QGU4Jvr+x+DFb6iaTwoFN
-OpBlYmtlS6CWj5eDwPe0rwQME5RlpqfecDn5qscxYUye0dM2d7w7e0qkg1LM9BM2
-WZWTI5P0Sgh88I5+jQpB4h48h0gsGMG/b4vllcdPZf3aGiYVZ94MPRW9dkN0SIgC
-033dwyqh1eHBsVcxrNj4CwMCzd9ZDvsTndIDhdas+F9zyvvpEzmP2fBQbqKOf/3x
-Q9GqtZDQXgRtnbB/1a4U483hYTtNY2bvrkHG3K/5ifXWkFLY4/pi7i/bvU/Pglf/
-hZi0nDo1Q+uTZY1ahMfR3k4L1kG8nmVUk//Q7T2L1hmCkdyPQ7bLXEAyBpnb0SLF
-Ad+12ncsB78BnW8wVSA8AWfaJk34DHznGoAPfIiNuPt7QHT441qbaPF9cc/vI0OK
-CjZyz1rLSyKWQEM8Qqw/bvh39WFjgqlnsAug0Qs/FsPJu3h+lwhSB5HVGmcqOVxV
-yZgjj7fxFU6uwkfOTWo2pAO/JN4PSBy8th8HEHr/FGKocqZJi86miS9zLHx9hNnn
-GC6AtnujE0HdehzNj7ZAAjjVp4aaaFgOu+jBVhxdsNzh8/WJtHRZJImZQNItyzDj
-SVn6wKIaYCkAqWgCD/qNcj2J
-=XhRY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaCmQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5t0P/R+7rYJ32pWFKTzn0/yv
+2XR3lbrf5XhCfs0Ml5i0MeOa9iWXKYOnFGcJiPDL3yKqIdQ12+IIKw5dY8w80TWV
+wtgRh6fll00Kx7tjTiDlaOprPNz1v53mKlGmJCrLAxPKeG8iwQjapSObWKVAeou0
+M4AXawBwpfRGlZICiXdexPstHMvwPU4RZ3O19XqJAz8Vuw7cUR7gvD26uWhLrDzr
+9/mQ5Z3IVaY/8gp4Xry9DEsOHIEc6yVLQEUzsieC7uNLB3oqUvC9je1yIzzm7H3J
+s+g+LiHZxftHTjtHNkIphuCKcTKLjWjGucKy+rV8PlOkKKHbToV3uqyF52vkrgy9
+WEr43nKmW2ddRgi8ocYahiJdj7Tg29QNFiypoo5Fk8llKwd0aTaz6b4aKHntrXDk
+MCb1iVWmmftt0CFOvkHHMhOPGmMdIW8IVAu16aHOboWnKlnH7HfvS/i1L8pwap0T
+tae52mvJv5vXaDmXyrPV4wmsrwsAr2bCZ0NayyWeyfB/gxxOGroq3I9FUCU2mbGl
++k8H5Rpi4QPEFZs3gw1JwaivhxjxASBelE8sstidzMDxRfirj3c+EV9I082rwTn1
+a3rLL7Jiuqk9nLAtCS7ciSk4MD+SueI4DdL5MJ2QH0iFJpgnXtAnCGROGBCiEdFT
+ZXVxIDd5uk8jUL/N2GhrTVZE
+=YBKg
 -----END PGP SIGNATURE-----
 
---===============2618037653822932242==--
+--===============8136748503315084756==--
