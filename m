@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 01 Jul 2024 13:46:11 -0000
-Message-Id: <171984157114.15887.7158204368846709215@gitolite.kernel.org>
+Date: Mon, 01 Jul 2024 13:48:46 -0000
+Message-Id: <171984172637.16853.9898249385502334700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/for-6.11/bpf
-    old: d3e15189bfd4d0a9d3a7ad8bd0e6ebb1c0419f93
-    new: f58e7f404da44c94e46bfe657b8707195aebd25a
+  - ref: refs/heads/for-next
+    old: 48e326f1cee81d3bb083712c0fc0aaf2c9cc64dd
+    new: 07fbb3e88d2205f2aba6642d56168c05a6ff0010
     log: |
          fcdf830ea634cf0ee6543b6cd6a4932f92464fc7 selftests/hid: ensure CKI can compile our new tests on old kernels
          762ced1630a97a457ad2fd5f5a36849009808431 HID: bpf: fix gcc warning and unify __u64 into u64
@@ -25,4 +25,5 @@ changes:
          f03741540dbab48f8a65da44aaadbe04216d9a42 HID: bpf: Add support for the XP-PEN Deco Mini 4
          9b52d81115db681efc1f83ded1d572e5b0b4fd49 HID: bpf: Add Huion Dial 2 bpf fixup
          f58e7f404da44c94e46bfe657b8707195aebd25a HID: bpf: Thrustmaster TCA Yoke Boeing joystick fix
+         07fbb3e88d2205f2aba6642d56168c05a6ff0010 Merge branch 'for-6.11/bpf' into for-next
          
