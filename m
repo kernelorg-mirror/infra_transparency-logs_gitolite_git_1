@@ -1,15 +1,15 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 01 Jul 2024 20:16:22 -0000
-Message-Id: <171986498214.25931.2773625748734420399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 01 Jul 2024 20:22:46 -0000
+Message-Id: <171986536693.29801.3768420320990497912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 9903efbddba0d14133b5a3c75088b558d2e34ac3
