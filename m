@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 01 Jul 2024 12:38:09 -0000
-Message-Id: <171983748911.28675.9908277516376401063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 01 Jul 2024 12:39:29 -0000
+Message-Id: <171983756904.29224.5105924020033276341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/renesas-pinctrl-for-v6.11-tag2
-    old: 0000000000000000000000000000000000000000
-    new: e559aa5ade25f718e14228f17c82f415175697b8
+  - ref: refs/heads/master
+    old: e889581f65636e83631297de09c9c000b49a300c
+    new: f8ae8ed48b84ea38e3556f620ade901ac09d93af
+    log: |
+         f8ae8ed48b84ea38e3556f620ade901ac09d93af libfdisk: fix fdisk_partition_start_follow_default() docs
+         
