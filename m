@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6955787532978661023=="
+Content-Type: multipart/mixed; boundary="===============7232902209617048432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 02 Jul 2024 19:17:50 -0000
-Message-Id: <171994787033.1068.8509393539656903328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Jul 2024 19:18:11 -0000
+Message-Id: <171994789141.1265.4152780552323335037@gitolite.kernel.org>
 
---===============6955787532978661023==
+--===============7232902209617048432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 6b521fc111a2ad5ead39776960d3d2d289ce0722
-    new: de3f6bcdbb36aec9570117538bab7d77ab8d4fbd
-    log: |
-         de3f6bcdbb36aec9570117538bab7d77ab8d4fbd driver core: have match() callback in struct bus_type take a const *
-         
+  - ref: refs/heads/x86/cache
+    old: f385f024639431bec3e70c33cdbc9563894b3ee5
+    new: ea34999f41873c96ac89e861e5fdfc7d0403f9e3
+    log: revlist-f385f0246394-ea34999f4187.txt
 
---===============6955787532978661023==
+--===============7232902209617048432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f385f0246394-ea34999f4187.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719947865 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1719947863-f499a6b1cd146d13521937df115a26e4ba44204c
+f436cb6913a57bf3e1e66d18bc663e6c20751929 x86/resctrl: Prepare for new domain scope
+c103d4d48e1599a88001fa6215be27d55f3c025b x86/resctrl: Prepare to split rdt_domain structure
+cd84f72b6a5c10f79f19fab67b0edfbc4fdbc5b1 x86/resctrl: Prepare for different scope for control/monitor operations
+cae2bcb6a2c691ef7b537ad07e9819a5ed645bcc x86/resctrl: Split the rdt_domain and rdt_hw_domain structures
+1a171608ee8d40d22d604303e42f033c69151123 x86/resctrl: Add node-scope to the options for feature scope
+e13db55b5a0d447dea63cde772c1078405bbbf96 x86/resctrl: Introduce snc_nodes_per_l3_cache
+ac20aa423052553c005089b00f1e3caf79d3c1d3 x86/resctrl: Block use of mba_MBps mount option on Sub-NUMA Cluster (SNC) systems
+328ea688746420e12ced6cfbc5064413180244cc x86/resctrl: Prepare for new Sub-NUMA Cluster (SNC) monitor files
+fb1f51f677585f1b1ba17d2390963bbebe7a8cfa x86/resctrl: Add a new field to struct rmid_read for summation of domains
+587edd7069b9e7dc7993d2df9371e7c37a4d2133 x86/resctrl: Initialize on-stack struct rmid_read instances
+603cf1e28838a01e4f140c3054ce147f8b087d08 x86/resctrl: Refactor mkdir_mondata_subdir() with a helper function
+92b5d0b1189ea9e9f00ae493fc99102fe7f2442f x86/resctrl: Allocate a new field in union mon_data_bits
+0158ed6a1335ff37f0336a986d7b99d6e97d46e9 x86/resctrl: Create Sub-NUMA Cluster (SNC) monitor files
+6b48b80b08e6f08eea8eaf7e44555ada191b6bee x86/resctrl: Handle removing directories in Sub-NUMA Cluster (SNC) mode
+c8c7d3d904b76c45fe2b5dc982fb5090d12a63af x86/resctrl: Fill out rmid_read structure for smp_call*() to read a counter
+9fbb303ec949a376f3cbdf6a2b66ad2212c24ebc x86/resctrl: Make __mon_event_count() handle sum domains
+21b362cc762aabb3e8496d33d7b4538154c95a0b x86/resctrl: Enable shared RMID mode on Sub-NUMA Cluster (SNC) systems
+13488150f5e2a9b84a335ae18bee33a918ead85d x86/resctrl: Detect Sub-NUMA Cluster (SNC) mode
+ea34999f41873c96ac89e861e5fdfc7d0403f9e3 x86/resctrl: Update documentation with Sub-NUMA cluster changes
 
-6b521fc111a2ad5ead39776960d3d2d289ce0722 de3f6bcdbb36aec9570117538bab7d77ab8d4fbd refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaEUlkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9oEP/3EM9AH1dupsz9Sy5W0S
-hFddMC88HAsHLotOGd13mtp3H4TwIPfmpr7iwWkg0jTYLuNt+QFJksRQHbEbuMNk
-tDk7gSC0Uv/vLqKlSiWe4cbpTGWCE7Z1lnzSI4Ek+TludeMmCIZyJedkrsJG+Vz8
-QwmkK1jpDJzPR/Bto1hiHsnQYUFcGFa30lgc1IIfAB3y/xKcx3sR4rY84YBG7K8z
-QVw9JN2wqjjb4RLdfkOXRwF+AZxYPXrxv2n2+UxBLKidwcsLYQdqXZwKeDFjedva
-hEhld61077Vxgn3AwyRoyh8sa2W2me60UylBZGFWXz7B5vX9fGVKYInKtU7A8diD
-xa5irrXPDYaSUU91sAhJQP+0LkwwTgsTks9CMZBztGKzseyWvx8uaX0Q6VyPC78U
-c3MeiQo2ZJpY7Du+xbhubVLAb2poTgdJkdrcsD5l+bf+5gEj4t3YVKYiYeb/fpPZ
-9LXkJLxvQty6eQQ+WaaTTnKAqjVqySDcixaqdx5cXYEmBHAOxjvisfY9XiytVnHf
-FKekHlFVk053Lxp3k5HR13KzeDbd/dXO8aJTIhg4yL53lklaOKCu2MRGi585bKmB
-+sFL+1h+YB+wY1l0kJomYyLw+7Pu0TWWWG/DXMjeybjCcm9IAY5oaLgGe5lW7r/g
-p/CWKwJTc3Lef86xLK9fhkc9
-=J8vc
------END PGP SIGNATURE-----
-
---===============6955787532978661023==--
+--===============7232902209617048432==--
