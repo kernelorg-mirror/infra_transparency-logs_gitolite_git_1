@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7791431103985372265=="
+Content-Type: multipart/mixed; boundary="===============7626631110658648150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 02 Jul 2024 08:02:34 -0000
-Message-Id: <171990735484.27806.10831831706875100446@gitolite.kernel.org>
+Date: Tue, 02 Jul 2024 08:07:58 -0000
+Message-Id: <171990767860.32618.6658343235390998272@gitolite.kernel.org>
 
---===============7791431103985372265==
+--===============7626631110658648150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: a11aaf6d0bb4282ce1989e388b13f8d87154ba75
-    new: 22a40d14b572deb80c0648557f4bd502d7e83826
-    log: revlist-a11aaf6d0bb4-22a40d14b572.txt
+  - ref: refs/heads/for-next
+    old: d9ddc122becceecd715c6d3e5b75d2b3fe05dc49
+    new: 73defebe13ff5494ee577c1c74d5aa733d090758
+    log: revlist-d9ddc122becc-73defebe13ff.txt
 
---===============7791431103985372265==
+--===============7626631110658648150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a11aaf6d0bb4-22a40d14b572.txt
+Content-Disposition: attachment; filename=revlist-d9ddc122becc-73defebe13ff.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 aad11473f8f4be3df86461081ce35ec5b145ba68 NFSv4: Fix memory leak in nfs4_set_security_label
@@ -962,5 +962,36 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
+618a47dd5e8b0f37d787563a11e85f464c83eafc initramfs: shorten cmd_initfs in usr/Makefile
+e15b8c12257c8464181d17943ba300e2b1d3e530 kconfig: qconf: remove initial call to conf_changed()
+6b62c44f3205a288d3a0bc660809f469250a6436 kconfig: gconf: remove unnecessary forward declarations
+a5f1bd7ec76cd5be13c82a7af948ea832caa7391 kconfig: gconf: move conf_changed() definition up
+3b4ffde94f570a464cd7c1143cd95eef18f7ae16 kconfig: pass new conf_changed value to the callback
+3fe1b68742a3bb85a286ecafe9b3341684dfe9ff kconfig: remove tristate choice support
+0390add802e5d4c7cb8cbed908ff45cea0ad10b3 kconfig: refactor conf_set_all_new_symbols() to reduce indentation level
+f202965f9b83c62bc8d3e052d5a00fca26cece4d kconfig: refactor conf_write_defconfig() to reduce indentation level
+ef5fbb66251c5cc25bc88eef050f5d74565e2b0f kbuild: refactor variables in scripts/link-vmlinux.sh
+67bf347ba924ee66f7e2fcc7471f813b08f6cefc kbuild: remove PROVIDE() for kallsyms symbols
+79e71f6248ce12e5308525f3a89f5f0faaebaa03 kbuild: merge temporary vmlinux for BTF and kallsyms
+fd21f36da65cab8fab60449927b6de2416e76295 kconfig: add -e and -u options to *conf-cfg.sh scripts
+42b3bf3c987c79fe4e58c6730306a57aa9f9ca9a kbuild: package: add -e and -u options to some shell scripts
+2699a76e5425f9be2f7658e07a655edb835e764c kconfig: remove unneeded code in expr_compare_type()
+a94b1a4ff15a467e15fe67bfcfcd5ba24b2a9bb4 kconfig: add fallthrough comments to expr_compare_type()
+31b16b0a2e886b8baf5700a818ec3185c7e51639 kconfig: introduce choice_set_value() helper
+235d2633d0547f736f05cfb635a1c332cf090076 kconfig: remember the current choice while parsing the choice block
+546716d7a7e3d91c1365bae22e66a5be43b2b301 kbuild: move init/build-version to scripts/
+f4c4503e8ba188d4a6a2646646285f73dd7158a4 modpost: Enable section warning from *driver to .exit.text
+e7ad3ca3c56b1ba5434b80cef93b8378880e48a9 kconfig: import list_move(_tail) and list_for_each_entry_reverse macros
+c860d201d03661afdd8df9372116994ce234133f kconfig: refactor choice value calculation
+3a9026fd288d2fb6a53c7a5a2a8d591ae7d1073f kconfig: remove sym_get_choice_value()
+1598426a8e5e7da276867e11ff652583da68e172 kconfig: remove conf_unsaved in conf_read_simple()
+fe6389dd314a28107f42fd9bdee0594f74471af1 kconfig: change sym_choice_default() to take the choice menu
+3d70ce255b00b4eb7dccadb54d0ba48f67f10ef3 kconfig: use menu_list_for_each_sym() in sym_choice_default()
+823917de4e6a4b7a8eb4b6d1400d8913216e0788 kconfig: remove expr_list_for_each_sym() macro
+95d6d689086e576dcdd41e5950b572f8d9357c3b kconfig: use sym_get_choice_menu() in sym_check_print_recursive()
+037c92c0e5919bf1840ff0729c39f95392ef2cb5 kconfig: use sym_get_choice_menu() in sym_check_choice_deps()
+4bdcb7638d11fef6661a0b4892cd3edaac9db642 kconfig: use sym_get_choice_menu() in sym_check_deps()
+4dde7b0c9b4fd464372946ef44983862a3c252ff kconfig: remove P_CHOICE property
+73defebe13ff5494ee577c1c74d5aa733d090758 kconfig: remove E_LIST expression type
 
---===============7791431103985372265==--
+--===============7626631110658648150==--
