@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0345964262670352637=="
+Content-Type: multipart/mixed; boundary="===============8297913505188450007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 02 Jul 2024 09:22:04 -0000
-Message-Id: <171991212492.6204.12585752472865710852@gitolite.kernel.org>
+Date: Tue, 02 Jul 2024 09:23:21 -0000
+Message-Id: <171991220172.6768.169718244075291704@gitolite.kernel.org>
 
---===============0345964262670352637==
+--===============8297913505188450007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,35 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.11/buckets
-    old: 0000000000000000000000000000000000000000
-    new: a7555f5f17d7791613396e2855ebc73a5ba227ad
+  - ref: refs/heads/slab/for-6.11/cleanups
+    old: f10d55c754722dfea7e551c1716df157689add62
+    new: 4a24bbabc826eaba6f94a9741712117b8e2b0587
+    log: |
+         4a24bbabc826eaba6f94a9741712117b8e2b0587 slab: delete useless RED_INACTIVE and RED_ACTIVE
+         
 
---===============0345964262670352637==
+--===============8297913505188450007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1719912119 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1719912192 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1719912119-e29cf0140991f846e0e2b8b18d09b918cd165b3b
+nonce 1719912192-70e151c388a3bb611d08e4df61050c4e456a7dff
 
-0000000000000000000000000000000000000000 a7555f5f17d7791613396e2855ebc73a5ba227ad refs/heads/slab/for-6.11/buckets
+f10d55c754722dfea7e551c1716df157689add62 4a24bbabc826eaba6f94a9741712117b8e2b0587 refs/heads/slab/for-6.11/cleanups
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaDxrcACgkQu+CwddJF
-iJpqGAf8DCCVAW8dx6TwXHZJehef3eBlf0Ohl9ai6YpNFTrH5fvBVcuhBUMHZ7in
-CQu98LXl6YIJHo5VGIdoeReMUuBjPgem8sqdH5FizZjWTMOYOJ2J0Jg2gC+F9iId
-C6Fln9G10yXDjW14E9Oe2y9arn1/buh0pz4zBTJeFJjJETXn6q6zgvlYFCDWcWZG
-3+d7248ZNSO8dyXcvrmWTSdjvNJ4BwM+/wT/bFSUI34rDKbK74EAu9Sn/OrgR/c8
-rU5U+Gak0RI8Fb727xZ8po+rfJ/ZVaLvLlGh9MYVXAa96AJUKdAW+FmGy2sk0THC
-yAOQACT5+enAQHUdmd2vrCHbt05uxA==
-=VP1e
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaDxwAACgkQu+CwddJF
+iJoY6Af/c24inf6Nc+Obf1kSaKJVpo8Z7C7Q2A8S0bDaB+k7GO1LmoOfjJW0/SG+
+bjDqYMNdqMh8iUljEji78Fy+b6b+SVs3B+K3b1cMSRrM57f/OUaXX2J0XWsZLPKS
+q6tOwEIztxVccdBBG4TDdZ17c8POjudOGbP7pLmrUsW+fRFCULQz5vxtwngU5KSG
+DYHVedNinpyMay/8P30HjXvwVQcElAy9nmpgfe+uLaviGWxOqhINMg8VJioxxpsy
++2kvR5zXrDiR8hI9kgNKLQzHi/xL0paJl/QB24Wf0sRkikchtbDt2/k+dQm2CpbW
+b2+Jw74cxYEkW1DbGh6dqi/DQGXhOQ==
+=ytHe
 -----END PGP SIGNATURE-----
 
---===============0345964262670352637==--
+--===============8297913505188450007==--
