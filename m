@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Tue, 02 Jul 2024 10:23:28 -0000
-Message-Id: <171991580828.17241.2686293508753364063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 02 Jul 2024 10:23:58 -0000
+Message-Id: <171991583894.17492.828975730450198288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: b49cbdf48362aa431807a459e1e5c0c2d9549512
-    new: df1d9bddc868085a5f407d44208e57ff6dfd3bdc
+  - ref: refs/heads/linux-next
+    old: 7cd23c1817b8f9df61dac67848d9593b1ca8882f
+    new: 611ff1b1ae989a7bcce3e2a8e132ee30e968c557
     log: |
-         3cbe13403ec0c78374343dcd889609aefe791f9b mdadm: Fix socket connection failure when mdmon runs in foreground mode.
-         df1d9bddc868085a5f407d44208e57ff6dfd3bdc CI: use prepared checkpatch.conf file only for GH actions
+         1c682593096a487fd9aebc079a307ff7a6d054a3 xen: privcmd: Switch from mutex to spinlock for irqfds
+         611ff1b1ae989a7bcce3e2a8e132ee30e968c557 xen: privcmd: Fix possible access to a freed kirqfd instance
          
