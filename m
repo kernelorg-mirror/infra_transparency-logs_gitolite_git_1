@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 02 Jul 2024 16:11:50 -0000
-Message-Id: <171993671072.22108.5084244444346137865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 02 Jul 2024 16:13:27 -0000
+Message-Id: <171993680718.22722.6075977089233208345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/kdevops
-    old: ffea140f1d274b60319934e29446f72d74afd29b
-    new: 920698b0428e08d57a6754c78e3203128661ffc7
+  - ref: refs/heads/kunit
+    old: cf6219ee889fb304cf8192c707ad280d93baafc7
+    new: 67c9971cd6d309ecbcb87b942e22ffc194d7a376
     log: |
-         e3e6c45bd2c783bf0bfc5ba09490cfa52af1f85d fs: add percpu counters to count fine vs. coarse timestamps
-         9bd05b2133f6fe65ec1018a4b826c040e455c5a5 fs: have setattr_copy handle multigrain timestamps appropriately
-         b083b3dbe211b5f720efad159d09d9ac0908aa94 xfs: switch to multigrain timestamps
-         93f07043718cea037e22d6c2e3b9937d3c78ac61 ext4: switch to multigrain timestamps
-         e584d85c903ddbf2bbdd028b684ee9a2cb1d9620 btrfs: convert to multigrain timestamps
-         1e231e419d9b5ff675db0723030081f73468f153 tmpfs: add support for multigrain timestamps
-         920698b0428e08d57a6754c78e3203128661ffc7 Documentation: add a new file documenting multigrain timestamps
+         4d6cf248325f686f256f2446f3f9d5fbab6e4356 kunit/usercopy: Disable testing on !CONFIG_MMU
+         67c9971cd6d309ecbcb87b942e22ffc194d7a376 kunit/usercopy: Add missing MODULE_DESCRIPTION()
          
