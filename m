@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 02 Jul 2024 17:21:12 -0000
-Message-Id: <171994087294.11947.16002508120463786042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Tue, 02 Jul 2024 17:52:08 -0000
+Message-Id: <171994272808.1507.3065944287197490088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/next-fixes
-    old: 7df55ba2b07f3bf3c5ba298ebe4fa2d642b5352b
-    new: 5b63f5b7f7bad54e1a596210c87c63bd3151e1ce
+  - ref: refs/heads/bleeding-edge
+    old: b476b2371118da13ccf5d593483b142d99c60ef1
+    new: 0d0d974716f9f53b2ae15dfe02a96b3b7fba6737
     log: |
-         de7d52e5625f8cadf8e31d83a75e256ad0ddb3d0 btrfs: fix folio refcount in btrfs_do_encoded_write()
-         e8bde31ed7fa39a7e0f3fff0687d292e12a6f311 btrfs: fix folio refcount in __alloc_dummy_extent_buffer()
-         5b63f5b7f7bad54e1a596210c87c63bd3151e1ce Merge branch 'misc-6.10' into next-fixes
+         7b3bffefe4eb6a6dea83171072def202ebcbddab cpufreq/amd-pstate-ut: Convert nominal_freq to khz during comparisons
+         0d0d974716f9f53b2ae15dfe02a96b3b7fba6737 cpufreq/amd-pstate: Fix the scaling_max_freq setting on shared memory CPPC systems
          
