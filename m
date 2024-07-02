@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6522839239143622123=="
+Content-Type: multipart/mixed; boundary="===============0345964262670352637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 02 Jul 2024 09:18:52 -0000
-Message-Id: <171991193278.3367.957378464946682235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 02 Jul 2024 09:22:04 -0000
+Message-Id: <171991212492.6204.12585752472865710852@gitolite.kernel.org>
 
---===============6522839239143622123==
+--===============0345964262670352637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 73defebe13ff5494ee577c1c74d5aa733d090758
-    new: fc8ad8ff95ebb8ced462fbed48b65c9fe2447b8d
-    log: revlist-73defebe13ff-fc8ad8ff95eb.txt
+  - ref: refs/heads/slab/for-6.11/buckets
+    old: 0000000000000000000000000000000000000000
+    new: a7555f5f17d7791613396e2855ebc73a5ba227ad
 
---===============6522839239143622123==
+--===============0345964262670352637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73defebe13ff-fc8ad8ff95eb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9d34874485fdef59eef26f811710762e492d64d8 scripts/make_fit: Support decomposing DTBs
-7c055c9649db640657de2fb4aa8f0ffbaf574f9a kconfig: import list_move(_tail) and list_for_each_entry_reverse macros
-891a273bda452d3c1759344d266abf353a3f02f8 kconfig: refactor choice value calculation
-91514f2fef26921e4e6d21ee5fc34aa3697e7dfb kconfig: remove sym_get_choice_value()
-2b0d84402fac7ac9d4db6e95109857ac7bf90734 kconfig: remove conf_unsaved in conf_read_simple()
-2fb973b5504985af49d45c3fe7a0a3c1b0a67e49 kconfig: change sym_choice_default() to take the choice menu
-d60165a7be9c33110d5b07e269a117dcc8ec89e2 kconfig: use menu_list_for_each_sym() in sym_choice_default()
-f1b7ecd7f9dbd54fb8ac80dc8471764557419e6d kconfig: remove expr_list_for_each_sym() macro
-f760c86b8a196b45a8f066fcdcf9d27ec9d00be3 kconfig: use sym_get_choice_menu() in sym_check_print_recursive()
-9c5c1fa89b67e5fccb4288f3ef4fcabfaa3de0fd kconfig: use sym_get_choice_menu() in sym_check_choice_deps()
-cab75b43569459d7ccf06359cc7546089e7e2d91 kconfig: use sym_get_choice_menu() in sym_check_deps()
-6d3f45228338d094f0ad09a12188d0121045881f kconfig: remove P_CHOICE property
-fc8ad8ff95ebb8ced462fbed48b65c9fe2447b8d kconfig: remove E_LIST expression type
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1719912119 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1719912119-e29cf0140991f846e0e2b8b18d09b918cd165b3b
 
---===============6522839239143622123==--
+0000000000000000000000000000000000000000 a7555f5f17d7791613396e2855ebc73a5ba227ad refs/heads/slab/for-6.11/buckets
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaDxrcACgkQu+CwddJF
+iJpqGAf8DCCVAW8dx6TwXHZJehef3eBlf0Ohl9ai6YpNFTrH5fvBVcuhBUMHZ7in
+CQu98LXl6YIJHo5VGIdoeReMUuBjPgem8sqdH5FizZjWTMOYOJ2J0Jg2gC+F9iId
+C6Fln9G10yXDjW14E9Oe2y9arn1/buh0pz4zBTJeFJjJETXn6q6zgvlYFCDWcWZG
+3+d7248ZNSO8dyXcvrmWTSdjvNJ4BwM+/wT/bFSUI34rDKbK74EAu9Sn/OrgR/c8
+rU5U+Gak0RI8Fb727xZ8po+rfJ/ZVaLvLlGh9MYVXAa96AJUKdAW+FmGy2sk0THC
+yAOQACT5+enAQHUdmd2vrCHbt05uxA==
+=VP1e
+-----END PGP SIGNATURE-----
+
+--===============0345964262670352637==--
