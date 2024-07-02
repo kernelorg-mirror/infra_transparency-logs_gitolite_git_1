@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6369270959780254460=="
+Content-Type: multipart/mixed; boundary="===============1834541789947249246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Jul 2024 15:23:19 -0000
-Message-Id: <171993379902.17047.14977484152290952384@gitolite.kernel.org>
+Date: Tue, 02 Jul 2024 15:23:25 -0000
+Message-Id: <171993380523.17183.3136878177358517610@gitolite.kernel.org>
 
---===============6369270959780254460==
+--===============1834541789947249246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 74d6529b78f7a440a10aa7f4904ca9f27d1d2f3c
     new: ac26327635d643efe173e7460fa09eb39f0e5c54
     log: revlist-74d6529b78f7-ac26327635d6.txt
 
---===============6369270959780254460==
+--===============1834541789947249246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ d01e0e98de31f9cc5cf328f5eb7ae3d7a13c1021 dt-bindings: net: dwmac: Validate PBL f
 f8dbe58e2f1a3c091531b3f8ef86b393ceee67d1 net: stmmac: dwmac-stm32: update err status in case different of stm32mp13
 ac26327635d643efe173e7460fa09eb39f0e5c54 Merge branch 'fixes-for-stm32-dwmac-driver-fails-to-probe'
 
---===============6369270959780254460==--
+--===============1834541789947249246==--
