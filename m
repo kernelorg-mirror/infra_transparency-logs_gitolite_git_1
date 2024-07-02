@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/nf-next
-Date: Tue, 02 Jul 2024 09:37:51 -0000
-Message-Id: <171991307189.1626.5276597414298257237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 02 Jul 2024 09:41:11 -0000
+Message-Id: <171991327144.18306.4523044561429521721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fwestphal/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/flush_uncond
-    old: 0000000000000000000000000000000000000000
-    new: f2a491c9c7291712b5902c8075cefc09f535a0e5
+  - ref: refs/heads/gpio/for-next
+    old: 7828b7bbbf2074dd7dd14d87f50bc5ce9036d692
+    new: 6f2a875024993449f1b19a144d3e4391411a1b51
+    log: |
+         6f2a875024993449f1b19a144d3e4391411a1b51 gpiolib: unexport gpiochip_get_desc()
+         
