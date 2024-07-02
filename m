@@ -1,45 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4573095321844489864=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 02 Jul 2024 15:56:17 -0000
-Message-Id: <171993577761.10050.12479417011746923839@gitolite.kernel.org>
-
---===============4573095321844489864==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 02 Jul 2024 15:56:26 -0000
+Message-Id: <171993578634.10193.7246641514259024862@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: c9d808b94f07fa8c255e2b46841a2dca20578d29
-    new: 5d347070ed49f518e0cc36fcc3191b3fb8ac7ece
-    log: revlist-c9d808b94f07-5d347070ed49.txt
-
---===============4573095321844489864==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9d808b94f07-5d347070ed49.txt
-
-60508dae3a64118dfbbbbe31dbceeedf074a0dff ice: Fix improper extts handling
-9bfc1524f2b4902517822dfc21cc4a15b7bc89ad ice: Don't process extts if PTP is disabled
-8ad38e4dfddb19b605bd6a56a3396a8b139322ea ice: Reject pin requests with unsupported flags
-fdc2b5f54ec3381fda641a3441b5697c5947d0a2 i40e: Fix XDP program unloading while removing the driver
-1dbc20194c0b90006f2a61added7517e770d204f igc: Fix double reset adapter triggered from a single taprio cmd
-497a5ee4d53e036d2d291d66e5e16b2e6bd537f8 ice: Fix lldp packets dropping after changing the number of channels
-b5f5567b07f4f4b5371c66778511a4f2aa31da63 ice: respect netif readiness in AF_XDP ZC related ndo's
-5d3bb6c8de7603387b12119ab8fd332e27cf1bd4 ice: don't busy wait for Rx queue disable in ice_qp_dis()
-aeab55664d7c7bab11da40fc711bdcb31effd02d ice: replace synchronize_rcu with synchronize_net
-46d3b6c697f21a79c765ba7dae9d360de189d8f4 ice: modify error handling when setting XSK pool in ndo_bpf
-f0ec527835fa71f6e5ada284d838d026627b435d ice: toggle netif_carrier when setting up XSK pool
-b22370b7db0af14f6a60174edbd9b9b5d9c2128e ice: improve updating ice_{t, r}x_ring::xsk_pool
-8bffaebd88d4b5103a8c554ebc4cf6d46b5fc4a6 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
-3edf4e582eebeaf1d2eea724e473f0fdd6254d80 ice: xsk: fix txq interrupt mapping
-5d347070ed49f518e0cc36fcc3191b3fb8ac7ece ice: Fix recipe read procedure
-
---===============4573095321844489864==--
+    old: afe3f89f649d22e3485cbcc062a6002c7145727b
+    new: 27864e9365f7bdf8ac11836fac8ee532afb6570d
+    log: |
+         f8354fcd3650af3448393990906599ca084a5ad3 ice: Fix recipe read procedure
+         c01b21992f998d5726b20712916222b746357e40 ice: Remove unused struct ice_prot_lkup_ext members
+         7e1bacd5198e89d7312a271360c0e2b0d1d47c6a ice: Remove reading all recipes before adding a new one
+         877d9734b7c83e5002d2bf96178f6a4a3574991f ice: Simplify bitmap setting in adding recipe
+         155f11c6d3947d440a22ead5309816947f65a4c2 ice: remove unused recipe bookkeeping data
+         6d82b8eda4c748973b11bf791484ccdc3f89dc51 ice: Optimize switch recipe creation
+         9cc1cc37b0a73fdbef74d71da18b5967aae3e24f ice: Remove unused members from switch API
+         27864e9365f7bdf8ac11836fac8ee532afb6570d ice: Add tracepoint for adding and removing switch rules
+         
