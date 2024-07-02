@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 02 Jul 2024 17:12:21 -0000
-Message-Id: <171994034145.4984.14791099460669149094@gitolite.kernel.org>
+Date: Tue, 02 Jul 2024 17:12:29 -0000
+Message-Id: <171994034910.5106.14958023436202306813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: d8240dffab3d58f884d01ff9939b7a8696d20934
+  - ref: refs/heads/mgtime
+    old: 920698b0428e08d57a6754c78e3203128661ffc7
     new: 9103b9c1ed71bd2f81a631c598907957df71d03b
     log: |
          0a3e68b0a3043572fff7b2fe562c0337b3f98e5d drm/amdgpu/atomfirmware: silence UBSAN warning
