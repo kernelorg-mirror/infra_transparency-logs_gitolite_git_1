@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 02 Jul 2024 13:13:10 -0000
-Message-Id: <171992599069.15498.16073403823498422461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Tue, 02 Jul 2024 13:19:17 -0000
+Message-Id: <171992635795.19348.5224067032153238816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/for-next
-    old: 03922e97bc305c6b2e8bc4b7cc765959ca63b05d
-    new: e4a195e2b95e4602c667ed19a20f71218df138c2
+  - ref: refs/heads/next
+    old: c6bd6265bc18766e61826aceb963a184dfa4e2a0
+    new: eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4
     log: |
-         d80d61ab0609f7f7168d59ec82ee5f055a4b6be7 selftests/xsk: Ensure traffic validation proceeds after ring size adjustment in xskxceiver
-         e4a195e2b95e4602c667ed19a20f71218df138c2 selftests/xsk: Enhance batch size support with dynamic configurations
+         eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4 tools/power turbostat: Extend --add option with perf counters
+         
+  - ref: refs/heads/turbostat
+    old: c6bd6265bc18766e61826aceb963a184dfa4e2a0
+    new: eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4
+    log: |
+         eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4 tools/power turbostat: Extend --add option with perf counters
          
