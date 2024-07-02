@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Tue, 02 Jul 2024 13:59:56 -0000
-Message-Id: <171992879640.16863.17098038246153146498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 02 Jul 2024 14:00:47 -0000
+Message-Id: <171992884717.18948.7997505669437299727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/for_autotest
-    old: f2fcca7cfe9d26a8231ba9659638663e0ad9f84a
-    new: 20601e26bf3aac4b36fa2cfafaa1cafb22ced94f
-  - ref: refs/tags/for_autotest_next
-    old: f2fcca7cfe9d26a8231ba9659638663e0ad9f84a
-    new: 20601e26bf3aac4b36fa2cfafaa1cafb22ced94f
-  - ref: refs/tags/for_upstream
-    old: f2fcca7cfe9d26a8231ba9659638663e0ad9f84a
-    new: 20601e26bf3aac4b36fa2cfafaa1cafb22ced94f
+  - ref: refs/tags/imx-dt64-6.11
+    old: 0000000000000000000000000000000000000000
+    new: 5f622d29ecada7dae348bd2bf929568fb5a517d9
