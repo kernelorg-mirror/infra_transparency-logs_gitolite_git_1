@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Tue, 02 Jul 2024 13:19:17 -0000
-Message-Id: <171992635795.19348.5224067032153238816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 Jul 2024 13:26:45 -0000
+Message-Id: <171992680568.25284.12820515376026277138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: c6bd6265bc18766e61826aceb963a184dfa4e2a0
-    new: eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4
+  - ref: refs/heads/stable/v2.40
+    old: 503007991b8212203954c4febae7ad7f245d97c6
+    new: e1606a25b8b5dd643099ac7835f744202e688a69
     log: |
-         eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4 tools/power turbostat: Extend --add option with perf counters
-         
-  - ref: refs/heads/turbostat
-    old: c6bd6265bc18766e61826aceb963a184dfa4e2a0
-    new: eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4
-    log: |
-         eff04be3f4aa1cf0ebdc2177e1022d3dd4a5abc4 tools/power turbostat: Extend --add option with perf counters
+         d99a71a122a68a62a70ef47a8385e4f746f328c5 include/pidfd-utils: remove hardcoded syscall fallback
+         e1606a25b8b5dd643099ac7835f744202e688a69 include/pidfd-utils: provide ENOSYS stubs if pidfd functions are missing
          
