@@ -1,56 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5908387245779901476=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 02 Jul 2024 09:23:47 -0000
-Message-Id: <171991222755.6962.1169634622272093106@gitolite.kernel.org>
-
---===============5908387245779901476==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 Jul 2024 09:25:43 -0000
+Message-Id: <171991234354.9350.9942443557200544062@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/slab/for-next
-    old: f10d55c754722dfea7e551c1716df157689add62
-    new: a7555f5f17d7791613396e2855ebc73a5ba227ad
+  - ref: refs/heads/master
+    old: f8ae8ed48b84ea38e3556f620ade901ac09d93af
+    new: 0588f2480f14a3381553ab7f4498b68055edcc5c
     log: |
-         4a24bbabc826eaba6f94a9741712117b8e2b0587 slab: delete useless RED_INACTIVE and RED_ACTIVE
-         94b499f43d38759a8e4cbecf67f5120b98bd9742 mm/slab: Introduce kmem_buckets typedef
-         e847049fc74bef4b4e6743fc7b0087828d5245af mm/slab: Plumb kmem_buckets into __do_kmalloc_node()
-         d5331bd08c332c3bbe8cd821aae9e6c5d8e4cf4f mm/slab: Introduce kvmalloc_buckets_node() that can take kmem_buckets argument
-         c0dd48323cfdb0a5f64a1172e24e37d04c8e4956 mm/slab: Introduce kmem_buckets_create() and family
-         aaa3c0fd72a98076b5dcd384d244a6d06ba878cf ipc, msg: Use dedicated slab buckets for alloc_msg()
-         a7555f5f17d7791613396e2855ebc73a5ba227ad mm/util: Use dedicated slab buckets for memdup_user()
+         8c03e75c0b837f4285bd34f08eae40b48d3378be autotools: make pam install path configurable
+         20dc72d8c1f3a53c0408858f0046e1849644c710 autotools: Properly order install dependencies of pam_lastlog2
+         a7df5b6380b2679635293130b0a5eba904464c1b misc-utils:uuidd: Use ul_sig_err instead of errx
+         0588f2480f14a3381553ab7f4498b68055edcc5c Merge branch 'automake/install-dependency' of https://github.com/t-8ch/util-linux
          
-
---===============5908387245779901476==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1719912223 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1719912222-383ec1b3edd8fa226d338e178da60c8f183f78e4
-
-f10d55c754722dfea7e551c1716df157689add62 a7555f5f17d7791613396e2855ebc73a5ba227ad refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaDxx8ACgkQu+CwddJF
-iJrz3Qf9Htw3PHL5N3PgXLuYALWEH74Tjri05oMDh4XPgyjJit5Ga7Hhq20JIEBY
-+r91Z404qBBRVEW0go5S6ieuAPvJJNrOuZS98N6C8KpwAyHnbPHJVstl3sJa5QMI
-omqZfhBHKwbPEbaHd8QYLTquOoHisbOZUT2PEAIfsIZGB9IE8e3DOxlMODmDEhsf
-/EJb/uZORPyO1VxURyB31LgPpNhTwTabd9XdDJHzcAUY8y9mVr5o4vcfHME+GlA6
-DcWf/w0EI7wBggOhGNp2NS8o6Eh1fEXw0QTxkVxUkbRgQYmUhI1OYgxJcSIdiSRg
-dYNB7hDERKJ7nLNlG+KW28y2aF2HiA==
-=UpnH
------END PGP SIGNATURE-----
-
---===============5908387245779901476==--
+  - ref: refs/heads/stable/v2.40
+    old: 66e56dfaeb358950ef1216ff62484d3171875eb7
+    new: 10d3bb70d2f754cb5c86063c0115cfa0d9575bb7
+    log: |
+         7440fd98609cab07c1843768dfa34f5e106ff352 libuuid: drop duplicate assignment liuuid_la_LDFLAGS
+         33a7c83cfc32906957c9f1ac627a54a91d938cf2 libuuid: drop check for HAVE_TLS
+         6ec5b07e9878597aa36eb8453b84b640aa3b42a0 libuuid: split uuidd cache into dedicated struct
+         25bd5396ab700623134b491f42a3280556cb674c libuuid: clear uuidd cache on fork()
+         23db938ce9bca73025e2838a6ffc30016ba1f4e2 Conditionally add uuid_time64 to sym. version map
+         10d3bb70d2f754cb5c86063c0115cfa0d9575bb7 build-sys: _PATH_VENDORDIR workaround
+         
