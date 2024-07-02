@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3203771618184562907=="
+Content-Type: multipart/mixed; boundary="===============1009742311761214662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 02 Jul 2024 15:13:07 -0000
-Message-Id: <171993318769.8830.12295606356948490301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 02 Jul 2024 15:14:32 -0000
+Message-Id: <171993327240.9407.2846718702598637970@gitolite.kernel.org>
 
---===============3203771618184562907==
+--===============1009742311761214662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0ab22cd9b0a516856bad3ac2d308447e202e5f77
-    new: 93567d87edfd4ad0096ac18a3adccb4a4739d38a
-    log: |
-         5b1b69bb40eb19f82e1371b5b47b159423a33fc9 drop a vfs and ima patch from 6.1 that were not needed
-         93567d87edfd4ad0096ac18a3adccb4a4739d38a Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
-         
+  - ref: refs/heads/1GbE
+    old: 750da165df3e2b3d2c0d07ef7a3ca64246e5c817
+    new: 8905a2c7d39b921b8a62bcf80da0f8c45ec0e764
+    log: revlist-750da165df3e-8905a2c7d39b.txt
 
---===============3203771618184562907==
+--===============1009742311761214662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-750da165df3e-8905a2c7d39b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1719933183 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1719933181-d5440a8ab329ae6caa04428b19dce83df3769bcf
+ed2a2ef16a6b9197a0e452308bf6acee6e01f709 Bluetooth: Add quirk to ignore reserved PHY bits in LE Extended Adv Report
+897e6120566f1c108b85fefe78d1c1bddfbd5988 Bluetooth: hci_bcm4377: Fix msgid release
+3f35d9b3e9a0e3c4684252ab91e648b96a179482 Bluetooth: btintel_pcie: Fix REVERSE_INULL issue reported by coverity
+ac65ecccae802417ce42e857defacad60e4b8329 Bluetooth: hci_event: Fix setting of unicast qos interval
+88e72239ead9814b886db54fc4ee39ef3c2b8f26 Bluetooth: qca: Fix BT enable failure again for QCA6390 after warm reboot
+0d151a103775dd9645c78c97f77d6e2a5298d913 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
+4183a7be77009fc31c5760429fe095f163bf96a9 Bluetooth: btnxpuart: Enable Power Save feature on startup
+015d79c96d62cd8a4a359fcf5be40d58088c936b Bluetooth: Ignore too large handle values in BIG
+89e856e124f9ae548572c56b1b70c2255705f8fe bluetooth/l2cap: sync sock recv cb and release
+596b6f081336e77764ca35cfeab66d0fcdbe544e Bluetooth: ISO: Check socket flag instead of hcon
+1cc18c2ab2e8c54c355ea7c0423a636e415a0c23 bluetooth/hci: disallow setting handle bigger than HCI_CONN_HANDLE_MAX
+f1a8f402f13f94263cf349216c257b2985100927 Bluetooth: L2CAP: Fix deadlock
+134061163ee5ca4759de5c24ca3bd71608891ba7 bnx2x: Fix multiple UBSAN array-index-out-of-bounds
+19d5b2698c35b2132a355c67b4d429053804f8cc can: kvaser_usb: Explicitly initialize family in leafimx driver_info struct
+66be40e622e177316ae81717aa30057ba9e61dff tcp_metrics: validate source addr length
+42391445a86393bdb36b4148971f14a4aa5d97f9 Merge tag 'for-net-2024-06-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth into main
+b97228b72c91994fcf091887d5571c6557f977a5 Merge tag 'linux-can-fixes-for-6.10-20240701' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+c93a6f62cb1bd097aef2e4588648a420d175eee2 e1000e: Fix S0ix residency on corporate systems
+d2d30a376d9cc94c6fb730c58b3e5b7426ecb6de net: allow skb_datagram_iter to be called from any context
+b698ab56837bc9e666b7e7e12e9c28fe1d6a763c net: stmmac: dwmac-qcom-ethqos: fix error array size
+7c36711a2cd8059c2d24f5e5c1d76e8ea2d5613c net: txgbe: initialize num_q_vectors for MSI/INTx interrupts
+bd07a98178462e7a02ed2bf7dec90a00944c1da5 net: txgbe: remove separate irq request for MSI and INTx
+1e1fa1723eb3a293d7d0b1c1a9ad8774c1ef0aa0 net: txgbe: add extra handle for MSI/INTx into thread irq handle
+935124dd5883b5de68dc5a94f582480a10643dc9 net: txgbe: free isb resources at the right time
+8905a2c7d39b921b8a62bcf80da0f8c45ec0e764 Merge branch 'net-txgbe-fix-msi-and-intx-interrupts'
 
-0ab22cd9b0a516856bad3ac2d308447e202e5f77 93567d87edfd4ad0096ac18a3adccb4a4739d38a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaEGP8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bf4P/jk09GgKR2tqJskgZcal
-AqbwKtJ/VXGRpau+5Ql7lgoIRg0VLp3Zspi3C01stMbbR0Rpgv5iHT1PxP9cHXWw
-icNhg689qZU4hHotQ/ZECgWKCiyeyKE9qwX9edUYJxLvCvNt9yJoYNlJHluEh1OE
-1s7/vOlU5bixQ0d2oFIPmCkUMkyq22dqfiuE8agKtzOiI+uTGPFEqefLYR9P4Kni
-qAzRdX1YwsGMRXbVdcIu7HFG6lF9gvwVFHDBnScqRygFS3I8NJd7KPADhhZXVpfN
-35QBBcGUiwZYjHWGF6eLZwYWCvSZDT8MIVR936D0VGxsjV+92GCAtTNK0IIPDry7
-9c22UJ+PuClVlGT4GdhD0QBu2x37n6Bhk6XsMgGyLIk4WGpXctY2knWaTlOucVvU
-KMf4t+ZrpVdtwmOTuaRNP46wJ3kpZ3zyjkPBmsYuXcwJv5KX3cZ2tSdCwAmZ/sId
-qJGT53e237h7qgnxZcTjchWMs+kpgWMsJGGiOHMPlj0zwbq+iYSR2K5f/crbHMTu
-T2CaFyL7FCXCkfoa6r6YASr551BIKdf+WHoT6QDdTvouZXdoCnOq2UMzR0NTvez4
-XsCEsmFDerh7JjccReJBFkZXHi/6HBuD4vVs0aAjFXI4aIbAfnDbr9nRlcAteDML
-0fzQBUZmBt1upYsRZgwudkTX
-=uhxV
------END PGP SIGNATURE-----
-
---===============3203771618184562907==--
+--===============1009742311761214662==--
