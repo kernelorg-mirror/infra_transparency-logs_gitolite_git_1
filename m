@@ -1,40 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1759866256804244849=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 02 Jul 2024 15:14:42 -0000
-Message-Id: <171993328267.9698.270009031205566554@gitolite.kernel.org>
-
---===============1759866256804244849==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 02 Jul 2024 15:14:47 -0000
+Message-Id: <171993328712.9777.14016682633212014880@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/200GbE
-    old: 42391445a86393bdb36b4148971f14a4aa5d97f9
-    new: 8905a2c7d39b921b8a62bcf80da0f8c45ec0e764
-    log: revlist-42391445a863-8905a2c7d39b.txt
-
---===============1759866256804244849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42391445a863-8905a2c7d39b.txt
-
-19d5b2698c35b2132a355c67b4d429053804f8cc can: kvaser_usb: Explicitly initialize family in leafimx driver_info struct
-b97228b72c91994fcf091887d5571c6557f977a5 Merge tag 'linux-can-fixes-for-6.10-20240701' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-c93a6f62cb1bd097aef2e4588648a420d175eee2 e1000e: Fix S0ix residency on corporate systems
-d2d30a376d9cc94c6fb730c58b3e5b7426ecb6de net: allow skb_datagram_iter to be called from any context
-b698ab56837bc9e666b7e7e12e9c28fe1d6a763c net: stmmac: dwmac-qcom-ethqos: fix error array size
-7c36711a2cd8059c2d24f5e5c1d76e8ea2d5613c net: txgbe: initialize num_q_vectors for MSI/INTx interrupts
-bd07a98178462e7a02ed2bf7dec90a00944c1da5 net: txgbe: remove separate irq request for MSI and INTx
-1e1fa1723eb3a293d7d0b1c1a9ad8774c1ef0aa0 net: txgbe: add extra handle for MSI/INTx into thread irq handle
-935124dd5883b5de68dc5a94f582480a10643dc9 net: txgbe: free isb resources at the right time
-8905a2c7d39b921b8a62bcf80da0f8c45ec0e764 Merge branch 'net-txgbe-fix-msi-and-intx-interrupts'
-
---===============1759866256804244849==--
+  - ref: refs/heads/jd/vdso-test-harness
+    old: 460b1f2a1e2f1cc157d96b65e2aa97664bf7c01d
+    new: 5845c65ceb8af174bdb7704c15d40c8c98a90fed
+    log: |
+         1692fe241f910db42f0d78e9180a90af7d91a626 mm: add VM_DROPPABLE for designating always lazily freeable mappings
+         285e915ce568e4376cd8ee5c95c0c5a1af4e0223 random: add vgetrandom_alloc() syscall
+         72fb3aa3bac255454706c497e73e0cce7f62f618 arch: allocate vgetrandom_alloc() syscall number
+         e56126fc3f08daa723076d73d41ac7a95fbbbe8c random: introduce generic vDSO getrandom() implementation
+         4a3e481996a48bdd21d177f47289644d3fd3adc7 x86: vdso: Wire up getrandom() vDSO implementation
+         5845c65ceb8af174bdb7704c15d40c8c98a90fed wireguard: selftests: re-use/ab-use test harness to run vDSO tests
+         
+  - ref: refs/heads/master
+    old: 5036461514b4cc231187ed3db77896288ea8f3fb
+    new: 4a3e481996a48bdd21d177f47289644d3fd3adc7
+    log: |
+         1692fe241f910db42f0d78e9180a90af7d91a626 mm: add VM_DROPPABLE for designating always lazily freeable mappings
+         285e915ce568e4376cd8ee5c95c0c5a1af4e0223 random: add vgetrandom_alloc() syscall
+         72fb3aa3bac255454706c497e73e0cce7f62f618 arch: allocate vgetrandom_alloc() syscall number
+         e56126fc3f08daa723076d73d41ac7a95fbbbe8c random: introduce generic vDSO getrandom() implementation
+         4a3e481996a48bdd21d177f47289644d3fd3adc7 x86: vdso: Wire up getrandom() vDSO implementation
+         
