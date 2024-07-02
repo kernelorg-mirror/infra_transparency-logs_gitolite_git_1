@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 02 Jul 2024 19:25:10 -0000
-Message-Id: <171994831084.8304.6911241902046067979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 02 Jul 2024 19:25:40 -0000
+Message-Id: <171994834086.8585.5848088139049301971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/vfs-6.10-rc7.fixes.2
-    old: 0000000000000000000000000000000000000000
-    new: 84f10a97ddf4d75c98b4df0cb2d870a0a986d3b8
+  - ref: refs/heads/filehnp9PA
+    old: 83d43ab0a1cb83b1f3d731885a5d800ad8e84524
+    new: 0000000000000000000000000000000000000000
