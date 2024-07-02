@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 02 Jul 2024 19:27:04 -0000
-Message-Id: <171994842467.9569.11020907096012974158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Jul 2024 19:27:31 -0000
+Message-Id: <171994845105.9799.4882541888848491574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 83d43ab0a1cb83b1f3d731885a5d800ad8e84524
-    new: 2858f8769a8ee7177113ebc7133f47acbb91fb76
+  - ref: refs/heads/master
+    old: 742ed2172b4b4783b843668ba376d72b29074a89
+    new: e9efcd90a5a0e6cb02a76b721af76bcc338723dd
     log: |
-         fcad7177eb7854ce244ce863c82583d8a6ce5952 ASoC: dt-bindings: nau8824: Add master clock handling
-         1d3724c92dc20584f76033347384b8c1536480af ASoC: codecs: nau8824: Add master clock handling
-         2858f8769a8ee7177113ebc7133f47acbb91fb76 Add master clock handling for nau8824
+         0d3db1f14abb4eb28613fbeb1e2ad92bac76debf x86/alternatives, kvm: Fix a couple of CALLs without a frame pointer
+         e9efcd90a5a0e6cb02a76b721af76bcc338723dd Merge x86/alternatives into tip/master
          
