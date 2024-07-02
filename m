@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Tue, 02 Jul 2024 15:46:19 -0000
-Message-Id: <171993517943.2900.14123069736784642717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 02 Jul 2024 15:46:20 -0000
+Message-Id: <171993518061.3006.14797367559356651779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/i3c/next
-    old: 9ea7dc97d9a1f666d55131b7b8089f53314df2f0
-    new: 145ca7b61e952d6fd07aeca820f0925ac503dad0
+  - ref: refs/heads/next
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: e123134b39dc40af94e8aec49227ae55b5e087a8
     log: |
-         a75d62ef7c30ac4074a9c490e37aa556fed4fcd8 dt-bindings: i3c: dw: Add apb clock binding
-         48a74bb38b2481b900ee3cdfd03665a2d247fb82 i3c: dw: Use new *_enabled clk API
-         145ca7b61e952d6fd07aeca820f0925ac503dad0 i3c: dw: Add optional apb clock
+         e123134b39dc40af94e8aec49227ae55b5e087a8 selinux: Use 1UL for EBITMAP_BIT to match maps type
          
