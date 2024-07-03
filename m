@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1454905106396349086=="
+Content-Type: multipart/mixed; boundary="===============7301130709436881833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 03 Jul 2024 02:18:55 -0000
-Message-Id: <171997313537.29843.13731576791320773755@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 02:21:18 -0000
+Message-Id: <171997327801.32413.7370266892668490385@gitolite.kernel.org>
 
---===============1454905106396349086==
+--===============7301130709436881833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next
+  - ref: refs/heads/nfs-localio-for-6.11
     old: 9f9cc9ee2e9824da9be4973d7111019b07a04613
     new: 10ece8b9f2ee28f0d7de5f0f5e5b2765c11a3fa0
     log: revlist-9f9cc9ee2e98-10ece8b9f2ee.txt
 
---===============1454905106396349086==
+--===============7301130709436881833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -412,4 +412,4 @@ a3b3184fac4a96bd4d0a5d2578a8f03d738316fe nfsd: implement server support for NFS_
 14a634f2883b995eef7da284dcbac0751de01f3a SUNRPC: replace program list with program array
 10ece8b9f2ee28f0d7de5f0f5e5b2765c11a3fa0 nfs: add Documentation/filesystems/nfs/localio.rst
 
---===============1454905106396349086==--
+--===============7301130709436881833==--
