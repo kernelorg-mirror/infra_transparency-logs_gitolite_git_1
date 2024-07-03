@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 03 Jul 2024 18:34:10 -0000
-Message-Id: <172003165071.28460.2594273026719838693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 03 Jul 2024 18:52:52 -0000
+Message-Id: <172003277225.10510.9758370875460146024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: b47acaf036d8b982c55c7a44a9f70511aa2c37fd
-    new: a457bab71c5b2688010d5a100f01532eaafccfcd
+  - ref: refs/heads/master
+    old: 473b90a651ad387406c430994545588085e6fd74
+    new: fa6fd8a2fd8203c473766504f0b278b09fcd6103
     log: |
-         cb148180125ef88a4c1c20ecf25337f1e45657bb ASoC: cs35l34: Constify struct regmap_config
-         306e0317bddfbb6bea1ad31c3daeecaec0304295 ASoC: cs35l35: Constify struct regmap_config
-         0271df05e6fe92b7000dcce5058a0ed6af127ef6 ASoC: cs35l36: Constify struct regmap_config
-         52f0aa5fb9437013f7f35d61426de497a8927891 ASoC: cs53l30: Constify struct regmap_config
-         8d9c0ede48f29c9fccd095952d657fc5696da9ac ASoC: jz4760: Constify struct regmap_config
-         7abfa29ba6a43c5e25622de1ba1f1846b9c9b5e8 ASoC: jz4770: Constify struct regmap_config
-         5ffab1d3f3f3281869b894070fe4438f307759ec ASoC: wsa881x: Constify struct regmap_config
-         22c361dc7ce4d4d6a688febee57d6e4b130b96b3 ASoC: wsa883x: Constify struct regmap_config
-         e15cc906b9c5af5414bb6002b6a036550bca6bd8 ASoC: wsa884x: Constify struct regmap_config
-         a457bab71c5b2688010d5a100f01532eaafccfcd Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         f9958cd7f355862d51be5f3aa48e9625763e9a83 foo
+         51ed0c0abf823eb9167e97921fa55eaa8e9831b5 foo
+         c636ba139a726185284e733099a61928e2f96f8e foo
+         158004de12af89b53efe7a04c31832eb27713613 foo
+         2c215fa9690b2010d64f41740f5aceea042e0c46 foo
+         9d2b646b4000e87d9b956ab92d251ed11164eb32 foo
+         be23c478b84182c05426b1ea05f66b97d03fdc21 foo
+         ff34c1b5f2b6020fc92234557979aa37161634a8 foo
+         ef6dd0225754652b82de3651f2302c14652a4e7b foo
+         fa6fd8a2fd8203c473766504f0b278b09fcd6103 foo
          
