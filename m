@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 03 Jul 2024 19:32:56 -0000
-Message-Id: <172003517647.7960.13200560631058268569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 03 Jul 2024 19:33:01 -0000
+Message-Id: <172003518179.8072.3679128263529577011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: fa6fd8a2fd8203c473766504f0b278b09fcd6103
-    new: 7dffc7f2c6c0fc7ae8f2b11be71c7b205436f9be
+  - ref: refs/heads/timers/core
+    old: 2b83be20ae60308f5da31c696137a9561c44c24c
+    new: 59dbee7d4d59425658b1d86238732c575216b718
     log: |
-         7dffc7f2c6c0fc7ae8f2b11be71c7b205436f9be foo
+         59dbee7d4d59425658b1d86238732c575216b718 tick/sched: Combine WARN_ON_ONCE and print_once
          
