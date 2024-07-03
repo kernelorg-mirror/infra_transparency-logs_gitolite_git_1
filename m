@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5441242417305767499=="
+Content-Type: multipart/mixed; boundary="===============6751625508156692251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 03 Jul 2024 00:25:02 -0000
-Message-Id: <171996630259.1535.16255295692718448005@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 00:27:32 -0000
+Message-Id: <171996645269.3457.9963123037588875598@gitolite.kernel.org>
 
---===============5441242417305767499==
+--===============6751625508156692251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,45 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: 635f66d644f4002e24cff727793a997898b74aa4
-    new: f1498406a10c7fa485a4d871a4f5b13e43d7525f
-    log: revlist-635f66d644f4-f1498406a10c.txt
+  - ref: refs/heads/next
+    old: 5c2c29ba2b8527f5f3b4c619034dfcf65b956bab
+    new: ce60f81f3bfbacaa0264b2f7e1568c6fcd4b7372
+    log: revlist-5c2c29ba2b85-ce60f81f3bfb.txt
 
---===============5441242417305767499==
+--===============6751625508156692251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-635f66d644f4-f1498406a10c.txt
+Content-Disposition: attachment; filename=revlist-5c2c29ba2b85-ce60f81f3bfb.txt
 
+1bc2910f10f4e68f172115af87cd0d101b3c5e0b PCI: dwc: ep: Add a generic dw_pcie_ep_linkdown() API to handle Link Down event
+8973bd73c9e1df9d96a90b871d07f19e1acbbc75 PCI: dwc: ep: Remove dw_pcie_ep_init_notify() wrapper
+d80d47ac310ca1f6485f16854eac7b1c0c5795fe PCI: qcom-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
+03d747ffb00e5ec7daa1266ec50c68d4a0b06161 PCI: layerscape-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
+c13072f930dab2340a4b16382162b4c0f010281c PCI: dwc: ep: Enforce DWC specific 64-bit BAR limitation
+8c95b93480b4f9b7a67f4fbd83a6f19f017ad359 Merge branch 'dpc' into next
+2b00cc6abeb4190ec0deba295fa0354c8022e41f Merge branch 'devres' into next
+fb8562f959041c14e53c7fa8dee5a24535968132 Merge branch 'enumeration' into next
+b58d19d1d122b0b224f32ba61bacee3964e22e55 Merge branch 'hotplug' into next
+33e6153dbb06257860ac1b0cb4a95b3125775078 Merge branch 'reset' into next
+5986d6221f2e0462e39b21975087ed06927c79d6 Merge branch 'resource' into next
+d76664bc494207801225b02b01cd85da3958ebe0 Merge branch 'endpoint' into next
+001feb9e7620f969f8310d26b9551932fcc131f5 Merge branch 'switchtec' into next
+8cee06590719e13aca10b7a811abdd703e212971 Merge branch 'dt-bindings' into next
+46e3f6f128573696b40ff0e80058040b5729813d Merge branch 'err' into next
+71a7efe4e66e26211e4437373ceec4b8f451c661 Merge branch 'misc' into next
+2a1b379b0fc257ef63ffb0a5a2fa3ea1650981e2 Merge branch 'controller/al' into next
+35fc8babdcd2a9549b1fc1284ce77572ead3afa9 Merge branch 'controller/artpec6' into next
+c1130c6ac053cec5f01cf129b746abbe7d44299d Merge branch 'controller/dra7xx' into next
+3ad176829cfe6ec672b808c08bb922ed9f2fa6e8 Merge branch 'controller/dwc' into next
+564e0142d9bd5f9622996dcd60ce3b50d5e0c544 Merge branch 'controller/exynos' into next
+a2298eceb49a2aa97e6c331ef38e2e298273ee97 Merge branch 'controller/gpio' into next
+995bc7b1a1ebc257f1a46474ef23feb68fb78c23 Merge branch 'controller/keystone' into next
+e4a72bc077cb2daa4900bbbd73d237eb46301456 Merge branch 'controller/layerscape' into next
+6476688044a87662572ad262329497eab4ed294a Merge branch 'controller/microchip' into next
+dff8c2f035b81f1708763fca1067c2fd469ab32d Merge branch 'controller/qcom' into next
+efba06278b983ce43ed2f3a980a6bbf816cd38eb Merge branch 'controller/rcar' into next
+a9fd3bbf4ce31cbe2d261878588ab1b2ae4ba834 Merge branch 'controller/rcar-gen4' into next
 673cce1faf7cb4c6bb7ee630bbdeee0b3aa88e49 PCI: endpoint: Remove unused field in struct pci_epf_group
 d353f5cebfb7a334aff053feb87754cdc6805a48 PCI: endpoint: pci-epf-test: Make use of cached 'epc_features' in pci_epf_test_core_init()
 6d230384895e1aa3b15e17cb65eabd53f002adfd PCI: endpoint: pci-epf-test: Use 'msix_capable' flag directly in pci_epf_test_alloc_space()
@@ -56,5 +84,7 @@ db3f54fac6ae5ddecf7dddaded6e993db8836c25 PCI: dw-rockchip: Add rockchip_pcie_get
 8cfc1d461f586aecf617aa5048cad91ea75dfaa2 PCI: dw-rockchip: Refactor the driver to prepare for EP mode
 3cbde0645972fa7a2dbc14c7e0888f1a236c4e87 PCI: dw-rockchip: Add endpoint mode support
 f1498406a10c7fa485a4d871a4f5b13e43d7525f PCI: dw-rockchip: Use pci_epc_init_notify() directly
+b9d9a0f53cdfdd99f6a71802bb8112dbe8150466 Merge branch 'controller/rockchip' into next
+ce60f81f3bfbacaa0264b2f7e1568c6fcd4b7372 Merge branch 'controller/tegra194' into next
 
---===============5441242417305767499==--
+--===============6751625508156692251==--
