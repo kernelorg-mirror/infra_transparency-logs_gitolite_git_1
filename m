@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7855988127344265076=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 03 Jul 2024 14:38:14 -0000
-Message-Id: <172001749489.11388.3677669686296118477@gitolite.kernel.org>
-
---===============7855988127344265076==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 03 Jul 2024 14:38:39 -0000
+Message-Id: <172001751940.11612.13145028050689537387@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next/perf
-    old: d0d7c66c537d36fbb87c515edb695c1e8ea3cdcb
-    new: dc4c33f753ca8a6be32c4efd3bb9a3c806cd29b1
-    log: revlist-d0d7c66c537d-dc4c33f753ca.txt
-
---===============7855988127344265076==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0d7c66c537d-dc4c33f753ca.txt
-
-81e15ca3e523a508d62806fe681c1d289361ca16 perf: arm_pmuv3: Avoid assigning fixed cycle counter with threshold
-598c1a2d9f4ba8a04cf92af8e988052179e31199 perf: arm_pmuv3: Drop unnecessary IS_ENABLED(CONFIG_ARM64) check
-8d75537bebfa14fcd493b1f840b07a8cff5a640d perf/arm: Move 32-bit PMU drivers to drivers/perf/
-12f051c987dc91d3bf7c4dbb740321f8b24070b4 perf: arm_v6/7_pmu: Drop non-DT probe support
-d688ffa269421cec73c7e13fd0cb03879b07db89 perf: arm_pmuv3: Include asm/arm_pmuv3.h from linux/perf/arm_pmuv3.h
-b7e89b0f5bd78eaf952c409c773a7642bb50c186 perf: arm_pmu: Remove event index to counter remapping
-12fef9fb7179da0ec002c09452542860acfde231 perf: arm_pmuv3: Prepare for more than 32 counters
-6ef2846c17a3a47c2bcb23e51590f52f1dcc1c89 KVM: arm64: pmu: Use arm_pmuv3.h register accessors
-558fdd12c0696d8420c20c118de0c760a9b9bdd6 KVM: arm64: pmu: Use generated define for PMSELR_EL0.SEL access
-323bc9e17c015c28b5ef192a00f5feefc9ce6f57 arm64: perf/kvm: Use a common PMU cycle counter define
-be884dd62461477d58e5a35998bf4e673b7e6530 KVM: arm64: Refine PMU defines for number of counters
-dc4c33f753ca8a6be32c4efd3bb9a3c806cd29b1 perf: arm_pmuv3: Add support for Armv9.4 PMU instruction counter
-
---===============7855988127344265076==--
+  - ref: refs/heads/master
+    old: be0b08770e9214592e89589b2dc069426c0d9b91
+    new: 1707a836223093de92f7911ca703ba9fa99e44b4
+    log: |
+         7c896d7b73cbad2e073fccfb7ddb765f8468602c avdtp: Fix manipulating struct as an array
+         3f1b3c624a9600f73ebb8f31c9533467b8b32584 mesh: Avoid accessing array out-of-bounds
+         99750d2acd9deba2870932ecaa8050263b9dc8de obexd: Fix possible memleak
+         4b3fe69df7c77043d8f4b39a34431e4ef19c2071 obexd: Fix memory leak in entry struct
+         5475aba84edcafe5f7d2043262a780312ceef27a obexd: Fix leak in backup_object struct
+         d79e429a9fc3c37b3a25fcde474c242d8b094bcc health/mcap: Fix memory leak in mcl struct
+         5dcc52a486f27867bdb685a39e10fadc9e6afa6f sdp: Fix memory leak in sdp_data_alloc*()
+         1707a836223093de92f7911ca703ba9fa99e44b4 sdp: Check memory allocation in sdp_copy_seq()
+         
