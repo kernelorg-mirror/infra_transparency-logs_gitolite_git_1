@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 03 Jul 2024 00:05:50 -0000
-Message-Id: <171996515056.19751.553908750106437838@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 00:09:48 -0000
+Message-Id: <171996538805.22552.8616727999205215792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
   - ref: refs/heads/controller/dwc
-    old: a46de632131f65de4040e3c86dd5e3da6073188e
-    new: dee1df33be41c8120fd932103577dd56270ab32a
+    old: dee1df33be41c8120fd932103577dd56270ab32a
+    new: c13072f930dab2340a4b16382162b4c0f010281c
     log: |
-         99d09a16d384d2d9b69c3c4bb6560434235b8421 PCI: dwc: ep: Remove dw_pcie_ep_init_notify() wrapper
-         e0de814d720c9a8720a5d91f24f0c9ec7a9d7b14 PCI: qcom-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
-         a80268417865071e9edd9b969a4035d9c2808dc7 PCI: dwc: ep: Add a generic dw_pcie_ep_linkdown() API to handle Link Down event
-         507c8b760ef3dd33596fcda07535b3ccf42fba01 PCI: layerscape-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
-         dee1df33be41c8120fd932103577dd56270ab32a PCI: dwc: ep: Enforce DWC specific 64-bit BAR limitation
+         1bc2910f10f4e68f172115af87cd0d101b3c5e0b PCI: dwc: ep: Add a generic dw_pcie_ep_linkdown() API to handle Link Down event
+         8973bd73c9e1df9d96a90b871d07f19e1acbbc75 PCI: dwc: ep: Remove dw_pcie_ep_init_notify() wrapper
+         d80d47ac310ca1f6485f16854eac7b1c0c5795fe PCI: qcom-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
+         03d747ffb00e5ec7daa1266ec50c68d4a0b06161 PCI: layerscape-ep: Use the generic dw_pcie_ep_linkdown() API to handle Link Down event
+         c13072f930dab2340a4b16382162b4c0f010281c PCI: dwc: ep: Enforce DWC specific 64-bit BAR limitation
          
