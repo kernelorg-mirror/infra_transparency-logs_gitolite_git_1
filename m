@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6423305566459081822=="
+Content-Type: multipart/mixed; boundary="===============4610466386684710923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Jul 2024 11:46:16 -0000
-Message-Id: <172000717671.13018.454986990397112970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 03 Jul 2024 11:51:30 -0000
+Message-Id: <172000749084.16633.3400929594139248064@gitolite.kernel.org>
 
---===============6423305566459081822==
+--===============4610466386684710923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/x86/urgent
+  - ref: refs/heads/master
     old: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    new: ac8b270b61d48fcc61f052097777e3b5e11591e0
-    log: revlist-f2661062f16b-ac8b270b61d4.txt
+    new: 22a40d14b572deb80c0648557f4bd502d7e83826
+    log: revlist-f2661062f16b-22a40d14b572.txt
+  - ref: refs/tags/v6.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
 
---===============6423305566459081822==
+--===============4610466386684710923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2661062f16b-ac8b270b61d4.txt
+Content-Disposition: attachment; filename=revlist-f2661062f16b-22a40d14b572.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -381,6 +384,5 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
-ac8b270b61d48fcc61f052097777e3b5e11591e0 x86/bhi: Avoid warning in #DB handler due to BHI mitigation
 
---===============6423305566459081822==--
+--===============4610466386684710923==--
