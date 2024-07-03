@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0461577924805341324=="
+Content-Type: multipart/mixed; boundary="===============8265237478739029787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 03 Jul 2024 13:48:42 -0000
-Message-Id: <172001452265.4150.17109765125053771388@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 13:49:36 -0000
+Message-Id: <172001457606.4568.1786794575801333157@gitolite.kernel.org>
 
---===============0461577924805341324==
+--===============8265237478739029787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 19ed3bb5587b30ace275cb604fb2b9c60dc49de0
-    new: e78c87b141943b381f130c60488b965a5e6368a8
+    old: e78c87b141943b381f130c60488b965a5e6368a8
+    new: f6663a96d873189950e2ee1a8839b4ee98bd420d
     log: |
-         c107697c82af8b9a0f1f914fa961cdb87a1a825f Revert "fpga: disable KUnit test suites when module support is enabled"
-         3a0fa8e97d3024de199634667900b6a90bbe43d0 fpga: altera-fpga2sdram: remove unused struct 'prop_map'
-         e78c87b141943b381f130c60488b965a5e6368a8 Merge tag 'fpga-for-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
+         56813b244e5f2ace887f04c4a69a2a0041992297 w1: Add missing newline and fix typos in w1_bus_master comment
+         26bf5fc86033162dbd2d5759094cbd724313d55b w1: Drop allocation error message
+         f6663a96d873189950e2ee1a8839b4ee98bd420d Merge tag 'w1-drv-6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1 into char-misc-next
          
 
---===============0461577924805341324==
+--===============8265237478739029787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720014521 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720014574 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1720014520-1c70fdb1bc20686f7e0e6fd01efb851627e5512b
+nonce 1720014573-0f32d921b3b7fb84c6beb87fc4cfea6523103bd4
 
-19ed3bb5587b30ace275cb604fb2b9c60dc49de0 e78c87b141943b381f130c60488b965a5e6368a8 refs/heads/char-misc-testing
+e78c87b141943b381f130c60488b965a5e6368a8 f6663a96d873189950e2ee1a8839b4ee98bd420d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFVrkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z3kQAK1SR08Xc28+Ai2njVHw
-l+4BmzWRkbyv3Q7KOLn/IrYGg2eqgR6wChTZdyTOYdQkRZYGwCYmFBNcI/3y7rW2
-r8s9Ag8HN6I5e1lP4Uqjsv2r+Ck5THVFwzGu9HKcq6tl3z26Wmf82tjwmO2YpOQB
-M7EhXGURSg74RExe+kMeNQ0B4puccgY1ltCDHDNmpjVE9u7IvmrWB7T7HcZSJH/o
-JyCICctFWzQNv1OOGjD2EjYATSzooKL7KVtd+uX9dH8aqCmTMDPdiHBVt85cvTBo
-N36qYbo6kZCCSTd5u+vZrmHkYRGiaL2zC/u45YXwtbtZSMIjzC93jGsACaangzcr
-CJo59bgbFjwwdALOB6s+Gy9pdI6Ennki/3E9Qj//sYyuQmAJht89al6FF8AGmdaH
-O7Bk0QJurM+/zzJ4qsAOYMfctzPOgKez1SQH6U8NjbiHUgko2fPbu2TMfmHphxKP
-MxPCeUxC0U7ki70pNt887yrGwxNEjVO6q4aiah0yPhRiNwuZBzO3rTEbiWCGnqTp
-7MPws/h2xNDqN6aOunqfegNrQ3lIxvYnqTh4ify4YqLQnnKWOt8Eh2gE7JNSa5Cj
-A4DzZ8b//8w2M4rqMni+ppT12x0ZbgvybygDzC00cQrYA6raz0+KAX6IE9LeW7Cu
-Ut76HcKRfdXdRHxnqkhvljlD
-=rj+I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFVu4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vbkP/3Jj0a7m/jQUzTuw5JD5
+59UodHXGqK+ai80ECCLC7tDUoU/Z5dcrPxa5hmb/NQwJjucBoechBKz2Tgp2kceG
+tu2fsT7xt3lWMTa6uQXoN5Popsw7Bb5/QCDThFJXu6kE/yhGPCZ60M4nqxD88IhT
+NG+OX+Ans2juNAd7ZPZ6pulChgwlH7F3aLOvuEeYzIi0Nd2YuYBQCb4jFRZCjq4M
+oLQPR4kwiEjogsqkyeciCXfoFqWKioCt6AfZaO+/yWAH+g2T9JHjQxl75Prp/YS/
+qIpaix9VuDAxC8hTMIH0f5Ytbu7ZHrSqlDYv+RYPMl9QwfwpeXQemW3u7TvZItwq
+D9jEdpptPpRXV2p23kKSOT+TRSyLJSQp9vGCU8hR4wYBKT7Ixk6DOQBRlQWTNoYR
+hlmqV7iyPQmSdTUMvGYmI2HNkbHbybCGPVMbj0J0TTTqnBduIkmGExTpymVKsny2
+WGDhm9jVw8vuHTQf5louXqZtwDchvrMl5izrgpEu4G3O3LKY8w9wIusO9m/XByRS
+gWlIuXmRoSOApMjYC3CeNmhum5Jxli6+8Z3xvgxaPLhS8VtgA5DdcpXEclX2/sZG
+42J0pdK5bL2mU8UHawoy3M/S8qCYLWbfVMgia25DI0rfqGSzRXp/h9YG9ARezwB2
+UV0ba/chqvVVXB6LiBugKUXD
+=F5cn
 -----END PGP SIGNATURE-----
 
---===============0461577924805341324==--
+--===============8265237478739029787==--
