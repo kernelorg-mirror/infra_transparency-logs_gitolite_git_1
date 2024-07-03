@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9202463477663133600=="
+Content-Type: multipart/mixed; boundary="===============1397327743233473495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 03 Jul 2024 13:50:19 -0000
-Message-Id: <172001461979.6569.3702658697008190461@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 13:51:03 -0000
+Message-Id: <172001466343.6896.12417977228366376833@gitolite.kernel.org>
 
---===============9202463477663133600==
+--===============1397327743233473495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: f6663a96d873189950e2ee1a8839b4ee98bd420d
-    new: 7254a298cfa7127d39acef9ca5d5d8f26f822c50
+    old: 7254a298cfa7127d39acef9ca5d5d8f26f822c50
+    new: 7269d767245651ea4b99b6ed6ff0137f42bc53f7
     log: |
-         5f81aa76771eb43769c919064d4d5a52424857c3 counter: ftm-quaddec: add missing MODULE_DESCRIPTION() macro
-         10365dd4c1842d0da422b56c5aa3827db0ca08d8 counter: ti-eqep: implement over/underflow events
-         bc4666be63bdc7c562cfb2e9ea42cdb2c444a5b2 counter: ti-eqep: remove unused struct member
-         1a84aaadb06b46f044eebf0de3bd3ac77a6ec52e counter: ti-eqep: remove counter_priv() wrapper
-         151ebcf0797b1a3ba53c8843dc21748c80e098c7 dt-bindings: counter: Add new ti,am62-eqep compatible
-         210457b651acd61fced405cf7fef12a482932ca1 counter/ti-eqep: Add new ti-am62-eqep compatible
-         988609f2aaf1c0dd1498eef6dec21c8a5fa34046 counter: ti-eqep: Allow eQEP driver to be built for K3 devices
-         7254a298cfa7127d39acef9ca5d5d8f26f822c50 Merge tag 'counter-updates-for-6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
+         7fcb9cb2fe47294e16067c3cfd25332c8662a115 coresight: Fix ref leak when of_coresight_parse_endpoint() fails
+         b9b25c8496019402ecd64ddc5ae56f9bd97b12b2 coresight: tmc: Remove duplicated include in coresight-tmc-core.c
+         4dcc0f95ca2a9738e5e4e3bd7571fd95a9cbf272 coresight: constify the struct device_type usage
+         2e5657aa59669698f0f3bf7742d83577a18eb830 hwtracing: use for_each_endpoint_of_node()
+         7269d767245651ea4b99b6ed6ff0137f42bc53f7 Merge tag 'coresight-next-v6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
          
 
---===============9202463477663133600==
+--===============1397327743233473495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720014618 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720014662 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1720014618-339d4b2b0ddb3def6fe8cd4c8c2f862241a290cf
+nonce 1720014661-2a493e526104896c90059747f15f3336394d55fa
 
-f6663a96d873189950e2ee1a8839b4ee98bd420d 7254a298cfa7127d39acef9ca5d5d8f26f822c50 refs/heads/char-misc-testing
+7254a298cfa7127d39acef9ca5d5d8f26f822c50 7269d767245651ea4b99b6ed6ff0137f42bc53f7 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFVxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D+MQAIA9XMXLndHQt8gScuey
-VHbhyyy75HnDq0tks76041ueQTHBZuwznwNtxrwHgCzZu4nCaAPNMjYg7lK8urLx
-XA6Iw2eia65DS8B8swHTolwHh2m/QwdE666yVzLJsX7oseJO8jhcSw2HBdmzomBG
-tMEBh2TqpeKvmhXkkK6nWYWmvS+4Jg0CflnQ+jG2y5aTORTqnygiiuGTfllJ4O55
-ObpQ2792Jq1hW67DkVXa8yZQqFllY9pprsYq5fuhFqVtMuNIf71S7iC4feyODPyX
-NQ41StR1aPSwQ4nsr/eIhvLZXjtijlBiHjZIGz/5sY+wJcUsV8dxUkbKOP2rx0/c
-J60PgTOGvVVg8rbG0GpoEG2II+8tCr8gOOaixZfXDWROTR/RLgb+Muu7ANu8fs+0
-lQvWkLcqgk99fdsoC1lAglFojJTB0HTopEL8bb5CQYTUL0rLPbBLUz+PQm97MYdO
-OMh21w/rNdxohKeUCqs/Kf5WW/lhD9mALZY9y4CXWKuPoGS+tG4WxOlYYUaeEp9H
-9D4anEXctD3fpRX0ZIiIVhwtkK50E3Dghg+Y58ctnf0X7rWp40atoP24IhDU+gvq
-5vkQEj8F1DA4C7Aqz1qjfW6vzl+t2Lg00B/hHD7oup6F6K4PfY7SXqcwrvHdrPbs
-Z6ctR6b9aMTkTSdgmJ944Wsm
-=j16T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFV0YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xOQP+wYvhJftMLJq0SA1AcgG
+ueDvL5rnBAw+PnLnYkyMdOFi3GYKzoAD/YDgQ+BxVITMwoj3Ja7s7KRii/ptu0Wn
+b/qqsM1FXRI4s2k+ADa+MjjvTyX68CBk44wrH7I7EyQTyGbsgUqCtRjNy6kC+E+9
+pGPCO614luvdpYa/a8Q7ZmMqCC3k0lbAXqy+mtpOqO7kM7/tohj6M3oT3SSpwzod
+Y5iXP4UhLHXvusu6MNQWMLRQm7OGwKELo1AZBs56wzsFtvzUJ5SLPWo7CaTe2hvi
+zN2pwHMKR58hJ9hasJQWIxw1NzPMkXGCDFvxr9v8/SvtzDXy6mEaIHG5GOVmiDVp
+knyblqWFvXVL/zJKOzhNw6fkXYf4EAr5JT3QlsxS6DokpRinAAShFKY2hicfsVgo
+xPWH1s+RF61QCvqoG/LZkfvATUqmXrTZQc1XQRdLeCqdcz9HgKgwO3dOxJHzvrf8
+J06D+KXqP3CCQCyFYDt0/AUd5eEy/NskCAFZbDoZOC+vwhu54sona/yYIqcwyqTW
+fKM6l/VRgkCrkVQ5lEH1uqc3reMdJXKjskqCZeEXUlAxy8rcGtYHVe04zK9h+yqq
+ZNHMrXhzn/p/7hjCrUjk6/7uB9TR9unEshX4MTui7Hu08VzRQ7kF8UgMj12K0vPO
+1FIsHfv4SveSfcvhjNXLdZla
+=phD1
 -----END PGP SIGNATURE-----
 
---===============9202463477663133600==--
+--===============1397327743233473495==--
