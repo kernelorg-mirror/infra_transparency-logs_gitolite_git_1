@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 03 Jul 2024 22:15:03 -0000
-Message-Id: <172004490300.513.17548982326097149966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Wed, 03 Jul 2024 22:16:47 -0000
+Message-Id: <172004500741.2587.9281655811661440852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 8349064cac935e8256f9b9a1aed8597f705cd212
-    new: 543d6114e7db675af8ad3f384733b5ab5453dd0c
-    log: |
-         543d6114e7db675af8ad3f384733b5ab5453dd0c Wed Jul  3 06:14:25 PM EDT 2024
-         
+  - ref: refs/heads/perf/pinned-filter-v3
+    old: 0000000000000000000000000000000000000000
+    new: a84e2ea17ad606dde943bc4d4e1f2280ff6fb955
