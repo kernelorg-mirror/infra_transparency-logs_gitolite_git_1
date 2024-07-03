@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4161942479010583884=="
+Content-Type: multipart/mixed; boundary="===============6576485285047117412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 03 Jul 2024 14:13:08 -0000
-Message-Id: <172001598883.24238.5538679330487621770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 03 Jul 2024 14:14:13 -0000
+Message-Id: <172001605360.24701.1826034932556827083@gitolite.kernel.org>
 
---===============4161942479010583884==
+--===============6576485285047117412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/tty-linus
-    old: acd09ac253b5de8fd79fc61a482ee19154914c7a
-    new: 1af2156e58f3af1216ce2f0456b3b8949faa5c7e
+  - ref: refs/heads/main
+    old: 39ab8fff623053a50951b659e5f6b72343d7d78c
+    new: 4130c67cd123a36c902cbe9ce5a2efbc33eb18c0
     log: |
-         1af2156e58f3af1216ce2f0456b3b8949faa5c7e serial: imx: ensure RTS signal is not left active after shutdown
+         4ec17ce716bdaf680288ce680b4621b52483cc96 wifi: iwlwifi: properly set WIPHY_FLAG_SUPPORTS_EXT_KEK_KCK
+         e715c9302b1c6fae990b9898a80fac855549d1f0 wifi: iwlwifi: mvm: don't wake up rx_sync_waitq upon RFKILL
+         28e02bc9f412c3344b0e1f0c657dc6305ac75b4c wifi: iwlwifi: mvm: avoid link lookup in statistics
+         4130c67cd123a36c902cbe9ce5a2efbc33eb18c0 wifi: iwlwifi: mvm: check vif for NULL/ERR_PTR before dereference
          
 
---===============4161942479010583884==
+--===============6576485285047117412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720015987 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1720015986-7b728c16bda669ad0ad346894563d842fc296693
+pusher 7BF9099A 1720016023 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1720016023-9cefb5f77e55d2f33ebcca18c284c4f3020ca9ca
 
-acd09ac253b5de8fd79fc61a482ee19154914c7a 1af2156e58f3af1216ce2f0456b3b8949faa5c7e refs/heads/tty-linus
+39ab8fff623053a50951b659e5f6b72343d7d78c 4130c67cd123a36c902cbe9ce5a2efbc33eb18c0 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFXHMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dV4P/2eXp8pPvK4c5JvBnPTX
-4SEmp/fxjZk+ikkueI1h2sN123yJLZ0Ek39ddl0/2zsG5M9J9VWxCWxmtM2l8TQo
-EfvDKSNetyYqRiJtRKh54Z6gmudhM96L1rXMhK/mWJ2slwJfzjUGlu7gCfjgBPPs
-4DoFMkOtkxF2Cb25Gu682RZeADxqn480PeIQl+uV7Y1xGP3KgbkN7ij34W6ZB/ag
-4TmThSBvDtxjk8Uk0A0tm83/wY3dKNE4h4aEXruUnltlMjFUSWb0hzyDqTnHDthQ
-dlleX5yNOTxda+1CQe4O2RPpcSKMT1cHiTDbfUOQqpnrdGOoitLYuiI4CyaBLZfJ
-+az2LfP/g0XULIIgqpbskGJouhXr39Va7m77BszBaiZ9AZIhGOT0pPQ5ddw7+JH8
-zs+BpCKH9YtmEeNUdXLTU+ShhD9AqmBisnqW9GllmOfBeMy/F+c8LBFfijQomkPQ
-I3xm7EiW39WL6+mNkU6CiCIBy2B9c+jkivrXZ4EdbvwZjaq9KXHI8pFLaJkkxmq6
-3zEkUu5RuJJGK37H94GVOd76/yW5rMIcdfQjYzfhijIkLhvYrAVPHxZJT/OuZQ0H
-2fJQhLw5LZjjViMjR/iJQIWnknMdL60YOb02MYTQS7xgmto2us83QRKUkI7jP0NL
-+7eSJdqtFsCXZgCZW8gxmUq4
-=mySO
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmaFXJcACgkQ10qiO8sP
+aAChGA/8DyYnd4NYIFq6cRv6kRtXaIBoQb7yQt70rzPxgfLE+ur/AYkejyv2Mi+W
+VFaMspLHutFJBWiOn+E5FKJl1WiPNzxY/6WvVXuCQXuLTEggm0fxXukGw9dBFsN9
+nTXEZ2Kf7xeggG6suCAIhlRaw6JG4Uip7dIoFpfHBmU7NUJ6QT4S46qitnVduP6d
+DJI2gqDKK14A9wLHSsrHpO760n9JsAcMaJRXZbx5I+p1sWLVXsiuTRjXy3hX0jUh
+1Sl4vBXuFeEnMd/sf5IZUX3jEQ8IbXBLkF1cMHvu51IqafZFYukmgn9oeJeEnasx
+Y/n6rDu9pBju5JjO6zhpw2JvvtFn61J/91jwAGGI9b+H3Z1g1bdHLy/CXdAje4m8
+ogI7S1jLlEISBQ8YdGeU/Qen+exvN7813Nrl6W42n4mx7kPn205ZBRU26IzVCtb1
+ECFcUzWvj5ncsQ1LvkVBMsEZ1T82VdRU833mPWy+fJxp90YchBMfIR/wQgc//M7f
+q/BJ/tgWuLB9zL3hMhNeDqmmBPH3cKPf/5MSiJTb6xhsQJAEWa3rk8ykxbjzfhs0
+yNK8y630hza37XhoCE6w5S6inrMZ5rrH/FMuMgx20+22bfd9ZNbksjuXLWr+3w9X
+OnaFPPRZzmAzaKFpNmSk6+Jp2dWsX4dlz1T/tzqPrv0U4gSVWRY=
+=jNYr
 -----END PGP SIGNATURE-----
 
---===============4161942479010583884==--
+--===============6576485285047117412==--
