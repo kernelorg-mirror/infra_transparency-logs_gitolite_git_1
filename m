@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3043166534181889619=="
+Content-Type: multipart/mixed; boundary="===============0918876565822786243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 03 Jul 2024 13:17:10 -0000
-Message-Id: <172001263076.14052.15557924207988737371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 03 Jul 2024 13:18:01 -0000
+Message-Id: <172001268160.14416.11749121159050715006@gitolite.kernel.org>
 
---===============3043166534181889619==
+--===============0918876565822786243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: de3f6bcdbb36aec9570117538bab7d77ab8d4fbd
-    new: d69d804845985c29ab5be5a4b3b1f4787893daf8
-    log: |
-         d69d804845985c29ab5be5a4b3b1f4787893daf8 driver core: have match() callback in struct bus_type take a const *
-         
+  - ref: refs/heads/master
+    old: 1dfe225e9af5bd3399a1dbc6a4df6a6041ff9c23
+    new: e9d22f7a6655941fc8b2b942ed354ec780936b3e
+    log: revlist-1dfe225e9af5-e9d22f7a6655.txt
 
---===============3043166534181889619==
+--===============0918876565822786243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1dfe225e9af5-e9d22f7a6655.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720012626 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1720012624-3149dd0654d098f50c4386e06ee2aa1592aac168
+9d01f6f6d8b57131c74810739b9d65141062e4c0 erofs: fix possible memory leak in z_erofs_gbuf_exit()
+cc69a681b2573e8865e29758f1a5b284328efb2d erofs: convert to use super_set_uuid to support for FS_IOC_GETFSUUID
+48236960c06d32370bfa6f2cc408e786873262c8 selftests/resctrl: Fix non-contiguous CBM for AMD
+9b32b063be1001e322c5f6e01f2a649636947851 erofs: ensure m_llen is reset to 0 if metadata is invalid
+3cad1bc010416c6dd780643476bc59ed742436b9 filelock: Remove locks reliably when fcntl/close race is detected
+734610514cb0234763cc97ddbd235b7981889445 Merge tag 'erofs-for-6.10-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+391b59b045004d5b985d033263ccba3e941a7740 fs: better handle deep ancestor chains in is_subdir()
+655593a40efc577edc651f1d5c5dfde83367c477 afs: Convert comma to semicolon
+dbd8132aced4596ce8386af3041dfd310c8f42c8 Merge tag 'vfs-6.10-rc7.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+e9d22f7a6655941fc8b2b942ed354ec780936b3e Merge tag 'linux_kselftest-fixes-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
-de3f6bcdbb36aec9570117538bab7d77ab8d4fbd d69d804845985c29ab5be5a4b3b1f4787893daf8 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFT1IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eLQQALFHA7id6Cb0N2YJTfRY
-8FYa5ESkjeByzX5E5E7rnakImesht7kyMzYBlJDvbi9WWi2P/AZZuu/q8n7Hlsp/
-QS9A1xIPoEIB23sfWJo9q21x/zjzeWmPx3yrsvTpbVCu35+RpffqIeGJbfif3v5x
-Q7WPFINhAMJHZ/OaS1p4G2PpyARvKJp9Yn9srhK4yuZmrG3FwuBlQo0lDN6u1zZp
-mon8PRx6EW/S1zXEVSMTDMiOZX3OmuGJxUYM747CfUNNugXnIWdJpiByW2DPtUyE
-INMrUo3wm0qUJMYXVGLzL8hDHSLt4j8YlskVHf5gKfzrf81K/3YMg2glitZdTWXl
-8hXnZquXjVmbYv/ox6u6xVBZYNodQB8pt35U2m4O66j5fXHyXNZQaR8YxV+3kLr9
-mZGjT1mfWsFz9P0k317sD1QaFycMLDGFJxSTOI45810aRybudLA7U112vzd6xFSU
-gsfTgjjr2o7qRPVRNfFpIwHx8LUyrYbUHVghFeeBhhtoAyVag5oTKG11EKr8dLTT
-Md+1l92UfbtXvUhc9bNwHIhUy/1vMcaa2Wx3AGueTtbTL4qpvvpkJ9mW6qBML4ys
-CxIWJJL6YvgeVZGaOAZyICnqOSQ0bdt0qG+NDWXz3ZFYXY3xJ5EP/X0TeFxgWjub
-fvxuhwYYnZxfhhK8fbnMUEhB
-=w0uQ
------END PGP SIGNATURE-----
-
---===============3043166534181889619==--
+--===============0918876565822786243==--
