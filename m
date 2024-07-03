@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2239329753250727350=="
+Content-Type: multipart/mixed; boundary="===============6535287682023716314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 03 Jul 2024 04:01:12 -0000
-Message-Id: <171997927230.7793.8474957085808263911@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 04:02:01 -0000
+Message-Id: <171997932137.8159.12852931496711315034@gitolite.kernel.org>
 
---===============2239329753250727350==
+--===============6535287682023716314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: d13d7147e09c8f34bb7c1970c70e765ddd4b151c
+  - ref: refs/heads/for-linux-next
+    old: 9347028bfcfc5965bcb7511d25ad0f5687a8c352
     new: 2210093478443cd57cff5950379fec31ee8a5f79
-    log: revlist-d13d7147e09c-221009347844.txt
+    log: revlist-9347028bfcfc-221009347844.txt
 
---===============2239329753250727350==
+--===============6535287682023716314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d13d7147e09c-221009347844.txt
+Content-Disposition: attachment; filename=revlist-9347028bfcfc-221009347844.txt
 
 b1a1fdd7096dd2d67911b07f8118ff113d815db4 nvme: fix nvme_pr_* status code parsing
 62da3acd28955e7299babebdfcb14243b789e773 selftests/bpf: fix inet_csk_accept prototype in test_sk_storage_tracing.c
@@ -1051,4 +1051,4 @@ fb625bf6187d97c3cd28d680b14bf80f84207e5a Merge tag 'drm-habanalabs-next-2024-06-
 10b566f21beaba03bcc519055ff03b515d3c4137 drm/exynos/vidi: simplify fake edid handling
 2210093478443cd57cff5950379fec31ee8a5f79 drm/exynos/vidi: convert to struct drm_edid
 
---===============2239329753250727350==--
+--===============6535287682023716314==--
