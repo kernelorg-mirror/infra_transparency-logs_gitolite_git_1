@@ -1,17 +1,22 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 03 Jul 2024 18:33:32 -0000
-Message-Id: <172003161255.27969.17072062824797047486@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7373578715898272182=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 03 Jul 2024 18:33:51 -0000
+Message-Id: <172003163112.28192.5438255760775095130@gitolite.kernel.org>
+
+--===============7373578715898272182==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.11
+  - ref: refs/heads/for-6.11
     old: 91419b0d9ab203945e0ed4efb3cab84c45df0a21
     new: e15cc906b9c5af5414bb6002b6a036550bca6bd8
     log: |
@@ -25,3 +30,29 @@ changes:
          22c361dc7ce4d4d6a688febee57d6e4b130b96b3 ASoC: wsa883x: Constify struct regmap_config
          e15cc906b9c5af5414bb6002b6a036550bca6bd8 ASoC: wsa884x: Constify struct regmap_config
          
+
+--===============7373578715898272182==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1720031629 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1720031629-75fcf98da79d263717a8be894f18196b5e933e01
+
+91419b0d9ab203945e0ed4efb3cab84c45df0a21 e15cc906b9c5af5414bb6002b6a036550bca6bd8 refs/heads/for-6.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaFmY0ACgkQJNaLcl1U
+h9CyfggAgFHg6yRAuImbJoQUxRpNzldqzpeJl0sPgBBAlkHAJxRqbA4IZRqTqQTP
+5d5n49dKKWbwgHyYSMgECJL74GdJ/5jyteWRTBg3ip7EEHWKh3srgJQOtDbdaI8l
+uWdq+AE0So7hU1RxZTCXvXmPQp+P5xCJuE3AxrO3j2hOQfGW7AyUxJDv6kltvNGN
+OHQWd/vv/8gvTgO2PtPEBQzG3tnIgE101qbl+Mq3AG+hYodkAc+GYcjpeQuBCd4E
+K1LT/bx5iunspHcgEKs8SHvQwVh90OA1fH8IyoKGyhU6qeha9cqQK8x1IH0FET49
+f51DHhQGhjKF/6oa8/fRMnS6sVJQ2w==
+=AkUU
+-----END PGP SIGNATURE-----
+
+--===============7373578715898272182==--
