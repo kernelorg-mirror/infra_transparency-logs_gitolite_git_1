@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Jul 2024 18:16:01 -0000
-Message-Id: <172003056181.16827.3229370493730945559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 03 Jul 2024 18:33:24 -0000
+Message-Id: <172003160466.27863.14828752392152395920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/auth-null-2
-    old: f427578ee7bbfe87351b41870815bf397c783538
-    new: a8880b68c5c9cf4a40ad1eb01f48fda7c1ca9802
-    log: |
-         a8880b68c5c9cf4a40ad1eb01f48fda7c1ca9802 tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
-         
+  - ref: refs/heads/20240703_javier_carrasco_cruz_asoc_constify_struct_regmap_config
+    old: e15cc906b9c5af5414bb6002b6a036550bca6bd8
+    new: 0000000000000000000000000000000000000000
