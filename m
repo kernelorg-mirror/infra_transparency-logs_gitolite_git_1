@@ -1,97 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6293695434099974025=="
+Content-Type: multipart/mixed; boundary="===============3276448292038239443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 03 Jul 2024 06:14:36 -0000
-Message-Id: <171998727647.8885.1453849063645017695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 03 Jul 2024 06:14:50 -0000
+Message-Id: <171998729048.9072.11011799377639139253@gitolite.kernel.org>
 
---===============6293695434099974025==
+--===============3276448292038239443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: d6e1d7c0bd1d6e427c0b54c6a2977913b78e4af6
-    new: 37baa0045f3b59c1cf3b501c28aa93d04edbf54a
-    log: revlist-d6e1d7c0bd1d-37baa0045f3b.txt
   - ref: refs/heads/master
     old: 82e4255305c554b0bb18b7ccf2db86041b4c8b6e
     new: 0b58e108042b0ed28a71cd7edf5175999955b233
     log: revlist-82e4255305c5-0b58e108042b.txt
-  - ref: refs/heads/stable
-    old: 73e931504f8e0d42978bfcda37b323dbbd1afc08
-    new: e9d22f7a6655941fc8b2b942ed354ec780936b3e
-    log: revlist-73e931504f8e-e9d22f7a6655.txt
-  - ref: refs/tags/next-20240403
-    old: 7ba8e1dd849ff2b0cb0b0f6d3e041e6c2a084d4e
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240703
     old: 0000000000000000000000000000000000000000
     new: 32814a201f02fe326110ae12ec4b02cb3f08c133
 
---===============6293695434099974025==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6e1d7c0bd1d-37baa0045f3b.txt
-
-b402a0dce64aa3e14a9bd15ab1dd87a93967f90c scsi: scsi_debug: Fix create target debugfs failure
-48236960c06d32370bfa6f2cc408e786873262c8 selftests/resctrl: Fix non-contiguous CBM for AMD
-ab2068a6fb84751836a84c26ca72b3beb349619d scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
-d40c2865bdbbbba6418436b0a877daebe1d7c63e xfs: avoid redundant AGFL buffer invalidation
-d3b689d7c711a9f36d3e48db9eaa75784a892f4c xfs: Fix xfs_flush_unmap_range() range for RT
-f23660f059470ec7043748da7641e84183c23bc8 xfs: Fix xfs_prepare_shift() range for RT
-fb63435b7c7dc112b1ae1baea5486e0a6e27b196 xfs: add bounds checking to xlog_recover_process_data
-0c7fcdb6d06cdf8b19b57c17605215b06afa864a xfs: don't walk off the end of a directory data block
-8626b67acfa424834ad2f321cecc1f768e7f0106 xfs: move the dio write relocking out of xfs_ilock_for_iomap
-29bc0dd0a2f6d738fd339826af57cd17f7a39bd9 xfs: cleanup xfs_ilock_iocb_for_write
-9092b1de35a45ec7291156382db7a7ee13bdbb27 xfs: simplify xfs_dax_fault
-6a39ec1d394458e59f411edecf7b08ce34bdc7c8 xfs: refactor __xfs_filemap_fault
-4e82fa11fbbcc5426366dc2ddc839fd56b9d53de xfs: always take XFS_MMAPLOCK shared in xfs_dax_read_fault
-4818fd60db5feeeecb84d36d0162c3fb3eccb522 xfs: fold xfs_ilock_for_write_fault into xfs_write_fault
-a330cae8a7147890262b06e1aa13db048e3b130f xfs: Remove header files which are included more than once
-3ba3ab1f6719287674cf77a1208944cf38ef71c7 xfs: enable FITRIM on the realtime device
-1dfe225e9af5bd3399a1dbc6a4df6a6041ff9c23 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-a3c1d574e8df2ca90983ce0370dfa6732328fc7d cifs: Fix read-performance regression by dropping readahead expansion
-64d2c847ba380e07b9072d65a50aa6469d2aa43f btrfs: zoned: fix calc_available_free_space() for zoned mode
-724d8042cef84496ddb4492dc120291f997ae26b btrfs: always do the basic checks for btrfs_qgroup_inherit structure
-9da45c88e124f13a3c4d480b89b298e007fbb9e4 btrfs: fix uninitialized return value in the ref-verify tool
-de7d52e5625f8cadf8e31d83a75e256ad0ddb3d0 btrfs: fix folio refcount in btrfs_do_encoded_write()
-e8bde31ed7fa39a7e0f3fff0687d292e12a6f311 btrfs: fix folio refcount in __alloc_dummy_extent_buffer()
-5b63f5b7f7bad54e1a596210c87c63bd3151e1ce Merge branch 'misc-6.10' into next-fixes
-3cad1bc010416c6dd780643476bc59ed742436b9 filelock: Remove locks reliably when fcntl/close race is detected
-734610514cb0234763cc97ddbd235b7981889445 Merge tag 'erofs-for-6.10-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-391b59b045004d5b985d033263ccba3e941a7740 fs: better handle deep ancestor chains in is_subdir()
-655593a40efc577edc651f1d5c5dfde83367c477 afs: Convert comma to semicolon
-dbd8132aced4596ce8386af3041dfd310c8f42c8 Merge tag 'vfs-6.10-rc7.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e9d22f7a6655941fc8b2b942ed354ec780936b3e Merge tag 'linux_kselftest-fixes-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-b15cd202d4d227d15bb2b43856af38e77536fe5a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-971ae5795e0cb10747e93d5a8819574b556f2f0e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-574941385bb1d4693efb95012645945edc0faff3 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-b19a82b401e051ffbf33249d6395d2ca294478ea Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-7872200fa40dec9199c46ae120b3f81611b3f3ac Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-a3d36bb1e887909b2d20ee95a6590b5719467069 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-1a9dcae23ef8cf4a1bf4d42874e07d1657f76fb2 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-56478bee6905ca999dab8724ac4d16d8e4ba3d49 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-dd0b818345db48225c5f81a693424ef956570960 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-eb1c4a838bf2fa0536553b6f1e15e12c81dcb182 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
-51069b850895532ce0d25def1a7b4df4844b4a75 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-1955e592bfdf602b34a768b8c228bb4a3525cecd Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-306612e170bc54b780eb32633308043f785c4add Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-193fc282c8917fdb35fc2eab6edd941cc57033ac Merge branch 'linux-next' of git://git.linux-nfs.org/projects/anna/linux-nfs.git
-b49cb4979e763c483beb4152d188774506a377a4 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-e2c44659ec5f69061ab66d90db7525597a410361 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-37da5f8a18a61496cf6cd0886a7c495f98d94cd9 Merge branch '9p-next' of git://github.com/martinetd/linux
-fbf6a44b346284c5168efd136db95d51138a1c56 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-909226c1b4cd8e69667ed8a6421839c1e4f38959 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-37baa0045f3b59c1cf3b501c28aa93d04edbf54a Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============6293695434099974025==
+--===============3276448292038239443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -946,24 +878,4 @@ c2541dba71ee6243fad0670cae5cb1faba673c53 Merge branch 'for-next' of git://git.ke
 c3c6aceb95e422cdaedecea440137a2b7878dc11 Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 0b58e108042b0ed28a71cd7edf5175999955b233 Add linux-next specific files for 20240703
 
---===============6293695434099974025==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73e931504f8e-e9d22f7a6655.txt
-
-b402a0dce64aa3e14a9bd15ab1dd87a93967f90c scsi: scsi_debug: Fix create target debugfs failure
-9d01f6f6d8b57131c74810739b9d65141062e4c0 erofs: fix possible memory leak in z_erofs_gbuf_exit()
-cc69a681b2573e8865e29758f1a5b284328efb2d erofs: convert to use super_set_uuid to support for FS_IOC_GETFSUUID
-48236960c06d32370bfa6f2cc408e786873262c8 selftests/resctrl: Fix non-contiguous CBM for AMD
-ab2068a6fb84751836a84c26ca72b3beb349619d scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
-9b32b063be1001e322c5f6e01f2a649636947851 erofs: ensure m_llen is reset to 0 if metadata is invalid
-1dfe225e9af5bd3399a1dbc6a4df6a6041ff9c23 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-3cad1bc010416c6dd780643476bc59ed742436b9 filelock: Remove locks reliably when fcntl/close race is detected
-734610514cb0234763cc97ddbd235b7981889445 Merge tag 'erofs-for-6.10-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-391b59b045004d5b985d033263ccba3e941a7740 fs: better handle deep ancestor chains in is_subdir()
-655593a40efc577edc651f1d5c5dfde83367c477 afs: Convert comma to semicolon
-dbd8132aced4596ce8386af3041dfd310c8f42c8 Merge tag 'vfs-6.10-rc7.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e9d22f7a6655941fc8b2b942ed354ec780936b3e Merge tag 'linux_kselftest-fixes-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-
---===============6293695434099974025==--
+--===============3276448292038239443==--
