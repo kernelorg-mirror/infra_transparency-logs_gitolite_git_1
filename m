@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2071562545087169876=="
+Content-Type: multipart/mixed; boundary="===============1414308615274520033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 03 Jul 2024 10:24:52 -0000
-Message-Id: <172000229295.14921.13295743948035657745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 03 Jul 2024 10:27:46 -0000
+Message-Id: <172000246693.17629.18048337589575278005@gitolite.kernel.org>
 
---===============2071562545087169876==
+--===============1414308615274520033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: a7555f5f17d7791613396e2855ebc73a5ba227ad
-    new: d73778e4b86755d527a0c6b249cde846770b2f66
+  - ref: refs/heads/master
+    old: a891062321f5e9ef36d9608afadbfcce8b6ed91e
+    new: fd461c6f3243b6d00c1dba5edfc10ddaba0db8f4
     log: |
-         ad59baa3169591e0b4cf1a217c9139f2145f4c7f slab, rust: extend kmalloc() alignment guarantees to remove Rust padding
-         72e0fe2241ce113cbba339ca8c2450b167774530 mm/slab: Introduce kmem_buckets typedef
-         67f2df3b82d091ed095d0e47e1f3a9d3e18e4e41 mm/slab: Plumb kmem_buckets into __do_kmalloc_node()
-         2e8000b826fcd2716449d09753d5ed843067881e mm/slab: Introduce kvmalloc_buckets_node() that can take kmem_buckets argument
-         b32801d1255be1da62ea8134df3ed9f3331fba12 mm/slab: Introduce kmem_buckets_create() and family
-         734bbc1c97ea7e46e0e53b087de16c87c03bd65f ipc, msg: Use dedicated slab buckets for alloc_msg()
-         d73778e4b86755d527a0c6b249cde846770b2f66 mm/util: Use dedicated slab buckets for memdup_user()
+         fd461c6f3243b6d00c1dba5edfc10ddaba0db8f4 rework some 4.19 patches
          
 
---===============2071562545087169876==
+--===============1414308615274520033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1720002289 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1720002289-dd8e210ecce9a3e266f8eec6e4bbfdb39aea2d60
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720002463 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1720002460-e974c6fe798cb15700c234578ac04756c145c389
 
-a7555f5f17d7791613396e2855ebc73a5ba227ad d73778e4b86755d527a0c6b249cde846770b2f66 refs/heads/slab/for-next
+a891062321f5e9ef36d9608afadbfcce8b6ed91e fd461c6f3243b6d00c1dba5edfc10ddaba0db8f4 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaFJvEACgkQu+CwddJF
-iJovpQf9GwMFNlJugBZE7Hbl3quoqStuxAKzqQ3+AeZMqwZ6/AufJIHPRnX1QSBe
-E5JUF33eWMpNLrPjF3O6ZLe+F6XQ0BYngwXfwEHFhXBxGqzDcf5ctn2eBfa2Kt8X
-0VorF/NeRKl6zjf3afltwwOz6cu4VRRJxlpWuQ766XDd8JqeyxkYGG1mb9s/Rlz/
-F6WL2xFMA05wo/4K1Vj2qr+72TZT7wRNnIojS/JmNm6IatORp8zX3mILVVyF4non
-SvOOtXOSzSHqlNOslDIqoIMMHVJApPtWk6sLdx3hY9p1Sqx3+THkF2GWeTuBxCc3
-JirJb5iNDbGx6XmM/CaHUaGiD4t5jg==
-=HmGy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaFJ58bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rlkP/Rwmnlt2xYBvfNQ2iGLy
+u4Ms+NRroJYX8qcClmfO4fOFd49iCvSRA7WMcSUaREH/lG6RM6NLC1q6URRpuwdI
+cunrXpJSIowmaoo5zvqaleeJ97m/EMHUmKjk2qKjoOlBmNoZS6JWYQbRlpjg/clr
+n9rW3TafFiziHghg5lQYeoLZBYpQiIM2IYCu0zjYqXryzZkZK2JlPDEEwKlQvWFI
+fr7eTXv11rnUordcWa3JpS71hQujkktIM7hltJ2yX4Tr+pzbhWV9F8vwll8q7yqo
+l0Vql/uk9hslPomKJdZ7b06kASIVR0TLgRJaPRapqzxGB9ncEMV1BdzdiQU4Bc6o
+otGH2ZMUcDTZ7KbAHE9GU9Ywoz8jpfr/zef//qLBdO/uftTvy1Gy/j8gNOY3ebiC
+q1Ek4MSPj6CQNjJ5HEjotwxzE0WoT/CyUmTs55JhGzyWjyE8mXOLwPloJwFvI4+0
+bGbN1wz8/nBoQ5Lj8EsEavf3TTFUiLgzy14ERTWedfVSyNfh6mCeW8t8q0QMPa+7
+u5Qldd61PR2qEGjhI1u5U+W1w5r4h+LGkTIlBblaHZdAHUQimZ2/NeJydaDCXx2i
+pgqkx1Cb446dTr7icg6/H+xoppe+y1XDWTmprM0Dzws2xDF+B3Mv1Pek4KFqdtvV
+LNio4IL3xx9V7qq2VjibNZBF
+=pCrY
 -----END PGP SIGNATURE-----
 
---===============2071562545087169876==--
+--===============1414308615274520033==--
