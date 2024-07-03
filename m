@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Wed, 03 Jul 2024 18:00:51 -0000
-Message-Id: <172002965158.4107.2256996071532511216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Wed, 03 Jul 2024 18:01:48 -0000
+Message-Id: <172002970853.4537.17888207244058869348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/stable
-    old: 79105ecd70479b71a990463c8da343d3b4281ce9
-    new: 5452ce7667be85f4fe757ace58b6bbc6a5d7abfb
-  - ref: refs/heads/jd/rcu-barrier
-    old: 0000000000000000000000000000000000000000
-    new: 79105ecd70479b71a990463c8da343d3b4281ce9
+  - ref: refs/heads/for-6.10-fixes
+    old: 231035f18d6b80e5c28732a20872398116a54ecd
+    new: 74347be3edfd11277799242766edf844c43dd5d3
+    log: |
+         74347be3edfd11277799242766edf844c43dd5d3 workqueue: Always queue work items to the newest PWQ for order workqueues
+         
+  - ref: refs/heads/for-next
+    old: c6eff66fe16e95baa97293940fb7f1e06364543c
+    new: edff5b4f7214072c4dd15ef31acd8fba1baa6110
+    log: |
+         74347be3edfd11277799242766edf844c43dd5d3 workqueue: Always queue work items to the newest PWQ for order workqueues
+         edff5b4f7214072c4dd15ef31acd8fba1baa6110 Merge branch 'for-6.10-fixes' into for-next
+         
