@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 03 Jul 2024 07:59:12 -0000
-Message-Id: <171999355227.20437.12264981607083044805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Wed, 03 Jul 2024 08:11:21 -0000
+Message-Id: <171999428124.30918.11031294321365655942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: e1606a25b8b5dd643099ac7835f744202e688a69
-    new: 6008b7dd15e86567b5b67e6b9e72fa8cd13be684
+  - ref: refs/heads/main
+    old: e15a5d821e5192a3769d846079bc9aa380139baf
+    new: 8eb301bd7b0f45d36e663ecbe59b7c80b9863950
     log: |
-         2289f4e90f49a83e24a21fa887893438834d707f lsfd: Refactor the pidfd logic into lsfd-pidfd.c
-         36f15ee77b9fe3a4bf3e84d10c5a9c9881115e53 lsfd: Support pidfs
-         6008b7dd15e86567b5b67e6b9e72fa8cd13be684 lsfd: test: Adapt test cases for pidfs
+         8eb301bd7b0f45d36e663ecbe59b7c80b9863950 net: stmmac: enable HW-accelerated VLAN stripping for gmac4 only
          
