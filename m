@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7960299288152141552=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 03 Jul 2024 16:30:07 -0000
-Message-Id: <172002420786.31909.3789378046856086203@gitolite.kernel.org>
-
---===============7960299288152141552==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 03 Jul 2024 16:30:22 -0000
+Message-Id: <172002422276.32098.6295523507927936841@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 31a45f9190b5b4f5cd8cdec8471babd5215eee04
-    new: c288f0a1c08efa65f9e3bb7954eb3cefb966c97d
+  - ref: refs/heads/for-next
+    old: 3eccd0d90da309819075b85b08b8bee61e1695db
+    new: dcf6284b2d250241bb532f5a54bfc20185201bfe
     log: |
          c288f0a1c08efa65f9e3bb7954eb3cefb966c97d ASoC: fsl_xcvr: Improve suspend/resume flow in fsl_xcvr_trigger()
+         dcf6284b2d250241bb532f5a54bfc20185201bfe Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
          
-
---===============7960299288152141552==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1720024206 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1720024205-eb262f0787e34dc4434ca320456466e16e3e5392
-
-31a45f9190b5b4f5cd8cdec8471babd5215eee04 c288f0a1c08efa65f9e3bb7954eb3cefb966c97d refs/heads/asoc-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaFfI4ACgkQJNaLcl1U
-h9BwCgf/fvrSZxyUzEczyIRKBfyCdraBnUwOSNHo/8lCV/TQIDMZy1eZYxoEVBMI
-MEaK8sYE89M77uXZ3uHnMWSZu3oGbJB+Ueiqjjl1fsquYtTNLkCbi/pOaz85zKNi
-blbOCCYZYciVTBKnrJLbFlRH5BLmUYyc1BLvr8m3Ck/hYJu8Pm1kWcQM0VHjs1Tk
-ORXlzutT7KQ5DcLSWLmiTcfpEGpo+6rvu3ulM0RBcwUaln7XETAy1VQAiok/DF9r
-uc48abGDdu6eaJasdNeLf8V58xX5xc/Tf7TTzQpEbJvGhX+nkwDw6pJYFmwteOU/
-yh1nZXtCmhgQd58jotQE5rhAXYhEGQ==
-=lgXW
------END PGP SIGNATURE-----
-
---===============7960299288152141552==--
