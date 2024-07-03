@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Jul 2024 16:43:54 -0000
-Message-Id: <172002503453.10744.10469641670931220120@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 16:46:45 -0000
+Message-Id: <172002520564.13533.12853284541030991727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/auth-null
-    old: 4b90e855339f9a8d6761ce5227c7f37e5e7e38d0
-    new: 2575adb8a52169c2e26b3d4561183af62d665aef
+    old: 2575adb8a52169c2e26b3d4561183af62d665aef
+    new: 500f5f93ecae5946629100e6aa662bc83c93520c
     log: |
-         d67e113e9b4b7cac614954e4d9723533b914b993 tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
-         2575adb8a52169c2e26b3d4561183af62d665aef tpm: Address !chip->auth in tpm2_*_auth_session()
+         7b51db85db53e2ec6398b5601b37ce64c58ea9ab tpm: Address !chip->auth in tpm_buf_append_name()
+         a95b401db6ed68bdf58b7953b942ae31bd872ddc tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
+         500f5f93ecae5946629100e6aa662bc83c93520c tpm: Address !chip->auth in tpm2_*_auth_session()
          
