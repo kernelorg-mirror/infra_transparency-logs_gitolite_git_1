@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 03 Jul 2024 20:06:58 -0000
-Message-Id: <172003721897.2044.1332010328368552737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 03 Jul 2024 20:07:00 -0000
+Message-Id: <172003722024.2227.1683760595094167780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/kdevops
-    old: cc5458b90fda344c50008fc09024662adeefada5
-    new: 45e75ea6ff88ac8eebdba44a2eb6b9797b765018
+  - ref: refs/heads/fixes
+    old: 210ac17dedc9810d744ae52f8780278211a490aa
+    new: 3582ce0d7ccf2ee0eca66e5928e5550b8fc84e57
     log: |
-         82101b0cbd58d00180b9e34b7fe20a588fdf7808 fs: uninline inode_set_ctime_to_ts
-         45e75ea6ff88ac8eebdba44a2eb6b9797b765018 fs: tracepoint for inode_set_ctime_to_ts
+         3582ce0d7ccf2ee0eca66e5928e5550b8fc84e57 riscv: selftests: Fix vsetivli args for clang
          
