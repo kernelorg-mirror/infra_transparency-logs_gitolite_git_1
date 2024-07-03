@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 03 Jul 2024 16:30:22 -0000
-Message-Id: <172002422276.32098.6295523507927936841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 03 Jul 2024 16:30:23 -0000
+Message-Id: <172002422322.32139.9806122409129312886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 3eccd0d90da309819075b85b08b8bee61e1695db
-    new: dcf6284b2d250241bb532f5a54bfc20185201bfe
+  - ref: refs/heads/1GbE
+    old: 8905a2c7d39b921b8a62bcf80da0f8c45ec0e764
+    new: 8eb301bd7b0f45d36e663ecbe59b7c80b9863950
     log: |
-         c288f0a1c08efa65f9e3bb7954eb3cefb966c97d ASoC: fsl_xcvr: Improve suspend/resume flow in fsl_xcvr_trigger()
-         dcf6284b2d250241bb532f5a54bfc20185201bfe Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         219343755eae6536d1fcb9184e6253ade4906aac net: phy: aquantia: add missing include guards
+         e15a5d821e5192a3769d846079bc9aa380139baf net: ntb_netdev: Move ntb_netdev_rx_handler() to call netif_rx() from __netif_rx()
+         8eb301bd7b0f45d36e663ecbe59b7c80b9863950 net: stmmac: enable HW-accelerated VLAN stripping for gmac4 only
          
