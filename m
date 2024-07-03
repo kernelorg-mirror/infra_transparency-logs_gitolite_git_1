@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 03 Jul 2024 15:56:59 -0000
-Message-Id: <172002221906.5998.2996447950488651899@gitolite.kernel.org>
+Date: Wed, 03 Jul 2024 15:57:02 -0000
+Message-Id: <172002222283.6065.1324697444237959406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/mgtime
-    old: 9103b9c1ed71bd2f81a631c598907957df71d03b
+  - ref: refs/heads/kdevops
+    old: 7ec5c9d3758a42421f842c02d5e94cd291bfed20
     new: cf58b48f28b072746f7ee5297e659e4a27eb12ca
     log: |
          74e36af56ad9eee6555c75f512e5aaaf941729db fs: add infrastructure for multigrain timestamps
