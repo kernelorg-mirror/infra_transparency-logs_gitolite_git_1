@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 03 Jul 2024 04:18:31 -0000
-Message-Id: <171998031181.21300.7823859505029024992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Wed, 03 Jul 2024 05:32:04 -0000
+Message-Id: <171998472428.9440.5830074916509475402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/main
-    old: ac26327635d643efe173e7460fa09eb39f0e5c54
-    new: df18948d331eacc213cfc9e8ffc84a07dfd4dcd1
+  - ref: refs/heads/topic/event-hist-poll
+    old: 9267c23ca2e79c769c6965ff56a6639c8b2ac5b5
+    new: 16cc87aacf58698152d63475a10d66258ed83ea8
     log: |
-         4dec64c52e24c2c9a15f81c115f1be5ea35121cb page_pool: convert to use netmem
-         07c3cc51a0853986af0fc52d0544b1b67b391ea8 tools: net: package libynl for use in selftests
-         df18948d331eacc213cfc9e8ffc84a07dfd4dcd1 Merge branch 'device-memory-tcp'
+         1efcd82502ea4357434b5504f5016960eb0da44f tracing/hist: Add poll(POLLIN) support on hist file
+         d06550f40629d0854d8e550d5ee788a9ee71a75f tracing/hist: Support POLLPRI event for poll on histogram
+         16cc87aacf58698152d63475a10d66258ed83ea8 selftests/tracing: Add hist poll() support test
          
