@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 04 Jul 2024 19:58:47 -0000
-Message-Id: <172012312779.16203.10915167914157654689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 04 Jul 2024 19:59:09 -0000
+Message-Id: <172012314937.16441.12277339251038235408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 1762dc01fc78ef5f19693e9317eae7491c6c7e1b
-    new: 8221545c440b5f83f00b3e5a92bbc86bf268bad4
-    log: |
-         8221545c440b5f83f00b3e5a92bbc86bf268bad4 spi: omap2-mcspi: Revert multi mode support
-         
-  - ref: refs/heads/for-next
-    old: 5b6cad81d0c1b1c71533f2898a47f3d2fcfc4595
-    new: 56b6e631686eacbaf1970043027aadafea2b8438
-    log: |
-         8221545c440b5f83f00b3e5a92bbc86bf268bad4 spi: omap2-mcspi: Revert multi mode support
-         56b6e631686eacbaf1970043027aadafea2b8438 Merge remote-tracking branch 'spi/for-6.11' into spi-next
-         
+  - ref: refs/heads/20240704_javier_carrasco_cruz_regulator_constify_read_only_regmap_config_struct
+    old: 32d1171014a74c788218e0a8a5fd6fef65fb10ba
+    new: 0000000000000000000000000000000000000000
