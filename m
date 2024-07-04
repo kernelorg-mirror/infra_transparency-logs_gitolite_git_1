@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 04 Jul 2024 03:28:56 -0000
-Message-Id: <172006373696.8935.12717027532480743403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 04 Jul 2024 03:39:02 -0000
+Message-Id: <172006434203.17057.16678510420308595169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: f31c2625d018457eae390f97d577f31c91731af3
-    new: caa973673af39fd20c3e811b0d3fec34cc869baa
+  - ref: refs/heads/objtool-diff
+    old: ec581b59f9fb7bf2ff3bdb12ec3e9d98a1dd8ff0
+    new: 0701df056a78b76d97ad9fe64c364e98f234a71c
     log: |
-         932aaf770952ef703faabf157825b9047f90b00d foo
-         94224b7eaf7b7fbf7edc3988dbda44221c4daebf foo
-         8702e5ca92806c752d7d65fda11f511785722240 foo
-         796d70878d9114aae1390c421ca048a08d2c82aa foo
-         caa973673af39fd20c3e811b0d3fec34cc869baa foo
+         df18f7f77732df227be270aa0d05ff885256523a x86/alternative: Create symbols for each alternative entry
+         0701df056a78b76d97ad9fe64c364e98f234a71c todo
          
