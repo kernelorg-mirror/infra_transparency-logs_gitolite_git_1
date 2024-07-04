@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 04 Jul 2024 08:11:31 -0000
-Message-Id: <172008069145.25184.8818904076918917152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 04 Jul 2024 08:16:40 -0000
+Message-Id: <172008100002.28719.350412548548270468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/auth-null-3
-    old: 7f258bdedd81327dd788d03191a2781f30500dba
-    new: 40da63f8bf8442bc08cceb5ea97d6128e574a593
+  - ref: refs/heads/stable/v2.40
+    old: 6008b7dd15e86567b5b67e6b9e72fa8cd13be684
+    new: 1cebcc34373ed34266f726fff71030a83b4df7da
     log: |
-         270a180619624bcaed3e84c9296a2aa05a594058 io_uring/net: don't clear msg_inq before io_recv_buf_select() needs it
-         adf27693d6344cadf57d4a5e072b4df247fd346a tpm: Address !chip->auth in tpm2_*_auth_session()
-         a76c749d4ba132ea30be5b1291aa8654101554b0 tpm: Address !chip->auth in tpm_buf_append_name()
-         40da63f8bf8442bc08cceb5ea97d6128e574a593 tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
+         3109fb4873da9ea03afcea27c08c805db353c665 po: update es.po (from translationproject.org)
+         8a30c811f7af54fe6f797a2278ee9d35a1075184 po: update ja.po (from translationproject.org)
+         87b9b861e8539aa2246ca4a77f55a36c760de795 po: merge changes
+         7613ee27ff5a74a533ff69e531760a0b62f0ff16 po-man: merge changes
+         8ede1f5e9ed5137dd534191fa8e0fdc4d7860ed4 docs: update AUTHORS file
+         1ac6ec7a46a00927fbee967bd8f13483abd66f13 docs: update v2.40.2-ReleaseNotes
+         1cebcc34373ed34266f726fff71030a83b4df7da build-sys: release++ (v2.40.2)
          
