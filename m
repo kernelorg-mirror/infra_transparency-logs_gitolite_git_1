@@ -1,171 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2495373984970429011=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 04 Jul 2024 07:06:25 -0000
-Message-Id: <172007678529.7384.7769763579753246962@gitolite.kernel.org>
-
---===============2495373984970429011==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 04 Jul 2024 07:18:16 -0000
+Message-Id: <172007749655.16314.8217389627497009584@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/md-6.11
-    old: 305a5170dc5cf3d395bb4c4e9239bca6d0b54b49
-    new: 25b3a8237a03ec0b67b965b52d74862e77ef7115
-    log: revlist-305a5170dc5c-25b3a8237a03.txt
-
---===============2495373984970429011==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-305a5170dc5c-25b3a8237a03.txt
-
-c2670cf789500304097cd115483cc70e1feb9472 Merge tag 'md-6.11-20240612' of git://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.11/block
-3253aba3408aa4eb2e4e09365eede3e63ef7536b rust: block: introduce `kernel::block::mq` module
-bc5b533b91ef0b8a09fe507e23d1c6c43c1fb0f5 rust: block: add rnull, Rust null_blk implementation
-d37a9ab8331cfc0fc2eac0480f0af624c0144a92 MAINTAINERS: add entry for Rust block device driver API
-5db755fbb1a0de4a4cfd5d5edfaa19853b9c56e6 ubd: refactor the interrupt handler
-31ade7d4fdcf382beb8cb229a1f5d77e0f239672 ubd: untagle discard vs write zeroes not support handling
-a00d4bfce7c6d7fa4712b8133ec195c9bd142ae6 rbd: increase io_opt again
-a23634644afc2f7c1bac98776440a1f3b161819e block: take io_opt and io_min into account for max_sectors
-b3491b0db165c0cbe25874da66d97652c03db654 sd: simplify the ZBC case in provisioning_mode_store
-b0dadb86a90bd5a7b723f9d3a6cf69da9b596496 sd: add a sd_disable_discard helper
-9972b8ce0d4ba373901bdd1e15e4de58fcd7f662 sd: add a sd_disable_write_same helper
-d15b9bd42cd3b2077812d4bf32f532a9bd5c4914 sd: simplify the disable case in sd_config_discard
-f1e8185fc12c699c3abf4f39b1ff5d7793da3a95 sd: factor out a sd_discard_mode helper
-9c1d339a1bf45f4d3a2e77bbf24b0ec51f02551c sd: cleanup zoned queue limits initialization
-804e498e0496d889090f32f812b5ce1a4f2aa63e sd: convert to the atomic queue limits API
-969f17e10f5b732c05186ee0126c8a08166d0cda sr: convert to the atomic queue limits API
-1652b0bafeaa8281ca9a805d81e13d7647bd2f44 block: remove unused queue limits API
-73e3715ed14844067c5c598e72777641004a7f60 block: add special APIs for run-time disabling of discard and friends
-899ee2c3829c5ac14bfc7d3c4a5846c0b709b78f block: initialize integrity buffer to zero before writing it to media
-d11854ed05635e4a73fa61a988ffdd0978c9e202 md/raid0: don't free conf on raid0_run failure
-799af947ed132956d6de6d77a5bc053817ccb06b md/raid1: don't free conf on raid0_run failure
-63e649594ab19cc3122a2d0fc2c94b19932f0b19 dm-integrity: use the nop integrity profile
-e9f5f44ad3725335d9c559c3c22cd3726152a7b1 block: remove the blk_integrity_profile structure
-e8bc14d116aeac8f0f133ec8d249acf4e0658da7 block: remove the blk_flush_integrity call in blk_integrity_unregister
-1366251a794b149a132ef8423c8946b6e565a923 block: factor out flag_{store,show} helper for integrity
-1d59857ed2ec4d506e346859713c4325b5053da3 block: use kstrtoul in flag_store
-43c5dbe98a3953e07f4fbf89aa137b9207d52378 block: don't require stable pages for non-PI metadata
-3c3e85ddffae93eba1a257eb6939bf5dc1e93b9e block: bypass the STABLE_WRITES flag for protection information
-9f4aa46f2a7401025d8561495cf8740f773310fc block: invert the BLK_INTEGRITY_{GENERATE,VERIFY} flags
-c6e56cf6b2e79a463af21286ba951714ed20828c block: move integrity information into queue_limits
-e3e72fe4cb1d1b7399fab0e98166b8bfcddb9ec7 Merge branch 'for-6.11/block-limits' into for-6.11/block
-5e3b7009f116f684ac6b93d8924506154f3b1f6d rust: block: do not use removed queue limit API
-e21d12c7cd5cef8a6c5367f96aaab01249216ded block: Improve checks on zone resource limits
-7f91ccd8a608dbe39b97a6e43d635378d493f77e dm: Call dm_revalidate_zones() after setting the queue limits
-73a74af0c72b7cfd843cbd93e088fc5c51471a84 dm: Improve zone resource limits handling
-eaa3706fedc6a4142c251b2d4005d850caeabe50 dm: Remove unused macro DM_ZONE_INVALID_WP_OFST
-d9c2332199d073c5edd7163d64fbdee6224d8c08 bdev: make blockdev_mnt static
-c3042a5403ef2be622023fcc3b11fc1aa08ba7fa block: Drop locking annotation for limits_lock
-66088084fdabb6e5075cd19e8ffe15b8bc7e3708 block: BFQ: Refactor bfq_exit_icq() to silence sparse warning
-b83bd486b43d2b7f10595a9d7a52d41023eaa9c1 block: cleanup flag_{show,store}
-bb7e5a193d8becf3920e3848287f1b23c5fc9b24 block, bfq: remove blkg_path()
-28d8c13830cc530996157e22ecf22def90cb7f35 amiflop: add missing MODULE_DESCRIPTION() macro
-ba8df22e25e7e906254f4f490d7bcfbe637152aa ataflop: add missing MODULE_DESCRIPTION() macro
-465478bb00168a7620788990b1679c5067d421f2 z2ram: add missing MODULE_DESCRIPTION() macro
-dd9300e9eaeeb212f77ffeb72d1d8756107f1f1f xen-blkfront: don't disable cache flushes when they fail
-be60e7700e6df1e16a2f60f45bece08e6140a46d sd: remove sd_is_zoned
-308ad58af49d6c4c3b7a36b98972cc9db4d7b36a sd: move zone limits setup out of sd_read_block_characteristics
-c9055b44abe60da69aa4ee4fdcb78ee7fe733335 loop: stop using loop_reconfigure_limits in __loop_clr_fd
-ae0d40ff49642651f969883ef9fc79d69c1632d7 loop: always update discard settings in loop_reconfigure_limits
-a17ece76bcfe7b86327b19cae1652d7c62068a30 loop: regularize upgrading the block size for direct I/O
-4ce37fe0938b02b7b947029c40b72d76a22a3882 loop: also use the default block size from an underlying block device
-97dd4a43d69b74a114be466d6887e257971adfe9 loop: fold loop_update_rotational into loop_reconfigure_limits
-bbe5c84122b35c37f2706872fe34da66f0854b56 virtio_blk: remove virtblk_update_cache_mode
-6b377787a306253111404325aee98005b361e59a nbd: move setting the cache control flags to __nbd_set_size
-af2814149883e2c1851866ea2afcd8eadc040f79 block: freeze the queue in queue_attr_store
-70905f8706b62113ae32c8df721384ff6ffb6c6a block: remove blk_flush_policy
-1122c0c1cc71f740fa4d5f14f239194e06a1d5e7 block: move cache control settings out of queue->flags
-bd4a633b6f7c3c6b6ebc1a07317643270e751a94 block: move the nonrot flag to queue_limits
-39a9f1c334f9f27b3b3e6d0005c10ed667268346 block: move the add_random flag to queue_limits
-cdb2497918cc2929691408bac87b58433b45b6d3 block: move the io_stat flag setting to queue_limits
-1a02f3a73f8c670eddeb44bf52a75ae7f67cfc11 block: move the stable_writes flag to queue_limits
-aadd5c59c910427c0464c217d5ed588ff14e2502 block: move the synchronous flag to queue_limits
-f76af42f8bf13d2620084f305f01691de9238fc7 block: move the nowait flag to queue_limits
-f467fee48da4500786e145489787b37adae317c3 block: move the dax flag to queue_limits
-8023e144f9d6e35f8786937e2f0c2fea0aba6dbc block: move the poll flag to queue_limits
-b1fc937a55f5735b98d9dceae5bb6ba262501f56 block: move the zoned flag into the features field
-a52758a39768f441e468a41da6c15a59d6d6011a block: move the zone_resetall flag to queue_limits
-9c1e42e3c876c66796eda23e79836a4d92613a61 block: move the pci_p2pdma flag to queue_limits
-8c8f5c85b20d0a7dc0ab9b2a17318130d69ceb5a block: move the skip_tagset_quiesce flag to queue_limits
-339d3948c07b4aa2940aeb874294a7d6782cec16 block: move the bounce flag into the features field
-69c34f07e45f2d52d9a41991867a1e5a85bbaaf3 Merge branch 'for-6.11/block-limits' into for-6.11/block
-f6860b6069b92559f5cdb65f48e2d82051eaebca block: remove the unused blk_bounce enum
-4e54ea72edd68d074be2403f3efc67ff0541e298 block: fix spelling and grammar for in writeback_cache_control.rst
-bae1c74316b86c67c95658c3a0cd312cec9aad77 block: renumber and rename the cache disabled flag
-5543217be468268dfedf504f4969771b9a377353 block: move the misaligned flag into the features field
-4cac3d3a712b5c76d462b29b73b9e58c0b6d9946 block: remove the discard_alignment flag
-7d4dec525f5fd555037486af4d02dd3682655ba1 block: move the raid_partial_stripes_expensive flag into the features field
-5ddb88f22eb97218d9295e69c39e0ff7cc64e09c rust: block: do not use removed queue flag API
-e821bcecdf82c7293322df15d8172ff274f84ef4 Merge branch 'for-6.11/block-limits' into for-6.11/block
-8d1dfd51c84e202df05a999ce82cb27554f7d152 block: Pass blk_queue_get_max_sectors() a request pointer
-f70167a7a6e7e8a6911f3a216dc044cbfe7c1983 block: Generalize chunk_sectors support as boundary support
-c34fc6f26ab86d03a2d47446f42b6cd492dfdc56 fs: Initial atomic write support
-0f9ca80fa4f9670ba09721e4e36b8baf086a500c fs: Add initial atomic write support info to statx
-9da3d1e912f3953196e66991d75208cde3e845e1 block: Add core atomic write support
-9abcfbd235f59fb5b6379e5bc0231dad831ebace block: Add atomic write support for statx
-caf336f81b3a3ca744e335972e86ec7244512d4a block: Add fops atomic write support
-bf4ae8f2e6407a779c0368eb0f3e047a8333be17 scsi: sd: Atomic write support
-84f3a3c01d70efba736bc42155cf32722067b327 scsi: scsi_debug: Atomic write support
-5f9bbea02f06110ec5cf95a3327019b3194b2d80 nvme: Atomic write support
-4ac9056e4bd787f1ba2001167c5acc2b5a75ddf9 null_blk: Do not set disk->nr_zones
-b6cfe2287df6e26d685af8a8a96ed1bf87bdde28 block: Define bdev_nr_zones() as an inline function
-caaf7101c01a91a882d3da2f566579dda692367d block: Cleanup block device zone helpers
-8324bb755a80d463ff53379e5d64991656512069 block: Fix blk_validate_atomic_write_limits() build for arm32
-85f86c5ede7697162c54744258908e657e456f57 cdrom: Add missing MODULE_DESCRIPTION()
-876835b128976e2e9a7d18daab58b4cba7742787 brd: add missing MODULE_DESCRIPTION() macro
-44348870de4b8f292f97b84583a298d66fbaf738 block: fix the blk_queue_nonrot polarity
-cf546dd289e0f6d2594c25e2fb4e19ee67c6d988 block: change rq_integrity_vec to respect the iterator
-573d5abf3df00c879fbd25774e4cf3e22c9cabd0 md: set md-specific flags for all queue limits
-78887d004fb2bb03233122a048eaf46e850dabf4 block: correctly report cache type
-ec9b1cf0b0ebfb52274971a8a0e74e0a133f64fb block: rename BLK_FEAT_MISALIGNED
-fcf865e357f80285af12c0c9a49f89d71acb7f4b block: convert features and flags to __bitwise types
-3302f6f09052274945f877beeb83f74641de2418 block: conding style fixup for blk_queue_max_guaranteed_bio
-73781b3b81e76583708a652c853d54d03dce031d block: remove disk_update_readahead
-abfc9d810926dfbf5645c7755c8d5ab96273f27d block: remove the fallback case in queue_dma_alignment
-e94b45d08b5d1c230c0f59c3eed758d28658851e block: move dma_pad_mask into queue_limits
-69b6517687a4b1fb250bd8c9c193a0a304c8ba17 block: use the right type for stub rq_integrity_vec()
-e269537e491da6336776b5548a3c73f62273aa15 block: clean up the check in blkdev_iomap_begin()
-63db4a1f795a19e4e12f036a12a5f61c48b03e5c block: Delete blk_queue_flag_test_and_set()
-18048c1af7836b8e31739d9eaefebc2bf76261f7 loop: Fix a race between loop detach and loop open
-f1e46758e8b2b04c725ac706b5f455c0de0486a4 bcache: work around a __bitwise to bool conversion sparse warning
-c546d6f438338017480d105ab597292da67f6f6a block: only zero non-PI metadata tuples in bio_integrity_prep
-c096df908393b0b3445f4335dd9bbd9d98252951 block: simplify adding the payload in bio_integrity_prep
-dac18fabba59149acec42621b9b603654e9459b2 block: remove allocation failure warnings in bio_integrity_prep
-df3c485e0e60e8ad87f168092f1513a3d621fa4b block: switch on bio operation in bio_integrity_prep
-d19b46340b3c0ea66bef0f6c58876cc085813ba8 block: remove bio_integrity_process
-aa6ff4eb7c10d9a6532db3ea9e78124bf14e70ae block: Add ioprio to block_rq tracepoint
-0676c434a99be42f3bacca4adfd27df65edbf903 block: check bio alignment in blk_mq_submit_bio
-667ea36378cf7f669044b27871c496e1559c872a loop: don't set QUEUE_FLAG_NOMERGES
-aa57abe6a7f91fafe53fb98d0f1e74db951bce24 megaraid_sas: don't set QUEUE_FLAG_NOMERGES
-8b77f23fadcbb030a898f168bebe74f465e5d5a2 mpt3sas_scsih: don't set QUEUE_FLAG_NOMERGES
-40988f15907baee227d3b83bd4d8f8fdfeb95dd3 rnbd: don't set QUEUE_FLAG_SAME_COMP
-caffa7cdce47718a0c2e3195c9a1bcf786d655a4 rnbd-cnt: don't set QUEUE_FLAG_SAME_FORCE
-5b026e34120766408e76ba19a0e33a9dc996f9f0 rust: block: fix generated bindings after refactoring of features
-3991657ae7074c3c497bf095093178bed37ea1b4 block: set bip_vcnt correctly
-1beabab88ecee0698ecee7b54afa9cce7046ef96 blk-throttle: fix lower control under super low iops limit
-5476394aa9f27d670dd2bac426fdb6ac12b12cb3 block: simplify queue_logical_block_size
-319e8cfdf3caf41b98f50ef13542a35acd897bb6 block: add helper macros to de-duplicate the queue sysfs attributes
-62e35f942231e372f8e465d8484de66a60221226 block: pass a gendisk to the queue_sysfs_entry methods
-4e63aeb5d0101ddada36a2f64f048e2f9d2202fc blk-wbt: don't throttle swap writes in direct reclaim
-f62e8edc0a9fda84fe5bf32d5f5874b489d6c301 block: remove a duplicate io_min check in blk_validate_limits
-37105615f73125cb0466c09796f277a4c46d9295 block: don't reduce max_sectors based on io_opt
-f3bf25d5135539603f24e377c6dec3016fbd9786 nvme: don't set io_opt if NOWS is zero
-6259151c04d4e0085e00d2dcb471ebdd1778e72e block: Call .limit_depth() after .hctx has been set
-39823b47bbd40502632ffba90ebb34fff7c8b5e8 block/mq-deadline: Fix the tag reservation code
-1c0b3fca381bf879e2168b362692f83808677f95 null_blk: Fix description of the fua parameter
-98d34c087249d39838874b83e17671e7d5eb1ca7 xen-blkfront: fix sector_size propagation to the block layer
-2314c2e3a70521f055dd011245dccf6fd97c7ee0 md/raid5: fix spares errors about rcu usage
-ae720670b9fc5ef3588efd5b95e6a0f59a36dec0 md: Remove unneeded semicolon
-1f4a72ff00cafa74b43b0c8a37573c78f86ed1a8 md-cluster: Constify struct md_cluster_operations
-a1fd37f97808db4fa1bf55da0275790c42521e45 md: Don't wait for MD_RECOVERY_NEEDED for HOT_REMOVE_DISK ioctl
-25b3a8237a03ec0b67b965b52d74862e77ef7115 md/raid5: recheck if reshape has finished with device_lock held
-
---===============2495373984970429011==--
+  - ref: refs/heads/dt-bindings
+    old: a50a3d6870292c08a4e941449ba4ddc8339a2b14
+    new: 0bbc69ce9b5d7f0e65ffef3b4cedb3c513f2a1f5
+    log: |
+         0bbc69ce9b5d7f0e65ffef3b4cedb3c513f2a1f5 dt-bindings: PCI: generic: Add ats-supported property
+         
