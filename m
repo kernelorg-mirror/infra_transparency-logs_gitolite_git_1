@@ -1,30 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Jul 2024 17:18:46 -0000
-Message-Id: <172011352691.27565.12347119888092689112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 04 Jul 2024 17:23:32 -0000
+Message-Id: <172011381250.30922.3044277183148695836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/for-linus
-    old: 2163aff6bebbb752edf73f79700f5e2095f3559e
-    new: 82bb8db96610b558920b8c57cd250ec90567d79b
+  - ref: refs/heads/renesas-pinctrl
+    old: 71062e52fc0aea0f3477aaaaa789226388a7eeaf
+    new: 2453e858e945e5e2fa8da9fde8584995e7dd17d1
     log: |
-         9065693dcc13f287b9e4991f43aee70cf5538fdd ASoC: SOF: Intel: hda: fix null deref on system suspend entry
-         7441e7f3e682436a30afe50b858eac94295047b7 ASoC: rt711-sdw: add missing readable registers
-         82bb8db96610b558920b8c57cd250ec90567d79b ASoC: SOF: Intel: hda-pcm: Limit the maximum number of periods by MAX_BDL_ENTRIES
+         07dd08c39eb4b645a0e2f2440a54326b49944705 pinctrl: renesas: rzg2l: Clarify OEN read/write support
+         a9024a323af2235a6d11cbbde924c6dde8bd355b pinctrl: renesas: rzg2l: Clean up and refactor OEN read/write functions
+         2453e858e945e5e2fa8da9fde8584995e7dd17d1 pinctrl: renesas: rzg2l: Support output enable on RZ/G2L
          
-  - ref: refs/heads/for-next
-    old: 4214c2ce8381c3e10f7b80c1e9a2f6cf23000122
-    new: ed38ce3fea2c377e70fac804af4e53f84381365f
+  - ref: refs/heads/renesas-pinctrl-for-v6.11
+    old: 71062e52fc0aea0f3477aaaaa789226388a7eeaf
+    new: 2453e858e945e5e2fa8da9fde8584995e7dd17d1
     log: |
-         9065693dcc13f287b9e4991f43aee70cf5538fdd ASoC: SOF: Intel: hda: fix null deref on system suspend entry
-         7441e7f3e682436a30afe50b858eac94295047b7 ASoC: rt711-sdw: add missing readable registers
-         82bb8db96610b558920b8c57cd250ec90567d79b ASoC: SOF: Intel: hda-pcm: Limit the maximum number of periods by MAX_BDL_ENTRIES
-         ed38ce3fea2c377e70fac804af4e53f84381365f Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         07dd08c39eb4b645a0e2f2440a54326b49944705 pinctrl: renesas: rzg2l: Clarify OEN read/write support
+         a9024a323af2235a6d11cbbde924c6dde8bd355b pinctrl: renesas: rzg2l: Clean up and refactor OEN read/write functions
+         2453e858e945e5e2fa8da9fde8584995e7dd17d1 pinctrl: renesas: rzg2l: Support output enable on RZ/G2L
          
