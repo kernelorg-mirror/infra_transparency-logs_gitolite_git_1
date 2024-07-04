@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 04 Jul 2024 03:39:02 -0000
-Message-Id: <172006434203.17057.16678510420308595169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 04 Jul 2024 04:55:46 -0000
+Message-Id: <172006894621.8580.9001429099541508044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/objtool-diff
-    old: ec581b59f9fb7bf2ff3bdb12ec3e9d98a1dd8ff0
-    new: 0701df056a78b76d97ad9fe64c364e98f234a71c
+  - ref: refs/heads/nfs-localio-for-next
+    old: 680107112e60dca545baa6814caf7ae171058694
+    new: 3710c2e64addf7393791e8b33560a2c52fc4de21
     log: |
-         df18f7f77732df227be270aa0d05ff885256523a x86/alternative: Create symbols for each alternative entry
-         0701df056a78b76d97ad9fe64c364e98f234a71c todo
+         3710c2e64addf7393791e8b33560a2c52fc4de21 nfsd/localio: use GFP_NOFS for "fake" svc_rqst allocation
          
