@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 04 Jul 2024 10:01:45 -0000
-Message-Id: <172008730534.25568.1235948488146830135@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5549419711938377106=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 04 Jul 2024 10:02:49 -0000
+Message-Id: <172008736989.26028.17617817266919265726@gitolite.kernel.org>
+
+--===============5549419711938377106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 996f8f757f8f745ac988d64f3db233ad8e993004
-    new: f97106b10d9ac0b5472be45cbc2d3de7d654648a
+  - ref: refs/heads/driver-core-testing
+    old: d69d804845985c29ab5be5a4b3b1f4787893daf8
+    new: 23c6859677066fa3d6bb3672703636dd673cb5dd
     log: |
-         831d83a5374af5c03d7771ef85fd9d46d685cf55 Merge remote-tracking branch 'libata/for-6.10-fixes' into for-6.11
-         c10bc5614ce0027fa2282ad11827629d81957a3a ata,scsi: Remove wrappers ata_sas_tport_{add,delete}()
-         2199d6ff565d66ccf0ff1ea1c6466c379e7cbb58 ata: libata: Remove unused function declaration for ata_scsi_detect()
-         23262cce529e9f437ce2fa8fe4c2fa5b2b182318 ata: libata-core: Remove support for decreasing the number of ports
-         6933eb8e50a3e4dc129095cb795261454476f111 ata: libata-sata: Remove superfluous assignment in ata_sas_port_alloc()
-         1dd63a6b573ffb989ca618e60b6469f885454606 ata: libata-core: Remove local_port_no struct member
-         1c1fbb865d713d667d62c9c676b79cf9c14ba39e ata: libata: Assign print_id at port allocation time
-         1228713c75b891291e86c4b1ff0228862fad096a ata: libata-core: Reuse available ata_port print_ids
-         0d3603acffe294ffacaf75b18b46f182b68a50df ata,scsi: Remove wrapper ata_sas_port_alloc()
-         f97106b10d9ac0b5472be45cbc2d3de7d654648a ata: ahci: Add debug print for external port
+         23c6859677066fa3d6bb3672703636dd673cb5dd driver core: platform: Switch to use kmemdup_array()
          
+
+--===============5549419711938377106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720087368 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1720087368-c02d9ad3d83aa2a612574130bc31bed5a5b5b05d
+
+d69d804845985c29ab5be5a4b3b1f4787893daf8 23c6859677066fa3d6bb3672703636dd673cb5dd refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGc0gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+flUQAMPFhR23n4dw6oAa/Rup
+6SCF9v2PXrkJRhiT4vlArrBV4rYPI3+725AEKTixVv6osdjV6oWiulbS8cZdwHj8
+oVaz/vCjykSvv/WQ20x2YJiXhZPvHpxvo17cF/I1vn3z1c9PCkV2/JSD4CkL15V3
+X49VRiFfjuQetw+cXxZv4FSGbhfAto1dobtegNOY/wGdCsn8NdmGmuZYCBwDSFBx
+G6cvZEJ9RJRgXSf/rukOq3B6Kb+/yVAEo9bITppNEVXhNkg03zWXVFsa4O4ZAjfr
+GFIcE5Mh2trCdMPE7yVNz9Hws4bPIe47J2pd16D7vgJzvt4Rtua+syKQzbcoIEFh
+ILsFj4S2bGuHa1jxA75BfOuo1BG7L2oIxtLKtzml0XCMiTU3jzGCiGNNO/WkcBlH
+EerAF0wyA7BRSE3o8dQAiZLyoXtgihrTkLTRPrWxfQhVTEwrDwraEJQmXwJ8tV5o
+O6OE7+jpAOcc7L7jH9lvTuHaW9k459HyvmsqSoOD6hPk/petujP9s+M3QTQq1tjN
+MsnDhh5Qa5iVHjkyHYIbUnpH95hDu1AodCQTWu6PSzuwU+Yf+JtwqkunlxeRk2fK
+lepbvruF7SZFgbBwzmWuhk6GttIiBcMIlBDE1LeV6+EBhwIf3pF0ZdrdXiV//qd6
+tQ7KDCj9FZM0uAxZCQO1oxpV
+=zZN2
+-----END PGP SIGNATURE-----
+
+--===============5549419711938377106==--
