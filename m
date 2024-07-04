@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8274642816176085974=="
+Content-Type: multipart/mixed; boundary="===============4198965392132089324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 04 Jul 2024 06:26:12 -0000
-Message-Id: <172007437278.9880.3615116668824397354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 04 Jul 2024 06:38:05 -0000
+Message-Id: <172007508538.18680.1408515227516991166@gitolite.kernel.org>
 
---===============8274642816176085974==
+--===============4198965392132089324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 631b779e1570e49d8186263c7e0d9b2876e612aa
-    new: 708f19ba678ad9ff9945dc6df1794b3804f81efb
+  - ref: refs/heads/master
+    old: 15a037439f886e5b59ce93587139f1f732d08af6
+    new: ed9fbe3cf5e4e531ba44ce463025682b09b0057f
     log: |
-         dfa1133957dc0af16402f8518c6992e328283fad i2c: xiic: improve error message when transfer fails to start
-         708f19ba678ad9ff9945dc6df1794b3804f81efb Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         ed9fbe3cf5e4e531ba44ce463025682b09b0057f 5.10-stable patches
          
 
---===============8274642816176085974==
+--===============4198965392132089324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1720074371 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1720074371-59cff2f0ad3815d284b49c0ecf0b9456dbf7c57d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720075084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1720075083-3d826ba1a120c4fb898871eff429b066889c8c40
 
-631b779e1570e49d8186263c7e0d9b2876e612aa 708f19ba678ad9ff9945dc6df1794b3804f81efb refs/heads/i2c/i2c-host-next
+15a037439f886e5b59ce93587139f1f732d08af6 ed9fbe3cf5e4e531ba44ce463025682b09b0057f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZoZAgxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4sgBANwWH/SZvMW883c3iofwNBqYjRoP
-TGZhz2W/9ktP7/D3AQD9sU9EsoXR/enS3QkccVju0Yw8b0kA6wpydCfJtlfbBA==
-=stoR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGQ0wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m2kP/RFTIm2cJVQVjp4qSsKz
+Hv/v4WQz2nXWktDBBZNvfxhs9ZgDOWwZbtp4mj2rh68JAMJMN2IhtWUoRfmzMxDa
+wkVvuePVEPdv2U4+sUQzV/+6NKFIJeNxutB/teWjADxstgfBNd1lHbiMkGfe7bGc
+WoZo4fHRYjcNXoDmiWP2cdDRUaC1R3OFtaYNZy53077Zqxf7S/9gmsGvSZ83ww2L
+jIobS7PeMLrMS9uWxnQ3xbDf0/raaXYXphPiLjKakdLEzPeKd2iNVZRA0lRoixlH
+INSSa3Ylf62zglnMoUkGkF8ZtHPf2vh8JU+IXt9e6gw/GpQqQB5nqK6LExGhcw7l
+i03u+JoQkFFv/bnHkiOibJfyHoNOJOjsVSq08u8/pcwzUVCEc/9wOHE+ffJFkBsD
+8qoSQRhFhMxX63NfbKLvcBuxpeN1MSneVETVCmTSesx51KRvo/h+0PZe8mX1C8JY
+NklIAxjRIcKAvNk+3JT4pCG4yvLqKgW1/FbAzqu3BKu5XR0dJwQlfmbejxqEHVJk
+7lxW24vFFoNzMkTWS71r7Isx/fbXmhggdX1t2D0RBFuTbYiqXpkHArjPy1mIn3MU
+85XwsyG3P6HxLaM7cQptR01pHCuxU0Hp49NKfRM5/ZJGq/tMWxPWB+/xd7Ud+fB0
+r0qBStqIyE2ybdpDx+FeQkFc
+=5OEN
 -----END PGP SIGNATURE-----
 
---===============8274642816176085974==--
+--===============4198965392132089324==--
