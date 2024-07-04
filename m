@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 04 Jul 2024 07:24:41 -0000
-Message-Id: <172007788159.20420.12786272827883519517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Thu, 04 Jul 2024 07:24:56 -0000
+Message-Id: <172007789687.20603.6156283309565026496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/auth-null-3
-    old: a8880b68c5c9cf4a40ad1eb01f48fda7c1ca9802
-    new: b9e154366b975c36ac6902088ba7dc01029811a9
+  - ref: refs/heads/master
+    old: f8ef7da3d44ce3a003b3dea5ab0d5301931bff14
+    new: 19326c3fffabe67a05ba6f15f151f32ae208a3e8
     log: |
-         33a4439aa27889204167ef71277e9096a1d1e954 tpm: Address !chip->auth in tpm_buf_append_name()
-         b9e154366b975c36ac6902088ba7dc01029811a9 tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
+         a9ecabe9844bfe75413ad6e8365202876f123dce wireless-regdb: Update regulatory info for Jordan (JO) for 2022
+         5a9fdad41aebc0abff5943ed865a95212ea3601d wireless-regdb: Update regulatory info for Kenya (KE) for 2022
+         19326c3fffabe67a05ba6f15f151f32ae208a3e8 wireless-regdb: Update regulatory info for Macao (MO) for 2024
          
