@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8666281447546139949=="
+Content-Type: multipart/mixed; boundary="===============4922683927693550357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Jul 2024 10:03:26 -0000
-Message-Id: <172008740692.26314.5249833564967869185@gitolite.kernel.org>
+Date: Thu, 04 Jul 2024 10:22:05 -0000
+Message-Id: <172008852577.8529.15650367112775724378@gitolite.kernel.org>
 
---===============8666281447546139949==
+--===============4922683927693550357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 14c4dc8bb620c4c75b06d267a542eb1ac44cdd29
-    new: 6150e5e1ae2d8ad72f52217f8f41fe446cae9e27
+  - ref: refs/heads/char-misc-linus
+    old: 6bef98bafd82903a8d461463f9594f19f1fd6a85
+    new: 389637d4fb5fee40e8a0f2bfd31583f6768ef792
     log: |
-         55d57ef6fa97ca631d393cccc641cbe1b16cc382 eeprom: ee1004: Use devres for bus data cleanup
-         79d0df36b54179ac2192e56ad7fdb29c952f35e2 eeprom: ee1004: Add nvmem support
-         249b4deaff71cfc6ac9a8e436af876be6d84052b eeprom: ee1004: Call i2c_new_scanned_device to instantiate thermal sensor
-         6150e5e1ae2d8ad72f52217f8f41fe446cae9e27 eeprom: ee1004: Instantiate jc42 devices for DIMMS implementing Rev.1 SPD
+         07de60a46ae9c0583df1c644bae6d3b22d1d903d mei: vsc: Enhance IVSC chipset stability during warm reboot
+         a9e8fe38195ae6f8e5b32907a17b397ff3ce3e48 mei: vsc: Prevent timeout error with added delay post-firmware download
+         a896a8a127f45d00fb69fa7536955aa9b2e5d610 mei: vsc: Utilize the appropriate byte order swap function
+         43407254b8a36638bb2efa737a510c96e573aafd mei: vsc: Enhance SPI transfer of IVSC ROM
+         389637d4fb5fee40e8a0f2bfd31583f6768ef792 mei: vsc: Fix spelling error
          
 
---===============8666281447546139949==
+--===============4922683927693550357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720087405 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720088524 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1720087405-00d3c3fb673bf68a4b77025ce8abd45f7f3249ed
+nonce 1720088522-fa52e3ef255b2879335654626a851956f453b3bf
 
-14c4dc8bb620c4c75b06d267a542eb1ac44cdd29 6150e5e1ae2d8ad72f52217f8f41fe446cae9e27 refs/heads/char-misc-testing
+6bef98bafd82903a8d461463f9594f19f1fd6a85 389637d4fb5fee40e8a0f2bfd31583f6768ef792 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGc20bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9HIP/1ya6VeUH+jYe2eluhAh
-1XkvePo7E7UkWz7TOiYNG0q6YtIKqwXUVAX4CZsW1fZDqUbyggSk+08FK95jtS2G
-uKKIP1aMrGmYyaBxkU2TCAzFrcn+0+T8P1hkJFeIQJNkvN6SjJHEcYWow1maKnv3
-lzxbxuv3mAmfEAVQCXW+R/hOefYN7K72ZTEPBMAZ6d9NluhoLwFzlPc9GyabeJIH
-AJhKiV1M/admyjH4y6tzdOa1fyMl3pwpzVrmGvcOlY9HKu040GhWGt0AoBMmApv9
-tswbxlU9ZIlaW2JjyWaUQO+Oq6+IgInz5Wt8qBvKo6ThSPmYEP9rTppzRIt73eEU
-Iat9GUTT8E0AMF/touONh9VK3VaSFRI0eoEXkkxP9XI9yBYAnS1TuAjSV2XIy5WZ
-1BTr7QeKzYCLnrwk2dW+rAzqDE385XEIlXVwxafBOOLAuMDxJotMUgeNOvC5gJZJ
-ukPtRBzxcLNMvtxlyPTm9G2NFkfDG6tRIKrIiJT33QFD2Clpyt8vNUjv7ubJKCMn
-rtKrbJOMNk3h5WF+qr4F/n3HHiETUmKSu7jcVHFpPjAaq4uW+K1f6X6jRfAQQwEh
-x7SShlqGkoQMGuXxSdQOXRxKXrSqP/S+LcEmi+bB3srK/9OOxw79vuWDFSIoB7PH
-wtQggN1kG68NKzVgY+Fwe1Cv
-=xcLG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGd8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ITUP/R5hLlx1kwIrRqQoyyWH
+LjD3H0QmZYu/b7fJdXA6j+WJQdZcqlkpicz3x7SOx4UO13QWNkSz1+ryOD4rcOkz
+TdzUwHk6qsw9dE0hDYWGfRCze/b3lmWBe9NwLx8ai35J1FOhlWCTz5yLEqt/YJq8
+W10oPrRYyt/JW+voWrfXtck7Fp9mdIAz19GBJrsrJPePOdA6T5Y7VPCl3ZmIfqe9
+3RxzmdwqW8hQBexAnchA4jFG5joak/WZrWUSitgHxHcnGlQop5yYvdWzsw9QCGtQ
+ZpPq9xWTnba1tmBnavfRuWESAD6Vm0M6S0tbGJb9PW38ZPQ1oBMwIruG63g1TklY
+41uKLV9IdxdxjrMgIRG/oGS5wzc++csHc841LD6V2TOduGvPnADihqadiUmxgn+W
+dHnu+bFQHPYnpJtcpn5h6ZEUL25/67FiU9NLmNE9TEgOYwWiqlijrO/TURwkmXkk
+GyWNkeszGc1gbZFgX3tv6KdeTrC/e6TGPq4wKlWs4zKuVd/Y1nS9V62bb9E+uV9R
+o9y8Vu5V6vcXRu6XRBW2ONFQT9sIFI6Blw6smwghZjeI80UzeM284OXn5WCDdof6
+jph7GUcptJ59+9BDNT436WftpgRpfGNfYckOFj2cPPdl3ZOIWKZEQP3g7SoWUKad
+Egc8flrNpmPCVXVbR49Jty2Z
+=B9IQ
 -----END PGP SIGNATURE-----
 
---===============8666281447546139949==--
+--===============4922683927693550357==--
