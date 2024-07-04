@@ -1,30 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1460333255109888327=="
+Content-Type: multipart/mixed; boundary="===============4292056154994802150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Thu, 04 Jul 2024 14:34:50 -0000
-Message-Id: <172010369091.630.12824071599708895206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Thu, 04 Jul 2024 14:35:39 -0000
+Message-Id: <172010373993.2713.8154547112573565940@gitolite.kernel.org>
 
---===============1460333255109888327==
+--===============4292056154994802150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
+repo: pub/scm/linux/kernel/git/arnd/playground
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
-    old: 01b6ed5fcd5a95f93f9991b005ded2eacf067187
-    new: 25862feffc419d0d195fdb118ae11b9c11b437d3
-    log: revlist-01b6ed5fcd5a-25862feffc41.txt
-  - ref: refs/heads/master
+  - ref: refs/heads/to-build
     old: 01b6ed5fcd5a95f93f9991b005ded2eacf067187
     new: 25862feffc419d0d195fdb118ae11b9c11b437d3
     log: revlist-01b6ed5fcd5a-25862feffc41.txt
 
---===============1460333255109888327==
+--===============4292056154994802150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -389,4 +385,4 @@ aee16e14bbe0afb86c99c017aefe5b3bb3ec1d25 csky: convert to generic syscall table
 49fc6d1a5a7d7ec749cda939f704b39ad8df0a07 openrisc: convert to generic syscall table
 25862feffc419d0d195fdb118ae11b9c11b437d3 riscv: convert to generic syscall table
 
---===============1460333255109888327==--
+--===============4292056154994802150==--
