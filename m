@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 04 Jul 2024 08:41:42 -0000
-Message-Id: <172008250219.16301.13334266380875858249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 04 Jul 2024 08:43:43 -0000
+Message-Id: <172008262348.17073.8899277826718551468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/work.mount.fixes
-    old: b5b6929667e906b2f54f05dd648daeda56353b14
-    new: 72fa32a02c4bdf9d992b268827c16401b9386f5d
+  - ref: refs/heads/for-next
+    old: b498ddb6f283c1a3efff98851aa58d66307be620
+    new: 29832adac01a1057e89579c977ef4776623ee463
     log: |
-         15df93fabfdb204bf9149151180583b99c366901 Reject invalid mount id values early
-         4f31aa5a0b13652440ce005c10674b86234747a0 fs: refuse mnt id requests with invalid ids early
-         72fa32a02c4bdf9d992b268827c16401b9386f5d fs: reject invalid last mount id early
+         ad0aa2361c8c0d1f29db3d6da4a11be41813296d dt-bindings: power: supply: add support for MAX17201/MAX17205 fuel gauge
+         479b6d04964b5abe66c9f5080fad3389b34e2a70 power: supply: add support for MAX1720x standalone fuel gauge
+         29832adac01a1057e89579c977ef4776623ee463 power: supply: qcom_battmgr: Enable battery support on x1e80100
          
