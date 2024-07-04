@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 03 Jul 2024 23:58:41 -0000
-Message-Id: <172005112187.11346.18301379720751103722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Thu, 04 Jul 2024 00:07:50 -0000
+Message-Id: <172005167022.19222.17968330249776947065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/kdevops
-    old: bb2c4b32f6290246f408c7a36932f58c862ec877
-    new: dc73f0cfbb4651db89319af7e480228acd258602
+  - ref: refs/heads/for-next
+    old: 3dc99ef1a56da3d93a6b67efefefb537c82fd2d4
+    new: 526e21a2aa6fa7ac3309a8c87f4d6e5f7e407cb6
     log: |
-         dc73f0cfbb4651db89319af7e480228acd258602 DEBUG: are we ignoring the floor?
+         526e21a2aa6fa7ac3309a8c87f4d6e5f7e407cb6 firewire: ohci: add tracepoints event for data of Self-ID DMA
          
