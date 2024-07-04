@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5549419711938377106=="
+Content-Type: multipart/mixed; boundary="===============8666281447546139949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 04 Jul 2024 10:02:49 -0000
-Message-Id: <172008736989.26028.17617817266919265726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 04 Jul 2024 10:03:26 -0000
+Message-Id: <172008740692.26314.5249833564967869185@gitolite.kernel.org>
 
---===============5549419711938377106==
+--===============8666281447546139949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: d69d804845985c29ab5be5a4b3b1f4787893daf8
-    new: 23c6859677066fa3d6bb3672703636dd673cb5dd
+  - ref: refs/heads/char-misc-testing
+    old: 14c4dc8bb620c4c75b06d267a542eb1ac44cdd29
+    new: 6150e5e1ae2d8ad72f52217f8f41fe446cae9e27
     log: |
-         23c6859677066fa3d6bb3672703636dd673cb5dd driver core: platform: Switch to use kmemdup_array()
+         55d57ef6fa97ca631d393cccc641cbe1b16cc382 eeprom: ee1004: Use devres for bus data cleanup
+         79d0df36b54179ac2192e56ad7fdb29c952f35e2 eeprom: ee1004: Add nvmem support
+         249b4deaff71cfc6ac9a8e436af876be6d84052b eeprom: ee1004: Call i2c_new_scanned_device to instantiate thermal sensor
+         6150e5e1ae2d8ad72f52217f8f41fe446cae9e27 eeprom: ee1004: Instantiate jc42 devices for DIMMS implementing Rev.1 SPD
          
 
---===============5549419711938377106==
+--===============8666281447546139949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720087368 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1720087368-c02d9ad3d83aa2a612574130bc31bed5a5b5b05d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720087405 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1720087405-00d3c3fb673bf68a4b77025ce8abd45f7f3249ed
 
-d69d804845985c29ab5be5a4b3b1f4787893daf8 23c6859677066fa3d6bb3672703636dd673cb5dd refs/heads/driver-core-testing
+14c4dc8bb620c4c75b06d267a542eb1ac44cdd29 6150e5e1ae2d8ad72f52217f8f41fe446cae9e27 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGc0gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+flUQAMPFhR23n4dw6oAa/Rup
-6SCF9v2PXrkJRhiT4vlArrBV4rYPI3+725AEKTixVv6osdjV6oWiulbS8cZdwHj8
-oVaz/vCjykSvv/WQ20x2YJiXhZPvHpxvo17cF/I1vn3z1c9PCkV2/JSD4CkL15V3
-X49VRiFfjuQetw+cXxZv4FSGbhfAto1dobtegNOY/wGdCsn8NdmGmuZYCBwDSFBx
-G6cvZEJ9RJRgXSf/rukOq3B6Kb+/yVAEo9bITppNEVXhNkg03zWXVFsa4O4ZAjfr
-GFIcE5Mh2trCdMPE7yVNz9Hws4bPIe47J2pd16D7vgJzvt4Rtua+syKQzbcoIEFh
-ILsFj4S2bGuHa1jxA75BfOuo1BG7L2oIxtLKtzml0XCMiTU3jzGCiGNNO/WkcBlH
-EerAF0wyA7BRSE3o8dQAiZLyoXtgihrTkLTRPrWxfQhVTEwrDwraEJQmXwJ8tV5o
-O6OE7+jpAOcc7L7jH9lvTuHaW9k459HyvmsqSoOD6hPk/petujP9s+M3QTQq1tjN
-MsnDhh5Qa5iVHjkyHYIbUnpH95hDu1AodCQTWu6PSzuwU+Yf+JtwqkunlxeRk2fK
-lepbvruF7SZFgbBwzmWuhk6GttIiBcMIlBDE1LeV6+EBhwIf3pF0ZdrdXiV//qd6
-tQ7KDCj9FZM0uAxZCQO1oxpV
-=zZN2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaGc20bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9HIP/1ya6VeUH+jYe2eluhAh
+1XkvePo7E7UkWz7TOiYNG0q6YtIKqwXUVAX4CZsW1fZDqUbyggSk+08FK95jtS2G
+uKKIP1aMrGmYyaBxkU2TCAzFrcn+0+T8P1hkJFeIQJNkvN6SjJHEcYWow1maKnv3
+lzxbxuv3mAmfEAVQCXW+R/hOefYN7K72ZTEPBMAZ6d9NluhoLwFzlPc9GyabeJIH
+AJhKiV1M/admyjH4y6tzdOa1fyMl3pwpzVrmGvcOlY9HKu040GhWGt0AoBMmApv9
+tswbxlU9ZIlaW2JjyWaUQO+Oq6+IgInz5Wt8qBvKo6ThSPmYEP9rTppzRIt73eEU
+Iat9GUTT8E0AMF/touONh9VK3VaSFRI0eoEXkkxP9XI9yBYAnS1TuAjSV2XIy5WZ
+1BTr7QeKzYCLnrwk2dW+rAzqDE385XEIlXVwxafBOOLAuMDxJotMUgeNOvC5gJZJ
+ukPtRBzxcLNMvtxlyPTm9G2NFkfDG6tRIKrIiJT33QFD2Clpyt8vNUjv7ubJKCMn
+rtKrbJOMNk3h5WF+qr4F/n3HHiETUmKSu7jcVHFpPjAaq4uW+K1f6X6jRfAQQwEh
+x7SShlqGkoQMGuXxSdQOXRxKXrSqP/S+LcEmi+bB3srK/9OOxw79vuWDFSIoB7PH
+wtQggN1kG68NKzVgY+Fwe1Cv
+=xcLG
 -----END PGP SIGNATURE-----
 
---===============5549419711938377106==--
+--===============8666281447546139949==--
