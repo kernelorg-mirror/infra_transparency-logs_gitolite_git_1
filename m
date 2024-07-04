@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 04 Jul 2024 08:08:18 -0000
-Message-Id: <172008049892.22224.8581661573243544703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 04 Jul 2024 08:11:31 -0000
+Message-Id: <172008069145.25184.8818904076918917152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/experimental
-    old: ead0ed9a47a48581c20bb43847e42145cabf2d51
-    new: bdf3f86484d98f8ed5f31b12dad1f52ffa4c4aa1
+  - ref: refs/heads/auth-null-3
+    old: 7f258bdedd81327dd788d03191a2781f30500dba
+    new: 40da63f8bf8442bc08cceb5ea97d6128e574a593
     log: |
-         1581d37fc69239a7b27612c7bb8c9012e6cf9a15 erofs-utils: lib: get rid of global sbi in lib/inode.c
-         6098d531aff718d8780200ade975b264fa9ad14e erofs-utils: rename the global sbi to g_sbi
-         bdf3f86484d98f8ed5f31b12dad1f52ffa4c4aa1 erofs-utils: lib: drop prefix_sha256 digests
+         270a180619624bcaed3e84c9296a2aa05a594058 io_uring/net: don't clear msg_inq before io_recv_buf_select() needs it
+         adf27693d6344cadf57d4a5e072b4df247fd346a tpm: Address !chip->auth in tpm2_*_auth_session()
+         a76c749d4ba132ea30be5b1291aa8654101554b0 tpm: Address !chip->auth in tpm_buf_append_name()
+         40da63f8bf8442bc08cceb5ea97d6128e574a593 tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
          
