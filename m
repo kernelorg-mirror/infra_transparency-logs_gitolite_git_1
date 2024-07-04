@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 04 Jul 2024 16:47:59 -0000
-Message-Id: <172011167928.5031.3808164717502559035@gitolite.kernel.org>
+Date: Thu, 04 Jul 2024 16:48:24 -0000
+Message-Id: <172011170480.5263.9179162828545126037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-6.10-rc6
-    old: 48f091fd50b2eb33ae5eaea9ed3c4f81603acf38
-    new: a56c85fa2d59ab0780514741550edf87989a66e9
+  - ref: refs/tags/for-6.10-rc6-tag
+    old: 3fe28359ff1ccb710adf981bf6ef73ad940d0adb
+    new: 5e3cd8684ce3bca3e770f9afe864efff2c153cdc
     log: |
          64d2c847ba380e07b9072d65a50aa6469d2aa43f btrfs: zoned: fix calc_available_free_space() for zoned mode
          724d8042cef84496ddb4492dc120291f997ae26b btrfs: always do the basic checks for btrfs_qgroup_inherit structure
