@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 05 Jul 2024 19:48:10 -0000
-Message-Id: <172020889062.10406.3578540343728565061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 05 Jul 2024 19:48:24 -0000
+Message-Id: <172020890407.10573.1828573165433345194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 1d34c3751ee06279295657b74954aa7bdfebd948
-    new: e28400313c169aeca49a65ed0abb9ba235646388
+  - ref: refs/heads/for-next
+    old: 56b6e631686eacbaf1970043027aadafea2b8438
+    new: 027bc356de0be3519782bcc15464156398e8723b
     log: |
-         ecdce178e69809eaf13e3f3a8f9fcd5d84dad27d patches/next: add a patches category for patches merged in non-mm trees
-         593a60308c9e1b574d4e897c7fac64f4478c796f patches/next: add some kselftests fixups
-         e28400313c169aeca49a65ed0abb9ba235646388 patches/next: rebase on latest mm-unstable
+         5211070c3309bb3679f4522c77b900f551db5739 spi: xcomm: add gpiochip support
+         e8ba259764c745e7de20ec517ae920ecd491b687 spi: xcomm: make use of devm_spi_alloc_host()
+         5e7d4755c58a347b4fe7663cef9b169b0965d09d spi: xcomm: remove i2c_set_clientdata()
+         e2e89f96308add00fed632ecb416d84c9313f6aa spi: xcomm: fix coding style
+         027bc356de0be3519782bcc15464156398e8723b Merge remote-tracking branch 'spi/for-6.11' into spi-next
          
