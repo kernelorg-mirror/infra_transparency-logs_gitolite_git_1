@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 05 Jul 2024 19:46:39 -0000
-Message-Id: <172020879946.9110.592276654386918564@gitolite.kernel.org>
+Date: Fri, 05 Jul 2024 19:46:47 -0000
+Message-Id: <172020880781.9214.15616794428729016444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/file6EShur
-    old: e2e89f96308add00fed632ecb416d84c9313f6aa
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/spi-6.11
+    old: 6c387fb263363347185bd7a213ad175c174d35dc
+    new: e2e89f96308add00fed632ecb416d84c9313f6aa
+    log: |
+         5211070c3309bb3679f4522c77b900f551db5739 spi: xcomm: add gpiochip support
+         e8ba259764c745e7de20ec517ae920ecd491b687 spi: xcomm: make use of devm_spi_alloc_host()
+         5e7d4755c58a347b4fe7663cef9b169b0965d09d spi: xcomm: remove i2c_set_clientdata()
+         e2e89f96308add00fed632ecb416d84c9313f6aa spi: xcomm: fix coding style
+         
