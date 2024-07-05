@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 05 Jul 2024 22:12:08 -0000
-Message-Id: <172021752845.18983.12284243084309098686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Fri, 05 Jul 2024 22:38:58 -0000
+Message-Id: <172021913820.5354.14850637466111381469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 52299817064d0fc2e4b880518548e87ad9ca7d86
-    new: b6c19651125431e06b1e56d4d5ef9ea791c4afe4
-    log: |
-         6977ba1e54f5265290bf9d60266d29b7a2c49c03 foo
-         b6c19651125431e06b1e56d4d5ef9ea791c4afe4 foo
-         
+  - ref: refs/tags/linux-cpupower-6.11-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 8ac84617d50c0fbb1ac596808884c29e67b1f24f
