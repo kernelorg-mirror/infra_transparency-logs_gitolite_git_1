@@ -1,21 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 05 Jul 2024 10:56:09 -0000
-Message-Id: <172017696980.6968.16665328155584219595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 05 Jul 2024 10:58:06 -0000
+Message-Id: <172017708647.7723.7880310714671776977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4298e400dbdbf259549d69c349e060652ad53611
-    new: ae420771551bd9f04347c59744dd062332bdec3e
+  - ref: refs/heads/asm-generic
+    old: 25862feffc419d0d195fdb118ae11b9c11b437d3
+    new: 01b6ed5fcd5a95f93f9991b005ded2eacf067187
     log: |
-         dc6dbe3ed28795b01c712ad8f567728f9c14b01d USB: serial: option: add Netprisma LCUK54 series modules
-         3c841d54b63e4446383de3238399a3910e47d8e2 USB: serial: option: add support for Foxconn T99W651
-         ae420771551bd9f04347c59744dd062332bdec3e USB: serial: option: add Rolling RW350-GL variants
+         01b6ed5fcd5a95f93f9991b005ded2eacf067187 syscalls: fix sys_fanotify_mark prototype
+         
+  - ref: refs/heads/master
+    old: 25862feffc419d0d195fdb118ae11b9c11b437d3
+    new: 01b6ed5fcd5a95f93f9991b005ded2eacf067187
+    log: |
+         01b6ed5fcd5a95f93f9991b005ded2eacf067187 syscalls: fix sys_fanotify_mark prototype
+         
+  - ref: refs/heads/syscall-fixes-6.10
+    old: 0fa8ab5f3533b307a7d0e438ab08ecd92725dad7
+    new: 01b6ed5fcd5a95f93f9991b005ded2eacf067187
+    log: |
+         7e1f4eb9a60d40dd17a97d9b76818682a024a127 kallsyms: rework symbol lookup return codes
+         01b6ed5fcd5a95f93f9991b005ded2eacf067187 syscalls: fix sys_fanotify_mark prototype
          
