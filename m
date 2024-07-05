@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Fri, 05 Jul 2024 17:28:56 -0000
-Message-Id: <172020053660.2567.16050183931616799873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 05 Jul 2024 17:46:36 -0000
+Message-Id: <172020159662.16557.9408763836052493903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 65b81b9d6d99aab3b4bc81934cd3224151546ad7
-    new: faa79db96f73ed67eabc3e22cface27181cce245
+  - ref: refs/heads/dev
+    old: 8aeb83afc995237e6ceaca8b8a1d004f8b045040
+    new: dd5357b7d759dc710a78b1115b2a1a97c365689d
     log: |
-         faa79db96f73ed67eabc3e22cface27181cce245 lspci: Parse Intel Vendor specific capabilities
+         dd5357b7d759dc710a78b1115b2a1a97c365689d selinux,smack: remove the capability checks in the removexattr hooks
          
