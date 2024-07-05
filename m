@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6597086161583406685=="
+Content-Type: multipart/mixed; boundary="===============3824859013290744527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 05 Jul 2024 03:54:06 -0000
-Message-Id: <172015164629.11816.13935232903331198557@gitolite.kernel.org>
+Date: Fri, 05 Jul 2024 03:54:10 -0000
+Message-Id: <172015165073.11894.17922775406484230261@gitolite.kernel.org>
 
---===============6597086161583406685==
+--===============3824859013290744527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 85399e493acf83de8746e3c04239ed273ccecb2c
-    new: b02244d351f3225b38d2dc3e1a0ae27ddcf9b9fc
+  - ref: refs/heads/6.11/scsi-queue
+    old: 14d38356ec335b97a04c00719d7b6e73b136d291
+    new: 06b91c00db396fafeed4c3201597bf3ed8261511
     log: |
          5e0bf3e8aec2cbc51123f84b29aaacbd91fc56fa scsi: lpfc: Fix a possible null pointer dereference
          4d66ecc6e5a5df965b43edace2d41d19ed15a2ea scsi: ufs: qcom: Add missing MODULE_DESCRIPTION() macro
@@ -30,33 +30,33 @@ changes:
          06b91c00db396fafeed4c3201597bf3ed8261511 Merge patch series "mpi3mr: Host diag buffer support"
          
 
---===============6597086161583406685==
+--===============3824859013290744527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1720151631 -0400
+pusher 75C5DE3D 1720151649 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1720151630-449b90771da8e4ff3c47ae9a5c3dbaadc29f5359
+nonce 1720151649-37da10a08a2fe89b05356b98efbe200602858ec5
 
-85399e493acf83de8746e3c04239ed273ccecb2c b02244d351f3225b38d2dc3e1a0ae27ddcf9b9fc refs/tags/mkp-scsi-queue
+14d38356ec335b97a04c00719d7b6e73b136d291 06b91c00db396fafeed4c3201597bf3ed8261511 refs/heads/6.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaHbk8ACgkQ7ulgGnXF
-3j2iMQ/9H3OUIu1phsAJp/DyZ07YJ76FJVbsdyDvfV0h72jTXa8+z3apKrqnQ5wt
-wJfJU+PcXlPVjoo83vcJTktkVx7etuPTwCuPxQIaK5PSBdKR06J3FvWPoM17wsjC
-QJLCaMxJqPlcSQAvnCYnftq1kTI+hr7HlO/swjNU4eyd4A3QX1Ay2F5EOOffj5Lw
-H9sKTt1165NbC4r9eCe2fM3uZzZqRwHxl86eUEuGNFu9HX3yLCB7HdFULrY92Tl7
-sQU8DtUiUq9B0QZDBKyR/N2ts65A+YNipKXi27vMLuCeJolq34CvpV5O2G5RoQZ6
-ktiXS78vYQvFU9ffQY6C0xCQSgl5nyYaSo7FfsZBUtL3JiB+z5hEb9Bes1O22iUT
-a4Of1uYS8WOxWegkKbDHYTCz4VrUPvchN7GbnlDN2AbJL0A8Z8uimpiAP9r4ts+B
-+B8fxoNkVOANU9/EBrKHF2b9PPSDw6nwZTHUtedfDkpbEUJC2dy8XG9XvxKkniK4
-Jlr3NfhTm7xzNo4un/F3XFxyC2eaxgZ1n3/DzjuXuI4sQqSJfDmcjRzqgl3p1sHb
-Clfo1dv712mBn3zIMdT6gbiznAbwdrtEgeWOZi12zQn59eHQPmi6uVNqA0SjIWco
-OurZHvgD4oP9nJQ16WXEjXXr9T0Tv7ADiptyfq3AGnEOnEzh1Ck=
-=YbLL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaHbmEACgkQ7ulgGnXF
+3j39HRAAr5lxS5AQXut7hLBHfifVJMdTcJsKoLo9ogSgFIZUzM66uihyVyHMyGM+
+V6M8GPpq0uc4blgsUGajrIPSYOK8QwH+wM9AJ//3O2iNa9hJJXXBOOQULOqz0FnJ
+AvErzG5lwE/uoAEZKT57PknZE0wAW1sqMJA9CBtI6c71qK/YciTsC21FOkjK9Ix3
+hnfhVCz0hYgLX4aoIQI2MIs3ZqIdykDMs33sHvduOYkqmJDsyJtnfU8XVcmehBO9
+V7Jsev00mpEHgHi06MLM98QFveG3LC3Kk4UOd1LAx81NAMTHYAD3mJ08VwquR+bz
+ViPxvy7060XJpjTAYqfUyX4rzqBTnlcCSvyA39+P+QETt2j1ylDGxeEdut7iDUlj
+rhqmXf2MORDxS1nR9YMd3OGamyZ8qHU17dbzKXEGTR82cMvNWAz9zuKdCEWeRt6Z
+Gkuw+kw124AhDyg5cgiW96aju8DHOKYWY4bnkGcwM0WyfDRLkU/1+6ko1c84H1Fp
+ht2Yj1wTPoKmsKWRzkcSoLGotNQMNzNkpeBcIUCdgarujbX6npzcRb0Mwf0LFw5f
+opsUEKDf02l0cFFPYGZAFOx122HOQAlhZg0CHr6ZhgAx27mVHtNk4cV5R++M0GVt
+uHZQcT/wPqWeZfMzCYHdpeS/HI0QRollI4vX/gGxXJhhNSVkOC4=
+=0p+B
 -----END PGP SIGNATURE-----
 
---===============6597086161583406685==--
+--===============3824859013290744527==--
