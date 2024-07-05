@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Fri, 05 Jul 2024 08:27:53 -0000
-Message-Id: <172016807376.13533.10174540288267390522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 05 Jul 2024 08:36:02 -0000
+Message-Id: <172016856246.19790.6568227623123952105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-next
-    old: 94ff46de4a738e7916b68ab5cc0b0380729f02af
-    new: 9364a7e40d54e6858479f0a96e1a04aa1204be16
+  - ref: refs/heads/pwm/for-next
+    old: 8d93bc3dbeec6a4604b6c8674a6980c30d68b59c
+    new: a535c25510a73a82eb5586f2d6226ccda4b1d865
     log: |
-         9364a7e40d54e6858479f0a96e1a04aa1204be16 memblock tests: fix implicit declaration of function 'numa_valid_node'
+         a535c25510a73a82eb5586f2d6226ccda4b1d865 pwm: imx-tpm: Enable pinctrl setting for sleep state
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 8d93bc3dbeec6a4604b6c8674a6980c30d68b59c
+    new: a535c25510a73a82eb5586f2d6226ccda4b1d865
+    log: |
+         a535c25510a73a82eb5586f2d6226ccda4b1d865 pwm: imx-tpm: Enable pinctrl setting for sleep state
          
