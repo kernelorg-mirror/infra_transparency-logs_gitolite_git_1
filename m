@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 05 Jul 2024 20:14:24 -0000
-Message-Id: <172021046462.29262.11784487403921534365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 05 Jul 2024 20:25:28 -0000
+Message-Id: <172021112899.5754.11607237123417764400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/fixes
-    old: f76f9bc616b7320df6789241ca7d26cedcf03cf3
-    new: 66cde337fa1b7c6cf31f856fa015bd91a4d383e7
+  - ref: refs/heads/master
+    old: 2f073dc68c1bdca8e3ae560eb08163e060c08717
+    new: 9c3387a3abb0f8ae6b4fa08a9ede0f447710ff6a
     log: |
-         73810cd45b99c6c418e1c6a487b52c1e74edb20d selftests/vDSO: fix clang build errors and warnings
-         bb2a605de3757ec8c39e5706cfac3deed5694228 selftests/vDSO: remove partially duplicated "all:" target in Makefile
-         66cde337fa1b7c6cf31f856fa015bd91a4d383e7 selftests/vDSO: remove duplicate compiler invocations from Makefile
+         9c3387a3abb0f8ae6b4fa08a9ede0f447710ff6a sasha: review v6.9.8
          
