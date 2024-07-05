@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Fri, 05 Jul 2024 19:18:06 -0000
-Message-Id: <172020708622.19417.4146048875002557571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 05 Jul 2024 19:20:49 -0000
+Message-Id: <172020724927.22103.7879776018020504057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/numa/cleanups
-    old: 727675ab75f615a9f7edfa39db42c183555c53c2
-    new: d74c3f8819fd25059208bb373a2635814b6e3317
+  - ref: refs/heads/next
+    old: e428b2967086186e447b875d0f50ace6f1be3b9b
+    new: 483d0785e8bf650627a39161ca9721362241469c
     log: |
-         d74c3f8819fd25059208bb373a2635814b6e3317 arch, mm: pull out allocation of NODE_DATA to generic code
+         483d0785e8bf650627a39161ca9721362241469c selftests/timers: remove unused irqcount variable
          
