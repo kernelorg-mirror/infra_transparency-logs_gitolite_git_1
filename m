@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 06 Jul 2024 02:12:38 -0000
-Message-Id: <172023195849.31704.12816523127224331873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 06 Jul 2024 03:12:51 -0000
+Message-Id: <172023557129.10218.9983366514325412371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 27fbb2a1a85dc846b27bb720b233ac1b03fbfd34
-    new: e90a0745c26538a0fc626966b70a85d4bdac8e28
+  - ref: refs/heads/controller/kirin
+    old: 61f1b183543187f952f0adbb5609e2038773397b
+    new: 1a164371b362bd3c091a1d49d35dadfcf18c1970
     log: |
-         a05485cf3a739f64403c72ffd46fd77b3fe7338d mm: add VM_DROPPABLE for designating always lazily freeable mappings
-         6f8737c9713f5fd131a59c58a2d0cc919bb609bd random: introduce generic vDSO getrandom() implementation
-         e90a0745c26538a0fc626966b70a85d4bdac8e28 x86: vdso: Wire up getrandom() vDSO implementation
+         1a164371b362bd3c091a1d49d35dadfcf18c1970 PCI: kirin: Fix memory leak in kirin_pcie_parse_port()
          
