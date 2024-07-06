@@ -1,57 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============5422903371618683570=="
+Content-Type: multipart/mixed; boundary="===============1700239265673176118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 06 Jul 2024 20:30:05 -0000
-Message-Id: <172029780520.29448.6719066946372528462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 06 Jul 2024 21:59:57 -0000
+Message-Id: <172030319794.27490.1988370709585145544@gitolite.kernel.org>
 
---===============5422903371618683570==
+--===============1700239265673176118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: e410436c0aa7787e18b0fe6fe68a4297c4e0e088
-    new: f676498887c6a48d9bd19f01ed910cea4ed24897
-    log: revlist-e410436c0aa7-f676498887c6.txt
+  - ref: refs/heads/arm64-for-6.11
+    old: 968178e35e78e566f75dbb7fbfc4dd1436ce8309
+    new: 5d0ab61a700214366dfcca5893b87655261e8c94
+    log: revlist-968178e35e78-5d0ab61a7002.txt
+  - ref: refs/heads/clk-for-6.11
+    old: f27e42c7d3ff8ddfc57273efd1e8642ea89bad90
+    new: ac477c143c56f185030ceaa9ea24b8bda8faa35e
+    log: |
+         bd2d330ee608f16a0b93ea753b75c98a1898bdd0 clk: qcom: lpasscc-sc8280xp: Constify struct regmap_config
+         9db4585eca22fcd0422a94ac792f87dcbf74b643 clk: qcom: kpss-xcc: Return of_clk_add_hw_provider to transfer the error
+         2bb98a88edd5ddf15ca4cfc65595b7f7588351b5 clk: qcom: gcc-x1e80100: Set parent rate for USB3 sec and tert PHY pipe clks
+         f2f48aa7371250c8db4f216d2bc254bf3b798741 dt-bindings: clock: qcom: Add AHB clock for SM8150
+         d1f1570f3d6db5d35642092a671812e62bfba79d dt-bindings: interconnect: Add Qualcomm IPQ9574 support
+         d29f1b9bb29eff41b19b81fb995c0a2d0064ec47 Merge branch '20240430064214.2030013-3-quic_varada@quicinc.com' into clk-for-6.11
+         92ade6cd8e461b04745b62cc5e443da156af2de4 interconnect: icc-clk: Specify master/slave ids
+         35fa56828399379bec22ec9a528f6a76d45abce3 interconnect: icc-clk: Add devm_icc_clk_register
+         0200c12c5282cf1e3dc8e6d68c39f43a471892f0 clk: qcom: common: Add interconnect clocks support
+         ac477c143c56f185030ceaa9ea24b8bda8faa35e clk: qcom: ipq9574: Use icc-clk for enabling NoC related clocks
+         
+  - ref: refs/heads/drivers-for-6.11
+    old: e49380c155940cb47e291a4b3fcb7fdffee6aa4d
+    new: 55751d3e9e96d5d64dc6ebb5bbdf70f45098f279
+    log: |
+         6e697467c4d1f07839ad934dea322fea6a460e4e soc: qcom: socinfo: Add PM6350 PMIC
+         d99b680b4a9a33d0c47a68a4c1a45775023426ff firmware: qcom: tzmem: simplify returning pointer without cleanup
+         04e60d7a72b65f8aa45ef04458c818e9c95fe584 soc: qcom: llcc: simplify with cleanup.h
+         01dd825d2b54edc90394f297830c63047b424da1 soc: qcom: mdt_loader: simplify with cleanup.h
+         20635bcc12d5feb1b0005d559cf7cf27743045df soc: qcom: ocmem: simplify with cleanup.h
+         0ed06fcc7a84ea4861564862545dc7805c0f132e soc: qcom: pdr: simplify with cleanup.h
+         b066a2c430f3f8d0aedba44991e0a69e21b512d3 soc: qcom: wcnss: simplify with cleanup.h
+         55751d3e9e96d5d64dc6ebb5bbdf70f45098f279 firmware: qcom: tzmem: blacklist more platforms for SHM Bridge
+         
 
---===============5422903371618683570==
+--===============1700239265673176118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e410436c0aa7-f676498887c6.txt
+Content-Disposition: attachment; filename=revlist-968178e35e78-5d0ab61a7002.txt
 
-c844b3c4525788d8659a9f537546ca382fda6569 hkml_view/cli_{select,input}: Just return for errors from handling
-d51300a8663aa641b9591d86c2161787db3d0d74 hkml_view/cli_input(): Receive prompt from the caller
-2359e4cbd0168714e775c23eb53fa2bdea1cfc2b hkml_view/cli_input(): Show completion and wait input only when asked
-1925d3f5d74c6eab7cdbb4acf97d49d668a2ce89 hkml_view: Implement CliQuestion for more general cli usage
-0cd6f1cba2890e8d58d6312f4daf7def862a54aa hkml_view: Use CliQuestion for arbitrary focus moving
-cf305c53128bdb6b98555be4910933ba559393f2 hkml_view: Implement and use CliQuestion.ask_input()
-c0aed1383bcc4f64cb7c3d15f25000b2f997a5af hkml_view: Implement CliQuestion.ask_selection()
-1d58d3aff3a5cb45b3ce697d021ebb1042cbf926 CliQuestion/ask(): Print lines only if it has something to print
-b8e72dcad0fdd594f2b7e08e92e2875aee108a3b hkml_view/focus_set(): Give more information
-e929f94a691b4ff9f5ec913302de1c93dd5bbc12 hkml_view/highlight_keyword(): Use CliQuestion
-ef4c4b8ba768e6f0c9ebea9599b598c0421c1ba5 hkml_view/CliQuestion.__init__(): Receive prompt first and set default values for parameters
-a886b38ada23d36f01e6d389bfb80fc9a6e44c66 hkml_view/CliQuestion: Remove title field
-6877ebadc1f0557a68ef1c4cd7c59e31d34c0751 hkml_view/receive_file_path(): Use CliQuestion
-4a9566129cc6ab67175fe0a0b10f6754542289b2 hkml_view/save_as(): Use CliQuestion
-375b0d140a4d65427e75d157841ef6c4f1409a94 hkml_view_text: Add CLI menu
-7cb23a54cf11e8b7e463a9777616213c465764f7 hkml_view_text: Add items to CLI menu
-83a85f266439d4ef8ab6c5ab4b51a5a77290c861 hkml_view_mails: Add CLI menu
-cb7130af9e044aeff28413f9b18938af87f3e53d hkml_view_mails: Change order of menus
-c6ea365d834a434bcfcdb212bf9f3dff89a8e93e hkml_view_{mails,text}: Remove '- ' from cli menu
-489a52dc53f646263bae01b6d519b104846856a0 release_note: Update for CLI menu
-2e107e8101530c5b9010febd42cef8806f558ac3 USAGE: Update
-f7b07457869725a95a5a18a3a454e45d094fe62f hkml_view_mails/manage_tags_of_mail(): Use CliQuestion
-67e99ca4f72700032d0bdb475e24a0ce6715abd5 hkml_view_mails/handle_patches...(): Use CliQuestion
-eb5e83cafe4ed923aea6a70787bc1a35520e9cd4 hkml_view: Set default prompt for selection
-d0464adee341112eff58bddb28ea57b4be48d137 hkml_view: Rename CliQuestion constructor param name description to desc
-f08916a47c575b969e67df8639ed45ded6318bf8 hkml_view: Remove unused functions, cli_{select,input}()
-f676498887c6a48d9bd19f01ed910cea4ed24897 hkml_view_mails/export_mails_of_parent(): Use CliQuestion
+c46a239a24908dda57031589f0db944a5d2e9246 dt-bindings: arm: qcom: Add Lenovo Yoga Slim 7x
+45247fe17db25594bec804f9db751635c7b6e473 arm64: dts: qcom: x1e80100: add Lenovo Thinkpad Yoga slim 7x devicetree
+4ae4837871ee8c8b055cf8131f65d31ee4208fa0 arm64: dts: qcom: ipq6018: Disable SS instance in Parkmode for USB
+dc6ba95c6c4400a84cca5b419b34ae852a08cfb5 arm64: dts: qcom: ipq8074: Disable SS instance in Parkmode for USB
+0046325ae52079b46da13a7f84dd7b2a6f7c38f8 arm64: dts: qcom: msm8998: Disable SS instance in Parkmode for USB
+fad58a41b84667cb6c9232371fc3af77d4443889 arm64: dts: qcom: sdm630: Disable SS instance in Parkmode for USB
+074992a1163295d717faa21d1818c4c19ef6e676 arm64: dts: qcom: sm6115: Disable SS instance in Parkmode for USB
+c5d57eb7d06df16c07037cea5dacfd74d49d1833 arm64: dts: qcom: sm6350: Disable SS instance in Parkmode for USB
+44ea1ae3cf95db97e10d6ce17527948121f1dd4b arm64: dts: qcom: msm8996: Disable SS instance in Parkmode for USB
+cf4d6d54eadb60d2ee4d31c9d92299f5e8dcb55c arm64: dts: qcom: sdm845: Disable SS instance in Parkmode for USB
+81008068ee4f2c4c26e97a0404405bb4b450241b arm64: dts: qcom: sm6350: Add missing qcom,non-secure-domain property
+4d37847187b3fd7ff1fac23248a8ec11d89b3e55 arm64: dts: qcom: sm7225-fairphone-fp4: Add PMK8003 thermals
+8cf636a03260352853ff1c949f30c418600e7b2b arm64: dts: qcom: sm7225-fairphone-fp4: Add PM6150L thermals
+134a4b2f3be287358542953c9540bee4296bf593 arm64: dts: qcom: sc7280: Enable download mode register write
+e3e169cd28d0ba80d25ad683e076b299a39e8526 arm64: dts: qcom: pm6150: Add vibrator
+cfe9685473add0ae76952f0eb54489c3547db335 arm64: dts: qcom: sm8150: Add video clock controller node
+d1f1570f3d6db5d35642092a671812e62bfba79d dt-bindings: interconnect: Add Qualcomm IPQ9574 support
+47c7823be60ad5eb2db72d8c26ecbde5902a1b42 Merge branch '20240430064214.2030013-3-quic_varada@quicinc.com' into arm64-for-6.11
+5d0ab61a700214366dfcca5893b87655261e8c94 arm64: dts: qcom: ipq9574: Add icc provider ability to gcc
 
---===============5422903371618683570==--
+--===============1700239265673176118==--
