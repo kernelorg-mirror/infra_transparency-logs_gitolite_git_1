@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1176997691316432579=="
+Content-Type: multipart/mixed; boundary="===============4209834271843606942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 06 Jul 2024 08:38:07 -0000
-Message-Id: <172025508754.19976.13430509625915396559@gitolite.kernel.org>
+Date: Sat, 06 Jul 2024 08:41:22 -0000
+Message-Id: <172025528208.22830.12282866732671805732@gitolite.kernel.org>
 
---===============1176997691316432579==
+--===============4209834271843606942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 4261031484d8f8fcbd2bd6517416b88545447597
-    new: 618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4
+  - ref: refs/heads/review-ilpo
+    old: 618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4
+    new: cf25477c52123fd18373ea43336e44185f4744c0
     log: |
-         12046f8c77e0ed6d41beabde0edbb729499c970b platform/x86: wmi: Add driver_override support
-         618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4 platform/x86: wmi: Add bus ABI documentation
+         ec7c0f34157e884e0eb9c94dde3bf84c57488441 platform: arm64: lenovo-yoga-c630: select AUXILIARY_BUS
+         cf25477c52123fd18373ea43336e44185f4744c0 Merge branch 'pdx86/platform-drivers-x86-lenovo-c630' into review-ilpo
          
 
---===============1176997691316432579==
+--===============4209834271843606942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1720255080 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1720255277 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1720255081-5e7fc32d8973c909f0c377a4105cd6d67f52f7f2
+nonce 1720255278-3933ade8d924030e1ac5c1e5005c00984b0de4c3
 
-4261031484d8f8fcbd2bd6517416b88545447597 618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4 refs/heads/for-next
+618ba6abfc57bde2c2cea7c2b23e4c27fd5a04b4 cf25477c52123fd18373ea43336e44185f4744c0 refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZokCZQAKCRBZrE9hU+XO
-MWeRAQC4inapnxH5X3mAoFYvrq+etsTQS5PE0n2+whfpLe3pJQD+KAv0ibESP3xG
-M+Q+tK1vmAkS2rqzA1RzpI7XH6U4Dgo=
-=7bay
+iHQEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZokDKAAKCRBZrE9hU+XO
+MUHqAQDppZ747l4PBZAwOO3Tn9iP1+Ovm1JRIpFWpexHZWpq3gD3WbgmmCNGQQHo
+RjqF1qzulcOpTkHpT9HZm8+S2XvzDQ==
+=0wiT
 -----END PGP SIGNATURE-----
 
---===============1176997691316432579==--
+--===============4209834271843606942==--
