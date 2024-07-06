@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7969650866404386415=="
+Content-Type: multipart/mixed; boundary="===============8675407694648247669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Jul 2024 07:44:59 -0000
-Message-Id: <172025189930.12463.16912862596088364251@gitolite.kernel.org>
+Date: Sat, 06 Jul 2024 07:45:30 -0000
+Message-Id: <172025193031.14388.3607135216598743591@gitolite.kernel.org>
 
---===============7969650866404386415==
+--===============8675407694648247669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: af54b04c691af76c751efa33a949bb74e7d3d0ee
-    new: 2505107a661f6cd7815968257c52d365e7759142
-    log: revlist-af54b04c691a-2505107a661f.txt
+    old: 2505107a661f6cd7815968257c52d365e7759142
+    new: fda48ae4613eb36d12cfa97385dedb3a39f8af44
+    log: revlist-2505107a661f-fda48ae4613e.txt
 
---===============7969650866404386415==
+--===============8675407694648247669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af54b04c691a-2505107a661f.txt
+Content-Disposition: attachment; filename=revlist-2505107a661f-fda48ae4613e.txt
 
-5638bd722a44bbe97c1a7b3fae5b9efddb3e70ff perf/x86/intel/pt: Fix topa_entry base length
-ad97196379d0b8cb24ef3d5006978a6554e6467f perf/x86/intel/pt: Fix a topa_entry base address calculation
-3520b251dcae2b4a27b95cd6f745c54fd658bda5 perf/x86/intel/pt: Fix pt_topa_entry_for_page() address calculation
-3df94a5b1078dfe2b0c03f027d018800faf44c82 perf: Fix perf_aux_size() for greater-than 32-bit size
-dbc48c8f41c208082cfa95e973560134489e3309 perf: Prevent passing zero nr_pages to rb_alloc_aux()
-43deb76b19663a96ec2189d8f4eb9a9dc2d7623f perf: Fix default aux_watermark calculation
-0ca4da2412da05fb9dd0b5d90dcc8026219f0f29 perf: Make rb_alloc_aux() return an error immediately if nr_pages <= 0
-0c8ea05e9b3d8e5287e2a968f2a2e744dfd31b99 Merge branch 'tip/x86/cpu'
-2c3aedd9db6295619d21e50ad29efda614023bf1 perf/x86/intel/cstate: Fix Alderlake/Raptorlake/Meteorlake
-a31000753d41305d2fb7faa8cc80a8edaeb7b56b perf/x86/intel/cstate: Add Arrowlake support
-26579860fbd5129e18de9d6fa0751a48420b26b7 perf/x86/intel/cstate: Add Lunarlake support
-a23eb2fc1d818cdac9b31f032842d55483a6a040 perf/x86/intel: Support the PEBS event mask
-722e42e45c2f1c6d1adec7813651dba5139f52f4 perf/x86: Support counter mask
-a932aa0e868f92c5219d84b58c1131fc05ddcf79 perf/x86: Add Lunar Lake and Arrow Lake support
-090262439f66df03d4e9d0e52e14104b729e2ef8 perf/x86/intel: Rename model-specific pebs_latency_data functions
-608f6976c309793ceea37292c54b057dab091944 perf/x86/intel: Support new data source for Lunar Lake
-e8fb5d6e765838e913253ef7c9b6fd8ec76c8d53 perf/x86: Add config_mask to represent EVENTSEL bitmask
-dce0c74d2d180ce21d074b4f977821a567ab0020 perf/x86/intel: Support PERFEVTSEL extension
-149fd4712bcd492a031945f92e5ce19879f62311 perf/x86/intel: Support Perfmon MSRs aliasing
-f997e208b6c96858a2f6c0855debfbdb9b52f131 perf/x86/amd/uncore: Avoid PMU registration if counters are unavailable
-57e11990f45f89bc29d0f84dd7b13a4e4263eeb2 perf/x86/amd/uncore: Fix DF and UMC domain identification
-2505107a661f6cd7815968257c52d365e7759142 Merge branch into tip/master: 'perf/core'
+02fad34a94c927a76b12b7b7711744c986976067 Merge branch into tip/master: 'x86/merge'
+64f1194f5994e5ff9868e306c4c7f517d4ac74e7 Merge branch into tip/master: 'perf/urgent'
+395250aa683587718c7fd6696f3ad32d15781872 Merge branch into tip/master: 'sched/urgent'
+5cb574adbec0df402bfbbb3c51a3f0db1021a460 Merge branch into tip/master: 'timers/urgent'
+a12a1305610c37c544df477eae71d5c27f2d1d69 Merge branch into tip/master: 'x86/urgent'
+10f692c4a040a02a27ef16e1d441679732538726 Merge branch into tip/master: 'WIP.x86/fpu'
+5dabdef8e7bdf903f29f76217719c164f00ca695 Merge branch into tip/master: 'core/debugobjects'
+161954ddb85a8a07fa1bc2564e7b9b99a19aed55 Merge branch into tip/master: 'irq/core'
+4877db715efe2ed8e077cddc9aa16e5cf1a79eb1 Merge branch into tip/master: 'irq/msi'
+1df314df72e2ee085a917db9df60a1932cbc6c20 Merge branch into tip/master: 'locking/core'
+402bdd41011a1fef7f54800d1219685a674a2b01 Merge branch into tip/master: 'perf/core'
+17bfbb9cefac62be03b32b7fcdd3c95a2ab85ec1 Merge branch into tip/master: 'ras/core'
+fc12e66e30de7be4b2c4d417e2fd3ffd88275294 Merge branch into tip/master: 'sched/core'
+491b1867ffa913537205bf170fc7fe65b3da9491 Merge branch into tip/master: 'smp/core'
+85f200736409d13dc30ad9169cd112f940af8fa9 Merge branch into tip/master: 'timers/core'
+a117f58ec0577fc8e1399873235c949056537aa4 Merge branch into tip/master: 'x86/alternatives'
+ce150de62fcb3dac45404a946ca330706e4805df Merge branch into tip/master: 'x86/boot'
+83092aa290b5ba5602fa9fb1b421d95c8e3c81f5 Merge branch into tip/master: 'x86/bugs'
+db022795e55fa9f00f3fb77aef5ae881a159413f Merge branch into tip/master: 'x86/build'
+7f68d5371964cfd3d8c59073683d0da14fa5b62c Merge branch into tip/master: 'x86/cache'
+12fff2d6ad5e0879be0d9f6805d42edb1f0d3a72 Merge branch into tip/master: 'x86/cc'
+00064b652cc9efce697c5dfbf5f7aa2f92d7a1c2 Merge branch into tip/master: 'x86/cleanups'
+4384845ef3ba98eff9625ece23cd3baa3c39c5cb Merge branch into tip/master: 'x86/core'
+af0c341b1e48b8c7a7d30cf1eee354ec04101c36 Merge branch into tip/master: 'x86/misc'
+9796e806ad8e7638c70c2b2195871df342051cf3 Merge branch into tip/master: 'x86/mm'
+e19e18c121ae27d7ed57eceb5129940449663010 Merge branch into tip/master: 'x86/percpu'
+988991f8e07778232ea62781784c8abe6605dff7 Merge branch into tip/master: 'x86/sev'
+fda48ae4613eb36d12cfa97385dedb3a39f8af44 Merge branch into tip/master: 'x86/vmware'
 
---===============7969650866404386415==--
+--===============8675407694648247669==--
