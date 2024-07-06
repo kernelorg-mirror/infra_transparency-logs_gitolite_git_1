@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 06 Jul 2024 00:28:27 -0000
-Message-Id: <172022570716.19734.17064270347951122583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/vulns-desc
+Date: Sat, 06 Jul 2024 00:34:43 -0000
+Message-Id: <172022608387.23677.7127535723907855570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/sashal/vulns-desc
+user: sashal
 changes:
-  - ref: refs/heads/probes/for-next
-    old: 637c26f9b02d9c72448fcd5c9c4e3b08015404fc
-    new: 9d8616034f161222a4ac166c1b42b6d79961c005
+  - ref: refs/heads/master
+    old: 90fa478e8081becee584f0417fdbd477259bade9
+    new: 6e650e01f0f75d1960eeb679ddb6e937e3852343
     log: |
-         9d8616034f161222a4ac166c1b42b6d79961c005 tracing/kprobes: Add symbol counting check when module loads
+         6e650e01f0f75d1960eeb679ddb6e937e3852343 CVE Descriptions
          
