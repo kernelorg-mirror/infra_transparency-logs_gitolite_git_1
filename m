@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5339284721793113756=="
+Content-Type: multipart/mixed; boundary="===============2041300082430111561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Jul 2024 07:45:54 -0000
-Message-Id: <172025195485.14649.1134683543371780755@gitolite.kernel.org>
+Date: Sat, 06 Jul 2024 07:46:24 -0000
+Message-Id: <172025198477.14952.10779555045470146107@gitolite.kernel.org>
 
---===============5339284721793113756==
+--===============2041300082430111561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: fda48ae4613eb36d12cfa97385dedb3a39f8af44
-    new: f728b29653c1f545772f79fc48ceb18ae9c7678f
-    log: revlist-fda48ae4613e-f728b29653c1.txt
+    old: f728b29653c1f545772f79fc48ceb18ae9c7678f
+    new: 7a368a53e7a149bce3e7d48f2e54023762e6c7b8
+    log: revlist-f728b29653c1-7a368a53e7a1.txt
 
---===============5339284721793113756==
+--===============2041300082430111561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fda48ae4613e-f728b29653c1.txt
+Content-Disposition: attachment; filename=revlist-f728b29653c1-7a368a53e7a1.txt
 
-fbf06cee60876d50f259d0689e3c03940750f0d4 ima: fix wrong zero-assignment during securityfs dentry remove
-9554dd215fee58118b23e0f6b8f356e8bc320da0 MAINTAINERS: Orphan Synopsys DesignWare xData traffic generator
-419d57d429f6e1fbd9024d34b11eb84b3138c60e CREDITS: Add Synopsys DesignWare eDMA driver for Gustavo Pimentel
-3285d8f0a2ede604c368155c9c0921e16d41f70a firmware: sysfb: Fix reference count of sysfb parent device
-80bec6825b19d95ccdfd3393cf8ec15ff2a749b4 drm/nouveau: fix null pointer dereference in nouveau_connector_get_modes
-f72383371e8c5d1d108532d7e395ff2c277233e5 drm/i915/display: For MTL+ platforms skip mg dp programming
-26746ed40bb0e4ebe2b2bd61c04eaaa54e263c14 drm: panel-orientation-quirks: Add quirk for Valve Galileo
-704c1bef3aa44f82500cab27267ce338e188a340 drm: panel-orientation-quirks: Add labels for both Valve Steam Deck revisions
-4c6abb7f7b349f00c0f7ed5045bf67759c012892 KVM: s390: fix LPSWEY handling
-7c5d838d70902f017bc9b272b494994654b0c2bd documentation: Fix riscv cmodx example
-6b8487cdf9fc7bae707519ac5b5daeca18d1e85b drm/amd/display: Reset freesync config before update new state
-74ad26b36d303ac233eccadc5c3a8d7ee4709f31 drm/amd/display: Add refresh rate range check
-074b3a886713f69d98d30bb348b1e4cb3ce52b22 drm/amd/display: Account for cursor prefetch BW in DML1 mode support
-9ef1548aeaa8858e7aee2152bf95cc71cdcd6dff drm/amd/display: Fix refresh rate range for some panel
-7ae37db29a8bc4d3d116a409308dd98fc3a0b1b3 drm/amd/display: Update efficiency bandwidth for dcn351
-0ad4b4a2f6357c45fbe444ead1a929a0b4017d03 drm/amd/display: Fix array-index-out-of-bounds in dml2/FCLKChangeSupport
-6fb15dcbcf4f212930350eaee174bb60ed40a536 drm/radeon: check bo_va->bo is non-NULL before using it
-3645ffaf2b334abaf5f53e5ca0f47465d91e69d2 gpiolib: of: fix lookup quirk for MIPS Lantiq
-d0417264437a8fa05f894cabba5a26715b32d78e drm/amdgpu/atomfirmware: silence UBSAN warning
-1a9a71439cc1b270bf127c2f529aac7cf9cb21ab drm/panthor: Don't check the array stride on empty uobj arrays
-7b6f9ec6ad51125facadecf77dc6e62928186d2e drm/panthor: Fix sync-only jobs
-740b8dad05bee39e1e3b926f05bb4a8274b8ba49 drm/fbdev-generic: Fix framebuffer on big endian devices
-f07798d7bb9c46d17d80103fb772fd2c75d47919 gpio: mmio: do not calculate bgpio_bits via "ngpios"
-a3f24e83d11d7ceb4743416c803332e9c5749298 drivers/perf: riscv: Do not update the event data if uptodate
-7dd646cf745c34d31e7ed2a52265e9ca8308f58f drivers/perf: riscv: Reset the counter to hpmevent mapping while starting cpus
-16d3b1af0944cd0e4eae291ab0097c54ecbc1048 perf: RISC-V: Check standard event availability
-210ac17dedc9810d744ae52f8780278211a490aa Merge patch series "Assorted fixes in RISC-V PMU driver"
-3582ce0d7ccf2ee0eca66e5928e5550b8fc84e57 riscv: selftests: Fix vsetivli args for clang
-393da6cbb2ff89aadc47683a85269f913aa1c139 riscv: stacktrace: fix usage of ftrace_graph_ret_addr()
-c562ba719df570c986caf0941fea2449150bcbc4 riscv: kexec: Avoid deadlock in kexec crash path
-d99fbd9aab624fc030934e21655389ab1765dc94 drm/ttm: Always take the bo delayed cleanup path for imported bos
-fc932f51926698488f874ddf7d8f18483ca10271 drm/xe: fix error handling in xe_migrate_update_pgtables
-1f006470284598060ca1307355352934400b37ca drm/xe/mcr: Avoid clobbering DSS steering
-4931c01bebd0635343da1d3d94c639cc111e4cb1 Merge tag 'drm-intel-fixes-2024-07-02' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-cfbce3bcb2e4aa767b51985672a5bb7aca9b06cf Merge tag 'drm-xe-fixes-2024-07-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-2879b482a91202e20841de2df249ca31500d4f96 Merge tag 'drm-misc-fixes-2024-07-04' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-25ee48a55fd59c72e0bd46dd9160c2d406b5a497 tpm: Address !chip->auth in tpm2_*_auth_session()
-a61809a33239821d70eba77bd0d6d13c29bbad0d tpm: Address !chip->auth in tpm_buf_append_name()
-7ca110f2679b7d1f3ac1afc90e6ffbf0af3edf0d tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
-8ad209fc6448e1d7fff7525a8d40d2fb549f72d1 Merge tag 'kvm-s390-master-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-f8d76c2c313c56d5cb894a243dff4550f048278d gpiolib: of: add polarity quirk for TSC2005
-3c6f5afd91cfacba9f43fd388f2d88c85195ae32 Merge tag 'amd-drm-fixes-6.10-2024-07-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-75aa87ca486b95ffae678300722022f01d33b7ca Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-5cc467117e61272c522f5922b04dd984deb2411f Merge tag 'tpmdd-next-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-968460731f95be9977bc59a513acbc5afc71117d Merge tag 'gpio-fixes-for-v6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-dd9d7390b2de008448eb3328d4a0504c76c74572 Merge tag 'drm-fixes-2024-07-05' of https://gitlab.freedesktop.org/drm/kernel
-b673f2bda0c9d306e330a236c87706d8de18107a Merge tag 'riscv-for-linus-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-d270dd21bee023ab627f34cfb77a9b89a688492a Merge tag 'pci-v6.10-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-1dd28064d4164a4dc9096fd1a7990d2de15f2bb6 Merge tag 'integrity-v6.10-fix' of ssh://ra.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-f728b29653c1f545772f79fc48ceb18ae9c7678f Merge branch 'linus'
+676aa701c2ef7c52940e736ef16fe534a12a6301 Merge branch into tip/master: 'x86/merge'
+7399a5edab03c84097babc4bba33d9f91b16e0f1 Merge branch into tip/master: 'perf/urgent'
+75d7885ab8be45b7eafaeccd0865f13a3854a002 Merge branch into tip/master: 'sched/urgent'
+9868316531357e26e9d50500a0a5806920dfcb92 Merge branch into tip/master: 'timers/urgent'
+c3bc7c79368066221d3f011feb021b2010a0803a Merge branch into tip/master: 'x86/urgent'
+b5d9c664641436d74d83873d9421092c5362751c Merge branch into tip/master: 'WIP.x86/fpu'
+5cbd8c5b535d44439f0fd97feada867911d12c10 Merge branch into tip/master: 'core/debugobjects'
+6eee3a54aa640a6f47dba9f6a94850a4310d6689 Merge branch into tip/master: 'irq/core'
+08446be7559f2b2db80421bdf9cdfbdea8c9d6fc Merge branch into tip/master: 'irq/msi'
+00ee94d414b37ea84fd6767376119a8a860dd285 Merge branch into tip/master: 'locking/core'
+b998777eefe930f95a23f52197b66f544edb1828 Merge branch into tip/master: 'perf/core'
+6f1ce43181cb4f8275937488f065d8f8152d01f0 Merge branch into tip/master: 'ras/core'
+c4e488c170748916cbbd994fd57be278242175ff Merge branch into tip/master: 'sched/core'
+9ca68dc1456ebc8f40172d1ba1ef1c2976d8ff3f Merge branch into tip/master: 'smp/core'
+416f8c77a5c8df3a687ad64e7035e60bd5fca303 Merge branch into tip/master: 'timers/core'
+7af232723263900216c5d6373d467b3b23aa49ee Merge branch into tip/master: 'x86/alternatives'
+29ab64774aea35958125e30f4592b5becb13e11e Merge branch into tip/master: 'x86/boot'
+f23732151446ac3ccf692e2dd4b408161cc5cf2e Merge branch into tip/master: 'x86/bugs'
+6919c256411445812af9e5bfc94c9767bf79b5ec Merge branch into tip/master: 'x86/build'
+2aaf27d8195d6de1558f98d399fbb1acbfaf5f70 Merge branch into tip/master: 'x86/cache'
+97edf614a6dd5b7759b87c6a5c5e4bfc840425fe Merge branch into tip/master: 'x86/cc'
+5700f8eef3d07d10bc7e78cf95b5992fac88a446 Merge branch into tip/master: 'x86/cleanups'
+98885af4fb63486f4e68490ab01c0c3619c9c218 Merge branch into tip/master: 'x86/core'
+3fd6e1726764e29d896f61f84b717f73b5316a28 Merge branch into tip/master: 'x86/misc'
+bc9d1a2db08f0169af3028baa1298ab50cdaf5c0 Merge branch into tip/master: 'x86/mm'
+045556ad20684b7471b5c85a57ec495980d7d7e0 Merge branch into tip/master: 'x86/percpu'
+ee8479b3ee7f6ce99fa4d6ed0a22faad79ff77cb Merge branch into tip/master: 'x86/sev'
+7a368a53e7a149bce3e7d48f2e54023762e6c7b8 Merge branch into tip/master: 'x86/vmware'
 
---===============5339284721793113756==--
+--===============2041300082430111561==--
