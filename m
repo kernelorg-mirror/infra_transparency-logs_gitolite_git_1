@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1882711412169392455=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 06 Jul 2024 14:06:08 -0000
-Message-Id: <172027476886.11941.3136881064255262349@gitolite.kernel.org>
-
---===============1882711412169392455==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 06 Jul 2024 14:44:07 -0000
+Message-Id: <172027704731.6658.8956014379252755759@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/review-ilpo
-    old: cf25477c52123fd18373ea43336e44185f4744c0
-    new: 4bf1ea3fc914faef37d8c793b7144d4765ff4a00
+  - ref: refs/heads/for-next
+    old: ab6aaea6835b5d6da15f4d14d4af8b1a9a1c609b
+    new: cd843d58ee1db0e2cb0d7046aff5cb59e8fcfc2e
     log: |
-         4bf1ea3fc914faef37d8c793b7144d4765ff4a00 platform/x86: asus-wmi: support the disable camera LED on F10 of Zenbook 2023
+         9ebbb581618a836ec434ea92a727be7bd25a34c8 kbuild: raise the minimum GNU Make requirement to 4.0
+         2bb83f5bb4618518a74d79e4b752e167563003a7 modpost: remove self-definitions of R_ARM_* macros
+         7a3ad5e345c0bd1fce76e712115de35a0ddbd0ff modpost: rename R_ARM_THM_CALL to R_ARM_THM_PC22
+         cd843d58ee1db0e2cb0d7046aff5cb59e8fcfc2e kbuild: deb-pkg: use default string when variable is unset or null
          
-
---===============1882711412169392455==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1720274757 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1720274756-9d7c17e5569de276b5c3d5841c7382ec4069670b
-
-cf25477c52123fd18373ea43336e44185f4744c0 4bf1ea3fc914faef37d8c793b7144d4765ff4a00 refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZolPUAAKCRBZrE9hU+XO
-MV2EAPsHIqZJ/S/p87ilRMTIdPepxZXZElJrGjKrgY2XYUmalAEAqC9hluJLqFje
-o97EfOD3ziCKMdqkIsAfi/xVm9D7XQY=
-=OBcE
------END PGP SIGNATURE-----
-
---===============1882711412169392455==--
