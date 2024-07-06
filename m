@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7292120456953684782=="
+Content-Type: multipart/mixed; boundary="===============4990216885819113869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 06 Jul 2024 10:18:14 -0000
-Message-Id: <172026109461.9309.588592078369757215@gitolite.kernel.org>
+Date: Sat, 06 Jul 2024 10:18:30 -0000
+Message-Id: <172026111072.9468.16445052818605556188@gitolite.kernel.org>
 
---===============7292120456953684782==
+--===============4990216885819113869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/togreg
     old: 529d2e1900642eba6df28307e26e19793e227546
     new: 1ebab783647a9e3bf357002d5c4ff060c8474a0a
     log: revlist-529d2e190064-1ebab783647a.txt
 
---===============7292120456953684782==
+--===============4990216885819113869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -791,4 +791,4 @@ c66c0e7c511cde3f129af4792751074905fc248a MAINTAINERS: CC dri-devel list on Qualc
 f7e46d45c597fa083e266252392908f3ea0e7ef4 slimbus: Fix struct and documentation alignment in stream.c
 1ebab783647a9e3bf357002d5c4ff060c8474a0a Merge tag 'mhi-for-v6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
 
---===============7292120456953684782==--
+--===============4990216885819113869==--
