@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 07 Jul 2024 18:59:18 -0000
-Message-Id: <172037875823.12633.6044506763874965504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 07 Jul 2024 20:06:28 -0000
+Message-Id: <172038278815.29617.13403325537752620847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/hkml
 user: sj
 changes:
-  - ref: refs/heads/next
-    old: 5c30e2a5c2b674801c28e3e6c81f5dbd22717885
-    new: c9674781e61340ff0c3cec734d62c97ff3421f48
-    log: |
-         c9674781e61340ff0c3cec734d62c97ff3421f48 release_note: Update for next release
-         
+  - ref: refs/tags/v1.1.2
+    old: 0000000000000000000000000000000000000000
+    new: c63c79a10868be534dccac836968847faeddc732
