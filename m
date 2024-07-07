@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7525792212043939743=="
+Content-Type: multipart/mixed; boundary="===============6607651068632898475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Sun, 07 Jul 2024 05:58:30 -0000
-Message-Id: <172033191017.19826.13571340478382717336@gitolite.kernel.org>
+Date: Sun, 07 Jul 2024 05:58:42 -0000
+Message-Id: <172033192281.19983.1999720413639245757@gitolite.kernel.org>
 
---===============7525792212043939743==
+--===============6607651068632898475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.11-merge
     old: 3ba3ab1f6719287674cf77a1208944cf38ef71c7
     new: 49cdc4e834e46d7c11a91d7adcfa04f56d19efaf
     log: revlist-3ba3ab1f6719-49cdc4e834e4.txt
 
---===============7525792212043939743==
+--===============6607651068632898475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -97,4 +97,4 @@ c1220522ef405a9ebf19447330c9e9de5dfc649c xfs: grant heads track byte counts, not
 f3f7ae68a4ea23aa9c49530733f1faaa6996b03a xfs: skip flushing log items during push
 49cdc4e834e46d7c11a91d7adcfa04f56d19efaf xfs: get rid of xfs_ag_resv_rmapbt_alloc
 
---===============7525792212043939743==--
+--===============6607651068632898475==--
