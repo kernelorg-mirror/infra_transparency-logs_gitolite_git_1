@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 07 Jul 2024 21:42:58 -0000
-Message-Id: <172038857824.4025.12896625103722227288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Jul 2024 21:49:22 -0000
+Message-Id: <172038896208.8094.12999295171052722366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 526e21a2aa6fa7ac3309a8c87f4d6e5f7e407cb6
-    new: 9f349e8e532d7e50b57a3e10367a8eb64d89e104
+  - ref: refs/heads/master
+    old: 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e
+    new: 256abd8e550ce977b728be79a74e1729438b4948
     log: |
-         9f349e8e532d7e50b57a3e10367a8eb64d89e104 Revert "firewire: ohci: use common macro to interpret be32 data in le32 buffer"
+         256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
          
+  - ref: refs/tags/v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
