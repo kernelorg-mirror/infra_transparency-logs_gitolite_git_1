@@ -1,79 +1,104 @@
-Content-Type: multipart/mixed; boundary="===============2171616749030408062=="
+Content-Type: multipart/mixed; boundary="===============9125264887794610113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 07 Jul 2024 14:15:49 -0000
-Message-Id: <172036174943.3423.12958068132468428776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Sun, 07 Jul 2024 14:25:19 -0000
+Message-Id: <172036231919.10053.12138737403355080832@gitolite.kernel.org>
 
---===============2171616749030408062==
+--===============9125264887794610113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/testing
-    old: 1ebab783647a9e3bf357002d5c4ff060c8474a0a
-    new: 6105a168f938ac8fdde7de977a77994c45819f00
-    log: revlist-1ebab783647a-6105a168f938.txt
+  - ref: refs/heads/loongarch-next
+    old: 69fb7e1804070681d95981b20072639486d5c682
+    new: c1403d805ad377a757a0617260f18ee99fb5b3ff
+    log: revlist-69fb7e180407-c1403d805ad3.txt
 
---===============2171616749030408062==
+--===============9125264887794610113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ebab783647a-6105a168f938.txt
+Content-Disposition: attachment; filename=revlist-69fb7e180407-c1403d805ad3.txt
 
-a969383bc19e2c818f56d8fb75ddb8df2d2417eb iio: core: add accessors 'masklength'
-784a72b4e9a5e6784e8c642dbfe878b51661d7ba iio: core: make use of iio_get_masklength()
-f1633feba0bf995b82640e29be8ae1ce27313053 iio: buffer: make use of iio_get_masklength()
-606b547a080a7aa756ed12435d8f3bd350f433f5 iio: accel: adxl367: make use of iio_get_masklength()
-09c0a600400fac7e4d7d919e3c550f9044c34066 iio: accel: adxl372: make use of iio_get_masklength()
-ef27f4f5e2e169cd75ebfa1f01d528341b643c4b iio: accel: bma180: make use of iio_for_each_active_channel()
-24423d9beb7884da9509ef5051b1c694a743bc85 iio: accel: bmc150-accel-core: make use of iio_for_each_active_channel()
-f5589e9317ec06ae1d7b839497df30a5f87d7113 iio: accel: cros_ec_accel_legacy: make use of iio_get_masklength()
-5cd2f0b105875b0bf96f3964d5ef3cb16c5c8d1a iio: accel: fxls8962af-core: make use of iio_for_each_active_channel()
-41aaee342f5948cc150631cb008c1f2b73abf09f iio: accel: msa311: make use of iio_for_each_active_channel()
-ee17ea6970edb2716c0a2278579e6151e103c17c iio: accel: sca3300: make use of iio_for_each_active_channel()
-5fcb97b0244c9e7d767542ea213ee6e9ee005fd8 iio: accel: stk8312: make use of iio_for_each_active_channel()
-ae32eea687f042cc108f077e2873b851f8a06c01 iio: accel: stk8ba50: make use of iio_for_each_active_channel()
-c9efcbc35cff39ae205829571b8c2e9e5eb001ef iio: adc: ad7266: make use of iio_get_masklength()
-f9e333a8745b114ea54316d4de9bdeb148103d1d iio: adc: ad7298: make use of iio_get_masklength()
-bba6e38ae513c2e15029d5c3f5740a23dafdddf6 iio: adc: ad799x: make use of iio_get_masklength()
-25b0b7badf4ace5d9659f3169358b3bc1be404ea iio: adc: ad_sigma_delta: use new '.masklength' accessors
-1839582c061b7c4d563f802485a0615dce80a40c iio: adc: at91_adc: make use of iio_for_each_active_channel()
-f1a7629a3efa7fb3283042306f508d57b9e7b551 iio: imu: adis16475: make use of iio_for_each_active_channel()
-64952f829ea8a1ccf5ebcafda8efd01ee98a16fe iio: imu: adis16480: make use of iio_for_each_active_channel()
-b0a7d48077fa145ba6fdf8988a199f98fadda537 iio: accel: adxl367: Constify struct regmap_bus
-d5493ac0aba049b388831290f1dc7cda29eccb84 iio: accel: bma400: Constify struct regmap_bus
-724d48f2cecd1caa43a5286cf81f7ad421a692ca iio: accel: bmi088: Constify struct regmap_bus
-a3851060c17d4da1abfa55a90327df6b5bd90bd3 iio: adc: ad7091r8: Constify struct regmap_bus
-81bc2031e02b978b3b6040a73ccb14cec36690dd iio: chemical: bme680: Constify struct regmap_bus
-cb987d0851da1e88f81fff1d38191c49a3cc21d9 iio: dac: ltc2688: Constify struct regmap_bus
-b1627a3a2e53d19ed0cafb9f1226ec72dfd3f49c iio: imu: bmi323: Constify struct regmap_bus
-8f08d0028c04de561e7f09ea8e340bcd8110831d iio: imu: bno055: Constify struct regmap_bus
-1e2276454934c9fadd81f32504ab29abe949bca1 iio: light: gp2ap002: Constify struct regmap_bus
-36596045d1a9ae85d7813a4f71da89572655a253 iio: pressure: bmp280: Constify struct regmap_bus
-26bdc322467802d91d1719f9f2807a520b6aa934 iio: accel: bma400: simplify with cleanup.h
-6ca1eff808370028d66f6acce100663f3b7de6f1 iio: adc: ad7280a: simplify with cleanup.h
-5ebe4577e9c68f49e08d157bb89fb742620aab07 iio: adc: at91: simplify with cleanup.h
-c058108e4b63283da518f8137bb80fcba9490901 iio: adc: max1363: simplify with cleanup.h
-6202239367bd0e4b8999f6ae52572c021f8e7128 iio: adc: ti-tsc2046: simplify with cleanup.h
-eb93f3888474a1cb70c0f6f9b19122bcdd7c1e9b iio: adc: ad9467: support multiple channels calibration
-1732b534d1240aea5bdf7755754dfcaeb53d308f iio: adc: ad9467: add new chip_info variables
-930eca5a8796a88a233c97eb689c6bdda81d1861 iio: adc: ad9467: don't allow reading vref if not available
-0f5395a0ef6227c72e0d0ca6ca74d575e123d6f3 dt-bindings: adc: ad9467: support new parts
-9189e74d00ae8f4a187c24e70e2f3629c5f1632c iio: adc: ad9467: support new parts
-d465f7658c5e51b54d99c48b48152c0cd6ded55c dt-bindings: iio: adc: adi,ad7606: normalize textwidth
-8c14f8448f13311ff4fe1beafefc695a650e1d8f dt-bindings: iio: adc: adi,ad7606: improve descriptions
-1d95da6c7d787b4292587da16b68835d4aa53f93 dt-bindings: iio: adc: adi,ad7606: add supply properties
-057502515aa67a7321a3414fbb17ebb28f14eac3 dt-bindings: iio: adc: adi,ad7606: fix example
-7a91dc2b56e4c58add32b84112fa9ef799f84827 dt-bindings: iio: adc: adi,ad7606: add conditions
-be8e3da7dd62aad1efd02d4c589dbfa9de6f3977 iio: adc: ad7606: fix oversampling gpio array
-0e6f51f15bd7104972ef576ef9910038c7a54334 iio: adc: ad7606: fix standby gpio state to match the documentation
-0a2c7d0602199b433fa6f02ee58568f603dafee3 iio: adc: ad7606: switch mutexes to guard
-6105a168f938ac8fdde7de977a77994c45819f00 iio: dac: ti-dac7311: Add check for spi_setup
+fbf06cee60876d50f259d0689e3c03940750f0d4 ima: fix wrong zero-assignment during securityfs dentry remove
+9554dd215fee58118b23e0f6b8f356e8bc320da0 MAINTAINERS: Orphan Synopsys DesignWare xData traffic generator
+419d57d429f6e1fbd9024d34b11eb84b3138c60e CREDITS: Add Synopsys DesignWare eDMA driver for Gustavo Pimentel
+13fc6c175924eaa953cf597ce28ffa4edc4554a6 powerpc/64s: Fix unnecessary copy to 0 when kernel is booted at address 0
+1a14150e1656f7a332a943154fc486504db4d586 powerpc/pseries: Whitelist dtl slub object for copying to userspace
+a1216e62d039bf63a539bbe718536ec789a853dd powerpc/eeh: avoid possible crash when edev->pdev changes
+3285d8f0a2ede604c368155c9c0921e16d41f70a firmware: sysfb: Fix reference count of sysfb parent device
+21a741eb75f80397e5f7d3739e24d7d75e619011 powerpc/pseries: Fix scv instruction crash with kexec
+80bec6825b19d95ccdfd3393cf8ec15ff2a749b4 drm/nouveau: fix null pointer dereference in nouveau_connector_get_modes
+f72383371e8c5d1d108532d7e395ff2c277233e5 drm/i915/display: For MTL+ platforms skip mg dp programming
+26746ed40bb0e4ebe2b2bd61c04eaaa54e263c14 drm: panel-orientation-quirks: Add quirk for Valve Galileo
+704c1bef3aa44f82500cab27267ce338e188a340 drm: panel-orientation-quirks: Add labels for both Valve Steam Deck revisions
+4c6abb7f7b349f00c0f7ed5045bf67759c012892 KVM: s390: fix LPSWEY handling
+7c5d838d70902f017bc9b272b494994654b0c2bd documentation: Fix riscv cmodx example
+6b8487cdf9fc7bae707519ac5b5daeca18d1e85b drm/amd/display: Reset freesync config before update new state
+74ad26b36d303ac233eccadc5c3a8d7ee4709f31 drm/amd/display: Add refresh rate range check
+074b3a886713f69d98d30bb348b1e4cb3ce52b22 drm/amd/display: Account for cursor prefetch BW in DML1 mode support
+9ef1548aeaa8858e7aee2152bf95cc71cdcd6dff drm/amd/display: Fix refresh rate range for some panel
+7ae37db29a8bc4d3d116a409308dd98fc3a0b1b3 drm/amd/display: Update efficiency bandwidth for dcn351
+0ad4b4a2f6357c45fbe444ead1a929a0b4017d03 drm/amd/display: Fix array-index-out-of-bounds in dml2/FCLKChangeSupport
+6fb15dcbcf4f212930350eaee174bb60ed40a536 drm/radeon: check bo_va->bo is non-NULL before using it
+3645ffaf2b334abaf5f53e5ca0f47465d91e69d2 gpiolib: of: fix lookup quirk for MIPS Lantiq
+d0417264437a8fa05f894cabba5a26715b32d78e drm/amdgpu/atomfirmware: silence UBSAN warning
+08f70c0a930c00d25015fed7e3b7c5370d60be24 cifs: Fix read-performance regression by dropping readahead expansion
+1a9a71439cc1b270bf127c2f529aac7cf9cb21ab drm/panthor: Don't check the array stride on empty uobj arrays
+7b6f9ec6ad51125facadecf77dc6e62928186d2e drm/panthor: Fix sync-only jobs
+740b8dad05bee39e1e3b926f05bb4a8274b8ba49 drm/fbdev-generic: Fix framebuffer on big endian devices
+f07798d7bb9c46d17d80103fb772fd2c75d47919 gpio: mmio: do not calculate bgpio_bits via "ngpios"
+a3f24e83d11d7ceb4743416c803332e9c5749298 drivers/perf: riscv: Do not update the event data if uptodate
+7dd646cf745c34d31e7ed2a52265e9ca8308f58f drivers/perf: riscv: Reset the counter to hpmevent mapping while starting cpus
+16d3b1af0944cd0e4eae291ab0097c54ecbc1048 perf: RISC-V: Check standard event availability
+210ac17dedc9810d744ae52f8780278211a490aa Merge patch series "Assorted fixes in RISC-V PMU driver"
+3582ce0d7ccf2ee0eca66e5928e5550b8fc84e57 riscv: selftests: Fix vsetivli args for clang
+393da6cbb2ff89aadc47683a85269f913aa1c139 riscv: stacktrace: fix usage of ftrace_graph_ret_addr()
+c562ba719df570c986caf0941fea2449150bcbc4 riscv: kexec: Avoid deadlock in kexec crash path
+f63b94be6942ba82c55343e196bd09b53227618e i2c: pnx: Fix potential deadlock warning from del_timer_sync() call in isr
+d99fbd9aab624fc030934e21655389ab1765dc94 drm/ttm: Always take the bo delayed cleanup path for imported bos
+fc932f51926698488f874ddf7d8f18483ca10271 drm/xe: fix error handling in xe_migrate_update_pgtables
+1f006470284598060ca1307355352934400b37ca drm/xe/mcr: Avoid clobbering DSS steering
+4931c01bebd0635343da1d3d94c639cc111e4cb1 Merge tag 'drm-intel-fixes-2024-07-02' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+cfbce3bcb2e4aa767b51985672a5bb7aca9b06cf Merge tag 'drm-xe-fixes-2024-07-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+2879b482a91202e20841de2df249ca31500d4f96 Merge tag 'drm-misc-fixes-2024-07-04' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+25ee48a55fd59c72e0bd46dd9160c2d406b5a497 tpm: Address !chip->auth in tpm2_*_auth_session()
+a61809a33239821d70eba77bd0d6d13c29bbad0d tpm: Address !chip->auth in tpm_buf_append_name()
+7ca110f2679b7d1f3ac1afc90e6ffbf0af3edf0d tpm: Address !chip->auth in tpm_buf_append_hmac_session*()
+8ad209fc6448e1d7fff7525a8d40d2fb549f72d1 Merge tag 'kvm-s390-master-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+f8d76c2c313c56d5cb894a243dff4550f048278d gpiolib: of: add polarity quirk for TSC2005
+3c6f5afd91cfacba9f43fd388f2d88c85195ae32 Merge tag 'amd-drm-fixes-6.10-2024-07-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+b46803320c6ee2251de72d68f576a41aadbba17d Merge tag 'i2c-host-fixes-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+75aa87ca486b95ffae678300722022f01d33b7ca Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+5cc467117e61272c522f5922b04dd984deb2411f Merge tag 'tpmdd-next-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+968460731f95be9977bc59a513acbc5afc71117d Merge tag 'gpio-fixes-for-v6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+dd9d7390b2de008448eb3328d4a0504c76c74572 Merge tag 'drm-fixes-2024-07-05' of https://gitlab.freedesktop.org/drm/kernel
+b673f2bda0c9d306e330a236c87706d8de18107a Merge tag 'riscv-for-linus-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+d270dd21bee023ab627f34cfb77a9b89a688492a Merge tag 'pci-v6.10-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+1dd28064d4164a4dc9096fd1a7990d2de15f2bb6 Merge tag 'integrity-v6.10-fix' of ssh://ra.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+8b7f59de92ac65aa21c7d779274dbfa577ae2d2c selftests/powerpc: Fix build with USERCFLAGS set
+22f902dfc51eb3602ff9b505ac3980f6ff77b1df Merge tag 'i2c-for-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+256fdd4b71f6e1b49a94f2e44cc2d113bc3f5d62 Merge tag '6.10-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+a5d43e6d87c0d5866dfd58639e611eb1cb2b281d LoongArch: Define __ARCH_WANT_NEW_STAT in unistd.h
+b3ba3c29fb9eaa2c04289436f262d6cd5528f3c8 LoongArch: Always enumerate MADT and setup logical-physical CPU mapping
+b51ee71c1685ffed4d58fdf40177c2e71a93724b LoongArch: Add irq_work support via self IPIs
+05e6364f82561d737b8ff2e333529a2d919c36ef LoongArch: Add ARCH_HAS_PTE_DEVMAP support
+0caafacc53fa02d34568e6449efcd3f14bf8dd6d LoongArch: Add ARCH_HAS_DEBUG_VM_PGTABLE support
+f51a0d0796ba5ff1dcceb0dddc56f7193e533a19 LoongArch: Add writecombine support for DMW-based ioremap()
+b53b8a718629d5d7917a27d5f9b9417ef1a8e452 LoongArch: Add architectural preparation for CPUFreq
+a7ce74cd50c4fa4c7f53ebc1dfab733004554416 LoongArch: Add ACPI standard hardware register based S3 support
+633c9d6c24e6534e9807db8ba6a68557e4683e9b LoongArch: Automatically disable KASLR for hibernation
+22c8b7e9468f0baa222f7eefd7a8f454f40b7260 LoongArch: Use correct API to map cmdline in relocate_kernel()
+5911d5a06b19f50671e27b5ec6d309892f5eac45 LoongArch: Remove a redundant checking in relocator
+4bd0692d919ce093f970a7dee18906f84673818e LoongArch: Add support for relocating the kernel with RELR relocation
+728545b2ebcaa9dc793d92224ad8fa6277249daf LoongArch: Use rustc option -Zdirect-access-external-data
+c1403d805ad377a757a0617260f18ee99fb5b3ff LoongArch: Make the users of larch_insn_gen_break() constant
 
---===============2171616749030408062==--
+--===============9125264887794610113==--
