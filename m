@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7399563390948188615=="
+Content-Type: multipart/mixed; boundary="===============6941316051752052489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 07 Jul 2024 20:47:07 -0000
-Message-Id: <172038522798.27747.8275912469290408836@gitolite.kernel.org>
+Date: Sun, 07 Jul 2024 20:47:28 -0000
+Message-Id: <172038524827.27978.1728749650685769728@gitolite.kernel.org>
 
---===============7399563390948188615==
+--===============6941316051752052489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: cf5ae3c7d48e1e459e5ec699c9a2fdc17650a330
     new: bb3bd6a6663c66445855e38b1f849505804ad50f
     log: revlist-cf5ae3c7d48e-bb3bd6a6663c.txt
 
---===============7399563390948188615==
+--===============6941316051752052489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -263,4 +263,4 @@ dae02b6016f17b7392d1e0ff3ad10d5b9afda0d6 KEYS: trusted: add missing MODULE_DESCR
 9d300ec16267870d8519657ed0e23373eeb35879 char: tpm: Fix possible memory leak in tpm_bios_measurements_open()
 bb3bd6a6663c66445855e38b1f849505804ad50f tpm_tis_spi: add missing attpm20p SPI device ID entry
 
---===============7399563390948188615==--
+--===============6941316051752052489==--
