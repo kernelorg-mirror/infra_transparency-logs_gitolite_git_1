@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4670402885342407123=="
+Content-Type: multipart/mixed; boundary="===============5258875748980167212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 08 Jul 2024 22:48:37 -0000
-Message-Id: <172047891761.11414.15668028512676566616@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 22:48:40 -0000
+Message-Id: <172047892022.11481.4639119162309166639@gitolite.kernel.org>
 
---===============4670402885342407123==
+--===============5258875748980167212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: dfa1133957dc0af16402f8518c6992e328283fad
-    new: ee1691d0ae103ba7fd9439800ef454674fadad27
-    log: revlist-dfa1133957dc-ee1691d0ae10.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: f63b94be6942ba82c55343e196bd09b53227618e
+    new: 256abd8e550ce977b728be79a74e1729438b4948
+    log: revlist-f63b94be6942-256abd8e550c.txt
 
---===============4670402885342407123==
+--===============5258875748980167212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1720478916 +0200
+pusher andi.shyti@kernel.org 1720478919 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1720478915-2bdb8de6136cc4d9185513b208718fc4f97017c1
+nonce 1720478919-b5c9c9b7d67a7dd4d66acaf3047b7fc24b495703
 
-dfa1133957dc0af16402f8518c6992e328283fad ee1691d0ae103ba7fd9439800ef454674fadad27 refs/heads/i2c/i2c-host
+f63b94be6942ba82c55343e196bd09b53227618e 256abd8e550ce977b728be79a74e1729438b4948 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZoxsxBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uxq0BAPbzGKHH2GtIixyXpOwKasC4el6b
-EWaDdzCdzZ7NJkLnAQCOQQu+brVc/x/Udxq3nxv0P+oyVzbMQS1tJ3m54JakDQ==
-=if2t
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZoxsxxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uyrYBAJvFmfHlKnPZBzMJ6DVaGqJt3KWu
+OS9pjIbJ62gqN6gZAPoCpQgb9w8GWD76seqajoN+HAE8Z44wa+W9zEgCphy1Bw==
+=OHVu
 -----END PGP SIGNATURE-----
 
---===============4670402885342407123==
+--===============5258875748980167212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfa1133957dc-ee1691d0ae10.txt
+Content-Disposition: attachment; filename=revlist-f63b94be6942-256abd8e550c.txt
 
 07aa33988ad92fef79056f5ec30b9a0e4364b616 mac802154: fix time calculation in ieee802154_configure_durations()
 3a1b777eb9fb75d09c45ae5dd1d007eddcbebf1f mtd: rawnand: Ensure ECC configuration is propagated to upper layers
@@ -226,7 +226,6 @@ a3f24e83d11d7ceb4743416c803332e9c5749298 drivers/perf: riscv: Do not update the 
 c562ba719df570c986caf0941fea2449150bcbc4 riscv: kexec: Avoid deadlock in kexec crash path
 4ecaf7e98a3ae0c843d67c76649ecc694232834b tracing: Have memmapped ring buffer use ioctl of "R" range 0x20-2F
 795c58e4c7fc6163d8fb9f2baa86cfe898fa4b19 Merge tag 'trace-v6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-f63b94be6942ba82c55343e196bd09b53227618e i2c: pnx: Fix potential deadlock warning from del_timer_sync() call in isr
 9f6958ba2e902f9820c594869bd710ba74b7c4c0 netfilter: nf_tables: unconditionally flush pending work before notifier
 da0386c1c70da1a01b5fa8ec503b96116bc8734c btrfs: fix folio refcount in btrfs_do_encoded_write()
 a56c85fa2d59ab0780514741550edf87989a66e9 btrfs: fix folio refcount in __alloc_dummy_extent_buffer()
@@ -280,16 +279,5 @@ d270dd21bee023ab627f34cfb77a9b89a688492a Merge tag 'pci-v6.10-fixes-2' of git://
 c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
-f0eda4ddb2146a9f29d31b54c396f741bd0c82f1 i2c: i801: Add support for Intel Arrow Lake-H
-69ab71bdd3006a98e13048bcb698004866225dc4 i2c: add missing MODULE_DESCRIPTION() macros
-2cb21a62bacc53587095b2050e92ce3e7a3574d7 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
-7da7fd7e66ac9b0d4287aefba516795145f3c722 i2c: omap: wakeup the controller during suspend() callback
-b239c3f4a1e91ae9bb4e61cddb64d3839b7e2f97 dt-bindings: i2c: atmel,at91sam: drop unneeded address/size-cells
-738799b0fddb1175be25ad1c1363ee8ffefbcfb0 dt-bindings: i2c: nvidia,tegra20: drop unneeded address/size-cells
-502ebea6542524c3d80c1e2273709c92af0699fb dt-bindings: i2c: samsung,s3c2410: drop unneeded address/size-cells
-a95ab3d2ee4c60ec980dbad3965d43b6226ece01 dt-bindings: i2c: ti,omap4: reference i2c-controller.yaml schema
-2362c730026dde1c50081ff2170656df14d7135b dt-bindings: i2c: adjust indentation in DTS example to coding style
-d5adffc46fde8338ec9264175e789716dc39194a dt-bindings: i2c: nxp,lpc1788-i2c: convert to dt schema
-ee1691d0ae103ba7fd9439800ef454674fadad27 i2c: xiic: improve error message when transfer fails to start
 
---===============4670402885342407123==--
+--===============5258875748980167212==--
