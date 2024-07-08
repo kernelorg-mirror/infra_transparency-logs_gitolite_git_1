@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 08 Jul 2024 14:42:13 -0000
-Message-Id: <172044973398.3755.17703185776330382698@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7822792420258355708=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 08 Jul 2024 14:42:27 -0000
+Message-Id: <172044974774.3926.12571834295799126898@gitolite.kernel.org>
+
+--===============7822792420258355708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: d3f685937313292c45f046bd8a17d7bb1e75dd91
-    new: d5149ca474a52b51ce7293228e405363384820ea
-    log: |
-         e6a61fdf338ce6789452134350a51c0c587b5045 Fixes for 6.9
-         d4cd6c4223216859cfa45263426e978098e40b0d Fixes for 6.6
-         df5ff50d9b82f2a1840359e1104e332b901e799f Fixes for 6.1
-         950b8c82208c7b0f273fca17f18c1364f919e8ec Fixes for 5.15
-         57c7029f065cd32c8008c3c0cce51ca397cc37b6 Fixes for 5.10
-         2b386c5c82bfb9d7b2a141f5a19dfe3cc9512bda Fixes for 5.4
-         d5149ca474a52b51ce7293228e405363384820ea Fixes for 4.19
-         
+    old: 176cf2e12a289f9f94666e188c79fa6cc1ff249b
+    new: 804696dee79515e2001ec445ae218d7b42887c37
+    log: revlist-176cf2e12a28-804696dee795.txt
+
+--===============7822792420258355708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-176cf2e12a28-804696dee795.txt
+
+2433842ea33bcb80a9c157cbac472efedae8c8d4 shared/shell: Fix fd leak if -s is passed multiple times
+8de21f74c5f309bdb3872293db23b5a0f20ae163 btsnoop: Fix possible negative memcpy length
+0de4b9f71eb9e01ee972755cf3444592706356c7 sdp: Fix possible null dereference
+0b52ecca60ea2002a3b3236f32543210e92c0e95 sdp: Fix mismatched int casting
+1d73dc6a1a9a7a83dc77e547b0d639cea8b2d903 emulator: Fix integer truncation warnings
+249d2120bd904c5f6db2138a3412822c9ded1dfb mesh: Fix integer overflow due to cast operation
+9b346513cc35c83da332c4b6ebd65b4674178a26 tools/mesh: Fix integer overflow due to cast operation
+c44a2a233d1b1873a7d4a9085c8d6bd61835bfac unit/ringbuf: Fix ineffective guard due to signedness
+0fda2dd545fc0c2d879db729ab3be22e88be7072 obexd: add NULL checks to file_stat_line()
+85d98aecd6a9504cb51a4bd4f8b37cc11a0057f8 shared/shell: prevent integer overflow in bt_shell_init()
+c389209ce4554fd8fdd3ca99ea6f73435a056c57 tools/isotest: limit the maximum possible data_size
+8e495f00cded86496ad5c32e7a3cf902a8bdbe82 tools/rctest: limit the maximum possible data_size
+804696dee79515e2001ec445ae218d7b42887c37 settings: add NULL checks to gatt_db_load()
+
+--===============7822792420258355708==--
