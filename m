@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 08 Jul 2024 14:39:59 -0000
-Message-Id: <172044959977.885.6285982902195598196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 08 Jul 2024 14:40:04 -0000
+Message-Id: <172044960419.2652.17782390839035265210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/v6.11-rockchip-dts64-2
-    old: 0000000000000000000000000000000000000000
-    new: d69f1aed2b072c038dbcb0283ada8af7e22f2cf0
+  - ref: refs/heads/master
+    old: bc239eb271e5f35fcade689c6782c962ef3704c8
+    new: 02480fe8a6a6d44c16900b1d3a2a66d140d0a005
+    log: |
+         7ba4f43e16de351fe9821de80e15d88c884b2967 s390/bpf: Change seen_reg to a mask
+         fa7bd4b000a7ae32eb6fc049125943561e5b46f3 s390/bpf: Implement exceptions
+         02480fe8a6a6d44c16900b1d3a2a66d140d0a005 selftests/bpf: Remove exceptions tests from DENYLIST.s390x
+         
