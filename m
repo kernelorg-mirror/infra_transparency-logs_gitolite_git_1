@@ -1,60 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============0725176118021264566=="
+Content-Type: multipart/mixed; boundary="===============7176491064439015194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 08 Jul 2024 16:46:10 -0000
-Message-Id: <172045717058.3121.2760508253238007755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 08 Jul 2024 16:56:13 -0000
+Message-Id: <172045777386.10036.9375086986241289741@gitolite.kernel.org>
 
---===============0725176118021264566==
+--===============7176491064439015194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1b431ba4ef9a760e7643d6fbc53bf522d59650f3
-    new: b3603133d3b727b0b07a7094ab74cf27c8aee3bd
-    log: |
-         34ce9c8b8ada0c03ea8f2a99fcc7a1b297ccaa95 wifi: nl80211: split helper function from nl80211_put_iface_combinations
-         574e609c4e6a0843a9ed53de79e00da8fb3e7437 wifi: mac80211: clear vif drv_priv after remove_interface when stopping
-         b5d14b0c6716fad7f0c94ac6e1d6f60a49f985c7 wifi: virt_wifi: avoid reporting connection success with wrong SSID
-         7cd445635562a38c1e3534e3e691c25d2737be54 wifi: mac80211: cancel color change finalize work when link is stopped
-         4044b23781104801f70c4a4ec3ca090730a161c5 wifi: mac80211: do not check BSS color collision in certain cases
-         b3603133d3b727b0b07a7094ab74cf27c8aee3bd wifi: mac80211_hwsim: fix warning
-         
+  - ref: refs/heads/for-6.11
+    old: 1cc509edbe23b61e8c245611bd15d88edb635a38
+    new: 0c6c65111ed3b662e179e1ab35a0a6e6b362560a
+    log: revlist-1cc509edbe23-0c6c65111ed3.txt
 
---===============0725176118021264566==
+--===============7176491064439015194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1720457147 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1720457147-5ce141e093ec772f0c227d043e202030b1a6dc32
+pusher C3F436CA30F5D8EB 1720457772 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1720457771-cb34e9fbc13de7a66953a25c33f387ead5d593ea
 
-1b431ba4ef9a760e7643d6fbc53bf522d59650f3 b3603133d3b727b0b07a7094ab74cf27c8aee3bd refs/heads/main
+1cc509edbe23b61e8c245611bd15d88edb635a38 0c6c65111ed3b662e179e1ab35a0a6e6b362560a refs/heads/for-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmaMF7sACgkQ10qiO8sP
-aACfdhAAo27gZDHpz/QXdbEg1XhrXOA5tASoqlDiV96xAhEGkwrfhHtgd6II4gzX
-kjUVvXEHt7e3AmnCK3AvHzNxzzzABhM+pzeZZxSlhu3K4Wh/eVLhtEGl1Gg0bAPx
-lwIqwGnIEEf34zxjCfk/XjLAeKqKbSWhyBl3EcRaQpvdOIEJkZjXdc634uLu9hhN
-SfSjXoTTtj/Q6o/abfjbH/dJfb5mgbRPxhNrV8nypywf7wtZRVS/jye7qle9Ax1P
-V+lVpRPOOl7ap5ffYURWNWX0nTSlg8uM3+zV0Trz2pNYf1VeLmozXWXwqaLKFGhD
-YU4aCPwowi9szFwGJs0n7zrMc/ain5dbHLSk37fL6M+HDEWzRiVwhJTWUeEG5z8W
-PXXz9hvJK6zBDaiE90Q86Co1P/3OtC95Fy1TMDbybhyrdgRXouWpFvDIvVKtKM4x
-OT18Rzc2yAm5yR9BekPlIaoplDqz37bqtH/xitS65sBRk5Dsnx6hn25YVArgxXKS
-1cQVXvbAvajh6yscekjYGRz6h87lS1FI4XVMBxKDGgbW3XomiWstoTQXWcDG5Lda
-E3mg1CdRyjMWeABbhv5Uq3E461VpjPq6J+jTUwQ20qY2a5vsSdkN5fSFFbtRrnqb
-xDhbXtQinH+AzvXVSTDJRddXUlHdhV0i2l+CzPsAv16rNr8y9NU=
-=JpW0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaMGiwACgkQJNaLcl1U
+h9DbMAf/ZkC3MjpxlVsYEKuEgMBy6xk3wIHlz3Rtu4UccLrCHETJv3a7AWOITw0N
++aR4Fr/gnCt1P07F9OOHyevXIq+xvC2bvM9E12eeJ+645Hvo7mmBZmLAssFnGmJ/
+eV+EKDZgOd0Gf7GcHEriOMg+euMqr5Bmc+LhJGoebcWm7R/XKwuSm/nGPMBmc585
+9A9Xc4mCtRkn4b9vNgRBeTNf99XKY3PEGnW+rvni5SCzBNm11jMnaZvilvVzMaJy
+xj3jWeUCjrjj2jLGd/QHi89wFKpKQ48Zw1hBob6o6jOcopllhRCwrYAOfbZZTXyz
+lKviw2x+oKkoT72wHS9zmrM8TbaObQ==
+=66De
 -----END PGP SIGNATURE-----
 
---===============0725176118021264566==--
+--===============7176491064439015194==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1cc509edbe23-0c6c65111ed3.txt
+
+408e49381750ca22fc584a37636f5035d2cd4c25 ASoC: codecs: audio-iio-aux: Simplify audio_iio_aux_add_dapms() with cleanup.h
+f9cbfb66127bfc2a47dece3dfcdab2b79ab06c50 ASoC: codecs: audio-iio-aux: Simplify audio_iio_aux_probe() with cleanup.h
+6344ab5d0826640799e0c054ed4c0846b3f87ccb ASoC: codecs: wcd9335: Simplify with cleanup.h
+56d426f5525d1ad919e20663ad01a58238652df7 ASoC: codecs: wcd934x: Simplify with cleanup.h
+6440e7b2a058c50a05ebcc58f35693c50522fc1a ASoC: simple-card-utils: Simplify with cleanup.h
+5725c16af2678d334de0bcb85b42cfa50b32e04c ASoC: audio-graph-card: Use cleanup.h instead of devm_kfree()
+b39f7713ece62b2b0a3cfad7a75a0eb0ab71aa4e ASoC: audio-graph-card2: Use cleanup.h instead of devm_kfree()
+7d996c8a5fea700e816379e57f4983e2611519a0 ASoC: simple-card: Use cleanup.h instead of devm_kfree()
+1a7b846818210cbdf8994bfee1340c09342a5b3b ASoC: ops: Simplify with cleanup.h
+5b3cc85673bcc7bb961a3a6fa229cbc4fe0441ac ASoC: dapm: Simplify dapm_cnew_widget() with cleanup.h
+522133d4401010d936b0588a5a975c2c965cb88e ASoC: dapm: Simplify snd_soc_dai_link_event_pre_pmu() with cleanup.h
+0c6c65111ed3b662e179e1ab35a0a6e6b362560a ASoC: Simplify code with cleanup.h
+
+--===============7176491064439015194==--
