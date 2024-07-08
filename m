@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3184971083242797340=="
+Content-Type: multipart/mixed; boundary="===============7566734403925270380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Jul 2024 15:56:25 -0000
-Message-Id: <172045418553.29177.17597121626828007728@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 15:56:33 -0000
+Message-Id: <172045419347.29305.6111678956102482867@gitolite.kernel.org>
 
---===============3184971083242797340==
+--===============7566734403925270380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d051d5283b530af3f9627c8e600aa581bc6c1958
-    new: 529314adcbceca0e0ec72b3ea94fe4a54ae61ca6
-    log: revlist-d051d5283b53-529314adcbce.txt
+  - ref: refs/heads/1GbE
+    old: cda91d5b911a5a168a1c6e6917afda43b0e458c8
+    new: 5483cbfd863f01126c08703898a9e71d991a9bfe
+    log: revlist-cda91d5b911a-5483cbfd863f.txt
 
---===============3184971083242797340==
+--===============7566734403925270380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d051d5283b53-529314adcbce.txt
+Content-Disposition: attachment; filename=revlist-cda91d5b911a-5483cbfd863f.txt
 
 07aa33988ad92fef79056f5ec30b9a0e4364b616 mac802154: fix time calculation in ieee802154_configure_durations()
 3a1b777eb9fb75d09c45ae5dd1d007eddcbebf1f mtd: rawnand: Ensure ECC configuration is propagated to upper layers
@@ -441,89 +441,5 @@ a87e699c9d3315f2253626c8c66e75dec1e551b7 net: pse-pd: pd692x0: Enhance with new 
 2f5e6395714d0ee53c150da38b25975fe37755c2 Merge branch 'net-pse-pd-add-new-pse-c33-features'
 3abbd7ed8b768ff37798e81910b47c2e05156d49 act_ct: prepare for stolen verdict coming from conntrack and nat engine
 5483cbfd863f01126c08703898a9e71d991a9bfe net: dsa: microchip: lan9371/2: update MAC capabilities for port 4
-a31ab936b71a9a67bbe01396d9035c2273ec9894 ice: Add a per-VF limit on number of FDIR filters
-78357adb9d9fa87b45430189451ca1608b02a4d4 ice: add parser create and destroy skeleton
-711765a194cb066425826831245de6fc3ceea365 ice: parse and init various DDP parser sections
-8fd54ce7ac9f4305a5514efaea3c043ba5254f4f ice: add debugging functions for the parser sections
-278779374b0d9324680720a5aa55f4c8c2feb53b ice: add parser internal helper functions
-f3dc0d759db1d0789f5fe47b032a788ef9d34af1 ice: add parser execution main loop
-9a5af19cbcb7bc727c2a4d685ca18747f4256552 ice: support turning on/off the parser's double vlan mode
-ef483f21b982d5e98111fc7944a444b3b58027a5 ice: add UDP tunnels support to the parser
-fd25420419c1576bfab36c45b725850d51fa1fce ice: add API for parser profile initialization
-f377b2c5fefd332b3b105240d840ef8d7beb447d virtchnl: support raw packet in protocol header
-c2c98acb5973ebfc0e24933139f2174c16d943f1 ice: add method to disable FDIR SWAP option
-65efd09eb39cd851b96929335342da0bb40338c4 ice: enable FDIR filters from raw binary patterns for VFs
-4d9f1c16776e7f2fee050acb56ace98640eb64d7 iavf: refactor add/del FDIR filters
-a46767bc0c42011e0c4c121a46e499b2076abad9 iavf: add support for offloading tc U32 cls filters
-d197e91633cd316503fc454bc1f75dc666ce1d06 net: docs: add missing features that can have stats
-cf90136fb804e82b95442918fe9e4820fc3bb493 ice: implement ethtool standard stats
-fd56c048cd053c53b7d1b676bd7f86f673392830 ice: add tracking of good transmit timestamps
-fa39a2cfc59a2e02c96f23d7da3353a83e1b3727 ice: implement transmit hardware timestamp statistics
-2828cfce3f374b72fdb0301355f84f986d9e6960 ice: refactor to use helpers
-18500c9941fb13dca3497cf3f8619e45a561da3a ice: Add support for devlink local_forwarding param.
-5f8439f2bcbc6ec986d9c9abbe92423980b2e907 ice: add new VSI type for subfunctions
-de3668a71212205c1eba877957e5378464e76516 ice: export ice ndo_ops functions
-cf211df26593308dcf54dbf580d2cce753c20ea1 ice: add basic devlink subfunctions support
-e2c35a0129dbb9e09722bf6895eea1a1c1127562 ice: treat subfunction VSI the same as PF VSI
-cdb2683bad59d7c34d7e993de0ffda524605c894 ice: allocate devlink for subfunction
-aa65be0733746e4ccadc2468bf14199caad32f82 ice: base subfunction aux driver
-a7e498bbf1f094d415483efdfcd53622a06754ee ice: implement netdev for subfunction
-a63042accba2c3e106574d85c1463c9196272a83 ice: make representor code generic
-d56db57df1a3cca2c9d7cb32fa9ce8b3dd3d7458 ice: create port representor for SF
-73ddf6eb908235926a878a743c4a13f5c7af102a ice: don't set target VSI for subfunction
-ef7a253b39155e04acd8dc3ac56b3b31a2a6bf19 ice: check if SF is ready in ethtool ops
-56cc3850dab499e4786376772eb5571c7edb3419 ice: implement netdevice ops for SF representor
-fb7f2d4bfe79b8ab8b9c4804861da2ec26351041 ice: support subfunction devlink Tx topology
-fc3ac275233ae148efd62b500478137ceff20a74 ice: basic support for VLAN in subfunctions
-fae41a2a63d663043cc9dc57f3afdff87e9cb7f3 ice: allow to activate and deactivate subfunction
-dab9ba452a146eb220dd92de31d6314fa07746ef igc: Remove the internal 'eee_advert' field
-68eb002addecc1c6ff04aa01b8e175ab86d52be7 ice: Extend Sideband Queue command to support flags
-0658a6a4721b973ec77f79c481b04f6461084c80 ice: Implement driver functionality to dump fec statistics
-2ad64826fec616f6a69a98ac14bb2dc9978500fc ice: Implement driver functionality to dump serdes equalizer values
-ba2c48e4af1830744136d2ef627884310bfe0acd cache: add __cacheline_group_{begin, end}_aligned() (+ couple more)
-9e739bfe3db03e16d04cc30d93baf491f730ab0d page_pool: use __cacheline_group_{begin, end}_aligned()
-d1cfa1554f0447f7623c95782b2c3d7044a69b85 libeth: add cacheline / struct layout assertion helpers
-8ac9b10d7cd1a20eeaa281ea4300a294f6fadc40 idpf: stop using macros for accessing queue descriptors
-ab87eff759d70bed11be3bc9a2fd2a98b5d8e498 idpf: split &idpf_queue into 4 strictly-typed queue structures
-1ed130f0ed651a74f0e95d9a5559cb3b82ea13a0 idpf: avoid bloating &idpf_q_vector with big %NR_CPUS
-8a19899a6895c5fc266a200b13c46b263146f981 idpf: strictly assert cachelines of queue and queue vector structures
-fac207f0d080abc5c9f671ac3d07de1251a62290 idpf: merge singleq and splitq &net_device_ops
-ad26c0649d580019ef76817c7b6cb6c0ff2e64d0 idpf: compile singleq code only under default-n CONFIG_IDPF_SINGLEQ
-054d9553aa48a882170bf30c213385f5ff513bea idpf: reuse libeth's definitions of parsed ptype structures
-a980d3d40df5c5fc7b75080ae08cd253ff58b059 idpf: remove legacy Page Pool Ethtool stats
-68403d769f3d85969d744f1094dfc35ed3b3ebc4 libeth: support different types of buffers for Rx
-013908738c4212b5466340b4531670174a7a5a15 idpf: convert header split mode to libeth + napi_build_skb()
-6c1149b3241782d6d3306271a728ded44e93e638 idpf: use libeth Rx buffer management for payload buffer
-0b9bcbed79f1f51276b8e39307b6c8abaf524452 i40e: Fix XDP program unloading while removing the driver
-27ec78aaf5349b35c483157c6690737ddd558da9 igc: Fix double reset adapter triggered from a single taprio cmd
-75dcfc6786f34767ed47d82b5585b2e175582ef6 igc: Get rid of spurious interrupts
-69e15e60723310169731f4016edeb55234d74a42 igc: Add MQPRIO offload support
-ff6083a6293083eb6bec22318e5e648436b8717c ice: remove eswitch rebuild
-4e00b6450f1a6e4e5a93c0615cc9ec292ca05dfd e1000e: fix force smbus during suspend flow
-4ff23043c8efb02c7e9b88749b51ae8eea64cbf0 ice: Fix lldp packets dropping after changing the number of channels
-885c92ebe2c9d1b8170721e217eaa285ab9f3b65 ice: respect netif readiness in AF_XDP ZC related ndo's
-83c9d564b6f97569e62fd8a6a7714f9904c8689c ice: don't busy wait for Rx queue disable in ice_qp_dis()
-8e4428ad2fbb86d054dc01210b5a74d61e1d79dc ice: replace synchronize_rcu with synchronize_net
-418d1974fa3c248cc189f6a693dc0625bc5ce5ea ice: modify error handling when setting XSK pool in ndo_bpf
-7eed91e543da937ce34a08a26aa4e71a42e8088f ice: toggle netif_carrier when setting up XSK pool
-a5e4b8ca6753116dd24625473f460fcddb61581b ice: improve updating ice_{t, r}x_ring::xsk_pool
-2f83c029c060466ab2fe58883e4dc08e223f3b66 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
-bbbf45db145e73db99397dff5fb08bf0b9187f36 ice: xsk: fix txq interrupt mapping
-652b39b2673732ba1d6a69010fc0ba634b2eaed7 ice: Fix recipe read procedure
-ad17a64f10ca55f840b7df99c1684379a52b6216 ice: Remove unused struct ice_prot_lkup_ext members
-e09740fa296178be6b24033270e1bff06bdad3ff ice: Remove reading all recipes before adding a new one
-0f846f4cc50df40249b8cb78f999d7a1c9234688 ice: Simplify bitmap setting in adding recipe
-4702d0b543ebf424e1bfcd8f46ec72c57b683a4f ice: remove unused recipe bookkeeping data
-eb04761a106cde57c699e70f52b233de64d73b50 ice: Optimize switch recipe creation
-614090b011c8ab2bd2f78c1eb86139795b2be06f ice: Remove unused members from switch API
-0f9df54bc7e3ab6f7a650647eb8183738c4446d4 ice: Add tracepoint for adding and removing switch rules
-28218c4a3cb2bb4e9be0f85572818441b1d47234 ice: Introduce ice_get_phy_model() wrapper
-7fc8c7ab38db28b42b5a7766af4d87232963765a ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
-e441c37f4a403774d9ee0e52ece9dc434a5479c7 ice: Use ice_adapter for PTP shared data instead of auxdev
-700a7f0930188da6f7262551a54d1a79d1cd3802 ice: Drop auxbus use for PTP to finalize ice_adapter move
-283ceeae7ce480d912a897cf2d33a43e79327b8e ice: Implement ice_ptp_pin_desc
-d9698f521883d13c94fc27fab240fed748c38ade ice: Add SDPs support for E825C
-0de31f5f88f1653f86bdc4d4ddd9160c53405b47 ice: Align E810T GPIO to other products
-529314adcbceca0e0ec72b3ea94fe4a54ae61ca6 ice: Cache perout/extts requests and check flags
 
---===============3184971083242797340==--
+--===============7566734403925270380==--
