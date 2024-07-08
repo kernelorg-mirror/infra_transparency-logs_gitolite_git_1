@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 08 Jul 2024 06:41:23 -0000
-Message-Id: <172042088320.20806.1412362660028194779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 08 Jul 2024 06:52:17 -0000
+Message-Id: <172042153737.27906.12268360854897257214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next
-    old: 346d2fc606a85a728a02cb26ff8304f80b114b2d
-    new: af48f95492dc1af36d9636a750ec492035c0ed7d
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 238d5a2c691af160ca9c21e204a24c585ad2fcb0
+    new: 0f5a2b9e17220084e1185f65496ea62d4c9b799d
     log: |
-         1b8ca05469315ef7636f898ff83890c39e3deeb8 RDMA/qib: Fix truncation compilation warnings in qib_init.c
-         f802078d3cb882b9be555fd903040388e29eae87 RDMA/qib: Fix truncation compilation warnings in qib_verbs.c
-         af48f95492dc1af36d9636a750ec492035c0ed7d RDMA/core: Introduce "name_assign_type" for an IB device
+         0f5a2b9e17220084e1185f65496ea62d4c9b799d cpufreq: mediatek: Use dev_err_probe in every error path in probe
          
