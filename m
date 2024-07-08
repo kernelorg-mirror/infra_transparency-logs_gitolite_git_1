@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 08 Jul 2024 18:30:54 -0000
-Message-Id: <172046345427.15124.16387331567104113038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 08 Jul 2024 18:54:35 -0000
+Message-Id: <172046487533.31211.11897230942884500996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 0c6c65111ed3b662e179e1ab35a0a6e6b362560a
-    new: 54e49a3c9d093c6b5c4ee541b9dea9e1a901fa77
+  - ref: refs/heads/master
+    old: d2466f5ae2b4541ec6d231e1cb5f00e86ec51195
+    new: 2515fae57d88e0f4e916e66e358912b9f98914dd
     log: |
-         a613b63db233b6e7d46ec72f009c1cbb7db8be66 ASoC: fsl-asoc-card: add support for dai links with multiple codecs
-         c68fa0d9b0f8cc7c3ae7d29c02adbc97622a73f5 ASoC: fsl-asoc-card: add second dai link component for codecs
-         fcc6ace84f1f6ce2211af25c3c8fb30a0fb2bb2c ASoC: fsl-asoc-card: add compatibility to use 2 codecs in dai-links
-         6d174cc4f22461ad3fe383570527e86bf1948a2e ASoC: fsl-asoc-card: merge spdif support from imx-spdif.c
-         4359caadd17fbde64d656c10bd6f2dc91b675a11 ASoC: dt-bindings: update fsl-asoc-card bindings after imx-spdif merge
-         54e49a3c9d093c6b5c4ee541b9dea9e1a901fa77 ASoC: fsl-asoc-card: add S/PDIF controller support
+         3e224d885b1de54fe5510b9c5e7296260a1a4507 bindings: cxx: tests: set direction when reconfiguring lines
+         2515fae57d88e0f4e916e66e358912b9f98914dd bindings: rust: tests: set direction when reconfiguring lines
          
