@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 08 Jul 2024 05:39:17 -0000
-Message-Id: <172041715759.7891.391658365400651604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 08 Jul 2024 06:41:23 -0000
+Message-Id: <172042088320.20806.1412362660028194779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/perf-tools
-    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    new: 7b2450bb40275802b73593331b0db2fc147ae2b7
+  - ref: refs/heads/for-next
+    old: 346d2fc606a85a728a02cb26ff8304f80b114b2d
+    new: af48f95492dc1af36d9636a750ec492035c0ed7d
     log: |
-         88076e4699ce490aabe89037190d4749ab346b29 perf comm str: Avoid sort during insert
-         7b2450bb40275802b73593331b0db2fc147ae2b7 perf dsos: When adding a dso into sorted dsos maintain the sort order
+         1b8ca05469315ef7636f898ff83890c39e3deeb8 RDMA/qib: Fix truncation compilation warnings in qib_init.c
+         f802078d3cb882b9be555fd903040388e29eae87 RDMA/qib: Fix truncation compilation warnings in qib_verbs.c
+         af48f95492dc1af36d9636a750ec492035c0ed7d RDMA/core: Introduce "name_assign_type" for an IB device
          
