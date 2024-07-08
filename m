@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1448459266090987215=="
+Content-Type: multipart/mixed; boundary="===============0086711726823596924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Jul 2024 15:36:25 -0000
-Message-Id: <172045298592.13324.13585383734106095532@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 15:36:51 -0000
+Message-Id: <172045301167.13859.17188973806791229693@gitolite.kernel.org>
 
---===============1448459266090987215==
+--===============0086711726823596924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 8eb301bd7b0f45d36e663ecbe59b7c80b9863950
+  - ref: refs/heads/100GbE
+    old: e5d4098a3e9331df16999d088608c38738bb8c32
     new: 83c36e7cfd74e41a5c145640dba581b38f12aa15
-    log: revlist-8eb301bd7b0f-83c36e7cfd74.txt
+    log: revlist-e5d4098a3e93-83c36e7cfd74.txt
 
---===============1448459266090987215==
+--===============0086711726823596924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8eb301bd7b0f-83c36e7cfd74.txt
+Content-Disposition: attachment; filename=revlist-e5d4098a3e93-83c36e7cfd74.txt
 
 3a1b777eb9fb75d09c45ae5dd1d007eddcbebf1f mtd: rawnand: Ensure ECC configuration is propagated to upper layers
 5da39530d19946f6241de84d1db69da2f5c61da7 mtd: rawnand: Fix the nand_read_data_op() early check
@@ -300,6 +300,9 @@ e527a6127223b644e0a27b44f4b16e16eb6c7f0a platform/x86: toshiba_acpi: Fix quickst
 655593a40efc577edc651f1d5c5dfde83367c477 afs: Convert comma to semicolon
 dbd8132aced4596ce8386af3041dfd310c8f42c8 Merge tag 'vfs-6.10-rc7.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e9d22f7a6655941fc8b2b942ed354ec780936b3e Merge tag 'linux_kselftest-fixes-6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+219343755eae6536d1fcb9184e6253ade4906aac net: phy: aquantia: add missing include guards
+e15a5d821e5192a3769d846079bc9aa380139baf net: ntb_netdev: Move ntb_netdev_rx_handler() to call netif_rx() from __netif_rx()
+8eb301bd7b0f45d36e663ecbe59b7c80b9863950 net: stmmac: enable HW-accelerated VLAN stripping for gmac4 only
 2ae157ec497d93c639a60e730e21ec9c66fa9a6e s390/vfio_ccw: Fix target addresses of TIC CCWs
 39ab8fff623053a50951b659e5f6b72343d7d78c wifi: wilc1000: fix ies_len type in connect path
 4ec17ce716bdaf680288ce680b4621b52483cc96 wifi: iwlwifi: properly set WIPHY_FLAG_SUPPORTS_EXT_KEK_KCK
@@ -351,4 +354,4 @@ d470e9f57d2f25a85a547701655672a48cd2a170 Merge tag 's390-6.10-8' of git://git.ke
 0ec986ed7bab6801faed1440e8839dcc710331ff tcp: fix incorrect undo caused by DSACK of TLP retransmit
 83c36e7cfd74e41a5c145640dba581b38f12aa15 docs: networking: devlink: capitalise length value
 
---===============1448459266090987215==--
+--===============0086711726823596924==--
