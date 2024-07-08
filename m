@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 08 Jul 2024 14:16:06 -0000
-Message-Id: <172044816613.14255.10582595111762434535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Mon, 08 Jul 2024 14:17:03 -0000
+Message-Id: <172044822389.14629.1313845291401627539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/qcom/dt-fixes
+  - ref: refs/heads/intel-tdx-userspace-mmio-v4.1
     old: 0000000000000000000000000000000000000000
-    new: af355e799b3dc3dd0ed8bf2143641af05d8cd3d4
+    new: c8422e9b16f89edd4a1c4c4a2a6a0c0713c7eff7
