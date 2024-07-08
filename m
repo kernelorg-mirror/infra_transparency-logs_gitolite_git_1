@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7848953449816841684=="
+Content-Type: multipart/mixed; boundary="===============3352710393616546036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Jul 2024 15:36:19 -0000
-Message-Id: <172045297934.13129.9644702268116847431@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 15:36:22 -0000
+Message-Id: <172045298245.13246.1690589547575454907@gitolite.kernel.org>
 
---===============7848953449816841684==
+--===============3352710393616546036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 8eb301bd7b0f45d36e663ecbe59b7c80b9863950
     new: 83c36e7cfd74e41a5c145640dba581b38f12aa15
     log: revlist-8eb301bd7b0f-83c36e7cfd74.txt
 
---===============7848953449816841684==
+--===============3352710393616546036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -351,4 +351,4 @@ d470e9f57d2f25a85a547701655672a48cd2a170 Merge tag 's390-6.10-8' of git://git.ke
 0ec986ed7bab6801faed1440e8839dcc710331ff tcp: fix incorrect undo caused by DSACK of TLP retransmit
 83c36e7cfd74e41a5c145640dba581b38f12aa15 docs: networking: devlink: capitalise length value
 
---===============7848953449816841684==--
+--===============3352710393616546036==--
