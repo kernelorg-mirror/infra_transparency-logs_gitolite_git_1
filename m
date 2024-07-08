@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
-Date: Mon, 08 Jul 2024 14:37:43 -0000
-Message-Id: <172044946311.32289.5968403469320761686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 08 Jul 2024 14:37:45 -0000
+Message-Id: <172044946529.32351.12386358350534571811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jmondi/linux
-user: jmondi
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/imx8mp/iob-gitlab/v6.9/extensible-format-v6+bls
+  - ref: refs/heads/mvebu/dt
     old: 0000000000000000000000000000000000000000
-    new: 360e44ff2e74395b492b91f6f54b285863cf9b17
+    new: 731daaa5093d5c93c3b46dfbe46970cc52e15335
