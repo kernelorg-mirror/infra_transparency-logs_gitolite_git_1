@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 08 Jul 2024 16:14:53 -0000
-Message-Id: <172045529365.10508.3380969740582019509@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 16:17:13 -0000
+Message-Id: <172045543370.13103.4874091513539197235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: 73adcb561600d84aa21e06486766ca0ce64fc5a6
-    new: 9fddbf081f2da3a20fecda0b58adacbf1379e304
+  - ref: refs/heads/main-pending
+    old: 58d30d7e147aa64b5be4ae457adf663c9c6a4190
+    new: 5d42992daa7b8ec20ad2d10dc7869ba635758b8c
     log: |
          39ab8fff623053a50951b659e5f6b72343d7d78c wifi: wilc1000: fix ies_len type in connect path
          4ec17ce716bdaf680288ce680b4621b52483cc96 wifi: iwlwifi: properly set WIPHY_FLAG_SUPPORTS_EXT_KEK_KCK
@@ -25,7 +25,8 @@ changes:
          55dde0d6a95bc73ea6449c1245604cc89aeac0a9 Add localversion to identify builds from this tree
          0186424e6a7ef782f66e18ad7fa0c6f91fb5175f Merge remote-tracking branch 'mhi/mhi-next'
          9fddbf081f2da3a20fecda0b58adacbf1379e304 Add localversion-wireless-testing-ath
+         5d42992daa7b8ec20ad2d10dc7869ba635758b8c Merge branch 'pending' into main-pending
          
-  - ref: refs/tags/ath-202407081613
+  - ref: refs/tags/ath-pending-202407081615
     old: 0000000000000000000000000000000000000000
-    new: 9fddbf081f2da3a20fecda0b58adacbf1379e304
+    new: 5d42992daa7b8ec20ad2d10dc7869ba635758b8c
