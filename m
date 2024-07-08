@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 08 Jul 2024 15:03:45 -0000
-Message-Id: <172045102527.19741.1359479894436952737@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 15:05:44 -0000
+Message-Id: <172045114401.22174.10953977896959285353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-cache-for-next
-    old: f2c78fe6ad4c5a30203bd98e1ab711b83dec96ec
-    new: 3d41249c1dee0fa22ebd8d27aa0a280edf943a0e
+  - ref: refs/heads/riscv-soc-for-next
+    old: 7b059709cab6cceb8df91413c4e4bcf748646bcc
+    new: 73bff11fbc130959d2000178c317b643659eb5a6
     log: |
-         4ca47d8bcca09af570e7133dbdf550980c86ca7b MAINTAINERS: add cache binding directory to cache driver entry
-         3d41249c1dee0fa22ebd8d27aa0a280edf943a0e MAINTAINERS: add microchip soc binding directory to microchip soc driver entry
+         73bff11fbc130959d2000178c317b643659eb5a6 Merge branches 'riscv-firmware-for-next', 'riscv-cache-for-next' and 'riscv-config-for-next' into HEAD
          
