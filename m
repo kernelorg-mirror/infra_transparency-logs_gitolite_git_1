@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 08 Jul 2024 16:17:13 -0000
-Message-Id: <172045543370.13103.4874091513539197235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 08 Jul 2024 16:19:30 -0000
+Message-Id: <172045557078.13986.10292065614974762073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/main-pending
-    old: 58d30d7e147aa64b5be4ae457adf663c9c6a4190
-    new: 5d42992daa7b8ec20ad2d10dc7869ba635758b8c
+  - ref: refs/heads/next
+    old: f3d70720e92c24c22e0e63c2588636edba33eb1a
+    new: 9b48e7b94155a4d623cfc024fa7142a7e2f5bc0e
     log: |
-         39ab8fff623053a50951b659e5f6b72343d7d78c wifi: wilc1000: fix ies_len type in connect path
-         4ec17ce716bdaf680288ce680b4621b52483cc96 wifi: iwlwifi: properly set WIPHY_FLAG_SUPPORTS_EXT_KEK_KCK
-         e715c9302b1c6fae990b9898a80fac855549d1f0 wifi: iwlwifi: mvm: don't wake up rx_sync_waitq upon RFKILL
-         28e02bc9f412c3344b0e1f0c657dc6305ac75b4c wifi: iwlwifi: mvm: avoid link lookup in statistics
-         4130c67cd123a36c902cbe9ce5a2efbc33eb18c0 wifi: iwlwifi: mvm: check vif for NULL/ERR_PTR before dereference
-         81822e1a164d8f330c38552699176c5daf5b9e64 Merge remote-tracking branch 'wireless/main'
-         d4c913ab4402b98eae65a63c6c04ed3174dc8b66 Merge remote-tracking branch 'wireless-next/main'
-         55dde0d6a95bc73ea6449c1245604cc89aeac0a9 Add localversion to identify builds from this tree
-         0186424e6a7ef782f66e18ad7fa0c6f91fb5175f Merge remote-tracking branch 'mhi/mhi-next'
-         9fddbf081f2da3a20fecda0b58adacbf1379e304 Add localversion-wireless-testing-ath
-         5d42992daa7b8ec20ad2d10dc7869ba635758b8c Merge branch 'pending' into main-pending
+         9b48e7b94155a4d623cfc024fa7142a7e2f5bc0e Documentation: CXL Maturity Map
          
-  - ref: refs/tags/ath-pending-202407081615
-    old: 0000000000000000000000000000000000000000
-    new: 5d42992daa7b8ec20ad2d10dc7869ba635758b8c
