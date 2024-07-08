@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 08 Jul 2024 13:44:31 -0000
-Message-Id: <172044627137.22267.796405161439750258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 08 Jul 2024 14:11:39 -0000
+Message-Id: <172044789921.10515.16784150505914686002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: fd8db07705c55a995c42b1e71afc42faad675b0b
-    new: a5912c37faf723c0812a6a2c9dd18ffbd34a233b
-    log: |
-         a5912c37faf723c0812a6a2c9dd18ffbd34a233b riscv, bpf: Optimize stack usage of trampoline
-         
+  - ref: refs/heads/filemhqNNx
+    old: 1cc509edbe23b61e8c245611bd15d88edb635a38
+    new: 0000000000000000000000000000000000000000
