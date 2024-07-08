@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 08 Jul 2024 22:10:59 -0000
-Message-Id: <172047665926.16519.13740515767247665532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 08 Jul 2024 22:11:10 -0000
+Message-Id: <172047667052.16659.12002191839111609250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/master
-    old: 256abd8e550ce977b728be79a74e1729438b4948
-    new: 4376e966ecb78c520b0faf239d118ecfab42a119
-    log: |
-         88076e4699ce490aabe89037190d4749ab346b29 perf comm str: Avoid sort during insert
-         7b2450bb40275802b73593331b0db2fc147ae2b7 perf dsos: When adding a dso into sorted dsos maintain the sort order
-         4376e966ecb78c520b0faf239d118ecfab42a119 Merge tag 'perf-tools-fixes-for-v6.10-2024-07-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-         
+  - ref: refs/tags/v6.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/tags/v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
+  - ref: refs/tags/v6.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
+  - ref: refs/tags/v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
