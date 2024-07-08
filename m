@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 08 Jul 2024 19:30:27 -0000
-Message-Id: <172046702788.26732.15598705569728956056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 08 Jul 2024 19:32:06 -0000
+Message-Id: <172046712629.27417.15844582692666629069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-6.11
-    old: e98abd22fbcada509f776229af688b7f74d6cdba
-    new: 9f391f94a1730232ad2760202755b2d9baf4688d
-    log: |
-         9f391f94a1730232ad2760202755b2d9baf4688d sched_ext: Disallow loading BPF scheduler if isolcpus= domain isolation is in effect
-         
-  - ref: refs/heads/for-next
-    old: e98abd22fbcada509f776229af688b7f74d6cdba
-    new: 9f391f94a1730232ad2760202755b2d9baf4688d
-    log: |
-         9f391f94a1730232ad2760202755b2d9baf4688d sched_ext: Disallow loading BPF scheduler if isolcpus= domain isolation is in effect
-         
+  - ref: refs/heads/k3/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: e05bc474310336e1ab03ed79112909dd0f74d039
