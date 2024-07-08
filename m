@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3376879900585409650=="
+Content-Type: multipart/mixed; boundary="===============4566593322673031877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 08 Jul 2024 07:53:34 -0000
-Message-Id: <172042521443.22816.11944121576412704941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 08 Jul 2024 07:58:18 -0000
+Message-Id: <172042549871.6791.7730940853377132408@gitolite.kernel.org>
 
---===============3376879900585409650==
+--===============4566593322673031877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: df4cb89bb4d971801b25337144d50b096a7ae38a
-    new: 80c40b9dfce76ec52639a527a45293837b82ab59
-    log: |
-         80c40b9dfce76ec52639a527a45293837b82ab59 cvelistv5 update
-         
+  - ref: refs/heads/kvm-arm64/hcrx-WIP
+    old: 6eccf5c4b7a0239aaa4f1cab127df3a925a737a8
+    new: 10929c4aacaed4f7710d2a6fd159eeed8d8e8b0e
+    log: revlist-6eccf5c4b7a0-10929c4aacae.txt
 
---===============3376879900585409650==
+--===============4566593322673031877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6eccf5c4b7a0-10929c4aacae.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720425214 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1720425213-5af4c5c19e772e12a03d1a38a56b91c496efa015
+8bcb6a35b30c7d442846e2a6da7485fc0f86fdc9 KVM: arm64: Sanitise ID_AA64MMFR3_EL1
+9d040c6f1e353adc7306cbdad606896f330613fa arm64: Add syndrome information for trapped LD64B/ST64B{,V,V0}
+8e22be96dc90bc65a89df7790d3d54f3c9a2b92e KVM: arm64: Add ACCDATA_EL1 to the sysreg array
+d660d6eebb7b309f00cbc33ddba095c4532f4645 KVM: arm64: Add context-switch of ACCDATA_EL1
+251dd9642f57f9517bce56f32a68632683c42d02 KVM: arm64: Handle trapping of FEAT_LS64* instructions
+a342b25b4bf15a78d974f2abc3858e03b5eeaa1d KVM: arm64: Add exit to userspace on {LD,ST}64B* outside of memslots
+180b9f8473c70733a0414de6a2fc2e19effdf44c KVM: arm64: Restrict ACCDATA_EL1 undef to FEAT_ST64_ACCDATA being disabled
+e7217d687ec9ec1cd78724b128a1778cacd19aef KVM: arm64: Conditionnaly enable FEAT_LS64* instructions
+0e20618f3786eb0fbabb21cb4b7cdc9fc4963ccd KVM: arm64: nv: Expose FEAT_LS64* to a nested guest
+79a9daf58d267671c03277a46d84626a933734af KVM: arm64: Add documentation for KVM_EXIT_ARM_LDST64B
+a6ed90779c01467505ebcaf6d650fdaed01013d9 KVM: arm64: Move SVCR into the sysreg array
+c7752a6fd4075da154aaa77a7106789961fa719b KVM: arm64: Move FPMR into the sysreg array
+d479969afd84f237e852c89a260f9d92c9a8aa04 KVM: arm64: Add save/restore support for FPMR
+13652e55af3d1893c6063cef945648ec0c60b3d8 KVM: arm64: Honor trap routing for FPMR
+2d3be102acc790e850d0365d13bf4050b0840818 KVM: arm64: Expose ID_AA64FPFR0_EL1 as a writable ID reg
+641c4743a4946b30cbdb640f77b26102a8464618 KVM: arm64: Enable FP8 support when available and configured
+5253788d1ccb5894b3ed4d52c9c3f88015426893 KVM: arm64: Expose ID_AA64PFR2_EL1 to userspace and guests
+10929c4aacaed4f7710d2a6fd159eeed8d8e8b0e WIP
 
-df4cb89bb4d971801b25337144d50b096a7ae38a 80c40b9dfce76ec52639a527a45293837b82ab59 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaLmv4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A2YP/iRXOSo8epZ51RZIl3Cr
-Pm6sZsyj8E07ZziusEeKltSAKTUWZIX+kkItlMqylp5/cKpnR9RzzjYFf5XHA9B2
-4MElcPMXcFW8CsdhLX8XOMke+nXPiyT5C2Hhzmu9Fj6Xf77jUDeKF1d9fUgVTsL0
-i2GBRn2he1YbV5CQc5kduUyC8f09sXTjOpQQZm8JrlWoz70nev7+/kKRLlrqH7AZ
-cUXC/L2gFQ7dvXGJvD6fn6OlF6LtGbrJRwy5jA1brK6WUr9AIYwlzcSx5zV0Mc0s
-ZZORtxTxCNefdym2nTayw0r6QzFoVXS9ia/DVaCoJHaaKH/B3tq8bDmNWPKZphn3
-q3BsVcQgeIQQr8YvGgTfHv31bZlRln0gcx2kIKFwtK8JAZYYg6uf0acX+5t+/VNN
-2Qi02yN3LaD4FZp5HkvikY2OJMxcwGdPURDV36xu2SFHVBAYO8HeHV6DCqTi+Hmf
-hnMGdc+qF4OFRVIgncDklsCEVMKPsHRM3AJDvB/OVdLXPNF5l/w5fTb84Yi3gMtR
-72zFyxv+XLtnC239cNu7XryowHwRMS8KhHT2sa/YzLXhbxWwAovRCWDbWIvoKQGS
-uuOjxi0OntKVe+vUTdqwwio+RmBm26nWUQCyh6lslAKlODXtgQHyZsJaZWX1270S
-BXpLPB9rexkt7VHbbO2VzEcl
-=UWxM
------END PGP SIGNATURE-----
-
---===============3376879900585409650==--
+--===============4566593322673031877==--
