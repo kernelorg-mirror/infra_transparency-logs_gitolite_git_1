@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5015916886845333474=="
+Content-Type: multipart/mixed; boundary="===============2817645194811086879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 08 Jul 2024 23:40:49 -0000
-Message-Id: <172048204932.19250.5869984707367180513@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 23:42:47 -0000
+Message-Id: <172048216754.20037.11563947826700373867@gitolite.kernel.org>
 
---===============5015916886845333474==
+--===============2817645194811086879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 0f47c11d3ec49c766f5c6c8636e80d663b470f08
     new: 011e6a719ead0cbafc1447074e2a7005b18b6071
     log: revlist-0f47c11d3ec4-011e6a719ead.txt
 
---===============5015916886845333474==
+--===============2817645194811086879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ cf683a341b09272d476681887a7cc391fdca7409 dt-bindings: fsi: Document the IBM SBEF
 673e802d9220f440f29f182307fc58f5cbfd39d5 dt-bindings: soc: fsl: cpm_qe: convert to yaml format
 011e6a719ead0cbafc1447074e2a7005b18b6071 dt-bindings: soc: fsl: Add fsl,ls1028a-reset for reset syscon node
 
---===============5015916886845333474==--
+--===============2817645194811086879==--
