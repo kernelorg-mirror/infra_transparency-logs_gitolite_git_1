@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7906633019061258800=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 08 Jul 2024 12:58:53 -0000
-Message-Id: <172044353324.16943.13754902824157244449@gitolite.kernel.org>
-
---===============7906633019061258800==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 08 Jul 2024 12:59:38 -0000
+Message-Id: <172044357882.17340.1700746017076716886@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: 338a8d819292d0a9b946aae3dbeb205728ff274f
-    new: 298fc548dbee829ab7690c1ab62ed580d6e3d888
+  - ref: refs/heads/dm-6.11
+    old: f2e6950fe70fea289298033faa8fe72e4eaa38cc
+    new: 4ea456ee44efc03f5cea5d62c8a7a15eddae067b
     log: |
-         298fc548dbee829ab7690c1ab62ed580d6e3d888 5.15-stable patches
+         416d23abb93f618aef6c22b2d3978468d6ec741e dm vdo: remove unused struct 'uds_attribute'
+         ec4d536ebe8b035e3f4195e2f8cc67dd77e5d393 dm vdo indexer: use swap() instead of open coding it
+         410023e77f0a23430a08bef70035954a0d2a9c19 dm: Remove max_write_zeroes_granularity
+         1d6e8bba8de6a30cf70ffa81153e2a8c1e2fbce0 dm: Remove max_secure_erase_granularity
+         87c5966883b9e820c5365aaa33c27ed208aa07d9 dm-verity: fix dm_is_verity_target() when dm-verity is builtin
+         808199174530305944e3b9f6f3ca3951041a76b2 dm: factor out helper function from dm_get_device
+         4ea456ee44efc03f5cea5d62c8a7a15eddae067b dm mpath: don't call dm_get_device in multipath_message
          
-
---===============7906633019061258800==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720443532 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1720443530-cfeca24ac7ad4ed91a3822bfeef3ade07e3dbb76
-
-338a8d819292d0a9b946aae3dbeb205728ff274f 298fc548dbee829ab7690c1ab62ed580d6e3d888 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaL4owbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jn4P/iqg28ihPhKW8FmKqw+e
-WEw3xMKI2q1weQ+o5MBLVynooxq85yrH9/gu5Jpe+X4iNSuYLK4MB1mHYvBJnDl6
-Ec8yatg9NPI64a7i/Jn7rTf+2QV9DysPAbPJl4jq1gqWWK9iviDCpAGaLiayHMTG
-m7gu7GONhMAac1cYTfM5rZTLC5Lbv5eNaMfjOW/VMMtY3EnhsFud+1s/uwe8AwvR
-BhPuubL3DR3DRCysPgNzEHd0StVPxGOPRj7OXzUi/9adZ8gO/HyiizoKFWlaGwme
-XKMBerMX8cdJYhkfYFzcj0wN8KOEzDBH39T3oxJkIZXj+VstGZ5d5kygQqICO+Hw
-WdtwD+xjtFsDF9mU5lz849jqDBz3nkx3F73XMU7ODyMwbPhRGHBOCDv7ruzTYa+t
-iBmKrsvzptaVP/FuSI84tDK8jgJxoqEN+BspCrGU73yiAtJCBQyWHTnGSXfRwedB
-aXnTMLUKxhhxNNpcjm8S1LFvrKYSCgsX+3EOwFmDNdDTayzTvcK548jdoOgQ/tVQ
-qGTg8mUlNjaPtAcm4R6Y83HUVqVSELgJ+vlN+NgHlVGIgdtngy6hd02jkhz//nn3
-8WYHRqTmhBAPQnAKXJKPLKLuWRa/rPKGBINVyOHcbs972ygDYjqoN/T2G55Abkkq
-FiopiGbgV+lBViWC+Fi1/BEW
-=stUE
------END PGP SIGNATURE-----
-
---===============7906633019061258800==--
