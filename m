@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5460659223185955240=="
+Content-Type: multipart/mixed; boundary="===============5909977488777403648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 08 Jul 2024 15:00:13 -0000
-Message-Id: <172045081383.18270.9657315179982636370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 08 Jul 2024 15:00:24 -0000
+Message-Id: <172045082405.18417.16680470015975103685@gitolite.kernel.org>
 
---===============5460659223185955240==
+--===============5909977488777403648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
 
---===============5460659223185955240==
+--===============5909977488777403648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -263,4 +263,4 @@ c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
 
---===============5460659223185955240==--
+--===============5909977488777403648==--
