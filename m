@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 08 Jul 2024 19:56:08 -0000
-Message-Id: <172046856851.13966.8848968216251023139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 08 Jul 2024 20:08:40 -0000
+Message-Id: <172046932037.22940.5550863222073884967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/next
-    old: b3ea39f1e0178e8b610f945bad412ee0b58fe328
-    new: 4012664073a0d62e37b7b492b396d6412e92181c
+  - ref: refs/heads/dm-6.11
+    old: 4ea456ee44efc03f5cea5d62c8a7a15eddae067b
+    new: b67a93868e50e4d309c9449f013c4092397119dc
     log: |
-         cb52b5c8b81bfbc34df13537d82cd1849725d6c7 Revert "KVM: arm64: nv: Fix RESx behaviour of disabled FGTs with negative polarity"
-         4012664073a0d62e37b7b492b396d6412e92181c Merge branch kvm-arm64/misc into kvmarm/next
+         b67a93868e50e4d309c9449f013c4092397119dc dm-crypt: support for per-sector NVMe metadata
          
