@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 08 Jul 2024 22:11:10 -0000
-Message-Id: <172047667052.16659.12002191839111609250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 08 Jul 2024 22:11:16 -0000
+Message-Id: <172047667656.16764.5081899715716963953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
-  - ref: refs/tags/v6.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
-  - ref: refs/tags/v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
-  - ref: refs/tags/v6.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/heads/100GbE
+    old: 83c36e7cfd74e41a5c145640dba581b38f12aa15
+    new: ea9e48d3a7b23496c44e68bee839a83857ae73c0
+    log: |
+         386e5313f5e618c3a4d73781f16eb8cf9f9c399a ice: respect netif readiness in AF_XDP ZC related ndo's
+         989b9396b0d6fbea98950775c217957245d59b31 ice: don't busy wait for Rx queue disable in ice_qp_dis()
+         2e3d5607580b40651873c9510caf93d0c4b53ee7 ice: replace synchronize_rcu with synchronize_net
+         fd3fc9acd18cb20a1c799be10b6d5e268cc1152c ice: modify error handling when setting XSK pool in ndo_bpf
+         a3abdd2c41f5164ae0e67b453360622402698da0 ice: toggle netif_carrier when setting up XSK pool
+         caada71be6440b9cb6264ad324e1ad2f426f63aa ice: improve updating ice_{t, r}x_ring::xsk_pool
+         54558d3ca515174f966f103b33c993ac38513a7d ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+         ea9e48d3a7b23496c44e68bee839a83857ae73c0 ice: xsk: fix txq interrupt mapping
+         
