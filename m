@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 08 Jul 2024 14:55:25 -0000
-Message-Id: <172045052519.14521.2582418987083452401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 08 Jul 2024 14:57:05 -0000
+Message-Id: <172045062544.15200.17021474567150917490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/file2WXG1v
-    old: 0000000000000000000000000000000000000000
-    new: 680e126ec0400f6daecf0510c5bb97a55779ff03
+  - ref: refs/heads/riscv-dt-for-v6.11
+    old: c15bf01296fdca7192a41afe2f5e01d5ea45a245
+    new: 0000000000000000000000000000000000000000
