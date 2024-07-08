@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 08 Jul 2024 22:11:21 -0000
-Message-Id: <172047668193.16885.4420189098805134967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 08 Jul 2024 22:18:22 -0000
+Message-Id: <172047710236.21039.9682341296541542499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: khilman
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 256abd8e550ce977b728be79a74e1729438b4948
-    new: 4376e966ecb78c520b0faf239d118ecfab42a119
-    log: |
-         88076e4699ce490aabe89037190d4749ab346b29 perf comm str: Avoid sort during insert
-         7b2450bb40275802b73593331b0db2fc147ae2b7 perf dsos: When adding a dso into sorted dsos maintain the sort order
-         4376e966ecb78c520b0faf239d118ecfab42a119 Merge tag 'perf-tools-fixes-for-v6.10-2024-07-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-         
+  - ref: refs/tags/v6.11-rockchip-dts64-2
+    old: d69f1aed2b072c038dbcb0283ada8af7e22f2cf0
+    new: 0000000000000000000000000000000000000000
