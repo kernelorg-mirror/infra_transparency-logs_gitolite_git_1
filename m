@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 08 Jul 2024 16:10:54 -0000
-Message-Id: <172045505452.8882.8011342333314757456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 08 Jul 2024 16:14:00 -0000
+Message-Id: <172045524029.10023.17580857262009995850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: eabe917cb614bc85b8325119e8b3411211f5e0e1
-    new: d87dbfd31796f810ed777aee4919f211b4a6c7fb
+  - ref: refs/heads/master
+    old: 02480fe8a6a6d44c16900b1d3a2a66d140d0a005
+    new: cedc12c5b57f7efa6dbebfb2b140e8675f5a2616
     log: |
-         19cb6058620620e68f1a9aed99393be5c3629db4 remoteproc: mediatek: Increase MT8188/MT8195 SCP core0 DRAM size
-         d87dbfd31796f810ed777aee4919f211b4a6c7fb Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         cedc12c5b57f7efa6dbebfb2b140e8675f5a2616 libbpf: Add NULL checks to bpf_object__{prev_map,next_map}
          
