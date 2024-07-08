@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9067324561105259357=="
+Content-Type: multipart/mixed; boundary="===============7848953449816841684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Jul 2024 15:36:12 -0000
-Message-Id: <172045297227.13036.4246891868321732513@gitolite.kernel.org>
+Date: Mon, 08 Jul 2024 15:36:19 -0000
+Message-Id: <172045297934.13129.9644702268116847431@gitolite.kernel.org>
 
---===============9067324561105259357==
+--===============7848953449816841684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: dce381f2a79cfac343a18e874b317d2d9541c77b
-    new: 0a0291597afb4ed573416c3ccb743f43040af6db
-    log: revlist-dce381f2a79c-0a0291597afb.txt
+  - ref: refs/heads/1GbE
+    old: 8eb301bd7b0f45d36e663ecbe59b7c80b9863950
+    new: 83c36e7cfd74e41a5c145640dba581b38f12aa15
+    log: revlist-8eb301bd7b0f-83c36e7cfd74.txt
 
---===============9067324561105259357==
+--===============7848953449816841684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dce381f2a79c-0a0291597afb.txt
+Content-Disposition: attachment; filename=revlist-8eb301bd7b0f-83c36e7cfd74.txt
 
 3a1b777eb9fb75d09c45ae5dd1d007eddcbebf1f mtd: rawnand: Ensure ECC configuration is propagated to upper layers
 5da39530d19946f6241de84d1db69da2f5c61da7 mtd: rawnand: Fix the nand_read_data_op() early check
@@ -350,18 +350,5 @@ d470e9f57d2f25a85a547701655672a48cd2a170 Merge tag 's390-6.10-8' of git://git.ke
 842c361b24294d7c7be2bd65323f8aef8877d7cb Merge branch 'wireguard-fixes-for-6-10-rc7'
 0ec986ed7bab6801faed1440e8839dcc710331ff tcp: fix incorrect undo caused by DSACK of TLP retransmit
 83c36e7cfd74e41a5c145640dba581b38f12aa15 docs: networking: devlink: capitalise length value
-801caa1e2de749cf038846fd70334e311dd90ec6 ice: Add a per-VF limit on number of FDIR filters
-5e220a681effd1211752c8e02703cdb71dbe7652 i40e: Fix XDP program unloading while removing the driver
-63e026010297b550d83db328afda628e8a92fef9 igc: Fix double reset adapter triggered from a single taprio cmd
-5d038ef0be1ab8d9681a77d67662426173490128 ice: Fix lldp packets dropping after changing the number of channels
-fbad25cee52f5f54130fa5f1fa2ce7a226f94263 ice: respect netif readiness in AF_XDP ZC related ndo's
-ef092672eb554ad01288980452a61a3c845036f3 ice: don't busy wait for Rx queue disable in ice_qp_dis()
-dc37ec236551d62db4d29ee574050bcdaded4507 ice: replace synchronize_rcu with synchronize_net
-4a4d22cfe2ae59141c2a547d72dd141064541d07 ice: modify error handling when setting XSK pool in ndo_bpf
-cab3928ea8f134a3867fcf2c0b3c50b22fbd7ea1 ice: toggle netif_carrier when setting up XSK pool
-8b7850147338c8567c8a8c3116c4d7c7af31e87d ice: improve updating ice_{t, r}x_ring::xsk_pool
-c0d98478320dd633864d485b98578dc6604c2141 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
-ebac7a4cbf869cc3b4100352cdd8ef294d559c58 ice: xsk: fix txq interrupt mapping
-0a0291597afb4ed573416c3ccb743f43040af6db ice: Fix recipe read procedure
 
---===============9067324561105259357==--
+--===============7848953449816841684==--
