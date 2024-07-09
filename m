@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 09 Jul 2024 07:50:03 -0000
-Message-Id: <172051140313.25840.17436354824030399282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 09 Jul 2024 08:00:42 -0000
+Message-Id: <172051204219.656.5042440668785504813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-6.11/block
-    old: 0ffc46eb1b6d0b9dd07e4f2b1019edd4fe678b9e
-    new: 61353a63a22890f2c642232ae1ab4a2e02e6a27c
+  - ref: refs/heads/v2.1.x
+    old: 2dce1ffa22ca350a28bad97e4e76131c51f8ffe3
+    new: f95b35d4d97ae9b6088ac6c2c1c8dd87693a51ec
     log: |
-         61353a63a22890f2c642232ae1ab4a2e02e6a27c block: take offset into account in blk_bvec_map_sg again
-         
-  - ref: refs/heads/for-next
-    old: dcee17918e6c393af2f6d9583f48043ba7606484
-    new: 83215e85c3495a899fc9b2c11c85dd4482528116
-    log: |
-         61353a63a22890f2c642232ae1ab4a2e02e6a27c block: take offset into account in blk_bvec_map_sg again
-         83215e85c3495a899fc9b2c11c85dd4482528116 Merge branch 'for-6.11/block' into for-next
+         eb44926b472d690e8af7cff032b1256c9f4f1c16 bindings: cxx: tests: set direction when reconfiguring lines
+         f95b35d4d97ae9b6088ac6c2c1c8dd87693a51ec bindings: rust: tests: set direction when reconfiguring lines
          
