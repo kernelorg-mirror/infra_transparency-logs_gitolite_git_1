@@ -1,35 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 09 Jul 2024 15:23:07 -0000
-Message-Id: <172053858729.459.8033381745054769926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 09 Jul 2024 15:28:11 -0000
+Message-Id: <172053889106.4018.11349874086380466002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 120a528213b6693214e3cbc24a9c3052a4b1024b
-    new: 9845ded2f4af7ebba8b96fd176443601144c09cd
+  - ref: refs/heads/for-next
+    old: 338c92a5d1956f1841f84b86923087676d1d0cea
+    new: e922d5c26ec10007f2d359a874ec1915720554b9
     log: |
-         4beb7c2fd1ba38d42a8396972d5f5082d64b0692 pwm: Register debugfs operations after the pwm class
-         1c2ad972db9c8c8c60619ab9b7899757a3a45067 pwm: Use guards for pwm_lock instead of explicity mutex_lock + mutex_unlock
-         bb88584a8d7fc83eeb49f6effa4bd524224980d6 pwm: Use guards for export->lock instead of explicity mutex_lock + mutex_unlock
-         858880a813e2c04fbbccb442f307772409df996c pwm: Use guards for pwm_lookup_lock instead of explicity mutex_lock + mutex_unlock
-         d776be08ce1bf37f42c64f6a8be3bea660a9477d pwm: xilinx: Simplify using devm_ functions
-         9845ded2f4af7ebba8b96fd176443601144c09cd pwm: Allow pwm state transitions from an invalid state
+         32625ac9e110da530db4f0faf918b1f5674e7ca3 dt-bindings: power: add Amlogic A5 power domains
+         32ccae658441fbde44155cb64a8f7a1f884691db Merge branch 'dt' of https://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm into v6.11/arm64-dt
+         c087cd0ef1b0c2adfabd216e28dfed242b5f4f07 arm64: dts: amlogic: a5: add power domain controller node
+         d3cc1daf38aaa0dd6546dd915ce5d536c250f3eb arm64: dts: amlogic: enable some device nodes for S4
+         e922d5c26ec10007f2d359a874ec1915720554b9 Merge branch 'v6.11/arm64-dt' into for-next
          
-  - ref: refs/heads/pwm/for-nexxt
-    old: 120a528213b6693214e3cbc24a9c3052a4b1024b
-    new: 9845ded2f4af7ebba8b96fd176443601144c09cd
-    log: |
-         4beb7c2fd1ba38d42a8396972d5f5082d64b0692 pwm: Register debugfs operations after the pwm class
-         1c2ad972db9c8c8c60619ab9b7899757a3a45067 pwm: Use guards for pwm_lock instead of explicity mutex_lock + mutex_unlock
-         bb88584a8d7fc83eeb49f6effa4bd524224980d6 pwm: Use guards for export->lock instead of explicity mutex_lock + mutex_unlock
-         858880a813e2c04fbbccb442f307772409df996c pwm: Use guards for pwm_lookup_lock instead of explicity mutex_lock + mutex_unlock
-         d776be08ce1bf37f42c64f6a8be3bea660a9477d pwm: xilinx: Simplify using devm_ functions
-         9845ded2f4af7ebba8b96fd176443601144c09cd pwm: Allow pwm state transitions from an invalid state
-         
+  - ref: refs/heads/v6.11/arm64-dt
+    old: 0000000000000000000000000000000000000000
+    new: d3cc1daf38aaa0dd6546dd915ce5d536c250f3eb
