@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5112846756954799284=="
+Content-Type: multipart/mixed; boundary="===============6733450953974272199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jul 2024 09:18:42 -0000
-Message-Id: <172051672269.26922.5654664693041242535@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 09:20:20 -0000
+Message-Id: <172051682023.29181.13876681809991434953@gitolite.kernel.org>
 
---===============5112846756954799284==
+--===============6733450953974272199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/soc/drivers
-    old: a4dd55f8c2c06e2741a74e49b95b6db0a772e345
-    new: 97c4264f62a73664a2934203346a3e04c109b8ec
-    log: revlist-a4dd55f8c2c0-97c4264f62a7.txt
+  - ref: refs/heads/for-next
+    old: bf40ba18e3a40c534d72aa4719dc7c344ed3bed7
+    new: 9e80777fd215b7310da0fd7072099ac0f473e0e0
+    log: revlist-bf40ba18e3a4-9e80777fd215.txt
 
---===============5112846756954799284==
+--===============6733450953974272199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4dd55f8c2c0-97c4264f62a7.txt
+Content-Disposition: attachment; filename=revlist-bf40ba18e3a4-9e80777fd215.txt
 
 9e7b5b4f5ec4e8f677ea17f72355ca1f1fd4e5a0 firmware: qcom: uefisecapp: Allow on X1E devices
 85f5656a4f3f188cb950cf8dc88f3f0e4e656bae soc: qcom: socinfo: Update X1E PMICs
@@ -110,5 +110,7 @@ ee22fbd7054449abfc0f40653a85c79a422a6bf8 Merge tag 'qcom-drivers-for-6.11' of ht
 097d4193b16c35d081e7bcecd15598943d56d187 Merge tag 'sunxi-drivers-for-6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/drivers
 0b07feb910520b1391e2b7959156ee289a5909f2 Merge tag 'memory-controller-drv-6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
 97c4264f62a73664a2934203346a3e04c109b8ec soc: samsung: exynos-pmu: add support for PMU_ALIVE non atomic registers
+33eb8e8cee64da03aceb4b7ba41a8a7ec8dcb528 Merge branch 'soc/drivers' into for-next
+9e80777fd215b7310da0fd7072099ac0f473e0e0 soc: document merges
 
---===============5112846756954799284==--
+--===============6733450953974272199==--
