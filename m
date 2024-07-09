@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 09 Jul 2024 14:39:39 -0000
-Message-Id: <172053597994.31991.1417403000258345049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 09 Jul 2024 14:42:45 -0000
+Message-Id: <172053616587.2460.14555809315715634501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/runtime-constants
-    old: acac19a1505461bd2442b1996f30ad503e012ec4
-    new: 94a2bc0f611cd9fa4d26e4679bf7ea4b01b12d56
+  - ref: refs/heads/master
+    old: 68864d1aa818aca00d67f7a4d6078344483e9509
+    new: 66a76c268d05583c2396054e3f63a19c6f18bb9c
     log: |
-         94a2bc0f611cd9fa4d26e4679bf7ea4b01b12d56 arm64: add 'runtime constant' support
+         f00d5546c9e989dd68ce0de0190cd0e043b0f1f5 tools/btmgmt: Fix --index option for non-interactive mode
+         66a76c268d05583c2396054e3f63a19c6f18bb9c doc: Add initial MediaAssistant rst
          
