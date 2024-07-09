@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jul 2024 22:47:35 -0000
-Message-Id: <172056525506.5760.8411808922339053223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 09 Jul 2024 22:53:19 -0000
+Message-Id: <172056559924.9454.7345018422003467242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/controller/gpio
-    old: 1d38f9d89f85f6c925a1ca128a5eabf62574380d
-    new: d03b2dd785323ee0e0c854f9ad4305e80ed33782
+  - ref: refs/heads/hwmon-next
+    old: 4814241a5817ce8140dda8f1375bf76f99e68697
+    new: f4a180247e06c69e7d8fac4eb14d172c3a5d43a3
     log: |
-         7e8e4fc5321bfa824def6fb66de43fe33c04bb5f PCI: kirin: Convert kirin_pcie_parse_port() to scoped iterator
-         d03b2dd785323ee0e0c854f9ad4305e80ed33782 PCI: kirin: Convert to use agnostic GPIO API
+         f4a180247e06c69e7d8fac4eb14d172c3a5d43a3 hwmon: (g762) Initialize fans after configuring clock
          
