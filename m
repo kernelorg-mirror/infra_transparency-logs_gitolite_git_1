@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Jul 2024 18:33:48 -0000
-Message-Id: <172055002878.11306.8125866673591741318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jul 2024 18:34:10 -0000
+Message-Id: <172055005067.11520.12464747183132593620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 528269fe117f3b19461733a0fa408c55a5270aff
-    new: f153831097b4435f963e385304cc0f1acba1c657
+    old: 0d9e699d3421b5db83eb0cb7a708882440ee78ef
+    new: 5618ced0197932d8a87760f430e53534ec169919
     log: |
-         f153831097b4435f963e385304cc0f1acba1c657 net: fix rc7's __skb_datagram_iter()
+         dd84d831ef27036031f9e11a67df1efebef78916 dt-bindings: net: fsl,fman: allow dma-coherent property
+         5618ced0197932d8a87760f430e53534ec169919 dt-bindings: net: fsl,fman: add ptimer-handle property
          
