@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 09 Jul 2024 21:37:39 -0000
-Message-Id: <172056105959.17968.14841492779745540047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Tue, 09 Jul 2024 21:44:08 -0000
+Message-Id: <172056144804.21896.12746027181932198632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/cxl-usp-shared-link
-    old: 58e4807893915c9098ef74d3d188ab0d53696fde
-    new: 100d56fb4347500a6d94a213c78fa8fb6b1e84c4
+  - ref: refs/heads/dev-test
+    old: 584ebc710bc0779381595135e0686492c3908a20
+    new: bd1474707dac76621e27bf765713f9048381f0d1
+    log: |
+         bd1474707dac76621e27bf765713f9048381f0d1 f2fs-tools: fix do_set_verity ioctl fail issue
+         
