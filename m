@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 09 Jul 2024 00:45:40 -0000
-Message-Id: <172048594054.3140.13409496189044877511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 09 Jul 2024 01:18:35 -0000
+Message-Id: <172048791525.30357.2085248302596345370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 651f2abdae2c4a91daeec80324b47be0729a48c7
-    new: 1d8efb3dfd047bac2c1862c3ce879bebc2642409
+  - ref: refs/heads/imx/defconfig
+    old: 3898bc187cde9ea6918d1a8a9c8e0b4f611674fd
+    new: 465830ad25346aa7945e8e0ac5b8ca7d53217043
     log: |
-         1d8efb3dfd047bac2c1862c3ce879bebc2642409 patches/next: rebase to latest mm-unstable
+         465830ad25346aa7945e8e0ac5b8ca7d53217043 arm64: defconfig: Enable the IWLWIFI driver
          
