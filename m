@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 09 Jul 2024 11:37:34 -0000
-Message-Id: <172052505451.27862.2901655720501836397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Jul 2024 11:41:36 -0000
+Message-Id: <172052529696.31019.7395053409557303083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/locking/core
-    old: 9bc2ff871f00437ad2f10c1eceff51aaa72b478f
-    new: e81859fe64ad42dccefe134d1696e0635f78d763
+  - ref: refs/heads/main
+    old: 442e26af9aa8115c96541026cbfeaaa76c85d178
+    new: 0913ec336a6c0c4a2b296bd9f74f8e41c4c83c8c
     log: |
-         e81859fe64ad42dccefe134d1696e0635f78d763 locking/rwsem: Add __always_inline annotation to __down_write_common() and inlined callers
+         0913ec336a6c0c4a2b296bd9f74f8e41c4c83c8c net: ks8851: Fix deadlock with the SPI chip variant
          
