@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Jul 2024 09:34:08 -0000
-Message-Id: <172051764820.5884.15666988630274105960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 09 Jul 2024 09:38:16 -0000
+Message-Id: <172051789685.10331.12547166815550006810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/main
-    old: f8ad00f3fb2af98f29aacd7ceb4ecdd5ad3c9a7f
-    new: 417d88189ccf645a157a3dc3da7e894c1f2829d1
+  - ref: refs/heads/controller/qcom
+    old: 78b5f6f8855e86520b805b285a642aa8727e8490
+    new: d568d49982094edbc9554687f63451914b9fae60
     log: |
-         417d88189ccf645a157a3dc3da7e894c1f2829d1 sctp: Fix typos and improve comments
+         db7444a89e41efec2c2cf7180b023f9ef124c968 PCI: qcom: Fix missing error code in qcom_pcie_probe()
+         00c6f5d973a390d3e857fdd20c11f75e6b98c4ec PCI: qcom: Prevent potential error pointer dereference
+         d568d49982094edbc9554687f63451914b9fae60 PCI: qcom: Potential uninitialized variable in qcom_pcie_suspend_noirq()
          
