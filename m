@@ -1,30 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 08 Jul 2024 23:55:50 -0000
-Message-Id: <172048295043.29710.14218724757016154659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 09 Jul 2024 00:00:46 -0000
+Message-Id: <172048324614.802.6245810355715710537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: b6c19651125431e06b1e56d4d5ef9ea791c4afe4
-    new: 87ad08e14e9cd58195e9a185737b322ed75fa5e7
+  - ref: refs/heads/ufs-pending
+    old: c6849927b175735cee78d39fcc12f5e7d73cf12f
+    new: 9fba94f8d3ec1637d12ff3194b7136ae991a270f
     log: |
-         1fc8030aa97c8e6d665660b9b7da8d6d80fd354d foo
-         0c1fc9a981697cb582d06e054587b53961a5cee4 foo
-         59cab28739a78357709db353fea6c91426d8e149 foo
-         adb28bc52a6967731398ecf7145280bcb8dbb81a foo
-         fb84da56191564bec9913eb7573a0ce63ba14082 foo
-         9ebe3d9664e9269a117a6a110127bfe5b2631878 foo
-         4fa8a3e8e5d1e5407a3031611bbfb4dc2955bc8d foo
-         b4f7dbeb848f024dad3985b2840a6db7909866e4 foo
-         3d7a77888a47b886788f8dd629b1f2c8d0138f2a foo
-         b118fcb1e378cce04ee0e57974bd12de5af557b1 foo
-         d4d41f0f91862e2ce9336b5fca1528698c731164 foo
-         87ad08e14e9cd58195e9a185737b322ed75fa5e7 foo
+         bcc3c271af7cd6199b55c2138ac8e3f5aec5143d scsi: ufs: core: Add UFSHCD_QUIRK_CUSTOM_CRYPTO_PROFILE
+         5a7572bf2fdb37dbde21eaff3cf99a1c81919839 scsi: ufs: core: fold ufshcd_clear_keyslot() into its caller
+         bb2850150e2bd30b8dd68ef733547a13cb52482e scsi: ufs: core: Add UFSHCD_QUIRK_BROKEN_CRYPTO_ENABLE
+         ad40146dca5a0b82429f783b2316933f3f1e64da scsi: ufs: core: Add fill_crypto_prdt variant op
+         64f40d3e0bdb897007251756be4efb99fdb1dfa7 scsi: ufs: core: Add UFSHCD_QUIRK_KEYS_IN_PRDT
+         9fba94f8d3ec1637d12ff3194b7136ae991a270f scsi: ufs: exynos: Add support for Flash Memory Protector (FMP)
          
