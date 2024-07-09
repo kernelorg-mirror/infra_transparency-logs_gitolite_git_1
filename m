@@ -1,27 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 09 Jul 2024 15:20:47 -0000
-Message-Id: <172053844793.31985.7241005025135581153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 09 Jul 2024 15:23:07 -0000
+Message-Id: <172053858729.459.8033381745054769926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 4376e966ecb78c520b0faf239d118ecfab42a119
-    new: 34afb82a3c67f869267a26f593b6f8fc6bf35905
+  - ref: refs/heads/pwm/for-next
+    old: 120a528213b6693214e3cbc24a9c3052a4b1024b
+    new: 9845ded2f4af7ebba8b96fd176443601144c09cd
     log: |
-         25a6e135569b3901452e4863c94560df7c11c492 ksmbd: return FILE_DEVICE_DISK instead of super magic
-         e2e33caa5dc2eae7bddf88b22ce11ec3d760e5cd ksmbd: discard write access to the directory open
-         f76f9bc616b7320df6789241ca7d26cedcf03cf3 selftest/timerns: fix clang build failures for abs() calls
-         73810cd45b99c6c418e1c6a487b52c1e74edb20d selftests/vDSO: fix clang build errors and warnings
-         bb2a605de3757ec8c39e5706cfac3deed5694228 selftests/vDSO: remove partially duplicated "all:" target in Makefile
-         66cde337fa1b7c6cf31f856fa015bd91a4d383e7 selftests/vDSO: remove duplicate compiler invocations from Makefile
-         b5efb63acf7bddaf20eacfcac654c25c446eabe8 s390/mm: Add NULL pointer check to crst_table_free() base_crst_free()
-         920bc844baa92fe508d9cb7c72765d6f54dfebe1 Merge tag 'linux_kselftest-fixes-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         34afb82a3c67f869267a26f593b6f8fc6bf35905 Merge tag '6.10-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
+         4beb7c2fd1ba38d42a8396972d5f5082d64b0692 pwm: Register debugfs operations after the pwm class
+         1c2ad972db9c8c8c60619ab9b7899757a3a45067 pwm: Use guards for pwm_lock instead of explicity mutex_lock + mutex_unlock
+         bb88584a8d7fc83eeb49f6effa4bd524224980d6 pwm: Use guards for export->lock instead of explicity mutex_lock + mutex_unlock
+         858880a813e2c04fbbccb442f307772409df996c pwm: Use guards for pwm_lookup_lock instead of explicity mutex_lock + mutex_unlock
+         d776be08ce1bf37f42c64f6a8be3bea660a9477d pwm: xilinx: Simplify using devm_ functions
+         9845ded2f4af7ebba8b96fd176443601144c09cd pwm: Allow pwm state transitions from an invalid state
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 120a528213b6693214e3cbc24a9c3052a4b1024b
+    new: 9845ded2f4af7ebba8b96fd176443601144c09cd
+    log: |
+         4beb7c2fd1ba38d42a8396972d5f5082d64b0692 pwm: Register debugfs operations after the pwm class
+         1c2ad972db9c8c8c60619ab9b7899757a3a45067 pwm: Use guards for pwm_lock instead of explicity mutex_lock + mutex_unlock
+         bb88584a8d7fc83eeb49f6effa4bd524224980d6 pwm: Use guards for export->lock instead of explicity mutex_lock + mutex_unlock
+         858880a813e2c04fbbccb442f307772409df996c pwm: Use guards for pwm_lookup_lock instead of explicity mutex_lock + mutex_unlock
+         d776be08ce1bf37f42c64f6a8be3bea660a9477d pwm: xilinx: Simplify using devm_ functions
+         9845ded2f4af7ebba8b96fd176443601144c09cd pwm: Allow pwm state transitions from an invalid state
          
