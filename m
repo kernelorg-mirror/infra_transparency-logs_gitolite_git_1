@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 09 Jul 2024 21:15:40 -0000
-Message-Id: <172055974022.1902.10584981824798442612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jul 2024 21:21:27 -0000
+Message-Id: <172056008753.5593.13147027049468361879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/scx-ddsp-local-on
+  - ref: refs/heads/qcom/drivers-2
     old: 0000000000000000000000000000000000000000
-    new: 6023116245b51c2c52859d31b09183d082fde458
+    new: 55751d3e9e96d5d64dc6ebb5bbdf70f45098f279
