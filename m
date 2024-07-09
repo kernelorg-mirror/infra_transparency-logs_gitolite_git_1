@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3247373768025568816=="
+Content-Type: multipart/mixed; boundary="===============5068669985730622581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 09 Jul 2024 07:20:34 -0000
-Message-Id: <172050963453.4161.823952925279161554@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 07:27:35 -0000
+Message-Id: <172051005574.8298.18067332921612128437@gitolite.kernel.org>
 
---===============3247373768025568816==
+--===============5068669985730622581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 75d3891ca19efe82392aa5e2810334979075a87a
-    new: 21b9e722ad28c19c2bc83f18f540b3dbd89bf762
-    log: |
-         21b9e722ad28c19c2bc83f18f540b3dbd89bf762 m68k: cmpxchg: Fix return value for default case in __arch_xchg()
-         
-  - ref: refs/heads/master
-    old: 6f44965e59fc53459d6ee658255be9705fbbd458
-    new: 72c1104f688392e2d3ca184436ee7e1dbffda60f
-    log: revlist-6f44965e59fc-72c1104f6883.txt
+  - ref: refs/heads/m68k-queue
+    old: 6c4cdd35c889ba6d19b4dbe1700aa4a6dacb71a0
+    new: dd895aa6b0fcee25c8c93ced5c4fe6146fc94599
+    log: revlist-6c4cdd35c889-dd895aa6b0fc.txt
 
---===============3247373768025568816==
+--===============5068669985730622581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f44965e59fc-72c1104f6883.txt
+Content-Disposition: attachment; filename=revlist-6c4cdd35c889-dd895aa6b0fc.txt
 
 07aa33988ad92fef79056f5ec30b9a0e4364b616 mac802154: fix time calculation in ieee802154_configure_durations()
 3a1b777eb9fb75d09c45ae5dd1d007eddcbebf1f mtd: rawnand: Ensure ECC configuration is propagated to upper layers
@@ -265,7 +259,13 @@ d270dd21bee023ab627f34cfb77a9b89a688492a Merge tag 'pci-v6.10-fixes-2' of git://
 c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
-e229250c655b53c811acd0aafcb49e1c346efd41 Merge tag 'v6.10-rc7'
-72c1104f688392e2d3ca184436ee7e1dbffda60f m68k: cmpxchg: Fix return value for default case in __arch_xchg()
+2fc0688476efa833f9e3f370661b8d433be45856 m68k: amiga: Turn off Warp1260 interrupts during boot
+2653f234cade10e74a67474647a3074ee10746ba m68k: emu: Add missing MODULE_DESCRIPTION() macros
+f8941e031c5651b53be4e08c94007959518d6466 zorro: Use str_plural() in amiga_zorro_probe()
+fc4c7154fa4261cb8ead9e1ec1d583957c0ef6c0 m68k: atari: Fix TT bootup freeze / unexpected (SCU) interrupt messages
+17af3c4ea86209874b9b0e061ef66d3ef0f6c988 m68k: cmpxchg: Fix return value for default case in __arch_xchg()
+6faf591b1a09c83a798d78a4e6805e4ed745f52e m68k: atari: usb: Add ISP1160 USB host controller support
+283beeb79a0b187ccea81c30615953bb33942da9 m68k: atari: Update Kconfig.bus help text
+dd895aa6b0fcee25c8c93ced5c4fe6146fc94599 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3247373768025568816==--
+--===============5068669985730622581==--
