@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2114877397027562513=="
+Content-Type: multipart/mixed; boundary="===============5955458847262864888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Tue, 09 Jul 2024 00:03:18 -0000
-Message-Id: <172048339800.2166.7275771029084728971@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 00:03:21 -0000
+Message-Id: <172048340174.2278.6400279906184545000@gitolite.kernel.org>
 
---===============2114877397027562513==
+--===============5955458847262864888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-current
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/for-next
+    old: ee5814dddefbaa181cb247a75676dd5103775db1
     new: 256abd8e550ce977b728be79a74e1729438b4948
-    log: revlist-4cece7649650-256abd8e550c.txt
+    log: revlist-ee5814dddefb-256abd8e550c.txt
 
---===============2114877397027562513==
+--===============5955458847262864888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-256abd8e550c.txt
+Content-Disposition: attachment; filename=revlist-ee5814dddefb-256abd8e550c.txt
 
 e60721bf3ccaebcaff8dec3548a2daa6578f9361 Merge tag 'gpio-fixes-for-v6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 dc772f8237f9b0c9ea3f34d0dc4a57d1f6a5070d Merge tag 'mm-hotfixes-stable-2024-06-07-15-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -1051,4 +1051,4 @@ c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
 
---===============2114877397027562513==--
+--===============5955458847262864888==--
