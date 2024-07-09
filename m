@@ -1,21 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 09 Jul 2024 16:10:00 -0000
-Message-Id: <172054140038.3185.11306944278327622155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 09 Jul 2024 16:11:46 -0000
+Message-Id: <172054150602.5520.13607395703656091940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: b86c0ca86074efc3e20f79f634b42ad6f591ec0c
-    new: 25eedab5738708e711b57306699dd6eab8740618
+  - ref: refs/heads/for-linus
+    old: 6db03b1929e207d2c6e84e75a9cd78124b3d6c6d
+    new: b46953029c52bd3a3306ff79f631418b75384656
     log: |
-         33d1f7da057ee9fccbefe121c3a87283a6954a6f proposed: Add Lee's v6.9.6 results
-         e46e342d6f5daa17cdf513d51a9d38bb2e2109fd cve_review: Match all BUG mentions, rather than just the splat
-         25eedab5738708e711b57306699dd6eab8740618 cve_review: Add key next to return - easier to type than 'y'
+         b46953029c52bd3a3306ff79f631418b75384656 ALSA: hda/realtek: Enable Mute LED on HP 250 G7
+         
+  - ref: refs/heads/for-next
+    old: fefbbdfb59d3a20fd98734363e6dd9fa7cc65c70
+    new: d2eb433c8546363134cabca7a85c73086700aeec
+    log: |
+         d2eb433c8546363134cabca7a85c73086700aeec ALSA: ppc: keywest: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         
+  - ref: refs/heads/master
+    old: 30cd1999aa6a8c6790698e9ec50c0cb6f7478a56
+    new: faa8798f2e09e4ecc5d0775e13d4c9e47358be5a
+    log: |
+         b46953029c52bd3a3306ff79f631418b75384656 ALSA: hda/realtek: Enable Mute LED on HP 250 G7
+         faa8798f2e09e4ecc5d0775e13d4c9e47358be5a Merge branch 'for-linus'
          
