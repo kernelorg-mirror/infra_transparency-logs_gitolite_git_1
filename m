@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 09 Jul 2024 23:33:03 -0000
-Message-Id: <172056798324.6506.3844356495804268970@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 23:35:13 -0000
+Message-Id: <172056811388.8918.8072676638228856144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/djiang/linux
 user: djiang
 changes:
   - ref: refs/heads/cxl-usp-shared-link
-    old: 100d56fb4347500a6d94a213c78fa8fb6b1e84c4
-    new: 84c3f9f271960eb29396731a3133a8f54dd3fa14
+    old: 84c3f9f271960eb29396731a3133a8f54dd3fa14
+    new: 71cd3952aa0c26d9a7a42cdaa3a424fa064a40b6
     log: |
-         344ae9be52f48564c90a4ad8d08fa12ecf1961f8 cxl: Preserve the CDAT access_coordinate for an endpoint
-         74bb53a5660441d1137088b53f76c4141227b07b cxl: Add documentation to explain the shared link bandwidth calculation
-         84c3f9f271960eb29396731a3133a8f54dd3fa14 cxl: Calculate region bandwidth of targets with shared upstream link
+         19b502caf6936792a8e0732962adbebc391cbe85 cxl: Preserve the CDAT access_coordinate for an endpoint
+         ff4dc074275bda275b1e48849113c390a5482fca cxl: Add documentation to explain the shared link bandwidth calculation
+         71cd3952aa0c26d9a7a42cdaa3a424fa064a40b6 cxl: Calculate region bandwidth of targets with shared upstream link
          
