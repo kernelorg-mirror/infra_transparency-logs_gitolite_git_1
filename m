@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Jul 2024 13:16:18 -0000
-Message-Id: <172053097887.4112.2301151442653097334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jul 2024 13:20:54 -0000
+Message-Id: <172053125459.7424.8613015959000019688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: 0787ab206f802deb7edbae32ba021d6b1101472a
-    new: 870a1dbcbc2ebd2114d5f18bb0bd88a7ff07540f
-    log: |
-         870a1dbcbc2ebd2114d5f18bb0bd88a7ff07540f net: phy: microchip: lan937x: add support for 100BaseTX PHY
-         
+  - ref: refs/heads/tegra/soc-2
+    old: 0000000000000000000000000000000000000000
+    new: 237c5c9581b4f66c0ad37c6f67c14c79f0847595
