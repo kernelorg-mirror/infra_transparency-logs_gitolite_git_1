@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6840465772611876168=="
+Content-Type: multipart/mixed; boundary="===============2038788987251131730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 09 Jul 2024 09:45:01 -0000
-Message-Id: <172051830100.29295.9606520100526927493@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 09:45:03 -0000
+Message-Id: <172051830390.31177.11034926020316864965@gitolite.kernel.org>
 
---===============6840465772611876168==
+--===============2038788987251131730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 8fa96e44d36ccd4fdd49893e44c9939f09eed3b3
-    new: 2928631d5304b8fec48bad4c7254ebf230b6cc51
-    log: |
-         9fef36cad60d4226f9d06953cd56d1d2f9119730 Revert "bpf: Take return from set_memory_rox() into account with bpf_jit_binary_lock_ro()"
-         466562d7646bf281bbf22b3597822998617b86e5 Revert "powerpc/bpf: use bpf_jit_binary_pack_[alloc|finalize|free]"
-         a5c2956637bab663e3ae6d55eaa600a2b3bedf78 Revert "powerpc/bpf: rename powerpc64_jit_data to powerpc_jit_data"
-         e3540e5a7054d6daaf9a1415a48aacb092112a89 Revert "bpf: Take return from set_memory_ro() into account with bpf_prog_lock_ro()"
-         2928631d5304b8fec48bad4c7254ebf230b6cc51 Linux 6.6.38
-         
+  - ref: refs/tags/v6.6.38
+    old: 0000000000000000000000000000000000000000
+    new: 1e372ca3ac5959e6d1f5527ed08232489eee64da
 
---===============6840465772611876168==
+--===============2038788987251131730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720518299 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720518303 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1720518298-c239465e3138b532b7b20ab60c24e0dbac356c21
+nonce 1720518302-43c22bfc43ed510526dbd2326c96d2e9ee3dbd85
 
-8fa96e44d36ccd4fdd49893e44c9939f09eed3b3 2928631d5304b8fec48bad4c7254ebf230b6cc51 refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 1e372ca3ac5959e6d1f5527ed08232489eee64da refs/tags/v6.6.38
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaNBpsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iaMP/3JC/OsfO6RvYdH+/tyi
-RbDdAqh8rJVlVQVfFjh4XgjhnvpAjp1fIwYoYMKVxT1kLdrIxsuf7//dxesrtl/3
-Dy1Bfi4LXwXa6WP7g0QqXRphqZhwY5nTdx+4uo/gHijXDZC9V7T843OrjBNS8Wyp
-I4Hsaqb3F3PK6S+bx65ccmV11XdWv2rHKfWZFD5ETTebPnuXhaj6L4DNF/jyfleG
-W/4KFxqP3M27PVDf1+2W73U0SazsPbpU3QVLA/q+T8b5KOHJV5OzMeMJYdtdrtvB
-zQis//3x18lnIY6Sj4f3bNl2gBeoqD9nNwoa4w3ow9MzKqsjgcVgPdzZ7oJl8THZ
-0/diwCkDD2hLTdHFOQM0HzqMBX4fIo63fCGToIdeZ0iy7ZwTkcknkxzYWNvpOUef
-aaPQwiIcK8noAeiITP8/e9z4e/EWECbFBw6mTD0VvyfCPxkQU8WJ1tENtXDs2IaU
-uVzDFvFctiLWiAT4UeSc04xigyfFVvAiAQ3SZvcLVNMg+kEJ3ZIwktTuVuEu8b52
-VC318HAMFtB5d8saGbDSyiQ8DbDrD9vsl1U74QAmB26kGrASG+W6pZfUt53YZBvc
-HNiedh1hlFT6JTOpIn/BiBxGJG6x3Jh4AN+vlZndZMp1TP01xWi9V+hL1mVXtRf1
-yhlAZtblV3RG76wsgnDG56cJ
-=Qady
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaNBp8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iCQP/0ZooSdieOH2q2u2Vnd8
+djAAVzrpLEJVr483lKJJNZExjtAt8NDyIMcb6/bFWP8FNkJZC4nb0/FNg+A6IePI
+opAVwA/pi1qQ75C1kYEf9qvjH1eHtk2wiSkkTZ2O7Vu9JLiELhGaF3XXTPqYbQac
+hGA3pRXxQvQAj9dbcEsnuJhvzLC1MOfKDWts/uE3WOkkmbxfMFohapiujqEfglTc
+CJERfzH78x2I7qhp6Ovei8TyKKXnbKhw/XJt2o6xykE0Y2T/NhftnAyYwI3G+a4P
+Dy9SG3kU7OH/c8mU6ERpY9m4qXn3nvTdiNHMlHpYJDlTUi22ykk4mYPrJ0rnK6DR
+N4abAyE2mkVQT1mQ37IOONvQlut7mbf7jCBgekOJr9ok1jeg3l0Aqt+O4LPocrZ9
+nmJQLPeL0mIhaJEmt76DRe7qB/zWFdatEw9clPlGOctZlEW1fyshYwGzvpQ63GXh
+wuY4+mYGF498e9sejE3LHTLJKPR+ysD0jrthM6yaqa0sYGrvxNhZ3muwkXxcfm9S
+8KLMNmhmIY182bqbeXed/7TO5dsMk1mZGyFqN9eGiXWm69ERlEwvHT3CR+KepN4y
+BvpEUDMnN4WK2pAzqfz85xUKhDfXOPwVGMmMPIDDtBZyC6lGI+lTa0+9RzUT2nLM
+dRpKYJ+ba7XFq/EFYru5NYSr
+=3Ipm
 -----END PGP SIGNATURE-----
 
---===============6840465772611876168==--
+--===============2038788987251131730==--
