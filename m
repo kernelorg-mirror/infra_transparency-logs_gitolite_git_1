@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 09 Jul 2024 13:03:29 -0000
-Message-Id: <172053020973.25285.863461854783286389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jul 2024 13:16:18 -0000
+Message-Id: <172053097887.4112.2301151442653097334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/topic/rcar3-iommus-v1
-    old: 0000000000000000000000000000000000000000
-    new: f788d9b14a791bc9ab012d48ded2739fee5afb77
+  - ref: refs/heads/main
+    old: 0787ab206f802deb7edbae32ba021d6b1101472a
+    new: 870a1dbcbc2ebd2114d5f18bb0bd88a7ff07540f
+    log: |
+         870a1dbcbc2ebd2114d5f18bb0bd88a7ff07540f net: phy: microchip: lan937x: add support for 100BaseTX PHY
+         
