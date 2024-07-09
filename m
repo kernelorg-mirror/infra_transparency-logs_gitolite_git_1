@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9080662333177703459=="
+Content-Type: multipart/mixed; boundary="===============2114877397027562513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Tue, 09 Jul 2024 00:03:14 -0000
-Message-Id: <172048339442.2097.4225009600542752860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Tue, 09 Jul 2024 00:03:18 -0000
+Message-Id: <172048339800.2166.7275771029084728971@gitolite.kernel.org>
 
---===============9080662333177703459==
+--===============2114877397027562513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-current
@@ -20,7 +20,7 @@ changes:
     new: 256abd8e550ce977b728be79a74e1729438b4948
     log: revlist-4cece7649650-256abd8e550c.txt
 
---===============9080662333177703459==
+--===============2114877397027562513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
 
---===============9080662333177703459==--
+--===============2114877397027562513==--
