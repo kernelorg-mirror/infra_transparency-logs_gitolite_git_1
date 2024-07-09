@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7108356434346281360=="
+Content-Type: multipart/mixed; boundary="===============4766830252998297917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 09 Jul 2024 15:15:54 -0000
-Message-Id: <172053815456.28482.2504381797319691227@gitolite.kernel.org>
+Date: Tue, 09 Jul 2024 15:16:13 -0000
+Message-Id: <172053817377.28663.1509674220823117492@gitolite.kernel.org>
 
---===============7108356434346281360==
+--===============4766830252998297917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 90dc946059b7d346f077b870a8d8aaf03b4d0772
     new: 7b769adc2612b495d94a4b4537ffaa725861d763
     log: revlist-90dc946059b7-7b769adc2612.txt
 
---===============7108356434346281360==
+--===============4766830252998297917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f8ad00f3fb2af98f29aacd7ceb4ecdd5ad3c9a7f l2tp: fix possible UAF when cleaning up
 870a1dbcbc2ebd2114d5f18bb0bd88a7ff07540f net: phy: microchip: lan937x: add support for 100BaseTX PHY
 7b769adc2612b495d94a4b4537ffaa725861d763 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============7108356434346281360==--
+--===============4766830252998297917==--
