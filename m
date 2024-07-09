@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7604965385261781440=="
+Content-Type: multipart/mixed; boundary="===============1512686756228216091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 09 Jul 2024 11:06:43 -0000
-Message-Id: <172052320348.21813.13005036458761183941@gitolite.kernel.org>
+Message-Id: <172052320384.21834.4785633512988840652@gitolite.kernel.org>
 
---===============7604965385261781440==
+--===============1512686756228216091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,90 +16,94 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 05a68fe2c1f4661c5641ad0d9fb0241503f126d7
-    new: a1609e7af67d3fd629a09ff4007658d87c2ebe0d
-    log: revlist-05a68fe2c1f4-a1609e7af67d.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 50967319488f7e9a0052f1c241894e12a31f01fc
+    new: 4cf8e6accc774e8c5ef7103a8f82560579d258f0
+    log: revlist-50967319488f-4cf8e6accc77.txt
 
---===============7604965385261781440==
+--===============1512686756228216091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720523201 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720523202 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1720523200-d62d264340954391bf7a0cbd9af35e2a53d87428
+nonce 1720523201-17e84e5241b1da1806ec5db3d8772acc8d79605f
 
-05a68fe2c1f4661c5641ad0d9fb0241503f126d7 a1609e7af67d3fd629a09ff4007658d87c2ebe0d refs/heads/linux-4.19.y
+50967319488f7e9a0052f1c241894e12a31f01fc 4cf8e6accc774e8c5ef7103a8f82560579d258f0 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaNGcEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jzoP/3Y18vI6u1D63hnwtjAD
-WMcSTEqsyo9U5UE/tW7Plh2l2NRwpOqQS7/IZL90zsfGEKaaFzCxO+yrWxQnxzti
-8kyZbCSzfwYtBo1jQD3rmdzQQhlfPRqM7Dz6DdJ2algU5q7mdryaMzit9S/oxLhs
-WsTGWUnFug2Dt7JMsp99bycZHIzrw+xNvluWvKNPqUpC5D65N2b0wCfcds5NrUOa
-8HQrnv6g0W/N90Pgwufpoz3B1x+YS/pDefV4kUCZ7edREkTby7mn++hj8Uunaqvd
-eTb95nuMOPk62YVZN5fBr1D4HD2Ozhqwn/RGrzYJvnSbLqSOAaopqonmaO7e4Dec
-6w6lMUHcDB3N7cKow3t2XbFTfmfilM5z39IUQfDCNzViLTJL9oTdxxY/8No1wLOX
-WSqJK6JgLB6aJ5q1wBzVted93OhexLrz1AopGWA46jKiHqPvzz2o19yrl+vi1keL
-8HMZuVNnQf/MjD0b11nwC4cKjEFO5zdcuDDUP0vL1/XeZ0s10dTdyfjew89yjZ+2
-8pk2fE7dUq4CmLZ8EGmVvZzhAt56gjDlpAzZXkHicU7jDEUkRzwFcB/onNejdBgB
-QXCCGmSCY0ACTPp5MbdSPFaDai/E/qvWrUX1NFVBW9ZJQjgYmyG0OstmUDCBoRX0
-9xGfA2tuj/jcjren/4elz8pG
-=MJ/q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaNGcIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y+4P/2Ey+9MAlOAxg1YBRvYZ
+gdUu9MvKiShZKKTr/Onzv291Xi9aOrqXpOtSg+DXuZcoF2ulGunCwyttTXNa8Cdt
+wn+i2MWgnH7uvxXzWrtnF1dVJATORzuEEjRgfBjGG23igtRQDmuvdI8F1Sekhn9l
+QFMpXWb9Amr6HNWsUi33p9iEZfoNeRBoUsGx1Tip+bs0D62vFpGO8wT5lIYM/gY7
+SNcOjAKzHmctN9vQJioBCPh+3YlA4saEH41mLHueFWPIWH0t6iRqVj2OvC0pZzJf
+nU7cpD4WggTWFOI/DwcfjZDoMxcxtaxYN4kuG5QATAYpTg/UA8Zobz9j1+5Pvi2T
+au2D6aGMNPS6KWHHHFZPT1J7w7M/E0GqkB1TwPhziC6kfwbC0V+d+7AFDX9G/izH
+cOI87TN4Y1IFT/Xis4o946uqzV+bHJdCPqmkBqqBUJ5wdZi1ziwK/moKuSHejcFA
+4f53K0+pEuFi25/1n40NWhzFf6M6GNtN5ZvO2itNULReFrry1dbczeR2yP3JUC4x
+Uyn+MjJHitgq19noDiEurxKWcHTmhVtqq+OCwrDidb80dX1VJOOCyvpJHRUuq8XP
+AHCuqOgFWX+fypPT8bxRqCPET/o1is3p1Fvw0duuw/zzXu00JgZSJIpiYtGedAeo
+6R1D8hMSSqKgcEVyagArm+uH
+=Xi+3
 -----END PGP SIGNATURE-----
 
---===============7604965385261781440==
+--===============1512686756228216091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05a68fe2c1f4-a1609e7af67d.txt
+Content-Disposition: attachment; filename=revlist-50967319488f-4cf8e6accc77.txt
 
-e8cec3f9a3e2483d2576cb926354528b5119ba92 media: dvb: as102-fe: Fix as10x_register_addr packing
-9554acdf37ca159a80b77a40ab3be2a2de2d3f77 media: dvb-usb: dib0700_devices: Add missing release_firmware()
-1e362597dfdbbb20c7029c5f68823d1ef15e393e IB/core: Implement a limit on UMAD receive List
-38d78f7651d631c9c0053d8a2855f80c3875c37f irqchip/gic-v3-its: Remove BUG_ON in its_vpe_irq_domain_alloc
-052b34e360a80a114144f373eabe74f41347f7dd drm/amd/display: Skip finding free audio for unknown engine_id
-0e0e3530165af95a16eb04574d096b834c3aeb7a media: dw2102: Don't translate i2c read into write
-9dfa75748fa4c6a2684c4ecf1c15032067d1b64e sctp: prefer struct_size over open coded arithmetic
-12b330cfd030f2bcd59ba5034dcb4788bdace975 firmware: dmi: Stop decoding on broken entry
-48aa3e43f3081f1781ceebb36c0f6904462fbb1e Input: ff-core - prefer struct_size over open coded arithmetic
-98e584ef67c5456e383798c18eabe255d74d4c2c net: dsa: mv88e6xxx: Correct check for empty list
-745b69a63ccdc7fc0ea721241605a90dea6d37ed media: dvb-frontends: tda18271c2dd: Remove casting during div
-6966d6f7ea5df46baaa5b0c46b3515dfda4a6a44 media: s2255: Use refcount_t instead of atomic_t for num_channels
-58cc57ec7c7834165af6c6da3c81073afe226ea6 media: dvb-frontends: tda10048: Fix integer overflow
-84d1db16943ac4032f992fbdaca36ed92e97bbba i2c: i801: Annotate apanel_addr as __ro_after_init
-d886e5f7f5e62d4ddacca542561409eee87078a6 powerpc/64: Set _IO_BASE to POISON_POINTER_DELTA not 0 for CONFIG_PCI=n
-e1ee72aff906f23baaacb0d01e045a62614ed7c3 orangefs: fix out-of-bounds fsid access
-a00b408db3b74750f1a3272a7a057c9dd2fc6062 powerpc/xmon: Check cpu id in commands "c#", "dp#" and "dx#"
-4e010dd02a7f85fe0d09ed2e0b34137e31195ada jffs2: Fix potential illegal address access in jffs2_free_inode
-61aa16515b9a56911d770448e15fe6d5ea541215 s390: Mark psw in __load_psw_mask() as __unitialized
-7a7ac9d63401e3a49385e9939a7c724196bfded0 s390/pkey: Wipe sensitive data on failure
-20410b21a8ca17b86a08672b612055749d6da1c5 tcp: take care of compressed acks in tcp_add_reno_sack()
-6d81e3c10d9c6c1dd66446c64c2e7bc96bc3e53f tcp: tcp_mark_head_lost is only valid for sack-tcp
-75c0c950bf8e04c84c31ac089911ce416df13a07 tcp: add ece_ack flag to reno sack functions
-daeabc0dd4cb7f7a4a91ec3394c229d0099c6519 net: tcp better handling of reordering then loss cases
-6a38deb620a15543e6a0fc674660557ff65446eb UPSTREAM: tcp: fix DSACK undo in fast recovery to call tcp_try_to_open()
-f1350b2c953aaf1c488cf289913c22de7a9aedb8 tcp_metrics: validate source addr length
-ff47a21ec08a16f4e17d2a4a988203e73a7dd13b bonding: Fix out-of-bounds read in bond_option_arp_ip_targets_set()
-90168c2820323ad87577432ad79bb22d9ef2075a selftests: fix OOM in msg_zerocopy selftest
-8b992067573cb147dff1797030e28425209f52ab selftests: make order checking verbose in msg_zerocopy selftest
-28091415b9c49347c98b18b5a510bc6b8ec4df40 inet_diag: Initialize pad field in struct inet_diag_req_v2
-747d5e79abc5e6210e6368d385c4b0f4e9b27008 nilfs2: fix inode number range checks
-b1d590eb66d4a6593307f8193c323b71aeea6ba3 nilfs2: add missing check for inode numbers on directory entries
-94e1f32f6fc0372f3caa999ab668246977bffba7 mm: optimize the redundant loop of mm_update_owner_next()
-b408ab9400fa692065118d3d98088ef99554ae5d Bluetooth: Fix incorrect pointer arithmatic in ext_adv_report_evt
-3259d704a4a47e62d82b69d57b11e85ba2053498 can: kvaser_usb: Explicitly initialize family in leafimx driver_info struct
-42505f5a821cf78d5e4b3fbcfe29b57cd307f091 fsnotify: Do not generate events for O_PATH file descriptors
-0e7b0cf18b8f63ec73fcc4edd8742e19c84ed546 Revert "mm/writeback: fix possible divide-by-zero in wb_dirty_limits(), again"
-65042ae69333ba07845a7a0186ac4656cb98211e drm/nouveau: fix null pointer dereference in nouveau_connector_get_modes
-1b14b1e315a3c9dbe14aedd624baf036e5824e7b drm/amdgpu/atomfirmware: silence UBSAN warning
-3d21289a32a9147df7f510218d3a8985802299f6 bnx2x: Fix multiple UBSAN array-index-out-of-bounds
-481a0427a6e36fd0bd3a51629b62275f6b92f2b9 media: dw2102: fix a potential buffer overflow
-0e36d595ff159a538d520aef5bf53b1fa8056fbe i2c: pnx: Fix potential deadlock warning from del_timer_sync() call in isr
-77862516e6cb1e7c994819c2a6f22f36ed1db0bb nilfs2: fix incorrect inode allocation from reserved inodes
-a1609e7af67d3fd629a09ff4007658d87c2ebe0d Linux 4.19.318-rc1
+2ac531adf558e4f6e1253b84f7366dc11cf3757d drm/lima: fix shared irq handling on driver remove
+9d91bafb76ccda12e9bb45d96d1fd3e82cb4cf7d media: dvb: as102-fe: Fix as10x_register_addr packing
+87c4b52c901d840cc3d727add052b4935e6b40cf media: dvb-usb: dib0700_devices: Add missing release_firmware()
+bae69ec62082d43909bb6f888f4482dae6ef5865 IB/core: Implement a limit on UMAD receive List
+417ca31da8ed4bf7ba6dc354710b42dfc388f508 scsi: qedf: Make qedf_execute_tmf() non-preemptible
+03b3e220818e10bb287adc9808e8906a63a63c3a irqchip/gic-v3-its: Remove BUG_ON in its_vpe_irq_domain_alloc
+86bac17caad55aff697f4a0c63bf33ffcd278d72 drm/amdgpu: Initialize timestamp for some legacy SOCs
+c74e4d1f01fea98e2a17654f7b44414951ed0166 drm/amd/display: Skip finding free audio for unknown engine_id
+3d30fb9c1306624f8375cc83a7eff5f4a6731284 media: dw2102: Don't translate i2c read into write
+8c5cd0e192b5a007e424f363479527dc0cde69f4 sctp: prefer struct_size over open coded arithmetic
+7dfdea10b5a874e9e5602da9a95e939063a7a540 firmware: dmi: Stop decoding on broken entry
+11c07a0175ce9757ccf70be993591b41f14cc8eb Input: ff-core - prefer struct_size over open coded arithmetic
+6614cef63cc1769bbdd777dfd8ede31cbaf99f2e net: dsa: mv88e6xxx: Correct check for empty list
+6e7e191f40bc66badbd32c3f52523a48c8e9240e media: dvb-frontends: tda18271c2dd: Remove casting during div
+ddb7a3e219b00057d36ec3bb96c5409744fdfafc media: s2255: Use refcount_t instead of atomic_t for num_channels
+d8e3ad04d66d2ca3d31fe682bb6b0a9bbbcd3982 media: dvb-frontends: tda10048: Fix integer overflow
+c062b1fae79f458415d7b2006be527e2bd1cd21d i2c: i801: Annotate apanel_addr as __ro_after_init
+16001ace7093f84abf0165d3862364ad36cc6c03 powerpc/64: Set _IO_BASE to POISON_POINTER_DELTA not 0 for CONFIG_PCI=n
+3a40119ed1f0fa4d834629dc467004f41a8bc27d orangefs: fix out-of-bounds fsid access
+7aaea267f5459b5d149bab7304b756b3a28a825d powerpc/xmon: Check cpu id in commands "c#", "dp#" and "dx#"
+6780eb72a1827e8f6e250edcb69ebb38295ccf42 jffs2: Fix potential illegal address access in jffs2_free_inode
+1e7734ca7d624b6161cb5570d770b33637b98189 s390: Mark psw in __load_psw_mask() as __unitialized
+bf6717904acc808b46518395c60817de2a72030c s390/pkey: Wipe sensitive data on failure
+0f119d7afe8711425515a48a70c267cfd816afc4 tcp: tcp_mark_head_lost is only valid for sack-tcp
+577ebee4af7064565e3197470acd60999da7aa04 tcp: add ece_ack flag to reno sack functions
+f55ceb46905fbc8e5090e3362d88dd7633f0e710 net: tcp better handling of reordering then loss cases
+220a36f2e465df8e2a003c41784c3857e3ba08ae UPSTREAM: tcp: fix DSACK undo in fast recovery to call tcp_try_to_open()
+0bbb1b4309ff6cba32407619f36dd895a252b3c9 tcp_metrics: validate source addr length
+3314a93c3e94c21be648a7bad62cf37f1d7a4c92 wifi: wilc1000: fix ies_len type in connect path
+02a09278b7c3b0d247d309dbb9ebd9a66813b372 bonding: Fix out-of-bounds read in bond_option_arp_ip_targets_set()
+c99f0266b6af6ea807fb56281cddc3272ff69d03 selftests: fix OOM in msg_zerocopy selftest
+de05adc4f5aab1a61bb7f370df417fb79dd45c99 selftests: make order checking verbose in msg_zerocopy selftest
+348587492e3057a88ebb8d241715dd633ddb2287 inet_diag: Initialize pad field in struct inet_diag_req_v2
+7c195a2b8a49fcb08d0317b677262e091f2a5820 nilfs2: fix inode number range checks
+9e7f6a2af65737026dc74cec2e7b7a9a8d56858d nilfs2: add missing check for inode numbers on directory entries
+91cce8e4a25bc9c7579a6570580de6ef286c69c7 mm: optimize the redundant loop of mm_update_owner_next()
+f98920752b5b49f23001e85d9f124fa2bce1946c can: kvaser_usb: Explicitly initialize family in leafimx driver_info struct
+a8bd923d3ef42d73eb1b307fd5eeb642135ed9eb fsnotify: Do not generate events for O_PATH file descriptors
+960e936391038b4b139b763e29845c0c6d65002e Revert "mm/writeback: fix possible divide-by-zero in wb_dirty_limits(), again"
+1014d18d39281c759d55977340049a56c5c6fb67 drm/nouveau: fix null pointer dereference in nouveau_connector_get_modes
+75c1f88339b2e9b59beeb8bcdaa47ef79ce573ed drm/amdgpu/atomfirmware: silence UBSAN warning
+ffa72abf280f0d2b10e5a0adaff0788f6a2dfe7c bnx2x: Fix multiple UBSAN array-index-out-of-bounds
+c016a5eb90187f3e8b4dcc0f5159d84a5580873f media: dw2102: fix a potential buffer overflow
+53e20641b45a2963a3a15d0db86443e603537d81 i2c: pnx: Fix potential deadlock warning from del_timer_sync() call in isr
+b5e488bea7e692c876545710b83a5cad08dc2d95 ALSA: hda/realtek: Enable headset mic of JP-IK LEAP W502 with ALC897
+6733c9e904a703bf13fafdcbf1560830e7902fd0 nvme-multipath: find NUMA path only for online numa-node
+c1939f6ec693f40d78fa7ac4fe5dfd88651ecc82 nilfs2: fix incorrect inode allocation from reserved inodes
+4cf8e6accc774e8c5ef7103a8f82560579d258f0 Linux 5.4.280-rc1
 
---===============7604965385261781440==--
+--===============1512686756228216091==--
