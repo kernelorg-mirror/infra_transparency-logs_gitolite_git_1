@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 09 Jul 2024 08:43:19 -0000
-Message-Id: <172051459972.32200.10154702028586909789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 09 Jul 2024 08:52:21 -0000
+Message-Id: <172051514105.6470.6198714656068261123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 41da8d3bb694d543a4e95f4004af35d2d3ec299d
-    new: f459895e86de6736e575e9a0f3e17d789cc1b89d
+  - ref: refs/heads/mips-next
+    old: 6fe920b4fc18bed2f1946dab9b4d6784958cafc4
+    new: 680e7863de0c3d3551d247200fd1cb41ec874650
     log: |
-         aec8bf943a71a25cbaa5cfc1b113263cadc74dd0 column: Adds option -S <num> so whitespaces are used instead of tabs in non table mode.
-         8d5f879e6a57581e885099b6f33e0fe9b23a7d88 liblastlog2: tests: provide fallback PATH_MAX definition
-         f459895e86de6736e575e9a0f3e17d789cc1b89d Merge branch 'spaces' of https://github.com/emperor06/util-linux
+         89c7f5078935872cf47a713a645affb5037be694 MIPS: Octeron: remove source file executable bit
+         36675ac2a759c6dc99e3155fd6b9ebcc75ef8a45 MIPS: CPS: Add a couple of multi-cluster utility functions
+         680e7863de0c3d3551d247200fd1cb41ec874650 MIPS: GIC: Generate redirect block accessors
          
