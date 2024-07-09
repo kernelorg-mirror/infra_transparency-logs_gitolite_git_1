@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 09 Jul 2024 11:14:20 -0000
-Message-Id: <172052366090.8706.944997203937529406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 09 Jul 2024 11:17:52 -0000
+Message-Id: <172052387252.11694.15320602410235789383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dt
-    old: 5bbe5872fed4497a192556426d75fd9223c5bfeb
-    new: 32625ac9e110da530db4f0faf918b1f5674e7ca3
-    log: |
-         32625ac9e110da530db4f0faf918b1f5674e7ca3 dt-bindings: power: add Amlogic A5 power domains
-         
+  - ref: refs/tags/20240709
+    old: 0000000000000000000000000000000000000000
+    new: 04aeed19faaee23cb5c6ec5bfa7210435d523be1
