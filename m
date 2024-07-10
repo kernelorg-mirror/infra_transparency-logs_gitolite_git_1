@@ -1,42 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6090030440977677577=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 10 Jul 2024 22:45:30 -0000
-Message-Id: <172065153043.13350.1728033799699608230@gitolite.kernel.org>
-
---===============6090030440977677577==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 10 Jul 2024 22:49:55 -0000
+Message-Id: <172065179585.15008.6180400978996953399@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/40GbE
-    old: a30463e0a59dcabe48f0a3f32433c182322dee88
-    new: 5b26532cf56e7384d53cfdd78b0bf63313c8cebc
-    log: revlist-a30463e0a59d-5b26532cf56e.txt
-
---===============6090030440977677577==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a30463e0a59d-5b26532cf56e.txt
-
-1cb6f0bae50441f4b4b32a28315853b279c7404e bpf: Fix too early release of tcx_entry
-5f1d18de79180deac2822c93e431bbe547f7d3ce selftests/bpf: Extend tcx tests to cover late tcx_entry release
-30f747b8d53bc73555f268d0f48f56174fa5bf10 net: phy: microchip: lan87xx: reinit PHY after cable test
-f0c18025693707ec344a70b6887f7450bf4c826b skmsg: Skip zero length skb in sk_msg_recvmsg
-0d1b7d6c927431126ece585246e23aa877243360 bnxt: fix crashes when reducing ring count with active RSS contexts
-442e26af9aa8115c96541026cbfeaaa76c85d178 octeontx2-af: Fix incorrect value output on error path in rvu_check_rsrc_availability()
-0913ec336a6c0c4a2b296bd9f74f8e41c4c83c8c net: ks8851: Fix deadlock with the SPI chip variant
-528269fe117f3b19461733a0fa408c55a5270aff Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-f153831097b4435f963e385304cc0f1acba1c657 net: fix rc7's __skb_datagram_iter()
-01fc5142ae6b06b61ed51a624f2732d6525d8ea3 i40e: Fix XDP program unloading while removing the driver
-e1533b6319ab9c3a97dad314dd88b3783bc41b69 net: ethernet: lantiq_etop: fix double free in detach
-5b26532cf56e7384d53cfdd78b0bf63313c8cebc i40e: fix: remove needless retries of NVM update
-
---===============6090030440977677577==--
+  - ref: refs/heads/dev-test
+    old: 388a2a0640e16a8887f0d47dab207f344fbdb913
+    new: f18d0076933689775fe7faeeb10ee93ff01be6ab
+    log: |
+         8c409989678e92e4a737e7cd2bb04f3efb81071a f2fs: fix start segno of large section
+         c82bc1ab2a8a5e73d9728e80c4c2ed87e8921a38 f2fs: fix null reference error when checking end of zone
+         54f43a10fa257ad4af02a1d157fefef6ebcfa7dc f2fs: remove unreachable lazytime mount option parsing
+         f06c0f82e38bbda7264d6ef3c90045ad2810e0f3 f2fs: fix to update user block counts in block_operations()
+         e3a19972a49f61775e5e11ac43a663f28cdfb8b2 f2fs: only fragment segment in the same section
+         b40a2b00370931b0c50148681dd7364573e52e6b f2fs: use meta inode for GC of atomic file
+         f18d0076933689775fe7faeeb10ee93ff01be6ab f2fs: use meta inode for GC of COW file
+         
