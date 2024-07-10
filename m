@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8409876281254838445=="
+Content-Type: multipart/mixed; boundary="===============0204803417223430962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 10 Jul 2024 23:24:29 -0000
-Message-Id: <172065386930.8415.9459935383578057745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 10 Jul 2024 23:24:42 -0000
+Message-Id: <172065388296.8568.18058547039965632001@gitolite.kernel.org>
 
---===============8409876281254838445==
+--===============0204803417223430962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.11
-    old: f21711bbdbf0d95a389bfaad54ce444b46830d58
-    new: 450a60ef607900bb9affb0e822fea9726679c512
-    log: revlist-f21711bbdbf0-450a60ef6079.txt
+  - ref: refs/heads/for-next
+    old: 3dc4236dc44db19be473732cc18cb7c45947c989
+    new: 3a1e7f9abffd0da2b3104c5813fcd6a0cdbbd754
+    log: revlist-3dc4236dc44d-3a1e7f9abffd.txt
 
---===============8409876281254838445==
+--===============0204803417223430962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1720653867 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1720653867-14843c0f7ae2ebc255be8655f580e06cc1f7fb3f
-
-f21711bbdbf0d95a389bfaad54ce444b46830d58 450a60ef607900bb9affb0e822fea9726679c512 refs/heads/regmap-6.11
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaPGCsTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0M6bCACFcF87vyEWEMeHycxFm5k37GjLAZ/b
-mJ/oaXVDZbkP01chYfgjAfX/Ti37rOAKWzN+fzUQL8HFYTZVweif/jRWt4rOSEeB
-g7Zd5nQmBHWFsOY232289QKabrHU7vyXGwYvwAxdVqYs9ImSD25TZSscIDEVB9EL
-+PhmgUJ4CeVbInWshJD4GT9usd8NC5ZiKIEbpwRhxbueOK2aVG8KWFnkPntEiNZL
-6iwkm7VrRco5upXrNAlEmfej4HOJHvX1zZQCX9RyHpo6oly3myuGHPirhwIHACYl
-zmhb4L6gjZMbLtnVVxFCpxXIImv9haep2yy/sWCbhDBXm8FcexO+k68x
-=315d
------END PGP SIGNATURE-----
-
---===============8409876281254838445==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f21711bbdbf0-450a60ef6079.txt
+Content-Disposition: attachment; filename=revlist-3dc4236dc44d-3a1e7f9abffd.txt
 
 bb3ca38ef7aa56dcfa7f6e81675c7a39d5ee9bf1 hv_balloon: Use kernel macros to simplify open coded sequences
 8852ebf1948d94ecaf4d1113032dda7e58e72b84 hv_balloon: Enable hot-add for memblock sizes > 128 MiB
@@ -384,5 +359,6 @@ d14f2780f0552edac67c24ac8868d44b2b1022a3 Merge tag '6.10-rc4-smb3-client-fixes' 
 f2661062f16b2de5d7b6a5c42a9a5c96326b8454 Linux 6.10-rc5
 3c1ff93b4deea502cd8b0869839557cab2a28b71 regmap: Implement regmap_multi_reg_read()
 450a60ef607900bb9affb0e822fea9726679c512 regmap: Implement regmap_multi_reg_read()
+3a1e7f9abffd0da2b3104c5813fcd6a0cdbbd754 Merge remote-tracking branch 'regmap/for-6.11' into regmap-next
 
---===============8409876281254838445==--
+--===============0204803417223430962==--
