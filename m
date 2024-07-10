@@ -1,42 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7159534405172612684=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 10 Jul 2024 11:11:07 -0000
-Message-Id: <172060986738.13330.8630058572826301622@gitolite.kernel.org>
-
---===============7159534405172612684==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 10 Jul 2024 11:11:11 -0000
+Message-Id: <172060987117.13407.12557685143535664563@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dm-6.11
-    old: 299fb56df9ec25cae370eda0ce853f90e3554f35
-    new: d176fadb9e783c152d0820a50f84882b6c5ae314
-    log: revlist-299fb56df9ec-d176fadb9e78.txt
-
---===============7159534405172612684==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-299fb56df9ec-d176fadb9e78.txt
-
-0d815e3400e631d227a3a95968b8c8e7e0c0ef9e dm-crypt: limit the size of encryption requests
-0a94a469a4f02bdcc223517fd578810ffc21c548 dm: stop using blk_limits_io_{min,opt}
-b956d1a30f77bdeb7b7931bad0cee5fa8db25cbc dm vdo: remove unused struct 'uds_attribute'
-7017ded001076593e03540840a5f5b80209bab67 dm vdo indexer: use swap() instead of open coding it
-396a27e91265a6632be17bebacb6743f0b9447be dm: Remove max_write_zeroes_granularity
-9d45db03acf9cee4f83148c403d105b1a38a0f23 dm: Remove max_secure_erase_granularity
-3708c7269593b836b1d684214cd9f5d83e4ed3fd dm-verity: fix dm_is_verity_target() when dm-verity is builtin
-a21f9edb13b0d8066775cbd5efa7261e41871182 dm: factor out helper function from dm_get_device
-a48f6b82c5c444b6c4e2f3394c7e5719031c6b00 dm mpath: don't call dm_get_device in multipath_message
-6a6c56130aaaeb893a237b2db058251d0f2800de dm-crypt: support for per-sector NVMe metadata
-453496b899b5f62ff193bca46097f0f7211cec46 dm raid: move _get_reshape_sectors() as prerequisite to fixing reshape size issues
-d176fadb9e783c152d0820a50f84882b6c5ae314 dm raid: fix stripes adding reshape size issues
-
---===============7159534405172612684==--
+  - ref: refs/heads/bleeding-edge
+    old: 87efced4091268c3ec327c53829b5e375be155dd
+    new: 84683419423f02c74ce23fef04f9bb3e893b10c8
+    log: |
+         8dd074168afccd0a54206acf9d432d97add3919f Merge branches 'acpi-video' and 'acpi-resource' into linux-next
+         e6afd59398ec8cc2b6571a7f696a4450127d3950 Merge branch 'thermal-intel' into linux-next
+         84683419423f02c74ce23fef04f9bb3e893b10c8 Merge branch 'thermal-core' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 72d2d9b52a2d897a42ac5e306d3d7b12d584f589
+    new: 84683419423f02c74ce23fef04f9bb3e893b10c8
+    log: |
+         d010a0282e045f02895f88299e5442506585b46c ACPI: video: force native for some T2 macbooks
+         e2e7f037b400aebbb3892d8010fb3d9cae6f426e ACPI: resource: Skip IRQ override on Asus Vivobook Pro N6506MJ
+         d05374dee295d771261d382f97c0c23cb15aa104 thermal: core: Change passive_delay and polling_delay data type
+         463b86fed2b25ddb5f576376bfea00134dd23030 thermal: helpers: Introduce thermal_trip_is_bound_to_cdev()
+         d1fbf18a0f9403df2edeffa1c7f5a2d66e82c20a thermal: trip: Add conversion macros for thermal trip priv field
+         b755367602d70deade956cbe0b8a3f5a12f569dc thermal: intel: hfi: Give HFI instances package scope
+         8dd074168afccd0a54206acf9d432d97add3919f Merge branches 'acpi-video' and 'acpi-resource' into linux-next
+         e6afd59398ec8cc2b6571a7f696a4450127d3950 Merge branch 'thermal-intel' into linux-next
+         84683419423f02c74ce23fef04f9bb3e893b10c8 Merge branch 'thermal-core' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 72d2d9b52a2d897a42ac5e306d3d7b12d584f589
+    new: 84683419423f02c74ce23fef04f9bb3e893b10c8
+    log: |
+         d010a0282e045f02895f88299e5442506585b46c ACPI: video: force native for some T2 macbooks
+         e2e7f037b400aebbb3892d8010fb3d9cae6f426e ACPI: resource: Skip IRQ override on Asus Vivobook Pro N6506MJ
+         d05374dee295d771261d382f97c0c23cb15aa104 thermal: core: Change passive_delay and polling_delay data type
+         463b86fed2b25ddb5f576376bfea00134dd23030 thermal: helpers: Introduce thermal_trip_is_bound_to_cdev()
+         d1fbf18a0f9403df2edeffa1c7f5a2d66e82c20a thermal: trip: Add conversion macros for thermal trip priv field
+         b755367602d70deade956cbe0b8a3f5a12f569dc thermal: intel: hfi: Give HFI instances package scope
+         8dd074168afccd0a54206acf9d432d97add3919f Merge branches 'acpi-video' and 'acpi-resource' into linux-next
+         e6afd59398ec8cc2b6571a7f696a4450127d3950 Merge branch 'thermal-intel' into linux-next
+         84683419423f02c74ce23fef04f9bb3e893b10c8 Merge branch 'thermal-core' into linux-next
+         
