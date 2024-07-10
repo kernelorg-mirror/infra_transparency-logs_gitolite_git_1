@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 10 Jul 2024 12:29:57 -0000
-Message-Id: <172061459788.5308.2506663479620388827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 10 Jul 2024 12:31:15 -0000
+Message-Id: <172061467514.7550.17828392306937563735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next/perf
-    old: dc4c33f753ca8a6be32c4efd3bb9a3c806cd29b1
-    new: 42bebc7cca79d545f4eb9ec131560cfdd07762e0
+  - ref: refs/heads/gpio/for-next
+    old: 1d8267bcbb7aa2176365299ad57e067f73b5174d
+    new: dfda97e37de4c2fa4a079ae77737c6b9ed021f79
     log: |
-         42bebc7cca79d545f4eb9ec131560cfdd07762e0 perf: add missing MODULE_DESCRIPTION() macros
+         dfda97e37de4c2fa4a079ae77737c6b9ed021f79 gpio: mc33880: Convert comma to semicolon
          
