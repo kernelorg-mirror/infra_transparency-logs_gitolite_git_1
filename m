@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 10 Jul 2024 19:46:57 -0000
-Message-Id: <172064081758.9394.13022998965668591489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 10 Jul 2024 20:11:54 -0000
+Message-Id: <172064231415.27540.15374152989937889635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: ec5b8c76ab1c6d163762d60cfbedcd27e7527144
-    new: 18a8a4c88fb4c261f72a29b769c9463362d9687a
+  - ref: refs/heads/master
+    old: 2b8e6237f5b8fb8a73052df1c32045f7a3f3305b
+    new: f6d812f94f980b2948ec115c0f757aac392af250
     log: |
-         eef0532e900c20a6760da829e82dac3ee18688c5 selftests/bpf: Null checks for links in bpf_tcp_ca
-         52b49ec1b2c78deb258596c3b231201445ef5380 selftests/bpf: Close obj in error path in xdp_adjust_tail
-         18a8a4c88fb4c261f72a29b769c9463362d9687a Merge branch 'BPF selftests misc fixes'
+         f6d812f94f980b2948ec115c0f757aac392af250 utime.2: ERRORS: Add EFAULT
          
