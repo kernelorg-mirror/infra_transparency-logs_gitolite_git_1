@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 10 Jul 2024 00:11:06 -0000
-Message-Id: <172057026620.3887.13507680117907968740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 10 Jul 2024 00:47:05 -0000
+Message-Id: <172057242511.29361.16022039264977499656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 1d8efb3dfd047bac2c1862c3ce879bebc2642409
-    new: 370e13646ecedba196c80b40a620c8a361957b48
-    log: |
-         370e13646ecedba196c80b40a620c8a361957b48 patches/next: rebase on latest mm-unstable
-         
+  - ref: refs/heads/next.old
+    old: f117d19a8dc6e765092d674d36c5cbc2cc00102c
+    new: 0000000000000000000000000000000000000000
