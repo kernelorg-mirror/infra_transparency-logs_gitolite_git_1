@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 10 Jul 2024 15:15:52 -0000
-Message-Id: <172062455206.2116.10545608289547710265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 10 Jul 2024 15:20:07 -0000
+Message-Id: <172062480713.5292.6144968413865331967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/rtc-next
-    old: a47d377e22c4a896a87a18db33f26cc6d5cc9771
-    new: efa9c5be2caecae7dfa4f29c6ab3d4a2f341eb15
+  - ref: refs/heads/main
+    old: e94a2a3bc8bdfc6a4a7b05eed7803b64a409c9f5
+    new: bec87811b4c2c2d72c7e61b5b0053644f7691a07
     log: |
-         1746a61a0248f93fee11b9ab44c71720d45d713b dt-bindings: rtc: stm32: introduce new st,stm32mp25-rtc compatible
-         efa9c5be2caecae7dfa4f29c6ab3d4a2f341eb15 rtc: stm32: add new st,stm32mp25-rtc compatible and check RIF configuration
+         091bd5adf19c7ab01214c64689952acb4833b21d linux-firmware: Update AMD cpu microcode
+         bec87811b4c2c2d72c7e61b5b0053644f7691a07 Merge branch 'robot/patch-0-1720624270' into 'main'
          
