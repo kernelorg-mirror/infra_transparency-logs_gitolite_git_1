@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Jul 2024 14:13:34 -0000
-Message-Id: <172062081427.19844.17859595634375948440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 10 Jul 2024 14:16:01 -0000
+Message-Id: <172062096109.22666.2285573908243154098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/fixes
-    old: e527a6127223b644e0a27b44f4b16e16eb6c7f0a
-    new: b6e02c6b0377d4339986e07aeb696c632cd392aa
+  - ref: refs/heads/main
+    old: bde21cc929d4864bd4b9f459f46ce63dd8c793ca
+    new: 1b4b73fd535a6487075e98f620454ff2e13b5240
     log: |
-         b6e02c6b0377d4339986e07aeb696c632cd392aa platform/x86: toshiba_acpi: Fix array out-of-bounds access
+         48c365376ce7763fd9a9e7735b1e9ec5d0ff1631 mapfile.c: Fix STRING_OVERFLOW issue
+         1b4b73fd535a6487075e98f620454ff2e13b5240 mdadm: Manage.c fix coverity issues
          
