@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 10 Jul 2024 04:27:35 -0000
-Message-Id: <172058565504.1930.16629581800602929444@gitolite.kernel.org>
+Date: Wed, 10 Jul 2024 05:39:29 -0000
+Message-Id: <172058996939.21246.436766504802307498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/devres
-    old: 5a6565e89875af6e86e108a1a25293cbe01b6778
-    new: b2052def4ae398206714548a671cb2a54adf8bf7
+  - ref: refs/heads/controller/qcom
+    old: ac607c00cebdb36453d20d6d7994ad3c31318a92
+    new: 044b45be04cb16125a0eccba532e88dc529f64de
     log: |
-         37c9f6c55cfd63a9e38a98b5aa1d7da75845c2b2 PCI: Add managed pcim_intx()
-         57157fabc0365e291dc6cdbc2df1e30468e5492d PCI: Remove legacy pcim_release()
-         0b0a1888128ebc15551cf638e9861c0eb8b49dff PCI: Add managed pcim_iomap_range()
-         b2052def4ae398206714548a671cb2a54adf8bf7 drm/vboxvideo: fix mapping leaks
+         101e5c5c4e766901492b51c33b34af5f775b043f PCI: qcom: Fix missing error code in qcom_pcie_probe()
+         9553636b5757789536d0d23c83e7fba11812f958 PCI: qcom: Prevent potential error pointer dereference
+         044b45be04cb16125a0eccba532e88dc529f64de PCI: qcom: Prevent use of uninitialized data in qcom_pcie_suspend_noirq()
          
