@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3926643673456628765=="
+Content-Type: multipart/mixed; boundary="===============6028935144435635374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 10 Jul 2024 10:50:52 -0000
-Message-Id: <172060865207.32275.15704568049318695935@gitolite.kernel.org>
+Date: Wed, 10 Jul 2024 10:51:16 -0000
+Message-Id: <172060867643.32477.10619645710623763586@gitolite.kernel.org>
 
---===============3926643673456628765==
+--===============6028935144435635374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/thermal-fixes
-    old: 529038146ba189f7551d64faf4f4871e4ab97538
-    new: 94eacc1c583dd2ba51a2158fb13285f5dc42714b
-    log: revlist-529038146ba1-94eacc1c583d.txt
+  - ref: refs/heads/pm
+    old: a1ff59784b277795a613beaa5d3dd9c5595c69a7
+    new: d92467ad9d9ee63a700934b9228a989ef671d511
+    log: revlist-a1ff59784b27-d92467ad9d9e.txt
+  - ref: refs/tags/pm-6.10-rc8
+    old: 0000000000000000000000000000000000000000
+    new: eba73a5084ef30eb1f93940245f25c7af7669957
 
---===============3926643673456628765==
+--===============6028935144435635374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-529038146ba1-94eacc1c583d.txt
+Content-Disposition: attachment; filename=revlist-a1ff59784b27-d92467ad9d9e.txt
 
 2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
 a39741d38c048a48ae0d65226d9548005a088f5f pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
@@ -202,7 +205,6 @@ ea55c65dedf40e9c1911dc1e63e26bc9a59692b9 serial: bcm63xx-uart: fix tx after conv
 626737a5791b59df5c4d1365c4dcfc9b0d70affe Merge tag 'pinctrl-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 4b8e88e563b5f666446d002ad0dc1e6e8e7102b0 ftruncate: pass a signed offset
 55027e689933ba2e64f3d245fb1ff185b3e7fc81 Merge tag 'input-for-v6.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-a1ff59784b277795a613beaa5d3dd9c5595c69a7 cpufreq: intel_pstate: Use HWP to initialize ITMT if CPPC is missing
 9eee5330656bf92f51cb1f09b2dc9f8cf975b3d1 PCI/MSI: Fix UAF in msi_capability_init
 d1825752e3074b5ff8d7f6016160e2b7c5c367ca btrfs: use NOFS context when getting inodes during logging and log replay
 b9fd2affe4aa99a4ca14ee87e1f38fea22ece52a btrfs: zoned: fix initial free space detection
@@ -240,6 +242,7 @@ c5ab94ea280a9b4108723eecf0a636e22a5bb137 ALSA: seq: Fix missing channel at encod
 1d091a98c399c17d0571fa1d91a7123a698446e4 ALSA: hda/relatek: Enable Mute LED on HP Laptop 15-gw0xxx
 6a7db25aad8ce6512b366d2ce1d0e60bac00a09d ALSA: dmaengine_pcm: terminate dmaengine before synchronize
 b1c4b4d45263241ec6c2405a8df8265d4b58e707 net: dsa: microchip: fix wrong register write when masking interrupt
+529038146ba189f7551d64faf4f4871e4ab97538 thermal: gov_step_wise: Go straight to instance->lower when mitigation is over
 cea5589e958f8aef301ce9d004bc73fa5bb3b304 s390/boot: Do not adjust GOT entries for undef weak sym
 d3882564a77c21eb746ba5364f3fa89b88de3d61 syscalls: fix compat_sys_io_pgetevents_time64 usage
 bae6428a9fffb2023191b0723e276cf1377a7c9f sparc: fix old compat_sys_select()
@@ -380,8 +383,7 @@ ab9e0c529eb7cafebdd31fe1644524e80a48b05d ata: libata-core: Fix double free on er
 eeb25a09c5e0805d92e4ebd12c4b0ad0df1b0295 ata: ahci: Clean up sysfs file on error
 aca7c377d8cacc1d2181345fafa94f63ab1ff39f Merge tag 'ata-6.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 22a40d14b572deb80c0648557f4bd502d7e83826 Linux 6.10-rc6
-aaa18ff54b97706b84306b6613630262706b1f6b thermal: gov_power_allocator: Return early in manage if trip_max is NULL
-a8a261774466d8691e555ea674c193bb1b09edab thermal: core: Call monitor_thermal_zone() if zone temperature is invalid
-94eacc1c583dd2ba51a2158fb13285f5dc42714b thermal: core: Fix list sorting in __thermal_zone_device_update()
+102fa9c4b439ca3bd93d13fb53f5b7592d96a109 cpufreq: Allow drivers to advertise boost enabled
+d92467ad9d9ee63a700934b9228a989ef671d511 cpufreq: ACPI: Mark boost policy as enabled when setting boost
 
---===============3926643673456628765==--
+--===============6028935144435635374==--
