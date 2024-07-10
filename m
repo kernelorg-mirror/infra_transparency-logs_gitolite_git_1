@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Wed, 10 Jul 2024 15:26:05 -0000
-Message-Id: <172062516555.10076.16615833531717529703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 10 Jul 2024 15:52:02 -0000
+Message-Id: <172062672240.28702.16639846964266468270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/asm-generic
-    old: 3db80c999debbadd5d627fb30f8b06fee331ffb6
-    new: 83bb8296556e53e1a69c6de938082028247462db
+  - ref: refs/heads/nfs-localio-for-next
+    old: 7bfb7b7cbbf138b0fa15df6ee60a287bd8393d66
+    new: e4542d1a8cf67df80bda93dfb0b10b0e38ed6c5d
     log: |
-         e435f39b57d5fb97b6df67c3d6ce2400e907a69c asm-generic/iomap.h: don't check for readq/writeq
-         83bb8296556e53e1a69c6de938082028247462db fixmap: Remove unused set_fixmap_offset_io()
-         
-  - ref: refs/heads/master
-    old: 3db80c999debbadd5d627fb30f8b06fee331ffb6
-    new: 83bb8296556e53e1a69c6de938082028247462db
-    log: |
-         e435f39b57d5fb97b6df67c3d6ce2400e907a69c asm-generic/iomap.h: don't check for readq/writeq
-         83bb8296556e53e1a69c6de938082028247462db fixmap: Remove unused set_fixmap_offset_io()
+         e4542d1a8cf67df80bda93dfb0b10b0e38ed6c5d nfs/nfsd: switch nfsd_open_local_fh() to using nfsd_file_acquire_local()
          
