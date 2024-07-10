@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 10 Jul 2024 18:21:03 -0000
-Message-Id: <172063566395.10746.482519398143626530@gitolite.kernel.org>
+Date: Wed, 10 Jul 2024 18:23:17 -0000
+Message-Id: <172063579786.11602.6565206393953685384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/drivers-for-6.11
-    old: 9bc1e34a7b0c91d790eab2db4eea05175d248c68
-    new: e4b5a39c2fca597f10f1aa4c12f8f90dcd9431bd
+  - ref: refs/tags/sunxi-drivers-for-6.11-2
+    old: e31e9b694bd2b73c4b4abc7231016e67646508a9
+    new: a2091a550ae8ccef4a14db781deddaa8ce74b386
     log: |
          e4b5a39c2fca597f10f1aa4c12f8f90dcd9431bd bus: sunxi-rsb: Constify struct regmap_bus
          
