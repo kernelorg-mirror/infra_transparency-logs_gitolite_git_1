@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 Jul 2024 20:19:59 -0000
-Message-Id: <172064279964.32456.8576887481896861819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 10 Jul 2024 20:21:48 -0000
+Message-Id: <172064290849.2480.17291616758135684443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 60a6707f582ebbdfb6b378f45d7bf929106a1cd5
-    new: a43fe27d650375cd9e5ea915c538f6f9eabd185e
-    log: |
-         a43fe27d650375cd9e5ea915c538f6f9eabd185e riscv: Optimize crc32 with Zbc extension
-         
+  - ref: refs/tags/mm-hotfixes-stable-2024-07-10-13-19
+    old: 0000000000000000000000000000000000000000
+    new: b20b96e7bdd28d42123c95363a8b73c0cac6900b
