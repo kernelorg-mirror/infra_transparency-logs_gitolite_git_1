@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 10 Jul 2024 18:57:12 -0000
-Message-Id: <172063783267.4523.7544401887122976065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 10 Jul 2024 19:02:14 -0000
+Message-Id: <172063813462.8057.15965126969265355935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
   - ref: refs/heads/for-next
-    old: eeb23b54e447ea62b247d89681f0140abab00d7f
-    new: ec5b8c76ab1c6d163762d60cfbedcd27e7527144
+    old: e87621ac68fec9086d9f0af4fe96594dd8e07fbb
+    new: a6f807e0dfd4e1730c35058d7419cad88c668f4a
     log: |
-         a3016a27cea8e6d10b200b9e19c19961c402d106 selftests/bpf: Add backlog for network_helper_opts
-         7046345d48adcc3f519e7b6192184f6049908bdb selftests/bpf: Add ASSERT_OK_FD macro
-         adae187ebedcd95d02f045bc37dfecfd5b29434b selftests/bpf: Close fd in error path in drop_on_reuseport
-         14fc6fcd35e7dde6d1de062b6711476b3050b22e selftests/bpf: Use start_server_str in sk_lookup
-         d9810c43f660fd502c5003244a5e9c181aa7df99 selftests/bpf: Use start_server_addr in sk_lookup
-         9004054b1629d481fedea2d92b880f79fc6fa81b selftests/bpf: Use connect_fd_to_fd in sk_lookup
-         ec5b8c76ab1c6d163762d60cfbedcd27e7527144 Merge branch 'use network helpers, part 8'
+         61b9a02f14952fb332b82f10ca5b2627fa9202ad dm: introduce the target flag mempool_needs_integrity
+         a6f807e0dfd4e1730c35058d7419cad88c668f4a dm-integrity: introduce the Inline mode
          
