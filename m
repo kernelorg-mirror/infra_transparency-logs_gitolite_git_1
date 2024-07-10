@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 10 Jul 2024 09:32:08 -0000
-Message-Id: <172060392842.24756.2191975162170827553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 10 Jul 2024 10:02:14 -0000
+Message-Id: <172060573431.27974.3993138766515069477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 9771bb106ce6eedc20043e99217089923a55b120
-    new: 5a2ef794e70580525e2f51172ee929e511591d6d
+  - ref: refs/heads/experimental
+    old: 6771eb6907b20a00de196a76432140a5a6d6197c
+    new: 0ec7462ddbe9542b5fc3980733501fddcfb7dba9
     log: |
-         32c56a21a2a5f0bab9dcf6ed75b10566b60aecbf meson: po: disable if nls is disabled
-         b64b769b40163dd3fc70b933a08babd4d781aba3 unshare: Add options to identity map the user's subordinate uids and gids
-         36bda82703a9467f3465271e4393ed0328a4fa47 Merge branch 'mess' of https://github.com/neheb/util-linux
-         5a2ef794e70580525e2f51172ee929e511591d6d Merge branch 'bug3120' of https://github.com/dgibson/util-linux
+         292c27d4bfc9484c30c772536b92f2a27fe7ed7d erofs-utils: lib/cache.c: replace &g_sbi with sbi
+         8d429bd8c7520b557437148e9c8097b382420046 erofs-utils: add per-sbi buffer support
+         0ec7462ddbe9542b5fc3980733501fddcfb7dba9 erofs-utils: lib: drop prefix_sha256 digests
          
