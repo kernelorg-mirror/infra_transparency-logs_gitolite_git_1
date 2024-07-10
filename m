@@ -1,103 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3812950228453372536=="
+Content-Type: multipart/mixed; boundary="===============4847469037531650742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 10 Jul 2024 10:35:41 -0000
-Message-Id: <172060774178.20371.5025057048949978643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 10 Jul 2024 10:35:52 -0000
+Message-Id: <172060775211.20564.1389792413256890239@gitolite.kernel.org>
 
---===============3812950228453372536==
+--===============4847469037531650742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: 2528528feafcbc0e3c5f13087d5cc873a9ee584f
-    new: 097b5bc6147b32437da6e74cdad0aceba8409e63
-    log: revlist-2528528feafc-097b5bc6147b.txt
   - ref: refs/heads/master
     old: 82d01fe6ee52086035b201cfa1410a3b04384257
     new: 523b23f0bee3014a7a752c9bb9f5c54f0eddae88
     log: revlist-82d01fe6ee52-523b23f0bee3.txt
-  - ref: refs/heads/stable
-    old: 4376e966ecb78c520b0faf239d118ecfab42a119
-    new: 34afb82a3c67f869267a26f593b6f8fc6bf35905
-    log: |
-         25a6e135569b3901452e4863c94560df7c11c492 ksmbd: return FILE_DEVICE_DISK instead of super magic
-         e2e33caa5dc2eae7bddf88b22ce11ec3d760e5cd ksmbd: discard write access to the directory open
-         f76f9bc616b7320df6789241ca7d26cedcf03cf3 selftest/timerns: fix clang build failures for abs() calls
-         73810cd45b99c6c418e1c6a487b52c1e74edb20d selftests/vDSO: fix clang build errors and warnings
-         bb2a605de3757ec8c39e5706cfac3deed5694228 selftests/vDSO: remove partially duplicated "all:" target in Makefile
-         66cde337fa1b7c6cf31f856fa015bd91a4d383e7 selftests/vDSO: remove duplicate compiler invocations from Makefile
-         b5efb63acf7bddaf20eacfcac654c25c446eabe8 s390/mm: Add NULL pointer check to crst_table_free() base_crst_free()
-         920bc844baa92fe508d9cb7c72765d6f54dfebe1 Merge tag 'linux_kselftest-fixes-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         34afb82a3c67f869267a26f593b6f8fc6bf35905 Merge tag '6.10-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
-         
-  - ref: refs/tags/next-20240410
-    old: 9d89146c82b02037263fe60252f1e5075ef0a7c5
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240710
     old: 0000000000000000000000000000000000000000
     new: faa42c8b467826e34008d5bd6f0818eb52070558
 
---===============3812950228453372536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2528528feafc-097b5bc6147b.txt
-
-7c73ddb7589fb8ddb1136b6306dfb72089c81511 jbd2: speed up jbd2_transaction_committed()
-be27cd64461c45a6088a91a04eba5cd44e1767ef ext4: use memtostr_pad() for s_volume_name
-89a8718cef859091239fa60b4b5749ecea93f55d jbd2: add missing MODULE_DESCRIPTION()
-f76f9bc616b7320df6789241ca7d26cedcf03cf3 selftest/timerns: fix clang build failures for abs() calls
-7378e8991a459f3e5672e4b06bf346adce062fd8 ext4: add missing MODULE_DESCRIPTION()
-73810cd45b99c6c418e1c6a487b52c1e74edb20d selftests/vDSO: fix clang build errors and warnings
-bb2a605de3757ec8c39e5706cfac3deed5694228 selftests/vDSO: remove partially duplicated "all:" target in Makefile
-66cde337fa1b7c6cf31f856fa015bd91a4d383e7 selftests/vDSO: remove duplicate compiler invocations from Makefile
-2d4d6bda0f7ba0f188a22698855a1397c8999df3 ext4: use ext4_update_inode_fsync_trans() helper in inode creation
-63469662cc45d41705f14b4648481d5d29cf5999 ext4: fix possible tid_t sequence overflows
-7882b0187bbeb647967a7b5998ce4ad26ef68a9a ext4: don't track ranges in fast_commit if inode has inlined data
-65121eff3e4c8c90f8126debf3c369228691c591 ext4: avoid writing unitialized memory to disk in EA inodes
-0bab8db4152c4a2185a1367db09cc402bdc62d5e jbd2: avoid mount failed when commit block is partial submitted
-4aa99c71e42ad60178c1154ec24e3df9c684fb67 jbd2: make jbd2_journal_get_max_txn_bufs() internal
-e3a00a23781c1f2fcda98a7aecaac515558e7a35 jbd2: precompute number of transaction descriptor blocks
-27ba5b67312a944576addc4df44ac3b709aabede jbd2: avoid infinite transaction commit loop
-1cf5b024a3ffa479ed14e520f81549fce037f322 jbd2: drop pointless shrinker batch initialization
-a794c9ad026f0a28044347f31929fcdb0270eadc jbd2: increase maximum transaction size
-83f4414b8f84249d538905825b088ff3ae555652 ext4: sanity check for NULL pointer after ext4_force_shutdown
-f75efefb6db305b5b5c56a9b9ae2d72b54f20780 gfs2: Clean up glock demote logic
-b5efb63acf7bddaf20eacfcac654c25c446eabe8 s390/mm: Add NULL pointer check to crst_table_free() base_crst_free()
-920bc844baa92fe508d9cb7c72765d6f54dfebe1 Merge tag 'linux_kselftest-fixes-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-34afb82a3c67f869267a26f593b6f8fc6bf35905 Merge tag '6.10-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
-f90ecec9dd1144802c216fc55be4c3fbe9d1f66f Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-7004aae020d507fc88ffba35a78a586cb2f5b2e6 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-e8ee69b5fe5da2c0afa42eb13514dc8d1bb4a566 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-e8e82087796327a140f3542825f4ddeb7fd0dfb0 cifs: fix setting SecurityFlags to true
-af7c9743097a18d9b1c81ce1df08fa686f8d5573 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-6339cba78ac1ad9fdfbd61dd7f1c53d2fbb73e6f Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-8cc4b66321014bf4f87974b53aeded8976a290df Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-f6ae55f457c0f0e2d85701c37954271c0f8303bb Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-223154425aa48c27c48d9b41db8658988226a9f9 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-c099e38b934f5623e33f710fba5f36f9a7a42cec Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-5c8ed77733a80e482c8adfa2d41765edda5d47a0 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-2f5aadd6b3d3d0d1084c9f9535fb687b6991b99c Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-0c37a9148422387875e4d1f6f6b5163d4e6db000 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
-4eb2176029c5ec65df0c92dd2ebeb802eda4be2f Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-7bb1fb14f6aed7890cedab40fa01a7db2f12ff98 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-aca0ae0bdc0d4f29a093132d4011f2d870c2c42a Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-3532ff45b6a216035d136357eca93b44132e1aca Merge branch 'linux-next' of git://git.linux-nfs.org/projects/anna/linux-nfs.git
-3f1b13b855bcde26c5825362b74321d536fdf1c6 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9b3da40e5911ab45d1ea70c3895d75eb39546a28 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-9138be2d9d28ac02ef3a89c78f18d8fe8baf04c0 Merge branch '9p-next' of git://github.com/martinetd/linux
-f52688d0b5ab2832a9dd598928fdd178d3716bfc Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-719e1c86704cf9e3ad877c9bf7facc931ed3ebd3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-097b5bc6147b32437da6e74cdad0aceba8409e63 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============3812950228453372536==
+--===============4847469037531650742==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -962,4 +888,4 @@ e971d6fdf9855861a466d09bdd4971fdd42d6551 Merge branch 'pwrseq/for-next' of git:/
 df90c2a8fbaa8d2ecea7c8d037e3d6fa66c6104a Revert "drm/omap: Allow build with COMPILE_TEST=y"
 523b23f0bee3014a7a752c9bb9f5c54f0eddae88 Add linux-next specific files for 20240710
 
---===============3812950228453372536==--
+--===============4847469037531650742==--
