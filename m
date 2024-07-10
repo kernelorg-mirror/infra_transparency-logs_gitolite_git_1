@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 10 Jul 2024 02:05:58 -0000
-Message-Id: <172057715852.27619.15773798375036399230@gitolite.kernel.org>
+Date: Wed, 10 Jul 2024 02:15:05 -0000
+Message-Id: <172057770570.3147.4317101757180915303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 746d684ea579927015cde53cff8fc365caaf93b7
-    new: 02779af2419a91f847c22e488f8d13ec301cf833
+    old: 02779af2419a91f847c22e488f8d13ec301cf833
+    new: 605c96997d89c01c11bbddb4db820ede570581c7
     log: |
-         06e71ad534881d2a09ced7509d2ab0daedac4c96 bpftool: improve skeleton backwards compat with old buggy libbpfs
-         99fb9531886d8ffa0aa9a693089784c7338518a3 libbpf: fix BPF skeleton forward/backward compat handling
-         a459f4bb27f2e2730039c57786b82288742c8c74 libbpf: improve old BPF skeleton handling for map auto-attach
-         02779af2419a91f847c22e488f8d13ec301cf833 Merge branch 'fix-libbpf-bpf-skeleton-forward-backward-compat'
+         605c96997d89c01c11bbddb4db820ede570581c7 bpf: relax zero fixed offset constraint on KF_TRUSTED_ARGS/KF_RCU
          
