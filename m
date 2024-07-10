@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8648477622350787714=="
+Content-Type: multipart/mixed; boundary="===============7159534405172612684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 10 Jul 2024 11:10:53 -0000
-Message-Id: <172060985359.13132.16671195929482538642@gitolite.kernel.org>
+Date: Wed, 10 Jul 2024 11:11:07 -0000
+Message-Id: <172060986738.13330.8630058572826301622@gitolite.kernel.org>
 
---===============8648477622350787714==
+--===============7159534405172612684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.11
     old: 299fb56df9ec25cae370eda0ce853f90e3554f35
     new: d176fadb9e783c152d0820a50f84882b6c5ae314
     log: revlist-299fb56df9ec-d176fadb9e78.txt
 
---===============8648477622350787714==
+--===============7159534405172612684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a48f6b82c5c444b6c4e2f3394c7e5719031c6b00 dm mpath: don't call dm_get_device in m
 453496b899b5f62ff193bca46097f0f7211cec46 dm raid: move _get_reshape_sectors() as prerequisite to fixing reshape size issues
 d176fadb9e783c152d0820a50f84882b6c5ae314 dm raid: fix stripes adding reshape size issues
 
---===============8648477622350787714==--
+--===============7159534405172612684==--
