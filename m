@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Wed, 10 Jul 2024 14:13:09 -0000
-Message-Id: <172062078986.19573.9313173658195025516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 10 Jul 2024 14:13:19 -0000
+Message-Id: <172062079931.19681.900025801531963367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/main
-    old: 3b3ed1b084f34510ebea0742c8fdd72a81a91cd4
-    new: 439518f2e368cac83308c804eb45a4bbf52dfd0f
+  - ref: refs/heads/review-hans
+    old: e527a6127223b644e0a27b44f4b16e16eb6c7f0a
+    new: b6e02c6b0377d4339986e07aeb696c632cd392aa
     log: |
-         439518f2e368cac83308c804eb45a4bbf52dfd0f share/doc/: Fix references to project documentation
+         b6e02c6b0377d4339986e07aeb696c632cd392aa platform/x86: toshiba_acpi: Fix array out-of-bounds access
          
