@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 10 Jul 2024 03:57:09 -0000
-Message-Id: <172058382964.11339.10362237352928482076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 10 Jul 2024 04:18:20 -0000
+Message-Id: <172058510020.27543.16243076869616435138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/dev
-    old: 2080ca1ed3e43233c4e8480c0b9d2840886de01e
-    new: 84a2ceefff99633d8f88c7c1f9bbd2c139b8f805
+  - ref: refs/heads/devres
+    old: 4f491ea63b5af3715703401737ee8903f9e43d6a
+    new: 30dc2ee0d7ffe17db5c8a62a8d920a0e7a132a66
     log: |
-         392d20ccef22cb471856f41860737e6306bee0b9 erofs: move each decompressor to its own source file
-         5a7cce827ee9e2c56fcecf5cda0ad39d9568283d erofs: refine z_erofs_{init,exit}_subsystem()
-         84a2ceefff99633d8f88c7c1f9bbd2c139b8f805 erofs: tidy up stream decompressors
+         724aa1dd6d5d36e29d3a19b404af083d462af921 PCI: Add managed pcim_intx()
+         457e43f68b7fc02b3a8100472e5f7a199527086c PCI: Remove legacy pcim_release()
+         b9bef251a1e0ab10c7f76b1aa6a26a53f28ffafa PCI: Add managed pcim_iomap_range()
+         30dc2ee0d7ffe17db5c8a62a8d920a0e7a132a66 drm/vboxvideo: fix mapping leaks
          
