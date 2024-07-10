@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 10 Jul 2024 15:56:22 -0000
-Message-Id: <172062698285.31934.7064351978131862017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Wed, 10 Jul 2024 15:57:01 -0000
+Message-Id: <172062702142.32220.16767266335349293290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/next
-    old: e903350a13daf8f495e0a04803aeb9228216c64d
-    new: 2b2ea9f19da15dc96b7fbdf583de71f5f41331fc
+  - ref: refs/heads/main
+    old: 439518f2e368cac83308c804eb45a4bbf52dfd0f
+    new: c1a8d6f57ed205495c542e9ee1a6fd2637e4ef2d
     log: |
-         e8f64ed4d9ded36088485e75a12ebf1fe136a273 selftests/breakpoints:Remove unused variable
-         2b2ea9f19da15dc96b7fbdf583de71f5f41331fc selftests/dma:remove unused variable
+         c1a8d6f57ed205495c542e9ee1a6fd2637e4ef2d share/doc/lsm: Released 0.9
          
