@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 10 Jul 2024 17:17:49 -0000
-Message-Id: <172063186907.27736.8160835659986176925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 10 Jul 2024 17:28:35 -0000
+Message-Id: <172063251540.2432.13273998488046080389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dma-static-calls
-    old: 0000000000000000000000000000000000000000
-    new: 626511abeb6b08671821c271b1550ee9064530f9
+  - ref: refs/heads/20240708_dlechner_spi_fix_spi_mux_spi_optimize_message_compatibility
+    old: c8bd922d924bb4ab6c6c488310157d1a27996f31
+    new: 0000000000000000000000000000000000000000
