@@ -1,56 +1,125 @@
-Content-Type: multipart/mixed; boundary="===============1854135640136652603=="
+Content-Type: multipart/mixed; boundary="===============5565191571242584356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 10 Jul 2024 22:15:01 -0000
-Message-Id: <172064970156.21429.4221329941077502823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 10 Jul 2024 22:16:22 -0000
+Message-Id: <172064978208.23740.12953126074259562747@gitolite.kernel.org>
 
---===============1854135640136652603==
+--===============5565191571242584356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d6e1712b78251cf4470b0543bb4a8b491949aa32
-    new: 9d9a2f29aefdadc86e450308ff056017a209c755
-    log: revlist-d6e1712b7825-9d9a2f29aefd.txt
+  - ref: refs/heads/clk-allwinner
+    old: c181b16fcbb6d9ed71b26a96d0eb750feaa4d95f
+    new: 38bded815463f40bc36f28c5a60998f78c8259e6
+    log: |
+         38bded815463f40bc36f28c5a60998f78c8259e6 clk: sunxi-ng r40: Constify struct regmap_config
+         
+  - ref: refs/heads/clk-cleanup
+    old: 7b34303d9dc4f9cf2ea64285bbea26cd01a112c2
+    new: 12b02b6359598ed126c089e66b5766c461d3420e
+    log: |
+         12b02b6359598ed126c089e66b5766c461d3420e clk: mxs: Use clamp() in clk_ref_round_rate() and clk_ref_set_rate()
+         
+  - ref: refs/heads/clk-next
+    old: 0e3575a61335377a7d839978fff877869005060c
+    new: 8a8843a735ea0524c681b4fe9d210e02aeff2e01
+    log: revlist-0e3575a61335-8a8843a735ea.txt
+  - ref: refs/heads/clk-qcom
+    old: 01a0a6cc8cfd9952e72677d48d56cf6bc4e3a561
+    new: 691a01804086527bd2b4413fb0a4fbcc92f8002e
+    log: revlist-01a0a6cc8cfd-691a01804086.txt
+  - ref: refs/heads/clk-sophgo
+    old: 54cb3bb483379b0c070528974843e06aecbc9390
+    new: 00c7ded68012c5a6adb0b14635a9aae573eb81c6
+    log: |
+         1f7a04a0e673c19cc10bf4039047e11367ac5735 clk/sophgo: Using BUG() instead of unreachable() in mmux_get_parent_id()
+         00c7ded68012c5a6adb0b14635a9aae573eb81c6 clk: sophgo: Avoid -Wsometimes-uninitialized in sg2042_clk_pll_set_rate()
+         
 
---===============1854135640136652603==
+--===============5565191571242584356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6e1712b7825-9d9a2f29aefd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fa2690af573dfefb47ba6eef888797a64b6b5f3c mm: page_ref: remove folio_try_get_rcu()
-82f0b6f041fad768c28b4ad05a683065412c226e mm: prevent derefencing NULL ptr in pfn_section_valid()
-a34acf30b19bc4ee3ba2f1082756ea2604c19138 mm: vmalloc: check if a hash-index is in cpu_possible_mask
-1723f04caacb32cadc4e063725d836a0c4450694 Fix userfaultfd_api to return EINVAL as expected
-310d6c15e9104c99d5d9d0ff8e5383a79da7d5e6 mm/damon/core: merge regions aggressively when max_nr_regions is unmet
-099d90642a711caae377f53309abfe27e8724a8b mm/filemap: make MAX_PAGECACHE_ORDER acceptable to xarray
-1f789a45c3f1aa77531db21768fca70b66c0eeb1 mm/readahead: limit page cache size in page_cache_ra_order()
-3390916aca7af1893ed2ebcdfee1d6fdb65bb058 mm/filemap: skip to create PMD-sized page cache if needed
-9fd154ba926b34c833b7bfc4c14ee2e931b3d743 mm/shmem: disable PMD-sized page cache if needed
-5a4d8944d6b1e1aaaa83ea42c116b520b4ed0394 cachestat: do not flush stats in recency check
-bd225530a4c717714722c3731442b78954c765b3 mm/hugetlb_vmemmap: fix race with speculative PFN walkers
-a9e1ddc09ca55746079cc479aa3eb6411f0d99d4 nilfs2: fix kernel bug on rename operation of broken directory
-9307a998cb9846a2557fdca286997430bee36a2a scsi: ufs: core: Fix ufshcd_clear_cmd racing issue
-74736103fb4123c71bf11fb7a6abe7c884c5269e scsi: ufs: core: Fix ufshcd_abort_one racing issue
-7a6bbc2829d4ab592c7e440a6f6f5deb3cd95db4 scsi: sd: Do not repeat the starting disk message
-f442fa6141379a20b48ae3efabee827a3d260787 mm: gup: stop abusing try_grab_folio
-2fe29fe945637b9834c5569fbb1c9d4f881d8263 lib/build_OID_registry: avoid non-destructive substitution for Perl < 5.13.2 compat
-be9581ea8c058d81154251cb0695987098996cad mm: fix crashes from deferred split racing folio migration
-1e3d28fe03cdac1f58402e4da1e1e59fb70d145f MAINTAINERS: mailmap: update Lorenzo Stoakes's email address
-5a5aa3c3769051c02a2210cc1b7e12a0833b76c9 sched.h: always_inline alloc_tag_{save|restore} to fix modpost warnings
-86e50ab6f8a0f5d5e933bece9d0b1d0ddaa4162e arch/xtensa: always_inline get_current() and current_thread_info()
-24be02a42181f0707be0498045c4c4b13273b16d filemap: replace pte_offset_map() with pte_offset_map_nolock()
-5596d9e8b553dacb0ac34bcf873cbbfb16c3ba3e mm/hugetlb: fix potential race in __update_and_free_hugetlb_folio()
-f708f6970cc9d6bac71da45c129482092e710537 mm/hugetlb: fix kernel NULL pointer dereference when migrating hugetlb folio
-ef2b7eb55e10294f4f384f21506ef20a6184128c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-9d9a2f29aefdadc86e450308ff056017a209c755 Merge tag 'mm-hotfixes-stable-2024-07-10-13-19' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1720649779 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1720649780-8ce5c64c2d7a230af5ed035170442366de7851a9
 
---===============1854135640136652603==--
+c181b16fcbb6d9ed71b26a96d0eb750feaa4d95f 38bded815463f40bc36f28c5a60998f78c8259e6 refs/heads/clk-allwinner
+7b34303d9dc4f9cf2ea64285bbea26cd01a112c2 12b02b6359598ed126c089e66b5766c461d3420e refs/heads/clk-cleanup
+0e3575a61335377a7d839978fff877869005060c 8a8843a735ea0524c681b4fe9d210e02aeff2e01 refs/heads/clk-next
+01a0a6cc8cfd9952e72677d48d56cf6bc4e3a561 691a01804086527bd2b4413fb0a4fbcc92f8002e refs/heads/clk-qcom
+54cb3bb483379b0c070528974843e06aecbc9390 00c7ded68012c5a6adb0b14635a9aae573eb81c6 refs/heads/clk-sophgo
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmaPCDMRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSXB7Q//Xv9QxBuWz0s5fG2UeUKHfsZ2vz8jlV3/
+5udcw8bDY1a6oY1M9/rbNaNRR4RT4UmAOFr3qnu9Z3/qCUeVYo4tyc8nIOP7KUZb
+HKyK2Fy0he3vjSdxwYil2zNGa9WyDJNwtvPcv9y8AwftQDoLOW7Fck5OvNA2ckIR
+00TIIttGPlMw4H2vimDLMBEy9t/9Jbu30/W4LELLFqfmBr8bJQtip/x9tc9LB1nf
+0PQt3B1vMnu0Ya72qPmMpBLwYdfQAuRqGkLKi8SGx/PjccIK9C5FduvDQFZcu4V9
+01O00ds3Cp+if7dJBJzpKQeWXU92EM88Vrr8nX5Nx1Q2/8II+YCnup0VsGSsBTwo
+UrpfvD18M9C+Gilo/n5Uv0s16+LkFBp+/mV+SOxIEkaTPhBIqwJ8k9TK/DR7kSRy
+g7JN+urXXRSKhOf1C5jhHxH4tI0uWF18JWWJoDvS4lcNST18AJRdnN7zHrBwpD1y
+W+8tv5AzYkxFRNACpWt4CN82FCIQQJcoN1O56qktYceEFQkY7ZjFrSgc1sqfpmXU
+rM2QNmgDCHVGPkR6tuyoL9q7skz6VBTy/ARBaU8O+eP8yJXGZPexPWLKjNFuKMLR
+mjKY3tLt9MJfybWCp6+hWibUh1dAPA60whG/D0vbUcDZUeJb/H/0i4P1+SLI5Lls
+FDMakD72m4E=
+=gkHO
+-----END PGP SIGNATURE-----
+
+--===============5565191571242584356==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0e3575a61335-8a8843a735ea.txt
+
+bd2d330ee608f16a0b93ea753b75c98a1898bdd0 clk: qcom: lpasscc-sc8280xp: Constify struct regmap_config
+9db4585eca22fcd0422a94ac792f87dcbf74b643 clk: qcom: kpss-xcc: Return of_clk_add_hw_provider to transfer the error
+d1f1570f3d6db5d35642092a671812e62bfba79d dt-bindings: interconnect: Add Qualcomm IPQ9574 support
+14539c88972bd984f1f04c9e601c1a2835d3e5d2 clk: qcom: gcc-x1e80100: Set parent rate for USB3 sec and tert PHY pipe clks
+6a98844a5abde99db6bb7ab048e0723a375b4cf8 dt-bindings: clock: qcom: Add AHB clock for SM8150
+b3d57c5582671831022c65ca83dedd6ce71a125a Merge branch '20240430064214.2030013-3-quic_varada@quicinc.com' into clk-for-6.11
+f45b94ffc5f1204b35b5c695ed265b1385951616 interconnect: icc-clk: Specify master/slave ids
+d3153113619216e87038a20bebf82582f9be10e7 interconnect: icc-clk: Add devm_icc_clk_register
+8737ec830ee32162858af7c1504169b05b313ab1 clk: qcom: common: Add interconnect clocks support
+23711cabe122ef55bcb2e5c3e3835b5a2a688fc0 clk: qcom: ipq9574: Use icc-clk for enabling NoC related clocks
+691a01804086527bd2b4413fb0a4fbcc92f8002e Merge tag 'qcom-clk-for-6.11-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
+c1a34c4302cb91590ff08d853878b4097bf10f55 Merge branch 'clk-qcom' into clk-next
+38bded815463f40bc36f28c5a60998f78c8259e6 clk: sunxi-ng r40: Constify struct regmap_config
+61a18bb9de683673dde61c4d370e17cdb6b516dd Merge branch 'clk-allwinner' into clk-next
+12b02b6359598ed126c089e66b5766c461d3420e clk: mxs: Use clamp() in clk_ref_round_rate() and clk_ref_set_rate()
+a578ce0baec13facd751b324a3a84e0267a2e74a Merge branch 'clk-cleanup' into clk-next
+1f7a04a0e673c19cc10bf4039047e11367ac5735 clk/sophgo: Using BUG() instead of unreachable() in mmux_get_parent_id()
+00c7ded68012c5a6adb0b14635a9aae573eb81c6 clk: sophgo: Avoid -Wsometimes-uninitialized in sg2042_clk_pll_set_rate()
+8a8843a735ea0524c681b4fe9d210e02aeff2e01 Merge branch 'clk-sophgo' into clk-next
+
+--===============5565191571242584356==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-01a0a6cc8cfd-691a01804086.txt
+
+bd2d330ee608f16a0b93ea753b75c98a1898bdd0 clk: qcom: lpasscc-sc8280xp: Constify struct regmap_config
+9db4585eca22fcd0422a94ac792f87dcbf74b643 clk: qcom: kpss-xcc: Return of_clk_add_hw_provider to transfer the error
+d1f1570f3d6db5d35642092a671812e62bfba79d dt-bindings: interconnect: Add Qualcomm IPQ9574 support
+14539c88972bd984f1f04c9e601c1a2835d3e5d2 clk: qcom: gcc-x1e80100: Set parent rate for USB3 sec and tert PHY pipe clks
+6a98844a5abde99db6bb7ab048e0723a375b4cf8 dt-bindings: clock: qcom: Add AHB clock for SM8150
+b3d57c5582671831022c65ca83dedd6ce71a125a Merge branch '20240430064214.2030013-3-quic_varada@quicinc.com' into clk-for-6.11
+f45b94ffc5f1204b35b5c695ed265b1385951616 interconnect: icc-clk: Specify master/slave ids
+d3153113619216e87038a20bebf82582f9be10e7 interconnect: icc-clk: Add devm_icc_clk_register
+8737ec830ee32162858af7c1504169b05b313ab1 clk: qcom: common: Add interconnect clocks support
+23711cabe122ef55bcb2e5c3e3835b5a2a688fc0 clk: qcom: ipq9574: Use icc-clk for enabling NoC related clocks
+691a01804086527bd2b4413fb0a4fbcc92f8002e Merge tag 'qcom-clk-for-6.11-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
+
+--===============5565191571242584356==--
