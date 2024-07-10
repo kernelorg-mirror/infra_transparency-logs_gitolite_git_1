@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 10 Jul 2024 18:29:59 -0000
-Message-Id: <172063619944.15870.2691166698416507572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 10 Jul 2024 18:39:58 -0000
+Message-Id: <172063679869.24058.15685309840882169234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: db3c7643545f56c2ff4c8aff0984549b39e4ad30
-    new: 181755017a8b4a600215f83d7e1b197dc7eeede3
+  - ref: refs/heads/master
+    old: c13fda93aca118b8e5cd202e339046728ee7dddb
+    new: eeb23b54e447ea62b247d89681f0140abab00d7f
     log: |
-         e4b5a39c2fca597f10f1aa4c12f8f90dcd9431bd bus: sunxi-rsb: Constify struct regmap_bus
-         181755017a8b4a600215f83d7e1b197dc7eeede3 Merge branch 'sunxi/drivers-for-6.11' into sunxi/for-next
+         eeb23b54e447ea62b247d89681f0140abab00d7f selftests/bpf: fix compilation failure when CONFIG_NF_FLOW_TABLE=m
          
