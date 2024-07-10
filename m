@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 10 Jul 2024 22:24:39 -0000
-Message-Id: <172065027945.28657.8317229875093573377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 10 Jul 2024 22:35:03 -0000
+Message-Id: <172065090389.4809.17924741196838761943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 370e13646ecedba196c80b40a620c8a361957b48
-    new: 68816168a39afe0fb7d1eec6165e7eedcb14f3c2
+    old: e1533b6319ab9c3a97dad314dd88b3783bc41b69
+    new: af253aef183a31ce62d2e39fc520b0ebfb562bb9
     log: |
-         68816168a39afe0fb7d1eec6165e7eedcb14f3c2 patches/next: rebase to latest mm-unstable
+         af253aef183a31ce62d2e39fc520b0ebfb562bb9 bpf: fix order of args in call to bpf_map_kvcalloc
          
