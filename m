@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 11 Jul 2024 04:20:16 -0000
-Message-Id: <172067161632.6611.1791413923751794717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 11 Jul 2024 05:03:11 -0000
+Message-Id: <172067419179.3652.7581026129488874457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/vfs-6.10-rc8.fixes
+  - ref: refs/heads/nfs-localio-for-next-testing
     old: 0000000000000000000000000000000000000000
-    new: 65ca621dfbcd680167da3658fc25dcb43f8cf44b
+    new: 4e7fd55be186f295d321164eac2341135b5f05ae
