@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 11 Jul 2024 05:16:39 -0000
-Message-Id: <172067499953.15035.6381924185642010516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 11 Jul 2024 05:28:26 -0000
+Message-Id: <172067570678.22350.14043844810693394792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: chandanbabu
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/tags/xfs-6.11-merge-3
+  - ref: refs/heads/testing/wfamnae-next20240710-cbc
     old: 0000000000000000000000000000000000000000
-    new: 501342794962bc823e7a4bf92177053480876163
+    new: f7f14525af2de6cd06d0589bd300992efac462db
