@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3922879303646879749=="
+Content-Type: multipart/mixed; boundary="===============7395644927645778117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 11 Jul 2024 04:14:09 -0000
-Message-Id: <172067124931.32305.2931850508278367311@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 04:14:24 -0000
+Message-Id: <172067126494.32489.941824826624898981@gitolite.kernel.org>
 
---===============3922879303646879749==
+--===============7395644927645778117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 14d38356ec335b97a04c00719d7b6e73b136d291
-    new: 6cd48c8f62ade6260ff9a13724e49b3854392fe4
-    log: revlist-14d38356ec33-6cd48c8f62ad.txt
+  - ref: refs/heads/for-next
+    old: dbe36d24953312a8fb9450e9e0635d83dbc6f913
+    new: 96a28221664f3fc138e88207866ab1d2c1ae14ec
+    log: revlist-dbe36d249533-96a28221664f.txt
 
---===============3922879303646879749==
+--===============7395644927645778117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14d38356ec33-6cd48c8f62ad.txt
+Content-Disposition: attachment; filename=revlist-dbe36d249533-96a28221664f.txt
 
 5e0bf3e8aec2cbc51123f84b29aaacbd91fc56fa scsi: lpfc: Fix a possible null pointer dereference
 4d66ecc6e5a5df965b43edace2d41d19ed15a2ea scsi: ufs: qcom: Add missing MODULE_DESCRIPTION() macro
@@ -40,6 +40,9 @@ ed7dac86f1406d73aed21d0cd1563922031a2fd8 scsi: ufs: qcom: Enable suspending clk 
 7cbff570dbe8907e23bba06f6414899a0fbb2fcc scsi: ufs: core: Remove SCSI host only if added
 e4f949ef1516c0d74745ee54a0f4882c1f6c7aea scsi: pm80xx: Set phy->enable_completion only when we wait for it
 76a20140ef768133697c04dc19bf7e81706905c7 scsi: pm8001: Update log level when reading config table
+9307a998cb9846a2557fdca286997430bee36a2a scsi: ufs: core: Fix ufshcd_clear_cmd racing issue
+74736103fb4123c71bf11fb7a6abe7c884c5269e scsi: ufs: core: Fix ufshcd_abort_one racing issue
+7a6bbc2829d4ab592c7e440a6f6f5deb3cd95db4 scsi: sd: Do not repeat the starting disk message
 e999ef15423b35473c0d94ff3dd2011a0f7ddb04 scsi: lpfc: Cancel ELS WQE instead of issuing abort when SLI port is inactive
 9609385dd91b26751019b22ca9bfa4bec7602ae1 scsi: lpfc: Allow DEVICE_RECOVERY mode after RSCN receipt if in PRLI_ISSUE state
 aeaf117cc7d28b994652491c87b929d853519d20 scsi: lpfc: Relax PRLI issue conditions after GID_FT response
@@ -53,5 +56,8 @@ f65f31ac120bd2c308bf16b18e5ee74445c06446 scsi: lpfc: Fix incorrect request len m
 1c342b0548e3f53a4478f8d7bcb5af34b361787f scsi: mpi3mr: Prevent PCI writes from driver during PCI error recovery
 cf82b9e866b644d5eca38b55403e1efa8f1cc8da scsi: mpi3mr: Driver version update
 6cd48c8f62ade6260ff9a13724e49b3854392fe4 Merge patch series "mpi3mr: Support PCI Error Recovery"
+2874b9788b4cdc3e43c46e5435443216d4cd3be5 Merge branch 'fixes' into for-next
+de12220669bee04939ef757bc85c56786890dc4b Merge branch 'misc' into for-next
+96a28221664f3fc138e88207866ab1d2c1ae14ec Merge branch 'misc' into for-next
 
---===============3922879303646879749==--
+--===============7395644927645778117==--
