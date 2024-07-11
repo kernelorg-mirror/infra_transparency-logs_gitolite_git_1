@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3672462229523053853=="
+Content-Type: multipart/mixed; boundary="===============5711481292216224069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 11 Jul 2024 02:55:50 -0000
-Message-Id: <172066655037.8245.4539533140556938305@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 02:56:08 -0000
+Message-Id: <172066656824.8453.7752646751977912988@gitolite.kernel.org>
 
---===============3672462229523053853==
+--===============5711481292216224069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,101 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 06b91c00db396fafeed4c3201597bf3ed8261511
-    new: 6cd48c8f62ade6260ff9a13724e49b3854392fe4
-    log: revlist-06b91c00db39-6cd48c8f62ad.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 2b82e16fe8dbe6da8babbfd4ee2ffeccfdfff1a9
+    new: 04917d2f180064094f46ab24e5f4a535a4fec3e5
+    log: revlist-2b82e16fe8db-04917d2f1800.txt
 
---===============3672462229523053853==
+--===============5711481292216224069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1720666548 -0400
+pusher 75C5DE3D 1720666554 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1720666548-f250914f467a4ab07dd36b8fdb4b2d8f7a93598b
+nonce 1720666554-f45f0b7aaa3572108fccf59cf9d18d56c05076b0
 
-06b91c00db396fafeed4c3201597bf3ed8261511 6cd48c8f62ade6260ff9a13724e49b3854392fe4 refs/heads/queue
+2b82e16fe8dbe6da8babbfd4ee2ffeccfdfff1a9 04917d2f180064094f46ab24e5f4a535a4fec3e5 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaPSbQACgkQ7ulgGnXF
-3j0stRAAp+cBnv4I4t6wd+U1K33ElAnIkwvuuSE9Cr7CRZKJwCra4PENGtvpo8KZ
-6d5trXMUN8lQvDADzz8Xv0lXRZJii6kXChF45kB2vKFggeVj2zMEZSCM4F0HFYYn
-OQzBobR7oQDEfZgjlN5cUxm/tfERYqIupsiMFl8LrqYf4Kf6mIRGSTlwLIIhgkga
-Wbs8o0mSWl/Aqz5W6PffhpcFpWBsIzhAPcZtR59/dhKviaIKNM4eqf4RfKTqvVAz
-bO3s3YQTdd7+whqa9l7n03XcT0TNwAGpEgIr4FRxj9F74jrVcWCMRsIsr80g27BM
-djwzLcpw/S4nc9eOdTujewQ+pgp2onk+LThBAZZy6UlIPMKlspQqmSl/HoZPl2jp
-ICVHiGR2TRWQ1aJkuM1Gylw0pzT5zoWL6kz4QBSd3Dc7dgICO7fRpouzu4KcQinS
-m1RpMIBeZVDQTGJdMtoDDUeaDEa6Hxj9bWkH4rY0qI0BueoS5daXteyhmXWXgNga
-zfgFmTGqgouDbS5MQWrGmpQq9EGPfmiIONriJXAKpTeHr+EkIXIVQk0iUp+JpKrh
-RJlkznHGZ1P1v6BcqgH3pq1YUjYaX0mOCbIHoELnkBUZbCeNykpjQs8c+q9Mz7E2
-WOmco3Iy+5LyDxPUCVMNx6uu+B+Wlch5EQNlkAsxtINU1swzFR4=
-=8oLX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaPSboACgkQ7ulgGnXF
+3j09FA/7BN6wScAVxfxMWWOyKO/Y7YMOLQFlXcEUH5yq8Jget+5akhxstBfdnPUK
+5pC1vFPQpSW3e4DidXEL5rHNfLiUujjokuCQrE8/Bgp979xXrSNgBywCU2/VJ3nk
+DYbmB9NM+U9foDsdAtQVJ4RM+YW4Tfy42uub9Mfu28tJ/rxsxQIjJvdfzzCxbW2B
+r0Idk0keJy3h+7TwbE2BOOPuD4Q10IO+Alpxi6lz7hjNGBhRdZlgCfztT8uhD0L0
+Z1L826aucpB/ywO/FdgkjavmwJWuU2efXLKNz0qMqQYQdJ4mFPYgP3yCSDzOivh6
+7tukgRm9KtcjIbmbm1uOU2AnG8pQgPPc9GwTDs5e7gVH4DGResTHcov/vHFig/5D
+DN9LGNGHtkIpc+BLZUa+dl6D+LBiq6CLY7eoQcV5jzMt4t/VKOxSKYxyw0tkrM5e
+LzFandlmTqchohWyKQZfgFv4iReWk3i6NKQtwDkzallY1UjLoc5ANlhUYFTEsZ6n
+RLnNnK/EZFWGXJWhNKh3yubdAUMM28At0cRm/OfhykIFkDswLbkRG1DiuApRMv3k
+/XekbEeQXlJP81F4JyL/AN7Fmc58IqGQEix0Rq1jU9XyyYMikfhlE7eflCWq/EeL
+eyngMPp0WAX1nFUx3j+0lyJfKj0Wo1jCnS+oXjJm8AuAJfuFIDI=
+=ukMX
 -----END PGP SIGNATURE-----
 
---===============3672462229523053853==
+--===============5711481292216224069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06b91c00db39-6cd48c8f62ad.txt
+Content-Disposition: attachment; filename=revlist-2b82e16fe8db-04917d2f1800.txt
 
-de24085328c09e5a6dd8a8d95ad65876f097e9c1 scsi: mpi3mr: Correct a test in mpi3mr_sas_port_add()
-50183ac2cfb54e027dd36fb22ea1bd1e91e3a08b scsi: ufs: core: Suspend clk scaling on no request
-ed7dac86f1406d73aed21d0cd1563922031a2fd8 scsi: ufs: qcom: Enable suspending clk scaling on no request
-7cbff570dbe8907e23bba06f6414899a0fbb2fcc scsi: ufs: core: Remove SCSI host only if added
-e4f949ef1516c0d74745ee54a0f4882c1f6c7aea scsi: pm80xx: Set phy->enable_completion only when we wait for it
-76a20140ef768133697c04dc19bf7e81706905c7 scsi: pm8001: Update log level when reading config table
-e999ef15423b35473c0d94ff3dd2011a0f7ddb04 scsi: lpfc: Cancel ELS WQE instead of issuing abort when SLI port is inactive
-9609385dd91b26751019b22ca9bfa4bec7602ae1 scsi: lpfc: Allow DEVICE_RECOVERY mode after RSCN receipt if in PRLI_ISSUE state
-aeaf117cc7d28b994652491c87b929d853519d20 scsi: lpfc: Relax PRLI issue conditions after GID_FT response
-15e21dc6d6b7d7feb6b0262422b45da5e3c4b34f scsi: lpfc: Fix handling of fully recovered fabric node in dev_loss callbk
-ede596b1434b57c0b3fd5c02b326efe5c54f6e48 scsi: lpfc: Handle mailbox timeouts in lpfc_get_sfp_info
-f65f31ac120bd2c308bf16b18e5ee74445c06446 scsi: lpfc: Fix incorrect request len mbox field when setting trunking via sysfs
-8bc7c617642db6d8d20ee671fb6c4513017e7a7e scsi: lpfc: Revise lpfc_prep_embed_io routine with proper endian macro usages
-41972df1a56bd926a14d9670936f5278cf351968 scsi: lpfc: Update lpfc version to 14.4.0.3
-34438552c933c4567fad5ff316c45afc920fca53 Merge patch series "Update lpfc to revision 14.4.0.3"
-30bafe1774f0aa17d3247466a2d51ce1351c3331 scsi: mpi3mr: Support PCI Error Recovery callback handlers
-1c342b0548e3f53a4478f8d7bcb5af34b361787f scsi: mpi3mr: Prevent PCI writes from driver during PCI error recovery
-cf82b9e866b644d5eca38b55403e1efa8f1cc8da scsi: mpi3mr: Driver version update
-6cd48c8f62ade6260ff9a13724e49b3854392fe4 Merge patch series "mpi3mr: Support PCI Error Recovery"
+9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
+10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
+9fad9d560af5c654bb38e0b07ee54a4e9acdc5cd scsi: sr: Fix unintentional arithmetic wraparound
+51071f0831ea975fc045526dd7e17efe669dc6e1 scsi: qedf: Don't process stag work during unload and recovery
+78e88472b60936025b83eba57cffa59d3501dc07 scsi: qedf: Wait for stag work during unload
+6c3bb589debd763dc4b94803ddf3c13b4fcca776 scsi: qedf: Set qed_slowpath_params to zero before use
+e4f5f8298cf6ddae43210d236ad65ac2c6379559 scsi: mpt3sas: Add missing kerneldoc parameter descriptions
+d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
+4fedb1f0959973738ef9ac7e52ea0c260f1a3302 Merge branch '6.10/scsi-queue' into 6.10/scsi-fixes
+d53b681ce9ca7db5ef4ecb8d2cf465ae4a031264 scsi: ufs: mcq: Fix error output and clean up ufshcd_mcq_abort()
+7926d51f73e0434a6250c2fd1a0555f98d9a62da scsi: sd: Use READ(16) when reading block zero on large capacity disks
+4254dfeda82f20844299dca6c38cbffcfd499f41 scsi: mpt3sas: Avoid test/set_bit() operating in non-allocated memory
+52912ca87e2b810e5acdcdc452593d30c9187d8f scsi: core: Disable CDL by default
+77691af484e28af7a692e511b9ed5ca63012ec6e scsi: ufs: core: Quiesce request queues before checking pending cmds
+90e6f08915ec6efe46570420412a65050ec826b2 scsi: mpi3mr: Fix ATA NCQ priority support
+135c6eb27a85c8b261a2cc1f5093abcda6ee9010 scsi: ufs: core: Free memory allocated for model before reinit
+633aeefafc9c2a07a76a62be6aac1d73c3e3defa scsi: core: Introduce the BLIST_SKIP_IO_HINTS flag
+57619f3cdeb5ae9f4252833b0ed600e9f81da722 scsi: usb: uas: Do not query the IO Advice Hints Grouping mode page for USB/UAS devices
+b402a0dce64aa3e14a9bd15ab1dd87a93967f90c scsi: scsi_debug: Fix create target debugfs failure
+ab2068a6fb84751836a84c26ca72b3beb349619d scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
+9307a998cb9846a2557fdca286997430bee36a2a scsi: ufs: core: Fix ufshcd_clear_cmd racing issue
+74736103fb4123c71bf11fb7a6abe7c884c5269e scsi: ufs: core: Fix ufshcd_abort_one racing issue
+7a6bbc2829d4ab592c7e440a6f6f5deb3cd95db4 scsi: sd: Do not repeat the starting disk message
+d502dac69ac0a81231bb41f0e4e2845d7414191b scsi: ufs: core: Declare functions once
+93ef12d92f65facf8e02ad6578a898a190aa6cf4 scsi: ufs: core: Initialize struct uic_command once
+92c0b10fefe2cdae4e57ad5ff023345ea4a7134d scsi: ufs: core: Remove two constants
+b53eb9a050d76fc695258e04384e71b3fbb1e7d5 scsi: ufs: core: Rename the MASK_TRANSFER_REQUESTS_SLOTS constant
+f4750af7081d0466c187f5b72272d07148d75e67 scsi: ufs: core: Initialize hba->reserved_slot earlier
+0fca3318e550d48e9a6c844763bf9eab91c30f07 scsi: ufs: core: Inline is_mcq_enabled()
+4a8c859b44da0040a02fb12aec3384f6279c17d7 scsi: ufs: mcq: Move the "hba->mcq_enabled = true" assignment
+7e2c268dc3069b3d51a6dcd035d9b2ed3e6b1676 scsi: ufs: mcq: Move the ufshcd_mcq_enable() call
+5e2053a41984f6086460a6b377a53af46ebe2b0f scsi: ufs: mcq: Inline ufshcd_mcq_vops_get_hba_mac()
+af568c7e8292bd96f5a4f3d81dcc099bcfe7cb73 scsi: ufs: mcq: Make .get_hba_mac() optional
+5e9a522b0779fa67928b7726374e60461e8aa5c5 Merge branch '6.10/scsi-fixes' into 6.11/scsi-staging
+e30618a480cbbfc1f49ec65fea86766141b7a1df Merge patch series "UFS patches for kernel 6.11"
+c2a90eee29f41630225c9a64d26c425e1d50b401 scsi: ufs: core: Add UFSHCD_QUIRK_CUSTOM_CRYPTO_PROFILE
+ec99818afb03b1ebeb0b6ed0d5fd42143be79586 scsi: ufs: core: fold ufshcd_clear_keyslot() into its caller
+e95881e0081a30e132b5ca087f1e07fc08608a7e scsi: ufs: core: Add UFSHCD_QUIRK_BROKEN_CRYPTO_ENABLE
+8ecea3da1567e0648b5d37a6faec73fc9c8571ba scsi: ufs: core: Add fill_crypto_prdt variant op
+4c45dba50a3750a0834353c4187e7896b158bc0c scsi: ufs: core: Add UFSHCD_QUIRK_KEYS_IN_PRDT
+c96499fcb403b18b0ae0bf2e19a39f24e62dd3ac scsi: ufs: exynos: Add support for Flash Memory Protector (FMP)
+af8e69efd78561496cdd736bb1b4f7edd89b2f6b Merge patch series "Basic inline encryption support for ufs-exynos"
+c3d98b12eef8db436e32f1a8c5478be57dc15621 scsi: qla2xxx: Unable to act on RSCN for port online
+eb1d4ce2609584eeb7694866f34d4b213caa3af9 scsi: qla2xxx: validate nvme_local_port correctly
+c03d740152f78e86945a75b2ad541bf972fab92a scsi: qla2xxx: Fix for possible memory corruption
+ce2065c4cc4f05635413f63f6dc038d7d4842e31 scsi: qla2xxx: Return ENOBUFS if sg_cnt is more than one for ELS cmds
+29e222085d8907ccff18ecd931bdd4c6b1f11b92 scsi: qla2xxx: Fix flash read failure
+4475afa2646d3fec176fc4d011d3879b26cb26e3 scsi: qla2xxx: Complete command early within lock
+76f480d7c717368f29a3870f7d64471ce0ff8fb2 scsi: qla2xxx: During vport delete send async logout explicitly
+348744f27a35e087acc9378bf53537fbfb072775 scsi: qla2xxx: Fix optrom version displayed in FDMI
+beafd692461443e0fb1d61aa56886bf85ef6f5e4 scsi: qla2xxx: Reduce fabric scan duplicate code
+c449b4198701d828e40d60a2abd30970b74a1d75 scsi: qla2xxx: Use QP lock to search for bsg
+a1392b19ca59256cda627b0ed04657e8e84702b4 scsi: qla2xxx: Update version to 10.02.09.300-k
+22b8d89b9d8d84dcf161e583715e9501fd026ec1 Merge patch series "qla2xxx misc. bug fixes"
+6ca9fede7c73b3c83f4cc8ecb3c29e1d501107c6 scsi: qla2xxx: Convert comma to semicolon
+23cef42d17413d099f44ea42b622fbf23b04646f scsi: aha152x: Use DECLARE_COMPLETION_ONSTACK for non-constant completion
 
---===============3672462229523053853==--
+--===============5711481292216224069==--
