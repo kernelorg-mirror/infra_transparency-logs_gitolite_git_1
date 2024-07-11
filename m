@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4531400237218000760=="
+Content-Type: multipart/mixed; boundary="===============5813372962387572035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 11 Jul 2024 23:53:28 -0000
-Message-Id: <172074200865.18257.9833454321391853643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 11 Jul 2024 23:55:18 -0000
+Message-Id: <172074211869.20540.9284921191043650417@gitolite.kernel.org>
 
---===============4531400237218000760==
+--===============5813372962387572035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 256abd8e550ce977b728be79a74e1729438b4948
-    log: revlist-6613476e225e-256abd8e550c.txt
+  - ref: refs/heads/bootconfig/for-next
+    old: ddd53363f875eb23b6754362ce0a43f2214f0a83
+    new: 0d9c0a67b14401344183cc0f8239f8d1851637fd
+    log: revlist-ddd53363f875-0d9c0a67b144.txt
 
---===============4531400237218000760==
+--===============5813372962387572035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-256abd8e550c.txt
+Content-Disposition: attachment; filename=revlist-ddd53363f875-0d9c0a67b144.txt
 
-e60721bf3ccaebcaff8dec3548a2daa6578f9361 Merge tag 'gpio-fixes-for-v6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 dc772f8237f9b0c9ea3f34d0dc4a57d1f6a5070d Merge tag 'mm-hotfixes-stable-2024-06-07-15-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a21d2cc2f9039023105bf9f9bf1acf324d5ebf9d arm64: dts: rockchip: set correct pwm0 pinctrl on rk3588-tiger
 bbc5332b8cda95cd081cff9c405c1cfece872f20 Merge tag 'locking-urgent-2024-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1049,6 @@ d270dd21bee023ab627f34cfb77a9b89a688492a Merge tag 'pci-v6.10-fixes-2' of git://
 c6653f49e4fd3b0d52c12a1fc814d6c5b234ea15 Merge tag 'powerpc-6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 5a4bd506ddad75f1f2711cfbcf7551a5504e3f1e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 256abd8e550ce977b728be79a74e1729438b4948 Linux 6.10-rc7
+0d9c0a67b14401344183cc0f8239f8d1851637fd bootconfig: Remove duplicate included header file linux/bootconfig.h
 
---===============4531400237218000760==--
+--===============5813372962387572035==--
