@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 11 Jul 2024 09:29:06 -0000
-Message-Id: <172069014679.4283.3284155975006024862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 11 Jul 2024 09:30:40 -0000
+Message-Id: <172069024029.6573.470328907204093413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/dma-static-calls
-    old: cf17fa44fa946371ecaa561dcdc0d4b39c40c18d
-    new: f2b699aea8fff5589a674da2a567fd593ed2d386
+  - ref: refs/heads/main
+    old: c184cf94e73b04ff7048d045f5413899bc664788
+    new: 5c0b485a8c6116516f33925b9ce5b6104a6eadfd
     log: |
-         f2b699aea8fff5589a674da2a567fd593ed2d386 dma: Add IOMMU static calls with clear default ops
+         5c0b485a8c6116516f33925b9ce5b6104a6eadfd udp: Set SOCK_RCU_FREE earlier in udp_lib_get_port().
          
