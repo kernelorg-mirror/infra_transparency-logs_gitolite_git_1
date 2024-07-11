@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 11 Jul 2024 22:11:39 -0000
-Message-Id: <172073589949.8203.12702081766514381471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 11 Jul 2024 22:13:48 -0000
+Message-Id: <172073602833.9004.615530626085458987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 608c3b1e612a91fc1b811d2ae6a30ed8dbc7cab7
-    new: 1d302f626c2a23e4fd05bb810eff300e8f2174fd
+  - ref: refs/heads/master
+    old: b54dcafa809eddd8d9b85acddd6738d599831557
+    new: 6d46698494a7fd26792adfc01c8c4ae85ca53ee8
     log: |
-         1d302f626c2a23e4fd05bb810eff300e8f2174fd perf build: Conditionally add feature check flags for libtrace{event,fs}
+         6d46698494a7fd26792adfc01c8c4ae85ca53ee8 main: set the identity in the logger
          
