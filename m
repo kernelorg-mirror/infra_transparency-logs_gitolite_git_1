@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2916908378690645376=="
+Content-Type: multipart/mixed; boundary="===============2082123775612278724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Jul 2024 15:12:46 -0000
-Message-Id: <172071076630.20648.15623870925882687674@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 15:12:48 -0000
+Message-Id: <172071076868.20720.15307914974521023409@gitolite.kernel.org>
 
---===============2916908378690645376==
+--===============2082123775612278724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 6571c4b9228cdca413d45388200c902b054633e7
+  - ref: refs/heads/10GbE
+    old: 528269fe117f3b19461733a0fa408c55a5270aff
     new: d7c199e77ef2fe259ad5b1beca5ddd6c951fcba2
-    log: revlist-6571c4b9228c-d7c199e77ef2.txt
+    log: revlist-528269fe117f-d7c199e77ef2.txt
 
---===============2916908378690645376==
+--===============2082123775612278724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6571c4b9228c-d7c199e77ef2.txt
+Content-Disposition: attachment; filename=revlist-528269fe117f-d7c199e77ef2.txt
 
 f153831097b4435f963e385304cc0f1acba1c657 net: fix rc7's __skb_datagram_iter()
 01fc5142ae6b06b61ed51a624f2732d6525d8ea3 i40e: Fix XDP program unloading while removing the driver
@@ -48,4 +48,4 @@ cff3bd012a9512ac5ed858d38e6ed65f6391008c netfilter: nf_tables: prefer nft_chain_
 a819ff0cf9fa166881a3781d32909257e2033e86 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 d7c199e77ef2fe259ad5b1beca5ddd6c951fcba2 Merge tag 'nf-24-07-11' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============2916908378690645376==--
+--===============2082123775612278724==--
