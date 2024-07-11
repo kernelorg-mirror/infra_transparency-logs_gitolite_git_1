@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2494674580102487670=="
+Content-Type: multipart/mixed; boundary="===============5028254276829883898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 11 Jul 2024 02:55:40 -0000
-Message-Id: <172066654088.8020.14941319534591333736@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 02:55:45 -0000
+Message-Id: <172066654570.8120.16789095631563670268@gitolite.kernel.org>
 
---===============2494674580102487670==
+--===============5028254276829883898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b02244d351f3225b38d2dc3e1a0ae27ddcf9b9fc
-    new: 0c79be862c9516b7e9b7f957d8a50e9f1ae0aaeb
-    log: revlist-b02244d351f3-0c79be862c95.txt
+  - ref: refs/heads/6.11/scsi-queue
+    old: 06b91c00db396fafeed4c3201597bf3ed8261511
+    new: 6cd48c8f62ade6260ff9a13724e49b3854392fe4
+    log: revlist-06b91c00db39-6cd48c8f62ad.txt
 
---===============2494674580102487670==
+--===============5028254276829883898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1720666497 -0400
+pusher 75C5DE3D 1720666544 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1720666497-5e3dfab3b8be1f9ca8bf43336b503ef350c5b8a0
+nonce 1720666544-e4fea6f6f2d1020f4df92c614cc332414b111e9e
 
-b02244d351f3225b38d2dc3e1a0ae27ddcf9b9fc 0c79be862c9516b7e9b7f957d8a50e9f1ae0aaeb refs/tags/mkp-scsi-queue
+06b91c00db396fafeed4c3201597bf3ed8261511 6cd48c8f62ade6260ff9a13724e49b3854392fe4 refs/heads/6.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaPSYEACgkQ7ulgGnXF
-3j3vQBAAiZVaEBwkvrpUvJoHaHNjIUpENDvsdscFy6pkZhRGVL4RQV/I8U4CL8vU
-1SO7TkBTTrUZAAvVof+mTi8M40F3JwYuTrNUi4tmp4mqILZnIKx68dZODi8H0dSh
-IgNUSReEuLRQjC31vchx4AHM8ICnlQuT0ypsaA5/7LF/jfr0IU42bHZK1Al7G9a5
-jmU3GCzRcVJRrFzmY43fVgvPtyxwEObmZcWtg+H/PpoexY+qfwakDVx7SB4hvgAZ
-R3SC3cxO9ILYedstnl0XXpcGtjtFGJZBK5yFltsqrWwnNilmmaJOmRhQtwiQVMpQ
-uf56ZadS2ut9YzjGhmFqjyIZS1U+3YXYIaYDpq2uYc6VSVEDyNzQkLxSJq2FiJTk
-dPxc8QDVCaop95Mll4B1TsAxG3kt9cKutRPoisnD6lVQr2gls0o9Z+PyVK/7vBij
-mmt/6573d1/mW5yKJ5dgsusgCPhXCy8s8gi7qwrez2T1oH1MPCvyd05qunBsIrtS
-6jOw/2kKdQGjSwuu/lr+uZC2nADrpRt219XAGsMVu4lmI6rNFX8zHuOx7qQ3QEeR
-4Hdorz/1FiOvbOuxubJkZuqznrY+LTyQB1CgZ8lGGydW0VzNWS6rCR57hY+9dF28
-ej3gj9jdkblzZ45cD2CFcYUAjwZ5yRJfNloP1k5WdKMWW9npXJc=
-=QnFd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaPSbAACgkQ7ulgGnXF
+3j15rw//aHuI3KXXn2YD6SVcB/QV9R6Z5+B+xzQ+3PgvSHbPwV32U8stQ3nZulnw
+Ab32Jvy8N9kSqCdVF2YhZFXN1pp3gZPRBAaYclv8V/0sqldJjF/ATYYDUmFIBfB8
+WZTOT1Iqueedk1vwLfVskBBeWtnLpIULyxiGliEbw5eVt4Ore4q6RxsPgBN0CRgR
+KOetnOP1Dzs9B+H/VHfkfkYPmXNDJDToMl8Y3i6cK/80pQVH3cF0yAhpRgL6lpY3
+oq5FCkMG9EV+eBTnjStdfhwolJZuws+ioIdDnmrTQKPWxyqPseP5XUBYufyW6oP7
+hJq7NGIAT46IyvGgVHVqIAbZYS/LSLir76B5y5VKsK4XbHbCWR9UsEiIB7aVYWF1
+W90dUaYb3rMUIzfJgmnPZ29baOEb++LMeTlWQR0I09lPSX4xJTW2tjKk5U829nly
+Yn92w5C53B4b3Pz0O+hs48hNnI6oWG7YgRBq106mxgZ+DUGWZfmUdlYhufetsTbp
+ZptpsBojskHeGun072uGwJYkXSJGrUW3PubHHm+34FCz2nuE30m60yOcESEZv1Nz
+qu0oNEa7G5E7OsmkadXFIoDwBCEKWKXADNwYFB4EVEPHkZ167uC8dgvztswPlkrv
+iSEbp8XGTeztfz8fkPsGwhWwGPzV5jQBBvAhqvAXKwmbNLdbgE4=
+=6h0/
 -----END PGP SIGNATURE-----
 
---===============2494674580102487670==
+--===============5028254276829883898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b02244d351f3-0c79be862c95.txt
+Content-Disposition: attachment; filename=revlist-06b91c00db39-6cd48c8f62ad.txt
 
 de24085328c09e5a6dd8a8d95ad65876f097e9c1 scsi: mpi3mr: Correct a test in mpi3mr_sas_port_add()
 50183ac2cfb54e027dd36fb22ea1bd1e91e3a08b scsi: ufs: core: Suspend clk scaling on no request
@@ -76,4 +76,4 @@ f65f31ac120bd2c308bf16b18e5ee74445c06446 scsi: lpfc: Fix incorrect request len m
 cf82b9e866b644d5eca38b55403e1efa8f1cc8da scsi: mpi3mr: Driver version update
 6cd48c8f62ade6260ff9a13724e49b3854392fe4 Merge patch series "mpi3mr: Support PCI Error Recovery"
 
---===============2494674580102487670==--
+--===============5028254276829883898==--
