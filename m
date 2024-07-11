@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0611787407787615838=="
+Content-Type: multipart/mixed; boundary="===============4170959626686027028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Jul 2024 15:39:47 -0000
-Message-Id: <172071238796.7996.1267162411037313398@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 15:39:59 -0000
+Message-Id: <172071239940.8153.11851418389818045710@gitolite.kernel.org>
 
---===============0611787407787615838==
+--===============4170959626686027028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 7b769adc2612b495d94a4b4537ffaa725861d763
+  - ref: refs/heads/100GbE
+    old: 160b6aaa28277c1b5e46f69804f7f8f185ab7d75
     new: 58f9416d413aa2c20b2515233ce450a1607ef843
-    log: revlist-7b769adc2612-58f9416d413a.txt
+    log: revlist-160b6aaa2827-58f9416d413a.txt
 
---===============0611787407787615838==
+--===============4170959626686027028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b769adc2612-58f9416d413a.txt
+Content-Disposition: attachment; filename=revlist-160b6aaa2827-58f9416d413a.txt
 
 3699e57aae8817b232c311229ab531ee0ec39fc8 selftests: forwarding: Make vxlan-bridge-1d pass on debug kernels
 0d9e699d3421b5db83eb0cb7a708882440ee78ef net: tls: Pass union tls_crypto_context pointer to memzero_explicit
@@ -58,4 +58,4 @@ ac21add2540e1a6ed27abea47fd2234ab05c71eb ice: Implement driver functionality to 
 70838938e89c759586eb4f3b5ce29ca252c8240d ice: Implement driver functionality to dump serdes equalizer values
 58f9416d413aa2c20b2515233ce450a1607ef843 Merge branch 'ice-support-to-dump-phy-config-fec'
 
---===============0611787407787615838==--
+--===============4170959626686027028==--
