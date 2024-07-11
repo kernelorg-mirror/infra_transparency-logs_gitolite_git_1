@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0017790701518464578=="
+Content-Type: multipart/mixed; boundary="===============0611787407787615838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Jul 2024 15:39:45 -0000
-Message-Id: <172071238558.7923.18102814638606906621@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 15:39:47 -0000
+Message-Id: <172071238796.7996.1267162411037313398@gitolite.kernel.org>
 
---===============0017790701518464578==
+--===============0611787407787615838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7b769adc2612b495d94a4b4537ffaa725861d763
     new: 58f9416d413aa2c20b2515233ce450a1607ef843
     log: revlist-7b769adc2612-58f9416d413a.txt
 
---===============0017790701518464578==
+--===============0611787407787615838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ ac21add2540e1a6ed27abea47fd2234ab05c71eb ice: Implement driver functionality to 
 70838938e89c759586eb4f3b5ce29ca252c8240d ice: Implement driver functionality to dump serdes equalizer values
 58f9416d413aa2c20b2515233ce450a1607ef843 Merge branch 'ice-support-to-dump-phy-config-fec'
 
---===============0017790701518464578==--
+--===============0611787407787615838==--
