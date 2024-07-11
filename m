@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 11 Jul 2024 21:17:10 -0000
-Message-Id: <172073263008.32703.7667446160343140151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 11 Jul 2024 21:18:45 -0000
+Message-Id: <172073272534.914.9259762278302174691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 19d3c179a37730caf600a97fed3794feac2b197b
-    new: b3470da314fd8018ee237e382000c4154a942420
+  - ref: refs/tags/aux-sysfs-irqs
+    old: e79825ccdee5c52face348f90ec19e86e30a7cff
+    new: 549107d95f4b639bf86254c9f83bf8bac0c6c27e
     log: |
-         b3470da314fd8018ee237e382000c4154a942420 bpf: annotate BTF show functions with __printf
+         a808878308a8041ae10a151d69e2d22f94cae9f4 driver core: auxiliary bus: show auxiliary device IRQs
+         0477d5168bbb8767275822830b47112519a8446d net/mlx5: Expose SFs IRQs
          
