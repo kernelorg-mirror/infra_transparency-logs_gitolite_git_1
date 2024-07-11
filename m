@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Thu, 11 Jul 2024 14:43:36 -0000
-Message-Id: <172070901612.30409.8841061362624698163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 11 Jul 2024 14:46:49 -0000
+Message-Id: <172070920955.825.12436367005092651973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: f18fd94895018808eb0f0d198e730adfc66889d5
-    new: 23213c6ea5f707770d537e996350e9df48d7b302
-    log: |
-         abcaa48c7a669fb36c860eb9026cebbb40ec095b build(deps): bump google.golang.org/grpc
-         d9a933c81f7dd070d3f5c8c8235c58b16aff3b65 test-appliance: more go modules updates
-         23213c6ea5f707770d537e996350e9df48d7b302 test-appliance: build go executables with debugging information stripped out
-         
+  - ref: refs/tags/asoc-fix-v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 5abf47072e6193465bb0f724fb1e4f09a98f441e
