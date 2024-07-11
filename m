@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 11 Jul 2024 00:57:35 -0000
-Message-Id: <172065945533.12575.17652903512161971428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 11 Jul 2024 01:08:15 -0000
+Message-Id: <172066009507.25466.4396293395454957642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 076622400a11960bcb2b61286c513c538d7b3bb9
-    new: ea9c9f49cde0d022f0018bb3ff79ce13a988f1af
-    log: |
-         ea9c9f49cde0d022f0018bb3ff79ce13a988f1af foo
-         
+  - ref: refs/heads/scx-ddsp-local-on-v2
+    old: 0000000000000000000000000000000000000000
+    new: 61af43222b49c3aab3c194175c5491911b156e38
