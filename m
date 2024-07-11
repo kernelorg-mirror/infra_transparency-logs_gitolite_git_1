@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 11 Jul 2024 17:19:43 -0000
-Message-Id: <172071838340.17503.3539256267314910022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 11 Jul 2024 17:20:52 -0000
+Message-Id: <172071845231.19668.7875884361984944799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
-    new: d54e7a76c5bb587faf9b77524704704ef4fd473d
+  - ref: refs/heads/for-6.11
+    old: aacff6ebea3046b44fdd3d650ad40a17f5ba121b
+    new: b7887b8c871b85d769658b2a69dfb799eee5c2e9
     log: |
-         934f235f9cd6930d012ddb0f01c021443b926319 thermal: core: Add sanity checks for polling_delay and passive_delay
-         d54e7a76c5bb587faf9b77524704704ef4fd473d Merge branch 'thermal-core' into linux-next
+         b7887b8c871b85d769658b2a69dfb799eee5c2e9 workqueue: Simplify pool_allowed_cpus()
          
-  - ref: refs/heads/linux-next
-    old: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
-    new: d54e7a76c5bb587faf9b77524704704ef4fd473d
+  - ref: refs/heads/for-next
+    old: a865591472028375b3471295907afa960f7238b4
+    new: 3790a0bfb81d848f87b54757fa6e26e172ca7ba4
     log: |
-         934f235f9cd6930d012ddb0f01c021443b926319 thermal: core: Add sanity checks for polling_delay and passive_delay
-         d54e7a76c5bb587faf9b77524704704ef4fd473d Merge branch 'thermal-core' into linux-next
-         
-  - ref: refs/heads/testing
-    old: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
-    new: d54e7a76c5bb587faf9b77524704704ef4fd473d
-    log: |
-         934f235f9cd6930d012ddb0f01c021443b926319 thermal: core: Add sanity checks for polling_delay and passive_delay
-         d54e7a76c5bb587faf9b77524704704ef4fd473d Merge branch 'thermal-core' into linux-next
+         b7887b8c871b85d769658b2a69dfb799eee5c2e9 workqueue: Simplify pool_allowed_cpus()
+         3790a0bfb81d848f87b54757fa6e26e172ca7ba4 Merge branch 'for-6.11' into for-next
          
