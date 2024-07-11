@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Jul 2024 10:51:47 -0000
-Message-Id: <172069510760.10285.17711621285570213854@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8482122493877589629=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 11 Jul 2024 10:51:55 -0000
+Message-Id: <172069511536.10413.13735408178177041261@gitolite.kernel.org>
+
+--===============8482122493877589629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 626dfed5fa3bfb41e0dffd796032b555b69f9cde
-    new: a819ff0cf9fa166881a3781d32909257e2033e86
+  - ref: refs/heads/master
+    old: cffccacb7d2b90e860842a5ed1430310cc5d9aae
+    new: 975c5400654bb087772193915fa583e1d635c158
     log: |
-         af253aef183a31ce62d2e39fc520b0ebfb562bb9 bpf: fix order of args in call to bpf_map_kvcalloc
-         d4523831f07a267a943f0dde844bf8ead7495f13 bpf: Fail bpf_timer_cancel when callback is being cancelled
-         a6fcd19d7eac1335eb76bc16b6a66b7f574d1d69 bpf: Defer work in bpf_timer_cancel_and_free
-         0c237341d994adbafed2a0d372275de39efa4a98 Merge branch 'fixes-for-bpf-timer-lockup-and-uaf'
-         50bd5a0c658d132507673c4d59347c025dd149ed selftests/bpf: Add timer lockup selftest
-         a819ff0cf9fa166881a3781d32909257e2033e86 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         975c5400654bb087772193915fa583e1d635c158 Linux 6.9.9
          
+
+--===============8482122493877589629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720695112 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1720695111-94e3e4248a9c43e10c07d6212066d72070336160
+
+cffccacb7d2b90e860842a5ed1430310cc5d9aae 975c5400654bb087772193915fa583e1d635c158 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaPuUgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pJEQAJhMIA28J5ZgWkTXmPiJ
+SJMthJW+ZAwzXSTr52uK17eKHk/e/XRu/rv6a3JLyTogIZv+g1GjNKLtM+a3pN2I
+lMRzzvnywQact1WqyaMZVwfcE2igkldBD1ZfpuQzLWw+4ynbXic5v94T0PUB9WJ8
+69iOeFjy7k1z8T2CA6e2v4lN0RSSJs6PNoNrZOZht8vlkVCvcYG5IhsYXRFMrI1p
+FC6GMBZCpzkXY33WRW1AjHAVN/1xo3okH7tfBiKaCRdl7uPLb2z2YJVd/cjtnHKN
+Kbt5XRV7ZwhIh3T0i/rEkQZPrhFJyPOWBbEpvP9vmdBZ18kyoHhvL73T3xm65Ds+
+KicLnszziU29C5yaelmLXwE9K7QLHAa0sBdZ4hFUt4PiXYWGfZuAO986Yx6YVWdI
+uTuh/7Q9XFH6McLsTUjudjps19rtzUqUHDrxMUFEvK8KdKue/CCJzBXGBAnRGEQ/
+M0j6SaRuBodXpJ9jmpP/zfPkiU54atZtBLRRVGLdahaeg0kOdCm9fxPoiHJPButF
+MyTZ5MhF8JliGo6NJm7tAKQ7zXuP3Fa9MmLgcUwSygV1ACZqo3KSG26dv1NTRAQ8
+9zgRY+ljVwLvlX/79KLc3K4amsp3m8uvjZTNZgqAF204T9EeFEE+2GI+mEx8CVO3
+7z5ziCn3yZ19/kwSilTrIQLW
+=ApOf
+-----END PGP SIGNATURE-----
+
+--===============8482122493877589629==--
