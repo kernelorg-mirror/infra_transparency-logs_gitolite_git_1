@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============5120035734553880394=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Thu, 11 Jul 2024 06:38:41 -0000
-Message-Id: <172067992150.9258.9729158612111592629@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 06:41:56 -0000
+Message-Id: <172068011614.12085.2047545857455389442@gitolite.kernel.org>
+
+--===============5120035734553880394==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,18 +16,28 @@ repo: pub/scm/linux/kernel/git/vireshk/linux
 user: vireshk
 changes:
   - ref: refs/heads/rust/cpufreq-dt
-    old: fc96c25e42aef96de62122e2c94fd81fab04a35c
-    new: a88f72b01fbc2b5f10e959aa6a84ab56e0738522
-    log: |
-         b4cdfaa67231409ba04031aa22778558b827b11b rust: Add initial bindings for OPP framework
-         d5c7300dd10c19b90f9d27258fb2e08053066178 rust: Extend OPP bindings for the OPP table
-         1a586e2b37901e237cc5f265cd430902f0386d5e rust: Extend OPP bindings for the configuration options
-         fd193126810ac2b1304494b4de5bd116a0eacac7 rust: Add initial bindings for cpufreq framework
-         66f748a562e82e3a4011dbdd76b639abf97700d5 rust: Extend cpufreq bindings for policy and driver ops
-         bff258fcf6a40662251776281e4d78e64d62cffd rust: Extend cpufreq bindings for driver registration
-         57b8df246fe96fc9d1415ad9a3b53bb46d9eb237 rust: Extend OPP bindings with CPU frequency table
-         9fe6451a30b9170bb7c2d3d94c43aea3d514b674 cpufreq: Add Rust based cpufreq-dt driver
-         d7f2b75cfbf54dea48fbb4258a31e0796f941bd9 defconfig: Run saveconfig
-         83357599d951c45745f37ecdd8d3f0750884fad8 defconfig: Update Rust and initramfs
-         a88f72b01fbc2b5f10e959aa6a84ab56e0738522 debug
-         
+    old: a88f72b01fbc2b5f10e959aa6a84ab56e0738522
+    new: 963c449e0ed7c4726f660b0a2e4763f501c07c70
+    log: revlist-a88f72b01fbc-963c449e0ed7.txt
+
+--===============5120035734553880394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a88f72b01fbc-963c449e0ed7.txt
+
+7baf0c6630ab378177dd89ab53105dfb18e2ded3 rust: Add bindings for cpumask
+eda0da289c31397adbb2a92abd1de95b5b9979e4 rust: Add bindings for clk framework
+3214f87b792cf1f902cf0e5a6069f310215e3d30 rust: Add initial bindings for OPP framework
+a0594d7f0cccea2d756f730303cac8ade35cfa57 rust: Extend OPP bindings for the OPP table
+2695ca39e599bacb82cbd3f621eabfc60138575d rust: Extend OPP bindings for the configuration options
+1774628922bfd29a9b7248d1995189db6bfdd87d rust: Add initial bindings for cpufreq framework
+69353708ff40bf46f0609447187aeb180f00aeb8 rust: Extend cpufreq bindings for policy and driver ops
+8730560329eb7354a46d950f5bd84528669ebe94 rust: Extend cpufreq bindings for driver registration
+bf90317b65a5f05c614e80739c03011c7b26538a rust: Extend OPP bindings with CPU frequency table
+b1601c1dbdf68a4b812fcfaf73f3b5dea67f2025 cpufreq: Add Rust based cpufreq-dt driver
+37aa8bc58b9e673b0c396db223fb7e04fbbe3efd defconfig: Run saveconfig
+2b6d636d1c7db3b21198105ad3ed5f458f027637 defconfig: Update Rust and initramfs
+963c449e0ed7c4726f660b0a2e4763f501c07c70 debug
+
+--===============5120035734553880394==--
