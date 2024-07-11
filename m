@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 11 Jul 2024 16:00:36 -0000
-Message-Id: <172071363693.24041.7179342802315220030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 11 Jul 2024 16:07:13 -0000
+Message-Id: <172071403378.29360.2850972497220370460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/timers/core
-    old: 59dbee7d4d59425658b1d86238732c575216b718
-    new: f7d43dd206e7e18c182f200e67a8db8c209907fa
-    log: |
-         f7d43dd206e7e18c182f200e67a8db8c209907fa tick/broadcast: Make takeover of broadcast hrtimer reliable
-         
+  - ref: refs/tags/sound-6.10
+    old: 0000000000000000000000000000000000000000
+    new: e3282db64ebab1faa6b691f28ea9636b38d4cce5
