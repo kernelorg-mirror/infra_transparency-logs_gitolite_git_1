@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5117299380379805416=="
+Content-Type: multipart/mixed; boundary="===============4379882091084155937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Jul 2024 22:42:26 -0000
-Message-Id: <172073774678.31106.9744937950228164509@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 22:42:29 -0000
+Message-Id: <172073774936.31182.4733682156316382676@gitolite.kernel.org>
 
---===============5117299380379805416==
+--===============4379882091084155937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 58f9416d413aa2c20b2515233ce450a1607ef843
     new: 6937693d752e216b54845cfe8d89ced82e6a4568
     log: revlist-58f9416d413a-6937693d752e.txt
 
---===============5117299380379805416==
+--===============4379882091084155937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -239,4 +239,4 @@ a6a9fcb10836105e525ccb8bc1a6af4b20a113be net: pse-pd: pd692x0: Fix spelling mist
 24ac7e5440815bb03bdfa9bc7e43a412b050dbaa ethtool: use the rss context XArray in ring deactivation safety-check
 6937693d752e216b54845cfe8d89ced82e6a4568 Merge branch 'ethtool-use-the-rss-context-xarray-in-ring-deactivation-safety-check'
 
---===============5117299380379805416==--
+--===============4379882091084155937==--
