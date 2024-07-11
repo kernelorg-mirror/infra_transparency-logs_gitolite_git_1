@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 11 Jul 2024 15:57:52 -0000
-Message-Id: <172071347281.21041.793647852366313380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 11 Jul 2024 15:59:11 -0000
+Message-Id: <172071355134.21557.3069978074085579969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 16badacd8af48980c546839626d0329bab32b4c3
-    new: c9b8cd139c1dfb95eb86fd6a58cfe2089843d1d4
+  - ref: refs/heads/master
+    old: 18a8a4c88fb4c261f72a29b769c9463362d9687a
+    new: 19d3c179a37730caf600a97fed3794feac2b197b
     log: |
-         c9b8cd139c1dfb95eb86fd6a58cfe2089843d1d4 riscv: hwprobe: export highest virtual userspace address
+         19d3c179a37730caf600a97fed3794feac2b197b bpf, arm64: Fix trampoline for BPF_TRAMP_F_CALL_ORIG
          
