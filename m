@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3458808812946289246=="
+Content-Type: multipart/mixed; boundary="===============1990785164932624944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Jul 2024 22:30:53 -0000
-Message-Id: <172073705352.21951.13453868531198291773@gitolite.kernel.org>
+Date: Thu, 11 Jul 2024 22:30:56 -0000
+Message-Id: <172073705616.22021.3864956133918277125@gitolite.kernel.org>
 
---===============3458808812946289246==
+--===============1990785164932624944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d7c199e77ef2fe259ad5b1beca5ddd6c951fcba2
     new: 51df8e0cbaefd432f7029dde94e6c7e4e5b19465
     log: revlist-d7c199e77ef2-51df8e0cbaef.txt
 
---===============3458808812946289246==
+--===============1990785164932624944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -196,4 +196,4 @@ ef2b7eb55e10294f4f384f21506ef20a6184128c Merge tag 'scsi-fixes' of git://git.ker
 83ab4b461eb7bdf90984eb56d4954dbe11e926d4 Merge tag 'vfs-6.10-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 51df8e0cbaefd432f7029dde94e6c7e4e5b19465 Merge tag 'net-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3458808812946289246==--
+--===============1990785164932624944==--
