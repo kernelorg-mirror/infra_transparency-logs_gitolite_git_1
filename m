@@ -1,27 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 11 Jul 2024 09:56:33 -0000
-Message-Id: <172069179398.7207.12759772773605640815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 11 Jul 2024 10:01:45 -0000
+Message-Id: <172069210527.10843.12108624522552794820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: af48f95492dc1af36d9636a750ec492035c0ed7d
-    new: 4c3c4cfe0a60b160be04a77043e591229abf181a
+  - ref: refs/heads/bleeding-edge
+    old: ecea71f32ac764472931531d00cff6f94b56cc22
+    new: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
     log: |
-         15581c659a366eff042eae74b0960394435e8592 RDMA/crdma: Don't inline statistics functions
-         dd17883b0c242b19b9b16108dd8fceef1ed6ab43 RDMA/hns: Check atomic wr length
-         7aa9502ba0aaac86f5a5cc677978ddfb34572ff9 RDMA/hns: Fix soft lockup under heavy CEQE load
-         e1226904317b4fda8cbca967caa76ab8c78f156b RDMA/hns: Fix unmatch exception handling when init eq table fails
-         15d66ed71e8c511ad1896bb6762d586dd265eddd RDMA/hns: Fix missing pagesize and alignment check in FRMR
-         ab7031e560372c7ef0b326245084fb429321c6b0 RDMA/hns: Fix shift-out-bounds when max_inline_data is 0
-         a8690d81736a0067ce11ba2b460fef2f9f989e2c RDMA/hns: Fix undifined behavior caused by invalid max_sge
-         79dd1e1620f980aa6becd03ad3eeb187a7e7aaa3 RDMA/hns: Fix insufficient extend DB for VFs.
-         4c3c4cfe0a60b160be04a77043e591229abf181a RDMA/hns: Fix mbx timing out before CMD execution is completed
+         e306ff3bb8e9a12670167e430a24036ea4ae2bf9 Merge branch 'thermal-core' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 84683419423f02c74ce23fef04f9bb3e893b10c8
+    new: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
+    log: |
+         81caa5d519a2e5573e0763630a503def7cb480a5 thermal: imx: Drop critical trip check from imx_set_trip_temp()
+         b46696a4e8c47f970bcf981531cb35b053de95d6 thermal: trip: Pass trip pointer to .set_trip_temp() thermal zone callback
+         a21c9a566d3c789ba5f182b57d0fdaa1a8e881e9 thermal: trip: Fold __thermal_zone_get_trip() into its caller
+         e306ff3bb8e9a12670167e430a24036ea4ae2bf9 Merge branch 'thermal-core' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 84683419423f02c74ce23fef04f9bb3e893b10c8
+    new: e306ff3bb8e9a12670167e430a24036ea4ae2bf9
+    log: |
+         81caa5d519a2e5573e0763630a503def7cb480a5 thermal: imx: Drop critical trip check from imx_set_trip_temp()
+         b46696a4e8c47f970bcf981531cb35b053de95d6 thermal: trip: Pass trip pointer to .set_trip_temp() thermal zone callback
+         a21c9a566d3c789ba5f182b57d0fdaa1a8e881e9 thermal: trip: Fold __thermal_zone_get_trip() into its caller
+         e306ff3bb8e9a12670167e430a24036ea4ae2bf9 Merge branch 'thermal-core' into linux-next
          
