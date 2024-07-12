@@ -1,25 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 12 Jul 2024 10:25:47 -0000
-Message-Id: <172077994749.15224.15083360507639235557@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1084739668057535809=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 12 Jul 2024 10:27:55 -0000
+Message-Id: <172078007542.16087.11576079486967810264@gitolite.kernel.org>
+
+--===============1084739668057535809==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 8ed1dbb65e1651477f0790e99a747f85af159511
-    new: 53c23db96a775c82956821a5e94994dbc9f925e9
-    log: |
-         6da111574baffb3399a6bd03a98b269eac9713f2 riscv: Provide a definition for 'pause'
-         6d5852811600086f0a227a4d646b2a20b4dfe533 dt-bindings: riscv: Add Zawrs ISA extension description
-         b8ddb0df30f9f6e70422f1e705b7416da115bd24 riscv: Add Zawrs support for spinlocks
-         6ad7098c8be713320a42822398e44ad6fcd428ba riscv: hwprobe: export Zawrs ISA extension
-         06ec5ef0d74c95eef51fce609e5eb63548115562 KVM: riscv: Support guest wrs.nto
-         b0ac986a4719db81bb387eaa3253b58a572101a7 KVM: riscv: selftests: Add Zawrs extension to get-reg-list test
-         53c23db96a775c82956821a5e94994dbc9f925e9 Merge patch series "riscv: Apply Zawrs when available"
-         
+  - ref: refs/tags/char-misc-6.10-final
+    old: 0000000000000000000000000000000000000000
+    new: 9ecd28090146dbe1c1074b75cb6a1a425ac5d9d3
+
+--===============1084739668057535809==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720780071 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1720780070-39a27573c94a889168a7930230f6b504b596ce18
+
+0000000000000000000000000000000000000000 9ecd28090146dbe1c1074b75cb6a1a425ac5d9d3 refs/tags/char-misc-6.10-final
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaRBScbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zTQQAKi8cmTvRATgEVyBTpDn
+9PRJObvMxJFgOWSzYuIU+iUn6MlszST2jR8WIdnT+ebJY4Rg9TLkc5Wur9shtrkV
+AqEIAQ35l9R1U+CCsFnBtvTEDGeB5BfBTEPPsiImymp5T5+DNLZl95Dz0kY3K7U4
+t7IYk2JlJh8F1IipbH2PzZ8RwRAdalq6db0TiD/AXNl3W5EJKuQVcZTnUxtDhqLf
+COAP8d7XUwgO1PrS7n5/eZ9yxKpQN6lSg8nWuhjFw4bmyyWLbvV7wHqgEEv9bPB7
+2rt6xOd0/b2JBbk35fJSrJsEX3ygFQ1GEOUmfj3XsukGmIzT2IwxUGcV26ykEyle
+9JsHb5klhaHW4SeZl3ktYpA8zxBInv/x0L9YfwqXQBCzj+GW0vGu8V51pDG3x+d/
+GfQHr1NzaH5cenlaZuNWuCfvD3CKREV3BedLnk+flIy6N58GknNzJ/otIx/mXfKs
+4lp1A656d5AdMsiUauTt9DeYg+SdC8Yhss16lCvrMC8SzEmoTxZeYkIwyveKMdRz
+wu17To2nZw0mJCiYVH0SGitVAFZf+JOorHSVy2YVcyYK6cbIXuTGzkHLCRdL9MbX
+mEaMr+rnv1ykeCNgE2tDLKwHY3h1aSdFSceTuurQasjw8aDcTs/scp7pIN5aJ0xf
+UwnMDa6+6FAj3x1RfqnmFgDg
+=EtmB
+-----END PGP SIGNATURE-----
+
+--===============1084739668057535809==--
