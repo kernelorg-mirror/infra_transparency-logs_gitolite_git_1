@@ -1,31 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Fri, 12 Jul 2024 15:43:47 -0000
-Message-Id: <172079902724.24639.1906675066060304154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 12 Jul 2024 15:50:06 -0000
+Message-Id: <172079940657.30315.3162565418407116235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/arm/smmu
-    old: ac4e52c69f2d20b13f37397f44fa3d59dc4a87f9
-    new: 9b2bc6b9a264b863a2273c02db5ee9e214e0a526
+  - ref: refs/heads/main
+    old: e94c45cfeecca20ccb1b0450b9ed7a1fa2fa4662
+    new: 367b9f3300f7d04f7b804f60b0d887ca9ae52eaf
     log: |
-         9b2bc6b9a264b863a2273c02db5ee9e214e0a526 iommu: Move IOMMU_DIRTY_NO_CLEAR define
-         
-  - ref: refs/heads/intel/vt-d
-    old: 0a3f6b3463014b03f6ad10eacc4d1d9af75d54a1
-    new: 31000732d56b43765d51e08cccb68818fbc0032c
-    log: |
-         31000732d56b43765d51e08cccb68818fbc0032c iommu/vt-d: Fix identity map bounds in si_domain_init()
-         
-  - ref: refs/heads/nvidia/tegra
-    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    new: eac93f4d4ec63423704657895ce9a4ddac7b023b
-    log: |
-         eac93f4d4ec63423704657895ce9a4ddac7b023b iommu/tegra-smmu: Pass correct fwnode to iommu_fwspec_init()
+         74e4ad17d748f29d25d0f31e070519375522e6a1 linux-firmware: add firmware for qat_402xx devices
+         367b9f3300f7d04f7b804f60b0d887ca9ae52eaf Merge branch 'qat_402xx' into 'main'
          
