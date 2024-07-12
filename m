@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 12 Jul 2024 05:04:09 -0000
-Message-Id: <172076064958.22892.3342224775747097049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 12 Jul 2024 05:36:32 -0000
+Message-Id: <172076259213.14980.3730483309814100861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 1d302f626c2a23e4fd05bb810eff300e8f2174fd
-    new: 88c9c0ae800760e1a307bbd44f885980d50ab841
+  - ref: refs/heads/next
+    old: 7fbec3482473ba2df379aeb63fdadb61355ba967
+    new: a1fbf02dc7a90573e2993fc287c29243df50f8d1
     log: |
-         2f7dfb669d06f8721dcef06eb73940fd3325aebf perf script: Fix perf script -F +metric
-         95f6b4fddc3b3d15f99aebd63621e65658b673a7 perf test: Add a test case for perf script -F +metric
-         a321448070892e433f72aa97c003bd684037f0f6 perf sched map: Add task-name option to filter the output map
-         60b7a1aa83aac28db906536d1ac9632d3074ecb9 perf sched map: Add support for multiple task names using CSV
-         698b6aa7b18272efdded0dc199a9cb0dfa687c85 perf sched map: Add --fuzzy-name option for fuzzy matching in task names
-         b72e9f96dd75302bd77954934f9fed9ba10f21b6 perf record: Fix memset out-of-range error
-         54a4d021228c75538e245ee4c795c51f0166b042 perf build x86: Fix SC2034 error in syscalltbl.sh
-         0b02b96376143358dbbd78e0f519b6c2dcc5e2c7 perf arm-spe: Support multiple Arm SPE PMUs
-         88c9c0ae800760e1a307bbd44f885980d50ab841 perf mem: Warn if memory events are not supported on all CPUs
+         4aba88c02465a9cdab24a966cf58d18b61780e6e libcommon: split out tpm2_hmacwrap
+         498e3b23d6addf7035eb8531a6a33bd39ce69883 libcommon: split out ECC wrap handing
+         648972dd24ff44b8d827486a67e1be3ef4ee0c7f libcommon: add RSA wrapping for imported keys
+         a1fbf02dc7a90573e2993fc287c29243df50f8d1 tests: add tests for RSA parent wrapped importable keys
          
