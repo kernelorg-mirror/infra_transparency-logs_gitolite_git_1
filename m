@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2396431414126437359=="
+Content-Type: multipart/mixed; boundary="===============5681286506729592395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 12 Jul 2024 15:27:49 -0000
-Message-Id: <172079806929.12539.3596940795293135399@gitolite.kernel.org>
+Date: Fri, 12 Jul 2024 15:28:01 -0000
+Message-Id: <172079808143.12711.13645021453647587943@gitolite.kernel.org>
 
---===============2396431414126437359==
+--===============5681286506729592395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,41 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 83e638ae1da17f330faf1f156d832a21ffaa5670
-    new: c8b8b8190a80b591aa73c27c70a668799f8db547
-    log: revlist-83e638ae1da1-c8b8b8190a80.txt
+  - ref: refs/heads/kvm-coco-queue
+    old: ace0c64d89750d9205aa765a78fcb530f6f2f244
+    new: 550587ffc42d8d5107aac08ba700ef5d2853336e
+    log: revlist-ace0c64d8975-550587ffc42d.txt
 
---===============2396431414126437359==
+--===============5681286506729592395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1720798064 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1720798079 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1720798063-b985f04f4426e7ceefb7c6216fe8ed5cba61c970
+nonce 1720798077-39d67feb1488c3068f249281a140b2f5874bc6f0
 
-83e638ae1da17f330faf1f156d832a21ffaa5670 c8b8b8190a80b591aa73c27c70a668799f8db547 refs/heads/queue
+ace0c64d89750d9205aa765a78fcb530f6f2f244 550587ffc42d8d5107aac08ba700ef5d2853336e refs/heads/kvm-coco-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmaRS3AUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroP5UAf+N05ZaLOE78g2xugB/NA3YNGkVJQm
-N1497quf8Irgs88O/J9js4TTSubXcYpjWgmF1j2nblB4EqV+r6kW4RFYQkyA3vNV
-onoVDMeHKv6BodMRO0WXzOWfFlUHJB0kgVBAj12/BdMrFAYwTN9OIITdfB035ocL
-rUssYnafBh7yWcKcPjj9Ka1zZV9QkDQvoJL/TsMTxewdA0fGBaGK8IxaT6nr6HRG
-SD6DPQqpwErg3+ekBBHAMJbwmIChQdFfo1Pscz4eddZWT97241KS0KyWJ18soPP7
-3EgfzsfCZrMVZNu+5FXPLv3EFPiBJAsQ/fpyxJEKnNWsbAw+npW08IqCpA==
-=xlMD
+iQFHBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmaRS38UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOhwgf48ebg0ZuqiQcNxaCrwIGpK3WiMJBe
+o5m0abxU6DuCgBFJfaVVGjdXu3klDQ3PhNzbgmelYN2ixwsHN4vKjuHCMCFxjMhF
+h8vixMecYNQFGchXvqryaFHpFi2QhKCkJAJejb+3LB/hdG/lUwyS2vpr63miWMal
+aMv44yfs1ejK8hkVSL9PNaiOjQkkRVPBWwyWFPNZSmvOxwypmyRwmESfdhbd09iQ
+Sx1Ha0xjfFlqwvslqMLry6kP3MmtspIK6/DNzBe86akuPjGp3HdShq8B6p7RQmsP
+APOS3RTXyhAag5POR7Kbzc7kIN0630WAqvSXLLz4voxrETFi6+wMU5Sv
+=VBEH
 -----END PGP SIGNATURE-----
 
---===============2396431414126437359==
+--===============5681286506729592395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83e638ae1da1-c8b8b8190a80.txt
+Content-Disposition: attachment; filename=revlist-ace0c64d8975-550587ffc42d.txt
 
-1f3512cdf8299f9edaea9046d53ea324a7730bab drm/exynos: dp: drop driver owner initialization
-fe8a08973a0dea9757394c5adbdc3c0a03b0b432 RAS/AMD/ATL: Fix MI300 bank hash
-38e3825631b1f314b21e3ade00b5a4d737eb054e drm/exynos/vidi: fix memory leak in .get_modes()
-58f880711f2ba53fd5e959875aff5b3bf6d5c32e xfs: make sure sb_fdblocks is non-negative
-f74fb5df429ebc6a614dc5aa9e44d7194d402e5a drm: panel-orientation-quirks: Add quirk for Aya Neo KUN
-5add2f7288468f35a374620dabf126c13baaea9c netdevsim: fix backwards compatibility in nsim_get_iflink()
-e3cf20e5c68df604315ab30bdbe15dc8a5da556b ARM: 9405/1: ftrace: Don't assume stack frames are contiguous in memory
-594ce0b8a998aa4d05827cd7c0d0dcec9a1e3ae2 Merge topic branches 'clkdev' and 'fixes' into for-linus
-b880018edd3a577e50366338194dee9b899947e0 drm/komeda: check for error-valued pointer
-ce62600c4dbee8d43b02277669dd91785a9b81d9 drm/bridge/panel: Fix runtime warning on panel bridge release
-97ab304ecd95c0b1703ff8c8c3956dc6e2afe8e1 ASoC: topology: Fix references to freed memory
-fd660b1bd015e5aa9a558ee04088f2431010548d ASoC: Intel: avs: Fix route override
-daf0b99d4720c9f05bdb81c73b2efdb43fa9def3 ASoC: topology: Do not assign fields that are already set
-e0e7bc2cbee93778c4ad7d9a792d425ffb5af6f7 ASoC: topology: Clean up route loading
-e3209a1827646daaab744aa6a5767b1f57fb5385 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
-d37fe4255abe8e7b419b90c5847e8ec2b8debb08 tcp: fix race in tcp_v6_syn_recv_sock()
-d029edefed39647c797c2710aedd9d31f84c069e net dsa: qca8k: fix usages of device_get_named_child_node()
-c6ae073f5903f6c6439d0ac855836a4da5c0a701 geneve: Fix incorrect inner network header offset when innerprotoinherit is set
-791b4089e326271424b78f2fae778b20e53d071b net/mlx5e: Fix features validation check for tunneled UDP (non-VXLAN) packets
-93792130a9387b26d825aa78947e4065deb95d15 Merge branch 'geneve-fixes'
-86fbd9f63a6b42b8f158361334f5a25762aea358 Bluetooth: hci_sync: Fix not using correct handle
-806a5198c05987b748b50f3d0c0cfb3d417381a4 Bluetooth: L2CAP: Fix rejecting L2CAP_CONN_PARAM_UPDATE_REQ
-c695439d198d30e10553a3b98360c5efe77b6903 Bluetooth: fix connection setup in l2cap_connect
-161f73c2c7d061a78390388811e3a6d11e99ce9d bcachefs: Split out btree_write_submit_wq
-1c8cc24eef4a0e824f75e38f82766e4baede24ca bcachefs: Fix incorrect error handling found_btree_node_is_readable()
-04f635ede85b2e7457f3029b9179079a8ac42ff4 bcachefs: Delete incorrect BTREE_ID_NR assertion
-dab1870439a1176969c5bf06247e088ad0a3551d bcachefs: fix stack frame size in fsck.c
-26447d224a7f48f669bf95a98fa29c8f50da4d63 bcachefs: fix the display format for show-super
-5ae67abcdfdfa49de84be00320ffe8a669ef674f bcachefs: Enable automatic shrinking for rhashtables
-bc65e98e68dac2c0b588e67ea75ee8674c208fc7 bcachefs: increase key cache shrinker batch size
-9ac3e660cac3e29cfc817b6a23735b70f12bd16a bcachefs: set sb->s_shrinker->seeks = 0
-2760bfe38826f65b1806f1cc62744404b5917dea bcachefs: Fix reporting of freed objects from key cache shrinker
-bf2b356afdcafa18db1b409f7039059d1fd6f25f bcachefs: Leave a buffer in the btree key cache to avoid lock thrashing
-f9035b0ce60cfaf8abd7e1cd5c55690c739aaaf6 bcachefs: Fix refcount leak in check_fix_ptrs()
-e0cb5722e112811d32d600ef750f9b39e6f684ca bcachefs: Fix snapshot_create_lock lock ordering
-9c4acd19bbff5db4629c193366f82960e38d1c6f bcachefs: Replace bucket_valid() asserts in bucket lookup with proper checks
-9432e90df1b8a544f220fd455b2fa39eed8a535d bcachefs: Check for invalid bucket from bucket_gen(), gc_bucket()
 b79922009214e6ab23c07db32a5606a45710f86e bcachefs: Add missing synchronize_srcu_expedited() call when shutting down
 31849bf07e0fb3e7d050c086b77ebdb6cec89167 drm/amdgpu: Fix the BO release clear memory warning
 07c54cc5988f19c9642fd463c2dbdac7fc52f777 tick/nohz_full: Don't abuse smp_call_function_single() in tick_setup_device()
@@ -1075,5 +1038,42 @@ f3996d4d7996ef3ccddf6bd47edfba07f35cc425 Merge branch 'kvm-prefault' into HEAD
 60d2b2f3c474b46f35c8bb47598e04ae6e44063f Merge tag 'kvm-riscv-6.11-1' of https://github.com/kvm-riscv/linux into HEAD
 f0a23883fad4ec8a63faddb9639a92be2e007624 Merge tag 'kvm-s390-next-6.11-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 c8b8b8190a80b591aa73c27c70a668799f8db547 Merge tag 'loongarch-kvm-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
+2ca1c2f05e544197372a6aff4b275f168c9b7529 KVM: guest_memfd: return folio from __kvm_gmem_get_pfn()
+b6b68308c5c883a3f2f1536fff0d5043be716db4 KVM: guest_memfd: delay folio_mark_uptodate() until after successful preparation
+d7bd8d870266dc63167129196b257c5dc883db79 KVM: guest_memfd: do not go through struct page
+adcc004ea7effe61c80f8b4fc7699f535cc9c017 KVM: rename CONFIG_HAVE_KVM_GMEM_* to CONFIG_HAVE_KVM_ARCH_GMEM_*
+38ba3c44fa161af690a06ed4be39514fc9fefc5b KVM: guest_memfd: return locked folio from __kvm_gmem_get_pfn
+d255c5e3e662d1cf089281d80b89358783608b3d KVM: guest_memfd: delay kvm_gmem_prepare_folio() until the memory is passed to the guest
+2dde2bb090451eb922152bf1c21ecd42abc28d69 KVM: guest_memfd: make kvm_gmem_prepare_folio() operate on a single struct kvm
+1fc2812459100bbeb0da34686790994bf6ab4163 KVM: remove kvm_arch_gmem_prepare_needed()
+57f8ce73d4ca79ecd34075525387de8ec4a8feca KVM: guest_memfd: move check for already-populated page to common code
+d30ff3dbbad300ffedd3b7594109b216d9ea30df KVM: cleanup and add shortcuts to kvm_range_has_memory_attributes()
+7c5f4250b0d3c93030b0d5ed93a6b0ff13c03ddf KVM: extend kvm_range_has_memory_attributes() to check subset of attributes
+bdf6c01b3bc2c4cefea511c10a5be7684a4eba40 KVM: guest_memfd: let kvm_gmem_populate() operate only on private gfns
+34c43527ee911e9fc2b843f7d93655273789339e selftests: KVM: Add a basic SNP smoke test
+65d8c6d0df6c12f4fe7bdceee273ca4897b9d363 selftests: KVM: Decouple SEV ioctls from asserts
+bb1b3a1321157c1508c61adbdd86bfaba58f5edf selftests: KVM: SEV IOCTL test
+7640062b3a80a13fa858079f34ddc8292f9325d6 selftests: KVM: SNP IOCTL test
+9a6ddc3e2e1ebe37181c5fe9714d3a3590e3a792 selftests: KVM: SEV-SNP test for KVM_SEV_INIT2
+d19fbbe44ef5cd3720086cd63b8dbfa265f295c0 KVM: Add member to struct kvm_gfn_range for target alias
+13ea95644d7c8d94bdfd39bd0f9f00d7d06ffe83 KVM: x86: Add a VM type define for TDX
+657b88b991063ecab43e51f21155292c20d60828 KVM: x86/mmu: Add an external pointer to struct kvm_mmu_page
+7c69ce78a263e09041b51ad4b7e4211d84c5e4b2 KVM: x86/mmu: Add an is_mirror member for union kvm_mmu_page_role
+a939d4e0d0b89dffabcca3e8d664da2d18c47092 KVM: x86/mmu: Make kvm_tdp_mmu_alloc_root() return void
+307be3d89b369fdadfeb2057b5353e80426d93cc KVM: x86/tdp_mmu: Take struct kvm in iter loops
+aa38cc86bd71c9faff5d284d5d5911d6c3e8789c KVM: x86/mmu: Support GFN direct bits
+131f7774f7556d7eef6a3831c0f022d44ae05a79 KVM: x86/tdp_mmu: Extract root invalid check from tdx_mmu_next_root()
+4786ab9cd2050127a0cf91c3aec02bcaf9f691d0 KVM: x86/tdp_mmu: Introduce KVM MMU root types to specify page table type
+a2dbb67cc43aae0355483aa29df2564272c003f1 KVM: x86/tdp_mmu: Take root in tdp_mmu_for_each_pte()
+81dd9614eb7e47ae3d0ceaedc4a6a93ccc7eda9c KVM: x86/tdp_mmu: Support mirror root for TDP MMU
+516378c481e46efe7344d9f9f41cdd1ca4cc682d KVM: x86/tdp_mmu: Propagate attr_filter to MMU notifier callbacks
+1a14dd406ba20445d6cb7b0a264663c2cee61e0e KVM: x86/tdp_mmu: Propagate building mirror page tables
+867b8ec20d3414c2d40e43ccfdcfb784199ebdda KVM: x86/tdp_mmu: Propagate tearing down mirror page tables
+e26c7f469ef7c3840a5cbbd2757417c67a360acb KVM: x86/tdp_mmu: Take root types for kvm_tdp_mmu_invalidate_all_roots()
+839c83a89482addba0947746352d424e033b2c9b KVM: x86/mmu: Introduce a quirk to control memslot zap behavior
+7eb91993fce29797793189394838c9fcd7fa83e6 KVM: selftests: Test slot move/delete with slot zap quirk enabled/disabled
+990538b7cb3f3eb1916b16b15bec16c9e55dfaad KVM: selftests: Allow slot modification stress test with quirk disabled
+4c3c6d2daae1a85cab3b1718e0952086897e110c KVM: selftests: Test memslot move in memslot_perf_test with quirk disabled
+550587ffc42d8d5107aac08ba700ef5d2853336e KVM: selftests: Test private access to deleted memslot with quirk disabled
 
---===============2396431414126437359==--
+--===============5681286506729592395==--
