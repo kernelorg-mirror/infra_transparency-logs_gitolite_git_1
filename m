@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 12 Jul 2024 12:58:58 -0000
-Message-Id: <172078913880.30443.4296583919476385684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Fri, 12 Jul 2024 13:09:04 -0000
+Message-Id: <172078974443.6556.13656468956258707997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/master
-    old: a6f070b3e1b2126948ca5fa189f1c6bdfcfc3304
-    new: 8da7c1e0881c57db634c25669d1f1af87d4c2aaf
+  - ref: refs/heads/main
+    old: 556b2bf4d0d50c152b9400addc53ec709511e56b
+    new: d9b3deaceff28a8795d149f32db8be4d1d09e325
     log: |
-         8da7c1e0881c57db634c25669d1f1af87d4c2aaf libkmod: improve realloc behavior for zstd outbuffer
+         d9b3deaceff28a8795d149f32db8be4d1d09e325 lib/src/a2i/: Use [[gnu::visibility("internal")]] on internal functions
          
