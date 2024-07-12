@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 12 Jul 2024 10:15:12 -0000
-Message-Id: <172077931206.8277.4144514752033246047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/i2c-tools/i2c-tools
+Date: Fri, 12 Jul 2024 10:17:16 -0000
+Message-Id: <172077943626.9074.7820255613461311446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/utils/i2c-tools/i2c-tools
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: 60a6707f582ebbdfb6b378f45d7bf929106a1cd5
-    new: c9b8cd139c1dfb95eb86fd6a58cfe2089843d1d4
+  - ref: refs/heads/master
+    old: a0e5865842918dda9cc6b6788a8c712e3a38a896
+    new: 4efe151b994bb06d2c88308134c2f71fab142ba6
     log: |
-         a43fe27d650375cd9e5ea915c538f6f9eabd185e riscv: Optimize crc32 with Zbc extension
-         56c1c1a09ab93c7b7c957860f01f8600d6c03143 riscv: Add tracepoints for SBI calls and returns
-         16badacd8af48980c546839626d0329bab32b4c3 riscv: Improve sbi_ecall() code generation by reordering arguments
-         c9b8cd139c1dfb95eb86fd6a58cfe2089843d1d4 riscv: hwprobe: export highest virtual userspace address
+         5665976bff3d5f134830a8b1527dcea58007c878 Update links for https and changed URLs
+         4efe151b994bb06d2c88308134c2f71fab142ba6 eeprog: use force option when eeprog gets data from a pipe
          
