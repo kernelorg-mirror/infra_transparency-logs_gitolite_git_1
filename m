@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 12 Jul 2024 17:30:51 -0000
-Message-Id: <172080545130.26582.216187923455099417@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0142077770068673488=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 12 Jul 2024 17:34:46 -0000
+Message-Id: <172080568600.28094.15471093058284365746@gitolite.kernel.org>
+
+--===============0142077770068673488==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea
-    new: c51cba4755609ad97ba97713210c16f043c73224
+  - ref: refs/heads/next
+    old: 02b0d3b9d4dd1ef76b3e8c63175f1ae9ff392313
+    new: 27e6a24a4cf3d25421c0f6ebb7c39f45fc14d20f
     log: |
-         0ffc5a40ad21996c1c4b1d8a636c9051ea41a76e ASoC: codecs: wcd937x-sdw: Fix Unbalanced pm_runtime_enable
-         a5f727f423101efd60a27bccd7680df429cef38a ASoC: codecs: wcd937x: Remove the string compare in MIC BIAS widget settings
-         216d04139a6d0ecaea9432178225b29d367da886 ASoC: codecs: wcd937x: Remove separate handling for vdd-buck supply
-         c51cba4755609ad97ba97713210c16f043c73224 Fix the unbalanced pm_runtime_enable in wcd937x-sdw
+         27e6a24a4cf3d25421c0f6ebb7c39f45fc14d20f mm, virt: merge AS_UNMOVABLE and AS_INACCESSIBLE
          
+
+--===============0142077770068673488==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1720805680 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1720805680-dda7c37b64a7a7f6a649a64d0117291c9086b8cf
+
+02b0d3b9d4dd1ef76b3e8c63175f1ae9ff392313 27e6a24a4cf3d25421c0f6ebb7c39f45fc14d20f refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmaRaTEUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNWnAf9FVWMUs6LIcJOvLRsjhygrV55vMxw
+2DV19FOsjqrGWtN+jtUMS6Wc/H3KpoycFvz1b8ETSbYc6KlKwP3GWiQZlRl8R5vS
+QXFH8pI2+r3UQ9ClC/Oo9k+W+NDKsRY0Mhl0yCt1aFigd0PlH+7CrDBDUAv0jztV
+H9Q6M4QGeeAzHSh7ewIBCEXx4XtCAKNRE3xe4W9RxVcV50cT9ZZskFeX38QAGEJK
+J2QcDf0no4lhuqZxkJEUxfnBuhkDNGIAvUY9/Nwg5TILqHMSzl9MSXvoM9/9E1ND
+6Q5zjz0eEMw44JIM9MiOsj+uRKJnr4AldKHeXCZL5RT726gswlRt+V9clw==
+=YAfR
+-----END PGP SIGNATURE-----
+
+--===============0142077770068673488==--
