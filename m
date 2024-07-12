@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Fri, 12 Jul 2024 02:41:43 -0000
-Message-Id: <172075210349.18248.286115192103650853@gitolite.kernel.org>
+Date: Fri, 12 Jul 2024 02:47:54 -0000
+Message-Id: <172075247422.22116.10847822011181197829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/davem/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 2a4183f864dad50f84edb6b67a2807a438f944fd
-    new: 534ea0a95e2d7b31eb1e1248d04edaffed75e366
+    old: 534ea0a95e2d7b31eb1e1248d04edaffed75e366
+    new: b6c67967897e2e02482f7bbd26232090a6e30ae5
     log: |
-         534ea0a95e2d7b31eb1e1248d04edaffed75e366 tipc: Remove unused struct declaration
+         b6c67967897e2e02482f7bbd26232090a6e30ae5 tipc: Consolidate redundant functions
          
