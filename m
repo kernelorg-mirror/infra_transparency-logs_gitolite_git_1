@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3717926970729691155=="
+Content-Type: multipart/mixed; boundary="===============4573907711479889976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Jul 2024 14:36:16 -0000
-Message-Id: <172079497693.6552.1066610876568735113@gitolite.kernel.org>
+Date: Fri, 12 Jul 2024 14:36:19 -0000
+Message-Id: <172079497976.6664.2720866685947495900@gitolite.kernel.org>
 
---===============3717926970729691155==
+--===============4573907711479889976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 6937693d752e216b54845cfe8d89ced82e6a4568
     new: 338a93cf4a18c2036b567e9f613367f7a52f2511
     log: revlist-6937693d752e-338a93cf4a18.txt
 
---===============3717926970729691155==
+--===============4573907711479889976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -248,4 +248,4 @@ b6c67967897e2e02482f7bbd26232090a6e30ae5 tipc: Consolidate redundant functions
 2146b7dd354c2a1384381ca3cd5751bfff6137d6 l2tp: fix l2tp_session_register with colliding l2tpv3 IDs
 338a93cf4a18c2036b567e9f613367f7a52f2511 net: mctp-i2c: invalidate flows immediately on TX errors
 
---===============3717926970729691155==--
+--===============4573907711479889976==--
