@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 12 Jul 2024 01:11:40 -0000
-Message-Id: <172074670028.16255.4153785175677413333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Fri, 12 Jul 2024 01:11:51 -0000
+Message-Id: <172074671134.16425.18188343331726178131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
   - ref: refs/heads/main
-    old: c9741a03dc8e491e57b95fba0058ab46b7e506da
-    new: 5e724cb688a207ae7a348d57f9ea77f475998883
+    old: c1a8d6f57ed205495c542e9ee1a6fd2637e4ef2d
+    new: 3c8ccb884527c32fb6917d28eec0d8e28015a3ed
     log: |
-         8341eee81c794db0d8dd503c2b0ea2f55eba7334 net: psample: fix flag being set in wrong skb
-         13cabc47f8ae69d24653f32c28399d493fde0a56 netdevice: define and allocate &net_device _properly_
-         5e724cb688a207ae7a348d57f9ea77f475998883 selftests: openvswitch: retry instead of sleep
+         c3e0859e8132d0aa8c387090c6d82eefbc801fb5 include/, lib/src/, share/mk/: Use inline internally
+         178a60de0396bc882baae5a5d7e6a7c7bec43810 */a2i/strtoi/, share/tests/strtoi/: Do not expose private functions in the public headers
+         19ef51139568d013a3859b71dc1c23c837b7ec71 lib/src/a2i/strtoi/: Remove unused functions
+         246251994ac6594ed73b70586b6ff21139ce3041 */a2i/a2i/: Use [[gnu::alias()]] to reduce library size
+         726d88a321a29c8d3f85fc62956114272ec21610 */a2i/a2i/: Merge files
+         9da3e3961edad5b3c49e831299a45e21423b96e5 include/, lib/src/: Use [[gnu::leaf]] and [[gnu::nothrow]]
+         3c8ccb884527c32fb6917d28eec0d8e28015a3ed share/mk/: build-*: Compile also with -Oz
          
