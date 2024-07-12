@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 12 Jul 2024 16:37:50 -0000
-Message-Id: <172080227055.18323.17166527627512394953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 12 Jul 2024 16:38:23 -0000
+Message-Id: <172080230396.18594.5502073765051654446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e3fff693da9fa0337d98dab496db3a04c5227aae
-    new: 75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea
-    log: |
-         75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea ASoC: tas2781: Add new Kontrol to set tas2563 digital Volume
-         
+  - ref: refs/heads/v2_20240704_quic_mohs_fix_the_unbalanced_pm_runtime_enable_in_wcd937x_sdw_soundwire_slave
+    old: 216d04139a6d0ecaea9432178225b29d367da886
+    new: 0000000000000000000000000000000000000000
