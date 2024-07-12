@@ -1,35 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Fri, 12 Jul 2024 18:21:05 -0000
-Message-Id: <172080846508.32422.5136765138112744824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 12 Jul 2024 18:28:50 -0000
+Message-Id: <172080893075.4455.7869950081996770080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/for-6.11
-    old: e7a6395a889a82edb1cdcebc2c66646aca454658
-    new: 1edab907b57d42e2dcf4c16a00185a89209e8700
+  - ref: refs/heads/next
+    old: a1fbf02dc7a90573e2993fc287c29243df50f8d1
+    new: 2648f3ab5f69c8c2bb0e38f7b1c49a434f727b2a
     log: |
-         fc283116d008654c8dd6ccb222372cf011d3bb80 sched: Move struct balance_callback definition upward
-         d6a05910d25e1518cb34d9f79b2313587890c5e0 sched_ext: Open-code task_linked_on_dsq()
-         3cf78c5d01d61e6a4289c5856198235011f5e84b sched_ext: Unpin and repin rq lock from balance_scx()
-         f47a818950dd5e5d16eb6e9c1713bb0bc61649cd sched_ext: s/SCX_RQ_BALANCING/SCX_RQ_IN_BALANCE/ and add SCX_RQ_IN_WAKEUP
-         5b26f7b920f76b2b9cc398c252a9e35e44bf5bb9 sched_ext: Allow SCX_DSQ_LOCAL_ON for direct dispatches
-         1edab907b57d42e2dcf4c16a00185a89209e8700 sched_ext/scx_qmap: Pick idle CPU for direct dispatch on !wakeup enqueues
-         
-  - ref: refs/heads/for-next
-    old: e7a6395a889a82edb1cdcebc2c66646aca454658
-    new: 1edab907b57d42e2dcf4c16a00185a89209e8700
-    log: |
-         fc283116d008654c8dd6ccb222372cf011d3bb80 sched: Move struct balance_callback definition upward
-         d6a05910d25e1518cb34d9f79b2313587890c5e0 sched_ext: Open-code task_linked_on_dsq()
-         3cf78c5d01d61e6a4289c5856198235011f5e84b sched_ext: Unpin and repin rq lock from balance_scx()
-         f47a818950dd5e5d16eb6e9c1713bb0bc61649cd sched_ext: s/SCX_RQ_BALANCING/SCX_RQ_IN_BALANCE/ and add SCX_RQ_IN_WAKEUP
-         5b26f7b920f76b2b9cc398c252a9e35e44bf5bb9 sched_ext: Allow SCX_DSQ_LOCAL_ON for direct dispatches
-         1edab907b57d42e2dcf4c16a00185a89209e8700 sched_ext/scx_qmap: Pick idle CPU for direct dispatch on !wakeup enqueues
+         534cff0ceca9bf3e6778d0c875240ed623ec6165 doc: clarify use of the secret parameter
+         61e59f61c3d978bfdfdae64af641af8521353161 Fix bug in handling wrapping of the secret component
+         53b1dbdb8698a8869b4595dd8d6cd506a91569bf libcommon: split out tpm2_hmacwrap
+         64b8517cfba1633fc4ca75f25f14e45eba1cfcb9 libcommon: split out ECC wrap handing
+         4f0fa6a4563a46b2a4c14ef55936d2d01eae805a libcommon: add RSA wrapping for imported keys
+         2648f3ab5f69c8c2bb0e38f7b1c49a434f727b2a tests: add tests for RSA parent wrapped importable keys
          
