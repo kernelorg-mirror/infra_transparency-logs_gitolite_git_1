@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6323747764986156894=="
+Content-Type: multipart/mixed; boundary="===============0686057294394229189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 12 Jul 2024 09:31:21 -0000
-Message-Id: <172077668156.25947.1440056517082536204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 12 Jul 2024 09:32:12 -0000
+Message-Id: <172077673248.26309.657471745830915822@gitolite.kernel.org>
 
---===============6323747764986156894==
+--===============0686057294394229189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: af46fe8c41de5b79358c3007e3854dda9c61c7dc
-    new: e777798e67d9ba46cf56ad49919c1e86c5ee3213
+  - ref: refs/heads/char-misc-testing
+    old: a5e43e2d202de39196de9fba689c34f8270782eb
+    new: 31643d84b8c3d9c846aa0e20bc033e46c68c7e7d
     log: |
-         e777798e67d9ba46cf56ad49919c1e86c5ee3213 sysfs/cpu: Make crash_hotplug attribute world-readable
+         31643d84b8c3d9c846aa0e20bc033e46c68c7e7d binder: fix hang of unregistered readers
          
 
---===============6323747764986156894==
+--===============0686057294394229189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720776680 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1720776680-bbc6c2d0d2c890a347765eb5ee976bb72333a8a4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1720776731 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1720776730-63d3f1d379c1e917c8ba71e3bf931c4058ab71ba
 
-af46fe8c41de5b79358c3007e3854dda9c61c7dc e777798e67d9ba46cf56ad49919c1e86c5ee3213 refs/heads/driver-core-next
+a5e43e2d202de39196de9fba689c34f8270782eb 31643d84b8c3d9c846aa0e20bc033e46c68c7e7d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaQ9+kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5KQQALq7pemh8k4TmPN6Ti+l
-ACdEUyM69PsfQ4Y+wNuqweuIiBzIO+83aCo4MncPmZvn6hC2j/KrEdq4dYwNc7GT
-Ta8/4lYGzJT8BWlp5tTatKRlNePFxEKdF5xN0koGSJWhb5k1p16E8LGY4UDItQkj
-ZeZpN6SzOZ38YS4XA/Iz8RVN9ny/WEVythtqcv8BpyglUUOzzrmmk3rAdIBeOXmp
-DGc8UGMEMmY+5kdTjPrl/E+XJOrrZT8NkzZyEQy/0orSIsCNwUOMNY3bRXoDBJQI
-eOGAiqE6VqXo3+OLNlSmtQXiHq6i6V1DWyxTiiaPBytf4Ggfq8JlENXQcKT0DnmY
-ESYNpDCdACyh1ZH4r/obIxPNufVxawcUjaq2TBhp9Gpj4LevBiS86o18DBV2nWc6
-l3TuoTu0VgsEvIdIy99cPbz9GVw4kB2pE+IQa9W+B8xN5TFtWF3VK/VSUF8f+2Qm
-JTcneK8vAT4LT0aTdLUS5jq+caciSuZ8Xxcj285sl+twFTbPjUHBb7EI2qfqzyDT
-7OxDpbdrIF9JFmoEYqmg+Q7lW+1oOF0eTvZcjqH+gobo19KY8qepGgFnGOV96nps
-b9Vv+t7sfIeIfwGXHEbQ4DrUXqgQZ3+eFPY2yEikW+vN243Gr5gCeEucRS2r3K9p
-hXAyoK6V9O3cfep0qmNpGnF4
-=YGFX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaQ+BsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w0kP/RpblJ+yJeLVLO1uaC2n
+9yA4eEyXYHDS1JURrYZnwMa0hvWvEP9qTNw9mF1seTGip0pgJ5+22++K/u/W+lT3
+Y4g2SWOBfEpWucz2hGQQkQns5l5jE53+zoU8Rf8M8CS0lyApK5hRHG67h2GFlDDa
+BX55Cw1jzojk8nn3wGUhObWabZceDcp8Ff8rgpsuMZOzGiXHIlgTmkGa14nqiMft
+L81YG00g9/HLO13Z9BiqPGdrbB0HQnf5wxnZQc5MxSJHFci8Jg36EBVMqYVPao1R
+jww8JFSIfYdE6d9XbZnEJB9rd2XIX+hspwJ4CDV7pW4Vt5y97N8+0E8/Y0jRwq9R
+9k888uv2HUzJ0KL3zs+/MnhnaJbKyor3Dwd6E3J0SndbJvwu2KRO7kGRGvD3LOKe
+RY4R/fnQ0bnaj89zB7a34VsaYeuYAQ++JvEPlpzSEOVFVD3IFhv9crH3cDidtLgM
+LTivDwCrsbQT59AiUgjfRgCW8Ft3q+XJFOkNgcPRuH1Ft8I/SNVESwxdkXhCQknD
+cL7Sv3fQ3cXlWf/bSie7pakU+SpvSJEjyVPPWpM0CHYf6XZzwB9PqshyACSx3wir
+rumlUZ+dzlhAp5fEgbsgUSZGQW7OiKmGd6mBPQ66x/4A1SEa8x7qqCWPIsQcnicl
+xusyPFyfZ68HcPPcv//lld09
+=LJ15
 -----END PGP SIGNATURE-----
 
---===============6323747764986156894==--
+--===============0686057294394229189==--
