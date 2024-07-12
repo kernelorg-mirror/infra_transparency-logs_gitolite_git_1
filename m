@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 12 Jul 2024 16:37:06 -0000
-Message-Id: <172080222649.17644.14483716960641197408@gitolite.kernel.org>
+Date: Fri, 12 Jul 2024 16:37:14 -0000
+Message-Id: <172080223473.17761.2195656554905985392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileBmziM5
-    old: 75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.11
+    old: e3fff693da9fa0337d98dab496db3a04c5227aae
+    new: 75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea
+    log: |
+         75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea ASoC: tas2781: Add new Kontrol to set tas2563 digital Volume
+         
