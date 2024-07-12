@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 12 Jul 2024 12:34:26 -0000
-Message-Id: <172078766690.11581.854493544884637302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Fri, 12 Jul 2024 12:37:48 -0000
+Message-Id: <172078786811.15758.13339549791500832387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/arm/fixes
-    old: dfd168e74ebe28fd9d41957262688fd78c31ef4d
-    new: 6fba5cbd323e013079b304489629a6b814110512
+  - ref: refs/heads/main
+    old: 2146b7dd354c2a1384381ca3cd5751bfff6137d6
+    new: 338a93cf4a18c2036b567e9f613367f7a52f2511
     log: |
-         6fba5cbd323e013079b304489629a6b814110512 MAINTAINERS: Update FREESCALE SOC DRIVERS and QUICC ENGINE LIBRARY
+         338a93cf4a18c2036b567e9f613367f7a52f2511 net: mctp-i2c: invalidate flows immediately on TX errors
          
-  - ref: refs/tags/arm-fixes-6.10-3
-    old: 0000000000000000000000000000000000000000
-    new: e583ef6db31b8899764fb770baae1227bccb1b62
