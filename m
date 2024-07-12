@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 12 Jul 2024 14:43:06 -0000
-Message-Id: <172079538674.12045.1724634827335448859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Fri, 12 Jul 2024 14:49:15 -0000
+Message-Id: <172079575539.15916.7057268337560462235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/tags/mmc-v6.10-rc4-2
+  - ref: refs/tags/pmdomain-v6.10-rc2
     old: 0000000000000000000000000000000000000000
-    new: 0e9819736e701e56b1c55170fe4be54968fb29db
+    new: c24fc2c4c06cc9bf7e5a7f0b60b180b0f13a9a05
   - ref: refs/tags/v6.10-rc5
     old: 0000000000000000000000000000000000000000
     new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
