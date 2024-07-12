@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Jul 2024 20:30:42 -0000
-Message-Id: <172081624231.31243.17314637792983831744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 12 Jul 2024 20:31:21 -0000
+Message-Id: <172081628125.31578.861877936737674390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7982bfdc7693f5d580c3d50a5a9b38f61c175965
-    new: 7a8a163e3fff6158d6f93f401903bd253abe40de
-    log: |
-         7a8a163e3fff6158d6f93f401903bd253abe40de ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
-         
+  - ref: refs/heads/for-6.11/xor_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8f55ada796565ce801418bf579f31a6a522d0337
