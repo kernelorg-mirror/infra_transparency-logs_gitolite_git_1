@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 13 Jul 2024 15:46:24 -0000
-Message-Id: <172088558461.25133.17615641494538091283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 13 Jul 2024 16:05:27 -0000
+Message-Id: <172088672779.6067.16863780419408305083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 8cfd8c074746e04a369e90086f1d6a0ec3367e94
-    new: 85d53fa650a024c154c0befa31a72b4484290c47
+  - ref: refs/heads/seen
+    old: d7fc709de14ab2749c16c60cc41bc0d7d55c36a1
+    new: f91192bb9521d85945ac3658558e59404a247e5d
     log: |
-         d4c6ca10d8fa55c357ab7607f6439dc9db4e08ad nfsd: add "localio" support
-         15426540e1279604f190e21970c5cb54f75277b9 nfsd: implement server support for NFS_LOCALIO_PROGRAM
-         4f6cabca4cfb2ffecf528e954f27a35d44798836 SUNRPC: replace program list with program array
-         9e178cf79322a9713b4ac8c20251a4f2e5bb16da nfs: pass struct file to nfs_init_pgio and nfs_init_commit
-         4071bd6ff3a95df3c36acdef14679b2bed99108d nfs: add "localio" support
-         77cffaa0398184f8532c0086f2f46746cf801cad nfs: enable localio for non-pNFS IO
-         1671472ae984ff13a3d75826265d3432d2e1b2a6 pnfs/flexfiles: enable localio support
-         1b4ffb0e67799effc7c98c473852b1d09f47630d nfs/localio: use dedicated workqueues for filesystem read and write
-         277793f3bdb88c6a30af1d4915d3495f4e1bf839 nfs: implement client support for NFS_LOCALIO_PROGRAM
-         85d53fa650a024c154c0befa31a72b4484290c47 nfs: add Documentation/filesystems/nfs/localio.rst
+         ac9b3e444122a4ff1f1b70b0a659c7900145ce05 clang-format: indent preprocessor directives after hash
+         f0145105b217bb0fe07e396e68db3d5d043f351c clang-format: avoid spacing around bitfield colon
+         6202d0f20d1af7e30143c61bae02fadd18d13873 clang-format: ensure files end with newlines
+         12321010e93199bf022bfec39f8d5f8e15092cd7 clang-format: replace deprecated option with 'SpacesInParens'
+         eed5199234c668c80f49d3ebcb69c27e6ff77fc9 clang-format: formalize some of the spacing rules
+         0609b98d598fcfbf88703bf04fcfde5da1b2408d ci: run style check on GitHub and GitLab
+         2441f3b1774341d188c12ce45a0459faefb7750c check-whitespace: detect if no base_commit is provided
+         f5d52114ef626f3e6c8002ce8c0c23c0d5110883 ci/style-check: add `RemoveBracesLLVM` to '.clang-format'
+         343552118fa1f2f68a023758caed4be46532cee1 Merge branch 'kn/ci-clang-format' into seen
+         f91192bb9521d85945ac3658558e59404a247e5d Merge branch 'rj/add-p-pager' into seen
          
