@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 13 Jul 2024 10:14:43 -0000
-Message-Id: <172086568346.9961.3487290186173340477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Sat, 13 Jul 2024 10:16:27 -0000
+Message-Id: <172086578750.12348.61432976006553048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/irq/core
-    old: 513fbe762f644872cc2ff47407cbc24422a33fb5
-    new: 8ca1d93bba1fde64236fc44eecb80ce6993be115
-    log: |
-         8ca1d93bba1fde64236fc44eecb80ce6993be115 irqdomain: Fix the kernel-doc and plug it into Documentation
-         
+  - ref: refs/tags/ipsec-next-2024-07-13
+    old: 0000000000000000000000000000000000000000
+    new: 8f3cc3f82efa41f4178ed5f832fc4858a1b74b56
