@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6628193911003687797=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 13 Jul 2024 08:44:16 -0000
-Message-Id: <172086025605.26442.15918356911488348785@gitolite.kernel.org>
-
---===============6628193911003687797==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Sat, 13 Jul 2024 09:09:06 -0000
+Message-Id: <172086174659.12790.8144940822224858841@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/tags/i2c-host-6.11
-    old: 0000000000000000000000000000000000000000
-    new: a817897d79550c82e230012c4eb84922a5bbc40c
-
---===============6628193911003687797==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1720860255 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1720860254-218b63b7364fbea315658c01a88771a03e4c9e78
-
-0000000000000000000000000000000000000000 a817897d79550c82e230012c4eb84922a5bbc40c refs/tags/i2c-host-6.11
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpI+XxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uoO0BAL1ANLQpUaj/RzU8HhoErfX8sP2F
-TvJnZN0S5xEx1U/RAQC3LT5YqXHxwZL3HUE9eO+0luRDv7vQ3izK2k3qZ/qNBg==
-=0By2
------END PGP SIGNATURE-----
-
---===============6628193911003687797==--
+  - ref: refs/heads/master
+    old: f531d13bdfe3f4f084aaa8acae2cb0f02295f5ae
+    new: 7dd717f8173fb84ce6c1edabaa4dc4fdb882c3bf
+    log: |
+         f7e8542d71e908706855a9f3e9e7844fea1feea0 xfrm: Support crypto offload for inbound IPv6 ESP packets not in GRO path
+         a10fb4a84a693891b2e205684456d0825363fc24 xfrm: Allow UDP encapsulation in crypto offload control path
+         4ecbac84b5b8c4ad033b473782582568810baf61 xfrm: Support crypto offload for inbound IPv4 UDP-encapsulated ESP packet
+         447bc4b1906f100e65c662528b7ae4e1dc2e9b80 xfrm: Support crypto offload for outbound IPv4 UDP-encapsulated ESP packet
+         7dd717f8173fb84ce6c1edabaa4dc4fdb882c3bf Merge  branch ' xfrm: Support crypto offload for inbound IPv6 ESP packets not in GRO path'
+         
