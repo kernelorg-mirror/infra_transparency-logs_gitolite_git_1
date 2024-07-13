@@ -1,45 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3602556838504103437=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 13 Jul 2024 17:54:07 -0000
-Message-Id: <172089324709.18956.7760082865986638048@gitolite.kernel.org>
-
---===============3602556838504103437==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 13 Jul 2024 19:16:38 -0000
+Message-Id: <172089819871.14449.3002450798331492330@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: f676498887c6a48d9bd19f01ed910cea4ed24897
-    new: 0d47b13d8d79ec9f87b0602913973f7f5c80d625
-    log: revlist-f676498887c6-0d47b13d8d79.txt
-
---===============3602556838504103437==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f676498887c6-0d47b13d8d79.txt
-
-3042497ac23fd49041767592396c81a6a32d3a82 hkml_open/mail_display_str(): Show In-Reply-To, too
-c7053e68492fef098cc4608b8618d2bf985e34f0 hkml_view_{mails,text}: Change key bindings for tui/cli menus
-51bc06d23443feb771ea4521e78403254b0f1f8b hkml_view_text: Allow setting data of the screen
-d6cc06a400f9441ba42a7102b3b34587697a7718 hkml_view: Allow non-mail_idx_key_map data
-31ca286a6f3a5408464dc0db12d409416e3d4e28 hkml_open: Pass mail object to hkml_view
-70a23475c0d5eef553f51dce8da2d29274a4cb2e hkml_view_text: Use ScrollableList's data to get mail
-c3fc2c8c55a1d3d00efa4b0bd9e89e30cd6b7b7a hkml_view_text: Handle non-fake parent_list menu
-7bd9dfb0db513a6d7533b34d70722de970c10a80 hkml_view: Add parent_list field to ScrollableList
-585de13b8b659b80a3fe62ab24de3ea7608b0e1a hkml_view_text: Support reply/forward key binding
-a065651a1f9d66b8324ff19fc52fa2375b3d2ad2 hkml_patch: Support _hkml.Mail object passed as mail argument
-32a1d6d454446899b58ede413853e35f83ab8f7e hkml_view_mails: Pass mail directly to hkml_patch
-e2a9d9f1af56ea2932c84c17e1ed210c783af302 hkml_patch: Exit from action applying error only if directly called
-3dbff8f3149279fdee69706a576a3cc7fbc4af93 release_note: Update
-dde4215ec8d031b6ee1494980450a9575c676a0c USAGE: Update
-0d47b13d8d79ec9f87b0602913973f7f5c80d625 TODO: Update for partially completed item
-
---===============3602556838504103437==--
+    old: 44ab80af2402ba6c9a587912c2366db5eea59041
+    new: 550a30a58a7ff3d9104ea70976743fb99e144bb6
+    log: |
+         38c4d156da5d842b89eab9ef5d40e02e1127ea70 Fixes for 6.9
+         b8966c65bc9f9393b256714f2184039f1c087d2b Fixes for 6.6
+         746d2ea48b73223031847e757638d944daf8e29f Fixes for 6.1
+         8994cc3111395d359632f465f0b2d027a0749f74 Fixes for 5.15
+         9ca3282b1262ce5810c739285e9b3c0441ba27e6 Fixes for 5.10
+         270dd15565803e9ca8c9224590621ea0e00337e0 Fixes for 5.4
+         550a30a58a7ff3d9104ea70976743fb99e144bb6 Fixes for 4.19
+         
