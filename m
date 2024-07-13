@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7195401217539950902=="
+Content-Type: multipart/mixed; boundary="===============3389930265200036351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 13 Jul 2024 06:50:03 -0000
-Message-Id: <172085340362.9499.3406324598128164607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sat, 13 Jul 2024 06:56:38 -0000
+Message-Id: <172085379898.13506.14484461160490441309@gitolite.kernel.org>
 
---===============7195401217539950902==
+--===============3389930265200036351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: e091caf99f3a5006c95baec24330bac6f7f17193
-    new: 528dd46d0fc35c0176257a13a27d41e44fcc6cb3
-    log: revlist-e091caf99f3a-528dd46d0fc3.txt
+  - ref: refs/heads/nfs-localio-for-next
+    old: 37fe761ee85b362b0db2ef6bb204a491c82023be
+    new: 2df133d63d09ebfed49b4a49d1bf46993371a6ae
+    log: revlist-37fe761ee85b-2df133d63d09.txt
 
---===============7195401217539950902==
+--===============3389930265200036351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e091caf99f3a-528dd46d0fc3.txt
+Content-Disposition: attachment; filename=revlist-37fe761ee85b-2df133d63d09.txt
 
-ddab91f4b2de5c5b46e312a90107d9353087d8ea pmdomain: qcom: rpmhpd: Skip retention level for Power Domains
-69c7b2fe4c9cc1d3b1186d1c5606627ecf0de883 libceph: fix race between delayed_work() and ceph_monc_stop()
-6463c360d6579dc68786cc3621aaa1ebf513e50b libceph: suppress crush_choose_indep() kernel-doc warnings
-359bc01d2ecc9093216d21cfa03a545c44413cb6 libceph: fix crush_choose_firstn() kernel-doc warnings
-68a3ebd18bc8c4e766250d5c43d30ff75b8aec0b btrfs: use delayed iput during extent map shrinking
-b3ebb9b7e92a928344a7a2c1f8514474bfa113cf btrfs: stop extent map shrinker if reschedule is needed
-4484940514295b75389f94787f8e179ba6255353 btrfs: avoid races when tracking progress for extent map shrinking
-63d20a94f24fc1cbaf44d0e7c0e0a8077fde0aef mmc: sdhci: Fix max_seg_size for 64KiB PAGE_SIZE
-16198eef11c1929374381d7f6271b4bf6aa44615 mmc: davinci_mmc: Prevent transmitted data size from exceeding sgm's length
-503757c809281a24d50ac2538401d3b1302b301c net: ethtool: Fix RSS setting
-8b9b59e27aa88ba133fbac85def3f8be67f2d5a8 i40e: fix: remove needless retries of NVM update
-bc35e28af7890085dcbe5cc32373647dfb4d9af9 octeontx2-af: replace cpt slot with lf id on reg write
-845fe19139ab5a1ee303a3bee327e3191c3938af octeontx2-af: fix a issue with cpt_lf_alloc mailbox
-404dc0fd6fb0bb942b18008c6f8c0320b80aca20 octeontx2-af: fix detection of IP layer
-e23ac1095b9eb8ac48f98c398d81d6ba062c9b5d octeontx2-af: fix issue with IPv6 ext match for RSS
-60795bbf047654c9f8ae88d34483233a56033578 octeontx2-af: fix issue with IPv4 match for RSS
-425652d45c316cf30330de4be43789f34dd4afe5 Merge branch 'octeontx2-cpt-rss-cfg-fixes' into main
-01ec3bb6ea6a9e5cbe18600e8613c717508b0a71 Merge tag 'mmc-v6.10-rc4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-ac6a9e07a7b644d1cde22cc2d2d3d386f421a523 Merge tag 'pmdomain-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-a52ff901a17432a86efffa4d6fb41cca59042802 Merge tag 'ceph-for-6.10-rc8' of https://github.com/ceph/ceph-client
-975f3b6da18020f1c8a7667ccb08fa542928ec03 Merge tag 'for-6.10-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f7ce5eb2cb7993e4417642ac28713a063123461f bnxt_en: Fix crash in bnxt_get_max_rss_ctx_ring()
-528dd46d0fc35c0176257a13a27d41e44fcc6cb3 Merge tag 'net-6.10-rc8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a62a5f3a0c383ecf3009377bd0452c28005beb0b SUNRPC: remove call_allocate() BUG_ONs
+a226532d1c49da175ef3c6541e4c4b42a9cd4d8c SUNRPC: add rpcauth_map_clnt_to_svc_cred_local
+85c08fd7310ca8076283e88773002df86cf23ac6 nfs_common: factor out nfs_errtbl and nfs_stat_to_errno
+743f230b587d1a0b703acb80fb341563fe1950e3 nfs_common: factor out nfs4_errtbl and nfs4_stat_to_errno
+b832ea649365b6a67e892e76c69a896fc1f158d0 nfs: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
+608db82a3fc565849ede385b980d288a0cc43611 nfsd: Don't pass all of rqst into rqst_exp_find()
+d2c5b033e3f1cf09abd0e048b0044cf60e417152 nfsd: introduce __fh_verify which takes explicit net arg
+efb8a049495b024fc1fc1677918d4afe0fc0289e nfsd: add cred parameter to __fh_verify()
+e82295ffe538e3474f3b979c1fd9199f73b51460 nfsd: pass nfs_vers explicitly to __fh_verify()
+d0ef166ee3cac3e9bc4ecca2cd1356c4080448aa nfsd: pass client explicitly to __fh_verify()
+efc50903ed900e6281ed53293333696603f6d43f nfsd: __fh_verify now treats NULL rqstp as a trusted connection
+ab79ad2e83d3082196065ceb8717450c99d726d3 nfsd: add nfsd_file_acquire_local()
+c7abd45ff147d4b93cd5e9b5363ba1e4a2407967 nfs_common: add NFS LOCALIO auxiliary protocol enablement
+ff0a6363199c20bb13460ca77a17e156c76c3efc nfsd: add "localio" support
+9f05521d0c9d247d696fb7e7e451108396efa067 nfsd: add Kconfig options to allow localio to be enabled
+5ede2eec18c063185798139ab98d8cc059f19f03 nfsd: manage netns reference in nfsd_open_local_fh
+71af6c0630a266bd7531880a9881b6cdf439a153 nfsd: use percpu_ref to interlock nfsd_destroy_serv and nfsd_open_local_fh
+01afb4be2720fc83a8b369413a480d37e2bed333 nfsd: switch nfsd_open_local_fh() to using nfsd_file_acquire_local()
+4a581f2ce17db681512e849da28d092f98cf7bb5 nfsd: implement server support for NFS_LOCALIO_PROGRAM
+48cb5c73d26f1bac438afa944955abadbd314443 SUNRPC: replace program list with program array
+035cf13592ab820226c711faeda6c8d6a284134a nfs: pass struct file to nfs_init_pgio and nfs_init_commit
+73430384ad2b9a86f78e67753cefbe50cb112216 nfs: add "localio" support
+454f3b986868280a0cd70da0754edd27652c871e nfs: enable localio for non-pNFS IO
+53ae10ca815f6fc06b1255a96c176adc5c21b057 pnfs/flexfiles: enable localio support
+7a6d01cd38fd816c7b05b17644f5678592c7ac6d nfs/localio: use dedicated workqueues for filesystem read and write
+24e0b176babff22f58efaf7b52befcba5b0f7ff4 nfs: implement client support for NFS_LOCALIO_PROGRAM
+2df133d63d09ebfed49b4a49d1bf46993371a6ae nfs: add Documentation/filesystems/nfs/localio.rst
 
---===============7195401217539950902==--
+--===============3389930265200036351==--
