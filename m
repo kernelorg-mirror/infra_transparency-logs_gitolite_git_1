@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5731535380019331962=="
+Content-Type: multipart/mixed; boundary="===============3155921594811395963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 13 Jul 2024 09:17:20 -0000
-Message-Id: <172086224027.19496.17333746439897836480@gitolite.kernel.org>
+Date: Sat, 13 Jul 2024 09:17:39 -0000
+Message-Id: <172086225975.19669.5881180765937402450@gitolite.kernel.org>
 
---===============5731535380019331962==
+--===============3155921594811395963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e435b043d89a267bd6eb3d5650d2319805d7924a
     new: 69cf87304dcb08d61e35bcfccdb1a5d52ce2969c
     log: revlist-e435b043d89a-69cf87304dcb.txt
 
---===============5731535380019331962==
+--===============3155921594811395963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -632,4 +632,4 @@ e5abd12f3df13e92e2fb3c02fe825aa6c57f8306 Merge git://git.kernel.org/pub/scm/linu
 26f453176a66bb36bf9e3a8abad808b144a94f6a Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 69cf87304dcb08d61e35bcfccdb1a5d52ce2969c Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============5731535380019331962==--
+--===============3155921594811395963==--
