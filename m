@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sat, 13 Jul 2024 00:37:15 -0000
-Message-Id: <172083103591.15746.6389060987010882409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 13 Jul 2024 01:01:12 -0000
+Message-Id: <172083247258.32339.4712060872615565770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 9f349e8e532d7e50b57a3e10367a8eb64d89e104
-    new: 06dcc4c9baa9e92896f00d02ffa760c0988b4371
+  - ref: refs/heads/main
+    old: 425652d45c316cf30330de4be43789f34dd4afe5
+    new: f7ce5eb2cb7993e4417642ac28713a063123461f
     log: |
-         06dcc4c9baa9e92896f00d02ffa760c0988b4371 firewire: core: move copy_port_status() helper function to TP_fast_assign() block
+         f7ce5eb2cb7993e4417642ac28713a063123461f bnxt_en: Fix crash in bnxt_get_max_rss_ctx_ring()
          
