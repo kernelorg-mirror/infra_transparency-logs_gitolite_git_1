@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sun, 14 Jul 2024 04:37:22 -0000
-Message-Id: <172093184252.2347.752320144327717906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 14 Jul 2024 04:46:02 -0000
+Message-Id: <172093236264.8777.4702529531106067716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: cd3e31b57c39522c2749c14da281cd8feb766108
-    new: cd2e84ddbf860ab8b8dccf856b18f7bf4b7c2e11
+  - ref: refs/heads/experimental
+    old: 46b50cd4c5c36d2369f632b50c9c247007ee6b2f
+    new: e9aa8c17899cfd4141999475170a9a619058abbf
     log: |
-         872bb37f6829d4f7f3ed5afe2786add3d4384b4b randomize_kstack: Improve stack alignment codegen
-         cd2e84ddbf860ab8b8dccf856b18f7bf4b7c2e11 Merge branch 'for-next/hardening' into for-next/kspp
+         617d708925b3c5d1dd132853e47d9d9f51443e6f erofs-utils: lib: tar: fix garbage ns timestamps
+         e9aa8c17899cfd4141999475170a9a619058abbf erofs-utils: lib: drop prefix_sha256 digests
          
