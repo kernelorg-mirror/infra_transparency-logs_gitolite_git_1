@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 14 Jul 2024 22:53:40 -0000
-Message-Id: <172099762064.10317.6315563614284893109@gitolite.kernel.org>
+Date: Sun, 14 Jul 2024 23:02:29 -0000
+Message-Id: <172099814972.16747.7859936109087618959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sashal/deps
 user: sashal
 changes:
   - ref: refs/heads/master
-    old: bdc84c322452a6fdf6ea72f87c0a01d830e2e852
-    new: 0da118bc8031c8143950eacaa9bf478b6dc2d9dd
+    old: 0da118bc8031c8143950eacaa9bf478b6dc2d9dd
+    new: abce47459e219d0b3a7a1858d0d346cf1c913768
     log: |
-         0da118bc8031c8143950eacaa9bf478b6dc2d9dd Sun Jul 14 06:53:03 PM EDT 2024
+         abce47459e219d0b3a7a1858d0d346cf1c913768 Sun Jul 14 07:01:53 PM EDT 2024
          
