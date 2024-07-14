@@ -1,42 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============9045904527096245682=="
+Content-Type: multipart/mixed; boundary="===============3814767199920724995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 14 Jul 2024 07:50:03 -0000
-Message-Id: <172094340357.25040.15180508272978159505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Sun, 14 Jul 2024 07:51:37 -0000
+Message-Id: <172094349784.25760.2521347953920969811@gitolite.kernel.org>
 
---===============9045904527096245682==
+--===============3814767199920724995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: 528dd46d0fc35c0176257a13a27d41e44fcc6cb3
-    new: 4d145e3f830ba2c2745b42bfba5c2f8fcb8d078a
-    log: revlist-528dd46d0fc3-4d145e3f830b.txt
+  - ref: refs/heads/linux-next
+    old: 8e0f5a6d60307b451610a268e2bd853be7285d6f
+    new: 9f4af6f7188e2e159e0768aca255255e545c7536
+    log: revlist-8e0f5a6d6030-9f4af6f7188e.txt
+  - ref: refs/heads/test
+    old: 8e0f5a6d60307b451610a268e2bd853be7285d6f
+    new: 9f4af6f7188e2e159e0768aca255255e545c7536
+    log: revlist-8e0f5a6d6030-9f4af6f7188e.txt
+  - ref: refs/heads/vhost
+    old: 8e0f5a6d60307b451610a268e2bd853be7285d6f
+    new: 9f4af6f7188e2e159e0768aca255255e545c7536
+    log: revlist-8e0f5a6d6030-9f4af6f7188e.txt
 
---===============9045904527096245682==
+--===============3814767199920724995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-528dd46d0fc3-4d145e3f830b.txt
+Content-Disposition: attachment; filename=revlist-8e0f5a6d6030-9f4af6f7188e.txt
 
-4e36c0f20cb1c74c7bd7ea31ba432c1c4a989031 i2c: rcar: bring hardware to known state when probing
-fea6b5ebb71a2830b042e42de7ae255017ac3ce8 i2c: rcar: clear NO_RXDMA flag after resetting
-ca8e83a13ace8d63ede6501a8c313fce625c141f MAINTAINERS: delete entries for Thor Thayer
-0830f975e021608c527887ed2d9e122e76b9e280 MAINTAINERS: VIRTIO I2C loses a maintainer, gains a reviewer
-6dfe0aba99e544326583aa20ef760370f03ec3b9 i2c: testunit: correct Kconfig description
-bd9f5348089b65612e5ca976e2ae22f005340331 i2c: mark HostNotify target address as used
-ea5ea84c9d3570dc06e8fc5ee2273eaa584aa3ac i2c: rcar: ensure Gen3+ reset does not disturb local targets
-119736c7af442ab398dbb806865988c98ef60d46 i2c: testunit: avoid re-issued work after read message
-3fdd2d21f1c7f0203575b46d2b3fba81292992b6 Merge tag 'i2c-host-fixes-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-d2346e2836318a227057ed41061114cbebee5d2a cifs: fix setting SecurityFlags to true
-d0d0cd38005518533d641e1344537f89cfe95203 Merge tag '6.10-rc7-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
-4d145e3f830ba2c2745b42bfba5c2f8fcb8d078a Merge tag 'i2c-for-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+dbc009791d0905540ef4a22d5e11f9ff8c3280e9 virtio_pci: push out single vq find code to vp_find_one_vq_msix()
+33ae1fc92e47a76ac3285870347d395596222acf virtio_pci: simplify vp_request_msix_vectors() call a bit
+0ea1e2c08de2c031ba759ad643019a56b2ac2f5c virtio_pci: pass vector policy enum to vp_find_vqs_msix()
+7e786de1b859e24d36273d98669f3f55f3fd69ee virtio_pci: pass vector policy enum to vp_find_one_vq_msix()
+65354ed962e0ae7820350739fc97d3d895ce54ff virtio_pci: introduce vector allocation fallback for slow path virtqueues
+51acbe6c16ee56b1209d918bb466b23bd0bfbbda virtio_pci_modern: treat vp_dev->admin_vq.info.vq pointer as static
+5a33b5793a8e3bf54e8b5851704cdbf3cd7327be virtio: push out code to vp_avq_index()
+ea097f1184f5eeb2d064f48da8e68b2bc88d5bcb virtio_pci: pass vq info as an argument to vp_setup_vq()
+e6bb1118f6daa9952a8a8b868c3a5a710f7f88ea virtio: create admin queues alongside other virtqueues
+d48470f18e6debc2e53b7fd432f1712689060d72 virtio_pci_modern: create admin queue of queried size
+16aa4097c45a8f59ebf66346ce694643ac202236 virtio_pci_modern: pass cmd as an identification token
+6be58661bb37f28375e01dba7e6cbb8e425be6b0 virtio_pci_modern: use completion instead of busy loop to wait on admin cmd result
+9f4af6f7188e2e159e0768aca255255e545c7536 virtio_pci_modern: remove admin queue serialization lock
 
---===============9045904527096245682==--
+--===============3814767199920724995==--
