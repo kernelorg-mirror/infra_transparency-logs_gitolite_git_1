@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sun, 14 Jul 2024 11:01:43 -0000
-Message-Id: <172095490355.13698.9460016682127375460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Sun, 14 Jul 2024 11:04:30 -0000
+Message-Id: <172095507047.14721.17906609656480075335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/main
-    old: d9b3deaceff28a8795d149f32db8be4d1d09e325
-    new: cd4d67a7ef78b9d8a57f47bd6a654b98a75af4ba
-    log: |
-         cd4d67a7ef78b9d8a57f47bd6a654b98a75af4ba share/mk/: Cosmetic
-         
+  - ref: refs/heads/rcu_tasks_watch_idle_thread
+    old: 0000000000000000000000000000000000000000
+    new: e11be87dd2ee0d768d8ca2169f7691ec4245119a
