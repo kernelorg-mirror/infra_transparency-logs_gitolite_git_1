@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sun, 14 Jul 2024 11:24:06 -0000
-Message-Id: <172095624685.29927.13136165619906771139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Sun, 14 Jul 2024 11:40:25 -0000
+Message-Id: <172095722591.11051.11535810975368384142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/main
-    old: 280505f17163cf0141284cec78a0f13a888da0cf
-    new: 3420708a28fea51f5dc50e4ed00eada04d720735
-    log: |
-         3420708a28fea51f5dc50e4ed00eada04d720735 lsm: Released 0.10
-         
+  - ref: refs/heads/rcu_tasks_watch_idle_thread_no_dyn_counter
+    old: 0000000000000000000000000000000000000000
+    new: a712d46ac39380295519d25039d6518a10a1f21f
