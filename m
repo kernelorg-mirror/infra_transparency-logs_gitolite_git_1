@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sun, 14 Jul 2024 12:23:22 -0000
-Message-Id: <172095980225.8246.2680144787447393829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sun, 14 Jul 2024 12:57:19 -0000
+Message-Id: <172096183960.349.13232102761949467026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/mgtime
-    old: 7b66041cfac078b8f0507d5dd7c20faf665a2d38
-    new: 2890ee76c0e7e640bae74da5e2fe05f5387773df
-    log: |
-         2890ee76c0e7e640bae74da5e2fe05f5387773df fs: initialize mgtime counters in core_initcall
-         
+  - ref: refs/tags/random-6.11-rc1-for-linus
+    old: 0000000000000000000000000000000000000000
+    new: 55f424bb28707e2758eadeb5334210204c67fe4d
