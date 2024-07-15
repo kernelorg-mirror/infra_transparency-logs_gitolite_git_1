@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Jul 2024 14:42:51 -0000
-Message-Id: <172105457134.12865.8398458423698964016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Mon, 15 Jul 2024 14:44:36 -0000
+Message-Id: <172105467663.13554.2145657565562717411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/tags/soc-arm-6.11
+  - ref: refs/tags/thermal-v6.11-rc1
     old: 0000000000000000000000000000000000000000
-    new: f5323b1db37122019baed57e1ed404479934622a
+    new: ab07b54d580b1681a02208ff367efcc7e2fa6f0e
