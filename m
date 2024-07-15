@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3238592984221032835=="
+Content-Type: multipart/mixed; boundary="===============8575520278501613569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 Jul 2024 12:26:54 -0000
-Message-Id: <172104641474.7213.10118717195852589495@gitolite.kernel.org>
+Date: Mon, 15 Jul 2024 12:26:57 -0000
+Message-Id: <172104641742.7309.899069166478581361@gitolite.kernel.org>
 
---===============3238592984221032835==
+--===============8575520278501613569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 425652d45c316cf30330de4be43789f34dd4afe5
     new: 250b8b86b683e6b52b58514bff94146a47d3251f
     log: revlist-425652d45c31-250b8b86b683.txt
 
---===============3238592984221032835==
+--===============8575520278501613569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -163,4 +163,4 @@ d657f5c76c47eca50dd61b5c1e150dac05e07046 Merge branch 'vrf-fix-source-address-se
 59a931c5b732ca5fc2ca727f5a72aeabaafa85ec xdp: fix invalid wait context of page_pool_destroy()
 250b8b86b683e6b52b58514bff94146a47d3251f Merge branch 'main' of ra.kernel.org:/pub/scm/linux/kernel/git/davem/net into main
 
---===============3238592984221032835==--
+--===============8575520278501613569==--
