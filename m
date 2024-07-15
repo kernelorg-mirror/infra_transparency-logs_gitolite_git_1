@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Jul 2024 12:47:48 -0000
-Message-Id: <172104766871.24003.15237048792802939437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Mon, 15 Jul 2024 12:50:51 -0000
+Message-Id: <172104785198.26836.15871946483829346966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/tags/x86_build_for_v6.11_rc1
-    old: 0000000000000000000000000000000000000000
-    new: f912a4975cad7d0662b8403f3a7a7b91427490b1
+  - ref: refs/heads/main
+    old: f8321fa75102246d7415a6af441872f6637c93ab
+    new: a8ea8d531d1edf7b29e559713fe1aaab3530d7d9
+    log: |
+         a8ea8d531d1edf7b29e559713fe1aaab3530d7d9 net: ti: icssg-prueth: Split out common object into module
+         
