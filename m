@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============9174115588280675051=="
+Content-Type: multipart/mixed; boundary="===============8484370438330058294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Jul 2024 11:46:49 -0000
-Message-Id: <172104400983.6225.5288105804762107990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 15 Jul 2024 11:46:52 -0000
+Message-Id: <172104401239.6297.8123345757181122098@gitolite.kernel.org>
 
---===============9174115588280675051==
+--===============8484370438330058294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 8f7aedad6e5c7f9689ce94a149892ada186c040b
-    new: b3b7dd925b8d0aa3677720560c8072f6fccea193
+  - ref: refs/heads/for-next
+    old: 1e02e317470b1c68d5971e51e8c62967ec1bc828
+    new: cae25f9905b15065fc58b4e0b7e13e1761fddd31
     log: |
-         b3b7dd925b8d0aa3677720560c8072f6fccea193 5.10-stable patches
+         f6bd2f633b686cdd6a466a4d8484fb74492b1125 platform/x86: hp-wmi: Fix implementation of the platform_profile_omen_get function
+         7c25946f345838c3d66e54dd808ec5183640a75a platform/x86: ideapad-laptop: use cleanup.h
+         cae25f9905b15065fc58b4e0b7e13e1761fddd31 Docs/admin-guide: Remove pmf leftover reference from the index
          
 
---===============9174115588280675051==
+--===============8484370438330058294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721044008 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1721044007-81510a89ea8d9d74883e85b2628e97ec0c558788
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1721044006 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1721044006-98545740d8045930373736d25b521fb1b33010e7
 
-8f7aedad6e5c7f9689ce94a149892ada186c040b b3b7dd925b8d0aa3677720560c8072f6fccea193 refs/heads/master
+1e02e317470b1c68d5971e51e8c62967ec1bc828 cae25f9905b15065fc58b4e0b7e13e1761fddd31 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaVDCgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/CkP/RzhBoij+m2ppRmyBTWO
-xXUEJ9GaAFkYJNgo7PZdyOXiBelK8U3gMsYem+bJyP5kzJUTB3F9pBArcs98O77A
-KclSiTMVoNab+whLKgA1WPfIvuJ3qKEY6J7B9Pqe3gk94dJrKusmmt/ojRHn0r1Q
-uG0oJgriM2T54k56mKGYtPXg0yTzZI42cgarcCovvwtrvzbrScMsTttS/En65cYb
-3jd7BiyOzfVin2JpeeZSNTIKoLoLWnD5gWvAXADOS3mc19v+wZjyaaFyulepYL5N
-r8r6iate/kVkMMnnJXj1DgyH75RStB+2XYnJ7yypuUqCafSCZ+HJXPkBTomvKzqZ
-TWhjtIPUFPL3W/Q8C/7R08j4LZK9ZAdMPCmGwOA7PG4XbOHHBdZyCOLAmtD2XPcq
-AlzIVYQR9bk2T7eqeSLMYVxoU2sZPFXyhWwhH/SFx+qz4LVV6QYyBRDsQHNugih2
-tNQ/2t8Km3Ue6c42w0Qp/mGc5uFn+7Bs8T5Pe/lDENY8oTdYng9KQGQG6loWz0z8
-2cV4dIFBrcHnCfhrktvIkHgxnrO9UFWnX5djI2jyzUvW7MpRMop+fXoskZ5H2Hce
-ZvDw/KeyhgpDOLGD4LmEQ22Azg99FKY7yIzIvI4Bo3uIQaXT68WLAkElMqOMKXkV
-Urg7fqmcSNaCfHIk1aTzHyeJ
-=9GhM
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZpUMJgAKCRBZrE9hU+XO
+MYm5AQDrnFYu89eJfeGqX0lfzrsX4T/7OCZ+ctzurvJVdT6mkgD/V6no+dcgv0ZD
+4EnfI3nQg3+PmUykifJSZSyESoU5Vg8=
+=1LlV
 -----END PGP SIGNATURE-----
 
---===============9174115588280675051==--
+--===============8484370438330058294==--
