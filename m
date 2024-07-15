@@ -1,53 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============9138946191365687812=="
+Content-Type: multipart/mixed; boundary="===============3879377498891242930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 15 Jul 2024 20:38:01 -0000
-Message-Id: <172107588118.19558.12656703376043134424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 15 Jul 2024 20:44:23 -0000
+Message-Id: <172107626357.23510.9942961067222358427@gitolite.kernel.org>
 
---===============9138946191365687812==
+--===============3879377498891242930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: af58de31bebe737235f0238843f2054996998bd5
-    new: 51b35d4f9d8860b7c181e545a90bc0ad370efbdb
-    log: revlist-af58de31bebe-51b35d4f9d88.txt
+  - ref: refs/heads/clk-kunit
+    old: a6c3da03ead11396a8777d1935bb0b2bd4e63a12
+    new: 9f8bbc66021282d0646d1f8422265c72e671b5d1
+    log: |
+         98290f295fbcf18f61b3859fc94279fe4ab015e4 of/platform: Allow overlays to create platform devices from the root node
+         d79e6ed1ff2ac93c01563135b833d9df354b6f7b of: Add test managed wrappers for of_overlay_apply()/of_node_put()
+         c6f0f60cc27dccde67d3563d78e387449804750a dt-bindings: vendor-prefixes: Add "test" vendor for KUnit and friends
+         aa46879db9ac9672a04eb4755169086cb3e49311 of: Add a KUnit test for overlays and test managed APIs
+         e1c20fc91c396384a8063063b32fce76c10dcdd8 platform: Add test managed platform_device/driver APIs
+         a299d7755bb04719245a8ac10692fe9a5a823439 clk: Add test managed clk provider/consumer APIs
+         077e2382fafec5681f0ca189595b63a3a4952610 clk: Add KUnit tests for clk fixed rate basic type
+         9f8bbc66021282d0646d1f8422265c72e671b5d1 clk: Add KUnit tests for clks registered with struct clk_parent_data
+         
+  - ref: refs/heads/clk-next
+    old: 103c9d331516084cd5584bd02f87aee562a085c6
+    new: 72db0c00e3a6956e06532d55e008943c0821d556
+    log: revlist-103c9d331516-72db0c00e3a6.txt
+  - ref: refs/heads/clk-thead
+    old: 1037885b309cfca5b770137209e9b51d1b50cc27
+    new: ae81b69fd2b1eb4885b352749b1fd1172e2f0f18
+    log: |
+         ae81b69fd2b1eb4885b352749b1fd1172e2f0f18 clk: thead: Add support for T-Head TH1520 AP_SUBSYS clocks
+         
 
---===============9138946191365687812==
+--===============3879377498891242930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af58de31bebe-51b35d4f9d88.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-96f887a612e4cda89efc3f54bc10c1997e3ab0e9 net: esp: cleanup esp_output_tail_tcp() in case of unsupported ESPINTCP
-54fcc6189dfb822eea984fa2b3e477a02447279d xfrm: Fix input error path memory access
-15f5fe9e84839dcc9eaa69b08ced9d24cb464369 xfrm: Log input direction mismatch error in one place
-07b87f9eea0c30675084d50c82532d20168da009 xfrm: Fix unregister netdevice hang on hardware offload.
-2d5317753e5f02a66e6d0afb9b25105d0beab1be xfrm: Export symbol xfrm_dev_state_delete.
-9199b915e9fad7f5eff6160d24ff6b38e970107d xfrm: fix netdev reference count imbalance
-89a2aefe4b084686c2ffc1ee939585111ea4fc0f xfrm: call xfrm_dev_policy_delete when kill policy
-70c676cb3dfcc75e32eaf0e98eba6814ebfc6af6 Merge tag 'ipsec-2024-07-11' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-93c3a96c301f0b1ac0bafb5e74bef58e79937648 net: pse-pd: Do not return EOPNOSUPP if config is null
-4cddb0f15ea9c62f81b4889ea69a99368cc63a86 net: ethtool: pse-pd: Fix possible null-deref
-5f25f553b823d8d047662de8cc186f272bfd7fee Merge branch 'net-pse-pd-fix-possible-issues-with-a-pse-supporting-both-c33-and-podl'
-f67a90a0c8f5b3d0acc18f10650d90fec44775f9 selftests: forwarding: devlink_lib: Wait for udev events after reloading
-6807352353561187a718e87204458999dbcbba1b ipv4: fix source address selection with route leak
-252442f2ae317d109ef0b4b39ce0608c09563042 ipv6: fix source address selection with route leak
-abb9a68d2c64dd9b128ae1f2e635e4d805e7ce64 ipv6: take care of scope when choosing the src addr
-39367183aecfc05f006a29b1f96708a6d1a3d8c3 selftests: vrf_route_leaking: add local test
-d657f5c76c47eca50dd61b5c1e150dac05e07046 Merge branch 'vrf-fix-source-address-selection-with-route-leak'
-97d9fba9a812cada5484667a46e14a4c976ca330 net: netconsole: Disable target before netpoll cleanup
-79eecf631c14e7f4057186570ac20e2cfac3802e af_packet: Handle outgoing VLAN packets without hardware offloading
-59a931c5b732ca5fc2ca727f5a72aeabaafa85ec xdp: fix invalid wait context of page_pool_destroy()
-250b8b86b683e6b52b58514bff94146a47d3251f Merge branch 'main' of ra.kernel.org:/pub/scm/linux/kernel/git/davem/net into main
-0a1868b93fad5938dbcca77286b25bf211c49f7a net: bridge: mst: Check vlan state for egress decision
-51b35d4f9d8860b7c181e545a90bc0ad370efbdb Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1721076261 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1721076261-5c981585e07596ba16fa99a6191e0fd9a6818129
 
---===============9138946191365687812==--
+a6c3da03ead11396a8777d1935bb0b2bd4e63a12 9f8bbc66021282d0646d1f8422265c72e671b5d1 refs/heads/clk-kunit
+103c9d331516084cd5584bd02f87aee562a085c6 72db0c00e3a6956e06532d55e008943c0821d556 refs/heads/clk-next
+1037885b309cfca5b770137209e9b51d1b50cc27 ae81b69fd2b1eb4885b352749b1fd1172e2f0f18 refs/heads/clk-thead
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmaViiURHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSXcuA/+I0zWeUOADfP2SSLwBw+uG1K00/6/daF4
+s73EX0C0AUS7rmkIzaSeFsKrVbAOV7KljDxqsm/wSWrQwUL4Z8j29TtDMoDKInfd
+wkeS5pBr6sbElXMxPEumF358o2GjCzzuPsEyggfbqWh1KO/ydgHmH9l2bwQFvH1P
+NmfDyD0qH4Rvm+yAEja6aIEM3V24SgeyDQrIcPihN88olKTcZ2VgCOmraa27NzmM
+7ik98PvkUW5TvtTe2+RkgIWoRgVH+/V9zxEKVKr7h2NGbc8KRpk/0O6yGZPRCkq9
++WY2DPa9jbhBMQfGagUyn5RZwo4XTFUQd9LTg1jl0/fXag1RkIZ96w1lpFanvl5M
+Dh3Pgr8zgVRyBASODUM9yuzzSMRmS0CjYi8Uy+JZJb5MWNrBlRZfj2r7g1JMXYJ9
+uTrHE9s3ED69eOamYKN2kDgmYYuWQGjjUxGC+TCUY/cgqbind6xYM7fFF80v3OI4
+kPZkL7Ljs04JynfQk6b5r1jQJ9tuGelR/Ti9+HuRdQu0ZxmOyH2AKZaxx/hpcrlu
+vVZdtzelJ8vqJqaERqVMCY7W2Dv4XsQxK/FdRQqMbkScr4nNEXlxfv91hRZhsxP5
+z5PBe88p7451TMgY8qsUO3qXUUJCmorycZmU8f8HPk6jwnKT5mONOlHYfplU7nhI
+EQOOd6sxOFA=
+=y1CG
+-----END PGP SIGNATURE-----
+
+--===============3879377498891242930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-103c9d331516-72db0c00e3a6.txt
+
+98290f295fbcf18f61b3859fc94279fe4ab015e4 of/platform: Allow overlays to create platform devices from the root node
+d79e6ed1ff2ac93c01563135b833d9df354b6f7b of: Add test managed wrappers for of_overlay_apply()/of_node_put()
+c6f0f60cc27dccde67d3563d78e387449804750a dt-bindings: vendor-prefixes: Add "test" vendor for KUnit and friends
+aa46879db9ac9672a04eb4755169086cb3e49311 of: Add a KUnit test for overlays and test managed APIs
+e1c20fc91c396384a8063063b32fce76c10dcdd8 platform: Add test managed platform_device/driver APIs
+a299d7755bb04719245a8ac10692fe9a5a823439 clk: Add test managed clk provider/consumer APIs
+077e2382fafec5681f0ca189595b63a3a4952610 clk: Add KUnit tests for clk fixed rate basic type
+9f8bbc66021282d0646d1f8422265c72e671b5d1 clk: Add KUnit tests for clks registered with struct clk_parent_data
+74be12da33cd6d65f57b2062419ae8932787c6e9 Merge branch 'clk-kunit' into clk-next
+ae81b69fd2b1eb4885b352749b1fd1172e2f0f18 clk: thead: Add support for T-Head TH1520 AP_SUBSYS clocks
+72db0c00e3a6956e06532d55e008943c0821d556 Merge branch 'clk-thead' into clk-next
+
+--===============3879377498891242930==--
