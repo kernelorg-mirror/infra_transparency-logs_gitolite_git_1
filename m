@@ -1,46 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7044021277876570503=="
+Content-Type: multipart/mixed; boundary="===============4915559947939418217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 15 Jul 2024 20:03:20 -0000
-Message-Id: <172107380084.23144.14877808274365131862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 15 Jul 2024 20:13:26 -0000
+Message-Id: <172107440691.837.3328500610525463539@gitolite.kernel.org>
 
---===============7044021277876570503==
+--===============4915559947939418217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: dd3cd3ca691df33292e73996f92d2a98906f69c5
-    new: af58de31bebe737235f0238843f2054996998bd5
-    log: revlist-dd3cd3ca691d-af58de31bebe.txt
+  - ref: refs/heads/master
+    old: 900c46eba8fdde44809bf5ffb41244968e18198a
+    new: 22df2a855bcfda4c3450eb3ada7fe0f655bac73d
+    log: revlist-900c46eba8fd-22df2a855bcf.txt
+  - ref: refs/heads/next
+    old: 6ef7dc7cd7b81745d2bc745f95ab5f3c75a77e97
+    new: 22df2a855bcfda4c3450eb3ada7fe0f655bac73d
+    log: |
+         22df2a855bcfda4c3450eb3ada7fe0f655bac73d Update the version
+         
+  - ref: refs/tags/v2.4.3
+    old: 0000000000000000000000000000000000000000
+    new: b2cd4a277efd977499ee069a135e0c737d9e48af
 
---===============7044021277876570503==
+--===============4915559947939418217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd3cd3ca691d-af58de31bebe.txt
+Content-Disposition: attachment; filename=revlist-900c46eba8fd-22df2a855bcf.txt
 
-c5eaf1b3f824369b6dcb33a39232b871d2ca8e33 PCI: Add Meta Platforms vendor ID
-546dd90be97913c775b5bcd20b665f4ff5df9cd4 eth: fbnic: Add scaffolding for Meta's NIC driver
-1a9d48892ea5bf27f359f40d96511acc3eecea58 eth: fbnic: Allocate core device specific structures and devlink interface
-3646153161f1052972d9d2062d8c27b0e30c89f8 eth: fbnic: Add register init to set PCIe/Ethernet device config
-c6203e678cc9a5bf01ec7ae382851f504870777f eth: fbnic: Add message parsing for FW messages
-da3cde08209ec1c915195c2331c275397f34a731 eth: fbnic: Add FW communication mechanism
-bc6107771bb4be3009168cfda24d22131c026fe8 eth: fbnic: Allocate a netdevice and napi vectors with queues
-40bf06a160a14eb910c491b6c0deca1821d34cd9 eth: fbnic: Implement Tx queue alloc/start/stop/free
-0cb4c0a13723ef6dd06be8f913443897a0ffccb5 eth: fbnic: Implement Rx queue alloc/start/stop/free
-20d2e88cc7461b03b97293d62d780a2d4b08ed8b eth: fbnic: Add initial messaging to notify FW of our presence
-69684376eed517817251ea6a768cfc315350d5c1 eth: fbnic: Add link detection
-9a57bacd574b52b08bc2c600af6a8c7a87049ecf eth: fbnic: Add basic Tx handling
-a29b8eb6e5337f569f4a08937573dce7cc183493 eth: fbnic: Add basic Rx handling
-eb690ef8d1c2a1b60e8c11721ace1538f027459e eth: fbnic: Add L2 address programming
-355440a6981ab8166a8291678424bb38d3c1f5f9 eth: fbnic: Write the TCAM tables used for RSS control and Rx to host
-af58de31bebe737235f0238843f2054996998bd5 Merge branch 'eth-fbnic-add-network-driver-for-meta-platforms-host-network-interface'
+e9b1bd808af7a9c700a0cee6cfb4d72cbc8affe0 TODO: Add an item
+43dd93d6a833ac7b22c11a8d3aed74b35f71eff7 damo: add a new command, 'make'
+b0d70fbdf01cdf651f1f7e2d82fdb43d38f45ba5 damo_mk_damon_params: Support text format
+effcb631e442c797c0893c1756ff303e68e1f0fa damo_make: Add comments
+adb95e5f4cb07eff46eda9aaff596cef62e54a4a damo: Emphasize 'make' is experimental
+1c1710dab63dcfac4c65f75044526acb9b6e8b04 damo_report_holistic: Align indentation
+1144fd4b6ec41821edf435318df646ead03aaf6b _damo_dist: Implement and use get_percentile()
+a51ff67a7b9a8e7b8d928cddbe777902fc112719 damo_report_holistic: Implement and use short output by default
+1360b1d7e8c288a0d25de89aa320bbcab39a2ff2 damo_heats: Set --stdout_skip_colorset_example for damo_heatmap
+02c073732876e7acdd99c85e8291a32cd7ad83b3 _damo_dist/get_percentile(): Handle zero value case
+1133283955c9374ee087f5df1e34425ac6b7a4f3 damo_report_holistic: Skip snapshots for wss only if it has plenty snapshots
+ff117ad07db3e3c869eaceb0100643e6e07b9719 damo_monitor: Support 'holistic' report type
+09e5c9a2dff17fad436059070029950a25cddc81 images: Add an animated-gif for hoslistic damo monitor demo
+70fefd5910599a8c54c8fbc00c7aed408078c280 USAGE: Update report-holistic example output to short version
+749d0b52b653d8dffa63a39094b40cacfa3fe3be README: Add monitor-holistic demo gif
+c678ca7c454f814c1738d86c78e347e08920d98a release_note: Update for next release
+cdf6fe27092e0106874f25259ec5a47110744fa2 README: Move holistic monitor to end of the doc
+ea0cb6339c1aedd5295731721924dfa5a739cdcb damo: Remove make command
+d36a416ce7190912f4ed6ab128106273ae72eefa TODO: Update
+8658359a9b943fcdddbc2c8324dc0e03320be284 TODO: Remove completed holistic report type implementation
+01ee427eab094ac66bd257120f97948a9f6dd99a TODO: Remove 'record' without access pattern item as unnecessary
+41a229421cfa65c6722517367b2fe01501570176 TODO: Add an item for fmt_json successor development
+6ef7dc7cd7b81745d2bc745f95ab5f3c75a77e97 TODO: Add an item
+22df2a855bcfda4c3450eb3ada7fe0f655bac73d Update the version
 
---===============7044021277876570503==--
+--===============4915559947939418217==--
