@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============8643351177930088890=="
+Content-Type: multipart/mixed; boundary="===============8454738415840714440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 15 Jul 2024 08:48:57 -0000
-Message-Id: <172103333778.17445.14453946673556983833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 15 Jul 2024 08:50:03 -0000
+Message-Id: <172103340343.18821.14890614831835881229@gitolite.kernel.org>
 
---===============8643351177930088890==
+--===============8454738415840714440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: d7790fdfa46cadc31da077885e84bd60d0b5d357
-    new: 0e4061eaf8a8ad346e3c5c33ed9ccf7341790c3a
-    log: |
-         0e4061eaf8a8ad346e3c5c33ed9ccf7341790c3a assign CVE-2024-41007 based on request
-         
+    old: 4d145e3f830ba2c2745b42bfba5c2f8fcb8d078a
+    new: 0c3836482481200ead7b416ca80c68a29cfdaabd
+    log: revlist-4d145e3f830b-0c3836482481.txt
 
---===============8643351177930088890==
+--===============8454738415840714440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4d145e3f830b-0c3836482481.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721033337 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1721033337-5fdfbb43ae341f29b1a261cd889965cb7550b362
+2feab2492deb2f14f9675dd6388e9e2bf669c27a Revert "sched/fair: Make sure to try to detach at least one movable task"
+b58652db66c910c2245f5bee7deca41c12d707b9 sched/deadline: Fix task_struct reference leak
+ddae0ca2a8fe12d0e24ab10ba759c3fbd755ada8 sched: Move psi_account_irqtime() out of update_rq_clock_task() hotpath
+ac8b270b61d48fcc61f052097777e3b5e11591e0 x86/bhi: Avoid warning in #DB handler due to BHI mitigation
+35ce46324556ba2dbc66a88013870d8bec8a99ef Merge tag 'x86_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+365346980ee28e6792db08bc2faa80830c2878c4 Merge tag 'sched_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9852f47ac7c993990317570ff125e30ad901e213 kbuild: Make ld-version.sh more robust against version string changes
+e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings with dtb's listed twice
+84679f04ceafd58d9b35f790203520b2930f1a03 fortify: fix warnings in fortify tests with KASAN
+882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
 
-d7790fdfa46cadc31da077885e84bd60d0b5d357 0e4061eaf8a8ad346e3c5c33ed9ccf7341790c3a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaU4nkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UpoP/2Wkr6X2EWPWKD5qve7d
-RoU8Mm6G/UZFx+XNg2KNzpqzA4vbm3RB4jhX2DyKuyxDwIgl77HV3EPyTJ2PvZE0
-x0QW6mQvI53W2FDm3zKdsnbXkg6Fe3GhspKg4NTuXa9s1jPTmnkZI4HTTj6ZOebD
-TrZLX1SSp1hQ1UOfVetb5G1Q7F7Dlup38yF+Kb60QYJk/bUp4CBlvkqPa/7fe4Ey
-AgcnFtqDo9jtH9SF95DHFUUCCUUtT/HBS8BmDalyQLwJlFN9TsJoEUDPkmakhGvu
-gcRUEv7Q/WkQUQZTT+7Xtcji7PqbxLN4Li1AZPzRVFL5oyTeIlygdvVEEFa7f8AZ
-g67E+0jKy3fHp9lVLQsBZBQrZNliTwHibgTbfn90A0iRXwD3Zc+6IFmrM3EeZIkD
-YE5Q65TJFfUm4e7tKPBOQs6cPF4RGcuYkb9gKXgaP1YG6Y972lcrAEwa+ywZRjmu
-y+rmZiPy5IEekNp9WVV+PyIstUzH7j9CdUbwR6Td0o/8u1MbE4gCnsFyIswBQ3Mr
-K82L1T7OQRL2ASIngBUknuovrvc3/3r8D7AoqrVIJ1X4lhrCKsrslARLJrY86pVi
-+2iJONsLShSdhg6+l2z65zLmrH/Hd1YCbTLC0mly4kU9dC5qH5kbU91nCTGBLfay
-QbzcV2B4zA2a8A18QQzXffqw
-=96Yt
------END PGP SIGNATURE-----
-
---===============8643351177930088890==--
+--===============8454738415840714440==--
