@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 15 Jul 2024 05:28:39 -0000
-Message-Id: <172102131989.25412.8925475732255380370@gitolite.kernel.org>
+Date: Mon, 15 Jul 2024 05:32:19 -0000
+Message-Id: <172102153960.28458.4697330768715079823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: e9aa8c17899cfd4141999475170a9a619058abbf
-    new: f3046505a4178c6f3bfe84e5ac2910db63cd4d1e
+    old: f3046505a4178c6f3bfe84e5ac2910db63cd4d1e
+    new: fac2233fc9c7894aa6013f35fcbb205918f24c75
     log: |
-         b3d34c6b68fce201845c26b12caee96fb007519d erofs-utils: manpages: add more description for --extract option
-         f3046505a4178c6f3bfe84e5ac2910db63cd4d1e erofs-utils: lib: drop prefix_sha256 digests
+         fed831c0e5a9381fb6cb394c957a45284f36b6d3 erofs-utils: manpages: add more description for --extract option
+         fac2233fc9c7894aa6013f35fcbb205918f24c75 erofs-utils: lib: drop prefix_sha256 digests
          
