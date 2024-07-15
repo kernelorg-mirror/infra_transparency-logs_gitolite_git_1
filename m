@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Mon, 15 Jul 2024 04:34:04 -0000
-Message-Id: <172101804466.5495.10157541361084361763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 15 Jul 2024 04:38:12 -0000
+Message-Id: <172101829280.9916.10638964548458391263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: c4eb5e60434d5dd53d28590a3f0cf0952f74fbd9
-    new: 307accea388a126e35c0edddb72477e0d2805c12
+  - ref: refs/heads/main
+    old: d944c27a9d58179b2fd96e23104f213481ec1e8d
+    new: f8321fa75102246d7415a6af441872f6637c93ab
     log: |
-         e8855b4494d563ffac94b9d36c22e21a07299133 test-appliance: renumber local test for testing an io_uring bug
-         81147cb9bb45d405907d5cff1c7ffb6ae3e95e79 test-appliance: ltm: don't try to send an e-mail report if there is no address
-         7de60cd713999a4c8124ee8bf0bf83676de412aa selftests: suppress sending e-mail reports when testing the test appliance
-         3d88d8014a5db35f9fa00f79d63be3884e12b206 test-appliance: allow user-supplied testID's for tests run by the LTM
-         319a46d14f12a50c51f76e89d483fcbe5345ef34 selftests: teach the appliance selftest the --skip-{qemu,kvm} option
-         307accea388a126e35c0edddb72477e0d2805c12 selftests: ltm-kcs: verify that the test VM's complete successfully
+         2c1583290b08c5aa9005178a573be8f329de2976 net: phy: bcm54811: New link mode for BroadR-Reach
+         ff253875ff3bab75214c4e94352956dc02a0d965 net: phy: bcm54811: Add LRE registers definitions
+         775631d7845b34996ceb0d975725c16d9a414430 dt-bindings: ethernet-phy: add optional brr-mode flag
+         03ab6c244bb0ced0a67b86399a282987740bb116 net: phy: bcm-phy-lib: Implement BroadR-Reach link modes
+         217b953a8ca6af14dc81935d7ab4b3815966bb62 Merge branch 'net-phy-bcm5481x-add-support-for-broadr-reach-mode'
+         f8321fa75102246d7415a6af441872f6637c93ab virtio_net: Fix napi_skb_cache_put warning
          
