@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7292398316838299934=="
+Content-Type: multipart/mixed; boundary="===============8501254569964726093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 15 Jul 2024 12:44:16 -0000
-Message-Id: <172104745602.20837.18354860041361158263@gitolite.kernel.org>
+Date: Mon, 15 Jul 2024 12:46:10 -0000
+Message-Id: <172104757063.23272.17378891552572971390@gitolite.kernel.org>
 
---===============7292398316838299934==
+--===============8501254569964726093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 0b32d436c015d5a88b3368405e3d8fe82f195a54
-    new: 0c3836482481200ead7b416ca80c68a29cfdaabd
-    log: revlist-0b32d436c015-0c3836482481.txt
+  - ref: refs/heads/dev
+    old: 0daa52fbc7ac2cce82b4e1b7e0fba43fe886b98f
+    new: 89fc548767a2155231128cb98726d6d2ea1256c9
+    log: revlist-0daa52fbc7ac-89fc548767a2.txt
 
---===============7292398316838299934==
+--===============8501254569964726093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b32d436c015-0c3836482481.txt
+Content-Disposition: attachment; filename=revlist-0daa52fbc7ac-89fc548767a2.txt
 
-acf9e67a7625367b89440855572b29c5ec19dd20 watchdog: add missing MODULE_DESCRIPTION() macros
-58f7e1e2c9e72c7974054c64c3abeac81c11f822 ocfs2: fix NULL pointer dereference in ocfs2_journal_dirty()
 685d03c3795378fca6a1b3d43581f7f1a3fc095f ocfs2: fix NULL pointer dereference in ocfs2_abort_trigger()
 8e5bd4eadd01ea0c47f3a1c798815849f813a700 gcc: disable '-Warray-bounds' for gcc-9
 8bb592c2eca8fd2bc06db7d80b38da18da4a2f43 mm/page_table_check: fix crash on ZONE_DEVICE
@@ -1050,5 +1048,7 @@ e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings wit
 84679f04ceafd58d9b35f790203520b2930f1a03 fortify: fix warnings in fortify tests with KASAN
 882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
+224821766f4355cfa63f825660f5922e670d6fc6 exfat: handle idmapped mounts
+89fc548767a2155231128cb98726d6d2ea1256c9 exfat: fix potential deadlock on __exfat_get_dentry_set
 
---===============7292398316838299934==--
+--===============8501254569964726093==--
