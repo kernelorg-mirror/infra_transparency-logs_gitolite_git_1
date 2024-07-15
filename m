@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8381692259033228679=="
+Content-Type: multipart/mixed; boundary="===============8471246890707632928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 15 Jul 2024 15:51:52 -0000
-Message-Id: <172105871283.32092.16272363108852532214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 15 Jul 2024 15:52:01 -0000
+Message-Id: <172105872153.32207.13280087780202467132@gitolite.kernel.org>
 
---===============8381692259033228679==
+--===============8471246890707632928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 693692444a8f5874f2fc67a17cd2b91f3d2e62f6
-    new: c475f2362d64cb40c71d9cca60ba2ec6bde1c536
-    log: revlist-693692444a8f-c475f2362d64.txt
+    old: 1c209a37ea3e69157b58787992b783377bf9b60c
+    new: 876ccbd8fc5916fd634087f47493325310bf8c80
+    log: revlist-1c209a37ea3e-876ccbd8fc59.txt
 
---===============8381692259033228679==
+--===============8471246890707632928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-693692444a8f-c475f2362d64.txt
+Content-Disposition: attachment; filename=revlist-1c209a37ea3e-876ccbd8fc59.txt
 
 58f7e1e2c9e72c7974054c64c3abeac81c11f822 ocfs2: fix NULL pointer dereference in ocfs2_journal_dirty()
 685d03c3795378fca6a1b3d43581f7f1a3fc095f ocfs2: fix NULL pointer dereference in ocfs2_abort_trigger()
@@ -1049,6 +1049,6 @@ e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings wit
 84679f04ceafd58d9b35f790203520b2930f1a03 fortify: fix warnings in fortify tests with KASAN
 882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
-c475f2362d64cb40c71d9cca60ba2ec6bde1c536 selinux: add a SELinux specific README.md and SECURITY.md
+876ccbd8fc5916fd634087f47493325310bf8c80 lsm: add a LSM specific README.md and SECURITY.md
 
---===============8381692259033228679==--
+--===============8471246890707632928==--
