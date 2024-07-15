@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9078977348320312156=="
+Content-Type: multipart/mixed; boundary="===============5606574544620659994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 15 Jul 2024 08:46:03 -0000
-Message-Id: <172103316368.16220.4361791848914727176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 Jul 2024 08:47:53 -0000
+Message-Id: <172103327312.16970.3881384996045187391@gitolite.kernel.org>
 
---===============9078977348320312156==
+--===============5606574544620659994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 8256b529492ac5fa6ae71e8b02075eefe0deb4f6
-    new: 436381eaf2a423e60fc8340399f7d2458091b383
+  - ref: refs/heads/master
+    old: 21b5525f57ad643190673252a602663feeaad1ea
+    new: a4072a79c03e9f731e1d3e390d4ca93426547357
     log: |
-         a52c6330ff2fe1163333fa6609bdc6e8763ec286 mm/memcg: alignment memcg_data define condition
-         436381eaf2a423e60fc8340399f7d2458091b383 Merge branch 'slab/for-6.11/buckets' into slab/for-next
+         a4072a79c03e9f731e1d3e390d4ca93426547357 6.6-stable patches
          
 
---===============9078977348320312156==
+--===============5606574544620659994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1721033159 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1721033158-d4a2f48e5c57a09dabc30037767e3d3a01a59f96
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721033272 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1721033270-78248641e405d96d52e88e81655131228c921e1c
 
-8256b529492ac5fa6ae71e8b02075eefe0deb4f6 436381eaf2a423e60fc8340399f7d2458091b383 refs/heads/slab/for-next
+21b5525f57ad643190673252a602663feeaad1ea a4072a79c03e9f731e1d3e390d4ca93426547357 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmaU4ccACgkQu+CwddJF
-iJpzgggAn1DInviWlS8pwyHhyaYe1B7yiz8d8qjROgTKSpuLlCw/a2p3bqmReWmE
-WFa3a8mFc+Em1Mbm4eqQT27nUSDeKQUkQHGK0tJpGwmlz0Bij/Ah5yBx1oWO9GjV
-oyVyLMqc/wGZ8Madq+TOk0Rdalfj9IBI2WGh3O3fNkpsdN3IJjje0elC+Of05vxH
-gCIYkp4hRCTlhAn++D6r0fWKbhKq5H82B+Rm6LvVbdf/TaGsc8SrMVdM+3XistI8
-3nD2XHM7ynq7qFTjMrtMX1R1JsTrXv7clR7k8NMB39eCca93a9ovdiitE1bXpcDo
-mKANolqde6Vs/pwXYk8KUAnBNCHXuA==
-=Ebog
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaU4jgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OB4P/14BDyl96bEiaemxKehn
+YJH7lffTzXV627kN0O7HXynaRd7nJHjVSdJaaNR1vO7KDJY3uB8xB9V81Rtn7IJ6
+iK+LyZMcoPCNAC3uxhfoAcpzlE3H1T21Cc4lQisHMaEZyNWbCLGKQxY3Qq/fMVP1
+Ll0gPYgvU7TdEtG0s4kebKq0CqMsEXM8mztwhIijeLjpiecdAPC0ijJKuqeb0ue7
+AGhTN2O4H5E2O1sfwavWEutpyYWjKNXExb/jqY3rpRDMQ29MJ3t2BEcoqHxBoPa/
+HsDC5D5wUORKWFpG/fgGvUJWK2qEua04udLVeD+OG3nvmrmu4Ax6OLSQ7n3MCH8Q
+Fi9UFWKj5IN8ws6umOqUk1hy0FfC9WwRTx6zalLfrCS5J5hqZOXAQJjhxkkpF0cG
+VaDZyT/V5mJMZ6j07tMPrjHv78/VNrcLYJ6/51AojBUcYyIastZNQB8QgvcbnQE4
+fcpLsgF7Gj4lPCOl/N2jGS+J/TJXC11cxzT8Q/hd/PJmuDjctZjw/v+qIluJTMGq
+GAmAEsn7xFqnF0aMeSQbUwSOwQLXd1hNs3RKiwsOPOW3xN/QCF73XwAK4ztQv4gN
+CyL6xX4xt9PTTZ+uCWrJvOHPtf4MunYXpENJitrx8Y7rukQcDvUxBedziqbwwJRI
+cI1SNt5lz0LBFG6i2xGQi9Z4
+=xxS3
 -----END PGP SIGNATURE-----
 
---===============9078977348320312156==--
+--===============5606574544620659994==--
