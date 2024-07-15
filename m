@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6019931189093601630=="
+Content-Type: multipart/mixed; boundary="===============8921792819150486813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Jul 2024 07:28:27 -0000
-Message-Id: <172102850703.11646.3305048397664010713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 15 Jul 2024 07:29:04 -0000
+Message-Id: <172102854462.11941.7564089797433017477@gitolite.kernel.org>
 
---===============6019931189093601630==
+--===============8921792819150486813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f6a585ac284ff704bcbe32c7babdb3b0498436e3
-    new: e1108d3d88954556da126147c2a63051a282851c
+  - ref: refs/heads/linux-rolling-lts
+    old: 6c2c8c45dd529c1b4455f4a450e464ff32223975
+    new: 7e3afe71f9158d9cda5d96c58daa364d670467ce
     log: |
-         e1108d3d88954556da126147c2a63051a282851c move 6.1 and 6.6 queues back in place.
+         69bed24c82139bbad0a78a075e1834a2ea7bd064 Revert "usb: xhci: prevent potential failure in handle_tx_event() for Transfer events without TRB"
+         1a515bd58d1584e2eba85567e16c58dfb82edf32 Linux 6.6.40
+         7e3afe71f9158d9cda5d96c58daa364d670467ce Merge v6.6.40
          
 
---===============6019931189093601630==
+--===============8921792819150486813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721028505 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1721028505-8c6a3d56903a0352c1ab53be54f080e52e92ff59
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721028543 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1721028539-756facef6f27005c14cb65f70f6c8760758b2884
 
-f6a585ac284ff704bcbe32c7babdb3b0498436e3 e1108d3d88954556da126147c2a63051a282851c refs/heads/master
+6c2c8c45dd529c1b4455f4a450e464ff32223975 7e3afe71f9158d9cda5d96c58daa364d670467ce refs/heads/linux-rolling-lts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaUz5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+socQAJAS1cJ/tqix2INkfrd8
-8IK8WPf3tJiMWrGYlyuPWIZHqFZ3x9hd6QZGwRHNMuhsG+cZMHOlNzaGpPyfMsXU
-L6OIQ/8LfOVASHBerY8v8IP1i5AaSWxBNx8D92qgO2JoG8WJsf8+tDnjHSYCa20s
-Z64WA02UsRPzk+7ev4cczUFYUnw5YyErxKRz3+O3rmqDEvm5zhyF296TLSEpEZ9I
-kWnsZKs7mP/8Z2X13axuakHGGOPof+uqCxH9ibLfioJus+p3AeiulRX+NUTGBqDo
-tn/nks4TDwbhEH5j4M2sbXAtI5gSES90iwhsU93Kx/93WwzmOzmzuVTRWXF7fotg
-WgyYd5svbdEcceN98jFTiMhXRC5CCszmikJf45wIeVUGwmbmH471YeYy6eJENlN+
-1qkh37AW2+zhmyxycoFy70p/DOYCgrPvUpYPG7A/Mj3KTcRdtGDX+8oDAppeGldD
-XHg7dFVaYlBvZxRiZ1RdqhrJkwZZ4FcaFBzMPY+LJ3/XelGoGOuePB0ZSRFacRzJ
-GLkdXX3Vl5rTmnqvvHS0mlFCG9tR8z3YHKXduH9RddK5jPJhs+j4kqw9WWjdWcgW
-h2Tn2tmAye1rZhBpkpVE6jr3SE7lQhVhkUwCXkILfux0AeK5wSn34BHWoqELHfCH
-y7JpXmgTLorOyBigU0IPD40Z
-=83dJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaUz78bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6boQAMk4xnBh+UdF3gtGKRle
+rTgFQM9oPDXD7svzpuHeg5c1tFUi7VXUibPEYAiyWSP4nfYUYqZYGKDVEDWFD4qW
+apf3C4TNW5QHiUV7dBG5zKyDM8AkPa8/ElvSIE3hJ2FohQNa3hj6dGPZg9+fbHkc
+CQCEmjwTd5mZbkl4GKF6v6haBJ4TRyTEk9rVUGfTZir8uZND9USV1rrcfVTWFKSS
+1YsDAwZ98VAkO6S9Vgvn12rmtYzMByqM/3SEOWtxR1fJaqfHjilJUaAeKsIPdPC6
+Mqn40WTKd425nmbSS6XDstDrwXX/hapVUezKhJuqhKgbFZuXBOTI6La06azGbrt9
+e+dODXXcP5yep4pUHZd8p8O22N0h9AAGfyYXFOLf6OuvgBMe0envfweRcENApM3/
+A8NHVwGPeAm93e+wdCtAqG4t+WDA4FyGHUSH69oTFZGaiXuQCvgyCJxQdvPjkVkQ
+0+9rzmXnq2wdFIKfx2tM8jjPlozNequlzFzPL18/TDlaTp3JhN3XYidUMGClGHeY
+CGCHFbT29e4vbtRuse3opuEIbofLA7Ld9NffP+KvmQW1u2mFlB5bJxIRy0o25BzN
+F0BeAF/3gIPRr5oJwiXsIurJcDLAUUKqA6yV05H6YhmBS/h1RD/n9F+hG4zk89W+
+b5ctFRVZLIXu8gt5UE8UplUH
+=oqQI
 -----END PGP SIGNATURE-----
 
---===============6019931189093601630==--
+--===============8921792819150486813==--
