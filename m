@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 15 Jul 2024 04:16:58 -0000
-Message-Id: <172101701837.26662.1661411004434774480@gitolite.kernel.org>
+Date: Mon, 15 Jul 2024 04:17:19 -0000
+Message-Id: <172101703984.26884.7779003742277814069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-6.11
-    old: 8f085cffa3668f4be29ee18de11adaf3534c89dd
-    new: b2b1f9338400de0fb65e2ff5fab1b5617dcb5a97
-  - ref: refs/heads/for-next
-    old: c0c5321ec8c262e24ba6f8e9a3bdda2b18fecdef
-    new: ca0d2d1cca0abaa173d96aa273c9e911bcb74444
-  - ref: refs/heads/test-merge-for-6.11
-    old: 0000000000000000000000000000000000000000
-    new: ca1ecaf35b7b1bff5a843828691316c4a6c71556
+    old: b2b1f9338400de0fb65e2ff5fab1b5617dcb5a97
+    new: 83a407a1c22389784634f5371845aa46005e6bf4
+    log: |
+         2a1b02bcba78f8498ab00d6142e1238d85b01591 workqueue: Refactor worker ID formatting and make wq_worker_comm() use full ID string
+         231035f18d6b80e5c28732a20872398116a54ecd workqueue: Increase worker desc's length to 32
+         74347be3edfd11277799242766edf844c43dd5d3 workqueue: Always queue work items to the newest PWQ for order workqueues
+         83a407a1c22389784634f5371845aa46005e6bf4 Merge branch 'for-6.10-fixes' into for-6.11
+         
