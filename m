@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7962354084620610527=="
+Content-Type: multipart/mixed; boundary="===============0753304461577698875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 Jul 2024 12:18:37 -0000
-Message-Id: <172104591772.719.9256636995051592280@gitolite.kernel.org>
+Date: Mon, 15 Jul 2024 12:18:44 -0000
+Message-Id: <172104592449.841.10367519082401175186@gitolite.kernel.org>
 
---===============7962354084620610527==
+--===============0753304461577698875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 425652d45c316cf30330de4be43789f34dd4afe5
-    new: 250b8b86b683e6b52b58514bff94146a47d3251f
-    log: revlist-425652d45c31-250b8b86b683.txt
+  - ref: refs/heads/dev-queue
+    old: cce79b04e2ef3898051db1ee0494597391d638a1
+    new: 518cef63ad0f4e0b78513878d7cfdcd285b490cc
+    log: revlist-cce79b04e2ef-518cef63ad0f.txt
 
---===============7962354084620610527==
+--===============0753304461577698875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-425652d45c31-250b8b86b683.txt
+Content-Disposition: attachment; filename=revlist-cce79b04e2ef-518cef63ad0f.txt
 
 96f887a612e4cda89efc3f54bc10c1997e3ab0e9 net: esp: cleanup esp_output_tail_tcp() in case of unsupported ESPINTCP
 3df1627d8370a9c420b49743976b3eeba32afbbc arm64: dts: qcom: sc8180x: Fix LLCC reg property again
@@ -162,5 +162,17 @@ d657f5c76c47eca50dd61b5c1e150dac05e07046 Merge branch 'vrf-fix-source-address-se
 79eecf631c14e7f4057186570ac20e2cfac3802e af_packet: Handle outgoing VLAN packets without hardware offloading
 59a931c5b732ca5fc2ca727f5a72aeabaafa85ec xdp: fix invalid wait context of page_pool_destroy()
 250b8b86b683e6b52b58514bff94146a47d3251f Merge branch 'main' of ra.kernel.org:/pub/scm/linux/kernel/git/davem/net into main
+0726ae5341ad236bfb09641d9f35c304d71cfeca ice: Add a per-VF limit on number of FDIR filters
+882f13d81a83ec37c331703a1cf3fb51e70d663a igc: Fix double reset adapter triggered from a single taprio cmd
+e2edb5f3e6dfc865950ca6dd3bd2ef4f14bf325a ice: Fix lldp packets dropping after changing the number of channels
+18ce92d9f994bb8837f1c10f59bfad8720c72892 ice: respect netif readiness in AF_XDP ZC related ndo's
+2fb2ea8097664f97509760e44fe5285bca9ab8e2 ice: don't busy wait for Rx queue disable in ice_qp_dis()
+21e0dd10c1518daf7ceef62dd7f3d267d5a6358f ice: replace synchronize_rcu with synchronize_net
+dbebb9f66607882dd15b13e04bccc1e5289d149e ice: modify error handling when setting XSK pool in ndo_bpf
+e3a2c5eef5ad55c84c64aea728fe7ac0c8d609d1 ice: toggle netif_carrier when setting up XSK pool
+cb45c0965692b6d6b7a390198518455fe48e1464 ice: improve updating ice_{t, r}x_ring::xsk_pool
+a6f94dcbd8da53c4dbd2aa5ffc542ff7df11c91b ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+2a914ecc77001c9dcbba2e6db6fd8d9de911defc ice: xsk: fix txq interrupt mapping
+518cef63ad0f4e0b78513878d7cfdcd285b490cc ice: Fix recipe read procedure
 
---===============7962354084620610527==--
+--===============0753304461577698875==--
