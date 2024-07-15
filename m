@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2116900089429706771=="
+Content-Type: multipart/mixed; boundary="===============4442710244964309780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 15 Jul 2024 17:09:11 -0000
-Message-Id: <172106335123.25815.16802604100888320100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 15 Jul 2024 17:09:21 -0000
+Message-Id: <172106336174.26021.1954186091433398263@gitolite.kernel.org>
 
---===============2116900089429706771==
+--===============4442710244964309780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5e0497553643b6c6acd16c389afb9cec210f4ea9
     log: revlist-0c3836482481-5e0497553643.txt
 
---===============2116900089429706771==
+--===============4442710244964309780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ a5819099f601c1af5b86b1f5921a56859e45b19a Merge branch 'runtime-constants'
 1654c37ddbfce5d50bc2895d7ea9c5e0edcc4d77 Merge branch 'arm64-uaccess' (early part)
 5e0497553643b6c6acd16c389afb9cec210f4ea9 Merge branch 'link_path_walk'
 
---===============2116900089429706771==--
+--===============4442710244964309780==--
