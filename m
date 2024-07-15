@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8179127605692325775=="
+Content-Type: multipart/mixed; boundary="===============1673912223010399776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 15 Jul 2024 16:26:02 -0000
-Message-Id: <172106076278.25461.5514669538662300877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 15 Jul 2024 16:26:13 -0000
+Message-Id: <172106077361.25613.5642302283297110485@gitolite.kernel.org>
 
---===============8179127605692325775==
+--===============1673912223010399776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d04e483db22823c13c0313b7c43a52529a2e2672
 
---===============8179127605692325775==
+--===============1673912223010399776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -304,4 +304,4 @@ e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings wit
 882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
 
---===============8179127605692325775==--
+--===============1673912223010399776==--
