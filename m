@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 15 Jul 2024 16:33:41 -0000
-Message-Id: <172106122171.30358.12693933193855776066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 15 Jul 2024 16:36:12 -0000
+Message-Id: <172106137228.459.12406198450179443030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/tags/hardening-v6.11-rc1
+  - ref: refs/tags/lsm-pr-20240715
     old: 0000000000000000000000000000000000000000
-    new: 58817eebbdf9f320cb71babf0449a0b3c650e0b2
+    new: 0de1439e001587dfde65d66e361508355ac0e072
