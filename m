@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Jul 2024 11:46:48 -0000
-Message-Id: <172104400810.6119.5864865766518750169@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9174115588280675051=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 Jul 2024 11:46:49 -0000
+Message-Id: <172104400983.6225.5288105804762107990@gitolite.kernel.org>
+
+--===============9174115588280675051==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 697900f026f1dcbacf1c5f5820bd5edc25f372f3
-    new: 285d9f79f0e521ce26851d6dc29b31e1a989abae
+  - ref: refs/heads/master
+    old: 8f7aedad6e5c7f9689ce94a149892ada186c040b
+    new: b3b7dd925b8d0aa3677720560c8072f6fccea193
     log: |
-         6bad1bef26ca2b3fd6412c6e2ac943ae6f45351c MAINTAINERS: drop riscv list from cache controllers
-         dead06c5e110c25931bafc8cf017e3077b871ac5 ARM: pxa: fix build breakage on PXA3xx
-         3ae8a78d0ed6a692f7476dd1b69b167c80f9cec8 Merge branch 'soc/drivers' into for-next
-         285d9f79f0e521ce26851d6dc29b31e1a989abae Merge branch 'soc/arm' into for-next
+         b3b7dd925b8d0aa3677720560c8072f6fccea193 5.10-stable patches
          
-  - ref: refs/heads/soc/arm
-    old: ed75ace541049fa1a758715578165366cc3dc72a
-    new: dead06c5e110c25931bafc8cf017e3077b871ac5
-    log: |
-         dead06c5e110c25931bafc8cf017e3077b871ac5 ARM: pxa: fix build breakage on PXA3xx
-         
-  - ref: refs/heads/soc/drivers
-    old: ed46f1f7731d2cd77d623c0f895df9e23c0bffb6
-    new: 6bad1bef26ca2b3fd6412c6e2ac943ae6f45351c
-    log: |
-         6bad1bef26ca2b3fd6412c6e2ac943ae6f45351c MAINTAINERS: drop riscv list from cache controllers
-         
+
+--===============9174115588280675051==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721044008 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1721044007-81510a89ea8d9d74883e85b2628e97ec0c558788
+
+8f7aedad6e5c7f9689ce94a149892ada186c040b b3b7dd925b8d0aa3677720560c8072f6fccea193 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaVDCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/CkP/RzhBoij+m2ppRmyBTWO
+xXUEJ9GaAFkYJNgo7PZdyOXiBelK8U3gMsYem+bJyP5kzJUTB3F9pBArcs98O77A
+KclSiTMVoNab+whLKgA1WPfIvuJ3qKEY6J7B9Pqe3gk94dJrKusmmt/ojRHn0r1Q
+uG0oJgriM2T54k56mKGYtPXg0yTzZI42cgarcCovvwtrvzbrScMsTttS/En65cYb
+3jd7BiyOzfVin2JpeeZSNTIKoLoLWnD5gWvAXADOS3mc19v+wZjyaaFyulepYL5N
+r8r6iate/kVkMMnnJXj1DgyH75RStB+2XYnJ7yypuUqCafSCZ+HJXPkBTomvKzqZ
+TWhjtIPUFPL3W/Q8C/7R08j4LZK9ZAdMPCmGwOA7PG4XbOHHBdZyCOLAmtD2XPcq
+AlzIVYQR9bk2T7eqeSLMYVxoU2sZPFXyhWwhH/SFx+qz4LVV6QYyBRDsQHNugih2
+tNQ/2t8Km3Ue6c42w0Qp/mGc5uFn+7Bs8T5Pe/lDENY8oTdYng9KQGQG6loWz0z8
+2cV4dIFBrcHnCfhrktvIkHgxnrO9UFWnX5djI2jyzUvW7MpRMop+fXoskZ5H2Hce
+ZvDw/KeyhgpDOLGD4LmEQ22Azg99FKY7yIzIvI4Bo3uIQaXT68WLAkElMqOMKXkV
+Urg7fqmcSNaCfHIk1aTzHyeJ
+=9GhM
+-----END PGP SIGNATURE-----
+
+--===============9174115588280675051==--
