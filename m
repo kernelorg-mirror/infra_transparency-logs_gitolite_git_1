@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1137351528287516302=="
+Content-Type: multipart/mixed; boundary="===============6670899826648144799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 16 Jul 2024 22:17:11 -0000
-Message-Id: <172116823120.15621.4179672598452711587@gitolite.kernel.org>
+Date: Tue, 16 Jul 2024 22:17:16 -0000
+Message-Id: <172116823643.15727.17874059190058028745@gitolite.kernel.org>
 
---===============1137351528287516302==
+--===============6670899826648144799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,79 +15,84 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 2e3d2a0b4c3e1b5d36f9826fe4fad3afd9b28636
-    new: aa9b756a26eb698188ef57f5155bf8469b923eb7
-    log: revlist-2e3d2a0b4c3e-aa9b756a26eb.txt
+  - ref: refs/heads/master
+    old: d80f2996b8502779c39221a9e7c9ea7e361c0ae4
+    new: 42b5a01596f1f9471b58a2f59e1fceeb8db79ffc
+    log: revlist-d80f2996b850-42b5a01596f1.txt
 
---===============1137351528287516302==
+--===============6670899826648144799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e3d2a0b4c3e-aa9b756a26eb.txt
+Content-Disposition: attachment; filename=revlist-d80f2996b850-42b5a01596f1.txt
 
-1b4904cce0260c0f8072fa7c37e29449855e2aff MAINTAINERS: mailmap: update James Clark's email address
-1f14d46716e4ff5df3fba933295166a9438d4154 dt-bindings: arm: opdate James Clark's email address
-30cb205e49a42dccaf92efe5b6f36fc7aa9f46be mm: fix old/young bit handling in the faulting path
-ac5ca7954e4e9a10a0ee0392a8750921921b84e7 alloc_tag: export memory allocation profiling symbols used by modules
-4bde58a8476e0fb737a95d26614a19228352367d mm: huge_memory: use !CONFIG_64BIT to relax huge page alignment on 32 bit machines
-0bfcca7539f20fabe89d77f5ee29c04dee1632a5 mm/huge_memory: avoid PMD-size page cache if needed
-4c1c7ac2ff8fa1eef05e45019257e3cca58a4fb2 foo
-63c4774d0f0b2c61616120c7fc00eb48b94b571c mm/hugetlb_cgroup: introduce peak and rsvd.peak to v2
-d76969a6cdbfad783e98c4ba3260036dcc6a53f3 mm/numa_balancing: teach mpol_to_str about the balancing mode
-041ac7687d91b7b679317894cffbf16ef00b4d08 mm/gup: clear the LRU flag of a page before adding to LRU batch
-0ba1f66c58ccc273e7931f0c3313bec1a00461e2 mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
-833447b2e791d9904959198177e069968101ea24 mm/hugetlb: fix possible recursive locking detected warning
-015d8439e64e8623abc087ac5794fb8260343a76 mm/hugetlb: fix potential race in __update_and_free_hugetlb_folio()
-622951f5fa485f808252e26f1c13d0cb1a808930 mm/hugetlb: fix kernel NULL pointer dereference when migrating hugetlb folio
-eb2689716bb57d502854cbbd4e8e1aec5d68cdaf mm/zswap: fix a white space issue
-a97a4fadc739453c0249ec4d6772036771a09924 mm/mglru: fix ineffective protection calculation
-9104029b5004077e7b15e460493d973772033813 mm: fix endless reclaim on machines with unaccepted memory.
-38657a7ce2f7e86c41050a2d8bb491012813df21 mm: optimization on page allocation when CMA enabled
-bb4d7a63a385343549ef15c3ea4f3c057568a97e === mark start of DAMON hack tree ===
-1beaf1ff3083f4b51f3db37243f57cf048305806 Add -damon suffix to the version name
-6be69def0ca8c495c8855d9dc3185d849dfa5558 === temporal fixes ===
-853c5c94fca398c9dca71f7360147df21ee60f39 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-4c4ac10e7b827c23677d719930fc77a95dd5d1c0 === patches written or reviewed by SJ but not merged in -mm ===
-7cc8b956e9fb5281bae7bf15e16ef0aa28caac20 === merged in non-mm trees ===
-b5eb90ad71213e8f71a0376cf9c11585c19d8638 ==== docs improvement for mm ====
-bfab331c0a7d0ae4af1d6998fd05e8e7d57fa481 Docs/mm/allocation-profiling: mark 'Theory of operation' as chapter
-f9f5a41b794b1ea6d5644d357332f7d1ba491986 Docs/mm/index: Remove 'Memory Management Guide' chapter marker
-6265b4d4ccb172d90d96065b1343dcb534b36f32 Docs/mm/index: rename 'Legacy Documentation' to 'Unsorted Documentation'
-49bf75ad6b37b4d993bf24cf5fe2988e4dee973c Docs/mm/index: move allocation profiling document to unsorted documents chapter
-d7a0e97a898be147f43a94fafba80f7c50ab18c4 ==== docs fixup for corbet ====
-b384427b47932d976a94afa633c60e517c9ddcef Docs/process/index: Remove unaligned-memory-access from 'Other material'
-2e26c1def41c35f67a479f5d6dab457e8e93b382 Docs/process/index: Remove riscv/patch-acceptance from 'Other material' section
-bdb628be10b6838cd2f87a5b1f84f2e8ee4f7d22 Docs: Move magic-number from process to staging
-3a7365572bf97c9d0e95f0e165e8319229f63a11 Docs: Move clang-format from process/ to dev-tools/
-34a6a78c488d764457f360bb46a2bc5b4bdeb54b Docs/process/index: Remove unsorted docs section
-a2c9548e3561f6d646b62b8d26ab65705ed3d71f Docs/maintainer/maintainer-entry-profile: add DAMON maintainer profile
-e478ac11278abca9549420a560e73f390afda146 Docs/process/email-clients: Document HacKerMaiL
-0b218ecdbad61e0d760d74102fa759bb4ad14825 === commits aiming not to be posted ===
-be0550e8b7cb2ef1504036bd73ed7dfbd7c85cd8 mm/damon: Add debug code
-5a86ab0b2351e80e8aae6e0bffcc608cd3f54ffa mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-25680354782eb7370c4b58a1353968e42d70379a mm/damon/core: add todo for DAMOS interval validation
-be1fce74da7e3b602b0c09d243dd97b550258825 mm/damon/core: add debugging-purpose log of tuned esz
-2668595d00d5f667569ae26826df15d05935f0e9 Add debug log for PSI
-6e0984b45091691d2c449dfd4e17b9dc91462e6a === hacks in progress ===
-863709e3744907748aec79661c80eef0a62cc4a7 ==== ACMA ====
-2643f61304c4de24dc0bfbb01036a642e98bd761 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-1f411d43b4260926f2d7431c9706f2aa1f0e62d7 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-c21246130564c4cf07f7da3615fa1bce4bcde1b0 mm/page_reporting: implement a function for reporting specific pfn range
-d7b3acaff4d1c5c781a36cebc6b04e65cebcca1d mm/damon/acma: implement scale down feature
-cdc60c0be994515356a663bd444c853181dbe017 mm/damon/acma: implement scale up feature
-9debbfef5acb729039800229c01c46152fd87147 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-e7a552a510a8b768d36a2e8ce6868ef421933dad ==== write-only monitoring ====
-114bca978119469cba638c061a73b8ed5d89b1b3 ==== docs fixup for corbet ====
-1eae365b0c47c4be412b7e1d1c603e7a055ab80d Docs/translations/ko_KR: move howto.rst under process/ directory
-107dcd1d4a428846cca6e19935d561feaafe295e Docs/translations/ko_KR: Link memory-barriers wrapper with other language versions
-2ad835912f703e60d3c307967deb418c4477c084 ==== docs for DAMON ====
-0a8fb84a387fe99c7a2d82a167ba25df988964f0 Docs/mm/damon/design: add API link to damon_ctx
-ddfc9a901a02a7d023989c30fe38c3e0abbd7ba3 MAINTAINERS/MEMORY MANAGEMENT: add mm document files as managed files
-08160b9be67699f3fdce4525121a1039a9193d06 Docs/process/2.Process: Update mm tree URL
-2047ed4458f6a8a6798284dea795fddc4ded90d5 selftests/damon: add access_memory_even to .gitignore
-7b3edc9529c354a7b0edf4aef14c4042700eef66 selftests/damon: cleanup __pycache__/ with 'make clean'
-d8d35a18c3cbe3cee5d73b0bb6b1ff20bfed243d selftests/damon: add execute permissions to test scripts
-aa9b756a26eb698188ef57f5155bf8469b923eb7 tools/testing/selftests/kselftest/runner: warn non-executable tests only when really cannot execute
+9dd12ed95c2d06a29a5d289c6e65589c577ef8ca pstore/blk: replace deprecated strncpy with strscpy
+98ca62ba9e2be5863c7d069f84f7166b45a5b2f4 sysctl: always initialize i_uid/i_gid
+b5ffbd1396885f76bf87e67d590a3ef063e6d831 sysctl: move the extra1/2 boundary check of u8 to sysctl_check_table_array
+4154342bf153a6c2a2820e3d517188d7c76f7055 utsname: constify ctl_table arguments of utility function
+32fe91524e1651b9a0e11ddfbc63de9aa485cf48 sysctl: constify ctl_table arguments of utility function
+c819e252c2874479b27f6a356b44f8aa73cf5a81 sysctl: Add module description to sysctl-testing
+61df7b82820494368bd46071ca97e43a3dfc3b11 lsm: fixup the inode xattr capability handling
+2fe209d0ad2e2729f7e22b9b31a86cc3ff0db550 smack: tcp: ipv4, fix incorrect labeling
+2f7c6248920523ca7468711891aa13f80ede8da4 locking: Remove superfluous sentinel element from kern_lockdep_table
+e2a6c472de7a5e5a1455a9fff1cfc55a1dd888af mm profiling: Remove superfluous sentinel element from ctl_table
+d7a76ec87195ced6910b0ca10ca133bb316c90f5 sysctl: Remove check for sentinel element in ctl_table arrays
+55bb7eb62db4995cec7e309c2b9a1070cfd60eb6 sysctl: Replace nr_entries with ctl_table_size in new_links
+aef9d25e7f5631543a0276d0532151f2c61174d6 sysctl: Remove superfluous empty allocations from sysctl internals
+a02fe70de4c2a7fbd971b49c5fa69f867fac16ff sysctl: Remove "child" sysctl code comments
+3717540377c500e28f4304b17a46dd5b025a61ac sysctl: Remove ctl_table sentinel code comments
+acc154691fc75e1a178fc36624bdeee1420585a4 sysctl: Warn on an empty procname element
+51005a59bcbe1add8802105437b3707ea257f2ea lkdtm/bugs: add test for hung smp_call_function_single()
+9b3c13c9ea4ecb2b95948f666560b8df8f358b40 pstore: platform: add missing MODULE_DESCRIPTION() macro
+e86cac0acdb1a74f608bacefe702f2034133a047 smack: unix sockets: fix accept()ed socket label
+d6f635bcaca8d38dfa47ee20658705f9eff156b5 x86/alternatives: Make FineIBT mode Kconfig selectable
+b57a2907c9d96c56494ef25f8ec821cd0b355dd6 selftests/exec: Build both static and non-static load_address tests
+2d4cf7b190bbfadd4986bf5c34da17c1a88adf8e binfmt_elf: Calculate total_size earlier
+3545deff0ec7a37de7ed9632e262598582b140e9 binfmt_elf: Honor PT_LOAD alignment for static PIE
+60371f43e56bfad1f438621fae286e1de5bb6877 exec: Add KUnit test for bprm_stack_limits()
+2003e483a81cc235e29f77da3f6b256cb4b348e7 fortify: Do not special-case 0-sized destinations
+ef40d28f17bd384d7e0b630c7d83f108a526351b randomize_kstack: Remove non-functional per-arch entropy filtering
+2a97388a807b6ab5538aa8f8537b2463c6988bd2 ELF: fix kernel.randomize_va_space double read
+95036a79e7b56178e2fa9c485114be61d24c1695 seccomp: interrupt SECCOMP_IOCTL_NOTIF_RECV when all users have exited
+bfafe5efa9754ebc991750da0bcca2a6694f3ed3 seccomp: release task filters when the task exits
+39a73b4aa69aeb1adcf9960710c12842a4092b7a selftests/seccomp: add test for NOTIF_RECV and unused filters
+f0c508faea645da58d6ae6b644a1b68020d5a9d2 selftests/seccomp: check that a zombie leader doesn't affect others
+e51d31c454fbd64e5de8d85c94bb519228f4c78a xen/manage: Constify struct shutdown_handler
+37aee82c213d352dccb850dc4228dda2e7e591b1 x86/efi: Drop support for fake EFI memory maps
+0dad9ee3c13930fe8122f2efc936fcd1c277a00d efistub/smbios: Simplify SMBIOS enumeration API
+ad162488bbd359abda99c9819f5cbe9172f40935 x86/xen/time: Reduce Xen timer tick
+349d271416c61f82b853336509b1d0dc04c1fcbb x86/xen: Convert comma to semicolon
+7cd23c1817b8f9df61dac67848d9593b1ca8882f xen: add missing MODULE_DESCRIPTION() macros
+1c682593096a487fd9aebc079a307ff7a6d054a3 xen: privcmd: Switch from mutex to spinlock for irqfds
+611ff1b1ae989a7bcce3e2a8e132ee30e968c557 xen: privcmd: Fix possible access to a freed kirqfd instance
+e123134b39dc40af94e8aec49227ae55b5e087a8 selinux: Use 1UL for EBITMAP_BIT to match maps type
+cd6193877c603f4b0c3c7e5607ffa3d52815403f x86/efistub: Enable SMBIOS protocol handling for x86
+71e49eccdca6328eecc335ed8f5557bd0ed70fc6 x86/efistub: Call Apple set_os protocol on dual GPU Intel Macs
+fb318ca0a522295edd6d796fb987e99ec41f0ee5 x86/efistub: Avoid returning EFI_SUCCESS on error
+ebf5a79acf9a2970e93d30a9e97b08913ef15711 x86/efistub: Drop redundant clearing of BSS
+18c18b1ff6c648ea62571554dfd698110757f894 gcc-plugins: Remove duplicate included header file stringpool.h
+3ccea4784fddd96fbd6c4497eb28b45dab638c2a ARM: Remove address checking for MMUless devices
+dd44477e7fa15ba3b100dfc67bf7cf083f3dccf6 selinux,smack: remove the capability checks in the removexattr hooks
+12a01f66f0910aee3e8cbdb35f4d6351be2fc8dd arm64/efistub: Clean up KASLR logic
+fab451d1582cde6073c271f0520c2348a4f1398e xen/arm: Convert comma to semicolon
+942d917cb92af2277db9e3be0d62345d770d5996 xen: make multicall debug boot time selectable
+337c628ab74d1bbfe5377bbd8d31c858baf5fbc6 x86/xen: make some functions static
+bcea31e2d1c7a34aeeae9458f38833d5a8409cf7 x86/xen: eliminate some private header files
+9fe6a8c5b247e182c1781556794324a8e26a7cd3 x86/xen: remove deprecated xen_nopvspin boot parameter
+887c4cf5594a073fd60c0df84150eb06d78c6406 efi: Rename efi_early_memdesc_ptr() to efi_memdesc_ptr()
+4a2ebb082297f41803742729642961532e54079e efi: Replace efi_memory_attributes_table_t 0-sized array with flexible array
+084ebf7ca83e6cb743784f2eecc654193ce064fb execve: Keep bprm->argmin behind CONFIG_MMU
+21f93108306026b8066db31c24a097192c8c36c7 exec: Avoid pathological argc, envc, and bprm->p values
+872bb37f6829d4f7f3ed5afe2786add3d4384b4b randomize_kstack: Improve stack alignment codegen
+e55037c879a087a57d775e848a58430ab3380fc1 Merge tag 'efi-next-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+f83e38fc9f1092f8a7a65ff2ea6a1ea6502efaf0 Merge tag 'for-linus-6.11-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+72fda6c8e553699f6ba8d3ddc34f0bbe7a5898df Merge tag 'execve-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+1ca995edf838a70c7c0aba2de7fc6da57e22cbf3 Merge tag 'seccomp-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+8050258bd1eed0f77dd7e3fa15feb23bbcc38e63 Merge tag 'pstore-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+ce5a51bfacf7a2953f8fa309a8fc8540c2e288da Merge tag 'hardening-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f8a8b94d0698ccc56c44478169c91ca774540d9f Merge tag 'sysctl-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+dad8d1a383a8a2123be2a067098fa25afa2ddad7 Merge tag 'selinux-pr-20240715' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+11ab4cd5ec3f5f531ca0cb3014b7c6869c4aea5d Merge tag 'lsm-pr-20240715' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+42b5a01596f1f9471b58a2f59e1fceeb8db79ffc Merge tag 'Smack-for-6.10' of https://github.com/cschaufler/smack-next
 
---===============1137351528287516302==--
+--===============6670899826648144799==--
