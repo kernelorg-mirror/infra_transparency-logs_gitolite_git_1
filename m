@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 16 Jul 2024 11:17:06 -0000
-Message-Id: <172112862600.7937.11435859988694600159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 16 Jul 2024 11:25:37 -0000
+Message-Id: <172112913756.14161.10060517528293700602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/tags/for-linus-2024071601
-    old: 0000000000000000000000000000000000000000
-    new: 579408b1de5618ff6d43b2cd6ae1cf07e5c69cce
+  - ref: refs/heads/ch/highlight-line
+    old: 356fd47bbd9154e46a41a75b0d3fbc5e7f62b8a2
+    new: aa909704a232403c92b45f87dce791f3c92b3345
+    log: |
+         aa909704a232403c92b45f87dce791f3c92b3345 css: highlight line in diff...
+         
