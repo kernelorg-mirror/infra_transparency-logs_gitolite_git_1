@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6099481954092585798=="
+Content-Type: multipart/mixed; boundary="===============5650404265722273471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Jul 2024 17:18:23 -0000
-Message-Id: <172115030366.20131.9412142067335197283@gitolite.kernel.org>
+Date: Tue, 16 Jul 2024 17:18:27 -0000
+Message-Id: <172115030700.20221.17117568333693638614@gitolite.kernel.org>
 
---===============6099481954092585798==
+--===============5650404265722273471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 338a93cf4a18c2036b567e9f613367f7a52f2511
     new: 77ae5e5b00720372af2860efdc4bc652ac682696
     log: revlist-338a93cf4a18-77ae5e5b0072.txt
 
---===============6099481954092585798==
+--===============5650404265722273471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -429,4 +429,4 @@ b49991d83bba4ae77a560c5f021932e8290bd022 wifi: ath12k: fix build vs old compiler
 a3bfc095060b51f0198755020daf80d1e14413b1 tcp: Replace strncpy() with strscpy()
 77ae5e5b00720372af2860efdc4bc652ac682696 eth: fbnic: Fix spelling mistake "tiggerring" -> "triggering"
 
---===============6099481954092585798==--
+--===============5650404265722273471==--
