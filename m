@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9112827113336648185=="
+Content-Type: multipart/mixed; boundary="===============7850657934076700267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 16 Jul 2024 10:13:22 -0000
-Message-Id: <172112480296.24358.5287492571002511250@gitolite.kernel.org>
+Date: Tue, 16 Jul 2024 10:13:44 -0000
+Message-Id: <172112482442.24578.16076636572003925355@gitolite.kernel.org>
 
---===============9112827113336648185==
+--===============7850657934076700267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 6e9a602077a403aedb45f90dfa9faa13d90ce4a6
     new: d67978318827d06f1c0fa4c31343a279e9df6fde
     log: revlist-6e9a602077a4-d67978318827.txt
 
---===============9112827113336648185==
+--===============7850657934076700267==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f998678baf3c143fec4c66e7f3a84bae3b25ff12 Merge tag 'x86_vmware_for_v6.11_rc1' of
 2439a5eaa753d22759fb4248e0f5e459503fffad Merge tag 'x86_bugs_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d67978318827d06f1c0fa4c31343a279e9df6fde Merge tag 'x86_cpu_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============9112827113336648185==--
+--===============7850657934076700267==--
