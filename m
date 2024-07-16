@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 16 Jul 2024 12:10:38 -0000
-Message-Id: <172113183827.16075.2924825793964149564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 16 Jul 2024 12:16:53 -0000
+Message-Id: <172113221329.19978.12121035385053859060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/probes-v6.11
+  - ref: refs/tags/ata-6.11-rc1
     old: 0000000000000000000000000000000000000000
-    new: aa4c31f7638918b4fe22ccea2bc9469721ee95cd
+    new: 99234cc3e9ea440f37407d1583806cf4374ae3f5
