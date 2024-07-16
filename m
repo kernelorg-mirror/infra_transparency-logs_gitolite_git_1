@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
-Date: Tue, 16 Jul 2024 18:06:37 -0000
-Message-Id: <172115319748.24371.3307272808289155059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 16 Jul 2024 18:07:14 -0000
+Message-Id: <172115323415.25719.9415723356523654174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pateldipen1984/linux
-user: pateldipen1984
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/tags/for-6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 58a5ecb5f49806bed3e0f7edb7e5d5ae9bc300e6
+  - ref: refs/heads/trace/for-next
+    old: 22b639253ec046d66c69c54b9d28bb1bd30f3a7a
+    new: 7dc836187f7c6f70a82b4521503e9f9f96194581
+    log: |
+         c40583e19eebae50f6b024d8285d2703e2522364 rtla/osnoise: set the default threshold to 1us
+         a325742505f6f08141fd7a530a82a907780bfd2c tracing/sched: sched_switch: place prev_comm and next_comm in right order
+         7dc836187f7c6f70a82b4521503e9f9f96194581 trace/pid_list: Change gfp flags in pid_list_fill_irq()
+         
