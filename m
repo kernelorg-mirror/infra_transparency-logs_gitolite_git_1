@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2426734081581277632=="
+Content-Type: multipart/mixed; boundary="===============3831205075922889727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Jul 2024 17:18:30 -0000
-Message-Id: <172115031054.20305.6160833636727956622@gitolite.kernel.org>
+Date: Tue, 16 Jul 2024 17:18:33 -0000
+Message-Id: <172115031370.20376.2817829820280311522@gitolite.kernel.org>
 
---===============2426734081581277632==
+--===============3831205075922889727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 1712c9ee36d1f7b00e89bcd9743c18ba00a47f42
+  - ref: refs/heads/100GbE
+    old: e10989e56f5231934103d5a4c7c8926c783924ca
     new: 77ae5e5b00720372af2860efdc4bc652ac682696
-    log: revlist-1712c9ee36d1-77ae5e5b0072.txt
+    log: revlist-e10989e56f52-77ae5e5b0072.txt
 
---===============2426734081581277632==
+--===============3831205075922889727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1712c9ee36d1-77ae5e5b0072.txt
+Content-Disposition: attachment; filename=revlist-e10989e56f52-77ae5e5b0072.txt
 
 96f887a612e4cda89efc3f54bc10c1997e3ab0e9 net: esp: cleanup esp_output_tail_tcp() in case of unsupported ESPINTCP
 3df1627d8370a9c420b49743976b3eeba32afbbc arm64: dts: qcom: sc8180x: Fix LLCC reg property again
@@ -573,19 +573,17 @@ d7c199e77ef2fe259ad5b1beca5ddd6c951fcba2 Merge tag 'nf-24-07-11' of git://git.ke
 b3ebb9b7e92a928344a7a2c1f8514474bfa113cf btrfs: stop extent map shrinker if reschedule is needed
 4484940514295b75389f94787f8e179ba6255353 btrfs: avoid races when tracking progress for extent map shrinking
 f19e1027f6c0f5fae18b2f2ed88b55a6a637f76e Merge tag 'asoc-fix-v6.10-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-e247267bbeaf0d904b95765b2721495f6581eb65 ice: Remove unused struct ice_prot_lkup_ext members
 63d20a94f24fc1cbaf44d0e7c0e0a8077fde0aef mmc: sdhci: Fix max_seg_size for 64KiB PAGE_SIZE
 16198eef11c1929374381d7f6271b4bf6aa44615 mmc: davinci_mmc: Prevent transmitted data size from exceeding sgm's length
-c563908494e9578da70a11d49f6ad75c56fe8d48 ice: Remove reading all recipes before adding a new one
-3125eb5595904c41f93587e35712acffa51e14c8 ice: Simplify bitmap setting in adding recipe
 19d3c179a37730caf600a97fed3794feac2b197b bpf, arm64: Fix trampoline for BPF_TRAMP_F_CALL_ORIG
-589dd7145a8ea6bcc6faa286205e467ba5403f79 ice: remove unused recipe bookkeeping data
 83ab4b461eb7bdf90984eb56d4954dbe11e926d4 Merge tag 'vfs-6.10-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 51df8e0cbaefd432f7029dde94e6c7e4e5b19465 Merge tag 'net-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2ecdd4ba47fc499ff610d49cb42df7ef27d0292e ice: Optimize switch recipe creation
-1d2ac128531e381dab5bb7fd21f95cf2d075bff5 ice: Remove unused members from switch API
-e10989e56f5231934103d5a4c7c8926c783924ca ice: Add tracepoint for adding and removing switch rules
 a6a9fcb10836105e525ccb8bc1a6af4b20a113be net: pse-pd: pd692x0: Fix spelling mistake "availables" -> "available"
+bf130ed3aaa37bbd9c7f4b305c42e02128187cd4 net: intel: Remove MODULE_AUTHORs
+4c8c36fe4e3b3f7d321f885b76afdf858962335b i40e: correct i40e_addr_to_hkey() name in kdoc
+a59618b98543248adae7e77d60f67974ca243319 ice: Add support for devlink local_forwarding param
+aff6e32cc7ffb271b07b6390ef1580b7ec576a8f ice: remove eswitch rebuild
+1712c9ee36d1f7b00e89bcd9743c18ba00a47f42 igc: Remove the internal 'eee_advert' field
 8a18fda0febb7790de20ec1c3b4522ce026be1c6 Merge tag 'spi-fix-v6.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d5cfecfe7f3293a4773c4486ac92d742143e8659 dm vdo: replace max_discard_sectors with max_hw_discard_sectors
 7c8267275de6989a9b682a07d75e89395457ee01 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -857,4 +855,4 @@ b49991d83bba4ae77a560c5f021932e8290bd022 wifi: ath12k: fix build vs old compiler
 a3bfc095060b51f0198755020daf80d1e14413b1 tcp: Replace strncpy() with strscpy()
 77ae5e5b00720372af2860efdc4bc652ac682696 eth: fbnic: Fix spelling mistake "tiggerring" -> "triggering"
 
---===============2426734081581277632==--
+--===============3831205075922889727==--
