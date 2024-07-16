@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5395025438543771332=="
+Content-Type: multipart/mixed; boundary="===============5784781275326253199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 16 Jul 2024 13:25:28 -0000
-Message-Id: <172113632820.6225.11270492185009981457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Jul 2024 13:25:34 -0000
+Message-Id: <172113633450.6311.9200680288158820157@gitolite.kernel.org>
 
---===============5395025438543771332==
+--===============5784781275326253199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: 3048dc8ba46b7ba11581f2a7e06849af0df13136
     new: 87232ea8a5caf8d050f8ea7acd210a2cfcbe6309
     log: |
@@ -28,28 +28,28 @@ changes:
          87232ea8a5caf8d050f8ea7acd210a2cfcbe6309 spi: microchip-core: add support for word sizes of 1 to 32 bits
          
 
---===============5395025438543771332==
+--===============5784781275326253199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1721136326 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1721136326-cfee04f32358786f0779f27e940ec6fca69d71fc
+pusher C3F436CA30F5D8EB 1721136332 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1721136332-d9b6192a250eb715ca7d9f06733fb1eccb309e5b
 
-3048dc8ba46b7ba11581f2a7e06849af0df13136 87232ea8a5caf8d050f8ea7acd210a2cfcbe6309 refs/heads/for-6.11
+3048dc8ba46b7ba11581f2a7e06849af0df13136 87232ea8a5caf8d050f8ea7acd210a2cfcbe6309 refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaWdMYACgkQJNaLcl1U
-h9AJggf/SWqo3zPIJGe5wwriom4IfBRYB+HwrlI58igI2ue+L8XRaSDePc1Utelq
-xVlPog6I5QRdC1/jUIlO6H5K7EaPoSya1pC8B/YypfDY/UVmaMJdXaP3BnkYMn1X
-Qy8V4AYT3a08okpgZwaINtKDBWLsh2DgiPeyxQlo+5j89p+FHA9wGhUXW7Jep7Pc
-21duFqwAE7n1jZOUZFqKvL4xm9KfPulTsa3QFz2pMwu1H+lNgkE6b+LsFqooyVw5
-5u5iPxhsYi3qx+T1OxFyg/SD+rumMn8G0DqDolIXGoF3qG0GV9r3JoIy/I5f6Z7q
-3uD35lf3qhfAcZJ6dwOeGe4MK7jtyA==
-=2pVP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaWdMwACgkQJNaLcl1U
+h9CiuAf5AfT4jiBoml6D+6bL4qdnHnc9zgmgKcPH+a7hK9lHWkd0AmzrxiajgRdf
+w0Q/RFDOuR2fAd2p4OFF2y9HRRKiYPoPP41KrEpBaPLgLW4hCxUBmX2wdo8tJ6kl
+JbTfIZsHlMK8I6uYabl8KePNXLM+QFStJKr6J21kZdvj14Dnk9seeOFipHfbGRZY
+rnxaoR+OjVqOcbNvyjCfpqXrxQ0rNvi/6Gt2dKVhLfvYT3IVQwkZJXldpzZo0n9p
+aSKpKA69Eb6ePsHe4U0bM7ykeZUjJrBNzHiQQMBdXR4T5LzFdrSXukeDq86z7+7a
+LX8tGmjvA8JnRTpvOn9WxvJ4DjSNmA==
+=oZt0
 -----END PGP SIGNATURE-----
 
---===============5395025438543771332==--
+--===============5784781275326253199==--
