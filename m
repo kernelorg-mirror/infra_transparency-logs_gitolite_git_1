@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Tue, 16 Jul 2024 14:03:00 -0000
-Message-Id: <172113858022.1439.2016077026459697323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 16 Jul 2024 14:12:12 -0000
+Message-Id: <172113913233.9285.8838931136649426779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-user: mark
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/autoconf-toolchain-fixes
+  - ref: refs/tags/mfd-next-6.11
     old: 0000000000000000000000000000000000000000
-    new: fb836f9355c0473297b9906d532dce0b97522cfb
+    new: 5941793d38ea7ffea08e56e4a4389be38ee27722
