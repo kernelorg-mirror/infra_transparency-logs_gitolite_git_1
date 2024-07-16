@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8816213851828978666=="
+Content-Type: multipart/mixed; boundary="===============6710837917220810450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 16 Jul 2024 02:20:43 -0000
-Message-Id: <172109644383.22220.11582916347583008159@gitolite.kernel.org>
+Date: Tue, 16 Jul 2024 02:20:48 -0000
+Message-Id: <172109644871.22301.5320881212658535631@gitolite.kernel.org>
 
---===============8816213851828978666==
+--===============6710837917220810450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0c79be862c9516b7e9b7f957d8a50e9f1ae0aaeb
-    new: 23cf3ae7d26a6afb548e709d2874616ff866bdf9
-    log: revlist-0c79be862c95-23cf3ae7d26a.txt
+  - ref: refs/heads/6.11/scsi-queue
+    old: 6cd48c8f62ade6260ff9a13724e49b3854392fe4
+    new: 23cef42d17413d099f44ea42b622fbf23b04646f
+    log: revlist-6cd48c8f62ad-23cef42d1741.txt
 
---===============8816213851828978666==
+--===============6710837917220810450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1721096430 -0400
+pusher 75C5DE3D 1721096447 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1721096430-f7955daa921838960560a6df786f800fd2760ff1
+nonce 1721096447-a610ac2b428ae6c0b721a0c0d6562c38ce26ea95
 
-0c79be862c9516b7e9b7f957d8a50e9f1ae0aaeb 23cf3ae7d26a6afb548e709d2874616ff866bdf9 refs/tags/mkp-scsi-queue
+6cd48c8f62ade6260ff9a13724e49b3854392fe4 23cef42d17413d099f44ea42b622fbf23b04646f refs/heads/6.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaV2O4ACgkQ7ulgGnXF
-3j2N9hAAgt6K253DDT3X/c/ereK4QVdWJR6uYoasQnAAP67b0SjUHuQ+IPnH8vhF
-VvO9/HsjhNEIfDbZi0dQUiS7wByJ9YrHLyvp6Pyb8RXLT28u3uJxYBFHeumheE4Q
-ALGvRIf+KkcYIGcpLTmnxebqp2qbzyAW6H0DDAY434ir3WFoSc9QAoLwaJNnBRFG
-dNvPxV90qx6BjRxFm4SD/g62fFm2mVV0JekV4VeelVNLK8mpyg6v55jlTRhJ4pzc
-Wy59oUL25a+eQzMqm0z2+06/kSEQA8fqCOeE5b3NzcQuC0wmtV0FHVlc8AUJOYUN
-JY9jNTfJK82SW5PFdQ9jf/p7hWI/9wljibGAbV2Jm0YQr+sLJeFxrhE+fuv8PLim
-m4OGDWgwgPaNp8WRf6+/x//XMfSu+lDdWzNmQlmR1UIqIY1x/BBmXXnvsQaNwrjA
-V/idVAkhhCUAp+65D9Qm+2Up/UXH+U+ASKCcCZJE3GIQ6qa+ZLS7PSTQAb+c+yQ7
-3MxlVs6fDVXUwi3JxzHMPEV0OPPb1+hsRB7ej9ZCaTAYdtn3h7aOkrLi71RsOVNC
-69HdR2q0dQn48S833fmqpmQPNB6dimZKc9WRQsynWCNqE6+Zv8iSLVWu33BeF+W/
-gZjJOgzQX5f/XSuiIr1T66g1OPEd86yK9oSY8uhPqIDhgBwT6OU=
-=Xj2S
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaV2P8ACgkQ7ulgGnXF
+3j2yXBAAoT2RDBJ3J2Wt/WYTmLHRvHyVgfm202ye6JfZkK2UIAqlIYvzl+ejW7KU
+ZG2AzXAJmik5rKbdStOjFwE4ywcUyfR53naoxalIJpSFKhgDtrK4w+N4RyaTU5xj
+nVS15Yg8Hua6j/LB3mrsN6Jjl0WMWDkSS5hhh8Ts8jnE6wMHsO5Q3sch2Jcu0GtZ
+bOiG5LBskuE1jSDc4xlVBAPoYaX3wI++2wqO2Zh4dfmgMksXTOJXAjx0VMgADKsh
+UIOEsjiGK47LCmICpSnL5QpvOl9QnmuUDxBpKGHd8DyBcyaImvHlBpplBpWaKHxa
+y7Q7CnNWq4GZRiADDL7RGkqZV4tyY4++DrRcPnoJoXYElxZE4MPbqBVsj/loxRrY
+8/7a9gAfaySiCfEfh72Iw/ZR5vp5ThCZAg6ylTk/4rPAyIWfSzVaRJEajeDIy4sB
+lJh2uAeIMJYkChl8+k3GBvv0S7aIthygoAuxhKYywRt1cxV+3Qg9g61FuT18SfgH
+55dsZZ6sr564UAM8QxjB0oQUjVDC98FNKCDx/Z/4LNNVOLsQgDXjHGUmPXQfWWmz
+saGS73vgcZEaEnpFHmQh+Awha+A9ATZwxxccYJtHyg2GAe/yv8TPfdSS0nU4qz9G
+RkedN5NKgiXBuKOhr11/+WJhhiOWIgEAvS9ue13wnT0KRZjrhV0=
+=/2IJ
 -----END PGP SIGNATURE-----
 
---===============8816213851828978666==
+--===============6710837917220810450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c79be862c95-23cf3ae7d26a.txt
+Content-Disposition: attachment; filename=revlist-6cd48c8f62ad-23cef42d1741.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -113,4 +113,4 @@ a1392b19ca59256cda627b0ed04657e8e84702b4 scsi: qla2xxx: Update version to 10.02.
 6ca9fede7c73b3c83f4cc8ecb3c29e1d501107c6 scsi: qla2xxx: Convert comma to semicolon
 23cef42d17413d099f44ea42b622fbf23b04646f scsi: aha152x: Use DECLARE_COMPLETION_ONSTACK for non-constant completion
 
---===============8816213851828978666==--
+--===============6710837917220810450==--
