@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2546686461764397462=="
+Content-Type: multipart/mixed; boundary="===============4192572953363247196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 16 Jul 2024 13:25:01 -0000
-Message-Id: <172113630178.4510.9880962099654925300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 16 Jul 2024 13:25:12 -0000
+Message-Id: <172113631204.5958.17129692133247175798@gitolite.kernel.org>
 
---===============2546686461764397462==
+--===============4192572953363247196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: c51cba4755609ad97ba97713210c16f043c73224
-    new: 2634f745eac25a33f032df32cf98fca8538a534a
+  - ref: refs/heads/for-6.11
+    old: ef0b29e744965e8abc14260503a559366219035c
+    new: 7164122e25b18806f5dce68c8a0bdaa9e4f902a5
     log: |
-         2634f745eac25a33f032df32cf98fca8538a534a ASoC: SOF: imx8m: Fix DSP control regmap retrieval
+         7164122e25b18806f5dce68c8a0bdaa9e4f902a5 regulator: renesas-usb-vbus-regulator: Update the default
          
 
---===============2546686461764397462==
+--===============4192572953363247196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1721136300 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1721136299-d61f8a52907731ad5d05bbcfdfe9f00990186f3f
+pusher C3F436CA30F5D8EB 1721136310 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1721136310-073fa6c1c580a48d7d6f62d73e08b66aeb6424e1
 
-c51cba4755609ad97ba97713210c16f043c73224 2634f745eac25a33f032df32cf98fca8538a534a refs/heads/asoc-6.11
+ef0b29e744965e8abc14260503a559366219035c 7164122e25b18806f5dce68c8a0bdaa9e4f902a5 refs/heads/for-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaWdKwACgkQJNaLcl1U
-h9DU9Qf/aRFiul3wbZQFnRrPiq2puWBo7i/TUF73KQzunXCaFS5Q9RP2YwoLRbN7
-PHeQdYco3dtDOTYTvMYP2O/vSmuJpSpdhqy4iVrRjjCm6cqNAFBzNvkR8SQeuM9L
-egBB4QN2TvLa44awaWRWdAxIg9mKAOgpLSbxGbCfVwonR5OxH8PCMrsWWe/j4fqt
-gxhQe3F0tK+siERlaXHnXFoXbv0OmUlmiCzfnodbH8JrOS8lakGwZu48etCYvf93
-6HplsKuwZxpO7Nod4QpUxwLnWMNLRX85DkIiLKdO+PSWWcvdnObQUD4nXTWyLUEz
-zDxpPWzbnGi8egJymjL4SzHcBjwtHQ==
-=LP4u
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmaWdLYACgkQJNaLcl1U
+h9BpUwf/VWZrFzu4Zy9Y5VnW1jLSq3FqCARzbskxODzldhWPpB1T88wbYy3/pzW6
+qVbjFiOcx/uNjUtmU8mKo8sPvbPirEs+itlfz2niN+GlIqfo0YtWWR761JYsZksS
+AWgt3Qekeyt37ctfJlF+lpdDaws9ECjtEzmwQsy1RiQPNLv/LlEQoeO7oBAOPsqq
+DiySNld29OME/yBGepp/yl0i3F/0qMl5LMeGxMq/jJeuh24UJ/HraQmyWJGBhwjb
+Z+FYFMvjS5R1tQjHKMQ9saNrN7hAUcbQfbBgfKfDQ1gP9HORbX0LbNyHh/ep0VeF
+df+id2l8wInA/fPJz4QtuTH8ByvsMg==
+=l/q4
 -----END PGP SIGNATURE-----
 
---===============2546686461764397462==--
+--===============4192572953363247196==--
