@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Tue, 16 Jul 2024 18:59:40 -0000
-Message-Id: <172115638056.30509.1393342710424110825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 16 Jul 2024 19:17:57 -0000
+Message-Id: <172115747731.12828.3524043803060268786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: a3ad216be0c597b2c4f72242f22ce3ee7dd442cf
-    new: d343e94426c8dbf1a6c7861db245221917ec4a5a
+    old: 3a54e8d905024408cdba4d1691b9a35e7eed6c7c
+    new: 9ed645131defcd3245f183810e857e6fa074741e
     log: |
-         d343e94426c8dbf1a6c7861db245221917ec4a5a Revert "GNUmakefile: Use GNUMAKEFLAGS instead of MAKEFLAGS"
+         9ed645131defcd3245f183810e857e6fa074741e Tue Jul 16 03:16:48 PM EDT 2024
          
