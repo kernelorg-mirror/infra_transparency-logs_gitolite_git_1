@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1361399856552603714=="
+Content-Type: multipart/mixed; boundary="===============3629623861724480168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 Jul 2024 07:11:09 -0000
-Message-Id: <172120026962.22778.13740266689034238151@gitolite.kernel.org>
+Date: Wed, 17 Jul 2024 07:11:28 -0000
+Message-Id: <172120028803.22962.7365435691732109097@gitolite.kernel.org>
 
---===============1361399856552603714==
+--===============3629623861724480168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 69cf87304dcb08d61e35bcfccdb1a5d52ce2969c
     new: 51835949dda3783d4639cfa74ce13a3c9829de00
     log: revlist-69cf87304dcb-51835949dda3.txt
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
 
---===============1361399856552603714==
+--===============3629623861724480168==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1051,4 @@ f8d22a3195b8e2eaacbc5073ae1d5d5bb7386de9 Merge tag 'linux_kselftest-kunit-6.11-r
 0434dbe32053d07d658165be681505120c6b1abc Merge tag 'linux_kselftest-next-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 51835949dda3783d4639cfa74ce13a3c9829de00 Merge tag 'net-next-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============1361399856552603714==--
+--===============3629623861724480168==--
