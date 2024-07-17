@@ -1,52 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============6041718006970251270=="
+Content-Type: multipart/mixed; boundary="===============0804379501610946793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Wed, 17 Jul 2024 22:14:04 -0000
-Message-Id: <172125444499.2405.14901269497123548412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 17 Jul 2024 22:22:07 -0000
+Message-Id: <172125492796.8588.11280987407984813625@gitolite.kernel.org>
 
---===============6041718006970251270==
+--===============0804379501610946793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/rust/mm
-    old: 60c64fe43aeba9e2a99846f159376bbabf68ec82
-    new: ef73604f3c6c4c3ed9e18ee181fbd3dfb0912e2b
-    log: revlist-60c64fe43aeb-ef73604f3c6c.txt
+  - ref: refs/heads/next
+    old: 0ab540bede5df5b9b0e550b6a565a0b6e6bbddaf
+    new: 012d05db3bae1cf7c1e71c1df170fd852e3f0f91
+    log: |
+         2a959ec21a7c9d68df8b9ad69431059caf715de1 t4153: stop redirecting input from /dev/zero
+         df8b05672c08ace3db9da80fb2d7cab559fa9a5e Documentation/gitpacking: make sample configs listing blocks
+         b25a2e8f3703106f35e062172cd18d7f356bee8d Documentation/glossary: fix double word
+         616e94ca243c9df9b9e52379445441e8e59ed9d2 Documentation: fix default value for core.maxTreeDepth
+         cdfc7a4f7ba54f1e9e71374700bb45f135aa0ae5 Merge branch 'tb/doc-max-tree-depth-fix' into next
+         8886abf078ac2d7dbb21a97aa989f80eaff6d025 Merge branch 'ps/pseudo-ref-terminology' into next
+         f11cc8586a676c0c18146e03355e48e6ede5fc27 Merge branch 'tb/pseudo-merge-reachability-bitmap' into next
+         012d05db3bae1cf7c1e71c1df170fd852e3f0f91 Merge branch 'jk/am-retry' into next
+         
+  - ref: refs/heads/seen
+    old: 788e623d440dfc113e369891df62869ed2d47e80
+    new: 41cc0d5425b12f1e590bb4797cdba77e6b13747e
+    log: revlist-788e623d440d-41cc0d5425b1.txt
 
---===============6041718006970251270==
+--===============0804379501610946793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60c64fe43aeb-ef73604f3c6c.txt
+Content-Disposition: attachment; filename=revlist-788e623d440d-41cc0d5425b1.txt
 
-4f85c5d964f345a2c71625a946ea5cbba73714f5 mm: vmalloc: implement vrealloc()
-c615c2f91aa8d062d9a4dc61db1d90b60465d999 mm: kvmalloc: align kvrealloc() with krealloc()
-f49b1d89414a7cf0c97175b1f12eae492c5f67fa rust: alloc: add `Allocator` trait
-8e3e21abdb3e0091ec918d1cbe0d5f43c56098b9 rust: alloc: separate `aligned_size` from `krealloc_aligned`
-e3ea6a3eb3cb33ac892c9af94f06754a906de3bb rust: alloc: rename `KernelAllocator` to `Kmalloc`
-9d2de4c02f490ae36aff41a7d415945c550ef2f8 rust: alloc: implement `Allocator` for `Kmalloc`
-af044cacbf3c6e40611f1daca72b08089639a476 rust: alloc: add module `allocator_test`
-018017fd6be7c636d1ee2965995d93cdc00c7e6e rust: alloc: remove `krealloc_aligned`
-b951481cc160100927fa142a83669f69aa7b7c51 rust: alloc: implement `Vmalloc` allocator
-f1b6ac6f34e40e2a93a9e6e23896f3257d4f1174 rust: alloc: implement `KVmalloc` allocator
-12876f02c2ed88abe00faada4eea0b06b1fd8bc6 rust: types: implement `Unique<T>`
-a1a5bf364426bce73d56aa2c871127b842cdcfe1 rust: alloc: implement `KBox`
-49e67ff22b14c2c1f8097fc2db857c35b4978d65 rust: treewide: switch to `KBox`
-c97b7dbbcfba79f6e3129c9b5e090d1db696a74f rust: alloc: remove `BoxExt` extension
-9745abd41b9f58cf08d55bc1f8e78f5e6c006b5b rust: alloc: implement `KVec`
-04d7fa7a4a0ebd95df2d1278b69a206d2608c5cc rust: alloc: implement `IntoIterator` for `KVec`
-1a53d1c7e30aec85309d7f69cc4b232582abfa22 rust: alloc: implement `collect` for `IntoIter`
-3f4a71e55ff9f4457061a181dd5b117b87405164 rust: treewide: switch to `KVec`
-dffcaeba15c8fbc40765635f86e9cfcc415c9d49 rust: alloc: remove `VecExt` extension
-b4f92e270cc30387022178fda2ded62a2d791642 rust: error: use `core::alloc::LayoutError`
-ea8b3fdabdc18e6e57c892df5715a5d7357a47f1 rust: str: test: replace `alloc::format`
-ef73604f3c6c4c3ed9e18ee181fbd3dfb0912e2b kbuild: rust: remove the `alloc` crate
+358e0abf4d630d6d99532623e40f06bfdbb0178e Documentation: describe incremental MIDX format
+583eb1320f217fff700985b77dbbebf8f0cc42d8 midx: add new fields for incremental MIDX chains
+710a1bc5ab08c60ddc5c9a34049588aef45fd77a midx: teach `nth_midxed_pack_int_id()` about incremental MIDXs
+37a970ec717ba6ba3a894d7b98f91efac7577175 midx: teach `prepare_midx_pack()` about incremental MIDXs
+78b75e240996681142abf3f82e424c8f03c96155 midx: teach `nth_midxed_object_oid()` about incremental MIDXs
+18658f5682238dc952772c3ae41f87891c6cc4ab midx: teach `nth_bitmapped_pack()` about incremental MIDXs
+6a72b275141ee075d4224609259f420174263261 midx: introduce `bsearch_one_midx()`
+9c4cc60d1f78c8e82fee78c9affcee4fd6184783 midx: teach `bsearch_midx()` about incremental MIDXs
+5ae24850e2c6354b5b3fcd07602eff288636fe38 midx: teach `nth_midxed_offset()` about incremental MIDXs
+d7734fa91eeba09808029c2d04078777359aa9e7 midx: teach `fill_midx_entry()` about incremental MIDXs
+e2ff96fbb95383a7287b6bf02a0b3191cc780497 midx: remove unused `midx_locate_pack()`
+c6c665653d6985cae14638ba5eec0ab7df978a53 midx: teach `midx_contains_pack()` about incremental MIDXs
+953fa49cc013d50835b8b2f0914191852cf33a47 midx: teach `midx_preferred_pack()` about incremental MIDXs
+51356485b9b4e9eb9fd93ab55820076bd46bb8f9 midx: teach `midx_fanout_add_midx_fanout()` about incremental MIDXs
+b8fd62fcc50472ee6babcd0211543a80b6f02171 midx: support reading incremental MIDX chains
+05927133ff552fb96f64ffe4b938b2460f7e6348 midx: implement verification support for incremental MIDXs
+57624112fc53aed0dcc0e3622c41cbdec79f6433 t: retire 'GIT_TEST_MULTI_PACK_INDEX_WRITE_BITMAP'
+85a97d58827b563aa4c0343f9935ec3e060aa53f t/t5313-pack-bounds-checks.sh: prepare for sub-directories
+7a74e28e1ad165d7c2e50782736b7d60a9cffc60 midx: implement support for writing incremental MIDX chains
+8ff032086094a56d2e6103dbd2c2c5ba6e5b8d09 Merge branch 'rs/t-strvec-use-test-msg' into jch
+7a86d7257cea297748175b0817403878b97fcf67 Merge branch 'ad/merge-with-diff-algorithm' into jch
+24e02cb0941af485e148029c0c21d4fce63e0e58 Merge branch 'ch/refs-without-the-repository-fix' into jch
+9ddde58a152c0dcec5d76bc6d3248b13780f9449 Merge branch 'jt/doc-post-receive-hook-update' into jch
+9a6d81886da4bde3b443932f61aca49b099b879f Merge branch 'tb/doc-max-tree-depth-fix' into jch
+f7a9d8b3d5d21a3f56bc3d96056166b1dd2cad95 Merge branch 'ps/pseudo-ref-terminology' into jch
+5697d53b936fa40fde0e7b96e9a30fd5fc0d74b9 Merge branch 'tb/pseudo-merge-reachability-bitmap' into jch
+1efeacdc8e759e0f22ea0cd19c81063e60a41e76 Merge branch 'jk/am-retry' into jch
+ef775dfb59a83cbab01c2b5d83f5d6cbcca1eb4f ### match next
+9c34ceb96f1d7bc7b87cd2a924dcc1e3ce2ec129 Merge branch 'kn/ci-clang-format' into jch
+fb9666cc2df5ff189a2d71a4c491ef9703f07a06 Merge branch 'rs/unit-tests-test-run' into jch
+0023452dcf090f86a1be5ce9be364bde70ea7246 Merge branch 'pp/add-parse-range-unit-test' into jch
+84a8cea252e9dce9ad36220f541a548b0bc26ac2 Merge branch 'jc/patch-id' into jch
+5084f8e5ff373e0004b3b70b421dcd7977612701 Merge branch 'jc/checkout-no-op-switch-errors' into jch
+17a0f28b6164c9cd6ddcf4e35e059d7d83be1e26 Merge branch 'gt/unit-test-hashmap' into jch
+6add30cf595f48fc73c7e43ad71550818a953460 Merge branch 'es/doc-platform-support-policy' into jch
+ce844e53e8f4f406ef908f375c7a15cc710445e0 Merge branch 'cp/unit-test-reftable-merged' into jch
+517db87fb740fdd7caad3741d9cb12a08254a405 Merge branch 'jc/reflog-expire-lookup-commit-fix' into jch
+c1a7ecb8946dd0d30ec6052649ba7b6d719d103b Merge branch 'sj/ref-fsck' into seen
+2560f45f3bf1baeab8bbc1994f886ffd22d94d40 Merge branch 'ew/cat-file-optim' into seen
+3c8233dab336722514df4faf51071a48a72bd9a4 Merge branch 'jc/document-use-of-local' into seen
+8dbf8c567fe262cb9da6f3f0939f4b35ba9568f8 Merge branch 'cp/unit-test-reftable-pq' into seen
+cc74ae1aef178a0fdac11172926063914a4aad94 Merge branch 'cp/unit-test-reftable-tree' into seen
+41cc0d5425b12f1e590bb4797cdba77e6b13747e Merge branch 'tb/incremental-midx-part-1' into seen
 
---===============6041718006970251270==--
+--===============0804379501610946793==--
