@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 17 Jul 2024 11:38:10 -0000
-Message-Id: <172121629088.3975.17365494359286795212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 17 Jul 2024 11:50:05 -0000
+Message-Id: <172121700530.13121.5407056362756284795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dm-6.11
-    old: 14dcc3cb5ec2454552e9d4fbf1b786aecbd19e89
-    new: c71f3024eb1150bba0922ccddd3429e7d3e4934c
+  - ref: refs/heads/main
+    old: 56b9dd92885f9c652be5c615fb99b69f1a903ef9
+    new: b6014dbc66e306fd444912e0a7be861bde085b24
     log: |
-         30a56f58a175f0534041ab7835a3ae0975917846 dm vdo repair: add missing kerneldoc fields
-         4771274a04da5668d13339b682d33f630a56531b dm vdo int-map: fix kerneldoc formatting
-         c71f3024eb1150bba0922ccddd3429e7d3e4934c dm vdo: fix a minor formatting issue in vdo.rst
+         2f975bd42b785da2b7ab6cacb8c0ab9b4c4422dd .gitignore: Ignore intermediate files
+         b6014dbc66e306fd444912e0a7be861bde085b24 Merge branch 'robot/patch-0-1721188151' into 'main'
          
