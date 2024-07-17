@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6462330286921964461=="
+Content-Type: multipart/mixed; boundary="===============6303315416046238230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 17 Jul 2024 16:36:25 -0000
-Message-Id: <172123418563.27757.14659218957390571895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 17 Jul 2024 16:38:00 -0000
+Message-Id: <172123428056.29778.13698382102475951843@gitolite.kernel.org>
 
---===============6462330286921964461==
+--===============6303315416046238230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 51835949dda3783d4639cfa74ce13a3c9829de00
     log: revlist-5e0497553643-51835949dda3.txt
 
---===============6462330286921964461==
+--===============6303315416046238230==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f8d22a3195b8e2eaacbc5073ae1d5d5bb7386de9 Merge tag 'linux_kselftest-kunit-6.11-r
 0434dbe32053d07d658165be681505120c6b1abc Merge tag 'linux_kselftest-next-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 51835949dda3783d4639cfa74ce13a3c9829de00 Merge tag 'net-next-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============6462330286921964461==--
+--===============6303315416046238230==--
