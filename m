@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 17 Jul 2024 11:17:46 -0000
-Message-Id: <172121506664.21246.10802052948755437131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 17 Jul 2024 11:37:55 -0000
+Message-Id: <172121627569.3810.10305049986724543226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/dma-static-calls-v2
-    old: e335fae13a8c3d36975a1084629b4f369aabf9df
-    new: ec1984ae44084d98adc9a60ad6e3fca0140f23ae
+  - ref: refs/heads/for-next
+    old: 14dcc3cb5ec2454552e9d4fbf1b786aecbd19e89
+    new: c71f3024eb1150bba0922ccddd3429e7d3e4934c
     log: |
-         ec1984ae44084d98adc9a60ad6e3fca0140f23ae dma: Add IOMMU static calls with clear default ops
+         30a56f58a175f0534041ab7835a3ae0975917846 dm vdo repair: add missing kerneldoc fields
+         4771274a04da5668d13339b682d33f630a56531b dm vdo int-map: fix kerneldoc formatting
+         c71f3024eb1150bba0922ccddd3429e7d3e4934c dm vdo: fix a minor formatting issue in vdo.rst
          
