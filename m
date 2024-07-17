@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 17 Jul 2024 20:47:53 -0000
-Message-Id: <172124927371.2551.11276011351807037441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 17 Jul 2024 20:52:19 -0000
+Message-Id: <172124953985.5801.4207692107391656873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/next
-    old: 25b0c47a3d42b3d443326035cd8a9ceeba99d1a7
-    new: af84898870c0c21eb74657c8368f744ff8b2041d
+  - ref: refs/heads/master
+    old: 3c870059e9f8897c032f4256f90c41ee822218a8
+    new: 6caf9efaa169faea10a369dd6b36806ae6842584
     log: |
-         c47164cb093ac27ee768a692c10d6f293720cc93 dwarf_loader: Make cu__tag_not_handled() generally available
-         5f9984d2e822f4c7d9eef7ec1b2b0c4294486a66 dwarf_loader: Add support for DW_TAG_GNU_template_parameter_pack
-         af84898870c0c21eb74657c8368f744ff8b2041d dwarf_loader: Add support for DW_TAG_GNU_formal_parameter_pack
+         638f32604385fd23059985da8de918e9c18f0b98 af_unix: Disable MSG_OOB handling for sockets in sockmap/sockhash
+         1b0ad43177c097d38b967b99c2b71d8be28b0223 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+         0befb349c4cdcc4e3c2f4aff81259a3a58c3b33e selftests/bpf: Parametrize AF_UNIX redir functions to accept send() flags
+         6caf9efaa169faea10a369dd6b36806ae6842584 selftests/bpf: Test sockmap redirect for AF_UNIX MSG_OOB
          
