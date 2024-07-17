@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 17 Jul 2024 13:27:49 -0000
-Message-Id: <172122286986.3836.13450130967849078457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 17 Jul 2024 13:37:55 -0000
+Message-Id: <172122347570.27420.4829850162469484654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/b-4.4-st54-rt50
-    old: 0000000000000000000000000000000000000000
-    new: 5c366262f8a8f6f04ba7767351896fcee810c1ff
+  - ref: refs/heads/main
+    old: 51835949dda3783d4639cfa74ce13a3c9829de00
+    new: 0e03c643dc9389e61fa484562dae58c8d6e96d63
+    log: |
+         0e03c643dc9389e61fa484562dae58c8d6e96d63 eth: fbnic: fix s390 build.
+         
