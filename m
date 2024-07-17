@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 17 Jul 2024 19:22:36 -0000
-Message-Id: <172124415614.21581.8517367508001902993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Wed, 17 Jul 2024 19:28:05 -0000
+Message-Id: <172124448501.25233.12090630611174305501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 0c9b6e2f7742d52437d477f4ed045fa0b4d55f44
-    new: 54dd4796336de8ce5cbf344db837f9b8448ebcf8
+  - ref: refs/heads/mm/krealloc
+    old: e5d0133a0611f245122748a86fee6bd36377e41e
+    new: 9c37a12d23d13890735698de711dad3393d9242b
     log: |
-         54dd4796336de8ce5cbf344db837f9b8448ebcf8 Bluetooth: hci_sync: Fix suspending with wrong filter policy
+         49c04f94c4aaafc3db1d016d5adcfbcc042e927a mm: vmalloc: implement vrealloc()
+         9c37a12d23d13890735698de711dad3393d9242b mm: kvmalloc: align kvrealloc() with krealloc()
          
