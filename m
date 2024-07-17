@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 17 Jul 2024 20:46:31 -0000
-Message-Id: <172124919176.1847.15468987650478251840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 17 Jul 2024 20:47:45 -0000
+Message-Id: <172124926581.2418.15400396079398450796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 189f1a976e426011e6a5588f1d3ceedf71fe2965
-    new: 3c870059e9f8897c032f4256f90c41ee822218a8
+  - ref: refs/heads/tmp.master
+    old: 25b0c47a3d42b3d443326035cd8a9ceeba99d1a7
+    new: af84898870c0c21eb74657c8368f744ff8b2041d
     log: |
-         3c870059e9f8897c032f4256f90c41ee822218a8 bpftool: Fix typo in usage help
+         c47164cb093ac27ee768a692c10d6f293720cc93 dwarf_loader: Make cu__tag_not_handled() generally available
+         5f9984d2e822f4c7d9eef7ec1b2b0c4294486a66 dwarf_loader: Add support for DW_TAG_GNU_template_parameter_pack
+         af84898870c0c21eb74657c8368f744ff8b2041d dwarf_loader: Add support for DW_TAG_GNU_formal_parameter_pack
          
