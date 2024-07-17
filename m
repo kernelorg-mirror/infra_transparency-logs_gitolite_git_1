@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 17 Jul 2024 17:24:58 -0000
-Message-Id: <172123709876.31909.10271666618646816347@gitolite.kernel.org>
+Date: Wed, 17 Jul 2024 17:27:57 -0000
+Message-Id: <172123727728.2348.10774705649742519084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 51835949dda3783d4639cfa74ce13a3c9829de00
-    new: e1ef78dce9b7b0fa7f9d88bb3554441d74d33b34
+    old: e1ef78dce9b7b0fa7f9d88bb3554441d74d33b34
+    new: c638b130e83e4aa47031c0e51455ecc961dfdc3d
     log: |
-         0e03c643dc9389e61fa484562dae58c8d6e96d63 eth: fbnic: fix s390 build.
-         e1ef78dce9b7b0fa7f9d88bb3554441d74d33b34 selftests/bpf: fexit_sleep: Fix stack allocation for arm64
+         afcc8e1ef7bb5c14100ba3e6ccfd4baebc80242e MAINTAINERS: Update email address of Naveen
+         c638b130e83e4aa47031c0e51455ecc961dfdc3d MAINTAINERS: Update powerpc BPF JIT maintainers
          
