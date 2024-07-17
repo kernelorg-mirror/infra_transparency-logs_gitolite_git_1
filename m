@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 17 Jul 2024 20:19:02 -0000
-Message-Id: <172124754216.13084.7071873707704595830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Wed, 17 Jul 2024 20:25:21 -0000
+Message-Id: <172124792184.18609.3332617646116678219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: e03a0f27f3ee857fd34b8663e7796ab520e5fc22
-    new: 952a0179514812a6a94f1edf04e05f498f0df7d9
+    old: 5cdd221d88acd1161c63cf7ee5c4f1809ec81e53
+    new: 91e4ea5a5082e3fca1f260b3c2daee440c75b70c
     log: |
-         952a0179514812a6a94f1edf04e05f498f0df7d9 foo
+         da6345d17ac5797bebfb4eccaf8bbc31301c442e ci: Replace package installation with local action
+         e9f4600bd0ec81bb1830e81bf5803eb1eb7835ea ci: Use a container and expand versions
+         0efaaa535585cba3a7c75c711e5e2189a6e585b2 ci: Add Archlinux
+         8c8860021aa6b84c3e81851c5e5494a78fc27a25 ci: Add Fedora
+         91e4ea5a5082e3fca1f260b3c2daee440c75b70c ci: Add Alpine
          
