@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5075683934642271006=="
+Content-Type: multipart/mixed; boundary="===============8926763179103611627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 16 Jul 2024 23:26:18 -0000
-Message-Id: <172117237831.2519.4115821426544826071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 17 Jul 2024 00:36:52 -0000
+Message-Id: <172117661272.20283.12390464416400069857@gitolite.kernel.org>
 
---===============5075683934642271006==
+--===============8926763179103611627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 42b5a01596f1f9471b58a2f59e1fceeb8db79ffc
+    old: f83e38fc9f1092f8a7a65ff2ea6a1ea6502efaf0
     new: 923a327e8f2257ab7cd5485cb5d8db92c965dfca
-    log: revlist-42b5a01596f1-923a327e8f22.txt
+    log: revlist-f83e38fc9f10-923a327e8f22.txt
 
---===============5075683934642271006==
+--===============8926763179103611627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42b5a01596f1-923a327e8f22.txt
+Content-Disposition: attachment; filename=revlist-f83e38fc9f10-923a327e8f22.txt
 
+9dd12ed95c2d06a29a5d289c6e65589c577ef8ca pstore/blk: replace deprecated strncpy with strscpy
 6282fba6abd7c3c8896c239cc8aa9ec45edcb97b cpufreq: sun50i: fix memory leak in dt_has_supported_hw()
 fa8036e5fed21d871aef23092990bfbaddc521d5 cpufreq: sun50i: replace of_node_put() with automatic cleanup handler
 074cffb5020ddcaa5fafcc55655e5da6ebe8c831 cpufreq: scmi: Avoid overflow of target_freq in fast switch
@@ -35,6 +36,13 @@ d86a2f0800683652004490c590b4b96a63e7fc04 OPP: Fix missing cleanup on error in _o
 10e0a8f83294ab997c4af0af4b80908cd52ca4b5 cpufreq: longhaul: Fix kernel-doc param for longhaul_setstate
 35c50d853adc0808996b269ec0d3bd9bcc042770 ACPI: fan: Add hwmon support
 64e018d7a8990c11734704a0767c47fd8efd5388 cpufreq: dt-platdev: add missing MODULE_DESCRIPTION() macro
+98ca62ba9e2be5863c7d069f84f7166b45a5b2f4 sysctl: always initialize i_uid/i_gid
+b5ffbd1396885f76bf87e67d590a3ef063e6d831 sysctl: move the extra1/2 boundary check of u8 to sysctl_check_table_array
+4154342bf153a6c2a2820e3d517188d7c76f7055 utsname: constify ctl_table arguments of utility function
+32fe91524e1651b9a0e11ddfbc63de9aa485cf48 sysctl: constify ctl_table arguments of utility function
+c819e252c2874479b27f6a356b44f8aa73cf5a81 sysctl: Add module description to sysctl-testing
+61df7b82820494368bd46071ca97e43a3dfc3b11 lsm: fixup the inode xattr capability handling
+2fe209d0ad2e2729f7e22b9b31a86cc3ff0db550 smack: tcp: ipv4, fix incorrect labeling
 101388b8ef1027be72e399beeb97293cce67bb24 cpufreq: ti-cpufreq: Handle deferred probe with dev_err_probe()
 dde8ec86c3fdb2666f55a6c33df097cf5384b057 ACPI: LPSS: Switch to new Intel CPU model defines
 691fef8ccbb70dc5cd242b2bd14a0e95b7d1cc17 cpufreq: Switch to new Intel CPU model defines
@@ -70,6 +78,14 @@ a52641bc6293a24f25956a597e7f32148b0e2bb8 thermal: trip: Use READ_ONCE() for lock
 72196c20c38b50c4293696377145e6c4ad9a7c67 thermal: core: Avoid calling .trip_crossed() for critical and hot trips
 c7107750b2ffaa4950faa53f84f9c9aa2caac89a x86/cpufeatures: Add AMD FAST CPPC feature flag
 c00d476cbcef4cbcf0c7db8944df7e98a36bdbfa cpufreq: amd-pstate: change cpu freq transition delay for some models
+2f7c6248920523ca7468711891aa13f80ede8da4 locking: Remove superfluous sentinel element from kern_lockdep_table
+e2a6c472de7a5e5a1455a9fff1cfc55a1dd888af mm profiling: Remove superfluous sentinel element from ctl_table
+d7a76ec87195ced6910b0ca10ca133bb316c90f5 sysctl: Remove check for sentinel element in ctl_table arrays
+55bb7eb62db4995cec7e309c2b9a1070cfd60eb6 sysctl: Replace nr_entries with ctl_table_size in new_links
+aef9d25e7f5631543a0276d0532151f2c61174d6 sysctl: Remove superfluous empty allocations from sysctl internals
+a02fe70de4c2a7fbd971b49c5fa69f867fac16ff sysctl: Remove "child" sysctl code comments
+3717540377c500e28f4304b17a46dd5b025a61ac sysctl: Remove ctl_table sentinel code comments
+acc154691fc75e1a178fc36624bdeee1420585a4 sysctl: Warn on an empty procname element
 90e4ed6bb02ad93663f17411d17e8e714a765a6b cpufreq/cppc: Don't compare desired_perf in target()
 35ba8ec0fbd0a127df1049fc4d6c0a26a05f3bd7 ACPI: x86: Switch to new Intel CPU model defines
 117478c9d710dc616b4446d12eddca3c1997266b ACPI: acpi_pad: Still evaluate _OST when _PUR evaluation fails
@@ -89,16 +105,26 @@ a231eed10ed5a290129fda36ad7bcc263c53ff7d ACPI: battery: create alarm sysfs attri
 db404525c194da0177c1fe9a400b571e90d72fde Merge back new cpufreq material for v6.11.
 8e184ac079db76203c8e92dd87f2dd0958710afb Merge tag 'amd-pstate-v6.11-2024-06-11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
 085aa9f58cf663926e6fc0136d3c6167bd58fee3 cpuidle: haltpoll: add missing MODULE_DESCRIPTION() macro
+51005a59bcbe1add8802105437b3707ea257f2ea lkdtm/bugs: add test for hung smp_call_function_single()
+9b3c13c9ea4ecb2b95948f666560b8df8f358b40 pstore: platform: add missing MODULE_DESCRIPTION() macro
 a8f8c43082fd5a8ac723126f4a38bca08d277897 cpupower: Replace a dead reference link with working ones
 705c80dfefb5471b84395011f04e2d93008b6795 cpupower: Add 'help' target to the main Makefile
 3dbc921479ea718586c9aa75d5b9191beeac691c cpupower: Improve cpupower build process description
 ce5b5bef86c3062a4ea01af4b774fd9f180fd4d3 cpufreq: sun50i: add Allwinner H700 speed bin
 c7cfe9bfceb7a959f04d75a0fa805314bf2a0c6f ACPI: processor: Downgrade Intel _OSC and _PDC messages to debug
+e86cac0acdb1a74f608bacefe702f2034133a047 smack: unix sockets: fix accept()ed socket label
 6c30b137c081d0b3e79365a63f44e59bd0aac0cf cpufreq: intel_pstate: Update Arrow Lake hybrid scaling factor
 ede951c27dbd2d4c91b9d54f0b423508a6b5e191 cpufreq: intel_pstate: Update Lunar Lake hybrid scaling factor
+d6f635bcaca8d38dfa47ee20658705f9eff156b5 x86/alternatives: Make FineIBT mode Kconfig selectable
+b57a2907c9d96c56494ef25f8ec821cd0b355dd6 selftests/exec: Build both static and non-static load_address tests
+2d4cf7b190bbfadd4986bf5c34da17c1a88adf8e binfmt_elf: Calculate total_size earlier
+3545deff0ec7a37de7ed9632e262598582b140e9 binfmt_elf: Honor PT_LOAD alignment for static PIE
+60371f43e56bfad1f438621fae286e1de5bb6877 exec: Add KUnit test for bprm_stack_limits()
+2003e483a81cc235e29f77da3f6b256cb4b348e7 fortify: Do not special-case 0-sized destinations
 a286db937ebd90067dac44aa0e0924468e8f0a90 cpupower: Remove absent 'v' parameter from monitor man page
 3e1f12c26646eb0ad67d3eaefd32f765997da6a8 cpupower: Change the var type of the 'monitor' subcommand display mode
 5e62d53c763aa44be07a7b7ecb5a94a269bb0ed1 cpufreq: update to sysfs_emit() for safer buffer handling
+ef40d28f17bd384d7e0b630c7d83f108a526351b randomize_kstack: Remove non-functional per-arch entropy filtering
 fc6e0837264a8b2504b6160e63ec92eb012540f3 cpufreq: amd-pstate: Allow users to write 'default' EPP string
 8f8b42c1fcc939a73b547b172a9ffcb65ef4bf47 cpufreq: amd-pstate: optimize the initial frequency values verification
 7bf7f22906671995b798b39f8c3cb62405ea03b2 cpufreq: amd-pstate: remove unused variable nominal_freq
@@ -120,6 +146,7 @@ be6bfb29c55e48567983e24aba7b6bf9a66a45ab thermal: intel: intel_tcc_cooling: Use 
 a264cee31f13ae3b8d32b3e53774759afa55361e thermal: intel: int340x: Remove unnecessary calls to free irq
 7a9a8c5faf418538b53cd63e8fcb1a34b1e3b680 thermal: intel: int340x: Support MSI interrupt for Lunar Lake
 55397323f3eaba16b93182c35be85aa35cad1432 thermal: intel: int340x: Enable WLT and power floor support for Lunar Lake
+2a97388a807b6ab5538aa8f8537b2463c6988bd2 ELF: fix kernel.randomize_va_space double read
 e1a921f7fcd157ca898e453bbb56927ab39412e3 cpufreq: amd-pstate: Make amd-pstate unit tests depend on amd-pstate
 bc76f57574741cc8e7d04c53f199d8722ce09413 cpufreq: amd-pstate: Don't create attributes when registration fails
 2240d3e60bb3e7a00422596412d012aeb54c1573 cpufreq: simplify boolean parsing with kstrtobool in store function
@@ -139,6 +166,10 @@ b11ec63abec1dcaebfc3999cc3a53c903e511fd6 Merge back cpufreq material for v6.11.
 efde8bfdc1c76b4eefc5de0eb4c14738580d97d6 Merge back thermal control material for v6.11.
 d763debcb6458b6e602655a9ab12514947e30019 Merge tag 'linux-cpupower-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
 f53b4bb83d5e29e0bce4d7505a89cc88302f1e72 Merge tag 'amd-pstate-v6.11-2024-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+95036a79e7b56178e2fa9c485114be61d24c1695 seccomp: interrupt SECCOMP_IOCTL_NOTIF_RECV when all users have exited
+bfafe5efa9754ebc991750da0bcca2a6694f3ed3 seccomp: release task filters when the task exits
+39a73b4aa69aeb1adcf9960710c12842a4092b7a selftests/seccomp: add test for NOTIF_RECV and unused filters
+f0c508faea645da58d6ae6b644a1b68020d5a9d2 selftests/seccomp: check that a zombie leader doesn't affect others
 7ea81936b85317aee8a73cd35d7f9cd6ce654dee x86/cpufeatures: Add HWP highest perf change feature flag
 d845cd901b28f1b6c02a208b864fc3fc46d14536 cpufreq: intel_pstate: Support highest performance change interrupt
 43c0226c9ba56ffebdef9a858dbcf6eb0d376291 cpufreq: make cpufreq_boost_enabled() return bool
@@ -149,6 +180,7 @@ cdaed24abf835d9e94322b5298120a104b2775bb cpupower: Disable direct build of the '
 526294e1eb8e43bce5088806abeedeea31018641 ACPI: battery: Add support for charge limiting state
 face1c543e89ebc657f7948b0541a76954cf9382 ACPI: bus: Indicate support for battery charge limiting thru _OSC
 cfff1997aafa25ea98c2ceb7251642276745266a ACPI: PMIC: Constify struct pmic_table
+e123134b39dc40af94e8aec49227ae55b5e087a8 selinux: Use 1UL for EBITMAP_BIT to match maps type
 dc41751f9e07889d078e3f06adb6e892c80b7c10 ACPI: resource: Skip IRQ override on Asus Vivobook Pro N6506MU
 29acea1a043fa98d19d85a9bc614bed4aa0a58af cpufreq: docs: Add missing scaling_available_frequencies description
 86932cd8ccd4add4ddb3e894a0c4471aab8233c2 ACPI: CPPC: Replace ternary operator with umax()
@@ -163,11 +195,13 @@ f21ab5ed4e8758b06230900f44b9dcbcfdc0c3ae cpufreq/amd-pstate-ut: Convert nominal_
 738d7d03571c7e38565bd245c0815a2c74665018 cpufreq/amd-pstate: Fix the scaling_max_freq setting on shared memory CPPC systems
 e23f41cc4f7476c6e82563b3794dbe159c2ca396 Merge tag 'amd-pstate-v6.11-2024-07-07' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
 b48b342dd5e6e9b0cda26ba07925e61c26e02578 Merge tag 'linux-cpupower-6.11-rc1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux into pm-tools
+18c18b1ff6c648ea62571554dfd698110757f894 gcc-plugins: Remove duplicate included header file stringpool.h
 b4b1ddc9dfe997a5f492fa3a36487f8e7a5de30d cpufreq: Make cpufreq_driver->exit() return void
 ccf51454145bffd98e31cdbe54a4262473c609e2 cpufreq: Add Loongson-3 CPUFreq driver support
 ce87974811e015eb0e002c1b64a980d7a9d4c167 cpufreq: mediatek: Use dev_err_probe in every error path in probe
 d992f881764cc89444aa5a9752ff508a1baeb61e cpufreq: sti: fix build warning
 d010a0282e045f02895f88299e5442506585b46c ACPI: video: force native for some T2 macbooks
+3ccea4784fddd96fbd6c4497eb28b45dab638c2a ARM: Remove address checking for MMUless devices
 7ad9eab9d4b299c837aadb0789102d27c3f1c1e1 Merge tag 'cpufreq-arm-updates-6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 4e89a5309a7537b205854bcc6c4bb84a4779706b Merge tag 'opp-updates-6.11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/vireshk/pm into pm-opp
 e2e7f037b400aebbb3892d8010fb3d9cae6f426e ACPI: resource: Skip IRQ override on Asus Vivobook Pro N6506MJ
@@ -175,6 +209,7 @@ d05374dee295d771261d382f97c0c23cb15aa104 thermal: core: Change passive_delay and
 463b86fed2b25ddb5f576376bfea00134dd23030 thermal: helpers: Introduce thermal_trip_is_bound_to_cdev()
 d1fbf18a0f9403df2edeffa1c7f5a2d66e82c20a thermal: trip: Add conversion macros for thermal trip priv field
 b755367602d70deade956cbe0b8a3f5a12f569dc thermal: intel: hfi: Give HFI instances package scope
+dd44477e7fa15ba3b100dfc67bf7cf083f3dccf6 selinux,smack: remove the capability checks in the removexattr hooks
 462be1c353400fa0bdd34c19897cf001ba6a5f60 Merge back thermal control material for 6.11.
 9dabb5b48fe5e7bf74ee4d1912c0403cf12885d4 Merge back cpufreq material for 6.11.
 83c2ec72efa29b0e508dfe56d3198c28cc44387c Merge back ACPI processor driver material for 6.11.
@@ -182,6 +217,9 @@ b755367602d70deade956cbe0b8a3f5a12f569dc thermal: intel: hfi: Give HFI instances
 0728c810873e1a94e8b767f9809af940c9307d60 thermal: trip: Pass trip pointer to .set_trip_temp() thermal zone callback
 5b674baa596e624fde8bf62b9a3d8a26eef399b2 thermal: trip: Fold __thermal_zone_get_trip() into its caller
 3669716401921c4c545ac2998d7c67f9727ee056 thermal: core: Add sanity checks for polling_delay and passive_delay
+084ebf7ca83e6cb743784f2eecc654193ce064fb execve: Keep bprm->argmin behind CONFIG_MMU
+21f93108306026b8066db31c24a097192c8c36c7 exec: Avoid pathological argc, envc, and bprm->p values
+872bb37f6829d4f7f3ed5afe2786add3d4384b4b randomize_kstack: Improve stack alignment codegen
 9d617949d49099d549175979e6454ce64461eaa2 thermal/drivers/renesas: Group all renesas thermal drivers together
 f996e2b17a30c2919ed018d3902d1e633ae40ab2 thermal/drivers/renesas/rcar: Add dependency on OF
 854a8e208c26b60708785d4ef8d5cf8ee014335a thermal/drivers/k3_j72xx_bandgap: Implement suspend/resume support
@@ -238,8 +276,16 @@ fa0d938c2855cbf8e4521c6dd97099d6c2002522 Merge branches 'acpi-pmic', 'acpi-batte
 b77b0bc85b117119764107f3ee76e8877bf826ab Merge branch 'acpi-misc'
 ab33da3a220809e4b18fd8782785c90d02a96795 Merge branch 'thermal-core'
 281cfec53b4484ce2092c89b6909f5573cb23443 Merge branch 'thermal-intel'
+72fda6c8e553699f6ba8d3ddc34f0bbe7a5898df Merge tag 'execve-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+1ca995edf838a70c7c0aba2de7fc6da57e22cbf3 Merge tag 'seccomp-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+8050258bd1eed0f77dd7e3fa15feb23bbcc38e63 Merge tag 'pstore-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+ce5a51bfacf7a2953f8fa309a8fc8540c2e288da Merge tag 'hardening-v6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f8a8b94d0698ccc56c44478169c91ca774540d9f Merge tag 'sysctl-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+dad8d1a383a8a2123be2a067098fa25afa2ddad7 Merge tag 'selinux-pr-20240715' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+11ab4cd5ec3f5f531ca0cb3014b7c6869c4aea5d Merge tag 'lsm-pr-20240715' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+42b5a01596f1f9471b58a2f59e1fceeb8db79ffc Merge tag 'Smack-for-6.10' of https://github.com/cschaufler/smack-next
 15114e8fb58ffd574da83951e89cb5ab0055cc1e Merge tag 'thermal-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 41906248d0d78e3a620a86cf715f6f630912a4eb Merge tag 'pm-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 923a327e8f2257ab7cd5485cb5d8db92c965dfca Merge tag 'acpi-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============5075683934642271006==--
+--===============8926763179103611627==--
