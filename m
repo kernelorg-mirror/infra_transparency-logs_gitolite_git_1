@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4063485150301436010=="
+Content-Type: multipart/mixed; boundary="===============2073853618741007835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 18 Jul 2024 18:35:43 -0000
-Message-Id: <172132774345.3345.7960968539868299275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 18 Jul 2024 18:50:55 -0000
+Message-Id: <172132865548.15012.15890891372338207726@gitolite.kernel.org>
 
---===============4063485150301436010==
+--===============2073853618741007835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/irq/msi
-    old: 6dca724d61a1d10f772dcd06948c30ceca027069
-    new: c9b4f313f6b83ac80e9d51845d092c32513efdb4
-    log: revlist-6dca724d61a1-c9b4f313f6b8.txt
+  - ref: refs/heads/master
+    old: 24777bac4af5fcddb0cf4a7d8a2b6ee2a98fe6fd
+    new: cb273eb7c8390c70a484db6c79a797e377db09b5
+    log: revlist-24777bac4af5-cb273eb7c839.txt
 
---===============4063485150301436010==
+--===============2073853618741007835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dca724d61a1-c9b4f313f6b8.txt
+Content-Disposition: attachment; filename=revlist-24777bac4af5-cb273eb7c839.txt
 
-7d189c77106ed6df09829f7a419e35ada67b2bd0 PCI/MSI: Provide MSI_FLAG_PCI_MSI_MASK_PARENT
-72e257c6f058032daba1c4fe0c81003d545d0f81 irqchip: Provide irq-msi-lib
-48f71d56e2b87839052d2a2ec32fc97a79c3e264 irqchip/gic-v3-its: Provide MSI parent infrastructure
-8c41ccec839c622b2d1be769a95405e4e9a4cb20 irqchip/irq-msi-lib: Prepare for PCI MSI/MSIX
-b5712bf89b4bbc5bcc9ebde8753ad222f1f68296 irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
-496436f4a514a3fb4bc7aecd41f0dd4b38e39b1f irqchip/irq-msi-lib: Prepare for DEVICE MSI to replace platform MSI
-fbfe7e13641efe811a273e1fd237929245376fe0 irqchip/mbigen: Prepare for real per device MSI
-64a855324311ddad7a85fc0b25ce1f3914ed3425 irqchip/irq-msi-lib: Prepare for DOMAIN_BUS_WIRED_TO_MSI
-7f2baef05d6aaae7bd6d0c863eeec50ae5b2997f irqchip/gic-v3-its: Switch platform MSI to MSI parent
-752e021f5b9be0ad42752deaa241ae631f293f9f irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
-f6a9886a9e55a1e6bd78c7e505205d05ef50a71e genirq/msi: Remove platform_msi_create_device_domain()
-da8ec7956efb5dc2be87f5f3beb3c9ed74316baf irqchip/gic_v3_mbi: Switch over to parent domain
-74e44454aafefd682706248eb3846e25a1a05c6d irqchip/gic-v2m: Switch to device MSI
-7b2f8aa005bc141ac9144f2fcf2cfb63abd7a0b1 irqchip/imx-mu-msi: Switch to MSI parent
-d929e4db22b61555a6b091450c26d1f7281ca576 irqchip/irq-mvebu-icu: Prepare for real per device MSI
-cdb238723018eb766040d7be5d879b4c81ad3d50 irqchip/mvebu-gicp: Switch to MSI parent
-e0b99c4c5917759c257a5c41d2c3e4d7c014578b irqchip/mvebu-odmi: Switch to parent MSI
-fbdf14e90ce445fedfb387413c3d8dc9d90db2a7 irqchip/irq-mvebu-sei: Switch to MSI parent
-ce44d1ff463dcf812b43c71a0e16859e3451bc1e irqchip/irq-mvebu-icu: Remove platform MSI leftovers
-e9894248994ca8291838baf063f045eab28e5a0e genirq/msi: Remove platform MSI leftovers
-2fdda02a8749fdaff5621c96aaf24a61d2f8c5a2 genirq/msi: Move msi_device_data to core
-99d7fbf8f813eb77dd4ec148c4596455910b2fa1 irqchip/gic-v3-its: Correctly honor the RID remapping
-c9b4f313f6b83ac80e9d51845d092c32513efdb4 irqchip/gic-v3-its: Correctly fish out the DID for platform MSI
+3dc59489fda386bd3fedbb1787ee08619afd5aee video/logo: Make logo data const again
+d6161b7d8b33aa8756ab2f7eed8cb371c2e7e8ed video/logo: Remove linux_serial_image comments
+f709f1cf65aca8e5379ca23b0faa52be6839fa75 fbdev: matroxfb: add missing MODULE_DESCRIPTION() macros
+7cf51220bc6a163a41e43b7bfff35e081765ce47 fbdev: viafb: add missing MODULE_DESCRIPTION() macro
+b4bc18a0a6ba7a3ee83277c5b0705cb87ba10b52 fbdev: kyro: add missing MODULE_DESCRIPTION() macro
+e4d52c0ea3ded15ee0634f6679629a620ebf35d2 fbdev: goldfishfb: add missing MODULE_DESCRIPTION() macro
+47856a63fd6a56099abba53655a73880d9fbdf7a fbdev: macmodes: add missing MODULE_DESCRIPTION() macro
+7606e60522a63a9e78bc779bbd4c7e1c7f1e984b fbdev: vfb: add missing MODULE_DESCRIPTION() macro
+15be78e0c3d5faffd69e9dfe55f20d5125b8f6ee fbdev: offb: add missing MODULE_DESCRIPTION() macro
+175ee8f196d7b057520ed6893217a42e3d121234 fbdev: omapdss: use for_each_endpoint_of_node()
+b03c3519498ce1c96a4e2fe10f200cdeda3c3500 fbdev: omapfb: use of_graph_get_remote_port()
+c2bc958b2b03e361f14df99983bc64a39a7323a3 fbdev: vesafb: Detect VGA compatibility from screen info's VESA attributes
+24aa3eea5921330fcefa90b536b9db9f759d1faf fbdev: c2p_planar: add missing MODULE_DESCRIPTION() macro
+2d93937089be98713e27460e3d3a135668c8541b fbdev: amifb: add missing MODULE_DESCRIPTION() macro
+3402302cb128ec5067d885343a54df97231ac06f video: console: add missing MODULE_DESCRIPTION() macros
+e4066d17b92ea7930fbef990912c49b07430a6e0 video: agp: add remaining missing MODULE_DESCRIPTION() macros
+c260bda655993bf72d3f9a6df9e9021c3c1cd1be fbdev: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+b65bd7874bc7dc709645fd8acb53603b73ae950a fbdev: mmp: Constify struct mmp_overlay_ops
+7ee6cfe6d9cf53df926386801a006cc9c22e8a36 fbdev: omap2: Return clk_prepare_enable to transfer the error
+3cf12cabc3be2855466e1433d943455b1032fd86 fbdev: smscufx: Make I2C terminology more inclusive
+8b5ea9029b03efda74292c57e0377a98ed0b7434 fbdev: viafb: Make I2C terminology more inclusive
+cb273eb7c8390c70a484db6c79a797e377db09b5 Merge tag 'fbdev-for-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============4063485150301436010==--
+--===============2073853618741007835==--
