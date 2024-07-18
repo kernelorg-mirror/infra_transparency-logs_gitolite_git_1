@@ -1,57 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6821024443317866129=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 18 Jul 2024 21:01:30 -0000
-Message-Id: <172133649095.13732.11730377170951247313@gitolite.kernel.org>
-
---===============6821024443317866129==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 18 Jul 2024 21:10:47 -0000
+Message-Id: <172133704790.21692.12075448095904347742@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/clk-next
-    old: 589eb11498fbf7de7a1bc8ff1f4b7592687dfd46
-    new: 5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1
+  - ref: refs/heads/master
+    old: 4f81953338086d91541ec87ddad7c131a3db8679
+    new: 06c80806643a3f7119a60c738ff92027df46d3c5
     log: |
-         a83b22754e351f13fb46596c85f667dc33da71ec clk: davinci: da8xx-cfgchip: Initialize clk_init_data before use
-         5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1 clk: sophgo: clk-sg2042-pll: Fix uninitialized variable in debug output
+         9ea0117dc443157b4be1c98289e6b5fc0012c2d1 station: print unknown channel number in neighbor report
+         38c36ff145b19855580ae95b09ef1f0f33926991 netdev: add NETDEV_RESULT_DISCONNECTED
+         906afefbf32e2cde0e16f222e4a4033c2bb61f03 station: handle NETDEV_RESULT_DISCONNECTED
+         22f238706cbc6fe02287bdf3b726c7f1fe506126 station: update logic for handshake failure
+         556f90ec289ade0b401e6c5031c4da2303653aed netdev: handle disconnect event during a connection
+         af1b017003bfee46b98d451d4c418ed2aace9174 eapol: move HANDSHAKE_STARTED_EVENT to eapol_start()
+         d2cda8438350ac79dcf5e46bba3f92525a6df7fb station: add handshake-started debug event
+         d27de1b1117d88b17bfcad488ac9968cdb8f752d auto-t: add clear_events() to IWD class
+         a972b77dc261932503eba350c53af9e2d705105c auto-t: add reason/test arguments to hostapd deauthenticate
+         b7da34a5d2bc02da7d95a6612d3a6b0f79dfa6b3 auto-t: Add deauth during the 4-way handshake test
+         06c80806643a3f7119a60c738ff92027df46d3c5 auto-t: a few random autotest fixes
          
-
---===============6821024443317866129==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1721336489 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1721336489-7e6deac4ba2a97bc7428d605058e52fc40806346
-
-589eb11498fbf7de7a1bc8ff1f4b7592687dfd46 5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1 refs/heads/clk-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmaZgqkRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSVZAw//TXZYaSGolG/Oc5Xz4/KOv4TpxbxO9wDT
-Wtepqwvftgio3u0AWjGfHqpky4ZX9PGZrNm03lQzbXS0TLzpPXFf3SoOzRTEaCvJ
-Esx4gLYsDyMEdSRlLnmQMIaeY9oVU9xZzdegY+oJyxs8DRaeQ01l5LA9JgOaaJvv
-HFAT5g1+Bd/x0c6chYnamp3eSAlLVlYkvsjhMlSPWAntjFWphSPl3His47aeGMta
-4UXmP/PQLM8spR9o9uxn2Kzp03amYmiZitkcv8tVRDkGvDdn1yuNsEjFsi9AdaNx
-PT7wdbW9BNQJANjwrF1HWHVWqG09J8lS21J18SbW5IhS7gSS5KmI4MEl1rcNF8aj
-rIkTXTL4Wzc2Xy6eeo7j+WMnOO1G1ld7VeXpxA+HOC5XCCy/4+C3OCNG1laTBjYJ
-7FexEVrqA6AT25tYBwCd2ewhtSP1R1B0xwdx+56h/TNjtAE82hMPb6YnqY9qWI4h
-kcojaGeCK9X7j0cIh59iLKL3tguyYptFIsHVTauiuVoj/BP57APD9vXW/SwNDQl6
-YptliOCpVpGfj2fy1U9SeAK+xLG4bxwGOLT4PDu4EMxuwyYtjSmRHGk6ssR74K8M
-uoF53R02hu82MpigOcwsFT8EJuFc+oiyhSpLcFjiTrZqioLPJ/Nr58CP9MXbBSMQ
-TeDgd5QflXQ=
-=kSQN
------END PGP SIGNATURE-----
-
---===============6821024443317866129==--
