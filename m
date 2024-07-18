@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Thu, 18 Jul 2024 16:41:43 -0000
-Message-Id: <172132090365.17138.12478834705288658203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 18 Jul 2024 16:54:04 -0000
+Message-Id: <172132164451.24952.8492274510390887664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/drm/for-christian
-    old: 0ae24530a63af7120eb31aa1d3fbf1743f7b2c1e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/todo
+    old: c9f280fb78f448e2292ef6760888302d265f66d8
+    new: 9d39a965d61dba42ad82831e017dd34622f0e5e5
+    log: |
+         9d39a965d61dba42ad82831e017dd34622f0e5e5 What's cooking (2024/07 #06)
+         
