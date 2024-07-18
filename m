@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4473547230628135633=="
+Content-Type: multipart/mixed; boundary="===============6821024443317866129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Thu, 18 Jul 2024 21:01:20 -0000
-Message-Id: <172133648013.13595.12804440743081019605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 18 Jul 2024 21:01:30 -0000
+Message-Id: <172133649095.13732.11730377170951247313@gitolite.kernel.org>
 
---===============4473547230628135633==
+--===============6821024443317866129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
+repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spmi-next
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: a8f4aa75f8857ddae2e1f31f40b221c6e15e7d24
+  - ref: refs/heads/clk-next
+    old: 589eb11498fbf7de7a1bc8ff1f4b7592687dfd46
+    new: 5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1
     log: |
-         41addb6b6044819141347e8b8798c8e03845dd89 spmi: add missing MODULE_DESCRIPTION() macros
-         5d3e63577df0fe464455ea08502da90ac5961b89 spmi: pmic-arb: Pass the correct of_node to irq_domain_add_tree
-         a8f4aa75f8857ddae2e1f31f40b221c6e15e7d24 spmi: pmic-arb: add missing newline in dev_err format strings
+         a83b22754e351f13fb46596c85f667dc33da71ec clk: davinci: da8xx-cfgchip: Initialize clk_init_data before use
+         5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1 clk: sophgo: clk-sg2042-pll: Fix uninitialized variable in debug output
          
 
---===============4473547230628135633==
+--===============6821024443317866129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1721336478 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi.git
-nonce 1721336478-b79923ee113f29c58107846ca827fec2b619a750
+pusher Stephen Boyd <sboyd@kernel.org> 1721336489 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1721336489-7e6deac4ba2a97bc7428d605058e52fc40806346
 
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 a8f4aa75f8857ddae2e1f31f40b221c6e15e7d24 refs/heads/spmi-next
+589eb11498fbf7de7a1bc8ff1f4b7592687dfd46 5a6a25ea5bcd5bdf80fb13acd65a03fc6b8794b1 refs/heads/clk-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmaZgp4RHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSUlBxAAj0KPvHzKk7QGYtz//1gxdg40qnyKIIMc
-1vShe9qqHzGPvRKS63ol6q0TwSntnUACd6aN+ZNc/4jwEVL09CjMHCfLK9g5t1b7
-D+yTYias28Ad672JSKQ3pGWHKnGqvTY0k2aVtnlEXh3y3EqJCaSTQutInx+h4oJ2
-N8AegRMTHxEKFGhp2VLeMJpFv2Qwix8aEOAQSIz6GWk0UoeI5UVB8UBRUXK/+BeT
-60AIxXYWt0UDbiT7rxbDi0uzIwiwy8mPtZ7KvyrIeZu/royz2+zJnVG9CK2dqRpE
-2QErC+50nk7lCtYE98eSkDqAc2Bp1+Q58u6r+1xJBXVVVBHk6iFMdGur1K1juE2O
-VFVKSYDZgV81J1gdnCmdxYuKNx5bXiM/02Vs6uTpJ4NRwUhR/mgJWhpbfSb37BkQ
-3SxlGN46ToTOpwJQzYjwc19ktJ7tiogoSrA8M3CEvgpgMrszz8sn7mVaHKSkp0S/
-/YZV0ffssaEEZgQ5TOv9nYpFfSbRH9fGOGVMtWENEQutOs9iUI1lprhEWhtSWWqr
-VF0NA41o+HqY4NdyDzAbprNIW0kUGxM0urorUSLIJNo7y76+lkUBQB9Hy08bLbVw
-/0hgwfRygndfbBf16Fc2TNmkQov17XHq7lOFyOG4g8JJz9h2/jkrT0u6xaPQXjiv
-7Vu1lDapaSs=
-=arXf
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmaZgqkRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSVZAw//TXZYaSGolG/Oc5Xz4/KOv4TpxbxO9wDT
+Wtepqwvftgio3u0AWjGfHqpky4ZX9PGZrNm03lQzbXS0TLzpPXFf3SoOzRTEaCvJ
+Esx4gLYsDyMEdSRlLnmQMIaeY9oVU9xZzdegY+oJyxs8DRaeQ01l5LA9JgOaaJvv
+HFAT5g1+Bd/x0c6chYnamp3eSAlLVlYkvsjhMlSPWAntjFWphSPl3His47aeGMta
+4UXmP/PQLM8spR9o9uxn2Kzp03amYmiZitkcv8tVRDkGvDdn1yuNsEjFsi9AdaNx
+PT7wdbW9BNQJANjwrF1HWHVWqG09J8lS21J18SbW5IhS7gSS5KmI4MEl1rcNF8aj
+rIkTXTL4Wzc2Xy6eeo7j+WMnOO1G1ld7VeXpxA+HOC5XCCy/4+C3OCNG1laTBjYJ
+7FexEVrqA6AT25tYBwCd2ewhtSP1R1B0xwdx+56h/TNjtAE82hMPb6YnqY9qWI4h
+kcojaGeCK9X7j0cIh59iLKL3tguyYptFIsHVTauiuVoj/BP57APD9vXW/SwNDQl6
+YptliOCpVpGfj2fy1U9SeAK+xLG4bxwGOLT4PDu4EMxuwyYtjSmRHGk6ssR74K8M
+uoF53R02hu82MpigOcwsFT8EJuFc+oiyhSpLcFjiTrZqioLPJ/Nr58CP9MXbBSMQ
+TeDgd5QflXQ=
+=kSQN
 -----END PGP SIGNATURE-----
 
---===============4473547230628135633==--
+--===============6821024443317866129==--
