@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 Jul 2024 15:13:16 -0000
-Message-Id: <172131559696.13979.8595414401177764650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Thu, 18 Jul 2024 15:17:25 -0000
+Message-Id: <172131584541.17163.449071522000151319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/for-linus
-    old: 6f6a23d42bdfbbfe1b41a23e2c78319a0cc65db3
-    new: f2038c12e8133bf4c6bd4d1127a23310d55d9e21
+  - ref: refs/heads/master
+    old: 92a9c89855347bc335f00eea3d4aa56c667edd6f
+    new: 791f163b1a72b90742449a90f47c8872be6b2d01
     log: |
-         f2038c12e8133bf4c6bd4d1127a23310d55d9e21 ASoC: sof: amd: fix for firmware reload failure in Vangogh platform
-         
-  - ref: refs/heads/for-next
-    old: 6f6a23d42bdfbbfe1b41a23e2c78319a0cc65db3
-    new: f2038c12e8133bf4c6bd4d1127a23310d55d9e21
-    log: |
-         f2038c12e8133bf4c6bd4d1127a23310d55d9e21 ASoC: sof: amd: fix for firmware reload failure in Vangogh platform
+         791f163b1a72b90742449a90f47c8872be6b2d01 share/mk/: Reduce the work of 'make && make install'
          
