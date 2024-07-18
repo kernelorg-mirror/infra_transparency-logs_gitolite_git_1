@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3901567655107563434=="
+Content-Type: multipart/mixed; boundary="===============4063485150301436010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 18 Jul 2024 18:29:21 -0000
-Message-Id: <172132736155.30008.14375757252216036819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 18 Jul 2024 18:35:43 -0000
+Message-Id: <172132774345.3345.7960968539868299275@gitolite.kernel.org>
 
---===============3901567655107563434==
+--===============4063485150301436010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 73266377b0185c56c921b8cece257df428612d73
-    new: a3f9970f7a8b62b426e7a00303ddb66acb79aadd
-    log: revlist-73266377b018-a3f9970f7a8b.txt
+  - ref: refs/heads/irq/msi
+    old: 6dca724d61a1d10f772dcd06948c30ceca027069
+    new: c9b4f313f6b83ac80e9d51845d092c32513efdb4
+    log: revlist-6dca724d61a1-c9b4f313f6b8.txt
 
---===============3901567655107563434==
+--===============4063485150301436010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73266377b018-a3f9970f7a8b.txt
+Content-Disposition: attachment; filename=revlist-6dca724d61a1-c9b4f313f6b8.txt
 
-025f07ec0d0ebfb5e83c07d2918a6c01b0ae49a6 client/player: Add support for name custom presets
-957c956112cc2bba528fe8df4a0a21d221a617ca client/player: Fix printing errors when transport->filename is not set
-0bad3d5cbea84b24d53e86de7c419e893bb19a93 bap: Fix crash in bap_bcast_remove
-caa4202a7ee3423211733f7883641c77666dfbbf shared/bap: Add separate API to merge caps
-679349fbc9f2eaf4216cca0ca45f25e4d2829c9d shared/bap: Update bt_bap_verify_bis to receive caps
-bbcf4891cd46f53e35761db808155dc0fb89b175 shared/bap: Remove unused param from bt_bap_verify_bis
-662aee4357f8975763280fec0e6cd35b2082200d shared/bap: Allow checking bis caps against peer caps
-2c98c478863ee9e213a4129f0f4fee2b16b678da shared/bap: Append bcast sink pacs to Sink PAC char
-f163913488106929081026c56c236800aa6f8269 bap: Add API to get bt_bap matching device
-88bf423eb525655e15890bdca84d9acb5afab122 shared/bass: Add API to get GATT client reference
-77e4c0976c0d342e45f0ad1b485efd7e60863e30 bass: Register MediaAssistant objects
-22779f0bce61cfd5cd72f4e2c199aaa385067248 bap: Notify scanned BISes to BASS
-a3f9970f7a8b62b426e7a00303ddb66acb79aadd client: Add assistant submenu
+7d189c77106ed6df09829f7a419e35ada67b2bd0 PCI/MSI: Provide MSI_FLAG_PCI_MSI_MASK_PARENT
+72e257c6f058032daba1c4fe0c81003d545d0f81 irqchip: Provide irq-msi-lib
+48f71d56e2b87839052d2a2ec32fc97a79c3e264 irqchip/gic-v3-its: Provide MSI parent infrastructure
+8c41ccec839c622b2d1be769a95405e4e9a4cb20 irqchip/irq-msi-lib: Prepare for PCI MSI/MSIX
+b5712bf89b4bbc5bcc9ebde8753ad222f1f68296 irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
+496436f4a514a3fb4bc7aecd41f0dd4b38e39b1f irqchip/irq-msi-lib: Prepare for DEVICE MSI to replace platform MSI
+fbfe7e13641efe811a273e1fd237929245376fe0 irqchip/mbigen: Prepare for real per device MSI
+64a855324311ddad7a85fc0b25ce1f3914ed3425 irqchip/irq-msi-lib: Prepare for DOMAIN_BUS_WIRED_TO_MSI
+7f2baef05d6aaae7bd6d0c863eeec50ae5b2997f irqchip/gic-v3-its: Switch platform MSI to MSI parent
+752e021f5b9be0ad42752deaa241ae631f293f9f irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
+f6a9886a9e55a1e6bd78c7e505205d05ef50a71e genirq/msi: Remove platform_msi_create_device_domain()
+da8ec7956efb5dc2be87f5f3beb3c9ed74316baf irqchip/gic_v3_mbi: Switch over to parent domain
+74e44454aafefd682706248eb3846e25a1a05c6d irqchip/gic-v2m: Switch to device MSI
+7b2f8aa005bc141ac9144f2fcf2cfb63abd7a0b1 irqchip/imx-mu-msi: Switch to MSI parent
+d929e4db22b61555a6b091450c26d1f7281ca576 irqchip/irq-mvebu-icu: Prepare for real per device MSI
+cdb238723018eb766040d7be5d879b4c81ad3d50 irqchip/mvebu-gicp: Switch to MSI parent
+e0b99c4c5917759c257a5c41d2c3e4d7c014578b irqchip/mvebu-odmi: Switch to parent MSI
+fbdf14e90ce445fedfb387413c3d8dc9d90db2a7 irqchip/irq-mvebu-sei: Switch to MSI parent
+ce44d1ff463dcf812b43c71a0e16859e3451bc1e irqchip/irq-mvebu-icu: Remove platform MSI leftovers
+e9894248994ca8291838baf063f045eab28e5a0e genirq/msi: Remove platform MSI leftovers
+2fdda02a8749fdaff5621c96aaf24a61d2f8c5a2 genirq/msi: Move msi_device_data to core
+99d7fbf8f813eb77dd4ec148c4596455910b2fa1 irqchip/gic-v3-its: Correctly honor the RID remapping
+c9b4f313f6b83ac80e9d51845d092c32513efdb4 irqchip/gic-v3-its: Correctly fish out the DID for platform MSI
 
---===============3901567655107563434==--
+--===============4063485150301436010==--
