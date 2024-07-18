@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1024115178052940433=="
+Content-Type: multipart/mixed; boundary="===============2788566354613924830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 18 Jul 2024 07:03:22 -0000
-Message-Id: <172128620220.3597.12369305833823134240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 18 Jul 2024 07:04:24 -0000
+Message-Id: <172128626450.4021.10287878727800996331@gitolite.kernel.org>
 
---===============1024115178052940433==
+--===============2788566354613924830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: ff14bfb7bc0480c343356b82c126290a4774bcbe
-    new: 5418e6dfc905b3ccc1e01bdad97d948697b20100
+  - ref: refs/heads/master
+    old: e1982e8ab264fabe2c9f5479ada67cfc1fe5ea1c
+    new: 9d555692fa5e8d841adf8f85f94af4c01798b23a
     log: |
-         5418e6dfc905b3ccc1e01bdad97d948697b20100 misc: Kconfig: exclude mrvl-cn10k-dpi compilation for 32-bit systems
+         9d555692fa5e8d841adf8f85f94af4c01798b23a assign CVE-2024-41011 on request
          
 
---===============1024115178052940433==
+--===============2788566354613924830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721286201 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1721286200-53b9fd8427c3d12740747db31c319e7b56c986ae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721286264 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1721286264-6bcbc68498c431018bfddf62f575041c1db3c274
 
-ff14bfb7bc0480c343356b82c126290a4774bcbe 5418e6dfc905b3ccc1e01bdad97d948697b20100 refs/heads/char-misc-next
+e1982e8ab264fabe2c9f5479ada67cfc1fe5ea1c 9d555692fa5e8d841adf8f85f94af4c01798b23a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaYvjkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4lsQAI91j3umep/fUuWdoJ6M
-qI1P5yxQVPHyKMxeRAA5Bi1fRG22I5VhpOyx1Vm6UCkDAMg/1n2ueFcBiO2x7pLh
-in/3kGMNqu9LtEIcxkwYWyVMqHT2Ih0TOdYjsQ4FCBy1I884+xOWHFA+Jf0oDJ6b
-p5YQXwCIpm/hUY35F32vyHnpiufqET9NZYSgHahzeR9TBHQy9rEDzHRSzLvqftTW
-I6MBpYn9me5kqmFCbO5twWtVPN0GpyfEoX3jDwVXw7McfgOcqADkDdTPyy14OgQU
-Zoh6Gt5+A/kM5cb6pN3UlE0GuFTurwvpmW+pbDJqrn4K58oncxRXIzenTkjAPMxb
-KHic/iCn/M2CKSy1tgz1T03NI1YL9kn4ZkZf5HP7hkT6qBryjjfQNbaq1Rocx6jp
-SYEMviCAe17dymE1jPbrB0B5/tusUjdxxun3NvZjxNIEawlxkSHF+EVqTAmoRshR
-YAwx/OrBW2+h313InBYlXyZFkhMedO+8ROHBHWhHRer32jzA5mwxQe4oR3I1iEnh
-7bVitb9QO325JYBcPl7gbFi91crd0clY+HmSM0kI6XaXsIt40U5mhMEwYzKStpNS
-DzW+yO+Ii07kkBnG3bsnNuH2ccNbaYd5dyR/NTiG91Lt+yVpv6l/G4z4P8brxkhs
-pXJjAB0nq8wyL+tj7cWuWPTz
-=yZZr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaYvngbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMUP/2I+hmYrwnuRX6npDMjx
+XtogGLkz4dIgwZAQ2g5UtzpjDxKmgHAxs2dTs+iRswqDMnjFCzzkOWw7MIhAzSll
+BMROVHPli/R2UH6rsL4vIdbGD/lOtgq1v9uAWqH1U75q+TwO3T34ClbP7zMoFmpD
+Ezgh/yF4GRSjy1ZdbRpwuP6vQlieIht1CPihSpwuTjXfC6mvJm5VSjDRyE9uXUUd
+jW4p0IDpYSBeHNo7a8VWKtKYNXrA0fQ7PmIKQVwk5YSZ8kLQrJj4VIbDV237Y3f8
+cgaEFRvdE9TwraR80tUrhKBvkediWHsVhi3CV9cOs0sEjX9NOT/3KQ90xy8WntFY
+0vpdnzHXSFtdz4nDPatmD8CyFovUm5v+fkl+M0MIJX+wKlIEq09KWrVXPUHbBcUZ
+a/+YF6hVlB1idU7tPrQT9A1ddQ9kgvqrHa2E7VARUEzZQLcqdcjjVgCXSNK3gW6E
+/pCrh33A9IGFg3qYGSD7Im3XHrmK+2kOcID8yQ978sldglO9O94ZHgIgyn6yge/O
+82yXcYO1IQ4XpNvyFuTEDdQ6jNkRQD5l7Cf2kYm932haUCt1zE4rxmWwNWejpN2d
+EysSiNz/w0FXyZxX2IJ/7DkTKHw3QuHbakIWhS6VMPbEFZsfYApZ2KGgd82LGdZy
+i0FV5m4I13fK7h4ySAHK0bBi
+=cQRl
 -----END PGP SIGNATURE-----
 
---===============1024115178052940433==--
+--===============2788566354613924830==--
