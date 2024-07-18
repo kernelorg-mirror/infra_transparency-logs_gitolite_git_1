@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 18 Jul 2024 13:26:02 -0000
-Message-Id: <172130916212.490.9356057627937099635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 18 Jul 2024 13:28:41 -0000
+Message-Id: <172130932197.1631.10538968711118501480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/dma-static-calls-v3
-    old: 7bc093c8b457d9eeec68f131ff0197c59809bad4
-    new: c3b9666d4bedc9a61649107408c0861e86a1821d
+  - ref: refs/heads/master
+    old: 7eafa65b2e6a6d18c32e1a8d23592439b79a2567
+    new: e3024397852c4119f84a840530be025d9f3a1289
     log: |
-         c3b9666d4bedc9a61649107408c0861e86a1821d dma: add IOMMU static calls with clear default ops
+         e3024397852c4119f84a840530be025d9f3a1289 sasha: review v6.9.9
          
