@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 18 Jul 2024 14:46:32 -0000
-Message-Id: <172131399267.26821.9732773171312838804@gitolite.kernel.org>
+Date: Thu, 18 Jul 2024 14:52:45 -0000
+Message-Id: <172131436560.30765.14959326291178018220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,24 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 1e5597e5ff18d452cf9afa847e904f301d1ac690
-    new: d7063c08738573fc2f3296da6d31a22fa8aa843a
+    old: d7063c08738573fc2f3296da6d31a22fa8aa843a
+    new: 4594d26fca91fab0e1621d2ab196f3f9bab96bc8
     log: |
-         d7063c08738573fc2f3296da6d31a22fa8aa843a ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
+         b1a7b97aa534b031f929ba4bf70d2e869b117c9d kselftest/alsa: Use card name rather than number in test names
+         4594d26fca91fab0e1621d2ab196f3f9bab96bc8 kselftest/alsa: Log the PCM ID in pcm-test
          
   - ref: refs/heads/for-next
-    old: 1e5597e5ff18d452cf9afa847e904f301d1ac690
-    new: d7063c08738573fc2f3296da6d31a22fa8aa843a
+    old: d7063c08738573fc2f3296da6d31a22fa8aa843a
+    new: 4594d26fca91fab0e1621d2ab196f3f9bab96bc8
     log: |
-         d7063c08738573fc2f3296da6d31a22fa8aa843a ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
+         b1a7b97aa534b031f929ba4bf70d2e869b117c9d kselftest/alsa: Use card name rather than number in test names
+         4594d26fca91fab0e1621d2ab196f3f9bab96bc8 kselftest/alsa: Log the PCM ID in pcm-test
          
   - ref: refs/heads/master
-    old: 621032940fc51666b8eceec4bd0778ac048e742d
-    new: 2d28d42c0a5e4219df7d22be6f6ef239eaf639a2
+    old: 2d28d42c0a5e4219df7d22be6f6ef239eaf639a2
+    new: 56c39ce2f7b9625028ea58502abaa5448444d949
     log: |
-         d7063c08738573fc2f3296da6d31a22fa8aa843a ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
-         2d28d42c0a5e4219df7d22be6f6ef239eaf639a2 Merge branch 'for-linus'
+         b1a7b97aa534b031f929ba4bf70d2e869b117c9d kselftest/alsa: Use card name rather than number in test names
+         4594d26fca91fab0e1621d2ab196f3f9bab96bc8 kselftest/alsa: Log the PCM ID in pcm-test
+         56c39ce2f7b9625028ea58502abaa5448444d949 Merge branch 'for-linus'
          
