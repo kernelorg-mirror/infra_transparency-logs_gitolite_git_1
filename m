@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 18 Jul 2024 12:27:01 -0000
-Message-Id: <172130562168.20613.2178520240853343445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Thu, 18 Jul 2024 12:33:17 -0000
+Message-Id: <172130599702.24584.12639171928579857281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/mgtime
-    old: e11d98c4666bc5cc29185ad34e9da25666ec733d
-    new: cea34d25869210ab4abd04778a7282be0c2b8c2b
+  - ref: refs/heads/kthread/experimental
+    old: cb73c94f03b81f6f2473ee88cb698af3ed9b3556
+    new: 3528a956a8b4cb7c48b7fd10349787fa0de64ce6
     log: |
-         96dfa672b5c34381ad0c7f284d0bc8cc2654f4c4 Documentation: add a new file documenting multigrain timestamps
-         00c077658477cf1a4fd0fcfbf322dd6ac0cbff6d xfs: switch to multigrain timestamps
-         9591355c525132d49d467b4b3917858d5cda64bf ext4: switch to multigrain timestamps
-         e60e8fbaddfa595c1bce41b7d900ae95fde73076 btrfs: convert to multigrain timestamps
-         cea34d25869210ab4abd04778a7282be0c2b8c2b tmpfs: add support for multigrain timestamps
+         e71d34ac844db25b2d7c4dd84f77d772521c3998 kthread: Implement preferred affinity
+         9c1877a875430954435ed5f644e392cf187bd491 mm: Make Kcompactd use kthread's preferred affinity
+         2a599feafa71ac263e9de2c0af4dd8ddd45b977c mm: Allocate kcompactd on its node
+         589955d74372dc0e85118db0082c6558c10f4aea mm: Make kswapd use kthread's preferred affinity
+         d4bb57841b3d4ff2c61a6a9e7114fe02b2d05232 mm: Allocate kswapd on its node
+         3528a956a8b4cb7c48b7fd10349787fa0de64ce6 rcu: Use kthread preferred affinity for RCU boost
          
