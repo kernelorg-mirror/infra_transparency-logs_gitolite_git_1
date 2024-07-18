@@ -1,47 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6086038834649520160=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 18 Jul 2024 15:59:26 -0000
-Message-Id: <172131836637.15460.14967103424005480636@gitolite.kernel.org>
-
---===============6086038834649520160==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 18 Jul 2024 16:14:27 -0000
+Message-Id: <172131926721.28025.14751840615407351241@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: 6c626d99dee33eda11bac4842cf296be65309716
-    new: 302bc594c1167a81a1a72803febbcbcf59489b44
+  - ref: refs/heads/next
+    old: af84898870c0c21eb74657c8368f744ff8b2041d
+    new: 2329f015b8656ca8e85670b71d46ac9f6fadffbb
     log: |
-         7d464790db988581801bd18bcb598e53b062d2e9 Improve tests exclusion from the built packages
-         302bc594c1167a81a1a72803febbcbcf59489b44 Support "valueless truth" in configuration parsing
+         8a1e0238ee4005a6e164fb930692f7d4d095128c dwarf_loader: Initial support for DW_TAG_template_type_param tag
+         ab31cd26d44e3619e151ed96f8921479c76a7935 dwarf_loader: Initial support for DW_TAG_template_type_param tag on DW_TAG_subprogram
+         3b637ea23ee81872f7071ccc80e47b45447ac4dd dwarf_loader: Initial support for DW_TAG_template_value_param tag
+         f524f2ed5873e664f6fd5ff6f20a0bb659b5a27a dwarf_loader: Make cu__tag_not_handled() generally available
+         df39211d7a488a5d904346fcf5f3ef386cf919c6 dwarf_loader: Add support for DW_TAG_GNU_template_parameter_pack
+         2329f015b8656ca8e85670b71d46ac9f6fadffbb dwarf_loader: Add support for DW_TAG_GNU_formal_parameter_pack
          
-
---===============6086038834649520160==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1721318365 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1721318365-ec4eeae13b11515f364a90eae2f0b0e06dace4c3
-
-6c626d99dee33eda11bac4842cf296be65309716 302bc594c1167a81a1a72803febbcbcf59489b44 refs/heads/stable-0.14.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZpk73QAKCRC2xBzjVmSZ
-bOPeAQCIUYPgyHBfiuQr2d7ZthjcXoXxrnXr4tcuDoTlcjaCrwEAngM7R2xcEFe/
-A6C+Z2s7dm+uuZn86LVdDY0Swk7LdA8=
-=40fS
------END PGP SIGNATURE-----
-
---===============6086038834649520160==--
