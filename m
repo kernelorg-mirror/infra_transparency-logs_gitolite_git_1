@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 18 Jul 2024 19:51:43 -0000
-Message-Id: <172133230324.26601.15834493661772305099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 18 Jul 2024 19:54:18 -0000
+Message-Id: <172133245866.27575.1036137982732162141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/next
-    old: 2329f015b8656ca8e85670b71d46ac9f6fadffbb
-    new: 7b093915505767a03e878034766b270707249c29
-    log: |
-         1ef6774c35bf9713d9ddef004bf273a70354c87e core: Add namespace iterator
-         eef59d0195b050dcd78fd66c7e1e6fc3bdd56145 pdwtags: Print namespaces and its contents
-         7b093915505767a03e878034766b270707249c29 fprintf: Fix identation in closing } on namespace fprintf
-         
+  - ref: refs/heads/for-next
+    old: 8b5ea9029b03efda74292c57e0377a98ed0b7434
+    new: 0000000000000000000000000000000000000000
