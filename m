@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 18 Jul 2024 11:51:34 -0000
-Message-Id: <172130349498.27867.4990641549622474989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 18 Jul 2024 11:56:55 -0000
+Message-Id: <172130381552.31336.161335208596162327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/dma-static-calls-v3
-    old: 7eb55aeea773a5827b4c6ab06f77beed71254e44
-    new: 620ccfdb4584ca331c2ae297b67743ce6d314a96
+  - ref: refs/heads/pwrseq/for-current
+    old: a19ce320c379e0519b68178c596e43d1d5dda03b
+    new: ed70aaac7c359540d3d8332827fa60b6a45e15f2
     log: |
-         620ccfdb4584ca331c2ae297b67743ce6d314a96 dma: add IOMMU static calls with clear default ops
+         ed70aaac7c359540d3d8332827fa60b6a45e15f2 Kconfig: reduce the amount of power sequencing noise
          
