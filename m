@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8088554890627388724=="
+Content-Type: multipart/mixed; boundary="===============3213446858232251228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 18 Jul 2024 22:09:02 -0000
-Message-Id: <172134054203.31924.14879025606173858335@gitolite.kernel.org>
+Date: Thu, 18 Jul 2024 22:09:24 -0000
+Message-Id: <172134056454.32145.10045281076754391298@gitolite.kernel.org>
 
---===============8088554890627388724==
+--===============3213446858232251228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 0a1868b93fad5938dbcca77286b25bf211c49f7a
     new: a1b7dbca149053e4f79a451bebdf0c40c9092896
     log: revlist-0a1868b93fad-a1b7dbca1490.txt
 
---===============8088554890627388724==
+--===============3213446858232251228==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c5118072e228e7e4385fc5ac46b2e31cf6c4f2d3 net: dsa: b53: Limit chip-wide jumbo fr
 269521e250699b312876d85e6ab2279c6d16e91d Merge branch 'net-dsa-fix-chip-wide-frame-size-config-in-some-drivers'
 a1b7dbca149053e4f79a451bebdf0c40c9092896 Merge tag 'nf-24-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============8088554890627388724==--
+--===============3213446858232251228==--
