@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7322349626979446181=="
+Content-Type: multipart/mixed; boundary="===============4027012621890194578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 18 Jul 2024 22:12:44 -0000
-Message-Id: <172134076408.2988.8960985859100851525@gitolite.kernel.org>
+Date: Thu, 18 Jul 2024 22:12:48 -0000
+Message-Id: <172134076808.3083.1322566025835668734@gitolite.kernel.org>
 
---===============7322349626979446181==
+--===============4027012621890194578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 77ae5e5b00720372af2860efdc4bc652ac682696
     new: 51835949dda3783d4639cfa74ce13a3c9829de00
     log: revlist-77ae5e5b0072-51835949dda3.txt
 
---===============7322349626979446181==
+--===============4027012621890194578==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f8d22a3195b8e2eaacbc5073ae1d5d5bb7386de9 Merge tag 'linux_kselftest-kunit-6.11-r
 0434dbe32053d07d658165be681505120c6b1abc Merge tag 'linux_kselftest-next-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 51835949dda3783d4639cfa74ce13a3c9829de00 Merge tag 'net-next-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============7322349626979446181==--
+--===============4027012621890194578==--
