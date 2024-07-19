@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 19 Jul 2024 10:19:41 -0000
-Message-Id: <172138438171.4798.11141223249663564056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 19 Jul 2024 10:27:07 -0000
+Message-Id: <172138482752.10649.12828911830037293261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/tags/probes-fixes-v6.11-pre-rc
+  - ref: refs/tags/for-6.11/dm-changes
     old: 0000000000000000000000000000000000000000
-    new: 4f9c2075da85cb89b4c36fc11250b803d979f345
+    new: a4f60f520e21bcad0c147bd335858d5ca486a623
