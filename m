@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7923119092749442359=="
+Content-Type: multipart/mixed; boundary="===============4428109195663405929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 19 Jul 2024 13:44:17 -0000
-Message-Id: <172139665719.27091.11020841746050234752@gitolite.kernel.org>
+Date: Fri, 19 Jul 2024 13:49:09 -0000
+Message-Id: <172139694969.30745.18412627686671240893@gitolite.kernel.org>
 
---===============7923119092749442359==
+--===============4428109195663405929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dhowells/linux-fs
 user: dhowells
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: f0f5fecf62099fabaf68407352df4b1a2421a15e
+  - ref: refs/heads/cifs-fixes
+    old: 75de3ff4f081d45f92326f386f1fe57316f33209
     new: a9ecfd59c9cb95f1aa43436e143f4b21dabcf562
-    log: revlist-f0f5fecf6209-a9ecfd59c9cb.txt
+    log: revlist-75de3ff4f081-a9ecfd59c9cb.txt
 
---===============7923119092749442359==
+--===============4428109195663405929==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f0f5fecf6209-a9ecfd59c9cb.txt
+Content-Disposition: attachment; filename=revlist-75de3ff4f081-a9ecfd59c9cb.txt
 
 064a5955aa2732844ca1e30b93d66c9ce179e811 wifi: mt76: mt7925: extend mt7925_mcu_add_bss_info for per-link STA
 523f5d9c256079fe21087b3dfc4c3c0c1fffab53 wifi: mt76: mt7925: extend mt7925_mcu_bss_mld_tlv for per-link STA
@@ -1051,4 +1051,4 @@ ad6f6b859c4e2c595f3a3d3c587b15e2d9386587 cifs: Fix missing error code set
 bc7c39432d0eec5b24731662728db8357ef9a0f4 cifs: Add some debugging for the add_credits() warning from generic/014
 a9ecfd59c9cb95f1aa43436e143f4b21dabcf562 cifs: Fix setting of zero_point after DIO write
 
---===============7923119092749442359==--
+--===============4428109195663405929==--
