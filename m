@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Fri, 19 Jul 2024 01:08:30 -0000
-Message-Id: <172135131019.6966.5899121166090230995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 19 Jul 2024 02:00:00 -0000
+Message-Id: <172135440000.12103.4763587009430758815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/rcu.6.12.staging
-    old: 363636b27bb958dc853c2ff583898a4bf203ffcc
-    new: a0acb8589d56d4b635cc70f0aa79734d7486063c
+  - ref: refs/heads/dev-test
+    old: a3c10bed330b7ab401254a0c91098a03b04f1448
+    new: 8a3d6d57d111818c835c466d62e14b5ae313b8a6
     log: |
-         a0acb8589d56d4b635cc70f0aa79734d7486063c srcu: faster gp seq wrap-around
+         8a3d6d57d111818c835c466d62e14b5ae313b8a6 erofs: support STATX_DIOALIGN
          
