@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2638886258993110027=="
+Content-Type: multipart/mixed; boundary="===============8747983336722715054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 19 Jul 2024 12:12:24 -0000
-Message-Id: <172139114408.23956.14576243568861503198@gitolite.kernel.org>
+Date: Fri, 19 Jul 2024 12:13:14 -0000
+Message-Id: <172139119431.24378.1668603647053926374@gitolite.kernel.org>
 
---===============2638886258993110027==
+--===============8747983336722715054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,87 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_work
-    old: 0437fc468c3bdebb177de1d1299890b13765c229
-    new: b994305068e2d36913c6c53976fc776d586c144d
-    log: revlist-0437fc468c3b-b994305068e2.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: fb74df265facd5babbf921aa9b3979187ed4f626
+    new: b57d5ffc3ab507d0e19fc8b90b19c76af43fb790
+    log: revlist-fb74df265fac-b57d5ffc3ab5.txt
 
---===============2638886258993110027==
+--===============8747983336722715054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721391142 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721391193 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1721391141-7ffa3928f1a6921a5b76bc7d0c21643cccc3a49a
+nonce 1721391192-ff6c2ca74ec35c753fdd9d98d53a5095cf070f28
 
-0437fc468c3bdebb177de1d1299890b13765c229 b994305068e2d36913c6c53976fc776d586c144d refs/heads/const_work
+fb74df265facd5babbf921aa9b3979187ed4f626 b57d5ffc3ab507d0e19fc8b90b19c76af43fb790 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaaWCYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UOwP/j8exAf+PuJoS/NrWbfP
-pH88Iv7hbu6/+hl6TGuxlyYICEzMnOjN7Xnw0FFwAQoATeLroYuiwcEKIZ/8jtgG
-vB13cyRVRcRunp7n6Goz35NW4WHb0p/1zQbKWYuP45Fk5LNalxbYP/nGaLOKZ8h8
-jpH3wJivQP/9Ye17femqZ0LD13RyJCPi2HI8cvPL2MRGcEvfzG4ywW7v7JzRR7oX
-ZvCENAv4S6ElFHsGdeIfs7xUwV/MW21pZFev7weDIGRANDkavpzIVy6MKZXNtdgc
-Glu15pZ7Mf4e368VWGdcp1sHOotYp2yqXvmEhDSnL6QtHTC+BkmAJfKvD0k0C5IC
-Hzc2MNZxRT9Xsx09XPpRj3qWzuAZ+FMhY8lqd5NPojyVMJUBtU/2qLhrBadAb/FI
-VJd/Yb4OEhFOPlnYOT4fqxnJI5s8M23gpQhRvSwNtRQd3bUqyjh1e0bP7xEWFQhv
-XCgJ5ePQzhuADUaxG3SvWVU3DzsRMHCBfGImRnKNv3SfPDuiYYwDqA/wQ9jTJ/al
-//7zHSC8iwgYucrrJpYCMIYZJ5SWCcrep+igBujVOSy0pDd/yvvJqb0C//1gSdvR
-7YaXHiLTBdjbYJdlmceGD73r6cyJ1koutrJyvmScc5dy2F58ZQIG006qwX+1+6Hd
-BK9zLu1ovXH+mFnD88hCR/UY
-=QgZJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaaWFkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F6wQAKASITOlGlaYrbTfZBtf
+9rU+FFyD6m9+Iq1vr/bqkgSVwPcSwZgdsBWvJjTJrwgWdtLeiDTqDFn+wTC0QrRW
+qvJem/yhrKe7N1lWEXeYGvWCG56NSCnNkZqo12HXz9/kDXfwbencAKBQH5Rmkim7
+lDX1x73tT5Ci3pQkiWqNbYD28Ky8u8REwJuRexdpuvDFVIkYtqFZptNHtiHwHoMz
+XTkI/OVv6k5oqgQXFtMueR5EBYe9u1vC25B6wtOQYLNftjogO3xsiGu7K7ZSF0Gh
+e4dNJqII+M7+GqAXJbAg3UeG6Qkfp+YGDGBOVlzJMHKym3t8Kyy9WJQm8JU5Bb5Z
+TlyYk00T3rRgtST2/nf+ydBrcEaEz8bOCY8ZAFkJm68domjSb2EAIVgK2JnJv9Ak
+arArFtSOGlpCtl03XNLzI7gJjiOCiswOwl4zqIB3jMc8EyaYXUIZBsHXvyK6/VoV
+sObYHQR4Mm3OLEPuzG4u11j0I2Da3nVS/Tc1RDMqCydsg/R7sZY83VDXH9Y7GmgC
+xVgOcXknkne6SGyqmNU9TOJO/pyiPfsi8TuNMG4vxKeQfZVGRQ4khuBjn+3MeMAy
+3nKWHuWEWmF73U0QntlyLzuDa3s5pyXVXLCcBQiREXg/v16lzLEfvFTrn8di7vtf
+Pcb34fIsm9wVlozNiYAMbbO9
+=S+p5
 -----END PGP SIGNATURE-----
 
---===============2638886258993110027==
+--===============8747983336722715054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0437fc468c3b-b994305068e2.txt
+Content-Disposition: attachment; filename=revlist-fb74df265fac-b57d5ffc3ab5.txt
 
+ed281c6ab6eb8a914f06c74dfeaebde15b34a3f4 wifi: ath11k: fix WCN6750 firmware crash caused by 17 num_vdevs
+6e16782d6b4a724f9c9dcd49471219643593b60c wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
+bb9025f4432f8c158322cf2c04c2b492f23eb511 dma-mapping: benchmark: fix up kthread-related error handling
+f7c9ccaadffd13066353332c13d7e9bf73b8f92d dma-mapping: benchmark: avoid needless copy_to_user if benchmark fails
+1ff05e723f7ca30644b8ec3fb093f16312e408ad dma-mapping: benchmark: fix node id validation
+e64746e74f717961250a155e14c156616fcd981f dma-mapping: benchmark: handle NUMA_NO_NODE correctly
+3aac9f4885922ad0fc01b86f85903768219475a3 soi: Don't call DMA sync API when not needed
+36f53d622a216ce80e568b8ca899bfbacb2592d4 Merge tag 'drm-misc-fixes-2024-05-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+803482f472ccc9576c0e606143725d1d8c61019d KVM: x86/mmu: Use SHADOW_NONPRESENT_VALUE for atomic zap in TDP MMU
+40e8a6901a2c983e3e541a363865e02cf591d458 KVM: VMX: Don't kill the VM on an unexpected #VE
+d1b32ecdc8ad0346ac551866d9f6831995fd70de KVM: nVMX: Initialize #VE info page for vmcs02 when proving #VE support
+9031b42139b9d45ef806c9a7fee166c1b6443c3c KVM: nVMX: Always handle #VEs in L0 (never forward #VEs from L2 to L1)
+837d557aba6b816985141ddbeb7649444ed26d3b KVM: x86/mmu: Add sanity checks that KVM doesn't create EPT #VE SPTEs
+743f1773366461cb44de297b1caf0a4292eb8fda KVM: VMX: Dump VMCS on unexpected #VE
+bca99c0356524a620126b789edbaf25934415467 KVM: x86/mmu: Print SPTEs on unexpected #VE
+a5dc0c9b557573315633bc78bacf8f548352f95b KVM: VMX: Enumerate EPT Violation #VE support in /proc/cpuinfo
+6af6142e3a62efd6074905e4a94d64956a3f4b7c KVM: x86: Disable KVM_INTEL_PROVE_VE by default
+76d5363c20eeeb937b56c0ac6c61e697bd1bf154 KVM: x86: Force KVM_WERROR if the global WERROR is enabled
+b4bd556467477420ee3a91fbcba73c579669edc6 KVM: SVM: WARN on vNMI + NMI window iff NMIs are outright masked
+88d68bbd07328aea6f6488b6803839970880492a irqchip/riscv-imsic: Fixup riscv_ipi_set_virq_range() conflict
+a6c11c0a5235fb144a65e0cb2ffd360ddc1f6c32 genirq/cpuhotplug, x86/vector: Prevent vector leak during CPU offline
+2fe7b422460d14b33027d8770f7be8d26bcb2639 nvme: fix multipath batched completion accounting
+a2e4c5f5f68dbd206f132bc709b98dea64afc3b8 nvme-multipath: fix io accounting on failover
+f97914e35fd98b2b18fb8a092e0a0799f73afdfe nvmet: fix ns enable/disable possible hang
+ec58991054e899c9d86f7e3c8a96cb602d4b5938 drm/amdgpu: correct hbm field in boot status
+8195979d2dd995d60c2663adf54c69c1bf4eadd1 drm/amd/display: Enable colorspace property for MST connectors
+699646734ab51bf5b1cd4a7a30c20074f6e74f6e uprobes: prevent mutex_lock() under rcu_read_lock()
+d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
+06e785aeb9ea8a43d0a3967c1ba6e69d758e82d4 connector: Fix invalid conversion in cn_proc.h
+05afeeebcac850a016ec4fb1f681ceda11963562 fs/ntfs3: Fix case when index is reused during tree transformation
+302e9dca8428979c9c99f2dbb44dc1783f5011c3 fs/ntfs3: Break dir enumeration if directory contents error
+b84a8aba806261d2f759ccedf4a2a6a80a5e55ba genirq/irqdesc: Prevent use-after-free in irq_find_at_or_after()
+128d54fbcb14b8717ecf596d3dbded327b9980b3 net: phy: micrel: set soft_reset callback to genphy_soft_reset for KSZ8061
+9b038d004ce95551cb35381c49fe896c5bc11ffe netfs: Fix io_uring based write-through
+2c6b531020f0590db3b6b4950a41c692e9aa4f4a netfs: Fix AIO error handling when doing write-through
+79c137454815ba5554caa8eeb4ad5c94e96e45ce filemap: add helper mapping_max_folio_size()
+4e527d5841e24623181edc7fd6f6598ffa810e10 iomap: fault in smaller chunks for non-large folio mappings
+f826bc9d6fc2f0e089fb8d104415d72e4d2e204c signalfd: fix error return code
+65bea9953715b19371164a8bec4f74fdd22c9e5a signalfd: drop an obsolete comment
+c596bea1452ddf172ec9b588e4597228e9a1f4d5 netfs: Fix setting of BDP_ASYNC from iocb flags
 712182b67e831912f90259102ae334089e7bccd1 swap: yield device immediately
 51ef9305b8f40946d65c40368ffb4c14636d369a net/mlx5: Lag, do bond only if slaves agree on roce state
 fca3b4791850b7e2181f0b3195b66d53df83151b net/mlx5: Do not query MPIR on embedded CPU function
@@ -1041,45 +1081,5 @@ c9add2e607a1ca63cc84bd1a7ab04d513096f37e zorro: make match function take a const
 af46fe8c41de5b79358c3007e3854dda9c61c7dc dio: Have dio_bus_match() callback take a const *
 e777798e67d9ba46cf56ad49919c1e86c5ee3213 sysfs/cpu: Make crash_hotplug attribute world-readable
 b57d5ffc3ab507d0e19fc8b90b19c76af43fb790 ARM: sa1100: make match function take a const pointer
-4881763444319700cf4bdbf7a333e3e0fdf1dd42 powerpc: cell: make spu_subsys const
-8f953a5224be64276bfa486ee2d81d42c913e52a powerpc: ps3: make ps3_system_bus_type const
-25625a1c007e18608395b60c20f10e8e8da5213b powerpc: pseries: make cmm_subsys const
-ef3f3e06ae23f39127672dea5ba8365eec0f86cd powerpc: pseries: make suspend_subsys const
-249675d418ac41ff854e24538d60987c0bc4424e perf: make pmu_bus const
-c96b2f72b206193a2cc17e28cb0ac1a68b5e5346 mtd: ubi: make ubi_class constant
-bfa1453ce26bdeb90b4428f81785cb58b0b934bd drm/dp: make drm_dp_aux_dev_class constant
-b855ed8f736fe539b5ac4bf512050a8a22e16a47 drm/sysfs: make drm_class constant
-fc1995189f3542f4cf4c539bed963202e906aeba drm/fbdev/core: make fb_class constant
-43ec93e02d457c670a82bbf10aa0ea8fbc4ff069 dma-buf: heaps: make dma_heap_class constant
-cccfb697e4e7600aeb7a52e39004ac46114a48f3 media: dvbdev: make dvb_class constant
-88468be86379e6c5aeaba62b6960f865b073ef68 drm/dp: constify the struct device_type usage
-358b3dc2134d425305d938834e028b62f29339cd drm/privacy_screen: constify the struct device_type usage
-9c348e64c13943f5574a3f678c5e5d29a1c25567 drm/sysfs: constify the struct device_type usage
-6f50aa384d399ce62290827bbfc19810b1383c4c cxl/port: make cxl_bus_type const
-a3ed39f303f17e9263670525e5a67999d401d9c3 ARM: sa1111: make sa1111_bus_type const
-059c9c4fc3fb326b2552a9c0279242872a8f764e ARM: ecard: make ecard_bus_type const
-a2d839e09d49b8c929814f98f5b172f69e9e3d8a fsi: core: make fsi_bus_type const
-a4c0d4f5471de40abcb3c4a5c0518b11d287330e bus: mhi: ep: make mhi_ep_bus_type const
-da357d61f23fbc9682183d77f57440016bbd1910 ntb: ntb_transport: make ntb_transport_bus const
-d8d7ed8602d3bf7988ddb9076d6737b2f21560bb ntb: core: make ntb_bus const
-611e4ac065a53f1a731d6c37c68afaa24244cb23 rapidio: make rio_mport_class constant
-a6381ffea1835c4f9d8ee593b67c5381727dc107 pps: make pps_class constant
-fd3a4bdc01f1f4b6297ba2a9d30e7c8b87cecf92 nvmem: core: make nvmem_bus_type const
-f26bffe856811645da9235a52622fa6d693e385d intel_th: make intel_th_bus const
-1f7dd20131db588658428a854cbf214317965143 EISA: make eisa_bus_type const
-f7d7c91ca25425096c5e7e16d0f2650226809bf1 parport: constify the struct device_type usage
-47f934fc6922c8a563e624d411698aea55445977 bus: fsl-mc: constify the struct device_type usage
-222e049d8579e6c59f6c3800ae5d828621fb1727 coda: psdev: make coda_psdev_class a static const structure
-4104361ca0546ac647e924c4a453583f54df6353 cuse: make cuse_class a static const structure
-a6bbc966ff4fd174272b5cc43ce8a2b958cee063 pstore: pmsg: make pmsg_class a static const structure
-20d065f23e0745de343de5042a2de62f53643bdd netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-4caeaf7836c5e3e332ae0c170fff0ea44fd4490f PM: wakeup: make wakeup_class a static const structure
-a454e9dc1f88b52398f115c7c292a1d6de02ca06 PM / devfreq: make all 'class' structures const
-c227f54c9a5e287296e49511ba164f202b540b66 gnss: make gnss_class a static const structure
-d2d81df4257baf110a4332a982623865a400ce3a extcon: make extcon_class a static const structure
-1e0a861171d5e2246994e2a83bbc13380f170df2 misc: c2port: core: make c2port_class a static const structure
-8b61fd9a638dbff8a4f3dad64d1455c53049b64b PCI: endpoint: make pci_epc_class constant
-a94e4b6ecf57316a539b507d88f7b77dfe448e6a PCI: switchtec: make switchtec_class constant
-b994305068e2d36913c6c53976fc776d586c144d crypto: qat: make adf_ctl_class constant
 
---===============2638886258993110027==--
+--===============8747983336722715054==--
