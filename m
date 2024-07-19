@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 Jul 2024 17:32:36 -0000
-Message-Id: <172141035674.1044.9642963470576402830@gitolite.kernel.org>
+Date: Fri, 19 Jul 2024 17:32:56 -0000
+Message-Id: <172141037662.1275.16250523884567185860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: b037f33bc852801300b1d73b464de5ef0270c1bc
-    new: 173c57bc61b8160a161f637a3c6eee25cc31d35d
+    old: 173c57bc61b8160a161f637a3c6eee25cc31d35d
+    new: 51f1bb9296474fa77e4135180fc31defbe39735b
     log: |
-         173c57bc61b8160a161f637a3c6eee25cc31d35d bpf: Replace 8 seq_puts() calls by seq_putc() calls
+         51f1bb9296474fa77e4135180fc31defbe39735b bpf: Simplify character output in seq_print_delegate_opts()
          
