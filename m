@@ -1,26 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 19 Jul 2024 15:19:52 -0000
-Message-Id: <172140239207.942.1175498140573605851@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0856456189655068202=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 19 Jul 2024 15:29:04 -0000
+Message-Id: <172140294442.7555.10651787085813358893@gitolite.kernel.org>
+
+--===============0856456189655068202==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: f78f0ef239080cb855d9282717d6d8dcd4bded0b
-    new: d509ae6c458e0c8b7c26342d9f108e28eb0a54dd
-    log: |
-         26222b62029648edbbee412260fd2bc0955f851c btrfs: tree-checker: validate dref root and objectid
-         5363738db29d549139955b36ec5b28effaddd1ab btrfs: change BTRFS_MOUNT_* flags to 64bit type
-         51fa404bd419417e5a5801de7cc606961d808b63 btrfs: fix corrupt read due to bad offset of a compressed extent map
-         8b2980309cca0e6a9e4af3dd0b2a48644e8cdaa3 Merge branch 'misc-6.11' into for-next-current-v6.10-20240719
-         888c8faa30182e7a9acc412935146d9832de9295 Merge branch 'misc-6.11' into for-next-next-v6.11-20240719
-         7471c6cb7ad6f811d03f7d62575c4f5df6374f7a Merge branch 'affs' into for-next-next-v6.11-20240719
-         f07c75c2ef8f560cfae4c92ed1137f50ba7ab476 Merge branch 'for-next-current-v6.10-20240719' into for-next-20240719
-         d509ae6c458e0c8b7c26342d9f108e28eb0a54dd Merge branch 'for-next-next-v6.11-20240719' into for-next-20240719
-         
+  - ref: refs/tags/pci-v6.11-changes
+    old: 9ab014a0866c7c3d0b9649e4e2f47eff305fb642
+    new: 2b53d968618806f29618fd8142d5568be88a9dfe
+    log: revlist-9ab014a0866c-2b53d9686188.txt
+
+--===============0856456189655068202==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9ab014a0866c-2b53d9686188.txt
+
+a4bbcac11d3cea85822af8b40daed7e96bca5068 PCI: loongson: Enable MSI in LS7A Root Complex
+cb43487e5dc3efddc14c66938138b5908789be59 Merge branch 'pci/acs'
+06bbe25c21a02ec09682be5077f22198870040e2 Merge branch 'pci/devres'
+147ea50e1e0508544156b0465dc07fd8739281f4 Merge branch 'pci/dpc'
+903a3b1eed540d0e02ca8489638dcf92126c8946 Merge branch 'pci/enumeration'
+5249048080f4144a32cdfa4be878482a5216bee6 Merge branch 'pci/err'
+675ba773c6b3175b331db0933eea88346ec78d83 Merge branch 'pci/hotplug'
+62281339e34ba39c062d7ee13a02e9f2f3c739f8 Merge branch 'pci/reset'
+65d8f684a5cb7ededa4fe7e264dbef750fa5b489 Merge branch 'pci/resource'
+7095d21ef5534d753895f5f1e695a1371a2d5b44 Merge branch 'pci/dt-bindings'
+0f74d8984301b65879ef34ffc69de33f2c32beb2 Merge branch 'pci/endpoint'
+35f0c94a1207cd250ed705860bd223f01761b209 Merge branch 'pci/controller/gpio'
+37853932851153fe49bdb2cfd9b2f0694812504f Merge branch 'pci/controller/dwc'
+e38de94eddcef3763b12e60528fe8a716af9f77c Merge branch 'pci/controller/al'
+43f25adf9f27a88247ab7500f0d8190bf970a4f6 Merge branch 'pci/controller/artpec6'
+1d97f4b215396f3501732ff09f311494db3fbdec Merge branch 'pci/controller/dra7xx'
+da3552d2256c8bb8953a65d94b26994e29998f89 Merge branch 'pci/controller/exynos'
+477ddcd8ef8bc555e021eb1a9d13bf182538a363 Merge branch 'pci/controller/hyperv'
+db2cc94fae135e2ea9d2de68c7a2b30a2fc75e74 Merge branch 'pci/controller/keystone'
+9965133729ed70293f565d35bf67f6a87fe88c6a Merge branch 'pci/controller/layerscape'
+145eec91b38a56a619fb1edc867f09fecc8dc44f Merge branch 'pci/controller/loongson'
+325b9a3e4e6bcaa04495ebc54e24203e00151bc0 Merge branch 'pci/controller/microchip'
+df5dd337283ad104ef329124d683b63d6b4dcd48 Merge branch 'pci/controller/qcom'
+55b3ebfedc199c1492c30d0ef0ad5dd7d4ee611c Merge branch 'pci/controller/rcar'
+59dd7046b4fbe60d74544f8a77c63899ce8b3618 Merge branch 'pci/controller/rcar-gen4'
+8240a9b4a5a27ce20a0ae2dea2b2e830be34f3b9 Merge branch 'pci/controller/rockchip'
+99329ded09099b40f755893b466571395d09ce46 Merge branch 'pci/controller/tegra194'
+d098215aec2c1a0ef785542c1b1bcf65d617dd80 Merge branch 'pci/controller/vmd'
+19a3eec1e7cc04901f8b14f6244345cd83a8507f Merge branch 'pci/switchtec'
+45659274e60864f9acabba844468e405362bdc8c Merge branch 'pci/misc'
+
+--===============0856456189655068202==--
