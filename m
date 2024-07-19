@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4731328596065282806=="
+Content-Type: multipart/mixed; boundary="===============2413979781456788670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 19 Jul 2024 12:47:58 -0000
-Message-Id: <172139327873.18215.6500286993232693007@gitolite.kernel.org>
+Date: Fri, 19 Jul 2024 12:49:22 -0000
+Message-Id: <172139336242.18772.6621986093714450663@gitolite.kernel.org>
 
---===============4731328596065282806==
+--===============2413979781456788670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: 0570730c16307a72f8241df12363f76600baf57d
-    new: 284004432c83213cd075932dcf6205da2d7e1243
-    log: revlist-0570730c1630-284004432c83.txt
+  - ref: refs/heads/vfs.all
+    old: 5f30e082ab8b3431a51fbca289dbf116cfdec1dd
+    new: 2324739dbfe46ec10dccfe3062617e95546dcd2d
+    log: revlist-5f30e082ab8b-2324739dbfe4.txt
 
---===============4731328596065282806==
+--===============2413979781456788670==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0570730c1630-284004432c83.txt
+Content-Disposition: attachment; filename=revlist-5f30e082ab8b-2324739dbfe4.txt
 
-7046345d48adcc3f519e7b6192184f6049908bdb selftests/bpf: Add ASSERT_OK_FD macro
 adae187ebedcd95d02f045bc37dfecfd5b29434b selftests/bpf: Close fd in error path in drop_on_reuseport
 14fc6fcd35e7dde6d1de062b6711476b3050b22e selftests/bpf: Use start_server_str in sk_lookup
 d9810c43f660fd502c5003244a5e9c181aa7df99 selftests/bpf: Use start_server_addr in sk_lookup
@@ -1050,5 +1049,6 @@ dddebdece62ead1ac1112e6df375f56a1cb45f84 Merge tag 'vfs-6.11-rc1.fixes' of git:/
 714f0ae0e968477eca8bc2f0a96c6d1340e77331 netfs: Rename CONFIG_FSCACHE_DEBUG to CONFIG_NETFS_DEBUG
 3ba35ec4b0edac1951c74a0a618f2a1b18bfeb20 vfs: handle __wait_on_freeing_inode() and evict() race
 284004432c83213cd075932dcf6205da2d7e1243 vfs: correct the comments of vfs_*() helpers
+2324739dbfe46ec10dccfe3062617e95546dcd2d Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
 
---===============4731328596065282806==--
+--===============2413979781456788670==--
