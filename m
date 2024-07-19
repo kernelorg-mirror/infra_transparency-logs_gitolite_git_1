@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 19 Jul 2024 16:20:28 -0000
-Message-Id: <172140602810.15022.15600750700636918080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 19 Jul 2024 16:29:17 -0000
+Message-Id: <172140655744.19717.3677872575568286079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/i2c-repeated-send-debug
-    old: ccc708bf2cda982fe64703a247dda6c8c8aba202
-    new: 9f1072721deb8642cea5322220654fbfdd873c56
+  - ref: refs/tags/for-6.11-tag
+    old: 9f01d8b0adb25eac031c81bee1881b153e4428e3
+    new: ee63baad5d55f21a81ebf7ea82004c8d41476dc2
     log: |
-         b528f7bb6906c7dfe8453f4e6b6294a7ace1a7c3 i2c: microchip-core: don't call enable for every message
-         9f1072721deb8642cea5322220654fbfdd873c56 i2c: microchip-core: actually use repeated sends
+         c3ece6b7ffb4a7c00e8d53cbf4026a32b6127914 btrfs: change BTRFS_MOUNT_* flags to 64bit type
          
