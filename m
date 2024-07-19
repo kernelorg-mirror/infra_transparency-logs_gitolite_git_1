@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 Jul 2024 17:32:56 -0000
-Message-Id: <172141037662.1275.16250523884567185860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 19 Jul 2024 17:58:45 -0000
+Message-Id: <172141192535.19688.17170011220705738697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 173c57bc61b8160a161f637a3c6eee25cc31d35d
-    new: 51f1bb9296474fa77e4135180fc31defbe39735b
+  - ref: refs/heads/timers/urgent
+    old: 22a40d14b572deb80c0648557f4bd502d7e83826
+    new: bfb05c7ccd03d2838342d23bbcd587f203a98b88
     log: |
-         51f1bb9296474fa77e4135180fc31defbe39735b bpf: Simplify character output in seq_print_delegate_opts()
+         0b706a14f6bd1d129c5b6d069e95306b1e72211c timers/migration: Do not rely always on group->parent
+         7a5ee4aa61afa9f1570c80ffba92987bc73ce3ab timers/migration: Move hierarchy setup into cpuhotplug prepare callback
+         96c402145563872aff452efd37c6833440e6d096 timers/migration: Improve tracing
+         6d588c29e100592c0f4eab71a87c36165cf8d0bc timers/migration: Use a single struct for hierarchy walk data
+         c9b3f0871f535e0ccbe34e5e7a15567e73bec806 timers/migration: Read childmask and parent pointer in a single place
+         eefda06f66b37fb87983ac9cfad35bf0bb4f6cb3 timers/migration: Rename childmask by groupmask to make naming more obvious
+         7aa42d6722d3b2fe4b78e40148feaa5194b46f16 timers/migration: Spare write when nothing changed
+         bfb05c7ccd03d2838342d23bbcd587f203a98b88 timers/migration: Fix grammar in comment
          
