@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 19 Jul 2024 18:46:21 -0000
-Message-Id: <172141478145.23788.16836506098684198026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 19 Jul 2024 19:20:05 -0000
+Message-Id: <172141680538.15935.10523648207394904003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/kdevops
-    old: 3bc1e967a6e3985accbca723636526cf47b650c9
-    new: da478071dce82f008e43b98f0c4831e22abd5252
+  - ref: refs/heads/master
+    old: c21df7273dba805317b0a8daa0296bace4d55fc2
+    new: 61e59f61c3d978bfdfdae64af641af8521353161
     log: |
-         da478071dce82f008e43b98f0c4831e22abd5252 nfsd: don't set SVC_SOCK_ANONYMOUS when creating nfsd sockets
+         534cff0ceca9bf3e6778d0c875240ed623ec6165 doc: clarify use of the secret parameter
+         61e59f61c3d978bfdfdae64af641af8521353161 Fix bug in handling wrapping of the secret component
          
