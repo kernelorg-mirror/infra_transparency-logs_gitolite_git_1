@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3789171179830315443=="
+Content-Type: multipart/mixed; boundary="===============5565238899265919902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 20 Jul 2024 11:30:21 -0000
-Message-Id: <172147502184.12898.4683009042936688110@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 11:38:37 -0000
+Message-Id: <172147551743.18826.1389398449717707182@gitolite.kernel.org>
 
---===============3789171179830315443==
+--===============5565238899265919902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/i2c-host-6.11-part-2
-    old: 0000000000000000000000000000000000000000
-    new: 7ad20029de7a06455f12a89f0a9eff930a7a726a
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 930e5186862b115953fb560be357f4e0bf496f94
+    new: fb5eb9326062f0fe9e46d83f02c7d0e29c3d6329
+    log: |
+         de4f2f52f93257433c9029ba2b4044cd9f029b21 i2c: piix4: Register SPDs
+         fb5eb9326062f0fe9e46d83f02c7d0e29c3d6329 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         
 
---===============3789171179830315443==
+--===============5565238899265919902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1721475021 +0200
+pusher andi.shyti@kernel.org 1721475516 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1721475020-2293d4f23a555d3a702b447055af4b8df239438f
+nonce 1721475515-d31792eb9f77f33a8c9f93b8311ad70d95f72285
 
-0000000000000000000000000000000000000000 7ad20029de7a06455f12a89f0a9eff930a7a726a refs/tags/i2c-host-6.11-part-2
+930e5186862b115953fb560be357f4e0bf496f94 fb5eb9326062f0fe9e46d83f02c7d0e29c3d6329 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpufzRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uCbgBALLM/eRW73Hf5MqtFLRy4spVbaVy
-WTTSbLli7pxt80RrAQDoWp9jZ/fMQ5bn7kT6d7GK2jrVMjbMLthqGdCypZJQBg==
-=r33g
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpuhvBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uzYUA/1mK4/wib3XroIr/E9qiiAJX7ma6
+yI68v/8ckF19NUHoAQCnwKrYU4syDsvXnQhby+2ilcNZC6HUfRCfVDfyE6SdAg==
+=x1yj
 -----END PGP SIGNATURE-----
 
---===============3789171179830315443==--
+--===============5565238899265919902==--
