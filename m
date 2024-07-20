@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7327712843493051733=="
+Content-Type: multipart/mixed; boundary="===============2715479062764708866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 20 Jul 2024 01:10:59 -0000
-Message-Id: <172143785941.15852.4125442413900304319@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 01:11:02 -0000
+Message-Id: <172143786238.15956.295671598035153650@gitolite.kernel.org>
 
---===============7327712843493051733==
+--===============2715479062764708866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,37 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: ea5ea84c9d3570dc06e8fc5ee2273eaa584aa3ac
-    new: 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74
-    log: revlist-ea5ea84c9d35-8e5c0abfa02d.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 4a4b00acfe8c15bc8b4e60a7d6ec899ed3fa258a
+    new: 930e5186862b115953fb560be357f4e0bf496f94
+    log: revlist-4a4b00acfe8c-930e5186862b.txt
 
---===============7327712843493051733==
+--===============2715479062764708866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1721437858 +0200
+pusher andi.shyti@kernel.org 1721437861 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1721437857-a6b317904c94f75da460a15211f1a01923e098ad
+nonce 1721437860-bde64da78f55aa6beadfcc4c14204171ed79c257
 
-ea5ea84c9d3570dc06e8fc5ee2273eaa584aa3ac 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74 refs/heads/i2c/i2c-host-fixes
+4a4b00acfe8c15bc8b4e60a7d6ec899ed3fa258a 930e5186862b115953fb560be357f4e0bf496f94 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpsOohYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uUFUA/j98ciCIG4USzJ9nLRoOnMPExOdj
-cY3EHvJs34QviPQHAQCB/oSmSTi+YalgB5Bpcx5lg/7aTXHbWS2J6U+Nt2FNAQ==
-=Fo9q
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpsOpRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uZakA/0ZPMmPBe1w2tJ0kNJRU4vk+p450
+DBBEfSp/KsUB0waJAP9pW8GePuA2khjvym+a/QpQwAQS6ZeEZgp2UjRXwnpXBA==
+=8xuk
 -----END PGP SIGNATURE-----
 
---===============7327712843493051733==
+--===============2715479062764708866==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ea5ea84c9d35-8e5c0abfa02d.txt
+Content-Disposition: attachment; filename=revlist-4a4b00acfe8c-930e5186862b.txt
 
-912eea7e24543661e77df1f1ccc05ea35c6ea029 btrfs: pass a reloc_control to relocate_one_folio()
-17a21d79149b2421120e2f2f8fd7e32f789ae6c7 btrfs: don't pass fs_info to describe_relocation()
-60f3dabdbc07ec831175b3296b601ea9c46d13a4 btrfs: pass a struct reloc_control to prealloc_file_extent_cluster()
-6d81df75af5a5cfb8bfc0a17cd3e43cb927216ab btrfs: pass reloc_control to setup_relocation_extent_mapping()
-ebc7c7678eb04b739544d9caaa0a4797adb24392 btrfs: remove pointless code when creating and deleting a subvolume
 45c4102f0d827e00ce6ca107a7cb158265d706da btrfs: avoid transaction commit on any fsync after subvolume creation
 58147d5a7072dbf5f392ad8b2d5328b105e0e48d btrfs: don't do extra find_extent_buffer() in do_walk_down()
 133b3da83539bd04e97e24cbc8693a1cdca4b5ec btrfs: remove all extra btrfs_check_eb_owner() calls
@@ -144,7 +139,6 @@ bcea31e2d1c7a34aeeae9458f38833d5a8409cf7 x86/xen: eliminate some private header 
 556bc13776a7e27d1b8f4bfc92340428846774f4 dt-bindings: trivial-devices: document the Sierra Wireless mangOH Green SPI IoT interface
 9fe6a8c5b247e182c1781556794324a8e26a7cd3 x86/xen: remove deprecated xen_nopvspin boot parameter
 68a3ebd18bc8c4e766250d5c43d30ff75b8aec0b btrfs: use delayed iput during extent map shrinking
-11b1a666c16d29ee9c1ebc954cda3fc9a2575fe3 dt-bindings: i2c: at91: Add sama7d65 compatible string
 b3ebb9b7e92a928344a7a2c1f8514474bfa113cf btrfs: stop extent map shrinker if reschedule is needed
 4484940514295b75389f94787f8e179ba6255353 btrfs: avoid races when tracking progress for extent map shrinking
 f19e1027f6c0f5fae18b2f2ed88b55a6a637f76e Merge tag 'asoc-fix-v6.10-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -238,7 +232,6 @@ e3fff693da9fa0337d98dab496db3a04c5227aae ASoC: dt-bindings: cirrus,cs42xx8: Conv
 3048dc8ba46b7ba11581f2a7e06849af0df13136 spi: dt-bindings: at91: Add sama7d65 compatible string
 861f96a785149a0062cce6578e0fa7cb95435a7e iommufd: Remove IOMMUFD_PAGE_RESP_FAILURE
 0d9c0a67b14401344183cc0f8239f8d1851637fd bootconfig: Remove duplicate included header file linux/bootconfig.h
-ab1c7ea48f6e225aa40eff3be45a47c7d93cb3b8 dt-bindings: i2c: amlogic,meson6-i2c: add optional power-domains
 aacd897d4d75adaae3becc2b00d8cdc9a56928d1 Revert "bcachefs: Mark bch_inode_info as SLAB_ACCOUNT"
 f0f3e5114871330faf3248e92ceaa4f18602e941 bcachefs; Use trans_unlock_long() when waiting on allocator
 f236ea4bca00ce457e165403a50a8938dced9623 bcachefs: Set PF_MEMALLOC_NOFS when trans->locked
@@ -1071,5 +1064,12 @@ aba9753c0677e860f982edff98c7fe5a2b97758c Merge tag 'tty-6.11-rc1' of git://git.k
 acc5965b9ff8a1889f5b51466562896d59c6e1b9 Merge tag 'char-misc-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ef035628c326af9aa645af1b91fbb72fdfec874e Merge tag 'i2c-for-6.11-rc1-try2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74 Merge tag 'input-for-v6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+8c4ff24d7cc84432a9f1055ef57e4c86706b38c7 dt-bindings: i2c: qcom-cci: Document sm8550 compatible
+064e911392177e8c39e395f748fb4ae8ffb18e92 dt-bindings: i2c: qcom-cci: Document sm8650 compatible
+dc53dbe3e79008ca7c1bc5e5ae2c71b52161f96d dt-bindings: i2c: mux-gpio: Add 'settle-time-us' property
+a618d86d5a1cf1ac6edbbe0e2b29649afb3decf0 i2c: mux: gpio: Re-order #include to match alphabetic order
+45b8ee7182d5ef8df6959297046f86dc128d6a06 i2c: mux: gpio: Add support for the 'settle-time-us' property
+8f3075cc680c232590ca4e2ef39ebaf1e887a52e i2c: smbus: remove i801 assumptions from SPD probing
+930e5186862b115953fb560be357f4e0bf496f94 i2c: piix4: Register SPDs
 
---===============7327712843493051733==--
+--===============2715479062764708866==--
