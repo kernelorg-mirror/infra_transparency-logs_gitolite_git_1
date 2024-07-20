@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 20 Jul 2024 18:26:53 -0000
-Message-Id: <172150001307.27276.9980937137895284239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Jul 2024 18:38:30 -0000
+Message-Id: <172150071005.3715.7426644775824147456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: ad731eef65a4c34dc30442940119326b5245bacd
-    new: 63b91243a4c3e57262ce92e82d964f4dde26cbc6
+    old: 40cf585f5e26d6a48a92d77efbd8a85fcb1776ea
+    new: c004ec432adf788feb6b0b5af689052a0ce204ff
     log: |
-         63b91243a4c3e57262ce92e82d964f4dde26cbc6 patches/next/mm/damon/Kconfig: depends kunit tests on KUNIT=y
+         c004ec432adf788feb6b0b5af689052a0ce204ff Sat Jul 20 02:37:16 PM EDT 2024
          
