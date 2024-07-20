@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2951173225682909318=="
+Content-Type: multipart/mixed; boundary="===============5596470177248214727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 20 Jul 2024 05:59:38 -0000
-Message-Id: <172145517804.12895.1570504592097210966@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 06:00:51 -0000
+Message-Id: <172145525184.15153.17028525132466463949@gitolite.kernel.org>
 
---===============2951173225682909318==
+--===============5596470177248214727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b727493011123db329e2901e3abf81a8d146b6fe
-    new: 3c3ff7be9729959699eb6cbc7fd7303566d74069
-    log: revlist-b72749301112-3c3ff7be9729.txt
+  - ref: refs/heads/rndis-removal
+    old: afea32d7702fbf7c03a704a230cd95430b41fe1a
+    new: 0470c778e6779e54a45ac9f21f1f703361630e19
+    log: revlist-afea32d7702f-0470c778e677.txt
 
---===============2951173225682909318==
+--===============5596470177248214727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721455177 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721455249 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1721455176-3bd3946b3e5abba45b7782663b00a679cc336458
+nonce 1721455248-f4dc1b60b2f7e44820cab46ec6777c24647aad33
 
-b727493011123db329e2901e3abf81a8d146b6fe 3c3ff7be9729959699eb6cbc7fd7303566d74069 refs/heads/usb-testing
+afea32d7702fbf7c03a704a230cd95430b41fe1a 0470c778e6779e54a45ac9f21f1f703361630e19 refs/heads/rndis-removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUkkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++VIP/1TWc4kYqziHS9W7A+iK
-8fkJVAodJIwdziEMFXcLBrfetKbS+c9GpxaEZkI0SMH7R1Rw8HOiNSaM93t3b2BH
-F6/FxEaUqhzengcbizZ3FL0nNETQ0WobE6yY+Z2vLb5eBgT+k3jBKXToBl9nU3pZ
-e53FakBZscIvVmSPbbTHRtj1ug+/tkjv0L3V/1hn2PiI2v2ECXnoCxUBxbfcY3w3
-fNkPJwyf5Fe77xbjRgC7GaGjKvcQWBHQHOfzn76dakJah4w3rqHVqprt/W8fTz5N
-MM//khMX1ryAlTjLbQFAmGnOvh5OS2RFqkaZMbzqEXXfKflvb/tfCh9L5io2XMuq
-gpvg/uP7Dli3O1vcW5cqG+HBlLtgQRKWszYShGptgzKTuovQvoBgnJE7wmQjWN6g
-qYoAPA+Ej75jSgSya0tXogQo+bIYRkdCRtUiE5bJvfdxlsBS18HE74VWQA8XZKUt
-QZXq84YVqWWAibXOAUyl84Vm6pgmpTMVgazteWSfC+GJGnSHMqXRMDrCW6xxV/Rm
-x2+OyjMsv+276lLK/WmpGxd7NRHCHARO/0FIstBCBF9I9MDLmcihElX6/1iTJE+9
-1Svpa85o+9O/DMXoeOH1Nh+dG64t23V8f6U48jr08XxXJ7yxwUQwUTmZli7hUEPB
-aoT6I0bK7MMWCHcJWWjwiSCm
-=xsDK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUpIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/IP/3pL0l45sFq4CHDuMGnW
+payNjYGxiFgu/y1A18h4tq3HiMlOsdTDl21upTGcg5G/3UhpC/uRGcTderMxiqTh
+l43mE+1QbNraJtsnTE5vm/ZHJmlMGYDEMvH48wo9zYqNHKGhKPqHHgw/lFK7Jjzn
+CLIJ8uCKKnDPcDlZra6eK9CWRrsGKInNOT96Uei5nMoyoC5q49Sp1A+6Bssu13a9
+RGWRFjwUPsfc6PJYnP6DFqeqd3vxlMtvnN7ZHKb9/ntLv1/q3O+kx7b3cO7hi2Dv
+mbbzUeMHydIOMSQswtt6iEL2EiOKyv+SMIMia90yeXbzhiHFP02aQ1WxOTYvlMJw
+tj5RzuhK2SFI+dPpP9KdfcIlo8cSXiflpBA8hz5HJG6lkenqjxnf0Rh9R0mgTMPo
+WJH8c0pMOMAziwJKcK3zzFiA8IFQ8G3jsC1lLGBJmSksGBDyfwYfPG4GRjO1eC3i
+7Rw80NAe1OwbssnTHZmvJS/n42ImMQZ3knOgVXoEB3zAkeNK1zpPQhT7xNi7BnOK
+k80lDFxSAPEQSIjHyqMq2XVlT4N4FUGMiFQGbeu/xEDl4mJcJ3R/IqVKI4bq50O7
+yu9Knyd4AlAmfPTJVuGo+WJfE9lW5O0xTYe/+CgtWFRb+KX6gnCAd78MkIicatNn
+bwlIpuS2CimNxBdUTQVG5+Gh
+=gg/6
 -----END PGP SIGNATURE-----
 
---===============2951173225682909318==
+--===============5596470177248214727==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b72749301112-3c3ff7be9729.txt
+Content-Disposition: attachment; filename=revlist-afea32d7702f-0470c778e677.txt
 
-4addc1ffd67ad34394674dc91379dc04cfdd2537 btrfs: qgroup: preallocate memory before adding a relation
-a5b3abb18c380177d3a994d30a2ab890f27b8df8 btrfs: qgroup: warn about inconsistent qgroups when relation update fails
-243192b6764990e7fa0e22ea65b4d12f3294471c btrfs: report reclaim stats in sysfs
-42f620aec182f62ee72e3fce41cb3353951b3508 btrfs: store fs_info in space_info
 f5ff64ccf7bb7274ed66b0d835b2f6ae10af5d7a btrfs: dynamic block_group reclaim threshold
 e4ca3932ae90a61c5d0252535f0bc15ce031a457 btrfs: periodic block_group reclaim
 813d4c642251649352e9680e6278a1c02c0ebf95 btrfs: prevent pathological periodic reclaim loops
@@ -264,6 +260,9 @@ f5cee94f2dfe5b7625452b831f7629369ce68a7b media: uapi: pisp_common: Capitalize al
 89067019d7dbc65d86cf3a4d8f84ed2ad4bed12b virtio: add missing MODULE_DESCRIPTION() macro
 a5e43e2d202de39196de9fba689c34f8270782eb misc: Kconfig: add a new dependency for MARVELL_CN10K_DPI
 03b927565057dae39da3e4b46e5ab65274b5dcdc platform: arm64: EC_ACER_ASPIRE1 should depend on ARCH_QCOM
+0debb20c5c812f8750c20c3406bc94a1e8ea4742 kselftest: devices: Move discoverable devices test to subdirectory
+0e7b7bde460304f44e8c6b212c3195ac2f69f6fe kselftest: Move ksft helper module to common directory
+b727493011123db329e2901e3abf81a8d146b6fe kselftest: devices: Add test to detect device error logs
 1e02e317470b1c68d5971e51e8c62967ec1bc828 platform: arm64: EC_LENOVO_YOGA_C630 should depend on ARCH_QCOM
 a52b67bdf44cc673e3232b8456b2d85c9988fcad mmc: sdhci-esdhc-imx: disable card detect wake for S32G based platforms
 63e555d9bf76dc710842c13edb7d0986149f16a3 mmc: sdhci-esdhc-imx: obtain the 'per' clock rate after its enablement
@@ -1081,5 +1080,6 @@ ef035628c326af9aa645af1b91fbb72fdfec874e Merge tag 'i2c-for-6.11-rc1-try2' of gi
 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74 Merge tag 'input-for-v6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 3f386cb8ee9f04ff4be164ca7a1d0ef3f81f7374 Merge tag 'pci-v6.11-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 3c3ff7be9729959699eb6cbc7fd7303566d74069 Merge tag 'powerpc-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+0470c778e6779e54a45ac9f21f1f703361630e19 USB: disable all RNDIS protocol drivers
 
---===============2951173225682909318==--
+--===============5596470177248214727==--
