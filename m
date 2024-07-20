@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 20 Jul 2024 22:16:52 -0000
-Message-Id: <172151381267.1928.6492564755898928739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 20 Jul 2024 23:51:50 -0000
+Message-Id: <172151951035.5699.13379394296072391897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/kvm-arm64/nv-at-pan-WIP
-    old: 5f316859c16024de30f5cb4fa99ae524323d2615
-    new: a4f4e94fd63d849a069e1ae9c8dba813dc6b0bc9
+  - ref: refs/heads/seen
+    old: b77598b2f2868b050884c8d26bac51f99b657c2d
+    new: 19a89823f56d762ec4c1cc83ac6e8ece1f9c699d
     log: |
-         3cd39db0b66e18671d7853d26752897df043a57c KVM: arm64: nv: Add basic emulation of AT S1E{0,1}{R,W}
-         49ac5f8d65e32946e7d640f91e27cac254dfd3da KVM: arm64: nv: Add basic emulation of AT S1E1{R,W}P
-         02cf3b54d667debf7fab6e909eca5f1f2974d6e1 KVM: arm64: nv: Add basic emulation of AT S1E2{R,W}
-         6821cd6e82d7202dc09a7cd224554a7fc93f2374 KVM: arm64: nv: Add emulation of AT S12E{0,1}{R,W}
-         aa2a184c171a87da18e3a0f333c6903be197ad3f KVM: arm64: nv: Make ps_to_output_size() generally available
-         ddec6888f090d4e3647c53416a3024fd3b35c2e5 KVM: arm64: nv: Add SW walker for AT S1 emulation
-         0a12e9ce4cdf484b5b48a99528eb9b94fef6d067 KVM: arm64: nv: Sanitise SCTLR_EL1.EPAN according to VM configuration
-         730c0d78cf7f12e79f8d085d3242d9721ff46252 KVM: arm64: nv: Make AT+PAN instructions aware of FEAT_PAN3
-         ba9f37e995936f4624cbdba67a8bd67e9844f358 KVM: arm64: nv: Plumb handling of AT S1* traps from EL2
-         a4f4e94fd63d849a069e1ae9c8dba813dc6b0bc9 KVM: arm64: nv: Add support for FEAT_ATS1A
+         7c0995fda6aa9948401062bd9418afe5ecbe739b safe.directory: normalize the checked path
+         6f3f6367535ce31f3461c4688b4bff493de6d87f safe.directory: normalize the configured path
+         2b67dea04ec984980fbb632d011cfb784636accb Merge branch 'jc/safe-directory' into seen
+         dbc2de902eea1c4d639642ebbd4b342245c25bb9 asciidoctor: fix `synopsis` rendering
+         6474da0aa4d411e12fd4962b3e81c6d4e9db6b12 doc: git-clone fix discrepancy between asciidoc and asciidoctor
+         b5fbf346f2206488227a8c1f8f7e0672fd42287c Merge branch 'js/doc-markup-updates-fix' into seen
+         689e49da7709574fe0ae91d7e194276a4ae8aa4c Merge branch 'ja/doc-markup-updates-fix' into seen
+         39bdd84eaf646aa73a3709b0eb8be3f47378708f add-patch: handle splitting hunks with diff.suppressBlankEmpty
+         60cf761ed14298d618597e87e50f25bb61171e84 add-patch: use normalize_marker() when recounting edited hunk
+         19a89823f56d762ec4c1cc83ac6e8ece1f9c699d Merge branch 'pw/add-patch-with-suppress-blank-empty' into seen
          
