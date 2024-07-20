@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 20 Jul 2024 20:05:56 -0000
-Message-Id: <172150595682.2615.10619750866969780758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 20 Jul 2024 20:20:57 -0000
+Message-Id: <172150685757.14520.18323224494617426238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/hkml
 user: sj
 changes:
-  - ref: refs/heads/next
-    old: 7c88f620221b636cba263df93c758752d5769804
-    new: 0ac4bb6f51a9b2e6df1b05b83a2bef6e8f6ac949
+  - ref: refs/heads/master
+    old: a58684bd2b4dd1997fce93a171f571e51b3b8d45
+    new: 1ba2863ef52dc755a1d7cf49783e4de0c468d7e8
     log: |
-         d9bd7624cd9864d73e261e3ebf9c1e88d7ab3b64 damo_record: Record vmas by default
-         831c735a8abde6b403ffddeeef46836dd0959a8d TODO: Update
-         809891bf6dbdaed3802ef67ad74ea8758cf0275d release_note: Update for next release
-         9371138a13e8cebf57d22dc990c7061a76325fde TODO: Add items for new workflow commands
-         9b344f13f370d327fb84a2277c359934ce959490 damo: Add 'args' subcommand
-         36fba978d3711bd51163a29e59376e0ac5b5b659 src: Remove damo_make
-         2db336f8822e63a74cb5ff11cb207c39869347ea damo_args: Support DAMON parameters arguments formatting
-         5501be2837d687760838085d24d0d35d5a0bc81b damo_args_damon: Remove 'text' format support
-         d481e6672163faf7ddd58c004ab0680f93f4aa75 src/damo_args_damon: Support yaml format
-         65bf442ee2e215ce9f0b1fbf76b5e1bd2ddfa4be TODO: Add fmt_json deprecation item
-         0ac4bb6f51a9b2e6df1b05b83a2bef6e8f6ac949 _damo_records/ProcVmas: Handle maps file read exception
+         113858d8e10ac68ead9a689acbe59f586ef96541 hkml: Add interactive mode
+         e81754269b03ca029c8708ebd34377d721539e7f hkml: Unlink interactive default command
+         0005aa822688c7ab4eeb123773280af910328afd TODO: Add an item for mails of given time range highlighting
+         80cc64271a6bb5b38a158a74422534c70feb8f14 TODO: Add items
+         80a9a1f2c4cd7449ad47119b419d6b3951e48d63 USAGE: Put actions that can be done with interactive view to bottom of doc
+         69413c45e3fb69cecfe3c8147bc8b25f76972a98 hkml_forward: add a cut line for forwarding message
+         3f45f63c6b0f0b3202fb451b5ef04afe32bb6d71 hkml_view_mails: Fix wrong forward_mail() call
+         1ba2863ef52dc755a1d7cf49783e4de0c468d7e8 hkml_view: Change cancel keyword from 'hkml_cancel' to ''
          
