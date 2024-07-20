@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1044262992670693630=="
+Content-Type: multipart/mixed; boundary="===============8743513056239622054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 20 Jul 2024 06:20:35 -0000
-Message-Id: <172145643560.31111.4875726032306321319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 20 Jul 2024 06:56:26 -0000
+Message-Id: <172145858622.24179.13047850894603622837@gitolite.kernel.org>
 
---===============1044262992670693630==
+--===============8743513056239622054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/heads/master
+    old: cfab682554d9f4d6b6853b8da56a6f7ed383f234
+    new: f90496856589d6ac4cb8b0fe6d2a5ca3561a9812
+    log: |
+         f90496856589d6ac4cb8b0fe6d2a5ca3561a9812 update cvelistV5
+         
 
---===============1044262992670693630==
+--===============8743513056239622054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721456434 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1721456433-a7b1eb89e602bb2cee6692843f87825544b408e0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721458583 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1721458583-7d94b3fab22cb4102987900ae4ca87b4f6d4496e
 
-0000000000000000000000000000000000000000 d04e483db22823c13c0313b7c43a52529a2e2672 refs/tags/v6.10
-0000000000000000000000000000000000000000 f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6 refs/tags/v6.10-rc7
+cfab682554d9f4d6b6853b8da56a6f7ed383f234 f90496856589d6ac4cb8b0fe6d2a5ca3561a9812 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabVzIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UaoP/iolo/dmSPiDxbD9spoT
-fmusAtRIorFdr7rlx9hvgu304ah6dm4Jw0kL/qpAJ1aRioY2FVQryhASEKX6RazX
-Axuc6OZgyG5HPcp6+zyHjyiUOzyyW3CBhdXGWboj5MUj1DxL1tFBQoH33iF5MfH+
-DI0RQVZ9VmKu+Z6cCf76GAqzQFM40BFr1VblZlWNb6+u9KyroW+i6up4ZL85MGob
-fvM2oodUloBhaq0kz2kdkpwx2qSWftuGG0kRD74UbDmThGlPfYncJsBvzkbEpUdE
-dsnd4Dm9a5gKpDoNgjH4Re9qUIKATERiZmPh386d8KpoaUNFRooeuNztky6nH4Gf
-s98+ga/sofeQk5fvQenC/vu2krGGFrnAj3bT7Co29+799llkhH3j8fuGA0o4rKP5
-1k5FssQsZ3Aaf5DKuFy4SBVLw0UTsBzsO6FfIfpQIjM8pGKZZEy8Ppy1HbaFNmjy
-mcOfCWPvGJa1f+5VU4fe3ISfP7nJPLBdq1+Sp90Pw96x+figjrEt+buDeV4ShhDd
-q05Srju5o+I9pS3+bKp3NT+hK45CBBxxepCmPNj7pRh3/kxeYXv62xxTnPSkSJxM
-k/+6RJU9vixPatklXJT9n+vRzlO6JJ72rSGPI8JXzvjLGvAeSpts8zQ5VYozEyGP
-Qf5n+W2jkq3Y6k2CsZVvIlnz
-=xuB1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabX5cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YsIP/17rJp1TnRMo4CGsNdvi
+4nu/NLE/QcDHB+VUj0nL81kLFY5jHnDjrQtL1/gF+Cc5/HZNqzgY+5dgnL98lRil
+6K5ELXDs4HB1+ZLU61SIPnXTLaICzeHm8f87KdhztpI267seGeQxnQARUglJBiCM
++L2meNZ+N2wb6CZ6QB7kAu46T3zSiovfXPZU+9ITfthha48nIemFacsM0Cn/tyE6
+yre1h5p3kdY3bTIrMCLY/Q0jaRUz6brhH7PQtoEijhHO8qedK9c3vqpL2vV1/Vv6
+4ND6Dp3USH1kU0uYo0gAIkH5gm1s4GOxWZbEyLTBrwfWo/0+Sho55yvHNYlwYxAK
+a4kBmRKgPFm+PV+EhpyQoX8Jd1QUpFSO7+T9IqipS+Nqcts/QKEeeUUZzWV7WJsw
+Hem0lQD2fN12nzlOc/kp18CMNehvaStY4v/tYXT/pyRCoslERy6m0VnWNxOYQLIM
+ZHQKZMGjUefOpXPGv6dtoTrUJeWOls8QpLdDrKyfVHsDkQzaA8WsP2H5rwZVAe+Z
+Gng2Qf+6daVRkHrxBtQ2xHz9SLAokY9At2ON1vuxarIegm9hvGnEQNmw1gAXw4Gm
+RhayOKWeIV+qqHjkPcKgKfsEsrhXIp0NhtDg1H5gTIxnzkvzR25+QdhDc4h5PXrX
+SYGtbKjC+2fmmn0durT1X4dN
+=eskU
 -----END PGP SIGNATURE-----
 
---===============1044262992670693630==--
+--===============8743513056239622054==--
