@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6082194887841384185=="
+Content-Type: multipart/mixed; boundary="===============7853236133103829983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 20 Jul 2024 05:55:07 -0000
-Message-Id: <172145490787.10868.214901706377433601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 20 Jul 2024 05:58:56 -0000
+Message-Id: <172145513647.12337.14491915387144574183@gitolite.kernel.org>
 
---===============6082194887841384185==
+--===============7853236133103829983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/tags/usb-6.10-final
+    old: 4ebaf1d7e75cd9f1041fbfceef61ffe29eba510b
+    new: 0000000000000000000000000000000000000000
 
---===============6082194887841384185==
+--===============7853236133103829983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454906 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721454905-65bf0f11a228be886eabf2848caea3cda6ddb2a3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721455136 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1721455135-00d2e4ee41be3ee3a4e7157a37481bb9de4185be
 
-0000000000000000000000000000000000000000 d04e483db22823c13c0313b7c43a52529a2e2672 refs/tags/v6.10
-0000000000000000000000000000000000000000 f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6 refs/tags/v6.10-rc7
+4ebaf1d7e75cd9f1041fbfceef61ffe29eba510b 0000000000000000000000000000000000000000 refs/tags/usb-6.10-final
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUTobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U9sP/iTZsNmAFo+lcaWZx4xy
-dzKELSJzomACV/OFwR1tuOpH+WL5Tk/XA6TOj24ywxE2S5iNvydaEftUOKXSWp7/
-ck+iX0/yUtaZoqtDdYDPO3Bk1uAso27+Y1HWlXU+iCd8oh3AobOjyh34Z9HqUzMN
-d2ztqK2Brlpa271xY2Z3tTNNdh9STCn0bT7ZV/ZQfuJ8qcspQpg114wssfLpVHvw
-uL827cOIJtidVJwnbm5KChLnUEKmgyfMDzoGR2S31XKuk4hN70TFesBXl5u+S8bf
-IJKSx03IK7ppz+UVRG6U9Hx++8kDoOOcXDw5j10LX6jG8H+XbxULPG+gw/EHRsOL
-YlOVxhLRZl5pQvq0+sB2qdmwBCfdQJlfqvdOzCho5UcPU1+xreo/436zDerOD36m
-0cj5Gh4IPmyvS+jSg8D/HGErZ51klhQXexzqDSUCkXf6YX3qp9/0sUr9KBeSnUB0
-02qtMKWaQXasxkW/7hcKuYhAodhNT8TEqnySf4D2usqGZoFFMn1tlpa52aFr0ok2
-ZPw+6JriTcUO1wpT/AdnuB++VyfbYHd5TqNsJY1qt19XhCtEy93nSnoPLl8JGUix
-EUPrg/GgK3Eu8lJVBqvBmZxRikzDq030PO/L3iHs7FO9yC919Y+nqySkvqc4Jq/s
-4/k2+ty3oLivFGpXkwjV8UON
-=32Sc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUiAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wz4P/1ZILfnwucAdiG9jr3sv
+LesYDsR5ZUUgpmgAc4Oe4hzw5BZnZESaXtVAr86HubvKgmvHbyaDTqgKaSMIZ8r9
+v/4ELW9sujKLyBF4Jo14VEdFA6GJxhmprRZKNTe7ac8Xkw2TXIsWgCJI54lsj1Vv
+C+zoHcBCelq/OxIh9vhoci/L6OGIoTIpFpgGXz2HGLvV2XSXct9CgHTsTTQM50t0
+mpCKlypZZW1PzQ5iotpM2szMcWhJyY4Hf4eHyJxke8DB92VJAOeZGgDMm1NcsgjZ
+sRO44OSTiMvOXHHPuEZUWBXWH3L4q3Qo5wOCk3M5qD8nU4Zgw1i745eOe2oJAhAe
+kNrkamLS2gV5FSmpjUmUYHOL3Z8t5nN+1jYB0ovyKmC/aSxRrw2bFbvZQuPSEzny
+SlMK191sQbXls3/I+Enq7qVlIEeYhOn/4r4gaNE7ft5holrwel8COAiT5lfo8+hA
+PwX12J5wxkygzMhSdMr7p3q2i+/2Ty9YsJZHlw68xF9mQR1CWjVRRdAKkBZy6qjs
+MduMUYpBTGDs2jF9/k2NY933lBZz/45nsBj1X/Sf/vK//CBOh+XkmKgiyNkLbeQB
+4zZNIYX0WJnb4ivIaK1jR1DbpenIbgMWnqSb/fZzBOwMawyaT6G8xq4aZdLepmSS
+BnK9/IYGJAmPZfe0z5KUB64/
+=jUZo
 -----END PGP SIGNATURE-----
 
---===============6082194887841384185==--
+--===============7853236133103829983==--
