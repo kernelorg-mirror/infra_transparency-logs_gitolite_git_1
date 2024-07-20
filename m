@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8807299105887645602=="
+Content-Type: multipart/mixed; boundary="===============4182690896394220372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 20 Jul 2024 05:47:54 -0000
-Message-Id: <172145447402.23523.762394469377873849@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 05:47:57 -0000
+Message-Id: <172145447768.23661.8826302326377264317@gitolite.kernel.org>
 
---===============8807299105887645602==
+--===============4182690896394220372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 389637d4fb5fee40e8a0f2bfd31583f6768ef792
+  - ref: refs/heads/char-misc-next
+    old: 5418e6dfc905b3ccc1e01bdad97d948697b20100
     new: 3c3ff7be9729959699eb6cbc7fd7303566d74069
-    log: revlist-389637d4fb5f-3c3ff7be9729.txt
+    log: revlist-5418e6dfc905-3c3ff7be9729.txt
 
---===============8807299105887645602==
+--===============4182690896394220372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454473 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454476 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1721454472-9279e1a2ea15b1adca39d5ddd744291f6ad71f51
+nonce 1721454476-069372c6522c01ebf7fc4771ff095288bb7425e4
 
-389637d4fb5fee40e8a0f2bfd31583f6768ef792 3c3ff7be9729959699eb6cbc7fd7303566d74069 refs/heads/char-misc-linus
+5418e6dfc905b3ccc1e01bdad97d948697b20100 3c3ff7be9729959699eb6cbc7fd7303566d74069 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabT4kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+plYP/A6GBHmON0VPf7DbE/68
-RGKJuxcdx/Uan+DJjQ+ig5Ug1EFjZu3Q7vxV9EAcvdFow4+HMl1WQ0IfovgxGOqq
-pqUYrFIu1bOU/oPDB4X5IvNeXHKtkk++Jp9Txv6dsYgXRbTXMdu43RVxXnAKLym2
-C37SnFgd8i9r51G+SomtvmQ0mholVlywO1UOCQpDw1QYBnkqx07OBYWMGoQ3yfDq
-lc6cQELD1UnQBMZ5AfRirFutj0BXyx7T+7uMf/T/WxR9ct1GKSK8ObxIU3xUez5f
-PI55LT/C5nq0aBG1InJuHuYdQ48FGo1SmuUUTwsn/xtgraUhdqfN010OhEXbym+5
-wavKZ9J7ct/JnQyP7zBtveM22k1r2CK6UoN5AfaDszTUEsZ06xbAqXNztQiUe10+
-v2y9j32OXpGi1URJqFEJ1eMHeYcNa6hCQPjLpqV/F37Zdw+NWWQU+hqPHyueTfhE
-bPYJN7FhmNJiFPz0oTW9YAEYhcMUmxQLsjeBAoANSBoGPMVv4i2do1U4bLpWkkNo
-r+bVXyh0ZhjCdywImCjzLrNVKf0iMzt8B5I/kTgzr1/C9yT3bjUI34YNsXV8YTVx
-Vk2IBG4YpuqosziXRCDqcCiY6QtUsQH7VO0siEO4qNRRHs5gcF2u4kSKO8My8uYg
-Iu5x24dWhFZ7w2XYeiO0kVIK
-=WrNI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabT4wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SoIQANJC/V/dKeqnYiH1XcBT
+thoESXWUkchnxf2n5e1uiTMoquzlUtsLxX2A4YjVmXHdTAQGsK+eMwVVu0MiHKex
+nHobOFwMHRl8kL3HCbSt2mfYaikTVaUjGFoTHwALUeW1rXnROdpR6Fp5tmZEqbho
+B1LOqsubDl0RteVH9ElKI5UjDGwOGutt44IAXDuo+bMso+2WtN1LJrcO6BOcWzvq
+tzhBVYh9UX9s5izDqGHGcNwpPColq/igc5tgG0gAAe/qZkj9bmna96uRpTLaaUqh
+415zaQrOIuZtDbc/DO1vo8k86tCWnv0gkJSQC8mRWICviuqlnFsP6aoYQYnIIvJV
+5RLAFMpRWUObb4RDpM4rjatw0kl2nbfgKHGZJDLrkmUuUFLcw82uecZ2EE1ym9zt
+IyMHKC8AMIM+2X+tBS0aHSBkWvq4odLfqU0hi4+Sm+4QOtxc3J+9KA0wHrbFJMeE
+kGahXrQxxF/P1QLLWX+z2HBEmtf4EK6BYPIcMa/MO3LWlrHVfUElO1o/JSmk17og
+b8rpx5yNeJb/vEwGCdcm8jN56ilYnZCmMxxJSBRAvNpF/18BnBDj4pF+GVsbaG6P
+jJw/vX6w4TgDXOCJLCFZV4Lkv1byINybf1YmoT1Fsnw//Zfa6mhHWm/qMs/TQqv2
+M9RMR+ylvAxb38p2+aW5kvo/
+=4yRX
 -----END PGP SIGNATURE-----
 
---===============8807299105887645602==
+--===============4182690896394220372==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-389637d4fb5f-3c3ff7be9729.txt
+Content-Disposition: attachment; filename=revlist-5418e6dfc905-3c3ff7be9729.txt
 
+eba1469f8f6a4c98d9cfdba2477fac82a2347c6c btrfs: avoid allocating and running pointless delayed extent operations
+f4f89477322295e0f0ea10aa3e617afe2a827fc5 btrfs: abort transaction if we don't find extref in btrfs_del_inode_extref()
+b9878a89e93322931c3fd0b5e3e09645c899b619 btrfs: only print error message when checking item size in print_extent_item()
+7733b8dd189a9e525c2d53bdd4efb26e04a8d737 btrfs: abort transaction on errors in btrfs_free_chunk()
+4addc1ffd67ad34394674dc91379dc04cfdd2537 btrfs: qgroup: preallocate memory before adding a relation
+a5b3abb18c380177d3a994d30a2ab890f27b8df8 btrfs: qgroup: warn about inconsistent qgroups when relation update fails
+243192b6764990e7fa0e22ea65b4d12f3294471c btrfs: report reclaim stats in sysfs
 42f620aec182f62ee72e3fce41cb3353951b3508 btrfs: store fs_info in space_info
 f5ff64ccf7bb7274ed66b0d835b2f6ae10af5d7a btrfs: dynamic block_group reclaim threshold
 e4ca3932ae90a61c5d0252535f0bc15ce031a457 btrfs: periodic block_group reclaim
@@ -256,10 +263,6 @@ f5cee94f2dfe5b7625452b831f7629369ce68a7b media: uapi: pisp_common: Capitalize al
 639065c621df9bad9d94373084e1c568f81d34e0 media: uapi: pisp_be_config: Re-sort pisp_be_tiles_config
 1c2c57bd439ecaffc728139a0a00701bee886d0a media: uapi: pisp_be_config: Add extra config fields
 68a72104cbcf38ad16500216e213fa4eb21c4be2 media: raspberrypi: Switch to remove_new
-5919d93fbecea729e6c1cfe96ea6360a1f146297 spmi: add missing MODULE_DESCRIPTION() macros
-15eec4e1d07229fe570ad3a1344ad4a39d26106b agp: uninorth: add missing MODULE_DESCRIPTION() macro
-89067019d7dbc65d86cf3a4d8f84ed2ad4bed12b virtio: add missing MODULE_DESCRIPTION() macro
-a5e43e2d202de39196de9fba689c34f8270782eb misc: Kconfig: add a new dependency for MARVELL_CN10K_DPI
 03b927565057dae39da3e4b46e5ab65274b5dcdc platform: arm64: EC_ACER_ASPIRE1 should depend on ARCH_QCOM
 0debb20c5c812f8750c20c3406bc94a1e8ea4742 kselftest: devices: Move discoverable devices test to subdirectory
 0e7b7bde460304f44e8c6b212c3195ac2f69f6fe kselftest: Move ksft helper module to common directory
@@ -268,7 +271,6 @@ b727493011123db329e2901e3abf81a8d146b6fe kselftest: devices: Add test to detect 
 a52b67bdf44cc673e3232b8456b2d85c9988fcad mmc: sdhci-esdhc-imx: disable card detect wake for S32G based platforms
 63e555d9bf76dc710842c13edb7d0986149f16a3 mmc: sdhci-esdhc-imx: obtain the 'per' clock rate after its enablement
 b85e021853976aaebd3788e7e721020570754199 MAINTAINERS: add 's32@nxp.com' as relevant mailing list for 'sdhci-esdhc-imx' driver
-31643d84b8c3d9c846aa0e20bc033e46c68c7e7d binder: fix hang of unregistered readers
 dfd168e74ebe28fd9d41957262688fd78c31ef4d MAINTAINERS: Add more maintainers for omaps
 6fba5cbd323e013079b304489629a6b814110512 MAINTAINERS: Update FREESCALE SOC DRIVERS and QUICC ENGINE LIBRARY
 d73cf5ff743b5a8de6fa20651baba5bd56ba98a3 iommufd: Add check on user response code
@@ -298,7 +300,6 @@ f24c0d6a50ebcc154bded7f40c997edc2064043e dt-bindings: timer: Add SOPHGO SG2002 c
 128f44f788cab8cab53edf9fa35eccbaa48fb4b2 dt-bindings: timer: Add schema for realtek,otto-timer
 4bdc3eaa102b6bedb0800f76f53eca516d5cf20c clocksource/drivers/realtek: Add timer driver for rtl-otto platforms
 75ed63a5ab5d1d2872c735bc7edf8fef0e2fa2ea ASoC: tas2781: Add new Kontrol to set tas2563 digital Volume
-ff14bfb7bc0480c343356b82c126290a4774bcbe misc: delete Makefile.rej
 2454075f8e2915cebbe52a1195631bc7efe2b7e1 bpf: Eliminate remaining "make W=1" warnings in kernel/bpf/btf.o
 9b2bc6b9a264b863a2273c02db5ee9e214e0a526 iommu: Move IOMMU_DIRTY_NO_CLEAR define
 5d4c85134b0f76f72f975029bfa149e566ac968f Merge tag 'bcachefs-2024-07-12' of https://evilpiepirate.org/git/bcachefs
@@ -971,7 +972,6 @@ b1bc554e009e3aeed7e4cfd2e717c7a34a98c683 Merge tag 'media/v6.11-1' of git://git.
 03b54bad26f3c78bb1f90410ec3e4e7fe197adc9 gve: Fix XDP TX completion handling when counters overflow
 1f038d5897fe6b439039fc28420842abcc0d126b net: airoha: fix error branch in airoha_dev_xmit and airoha_set_gdm_ports
 c14112a5574ff5cf3de198ab6eeff53ac1234068 driver core: auxiliary bus: Fix documentation of auxiliary_device
-5418e6dfc905b3ccc1e01bdad97d948697b20100 misc: Kconfig: exclude mrvl-cn10k-dpi compilation for 32-bit systems
 400e4064b63a4c302dff11136828f54de91eda2a fs/adfs: add MODULE_DESCRIPTION
 280e36f0d5b997173d014c07484c03a7f7750668 nsfs: use cleanup guard
 120f1c857a73e52132e473dee89b340440cb692b net: flow_dissector: use DEBUG_NET_WARN_ON_ONCE
@@ -1082,4 +1082,4 @@ ef035628c326af9aa645af1b91fbb72fdfec874e Merge tag 'i2c-for-6.11-rc1-try2' of gi
 3f386cb8ee9f04ff4be164ca7a1d0ef3f81f7374 Merge tag 'pci-v6.11-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 3c3ff7be9729959699eb6cbc7fd7303566d74069 Merge tag 'powerpc-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============8807299105887645602==--
+--===============4182690896394220372==--
