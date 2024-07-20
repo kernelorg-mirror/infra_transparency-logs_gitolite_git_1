@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4485083592790661876=="
+Content-Type: multipart/mixed; boundary="===============6671811416957772238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 20 Jul 2024 14:45:03 -0000
-Message-Id: <172148670361.26897.8265757706158247350@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 14:46:36 -0000
+Message-Id: <172148679664.27847.18072190974856444663@gitolite.kernel.org>
 
---===============4485083592790661876==
+--===============6671811416957772238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/tags/loongarch-6.11
-    old: ca04483ec307fcb088ce555da28bf90a300c1c18
-    new: f950517e8e23b7cd96622c9cfb180cd83046ce8d
-    log: revlist-ca04483ec307-f950517e8e23.txt
+  - ref: refs/heads/loongarch-next
+    old: 14c860e4d30d97502271d5c19474c8561ba06c98
+    new: c0438fbbedb65b64b267b3c03f4133711015782e
+    log: revlist-14c860e4d30d-c0438fbbedb6.txt
 
---===============4485083592790661876==
+--===============6671811416957772238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca04483ec307-f950517e8e23.txt
+Content-Disposition: attachment; filename=revlist-14c860e4d30d-c0438fbbedb6.txt
 
 7697a0fe0154468f5df35c23ebd7aa48994c2cdc LoongArch: Define __ARCH_WANT_NEW_STAT in unistd.h
 12d3b559b85e75640b79995e1320588d6f0d5630 LoongArch: Always enumerate MADT and setup logical-physical CPU mapping
@@ -42,5 +42,6 @@ e05d4cd9b895c503dcf19c0ed9ebb8d393b220ec LoongArch: Add support for relocating t
 0d3a6322021b8c98527842518eeb685f3a8761c8 LoongArch: Use rustc option -Zdirect-access-external-data
 3892b11eac5aaaeefbf717f1953288b77759d9e2 LoongArch: Check TIF_LOAD_WATCH to enable user space watchpoint
 998b17d4440b8559a8bf4926e86f493101995519 LoongArch: Make the users of larch_insn_gen_break() constant
+c0438fbbedb65b64b267b3c03f4133711015782e Merge branch 'loongarch-kvm' into loongarch-next
 
---===============4485083592790661876==--
+--===============6671811416957772238==--
