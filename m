@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1011078378242809206=="
+Content-Type: multipart/mixed; boundary="===============3255532532309203502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 20 Jul 2024 05:48:06 -0000
-Message-Id: <172145448699.23897.11319122199286606520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 20 Jul 2024 05:54:13 -0000
+Message-Id: <172145485315.8603.17238341212630829304@gitolite.kernel.org>
 
---===============1011078378242809206==
+--===============3255532532309203502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/tags/staging-6.11-rc1
+    old: 1585511a25c48cbb3ad5e2b928c21d8d713c66c0
+    new: 0000000000000000000000000000000000000000
 
---===============1011078378242809206==
+--===============3255532532309203502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454485 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1721454484-74f374a402e11a67a571398632e9e842245b9895
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454852 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1721454851-202edeb751aad24d3aed16cc3640d8591739942f
 
-0000000000000000000000000000000000000000 d04e483db22823c13c0313b7c43a52529a2e2672 refs/tags/v6.10
-0000000000000000000000000000000000000000 f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6 refs/tags/v6.10-rc7
+1585511a25c48cbb3ad5e2b928c21d8d713c66c0 0000000000000000000000000000000000000000 refs/tags/staging-6.11-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabT5UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+13QQAJm8dMVp0nPo1/YsYZl2
-yAJYFHMZ6KLr5hmzOydsBxF44FXIvNoI10/GpW5Uy8crX8VIb49BOoGpdELV/6ep
-2XM8KADNgy+fEEo2kM5Jq1GaLBY5L2mQibMfLiyHUoXk0H55toh0VFCJlX3h7dqV
-z6Du+i3Fi/EPocCXwNS7poQiufe4Mg+dfAyJlLOwOCBarOK+lFyI3tdBnR9YWLrf
-mxocCftErYwrQ5sd8HcU03E8SaMoL9gKZY+CDlOaAUy+BqiMv8Sl8juReN20OEot
-7GiW1pnaV5/GlkXA9wYOrRKgrRw+UrIa9geXAkexI6tcy2Qnm6rmRBZYxyjMSkMO
-lmswuf5KIZdYy/p83OLV/3mvnmOFkWSCRWg3gUlgM+GQPfpUuTpiFDc+wqJDEAHv
-ugWPFt8YycuwfbSUljdXwhEUMomm6neB9cHarrlGaVm6WMhfbRPlbK3oEAtu+kDl
-YRNG0jy+AASBDb5YV69K+wNDP2lbyPJ1RhiQVIxdzgdj0ZV49E9O5SbrbDqS09Pk
-DmW89mKX5WigOoMbuM7/Rz0qt8aK15zUOCuJDEPvRSZrZt5pcM4nqktup3neJiS8
-nlXzYQysOihQl6HcrOJsLG20UNTwZVRTcZDW+gNiYrqtaUWddbagnKQUhGfhY3M6
-19AR8mCwBREtVXbPob+YtjYG
-=HiVK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUQQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q8MQAMXsjaQvpzsjjDJnnEex
+W0v0Go/2tb0evJ369VNeJl2iLU9wmYVFaspkMk+CYYKjFSn+H0lzryhg79bbxytx
+uCmV3RwUbTg8t+mpkRCswZZwbCGpZ8iTUE3HFo0QTX4CIc4PMkSX8LXgbWataU8i
+2w7qYrFAlQ5pWPYbzvypDyRCOROI245bISjdJ6IgfJNsLuYyYQxYsYviHsl3RLvR
+Ie4qx0xPf5mqDVRLMVuKEcxp5eCMVthm5md3zGs15mGxoui1izZtoyE34vdmhw/J
+4j18eBGGITStR35zpiIJKeQN9yjXSKLt3FXBkj2II6XPZe9w//QJLLJ45Jh7ck90
+jPaLu7EHqkCSKAY6GAbFx3Z24TBpGk9iOKOsH5sAPqKwC4DMl/1l5b/SMaUQw1YQ
+Bjcbo8lUDPip8CyM0/Uga8mhP0sw2EcYyGg5irwxREzkng/onDeRShZQb41/SJ4O
+NPM4a/IzmoLKagyQLOWV0NlZRPi4C1LjeX9zaXHvo4pZiBWQaR/OPgkaFz/+kZhu
+XUl/8fJtde1L+tdnP9M9WTefVFigtcW1B55Y6auCz0oJED0ZwzKUsUnVdcbycpWC
+fc0O/IXKfJZUNC5uDlJNtwE3BShqtOsLfCFT4ZSm+MfrqNrarAkiX+wP4kmGz8wE
+EWjxFY7nI0tgnBO0RZKXHdu0
+=dI8D
 -----END PGP SIGNATURE-----
 
---===============1011078378242809206==--
+--===============3255532532309203502==--
