@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1402063813199098547=="
+Content-Type: multipart/mixed; boundary="===============4519474709233996614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 20 Jul 2024 05:54:51 -0000
-Message-Id: <172145489137.8967.7293035400539182689@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 05:54:56 -0000
+Message-Id: <172145489676.9088.5716373896221206654@gitolite.kernel.org>
 
---===============1402063813199098547==
+--===============4519474709233996614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 22a40d14b572deb80c0648557f4bd502d7e83826
+  - ref: refs/heads/staging-next
+    old: 104e004739ef03890a1e175b3c2672d50c6d1a6a
     new: 3c3ff7be9729959699eb6cbc7fd7303566d74069
-    log: revlist-22a40d14b572-3c3ff7be9729.txt
+    log: revlist-104e004739ef-3c3ff7be9729.txt
 
---===============1402063813199098547==
+--===============4519474709233996614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454890 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721454896 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721454889-87c21829c027e0ef7a56d065205a22ab1330a34a
+nonce 1721454894-90398f57d0e282edc324f0e68319d25cd9dbe958
 
-22a40d14b572deb80c0648557f4bd502d7e83826 3c3ff7be9729959699eb6cbc7fd7303566d74069 refs/heads/staging-linus
+104e004739ef03890a1e175b3c2672d50c6d1a6a 3c3ff7be9729959699eb6cbc7fd7303566d74069 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f50P/RolnLrbh69Bz3n2eoe/
-XlgKByfq1S7besuTfRnJI1ZD4PpSet50w9dnOteseZthuSPhlYhK+OyySkyR05od
-ZSpjmzB8SB24owKzYsSvzJMfu6XCP6z7ts6BSKb8zsy3XKS8hduuqgBzyTDCEMQh
-SV58QoNvW2udRPqMFGFswhxdmr0BAp4mJis+K7JB6erQim4cXdy4/EgEgkPIF227
-xSFw8qrRu6cO4oxVHkYuvojY1iSeDR/+e/U8PWoVVMetXF+VGvfHgF5kLIYdoaN/
-p12uczCORKN0XUxPplLZH/+5lpOP69TFgKVkY4QO0foQc8RV/fdvNqtBuJTg3msS
-mkqiQgzPsF0ucyd+T9Ji3AZy4tXFSK5cInz/7ZKJSmBypZoK3xzdIGdhDH2u7GdZ
-DeisEdFi2hwytRPcPqpRUh9gShuTu9aekXwrGFpCQZhQ4fpQX2042I35/dZlVN4r
-3f9W6l21HmjgkPC3MG4+Z6HkYEhmPeanV0QxbhC1/vV1EWs7FW8K7b1U9p5AFoY+
-AUG7euoL+XMB0PNUtuKoowCLGd9wvg6555jq9mRfYgbf/XIvdjgCkq156JNPjxTt
-RgC8fAVg3WReUIBIhBQMq8zzwZBoPl48vBx9DiFm7rq6qQy3e9AYlqQ2nwjFWXde
-grwElB8QZYAlMUdiddiQtJFy
-=149b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmabUTAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CbMQAK6+US5MAjdzzXl8t4Cp
+F8/bkny9Kh/pD2i2bdjCu+XKW92oEAjkUbVPDZWwwWsZYn1HHTwHSqap++jFlnM7
+Q5MimxhIKhhbxva2glqt2boGom5eQlZZ1Vc4o1AFAbdu7Uo6pYzQyxAY2SAU2ft4
+aiKZ0nfz/d17If2J1TBb9pA9cd6vfYE1PotZ2BTYrljgJlEfbF+KY3bm8nqQrPQl
+XircK3BoBltKXVrEtgeB/KARIu2s7feQ655wyoDoszKJSv9c2rkuom0OGyUoNvOG
+ZEhuIeTfrCVBObiQPZMFmK61PAQbmWejpW7IYF3pGuT/SAaBgs6op1/a2wp/emu5
+aTo+ezpQKUhhbZfx2l5HsWNBxNtZz86qhJwnuUC8TVBbzlNhZZzLUVAh+2dRFc9g
+CXjI3iRoROVndL8zTlv++6n+AaNBeNEMTlxpfjx7P/LkFcG3iz2ZBErVo3U7X6+m
+kX0oPEqaPLPDOQ1i01OiP6uQBYxufEehi3JPTntPlGfaCi0kep3Nasz0JmP/bg6r
+RbzOpdhWre3w+O94m0CdFleS7d93sMesdAGcnr2no1uevqPqY7Qsnrf4ZOOWeVEM
+ZwMCKBMYPulFXeOF3sbSX1pSBbWnMKLR/O+Bb3Zwqa7sfgATBCnkDwP6YBIipVU0
+/yFwTMvSVMIOBP8c+bNKDcUs
+=7pgP
 -----END PGP SIGNATURE-----
 
---===============1402063813199098547==
+--===============4519474709233996614==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-22a40d14b572-3c3ff7be9729.txt
+Content-Disposition: attachment; filename=revlist-104e004739ef-3c3ff7be9729.txt
 
 42f620aec182f62ee72e3fce41cb3353951b3508 btrfs: store fs_info in space_info
 f5ff64ccf7bb7274ed66b0d835b2f6ae10af5d7a btrfs: dynamic block_group reclaim threshold
@@ -1082,4 +1082,4 @@ ef035628c326af9aa645af1b91fbb72fdfec874e Merge tag 'i2c-for-6.11-rc1-try2' of gi
 3f386cb8ee9f04ff4be164ca7a1d0ef3f81f7374 Merge tag 'pci-v6.11-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 3c3ff7be9729959699eb6cbc7fd7303566d74069 Merge tag 'powerpc-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============1402063813199098547==--
+--===============4519474709233996614==--
