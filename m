@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4700988869267199672=="
+Content-Type: multipart/mixed; boundary="===============5648573975914302998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 20 Jul 2024 11:28:58 -0000
-Message-Id: <172147493871.10599.13653439453926955062@gitolite.kernel.org>
+Date: Sat, 20 Jul 2024 11:29:38 -0000
+Message-Id: <172147497849.10875.17121803555543095330@gitolite.kernel.org>
 
---===============4700988869267199672==
+--===============5648573975914302998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/i2c-host-6.11-part-2
-    old: 862128b44f3e3a8174b21f02249b30409ee6d012
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/i2c/i2c-host
+    old: 930e5186862b115953fb560be357f4e0bf496f94
+    new: de4f2f52f93257433c9029ba2b4044cd9f029b21
+    log: |
+         de4f2f52f93257433c9029ba2b4044cd9f029b21 i2c: piix4: Register SPDs
+         
 
---===============4700988869267199672==
+--===============5648573975914302998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1721474938 +0200
+pusher andi.shyti@kernel.org 1721474977 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1721474937-cd19006f9ff6f481793117ba9b468290f6a68115
+nonce 1721474976-f2d260887cec181cc60d9a06c68fb0aca857e76c
 
-862128b44f3e3a8174b21f02249b30409ee6d012 0000000000000000000000000000000000000000 refs/tags/i2c-host-6.11-part-2
+930e5186862b115953fb560be357f4e0bf496f94 de4f2f52f93257433c9029ba2b4044cd9f029b21 refs/heads/i2c/i2c-host
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpufehYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uCMcA/0sNrczTwu4WgXJxwiDW1EwAteUn
-8vrkzdwtWJEHt3aSAP4uf8G/rMhbYxTMPhJKwlR5tifcxP62DmH4f51xK22PDw==
-=G29b
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZpufoRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uoXUA/1LDzgnE6LZqjE5v9tyyzLvr1nTn
+3RI+E3i1KXkFL8EbAQDiFYR8VSleiPH/CKdymaxALJcxQ37VQfYBBeJHB5zcBw==
+=tkhg
 -----END PGP SIGNATURE-----
 
---===============4700988869267199672==--
+--===============5648573975914302998==--
