@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 21 Jul 2024 16:27:16 -0000
-Message-Id: <172157923639.1595.12057345689559196936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Sun, 21 Jul 2024 17:53:06 -0000
+Message-Id: <172158438650.31218.855499995106094476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/urgent
-    old: ee8b8f5d83eb2c9caaebcf633310905ee76856e9
-    new: ae835a96d72cd025421910edb0e8faf706998727
-    log: |
-         ae835a96d72cd025421910edb0e8faf706998727 x86/efistub: Revert to heap allocated boot_params for PE entrypoint
-         
+  - ref: refs/tags/mailbox-v6.11
+    old: 0000000000000000000000000000000000000000
+    new: cf9212675d18d3c53eac212236778590c358ea21
