@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 21 Jul 2024 21:39:19 -0000
-Message-Id: <172159795932.1771.17293592801806367043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sun, 21 Jul 2024 21:50:55 -0000
+Message-Id: <172159865529.10874.15153641207050014422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: 8cd372b428b1fa279bf2d8f7bf0eb54dad6499ad
-    new: 89b8e9264a0322e6b1e903590a8d945bab9b1280
-    log: |
-         89b8e9264a0322e6b1e903590a8d945bab9b1280 parisc: Add support for CONFIG_SYSCTL_ARCH_UNALIGN_NO_WARN
-         
+  - ref: refs/tags/rtc-6.11
+    old: 0000000000000000000000000000000000000000
+    new: 9aec6b54db2062f78ce8593d4d64c047e8dc6a1f
