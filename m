@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 21 Jul 2024 22:08:11 -0000
-Message-Id: <172159969168.23564.7487176180709134771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Sun, 21 Jul 2024 22:47:08 -0000
+Message-Id: <172160202850.19263.8012218773242770672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/tags/mm-nonmm-stable-2024-07-21-15-07
+  - ref: refs/tags/hsi-for-6.11
     old: 0000000000000000000000000000000000000000
-    new: 6ebdc2e2ab8497ecc834aa75b42f839eec7bdcd0
+    new: 55d80dcda0a4abacc62598c311f2d441426b40fc
