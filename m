@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2295860312087626749=="
+Content-Type: multipart/mixed; boundary="===============2082849516346318094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 22 Jul 2024 05:33:16 -0000
-Message-Id: <172162639627.30079.2092649642229254090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 22 Jul 2024 05:33:17 -0000
+Message-Id: <172162639758.30155.827478664683209755@gitolite.kernel.org>
 
---===============2295860312087626749==
+--===============2082849516346318094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/char-misc-linus
     old: 3c3ff7be9729959699eb6cbc7fd7303566d74069
     new: 933069701c1b507825b514317d4edd5d3fd9d417
     log: revlist-3c3ff7be9729-933069701c1b.txt
 
---===============2295860312087626749==
+--===============2082849516346318094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721626394 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1721626392-7edf25cbc688b29c21ddc4c54521e29578431c13
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721626396 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1721626396-9eed7cd41f753eddde92aba6045486638bce0edd
 
-3c3ff7be9729959699eb6cbc7fd7303566d74069 933069701c1b507825b514317d4edd5d3fd9d417 refs/heads/master
+3c3ff7be9729959699eb6cbc7fd7303566d74069 933069701c1b507825b514317d4edd5d3fd9d417 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmad7xobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+82UQAMghdP3adgdarn+tE7gQ
-V0f0GT9XIGpNmA3pY0KDW3mnRBRYMxHTMMwUi+KiIkDf5gEogiV6M6b/Vhl7jxIV
-CaNVTFFoXkeM6NifzpZs3I+sJTC7mQ+0BhfhZm3aqYlkz0skYDbvl4WpgXA3gemc
-zZTc5fqCglPFARvfclYxv7hEMoLPCPzQpRCk4fRTehriFVtzBClsXT8QOaKw3oyM
-01e57ZoOC8OgqlB0lfujkAZ0m02vBgsjWyheH9rueKX9kcpm0VKFg96J4qXA0VPJ
-XeoNePOKto0rWMLmxJg/fVHcs3O9c5amMGfhEtkgvGIVomqgINnNaN4z6sTQ3OUn
-Fy2Zml9Br7GARNZ282BB01KMv18KXu6msQYY6vH5PRjK5hDTFdqJ5pOE7Qr96QwO
-DgsLe5z/bB7nZC21SpGwnbXRU2r1HUKbTKE7pC4XQnWJngtqr8IMH6Rn5wngH7cl
-P3iAMAibFC2KQ+UkgjHrkGOzmqSheMPmrimT9CGA27dJaoQa2nYFjNWelSP0PVMd
-bGMZ3DQTqPsIbAkdi1hmvDLxeSqeW15BCnTcdiHk/bhUJD8U3gzJN0kINNsmgnYa
-ZT7nVGcJ9coER0oS7EBkwbkxdL8TA+RTu8WnvlAFT+sjR22/GjQpb3m4k655SZhu
-zN0JH58TxPjg71w1tM/U2fNK
-=IOSc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmad7xwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IzwQAK0oKbZwPdnFyrSB78Kw
+xjSpKhpHTgDtP60USNWlgy5NIb9HtXmakLKOYKSQ6bTpuJchPxLNTmKBuuigdNQk
+bxq/U+f9ZQ7y9Sd2F/BGAamVgfP+ajiWVdNEtCsa5Yvp2dBoulo+1dbhjNxhmB4A
+u1pCO1NefhPA7DmwsdJhQc6nu+q911E7EO7uI76/YLKC7IlcNkp6dx+I9v1Q0XQL
+g0GfrAwTfn2rKVqOB2z0Jg4fpZx3JJT0iiE4pKGAzX5bI/LBi2BJFLFzczUqqtNG
+BwqwdFn8kjgmPwT0nTk+7fJsFPxGFwpQXV9OhPeNWTFnKneq/OdD/THqpLGFnFHM
+mGUYXx5qAQa0YjWOkcOMzPY9DcIr86NaukbuFxi4n7mgJ50PGKWUZvsiFmrAcn4m
+IjOHX0q1bVR/5WQlQ4Bs7Jh3sO/mF4UH+iQYt20FmymXtBcIuHG5aZJKLdLaH7yr
+XFzt9QzbKJIQGKNpC3QMCC+jmHedjzJ6pnjgiWLqxik79/YwZT8EZtIVuW9cDwmg
+ZUMZ1jyYTb63nAgMV3wF5ggUnLqWgVd9bv0Lxwuel5IkehPegPXyjgDwVv//TQKc
+rpjXUGg5sEZ6fdkxkqowV5I8kf/zmEhfcd+QaK1ewHZYMSXXIOIuUxvP95kwjWCI
+q6rSXatM5ltUafu7AGYAjcIE
+=dlrk
 -----END PGP SIGNATURE-----
 
---===============2295860312087626749==
+--===============2082849516346318094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fbc90c042cd1dc7258ebfebe6d226017e5b5ac8c Merge tag 'mm-stable-2024-07-21-14-50' 
 527eff227d4321c6ea453db1083bc4fdd4d3a3e8 Merge tag 'mm-nonmm-stable-2024-07-21-15-07' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 933069701c1b507825b514317d4edd5d3fd9d417 Merge tag '6.11-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
 
---===============2295860312087626749==--
+--===============2082849516346318094==--
