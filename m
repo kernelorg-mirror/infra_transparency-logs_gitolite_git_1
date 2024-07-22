@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Jul 2024 19:12:04 -0000
-Message-Id: <172167552471.16754.118546112927551323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 22 Jul 2024 19:23:55 -0000
+Message-Id: <172167623563.24203.8543098126842411268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-linus
-    old: f2038c12e8133bf4c6bd4d1127a23310d55d9e21
-    new: 92c78222168e9035a9bfb8841c2e56ce23e51f73
+  - ref: refs/heads/master
+    old: 6d5848d4fe984d3960efe151a79a4431ca581d77
+    new: cca09a371fa751fc0d61ced0918d81f9621d250e
     log: |
-         9931f7d5d251882a147cc5811060097df43e79f5 ASoC: Intel: use soc_intel_is_byt_cr() only when IOSF_MBI is reachable
-         83340b855d222f257354afd272dc8d315fecc3ee ASoC: tegra: select CONFIG_SND_SIMPLE_CARD_UTILS
-         92c78222168e9035a9bfb8841c2e56ce23e51f73 ASoC: TAS2781: Fix tasdev_load_calibrated_data()
-         
-  - ref: refs/heads/for-next
-    old: f2038c12e8133bf4c6bd4d1127a23310d55d9e21
-    new: 92c78222168e9035a9bfb8841c2e56ce23e51f73
-    log: |
-         9931f7d5d251882a147cc5811060097df43e79f5 ASoC: Intel: use soc_intel_is_byt_cr() only when IOSF_MBI is reachable
-         83340b855d222f257354afd272dc8d315fecc3ee ASoC: tegra: select CONFIG_SND_SIMPLE_CARD_UTILS
-         92c78222168e9035a9bfb8841c2e56ce23e51f73 ASoC: TAS2781: Fix tasdev_load_calibrated_data()
+         50affe28672e8f3074de8f1f5e3d95c820c64066 bpf: Check unsupported ops from the bpf_struct_ops's cfi_stubs
+         b794efaacc955db314b73da207cf70fa0b5151b3 selftests/bpf: Fix the missing tramp_1 to tramp_40 ops in cfi_stubs
+         4979996ac0fb9588da86ec55a61e5b088d9a4918 selftests/bpf: Ensure the unsupported struct_ops prog cannot be loaded
+         cca09a371fa751fc0d61ced0918d81f9621d250e Merge branch 'bpf-retire-the-unsupported_ops-usage-in-struct_ops'
          
