@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 22 Jul 2024 14:04:07 -0000
-Message-Id: <172165704778.12967.13170031693851568854@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6665062703884926262=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 22 Jul 2024 14:04:29 -0000
+Message-Id: <172165706954.13208.13310296026620717435@gitolite.kernel.org>
+
+--===============6665062703884926262==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 07c2ab22a8dadf8af687cbad6b1d171df9072c8c
-    new: b18703ea7157f62f02eb0ceb11f6fa0138e90adc
+  - ref: refs/heads/master
+    old: 5e9fe419ee0dd8cc46678a86ab2069bf58629ed1
+    new: 970560601d64c2e5e746f823383378bdaf250917
     log: |
-         8aa45525f949adcdc5db2bd29137a236109ea43e printk: nbcon: do not require migration disabled for nbcon_get_cpu_emergency_nesting()
-         7782d37fb849c58655ee923589f880499c56d62f Merge branch 'for-6.11' into for-next
-         b18703ea7157f62f02eb0ceb11f6fa0138e90adc Merge branch 'rework/write-atomic' into for-next
+         970560601d64c2e5e746f823383378bdaf250917 Add DDF3718FE37F3957 (new key for Daniel Borkmann)
          
+
+--===============6665062703884926262==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1721657068 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1721657068-f080a9c8b3cfc0d214cc5305ad34ff3e154622c1
+
+5e9fe419ee0dd8cc46678a86ab2069bf58629ed1 970560601d64c2e5e746f823383378bdaf250917 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp5m7AAKCRC2xBzjVmSZ
+bJTUAP9NjZCN+Dp9EZ3CkXABMbqMPGYnDzZbsWfQPHQ8Uqql9wEA60mp5sAHoNEe
+3sXs/nJFb7RqbxabbNjipttv31RUowM=
+=zYmU
+-----END PGP SIGNATURE-----
+
+--===============6665062703884926262==--
