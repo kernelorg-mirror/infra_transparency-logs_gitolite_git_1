@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7081377134984657958=="
+Content-Type: multipart/mixed; boundary="===============7198492919703148075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 22 Jul 2024 11:55:14 -0000
-Message-Id: <172164931481.15043.80167055382448927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Jul 2024 12:02:21 -0000
+Message-Id: <172164974164.19450.5638911788402851286@gitolite.kernel.org>
 
---===============7081377134984657958==
+--===============7198492919703148075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 933069701c1b507825b514317d4edd5d3fd9d417
-    new: 501f065920b87daf2b5c5ee3a2d3ed6306678733
+  - ref: refs/heads/master
+    old: be27abe619fcaab473abc73c7089e511d2a5ea4e
+    new: 392b877b65c8b584001f705de002aae9e425c36d
     log: |
-         542b4bb8c38e84a4cf804067da6ea5b048ecbe08 staging: vme_user: vme_tsi148.c: remove redundant newlines
-         501f065920b87daf2b5c5ee3a2d3ed6306678733 staging: rtl8712: style fix multiple line dereference
+         392b877b65c8b584001f705de002aae9e425c36d 4.19-stable patches
          
 
---===============7081377134984657958==
+--===============7198492919703148075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721649312 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721649312-84ef5d64d11216421933fedd0542ae05e06ddf62
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721649739 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1721649738-4bd1ade2c5cedbb076a6646a44be98aff56f882d
 
-933069701c1b507825b514317d4edd5d3fd9d417 501f065920b87daf2b5c5ee3a2d3ed6306678733 refs/heads/staging-testing
+be27abe619fcaab473abc73c7089e511d2a5ea4e 392b877b65c8b584001f705de002aae9e425c36d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaeSKAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LisP/3OzGVKSrsyInZgg6aRX
-FQGoUFAEOLMjqa+HGZMLGyXHYjnZ6Zurkd45eY+pX1uQC+v5nr7XS66m4SH163/X
-4/CZDlMJds+MEYUVPK9FP/XUkVMzMiIJYBwGNBXG2EXek22iBX9jqO7+2aNCK7iZ
-UdigH3Z8phqWSwO/dwX+WUX9T/T55xICu9UJ6lWiEUtZeRzOwwhZcUEHcU5vH69H
-WCjAvDrTP/X9RVqoycLwVyPUf8z+WNxL1s+//8xEwfZrdoVr9BzQ6yuIUhxfQjTY
-WxaHITAPiH/V0LlTjCcKVKxtGzZ0iSfPqssCAdvQau+zFBurBs4fmGhxuYXBRaR5
-lHJwhmz7K+uWvHl1ZZiyfz26qWPDgES14XKlw1aYvoY1vnJQR2i1gb9w1LE4z7Jm
-ethtUclCmAjBG5yC/Gy2jQKLIKFAq7vm7PWFdVgZuS1rvJUwCY94t+i1/Lh5D/wh
-ixg8g6DCbctkXJpqUD3HI3K9SgV2AC61hogtYkIHGq0OY3WzP3pEz83sljRNNh1B
-4VyxpawmLzITov2v84YdxXaTDXFR3XABAHoHnyC89+VE4rmZb/J4QP1ss4/a962z
-x0X5CXbPjp1zLkG2DT/Ekp8pS2x+TJMlXTQhpCpyBTxdLP84s4qU4la52TICFieK
-3ZdkRxEx1kLkBoswGp3H/i2k
-=b7Vy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaeSksbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6MUQAJ4uxLhMdMtNgD2mvUEI
+xQomkP4eSD4TbqNEI/pGwF2sa4zuiZcMlOk0qJmFt+Edd5sF2gzMp3NvzWFqmdDi
+w2aDbivjsiZHo6U86ej1wLcuoMGKR3RqaYsPZ/Odvy2TYlKcVFfHpmB2RTpKfBq4
+c1rLzmZm4Ouo9idjsSq6EmQqAbNxocsrA7NbVS8ykUNynMLextjGBIrRQ9c0+ALX
+Q9yikj+iSlIQnQSYn3uVtiKPuS/SOtPbeBkzDVxMdx3JTM0+lkZEm5UiFXjOcUsZ
+COtln6HIWL21RztiAwdxiHzvg7qoRg/3hAjXg6tptWTLN5poQcjvtBweGBbkcUVI
+nHNn8q634KjLarDtlbuss5fAWMRd6sEv9KQSOznbfnaoWzkkpJwrFv7bfaHSaUTK
+qbliwhcnT+R8mvvrTVXBmlBFL8iIgKV2tI8CxivklsxZnSxLu58MiaJCziGxU+QL
+sVCVu6Hxkv3Ji6HYhXPfIDmtgCtqlyI3robESxozNw5Y18NDw0g0pimdqxp6EF4I
+k3iTIVMbmR7Gg1J0WnVfn8gG/CT68DZxSvxg34t5YkQ9wIFKoh5hQa17IRS7HX7H
+1RatRJYobite2tOHfvu5e6XtR42UlziNmPnzQjPvx3XpUTF+fawp6XaNoLBXJODa
+G3CTVTiDtmOSPAFAdBCVkPLU
+=lwtw
 -----END PGP SIGNATURE-----
 
---===============7081377134984657958==--
+--===============7198492919703148075==--
