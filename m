@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2537299604345069059=="
+Content-Type: multipart/mixed; boundary="===============6033876398373596853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 22 Jul 2024 05:37:47 -0000
-Message-Id: <172162666719.16205.16413433336919329021@gitolite.kernel.org>
+Date: Mon, 22 Jul 2024 05:37:51 -0000
+Message-Id: <172162667100.16276.17458803551749189530@gitolite.kernel.org>
 
---===============2537299604345069059==
+--===============6033876398373596853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 3c3ff7be9729959699eb6cbc7fd7303566d74069
     new: 933069701c1b507825b514317d4edd5d3fd9d417
     log: revlist-3c3ff7be9729-933069701c1b.txt
 
---===============2537299604345069059==
+--===============6033876398373596853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721626666 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721626670 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721626665-8e2933f08d13c5fcb88889c597e062bd4f954497
+nonce 1721626669-8fc4afbf0f47d83a6cc1e96dec8592bb892faf31
 
-3c3ff7be9729959699eb6cbc7fd7303566d74069 933069701c1b507825b514317d4edd5d3fd9d417 refs/heads/staging-next
+3c3ff7be9729959699eb6cbc7fd7303566d74069 933069701c1b507825b514317d4edd5d3fd9d417 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmad8CobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kiIP/A8ZcIrMbFjpJpQFQGTK
-EU4yJhQYiE4eetZbZ+HZx6PmRBD3szlZ0RwSZOoXWatoKYALTHol5h6Tq76Of4eH
-sGbcLAAErVdHPNh3c2DgkGJ3hOA95+tONSmAwSe8qe82HOteURkIbSYcJ9lNBYzi
-J4tF5xXuijQDZ8EJMN8TKK3U4fn/JIXNvysratYIwrhXEM1W8jFOs7i760ZHkCZN
-aNp3tCyz84Dq0xk/mtA1d5uvNb2Ek5YNhETkxUyzQaLkRUwWVoFgu+yxiOsb7bR2
-iu3UiiBhJNnLnI8hhjSSzqNiSrtYsSlD0Wgzs+4+W5UbB9O1zVj39vWG4qoDw3Db
-e99HWp29KrTykJTw0BeEtMnQfCFvLcyVChf/CujiLDKDozS7y25M8YA9+7i/BPV2
-92/qao/GN6hMmyws2BObftQ7rj3bE+0hN+WR9JNqnELkCLM7OQ3/bxvct4TyDmc4
-R7q4gnAem5oGj33bQ6X8yfWTZxO5hCZYuFc6OWEFBtfIFvcVOKs3o2SNmW6wwBqs
-bNHIdwgjBmhrLNWZCP5EFNjUCNbvqp6DGC7t0BjhPZi5ptmnTyjFK5hbAb1YF+6R
-7EdOZ78QAR5O4IY7DDHFiRibGdgJAs+sz3GUubfeYlOMXPWo6YEth1rA5FNeyf0w
-UyVKadwmq8JpOR2uWNtj8gfL
-=uEAQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmad8C4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SMoP/15tYdmD53ZRhwxdkYQu
+SGPgI/ORWcxkXo1WVn4MX+qIGbkAgAAFprnhRLqzj1hN+/twD3IaJFVK5iwEqDpZ
+V1VCK46rjPOhFhos2ua7ngUvyrqh6eCuMz3xx8QdaNFmuu5dVfnVVmjHVx0LOwCF
+RyYD6Kd6Zc3AzcYfnMSwNTNAVEgW4eZI1PjAxuBeYYdGYDeQEA/wnGwLO2j1z/ju
+tp1WuNbHsHAS45qHjNC9CSH+5LzNDgHeil1bqmjMM5uFaPP36MpUfJ8n/iOtbngN
+5KR3HgJpTqb/8Ea0sOivjbQu2NZ8xSX3js6yBuTFfDWEf8bthURhOdIDYuXKhXNI
+0CRWfIWAhRV5scgYCwzwIsJoBJ3vCvquC5k4VO2CJAFI0haD0SLLrD+FhQeZ4eT0
+wcgXYdCkSCGGQw0JV8fw4dpVzfhjnXhi/Znas4x9hd3stfMMfQSXa706rPLD0qxd
+cRRzPgc4PRCijnOSCcNcDfTd2mWdHTYmMoxURo7Mmk73Af8XVITOpHKycqCmn6Q4
+9NYhuUFO30/ElVHFqMjw3e9n65+CDZjynUjB2BSZuBUrTWiXbxYRJ32otclIUk6e
+xx5EodX+S0xg2alymdXpE6rfrZ6PIXfIbhEiIU9aVz9DivgqrsOnUm801pkdu95G
+4dxEQbHmZbgjkaFihFLVOiwW
+=fiQ/
 -----END PGP SIGNATURE-----
 
---===============2537299604345069059==
+--===============6033876398373596853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fbc90c042cd1dc7258ebfebe6d226017e5b5ac8c Merge tag 'mm-stable-2024-07-21-14-50' 
 527eff227d4321c6ea453db1083bc4fdd4d3a3e8 Merge tag 'mm-nonmm-stable-2024-07-21-15-07' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 933069701c1b507825b514317d4edd5d3fd9d417 Merge tag '6.11-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
 
---===============2537299604345069059==--
+--===============6033876398373596853==--
