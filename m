@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4226075773621795830=="
+Content-Type: multipart/mixed; boundary="===============3190182051083290968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Jul 2024 16:19:14 -0000
-Message-Id: <172166515429.18310.32492295277202287@gitolite.kernel.org>
+Date: Mon, 22 Jul 2024 16:19:30 -0000
+Message-Id: <172166517067.18480.14341133746238783744@gitolite.kernel.org>
 
---===============4226075773621795830==
+--===============3190182051083290968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 51835949dda3783d4639cfa74ce13a3c9829de00
-    new: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
-    log: revlist-51835949dda3-d7e78951a8b8.txt
+  - ref: refs/heads/dev-queue
+    old: aac5f8c21b761a08e1f74833958b21a05fb7942a
+    new: 5104599d28a023c2650f1f1da7a522381fb26057
+    log: revlist-aac5f8c21b76-5104599d28a0.txt
 
---===============4226075773621795830==
+--===============3190182051083290968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51835949dda3-d7e78951a8b8.txt
+Content-Disposition: attachment; filename=revlist-aac5f8c21b76-5104599d28a0.txt
 
-6bac3388889cec379ecb06e5557dd6f31a31544e arm64: dts: fvp: Enable PCIe ATS for Base RevC FVP
-a4ce399973d21494eab12e7049f38d47c0c4cb30 Merge branch 'for-joerg/arm-smmu/bindings' into for-joerg/arm-smmu/next
-ac4e52c69f2d20b13f37397f44fa3d59dc4a87f9 Merge branch 'for-joerg/arm-smmu/updates' into for-joerg/arm-smmu/next
-302a3ea38aec5ecee773aa4e5478aaa576919bb4 mm, slab: move allocation tagging code in the alloc path into a hook
-1e1fdcbdde3b7663e5d8faeb2245b9b151417d22 vhost/vsock: always initialize seqpacket_allow
-840b2d39a2dc1b96deb3f5c7fef76c9b24f08f51 virtio_ring: fix KMSAN error for premapped mode
-ede9c33ec568eed53f8f6bb42ed1d04af712cf02 tools/virtio: creating pipe assertion in vringh_test
-e269d79c7d35aa3808b1f3c1737d63dab504ddc8 net: missing check virtio
-cabf0b0cff07bc8d6e80ab6a8f8a127a2708147b ASoc: tas2781: Set "Speaker Force Firmware Load" as the common kcontrol for both tas27871 and tas2563
-6f2fdde9096f3c4d35a7711c91a78c086be66aed leds: leds-lp5569: Convert to sysfs_emit API
-8eac0379d3bd9d048b1144d74d9309a198fd3f40 leds: leds-lp5523: Convert to sysfs_emit API
-a1cacb8a8e70c38ec0c78910c668abda99fcb780 backlight: Add BACKLIGHT_POWER_ constants for power states
-26dcf62333f1c1ec33a469339a287ab8eecfb06e backlight: aat2870-backlight: Use blacklight power constants
-1adf98242e0ec33f15c4f7a1e86ad76abf209665 backlight: ams369fb06: Use backlight power constants
-e263c051910190feba884179aef15e548273a7aa backlight: corgi-lcd: Use backlight power constants
-ef51815c5f970b228a775ceb3bb06ce46fe9ff86 backlight: gpio-backlight: Use backlight power constants
-b6675c59473a26dec33281e4e872cf09f6321523 backlight: ipaq-micro-backlight: Use backlight power constants
-6910d19bb861db0721a171f4e351c290a40f1d19 backlight: journada_bl: Use backlight power constants
-cebc25971f7f988dfd4d6c7269deea4c1ca5898e backlight: kb3886-bl: Use backlight power constants
-def5831f09db8937218be50fc652d20c0a68e417 backlight: ktd253-backlight: Use backlight power constants
-814d3e820039348f1467ada9a8a812c0b80733de backlight: led-backlight: Use backlight power constants
-761c83910b3d10e731b03438b883d271c295a9a5 backlight: lm3533-backlight: Use backlight power constants
-c2d9c4934bf4e12b531312bbf02a8543f6a23aae backlight: mp3309c: Use backlight power constants
-d4db2f193490415386ee13f714a0940943cbb149 backlight: pandora-backlight: Use backlight power constants
-eca6b3ddfc554a9a51795cf035ccd60f2d842074 backlight: pcf50633-backlight: Use backlight power constants
-eb1c4b6ddde6867498ead8d4b92d6abb5f736a7d backlight: pwm-backlight: Use backlight power constants
-22f8a85ef0c563ba7e53d9ece39c1f2dc99f53ed backlight: rave-sp-backlight: Use backlight power constants
-1df5aa3754cac2045998ca505edb84d994786c67 backlight: sky81452-backlight: Use backlight power constants
-ecad8fb868aad03a3caf1d6e03a6a55fdd93370a Merge branch 'ib-mfd-dt-soc-6.11' into ibs-for-mfd-merged
-2d21e9745f7b76fa32f941aa9df876b8c4bda1ca Merge branch 'ib-mfd-firmware-input-sound-soc-6.11' into ibs-for-mfd-merged
-f5ace555243953d12031679712e8594a40873ed0 Merge branch 'ib-mfd-input-regulator-6.11' into ibs-for-mfd-merged
-5ffe70d81e08cc101e9d609f69fd587e2bed4b8c Merge branch 'ib-mfd-leds-platform-6.11' into ibs-for-mfd-merged
-04f3893327094fa6b3b4bea64627d4e73518447d Merge branch 'ib-mfd-regulator-pm8008-6.11' into ibs-for-mfd-merged
-2a2ca717cee531788a0e0cbbe71bd0fea5038ff1 Merge branch 'ib-mfd-regulator-watchdog-6.11' into ibs-for-mfd-merged
-f1c6a7e0f07f54718f8cbf9f30ecd2cca9df7334 Merge branch 'ib-mfd-soc-samsung-6.11' into ibs-for-mfd-merged
-326ae03d772de6e082d346466671c3b66de2962d mfd: idt8a340_reg: Start comments with '/*'
-22ff67ad8c3b792591b45fa14dc72d400114509b mfd: omap-usb-host: Remove unused linux/gpio.h
-93411db51826197b3e2d1827feded19ba47ebfc9 mfd: menelaus: Remove unused linux/gpio.h
-5e9ea43c63ffadec2cd906fab169be94ebc9e0a8 mfd: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-8aa950491d97d626dff95ef838ed750490d54a30 dt-bindings: mfd: syscon: Add ti,am625-dss-oldi-io-ctrl compatible
-0577ca9750d4a5038dceb9a470c709cc37f2a51f dt-bindings: mfd: mediatek,mt8195-scpsys: Add support for MT8188
-bd1ae9bbc49de21dd7ad017de7925bf51862f06d dt-bindings: mfd: mediatek,mt8195-scpsys: Add mediatek,mt8365-scpsys
-ddeeca130059e2cb246e5f996c38fd9c4074f769 mfd: intel_soc_pmic_crc: Use PWM_LOOKUP_WITH_MODULE() for the PWM lookup
-b5f743b122141b14c1b170f3fe749382efa7c867 dt-bindings: mfd: qcom-spmi-pmic: Document SMB2360 PMIC
-555b5fcdb8443dd1fe9e82545f2ec27eedf89f8d mfd: cros_ec: Register charge control subdevice
-6ca6a63e9639c82d4e3863e0e26bf431a55ee5cb mfd: cros_ec: Register hardware monitoring subdevice
-c879a8c39dd55e7fabdd8d13341f7bc5200db377 mfd: rsmu: Split core code into separate module
-5bbd03db27826b562caad1c9b53576a5a78a2bad dt-bindings: mfd: qcom,spmi-pmic: Document PMC8380
-316b8ab386d1fdcc0f515ece6c4bd5a5f3d9449e mfd: mt6397-core: Add support for AUXADCs on MT6357/58/59 PMICs
-51e3b257099d10a87de58f1d40fe0b9641bd1f0e mfd: core: Make use of device_set_node()
-9cc3b409beeeb8ffaed8adde43160645686eef41 mfd: intel-lpss: Rename SPI intel_lpss_platform_info structs
-4c4ade1aba55ca90b49c59dd229a952b1610775b dt-bindings: mfd: syscon: Add more simple compatibles
-d502645bc839ecff7837efd65928e085225dfce2 mfd: qcom-pm8008: Add missing MODULE_DESCRIPTION() macro
-5fed47abb330818534a5a0d969f6634e5bd225d8 mfd: Add missing MODULE_DESCRIPTION() macros
 81c8920d46d449bec93c20b5083365a7cf2561aa mfd: max14577: Fix Wvoid-pointer-to-enum-cast warning (again)
 105d4b4a36d8d5872da77d8c3e0855b86fcc6c8c mfd: mxs-lradc: Fix Wvoid-pointer-to-enum-cast warning (again)
 7b28133dd63681164d87ea2a97e27cd2f9f692fb mfd: wm8994: Fix Wvoid-pointer-to-enum-cast warning (again)
@@ -1050,5 +996,59 @@ a4f9285520584977127946a22eab2adfbc87d1bf Merge tag 'clk-for-linus' of git://git.
 33cf098770930a9b782d3983e1b0127bdc203216 Merge tag 'probes-fixes-v6.11-pre-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 53a5182c8a6805d3096336709ba5790d16f8c369 Merge tag 'for-6.11-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d7e78951a8b8b53e4d52c689d927a6887e6cfadf Merge tag 'net-6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+8dd0159317a5cfff35a1d414baf10b833e6dc475 ice: Add a per-VF limit on number of FDIR filters
+8789c4f847f06c5340061f132a7a2bcb8cc2469f ice: add parser create and destroy skeleton
+0ac1bb72fd42f446a95deae7c1fd644e22a50fa7 ice: parse and init various DDP parser sections
+837a70640bbea225ecdac798896438340c5dd095 ice: add debugging functions for the parser sections
+fb2940f4b90d008b272814637b419b22c9239013 ice: add parser internal helper functions
+e66dbbcce734d90978c9fb147907831a3f2feee5 ice: add parser execution main loop
+88ac4ab342d025c5efa0eac8556304f87266d156 ice: support turning on/off the parser's double vlan mode
+315ba705bb123ae41f21bf67ca4a7dac1ff581ac ice: add UDP tunnels support to the parser
+3039bd3b8500d8290fe5f14f9a62bb7de8712c3d ice: add API for parser profile initialization
+1827a749e61a5ba60a75fd2b997c2b7b6a82a5d0 virtchnl: support raw packet in protocol header
+8b72b5f3dd1784c893910b75992717769362b580 ice: add method to disable FDIR SWAP option
+f5ec546c05e59d59576dfab19f1e583217652748 ice: enable FDIR filters from raw binary patterns for VFs
+00597557914bcf9ef7f24a6e0e43b1a9a754e598 iavf: refactor add/del FDIR filters
+b469c44711c8c56bf96d787a016eda4377b3c9dd iavf: add support for offloading tc U32 cls filters
+e145234c5805c2ca31a2d003917cd3d61e90dd5c net: docs: add missing features that can have stats
+cd1a1ea375f3a3397e149b17a9e955c96bdb4db9 ice: implement ethtool standard stats
+6405a33def802b7dc2307c2ab1b8f1507b0a3c55 ice: add tracking of good transmit timestamps
+9ff51dca09bfd9b58e521fe7d2daf32a5e7e61a2 ice: implement transmit hardware timestamp statistics
+8bc27de74982626b903a6cfd7190101cd1222285 ice: refactor to use helpers
+15ed4d911e5775815ee86a5e3954868ee2ae5e2b ice: add new VSI type for subfunctions
+7be11b19fac349e386f84113330261e1b9677b4c ice: export ice ndo_ops functions
+96dd268ea46d70b78d9f8ebe31ed48ccca4a56de ice: add basic devlink subfunctions support
+8ca458a04000755e9f1a6df39ce4b14825bbf628 ice: treat subfunction VSI the same as PF VSI
+2aea3b7a980fbdf3c0db9bbb141ec8f4278889a4 ice: allocate devlink for subfunction
+18c9823b48fb449d8137e58821b570206835a40c ice: base subfunction aux driver
+0bae731b4a4613c5fd79dbe21719035c9762c52c ice: implement netdev for subfunction
+4b0d22ebece4ab694cc8508170cb92af26101f4d ice: make representor code generic
+66eab583350a906cbb211c6a82c2f7d9119c4437 ice: create port representor for SF
+1e5ff2f0dafe4a6dce079506b058019f11e4110c ice: don't set target VSI for subfunction
+7e416d21cc530b28ea4e269683038299922b01d4 ice: check if SF is ready in ethtool ops
+85b27d7316eeb39e1d92ac0af088ba2cbf2904d1 ice: implement netdevice ops for SF representor
+e6ab055cfedfa96744fef1a6f0072a076cbffa1d ice: support subfunction devlink Tx topology
+4de09fba8a56a79e895946af68a79fdeb5f2ed48 ice: basic support for VLAN in subfunctions
+88677feb0dbdaa7db040cde6c1cf98cb8cd67a11 ice: allow to activate and deactivate subfunction
+93ef2aaf2d045c0e87423bae9c718f5fbb962645 igc: Fix double reset adapter triggered from a single taprio cmd
+cadb8c794004988ca86ad2e46cb2f632b0c093d4 igc: Get rid of spurious interrupts
+ed7035f8e4556f860bfebd4eee5fd80b03c55820 igc: Add MQPRIO offload support
+5dc076e5613304191f403cd7828feb4043b3ca05 ice: Fix lldp packets dropping after changing the number of channels
+f391732d3b1a164ce1a611ce739539b8cb720c09 ice: Fix recipe read procedure
+ac2f5e502bc1494ce2676bb5261dd1b3f5f8a8a4 ice: Implement ice_ptp_pin_desc
+1e83d965aa6f75efe76f800346baa468df39f0bd ice: Add SDPs support for E825C
+063cc7a7a1d2bee0affc06a43e8893ded9ba3045 ice: Align E810T GPIO to other products
+7a98e13d41858859fe41319f816f91c1ec5295f2 ice: Cache perout/extts requests and check flags
+6ddd3d36a0c36abe18ebaa431bf6203abf2a06eb ice: Disable shared pin on E810 on setfunc
+8766192fe4e70f00c3eed1e29668d84bff352bfd ice: Read SDP section from NVM for pin definitions
+5f603b7930a07960a2b1a44e6240d2bca224d875 ice: Enable 1PPS out from CGU for E825C products
+f2b231428ab9f5c381c8c0fe89aac2d4e95b0556 ixgbe: Add support for E610 FW Admin Command Interface
+2c69b7593105c322be4547c10fdd75601750af21 ixgbe: Add support for E610 device capabilities detection
+94a9a57947932797d2be6a36a8dc8fe7d71849bb ixgbe: Add link management support for E610 device
+d7fe06222a9a489733381ecd5e362fb455e5a5fe ixgbe: Add support for NVM handling in E610 device
+3526f3e26f3757f62ceaf33b71dd639cde9e10f6 ixgbe: Add ixgbe_x540 multiple header inclusion protection
+12c56a21ae5172b2f8004cf9906363c7917bcc4c ixgbe: Clean up the E610 link management related code
+fb2fa21448dda083d6ee9acf93535043314676ec ixgbe: Enable link management in E610 device
+5104599d28a023c2650f1f1da7a522381fb26057 ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
 
---===============4226075773621795830==--
+--===============3190182051083290968==--
