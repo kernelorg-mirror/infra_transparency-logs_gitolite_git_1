@@ -1,139 +1,134 @@
-Content-Type: multipart/mixed; boundary="===============2620860887204786891=="
+Content-Type: multipart/mixed; boundary="===============5126386617974263899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 Jul 2024 21:39:00 -0000
-Message-Id: <172168434032.27414.13927411191697810865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 22 Jul 2024 21:50:04 -0000
+Message-Id: <172168500410.3897.16798836732950895681@gitolite.kernel.org>
 
---===============2620860887204786891==
+--===============5126386617974263899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-5.10.y
-    old: 6ab8b697d7d1ff0a127a7774489311d878dad04c
-    new: 83a48a4503d034f087f7648e6edf767c0550dbca
-    log: revlist-6ab8b697d7d1-83a48a4503d0.txt
+  - ref: refs/heads/master
+    old: 539fbb912321ab6361ccc08b72f5f83e8a25c24b
+    new: 66ebbdfdeb093e097399b1883390079cd4c3022b
+    log: revlist-539fbb912321-66ebbdfdeb09.txt
 
---===============2620860887204786891==
+--===============5126386617974263899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ab8b697d7d1-83a48a4503d0.txt
+Content-Disposition: attachment; filename=revlist-539fbb912321-66ebbdfdeb09.txt
 
-94ffdde326f507b1d71b42e0b6f92abeeefa8cd2 Compiler Attributes: Add __uninitialized macro
-25d0d9b83d855cbc5d5aa5ae3cd79d55ea0c84a8 drm/lima: fix shared irq handling on driver remove
-82ef3fa640f6f20142c930ec92d2638af4be8136 media: dvb: as102-fe: Fix as10x_register_addr packing
-167afd3fedaf8d0cccd6aa6ad90f850e2c2b571c media: dvb-usb: dib0700_devices: Add missing release_firmware()
-62349fbf86b5e13b02721bdadf98c29afd1e7b5f IB/core: Implement a limit on UMAD receive List
-5ceb40cdee721e13cbe15a0515cacf984e11236b scsi: qedf: Make qedf_execute_tmf() non-preemptible
-9db8c299a521813630fcb4154298cb60c37f3133 crypto: aead,cipher - zeroize key buffer after use
-f0645c99c20e2210a3157af3f6bc1a22b8fbb115 drm/amdgpu: Initialize timestamp for some legacy SOCs
-b5b8837d066cc182ff69fb5629ad32ade5484567 drm/amd/display: Check index msg_id before read or write
-b2e9abc95583ac7bbb2c47da4d476a798146dfd6 drm/amd/display: Check pipe offset before setting vblank
-ffa7bd3ca9cfa902b857d1dc9a5f46fededf86c8 drm/amd/display: Skip finding free audio for unknown engine_id
-4dcce63a6f5c54ebb8c043b42fea524a079277b5 media: dw2102: Don't translate i2c read into write
-5a18ea7d864c0fb2c94c1149f5d3ddabca4123fe sctp: prefer struct_size over open coded arithmetic
-402825a23a0e92b8034d7c58a6335595a8d4ad1d firmware: dmi: Stop decoding on broken entry
-8eac1cc159b32110f2e226dc6fbef81ec05e405a Input: ff-core - prefer struct_size over open coded arithmetic
-2a2fe25a103cef73cde356e6d09da10f607e93f5 net: dsa: mv88e6xxx: Correct check for empty list
-39e7a27813be32874a4b0487e3ed4c369b23808c media: dvb-frontends: tda18271c2dd: Remove casting during div
-7d2fbd822df14da4b507b61da313a9fa11182838 media: s2255: Use refcount_t instead of atomic_t for num_channels
-e1ba22618758e95e09c9fd30c69ccce38edf94c0 media: dvb-frontends: tda10048: Fix integer overflow
-158bcaa2e31be6e32cabd241c3a61fbcc526c93f i2c: i801: Annotate apanel_addr as __ro_after_init
-19cd1d96d6f8be4942f4042ad1a7c730b548e824 powerpc/64: Set _IO_BASE to POISON_POINTER_DELTA not 0 for CONFIG_PCI=n
-1617249e24bd04c8047956afb43feec4876d1715 orangefs: fix out-of-bounds fsid access
-9d046f697e9a409597feb6f81a20d074f5a195f0 kunit: Fix timeout message
-6b84e9d53bc0156c129f1be05e57c4701b80ab9d powerpc/xmon: Check cpu id in commands "c#", "dp#" and "dx#"
-b694989bb13ed5f166e633faa1eb0f21c6d261a6 bpf: Avoid uninitialized value in BPF_CORE_READ_BITFIELD
-6d6d94287f6365282bbf41e9a5b5281985970789 jffs2: Fix potential illegal address access in jffs2_free_inode
-93c034c4314bc4c4450a3869cd5da298502346ad s390/pkey: Wipe sensitive data on failure
-febed740a31de7f515b66548fad11dc9681fe120 UPSTREAM: tcp: fix DSACK undo in fast recovery to call tcp_try_to_open()
-cdffc358717e436bb67122bb82c1a2a26e050f98 tcp_metrics: validate source addr length
-df76fb67eaa256ac1b95e9c11a24c3cacfdcac0e wifi: wilc1000: fix ies_len type in connect path
-707c85ba3527ad6aa25552033576b0f1ff835d7b bonding: Fix out-of-bounds read in bond_option_arp_ip_targets_set()
-1782a42ca25c0a9b8943a4d11e68e9b52a46ab5c selftests: fix OOM in msg_zerocopy selftest
-3908637dce2e7fb848fe4ca118f46865ec47d38a selftests: make order checking verbose in msg_zerocopy selftest
-7ef519c8efde152e0d632337f2994f6921e0b7e4 inet_diag: Initialize pad field in struct inet_diag_req_v2
-731011ac6c37cbe97ece229fc6daa486276052c5 nilfs2: fix inode number range checks
-2f2fa9cf7c3537958a82fbe8c8595a5eb0861ad7 nilfs2: add missing check for inode numbers on directory entries
-f033241a7c2d9c36d28939cbaa3f2fff7edf34f4 mm: optimize the redundant loop of mm_update_owner_next()
-7a49389771ae7666f4dc3426e2a4594bf23ae290 mm: avoid overflows in dirty throttling logic
-215a26c2404fa34625c725d446967fa328a703eb Bluetooth: qca: Fix BT enable failure again for QCA6390 after warm reboot
-9528e95d6eaeb8076e7646e7bffd5683fef384f5 can: kvaser_usb: Explicitly initialize family in leafimx driver_info struct
-c9f715f1b416baf2f8d455afcbcbdd74dc29d619 fsnotify: Do not generate events for O_PATH file descriptors
-145faa3d03688cbb7bbaaecbd84c01539852942c Revert "mm/writeback: fix possible divide-by-zero in wb_dirty_limits(), again"
-274cba8d2d1b48c72d8bd90e76c9e2dc1aa0a81d drm/nouveau: fix null pointer dereference in nouveau_connector_get_modes
-fac2544b8c997417cf36a8aaea4fd3bd9409f8fe drm/amdgpu/atomfirmware: silence UBSAN warning
-55d6a97cf02c79d766eeea0653c7de6dd2cbe687 mtd: rawnand: Bypass a couple of sanity checks during NAND identification
-8b17cec33892a66bbd71f8d9a70a45e2072ae84f bnx2x: Fix multiple UBSAN array-index-out-of-bounds
-37c59198bc3b869bb7fa848078f02e73f12c1cb5 bpf, sockmap: Fix sk->sk_forward_alloc warn_on in sk_stream_kill_queues
-a6176a802c4bfb83bf7524591aa75f44a639a853 ima: Avoid blocking in RCU read-side critical section
-2032e5dfae5f5c092d254c7b2a871364bfa3d4d1 media: dw2102: fix a potential buffer overflow
-2849a1b747cf37aa5b684527104d3a53f1e296d2 i2c: pnx: Fix potential deadlock warning from del_timer_sync() call in isr
-97982c31064a203d57403959c0f51a7571964700 ALSA: hda/realtek: Enable headset mic of JP-IK LEAP W502 with ALC897
-2d428a07e8b206bb33869141e9f66d0db5db5282 nvme-multipath: find NUMA path only for online numa-node
-560eaa1af0382a0f089dd52863bd5cef8c9427d3 nvme: adjust multiples of NVME_CTRL_PAGE_SIZE in offset
-8802d233505fdc54fd44d7e4e597026f93522393 platform/x86: touchscreen_dmi: Add info for GlobalSpace SolT IVW 11.6" tablet
-1fa5c6eef4ec59b1b8d639de00b3e2307148ad23 platform/x86: touchscreen_dmi: Add info for the EZpad 6s Pro
-2f3c22b1d3d7e86712253244797a651998c141fa nvmet: fix a possible leak when destroy a ctrl during qp establishment
-3affee779bd3c947d101a54d970c8ff06cecf83b kbuild: fix short log for AS in link-vmlinux.sh
-1e99ce37e96e59120253917b75eca5eaf5bade8e nilfs2: fix incorrect inode allocation from reserved inodes
-0100aeb8a12d51950418e685f879cc80cb8e5982 mm: prevent derefencing NULL ptr in pfn_section_valid()
-7d4c14f4b511fd4c0dc788084ae59b4656ace58b filelock: fix potential use-after-free in posix_lock_inode
-7092f1e5821fe80693e206a132506bfe1e313680 fs/dcache: Re-use value stored to dentry->d_flags instead of re-reading
-1b95de9433b39d58af63feae2017d5d1f1c85898 vfs: don't mod negative dentry count when on shrinker list
-893e140dcc021eef6eb379ec144082daacbd641a tcp: fix incorrect undo caused by DSACK of TLP retransmit
-efc05a5fdc0dd16f613ea47b93413a1b3139e7ad octeontx2-af: Fix incorrect value output on error path in rvu_check_rsrc_availability()
-b4ac93b0418fe79004d39dcca99604e1dee83b64 net: lantiq_etop: add blank line after declaration
-22b16618a80858b3a9d607708444426948cc4ae1 net: ethernet: lantiq_etop: fix double free in detach
-3ba12c2afd933fc1bf800f6d3f6c7ec8f602ce56 ppp: reject claimed-as-LCP but actually malformed packets
-c184be30b12e59469c830ace0526f4c9f815f44f ethtool: netlink: do not return SQI value if link is down
-9f965684c57c3117cfd2f754dd3270383c529fba udp: Set SOCK_RCU_FREE earlier in udp_lib_get_port().
-b81a523d54ea689414f67c9fb81a5b917a41ed55 net/sched: Fix UAF when resolving a clash
-148d5494258b4e6f9831045a6191396604795841 s390: Mark psw in __load_psw_mask() as __unitialized
-7e0297c80fa1de20038c2fb4c78bcf3fedd59fd2 ARM: davinci: Convert comma to semicolon
-b4e9f8905d789ba81848f9879b75a37906b9a5eb octeontx2-af: fix detection of IP layer
-24b9fafe34641a6dcf8df36f5e0de17d9cdccce8 tcp: use signed arithmetic in tcp_rtx_probe0_timed_out()
-5d7e64d70a11d988553a08239c810a658e841982 tcp: avoid too many retransmit packets
-26b4d6802ed7a9977d4892f16a8ab90c36fb5c4b net: ks8851: Fix potential TX stall after interface reopen
-8e4e917f9d305a55073075a23bc895d5fe0fb3ad USB: serial: option: add Telit generic core-dump composition
-9fb736742355f9a7a4667d4467530cc9c0155289 USB: serial: option: add Telit FN912 rmnet compositions
-c9e1030198e56f118e092e1b24e6789cf4f4a283 USB: serial: option: add Fibocom FM350-GL
-fb9ff5139625711aff348deb06a45b983c38c4bb USB: serial: option: add support for Foxconn T99W651
-2dc6aad6eaca81823e608b9ff10c9ee8902002e4 USB: serial: option: add Netprisma LCUK54 series modules
-868bc44086299afc152dd40119e3c360c66c19f3 USB: serial: option: add Rolling RW350-GL variants
-932a86a711c722b45ed47ba2103adca34d225b33 USB: serial: mos7840: fix crash on resume
-10ae6b364be746929ba9b5fbd3bd9fd7430cb5e5 USB: Add USB_QUIRK_NO_SET_INTF quirk for START BP-850k
-e8474a10c535e6a2024c3b06e37e4a3a23beb490 usb: gadget: configfs: Prevent OOB read/write in usb_string_copy()
-d09dd21bb5215d583ca9a1cb1464dbc77a7e88cf USB: core: Fix duplicate endpoint bug by clearing reserved bits in the descriptor
-bdb9c58e8048d4d81e7b5bcfd49bd88bf0c8be67 hpet: Support 32-bit userspace
-781092884262cc7e87e3ab45fea8652013dc2209 nvmem: meson-efuse: Fix return value of nvmem callbacks
-4d62aa6247219f5d791a3d3ca8fc3a2c4eca0527 ALSA: hda/realtek: Enable Mute LED on HP 250 G7
-f70b51a3656255c36010242e50d63d804f8b5c5a ALSA: hda/realtek: Limit mic boost on VAIO PRO PX
-34b76d1922e41da1fa73d43b764cddd82ac9733c libceph: fix race between delayed_work() and ceph_monc_stop()
-ae630de24efb123d7199a43256396d7758f4cb75 wireguard: allowedips: avoid unaligned 64-bit memory accesses
-0bdb5a74443f18ac20cc41a54615663dd9471912 wireguard: queueing: annotate intentional data race in cpu round robin
-b6d942365dbe1dc18cd5293886980f34a59450e8 wireguard: send: annotate intentional data race in checking empty queue
-596dedc6fa8927b63ddf983e4e3a6042d821c8ff x86/retpoline: Move a NOENDBR annotation to the SRSO dummy return thunk
-96c58b0966599ca9f553452510d328d49c018327 efi: ia64: move IA64-only declarations to new asm/efi.h header
-5edef7986495acad703270b07a1ef39e0c0465ee ipv6: annotate data-races around cnf.disable_ipv6
-9df3b2474a627994433a87cbf325a562555b17de ipv6: prevent NULL dereference in ip6_output()
-ca42be8dd1e217273dd8e9077d4ec9117eaa0ef3 bpf: Allow reads from uninit stack
-a9a466a69b85059b341239766a10efdd3ee68a4b nilfs2: fix kernel bug on rename operation of broken directory
-8d99f26b557a77db021ba13a0039e85bf7aeadcf i2c: rcar: bring hardware to known state when probing
-785290cb16edfa27d056e9207efa3bfbefb64bfb i2c: mark HostNotify target address as used
-b4c11a53e1f8d42be6fdb7883e3a79732c64e3e2 i2c: rcar: Add R-Car Gen4 support
-a720e2e42fd857785f25d52e473c11ebdf7515eb i2c: rcar: reset controller is mandatory for Gen3+
-88046f94cc0c49c9a1f36fa43a1b3a7d24bbc3b3 i2c: rcar: introduce Gen4 devices
-41f62c95e0085b84253d5def65a17a4084bf1cd7 i2c: rcar: ensure Gen3+ reset does not disturb local targets
-2907dd5855f69ba1847ba8220569ec77092c159f i2c: rcar: clear NO_RXDMA flag after resetting
-f52913e5d6ca9c1e6ef77d115246da48104b3075 i2c: rcar: fix error code in probe()
-83a48a4503d034f087f7648e6edf767c0550dbca Linux 5.10.222
+540588772ed0b191969c7902bf90d561ab0035be genirq/proc: Simplify irqdesc::kstat_irqs handling further
+cb06c9826991c746039d076df10d40819f88a6bc genirq/debugfs: Print irqdomain flags as human-readable strings
+b4dc049ea3ea98df58820f988c7c9578aa076f72 irqdomain: Add missing parameter descriptions in kernel-doc comments
+372487b295557b6c0c7ba3583fb34a65c574ff9f dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/Five SoC
+d011c022efe275791897668aa421e2db9f2e6450 irqchip/renesas-rzg2l: Add support for RZ/Five SoC
+ababa16fd9bd0e2727a1c31c4fb68d6be053bddc irqchip/gic-v3: Enable non-coherent redistributors/ITSes ACPI probing
+6ce3e98184b625d2870991880bf9586ded7ea7f9 irqdomain: Fixed unbalanced fwnode get and put
+89b37541ca38954f8ac01c2ca25405b140cfc8eb irqdomain: Introduce irq_domain_free()
+299d623f5c9ab48e53255cf6b510627f1ef26dfe irqdomain: Introduce irq_domain_instantiate()
+922ac2cf9fe444c4aff165b9f7e158a9b651647d irqdomain: Constify parameter in is_fwnode_irqchip()
+dbd56abffc6a43eb361e8033dce7a7d176f8e867 irqdomain: Use a dedicated function to set the domain name
+24a4f4e48557dddf2bb722df7b01184efc92a6a7 irqdomain: Convert __irq_domain_create() to use struct irq_domain_info
+757398541c30a5e898169763b43f08dab71ea3bd irqdomain: Handle additional domain flags in irq_domain_instantiate()
+419e3778ff295c00aa158d9f2854a70b47ba1136 irqdomain: Handle domain hierarchy parent in irq_domain_instantiate()
+b986055dd04141efd6d5dcdacd48d6b38cf320c8 irqdomain: Use irq_domain_instantiate() for hierarchy domain creation
+80f6abe0d39bc6ccf353290067ff589653ff922c irqdomain: Make __irq_domain_create() return an error code
+0b21add71bd9cfa2bd6677a0300e15fd4c4b84ed irqdomain: Handle domain bus token in irq_domain_create()
+44b68de9b8e3dfde12308e8567548799d7ded0de irqdomain: Introduce init() and exit() hooks
+e25f553a92973eaf59ff3a00fe7f61ab01b2877f genirq/generic_chip: Introduce irq_domain_{alloc,remove}_generic_chips()
+fea922ee9f8ffd3c2a8e8dfbc68de42905a3982a genirq/generic_chip: Introduce init() and exit() hooks
+e6f67ce32e8e6dcbadf42dc435fbc9002cabf1f9 irqdomain: Add support for generic irq chips creation before publishing a domain
+0c5b29a6dc7b463b6072da8cef43800008728ff3 irqdomain: Add a resource managed version of irq_domain_instantiate()
+7c53626cd11820a11f9cb2c54c02d47fc062a265 irqdomain: Convert __irq_domain_add() wrappers to irq_domain_instantiate()
+2ada5ed6ecac06e32defe39b15b33e9a6b004413 irqdomain: Convert domain creation functions to irq_domain_instantiate()
+a701f8e93b8355a0817a3b60974e8211797e0733 _PATCH_19_23_um_virt_pci_Use_irq_domain_instantiate_
+0b4b172b760efabf8a77ea17644d333fbb444d39 irqdomain: Remove __irq_domain_add()
+17972a5f1ba85ad8c4f32dfd00ff620a85e98416 dt-bindings: interrupt-controller: Add support for Microchip LAN966x OIC
+3e3a7b35332924c8ade696c4b24735561ee6aea3 irqchip: Add support for LAN966x OIC
+92584deade41ac8dda3f9b79ab545f50ba0e95db MAINTAINERS: Add the Microchip LAN966x OIC driver entry
+8cb2dbf94e44bcde4cff0223f2f900f8fb9083a4 irqdomain: Make build work for CONFIG_GENERIC_IRQ_CHIP=n
+722c9389c7fa91d1b6c665252f655b352b3a32b8 irqchip/riscv-intc: Remove asmlinkage
+12c94f694e53b1bf105c56af4b800a32f1b0b10a irqchip/imx-mu-msi: Fix codingstyle in imx_mu_msi_domains_init()
+6dca724d61a1d10f772dcd06948c30ceca027069 irqdomain: Fix formatting irq_find_matching_fwspec() kerneldoc comment
+492eee82574b163fbb3f099c74ce3b4322d0af28 irqchip/renesas-rzg2l: Reorder function calls in rzg2l_irqc_irq_disable()
+b1c387506d2738b655f0806d3ee3e6fc94ecb910 irqchip: Add missing MODULE_DESCRIPTION() macros
+50c43447f71c6d0eb9e320c4cc69822d396e52bc irqchip/armada-370-xp: Use atomic_io_modify() instead of another spinlock
+3cef738208e5c3cb7084e208caf9bbf684f24feb irqchip/armada-370-xp: Do not allow mapping IRQ 0 and 1
+de796fc184179de86fb87f94178459b5b20b1b1b irqchip/armada-370-xp: Only call ipi_resume() if IPI is available
+9d80f6bd3ad8f2b49651d4685bb391399ecf80a2 irqchip/armada-370-xp: Do not touch IPI registers on platforms without IPI
+986b6ad0c4c653940fab7e5decf0d847670bf407 irqchip/armada-370-xp: Add support for 32 MSI interrupts on non-IPI platforms
+760d7e719499d64beea62bfcf53938fb233bb6e7 Loongarch: Support loongarch avec
+ef7080bd30bab81a1c4dd7c0afd942d2ab43081d irqchip/riscv-aplic: Simplify the initialization code
+7cc4f309c933ec5d64eea31066fe86bbf9e48819 irqchip/dw-apb-ictl: Support building as module
+b20cf2dcbe8b77afb4fcbe7af9349dfca6b7f22a irqchip/stm32-exti: Add CONFIG_STM32MP_EXTI
+721cdbd68c588a0e883d8a7658bc6a56237eaa71 ARM: stm32: Use different EXTI driver on ARMv7m and ARMv7a
+00f07f97276d9c4c09526798d41cb825095d2319 arm64: Kconfig: Select STM32MP_EXTI on STM32 platforms
+350755e2e548ccbe941d045900b57233efa906cb irqchip/stm32-exti: Split MCU and MPU code
+c9d269469d2b9a06559cdc84d12dd3fb4d552581 irqchip/stm32mp-exti: Rename internal symbols
+0be58e0553812fcbd37c0c2d89e2b5bc296f04ea irqchip/stm32mp-exti: Allow building as module
+2751ee69c150fa3013924cadba6f47eb7215086f ARM: stm32: Allow build irq-stm32mp-exti driver as module
+f2605e1715dd28e8943b557453fed3a40421d3b5 arm64: Kconfig: Allow build irq-stm32mp-exti driver as module
+18db1b6dbbe576c283f69f3e925fbeb57de40855 Revert "Loongarch: Support loongarch avec"
+be5e5f3a1120bada0cff1bc84c2a1805da308f6e Revert "irqchip/dw-apb-ictl: Support building as module"
+7d2c2048a86477461f7bc75d064579ed349472bc irqchip/gic-v4: Always configure affinity on VPE activation
+f0eb154c39471bf881422e8ac23e4c037289ece9 irqchip/gic-v4: Substitute vmovp_lock for a per-VM lock
+a84a07fa3100d7ad46a3d6882af25a3df9c9e7e3 irqchip/gic-v4: Make sure a VPE is locked when VMAPP is issued
+9a58480e5e532903f08b2a34f05076d3ec3a5c00 irqchip/bcm2835: Enable SKIP_SET_WAKE and MASK_ON_SUSPEND
+10697eee6a6ff59207663f536dc8e8de7a4fd3e7 irqchip/gic-v3: Pass #redistributor-regions to gic_of_setup_kvm_info()
+33b1c47d1fc0b5f06a393bb915db85baacba18ea irqchip/imx-irqsteer: Handle runtime power management correctly
+c37927a203fa283950f6045602b9f71328ad786c genirq: Set IRQF_COND_ONESHOT in request_irq()
+b7b377332b96a38bc98928d7ec2674c77a95fcb3 irqdomain: Fix the kernel-doc and plug it into Documentation
+256a6f430562c163f1fa07576c4cd4e996e953dd Merge tag 'asm-generic-6.11' into loongarch-next
+7d189c77106ed6df09829f7a419e35ada67b2bd0 PCI/MSI: Provide MSI_FLAG_PCI_MSI_MASK_PARENT
+72e257c6f058032daba1c4fe0c81003d545d0f81 irqchip: Provide irq-msi-lib
+48f71d56e2b87839052d2a2ec32fc97a79c3e264 irqchip/gic-v3-its: Provide MSI parent infrastructure
+8c41ccec839c622b2d1be769a95405e4e9a4cb20 irqchip/irq-msi-lib: Prepare for PCI MSI/MSIX
+b5712bf89b4bbc5bcc9ebde8753ad222f1f68296 irqchip/gic-v3-its: Provide MSI parent for PCI/MSI[-X]
+496436f4a514a3fb4bc7aecd41f0dd4b38e39b1f irqchip/irq-msi-lib: Prepare for DEVICE MSI to replace platform MSI
+fbfe7e13641efe811a273e1fd237929245376fe0 irqchip/mbigen: Prepare for real per device MSI
+64a855324311ddad7a85fc0b25ce1f3914ed3425 irqchip/irq-msi-lib: Prepare for DOMAIN_BUS_WIRED_TO_MSI
+7f2baef05d6aaae7bd6d0c863eeec50ae5b2997f irqchip/gic-v3-its: Switch platform MSI to MSI parent
+752e021f5b9be0ad42752deaa241ae631f293f9f irqchip/mbigen: Remove platform_msi_create_device_domain() fallback
+f6a9886a9e55a1e6bd78c7e505205d05ef50a71e genirq/msi: Remove platform_msi_create_device_domain()
+da8ec7956efb5dc2be87f5f3beb3c9ed74316baf irqchip/gic_v3_mbi: Switch over to parent domain
+74e44454aafefd682706248eb3846e25a1a05c6d irqchip/gic-v2m: Switch to device MSI
+7b2f8aa005bc141ac9144f2fcf2cfb63abd7a0b1 irqchip/imx-mu-msi: Switch to MSI parent
+d929e4db22b61555a6b091450c26d1f7281ca576 irqchip/irq-mvebu-icu: Prepare for real per device MSI
+cdb238723018eb766040d7be5d879b4c81ad3d50 irqchip/mvebu-gicp: Switch to MSI parent
+e0b99c4c5917759c257a5c41d2c3e4d7c014578b irqchip/mvebu-odmi: Switch to parent MSI
+fbdf14e90ce445fedfb387413c3d8dc9d90db2a7 irqchip/irq-mvebu-sei: Switch to MSI parent
+ce44d1ff463dcf812b43c71a0e16859e3451bc1e irqchip/irq-mvebu-icu: Remove platform MSI leftovers
+e9894248994ca8291838baf063f045eab28e5a0e genirq/msi: Remove platform MSI leftovers
+2fdda02a8749fdaff5621c96aaf24a61d2f8c5a2 genirq/msi: Move msi_device_data to core
+99d7fbf8f813eb77dd4ec148c4596455910b2fa1 irqchip/gic-v3-its: Correctly honor the RID remapping
+c9b4f313f6b83ac80e9d51845d092c32513efdb4 irqchip/gic-v3-its: Correctly fish out the DID for platform MSI
+7697a0fe0154468f5df35c23ebd7aa48994c2cdc LoongArch: Define __ARCH_WANT_NEW_STAT in unistd.h
+12d3b559b85e75640b79995e1320588d6f0d5630 LoongArch: Always enumerate MADT and setup logical-physical CPU mapping
+08f417db702c5b05150b3851af7186fee96ddd46 LoongArch: Add irq_work support via self IPIs
+a0f7085f6a63f19f83f2644ce2da49a8d3cf7c0f LoongArch: Add RANDOMIZE_KSTACK_OFFSET support
+b7a2750ef268e2723acb785c4903b0b78c3dcbc6 LoongArch: Add ARCH_HAS_PTE_DEVMAP support
+614d7e99752e02ff6f6d447a83d2929b9649b6cb LoongArch: Add ARCH_HAS_DEBUG_VM_PGTABLE support
+8e02c3b782ec64343f3cccc8dc5a8be2b379e80b LoongArch: Add writecombine support for DMW-based ioremap()
+f60d251b27f6599b3407950924ac9b2c7a94b714 LoongArch: Add architectural preparation for CPUFreq
+e523a5a65f34ca5bd67ccfdfdccf04689b58f0bf LoongArch: Add ACPI standard hardware register based S3 support
+67e6b115ddcf8f03108cedcf66261153904ce4fb LoongArch: Automatically disable KASLR for hibernation
+0124fbb4c6dba23dbdf80c829be68adbccde2722 LoongArch: Use correct API to map cmdline in relocate_kernel()
+0ad158e4ef769c5f261cbf791e0005d69fc3b785 LoongArch: Remove a redundant checking in relocator
+e05d4cd9b895c503dcf19c0ed9ebb8d393b220ec LoongArch: Add support for relocating the kernel with RELR relocation
+0d3a6322021b8c98527842518eeb685f3a8761c8 LoongArch: Use rustc option -Zdirect-access-external-data
+3892b11eac5aaaeefbf717f1953288b77759d9e2 LoongArch: Check TIF_LOAD_WATCH to enable user space watchpoint
+998b17d4440b8559a8bf4926e86f493101995519 LoongArch: Make the users of larch_insn_gen_break() constant
+a362ade892e3e4de69296cddb1a23a1efe701428 Merge tag 'loongarch-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+ac7473a179d65f6c5de06a4b10d3b3d36df3f172 Merge tag 'irq-core-2024-07-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+66ebbdfdeb093e097399b1883390079cd4c3022b Merge tag 'irq-msi-2024-07-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============2620860887204786891==--
+--===============5126386617974263899==--
