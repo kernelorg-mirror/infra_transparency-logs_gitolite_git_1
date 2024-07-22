@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 22 Jul 2024 22:55:28 -0000
-Message-Id: <172168892860.19667.10001080994306291740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Mon, 22 Jul 2024 23:06:56 -0000
+Message-Id: <172168961677.27630.7295720969712085425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: 229c6f5b7d806a042f634c6a266ce5215439e73f
-    new: 0d4f9f6c7698e097391913409ba67b400093c2f0
+  - ref: refs/heads/main
+    old: d6f62a5e52843e0b2651268e350a3c0ebe5c543b
+    new: 9a3d515636fcea17690a4639554f8dae5ebd1ca0
     log: |
-         0d4f9f6c7698e097391913409ba67b400093c2f0 foo
+         1a76277bc6a5e94d858497fdc8fa721540fa6af7 rteval: Add --noload option
+         9a3d515636fcea17690a4639554f8dae5ebd1ca0 rteval: Fix default measurement config
          
