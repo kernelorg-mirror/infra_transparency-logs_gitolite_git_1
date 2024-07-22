@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 22 Jul 2024 19:23:55 -0000
-Message-Id: <172167623563.24203.8543098126842411268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 22 Jul 2024 19:26:13 -0000
+Message-Id: <172167637373.26669.16666963533546363092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 6d5848d4fe984d3960efe151a79a4431ca581d77
-    new: cca09a371fa751fc0d61ced0918d81f9621d250e
+  - ref: refs/heads/timers/urgent
+    old: bfb05c7ccd03d2838342d23bbcd587f203a98b88
+    new: f004bf9de057004f7ccea4239317aec2fbd8240b
     log: |
-         50affe28672e8f3074de8f1f5e3d95c820c64066 bpf: Check unsupported ops from the bpf_struct_ops's cfi_stubs
-         b794efaacc955db314b73da207cf70fa0b5151b3 selftests/bpf: Fix the missing tramp_1 to tramp_40 ops in cfi_stubs
-         4979996ac0fb9588da86ec55a61e5b088d9a4918 selftests/bpf: Ensure the unsupported struct_ops prog cannot be loaded
-         cca09a371fa751fc0d61ced0918d81f9621d250e Merge branch 'bpf-retire-the-unsupported_ops-usage-in-struct_ops'
+         facd40aa5c4699f94014012e4e58414c082f2c01 timers/migration: Do not rely always on group->parent
+         10a0e6f3d3db7dcfe36e578923e5f038f1d2b72a timers/migration: Move hierarchy setup into cpuhotplug prepare callback
+         92506741521fd09dfaa9d6ef3c3620a9dd6bbafd timers/migration: Improve tracing
+         3ba111032bc1d8a0f04e6d2a5d8fb4ddc96eeae7 timers/migration: Use a single struct for hierarchy walk data
+         d47be589844224a3ef13b55ff6f15211ab20f1d1 timers/migration: Read childmask and parent pointer in a single place
+         835a9a67f54f01033417a254e53a1391f99db708 timers/migration: Rename childmask by groupmask to make naming more obvious
+         2367e28e231af05243b92325de9a38956ad0b565 timers/migration: Spare write when nothing changed
+         f004bf9de057004f7ccea4239317aec2fbd8240b timers/migration: Fix grammar in comment
          
