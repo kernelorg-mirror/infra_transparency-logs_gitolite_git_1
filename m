@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7403789264480028066=="
+Content-Type: multipart/mixed; boundary="===============3439186887187751337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 22 Jul 2024 16:03:27 -0000
-Message-Id: <172166420712.5005.9568034221969863157@gitolite.kernel.org>
+Date: Mon, 22 Jul 2024 16:03:35 -0000
+Message-Id: <172166421547.5121.11320228267666128294@gitolite.kernel.org>
 
---===============7403789264480028066==
+--===============3439186887187751337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a1b7dbca149053e4f79a451bebdf0c40c9092896
-    new: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
-    log: revlist-a1b7dbca1490-d7e78951a8b8.txt
+  - ref: refs/heads/dev-queue
+    old: d16e5edadbb55a2fa204770bdd0b23e15b0d5464
+    new: 3b20ae8da5ffd245f51329c5429f0fb33835170b
+    log: revlist-d16e5edadbb5-3b20ae8da5ff.txt
 
---===============7403789264480028066==
+--===============3439186887187751337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1b7dbca1490-d7e78951a8b8.txt
+Content-Disposition: attachment; filename=revlist-d16e5edadbb5-3b20ae8da5ff.txt
 
-8519e689834a3ecf9a36332a9abb1844bd34e459 iommu: Extend domain attach group with handle support
-5f9f982dd71b418aeba7a0b37f87312545c06df4 ALSA: hda: cs35l41: Fix missing Speaker ID GPIO description in _DSD
-a27bf2743cb80d3b36b5b43e8e2e702412c41668 iommu: Add iommu_paging_domain_alloc() interface
-26a581606fab44ff76b394f0ba44cd19c6ec0a6e iommufd: Use iommu_paging_domain_alloc()
 60ffc45017229ee8288ba139ee12c5ebf07c6f6a vfio/type1: Use iommu_paging_domain_alloc()
 9c159f6de1aedf200ac94eace47f6082399b561c vhost-vdpa: Use iommu_paging_domain_alloc()
 45acf35af200b305d1e6119ca9de47aa4c3c45b9 drm/msm: Use iommu_paging_domain_alloc()
@@ -1050,5 +1046,9 @@ a4f9285520584977127946a22eab2adfbc87d1bf Merge tag 'clk-for-linus' of git://git.
 33cf098770930a9b782d3983e1b0127bdc203216 Merge tag 'probes-fixes-v6.11-pre-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 53a5182c8a6805d3096336709ba5790d16f8c369 Merge tag 'for-6.11-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d7e78951a8b8b53e4d52c689d927a6887e6cfadf Merge tag 'net-6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+8045a7ec2449b7d77bcb167b034c3e8b7df53e16 ice: Add a per-VF limit on number of FDIR filters
+c3608758520ede941422b9b0d3c9b98b3bef6326 igc: Fix double reset adapter triggered from a single taprio cmd
+a6e51ae82f606149f676de15c7f704eb14c075c0 ice: Fix lldp packets dropping after changing the number of channels
+3b20ae8da5ffd245f51329c5429f0fb33835170b ice: Fix recipe read procedure
 
---===============7403789264480028066==--
+--===============3439186887187751337==--
