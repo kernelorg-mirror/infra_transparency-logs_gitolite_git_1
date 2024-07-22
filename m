@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3326287280039556888=="
+Content-Type: multipart/mixed; boundary="===============3916449407514294010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Jul 2024 16:28:44 -0000
-Message-Id: <172166572499.25176.11251259936200375554@gitolite.kernel.org>
+Date: Mon, 22 Jul 2024 16:28:50 -0000
+Message-Id: <172166573041.25275.11744634668713610541@gitolite.kernel.org>
 
---===============3326287280039556888==
+--===============3916449407514294010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 51835949dda3783d4639cfa74ce13a3c9829de00
     new: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
     log: revlist-51835949dda3-d7e78951a8b8.txt
 
---===============3326287280039556888==
+--===============3916449407514294010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a4f9285520584977127946a22eab2adfbc87d1bf Merge tag 'clk-for-linus' of git://git.
 53a5182c8a6805d3096336709ba5790d16f8c369 Merge tag 'for-6.11-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d7e78951a8b8b53e4d52c689d927a6887e6cfadf Merge tag 'net-6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3326287280039556888==--
+--===============3916449407514294010==--
