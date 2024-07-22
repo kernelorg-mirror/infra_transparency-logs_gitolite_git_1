@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 Jul 2024 13:49:15 -0000
-Message-Id: <172165615531.2587.7550570879630081695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 22 Jul 2024 14:01:18 -0000
+Message-Id: <172165687854.11918.3215880386857337787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 785280973472dbdee2c31cb740633c4b6460a8ee
-    new: 91da337e5d506f2c065d20529d105ca40090e320
+  - ref: refs/heads/rework/write-atomic
+    old: b955f0eead54afbf69dd61d621483938c1d8e78c
+    new: 8aa45525f949adcdc5db2bd29137a236109ea43e
     log: |
-         91da337e5d506f2c065d20529d105ca40090e320 nfsd: don't set SVC_SOCK_ANONYMOUS when creating nfsd sockets
+         8aa45525f949adcdc5db2bd29137a236109ea43e printk: nbcon: do not require migration disabled for nbcon_get_cpu_emergency_nesting()
          
