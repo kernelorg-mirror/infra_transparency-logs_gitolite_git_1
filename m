@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6665062703884926262=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 22 Jul 2024 14:04:29 -0000
-Message-Id: <172165706954.13208.13310296026620717435@gitolite.kernel.org>
-
---===============6665062703884926262==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 22 Jul 2024 14:13:36 -0000
+Message-Id: <172165761651.21384.18297837014447877477@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 5e9fe419ee0dd8cc46678a86ab2069bf58629ed1
-    new: 970560601d64c2e5e746f823383378bdaf250917
+  - ref: refs/heads/for-next
+    old: 93b63f68d00a0483b450b446e2ea5386a1b94213
+    new: 381b7913c463923e66b81c86c9a3e3002bb96520
     log: |
-         970560601d64c2e5e746f823383378bdaf250917 Add DDF3718FE37F3957 (new key for Daniel Borkmann)
+         eabd9db64ea8ba64d2a0b1d70da38e1a95dcd08b ACPI: RISCV: Add NUMA support based on SRAT and SLIT
+         39494aec8a0454f9e8a68d2422d3bd4e5c5ee0c7 ACPI: NUMA: Add handler for SRAT RINTC affinity structure
+         adc3e82d253786a5b63c821108709de23317a90d ACPI: NUMA: change the ACPI_NUMA to a hidden option
+         5f76d4211ee44dcd9b2dc8a9065002bf8ecee81e ACPI: NUMA: replace pr_info with pr_debug in arch_acpi_numa_init
+         381b7913c463923e66b81c86c9a3e3002bb96520 Merge patch series "Add ACPI NUMA support for RISC-V"
          
-
---===============6665062703884926262==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1721657068 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1721657068-f080a9c8b3cfc0d214cc5305ad34ff3e154622c1
-
-5e9fe419ee0dd8cc46678a86ab2069bf58629ed1 970560601d64c2e5e746f823383378bdaf250917 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp5m7AAKCRC2xBzjVmSZ
-bJTUAP9NjZCN+Dp9EZ3CkXABMbqMPGYnDzZbsWfQPHQ8Uqql9wEA60mp5sAHoNEe
-3sXs/nJFb7RqbxabbNjipttv31RUowM=
-=zYmU
------END PGP SIGNATURE-----
-
---===============6665062703884926262==--
