@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 22 Jul 2024 12:04:58 -0000
-Message-Id: <172164989806.21057.14620625802482515807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 22 Jul 2024 12:05:22 -0000
+Message-Id: <172164992256.22897.8982320572039109179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 8a3d6d57d111818c835c466d62e14b5ae313b8a6
-    new: 63c65795291d40fd8cc9bb0c07fb300f54dceb43
-    log: |
-         63c65795291d40fd8cc9bb0c07fb300f54dceb43 erofs: fix race in z_erofs_get_gbuf()
-         
+  - ref: refs/heads/fileC4DKNm
+    old: 0000000000000000000000000000000000000000
+    new: 92c78222168e9035a9bfb8841c2e56ce23e51f73
+  - ref: refs/heads/filekjmwUt
+    old: 0000000000000000000000000000000000000000
+    new: 542440fd7b30983cae23e32bd22f69a076ec7ef4
