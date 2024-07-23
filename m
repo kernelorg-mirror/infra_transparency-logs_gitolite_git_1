@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607600704323652541=="
+Content-Type: multipart/mixed; boundary="===============7379920641582335350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 23 Jul 2024 14:11:13 -0000
-Message-Id: <172174387397.2913.17731992633504373876@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 14:11:20 -0000
+Message-Id: <172174388089.3019.18233730276580945593@gitolite.kernel.org>
 
---===============5607600704323652541==
+--===============7379920641582335350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 055500281b2e1df46c9283389151fd0896a970c4
     new: 6dc2e98d5f1de162d1777aee97e59d75d70d07c5
     log: revlist-055500281b2e-6dc2e98d5f1d.txt
 
---===============5607600704323652541==
+--===============7379920641582335350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bd2c55b307f77fbf19d76250672266ff06f4a324 s390/entry: Make int handlers ready for
 8f1e70adb1a3ecb982bb6c475209b080bf985074 s390/boot: Add cmdline option to relocate lowcore
 6dc2e98d5f1de162d1777aee97e59d75d70d07c5 s390: Remove protvirt and kvm config guards for uv code
 
---===============5607600704323652541==--
+--===============7379920641582335350==--
