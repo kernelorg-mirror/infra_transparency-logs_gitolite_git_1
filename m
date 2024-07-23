@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5214301615700346680=="
+Content-Type: multipart/mixed; boundary="===============0608754049218669996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 23 Jul 2024 14:31:07 -0000
-Message-Id: <172174506738.16738.12156435508369683435@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 14:34:52 -0000
+Message-Id: <172174529281.18158.6605280282787746656@gitolite.kernel.org>
 
---===============5214301615700346680==
+--===============0608754049218669996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a95708143ab35fe035ce852b72b94e68bbcb4f58
-    new: 37811c93f50e70f325e45107a9a20ffc69f2f6dc
+  - ref: refs/heads/stable-0.14.y
+    old: 302bc594c1167a81a1a72803febbcbcf59489b44
+    new: 0132289923d6989518f6ce99e6b9955a9277ce11
     log: |
-         37811c93f50e70f325e45107a9a20ffc69f2f6dc Forward the smtpserveroption to the local command
+         1ec81ab746cf8c0cc522ff542ae5628414af273c When looking for the cover commit, restrict to current committer
+         0132289923d6989518f6ce99e6b9955a9277ce11 Forward the smtpserveroption to the local command
          
 
---===============5214301615700346680==
+--===============0608754049218669996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1721745066 -0400
+pusher B6C41CE35664996C! 1721745292 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1721745066-f08deadf6fd1c8752841f7047e330fe18b82cdce
+nonce 1721745292-501cd19c7e62ae9cb9983ebf50c3db7f8ca6ddd6
 
-a95708143ab35fe035ce852b72b94e68bbcb4f58 37811c93f50e70f325e45107a9a20ffc69f2f6dc refs/heads/master
+302bc594c1167a81a1a72803febbcbcf59489b44 0132289923d6989518f6ce99e6b9955a9277ce11 refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp++qgAKCRC2xBzjVmSZ
-bEFUAQCegP7cj4y8KM9aTWbiuJm7jfGdeVVyPcPxGO3fbg/KtAD/Vy1nHPF2aNsr
-ZsBh+mmYBsvGn48OCTzpMiuPCWHvSw0=
-=GFuv
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp+/jAAKCRC2xBzjVmSZ
+bPFjAQDmensBppScVD9YOtIQHtwunnjfJ97YsX9+C+Yfhz3bKQEAl9NJEOwIAB+D
+1kUL/WjCiuFhCoS6DsO5ClyaZkd1yAg=
+=faZ5
 -----END PGP SIGNATURE-----
 
---===============5214301615700346680==--
+--===============0608754049218669996==--
