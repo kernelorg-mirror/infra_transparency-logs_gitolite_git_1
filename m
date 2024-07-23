@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 23 Jul 2024 11:58:35 -0000
-Message-Id: <172173591550.28334.15367574550947316689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 23 Jul 2024 12:02:40 -0000
+Message-Id: <172173616053.31796.16954265249209521363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-linus
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: a930fde94ae5fbcb178c1330268f15f2c893c507
+  - ref: refs/heads/master
+    old: 198e920aa24743ef6ace4e07cf6237de527f9261
+    new: 66cb3548061a70d8b72ab92f808d567475dcbc7c
     log: |
-         3d9a0a25336433d48ddca1e1f4fea25fd4a3b1d8 printk: Rename console_replay_all() and update context
-         a930fde94ae5fbcb178c1330268f15f2c893c507 vsprintf: add missing MODULE_DESCRIPTION() macro
+         ea8eab0d77b4ed23165b285bc064717387b35bc3 scriptlive: echo re-run commands from in stream
+         eac056c66f746795c876f9dede6c3427f82809ee libuuid: fix gcc15 warnings
+         8c70fbd2bdc2098ef403e5a4ceed0dc0d0df4264 Merge branch 'scriptlive_echo' of https://github.com/werekraken/util-linux
+         66cb3548061a70d8b72ab92f808d567475dcbc7c scriptlive: add --echo <never|always|auto>
          
