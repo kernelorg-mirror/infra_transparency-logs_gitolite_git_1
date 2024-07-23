@@ -1,50 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2292392335612395557=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Tue, 23 Jul 2024 16:05:13 -0000
-Message-Id: <172175071394.7903.13397471662539336025@gitolite.kernel.org>
-
---===============2292392335612395557==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 23 Jul 2024 16:19:10 -0000
+Message-Id: <172175155006.18176.4781945333973297194@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/grokmirror/grokmirror
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/stable-2.0.y
-    old: 61d02fc9a874552ed261a4a3061b10f59f908cfe
-    new: 3461df588cf6433f548f0ebc39fc6ce60402a22a
+  - ref: refs/heads/for-next
+    old: 1a7c8d2459edb8e082cbce1b7e516495ca913740
+    new: 13c239a2c088e91e453d26517b562c9a116444fa
     log: |
-         3461df588cf6433f548f0ebc39fc6ce60402a22a Prepare version 2.0.12
+         13c239a2c088e91e453d26517b562c9a116444fa kbuild: doc: gcc to CC change
          
-  - ref: refs/tags/v2.0.12
-    old: 0000000000000000000000000000000000000000
-    new: 6d00f0ddcf05f61095ee97c246646559d3a9a853
-
---===============2292392335612395557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1721750713 -0400
-pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1721750713-8972229a8d4230f1a6c11e05f9398ddb27726779
-
-61d02fc9a874552ed261a4a3061b10f59f908cfe 3461df588cf6433f548f0ebc39fc6ce60402a22a refs/heads/stable-2.0.y
-0000000000000000000000000000000000000000 6d00f0ddcf05f61095ee97c246646559d3a9a853 refs/tags/v2.0.12
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp/UuQAKCRC2xBzjVmSZ
-bJBKAQDVxXOZjUZt/ttManBgFpstHaFHPWmqJJH9vL5eCJrxaAD/UoeiLg8XQbT3
-zfmhwdFOTy7rp/NPkpy83cJyrEL5zwc=
-=4Xjw
------END PGP SIGNATURE-----
-
---===============2292392335612395557==--
