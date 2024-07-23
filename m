@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 23 Jul 2024 22:30:21 -0000
-Message-Id: <172177382144.18823.15531795405344784262@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 22:30:30 -0000
+Message-Id: <172177383032.18947.16256085451411179456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
-    new: 3ba359c0cd6eb5ea772125a7aededb4a2d516684
+    new: 19abb9c2b900bad59e0a9818d6c83bb4cc875437
     log: |
          cc73bbab4b1fb8a4f53a24645871dafa5f81266a ipv4: Fix incorrect source address in Record Route option
          d587d825424b6784ff7d7519efd1b827b09aa501 l2tp: make session IDR and tunnel session list coherent
          39a9c25bcdfb5e88995841c47439b74cac74a527 net: airoha: Fix MBI_RX_AGE_SEL_MASK definition
          3ba359c0cd6eb5ea772125a7aededb4a2d516684 net: bonding: correctly annotate RCU in bond_should_notify_peers()
+         6ebbe97a488179f5dc85f2f1e0c89b486e99ee97 ice: Add a per-VF limit on number of FDIR filters
+         19abb9c2b900bad59e0a9818d6c83bb4cc875437 ice: Fix recipe read procedure
          
