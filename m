@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 23 Jul 2024 10:12:36 -0000
-Message-Id: <172172955676.15376.15795120821405854136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 23 Jul 2024 10:15:08 -0000
+Message-Id: <172172970826.18028.542853530129760908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/ch/for-jason
-    old: 2b265951de4b162a82f04ae08cd976f675a274c0
-    new: fd91efc8e4cf90e5f5f8c1f9f74128d02f5d0781
+  - ref: refs/heads/vfs.fixes
+    old: 90b0658c5d3ea8f47231ac395c016b4b139bda24
+    new: 1275fb2bfa90357b91da532c7563192351d1254b
     log: |
-         917118dbd33b463d579c7b1efaf7a31e625f0679 css: round border edges for deco
-         eae28ae39377ba04040781371ba6c31bc8fa549c ui-log: show ellipsis if detailed commit message is available
-         122f3c77e8fc586d86c85c7775cf87c4c53de403 ui-tree: provide link to about page for pretty formatting
-         fd91efc8e4cf90e5f5f8c1f9f74128d02f5d0781 ui-tree: add about link in tree view list
+         55e81a4aa9ae052f016d19e3500e042983576b22 netfs: Fix writeback that needs to go to both server and cache
+         1275fb2bfa90357b91da532c7563192351d1254b cachefiles: Set the max subreq size for cache writes to MAX_RW_COUNT
          
