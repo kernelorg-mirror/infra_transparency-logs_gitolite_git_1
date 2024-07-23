@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Tue, 23 Jul 2024 15:21:49 -0000
-Message-Id: <172174810941.25632.11735747319322863729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 23 Jul 2024 15:22:28 -0000
+Message-Id: <172174814869.27246.16562697844896408733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 1e4b42b5180387b5e43fa15d447f0f2e7e2acdd7
-    new: c7b45750fa85eeaed7dfd2fde9491d62cb8c3e19
+  - ref: refs/heads/openfast
+    old: a017c9c194a3b6a0453d937e3a545475f9ae2bf5
+    new: 8b3bad8f30bfa9dbdfcb2debab65af2209bb4f97
     log: |
-         c7b45750fa85eeaed7dfd2fde9491d62cb8c3e19 Adapt to glibc __rseq_size feature detection
+         8b3bad8f30bfa9dbdfcb2debab65af2209bb4f97 fs: i_rwsem pushdown into lookup_open
          
