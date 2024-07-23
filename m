@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 23 Jul 2024 01:26:30 -0000
-Message-Id: <172169799080.6641.11952898595840753701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 23 Jul 2024 02:03:58 -0000
+Message-Id: <172170023890.552.8390208685895287240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 21f93108306026b8066db31c24a097192c8c36c7
-    new: b6f5ee4d53019443fb99dd23bc08680b1244ccfa
+  - ref: refs/heads/dev-test
+    old: 63c65795291d40fd8cc9bb0c07fb300f54dceb43
+    new: de82eba07a0d23f2d5d8826727dd17a7fd758b97
     log: |
-         b6f5ee4d53019443fb99dd23bc08680b1244ccfa execve: Move KUnit tests to tests/ subdirectory
+         de82eba07a0d23f2d5d8826727dd17a7fd758b97 erofs: add support for FS_IOC_GETFSSYSFSPATH
          
