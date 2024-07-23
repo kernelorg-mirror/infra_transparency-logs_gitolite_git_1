@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 23 Jul 2024 04:56:41 -0000
-Message-Id: <172171060131.769.14596045407138543681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 23 Jul 2024 05:59:25 -0000
+Message-Id: <172171436537.12810.15537767734397567679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 3b9b1d86635447c8d553a6e6d357c15227a0fa30
-    new: 501f8026938f72fa73712ca005059f6c2043f6e3
+  - ref: refs/heads/dev-test
+    old: de82eba07a0d23f2d5d8826727dd17a7fd758b97
+    new: 88b05c415b24bd5491c77a80e5869eb53113bfca
     log: |
-         501f8026938f72fa73712ca005059f6c2043f6e3 foo
+         90914254004463f62f70a5f4f40d9074959fa1da erofs: fix race in z_erofs_get_gbuf()
+         88b05c415b24bd5491c77a80e5869eb53113bfca erofs: add support for FS_IOC_GETFSSYSFSPATH
          
