@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3169461238690882306=="
+Content-Type: multipart/mixed; boundary="===============2603046395237142530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 23 Jul 2024 19:55:59 -0000
-Message-Id: <172176455945.32199.10498220766149672560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 23 Jul 2024 19:56:35 -0000
+Message-Id: <172176459598.32504.9788204637126069720@gitolite.kernel.org>
 
---===============3169461238690882306==
+--===============2603046395237142530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 8b6c2455f016b9f5a70a51e624b21734550950db
+    old: 7a2fb5619cc1fb53cb8784154d5ef2bd99997436
     new: b46e5b667738394bb0253ce4d7ad43320f0297c0
-    log: revlist-8b6c2455f016-b46e5b667738.txt
+    log: revlist-7a2fb5619cc1-b46e5b667738.txt
 
---===============3169461238690882306==
+--===============2603046395237142530==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8b6c2455f016-b46e5b667738.txt
+Content-Disposition: attachment; filename=revlist-7a2fb5619cc1-b46e5b667738.txt
 
-9cc0afed6fdc46a96501baa49527fa00aaef37b1 perf sched map: Add support for multiple task names using CSV
-306f921e87fc647f1b65c9517d7c97cea854f4f3 perf sched map: Add --fuzzy-name option for fuzzy matching in task names
-6353abd32c8d2a3698115e03b71099858a38591d perf record: Fix memset out-of-range error
-759ce73cf74d666ca90d2860dc386fd839887e19 perf build x86: Fix SC2034 error in syscalltbl.sh
-e6b4da6759334bfdead28f9ad32323cbdbf9f670 perf arm-spe: Support multiple Arm SPE PMUs
-14b0fffa25ce4a9ef5d4448b20b80217b2caa0e8 perf mem: Warn if memory events are not supported on all CPUs
-1553419c3c10cf386496e68b90b5d0ce966ac614 perf dso: Fix address sanitizer build
+2be32bbe6989e071aea1767cb54c7528a0dac07f kunit: Fix the comment of KUNIT_ASSERT_STRNEQ as assertion
+7d4087b013895524438f2522367c984f776e09e3 kunit: Rename KUNIT_ASSERT_FAILURE to KUNIT_FAIL_AND_ABORT for readability
+ebf51e460e488511d9ee60b07d00dac68883facf kunit: Introduce KUNIT_ASSERT_MEMEQ and KUNIT_ASSERT_MEMNEQ macros
+517125f6749402e579f715519147145944f12ad9 selftests/bpf: DENYLIST.aarch64: Skip fexit_sleep again
+523e6f4f50fc7078be80434a98cc81b48a847923 HID: Fix spelling mistakes "Kensigton" -> "Kensington"
+ad1ff1f250c966b945d40a6a2e548f7d701b96df HID: mcp2221: Remove unnecessary semicolon
+8a25418ba65a5d2494b369f6178a284c449bc399 HID: hid-steam: Fix typo in goto label
+c51cba4755609ad97ba97713210c16f043c73224 Fix the unbalanced pm_runtime_enable in wcd937x-sdw
 617069741dfbb141bc4574531a5dbbbad8ddf197 dm: introduce the target flag mempool_needs_integrity
 6a26f9c68901797261bc145975a02f85be0c1d8f cgroup/misc: Introduce misc.events.local
 226c49446bccee1c2315bc88bbbca7e6542e98fc cgroup: Add Michal Koutný as a maintainer
-7a2fb5619cc1fb53cb8784154d5ef2bd99997436 perf trace: Fix iteration of syscall ids in syscalltbl->entries
 769d20028f45a4f442cfe558a32faba357a7f5e2 nfsd: nfsd_file_lease_notifier_call gets a file_lease as an argument
 01ec3bb6ea6a9e5cbe18600e8613c717508b0a71 Merge tag 'mmc-v6.10-rc4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 ac6a9e07a7b644d1cde22cc2d2d3d386f421a523 Merge tag 'pmdomain-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
@@ -1051,4 +1051,4 @@ bf58045feb8e45ff98f1cf8d0702fb70208b40c8 perf annotate: Update instruction track
 61649bd2003817dd8b066c542caa96c422866a53 perf annotate: Add support to use libcapstone in powerpc
 b46e5b667738394bb0253ce4d7ad43320f0297c0 perf annotate: Set instruction name to be used with insn-stat when using raw instruction
 
---===============3169461238690882306==--
+--===============2603046395237142530==--
