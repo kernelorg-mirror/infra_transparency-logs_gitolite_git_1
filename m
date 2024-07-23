@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 23 Jul 2024 00:21:18 -0000
-Message-Id: <172169407816.18025.2480365941851051293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Jul 2024 00:48:19 -0000
+Message-Id: <172169569994.4859.16208045489640073460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 912e09a3a7f9c5e34d15b35f4b418014b1dda9e0
-    new: b516b61b80be5b9dc733a8688328f04b41fe0580
+    old: cca09a371fa751fc0d61ced0918d81f9621d250e
+    new: a7ee76b02cc3ac05a4b30073747b8c39173b457e
     log: |
-         30f7a5006c7f648bf0a220cb7bf33917364919b9 Fixes for 6.9
-         0cc09656278d4d98cbef38deaa9df2771ab11dce Fixes for 6.6
-         900e9bceb8c64b6599f0f0d64e27f70c3cfa7646 Fixes for 6.1
-         3d43fb30025ad5eb41e5020976c39f31dd69f2c4 Fixes for 5.15
-         b35938a88252de38ab63c1ac03e5ffc6f20db641 Fixes for 5.10
-         480eb0ec3dfe8534a77547868871ecd367c25c27 Fixes for 5.4
-         b516b61b80be5b9dc733a8688328f04b41fe0580 Fixes for 4.19
+         afe4588df73fa77d7c141627de32799b4c1b2202 bpf, lsm: Add disabled BPF LSM hook list
+         af980eb89f066d6f43ebb6d73af4411e9839c8a2 bpf, lsm: Add check for BPF LSM return value
+         b39ffa50b41541a23adc88ac456601ea28e82b26 bpf: Prevent tail call between progs attached to different hooks
+         9e14de5b9c120fb6611deb182580792e230c9363 bpf: Fix compare error in function retval_range_within
+         f81ad29cdf88cd4a74ace9d3e1326fe80dc6e043 selftests/bpf: Avoid load failure for token_lsm.c
+         fc2baf1730f9c8327e9843a9ca7abadd6d7373e1 selftests/bpf: Add return value checks for failed tests
+         2f56fae88135ea369061519f5767a5e55cb7da99 selftests/bpf: Add test for lsm tail call
+         cc1bfd52e4ca0ddc2bd02d45c76a848ee3e7ce41 selftests/bpf: Add verifier tests for bpf lsm
+         a7ee76b02cc3ac05a4b30073747b8c39173b457e Merge branch 'add-bpf-lsm-return-value-range-check-bpf-part'
          
