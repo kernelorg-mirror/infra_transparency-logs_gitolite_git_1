@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 23 Jul 2024 12:42:24 -0000
-Message-Id: <172173854481.30620.1161767409341409514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 23 Jul 2024 12:50:07 -0000
+Message-Id: <172173900730.4393.5067933220841945639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 4283a76ce540a083440e069c80ace0ed3c0874c2
-    new: 20b405c0fea29675e1fb54b894eb1c18459f9d50
+  - ref: refs/heads/main
+    old: 22bc31b25a65d90e80e83674424819cce829092e
+    new: b757e1ce184f388f94deff40d2b3ae9ac9d17418
     log: |
-         20b405c0fea29675e1fb54b894eb1c18459f9d50 agetty: Prevent cursor escape
+         79f03377d23d5776b7ed680e74f7aca2b4fb75d3 iwlwifi: update cc/Qu/QuZ firmwares for core89-58 release
+         ef7be90bbbfd1f2a4b4a2fa94a7cf8e2ca9c1108 iwlwifi: update ty/So/Ma firmwares for core89-58 release
+         f032eea14345546dd09457358413b186c08006bf iwlwifi: add gl FW for core89-58 release
+         b757e1ce184f388f94deff40d2b3ae9ac9d17418 Merge branch 'robot/pr-0-1721733884' into 'main'
          
