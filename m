@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8944390203374656482=="
+Content-Type: multipart/mixed; boundary="===============4542573719987545897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 23 Jul 2024 14:39:29 -0000
-Message-Id: <172174556905.23507.3024588065973312563@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 14:40:41 -0000
+Message-Id: <172174564175.26387.360473441859647836@gitolite.kernel.org>
 
---===============8944390203374656482==
+--===============4542573719987545897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: 0132289923d6989518f6ce99e6b9955a9277ce11
-    new: 8b577a06c9c75e95030c0d57007771cb276e6e5f
+  - ref: refs/notes/signatures/tar
+    old: 191c671b4f0037487cf7cc23639e2be042ed663d
+    new: b3ee1b661bf17870b5df5cbe23defdf081757cb4
     log: |
-         8b577a06c9c75e95030c0d57007771cb276e6e5f Up version to 0.14.1 and prepare release
+         b3ee1b661bf17870b5df5cbe23defdf081757cb4 Notes added by 'git notes add'
          
 
---===============8944390203374656482==
+--===============4542573719987545897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1721745568 -0400
+pusher B6C41CE35664996C! 1721745641 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1721745568-669f6c94ae234ef18951bbdf6bffbb7596961809
+nonce 1721745640-6fd98e2c55adea902a00336215be3c847f4e87e9
 
-0132289923d6989518f6ce99e6b9955a9277ce11 8b577a06c9c75e95030c0d57007771cb276e6e5f refs/heads/stable-0.14.y
+191c671b4f0037487cf7cc23639e2be042ed663d b3ee1b661bf17870b5df5cbe23defdf081757cb4 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp/AoAAKCRC2xBzjVmSZ
-bNpaAQC145nCcbvm0YnzjvPnecshAOKL83GAbn/eEDHooqvXXgD9ETP6kYL22x6A
-Y2J4tVmv8IS6cLykFlkXJpD2GbZEeAs=
-=vHSa
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp/A6QAKCRC2xBzjVmSZ
+bBFPAQDoZUUoccpWn7Dfzn+8CFrJMIuhJOhqaKETtwWr+mWYYQD8DjEigHKa48Er
+MhYHs9JLiad4pmd1WXCRLtzhpuF0MAE=
+=Kidh
 -----END PGP SIGNATURE-----
 
---===============8944390203374656482==--
+--===============4542573719987545897==--
