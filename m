@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0608754049218669996=="
+Content-Type: multipart/mixed; boundary="===============8944390203374656482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 23 Jul 2024 14:34:52 -0000
-Message-Id: <172174529281.18158.6605280282787746656@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 14:39:29 -0000
+Message-Id: <172174556905.23507.3024588065973312563@gitolite.kernel.org>
 
---===============0608754049218669996==
+--===============8944390203374656482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/stable-0.14.y
-    old: 302bc594c1167a81a1a72803febbcbcf59489b44
-    new: 0132289923d6989518f6ce99e6b9955a9277ce11
+    old: 0132289923d6989518f6ce99e6b9955a9277ce11
+    new: 8b577a06c9c75e95030c0d57007771cb276e6e5f
     log: |
-         1ec81ab746cf8c0cc522ff542ae5628414af273c When looking for the cover commit, restrict to current committer
-         0132289923d6989518f6ce99e6b9955a9277ce11 Forward the smtpserveroption to the local command
+         8b577a06c9c75e95030c0d57007771cb276e6e5f Up version to 0.14.1 and prepare release
          
 
---===============0608754049218669996==
+--===============8944390203374656482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1721745292 -0400
+pusher B6C41CE35664996C! 1721745568 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1721745292-501cd19c7e62ae9cb9983ebf50c3db7f8ca6ddd6
+nonce 1721745568-669f6c94ae234ef18951bbdf6bffbb7596961809
 
-302bc594c1167a81a1a72803febbcbcf59489b44 0132289923d6989518f6ce99e6b9955a9277ce11 refs/heads/stable-0.14.y
+0132289923d6989518f6ce99e6b9955a9277ce11 8b577a06c9c75e95030c0d57007771cb276e6e5f refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp+/jAAKCRC2xBzjVmSZ
-bPFjAQDmensBppScVD9YOtIQHtwunnjfJ97YsX9+C+Yfhz3bKQEAl9NJEOwIAB+D
-1kUL/WjCiuFhCoS6DsO5ClyaZkd1yAg=
-=faZ5
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZp/AoAAKCRC2xBzjVmSZ
+bNpaAQC145nCcbvm0YnzjvPnecshAOKL83GAbn/eEDHooqvXXgD9ETP6kYL22x6A
+Y2J4tVmv8IS6cLykFlkXJpD2GbZEeAs=
+=vHSa
 -----END PGP SIGNATURE-----
 
---===============0608754049218669996==--
+--===============8944390203374656482==--
