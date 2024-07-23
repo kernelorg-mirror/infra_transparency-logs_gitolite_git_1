@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 23 Jul 2024 22:52:30 -0000
-Message-Id: <172177515057.2507.1713189689462524823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 23 Jul 2024 22:57:21 -0000
+Message-Id: <172177544114.5910.9891462107965234986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 8d6c4c735d3163b83bb4a049899f9e20a8ad6b44
-    new: fe2049c222f3b70e3af712f4ccd35156e7b1aa14
-    log: |
-         fe2049c222f3b70e3af712f4ccd35156e7b1aa14 Tue Jul 23 06:51:36 PM EDT 2024
-         
+  - ref: refs/tags/perf-tools-fixes-for-v6.11-2024-07-23
+    old: 0000000000000000000000000000000000000000
+    new: c3c6b757bdd33ead3cd393bcd2d1777431a21765
