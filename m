@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 23 Jul 2024 15:15:55 -0000
-Message-Id: <172174775589.21112.362243415765063412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Tue, 23 Jul 2024 15:16:54 -0000
+Message-Id: <172174781408.21537.771737502276287391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/tags/livepatching-for-6.11
-    old: 0000000000000000000000000000000000000000
-    new: 0e1b242b5a290be290b6f354cadf96d90a0e0469
+  - ref: refs/heads/master
+    old: b7fb4410db9d5403c1c7e19595b1eeff0a4322cc
+    new: 1e4b42b5180387b5e43fa15d447f0f2e7e2acdd7
+    log: |
+         1e4b42b5180387b5e43fa15d447f0f2e7e2acdd7 Add missing LGPL-2.1-or-later license for 'src/list.h'
+         
