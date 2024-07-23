@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2844653739182051001=="
+Content-Type: multipart/mixed; boundary="===============8207269456000507050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 23 Jul 2024 16:00:34 -0000
-Message-Id: <172175043453.19126.15739320669996932343@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 16:01:12 -0000
+Message-Id: <172175047236.4480.12276247575416873833@gitolite.kernel.org>
 
---===============2844653739182051001==
+--===============8207269456000507050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/dl-server
-    old: 2722226493526d31de2b0e5ba95c2aeaa2b8d322
-    new: 2d46cf7c51bdf9bdda81c6e876abf36a6492f37d
-    log: revlist-272222649352-2d46cf7c51bd.txt
+  - ref: refs/heads/sched/eevdf
+    old: 85dc3624f0ed179285fb6f5a3bb9c68386d4362b
+    new: 7a7b38b33df5425cf1be2904ba6a983b04f5a072
+    log: revlist-85dc3624f0ed-7a7b38b33df5.txt
 
---===============2844653739182051001==
+--===============8207269456000507050==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-272222649352-2d46cf7c51bd.txt
+Content-Disposition: attachment; filename=revlist-85dc3624f0ed-7a7b38b33df5.txt
 
-91b3a24a22760f7de16603773d81cfe374a11e51 Merge branch 'iommu/allwinner/sun50i' into iommu/next
-5012650a15e4eea14bcd34be1feffb57ee91940d Merge branch 'iommu/amd/amd-vi' into iommu/next
-cbf9520823bdd4c44c94b5988e354ee12d57fa58 Merge branch 'iommu/arm/smmu' into iommu/next
-244c18fbf64a33d152645766a033b2935ab0acb5 riscv: hwprobe: export Zawrs ISA extension
-906fe8b8263ed5cb3902d0f2b554deafe5cae766 Merge branch 'iommu/intel/vt-d' into iommu/next
-4295d785a7aa153942e76bdac0e24f0915e0cefb Merge branch 'iommu/nvidia/tegra' into iommu/next
 4a04b4f0de59dd5c621e78f15803ee0b0544eeb8 bpf: fix overflow check in adjust_jmp_off()
 28a4411076b254c67842348e3b25c2fb41a94cad bpf: use check_add_overflow() to check for addition overflows
 deac5871eb0751454cb80b3ff6b69e42a6c1bab2 bpf: use check_sub_overflow() to check for subtraction overflows
@@ -46,7 +40,6 @@ f2c43c61160ecba15f073b79abf1ea351e41203d KVM: riscv: selftests: Add Zawrs extens
 578cc98b66f5a5c607d03b4191a314ec51d19e5f Merge branch 'iommu/pci/ats' into iommu/next
 74e54d532b59c7a4375205d498c68634e0cf43b2 Merge branch 'iommu/iommufd/attach-handles' into iommu/next
 8b6c32e831ef4496b51a68ddc5be9bb9e8d2337d Merge branch 'iommu/iommufd/paging-domain-alloc' into iommu/next
-e091caf99f3a5006c95baec24330bac6f7f17193 Merge tag 'arm-fixes-6.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 7554a7b96dc0dcc445d4af7077c96c6ab0988c79 kunit: executor: Simplify string allocation handling
 2be32bbe6989e071aea1767cb54c7528a0dac07f kunit: Fix the comment of KUNIT_ASSERT_STRNEQ as assertion
 7d4087b013895524438f2522367c984f776e09e3 kunit: Rename KUNIT_ASSERT_FAILURE to KUNIT_FAIL_AND_ABORT for readability
@@ -69,11 +62,7 @@ e6b4da6759334bfdead28f9ad32323cbdbf9f670 perf arm-spe: Support multiple Arm SPE 
 226c49446bccee1c2315bc88bbbca7e6542e98fc cgroup: Add Michal Koutný as a maintainer
 7a2fb5619cc1fb53cb8784154d5ef2bd99997436 perf trace: Fix iteration of syscall ids in syscalltbl->entries
 769d20028f45a4f442cfe558a32faba357a7f5e2 nfsd: nfsd_file_lease_notifier_call gets a file_lease as an argument
-01ec3bb6ea6a9e5cbe18600e8613c717508b0a71 Merge tag 'mmc-v6.10-rc4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-ac6a9e07a7b644d1cde22cc2d2d3d386f421a523 Merge tag 'pmdomain-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-a52ff901a17432a86efffa4d6fb41cca59042802 Merge tag 'ceph-for-6.10-rc8' of https://github.com/ceph/ceph-client
 ea9e315cccd5cfabdfd48bdd34ec774495f14201 dt-bindings: incomplete-devices: document devices without bindings
-975f3b6da18020f1c8a7667ccb08fa542928ec03 Merge tag 'for-6.10-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 f7866c35873377313ff94398f17d425b28b71de1 bpf: Fix null pointer dereference in resolve_prog_type() for BPF_PROG_TYPE_EXT
 e435b043d89a267bd6eb3d5650d2319805d7924a selftests/bpf: Test for null-pointer-deref bugfix in resolve_prog_type()
 bd5b61d8b16494c408eeb637ccacd3bf9f39114f docs: driver-model: platform: update the definition of platform_driver
@@ -156,8 +145,6 @@ a122a6fd72d64de1e2f7521046823e25cb269f06 Input: atmel_mxt_ts - use driver core t
 b20d6bf8014b2d6fcf65c150453d95a6276fd1fa Input: ati-remote2 - use driver core to instantiate device attributes
 295b89a631fe2935d268a95a9dea284992a7a27d Input: yealink - use driver core to instantiate device attributes
 f3efefb6fdcce604413135bd8d4c5568e53a1f13 Input: yealink - simplify locking in sysfs attribute handling
-f7ce5eb2cb7993e4417642ac28713a063123461f bnxt_en: Fix crash in bnxt_get_max_rss_ctx_ring()
-528dd46d0fc35c0176257a13a27d41e44fcc6cb3 Merge tag 'net-6.10-rc8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a3c10bed330b7ab401254a0c91098a03b04f1448 erofs: silence uninitialized variable warning in z_erofs_scan_folio()
 d69ba6bbaf1f606ac354e925571a54d025e32aae net: ethtool: let drivers remove lost RSS contexts
 28c8757a792bbbc76407777bd0303862daa75057 net: ethtool: let drivers declare max size of RSS indir table and key
@@ -175,15 +162,12 @@ e5abd12f3df13e92e2fb3c02fe825aa6c57f8306 Merge git://git.kernel.org/pub/scm/linu
 26f453176a66bb36bf9e3a8abad808b144a94f6a Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 69cf87304dcb08d61e35bcfccdb1a5d52ce2969c Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 b69bdba5a37eb6224039e9572e0e98fc3a931fee swiotlb: fix kernel-doc description for swiotlb_del_transient
-3fdd2d21f1c7f0203575b46d2b3fba81292992b6 Merge tag 'i2c-host-fixes-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 479f18ccca110b727d99c2db60d769736bf390e6 Merge tag 'i2c-host-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 5d89b5bdbce3937c86f05ffe19455c3068fd94f7 i2c: document new callbacks in i2c_algorithm
 d5b60c6517d227b044674718a993caae19080f7b Merge  branch 'Support IPsec crypto offload for IPv6 ESP and IPv4 UDP-encapsulated ESP data paths'
 b7625d67eb1a63d33b0a2a4518ce4897d27f7465 Merge tag 'timers-v6.11-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
 ad00e629145b2b9f0d78aa46e204a9df7d628978 io_uring/net: check socket is valid in io_bind()/io_listen()
-d2346e2836318a227057ed41061114cbebee5d2a cifs: fix setting SecurityFlags to true
 8e5f53a684338c04b7f7487c65e1519b83295046 MAINTAINERS: add 5 missing tcp-related files
-d0d0cd38005518533d641e1344537f89cfe95203 Merge tag '6.10-rc7-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 42ffe242860c401c34c62aa369c2add341a6eece test/vsock: add install target
 23e89e8ee7be73e21200947885a6d3a109a2c58d tcp: Don't drop SYN+ACK for simultaneous connect().
 b3bb4d23a41b825c78ff4436c9dc8650b1ea5704 selftests: tcp: Remove broken SNMP assumptions for TCP AO self-connect tests.
@@ -201,7 +185,6 @@ e7cdef626f1d7ca69eb3351a8c4ae6a8ec46feed net: dpaa: Fix compilation Warning
 0cda1acfa235f2ee75597e7b378de54a91d69e99 net: phy: dp83td510: add cable testing support
 ba88b47816a2089cd270a38fc002bc7df13f8ebe sfc: falcon: Make I2C terminology more inclusive
 852e42cc2dd4783744b0ea4fd0d9ab80a06eb21d Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-4d145e3f830ba2c2745b42bfba5c2f8fcb8d078a Merge tag 'i2c-for-6.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 bd2e95136ba4d69e15279583d158f8403df5950f Merge branch kvm-arm64/misc into kvmarm/next
 a35d5b2032cec947212a30291f2091d0ed5f724c Merge branch kvm-arm64/ffa-1p1 into kvmarm/next
 435a9f60eda4437cb779db940d8f407640e525c7 Merge branch kvm-arm64/shadow-mmu into kvmarm/next
@@ -234,16 +217,9 @@ d657f5c76c47eca50dd61b5c1e150dac05e07046 Merge branch 'vrf-fix-source-address-se
 ecb1e1dcb7b5d68828c13ab3f99e399b4ec0c350 Merge branch 'introduce-en7581-ethernet-support'
 62fdd1708fcb3e1c58d21221bf0861a8b1975f90 Merge tag 'ipsec-next-2024-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 8fc1e8b230771442133d5cf5fa4313277aa2bb8b ALSA: hda/realtek: Enable headset mic on Positivo SU C1400
-35ce46324556ba2dbc66a88013870d8bec8a99ef Merge tag 'x86_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-365346980ee28e6792db08bc2faa80830c2878c4 Merge tag 'sched_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9852f47ac7c993990317570ff125e30ad901e213 kbuild: Make ld-version.sh more robust against version string changes
-e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings with dtb's listed twice
 ed99ae74f2328e42286880c946953a8f9dd95a7e hwmon: Remove obsolete adm1021 and max6642 drivers
 cbf7467828cd4ec7ceac7a8b5b5ddb2f69f07b0e hwmon: (max6697) Fix underflow when writing limit attributes
 1ea3fd1eb9869fcdcbc9c68f9728bfc47b9503f1 hwmon: (max6697) Fix swapped temp{1,8} critical alarms
-84679f04ceafd58d9b35f790203520b2930f1a03 fortify: fix warnings in fortify tests with KASAN
-882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
 3de8fd4a33c9caf5ca798373800a37e4f206d8ed bcachefs: Print allocator stuck on timeout in fallocate path
 52fd0f96206831ed4b75d2060f2e2a96bf2624b0 bcachefs: btree ids are 64 bit bitmasks
 8a3c8303e2f1834a79e00305d94ef562946c2ef4 bcachefs: uninline fallocate functions
@@ -1050,5 +1026,29 @@ fce65e66c8e0ac41d6d73a4f5562c5872b59b337 sched/fair: Fair server interface
 da126043ca233808b16bee3262f497dda7cb8144 sched/core: Fix priority checking for DL server picks
 2f1337d679f81f8fff15c7aac41a125f3462371b sched/core: Fix picking of tasks for core scheduling with DL server
 2d46cf7c51bdf9bdda81c6e876abf36a6492f37d sched/rt: Remove default bandwidth control
+97bfbf7138c1798009f2fd0d2cf84084b35dac9b sched/eevdf: Add feature comments
+bf8f5cc6a1461ef1e78118fee3f5a58c685224bd sched/eevdf: Remove min_vruntime_copy
+fa1e732b267cc2bf2252839db8e6e482c8f90368 sched/fair: Cleanup pick_task_fair() vs throttle
+c078eff41f999dda34724cfc7d213406adce6625 sched/fair: Cleanup pick_task_fair()'s curr
+8a2b6898069bd77ac45f4d6d967e5316395517b9 sched/fair: Unify pick_{,next_}_task_fair()
+c4aeb1b5c82c425a96c32b00b5cfa61d48618b17 sched: Allow sched_class::dequeue_task() to fail
+054830d7232b7542cdfe384c803e1a2c9681084b sched/fair: Re-organize dequeue_task_fair()
+988d39b0b7608f8834497a4e19e325e2185e1d12 sched: Split DEQUEUE_SLEEP from deactivate_task()
+ac6e124a889b6ec4c5b85c3129a8b70037b13d49 sched: Prepare generic code for delayed dequeue
+6f4da7c2dec394534b4485cb345eefd7082dbe8a sched/uclamg: Handle delayed dequeue
+8dabf9aba68542145ae915a8a48d2da01fc4abbd sched/fair: Assert {set_next,put_prev}_entity() are properly balanced
+62eca1f41a2e14aa8f689ab675bbd2f0e10226c0 sched/fair: Prepare exit/cleanup paths for delayed_dequeue
+ab8ceb3e31295d9c004a819eb93772dd2b170992 sched/fair: Prepare pick_next_task() for delayed dequeue
+c4563406109b17cb53f53b37c82fc1a14de23974 sched/fair: Implement ENQUEUE_DELAYED
+02d8053ccad3e4a5ae492fb414dcc2d9498d8bbc sched,freezer: Mark TASK_FROZEN special
+b4ff1e7991c15c59b350c76832f7fdbde72ee99b sched: Teach dequeue_task() about special task states
+f6044731ed90b4409d4f9466a6eba0e6776bd150 sched/fair: Implement delayed dequeue
+b0a8dd3792ed34518c207f663fd80f95e2e1c8e8 sched/fair: Implement DELAY_ZERO
+907b7a711c584aa96a1e257e948438a61ba4b414 sched/eevdf: Fixup PELT vs DELAYED_DEQUEUE
+9a59256da6bf353187670b75ccd2404537966f57 sched/fair: Avoid re-setting virtual deadline on 'migrations'
+9bf0dd4b53e590d2624d98e7ae291e4e74960fd5 sched/eevdf: Allow shorter slices to wakeup-preempt
+5d74ff0b67107e1bc316f7e603040a2d2d80cb68 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
+3d12d276e5ac8753b6c33c8555ec52c21f9fd8c6 sched/eevdf: Propagate min_slice up the cgroup hierarchy
+7a7b38b33df5425cf1be2904ba6a983b04f5a072 sched/time: Introduce CLOCK_THREAD_DVFS_ID
 
---===============2844653739182051001==--
+--===============8207269456000507050==--
