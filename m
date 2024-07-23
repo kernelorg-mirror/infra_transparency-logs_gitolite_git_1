@@ -1,19 +1,61 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 23 Jul 2024 17:10:19 -0000
-Message-Id: <172175461917.25238.11593024358781324989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 23 Jul 2024 17:10:28 -0000
+Message-Id: <172175462804.25410.16974807087927610734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-6.11/upstream-fixes
-    old: bacc15e010fc5a235fb2020b06a29a9961b5db82
-    new: 8031b001da700474c11d28629581480b12a0d8d4
-    log: |
-         8031b001da700474c11d28629581480b12a0d8d4 HID: amd_sfh: Move sensor discovery before HID device initialization
-         
+  - ref: refs/tags/large-block-minorder-for-next-v4
+    old: 0000000000000000000000000000000000000000
+    new: d6440f7b52e293dd9ae9c056d45aa7e0978cb8f0
+  - ref: refs/tags/modules-6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9d8ca5ee02fae4703e84e18162521ce703bb345e
+  - ref: refs/tags/next-20240523
+    old: 0000000000000000000000000000000000000000
+    new: 380394febfebb2b1fdd38927bf16306f2c1af3b3
+  - ref: refs/tags/next-20240528
+    old: 0000000000000000000000000000000000000000
+    new: ec1318b2ee13e6d363c48c0d0fe828104169a985
+  - ref: refs/tags/next-20240612
+    old: 0000000000000000000000000000000000000000
+    new: c006995d7f591265831f5cdb2c444f30498bd6b6
+  - ref: refs/tags/next-20240619
+    old: 0000000000000000000000000000000000000000
+    new: 31feca981a3902391d6040135b0931a38491f587
+  - ref: refs/tags/next-20240620
+    old: 0000000000000000000000000000000000000000
+    new: 1efa1f63c47f13498f2232460fab034a2fe0a63e
+  - ref: refs/tags/next-20240703
+    old: 0000000000000000000000000000000000000000
+    new: 32814a201f02fe326110ae12ec4b02cb3f08c133
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
+  - ref: refs/tags/v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
+  - ref: refs/tags/v6.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ac1064c236193fe48bded6f718ad47203870743b
+  - ref: refs/tags/v6.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/tags/v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
+  - ref: refs/tags/v6.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
+  - ref: refs/tags/v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
