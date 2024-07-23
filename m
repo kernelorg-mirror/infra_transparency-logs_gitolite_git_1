@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 23 Jul 2024 23:47:26 -0000
-Message-Id: <172177844678.11349.17499214821002315504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 23 Jul 2024 23:48:44 -0000
+Message-Id: <172177852481.11874.11657692476632217088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: fe2049c222f3b70e3af712f4ccd35156e7b1aa14
-    new: e3cb301bfcb6946edb4abdeb225c1a19948449df
-    log: |
-         e3cb301bfcb6946edb4abdeb225c1a19948449df Tue Jul 23 07:46:26 PM EDT 2024
-         
+  - ref: refs/heads/kdevops
+    old: cc432213497010e84ce28d24e40c8d26e5c74c25
+    new: 0c3836482481200ead7b416ca80c68a29cfdaabd
