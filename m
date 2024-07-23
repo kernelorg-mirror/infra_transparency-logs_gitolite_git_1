@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7869121370832903779=="
+Content-Type: multipart/mixed; boundary="===============0209443577287178391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 23 Jul 2024 01:21:40 -0000
-Message-Id: <172169770078.2734.10290222718211489317@gitolite.kernel.org>
+Date: Tue, 23 Jul 2024 01:21:45 -0000
+Message-Id: <172169770547.2817.11908984095361363191@gitolite.kernel.org>
 
---===============7869121370832903779==
+--===============0209443577287178391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 23cf3ae7d26a6afb548e709d2874616ff866bdf9
-    new: 198b26fba9ca5a874c8d743a568546fff89e49e7
+  - ref: refs/heads/6.11/scsi-queue
+    old: 23cef42d17413d099f44ea42b622fbf23b04646f
+    new: 3911af778f208e5f49d43ce739332b91e26bc48e
     log: |
          0c60eb0cc320fffbb8b10329d276af14f6f5e6bf scsi: ufs: core: Check LSDBS cap when !mcq
          022587d8aec3da1d1698ddae9fb8cfe35f3ad49c scsi: ufs: core: Bypass quick recovery if force reset is needed
          3911af778f208e5f49d43ce739332b91e26bc48e scsi: ufs: core: Fix deadlock during RTC update
          
 
---===============7869121370832903779==
+--===============0209443577287178391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1721697655 -0400
+pusher 75C5DE3D 1721697704 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1721697655-ac6b3c834acb8d48a19eb21bbdbc112bc241517b
+nonce 1721697703-4c5f03e312e4a9b7e7ce71da6e56dad909324d6a
 
-23cf3ae7d26a6afb548e709d2874616ff866bdf9 198b26fba9ca5a874c8d743a568546fff89e49e7 refs/tags/mkp-scsi-queue
+23cef42d17413d099f44ea42b622fbf23b04646f 3911af778f208e5f49d43ce739332b91e26bc48e refs/heads/6.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmafBXcACgkQ7ulgGnXF
-3j2sjxAAnRfJJUE8eRynXVsub4NH0FZmj9QXjW6D14OA6XE4fMy3uBOfrDCJ1Lwc
-x+IF8v6U0p/+rG02tPyyyLIQksz+jcbA8ruA/+pcs7HPaHGEMZQkWSMjjo/1/DT6
-TDciBHoj57GCboTG4+EueTFP1Gnbl4vZiBd66I7sDlj4AVgvvB/xH5S1a5OO9Bgq
-Fnal6x7/2ucWwtb9kCOOFeiD5qFdK3RSHBOFVKNKDqjaIJYGAEfPMd0sPElW/9kN
-fpOhgAe1BK02QY3Yg9P5ZShNgMRZJL2zTtRcUwu9xFALTkSSRjOBLLd5s3vcGfEm
-PTy7wt268+y6W2hGT5MpXqTOOXW7VdPvGLw8yqHxzzSVHcGH7E9Z3b8z/iJikt5+
-CUB6zcNU4oWnKXk7D5pcF1HhTjX3vPf017jRp9l8KjjvmGHFOqZkHMsNtVH6+PTu
-GiCSovFUlGmTv9/hFZgcFQRjS3MXgx3d3xbVMB3TOWxOg1EmfWX1/ToJCtODsslc
-v32XRz1AayC2zoqamF8NMbRaoJekwq0m6rRMmON7dzk1S3oTWKJhPtBo7/4nRFax
-uEGEwqisrAAfDsQS7vUTDiaSLpNhGvGE86S7pWJWVYWwGWndDzAov7yuDfIrRICb
-cOJqaTDDDyeLbudgFLc7D+xdSkiaTJo+cMhKjKj9SwcyFqTROLA=
-=70DZ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmafBagACgkQ7ulgGnXF
+3j2WHw//V/gUky8pcnyWHMQtQDFhyUpKjLU0USIpcQlYYTpQe4NSTFLO/w9yA8sK
+4ZoyJifMj+Kq7/bthyRN9iwwAjKsTWwiO3nvdQDyLZFCMG+DK/2dtiMZeL4eoCj1
+7LFf3tKqDZju2eVZOQG7IukBOWJuxjmThjQGAF+lHFELrG7ddfpmfBWmPd9qIjgI
+XOv06MzTcuamwaVSY68DfTZEGF7cFY31T08Q0r29hawwQJbvkcGLwiY0pi7ek0pU
+3JP+hLNvQVlOMOwZF7jphfkbujloSbfR9UjGKjqqRqFb/8iYP71nSh1QZwmBqHJO
+uTACAA9Wtl3OEJlMpiT1UUZxgnojekLlAn+gh54z9cFdl8aT8h9Yv9IyHh5a5GEm
+7jTkJaHaY5aC4B223I/e2JrRE4sU4ls0/Yzsv+k++UOeNJawBOR0QhcvjGpB7as7
+ogohXIVstvASQ2cRu+Hw9DXZih8iJgiPqmlYTglxrvzAJx8NxbdWRFyql2kRJj4A
+/8kuot7Om2AnV0SrjmPDK3xz2vNkC7IFIx7qiplE2q9bgGFmq4GEZrKAnMg5oxYa
+FojVbzT0W4M71olQ1ntz4bL9dlTBOmGawTVZSsiivUhfxOhWDxSzwak85pkXS2XY
+0gQbQVY1cadCvwyKdu5KFYuLYeg1gsHoYpD2clj44YJNxAtph58=
+=An0g
 -----END PGP SIGNATURE-----
 
---===============7869121370832903779==--
+--===============0209443577287178391==--
