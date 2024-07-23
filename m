@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0457325780016034942=="
+Content-Type: multipart/mixed; boundary="===============2598615488497409275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 23 Jul 2024 12:19:39 -0000
-Message-Id: <172173717961.12458.13740134478032788322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 23 Jul 2024 12:19:46 -0000
+Message-Id: <172173718692.12563.15868505022637058002@gitolite.kernel.org>
 
---===============0457325780016034942==
+--===============2598615488497409275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0c3836482481200ead7b416ca80c68a29cfdaabd
     log: revlist-22a40d14b572-0c3836482481.txt
 
---===============0457325780016034942==
+--===============2598615488497409275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -537,4 +537,4 @@ e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings wit
 882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
 
---===============0457325780016034942==--
+--===============2598615488497409275==--
