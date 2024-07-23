@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Jul 2024 10:37:39 -0000
-Message-Id: <172173105968.1841.17678141585305868863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Tue, 23 Jul 2024 10:38:00 -0000
+Message-Id: <172173108051.2008.876354724143875753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: mkorenbl
 changes:
-  - ref: refs/heads/main
-    old: d587d825424b6784ff7d7519efd1b827b09aa501
-    new: 39a9c25bcdfb5e88995841c47439b74cac74a527
-    log: |
-         39a9c25bcdfb5e88995841c47439b74cac74a527 net: airoha: Fix MBI_RX_AGE_SEL_MASK definition
-         
+  - ref: refs/heads/release/core89
+    old: 0000000000000000000000000000000000000000
+    new: 36c5be1a4abe23f6b2d624d013e67b439f38800c
