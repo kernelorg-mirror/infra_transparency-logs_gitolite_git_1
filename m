@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Jul 2024 17:21:33 -0000
-Message-Id: <172175529358.1096.9007536693975176515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 23 Jul 2024 17:24:17 -0000
+Message-Id: <172175545734.2247.15828664006485437976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/tags/rpmsg-v6.11
+  - ref: refs/tags/damon/next-2024-07-23-10-24-on-v6.10
     old: 0000000000000000000000000000000000000000
-    new: eb22555e6b9cfe7aeccb34b42710af428746aeaf
+    new: c4b674c8ea53ad9fd4d06c1592dff34dcf0f0466
