@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 23 Jul 2024 17:09:22 -0000
-Message-Id: <172175456299.23147.4783071281776699894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 23 Jul 2024 17:10:19 -0000
+Message-Id: <172175461917.25238.11593024358781324989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/nfsd-5.15.y
-    old: 7c6d66f0266faf94d04b3bfe0d7a06eae3484c50
-    new: f4ffbb86cf1a1436b410766e83c93a1e4d34ea04
+  - ref: refs/heads/for-6.11/upstream-fixes
+    old: bacc15e010fc5a235fb2020b06a29a9961b5db82
+    new: 8031b001da700474c11d28629581480b12a0d8d4
     log: |
-         f4ffbb86cf1a1436b410766e83c93a1e4d34ea04 Revert "fanotify: Allow users to request FAN_FS_ERROR events"
+         8031b001da700474c11d28629581480b12a0d8d4 HID: amd_sfh: Move sensor discovery before HID device initialization
          
