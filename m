@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Tue, 23 Jul 2024 09:58:06 -0000
-Message-Id: <172172868679.3531.7950971674712889592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 23 Jul 2024 10:09:49 -0000
+Message-Id: <172172938942.12612.2630442110966318659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: 992c419f6cbf2a477a02d6e8e6d447194ffb80dc
-    new: 5b76649e0c2367c98d3c87feaadff693e4bfacd7
+  - ref: refs/heads/ch/for-jason
+    old: 791cbd6f11429a0a670ac88c1e01fd225fe94179
+    new: 2b265951de4b162a82f04ae08cd976f675a274c0
     log: |
-         8dd984687b7961e6a810334424627c82d2a11684 kexec-tools 2.0.29.git
-         5b76649e0c2367c98d3c87feaadff693e4bfacd7 s390: add missing limits.h header inclusion
-         
-  - ref: refs/heads/master
-    old: 992c419f6cbf2a477a02d6e8e6d447194ffb80dc
-    new: 5b76649e0c2367c98d3c87feaadff693e4bfacd7
-    log: |
-         8dd984687b7961e6a810334424627c82d2a11684 kexec-tools 2.0.29.git
-         5b76649e0c2367c98d3c87feaadff693e4bfacd7 s390: add missing limits.h header inclusion
+         fc52dd7b2a91f911cfbbb62cb4cc8ae14dbba92c css: round border edges for deco
+         ef6c236c60f5aceb733c389d1eb0dcd208f95c1e ui-log: show ellipsis if detailed commit message is available
+         6ce061ad4d9fbf2d9c1cf0bcabf02a6891124454 ui-tree: provide link to about page for pretty formatting
+         2b265951de4b162a82f04ae08cd976f675a274c0 ui-tree: add about link in tree view list
          
