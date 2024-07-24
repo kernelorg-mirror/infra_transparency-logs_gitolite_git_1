@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 24 Jul 2024 13:09:09 -0000
-Message-Id: <172182654921.11421.125162656151744133@gitolite.kernel.org>
+Date: Wed, 24 Jul 2024 13:10:48 -0000
+Message-Id: <172182664862.13707.10250451050271659165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/work.fcntl
-    old: c4b5769d6aca8cbfefdda3e0fafbd150e96ee07d
-    new: e0dc58860ca0fff705de2a2a464f1ebf2e5a28e2
+    old: e0dc58860ca0fff705de2a2a464f1ebf2e5a28e2
+    new: 267743fb87e9e3e1f09a4a2fc4f1df97e4e95174
     log: |
-         264ca55ea9b9ca94cf7393a5176d239e09ac5b4b Add an fcntl() to check file creation
-         261896aabb381781033d868e9ad9f6a38d90f1b2 fcntl: add F_CREATED
-         e0dc58860ca0fff705de2a2a464f1ebf2e5a28e2 selftests: add F_CREATED tests
+         267743fb87e9e3e1f09a4a2fc4f1df97e4e95174 selftests: add F_CREATED tests
          
