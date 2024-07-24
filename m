@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3040949482248296621=="
+Content-Type: multipart/mixed; boundary="===============5120803158701044335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 24 Jul 2024 06:36:29 -0000
-Message-Id: <172180298937.29688.15694770008966475663@gitolite.kernel.org>
+Date: Wed, 24 Jul 2024 06:36:38 -0000
+Message-Id: <172180299867.29968.4020460765661540731@gitolite.kernel.org>
 
---===============3040949482248296621==
+--===============5120803158701044335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 501f065920b87daf2b5c5ee3a2d3ed6306678733
-    new: 79ff89d8df0fc2bf06c506310e8fa78a858c3809
-    log: revlist-501f065920b8-79ff89d8df0f.txt
+  - ref: refs/heads/main
+    old: 933069701c1b507825b514317d4edd5d3fd9d417
+    new: 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48
+    log: revlist-933069701c1b-786c8248dbd3.txt
 
---===============3040949482248296621==
+--===============5120803158701044335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721802989 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721802998 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721802984-2d54f53a1415a5e25f3c92f99d8a7be128509c5d
+nonce 1721802997-bf5a32c5592dcbeb98d89722d5229d32591e917d
 
-501f065920b87daf2b5c5ee3a2d3ed6306678733 79ff89d8df0fc2bf06c506310e8fa78a858c3809 refs/heads/staging-testing
+933069701c1b507825b514317d4edd5d3fd9d417 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmagoO0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sr4P/27jsIaPFUFKKZAhNP1l
-d7qGG+xCllMlrnf+LVF9jcsjLwYAgsBxuDQUhQCHeFE6M9dHr4S0fxIMHcj8Z1Kf
-1pGrYnqM8Tbrsy17p0PvA7c1v/k/2CdgFKDOt8DFefI7rrdT4SXkRdboSkNnPSkR
-Fjg1AyV4TkRb55J5vqtfmv5qXlDRz0gxetIvus0769EfhtwCBhs2jG45UJTUrZb+
-BYOZ9Wzn+IxJiWr+UHUlD76O0wpkzSmhZaS0mifLxCf+0EEv/mCEsR0J169jSzH/
-+5EcTzRiUK5fkfKwfaa++2M+nkkkvenU27yrL9ukg2eO17XT0nyxH8bXNin+s8cJ
-axxmqwza4ncSZGlHZ0Om8xZHYUPmPPfpu8rfwUXauBLLpnI+ZHesgJ5sJiqVfcTy
-kPYyioNWkUYapUrX6I7SBDAMdT1NZQ9wEapuJCCstozk93phvZldRjlLaBFraAF9
-KxNsAdvVyZXBpnBo7bd1dNqkoP9Fey1GdOv7vDj4YpUmOApny2YSy3Y3K6Lh10m3
-gkeMF2kljeJIk/bWkwvq7sM9Xj3KbxXb4DBIApy5kNoQr7zXmctGMhuid79XGWR8
-dR8YtiF6qNRIyy2LHde7dVZH5XyiJD/1Bh/V0tTow+hQ8jc2OZD2f5hE8kMNC5yt
-v//NI0qm6Ggd2vgmHXNCEvvr
-=LmTl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmagoPYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pAkQAKLP9spcDKbWhyYNsFIv
+S4I0AzbEm7en+5h0xdk/sk9Zbg1xRfdE4kxnvFFeL0/riy7g8Bns58XP6dX/gM68
+n43KdJfKiqx5A7opPwIt44Q3MB0WyvOzh3kDMowgT4kH60o7lqLzkaa24Ry/9pP2
+pvIbYGRKmPbugRA8VulFCU1EAJhkZQxD6JPoSPcWgS4DLsMDdj9mCXfXszZ1uhz0
+NDWZ3YENDgrB8kADdxMuc7FrLmHd3hV3JMCMgr8rJPztqhAu/9mpcQgH6q/Y9Txj
+af+uwByXBItrucFATo/nvnYYqNcHkMz1EmsLXUyY9rKfXVpyGZdbCuhxvDNL3KYu
+QD5HA7C3EbShVrCbWoZobOu568XnNTtgNWEJ0E2A5bGvQxx7hUZWBR5CP86O9jnO
+oRV7inlJv5FUbOwtLEm98cihJieKpYhv0ag+GnleoB0vpIGwlp2D+ZQ/qRKtTUts
+8F17Vt20oibQ7hUnu7sytRicQCf/Lw0jdPbA76jplArC5kLSprFBqAYgwRl2KDCT
+6jb8KiKNl/wSn/JOGvUG2fsVziR7SuKnrCQKnBwYxP08xa1Ok0WWvd2FcCFDEAZd
+LUK5WsChPCFcdzBGJmIQN7ft0cYakWcqzspozl1Mzkpag9uVIk7xCvEK8ljwCfPQ
+ZhGq/+9ZC+DxieP7nNDog2I5
+=F4Zq
 -----END PGP SIGNATURE-----
 
---===============3040949482248296621==
+--===============5120803158701044335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-501f065920b8-79ff89d8df0f.txt
+Content-Disposition: attachment; filename=revlist-933069701c1b-786c8248dbd3.txt
 
 9b4b3f8441004eccf45a412370840188ae3a44ff jfs: Convert metapage_read_folio to use folio APIs
 35474d52c6056976e675e9130d755cdb749ded5a jfs: Convert metapage_writepage to metapage_write_folio
@@ -463,7 +463,5 @@ ca83c61cb3db964061ea186654bf8e1879589de3 Merge tag 'kbuild-v6.11' of git://git.k
 5ad7ff8738b8bd238ca899df08badb1f61bcc39e Merge tag 'f2fs-for-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 e9e969797bae359fd463f7617ad875bca2771586 Merge tag 'execve-v6.11-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48 Merge tag 'perf-tools-fixes-for-v6.11-2024-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-e1f038ca3140fe817b727ef6bdb936fe61dff947 staging: vme_user: vme_tsi148.c: remove redundant newlines
-79ff89d8df0fc2bf06c506310e8fa78a858c3809 staging: rtl8712: style fix multiple line dereference
 
---===============3040949482248296621==--
+--===============5120803158701044335==--
