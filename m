@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 24 Jul 2024 09:12:01 -0000
-Message-Id: <172181232138.16957.1026893660552858084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 24 Jul 2024 09:21:27 -0000
+Message-Id: <172181288729.23664.12172776250209305998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: 043f2d2f168d2bd98002599000c9835df39d50d5
-    new: 7d82086d2a9fd92f80d677b659c6327e82bdf860
+  - ref: refs/heads/main
+    old: 998544c198c156db027a6e4f1b201910b138041e
+    new: ea9f178e1f8b2bba06b3b987ac5bb418abfde3f4
     log: |
-         f5e5e97c719d289025afce07050effcf1f7373ef inode: clarify what's locked
-         7d82086d2a9fd92f80d677b659c6327e82bdf860 xattr: use simple helper to copy xattr name
+         ea9f178e1f8b2bba06b3b987ac5bb418abfde3f4 CI: fetch all of the changes in repository
          
