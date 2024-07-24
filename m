@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 24 Jul 2024 13:43:26 -0000
-Message-Id: <172182860661.5045.15696390206510663507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Wed, 24 Jul 2024 13:44:14 -0000
+Message-Id: <172182865431.5410.5729238514208149868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/heads/rcu_tasks_watch_idle.21.07.24
-    old: e6bff05d48cd3c92a167039b9f6de303061bf83c
-    new: 9256128415dd1bd82d5268fd8ad07993c7a7a35b
+  - ref: refs/heads/constfy
+    old: 17234ea80ae5360f0f0b156316fc110da15e7e8c
+    new: d796a23730d1ce81911834ea4bbeef4b3d0fa055
     log: |
-         472b1ca48925be1448d61453c417195fa865d08b rcu-tasks: Skip idle tasks for TINY RCU
-         9256128415dd1bd82d5268fd8ad07993c7a7a35b rcu-tasks: Do not consider idle tasks which are not on CPU as holdouts
+         d796a23730d1ce81911834ea4bbeef4b3d0fa055 sysctl: treewide: constify the ctl_table argument of proc_handlers
          
