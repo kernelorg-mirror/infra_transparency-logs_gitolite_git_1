@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Wed, 24 Jul 2024 10:08:42 -0000
-Message-Id: <172181572202.7605.14767605124138562186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 24 Jul 2024 10:27:58 -0000
+Message-Id: <172181687850.20942.2973773366664920656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 776424a8f9158bfe9f53aa55f931af9f73437caf
-    new: 5f01c7705f3ca4fef31b515f5591f3867db6f292
+  - ref: refs/heads/fixes
+    old: 5ad7ff8738b8bd238ca899df08badb1f61bcc39e
+    new: ba6c664081afd18da86ac49cb22ceb266f89a561
     log: |
-         3e4868e03dd0934534022e0309315453f8953099 expand: Fix leading white space regression in ifsbreakup
-         89b85ee84448fe392f1faafee1635d5719e5e7e3 shell: Fix build on systems without memrchr(3)
-         9c9fee9cbfc4487d188b8e1b37326745cda508ac expand: Preserve MBCHAR in argstr when EXP_MBCHAR is set
-         5f01c7705f3ca4fef31b515f5591f3867db6f292 parser: Do not read past single quote in dollarsq_escape
+         ba6c664081afd18da86ac49cb22ceb266f89a561 kbuild: rpm-pkg: Fix C locale setup
          
