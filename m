@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 24 Jul 2024 18:05:35 -0000
-Message-Id: <172184433593.3467.16691690280991422826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 24 Jul 2024 18:11:06 -0000
+Message-Id: <172184466678.8706.6768767818595831535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/master
-    old: 9bea1d1d0961071fa594db1cb75141c67eba6eea
-    new: 4d2d0a23292e808957f8bc31577877cc8da90702
-    log: |
-         4d2d0a23292e808957f8bc31577877cc8da90702 Wed Jul 24 02:04:41 PM EDT 2024
-         
+  - ref: refs/tags/landlock-6.11-rc1-houdini-fix
+    old: 0000000000000000000000000000000000000000
+    new: 24e77751893938e9a33588fd80122821fb333471
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
