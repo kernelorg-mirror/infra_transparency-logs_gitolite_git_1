@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 24 Jul 2024 10:56:02 -0000
-Message-Id: <172181856263.10102.10808337359729702895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 24 Jul 2024 11:14:12 -0000
+Message-Id: <172181965297.22823.15150646811756363779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/kdevops
-    old: 43969206e9be6c9e69246c452916c7fd31fe80fb
-    new: b5dc0266ccadcd68b9c3c2e4954e17d262357e9b
+  - ref: refs/heads/main
+    old: ea9f178e1f8b2bba06b3b987ac5bb418abfde3f4
+    new: 2bb4efb504d0991eaba755242d3e70facb5d994b
     log: |
-         b5dc0266ccadcd68b9c3c2e4954e17d262357e9b SQUASH: search for dentry after taking lock
+         5be749ce416852e7acbb2415be380be358859612 Detail: fix --detail --export for uuid_zero
+         2bb4efb504d0991eaba755242d3e70facb5d994b drive_encryption: Fix ata passthrough12 verify
          
