@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Wed, 24 Jul 2024 11:14:21 -0000
-Message-Id: <172181966124.23052.8248970309052652296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 24 Jul 2024 11:15:12 -0000
+Message-Id: <172181971200.25357.7364366777102354199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: ea9f178e1f8b2bba06b3b987ac5bb418abfde3f4
-    new: 2bb4efb504d0991eaba755242d3e70facb5d994b
-    log: |
-         5be749ce416852e7acbb2415be380be358859612 Detail: fix --detail --export for uuid_zero
-         2bb4efb504d0991eaba755242d3e70facb5d994b drive_encryption: Fix ata passthrough12 verify
-         
+  - ref: refs/tags/efi-fixes-for-v6.11-1
+    old: 0000000000000000000000000000000000000000
+    new: 965c2d92e736e34fae45601034f60cc2542abd48
