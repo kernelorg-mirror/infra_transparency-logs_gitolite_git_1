@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 24 Jul 2024 13:10:48 -0000
-Message-Id: <172182664862.13707.10250451050271659165@gitolite.kernel.org>
+Date: Wed, 24 Jul 2024 13:14:42 -0000
+Message-Id: <172182688276.15243.10446168420779226248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/work.fcntl
-    old: e0dc58860ca0fff705de2a2a464f1ebf2e5a28e2
-    new: 267743fb87e9e3e1f09a4a2fc4f1df97e4e95174
+    old: 267743fb87e9e3e1f09a4a2fc4f1df97e4e95174
+    new: 58956814948ce62e0573fd2eee77578251a09996
     log: |
-         267743fb87e9e3e1f09a4a2fc4f1df97e4e95174 selftests: add F_CREATED tests
+         58956814948ce62e0573fd2eee77578251a09996 selftests: add F_CREATED tests
          
