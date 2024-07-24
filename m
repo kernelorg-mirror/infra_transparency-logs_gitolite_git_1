@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Wed, 24 Jul 2024 07:38:18 -0000
-Message-Id: <172180669876.11255.6997522664626120454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 24 Jul 2024 07:39:24 -0000
+Message-Id: <172180676476.11766.9050722521925332392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/tags/phy-for-6.11
-    old: 0000000000000000000000000000000000000000
-    new: d24af0651bf1433882a24505ba4a871ce4a5af12
+  - ref: refs/heads/dma-static-calls-v4
+    old: e9e9a11108d8ae6f2a475c048bcb76c070c07706
+    new: c3179690b16d790d5bfd7d0afabac9b90922ec28
+    log: |
+         c3179690b16d790d5bfd7d0afabac9b90922ec28 dma: add IOMMU static calls with clear default ops
+         
