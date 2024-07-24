@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Wed, 24 Jul 2024 13:44:14 -0000
-Message-Id: <172182865431.5410.5729238514208149868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 24 Jul 2024 13:46:23 -0000
+Message-Id: <172182878384.7958.5781934601723975932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/constfy
-    old: 17234ea80ae5360f0f0b156316fc110da15e7e8c
-    new: d796a23730d1ce81911834ea4bbeef4b3d0fa055
+  - ref: refs/heads/kdevops
+    old: ecbdba6201c5ad1107cd00dda8622715a41c586b
+    new: e7571b7ec994778130a83a79720c67b46b111b62
     log: |
-         d796a23730d1ce81911834ea4bbeef4b3d0fa055 sysctl: treewide: constify the ctl_table argument of proc_handlers
+         a730503e22cfdefbea92287412eeaaa39b24f17a fs: factor out dcache search and insert code in lookup_open
+         e7571b7ec994778130a83a79720c67b46b111b62 fs: inode_lock pushdown into lookup_open
          
