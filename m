@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 24 Jul 2024 16:05:16 -0000
-Message-Id: <172183711662.11058.16048043383831399356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 24 Jul 2024 16:27:20 -0000
+Message-Id: <172183844012.26975.789909026991213102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/cxl-for-6.11
-    old: 0000000000000000000000000000000000000000
-    new: 95920ece39257b12744a07e1fd64c1dbb3827b85
+  - ref: refs/heads/kdevops
+    old: caa5b3b4f4fefe52f1b95c27e188985c6c75d7e5
+    new: 4209ab92b5923620b389446b93bf2e2e577cb6b2
+    log: |
+         4209ab92b5923620b389446b93bf2e2e577cb6b2 fs: retry if lookup is different after taking lock
+         
