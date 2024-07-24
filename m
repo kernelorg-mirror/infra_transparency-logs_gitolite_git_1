@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 24 Jul 2024 20:27:04 -0000
-Message-Id: <172185282404.11594.3671927101461944428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 24 Jul 2024 20:53:08 -0000
+Message-Id: <172185438873.30313.1066140341214640848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: fbf8ed41401166cacd9283abe17ba114bd0d2f9e
-    new: f9a55e3728f5f740b0f584bfa003d1c9433ad517
+  - ref: refs/heads/openfast
+    old: 396f4cf0699ee833dac19bb6e45e61e6aebef2b5
+    new: 6fa2fab80fdb09baca77b2567a87902c1cb23df4
     log: |
-         30ca00d2c4a7aae2a983d8f80e7b98aa00c3dee1 dpp: factor out PKEX/DPP start prep into function
-         5cdad6ab86306bcb0f6baf704c90291e8384e61a station: add station_get_autoconnect
-         eff2a2afcf98879c2630429f5e00f05b47bf10d0 dpp: explicitly disconnect station if enrollee is started
-         a63fd6abb957b8b0a10f71db645604159fdb932b auto-t: add DPP tests for state change checks
-         f9a55e3728f5f740b0f584bfa003d1c9433ad517 auto-t: fix several DPP tests after station state changes
+         28f781b83826ef46775320ac6939bedbfc871856 fs: add a inode_lock-less fastpath to open()
+         76fdfe36e34400f04b7262cea13a9a5c4e7624b1 fs: factor out dcache search and insert code in lookup_open
+         f13fb6b4daf0f5c45b64885f87ce29f64c0b45e2 fs: inode_lock pushdown into lookup_open
+         6fa2fab80fdb09baca77b2567a87902c1cb23df4 fs: add a fastpath for lookup_open when positive dentry already exists
          
