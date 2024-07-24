@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 24 Jul 2024 17:32:46 -0000
-Message-Id: <172184236615.11099.1483037016476786573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 24 Jul 2024 17:42:22 -0000
+Message-Id: <172184294205.19036.6424307563485667489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: bd2efd0bc52b713b74346a70cc542438c23c9b6d
-    new: 4e7058acdd17cdaaeedf1ace203e539dd08a2689
+  - ref: refs/heads/master
+    old: dd040a5c2137ef6891348bca86d31673435f56d5
+    new: 9bea1d1d0961071fa594db1cb75141c67eba6eea
     log: |
-         4e7058acdd17cdaaeedf1ace203e539dd08a2689 NFSD: Drop CB_OFFLOAD Calls
+         9bea1d1d0961071fa594db1cb75141c67eba6eea Wed Jul 24 01:41:27 PM EDT 2024
          
