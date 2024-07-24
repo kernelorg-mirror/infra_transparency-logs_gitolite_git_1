@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Wed, 24 Jul 2024 15:39:42 -0000
-Message-Id: <172183558243.23858.14962743776142732945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 24 Jul 2024 15:46:25 -0000
+Message-Id: <172183598511.29785.14108350162233802100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/constfy
-    old: 6369921fd6cec7e6efae5a8c4128c203025ebd90
-    new: 9b6f24f1ea8c900b47d1565d76e2d1ec6220dec9
+  - ref: refs/heads/nfsd-5.15.y
+    old: fd359f5ae54ff9668906addd2f298283aa058c16
+    new: 7fda700e14cd903e402d32046100c9d075ff2985
     log: |
-         9b6f24f1ea8c900b47d1565d76e2d1ec6220dec9 sysctl: treewide: constify the ctl_table adjust proc_watchdoc_common
+         fffdc2975c906712143b6da6a007afdc528cebad samples: Add fs error monitoring example
+         d3045bce9416bdc3a252d8116dd91e6c07c23f60 docs: Document the FAN_FS_ERROR event
+         be4af2294d2826b9f03bf0aee80c3fd910502f6b samples: Make fs-monitor depend on libc and headers
+         97e3f540e2588ad3d3fa2c2f5ae7d3d3444036a0 docs: Fix formatting of literal sections in fanotify docs
+         7fda700e14cd903e402d32046100c9d075ff2985 Add gitignore file for samples/fanotify/ subdirectory
          
