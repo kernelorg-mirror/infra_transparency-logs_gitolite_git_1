@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Jul 2024 07:32:02 -0000
-Message-Id: <172180632238.5721.12579728396860584876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 24 Jul 2024 07:33:51 -0000
+Message-Id: <172180643170.6426.12734486105172380907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: e980e0f8ba5d19678353965229166f4dfddc67b4
-    new: e0cb1177c5f71482efb1e1012a33afbf3e5473c8
+  - ref: refs/heads/vfs.fixes
+    old: 1275fb2bfa90357b91da532c7563192351d1254b
+    new: 13b8a6c76b8d99b53cf9aacf0ddfd555053b16f7
     log: |
-         2a3e483bde283903c54e027cd06afed3f0caff67 Merge branch into tip/master: 'timers/urgent'
-         84df269b48ff55193e3dccf63260e6f7f14f78e0 Merge branch into tip/master: 'WIP.x86/fpu'
-         574a540303bf1769f5a5961fa6d9036882f1a26a Merge branch into tip/master: 'locking/core'
-         e0cb1177c5f71482efb1e1012a33afbf3e5473c8 Merge branch into tip/master: 'x86/mm'
+         52811d4ee33e97de159a8492f164c14de0d79940 fs: use all available ids
+         b6c5f158afba9904761718e5b01195fa9ed3123d filelock: Fix fcntl/close race recovery compat path
+         42418a17577c2c3891e413abd2b4ef7f9c86c1ce vfs: Fix potential circular locking through setxattr() and removexattr()
+         13b8a6c76b8d99b53cf9aacf0ddfd555053b16f7 xattr: use simple helper to copy xattr name
          
