@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 24 Jul 2024 02:51:20 -0000
-Message-Id: <172178948098.26065.17995494286284400721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 24 Jul 2024 02:54:14 -0000
+Message-Id: <172178965412.27163.8734464846837713354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: ac215c982b9b5faaaa7fc79395d886f8be5b4d29
-    new: 2d661c3ede971d0c18a2278776dcb510c46dca57
+  - ref: refs/heads/dev-test
+    old: 323fcb0b186590c7db7c4d5d18d89b704f4dd9ba
+    new: 227ed3562a9ab25cb526281fe99075e2d0c67143
     log: |
-         2d661c3ede971d0c18a2278776dcb510c46dca57 fixup! srcu: faster gp seq wrap-around
+         227ed3562a9ab25cb526281fe99075e2d0c67143 erofs: convert comma to semicolon
          
