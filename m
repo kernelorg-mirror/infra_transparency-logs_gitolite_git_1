@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 24 Jul 2024 14:57:57 -0000
-Message-Id: <172183307701.25074.1082582650250715592@gitolite.kernel.org>
+Date: Wed, 24 Jul 2024 15:00:49 -0000
+Message-Id: <172183324906.27928.9977731173215480746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/kdevops
-    old: 3e63274ca673377f5b3afdc72c280c27ca9a8c4c
-    new: 94daa3d7fe28677f35290ff2ad3c388bbd3e1733
+    old: 94daa3d7fe28677f35290ff2ad3c388bbd3e1733
+    new: caa5b3b4f4fefe52f1b95c27e188985c6c75d7e5
     log: |
-         94daa3d7fe28677f35290ff2ad3c388bbd3e1733 fs: try to replace dentry if lookup is different
+         caa5b3b4f4fefe52f1b95c27e188985c6c75d7e5 fs: try to replace dentry if lookup is different
          
