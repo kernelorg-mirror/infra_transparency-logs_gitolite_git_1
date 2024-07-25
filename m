@@ -1,149 +1,165 @@
-Content-Type: multipart/mixed; boundary="===============7234604884874966075=="
+Content-Type: multipart/mixed; boundary="===============3925748417295529820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Jul 2024 14:27:46 -0000
-Message-Id: <172191766621.8095.1692919896997608663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 25 Jul 2024 14:31:21 -0000
+Message-Id: <172191788187.11168.14108705226034839441@gitolite.kernel.org>
 
---===============7234604884874966075==
+--===============3925748417295529820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: a1d26edbbf8e7bb020c1fe3a66190d06f9417346
-    new: 1d0703aa8114ca7fa386273d01ed8a7e1b66d335
-    log: revlist-a1d26edbbf8e-1d0703aa8114.txt
+  - ref: refs/heads/master
+    old: 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48
+    new: c33ffdb70cc6df4105160f991288e7d2567d7ffa
+    log: revlist-786c8248dbd3-c33ffdb70cc6.txt
 
---===============7234604884874966075==
+--===============3925748417295529820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-786c8248dbd3-c33ffdb70cc6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721917664 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1721917662-41d9e6cc6c911098ebca44f494fd0c9d5a733ae7
+fe46d2a4301de1299fb32c0317ec316706ceaad6 soundwire: debugfs: add interface to read/write commands
+a5b7365f28c191df6b93f60942d2b9a9fe71746c soundwire: bus: add stream refcount
+9b5fd115e7d5a98b82054cff5c96f6768ee06845 soundwire: intel_ace2.x: add AC timing extensions for PantherLake
+7d5ebb62d72b5ea8a21fc62c8985dacae6a71ca8 phy: cadence-torrent: Add SGMII + QSGMII multilink configuration for 100MHz refclk
+5aa4733b1b9324e224ebe59e3672887a57d51083 phy: ti: phy-j721e-wiz: use dev_err_probe() instead of dev_err()
+3c4e13cf9ead79fac3b217e228c1c7d3db3e132f phy: ti: phy-j721e-wiz: split wiz_clock_init() function
+b5539abdd013fd3f77633413848c93f8ec84b51d phy: ti: phy-j721e-wiz: add resume support
+c2286092424bf5f889f302669580fd6862967a49 phy: cadence-torrent: extract calls to clk_get from cdns_torrent_clk
+8512b6873461c4d31f89c3260a2d5043b3f9dbb2 phy: cadence-torrent: register resets even if the phy is already configured
+d4f24d14f311b9a1af57c9726d5a3acbfa8282db phy: cadence-torrent: add already_configured to struct cdns_torrent_phy
+81472a55edce473cfc22b340c1026c6d5219ccfe phy: cadence-torrent: remove noop_ops phy operations
+0da27ed080b2c25680fb42105f3d85c0ebe38b0c phy: cadence-torrent: add suspend and resume support
+4dc7e51a9e40f07dc0da7eea05577633984ea9f2 dt-bindings: phy: qcom,sc8280xp-qmp-usb3-uni: Add sc8180x USB3 compatible
+b279a835192834565db5025205394e3ef943fbd2 phy: qcom-qmp-usb: Add sc8180x USB UNIPHY
+9d3799c3e807ab5777cda6ae48ebc127b83bc8b0 phy: starfive: remove unused struct 'regval'
+3f8bb7a7b4e016df586f464279936a5767c2a36a phy: miphy28lp: remove unused struct 'miphy_initval'
+29f09daab910c797f5468afda91a51e3e29de7ee dt-bindings: phy: qcom,ipq8074-qmp-pcie: Document the IPQ9574 QMP PCIe PHYs
+f1aaa788b997ba8a7810da0696e89fd3f79ecce3 phy: qcom-qmp: Add missing offsets for Qserdes PLL registers.
+71ae2acf1d7542ecd21c6933cae8fe65d550074b phy: qcom-qmp: Add missing register definitions for PCS V5
+2f2f5c13cc5ea87f1dd2debfd06fe5f624e5c0fd phy: qcom-qmp-pcie: Add support for IPQ9574 g3x1 and g3x2 PCIEs
+6e2fb806e08d46cbeb96c1000ef531a92d3b2e9a dmaengine: add missing MODULE_DESCRIPTION() macros
+a5dc404213192229aeac362bdca0b5fa95a42c2d dmaengine: ti: k3-udma: fix module autoloading
+45a24e40581db95f9c7ee08e0f27874daf7d3e7b dt-bindings: dma: fsl,imx-dma: Convert to dtschema
+11c63e57404e538c5df91f732e5d505860edb660 firmware: add nowarn variant of request_firmware_nowait()
+ea00def538eceda618b940fef757f55c1190e327 dmaengine: imx-sdma: don't print warning when firmware is absent
+8e9d83d7228f663ef340ebb339eaffc677277bd4 dmaengine: qcom: add missing MODULE_DESCRIPTION() macros
+261d3a85d959841821ca0d69f9d7b0d4087661c4 dmaengine: altera-msgdma: use irq variant of spin_lock/unlock while invoking callbacks
+d3ddfab0969b19a7dee3753010bb3ea94a0cccd1 dmaengine: altera-msgdma: cleanup after completing all descriptors
+54e4ada1a4206f878e345ae01cf37347d803d1b1 dmaengine: altera-msgdma: properly free descriptor in msgdma_free_descriptor
+8494ae75dde4495c73b7425543138d088133f75f dt-bindings: dma: New directory for STM32 DMA controllers bindings
+76178a2c49a7c01ef684b0d689f3da4fd12e0154 dmaengine: stm32: New directory for STM32 DMA controllers drivers
+81d09bb5249e5f844ee342cc1419e97fc9108cda MAINTAINERS: Add entry for STM32 DMA controllers drivers and documentation
+a204f64d9f834bdf7085c617aed229eb7500e331 dt-bindings: dma: Document STM32 DMA3 controller bindings
+f561ec8b2b33da6a07cf211e43c8eb35b2dd97a2 dmaengine: Add STM32 DMA3 support
+08ea31024ab9cd512c4a897bd1afd2a5820c53e6 dmaengine: stm32-dma3: add DMA_CYCLIC capability
+b3b893a937764731c41423aab4cc0c1a6821e31e dmaengine: stm32-dma3: add DMA_MEMCPY capability
+b62a13071cffad03690ee19656248077cb388a14 dmaengine: stm32-dma3: add device_pause and device_resume ops
+2088473802ab9641114681bee92ba902bccdc19b dmaengine: stm32-dma3: improve residue granularity
+10b8e0fd3f7234a38db2c8d2c8dec0bd6eeede44 dmaengine: add channel device name to channel registration
+49b1c21ff815168eca44e81ab0612b1f00759efb dmaengine: stm32-dma3: defer channel registration to specify channel name
+44eb827264de4f14d8317692441e13f5e2aadbf2 dmaengine: fsl-edma: request per-channel IRQ only when channel is allocated
+bb160502a45440d2b52c189d5a81365c01b8d494 dmaengine: fsl-edma: remove redundant "idle" field from fsl_chan
+671bc17fc4d14fed69ee86e1f7c2c972010c49ac dt-bindings: fsl-qdma: Convert to yaml format
+d1c6524e3ebe6bc1d0110e9dd85c84006f2c3289 dmaengine: moxart-dma: remove unused struct 'moxart_filter_data'
+7dcf9e82e0a05cf7b7abccd0ce1b4ca598d70f08 dmaengine: qcom: gpi: remove unused struct 'reg_info'
+8ddad558997002ce67980e30c9e8dfaa696e163b dmaengine: fsl-edma: change the memory access from local into remote mode in i.MX 8QM
+f8f530ba429a334fe1a28714787f8a98e90777ec dmaengine: qcom: gpi: clean up the IRQ disable/enable in gpi_reset_chan()
+2a0dc34bab8ede5fa50378ef206f580303eed8de phy: exynos5-usbdrd: uniform order of register bit macros
+27f3d3f6d87f650cc6b3ea08335dea749f1b04aa phy: exynos5-usbdrd: convert udelay() to fsleep()
+f2b6fc4d5c9793c556412e9a8ac122670a0d8dcb phy: exynos5-usbdrd: make phy_isol() take a bool for clarity
+32b2495e731f2a56118034e9c665e6fe56bbfe3a phy: exynos5-usbdrd: fix definition of EXYNOS5_FSEL_26MHZ
+d14c14618e851eb25d55807810c2c1791a637712 phy: exynos5-usbdrd: set ref clk freq in exynos850_usbdrd_utmi_init()
+4de480264948cbf2b08a72c39ee122a9f9761e03 dt-bindings: phy: armada-cp110-utmi: add optional swap-dx-lanes property
+bbc63e701c73bfab9f437f9661f0cbc3860097d5 phy: ti: am654-serdes: Remove duplicate define
+ea09ba7653bb53252ed96ec524991c55a38bcd0f phy: broadcom: add missing MODULE_DESCRIPTION() macros
+8e97ddd586148fe8852c388eb7c9bba70223da5f dt-bindings: phy: g12a-usb2-phy: add optional power-domains
+912cee11c14376a6f707d72fcaf343a40bff48e8 phy: qcom: qmp-pcie: restore compatibility with existing DTs
+7cd3e586068aca123ff244fc259ba62ba96b6d31 dt-bindings: phy: qcom,sc8280xp-qmp-pcie-phy: drop second output clock name
+cd13368db059de22d27e86665a378aa2a388db85 dt-bindings: phy: qcom,usb-hs-phy: Add compatible
+e4a8e87250fc2c1ed2aec5d1e8521dc7d799ea77 dt-bindings: phy: Add starfive,jh7110-dphy-tx
+d3ab7955330843699cdcc413edd7993923e6c016 phy: starfive: Add mipi dphy tx support
+7c46101aa631843ded626b823b5a412d57371812 dt-bindings: phy: Add i.MX8Q HSIO SerDes PHY binding
+82c56b6dd24fcdf811f2b47b72e5585c8a79b685 phy: freescale: imx8qm-hsio: Add i.MX8QM HSIO PHY driver support
+aefa036be8c216c8b344d34c9f35ff907b9c315a phy: freescale: imx8qm-hsio: Include bitfield.h for FIELD_PREP
+e2d0317e665884d78c56f99d2a0005213d8390b6 dt-bindings: phy: airoha: Add PCIe PHY controller
+d7d2818b93837def4a33f92da2e64c3a2752c47e phy: airoha: Add PCIe PHY driver for EN7581 SoC.
+b96f16bdf58dae08d841536820269c6b0d9c976b soundwire: Intel: clarify Copyright information
+8e8c0dfc828c3f3ba5ebcee076b979d2134a6e27 soundwire: generic_bandwidth_allocation: change port_bo parameter to pointer
+5a4c1f0207d8925c45a516d8dc85f0dd70c020ef soundwire: bus: simplify by using local slave->prop
+73115d8068b6ed59e9d728bb9067462084f02a25 Merge tag 'dmaengine_topic_dma_vec' into next
+0e53aa3464e9a0a82bd3b926ba5999a11569c9ba dmaengine: sh: rz-dmac: Fix lockdep assert warning
+372f8b3621294173f539b32976e41e6e12f5decf dmaengine: ti: k3-udma: Fix BCHAN count with UHC and HC channels
+4db6b030257283166a11de3731a39f4f7ab9656e dmaengine: virt-dma: add missing MODULE_DESCRIPTION() macro
+6c026a3e4ecf68616c6ea0beb0d7a3462ae6f843 dmaengine: ti: cppi41: add missing MODULE_DESCRIPTION() macro
+61879ffd6f6f72fe984ee343d2499e96bcf10e3c dmaengine: ti: add missing MODULE_DESCRIPTION() macros
+316d1225b1126286952d1e1a3da9da911cc00dd6 dmaengine: fsl-dpaa2-qdma: add missing MODULE_DESCRIPTION() macro
+518aee32c551d2f7d1e577f63df6dfcc80259b50 drivers:soundwire: qcom: cleanup port maask calculations
+edf9e04955d2387032beac54ebf20b43aaca2adf phy: phy-rockchip-samsung-hdptx: Select CONFIG_MFD_SYSCON
+db4eb418c71a4223b90cac34017ed1f627371da9 phy: Fix the cacography in phy-exynos5250-usb2.c
+967969cf594ed3c1678a9918d6e9bb2d1591cbe9 phy: cadence-torrent: Check return value on register read
+687d6bccb28238fcfa65f7c1badfdfeac498c428 phy: zynqmp: Enable reference clock correctly
+6959d2367bc3503ac4ba3eb4ec6584a43150d6b3 phy: zynqmp: Store instance instead of type
+235d8b663ab9e6cc13f8374abfffa559f50b57b6 phy: zynqmp: Only wait for PLL lock "primary" instances
+d79c6840917097285e03a49f709321f5fb972750 phy: zynqmp: Take the phy mutex in xlate
+04490b621ab16d09ce5b7c62b2c8cc9fdb871421 phy: zynqmp: Add debugfs support
+8d2a3539517dbf13e970b3aabdf94b04a65d276c phy: starfive: Correct the dphy configure process
+4c75fe2a5ec409b773ed5edb0e83e2f0a88d1138 phy: core: Fix documentation of of_phy_get
+e340c041b7a4c0321bfe2cb54817837c9040c739 dt-bindings: phy: samsung,usb3-drd-phy: add gs101 compatible
+bbb28a1d733a94330f5778b4cd0dbccf6c34597d phy: exynos5-usbdrd: support isolating HS and SS ports independently
+54290bd9811ecdd82c19b96093e2c78325f59574 phy: exynos5-usbdrd: convert core clocks to clk_bulk
+26ba3261215b44d466bd2093daf3796031c09c0a phy: exynos5-usbdrd: convert (phy) register access clock to clk_bulk
+497ddafe915e8d9fb4d11542d16a1ff95a3e8034 phy: exynos5-usbdrd: convert Vbus supplies to regulator_bulk
+32267c29bc7d5c9654b71e4f354064217a5fb053 phy: exynos5-usbdrd: support Exynos USBDRD 3.1 combo phy (HS & SS)
+3d83abcae6e8fa6698f6b0a026ca650302bdbfd8 dt-bindings: phy: qcom,qmp-usb: fix spelling error
+e245c725c72f8c94e5fe435fdefd6852851450b5 dt-bindings: phy: rockchip-emmc-phy: Convert to dtschema
+5854d0aa5226816575d2323e95bffdc9267d78b1 dt-bindings: phy: airoha: Add dtime and Rx AEQ IO registers
+2a011c3c12e8de461fb1fdce85fa38d308c4eb8b phy: airoha: Add dtime and Rx AEQ IO registers
+fe600c8e2dc5dde62aefc73cb1cdcc5bff3dfed7 soundwire: intel_auxdevice: add cs42l43 codec to wake_capable_list
+c326356188f1dc2d7a2c55b30dac6a8b76087bc6 soundwire: intel_auxdevice: start the bus at default frequency
+89cc1354d388ba8c8f8b41095736202a83591497 soundwire: amd: simplify return path in hw_params
+02611eeec5893c17ad85769007ecfb5cbe7a5987 soundwire: amd: simplify with cleanup.h
+1f93cb229b0e2d78233690c9ca65715e1f798803 soundwire: amd_init: simplify with cleanup.h
+ba874a8c2f895d898bbaf67f9e952425aff1557d soundwire: intel: simplify return path in hw_params
+e4fcf153d91809aefa6860d285e747fd7dd9e61c soundwire: intel: simplify with cleanup.h
+13814ed162687be08e34762040cfc2e58831219d soundwire: intel_ace2x: simplify return path in hw_params
+3dce65898e0911aa76a0a321540b78e9218b9a6a soundwire: intel_ace2x: simplify with cleanup.h
+b72d4af98cae2f74dc8061befcc3c0c2a174894f soundwire: cadence: simplify with cleanup.h
+fdd3d14ca3c8c5269174f10d33d6181173cbd0b4 soundwire: debugfs: simplify with cleanup.h
+5bcf62748f37b81fb41b112cc87c2788c8ddd972 dt-bindings: dma: sprd,sc9860-dma: convert to YAML
+b8ec9dba02a74797421c52b1226b23a4302362a6 dt-bindings: fsl-qdma: fix interrupts 'if' check logic
+9651fcedf7b92d3f7f1ab179e8ab55b85ee10fc1 mm: add MAP_DROPPABLE for designating always lazily freeable mappings
+4ad10a5f5f78a5b3e525a63bd075a4eb1139dde1 random: introduce generic vDSO getrandom() implementation
+33385150ac456f6f95a58647583d0a3887620729 x86: vdso: Wire up getrandom() vDSO implementation
+4920a2590e91bc15068e789aaf4ddc522f772fc5 selftests/vDSO: add tests for vgetrandom
+13f75d9ecf3d8efcf597dfcd8f7be7460cdaa11a random: note that RNDGETPOOL was removed in 2.6.9-rc2
+ad8070cb1b4bd40aa19a5e3f7c24d7f62c71b382 MAINTAINERS: add random.h headers to RNG subsection
+a9d47a50cf257ff1019a4e30d573777882fd785c netfs: Revert "netfs: Switch debug logging to pr_debug()"
+fcad93360df4d04b172dba85b976c9f38ee0d5e0 netfs: Rename CONFIG_FSCACHE_DEBUG to CONFIG_NETFS_DEBUG
+5bc9ad78c2f836bd2fe9b5c911f8499364ee5b6e vfs: handle __wait_on_freeing_inode() and evict() race
+b40c8e7a033ff2cafd33adbe50e2a516f88fa223 vfs: correct the comments of vfs_*() helpers
+f60d38cb02d03f39576f9c7ad13652babded2410 pidfs: when time ns disabled add check for ioctl
+9b3e15046437d0e647e1f29ac955e2a3eb94b675 pidfs: handle kernels without namespaces cleanly
+1bb8dce5dfa9d11ff83a683fab2cda2916384c12 pidfs: add selftests for new namespace ioctls
+212be98aa19303cbf376d61faf9de3ec9997c1cd netfs: Fix writeback that needs to go to both server and cache
+51d37982bbac3ea0ca21b2797a9cb0044272b3aa cachefiles: Set the max subreq size for cache writes to MAX_RW_COUNT
+8eac5358ad3bbc007156a0f9ea5637ee7ae421b5 fs: use all available ids
+f8138f2ad2f745b9a1c696a05b749eabe44337ea filelock: Fix fcntl/close race recovery compat path
+c3a5e3e872f3688ae0dc57bb78ca633921d96a91 vfs: Fix potential circular locking through setxattr() and removexattr()
+f5e5e97c719d289025afce07050effcf1f7373ef inode: clarify what's locked
+e44be00289ef3ce8195d915cf354714b14fd30a4 hostfs: fix folio conversion
+d1e9a63dcd7248385bbbccf1650d69e4af914f05 Merge tag 'vfs-6.11-rc1.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7a3fad30fd8b4b5e370906b3c554f64026f56c2f Merge tag 'random-6.11-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
+7a46b17d4c00c2547b5bd82eec9489b19128fd65 Merge tag 'dmaengine-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+ad7b0b7b87bb19ea7ee71e165e597f5fbfac76ab Merge tag 'soundwire-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
+c33ffdb70cc6df4105160f991288e7d2567d7ffa Merge tag 'phy-for-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 
-a1d26edbbf8e7bb020c1fe3a66190d06f9417346 1d0703aa8114ca7fa386273d01ed8a7e1b66d335 refs/heads/linux-5.15.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiYOAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8aYQAIc5Ni6yzBiJznZ1TAJk
-x0qKSTCsJBuTLOcRAVUQMVbKin5SLQ4i3u/Q8nvKvJao1WHArba5VHFy83cF0eN7
-M5k/fhJSgyezKA/kv6JPB50pUOBtfgJkfKYAXu3gCD4afIm00DtWcmycgmR5dyPM
-6KCaeJC6p6TDzzvLiclFukyfc5uJqhs+FLeIqVUcWV7ANPn9p3R3cH1D7o4x/mco
-y82W7sj+s+J4oCvM7LhOnhZPc8b/hFxM08Td7U/7XDyMYZffSWfTUpQSkYHkVq4C
-hOAXBLi0E3E0E3pXyNIs3wjYQTvxtzl9/iH2x7wwZ40TDXQS71TewZyL0NEr0pej
-ZM38aPqXytE/UoT4LqNoCdbEf/uqzPIMzDB4REe704xVaAFnjxrfv1xMJ1w81Al5
-vdXCOdeWxokVSXRHJBoBEgPct/PfzLmcr01sK10lcWW6qpjifx2alScOZwcfLJjK
-ql2ok7zO+KhjWKZ9AjEESSfnUsMMpMx9Eci9c88rdqhIjr55z1OIhSrWxPnIsQj0
-Pkx3dqVckDtw6QfzvCgnDpTjdcuH2gEM2q0a8EwoILAh8+P4bxomVc8SAL/UMcKV
-IRbg4fNqSvPYEwEeP8bF5ZU8rNInkNG9Tve8MzfU5ZI3ycb41+tpBEJetWsMjR+B
-Sd8E9DP1HSFW9OPrrLAoZymS
-=PZCS
------END PGP SIGNATURE-----
-
---===============7234604884874966075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1d26edbbf8e-1d0703aa8114.txt
-
-ccb83c70c4d9ddb4f9b5cf882155be50f509ca54 gcc-plugins: Rename last_stmt() for GCC 14+
-5312cb20244a2123677d10bac5a71e357805eefb filelock: Remove locks reliably when fcntl/close race is detected
-4969d9be8f622a5ebab023c5dab5e470569af4f3 ARM: 9324/1: fix get_user() broken with veneer
-6cc569c7d1a1f5dd658a6186517e8935aabbdcbd ACPI: processor_idle: Fix invalid comparison with insertion sort for latency
-50e8dce57a112f09d659ec11992546594315eacc bpf: Fix overrunning reservations in ringbuf
-45b8017fd2a6901d4e6c340a5a58d316dd9e9129 scsi: core: Fix a use-after-free
-b438eaf6161c2a1f224c02473b0658bf70661e08 scsi: core: alua: I/O errors for ALUA state transitions
-026882bd93679cc31f47acc56a898cd0d978a810 scsi: qedf: Don't process stag work during unload and recovery
-0d2c5b7acb564d0744d54bbdd0eba85a6c9e3c01 scsi: qedf: Wait for stag work during unload
-724b729dbd7e4311bebcef87df544a49f4ae22b1 scsi: qedf: Set qed_slowpath_params to zero before use
-6855c6693bae7fc2c012a2bf4fa6c67846c4dd9c ACPI: EC: Abort address space access upon error
-7ad13de666d5126a277d348265d523f66c9a7cdb ACPI: EC: Avoid returning AE_OK on errors in address space handler
-b726fea6294de3b47856d1a9982baa23451cfbe2 tools/power/cpupower: Fix Pstate frequency reporting on AMD Family 1Ah CPUs
-41589d234bcdd30b31d254dbf148f85a004c9ee2 wifi: mac80211: mesh: init nonpeer_pm to active by default in mesh sdata
-b0fef7217345bc5ab125d7f20b770e758b56b901 wifi: mac80211: handle tasklet frames before stopping
-af6e0b8534da06810d28fce082243bf4a3c0e27c wifi: iwlwifi: mvm: d3: fix WoWLAN command version lookup
-d4e795e680a4c91aa62c957d124b720f7a672956 wifi: iwlwifi: mvm: Handle BIGTK cipher in kek_kck cmd
-26d961d88c07e8a51a2d8a3fa49907e60a308e0f wifi: iwlwifi: mvm: properly set 6 GHz channel direct probe option
-50f1c137cbdae3df77256ebcacd2c94653e3ea50 wifi: mac80211: fix UBSAN noise in ieee80211_prep_hw_scan()
-014eecf7062b0224b7b27f08619781f69ece8efa selftests/openat2: Fix build warnings on ppc64
-5655a79e3e99e231bcf4e0235372d26036e14b05 Input: silead - Always support 10 fingers
-5d9ea8984755c0cef4e27cde05fff3ffdfb06725 net: ipv6: rpl_iptunnel: block BH in rpl_output() and rpl_input()
-c5975c6dbec7c71df7f97ea41c1104e121d5b108 ila: block BH in ila_output()
-b4d3c1cdda1191d27773587f4c32761d8470039a arm64: armv8_deprecated: Fix warning in isndep cpuhp starting process
-9d9b1d28a0990a870187f226e0418dd463ed75ef null_blk: fix validation of block size
-db8fc3f5fc0c601a41f291f0880ccdc09b54349c kconfig: gconf: give a proper initial state to the Save button
-799a4ec6b9811da801003ef125e696fbcaae4439 kconfig: remove wrong expr_trans_bool()
-bdb5a560d7b031f3a5a28b082ec14e13b83f5e4b fs/file: fix the check in find_next_fd()
-7c896cc7335188885d00854b4e2236c5aa0cd51d mei: demote client disconnect warning on suspend to debug
-16713b1967d00a348e74de3c1dfb4a8626b6fdd9 nvme: avoid double free special payload
-bdd57bb8bf2b2d0becd72f5b8287cc6a7d871b12 wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
-ec61ff9249c9b776b319527ea160d4a117fa1c75 KVM: PPC: Book3S HV: Prevent UAF in kvm_spapr_tce_attach_iommu_group()
-2e651a78bcf2c0a10a2a36bffeeadad8c7f2c7a1 drm/vmwgfx: Fix missing HYPERVISOR_GUEST dependency
-10e607c9708c5c549d21faf8155a2bbfc53412d6 ALSA: hda/realtek: Add more codec ID to no shutup pins list
-f1208807b151971a4ec58ab5ea676cb4045b0866 mips: fix compat_sys_lseek syscall
-191e44fdf730266be3dc40834b728f2592d092ee Input: elantech - fix touchpad state on resume for Lenovo N24
-97d2d6309e3d3ca757ddcd61f7baad138b4f3da9 Input: i8042 - add Ayaneo Kun to i8042 quirk table
-7d28916b99000a8dc0f5d598fad54c4566a8c466 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
-04cd0e899f77209792dae6bf12e91cb15378c93a ALSA: dmaengine: Synchronize dma channel after drop()
-2174ddfba06a1915e796efd062bbe720c7ece2e6 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-44633c27f79a6d030d85cf23e21c1af5bebbca27 ASoC: ti: omap-hdmi: Fix too long driver name
-8b0b87e73306ddbe56c2ade85cfcb2e31d368343 can: kvaser_usb: fix return value for hif_usb_send_regout
-5b772346f6c4d97180e69f3049b920c573c4acf5 s390/sclp: Fix sclp_init() cleanup on failure
-edb58f4f5c58eec536a2b6b2100d1d95129060fb platform/x86: wireless-hotkey: Add support for LG Airplane Button
-324c1ab37a4bb8a75f915017db3bb973993f6823 platform/x86: lg-laptop: Remove LGEX0815 hotkey handling
-ee31160713d0fe1f3a2e6aa53ae18412965fd62b platform/x86: lg-laptop: Change ACPI device id
-7dc165adefba3c37e00f31cfdf653cd616d4e379 platform/x86: lg-laptop: Use ACPI device handle when evaluating WMAB/WMBB
-cf33422c7c56f5f3c2e9f21f9148d1386585fe61 btrfs: qgroup: fix quota root leak after quota disable failure
-0cb059833057b7d70a6947bb307aa27dfd40a8d9 ALSA: hda/relatek: Enable Mute LED on HP Laptop 15-gw0xxx
-46c681fe51dee530ba37c565a4c129ea6b9ad06e ALSA: dmaengine_pcm: terminate dmaengine before synchronize
-7da71c2581caf92e447ffc8058a68aecd7255bbb net: usb: qmi_wwan: add Telit FN912 compositions
-304018fd8eefba2bf19c1c803bbde0edac676a2f net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
-4b29b686c5a58dcfe43c4531261569d600767687 powerpc/pseries: Whitelist dtl slub object for copying to userspace
-ef22c20534747784dfa791e29c08327f54b5aeb8 powerpc/eeh: avoid possible crash when edev->pdev changes
-4323c74e26cc4661c6b1bedd4ffaa0068d388f71 scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
-22ea827cfd6d4aa7d8fc21aac901dbb39f190520 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
-3b9e697d5ff2ebe40c4b5d0048c437dedadab692 drm/radeon: check bo_va->bo is non-NULL before using it
-cd48c6e38794fc63a01f84e8cf76acc46e76ea55 fs: better handle deep ancestor chains in is_subdir()
-0e7a29211743b5eaa80585c97f55497f9e339dc2 riscv: stacktrace: fix usage of ftrace_graph_ret_addr()
-df60b3545caef51acbff8ef0169aff22d70d4364 spi: imx: Don't expect DMA for i.MX{25,35,50,51,53} cspi devices
-60e05cf5cd27284675de2c1fd582787eadbec540 selftests/vDSO: fix clang build errors and warnings
-24221d532d58bb8acd08efbcc3523dc2d83cdf36 hfsplus: fix uninit-value in copy_name
-b5053ef7518316edd157a52f14d2197912d1a954 spi: mux: set ctlr->bits_per_word_mask
-dc9538160efd7799b0d79dbb0967bd2eb7d85125 tracing: Define the is_signed_type() macro once
-0962751ebacb6b2ab19642d3553da94d02b1f155 minmax: sanity check constant bounds when clamping
-c64d094ab923b0ca816a77b9d436aa091b84b372 minmax: clamp more efficiently by avoiding extra comparison
-4ac495161ab1518d76ce7a81df3d16faf89d10ac minmax: fix header inclusions
-235df095926cf5b2f297d35a1056ab734de75f76 minmax: allow min()/max()/clamp() if the arguments have the same signedness.
-6c4c7e7f60b1278ad88a399c03696c16c61c7d8a minmax: allow comparisons of 'int' against 'unsigned char/short'
-3ee88fe773deb8e66601bb0292b2092d997d2d07 minmax: relax check to allow comparison between unsigned arguments and signed constants
-7ffb84812135bee9ae11b3f3023b769c72bba72e mm/damon/core: merge regions aggressively when max_nr_regions is unmet
-a507d57ab1b29319ce8465dbeb4d266291562955 wifi: mac80211: disable softirqs for queued frame handling
-fa99c9411e041cef338fb58c730ae059af4961c5 drm/amdgpu: Fix signedness bug in sdma_v4_0_process_trap_irq()
-ac7ced5096e5c887fef8f1248b54737843721551 samples: Add fs error monitoring example
-8774d9d29a0822729d3bb11d6e114a93a18b8d85 samples: Make fs-monitor depend on libc and headers
-b01c5ac4bfe365eeb7c3372d32cc50633ae0031e docs: Fix formatting of literal sections in fanotify docs
-01eb9e719431ef43d2b0b308e69be625da93b302 Add gitignore file for samples/fanotify/ subdirectory
-fec43c24fbf0161bed1364b3e48ac723e979a543 net: relax socket state check at accept time.
-c5efc32970c53ab4fae268fd4e2c2141cf459528 ocfs2: add bounds checking to ocfs2_check_dir_entry()
-b252f8adc1183935c43b6c3429cf7cb23bb64a32 jfs: don't walk off the end of ealist
-0a5d4f87623511ff894f40ca883189b043799d5c fs/ntfs3: Validate ff offset
-455accfffe9419755efded6562fea2903808846f ALSA: hda/realtek: Enable headset mic on Positivo SU C1400
-6b89df7aaa75f6f75d6715e0669d68be0aca08a9 ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
-a15839cee9520fbb5d7ebf0d34d4008ca65f2271 arm64: dts: qcom: msm8996: Disable SS instance in Parkmode for USB
-2a23be22cb62b46ce615173003181211f5fa832d arm64: dts: qcom: sdm630: Disable SS instance in Parkmode for USB
-13194302bb1d0fbdc82f154f162d28ffb6e0f75e ALSA: pcm_dmaengine: Don't synchronize DMA channel when DMA is paused
-c5974a5722be6d43e288187b9e654bcc6a0087a9 filelock: Fix fcntl/close race recovery compat path
-1d0703aa8114ca7fa386273d01ed8a7e1b66d335 Linux 5.15.164-rc1
-
---===============7234604884874966075==--
+--===============3925748417295529820==--
