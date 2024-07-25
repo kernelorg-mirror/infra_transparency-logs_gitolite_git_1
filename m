@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1161527174141326344=="
+Content-Type: multipart/mixed; boundary="===============6188950399021967801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 25 Jul 2024 07:38:39 -0000
-Message-Id: <172189311916.3796.16101109899014473816@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 07:40:30 -0000
+Message-Id: <172189323013.6133.14258623297577851482@gitolite.kernel.org>
 
---===============1161527174141326344==
+--===============6188950399021967801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 79ff89d8df0fc2bf06c506310e8fa78a858c3809
-    new: 36440689339703f14092f6f5d788fd70f1bb8a62
-    log: revlist-79ff89d8df0f-364406893397.txt
+  - ref: refs/heads/main
+    old: 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48
+    new: c33ffdb70cc6df4105160f991288e7d2567d7ffa
+    log: revlist-786c8248dbd3-c33ffdb70cc6.txt
 
---===============1161527174141326344==
+--===============6188950399021967801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721893115 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721893229 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721893113-9765d9f1193ffdc03845a0ad34f0ab2dec3a5b68
+nonce 1721893228-a5146e887afb2d181a76e5af1f92a00b2da8f8f0
 
-79ff89d8df0fc2bf06c506310e8fa78a858c3809 36440689339703f14092f6f5d788fd70f1bb8a62 refs/heads/staging-testing
+786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48 c33ffdb70cc6df4105160f991288e7d2567d7ffa refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiAPsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mRUP/1+SaZZWEH364GvJmbrP
-LONkCUT9PxwS3Yh/QWfXPDeArNa1yFmZJWPYp5t+fSXWkaZOifRgpm/7aNl0n9x3
-02S7JUbOiQr3VpuryLYfasDIQsoorC5Qtoon1Cr77WvLpWu+oaMt0CjTPmxEZblW
-wK4vPS2YGPtwbiJbyfVUivM3YLmD41AgZ05SGOIHRLZNEzcNHoVgWIQ9ePGJFbAf
-y2bMRSFQ/gr3Xp5hCFYLhlp4YGt3xtYU6K36R5uvACgrqoCezpnOpjeLbe/xPD8d
-cT7cYiigiJubp958UjC81maw+9FLe99Jme4HF+DnL+gvluniuRVar01WViTorYbg
-44x6zEqEAj1nikwXWLuOIqvihLc5mB4Mf1hXTd93eEHjCWEw5ygickRYq1AsRw4W
-7USq1TQnWUnpV/6XECdJ8NvZle7PpJE3RNMk1RqTCza8b6mk/mEsgwX1+0+mGg1V
-TsAyPqpMe0BVdo1hZ1Yq8TdK1zxMAAexC7zqGBzlMG9avj3w+XI6Mmb7VMZCBjRC
-3eXqJRq2NyBXzLl22abNxScf3i2v7pCd96hOFhv2ypRscCR3e6/7ABeCKyyTeI91
-yqFm/cEY/zVVD0fw5l2EMbMoMCzMf5at+XhpxRT3C3pgoPyARXNk+AH94BtqRvrZ
-KMsPeaP0Am4A//cfTFTPXwQH
-=8rVE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiAW0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I0IP/1Z+LvPPdcn8lqlhClbf
+OuO39F11Jodwa0hWGmviqtPCuoYVJfSx8vsXR3xMZ8JnNRzd4N/dR9RDi2mlgz4/
+C84ZyjTq5vR/HO/UlRhEZjVybYXEvTBErpRkzeCpffUAH/3eeJRQKZplR4rbW4/6
+/yxZ8YL2VWMcx7EMDpi94Sj2m7Y7YjAL1Y73/ET863GUO1PrbTXGV8tpinbLp9j5
+x7/ESAEytKTxQ6J/DBjPLbFUNXmoRS3eGEASfLwRp4qb5055ov0R/aLq2NmtSRZf
+FAo+zsyivY6aysYO6JRk1Kw+w1v20CFV7GkM9EjyOh43XGZtmXJpzYqODndurdta
+Z6Ngp839WqmA5wFWsZno/ZyqxpEqZZAdhGBYBOL4q/wQJJ1xRZ0oB94Y1Zqzh6it
+h8p34cfaH7xisfN9POJG+ajdjK5kTd65K3R8cqSVzUV3Q575iptBK1AFxDOp4WYR
+xD3RnYJZVW2Rs3yQAA4ab5XQkPjT4hpKju2B8vuLoH4BBlqBwOWhxpjgfv4XeV9h
+vRyCWWWB2eYBSsMkJF+ek/55aq2qNft5FiFdDfmOPzHyLkN3gXyOhrCYgNxrkOxT
+2sJU33HJEB9TIebDr5MTh486MxdD1zZvyLyizfNdu6mAGVq4Bl5sxvHmAgemj7fh
+wE5St9zRHw9lfq2azBYopVkQ
+=fEML
 -----END PGP SIGNATURE-----
 
---===============1161527174141326344==
+--===============6188950399021967801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79ff89d8df0f-364406893397.txt
+Content-Disposition: attachment; filename=revlist-786c8248dbd3-c33ffdb70cc6.txt
 
 fe46d2a4301de1299fb32c0317ec316706ceaad6 soundwire: debugfs: add interface to read/write commands
 a5b7365f28c191df6b93f60942d2b9a9fe71746c soundwire: bus: add stream refcount
@@ -192,7 +192,5 @@ d1e9a63dcd7248385bbbccf1650d69e4af914f05 Merge tag 'vfs-6.11-rc1.fixes.2' of git
 7a46b17d4c00c2547b5bd82eec9489b19128fd65 Merge tag 'dmaengine-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 ad7b0b7b87bb19ea7ee71e165e597f5fbfac76ab Merge tag 'soundwire-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 c33ffdb70cc6df4105160f991288e7d2567d7ffa Merge tag 'phy-for-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-6c9862923f7d634ffefc5d85da5015fbccb37793 staging: vme_user: vme_tsi148.c: remove redundant newlines
-36440689339703f14092f6f5d788fd70f1bb8a62 staging: rtl8712: style fix multiple line dereference
 
---===============1161527174141326344==--
+--===============6188950399021967801==--
