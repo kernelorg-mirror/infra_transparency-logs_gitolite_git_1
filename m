@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8635276407438778379=="
+Content-Type: multipart/mixed; boundary="===============6301345634761452001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jul 2024 16:57:50 -0000
-Message-Id: <172192667041.22897.11741005124727991620@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 16:57:53 -0000
+Message-Id: <172192667324.22972.16444464543822226442@gitolite.kernel.org>
 
---===============8635276407438778379==
+--===============6301345634761452001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 3ba359c0cd6eb5ea772125a7aededb4a2d516684
+  - ref: refs/heads/100GbE
+    old: 19abb9c2b900bad59e0a9818d6c83bb4cc875437
     new: af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b
-    log: revlist-3ba359c0cd6e-af65ea42bd1d.txt
+    log: revlist-19abb9c2b900-af65ea42bd1d.txt
 
---===============8635276407438778379==
+--===============6301345634761452001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ba359c0cd6e-af65ea42bd1d.txt
+Content-Disposition: attachment; filename=revlist-19abb9c2b900-af65ea42bd1d.txt
 
 e1ef78dce9b7b0fa7f9d88bb3554441d74d33b34 selftests/bpf: fexit_sleep: Fix stack allocation for arm64
 afcc8e1ef7bb5c14100ba3e6ccfd4baebc80242e MAINTAINERS: Update email address of Naveen
@@ -37,8 +37,6 @@ c638b130e83e4aa47031c0e51455ecc961dfdc3d MAINTAINERS: Update powerpc BPF JIT mai
 6caf9efaa169faea10a369dd6b36806ae6842584 selftests/bpf: Test sockmap redirect for AF_UNIX MSG_OOB
 0be9ae5486cd9e767138c13638820d240713f5f1 bpf, events: Use prog to emit ksymbol event for main program
 13c9b702e6cb8e406d5fa6b2dca422fa42d2f13e tools/resolve_btfids: Fix comparison of distinct pointer types warning in resolve_btfids
-6ebbe97a488179f5dc85f2f1e0c89b486e99ee97 ice: Add a per-VF limit on number of FDIR filters
-19abb9c2b900bad59e0a9818d6c83bb4cc875437 ice: Fix recipe read procedure
 a16909ae9982e931841c456061cb57fbaec9c59e netfilter: nft_set_pipapo_avx2: disable softinterrupts
 fa96c6baef1b5385e2f0c0677b32b3839e716076 tipc: Return non-zero value from tipc_udp_addr2str() on error
 863ff546fb62a8fa75757a30794ab6ec6cc4bab7 selftests: forwarding: skip if kernel not support setting bridge fdb learning limit
@@ -61,4 +59,4 @@ ed7f2afdd0e043a397677e597ced0830b83ba0b3 tap: add missing verification for short
 049584807f1d797fc3078b68035450a9769eb5c3 tun: add missing verification for short frame
 af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b Merge branch 'tap-tun-harden-by-dropping-short-frame'
 
---===============8635276407438778379==--
+--===============6301345634761452001==--
