@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4063112924206925185=="
+Content-Type: multipart/mixed; boundary="===============6150274639650532318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jul 2024 16:55:27 -0000
-Message-Id: <172192652770.21858.6489202161940267457@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 16:57:45 -0000
+Message-Id: <172192666549.22734.15510116430785976112@gitolite.kernel.org>
 
---===============4063112924206925185==
+--===============6150274639650532318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 80ede7622969cfb7843ba99185da6c6c9e5f9365
-    new: c017057be72e14895fa2aade17b1be8b2bf63800
-    log: revlist-80ede7622969-c017057be72e.txt
+  - ref: refs/heads/1GbE
+    old: 3ba359c0cd6eb5ea772125a7aededb4a2d516684
+    new: af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b
+    log: revlist-3ba359c0cd6e-af65ea42bd1d.txt
 
---===============4063112924206925185==
+--===============6150274639650532318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80ede7622969-c017057be72e.txt
+Content-Disposition: attachment; filename=revlist-3ba359c0cd6e-af65ea42bd1d.txt
 
 e1ef78dce9b7b0fa7f9d88bb3554441d74d33b34 selftests/bpf: fexit_sleep: Fix stack allocation for arm64
 afcc8e1ef7bb5c14100ba3e6ccfd4baebc80242e MAINTAINERS: Update email address of Naveen
@@ -40,6 +40,12 @@ c638b130e83e4aa47031c0e51455ecc961dfdc3d MAINTAINERS: Update powerpc BPF JIT mai
 6ebbe97a488179f5dc85f2f1e0c89b486e99ee97 ice: Add a per-VF limit on number of FDIR filters
 19abb9c2b900bad59e0a9818d6c83bb4cc875437 ice: Fix recipe read procedure
 a16909ae9982e931841c456061cb57fbaec9c59e netfilter: nft_set_pipapo_avx2: disable softinterrupts
+fa96c6baef1b5385e2f0c0677b32b3839e716076 tipc: Return non-zero value from tipc_udp_addr2str() on error
+863ff546fb62a8fa75757a30794ab6ec6cc4bab7 selftests: forwarding: skip if kernel not support setting bridge fdb learning limit
+e9dbebae2e3c338122716914fe105458f41e3a4a net: stmmac: Correct byte order of perfect_match
+6d745cd0e9720282cd291d36b9db528aea18add2 net: nexthop: Initialize all fields in dumped nexthops
+0fa9af961102cf3a4cbf591a50f376c8ab1cf443 MAINTAINERS: Update bonding entry
+7c938e438c56dbbe1aceb128c46cebb340a3c06b MAINTAINERS: make Breno the netconsole maintainer
 5bdaf3625a07f20583ad4bcf9f0233473450be10 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 e6d08d7ecf1b675b4b174d696badc36706c4233c Merge tag 'nf-24-07-24' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 16f3a28cf5f876a7f3550d8f4c870a7b41bcfaef net: mediatek: Fix potential NULL pointer dereference in dummy net_device handling
@@ -54,14 +60,5 @@ b537633ce57b29f4c9687fea6f2d92e1ca7853fc bnxt_en: update xdp_rxq_info in queue r
 ed7f2afdd0e043a397677e597ced0830b83ba0b3 tap: add missing verification for short frame
 049584807f1d797fc3078b68035450a9769eb5c3 tun: add missing verification for short frame
 af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b Merge branch 'tap-tun-harden-by-dropping-short-frame'
-344f545f9715c21993c144f8ae2f7d710c03bf1e igc: Fix double reset adapter triggered from a single taprio cmd
-e655136b085196172b0c569c17e382466b0c5f56 ice: Fix lldp packets dropping after changing the number of channels
-955afa97e345f9003a3f0becd39256076ea7228a igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
-d9d93d57462d8adea32e361b8a0670fcc68143be igc: Fix qbv_config_change_errors logics
-34d10abf503a6f6ad5275c71ffedec9f1f06fb9a igc: Fix reset adapter logics when tx mode change
-ac248516f3b52961d1a843a2818722ba3282749d igc: Fix qbv tx latency by setting gtxoffset
-c38d3ebfa4b424ed48d4393df05598c41a47ac30 ice: Fix reset handler
-9ec3cb66c78e40dae72b836c71a0bd78417b908a ice: Skip PTP HW writes during PTP reset procedure
-c017057be72e14895fa2aade17b1be8b2bf63800 igb: cope with large MAX_SKB_FRAGS.
 
---===============4063112924206925185==--
+--===============6150274639650532318==--
