@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Thu, 25 Jul 2024 12:37:49 -0000
-Message-Id: <172191106920.18508.14335011221532134552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 25 Jul 2024 12:38:22 -0000
+Message-Id: <172191110293.18801.16310907594654992923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/next
-    old: 86c5eac3c4c4a2ee124d202af9a141bd0457ee68
-    new: 726d4f528dbc98a84d9ce3c749dfdada3dcdd5ca
+  - ref: refs/heads/for-next/core
+    old: f3dfcd25455b1cbb3c7e2d19b0a06acc6c7472a5
+    new: 36639013b3462c06ff8e3400a427f775b4fc97f5
     log: |
-         726d4f528dbc98a84d9ce3c749dfdada3dcdd5ca iommu: arm-smmu: Fix Tegra workaround for PAGE_SIZE mappings
+         36639013b3462c06ff8e3400a427f775b4fc97f5 arm64: mm: Fix lockless walks with static and dynamic page-table folding
          
-  - ref: refs/tags/iommu-fixes-v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cc87dada01ef09ae418038657716a21d7723f865
