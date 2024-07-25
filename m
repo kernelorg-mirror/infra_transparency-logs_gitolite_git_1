@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6188950399021967801=="
+Content-Type: multipart/mixed; boundary="===============1601178326760355590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 25 Jul 2024 07:40:30 -0000
-Message-Id: <172189323013.6133.14258623297577851482@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 07:40:34 -0000
+Message-Id: <172189323463.6228.7632186117529593954@gitolite.kernel.org>
 
---===============6188950399021967801==
+--===============1601178326760355590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48
     new: c33ffdb70cc6df4105160f991288e7d2567d7ffa
     log: revlist-786c8248dbd3-c33ffdb70cc6.txt
 
---===============6188950399021967801==
+--===============1601178326760355590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721893229 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721893233 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721893228-a5146e887afb2d181a76e5af1f92a00b2da8f8f0
+nonce 1721893232-a747405366e79618a786fc445734a0112a4c5ee6
 
-786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48 c33ffdb70cc6df4105160f991288e7d2567d7ffa refs/heads/main
+786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48 c33ffdb70cc6df4105160f991288e7d2567d7ffa refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiAW0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I0IP/1Z+LvPPdcn8lqlhClbf
-OuO39F11Jodwa0hWGmviqtPCuoYVJfSx8vsXR3xMZ8JnNRzd4N/dR9RDi2mlgz4/
-C84ZyjTq5vR/HO/UlRhEZjVybYXEvTBErpRkzeCpffUAH/3eeJRQKZplR4rbW4/6
-/yxZ8YL2VWMcx7EMDpi94Sj2m7Y7YjAL1Y73/ET863GUO1PrbTXGV8tpinbLp9j5
-x7/ESAEytKTxQ6J/DBjPLbFUNXmoRS3eGEASfLwRp4qb5055ov0R/aLq2NmtSRZf
-FAo+zsyivY6aysYO6JRk1Kw+w1v20CFV7GkM9EjyOh43XGZtmXJpzYqODndurdta
-Z6Ngp839WqmA5wFWsZno/ZyqxpEqZZAdhGBYBOL4q/wQJJ1xRZ0oB94Y1Zqzh6it
-h8p34cfaH7xisfN9POJG+ajdjK5kTd65K3R8cqSVzUV3Q575iptBK1AFxDOp4WYR
-xD3RnYJZVW2Rs3yQAA4ab5XQkPjT4hpKju2B8vuLoH4BBlqBwOWhxpjgfv4XeV9h
-vRyCWWWB2eYBSsMkJF+ek/55aq2qNft5FiFdDfmOPzHyLkN3gXyOhrCYgNxrkOxT
-2sJU33HJEB9TIebDr5MTh486MxdD1zZvyLyizfNdu6mAGVq4Bl5sxvHmAgemj7fh
-wE5St9zRHw9lfq2azBYopVkQ
-=fEML
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiAXIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7mcP/jQ9glOrsTCPpJxUqu2k
+lR5QUSrlXeRMKvxqEgBTF9ofSyUwLQYSNfFLcf57bjw9i2DVWXlIkbt1S9lWwL58
+WjK7z+M1+9BB0TJASyTBafUI+Q9FkdF1PWWtREiBFXvprwTIpkDahRkoLQQmdMAJ
+Mg02g7w/GP50w+b7KEa1OViOlrK/tTluwu5RqlURNXapzHkGS1FoBrMG+4Qkc0Fm
+SSHpt/daoKw5MeL+065oMP53p7PnAW8J+hwj46Wj1Q/KqEya8C+s4OJLbGbydyHy
+N4U7T7lk0Nndj/ZJIkPgQh+DDpWaQRWX4vbBeqmcMAnn7kxZzEBrmkLm59xm+GAu
+OsEKI53o04L5L/iVqr7tUuT3q6v1xfyRF2T21HjobgWAHY9kvYbCJLA3OGfTJoYq
+96Ty4jfdJtJO5JmPbLlzCoLQtKm4JZUBL8BqdKysh6eTa6dtrM5ak2yRz3T7lGtQ
+n4VddepYpBocwSvprtUY1ZDXqsnm4lWZxpBmmYsrlK9qwthPZlQFsKkYkSUv7S2r
+QEY82puvVtdvRKnmk5bmfOExjnngbbxT+HT7XRdn8d1dG7JXWtSnR2cj5EqOVVtS
+lREelnOvOfPiOuiqUp0YHVVxf+ylQAsJuXHouxQMRMQWqwGbzNBuBtNzxCPB8RzS
+XutEYC9liTJm/lMGsGYV5FOv
+=Qgrv
 -----END PGP SIGNATURE-----
 
---===============6188950399021967801==
+--===============1601178326760355590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -193,4 +193,4 @@ d1e9a63dcd7248385bbbccf1650d69e4af914f05 Merge tag 'vfs-6.11-rc1.fixes.2' of git
 ad7b0b7b87bb19ea7ee71e165e597f5fbfac76ab Merge tag 'soundwire-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 c33ffdb70cc6df4105160f991288e7d2567d7ffa Merge tag 'phy-for-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 
---===============6188950399021967801==--
+--===============1601178326760355590==--
