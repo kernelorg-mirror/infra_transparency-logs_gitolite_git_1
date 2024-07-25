@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8185269694000761267=="
+Content-Type: multipart/mixed; boundary="===============6697159045497266869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 25 Jul 2024 14:31:31 -0000
-Message-Id: <172191789132.11317.7893754409476541295@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 14:35:30 -0000
+Message-Id: <172191813047.14426.18152298565323942815@gitolite.kernel.org>
 
---===============8185269694000761267==
+--===============6697159045497266869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v4m/pwm-experimental
-    old: f23e3ba02be6aea02e70331df358d9e31a1ebba5
-    new: 849d8ec754a7824f3f645f98fe89499f53906b54
-    log: revlist-f23e3ba02be6-849d8ec754a7.txt
+  - ref: refs/heads/renesas/v4m/tpu-experimental
+    old: 56b17486c35801f7f985a144f473159cfda4a783
+    new: 664d9a88271f64e0583253dcc52d54a4f9295a67
+    log: revlist-56b17486c358-664d9a88271f.txt
 
---===============8185269694000761267==
+--===============6697159045497266869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f23e3ba02be6-849d8ec754a7.txt
+Content-Disposition: attachment; filename=revlist-56b17486c358-664d9a88271f.txt
 
 df1e9791998a92fe9f1e7d3f031b34daaad39e2f hwrng: core - remove (un)register_miscdev()
 a122a6fd72d64de1e2f7521046823e25cb269f06 Input: atmel_mxt_ts - use driver core to instantiate device attributes
@@ -1046,9 +1046,9 @@ d1e9a63dcd7248385bbbccf1650d69e4af914f05 Merge tag 'vfs-6.11-rc1.fixes.2' of git
 7a46b17d4c00c2547b5bd82eec9489b19128fd65 Merge tag 'dmaengine-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 ad7b0b7b87bb19ea7ee71e165e597f5fbfac76ab Merge tag 'soundwire-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 c33ffdb70cc6df4105160f991288e7d2567d7ffa Merge tag 'phy-for-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-40eb1f2d5ce90bb7a3c26b0c2eddc83d82325515 clk: renesas: r8a779h0: Add PWM clock
-3bac50610f6da1e4ebea51fb06630ac19ec688a4 dt-bindings: pwm: renesas,pwm-rcar: Add r8a779h0 support
-fc3f2f5fdd1aa9d963f45ca1c21813f6cf0aeb60 arm64: dts: renesas: Add node to support PWM on R-Car V4M
-849d8ec754a7824f3f645f98fe89499f53906b54 arm64: dts: r8a779h0-gray-hawk-single: Add PWM support
+62054cbf181b695548258b8d4a6e4fe75c3c331a clk: renesas: r8a779h0: Add TPU clock
+39396a3eb656ebf8e35b1ddbb6420fc933112ed1 dt-bindings: pwm: renesas,tpu: Add r8a779h0 support
+b51023e86fac8906d93e89b8ca763e46aa571f0d arm64: dts: renesas: r8a779h0: Add TPU device node
+664d9a88271f64e0583253dcc52d54a4f9295a67 arm64: dts: r8a779h0-gray-hawk-single: Add TPU support
 
---===============8185269694000761267==--
+--===============6697159045497266869==--
