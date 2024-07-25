@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4520756747000787294=="
+Content-Type: multipart/mixed; boundary="===============8635276407438778379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jul 2024 16:57:47 -0000
-Message-Id: <172192666791.22821.5315495638328288258@gitolite.kernel.org>
+Date: Thu, 25 Jul 2024 16:57:50 -0000
+Message-Id: <172192667041.22897.11741005124727991620@gitolite.kernel.org>
 
---===============4520756747000787294==
+--===============8635276407438778379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3ba359c0cd6eb5ea772125a7aededb4a2d516684
     new: af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b
     log: revlist-3ba359c0cd6e-af65ea42bd1d.txt
 
---===============4520756747000787294==
+--===============8635276407438778379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ ed7f2afdd0e043a397677e597ced0830b83ba0b3 tap: add missing verification for short
 049584807f1d797fc3078b68035450a9769eb5c3 tun: add missing verification for short frame
 af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b Merge branch 'tap-tun-harden-by-dropping-short-frame'
 
---===============4520756747000787294==--
+--===============8635276407438778379==--
