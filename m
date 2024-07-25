@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4531061701687471369=="
+Content-Type: multipart/mixed; boundary="===============5529399849829968851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 25 Jul 2024 14:18:48 -0000
-Message-Id: <172191712832.572.5019603200078552547@gitolite.kernel.org>
+Message-Id: <172191712880.636.14107349432861133248@gitolite.kernel.org>
 
---===============4531061701687471369==
+--===============5529399849829968851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.10.y
-    old: 6011353684532624cd3f59244f6f174cc053ecd8
-    new: ef0465bcafbce8b4718213a2b9fe82869788a4be
-    log: revlist-601135368453-ef0465bcafbc.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 198eef49b06f5436f3b884f2e8a0c7c432da0720
+    new: e612cf0c989653931b259859eba29d46f9e4bbc9
+    log: revlist-198eef49b06f-e612cf0c9896.txt
 
---===============4531061701687471369==
+--===============5529399849829968851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,60 +32,64 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721917126 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1721917118-d4369a2f434cd699c024532b6543703cc6dae09c
 
-6011353684532624cd3f59244f6f174cc053ecd8 ef0465bcafbce8b4718213a2b9fe82869788a4be refs/heads/linux-6.10.y
+198eef49b06f5436f3b884f2e8a0c7c432da0720 e612cf0c989653931b259859eba29d46f9e4bbc9 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaiXsYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+20YP/0JVixfF4T4zIjfM/Hwg
-nJyJJntuKbUSkAttBWLIQWJLDxzSeYd5dnEYdyL6Cxur99jizZysdbApTrvmctxk
-vMVjqMqIAn7GgxS+tsw40NtWlNItm2thcNvi8VwYINFQzkCq6dZgzsoGUmqbqz6B
-0oUZ5c9sPvsVVjqg9lyeRZ98JnXXahzzOZXFc4pzL5plPpr9NA7/PLxZIbq03Wj0
-gCxiwFX43333PCj15zcXxynoPZTpHbef1OXJTzuis1cfWGb9PBjWWfPd1uc1X5/N
-Ri9tqt8UEOnas3rYlA7MAUkCbPsdzjIT7z7sS1eMNyXySY89sL6SbN175okc+++7
-Ss1+Quofjl+Ql/HVMM8vAuQxcCvDvKL8r43cYx2JYmmFNJgJmfxPOUgV/DG6wXKj
-sGUqxnkBpFLoXfX2DMV7LCmygU6rUf+BFBX5EZqRCmLLmV5dS4qLan9MQX/aWJgn
-P3wi9+ljchYe+kWYaVaZbjsnVbiXz3+CilkrCXyUJDcxKt1NE9qiDk/9a57P7kZy
-/hk+O7YTbq6ALs1vbMTydo5YaTBhUeG7jSFgU65WuWJnBNO8L8IwzKNLtJvhDMD5
-SmhAHNcYu7yEx6fq/kjfJMKXtCQWi3SQEIRymYMJywkaIC2IL3EpcEfE/HHYYtwm
-/tOIYnBh0dDJoCi6uW4jhqYY
-=iTgD
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/7cQAKH8PQZ+Suztj3AvU0Ep
+q7RZQIC8hFaOKdjoW+ISycxR7cIRUAItpPm+zobA8lSkB6Ux2gh2tMgKeatdbJkP
+/ANlGwhkcHeXk+jr/JbNyFxoA2wKnPq7hTGCIcyHa73nTT16fl8bInqB/OUhZIlU
+oFJzPgeHzCFJrZ6KYAqxUc/NaswGtmP6ZzrQ9HJjCf2YHVUUJYvDNYlvCUdHzEbe
+80QOwhDrk1sqlEt/EBrxXFADK7GHG2ceYQdf40mFSfreawcZUAgSKDhg3o+R9KOy
+BAysicOgabvBx/AMWG/LFKAzyemipjFPGRdCuVf+4cco3V7sXkj+4MkTn9c807sr
+VustXAOTEKNCFv/pkd3rnwkb7AaQtLM4zOItK9gRygjFjbt1q2iTVsn2G2JqOXnM
+JkRD6wnjpfCB7N2G3V/WuageyTcO7Zz/RGOnMgqVMMoa+g4zQJz/ypz+V5jejGF0
+UiIwiSYoGF3mt74D8NUB/FHPiS4YCW3Xa5mOBXGuIBXQ45dDhd8wHnwoMpAvUYmx
+oxEm2/ZgV6wi5n4mXY71n0FGjMaJcio3EPzhW7zgB2xrWllJVax4kn+jBJfxsrrt
+UzOIEmkjyhIzsJ8f7k/EnTd9hx/U07BG0B1dYaO6qIIN/HCsYTK9XjrqgTpPswn1
+U8cx6gdglDYAGgWwZtYG/G3o
+=IHmk
 -----END PGP SIGNATURE-----
 
---===============4531061701687471369==
+--===============5529399849829968851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-601135368453-ef0465bcafbc.txt
+Content-Disposition: attachment; filename=revlist-198eef49b06f-e612cf0c9896.txt
 
-e30863d27626a79433c526413afc90a84ad73b69 drm/amdgpu: Fix signedness bug in sdma_v4_0_process_trap_irq()
-cd31a857891110e131afb18b6c260c7b33c5f84e s390/mm: Fix VM_FAULT_HWPOISON handling in do_exception()
-f3ae102eaabb05dde8759161ffefe2da5e0fed1b ocfs2: add bounds checking to ocfs2_check_dir_entry()
-39bb6b0139e96db12fbc5b4fece122e9c2604530 jfs: don't walk off the end of ealist
-9bd6ca77b233b014cb7b206556b48ceabe8a3d97 fs/ntfs3: Add a check for attr_names and oatbl
-b7a7612fdf50933fa712fcdc602fa42ab5b68756 fs/ntfs3: Validate ff offset
-ce8f5b16d57b3ab9112b008b13493157066cd22d usb: gadget: midi2: Fix incorrect default MIDI2 protocol setup
-86aec85c7e40bd3aeeb60601bb7ae7999034fc86 ALSA: hda/tas2781: Add new quirk for Lenovo Hera2 Laptop
-9b9ab5380b1ce356f7314b72826a52c590d22b7b ALSA: hda/realtek: Enable headset mic on Positivo SU C1400
-ce1801cdb469c8ef400919013114f27d755c7996 ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book Pro 360
-7a8eb76ad98d0b02a65af3bbe265d5cc307cfecb arm64: dts: qcom: sc7180: Disable SuperSpeed instances in park mode
-04626642555b8351c5aeb1607f93cc6190229193 arm64: dts: qcom: sc7280: Disable SuperSpeed instances in park mode
-519d94a7e13a3a7e834bc43a20a853d7a853fc79 arm64: dts: qcom: x1e80100-qcp: Fix USB PHYs regulators
-0ba36c173a799b90efa6da29ef4d880e5e80ebb2 arm64: dts: qcom: qrb2210-rb1: switch I2C2 to i2c-gpio
-167d2170a7fc6681e07feda27a8fe8fa0b16bdcb arm64: dts: qcom: qrb4210-rb2: switch I2C2 to i2c-gpio
-12cdc82a472d663562968e31ca79ab989ae3a2bb arm64: dts: qcom: x1e80100-crd: Fix the PHY regulator for PCIe 6a
-8b460f2edd65209a209b1a85138049b093f56b96 arm64: dts: qcom: x1e80100-qcp: Fix the PHY regulator for PCIe 6a
-f93251bc778df24fb5ad985b1be3018775529254 arm64: dts: qcom: x1e80100-crd: Fix USB PHYs regulators
-74573dbe3b3f50cafa554b377d75337cbf9ad5fd arm64: dts: qcom: msm8996: Disable SS instance in Parkmode for USB
-0b96ce9836fe02ec5010b041465c26630d5ab866 arm64: dts: qcom: sm6350: Disable SS instance in Parkmode for USB
-ba4f586bc53ac4e6e34ed152775b220bc0cbb410 arm64: dts: qcom: msm8998: Disable SS instance in Parkmode for USB
-adb6226aa9f9f98266ebd63f53da28e1ceed5a4e arm64: dts: qcom: ipq6018: Disable SS instance in Parkmode for USB
-11f9acb3577b32b3d2d786ed6ed59ca2e55e0d31 arm64: dts: qcom: sdm630: Disable SS instance in Parkmode for USB
-0899699fab543a93212f1cec9552b8351298658d arm64: dts: qcom: ipq8074: Disable SS instance in Parkmode for USB
-20b33dd52268987e693c7b380e5efb010df03652 arm64: dts: qcom: sdm845: Disable SS instance in Parkmode for USB
-5c6bb80c444041a9116a9f6c4cf8b84ef8ecf523 arm64: dts: qcom: sm6115: Disable SS instance in Parkmode for USB
-0aeea519d0fc191d98b46281a1943454ed65e911 ALSA: pcm_dmaengine: Don't synchronize DMA channel when DMA is paused
-e5a028210eeb8d136aabeefcaf2a4006433ae62b ALSA: seq: ump: Skip useless ports for static blocks
-484fe870f91e90186c6a01d98b7bf68782401663 filelock: Fix fcntl/close race recovery compat path
-ef0465bcafbce8b4718213a2b9fe82869788a4be Linux 6.10.2-rc1
+709435779dfa2a09295dc5fad5dca2e43ec50d45 gcc-plugins: Rename last_stmt() for GCC 14+
+29d2dde621487802d63970debd29f8e00dbe8c30 scsi: qedf: Set qed_slowpath_params to zero before use
+14fee0c28b0c79622684b2682f84fff64b17f999 ACPI: EC: Abort address space access upon error
+7895769caf8575b8fdca900114b04cbb350fcfc4 ACPI: EC: Avoid returning AE_OK on errors in address space handler
+a20f29d3bfe0cdb4dc6a774b30ca8f6061a6dc67 wifi: mac80211: mesh: init nonpeer_pm to active by default in mesh sdata
+cdeb1cbe3c7f071e3129bc5118430f69dbee08b8 wifi: mac80211: fix UBSAN noise in ieee80211_prep_hw_scan()
+d06edb1077bc346e4dfdbb3a34299dc2cc026c02 Input: silead - Always support 10 fingers
+467e0c3ff27bbcc6c92cb61aea947b074a1f189f ila: block BH in ila_output()
+e13c7b62f2bb7d6a7990dc2d929fbfae7d43cb97 kconfig: gconf: give a proper initial state to the Save button
+927cfa2ca566f4a3aec6ad523ca835a4589a5b0a kconfig: remove wrong expr_trans_bool()
+d33797b1800bb76c0732cad942e9228586e185c7 fs/file: fix the check in find_next_fd()
+2d02f51f0a19bade859a4bc866685e4ef83c9866 mei: demote client disconnect warning on suspend to debug
+6978cd2900d9c3a853845956b967d409bc5a3e92 wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
+6d44fc45a273ee272bab1aaaf3d67e76e99b9c31 Input: elantech - fix touchpad state on resume for Lenovo N24
+096bc5664bbc5a9d05ba9123a5029a0a7f1408df bytcr_rt5640 : inverse jack detect for Archos 101 cesium
+9a6c23acfb18ebb13c30cda7f0f510b64b9be75d can: kvaser_usb: fix return value for hif_usb_send_regout
+0d337925f6f99c1460ef2a34f05a4dc57bcfe471 gpio: pca953x: fix pca953x_irq_bus_sync_unlock race
+88b64783c2564bd64a7b3851d0b5f7345b455469 s390/sclp: Fix sclp_init() cleanup on failure
+13a63099a0717d4e506f9ea7734bf0da70c233de ALSA: dmaengine_pcm: terminate dmaengine before synchronize
+cd553bce69546169770cd695899fa9e7ce8a4a26 net: usb: qmi_wwan: add Telit FN912 compositions
+d0f79e328ac49b1c4a73611ecee623aad9d3ba7b net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
+6cadd8a9b760fcccd7a017c92a9663be2cb32ee0 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
+fcdc27ca06228462de2967b8ed419984874edbb5 fs: better handle deep ancestor chains in is_subdir()
+ec750530dc8f507035aa8d5e6780917e4d4c4130 spi: imx: Don't expect DMA for i.MX{25,35,50,51,53} cspi devices
+9abd67c51c7614d966fe738752cfd3393a87e588 selftests/vDSO: fix clang build errors and warnings
+2f29fbffaaa9209ed69273a882a76e971a13ee4d hfsplus: fix uninit-value in copy_name
+a0a32253dbb9d2eb991e3a3a606ca4cb04a57621 filelock: Remove locks reliably when fcntl/close race is detected
+cfdebd6f2a4705487888b29a7ab029edcae8f406 ARM: 9324/1: fix get_user() broken with veneer
+b8ec360d49d6d57ed9f8556a2e1477b643f8c8e5 ACPI: processor_idle: Fix invalid comparison with insertion sort for latency
+c6ffadb6b41f988dc1012a4784616e2667fe3950 net: relax socket state check at accept time.
+af8fa8b73217da7ca76f9ed9f2bd8b1e8b5d58a2 ocfs2: add bounds checking to ocfs2_check_dir_entry()
+f29923b89b2895c903550f56c54ee743a6ee8772 jfs: don't walk off the end of ealist
+d4b8b9c3e979bda12b4098b1a398dd2eabbfb6ad filelock: Fix fcntl/close race recovery compat path
+e612cf0c989653931b259859eba29d46f9e4bbc9 Linux 4.19.319-rc1
 
---===============4531061701687471369==--
+--===============5529399849829968851==--
