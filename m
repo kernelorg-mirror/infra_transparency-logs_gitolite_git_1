@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Jul 2024 09:27:26 -0000
-Message-Id: <172189964697.26036.8985790735118179869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
+Date: Thu, 25 Jul 2024 09:44:04 -0000
+Message-Id: <172190064430.19658.804256145556334939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/danielt/linux
+user: danielt
 changes:
-  - ref: refs/heads/main
-    old: e6d08d7ecf1b675b4b174d696badc36706c4233c
-    new: 16f3a28cf5f876a7f3550d8f4c870a7b41bcfaef
-    log: |
-         16f3a28cf5f876a7f3550d8f4c870a7b41bcfaef net: mediatek: Fix potential NULL pointer dereference in dummy net_device handling
-         
+  - ref: refs/tags/kgdb-6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09ba6d953223d3ea812cc80656e769e7a3a61bf0
