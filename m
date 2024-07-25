@@ -1,107 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============4715405042080729652=="
+Content-Type: multipart/mixed; boundary="===============6378046950900248235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 25 Jul 2024 17:57:29 -0000
-Message-Id: <172193024969.2589.3483261668135122709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Jul 2024 18:21:29 -0000
+Message-Id: <172193168945.20902.9272837961000102745@gitolite.kernel.org>
 
---===============4715405042080729652==
+--===============6378046950900248235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c33ffdb70cc6df4105160f991288e7d2567d7ffa
-    new: c2a96b7f187fb6a455836d4a6e113947ff11de97
-    log: revlist-c33ffdb70cc6-c2a96b7f187f.txt
+  - ref: refs/heads/arm64-gcs
+    old: 450d848f1ea499c6985d4d9e66c6da3209cc300b
+    new: 553099e072d8b6e5b6ebba3f17d1f27288564f80
+    log: revlist-450d848f1ea4-553099e072d8.txt
 
---===============4715405042080729652==
+--===============6378046950900248235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c33ffdb70cc6-c2a96b7f187f.txt
+Content-Disposition: attachment; filename=revlist-450d848f1ea4-553099e072d8.txt
 
-b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
-7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
-6d89df61650d155b9033d9f507f3580f9177e623 reset: ti-sci: Convert to platform remove callback returning void
-eef3811433a53b7db2ea7d2be809e23a70ff42bc Merge branch 'reset/next' of git://git.pengutronix.de/pza/linux
-41929cce09f991992f16608fb5adfd3c2f809adb fsi: master-aspeed: Convert to platform remove callback returning void
-d1c9c5a03b6507e8dc8fe9656d5ab4b9582c3d1c fsi: master-ast-cf: Convert to platform remove callback returning void
-826788bbad497a65687ac32bb8468c4e25b7f702 fsi: master-gpio: Convert to platform remove callback returning void
-29f102dbb11fe1b2f4ea68e3a5721255f37f8bc6 fsi: occ: Convert to platform remove callback returning void
-49fc3ffe9f7c239319f009ce3f5dd0cc5bfc64fa pps: clients: gpio: Convert to platform remove callback returning void
-1cb394e644a000aa6dbe92d1278c712ddc5bbcf0 gpu: host1x: mipi: Benefit from devm_clk_get_prepared()
-bf9ca9f36975efc8306622d29e521cb5459bd168 drm/imagination: Convert to platform remove callback returning void
-573a39d05053cb234a9ac3c7b0b359fb3258bd76 drm/mediatek: Convert to platform remove callback returning void
-17e1b2db37df9b06f586b960e2a30379d6bc1c1c gpu: host1x: Convert to platform remove callback returning void
-4402a5aa9732d870753ba7b945c812d9bd64f1c9 gpu: ipu-v3: Convert to platform remove callback returning void
-521558275731c040136ebdd6dfc84864ce9d9a96 nvdimm/e820: Convert to platform remove callback returning void
-4998f389c981f092d2aceab5b47163c5ef7f4d0f nvdimm/of_pmem: Convert to platform remove callback returning void
-45e7d78ef5e93520e574c05d27bcb3b69234486c samples: qmi: Convert to platform remove callback returning void
-0edb555a65d1ef047a9805051c36922b52a38a9d platform: Make platform_driver::remove() return void
-161364bdcfc4386652f26857c357982a6f517fd2 samples/kobject: add missing MODULE_DESCRIPTION() macros
-1968845d358e108cfbfba45538d64b3cbdf04ac2 driver core: device.h: Group of_node handling declarations and definitions
-bd7246a19ed85451befc3c8fc6038a7d955e7d5f Merge tag 'platform-remove-void-step-b' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux into driver-core-next
-d7d3ae441e29f0ca56c69cdd3a47769227b7be3d dca: make dca_class a static const structure
-97b1974547c517d8b5cba1fa0cc7213399ff0d2c drivers: arch_topology: Refactor do-while loops
-880f5f58fd1aa22540d7e24693f411f6416b86d3 drivers: arch_topology: use __free attribute instead of of_node_put()
-dd6e9894b451e7c85cceb8e9dc5432679a70e7dc kobject_uevent: Fix OOB access within zap_modalias_env()
-477e36546e6fa79282427d5b82a9a9a67504de1a nvdimm: make nd_class constant
-ff985c759778986f55cbc557055fbeb84ee833eb auxbus: make to_auxiliary_drv accept and return a constant pointer
-841b7ebf819491b4a7e701ee4d42a55810606c96 driver core: platform: fix ups for constant struct device_driver
-0725e8f9c442650924271a35017e6cce4315f3f1 driver core: driver: mark driver_add/remove_groups constant
-33ebea9bc0a36f62590d37d0a3c859759181573e driver core: make device_release_driver_internal() take a const *
-f6e98ef5f78a106821d451f9783dd96ba8551cb3 driver core: make driver_detach() take a const *
-c6c631d2b72b9390587cd1ee5b7905f8ea5bb1ea driver core: mark async_driver as a const *
-b5dd424181f33c2978562c64b286fc22cf5ef4bf Merge tag 'v6.10-rc4' into driver-core-next
-fca3eff7d36bcd1a51d2c256ccebbe3617d4fe3a parport: make parport_bus_type const
-a674fefd17324fc467f043568e738b80ca22f2b4 rust: add abstraction for struct device
-de6582833db0e695ba0c548e3cc2ad7dbb6aa260 rust: add firmware abstractions
-2f3cfd2f4b7cf3026fe6b9b2a5320cc18f4c184e driver core: Make dev_err_probe() silent for -ENOMEM
-269e974e664207cc45f83b579565ba73de1b75dc driver core: make [device_]driver_attach take a const *
-bbe98f4fde5a52aa01a1e1d754e1398228815fb0 firmware: rust: improve safety comments
-7bd08093999898c0c35c4e90102cb2daebfadd9a MAINTAINERS: add Rust FW abstractions to FIRMWARE LOADER
-892fb846d6a04ad95c22ae8c758fd8998a0d237c MAINTAINERS: add Danilo as FIRMWARE LOADER maintainer
-4ead6c37b04aa35943ea270f09db18ebb38e63ff device: rust: improve safety comments
-6b521fc111a2ad5ead39776960d3d2d289ce0722 MAINTAINERS: add Rust device abstractions to DRIVER CORE
-d69d804845985c29ab5be5a4b3b1f4787893daf8 driver core: have match() callback in struct bus_type take a const *
-23c6859677066fa3d6bb3672703636dd673cb5dd driver core: platform: Switch to use kmemdup_array()
-c884e3249f753dcef7a2b2023541ac1dc46b318e devres: Fix devm_krealloc() wasting memory
-bd50a974097bb82d52a458bd3ee39fb723129a0c devres: Fix memory leakage caused by driver API devm_free_percpu()
-56a20ad349b5c51909cf8810f7c79b288864ad33 devres: Initialize an uninitialized struct member
-997197b58bf6e22b8c6ef88a168d8292fa9acec9 devres: Correct code style for functions that return a pointer type
-2c61b8c51d21d1b10c2881aa9c9918ff49f6fb7d firmware_loader: annotate doctests as `no_run`
-a23b018c3bf646274f02edd46bf448c20c826d94 firmware_loader: fix soundness issue in `request_internal`
-ab7a880263c30b1675850a584c206770f5545c2f driver core: make driver_[create|remove]_file take a const *
-f8fb469147e7db57e3f78d46f3f427705b4a1935 driver core: make driver_find_device() take a const *
-67c1ba551eed771d18c48b7bf7e97379ad8f616d driver core: module: make module_[add|remove]_driver take a const *
-c9add2e607a1ca63cc84bd1a7ab04d513096f37e zorro: make match function take a const pointer
-af46fe8c41de5b79358c3007e3854dda9c61c7dc dio: Have dio_bus_match() callback take a const *
-d794a7410177f05b05232fc8cac46db196eafb00 watchdog: Make watchdog_class const
-9dca7a0ae50c9cff5c510aeb6587f92e530fd1fe watchdog: starfive: Add missing clk_disable_unprepare()
-b771d14f417e9d8030ab000b3341cf71266be90e watchdog: imx7ulp_wdt: keep already running watchdog enabled
-5e7069f296fb681111388bc69b9950afb552e722 watchdog: rzg2l_wdt: Restrict the driver to ARCH_RZG2L and ARCH_R9A09G011
-9e69846c68f5489e9a3d7375215beb1842ef89e1 watchdog: rzg2l_wdt: Make the driver depend on PM
-f0ba0fcdd19943809b1a7f760f77f6673c6aa7f7 watchdog: rzg2l_wdt: Use pm_runtime_resume_and_get()
-471e45a33302852bf79bc140fe418782f50734f6 watchdog: rzg2l_wdt: Check return status of pm_runtime_put()
-064319c3fac88e04f53f3460cd24ae90de2d9fb6 watchdog: rzg2l_wdt: Remove reset de-assert from probe
-900b938335f7fbd401dcba14c8069dbf38ed1f28 watchdog: rzg2l_wdt: Remove comparison with zero
-d8997ed79ed7c7c32b2ae571e0d99a58bbfd01fe watchdog: rzg2l_wdt: Rely on the reset driver for doing proper reset
-0aad7c4438b2e87359cd7b42c3e11b17f477ab8f watchdog: rzg2l_wdt: Add suspend/resume support
-022ec3b59c01a2bb6949fe61a5ef340c88b905bf dt-bindings: watchdog: renesas,wdt: Document RZ/G3S support
-e777798e67d9ba46cf56ad49919c1e86c5ee3213 sysfs/cpu: Make crash_hotplug attribute world-readable
-2c58070fde0fffe494d9e38b0ccedbda01c512ff watchdog: lenovo_se10_wdt: Convert comma to semicolon
-1bb3b542cb1b68e40d4323592fdc9bd222c4f84a watchdog: rzn1: Convert comma to semicolon
-63d097d46799dc6ab4d1430482cd5ab6a409c4ec dt-bindings: watchdog: dlg,da9062-watchdog: Drop blank space
-28e8b7406d3a1f5329a03aa25a43aa28e087cb20 dma: fix call order in dmam_free_coherent
-b57d5ffc3ab507d0e19fc8b90b19c76af43fb790 ARM: sa1100: make match function take a const pointer
-9cf601e865198c72e2a53118eaf37dcfd9a6cf1f Merge tag 'dma-mapping-6.11-2024-07-24' of git://git.infradead.org/users/hch/dma-mapping
-b2eed73360dffea91ea64e8f19330c950dd42ebb Merge tag 'linux-watchdog-6.11-rc1' of git://www.linux-watchdog.org/linux-watchdog
-c2a96b7f187fb6a455836d4a6e113947ff11de97 Merge tag 'driver-core-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+28f381de621a4cc380c19ffaf1be85278bc7370a fork: Support shadow stacks in clone3()
+e3b7d9b765822a8e04e74665838a8dc65130ac83 Documentation: userspace-api: Add shadow stack API documentation
+0d99f23cb9afd8cda1f945738d1c30128e88a5ef selftests: Provide helper header for shadow stack testing
+cbbcbc1a0ff90f43e88471aa29d943f2d79474b4 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
+7f2ee1f6fc701a524d06bb7cc70744baef1e7f54 fork: Add shadow stack support to clone3()
+1ca48fe5724c12bee66c816ffdee6b569eae9bcf selftests/clone3: Remove redundant flushes of output streams
+34920ab2de4d096c1c1ccc1379068cab02aa2310 selftests/clone3: Factor more of main loop into test_clone3()
+b4127583c908b6b5a45369032306db701a5e2cf4 selftests/clone3: Explicitly handle child exits due to signals
+a7744d328a1d656a955347dd0a584e3a1de73a56 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
+50439135ffcf078659492913a121539af6189cf1 selftests/clone3: Test shadow stack support
+250426a1ef29e58f27c9e0937f13caf4683186ed arm64/gcs: Provide support for GCS in userspace
+f1b9ac0af94a8a80523ddcb390fc934d87620502 arm64/mm: Restructure arch_validate_flags() for extensibility
+711a87ffd7d9747f7b65055b1a82088aa3c83439 prctl: arch-agnostic prctl for shadow stack
+fa28f5f4f1a06b467e70e930250f101bb0ffcd82 mman: Add map_shadow_stack() flags
+9561e9768be5cc8d71ba777d4f852d64a20021a3 arm64: Document boot requirements for Guarded Control Stacks
+bb4263f032e8b98d99bc1da9075457ce46142f70 arm64/gcs: Document the ABI for Guarded Control Stacks
+96eb976877ca10180c8d27c73fdd2eac0f63ba16 arm64/sysreg: Add definitions for architected GCS caps
+1770e99ac3263191e272d1bdfbd99f59bf37821b arm64/gcs: Add manual encodings of GCS instructions
+08d87d6b26c75abd5e220d3a9e5831c6d5e632da arm64/gcs: Provide put_user_gcs()
+88b039c41569630f921ee2f0541e3bc0dd12a43f arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
+0976b5b829778221b71305e2c7ca84b2fec27391 arm64/mm: Allocate PIE slots for EL0 guarded control stack
+79fb22f689d2ac04458c727896f17c8e19b15663 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
+e5fc829af49848cc2cdf73f6a73023412f3e1a8b arm64/mm: Map pages for guarded control stack
+a5d0256df303db7c3c8d9dc15160b5470574c26c KVM: arm64: Manage GCS registers for guests
+ec552e79343f46dba00d8ff92c4e16df912be316 arm64/gcs: Allow GCS usage at EL0 and EL1
+be7f02acb217728ef11e2464db53ae8ed40efa08 arm64/idreg: Add overrride for GCS
+5ec5f260ac97ad9a53a472b8ce2dcd0f674aba1b arm64/hwcap: Add hwcap for GCS
+274dd5e76101e01b37ad3cc2af8287b4000fe6b1 arm64/traps: Handle GCS exceptions
+8c58e141c01a8c84ce305f6e24d221fe8400437a arm64/mm: Handle GCS data aborts
+1d2c2c7b5a32f286d1edcf0d79810d6ac90136c5 arm64/gcs: Context switch GCS state for EL0
+8e72fb81722ca0d2de6b9665ccdf13538b917bb0 arm64/gcs: Ensure that new threads have a GCS
+89b45bb3557de682e5fd65a721bd1380471a9dd5 arm64/gcs: Implement shadow stack prctl() interface
+d0f93980803f44c729921b6a484570a10f755c74 arm64/mm: Implement map_shadow_stack()
+89ef2a6bb03784144b9cebe820583119b40c9df6 arm64/signal: Set up and restore the GCS context for signal handlers
+93e7eb4f848feb737b0b465cf2585b42d1716092 arm64/signal: Expose GCS state in signal frames
+d2a4b30010f2c81d98f57d1369f2c8a11077bf70 arm64/ptrace: Expose GCS via ptrace and core files
+ece66f9874ade78883462f45bbc1c6fd9b8d9d1e arm64: Add Kconfig for Guarded Control Stack (GCS)
+2b272f572e11cba24db988c7054b2f64e367664f kselftest/arm64: Verify the GCS hwcap
+8a46fcfb81b4c7239c9074da8e268ad0b15a7d0d kselftest: Provide shadow stack enable helpers for arm64
+589e636b5db99e783a01def1f03341c8d5735dbe selftests/clone3: Enable arm64 shadow stack testing
+38bb851e80e20debca8e417026bff0a9bfeb260b kselftest/arm64: Add GCS as a detected feature in the signal tests
+5696b74f8ef7f11c485c99ebca7d78e465e40d6c kselftest/arm64: Add framework support for GCS to signal handling tests
+06d749062d35180eb3cb14916f386ba08d39d277 kselftest/arm64: Allow signals tests to specify an expected si_code
+b16cd90e20ad6f4256d46934ab5545cd343de352 kselftest/arm64: Always run signals tests with GCS enabled
+eee64b7622ee266dc0c373b108c89fc9ed91516e kselftest/arm64: Add very basic GCS test program
+489ee9b3527978c107e317fc4803d54b6fba3dea kselftest/arm64: Add a GCS test program built with the system libc
+cc0deb463d536f8e0f4665e4124445b71ec17c5d kselftest/arm64: Add test coverage for GCS mode locking
+a9ee539aa829187ec5172a4e72356ca7bb3601a1 kselftest/arm64: Add GCS signal tests
+5cd4921718767dfc6257f5e48072035d92aa25b7 kselftest/arm64: Add a GCS stress test
+553099e072d8b6e5b6ebba3f17d1f27288564f80 kselftest/arm64: Enable GCS for the FP stress tests
 
---===============4715405042080729652==--
+--===============6378046950900248235==--
