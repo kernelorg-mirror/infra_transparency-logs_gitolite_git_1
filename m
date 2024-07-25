@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Jul 2024 12:12:05 -0000
-Message-Id: <172190952511.32206.16288889422394547372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Thu, 25 Jul 2024 12:37:49 -0000
+Message-Id: <172191106920.18508.14335011221532134552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 7244100e038924405f996a19bc08d40871fe3110
-    new: 6189fa6faa09fcf75fa1131a4290ff86f37bd2ba
+  - ref: refs/heads/next
+    old: 86c5eac3c4c4a2ee124d202af9a141bd0457ee68
+    new: 726d4f528dbc98a84d9ce3c749dfdada3dcdd5ca
     log: |
-         e33e15b62d440d1a6c7ac8811aa4d1e548876d26 selftests/bpf: Update xdp_redirect_map prog sections for libbpf
-         6189fa6faa09fcf75fa1131a4290ff86f37bd2ba selftests/bpf: Integrate test_xdp_veth into test_progs
+         726d4f528dbc98a84d9ce3c749dfdada3dcdd5ca iommu: arm-smmu: Fix Tegra workaround for PAGE_SIZE mappings
          
+  - ref: refs/tags/iommu-fixes-v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cc87dada01ef09ae418038657716a21d7723f865
