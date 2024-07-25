@@ -1,116 +1,152 @@
-Content-Type: multipart/mixed; boundary="===============4919623041797341713=="
+Content-Type: multipart/mixed; boundary="===============4181887486948762289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 25 Jul 2024 23:25:01 -0000
-Message-Id: <172194990118.18620.3587326867708778369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 25 Jul 2024 23:26:28 -0000
+Message-Id: <172194998850.20852.5720745353531793015@gitolite.kernel.org>
 
---===============4919623041797341713==
+--===============4181887486948762289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/dev
-    old: 90ee211b8c7dd88e846d53f1dc774769f6e426d9
-    new: 38768839dbe467ba9ca17b256f6a640f9fc84992
-    log: revlist-90ee211b8c7d-38768839dbe4.txt
-  - ref: refs/heads/dev.2024.07.18b
-    old: 0000000000000000000000000000000000000000
-    new: a6c7779283d67a409b81616a5b485ac21637d7e7
+  - ref: refs/heads/damon/next
+    old: 644621d38dfb0da38104a846eae8afac053e7b2a
+    new: 31ef26a98ffe9bc8a8c29542fb0a91b9a512cd64
+    log: revlist-644621d38dfb-31ef26a98ffe.txt
 
---===============4919623041797341713==
+--===============4181887486948762289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90ee211b8c7d-38768839dbe4.txt
+Content-Disposition: attachment; filename=revlist-644621d38dfb-31ef26a98ffe.txt
 
-d42d1c52a984a8ffae3d7460c50b12f27a84f173 rcutorture: Remove redundant rcu_torture_ops get_gp_completed fields
-239ceb7c6c15d3be3118fc176e75111b4844d79e rcutorture: Add SRCU ->same_gp_state and ->get_comp_state functions
-744c1485cdd2e9db1c46d746a87137347a5c6501 rcutorture: Generic test for NUM_ACTIVE_*RCU_POLL*
-65fbf3810c6f945bf31aede671545de73c62f0ba rcutorture: Add CFcommon.arch for arch-specific Kconfig options
-8ba39dd3a5a1a9247ec3765ed0c815619467bc1c rcutorture: Make rcu_torture_write_types() print number of update types
-08cc39a5d6c4295f9a24081c59c994cf2ab96b2e tools/rcu: Remove RCU Tasks Rude asynchronous APIs from rcu-updaters.sh
-924aef06643ec14fb25cb0aad4602bdd25e0022d doc: Remove RCU Tasks Rude asynchronous APIs
-fc08f5377e65b3d51e577b803ffd6827f68bc695 rcu: Allow short-circuiting of synchronize_rcu_tasks_rude()
-ae5e92244877ba44ef4813321b41ec9ec7eef111 rcutorture: Stop testing RCU Tasks Rude asynchronous APIs
-069ce16607274577d7c92e4717da246cac9f8d81 rcuscale: Stop testing RCU Tasks Rude asynchronous APIs
-2ca038ad98f88b2032231ea97b6ea7514d0a5664 rcu-tasks: Remove RCU Tasks Rude asynchronous APIs
-4fd81d117d1bd33bae76db89719300f77d7c833f lockdep: Fix deadlock issue between lockdep and rcu
-9a44f1ba213adf989a27fb12c372a1d1f1847ea4 rcu/kfree: Warn on unexpected tail state
-cbc71478485e9ec4807467abfcef66836cef724b context_tracking: Tag context_tracking_enabled_this_cpu() __always_inline
-182c8c27b633bc21070298249ffcb3038116d7e5 rcu: Better define "atomic" for list replacement
-862a6497d7be35fb429c28efad033c37f2871b57 refscale: Add TINY scenario
-41935819cebe7040c2ad502e05aa94bd93b26648 locking/csd_lock: Print large numbers as negatives
-e37e73641fac8e733e8800a6d2a53e35df200af1 locking/csd_lock: Provide an indication of ongoing CSD-lock stall
-eacad325309fe7d8f0c5c12183c2e59d1ff25a07 locking/csd-lock: Use backoff for repeated reports of same incident
-43531c1fd02d945a19d7a58cbe14846b1109d475 rcu: Summarize RCU CPU stall warnings during CSD-lock stalls
-02d01738e0d224f87d16817dfca1b99652b68ebc rcu: Extract synchronize_rcu_expedited_stall() from synchronize_rcu_expedited_wait()
-de46d7c4dacda2f1d61fdce3b10e76c08bf8bda1 rcu: Summarize expedited RCU CPU stall warnings during CSD-lock stalls
-dec7d1ef322eaf0afeab7b5e6a89b66beb7bd15b rcu: Let dump_cpu_task() be used without preemption disabled
-62595b4293c3fe0edf4cb48a3052419a2a1eac3f rcu/nocb: Introduce RCU_NOCB_LOCKDEP_WARN()
-938802405527fe310528fae8f3d7ab2fe922535b rcu/nocb: Move nocb field at the end of state struct
-5418134c6d5f57b90f029150a902d3f3cec0a353 rcu/nocb: Assert no callbacks while nocb kthread allocation fails
-5e86e3861192c6de9d08d746b0ef7537da329b8e rcu/nocb: Introduce nocb mutex
-43f66d9da152bc143526b96518e71d9a66a7b19c rcu/nocb: (De-)offload callbacks on offline CPUs only
-632d23567b694aa8daf6e28607c2fdc64288a3cd rcu/nocb: Remove halfway (de-)offloading handling from bypass
-834895118dd3452d7bd61d2a93404df895988d4d rcu/nocb: Remove halfway (de-)offloading handling from rcu_core()'s QS reporting
-228737abccbbc9e9e7a953b1067fd078aab78039 rcu/nocb: Remove halfway (de-)offloading handling from rcu_core
-7b9c79c18ef76fbd0b4aa435d1b8e89b9e1985de rcu/nocb: Remove SEGCBLIST_RCU_CORE
-4e9c6083001cbfee0831e94b0da4734bfdbde844 rcu/nocb: Remove SEGCBLIST_KTHREAD_CB
-23bad27bfc93767a7a6bf38d378eccacc6619d94 rcu/nocb: Simplify (de-)offloading state machine
-58212f0affc9a317a1a7adc58ec716445dce7414 Merge branches 'nocb.21.07.24a', 'rcutorture.21.07.24a', 'rcustall.21.07.24a', 'rcu.tasks.rude.21.07.24a', 'fixes.21.07.24a' and 'misc.21.07.24a' into 6.12.rcu.merge.21.07.24a
-1ae02839866a0a4991063b1f6cef1c25ae850499 rcu-tasks: Fix access non-existent percpu rtpcp variable in rcu_tasks_need_gpcb()
-ffbe92a8f145e8ae68bbb3e6d70988c39d18f790 srcu: faster gp seq wrap-around
-ac215c982b9b5faaaa7fc79395d886f8be5b4d29 refscale: Optimize process_durations()
-2d661c3ede971d0c18a2278776dcb510c46dca57 fixup! srcu: faster gp seq wrap-around
-04225c21b25698dd73b76a684289ad951cb27e15 rcu: Use system_unbound_wq to avoid disturbing isolated CPUs
-07ff64bd972df3b6326680bab8b0ce6e8a270e3c smp: print only local CPU info when sched_clock goes backward
-7992bfc1bf9544e0398abda08a6603f3e4af2bd2 Merge branches 'non-rcu.2024.07.04a' and 'neeraj.2024.07.25a' into HEAD
-be40691737b0afe7c385dc9588c88e6272bb8014 clocksource: Improve comments for watchdog skew bounds
-e71f503fcffec1fab18d22bda7133ad295a0fb4e clocksource: Fix brown-bag boolean thinko in cs_watchdog_read()
-62a6e0b03cb20866c658e51b554311099cde1ffd tools/memory-model: Document herd7 (abstract) representation
-33ef712a33aef1d56ec94c8c3ac116ae7b5730e5 clocksource: Fix comments on WATCHDOG_THRESHOLD & WATCHDOG_MAX_SKEW
-134b916dcdd3d0f95935016865ed412720e50059 tools/memory-model: Add locking.txt and glossary.txt to README
-eb408862b36685dc76df283e18c43285cb26e5f6 tools/memory-model: simple.txt: Fix stale reference to recipes-pairs.txt
-cc54c37f46b7af3a1066919e41bb30f006adf2ed kcsan: Use min() to fix Coccinelle warning
-48d483cffa4d07053d3b9ac086ada24e66890a74 docs/memory-barriers.txt: Remove left-over references to "CACHE COHERENCY"
-1d0206c04729dcee33af25ba73b218daac70348b MAINTAINERS: Add the dedicated maillist info for LKMM
-49d6dc1f144853f2177f6060cce34f3d53f89aee smp: Fix missed destroy_work_on_stack() calls in smp_call_on_cpu()
-48ea0a12ea19ae3884371e259b659ac5e70e32bf tsc: Check for sockets instead of CPUs to make code match comment
-4c31246d4be7c5e5317438869dffb5eba0acbf35 clocksource: Set cs_watchdog_read() checks based on .uncertainty_margin
-8c62f7f4286a2cce4770680a9e8952d9f03f6613 srcu: Check for concurrent updates of heuristics
-54ff7b22b9062495092737217877be2bdd3dabd4 rcuscale: Save a few lines with whitespace-only change
-5ba2066fd11064a92794817c4c08e71e04f1364e rcuscale: Dump stacks of stalled rcu_scale_writer() instances
-d0b7710f281658ddea4e34ad55a2960069f0a82e rcuscale: Dump grace-period statistics when rcu_scale_writer() stalls
-2a4f625d81c0175889b66f739711d2ea314d75bc rcu/tasks: Check processor-ID assumptions
-47550a4cdc250ed09e8d0e2ad4433e4c11e54654 rcu/tasks: Update rtp->tasks_gp_seq comment
-a0845ef9af02ad346359dac0af27853991b2e892 rcu/tasks: Mark callbacks not currently participating in barrier operation
-755202aa8cf0ba776b7400e10c416f982a9da08c srcu: Mark callbacks not currently participating in barrier operation
-08375b45c1a8e4026628fafae3446093a2423efa rcu: Mark callbacks not currently participating in barrier operation
-d4e39be8632e97a0608db1f874bd0b51c7999a7e rcu: Provide rcu_barrier_cb_is_done() to check rcu_barrier() CBs
-a1a4f609770b0f3c373727467b44c1e8936c8c2d rcu/tasks: Add detailed grace-period and barrier diagnostics
-3f78642296665aa93a5495e1bba3fb4fe1d653c0 rcuscale: Print detailed grace-period and barrier diagnostics
-ab26e161426e221c45bc883f65a6a608333387dc rcuscale: Provide clear error when async specified without primitives
-78d2c3ca1513d493356f1a2917a7f41232740813 rcu/tasks: Add rcu_barrier_tasks*() start time to diagnostics
-dcb44c0fac95db8f01a70ed7471db8f03f96baf4 rcuscale: Make all writer tasks report upon hang
-475a3f3ece3947f0079ae170382bd6b5a33a892c workqueue: Add check for clocks going backwards to wq_worker_tick()
-0cfceaf827063f7d534828c3b743f504ab40bee5 rcuscale: Make rcu_scale_writer() tolerate repeated GFP_KERNEL failure
-03daa943d474f56ca2612325c4addaad301034e3 EXP srcu: Make Tiny SRCU able to operate in preemptible kernels
-331f248e4cd16669451688deaebdee9642790e17 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-1214a65b71f6b012f574b1ca908e9dce36df4bba EXP x86/syscall: Mark exit[_group] syscall handlers __noreturn
-005888fe71ac6883bd5037243fc9d860568fa67e EXP rcu Move wakeup out from under lock
-e5f4b264c0d77eabae5b97d0fc5952a33c6d9246 rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
-d4f8cad29253d2d919ee4234a9a71638d4e05953 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-1a52b29cff347732d9f2f6b2df0dff80a433c14e rcutorture: Add rcutree.nohz_full_patience_delay to TREE07
-ccadaf885bf22fb8891c7bd10ea7d67ca6d23cb1 rcutorture: Add a stall_cpu_repeat module parameter
-b7b597fe03bd75eb7a5ed017b5f6084693f4cd55 rcuscale: NULL out top-level pointers to heap memory
-7d331b8686e4bf28ce70e7df4ec6ab8294f74993 rcuscale: Use special allocator for rcu_scale_writer()
-e5ae5466062dac54def9b482290ce5984cd941ce rcuscale: Count outstanding callbacks per-task rather than per-CPU
-38768839dbe467ba9ca17b256f6a640f9fc84992 exit: Sleep at TASK_IDLE when waiting for application core dump
+b75409cb8693439422d03881c030cb88eff08b47 MAINTAINERS: mailmap: update James Clark's email address
+9fd9717aed9163de248f3af6e276d1b54d84ee1a dt-bindings: arm: opdate James Clark's email address
+b728a52760e2b58a6a0daf61aeaa23af91b87282 mm: fix old/young bit handling in the faulting path
+7fd282f0961eede1ffd70a4cae7f354a61aae6d6 mm: huge_memory: use !CONFIG_64BIT to relax huge page alignment on 32 bit machines
+0d20ea5266412dbb0a513a26ca2089ec346d1562 mm/huge_memory: avoid PMD-size page cache if needed
+0e601f11c7d6541df58d64c777eceec1469e73d5 decompress_bunzip2: fix rare decompression failure
+9041b9e6efe430719ce7bdff7a971eb08d8b45a4 alloc_tag: outline and export free_reserved_page()
+2ee111c7aa54eb8702fd928d91763db6f0d17738 mm: memcg: add cacheline padding after lruvec in mem_cgroup_per_node
+8b8b74c6cab91b041771f9b9b3b94dce7aea75c2 mm/page_alloc: fix pcp->count race between drain_pages_zone() vs __rmqueue_pcplist()
+6d326ba4248c961438cad04b7b174b566989161b selftests/mm: skip test for non-LPA2 and non-LVA systems
+45cdc409bb4ec64bb71bb13cf275ba3be3750626 selftests: mm: add s390 to ARCH check
+cdba37ac1920e2aacd43daf8a90ca0439de53bec nilfs2: handle inconsistent state in nilfs_btnode_create_block()
+e8d35f8424961cb27320ae9a97e34a03019b5714 mm: add node_reclaim successes to VM event counters
+bb2e0aef323ccf0f75e1d0e43b528fe76b1aeb03 mm: vmalloc: implement vrealloc()
+9ea8eb8e34c4dca553d117997734aeb60c8cdf8c mm: kvmalloc: align kvrealloc() with krealloc()
+74af8629dc179284a8d87ee65b8788d297981f42 userfaultfd: move core VMA manipulation logic to mm/userfaultfd.c
+b9c2451a720fa600ad3232debaa079b59dbd44da mm: move vma_modify() and helpers to internal header
+f970dd35637c6d2113c2f86212e052eb1378d014 mm: move vma_shrink(), vma_expand() to internal header
+5d8bced8a13b982f03ca4e597ec960d9876c6cd1 mm: move internal core VMA manipulation functions to own file
+26bcb011ee17bcef196e919fa679ed00978d0a21 mm: drop inappropriate includes
+f0f0d5bd34fe08c4f2c5d700a78745e5d9ea1a03 MAINTAINERS: Add entry for new VMA files
+28b9ae6595bee04731ef31a05c3098b2ddda0800 tools: separate out shared radix-tree components
+e01ed396f0b41d33e095129283d10f1883e82677 tools: add skeleton code for userland testing of VMA logic
+0f0d8b179483fc62425df4b0c0d8f93ed8c26eb6 mm: shmem: simplify the suitable huge orders validation for tmpfs
+ee2448497eb776f8cb5b885c63175ccacad0b7ff mm: shmem: rename shmem_is_huge() to shmem_huge_global_enabled()
+153ec7fe765ea2417302e2414a73e3abf7c3dc6c mm: shmem: move shmem_huge_global_enabled() into shmem_allowable_huge_orders()
+8b8317e99079e8b425a58a50c549fb68199dd2ad mm: fix typo in Kconfig
+fe53db611175ddfd36ae2ffd797725f3e9d738ef shmem_quota: build the object file conditionally to the config option
+556472c0432f8f78eac84f43b81760abb7fd71fc mm/hugetlb_vmemmap: don't synchronize_rcu() without HVO
+4155521f205c0f4b02fca1360e67d1879047f5ef mm/damon/lru_sort: adjust local variable to dynamic allocation
+fc453899dc2b11610e4387e0ddb2fd0b2f8b2d5c mm: cleanup flags usage in faultin_page
+f0e8d22ec702eed6fa3765c1b92b555a5f0d48ee mm: remove foll_flags in __get_user_pages
+22a1b42f23a560f5a15519526bc9f9e6f8f628cf mm: kmem: remove mem_cgroup_from_obj()
+a1254b575ff7cab8d6f27de1b84f988eed9b4dd1 mm: extend 'usage' parameter so that cluster_swap_free_nr() can be reused
+a08bc268205e4ba25260192125c299bc914c38ef mm, memcg: cg2 memory{.swap,}.peak write handlers
+dd10a21532960f78e25f34f1be9489ba1f434760 mm, memcg: cg2 memory{.swap,}.peak write tests
+c4e0f8dc35b56fb4b51cbf82bc338a41a712958c memory tiering: read last_cpupid correctly in do_huge_pmd_numa_page()
+07075eb7bf4357fa9925f15a374340502b5a616a memory tiering: introduce folio_use_access_time() check
+199f198c80da5f2df0fb14a82dc2f3545d3b9fca memory tiering: count PGPROMOTE_SUCCESS when mem tiering is enabled.
+c4417f35861a08f898c0f202f781b25a03d9baac kasan: catch invalid free before SLUB reinitializes the object
+462dda1c062c94bc2f8e48c0c33bccf5cbd2a79c kasan-catch-invalid-free-before-slub-reinitializes-the-object-fix
+cc35285b5b13c3c2b3be71ba04923302499d5ef4 slub: introduce CONFIG_SLUB_RCU_DEBUG
+a107ca496c9025bc55be317ec6579f2470ad3d74 lib: zstd: export API needed for dictionary support
+9ddb6ba9a1b0f01de4713ced6fed686e400c4d7d lib: lz4hc: export LZ4_resetStreamHC symbol
+b3d2acac09735310afcc014e46572417fedf0eb9 lib: zstd: fix null-deref in ZSTD_createCDict_advanced2()
+369e3a158d7281ced1f5e83e63d2677ae30a3eee zram: introduce custom comp backends API
+4955297751a5e431d2b8b0551f0c707726655c54 zram: add lzo and lzorle compression backends support
+5105078020af3b5f9d4cd4d6d6894092934ba85f zram: add lz4 compression backend support
+f4ad9c371101b2f580381910aa1a45444de15bb5 zram: add lz4hc compression backend support
+e0f793ef18bb4dd78ec1b78a794a4b3f043ebd9a zram: add zstd compression backend support
+4a02cc568072c01a3a2966f139385209094abaee zram: pass estimated src size hint to zstd
+f478f1a7265d0307509dfe21c5d3bf080a21c320 zram: add zlib compression backend support
+f5d4b41ca44aafc9565de441bb9523e34a1908c4 zram: add 842 compression backend support
+e718c6dc98f5bc3d0910295b5dfc56558610c9b4 zram: check that backends array has at least one backend
+b9a623165173936e293efe00d7a8c00f6fd919c2 zram: introduce zcomp_params structure
+854725484cb520f7810be077a9420e7334f6f28f zram: recalculate zstd compression params once
+1bbad369c81bd73fec511c7cbea77123d1b1f381 zram: extend comp_algorithm attr write handling
+f4f6655258f3604c1506b5cab34137594961952d zram: add support for dict comp config
+229ff17e6ee1472f72844ef9e7455e2a12697ce0 zram: introduce zcomp_req structure
+1bc4aac3191c3449417f29320d778c0cbc02aca7 zram: introduce zcomp_ctx structure
+87b7d829f26bd28efc4cd370e66cccf642920fd8 zram: move immutable comp params away from per-CPU context
+bba5e38fe864903a115661376b0955bd7610513e zram: add dictionary support to lz4
+7ec2a02b47fa39f127a8d386e7778cd2ebce3e45 zram: add dictionary support to lz4hc
+ab26e7951e29f18ddb3f028694289647a6727c7b zram: add dictionary support to zstd backend
+fd29129b0b4b9e892ab29c7afd04dd223258ad13 Documentation/zram: add documentation for algorithm parameters
+0500ae8adbca7a495de6c82a3d7fe731552b23f1 mm/swap: reduce indentation level
+290466ee0c1211ad7274ddceb92c4e1ce4ba1da7 mm/swap: rename cpu_fbatches->activate
+a4a6be0b9d9822d77435dd196b89d4b3a11548f5 mm/swap: fold lru_rotate into cpu_fbatches
+92120692c0c30a96ca295eff213f4b762fd647b8 mm/swap: remove remaining _fn suffix
+36ef5ff0bc52075c49de892c6484d114f9969d78 mm/swap: remove boilerplate
+cc8e3f8ae1cdced581e9d545f62e791c966c56a9 mm: shrink skip folio mapped by an exiting process
+eebd8ab42d201f10e8c1a14ac6bb5a7bbf26a7a7 memcg: increase the valid index range for memcg stats
+3bec30da14991c8fabd76ddf469307759964b8dd vmstat: kernel stack usage histogram
+166b42f978be8d8704bf5b598ed11c7574faa992 task_stack: uninline stack_not_used
+12ee656029bdfdcf1619294121c4dbb3e9a7cb52 mm/hugetlb_cgroup: introduce peak and rsvd.peak to v2
+49238cadf283614a09ad3e1f0e5dfe9ec61be85f mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
+1d83265e9a7d8eacbd0855bd0977298db61f7350 mm: fix endless reclaim on machines with unaccepted memory.
+b39b3892d20a337489c55806f91af581474f3943 mm: optimization on page allocation when CMA enabled
+9944515992bebd08a98a7d94b074e3a6584139ac === mark start of DAMON hack tree ===
+20c715a32275eda8d5059bc5bfacf8bc4b897c72 Add -damon suffix to the version name
+ee3a5125cf84532023af28603389837d37a1d830 === temporal fixes ===
+a76758643afbd87fc9912093021b7f02d82acf88 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
+329245ae63643659691ab396053a02d17094e1bf === patches written or reviewed by SJ but not merged in -mm ===
+8291c17af31ac737b3015fc1b6a1486f13e7d131 === merged in non-mm trees ===
+091a0691bb29aa6a9c72aa294b4a1c272304307d ==== docs improvement for mm ====
+92afe8e968859dbe3f237eff9126e19b97f2e77f ==== docs fixup for corbet ====
+3c113ca9be52ee977d2b38e8e41f7f6411528b87 === commits aiming not to be posted ===
+ef64074aebd00ba764a66f37162d8f1aea4059d8 mm/damon: Add debug code
+a5e4455e57e7195b1a628915fcdd7d0fb51ed7a9 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+e383fb9cf37a51b8373d0ee4d257252e414ea3e7 mm/damon/core: add todo for DAMOS interval validation
+b991dbb8d324333907d3aeba07fdf59dec06f3d0 mm/damon/core: add debugging-purpose log of tuned esz
+93e075007e0cb654f3ddcb126c0c8613d4c21cf4 Add debug log for PSI
+3f19f473bf2ceefda92c47a5dedd08cc571e7045 === hacks in progress ===
+6d1c31a376c643a30e14b04108441d9115cb4b96 ==== ACMA ====
+81f654d72018cf9773631f932fae0db635452fbd mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+2b7755820d08954657d5e28b36ddd21094e9eff7 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+79f02bbed14d4d9fafa41e9cdf147abb144b9907 mm/page_reporting: implement a function for reporting specific pfn range
+8cb094777f146a2fd07ca91ffab27f510786d858 mm/damon/acma: implement scale down feature
+ab8c171591bd761ea0c2dd8f5eae9e103c3b2442 mm/damon/acma: implement scale up feature
+d55cd4e01cb2db694d838c5b2de47c4568df6c42 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+cc63a9520b133e1a8b344fad255d9a4f061c7cb0 ==== write-only monitoring ====
+d9fe466a8c25e0337edd95f48b3f1a4a49c82aaa ==== docs fixup for non-mm ====
+da4b8474e1b2aa7f35885c04ce26c5ad6fa5a5f7 Docs/translations/ko_KR: move howto.rst under process/ directory
+4996041cb52200b217e5e90812c6643bfa47eff8 Docs/translations/ko_KR: Link memory-barriers wrapper with other language versions
+5261d9cd71cb0e8c743eb681fb7ae844d53180e9 ==== docs for DAMON and mm ====
+bf5056fa1f4a26e312a45256ca4b2f4a86119b34 Docs/mm/damon/design: add API link to damon_ctx
+5ee90609caaa85194f5fc17d931f2781137b81ce MAINTAINERS/MEMORY MANAGEMENT: add mm document files as managed files
+d15cca5da8beb0ba03c82dc57c39fbc93c2f50a5 Docs/process/2.Process: Update mm tree URL
+eb8b029038ab6a32afc69e9e1114b2670d117bfc ==== DAMON tests fixup ====
+750176bbb1ed602226841398aefc7c4ddb8ac0b0 selftests/damon: add access_memory_even to .gitignore
+8e74cc1773d0c49663ad6b361fc06e8875f375d9 selftests/damon: cleanup __pycache__/ with 'make clean'
+48556cd4bf17ef25c3d408d734a4935a26bb1b69 selftests/damon: add execute permissions to test scripts
+8f15e918afed3624ca8af67c9e07f27cd1c24b4c tools/testing/selftests/kselftest/runner: warn non-executable tests only when really cannot execute
+c46cc72d0b34fd1f46a3a726c9449d105db75fd9 mm/damon/Kconfig: select DAMON modules to test when test config is set
+567c7d645a875bd153fb634436dd8c632d687849 mm/damon/core-test: test only vaddr case on ops registration test
+dd33948d3482a4c85439b111189793b40346ff7a mm/damon/core-test: fix damon_test_ops_registration() for DAMON_VADDR unset case
+090391d241f5c35e64c5b93237c623ff4634505a mm/damon/dbgfs-test: skip dbgfs_set_targets() test if PADDR is not registered
+52d6cbc6d4aa60df896ad78b7a9f72689bf1a86b mm/damon/dbgfs-test: skip dbgfs_set_init_regions() test if PADDR is not registered
+d1ba4c0193cc4d52a2f9d21f1493564c545184ef mm/damon: move kunit tests to tests/ subdirectory
+adc3b7a2bb404b664b6404fe3e5ce80921a27ad1 mm/damon/tests: Rename test files to have _kunit suffix
+5e72897f673d662a1a71d8ebc88c67813d3a5044 Docs/filesystems/9p: Convert a goo.gl URL to original one
+31ef26a98ffe9bc8a8c29542fb0a91b9a512cd64 net/ipv4/Kconfig: Convert goo.gl URL to the original one
 
---===============4919623041797341713==--
+--===============4181887486948762289==--
