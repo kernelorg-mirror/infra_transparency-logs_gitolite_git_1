@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
-Date: Thu, 25 Jul 2024 09:44:04 -0000
-Message-Id: <172190064430.19658.804256145556334939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 25 Jul 2024 09:50:32 -0000
+Message-Id: <172190103290.25385.2123586650868905103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/danielt/linux
-user: danielt
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/tags/kgdb-6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09ba6d953223d3ea812cc80656e769e7a3a61bf0
+  - ref: refs/heads/master
+    old: 13c9b702e6cb8e406d5fa6b2dca422fa42d2f13e
+    new: fa5ef655615a01533035c6139248c5b33aa27028
+    log: |
+         fa5ef655615a01533035c6139248c5b33aa27028 bpf: Fix a segment issue when downgrading gso_size
+         
