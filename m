@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3720456864047303598=="
+Content-Type: multipart/mixed; boundary="===============1294519621297254751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 26 Jul 2024 14:27:30 -0000
-Message-Id: <172200405026.7430.9095379742434387829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 26 Jul 2024 14:28:29 -0000
+Message-Id: <172200410983.7878.17014903470616962303@gitolite.kernel.org>
 
---===============3720456864047303598==
+--===============1294519621297254751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: c22dd7ec2b2808b2bd0e6fcef156f1cd390afc4f
     log: revlist-b46e5b667738-c22dd7ec2b28.txt
 
---===============3720456864047303598==
+--===============1294519621297254751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -238,4 +238,4 @@ e5623ca830e4a7c71cf3d4ae03ce52922ce46cc9 perf annotate: Convert comma to semicol
 8b6740928d81ddbbbf707f067c0bd1c55c81934a perf daemon: Convert comma to semicolon
 c22dd7ec2b2808b2bd0e6fcef156f1cd390afc4f perf inject: Convert comma to semicolon
 
---===============3720456864047303598==--
+--===============1294519621297254751==--
