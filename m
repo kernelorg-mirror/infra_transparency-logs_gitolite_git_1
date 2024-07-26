@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 26 Jul 2024 20:28:09 -0000
-Message-Id: <172202568965.16017.9158000015569204804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 26 Jul 2024 20:34:08 -0000
+Message-Id: <172202604809.19844.1782812609854684917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7d72b22385786b232eafcd3cbfc44653909866da
-    new: af21689dd0f1ef6f40d6ecc323885026a07486f9
+  - ref: refs/heads/dev-queue
+    old: fdb0139b96d0fa8ac0202f74cd6e20572a8d9e19
+    new: 9e36cf8c8f4eee458dbc0fb9629a40159c704961
     log: |
-         d4d3df108980f11a1a3340aec30dcedfde2ee1a5 build: Always run distcheck with all compression libraries
-         929ca4c92ab7b341117994e083ac09ede2d0b70c libkmod: Move xz-related functions to separate file
-         24d78fed155784e82baa550c96f203c704f78ede libkmod: Move zlib-related functions to separate file
-         d84631afc229cac76e674c40ed483a03b2ec16dd libkmod: Move zstd-related functions to separate file
-         b5a2cd070def74f07075e0018289a9fcf12e1a68 Use SPDX header for license
-         d4f659e12a2b08a8bdb9f089b8ce0254c0ff460d Drop the one line short description on sources
-         af21689dd0f1ef6f40d6ecc323885026a07486f9 depmod: Remove license/copyright from the middle
+         90f493d114c4aa6fd15be5e375564fe21a72fb88 igb: prepare for AF_XDP zero-copy support
+         8563e219db856f25efb5de7a3492667f7efae6bb igb: Introduce XSK data structures and helpers
+         a342412fab87c8c97be329f89675c6d6456d11fc igb: add AF_XDP zero-copy Rx support
+         9e36cf8c8f4eee458dbc0fb9629a40159c704961 igb: add AF_XDP zero-copy Tx support
          
