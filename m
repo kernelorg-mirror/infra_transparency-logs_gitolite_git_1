@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3444484620168430448=="
+Content-Type: multipart/mixed; boundary="===============6304769298728321138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 26 Jul 2024 07:05:42 -0000
-Message-Id: <172197754225.4447.8625884623799730672@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 07:05:55 -0000
+Message-Id: <172197755528.4633.15986558736779464372@gitolite.kernel.org>
 
---===============3444484620168430448==
+--===============6304769298728321138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,91 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 716364610ecc9ec1b8d9754def2f88f1b4453e0f
-    new: 0a1a65dc05b27c18b8730072d2586708d6d90c12
-    log: revlist-716364610ecc-0a1a65dc05b2.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 13f3efb40ee1218ae1933c1a9f876c2a86c48664
+    new: 6b3558150cc145a5ebe7f22d20a01e58d3d88a10
+    log: revlist-13f3efb40ee1-6b3558150cc1.txt
 
---===============3444484620168430448==
+--===============6304769298728321138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721977540 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721977553 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1721977535-46a6ed76275fd4f385ffa9ce04722377ab6cdd89
+nonce 1721977550-236aeaf4b17a1034fb448e44aea21655230c9744
 
-716364610ecc9ec1b8d9754def2f88f1b4453e0f 0a1a65dc05b27c18b8730072d2586708d6d90c12 refs/heads/linux-4.19.y
+13f3efb40ee1218ae1933c1a9f876c2a86c48664 6b3558150cc145a5ebe7f22d20a01e58d3d88a10 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajSsQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S8IP/R9MdFne2OhSUHQkzBrC
-CgtZQhBDF2+7FYJgdQG+A9rYC13awyQXfxK4MShsneCW8SAx8wGL8T/DE2kEunpT
-1t9uI30y5DwD7o3s6aokR3BixlvtPlLz4SGoSoXqpjZwcwPPhneDTKjAKS1iGTKW
-rDh1mfO4o4bUP87y/anezt7UgJGhH0GXSSr65t+SG64OVPHiD6uI5v5tzQkRENPD
-YfwBuL7S7MCiqcUoPu+8HOeYQBAJIs7N7O8n25F+g00ksQzx82hga/ldk3RrbeSd
-s8O6JhD28rxrRyflwg4Fevkp/ATf5isoZQ9TKXKek7vf8iat5s58Qag2e9v/1iJ1
-t2VMxK0a4zfMbQSyCugKbmm1KuLQfcKM0G0cQK/7Fm6JRKwp1qeP/39ZarXWSjb6
-ylaWdK5OUwP93RWNgt0ltC4EejpktYGvXyhicvsfjar+1rfyppNK5AfRLjZfLQyV
-NyqaK16kKA4wbm6dAu7YwhYq9GO/szYOquDKuCdc2IAUze5/Eg2GKP7pYxoaPNNp
-yuzHwH/G7JhhZVkp9YDd/6PA2VjigkvuiziErdGyJp2iu4sCgDrrQ5aXgS663U/w
-MjLKhZGdnCkSxUWxSdmGwoMUUuPXz+SyykTXrpnIcL+kfhGR+xpvRsR+ONDmoHnU
-H/fwgtx4Y0mZvjnkYEeubFTp
-=hABS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajStEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wNQP/Rbcs1QRIdsDPkYspao1
+ELBWlLNa/OxgK8GWVrCh7yL8+Vl6k7JbJcZIUW+hhxc6JM5zwgI3zCTr0NwId+iW
+zjh5UhSfwcyq685pSQQnfO+ukyDpwtnMZ1e4kCsAYvbQQOWCqSCRf3iALpd4Jkn8
+vypB4TAnWysXTXkggQ0Wy/zUEqHoNEL3ALlqQ4/dr0Wtd7KykMYceUalU06tNrvy
+0IwVwkQqBoTFakU8HhbIUCqIrGRF7BENPx4e3sd+YbfDejHsD7Busl9cdvyLS0V3
+dSWgPwF0Uot9yDKa4WmCs0convOA3fzFyrv3SLfTHlUzh4+KwT0h0+8C8rt1xBfH
+LZSUchiLToxV5wYv1rIoytcDJMYtMKR+Lh/Rv2q0y0V6XXopfc6TYIzJwL/qMrId
+kh05Nbc9Rynxbrnl1xJGdMLFgZeDK0+3qKZfOYreHplejPd9DdXEeZBz2mkMd7Jh
+qGtz0r4/jMB3+j1jeSL1xc9C6WiOX1apmh/5NTFeExIqXysLLd+GA6v+9+HwgP5R
+bvORgVXpDlAvebNdU4bZFqsE+5MMLEmVEabDQHlYyg4i4/UiHSX+zSe8xVvAPH9N
+/U/uP/LjnD/bgfqcI9ZN9t2nmgnM70xAqmYitFAz0iJu6nEfBDu8Z7C1p3eFwxh0
+LEi8mEV7HXNvaobSKcnp0RgV
+=G8yF
 -----END PGP SIGNATURE-----
 
---===============3444484620168430448==
+--===============6304769298728321138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-716364610ecc-0a1a65dc05b2.txt
+Content-Disposition: attachment; filename=revlist-13f3efb40ee1-6b3558150cc1.txt
 
-6b4ee3d12a455a732a9d23c2ddde90dd4228b81f gcc-plugins: Rename last_stmt() for GCC 14+
-323050174284c23f828838b4e03eaf3e6c84bd4d scsi: qedf: Set qed_slowpath_params to zero before use
-a1673df252a5d0d702758a9d89bd61e2a6210a04 ACPI: EC: Abort address space access upon error
-af0d5ee03fa8714404045377b09ceabdadfc313c ACPI: EC: Avoid returning AE_OK on errors in address space handler
-97c16109c868f8ee38302b9fd4a20f27f98f24a3 wifi: mac80211: mesh: init nonpeer_pm to active by default in mesh sdata
-249b4236a9f6695f39dcf904462e2243f3b10761 wifi: mac80211: fix UBSAN noise in ieee80211_prep_hw_scan()
-4ba22b5e8c50ab90d65f60b30fc8ffa80a326511 Input: silead - Always support 10 fingers
-7527b0cd845e4dea040623932bd72743b4af4027 ila: block BH in ila_output()
-60d0d78537548f93a421f8eba844fadc56e61343 kconfig: gconf: give a proper initial state to the Save button
-f99b8f03631ef0dd96ad84480f66924db83ef0bc kconfig: remove wrong expr_trans_bool()
-7126db80458258fa6a89d82d00258a74ddf7149e fs/file: fix the check in find_next_fd()
-a51a7c46193289d01eb833e27a95a2ad829959db mei: demote client disconnect warning on suspend to debug
-64869ed5fc117718335e1f59a3ce66a960d00002 wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
-ad7bfd9a197016d4a8645849d9121281ecad697a Input: elantech - fix touchpad state on resume for Lenovo N24
-8e774bee8d2deee26625ebf10acba1247984b311 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
-c84d8f07106d51edf46ee3c9e7fe647098dd6944 can: kvaser_usb: fix return value for hif_usb_send_regout
-1edb7f26c274e05de7c90ab35ef1a72e22e6f830 s390/sclp: Fix sclp_init() cleanup on failure
-798eaff3cc65b3a85c582cc6f3fa8647b0a9a0ea ALSA: dmaengine_pcm: terminate dmaengine before synchronize
-cb37ee283a5b4bd88014bb521c131d74254c3c8e net: usb: qmi_wwan: add Telit FN912 compositions
-f84a88cca4ffe6be833a64e36fa008d7b4373a3a net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
-fc5092f5c8e826aa574f71c38032004d473cf5f4 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
-0ecdb95d07f18af6b250b203bbb12434f05c8a78 fs: better handle deep ancestor chains in is_subdir()
-1d5b17a935d141509e70efa5f3ebadabce023af9 spi: imx: Don't expect DMA for i.MX{25,35,50,51,53} cspi devices
-ee27c1e75801ee5fc89d08f8bae6992f50cebfeb selftests/vDSO: fix clang build errors and warnings
-999e66505e30ab9f0cebcf796057b8ce5af4b13a hfsplus: fix uninit-value in copy_name
-486a8f715540cd1284d011203e1cbe505535589d filelock: Remove locks reliably when fcntl/close race is detected
-5bd4115b09683a44aa636f8282a2957d506ed45c ARM: 9324/1: fix get_user() broken with veneer
-d87b2d45489960011fdedd1a3f493a8bc3d0cdcd ACPI: processor_idle: Fix invalid comparison with insertion sort for latency
-d9c503f244206977e6e536d2905493f8cbad73c7 net: relax socket state check at accept time.
-8f052635da42ba3863ed2e170fe76df70efc9fac ocfs2: add bounds checking to ocfs2_check_dir_entry()
-d1538b178a45966df1122e5e4ed69ab4edca4331 jfs: don't walk off the end of ealist
-9e7c0d7710c34f99c2b9da34d4db33759b855ecc filelock: Fix fcntl/close race recovery compat path
-0a1a65dc05b27c18b8730072d2586708d6d90c12 Linux 4.19.319-rc2
+2f78fdfc76bcfc4a5b9891eb45bf392ee167e399 gcc-plugins: Rename last_stmt() for GCC 14+
+7287f521462728bb3418a2a006f072cc7457877f filelock: Remove locks reliably when fcntl/close race is detected
+3b31e49363edec460a514bb4cf30d2dc7ea96c5a scsi: qedf: Set qed_slowpath_params to zero before use
+b058fe7be9b98578f4196de515e1a26d669a37f6 ACPI: EC: Abort address space access upon error
+1370f1f9df0661b148d897dbcd718d1342e3fd09 ACPI: EC: Avoid returning AE_OK on errors in address space handler
+8e64d536e36c61d9ef25ef63420af80a6f4fe102 wifi: mac80211: mesh: init nonpeer_pm to active by default in mesh sdata
+bc4fbde968cb001b8036f1990889233c675de849 wifi: mac80211: fix UBSAN noise in ieee80211_prep_hw_scan()
+567df551f37dcacbe9ba0461943105150c3e25e7 Input: silead - Always support 10 fingers
+a58949e1db73f8525f2e3c67e89d7ee384d1ef5f ila: block BH in ila_output()
+605e7ef1e25060360fd9751450f34369a053b306 kconfig: gconf: give a proper initial state to the Save button
+60a144158dce8b0f3d586d67e9dace91ac13d2c7 kconfig: remove wrong expr_trans_bool()
+7e9fc3e72ac163e0104e4588ff8e74c8dee74aba fs/file: fix the check in find_next_fd()
+fbceaa187e158f372f51a5cb2f6cd50111284001 mei: demote client disconnect warning on suspend to debug
+02794a60ce80ffd76cadc4b9a903cefad781294c wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
+6ccc07511b6063f7b946d40bd138e8076d14e067 KVM: PPC: Book3S HV: Prevent UAF in kvm_spapr_tce_attach_iommu_group()
+1d68cd04ae84b4da2fca2a66bfc068d48b649282 ALSA: hda/realtek: Add more codec ID to no shutup pins list
+09d942f94009a24292eb1031f55207091d5a06f4 mips: fix compat_sys_lseek syscall
+cf1e52e20abfee9238a56746f28a3531bb1af40b Input: elantech - fix touchpad state on resume for Lenovo N24
+0026078d573e06d03644b0a15a92cdff9d822ea4 bytcr_rt5640 : inverse jack detect for Archos 101 cesium
+e85eddb51c8466c01b9a204df7c218552bb5d222 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
+dd960ed644618d3cc4f00291d607dcb3a97f47cf ASoC: ti: omap-hdmi: Fix too long driver name
+bd8cfb159be6f04a021aa2a1fa35ab3e772aa214 can: kvaser_usb: fix return value for hif_usb_send_regout
+e0b7f45e992918a781c887d77a070aac1a9dd56b s390/sclp: Fix sclp_init() cleanup on failure
+38137b5a77254e496d0aaac34487c9f9cb661614 ALSA: dmaengine_pcm: terminate dmaengine before synchronize
+aef932fa0129f11c0223d250428cc37446786328 net: usb: qmi_wwan: add Telit FN912 compositions
+7577c2237abb85e2b9b6787bd61a4bbd0401b8a6 net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
+eb41545617be3d75bdddbbd6b7e8d83257ca3164 powerpc/pseries: Whitelist dtl slub object for copying to userspace
+2e82d18411989518bc58742050ae8ebabba201dd powerpc/eeh: avoid possible crash when edev->pdev changes
+d19218a28ef1ca51fe92d938a32e529bed316fae scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed
+8f981edaef8257bc40ce4b319b7dc1e6acdfb644 Bluetooth: hci_core: cancel all works upon hci_unregister_dev()
+452a6ca45a0b1818192a134d0734a4bb5b50d6ff fs: better handle deep ancestor chains in is_subdir()
+21693edfd1fbbcc3233ff82bff1724dbe672b7b9 spi: imx: Don't expect DMA for i.MX{25,35,50,51,53} cspi devices
+792188fc9e15246ac81026ce3b4a64c3c8a6bf06 selftests/vDSO: fix clang build errors and warnings
+e4a142acc1203f6e7825157715d4272275fbc080 hfsplus: fix uninit-value in copy_name
+61286f781df128df6c475292140fb878f94407b8 ARM: 9324/1: fix get_user() broken with veneer
+efd2eb3f31c5ed899c2622db2379df783de43961 ACPI: processor_idle: Fix invalid comparison with insertion sort for latency
+86862bb9d8842618007a13c7a4a5d5142e7080b0 drm/amdgpu: Fix signedness bug in sdma_v4_0_process_trap_irq()
+7af7343fd9195fe4620cd5e8c3377fc31b9fe3cc net: relax socket state check at accept time.
+79d20aca4503a72eb28869b86df5f834cb1986ac ocfs2: add bounds checking to ocfs2_check_dir_entry()
+4cf990ddf200c792254a0923a80804e2605ae153 jfs: don't walk off the end of ealist
+c6835ee272445b5307db89087d0ff9f36cfc0e1a ALSA: hda/realtek: Enable headset mic on Positivo SU C1400
+2b8a13fccb7be801d2606be6a1e428eaf1de85f4 filelock: Fix fcntl/close race recovery compat path
+16c43670d5ef48780710dcbd60a99bb1149ff621 tun: add missing verification for short frame
+9430059ce3e22903ed7061858a34e41edb259b5c tap: add missing verification for short frame
+6b3558150cc145a5ebe7f22d20a01e58d3d88a10 Linux 5.4.281-rc2
 
---===============3444484620168430448==--
+--===============6304769298728321138==--
