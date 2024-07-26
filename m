@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Fri, 26 Jul 2024 13:29:21 -0000
-Message-Id: <172200056124.26679.17725910957807687481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Fri, 26 Jul 2024 13:33:14 -0000
+Message-Id: <172200079480.29848.9738922778037106908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: 2191a54f63225b548fd8346be3611c3219a24738
-    new: 225990c487c1023e7b3aa89beb6a68011fbc0461
+  - ref: refs/heads/b4/ari_no_bus_dev
+    old: 2aea797ec9f16a402fb31ec466c062c59df84191
+    new: ee52a7e18dc1d63d0aa0c1fb5903f2fbbeddaf57
     log: |
-         225990c487c1023e7b3aa89beb6a68011fbc0461 net: phy: realtek: add support for RTL8366S Gigabit PHY
+         ee52a7e18dc1d63d0aa0c1fb5903f2fbbeddaf57 PCI: s390: Allow advertising ARI on bus not backed by struct pci_dev
          
