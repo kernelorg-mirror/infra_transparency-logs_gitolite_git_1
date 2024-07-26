@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8302596323237819607=="
+Content-Type: multipart/mixed; boundary="===============7338751547777013598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 26 Jul 2024 08:18:04 -0000
-Message-Id: <172198188410.27780.16268294390973471370@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 08:18:29 -0000
+Message-Id: <172198190910.28003.3034632425631331674@gitolite.kernel.org>
 
---===============8302596323237819607==
+--===============7338751547777013598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_driver
-    old: 7ce6b7c9c86c29d89047fc54cb8f51c8760ba510
-    new: d0192328ccc7c6f93a4b2527aeecd3557714f70e
-    log: revlist-7ce6b7c9c86c-d0192328ccc7.txt
+  - ref: refs/heads/const_work
+    old: b994305068e2d36913c6c53976fc776d586c144d
+    new: 3d56539d92114bba680c1ea3aa0815adcd50c808
+    log: revlist-b994305068e2-3d56539d9211.txt
 
---===============8302596323237819607==
+--===============7338751547777013598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721981880 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721981907 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1721981879-df0a7ed162b80ce826f074353afb75a045fac84d
+nonce 1721981905-45569a153ccc9abd6b4a6fc4fe0e7c87f937050b
 
-7ce6b7c9c86c29d89047fc54cb8f51c8760ba510 d0192328ccc7c6f93a4b2527aeecd3557714f70e refs/heads/const_driver
+b994305068e2d36913c6c53976fc776d586c144d 3d56539d92114bba680c1ea3aa0815adcd50c808 refs/heads/const_work
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajW7gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+EP/2lb0JlwIbwLBBNg9f9d
-xnG5DUMvlK/VqSlhQGnYEJ4ZI+L/6+PMjcGuiou33jKY/huQKs1oJ9pGySN8Bblp
-0k/zEmCG4dVLSAZy4yvcJx2K882rmTH6cPUAmVoNALF8xB6S3wK4QBj+ekDTv/Yv
-9Qn5R6SBGadrjzIzeAOT2PgdvB4zJ1XKLA30/upxzdAwPVPb4oVneXzyr/KF0JEO
-P718zjUYQJ1zoeQ1uRCTvm9vxtbRA3o4UWDzK1Y1rTbhn4ScdxHeUzKOR34SsOot
-6rxe1ri2Lk3dgyHaInmxpSmxl4ICjTcdcDpIij0JusGUx0trgxJ9hjsGqJvoCfQx
-UF5kgcNPoz3qKViHniXrY8Qa4+Ax0dOjmTrVPxfvVnBXynv0+hSvJjECot9VZQh+
-Bm4iZuxG0oZP5C49xPi4j0IByqo3ojLOK+LrDdpU5Q2BaNN2os4k81jscEqEC3+i
-20K/gIbjBy3EQeLnDyLxiq4wwR7h+Tnm/K1b0+H8TpX2Q1gpYJgki8CaLHqEAdx7
-wDgQvIiI0D072YP9SBWRD05C/5rGQNr5PoqHOn3Ffmh3qmCpHkVssMbBi4ghtppV
-t2HP5tk4MSni7t3XtOns0r0UtJfTAFfhQSN6y68GHaHX2xSce+gthCABuBtLKj2p
-eUWQ27gSC2QIeCdxntQlqIS6
-=8HH/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajW9MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m68P/iVF5eE9mwhCX1O9lNvs
+17+XYX4Z44RF9pct9G+7Ov8CjYYH8oawPTee40w7hCevoevWJLrUw12U1TGPLryI
+46IiPlHDbfBkZzAOE80RSy02YHiVzlNgQJDg/YOqSFW7OEHgmplrt7434Pr7G0uq
+FMOcfgu3PvCeydNuGNywl3WLFzBNtbfA2W2vXvawyk5JtX/fLKe+EXkn6xw4GxWL
+7b/xm8FrSzRL5xaGNeG0FauUlxzsoG7GRTQbG9GQRxwVLwsHXB3Zh1PdR9cEw/5Q
+3SjfrRuyLpAG1M15DNfJoLEggbRWUefMxhytj2EvLJlyPNydsh3H+KU2Hr+BP3Vn
++qS3F54DNT9wKdd1IBahqC0cn0cPGGiBelbijLkjaHtlKs+ebu23c+0xETa7kURs
+BUxJ1eAN2J0q+3e/+JWaygCHf2QsRwu0uhc5O4Bp1MbWuSXkmhZus5TPufN/HR32
+n5Oxin9rTWu+GbRAlJcrckOWoqR4WsGzs2GrzYlfTnBHd4as0lQ8EnKDwU878Rsp
+pLfr/0FikhbVlwPFxnFjSfgjRNpRosRo4fcP+it5NvdnKRbprTMFr3CoiCfg70Yq
+zMXHT1aLk3HVFDdsrdU3n9AMsDbaGaXCV43dRp2SC5OdSIjoiZCI09dfgN9CCQls
+zdse6Rt3NeORQTMORPmoxStk
+=Cu7g
 -----END PGP SIGNATURE-----
 
---===============8302596323237819607==
+--===============7338751547777013598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ce6b7c9c86c-d0192328ccc7.txt
+Content-Disposition: attachment; filename=revlist-b994305068e2-3d56539d9211.txt
 
-084ebf7ca83e6cb743784f2eecc654193ce064fb execve: Keep bprm->argmin behind CONFIG_MMU
-21f93108306026b8066db31c24a097192c8c36c7 exec: Avoid pathological argc, envc, and bprm->p values
-872bb37f6829d4f7f3ed5afe2786add3d4384b4b randomize_kstack: Improve stack alignment codegen
-2043a14fb3de9d88440b21590f714306fcbbd55f RDMA: Fix netdev tracker in ib_device_set_netdev
-95b087f87b780daafad1dbb2c84e81b729d5d33f bnxt_re: Fix imm_data endianness
-1df03a4b44146c4f720d793915747272c7773a3e RDMA/mana_ib: Set correct device into ib
-3c80ebb70e7beea39924939e3f1c6e7433b3b81f Merge tag 'md-6.11-20240712' of git://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.11/block
-a71ac6c956ee8aac289c7c9dd12dfe1ee3447006 sh: Drop support for memory hotplug and memory hotremove
-6887a9ace00413c9538261b13e07b22cc13cf099 sh: config: Drop CONFIG_MEMORY_{HOTPLUG,HOTREMOVE}
-70c676cb3dfcc75e32eaf0e98eba6814ebfc6af6 Merge tag 'ipsec-2024-07-11' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-93c3a96c301f0b1ac0bafb5e74bef58e79937648 net: pse-pd: Do not return EOPNOSUPP if config is null
-4cddb0f15ea9c62f81b4889ea69a99368cc63a86 net: ethtool: pse-pd: Fix possible null-deref
-5f25f553b823d8d047662de8cc186f272bfd7fee Merge branch 'net-pse-pd-fix-possible-issues-with-a-pse-supporting-both-c33-and-podl'
-f67a90a0c8f5b3d0acc18f10650d90fec44775f9 selftests: forwarding: devlink_lib: Wait for udev events after reloading
-6807352353561187a718e87204458999dbcbba1b ipv4: fix source address selection with route leak
-252442f2ae317d109ef0b4b39ce0608c09563042 ipv6: fix source address selection with route leak
-abb9a68d2c64dd9b128ae1f2e635e4d805e7ce64 ipv6: take care of scope when choosing the src addr
-39367183aecfc05f006a29b1f96708a6d1a3d8c3 selftests: vrf_route_leaking: add local test
-d657f5c76c47eca50dd61b5c1e150dac05e07046 Merge branch 'vrf-fix-source-address-selection-with-route-leak'
-861f34e61774ff3c2c0d0a87592518ff6e68d889 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-97d9fba9a812cada5484667a46e14a4c976ca330 net: netconsole: Disable target before netpoll cleanup
-6bc8719c9dbf2d107760a238394dd77bb7df9ab9 dt-bindings: net: airoha: Add EN7581 ethernet controller
-23020f04932701d5c8363e60756f12b43b8ed752 net: airoha: Introduce ethernet support for EN7581 SoC
-ecb1e1dcb7b5d68828c13ab3f99e399b4ec0c350 Merge branch 'introduce-en7581-ethernet-support'
-62fdd1708fcb3e1c58d21221bf0861a8b1975f90 Merge tag 'ipsec-next-2024-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
-8fc1e8b230771442133d5cf5fa4313277aa2bb8b ALSA: hda/realtek: Enable headset mic on Positivo SU C1400
-35ce46324556ba2dbc66a88013870d8bec8a99ef Merge tag 'x86_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-365346980ee28e6792db08bc2faa80830c2878c4 Merge tag 'sched_urgent_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9852f47ac7c993990317570ff125e30ad901e213 kbuild: Make ld-version.sh more robust against version string changes
-e3286434d220efb9a8b78f7241a5667974d2ec80 kbuild: rpm-pkg: avoid the warnings with dtb's listed twice
-ed99ae74f2328e42286880c946953a8f9dd95a7e hwmon: Remove obsolete adm1021 and max6642 drivers
-cbf7467828cd4ec7ceac7a8b5b5ddb2f69f07b0e hwmon: (max6697) Fix underflow when writing limit attributes
-1ea3fd1eb9869fcdcbc9c68f9728bfc47b9503f1 hwmon: (max6697) Fix swapped temp{1,8} critical alarms
 84679f04ceafd58d9b35f790203520b2930f1a03 fortify: fix warnings in fortify tests with KASAN
 882ddcd1bf63c2984221dfa8c435f8eeb3d9b6f7 Merge tag 'kbuild-fixes-v6.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0c3836482481200ead7b416ca80c68a29cfdaabd Linux 6.10
@@ -1077,9 +1044,42 @@ bba959f477f2f4a48ab72eda2902db706bbc3793 Merge tag 'efi-fixes-for-v6.11-1' of gi
 b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ac287437ceba349ac63eba48b496062115d7da06 USB: make to_usb_driver() use container_of_const()
-58e429f059f7a5ac8df8ae571ae2d84df18de123 USB: make to_usb_device_driver() use container_of_const()
-36c0056eb8e611f332b9a83d6e628d5a1e158b25 USB: make single lock for all usb dynamic id lists
-d0192328ccc7c6f93a4b2527aeecd3557714f70e USB: move dynamic ids out of usb driver structures
+bc6e704204fd4592894c0b7d33323f5b5c02f396 powerpc: cell: make spu_subsys const
+f4ca8c811725fe4115a9f9c491a649772c568f6b powerpc: ps3: make ps3_system_bus_type const
+776899393d3f8660104fad84469f10b7928938c2 powerpc: pseries: make cmm_subsys const
+8920a0ba20aa3b29992ab1d439d0f0772b37a2ed powerpc: pseries: make suspend_subsys const
+3f494c96f6236cb00dc57876682dd7720633919c perf: make pmu_bus const
+4807e66f99f387cae147fe4e9d2f640b0d6f547c mtd: ubi: make ubi_class constant
+0652dc63d4f2d4184365078b1045f2a4e2bfd239 drm/dp: make drm_dp_aux_dev_class constant
+ef5c0fbf2d75e45f0b2aa85b21b5bcfcb21912ae drm/sysfs: make drm_class constant
+99d78ca546e4bee5566ab3bc5897bb45889347f1 drm/fbdev/core: make fb_class constant
+fdf69f24561b6abacb2ff67368ce00718aa34923 dma-buf: heaps: make dma_heap_class constant
+a44902532dc63a45d3e08b67575991acffcd0954 media: dvbdev: make dvb_class constant
+ec6e5408bd68642e65275f60ed8d5dbca1a71a7f drm/dp: constify the struct device_type usage
+53f2e0fa92731a2b94b7892d96c380fdb6368180 drm/privacy_screen: constify the struct device_type usage
+53a2fa7833f64b4e1da21fc8fcbc3bb384a0ef55 drm/sysfs: constify the struct device_type usage
+e0be11804f02d5ced24f4aa78e4aefa2445e7d60 cxl/port: make cxl_bus_type const
+a0dfa1681c5bbd16037448d8cb55a8842efd3cf8 ARM: sa1111: make sa1111_bus_type const
+78059c5cc6f70e14373dc83a2d664397f1184cb5 ARM: ecard: make ecard_bus_type const
+a09cf85f5598421f6c812ffe33f83b5f25a1f143 fsi: core: make fsi_bus_type const
+d7eea3334ca32e68f67fda4195b7ec00b4b0d616 bus: mhi: ep: make mhi_ep_bus_type const
+07a9b3d0e5601cf7a2bf6a7c95c4385344850503 ntb: ntb_transport: make ntb_transport_bus const
+9fa4f835d13a207b93462fc14963e9027de4f8cf ntb: core: make ntb_bus const
+797b90e9f1c7222368af2f70c95ab9100a3e4900 rapidio: make rio_mport_class constant
+410ba76d0bc65cbd2209bf17cca01e571b32346c pps: make pps_class constant
+95eed0d6183b5d4ced1dff2bbe88af2b7e3c1f2b nvmem: core: make nvmem_bus_type const
+83d2c6c7cc89fbf5390e83f3c73b431eaf79a847 intel_th: make intel_th_bus const
+ee89c0345b07028053c1c0cc191da78fcca6d7e7 EISA: make eisa_bus_type const
+85a4da51366dfb2630e28c6f0acc5a36b0f07f5f parport: constify the struct device_type usage
+a06b3c3555be1336f50cc3d61d3e3ebed7c7282c bus: fsl-mc: constify the struct device_type usage
+8bdd9eeae102f7ae57f1ff253e8a9f3f1d3c282c coda: psdev: make coda_psdev_class a static const structure
+251e70d709da5dd60ecb52c3766d4dfadd9c7d12 cuse: make cuse_class a static const structure
+b0f90f8b42cb8bb1b2925f431132d7b8bf70312e pstore: pmsg: make pmsg_class a static const structure
+27167e38ec3ab3ff7081ad7b0149eff73bc7d47e netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+2f08376425dc770e268cd7a0e845e8c76fcb75b3 PM: wakeup: make wakeup_class a static const structure
+755abeb6949df18d33f3a9eca502029b079572db PM / devfreq: make all 'class' structures const
+ef9e4e077885a30629cf67a6ee61b7b42f28680c gnss: make gnss_class a static const structure
+b29a2b81fc7590e59ea46742c1eb63db6fac12fe extcon: make extcon_class a static const structure
+3d56539d92114bba680c1ea3aa0815adcd50c808 misc: c2port: core: make c2port_class a static const structure
 
---===============8302596323237819607==--
+--===============7338751547777013598==--
