@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 26 Jul 2024 20:37:39 -0000
-Message-Id: <172202625996.24133.5688384239421009304@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 20:39:14 -0000
+Message-Id: <172202635495.24728.6721346305468717349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: dbcb6a1eba9ef7ebf56d0c3eb0718a87ab6188b2
+  - ref: refs/heads/nfsd-testing
+    old: cb39ecc9cc91ff371a3bdf9991a7b8bb44e5e91c
     new: 7ae6f62ca7dac949ae5807c84e86ccd584d604d9
     log: |
          3663b0f4434fac6e16fdac8ce4df1019efc81794 NFSD: Display copy stateids with conventional print formatting
