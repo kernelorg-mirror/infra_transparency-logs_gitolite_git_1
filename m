@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5239393393896278032=="
+Content-Type: multipart/mixed; boundary="===============8885059326031391245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 26 Jul 2024 07:30:38 -0000
-Message-Id: <172197903875.23781.1974156381448934162@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 07:30:42 -0000
+Message-Id: <172197904273.23913.4770175472788100571@gitolite.kernel.org>
 
---===============5239393393896278032==
+--===============8885059326031391245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 933069701c1b507825b514317d4edd5d3fd9d417
     new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
     log: revlist-933069701c1b-1722389b0d86.txt
 
---===============5239393393896278032==
+--===============8885059326031391245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979037 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979041 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1721979037-35e998c0bc84008758c16838ec56d64d63081b6a
+nonce 1721979041-df1dbc2a64d2c4bd38295719fd4f11611f65125b
 
-933069701c1b507825b514317d4edd5d3fd9d417 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/usb-next
+933069701c1b507825b514317d4edd5d3fd9d417 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajUJ4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+reMP/3QNn+Fr8UrpeEtHp5GW
-sasMSHke5xyZv6tCo3rwGiE24CKzahR5eiHNMd3VpNUsjZM9TQgvsZXehdxEPL2Y
-p9zyvwae9Le9laT1l9z7IXe38kX9FUpsyjahdi8/NRqhpGuAqtvcBrfLwI3AgllN
-qbKkuG3mjw9+HkpXfaiuCGLOwCAsLXGqrv1wnJVd9GNPeIKlCaLN5nuEmp1E9Ecx
-BtU8+tB4urx/SGsQeilVqZm2n8XRs5/WuRyWFh4oXAgkna2MwhcTzrMgpXtnfCz8
-0ySb9GO4l2VkKkd5GlY4tYoha5eyzX63npojBy5fqtTLjg2D/dpfdU1kI+i3U2uZ
-+m0h77itXlbkosLZYPrg1HlyI8NGiAHxmlvmDzJooC8aJClGXgaMTC28yRl2rei5
-y41DIWbFx4NoWyS1henUb6calqpfP6YDnb6D9nl135R5fmVjCvba6MtGiO+cY1oT
-ynLh2UGgsT5Q09IF7/VYsPrKkFim3vOoZ+d1l+kOwUqPlIoC0/MStRv1MeKF/p/j
-Rz5BSbWYAuMSU/4qYRZ+kz2GFwZevfoNDUVrn3Ik5KrMRnRfrMMkvqL6a8KwgC5E
-mw7CS2j0gxNGtNSZNXXO7khgmKzBlp9L1kKMSd4FLmxWkIukXZWx7OAA3kCh6xij
-4xxnTw2hBpzJxgoKlUic73Hx
-=gqOj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajUKIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H4wP/2cU/Zzy8v6JYFcP5J0v
+rmiMbokfIlCX9RlKngtSJb/8wiCeV0jPsmviiQiMBPgZH8tSK8rPm3RUBi89Ba9V
+K3D1mPDEYOy6zjdFbRqm21RPob+LDuipiZnG+xYFnpJ44B04RAjRpaZ5gQPaRbcQ
+tuBPn6QNOTDwPAwzHznp7Cx5SdJy5AcX+hhfXYX6yWQLuMsK7nbuCSCzf8O/4XRZ
+Qo8HdcodGuI1AX5Vq737dnrjiUTIfQMXiJVCFouLdUDBKFdoMnZOE5zBRw1RT28Z
+9/I3yV7aP3ReVBN5uVYId+B5xDhgXE+KZ6yHrq2EPISthGCmLqnXMJ6SmUMqLQYM
+81tQB5r6jkKKryYBXDppcQW2Hy3HPibvINhFdrxspI+/CMbSTSvZFOzgX7bOD5eD
+u33MgMcdtMNIpE3MdRjl51yvQlvMzgbKBbzrXfYWOnG9/RlW4ZsRaQEnwDO0U4Yq
+98AJ6Q+yNQpW/VuamBcTjouTomVAA4f8BjpccUA5ILT1ddjJS3rrveWbw8BS9See
+Wq8K0wgQYzfjQoLeisweojVHI8/KW++BLQcUwmDsHs03zrAifiovFJSclqDSXG2/
+AjZkEXEU4B1b4LbAkxuFYO1SqfJMq4EZsdzsnw8DZ/K7YQHka2Ecw03NNMRB/8UW
+vyaVZX5PLSPP1kBd9sj3Qre3
+=xmLo
 -----END PGP SIGNATURE-----
 
---===============5239393393896278032==
+--===============8885059326031391245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -780,4 +780,4 @@ b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of 
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5239393393896278032==--
+--===============8885059326031391245==--
