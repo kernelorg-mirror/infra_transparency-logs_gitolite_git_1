@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4489762657042708642=="
+Content-Type: multipart/mixed; boundary="===============5417711393994775771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 26 Jul 2024 14:12:07 -0000
-Message-Id: <172200312756.28692.12433565813925878721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 26 Jul 2024 14:23:21 -0000
+Message-Id: <172200380175.3670.10674037574735616201@gitolite.kernel.org>
 
---===============4489762657042708642==
+--===============5417711393994775771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 36e3b949e35964e22b9a57f960660fc599038dd4
+  - ref: refs/heads/1GbE
+    old: af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b
     new: 225990c487c1023e7b3aa89beb6a68011fbc0461
-    log: revlist-36e3b949e359-225990c487c1.txt
+    log: revlist-af65ea42bd1d-225990c487c1.txt
 
---===============4489762657042708642==
+--===============5417711393994775771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36e3b949e359-225990c487c1.txt
+Content-Disposition: attachment; filename=revlist-af65ea42bd1d-225990c487c1.txt
 
+645b1399fa67baff565fa82c48976c53822a393f fb_defio: use a folio in fb_deferred_io_work()
+a929e0d10f3db1a53668f6b9845db27d7fb63759 mm: remove page_mkclean()
+13c526540b316937a16946e75d459e011be0ce2e mm: pass meminit_context to __free_pages_core()
+503b158fc30f203a1854c87183ca3467c6466001 mm/memory_hotplug: initialize memmap of !ZONE_DEVICE with PageOffline() instead of PageReserved()
 50625744220c101705a989d7c57a6c16e945f3b1 mm/memory_hotplug: skip adjust_managed_page_count() for PageOffline() pages when offlining
 55ccad6fc1a03c814c26f0e6b35db50feda2c59e vmalloc: modify the alloc_vmap_area() error message for better diagnostics
 15bde4abab734c687c1f81704886aba3a70c268e mm: extend rmap flags arguments for folio_add_new_anon_rmap
@@ -1028,10 +1032,6 @@ d1e9a63dcd7248385bbbccf1650d69e4af914f05 Merge tag 'vfs-6.11-rc1.fixes.2' of git
 7a46b17d4c00c2547b5bd82eec9489b19128fd65 Merge tag 'dmaengine-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 ad7b0b7b87bb19ea7ee71e165e597f5fbfac76ab Merge tag 'soundwire-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 c33ffdb70cc6df4105160f991288e7d2567d7ffa Merge tag 'phy-for-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-61ab751451f5ebd0b98e02276a44e23a10110402 mISDN: Fix a use after free in hfcmulti_tx()
-ed7f2afdd0e043a397677e597ced0830b83ba0b3 tap: add missing verification for short frame
-049584807f1d797fc3078b68035450a9769eb5c3 tun: add missing verification for short frame
-af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b Merge branch 'tap-tun-harden-by-dropping-short-frame'
 9cf601e865198c72e2a53118eaf37dcfd9a6cf1f Merge tag 'dma-mapping-6.11-2024-07-24' of git://git.infradead.org/users/hch/dma-mapping
 b2eed73360dffea91ea64e8f19330c950dd42ebb Merge tag 'linux-watchdog-6.11-rc1' of git://www.linux-watchdog.org/linux-watchdog
 c2a96b7f187fb6a455836d4a6e113947ff11de97 Merge tag 'driver-core-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
@@ -1051,4 +1051,4 @@ f96aae91b0d260f682e630e092ef70a05a718a43 ethtool: rss: echo the context number b
 2191a54f63225b548fd8346be3611c3219a24738 sched: act_ct: take care of padding in struct zones_ht_key
 225990c487c1023e7b3aa89beb6a68011fbc0461 net: phy: realtek: add support for RTL8366S Gigabit PHY
 
---===============4489762657042708642==--
+--===============5417711393994775771==--
