@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5562449908857048865=="
+Content-Type: multipart/mixed; boundary="===============4650976049711886761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 26 Jul 2024 14:05:52 -0000
-Message-Id: <172200275239.22800.14488643232748779694@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 14:06:00 -0000
+Message-Id: <172200276065.22944.16261300787191555582@gitolite.kernel.org>
 
---===============5562449908857048865==
+--===============4650976049711886761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: af65ea42bd1d28d818b74b9b3b4f8da7ada9f88b
-    new: 225990c487c1023e7b3aa89beb6a68011fbc0461
-    log: revlist-af65ea42bd1d-225990c487c1.txt
+  - ref: refs/heads/dev-queue
+    old: 666f1e4a458f77454fcea1c690ab62f466ed187b
+    new: faf541c50303c89f81dcf62b3921b82b545540be
+    log: revlist-666f1e4a458f-faf541c50303.txt
 
---===============5562449908857048865==
+--===============4650976049711886761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af65ea42bd1d-225990c487c1.txt
+Content-Disposition: attachment; filename=revlist-666f1e4a458f-faf541c50303.txt
 
-645b1399fa67baff565fa82c48976c53822a393f fb_defio: use a folio in fb_deferred_io_work()
-a929e0d10f3db1a53668f6b9845db27d7fb63759 mm: remove page_mkclean()
-13c526540b316937a16946e75d459e011be0ce2e mm: pass meminit_context to __free_pages_core()
-503b158fc30f203a1854c87183ca3467c6466001 mm/memory_hotplug: initialize memmap of !ZONE_DEVICE with PageOffline() instead of PageReserved()
-50625744220c101705a989d7c57a6c16e945f3b1 mm/memory_hotplug: skip adjust_managed_page_count() for PageOffline() pages when offlining
-55ccad6fc1a03c814c26f0e6b35db50feda2c59e vmalloc: modify the alloc_vmap_area() error message for better diagnostics
-15bde4abab734c687c1f81704886aba3a70c268e mm: extend rmap flags arguments for folio_add_new_anon_rmap
-9ae2feacedde16067014f11414675f385c68eedc mm: use folio_add_new_anon_rmap() if folio_test_anon(folio)==false
-4c1171f1d22484f2419b07ab688548350db521cb mm: remove folio_test_anon(folio)==false path in __folio_add_anon_rmap()
-739820a6178b03b1b6b99a467c85e9e7146d51c1 maple_tree: modified return type of mas_wr_store_entry()
-34f7c5288a4d3a17db190dd19b0a4a19c26cf3ae mm/Kconfig: mention arm64 in DEFAULT_MMAP_MIN_ADDR symbol help text
-5cea5666e4b556f4daa414a7379790ce8d225a48 mm/memory-failure: refactor log format in unpoison_memory
 861dd8b9e34fc3fc05762a952ad8dd701dc0f0f1 mm/sparse: nr_pages won't be 0
 64e0ba3948ddb99246e8f3c2c34a67be324220db mm/mm_init.c: move build check on MAX_ZONELISTS out of ifdef
 b719efa22d1ebe00ca7f9cfa80e5222e12a2dbfd mm/page_alloc: fix a typo in comment about GFP flag
@@ -1050,5 +1038,17 @@ f96aae91b0d260f682e630e092ef70a05a718a43 ethtool: rss: echo the context number b
 08f3a5c38087d1569e982a121aad1e6acbf145ce net: usb: sr9700: fix uninitialized variable use in sr_mdio_read
 2191a54f63225b548fd8346be3611c3219a24738 sched: act_ct: take care of padding in struct zones_ht_key
 225990c487c1023e7b3aa89beb6a68011fbc0461 net: phy: realtek: add support for RTL8366S Gigabit PHY
+7f1b2f6d22a23351801040d739a423c71471baf6 igc: Fix double reset adapter triggered from a single taprio cmd
+a67cf172402eba24cf1cba71e1d7f3942863d010 ice: Fix lldp packets dropping after changing the number of channels
+3d0e486670d08bf7cd29e424b2427d260b878017 igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
+5c64113b6282612ec95a5b2536852f29e65da9ec igc: Fix qbv_config_change_errors logics
+276c126e9f81b8be440b7af419e4ea58641a735f igc: Fix reset adapter logics when tx mode change
+778bb4f363f0c4c9edebab9574cc7356da69bd79 igc: Fix qbv tx latency by setting gtxoffset
+7589edd9b2cd32aa845ae48a5dea82bbc741b7af ice: Fix reset handler
+c93d58ae6b30b15d5a6bafbf69366f88b2c0e4f0 ice: Skip PTP HW writes during PTP reset procedure
+5a97d251cc1410bec95677717e3b6912cdc56aa1 igb: cope with large MAX_SKB_FRAGS.
+4499991e7bacbf88202c0137f98c8554ce612dcf idpf: fix memory leaks and crashes while performing a soft reset
+11b0e67dbae1a4115f82e4991ddbfc9926b3adf0 idpf: fix memleak in vport interrupt configuration
+faf541c50303c89f81dcf62b3921b82b545540be idpf: fix UAFs when destroying the queues
 
---===============5562449908857048865==--
+--===============4650976049711886761==--
