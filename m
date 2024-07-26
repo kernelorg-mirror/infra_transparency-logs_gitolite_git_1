@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2843132025433960936=="
+Content-Type: multipart/mixed; boundary="===============5837946910318675250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 26 Jul 2024 06:23:35 -0000
-Message-Id: <172197501509.4755.5166072093877058091@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 06:23:44 -0000
+Message-Id: <172197502409.4891.10891945186557773027@gitolite.kernel.org>
 
---===============2843132025433960936==
+--===============5837946910318675250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
+  - ref: refs/heads/driver-core-next
+    old: b57d5ffc3ab507d0e19fc8b90b19c76af43fb790
     new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
-    log: revlist-6ba59ff42279-1722389b0d86.txt
+    log: revlist-b57d5ffc3ab5-1722389b0d86.txt
 
---===============2843132025433960936==
+--===============5837946910318675250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721975014 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721975023 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1721975013-cacb5712dc6699e2aeb1b6f942508d296321914c
+nonce 1721975022-aaf182547124a964abbfd996a82d0234ad2303a0
 
-6ba59ff4227927d3a8530fc2973b80e94b54d58f 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/driver-core-linus
+b57d5ffc3ab507d0e19fc8b90b19c76af43fb790 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajQOYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cq4P/Rnuvw/nigRm/QIEZtP/
-fCCE0663t4RcYzWY1sM7t3V6Tb8Oa5iBLENtKfpzYToGVcW04Xe5vlIPRmqp9i1F
-Lx8Be48woJJTcqGhkWob7oxaZOfwZoq1EfYzREWgUXk2O9XN2g/LP3XjSjrUylUS
-ZwuBxs0E1hKHdDCGLnk6P8Y0y37kaunmUd2Rtb0j2xhSX85WKsnjsszlUAxIRDyw
-I8I+tTKLGhG4xD/HQ12zk+qJJmgcgzoL7yhFkcLiXq1lviYGSOXc7miA0Uw68Qdp
-c/97wevhb94O6q1U0FlopdsGadlBWbuUpz1Yzc6DA6jTGqi0ndUHmFz81nobsFH8
-MlkocA2w47W5d6+B04n8b9zU0fJUOC+bbuzm4dyO5x6PjeEcU4JowrkW4ZOjCx8D
-Hi4HZfBmUVT5yDyEKii5pUbfhsUO7sTtHQeSsSTZm0XoWGaneH3+qGvySGj5WVf2
-3Mep+EtyQRSSNA9BHxswllbGOxPx2nrtMpX1ZPrlWg5SbeOl8Po/Jj0GR4Fkd4YG
-jnARM17gHY0nCqjZLOFqqQWLDKCoTpfcddze2lvXK4tUDjT45T4rV1qVFuf4uZxY
-JDq5Ti08JsKz62B0r+TwFUOY6zeoAnIsdwiMsm96HqiUqLD0xsGoyHS2oEfJYdjC
-Yo9s+QeQY/jVIx5DONhwK3vi
-=sCKy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajQO8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cnYP/2F6Ok2D/Xgl4+58SLYB
+wdJ1o6DAnTyXb0dSCapww38Cd7emqB09Izj7z2JjJK8dDvyZbmRXFhyBaAhT1o85
+qyreX8o/rFK2CTxtr2cam0gt0IaBasvlDXUUHIUVT8mjKo+LoNJjkX8coKEMo1zy
+sREKcUalNwNn083jAGxFGp/Qnb/iY+ZELAyvVl/4KRroCyxdg71jMy7eBQh7VBwm
+RmocFMwPViO2Ba1+jdpD7dOCxOYQ9qbjwv22L4kQbuEeJeBq7qVINq/AuiPYQss6
+hkaw4JLQEWCcbnQWGrfQKg8W6iHwdtNtBepnZekRfIJ/JfFJM7yo9Ftelm3y0Pzc
+TBHPRLgpxtcS6+ffO7iS71DQWRgAOxP5IrfKxrgLfXbiKAlLd+piqm45zXF0N+4v
+jPwemYR5/CwOBpTHXIzEYtfPGMP7aecakjv2OT9bXVqWGif4/lvUHA73MbFpHwNc
+eJPrv0TlSHQ3E4hnBXmjyR4WkjC7pLw+TwD1PBVXOCMO3EUWvZEYIdLMhwTOX2J+
+DerXo+aNN5khBbk3UsqA+Ou764L66qIspfrtxyWgOUUFWDSPglm5j4/BNdTBswmG
+73r6igXzp5e/MLz093DgHzCBb4ToqypGEgViYFYnEPTFuSjcn3Cl5Jf+qHUw59Xz
+DVWc5NqzBOlYgR69N7pFsmjM
+=QBy8
 -----END PGP SIGNATURE-----
 
---===============2843132025433960936==
+--===============5837946910318675250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba59ff42279-1722389b0d86.txt
+Content-Disposition: attachment; filename=revlist-b57d5ffc3ab5-1722389b0d86.txt
 
+1270dad3109770fc12c1f09f7bab4bceaf2fb829 Merge branch kvm-arm64/el2-kcfi into kvmarm/next
 8c2899e7706edee1486bd8f4b77d3c71f44807c6 Merge branch kvm-arm64/nv-sve into kvmarm/next
 bc2e3253ca965fc6a2df1ba242cf10a4ef9462f1 Merge branch kvm-arm64/nv-tcr2 into kvmarm/next
 bb032b2352c33be374136889789103d724f1b613 Merge branch kvm-arm64/docs into kvmarm/next
@@ -838,7 +839,6 @@ fb0987682c629c1d2c476f35f6fde405a5e304a4 dm-integrity: introduce the Inline mode
 fa398e603ff79523ac5f40632f061396baa58593 dm vdo repair: add missing kerneldoc fields
 513789b7fb5366a7c26c9d347d83eaba6c33a537 dm vdo int-map: fix kerneldoc formatting
 7f1c4909a821dbfd258177db9ec96dda3ae91346 dm vdo: fix a minor formatting issue in vdo.rst
-b57d5ffc3ab507d0e19fc8b90b19c76af43fb790 ARM: sa1100: make match function take a const pointer
 4359836129d931fc424370249a1fcdec139fe407 eth: fbnic: don't build the driver when skb has more than 21 frags
 a4bbcac11d3cea85822af8b40daed7e96bca5068 PCI: loongson: Enable MSI in LS7A Root Complex
 cb43487e5dc3efddc14c66938138b5908789be59 Merge branch 'pci/acs'
@@ -1082,4 +1082,4 @@ b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of 
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2843132025433960936==--
+--===============5837946910318675250==--
