@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8653053698819238481=="
+Content-Type: multipart/mixed; boundary="===============8768523977295567734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jul 2024 14:35:28 -0000
-Message-Id: <172200452829.13694.7049648218868087560@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 14:35:32 -0000
+Message-Id: <172200453258.13792.10826554926740904897@gitolite.kernel.org>
 
---===============8653053698819238481==
+--===============8768523977295567734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
     new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
     log: revlist-d7e78951a8b8-1722389b0d86.txt
 
---===============8653053698819238481==
+--===============8768523977295567734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of 
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8653053698819238481==--
+--===============8768523977295567734==--
