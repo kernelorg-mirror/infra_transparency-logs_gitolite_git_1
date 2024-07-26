@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3906278467395263339=="
+Content-Type: multipart/mixed; boundary="===============2248466131059805563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jul 2024 14:25:16 -0000
-Message-Id: <172200391629.6328.5330484195159842628@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 14:25:33 -0000
+Message-Id: <172200393306.6510.5391253928342296953@gitolite.kernel.org>
 
---===============3906278467395263339==
+--===============2248466131059805563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,75 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d7e78951a8b8b53e4d52c689d927a6887e6cfadf
-    new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
-    log: revlist-d7e78951a8b8-1722389b0d86.txt
+  - ref: refs/heads/dev-queue
+    old: fcc95601acb4a30b42cef594d03d2d2ec2bdb56a
+    new: fdb0139b96d0fa8ac0202f74cd6e20572a8d9e19
+    log: revlist-fcc95601acb4-fdb0139b96d0.txt
 
---===============3906278467395263339==
+--===============2248466131059805563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7e78951a8b8-1722389b0d86.txt
+Content-Disposition: attachment; filename=revlist-fcc95601acb4-fdb0139b96d0.txt
 
-6b1709d4b7fce27c6c79fc78c17c458f9848a4d8 kmsan: expose kmsan_get_metadata()
-f2d62702d48a536308e06a90188d666b10e3089d kmsan: export panic_on_kmsan
-ec3e837d8fd96c68599b2861dd412094b7bc335c kmsan: allow disabling KMSAN checks for the current task
-1fdb3c7006d9914e4b070f7eee98dfbdf743ee16 kmsan: introduce memset_no_sanitize_memory()
-f416817197e102b9bc6118101c3be652dac01a44 kmsan: support SLAB_POISON
-f6a202f3643cd1468b012eab842e59ec23d726a9 kmsan: use ALIGN_DOWN() in kmsan_get_metadata()
-d1dac751f438dc69225e5580031cead2c005de83 kmsan: do not round up pg_data_t size
-e6553e2f79b2673b239c3dd47a88451119eb82d9 kmsan: expose KMSAN_WARN_ON()
-0e9a8550f320db944e4cf036d93c5debf0e574a7 mm: slub: let KMSAN access metadata
-adea98761806642500003b252e095b151c47e807 mm: slub: disable KMSAN when checking the padding bytes
-4d7b5a2cec6efb4dfd42a3fddf321d4d828e794d mm: kfence: disable KMSAN when checking the canary
-89f42df66c32690a2d0087b12948bcf9e336d56e lib/zlib: unpoison DFLTCC output buffers
-cd613bd699fe4652c3be24d81f4e447cd646c5b2 kmsan: accept ranges starting with 0 on s390
-c5944a7ec148b4c3e004d7f9243501094571cdd7 s390/boot: turn off KMSAN
-435dc41efdd3f0a98bd3e128799b0e04697a2d2c s390: use a larger stack for KMSAN
-008dead43d1e16b9849b388a47f7e3e647dd09ec s390/boot: add the KMSAN runtime stub
-e1b1c7f941712f20e0ce71ad181eba568865cdc2 s390/checksum: add a KMSAN check
-8c208bc5b299a817beafbda239800d4d1eca48db s390/cpacf: unpoison the results of cpacf_trng()
-81b6bde8ba0867910d5442c14c22cdb23d21cd84 s390/cpumf: unpoison STCCTM output buffer
-1f4cf6397952431694e20eeaee6290911bdca759 s390/diag: unpoison diag224() output buffer
-0cfd60a6a1401b58f79c83328bce0eb9a2d2d9ad s390/ftrace: unpoison ftrace_regs in kprobe_ftrace_handler()
-1b301f5f28bae33087ec0d8a8730a02c87ba6235 s390/irqflags: do not instrument arch_local_irq_*() with KMSAN
-65ca73f9fb36740b0788620c783245fdb22e1535 s390/mm: define KMSAN metadata for vmalloc and modules
-05a6dde667854629f305ae687966d5e57032ab87 s390/string: add KMSAN support
-c1057a707abadb347968087a139bf40a4cca95f4 s390/traps: unpoison the kernel_stack_overflow()'s pt_regs
-eb6efdfeaeca355f12967d8109bc313213678c9b s390/uaccess: add KMSAN support to put_user() and get_user()
-e0bebfd63af82e69419165770002420830fd32ec s390/uaccess: add the missing linux/instrumented.h #include
-7e17eac28a7f72f9c96892709eb7056b01dc0d3d s390/unwind: disable KMSAN checks
-2a48c8c9cf8793a0d23267c0f9ae3c9990819c90 s390/kmsan: implement the architecture-specific functions
-3a8f6f3b469b4075919a3613e182f9a70df92d46 kmsan: enable on s390
-b072880d69adf2e3dd3e4320f553cc8b9174fea6 kmsan: add missing __user tags
-b1a80f4be7691a1ea007e24ebb3c8ca2e4a20f00 kmsan: do not pass NULL pointers as 0
-7d6be67cfdd4a53cea7147313ca13c531e3a470f mm: mmap_lock: replace get_memcg_path_buf() with on-stack buffer
-4b88c23ab8c9bc3857f7c8847e2c6bed95185530 mm/migrate: make migrate_misplaced_folio() return 0 on success
-ee86814b0562f18255b55c5e6a01a022895994cf mm/migrate: move NUMA hinting fault folio isolation + checks under PTL
-8051b82a0be05751e41be1dfa4201c131e589450 readahead: make sure sync readahead reads needed page
-901a269ff3d59c9ee0e6be35c6044dc4bf2c0fdf filemap: fix page_cache_next_miss() when no hole found
-7c877586da3178974a8a94577b6045a48377ff25 readahead: properly shorten readahead when falling back to do_page_cache_ra()
-878343dfa491e5c29bb6741a798229f051d3c8eb readahead: drop pointless index from force_page_cache_ra()
-bb82ac31ddcedd6a1e6ee30b7afec7acdef811e1 readahead: drop index argument of page_cache_async_readahead()
-8eaf93ac70f3e1bbbe7e28a4f34289ef2d0d0bef readahead: drop dead code in page_cache_ra_order()
-0b1efc3e78d12278a8c0f2c665d66564a2cb965f readahead: drop dead code in ondemand_readahead()
-3a7a11a57e464a05bf2ae7ad1e28667890727ed8 readahead: disentangle async and sync readahead
-a6eccd5be3e99fd7e707edd73e959d38722bbade readahead: fold try_context_readahead() into its single caller
-58540f5cde404f512c80fb7b868b12005f0e2747 readahead: simplify gotos in page_cache_sync_ra()
-34ec4344a5dabbb39e23e8daf30779892c0211a6 selftests/damon/access_memory: use user-defined region size
-209e6313fb17dbc66cec7230902ba4427717e6ee selftests/damon/_damon_sysfs: support schemes_update_tried_regions
-c94df805c774ff87022396bb8120d5872cd7e5ed selftests/damon: implement a program for even-numbered memory regions access
-c9a3003a358df357b1eba44b05a5bb164621d5f5 selftests/damon: implement DAMOS tried regions test
-f60636047a6cc2a3076cb202b462cff4347c07d6 selftests/damon/_damon_sysfs: implement kdamonds stop function
-781497347d1bcb8c95fca8356575cfd42fff1354 selftests/damon: implement test for min/max_nr_regions
-5ac9adecf0cf07b99d4eeda24a89d27447acd860 _damon_sysfs: implement commit() for online parameters update
-8bf890c8161215bd1fbd1a6d9b61acbb8eac165b selftests/damon/damon_nr_regions: test online-tuned max_nr_regions
-33a729a1770b5e03b9dbc7ecb065ae7997b7544d KVM: s390: vsie: retry SIE instruction on host intercepts
-7816e58967d0e6cadce05c8540b47ed027dc2499 kvm: s390: Reject memory region operations for ucontrol VMs
-ad0aa2361c8c0d1f29db3d6da4a11be41813296d dt-bindings: power: supply: add support for MAX17201/MAX17205 fuel gauge
-479b6d04964b5abe66c9f5080fad3389b34e2a70 power: supply: add support for MAX1720x standalone fuel gauge
-29832adac01a1057e89579c977ef4776623ee463 power: supply: qcom_battmgr: Enable battery support on x1e80100
 14c4dc8bb620c4c75b06d267a542eb1ac44cdd29 Merge tag 'iio-for-6.11b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 23c6859677066fa3d6bb3672703636dd673cb5dd driver core: platform: Switch to use kmemdup_array()
 55d57ef6fa97ca631d393cccc641cbe1b16cc382 eeprom: ee1004: Use devres for bus data cleanup
@@ -1050,5 +992,63 @@ bba959f477f2f4a48ab72eda2902db706bbc3793 Merge tag 'efi-fixes-for-v6.11-1' of gi
 b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+3e655e9c7886675e7f8614b73d7798a91cca7381 igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
+82c7575032ec8c9014448d3f932e484101586543 igc: Fix qbv_config_change_errors logics
+eff3313400863305f22b8963b6c9fb0e723bb16e igc: Fix reset adapter logics when tx mode change
+cd35b9825950d7e7c4a3124c459b3c9e1f3ee265 igc: Fix qbv tx latency by setting gtxoffset
+99a7904d0cb718aa95322622ad9a2ae9db19e426 ice: add parser create and destroy skeleton
+f892b2d95d637317519a02f81e3d0868d61d2832 ice: parse and init various DDP parser sections
+6c18eb454b62a5c674b49e2467a14a61851a0bd8 ice: add debugging functions for the parser sections
+0de5df3e5529e918bcb0ac90d391f2740f52d170 ice: add parser internal helper functions
+d33a9d8d3b9505682c108614e08ca496a1844969 ice: add parser execution main loop
+af234793c465da8daf26f9dc04a078f30a885130 ice: support turning on/off the parser's double vlan mode
+1ed9ea58d9079184c536c15e02208bfc68643534 ice: add UDP tunnels support to the parser
+e4a3efd0e6549708aa304db2aac1a283171ce78f ice: add API for parser profile initialization
+9268ba89726b7be729cd5800c4bd764fb34f58de virtchnl: support raw packet in protocol header
+f1c9693bf577f6191a1f5395affe9b832bcd2484 ice: add method to disable FDIR SWAP option
+fd97da429a47246e3f8d1d57b32fccf2b56a6c7c ice: enable FDIR filters from raw binary patterns for VFs
+7e3ee7d5797b9e19f48d127da79f7295f82f121d iavf: refactor add/del FDIR filters
+2791b1d690e2d90178d9e3f67b489fa90053b332 iavf: add support for offloading tc U32 cls filters
+468afc9844b5e8d9ae1cc7b7c6ce55c84052b60f ice: add new VSI type for subfunctions
+a8428471345b96bad4be35eac04f6708f1a2c9bd ice: export ice ndo_ops functions
+c2685d6e8ec4e73a3a10bd026037a3f550088281 ice: add basic devlink subfunctions support
+94e44282fba35b3653516b489639e66d0ed96793 ice: treat subfunction VSI the same as PF VSI
+f96c32a7606486bb4fa12f1f3d94f92741e09ab5 ice: allocate devlink for subfunction
+1b17393a0d4f29c3ba4aa4d32fc577c7f5d8e021 ice: base subfunction aux driver
+461545629bb3d1c9dcfc733fbf531b2b8cd3704a ice: implement netdev for subfunction
+9aa872ae4621afe03f04138081b57c61e5a1d06c ice: make representor code generic
+7268fb1984b25ef4d023ae7a6fd1a990c10ce0d3 ice: create port representor for SF
+db24cca4efb917fe5d85e907426e028488c28b8d ice: don't set target VSI for subfunction
+046d21ab4d2d00021361df934532d92195e02e1e ice: check if SF is ready in ethtool ops
+2fbe869b936f2f0c8fdf7fa7015bf5b3f5d44684 ice: implement netdevice ops for SF representor
+2d6ace43bf61364f6621f79d62363f98878404e3 ice: support subfunction devlink Tx topology
+7c1ccbcfa9432afb78335713f2dbce0f748ee534 ice: basic support for VLAN in subfunctions
+bf3770ac5446846da5b0e0e07a5c43fb8f33859a ice: allow to activate and deactivate subfunction
+757703315a67f43fec14c3f8353b0dc5d2a8fd43 igc: Fix double reset adapter triggered from a single taprio cmd
+2383405e99dd0b680605f3e0f51bf5b1c57cd24e igc: Get rid of spurious interrupts
+018801e94d59ed04393d85b9bac437c5e74f30fc igc: Add MQPRIO offload support
+64f6d5a64e5bdc0ade0044051a47468b85cdada3 ice: Fix lldp packets dropping after changing the number of channels
+ceace7d5e5ac4fa4e7e4ccf48624d19d9ca3665a ice: Implement ice_ptp_pin_desc
+b42cdf570c21df98289785c26c2211a74f46b3a9 ice: Add SDPs support for E825C
+c8fd62ef522d0fd113436c46369712683b930082 ice: Align E810T GPIO to other products
+427b9a8f22d45bb669a64ea09ee10b83b05a90a5 ice: Cache perout/extts requests and check flags
+cf8c6fff6454d591d1003a759f82928b98956785 ice: Disable shared pin on E810 on setfunc
+074097a5e966ffb40538caf18dd114e566e2bf86 ice: Read SDP section from NVM for pin definitions
+9cb2ef19e63dc8e3d01f46426d062a91cb9db866 ice: Enable 1PPS out from CGU for E825C products
+6d5fa86d9851d6df68a169003c3790d3d63e6124 ixgbe: Add support for E610 FW Admin Command Interface
+98e48bf4f7f3ab02e78fd9b0f18084f6a5a9a1a4 ixgbe: Add support for E610 device capabilities detection
+8cbdaa06ba943e7b6f0417548fdac724f92b26a3 ixgbe: Add link management support for E610 device
+cabcc9722e68b2f1d3c6f4d7bc3fa180de6ec54f ixgbe: Add support for NVM handling in E610 device
+6a403832ac2c20afce1117c8bc263c905e471e03 ixgbe: Add ixgbe_x540 multiple header inclusion protection
+c7209f4e7dcf6b07d91a679ad002c18485fd040d ixgbe: Clean up the E610 link management related code
+09326aa4757f28286f3e913d47260f3f36f4ebba ixgbe: Enable link management in E610 device
+b4f08b5a799fb4c2e5fae6f09a22708ef0746246 ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
+54bb3fb370398dc5fc68b1f46d2904dcb5db904a ice: Fix reset handler
+aea9b2a11f789f9b21cabcfb4194e930c98be6a6 ice: Skip PTP HW writes during PTP reset procedure
+e3b43437934a689f8afc4c7f5f39d197ed5ef236 igc: Add Energy Efficient Ethernet ability
+63d36a7d5b22f24dd5b92772ba88e7ccef659ca9 igb: cope with large MAX_SKB_FRAGS.
+50a7858b1d4bede56fff47ee058a998e7c4d6296 idpf: fix memory leaks and crashes while performing a soft reset
+b9a07b87f5a9f6e8342b7f1b7eaf08009ffaa398 idpf: fix memleak in vport interrupt configuration
+fdb0139b96d0fa8ac0202f74cd6e20572a8d9e19 idpf: fix UAFs when destroying the queues
 
---===============3906278467395263339==--
+--===============2248466131059805563==--
