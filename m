@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3246476808775884661=="
+Content-Type: multipart/mixed; boundary="===============6549231815431178182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 26 Jul 2024 20:42:46 -0000
-Message-Id: <172202656644.27970.3179286177491942433@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 20:42:58 -0000
+Message-Id: <172202657878.28123.6381993327047502901@gitolite.kernel.org>
 
---===============3246476808775884661==
+--===============6549231815431178182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/eevdf
-    old: 7a7b38b33df5425cf1be2904ba6a983b04f5a072
-    new: 6b30224f631e19e6fa35ec7397291e283c6d27cc
-    log: revlist-7a7b38b33df5-6b30224f631e.txt
+  - ref: refs/heads/sched/prep
+    old: 929779e3c90a5ca107489bf418463d952bc1a194
+    new: c23c8b331c1388414a4b5137801df045bce821dd
+    log: revlist-929779e3c90a-c23c8b331c13.txt
 
---===============3246476808775884661==
+--===============6549231815431178182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a7b38b33df5-6b30224f631e.txt
+Content-Disposition: attachment; filename=revlist-929779e3c90a-c23c8b331c13.txt
 
 b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
 7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
@@ -748,5 +748,12 @@ c3e4461f2ece0b79bdb1bb536a647145e4a21f1a sched/eevdf: Allow shorter slices to wa
 fce70d76cfd444af7c20f52be805b2c6e02a3805 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
 32acb92be1f221c7f7fee6db3c8cd67c8ff82ac7 sched/eevdf: Propagate min_slice up the cgroup hierarchy
 6b30224f631e19e6fa35ec7397291e283c6d27cc sched/time: Introduce CLOCK_THREAD_DVFS_ID
+7d15f1b2937b3c9fd607dd1eb84e4af493b084af sched: Fixup set_next_task() implementations
+e6fc76b04c6cd5aa15099612ab529694de01109a sched: Clean up DL server vs core sched
+86bb08f2aa17ddb6a933306a225bafc2b7fe1e80 sched: Split up put_prev_task_balance()
+ff167ad723862ee3bcab230427577cdce5b99e67 sched: Rework pick_next_task()
+59d05c394c6a4e411026bd403f8841980eea59dc sched: Combine the last put_prev_task() and the first set_next_task()
+97a39e0e6d15b767540c432a8f11054067cc8403 sched: Unify ->dl_server reset
+c23c8b331c1388414a4b5137801df045bce821dd sched: Add put_prev_task(.change_class)
 
---===============3246476808775884661==--
+--===============6549231815431178182==--
