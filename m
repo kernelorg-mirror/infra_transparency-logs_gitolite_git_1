@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9083993909483270521=="
+Content-Type: multipart/mixed; boundary="===============3246476808775884661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 26 Jul 2024 20:42:34 -0000
-Message-Id: <172202655422.27802.5161663737889540784@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 20:42:46 -0000
+Message-Id: <172202656644.27970.3179286177491942433@gitolite.kernel.org>
 
---===============9083993909483270521==
+--===============3246476808775884661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/dl-server
-    old: 2d46cf7c51bdf9bdda81c6e876abf36a6492f37d
-    new: c1733e25dec9e099a013c017e94d9430984e47f0
-    log: revlist-2d46cf7c51bd-c1733e25dec9.txt
+  - ref: refs/heads/sched/eevdf
+    old: 7a7b38b33df5425cf1be2904ba6a983b04f5a072
+    new: 6b30224f631e19e6fa35ec7397291e283c6d27cc
+    log: revlist-7a7b38b33df5-6b30224f631e.txt
 
---===============9083993909483270521==
+--===============3246476808775884661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d46cf7c51bd-c1733e25dec9.txt
+Content-Disposition: attachment; filename=revlist-7a7b38b33df5-6b30224f631e.txt
 
 b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
 7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
@@ -724,5 +724,29 @@ d4dd46a2a69121f3b2f1dd278cf87772a1c530dc sched/deadline: Deferrable dl server
 add53a696923bee03e3c5158803d9710bb74e6d5 sched/core: Fix picking of tasks for core scheduling with DL server
 2cc53c6bfe4bd6a39e9420e5b416e43344bb4482 sched/rt: Remove default bandwidth control
 c1733e25dec9e099a013c017e94d9430984e47f0 sched/fair: Cleanup fair_server
+a6eb87ab4966519774cd431635d41c82ed525ade sched/eevdf: Add feature comments
+371d97f0e1fb998f7ecf61ae8773cde6e0df8c14 sched/eevdf: Remove min_vruntime_copy
+494043d212021e08349e5f3125b940c183b2fc36 sched/fair: Cleanup pick_task_fair() vs throttle
+467cf8612601aefe3390506df5e365e14ccc7ff5 sched/fair: Cleanup pick_task_fair()'s curr
+c14b4ce70c2beb9cf0e849185d19103ceb0aa040 sched/fair: Unify pick_{,next_}_task_fair()
+fec6b60dc04c53144055afa628c81727b3af5bab sched: Allow sched_class::dequeue_task() to fail
+3c376154f486753ce315840f665a46ff9485c333 sched/fair: Re-organize dequeue_task_fair()
+6758a074e228c90eec700d6c281cc77667bcb738 sched: Split DEQUEUE_SLEEP from deactivate_task()
+7cfe24f080d0f5fa878bc801320b109a47a2a0c4 sched: Prepare generic code for delayed dequeue
+f001d98482b76a4eef6b2170478ef3fe2e801e42 sched/uclamg: Handle delayed dequeue
+2cc08482be8ffcfa38ecb7dd2e2add21aa83b92b sched/fair: Assert {set_next,put_prev}_entity() are properly balanced
+a5ae9d3f2a2a2e331483da737336f22a54b2bbb0 sched/fair: Prepare exit/cleanup paths for delayed_dequeue
+06afe09bbc1fbb83b771f66b1ae40cadad430e83 sched/fair: Prepare pick_next_task() for delayed dequeue
+3aa59530199a86ae51d182d225188dad1150f5a1 sched/fair: Implement ENQUEUE_DELAYED
+ee30efb314cf2b367779f356eaad8f7b0e77e722 sched,freezer: Mark TASK_FROZEN special
+a1133ac6dc7c6bdea02be18a8bfdd0b0d567eb11 sched: Teach dequeue_task() about special task states
+124c8f43740f3f1e3e2aeecd976bcf5ddd7bd435 sched/fair: Implement delayed dequeue
+cb2fc4edfe4786214aaaec6c5877d3dd7c54bcdf sched/fair: Implement DELAY_ZERO
+8c60a2e036a99d4ed676f3bf8abecf697621c19c sched/eevdf: Fixup PELT vs DELAYED_DEQUEUE
+5c572f661d3aea940158cfea719d1500fa351066 sched/fair: Avoid re-setting virtual deadline on 'migrations'
+c3e4461f2ece0b79bdb1bb536a647145e4a21f1a sched/eevdf: Allow shorter slices to wakeup-preempt
+fce70d76cfd444af7c20f52be805b2c6e02a3805 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
+32acb92be1f221c7f7fee6db3c8cd67c8ff82ac7 sched/eevdf: Propagate min_slice up the cgroup hierarchy
+6b30224f631e19e6fa35ec7397291e283c6d27cc sched/time: Introduce CLOCK_THREAD_DVFS_ID
 
---===============9083993909483270521==--
+--===============3246476808775884661==--
