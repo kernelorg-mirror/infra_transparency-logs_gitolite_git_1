@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 26 Jul 2024 10:48:37 -0000
-Message-Id: <172199091768.21744.17890098384789940938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 26 Jul 2024 11:02:30 -0000
+Message-Id: <172199175016.31750.2599658202297426400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dev-test
-    old: 227ed3562a9ab25cb526281fe99075e2d0c67143
-    new: 14e9283fb22d0d259820a5f05c6059678bab9ac5
+  - ref: refs/heads/thermal
+    old: 539fbb912321ab6361ccc08b72f5f83e8a25c24b
+    new: f7c1b0e4ae47e67c6f9af84568a5f4a80638ccd8
     log: |
-         9c421ef3f6b30ab912eaaa3c3d20cfb921fd8c8f erofs: support STATX_DIOALIGN
-         7dc5537c3f8be87e005f0844a7626c987914f8fd erofs: fix race in z_erofs_get_gbuf()
-         684b290abc774202ff88897648f24520f40c916b erofs: add support for FS_IOC_GETFSSYSFSPATH
-         5d3bb77e5fce1d224b94da31abae0a7afed54735 erofs: support multi-page folios for erofs_bread()
-         14e9283fb22d0d259820a5f05c6059678bab9ac5 erofs: convert comma to semicolon
+         e5f98896efb3b6350cb6f1c241394966dcbcf240 thermal: trip: Split thermal_zone_device_set_mode()
+         f7c1b0e4ae47e67c6f9af84568a5f4a80638ccd8 thermal: core: Back off when polling thermal zones on errors
          
+  - ref: refs/tags/thermal-6.11-rc1-3
+    old: 0000000000000000000000000000000000000000
+    new: 0167ea862b5a9221952c54625f9892ae3ce03d1b
