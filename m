@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5213918942940383938=="
+Content-Type: multipart/mixed; boundary="===============2728890296362463658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 26 Jul 2024 20:42:08 -0000
-Message-Id: <172202652839.27487.6811960173673668520@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 20:42:20 -0000
+Message-Id: <172202654076.27647.6258808868057809750@gitolite.kernel.org>
 
---===============5213918942940383938==
+--===============2728890296362463658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 66c4e6d8a4187d51caff25c2a3d245e5b1433ffd
-    new: 88d8561e2c1e698aaeb6d34bfe4f904b640ff826
-    log: revlist-66c4e6d8a418-88d8561e2c1e.txt
+  - ref: refs/heads/sched/core
+    old: d329605287020c3d1c3b0dadc63d8208e7251382
+    new: 4564ddd47fcd31cbf5b88418244661965f5898b5
+    log: revlist-d32960528702-4564ddd47fcd.txt
 
---===============5213918942940383938==
+--===============2728890296362463658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66c4e6d8a418-88d8561e2c1e.txt
+Content-Disposition: attachment; filename=revlist-d32960528702-4564ddd47fcd.txt
 
-a2cb8a6236daafbea5e3d9d720f5e55ba692817b bcachefs: Self healing on read IO error
-ec8bf491a9008b8db97076ba7a6905edb4537bb9 bcachefs: Improve startup message
-27d033df35154256e0063450d651000bd1b36d72 bcachefs: Convert clock code to u64s
 8f523d425e0255a68d2f47f9b21db4f684c185c9 bcachefs: Improve copygc_wait_to_text()
 1a616c2fe96b357894b74b41787d4ea6987f6199 lockdep: lockdep_set_notrack_class()
 375476c41405ff6fc379cdbf1ad1df35c737500c bcachefs: Add lockdep support for btree node locks
@@ -1050,5 +1047,8 @@ c1fcf89faa3e1602b1fccbd2f143ae4305c1f2e0 sched/smt: Introduce sched_smt_present_
 5f71ff570e751ec0443e11bcd661d901f7712cf4 sched/smt: fix unbalance sched_smt_present dec/inc
 5392f2120e570a3bd545995afc4f26953a0f38c7 sched/core: Introduce sched_set_rq_on/offline() helper
 88d8561e2c1e698aaeb6d34bfe4f904b640ff826 sched/core: fix unbalance set_rq_online/offline() in sched_cpu_deactivate()
+67989658911a1fee590296b9c1388b1ca031a3fd sched/fair: Remove cfs_rq::nr_spread_over and cfs_rq::exec_clock
+3a55d573863c07d7872f37cf59c9fb74c5b2912e sched: remove HZ_BW feature hedge
+4564ddd47fcd31cbf5b88418244661965f5898b5 sched/fair: Make SCHED_IDLE entity be preempted in strict hierarchy
 
---===============5213918942940383938==--
+--===============2728890296362463658==--
