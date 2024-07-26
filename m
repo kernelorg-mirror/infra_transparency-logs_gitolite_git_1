@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2201447319667472228=="
+Content-Type: multipart/mixed; boundary="===============0640584538816932202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Jul 2024 07:32:45 -0000
-Message-Id: <172197916518.25228.13292014454627844373@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 07:32:49 -0000
+Message-Id: <172197916938.25316.10679807239219923266@gitolite.kernel.org>
 
---===============2201447319667472228==
+--===============0640584538816932202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: c33ffdb70cc6df4105160f991288e7d2567d7ffa
     new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
     log: revlist-c33ffdb70cc6-1722389b0d86.txt
 
---===============2201447319667472228==
+--===============0640584538816932202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979164 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979168 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721979163-93693367b168b921b2bbfe7af705a53bed6bba1c
+nonce 1721979167-146334386b333bbf010a632b44df916acf273421
 
-c33ffdb70cc6df4105160f991288e7d2567d7ffa 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/staging-linus
+c33ffdb70cc6df4105160f991288e7d2567d7ffa 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajURwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ZEP/jSmskqxvnLVZHrs/DzX
-IkalH5M8edDks2RXcXN+vWDWP5sE8a3YxaKOvG2M8S/sh7k0dSiIDtZGWSRnfr9P
-kuDKYcBvySR12uPs5skUMc1fuxmFeFnwpBpIwxABoY4WD+n72f1Mbu2mpDUjzHdI
-rg3OfystweTXRmP9f87SDzTtyM9n3/rhdFSfrnl8JNP4jwhTA/HS92/IiZE7Ikk+
-CyFcsX9qVdoeXPpV/edNhvMxxSTdEiasZB0DvrykbL1c6QsDBuYpdoU6uB8oDwya
-Gm0PuZkB9/26uuVC/utglMXN80QC6xoNwMCAIAE3si0MxYovUq4oaDsmVSOkYgzj
-BqUB9t7K4n3yhgyOEAjOz7HFrZApegiNZiiAkxrjBRu0WwfLIlPcYTVNqgcQsQNE
-WhWTEdHicL9mWhJ8diGaUTYe9HujkNi3ydhqPINQwyAHyiP7CvuY0UuNGRAcMZH9
-SBRchBiuVA50tTrGgfLcSlWFYWquBTQvDRfh1lVHLG4lctiM0BIw45lETCyT+fqz
-67JHSi7fMYlMDArvGPdZdIo8w55coA+vI1rkUawBUwsVIsttQZG3WY58tcNBeR50
-zpsnsmV0fLpf0XDqNNw9Fc1uabcB2jK/0HrNoOtM9GoF4F2VMaSBhMApXq2reMAC
-bURgEKdV5gnKBZi/8yyZDEXB
-=X22R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajUSAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ehoP/2hzO7HLyMUJpLnJWlP+
+faZ0PHD1pf55mE2QVLgatD+ogT1Ffvxs7j6Wdfujn6RKBBgUMLJkRQ2dIlNoMVHD
+abgFRpUvaG2iYNddcJZkqykdkpZZbSGXKrk7RSOMv5PKZat1ynOzOtBVm5hv4yLE
+wY1wSqBMTx/vi02Ep8mN4zTq8WTUKW5v4faHThNXNTuB34ulcKMiukuDIUvWcDLJ
+6BNIrv5iuV0Za+BY38BeDEnEYJ7S7ijvcuy+f/5OVxtQqAMLXnnbi/E9ld+gSLHJ
+rjay4CTeA3u+JuH5i0M/Usg4SSsuFT+ZswaYw9DEN/C6BkczNoIjasoreNm4JmXw
+q4W+eBeefgIxmrMQUUxL6yMfzG4pWoECkz0xojyvUINddQ+yBo0HJY2VotzOPO1R
+6eFSTFGF7BYsNKJPr4HUsDFC90ixpXeeaILxHFN/o/PgRvHmWdxG+K070Sh+r6xj
+pJGvUN7faumM1+sxv6LwZnNJ8iPhbVQHZpZll7Exnm0JE946AIJHUksukU+pZce+
+7rpAvxwdvwOH+WbOYjFQyUsZCDfxDbntB+QfK97OYocuum9N4Nc4LP40ADY4+CzC
+YNOnmhs1nDsBEhOq0bz7hHOq2cS/Dl7tuHs7JgHcmEfTttz8f7o09mfK2ESWkhA4
+MwfY+kQKpkINeBY26pFGktKY
+=Kc+t
 -----END PGP SIGNATURE-----
 
---===============2201447319667472228==
+--===============0640584538816932202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -239,4 +239,4 @@ b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of 
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2201447319667472228==--
+--===============0640584538816932202==--
