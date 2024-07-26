@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jul 2024 20:25:33 -0000
-Message-Id: <172202553362.14989.7355345552827257241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 26 Jul 2024 20:28:09 -0000
+Message-Id: <172202568965.16017.9158000015569204804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/100GbE
-    old: 1722389b0d863056d78287a120a1d6cadb8d4f7b
-    new: ab8f141d1bbf9ea63937f7d8d4a0887780e03ac5
+  - ref: refs/heads/master
+    old: 7d72b22385786b232eafcd3cbfc44653909866da
+    new: af21689dd0f1ef6f40d6ecc323885026a07486f9
     log: |
-         91827c9b055e656d4a6666ab2b7fcc4306c00e79 ice: respect netif readiness in AF_XDP ZC related ndo's
-         13e7d9c8507dc505439bafc1595c1e1418e16f4c ice: don't busy wait for Rx queue disable in ice_qp_dis()
-         a77a0554f8586cdca160c9a29bb310ea078dd7f5 ice: replace synchronize_rcu with synchronize_net
-         53a3903a3a49efdc03b745acdeb2e94c6fae6a4d ice: modify error handling when setting XSK pool in ndo_bpf
-         0e93c36e091fb22686d5605988974da7f1656c09 ice: toggle netif_carrier when setting up XSK pool
-         8542f35eb40cbfe88bd146f4b8180739fcc6f611 ice: improve updating ice_{t,r}x_ring::xsk_pool
-         0abe0572eb740cd2910fee3c916fb36a82e39fdc ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
-         ab8f141d1bbf9ea63937f7d8d4a0887780e03ac5 ice: xsk: fix txq interrupt mapping
+         d4d3df108980f11a1a3340aec30dcedfde2ee1a5 build: Always run distcheck with all compression libraries
+         929ca4c92ab7b341117994e083ac09ede2d0b70c libkmod: Move xz-related functions to separate file
+         24d78fed155784e82baa550c96f203c704f78ede libkmod: Move zlib-related functions to separate file
+         d84631afc229cac76e674c40ed483a03b2ec16dd libkmod: Move zstd-related functions to separate file
+         b5a2cd070def74f07075e0018289a9fcf12e1a68 Use SPDX header for license
+         d4f659e12a2b08a8bdb9f089b8ce0254c0ff460d Drop the one line short description on sources
+         af21689dd0f1ef6f40d6ecc323885026a07486f9 depmod: Remove license/copyright from the middle
          
