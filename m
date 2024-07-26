@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3673899282417087476=="
+Content-Type: multipart/mixed; boundary="===============0872733305359355969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 26 Jul 2024 14:56:19 -0000
-Message-Id: <172200577946.30077.6485457547797693745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Fri, 26 Jul 2024 14:56:30 -0000
+Message-Id: <172200579058.30215.1042122584984803642@gitolite.kernel.org>
 
---===============3673899282417087476==
+--===============0872733305359355969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
     log: revlist-51835949dda3-1722389b0d86.txt
 
---===============3673899282417087476==
+--===============0872733305359355969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of 
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3673899282417087476==--
+--===============0872733305359355969==--
