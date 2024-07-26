@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0340631246292568693=="
+Content-Type: multipart/mixed; boundary="===============0858142149375478786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Jul 2024 07:32:33 -0000
-Message-Id: <172197915345.25014.8101164478487484244@gitolite.kernel.org>
+Date: Fri, 26 Jul 2024 07:32:41 -0000
+Message-Id: <172197916126.25155.6819373844847111588@gitolite.kernel.org>
 
---===============0340631246292568693==
+--===============0858142149375478786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 36440689339703f14092f6f5d788fd70f1bb8a62
-    new: bc24b4c48f3528655b040dd4eccceb26dcf860ac
-    log: revlist-364406893397-bc24b4c48f35.txt
+  - ref: refs/heads/main
+    old: c33ffdb70cc6df4105160f991288e7d2567d7ffa
+    new: 1722389b0d863056d78287a120a1d6cadb8d4f7b
+    log: revlist-c33ffdb70cc6-1722389b0d86.txt
 
---===============0340631246292568693==
+--===============0858142149375478786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979151 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1721979160 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1721979150-867bb2f80d43706a54642a71b550c1b70e0c5305
+nonce 1721979159-48680b8b93ab5f41cafda1323b4af770ae2e4f0c
 
-36440689339703f14092f6f5d788fd70f1bb8a62 bc24b4c48f3528655b040dd4eccceb26dcf860ac refs/heads/staging-testing
+c33ffdb70cc6df4105160f991288e7d2567d7ffa 1722389b0d863056d78287a120a1d6cadb8d4f7b refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajUQ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5JgQALG10gxZOB5LESP3Vs3v
-oekTbYuXPwu0EODBrKJUnsr5m2ZG5OS9WlZsklcCXgGv9vHL2iSD5WjY0wFs6t9z
-4fXns/J00I2cChWQR2seALFc+o47SJS1doTTxHFUDZlw2qa8/0glf0ZlYzKXObJi
-HaowPajWSCmOiEhA4hpecrwuyn8bUGq0jRxNh6oklxAE3MAwT/QRhJ+GKhHP2fWv
-2/+YstP8fcwLRFxzqN4d+i0R+zOmE9tbhDYS4WGnBoNVPm/LGDAxOQzpH4g8rUv5
-pB3ET8TSaxDqQ78FDAYFA+Tc3ZaEtvA/M2BNP4ar4ZFfP+vsVmzjKlBAw35yGMU3
-NXCRgzL7fpJNAg1mRAPXZk4283X02PdYQZs+LQyWY93Jr4P6EbWuVC26SkLtMfJa
-46T/dcqwg00xZ/w8lpLD/bAR2Ycf8/4HcqLu9IVbJT3dYQZSnn/jVIZ3iLG87hOL
-YEvcOvpyjdBAq8SdHUTmiFLQi45TrABZoJKCz5plgtRyGW3+palvefu0uAktTWkk
-HkMEWeYd7kNAKww7GWiVm+NmMKK4Jim9aRfeBSad96KZKib8qaQokEw3JlJbz5qD
-TSxmi3gMTtmKIBkqzdDNhGFcD8qT546cWYKgC5IJuVXsCWsRyodSMv8vZye5ZE80
-K/TBXZ35nppi3TafyJQcsqV/
-=Fg/y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmajURgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uQQP/0/3JSatKjuABciTjjES
+dQTvl4L6JrGHuxOc2vXnBw6sr/nvCWfBDr2fExTIwGdK0xJyvAOsDg4Q4QqpnMJ4
+UWmEOjNB9qCeDWqiQH6n+lGi7gC74GQvBKR1YWtT4dnn7b9LBZJpWLiMJ2MQCR/2
+rP8uD4yTWyKHkNShOldweIaiWPl4ewTeCvD1nbHcCJxDi8nasxnZ/Lj4DntA2CR6
+G/vF8xY2BqaHZGWwVitiWMgnTWxkChDLLPvqtzzdwO2S8SkIyReEdGEuVdPGLP5r
+SMV5en94gQh0Bzooc8V2YcZvJYXq3Dzmu/zDVQJz508WCQo/ArzdLn3EFHT8huMG
+tz4rJU59f/ayj5pdx0SVp2QgdeO9i8pYF0hnOWuT9qJZTqMrIZfPc3ECPDVr17eh
+a8DcwPLk9vGg78j65k6doGp0YWomCm9dHyJ1B1dHoyMuaMkCHfwElg3Cdz68G3nr
+Y5Fh2iLYBTemTaimvEgqqAV0oYsixXEmkFL5II0JpVoOUnME+ODt/p9Gd+CJYLXm
+p6tapS33oRpYTV7xdxFkMt0jem1m8cNhDX3c1bRTTq0Lrp2R6jOUdzlc3l7cWMVb
++QR62XMVIZVd1gfBcXHmYnvr2Rx6wUgF0BI2coPYJmDC7GupsIj/lZZ/bhYZuFd6
+mz0MqxwFa1Atc3pAaSiAop83
+=TGnA
 -----END PGP SIGNATURE-----
 
---===============0340631246292568693==
+--===============0858142149375478786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-364406893397-bc24b4c48f35.txt
+Content-Disposition: attachment; filename=revlist-c33ffdb70cc6-1722389b0d86.txt
 
 b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
 7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
@@ -238,7 +238,5 @@ bba959f477f2f4a48ab72eda2902db706bbc3793 Merge tag 'efi-fixes-for-v6.11-1' of gi
 b485625078cab3b824a84ce185b6e73733704b5b Merge tag 'constfy-sysctl-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 8bf100092d60bf586bbc1a3a2cd833bb212d9d53 Merge tag 'printk-for-6.11-trivial' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 1722389b0d863056d78287a120a1d6cadb8d4f7b Merge tag 'net-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-246cf05d889af820ed7bbbb7c9029e38e3064a71 staging: vme_user: vme_tsi148.c: remove redundant newlines
-bc24b4c48f3528655b040dd4eccceb26dcf860ac staging: rtl8712: style fix multiple line dereference
 
---===============0340631246292568693==--
+--===============0858142149375478786==--
