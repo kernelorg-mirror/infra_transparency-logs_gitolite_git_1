@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 26 Jul 2024 12:51:44 -0000
-Message-Id: <172199830403.532.6976209427314347350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Fri, 26 Jul 2024 13:29:21 -0000
+Message-Id: <172200056124.26679.17725910957807687481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 2709e400c2e06ddae9ad120f301a5254f629cf3e
-    new: 52420e483d3e1562f11a208d3c540b27b5e5dbf4
+  - ref: refs/heads/main
+    old: 2191a54f63225b548fd8346be3611c3219a24738
+    new: 225990c487c1023e7b3aa89beb6a68011fbc0461
     log: |
-         5d5fc33ce58e81e8738816f5ee59f8e85fd3b404 riscv: Improve exception and system call latency
-         1d20e5d437cfebefb5e6f4d652c3a1561fc23fc7 riscv: signal: Remove unlikely() from WARN_ON() condition
-         b5db73fb18257cd5d9cb59bc4b779fffa629566a riscv: enable HAVE_ARCH_STACKLEAK
-         ec1dc56b54d679cbfaa7ef7abbf23bdeac029af1 Merge patch "Enable SPCR table for console output on RISC-V"
-         3aa1a7d013dd69d187a7b2daa1a0961b7d4edc71 Merge patch series "RISC-V: Select ACPI PPTT drivers"
-         5c8405d763dc2b125b39166bc70be1b8dcc80582 riscv: Extend sv39 linear mapping max size to 128G
-         52420e483d3e1562f11a208d3c540b27b5e5dbf4 RISC-V: Provide the frequency of time CSR via hwprobe
+         225990c487c1023e7b3aa89beb6a68011fbc0461 net: phy: realtek: add support for RTL8366S Gigabit PHY
          
