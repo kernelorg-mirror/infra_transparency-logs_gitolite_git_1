@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 26 Jul 2024 21:34:27 -0000
-Message-Id: <172202966756.31493.16942095570785058053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 26 Jul 2024 21:46:45 -0000
+Message-Id: <172203040585.9654.10780577320966572427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2024-07-26-14-33
+  - ref: refs/tags/test-tag
     old: 0000000000000000000000000000000000000000
-    new: c350f65b5d70a3c20d6a4f3bb2888c595f6aab45
+    new: ad9e50ed9177a3fa662a4994c5c33e030bce58ba
