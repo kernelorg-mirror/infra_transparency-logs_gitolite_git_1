@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jul 2024 20:34:08 -0000
-Message-Id: <172202604809.19844.1782812609854684917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 26 Jul 2024 20:37:39 -0000
+Message-Id: <172202625996.24133.5688384239421009304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev-queue
-    old: fdb0139b96d0fa8ac0202f74cd6e20572a8d9e19
-    new: 9e36cf8c8f4eee458dbc0fb9629a40159c704961
+  - ref: refs/heads/master
+    old: dbcb6a1eba9ef7ebf56d0c3eb0718a87ab6188b2
+    new: 7ae6f62ca7dac949ae5807c84e86ccd584d604d9
     log: |
-         90f493d114c4aa6fd15be5e375564fe21a72fb88 igb: prepare for AF_XDP zero-copy support
-         8563e219db856f25efb5de7a3492667f7efae6bb igb: Introduce XSK data structures and helpers
-         a342412fab87c8c97be329f89675c6d6456d11fc igb: add AF_XDP zero-copy Rx support
-         9e36cf8c8f4eee458dbc0fb9629a40159c704961 igb: add AF_XDP zero-copy Tx support
+         3663b0f4434fac6e16fdac8ce4df1019efc81794 NFSD: Display copy stateids with conventional print formatting
+         83db325ec1a750b9508954a02084ba0bef0eb498 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+         fb3b9ef1a64f83475394744cda63b8893fd26a7b Revert "SUNRPC: Fix backchannel reply, again"
+         279a9ab1eeebba58789d76e84260dc823fabb8e2 NFSD: Drop CB_OFFLOAD Calls
+         7ae6f62ca7dac949ae5807c84e86ccd584d604d9 Debugging
          
