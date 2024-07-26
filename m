@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 26 Jul 2024 16:09:31 -0000
-Message-Id: <172201017119.19292.11490877093255792416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 26 Jul 2024 16:52:24 -0000
+Message-Id: <172201274409.18125.8165457231950123770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/openfast
-    old: 6fa2fab80fdb09baca77b2567a87902c1cb23df4
-    new: 7469dea3569853f2339be1616a66d48006b72047
+  - ref: refs/heads/nfsd-testing
+    old: e4a17061efaa5fa82e90e4466f091545271df88d
+    new: 5200415de702f555fa360c26ea0f9b6664b11515
     log: |
-         5b3e0723be3f007005be22ad7a81c0e8e3a07768 fs: add a fastpath for lookup_open when positive dentry already exists
-         7469dea3569853f2339be1616a66d48006b72047 fs: add tracepoints around lookup_open events
+         5200415de702f555fa360c26ea0f9b6664b11515 Debugging
          
