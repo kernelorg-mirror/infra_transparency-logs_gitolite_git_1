@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 27 Jul 2024 21:30:01 -0000
-Message-Id: <172211580118.24925.2012014923435390509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 27 Jul 2024 21:52:57 -0000
+Message-Id: <172211717798.10052.6339447300181748861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: d35b8bf7edb19a0721e72a2f115fd5708e04bcaf
-    new: e31ef6b99f14125f10861ddf96a6a70cc6d2e69d
+  - ref: refs/heads/nfsd-testing
+    old: d652ede9680f589f254d3340b989863bf887343b
+    new: 30600fc7c5f0d9111dbe99b521d57d220448b56f
     log: |
-         e31ef6b99f14125f10861ddf96a6a70cc6d2e69d Sat Jul 27 05:29:16 PM EDT 2024
+         30600fc7c5f0d9111dbe99b521d57d220448b56f Debugging
          
