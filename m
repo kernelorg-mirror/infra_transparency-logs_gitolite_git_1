@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5814397476959595677=="
+Content-Type: multipart/mixed; boundary="===============4656411011697587523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sat, 27 Jul 2024 15:24:12 -0000
-Message-Id: <172209385213.20627.8981483517327800230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 27 Jul 2024 15:29:05 -0000
+Message-Id: <172209414535.23990.8433031126980626916@gitolite.kernel.org>
 
---===============5814397476959595677==
+--===============4656411011697587523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/dev-test
-    old: 612313c17e72ab8abe334e923f1a8890023ef87f
-    new: cca3ecb709ca79b620506dcf9dfd0129dfafa848
-    log: revlist-612313c17e72-cca3ecb709ca.txt
+  - ref: refs/heads/hwmon-next
+    old: d5cebd36239e4fe99354d8943536794d9398c6c0
+    new: aeaa1e2c83b1ba36a89a6223d0da89245462f9b7
+    log: revlist-d5cebd36239e-aeaa1e2c83b1.txt
 
---===============5814397476959595677==
+--===============4656411011697587523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-612313c17e72-cca3ecb709ca.txt
+Content-Disposition: attachment; filename=revlist-d5cebd36239e-aeaa1e2c83b1.txt
 
-e370150d4a0c2f89cc41c9f463763bac591713d0 f2fs: prevent possible int overflow in dir_block_index()
-0596e572ff0f8c6ec38c92427f621707264b1a8c f2fs: fix several potential integer overflows in file offsets
-9e8488a185a190f04126eea7f85fce3074fcc593 f2fs: avoid potential int overflow in sanity_check_area_boundary()
-cd7e6d4e419bbe8f7f88a57e169c90362aa64e98 f2fs: add write priority option based on zone UFS
-9070ed068fb9ac85a8ae3ad17f793daf5b141cca f2fs: fix macro definition on_f2fs_build_free_nids
-65e190d0bdfaf15f6983ccfbd6ad5c7dd77ad132 f2fs: fix macro definition stat_inc_cp_count
-d7dc0d41d362501e97198611356bf80c6e5a612c f2fs: atomic: fix to avoid racing w/ GC
-3a8fdf80a387952461a5f48b8819f807c870698d f2fs: atomic: fix to not allow GC to pollute atomic_file
-7a8084b232c5712e2077b05605d4ea632cb5a76c f2fs: atomic: fix to forbid dio in atomic_file
-c96a418a2256a8511049280c3521f479fbb09280 f2fs: reduce expensive checkpoint trigger frequency
-9ab998f3b8be1233695d294dfb8b0fbe3d0690a7 f2fs: fix to wait dio completion
-b57f7c31fd9b9a8fd9fd661900b253239666e7d8 f2fs: fix to avoid racing in between read and OPU dio write
-e1e0c402c59660e3eb232d90686b9e9e277b3bea f2fs: get rid of buffer_head use
-dfac8ccb842ad0ca798e2eb26efa9a4b29927b35 Revert "f2fs: use flush command instead of FUA for zoned device"
-73e631db246fe3ec40f0829917287e2353d0e936 f2fs: sysfs: support atgc_enabled
-23729a6e1bb8e82d855f307add265a7766c4083a f2fs: use f2fs_get_node_page when write inline data
-cca3ecb709ca79b620506dcf9dfd0129dfafa848 f2fs: fix to use per-inode maxbytes and cleanup
+367852b2943276e19832cd4e53f80366afdb2ac5 hwmon: (max6697) Convert to with_info hwmon API
+8b71a5f6689ff8cd144d72a8ebd8c3ec1d68a36f hwmon: (max6697) Add support for tempX_min and tempX_min_alarm
+45617877b678ff92a0661939a3a27930ed9bca48 dt-bindings: hwmon: Add adt7475 fan/pwm properties
+999e2c92e71c6f2836bd731c55309282049486f2 dt-bindings: hwmon: adt7475: Deprecate adi,pwm-active-state
+edff4f5713cbbcdff6e503b8c8646f670079cf31 hwmon: (adt7475) Add support for configuring initial PWM state
+a9b11f920ee2b6711c1c10968860250fee164fb2 hwmon: (ltc2947) Move to firmware agnostic API
+5d3785564641b76e1b8bd92bada59108f195a35a hwmon: (oxp-sensors) Fix typo in driver documentation
+4506a30cb3de111904ef57a4a182508c19f15e2a hwmon: (max1668) Reorder include files to alphabetic order
+8c4c3e80157a5408a090b090d8c2fddec7650f3d hwmon: (max1668) Use BIT macro
+4dadb2819bc83f13c5e60013e709f44cb69403ef hwmon: (max1668) Convert to use regmap
+4cc3496abea02ff288bdf48da846a12f92d37ad4 hwmon: (max1668) Replace chip type with number of channels
+aeaa1e2c83b1ba36a89a6223d0da89245462f9b7 hwmon: (max1668) Convert to use with_info hwmon API
 
---===============5814397476959595677==--
+--===============4656411011697587523==--
