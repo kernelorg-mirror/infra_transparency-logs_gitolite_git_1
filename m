@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 27 Jul 2024 03:37:07 -0000
-Message-Id: <172205142747.3624.16876604530761538608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sat, 27 Jul 2024 03:51:36 -0000
+Message-Id: <172205229660.13655.1667655364187785814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: f823b459645b872ef3481d746fa82b7ff1a91da8
-    new: 9e88bf22ad5e48418d7dd4c28af1229bb8bfeec6
+  - ref: refs/heads/tmp.perf-tools
+    old: 92717bc077892d1ce60fee07aee3a33f33909b85
+    new: d27087c76e3c859ea05b7581ef7ce8aa5a088dd8
     log: |
-         b202a9fe0ded331b76b1b7ad5069999e3307bd2c CodeSamples/formal: Update rcu-test.dat for v6.10
-         9e88bf22ad5e48418d7dd4c28af1229bb8bfeec6 datastruct: Fix off-by-one error in CPU range
+         4c17736689ccfc44ec7dcc472577f25c34cf8724 perf tool: fix dereferencing NULL al->maps
+         440cf77625e300e683ca0edc39fbc4b6f3175feb perf: build: Setup PKG_CONFIG_LIBDIR for cross compilation
+         cffe29d3b54aa0437bc35440ea64866bbfc418a3 perf: build: Set Python configuration for cross compilation
+         536661da6ea18fe6df5740bc9e9001d097b035ee perf: build: Only link libebl.a for old libdw
+         91b6a536b40658c24d6f04747ddf852d30f7f259 perf: build: Link lib 'lzma' for static build
+         f42596c73872b753ff1799bc7fc79b1100226da1 perf: build: Link lib 'zstd' for static build
+         d27087c76e3c859ea05b7581ef7ce8aa5a088dd8 perf docs: Document cross compilation
          
