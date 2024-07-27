@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1008065771722332940=="
+Content-Type: multipart/mixed; boundary="===============7011041089879011889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 27 Jul 2024 20:32:33 -0000
-Message-Id: <172211235378.16290.2044005627965441958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 27 Jul 2024 20:42:00 -0000
+Message-Id: <172211292027.24168.16172603074877464809@gitolite.kernel.org>
 
---===============1008065771722332940==
+--===============7011041089879011889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 8e333791d4605dbce611c22f71a86721c9afc336
-    new: ff30564411ffdcee49d579cb15eb13185a36e253
-    log: revlist-8e333791d460-ff30564411ff.txt
+    old: 8fc9eef02f495558939dd092b92209ff030683f9
+    new: 420389434963e0900abecc1bfec6a943178f66a9
+    log: revlist-8fc9eef02f49-420389434963.txt
 
---===============1008065771722332940==
+--===============7011041089879011889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e333791d460-ff30564411ff.txt
+Content-Disposition: attachment; filename=revlist-8fc9eef02f49-420389434963.txt
 
-fce09ea314505a52f2436397608fa0a5d0934fb1 apparmor: Fix null pointer deref when receiving skb during sock creation
-2bc73505a5cd2a18a7a542022722f136c19e3b87 apparmor: use kvfree_sensitive to free data->data
-4a8db3678403e34c31df6b99a26414d5e183538c apparmor: remove useless static inline function is_deleted
-b2c858148acf96290b9a9af259a04e080a169f51 apparmor: fix typo in kernel doc
-3dd384108d53834002be5630132ad5c3f32166ad apparmor: fix possible NULL pointer dereference
-39705a6c29f8a2b93cf5b99528a55366c50014d1 landlock: Don't lose track of restrictions on cred_transfer
-cc374782b6ca0fd634482391da977542443d3368 selftests/landlock: Add cred_transfer test
-33be0cfa5ba522ba88ba25cb95e582932843409b apparmor: take nosymfollow flag into account
-4b954a025591a1c7d3a0c0111b6d4730596046b6 apparmor: test: add MODULE_DESCRIPTION()
-f4fee216df7d28b87d1c9cc60bcebfecb51c1a05 apparmor: try to avoid refing the label in apparmor_file_open
-e0ff0cff1f6cdce0aa596aac04129893201c4162 apparmor: unpack transition table if dfa is not present
-86b405ad8d0d2994a7ffbacb8fcf83be8afb952c Merge tag 'landlock-6.11-rc1-houdini-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-ff30564411ffdcee49d579cb15eb13185a36e253 Merge tag 'apparmor-pr-2024-07-25' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
+14a1a58fd838435f47599660d8ac56067ed25f04 hkml_tag: Allow erasing old draft
+d7025e12eccf9d7ad5f44e3bccaa598b065b6aea TODO: Update
+8bb4faca25716a9036b1a7493854029c65939fb7 hkml_patch: Split out main logic after getting mails
+d756648af28d28d3d9b621c6639083b3c3c9bdee hkml_patch: Handle applying action error from main()
+38e632c52826f92c2c6ec7936ccc5fe0c29c5cab hkml_view_mails: Use hkml_patch.apply_action_to_mails()
+36f512a16ae49bd5fb1444d2cf359fdbe6b6cbeb hkml_view_mails: Use existing mails for patch handling
+85d2695e2c90d175d40daf7d762b3bb535d918f2 hkml_view_mails: Remove unused function, handle_patches_of_parent_focused_mail()
+72df2a4510e3e3ce2c22ec9b2943ba9289454dd2 hkml_view_mails: Remove unused function, write_parent_focused_draft()
+c1efe14707aa5d09b068033f89a99f4d8d4599e8 hkml_view_mails: Remove unused function, manage_tags_of_parent_focused_mail()
+1d5c5ce1b250e8a25d08d3a7a915f8d1ed5f02de hkml_view_mails: Make slist.data a dict to be expandable
+ea20c268e82d0222f64710d099a0425e146f4d2e hkml_list: Split out mails list text formatting
+8f9b16fe34059a90b116d47015084e4dac352606 hkml_list/fmt_mails_list(): Allow collapsing specific thread
+3cd2a1ca8170d77b81d80cb941a1f6089a670a88 hkml_view_mails: Support collapsing/expanding threads
+64e4dda91a9946d395ad23885b7b623b9f0489d8 hkml_view_mails: Implement collapse/expand menu
+35b649cb7c3a22b3e888a00f1ded1c56a0d93e5b release_note: Update for next release
+420389434963e0900abecc1bfec6a943178f66a9 TODO: Remove completed items
 
---===============1008065771722332940==--
+--===============7011041089879011889==--
