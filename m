@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3255603054499178108=="
+Content-Type: multipart/mixed; boundary="===============5123752951712515623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matttbe/net-next
-Date: Sat, 27 Jul 2024 09:12:22 -0000
-Message-Id: <172207154254.22905.8704989573393101862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 27 Jul 2024 09:33:02 -0000
+Message-Id: <172207278227.4323.1293564657918171506@gitolite.kernel.org>
 
---===============3255603054499178108==
+--===============5123752951712515623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matttbe/net-next
-user: matttbe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 75b1f63c14ef423f33eb3f5b386faf95700e66dd
-    new: 66396241a2b6f981f56cb1969a4fa9b011061876
-    log: revlist-75b1f63c14ef-66396241a2b6.txt
-  - ref: refs/heads/b4/upstream-net-20240727-mptcp-backup-signal
-    old: 0000000000000000000000000000000000000000
-    new: 66396241a2b6f981f56cb1969a4fa9b011061876
+    old: d48406cc613261f9017b28068a97074ec970579a
+    new: 45cea48780cc9feab6e06292284f703af95e33b3
+    log: |
+         45cea48780cc9feab6e06292284f703af95e33b3 Linux 6.1.102
+         
 
---===============3255603054499178108==
+--===============5123752951712515623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75b1f63c14ef-66396241a2b6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8f4fa0876231c426f880a2bff25ac49fac67d805 wifi: mac80211: use monitor sdata with driver only if desired
-baeaabf970b9a90999f62ae27edf63f6cb86c023 wifi: cfg80211: fix reporting failed MLO links status with cfg80211_connect_done
-6873cc4416078202882691b424fcca5b5fb1a94d wifi: cfg80211: correct S1G beacon length calculation
-189d7aae8f5a100b0db8b302debbd445475d01e6 wifi: ath12k: fix reusing outside iterator in ath12k_wow_vif_set_wakeups()
-6557a28f3e3a54cff4f0dcdd1dfa649b26557ab3 wifi: mt76: mt7921: fix null pointer access in mt792x_mac_link_bss_remove
-a47f3320bb4ba6714abe8dddb36399367b491358 wifi: ath12k: fix soft lockup on suspend
-e22a3a9d4134d7e6351a2998771522e74bcc58da Bluetooth: btintel: Fail setup on error
-d09009bc80d9d0d812b988888c40cd86e52eaf1e Bluetooth: btmtk: Fix kernel crash when entering btmtk_usb_suspend
-96b82af36efaa1787946e021aa3dc5410c05beeb Bluetooth: hci_sync: Fix suspending with wrong filter policy
-f0c83a23fcbb424fdff5b38fbcdda3c04003a210 Bluetooth: btmtk: Fix btmtk.c undefined reference build error
-61f7a8f975456d7be21100ee0936389142b95a81 Bluetooth: btmtk: Fix btmtk.c undefined reference build error harder
-7a8c6fb21a7c913ddb99785b14914dab2f934fbd Bluetooth: btmtk: remove #ifdef around declarations
-df3d6a3e01fd82cb74b6bb309f7be71e728a3448 Bluetooth: hci_event: Fix setting DISCOVERY_FINDING for passive scanning
-f99d93de93c2e650abee890af4f31c29fe12a32a Merge tag 'wireless-2024-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-697943657444a7d7123b47bc32019e62533f4863 fbnic: Change kconfig prompt from S390=n to !S390
-301927d2d2eb8e541357ba850bc7a1a74dbbd670 Merge tag 'for-net-2024-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-5620ef94844061507b0273d7a238e5c21abfee73 EDITME: cover title for upstream-net-20240727-mptcp-backup-signal
-0129b7384743e699a8613643ce29a5bfc1e84b83 mptcp: sched: check both directions for backup
-e28b32a6fbf5f0352aae7c8ed0f52aabce2ae8e7 mptcp: distinguish rcv vs sent backup flag in requests
-b6f86106cc19698c5324808562cf2271bc1762ff mptcp: pm: only set request_bkup flag when sending MP_PRIO
-5e6165483dc597bd598b3271da229b31ffeb6ef9 mptcp: mib: count MPJ with backup flag
-c0b839304d99bb544deaf7306b51b1505a6229fe selftests: mptcp: join: validate backup in MPJ
-db882bbbd113aafc1023287cf897f53ddbf085bd mptcp: pm: fix backup support in signal endpoints
-e6bdb861bc395d48a1d8793924c1f96f08a0307e selftests: mptcp: join: check backup support in signal endp
-66396241a2b6f981f56cb1969a4fa9b011061876 DO-NOT-MERGE: mptcp: enabled by default
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722072781 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1722072780-955f1598178f6959d4b45c4bd3c174f497065e02
 
---===============3255603054499178108==--
+d48406cc613261f9017b28068a97074ec970579a 45cea48780cc9feab6e06292284f703af95e33b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmakvs0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+psYP/RDcohSjPDntyqsWeZi+
+wZAfn15XcuHng60ESpkn1G2pMA4JmBtwmwupcUChaOX9tnxUDfarunk2u3xOXoTO
++MQDa291c7l7igoywX68zkatOCFbwwfCiRVCdpwJZLubWnsNIlDnQtze8O/uxsW5
+ljkHnG/Zwn6zRot4eCWXWgcTpwaSIupKPC1mS4XAt1w+wMPYIiguZ5TM9xsMhJJ2
+hu92yJ0jcR7y0J7Ni54UtdtIgUsrRGzgPxdWuhm2yBxN8p95HcsQRuDuBRroSDla
+YWAsup9n67CyaLSRaiS3ifVF0C3S+mKy6rbOaLukw3BBz9HJaO6aN5o6NDxmfzWx
+mOKCC5TswLyHVh94mFMzIdDuYPP6VY79S+8LU/KGCQz0VwhWz2Lo9KyhihvJcbEk
+U9we9rxDCrPhl7IseqxC6LnfFqUns9F3dmhsg3Q34lfzSJdFbGq+2kITGD5SLkTk
+LpZLNlU1DMTsbaNO7hxsWqm0+pq6ae8nLHn8yvBhZrebOfuhO7xKJ7cIflRR8tjz
+zRb7F7G+VwCSfnE9irtIo0F24y3fsLjoPHoHfaY85yQtoFAHmkcK5F1t3ax0Ml0+
+Nf7w+1Gtxc6m3EeIpjQmd1dmc6tpArc7tDeCD59Mbyq/XcWZgB0eYiW+hNWNxeaM
+sAPWRdUgCMzdI6LliOV76F3S
+=xQty
+-----END PGP SIGNATURE-----
+
+--===============5123752951712515623==--
