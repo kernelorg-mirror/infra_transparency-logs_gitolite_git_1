@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 28 Jul 2024 06:44:37 -0000
-Message-Id: <172214907740.3858.15582591039057159205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 28 Jul 2024 09:52:16 -0000
+Message-Id: <172216033654.22773.14689382119404585411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 09b8fececf6951d5c8bba314268511f44689a153
-    new: adc1e22c8d21679b4edeabc256741a317f6be43e
+  - ref: refs/heads/irq/gic-v4-vmapp-fixes
+    old: 24b37686a1509b401c91f71a47995abfb764b0fb
+    new: dead54c49ac0352b2945f436a9628a6eebd7721b
     log: |
-         ecb11b7773e2d6f57680400c59ea8d142dae2031 Merge branch into tip/master: 'irq/urgent'
-         e1f1db17799507fcd88bc0c120010c16deb0d0f4 Merge branch into tip/master: 'WIP.x86/fpu'
-         4e4fdb79355d9dbc67870f5a34184001fb139e68 Merge branch into tip/master: 'locking/core'
-         adc1e22c8d21679b4edeabc256741a317f6be43e Merge branch into tip/master: 'x86/mm'
+         dead54c49ac0352b2945f436a9628a6eebd7721b irqchip/gic-v4: Fix ordering between vmapp and vpe locks
          
