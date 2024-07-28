@@ -1,25 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 28 Jul 2024 17:25:24 -0000
-Message-Id: <172218752426.27315.279393771947086696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 28 Jul 2024 17:53:25 -0000
+Message-Id: <172218920576.14157.12847648051426607526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/next
-    old: ee98d5e6125107110bcaf21f218233fe41bc5b87
-    new: 2174c705efaaf928f161d68ecc592295fc790ea7
+  - ref: refs/heads/nfsd-testing
+    old: 17d2d1b0b6e8ed675e6330a47f8229278a286dc1
+    new: 11b480b012a3063e22148a2b044a3ce7031ca85c
     log: |
-         037ba0cb51b9bf3a59a1e5d1065f95e8dd46120a _damo_records: Add a class for proc/<pid>/stat parsing
-         c720ffe31a68e7f160e8171f0673c27bb8715685 _damo_records: Add a class for proc/.../stats snapshot handling
-         3e4c1a7ef8a07598fc8f64641843be907e696c7a _damo_records: Implement functions for proc/.../stats recording and loading
-         95a307b0495bd500112603d5f1e6abbdc3d11e98 _damo_records: Record proc stats together
-         8d3a7e6499e466555ac54439fda25604d068397c damo_record: Set pid of kdamonds
-         aa95bf662d6d2d635e3eb87b959050dce1997ce3 release_note: Update for next release
-         2174c705efaaf928f161d68ecc592295fc790ea7 damo_args_damon: Print OrderedDict as normal dict for yaml
+         318d4c88b8cb8a6e65adc077f2afc41eb528ee80 NFSD: Fix OFFLOAD_CANCEL crasher
+         f0036711984777c7769dee824c5a38034c9bacd1 NFSD: Display copy stateids with conventional print formatting
+         64af9fc87646044bc6f86db0afc0ab29bf1dd9f4 NFS: Fix typo in OFFLOAD_CANCEL comment
+         578f3cbaa1b9e1635614a60f3f6bc9a189916055 NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
+         b5d4d19e8888c5cc3781fc503dfdaebf11c170b5 NFS: Rename struct nfs4_offloadcancel_data
+         3fa7150b8e809ca1a20a234b0b640d26b6153bcf NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
+         5f020b47fc56fc95c838136d40b100257a97706b NFS: Use NFSv4.2's OFFLOAD_STATUS operation
+         c5c2ce6f571488ada952e2c16e4be0e8c74bdfdc NFS: Refactor trace_nfs4_offload_cancel
+         df382d53646aca3b403e8ef7d0c02eae6f21eee7 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+         36d38ffc3571ff3104eac92e2147f7763c6cf854 NFSD: Drop CB_OFFLOAD Calls
+         11b480b012a3063e22148a2b044a3ce7031ca85c Debugging
          
