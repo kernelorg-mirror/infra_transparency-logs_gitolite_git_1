@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7111957641341768807=="
+Content-Type: multipart/mixed; boundary="===============7384284012205835580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 28 Jul 2024 23:46:50 -0000
-Message-Id: <172221041007.13923.16693038810052977323@gitolite.kernel.org>
+Date: Sun, 28 Jul 2024 23:50:45 -0000
+Message-Id: <172221064598.17084.13521134228841261354@gitolite.kernel.org>
 
---===============7111957641341768807==
+--===============7384284012205835580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/upstream
-    old: 35bb670d65fc0f80c62383ab4f2544cec85ac57a
+  - ref: refs/heads/for-linus
+    old: c1839501fe3e67d98635f159dba8b170d08f6521
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-35bb670d65fc-8400291e289e.txt
+    log: revlist-c1839501fe3e-8400291e289e.txt
 
---===============7111957641341768807==
+--===============7384284012205835580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35bb670d65fc-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-c1839501fe3e-8400291e289e.txt
 
+9283477e28913c1e7625c0a8d6959745e2431533 net: ethernet: lantiq_etop: remove redundant device name setup
+2f38cf730caedaeacdefb7ff35b0a3c1168117f9 ALSA: usb: Fix UBSAN warning in parse_audio_unit()
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
@@ -1014,8 +1016,6 @@ f556acc2facdd240de2c7416cd1da48a1dae70ec selftests/mm: skip test for non-LPA2 an
 4811f7af6090e8f5a398fbdd766f903ef6c0d787 nilfs2: handle inconsistent state in nilfs_btnode_create_block()
 e8432ac802a028eaee6b1e86383d7cd8e9fb8431 minmax: avoid overly complex min()/max() macro arguments in xen
 3a7e02c040b130b5545e4b115aada7bacd80a2b6 minmax: avoid overly complicated constant expressions in VM code
-00e3913b0416fe69d28745c0a2a340e2f76c219c Revert "firewire: Annotate struct fw_iso_packet with __counted_by()"
-c1839501fe3e67d98635f159dba8b170d08f6521 ALSA: firewire-lib: fix wrong value as length of header for CIP_NO_HEADER case
 e1c5ae59c0f22f7fe5c07fb5513a29e4aad868c9 fs: don't allow non-init s_user_ns for filesystems without FS_USERNS_MOUNT
 ef9ca17ca458ac7253ae71b552e601e49311fc48 hostfs: fix the host directory parse when mounting.
 c17f1224b8d79339e9f2156fdf2966281cdb31df Merge tag 'for-linus-6.11-rc1a-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============7111957641341768807==--
+--===============7384284012205835580==--
