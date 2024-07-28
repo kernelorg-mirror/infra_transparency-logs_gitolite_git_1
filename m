@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 28 Jul 2024 21:15:51 -0000
-Message-Id: <172220135125.1241.6554879719930532107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 28 Jul 2024 21:17:52 -0000
+Message-Id: <172220147239.2078.7274419064664584729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 2c2de01fe2aa7ceea448e606822822adb5e57619
-    new: a51aba7f7c1997557ca654e4073775d54c9930e4
+    old: 017fa3e89187848fd056af757769c9e66ac3e93d
+    new: a0c04bd55a467aee3eb647555343ad6971106e86
     log: |
-         a51aba7f7c1997557ca654e4073775d54c9930e4 Sun Jul 28 05:15:11 PM EDT 2024
+         ba6c664081afd18da86ac49cb22ceb266f89a561 kbuild: rpm-pkg: Fix C locale setup
+         d01c14074be79e5f5270498f90530a12583fbf7a kbuild: rpm-pkg: ghost modules.weakdep file
+         3415b10a03945b0da4a635e146750dfe5ce0f448 kbuild: Fix '-S -c' in x86 stack protector scripts
+         a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
          
