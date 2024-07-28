@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 28 Jul 2024 17:15:15 -0000
-Message-Id: <172218691570.20462.4075048628624137763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 28 Jul 2024 17:25:24 -0000
+Message-Id: <172218752426.27315.279393771947086696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 51d648f76a69e9f6f770e08fadf30d63ee73b579
-    new: 17d2d1b0b6e8ed675e6330a47f8229278a286dc1
+  - ref: refs/heads/next
+    old: ee98d5e6125107110bcaf21f218233fe41bc5b87
+    new: 2174c705efaaf928f161d68ecc592295fc790ea7
     log: |
-         a45f823e27eb3713563c11640a16de4bd210f6ee NFS: Use NFSv4.2's OFFLOAD_STATUS operation
-         e7f5176530a84394893dbd0bf23e61d24136ded3 NFS: Refactor trace_nfs4_offload_cancel
-         3e5a1f882807d433a0fca2a90a7ed6cbfd499e17 NFSD: Display copy stateids with conventional print formatting
-         83ea7f5c7b8242adc82ccc3721118879efdb6b78 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
-         d42fe5ccc0df7dc4afcaf722db1a3c6e4c56b550 NFSD: Drop CB_OFFLOAD Calls
-         bca27e78a6ef51a78eb52cb7f88193ba2c95a33a NFSD: Fix OFFLOAD_CANCEL crasher
-         17d2d1b0b6e8ed675e6330a47f8229278a286dc1 Debugging
+         037ba0cb51b9bf3a59a1e5d1065f95e8dd46120a _damo_records: Add a class for proc/<pid>/stat parsing
+         c720ffe31a68e7f160e8171f0673c27bb8715685 _damo_records: Add a class for proc/.../stats snapshot handling
+         3e4c1a7ef8a07598fc8f64641843be907e696c7a _damo_records: Implement functions for proc/.../stats recording and loading
+         95a307b0495bd500112603d5f1e6abbdc3d11e98 _damo_records: Record proc stats together
+         8d3a7e6499e466555ac54439fda25604d068397c damo_record: Set pid of kdamonds
+         aa95bf662d6d2d635e3eb87b959050dce1997ce3 release_note: Update for next release
+         2174c705efaaf928f161d68ecc592295fc790ea7 damo_args_damon: Print OrderedDict as normal dict for yaml
          
