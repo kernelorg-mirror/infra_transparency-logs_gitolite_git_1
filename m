@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3541930072413900965=="
+Content-Type: multipart/mixed; boundary="===============3530551588362985873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Jul 2024 22:07:30 -0000
-Message-Id: <172229085012.5788.2428736051056053491@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 22:07:31 -0000
+Message-Id: <172229085167.5870.13004510179694553735@gitolite.kernel.org>
 
---===============3541930072413900965==
+--===============3530551588362985873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e882a6495d9612d22102b62e12d8bf60dd9b3c3e
     new: ba71ffb660e4d41fe589f2459fb888ea61fdb310
     log: revlist-e882a6495d96-ba71ffb660e4.txt
 
---===============3541930072413900965==
+--===============3530551588362985873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ debfa4f628f271f72933bf38d581cc53cfe1def5 selftests/bpf: Fix compiling core_reloc
 41b01a0271fd0387171eb9ad4692c22e37c8c80a selftests/bpf: Integrate test_xdp_veth into test_progs
 ba71ffb660e4d41fe589f2459fb888ea61fdb310 selftests/bpf: Load struct_ops map in global_maps_resize test
 
---===============3541930072413900965==--
+--===============3530551588362985873==--
