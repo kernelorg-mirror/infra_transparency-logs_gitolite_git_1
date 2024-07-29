@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2791238103604634788=="
+Content-Type: multipart/mixed; boundary="===============8824022762270407319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 29 Jul 2024 16:12:22 -0000
-Message-Id: <172226954247.26918.520396543233592841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 29 Jul 2024 16:12:41 -0000
+Message-Id: <172226956120.27134.14924745921178189562@gitolite.kernel.org>
 
---===============2791238103604634788==
+--===============8824022762270407319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: dc1c8034e31b14a2e5e212104ec508aec44ce1b9
     log: revlist-c562ba719df5-dc1c8034e31b.txt
 
---===============2791238103604634788==
+--===============8824022762270407319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 cb04e8b1d2f24c4c2c92f7b7529031fc35a16fed minmax: don't use max() in situations that want a C constant expression
 dc1c8034e31b14a2e5e212104ec508aec44ce1b9 minmax: simplify min()/max()/clamp() implementation
 
---===============2791238103604634788==--
+--===============8824022762270407319==--
