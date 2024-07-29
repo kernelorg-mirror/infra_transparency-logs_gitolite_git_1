@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4825111252236193159=="
+Content-Type: multipart/mixed; boundary="===============4451447924066862890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 29 Jul 2024 20:18:17 -0000
-Message-Id: <172228429736.17712.8741304053264726944@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 20:19:17 -0000
+Message-Id: <172228435754.18134.11690897385291906272@gitolite.kernel.org>
 
---===============4825111252236193159==
+--===============4451447924066862890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/devel
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-1613e604df0c-8400291e289e.txt
 
---===============4825111252236193159==
+--===============4451447924066862890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4825111252236193159==--
+--===============4451447924066862890==--
