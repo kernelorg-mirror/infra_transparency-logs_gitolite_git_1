@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Mon, 29 Jul 2024 14:29:47 -0000
-Message-Id: <172226338794.10498.2494140604717546217@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 14:33:08 -0000
+Message-Id: <172226358801.13435.10692652012063296790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
 user: mark
 changes:
-  - ref: refs/heads/autoconf-toolchain-fixes
-    old: fb836f9355c0473297b9906d532dce0b97522cfb
-    new: c384eed6fa96c86439607431b227d5dfdc0ed97e
+  - ref: refs/heads/bootstrap-rework
+    old: 36ec0b178d5e8649c9861bcccca359b9fd19b03e
+    new: b7438002456c35f9c8405ca5ffb29f5104a6ce21
     log: |
-         3bac221638c41d52e818ffe36387cf8079181ec1 configure: make --with-kernel-dir optional
-         61b84b4a1c02b78277b3b9fa1ca00f82b1705beb aarch64: Remove TSCXT bit set from SCTLR_EL2_RESET
-         b13b3bdcb2a1d17c9e286639eb0489ee7fe62c35 aarch64: Enable access into SCTLR2_ELx registers from EL2 and below
-         1ac2031460031641929f247a743f3884deb05157 aarch64: Enable access into 128 bit system registers from EL2 and below
-         cd7fe8a88e829055360d2dbe36e0912b9db33d3a aarch64: Enable access into RCW[S]MASK_EL1 registers from EL2 and below
-         a04369b3dc48393f4d7b36426f5f7bae642dd11e Makefile: rework test-dtc-option
-         a1e1687b0d08d7518a87abdba7b204d62fd7e1fa Makefile: suppress RWX segment warnings
-         c384eed6fa96c86439607431b227d5dfdc0ed97e configure: allow the use of bare-metal toolchains
+         d115e423d17e5d7735be26886071987ffb11e0dd Always enter AArch32 kernels in ARM mode
+         1329628834fab3b62bd04fa8de21e67896549e05 aarch64: Remove redundant EL1 entry logic
+         85aac68aab0065f7f43f10e29c83fe4477925b9a aarch64: Implement cpu_init_arch()
+         9393234b39429e4d6fdb9232e130429515fefce3 aarch64: Always enter kernel via exception return
+         568c69a2fa3feb59c0aa41b231effe7f034a5ab2 aarch32: Refactor inital entry
+         52130e8d0563098cb4fc8550892f51b3bb92b4bd aarch32: Implement cpu_init_arch()
+         e209d92e46b3c81179355788583e10a37206a196 aarch32: Always enter kernel via exception return
+         923a783645f05397ab88fbe46e1d3f572330b48e Unify assembly setup paths
+         221c71d34e48d423171956dc83ec3e6ebffc22bf Simplify spin logic
+         9c212280daf74e4c186453e4e61c6b968637102d Add printing functions
+         b7438002456c35f9c8405ca5ffb29f5104a6ce21 Boot CPUs sequentially
          
