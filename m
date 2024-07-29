@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8624482800985503604=="
+Content-Type: multipart/mixed; boundary="===============8489292199271200210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 29 Jul 2024 06:10:50 -0000
-Message-Id: <172223345004.7116.4378941556264824154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 29 Jul 2024 06:10:51 -0000
+Message-Id: <172223345171.7193.10306726759440495143@gitolite.kernel.org>
 
---===============8624482800985503604==
+--===============8489292199271200210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -27,39 +27,39 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d04e483db22823c13c0313b7c43a52529a2e2672
 
---===============8624482800985503604==
+--===============8489292199271200210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1722233448 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1722233447-7e3cd4921f1c2bb174fde026a58dcef013ba82fd
+pusher krzk@kernel.org 1722233449 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1722233449-45b565188779f361711be3ac9e7dfab128425ac9
 
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/master
 0000000000000000000000000000000000000000 ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64 refs/tags/v6.11-rc1
 0000000000000000000000000000000000000000 d04e483db22823c13c0313b7c43a52529a2e2672 refs/tags/v6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanMmgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19yRD/0bkF4eRC7T5iPiv0PpeiRDAEwWZKj5MD7c
-pIHtiBElkxbksQcndb+6EYkrg2v4Ebt9gQLSONklgIqU4qrfr6He7RaEqqva2fTL
-gU3kNFAIwTvACn0nsXSXxPJqBjFxo7+72HAFJjcacewvkQaxKDEHI1ti/j6IdLFH
-1dtVW16ARMHFyIKi07Ht7JTmFcTXnVANk2m9aF/hSLjjSn43D4EqTnbE8b5wnjr6
-Yr2D5QGkjprHNn0lzDZ3r/nqEU5suPUVGc1QG07RmbWDrfnmSj/B9jwhfZ2DshNZ
-NszmOKBNPST1l+Wg49jYl+GLC69J3ReGLG3H9iiqPQtNTzWBFF2+KlptwXt5F7H3
-jgoUTl2pcPU0+sCg+InfLu5FqwYXGj2tnTy6roAU2tQtGk4yTEIFw06oXKrg/0oA
-jvmWLiLioA7GFnJE6rXoHrAj1F3tXQ4Ak0tyIY28jfpfmdb5Twl+/9CSNfNjoz4C
-fX+CKSxt+qUI7zi+vrQQG9GRmcAZGJJe5f0CK1u0pNKLw7tQxK4UYRtvyumpRon6
-OQF7c7w5bb3ZoTYMABWlMPs5GhfTcBrQ7voXe37icPyWVMBy74pTahqU8KRDVYyb
-DCk7zqfCRuS50PR9t3IYE9lkjiChQZaHXjYA5gnJGjV/kFo9D7TUj/t/v7b6yNpb
-pgjgpAND/A==
-=nDGH
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanMmkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wH4D/sHPj1j5k6AS6OdArCEb5bKtsiL8XF7eQfo
+GR/paawQCFQi47g/jF1icL9f6tBu10rHNCXsBQ9eLjNeiO6gYtSlkOrsfn9WhPNm
+TN4lIyWbQffCplUNUD3UYJ5zn5q5wZDClbUy8iFTHP1avlT6+VYmZrNoxWso4PIq
+RZ+fVyUmYKZIPZSwleUsNsQgR4I3M4Z/5ocNKUTUO3h+7SNdSzoXqugU5rQbWnsw
+rNlcfMfhgGQFru6i7GIgYrVg2lI5CFyK7EkGvC77DfHSE7mBghuXmcmlYG54ppX3
+sWouIUS6WMLJ1EgWAkhUokJB3em9msINfeSV7ry89cpLHR2c0+s7+LNJ7Z5LnAnq
+ElPLebZXws2b+j5J2LopUrUsZnVDQN1lMWACC8xZ7nWq3o99QsT6QO/lJpugR6FJ
+SPlC7s4gvoD7Du3hay83jUUiXFu4Nt/6e2Tk1dggd+FBUuPgRTwlv+bkLEWYrHbi
+mABppcC91U0fMiicwTDxEvvKpNO5UMs/00SIv1tcosRAz4totwUYODqwsxIF2QDK
+kQtTtcbihJ/M0Tf0baq8EOlvWjwT59fdz7VTmDAFnHEFYaog8XuIywvoxJ6mWpk5
+jp+K32CAHlYAkNKJ+Zx890oVUFMdcKLXieTxyBmoYx1tVxsf8W7zXG3QOdbHnU4S
+ZyffemG+Fg==
+=NQ8Q
 -----END PGP SIGNATURE-----
 
---===============8624482800985503604==
+--===============8489292199271200210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1090,4 +1090,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============8624482800985503604==--
+--===============8489292199271200210==--
