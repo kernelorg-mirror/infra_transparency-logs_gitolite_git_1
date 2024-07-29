@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8029042641227508319=="
+Content-Type: multipart/mixed; boundary="===============9177368117766954833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 29 Jul 2024 07:53:54 -0000
-Message-Id: <172223963473.17547.7642774230435336246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 29 Jul 2024 07:53:55 -0000
+Message-Id: <172223963560.17613.7370166262077976971@gitolite.kernel.org>
 
---===============8029042641227508319==
+--===============9177368117766954833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 815cc7715ab183701de42b570a28b4e3d877ef6c
+    old: 26bf5fc86033162dbd2d5759094cbd724313d55b
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-815cc7715ab1-8400291e289e.txt
+    log: revlist-26bf5fc86033-8400291e289e.txt
 
---===============8029042641227508319==
+--===============9177368117766954833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,33 +29,33 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher krzk@kernel.org 1722239633 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1722239632-be055f15c5f36a9e259fddd3e73ab62f6f4ebc47
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1722239633-a18721691063f7132c740c6742544e0a215422d0
 
-815cc7715ab183701de42b570a28b4e3d877ef6c 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-next
+26bf5fc86033162dbd2d5759094cbd724313d55b 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
 iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanSpEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/KaD/410VWd71Ldh5bgkQ2oogj6Px14rsR3EYKe
-nq5ZuLZpX3++LcAAf4+urexnIGFI95wvyNyhs1WFM4WBql2t8q6U7tHazRUAY2s/
-vL434T8Sn+PAg0C+B4sE+5/tDe4suQKWyO50pqFuw/YSivsghh+dTlEH5ZCoqIv0
-4i5o/mRxGSZGowFWgzFU4ofAifP2neaIKl5bukbiNmeIItA2hNgzr9VneOO8b+xL
-UsQovdEinmwYoo1wGqp4tP4R6+y65lR0IUaW7Y5eFdVZnHmSKKzcoa6VO7+X2V4s
-xPO1OXuBuaM3n5dWxG1+VlSUK6haYB77qHmcFa8w2buNylxCq0kUcGoeURzZmJum
-7Xbf2Evnef7sDJkHh5GsukZsLIxQMtFGZEf84EXFl9Pybyx+nJBPJ9mX0QiNk68y
-ouZdDlHIysvOvMWTkVc8RWoJDazww4y3CO2Jicti74QqFKsWwg2WaXq1PbecYdOr
-pIjfAfHtfT9ug+6C6g5GnA+OJc3R6jsAaNX9jujDwvtpt7TetBOK9ehConSY4JKQ
-RXR7MTkbXCi3SpLkywaYzxFljXra2YKICjhHiApLJhEaivuBdexXRBPEZ2UIUId2
-RDvRdAdvV8RgcsjJmy4XDjkEJt5TG5EzIETnkQtx2vbn2bgaHaho2gz3YzUn9Jxl
-KpyBzSQ5tw==
-=W1s3
+bmVsLm9yZwAKCRDBN2bmhouD1ztHD/9Mhfj95xmnTD8PIysaP0WAxBuy/M61VBKT
+ftRClRSjNE5nr1Ssi+QBN9UCaQfeui9s5IFS9o3cvakrFRgPwZJthoYcz6QPJDTw
+nhmC2ufGzHND/Dfaf9yKp+6zhhm3nWd0s3fXNkL++gB36ArswyfzYpgljgiZk2sb
+oqbU5bKa5hvBFIEwZcUvHlXP4Hxi42cZwjQkrTK8IoWDm+b9ANXFs5ukNvbJGbL1
+U/qU5r2IZAd15xbn31qakOH17ykB07dbkd6srBWegO3AFCHPS1Lo9quCEM+wuJoR
+u0J5SQVEh18/v+QUHZxATKWa+k8ixRVhGI1gFN9C+uoQYVYQkkukZhdiyadwhkwb
+aBZMldLZRihLBgJuZdvuxzOo7Df4WDsPB4i3o6PP3t2hmkm4aZVRZVIEANhpMv2y
+jiKqSR7xhJ+nMy06YY7wakFkTcaySoxMWTGxsqlmHioTmsFexqQPBDRFLFIu5ssa
+mUgrsJw/1mrPT71KB2/SeOUXLqHIX1ifQuO7ziAAU6Qsdltr2Vrca8v56LalkAoT
+IjRRr1ugj43t5eNIlWGpJDWhy9+ZgBSAvUoeXsv7Mknp70rawumkIp8MkSiseI+Q
+NQpr7pUa9Dj7uaXYviNgU4radhP94H3yAZcXiQNZ514U7J8165/Wa5mYbNITEyDe
+12pWEms7Lg==
+=8wB3
 -----END PGP SIGNATURE-----
 
---===============8029042641227508319==
+--===============9177368117766954833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-815cc7715ab1-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-26bf5fc86033-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1082,4 +1082,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============8029042641227508319==--
+--===============9177368117766954833==--
