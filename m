@@ -1,60 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============6080873537253451989=="
+Content-Type: multipart/mixed; boundary="===============8736863077487093485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 29 Jul 2024 15:38:32 -0000
-Message-Id: <172226751265.31051.18107306623300099297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 29 Jul 2024 15:38:45 -0000
+Message-Id: <172226752509.31195.3547327161877316622@gitolite.kernel.org>
 
---===============6080873537253451989==
+--===============8736863077487093485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.11
-    old: e975d955c07cbc2cd6a83a5d8235d8373441fdb9
+  - ref: refs/heads/for-6.11
+    old: fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-e975d955c07c-8400291e289e.txt
-  - ref: refs/heads/regulator-6.12
-    old: 0000000000000000000000000000000000000000
-    new: 3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39
+    log: revlist-fc28d1c1fe3b-8400291e289e.txt
+  - ref: refs/heads/for-6.12
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 5972eb05ca322bb1efe44d32808bc7a331e7aee4
+    log: |
+         f8918ef1267edab4d9b2154c22a912c87cc66f66 spi: axi-spi-engine: don't emit XFER_BITS for empty xfer
+         158678bea637020dd6fc521536c5b07701447777 spi: dt-bindings: mediatek,spi-mt65xx: add compatible for MT7981
+         0f245463b01ea254ae90e1d0389e90b0e7d8dc75 spi: ppc4xx: handle irq_of_parse_and_map() errors
+         dc58d15ae7f247f642ea4751a276914eefa31865 spi: meson-spicc: convert comma to semicolon
+         5972eb05ca322bb1efe44d32808bc7a331e7aee4 spi: spi-mt65xx: Use threaded interrupt for non-SPIMEM transfer
+         
 
---===============6080873537253451989==
+--===============8736863077487093485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722267510 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1722267510-01860d0212736d7bdaeaa98d55903d0afdf14169
+pusher C3F436CA30F5D8EB 1722267523 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1722267521-bba16a0dd9f0b69625f8b474022e6fcb072f9c4c
 
-e975d955c07cbc2cd6a83a5d8235d8373441fdb9 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/regulator-6.11
-0000000000000000000000000000000000000000 3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39 refs/heads/regulator-6.12
+fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-6.11
+8400291e289ee6b2bf9779ff1c83a291501f017b 5972eb05ca322bb1efe44d32808bc7a331e7aee4 refs/heads/for-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant3YACgkQJNaLcl1U
-h9CSlgf/bnny5xjudmv9mbMRT9ETPeb+ZuURn9ELA/v3NmKetrUY3RBEcEAOcZ8w
-FxJqvZJ+HnPA//r1dlPDitTdYJ+nLx0p/2ADGaq623fWVMoCiyHA7Pbhx2Afgkzs
-kiNBoHAG7iMCIcouPV69NIMMLQaM0MzZ8cSj51lj+DeL40lVh2e2zvw0UIwrv87g
-RiMB1/n4Efii0dhKKKo+AoqW7/FJXqz+1qD45EM4IL/FbDDhn/EvZYMdlcC9MKFS
-hWIcZCBG1eOZNtwzBLCigSYV/JAIuZHCULSN6Uv5WGYIYIImgViBOSMmTxGAOLQU
-9PB+T82C8G7IXxz1vLiClWriubJ6Ag==
-=79h/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant4MACgkQJNaLcl1U
+h9DmoQf9Ef5QFCq54bWUv1Vl+JSkd1Jk2nMvTiXeQ9Kgam3UXkLsDlhM7leGUmWu
+aMPkupCgB9Xs4EQ5tnbGMzPWr2NxYCU+PNG956AjV/2CwTzfxeQmSYACPywQEtkC
+ezQaEUIYyLOyVMYAxl1WD5qrdAk5YaLaZlICUiiZhbGLOngQxMIzQRIIDm5KVf5r
+G6b0XDbcXMkrSvBuNMkEzXC7gZ0YRbHKGoopR9ptjkPNzuUURnrC8T2FMCc2gUct
+/jfad+s9j23aFrzcjq1jdl/Va26LLNeQBYyWijZFY0grI79QmayAdGOj1xHYEEI5
+wf6GKJ8sh3J/e/uHflfqb8QRfv7aCg==
+=qr/w
 -----END PGP SIGNATURE-----
 
---===============6080873537253451989==
+--===============8736863077487093485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e975d955c07c-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-fc28d1c1fe3b-8400291e289e.txt
 
+e3386ec4ec9083522c36ab0ddfc638c90395c741 net: dsa: vsc73xx: Implement the tag_8021q VLAN operations
+ce20fdd670ac375a4e3dff91c2888ad9ff9eef56 net: dsa: Define max num of bridges in tag8021q implementation
+85aabd1fe9d6af4dc5d11a2d8be567ec45d1dc5e net: dsa: prepare 'dsa_tag_8021q_bridge_join' for standalone use
+6dfaaa27633711ba52c418d578b3a13b0c8bfd8d net: dsa: vsc73xx: Add bridge support
+259a7061c2f14bbf5845598f69ac63cdb77d6346 net: dsa: vsc73xx: start treating the BR_LEARNING flag
+c49379dcda748adb8ba84d7a8eb3b02d4f1ebfcf Merge branch 'net-dsa-vsc73xx-implement-vlan-operations'
 9283477e28913c1e7625c0a8d6959745e2431533 net: ethernet: lantiq_etop: remove redundant device name setup
 2f38cf730caedaeacdefb7ff35b0a3c1168117f9 ALSA: usb: Fix UBSAN warning in parse_audio_unit()
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
@@ -96,6 +109,7 @@ eba1718717b097d825f26a33ae7d8a5b9d478396 Bluetooth: hci_qca: make pwrseq calls t
 921ad2879aa7733620585e4904ba673c6c916dab Bluetooth: hci_qca: use the power sequencer for wcn7850 and wcn6855
 84f9288208dfcd955446060a53add15b9e01af4e Bluetooth: hci_qca: Fix build error
 23e88450bb04f6b44ce4cacbd76cd775e426a5b2 Bluetooth: btmtk: Mark all stub functions as inline
+7164122e25b18806f5dce68c8a0bdaa9e4f902a5 regulator: renesas-usb-vbus-regulator: Update the default
 97b10a77b150df664bb521ae217dd6bceb40d5d3 Merge tag 'asoc-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 0bafb172b111ab27251af0eb684e7bde9570ce4c firmware: turris-mox-rwtm: Do not complete if there are no waiters
 8467cfe821ac3526f7598682ad5f90689fa8cc49 firmware: turris-mox-rwtm: Fix checking return value of wait_for_completion_timeout()
@@ -189,12 +203,6 @@ b77b0bc85b117119764107f3ee76e8877bf826ab Merge branch 'acpi-misc'
 b051320d6ab8cfdd77a48ef4e563584cd7681d2d Merge tag 'vfs-6.11.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2634f745eac25a33f032df32cf98fca8538a534a ASoC: SOF: imx8m: Fix DSP control regmap retrieval
 aff31330e037f75de7820bc7deb494eeaeaadd35 Merge tag 'vfs-6.11.pg_error' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-502a582b8dd897d9282db47c0911d5320ef2e6b9 spi: microchip-core: fix the issues in the isr
-22fd98c107c792e35db7abe45298bc3a29bf4723 spi: microchip-core: defer asserting chip select until just before write to TX FIFO
-de9850b5c606b754dd7861678d6e2874b96b04f8 spi: microchip-core: only disable SPI controller when register value change requires it
-3a5e76283672efddf47cea39ccfe9f5735cc91d5 spi: microchip-core: fix init function not setting the master and motorola modes
-9cf71eb0faef4bff01df4264841b8465382d7927 spi: microchip-core: ensure TX and RX FIFOs are empty at start of a transfer
-87232ea8a5caf8d050f8ea7acd210a2cfcbe6309 spi: microchip-core: add support for word sizes of 1 to 32 bits
 7d156879ffd6c48428c2f46d5c2b4b80d9c9ee79 Merge tag 'vfs-6.11.module.description' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 4a051e4c21dfb1c65ef54c44a7a4d0e6845e24f6 Merge tag 'vfs-6.11.casefold' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b8fc1bd73a5a12e48f9fd2e7ccea60cadf718c93 Merge tag 'vfs-6.11.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -493,8 +501,6 @@ f036e68212c11e5a7edbb59b5e25299341829485 ipv4: Fix incorrect TOS in fibmatch rou
 ab1a2a52885a922687822f6615078d2de25dfe38 Merge branch 'ipv4-fix-incorrect-tos-in-route-get-reply'
 a1a305375dc356865b22a43cbe09869bf8fae9ca net: wwan: t7xx: add support for Dell DW5933e
 f2038c12e8133bf4c6bd4d1127a23310d55d9e21 ASoC: sof: amd: fix for firmware reload failure in Vangogh platform
-5170dae5591036dba7daa519ea3126169300e275 dt-bindings: trivial-devices: fix Rohm BH2228FV compatible string
-fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc spi: spidev: add correct compatible for Rohm BH2228FV
 4e076ff6ad5302c015617da30d877b4cdcbdf613 net: airoha: Fix NULL pointer dereference in airoha_qdma_cleanup_rx_queue()
 66b6095c264e1b4e0a441c6329861806504e06c6 net: dsa: mv88e6xxx: Limit chip-wide frame size config to CPU ports
 c5118072e228e7e4385fc5ac46b2e31cf6c4f2d3 net: dsa: b53: Limit chip-wide jumbo frame config to CPU ports
@@ -1005,6 +1011,7 @@ ec1dc56b54d679cbfaa7ef7abbf23bdeac029af1 Merge patch "Enable SPCR table for cons
 5c8405d763dc2b125b39166bc70be1b8dcc80582 riscv: Extend sv39 linear mapping max size to 128G
 52420e483d3e1562f11a208d3c540b27b5e5dbf4 RISC-V: Provide the frequency of time CSR via hwprobe
 f6bb5254b777453618a12d3bbf4a2a487acc8ee2 Merge tag 'nvme-6.11-2024-07-26' of git://git.infradead.org/nvme into block-6.11
+e975d955c07cbc2cd6a83a5d8235d8373441fdb9 regulator: Further restrict RZG2L USB VBCTRL regulator dependencies
 342b2e395d5f34c9f111a818556e617939f83a8c io_uring/napi: use ktime in busy polling
 358169617602f6f71b31e5c9532a09b95a34b043 io_uring/napi: pass ktime to io_napi_adjust_timeout
 51c4767503d5d3a5a0ae4dcb19b7f7cf38b40c6c Merge tag 'bitmap-6.11-rc1' of https://github.com:/norov/linux
@@ -1080,4 +1087,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============6080873537253451989==--
+--===============8736863077487093485==--
