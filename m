@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1370703111974732572=="
+Content-Type: multipart/mixed; boundary="===============0563715026764615322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 29 Jul 2024 20:14:49 -0000
-Message-Id: <172228408988.14118.16254484503095246281@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 20:15:13 -0000
+Message-Id: <172228411377.16042.11486356215506692565@gitolite.kernel.org>
 
---===============1370703111974732572==
+--===============0563715026764615322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
-    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-f2661062f16b-8400291e289e.txt
-  - ref: refs/heads/v6.12-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: bd6e614356d4fc852480cfb14d705da0561d5777
-  - ref: refs/heads/v6.11-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: c623e9daf60a0275d623ce054601550e54987f5b
-  - ref: refs/heads/v6.12-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: a24fc58198084194796486698e779963636c9065
-  - ref: refs/heads/v6.12-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 1d34b9757523c1ad547bd6d040381f62d74a3189
+  - ref: refs/heads/for-next
+    old: d02701b779676be1429ec18f98182c655ecc1c42
+    new: d92e3c587fcf2526333380c9d9b7831f86cee02a
+    log: revlist-d02701b77967-d92e3c587fcf.txt
 
---===============1370703111974732572==
+--===============0563715026764615322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2661062f16b-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-d02701b77967-d92e3c587fcf.txt
 
-e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
-519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
-b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
-fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
-1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
-3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
-473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
-87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
-88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
-92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
-176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
-8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
-f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
-936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
-be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
 3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
 d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
 95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
@@ -1062,5 +1032,23 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
+0406da35b4967e3e40036495627b76a48db51113 dt-bindings: arm: rockchip: Add Firefly Core-PX30-JD4 on baseboard
+a32b1a46502ee5748ec54268209ed539ebf675a4 arm64: dts: rockchip: add Firefly Core-PX30-JD4 SoM
+710a568b6ab83742c31507c96201e2cf6652562d arm64: dts: rockchip: add Firefly JD4 baseboard with Core-PX30-JD4 SoM
+def33fb1191207f5afa6dcb681d71fef2a6c1293 arm64: dts: rockchip: Correct the Pinebook Pro battery design capacity
+22de886d49613ea36b39bbe563bf77a2de057865 arm64: dts: rockchip: use generic Ethernet PHY reset bindings for Lunzn Fastrhino R68S
+ecb0835328a534f48f1213a257888d8510a1cad3 arm64: dts: rockchip: remove useless tx/rx_delay for Lunzn Fastrhino R68S
+9df34247766b2a42c48cf0d81a0dd756c546cbdc arm64: dts: rockchip: Enable UHS-I SDR-50 for Lunzn FastRhino R66S
+1c9034eb025330f193f01ff4260367d078c60e4a arm64: dts: rockchip: Remove broken tsadc pinctrl binding for rk356x
+1d34b9757523c1ad547bd6d040381f62d74a3189 clk: rockchip: Set parent rate for DCLK_VOP clock on RK3228
+a24fc58198084194796486698e779963636c9065 ARM: dts: rockchip: use constant for HCLK_SFC on rk3128
+c623e9daf60a0275d623ce054601550e54987f5b arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+82e3aaae388199a0aff33e5371db307b3274f77a arm64: dts: rockchip: Add sdmmc_ext for RK3328
+bd6e614356d4fc852480cfb14d705da0561d5777 arm64: dts: rockchip: Add sdmmc/sdio/emmc reset controls for RK3328
+5a704cf1288871d318b3a404d158bce00c55d9f8 Merge branch 'v6.11-armsoc/drivers' into for-next
+463bc5ac118cf6255ff20d8d677edb4fca4f55bb Merge branch 'v6.11-armsoc/dtsfixes' into for-next
+182a133d59d1c8b075a188bccfaa5d1194f5447e Merge branch 'v6.12-armsoc/dts32' into for-next
+4a6006b6365ab23066e50352bc8fca9969df54fd Merge branch 'v6.12-armsoc/dts64' into for-next
+d92e3c587fcf2526333380c9d9b7831f86cee02a Merge branch 'v6.12-clk/next' into for-next
 
---===============1370703111974732572==--
+--===============0563715026764615322==--
