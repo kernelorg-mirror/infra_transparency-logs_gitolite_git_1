@@ -1,65 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============0731952533596605125=="
+Content-Type: multipart/mixed; boundary="===============8624482800985503604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 29 Jul 2024 06:09:49 -0000
-Message-Id: <172223338900.5031.9219500934439563529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 29 Jul 2024 06:10:50 -0000
+Message-Id: <172223345004.7116.4378941556264824154@gitolite.kernel.org>
 
---===============0731952533596605125==
+--===============8624482800985503604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: 0c3836482481200ead7b416ca80c68a29cfdaabd
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-0c3836482481-8400291e289e.txt
+    log: revlist-1613e604df0c-8400291e289e.txt
   - ref: refs/tags/v6.11-rc1
     old: 0000000000000000000000000000000000000000
     new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
 
---===============0731952533596605125==
+--===============8624482800985503604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1722233381 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1722233380-d2431c8ff86d05a9dcfb7d56b40c6b39ed128978
+pusher krzk@kernel.org 1722233448 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1722233447-7e3cd4921f1c2bb174fde026a58dcef013ba82fd
 
-0c3836482481200ead7b416ca80c68a29cfdaabd 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/master
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/master
 0000000000000000000000000000000000000000 ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64 refs/tags/v6.11-rc1
+0000000000000000000000000000000000000000 d04e483db22823c13c0313b7c43a52529a2e2672 refs/tags/v6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanMiUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1y5ED/4qYV/ew8Kp3cmd8A31kRondDZCskwCcGcm
-ECGRUidx0ZlhuLVOmnjFnMZ/RealuMvFW+tnCSXWkKB3cd/rUNgIWFGS/Y6a4EVy
-bxveYFn6bnd92+EbmqzXriSsQm2vJYGU7RYfMbB9G3iT9+lSa3A/dcmGky/LXG7h
-P27gqOaH2+R8Zt1k+jDdncyWQnNHWPkrfkK8Czx3y5pDUVMF8uchKev5yWl5II+6
-+wYm1/jRAHj/NOtRAAI0w9BQyEstFmm7cYx0HYnY6gWyB8CZBFYs5tV0OYHCzuHP
-zANKYmZl3e0n3ztCrdspqjdVQRzK+P/vhKGvFiI/dF6lR/uExFFUK9k8ziaZbOx+
-TBa4owoUmc96KPeqhReioPZfL/5Vxojl9Cer6Gt8rWj4+FxrZHwsr5OYBP1snYP2
-wATGx03w9sZoBZbClKX10AuQnjI1yoAHjnJWDgbtwqu755UONsf66BPX569yFWHX
-xAJcDF1Uqog7hmuPfBecfvaeVtBt+V6BX1fUU5X+rLYodqX/rFpbOPSlDzJi0qMg
-EbL+bAVDTyzgIE9Ewt0gTo03CX6RvtuHyFFD6yA5XOnpKRpxQtKvLALAGgGVYp8w
-ks2yk+Jw4IsdS2WZpdeIJFKUocUSd0bVUCnk79vJEPJvcCLSrAVyNwUTQNx+MthM
-yHMjals9Dg==
-=95SH
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanMmgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19yRD/0bkF4eRC7T5iPiv0PpeiRDAEwWZKj5MD7c
+pIHtiBElkxbksQcndb+6EYkrg2v4Ebt9gQLSONklgIqU4qrfr6He7RaEqqva2fTL
+gU3kNFAIwTvACn0nsXSXxPJqBjFxo7+72HAFJjcacewvkQaxKDEHI1ti/j6IdLFH
+1dtVW16ARMHFyIKi07Ht7JTmFcTXnVANk2m9aF/hSLjjSn43D4EqTnbE8b5wnjr6
+Yr2D5QGkjprHNn0lzDZ3r/nqEU5suPUVGc1QG07RmbWDrfnmSj/B9jwhfZ2DshNZ
+NszmOKBNPST1l+Wg49jYl+GLC69J3ReGLG3H9iiqPQtNTzWBFF2+KlptwXt5F7H3
+jgoUTl2pcPU0+sCg+InfLu5FqwYXGj2tnTy6roAU2tQtGk4yTEIFw06oXKrg/0oA
+jvmWLiLioA7GFnJE6rXoHrAj1F3tXQ4Ak0tyIY28jfpfmdb5Twl+/9CSNfNjoz4C
+fX+CKSxt+qUI7zi+vrQQG9GRmcAZGJJe5f0CK1u0pNKLw7tQxK4UYRtvyumpRon6
+OQF7c7w5bb3ZoTYMABWlMPs5GhfTcBrQ7voXe37icPyWVMBy74pTahqU8KRDVYyb
+DCk7zqfCRuS50PR9t3IYE9lkjiChQZaHXjYA5gnJGjV/kFo9D7TUj/t/v7b6yNpb
+pgjgpAND/A==
+=nDGH
 -----END PGP SIGNATURE-----
 
---===============0731952533596605125==
+--===============8624482800985503604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c3836482481-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1086,4 +1090,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============0731952533596605125==--
+--===============8624482800985503604==--
