@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0949739847882990228=="
+Content-Type: multipart/mixed; boundary="===============7404027974724810484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Jul 2024 12:29:22 -0000
-Message-Id: <172225616256.16776.5941738134930613847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 29 Jul 2024 12:30:11 -0000
+Message-Id: <172225621127.18868.16100984735204121804@gitolite.kernel.org>
 
---===============0949739847882990228==
+--===============7404027974724810484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 2b063f2266720e6f4f6f90d8227a410354a47383
-    new: 47eae4cb3cd8e2e7beec5a5b12fb4c083f698767
+  - ref: refs/heads/next/dt64
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 2d0c7ae784b487343b4813db9cb133ca51c674c3
     log: |
-         47eae4cb3cd8e2e7beec5a5b12fb4c083f698767 5.15-stable patches
+         d281814b8f7a710a75258da883fb0dfe1329c031 arm64: dts: exynos: exynos7885-jackpotlte: Correct RAM amount to 4GB
+         2d0c7ae784b487343b4813db9cb133ca51c674c3 arm64: dts: exynos: gs101: add syscon-poweroff and syscon-reboot nodes
          
 
---===============0949739847882990228==
+--===============7404027974724810484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722256161 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1722256159-e3a70ba6927419f649cfbbbc90ad26410ddcfef8
+pusher krzk@kernel.org 1722256209 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1722256208-7367b5152f97351c6126657785fcc920ebfaa870
 
-2b063f2266720e6f4f6f90d8227a410354a47383 47eae4cb3cd8e2e7beec5a5b12fb4c083f698767 refs/heads/master
+8400291e289ee6b2bf9779ff1c83a291501f017b 2d0c7ae784b487343b4813db9cb133ca51c674c3 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaniyEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9PAP/itkCBICMIWp+KIgvvIK
-cu1mif3527OfHIEG6PoicAohnGqFBwGOe9fTOGR0GBINKrBaud0w3qrUw64UlL2x
-DmJhgHMv5xzbpDJk5nx/duhYPhDx0WCiFIyGZcvW188fhNK6c7ml1ZkdrrYPTd0T
-IW4UaBM/eQ+9Sr1EZ10WVOE5ntPtSV5rHp/K+eI4fO7r6uY+qJcHFZrpUT8CTDCX
-hsy5sF7zNJPLwTk9E9csxz/34jeVbroXF4togZ9pXHedsntJITGLNrCS0blrkiai
-wv/ke1Db4R6WCPVnRWqYh/iUD1YR/ipLc2RaQoenaJUawS8aCXUcxP3CL66Lt5OV
-BUruSXdm5LlB4O2UUvUtKnfIwIqH05B/R/fJGFHLngW2EYAj5m75zDBkMCx1puTs
-HX9fC09xSKz+uThBO13uKoh5a4IET/LqrVtvUUMtopPOsue8OslBxL8i+VpJ8Tq8
-nf9TXYdEPB1WAjRbEAYArxt7+KfZZHaKq87gMCXbGNfeIkTUbBbSnGv5PFF3Qbb9
-cM0/ULSGHoA9Zu/UWM8x3qZhAzIekKtg8gq7Ejj6P2XP+34sP/Gp3uqyF520Edwo
-56+t6Hs5RerzwQrXVS+d80XDAmdfp4NQs41BBduZ1MqotEE+dZ7KmenjQMorw3sf
-cts8ZcEk/QvADxF8D5iHNyPU
-=Wboa
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmani1EQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD104FD/9Zw+Q/7UbA8c102P/4GmS0ikVOkXGuii3H
+W85QJ4eEPqQg8mAZMPIgYNJ/52yH8AC5hhenf4hY3ro74BsHMWR5+He4YYYvleom
+D66uTJ8paPkon996BwtGFmIKsypnsvIYFP3HySMYWSzHVOV6KYBZZSLHqafvDT/d
+XW7R+/CC+ZvEoG92CadhIsvVfNGn4cmuRqoOcg7Un5JlvKT6vXE7EuGIpTQAMSGB
+fwgyt/QpsWIVx9I511shwilmPL1YYYB2C/I0LAZzRBCdQs2F/SRmA6xqPVfYpmhu
+vCuE5/ebSe3X2In00L3/KdD0GRH3zt0wFFa3cOOxymrkThHL+nka2t5OH7H7MAnr
+wSJ3HhiUhBtajcAR/338wlMxQReroJW4BSNqlRrn+b0klKGTWhYMBWIRjbtZG3/q
+GUdfiMMIOkGFiGu7F96Uzm4ZxDnNqeNBKqGuExiUtHhoQ5EWUPGiHmixWqA6tINi
+x1FTDCaUbWFA1YXE45WZwp0LWsGgPVDYm1BM9adFR9hH+wFSazFdg49VyBhPYBLH
+oBxvmtxa3VIPpn3anXKAM1UpkRTfJGsnZockzIz9Qhk4sLGRHbrT7ug1eTAUqZ44
+dT9Vl3eBajuoZDBDROZFD37SVJ/bZiatKZPCjDls4mNJv38R784DVt7J0cJtznz7
+j9RnfBDcNg==
+=Waz6
 -----END PGP SIGNATURE-----
 
---===============0949739847882990228==--
+--===============7404027974724810484==--
