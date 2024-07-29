@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4990376397457526641=="
+Content-Type: multipart/mixed; boundary="===============9151053253244044488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 29 Jul 2024 09:03:09 -0000
-Message-Id: <172224378917.9221.7033305960629825584@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 09:03:32 -0000
+Message-Id: <172224381223.9458.7484655589980431584@gitolite.kernel.org>
 
---===============4990376397457526641==
+--===============9151053253244044488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 240b129d597cb8a8880eb3a381ff10eb98ca0c07
+  - ref: refs/heads/pwm/for-nexxt
+    old: 05915b367ee911c0c6b80803613723637eae7720
     new: b9b6bd3dcceed371829a022caeb6b51cb9f67be9
-    log: revlist-240b129d597c-b9b6bd3dccee.txt
+    log: revlist-05915b367ee9-b9b6bd3dccee.txt
 
---===============4990376397457526641==
+--===============9151053253244044488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-240b129d597c-b9b6bd3dccee.txt
+Content-Disposition: attachment; filename=revlist-05915b367ee9-b9b6bd3dccee.txt
 
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
@@ -1051,4 +1051,4 @@ f95e356d2298d0e64b5f72379ce83b90f30c3ec7 dt-bindings: pwm: renesas,tpu: Add r8a7
 cec2d669e02b0d227ebad62d444c9b6e6c08ed28 pwm: Make info in traces about affected pwm more useful
 b9b6bd3dcceed371829a022caeb6b51cb9f67be9 pwm: Don't export pwm_capture()
 
---===============4990376397457526641==--
+--===============9151053253244044488==--
