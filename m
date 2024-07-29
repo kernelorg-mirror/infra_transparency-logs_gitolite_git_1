@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6529325395112224998=="
+Content-Type: multipart/mixed; boundary="===============0834328343761325242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 29 Jul 2024 15:53:44 -0000
-Message-Id: <172226842418.10438.10572799610918497286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 29 Jul 2024 15:53:55 -0000
+Message-Id: <172226843566.10598.17457294909761289024@gitolite.kernel.org>
 
---===============6529325395112224998==
+--===============0834328343761325242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
 
---===============6529325395112224998==
+--===============0834328343761325242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -426,4 +426,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 cb04e8b1d2f24c4c2c92f7b7529031fc35a16fed minmax: don't use max() in situations that want a C constant expression
 dc1c8034e31b14a2e5e212104ec508aec44ce1b9 minmax: simplify min()/max()/clamp() implementation
 
---===============6529325395112224998==--
+--===============0834328343761325242==--
