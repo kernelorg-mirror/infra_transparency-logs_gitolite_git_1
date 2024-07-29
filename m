@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2324515353527601096=="
+Content-Type: multipart/mixed; boundary="===============2821279627944244544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 29 Jul 2024 07:54:01 -0000
-Message-Id: <172223964193.17971.13922125012259085722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 29 Jul 2024 07:54:02 -0000
+Message-Id: <172223964277.18026.4962973121441689528@gitolite.kernel.org>
 
---===============2324515353527601096==
+--===============2821279627944244544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
-    old: 26bf5fc86033162dbd2d5759094cbd724313d55b
+  - ref: refs/heads/next/drivers
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-26bf5fc86033-8400291e289e.txt
+    log: revlist-1613e604df0c-8400291e289e.txt
 
---===============2324515353527601096==
+--===============2821279627944244544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1722239640 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1722239639-b77683a63512915c5e1011946a5bea218cf67ae9
+pusher krzk@kernel.org 1722239641 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1722239640-2abac012a63f9f87f172c34f41fcb2f7ae3e813e
 
-26bf5fc86033162dbd2d5759094cbd724313d55b 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/w1-next
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanSpgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18UbD/0a+uylcDzMRDZ0oq6vNXd8HUHEUeRuD413
-1cKcZpjDtE5vY2TuhaiimycC4oBjHoM7cXU7kaohvkdB4M2TiDCsJm8PW+7/VtFj
-oKJu9xUmhJ58NAjrKXePErVzE2PFbby7a3f8HRqC386MrLdhxrK+dZ9YbHc1C4Uh
-tCNbiRlfWoTUCZZ5av9EaFekswY9tNul2PMwWy9TgdcVUS8vmerlzwNLWjJz58HN
-TJe+t8KkG++HlxOp0aI3jW8IO1KwxYpxqPaY6XXtM1AOWkhJLli2UXSCo7r58hVd
-Nx7y0JsFKe4XFecEIDWsMpfhd5DBiFs67m9E4zMy9Aylw/GMt83rY2QCFQEwLI8y
-RbCRpUZKZbWphY9n4Tp3gC//EuudSrnJ3DlappyhKbJvhsPlNSA1frafa8Z/VJ74
-J1HhALnEtTVCdBeSe+lVZkSJdt2AYlXDlaBe3PIOLOBe8X++8BTaQUiBAljDUhrp
-mgY0KbVqZAYSQcEqXTorZxgvSWg84UbpXRnc2yvO9wj34gWMxsHxaxjK56vEOj7u
-ziRUEqUra64ynlt045cHTGwTqHRKxXNBUkQBamn0cLNNZcE6qFtLEhCFXKJNaoq9
-PauxaFKXyFCUImOSzC9YpadUuRNXBONAqHmPt50Ctt8UOA+h6NyW0o57sias9Rdb
-Fmxh1deOuQ==
-=DWlK
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanSpkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zlvEACWBEBPFTj3XgCKFA8K+k1wbUQX73NTCJqC
+7ZH1JubrzjRV3ZFkw+nINe0q0vD+43IYARLntnLPxBqKUDt2J9LrYrwNfYn9JxVR
+Oi96hbJQmVGZoE+a0F5ULvx91bRfdLn28BRv/F9hh4/rVVxN0nRMOSAh/i+ynrIP
+H/IaXF3azGR9nDPnR2FYmb2ISjoSJU1WfKCCmFPx9pne/jzgUAcSiAxggvCIINZ3
+6ftG4C8/p0ntKzUnB2VcMkhDljD/LMphHJBHOX3qCr+aLgP4S9VYuSSRksfGo1cP
+EGPmA3fvuAENNEJsdEVCkeifrW5mfsFy9KVQSbxeNHGGLYov2+8jKcsQFu9j9w5s
+F6U92pthAIvTzFkRcviqCFzfpLhbLZn7DeVxiqbj74e/0r6D+pCE/R0LEZ5hzODG
+QvkcNhDa8Y9vKA30GKvUpsQjf+DqhGodcoqj5HyJfsOlLmd0S76Ldbu6+80QTMHX
+WtfU6ynFIZBmRxz2yaiRZ6Ci0VdwTou8j+sKgleegkAE4PnMvc/uyM7SByK+uCYV
+7giur254JJ9mKxNZdBNs844GCh0/O1s7aO3JZrBvLwK0Nm2BG/lmoPMCkiI5CYfR
+Tkc1r0bVe/7qFxFpmuo8MMA0WnftMkWvqrZR1XBTE9jH0LDranPEQqqehSDjOSp0
+SlKxkyazKA==
+=Szmp
 -----END PGP SIGNATURE-----
 
---===============2324515353527601096==
+--===============2821279627944244544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26bf5fc86033-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1082,4 +1082,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============2324515353527601096==--
+--===============2821279627944244544==--
