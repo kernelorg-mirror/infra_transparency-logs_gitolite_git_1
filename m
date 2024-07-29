@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7866521383588739364=="
+Content-Type: multipart/mixed; boundary="===============6281491517948339949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 29 Jul 2024 11:38:14 -0000
-Message-Id: <172225309444.11385.10820756362769443399@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 11:38:26 -0000
+Message-Id: <172225310640.11544.8158963159995415732@gitolite.kernel.org>
 
---===============7866521383588739364==
+--===============6281491517948339949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: nmenon
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: cc5049007d722364bca4a4eeb619d5629733a004
+  - ref: refs/heads/ti-next
+    old: fd1d9729723b3239a0d3d9676ed8878ddff9f004
     new: 137d9e76ae0b51d9b39c17e2675dae09de5f16e3
-    log: revlist-cc5049007d72-137d9e76ae0b.txt
+    log: revlist-fd1d9729723b-137d9e76ae0b.txt
 
---===============7866521383588739364==
+--===============6281491517948339949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc5049007d72-137d9e76ae0b.txt
+Content-Disposition: attachment; filename=revlist-fd1d9729723b-137d9e76ae0b.txt
 
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
@@ -1051,4 +1051,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 137d9e76ae0b51d9b39c17e2675dae09de5f16e3 Merge tag 'ti-k3-dt-for-v6.11-part2' into ti-k3-dts-next
 
---===============7866521383588739364==--
+--===============6281491517948339949==--
