@@ -1,30 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4342290515300189436=="
+Content-Type: multipart/mixed; boundary="===============1370703111974732572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 29 Jul 2024 20:14:35 -0000
-Message-Id: <172228407526.13953.17725649545584409197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 29 Jul 2024 20:14:49 -0000
+Message-Id: <172228408988.14118.16254484503095246281@gitolite.kernel.org>
 
---===============4342290515300189436==
+--===============1370703111974732572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fixes
-    old: 66cde337fa1b7c6cf31f856fa015bd91a4d383e7
+  - ref: refs/heads/master
+    old: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-66cde337fa1b-8400291e289e.txt
+    log: revlist-f2661062f16b-8400291e289e.txt
+  - ref: refs/heads/v6.12-armsoc/dts64
+    old: 0000000000000000000000000000000000000000
+    new: bd6e614356d4fc852480cfb14d705da0561d5777
+  - ref: refs/heads/v6.11-armsoc/dtsfixes
+    old: 0000000000000000000000000000000000000000
+    new: c623e9daf60a0275d623ce054601550e54987f5b
+  - ref: refs/heads/v6.12-armsoc/dts32
+    old: 0000000000000000000000000000000000000000
+    new: a24fc58198084194796486698e779963636c9065
+  - ref: refs/heads/v6.12-clk/next
+    old: 0000000000000000000000000000000000000000
+    new: 1d34b9757523c1ad547bd6d040381f62d74a3189
 
---===============4342290515300189436==
+--===============1370703111974732572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66cde337fa1b-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-f2661062f16b-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1063,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4342290515300189436==--
+--===============1370703111974732572==--
