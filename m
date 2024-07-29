@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 29 Jul 2024 17:01:21 -0000
-Message-Id: <172227248175.31454.16741760227338782671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 29 Jul 2024 17:05:36 -0000
+Message-Id: <172227273661.2278.15107269331302387459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/todo
-    old: db65c8b381731a6dc0e5e95c1035cf9ca449ad21
-    new: 45c2780f9ef8149ca1b0e2ed3c9bd15a872f35eb
+  - ref: refs/heads/arm64-fpsimd-sme-cpu-die
+    old: f4f8b957cfe9d69def23b466eb6dab4b7715deda
+    new: 9dff93c5a10fde32e0718a5c5f88908d8eadc51b
     log: |
-         45c2780f9ef8149ca1b0e2ed3c9bd15a872f35eb What's cooking (2024/07 #09)
+         99df40a3e607b17f6908027d55a2cc5bd1babe9e EDITME: cover title for arm64-fpsimd-sme-cpu-die
+         9dff93c5a10fde32e0718a5c5f88908d8eadc51b arm64/fpsimd: Ensure that offlined CPUs are not using SME
          
