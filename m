@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 29 Jul 2024 14:36:40 -0000
-Message-Id: <172226380099.16624.2963538792091020540@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 14:38:02 -0000
+Message-Id: <172226388214.18310.3214470544334341739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
   - ref: refs/heads/pwm/chardev
-    old: 185222ed342e6283f23b370df65ed791f9191a4a
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: ac6a258892793f0a255fe7084ec2b612131c67fc
