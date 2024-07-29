@@ -1,53 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5625279874232865324=="
+Content-Type: multipart/mixed; boundary="===============7685067281365011935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Jul 2024 15:10:30 -0000
-Message-Id: <172226583067.11236.18200558068757580621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 29 Jul 2024 15:35:52 -0000
+Message-Id: <172226735262.28130.8175254181413613946@gitolite.kernel.org>
 
---===============5625279874232865324==
+--===============7685067281365011935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mem-ctrl-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 758a9c3f36ee86d9f8627f5089cb9694cb6cf151
-    log: revlist-8400291e289e-758a9c3f36ee.txt
+    new: ddb869ea237eb4e1c882c8768675fad53623b062
+    log: |
+         649f4783dcda7400bbed866140df504d09a3b135 memory: tegra: Remove periodic compensation duplicate calls
+         7b4dcb8888e1660d590ec13463ba71ec5bbf6333 memory: tegra: Move DQSOSC measurement to common place
+         c5f83622ccd0158cf16c6be8ba56f178c99776a5 memory: tegra: Reword and correct comments
+         a238f62b3666558f38d8abf688d0fecf4ccb48ee memory: tegra: Change macros to interpret parameter as integer
+         adc720820f963047210efc4fe1c1ff068b4bd773 memory: tegra: Loop update_clock_tree_delay()
+         b109656e9ca399d6899152eb40efac2bdd3b4202 memory: tegra: Move compare/update current delay values to a function
+         ddb869ea237eb4e1c882c8768675fad53623b062 memory: tegra: Rework update_clock_tree_delay()
+         
 
---===============5625279874232865324==
+--===============7685067281365011935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-758a9c3f36ee.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e30315f6a7ab45bb942d600bb045d71fdb52c330 nfsd: add list_head nf_gc to struct nfsd_file
-b872fcb711678a946de6ce6edd5ca0d324106ddb nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
-7b113baaae1d27900bfe81b729c1d61cd70a9747 nfsd: fix refcount leak when file is unhashed after being found
-8f5906ad1f86ccd9a3987ddd97e72f39aaed8fe6 nfsd: count nfsd_file allocations
-d1eb34f11d4ff64161901fe23e5185bda3670cdb nfsd: use system_unbound_wq for nfsd_file_gc_worker()
-0487e67fae30c4ec3d94f91f7e0e3941e3090540 NFS: trace: show TIMEDOUT instead of 0x6e
-b73d46a51b91f00156c30c0b487602852eb60b5f nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
-3f53877140ba7e2081b3db581043e0b2704ce482 lockd: discard nlmsvc_timeout
-96c99c7c2a8912bbf1f5fb0529f203faadb39c07 SUNRPC: make various functions static, or not exported.
-380cca57afe43723823131ccd0ccfbda080d09ea nfsd: move nfsd_pool_stats_open into nfsctl.c
-48d45b8a92098fd0ace1915e822b6a911d68e9f0 nfsd: don't allocate the versions array.
-1805d2b03e1ce8c76651fd9962931c7e7e33444a sunrpc: document locking rules for svc_exit_thread()
-477f4c24554ba0967cea7bfe35268b7690c204f3 sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-279939a10209eeb2d556c9764051f691d90658dd sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-5130a4f6d3b41ae10de50ba84d58e676e83fda4c nfsd: don't assume copy notify when preprocessing the stateid
-c46f8258781281f999ce5972c974ab2e001c1fcd nfsd: Don't pass all of rqst into rqst_exp_find()
-bd7748f75961bd24cd0140a6b20dc4b49051dfa3 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
-8cbe4d49be4f21c01cc97ee690972c9fc6d1b1e1 nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
-e761ce6dc1c949e9945c848725469d9f3affeef6 nfsd: further centralize protocol version checks.
-8c915566f118a91529e56dbf529ba59dd057bfd2 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
-26dd5d0faf1a949abe0a56e4f4c3deba1475b1a9 nfsd: Move error code mapping to per-version proc code.
-aa676a48ed35f384d48468ef868e618450f64af1 nfsd: be more systematic about selecting error codes for internal use.
-758a9c3f36ee86d9f8627f5089cb9694cb6cf151 nfsd: move error choice for incorrect object types to version-specific code.
+certificate version 0.1
+pusher krzk@kernel.org 1722267347 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1722267347-55f38f7c6914a2b37cd8cd24e272d7aa3814443e
 
---===============5625279874232865324==--
+8400291e289ee6b2bf9779ff1c83a291501f017b ddb869ea237eb4e1c882c8768675fad53623b062 refs/heads/mem-ctrl-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanttMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wmrD/0ZNAd2abRfFBSlFqji+5/LUO0Yh/16o0QX
+FtTLEe1m36wQHNx/T/j93g4+Ryl3H9GPEp3P/boJKECQQPAdzTp7XJOEcTDr7zTG
+Afux1P4Ra82APq3uCVWFQSZAIhfv4KAgh8/Sek9wy2wgegLG83943d9t7ivdgvL+
+CIm3ZzgU7DxGh+sLTBzfbLfiHULzEw70hcBMy+FkK2oTqMCAJDnXbF0dt0PE1vFS
+moRWuHweWaHKbGJGBjX1A7xWYF3VWHqJ6DNQ4uByI+6QORhPGsHf1hOpf5VqyIbi
+u0Mf52MamzwYzhsPFMrjS3uueXiizycQNbnt2NLSXQh4B3WwcPtrwVtg2L8JPEy8
+lyE5UbFSA+GdcrlSckOOyxvo7skPJgatwhy9pizJtfFtLsLiSgHZLXDkEZ+EK5nX
+PexbbL5EU2H5jt2vVvgnF8oO9Nyp2K73UkYcnYPueFAA+wwUJeI7UsmiPK6rzPG0
+vauFvwIlEBmi65r0CPsNt6uhAKtNQzrNnxKo+Q67nf6MNAzUBklv/S6CNlbCLh1n
+lxLzHl4RRTY4tQufRwiwfXopAsecGdXsXxRqn8ev3hXSHnTba2N2ISm//NbnNAGo
+d5Mxn1mmYiOGqbu4p49mFONzalSke9HbtlRH1UgI9bkG9jC2I246jI5Wdc7yl289
+y3tjfBvS7A==
+=YYZR
+-----END PGP SIGNATURE-----
+
+--===============7685067281365011935==--
