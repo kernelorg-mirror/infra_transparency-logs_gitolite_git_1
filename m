@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 29 Jul 2024 23:47:52 -0000
-Message-Id: <172229687268.13350.8277954885188159026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 29 Jul 2024 23:57:54 -0000
+Message-Id: <172229747429.20179.3572905688931899822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 6b5faec9f564ea627c66064a4a6a5904fe5a07dd
-    new: 94ede2a3e9135764736221c080ac7c0ad993dc2d
+    old: 63ec10edb35603f4ca73f4adc51ffec4f2a270c4
+    new: a4920869e68efdd0a51c0eaf339f637f1f15ac9a
     log: |
-         94ede2a3e9135764736221c080ac7c0ad993dc2d profiling: remove stale percpu flip buffer variables
+         a4920869e68efdd0a51c0eaf339f637f1f15ac9a Mon Jul 29 07:57:15 PM EDT 2024
          
