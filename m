@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0311946522157631725=="
+Content-Type: multipart/mixed; boundary="===============6548175725361862877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 29 Jul 2024 13:45:42 -0000
-Message-Id: <172226074299.11705.4743851790334231919@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 13:47:05 -0000
+Message-Id: <172226082508.12263.10834409256537806761@gitolite.kernel.org>
 
---===============0311946522157631725==
+--===============6548175725361862877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sme-no-cpuidle
-    old: ed00a47e06b35b8d08c8ab801eb8baee0bb587af
-    new: 94f4ad6a728bc1125d9d4bdbfef78e1d3ffef0f5
-    log: revlist-ed00a47e06b3-94f4ad6a728b.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: 757d4059d05f321ee6b10d915ce18a12c5f363a5
+    new: 05ae3e542b9561d87d1ee16e4d5fb4d1b7b04606
+    log: revlist-757d4059d05f-05ae3e542b95.txt
 
---===============0311946522157631725==
+--===============6548175725361862877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed00a47e06b3-94f4ad6a728b.txt
+Content-Disposition: attachment; filename=revlist-757d4059d05f-05ae3e542b95.txt
 
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
@@ -1048,7 +1048,7 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-be66d7123d36674755a4b95b5f1a159658b747a2 EDITME: cover title for arm64-sme-no-cpuidle
-94f4ad6a728bc1125d9d4bdbfef78e1d3ffef0f5 arm64/fpsimd: Ensure we don't contend a SMCU from idling CPUs
+6c92f44e4fbc92e6d6e142081cf6b5a846d0bec9 EDITME: cover title for arm64-sve-trap-mitigation
+05ae3e542b9561d87d1ee16e4d5fb4d1b7b04606 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
 
---===============0311946522157631725==--
+--===============6548175725361862877==--
