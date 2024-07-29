@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0045762235986423645=="
+Content-Type: multipart/mixed; boundary="===============7835228156477302095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 29 Jul 2024 00:03:10 -0000
-Message-Id: <172221139076.25578.8227391574589877595@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 00:03:32 -0000
+Message-Id: <172221141283.25782.1847764953926427184@gitolite.kernel.org>
 
---===============0045762235986423645==
+--===============7835228156477302095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.12
-    old: c84750d06ea88079e6ac7e1d16694ae4fe7820a9
-    new: 837dcea001593c1b82a6de9b23cfe975ac88868c
-    log: revlist-c84750d06ea8-837dcea00159.txt
+  - ref: refs/heads/master
+    old: 786c8248dbd33a5a7a07f7c6e55a7bfc68d2ca48
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-786c8248dbd3-8400291e289e.txt
 
---===============0045762235986423645==
+--===============7835228156477302095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c84750d06ea8-837dcea00159.txt
+Content-Disposition: attachment; filename=revlist-786c8248dbd3-8400291e289e.txt
 
 b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
 7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
@@ -734,7 +734,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-03d38c74d06bc3a676f7702075a230e27f5f4375 dt-bindings: ata: qcom,ipq806x-ahci: use dtschema
-837dcea001593c1b82a6de9b23cfe975ac88868c dt-bindings: ata: qcom,apq8064-ahci: add to dtschema
 
---===============0045762235986423645==--
+--===============7835228156477302095==--
