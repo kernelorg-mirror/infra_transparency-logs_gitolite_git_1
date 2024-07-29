@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 29 Jul 2024 17:05:36 -0000
-Message-Id: <172227273661.2278.15107269331302387459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 29 Jul 2024 17:06:36 -0000
+Message-Id: <172227279668.2870.2178379304597784799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/arm64-fpsimd-sme-cpu-die
-    old: f4f8b957cfe9d69def23b466eb6dab4b7715deda
-    new: 9dff93c5a10fde32e0718a5c5f88908d8eadc51b
+  - ref: refs/heads/master
+    old: b6924657d45d7e48bf1676c5ada0b42c9c102481
+    new: c86927f528a8375bf3492898dfceaefc6fa4cb6d
     log: |
-         99df40a3e607b17f6908027d55a2cc5bd1babe9e EDITME: cover title for arm64-fpsimd-sme-cpu-die
-         9dff93c5a10fde32e0718a5c5f88908d8eadc51b arm64/fpsimd: Ensure that offlined CPUs are not using SME
+         c86927f528a8375bf3492898dfceaefc6fa4cb6d selftests/vDSO: don't #include sodium header in chacha test
          
