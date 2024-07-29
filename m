@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Jul 2024 13:07:23 -0000
-Message-Id: <172225844332.15091.10155164433424098810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 29 Jul 2024 13:07:36 -0000
+Message-Id: <172225845604.15305.8796092708052809596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
+  - ref: refs/tags/v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
   - ref: refs/tags/v6.10-rc6
     old: 0000000000000000000000000000000000000000
     new: 68f64a7c43d1a9c933122ee31aa76625693bce50
