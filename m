@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3485620895258824640=="
+Content-Type: multipart/mixed; boundary="===============7584908241976637949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 29 Jul 2024 09:40:53 -0000
-Message-Id: <172224605330.19996.2135698202686304356@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 09:41:07 -0000
+Message-Id: <172224606780.20159.8571453476867022329@gitolite.kernel.org>
 
---===============3485620895258824640==
+--===============7584908241976637949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: 22a40d14b572deb80c0648557f4bd502d7e83826
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-22a40d14b572-8400291e289e.txt
 
---===============3485620895258824640==
+--===============7584908241976637949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============3485620895258824640==--
+--===============7584908241976637949==--
