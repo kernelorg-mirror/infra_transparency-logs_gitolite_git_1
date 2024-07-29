@@ -1,31 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7062331772941189716=="
+Content-Type: multipart/mixed; boundary="===============4877884405895819603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jul 2024 07:03:27 -0000
-Message-Id: <172223660763.12357.9622526374190807263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 29 Jul 2024 07:17:05 -0000
+Message-Id: <172223742580.23406.17911900726330595764@gitolite.kernel.org>
 
---===============7062331772941189716==
+--===============4877884405895819603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/x86/misc
-    old: bf6ab33d8487f5e2a0998ce75286eae65bb0a6d6
-    new: 59c34008d3bdeef4c8ebc0ed2426109b474334d4
-    log: revlist-bf6ab33d8487-59c34008d3bd.txt
+  - ref: refs/heads/for-next
+    old: d8b17a364ec48239fccb65efe74bb485e79e6743
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-d8b17a364ec4-8400291e289e.txt
 
---===============7062331772941189716==
+--===============4877884405895819603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf6ab33d8487-59c34008d3bd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722237417 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1722237415-aab6d052688af218d97a319dc6dc8c3d32523dea
+
+d8b17a364ec48239fccb65efe74bb485e79e6743 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZqdB7QAKCRBZrE9hU+XO
+Mal/APwIF1RabHh/pj9XRT7rrcv6uOI8h/+idmfOsW0P+4cu/gD/fOwKVm9oxJoc
+5p/mezr6UfB6inI8+KrCK7eQZYLbogY=
+=IJwb
+-----END PGP SIGNATURE-----
+
+--===============4877884405895819603==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d8b17a364ec4-8400291e289e.txt
+
+c49379dcda748adb8ba84d7a8eb3b02d4f1ebfcf Merge branch 'net-dsa-vsc73xx-implement-vlan-operations'
+9283477e28913c1e7625c0a8d6959745e2431533 net: ethernet: lantiq_etop: remove redundant device name setup
+2f38cf730caedaeacdefb7ff35b0a3c1168117f9 ALSA: usb: Fix UBSAN warning in parse_audio_unit()
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
@@ -254,9 +279,6 @@ d67015eedd9722cfbf9d929be743ce27dfcd0744 kbuild: deb-pkg: use default string whe
 94a4b0a4cb4340273a2d67be893f9032fe7b7e26 kconfig: remove SYMBOL_CHOICEVAL flag
 d13e2a6e95e6b87f571c837c71a3d05691def9bb drm/i915/dp: Reset intel_dp->link_trained before retraining the link
 509580fad7323b6a5da27e8365cd488f3b57210e drm/i915/dp: Don't switch the LTTPR mode on an active link
-9d20c0535ea822e7306049bfc735bd0fb83400c1 Docs/admin-guide: Remove pmf leftover reference from the index
-182c6941c55347c735e70ffca77741cd000cbec7 platform/x86/intel/tpmi/plr: Fix output in plr_print_bits()
-d8b17a364ec48239fccb65efe74bb485e79e6743 platform/x86: asus-wmi: fix TUF laptop RGB variant
 3f45181358e4df50a40ea1bb51b00a1f295f915e tcp: Don't access uninit tcp_rsk(req)->ao_keyid in tcp_create_openreq_child().
 c26b1b89b8a9fd8665e79cd798bd970e233772b6 MAINTAINERS: Add uprobes entry
 b5c4881bda64ddf8d83ea6c116365294028b7ce4 Merge branch 'for-6.11/core' into for-linus
@@ -1049,6 +1071,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-59c34008d3bdeef4c8ebc0ed2426109b474334d4 x86/amd_nb: Add new PCI IDs for AMD family 1Ah model 60h
 
---===============7062331772941189716==--
+--===============4877884405895819603==--
