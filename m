@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8259767161559575582=="
+Content-Type: multipart/mixed; boundary="===============6719031934311931123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Jul 2024 20:37:26 -0000
-Message-Id: <172228544699.704.3041124116625079764@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 20:37:29 -0000
+Message-Id: <172228544967.780.2262103902739722119@gitolite.kernel.org>
 
---===============8259767161559575582==
+--===============6719031934311931123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
-    old: 7d30b8aa4fc39db4f632621d5b846fa635494dc2
+  - ref: refs/heads/for-next
+    old: 51835949dda3783d4639cfa74ce13a3c9829de00
     new: e882a6495d9612d22102b62e12d8bf60dd9b3c3e
-    log: revlist-7d30b8aa4fc3-e882a6495d96.txt
+    log: revlist-51835949dda3-e882a6495d96.txt
 
---===============8259767161559575582==
+--===============6719031934311931123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d30b8aa4fc3-e882a6495d96.txt
+Content-Disposition: attachment; filename=revlist-51835949dda3-e882a6495d96.txt
 
 813d4c642251649352e9680e6278a1c02c0ebf95 btrfs: prevent pathological periodic reclaim loops
 0e962e755b2684185ec37c75d91df56e076782ec btrfs: urgent periodic reclaim pass
@@ -1051,4 +1051,4 @@ aacd3dfc943d8057a4f03ac372b3a213345de5aa libbpf: Don't take direct pointers into
 2a0175a75dbf6e6686f604d6c816f1aa19354b3e selftests/bpf: Integrate test_xdp_veth into test_progs
 e882a6495d9612d22102b62e12d8bf60dd9b3c3e selftests/bpf: Load struct_ops map in global_maps_resize test
 
---===============8259767161559575582==--
+--===============6719031934311931123==--
