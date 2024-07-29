@@ -1,45 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3099804264070416891=="
+Content-Type: multipart/mixed; boundary="===============7249839877654475665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Jul 2024 13:06:24 -0000
-Message-Id: <172225838459.13333.4612789786793684119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 29 Jul 2024 13:06:37 -0000
+Message-Id: <172225839702.13620.10152920103873404384@gitolite.kernel.org>
 
---===============3099804264070416891==
+--===============7249839877654475665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
-    old: 0c3836482481200ead7b416ca80c68a29cfdaabd
+    old: 6d6444ba82053c716fb5ac83346202659023044e
     new: dc1c8034e31b14a2e5e212104ec508aec44ce1b9
-    log: revlist-0c3836482481-dc1c8034e31b.txt
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
+    log: revlist-6d6444ba8205-dc1c8034e31b.txt
   - ref: refs/tags/v6.9-rc4
     old: 0000000000000000000000000000000000000000
     new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
+  - ref: refs/tags/v6.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
   - ref: refs/tags/v6.9-rc6
     old: 0000000000000000000000000000000000000000
     new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
 
---===============3099804264070416891==
+--===============7249839877654475665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c3836482481-dc1c8034e31b.txt
+Content-Disposition: attachment; filename=revlist-6d6444ba8205-dc1c8034e31b.txt
 
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
@@ -1066,4 +1060,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 cb04e8b1d2f24c4c2c92f7b7529031fc35a16fed minmax: don't use max() in situations that want a C constant expression
 dc1c8034e31b14a2e5e212104ec508aec44ce1b9 minmax: simplify min()/max()/clamp() implementation
 
---===============3099804264070416891==--
+--===============7249839877654475665==--
