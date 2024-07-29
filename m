@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2384877079133012591=="
+Content-Type: multipart/mixed; boundary="===============5084675235039948130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 29 Jul 2024 15:37:37 -0000
-Message-Id: <172226745775.30272.9698179106723974798@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 15:37:44 -0000
+Message-Id: <172226746456.30413.8858843933423007115@gitolite.kernel.org>
 
---===============2384877079133012591==
+--===============5084675235039948130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 225990c487c1023e7b3aa89beb6a68011fbc0461
-    new: 039564d2fd37b122ec0d268e2ee6334e7169e225
-    log: revlist-225990c487c1-039564d2fd37.txt
+  - ref: refs/heads/dev-queue
+    old: faf541c50303c89f81dcf62b3921b82b545540be
+    new: d34813a1583077cbe1ba336b25e04227ef73833f
+    log: revlist-faf541c50303-d34813a15830.txt
 
---===============2384877079133012591==
+--===============5084675235039948130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-225990c487c1-039564d2fd37.txt
+Content-Disposition: attachment; filename=revlist-faf541c50303-d34813a15830.txt
 
 8f4fa0876231c426f880a2bff25ac49fac67d805 wifi: mac80211: use monitor sdata with driver only if desired
 baeaabf970b9a90999f62ae27edf63f6cb86c023 wifi: cfg80211: fix reporting failed MLO links status with cfg80211_connect_done
@@ -58,5 +58,17 @@ b5e2fb832f48bc01d937a053e0550a1465a2f05d selftests: mptcp: add explicit test cas
 4a2f48992ddf4b8c2fba846c6754089edae6db5a selftests: mptcp: fix error path
 7c70bcc2a84cf925f655ea1ac4b8088062b144a3 selftests: mptcp: always close input's FD if opened
 039564d2fd37b122ec0d268e2ee6334e7169e225 Merge branch 'mptcp-endpoint-readd-fixes' into main
+0ccdf1d82ba25305a5f6336ccba7f72a5e1b795b igc: Fix double reset adapter triggered from a single taprio cmd
+95571990afb1f99bb9f6c15ddb761a58cc5101d2 ice: Fix lldp packets dropping after changing the number of channels
+3c27985e18a13598d7053c010bb67f87ea9b0c45 igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
+f73225f2a5a9b84510e3f92faa549b8cb8b5de13 igc: Fix qbv_config_change_errors logics
+c83d5156f4d2ef8c3a47490c7f13d43c815b9ee4 igc: Fix reset adapter logics when tx mode change
+db3950ee2666ba70012bc18908cf5caf3ba5fe47 igc: Fix qbv tx latency by setting gtxoffset
+97405b7d49b525ba78440c86569a52f77304e86a ice: Fix reset handler
+b09c47e2103b8dc0a817b81b129882becde62f4c ice: Skip PTP HW writes during PTP reset procedure
+040d4d34f80a9c784f890597ff5ce053da9ac7b6 igb: cope with large MAX_SKB_FRAGS.
+3bb7229f24a0d5670cfe352648c8ef1458a33c6f idpf: fix memory leaks and crashes while performing a soft reset
+0a7076a033f332447e5dcb43934acfd9b5873ff3 idpf: fix memleak in vport interrupt configuration
+d34813a1583077cbe1ba336b25e04227ef73833f idpf: fix UAFs when destroying the queues
 
---===============2384877079133012591==--
+--===============5084675235039948130==--
