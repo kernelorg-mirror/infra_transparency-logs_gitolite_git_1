@@ -1,31 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============3935517047667794898=="
+Content-Type: multipart/mixed; boundary="===============7085431215209422950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Jul 2024 21:11:25 -0000
-Message-Id: <172228748583.27254.18351084097543513456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 29 Jul 2024 21:12:49 -0000
+Message-Id: <172228756908.27822.3201342951242391597@gitolite.kernel.org>
 
---===============3935517047667794898==
+--===============7085431215209422950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 0e12f2735a0fcb853ce5b6d43cc309bcbfe2d8d0
-    new: f31b9d7507e3f776e10662c4e5552c5dc7080a25
-    log: revlist-0e12f2735a0f-f31b9d7507e3.txt
+  - ref: refs/heads/dev
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 269d5c03e612811bc625ffeb5f79b63db467a895
+    log: |
+         2aff9d20d50ac45dd13a013ef5231f4fb8912356 lsm: infrastructure management of the sock security
+         5f8d28f6d7d568dbbc8c5bce94894474c07afd4f lsm: infrastructure management of the key security blob
+         09001284eebfc1b684e81d1db0f006787d35f3e1 lsm: add helper for blob allocations
+         a39c0f77dbbe083f3eec6c3b32d90f168f7575eb lsm: infrastructure management of the dev_tun blob
+         66de33a0bbb59ef3909d2c65dbbb7fc503d573bd lsm: infrastructure management of the infiniband blob
+         61a1dcdceb44d79e5ab511295791b88ea178c045 lsm: infrastructure management of the perf_event security blob
+         92e75f47fc2f613d6b014685ec4671e1cd083c0c kernel: Add helper macros for loop unrolling
+         cbc4591bddae9c7b4dd5cf3b52221f8cfbb7a74d lsm: count the LSMs enabled at compile time
+         2732ad5ecd5bfb6fb1bbb24d287e28844277a10e lsm: replace indirect LSM hook calls with static calls
+         008735beb70ff4c0e65bcba6ef63aea37ee8a93b lsm: Refactor return value of LSM hook vm_enough_memory
+         269d5c03e612811bc625ffeb5f79b63db467a895 lsm: Refactor return value of LSM hook inode_copy_up_xattr
+         
+  - ref: refs/heads/next
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 269d5c03e612811bc625ffeb5f79b63db467a895
+    log: |
+         2aff9d20d50ac45dd13a013ef5231f4fb8912356 lsm: infrastructure management of the sock security
+         5f8d28f6d7d568dbbc8c5bce94894474c07afd4f lsm: infrastructure management of the key security blob
+         09001284eebfc1b684e81d1db0f006787d35f3e1 lsm: add helper for blob allocations
+         a39c0f77dbbe083f3eec6c3b32d90f168f7575eb lsm: infrastructure management of the dev_tun blob
+         66de33a0bbb59ef3909d2c65dbbb7fc503d573bd lsm: infrastructure management of the infiniband blob
+         61a1dcdceb44d79e5ab511295791b88ea178c045 lsm: infrastructure management of the perf_event security blob
+         92e75f47fc2f613d6b014685ec4671e1cd083c0c kernel: Add helper macros for loop unrolling
+         cbc4591bddae9c7b4dd5cf3b52221f8cfbb7a74d lsm: count the LSMs enabled at compile time
+         2732ad5ecd5bfb6fb1bbb24d287e28844277a10e lsm: replace indirect LSM hook calls with static calls
+         008735beb70ff4c0e65bcba6ef63aea37ee8a93b lsm: Refactor return value of LSM hook vm_enough_memory
+         269d5c03e612811bc625ffeb5f79b63db467a895 lsm: Refactor return value of LSM hook inode_copy_up_xattr
+         
+  - ref: refs/heads/stable-6.11
+    old: dd44477e7fa15ba3b100dfc67bf7cf083f3dccf6
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-dd44477e7fa1-8400291e289e.txt
 
---===============3935517047667794898==
+--===============7085431215209422950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e12f2735a0f-f31b9d7507e3.txt
+Content-Disposition: attachment; filename=revlist-dd44477e7fa1-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
+9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
+519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
+b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
+fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
+1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
+3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
+473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
+87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
+88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
+92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
+176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
+8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
+f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
+936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
+be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
+3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
+d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
+95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
+d019930b0049fc2648a6b279893d8ad330596e81 Bluetooth: btmtk: move btusb_mtk_hci_wmt_sync to btmtk.c
+5c5e8c52e3cafaa6f71efd44a42a674271e5b3ad Bluetooth: btmtk: move btusb_mtk_[setup, shutdown] to btmtk.c
+6dc22ab9f085ae165e4ce89d61fb426f94e8a969 Bluetooth: btmtk: move btusb_recv_acl_mtk to btmtk.c
 ceac1cb0259de682d78f5c784ef8e0b13022e9d9 Bluetooth: btusb: mediatek: add ISO data transmission functions
 880120d5f12e3e9af6472f2ddddb33a6c2648418 Bluetooth: btintel: Add support for BlazarU core
 f6dc9214e526c2f735d93b5330f4dcd42a2b5308 Bluetooth: btintel: Add support for Whale Peak2
@@ -1026,29 +1082,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-e30315f6a7ab45bb942d600bb045d71fdb52c330 nfsd: add list_head nf_gc to struct nfsd_file
-b872fcb711678a946de6ce6edd5ca0d324106ddb nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
-7b113baaae1d27900bfe81b729c1d61cd70a9747 nfsd: fix refcount leak when file is unhashed after being found
-8f5906ad1f86ccd9a3987ddd97e72f39aaed8fe6 nfsd: count nfsd_file allocations
-d1eb34f11d4ff64161901fe23e5185bda3670cdb nfsd: use system_unbound_wq for nfsd_file_gc_worker()
-0487e67fae30c4ec3d94f91f7e0e3941e3090540 NFS: trace: show TIMEDOUT instead of 0x6e
-b73d46a51b91f00156c30c0b487602852eb60b5f nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
-3f53877140ba7e2081b3db581043e0b2704ce482 lockd: discard nlmsvc_timeout
-96c99c7c2a8912bbf1f5fb0529f203faadb39c07 SUNRPC: make various functions static, or not exported.
-380cca57afe43723823131ccd0ccfbda080d09ea nfsd: move nfsd_pool_stats_open into nfsctl.c
-48d45b8a92098fd0ace1915e822b6a911d68e9f0 nfsd: don't allocate the versions array.
-1805d2b03e1ce8c76651fd9962931c7e7e33444a sunrpc: document locking rules for svc_exit_thread()
-477f4c24554ba0967cea7bfe35268b7690c204f3 sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-279939a10209eeb2d556c9764051f691d90658dd sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-5130a4f6d3b41ae10de50ba84d58e676e83fda4c nfsd: don't assume copy notify when preprocessing the stateid
-c46f8258781281f999ce5972c974ab2e001c1fcd nfsd: Don't pass all of rqst into rqst_exp_find()
-bd7748f75961bd24cd0140a6b20dc4b49051dfa3 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
-8cbe4d49be4f21c01cc97ee690972c9fc6d1b1e1 nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
-e761ce6dc1c949e9945c848725469d9f3affeef6 nfsd: further centralize protocol version checks.
-8c915566f118a91529e56dbf529ba59dd057bfd2 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
-26dd5d0faf1a949abe0a56e4f4c3deba1475b1a9 nfsd: Move error code mapping to per-version proc code.
-aa676a48ed35f384d48468ef868e618450f64af1 nfsd: be more systematic about selecting error codes for internal use.
-758a9c3f36ee86d9f8627f5089cb9694cb6cf151 nfsd: move error choice for incorrect object types to version-specific code.
-f31b9d7507e3f776e10662c4e5552c5dc7080a25 svcrdma: Handle device removal outside of the CM event handler
 
---===============3935517047667794898==--
+--===============7085431215209422950==--
