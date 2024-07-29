@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4877884405895819603=="
+Content-Type: multipart/mixed; boundary="===============2543693055683709395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 29 Jul 2024 07:17:05 -0000
-Message-Id: <172223742580.23406.17911900726330595764@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 07:17:46 -0000
+Message-Id: <172223746621.23726.18314529117309253941@gitolite.kernel.org>
 
---===============4877884405895819603==
+--===============2543693055683709395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-ilpo
     old: d8b17a364ec48239fccb65efe74bb485e79e6743
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-d8b17a364ec4-8400291e289e.txt
 
---===============4877884405895819603==
+--===============2543693055683709395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722237417 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722237463 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1722237415-aab6d052688af218d97a319dc6dc8c3d32523dea
+nonce 1722237461-d1501ff67a6a412818871f3996f72df7ebc3dc6c
 
-d8b17a364ec48239fccb65efe74bb485e79e6743 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-next
+d8b17a364ec48239fccb65efe74bb485e79e6743 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZqdB7QAKCRBZrE9hU+XO
-Mal/APwIF1RabHh/pj9XRT7rrcv6uOI8h/+idmfOsW0P+4cu/gD/fOwKVm9oxJoc
-5p/mezr6UfB6inI8+KrCK7eQZYLbogY=
-=IJwb
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZqdCFgAKCRBZrE9hU+XO
+MaxWAP9hiG0iumWfWImWJgcM0OSJQzAV2ir3YBHarx+LOp3hpgEAqj53St2X8n9c
+mlTKvLIrT9bnTMX6G/M6GqRpyLuN/gM=
+=ZMl3
 -----END PGP SIGNATURE-----
 
---===============4877884405895819603==
+--===============2543693055683709395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4877884405895819603==--
+--===============2543693055683709395==--
