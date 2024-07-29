@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0962036997143557595=="
+Content-Type: multipart/mixed; boundary="===============3254650716804353074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 29 Jul 2024 08:54:01 -0000
-Message-Id: <172224324126.2415.1570147101339286552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 29 Jul 2024 08:54:20 -0000
+Message-Id: <172224326008.2582.7428952806442576609@gitolite.kernel.org>
 
---===============0962036997143557595==
+--===============3254650716804353074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-0c3836482481-8400291e289e.txt
 
---===============0962036997143557595==
+--===============3254650716804353074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============0962036997143557595==--
+--===============3254650716804353074==--
