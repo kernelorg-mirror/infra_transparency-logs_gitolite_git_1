@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1383187578561696540=="
+Content-Type: multipart/mixed; boundary="===============5032803296853468073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 29 Jul 2024 19:33:44 -0000
-Message-Id: <172228162420.14815.8300570278183228501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 29 Jul 2024 19:37:04 -0000
+Message-Id: <172228182468.18897.6078371269126288170@gitolite.kernel.org>
 
---===============1383187578561696540==
+--===============5032803296853468073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: dc1c8034e31b14a2e5e212104ec508aec44ce1b9
-    new: cec6937dd1aae1b38d147bd190cb895d06cf96d0
-    log: revlist-dc1c8034e31b-cec6937dd1aa.txt
+  - ref: refs/heads/for-6.11
+    old: 45d763fe503e6e0f180f873b750aea307e73fdcf
+    new: e2d124de0017b7649963e956eb7b80bc84848eb3
+    log: |
+         aebb1813c279ce8f3a2dfa3f86def0c0ec1cbb8d ASoC: codecs: wcd937x-sdw: Correct Soundwire ports mask
+         3f6fb03dae9c7dfba7670858d29e03c8faaa89fe ASoC: codecs: wcd938x-sdw: Correct Soundwire ports mask
+         74a79977c4e1d09eced33e6e22f875a5bb3fad29 ASoC: codecs: wcd939x-sdw: Correct Soundwire ports mask
+         eb11c3bb64ad0a05aeacdb01039863aa2aa3614b ASoC: codecs: wsa881x: Correct Soundwire ports mask
+         6801ac36f25690e14955f7f9eace1eaa29edbdd0 ASoC: codecs: wsa883x: Correct Soundwire ports mask
+         dcb6631d05152930e2ea70fd2abfd811b0e970b5 ASoC: codecs: wsa884x: Correct Soundwire ports mask
+         e2d124de0017b7649963e956eb7b80bc84848eb3 ASoC: codecs: wcd93xx/wsa88xx: Correct Soundwire ports
+         
 
---===============1383187578561696540==
+--===============5032803296853468073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc1c8034e31b-cec6937dd1aa.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
-8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
-9ac7ba12d37b4c24f6db675ff7edb7e54f597a59 ARM: 9403/1: Alpine: Spelling s/initialiing/initializing/
-ed0f941022515ff40473ea5335769a5dc2524a3f ARM: 9404/1: arm32: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION
-4e7b4ff2dcaed228cb2fb7bfe720262c98ec1bb9 ARM: 9406/1: Fix callchain_trace() return value
-2335c9cb831faba1a4efcc612886073b6f175fe4 ARM: 9407/1: Add support for STACKLEAK gcc plugin
-657a292d679ae3a6c733ab0e939e24ae44b20faf ARM: 9408/1: mm: CFI: Fix some erroneous reset prototypes
-d7ac67b94390945872713f9bb0c141bf158c83aa Merge branches 'fixes' and 'misc' into for-linus
-3894840a7a11aa06cc3b0d5a2d1b5f6878127903 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-99d3bf5f7377d42f8be60a6b9cb60fb0be34dceb Input: MT - limit max slots
-7c51f7bbf057f82aeba3390c39ef61b244181c09 profiling: remove prof_cpu_mask
-2accfdb7eff65f390c4308b0e9cb7c3fe48ad63c profiling: attempt to remove per-cpu profile flip buffer
-cec6937dd1aae1b38d147bd190cb895d06cf96d0 task_work: make TWA_NMI_CURRENT handling conditional on IRQ_WORK
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1722281823 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1722281822-e6032354f9fad5851e532e54ace2be77facc0fca
 
---===============1383187578561696540==--
+45d763fe503e6e0f180f873b750aea307e73fdcf e2d124de0017b7649963e956eb7b80bc84848eb3 refs/heads/for-6.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAman718ACgkQJNaLcl1U
+h9BdYgf8Cz6MvBxFbfV45TVRhAXbLWS9T0dSAtl7C8QtIs2zlPlVnDPiJbnXrjki
+vO2kslksDL6v66vpoD7WdE/QFONUtpo72tgwwSZPWcP94KbC8R18PHGBJpF1i53y
+OqOnLKYynpjqJaKPrhuFCpk4mGDBfo7pKi/IweluNaapTA59S3NnLwSIB2Tfm9hg
+1YNTAMFEja03a7S15SLo2CiQkLDDhKhakt1eFKRYYZ1IY0C/ifV55zGjA+wCNdyi
+Jq96dkpJMN0/qC9KAZC+0ZyvbZSKwoztxEQ0pDoHGbrGl4j+0QQcztahBk1XmV5P
+Tx0FhvxLRPHSzM9e3q0k2b8PdeeQ3g==
+=hpM/
+-----END PGP SIGNATURE-----
+
+--===============5032803296853468073==--
