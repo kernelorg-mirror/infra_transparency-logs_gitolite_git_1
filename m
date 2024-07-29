@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8533890168746924742=="
+Content-Type: multipart/mixed; boundary="===============7171105649382395178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 29 Jul 2024 16:01:06 -0000
-Message-Id: <172226886617.16638.5159014153074746078@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 16:01:36 -0000
+Message-Id: <172226889663.16884.8944894527886372514@gitolite.kernel.org>
 
---===============8533890168746924742==
+--===============7171105649382395178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 19cb6058620620e68f1a9aed99393be5c3629db4
-    new: 8749919defb874d6deabfbef24c4901d9ec76583
-    log: revlist-19cb60586206-8749919defb8.txt
+  - ref: refs/heads/rpmsg-next
+    old: 36862eab884d997e182aad9163cc6ca953614a68
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-36862eab884d-8400291e289e.txt
 
---===============8533890168746924742==
+--===============7171105649382395178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19cb60586206-8749919defb8.txt
+Content-Disposition: attachment; filename=revlist-36862eab884d-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
+9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
 fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
@@ -1046,9 +1050,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-c901f817792822eda9cec23814a4621fa3e66695 remoteproc: imx_rproc: Correct ddr alias for i.MX8M
-e954a1bd16102abc800629f9900715d8ec4c3130 remoteproc: imx_rproc: Use imx specific hook for find_loaded_rsc_table
-858e57c1d3dd7b92cc0fa692ba130a0a5d57e49d remoteproc: imx_rproc: Initialize workqueue earlier
-8749919defb874d6deabfbef24c4901d9ec76583 remoteproc: imx_rproc: Merge TCML/U
 
---===============8533890168746924742==--
+--===============7171105649382395178==--
