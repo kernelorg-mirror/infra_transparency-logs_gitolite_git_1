@@ -1,36 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3748717081306633992=="
+Content-Type: multipart/mixed; boundary="===============0914126194800932276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 29 Jul 2024 05:49:56 -0000
-Message-Id: <172223219621.26224.15808409925789025917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 29 Jul 2024 05:51:22 -0000
+Message-Id: <172223228296.28426.11098159375227313456@gitolite.kernel.org>
 
---===============3748717081306633992==
+--===============0914126194800932276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
     old: f2661062f16b2de5d7b6a5c42a9a5c96326b8454
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-f2661062f16b-8400291e289e.txt
-  - ref: refs/heads/for-linus
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-1613e604df0c-8400291e289e.txt
   - ref: refs/heads/master
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-1613e604df0c-8400291e289e.txt
   - ref: refs/heads/next
-    old: b8ec9dba02a74797421c52b1226b23a4302362a6
+    old: 2a011c3c12e8de461fb1fdce85fa38d308c4eb8b
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-b8ec9dba02a7-8400291e289e.txt
+    log: revlist-2a011c3c12e8-8400291e289e.txt
   - ref: refs/tags/v6.11-rc1
     old: 0000000000000000000000000000000000000000
     new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
@@ -44,7 +40,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 68f64a7c43d1a9c933122ee31aa76625693bce50
 
---===============3748717081306633992==
+--===============0914126194800932276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1075,7 +1071,7 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============3748717081306633992==
+--===============0914126194800932276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2106,11 +2102,11 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============3748717081306633992==
+--===============0914126194800932276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8ec9dba02a7-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-2a011c3c12e8-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -3137,4 +3133,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============3748717081306633992==--
+--===============0914126194800932276==--
