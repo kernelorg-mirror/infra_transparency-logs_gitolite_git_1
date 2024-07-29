@@ -1,60 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7584908241976637949=="
+Content-Type: multipart/mixed; boundary="===============3585543708378688500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 29 Jul 2024 09:41:07 -0000
-Message-Id: <172224606780.20159.8571453476867022329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 29 Jul 2024 09:44:23 -0000
+Message-Id: <172224626381.21334.8338454472099993722@gitolite.kernel.org>
 
---===============7584908241976637949==
+--===============3585543708378688500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/counter-current
-    old: 22a40d14b572deb80c0648557f4bd502d7e83826
-    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-22a40d14b572-8400291e289e.txt
+  - ref: refs/heads/irq/core
+    old: b7b377332b96a38bc98928d7ec2674c77a95fcb3
+    new: b50a11ce64e7c2de0b1a5ba50bba38cccc770125
+    log: revlist-b7b377332b96-b50a11ce64e7.txt
 
---===============7584908241976637949==
+--===============3585543708378688500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22a40d14b572-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-b7b377332b96-b50a11ce64e7.txt
 
-e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
-519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
-b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
-fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
-1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
-3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
-473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
-87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
-88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
-92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
-176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
-8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
-f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
-936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
-be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
-3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
-d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
-95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
-d019930b0049fc2648a6b279893d8ad330596e81 Bluetooth: btmtk: move btusb_mtk_hci_wmt_sync to btmtk.c
-5c5e8c52e3cafaa6f71efd44a42a674271e5b3ad Bluetooth: btmtk: move btusb_mtk_[setup, shutdown] to btmtk.c
-6dc22ab9f085ae165e4ce89d61fb426f94e8a969 Bluetooth: btmtk: move btusb_recv_acl_mtk to btmtk.c
-ceac1cb0259de682d78f5c784ef8e0b13022e9d9 Bluetooth: btusb: mediatek: add ISO data transmission functions
-880120d5f12e3e9af6472f2ddddb33a6c2648418 Bluetooth: btintel: Add support for BlazarU core
-f6dc9214e526c2f735d93b5330f4dcd42a2b5308 Bluetooth: btintel: Add support for Whale Peak2
-358534152c59fdea7731c204d5a91151e4e91e2b Bluetooth: btnxpuart: Add support for AW693 A1 chipset
-e50bfd6bb231a6e2b7221ad78dce294330238c76 net_tstamp: Add TIMESTAMPING SOFTWARE and HARDWARE mask
 d4f6acfcb0b0962e2a59165108e212a976d1f078 Bluetooth: btnxpuart: Add support for IW615 chipset
 658c56d5b3b3a41e52ea4236f5dd023cbb139ece Bluetooth: btnxpuart: Add system suspend and resume handlers
 3aa7901e44bb2b6f6d3a14ad5a47e07ec81dcd47 Bluetooth: btnxpuart: Fix warnings for suspend and resume functions
@@ -1050,5 +1021,34 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
+3a01ab208d7e64ff3881176f056976539dc0ad83 irqchip/armada-370-xp: Drop _OFFS suffix from some register constants
+fff29b2c21e9a4e64527ad598445512459dcf74f irqchip/armada-370-xp: Change register constant suffix from _MSK to _MASK
+b3420176dc4ae4182e33c35526d2e281d0d63b65 irqchip/armada-370-xp: Change spaces to tabs
+3587a763f2faf0fe4004d5103e573f0700f89e50 irqchip/armada-370-xp: Use BIT() and GENMASK() macros
+8333f149fdbe8fbd2b25197b3979b3c393dec855 irqchip/armada-370-xp: Cosmetic fix parentheses in register constant definitions
+4713f95782fbdaeccfea22a33a63f0b862540ffd irqchip/armada-370-xp: Change register constants prefix to MPIC_
+dc778d7994e9f64294afce8ab31dedf74560b6c7 irqchip/armada-370-xp: Use correct type for cpu variable
+4b75b6d09a258f9a0b3f0087e8848f8963e4a398 irqchip/armada-370-xp: Simplify is_percpu_irq() code
+07baef5aa275b0957c508376df36acef2d64645c irqchip/armada-370-xp: Change to SPDX license identifier
+f43a2ece6d1e0ead4d7cfd876351a3e9ba15818f irqchip/armada-370-xp: Declare iterators in for loop
+d258a2da44fe9986e787da056585da0765e78437 irqchip/armada-370-xp: Rename variable for consistency
+661c797ad537b8097893ebc98f4995934766e423 irqchip/armada-370-xp: Use unsigned int type for virqs
+67197a609b33c47e5ece5902f4dd14ca0c52a9aa irqchip/armada-370-xp: Use !virq instead of virq == 0 in condition
+e2dda25a6d2eaddb3e42f0843904ab7908ab3db3 irqchip/armada-370-xp: Simplify ipi_resume() code
+be6d3d5889fd39725c1fd6a44905e8bc730cd28d irqchip/armada-370-xp: Improve indentation
+0a03c46c75e968aef953c99d4a49a1aac91d50f9 irqchip/armada-370-xp: Change symbol prefixes to mpic
+ec47b16b24fa25f9ddc3ac9652f1746107312156 irqchip/armada-370-xp: Don't read number of supported interrupts multiple times
+ed7414c75027c37eb7f5f29b1dbb2b811690246e irqchip/armada-370-xp: Use FIELD_GET() and named register constant
+03a1e74fc0506bb236b5d921f6d5482b152a95b9 irqchip/armada-370-xp: Refactor mpic_handle_msi_irq() code
+47b6575630ebd6f2b5742a5cbdacd126f36b29b4 irqchip/armada-370-xp: Refactor handling IPI interrupts
+da3b3ce541259951ff4e087c20ff991f9056fa64 irqchip/armada-370-xp: Use consistent variable names for hwirqs
+bb6d30540c5f6c2035c07c885f4117b33d4e549a irqchip/armada-370-xp: Use consistent types when iterating interrupts
+f72976cd7f0e16639f29398d5fe5ab1b03789b42 irqchip/armada-370-xp: Use consistent name for struct irq_data variables
+e1ed69fb599823fb04372b2a02bc3cbf7deb23c3 irqchip/armada-370-xp: Simplify mpic_reenable_percpu() and mpic_resume()
+9424aba41d43204236fe0d1af322c021d14b9f8a irqchip/armada-370-xp: Drop redundant continue
+e827b6cb64b412a6b52e5fc0f453013ac98032f6 irqchip/armada-370-xp: Rename variable for consistency
+33950cdeab2ebc7644db556a0c3f486ca0296027 irqchip/armada-370-xp: Use u32 type instead of unsigned long where possieble
+732639e1d5f0f4b5135833de63ad4e4b79cbfd78 irqchip/armada-370-xp: Refactor initial memory regions mapping
+b50a11ce64e7c2de0b1a5ba50bba38cccc770125 irqchip/armada-370-xp: Print error and return error code on initialization failure
 
---===============7584908241976637949==--
+--===============3585543708378688500==--
