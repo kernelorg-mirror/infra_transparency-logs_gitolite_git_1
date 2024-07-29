@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1418746128968645844=="
+Content-Type: multipart/mixed; boundary="===============4174861738136128534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 29 Jul 2024 17:16:36 -0000
-Message-Id: <172227339611.10803.6220897531210110460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Jul 2024 17:16:43 -0000
+Message-Id: <172227340306.10939.18073433456443071500@gitolite.kernel.org>
 
---===============1418746128968645844==
+--===============4174861738136128534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: ab53dfdcdd1ec8df8729890aefa5b0e3c900afbb
     new: 45d763fe503e6e0f180f873b750aea307e73fdcf
     log: revlist-ab53dfdcdd1e-45d763fe503e.txt
-  - ref: refs/heads/for-6.12
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/asoc-6.12
+    old: 0000000000000000000000000000000000000000
     new: 7803693988412380be095d228fb7b61f2d80e7c2
-    log: revlist-8400291e289e-780369398841.txt
 
---===============1418746128968645844==
+--===============4174861738136128534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722273393 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1722273393-20cf11f80a1d8e2c458ba25ba7af5b841e62d59d
+pusher C3F436CA30F5D8EB 1722273400 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1722273400-6e7d17dcab0f1cb110933236d08c6d7748ee2649
 
-ab53dfdcdd1ec8df8729890aefa5b0e3c900afbb 45d763fe503e6e0f180f873b750aea307e73fdcf refs/heads/for-6.11
-8400291e289ee6b2bf9779ff1c83a291501f017b 7803693988412380be095d228fb7b61f2d80e7c2 refs/heads/for-6.12
+ab53dfdcdd1ec8df8729890aefa5b0e3c900afbb 45d763fe503e6e0f180f873b750aea307e73fdcf refs/heads/asoc-6.11
+0000000000000000000000000000000000000000 7803693988412380be095d228fb7b61f2d80e7c2 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmanznEACgkQJNaLcl1U
-h9A1qAf7B1T6ahrgAC+/0NyrEK0UCRFt+2+CWr4LwUHt21bvEl22EM1Q3g7oJNZ8
-cvKLA+79E5ZsS7GEM2sOAxAMcnxVxedUXC+8JdBVItCPAg0BFMw5AZ5+2ZYqOW3p
-ABQ6+8mNfo5f63V4YTA9fWWmudDWApFUCJnEVPL0Fhq66SLzq3yaqIYU60zjAnW5
-f3uZDhQn/LWC0PGmO7jrqogOd7fAx7jLULC/ot2xc1fQTkzw0tRLYwLUSFy5yqY9
-bSwO5fPUNukuS6sTsaEDQexolr8t5lcDgwUNsWdB8ibxl9x8o/4zPxA/UZVm0B+c
-sF/IsCXlLNAwqyt+C5aftY/TvBoAvQ==
-=74SP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmanzngACgkQJNaLcl1U
+h9CTawf9HK4ObV+7HP31bxyZVLn9yGIyqOCeBMWf2pdx+DGQtNQqBz+fKEW3f9Oy
+r8fTJydOU/riJWbg8qQr7dlFEkeMFtyAf2CWsPK4QAKVUpFnNtVMSIf3vN8KUhNH
+73nC7cx7lUL19Y1KVeEv5SN+USHluZda6JJ67gVswQAOnhi1v/wsdyYXAf2GWb0T
+MjLK1ssZtf4rvMy0oKzE7ZHIFxlSzIm9szfLj17RGw+30I31DnsOB4teOfnPAlPE
+2BBswMbm7JxSZCn2XCUkoainha/aT2PMQxQKp4fHHfVVOFISAoAvRr6QmJrcuE0m
+/1v8jvZ3GBiTi3B1LFOhFi4Brw5K3w==
+=QPau
 -----END PGP SIGNATURE-----
 
---===============1418746128968645844==
+--===============4174861738136128534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,37 +1080,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 c118478665f467e57d06b2354de65974b246b82b ASoC: amd: yc: Support mic on HP 14-em0002la
 45d763fe503e6e0f180f873b750aea307e73fdcf ASoC: cs530x: Change IN HPF Select kcontrol name
 
---===============1418746128968645844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-780369398841.txt
-
-2cc719983603f0e9d24da256b58d6abb79e3884a ASoC: dt-bindings: renesas,rz-ssi: Document port property
-3d2a69eb503d15171a7ba51cf0b562728ac396b7 ASoC: codecs: wsa881x: Drop unused version readout
-2fbf16992e5aa14acf0441320033a01a32309ded ASoC: codecs: wsa883x: Handle reading version failure
-cd15fded0e1090bf713647a5bcfd83e372152844 ASoC: codecs: wsa883x: Simplify handling variant/version
-7eb62acd43c9299630f0e859f56981072401c5b6 ASoC: codecs: wsa884x: Simplify handling variant
-00425bf8cbc9981bd975a5475cec4964544fb297 ASoC: dt-bindings: ti,pcm512x: Convert to dtschema
-00645b42e3ca6a35fc4a357dd769bcef41d4a077 ASoC: dt-bindings: fsl,imx-audio-es8328: Convert to dtschema
-6024f3429fd1ac4948bac9610ecd4d0139088f0b ASoC: codecs: ES8326: suspend issue
-8716bd241fa120aacce5e0136125b7ecc74fe3b2 ASoC: dt-bindings: qcom,apq8016-sbc-sndcard: move to separate binding
-3ff810b9bebe5578a245cfa97c252ab602e703f1 ASoC: rt5682s: Return devm_of_clk_add_hw_provider to transfer the error
-b3f35bae68c0ff9b9339b819ec5f5f341d798bbe ASoC: codecs: lpass-wsa-macro: Do not hard-code dai in VI mixer
-4f8cd05a43058b165b83f12f656e60415d2ff5be ASoC: sh: rz-ssi: Add full duplex support
-42eb47310f89eca3226e8e427bc9d571149dc866 ASoC: mediatek: mt8192: remove redundant null pointer check before of_node_put
-aaa5e1aa39074fb466f6ef3df4de6903741dfeec ASoC: Use __counted_by() annotation for snd_soc_pcm_runtime
-d57ef03314f529e76385a9d5108c115459b54c2b ASoC: dt-bindings: dlg,da7213: Convert to json-schema
-275d57ae441f34749cbf8621441ce2148f83d5e6 ASoC: cs42l42: Convert comma to semicolon
-874d04fe15d12cafa09dd36e8555cea4eb0653f6 ASoC: codecs: wsa881x: Use designator array initializers for Soundwire ports
-add41ea55060d5e41d62268aa0bda2a27e0f5053 ASoC: codecs: wsa883x: Use designator array initializers for Soundwire ports
-125ed86b0d669334dbc567f441d10163ff0c44bc ASoC: codecs: wsa884x: Use designator array initializers for Soundwire ports
-06fa8271273d8181cb8727e63aeec3f87a48d8c7 ASoC: codecs: wcd938x: Drop unused defines and enums
-42f3a2caf80910d0c251b2a407d4d220c0d3a79f ASoC: codecs: wcd937x: Move max port number defines to enum
-5e388488f0a1dd6d340f3925e7b371e212ee3cc2 ASoC: codecs: wcd938x: Move max port number defines to enum
-a9d843e6b231e550f8141f27e930f90ded4edae2 ASoC: codecs: wcd939x: Move max port number defines to enum
-2e08bba3a83cc311115519f5fcb294005e4230a5 Add HDMI Audio support
-d0296adb0db13467408d6594de2a46faf0f98f8f ASoC: codecs: wsa88xx: Few cleanups
-7803693988412380be095d228fb7b61f2d80e7c2 ASoC: codecs: wsa88xx and wcd93xx: Soundwire port
-
---===============1418746128968645844==--
+--===============4174861738136128534==--
