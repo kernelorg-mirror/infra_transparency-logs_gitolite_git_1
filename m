@@ -1,31 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============5616884145719309466=="
+Content-Type: multipart/mixed; boundary="===============3458990060065803707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Jul 2024 11:31:05 -0000
-Message-Id: <172225266591.5503.4109600204951975818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 29 Jul 2024 11:31:29 -0000
+Message-Id: <172225268945.5744.2633575146913082663@gitolite.kernel.org>
 
---===============5616884145719309466==
+--===============3458990060065803707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 7b77b990305c96e62497bd038d81c8afe777706e
-    new: 1571641b1d114c2d0ce7c0ed7564d2c81719983e
-    log: revlist-7b77b990305c-1571641b1d11.txt
+  - ref: refs/heads/master
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-1613e604df0c-8400291e289e.txt
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
+  - ref: refs/tags/v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
 
---===============5616884145719309466==
+--===============3458990060065803707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b77b990305c-1571641b1d11.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
@@ -1047,8 +1056,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-2a25bfbdd9dd27ecbf2512410115130629d4ebef m68k: atari: usb: Add ISP1160 USB host controller support
-1b525f0769c70af451604e13db68da065c03cd7a m68k: atari: Update Kconfig.bus help text
-1571641b1d114c2d0ce7c0ed7564d2c81719983e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5616884145719309466==--
+--===============3458990060065803707==--
