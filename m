@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2543693055683709395=="
+Content-Type: multipart/mixed; boundary="===============4177186881949834904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 29 Jul 2024 07:17:46 -0000
-Message-Id: <172223746621.23726.18314529117309253941@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 07:19:04 -0000
+Message-Id: <172223754436.24263.11916847211746493174@gitolite.kernel.org>
 
---===============2543693055683709395==
+--===============4177186881949834904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo
-    old: d8b17a364ec48239fccb65efe74bb485e79e6743
+  - ref: refs/heads/fixes
+    old: b6e02c6b0377d4339986e07aeb696c632cd392aa
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-d8b17a364ec4-8400291e289e.txt
+    log: revlist-b6e02c6b0377-8400291e289e.txt
 
---===============2543693055683709395==
+--===============4177186881949834904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722237463 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722237535 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1722237461-d1501ff67a6a412818871f3996f72df7ebc3dc6c
+nonce 1722237534-92ff417dd9be7223fdef6cfbf727beda3125925e
 
-d8b17a364ec48239fccb65efe74bb485e79e6743 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/review-ilpo
+b6e02c6b0377d4339986e07aeb696c632cd392aa 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZqdCFgAKCRBZrE9hU+XO
-MaxWAP9hiG0iumWfWImWJgcM0OSJQzAV2ir3YBHarx+LOp3hpgEAqj53St2X8n9c
-mlTKvLIrT9bnTMX6G/M6GqRpyLuN/gM=
-=ZMl3
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZqdCZQAKCRBZrE9hU+XO
+MWgtAQD7rRWOvhQZQWAeX8SuBEtrdT3JQBoGnprLsJRUw5+FrwEAnrnYRxDaOFGy
+Up6iGVsnWfaTaH026aHWV52+BocLIA8=
+=s+Op
 -----END PGP SIGNATURE-----
 
---===============2543693055683709395==
+--===============4177186881949834904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8b17a364ec4-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-b6e02c6b0377-8400291e289e.txt
 
-c49379dcda748adb8ba84d7a8eb3b02d4f1ebfcf Merge branch 'net-dsa-vsc73xx-implement-vlan-operations'
-9283477e28913c1e7625c0a8d6959745e2431533 net: ethernet: lantiq_etop: remove redundant device name setup
-2f38cf730caedaeacdefb7ff35b0a3c1168117f9 ALSA: usb: Fix UBSAN warning in parse_audio_unit()
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
@@ -279,6 +276,9 @@ d67015eedd9722cfbf9d929be743ce27dfcd0744 kbuild: deb-pkg: use default string whe
 94a4b0a4cb4340273a2d67be893f9032fe7b7e26 kconfig: remove SYMBOL_CHOICEVAL flag
 d13e2a6e95e6b87f571c837c71a3d05691def9bb drm/i915/dp: Reset intel_dp->link_trained before retraining the link
 509580fad7323b6a5da27e8365cd488f3b57210e drm/i915/dp: Don't switch the LTTPR mode on an active link
+9d20c0535ea822e7306049bfc735bd0fb83400c1 Docs/admin-guide: Remove pmf leftover reference from the index
+182c6941c55347c735e70ffca77741cd000cbec7 platform/x86/intel/tpmi/plr: Fix output in plr_print_bits()
+d8b17a364ec48239fccb65efe74bb485e79e6743 platform/x86: asus-wmi: fix TUF laptop RGB variant
 3f45181358e4df50a40ea1bb51b00a1f295f915e tcp: Don't access uninit tcp_rsk(req)->ao_keyid in tcp_create_openreq_child().
 c26b1b89b8a9fd8665e79cd798bd970e233772b6 MAINTAINERS: Add uprobes entry
 b5c4881bda64ddf8d83ea6c116365294028b7ce4 Merge branch 'for-6.11/core' into for-linus
@@ -1072,4 +1072,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============2543693055683709395==--
+--===============4177186881949834904==--
