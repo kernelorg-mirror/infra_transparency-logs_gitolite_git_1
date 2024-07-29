@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3228114438555852611=="
+Content-Type: multipart/mixed; boundary="===============5180715322819428369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Jul 2024 08:27:04 -0000
-Message-Id: <172224162482.14376.9061901966260802015@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 08:27:14 -0000
+Message-Id: <172224163425.14510.10104843079296806054@gitolite.kernel.org>
 
---===============3228114438555852611==
+--===============5180715322819428369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 82a5cc783d49b86afd2f60e297ecd85223c39f88
+  - ref: refs/heads/for-next
+    old: 887cd308fd46a1c6956e9ccda1aaca830edc8ed7
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-82a5cc783d49-8400291e289e.txt
+    log: revlist-887cd308fd46-8400291e289e.txt
 
---===============3228114438555852611==
+--===============5180715322819428369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82a5cc783d49-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-887cd308fd46-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============3228114438555852611==--
+--===============5180715322819428369==--
