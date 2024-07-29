@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0289276124863921212=="
+Content-Type: multipart/mixed; boundary="===============4603603590832576511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 29 Jul 2024 10:38:41 -0000
-Message-Id: <172224952106.30943.6520421475003596288@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 10:39:25 -0000
+Message-Id: <172224956565.31337.9278456965679042906@gitolite.kernel.org>
 
---===============0289276124863921212==
+--===============4603603590832576511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: b8516cb994f50a51c98eed3ecfffc0661412600a
-    new: bf80ef4d287f3816b5a88369b13e9e31ff506e25
-    log: revlist-b8516cb994f5-bf80ef4d287f.txt
-  - ref: refs/heads/topic/renesas-defconfig
-    old: bf7d02685a26dc8158f5b4ddd24963b5a54c41d1
-    new: 1fe4e0617dbddb885fd567ad1214c048a51f69bc
-    log: revlist-bf7d02685a26-1fe4e0617dbd.txt
-  - ref: refs/heads/renesas-arm-defconfig-for-v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 4200161c564da91eefe8eeea1151a537290319c7
-  - ref: refs/heads/renesas-dt-bindings-for-v6.12
-    old: 0000000000000000000000000000000000000000
-    new: ef711db21c7fc26c78486f59923954d920a7e149
-  - ref: refs/tags/renesas-devel-2024-07-29-v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9c34384b3b5134408b43e31a9cb80974f05faab8
-  - ref: refs/tags/renesas-next-2024-07-29-v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0250162995aef0479736263156949e3cf3eb665
-  - ref: refs/tags/v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/heads/next
+    old: 5c91aa40e630a19362a16429ec9b886da940e69d
+    new: ec3912ab0d30fad9309ef77b614908f673e51c48
+    log: revlist-5c91aa40e630-ec3912ab0d30.txt
+  - ref: refs/heads/renesas-dts-for-v6.12
+    old: 9a1246fb7fb0bf35bb0bb7f36c8c9a4b724121ce
+    new: 1200525fbc958a045e71e986ee7542739542d767
+    log: revlist-9a1246fb7fb0-1200525fbc95.txt
 
---===============0289276124863921212==
+--===============4603603590832576511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8516cb994f5-bf80ef4d287f.txt
+Content-Disposition: attachment; filename=revlist-5c91aa40e630-ec3912ab0d30.txt
 
+95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
+d019930b0049fc2648a6b279893d8ad330596e81 Bluetooth: btmtk: move btusb_mtk_hci_wmt_sync to btmtk.c
+5c5e8c52e3cafaa6f71efd44a42a674271e5b3ad Bluetooth: btmtk: move btusb_mtk_[setup, shutdown] to btmtk.c
+6dc22ab9f085ae165e4ce89d61fb426f94e8a969 Bluetooth: btmtk: move btusb_recv_acl_mtk to btmtk.c
+ceac1cb0259de682d78f5c784ef8e0b13022e9d9 Bluetooth: btusb: mediatek: add ISO data transmission functions
 880120d5f12e3e9af6472f2ddddb33a6c2648418 Bluetooth: btintel: Add support for BlazarU core
 f6dc9214e526c2f735d93b5330f4dcd42a2b5308 Bluetooth: btintel: Add support for Whale Peak2
 358534152c59fdea7731c204d5a91151e4e91e2b Bluetooth: btnxpuart: Add support for AW693 A1 chipset
@@ -1060,35 +1050,17 @@ cd0a847aa6c8a08ba948db4ff0dd6d5f94da998d arm64: dts: renesas: r8a779h0: Add miss
 d4d9a2fbeaa0efdca0a4cf779aaeff931949c703 arm64: dts: renesas: gray-hawk-single: Add push switches
 1200525fbc958a045e71e986ee7542739542d767 arm64: dts: renesas: gray-hawk-single: Add GP LEDs
 4200161c564da91eefe8eeea1151a537290319c7 arm64: defconfig: Enable AK4619 codec support
-8be5fd0073d76d7b13264b770e6c5ba388d336d1 Merge tag 'v6.11-rc1' into topic/renesas-defconfig
-1fe4e0617dbddb885fd567ad1214c048a51f69bc arm64: renesas: defconfig: Enable AK4619/Simple_MUX
 9bd41653c14dd8f4f83e61940c865679a62e721a dt-bindings: soc: renesas: Document RZ/G2M v3.0 (r8a774a3) SoC
 3eb434de00b39c843249e89cf151757410e8a6ad dt-bindings: power: renesas: Document RZ/G2M v3.0 (r8a774a3) SYSC binding
 ef711db21c7fc26c78486f59923954d920a7e149 dt-bindings: reset: renesas: Document RZ/G2M v3.0 (r8a774a3) reset module
 ec3912ab0d30fad9309ef77b614908f673e51c48 Merge branches 'renesas-arm-defconfig-for-v6.12', 'renesas-dt-bindings-for-v6.12' and 'renesas-dts-for-v6.12' into renesas-next
-70cb997a00695bf68810732999b906d13446befe Merge tag 'v6.11-rc1' into renesas-devel
-f842dd8e59db9169b485324cb95eee334d8393e5 Merge branch 'renesas-next' into renesas-devel
-bf80ef4d287f3816b5a88369b13e9e31ff506e25 Merge branch 'topic/renesas-defconfig' into renesas-devel
 
---===============0289276124863921212==
+--===============4603603590832576511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf7d02685a26-1fe4e0617dbd.txt
+Content-Disposition: attachment; filename=revlist-9a1246fb7fb0-1200525fbc95.txt
 
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
-519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
-b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
-fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
-1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
-3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
-473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
-87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
-88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
-92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
-176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
-8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
 f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
 936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
 be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
@@ -2098,7 +2070,20 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-8be5fd0073d76d7b13264b770e6c5ba388d336d1 Merge tag 'v6.11-rc1' into topic/renesas-defconfig
-1fe4e0617dbddb885fd567ad1214c048a51f69bc arm64: renesas: defconfig: Enable AK4619/Simple_MUX
+ebeb40c77b3c3d19a96b92e067dd8161916a56d6 arm64: dts: renesas: gray-hawk-single: Add Sound support
+e8b655803da2cc0f27834c5ec931521dba831b95 arm64: dts: renesas: r8a774a1: Add missing iommus properties
+1d325f5060d4940ea28818848e3a2290b217e963 arm64: dts: renesas: r8a774b1: Add missing iommus properties
+b4bcb7792f3a04320c6290d3d0e4f9f4d1251b4b arm64: dts: renesas: r8a774c0: Add missing iommus properties
+3d7de696a10924f26c2b9df7db2f741acd138a66 arm64: dts: renesas: r8a774e1: Add missing iommus properties
+9e2494ba0a2297f35cc64b2b9f67802f1f5cca88 arm64: dts: renesas: r8a77960: Add missing iommus properties
+fc50fd9ab56d810a49ee070ec41c19dd47de5d1c arm64: dts: renesas: r8a77961: Add missing iommus properties
+bc909045fd89930e849822a2bb05cc5884bcc4f1 arm64: dts: renesas: r8a77965: Add missing iommus properties
+da840cce10c47551b41cad122f5c27f37ea011fb arm64: dts: renesas: r8a77970: Add missing iommus property
+58026a0353d72c973f73831efafb7fa3dbda09cf arm64: dts: renesas: r8a77980: Add missing iommus properties
+2c44893ba3e2f7d652bcaf4849eda562fff070ae arm64: dts: renesas: r8a779a0: Add missing iommus properties
+c313c77babc72bf0f0611b871aef8ef350fd813e arm64: dts: renesas: r8a779g0: Add missing iommus properties
+cd0a847aa6c8a08ba948db4ff0dd6d5f94da998d arm64: dts: renesas: r8a779h0: Add missing iommus properties
+d4d9a2fbeaa0efdca0a4cf779aaeff931949c703 arm64: dts: renesas: gray-hawk-single: Add push switches
+1200525fbc958a045e71e986ee7542739542d767 arm64: dts: renesas: gray-hawk-single: Add GP LEDs
 
---===============0289276124863921212==--
+--===============4603603590832576511==--
