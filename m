@@ -1,62 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8736863077487093485=="
+Content-Type: multipart/mixed; boundary="===============6819652918985238790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 29 Jul 2024 15:38:45 -0000
-Message-Id: <172226752509.31195.3547327161877316622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Jul 2024 15:38:51 -0000
+Message-Id: <172226753149.31299.17540696839668069242@gitolite.kernel.org>
 
---===============8736863077487093485==
+--===============6819652918985238790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-fc28d1c1fe3b-8400291e289e.txt
-  - ref: refs/heads/for-6.12
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/spi-6.12
+    old: 0000000000000000000000000000000000000000
     new: 5972eb05ca322bb1efe44d32808bc7a331e7aee4
-    log: |
-         f8918ef1267edab4d9b2154c22a912c87cc66f66 spi: axi-spi-engine: don't emit XFER_BITS for empty xfer
-         158678bea637020dd6fc521536c5b07701447777 spi: dt-bindings: mediatek,spi-mt65xx: add compatible for MT7981
-         0f245463b01ea254ae90e1d0389e90b0e7d8dc75 spi: ppc4xx: handle irq_of_parse_and_map() errors
-         dc58d15ae7f247f642ea4751a276914eefa31865 spi: meson-spicc: convert comma to semicolon
-         5972eb05ca322bb1efe44d32808bc7a331e7aee4 spi: spi-mt65xx: Use threaded interrupt for non-SPIMEM transfer
-         
 
---===============8736863077487093485==
+--===============6819652918985238790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722267523 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1722267521-bba16a0dd9f0b69625f8b474022e6fcb072f9c4c
+pusher C3F436CA30F5D8EB 1722267529 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1722267529-bd9eff0abe687ba696ad9b223c8bbae8f51ef3f4
 
-fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-6.11
-8400291e289ee6b2bf9779ff1c83a291501f017b 5972eb05ca322bb1efe44d32808bc7a331e7aee4 refs/heads/for-6.12
+fc28d1c1fe3b3e2fbc50834c8f73dda72f6af9fc 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/spi-6.11
+0000000000000000000000000000000000000000 5972eb05ca322bb1efe44d32808bc7a331e7aee4 refs/heads/spi-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant4MACgkQJNaLcl1U
-h9DmoQf9Ef5QFCq54bWUv1Vl+JSkd1Jk2nMvTiXeQ9Kgam3UXkLsDlhM7leGUmWu
-aMPkupCgB9Xs4EQ5tnbGMzPWr2NxYCU+PNG956AjV/2CwTzfxeQmSYACPywQEtkC
-ezQaEUIYyLOyVMYAxl1WD5qrdAk5YaLaZlICUiiZhbGLOngQxMIzQRIIDm5KVf5r
-G6b0XDbcXMkrSvBuNMkEzXC7gZ0YRbHKGoopR9ptjkPNzuUURnrC8T2FMCc2gUct
-/jfad+s9j23aFrzcjq1jdl/Va26LLNeQBYyWijZFY0grI79QmayAdGOj1xHYEEI5
-wf6GKJ8sh3J/e/uHflfqb8QRfv7aCg==
-=qr/w
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant4kACgkQJNaLcl1U
+h9C/8wf8CUH597Gg4aNVEAPlxlSVdocMSFzOVEkcG8j5D148lL8/yE4JF8f4YT+E
+IBsd4Csl5tsWinM+tyqBpPizS9OVnL/xRL4+uxX9l0FRck40aihf/ps8MPCKHVFG
+7/WSfOsMqEgYEluwvjI9Cxj0DDs645Qa/0ooKENDtWv6K8SVZrmOQa/A5WpXbxVi
+GJhvhGZHKKwnVa2kDCo3mbiJsIn7r9UZWq/GnbmbZKm9SYVB3yfLkYOC6npA089u
+yRTtbQsOiIVovDemYaHxufGpphHbgUWeBH1r3XsjHryxB5xs6QcKdhvu69mJwEql
+GJjmjlLF8YNnDZvp33kz1s1Kl0pOmw==
+=wNlI
 -----END PGP SIGNATURE-----
 
---===============8736863077487093485==
+--===============6819652918985238790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1087,4 +1080,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============8736863077487093485==--
+--===============6819652918985238790==--
