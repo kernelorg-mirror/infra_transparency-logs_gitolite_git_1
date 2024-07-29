@@ -1,54 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0000542188045100213=="
+Content-Type: multipart/mixed; boundary="===============5540808758227163812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 29 Jul 2024 01:11:28 -0000
-Message-Id: <172221548806.17488.4673856870488023289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 29 Jul 2024 01:35:33 -0000
+Message-Id: <172221693398.3453.18121207673626129110@gitolite.kernel.org>
 
---===============0000542188045100213==
+--===============5540808758227163812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/ps3-queue-v6.11
-    old: b6f17e87909d01a4a96dcd7b648c76825fa68d2c
-    new: 149af4c7ce872c0f31bdbcedd1d6f1d4a421e2b4
-    log: revlist-b6f17e87909d-149af4c7ce87.txt
+  - ref: refs/heads/work.fd
+    old: dc0f4cebf5202edcf915fa1ac5854b627ebf2036
+    new: 154eb19a802fdf8629273d414dbeb31eccb61587
+    log: revlist-dc0f4cebf520-154eb19a802f.txt
 
---===============0000542188045100213==
+--===============5540808758227163812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6f17e87909d-149af4c7ce87.txt
+Content-Disposition: attachment; filename=revlist-dc0f4cebf520-154eb19a802f.txt
 
-936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
-be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
-3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
-d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
-95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
-d019930b0049fc2648a6b279893d8ad330596e81 Bluetooth: btmtk: move btusb_mtk_hci_wmt_sync to btmtk.c
-5c5e8c52e3cafaa6f71efd44a42a674271e5b3ad Bluetooth: btmtk: move btusb_mtk_[setup, shutdown] to btmtk.c
-6dc22ab9f085ae165e4ce89d61fb426f94e8a969 Bluetooth: btmtk: move btusb_recv_acl_mtk to btmtk.c
-ceac1cb0259de682d78f5c784ef8e0b13022e9d9 Bluetooth: btusb: mediatek: add ISO data transmission functions
-880120d5f12e3e9af6472f2ddddb33a6c2648418 Bluetooth: btintel: Add support for BlazarU core
-f6dc9214e526c2f735d93b5330f4dcd42a2b5308 Bluetooth: btintel: Add support for Whale Peak2
-358534152c59fdea7731c204d5a91151e4e91e2b Bluetooth: btnxpuart: Add support for AW693 A1 chipset
-e50bfd6bb231a6e2b7221ad78dce294330238c76 net_tstamp: Add TIMESTAMPING SOFTWARE and HARDWARE mask
-d4f6acfcb0b0962e2a59165108e212a976d1f078 Bluetooth: btnxpuart: Add support for IW615 chipset
-658c56d5b3b3a41e52ea4236f5dd023cbb139ece Bluetooth: btnxpuart: Add system suspend and resume handlers
-3aa7901e44bb2b6f6d3a14ad5a47e07ec81dcd47 Bluetooth: btnxpuart: Fix warnings for suspend and resume functions
-bd3f305886adc07c27b8e998719c73688dad0991 dt-bindings: bluetooth: qualcomm: describe the inputs from PMU for wcn7850
-b80f4e3b8cb8a4a41cc038807cd0a1e889154902 Bluetooth: hci_qca: schedule a devm action for disabling the clock
-b8093157714fb0e1475909d744007d102efeaff1 Bluetooth: hci_qca: unduplicate calls to hci_uart_register_device()
-eba1718717b097d825f26a33ae7d8a5b9d478396 Bluetooth: hci_qca: make pwrseq calls the default if available
-921ad2879aa7733620585e4904ba673c6c916dab Bluetooth: hci_qca: use the power sequencer for wcn7850 and wcn6855
-84f9288208dfcd955446060a53add15b9e01af4e Bluetooth: hci_qca: Fix build error
-23e88450bb04f6b44ce4cacbd76cd775e426a5b2 Bluetooth: btmtk: Mark all stub functions as inline
 7164122e25b18806f5dce68c8a0bdaa9e4f902a5 regulator: renesas-usb-vbus-regulator: Update the default
 97b10a77b150df664bb521ae217dd6bceb40d5d3 Merge tag 'asoc-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 0bafb172b111ab27251af0eb684e7bde9570ce4c firmware: turris-mox-rwtm: Do not complete if there are no waiters
@@ -1034,21 +1011,44 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-3ec74ed07784778e2d6f590a17620a3e95240b72 net/ps3_gelic_net: Use napi routines for RX SKB
-178455fc8eb17dbbcd071996458c8d48cf91cb73 hvc_console: Allow backends to set I/O buffer size
-1981b522c14f8a441336b27cfd46cfccb73c374a ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-ec4ffea61dc19a6102e16c4f50c18d175d017368 ps3-debugging: Setup DABR register
-bbf7f0719e97d326dd67b65ba3881a539009facd local: Add ps3_nfs_defconfig
-c3485a1f47a04cde5c4f9084c6cd7c22d5d743b7 local: ps3_nfs_defconfig: Cut down version
-d25d9c12061222053256af6561113b1f8b4186b6 local: Refresh ps3_nfs_defconfig
-fd8fed6d59a03a6cf315ea3d952032b272cb9e4d local: Add ps3_petitboot_defconfig
-ecea4e47eb8ef1a10a41cda25d8b7999bb58c950 local: Add ps3_petitboot_nfs_defconfig
-7d90b600af9b2382616795305f9b17caa804a773 local: ps3_petitboot_nfs_defconfig: ip=dhcp
-587938a84ee08c27de0196a97f7425ff58f9392c ps3_defconfig: Cut down version
-a9fa7f414699656c4ba9c10795495760dc69995a Refresh ps3_defconfig for v6.7
-d2d2145075406bb6b4112e24faab7368853e454d ps3_defconfig: Updates
-5be83d9f66106d509e54fc030c4ef1b646057898 fu: gelic skb cleanup
-42099b01612bdf1eb14d23a1e3cfa6c03445bce9 fu ps3_gelic_net: Use page_frag_free
-149af4c7ce872c0f31bdbcedd1d6f1d4a421e2b4 ps3_defconfig: Refresh for v6.9
+08b5a1ae4d9abd60b4a9592ecde1895f90df37e9 memcg_write_event_control(): fix a user-triggerable oops
+a825760957e3aa291e39ba70c8e3fa34d25d8e8d introduce fd_file(), convert all accessors to it.
+2f750af93201f8046873925fe5fe9b7cb84aa941 struct fd: representation change
+0704353e70b938d922636e7dfe3f7e4a813451fe add struct fd constructors, get rid of __to_fd()
+57788eb1cbc14761a8497e706e2a45d9cdc8601b regularize emptiness checks in fini_module(2) and vfs_dedupe_file_range()
+f1467aa52d476bf724e57693a525d3b57e55edcf net/socket.c: switch to CLASS(fd)
+baf640c41da47e7cd98b422391e0d219f749a92d introduce struct fderr, convert overlayfs uses to that
+16149ecdc2f5b285bb4e1f7b4ba2db82adc33779 experimental: convert fs/overlayfs/file.c to CLASS(...)
+4f62f6656eb455c7f1a8ca11af648256a98e6484 timerfd: switch to CLASS(fd, ...)
+412f45c2a47b04dd59298bb119756a116c2e90fd get rid of perf_fget_light(), convert kernel/events/core.c to CLASS(fd)
+748060656385a0c04e7f82af64fe166520f66272 switch netlink_getsockbyfilp() to taking descriptor
+80e8770c6b9cc9da810278a1fdaee298bdf78914 do_mq_notify(): saner skb freeing on failures
+849217f7b341aeb7159b74fe89e22c12d108aa64 do_mq_notify(): switch to CLASS(fd, ...)
+a821fe58cc4ebd31701137c618cc479a1403d552 simplify xfs_find_handle() a bit
+5ecc5a59efa28baeb86fd32c0b77a62f3e860246 convert vmsplice() to CLASS(fd, ...)
+80af2e887a619f302376fea37f02a85a6226438c convert __bpf_prog_get() to CLASS(fd, ...)
+cdf3eeda2fbcb51ac54f9fd4fa8667bbd70bca65 bpf: resolve_pseudo_ldimm64(): take handling of a single ldimm64 insn into helper
+3b06bf0fd8f1a8b7a8def8b3df589e1ece812f52 bpf maps: switch to CLASS(fd, ...)
+8aafc5cd9d2d1e024a1b85ad6e3fa71c916a4381 fdget_raw() users: switch to CLASS(fd_raw, ...)
+0ea64ede129f72cbd133949b788ff8230929a4ac introduce "fd_pos" class, convert fdget_pos() users to it.
+7e6d8f011ea2690c8f8b5e2baa6e62fc992b72e5 o2hb_region_dev_store(): avoid goto around fdget()/fdput()
+93c176ca2b751de27a141ddfba28b9e73a9b0b86 privcmd_ioeventfd_assign(): don't open-code eventfd_ctx_fdget()
+12f5c54c43fc920763e9b82f3b19a691f40c3065 fdget(), trivial conversions
+61a4b2d0c715b88c4fe1c304b51e7467d97c3271 fdget(), more trivial conversions
+e2228024b490ffb8eab29a88296fee439ae53d55 convert do_preadv()/do_pwritev()
+fe41e12785a74d6aaac892b5cfac2a34abbcbf25 convert cachestat(2)
+ed5d96ed6ef850558b6ac1400e116bee13e89e93 convert spu_run()
+a5027b86a79716e98fe0b8e1247743dfb5a5c080 switch spufs_calls_{get,put}() to CLASS() use
+db5cd61582f05ac6da0020aad2b703b0caee99fb convert media_request_get_by_fd()
+4471746f7978d6f98598747114ad34bdb9acb81e convert coda_parse_fd()
+dce0be5554b8f2842e27318ad0dc2e29a5b88753 convert cifs_ioctl_copychunk()
+0dd44ef93a7c78acbc27d74da125a1eff7c43f3d convert vfs_dedupe_file_range().
+ca03237d463a202d4e8c73254e5ee4adcc56de03 convert do_select()
+582cfd58f90e02ee358fcb93256c857881082a36 do_pollfd(): convert to CLASS(fd)
+dfe3a70fd1b35a5ff5167999abe766114ba0908e convert bpf_token_create()
+247d42e0109817ec77882547d2614cf4c7c9046b assorted variants of irqfd setup: convert to CLASS(fd)
+c06c1ea926e698f39cf4ff2370a5735e82b9ff5b memcg_write_event_control(): switch to CLASS(fd)
+adb8e5851b778c840d775d416f6c1169562bef00 css_set_fork(): switch to CLASS(fd_raw, ...)
+154eb19a802fdf8629273d414dbeb31eccb61587 deal with the last remaing boolean uses of fd_file()
 
---===============0000542188045100213==--
+--===============5540808758227163812==--
