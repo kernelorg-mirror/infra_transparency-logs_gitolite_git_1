@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1441523818314147305=="
+Content-Type: multipart/mixed; boundary="===============6818052942282397410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Mon, 29 Jul 2024 13:23:15 -0000
-Message-Id: <172225939589.25897.2630211568203185245@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 13:23:21 -0000
+Message-Id: <172225940151.25993.6894639227034307720@gitolite.kernel.org>
 
---===============1441523818314147305==
+--===============6818052942282397410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devsec/spdm
 user: lukas
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-1613e604df0c-8400291e289e.txt
 
---===============1441523818314147305==
+--===============6818052942282397410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============1441523818314147305==--
+--===============6818052942282397410==--
