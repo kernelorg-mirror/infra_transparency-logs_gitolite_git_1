@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893450538730493040=="
+Content-Type: multipart/mixed; boundary="===============5136239562773158112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 29 Jul 2024 13:49:28 -0000
-Message-Id: <172226096894.13164.14428143243009466683@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 13:57:30 -0000
+Message-Id: <172226145007.19354.8090240082317478020@gitolite.kernel.org>
 
---===============2893450538730493040==
+--===============5136239562773158112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: d1be6506c419a92e9f2b64a46ecd045078bea3b1
-    new: bab014d576f9e61cc68ed6f8ed844c1d40ba01a2
-    log: revlist-d1be6506c419-bab014d576f9.txt
+  - ref: refs/heads/kvm-arm64-fix-pkvm-sve-vl
+    old: f56ea0fbdcb8321483246b871bea3dc6abdca327
+    new: 8018bf2314c3dd8b6806a2ee57adf043aeb58afa
+    log: revlist-f56ea0fbdcb8-8018bf2314c3.txt
 
---===============2893450538730493040==
+--===============5136239562773158112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1be6506c419-bab014d576f9.txt
+Content-Disposition: attachment; filename=revlist-f56ea0fbdcb8-8018bf2314c3.txt
 
+b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
+fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
+1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
+3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
+473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
 87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
 88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
 92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
@@ -1040,15 +1045,10 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-89d50ed9a0208e082c9a9c220a8927bfd026f5cf fork: Support shadow stacks in clone3()
-4226fbe0f54709dfc61dd790a1f1c3afde88291e Documentation: userspace-api: Add shadow stack API documentation
-8ba39c0efeb848bf4d597ff775969e761436678f selftests: Provide helper header for shadow stack testing
-747f0d2632602ff8bb585d18ac85d912ee520ddb mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-7abe47eb79a13566d3348afdfb424f69c5ff87c9 fork: Add shadow stack support to clone3()
-6c07a5a3ca3099789592d2ab5d849cee0c685bd8 selftests/clone3: Remove redundant flushes of output streams
-2f416e32999be4078be50aff8a21389581ebd4d3 selftests/clone3: Factor more of main loop into test_clone3()
-5e98893a01db050bf452ed00672b4f37975c86ce selftests/clone3: Explicitly handle child exits due to signals
-3bc51e33fac9e0ba4cba4f00b4ac162fc0e85406 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-bab014d576f9e61cc68ed6f8ed844c1d40ba01a2 selftests/clone3: Test shadow stack support
+fd7b274aae874496aae27246a2fec5124abefeef KVM: arm64: Fix underallocation of storage for SVE state
+99a13de924b4e80486d3f9196fc00f34de8631a1 arm64/fpsimd: Introduce __bit_to_vl() helper
+7653ea28147ef57d68e04574b4e7711836e09510 arm64/fpsimd: Discover maximum vector length implemented by any CPU
+81f7a40da43f7be6eee7c9268710747d5d5c79bb KVM: arm64: Fix FFR offset calculation for pKVM host state save and restore
+8018bf2314c3dd8b6806a2ee57adf043aeb58afa KVM: arm64: Avoid underallocating storage for host SVE state
 
---===============2893450538730493040==--
+--===============5136239562773158112==--
