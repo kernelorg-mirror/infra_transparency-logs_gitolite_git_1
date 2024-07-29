@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7610403201707728993=="
+Content-Type: multipart/mixed; boundary="===============5616884145719309466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Jul 2024 11:31:00 -0000
-Message-Id: <172225266093.5403.11096454742548030936@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 11:31:05 -0000
+Message-Id: <172225266591.5503.4109600204951975818@gitolite.kernel.org>
 
---===============7610403201707728993==
+--===============5616884145719309466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 978fd59b430e848b53ce78e5b0ae6380e5be8eee
-    new: 43d88246062185c887438c36753250f93f354231
-    log: revlist-978fd59b430e-43d882460621.txt
+  - ref: refs/heads/m68k-queue
+    old: 7b77b990305c96e62497bd038d81c8afe777706e
+    new: 1571641b1d114c2d0ce7c0ed7564d2c81719983e
+    log: revlist-7b77b990305c-1571641b1d11.txt
 
---===============7610403201707728993==
+--===============5616884145719309466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-978fd59b430e-43d882460621.txt
+Content-Disposition: attachment; filename=revlist-7b77b990305c-1571641b1d11.txt
 
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
@@ -1049,6 +1047,8 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-43d88246062185c887438c36753250f93f354231 Merge tag 'v6.11-rc1'
+2a25bfbdd9dd27ecbf2512410115130629d4ebef m68k: atari: usb: Add ISP1160 USB host controller support
+1b525f0769c70af451604e13db68da065c03cd7a m68k: atari: Update Kconfig.bus help text
+1571641b1d114c2d0ce7c0ed7564d2c81719983e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7610403201707728993==--
+--===============5616884145719309466==--
