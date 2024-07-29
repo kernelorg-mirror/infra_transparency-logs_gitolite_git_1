@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Jul 2024 08:47:01 -0000
-Message-Id: <172224282134.30464.12510756881761574874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 29 Jul 2024 08:51:12 -0000
+Message-Id: <172224307284.1299.15851143687316853670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/gpio/for-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 60dc7fcafea817f3dcff7ece18095ca6260b73bc
+    new: c206d6be8605e9b564ef99a7fd7dcc406e3bda63
     log: |
-         75ab1533d79b046152d424ffe947f79f9d15682c RDMA/cxgb4: use dma_mmap_coherent() for mapping non-contiguous memory
-         60dc7fcafea817f3dcff7ece18095ca6260b73bc RDMA/siw: Remove NETDEV_GOING_DOWN event handler
+         c206d6be8605e9b564ef99a7fd7dcc406e3bda63 gpio: Drop explicit initialization of struct i2c_device_id::driver_data to 0
          
