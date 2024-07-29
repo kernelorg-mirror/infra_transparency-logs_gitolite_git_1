@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1467654304958952500=="
+Content-Type: multipart/mixed; boundary="===============4292212101415039278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Jul 2024 12:19:45 -0000
-Message-Id: <172225558503.9469.6634246680768481558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 29 Jul 2024 12:23:20 -0000
+Message-Id: <172225580053.12441.3327794131840817195@gitolite.kernel.org>
 
---===============1467654304958952500==
+--===============4292212101415039278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: ba4bf200022ae77e43f35fb4ce3148648b1584d4
-    new: a01cb1711e90d2a7313ec13f59be51aa81fbdc40
+  - ref: refs/heads/w1-next
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: e940ff286ec47067cf5043fde41bea45d7ec4a5f
     log: |
-         a01cb1711e90d2a7313ec13f59be51aa81fbdc40 5.15-stable patches
+         e940ff286ec47067cf5043fde41bea45d7ec4a5f w1: ds2482: Drop explicit initialization of struct i2c_device_id::driver_data to 0
          
 
---===============1467654304958952500==
+--===============4292212101415039278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722255583 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1722255581-9914d8d62ca78b508432192a5f3a8f513e587e9a
+pusher krzk@kernel.org 1722255797 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1722255796-6d8f046da64911eee34ff950e8324c92092d4689
 
-ba4bf200022ae77e43f35fb4ce3148648b1584d4 a01cb1711e90d2a7313ec13f59be51aa81fbdc40 refs/heads/master
+8400291e289ee6b2bf9779ff1c83a291501f017b e940ff286ec47067cf5043fde41bea45d7ec4a5f refs/heads/w1-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaniN8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+syIP/Rhc3cImuk/aA/q4iwOA
-3PqoMfPCSPtonG5Jv8kTwU5RzDNiixwTvQQ9+8ULnWgNDGWNOLyO4WLKA5XmG8Co
-2Yqh6LPKvG1mnyL3da4g/dWsOdCPaWn+9nYyKXsdVaovcHnmDbN3E5aKLbryqviZ
-NNWOwHnaQN+tA6pJHq6PKrG0iWV+0XwDJVWsVm6mpMfbJThNfdLybGFpDBMdSsvh
-Ai389DD7JlB+ZzA6av79kvwIi3bQE2cd6wbzNsdyFwYS+nAqyTnA+DkJZ2jnzOle
-PmchB45UyDkdceFd0WW9m+94uCZ2RSXUCCAkcCUMpk+AU8Cj8WNBpicxQYVVPC8O
-oColAh+vPDlhgErqhGXYi26YywGSn8bW3VYwBQBw07SYIs+o+6el1WNnHAEeXDY8
-uBuTWypsmi+EvzFNMCUXL+uyCVCv7lfzKvJGpECcqZah/fiGRlGThOzd4AWlueP7
-bE4hqjbYxJhA3RODuj84H/uThN3q7eVkXEumd2/vgwCWopsutePfOsXTLAwh8HkQ
-c1AtVQXo2mcUtxVTM9CwacovL1aMlWG6xuGovjQwK+OuRoyGqe+P35ZqJkWzp10b
-b2ll7m8AcCsewzZECyr80TsiE5YvpJiHMsZgGUYGVvWmDyDFQlwrWr+zX1r/5ePZ
-71KS/aJsZAi/n+vAhBcW4Ciq
-=uqJJ
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmanibUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wghD/95IH8nMkNqC3DytcWgYiloqnQmzm1DMHs5
+H/KumXixIvqxXFkwUT8Oym/w169eHBKwuOYHIcbzklnUX7mlQJM1y9SXnLql3fBV
+2G0iSPiCwivmmEQre1CEdBcaaUyAervrnyfUHPkgd3BLbVK0MTuP/zO6LPCrIJPS
+e2TGqJcOAbwgzuANE/vdvP9i0gBBkrOvmPe/L4nKHTBCWd3/BiXMjcdl1RguBlRt
+2zYS7cCROiMoAnhY2b+jmNU5uV/Sc59wpPeivpT6Pq+FuiH/A7RIADA/JewlWORC
+inpHHWTxmHLcHU6v8bA5WmuUwiHjhkfn7NdWp7NGYn/zJWE7lXPMdym4zqyr+QVr
+yLmxHeeG/yiMxbBt3epmvdRSKDJ6F2TWTB9FhzcsNLkJmSsPdSFXhSLcBAC0jUX+
+jcVoypQ4sPPEd1ZdDDVk1mn7+vLEedrsGEV1NSIBuKUW+SqpByCVGob02qeIXhf9
+R2wiHK3GpfH3MhilYHsXiMs4y2WKEXgx9qUJhPsMhlPS9BWW4M7du/xGowBmP4kn
+ODBKKOdRPserL2HuUuEzvTsBekkzRLCYF02v20Ne5RkE0Ku0R9KVfJdQwWzWYpmf
+8kPHBHS0SNrgrPPT5pGVM9wxFvauEo4uPwtWL20dXFa2nbw1YzvhA9WNoeHjiz6p
+sxsiGh+orQ==
+=hXtZ
 -----END PGP SIGNATURE-----
 
---===============1467654304958952500==--
+--===============4292212101415039278==--
