@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7078479653293615299=="
+Content-Type: multipart/mixed; boundary="===============7965504172633935427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 29 Jul 2024 14:22:02 -0000
-Message-Id: <172226292248.6115.18170104359100569738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Mon, 29 Jul 2024 14:22:08 -0000
+Message-Id: <172226292805.6207.17359975023443631006@gitolite.kernel.org>
 
---===============7078479653293615299==
+--===============7965504172633935427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: cd72601a762be10bc5ec49069576f540cc17ca10
-    new: bf815ca62669fb2250fb60c51c0631dcd5b2c0bf
-    log: |
-         bf815ca62669fb2250fb60c51c0631dcd5b2c0bf add 6.9.10 reviews from greg
-         
+  - ref: refs/heads/bootstrap-rework
+    old: 7dc8fa2126431e2e4f607859d89ec80d0bbf398c
+    new: 36ec0b178d5e8649c9861bcccca359b9fd19b03e
+    log: revlist-7dc8fa212643-36ec0b178d5e.txt
 
---===============7078479653293615299==
+--===============7965504172633935427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7dc8fa212643-36ec0b178d5e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722262917 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1722262916-144321b4a593a6f56f0a82becae9c882d4f3beea
+b13b3bdcb2a1d17c9e286639eb0489ee7fe62c35 aarch64: Enable access into SCTLR2_ELx registers from EL2 and below
+1ac2031460031641929f247a743f3884deb05157 aarch64: Enable access into 128 bit system registers from EL2 and below
+cd7fe8a88e829055360d2dbe36e0912b9db33d3a aarch64: Enable access into RCW[S]MASK_EL1 registers from EL2 and below
+0d74176f1624001a3bc44326bc1bb22fc4b553cc Always enter AArch32 kernels in ARM mode
+092fff9670f6f6cdeefed895aaba129f45623977 aarch64: Remove redundant EL1 entry logic
+93955ca57b2d47ee1dbdb879a3925fbe5e9713be aarch64: Implement cpu_init_arch()
+c6874e20ce8a802f36841f7581705d8a03a5f9b7 aarch64: Always enter kernel via exception return
+cbea350dbe91fef8f17ad9b0ff3c782c97d93567 aarch32: Refactor inital entry
+3a67a604367bc064d9ed9eff96bfc94aaa1e16d5 aarch32: Implement cpu_init_arch()
+8c3300a52519932149c71c97a9bd354699f98608 aarch32: Always enter kernel via exception return
+7249bdc64cf7b242f3e15b08623dcd1390c9240a Unify assembly setup paths
+d49e3d32ebfd8d0eba18d5f398c1aed17f5aa284 Simplify spin logic
+0343d0f2cd0a4fe7c6b7278ae70d03562c36ec38 Add printing functions
+36ec0b178d5e8649c9861bcccca359b9fd19b03e Boot CPUs sequentially
 
-cd72601a762be10bc5ec49069576f540cc17ca10 bf815ca62669fb2250fb60c51c0631dcd5b2c0bf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmanpYUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PjYP/3lXNvTgJSUr7usRPGoj
-QbodRQhC3V79vMwFh+GhFECbeUKbPtXGleEDkd1p38A7jUskYGdR7m+dBGOOSm0j
-OkKdiUKtKyXWzYdlGx+8oFaPkhcmCMQlNdwY5OLYphEOfHcPZZM0nDl4feHWrXWo
-crtUMR7vaSyIhNsqwutt8kGU+wXBpxZcU9//rqV5BesxavdIsHd6zybpbSzBfquL
-qcbaNwFOglh0ZTQ9g8Y6VFjVxEKJcTKjRGeAG2vtbki1yUbodX2mwa3UjKq3zdZ6
-V4UoxdXQZkjhqsRU9HVksdB9SwzevjKwVhmMEwUGj/pQLWztRaIRgKd/o0T0OhG2
-zSqja9LMENqOJ/hJHq9L4L2YrT6rVhQi7zXcEkYTkvZzSghWU1QaTiypev5KeGIB
-SV7nafSIFP7ay2VO3kuMcQMz2ki3t3+/SQwwKeoGxXxnUNDxnddWhnbDQ2V33usA
-1HJMIhLzixHgJnWayW1Abkn0fR2BwQsmfUpFTy7hO7aAPcQ2UpgFL4LtyM91Uzdg
-Ya63YvT8zCYPVlWc0rQLQP7t21S0Wvnh1iqK0gnT9bs3T2PxjwQNKSb2CwhI8rGF
-WqO9Z36cuO6kJvXgov5pfsRINfpR7CUwD1VBQzfWG9tVPtj7WjIdZcpouY1j9cMo
-I4IS/zp3G/mA9kbxQGC8qqh7
-=0G29
------END PGP SIGNATURE-----
-
---===============7078479653293615299==--
+--===============7965504172633935427==--
