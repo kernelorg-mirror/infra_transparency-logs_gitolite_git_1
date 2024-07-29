@@ -1,60 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1766504891856282733=="
+Content-Type: multipart/mixed; boundary="===============6080873537253451989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 29 Jul 2024 15:38:25 -0000
-Message-Id: <172226750579.30917.11742092550913786062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Jul 2024 15:38:32 -0000
+Message-Id: <172226751265.31051.18107306623300099297@gitolite.kernel.org>
 
---===============1766504891856282733==
+--===============6080873537253451989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: e975d955c07cbc2cd6a83a5d8235d8373441fdb9
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-e975d955c07c-8400291e289e.txt
-  - ref: refs/heads/for-6.12
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/regulator-6.12
+    old: 0000000000000000000000000000000000000000
     new: 3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39
-    log: |
-         f0aaae1a5827c916f2d66e4392726c0c43d0479c regulator: bd96801: Delete unnecessary check in probe()
-         291f854ecadeb275e5e586001963950341d85e7a regulator: wm831x-isink: Convert comma to semicolon
-         3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39 regulator: rt5120: Convert comma to semicolon
-         
 
---===============1766504891856282733==
+--===============6080873537253451989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722267504 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1722267503-4e3469e24ff064c9ff3534534a2a07fd1ebf0987
+pusher C3F436CA30F5D8EB 1722267510 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1722267510-01860d0212736d7bdaeaa98d55903d0afdf14169
 
-e975d955c07cbc2cd6a83a5d8235d8373441fdb9 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/for-6.11
-8400291e289ee6b2bf9779ff1c83a291501f017b 3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39 refs/heads/for-6.12
+e975d955c07cbc2cd6a83a5d8235d8373441fdb9 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/regulator-6.11
+0000000000000000000000000000000000000000 3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39 refs/heads/regulator-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant3AACgkQJNaLcl1U
-h9BJfgf+OGSGn2/ORBcLiYZIZmXOKj/8q1TYRrhfeEqd2p75MvRb4SopNmOiRU5w
-bS8RcKton56rsjN8cPGu9ZkKJSkYcNhfV5z1XjFERaqVnj+UggJnln0AVe0fle5J
-3affM03Uv5Xp+fczBD30qAZU6ZX+Oyq3IjH+VdTsUVi68gcmxztdvpsiM7Mt6vCB
-0V9eKC3xDZXwn6GhrcrXU69kfCgw0ytEJ5bvMIeXQ65DV2KCFYVtXJeXSV/jiOpX
-q6/T/qawBX4wevnizEjcssaR1/N92RURRdl2UU98ji1RMsO3dFfWIE+BW06v+bDa
-YlflIlQEuveIV4NKAVnMx6GD1cXKzA==
-=pQtj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmant3YACgkQJNaLcl1U
+h9CSlgf/bnny5xjudmv9mbMRT9ETPeb+ZuURn9ELA/v3NmKetrUY3RBEcEAOcZ8w
+FxJqvZJ+HnPA//r1dlPDitTdYJ+nLx0p/2ADGaq623fWVMoCiyHA7Pbhx2Afgkzs
+kiNBoHAG7iMCIcouPV69NIMMLQaM0MzZ8cSj51lj+DeL40lVh2e2zvw0UIwrv87g
+RiMB1/n4Efii0dhKKKo+AoqW7/FJXqz+1qD45EM4IL/FbDDhn/EvZYMdlcC9MKFS
+hWIcZCBG1eOZNtwzBLCigSYV/JAIuZHCULSN6Uv5WGYIYIImgViBOSMmTxGAOLQU
+9PB+T82C8G7IXxz1vLiClWriubJ6Ag==
+=79h/
 -----END PGP SIGNATURE-----
 
---===============1766504891856282733==
+--===============6080873537253451989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1085,4 +1080,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============1766504891856282733==--
+--===============6080873537253451989==--
