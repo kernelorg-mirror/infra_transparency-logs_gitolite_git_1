@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2823256121595016053=="
+Content-Type: multipart/mixed; boundary="===============4789379158189459772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 29 Jul 2024 18:01:48 -0000
-Message-Id: <172227610874.11257.17581827759172186579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Jul 2024 18:01:55 -0000
+Message-Id: <172227611584.11392.11814471827571959866@gitolite.kernel.org>
 
---===============2823256121595016053==
+--===============4789379158189459772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/spi-6.12
     old: 5972eb05ca322bb1efe44d32808bc7a331e7aee4
     new: 5cb7651f78e1b98f94d2a65d72a2375301e3623f
     log: revlist-5972eb05ca32-5cb7651f78e1.txt
 
---===============2823256121595016053==
+--===============4789379158189459772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722276106 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1722276105-a2e25f68093fe9e1d3a2f868c48eccb236116063
+pusher C3F436CA30F5D8EB 1722276113 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1722276112-b7854a7f8ffdef8c0a060dfa616575dc4655f1d7
 
-5972eb05ca322bb1efe44d32808bc7a331e7aee4 5cb7651f78e1b98f94d2a65d72a2375301e3623f refs/heads/for-6.12
+5972eb05ca322bb1efe44d32808bc7a331e7aee4 5cb7651f78e1b98f94d2a65d72a2375301e3623f refs/heads/spi-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAman2QoACgkQJNaLcl1U
-h9DXtgf/R/MjRDMLtiUNwbD9+ilEH1R5tO/+/3NrWWhNQW25PpxfHBgrNJm99bn8
-2Ufmh/LzoPg5XlgFFNMhzSaVfBwK9lxRvKiPmnfJvibDsKeB/pr9V/ofWqRDppeu
-+vdj2/6F34WkEokOBL2cnBASzNLBC39UoFa/LL6c+SfjpwcB5wHurutVMs13SJYd
-gF8BBfq92mSWI4LwQJ0nF5mnqiY3oBuf/rO/XBjuiJB5EOiyDZPG6db+f3lA0V2/
-5xQ/oSTH7GuJzLnLEp9hMJk1jtcgCNgjOOWMwx6a2UZB9k0Amni4aIEX0ZtRpQly
-rJFCTPFzsn10A+fZHUvLEBBkWSCEhw==
-=lIvK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAman2REACgkQJNaLcl1U
+h9B3mgf/d+jL/UfCsv19gTTHPgtnOWS4fprc3tY16UnwjZnosFsWzdHep+21jxqG
+YKb8WGKEHjcAxi3dJlXIr7e1eX/tYGbqBzfrT0qVr4BuUXZon3mEIU98fm1yKRbM
+CJK2CjfC2y1bQwiBrdxDGZeELe4P8kjUx8gV48ooQNoqnnQuEUCOQlDBajoj2lUE
+CSKgWCKHSBlIutLnop0SomGFjMiuaftxKLFwpjBQ7ulB9rc2Jqr5VJVIiBRDhveA
+dzBdz7n2Ud4bhm6LwJfpLzH8ISKFvOirSNRzqcjIsFAgjfkV7IXVIabb7l2OUGS5
+SIYMmlgwes3FXUfC0n0E0dTGv3HQPg==
+=QfMM
 -----END PGP SIGNATURE-----
 
---===============2823256121595016053==
+--===============4789379158189459772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ a62073f4b2164028fc7c5ae45ceba10c9326cd91 spi: spi-axi-spi-engine: Add support fo
 50ac44c768756dfa08766f8d5a7bc85fe6bcc068 Add support for AD4000 series of ADCs
 5cb7651f78e1b98f94d2a65d72a2375301e3623f Marvell HW overlay support for Cadence xSPI
 
---===============2823256121595016053==--
+--===============4789379158189459772==--
