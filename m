@@ -1,45 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1760454585939513424=="
+Content-Type: multipart/mixed; boundary="===============3670703254838577654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 29 Jul 2024 22:23:59 -0000
-Message-Id: <172229183973.17065.10494603739994262782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 29 Jul 2024 22:30:11 -0000
+Message-Id: <172229221157.22588.18121211491750207768@gitolite.kernel.org>
 
---===============1760454585939513424==
+--===============3670703254838577654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/100GbE
-    old: ab8f141d1bbf9ea63937f7d8d4a0887780e03ac5
-    new: aa0c730d242c9ae63008a4696507984582bcecee
-    log: revlist-ab8f141d1bbf-aa0c730d242c.txt
+  - ref: refs/heads/master
+    old: 4cfba880e3788a02b1dd611008bdd7f787411865
+    new: 40f59a6615657c7ba958dee383d58fc3daf5eee7
+    log: revlist-4cfba880e378-40f59a661565.txt
+  - ref: refs/heads/next
+    old: bf6882fcde972b116fbd0daa899c5d754f5619e9
+    new: 40f59a6615657c7ba958dee383d58fc3daf5eee7
+    log: |
+         30b658f94d973c917baff4e529bd8e83fca42877 release_note: Add item for 'args --format=yaml' update
+         40f59a6615657c7ba958dee383d58fc3daf5eee7 Update the version
+         
+  - ref: refs/tags/v2.4.5
+    old: 0000000000000000000000000000000000000000
+    new: dd072723bf264dfc933a40adf0e4ff367615fbb6
 
---===============1760454585939513424==
+--===============3670703254838577654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab8f141d1bbf-aa0c730d242c.txt
+Content-Disposition: attachment; filename=revlist-4cfba880e378-40f59a661565.txt
 
-197cfd26adedb04cf4d83232c7b50426cc7f6c1a ice: add new VSI type for subfunctions
-cc311a897bcff199c4fa4b169cb570f45b5944a8 ice: export ice ndo_ops functions
-386a86528de296367b0e2a08128260e173047e4b ice: add basic devlink subfunctions support
-d4a9c0c7d0e916090072ce438f8b391ec07a3f26 ice: treat subfunction VSI the same as PF VSI
-03e07bc882e6349bdfe5f3db0b3182777a7947b8 ice: allocate devlink for subfunction
-4916fc8e0ca89a471dde4f2c0dc206e96bffb764 ice: base subfunction aux driver
-5ef98f88657d900001063db8530b6c18e45af054 ice: implement netdev for subfunction
-0771dfeaa154073dc7285572043a6c666b86344f ice: make representor code generic
-275dbe7efbeeb6639bc0d3edfd443209906054b2 ice: create port representor for SF
-c7ef0dfd68132b779e76e023f7fe2351c79e6784 ice: don't set target VSI for subfunction
-d00ea018274a1a698f67168ef90723a00f169197 ice: check if SF is ready in ethtool ops
-223311c592ee3298e32e6638810acf19f3ffd440 ice: implement netdevice ops for SF representor
-2520c07a960fb7f673043a270b84e33627504c77 ice: support subfunction devlink Tx topology
-8176c81478ca61ec56ff1a0c8a3beb34d3469ef1 ice: basic support for VLAN in subfunctions
-aa0c730d242c9ae63008a4696507984582bcecee ice: allow to activate and deactivate subfunction
+ee98d5e6125107110bcaf21f218233fe41bc5b87 show: Throw clear error message on unsupported kernels
+037ba0cb51b9bf3a59a1e5d1065f95e8dd46120a _damo_records: Add a class for proc/<pid>/stat parsing
+c720ffe31a68e7f160e8171f0673c27bb8715685 _damo_records: Add a class for proc/.../stats snapshot handling
+3e4c1a7ef8a07598fc8f64641843be907e696c7a _damo_records: Implement functions for proc/.../stats recording and loading
+95a307b0495bd500112603d5f1e6abbdc3d11e98 _damo_records: Record proc stats together
+8d3a7e6499e466555ac54439fda25604d068397c damo_record: Set pid of kdamonds
+aa95bf662d6d2d635e3eb87b959050dce1997ce3 release_note: Update for next release
+2174c705efaaf928f161d68ecc592295fc790ea7 damo_args_damon: Print OrderedDict as normal dict for yaml
+5900ccd0820019a330da481310f3a4088f89bd6b damo: Add comments for custom help message formatter
+acc5f9707b509ebb5f69d2f11e2bf2face7513f9 TODO: Remove completed items
+bf6882fcde972b116fbd0daa899c5d754f5619e9 USAGE: Document CPU usge recording
+30b658f94d973c917baff4e529bd8e83fca42877 release_note: Add item for 'args --format=yaml' update
+40f59a6615657c7ba958dee383d58fc3daf5eee7 Update the version
 
---===============1760454585939513424==--
+--===============3670703254838577654==--
