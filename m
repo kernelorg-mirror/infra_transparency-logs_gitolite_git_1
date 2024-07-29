@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2126517703331794268=="
+Content-Type: multipart/mixed; boundary="===============3948771016067404336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 29 Jul 2024 20:20:17 -0000
-Message-Id: <172228441709.20245.5512563409700856216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Mon, 29 Jul 2024 20:25:03 -0000
+Message-Id: <172228470366.23559.14925938366792141922@gitolite.kernel.org>
 
---===============2126517703331794268==
+--===============3948771016067404336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/nolibc
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+  - ref: refs/heads/cpupower
+    old: 3a5bb5066f4c7170e850b930e84b1075e25f8e90
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-1613e604df0c-8400291e289e.txt
+    log: revlist-3a5bb5066f4c-8400291e289e.txt
 
---===============2126517703331794268==
+--===============3948771016067404336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-3a5bb5066f4c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============2126517703331794268==--
+--===============3948771016067404336==--
