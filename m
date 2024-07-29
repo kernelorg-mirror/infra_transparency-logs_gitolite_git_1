@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7139228722432568564=="
+Content-Type: multipart/mixed; boundary="===============5005868943580190184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jul 2024 10:17:29 -0000
-Message-Id: <172224824988.14420.5008877119547830632@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 10:18:00 -0000
+Message-Id: <172224828033.14670.7446097135051013601@gitolite.kernel.org>
 
---===============7139228722432568564==
+--===============5005868943580190184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: f92a59f6d12e31ead999fee9585471b95a8ae8a3
-    new: 6623b0217d0c9bed80bfa43b778ce1c0eb03b497
-    log: revlist-f92a59f6d12e-6623b0217d0c.txt
+  - ref: refs/heads/perf/urgent
+    old: 256abd8e550ce977b728be79a74e1729438b4948
+    new: b1d0e15c8725d21a73c22c099418a63940261041
+    log: revlist-256abd8e550c-b1d0e15c8725.txt
 
---===============7139228722432568564==
+--===============5005868943580190184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f92a59f6d12e-6623b0217d0c.txt
+Content-Disposition: attachment; filename=revlist-256abd8e550c-b1d0e15c8725.txt
 
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
@@ -1049,6 +1049,6 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-6623b0217d0c9bed80bfa43b778ce1c0eb03b497 locking/pvqspinlock: Correct the type of "old" variable in pv_kick_node()
+b1d0e15c8725d21a73c22c099418a63940261041 perf/x86/intel/cstate: Add pkg C2 residency counter for Sierra Forest
 
---===============7139228722432568564==--
+--===============5005868943580190184==--
