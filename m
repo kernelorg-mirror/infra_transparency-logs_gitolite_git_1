@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5136239562773158112=="
+Content-Type: multipart/mixed; boundary="===============6842280366823926702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 29 Jul 2024 13:57:30 -0000
-Message-Id: <172226145007.19354.8090240082317478020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 29 Jul 2024 13:59:27 -0000
+Message-Id: <172226156798.20112.795411837267057422@gitolite.kernel.org>
 
---===============5136239562773158112==
+--===============6842280366823926702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/kvm-arm64-fix-pkvm-sve-vl
-    old: f56ea0fbdcb8321483246b871bea3dc6abdca327
-    new: 8018bf2314c3dd8b6806a2ee57adf043aeb58afa
-    log: revlist-f56ea0fbdcb8-8018bf2314c3.txt
+  - ref: refs/heads/master
+    old: ed30a4a51bb196781c8058073ea720133a65596f
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-ed30a4a51bb1-8400291e289e.txt
 
---===============5136239562773158112==
+--===============6842280366823926702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f56ea0fbdcb8-8018bf2314c3.txt
+Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
+9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
+519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
 fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
 1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
@@ -1045,10 +1050,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-fd7b274aae874496aae27246a2fec5124abefeef KVM: arm64: Fix underallocation of storage for SVE state
-99a13de924b4e80486d3f9196fc00f34de8631a1 arm64/fpsimd: Introduce __bit_to_vl() helper
-7653ea28147ef57d68e04574b4e7711836e09510 arm64/fpsimd: Discover maximum vector length implemented by any CPU
-81f7a40da43f7be6eee7c9268710747d5d5c79bb KVM: arm64: Fix FFR offset calculation for pKVM host state save and restore
-8018bf2314c3dd8b6806a2ee57adf043aeb58afa KVM: arm64: Avoid underallocating storage for host SVE state
 
---===============5136239562773158112==--
+--===============6842280366823926702==--
