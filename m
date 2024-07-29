@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6894673020412952378=="
+Content-Type: multipart/mixed; boundary="===============4990376397457526641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jul 2024 08:56:43 -0000
-Message-Id: <172224340379.5205.15383261478065228327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 29 Jul 2024 09:03:09 -0000
+Message-Id: <172224378917.9221.7033305960629825584@gitolite.kernel.org>
 
---===============6894673020412952378==
+--===============4990376397457526641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/x86/fpu
-    old: af813acf8c06db58c6e21d89d9e45e8cd1512965
-    new: ba386777a30b38dabcc7fb8a89ec2869a09915f7
-    log: revlist-af813acf8c06-ba386777a30b.txt
+  - ref: refs/heads/pwm/for-next
+    old: 240b129d597cb8a8880eb3a381ff10eb98ca0c07
+    new: b9b6bd3dcceed371829a022caeb6b51cb9f67be9
+    log: revlist-240b129d597c-b9b6bd3dccee.txt
 
---===============6894673020412952378==
+--===============4990376397457526641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af813acf8c06-ba386777a30b.txt
+Content-Disposition: attachment; filename=revlist-240b129d597c-b9b6bd3dccee.txt
 
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
 519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
 b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
 fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
@@ -1049,6 +1046,9 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-ba386777a30b38dabcc7fb8a89ec2869a09915f7 x86/elf: Add a new FPU buffer layout info to x86 core files
+e4bdff70fa24df36b89a3781b12ef450ef6a94e1 dt-bindings: pwm: renesas,pwm-rcar: Add r8a779h0 support
+f95e356d2298d0e64b5f72379ce83b90f30c3ec7 dt-bindings: pwm: renesas,tpu: Add r8a779h0 support
+cec2d669e02b0d227ebad62d444c9b6e6c08ed28 pwm: Make info in traces about affected pwm more useful
+b9b6bd3dcceed371829a022caeb6b51cb9f67be9 pwm: Don't export pwm_capture()
 
---===============6894673020412952378==--
+--===============4990376397457526641==--
