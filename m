@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5005868943580190184=="
+Content-Type: multipart/mixed; boundary="===============5105936970651304815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jul 2024 10:18:00 -0000
-Message-Id: <172224828033.14670.7446097135051013601@gitolite.kernel.org>
+Date: Mon, 29 Jul 2024 10:18:35 -0000
+Message-Id: <172224831586.14952.6967696461103545422@gitolite.kernel.org>
 
---===============5005868943580190184==
+--===============5105936970651304815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 256abd8e550ce977b728be79a74e1729438b4948
-    new: b1d0e15c8725d21a73c22c099418a63940261041
-    log: revlist-256abd8e550c-b1d0e15c8725.txt
+  - ref: refs/heads/perf/core
+    old: fa0c1c9d283b37fdb7fc1dcccbb88fc8f48a4aa4
+    new: 6763ebdb4983f55ac1ded291d170046d029a7539
+    log: revlist-fa0c1c9d283b-6763ebdb4983.txt
 
---===============5005868943580190184==
+--===============5105936970651304815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-256abd8e550c-b1d0e15c8725.txt
+Content-Disposition: attachment; filename=revlist-fa0c1c9d283b-6763ebdb4983.txt
 
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
-519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
-b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
 fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
 1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
 3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
@@ -1050,5 +1045,10 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 b1d0e15c8725d21a73c22c099418a63940261041 perf/x86/intel/cstate: Add pkg C2 residency counter for Sierra Forest
+d92792a4b26e50b96ab734cbe203d8a4c932a7a9 perf/x86/intel/pt: Fix sampling synchronization
+52c3fb1a0f822fd64529ca64f3792095524de450 perf/x86: Add hw_perf_event::aux_config
+675ad74989c26fcaca9bbea7075b8a94a27b16f2 perf/core: Add aux_pause, aux_resume, aux_start_paused
+6a45d8847597727960020d9c38faa0b43407be4b perf/x86/intel/pt: Add support for pause / resume
+6763ebdb4983f55ac1ded291d170046d029a7539 perf/x86/intel: Do not enable large PEBS for events with aux actions or aux sampling
 
---===============5005868943580190184==--
+--===============5105936970651304815==--
