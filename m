@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3791506237024917705=="
+Content-Type: multipart/mixed; boundary="===============0683465988009307519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 30 Jul 2024 16:57:21 -0000
-Message-Id: <172235864118.21195.332309459561405713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 30 Jul 2024 16:57:32 -0000
+Message-Id: <172235865244.21356.5595065210329760410@gitolite.kernel.org>
 
---===============3791506237024917705==
+--===============0683465988009307519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 94ede2a3e9135764736221c080ac7c0ad993dc2d
     log: revlist-dc1c8034e31b-94ede2a3e913.txt
 
---===============3791506237024917705==
+--===============0683465988009307519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ cec6937dd1aae1b38d147bd190cb895d06cf96d0 task_work: make TWA_NMI_CURRENT handlin
 6b5faec9f564ea627c66064a4a6a5904fe5a07dd Merge tag 'for-linus-2024072901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 94ede2a3e9135764736221c080ac7c0ad993dc2d profiling: remove stale percpu flip buffer variables
 
---===============3791506237024917705==--
+--===============0683465988009307519==--
