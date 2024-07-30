@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5571866110901684922=="
+Content-Type: multipart/mixed; boundary="===============0181125051181608444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 30 Jul 2024 10:00:09 -0000
-Message-Id: <172233360905.31012.6113520368044364870@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 10:00:16 -0000
+Message-Id: <172233361624.31164.15644673802269146756@gitolite.kernel.org>
 
---===============5571866110901684922==
+--===============0181125051181608444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/vexpress/updates
-    old: c12bb561df45d57a5ca75f5270ddf0ffa38dd9a6
+  - ref: refs/heads/for-next/ffa/updates
+    old: f624c7cbd155ef5787f8bf06c1208f45353d24ec
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-c12bb561df45-8400291e289e.txt
+    log: revlist-f624c7cbd155-8400291e289e.txt
 
---===============5571866110901684922==
+--===============0181125051181608444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c12bb561df45-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-f624c7cbd155-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============5571866110901684922==--
+--===============0181125051181608444==--
