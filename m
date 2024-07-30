@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 30 Jul 2024 15:52:49 -0000
-Message-Id: <172235476956.4958.15957893565239161653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 30 Jul 2024 15:53:26 -0000
+Message-Id: <172235480675.5262.2949589051887124365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 993e48cab240b7fd1b3f508222eaa4ecde83aa8c
-    new: faa6a392e48d2c6597db62e02658b4a26dcf73fe
+  - ref: refs/heads/nfsd-testing
+    old: 7f18d3359a1fb38c8139c5abbb49378d137ef114
+    new: 019aeabb27d43737d36b77760d3f760d8c96a2ef
     log: |
-         d7f669dd7c4ad985115557fc407b0f32a4fe0db1 wired: Update to the new l_netlink_send API
-         e33fa63243037913cff4a59da1d1e8ba4610e992 netdev: Update to the new l_netlink_send API
-         faa6a392e48d2c6597db62e02658b4a26dcf73fe monitor: Update to the new ell l_netlink_send API
+         489d8655963b6c09c84b1479230a09b0cbbb60a0 NFSD: Drop CB_OFFLOAD Calls
+         019aeabb27d43737d36b77760d3f760d8c96a2ef Debugging
          
