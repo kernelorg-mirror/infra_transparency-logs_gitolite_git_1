@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 30 Jul 2024 19:33:46 -0000
-Message-Id: <172236802650.6975.1004638647471068229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Tue, 30 Jul 2024 19:35:54 -0000
+Message-Id: <172236815466.9435.10314764952591401984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/kdevops
-    old: 25a96ec0be5043f4fe29b7f598b4af0f86e9fb50
-    new: b185bdb575f34f8300542548c6750840be0bc77f
+  - ref: refs/heads/b4/ari_no_bus_dev
+    old: d62b6fd592cd6d04ab3620ceead9cc8be801623e
+    new: 5981ef11b1934e59729492055abcc31e69869bb4
     log: |
-         e33c65255600768693de2724102544246a28a2ab fs: add a inode_lock-less fastpath to open()
-         b185bdb575f34f8300542548c6750840be0bc77f fs: try an opportunistic lookup for O_CREAT opens too
+         cb420e0bb0f0de009d6652c3ab1f0f97b68495cf EDITME: cover title for ari_no_bus_dev
+         5981ef11b1934e59729492055abcc31e69869bb4 PCI: s390: Handle ARI on bus without associated struct pci_dev
          
