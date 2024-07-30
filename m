@@ -1,57 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 30 Jul 2024 09:36:59 -0000
-Message-Id: <172233221947.32034.1225425273169381537@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0585760966373019858=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 30 Jul 2024 09:38:42 -0000
+Message-Id: <172233232243.723.10051616801092252540@gitolite.kernel.org>
+
+--===============0585760966373019858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3a7794795f7de97ee8964dcae8ee2dfa9e300421
-    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
-    log: |
-         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
-         
   - ref: refs/heads/master
-    old: 3a7794795f7de97ee8964dcae8ee2dfa9e300421
-    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
+    old: 69ab556bbc3711da3da4d3b593b182c03ef0416f
+    new: a87a864bf1468c6e7e93b7accce16090b3e9849d
     log: |
-         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
+         a87a864bf1468c6e7e93b7accce16090b3e9849d 5.15-stable patches
          
-  - ref: refs/heads/v2.7.x
-    old: af2c32fb4fc46a5e6085610bf647b152cec2ab82
-    new: 32dbb0c8fb6f653ca71c6b40e039b26e1a23b1b8
-    log: |
-         32dbb0c8fb6f653ca71c6b40e039b26e1a23b1b8 tests: workaround valgrind SIGPIPE
-         
-  - ref: refs/merge-requests/672/head
-    old: 021e5c31fd04fbbd3eb1620b8668858c3caf1cb6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/672/merge
-    old: 9cb5b99a753c3003c91e0f99523b7616f7f4ad55
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/673/head
-    old: 624b7087b0db19d57591f57a28fdabb32b1df858
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/673/merge
-    old: 06357030ef31e7a0f72faed97ab5dd11aa639432
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/674/merge
-    old: 094d31720f354e57336bfe7feae0c125f6fb98fa
-    new: 0f2309fd28165cfa3c37868987f003dfddf5df66
-    log: |
-         3a7794795f7de97ee8964dcae8ee2dfa9e300421 Always set cipher_mode even in crypt_parse_name_and_mode.
-         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
-         0f2309fd28165cfa3c37868987f003dfddf5df66 Merge branch 'upgrade-ubuntu' into 'main'
-         
-  - ref: refs/merge-requests/681/head
-    old: 0000000000000000000000000000000000000000
-    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
-  - ref: refs/merge-requests/681/merge
-    old: 0000000000000000000000000000000000000000
-    new: 94772cc9dd7a54a105d8e4d551bd5e870ffcb770
+
+--===============0585760966373019858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722332320 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1722332318-51ea2723fb1d058a1273cc2e29fc298819155d31
+
+69ab556bbc3711da3da4d3b593b182c03ef0416f a87a864bf1468c6e7e93b7accce16090b3e9849d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaotKAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n5AP/R8clgQ7BDBfjwN4/JOJ
+KmTZEGqlpy1g8NlT9MPoHhQDIKrNhRrIlxnffbUlJcQmMic7XU3mM3Qun3S24XOo
+PJQTg3u7Zo9L2wyLEdaii4dz0iDorU9M0wTEFuQ+1YlHp6Xh8TWal881ce52MT9+
+nr210/uBth/yC4EfwTAGmFzLue1nqTv6u/k3XUtIYQZpmV1NWFznRgdLU7BGJqDU
+kXNrBCbIwyUPs3wEy88XR1bVqeP1TAVLHai2Za33eMY1j3xVVg0l3MJoL0yLNF/j
+Y/LIyeM4T7NTWRjgVxazs7Bh+Jdv1UUwMynIglNbvAhs/mGPXKIovfw3fQGDB+HC
+VixzxpsSQUuOwe+yPCUIZm4BIBzUu2RUJgLRa+sPvXUqGu2OLCtqrTqiNsKILJ9l
+lvcyh7vWjVUQ9TQyBc+FkB8Ip9PDWkFzKQrzKtABoQTAtoTY1yJmr4me5nzU4mu1
+slOgdDfS7tTpZ9EmoqPYoR+eZt3Bcc5c+Swiy2lsniLh+N4VMJ0Jaw9qaUsV+Mcq
+Kv7FMLLLJG0bcYck64ZODJXG529f3Lp9QKOrJGWM7BngQNg7ZVZqGYV13KbUaih/
+7P7rNsRth7GuEixKRZwK8AThVcFP+JsgzqleV2PEud+SA7cOnHz6kCqhiNvovXCI
+3wzm7ekHGfcVTx/vN9iuyOOV
+=uyxH
+-----END PGP SIGNATURE-----
+
+--===============0585760966373019858==--
