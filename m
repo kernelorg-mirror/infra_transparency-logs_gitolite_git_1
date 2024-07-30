@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4336030423631647190=="
+Content-Type: multipart/mixed; boundary="===============0700752574085084068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Jul 2024 02:02:03 -0000
-Message-Id: <172230492354.21085.10433844252518552538@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 02:02:23 -0000
+Message-Id: <172230494326.21339.13067637726191620791@gitolite.kernel.org>
 
---===============4336030423631647190==
+--===============0700752574085084068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3911af778f208e5f49d43ce739332b91e26bc48e
-    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-3911af778f20-8400291e289e.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: c13e05ecd0a627f61a3b38c31f5f3ed1ee0d6e1f
+    new: 84d4168d66e02c70747ecd870578ce1a84375f88
+    log: revlist-c13e05ecd0a6-84d4168d66e0.txt
 
---===============4336030423631647190==
+--===============0700752574085084068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1722304921 -0400
+pusher 75C5DE3D 1722304928 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1722304918-0a030c09c2d7cca6c7f93541b1ea28a39109a7fb
+nonce 1722304927-377d92d6aaa690ef04f711cc24144522526130ed
 
-3911af778f208e5f49d43ce739332b91e26bc48e 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/queue
+c13e05ecd0a627f61a3b38c31f5f3ed1ee0d6e1f 84d4168d66e02c70747ecd870578ce1a84375f88 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaoSZkACgkQ7ulgGnXF
-3j3KVBAAinS83ISRmUC9gnmWUL2GTPidr4POphv4rPCuZlKrIWJShAOjL9SfyS5L
-b5mNzqOPh2C17M4HLzMpjsheEvpxJ/JvtiHoolYS0ChXlAUFM7UqM01QHH6ewTgK
-lWFQ4aIhBHASUEKoXSrdCex+f/3WarLjUOulC8U14fAr4F2VUj11a4m3qHYUNbPs
-a0RdUMWnlOFsjz98TKUEOJHoB86IEVxwGeF4bUc7huxWqAFjRWmSFc5T+TE/HpwH
-lpFEdGNyuWP6MkSINhidppVpgclz0Eca+lEazH6PVglWqzB792kNJhphO9rKfgrr
-+Hds5bYaZpXcjfkLyRxQjrpRAwPuANguR/K2689IBam963NCiW9dIx519teXIC3c
-vfbmyTxlON3ZfWCuAzlWz60khfXgtTGl9hCjoLkAPzTGWiM/Tk4PafXDlm9DYJaP
-DjH/GJSyR7giXY8hrxNwXUe8zMDAZc9H0b8c8MqJclc7/CCnhqrGGCPlDMr999yQ
-Pyl75Xx98cp9gtiAAU8kXJsywwXxZTSFEwllJmdLUvHQsN81M/PaW3sZiv6Nkf+y
-I9Kn0tboBJkfI/HJvS2ressxgQzyAxUr/UsQNQwpIm1TbMRHdY3j0xCekI8gGM9L
-VFKJ0rGRHCNx6KgBiQwY9HRyZQK+wV1OvA73LaRfaKryJPPhMY0=
-=Mrmh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaoSaAACgkQ7ulgGnXF
+3j2bMQ//Zua5UuUCfuNNRa4OoNi9BHSAOEpq+WTXWBC1wV4qyUbsUldjp8smowz+
+5d0VdOD/xFEEDskHb7Iyo4eRppLeA1J2RTTcJv3E5p6hsPgBg5TF98dAkTIi0QD8
+ZUqKsuqNtMZDXne9JNarTObw1eHJujMlF/zYJb9nJofQg6KBdB8BItrZPNh62Edi
+5x9/fgfAa/xewDJoDBCFzgbDlR5eA86ijTXDxmJjstKYZ1zNb3Bij+IRMq8/K7eH
+RbcFkQAoUg9o+ooQgvemQ3Xzf58CeLY0eayS29MjOYOcv26qgYfZgnweMe1UbEMj
+g456kqR1AF2y35dzOISNmMV8CV5LTJOeh7ulRwkjiXpzfkD5zXlMFTEwLYqf5mN4
+XJbrGpa8PHiRCdzgHszYeDvS05STAtI4BrTL8Smh64t+0y9cMcEB6qbx8kPhtxtX
+X+43bvxWRq8q+9ZuHDC+YBlLymqbGANWKJYIfVlwI2LBClbZyqjy26+tEecdlB0X
+yb3l2KezSeFY/dUGafpiChI+XoaSKEaBxoJ3mBepwDbLBl67t7cNzOccOe3G6tQM
+NQUcPzEclUSwh7rpWKMjvGdJM0x+z5lBu8lPTw7dUc5nfNhP+0pvy1gjaZGZmEyQ
+WQl7x++mQnf17klX40tKji98rVO0Ufs/mchdSCClu+Da/vf4vbQ=
+=E44x
 -----END PGP SIGNATURE-----
 
---===============4336030423631647190==
+--===============0700752574085084068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3911af778f20-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-c13e05ecd0a6-84d4168d66e0.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1081,4 +1081,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4336030423631647190==--
+--===============0700752574085084068==--
