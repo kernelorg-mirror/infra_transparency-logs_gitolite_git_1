@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2939618174976312904=="
+Content-Type: multipart/mixed; boundary="===============3803465273006318384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 30 Jul 2024 19:49:58 -0000
-Message-Id: <172236899859.19399.3251389705454781277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 30 Jul 2024 19:50:08 -0000
+Message-Id: <172236900855.21187.11197320615983493132@gitolite.kernel.org>
 
---===============2939618174976312904==
+--===============3803465273006318384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8468e028ef27da07c701acacf9d0c96180d367df
     log: revlist-9140fec01b2d-8468e028ef27.txt
 
---===============2939618174976312904==
+--===============3803465273006318384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ bbc98f9f231ea6f0e6a8873ec231a2f6c253ac23 perf auxtrace: Remove unused 'pmu' poin
 a880bd477d6afa549f982272890f705457c2d844 perf tools: Fix wrong message when running "make JOBS=1"
 8468e028ef27da07c701acacf9d0c96180d367df perf list: Give clues if failed to open tracing events directory
 
---===============2939618174976312904==--
+--===============3803465273006318384==--
