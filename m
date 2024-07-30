@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6972577986638999385=="
+Content-Type: multipart/mixed; boundary="===============1515526258294575461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 30 Jul 2024 14:58:53 -0000
-Message-Id: <172235153321.27597.5623625817234879753@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 14:58:57 -0000
+Message-Id: <172235153735.27719.13588511248109919970@gitolite.kernel.org>
 
---===============6972577986638999385==
+--===============1515526258294575461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.12
-    old: 55d71c9f53335fac6a9949a1e1f9871cf2bac9a5
-    new: 4e597323ef3d28441c792a00a1faddf71350f090
-    log: revlist-55d71c9f5333-4e597323ef3d.txt
+  - ref: refs/heads/for-next
+    old: ec5bd20faac1f333416fc130d072a2cf414b25ef
+    new: acb6d4cf1695081835d9060b79cc2fef8ab3f60d
+    log: revlist-ec5bd20faac1-acb6d4cf1695.txt
 
---===============6972577986638999385==
+--===============1515526258294575461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55d71c9f5333-4e597323ef3d.txt
+Content-Disposition: attachment; filename=revlist-ec5bd20faac1-acb6d4cf1695.txt
 
-8bc7cb73df8644423758c79d4504d501c8ef3854 arm64: dts: qcom: x1e80100-yoga: add wifi calibration variant
-60a76f7826b88ebf7697a56fdcd9596b23c2b616 arm64: dts: qcom: ipq5332: Fix interrupt trigger type for usb
 30f593fa0088b89f479f7358640687b3cbca93d4 arm64: dts: qcom: x1e80100-crd: fix PCIe4 PHY supply
 f8fa1f2f6412bffa71972f9506b72992d0e6e485 arm64: dts: qcom: x1e80100: fix PCIe domain numbers
 98abf2fbd179017833c38edc9f3b587c69d07e2a arm64: dts: qcom: x1e80100: add missing PCIe minimum OPP
@@ -52,5 +50,7 @@ b045fcaaa8c17a702e11354cdc841a46c02b72e8 arm64: dts: qcom: x1e80100-crd: enable 
 0bf8dabfa3c013678962f1875239d1141466661d arm64: dts: qcom: msm8916-longcheer-l8910: Add rear flash
 40e9327a80362de8e8ca68f17512a3dd0f6bc4fa arm64: dts: qcom: x1e80100: add rpmh-stats node
 4e597323ef3d28441c792a00a1faddf71350f090 arm64: dts: qcom: msm8916-samsung-rossa: Add touchscreen
+a0e6fbf22439f796b51ea583a68eb763b0a99393 arm64: dts: qcom: x1e80100-crd: Fix backlight
+acb6d4cf1695081835d9060b79cc2fef8ab3f60d Merge branches 'arm32-for-6.12', 'arm64-defconfig-fixes-for-6.11', 'arm64-fixes-for-6.11', 'arm64-for-6.12', 'clk-for-6.12', 'drivers-fixes-for-6.11' and 'drivers-for-6.12' into for-next
 
---===============6972577986638999385==--
+--===============1515526258294575461==--
