@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/quota/quota-tools
-Date: Tue, 30 Jul 2024 12:50:59 -0000
-Message-Id: <172234385930.29798.10900624367975654989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 30 Jul 2024 13:03:07 -0000
+Message-Id: <172234458705.5080.5121345392704458823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/quota/quota-tools
-user: jack
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: e61d46c65899ced9599c93a6128f19d8759fcad8
-    new: c59b85805ee64c7ee2937b91533eb96f56d87738
+  - ref: refs/heads/main
+    old: 2fe5273f149cc882c371f9954b5fdbd1bd8c9b5c
+    new: f558120cd709682b739207b48cf7479fd9568431
     log: |
-         c59b85805ee64c7ee2937b91533eb96f56d87738 quotaio_xfs: Fix memory leak
+         f558120cd709682b739207b48cf7479fd9568431 net/iucv: fix use after free in iucv_sock_close()
          
