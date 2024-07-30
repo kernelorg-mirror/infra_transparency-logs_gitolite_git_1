@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0682642175059940524=="
+Content-Type: multipart/mixed; boundary="===============6972577986638999385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 30 Jul 2024 14:58:35 -0000
-Message-Id: <172235151514.27432.2590602106098201114@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 14:58:53 -0000
+Message-Id: <172235153321.27597.5623625817234879753@gitolite.kernel.org>
 
---===============0682642175059940524==
+--===============6972577986638999385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.11
-    old: 60a76f7826b88ebf7697a56fdcd9596b23c2b616
-    new: a0e6fbf22439f796b51ea583a68eb763b0a99393
-    log: revlist-60a76f7826b8-a0e6fbf22439.txt
+  - ref: refs/heads/arm64-for-6.12
+    old: 55d71c9f53335fac6a9949a1e1f9871cf2bac9a5
+    new: 4e597323ef3d28441c792a00a1faddf71350f090
+    log: revlist-55d71c9f5333-4e597323ef3d.txt
 
---===============0682642175059940524==
+--===============6972577986638999385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60a76f7826b8-a0e6fbf22439.txt
+Content-Disposition: attachment; filename=revlist-55d71c9f5333-4e597323ef3d.txt
 
+8bc7cb73df8644423758c79d4504d501c8ef3854 arm64: dts: qcom: x1e80100-yoga: add wifi calibration variant
+60a76f7826b88ebf7697a56fdcd9596b23c2b616 arm64: dts: qcom: ipq5332: Fix interrupt trigger type for usb
 30f593fa0088b89f479f7358640687b3cbca93d4 arm64: dts: qcom: x1e80100-crd: fix PCIe4 PHY supply
 f8fa1f2f6412bffa71972f9506b72992d0e6e485 arm64: dts: qcom: x1e80100: fix PCIe domain numbers
 98abf2fbd179017833c38edc9f3b587c69d07e2a arm64: dts: qcom: x1e80100: add missing PCIe minimum OPP
@@ -44,6 +46,11 @@ b90567c262fc3a3e703f3091499dec799a6147ab arm64: dts: qcom: x1e80100-yoga-slim7x:
 a655dacf2a35a35eadd95f0ba8fe9cf70359eeb9 arm64: dts: qcom: x1e80100-yoga-slim7x: fix up PCIe6a pinctrl node
 750b8a3b5a4476cf000f3db1fe46293c97fcd979 arm64: dts: qcom: x1e80100-yoga-slim7x: disable PCIe6a perst pull down
 86c71c0e893d58447e4a9e5c0d1c2c0f89c1b9e1 arm64: dts: qcom: x1e80100-yoga-slim7x: fix missing PCIe4 gpios
-a0e6fbf22439f796b51ea583a68eb763b0a99393 arm64: dts: qcom: x1e80100-crd: Fix backlight
+3ac5e84058a632ade7faab73b177fbb4f775bae4 Merge branch 'arm64-fixes-for-6.11' into HEAD
+62ab23e1550820e9b54d570519ac036dd45538d4 arm64: dts: qcom: x1e80100: add PCIe5 nodes
+b045fcaaa8c17a702e11354cdc841a46c02b72e8 arm64: dts: qcom: x1e80100-crd: enable SDX65 modem
+0bf8dabfa3c013678962f1875239d1141466661d arm64: dts: qcom: msm8916-longcheer-l8910: Add rear flash
+40e9327a80362de8e8ca68f17512a3dd0f6bc4fa arm64: dts: qcom: x1e80100: add rpmh-stats node
+4e597323ef3d28441c792a00a1faddf71350f090 arm64: dts: qcom: msm8916-samsung-rossa: Add touchscreen
 
---===============0682642175059940524==--
+--===============6972577986638999385==--
