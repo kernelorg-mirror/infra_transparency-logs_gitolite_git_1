@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6553084491488574284=="
+Content-Type: multipart/mixed; boundary="===============7223925271715494609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 30 Jul 2024 08:55:39 -0000
-Message-Id: <172232973952.774.8545413291856921507@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 08:55:58 -0000
+Message-Id: <172232975803.944.16350212740190785303@gitolite.kernel.org>
 
---===============6553084491488574284==
+--===============7223925271715494609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-1613e604df0c-8400291e289e.txt
 
---===============6553084491488574284==
+--===============7223925271715494609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============6553084491488574284==--
+--===============7223925271715494609==--
