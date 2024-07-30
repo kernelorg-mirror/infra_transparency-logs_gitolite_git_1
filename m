@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 30 Jul 2024 20:09:27 -0000
-Message-Id: <172237016748.2210.6181040205280660691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 30 Jul 2024 20:10:46 -0000
+Message-Id: <172237024684.4364.9688494566855171919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/kdevops
-    old: b185bdb575f34f8300542548c6750840be0bc77f
-    new: 3bf2880762bf5af0b62942b84a4c0514333cd6fc
+  - ref: refs/heads/master
+    old: 3e0d9c0859ac163ee5f6ffe84c248cb661092e9e
+    new: 96b0aab80d17489bb7b11f0247ecfc0348688ef9
     log: |
-         3bf2880762bf5af0b62942b84a4c0514333cd6fc fs: try an opportunistic lookup for O_CREAT opens too
+         96b0aab80d17489bb7b11f0247ecfc0348688ef9 Tue Jul 30 04:09:53 PM EDT 2024
          
