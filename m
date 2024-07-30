@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 30 Jul 2024 21:45:49 -0000
-Message-Id: <172237594902.8546.733913236808194768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 30 Jul 2024 21:46:56 -0000
+Message-Id: <172237601698.9057.2392187808201578226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: cfb772ab7214ed7cc8b1c0761a91be352fc42af1
-    new: 20756d5f570c6ba77e0f7c7b5ed6db8d885661bb
+  - ref: refs/heads/main
+    old: f558120cd709682b739207b48cf7479fd9568431
+    new: 0aa3ca956c46d849775eae1816cef8fe4bc8b50e
     log: |
-         20756d5f570c6ba77e0f7c7b5ed6db8d885661bb Debugging
+         0aa3ca956c46d849775eae1816cef8fe4bc8b50e net: mvpp2: Don't re-use loop iterator
          
