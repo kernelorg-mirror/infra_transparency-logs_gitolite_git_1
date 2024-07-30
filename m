@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0355568182227199589=="
+Content-Type: multipart/mixed; boundary="===============6327979424429260718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 30 Jul 2024 09:59:55 -0000
-Message-Id: <172233359528.29086.10987963907064706121@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 10:00:02 -0000
+Message-Id: <172233360205.29203.4567974966085211098@gitolite.kernel.org>
 
---===============0355568182227199589==
+--===============6327979424429260718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: fa8b28ba22d95be4d2dd3c37fbdbdc066af82941
+  - ref: refs/heads/for-next/juno/updates
+    old: 75895aa2bc1e0dbf062a33ec1f754ef6801d64dd
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-fa8b28ba22d9-8400291e289e.txt
+    log: revlist-75895aa2bc1e-8400291e289e.txt
 
---===============0355568182227199589==
+--===============6327979424429260718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa8b28ba22d9-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-75895aa2bc1e-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============0355568182227199589==--
+--===============6327979424429260718==--
