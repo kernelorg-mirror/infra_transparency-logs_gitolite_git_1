@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 30 Jul 2024 19:08:58 -0000
-Message-Id: <172236653820.21750.18151814375573713438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Tue, 30 Jul 2024 19:10:13 -0000
+Message-Id: <172236661360.23910.3860111260006340665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
+repo: pub/scm/network/ofono/ofono
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 883bc6a90b4a9c654fdf2540f02447a7ca567e04
-    new: 8aa5aabd50738a7caec6e52d8254249804dc5a98
+    old: ea91f966e36d1ece01a2cb21219d691bace15913
+    new: 91e7548b52b722999fd51a8d069410a848c1beba
     log: |
-         8aa5aabd50738a7caec6e52d8254249804dc5a98 unit: pragma test_address to fix GCC warning on musl-libc
+         91e7548b52b722999fd51a8d069410a848c1beba Revert "cbs: Fix possible NULL dereference"
          
