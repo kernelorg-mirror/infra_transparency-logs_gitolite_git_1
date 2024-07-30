@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2308603302598926913=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 30 Jul 2024 09:36:02 -0000
-Message-Id: <172233216244.30663.7874247194734234974@gitolite.kernel.org>
-
---===============2308603302598926913==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 30 Jul 2024 09:36:59 -0000
+Message-Id: <172233221947.32034.1225425273169381537@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: c9e4049c50f30fb946c4981ca6c21bc585935d8f
-    new: 69ab556bbc3711da3da4d3b593b182c03ef0416f
+  - ref: refs/heads/main
+    old: 3a7794795f7de97ee8964dcae8ee2dfa9e300421
+    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
     log: |
-         69ab556bbc3711da3da4d3b593b182c03ef0416f 5.4-stable patches
+         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
          
-
---===============2308603302598926913==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722332160 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1722332157-0173b01080c8d0b537d6821fd64f4b9fb06d2ed2
-
-c9e4049c50f30fb946c4981ca6c21bc585935d8f 69ab556bbc3711da3da4d3b593b182c03ef0416f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaotAAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+esAQAKTXWksJf9ZjvleacKHX
-ZtUwR5eiJCgdXlpJull9q/N40SC2+lm2UZWCmnIQZIW9AqwKXGWheQDQMMSn3DX9
-tKtzFmARHSJTLi9b+MOi/tkR9KqiYPVmEaYJqJ2U7/COcHewdOEorgucZGPzTKG8
-223ZPuBEeTA+iDur/u8KyvN5Gn72CbBbIRVHs9/QL5dGf9D6NIK9ti8sMzkPMzPv
-tzH741OyC/ICdlglhgbxm5iO+bNcrq4q892KV97mCSOOXtPv0INxYMGYC0DRCvip
-70sVAulU6EYGWm9Jq81jneQV+PsZNLgOWNsKbkcmCh87zfL7adApr7wwYKOMX0O2
-v9mdWQANw2NzBQuJLksVZFhK3t9R32FPjSlmHDjFPJqE/eitxj3uxqNVCrboXU8t
-DXVLR7uFvrmTeZ9nQtKfO+Eh7wWenr5/txh5J/juM4U2FC+8hNuinvVlESlIv4k3
-wnV2BPWqJnEQJBAQOd9/oodixk2B3n/Qo9b4MFHOAEfuJ1C2jZOiMLjk7J5vbC8L
-CE2ELO4sAWfIexzFOBVKq9MPOUIY97L+7tvlQQ8saBFWbH8xlhvypGcvoVozU3ky
-033qkULKmvJbQQTAqS05jgT29pLDXOkkQHKQcpiWM9rNAEW7YIDO+qZSaLbFd36L
-ZDRd1F7rZOMccwtI6BsIqTfb
-=n51T
------END PGP SIGNATURE-----
-
---===============2308603302598926913==--
+  - ref: refs/heads/master
+    old: 3a7794795f7de97ee8964dcae8ee2dfa9e300421
+    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
+    log: |
+         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
+         
+  - ref: refs/heads/v2.7.x
+    old: af2c32fb4fc46a5e6085610bf647b152cec2ab82
+    new: 32dbb0c8fb6f653ca71c6b40e039b26e1a23b1b8
+    log: |
+         32dbb0c8fb6f653ca71c6b40e039b26e1a23b1b8 tests: workaround valgrind SIGPIPE
+         
+  - ref: refs/merge-requests/672/head
+    old: 021e5c31fd04fbbd3eb1620b8668858c3caf1cb6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/672/merge
+    old: 9cb5b99a753c3003c91e0f99523b7616f7f4ad55
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/673/head
+    old: 624b7087b0db19d57591f57a28fdabb32b1df858
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/673/merge
+    old: 06357030ef31e7a0f72faed97ab5dd11aa639432
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/674/merge
+    old: 094d31720f354e57336bfe7feae0c125f6fb98fa
+    new: 0f2309fd28165cfa3c37868987f003dfddf5df66
+    log: |
+         3a7794795f7de97ee8964dcae8ee2dfa9e300421 Always set cipher_mode even in crypt_parse_name_and_mode.
+         e0852d21ddbd5352d6e23281a936f6bb318b10f6 tests: workaround valgrind SIGPIPE
+         0f2309fd28165cfa3c37868987f003dfddf5df66 Merge branch 'upgrade-ubuntu' into 'main'
+         
+  - ref: refs/merge-requests/681/head
+    old: 0000000000000000000000000000000000000000
+    new: e0852d21ddbd5352d6e23281a936f6bb318b10f6
+  - ref: refs/merge-requests/681/merge
+    old: 0000000000000000000000000000000000000000
+    new: 94772cc9dd7a54a105d8e4d551bd5e870ffcb770
