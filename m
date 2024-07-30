@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 Jul 2024 20:41:54 -0000
-Message-Id: <172237211476.26674.13694389205994660946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 30 Jul 2024 20:42:29 -0000
+Message-Id: <172237214972.26955.10875768476243918286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: ba71ffb660e4d41fe589f2459fb888ea61fdb310
-    new: 781f0bbbdade00f91490a3f64212e8cc8d75905c
+  - ref: refs/heads/master
+    old: 41c24102af7b6236277a214428b203d51a3462df
+    new: 7764b9622db4382b2797b54a70f292c8da6ef417
     log: |
-         781f0bbbdade00f91490a3f64212e8cc8d75905c tools/bpf: Fix the wrong format specifier
+         7764b9622db4382b2797b54a70f292c8da6ef417 bpf/selftests: Fix ASSERT_OK condition check in uprobe_syscall test
          
