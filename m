@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 30 Jul 2024 23:51:00 -0000
-Message-Id: <172238346038.3368.7943156255950453384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 30 Jul 2024 23:53:51 -0000
+Message-Id: <172238363107.4445.15384439189226592526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/kdevops
-    old: 3bf2880762bf5af0b62942b84a4c0514333cd6fc
-    new: 918625dae0a67dc7a1285fdea16414e0cfad9f1a
+  - ref: refs/heads/master
+    old: 94ede2a3e9135764736221c080ac7c0ad993dc2d
+    new: c91a7dee0555f6f9d3702d86312382e4c4729d0a
     log: |
-         918625dae0a67dc7a1285fdea16414e0cfad9f1a fs: i_rwsem pushdown into lookup_open
+         df615907f1bf907260af01ccb904d0e9304b5278 platform/chrome: cros_ec_proto: Lock device when updating MKBP version
+         22f5468731491e53356ba7c028f0fdea20b18e2c minmax: improve macro expansion and type checking
+         c91a7dee0555f6f9d3702d86312382e4c4729d0a Merge tag 'chrome-platform-fixes-for-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
          
