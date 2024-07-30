@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4218103599992234525=="
+Content-Type: multipart/mixed; boundary="===============7768963927196894179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 30 Jul 2024 03:27:26 -0000
-Message-Id: <172231004671.18307.2017888468137284143@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 03:27:49 -0000
+Message-Id: <172231006993.18492.17445615315494703115@gitolite.kernel.org>
 
---===============4218103599992234525==
+--===============7768963927196894179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: e3943f00afdb71684c4f209f9d3a90d6b79771fc
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: d992f881764cc89444aa5a9752ff508a1baeb61e
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-e3943f00afdb-8400291e289e.txt
+    log: revlist-d992f881764c-8400291e289e.txt
 
---===============4218103599992234525==
+--===============7768963927196894179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3943f00afdb-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-d992f881764c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4218103599992234525==--
+--===============7768963927196894179==--
