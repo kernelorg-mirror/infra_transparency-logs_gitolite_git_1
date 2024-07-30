@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 30 Jul 2024 15:53:26 -0000
-Message-Id: <172235480675.5262.2949589051887124365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 Jul 2024 16:01:18 -0000
+Message-Id: <172235527897.11413.3770380089926898182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 7f18d3359a1fb38c8139c5abbb49378d137ef114
-    new: 019aeabb27d43737d36b77760d3f760d8c96a2ef
-    log: |
-         489d8655963b6c09c84b1479230a09b0cbbb60a0 NFSD: Drop CB_OFFLOAD Calls
-         019aeabb27d43737d36b77760d3f760d8c96a2ef Debugging
-         
+  - ref: refs/heads/20240725_shengjiu_wang_asoc_fsl_micfil_check_the_difference_for_i_mx8_and_i_mx9
+    old: aa4f76ef09a993efa9b5fab6ddf5d6d324baaea3
+    new: 0000000000000000000000000000000000000000
