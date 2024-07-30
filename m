@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8306536185158341068=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 30 Jul 2024 08:40:33 -0000
-Message-Id: <172232883372.22797.17411137208121401368@gitolite.kernel.org>
-
---===============8306536185158341068==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 30 Jul 2024 08:46:40 -0000
+Message-Id: <172232920075.26688.3956999214348721758@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 5c81b7084513f5c53bca5e51112be8ee2614454d
-    new: 56cbdc48846dd3fa5ccc5c1906cdc6fa65d9babd
+  - ref: refs/heads/main
+    old: 039564d2fd37b122ec0d268e2ee6334e7169e225
+    new: 0cd55ef92a4a94fabc6e7d5fb2e8dfced1860d88
     log: |
-         56cbdc48846dd3fa5ccc5c1906cdc6fa65d9babd update cvelistV5
+         b6a66e521a2032f7fcba2af5a9bcbaeaa19b7ca3 mptcp: sched: check both directions for backup
+         efd340bf3d7779a3a8ec954d8ec0fb8a10f24982 mptcp: distinguish rcv vs sent backup flag in requests
+         4258b94831bb7ff28ab80e3c8d94db37db930728 mptcp: pm: only set request_bkup flag when sending MP_PRIO
+         4dde0d72ccec500c60c798e036b852e013d6e124 mptcp: mib: count MPJ with backup flag
+         935ff5bb8a1cfcdf8e60c8f5c794d0bbbc234437 selftests: mptcp: join: validate backup in MPJ
+         6834097fc38c5416701c793da94558cea49c0a1f mptcp: pm: fix backup support in signal endpoints
+         f833470c27832136d4416d8fc55d658082af0989 selftests: mptcp: join: check backup support in signal endp
+         0cd55ef92a4a94fabc6e7d5fb2e8dfced1860d88 Merge branch 'mptcp-fix-inconsistent-backup-usage'
          
-
---===============8306536185158341068==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722328831 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1722328831-bc7805e51eb4a130e32f7306988e193e20c5223b
-
-5c81b7084513f5c53bca5e51112be8ee2614454d 56cbdc48846dd3fa5ccc5c1906cdc6fa65d9babd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaopv8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZCQQAJYVc8KJ2JHeob87uHSS
-MHMyXNfxlwkPvlseUCNr5aqFXJ80Pze1CXlIt+0JbrWRKJfPGMh+fVemmDTViIbo
-OqqC9OSCpIilMVcWFWH6F4hkQHwYI2cAjr/MX3RpbOCWSFDibLBwL4tviqqJDusf
-ZpPyKDpIRpJS8hu0tWtzjIWkNppBzgv5iyJJTpBtL60WOL+ZXohOzK12zWGmn2TE
-bsTEHiJTJTRqPrVoIB8J3RSJwXkB10oJ4BUXOvUBZ8eMvWVtOygc7dcGDU35Nfs/
-u95PTu5knWFFLJDbjNisDOo5stbLwLinMVhw/G97uUY4BCP8aLBA5wbQcf7lrNKW
-L3pxKiubF52purvqcIuN1KNG2enodRRaiaZfKapcCWpilYFj8obiD+Nw6j0eB4X1
-OdhlS7eW9eO3mTj8jHFV99NnDZ+igeqY6sNWqkjnztY9n9yvLCfvsGauN+iia3Qe
-c4QtiPsD0czp8V4K3lyM4XdMQh+OpTYM/kREkNa9zeA7xSs3G4BZ9Hc4y+5K+mOr
-bftR2JkbkqdKHR6OiRoajeaoSQcIgxjHbRD1OgHYPAYo6Ld89mp2RLlxHxbpNU6o
-0BDnzO9YPhcGg5dOwl/KJID/8fAE1pPFPotUvnZm+mqNp3L/83LLBZCd916K587Y
-JAmUzTiCYuAHIFp+visGqj9w
-=W6B2
------END PGP SIGNATURE-----
-
---===============8306536185158341068==--
