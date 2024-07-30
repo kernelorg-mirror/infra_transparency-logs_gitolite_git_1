@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4855969049685223495=="
+Content-Type: multipart/mixed; boundary="===============2574812805454727958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 30 Jul 2024 22:36:16 -0000
-Message-Id: <172237897685.12845.12107087474189456447@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 22:36:20 -0000
+Message-Id: <172237898009.12917.13800779758165782063@gitolite.kernel.org>
 
---===============4855969049685223495==
+--===============2574812805454727958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: de4f2f52f93257433c9029ba2b4044cd9f029b21
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-de4f2f52f932-8400291e289e.txt
+    log: revlist-8e5c0abfa02d-8400291e289e.txt
 
---===============4855969049685223495==
+--===============2574812805454727958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1722378975 +0200
+pusher andi.shyti@kernel.org 1722378979 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1722378975-3f665f361aa99cd870dae7501b0a238e2d88b686
+nonce 1722378978-774b3033d1719a94f31eed31114b4c3848684974
 
-de4f2f52f93257433c9029ba2b4044cd9f029b21 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/i2c/i2c-host
+8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74 8400291e289ee6b2bf9779ff1c83a291501f017b refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZqlq3xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uI3oBAIO3hnu82CYaAp+2OEoQZmX/HcmN
-0/KbQ6pmv9dmNM+OAP9ycNB7bbMQhCHokrUQa3YlsFhYWbN7ASQEzj5Vq9uACQ==
-=TfGR
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZqlq4xYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u9YQA/1MaoFo8+39xw5xo4MY2djZvBA4l
+BgtCaM/jIXpBi9xOAP9/8r6KpvIMLNgbAOdWWesejtawvFbgF2+vMNjeYnMiCw==
+=AxTP
 -----END PGP SIGNATURE-----
 
---===============4855969049685223495==
+--===============2574812805454727958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de4f2f52f932-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-8e5c0abfa02d-8400291e289e.txt
 
-fe7d9d804337180d2377f0654537970c6cd863f7 rust: kernel: make impl_has_work compatible with more generics
-9ffc80c819739ab60c42223c46b7351cec6a0e97 kbuild: rust: remove now-unneeded `rusttest` custom sysroot handling
-d3ee24cce4e558041cbf21a5bc9cd9a4b1b3c7e7 rust: alloc: fix typo in docs for GFP_NOWAIT
-ab44079e2869c9f1743d167d5f9b5befe375b6d9 rust: alloc: add __GFP_HIGHMEM flag
-b63c455d38be5f62a0665f3080c67334db5b4c41 docs: rust: no_std is used
-6dc9d9ca9a728c8b30976d3ca353563ba0bfb949 kbuild: rust-analyzer: better error handling
-5045b460843adf5bb31774b9464df5ae8e4da0d4 kbuild: rust-analyzer: improve comment documentation
 1b580e7b9ba2e5939c4b94da2cb4888605b39955 rust: uaccess: add userspace pointers
 1f9a8286bc0c3df7d789ea625d9d9db3d7779f2d uaccess: always export _copy_[from|to]_user with CONFIG_RUST
 b33bf37adbb2ae35881e7fdd997ce3334d71b129 rust: uaccess: add typed accessors for userspace pointers
@@ -664,6 +657,12 @@ d2c5eb57b6da10f335c30356f9696bd667601e6a cifs: Fix missing error code set
 4920a2590e91bc15068e789aaf4ddc522f772fc5 selftests/vDSO: add tests for vgetrandom
 13f75d9ecf3d8efcf597dfcd8f7be7460cdaa11a random: note that RNDGETPOOL was removed in 2.6.9-rc2
 ad8070cb1b4bd40aa19a5e3f7c24d7f62c71b382 MAINTAINERS: add random.h headers to RNG subsection
+8c4ff24d7cc84432a9f1055ef57e4c86706b38c7 dt-bindings: i2c: qcom-cci: Document sm8550 compatible
+064e911392177e8c39e395f748fb4ae8ffb18e92 dt-bindings: i2c: qcom-cci: Document sm8650 compatible
+dc53dbe3e79008ca7c1bc5e5ae2c71b52161f96d dt-bindings: i2c: mux-gpio: Add 'settle-time-us' property
+a618d86d5a1cf1ac6edbbe0e2b29649afb3decf0 i2c: mux: gpio: Re-order #include to match alphabetic order
+45b8ee7182d5ef8df6959297046f86dc128d6a06 i2c: mux: gpio: Add support for the 'settle-time-us' property
+8f3075cc680c232590ca4e2ef39ebaf1e887a52e i2c: smbus: remove i801 assumptions from SPD probing
 3f386cb8ee9f04ff4be164ca7a1d0ef3f81f7374 Merge tag 'pci-v6.11-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 cbf5009580c7c86e9822b3e675df1762ea0a5a0a mailbox: qcom-cpucp: fix 64BIT dependency
 0e3bb6ee88874fc052a6f7a8eb18463faea0a63d mailbox: zynqmp-ipi: Make polling period configurable
@@ -677,6 +676,7 @@ af7925d82096d30bf971d41a109bd42f6a027ec2 kbuild: Abort make on install failures
 9d0d266046571f4b3e733c7eb9cf7c959f37fbdd kconfig: recursive checks drop file/lineno
 44ad2814ca58fc43ab473d8fbb3b46a2b39a0392 kbuild: clean up scripts/remove-stale-files
 6e6ef2da3a28f3e02fd204b4f8821030b61f8cd4 Makefile: add comment to discourage tools/* addition for kernel builds
+de4f2f52f93257433c9029ba2b4044cd9f029b21 i2c: piix4: Register SPDs
 b93f410b8b2a9a6344ea27ea9f1038e351b112f3 Merge tag 'spi-nor/for-6.11' into mtd/next
 78a0b13f5744bd270d0c2391973605d9960a402a Merge tag 'nand/for-6.11' into mtd/next
 6318f219cd8971296c04371b2dc4a0bff7f44858 Merge tag 'i2c-host-6.11-part-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
@@ -1072,4 +1072,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4855969049685223495==--
+--===============2574812805454727958==--
