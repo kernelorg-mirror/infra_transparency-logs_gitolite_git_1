@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 30 Jul 2024 12:50:40 -0000
-Message-Id: <172234384095.29575.17133054067313087437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/quota/quota-tools
+Date: Tue, 30 Jul 2024 12:50:59 -0000
+Message-Id: <172234385930.29798.10900624367975654989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/utils/quota/quota-tools
+user: jack
 changes:
-  - ref: refs/heads/vfs.folio
-    old: 0000000000000000000000000000000000000000
-    new: c1dbed4c3c12f54037bd418b5c46a3a10d507cb5
+  - ref: refs/heads/master
+    old: e61d46c65899ced9599c93a6128f19d8759fcad8
+    new: c59b85805ee64c7ee2937b91533eb96f56d87738
+    log: |
+         c59b85805ee64c7ee2937b91533eb96f56d87738 quotaio_xfs: Fix memory leak
+         
