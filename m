@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 30 Jul 2024 13:51:05 -0000
-Message-Id: <172234746559.10062.12481094493349140764@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0836768040597849155=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 30 Jul 2024 14:05:10 -0000
+Message-Id: <172234831039.19927.7204590542047404395@gitolite.kernel.org>
+
+--===============0836768040597849155==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: fc9143fe3439b74733b2030b83ebbf9dcb9f5f3d
-    new: ddfb6bebf1887644d9c8e510205b0cfff2f5a0db
+  - ref: refs/heads/master
+    old: 4228492c6563710bf49f6facc3b6c1ff6814ea1b
+    new: 14522dac8f0103cb789ee0c4b2608126c0aecb9e
     log: |
-         f8f5b6e49b56bf3c6e7835f2b67a5001ff3c184a thermal: broadcom: Use thermal_zone_get_crit_temp() in bcm2835_thermal_probe()
-         0fcd64c6fff068a378795b8ebdab7f88b868093c Merge branch 'thermal-core' into bleeding-edge
-         d2c5cc825e647c021d6844954904855f4141a9ac thermal: intel: int340x: Fix kernel warning during MSI cleanup
-         95c1bbcdae1ea9b13805be48382e374e9f59f8fb thermal: intel: int340x: Allow limited thermal MSI support
-         c3b826d29786105014f9625dfb8e6c303db2ddcc thermal: intel: int340x: Free MSI IRQ vectors on module exit
-         ddfb6bebf1887644d9c8e510205b0cfff2f5a0db Merge branch 'thermal-intel' into bleeding-edge
+         14522dac8f0103cb789ee0c4b2608126c0aecb9e 4.19-stable patches
          
+
+--===============0836768040597849155==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722348309 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1722348308-29fd18e75d432de4aa28d256ddb722137b24e287
+
+4228492c6563710bf49f6facc3b6c1ff6814ea1b 14522dac8f0103cb789ee0c4b2608126c0aecb9e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmao8xUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sL4P/A+JyAaJ1aCKvSP0vM8E
+4ltwmA/G/Kg4n1IczKqFJelJyJPhQ/vAGLfRHRUnXiErpOqXv8HGhSjZ5N2h8jQ4
+UF52iN2ktV0589QY7AtTAlbowR4AFbL0rKFhnHh3dv7quGWMA0EZf0lHbQSR9gEO
+K1UI8CslWMmNLuILjNGRl0bxRGRJY9pR+NRcHRoGeesWHr+/akEeGxmiHv2eKlJO
+Lh8STbxespq+2+jhFyYKDFBCXZ/WUzX/tiOgRQG/zUApeOzCftFqrT6NLVMgNWPj
+uwBTaJNOJVww65ikW0s2deD98aMVZUrJUWx01S/uVKhwfOcyKasOYWVkmNmS4VGZ
+dD0sQOhgzCBhZhbfRawVoSK7Eixir3H+GthqXrw1bIRXYfdVnBO3XAfj5LhLnHNu
+ZJd1SB4GpOvomeH9fntwShtGNylR3A8TeAzWdiw9XiM/BDhYugf3ZJAQtWKqktry
+gMa6zvP3gTrTko2yWnrQ3uZ5CGwF5Q0eJWLjeviyaExsZz1O9tvOs5HjoYRzlQFU
+VKbG9MF3+PPp2ZHuITem5BbjZJLGUOQN6Kw5LQhUGNvLluR4rxqJSIbulSC1yau4
+6SGmqyILAg1L4Dt720/4VqCHk8MjJbnuNffKh9KTjLtHbBALVqqE3P06466INil7
+SBkirUr+t09vI/ILY216pSn+
+=3qAC
+-----END PGP SIGNATURE-----
+
+--===============0836768040597849155==--
