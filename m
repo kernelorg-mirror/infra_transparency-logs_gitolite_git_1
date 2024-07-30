@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 30 Jul 2024 20:02:01 -0000
-Message-Id: <172236972199.28702.16236803335982203089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 30 Jul 2024 20:09:27 -0000
+Message-Id: <172237016748.2210.6181040205280660691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 22f5468731491e53356ba7c028f0fdea20b18e2c
-    new: c91a7dee0555f6f9d3702d86312382e4c4729d0a
+  - ref: refs/heads/kdevops
+    old: b185bdb575f34f8300542548c6750840be0bc77f
+    new: 3bf2880762bf5af0b62942b84a4c0514333cd6fc
     log: |
-         df615907f1bf907260af01ccb904d0e9304b5278 platform/chrome: cros_ec_proto: Lock device when updating MKBP version
-         c91a7dee0555f6f9d3702d86312382e4c4729d0a Merge tag 'chrome-platform-fixes-for-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+         3bf2880762bf5af0b62942b84a4c0514333cd6fc fs: try an opportunistic lookup for O_CREAT opens too
          
