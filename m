@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 30 Jul 2024 11:16:50 -0000
-Message-Id: <172233821068.24613.18313418764282821830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 30 Jul 2024 11:23:24 -0000
+Message-Id: <172233860437.28638.306908902734368561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: pratyush
 changes:
-  - ref: refs/heads/master
-    old: 6b5faec9f564ea627c66064a4a6a5904fe5a07dd
-    new: 94ede2a3e9135764736221c080ac7c0ad993dc2d
+  - ref: refs/heads/spi-nor/next
+    old: 5ddd59994417e5e7125637ab5d606006b8631c96
+    new: 95b9c9a7777d0bebb5dd82c9f8b1aba91d406a41
     log: |
-         94ede2a3e9135764736221c080ac7c0ad993dc2d profiling: remove stale percpu flip buffer variables
+         95b9c9a7777d0bebb5dd82c9f8b1aba91d406a41 mtd: spi-nor: micron-st: Add n25q064a WP support
          
