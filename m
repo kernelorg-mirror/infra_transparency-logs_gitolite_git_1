@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1670034903104173830=="
+Content-Type: multipart/mixed; boundary="===============1107770934969431085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Jul 2024 02:01:30 -0000
-Message-Id: <172230489088.20579.13945741098515260672@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 02:01:50 -0000
+Message-Id: <172230491067.20783.14232932245075772636@gitolite.kernel.org>
 
---===============1670034903104173830==
+--===============1107770934969431085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,55 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 7a6bbc2829d4ab592c7e440a6f6f5deb3cd95db4
-    new: 7c632fc3ce64c05bae4addbdfa174f98d0431ca4
-    log: revlist-7a6bbc2829d4-7c632fc3ce64.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 198b26fba9ca5a874c8d743a568546fff89e49e7
+    new: 9bc2b113b4175d5c0a491bd28dd46e1444ac81d0
+    log: revlist-198b26fba9ca-9bc2b113b417.txt
 
---===============1670034903104173830==
+--===============1107770934969431085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1722304889 -0400
+pusher 75C5DE3D 1722304895 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1722304886-9878614f1ba62f9ea857345958276694d2ef2799
+nonce 1722304895-af2c48300cb265c20f5fe415b16ef52369e0dafb
 
-7a6bbc2829d4ab592c7e440a6f6f5deb3cd95db4 7c632fc3ce64c05bae4addbdfa174f98d0431ca4 refs/heads/fixes
+198b26fba9ca5a874c8d743a568546fff89e49e7 9bc2b113b4175d5c0a491bd28dd46e1444ac81d0 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaoSXkACgkQ7ulgGnXF
-3j2hFA/9FXlNJ5YfUtFvYQ6tffyyCNIK4PBI40Qv/6quJqP2fzjusEZ5RgdnfLmN
-JTAGlh3poYco1eS5mOjaHvZ9uenbo+N6RyRp8WwV5J9+H0AkgaFePqi8Frd1HoU3
-cqSPmno2zVuCbNaPkfBYtVyfjxxD1TD8HwJRb7C/GjEH0Ekk3M7nOL2t048EbV3h
-4EZ1wL6zPBWIzGlGOJBK70+UnbiroS5IvCqUuPG4t2miU8OhhOOe6dUPoAEzNZSE
-5DwjlCiZ1FCHEuUPyeWpRAdTTH6MZobMHCfYQXwz1X3rLMD5wmLqvndR6hzPXHbz
-ks4/ZImZasDWT17/PnMHN20q9IZtROjrBxIVsYZLtIQApD0g2H2S40fBTSNwPRlN
-/eurYG3pa4v8JVMQw6Lz12qv6zuCvZ4BAmsY2ILy4oC/V/lmLG8Zvkcm8c58m95T
-wAOHzykWBLT+7ihnjcInfgTUVDIM3tRNQ6mgS5CZNUmmeF9tFP5FNJdS+22oGkUI
-P+saPUhCOibjTUsjTvVt+pt0BWGkMH8ksJOsMz1ycTCxgTMXJPQOAFm9NMyBP7jM
-Mo9m7/rRa6BrLzYM0uRMDVtbb9u3+F3hgHVYryEPTxU4CrP/LBxPOga/vOzOhKQk
-RTHL1JfZg/jbRFjaXZo5xkMc2Tv5yb2lOjyEpztS6Hn11Rk8XlA=
-=sw5v
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaoSX8ACgkQ7ulgGnXF
+3j3X8BAAr1n+VRnq/WXZOhcMlbjI1XK0uoY+FAcCP8kU5Zj9eICyM1FVx1RInqod
+Tv/xWjrIC1UcvdKk86cOfRXL0cfxfye0vXOtwsSqUskBB8BMQ2YeQbMBHoTT70LX
+b2H8kquoNrbT4HWry1IkYh8QKXkwUSwVbp12uF3V3fK1Z92aXi6jlyFP+XJ9XUJS
+DlDY7uIc1eiZD9YhxLaKiyKmEzpvSREZcwethywBTRRHYcfmikqH3bO5hu5Y38g1
+DPA8ORTdZo51ep65mjYGt0cZaDIVTRDxcTgCLp18KBktFPwTLIDrXZ9IVFS9srWs
+8BGW9kuCyhdVLHMAIEidwRgd9u1VVtwPK4GGXSZG7j+Gs2OBWCeEPgy/ez4ToY0z
+0ssoCtQzjIXTVw75Flb8zvB9Ig/W60R7Nhyru/rZ58mb93mhiaPzQsotLUQO4pl8
+FGMArp78lHgmPlh0/yWZnN3wff0KzmXOYy+jzYtofQlLY6OlvvId6D7SharQLDBJ
+UNaYem9xEnGlIXt/5rY7oGCidjYTc80KkFCf6YAHozLFjepzmHvoJBYkMmhMYAZm
+pnn7hiKFYAwEtqyBLtPMCVLuGWaCbACsqGm033RhgqO2VmqOTjWJ3dDLAzazEp4a
+N5TgUrs7N+fT/0wtN+SVKyypOBcRENfTbRwabrV2yenqi5dn/Rg=
+=RtvZ
 -----END PGP SIGNATURE-----
 
---===============1670034903104173830==
+--===============1107770934969431085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a6bbc2829d4-7c632fc3ce64.txt
+Content-Disposition: attachment; filename=revlist-198b26fba9ca-9bc2b113b417.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
+9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
+519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
+b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
+fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
+1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
+3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
 473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
 87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
 88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
@@ -260,11 +269,8 @@ e23dd95cfd063632fb212390740940f2761e322d Merge tag 'spi-v6.11' of git://git.kern
 181a984b7d8d98e5997bcd8e2ebe6ade1b36978e Merge tag 'x86_cleanups_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 98896d8795d72acf166f83b06c2706effa019d92 Merge tag 'x86_cc_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 93196575442e13a1bc4190ecd870ceb21866013c Merge tag 'x86_core_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0c60eb0cc320fffbb8b10329d276af14f6f5e6bf scsi: ufs: core: Check LSDBS cap when !mcq
 1d86d352411dab9bf9312c9eb4b2d4020195be45 Merge tag 'x86_build_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 222dfb8326dcdc3181832d80331d2d4956cab42e Merge tag 'x86_misc_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-022587d8aec3da1d1698ddae9fb8cfe35f3ad49c scsi: ufs: core: Bypass quick recovery if force reset is needed
-3911af778f208e5f49d43ce739332b91e26bc48e scsi: ufs: core: Fix deadlock during RTC update
 f998678baf3c143fec4c66e7f3a84bae3b25ff12 Merge tag 'x86_vmware_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2439a5eaa753d22759fb4248e0f5e459503fffad Merge tag 'x86_bugs_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d67978318827d06f1c0fa4c31343a279e9df6fde Merge tag 'x86_cpu_for_v6.11_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -771,11 +777,6 @@ ac7473a179d65f6c5de06a4b10d3b3d36df3f172 Merge tag 'irq-core-2024-07-15' of git:
 0f2425411101128a38ad0166268975ca11fbcaeb riscv: Introduce vendor variants of extension helpers
 d4c8d79f5199055da38f880f782a3e62c599ff5d riscv: cpufeature: Extract common elements from extension checking
 b9a603da42c816af9eeb8f5084ba815353e9b22b Merge patch series "riscv: Separate vendor extensions from standard extensions"
-da3e19ef0b3de0aa4b25595bdc214c02a04f19b8 scsi: Revert "scsi: sd: Do not repeat the starting disk message"
-ac6efb12ca64156f4a94e964acdb96ee7d59630d scsi: ufs: core: Do not set link to OFF state while waking up from hibernation
-1abc900ddda8ad2ef739fedf498d415655b6c3b8 scsi: mpi3mr: Avoid IOMMU page faults on REPORT ZONES
-82dbb57ac8d06dfe8227ba9ab11a49de2b475ae5 scsi: mpt3sas: Avoid IOMMU page faults on REPORT ZONES
-47398f49dab8326bb652fa2d7a51ae5ec78775b5 scsi: ufs: exynos: Don't resume FMP when crypto support is disabled
 b6f5ee4d53019443fb99dd23bc08680b1244ccfa execve: Move KUnit tests to tests/ subdirectory
 fa165f919016829e542e37782a3452512dffa5ea MIPS: Loongson64: Switch to SYNC_R4K
 a263e5f309f32301e1f3ad113293f4e68a82a646 MIPS: SMP-CPS: Fix address for GCR_ACCESS register for CM3 and later
@@ -1079,6 +1080,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-7c632fc3ce64c05bae4addbdfa174f98d0431ca4 Merge branch '6.11/scsi-queue' into 6.11/scsi-fixes
 
---===============1670034903104173830==--
+--===============1107770934969431085==--
