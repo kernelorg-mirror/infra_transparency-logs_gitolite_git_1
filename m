@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 30 Jul 2024 23:50:56 -0000
-Message-Id: <172238345617.3293.9329311427176867816@gitolite.kernel.org>
+Date: Tue, 30 Jul 2024 23:51:00 -0000
+Message-Id: <172238346038.3368.7943156255950453384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/openfast
-    old: 7469dea3569853f2339be1616a66d48006b72047
-    new: 41f61e48d767b9b596fd69266084291727f3c7ae
+  - ref: refs/heads/kdevops
+    old: 3bf2880762bf5af0b62942b84a4c0514333cd6fc
+    new: 918625dae0a67dc7a1285fdea16414e0cfad9f1a
     log: |
-         e33c65255600768693de2724102544246a28a2ab fs: add a inode_lock-less fastpath to open()
-         41f61e48d767b9b596fd69266084291727f3c7ae fs: try an opportunistic lookup for O_CREAT opens too
+         918625dae0a67dc7a1285fdea16414e0cfad9f1a fs: i_rwsem pushdown into lookup_open
          
