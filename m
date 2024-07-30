@@ -1,40 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0439059662232015397=="
+Content-Type: multipart/mixed; boundary="===============8563395222659677582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 30 Jul 2024 09:48:15 -0000
-Message-Id: <172233289543.21359.12311768151925342511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 30 Jul 2024 09:48:46 -0000
+Message-Id: <172233292685.21621.7337071000298378069@gitolite.kernel.org>
 
---===============0439059662232015397==
+--===============8563395222659677582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: fe6a18333df4efbf9581d8a7e89524b9da285053
-    log: revlist-8400291e289e-fe6a18333df4.txt
+  - ref: refs/heads/master
+    old: 323a2503c61802ad449d69e49aa5b5256c6ada9c
+    new: bc33b0ee70f095701a1f81b3344f25d2abaafe51
+    log: |
+         bc33b0ee70f095701a1f81b3344f25d2abaafe51 6.1-stable patches
+         
 
---===============0439059662232015397==
+--===============8563395222659677582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-fe6a18333df4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ded525f8ac5db53286b0eabb679ecf7edb974eaa soc: mediatek: pwrap: Constify struct pmic_wrapper_type
-10c1ea1eaf4d107c323321e92237ba67848de291 soc: mediatek: pwrap: Constify some struct int[]
-1c28c9452d521bf21dc5d2c50a47c2e43002728d soc: mediatek: pwrap: Use devm_clk_bulk_get_all_enable()
-d1e5d531d20b085bb83d9ab1868ed99fdeb0cc42 soc: mediatek: mtk-mutex: Reduce type size for mtk_mutex_data members
-2317d018b835842df0501d8f9e9efa843068a101 arm64: dts: mediatek: mt8186: Fix supported-hw mask for GPU OPPs
-b0a4ce81f327eae06c1088f1a437edc48a94a3e8 arm64: dts: mediatek: Add ADC node on MT6357, MT6358, MT6359 PMICs
-d92fd0cc01b31d59a0e95f44e3f08921fd74fb87 arm64: dts: mediatek: cherry: Specify pull resistance for RSEL GPIOs
-4c03a44e266887190bdaacc7010970ae2b26b852 arm64: dts: mediatek: mt8195-cherry: Remove keyboard-backlight node
-98ef7cef1b3a5d73b5023c8661534768810dd941 arm64: dts: mediatek: mt8183-kukui-jacuzzi: Simplify DSI endpoint replacement
-fe6a18333df4efbf9581d8a7e89524b9da285053 Merge branches 'v6.11-next/soc' and 'v6.11-next/dts64' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722332925 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1722332923-4bb330efd8b8051dbb7982f426689fd695998a34
 
---===============0439059662232015397==--
+323a2503c61802ad449d69e49aa5b5256c6ada9c bc33b0ee70f095701a1f81b3344f25d2abaafe51 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaotv4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F38P/0DHTck6Kfo3+48i+0gw
+4nCF1Kg3OqFKKNri3u8srt08O9zlXE2kSaF3Rl+mpDUItKrMMBgdM40+SZMciAwT
+tZSFzrpl9CSLVA5n9WG8KMUUVUJyfMlxhXTodBj+ikjXocH5ewRjvCuvXV2zXlaR
+OdM0Z0zI17eFudhyusMGAo3sYl0mm0o0UJOUPR6Lsh1KOU5RdSSzWD57nLk+Ja5g
++eUMmAEGa3sfB6O5lYFaGTRt0gA7WpbODE4mQLUXdZz50PuMaKyyA/hqbwYqrVXw
+1ubublWCbr3olBfniJdsqIh84oOqPqT8P86xmFWZA121HGSj2P2cVsUkbP4BLy04
+RnZ86Gd1MTjrZhuXZDxjxSuDAjyIxwer0mstPFagKU0X6Xs2udP7xbaPJvHFK/kX
+rrKlMA+R/zoF+NcWkciHvWj5Tc9cZVCcFh2EyUgMuUMUJSfO/1ozzLPSq7jZVPnV
+4EL/WjKiBwM1AJDl0tQIMBXy7BMSjFoeS20GUx3tVbWK9HvuoxISBFHKyk4HJvn9
+nwUfxZRztGypxpQQWYl3axllYrcFsQ7dBRZYS3pIX7eTdb656ntRytbts8S69dgV
+8ykwTnqyqj8etiFEz1u0PKSE8fN7d+CCMHftrqs6xEnV7wUheXfsMYhV8UfI0pih
+ahpDp7iy4NIkxvnC3ZJbQizD
+=y9PV
+-----END PGP SIGNATURE-----
+
+--===============8563395222659677582==--
