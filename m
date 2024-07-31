@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 31 Jul 2024 17:00:14 -0000
-Message-Id: <172244521471.14303.6447878396188922959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 31 Jul 2024 17:01:49 -0000
+Message-Id: <172244530971.14987.5905338305131559341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: fcf39175e35ef086ffbe4e84ed6dcd3bf4c0aeea
-    new: 549d38852f665d8251b2c0c0e8c9f3d5574ac99b
+  - ref: refs/heads/for-6.12
+    old: 00bd1fd4ae923472d55df1172bc0eacfed005840
+    new: ab03125268679e058e1e7b6612f6d12610761769
     log: |
-         549d38852f665d8251b2c0c0e8c9f3d5574ac99b client/player: Fix not setting config target_latency with edpoint.config
+         ab03125268679e058e1e7b6612f6d12610761769 cgroup: Show # of subsystem CSSes in cgroup.stat
+         
+  - ref: refs/heads/for-next
+    old: 00bd1fd4ae923472d55df1172bc0eacfed005840
+    new: ab03125268679e058e1e7b6612f6d12610761769
+    log: |
+         ab03125268679e058e1e7b6612f6d12610761769 cgroup: Show # of subsystem CSSes in cgroup.stat
          
