@@ -1,33 +1,66 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 31 Jul 2024 14:10:41 -0000
-Message-Id: <172243504100.32602.663897852728812612@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8800361709018558437=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 31 Jul 2024 14:20:32 -0000
+Message-Id: <172243563271.7050.16600769426947160553@gitolite.kernel.org>
+
+--===============8800361709018558437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-linus
-    old: 3dab73ab925a51ab05543b491bf17463a48ca323
-    new: 98ea612dd1150adb61cd2a0e93875e1cc77e6b87
+  - ref: refs/heads/for-next
+    old: 33afeba25ffb96f38d5c331d48dad038cbba3cc6
+    new: 853bb140473b73232684e9e22b753f7339b34be8
     log: |
-         e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-         50a6dd19dca9446475f023eaa652016bfe5b1cbe ALSA: ump: Explicitly reset RPN with Null RPN
-         a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank conversion context
-         a4ff92ff0bdd731eca9f0b50b1cbb5aba89be4b2 ALSA: seq: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-         98ea612dd1150adb61cd2a0e93875e1cc77e6b87 ALSA: seq: ump: Explicitly reset RPN with Null RPN
+         01ce1bf22adc0d09d906319787091ce784cb9914 dt-bindings: clock: exynos850: Add TMU clock
+         79b918aa997acd5066c7962502b1daaae76b6911 clk: samsung: exynos850: Add TMU clock
+         853bb140473b73232684e9e22b753f7339b34be8 Merge branch 'next/clk' into for-next
          
-  - ref: refs/heads/master
-    old: ffeb7d52ccaa7f73a27251cc6c7fbaaa82992ede
-    new: 4d5b9b5c13e5f6e9b274c533aaf0a7fa675ae4eb
+  - ref: refs/heads/next/clk
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 79b918aa997acd5066c7962502b1daaae76b6911
     log: |
-         5f332609154e56bcd9c629149b11aafbcef9faa3 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-         d2822c521894ebc019b437c61aa5098825a62b1b ALSA: ump: Explicitly reset RPN with Null RPN
-         9d4ce1d2cd953553601860e21a11adef1afe6164 ALSA: seq: ump: Use the common RPN/bank conversion context
-         1ec0bc40c2d134c4120c07b72fff07734ef61d05 ALSA: seq: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-         4d5b9b5c13e5f6e9b274c533aaf0a7fa675ae4eb ALSA: seq: ump: Explicitly reset RPN with Null RPN
+         01ce1bf22adc0d09d906319787091ce784cb9914 dt-bindings: clock: exynos850: Add TMU clock
+         79b918aa997acd5066c7962502b1daaae76b6911 clk: samsung: exynos850: Add TMU clock
          
+
+--===============8800361709018558437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1722435627 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1722435627-7d9c8fe56b63b517e3c409ff8b875b24f4d98e0e
+
+33afeba25ffb96f38d5c331d48dad038cbba3cc6 853bb140473b73232684e9e22b753f7339b34be8 refs/heads/for-next
+8400291e289ee6b2bf9779ff1c83a291501f017b 79b918aa997acd5066c7962502b1daaae76b6911 refs/heads/next/clk
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmaqSCwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10+YD/9t1UqG8XIDRPYa/U+yX/2qGwOlVeQdBrtn
+E3x4SaXCVLvty+yoe9eFxqH0bwWuRpgotYHNuTeYMBev7dsM5N+0Ho5VQGx+KAT1
+weRyBlc/4pCt9KT4jNeFgYG1Rg4OG+nZkp1dW6BsP2TYDtb8M4b+S+mUiZgAR3y1
+TE2QfdNeI5BQV7tDVUXJUqpPJD6avYZEW/7ZTXhpd10qDNtc6Svvkfn1x/6ID8Yg
+JyvFFw4rUNDJ8YPrPGBXk+Q01CNyhASuTnsRUbTyyFCNjq9v2f7ai3rpghQiQGNh
+Z1N/kU7WKsf8yEAdfNoVneIhvPCs4/AgMgwZi/G9/gzd8V1rd83jvDKP9T5rJy5o
+T1OHtc+QEH1e4Sl70RATYK23tFPhZ62MX6rMNMiIRmES883uZ8g9yD4xgVV5X0wo
+/raHyU6mhq49rnmQ4OZbZMOmuc3cn0wfiFWIKkcdQQpxuWmInf8lB4mhzAPGIDAe
+2liiSs+6Qo0y8OgXB8a+QOWn8bwaY5OxO8+Tx0ImoBtNGTvxp8Ra09mFxt9LS0rj
+HWIRct8Dy3S3FfTpcc4uNL9zF5Di0EGVve2Mcav3ksyoYIXKdBawzSexH6s9b4vT
+VMx/4gGAtSlGSCgj7fQBPv1ayXMJ9zAGhiGoBLORn5TBCmzmnUtNKS6WqgFnXyip
+ipo0ZgmNKw==
+=ZyEk
+-----END PGP SIGNATURE-----
+
+--===============8800361709018558437==--
