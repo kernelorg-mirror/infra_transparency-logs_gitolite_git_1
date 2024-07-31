@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 31 Jul 2024 14:46:46 -0000
-Message-Id: <172243720610.26884.16796983043547230801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 31 Jul 2024 14:52:32 -0000
+Message-Id: <172243755255.30665.7768546844546927053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/thermal-core-testing
-    old: f4b0bae5669a1747bbc772e62229ea52ee32b629
-    new: c213ec5d265075e670b175f577fc30f12c2bf093
+  - ref: refs/heads/testing/wfamnae-next20240729-cbc-2
+    old: 6f5d5055a2db7061b5978354a25957b759ab3636
+    new: 3b471fd05d7f00ba9db0d6fa2d2ad5136d6f3975
     log: |
-         6b84ed6086af82aeebed29345ea314b4cb68ffb4 mlxsw: core_thermal: Use the .should_bind() thermal zone callback
-         471057192ed96b8f6e19c93777e07a5d76367672 thermal/of: Use the .should_bind() thermal zone callback
-         fe3c4ad8005737e2ec9e6336241a5419ad71fdbe thermal: core: Drop unused bind/unbind functions and callbacks
-         bd39b35f6a08b556a7c6576acf70bb0a1c93d641 thermal: code: Clean up trip bind/unbind functions
-         c213ec5d265075e670b175f577fc30f12c2bf093 thermal: code: Pass trip descriptors to trip bind/unbind functions
+         3b471fd05d7f00ba9db0d6fa2d2ad5136d6f3975 nfp: Use static_assert() to check struct sizes
          
