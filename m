@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7391859035602415716=="
+Content-Type: multipart/mixed; boundary="===============1573282563117038606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 31 Jul 2024 15:27:38 -0000
-Message-Id: <172243965845.6091.4127471187703382118@gitolite.kernel.org>
+Date: Wed, 31 Jul 2024 15:27:40 -0000
+Message-Id: <172243966081.6204.9885011815136228668@gitolite.kernel.org>
 
---===============7391859035602415716==
+--===============1573282563117038606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: f558120cd709682b739207b48cf7479fd9568431
     new: 0bf50cead4c4710d9f704778c32ab8af47ddf070
     log: revlist-f558120cd709-0bf50cead4c4.txt
 
---===============7391859035602415716==
+--===============1573282563117038606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a7f3abcf635767b2e19c4c55c4c35756595ebc86 net: phy: aquantia: only poll GLOBAL_CF
 89add40066f9ed9abe5f7f886fe5789ff7e0c50e net: drop bad gso csum_start and offset in virtio_net_hdr
 0bf50cead4c4710d9f704778c32ab8af47ddf070 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============7391859035602415716==--
+--===============1573282563117038606==--
