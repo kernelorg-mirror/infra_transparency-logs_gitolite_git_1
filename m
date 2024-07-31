@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5707238224838114578=="
+Content-Type: multipart/mixed; boundary="===============3030829911902452404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 31 Jul 2024 11:14:00 -0000
-Message-Id: <172242444078.28151.13971618965679437991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 31 Jul 2024 11:21:04 -0000
+Message-Id: <172242486480.1685.11455225512662297301@gitolite.kernel.org>
 
---===============5707238224838114578==
+--===============3030829911902452404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 104831a17518796fb29e803fe07eb87ce9df884d
-    log: |
-         4d41a49c4660eca5214d8b6f85cc8569c7d77599 comedi: ni_*: do not declare unused variable range_ni_E_ao_ext
-         104831a17518796fb29e803fe07eb87ce9df884d hpet: Optimize local variable data type in hpet_alloc()
-         
+  - ref: refs/heads/for-next/scmi/updates
+    old: 651a7607e0b014d2d3dbc63b2952ac324e8025ad
+    new: c466c11330b8be75979918dcb8651645e255a83e
+    log: revlist-651a7607e0b0-c466c11330b8.txt
 
---===============5707238224838114578==
+--===============3030829911902452404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-651a7607e0b0-c466c11330b8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722424437 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1722424435-c169553dd901eb540f36e6e426d63b75933bbbf4
+a3e29bef9b656e0e90103b1871dd1df0a3d49185 firmware: arm_scmi: Remove superfluous handle_to_scmi_info
+472248d300846fae55cc222469da0a7b8cb36892 firmware: arm_scmi: Add support for debug metrics at the interface
+7f2aebc47e082298cd30705631a5fa89b3a1a63c firmware: arm_scmi: Track basic SCMI communication debug metrics
+91c0b3292062489765b3b43fa88c5416e58ec4e9 firmware: arm_scmi: Create debugfs files for SCMI communication debug metrics
+9092f86252bb532eb8c5c657d854e406d9916327 firmware: arm_scmi: Add support to reset the debug metrics
+0dc449f535771b65083aacff2a2d4fd7882df7c2 firmware: arm_scmi: Fix double free in OPTEE transport
+9b1dc20b658c3720245be20d9a788746b03cf0d1 firmware: arm_scmi: Introduce setup_shmem_iomap
+df2d8509cfc754c4a99bcf59d701b5a6757fe06d firmware: arm_scmi: Introduce packet handling helpers
+ac3a46b6855b66c9a5c39714198d8e39401ab6cb firmware: arm_scmi: Add support for standalone transport drivers
+90e82d325ee05417b2e2af41ab9f73ffdde96d94 firmware: arm_scmi: Make MBOX transport a standalone driver
+d3b8f36b913c85a0da03f0bb9a5bee1e5d3cab8a firmware: arm_scmi: Make SMC transport a standalone driver
+b2f91e0f6191c3ed8a95b1e6289c91d3f537772e firmware: arm_scmi: Make OPTEE transport a standalone driver
+641a7cbacaaddd7093e2b96777c44291abd7be58 firmware: arm_scmi: Make VirtIO transport a standalone driver
+c466c11330b8be75979918dcb8651645e255a83e firmware: arm_scmi: Remove legacy transport-layer code
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 104831a17518796fb29e803fe07eb87ce9df884d refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaqHHUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wT8QAIzuTmFnW3DzssqOwUOx
-23oph+1VmfCaHm01cX26qgXiYPfTuz/j4IKcc9bCszkKQ6aXebpKdfqkxlUWnbUi
-c+GDycnI7QdyxfAhPFtiO7IiRAxy6Hf/5EnQt59Ths4UGQTDYcT6ni2dhnfypAu/
-a1mKsTd4szdnZezLFs5htDHd8dkXaETkowi6KDSFF1SxyWtCrStHq/GP5L5SXn5V
-ZIQoaVgf4E4Jmo6PUzEREEqxCnhAROM4JCS4k8oO+GqR7o4KStFIzfi4YpH64JYr
-HaRAY7iCxqbz1XSJ/6EePLxPjb+Pf3Zwp9Y+pCjmQbCo9PEt4HHuXB2YyaKu4ur2
-a/bJHfoLwQEk58utGxcdwjRjpf2sNLhTt+1f46cTM8NBH1jnacEi0yRdiVC9KM3S
-aq5qt0O4M+8gyUBq1/LnNUFAGSG5fkpE54otg1AonlQezrhl9yaxGj5eSGWUEnSb
-+6pYU5ttWf/SxWqlBMrP8aZqxcAhTZgbms0YIWz+tA48Zpdd194LhVAuMDCBUVBh
-EKhYaCJMNEWJJSwgDg7JSL5lvfdPXZ3P1sBMpt30o+sHtAmOhJ6T4QBz0EdxDdIB
-6XL5gWtytS6ECfvM4NLXH6H5Ax7T1/noeHoS7nRvrFzU9iBXLnJX0AIxlsmfBOf4
-2yDgN1JDguJuJF7LlRx6nlgf
-=WdSM
------END PGP SIGNATURE-----
-
---===============5707238224838114578==--
+--===============3030829911902452404==--
