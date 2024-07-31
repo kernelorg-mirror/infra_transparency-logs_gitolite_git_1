@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2874147473675107440=="
+Content-Type: multipart/mixed; boundary="===============3437691878846415955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 31 Jul 2024 06:13:51 -0000
-Message-Id: <172240643193.2053.4913275846491039970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 31 Jul 2024 06:20:00 -0000
+Message-Id: <172240680091.5923.10004571957228877628@gitolite.kernel.org>
 
---===============2874147473675107440==
+--===============3437691878846415955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b983b2e4d276813fcbbb42bbe8c481b7d59a87e6
-    new: 710122bcb9dd2c060cf7dbf0b19f5345c701b112
+  - ref: refs/heads/staging-testing
+    old: 2501b491993f3165fbd01c09fb553113b934b211
+    new: 5aa0018a93bf2848f625a2eb9c531028cf690b7f
     log: |
-         710122bcb9dd2c060cf7dbf0b19f5345c701b112 5.15-stable patches
+         fe4f695d753fb2200168ba6249136b7a719f73fe staging: rtl8723bs: remove space after pointer
+         13dda5c5096883fe40cc6f8e492d6e7a57506f99 staging: rtl8723bs: rtw_mlme_ext: replace spaces by tabs
+         8682231045af0ea9ba19f7746118f5dd9eb6e05a staging: nvec: Capitalize outputs to match the rest of the driver
+         5aa0018a93bf2848f625a2eb9c531028cf690b7f staging: rtl8192e: remove duplicate macros from rtllib.h
          
 
---===============2874147473675107440==
+--===============3437691878846415955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722406430 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1722406429-a8d4be048c94181ad1bbd830ef971de04c71899c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722406794 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1722406793-330d66b80e55858f788576b25830aace6aa0fc0b
 
-b983b2e4d276813fcbbb42bbe8c481b7d59a87e6 710122bcb9dd2c060cf7dbf0b19f5345c701b112 refs/heads/master
+2501b491993f3165fbd01c09fb553113b934b211 5aa0018a93bf2848f625a2eb9c531028cf690b7f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmap1h4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pD8QALcX42j2josz8/nEQFey
-1qkaQoMMpvKMDzUeoMdzJGdicSDDrgBgOWKpAgCxq4LIXBIw+B8dK4aduzhn/Sxj
-McjltkOgLBQVV2O/KpAZCglS8NdRtHmvH9pz4qhxYTxg62K6SbmS7ve+/XunKpJQ
-yLv4cJ1V4SM61uX8wUhalScrP/yzpDjKpgx1YKY7SBXzkwlrc23ZLo14RH6arGWx
-TnXZNOC1LFowxErLTCvVBTclut1bZnB8OCryCiLedbaaJPFfu6o9lX2aJaUaLVah
-WgOL4EW1hEdH2s1e+d6zL0W3xFImkcc8RrjIwxe4W3rus5d1D2+sHSwSx5bAq9wf
-2pOzqVzT2KVQnLzIxpuWFZ0xDPyJ30V3flmgsJ1+s3UnLmk/E8AW9jSEDozNO0Hq
-HyAg9GUbQs6bn6zw6uaIYPY7eRJNBx1h8bv2a1MfjDknQHwHD1vPtXeMKcS6wrea
-7kIgliBtKMC4uieR7PhdvUxNmXDGrewmrY2YwDEFVfetk7xgLnecUY9RIS94/N9f
-svCngz1eooAI7G3hrdjB81EGyjxaZ/rY/u5g3MA/iRh4nky3CB6WjyhH8HtLdmMO
-Fh1NeKIq5kNDDsA2HcT6xm7hCXrygWpn67rcR/ReZEU2La7KHWSvNRvFoJUPfr/H
-/9aSVeLPY0p9zeJtSwEwEBt3
-=yVoj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmap14obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RakP/RGi17amziYP2IYseXJp
+vgY91JfmOS3qUDGjDsDiNuo4+bhs6jZ+/KskElnKQ+97DellathnJBOSGBh+if9N
+U9bsFAq8pZg9G1hndxcScAxmMWaFKqC8WUlBjkCbroP3Pfiiq+xTKpD9flC92bCb
+yeWB5mFKsuaaDT8m5bcdX0WPlKC4ZUcZJ2Gm6IcCoKSiQRODbeh2JZ80pNkGQlS+
+GAtnlSV0S6kFU73CbX7cC9ZdLQfwTuYZAHIq0iAeicc0pYpcwLzL7eJM9Z9105iP
+kxlViiiZKe0R4Uvd9xyZz0ue5b8yv8CQVFJQGmBdm4TEWKJvPO407By6uh4GsTzJ
+PU/RTwIDS7md9M4BV1WEoIACKiTsFHSSoaq95RM17FT69gnH5PPbBOPhfOmAVrbW
+8ayuXKGxEaCCbbMsrnfoFU04Uty+EcCxEuUuGWShIPU1QM9T0+NFTuJSJz3IiDkL
+gIFoM8ISHShRr+QwmZ3gsot204bLXidSB1rPOKKKpVVH4uZrNbjcgzupcKW9qjpH
+PRJjvaSqBjYHCM62YwdiOTiyJjcx2WM0+nIYQaByOIOJRNqzkHPJGtLhtPb/2TZk
+D0/czzA4GikmwuAeWzaEKwc9GIYquTdNdXY8H4LpjRKxYlS3rcfu21UA1knu8s24
+Prl/9Dpva+p7raQjJlASoaDX
+=sncx
 -----END PGP SIGNATURE-----
 
---===============2874147473675107440==--
+--===============3437691878846415955==--
