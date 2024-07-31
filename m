@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6003527909451825862=="
+Content-Type: multipart/mixed; boundary="===============9175008982904937526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 31 Jul 2024 14:36:16 -0000
-Message-Id: <172243657621.18359.10959838231002052725@gitolite.kernel.org>
+Date: Wed, 31 Jul 2024 14:36:28 -0000
+Message-Id: <172243658892.18528.6874385920464825322@gitolite.kernel.org>
 
---===============6003527909451825862==
+--===============9175008982904937526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/features
     old: 6dc2e98d5f1de162d1777aee97e59d75d70d07c5
-    new: f24ef6ed49287149549799690e3050e421adddb7
-    log: revlist-6dc2e98d5f1d-f24ef6ed4928.txt
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-6dc2e98d5f1d-8400291e289e.txt
 
---===============6003527909451825862==
+--===============9175008982904937526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dc2e98d5f1d-f24ef6ed4928.txt
+Content-Disposition: attachment; filename=revlist-6dc2e98d5f1d-8400291e289e.txt
 
 b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
 7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
@@ -911,15 +911,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-4734406c39238cbeafe66f0060084caa3247ff53 s390/fpu: Re-add exception handling in load_fpu_state()
-0a34c027a3dd756bdc17762db3acaeacdabacaf0 s390/alternatives: Remove unused empty header file
-c8e4d73eae835a1b9f6fc29f2577770ea8ca0c03 s390/cio: Add missing MODULE_DESCRIPTION() macros
-373953444ce542db43535861fb8ebf3a1e05669c s390/mm/ptdump: Fix handling of identity mapping area
-7e4d4cfed6483303436687f1db9a28a377c6ab2a s390/mm/ptdump: Add support for relocated lowcore mapping
-7e12284c523be33f34d43b2bf8627ab0c8af2388 s390/mm/ptdump: Improve sorting of markers
-1e72ba5566d90a668c1c0fbde319cec03454fd20 s390/mm: Get rid of RELOC_HIDE()
-75c10d5377d8821efafed32e4d72068d9c1f8ec0 s390/vmlinux.lds.S: Move ro_after_init section behind rodata section
-33bd8d153c337ba9b30a2e5994437ca703ab4ed8 s390: Keep inittext section writable
-f24ef6ed49287149549799690e3050e421adddb7 Merge branch 'fixes' into for-next
 
---===============6003527909451825862==--
+--===============9175008982904937526==--
