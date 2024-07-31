@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7416164573411597384=="
+Content-Type: multipart/mixed; boundary="===============6211931449528008762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 31 Jul 2024 13:04:14 -0000
-Message-Id: <172243105495.12309.16182821080697821749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 31 Jul 2024 13:04:31 -0000
+Message-Id: <172243107136.12503.16398687535511337209@gitolite.kernel.org>
 
---===============7416164573411597384==
+--===============6211931449528008762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 756785ab6380c6686b4169ca1c655fbe067f56a9
     log: revlist-8468e028ef27-756785ab6380.txt
 
---===============7416164573411597384==
+--===============6211931449528008762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -819,4 +819,4 @@ f11e83f072b7c9f46d83af831d76972a7baf1fcb perf arm-spe: Support multiple Arm SPE 
 8953251ea95fcb379f8a8d4d517f9026b37dd826 perf tools: Fix wrong message when running "make JOBS=1"
 756785ab6380c6686b4169ca1c655fbe067f56a9 perf list: Give clues if failed to open tracing events directory
 
---===============7416164573411597384==--
+--===============6211931449528008762==--
