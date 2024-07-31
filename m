@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2291230777171106536=="
+Content-Type: multipart/mixed; boundary="===============2054969180718853254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 31 Jul 2024 13:13:21 -0000
-Message-Id: <172243160152.20186.10409377499321661502@gitolite.kernel.org>
+Date: Wed, 31 Jul 2024 13:14:46 -0000
+Message-Id: <172243168663.20763.6452955547258256638@gitolite.kernel.org>
 
---===============2291230777171106536==
+--===============2054969180718853254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/nv-at-pan-WIP
-    old: c42792aed9dc3c424dfd523c3798d8e2e8f78c9d
-    new: b28a2f9e38a67f82fc4095491ed0f1fa76d98968
-    log: revlist-c42792aed9dc-b28a2f9e38a6.txt
+  - ref: refs/heads/kvm-arm64/fpmr
+    old: f2174525bb4a8049d100d3137a0cbd7ee6c0993b
+    new: 47d8ced2877128aba57e05c6ae9ddeeec8d60c9b
+    log: revlist-f2174525bb4a-47d8ced28771.txt
 
---===============2291230777171106536==
+--===============2054969180718853254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c42792aed9dc-b28a2f9e38a6.txt
+Content-Disposition: attachment; filename=revlist-f2174525bb4a-47d8ced28771.txt
 
+3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
+473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
+87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
+88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
+92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
+176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
+8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
+f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
+936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
 be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
 3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
 d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
@@ -1033,22 +1042,13 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-79edec8ccc3af29c0b441c3d1217a30b65405f26 arm64: Add missing APTable and TCR_ELx.HPD masks
-d88359d25d7d05a93fd81328d04be041d0676bc8 arm64: Add PAR_EL1 field description
-cb2b33ea008944a9c6cc86e21564bd4f14ae96a0 arm64: Add system register encoding for PSTATE.PAN
-548bf716f67511e111dd72b4028529a3276d6847 arm64: Add ESR_ELx_FSC_ADDRSZ_L() helper
-5e1cc12ddd04e414e16d24308cae6b5c08ce5bb6 KVM: arm64: Make kvm_at() take an OP_AT_*
-9f92637b4dde7b04dae65882a91b5d38a8a60ac6 KVM: arm64: nv: Turn upper_attr for S2 walk into the full descriptor
-5a85bf64cc6700774983f9793e0c3be37885fe7c KVM: arm64: nv: Honor absence of FEAT_PAN2
-36b20ef73bbf14ba9b4cfb75bc6a2efec298daea KVM: arm64: nv: Add basic emulation of AT S1E{0,1}{R,W}
-2538ea39b30a40d56e128b3fce75bf9fc2f639c4 KVM: arm64: nv: Add basic emulation of AT S1E1{R,W}P
-ee0d1f4d425d0607901b27cea2df3dcbf181c037 KVM: arm64: nv: Add basic emulation of AT S1E2{R,W}
-1e4a9725f109e1541e39e3c0c5b11a57136becac KVM: arm64: nv: Add emulation of AT S12E{0,1}{R,W}
-82fba23803f3710e106bfeb6d8237bf64a5e8c9a KVM: arm64: nv: Make ps_to_output_size() generally available
-72b97bf043f405cf608145ac267739c75a0ebca1 KVM: arm64: nv: Add SW walker for AT S1 emulation
-e9fffe6b3b9f8eef6ca00e3bfc9ff6dd22c36fe5 KVM: arm64: nv: Sanitise SCTLR_EL1.EPAN according to VM configuration
-d08664897e92a49fbe15712b69890f8c09b0af2c KVM: arm64: nv: Make AT+PAN instructions aware of FEAT_PAN3
-23c5440974c5a6ad06ae9ae010bd8548e0fc10a9 KVM: arm64: nv: Plumb handling of AT S1* traps from EL2
-b28a2f9e38a67f82fc4095491ed0f1fa76d98968 KVM: arm64: nv: Add support for FEAT_ATS1A
+5653ccb51870cb34a597653a08a39245342f04c7 KVM: arm64: Move SVCR into the sysreg array
+053a0b284d8d31aeed53dc5d047552607f68d0e5 KVM: arm64: Add predicate for FPMR support in a VM
+a060859159c5dbc48974272f27f08948cab8fab8 KVM: arm64: Move FPMR into the sysreg array
+026312b5db13f8827db07cfe50a3ca5fb864885d KVM: arm64: Add save/restore support for FPMR
+caf273efba67b4493b3112808966ca497d642cac KVM: arm64: Honor trap routing for FPMR
+e6c04179fbbb4882056c6a3ebd15796dd255b69c KVM: arm64: Expose ID_AA64FPFR0_EL1 as a writable ID reg
+973093ef3c77692759054488bf7f238b0bb89632 KVM: arm64: Enable FP8 support when available and configured
+47d8ced2877128aba57e05c6ae9ddeeec8d60c9b KVM: arm64: Expose ID_AA64PFR2_EL1 to userspace and guests
 
---===============2291230777171106536==--
+--===============2054969180718853254==--
