@@ -1,60 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7635018520235468029=="
+Content-Type: multipart/mixed; boundary="===============1827393449529540638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 31 Jul 2024 08:17:09 -0000
-Message-Id: <172241382938.29468.10831449941905125326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Wed, 31 Jul 2024 08:25:39 -0000
+Message-Id: <172241433936.3386.14547415828549714711@gitolite.kernel.org>
 
---===============7635018520235468029==
+--===============1827393449529540638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/usb-linus
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 3ca06e90a7ceb06aaba8a9dc1c59d970824dab23
-    log: |
-         f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
-         9f4dc05107a6db3743e6b9ea4014cbdc3795682d USB: serial: add missing MODULE_DESCRIPTION() macros
-         55a15b3a713a3f24360cf9d8dcfd2a3e337321d6 USB: serial: garmin_gps: annotate struct garmin_packet with __counted_by
-         df8c0b8a03e871431587a13a6765cb4c601e1573 USB: serial: garmin_gps: use struct_size() to allocate pkt
-         3ca06e90a7ceb06aaba8a9dc1c59d970824dab23 Merge tag 'usb-serial-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-         
+  - ref: refs/heads/main
+    old: 0a658d088cc63745528cf0ec8a2c2df0f37742d9
+    new: 3fafd92edbeb523bad6aa63ab7118112d533c9ec
+    log: revlist-0a658d088cc6-3fafd92edbeb.txt
 
---===============7635018520235468029==
+--===============1827393449529540638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0a658d088cc6-3fafd92edbeb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722413825 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1722413825-0437e21bce733caa52eea4298288718f4213d95e
+2e7a280692bf43940728b7f6ca6a52ebf641a6f5 l2tp: lookup tunnel from socket without using sk_user_data
+4ff8863419cdc40f2c6e1ad99436e375b9b86b68 ipv4: export ip_flush_pending_frames
+ed8ebee6def7b7b760bd4fd90c03b9e86622701c l2tp: have l2tp_ip_destroy_sock use ip_flush_pending_frames
+eeb11209e000797d555aefd642e24ed6f4e70140 l2tp: don't use tunnel socket sk_user_data in ppp procfs output
+4a4cd70369f162f819b7855b0eabcb2db21f01f4 l2tp: don't set sk_user_data in tunnel socket
+0fa51a7c6f54f1c0c23bb256eb9b2d31a8b9c544 l2tp: remove unused tunnel magic field
+29717a4fb7fcbbcfa5f0d5e8969b8ce0929276be l2tp: simplify tunnel and socket cleanup
+fc7ec7f554d7d0a27ba339fcf48df11d14413329 l2tp: delete sessions using work queue
+d17e89999574aca143dd4ede43e4382d32d98724 l2tp: free sessions using rcu
+c5cbaef992d6420d8bcebea1b1fcc23302a67c57 l2tp: refactor ppp socket/session relationship
+24256415d18695b46da06c93135f5b51c548b950 l2tp: prevent possible tunnel refcount underflow
+89b768ec2dfefaeba5212de14fc71368e12d06ba l2tp: use rcu list add/del when updating lists
+0aa45570c3241e3bdba1a8b5b30d200c819b5b15 l2tp: add idr consistency check in session_register
+d93b8a63f011f252dcfb101d5b90367bd8f42db3 l2tp: cleanup eth/ppp pseudowire setup code
+5dfa598b249c5bd8fa620843cf9ece1ad16929d9 l2tp: use pre_exit pernet hook to avoid rcu_barrier
+3fafd92edbeb523bad6aa63ab7118112d533c9ec Merge branch 'l2tp-session-cleanup' into main
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 3ca06e90a7ceb06aaba8a9dc1c59d970824dab23 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmap8wEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N4QQALC5WkDdOdH+i7CEfZj9
-BGqaVIZ+NR92tXzMqPC8zY8RAGpYGbY4qFs2nD2rkXA0ETPENVM4a2LOzI+dQe0G
-6ax9GMItsc1SZKi09o8QtiDMq7+2NFg/39nvVfb2Xs7SHFhzq0M3PTO0pHvgftTg
-QkByRyPpiG/sl7+fkJRiAV06s/Qa1dZgTpFRCFsrhuXoGIoAKDSmQj+sXuPpg4QW
-Vic+zzqE9Bbuap7OHZkvtgCiSicfS0V93fDZlfRx+F+6O04OL5U+jzIGAlsla/E0
-G4sd6gGIlG7oCLtdOmN3+RHS6JSWMDeR82yqmNVQXHrKtExCnOjHNTnNdYHWjDUH
-L4tIv4lTddWZqVNUwK3yEtEAKUr01cqtVVGpbV+I58xv5U5ysD+HIWhVXlUx30+a
-cyn+FsgYy2HGDOKRniI9Jx4Fx4QjyOov1nRig+75cTgGr3hb3NojEfNIkZoTgg1q
-TjDMT2+2wX97zTYMivGR2BTndhXOQYv+hSZ2qbnNPp/uuyFfq7FeOZzenFslMapW
-J+AEOAnQRp/nfxUTFSsq+t9HDN2+Mydu3w6qUiXM1BHaQPo64cjhoMxtgrPjeTX+
-yUqEN/d/02OEbUkzY8iJw2JgS8NbUdm5bfgO5rvnDTn+NkjLtENmHHTp/NDCPD3U
-wbQEjyp7btYLto9HTp3TOs1y
-=gNRb
------END PGP SIGNATURE-----
-
---===============7635018520235468029==--
+--===============1827393449529540638==--
