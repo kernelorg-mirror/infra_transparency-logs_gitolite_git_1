@@ -1,54 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============1286647976364616340=="
+Content-Type: multipart/mixed; boundary="===============4128069318318734853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Wed, 31 Jul 2024 20:30:39 -0000
-Message-Id: <172245783933.7081.16169294753149099781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 31 Jul 2024 20:39:52 -0000
+Message-Id: <172245839275.13246.8527518197819251700@gitolite.kernel.org>
 
---===============1286647976364616340==
+--===============4128069318318734853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 584ebc710bc0779381595135e0686492c3908a20
-    new: f6f644859182d82c7b27b2c18cd5b50c5725bb03
-    log: revlist-584ebc710bc0-f6f644859182.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 756785ab6380c6686b4169ca1c655fbe067f56a9
+    new: 28f86dbdc23b3c0a1799281cf812d9bb152cd5d5
+    log: revlist-756785ab6380-28f86dbdc23b.txt
 
---===============1286647976364616340==
+--===============4128069318318734853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-584ebc710bc0-f6f644859182.txt
+Content-Disposition: attachment; filename=revlist-756785ab6380-28f86dbdc23b.txt
 
-bd1474707dac76621e27bf765713f9048381f0d1 f2fs-tools: fix do_set_verity ioctl fail issue
-4a5da2ef15040605685c46e84e1d12b8858586ae f2fs-tools: export is_digits
-a66d49fd267834fea0cfb699308a0eee87dbb4b8 dump.f2fs: Dump symlinks as symlinks
-4f7ac389f4af614803060d2eea71e9cbde1fd823 libf2fs: add BLKFINISHZONE define if not defined
-1a1e775935d88abc994e04beeec74c85b4c8e06a f2fs-tools: fix to do not dump inode if it has F2FS_NODUMP_FL flag
-250d610d62ef3f0763407230c5f6eae0c86c4090 f2fs-tools: fix to add missing le32_to_cpu()/cpu_to_le32()
-d31d5f26ae91b58b64194cad71e29110b5fdbb5c f2fs-tools: clean up addrs_per_{inode,block}()
-3a3d362a86919af599b47870da04221d4dde22aa fsck.f2fs: update superblock if invalid
-752fcbe65af7e67fe408ba0e5e306a42158a3e30 fsck.f2fs: fix checking wp of all devices
-2d653ca599739a6e73e70bd488eda3cfaa30adc0 fsck.f2fs: check all-zero inline data with helper is_zeroed
-2c7fa4f0a1c6b20309ef9e421e3c94946d21354e f2fs-tools: show device info of sb->devs
-a9066a4e23ec95265941e69eed12a2c1306d1527 f2fs-tools: cleanup is_sit_bitmap_set
-b39aa8064711b13bf355c88c0bc847506d6d7102 inject.f2fs: introduce inject.f2fs
-082e3515a7267a997fd33ded315fa481bfb457bf inject.f2fs: add sb injection
-a6cca0edf0686139758a5f5feb975b19c2c7eba7 inject.f2fs: add cp injection
-28754d326c5dec00c052ffc89557bae084f82bf6 inject.f2fs: add nat injection
-0d7c27c5da12786b134854a2ff4009bf2ca1eb78 inject.f2fs: add sit injection
-27aa00c503f5f4457d6640cfbd33d1a9be46632f inject.f2fs: add ssa injection
-ed8b267262ec8d25de290445e7164ea4f334b647 inject.f2fs: add node injection
-1aeab18dc61407a4c384c628435e7829c0e5c518 man: add inject.f2fs man page
-72f6b7806c955749ca580cd17d64b590354a58bf mkfs.f2fs: Fix out-of-bounds read in f2fs_prepare_super_block
-6efff7aee3ac179d794e4d1d57e94136ef5f717d dump.f2fs: add checkpoint version to dump_nat
-309f273b3d9d3ac14088b74307103a72ad052440 inject.f2fs: fix some build errors
-f6f644859182d82c7b27b2c18cd5b50c5725bb03 inject.f2fs: install makefile
+3656e566cf03ab0f959b2bd6f8274ee9799641e6 perf test: Add landlock workload
+d66763fed30f0bd8cc8fb2c8c144c69fcb560bda perf test trace_btf_enum: Add regression test for the BTF augmentation of enums in 'perf trace'
+62284329b194606f73252935cc422cf6156e811a perf trace: Introduce trace__btf_scnprintf()
+c3d747134cec49aa95aad22d14deffa43b2be37d perf trace: Remove arg_fmt->is_enum, we can get that from the BTF type
+e293f4b1e57fcc4d7d34b7a7a44ebec8ba8a1b7d perf test: Avoid python leak sanitizer test failures
+1d303deedb1057c6ca36fc0d1c0d7bf58a5b7322 perf annotate: Move the data structures related to register type to header file
+782959ac248ac3cbac80f7476d4e0410662ff400 perf annotate: Add "update_insn_state" callback function to handle arch specific instruction tracking
+b1d8d968a7983e9756de34b8bcaa24cc339828ed perf annotate: Update TYPE_STATE_MAX_REGS to include max of regs in powerpc
+06dd4c5a561c48c66745352bae0b2c04bbe455be perf annotate: Add disasm_line__parse() to parse raw instruction for powerpc
+0b971e6bf1c305843a034ca762718b9428a5dd7f perf annotate: Add support to capture and parse raw instruction in powerpc using dso__data_read_offset utility
+1b4406d2a88cf65d615b0bcb42525d7a4723eb70 perf annotate: Update parameters for reg extract functions to use raw instruction on powerpc
+1acdad68183ab870fca1e63b64f32601be612611 perf annotate: Add parse function for memory instructions in powerpc
+ace7d681d82d8ac6cc1c9646b19ab4cca7be0d90 perf annotate: Add support to identify memory instructions of opcode 31 in powerpc
+cd0b6f67c4ab1aecdfedb277c42880fcffe75ace perf annotate: Add some of the arithmetic instructions to support instruction tracking in powerpc
+539bfea3e09c8e7a773b0fc4f6a4b26d921d63ef perf annotate: Add more instructions for instruction tracking
+88444952bdfe27fcc91b1c499a0f77675db592a9 perf annotate: Update instruction tracking for powerpc
+1fe86bc245abd1aded01403675d6610455794b5f perf annotate: Make capstone_init non-static so that it can be used during symbol disassemble
+f1e9347c855de73d8df1b0fa763184a46548d62f perf annotate: Use capstone_init and remove open_capstone_handle from disasm.c
+c5d60de1813a9e09ea6d94f82da287d0fa1e1179 perf annotate: Add support to use libcapstone in powerpc
+2c9db7475e5de5125b5043fe8f560284b248b0ae perf annotate: Set instruction name to be used with insn-stat when using raw instruction
+42d37fc0c819b81f6f6afd108b55d04ba9d32d0f perf vendor events power10: Update JSON/events
+050f2a03aaadac13fff13f9ab7c5c1f0937ab729 perf annotate: Convert comma to semicolon
+e60fc19eab439736009018406a19fad28e60e664 perf daemon: Convert comma to semicolon
+496cae1b3306e2ea7bbb8ca7ced082a2046afed9 perf inject: Convert comma to semicolon
+4194744602c8cd971ad7fd95710416ca0568d999 perf cs-etm: Output 0 instead of 0xdeadbeef when exception packets are flushed
+ae8e4f4048b839c1cb333d9e3d20e634b430139e perf scripts python cs-etm: Restore first sample log in verbose mode
+c91928a8d5243f6b7355aab6325fe7545ee65404 perf tools: Enable evsel__is_aux_event() to work for ARM/ARM64
+feab89bf991c940e2d44e45ededbde8640ac8830 perf tools: Enable evsel__is_aux_event() to work for S390_CPUMSF
+156e8dcfeceebce0694fb00542ac68e61a785fe1 perf test pmu: Remove unused test_pmus
+c77800894b5a7d7d37b83862fd732230c5c3e518 perf ftrace: Add 'tail' option to --graph-opts
+608585f43f9e4798db7585d8999c0404103d4b66 perf ftrace: Factor out check_ftrace_capable()
+0f223813edd051a516ec4b1fc23b1fdc00dd3b6d perf ftrace: Add 'profile' command
+74ae366c37b71b46be7f2fa45fa4b2c9c6708fbe perf ftrace profile: Add -s/--sort option
+4ed0f392e7dbd2e90a903bdd77d1f6e61b7d3073 perf test: make metric validation test return early when there is no metric supported on the test system
+9e4566381362a1af9ac1c936328318e054dd7de3 perf auxtrace: Iterate all AUX events when finish reading
+f041b000a85723120b3d6962e425c1fa411bce10 perf auxtrace: Remove unused 'pmu' pointer from struct auxtrace_record
+7380e514e7505ab12cb9b29799633c1a26f2f448 perf arm-spe: Extract evsel setting up
+d4aa1b5630d6c1738114be7257a0eb116c84d49b perf arm-spe: Support multiple Arm SPE events
+259c220b388f16488fb72bc9ff91b6d35cbe737f libperf: Add gitignore
+d9c9d06c836afe0c7e8a3fc648ed59381db80532 perf tools: Fix wrong message when running "make JOBS=1"
+e1f10058da871fab1852b11b6c4bb7f945325487 perf list: Give clues if failed to open tracing events directory
+1ffe25a5ccba4f38813c89df238052bfa492082a perf jevents: Use name for special find value (PMU_EVENTS__NOT_FOUND)
+50334b4ddf17d3863d8e02b354932ddb9b348fbc perf bpf-filter: Make filters map a single entry hashmap
+04b0c8948b22a58e33e822edd6c6b9bdb850749d perf bpf-filter: Pass 'target' to perf_bpf_filter__prepare()
+0d8d3e63e87b2378844a6355059ca654ebf4e45c perf bpf-filter: Split per-task filter use case
+6f8c7a34cf991abd2568633907d5c2136bb94adf perf bpf-filter: Support pin/unpin BPF object
+7c899c3806ff927638c74c212fe4fd3d0f55d0b3 perf bpf-filter: Support separate lost counts for each filter
+22f4196c1a74c8841cc5bead13d44a1cfc3de172 perf record: Fix a potential error handling issue
+e3a5d8ba3bdae48f4ae3ea529b633e22c6c2aeef perf record: Add --setup-filter option
+440b6d8e5c67b285df5b7aa0944ae21a5691377f perf test: Update sample filtering test
+75cde8aab03333c26d920c6b3d0015fdba34b85c perf bpf: Move BPF disassembly routines to separate file to avoid clash with capstone bpf headers
+28f86dbdc23b3c0a1799281cf812d9bb152cd5d5 perf jevents: Autogenerate empty-pmu-events.c
 
---===============1286647976364616340==--
+--===============4128069318318734853==--
