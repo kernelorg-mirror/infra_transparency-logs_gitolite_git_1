@@ -1,41 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7064924494330171848=="
+Content-Type: multipart/mixed; boundary="===============5707238224838114578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 31 Jul 2024 11:01:43 -0000
-Message-Id: <172242370375.19333.7938247072853780610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 31 Jul 2024 11:14:00 -0000
+Message-Id: <172242444078.28151.13971618965679437991@gitolite.kernel.org>
 
---===============7064924494330171848==
+--===============5707238224838114578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 563643264d0668d898a37870cd329d6f36a950fe
-    new: ca0360639a4460e3a2f5afdffc374fac24c9b1bf
-    log: revlist-563643264d06-ca0360639a44.txt
+  - ref: refs/heads/char-misc-testing
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 104831a17518796fb29e803fe07eb87ce9df884d
+    log: |
+         4d41a49c4660eca5214d8b6f85cc8569c7d77599 comedi: ni_*: do not declare unused variable range_ni_E_ao_ext
+         104831a17518796fb29e803fe07eb87ce9df884d hpet: Optimize local variable data type in hpet_alloc()
+         
 
---===============7064924494330171848==
+--===============5707238224838114578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-563643264d06-ca0360639a44.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cb55874763150a668a74d97b19686508962bfc82 perf: Rename perf_event_context.nr_pending to nr_no_switch_fast.
-2dfc8232e819ae9fc9dc6d0ffd0180f7f6e5be6a perf: Support PERF_SAMPLE_READ with inherit
-0ab7eaf52b0fc1d1c9fa3672ad1174a3b13ea81f uprobes: document the usage of mm->mmap_lock
-800c168e800bd8cfe03422cfa44761398cfd3763 uprobes: is_trap_at_addr: don't use get_user_pages_remote()
-4f4f40782d7bac07968dff72f94f7972941a2633 uprobes: simplify error handling for alloc_uprobe()
-9c25621c158664171a042d265181781638ffb70e uprobes: kill uprobe_register_refctr()
-5d5c058377381c70d6a4bc718add00f33a289a99 uprobes: make uprobe_register() return struct uprobe *
-eed63b54d6371b1106860ba6205ef2c6506cfcb2 uprobes: change uprobe_register() to use uprobe_unregister() instead of __uprobe_unregister()
-b2480b35020dc02d140e663cddf74fa964c58f94 uprobes: fold __uprobe_unregister() into uprobe_unregister()
-8a07e8e5679692b1ef56a70c7470b449a2c7447a uprobes: shift put_uprobe() from delete_uprobe() to uprobe_unregister()
-ca0360639a4460e3a2f5afdffc374fac24c9b1bf perf,x86: avoid missing caller address in stack traces captured in uprobe
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722424437 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1722424435-c169553dd901eb540f36e6e426d63b75933bbbf4
 
---===============7064924494330171848==--
+8400291e289ee6b2bf9779ff1c83a291501f017b 104831a17518796fb29e803fe07eb87ce9df884d refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaqHHUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wT8QAIzuTmFnW3DzssqOwUOx
+23oph+1VmfCaHm01cX26qgXiYPfTuz/j4IKcc9bCszkKQ6aXebpKdfqkxlUWnbUi
+c+GDycnI7QdyxfAhPFtiO7IiRAxy6Hf/5EnQt59Ths4UGQTDYcT6ni2dhnfypAu/
+a1mKsTd4szdnZezLFs5htDHd8dkXaETkowi6KDSFF1SxyWtCrStHq/GP5L5SXn5V
+ZIQoaVgf4E4Jmo6PUzEREEqxCnhAROM4JCS4k8oO+GqR7o4KStFIzfi4YpH64JYr
+HaRAY7iCxqbz1XSJ/6EePLxPjb+Pf3Zwp9Y+pCjmQbCo9PEt4HHuXB2YyaKu4ur2
+a/bJHfoLwQEk58utGxcdwjRjpf2sNLhTt+1f46cTM8NBH1jnacEi0yRdiVC9KM3S
+aq5qt0O4M+8gyUBq1/LnNUFAGSG5fkpE54otg1AonlQezrhl9yaxGj5eSGWUEnSb
++6pYU5ttWf/SxWqlBMrP8aZqxcAhTZgbms0YIWz+tA48Zpdd194LhVAuMDCBUVBh
+EKhYaCJMNEWJJSwgDg7JSL5lvfdPXZ3P1sBMpt30o+sHtAmOhJ6T4QBz0EdxDdIB
+6XL5gWtytS6ECfvM4NLXH6H5Ax7T1/noeHoS7nRvrFzU9iBXLnJX0AIxlsmfBOf4
+2yDgN1JDguJuJF7LlRx6nlgf
+=WdSM
+-----END PGP SIGNATURE-----
+
+--===============5707238224838114578==--
