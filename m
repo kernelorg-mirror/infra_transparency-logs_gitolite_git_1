@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 31 Jul 2024 15:35:43 -0000
-Message-Id: <172244014322.13216.12213237733648679975@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2766456504021891052=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 31 Jul 2024 15:38:09 -0000
+Message-Id: <172244028914.15478.11482856512105470620@gitolite.kernel.org>
+
+--===============2766456504021891052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/clk-for-6.1
-    old: 6a6434482fc6184e8fc73092aea755253205ec5b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/clk-for-6.10
-    old: c60f68047e1996bc1b2fb386d3b383aab8900c1b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers-for-6.1
-    old: 1f698cb11dd48ec5c430886f794953878e1ff016
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers-for-6.11
-    old: e4b5a39c2fca597f10f1aa4c12f8f90dcd9431bd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt-for-6.6
-    old: f05af44f691351bfd954f39ec376666dc5e1b869
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt-for-6.7
-    old: c3f7c14856ebbeb8e9e19439b9f5ec66f88744b9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: deceacf87ef65fb7f4e2dbc094eaf10a2da0c6e9
+    new: 7bd5b75519738631fffb72def39dd8e3c4e6a1a2
+    log: |
+         7bd5b75519738631fffb72def39dd8e3c4e6a1a2 update cvelistV5
+         
+
+--===============2766456504021891052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722440285 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1722440284-da6ab77a42423710ff1345e60aaeca9c80cb535e
+
+deceacf87ef65fb7f4e2dbc094eaf10a2da0c6e9 7bd5b75519738631fffb72def39dd8e3c4e6a1a2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaqWl0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++rIP/26+Mi5L9oKXBnN8QSSk
+E2K6SjVqy3BqxVRjNd3ZnaBGw26pBLWH8FG1TfE5aZ3yosxeqwO8XMKAYrVa6qA5
+eK3X0AOnUi/hUBmZlrT5faeCntGY+bEReIQ2aCYH2m625lQLUBfCulKXsWMObrkw
+dwjwqa9OlFEfFOdlbAEDjFOtjo/AyvU/Cl6ziG9DoHXc0NAGZdeRgvUN/MabhQDa
+B4Wu+FeEmmUKalab735cQyy07/2+Xi9aM45dWMlNbRk4iX/uwVmyCQOZOdmlXAiH
+Hlz36kWa7tpNC517VRDc2algeEkiyyEY/R/HFdcXA5Qpk4X/Y2ECuq4aLMpYk86X
+xAhQQJXthxsa21AqSpnE1gYXcqLnp/W5c5QUJdXJty1T+BEH4TS4j/imFUBFHbKj
+kuMP4OA33dgqQtKAwHhCyQQ2a39Zm2FQwGO7+vzg//e+70ykC8hiGRZ4GW8FFYnO
+d8IKHGph/XsBTlidqctO94/h2ThghBP66oJ/8zGjgjHhCEPpn8yQGRsHwTcZmJiO
+nbjgDVuYorFwtfDjr8iMHQrDBOL5wMkUlm6FNw8s0Db+Al9iKztK+8N8JwOs1t+h
+VaumF4K8fWy43QFpgTXHM0jZcN/HV/1nHmadpvIOF5QChAc8MwJyuOwSEjz2lhUQ
+jH5NQrtz1GXl2nTj7hTCyisc
+=QIHt
+-----END PGP SIGNATURE-----
+
+--===============2766456504021891052==--
