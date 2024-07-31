@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8518810602593003316=="
+Content-Type: multipart/mixed; boundary="===============4754460733394385997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 31 Jul 2024 15:30:34 -0000
-Message-Id: <172243983470.9311.7588833585916096162@gitolite.kernel.org>
+Date: Wed, 31 Jul 2024 15:30:46 -0000
+Message-Id: <172243984669.9468.11991819148588708119@gitolite.kernel.org>
 
---===============8518810602593003316==
+--===============4754460733394385997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 1722389b0d863056d78287a120a1d6cadb8d4f7b
     new: 990c304930138dcd7a49763417e6e5313b81293e
     log: revlist-1722389b0d86-990c30493013.txt
 
---===============8518810602593003316==
+--===============4754460733394385997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ d37307eaac13f3c5fe912787b5f9facbc574f2cf net/smc: remove redundant code in smc_c
 59f726578c9bc0f50011b9e1f50f8bd15ed354a6 Merge branch 'smc-cleanups' into main
 990c304930138dcd7a49763417e6e5313b81293e Add support for PIO p flag
 
---===============8518810602593003316==--
+--===============4754460733394385997==--
