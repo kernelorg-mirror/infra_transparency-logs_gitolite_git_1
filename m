@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 31 Jul 2024 18:11:47 -0000
-Message-Id: <172244950764.3322.1893775424112640380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 31 Jul 2024 18:34:22 -0000
+Message-Id: <172245086289.17737.4366739564557978590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/next
-    old: 0b631ed3ce922b34dad4938215f84e5321f7e524
-    new: 38cde27f74d8bbe2f705fb1f80384acab9762e9e
+  - ref: refs/heads/master
+    old: 92cc2456e9775dc4333fb4aa430763ae4ac2f2d9
+    new: b7ea631b9a79a85eee335fc5fab84108005d4f60
     log: |
-         f09db2b4f1b9ec245c8eaac0948cc37ba8d4cea3 MAINTAINERS: Add selftests/x86 entry
-         d138b51460522cc31ba71d6d9792090c7befe45f selftests: user: remove user suite
-         38cde27f74d8bbe2f705fb1f80384acab9762e9e selftests: lib: remove strscpy test
+         ba6a9018502eecb94e67001deeb48406fa71f916 selftests/bpf: do not disable /dev/null device access in cgroup dev test
+         d83d8230e415ecf727f6b88c0ae55193f149d650 selftests/bpf: convert test_dev_cgroup to test_progs
+         84cdbff4a93501b7199f0d2f1150961ee95c8582 selftests/bpf: add wrong type test to cgroup dev
+         b7ea631b9a79a85eee335fc5fab84108005d4f60 Merge branch 'selftests/bpf: convert test_dev_cgroup to test_progs'
          
