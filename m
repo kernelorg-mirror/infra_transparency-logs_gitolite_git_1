@@ -1,44 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3030829911902452404=="
+Content-Type: multipart/mixed; boundary="===============3756373038547590210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 31 Jul 2024 11:21:04 -0000
-Message-Id: <172242486480.1685.11455225512662297301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 31 Jul 2024 11:27:10 -0000
+Message-Id: <172242523041.5451.13442789443971879128@gitolite.kernel.org>
 
---===============3030829911902452404==
+--===============3756373038547590210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 651a7607e0b014d2d3dbc63b2952ac324e8025ad
-    new: c466c11330b8be75979918dcb8651645e255a83e
-    log: revlist-651a7607e0b0-c466c11330b8.txt
+  - ref: refs/heads/driver-core-linus
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 86fee2877f3427df5876159a182aa70d10964cdf
+    log: |
+         cd04d50979502a1a965869dcd246d44db1bf0153 rust: firmware: fix invalid rustdoc link
+         a2e4bdca2c361260609d47dff6c0e36ef2b41d4c Documentation: embargoed-hardware-issues.rst: minor cleanups and fixes
+         86fee2877f3427df5876159a182aa70d10964cdf Documentation: embargoed-hardware-issues.rst: add a section documenting the "early access" process
+         
 
---===============3030829911902452404==
+--===============3756373038547590210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-651a7607e0b0-c466c11330b8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a3e29bef9b656e0e90103b1871dd1df0a3d49185 firmware: arm_scmi: Remove superfluous handle_to_scmi_info
-472248d300846fae55cc222469da0a7b8cb36892 firmware: arm_scmi: Add support for debug metrics at the interface
-7f2aebc47e082298cd30705631a5fa89b3a1a63c firmware: arm_scmi: Track basic SCMI communication debug metrics
-91c0b3292062489765b3b43fa88c5416e58ec4e9 firmware: arm_scmi: Create debugfs files for SCMI communication debug metrics
-9092f86252bb532eb8c5c657d854e406d9916327 firmware: arm_scmi: Add support to reset the debug metrics
-0dc449f535771b65083aacff2a2d4fd7882df7c2 firmware: arm_scmi: Fix double free in OPTEE transport
-9b1dc20b658c3720245be20d9a788746b03cf0d1 firmware: arm_scmi: Introduce setup_shmem_iomap
-df2d8509cfc754c4a99bcf59d701b5a6757fe06d firmware: arm_scmi: Introduce packet handling helpers
-ac3a46b6855b66c9a5c39714198d8e39401ab6cb firmware: arm_scmi: Add support for standalone transport drivers
-90e82d325ee05417b2e2af41ab9f73ffdde96d94 firmware: arm_scmi: Make MBOX transport a standalone driver
-d3b8f36b913c85a0da03f0bb9a5bee1e5d3cab8a firmware: arm_scmi: Make SMC transport a standalone driver
-b2f91e0f6191c3ed8a95b1e6289c91d3f537772e firmware: arm_scmi: Make OPTEE transport a standalone driver
-641a7cbacaaddd7093e2b96777c44291abd7be58 firmware: arm_scmi: Make VirtIO transport a standalone driver
-c466c11330b8be75979918dcb8651645e255a83e firmware: arm_scmi: Remove legacy transport-layer code
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722425228 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1722425227-1f536e32da1a5b4adc157262bfb4281894c2ba82
 
---===============3030829911902452404==--
+8400291e289ee6b2bf9779ff1c83a291501f017b 86fee2877f3427df5876159a182aa70d10964cdf refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmaqH4wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jQUP/RMtb3eL63nyA2HVp+9H
+BNIzveZQYA/NefFeH7YTi2cPT7SXO3TbMsbp/fMAivutHrYTWi1NkvhJsDBIZntO
+SWt6U8SNE1LUQua4habHtbU5xEvgbLl1tbKYlTh0wDmLGgaXItfTRmgzqNaQGmFZ
+xVioXoeXhp8bsxybUnd/7lGFeRBAN7785bnFOtqg09z/BRzU14v+E40qgbdYsmeI
+UFxgK7AHsxxuEYOZsRw/9uYx92OenqFGecDRJ5yhgmKucaqaa7+kNUe5G0uz87TS
+ZrJNiSGe7OinHWD0KwTMFStlgrHnpVK3VsuoITMgbgROsMFHQwp84b12Crw1j2rZ
+xf01Z/rFR+7tAHarLjowCwPmmKUfbKAmvxpsYhBscxQ6bT7GS+eBlJdTqVt94qDW
+RlNX/ANpw01bADzsiUxYNy99fGPDphYw8/k4Q8K/IeKQ50hPTq/J44pJBsrGQGqw
+SEFWwGZYNEttbgzR0LQ2sukN0kkWMCzP4OiDhb0caQoHToiTnG9RIbJPlTWd4fg1
+jqoVuMOsFaLSOdmXRYGgbdxYyPB8pIe4/qEVLuZ++RRN9tLvCJBXZ39hlRvpMz17
+sW9PqSobPCYMFbK1y8F7gw8NMaDpIiOhw94AzdHKT3BTdw4zf3yiiY5jCQQktARr
+xE4QxdlJb6+DscSTD5Lk1vRd
+=T5Af
+-----END PGP SIGNATURE-----
+
+--===============3756373038547590210==--
