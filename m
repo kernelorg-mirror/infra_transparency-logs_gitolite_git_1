@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============2054969180718853254=="
+Content-Type: multipart/mixed; boundary="===============6867390685079288690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 31 Jul 2024 13:14:46 -0000
-Message-Id: <172243168663.20763.6452955547258256638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 31 Jul 2024 13:19:02 -0000
+Message-Id: <172243194272.23996.7656062112736950323@gitolite.kernel.org>
 
---===============2054969180718853254==
+--===============6867390685079288690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/kvm-arm64/fpmr
-    old: f2174525bb4a8049d100d3137a0cbd7ee6c0993b
-    new: 47d8ced2877128aba57e05c6ae9ddeeec8d60c9b
-    log: revlist-f2174525bb4a-47d8ced28771.txt
+  - ref: refs/heads/mediatek-drm-next
+    old: 8ad49a92cff4bab13eb2f2725243f5f31eff3f3b
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-8ad49a92cff4-8400291e289e.txt
 
---===============2054969180718853254==
+--===============6867390685079288690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2174525bb4a-47d8ced28771.txt
+Content-Disposition: attachment; filename=revlist-8ad49a92cff4-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
+f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
+66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
+9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
+519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
+b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
+fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
+1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
 3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
 473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
 87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
@@ -1042,13 +1050,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-5653ccb51870cb34a597653a08a39245342f04c7 KVM: arm64: Move SVCR into the sysreg array
-053a0b284d8d31aeed53dc5d047552607f68d0e5 KVM: arm64: Add predicate for FPMR support in a VM
-a060859159c5dbc48974272f27f08948cab8fab8 KVM: arm64: Move FPMR into the sysreg array
-026312b5db13f8827db07cfe50a3ca5fb864885d KVM: arm64: Add save/restore support for FPMR
-caf273efba67b4493b3112808966ca497d642cac KVM: arm64: Honor trap routing for FPMR
-e6c04179fbbb4882056c6a3ebd15796dd255b69c KVM: arm64: Expose ID_AA64FPFR0_EL1 as a writable ID reg
-973093ef3c77692759054488bf7f238b0bb89632 KVM: arm64: Enable FP8 support when available and configured
-47d8ced2877128aba57e05c6ae9ddeeec8d60c9b KVM: arm64: Expose ID_AA64PFR2_EL1 to userspace and guests
 
---===============2054969180718853254==--
+--===============6867390685079288690==--
