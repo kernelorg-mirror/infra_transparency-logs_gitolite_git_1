@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 31 Jul 2024 09:22:21 -0000
-Message-Id: <172241774176.12389.714598942575973512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Wed, 31 Jul 2024 09:26:43 -0000
+Message-Id: <172241800316.15590.2561051370324528676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 0c7ec9ee42912db00850c7570bbfd5325339da13
-    new: e7b40978801a6148cee75b10b9b775eba1b70a64
+  - ref: refs/heads/main
+    old: 3fafd92edbeb523bad6aa63ab7118112d533c9ec
+    new: b735154aeb3366b249ab52bbfa0aa8a4c61c9a44
     log: |
-         c497e29ca1f88963c525351e60af23ed896a2b8c bindings: python: fix a use-after-free bug
-         5533f277aa28b36f8ed4bbfac8e22e011ed68858 core: fix line-info strings termination
-         d71f5ad24663624a17d335462908ae5a8f69bcf7 core: fix chip-info strings termination
-         e7b40978801a6148cee75b10b9b775eba1b70a64 tools: fix a memory leak
+         3b91b03271c5dbf156301ff5028b36925f00e102 net: dsa: vsc73xx: make RGMII delays configurable
+         b735154aeb3366b249ab52bbfa0aa8a4c61c9a44 dt-bindings: net: dsa: vsc73xx: add {rx,tx}-internal-delay-ps
          
