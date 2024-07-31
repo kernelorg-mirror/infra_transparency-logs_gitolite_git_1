@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 31 Jul 2024 13:23:00 -0000
-Message-Id: <172243218077.27062.9720729194276620674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 31 Jul 2024 13:23:44 -0000
+Message-Id: <172243222456.27401.9331122190040616835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/mediatek-drm-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 00af4f3dda1461ec90d892edc10bec6d3c50c554
+    new: 1f66fe62cc092d2f6a2f895ec3be86d2c326947c
     log: |
-         00af4f3dda1461ec90d892edc10bec6d3c50c554 USB: serial: debug: do not echo input by default
+         1f66fe62cc092d2f6a2f895ec3be86d2c326947c drm/mediatek: Support "None" blending in OVL
          
