@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4128069318318734853=="
+Content-Type: multipart/mixed; boundary="===============0007378925937826688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 31 Jul 2024 20:39:52 -0000
-Message-Id: <172245839275.13246.8527518197819251700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 31 Jul 2024 20:40:03 -0000
+Message-Id: <172245840369.14620.8417696141241263654@gitolite.kernel.org>
 
---===============4128069318318734853==
+--===============0007378925937826688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 28f86dbdc23b3c0a1799281cf812d9bb152cd5d5
     log: revlist-756785ab6380-28f86dbdc23b.txt
 
---===============4128069318318734853==
+--===============0007378925937826688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ e3a5d8ba3bdae48f4ae3ea529b633e22c6c2aeef perf record: Add --setup-filter option
 75cde8aab03333c26d920c6b3d0015fdba34b85c perf bpf: Move BPF disassembly routines to separate file to avoid clash with capstone bpf headers
 28f86dbdc23b3c0a1799281cf812d9bb152cd5d5 perf jevents: Autogenerate empty-pmu-events.c
 
---===============4128069318318734853==--
+--===============0007378925937826688==--
