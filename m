@@ -1,31 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4201081105211261351=="
+Content-Type: multipart/mixed; boundary="===============0470004231940059020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 01 Aug 2024 12:40:45 -0000
-Message-Id: <172251604543.10586.17904193595614445724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 01 Aug 2024 12:40:54 -0000
+Message-Id: <172251605483.10776.70905583649015400@gitolite.kernel.org>
 
---===============4201081105211261351==
+--===============0470004231940059020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: c298391abf6505c4040632b310a14f6bd9b7afff
-    new: d94fc0f04121a20e4d0050cb8689a35191223ae6
-    log: revlist-c298391abf65-d94fc0f04121.txt
+  - ref: refs/heads/for-leds-next
+    old: c98942c88ee79f760bd9c2655b40dcf59964ad69
+    new: a0864cf32044233e56247fa0eed3ac660f15db9e
+    log: revlist-c98942c88ee7-a0864cf32044.txt
 
---===============4201081105211261351==
+--===============0470004231940059020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c298391abf65-d94fc0f04121.txt
+Content-Disposition: attachment; filename=revlist-c98942c88ee7-a0864cf32044.txt
 
+473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
+87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
+88b73fdc8144de7daf1156509df4d82830f48202 dt-bindings: net: bluetooth: convert MT7622 Bluetooth to the json-schema
+92048ab2e2e6cc90ad1cc9f55deb5cec4d731793 Bluetooth: hci_core: Remove usage of hci_req_sync
+176cbeceb5c5a740216a6be3e751e76aaddf94b9 Bluetooth: hci_core: Don't use hci_prepare_cmd
+8bedf130c265384fb136b19b20504239240c51bf Bluetooth: hci_sync: Move handling of interleave_scan
+f2d89775358606c7ab6b6b6c4a02fe1e8cd270b1 Bluetooth: hci_sync: Remove remaining dependencies of hci_request
+936daee9cf08c5e58c9a0fe687f52adb2d80e87d Bluetooth: Remove hci_request.{c,h}
+be71dfb9ad2042bba713975ef50c3a5b0429f1d2 Bluetooth: btusb: mediatek: remove the unnecessary goto tag
+3dcb122b30643444352ff4b9aa16367dd24d7571 Bluetooth: btusb: mediatek: return error for failed reg access
+d3e6236053958a8f1c7c7a885d9cecdd383e4615 Bluetooth: btmtk: rename btmediatek_data
+95f92928ad2215b5f524903e67eebd8e14f99564 Bluetooth: btusb: add callback function in btusb suspend/resume
+d019930b0049fc2648a6b279893d8ad330596e81 Bluetooth: btmtk: move btusb_mtk_hci_wmt_sync to btmtk.c
+5c5e8c52e3cafaa6f71efd44a42a674271e5b3ad Bluetooth: btmtk: move btusb_mtk_[setup, shutdown] to btmtk.c
+6dc22ab9f085ae165e4ce89d61fb426f94e8a969 Bluetooth: btmtk: move btusb_recv_acl_mtk to btmtk.c
+ceac1cb0259de682d78f5c784ef8e0b13022e9d9 Bluetooth: btusb: mediatek: add ISO data transmission functions
+880120d5f12e3e9af6472f2ddddb33a6c2648418 Bluetooth: btintel: Add support for BlazarU core
+f6dc9214e526c2f735d93b5330f4dcd42a2b5308 Bluetooth: btintel: Add support for Whale Peak2
+358534152c59fdea7731c204d5a91151e4e91e2b Bluetooth: btnxpuart: Add support for AW693 A1 chipset
+e50bfd6bb231a6e2b7221ad78dce294330238c76 net_tstamp: Add TIMESTAMPING SOFTWARE and HARDWARE mask
+d4f6acfcb0b0962e2a59165108e212a976d1f078 Bluetooth: btnxpuart: Add support for IW615 chipset
+658c56d5b3b3a41e52ea4236f5dd023cbb139ece Bluetooth: btnxpuart: Add system suspend and resume handlers
 3aa7901e44bb2b6f6d3a14ad5a47e07ec81dcd47 Bluetooth: btnxpuart: Fix warnings for suspend and resume functions
 bd3f305886adc07c27b8e998719c73688dad0991 dt-bindings: bluetooth: qualcomm: describe the inputs from PMU for wcn7850
 b80f4e3b8cb8a4a41cc038807cd0a1e889154902 Bluetooth: hci_qca: schedule a devm action for disabling the clock
@@ -1019,36 +1041,14 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-09a0ed73f8de36350765e74475a540104f19e443 mfd: da9062-core: Constify read-only regmap structs
-01f289e8e1f1779b5a8baba4bf6a1e17cf121f6f mfd: fsl-imx25-tsadc: Constify struct regmap_config
-d934cac00b8b8c6bcb8a99c7314530c14ff88696 mfd: hi655x-pmic: Constify struct regmap_config
-78b47c0ed398436a54333e7c0e40a0dc2656b71d mfd: wcd934x: Constify struct regmap_config
-71055cda981e170b29f3ab9449bf356d613461fd mfd: tps6105x: Constify struct regmap_config
-b959721faa244840f5fc8fba0eb87a4cfd31ac5d mfd: rohm-bd9576: Constify read-only regmap structs
-f7a9c4550c4807f5a586bf8760370c75155b0dd5 mfd: intel-m10-bmc: Constify struct regmap_config
-3c3dec3f9448c8984d9de406400591e50a2b29a3 mfd: 88pm80x: Constify read-only regmap structs
-fbe4213064a9b64dbe4e9240e58a06ad6b556ab9 mfd: bd9571mwv: Constify struct regmap_irq_chip
-95906cd878de6fbda4037dd48a4c9c175b4baf73 mfd: intel_soc_pmic_bxtwc: Constify struct regmap_irq_chip
-8237de2da169d83772a4397e6d8334fdcf2840cd mfd: retu: Constify read-only regmap structs
-97c06e9af5124fc8895f1000de72a878460ec4b8 mfd: rk8xx-core: Constify struct regmap_irq_chip
-f1eb9cdf26514f8d34d78cc6f7a7db901a8d111f mfd: rohm-bd71828: Constify read-only regmap structs
-aa44192fa7a4f42186323d67b17a5f5f2a8d27b8 mfd: rohm-bd718x7: Constify struct regmap_irq_chip
-7bb407a9867dbbf06c62dadec557d924a905e865 mfd: tps65086: Constify struct regmap_irq_chip
-1c514efcea19ebb6001063d9f18763af36980493 mfd: tps65090: Constify struct regmap_irq_chip
-5bde89b95ffee36845651e9907a57afcafcb59ea mfd: tps65218: Constify struct regmap_irq_chip
-fb532321539afd818cad0d54d5d59b6bf14f9435 mfd: tps65219: Constify read-only regmap structs
-2b97ffce948deb7b936af4956943c437a39949b7 mfd: tps65910: Constify struct regmap_irq_chip
-877af3820eefdd48a9a714f9d992c0a4c1d5e9d9 mfd: tps65912: Constify struct regmap_irq_chip
-b88e2fc10bd7ceb11f024f8bc157674fb6c18dbb mfd: twl6040: Constify struct regmap_irq_chip
-198016076ccb51a563dee7c5ddc3c612cde36313 mfd: gateworks-gsc: Constify struct regmap_bus
-ac16c78c45024d55a3bd45e2921cc396a7dd9069 mfd: mc13xxx-spi: Constify struct regmap_bus
-2fcfba22432adffca600b57fbd1129cc32a3ec62 mfd: sprd-sc27xx-spi: Constify struct regmap_bus
-4bc1169d340fafb5fb52e4750efd89b0b28dfa05 mfd: mt6360: Use scoped variables with memory allocators to simplify error paths
-9eff347218eb542308e9ecd77da5220d89054eb0 mfd: syscon: Use scoped variables with memory allocators to simplify error paths
-2cc110db5fac0970337124206837f2203ec262bb mfd: 88pm860x-core: Convert comma to semicolon
-1344850fe02c26f9545bb9ff5c1a8305838c2250 MAINTAINERS: Repair file entry in MARVELL 88PM886 PMIC DRIVER
-aa5d08131cb4a8ead3a001df880461c51c21f5e1 mfd: ds1wm: Remove remaining header file
-3a8d2b7b642146c36d6ab04210b1ad49227f0e26 dt-bindings: mfd: syscon: Add ti,j784s4-acspcie-proxy-ctrl compatible
-d94fc0f04121a20e4d0050cb8689a35191223ae6 dt-bindings: mfd: mediatek: Add codec property for MT6357 PMIC
+b5a7fc286c0f1a1f6e50b030a9450cf39ba100b1 leds: lm3601x: Calculate max_brightness and brightness properly
+6b08d07cac64c0dcf1dbb4584bdf95d0f789a520 leds: trigger: netdev: Add support for tx_err and rx_err notification with LEDs
+56e8c56c9af0df8b6de7bc4b6d9a2f4570b055db leds: Add multicolor support to BlinkM LED driver
+7f5e19062c555183efba88c7d248020c30bf5b04 dt-bindings: leds: pca995x: Add new nxp,pca9956b compatible
+68d6520d2e76998cdea58f6dd8782de5ab5b28af leds: leds-pca995x: Add support for NXP PCA9956B
+29357f8a8c95df6e59ddb8f5ca8a77b523d0f0a4 dt-bindings: leds: sc2731-bltc: Convert to YAML
+ffbf1fcb421429916a861cfc25dfe0c6387dda75 leds: bd2606mvv: Fix device child node usage in bd2606mvv_probe()
+10cc487692e7e3dea793a75af499696cc059f11d leds: is31fl319x: Use device_for_each_child_node_scoped() to access child nodes
+a0864cf32044233e56247fa0eed3ac660f15db9e leds: flash: leds-qcom-flash: Limit LED current based on thermal condition
 
---===============4201081105211261351==--
+--===============0470004231940059020==--
