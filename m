@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3564188901520625379=="
+Content-Type: multipart/mixed; boundary="===============7389280028540150236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 01 Aug 2024 16:34:04 -0000
-Message-Id: <172253004445.5006.6450446474305015528@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 16:34:10 -0000
+Message-Id: <172253005078.5133.1398709290656721558@gitolite.kernel.org>
 
---===============3564188901520625379==
+--===============7389280028540150236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 990c304930138dcd7a49763417e6e5313b81293e
     new: 743ff02152bc46bb4a2f2a49ec891c87eba6ab5b
     log: revlist-990c30493013-743ff02152bc.txt
 
---===============3564188901520625379==
+--===============7389280028540150236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ c9c0ee5f20c593faf289fa8850c3ed84031dd12a net: skbuff: Skip early return in skb_u
 f9c141fc33393923451bdd190c67d9d4f5d2c67f RDS: IB: Remove unused declarations
 743ff02152bc46bb4a2f2a49ec891c87eba6ab5b ethtool: Don't check for NULL info in prepare_data callbacks
 
---===============3564188901520625379==--
+--===============7389280028540150236==--
