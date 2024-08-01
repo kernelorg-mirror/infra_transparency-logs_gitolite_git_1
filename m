@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5479730311587389072=="
+Content-Type: multipart/mixed; boundary="===============1876200973653096500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 01 Aug 2024 15:23:55 -0000
-Message-Id: <172252583560.16529.5471043833797204744@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 15:24:27 -0000
+Message-Id: <172252586778.16787.14535872685467346200@gitolite.kernel.org>
 
---===============5479730311587389072==
+--===============1876200973653096500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-config-for-next
-    old: d8a7d89abb091fe4c1744241c7a40dbad570fd9e
+  - ref: refs/heads/riscv-firmware-for-next
+    old: d930eb4fdfee32e0a3e9a5c9c2af8d65857ac4de
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-d8a7d89abb09-8400291e289e.txt
+    log: revlist-d930eb4fdfee-8400291e289e.txt
 
---===============5479730311587389072==
+--===============1876200973653096500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8a7d89abb09-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-d930eb4fdfee-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============5479730311587389072==--
+--===============1876200973653096500==--
