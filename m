@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4571470812123380947=="
+Content-Type: multipart/mixed; boundary="===============4966623924139522522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 01 Aug 2024 15:24:55 -0000
-Message-Id: <172252589521.17042.10038634490069858536@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 15:25:41 -0000
+Message-Id: <172252594101.18968.12053774879082297934@gitolite.kernel.org>
 
---===============4571470812123380947==
+--===============4966623924139522522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 2904244a8c46bdd0fee181df693a495f4628a575
+  - ref: refs/heads/riscv-soc-drivers-for-next
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-2904244a8c46-8400291e289e.txt
+    log: revlist-1613e604df0c-8400291e289e.txt
 
---===============4571470812123380947==
+--===============4966623924139522522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2904244a8c46-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============4571470812123380947==--
+--===============4966623924139522522==--
