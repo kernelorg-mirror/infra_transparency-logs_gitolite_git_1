@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 01 Aug 2024 17:24:17 -0000
-Message-Id: <172253305774.10048.4446766851797199686@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7588153513094165166=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/website
+Date: Thu, 01 Aug 2024 17:27:24 -0000
+Message-Id: <172253324455.12852.3781472235007986104@gitolite.kernel.org>
+
+--===============7588153513094165166==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/docs/kernel/website
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/openfast
-    old: 957cffa42784957eb48f68b8409611607e63f150
-    new: 69502c5e7a14104e8834eb6cbd1b4b8cb7ec6b0a
-    log: |
-         dbb28d8bac30739fe7caf3653c3c0b23a3785d60 fs: remove comment about d_rcu_to_refcount
-         c3502635fa58f603076e5ad18ee3ef459eb5e93c fs: add a kerneldoc header over lookup_fast
-         69502c5e7a14104e8834eb6cbd1b4b8cb7ec6b0a fs: try an opportunistic lookup for O_CREAT opens too
-         
+  - ref: refs/heads/py3-migration
+    old: 0000000000000000000000000000000000000000
+    new: 5cda506272791aadb7188d4bfda2abd010c1eb46
+
+--===============7588153513094165166==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1722533243 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/website
+nonce 1722533243-e6ebb8f768bb5f7fdef21af4a31e320553872a7b
+
+0000000000000000000000000000000000000000 5cda506272791aadb7188d4bfda2abd010c1eb46 refs/heads/py3-migration
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZqvFewAKCRC2xBzjVmSZ
+bJSGAQD88ltRAxd2tZacpAUDP+KUy2ZJj5cF2VFgJrJUpUGzWgD/cKm4KACxs8Di
+EqCBJ2abyoKq6vsFTIJJvnd91kcYqAI=
+=4LsQ
+-----END PGP SIGNATURE-----
+
+--===============7588153513094165166==--
