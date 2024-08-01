@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1205736699255661929=="
+Content-Type: multipart/mixed; boundary="===============3821971716961426832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 01 Aug 2024 06:44:47 -0000
-Message-Id: <172249468776.7515.9559256973382264229@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 06:45:43 -0000
+Message-Id: <172249474392.9600.8729665851423318639@gitolite.kernel.org>
 
---===============1205736699255661929==
+--===============3821971716961426832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: d5b60c6517d227b044674718a993caae19080f7b
     new: 8e0c0ec9b7dc2aec84f141c26c501e24906ff765
     log: revlist-d5b60c6517d2-8e0c0ec9b7dc.txt
 
---===============1205736699255661929==
+--===============3821971716961426832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b0d21321140ce9a3cbdf877a4902cce2b596f282 mlxsw: core_thermal: Fix -Wformat-trunc
 c5092ba3155e0696e922fc9f1c2909f48fde2102 net: macb: Convert tasklet API to new bottom half workqueue mechanism
 8e0c0ec9b7dc2aec84f141c26c501e24906ff765 Merge branch 'ethernet-convert-from-tasklet-to-bh-workqueue'
 
---===============1205736699255661929==--
+--===============3821971716961426832==--
