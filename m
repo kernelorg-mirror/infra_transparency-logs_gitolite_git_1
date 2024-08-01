@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2174311484518393983=="
+Content-Type: multipart/mixed; boundary="===============4200520152324521959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 01 Aug 2024 21:28:15 -0000
-Message-Id: <172254769579.27943.17230911355035080979@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 21:28:39 -0000
+Message-Id: <172254771951.28214.1401816520347198637@gitolite.kernel.org>
 
---===============2174311484518393983==
+--===============4200520152324521959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: a9c7da2f8ab7570023149951d70b8c012d0a0064
     new: 1d4798f76c2c32f79ded7b5c74b2bd1296575cb8
     log: revlist-a9c7da2f8ab7-1d4798f76c2c.txt
 
---===============2174311484518393983==
+--===============4200520152324521959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c0ecd6388360d930440cc5554026818895199923 Merge tag 'pci-v6.11-fixes-1' of git://
 0b6c006d874f8659a432f12757b5a04411a472cb KEYS: trusted: fix DCP blob payload length assignment
 1d4798f76c2c32f79ded7b5c74b2bd1296575cb8 KEYS: trusted: dcp: fix leak of blob encryption key
 
---===============2174311484518393983==--
+--===============4200520152324521959==--
