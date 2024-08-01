@@ -1,26 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 01 Aug 2024 16:35:30 -0000
-Message-Id: <172253013049.7343.2724113276482326217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 01 Aug 2024 16:41:32 -0000
+Message-Id: <172253049266.12469.18153983981350221102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/fixes
-    old: b75a22e7d4f23dcd4f78ed2ff368a3d2a4556c0c
-    new: 3f4b9eeadb17be26e619e0a94b511b17f67d9ab6
+  - ref: refs/heads/bleeding-edge
+    old: ccbdcc8ca8b44067894c8ae6772eb3b55d20ecda
+    new: 1b2174214f187ade0667a8bcac04cbb853cd458a
     log: |
-         fb197c5d2fd24b9af3d4697d0cf778645846d6d5 riscv/purgatory: align riscv_kernel_entry
-         63ba5b0fb4f54db256ec43b3062b2606b383055d perf arch events: Fix duplicate RISC-V SBI firmware event name
-         57e5c814e91577a464484cc4b1a56ff86371a713 cache: StarFive: Require a 64-bit system
-         941a8e9b7a86763ac52d5bf6ccc9986d37fde628 perf: riscv: Fix selecting counters in legacy mode
-         0c710050c47d45eb77b28c271cddefc5c785cb40 riscv/mm: Add handling for VM_FAULT_SIGSEGV in mm_fault_error()
-         3908ba2e0b2476e2ec13e15967bf6a37e449f2af RISC-V: Enable the IPI before workqueue_online_cpu()
-         e298a843bcfe2af6a5415002d7bce0b66d4f44b2 riscv: Re-introduce global icache flush in patch_text_XXX()
-         3f4b9eeadb17be26e619e0a94b511b17f67d9ab6 riscv: Fix linear mapping checks for non-contiguous memory regions
+         5690b318085a313d199feb8ba0724bbc8bd9a126 thermal: core: Update thermal zone registration documentation
+         d8a0699248b290bfdb05411d43efcd69c37233c2 Merge branch 'thermal-fixes' into linux-next
+         f03febbf472311b7316f05462eb1e29ed76aeb48 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         1b2174214f187ade0667a8bcac04cbb853cd458a Merge branch 'thermal-core-testing' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 7a7f6947f5457dd8c7178ec6b0ca1913f920f304
+    new: d8a0699248b290bfdb05411d43efcd69c37233c2
+    log: |
+         5690b318085a313d199feb8ba0724bbc8bd9a126 thermal: core: Update thermal zone registration documentation
+         d8a0699248b290bfdb05411d43efcd69c37233c2 Merge branch 'thermal-fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 7a7f6947f5457dd8c7178ec6b0ca1913f920f304
+    new: d8a0699248b290bfdb05411d43efcd69c37233c2
+    log: |
+         5690b318085a313d199feb8ba0724bbc8bd9a126 thermal: core: Update thermal zone registration documentation
+         d8a0699248b290bfdb05411d43efcd69c37233c2 Merge branch 'thermal-fixes' into linux-next
          
