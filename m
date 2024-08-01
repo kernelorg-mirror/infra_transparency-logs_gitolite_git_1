@@ -1,255 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0420169326537664647=="
+Content-Type: multipart/mixed; boundary="===============0141198809098132600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 01 Aug 2024 05:18:59 -0000
-Message-Id: <172248953986.9926.7919162888060469254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 01 Aug 2024 05:19:13 -0000
+Message-Id: <172248955391.10128.9619997455929268266@gitolite.kernel.org>
 
---===============0420169326537664647==
+--===============0141198809098132600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: b230ea38dc0366bb6a8c0323bfb93843106535e2
-    new: 86e02a00d6070b6c8ba80666bc97f7ce95f88501
-    log: revlist-b230ea38dc03-86e02a00d607.txt
   - ref: refs/heads/master
     old: cd19ac2f903276b820f5d0d89de0c896c27036ed
     new: 048d8cb65cde9fe7534eb4440bcfddcf406bb49c
     log: revlist-cd19ac2f9032-048d8cb65cde.txt
-  - ref: refs/heads/stable
-    old: 6b5faec9f564ea627c66064a4a6a5904fe5a07dd
-    new: 21b136cc63d2a9ddd60d4699552b69c214b32964
-    log: revlist-6b5faec9f564-21b136cc63d2.txt
-  - ref: refs/tags/next-20240501
-    old: 23b308c236a99b98abb84281b3e25e063501f27c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240801
     old: 0000000000000000000000000000000000000000
     new: 344c8e7743f55b3861bfed99f25b9d6f258b7f17
 
---===============0420169326537664647==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b230ea38dc03-86e02a00d607.txt
-
-9fffb5b7f6f478bb4ab0cc5987c867a47c16941b ufs: Convert ufs_get_page() to use a folio
-4cb94c7a2070ae7b5d3925ca0766431eb107cfd2 ufs: Convert ufs_get_page() to ufs_get_folio()
-2d6834a509def7d7d1f2a55bab7680474a2e20dd ufs: Convert ufs_check_page() to ufs_check_folio()
-bc9776ef451b501ca72006fd9805d2f86a1dfb79 ufs: Convert ufs_find_entry() to take a folio
-54088e449e557d5ac1610f4e4315791157fb4263 ufs: Convert ufs_set_link() and ufss_dotdot() to take a folio
-52517324295a80cf502baab2cfe8e35fd7d01dbd ufs: Convert ufs_delete_entry() to work on a folio
-3e30993ca1b276f4f49687b5d22c4582b39de21b ufs: Convert ufs_make_empty() to use a folio
-a04f65b0e7a9a777d7859f252e1fc3ea7756d938 ufs: Convert ufs_prepare_chunk() to take a folio
-9377fc175f41ca87bf7f90db27903eec40ca08f6 ufs; Convert ufs_commit_chunk() to take a folio
-dfc15200f1c074aca0d7e8260ac6edd34b54abb8 ufs: Convert directory handling to kmap_local
-ae7764c298d914667419f33f7ad163725fed3a56 sysv: Convert dir_get_page() to dir_get_folio()
-539dc3670367902b60f8a20e68522856c3f9e17f sysv: Convert sysv_find_entry() to take a folio
-b3d78d7ef6f2f602b2becd1c904a834b4cf9ec97 sysv: Convert sysv_set_link() and sysv_dotdot() to take a folio
-06e6e92e99419ca63432dd776e31da357a61c58c sysv: Convert sysv_delete_entry() to work on a folio
-760300ee84e2e57cf4cba4dea38d4b42d608d132 sysv: Convert sysv_make_empty() to use a folio
-6ca9e4e7c0e2c92d2971c72020cae583803b8c9c sysv: Convert sysv_prepare_chunk() to take a folio
-5079a474d89fd67f2406a869ec3d885249310aa3 sysv: Convert dir_commit_chunk() to take a folio
-3b0cebc6616cfc324bd7161dbd0bfa8301179837 qnx6: Convert qnx6_get_page() to qnx6_get_folio()
-125566a1b356ea71eb232f7a713641f8626e4220 qnx6: Convert qnx6_find_entry() to qnx6_find_ino()
-d462be77b0c13241c589f186903d5ea1082bb224 qnx6: Convert qnx6_longname() to take a folio
-731ea8a9c37a455bd9808ab15fd74f81d6281af6 qnx6: Convert qnx6_checkroot() to use a folio
-0e87d091007a34896e620b3faa46e167fbf34605 qnx6: Convert qnx6_iget() to use a folio
-9861c8945bc784c77a9cc74091c4ca9232751ff4 qnx6: Convert directory handling to use kmap_local
-9c1998bdb928f6485c6a10c3087a0782bff48079 minixfs: Convert dir_get_page() to dir_get_folio()
-aafe4dd440ff85ece926c004015ab12a6bc4b9ff minixfs: Convert minix_find_entry() to take a folio
-62a1bdd030a63ba9ac09f6188755852e8ea584df minixfs: Convert minix_set_link() and minix_dotdot() to take a folio
-753b3c028d7ee9a47b13bb4ee70a34a70b647cec minixfs: Convert minix_delete_entry() to work on a folio
-0bfcec82ae6aaf09429f1e7c64c4e1e07b590d26 minixfs: Convert minix_make_empty() to use a folio
-1fd13a72b92b4341af4118a316f494c2b91074ac minixfs: Convert minix_prepare_chunk() to take a folio
-010743a1c93133b34d3a5d36e83796eb1b4050ae minixfs: Convert dir_commit_chunk() to take a folio
-886ecc0cdb945f0c49d82a534bf8aa3729f096ad fs: Convert block_write_begin() to use a folio
-a8bd59bb81e1156735d8dcba0c7229e90cccbef3 reiserfs: Convert grab_tail_page() to use a folio
-b0db48b6dbf09ea3a6de47bfd536fb4d29f3e6f8 reiserfs: Convert reiserfs_write_begin() to use a folio
-ee8b6b6794ff68a8758bd39393cc9ccd69101ce6 block: Use a folio in blkdev_write_end()
-d5d492f4eede6985efb2299e19074dbf02d87401 buffer: Use a folio in generic_write_end()
-5296626f4d951b73c241221e304ae86c54be9dd1 nilfs2: Use a folio in nilfs_recover_dsync_blocks()
-7c4a0378149dc51af6e5a81b867082d1acd0eaae ntfs3: Remove reset_log_file()
-3cf8201b88f8ac0a9c8d5e574c312b2313bac26f buffer: Convert block_write_end() to take a folio
-76ca5214a2e910ff087d5d5a830ad0b88e21505a ecryptfs: Convert ecryptfs_write_end() to use a folio
-9f4d8005155ed7611c88b8da1ae9bdc771267336 ecryptfs: Use a folio in ecryptfs_write_begin()
-ef2c557265b13f52f845655f7df1f8a9fc44ed72 f2fs: Convert f2fs_write_end() to use a folio
-3913ab9649006b2188e576afc0a511278befa54c f2fs: Convert f2fs_write_begin() to use a folio
-698e000d66bfa57f9ad3bde5c8890e11cad21820 fuse: Convert fuse_write_end() to use a folio
-2c82f7c2a5756b5fd8cbaaa549336cb4394857bb fuse: Convert fuse_write_begin() to use a folio
-1ba286ee9b749d356dd0cef2bcf1308d7740155f hostfs: Convert hostfs_write_end() to use a folio
-8c0e176368a40ea7a995490c2e3f935e531fd02f jffs2: Convert jffs2_write_end() to use a folio
-b7d63c0d5f8ab992119049fe2ea28fa44828f2ed jffs2: Convert jffs2_write_begin() to use a folio
-4fc11ea804155651591518a011494598086a6a27 orangefs: Convert orangefs_write_end() to use a folio
-4fb0a7f3df28b2466e17367b253cfee342c95018 orangefs: Convert orangefs_write_begin() to use a folio
-b72625e13911e3a8de555fa0a767894bb9742aa1 vboxsf: Use a folio in vboxsf_write_end()
-300dd0fa8e20eca38c251fbe4b0b373f4b53c1b4 fs: Convert aops->write_end to take a folio
-cdc4ad36a871b7ac43fcc6b2891058d332ce60ce fs: Convert aops->write_begin to take a folio
-d5dd3891b9ec273f12c5d0e147d365956fc24b8f ocfs2: Convert ocfs2_write_zero_page to use a folio
-f45c4246ab18b6e73b6affda49a7ab17810f92e0 buffer: Convert __block_write_begin() to take a folio
-da9a5c08abd60a3bf9012a96d866d351e7dfa585 fs: allow mount namespace fd
-ce43736c0c8c5795ddf40c482cd9c6151ece6930 fs: add put_mnt_ns() cleanup helper
-6802fc4563cd8f561b740f562e654fe3ecff3495 file: add fput() cleanup helper
-5fa80d83baf0a37e0089ee0f964f51b4c6ad9a86 nsfs: iterate through mount namespaces
-4c17736689ccfc44ec7dcc472577f25c34cf8724 perf tool: fix dereferencing NULL al->maps
-440cf77625e300e683ca0edc39fbc4b6f3175feb perf: build: Setup PKG_CONFIG_LIBDIR for cross compilation
-cffe29d3b54aa0437bc35440ea64866bbfc418a3 perf: build: Set Python configuration for cross compilation
-536661da6ea18fe6df5740bc9e9001d097b035ee perf: build: Only link libebl.a for old libdw
-91b6a536b40658c24d6f04747ddf852d30f7f259 perf: build: Link lib 'lzma' for static build
-f42596c73872b753ff1799bc7fc79b1100226da1 perf: build: Link lib 'zstd' for static build
-d27087c76e3c859ea05b7581ef7ce8aa5a088dd8 perf docs: Document cross compilation
-80d3d33cdf4b0494b465087eb34d2e29d86e290e xfs: fix a memory leak
-39c1ddb064fd38e28571c853f067b134d17cffb2 xfs: allow SECURE namespace xattrs to use reserved block pool
-19ebc8f84ea12e18dd6c8d3ecaf87bcf4666eee1 xfs: fix file_path handling in tracepoints
-af5d92f2fad818663da2ce073b6fe15b9d56ffdc xfs: remove unused parameter in macro XFS_DQUOT_LOGRES
-8c2263b9231754f341e204124801c60de969298c xfs: convert comma to semicolon
-7bf888fa26e8f22bed4bc3965ab2a2953104ff96 xfs: convert comma to semicolon
-9f337b5daac168441265d70fbab92af9aa29fedb netfs: Fault in smaller chunks for non-large folio mappings
-e7251ad2744c7f35c95fb25cb5a2f03314034ebe Merge patch series "nsfs: iterate through mount namespaces"
-94ede2a3e9135764736221c080ac7c0ad993dc2d profiling: remove stale percpu flip buffer variables
-af1e6ab8c0e5cf24c0c1fda6e8caa6e543835d9c filelock: fix name of file_lease slab cache
-857effc79b9e1e30f7684ed129211c5a356d021a fcntl: add F_CREATED_QUERY
-b7fcee97615953b329049565d2e4acdf39b2af1d selftests: add F_CREATED_QUERY tests
-ae47653c0108222d66814c9fcfdc18dcb0fae8af Merge patch series "Add an fcntl() to check file creation"
-4d4bd2853dc04847559cd66e0cd2eb2ee40669ff fs: don't flush in-flight wb switches for superblocks without cgroup writeback
-f95329ef9eb64395ef570c04342c01ae505fae44 fs/direct-io: Remove linux/prefetch.h include
-f6380de3320af2e96702e15f1f79986cb10db438 Fixed: fs: file_table_c: Missing blank line warnings and struct declaration improved
-91db0bd2e0c488661bc9834a2d40f03be658f666 mount: handle OOM on mnt_warn_timestamp_expiry
-d9ced7810ca142fdcd37b4a0b708211050e54410 netfs: Adjust labels in /proc/fs/netfs/stats
-5109137be2a3349ecaa800b944df249b7b51d6f5 netfs: Record contention stats for writeback lock
-b8d37e100776a65ec46245a8205d89a73d5da463 netfs: Reduce number of conditional branches in netfs_perform_write()
-e0de2234c7f8138ec612c7861b6189f1abfeb5dd netfs, cifs: Move CIFS_INO_MODIFIED_ATTR to netfs_inode
-51619abd526c821760b82977fc6753b852fef71a netfs: Move max_len/max_nr_segs from netfs_io_subrequest to netfs_io_stream
-3d9997963822c4d0e7072a824e94004ee445e34a netfs: Reserve netfs_sreq_source 0 as unset/unknown
-45492802c87a4d3c3a8fcd3fa9f07cfb524d3728 netfs: Remove NETFS_COPY_TO_CACHE
-d90c6b764f09c9f878e0caeaaeef0dc220b86f8c netfs: Set the request work function upon allocation
-9c2e95ab18708d8923ba434dd6d5b86630a2dc8a netfs: Use bh-disabling spinlocks for rreq->lock
-5c7b8cdeb093f861e7c1c62cc3205815829cc147 mm: Define struct folio_queue and ITER_FOLIOQ to handle a sequence of folios
-95eddfbc4cc9de0e12439eda179331bebe4dd8a8 cifs: Provide the capability to extract from ITER_FOLIOQ to RDMA SGEs
-1632d66d3f51b52ecaae6d4c40b3529b2e797617 netfs: Use new folio_queue data type and iterator instead of xarray iter
-965a561e4026579f0fc4287fa40c5150829a3b10 fs/netfs/fscache_cookie: add missing "n_accesses" check
-df615907f1bf907260af01ccb904d0e9304b5278 platform/chrome: cros_ec_proto: Lock device when updating MKBP version
-f7244a2b1d4cf328c546e07905ebaba0fa0b0a86 fs/netfs/fscache_io: remove the obsolete "using_pgpriv2" flag
-6feb43ecdd8e8488ef84732ccb3a1712f269925f fs: add infrastructure for multigrain timestamps
-ce2ff3800434c973e854767bafb6824ea67a9d61 fs: tracepoints around multigrain timestamp events
-179340b88d642511aae03c7fd9341a3518b4b71f fs: add percpu counters for significant multigrain timestamp events
-d2407072ba13d75497aebb7941e2b5ba9b4913de fs: have setattr_copy handle multigrain timestamps appropriately
-f9cb86069badeebcf47203debf2dccec81b73235 Documentation: add a new file documenting multigrain timestamps
-829f1ac86dd794d897746a694a4e54aa7f7fb3c5 xfs: switch to multigrain timestamps
-a6256326093d1c63f33da248e2a9ddd48b85c648 ext4: switch to multigrain timestamps
-dd9efaca6a1d8a35facfb8f2f3a2bb4615876296 btrfs: convert to multigrain timestamps
-9a48efe5b3e6ea748fc3ea74a60573e2cca67dae tmpfs: add support for multigrain timestamps
-c1dbed4c3c12f54037bd418b5c46a3a10d507cb5 Merge branch 'write-end' of git://git.infradead.org/users/willy/pagecache
-5993793b368f2b5a23bfbaa3628179335a46d679 ufs: Convert ufs_get_page() to use a folio
-733cbb40f8f88c37eae1444a70b6ad468304bdf7 ufs: Convert ufs_get_page() to ufs_get_folio()
-43b158d40393ed3a5b42369e61147bebf9bc11c7 ufs: Convert ufs_check_page() to ufs_check_folio()
-34ad23f9be63293e658bc4c37a037944d2142ed7 ufs: Convert ufs_find_entry() to take a folio
-3065bec26f19a15d77a8db64851467e09846ebca ufs: Convert ufs_set_link() and ufss_dotdot() to take a folio
-0124331b5b530ad69ce6535b7f9a5c8cee66b407 ufs: Convert ufs_delete_entry() to work on a folio
-74be1a443839c06ce84f7b2335eecd73f02d4a6b ufs: Convert ufs_make_empty() to use a folio
-96be09c4b0b140c3aa7ce7c35cf2904a4e103fab ufs: Convert ufs_prepare_chunk() to take a folio
-d60618016bcaa8f72c7e4f568a89aeaa6db5bf20 ufs; Convert ufs_commit_chunk() to take a folio
-427c04cc36b48b92e94f7464d2de2bcae54aa228 ufs: Convert directory handling to kmap_local
-44540cba9d4bad30108814f198803cbf3894ec29 sysv: Convert dir_get_page() to dir_get_folio()
-b7aee8882913c5770dc93e7e912e6fde8e0f432a sysv: Convert sysv_find_entry() to take a folio
-55cb38f1742dff549d050495d8e11365b69e0460 sysv: Convert sysv_set_link() and sysv_dotdot() to take a folio
-c0824f96ceaf738a71db5ad8a82b763aca8bad05 sysv: Convert sysv_delete_entry() to work on a folio
-1c0a0457ff48f68ae0a72f1ce73240d44c084baa sysv: Convert sysv_make_empty() to use a folio
-9c55f3f22ec2b14a8d25cda52b39dae2a3b9c1cf sysv: Convert sysv_prepare_chunk() to take a folio
-82e2dc17a89e4a9506254eab1f3aa12a9e489603 sysv: Convert dir_commit_chunk() to take a folio
-c4169c6a0c6102795d3559bef54b577db4d30f01 qnx6: Convert qnx6_get_page() to qnx6_get_folio()
-2533f38d331f8000c4ba558c63d0abc6297bd86a qnx6: Convert qnx6_find_entry() to qnx6_find_ino()
-79f8e69d53da9dd7c1a330ee841045bb7249a204 qnx6: Convert qnx6_longname() to take a folio
-97118a18ef7aceb0cc24064bc8182ef6e23f8595 qnx6: Convert qnx6_checkroot() to use a folio
-40a464f51f40ad9df03fa39ff543131005ff8755 qnx6: Convert qnx6_iget() to use a folio
-1a5765c2f06c4aa1de403cc654a8b64a263ff128 qnx6: Convert directory handling to use kmap_local
-7bb7363934ef1683d2e9d9616f74998fb6f4a882 minixfs: Convert dir_get_page() to dir_get_folio()
-33c255f0c9e6f02c6d5890296c178057c56f2950 minixfs: Convert minix_find_entry() to take a folio
-f054b6ac93638a152fb10daf66f969a43c972878 minixfs: Convert minix_set_link() and minix_dotdot() to take a folio
-7b52dc87cb24a420cb4b46d8870c73e404254fa7 minixfs: Convert minix_delete_entry() to work on a folio
-bb024a9d0e7bac893dcc26875bbaaa41bb2daf43 minixfs: Convert minix_make_empty() to use a folio
-1cee35ea7b8249e537b6afaddede923a164584ad minixfs: Convert minix_prepare_chunk() to take a folio
-78fe1233a021434ecea54272321f032e0ac14bd9 minixfs: Convert dir_commit_chunk() to take a folio
-4c5f40996e51eb4eed24ac3ab1d368b909209203 fs: Convert block_write_begin() to use a folio
-62c9c7b8bfa2e844423a7241d93c924c972078d4 reiserfs: Convert grab_tail_page() to use a folio
-b2be24382c6e38585d8acd29bd6a6e86e33eee97 reiserfs: Convert reiserfs_write_begin() to use a folio
-3d75ec090fc0ee21924b10118ce03e83e6849a98 block: Use a folio in blkdev_write_end()
-8210fbe6cf9a652c06369b701740c41f4fc7dd15 buffer: Use a folio in generic_write_end()
-ee8e83305f8a48f9cf7552c21d83b90769bb6f6e nilfs2: Use a folio in nilfs_recover_dsync_blocks()
-332dbe27e1966fa5baadcbbfffd757cec5713cc5 ntfs3: Remove reset_log_file()
-f2904ceec6a371b9206652a19f4d2b92fd17721a buffer: Convert block_write_end() to take a folio
-2e9dd1ea03d07b7c3d9423e0796ec0cc7a24ed33 ecryptfs: Convert ecryptfs_write_end() to use a folio
-8bb600480b39f658cf68d26dee14bb257739a1df ecryptfs: Use a folio in ecryptfs_write_begin()
-805b251fa0115814c05064fc27de5b732305bc9f f2fs: Convert f2fs_write_end() to use a folio
-e0ec79f23a92db4ca41a134eec6f677bdb9a1e58 f2fs: Convert f2fs_write_begin() to use a folio
-294e7a45abe28392386309a2bebb794e810d9f66 fuse: Convert fuse_write_end() to use a folio
-0acfdb29eb27a221299af5af8796d3b4f4fee3d7 fuse: Convert fuse_write_begin() to use a folio
-85a8b645a43152d0ce27d6441233af7db41a52d4 hostfs: Convert hostfs_write_end() to use a folio
-fd1aa0c0ed0b416b32b6a65d7fa97fe90aa3b88e jffs2: Convert jffs2_write_end() to use a folio
-17274c797e71c218a6c2e5765f3d8efe5aa424a5 jffs2: Convert jffs2_write_begin() to use a folio
-3bf0e8a4510855cb221c9c37fc207076881bec38 orangefs: Convert orangefs_write_end() to use a folio
-e441cc61d91b45b38c797dde2ddeb1465c9dfcba orangefs: Convert orangefs_write_begin() to use a folio
-75483982c6adaaaba35a94151a80db6313f3b68e vboxsf: Use a folio in vboxsf_write_end()
-35c2259b6c28964e8eda1c3f0278f9a9e9496669 fs: Convert aops->write_end to take a folio
-1b0f5bf98343b98c4fe325baf111564836995b98 fs: Convert aops->write_begin to take a folio
-e2612445d7d516cfb17c0294f59281509304b7c2 ocfs2: Convert ocfs2_write_zero_page to use a folio
-ac0d4cb76703b2d5fe666e4e2700c0ce30d4eff6 buffer: Convert __block_write_begin() to take a folio
-dc811e7b74eb4e5ae5fae7ef9e2e88c518bd9499 Merge branch 'work.write.end'
-b8e947e9f64cac9df85a07672b658df5b2bcff07 btrfs: initialize location to fix -Wmaybe-uninitialized in btrfs_lookup_dentry()
-69a89a3aec08ea108a6fc7a4af5cbd3ce451420c Merge branch 'misc-6.11' into next-fixes
-d6b33c9f944d1cdf44e6c493b1d74fd11830de7b svcrdma: Handle device removal outside of the CM event handler
-b484eca083f7088a263f15122cd1d3f6192be98e fs/aio: Fix __percpu annotation of *cpu pointer in struct kioctx
-e150560f143d9f673348635e516990c94a5a00db netfs: Provide an iterator-reset function
-3ccb236b532567a4da7249418d316c9bda78de9c netfs: Simplify the writeback code
-b31dc1912755558213e1f16a133e7abb642f4814 afs: Make read subreqs async
-0acb268f3ec68667a586e31e6a619630c81bc681 netfs: Speed up buffered reading
-af6519cfd7c2c4290681da6971760d9767c7038d netfs: Remove fs/netfs/io.c
-a5bd871fffa4e9f9ff1f2c5fae1270a981990197 cachefiles, netfs: Fix write to partial block at EOF
-f3a2fb764840a10195641a99e4501c3991fbb1ac netfs: Cancel dirty folios that have no storage destination
-2cb2cf11a22f584e5aad875b80984be4f1979716 cifs: Use iterate_and_advance*() routines directly for hashing
-f02acad7bbfd850821f60f0eec7a39ada26a70da cifs: Switch crypto buffer to use a folio_queue rather than an xarray
-ca2fa1d2e159bfb15185710df94d4957827475a2 cifs: Don't support ITER_XARRAY
-c1fa688ac370885e5107b401710dc9dda61c8517 Merge patch series "netfs: Read/write improvements"
-cfe15de20651098c61bad0c0ec1648e275ac97ea Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-fadfaa1e9de1f324e2c3b633ee4e4ad28fcb715f Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-27f413925dbcef94615ed8e553049e74c0503b74 Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-1901c53fdeb7d4f091dc101e9e87e2b3c66cbbce Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-0184053499e7f1bd344b75b05d29c3daf9cc8cca Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7ee4621d0ae3bbc070e9610b4b3ffb15db01ef27 Merge branch 'vfs.netfs' into vfs.all
-22f5468731491e53356ba7c028f0fdea20b18e2c minmax: improve macro expansion and type checking
-c91a7dee0555f6f9d3702d86312382e4c4729d0a Merge tag 'chrome-platform-fixes-for-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-e254e0c5baeae28717d1b312821e6ded29e7d969 Merge tag 'perf-tools-fixes-for-v6.11-2024-07-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-e4fc196f5ba36eb7b9758cf2c73df49a44199895 Merge tag 'for-6.11-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-9ecf6230b53081309e6b8c3029cc6621a2d38453 netfs: Fault in smaller chunks for non-large folio mappings
-1d9d9dee03be9b10eac92e9a749a91512ee9b9c2 filelock: fix name of file_lease slab cache
-df7bc5db597f7672330b08ca462b3d47a44c3369 fs/netfs/fscache_cookie: add missing "n_accesses" check
-90965e4a2232ee3a4d2bcbbecb170f336ff1b8fe nsfs: fix ioctl declaration
-1f58a658ed6d8d88011c9328e4f7bf9aac86b75f libfs: fix infinite directory reads for offset dir
-21b136cc63d2a9ddd60d4699552b69c214b32964 minmax: fix up min3() and max3() too
-99b82e11665e66022e2f6c44ad2c161c3982eec1 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-d377d6ea3556b8a6db3b43bc04ec807a4e9f587a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-290c906f0fa117fc437375d53dad5972682616fa Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-7db7222ebb327428b9d2c6d01167e05cd032af3e smb: client: handle lack of FSCTL_GET_REPARSE_POINT support
-23d830b373772cbdd8439cef49bd40735697de6b cifs: Remove cifs_aio_ctx
-e3fbcd954e7aab742b09358351ba4e93b14ed6b2 smb3: add dynamic tracepoints for shutdown ioctl
-806863369add5b88b4ea5a2967e8f3ac9fe81b32 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-371e37d3d9e67bebc1bdc5ade4183ea3410ce697 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-694fd823da3275bfefef47e19490cf3584e16b63 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-3a5dae67efc0961ce81797df7b3b04c90f377be6 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-e4b439c1d73d35f71ced1b8020646c243878563d Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-9f1a3169b8d576a7a4d02422ef9bcdbee04b363e Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-ccd16a86226da7f22ab838bb49115bbb2a31747b Merge branch '9p-next' of git://github.com/martinetd/linux
-24611b0c64bf251a3f9abb0d926ccf7f34bd381b Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-86e02a00d6070b6c8ba80666bc97f7ce95f88501 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============0420169326537664647==
+--===============0141198809098132600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1280,32 +1054,4 @@ c1b3c0c99ce686dbc2544480219f6bcfe91912b3 Merge branch 'master' of git://git.kern
 b095b78c3a3d2d82be7ce3204dbda21bdfb5e6e2 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux.git
 048d8cb65cde9fe7534eb4440bcfddcf406bb49c Add linux-next specific files for 20240801
 
---===============0420169326537664647==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b5faec9f564-21b136cc63d2.txt
-
-f333a3c7e8323499aa65038e77fe8f3199d4e283 btrfs: tree-checker: validate dref root and objectid
-de9f46cb0044a9b9f825d7695ae235863461dc00 btrfs: fix corrupt read due to bad offset of a compressed extent map
-4c17736689ccfc44ec7dcc472577f25c34cf8724 perf tool: fix dereferencing NULL al->maps
-440cf77625e300e683ca0edc39fbc4b6f3175feb perf: build: Setup PKG_CONFIG_LIBDIR for cross compilation
-cffe29d3b54aa0437bc35440ea64866bbfc418a3 perf: build: Set Python configuration for cross compilation
-536661da6ea18fe6df5740bc9e9001d097b035ee perf: build: Only link libebl.a for old libdw
-91b6a536b40658c24d6f04747ddf852d30f7f259 perf: build: Link lib 'lzma' for static build
-f42596c73872b753ff1799bc7fc79b1100226da1 perf: build: Link lib 'zstd' for static build
-d27087c76e3c859ea05b7581ef7ce8aa5a088dd8 perf docs: Document cross compilation
-478574370bef7951fbd9ef5155537d6cbed49472 btrfs: make cow_file_range_inline() honor locked_page on error
-d89c285d28491d8f10534c262ac9e6bdcbe1b4d2 btrfs: do not subtract delalloc from avail bytes
-8cd44dd1d17a23d5cc8c443c659ca57aa76e2fa5 btrfs: zoned: fix zone_unusable accounting on making block group read-write again
-939b656bc8ab203fdbde26ccac22bcb7f0985be5 btrfs: fix corruption after buffer fault in during direct IO append write
-94ede2a3e9135764736221c080ac7c0ad993dc2d profiling: remove stale percpu flip buffer variables
-df615907f1bf907260af01ccb904d0e9304b5278 platform/chrome: cros_ec_proto: Lock device when updating MKBP version
-b8e947e9f64cac9df85a07672b658df5b2bcff07 btrfs: initialize location to fix -Wmaybe-uninitialized in btrfs_lookup_dentry()
-22f5468731491e53356ba7c028f0fdea20b18e2c minmax: improve macro expansion and type checking
-c91a7dee0555f6f9d3702d86312382e4c4729d0a Merge tag 'chrome-platform-fixes-for-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-e254e0c5baeae28717d1b312821e6ded29e7d969 Merge tag 'perf-tools-fixes-for-v6.11-2024-07-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-e4fc196f5ba36eb7b9758cf2c73df49a44199895 Merge tag 'for-6.11-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-21b136cc63d2a9ddd60d4699552b69c214b32964 minmax: fix up min3() and max3() too
-
---===============0420169326537664647==--
+--===============0141198809098132600==--
