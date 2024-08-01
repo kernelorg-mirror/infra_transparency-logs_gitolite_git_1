@@ -1,49 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8398063130917978773=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 01 Aug 2024 21:45:51 -0000
-Message-Id: <172254875146.11406.15826091440302243155@gitolite.kernel.org>
-
---===============8398063130917978773==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 01 Aug 2024 21:50:03 -0000
+Message-Id: <172254900374.14361.2047127256587133614@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 79b01efa89b28b7ece838ad3a085402753a6618d
-    log: revlist-8400291e289e-79b01efa89b2.txt
-
---===============8398063130917978773==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-79b01efa89b2.txt
-
-5297bba507dc54045e6efeb9955c1271ca9aafe1 genirq/msi: Silence 'set affinity failed' warning
-4dff9c32ae066896a77c23628fb221c4cb9f5111 PCI: aardvark: Silence 'set affinity failed' warning
-114ca2969f1e4d4f3b6920a4824f11b0a9cf708a PCI: altera-msi: Silence 'set affinity failed' warning
-c7b10edde0f25edd74a84f51a195bdf3a634d473 PCI: brcmstb: Silence 'set affinity failed' warning
-363d53acbfd3ec0454349d1e312f600d3fa33285 PCI: dwc: Silence 'set affinity failed' warning
-425c07563f4cefdb4d521d1f1cf5990004a388fa PCI: mediatek-gen3: Silence 'set affinity failed' warning
-63e4794cde79c2724f9c02abe8a46be70a5b90df PCI: mediatek: Silence 'set affinity failed' warning
-2a1297ead0694c54e6997fe89f71b10e144d5540 PCI: mobiveil: Silence 'set affinity failed' warning
-e934abaac09692201d109b094a01b3dea3915382 PCI: plda: Silence 'set affinity failed' warning
-57d1992b396d5dbbc70b938c15a10d9d3469c48d PCI: rcar-host: Silence 'set affinity failed' warning
-7216311681e7f53845c790945a05a61cbbf471fc PCI: tegra: Silence 'set affinity failed' warning
-00988d487c677b2299e2cbfeaee6563150a4c058 PCI: vmd: Silence 'set affinity failed' warning
-04a1766c2eb3d1a89d296bc4bbaa85f74598e7ed PCI: xilinx-nwl: Silence 'set affinity failed' warning
-c23c501e4d4e9d708d936d480e8d36251cfa568d PCI: xilinx-xdma: Silence 'set affinity failed' warning
-51c3c92a1229b916195699c25c24d667178853a2 PCI: xilinx: Silence 'set affinity failed' warning
-3a6ebccadeacb767549b49bcb244e15270b2bfea PCI: Make pcim_request_region() a public function
-5113e87242cebf8ab74dd70754baaa8a4e17689c drm/vboxvideo: Add PCI region request
-b2747eb3f0df9cbbbc9946626d24b5b8c4929736 Merge branch 'pci/devres'
-79b01efa89b28b7ece838ad3a085402753a6618d Merge branch 'pci/controller/affinity'
-
---===============8398063130917978773==--
+  - ref: refs/heads/for-6.12/io_uring
+    old: 0c87670003aabfdf8772e8ee19d8794adab9a7e7
+    new: 04eedfc93ea1121bb6b00f27b14c58973f7de1c9
+    log: |
+         cbca98cb933728bb5eee39ba6bfe184932931e3d io_uring/rsrc: store folio shift and mask into imu
+         04eedfc93ea1121bb6b00f27b14c58973f7de1c9 io_uring/rsrc: enable multi-hugepage buffer coalescing
+         
+  - ref: refs/heads/for-next
+    old: 4127666add29e22f7c5416266746ac0c291c28e0
+    new: dfcaf38adba152403f15094727d558bf2de95429
+    log: |
+         cbca98cb933728bb5eee39ba6bfe184932931e3d io_uring/rsrc: store folio shift and mask into imu
+         04eedfc93ea1121bb6b00f27b14c58973f7de1c9 io_uring/rsrc: enable multi-hugepage buffer coalescing
+         dfcaf38adba152403f15094727d558bf2de95429 Merge branch 'for-6.12/io_uring' into for-next
+         
+  - ref: refs/heads/master
+    old: 183d46ff422ef9f3d755b6808ef3faa6d009ba3a
+    new: c0ecd6388360d930440cc5554026818895199923
+    log: |
+         00f89ae4e759a7eef07e4188e1534af7dd2c7e9c PCI: Fix devres regression in pci_intx()
+         5560a612c20d3daacbf5da7913deefa5c31742f4 PCI: pciehp: Retain Power Indicator bits for userspace indicators
+         c0ecd6388360d930440cc5554026818895199923 Merge tag 'pci-v6.11-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+         
