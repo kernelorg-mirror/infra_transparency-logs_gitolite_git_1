@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 01 Aug 2024 08:16:26 -0000
-Message-Id: <172250018608.10411.12062666651772124233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 01 Aug 2024 08:19:38 -0000
+Message-Id: <172250037892.11577.1786758735053829398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/master
-    old: 7a27b0ac58abccdf46e89bea9ed9f81a496132ab
-    new: 2360f368524bb817b71bdd2efed53d0c3c3929ad
+  - ref: refs/heads/v6.11-next/dts64
+    old: ac90896833b52ff58c81727f57ed3cf9ffb9db86
+    new: 9c8a741cad27ba299a800447e960da51d8f77e08
     log: |
-         3c9b2c902da0a262d9bb5120ae8397173b7944bf Bluetooth: hci_qca: don't call pwrseq_power_off() twice for QCA6390
-         786cd197c92b4e61ccd00dc3cea5d1b913f9a4e6 Bluetooth: hci_qca: fix QCA6390 support on non-DT platforms
-         9fba2e3f4ac12a021826b7b2f5cc16459dec594d Bluetooth: hci_qca: fix a NULL-pointer derefence at shutdown
-         1e69bd3ba19cbfb490392839429ee93c47afb734 Bluetooth: l2cap: always unlock channel in l2cap_conless_channel()
-         2360f368524bb817b71bdd2efed53d0c3c3929ad Bluetooth: hci_sync: avoid dup filtering when passive scanning with adv monitor
+         e09d3c59a2e8989c8dd632663df85b802af0fa10 arm64: dts: mediatek: mt8186: add lvts definitions
+         ac94bd2cd377497be4d68a320e2f4b77955b4b55 arm64: dts: mediatek: mt8186: add default thermal zones
+         649206e19f03d22cf6edc0a15bf744cde3779e72 arm64: dts: mediatek: mt8188: add lvts definitions
+         9c8a741cad27ba299a800447e960da51d8f77e08 arm64: dts: mediatek: mt8188: add default thermal zones
          
