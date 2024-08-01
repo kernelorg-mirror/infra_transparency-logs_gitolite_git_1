@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7768943603440608297=="
+Content-Type: multipart/mixed; boundary="===============6618761856888702452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 01 Aug 2024 18:04:29 -0000
-Message-Id: <172253546913.7314.8784114521579987238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 01 Aug 2024 18:04:38 -0000
+Message-Id: <172253547860.7431.5851775765110613690@gitolite.kernel.org>
 
---===============7768943603440608297==
+--===============6618761856888702452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
-    old: ea558c86248b4955e5c5f3c0c921df450880605e
+    old: 7a2fb5619cc1fb53cb8784154d5ef2bd99997436
     new: 616ebac7ee2b89d34d70535e9fbe829bc78e24f8
-    log: revlist-ea558c86248b-616ebac7ee2b.txt
+    log: revlist-7a2fb5619cc1-616ebac7ee2b.txt
 
---===============7768943603440608297==
+--===============6618761856888702452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea558c86248b-616ebac7ee2b.txt
+Content-Disposition: attachment; filename=revlist-7a2fb5619cc1-616ebac7ee2b.txt
 
 10f338bd0a42140d8a18a31c89309c5a03e38fc2 MIPS: config: generic: Add board-litex
 31ebd6e11f2450f20317e399b08680a80cbff484 MIPS: config: lemote2f: Regenerate defconfig
@@ -1051,4 +1051,4 @@ d2b64136651609d7a940540f348cd801f22ae34f perf python: Remove PYTHON_PERF ifdefs
 e1170e096390566a4f581abd2cb9362df2b0322f perf mem: Add -s/--sort option
 616ebac7ee2b89d34d70535e9fbe829bc78e24f8 perf mem: Add -T/--data-type option to report subcommand
 
---===============7768943603440608297==--
+--===============6618761856888702452==--
