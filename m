@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8049714872836877197=="
+Content-Type: multipart/mixed; boundary="===============1144163262872693095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 01 Aug 2024 10:58:54 -0000
-Message-Id: <172250993445.13325.17480192370231611724@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 11:00:31 -0000
+Message-Id: <172251003105.15685.10169869582819978452@gitolite.kernel.org>
 
---===============8049714872836877197==
+--===============1144163262872693095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 16198eef11c1929374381d7f6271b4bf6aa44615
-    new: 9374ae912dbb1eed8139ed75fd2c0f1b30ca454d
-    log: revlist-16198eef11c1-9374ae912dbb.txt
-  - ref: refs/tags/v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/heads/next
+    old: b85e021853976aaebd3788e7e721020570754199
+    new: 538076ce6b8dfe5e8e8d9d250298030f165d8457
+    log: revlist-b85e02185397-538076ce6b8d.txt
 
---===============8049714872836877197==
+--===============1144163262872693095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16198eef11c1-9374ae912dbb.txt
+Content-Disposition: attachment; filename=revlist-b85e02185397-538076ce6b8d.txt
 
-f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
-66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
-9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
-519d849acb6523a9e9500f7a4345018fe92a131a Bluetooth: btintel: Fix spelling of *intermediate* in comment
-b96bac9607b285d4316e74fbf469df084c4f8adb Bluetooth: hci: fix build when POWER_SEQUENCING=m
-fb5e4713fc185f6283ba0704edccea312253e805 Bluetooth: qca: don't disable power management for QCA6390
-1723b550b66aebea9b8e9d6fb5f3c468adea69ce Bluetooth: btintel: Fix the sfi name for BlazarU
 3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
 473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
 87be7b189b2c50d4b51512f59e4e97db4eedee8a Bluetooth: Fix usage of __hci_cmd_sync_status
@@ -1052,6 +1042,13 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
+5d609fe0c27cc0c206c207637532bcf7e4957c35 dt-bindings: mmc: nuvoton,ma35d1-sdhci: Document MA35D1 SDHCI controller
+307de94fca59837989d7036750d45356fa254acb mmc: sdhci-of-ma35d1: Add Nuvoton MA35D1 SDHCI driver
+466b6d122dbbd31774e88f426e1d930962461aef mmc: sdhci-pxav2: Remove unnecessary null pointer check
 9374ae912dbb1eed8139ed75fd2c0f1b30ca454d mmc: mtk-sd: receive cmd8 data when hs400 tuning fail
+32842af74abc8ff95d7fedc8fd1c209506a90bc0 dt-bindings: mmc: renesas,sdhi: Document RZ/V2H(P) support
+861a88a251c33cb743781e0b51c1f807bee99f95 mmc: tmio: Use MMC core APIs to control the vqmmc regulator
+c09d5ce1610c104548ab6ab4203abbce3350a89f mmc: renesas_sdhi: Add RZ/V2H(P) compatible string
+538076ce6b8dfe5e8e8d9d250298030f165d8457 mmc: Merge branch fixes into next
 
---===============8049714872836877197==--
+--===============1144163262872693095==--
