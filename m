@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 01 Aug 2024 00:12:04 -0000
-Message-Id: <172247112489.8265.14157745880680426304@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 00:14:16 -0000
+Message-Id: <172247125661.9115.7215926405731407494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/openfast
-    old: 91f076ccb15b5b608bd7c49ae7532f6edbd77d7d
-    new: 5533774f1b4293d322c392ffb409305170f0b0c3
+    old: 5533774f1b4293d322c392ffb409305170f0b0c3
+    new: 6a22693a27b794e11f1d609456ed66407cbeb569
     log: |
-         5533774f1b4293d322c392ffb409305170f0b0c3 fs: try an opportunistic lookup for O_CREAT opens too
+         6a22693a27b794e11f1d609456ed66407cbeb569 fs: try an opportunistic lookup for O_CREAT opens too
          
