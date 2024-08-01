@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5866483889091593773=="
+Content-Type: multipart/mixed; boundary="===============3308280099080271412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 01 Aug 2024 16:26:54 -0000
-Message-Id: <172252961495.32231.5342498035683190622@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 16:26:57 -0000
+Message-Id: <172252961731.32303.8137814997662175921@gitolite.kernel.org>
 
---===============5866483889091593773==
+--===============3308280099080271412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0bf50cead4c4710d9f704778c32ab8af47ddf070
     new: 25010bfdf8bbedc64c5c04d18f846412f5367d26
     log: revlist-0bf50cead4c4-25010bfdf8bb.txt
 
---===============5866483889091593773==
+--===============3308280099080271412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ a46c68debf3be3a477a69ccbf0a1d050df841676 ipv6: fix ndisc_is_useropt() handling f
 68cc924729ffcfe90d0383177192030a9aeb2ee4 mptcp: fix duplicate data handling
 25010bfdf8bbedc64c5c04d18f846412f5367d26 Merge branch 'mptcp-fix-duplicate-data-handling'
 
---===============5866483889091593773==--
+--===============3308280099080271412==--
