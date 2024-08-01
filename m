@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
-Date: Thu, 01 Aug 2024 13:02:54 -0000
-Message-Id: <172251737431.26270.12799191096987622838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 Aug 2024 13:03:05 -0000
+Message-Id: <172251738532.26399.1412692919021389495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/fastrpc
-user: srini
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/for-fixes
+  - ref: refs/tags/sent/20230303-arm64-gcs-e311ab0d8729-v10
     old: 0000000000000000000000000000000000000000
-    new: 1d1bab3f20cb3442807548feeadddd1309ab7ed6
+    new: 4bf05c9fc7901ab28521cb41ff1126f1e63451ee
