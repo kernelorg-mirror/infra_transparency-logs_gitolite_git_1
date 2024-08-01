@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7418692944467255011=="
+Content-Type: multipart/mixed; boundary="===============1806656451028480928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 01 Aug 2024 19:51:18 -0000
-Message-Id: <172254187809.22832.3406225238427010726@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 19:54:07 -0000
+Message-Id: <172254204788.23882.11662496887344400201@gitolite.kernel.org>
 
---===============7418692944467255011==
+--===============1806656451028480928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/fixes
-    old: bba1f6758a9ec90c1adac5dcf78f8a15f1bad65b
-    new: 8aa37bde1a7b645816cda8b80df4753ecf172bf1
-    log: revlist-bba1f6758a9e-8aa37bde1a7b.txt
+  - ref: refs/tags/pull-fixes
+    old: 13909980bb5010c61ffce361c46599d4b4887eae
+    new: 8b7e7dc6c4b34fd9b4eb3dd5ba807eec5c80564d
+    log: revlist-13909980bb50-8b7e7dc6c4b3.txt
 
---===============7418692944467255011==
+--===============1806656451028480928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bba1f6758a9e-8aa37bde1a7b.txt
+Content-Disposition: attachment; filename=revlist-13909980bb50-8b7e7dc6c4b3.txt
 
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
@@ -1051,4 +1051,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 8aa37bde1a7b645816cda8b80df4753ecf172bf1 protect the fetch of ->fd[fd] in do_dup2() from mispredictions
 
---===============7418692944467255011==--
+--===============1806656451028480928==--
