@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 01 Aug 2024 02:14:46 -0000
-Message-Id: <172247848622.5694.8732902110037478472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Thu, 01 Aug 2024 02:20:20 -0000
+Message-Id: <172247882053.10977.687580029967805464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/objtool-diff
-    old: 8caf44f00dd08417ce8ea935710516c61dd61412
-    new: ed5f5967ff0f4b9bb6043fb7318dec6faa560cf6
+  - ref: refs/heads/master
+    old: f676e16b148429354c46260eb0eaa68c80dda667
+    new: 8456529ba7882a95bb661b45015841fa9fbaf9de
     log: |
-         e3511afbfde62cfd7adfcef1e4a1bf111c68b89b livepatch: Enable -ffunction-sections -fdata-sections
-         d968005c18a74000cf1584dfb29ca172feed7156 x86/module: Improve relocation error messages
-         8d9afa278d0ac8071e42d8494fd5cba76be984e4 x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
-         ef71abcaa29d66f6726be4de58af28aac6019cc3 kernel/sys: Don't reference UTS_RELEASE directly
-         ed5f5967ff0f4b9bb6043fb7318dec6faa560cf6 todo
+         8bcea82acfdb6faee2708bfa05c32246fdacaedf test-appliance: fix exponential backoff when the git repo update fails
+         47338ca3d9831f5b9880ee5550a3fb7f71fb66d5 kernel-build: work around "make bindeb-pkg" failure without modules.order
+         8456529ba7882a95bb661b45015841fa9fbaf9de Support using Linux kernel managed by git worktrees
          
