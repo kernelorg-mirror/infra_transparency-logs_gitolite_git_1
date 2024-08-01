@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 01 Aug 2024 12:54:14 -0000
-Message-Id: <172251685405.19064.6671771026863195538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 01 Aug 2024 12:56:42 -0000
+Message-Id: <172251700211.21616.542534819433879722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 49947e7aedfea2573bada0c95b85f6c2363bef9f
-    new: 3db03fb4995ef85fc41e86262ead7b4852f4bcf0
+  - ref: refs/heads/master
+    old: 998104507ba103ae0c83641d381794bf11dd46e0
+    new: 100c845b2d20e7f4f96b371e044b8b59944230ab
     log: |
-         41e71dbb0e0a0fe214545fe64af031303a08524c x86/mm: Fix pti_clone_pgtable() alignment assumption
-         3db03fb4995ef85fc41e86262ead7b4852f4bcf0 x86/mm: Fix pti_clone_entry_text() for i386
+         100c845b2d20e7f4f96b371e044b8b59944230ab shared/bap: Fix overwriting sink attribute
          
