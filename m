@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 01 Aug 2024 13:36:21 -0000
-Message-Id: <172251938134.19131.17358376202037614951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Thu, 01 Aug 2024 13:46:34 -0000
+Message-Id: <172251999406.27370.1081575494286990555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/kdevops
-    old: 429b45f2347bc22532a0ff9eb2f8fd5d1f8ab1e9
-    new: e20854955f5ae8188c49c8fa9b3d5e9276559e56
+  - ref: refs/heads/asm-generic
+    old: 5d2a785d5fce0b88b0a3ccc37d7970f7e68c64f1
+    new: a73df08ebb5a402fbcecaecbd633926ca3f63aba
     log: |
-         1d61abf6664c03dcf2323dedd8fe0ef4e47770ce fs: add a kerneldoc header over lookup_fast
-         e20854955f5ae8188c49c8fa9b3d5e9276559e56 fs: try an opportunistic lookup for O_CREAT opens too
+         a73df08ebb5a402fbcecaecbd633926ca3f63aba syscalls: fix syscall macros for newfstat/newfstatat
+         
+  - ref: refs/heads/master
+    old: 5d2a785d5fce0b88b0a3ccc37d7970f7e68c64f1
+    new: a73df08ebb5a402fbcecaecbd633926ca3f63aba
+    log: |
+         a73df08ebb5a402fbcecaecbd633926ca3f63aba syscalls: fix syscall macros for newfstat/newfstatat
          
