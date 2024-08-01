@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 01 Aug 2024 02:08:54 -0000
-Message-Id: <172247813444.1940.3461489082591204999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 01 Aug 2024 02:14:46 -0000
+Message-Id: <172247848622.5694.8732902110037478472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/main
-    old: 9bb3ec18d052a285def852dbdd7124ea355bd1d0
-    new: 8e0c0ec9b7dc2aec84f141c26c501e24906ff765
+  - ref: refs/heads/objtool-diff
+    old: 8caf44f00dd08417ce8ea935710516c61dd61412
+    new: ed5f5967ff0f4b9bb6043fb7318dec6faa560cf6
     log: |
-         20a3bcfe9327e0559a25a9ecd45967fd4f11ff24 net: alteon: Convert tasklet API to new bottom half workqueue mechanism
-         2d671dc6f069f46214d96e934e14f5952d76d92f net: xgbe: Convert tasklet API to new bottom half workqueue mechanism
-         8d3beb6bc765ccea794612066454da5bb72a0746 net: cnic: Convert tasklet API to new bottom half workqueue mechanism
-         c5092ba3155e0696e922fc9f1c2909f48fde2102 net: macb: Convert tasklet API to new bottom half workqueue mechanism
-         8e0c0ec9b7dc2aec84f141c26c501e24906ff765 Merge branch 'ethernet-convert-from-tasklet-to-bh-workqueue'
+         e3511afbfde62cfd7adfcef1e4a1bf111c68b89b livepatch: Enable -ffunction-sections -fdata-sections
+         d968005c18a74000cf1584dfb29ca172feed7156 x86/module: Improve relocation error messages
+         8d9afa278d0ac8071e42d8494fd5cba76be984e4 x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
+         ef71abcaa29d66f6726be4de58af28aac6019cc3 kernel/sys: Don't reference UTS_RELEASE directly
+         ed5f5967ff0f4b9bb6043fb7318dec6faa560cf6 todo
          
