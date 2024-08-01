@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4001996569719428419=="
+Content-Type: multipart/mixed; boundary="===============3343809126987428061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 01 Aug 2024 12:43:43 -0000
-Message-Id: <172251622323.11841.3326417262403019257@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 12:49:06 -0000
+Message-Id: <172251654691.15467.11145750614685536351@gitolite.kernel.org>
 
---===============4001996569719428419==
+--===============3343809126987428061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-amd-atl
-    old: f4c0cd1870afd57181e8087c6cf8da3d7fa2cebe
+  - ref: refs/heads/edac-for-next
+    old: 9a1c5fe0f0a8aec0859394d7bea86db8ff842a0a
     new: 26e43c9a894176e7b7f7eaff61aaf2748d4aa520
-    log: revlist-f4c0cd1870af-26e43c9a8941.txt
+    log: revlist-9a1c5fe0f0a8-26e43c9a8941.txt
 
---===============4001996569719428419==
+--===============3343809126987428061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4c0cd1870af-26e43c9a8941.txt
+Content-Disposition: attachment; filename=revlist-9a1c5fe0f0a8-26e43c9a8941.txt
 
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
@@ -1051,4 +1051,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 f0fcdd2cb0db62605d85f3b97a1b443e7c91f886 ACPI: PRM: Add PRM handler direct call support
 26e43c9a894176e7b7f7eaff61aaf2748d4aa520 RAS/AMD/ATL: Translate normalized to system physical addresses using PRM
 
---===============4001996569719428419==--
+--===============3343809126987428061==--
