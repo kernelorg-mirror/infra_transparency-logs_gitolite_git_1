@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1738661358630135484=="
+Content-Type: multipart/mixed; boundary="===============5479730311587389072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 01 Aug 2024 15:23:33 -0000
-Message-Id: <172252581328.16316.10282255235901694156@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 15:23:55 -0000
+Message-Id: <172252583560.16529.5471043833797204744@gitolite.kernel.org>
 
---===============1738661358630135484==
+--===============5479730311587389072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: e21de658f8e808551c2f9702727442980bdc0ad7
+  - ref: refs/heads/riscv-config-for-next
+    old: d8a7d89abb091fe4c1744241c7a40dbad570fd9e
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-e21de658f8e8-8400291e289e.txt
+    log: revlist-d8a7d89abb09-8400291e289e.txt
 
---===============1738661358630135484==
+--===============5479730311587389072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e21de658f8e8-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-d8a7d89abb09-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============1738661358630135484==--
+--===============5479730311587389072==--
