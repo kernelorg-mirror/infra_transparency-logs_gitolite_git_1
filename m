@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2545217349137849262=="
+Content-Type: multipart/mixed; boundary="===============2280008996728521457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 01 Aug 2024 23:03:49 -0000
-Message-Id: <172255342950.3062.9703461681900524894@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 23:03:52 -0000
+Message-Id: <172255343294.3135.11433161197056221270@gitolite.kernel.org>
 
---===============2545217349137849262==
+--===============2280008996728521457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 25010bfdf8bbedc64c5c04d18f846412f5367d26
     new: 183d46ff422ef9f3d755b6808ef3faa6d009ba3a
     log: revlist-25010bfdf8bb-183d46ff422e.txt
 
---===============2545217349137849262==
+--===============2280008996728521457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -483,4 +483,4 @@ e4fc196f5ba36eb7b9758cf2c73df49a44199895 Merge tag 'for-6.11-rc1-tag' of git://g
 21b136cc63d2a9ddd60d4699552b69c214b32964 minmax: fix up min3() and max3() too
 183d46ff422ef9f3d755b6808ef3faa6d009ba3a Merge tag 'net-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2545217349137849262==--
+--===============2280008996728521457==--
