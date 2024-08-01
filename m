@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1403764266525746167=="
+Content-Type: multipart/mixed; boundary="===============2843979800960105367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 01 Aug 2024 22:50:09 -0000
-Message-Id: <172255260978.26507.2864811736583886675@gitolite.kernel.org>
+Date: Thu, 01 Aug 2024 22:50:15 -0000
+Message-Id: <172255261517.26580.2779773029932046178@gitolite.kernel.org>
 
---===============1403764266525746167==
+--===============2843979800960105367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 743ff02152bc46bb4a2f2a49ec891c87eba6ab5b
     new: 5fa35bd39ce106889909444c937a10b2d3a79f08
     log: revlist-743ff02152bc-5fa35bd39ce1.txt
 
---===============1403764266525746167==
+--===============2843979800960105367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -571,4 +571,4 @@ a46c68debf3be3a477a69ccbf0a1d050df841676 ipv6: fix ndisc_is_useropt() handling f
 183d46ff422ef9f3d755b6808ef3faa6d009ba3a Merge tag 'net-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5fa35bd39ce106889909444c937a10b2d3a79f08 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1403764266525746167==--
+--===============2843979800960105367==--
