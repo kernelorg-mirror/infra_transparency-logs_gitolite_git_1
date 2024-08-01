@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 01 Aug 2024 12:31:41 -0000
-Message-Id: <172251550102.2531.5668947808369272903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 01 Aug 2024 12:37:50 -0000
+Message-Id: <172251587035.7632.8953616699494546527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/kdevops
-    old: 554f9a749863706898ac78951481d6a5ca6f0411
-    new: 56eec1df13a2ad0a3c2c1f225433eb5490a3dd71
+  - ref: refs/heads/python-v2.2.x
+    old: c3be23d6d1a596d48800b492af2c69c91d8ca788
+    new: e8e38dc67d32c805c7e7773e79046655bef9c27e
     log: |
-         56eec1df13a2ad0a3c2c1f225433eb5490a3dd71 fs: try an opportunistic lookup for O_CREAT opens too
+         e8e38dc67d32c805c7e7773e79046655bef9c27e bindings: python: gpiod v2.2.1
          
