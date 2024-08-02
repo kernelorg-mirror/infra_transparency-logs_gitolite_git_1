@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4382292375645349360=="
+Content-Type: multipart/mixed; boundary="===============2831344545658001896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 02 Aug 2024 17:34:52 -0000
-Message-Id: <172262009258.12985.15641626373326146387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 02 Aug 2024 17:35:05 -0000
+Message-Id: <172262010502.14731.10018600406530136395@gitolite.kernel.org>
 
---===============4382292375645349360==
+--===============2831344545658001896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 69dd15a8ef0ae494179fd15023aa8172188db6b7
-    new: 9aafe1dd035fd405c5514e6bea2647c196626dd3
-    log: revlist-69dd15a8ef0a-9aafe1dd035f.txt
+  - ref: refs/heads/for-next
+    old: 73f68a327e23420873ae9852e4b41ecdd8be3991
+    new: e60d3cd1e8568f67ed515fc6227d11efc0ac0150
+    log: revlist-73f68a327e23-e60d3cd1e856.txt
 
---===============4382292375645349360==
+--===============2831344545658001896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1722620090 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1722620089-569f81bde6b22fdd93bc9938a3ab516e5c953bbc
-
-69dd15a8ef0ae494179fd15023aa8172188db6b7 9aafe1dd035fd405c5514e6bea2647c196626dd3 refs/heads/asoc-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmatGLoACgkQJNaLcl1U
-h9BJ1wf+Oe/ft2DIj4RHKQak4AFn0BGiOgmYzx9v0U7wXsMSng4IISyR3U1K2OsC
-8UHaUFU/JM3kfwM3NDDj6SeGXOOwSg9Pfizb+tKB7lPCwwCY1TVAEF+E7YQ2Ftbh
-ZgfgYtRUcE09Ctix8PVhvQbl15aDhVwKsA1X9v24yf8EEefZtq91ktbjo4/oL0qX
-ipaukFIV472KbsWnlwlNwIgptodBaFfV2FlZHcFilb8Y1jeccr86gLa6qQTBR9aV
-41LN9JBZCT9jB4mhjMfPpY2ugqHktDCE6F7f7iD9ywTh+r14jn7LW4ngt+GihQvT
-MzE8II6g96tlb6nZlYj0hu80tC2zVA==
-=Lgxe
------END PGP SIGNATURE-----
-
---===============4382292375645349360==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69dd15a8ef0a-9aafe1dd035f.txt
+Content-Disposition: attachment; filename=revlist-73f68a327e23-e60d3cd1e856.txt
 
 6588fcc8833d8338b994edd97a4446bae95ff12c ASoC: intel: rename codec_info and dai_info structures names
 408a454ee8886912cc8a64fcd012e0a1eb30fd0b ASoC: intel: rename soundwire common header macros
@@ -91,5 +66,6 @@ ebbd6703d4635d36b35f12a1365dfd7894c0ff12 ASoC: soc-pcm: use snd_pcm_direction_na
 bb660132868b5208d6a5f2bd184425cf788f4ef9 ASoC: soc-dapm: use snd_pcm_direction_name()
 bb2bf8568a425d025bcb3f7c112f9a0282a7dc8e AMD SOF based generic SoundWire machine driver
 9aafe1dd035fd405c5514e6bea2647c196626dd3 ALSA/ASoC: use snd_pcm_direction_name()
+e60d3cd1e8568f67ed515fc6227d11efc0ac0150 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
 
---===============4382292375645349360==--
+--===============2831344545658001896==--
