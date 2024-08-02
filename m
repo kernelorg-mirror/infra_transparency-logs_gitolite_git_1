@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Aug 2024 17:52:37 -0000
-Message-Id: <172262115775.27899.13850120862515585689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Fri, 02 Aug 2024 18:01:44 -0000
+Message-Id: <172262170440.2200.3531539787825078697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/v2_20240802_rf_alsa_add_support_for_new_hp_g12_laptops
-    old: c0024c7fd5c5b90df0190da4e6fe81d1953b16ee
-    new: 90ec3a8a7fd0d43026fcca979713e077d4883b56
+  - ref: refs/heads/main
+    old: 7cb8c1c14569426e867cbdbdb218d1d9bcd4d520
+    new: 034fb231ff06aa4615b7531a04e4c3e0ce4aa662
     log: |
-         90ec3a8a7fd0d43026fcca979713e077d4883b56 spi: Add empty versions of ACPI functions
+         b3c96935c82b7410422ca2973398ac9d0272c844 rteval: Added functionality to allow user to set the cstate of specified cpus when running rteval
+         034fb231ff06aa4615b7531a04e4c3e0ce4aa662 rteval: run cyclictest using '--default-system' when setting idle states
          
