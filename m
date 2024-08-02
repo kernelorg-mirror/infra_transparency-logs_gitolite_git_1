@@ -1,26 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 02 Aug 2024 15:47:14 -0000
-Message-Id: <172261363414.31207.16659280048162063485@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1235455280648409853=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Fri, 02 Aug 2024 15:47:15 -0000
+Message-Id: <172261363576.31277.4611547449854279245@gitolite.kernel.org>
+
+--===============1235455280648409853==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/100GbE
-    old: 183d46ff422ef9f3d755b6808ef3faa6d009ba3a
-    new: 16dc75e500a37bc9a2fcc39d0c776a90ca06a34f
-    log: |
-         d67c5649c1541dc93f202eeffc6f49220a4ed71d mptcp: fully established after ADD_ADDR echo on MPJ
-         8af1f11865f259c882cce71d32f85ee9004e2660 mptcp: pm: deny endp with signal + subflow + port
-         c95eb32ced823a00be62202b43966b07b2f20b7f mptcp: pm: reduce indentation blocks
-         cd7c957f936f8cb80d03e5152f4013aae65bd986 mptcp: pm: don't try to create sf if alloc failed
-         85df533a787bf07bf4367ce2a02b822ff1fba1a3 mptcp: pm: do not ignore 'subflow' if 'signal' flag is also set
-         bec1f3b119ebc613d08dfbcdbaef01a79aa7de92 selftests: mptcp: join: ability to invert ADD_ADDR check
-         4d2868b5d191c74262f7407972d68d1bf3245d6a selftests: mptcp: join: test both signal & subflow
-         16dc75e500a37bc9a2fcc39d0c776a90ca06a34f Merge branch 'mptcp-fix-endpoints-with-signal-and-subflow-flags'
-         
+  - ref: refs/heads/x86/apic
+    old: 91c77a5f4f532bb26a8f402b0c532c6087f2959c
+    new: 90eb0d7eea4522d8aec9fa34df796396e6c3c2b1
+    log: revlist-91c77a5f4f53-90eb0d7eea45.txt
+
+--===============1235455280648409853==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-91c77a5f4f53-90eb0d7eea45.txt
+
+5494ef982a9b66ea79c57452e1acf70940a46393 x86/ioapic: Handle allocation failures gracefully
+6b51c1821e19193f0f41bdcbcdbec94fec1bb6d5 x86/ioapic: Mark mp_alloc_timer_irq() __init
+870fd627b392b258a2b764ba676075b0f99b3c0e x86/ioapic: Cleanup structs
+f5a608e93b60ae1e628d6b35780341e7371dc13a x86/ioapic: Use guard() for locking where applicable
+bbce61e4b779d894658a7fb88bbeb539960692be x86/apic: Provide apic_printk() helpers
+82ee68cff64329da585ca9cc5fd7975a8e57ee00 x86/apic: Cleanup apic_printk()s
+6c7e6d338d8f6d93e7449c10e4a077500129a77a x86/ioapic: Cleanup apic_printk()s
+fa1b3cc196e54c141dd48f462e0f68029df9b430 x86/ioapic: Cleanup guarded debug printk()s
+ec35c1cb1f48c5a2d31aabdc793377cdb310234f x86/mpparse: Cleanup apic_printk()s
+48a083105288f837571a55284f3e8bc28f5effbc iommu/vt-d: Cleanup apic_printk()
+976fcced779a649da16824b4852813d65a62831b x86/ioapic: Move replace_pin_at_irq_node() to the call site
+8b2e41e83a6a993d48ffb308da47b5633da29e58 x86/ioapic: Cleanup comments
+0b0bc37f3ae58b410e574edba4e0787799919657 x86/ioapic: Cleanup bracket usage
+3cfacacd6f60c376faeec36a32276bafe31e7b3d x86/ioapic: Cleanup line breaks
+90eb0d7eea4522d8aec9fa34df796396e6c3c2b1 x86/ioapic: Cleanup remaining coding style issues
+
+--===============1235455280648409853==--
