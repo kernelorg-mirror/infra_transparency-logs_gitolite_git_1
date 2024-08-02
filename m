@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 02 Aug 2024 01:37:15 -0000
-Message-Id: <172256263595.25936.15576589629545689551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 02 Aug 2024 02:04:45 -0000
+Message-Id: <172256428573.11539.13684694784269134926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/main
-    old: 183d46ff422ef9f3d755b6808ef3faa6d009ba3a
-    new: 16dc75e500a37bc9a2fcc39d0c776a90ca06a34f
+  - ref: refs/heads/pwm/for-next
+    old: 1b0e7dd4d12b675c9daa413626eda8a03341d8fb
+    new: d6a56f3bb6507f0a3bd4d2f47198911c7da6291e
     log: |
-         d67c5649c1541dc93f202eeffc6f49220a4ed71d mptcp: fully established after ADD_ADDR echo on MPJ
-         8af1f11865f259c882cce71d32f85ee9004e2660 mptcp: pm: deny endp with signal + subflow + port
-         c95eb32ced823a00be62202b43966b07b2f20b7f mptcp: pm: reduce indentation blocks
-         cd7c957f936f8cb80d03e5152f4013aae65bd986 mptcp: pm: don't try to create sf if alloc failed
-         85df533a787bf07bf4367ce2a02b822ff1fba1a3 mptcp: pm: do not ignore 'subflow' if 'signal' flag is also set
-         bec1f3b119ebc613d08dfbcdbaef01a79aa7de92 selftests: mptcp: join: ability to invert ADD_ADDR check
-         4d2868b5d191c74262f7407972d68d1bf3245d6a selftests: mptcp: join: test both signal & subflow
-         16dc75e500a37bc9a2fcc39d0c776a90ca06a34f Merge branch 'mptcp-fix-endpoints-with-signal-and-subflow-flags'
+         d6a56f3bb6507f0a3bd4d2f47198911c7da6291e pwm: lp3943: Use of_property_count_u32_elems() to get property length
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 1b0e7dd4d12b675c9daa413626eda8a03341d8fb
+    new: d6a56f3bb6507f0a3bd4d2f47198911c7da6291e
+    log: |
+         d6a56f3bb6507f0a3bd4d2f47198911c7da6291e pwm: lp3943: Use of_property_count_u32_elems() to get property length
          
