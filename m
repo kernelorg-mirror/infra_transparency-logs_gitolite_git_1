@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 02 Aug 2024 03:10:23 -0000
-Message-Id: <172256822365.28942.812485017240986178@gitolite.kernel.org>
+Date: Fri, 02 Aug 2024 03:13:09 -0000
+Message-Id: <172256838972.30070.7530897345780839822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: a3a75f7af7b2fea8db29af5fd473a0246cacbc23
-    new: ac0997ea32a465a6b0db7b782bb8d4d07952365a
+  - ref: refs/heads/experimental
+    old: 13326f383ea592c9cdfcb5f796ef2b9bfa9879b2
+    new: 15ba0ff20a903cbc71271f81eadf43a2c6795a87
     log: |
-         365f615e0baa716a389fa32729f2926cc031515f erofs-utils: lib: allow xattr e_name_index as 0
-         8f93c2f83962e0f082aa1be331bfa547be3592d2 erofs-utils: mkfs: support inline xattr reservation for rootdirs
-         ac0997ea32a465a6b0db7b782bb8d4d07952365a erofs-utils: lib: uuid: fix compilation error if __NR_getrandom doesn't exist
+         d6680a2b7d81fe99dfff3ad012029cd568084d21 erofs-utils: fsck: fix fd leak on failure in erofs_extract_file()
+         1770975ccfcac89ac2ffd585ced0cb7ccc1ba7ed erofs-utils: lib: fix out-of-bounds in erofs_io_xcopy()
+         d0d2b83a024217462cca1bb2097baa995c9b9263 erofs-utils: lib: fix fd leak on failure in erofs_dev_open()
+         15ba0ff20a903cbc71271f81eadf43a2c6795a87 erofs-utils: lib: drop prefix_sha256 digests
          
