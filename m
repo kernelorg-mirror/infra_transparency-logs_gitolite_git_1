@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 02 Aug 2024 15:17:11 -0000
-Message-Id: <172261183107.8230.8849431085374212348@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5645828033669264686=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 02 Aug 2024 15:17:38 -0000
+Message-Id: <172261185883.8438.2485256013490780261@gitolite.kernel.org>
+
+--===============5645828033669264686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: d6f4d91fa65f5e8831d0a05679d78b167c0150e5
-    new: bc51a513ebf760f50371d3771321f27f4a65c755
-    log: |
-         a5242874488eba2b9062985bf13743c029821330 ACPICA: check null return of ACPI_ALLOCATE_ZEROED() in acpi_db_convert_to_package()
-         f4e050ddac0015784c2100314ec1a52f922eb8f4 Merge branch 'acpica' into bleeding-edge
-         e127344231c2e74b9715e540a610f168546cb89a ACPI: APD: Add AMDI0015 as platform device
-         2ce907992cfe7042c98a85a507b19b27e7a016e5 Merge branch 'acpi-soc' into bleeding-edge
-         07442c46abad1d50ac82af5e0f9c5de2732c4592 ACPI: PMIC: Remove unneeded check in tps68470_pmic_opregion_probe()
-         bc51a513ebf760f50371d3771321f27f4a65c755 Merge branch 'acpi-pmic' into bleeding-edge
-         
+  - ref: refs/heads/main
+    old: 5fa35bd39ce106889909444c937a10b2d3a79f08
+    new: ce21e520fdef49d92b01ce93cfc3d88906d01618
+    log: revlist-5fa35bd39ce1-ce21e520fdef.txt
+
+--===============5645828033669264686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5fa35bd39ce1-ce21e520fdef.txt
+
+5fcf0801ef5c8adb785520f16b4a1faa8c4ac147 net: mctp: Consistent peer address handling in ioctl tag allocation
+46e6acfe3501fa938af9c5bd730f0020235b08a2 net: phy: qca807x: Drop unnecessary and broken DT validation
+0b0e9cdb3d1f8fda823b592b0667b4b0595e2ba7 net: mdio: Use of_property_count_u32_elems() to get property length
+5fe164fb0e6e31dbcbb4b706fd76bc578e5af4c6 net: Use of_property_read_bool()
+744500d81f81346b4d442809c0511684bb28c829 vsock: add support for SIOCOUTQ ioctl
+e6ab45005772014ce49a693a63f928203c0cbbb0 vsock/virtio: add SIOCOUTQ support for all virtio based transports
+18ee44ce97c18ee72f5807140d07ff8cebe3cab5 test/vsock: add ioctl unsent bytes test
+3361a6eae59664ffae640ff7a838f5bd89c24461 Merge branch 'vsock-virtio' into main
+3ff578c91cd86461b58561e19cce087e8899d0ce net: axienet: Replace the occurrences of (1<<x) by BIT(x)
+f7061a3e04cf17162a2d96f4f746f7904c26158e net: axienet: add missing blank line after declaration
+f83828a0522fc57b244629844fc413e38cde95f3 net: axienet: remove unnecessary ftrace-like logging
+48ba8a1d0424347e375f5deccdd2eda461fa9a94 net: axienet: remove unnecessary parentheses
+ce21e520fdef49d92b01ce93cfc3d88906d01618 Merge branch 'axienet-coding-style' into main
+
+--===============5645828033669264686==--
