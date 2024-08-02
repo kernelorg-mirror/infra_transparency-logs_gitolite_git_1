@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3572272891747783800=="
+Content-Type: multipart/mixed; boundary="===============4382292375645349360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 02 Aug 2024 17:34:45 -0000
-Message-Id: <172262008564.12877.3322771335041952024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 02 Aug 2024 17:34:52 -0000
+Message-Id: <172262009258.12985.15641626373326146387@gitolite.kernel.org>
 
---===============3572272891747783800==
+--===============4382292375645349360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 69dd15a8ef0ae494179fd15023aa8172188db6b7
     new: 9aafe1dd035fd405c5514e6bea2647c196626dd3
     log: revlist-69dd15a8ef0a-9aafe1dd035f.txt
 
---===============3572272891747783800==
+--===============4382292375645349360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1722620083 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1722620082-08ffabc0c41c43e5997dd8a8e22b7a4a49e2ff1c
+pusher C3F436CA30F5D8EB 1722620090 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1722620089-569f81bde6b22fdd93bc9938a3ab516e5c953bbc
 
-69dd15a8ef0ae494179fd15023aa8172188db6b7 9aafe1dd035fd405c5514e6bea2647c196626dd3 refs/heads/for-6.12
+69dd15a8ef0ae494179fd15023aa8172188db6b7 9aafe1dd035fd405c5514e6bea2647c196626dd3 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmatGLMACgkQJNaLcl1U
-h9A4iQf/YpRkqNz8AnDSAFWgFLoU/XywcRa4n5I4aJxpmxOP6hyPgdbBaM98VUMh
-bjzYvC2SO7/R4t1qfH5XLoADdR7AbGn7KcYEI9N8vjkKFtGhpaGaNqjy2aVnTh+6
-2KCxIRDXIl5VrBF9QgtP0dVWs9ROaEqFwK4j4WSSUODU4ym8/qv6jFtYDfhiY52m
-pP9XWmPpVY3NX1A4T7oIyWZM2xLqY+QWGhHsozLg7gN9V0Cp173MQRj4VLL41p4c
-Cbq065I3PcollDyU7RY9a2aJ9ZFHXmtUfCUvE6lfUySYhzzZwvXaXoBvrKTuzEMd
-Oj5EVohKG9A0dpo6Wo4dE/gngzH06Q==
-=YxAb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmatGLoACgkQJNaLcl1U
+h9BJ1wf+Oe/ft2DIj4RHKQak4AFn0BGiOgmYzx9v0U7wXsMSng4IISyR3U1K2OsC
+8UHaUFU/JM3kfwM3NDDj6SeGXOOwSg9Pfizb+tKB7lPCwwCY1TVAEF+E7YQ2Ftbh
+ZgfgYtRUcE09Ctix8PVhvQbl15aDhVwKsA1X9v24yf8EEefZtq91ktbjo4/oL0qX
+ipaukFIV472KbsWnlwlNwIgptodBaFfV2FlZHcFilb8Y1jeccr86gLa6qQTBR9aV
+41LN9JBZCT9jB4mhjMfPpY2ugqHktDCE6F7f7iD9ywTh+r14jn7LW4ngt+GihQvT
+MzE8II6g96tlb6nZlYj0hu80tC2zVA==
+=Lgxe
 -----END PGP SIGNATURE-----
 
---===============3572272891747783800==
+--===============4382292375645349360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ bb660132868b5208d6a5f2bd184425cf788f4ef9 ASoC: soc-dapm: use snd_pcm_direction_n
 bb2bf8568a425d025bcb3f7c112f9a0282a7dc8e AMD SOF based generic SoundWire machine driver
 9aafe1dd035fd405c5514e6bea2647c196626dd3 ALSA/ASoC: use snd_pcm_direction_name()
 
---===============3572272891747783800==--
+--===============4382292375645349360==--
