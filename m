@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Aug 2024 22:27:18 -0000
-Message-Id: <172263763832.5121.11447069480996919892@gitolite.kernel.org>
+Date: Fri, 02 Aug 2024 22:27:37 -0000
+Message-Id: <172263765783.5291.18116276777788670157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v4_20240802_ckeepax_fix_irq_mutex_inversion_on_cs42l43
-    old: 93afd028fb5f06a46a32375fd1f0473451eb1c5a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.11
+    old: 7354eb7f1558466e92e926802d36e69e42938ea9
+    new: 93afd028fb5f06a46a32375fd1f0473451eb1c5a
+    log: |
+         becfa08bfefa2cbb22c84d9e583e81387f2f3bf2 ASoC: cs42l43: Remove redundant semi-colon at end of function
+         c8a132e2e032b00828d51141ab34f9aeb24f44ae ASoC: soc-component: Add new snd_soc_component_get_kcontrol() helpers
+         4791c422981350d0de4ad02a14a08b99c766d06f ASoC: cs35l45: Use new snd_soc_component_get_kcontrol_locked() helper
+         93afd028fb5f06a46a32375fd1f0473451eb1c5a ASoC: cs42l43: Cache shutter IRQ control pointers
+         
