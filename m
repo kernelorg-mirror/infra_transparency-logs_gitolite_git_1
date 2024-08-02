@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 02 Aug 2024 05:32:29 -0000
-Message-Id: <172257674972.2512.1258936896548938904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 02 Aug 2024 05:42:43 -0000
+Message-Id: <172257736330.10643.2191436812140767882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/objtool-diff
-    old: 9792deb86d2136e6f92b7b085b3bcefb1d3c63c9
-    new: 3bb7a4e54bb8a2458b0e1304d85c385359895bb6
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: e960bbac0af4024a87991118dcc5263d2079f91e
+    new: dca2ef2b7d916c718c6e88084170413a8a1942d0
     log: |
-         62cb47e3c76aed5b1a9c466c1984502491309e82 x86/compiler: Tweak __UNIQUE_ID naming
-         5b7c1c5588c3685c309125ff37d2108b071615b7 elfnote: Use __UNIQUE_ID() for note symbols
-         f0a03c3dca48c4184f39ba0b78b03e9bd6387f82 reloc error msg
-         1ba7a07ed46a0b5f04c6a04bd2e7561c1c46935b fake symbol
-         3bb7a4e54bb8a2458b0e1304d85c385359895bb6 todo
+         dca2ef2b7d916c718c6e88084170413a8a1942d0 cpufreq: spear: Use of_property_for_each_u32() instead of open coding
          
