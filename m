@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Aug 2024 13:08:26 -0000
-Message-Id: <172260410644.26690.11237126121408875666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 02 Aug 2024 13:10:48 -0000
+Message-Id: <172260424813.29165.13954025901417645056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/20240802_pierre_louis_bossart_asoc_sof_reshuffle_and_optimize_structures
-    old: 0000000000000000000000000000000000000000
-    new: 5821d7b4981f4915ab353f538be38defe9656f81
-  - ref: refs/heads/fileQzHnex
-    old: 0000000000000000000000000000000000000000
-    new: a1c2716738b7ba9e912e04872639dd39c72baa35
-  - ref: refs/heads/v4_20240802_ckeepax_fix_irq_mutex_inversion_on_cs42l43
-    old: 0000000000000000000000000000000000000000
-    new: 93afd028fb5f06a46a32375fd1f0473451eb1c5a
-  - ref: refs/heads/v4_20240802_pierre_louis_bossart_asoc_sof_pci_intel_add_pantherlake_support
-    old: 0000000000000000000000000000000000000000
-    new: 2786d3f4943c472c10dd630ec3e0a1a892181562
+  - ref: refs/heads/bleeding-edge
+    old: a80a239cf8bde55de7ddb2ccf25452bfdecf1b3a
+    new: ac41f371f5a51c3bb3cc087b069d74fbb59a71a7
+    log: |
+         64a66f4a3c89b4602ee1e6cd23b28729fc4562b3 cpufreq: intel_pstate: Update Balance performance EPP for Emerald Rapids
+         0f127178892ec54553da2e3975e23979709b5ff9 cpufreq: powerpc: add missing MODULE_DESCRIPTION() macros
+         ac41f371f5a51c3bb3cc087b069d74fbb59a71a7 Merge branch 'pm-cpufreq' into bleeding-edge
+         
