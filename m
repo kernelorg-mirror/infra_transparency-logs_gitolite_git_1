@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5561512021383599770=="
+Content-Type: multipart/mixed; boundary="===============1870275478853686877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 02 Aug 2024 00:35:28 -0000
-Message-Id: <172255892846.6633.3233591736491267337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 02 Aug 2024 00:35:37 -0000
+Message-Id: <172255893761.6739.13541314134905278484@gitolite.kernel.org>
 
---===============5561512021383599770==
+--===============1870275478853686877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 7320ad972510415515d00838451c51f2db3974a7
     log: revlist-28f86dbdc23b-7320ad972510.txt
 
---===============5561512021383599770==
+--===============1870275478853686877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ ea59b70a8418a313d6f2ab48a957de015fc33018 perf bpf: Move BPF disassembly routines
 2d99a991337f70a7d11135d6a539bed8c060cb0f perf mem: Add -s/--sort option
 7320ad972510415515d00838451c51f2db3974a7 perf mem: Add -T/--data-type option to report subcommand
 
---===============5561512021383599770==--
+--===============1870275478853686877==--
