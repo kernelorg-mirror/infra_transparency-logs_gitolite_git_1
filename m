@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 02 Aug 2024 16:29:42 -0000
-Message-Id: <172261618216.29076.12946759109605625358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 02 Aug 2024 16:34:05 -0000
+Message-Id: <172261644514.32387.2089182531315428519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/timers/urgent
-    old: 6881e75237a84093d0986f56223db3724619f26e
-    new: f2655ac2c06a15558e51ed6529de280e1553c86e
+  - ref: refs/heads/for-next/fixes
+    old: f126745da81783fb1d082e67bf14c6795e489a88
+    new: cfb00a35786414e7c0e6226b277d9f09657eae74
     log: |
-         f2655ac2c06a15558e51ed6529de280e1553c86e clocksource: Fix brown-bag boolean thinko in cs_watchdog_read()
+         cfb00a35786414e7c0e6226b277d9f09657eae74 arm64: jump_label: Ensure patched jump_labels are visible to all CPUs
          
