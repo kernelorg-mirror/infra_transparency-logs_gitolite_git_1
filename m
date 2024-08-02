@@ -1,41 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4412661462905313886=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Aug 2024 21:27:10 -0000
-Message-Id: <172263403016.25407.6219898021926001474@gitolite.kernel.org>
-
---===============4412661462905313886==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 02 Aug 2024 21:36:01 -0000
+Message-Id: <172263456153.31849.16205157315314892799@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 839e231a53b824a62bc3696ad3ba1dcedc4f4167
-    new: cf410c1beaded9c7ba16210b36cbe9ed0e2b4d19
-    log: revlist-839e231a53b8-cf410c1beade.txt
-
---===============4412661462905313886==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-839e231a53b8-cf410c1beade.txt
-
-6a965fbaac461564ae74dbfe6d9c9e9de65ea67a ASoC: Intel: soc-acpi: add PTL match tables
-42b4763ab301c5604343aa49774426d5005711a3 ASoC: SOF: Intel: add PTL specific power control register
-3f8c8027775901c13d1289b4c54e024d3d5d982a ASoC: SOF: Intel: add initial support for PTL
-77a6869afbbfad0db297e9e4b9233aac209d5385 ASoC: Intel: soc-acpi-intel-ptl-match: add rt711-sdca table
-2786d3f4943c472c10dd630ec3e0a1a892181562 ASoC: Intel: soc-acpi-intel-ptl-match: Add rt722 support
-cac88e96ba0961921b8068326579b26094f37ba4 ASoC: SOF: sof-priv.h: optimize snd_sof_platform_stream_params
-e9e7eeaf199c7961d634235dbedeb7b682b1dd32 ASoC: SOF: sof-priv.h: optimize snd_sof_mailbox
-5a4413d0fa8d0a438246acaf81637d71aab1b6a0 ASoC: SOF: sof-priv.h: optimize snd_sof_ipc_msg
-5821d7b4981f4915ab353f538be38defe9656f81 ASoC: SOF: sof-audio.h: optimize snd_sof_pcm_stream_pipeline_list
-218c9007851c2190326ce12fd0719809a5219165 ASoC: SOF: reshuffle and optimize structures
-cf410c1beaded9c7ba16210b36cbe9ed0e2b4d19 ASoC/SOF/PCI/Intel: add PantherLake support
-
---===============4412661462905313886==--
+  - ref: refs/heads/openfast
+    old: 88971ac7f35a84e89a21c9fe341c50ae08a502a7
+    new: cac45020166bff4a1ea09f88e7b846e0e37c2117
+    log: |
+         9b71997e1f251a0257163fb6ad630bd269cba5ae fs: try an opportunistic lookup for O_CREAT opens too
+         d9074a5f273a25cf66420b8b65573f806dc81f47 fs: remove comment about d_rcu_to_refcount
+         0a439324bcc2939a441e4fa3bbb721dd028759a0 fs: add a kerneldoc header over lookup_fast
+         c0e7942ea3d40bd2b9f66165387415b73ee07bbb lockref: rework CMPXCHG_LOOP to handle contention better
+         cac45020166bff4a1ea09f88e7b846e0e37c2117 fs: try an opportunistic lookup for O_CREAT opens too
+         
