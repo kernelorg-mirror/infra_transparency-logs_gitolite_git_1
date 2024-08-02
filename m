@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3127166674556790405=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 02 Aug 2024 15:35:27 -0000
-Message-Id: <172261292731.21648.6059132568200107582@gitolite.kernel.org>
-
---===============3127166674556790405==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 02 Aug 2024 15:35:39 -0000
+Message-Id: <172261293907.21780.1322967066221964670@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 5fa35bd39ce106889909444c937a10b2d3a79f08
-    new: ce21e520fdef49d92b01ce93cfc3d88906d01618
-    log: revlist-5fa35bd39ce1-ce21e520fdef.txt
-
---===============3127166674556790405==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fa35bd39ce1-ce21e520fdef.txt
-
-5fcf0801ef5c8adb785520f16b4a1faa8c4ac147 net: mctp: Consistent peer address handling in ioctl tag allocation
-46e6acfe3501fa938af9c5bd730f0020235b08a2 net: phy: qca807x: Drop unnecessary and broken DT validation
-0b0e9cdb3d1f8fda823b592b0667b4b0595e2ba7 net: mdio: Use of_property_count_u32_elems() to get property length
-5fe164fb0e6e31dbcbb4b706fd76bc578e5af4c6 net: Use of_property_read_bool()
-744500d81f81346b4d442809c0511684bb28c829 vsock: add support for SIOCOUTQ ioctl
-e6ab45005772014ce49a693a63f928203c0cbbb0 vsock/virtio: add SIOCOUTQ support for all virtio based transports
-18ee44ce97c18ee72f5807140d07ff8cebe3cab5 test/vsock: add ioctl unsent bytes test
-3361a6eae59664ffae640ff7a838f5bd89c24461 Merge branch 'vsock-virtio' into main
-3ff578c91cd86461b58561e19cce087e8899d0ce net: axienet: Replace the occurrences of (1<<x) by BIT(x)
-f7061a3e04cf17162a2d96f4f746f7904c26158e net: axienet: add missing blank line after declaration
-f83828a0522fc57b244629844fc413e38cde95f3 net: axienet: remove unnecessary ftrace-like logging
-48ba8a1d0424347e375f5deccdd2eda461fa9a94 net: axienet: remove unnecessary parentheses
-ce21e520fdef49d92b01ce93cfc3d88906d01618 Merge branch 'axienet-coding-style' into main
-
---===============3127166674556790405==--
+  - ref: refs/heads/main
+    old: 183d46ff422ef9f3d755b6808ef3faa6d009ba3a
+    new: 16dc75e500a37bc9a2fcc39d0c776a90ca06a34f
+    log: |
+         d67c5649c1541dc93f202eeffc6f49220a4ed71d mptcp: fully established after ADD_ADDR echo on MPJ
+         8af1f11865f259c882cce71d32f85ee9004e2660 mptcp: pm: deny endp with signal + subflow + port
+         c95eb32ced823a00be62202b43966b07b2f20b7f mptcp: pm: reduce indentation blocks
+         cd7c957f936f8cb80d03e5152f4013aae65bd986 mptcp: pm: don't try to create sf if alloc failed
+         85df533a787bf07bf4367ce2a02b822ff1fba1a3 mptcp: pm: do not ignore 'subflow' if 'signal' flag is also set
+         bec1f3b119ebc613d08dfbcdbaef01a79aa7de92 selftests: mptcp: join: ability to invert ADD_ADDR check
+         4d2868b5d191c74262f7407972d68d1bf3245d6a selftests: mptcp: join: test both signal & subflow
+         16dc75e500a37bc9a2fcc39d0c776a90ca06a34f Merge branch 'mptcp-fix-endpoints-with-signal-and-subflow-flags'
+         
