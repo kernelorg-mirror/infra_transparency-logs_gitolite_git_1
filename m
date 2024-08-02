@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0738789440139979906=="
+Content-Type: multipart/mixed; boundary="===============0835570395777919463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 02 Aug 2024 17:20:38 -0000
-Message-Id: <172261923847.4232.10310462598655213124@gitolite.kernel.org>
+Date: Fri, 02 Aug 2024 17:20:44 -0000
+Message-Id: <172261924494.4353.3622360995297780981@gitolite.kernel.org>
 
---===============0738789440139979906==
+--===============0835570395777919463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kfence/dev
-    old: 77629b55fdbbdc12b8dbe3314868bc79c7c5b3fd
-    new: 576ee43dd2fdc0644941f21af41d84e9aab70af0
-    log: revlist-77629b55fdbb-576ee43dd2fd.txt
+  - ref: refs/heads/kasan/dev
+    old: 4ed5446b0dc6a4400158fc7eaffa6b7054827459
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    log: revlist-4ed5446b0dc6-8400291e289e.txt
 
---===============0738789440139979906==
+--===============0835570395777919463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77629b55fdbb-576ee43dd2fd.txt
+Content-Disposition: attachment; filename=revlist-4ed5446b0dc6-8400291e289e.txt
 
+e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
 66ef82c66e9c462c893909b35ee4cbdfccf02bb2 dt-bindings: net: bluetooth: qualcomm: describe regulators for QCA6390
 9a15ce685706e73154f03341b35ff5943e46d039 Bluetooth: qca: use the power sequencer for QCA6390
@@ -1049,6 +1050,5 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 017fa3e89187848fd056af757769c9e66ac3e93d minmax: simplify and clarify min_t()/max_t() implementation
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
-576ee43dd2fdc0644941f21af41d84e9aab70af0 docs: kernel-parameters: add info about kfence.sample_interval
 
---===============0738789440139979906==--
+--===============0835570395777919463==--
