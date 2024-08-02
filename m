@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Aug 2024 20:36:23 -0000
-Message-Id: <172263098302.19408.3379660611957329610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 02 Aug 2024 20:45:00 -0000
+Message-Id: <172263150062.25479.9282350682157056881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/kvm-arm64-get-reg-list
-    old: 75be19fd195c7f2e584a2082b778cce1db17a7d5
-    new: 2da72581188302cdaae4e1593267a23ed5179d2b
+  - ref: refs/heads/next-fixes
+    old: 66567f8c5075f73b2511d1f3d8630b0aaea6e87f
+    new: 8d8ce2d7a07fa9f57a270df2a5081ce189ad4840
     log: |
-         09ded64897ab8f8aa75e30e5bcf79ab8ac6f8fa8 KVM: selftests: arm64: Simplify specification of filtered registers
-         2da72581188302cdaae4e1593267a23ed5179d2b KVM: selftests: arm64: Use generated defines for named system registers
+         12653ec36112ab55fa06c01db7c4432653d30a8d btrfs: avoid using fixed char array size for tree names
+         8d8ce2d7a07fa9f57a270df2a5081ce189ad4840 Merge branch 'misc-6.11' into next-fixes
          
