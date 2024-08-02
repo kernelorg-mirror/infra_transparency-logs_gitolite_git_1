@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 02 Aug 2024 13:52:08 -0000
-Message-Id: <172260672842.26036.8656140106155198171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Fri, 02 Aug 2024 13:55:42 -0000
+Message-Id: <172260694265.29022.10478425848903373238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: gor
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/tags/s390-6.11-3
+  - ref: refs/tags/usb-serial-6.11-rc2
     old: 0000000000000000000000000000000000000000
-    new: 2df59b6af290141e0b8d87a26c19ad9e66ed8050
+    new: 5d5ed7cc93703e21b1f5c98be2d8ba0e5be04ddc
