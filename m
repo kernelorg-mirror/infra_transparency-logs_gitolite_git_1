@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8128224511582106418=="
+Content-Type: multipart/mixed; boundary="===============3568667660352913194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 03 Aug 2024 22:29:13 -0000
-Message-Id: <172272415308.26879.8695752227419299402@gitolite.kernel.org>
+Date: Sat, 03 Aug 2024 22:32:45 -0000
+Message-Id: <172272436530.29862.1471285123210558325@gitolite.kernel.org>
 
---===============8128224511582106418==
+--===============3568667660352913194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
+  - ref: refs/heads/fixes
+    old: 724a41ef9af23774401e814990b0bd01a3e7a43f
+    new: 7858ffb983873e0aa6e7118f0bc33de835db90f4
+    log: |
+         7858ffb983873e0aa6e7118f0bc33de835db90f4 fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
+         
   - ref: refs/heads/work.fdtable
-    old: 6503f6b0a1b39527b4b5c560bddf6512d625766d
-    new: 108961ca49895bf5fb75e571d865d73be36965ad
-    log: revlist-6503f6b0a1b3-108961ca4989.txt
+    old: 108961ca49895bf5fb75e571d865d73be36965ad
+    new: 1453ed341fd1318e637809358e2d5f316ae24987
+    log: revlist-108961ca4989-1453ed341fd1.txt
 
---===============8128224511582106418==
+--===============3568667660352913194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6503f6b0a1b3-108961ca4989.txt
+Content-Disposition: attachment; filename=revlist-108961ca4989-1453ed341fd1.txt
 
-724a41ef9af23774401e814990b0bd01a3e7a43f fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
-eaab33a4f3c5deeba43320b5b29df5db59c85844 get rid of ...lookup...fdget_rcu() family
-02caec6f211801a55f450c5e6dc994b4056c02db remove pointless includes of <linux/fdtable.h>
-0491f0b91be16dd85bcd7b804a5e41bb104e4c9d close_files(): don't bother with xchg()
-6363380ebdb3db74ffd076c474a748d0ce35f464 proc_fd_getattr(): don't bother with S_ISDIR() check
-1152799eab69dd9c85aea17a7d3aab916047fef4 move close_range(2) into fs/file.c, fold __close_range() into it
-0e78a8512a75ec972f598044b4a35142e92bf6ce sane_fdtable_size(): don't bother looking at descriptors we are not going to copy
-f5004f5a54effdfd82ac8c62290c63d74e015055 fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
-436703ee49ee39ef4b9137a18b4dff5051087694 fs/file.c: conditionally clear full_fds
-18848a6f167bf9883827b0bd4887d8c97adb355b fs/file.c: add fast path in find_next_fd()
-108961ca49895bf5fb75e571d865d73be36965ad Merge branch 'for-drm' into work.fdtable
+7858ffb983873e0aa6e7118f0bc33de835db90f4 fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
+28d3a7ac8cff13299b98a5bfaf07fa5145c6f1e7 get rid of ...lookup...fdget_rcu() family
+ba5dc255f6059e22ee403f143dbb823a5abdb953 remove pointless includes of <linux/fdtable.h>
+4e4407abed5f05a207e337801e3681327c52238e close_files(): don't bother with xchg()
+b297cc6c25504ad5d8290b68102de32adffd9125 proc_fd_getattr(): don't bother with S_ISDIR() check
+5d25fe935f6f65aaf3ab1c707d1ad05a4d455a77 move close_range(2) into fs/file.c, fold __close_range() into it
+050b4c065a7ca6df66c2236783405df55176eb58 sane_fdtable_size(): don't bother looking at descriptors we are not going to copy
+318f88ec0b5ded0af0e9f354a49d586d3f297840 fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
+919a02dec6a12eee587c59482a9ae0bf738f16d2 fs/file.c: conditionally clear full_fds
+c283909bd1cb49777172701bd07806a0c33eec67 fs/file.c: add fast path in find_next_fd()
+1453ed341fd1318e637809358e2d5f316ae24987 Merge branch 'for-drm' into work.fdtable
 
---===============8128224511582106418==--
+--===============3568667660352913194==--
