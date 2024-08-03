@@ -1,73 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============3495216805633703661=="
+Content-Type: multipart/mixed; boundary="===============5651595066654934578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 03 Aug 2024 06:39:25 -0000
-Message-Id: <172266716593.6480.797783550155670738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 03 Aug 2024 06:39:50 -0000
+Message-Id: <172266719096.6676.13133063560238440392@gitolite.kernel.org>
 
---===============3495216805633703661==
+--===============5651595066654934578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/tty-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: d483f034f03261c8c8450d106aa243837122b5f0
-    log: revlist-8400291e289e-d483f034f032.txt
+    new: 2108aa2a01d850f850ed6ccea4e447100df9ee82
+    log: revlist-8400291e289e-2108aa2a01d8.txt
 
---===============3495216805633703661==
+--===============5651595066654934578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722667166 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1722667164-bde7f2ebabf8dca4d17f85b1f28fbec03fe888b0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1722667191 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1722667189-4395f00c720cf6324fafa5301f2a38bfcf1f9e58
 
-8400291e289ee6b2bf9779ff1c83a291501f017b d483f034f03261c8c8450d106aa243837122b5f0 refs/heads/usb-next
+8400291e289ee6b2bf9779ff1c83a291501f017b 2108aa2a01d850f850ed6ccea4e447100df9ee82 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmat0J4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OaQQALwoKI0FCpkr0QDp/J+v
-NGmisZ1z0rjNka/5yb4zWkKhjUpVcL4zhC9Vw8Tno3BAibow4q38L6up2Ns3Ws0z
-6kgxsSvULl8Mccj//PfFwEW3CrlDphLoc2AAHVu99zby2h9ns3KJe7n75FaRUEhG
-GlNZYGU8/xCb6sF07pIjAp+PDLYBtyvtNA6DfJ7BNkIqhmb/3VYewy02Co1/GSIK
-8QO605832f9hnSy0cWXIJRZp+Bg9pUucdGG0firelqJIsnXtWzJJOly91sdgmlir
-JLcFqxPIwp1yhw6V2pKBYIxKStDaR1TYKMEju6LGxqEcsVQ7zJWLcqvVc4uR+H5J
-tljRH5uiGiX6mr1ixRmo2qRraqi8OPZbA6P+nVVlxakdVXEVTEpg+LvHNELeWeZX
-YPZTqxQJI9ajN+pejv+9IIiRWRfz5nA5hy+Vta1ZUjIjBn2w1Yw1DVxuWKAt38S2
-zjuxyU79ur07RpvaYM4J7zUXOVxoCXahR9Y9mxBICY/IhEZL4ocIcGLBm3mj5it2
-wobDZZsyjiJw5bH57Wy+CLln/Zn+wtoIGf5+4zxgwZ65YRVqzv3m7jrO9Tz3vEB2
-btGKJMg+BrOTqUbV/4tYkO8vBd4fo+Q7GuFMp7edjZgeACoZbeqiSLMFVzOmNnpm
-WXPXVf1EDSsKHM4VT3f5+SRG
-=MR6L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmat0LcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ktAQAK9Ty1EwQK8xbUTK/kso
+Du3NlpKSu1NBgNdcu38koBI0x0oVrRsx3UqtyyUDbeTttjlNg/NJVDILA7WOd5Yg
+pA+n7G7Qw4ipx6DSd3qymjaYWOAOU7CvsXhuGOH26o8LrubW4xkk6MQi3SSE9USh
+TG6zcs3WXtCdGL9qF2E/IswiQ37j09SCutRqK5YAB/HvlLITISQm7SvgGq1AAARj
+gdHYjLB3XsbC1t0+bdWXIkOnjEXqzn6ncQCrgSiUn38RqfsrBqJLV2iGLoAdcQtw
+RSGJ9zw+Wi/Z1uP5YYL8lLqXMkVjBSeKZFk6Qs3MvcEsWoYVqclGg/sDkSqqWGh0
+hF7r4vrQyJgr9ssgJEKJW4vPue55Ch69AeYh1K0BwAAuWmBKvCjNvyWJY4X+qtAc
+nJI32srCc+9VG7VK2j4cvAXMOpVV2L7Ht3tf6Qf0JnyiMOoC35tFkbjtvn9Zj/lp
+UgepEnpPYRVJIxDSsE1d1ft6lLass2ODJQHZa/OI63WidJLbstpg6KtSxOawEG/T
+6yXNDYvMIsocLqWx0PsdilUs9JnFl8wwuKYxrVmWuoPfk6eS8ti4VX9D/TxHTpGu
+sqUL+NRDZrBnLUNCLKvEg16HWXC7vY9vSGg6N7uUcCWeiPIkQ3NBOlofybDw3KrU
+9aQ4XpAph4IyHmnnFmggB/GV
+=raMI
 -----END PGP SIGNATURE-----
 
---===============3495216805633703661==
+--===============5651595066654934578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-d483f034f032.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-2108aa2a01d8.txt
 
-aace0aec49a31e298994042f62c007e10b64ca14 usb: gadget: f_uac1: Expose all string descriptors through configfs.
-ac7c73c4df624331d4871a61ced1d7a6350102b1 USB: ohci-ppc-of: Drop ohci-littledian compatible
-bb548c1654db4a6f1a42657ed9068237e0c044b5 usbip: Add USB_SPEED_SUPER_PLUS as valid arg
-acabfb1b79802e8a7fc17c7f73271e2250fead0c usb: typec: ucsi: glink: Remove unnecessary semicolon
-4e33059ed59796eab07405f5effbb33bb4b3318f usb: gadget: u_serial: add .get_icount() support
-db1c0bc6534a60adc65efa80f298dffb02274076 usb: misc: eud: switch to fallback compatible for device matching
-17668d7bb84e4b4d6aa0196f89273fd84e300a5c dt-bindings: usb: qcom,dwc3: Update ipq5332 interrupt info
-f7fd939e805672417bbf418f6035dec9400230fd dt-bindings: usb: ti,j721e-usb: fix compatible list
-3c2360f1a50e6ef74c61748696134b5b31a9e191 dt-bindings: usb: qcom,dwc3: Update ipq5332 clock details
-727f5a24b8b0164ac807dd77b469ed6e50df825d usb: dwc2: debugfs: Print parameter no_clock_gating
-e7d0aee60f49b7c915696d70a5b7d26d8af1e612 usb: dwc2: Add comment about BCM2848 ACPI ID
-d483f034f03261c8c8450d106aa243837122b5f0 usb: dwc2: Skip clock gating on Broadcom SoCs
+68c341c888f448410de027ca4b3d113f2b437c54 serial: st-asc: Switch from CONFIG_PM_SLEEP guards to pm_sleep_ptr()
+59449c9dbdaa29e9e9e75f66e8cb71694cf2b0a6 tty: serial: 8250_dma: use sgl with 2 nents to take care of buffer wrap
+8630f9d9cdccef8d1468a0ce62582d208cf2a15e serial: 8250: move mmp|pxa uart earlycon code
+bca162fb37903b8681f33180cb13c53a1d43b581 serial: 8250_early: add xscale earlycon support
+9da89fe1b9ffb00dd961a809240f47452402ed2b dt-bindings: serial: samsung: avoid duplicating permitted clock-names
+7b09299c8764f612a46ef34b1e8022b0473ad766 dt-bindings: serial: samsung: fix maxItems for gs101
+6683da78c5435e225f0277eb5ab68e12389ae942 dt-bindings: serial: mediatek,uart: add MT7981
+254a6b0ba0494961aad96ef7cbeeffb3e432a778 arm64: dts: mediatek: mt7981: add UART controllers
+0e1d8780526f4bc683699348d0c765ca78ae37bb serial: 8250_bcm2835aux: add PM suspend/resume support
+755ed2f3030450ee6f5c8d3a4c35345c16376771 dt-bindings: serial: atmel,at91-usart: add compatible for sam9x7.
+d9e5a0ce2f16e57ccf2b91a213a5b434dcc1d88b serial: 8250_platform: Enable generic 16550A platform devices
+2108aa2a01d850f850ed6ccea4e447100df9ee82 dt-bindings: serial: renesas: Document RZ/G2M v3.0 (r8a774a3) scif
 
---===============3495216805633703661==--
+--===============5651595066654934578==--
