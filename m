@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sat, 03 Aug 2024 00:34:44 -0000
-Message-Id: <172264528408.32677.5700947783740435276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sat, 03 Aug 2024 01:31:53 -0000
+Message-Id: <172264871330.10077.1915437142369631993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/for-next
-    old: 8ba52ec28fb6c57e80a9089ab1596637d952fcfa
-    new: cd1bf52f94eb6b08ade31c722e2acd2163195278
+  - ref: refs/heads/rust/mm
+    old: 2d04e3f3a10be26644fc4f35ab22845649536ded
+    new: 754b001ae1de6f14fe5bd7a7b3640e9e9886cf2d
     log: |
-         971c71fe36bba7f8aaa271003c1c4de3ec8ea861 firewire: ohci: add static inline functions to serialize/deserialize data of AT DMA
-         5a03b3969d8fe30fbad3feb56a35b2ee97ea27c0 firewire: ohci: use static inline functions to serialize data of AT DMA
-         41aa16a915073df4d4c54ca54ba1a2022faa48e1 firewire: ohci: add static inline functions to serialize/deserialize data of IT DMA
-         cd1bf52f94eb6b08ade31c722e2acd2163195278 firewire: ohci: use static inline functions to serialize data of IT DMA
+         ca6055861d6b0ef5daf0f85280d32c395d6e743b rust: error: check for config `test` in `Error::name`
+         27218c7eafdecb05a3f9c088f92a4ee3f0b27c51 rust: alloc: implement `Cmalloc` in module allocator_test
+         5f3b24ba74d197631772f5819398bdd8f035a5ea rust: str: test: replace `alloc::format`
+         d2efe773b6be1d48ee2dedd767aaf9a01b433a4f rust: alloc: update module comment of alloc.rs
+         2dceb15818449ba0534ebb3785d4c174c13f36ed kbuild: rust: remove the `alloc` crate
+         754b001ae1de6f14fe5bd7a7b3640e9e9886cf2d MAINTAINERS: add entry for the Rust `alloc` module
          
