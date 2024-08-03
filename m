@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4974445884486076522=="
+Content-Type: multipart/mixed; boundary="===============4024135901944416701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 03 Aug 2024 09:14:47 -0000
-Message-Id: <172267648786.23855.11034733171870062688@gitolite.kernel.org>
+Date: Sat, 03 Aug 2024 09:15:02 -0000
+Message-Id: <172267650281.25071.6195185312617289902@gitolite.kernel.org>
 
---===============4974445884486076522==
+--===============4024135901944416701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 168bed989d651794d03638e1f7f7b5a800a6f425
+  - ref: refs/heads/togreg
+    old: bf829a98bc4bb9076a2fd70f4a69ea7e281863fa
     new: 6140a92cd086e53e9a6cd7fcea644fd3f9b8fe25
-    log: revlist-168bed989d65-6140a92cd086.txt
+    log: revlist-bf829a98bc4b-6140a92cd086.txt
 
---===============4974445884486076522==
+--===============4024135901944416701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-168bed989d65-6140a92cd086.txt
+Content-Disposition: attachment; filename=revlist-bf829a98bc4b-6140a92cd086.txt
 
 7d34b4ad8cd2867b130b5b8d7d76d0d6092bd019 ABI: testing: fix admv8818 attr description
 77641e5a477d428335cd094b88ac54e09ccb70f4 iio: chemical: bme680: Fix read/write ops to device by adding mutexes
@@ -154,4 +154,4 @@ f38d4650b505d8cbe292e6a98b8653622a22ac2c dt-bindings: iio: light: stk33xx: add c
 87bcd0f949e33faeaaba6351db594c2feb6f2f00 dt-bindings: iio: adf4377: add adf4378 support
 6140a92cd086e53e9a6cd7fcea644fd3f9b8fe25 iio: frequency: adf4377: add adf4378 support
 
---===============4974445884486076522==--
+--===============4024135901944416701==--
