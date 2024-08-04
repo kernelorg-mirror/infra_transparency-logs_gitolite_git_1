@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Sun, 04 Aug 2024 13:43:47 -0000
-Message-Id: <172277902730.20849.6909676549353677274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 04 Aug 2024 13:50:04 -0000
+Message-Id: <172277940460.26346.13618482593664580596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 9fb53d3f0c5a01c3f001e559498bfeeeee594e8e
-    new: 0ca8a96518337e277b9cdfd08b0f1a90a295bc4f
+  - ref: refs/heads/master
+    old: d3426a6ed9d8398bfee2a1c5cd0ae50f2f4494a8
+    new: defaf1a2113a22b00dfa1abc0fd2014820eaf065
     log: |
-         c7c909eb1a9e2a7f80aa452aa732c26f281dbf6a tss: Fix handling of TPM_RH_NULL in intel-tss
-         8c7f32108e61ee82ead57d36fa4262f91a84223a libcommon: add ability to create a signing primary key
-         891ae48abe935c4c82be58327ea2276ef4192b87 libcommon: add bin2hex and tmp2_get_hexname
-         e4e275c28cc197cedbb4c7b4d0b2c2d02f515be4 libcommon: add primary creation from template
-         40b311ff55b1fd90d9d91e3fa944c612301207fd tss: add tpm2_Certify, tpm2_ActivateCredential and tpm2_PolicyOR
-         c99911e60f3c798b093b6cff4568289fa44af71e tools: add new attest_tpm2_primary command
-         714d885b9a2542282d266462fe52d1479b6c86a0 attest_tpm2_primary: add man page
-         0ca8a96518337e277b9cdfd08b0f1a90a295bc4f tests: add tests for attest_tpm2_primary
+         0c60eb0cc320fffbb8b10329d276af14f6f5e6bf scsi: ufs: core: Check LSDBS cap when !mcq
+         022587d8aec3da1d1698ddae9fb8cfe35f3ad49c scsi: ufs: core: Bypass quick recovery if force reset is needed
+         3911af778f208e5f49d43ce739332b91e26bc48e scsi: ufs: core: Fix deadlock during RTC update
+         da3e19ef0b3de0aa4b25595bdc214c02a04f19b8 scsi: Revert "scsi: sd: Do not repeat the starting disk message"
+         ac6efb12ca64156f4a94e964acdb96ee7d59630d scsi: ufs: core: Do not set link to OFF state while waking up from hibernation
+         1abc900ddda8ad2ef739fedf498d415655b6c3b8 scsi: mpi3mr: Avoid IOMMU page faults on REPORT ZONES
+         82dbb57ac8d06dfe8227ba9ab11a49de2b475ae5 scsi: mpt3sas: Avoid IOMMU page faults on REPORT ZONES
+         47398f49dab8326bb652fa2d7a51ae5ec78775b5 scsi: ufs: exynos: Don't resume FMP when crypto support is disabled
+         7c632fc3ce64c05bae4addbdfa174f98d0431ca4 Merge branch '6.11/scsi-queue' into 6.11/scsi-fixes
+         defaf1a2113a22b00dfa1abc0fd2014820eaf065 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
          
