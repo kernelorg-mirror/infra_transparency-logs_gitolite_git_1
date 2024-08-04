@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7324864603638745620=="
+Content-Type: multipart/mixed; boundary="===============6369840362980199315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 04 Aug 2024 23:50:51 -0000
-Message-Id: <172281545149.6849.10748992671255574086@gitolite.kernel.org>
+Date: Sun, 04 Aug 2024 23:51:47 -0000
+Message-Id: <172281550731.7263.8679199696410842873@gitolite.kernel.org>
 
---===============7324864603638745620==
+--===============6369840362980199315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    log: revlist-8400291e289e-de9c2c66ad8e.txt
+  - ref: refs/heads/nfsd-next
+    old: d6b33c9f944d1cdf44e6c493b1d74fd11830de7b
+    new: 4a1536f14ee846f4863faf5cf2d1fa6c126fa560
+    log: revlist-d6b33c9f944d-4a1536f14ee8.txt
 
---===============7324864603638745620==
+--===============6369840362980199315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-de9c2c66ad8e.txt
+Content-Disposition: attachment; filename=revlist-d6b33c9f944d-4a1536f14ee8.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -362,5 +362,31 @@ ff58838015c14a12cb8c003b9d6fc062b49e8d9e arm: dts: arm: versatile-ab: Fix duplic
 a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
+f54cf14332b0c3772508222d082b5a6707e33ad3 nfsd: add list_head nf_gc to struct nfsd_file
+ec0bc25911c91d021d24143cbec0505c998fed24 nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
+7013b6b9f06bf49b074a891a32c1b0edd1f2f1a0 nfsd: fix refcount leak when file is unhashed after being found
+41036d30d289f77285ee2082c3e331e607a2b90e nfsd: count nfsd_file allocations
+9594a8ce2d6d9ea498c348fee0eb0426e59b41cc nfsd: use system_unbound_wq for nfsd_file_gc_worker()
+f7e8b9802be1bd8fb8e066f4e522542d50f7a81f NFS: trace: show TIMEDOUT instead of 0x6e
+84414198b50614f57de5aae7813e881d60757384 nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
+b6579e77a664bdf623508ad72eec072dcec135ae lockd: discard nlmsvc_timeout
+14ac3ebe4234c2bc026f5466935d46340fcbc754 SUNRPC: make various functions static, or not exported.
+c32c413b46bbffdd170c11b0bdcfa84834a6e834 nfsd: move nfsd_pool_stats_open into nfsctl.c
+6a5b8c97e76e95052306744c18260a3949bb30f8 nfsd: don't allocate the versions array.
+3e26e7b0840558a3b1750b90c711afe9550f616f sunrpc: document locking rules for svc_exit_thread()
+97f2909faebab4fe57b8aecf7f967f2c696bb08b sunrpc: change sp_nrthreads from atomic_t to unsigned int.
+009a29cebf942a68246a66fb0fce11e868d72f22 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
+144a760d5257a0d46c3d91167c8ee17fa16735ed sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
+d3978feca7e86fd56eaf0c63875bf28b5e3a0dda sunrpc: allow svc threads to fail initialisation cleanly
+7bc3492da19c400e356e865a58fb127ad7676b53 nfsd: don't assume copy notify when preprocessing the stateid
+c8b087886ba7ea8463f2956729e19bd6991c71b1 nfsd: Don't pass all of rqst into rqst_exp_find()
+7249bc0306a0d1fa5e1b46ee391eaebe8283b71e nfsd: Pass 'cred' instead of 'rqstp' to some functions.
+1a35980d2038e574dc7f8312b253f83500744baa nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
+2a59eafbceb38737e63724ce4c1de6d780bdb420 nfsd: further centralize protocol version checks.
+bbac145819a73f6e28a0362ec8fc168224578141 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
+c43157ea5b92b70e291e5b594fee8d4d031d6492 nfsd: Move error code mapping to per-version proc code.
+727e6a85f9bee868bb609523baba39f3053b21bf nfsd: be more systematic about selecting error codes for internal use.
+d4eab466aa6268d41be40eb5517bbf7c2bb13613 nfsd: move error choice for incorrect object types to version-specific code.
+4a1536f14ee846f4863faf5cf2d1fa6c126fa560 svcrdma: Handle device removal outside of the CM event handler
 
---===============7324864603638745620==--
+--===============6369840362980199315==--
