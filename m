@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7753236802014755710=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sun, 04 Aug 2024 09:09:39 -0000
-Message-Id: <172276257993.3864.16935980446136217428@gitolite.kernel.org>
-
---===============7753236802014755710==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Sun, 04 Aug 2024 09:14:20 -0000
+Message-Id: <172276286099.7179.18079858196520271908@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/main
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: aa85d45338692e8b29b0c023826c404c3e7113a6
+    new: 420a549395c24bf9e4755f9fb220ce72b2f4f8bd
     log: |
-         aa85d45338692e8b29b0c023826c404c3e7113a6 pinctrl: samsung: Use of_property_present()
+         e8b7d0c66a4ddbae909534cda515fbb56771d4bf wifi: mwifiex: increase max_num_akm_suites
+         36995892c271cce5e2230bc165a06f109b117222 wifi: mwifiex: add host mlme for client mode
+         9588469d06977bc8ff2c131c4eb589c6477c3b7c wifi: mwifiex: add host mlme for AP mode
+         16b31ecb802946f1855259a2006c32c8d340ea5c wifi: brcmfmac: fwsignal: Use struct_size() to simplify brcmf_fws_rxreorder()
+         c6002b6c05f3edfa12fd25990cc637281f200442 wifi: brcmfmac: introducing fwil query functions
+         420a549395c24bf9e4755f9fb220ce72b2f4f8bd wifi: brcmsmac: clean up unnecessary current_ampdu_cnt and related checks
          
-
---===============7753236802014755710==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1722762578 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1722762577-5798c7e31d7be28ff87e46b7e7c049ae06134368
-
-8400291e289ee6b2bf9779ff1c83a291501f017b aa85d45338692e8b29b0c023826c404c3e7113a6 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmavRVIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14bMD/9t59QbyWe+PfXVQ8clgkwoX++oPasowecK
-OBAAAv9Zb/i5vOaZ3x8wcQPXIb0lTIQofRUMUKXJ8uRLuvAqFk9GzJ023SIpybCl
-WdgjDTKJiPNIjzG8G59Freg3ETwkRSg9AW7oSNCTaVkroFUCVJYBRFweLEAkUBa+
-pu+UXOPJZ0UCjRbOAap2We7cvCneECAtvE+gNSOh8Y1juN4WtmQxLKPymwbXryLt
-iFfkhRwwVnLue1u1DhkRnJve64jK1+vJ+EdJEUVPDa5kRy4ALnBHjKjAf/w/AwOe
-bgULVDJ+GipJ1oGR3OMnw9AI4bOiGBtNT+AlMMurGN/Y2QojZv7zzUtYV3DdA58c
-ZGRVEQfXWVHI18P1lgjhQDVzQJaCRblF+NnZWIob8uoCzPMOPy24c83nZtmt29rF
-nHiSep7YDCRRaOyQUWSPApGBwPVD6OfDLlFXDlR+GkE8z61ADbEb4oQY4suFJ3rC
-rcRG74fCQ0f1i5h4lVZ9wbzoVmHKOWMflaXtPs+LoGDRuv17WaUyCJ31VWlsh0xz
-A2E98o794BuOf7S2k7Lb/8bhnmaX7q56ouAUm70UYe6kSdABeSVX0JeDoIWrYaaZ
-42x5ZpMKAJeWN6DYex6vk0qCUZ5C7Iucd15uwl9tdHTfjHCr8LlFg6NNw8VhqL75
-3FLsHYTc0A==
-=KQyF
------END PGP SIGNATURE-----
-
---===============7753236802014755710==--
