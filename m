@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 04 Aug 2024 18:55:25 -0000
-Message-Id: <172279772527.20260.3851485342665028106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Sun, 04 Aug 2024 18:56:54 -0000
+Message-Id: <172279781471.20871.8040225214459444765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: a3343eea815ee75f9a495d73a6a449ca4d260c5c
-    new: ef79e03b2a6355bd234cf611e5ad55f4f379fbc9
+  - ref: refs/heads/fixes
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 3a07703a523045cbdb0a5fa5e0902a9145ee43e9
     log: |
-         ef79e03b2a6355bd234cf611e5ad55f4f379fbc9 patches/next: Revert "mm/damon/Kconfig: select DAMON modules to test when test config is set"
+         0e8a0504da59041e775a95db3ebc1a6211423593 phy: qcom: qmp-pcie: Fix X1E80100 PCIe Gen4 PHY initialisation
+         ce52c2532299c7ccfd34a52db8d071e890a78c59 phy: fsl-imx8mq-usb: fix tuning parameter name
+         3a07703a523045cbdb0a5fa5e0902a9145ee43e9 phy: exynos5-usbdrd: fix error code in probe()
          
