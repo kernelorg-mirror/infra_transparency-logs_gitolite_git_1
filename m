@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Sun, 04 Aug 2024 18:56:54 -0000
-Message-Id: <172279781471.20871.8040225214459444765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 04 Aug 2024 18:58:43 -0000
+Message-Id: <172279792334.21575.13144990673158848985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/fixes
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 3a07703a523045cbdb0a5fa5e0902a9145ee43e9
+  - ref: refs/heads/damon/next
+    old: 700de74fe41550ff5cf14e5f44b5affe7d503b27
+    new: f62d32023ea68d19984b976652b29f20ee9f49f1
     log: |
-         0e8a0504da59041e775a95db3ebc1a6211423593 phy: qcom: qmp-pcie: Fix X1E80100 PCIe Gen4 PHY initialisation
-         ce52c2532299c7ccfd34a52db8d071e890a78c59 phy: fsl-imx8mq-usb: fix tuning parameter name
-         3a07703a523045cbdb0a5fa5e0902a9145ee43e9 phy: exynos5-usbdrd: fix error code in probe()
+         f62d32023ea68d19984b976652b29f20ee9f49f1 Revert "mm/damon/Kconfig: select DAMON modules to test when test config is set"
          
