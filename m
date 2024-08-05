@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5927437012435953524=="
+Content-Type: multipart/mixed; boundary="===============0424485581584807934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 05 Aug 2024 11:29:06 -0000
-Message-Id: <172285734633.16478.14131417382510841962@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 11:29:35 -0000
+Message-Id: <172285737582.16727.8437129029621960429@gitolite.kernel.org>
 
---===============5927437012435953524==
+--===============0424485581584807934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 67ce905f5f725c0ff4675b1aea381df0d80a5f03
-    new: 8287e9e2c7d26e9e3a6db2812fa8a1c6531b685e
-    log: revlist-67ce905f5f72-8287e9e2c7d2.txt
+  - ref: refs/heads/dt
+    old: 32625ac9e110da530db4f0faf918b1f5674e7ca3
+    new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
+    log: revlist-32625ac9e110-de9c2c66ad8e.txt
 
---===============5927437012435953524==
+--===============0424485581584807934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67ce905f5f72-8287e9e2c7d2.txt
+Content-Disposition: attachment; filename=revlist-32625ac9e110-de9c2c66ad8e.txt
 
+e33df1c488d6e2b58064355651adb51901137036 mtd: rawnand: intel: use 'time_left' variable with wait_for_completion_timeout()
+14427d4b883159d179847f1090112221c1abc7bd dt-bindings: mtd: qcom,nandc: Define properties at top-level
+4782118674600ce1b1622ea66501ff9e484360b1 mtd: rawnand: lpx32xx: Request DMA channels using DT entries
+aacbb6c837dfc0f5bba29318c590fc83a0e83f70 mtd: spinand: macronix: Add support for reading Device ID 2
+d29e8e28d6d53b3406c214059b8e048fa950a136 mtd: spinand: macronix: Add support for serial NAND flash
+a503f91a3645651a39baf97f1aed90d5d9f9bda9 mtd: rawnand: lpx32xx: Fix dma_request_chan() error checks
+88e98af9f4b5b0d60c1fe7f7f2701b5467691e75 ALSA: pcm_dmaengine: Don't synchronize DMA channel when DMA is paused
+3bfd7c0ba184de99e9f5083b29e5308f30767265 ALSA: seq: ump: Skip useless ports for static blocks
+256a6f430562c163f1fa07576c4cd4e996e953dd Merge tag 'asm-generic-6.11' into loongarch-next
+87bb477c39b172071a1cb44aef41e701d5fee90d caif_virtio: use virtio_find_single_vq() for single virtqueue finding
 de1177e56005dccd9729d4ca331de64f5d463b90 virtio: make virtio_find_vqs() call virtio_find_vqs_ctx()
 959538c11a88298672195a0eb3289c0f2f88b02d virtio: make virtio_find_single_vq() call virtio_find_vqs()
 c502eb85c34e29bb185e3d15dd9b8fce8a74f303 virtio: introduce virtio_queue_info struct and find_vqs_info() config op
@@ -1040,15 +1050,5 @@ ff58838015c14a12cb8c003b9d6fc062b49e8d9e arm: dts: arm: versatile-ab: Fix duplic
 a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
-50359c9c3cb3e55e840e3485f5ee37da5b2b16b6 pmdomain: imx: scu-pd: Remove duplicated clocks
-328fc9b29810819c4496c6e9fd74491ca458045e pmdomain: amlogic: remove obsolete vpu domain driver
-d7bdb8e6aabe218fd980768a1486434e42761539 pmdomain: core: Enable s2idle for CPU PM domains on PREEMPT_RT
-b87eee38605c396f0e1fa435939960e5c6cd41d6 pmdomain: core: Don't hold the genpd-lock when calling dev_pm_domain_set()
-9094e53ff5c86ebe372ad3960c3216c9817a1a04 pmdomain: core: Use dev_name() instead of kobject_get_path() in debugfs
-c7b45284ab3012d21a02cf4448df32c655c32afb cpuidle: psci-domain: Enable system-wide suspend on PREEMPT_RT
-88bf68b76694873c3b101b65a26c4b315fab06df cpuidle: psci: Drop redundant assignment of CPUIDLE_FLAG_RCU_IDLE
-4517b1c383807fadac8374f99f2361fe7eb4c0b4 cpuidle: psci: Enable the hierarchical topology for s2ram on PREEMPT_RT
-1c4b2932bd629fe800282114ceb465d3eb5d0737 cpuidle: psci: Enable the hierarchical topology for s2idle on PREEMPT_RT
-8287e9e2c7d26e9e3a6db2812fa8a1c6531b685e pmdomain: Merge branch fixes into next
 
---===============5927437012435953524==--
+--===============0424485581584807934==--
