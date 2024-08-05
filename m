@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5969574377640614987=="
+Content-Type: multipart/mixed; boundary="===============2864015075880578643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 05 Aug 2024 16:27:25 -0000
-Message-Id: <172287524571.15783.4099617426581076220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 05 Aug 2024 16:27:37 -0000
+Message-Id: <172287525719.15903.6223125909907793835@gitolite.kernel.org>
 
---===============5969574377640614987==
+--===============2864015075880578643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
 
---===============5969574377640614987==
+--===============2864015075880578643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -320,4 +320,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============5969574377640614987==--
+--===============2864015075880578643==--
