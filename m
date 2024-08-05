@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6620367802654555767=="
+Content-Type: multipart/mixed; boundary="===============7046005623583245824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 05 Aug 2024 04:49:55 -0000
-Message-Id: <172283339556.2041.4446058969798564084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 05 Aug 2024 04:50:14 -0000
+Message-Id: <172283341486.3862.14635847782139603664@gitolite.kernel.org>
 
---===============6620367802654555767==
+--===============7046005623583245824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     log: revlist-8400291e289e-de9c2c66ad8e.txt
 
---===============6620367802654555767==
+--===============7046005623583245824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -363,4 +363,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============6620367802654555767==--
+--===============7046005623583245824==--
