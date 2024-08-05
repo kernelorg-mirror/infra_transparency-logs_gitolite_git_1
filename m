@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 05 Aug 2024 15:47:38 -0000
-Message-Id: <172287285879.18587.1970985243708270905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 05 Aug 2024 15:49:21 -0000
+Message-Id: <172287296121.19264.8906783412816017781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/fix_dbc_halted_ep
-    old: cf99b473a1477c1b3510af0021877197a039c43f
-    new: 96cd909cc8115b3d2dff1bdcf265171bb0fdab18
+  - ref: refs/heads/for-linus
+    old: 312c04cee408a8448ec8b639fe7f0434017d7161
+    new: 15b7a03205b31bc5623378c190d22b7ff60026f1
     log: |
-         96cd909cc8115b3d2dff1bdcf265171bb0fdab18 xhci: dbc: Fix STALL transfer event handling
+         15b7a03205b31bc5623378c190d22b7ff60026f1 ALSA: line6: Fix racy access to midibuf
+         
+  - ref: refs/heads/master
+    old: 1b1e0cca375f660ca1cee59c962fefd454e058ac
+    new: 3433d387d97099c68ffc032218aa1871a61d2580
+    log: |
+         15b7a03205b31bc5623378c190d22b7ff60026f1 ALSA: line6: Fix racy access to midibuf
+         3433d387d97099c68ffc032218aa1871a61d2580 Merge branch 'for-linus'
          
