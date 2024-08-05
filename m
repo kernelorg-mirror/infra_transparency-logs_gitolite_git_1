@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7183048248924293562=="
+Content-Type: multipart/mixed; boundary="===============0844041428106257282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 05 Aug 2024 20:18:20 -0000
-Message-Id: <172288910010.23729.540339280916283468@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 20:18:53 -0000
+Message-Id: <172288913368.23978.17604871372936226313@gitolite.kernel.org>
 
---===============7183048248924293562==
+--===============0844041428106257282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: dc1c8034e31b14a2e5e212104ec508aec44ce1b9
-    new: c813111d19e65b6336a6352eae9c1ff5c40f722f
-    log: revlist-dc1c8034e31b-c813111d19e6.txt
-  - ref: refs/tags/v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+    new: a6c12809975bd4b1ad8bc5ea22a60c9a96b1e412
+    log: revlist-dc1c8034e31b-a6c12809975b.txt
 
---===============7183048248924293562==
+--===============0844041428106257282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc1c8034e31b-c813111d19e6.txt
+Content-Disposition: attachment; filename=revlist-dc1c8034e31b-a6c12809975b.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -363,5 +360,23 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+2cf66b9de406dadbe7598618aa4541261d7bf536 f2fs: clean up data_blkaddr() and get_dnode_addr()
+47f268f33dff4a5e31541a990dc09f116f80e61c f2fs: prevent possible int overflow in dir_block_index()
+1cade98cf6415897bf9342ee451cc5b40b58c638 f2fs: fix several potential integer overflows in file offsets
+50438dbc483ca6a133d2bce9d5d6747bcee38371 f2fs: avoid potential int overflow in sanity_check_area_boundary()
+8444ce524947daf441546b5b3a0c418706dade35 f2fs: add write priority option based on zone UFS
+d1e1ff971d1aafeaedda69136e6974e3a8792cbd f2fs: fix macro definition on_f2fs_build_free_nids
+d72750e4a7528b83a07b65335c35b454a98593d4 f2fs: fix macro definition stat_inc_cp_count
+1a0bd289a5db1df8df8fab949633a0b8d3f235ee f2fs: atomic: fix to avoid racing w/ GC
+7566a155c666dd23b413a002a50cd9ae7b95f053 f2fs: atomic: fix to not allow GC to pollute atomic_file
+374a8881ce4ccf787f5381a39f825cb17a3f6b14 f2fs: atomic: fix to forbid dio in atomic_file
+f541093786a32589a28b4b75b49c3435e5e5b6e1 f2fs: reduce expensive checkpoint trigger frequency
+e607768606784fe43c2fff8297bbd34996f6044c f2fs: fix to wait dio completion
+415ea641b020b7bbdf9b70bf241897ccbf7bf41f f2fs: fix to avoid racing in between read and OPU dio write
+8ce36b8b1150446d1e65937a31cfb4e4f251ce0e f2fs: get rid of buffer_head use
+2a331ab343ee777728fa93d21dc1d2c2bc9784f5 Revert "f2fs: use flush command instead of FUA for zoned device"
+4b7a75f228059a849a7188bd617411f689187f03 f2fs: sysfs: support atgc_enabled
+aac0828ab000af56edaf6bbd8e5a3d55f3ac7dda f2fs: use f2fs_get_node_page when write inline data
+a6c12809975bd4b1ad8bc5ea22a60c9a96b1e412 f2fs: fix to use per-inode maxbytes and cleanup
 
---===============7183048248924293562==--
+--===============0844041428106257282==--
