@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7845347705575663064=="
+Content-Type: multipart/mixed; boundary="===============7493159613601560053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 05 Aug 2024 20:19:04 -0000
-Message-Id: <172288914448.24148.17283614813083051459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 05 Aug 2024 20:20:56 -0000
+Message-Id: <172288925636.26509.13081738329697091153@gitolite.kernel.org>
 
---===============7845347705575663064==
+--===============7493159613601560053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/dev-test
-    old: 21d391cc07acab3e0f0b877005af8af7154fc60e
-    new: a6c12809975bd4b1ad8bc5ea22a60c9a96b1e412
-    log: revlist-21d391cc07ac-a6c12809975b.txt
+  - ref: refs/heads/master
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: c813111d19e65b6336a6352eae9c1ff5c40f722f
+    log: revlist-8400291e289e-c813111d19e6.txt
 
---===============7845347705575663064==
+--===============7493159613601560053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21d391cc07ac-a6c12809975b.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-c813111d19e6.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -140,7 +140,11 @@ fe26546aeb35c5d1fd69530bb6bfd04e0b5cd489 drm/amdgpu/pm: support gpu_metrics sysf
 f3572db3c049b4d32bb5ba77ad5305616c44c7c1 drm/amdgpu: fix contiguous handling for IB parsing v2
 9038e25c80558d48ce33d6d8c168666164dc72e9 drm/amdgpu: increase mes log buffer size for gfx12
 d2860084ecca456ce78b251011f7def8d9136dcc drm/amdgpu: Fix APU handling in amdgpu_pm_load_smu_firmware()
+1a251f52cfdc417c84411a056bc142cbd77baef4 minmax: make generic MIN() and MAX() macros available everywhere
 89fb4dfacbb33750e0243848f4c54d73e558ba9a dt-bindings: ata: rockchip-dwc-ahci: add missing power-domains
+9f499b8c791d2983c0a31a543c51d1b2f15e8755 minmax: scsi: fix mis-use of 'clamp()' in sr.c
+cb04e8b1d2f24c4c2c92f7b7529031fc35a16fed minmax: don't use max() in situations that want a C constant expression
+dc1c8034e31b14a2e5e212104ec508aec44ce1b9 minmax: simplify min()/max()/clamp() implementation
 80d3d33cdf4b0494b465087eb34d2e29d86e290e xfs: fix a memory leak
 39c1ddb064fd38e28571c853f067b134d17cffb2 xfs: allow SECURE namespace xattrs to use reserved block pool
 19ebc8f84ea12e18dd6c8d3ecaf87bcf4666eee1 xfs: fix file_path handling in tracepoints
@@ -360,23 +364,5 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-2cf66b9de406dadbe7598618aa4541261d7bf536 f2fs: clean up data_blkaddr() and get_dnode_addr()
-47f268f33dff4a5e31541a990dc09f116f80e61c f2fs: prevent possible int overflow in dir_block_index()
-1cade98cf6415897bf9342ee451cc5b40b58c638 f2fs: fix several potential integer overflows in file offsets
-50438dbc483ca6a133d2bce9d5d6747bcee38371 f2fs: avoid potential int overflow in sanity_check_area_boundary()
-8444ce524947daf441546b5b3a0c418706dade35 f2fs: add write priority option based on zone UFS
-d1e1ff971d1aafeaedda69136e6974e3a8792cbd f2fs: fix macro definition on_f2fs_build_free_nids
-d72750e4a7528b83a07b65335c35b454a98593d4 f2fs: fix macro definition stat_inc_cp_count
-1a0bd289a5db1df8df8fab949633a0b8d3f235ee f2fs: atomic: fix to avoid racing w/ GC
-7566a155c666dd23b413a002a50cd9ae7b95f053 f2fs: atomic: fix to not allow GC to pollute atomic_file
-374a8881ce4ccf787f5381a39f825cb17a3f6b14 f2fs: atomic: fix to forbid dio in atomic_file
-f541093786a32589a28b4b75b49c3435e5e5b6e1 f2fs: reduce expensive checkpoint trigger frequency
-e607768606784fe43c2fff8297bbd34996f6044c f2fs: fix to wait dio completion
-415ea641b020b7bbdf9b70bf241897ccbf7bf41f f2fs: fix to avoid racing in between read and OPU dio write
-8ce36b8b1150446d1e65937a31cfb4e4f251ce0e f2fs: get rid of buffer_head use
-2a331ab343ee777728fa93d21dc1d2c2bc9784f5 Revert "f2fs: use flush command instead of FUA for zoned device"
-4b7a75f228059a849a7188bd617411f689187f03 f2fs: sysfs: support atgc_enabled
-aac0828ab000af56edaf6bbd8e5a3d55f3ac7dda f2fs: use f2fs_get_node_page when write inline data
-a6c12809975bd4b1ad8bc5ea22a60c9a96b1e412 f2fs: fix to use per-inode maxbytes and cleanup
 
---===============7845347705575663064==--
+--===============7493159613601560053==--
