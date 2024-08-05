@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6082835485060780318=="
+Content-Type: multipart/mixed; boundary="===============7398679048847543941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Mon, 05 Aug 2024 09:22:05 -0000
-Message-Id: <172284972571.7394.4510088767209119851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Mon, 05 Aug 2024 09:22:07 -0000
+Message-Id: <172284972728.7468.17091652066856437853@gitolite.kernel.org>
 
---===============6082835485060780318==
+--===============7398679048847543941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: a944180a7e6a7d6d4cd08f6afcb83e58986c35f9
     new: ae2308ddf38b8f24a2b5e8e14e31153dfe608239
     log: revlist-a944180a7e6a-ae2308ddf38b.txt
 
---===============6082835485060780318==
+--===============7398679048847543941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ eb9834599c8c9764bb3e711b6f291b10797eff27 mdadm/super1: fix coverity issue CHECKE
 38f712dba339bb9bd6a73cc7219d217871e7f27a mdadm/super1: fix coverity issue EVALUATION_ORDER
 ae2308ddf38b8f24a2b5e8e14e31153dfe608239 mdadm/super1: fix coverity issue RESOURCE_LEAK
 
---===============6082835485060780318==--
+--===============7398679048847543941==--
