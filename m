@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8474470248513132375=="
+Content-Type: multipart/mixed; boundary="===============3583229641101011386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 05 Aug 2024 16:13:44 -0000
-Message-Id: <172287442459.5537.8758540395582597999@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 16:13:47 -0000
+Message-Id: <172287442796.5622.8724738643254028906@gitolite.kernel.org>
 
---===============8474470248513132375==
+--===============3583229641101011386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-fixes
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     log: revlist-8400291e289e-de9c2c66ad8e.txt
 
---===============8474470248513132375==
+--===============3583229641101011386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1722874423 +0200
+pusher andi.shyti@kernel.org 1722874426 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1722874423-581477cf9a230b4b549d934848a718d17b2be571
+nonce 1722874426-d9354aa0eaf82d8f28de3a0995857ef2c128d767
 
-8400291e289ee6b2bf9779ff1c83a291501f017b de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed refs/heads/i2c/i2c-host
+8400291e289ee6b2bf9779ff1c83a291501f017b de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrD6NxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uCs0BAKokOcheP7F4e0ZJiNVgWhTm7JZl
-HSE8mEBESlmKQehsAQCm3CZg2Y1TCAIM36gsc4v9CyBwZIp1MWpbc042rfaSBw==
-=qxgz
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrD6OhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uIYwA/ixiywZKoZ0Zuk6N/1H8nJye3r2f
+1cJbtfkAN+tsB79rAQCadsp5yaxvp3SOwpa3pe9zlcBG0+H8svrxbGueJg7ZBg==
+=ZWQ/
 -----END PGP SIGNATURE-----
 
---===============8474470248513132375==
+--===============3583229641101011386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,4 +384,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============8474470248513132375==--
+--===============3583229641101011386==--
