@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7386006236992153799=="
+Content-Type: multipart/mixed; boundary="===============1809543310638983095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 05 Aug 2024 15:53:45 -0000
-Message-Id: <172287322580.22497.2537029357132675528@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 15:54:23 -0000
+Message-Id: <172287326341.22781.11433414462546762252@gitolite.kernel.org>
 
---===============7386006236992153799==
+--===============1809543310638983095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: ce21e520fdef49d92b01ce93cfc3d88906d01618
     new: 10a6545f0bdcbb920c6a8a033fe342111d204915
     log: revlist-ce21e520fdef-10a6545f0bdc.txt
 
---===============7386006236992153799==
+--===============1809543310638983095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ c89cca307b20917da739567a255a68a0798ee129 net: skbuff: sprinkle more __GFP_NOWARN
 ac4c59390a877e02967b1da9ef6bc565150e9e7e net: phy: vitesse: implement downshift in vsc73xx phys
 10a6545f0bdcbb920c6a8a033fe342111d204915 net: netconsole: Fix MODULE_AUTHOR format
 
---===============7386006236992153799==--
+--===============1809543310638983095==--
