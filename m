@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2540160891104483940=="
+Content-Type: multipart/mixed; boundary="===============4646456475379336371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 05 Aug 2024 21:15:12 -0000
-Message-Id: <172289251213.2110.2430425112780513399@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 21:15:33 -0000
+Message-Id: <172289253308.2299.2967394598440339437@gitolite.kernel.org>
 
---===============2540160891104483940==
+--===============4646456475379336371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/execve
-    old: b6f5ee4d53019443fb99dd23bc08680b1244ccfa
+  - ref: refs/heads/for-next/seccomp
+    old: f0c508faea645da58d6ae6b644a1b68020d5a9d2
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    log: revlist-b6f5ee4d5301-de9c2c66ad8e.txt
+    log: revlist-f0c508faea64-de9c2c66ad8e.txt
 
---===============2540160891104483940==
+--===============4646456475379336371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6f5ee4d5301-de9c2c66ad8e.txt
+Content-Disposition: attachment; filename=revlist-f0c508faea64-de9c2c66ad8e.txt
 
-bf66d81975d4240b46659ea2392fe65d83527140 mtd: rawnand: mxc: use 'time_left' variable with wait_for_completion_timeout()
 e33df1c488d6e2b58064355651adb51901137036 mtd: rawnand: intel: use 'time_left' variable with wait_for_completion_timeout()
 14427d4b883159d179847f1090112221c1abc7bd dt-bindings: mtd: qcom,nandc: Define properties at top-level
 4782118674600ce1b1622ea66501ff9e484360b1 mtd: rawnand: lpx32xx: Request DMA channels using DT entries
@@ -456,6 +455,7 @@ ac6efb12ca64156f4a94e964acdb96ee7d59630d scsi: ufs: core: Do not set link to OFF
 1abc900ddda8ad2ef739fedf498d415655b6c3b8 scsi: mpi3mr: Avoid IOMMU page faults on REPORT ZONES
 82dbb57ac8d06dfe8227ba9ab11a49de2b475ae5 scsi: mpt3sas: Avoid IOMMU page faults on REPORT ZONES
 47398f49dab8326bb652fa2d7a51ae5ec78775b5 scsi: ufs: exynos: Don't resume FMP when crypto support is disabled
+b6f5ee4d53019443fb99dd23bc08680b1244ccfa execve: Move KUnit tests to tests/ subdirectory
 fa165f919016829e542e37782a3452512dffa5ea MIPS: Loongson64: Switch to SYNC_R4K
 a263e5f309f32301e1f3ad113293f4e68a82a646 MIPS: SMP-CPS: Fix address for GCR_ACCESS register for CM3 and later
 2c716cf17edee74424336e87fe42b99ee5e91bad mips: sibyte: add missing MODULE_DESCRIPTION() macro
@@ -1051,4 +1051,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============2540160891104483940==--
+--===============4646456475379336371==--
