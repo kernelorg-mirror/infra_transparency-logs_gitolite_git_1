@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1303517360620269376=="
+Content-Type: multipart/mixed; boundary="===============7130038264476713219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 05 Aug 2024 20:16:32 -0000
-Message-Id: <172288899211.22919.15867871372301574733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 05 Aug 2024 20:16:45 -0000
+Message-Id: <172288900588.23083.17557015980110864776@gitolite.kernel.org>
 
---===============1303517360620269376==
+--===============7130038264476713219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: c2d0caf9662cb4fea3744b40b2c0f02042adf62f
     log: revlist-ce533c9bc6de-c2d0caf9662c.txt
 
---===============1303517360620269376==
+--===============7130038264476713219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ fc2e28254d0cb2487e5f5350c84a3d5b8d5b8f2f perf stat: Fork and launch 'perf record
 01c8b68fe58bebfa2b905b089de104e35132bb13 perf pmu-events: Remove duplicated riscv firmware event
 c2d0caf9662cb4fea3744b40b2c0f02042adf62f perf jevents.py: Ensure event names aren't duplicated
 
---===============1303517360620269376==--
+--===============7130038264476713219==--
