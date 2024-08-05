@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4317666499926867764=="
+Content-Type: multipart/mixed; boundary="===============0071243848486443004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 05 Aug 2024 04:51:48 -0000
-Message-Id: <172283350877.4563.13104452959760708704@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 04:52:23 -0000
+Message-Id: <172283354346.4820.3595246673260062572@gitolite.kernel.org>
 
---===============4317666499926867764==
+--===============0071243848486443004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-mika
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     log: revlist-8400291e289e-de9c2c66ad8e.txt
 
---===============4317666499926867764==
+--===============0071243848486443004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -363,4 +363,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============4317666499926867764==--
+--===============0071243848486443004==--
