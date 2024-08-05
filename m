@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 05 Aug 2024 19:26:14 -0000
-Message-Id: <172288597469.17357.4912048438973725331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 05 Aug 2024 19:26:15 -0000
+Message-Id: <172288597513.17384.4237711056904873492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 7c632fc3ce64c05bae4addbdfa174f98d0431ca4
-    new: f874d7210d882cb1c58a8e3da66f61cdc63cd4b4
-    log: |
-         ab9fd06cb8f0db0854291833fc40c789e43a361f scsi: ufs: core: Fix hba->last_dme_cmd_tstamp timestamp updating logic
-         ffed586b8c4f1fdb772ee350e229863f145defb5 scsi: sd: Move sd_read_cpr() out of the q->limits_lock region
-         f874d7210d882cb1c58a8e3da66f61cdc63cd4b4 scsi: sd: Keep the discard mode stable
-         
+  - ref: refs/heads/filekNvWXU
+    old: e42066df07c0fcedebb32ed56f8bc39b4bf86337
+    new: 0000000000000000000000000000000000000000
