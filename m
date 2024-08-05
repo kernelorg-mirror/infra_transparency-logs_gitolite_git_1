@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5469536759007530142=="
+Content-Type: multipart/mixed; boundary="===============3561280867914943574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 05 Aug 2024 21:15:52 -0000
-Message-Id: <172289255291.2559.14500001489315160800@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 21:15:57 -0000
+Message-Id: <172289255765.2689.7514511693623790182@gitolite.kernel.org>
 
---===============5469536759007530142==
+--===============3561280867914943574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 9bc2b113b4175d5c0a491bd28dd46e1444ac81d0
-    new: a5a28a1ff74f873c0d253e41d346682adac7e6fc
-    log: revlist-9bc2b113b417-a5a28a1ff74f.txt
+  - ref: refs/heads/6.12/scsi-queue
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 5f36bd89a9948ae23571f9ffd122d7de1ced73e0
+    log: revlist-8400291e289e-5f36bd89a994.txt
 
---===============5469536759007530142==
+--===============3561280867914943574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1722892513 -0400
+pusher 75C5DE3D 1722892556 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1722892513-260abce013956dcf26e8f1945bc28d7c3d50ac68
+nonce 1722892556-773d9ac0ae49e3947ca0163fad15a78b4df25069
 
-9bc2b113b4175d5c0a491bd28dd46e1444ac81d0 a5a28a1ff74f873c0d253e41d346682adac7e6fc refs/tags/mkp-scsi-queue
+8400291e289ee6b2bf9779ff1c83a291501f017b 5f36bd89a9948ae23571f9ffd122d7de1ced73e0 refs/heads/6.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaxQOIACgkQ7ulgGnXF
-3j17tQ//Y1ebHrdij4cwXAHC7KmLURjVjrSW885oEqd59fjksYdt0bO3QmJSQe9n
-94UyIQLaWST25mTOGOfvrH37TXZMchQaTUlpXuXMCbTsOkRG9OvL7e+OYA+jK+Ve
-mOYjQTHC72hMZf++9ahrWtoh8qbY4AcgPnIGkvo1tUdO0oYaRG2oaMw9cdFmlA54
-dV8+282fQ2l10xlJ1nvzqCvqixxIS15r2PrLeT08/tCVmWuNDv/zJDP9zDBAkh/y
-OkiykuxNMNxu7GacoPjJ9WOwjGRVnNLB3zEnrtl8XPQCPI1iW4OPqLrIRXBjqp+v
-MXKW2XO4gUMhoKrOE+Qo4mVhpdbe7P9zS+hpP08jfZ01qg3W63rsqMduAkFKhApI
-EMRQdPQWgLeao+fI3jXEHIfGCEAvCtWQhMf7C0Ppo5bWtyDg44V0a/9N4QSjxEM8
-9o6hZCIG09cfG33Ceyaa7GDhaP8phmr6BFBN1YDq5Yj7J4lX9374/PHiemm3py2X
-0k8abEETx5fpK782A4ucAWxmfKEFkt1/gbREu9/6iJJZxhyI3/jWohGTiEI0v1Jg
-8m8vUHxI55qn9+X7IEUsQIq7+w6i1jnPbA+EzMMzAQT12ZwZvwfjH1ey2j0PgFaL
-iuEsacb/8ZptCHkhAPOr4z8a+ZQSdT1kDhzqjUXHpHRggBkIiVY=
-=sE/L
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmaxQQwACgkQ7ulgGnXF
+3j12mQ//cg2Zyyqg/I8h6qqY1FqMtAgXSlBx4xolFXjWN5+QPQPAGIX/gACMxLKs
+j2NhFsKOQzVfHaoUdf4z/8FEPREUYw0tDr0OcZtYVtT86O8yUZCGLC8ejnpPKiVq
+q4S/6sUNFzVU2eaajF37Fz74vOVCKruA3U38JVgiiyqeh3kXsCRr6ENgQec5TD71
+BHNgGJWNsmjHA5Ygi0+jcNzW1kRjeYHThIiTRLApMeN5Jj5xM5qKtt7Wc7bhTxZ6
+VP0iJiPJ+aDS7BkiQOV3/Q0I3uc2mV8H2W6xDiE/otMR1S6hMemWFGZ5mSMNgfT0
+tlf7dpZbAr1nJhd/FTjApDh5spWlWBzRDabg2IsbtChHxyuhb69IXOKqMEcAUxWG
+30JAZusbQTgRWHDfOXFeAhZWlYl6yIBErmUNhxdJRr0XpIUhj1Y1TYo71BzAQaeZ
+/ISrSiOXRNgeWiXz6rpTh/crcWik5Rw6Han9klPePlT1zusITTnzZiUZY2RI/6py
+2LpgqBGrbp7Fdzg9YSGXu0xkG111T1xKP5x042MKnXJWReVEf0lSXVII8Z77xZPK
+BCAEwDVofJoQPvGMAw7dE8S5GRHQ59cgT9m/jxs1xzqsEGcKxgkf7Jq/PgOUWh5k
+wXCjfMNfaPlGCYX2fRcU49tdXB8Mop9NEjmfR2l4i0ZRbncaxsw=
+=Cc7d
 -----END PGP SIGNATURE-----
 
---===============5469536759007530142==
+--===============3561280867914943574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bc2b113b417-a5a28a1ff74f.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-5f36bd89a994.txt
 
 ac5b7505de7013a4c572aa80d5b43db287fa0161 scsi: mpi3mr: struct mpi3_event_data_sas_topology_change_list: Replace 1-element array with flexible array
 0e11f97bfddc608fd31d4fb7b8feaf74755d6372 scsi: mpi3mr: struct mpi3_event_data_pcie_topology_change_list: Replace 1-element array with flexible array
@@ -93,4 +93,4 @@ f1393d52e6cda9c20f12643cbecf1e1dc357e0e2 scsi: smartpqi: revert propagate-the-mu
 5b4ded3f35d5b2c077e4035b66af2d04668d7ee5 scsi: smartpqi: Update driver version to 2.1.28-025
 5f36bd89a9948ae23571f9ffd122d7de1ced73e0 Merge patch series "smartpqi updates"
 
---===============5469536759007530142==--
+--===============3561280867914943574==--
