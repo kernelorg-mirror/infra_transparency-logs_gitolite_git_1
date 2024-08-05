@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Mon, 05 Aug 2024 10:11:44 -0000
-Message-Id: <172285270450.26208.11665721706121046885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Mon, 05 Aug 2024 10:29:15 -0000
+Message-Id: <172285375542.4798.11109723782016909638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
   - ref: refs/heads/main
-    old: 268762d0bbe778952ebda77a9ae8b8b3b584ae61
-    new: 7ab107544b777c3bd7feb9fe447367d8edd5b202
+    old: ae2308ddf38b8f24a2b5e8e14e31153dfe608239
+    new: 483ff037f1036f5f604e085cf76097a87e2be348
     log: |
-         7ab107544b777c3bd7feb9fe447367d8edd5b202 net: usb: qmi_wwan: fix memory leak for not ip packets
+         44c2a293260952fbb14db23d1ad07e6066641e0a policy.c: Fix check_return issue in Write_rules()
+         483ff037f1036f5f604e085cf76097a87e2be348 super-gpt.c: Fix check_return issue in load_gpt()
          
