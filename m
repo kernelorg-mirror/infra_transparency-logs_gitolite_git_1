@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1655868628229302804=="
+Content-Type: multipart/mixed; boundary="===============2879608502894984184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 05 Aug 2024 07:30:56 -0000
-Message-Id: <172284305670.23242.12726079710264418542@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 07:30:59 -0000
+Message-Id: <172284305928.23316.5121079627810803921@gitolite.kernel.org>
 
---===============1655868628229302804==
+--===============2879608502894984184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-dt64
-    old: 3a94fa4cb86e96103657ba3550ee68b424269613
+  - ref: refs/heads/microchip-dt64-fixes
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-3a94fa4cb86e-8400291e289e.txt
+    log: revlist-1613e604df0c-8400291e289e.txt
 
---===============1655868628229302804==
+--===============2879608502894984184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a94fa4cb86e-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============1655868628229302804==--
+--===============2879608502894984184==--
