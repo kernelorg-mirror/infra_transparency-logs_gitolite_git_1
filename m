@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6649458528514085921=="
+Content-Type: multipart/mixed; boundary="===============3251362398519349985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 05 Aug 2024 11:08:47 -0000
-Message-Id: <172285612773.2574.11383267004522942543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 05 Aug 2024 11:08:54 -0000
+Message-Id: <172285613409.2657.2882517212330523965@gitolite.kernel.org>
 
---===============6649458528514085921==
+--===============3251362398519349985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     log: revlist-8400291e289e-de9c2c66ad8e.txt
 
---===============6649458528514085921==
+--===============3251362398519349985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -363,4 +363,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============6649458528514085921==--
+--===============3251362398519349985==--
