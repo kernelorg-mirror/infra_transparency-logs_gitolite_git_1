@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5613049483515706399=="
+Content-Type: multipart/mixed; boundary="===============0280482517196016777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 05 Aug 2024 21:44:55 -0000
-Message-Id: <172289429527.22568.2745400607380287627@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 21:45:20 -0000
+Message-Id: <172289432098.24497.16439227332019245604@gitolite.kernel.org>
 
---===============5613049483515706399==
+--===============0280482517196016777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 872bb37f6829d4f7f3ed5afe2786add3d4384b4b
+  - ref: refs/heads/for-next/kspp
+    old: cd1351051f43dedcea823e253a2e61d288da892c
     new: b2d1f5c72c630f7ded52898f5b655f1abcb57aa5
-    log: revlist-872bb37f6829-b2d1f5c72c63.txt
+    log: revlist-cd1351051f43-b2d1f5c72c63.txt
 
---===============5613049483515706399==
+--===============0280482517196016777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-872bb37f6829-b2d1f5c72c63.txt
+Content-Disposition: attachment; filename=revlist-cd1351051f43-b2d1f5c72c63.txt
 
 aacbb6c837dfc0f5bba29318c590fc83a0e83f70 mtd: spinand: macronix: Add support for reading Device ID 2
 d29e8e28d6d53b3406c214059b8e048fa950a136 mtd: spinand: macronix: Add support for serial NAND flash
@@ -1051,4 +1051,4 @@ f91f7ac900e7342e0fd66093dfbf7cb8cb585a99 refcount: Report UAF for refcount_sub_a
 f32e90c0688a3d1f8079ac18ed39b752d22e92bd gcc-plugins: randstruct: Remove GCC 4.7 or newer requirement
 b2d1f5c72c630f7ded52898f5b655f1abcb57aa5 lib: Move KUnit tests into tests/ subdirectory
 
---===============5613049483515706399==--
+--===============0280482517196016777==--
