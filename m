@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2737056755009443068=="
+Content-Type: multipart/mixed; boundary="===============3692229142764697025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 05 Aug 2024 15:38:12 -0000
-Message-Id: <172287229250.11951.13319633217380385734@gitolite.kernel.org>
+Date: Mon, 05 Aug 2024 15:38:26 -0000
+Message-Id: <172287230607.12121.5722499104674710287@gitolite.kernel.org>
 
---===============2737056755009443068==
+--===============3692229142764697025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ce21e520fdef49d92b01ce93cfc3d88906d01618
-    new: 10a6545f0bdcbb920c6a8a033fe342111d204915
-    log: revlist-ce21e520fdef-10a6545f0bdc.txt
+  - ref: refs/heads/dev-queue
+    old: 367dfaa85b2cd64ddc69e408dc96acafb0dc7649
+    new: e5741d024b36ae7c31db835fc69dfecbe5681b76
+    log: revlist-367dfaa85b2c-e5741d024b36.txt
 
---===============2737056755009443068==
+--===============3692229142764697025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce21e520fdef-10a6545f0bdc.txt
+Content-Disposition: attachment; filename=revlist-367dfaa85b2c-e5741d024b36.txt
 
 49675f5bdf9ae2624b430dafda4cb29024521625 net: remove IFF_* re-definition
 ab1000976cc7de8e57bdef811dfcfcb6c17a929f selftests: net-drv: exercise queue stats when the device is down
@@ -63,5 +63,68 @@ c4b28e5699d2a789fc9464e7ce89f2a1e9d5085d net: pse-pd: tps23881: Fix the device I
 c89cca307b20917da739567a255a68a0798ee129 net: skbuff: sprinkle more __GFP_NOWARN on ingress allocs
 ac4c59390a877e02967b1da9ef6bc565150e9e7e net: phy: vitesse: implement downshift in vsc73xx phys
 10a6545f0bdcbb920c6a8a033fe342111d204915 net: netconsole: Fix MODULE_AUTHOR format
+c8a9fbf6d9e5267b5f6f14d555e8c696b06f2e66 ice: move netif_queue_set_napi to rtnl-protected sections
+ed9f5b9d659a86d3d4f3c4996dedd3ac8ae89d41 ice: protect XDP configuration with a mutex
+c4ef63790abbfd4c2e59fdc94e2dbf5438ab9bca ice: check for XDP rings instead of bpf program when unconfiguring
+b0680170321565d3a8308db5d34cd5ea94048c74 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
+61311bee95cfbc548e9eb0846fcdc4c0570535bc ice: remove ICE_CFG_BUSY locking from AF_XDP code
+355b79307c7bad5acfef25ebe01211d28cc7cf97 ice: do not bring the VSI up, if it was down before the XDP setup
+81027ae68b2e606c6551b1630c07ac97dbc779a6 igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
+8198e25f142012190fc60b46455ec47044be0d3f igc: Fix qbv_config_change_errors logics
+2dfd1d753180dab0f672f7549add86e353ae2e39 igc: Fix reset adapter logics when tx mode change
+90082cff012d3a6c0b6307f1ca89b18a2842afc4 igc: Fix qbv tx latency by setting gtxoffset
+a653c6f68d5749d4f88fc0cbf96f77bc9bb10b32 ice: add parser create and destroy skeleton
+6ea33f84bc045a88246f1c64877bf3c238747687 ice: parse and init various DDP parser sections
+91fb56b13a2e6d9ebb0263964fc7dca4db0d461d ice: add debugging functions for the parser sections
+31d0bc050f2aa058776eb8dd702039d29e2aa493 ice: add parser internal helper functions
+525a6b8b661e4b9f7e9f7d8c93858a742760cc1d ice: add parser execution main loop
+71dd50f0305b4d8ea86ef0193868425cfdfef6c1 ice: support turning on/off the parser's double vlan mode
+3b075e17d379c5dcf0e2ce1246379088d217a8c8 ice: add UDP tunnels support to the parser
+5215e7a2edfe786042c16f46499e8d2c376d4b8c ice: add API for parser profile initialization
+33e92c306b0cc609a27ef330d3007dbcfdf2eb34 virtchnl: support raw packet in protocol header
+07b8a7da00f40f103787ef78817ad83720fa66f7 ice: add method to disable FDIR SWAP option
+6142e6c75561fe72e267f16484ed040855234e0a ice: enable FDIR filters from raw binary patterns for VFs
+bf632578be4cc0ad901f8c91e558b81b0ca7dbef iavf: refactor add/del FDIR filters
+ba0e41b66c272a39887cbde579b2171c597d9e9a iavf: add support for offloading tc U32 cls filters
+c51402b039b2ff70485f4130b45a7a9945e4f104 ice: add new VSI type for subfunctions
+c7512085565dd5e41ac9219a20a97f800e3e4a56 ice: export ice ndo_ops functions
+586d145c4196c589b141765e3fd75035d712d2e7 ice: add basic devlink subfunctions support
+811080cafc5642a6c5056100a1b8f5018f86b010 ice: treat subfunction VSI the same as PF VSI
+e63658593a481bfba172cbd40b77d5bc57cf7aed ice: allocate devlink for subfunction
+c71d8a8daa5049cd519996b90d89cdb5cd78001f ice: base subfunction aux driver
+19444ce896d0c0f8294f790c51e02581058db4f7 ice: implement netdev for subfunction
+a09d204a9964a2cfaf1509079dced492922e629b ice: make representor code generic
+ef659c0abfcf2a1aad5668a5f1dafcc98ffe85c2 ice: create port representor for SF
+74711d7a66a27b1dc0eedaa8e30e129eed50c36c ice: don't set target VSI for subfunction
+be8c6e6fe41040be75829a5bc718e3bd5f295fca ice: check if SF is ready in ethtool ops
+5bb31320ad2940ecef989392cc696a0dc1c1c7e0 ice: implement netdevice ops for SF representor
+0c7c5cf7d3dfc2dd0f39f23520d6f218e29e05df ice: support subfunction devlink Tx topology
+6c950d9c119297fcd56ac86861efd416013a5778 ice: basic support for VLAN in subfunctions
+bc28a208f0f5ff1a202abf0ad0ada8e00e775f0a ice: allow to activate and deactivate subfunction
+3df02b090830abce4362a445c39033a51d2ec099 igc: Get rid of spurious interrupts
+0c652cc4c8cc1ad65b60b53b27779c3d0e4c2637 igc: Add MQPRIO offload support
+0c5122868bd6c7fa575ee39d0535a7c76ca19543 ice: Fix lldp packets dropping after changing the number of channels
+b54c65c0205d57564331ac63c24f1c83aaabee37 ice: Implement ice_ptp_pin_desc
+58c26dc359035622312c0c299f188fad36c9f317 ice: Add SDPs support for E825C
+9ff57725d467d7c2f8573c5581ce3cdeb3043fd6 ice: Align E810T GPIO to other products
+af8f667acad96b149e3bffe849bc56266756647e ice: Cache perout/extts requests and check flags
+13f1904c3ca176a1f584b3fffd404d9e114673cc ice: Disable shared pin on E810 on setfunc
+60a29b315d9066ffa3117dc3abb5c1ca16c7ed8c ice: Read SDP section from NVM for pin definitions
+b862f2f63aa6238be1dc64ce2c248f8f023505af ice: Enable 1PPS out from CGU for E825C products
+f1fc4c7721b6b8f7370775759c53c827f34ab8bf ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
+1ac44d508d7b8a856975475c5434b3b3a69dfc31 ice: Fix reset handler
+9f9ad44801452081805aeaa638b8468947f67b5c ice: Skip PTP HW writes during PTP reset procedure
+7382ee1ab5dd870f8ef4bc4d2e2f07f8f43e6459 igc: Add Energy Efficient Ethernet ability
+f93e78a67df3576811c9bf4787fea8ec58a8d3b5 igb: cope with large MAX_SKB_FRAGS.
+3534d1c3ebacf15b4ea7addb9b8c949b1d47290c idpf: fix memory leaks and crashes while performing a soft reset
+b183505ec46d2cb17a9e7b15a426a9e11d6650bf idpf: fix memleak in vport interrupt configuration
+476c6fdd95a141d8f93815a80c9bffee1cc7df11 idpf: fix UAFs when destroying the queues
+4aa3d5307cdcf404c8f85cfbec525e96b2cad316 igb: prepare for AF_XDP zero-copy support
+389669f01b03cb2efe6db5abf9095b6f90a24d10 igb: Introduce XSK data structures and helpers
+d6eee92931df01be03274e2734ba1185141b57a5 igb: add AF_XDP zero-copy Rx support
+ace7ec8802808fba7d7d32d2003839500cc24c0b igb: add AF_XDP zero-copy Tx support
+8f917f042f7bb9008f74a46469f3da30e0932b4e idpf: remove redundant 'req_vec_chunks' NULL check
+0c85be5a94314d4f9620bf5e43835d519edec375 ice: Fix incorrect assigns of FEC counts
+e5741d024b36ae7c31db835fc69dfecbe5681b76 ice: fix accounting for filters shared by multiple VSIs
 
---===============2737056755009443068==--
+--===============3692229142764697025==--
