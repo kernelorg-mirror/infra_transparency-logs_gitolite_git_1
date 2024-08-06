@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 06 Aug 2024 08:08:57 -0000
-Message-Id: <172293173765.30026.1112641235042314423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Tue, 06 Aug 2024 08:17:03 -0000
+Message-Id: <172293222347.3792.16908493174065716248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/for-next
-    old: 2422a0a42d8319345543c0602d4fe064fc5d5243
-    new: 84f5fa5869e680114b76a72c0bf1c26701d84a10
-    log: |
-         b3610c99f11c30cdc24a2809c73a25e9ab6a044f arm64: dts: mediatek: mt8186: add lvts definitions
-         965fe9178871948d3d409409f4235ba4e4e32cfd arm64: dts: mediatek: mt8186: add default thermal zones
-         d39aacd1021a3fa953e4238fba63bb8de349232b arm64: dts: mediatek: mt8188: add lvts definitions
-         48456547da153c3e3a59303609e08fd00365f674 arm64: dts: mediatek: mt8188: add default thermal zones
-         732ba98596046385dce6ac9f3f2c64cf1a2a660a arm64: dts: mediatek: mt8183-kukui: Disable unused efuse at 8000000
-         ec5c04abbb3bd15f14eeebefd5287790f84970a8 arm64: dts: mediatek: mt7981: add SPI controllers
-         f5843dc83583d58e13e6851c70ad8371f036dc35 arm64: dts: mt8183-kukui: clean up regulator tree
-         84f5fa5869e680114b76a72c0bf1c26701d84a10 Merge branch 'v6.11-next/dts64' into for-next
-         
+  - ref: refs/tags/loongarch-fixes-6.11-1
+    old: 0000000000000000000000000000000000000000
+    new: 6ec0ab44e2db83218ac672305c263d1d446c4b99
