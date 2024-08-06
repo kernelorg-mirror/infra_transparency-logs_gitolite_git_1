@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7160349584057758869=="
+Content-Type: multipart/mixed; boundary="===============6880010012140958556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 06 Aug 2024 12:55:43 -0000
-Message-Id: <172294894349.6216.14958615169536114470@gitolite.kernel.org>
+Date: Tue, 06 Aug 2024 12:55:50 -0000
+Message-Id: <172294895044.6317.14894807386366966487@gitolite.kernel.org>
 
---===============7160349584057758869==
+--===============6880010012140958556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/openfast
-    old: cac45020166bff4a1ea09f88e7b846e0e37c2117
+  - ref: refs/heads/kdevops
+    old: 4141abbc223ab85ba650383951b190536450ecdf
     new: 354bcfe8e08da14f042382757a3dad38b81cc82d
-    log: revlist-cac45020166b-354bcfe8e08d.txt
+    log: revlist-4141abbc223a-354bcfe8e08d.txt
 
---===============7160349584057758869==
+--===============6880010012140958556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cac45020166b-354bcfe8e08d.txt
+Content-Disposition: attachment; filename=revlist-4141abbc223a-354bcfe8e08d.txt
 
 92fc2c469eb26060384e9b2cd4cb0cc228aba582 nvme-pci: Fix the instructions for disabling power management
 3a56e241732975c2c1247047ddbfc0ac6f6a4905 Merge tag 'for-6.11/io_uring-20240714' of git://git.kernel.dk/linux
@@ -1051,4 +1051,4 @@ cb0433302c1eafd581a5e770cd4d1317a1bd04ed Merge branch 'vfs.netfs' into vfs.all
 b8c26d8176e1da563d0abe87199c14881edf6a18 fs: try an opportunistic lookup for O_CREAT opens too
 354bcfe8e08da14f042382757a3dad38b81cc82d fs: try an opportunistic lookup for O_CREAT opens too
 
---===============7160349584057758869==--
+--===============6880010012140958556==--
