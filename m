@@ -1,104 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3265934163787697567=="
+Content-Type: multipart/mixed; boundary="===============1175232053717354966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 06 Aug 2024 05:28:41 -0000
-Message-Id: <172292212114.9023.7640229417652720471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 06 Aug 2024 05:28:49 -0000
+Message-Id: <172292212956.9160.7816034866613444421@gitolite.kernel.org>
 
---===============3265934163787697567==
+--===============1175232053717354966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: b6b3ab6bae73b8ba1fefadea42f448f27591365b
-    new: d15fe7f84765bc7905e3128bfbce964e5b77164e
-    log: revlist-b6b3ab6bae73-d15fe7f84765.txt
   - ref: refs/heads/master
     old: d6dbc9f56c3a70e915625b6f1887882c23dc5c91
     new: 1e391b34f6aa043c7afa40a2103163a0ef06d179
     log: revlist-d6dbc9f56c3a-1e391b34f6aa.txt
-  - ref: refs/heads/stable
-    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    new: b446a2dae984fa5bd56dd7c3a02a426f87e05813
-    log: |
-         a371d558e6f3aed977a8a7346350557de5d25190 mm, slub: do not call do_slab_free for kfence object
-         170c966cbe274e664288cfc12ee919d5e706dc50 selftests: ksft: Fix finished() helper exit code on skipped tests
-         c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-         b446a2dae984fa5bd56dd7c3a02a426f87e05813 Merge tag 'linux_kselftest-fixes-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         
-  - ref: refs/tags/next-20240506
-    old: 1e76a4742e5f97331b1431c77fb3152f62cac80c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240806
     old: 0000000000000000000000000000000000000000
     new: e5942ba10d25f2f06a8fffbcd8895cc56c24b4fb
 
---===============3265934163787697567==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6b3ab6bae73-d15fe7f84765.txt
-
-a371d558e6f3aed977a8a7346350557de5d25190 mm, slub: do not call do_slab_free for kfence object
-170c966cbe274e664288cfc12ee919d5e706dc50 selftests: ksft: Fix finished() helper exit code on skipped tests
-248083c1c9b897de2480d974615e90b41df4e9ac nfsd: don't allocate the versions array.
-89206543d81b6316a5bc50a569fea56ae297da19 sunrpc: document locking rules for svc_exit_thread()
-9f288541acd8351715ea92911261bd9f08413156 sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-fc11b338164623c7557b1ec31f37b3f7ced62be5 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-e70c9af4bcd304078c9a664f77f294df6a0bac98 sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
-8d26601764fef7eb3113e891df870cad7537f096 sunrpc: allow svc threads to fail initialisation cleanly
-169372d2998c38a4179ed9b69cc908ae48b7c811 nfsd: don't assume copy notify when preprocessing the stateid
-0124788d2b5f5591a159181bae978206ea82b233 nfsd: Don't pass all of rqst into rqst_exp_find()
-cb2fa2ad2653e9b517324ffcb6fe8d8d4f55a1d2 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
-3a591e6aa42d4feffb21e901d1ddab53f49dfffa nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
-bbc80fdf8432cec70536af205eeb86060f577701 nfsd: further centralize protocol version checks.
-14317d26286ce2c74d8e67df737b28064d4702a7 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
-04ab75e4faac36375e6b3160cf1f29c1d62f74b5 nfsd: Move error code mapping to per-version proc code.
-6b1d51efa64c0b7aed93c62a1274969872f9c020 nfsd: be more systematic about selecting error codes for internal use.
-d3764b627f0638cab478ed2708624376401cc568 nfsd: move error choice for incorrect object types to version-specific code.
-1d04bedf4e959881152d7a66ab1a9f9482e0f20e svcrdma: Handle device removal outside of the CM event handler
-c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-2cf66b9de406dadbe7598618aa4541261d7bf536 f2fs: clean up data_blkaddr() and get_dnode_addr()
-47f268f33dff4a5e31541a990dc09f116f80e61c f2fs: prevent possible int overflow in dir_block_index()
-1cade98cf6415897bf9342ee451cc5b40b58c638 f2fs: fix several potential integer overflows in file offsets
-50438dbc483ca6a133d2bce9d5d6747bcee38371 f2fs: avoid potential int overflow in sanity_check_area_boundary()
-8444ce524947daf441546b5b3a0c418706dade35 f2fs: add write priority option based on zone UFS
-d1e1ff971d1aafeaedda69136e6974e3a8792cbd f2fs: fix macro definition on_f2fs_build_free_nids
-d72750e4a7528b83a07b65335c35b454a98593d4 f2fs: fix macro definition stat_inc_cp_count
-1a0bd289a5db1df8df8fab949633a0b8d3f235ee f2fs: atomic: fix to avoid racing w/ GC
-7566a155c666dd23b413a002a50cd9ae7b95f053 f2fs: atomic: fix to not allow GC to pollute atomic_file
-374a8881ce4ccf787f5381a39f825cb17a3f6b14 f2fs: atomic: fix to forbid dio in atomic_file
-f541093786a32589a28b4b75b49c3435e5e5b6e1 f2fs: reduce expensive checkpoint trigger frequency
-e607768606784fe43c2fff8297bbd34996f6044c f2fs: fix to wait dio completion
-415ea641b020b7bbdf9b70bf241897ccbf7bf41f f2fs: fix to avoid racing in between read and OPU dio write
-8ce36b8b1150446d1e65937a31cfb4e4f251ce0e f2fs: get rid of buffer_head use
-2a331ab343ee777728fa93d21dc1d2c2bc9784f5 Revert "f2fs: use flush command instead of FUA for zoned device"
-4b7a75f228059a849a7188bd617411f689187f03 f2fs: sysfs: support atgc_enabled
-aac0828ab000af56edaf6bbd8e5a3d55f3ac7dda f2fs: use f2fs_get_node_page when write inline data
-a6c12809975bd4b1ad8bc5ea22a60c9a96b1e412 f2fs: fix to use per-inode maxbytes and cleanup
-b446a2dae984fa5bd56dd7c3a02a426f87e05813 Merge tag 'linux_kselftest-fixes-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-139a68648cfea8ae107bbfbbd79e5276c086470c Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-b4bc4825aa2a65787609f2d3fb133dc1f77eca51 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-38dca5e440b037bece5dac95e3c5aa22dd1edec9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-ba2e1663436dc16a86ed31d5f7adb173dc7d02d6 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-5cb44f086f30ed235d285b83a8a88a23c6342424 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-3a68131c3c43ac840b8788e3f20e85a96ad2b848 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-ba72e6ec27f25e0dedc5433af29750d3b705d246 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-430d76b5c9daceda38cf8f046f0f05f86d714c9d Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-130ffbcfce2a8e5e883a601cf4a38609a2a5e9d4 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-878cddeb0f85ce4f06472692d5d034b54e298ead Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-f1fc0a55125346aefccfd8c20503840417d93c5c Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-ef8b1804ef57c310a3811670eea26dda9130ed16 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9528a8fb609a708f3ceefdb14d531c2ef26fc347 Merge branch '9p-next' of git://github.com/martinetd/linux
-d15fe7f84765bc7905e3128bfbce964e5b77164e Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============3265934163787697567==
+--===============1175232053717354966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -607,4 +532,4 @@ e22bda982e154c52edd5a98dc79c839f8f73c84b Merge branch 'bitmap-for-next' of https
 ca4ed67473df4f97536c9bc9938e5e478aab948a Revert "lib: Move KUnit tests into tests/ subdirectory"
 1e391b34f6aa043c7afa40a2103163a0ef06d179 Add linux-next specific files for 20240806
 
---===============3265934163787697567==--
+--===============1175232053717354966==--
