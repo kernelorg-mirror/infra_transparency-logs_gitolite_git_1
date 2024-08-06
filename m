@@ -1,36 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 06 Aug 2024 04:34:44 -0000
-Message-Id: <172291888412.1491.2972340062131373057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 06 Aug 2024 04:40:21 -0000
+Message-Id: <172291922198.8026.17881332281279385208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-6.11-fixes
-    old: 6633be84bc943e5246f1e82ce0d9588f97b54035
-    new: c4c8f369b6a6d21ce27286de1501137771e01dc3
+  - ref: refs/heads/for-next/hardening
+    old: 634a52a98f04c47cc7a4d8af62fd958de1223427
+    new: d518b5f7f2d5de63c0b3b375188cac2c469ad21f
     log: |
-         44732f1dad20457d64c525549cd63dcef2563c23 workqueue: doc: Fix function name, remove markers
-         38f7e14519d39cf524ddc02d4caee9b337dad703 workqueue: Fix UBSAN 'subtraction overflow' error in shift_and_mask()
-         98cc1730c89467fc26e2dc2ceb2a014f332daa97 workqueue: Remove incorrect "WARN_ON_ONCE(!list_empty(&worker->entry));" from dying worker
-         8bc35475ef1a23b0e224f3242eb11c76cab0ea88 workqueue: Fix spruious data race in __flush_work()
-         c4c8f369b6a6d21ce27286de1501137771e01dc3 workqueue: Correct declaration of cpu_pwq in struct workqueue_struct
-         
-  - ref: refs/heads/for-6.12
-    old: bc1d825a33348d3c417358f1e8ec9cf36b4231ac
-    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-  - ref: refs/heads/for-next
-    old: 6633be84bc943e5246f1e82ce0d9588f97b54035
-    new: c4c8f369b6a6d21ce27286de1501137771e01dc3
-    log: |
-         44732f1dad20457d64c525549cd63dcef2563c23 workqueue: doc: Fix function name, remove markers
-         38f7e14519d39cf524ddc02d4caee9b337dad703 workqueue: Fix UBSAN 'subtraction overflow' error in shift_and_mask()
-         98cc1730c89467fc26e2dc2ceb2a014f332daa97 workqueue: Remove incorrect "WARN_ON_ONCE(!list_empty(&worker->entry));" from dying worker
-         8bc35475ef1a23b0e224f3242eb11c76cab0ea88 workqueue: Fix spruious data race in __flush_work()
-         c4c8f369b6a6d21ce27286de1501137771e01dc3 workqueue: Correct declaration of cpu_pwq in struct workqueue_struct
+         3ff37dbb1ae9926d3b51749f7d0d3f474fe2440b lib/string_choices: Add str_up_down() helper
+         d518b5f7f2d5de63c0b3b375188cac2c469ad21f coccinelle: Add rules to find str_up_down() replacements
          
