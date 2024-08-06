@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 06 Aug 2024 13:06:08 -0000
-Message-Id: <172294956868.13450.2448969055686862466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 06 Aug 2024 13:09:17 -0000
+Message-Id: <172294975750.15946.12263303229599100862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: e42066df07c0fcedebb32ed56f8bc39b4bf86337
-    new: a44b7b57ef144052cd322880c4d2b3d52e563544
+  - ref: refs/heads/kdevops
+    old: 354bcfe8e08da14f042382757a3dad38b81cc82d
+    new: 9595b9dfb1fbcb5dd0ae4115a01531d99c5f0e07
     log: |
-         45b4acab4cac79503663f0a4be9eb3752db04d4b ASoC: wm_adsp: Add control_add callback and export wm_adsp_control_add()
-         2c3640b82213cf2beb7c1cc3cfce2ecf5349b0de ASoC: cs35l56: Stop creating ALSA controls for firmware coefficients
-         a44b7b57ef144052cd322880c4d2b3d52e563544 ASoC: Extend wm_adsp so cs35l56 can suppress controls
+         9595b9dfb1fbcb5dd0ae4115a01531d99c5f0e07 fs: try an opportunistic lookup for O_CREAT opens too
          
