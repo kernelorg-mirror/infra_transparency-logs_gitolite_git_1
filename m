@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 06 Aug 2024 20:29:29 -0000
-Message-Id: <172297616908.17590.13959765177063898318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 06 Aug 2024 20:41:42 -0000
+Message-Id: <172297690280.28119.17377879598504071902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/arm/fixes
-    old: d50a762b62cf56fbb6ebcd255d543369c3099b8a
-    new: 893738d2fc996e5feb0bb27ab394e00eb190491b
+  - ref: refs/heads/master
+    old: ddde5f2e9fcab497915054b7c668df06e1c9ef54
+    new: a450d93d742628708af23f9766873d2187640631
     log: |
-         893738d2fc996e5feb0bb27ab394e00eb190491b ARM: pxa/gumstix: fix attaching properties to vbus gpio device
-         
-  - ref: refs/heads/for-next
-    old: d50a762b62cf56fbb6ebcd255d543369c3099b8a
-    new: 893738d2fc996e5feb0bb27ab394e00eb190491b
-    log: |
-         893738d2fc996e5feb0bb27ab394e00eb190491b ARM: pxa/gumstix: fix attaching properties to vbus gpio device
+         a450d93d742628708af23f9766873d2187640631 whymb: Further adjustments to Table C.1
          
