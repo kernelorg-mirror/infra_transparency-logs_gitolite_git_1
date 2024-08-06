@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 06 Aug 2024 13:09:21 -0000
-Message-Id: <172294976193.16021.5573574374810830599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 06 Aug 2024 13:13:11 -0000
+Message-Id: <172294999154.19018.11309893042992759901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/openfast
-    old: 354bcfe8e08da14f042382757a3dad38b81cc82d
-    new: 9595b9dfb1fbcb5dd0ae4115a01531d99c5f0e07
+  - ref: refs/heads/master
+    old: 118622a3188e637d66ddec386b22e86fa8c01700
+    new: 39e2d47cfefd4c05099a4bb372545380c470c5e4
     log: |
-         9595b9dfb1fbcb5dd0ae4115a01531d99c5f0e07 fs: try an opportunistic lookup for O_CREAT opens too
+         39e2d47cfefd4c05099a4bb372545380c470c5e4 man/io_uring_prep_recv.3: note bundle receive buffer counts
          
