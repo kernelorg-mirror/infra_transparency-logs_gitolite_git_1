@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0586890606298825159=="
+Content-Type: multipart/mixed; boundary="===============5702419428057802630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 06 Aug 2024 07:41:01 -0000
-Message-Id: <172293006168.9999.17304681450502262351@gitolite.kernel.org>
+Date: Tue, 06 Aug 2024 07:41:11 -0000
+Message-Id: <172293007117.10146.14636990850745473996@gitolite.kernel.org>
 
---===============0586890606298825159==
+--===============5702419428057802630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 748e3bbf47212d5e2e22d731328b0c15ee3b85ae
-    new: eec9de0354105527e31394c0ed4b8c54fb1fe1dd
-    log: revlist-748e3bbf4721-eec9de035410.txt
-  - ref: refs/heads/master
-    old: 748e3bbf47212d5e2e22d731328b0c15ee3b85ae
-    new: eec9de0354105527e31394c0ed4b8c54fb1fe1dd
-    log: revlist-748e3bbf4721-eec9de035410.txt
+  - ref: refs/heads/testing
+    old: ae44fa998ee280303ee5dffe99cb669e4c245706
+    new: fa3c40b9d540948884a7ae2205c247729e9f9f8f
+    log: revlist-ae44fa998ee2-fa3c40b9d540.txt
 
---===============0586890606298825159==
+--===============5702419428057802630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1722930008 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1722930066 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1722930000-0889765803b698235e40760a93f9aaf8a06219ae
+nonce 1722930066-7f537f555dbe4b7532980c635a678fb997352373
 
-748e3bbf47212d5e2e22d731328b0c15ee3b85ae eec9de0354105527e31394c0ed4b8c54fb1fe1dd refs/heads/main
-748e3bbf47212d5e2e22d731328b0c15ee3b85ae eec9de0354105527e31394c0ed4b8c54fb1fe1dd refs/heads/master
+ae44fa998ee280303ee5dffe99cb669e4c245706 fa3c40b9d540948884a7ae2205c247729e9f9f8f refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmax01gTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b4bDCACGLpcpF0tJj/09bs0W4fF9VZsOVQP9
-+ksEp/nXMgNLOFuLDbbIv+Kn3ziJRY3eZn2YEkF10aTw58Dctj5xYF7AcIijKst/
-SIqA9AU+y2Z9UAovwOhZFXFzsu8qLcGHuNz0jxsSUlNIeswLHTkbyjKp6qhdXehu
-R4zTtA9lK8fZKVOSMDRgOeKy0EKfvLy83jgDanAr7fUix9ajQPd7jmI/B/nU8zBT
-0MlXfPyF5am+otKAoi3FFc7TkBFMDWXXtGg0MQh5QPvZjVS8y+4PJOimLmmNzEc6
-NsLs0GbcroXymGODZNxfFiwL/3ZyU9St5F3J1Y3iGghh2Ri4nk/MfFoy
-=PS+E
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmax05ITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b9ocB/4qwU0CMKpJpzL1NmTzSm6lppuXWUrb
+yiEJK7CfOyRPMtmobejmleQ6aUY0RAm7f63UD0H93LMEM7qi9V+7MtJrAJy2jobM
+EHvLkDgo6NvLdWGg/SFcATjpw4o1Uj/ue6l9ktEOgta98HXUnR320F06OmN2y3rF
+sOoviOjLZn2zaW59WyIRN7ye6vwUSgXbPhAEOB/fvDIaHbWQD5BKnRaU2lNoVHWF
+yagjCZ+Qpf4fU5lq5qfBjmnBG/V7M/u0FNaryekg29PiUsIxe0Hhl3JHDveJDkUO
+snh2DJOquIcP6FU/6g4GD4HXcmVCteq4JjhXA+KGYteAEZovMDJViAuD
+=d5z9
 -----END PGP SIGNATURE-----
 
---===============0586890606298825159==
+--===============5702419428057802630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-748e3bbf4721-eec9de035410.txt
+Content-Disposition: attachment; filename=revlist-ae44fa998ee2-fa3c40b9d540.txt
 
-208a352a5490f2fa4b78d702035036af1a53a287 Merge tag 'kvm-x86-vmx-6.11' of https://github.com/kvm-x86/linux into HEAD
-3d4415ed75a57fc96ea203a9832e3c5ac5982719 KVM: x86/mmu: Bug the VM if KVM tries to split a !hugepage SPTE
-9fe17d2ada6e4ec05502a8725e87def023e1d74e KVM: x86/mmu: Clean up make_huge_page_split_spte() definition and intro
-2a1fc7dc36260fbe74b6ca29dc6d9088194a2115 KVM: x86: Suppress MMIO that is triggered during task switch emulation
-33c97e7c0338d921c2ae0c2e54bf17121007fb94 landlock: Clarify documentation for struct landlock_ruleset_attr
-b49991d83bba4ae77a560c5f021932e8290bd022 wifi: ath12k: fix build vs old compiler
-a3bfc095060b51f0198755020daf80d1e14413b1 tcp: Replace strncpy() with strscpy()
-415fb383ec2bbe4d4bb1a1b5593cd67eb058f1de nvme-core: choose PIF from QPIF if QPIFS supports and PIF is QTYPE
-77ae5e5b00720372af2860efdc4bc652ac682696 eth: fbnic: Fix spelling mistake "tiggerring" -> "triggering"
 ecfa23c8df7ef3ea2a429dfe039341bf792e95b4 drm/amdgpu/vcn: identify unified queue in sw init
 88caf544c9305313e1c48ac1a437faa5df8fff06 KVM: SEV: Provide support for SNP_GUEST_REQUEST NAE event
 f55f3c3ac69f22ce092506244a31c08a1ca497ba x86/sev: Move sev_guest.h into common SEV header
@@ -1066,19 +1052,28 @@ c4b28e5699d2a789fc9464e7ce89f2a1e9d5085d net: pse-pd: tps23881: Fix the device I
 101a002af005a21619463372f45ffb444a203438 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,en7581-switch
 2b0229f67932e4b9e2f458bf286903582bd30740 net: dsa: mt7530: Add EN7581 support
 3608d6aca5e793958462e6e01a8cdb6c6e8088d0 Merge branch 'dsa-en7581' into main
-c89cca307b20917da739567a255a68a0798ee129 net: skbuff: sprinkle more __GFP_NOWARN on ingress allocs
-ac4c59390a877e02967b1da9ef6bc565150e9e7e net: phy: vitesse: implement downshift in vsc73xx phys
-10a6545f0bdcbb920c6a8a033fe342111d204915 net: netconsole: Fix MODULE_AUTHOR format
-a2dc7bee4f77266ebb8e3a8544fc5f7812835f8c inet: constify inet_sk_bound_dev_eq() net parameter
-d4433e8b405a882fa2ef29601c4ad262ba6e5526 inet: constify 'struct net' parameter of various lookup helpers
-b9abcbb1239cd782f76532397a7c45458de9a73e udp: constify 'struct net' parameter of socket lookups
-10b2a44ccb0cdf85480b6f73a23530aa3ac722de inet6: constify 'struct net' parameter of various lookup helpers
-87d973e8ddeeddf1777e6689df86d5d369cbcbb3 ipv6: udp: constify 'struct net' parameter of socket lookups
-0143ed320573e66773b9438b935c39270a55df29 Merge branch 'net-constify-struct-net-parameter-of-socket-lookups'
-e8fc78eb658a1ebcb871e93bbe4f18e9d51fdd3a tools: ynl: remove extraneous ; after statements
-7e45c1e9edc0004b914e2d5a33245908a06f072c net/mlx5: Add support for MTPTM and MTCTR registers
-bec6d85d43eb7fa0834b4284bdc62f7d3a23288f net/mlx5: Add support for enabling PTM PCI capability
-d17125fb0923228fb3cc1e03790de4ee88f7f95f net/mlx5: Implement PTM cross timestamping support
-eec9de0354105527e31394c0ed4b8c54fb1fe1dd Merge branch 'mlx5-ptm-cross-timestamping-support'
+ef5e8d34bb9a2f6c13fa35a2209709d345ac1017 dt-bindings: can: fsl,flexcan: add common 'can-transceiver' for fsl,flexcan
+3eea16ba7c69ecab78bc458795ccd08de6fc4b1c dt-bindings: can: fsl,flexcan: move fsl,imx95-flexcan standalone
+5b512f42e098df280f0b3f680ac806827a25d1dd can: flexcan: add wakeup support for imx95
+72e5f5a917da8bc022d14474b9c5aa95fc5936c8 Merge patch series "can: fsl,flexcan: add imx95 wakeup"
+3e6cb3f2fb4344db54b35601effc1ff46ebd9698 can: esd_402_pci: Rename esdACC CTRL register macros
+c20ff3e0d9ebdc9f7fd84b8c59c2cba9442324c3 can: esd_402_pci: Add support for one-shot mode
+0fe41a8704f081a42f2b9e2e7c197a1ff3d4424d Merge patch series "can: esd_402_pci: Do cleanup; Add one-shot mode"
+7d102d0e4c6378a24ae90fc99618a44ea52e2766 can: kvaser_usb: Add helper functions to convert device timestamp into ktime
+7cb0450c1da579f1d6372ed38da9a03a6312db47 can: kvaser_usb: hydra: kvaser_usb_hydra_ktime_from_rx_cmd: Drop {rx_} in function name
+0512cc691a3abe51aa3daf72ce161f3ab1d3bedc can: kvaser_usb: hydra: Add struct for Tx ACK commands
+d920dd289ee5967c14026357635cb771cdfef11e can: kvaser_usb: hydra: Set hardware timestamp on transmitted packets
+8e7895942ea5fa5add3a2ceafe6e1e9284184806 can: kvaser_usb: leaf: Add struct for Tx ACK commands
+dcc8c203318a471cd5cb4e1ccdca56a766fa1a9d can: kvaser_usb: leaf: Assign correct timestamp_freq for kvaser_usb_leaf_imx_dev_cfg_{16,24,32}mhz
+9e1cd0d27276ff221368c0e72e3038e7df98d9b9 can: kvaser_usb: leaf: Replace kvaser_usb_leaf_m32c_dev_cfg with kvaser_usb_leaf_m32c_dev_cfg_{16,24,32}mhz
+7f3823759751654ff2a59afd3e7c747b71bcb98f can: kvaser_usb: leaf: kvaser_usb_leaf_tx_acknowledge: Rename local variable
+8a52e5a0361f227fe9b8ee7277222751326e1e2d can: kvaser_usb: leaf: Add hardware timestamp support to leaf based devices
+a7cfb2200d8592f7d9fa54baf9181703a35ac0fa can: kvaser_usb: leaf: Add structs for Tx ACK and clock overflow commands
+c644c9698d8dcd1a09934976d1d0720925f7bd78 can: kvaser_usb: leaf: Store MSB of timestamp
+0aa639d3b3b9a90fd7ee198de58f368bf4add580 can: kvaser_usb: leaf: Add hardware timestamp support to usbcan devices
+51b56a25ed60d95a9f7c9e38b0b483811a1d5089 can: kvaser_usb: Remove KVASER_USB_QUIRK_HAS_HARDWARE_TIMESTAMP
+1a6b249e4b1951be850c99a1d6e57730d76d8071 can: kvaser_usb: Remove struct variables kvaser_usb_{ethtool,netdev}_ops
+88371f85461adbdff4df3c09f6f1ffcbb5a88546 can: kvaser_usb: Rename kvaser_usb_{ethtool,netdev}_ops_hwts to kvaser_usb_{ethtool,netdev}_ops
+fa3c40b9d540948884a7ae2205c247729e9f9f8f Merge patch series "can: kvaser_usb: Add hardware timestamp support to all devices"
 
---===============0586890606298825159==--
+--===============5702419428057802630==--
