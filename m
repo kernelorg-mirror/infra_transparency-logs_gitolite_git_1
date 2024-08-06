@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Tue, 06 Aug 2024 12:41:25 -0000
-Message-Id: <172294808582.28316.15464863430515723463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 06 Aug 2024 12:42:51 -0000
+Message-Id: <172294817164.28858.1655562751490719658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 18f6abca8d689206807c03469d6f53621507b263
-    new: c653054b322a03e8912ac05accc87b6a1ba8daab
-    log: |
-         c653054b322a03e8912ac05accc87b6a1ba8daab Grow_reshape: set only component_size for size grow
-         
+  - ref: refs/heads/20240805_simont_asoc_extend_wm_adsp_so_cs35l56_can_suppress_controls
+    old: 2c3640b82213cf2beb7c1cc3cfce2ecf5349b0de
+    new: 0000000000000000000000000000000000000000
