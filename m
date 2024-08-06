@@ -1,25 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 06 Aug 2024 19:23:59 -0000
-Message-Id: <172297223917.1730.10139899072706922779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 06 Aug 2024 19:41:21 -0000
+Message-Id: <172297328158.15603.2435301160723888945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/cpufreq-compile-test
-    old: 51646201e21cdf40aad3925f7742a8d2ac727f43
-    new: dda37c9b372f112fe443c102640f23fcf903f86a
+  - ref: refs/heads/for-6.12
+    old: 0df340ceae2e51ccc6a8a19f4182f389223fbfdf
+    new: 2c390dda9e03d7936c492224453342d458e9bf98
     log: |
-         5986cef05d10630a7e498e68b262be672d66a808 cpufreq: Enable COMPILE_TEST on Arm drivers
-         515463adbed6adf75ad3a4dbeda05db867198dd9 cpufreq: qcom: Add explicit io.h include for readl/writel_relaxed
-         fd56b3cce5db3d3ef3c95a7c251d315dc7ddb3fc cpufreq: omap: Drop asm includes
-         8a48f2811e06f519f4f530862c3ad86c557c5948 cpufreq: armada-8k: Avoid excessive stack usage
-         d44a23e1a894a1efe160e481036928fb7c3c37a3 opp: ti: Drop unnecessary of_match_ptr()
-         9a82e200dd8ec2d6433c5c141d63d286ffab070d cpufreq: Enable COMPILE_TEST on Arm drivers
-         dda37c9b372f112fe443c102640f23fcf903f86a cpufreq: Drop CONFIG_ARM and CONFIG_ARM64 dependency on Arm drivers
+         11cc374f4643b1be16deab571e034409c6ee7e66 sched_ext: Simplify scx_can_stop_tick() invocation in sched_can_stop_tick()
+         cd0144926836b8405966ca9d00f6425ef822fa4b sched_ext: Add scx_enabled() test to @start_class promotion in put_prev_task_balance()
+         7799140b6a1697bf1d6ff80395079633f548f6e7 sched_ext: Use update_curr_common() in update_curr_scx()
+         a735d43c7f85d112a6aefd72973188d0626e4464 sched_ext: Simplify UP support by enabling sched_class->balance() in UP
+         9390a923e109f85b242bf676dc5bc81958d447fa sched_ext: Improve comment on idle_sched_class exception in scx_task_iter_next_locked()
+         2c390dda9e03d7936c492224453342d458e9bf98 sched_ext: Make task_can_run_on_remote_rq() use common task_allowed_on_cpu()
+         
+  - ref: refs/heads/for-next
+    old: 0df340ceae2e51ccc6a8a19f4182f389223fbfdf
+    new: 2c390dda9e03d7936c492224453342d458e9bf98
+    log: |
+         11cc374f4643b1be16deab571e034409c6ee7e66 sched_ext: Simplify scx_can_stop_tick() invocation in sched_can_stop_tick()
+         cd0144926836b8405966ca9d00f6425ef822fa4b sched_ext: Add scx_enabled() test to @start_class promotion in put_prev_task_balance()
+         7799140b6a1697bf1d6ff80395079633f548f6e7 sched_ext: Use update_curr_common() in update_curr_scx()
+         a735d43c7f85d112a6aefd72973188d0626e4464 sched_ext: Simplify UP support by enabling sched_class->balance() in UP
+         9390a923e109f85b242bf676dc5bc81958d447fa sched_ext: Improve comment on idle_sched_class exception in scx_task_iter_next_locked()
+         2c390dda9e03d7936c492224453342d458e9bf98 sched_ext: Make task_can_run_on_remote_rq() use common task_allowed_on_cpu()
          
