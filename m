@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6686102774634460378=="
+Content-Type: multipart/mixed; boundary="===============3105027285264024048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 06 Aug 2024 16:30:02 -0000
-Message-Id: <172296180202.1187.13761487414846460360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 06 Aug 2024 16:30:11 -0000
+Message-Id: <172296181126.2904.7491519968119896337@gitolite.kernel.org>
 
---===============6686102774634460378==
+--===============3105027285264024048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: eb5e56d1491297e0881c95824e2050b7c205f0d4
     log: revlist-de9c2c66ad8e-eb5e56d14912.txt
 
---===============6686102774634460378==
+--===============3105027285264024048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of 
 b446a2dae984fa5bd56dd7c3a02a426f87e05813 Merge tag 'linux_kselftest-fixes-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============6686102774634460378==--
+--===============3105027285264024048==--
