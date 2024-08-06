@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 06 Aug 2024 19:20:31 -0000
-Message-Id: <172297203168.32650.13242599464842748555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 06 Aug 2024 19:22:34 -0000
+Message-Id: <172297215478.1012.8537497294634327928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: c4e2ced14af0a95463eb2e84b474601eaf600a74
-    new: 45160cebd6ac84fe8cc2b7f6fec2550398e144cd
+  - ref: refs/heads/dt/next
+    old: b31b9fb578783ee569d28325917821e7149e6f9b
+    new: 4e354cce395f64001e054a41769ddaaef2efe3b4
     log: |
-         63a796b4988c3dca83176a534890b510d44f105a net: airoha: honor reset return value in airoha_hw_init()
-         871cdea0f82ebcfa1d86ef527b054a20a6dff8a2 tcp: Use clamp() in htcp_alpha_update()
-         edfa53dd617f682cb43a1488bf08aca9a3e4236c ethtool: cmis_cdb: Remove unused declaration ethtool_cmis_page_fini()
-         45160cebd6ac84fe8cc2b7f6fec2550398e144cd net: veth: Disable netpoll support
+         1c668ea65506e67ce2eae07b69bb09fcdd86e309 of: unittest: Use of_property_present()
+         ad21e3840a88bc781572a82cb54473b54726d185 dt-bindings: soc: fsl: Convert rcpm to yaml format
+         4e354cce395f64001e054a41769ddaaef2efe3b4 dt-bindings: soc: fsl: add missed compatible string fsl,ls*-isc
          
