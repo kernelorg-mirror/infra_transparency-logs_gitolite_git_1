@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7800170326928541945=="
+Content-Type: multipart/mixed; boundary="===============5145877677193057349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 06 Aug 2024 15:42:42 -0000
-Message-Id: <172295896205.31822.4843158740774986852@gitolite.kernel.org>
+Date: Tue, 06 Aug 2024 15:43:04 -0000
+Message-Id: <172295898435.32029.6106867386868827127@gitolite.kernel.org>
 
---===============7800170326928541945==
+--===============5145877677193057349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 6fba5cbd323e013079b304489629a6b814110512
+  - ref: refs/heads/for-next
+    old: 285d9f79f0e521ce26851d6dc29b31e1a989abae
     new: 888c67765db6e3c74a114bb96c83335ba6a4dd71
-    log: revlist-6fba5cbd323e-888c67765db6.txt
+    log: revlist-285d9f79f0e5-888c67765db6.txt
 
---===============7800170326928541945==
+--===============5145877677193057349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fba5cbd323e-888c67765db6.txt
+Content-Disposition: attachment; filename=revlist-285d9f79f0e5-888c67765db6.txt
 
 3ba74b2f288bbc17c0c2a58ab219e1df19f80153 Bluetooth: hci_core: cleanup struct hci_dev
 473a89b4ed7fd52a419340f7c540d5c8fc96fc75 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x13d3:0x3591
@@ -1051,4 +1051,4 @@ e1e95875512a655983f9de005156eee5ba788ad3 platform: cznic: turris-omnia-mcu: Make
 d76fd4a9bc03d6e1fa2522059edddb8f877b5098 doc: platform: cznic: turris-omnia-mcu: Fix sphinx-build warning
 888c67765db6e3c74a114bb96c83335ba6a4dd71 doc: platform: cznic: turris-omnia-mcu: Use double backticks for attribute value
 
---===============7800170326928541945==--
+--===============5145877677193057349==--
