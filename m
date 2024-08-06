@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0345163757722896935=="
+Content-Type: multipart/mixed; boundary="===============8820086210107012250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 06 Aug 2024 22:27:20 -0000
-Message-Id: <172298324008.7722.2925960940322731509@gitolite.kernel.org>
+Date: Tue, 06 Aug 2024 22:27:28 -0000
+Message-Id: <172298324804.7856.16028816244711639769@gitolite.kernel.org>
 
---===============0345163757722896935==
+--===============8820086210107012250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 10a6545f0bdcbb920c6a8a033fe342111d204915
     new: 45160cebd6ac84fe8cc2b7f6fec2550398e144cd
     log: revlist-10a6545f0bdc-45160cebd6ac.txt
 
---===============0345163757722896935==
+--===============8820086210107012250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c4e2ced14af0a95463eb2e84b474601eaf600a74 MAINTAINERS: Update Mellanox website li
 edfa53dd617f682cb43a1488bf08aca9a3e4236c ethtool: cmis_cdb: Remove unused declaration ethtool_cmis_page_fini()
 45160cebd6ac84fe8cc2b7f6fec2550398e144cd net: veth: Disable netpoll support
 
---===============0345163757722896935==--
+--===============8820086210107012250==--
