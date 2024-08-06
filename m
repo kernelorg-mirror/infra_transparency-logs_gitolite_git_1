@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 06 Aug 2024 22:47:53 -0000
-Message-Id: <172298447317.22860.10234971957308097854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 06 Aug 2024 22:50:04 -0000
+Message-Id: <172298460453.25344.7618597774002868904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    new: 1db1fef9d6573f0ff12b0016fd0f8dceb0c4f4d0
+  - ref: refs/heads/master
+    old: b446a2dae984fa5bd56dd7c3a02a426f87e05813
+    new: d4560686726f7a357922f300fc81f5964be8df04
     log: |
-         fbc05142ccdd0061f6d0e489608935943d2984a1 perf tools: Add tools/include/uapi/README
-         aef21f6b6a4aae648c890e74c2322d10ab267249 tools/include: Sync uapi/drm/i915_drm.h with the kernel sources
-         a625df3995c31a5d8cf46f2337b207e93bef9bdd tools/include: Sync uapi/linux/kvm.h with the kernel sources
-         8ec9497d3ef34fab216e277eca5035811f06b421 tools/include: Sync uapi/linux/perf.h with the kernel sources
-         b9735006762677c2cd794bfcb1463a9a6ed558dd tools/include: Sync uapi/sound/asound.h with the kernel sources
-         9fedf7d5b3d8de7b89213d4084f44e4070df1432 tools/include: Sync uapi/asm-generic/unistd.h with the kernel sources
-         b0b3017dd6433d02ab0736356164dee3ec276239 tools/include: Sync network socket headers with the kernel sources
-         98240b50d0e4963f016d88180407a59a2985d22a tools/include: Sync filesystem headers with the kernel sources
-         da4973c50e9066e199d512c020705fda1f1ade0e tools/include: Sync x86 headers with the kernel sources
-         1db1fef9d6573f0ff12b0016fd0f8dceb0c4f4d0 tools/include: Sync arm64 headers with the kernel sources
+         0823dc64586ba5ea13a7d200a5d33e4c5fa45950 vhost-vdpa: switch to use vmf_insert_pfn() in the fault handler
+         e075c3b13a0a142dcd3151b25d29a24f31b7b640 platform/x86: intel-vbtn: Protect ACPI notify handler against recursion
+         4c83ee4bf32ea8e57ae2321906c067d69ad7c41b platform/x86/amd: pmf: Add quirk for ROG Ally X
+         426463d94d45d37c233e480231a40b9b35f10e49 platform/x86/amd/pmc: Send OS_HINT command for new AMD platform
+         942810c0e89277d738b7f1b6f379d0a5877999f6 platform/x86/amd/pmf: Add new ACPI ID AMDI0107
+         6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
+         3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
+         eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+         d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
          
