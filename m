@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 06 Aug 2024 12:17:11 -0000
-Message-Id: <172294663186.10407.16456848633002697633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Tue, 06 Aug 2024 12:41:17 -0000
+Message-Id: <172294807733.28061.9049774021782895049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/tags/ti-k3-dt-fixes-for-v6.11
-    old: 0000000000000000000000000000000000000000
-    new: 4b228fb646268720a7ec20c5d3811fb647b3ee00
+  - ref: refs/heads/main
+    old: 18f6abca8d689206807c03469d6f53621507b263
+    new: c653054b322a03e8912ac05accc87b6a1ba8daab
+    log: |
+         c653054b322a03e8912ac05accc87b6a1ba8daab Grow_reshape: set only component_size for size grow
+         
