@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6533159610276252559=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 06 Aug 2024 06:41:51 -0000
-Message-Id: <172292651169.31359.6249191145078359993@gitolite.kernel.org>
-
---===============6533159610276252559==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 06 Aug 2024 06:43:34 -0000
+Message-Id: <172292661475.32046.8246264603199291675@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.11-2
+  - ref: refs/heads/for-next
+    old: b17000228451319cf1abcccc030ded1d1c7e2448
+    new: 047c6a90b836a9fbe3ecf46e9c44b8ae4cac3a77
+    log: |
+         bcc31692a1d1e21f0d06c5f727c03ee299d2264e HID: Ignore battery for all ELAN I2C-HID devices
+         047c6a90b836a9fbe3ecf46e9c44b8ae4cac3a77 Merge branch 'for-6.12/elan' into for-next
+         
+  - ref: refs/heads/for-6.12/elan
     old: 0000000000000000000000000000000000000000
-    new: af120997accc05e7c462a0286ff5429eb646db40
-
---===============6533159610276252559==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1722926509 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1722926508-3a728472fd453f1c67c232bea3ad29da12442990
-
-0000000000000000000000000000000000000000 af120997accc05e7c462a0286ff5429eb646db40 refs/tags/platform-drivers-x86-v6.11-2
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZrHFrQAKCRBZrE9hU+XO
-Mc99AP4pz3JdANNoyT2LQxno31F6kHdR5Mh/8BEyZoMV9JlBxgEAri28UygNmkd0
-6zTBqnynJwYeqoBoOoZuuqvjDqTJfwM=
-=VHDi
------END PGP SIGNATURE-----
-
---===============6533159610276252559==--
+    new: bcc31692a1d1e21f0d06c5f727c03ee299d2264e
