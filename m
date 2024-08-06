@@ -1,46 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5050875493825145564=="
+Content-Type: multipart/mixed; boundary="===============1968778074403953658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/bugspray/bugspray
-Date: Tue, 06 Aug 2024 20:25:18 -0000
-Message-Id: <172297591823.15961.14543606672141393099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 06 Aug 2024 20:28:48 -0000
+Message-Id: <172297612830.17261.17232190401681255680@gitolite.kernel.org>
 
---===============5050875493825145564==
+--===============1968778074403953658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/bugspray/bugspray
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 2f2c4b1a68f0a99b91298262ccb6b005cd256fdb
-    new: d7536cbeb9c8b950df98abd0a8459bbe74e151b9
-    log: |
-         d7536cbeb9c8b950df98abd0a8459bbe74e151b9 Allow passing DBURL and BZAPIKEY via env vars
-         
+  - ref: refs/heads/slab-kfree_rcu-destroy-v2r1
+    old: 0000000000000000000000000000000000000000
+    new: 9009f50222b3965b542c645185f26f660c6d0c02
 
---===============5050875493825145564==
+--===============1968778074403953658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1722975917 -0400
-pushee gitolite.kernel.org:pub/scm/utils/bugspray/bugspray
-nonce 1722975917-17474ec162f52728cb8f4122f73280e4bae299e6
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1722976124 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1722976123-54a0ccd4cb2c63fe5a5fb781efb87f04e68c6a6f
 
-2f2c4b1a68f0a99b91298262ccb6b005cd256fdb d7536cbeb9c8b950df98abd0a8459bbe74e151b9 refs/heads/master
+0000000000000000000000000000000000000000 9009f50222b3965b542c645185f26f660c6d0c02 refs/heads/slab-kfree_rcu-destroy-v2r1
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZrKGrQAKCRC2xBzjVmSZ
-bHr8AQDCJqO8o/OfVhGMoO1XC59fPt7iwJjBStzB+sodAZpAHQEAx5cC/5sWVXeC
-pixmuk4LK5FV+XF/NWcr86HxREyaSgY=
-=pD+1
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmayh3wACgkQu+CwddJF
+iJpIjQf9HXgYIHlecccWhokGnej8CDEVbQaDkqdAzcQe/j/xLyN0cLM6GjF4ba9V
+zAVwNUgHSIN74+ZPTD+rNE/U01lsoAOw47mkg8jFI12vI0BE+djLn6FK0NuNJKIp
+L4aoNVDNPsT/IFE/gAJItNrmV7lvlNLYuzFTnfc9w6CUIkLfNQ97lXrN1x+5ui1j
+ll1rfRB/XNjEMvu+oDo/JIOcByi9kQ6vJJSGoeS0adCLaM/y3qEUipJ8W0j6Ld9m
+TBi2PQrS9xFlFl3xxGRPhGnYYhzBPjTOXblpkg8e1vZmaHChuqeSG16LjLtik+kk
+YqjOEZvJhA2U0//+R7E4YEMMB4piYg==
+=Q6gc
 -----END PGP SIGNATURE-----
 
---===============5050875493825145564==--
+--===============1968778074403953658==--
