@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Tue, 06 Aug 2024 05:48:13 -0000
-Message-Id: <172292329348.24049.5559218542306341555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Tue, 06 Aug 2024 06:29:08 -0000
+Message-Id: <172292574808.20456.16711050564682506689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: e0d3b845a1b10b7b5abdad7ecc69d45b2aab3209
-    new: b0cd6f4c3f1963439e9f26363c2bd40a05239f0a
+  - ref: refs/heads/asm-generic
+    old: 95cca8c0b66557774e5d08d5d0cc28c099938f15
+    new: 6337b6b95911322f6f1d4fc4b878f07c850cf89a
     log: |
-         b0cd6f4c3f1963439e9f26363c2bd40a05239f0a Revert "crypto: arm64/poly1305 - move data to rodata section"
+         6337b6b95911322f6f1d4fc4b878f07c850cf89a syscalls: add back legacy __NR_nfsservctl macro
+         
+  - ref: refs/heads/master
+    old: 95cca8c0b66557774e5d08d5d0cc28c099938f15
+    new: 6337b6b95911322f6f1d4fc4b878f07c850cf89a
+    log: |
+         6337b6b95911322f6f1d4fc4b878f07c850cf89a syscalls: add back legacy __NR_nfsservctl macro
          
