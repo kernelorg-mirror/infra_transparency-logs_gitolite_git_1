@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 06 Aug 2024 05:40:25 -0000
-Message-Id: <172292282585.19607.6405796805664554804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Tue, 06 Aug 2024 05:48:13 -0000
+Message-Id: <172292329348.24049.5559218542306341555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/for-next
-    old: 9e152b1b27c0228ecc0ff1289ffc59f87a230d3f
-    new: 7809144639f6c92bcb11bd3284b7806a42cc67fe
+  - ref: refs/heads/master
+    old: e0d3b845a1b10b7b5abdad7ecc69d45b2aab3209
+    new: b0cd6f4c3f1963439e9f26363c2bd40a05239f0a
     log: |
-         06b20d5893b40ea0ff275afa5afc393986764ad6 kbuild: cross-compile linux-headers package when possible
-         7809144639f6c92bcb11bd3284b7806a42cc67fe kbuild: modinst: remove the multithread option from zstd compression
+         b0cd6f4c3f1963439e9f26363c2bd40a05239f0a Revert "crypto: arm64/poly1305 - move data to rodata section"
          
