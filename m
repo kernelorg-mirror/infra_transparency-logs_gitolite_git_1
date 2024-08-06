@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 06 Aug 2024 16:11:28 -0000
-Message-Id: <172296068872.21804.1173770807459207377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 06 Aug 2024 16:26:44 -0000
+Message-Id: <172296160412.32051.5002051527122144970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/testing
-    old: d63c55b14502bfd1f9bbf30decce3b629c197506
-    new: 14ecb3e7bb778d2508eb05343924fd032913934e
+  - ref: refs/heads/for-next
+    old: 0079c9d1e58a39148e6ce13bda55307ea6aa3a9e
+    new: 901e85677ec0bb9a69fb9eab1feafe0c4eb7d07e
     log: |
-         b31bcf2faaa4cbdf7600cc83b496dd2460a30b04 iio: magnetometer: ak8975: drop incorrect AK09116 compatible
-         14ecb3e7bb778d2508eb05343924fd032913934e dt-bindings: iio: asahi-kasei,ak8975: drop incorrect AK09116 compatible
+         901e85677ec0bb9a69fb9eab1feafe0c4eb7d07e ALSA: usb-audio: Add input value sanity checks for standard types
+         
+  - ref: refs/heads/master
+    old: 21befeb7fa28493c99300eb2d44b360515174394
+    new: 0d789cbbbf5fcaa47ed08395f578e1bce0d71a58
+    log: |
+         901e85677ec0bb9a69fb9eab1feafe0c4eb7d07e ALSA: usb-audio: Add input value sanity checks for standard types
+         0d789cbbbf5fcaa47ed08395f578e1bce0d71a58 Merge branch 'for-next'
          
