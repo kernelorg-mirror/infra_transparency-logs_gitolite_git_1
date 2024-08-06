@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1339724263975309391=="
+Content-Type: multipart/mixed; boundary="===============2434233652355645185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 06 Aug 2024 04:52:33 -0000
-Message-Id: <172291995367.15677.7270747674159405043@gitolite.kernel.org>
+Date: Tue, 06 Aug 2024 04:52:53 -0000
+Message-Id: <172291997341.15847.10184727725835254729@gitolite.kernel.org>
 
---===============1339724263975309391==
+--===============2434233652355645185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     log: revlist-8400291e289e-de9c2c66ad8e.txt
 
---===============1339724263975309391==
+--===============2434233652355645185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -363,4 +363,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============1339724263975309391==--
+--===============2434233652355645185==--
