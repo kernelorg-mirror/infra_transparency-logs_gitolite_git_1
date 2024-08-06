@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 06 Aug 2024 04:30:44 -0000
-Message-Id: <172291864411.32295.15568104598782789702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 06 Aug 2024 04:32:55 -0000
+Message-Id: <172291877561.750.2412630631206576295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 2c058d40fd311b64e3d76b8b2fa0dc2ce8b407de
-    new: ddde5f2e9fcab497915054b7c668df06e1c9ef54
+  - ref: refs/heads/for-next/execve
+    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
+    new: fb97d2eb542faf19a8725afbd75cbc2518903210
     log: |
-         ddde5f2e9fcab497915054b7c668df06e1c9ef54 whymb: Fix staccato of "loads" and typos of "incuring"
+         c114e9948c2b6a0b400266e59cc656b59e795bca coredump: Standartize and fix logging
+         fb97d2eb542faf19a8725afbd75cbc2518903210 binfmt_elf, coredump: Log the reason of the failed core dumps
          
