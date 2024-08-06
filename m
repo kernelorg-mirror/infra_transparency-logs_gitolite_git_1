@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 06 Aug 2024 14:39:03 -0000
-Message-Id: <172295514356.17065.17404822485847056384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Tue, 06 Aug 2024 14:41:43 -0000
+Message-Id: <172295530376.19694.15064511769706101867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/kvm-arm64-get-reg-list
-    old: f1d37ec4964a10f8ce76f820f3aea7cda02aed30
-    new: 223210c3e1c0253ea86d2400fd628f41b84345dd
+  - ref: refs/heads/main
+    old: c653054b322a03e8912ac05accc87b6a1ba8daab
+    new: 4b041873ff5556882bc6f17ac3de00c72eebcc4f
     log: |
-         0ed7ee009fdd7e156eb48f6e09784be67f8282b9 KVM: selftests: arm64: Make use of sysreg defintions in get-reg-list
-         9575cd5882d7ecc55bc529e77be0f56106f8ae91 KVM: selftests: arm64: Simplify specification of filtered registers
-         05f3430726fc5c74a551fc2447cc43c9578cb12c KVM: selftests: arm64: Use symbolic definitions for incorrect encodings
-         223210c3e1c0253ea86d2400fd628f41b84345dd KVM: selftests: arm64: Use generated defines for named system registers
+         4b041873ff5556882bc6f17ac3de00c72eebcc4f mdstat: fix list detach issues
          
