@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/quota/quota-tools
-Date: Wed, 07 Aug 2024 12:42:40 -0000
-Message-Id: <172303456015.18970.15375452166351652538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 07 Aug 2024 12:45:11 -0000
+Message-Id: <172303471119.21601.2893212443084027633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/quota/quota-tools
-user: jack
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: c59b85805ee64c7ee2937b91533eb96f56d87738
-    new: b7c7b3268e55eb8572c520aa797d956a60871e9e
-    log: |
-         b7c7b3268e55eb8572c520aa797d956a60871e9e quotasys: Make detection of QF_META format work for bcachefs
-         
+  - ref: refs/heads/for-6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 12653ec36112ab55fa06c01db7c4432653d30a8d
