@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2353080207842233954=="
+Content-Type: multipart/mixed; boundary="===============4498435530325238803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 07 Aug 2024 16:27:29 -0000
-Message-Id: <172304804998.5664.4375480418976525288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 07 Aug 2024 16:27:58 -0000
+Message-Id: <172304807843.5940.12626327623390169985@gitolite.kernel.org>
 
---===============2353080207842233954==
+--===============4498435530325238803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 957d348914f1ead39a18db25b37527f14196f86c
     log: revlist-c2d0caf9662c-957d348914f1.txt
 
---===============2353080207842233954==
+--===============4498435530325238803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -318,4 +318,4 @@ eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2
 37ce8a562a9f54d5eb4d35727e93dfb90925e349 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 957d348914f1ead39a18db25b37527f14196f86c perf hist: Fix reference counting of branch_info
 
---===============2353080207842233954==--
+--===============4498435530325238803==--
