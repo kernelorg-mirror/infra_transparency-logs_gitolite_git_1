@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 Aug 2024 21:53:40 -0000
-Message-Id: <172306762014.4041.10244666936144999514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 07 Aug 2024 21:57:14 -0000
+Message-Id: <172306783458.6933.6258455528574979947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: e053f9589d0cf29b2142150fe31deb01c5fcd807
-    new: 886f8be97ea004d0ec6bcaac5f6409ecc47aa315
+  - ref: refs/heads/for-next/pstore
+    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
+    new: 08043b1dabf83498df443280a9a883b29dbab4f8
     log: |
-         886f8be97ea004d0ec6bcaac5f6409ecc47aa315 foo
+         08043b1dabf83498df443280a9a883b29dbab4f8 pstore/ramoops: Fix typo as there is no "reserver"
          
