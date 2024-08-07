@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 07 Aug 2024 09:45:25 -0000
-Message-Id: <172302392541.4831.7068821443154573012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Wed, 07 Aug 2024 09:56:58 -0000
+Message-Id: <172302461853.12104.12433588010736304472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/tags/loongarch-fixes-6.11-1
-    old: 6ec0ab44e2db83218ac672305c263d1d446c4b99
-    new: 95f0e7dbd7e663aef12316a6608b3878ad6a73bc
+  - ref: refs/heads/for-6.12
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 641d6abbe15f96a4d2cce5dc48940fd22916d15e
     log: |
-         e688c220732e518c2eb1639e9ef77d4a9311713c LoongArch: Enable general EFI poweroff method
-         4574815abf43e2bf05643e1b3f7a2e5d6df894f0 LoongArch: Use accessors to page table entries instead of direct dereference
-         296b03ce389b4f7b3d7ea5664e53d432fb17e745 LoongArch: KVM: Remove unnecessary definition of KVM_PRIVATE_MEM_SLOTS
-         494b0792d962e8efac72b3a5b6d9bcd4e6fa8cf0 LoongArch: KVM: Remove undefined a6 argument comment for kvm_hypercall()
+         c258adca4fb41965473fee30e1821040f925da8c dt-bindings: nvmem: Use soc-nvmem node name instead of nvmem
+         62e39987d3d5f27e2c074398805d101d7b9abaf4 dt-bindings: nvmem: imx-ocotp: support i.MX95
+         04d372dd5562ed8aed4cdbb1004fe33a3bc4fa24 nvmem: imx-ocotp-ele: support i.MX95
+         a80f2ebe78d7a81354b1c9d59fcb79b77982df2d nvmem: u-boot-env: error if NVMEM device is too small
+         1b3f5b88c541318a95fc74db80083b87c1020e03 dt-bindings: nvmem: convert U-Boot env to a layout
+         641d6abbe15f96a4d2cce5dc48940fd22916d15e nvmem: layouts: add U-Boot env layout
          
