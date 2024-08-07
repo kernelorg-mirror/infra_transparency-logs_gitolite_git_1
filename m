@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Aug 2024 22:59:21 -0000
-Message-Id: <172307156101.19368.17310053034043544151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 07 Aug 2024 23:00:21 -0000
+Message-Id: <172307162108.21476.7398895334758151101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: b7e503550a284d353d10cff7f98657e923ad15b9
-    new: 35d4cf6db035bea040a0372ba425f3725d63ff68
+    old: 723634c3ea3d776def68fdbe466f660bfe8a275f
+    new: e8c1007b5730976d27b41a5d12ad2948cf8d4f04
     log: |
-         35d4cf6db035bea040a0372ba425f3725d63ff68 ice: Flush FDB entries before reset
+         e8c1007b5730976d27b41a5d12ad2948cf8d4f04 ice: Flush FDB entries before reset
          
