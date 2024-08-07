@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4498435530325238803=="
+Content-Type: multipart/mixed; boundary="===============4851928709685860114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 07 Aug 2024 16:27:58 -0000
-Message-Id: <172304807843.5940.12626327623390169985@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 16:28:11 -0000
+Message-Id: <172304809144.6097.14355097175770209519@gitolite.kernel.org>
 
---===============4498435530325238803==
+--===============4851928709685860114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c2d0caf9662cb4fea3744b40b2c0f02042adf62f
+  - ref: refs/heads/perf-tools-next
+    old: 7320ad972510415515d00838451c51f2db3974a7
     new: 957d348914f1ead39a18db25b37527f14196f86c
-    log: revlist-c2d0caf9662c-957d348914f1.txt
+    log: revlist-7320ad972510-957d348914f1.txt
 
---===============4498435530325238803==
+--===============4851928709685860114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2d0caf9662c-957d348914f1.txt
+Content-Disposition: attachment; filename=revlist-7320ad972510-957d348914f1.txt
 
 833cd3e9ad8360785b6c23c82dd3856df00732d9 drm/fb-helper: Don't schedule_work() to flush frame buffer during panic()
 d60c429610a14560085d98fa6f4cdb43040ca8f0 drm: panel-orientation-quirks: Add quirk for OrangePi Neo
@@ -308,7 +308,16 @@ ff58838015c14a12cb8c003b9d6fc062b49e8d9e arm: dts: arm: versatile-ab: Fix duplic
 a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
+13159a139d85fa12bbbaefcde5a647e2b9721b19 perf mem: Update documentation for new options
+96f30c8f0aa9923aa39b30bcaefeacf88b490231 tools build: Correct libsubcmd fixdep dependencies
+ea974028a049f2cea4bb6be963ee3e3844a03f6d tools build: Avoid circular .fixdep-in.o.cmd issues
+dbb2a7a986971ef43d5a60d235c05491647e16f4 tools build: Correct bpf fixdep dependencies
 c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+2dc02c26419b984692e20949252ca6cba515abaf perf annotate: Use al->data_nr if possible
+cb1e8bfc7914747692c06b215539ef80105fddbc perf annotate: Set notes->src->nr_events early
+b00e4d0d93d30a693ee88b2c25f40181d327e53b perf annotate: Use annotation__pcnt_width() consistently
+bb588e38290fb7236e7f2c0bcbd720150277ca83 perf annotate: Set al->data_nr using the notes->src->nr_events
+ce533c9bc6deb12535348693fd48fab92a748c2a perf annotate: Add --skip-empty option
 b446a2dae984fa5bd56dd7c3a02a426f87e05813 Merge tag 'linux_kselftest-fixes-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2576b20abdb18d80c22cea783fda80e2235f36dd perf test: Add build test for JEVENTS_ARCH=all
 b79f9a437a5758c6dee29c0dbcce8db293f088c0 perf pmu-events: Change dependencies for empty-pmu-events.c test
@@ -318,4 +327,4 @@ eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2
 37ce8a562a9f54d5eb4d35727e93dfb90925e349 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 957d348914f1ead39a18db25b37527f14196f86c perf hist: Fix reference counting of branch_info
 
---===============4498435530325238803==--
+--===============4851928709685860114==--
