@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 07 Aug 2024 16:15:48 -0000
-Message-Id: <172304734819.30509.10408585102914049467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Wed, 07 Aug 2024 16:16:37 -0000
+Message-Id: <172304739754.30865.713531449808441533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/x86/apic
-    old: 62e303e346d7f829ff4f52c73176451c7f85f4bc
-    new: 00e5bd44389145cd2f42be8e98cadb210731e72a
+  - ref: refs/heads/for-6.12
+    old: 073107b39e553a5ef911f019d4e433fd5a8601b7
+    new: 946c57e61d0b6237b9dfbbccd07edbaa447d4370
     log: |
-         00e5bd44389145cd2f42be8e98cadb210731e72a x86/apic: Remove unused inline function apic_set_eoi_cb()
+         946c57e61d0b6237b9dfbbccd07edbaa447d4370 Documentation: kernel-parameters: add workqueue.panic_on_stall
+         
+  - ref: refs/heads/for-next
+    old: 97dd94173253d22f2a01a3da5448d71f47d08685
+    new: 3b47e19ebc52da08461985e0589109b34b0d9655
+    log: |
+         946c57e61d0b6237b9dfbbccd07edbaa447d4370 Documentation: kernel-parameters: add workqueue.panic_on_stall
+         3b47e19ebc52da08461985e0589109b34b0d9655 Merge branch 'for-6.12' into for-next
          
