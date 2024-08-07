@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6965286310971268775=="
+Content-Type: multipart/mixed; boundary="===============2850773964280296595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 07 Aug 2024 11:34:14 -0000
-Message-Id: <172303045445.19358.15425480612254779036@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 11:35:35 -0000
+Message-Id: <172303053597.4604.4720694940106407520@gitolite.kernel.org>
 
---===============6965286310971268775==
+--===============2850773964280296595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: ac0c63d262a9887ee7e2987082274429436fb5ef
-    new: cb9dfb48cd353c191d71a79eb64f4069d853b95c
-    log: revlist-ac0c63d262a9-cb9dfb48cd35.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 66bc7bd5b1c1d589edc9f96367624555b4684837
+    new: 1c0b45a5d75c157a5d6fddc34a587ff83d924b1f
+    log: revlist-66bc7bd5b1c1-1c0b45a5d75c.txt
 
---===============6965286310971268775==
+--===============2850773964280296595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac0c63d262a9-cb9dfb48cd35.txt
+Content-Disposition: attachment; filename=revlist-66bc7bd5b1c1-1c0b45a5d75c.txt
 
 6d5d4645521663af261e7b90bd8e463106693785 wifi: mac80211: mesh: Fix leak of mesh_preq_queue objects
 8d15b74b7db8a550df489145eb43b71d34ed2538 wifi: mac80211: Fix deadlock in ieee80211_sta_ps_deliver_wakeup()
@@ -167,5 +167,7 @@ ff842781bb5663edbbe34f1c7a7c79fdd5e0a13e Bluetooth: hci_core: cancel all works u
 a6ae5ec7dfcce380a009ea09d5d4c2f4e08b7bc9 fs: better handle deep ancestor chains in is_subdir()
 f2161d8a879c8a0d1b47dde900486cf7d4724324 nilfs2: fix incorrect use of nilfs_error()
 cb9dfb48cd353c191d71a79eb64f4069d853b95c Update localversion-st, tree is up-to-date with 4.19.319.
+477b01cb7fb1b8c6ffc4a43628a1cf308cd4dbca Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+1c0b45a5d75c157a5d6fddc34a587ff83d924b1f CIP: Bump version suffix to -cip90 after merge from cip/linux-4.4.y-st tree
 
---===============6965286310971268775==--
+--===============2850773964280296595==--
