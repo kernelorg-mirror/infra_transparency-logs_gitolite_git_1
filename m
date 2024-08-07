@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 07 Aug 2024 11:55:15 -0000
-Message-Id: <172303171503.17568.14051747103984741748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 07 Aug 2024 11:57:02 -0000
+Message-Id: <172303182261.2131.11674901127036468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e5cf6d8b21e9dd138bc622963ae413907d24b3f6
-    new: 423a4eddec9e5851f2c65cccc6936033320e927a
+  - ref: refs/heads/perf/resched
+    old: ffaed75e639cd1ed9f39b97913bcd520cf7bcee6
+    new: 633200c4089dcc990c3df9b92517ce9448fdb6a2
     log: |
-         9bd6abbf4ecd95c752aac82d675bb47c174d6211 Notes removed by 'git notes remove'
-         423a4eddec9e5851f2c65cccc6936033320e927a Notes added by 'git notes add'
+         830671f64a9e6ea1373485e4a0c3e8f2dc6ffa06 Merge branch 'perf/core'
+         ff1029d1fecf7d26f569cadeae342bd859818648 perf: Optimize context reschedule for single PMU cases
+         f349abcc6ef5866a14fcafdd14f6153a27928b7d perf: Extract a few helpers
+         7d502848b17fb089838b40b01b62a3a7df4e758e perf: Fix event_function_call() locking
+         d59521ad7c154593608f3f6bad0fb48cc8432cdc perf: Add context time freeze
+         633200c4089dcc990c3df9b92517ce9448fdb6a2 perf: Optimize __pmu_ctx_sched_out()
          
