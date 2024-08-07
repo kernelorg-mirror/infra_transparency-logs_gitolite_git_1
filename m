@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 07 Aug 2024 17:43:16 -0000
-Message-Id: <172305259624.13414.4719724244786957918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 07 Aug 2024 17:45:00 -0000
+Message-Id: <172305270084.14073.335347620847923438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/vfs.all
-    old: c8e2720267d22c0f8ebf3eb8fb7ebdf2c11d3631
-    new: 191138965490286dd99ca0bb55ebb86ef93daeb9
+  - ref: refs/heads/next.07.08.24b
+    old: 0000000000000000000000000000000000000000
+    new: 7a0c44933f7206537499dd0c80a91482c2f71bb8
