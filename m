@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 07 Aug 2024 17:17:20 -0000
-Message-Id: <172305104067.10424.10156534035108821842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 07 Aug 2024 17:21:54 -0000
+Message-Id: <172305131415.13740.15420898004126035332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 420a549395c24bf9e4755f9fb220ce72b2f4f8bd
-    new: 4ab9f870a6335af27507d1f3bfb29635d956af48
+  - ref: refs/heads/master
+    old: 9de403a288ffcd6d496e12c7d6a14029a2b160bf
+    new: ee53214becd961291fce4a35f611de9a81d5e199
     log: |
-         4ab9f870a6335af27507d1f3bfb29635d956af48 wifi: b43: Constify struct lpphy_tx_gain_table_entry
+         ee53214becd961291fce4a35f611de9a81d5e199 Wed Aug  7 01:21:12 PM EDT 2024
          
