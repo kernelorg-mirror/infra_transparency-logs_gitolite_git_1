@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 07 Aug 2024 21:53:08 -0000
-Message-Id: <172306758800.3752.3344817101033336715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 07 Aug 2024 21:53:40 -0000
+Message-Id: <172306762014.4041.10244666936144999514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: 83f06179e5b8107736f1bdac0f438f64c1024b2c
-    new: b8a80b5ec3422a4c5ff5ca20f8eef24816fad840
+  - ref: refs/heads/master
+    old: e053f9589d0cf29b2142150fe31deb01c5fcd807
+    new: 886f8be97ea004d0ec6bcaac5f6409ecc47aa315
     log: |
-         b8a80b5ec3422a4c5ff5ca20f8eef24816fad840 netfs: Fix handling of USE_PGPRIV2 and WRITE_TO_CACHE flags
+         886f8be97ea004d0ec6bcaac5f6409ecc47aa315 foo
          
