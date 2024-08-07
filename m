@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 07 Aug 2024 17:25:53 -0000
-Message-Id: <172305155387.16964.4076435102746173417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Wed, 07 Aug 2024 17:26:14 -0000
+Message-Id: <172305157465.17183.737416540127686759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 7d9d88890f04ee7cbf15820b089469d58c4816c4
+  - ref: refs/heads/main
+    old: 2b589a971f8895c81e13b5cfeb45879a28ea8cc6
+    new: e97e27f37fb5a397969875787e062c4eb22323fa
     log: |
-         db6efa5e81a55ccfe859b42aa7ed0f97c33e638b riscv: dts: starfive: remove non-existant spi device from jh7110-common.dtsi
-         7d9d88890f04ee7cbf15820b089469d58c4816c4 MAINTAINERS: invert Misc RISC-V SoC Support's pattern
+         e97e27f37fb5a397969875787e062c4eb22323fa rteval: Add tuned state to rteval text report
          
