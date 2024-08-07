@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3915118687390188847=="
+Content-Type: multipart/mixed; boundary="===============6365413742287719450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 07 Aug 2024 19:20:10 -0000
-Message-Id: <172305841007.22043.5062354754793110996@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 19:20:14 -0000
+Message-Id: <172305841455.22119.1393283292490645964@gitolite.kernel.org>
 
---===============3915118687390188847==
+--===============6365413742287719450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 33bd8d153c337ba9b30a2e5994437ca703ab4ed8
-    new: cf011b486e816866d9e26b223e23563ca47607d7
-    log: revlist-33bd8d153c33-cf011b486e81.txt
+  - ref: refs/heads/features
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 85878ff1b31f376a37b885824851fa8c1c3ae048
+    log: revlist-8400291e289e-85878ff1b31f.txt
 
---===============3915118687390188847==
+--===============6365413742287719450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33bd8d153c33-cf011b486e81.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-85878ff1b31f.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -257,6 +257,15 @@ a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank
 a4ff92ff0bdd731eca9f0b50b1cbb5aba89be4b2 ALSA: seq: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
 98ea612dd1150adb61cd2a0e93875e1cc77e6b87 ALSA: seq: ump: Explicitly reset RPN with Null RPN
 b7b7e1ab7619deb3b299b5e5c619c3e6f183a12d ALSA: usb-audio: Correct surround channels in UAC1 channel map
+4734406c39238cbeafe66f0060084caa3247ff53 s390/fpu: Re-add exception handling in load_fpu_state()
+0a34c027a3dd756bdc17762db3acaeacdabacaf0 s390/alternatives: Remove unused empty header file
+c8e4d73eae835a1b9f6fc29f2577770ea8ca0c03 s390/cio: Add missing MODULE_DESCRIPTION() macros
+373953444ce542db43535861fb8ebf3a1e05669c s390/mm/ptdump: Fix handling of identity mapping area
+7e4d4cfed6483303436687f1db9a28a377c6ab2a s390/mm/ptdump: Add support for relocated lowcore mapping
+7e12284c523be33f34d43b2bf8627ab0c8af2388 s390/mm/ptdump: Improve sorting of markers
+1e72ba5566d90a668c1c0fbde319cec03454fd20 s390/mm: Get rid of RELOC_HIDE()
+75c10d5377d8821efafed32e4d72068d9c1f8ec0 s390/vmlinux.lds.S: Move ro_after_init section behind rodata section
+33bd8d153c337ba9b30a2e5994437ca703ab4ed8 s390: Keep inittext section writable
 b75a22e7d4f23dcd4f78ed2ff368a3d2a4556c0c riscv: cpufeature: Do not drop Linux-internal extensions
 21b136cc63d2a9ddd60d4699552b69c214b32964 minmax: fix up min3() and max3() too
 478689b5990deb626a0b3f1ebf165979914d6be4 ALSA: hda: Conditionally use snooping for AMD HDMI
@@ -353,7 +362,19 @@ ff58838015c14a12cb8c003b9d6fc062b49e8d9e arm: dts: arm: versatile-ab: Fix duplic
 a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
-2dca436ca7e3d7280fb2a555d9acdda27c32f2c5 s390/iucv: Fix vargs handling in iucv_alloc_device()
-cf011b486e816866d9e26b223e23563ca47607d7 s390/pfault: Fix virtual vs physical address confusion
+8a6fe8f21ec4f049a7b1fe120ad50a5065a9c7a8 s390/cpum_sf: Use refcount_t instead of atomic_t
+ba38df7a9b2c3d38a53bb26443add88ca24c970e s390/cpum_sf: Remove unused define PERF_CPUM_SF_MODE_MASK
+ea95be4bda694d9000677c04efd15a09cd3ee1d2 s390/cpum_sf: Remove unused defines REG_NONE and REG_OVERFLOW
+501cab2b1d12d7ce34f6b0c36c1ff45aec7500b2 s390/cpum_sf: Rename macro to consistent prefix
+52d6ef92a4711964d403e82a00ae2ef509b53eae s390/cpum_sf: Move defines from header file to source file
+d4559eabc1a61c1f9e99ed34489f060a2097598d s390/cpum_cf: Move defines from header file to source file
+b20182829001f945ac854e22f305eb92917d5a1a s390/cpum_sf: Use hwc as variable consistently
+6bc565a99e77c8ced71c1184cebe4dda3bb4fa73 s390/cpum_sf: Define and initialize variable
+e09e58f425ad42726c008673b490aef53da10f1f s390/cpum_sf: Use variable name cpuhw consistently
+d0e7915d2ad3c628488f76cb9156b203bd917d54 s390/mm/ptdump: Generate address marker array dynamically
+f2bb5b97b51ce5425e8f59f899643ce4eadba667 s390/entry: Move early program check handler to entry.S
+f101b305a7b9513a8042a2cf09018de4ff371af2 s390/entry: Make early program check handler relocated lowcore aware
+3c4d0ae0671827f4b536cc2d26f8b9c54584ccc5 s390/traps: Handle early warnings gracefully
+85878ff1b31f376a37b885824851fa8c1c3ae048 s390/entry: Move early_pgm_check_handler() to init text section
 
---===============3915118687390188847==--
+--===============6365413742287719450==--
