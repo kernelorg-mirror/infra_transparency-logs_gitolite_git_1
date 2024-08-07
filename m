@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Wed, 07 Aug 2024 09:56:58 -0000
-Message-Id: <172302461853.12104.12433588010736304472@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 09:57:27 -0000
+Message-Id: <172302464749.12362.7258716317031815057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/for-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 641d6abbe15f96a4d2cce5dc48940fd22916d15e
     log: |
