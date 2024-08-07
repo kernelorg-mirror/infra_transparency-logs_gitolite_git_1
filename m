@@ -1,22 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 07 Aug 2024 07:26:10 -0000
-Message-Id: <172301557027.18930.6733419000918171227@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0233446663288922707=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 07 Aug 2024 08:18:04 -0000
+Message-Id: <172301868410.23767.6589249941855609464@gitolite.kernel.org>
+
+--===============0233446663288922707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/ath/ath
+user: kvalo
 changes:
-  - ref: refs/heads/dev
-    old: 56afdb83ffa4cf655af1fe04cdecb898db1fcd60
-    new: 472100ed43a902778e6adb0f1bc81bf00d119c2c
-    log: |
-         5a306a54efeac1b08d8f51d2bc8be41043c7afed erofs-utils: fix missing argument to erofs_err()
-         059cc76530c0011022e490ae2a85965a049cca77 erofs-utils: fix invalid argument type in erofs_err()
-         ac36743d05b376c4440e05925d2e4db6442ce797 erofs-utils: mkfs: fix uninitialized nblocks
-         472100ed43a902778e6adb0f1bc81bf00d119c2c erofs-utils: disallow new algorithms on incremental builds
-         
+  - ref: refs/heads/main
+    old: f205af536ea464e3823a2043ac6c9287a4db9289
+    new: 805781bdcbc4dd736770542e1d8da80d05a2e121
+    log: revlist-f205af536ea4-805781bdcbc4.txt
+  - ref: refs/tags/ath-202408070816
+    old: 0000000000000000000000000000000000000000
+    new: 805781bdcbc4dd736770542e1d8da80d05a2e121
+
+--===============0233446663288922707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f205af536ea4-805781bdcbc4.txt
+
+7c791f44665673878836ef3dab58d74d4fc47845 Merge remote-tracking branch 'wireless-next/main'
+9a0d6e1ae6685caf2987f4344156042031cfccc9 Add localversion to identify builds from this tree
+92da4ce847bc5d942ddfdb102dba92f4e2797a59 wifi: ath9k: use devm for request_irq()
+8aabc03c7d226992b758a7bf5a53e05fc8a9ab01 wifi: ath9k: use devm for gpio_request_one()
+f6ffe7f0184792c2f99aca6ae5b916683973d7d3 wifi: ath9k: Remove error checks when creating debugfs entries
+8be12629b428084be2610041d61b132074d334f6 wifi: ath12k: restore ASPM for supported hardwares only
+59529c982f85047650fd473db903b23006a796c6 wifi: ath12k: fix BSS chan info request WMI command
+dd98d54db29fb553839f43ade5f547baa93392c8 wifi: ath12k: match WMI BSS chan info structure with firmware definition
+a66de2d0f22b1740f3f9777776ad98c4bee62dff wifi: ath12k: fix invalid AMPDU factor calculation in ath12k_peer_assoc_h_he()
+5bb2daf5e4fe45a12580c2eca73d6503fefed76f Merge branch 'ath-next'
+db185589d300af42db17728d5420efaf452439f7 Merge branch 'ath-current'
+805781bdcbc4dd736770542e1d8da80d05a2e121 Add localversion-wireless-testing-ath
+
+--===============0233446663288922707==--
