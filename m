@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 07 Aug 2024 17:25:13 -0000
-Message-Id: <172305151352.16563.6890294679749752820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 07 Aug 2024 17:25:17 -0000
+Message-Id: <172305151700.16653.1967214179617827822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/experimental-for-mateusz
-    old: dad1746cbe58aa04340677615de0fbcc90dcc3b3
-    new: c4665bbe2a9815462a94a61bdae0f4a365200190
-    log: |
-         c4665bbe2a9815462a94a61bdae0f4a365200190 avoid extra path_get/path_put cycle in path_openat()
-         
+  - ref: refs/heads/sigh
+    old: 0000000000000000000000000000000000000000
+    new: 916c5e78cc2298270e3725643cc99d5a1f31ba99
