@@ -1,95 +1,139 @@
-Content-Type: multipart/mixed; boundary="===============4382140861382135107=="
+Content-Type: multipart/mixed; boundary="===============6339782471572480545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Aug 2024 23:11:39 -0000
-Message-Id: <172307229950.30145.13084850349105462539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 07 Aug 2024 23:14:31 -0000
+Message-Id: <172307247168.31270.13006043087785741140@gitolite.kernel.org>
 
---===============4382140861382135107==
+--===============6339782471572480545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/dev-queue
-    old: 35d4cf6db035bea040a0372ba425f3725d63ff68
-    new: 58c0a87ea4b48467b6cc94835cc5d206a589d724
-    log: revlist-35d4cf6db035-58c0a87ea4b4.txt
+  - ref: refs/heads/fs-current
+    old: b1b8d5385d8ac2b25627f5ad05cbf4c0e4878043
+    new: 72a9936cc9b77151d96feb7568b41d62c0bcf4a4
+    log: revlist-b1b8d5385d8a-72a9936cc9b7.txt
+  - ref: refs/heads/pending-fixes
+    old: e00b6a574215807b958be6ee104138a879e72e15
+    new: d5ffa2667508706234a0863e75e8e8fddc07b920
+    log: revlist-e00b6a574215-d5ffa2667508.txt
 
---===============4382140861382135107==
-Content-Type: text/plain; charset="utf-8"
+--===============6339782471572480545==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-35d4cf6db035-58c0a87ea4b4.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b1b8d5385d8a-72a9936cc9b7.txt
 
-4b40a994593112fa85911cb6b6ed74ef01e5e48a net: pse-pd: tps23881: Fix the compiler error about implicit declaration of function ‘FIELD_GET’
-5b1030ef22e905844906a69cdad99a5ef55c472e ice: move netif_queue_set_napi to rtnl-protected sections
-3c74b4f8ad03407d4fd4d2d6b85e80755426b9d4 ice: protect XDP configuration with a mutex
-b8d4e597049c0930158b180614a99ce8dde7b34d ice: check for XDP rings instead of bpf program when unconfiguring
-ea67cdf5613890770136915f9c12c8513ad2a796 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
-cec8bad1094dc3ebb3e04b09cf52f587258ef6ff ice: remove ICE_CFG_BUSY locking from AF_XDP code
-3f139465e43cf48ede5e85e6fe415c1e57fe0e6b ice: do not bring the VSI up, if it was down before the XDP setup
-5c7763c3dd59c7560baeed390d7bcd7f27bec89c igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
-3519eadf65e1021529acbc14a77c823dda0b40bb igc: Fix qbv_config_change_errors logics
-fc3267dd86a20d88628488d3e6d3afabf16cd315 igc: Fix reset adapter logics when tx mode change
-c20ae914cd5cfaf0f73cfa5ef844a7c68d5e4f08 igc: Fix qbv tx latency by setting gtxoffset
-2ad7342b1f1974e32cf2b764339d436c1790e3cd ice: add parser create and destroy skeleton
-5ac4d0e30e998be6950c46b769267bad8290d778 ice: parse and init various DDP parser sections
-e91933776a016e36463bc889961237ced3536d7b ice: add debugging functions for the parser sections
-3b299831413971116045c3b0e91f01771608a389 ice: add parser internal helper functions
-af4852ce24f1b2e522144c698a0caf2e50ecc234 ice: add parser execution main loop
-736a8a0d1fa378cd11bcbeb351c365ff30f613ca ice: support turning on/off the parser's double vlan mode
-a15d1c107e4555e7475f6c034890cfeb2dc9f98d ice: add UDP tunnels support to the parser
-2b5a8ef1d48a0cfb1c7ff6582112d82d367ba54d ice: add API for parser profile initialization
-fcfa5aad293afcb82052715244772b01e2f08d6d virtchnl: support raw packet in protocol header
-3bfca3c0149815dd8c5cde7d2a4511cd60a20ea0 ice: add method to disable FDIR SWAP option
-4c5857cbc391e47f29de1659695ea37362a057a2 ice: enable FDIR filters from raw binary patterns for VFs
-847a36776bee144929f8c2fe8030addbe4a3d8ca iavf: refactor add/del FDIR filters
-1f41c77df4b0d6a3f84a540db0334807900aa23f iavf: add support for offloading tc U32 cls filters
-14c419eae0ccdc4a957d313264574d07c27a455e ice: add new VSI type for subfunctions
-d20b4d2c1573aef714184372f1296e435e391567 ice: export ice ndo_ops functions
-291d6ea3479814824db20b8e05a208a304b4bf33 ice: add basic devlink subfunctions support
-a12f6e35243f885b17ce112902e80d1d494487c4 ice: treat subfunction VSI the same as PF VSI
-6ff96c0689016390bdb6f2fce973c3ba211940bd ice: allocate devlink for subfunction
-eed4f27e1d8a3dd5bd38d459c05b51cf4018d312 ice: base subfunction aux driver
-03fe8b81165ce7520af746520273ce2c42ebe3a1 ice: implement netdev for subfunction
-5b6160be7948a66d6d5037d40e372ea60ced3f48 ice: make representor code generic
-24d5ac2d9915edf82ca15bc6a03c221e7a506412 ice: create port representor for SF
-10ccf10c1603f8bfb62747c009a29170df4ac4ca ice: don't set target VSI for subfunction
-441d0ef9c1434da47f9d9a16a4afb5ae0a62ebb0 ice: check if SF is ready in ethtool ops
-889f3f33a4683c3416ded27d2c0da5f839b77d90 ice: implement netdevice ops for SF representor
-b4fedcad69e50be889b016b61def6887efd1df7a ice: support subfunction devlink Tx topology
-abb718239c84415f8e99b839243997650957652a ice: basic support for VLAN in subfunctions
-2686c66abb21fdf9468c5e1bd78cc55852cf297a ice: allow to activate and deactivate subfunction
-57cebd24dfd1bc43a0d39bb4459cdddad5053b3c igc: Get rid of spurious interrupts
-e16cb7fc32674bdbb38c12871c79659958718261 igc: Add MQPRIO offload support
-c520d4501a1102cb40009a38cf3f2a7d9226e327 ice: Fix lldp packets dropping after changing the number of channels
-0982b960bfc7a213c6ac3b26fbc5e95443cb8022 ice: Implement ice_ptp_pin_desc
-e79a703bf75a8bf8e228c6c7177d8110c1f1eb23 ice: Add SDPs support for E825C
-211664976a8f660134bb6d5aca2a76cb1a6d20bd ice: Align E810T GPIO to other products
-2ca7b402012d5bad99f5f46c0f5cd2de9b2b1f34 ice: Cache perout/extts requests and check flags
-5a0b5587f70169ff46d00647fdc3c79e4ebbe63e ice: Disable shared pin on E810 on setfunc
-10598792035b5eca46496fed08ad30f23a5173ff ice: Read SDP section from NVM for pin definitions
-d57d24d8b70d3f4aa81a14cda6aaac57c8d17e38 ice: Enable 1PPS out from CGU for E825C products
-6e559a554b3f972e99e1eba4caf6967e836d635a ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
-f0277224e4ee137d71e934e7d1f084344efa922a ice: Fix reset handler
-667a2fb1e7a7b49dab678a4b3b6d6529486371e6 ice: Skip PTP HW writes during PTP reset procedure
-36bd88de336eebd3cd11385e1386017eb8b6ca8b igc: Add Energy Efficient Ethernet ability
-61683d0aa0332a80ff60cdb080c72bd1b808cb33 igb: cope with large MAX_SKB_FRAGS.
-b03e6c5573cc4989916e0158827f143297d374c6 idpf: fix memory leaks and crashes while performing a soft reset
-9309475ef902a40778aa90b35d6141e6465e8928 idpf: fix memleak in vport interrupt configuration
-21c30b95357462e765e16e81302ce2c1112a42a8 idpf: fix UAFs when destroying the queues
-7d6444506c023783e20784aabb937cca84633d65 igb: prepare for AF_XDP zero-copy support
-913412d81b0749619390eb5b5ef66736267989a0 igb: Introduce XSK data structures and helpers
-e8e7421e2504cacdf618782eb2e3f2fbd5a66e4b igb: add AF_XDP zero-copy Rx support
-73219555abeb567b4d2fbdac2bed146e9930b2cc igb: add AF_XDP zero-copy Tx support
-042b307f2aa71d2159d8b8880a1692b0df5c7fc5 idpf: remove redundant 'req_vec_chunks' NULL check
-be9ad6a4de5e150a3c7741f8ce0fbeef179f3565 ice: Fix incorrect assigns of FEC counts
-f6cdfe6120f77f7ef8a6f9d26b21092fe2a557e9 ice: fix accounting for filters shared by multiple VSIs
-58c0a87ea4b48467b6cc94835cc5d206a589d724 ice: Flush FDB entries before reset
+d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
+b34ce4a59cfe9cd0d6f870e6408e8ec88a964585 power: supply: axp288_charger: Fix constant_charge_voltage writes
+81af7f2342d162e24ac820c10e68684d9f927663 power: supply: axp288_charger: Round constant_charge_voltage writes down
+bf9d5cb588755ee41ac12a8976dccf44ae18281b power: supply: qcom_battmgr: return EAGAIN when firmware service is not up
+d6cca7631a4b54a8995e3bc53e5afb11d3b0c8ff power: supply: qcom_battmgr: Ignore extra __le32 in info payload
+94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+9251a773620352641ecc54c3196b00457f35b9fc Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+f2b8de02edd7b3d75ee65063c27aa65f4907f78e Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+2996b8306e4be14559c454183725817d30ab664d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+72a9936cc9b77151d96feb7568b41d62c0bcf4a4 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 
---===============4382140861382135107==--
+--===============6339782471572480545==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e00b6a574215-d5ffa2667508.txt
+
+5062d9c0cbbc202e495e9b20f147f64ef5cc2897 ARM: dts: omap3-n900: correct the accelerometer orientation
+5a44bb061d04b0306f2aa8add761d86d152b9377 KVM: s390: fix validity interception issue when gisa is switched off
+fe992163575b187405899c5abaad8ef6fb828ff6 rust: Support latest version of `rust-analyzer`
+9ba48db9f77ce0001dbb882476fa46e092feb695 i2c: qcom-geni: Add missing geni_icc_disable in geni_i2c_runtime_resume
+c7a19018bd557c24072b59088ad2684fd83ea3f4 net: dsa: microchip: Fix Wake-on-LAN check to not return an error
+1ca645a2f74a4290527ae27130c8611391b07dbf net: usb: qmi_wwan: add MeiG Smart SRM825L
+f60b6ddc14f010ab1f94754aa5fbab2e4ee8fb30 selftests: mm: add s390 to ARCH check
+3dade60ed9daa018e4ff4204d1b62036eb79f773 MAINTAINERS: Update LTP members and web
+4f6b349dcd54ecb0868172b0b5263de43b1c3f19 kcov: properly check for softirq context
+38c606b7c3573e8e5dceea8716a4e9f6584014e4 mm/migrate: fix deadlock in migrate_pages_batch() on large folios
+2a5d3f8d4bd23b8403cf5fa30a67e5fd8e45379e mm: list_lru: fix UAF for memory cgroup
+740a6172226e1c9f6874ec746d5d9e6c43ce0434 mm-list_lru-fix-uaf-for-memory-cgroup-v2
+4421f85827499456f4a0ec0bc525acae159cd06d mm: shmem: avoid allocating huge pages larger than MAX_PAGECACHE_ORDER for shmem
+0cc2be8b91335f3a7ce4263e5bd27f4126298f8b mm-shmem-avoid-allocating-huge-pages-larger-than-max_pagecache_order-for-shmem-fix
+c2ca83ceb33b4c4be2059e0bd87c938c37fb9af1 mm-shmem-avoid-allocating-huge-pages-larger-than-max_pagecache_order-for-shmem-fix-2
+869d9a477c30b8d40f4a1977ab37a4397f73ea5a mm: shmem: fix incorrect aligned index when checking conflicts
+35c0f6088835441ad1088ab3477505726a446e06 memcg: protect concurrent access to mem_cgroup_idr
+5168236abd8a28c2a3cb1be001d3fd7b1b505481 crash: Fix riscv64 crash memory reserve dead loop
+7a6979ca2cae245bcc49254ece6e3e8ba1ab61f4 mailmap: update entry for David Heidelberg
+fc709cc792b19998c2def11068dc30139ae58901 padata: Fix possible divide-by-0 panic in padata_mt_helper()
+2d5d5f5ee911626b275445365e99489c70e1bf04 mm/memory-failure: use raw_spinlock_t in struct memory_failure_cpu
+753d60a751414e29e9199677a66b126b9abcc902 mm: update the memmap stat before page is freed
+ff4440b028216ee1852d09c2422f3e35a953cc88 mm: keep nid around during hot-remove
+eb91c456f3714c336f0812dccab422ec0e72bde4 ALSA: hda/realtek: Add Framework Laptop 13 (Intel Core Ultra) to quirks
+264b5b5980061d8c6a6a30c031cdec1179fe2bae drm/i915: Allow evicting to use the requested placement
+787db3bb6ed5cee56fc97fecdd61517d89763f0a drm/i915: Attempt to get pages without eviction first
+7d5cbd799a97b4483aa278663138b5af8bccffdf Merge tag 'usb-serial-6.11-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+382b6eabb0316b7334d97afbdcf33a4e20b0ecd8 usb: gadget: f_fs: restore ffs_func_disable() functionality
+a59d8cc9292c58bccec7d8fa27eb59d0a3a6aa0d usb: gadget: f_fs: pull out f->disable() from ffs_func_set_alt()
+becac61a771a4a127e0c38c28110a55cb84d9f41 usb: typec: tcpm: avoid sink goto SNK_UNATTACHED state if not received source capability message
+65ba8cef0416816b912c04850fc2468329994353 usb: typec: ucsi: Fix a deadlock in ucsi_send_command_common()
+cff59d8631e1409ffdd22d9d717e15810181b32c s390/uv: Panic for set and remove shared access UVC errors
+019f87f1ef967c5a5b263f21ad100f46c874505a platform: cznic: turris-omnia-mcu: Make watchdog code optional
+c7da0d4e33ce262dbed7b9ae4cf013aad0f541f6 platform: cznic: turris-omnia-mcu: Make TRNG code optional
+74a22fced5a012c57f56d1cf7ea926cc366a2a3a platform: cznic: turris-omnia-mcu: Make poweroff and wakeup code optional
+af340b7aa21c351ba08950f664af601888633614 platform: cznic: turris-omnia-mcu: Make GPIO code optional
+a626ada4184b1888c1c5a4566071643f6e8081a2 doc: platform: cznic: turris-omnia-mcu: Fix sphinx-build warning
+e1793fea0350330a6a50721ecb2ad66846e0c51e doc: platform: cznic: turris-omnia-mcu: Use double backticks for attribute value
+cddaac0459c004c439510bd109929466b0d5908e ARM: pxa/gumstix: fix attaching properties to vbus gpio device
+6b1124c4526fb1648a3921a441515ea8a98b92e4 Merge tag 'ti-k3-dt-fixes-for-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
+94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+f1cb9d5aefba07fc52b06b7bd5fdcd9ef91157b4 wifi: rtlwifi: rtl8192du: Initialise value32 in _rtl92du_init_queue_reserved_page
+db6efa5e81a55ccfe859b42aa7ed0f97c33e638b riscv: dts: starfive: remove non-existant spi device from jh7110-common.dtsi
+7d9d88890f04ee7cbf15820b089469d58c4816c4 MAINTAINERS: invert Misc RISC-V SoC Support's pattern
+2dca436ca7e3d7280fb2a555d9acdda27c32f2c5 s390/iucv: Fix vargs handling in iucv_alloc_device()
+9dbb3a61315d4007e7807ea2c41985c0c7a33e01 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+9251a773620352641ecc54c3196b00457f35b9fc Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+f2b8de02edd7b3d75ee65063c27aa65f4907f78e Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+2996b8306e4be14559c454183725817d30ab664d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+72a9936cc9b77151d96feb7568b41d62c0bcf4a4 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+1b133a890adfb21cb79ea6aa6f8aa5c250d40193 Merge branch 'fs-current' of linux-next
+08d24a114af342fa1e656b0ea274fa7a28afa3e8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
+6e4957bfe89a28adbb918e8f4eec98b33b437a9f Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+f0624155675aa7c098fd0a2446e83ddb2ddb2371 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
+6ec8de826d4850558242eed9a0d93161067d5d47 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+c6b3d9f88c7ed88faac8c20feeeff4a500f7d328 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+42e087578e7fde23345276cba75d980c846f7ad9 Merge branch 'for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git
+7b030b3785440d19bed49a51d01b948e2d59085f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+7c20dcca17937601f688c803fb666f5bd29ff359 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+692b2f95c85940ea6408f0a86910cebefbdbcade Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+8faa82a169d6d3897e93031d6fe4c58f37595ba3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+4b1eee8c12ad965778d00d8bd5deb4b34dce85b8 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
+034e91cca3c6758b1df58122cbc15754c4dc2e96 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+6a467085972f3c266cf7aefb45f4ebe9c570e770 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+35fa9cacee36bb31871017a8e2b525b506201bcd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
+87b5cd1baf5de8563382dc2f26af98d31a405b29 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+8de5917a8ff3230dba9bab97944f5fbf11827f07 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
+1c9c0b9bf21e22b18c6c40a7ec28d168257e5f71 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
+308c5252811fa6992e30e612bfd8a97007c38503 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+8f13b0bca25010ee1e789898d141b3fea17fccf7 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
+53b9affcc1ede1d612d448a510f33463c9d5e588 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git
+dc594b77bce9e21a0f354b5e6ab0c3a661d26bcc Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+653fad8eb683dce12f7dfac47b6448071ee15747 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+06e691478d97b7b4735b863557c8f93f0ce4e2d1 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+f8ac6540e9400178907ff73b8fc5dd097373760d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
+b4ac3f0cd9f5d9b48a977f9ac076e05828ca0d57 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel
+5652d9ceeea648c79432380aa6de1d371fad8cfd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+fc01d3949ecbffce4350f6e52787514ed9193439 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
+23d3378fe43e03b03dd9dca8908e7ec012179876 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
+bb6030a4620d50a097b3f31aa51bd3a176266388 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+57e215220d35615a0b5277b89aa3f173aa1e096b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
+f25fd877dfa62e6b0959f67e2af1ffe92d53714a Merge branch 'rust-fixes' of https://github.com/Rust-for-Linux/linux.git
+21d81e1dfdb3dcd66d10b7d2aeca18bae83fef50 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
+d33b4f9f09dd7f075d9517e489e716e76f27cd26 Merge branch 'i2c/i2c-host-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
+77118247203b60ca7f88077dc5790f3669268d45 Merge branch 'clk-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+d5ffa2667508706234a0863e75e8e8fddc07b920 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
+
+--===============6339782471572480545==--
