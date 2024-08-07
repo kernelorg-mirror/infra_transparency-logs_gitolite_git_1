@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5432077323209389312=="
+Content-Type: multipart/mixed; boundary="===============1644740690452593109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 07 Aug 2024 10:49:47 -0000
-Message-Id: <172302778772.19317.16167739592666425627@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 10:51:32 -0000
+Message-Id: <172302789277.21689.2642215454809610287@gitolite.kernel.org>
 
---===============5432077323209389312==
+--===============1644740690452593109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,60 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d483f034f03261c8c8450d106aa243837122b5f0
-    new: e50f0887804e60584dc3223a06980597b7e8b2a8
-    log: revlist-d483f034f032-e50f0887804e.txt
+    old: e50f0887804e60584dc3223a06980597b7e8b2a8
+    new: f358602425486fce2eac1a9592444c9840557754
+    log: |
+         1380f158a8af0fa57e7db45623ec6bd9853a7ac6 usb: chipidea: Use of_property_present()
+         08d6fd691bdd5d6e7881ce42ca6774ed92b10896 usb: gadget: Increase max configuration interface to 32
+         260126159200c2724dab14dd332f79282ff9721a usb: gadget: u_audio: Use C99 syntax for array initializers
+         89b7539123bf970d7c013645558bc344aef792b0 usb: dwc3: imx8mp: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
+         f358602425486fce2eac1a9592444c9840557754 usb: dwc3: Use of_property_read_variable_u32_array() to read "power"
+         
 
---===============5432077323209389312==
+--===============1644740690452593109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723027786 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723027891 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1723027786-bd8d6cd245b9934f85c3d748a012d9149b5f0eb7
+nonce 1723027891-53a25f926a080a7f54e8f1525ca2e8cf45d79938
 
-d483f034f03261c8c8450d106aa243837122b5f0 e50f0887804e60584dc3223a06980597b7e8b2a8 refs/heads/usb-testing
+e50f0887804e60584dc3223a06980597b7e8b2a8 f358602425486fce2eac1a9592444c9840557754 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmazUUobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mNkP/0VKtLZIrEdlx9a1+vd2
-1KN2SYa0K4QvzJd1pVTclZS18SpVPYdVNVT8F+OefqgYV5DVT2ZqmH6CqCU54G54
-Vh5JbBFUo4bl+y1tI2Kk9PaoXW0E27bhc47dFna4CsmBp/i2R8LdYZ4ekCO6Gj3B
-zDJb8uTHv2v5MEJjEu49N8N7AOmuXxyNX5tVT+k9G2D4L5VTpioiLwr3C28QZJFx
-IWGVk5Q4quYY835sAdryFsTCU73+KycbkFAqTwZ0K6/XZRTLAtuW5r8wsceN+ZVh
-eSiZhqcn0JpZItqTR9jWkqQLCOWpktXWrWqB329ZGIBshJq/IMSakqH+IQMeY3FG
-tZYztCRc7kmT5DVR+WE/DvMZ/eG8z/HvUNBsYKBvdpP01kKYY96KKnFG7nrZS+ow
-hPa9IwggS6h6uP7osaYe5d/+/bq2duA8ipf1LrAy8cRQmq7La+mJczoz/13FRDij
-IeB60c2vwoA8xHxdYsRzHybTYDBzIoS/zyZo7/Jw9EVGhBCWgmzJoo0pcFjtO6mT
-INmg+mGd8CwSM1I7m96tvssho6EwWvPss5PS6+u09LH11/w7rLltQpNcsyEdmxws
-rQlBZqfds3WOjXGS6tIZ6/bsBAJ3gq4IyxSt9PHyBGxjdWZUwve8qiKiFZEiFFy+
-sPOf1EMlUGgHzm5+QxIgT07M
-=De8H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmazUbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XvUP+wQF6MMJhoZEweG8PFwC
+ptypIUu9qTDuZeVyqjWS0W+as1EpTLYFTyB+MzIFDvm2DWnK9H3j2ErgM9PEAwUC
+COBD55yJzYegYXKs7dwVIjdiz5ZfF395jZweuaz0gcpbVOVpTHTw2sUsW8BsjfAF
+9CAIYmO5fTuN0RWbW2K+I16YDXN57Dft2dMS06H4YJHjtL5rAaY1PRYXM/3OfxJA
+gwNjNh/iUG12eHPTLahnExdQymUd7BHMYIgds1RYmC4lz/HL3IBY4rfpFt1JdHlC
+T61eECV/hUgPNzK/Vgg0z2qNa33rSPDwnaf6lYDM3T7GJOEKDWIKINzjcDTwI3IM
+5xngls5FrPInNZTHNXEk5ytqR4vGTHk0WcNLo2fsadzun+PHFe97bcOnz3r6HJvv
+9p9AQXDiJH3hF5E/Qqc5Hs9txXDGA/QIKeSVBhrBTbaw5lss4xsQDCMIllO2sVTZ
+Pmodq8RomlUwaDJ7EFHZ0Xxlm0zqcWbwq8eY/vxPZbji0nNPlCwpXcB7vzw3IViM
+NoCqeoYxm21hX72tKv/sp1dAGZucQH7rPtnBS41RfQVBjCYlVd6vZIGfmNfHsASy
+Oy8r9pvgiwGX8vu3VDq4RxxpVAlDBRLEWvNXEQEHlwLpXJsMNzs8ApyNdy/IqQ0I
+Vp3IgMRSrRFKpYwv41rTB1g2
+=ulKp
 -----END PGP SIGNATURE-----
 
---===============5432077323209389312==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d483f034f032-e50f0887804e.txt
-
-07a83512fa5be3f3d46369eee6352102fd9fb505 usb: typec: tcpci: fix a comment typo
-0943ce2b764310efeffc58fbc09a9105cf02a8ea usb: typec: tcpm/tcpci_maxim: clarify a comment
-f523aa6d72598bcd2946c7e02d29f33f94806a15 usb: typec: tcpci: use GENMASK() for TCPC_CC_STATUS_CC[12]
-83b254c13ac093810e1058d9cb1bbb4b7ef9c246 usb: typec: tcpci: use GENMASK() for TCPC_ROLE_CTRL_CC[12]
-46b1e0f87ba89f0a06ffbde5fe8d13c5af93f94e usb: typec: tcpci: use GENMASK() for TCPC_ROLE_CTRL_RP_VAL
-aee4568f42e0d7526207a10944bb89bb45522b59 usb: typec: tcpci: use GENMASK() for TCPC_MSG_HDR_INFO_REV
-7cd41974d2c81055f61ba9f69e31c02e866716e0 usb: typec: tcpci: use GENMASK() for TCPC_TRANSMIT register fields
-57e154cc44d23802dcce6a9bcb210735a43cd201 usb: typec: tcpm/tcpci_maxim: sort TCPC_ALERT_MASK values by bit
-064e7e5a5d5f489cbce34ec8efe39199bfa7e1f7 usb: typec: tcpm/tcpci_maxim: simplify clearing of TCPC_ALERT_RX_BUF_OVF
-4d39e00481a6b15440872ada4c25614edb76199b usb: typec: tcpm/tcpci_maxim: drop STATUS_CHECK()
-9ee70dd4f7dc614adc606beadc32c8d86dc9b2d6 usb: typec: tcpm/tcpci_maxim: use GENMASK() for TCPC_VENDOR_CC_CTRL2 register
-5cb7e20bad86ab2df81e1fe26b07f9905569df95 usb: typec: tcpm/tcpci_maxim: use GENMASK() for TCPC_VENDOR_CC_CTRL3 register
-fc64f1ce292d0adb9ac3c8b6e372412bb6aa3052 usb: typec: tcpm/tcpci_maxim: use GENMASK() for TCPC_VENDOR_ADC_CTRL1 register
-6ba97b42a5f2e04367ae006f65f46f6c1ec78c0b usb: typec: tcpm/tcpci_maxim: convert to dev_err_probe()
-e50f0887804e60584dc3223a06980597b7e8b2a8 usb: typec: tcpm/tcpci_maxim: use device managed TCPCI port deregistration
-
---===============5432077323209389312==--
+--===============1644740690452593109==--
