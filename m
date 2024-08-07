@@ -1,41 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============4108638005680142066=="
+Content-Type: multipart/mixed; boundary="===============7305101639746158176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 07 Aug 2024 16:55:44 -0000
-Message-Id: <172304974440.27046.14494026312233889860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 07 Aug 2024 16:58:48 -0000
+Message-Id: <172304992849.28165.4808883547635907974@gitolite.kernel.org>
 
---===============4108638005680142066==
+--===============7305101639746158176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/next
-    old: 137781eaccbcc088395ca748d222816d43a5390f
-    new: 7a0c44933f7206537499dd0c80a91482c2f71bb8
-    log: revlist-137781eaccbc-7a0c44933f72.txt
+  - ref: refs/heads/hwmon-staging
+    old: b3fda5ca16f3c13ce144dfa99da2b177c8866093
+    new: bda2625cf592021dfd6730c2fec3e9b8d78dae5e
+    log: revlist-b3fda5ca16f3-bda2625cf592.txt
+  - ref: refs/heads/testing
+    old: 8857973f206db2943551fc7976c73bd7eb7471d9
+    new: c37191597ba3446c113a2fa35661a47d5dc19445
+    log: revlist-8857973f206d-c37191597ba3.txt
 
---===============4108638005680142066==
+--===============7305101639746158176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-137781eaccbc-7a0c44933f72.txt
+Content-Disposition: attachment; filename=revlist-b3fda5ca16f3-bda2625cf592.txt
 
-22a31be159df8a52ff9155f1d7a9e0e14739fb95 rcutorture: Stop testing RCU Tasks Rude asynchronous APIs
-fc2d4f10287cbf32f3896cc7323689deefb03164 rcuscale: Stop testing RCU Tasks Rude asynchronous APIs
-a6b6096008341ee58816821b6954ea11d65de3be rcu-tasks: Remove RCU Tasks Rude asynchronous APIs
-a79e0e72ffa617d6bb22b1a52befd976b1954ae5 rcu-tasks: Fix access non-existent percpu rtpcp variable in rcu_tasks_need_gpcb()
-b16deae91b2ab3bb1a46137aeb4c346a45dceb5c rcu/tasks: Check processor-ID assumptions
-1aa7157fb4f8ca9ca3b8fe67006644767f4e00a3 rcu/tasks: Update rtp->tasks_gp_seq comment
-543c5296dac239819bdda2479506fc4524e140a4 rcu: Provide rcu_barrier_cb_is_done() to check rcu_barrier() CBs
-bf6b26e246bfd7f6af150980da97fe73bf8cb323 rcu/tasks: Mark callbacks not currently participating in barrier operation
-8c80b25ee74aca7ef8685a91cbda14f309956cd4 rcu/tasks: Add detailed grace-period and barrier diagnostics
-9b7c6fa2683d32cd7b24e4d36fa2efcdfaf1bdf3 rcu/tasks: Add rcu_barrier_tasks*() start time to diagnostics
-7a0c44933f7206537499dd0c80a91482c2f71bb8 Merge branches 'context_tracking.31.07.24a', 'csd.lock.29.07.24a', 'nocb.29.07.24a', 'rcutorture.07.08.24a', 'rcustall.31.07.24a', 'rcu.tasks.07.08.24b', 'srcu.07.08.24a', 'refscale.07.08.24a', 'fixes.07.08.24a' and 'misc.07.08.24a' into next.07.08.24b
+0823dc64586ba5ea13a7d200a5d33e4c5fa45950 vhost-vdpa: switch to use vmf_insert_pfn() in the fault handler
+e075c3b13a0a142dcd3151b25d29a24f31b7b640 platform/x86: intel-vbtn: Protect ACPI notify handler against recursion
+4c83ee4bf32ea8e57ae2321906c067d69ad7c41b platform/x86/amd: pmf: Add quirk for ROG Ally X
+426463d94d45d37c233e480231a40b9b35f10e49 platform/x86/amd/pmc: Send OS_HINT command for new AMD platform
+942810c0e89277d738b7f1b6f379d0a5877999f6 platform/x86/amd/pmf: Add new ACPI ID AMDI0107
+6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
+3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
+eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+96ec88c4a75109e06622a104bc32a19e53efce44 Merge branch 'hwmon-next' into hwmon-staging
+8d31bb9e48ae420f5d5eaf8404aa10dce42f1379 Merge branch 'hwmon' into hwmon-staging
+d44442e528eaaaf583abc34c17205beeed2a0f36 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+957ea8e2205a1d89596f55fc45177a6e93fed64e Merge branch 'hwmon-g762' into hwmon-staging
+9e4a60a1417605984184357b308897347f884f92 Merge branch 'hwmon-emc2103' into hwmon-staging
+b35888296d2e2632cb198a529ab8e126e59a391c Merge branch 'hwmon-ina2xx' into hwmon-staging
+bda2625cf592021dfd6730c2fec3e9b8d78dae5e Merge branch 'hwmon-max16065' into hwmon-staging
 
---===============4108638005680142066==--
+--===============7305101639746158176==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8857973f206d-c37191597ba3.txt
+
+0823dc64586ba5ea13a7d200a5d33e4c5fa45950 vhost-vdpa: switch to use vmf_insert_pfn() in the fault handler
+e075c3b13a0a142dcd3151b25d29a24f31b7b640 platform/x86: intel-vbtn: Protect ACPI notify handler against recursion
+4c83ee4bf32ea8e57ae2321906c067d69ad7c41b platform/x86/amd: pmf: Add quirk for ROG Ally X
+426463d94d45d37c233e480231a40b9b35f10e49 platform/x86/amd/pmc: Send OS_HINT command for new AMD platform
+942810c0e89277d738b7f1b6f379d0a5877999f6 platform/x86/amd/pmf: Add new ACPI ID AMDI0107
+6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
+3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
+eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+a4b31848d96b9d191eba9563b23740a8030b7c82 microblaze: don't treat zero reserved memory regions as error
+bafad5e376c5e78cd65bc4fe69b6e5161c85160f Revert "MIPS: csrc-r4k: Apply verification clocksource flags"
+0cb37302723ce83dd204e2429f8b1578e67fb9b1 nios2: Call handle_mm_fault() with interrupts enabled
+76c5b99b942797c6a64d6b3b0acd26adfdce2531 kunit: time: Add faster unit test with shorter time range
+a7a1a10a5ae4562c6c180ae253798ca3a5d5bfad x86/mm: Fix PTI for i386 some more
+96ec88c4a75109e06622a104bc32a19e53efce44 Merge branch 'hwmon-next' into hwmon-staging
+8d31bb9e48ae420f5d5eaf8404aa10dce42f1379 Merge branch 'hwmon' into hwmon-staging
+d44442e528eaaaf583abc34c17205beeed2a0f36 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+957ea8e2205a1d89596f55fc45177a6e93fed64e Merge branch 'hwmon-g762' into hwmon-staging
+9e4a60a1417605984184357b308897347f884f92 Merge branch 'hwmon-emc2103' into hwmon-staging
+b35888296d2e2632cb198a529ab8e126e59a391c Merge branch 'hwmon-ina2xx' into hwmon-staging
+bda2625cf592021dfd6730c2fec3e9b8d78dae5e Merge branch 'hwmon-max16065' into hwmon-staging
+b9bddc90ae14babf6a169904a9decb577b395295 Merge branch 'fixes-v6.11' into testing
+6bc01391b2a7ea999546e8ddb4ef9148b4e594e2 Merge branch 'nios2' into testing
+c37191597ba3446c113a2fa35661a47d5dc19445 Merge branch 'kunit-improvements' into testing
+
+--===============7305101639746158176==--
