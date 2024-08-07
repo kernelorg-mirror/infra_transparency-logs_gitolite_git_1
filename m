@@ -1,81 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6111129408835427918=="
+Content-Type: multipart/mixed; boundary="===============2216584141665510927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 07 Aug 2024 04:57:05 -0000
-Message-Id: <172300662526.7331.16342585431864685312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 07 Aug 2024 04:57:13 -0000
+Message-Id: <172300663314.7502.8817358522460089142@gitolite.kernel.org>
 
---===============6111129408835427918==
+--===============2216584141665510927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: d15fe7f84765bc7905e3128bfbce964e5b77164e
-    new: 6572ba54f33bbc2b6fdbd13d05a2e45436015822
-    log: revlist-d15fe7f84765-6572ba54f33b.txt
   - ref: refs/heads/master
     old: 1e391b34f6aa043c7afa40a2103163a0ef06d179
     new: eec5d86d5bac6b3e972eb9c1898af3c08303c52d
     log: revlist-1e391b34f6aa-eec5d86d5bac.txt
-  - ref: refs/heads/stable
-    old: b446a2dae984fa5bd56dd7c3a02a426f87e05813
-    new: d4560686726f7a357922f300fc81f5964be8df04
-    log: |
-         0823dc64586ba5ea13a7d200a5d33e4c5fa45950 vhost-vdpa: switch to use vmf_insert_pfn() in the fault handler
-         e075c3b13a0a142dcd3151b25d29a24f31b7b640 platform/x86: intel-vbtn: Protect ACPI notify handler against recursion
-         4c83ee4bf32ea8e57ae2321906c067d69ad7c41b platform/x86/amd: pmf: Add quirk for ROG Ally X
-         426463d94d45d37c233e480231a40b9b35f10e49 platform/x86/amd/pmc: Send OS_HINT command for new AMD platform
-         942810c0e89277d738b7f1b6f379d0a5877999f6 platform/x86/amd/pmf: Add new ACPI ID AMDI0107
-         6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
-         3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
-         eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-         
-  - ref: refs/tags/next-20240507
-    old: 0d8c9940f2fdba89b9a40f906644a2937e2d4050
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240807
     old: 0000000000000000000000000000000000000000
     new: dc1a02468ec6c266ed50c28b7a358dd5dc4d1f5f
 
---===============6111129408835427918==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d15fe7f84765-6572ba54f33b.txt
-
-0823dc64586ba5ea13a7d200a5d33e4c5fa45950 vhost-vdpa: switch to use vmf_insert_pfn() in the fault handler
-e075c3b13a0a142dcd3151b25d29a24f31b7b640 platform/x86: intel-vbtn: Protect ACPI notify handler against recursion
-4c83ee4bf32ea8e57ae2321906c067d69ad7c41b platform/x86/amd: pmf: Add quirk for ROG Ally X
-426463d94d45d37c233e480231a40b9b35f10e49 platform/x86/amd/pmc: Send OS_HINT command for new AMD platform
-942810c0e89277d738b7f1b6f379d0a5877999f6 platform/x86/amd/pmf: Add new ACPI ID AMDI0107
-6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
-3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
-9a2fa1472083580b6c66bdaf291f591e1170123a fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
-eb5e56d1491297e0881c95824e2050b7c205f0d4 Merge tag 'platform-drivers-x86-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-8d2a546c105718bd41268fefce5c5074e02623e3 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-d2fbe27678f975a99d357356dfa5092706d963e8 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-c2be56d480808160c94d563e3f47948fd2e62e33 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-b1b8d5385d8ac2b25627f5ad05cbf4c0e4878043 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-4ecbed35b495230fc926c2b5374190161c6ebe4e Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-cfe58aee19a31b5f95ade3d07b905b16b82feb1a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-0e842d523e11b07843be7b020af4ef89995913ab Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-23f1286d05ab0f73ee681316fadab6f82e8ff8c5 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-8baac0364b3b12d231f031da5de7966fd48ecbd4 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-44a20f8c5bb8ffefdda1e9099f84fa209fa2e19f Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-9ad05f1f44c9115f6d159fc4e8b550a027d2cc90 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-f5ddc1b259267d4f1c471dc9969ad907fd41f4a9 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-3a67ded682aab8f1b633c51b004f9594711bddb8 Merge branch '9p-next' of git://github.com/martinetd/linux
-6572ba54f33bbc2b6fdbd13d05a2e45436015822 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============6111129408835427918==
+--===============2216584141665510927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -539,4 +487,4 @@ ab48dbeb66f5fa26d6bb7529e8acb8bfdaa9d6ba Merge branch 'for-next/kspp' of git://g
 09b874bc51851ee6e75b26463ae87c8105d74cf0 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux.git
 eec5d86d5bac6b3e972eb9c1898af3c08303c52d Add linux-next specific files for 20240807
 
---===============6111129408835427918==--
+--===============2216584141665510927==--
