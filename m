@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7687702979761977751=="
+Content-Type: multipart/mixed; boundary="===============7988612240865759400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Aug 2024 17:50:00 -0000
-Message-Id: <172305300033.17618.8101186819075545858@gitolite.kernel.org>
+Date: Wed, 07 Aug 2024 17:50:05 -0000
+Message-Id: <172305300554.19368.4720040039867888998@gitolite.kernel.org>
 
---===============7687702979761977751==
+--===============7988612240865759400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 45160cebd6ac84fe8cc2b7f6fec2550398e144cd
     new: e66f33bdf0c3adda068b1e2c70c768c56166b58a
     log: revlist-45160cebd6ac-e66f33bdf0c3.txt
 
---===============7687702979761977751==
+--===============7988612240865759400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ c026c6562f86b24dd2dfef501fb1e64cc3884a79 tcp: rstreason: introduce SK_RST_REASON
 ba0ca286c919508ac32d036509b082b3968c0bb2 tcp: rstreason: let it work finally in tcp_send_active_reset()
 e66f33bdf0c3adda068b1e2c70c768c56166b58a Merge branch 'tcp-active-reset'
 
---===============7687702979761977751==--
+--===============7988612240865759400==--
