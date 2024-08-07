@@ -1,24 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 07 Aug 2024 10:46:12 -0000
-Message-Id: <172302757259.17800.12374667078383769213@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6259139198014878474=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 07 Aug 2024 10:48:43 -0000
+Message-Id: <172302772342.18859.9881642984915661839@gitolite.kernel.org>
+
+--===============6259139198014878474==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 12026d2034dfeb575e0eb28f33431cbf03dc732c
-    new: ea1992f36b894fe60cc3537a7f6a7af4087b999a
+  - ref: refs/heads/usb-linus
+    old: a59d8cc9292c58bccec7d8fa27eb59d0a3a6aa0d
+    new: 65ba8cef0416816b912c04850fc2468329994353
     log: |
-         e0f49f15f6344ef3eeb0a04a8b5dedde2a454136 perf/x86/intel/uncore: Add Arrow Lake support
-         efb0c9c0b9f78d964fb23ec6fdebe5a493f477f3 perf/x86/intel/uncore: Factor out common MMIO init and ops functions
-         9bd7dfe3a5262d3b29debdc66e1410201a235019 perf/x86/intel/uncore: Add Lunar Lake support
-         9ac57c456fcb17f07f8792219479b0c841d75ba7 perf/x86/intel/uncore: Add LNL uncore iMC freerunning support
-         aaad0e2aa50723969f96b690f72e2f4aefa433f2 perf/x86/intel/uncore: Use D0:F0 as a default device
-         ea1992f36b894fe60cc3537a7f6a7af4087b999a perf/x86/intel/bts: Fix comment about default perf_event_paranoid setting
+         becac61a771a4a127e0c38c28110a55cb84d9f41 usb: typec: tcpm: avoid sink goto SNK_UNATTACHED state if not received source capability message
+         65ba8cef0416816b912c04850fc2468329994353 usb: typec: ucsi: Fix a deadlock in ucsi_send_command_common()
          
+
+--===============6259139198014878474==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723027721 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1723027721-6851cd1d7f839798eeed827bcd980acde2cddca3
+
+a59d8cc9292c58bccec7d8fa27eb59d0a3a6aa0d 65ba8cef0416816b912c04850fc2468329994353 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmazUQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+72YP/jOVxo3J5ti4sjeQQ336
+MNo6Q5DgAkGrAli0AW7omLQxjZcJE317YFeyW6oZy43UaZrIceSprcFtCv2RRb32
+AOFCRb5sH1ViCliUPWyTAPfvIiCp0zSacol2hUqq7KqS16XIEOa4bqF0q0wK9WOM
+c+7ynEHoNU6YrzMFDZ/xJLLsFCSVdVjDnbq7g/+oQQbpePcXX/UGYs3WZE4TPJfp
+q2R6Pm1Z00Qyle5zD5PQBO0wHQJ7nVxUpa9uhmMYs8nEVj/B9InzehQkJgdACnlQ
+8QgettjqvmiV3tSfQTEy8YWLqBJXDQxLloU69/NgstbzXRZCswxLrY02m3PsHMeb
+L1YyEWyNkWUL+zqlTY8lE+XKyxwr2xWIt2AGMnzqmtBSgIZ2z2DDJW91aGLL5hPo
+k3jzxhBKK0KlB9Bf5K/AvczTGZ+uib7/9zBWEF17nb/8hvncNvYMvY1NlvNN35QZ
+PF+qtF/36e6yyggHvwCoET/T6bzv4ziTzSs7J6HvyAP6Ps+Wole1HbUkGb0b9u+J
+CxWgeBBzVEzDbeCuSEdD1QwVudWafJfcC/4vKrga3MICzPplMrpJltFJ7lMJ99/i
+/x7eepI1afFFIAX3X8XFJ4WAxme2QUD4TFgew+vwCVwlAt66bMF13gHnE/ciYv1y
+kdCdQ2HA9yy0f6+z5cTNCKvK
+=HAAu
+-----END PGP SIGNATURE-----
+
+--===============6259139198014878474==--
