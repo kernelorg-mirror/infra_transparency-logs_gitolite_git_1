@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 07 Aug 2024 12:47:58 -0000
-Message-Id: <172303487877.22852.3230160175498816074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 07 Aug 2024 12:49:23 -0000
+Message-Id: <172303496387.23401.17756052760921113093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/srcu.07.08.24a
-    old: 0000000000000000000000000000000000000000
-    new: 72da694e4fd9294cbe3f176d6e59b6e6b2988047
+  - ref: refs/heads/for-next
+    old: 5e9b5f3781d65729c85ba44c318597d016731170
+    new: 62be134abf4250474a7a694837064bc783d2b291
+    log: |
+         62be134abf4250474a7a694837064bc783d2b291 platform/chrome: cros_ec_lpc: switch primary DMI data for Framework Laptop
+         
