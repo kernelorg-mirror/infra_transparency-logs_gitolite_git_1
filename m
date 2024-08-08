@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 08 Aug 2024 16:31:29 -0000
-Message-Id: <172313468924.6252.14327928227580971020@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 16:32:49 -0000
+Message-Id: <172313476919.6789.8881175278728247433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,15 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: 9b88d0890ed9adab413ea991fac90842688e1017
-    new: a1066453b5e49a28523f3ecbbfe4e06c6a29561c
+    old: a1066453b5e49a28523f3ecbbfe4e06c6a29561c
+    new: e95b9f7f2ee05bbef3bf6a4cd7da6e887f17f652
     log: |
-         c37f7cd7e5b6c2aabe0d5b2220545789517b064a ALSA: vxpocket: Drop no longer existent chip->dev assignment
-         a1066453b5e49a28523f3ecbbfe4e06c6a29561c ALSA: control: Fix power_ref lock order for compat code, too
+         e95b9f7f2ee05bbef3bf6a4cd7da6e887f17f652 ALSA: snd-usb-caiaq: use snd_pcm_rate_to_rate_bit
          
   - ref: refs/heads/master
-    old: 36c683b548e5fbf2fced2c6bfee3c52039cd01df
-    new: a3e8a289a4b85d212b364fceb19d4cd17769d440
+    old: a3e8a289a4b85d212b364fceb19d4cd17769d440
+    new: 938f0072a6f69ff95b5b43e9de03f6d603e543c1
     log: |
-         c37f7cd7e5b6c2aabe0d5b2220545789517b064a ALSA: vxpocket: Drop no longer existent chip->dev assignment
-         a1066453b5e49a28523f3ecbbfe4e06c6a29561c ALSA: control: Fix power_ref lock order for compat code, too
-         a3e8a289a4b85d212b364fceb19d4cd17769d440 Merge branch 'for-next'
+         e95b9f7f2ee05bbef3bf6a4cd7da6e887f17f652 ALSA: snd-usb-caiaq: use snd_pcm_rate_to_rate_bit
+         938f0072a6f69ff95b5b43e9de03f6d603e543c1 Merge branch 'for-next'
          
