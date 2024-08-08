@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7929270865699869589=="
+Content-Type: multipart/mixed; boundary="===============2081015413063994595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Thu, 08 Aug 2024 12:51:53 -0000
-Message-Id: <172312151357.6229.14407348242507570649@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 12:52:05 -0000
+Message-Id: <172312152517.6389.6728978922809378073@gitolite.kernel.org>
 
---===============7929270865699869589==
+--===============2081015413063994595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 2ccfe94bc3ac980d2d1df9f7a0b2c6d2137abe55
+  - ref: refs/heads/fixes
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    log: revlist-2ccfe94bc3ac-8400291e289e.txt
+    log: revlist-1613e604df0c-8400291e289e.txt
 
---===============7929270865699869589==
+--===============2081015413063994595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ccfe94bc3ac-8400291e289e.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-8400291e289e.txt
 
 e54dc34318f62bdeea7edefed386d47fae155618 ALSA: usb: Use BIT() for bit values
 f497862d99ddbf4e46d6e26cd0f40adb724f55c9 Merge tag 'pwrseq-initial-for-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into HEAD
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============7929270865699869589==--
+--===============2081015413063994595==--
