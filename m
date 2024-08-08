@@ -1,43 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8858709394558865008=="
+Content-Type: multipart/mixed; boundary="===============1585274984934857163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 08 Aug 2024 08:02:30 -0000
-Message-Id: <172310415036.1109.9786307341010458911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 08 Aug 2024 08:05:12 -0000
+Message-Id: <172310431225.3859.3429146521586071755@gitolite.kernel.org>
 
---===============8858709394558865008==
+--===============1585274984934857163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 851142302ecafbf75b3cf10d8f5847563d910ac2
-    new: c8920e9ca94effb39d1f41a1518eb08a8b7ac604
-    log: revlist-851142302eca-c8920e9ca94e.txt
-  - ref: refs/heads/xfrm-next
-    old: 5dcb6a24ab9ed245e6e58774f8477953e7aaf59f
-    new: d701818760241f44e027f630c504f204fd7889ab
-    log: |
-         3f49edf44bd660d393b68a2b1d77a0841fb7f21d net/fungible: Avoid -Wflex-array-member-not-at-end warning
-         de6c7b9ada33046481a094be073b85a25dcffcaf net: fec: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-         93b828cc8e2a87355ee5e852d27c21fdee27591b bonding: Pass string literal as format argument of alloc_ordered_workqueue()
-         7d70ed9f9c6a9537379ff645d6befea4c203aa98 doc/netlink/specs: add netkit support to rt_link.yaml
-         91d516d4de48532d967a77967834e00c8c53dfe6 net: mvpp2: Increase size of queue_name buffer
-         34f0c14a1b83a1415d27de6b75cad027b565d183 net/mlx5e: Keep netdev when leave switchdev for devlink set legacy only
-         ac20207b1ffa910a54dfc2af964edad52b81b81e net/mlx5e: Skip restore TC rules for vport rep without loaded flag
-         d701818760241f44e027f630c504f204fd7889ab xfrm: Flush xfrm state synchronously on netdev close or unregister
-         
+  - ref: refs/heads/mlx5-next
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: c772a2c690182410642ead740f7a84b3a7544b2b
+    log: revlist-8400291e289e-c772a2c69018.txt
 
---===============8858709394558865008==
+--===============1585274984934857163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-851142302eca-c8920e9ca94e.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-c772a2c69018.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -376,37 +363,5 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 c772a2c690182410642ead740f7a84b3a7544b2b net/mlx5: Add IFC related stuff for data direct
-dbd16df1e37fa43c15724954d9d56a266b824bbb Introducing Multi-Path DMA Support for mlx5 RDMA Driver
-281658bd04e7b9a295a4542b8b7b80554f22232f RDMA/mlx5: Introduce the 'data direct' driver
-302b01afc28b1e3f1fa403581651025c188c2c4b RDMA/mlx5: Add the initialization flow to utilize the 'data direct' device
-b047ecbd7672d2c8f654fb66b3554a76f99b7325 RDMA/umem: Add support for creating pinned DMABUF umem with a given dma device
-bc9be75e01373cab6af2d372c3c7cefc24995d9b RDMA/umem: Introduce an option to revoke DMABUF umem
-83f44068da564d441169440316a31af6acf0628e RDMA: Pass uverbs_attr_bundle as part of '.reg_user_mr_dmabuf' API
-19ae08911f8be18e1b7994f2cc1aee0a54226297 RDMA/mlx5: Add support for DMABUF MR registrations with Data-direct
-d222b19c595f63d0537273c638a290c7eb2c0f02 RDMA/mlx5: Introduce GET_DATA_DIRECT_SYSFS_PATH ioctl
-5311e707d849661ba6b27e2a841613c8e5f11027 RDMA/core: Provide rdma_user_mmap_disassociate() to disassociate mmap pages
-6fdb1f740413dd28516aeb7f5f37fdf84a01dd77 net/sched: Don't print dump stack in event of transmission timeout
-60fde71bf03148f7500ab8534293e5bfb09030df net/mlx5: Expand mkey page size to support 6 bits
-51f88d7b60e8bc462902600eea95685ebe652d08 net/mlx5: Expose HW bits for Memory scheme ODP
-c0339f1d9ef7388a012885314d2686d4b06817d7 RDMA/mlx5: Add new ODP memory scheme eqe format
-2219f9c7a161ebdd39276090d15f3fc52dc5d411 RDMA/mlx5: Enforce umem boundaries for explicit ODP page faults
-6c9670cd8ff6d940c2c0d6be66a46c67e2e8f136 RDMA/mlx5: Split ODP mkey search logic
-390472b448ed9270dde5669ce50dddafbf26a529 RDMA/mlx5: Add handling for memory scheme page fault events
-ce4881d44059a44f1f01e652ad59a883739da868 RDMA/mlx5: Add implicit MR handling to ODP memory scheme
-97b57e58c20f6977eed50f0ad798865779a5ccda net/mlx5: Handle memory scheme ODP capabilities
-47aac86e445d298ebfcfcd1aeca6a67ac983a3c7 RDMA/core: Introduce peer memory interface
-6c1b2f676e0c30d373ad0bd3e89885d7fca26ce3 RDMA/mlx5: Check RoCE LAG status before getting netdev
-8db52dea581796d68cc939e673dda051da48aab5 RDMA/mlx5: Obtain upper net device only when needed
-cd53ab40d86a1dddd9dfe3698d0d68e55d7d0f45 RDMA/mlx5: Send currect port events when in LAG mode
-fd2ffddf122405c97ba5cbc4439e8b08c5154dcb TEMP: Increase lockdep depth
-b28e5650310f42db0096d8124a83c8d865b38ab2 fwctl: Add basic structure for a class subsystem with a cdev
-b2e13b85296dd86f42040b9ae333370e98b85476 fwctl: Basic ioctl dispatch for the character device
-a28d12a1153439b72364cc934366e6cbb242df9b fwctl: FWCTL_INFO to return basic information about the device
-149d40882e1fdc36fcb016e2b0ff59071b7d7f42 taint: Add TAINT_FWCTL
-67a54fd8572a7cd548b27889aeea491bc1b69eb7 fwctl: FWCTL_RPC to execute a Remote Procedure Call to device firmware
-e49efbfb6b40374e1c8d38fc40991d460b6acc03 fwctl: Add documentation
-4cd3a507415f5ce81512227c8f96dde8bfb36fb9 fwctl/mlx5: Support for communicating with mlx5 fw
-63505206afec5384f79c2baf251c0b27aee5247a mlx5: Create an auxiliary device for fwctl_mlx5
-c8920e9ca94effb39d1f41a1518eb08a8b7ac604 !! DO NOT SUBMIT !! fwctl/mlx5: Add INTERNAL_DEV_RES uctx capability
 
---===============8858709394558865008==--
+--===============1585274984934857163==--
