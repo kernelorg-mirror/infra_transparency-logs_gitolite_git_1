@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 08 Aug 2024 18:00:42 -0000
-Message-Id: <172314004278.7842.599324659568139831@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 18:01:00 -0000
+Message-Id: <172314006060.8042.10253840475020662971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: e103a9836069c08f6ff48c3491fb19934b4a2bdb
     new: d7fae3906382defc01fe28be7f10d3a738a48767
     log: |
