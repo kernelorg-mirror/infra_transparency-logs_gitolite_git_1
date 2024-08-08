@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0496967389165429401=="
+Content-Type: multipart/mixed; boundary="===============3659086017887435776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Aug 2024 22:23:08 -0000
-Message-Id: <172315578889.7237.1720040757529304694@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 22:23:12 -0000
+Message-Id: <172315579217.7349.240963204413318605@gitolite.kernel.org>
 
---===============0496967389165429401==
+--===============3659086017887435776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b928e7d19dfd8a336e13ec0d21e1d60dc285efd5
     new: ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d
     log: revlist-b928e7d19dfd-ee9a43b7cfe2.txt
 
---===============0496967389165429401==
+--===============3659086017887435776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -289,4 +289,4 @@ b3f5620f76f9a6da024bd243a73fa8e2df520c5a Merge tag 'bcachefs-2024-08-08' of git:
 9466b6ae6befa87b27cc13ee7263e01b9c48efc0 Merge tag 'trace-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d Merge tag 'net-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0496967389165429401==--
+--===============3659086017887435776==--
