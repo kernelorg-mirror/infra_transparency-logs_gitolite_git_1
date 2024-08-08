@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 08 Aug 2024 00:54:58 -0000
-Message-Id: <172307849898.6675.17552756951580934912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 08 Aug 2024 00:57:55 -0000
+Message-Id: <172307867524.9451.16905627891140764362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 886f8be97ea004d0ec6bcaac5f6409ecc47aa315
-    new: 18ffc24ef72fdd027b7e04755587ccb4733ae8ec
+    old: 26a0e6863d7c4292d14877cab7d2b5585f53922c
+    new: 1a9a359a8d2a7d85bf4d616ebaf08662fd6a9f10
     log: |
-         2144e3a63db18e2e6c094366df915fe179f56e6d foo
-         18ffc24ef72fdd027b7e04755587ccb4733ae8ec foo
+         1a9a359a8d2a7d85bf4d616ebaf08662fd6a9f10 Drop queue-6.6/mm-gup-stop-abusing-try_grab_folio.patch
          
