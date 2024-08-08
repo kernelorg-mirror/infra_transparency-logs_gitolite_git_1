@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 08 Aug 2024 10:38:39 -0000
-Message-Id: <172311351955.3859.14771389147669515833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 08 Aug 2024 10:58:53 -0000
+Message-Id: <172311473371.17309.7383916626606392952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/next_master
-    old: 222a3380f92b8791d4eeedf7cd750513ff428adf
-    new: bd294c08d9b4ec9c3f7bbae21b8ad02c45a022e7
+  - ref: refs/heads/kdevops
+    old: 0006ae0b15518cc28b49270b0514b55164186c86
+    new: 3d833bef94abdd7b07eed0f8232fb71b877509ed
     log: |
-         a2a815c7be9bcd5d58f552aacbedcc3702e9a753 serial: 8250_platform: remove ACPI_PTR() annotation
-         dce2cbd18f52c413222e5967ea0400de0423b684 serial: 8250_platform: fix uart_8250_port initializer
-         3a2a3437dc2eeff5d8f1263537d738d2f3b2a8f0 serdev: Use of_property_present()
-         8173dbc18f7762de5b1a5a9960e09d303f766c4b tty: simplify tty_dev_name_to_number() using guard(mutex)
-         602babaa84d627923713acaf5f7e9a4369e77473 serial: protect uart_port_dtr_rts() in uart_shutdown() too
-         d0009a32c9e4e083358092f3c97e3c6e803a8930 serial: don't use uninitialized value in uart_poll_init()
-         259b46204885431f2853afa2a2bffa63f3705e67 serial: remove quot_frac from serial8250_do_set_divisor()
-         bd294c08d9b4ec9c3f7bbae21b8ad02c45a022e7 Merge branch 'tty-next' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty into HEAD
+         75af9e7b67a6550a14c61d7d9250de7b303d7da2 svcrdma: Handle device removal outside of the CM event handler
+         b4988e3bd1f05bd853ef16dacae4d4731f9bd569 eventpoll: Annotate data-race of busy_poll_usecs
+         10c62724d2b5e7025b9b086e401fea6686b191ed fs: try an opportunistic lookup for O_CREAT opens too
+         c3dd9f0e320a631bdb12ecd298cedcc43358b80f fs: move audit parent inode
+         ac4db275670c1311fecb00145f585127c3a7e648 fs: pull up trailing slashes check for O_CREAT
+         155a11570398943dcb623a2390ac27f9eae3d8b3 fs: remove audit dummy context check
+         a2e0e55a57f88e08745cbd7bcdf8de8692306284 fs: rearrange general fastpath check now that O_CREAT uses it
+         b89a7d0adb200b7d727ece5d993e7b7db4155240 Merge remote-tracking branch 'brauner/vfs.misc' into kdevops
+         4734001ccc5c0b2a83c69ad8db9f2146ce8882a2 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
+         3d833bef94abdd7b07eed0f8232fb71b877509ed Revert "nfsd: move error choice for incorrect object types to version-specific code."
          
