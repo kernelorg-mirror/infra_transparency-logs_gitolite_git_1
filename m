@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7833180080231574205=="
+Content-Type: multipart/mixed; boundary="===============8370988663862641525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 08 Aug 2024 12:52:56 -0000
-Message-Id: <172312157612.6991.3573139195315663637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Thu, 08 Aug 2024 12:53:26 -0000
+Message-Id: <172312160629.7247.9920419233528157420@gitolite.kernel.org>
 
---===============7833180080231574205==
+--===============8370988663862641525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 8400291e289ee6b2bf9779ff1c83a291501f017b
     log: revlist-1613e604df0c-8400291e289e.txt
 
---===============7833180080231574205==
+--===============8370988663862641525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e172f1e9068807a336c0429b6c57d29bded8d891 Merge tag 'v6.11-merge' of git://git.ke
 a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8400291e289ee6b2bf9779ff1c83a291501f017b Linux 6.11-rc1
 
---===============7833180080231574205==--
+--===============8370988663862641525==--
