@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 08 Aug 2024 18:50:03 -0000
-Message-Id: <172314300351.12949.8558328851223233039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 08 Aug 2024 18:54:32 -0000
+Message-Id: <172314327236.14754.12955052140313439543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/block-6.11
-    old: 01aa8c869d0cdaf603f42dc1d2302b164c25353a
-    new: eded04fe3bdad9b11bc82b972b4c6fa79f1726ba
+  - ref: refs/heads/todo
+    old: 10434fbd61c25792aae09bd02745737cc4781af0
+    new: 810bc03f5e80abbff010dbcffe8eb9d8e1fa793c
     log: |
-         7ec5bd247a0d6fb23ab7da2bedd9c3f1f9333c3b nvme: remove unused parameter
-         6339b7edada2d0c4661bc4200f1adfc80f2e24aa nvme: remove a field from nvme_ns_head
-         73d148ccb9e1b62cdcb65e1c6a461229446a55a2 nvme: change data type of lba_shift
-         b4c1f33a5d59f577814d87704c45a745a35d8bd9 nvme: reorganize nvme_ns_head fields
-         eded04fe3bdad9b11bc82b972b4c6fa79f1726ba Merge tag 'nvme-6.11-2024-08-08' of git://git.infradead.org/nvme into block-6.11
+         810bc03f5e80abbff010dbcffe8eb9d8e1fa793c What's cooking (2024/08 #03)
          
