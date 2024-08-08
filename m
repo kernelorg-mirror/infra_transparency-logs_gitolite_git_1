@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kpsingh/linux
-Date: Thu, 08 Aug 2024 09:54:08 -0000
-Message-Id: <172311084832.2140.17580074818120656058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 08 Aug 2024 10:01:49 -0000
+Message-Id: <172311130945.8403.8179533305536999358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kpsingh/linux
-user: kpsingh
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/static_calls
-    old: 20b1ca8bbadd0303afaa70d02e1db7bebdb6ca6d
-    new: b92c86ad4f4311706fe436a1545d9a97e6aebcf8
+  - ref: refs/heads/experimental
+    old: f02e99515dfa051cf7220ec660b29d2eb2d76da5
+    new: 85fc00fec6d7b680fa54460ac09c5b3f3f36ca11
     log: |
-         5d793093b4672e4bfd95a122a8f708793223fd54 init/main.c: Initialize early LSMs after arch code
-         bd2c890317b2d60b4afd89a374a56a7c9a0275bd kernel: Add helper macros for loop unrolling
-         6a1e94163fc53a4f1b47a8689f416a1a3d0a154a lsm: count the LSMs enabled at compile time
-         b92c86ad4f4311706fe436a1545d9a97e6aebcf8 lsm: replace indirect LSM hook calls with static calls
+         10c1590c0920bea7298d6fefd6154d9bb4230923 erofs-utils: enable multi-threaded support for `-Eall-fragments`
+         971f9eb7201640a76423648d1cec64c31081ddf2 erofs-utils: update README for the upcoming 1.8
+         44ef438be514cb050ae037d197ff3312fb759050 erofs-utils: mkfs: add `--mkfs-time` option
+         85fc00fec6d7b680fa54460ac09c5b3f3f36ca11 erofs-utils: lib: drop prefix_sha256 digests
          
