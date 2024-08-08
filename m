@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 Aug 2024 10:28:34 -0000
-Message-Id: <172311291471.27739.6257526351312280768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 08 Aug 2024 10:29:27 -0000
+Message-Id: <172311296744.28157.14968951871524128064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/perf/core
-    old: ea1992f36b894fe60cc3537a7f6a7af4087b999a
-    new: 3e15a3fe3a2a170c5be52783667706875c088f96
+  - ref: refs/heads/vfs.misc
+    old: a00e354110422fd8c5c8c488789bd4bafa77fa8a
+    new: a2e0e55a57f88e08745cbd7bcdf8de8692306284
     log: |
-         2d17cf1abcbe8a45b7dc41a768ed22aac158ddd8 perf: Optimize context reschedule for single PMU cases
-         9a32bd9901fe5b1dcf544389dbf04f3b0a2fbab4 perf: Extract a few helpers
-         558abc7e3f895049faa46b08656be4c60dc6e9fd perf: Fix event_function_call() locking
-         5d95a2af973d47260b1e1828953fc860c0094052 perf: Add context time freeze
-         3e15a3fe3a2a170c5be52783667706875c088f96 perf: Optimize __pmu_ctx_sched_out()
+         b4988e3bd1f05bd853ef16dacae4d4731f9bd569 eventpoll: Annotate data-race of busy_poll_usecs
+         10c62724d2b5e7025b9b086e401fea6686b191ed fs: try an opportunistic lookup for O_CREAT opens too
+         c3dd9f0e320a631bdb12ecd298cedcc43358b80f fs: move audit parent inode
+         ac4db275670c1311fecb00145f585127c3a7e648 fs: pull up trailing slashes check for O_CREAT
+         155a11570398943dcb623a2390ac27f9eae3d8b3 fs: remove audit dummy context check
+         a2e0e55a57f88e08745cbd7bcdf8de8692306284 fs: rearrange general fastpath check now that O_CREAT uses it
          
