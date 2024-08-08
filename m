@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 08 Aug 2024 10:01:49 -0000
-Message-Id: <172311130945.8403.8179533305536999358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Aug 2024 10:08:27 -0000
+Message-Id: <172311170725.14069.5138893215123332347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/experimental
-    old: f02e99515dfa051cf7220ec660b29d2eb2d76da5
-    new: 85fc00fec6d7b680fa54460ac09c5b3f3f36ca11
+  - ref: refs/heads/sched/core
+    old: 4ae0c2b91110dab6f4291c2c7f99dde60ecc97d8
+    new: ae04f69de0bef93c7086cf2983dbc8e8fd624ebe
     log: |
-         10c1590c0920bea7298d6fefd6154d9bb4230923 erofs-utils: enable multi-threaded support for `-Eall-fragments`
-         971f9eb7201640a76423648d1cec64c31081ddf2 erofs-utils: update README for the upcoming 1.8
-         44ef438be514cb050ae037d197ff3312fb759050 erofs-utils: mkfs: add `--mkfs-time` option
-         85fc00fec6d7b680fa54460ac09c5b3f3f36ca11 erofs-utils: lib: drop prefix_sha256 digests
+         130fd056dd82b02db9a661c013071af35309be1a sched/rt: Clean up usage of rt_task()
+         b166af3db70fdcecf125662a2360471bb20be203 sched/rt, dl: Convert functions to return bool
+         ae04f69de0bef93c7086cf2983dbc8e8fd624ebe sched/rt: Rename realtime_{prio, task}() to rt_or_dl_{prio, task}()
          
