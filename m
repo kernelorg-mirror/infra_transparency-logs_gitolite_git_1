@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8151519935405781117=="
+Content-Type: multipart/mixed; boundary="===============3399323254230038021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 08 Aug 2024 18:18:23 -0000
-Message-Id: <172314110362.20893.8857041351343828045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 08 Aug 2024 18:18:35 -0000
+Message-Id: <172314111519.21047.16072321861095565314@gitolite.kernel.org>
 
---===============8151519935405781117==
+--===============3399323254230038021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6a0e38264012809afa24113ee2162dc07f4ed22b
     log: revlist-d4560686726f-6a0e38264012.txt
 
---===============8151519935405781117==
+--===============3399323254230038021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e0391e92f9ab4fb3dbdeb139c967dcfa7ac4b115 btrfs: fix double inode unlock for dire
 94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============8151519935405781117==--
+--===============3399323254230038021==--
