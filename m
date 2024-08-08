@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 08 Aug 2024 14:38:35 -0000
-Message-Id: <172312791532.19855.16341383014855907274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Aug 2024 15:04:13 -0000
+Message-Id: <172312945352.4694.13158525162558301013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: f11c1ab393185aecedc3f1445b0dff5b187f58c1
-    new: ab16f8c4d0174271dd536d4a76e54c259dba0174
+  - ref: refs/heads/x86/urgent
+    old: e639222a51196c69c70b49b67098ce2f9919ed08
+    new: 919f18f961c03d6694aa726c514184f2311a4614
     log: |
-         ab16f8c4d0174271dd536d4a76e54c259dba0174 test/recvsend_bundle: enable UDP tests
+         919f18f961c03d6694aa726c514184f2311a4614 x86/mtrr: Check if fixed MTRRs exist before saving them
          
