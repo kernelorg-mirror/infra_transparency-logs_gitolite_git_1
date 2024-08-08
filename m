@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Thu, 08 Aug 2024 20:49:01 -0000
-Message-Id: <172315014120.1632.14930460202678869176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 08 Aug 2024 20:54:34 -0000
+Message-Id: <172315047423.5294.17440259848565834209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    new: 0c3836482481200ead7b416ca80c68a29cfdaabd
-  - ref: refs/heads/hch-wtf
-    old: 0000000000000000000000000000000000000000
-    new: 91ee2daeb635b9c1b169313c0ac52fb6f1235e78
-  - ref: refs/tags/hch-wtf_2024-08-08
-    old: 0000000000000000000000000000000000000000
-    new: 99a5a85697580c7869dd7dcecae3c3f3857f078b
+  - ref: refs/heads/fileiPREJh
+    old: 001f8443d480773117a013a07f774d252f369bea
+    new: 0000000000000000000000000000000000000000
