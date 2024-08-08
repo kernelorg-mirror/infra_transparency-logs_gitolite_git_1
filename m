@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 08 Aug 2024 22:53:50 -0000
-Message-Id: <172315763036.29413.285153465768875417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 08 Aug 2024 23:06:51 -0000
+Message-Id: <172315841151.6874.1226009995207882231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/net
-    old: 91d516d4de48532d967a77967834e00c8c53dfe6
-    new: 7290dde9e44406d1bcb2d0cd0b656fb5ea9b609d
+  - ref: refs/heads/fuzzme
+    old: 64914a374815ee152937a54809d7546d32f36f7d
+    new: 1fda763e1154b2587437e86b3747f9751126289c
     log: |
-         259e365912e185a9120397b6e2028ae7dc47badd bpf/bpf_get,set_sockopt: add option to set TCP-BPF sock ops flags
-         b322f06554b165aaa95ee27236e6464b72b3c944 selftests/bpf: add sockopt tests for TCP_BPF_SOCK_OPS_CB_FLAGS
-         7290dde9e44406d1bcb2d0cd0b656fb5ea9b609d Merge branch 'add TCP_BPF_SOCK_OPS_CB_FLAGS to bpf_*sockopt()'
+         10f2ad032defe906240d0c3b62dcbceace96b230 KVM: arm64: Enforce dependency on an ARMv8.4-aware toolchain
+         01ab08cafeced7ae1d6c01a08218742c8182f8da KVM: arm64: vgic-debug: Exit the iterator properly w/o LPI
+         7e814a20f6da2bd2044b1a4682dd92a6f0df5a92 KVM: arm64: Tidying up PAuth code in KVM
+         ad518452fd263766946346324810f14bd8bb8b34 KVM: selftests: arm64: Correct feature test for S1PIE in get-reg-list
+         9eb18136af9fe4dd688724070f2bfba271bd1542 KVM: arm64: vgic: Hold config_lock while tearing down a CPU interface
+         1fda763e1154b2587437e86b3747f9751126289c Merge tag 'kvmarm-fixes-6.11-1' into kvmarm/fuzzme
          
