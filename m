@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7651323372826298978=="
+Content-Type: multipart/mixed; boundary="===============0496967389165429401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Aug 2024 22:15:24 -0000
-Message-Id: <172315532408.2855.8152709595842109249@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 22:23:08 -0000
+Message-Id: <172315578889.7237.1720040757529304694@gitolite.kernel.org>
 
---===============7651323372826298978==
+--===============0496967389165429401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f74cb1ec6b41c68db326073a4ddeeefc5b9c1053
-    new: ef3d6e1f70000364cb212089d61ea511e2bbf74e
-    log: revlist-f74cb1ec6b41-ef3d6e1f7000.txt
+  - ref: refs/heads/10GbE
+    old: b928e7d19dfd8a336e13ec0d21e1d60dc285efd5
+    new: ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d
+    log: revlist-b928e7d19dfd-ee9a43b7cfe2.txt
 
---===============7651323372826298978==
+--===============0496967389165429401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f74cb1ec6b41-ef3d6e1f7000.txt
+Content-Disposition: attachment; filename=revlist-b928e7d19dfd-ee9a43b7cfe2.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 833cd3e9ad8360785b6c23c82dd3856df00732d9 drm/fb-helper: Don't schedule_work() to flush frame buffer during panic()
@@ -288,19 +288,5 @@ cb5b81bc9a448f8db817566f60f92e2ea788ea0f module: warn about excessively long mod
 b3f5620f76f9a6da024bd243a73fa8e2df520c5a Merge tag 'bcachefs-2024-08-08' of git://evilpiepirate.org/bcachefs
 9466b6ae6befa87b27cc13ee7263e01b9c48efc0 Merge tag 'trace-v6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d Merge tag 'net-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-5da6ec739049fce73ef2da9eb73f44915181dc17 ice: Fix lldp packets dropping after changing the number of channels
-6903b0f025d2af3582d70b3f3860cd27f2778a67 igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
-3ca202bfc8b885047bc22b22bfb6c016fb532d74 igc: Fix qbv_config_change_errors logics
-d73e19dd76a948879d8e4440b3dc13a875e21066 igc: Fix reset adapter logics when tx mode change
-cee4d3cc087fbf00f44c398fb41e3eddf4b9315c igc: Fix qbv tx latency by setting gtxoffset
-83dfa0a86bd977689be2f66d0d3552590851a6db idpf: remove redundant 'req_vec_chunks' NULL check
-9dcc5704f2bdea0f1d1db32fae1f1ca3115bd3f5 ice: move netif_queue_set_napi to rtnl-protected sections
-ab5c5885b8d6acbbd6c772e6abbfb24885735ee8 ice: protect XDP configuration with a mutex
-fd8eaa6fc1e4c340ae37b9c944f3610a4334b087 ice: check for XDP rings instead of bpf program when unconfiguring
-32b0e0a5883eacd1ddd199ef786641bd8c8e8e35 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
-07816aaf1bbb5750f45543c63f75aa0ea7c047a7 ice: remove ICE_CFG_BUSY locking from AF_XDP code
-f4e6b86bd3c3f95df081b1e194f66b379b17a5ef ice: do not bring the VSI up, if it was down before the XDP setup
-2612be00e0c26d9644a42a565483a971a43e1f4d ice: fix accounting for filters shared by multiple VSIs
-ef3d6e1f70000364cb212089d61ea511e2bbf74e ice: Flush FDB entries before reset
 
---===============7651323372826298978==--
+--===============0496967389165429401==--
