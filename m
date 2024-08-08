@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8652646778353619041=="
+Content-Type: multipart/mixed; boundary="===============1590572057185298886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 08 Aug 2024 20:55:40 -0000
-Message-Id: <172315054062.7473.5171942314532440183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 08 Aug 2024 20:55:51 -0000
+Message-Id: <172315055199.7582.1315178907637855322@gitolite.kernel.org>
 
---===============8652646778353619041==
+--===============1590572057185298886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 1a4f7965016b9685bd158f7f306039ce96d2beb5
     new: 001f8443d480773117a013a07f774d252f369bea
     log: |
@@ -28,28 +28,28 @@ changes:
          001f8443d480773117a013a07f774d252f369bea ASoC: SOF: amd: update conditional check for cache register update
          
 
---===============8652646778353619041==
+--===============1590572057185298886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1723150540 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1723150536-2872c6e8535e8019b373127c5ff95c5deb82707e
+pusher Mark Brown <broonie@kernel.org> 1723150551 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1723150546-c1b37ca181d8f6f76a13c9af657a8df242e602f5
 
-1a4f7965016b9685bd158f7f306039ce96d2beb5 001f8443d480773117a013a07f774d252f369bea refs/heads/for-6.12
+1a4f7965016b9685bd158f7f306039ce96d2beb5 001f8443d480773117a013a07f774d252f369bea refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma1MMwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0MaYB/sE8edzI1moUP3dI+tMBFoffTq1dh9U
-d1jLMzoBAF7RWBxCoGWlV+EfHAeJJ5ZTSCV3LNE6ZsyzxSH8lrO61L0xMO6y1Rc6
-oz3Ys2D3AtXxZBnCKChYYfV/N3GFtVqWdAqvSYSgo300nzu5l+nk+XnY9bFCbTsi
-2Hx1C72LbA2TRbtPTPR5cueRNRw7a+2NjeGL/WR0J+Eukz1m/BgN7QMHsIvyM1AV
-uGspqKbFB6u3vnNCzh33GR3aVo+dk+5NgAB9HFaq0wJdyburHmquc1mf8GX56/4u
-gVJfAKPsvSH2Rb6cmi5EWOBevKsdH5B/pUPSgZjgWKRZZAnObUUetjNb
-=RFYv
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma1MNcTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IF7B/oCc+RBVBf7ZQCvpjy0z0bzUT3sjevK
+q35L4gpYXzhDQW+XdxPcE3t5uIWEYftz+6T8aSzgAdsscLlsgb+NP39+2bEZNVqf
+3mHmPGWKmxvtkS8gJyFYbRskw+/Dw9rbRc317f3rGVIHW9CIr5q0l9F2xK8VGUoq
+tRTr8SAC03CZP3F+BAb30i+XtvCvXvb9xjUa39o9O8Qn+mg86hEo2oE249Sb2FTX
+muSFyvJ0ehtPBthv144UFEz4N7eI6tfydK4AMzb2zfLvzH2lffdsDgo3bS+gNEOn
+n+wUJunwP81IbwK3XXSxgLNYyqEdDj8K42HbM8ROVBGia3b8OdkmA+Ss
+=Jevn
 -----END PGP SIGNATURE-----
 
---===============8652646778353619041==--
+--===============1590572057185298886==--
