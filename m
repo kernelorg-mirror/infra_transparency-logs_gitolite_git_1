@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6888512249772415464=="
+Content-Type: multipart/mixed; boundary="===============0490681585379226729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 08 Aug 2024 17:59:37 -0000
-Message-Id: <172313997734.5575.15287587698636918561@gitolite.kernel.org>
+Date: Thu, 08 Aug 2024 18:00:06 -0000
+Message-Id: <172314000681.7546.3812323854799076722@gitolite.kernel.org>
 
---===============6888512249772415464==
+--===============0490681585379226729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental-tests-fscache
-    old: cce0246f62b435850525e0d1593698d50c7f807c
-    new: e4faa3336bc3da1cc3dbcd30e9fe4d22a0ba2719
-    log: revlist-cce0246f62b4-e4faa3336bc3.txt
+  - ref: refs/heads/experimental-tests
+    old: a68d7ad3c3a63c47bc684a45eee1272f03aae4e9
+    new: be4328ebc7ec5213fc582c9fef64c466b1676201
+    log: revlist-a68d7ad3c3a6-be4328ebc7ec.txt
 
---===============6888512249772415464==
+--===============0490681585379226729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cce0246f62b4-e4faa3336bc3.txt
+Content-Disposition: attachment; filename=revlist-a68d7ad3c3a6-be4328ebc7ec.txt
 
 672a4fb4ea99cb54d4099c3df8431a1edbdc5224 erofs-utils: lib: use xxh64() for faster filtering first for dedupe
 7a5258a7fe17b6fff046771bbfb65ca6d4cd42e7 erofs-utils: lib: switch dedupe_{sub,}tree[] to a hash table
@@ -185,20 +185,5 @@ b82fc8a3e3d82a7c22bdec617e1e9d03504b778e erofs-utils: tests: add test for xattrs
 230ca4fa286125cde1999943b078fb3c68cef0ae erofs-utils: tests: add test for DEFLATE compression
 3e0d3879065fabc002ab5b85ee5746c7a4859492 erofs-utils: update .gitignore for test results and tools
 be4328ebc7ec5213fc582c9fef64c466b1676201 erofs-utils: tests: add test for corrupted directories with hardlinks
-0a8d8630a1d5ef2da1f62125f7653e04b82de307 erofs-utils: tests: add cachefilesd2.c for fscache test cases
-ff85e52b803775765b9ddc633a930bbbcdda8f30 erofs-utils: tests: add fscache/001
-5b2f61b4fbf000a133f044ca29845b1cc004c69a erofs-utils: tests: add fscache/002
-26a605404fd7a9336bb224f9c8d3269e115c7819 erofs-utils: tests: add fscache/003
-7d7bbe1b14a2b8989257f1c731e3f3d464d08077 erofs-utils: tests: add fscache/004
-1b17af2bf10267f0ed5c9e42b18eee1208be5205 erofs-utils: tests: add fscache/005
-1db2074d6563182b277a259dc7ac5b2cd91e9842 erofs-utils: tests: add fscache/006
-485321fe98618aed4abd93db07a2031fb266ac02 erofs-utils: tests: add fscache/007
-5cea585c2a5f77ccc3b4380b189ebbe664723730 erofs-utils: tests: add fscache/008
-10e595d104fbdf21e28da2648d773ece972bb3e9 erofs-utils: tests: add fscache/009
-652f45341b966609ae2bc9cf4f0bcaecfce210ef erofs-utils: tests: add fscache/010
-921cfb7d4951cbf3f06c63c7b38c45f64d24413b erofs-utils: tests: add fscache/011
-483f0f33c00a9e6df2207c86b20c8e2ca98b6507 erofs-utils: tests: add fscache/012
-69ef4f747ec5ffe4f4bc6718e42e835e3731c938 erofs-utils: tests: add fscache/013
-e4faa3336bc3da1cc3dbcd30e9fe4d22a0ba2719 erofs-utils: tests: add fscache/014
 
---===============6888512249772415464==--
+--===============0490681585379226729==--
