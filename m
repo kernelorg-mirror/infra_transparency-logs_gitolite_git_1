@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 08 Aug 2024 18:54:32 -0000
-Message-Id: <172314327236.14754.12955052140313439543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 08 Aug 2024 19:01:19 -0000
+Message-Id: <172314367917.20539.17555754903568061129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/todo
-    old: 10434fbd61c25792aae09bd02745737cc4781af0
-    new: 810bc03f5e80abbff010dbcffe8eb9d8e1fa793c
-    log: |
-         810bc03f5e80abbff010dbcffe8eb9d8e1fa793c What's cooking (2024/08 #03)
-         
+  - ref: refs/heads/ssbs-stable/v4.19.y
+    old: 0000000000000000000000000000000000000000
+    new: 975603908fc2a568d052ed745b0df0277273d4b6
