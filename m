@@ -1,159 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5605024161787449252=="
+Content-Type: multipart/mixed; boundary="===============6616587714865940640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 Aug 2024 04:11:40 -0000
-Message-Id: <172309030071.28307.10396480358953218973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 Aug 2024 04:11:50 -0000
+Message-Id: <172309031054.28464.13094465557745217700@gitolite.kernel.org>
 
---===============5605024161787449252==
+--===============6616587714865940640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: 6572ba54f33bbc2b6fdbd13d05a2e45436015822
-    new: ff87cfde02feddce3795ef64cac3824ff2fb9e63
-    log: revlist-6572ba54f33b-ff87cfde02fe.txt
   - ref: refs/heads/master
     old: eec5d86d5bac6b3e972eb9c1898af3c08303c52d
     new: 222a3380f92b8791d4eeedf7cd750513ff428adf
     log: revlist-eec5d86d5bac-222a3380f92b.txt
-  - ref: refs/heads/stable
-    old: d4560686726f7a357922f300fc81f5964be8df04
-    new: 6a0e38264012809afa24113ee2162dc07f4ed22b
-    log: revlist-d4560686726f-6a0e38264012.txt
-  - ref: refs/tags/next-20240508
-    old: 021d0b48d69968897ca6cf51084e980db922c75e
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240808
     old: 0000000000000000000000000000000000000000
     new: 61a2a3096d7d7ff3901235fb6a63caa75cf491eb
 
---===============5605024161787449252==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6572ba54f33b-ff87cfde02fe.txt
-
-d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
-b34ce4a59cfe9cd0d6f870e6408e8ec88a964585 power: supply: axp288_charger: Fix constant_charge_voltage writes
-81af7f2342d162e24ac820c10e68684d9f927663 power: supply: axp288_charger: Round constant_charge_voltage writes down
-bf9d5cb588755ee41ac12a8976dccf44ae18281b power: supply: qcom_battmgr: return EAGAIN when firmware service is not up
-d6cca7631a4b54a8995e3bc53e5afb11d3b0c8ff power: supply: qcom_battmgr: Ignore extra __le32 in info payload
-b89128bfad4aaad3e3ae15b03e79c810f7b997f0 autofs: fix missing fput for FSCONFIG_SET_FD
-626c2be9822dab28d6484682f3d8b4b83c949ede coda: use param->file for FSCONFIG_SET_FD
-335016e89bc71cbff35c854b6ae04e444473d64c percpu-rwsem: remove the unused parameter 'read'
-26f9eafd16c55d2baa7d2acee6d32290ba0eddd7 proc: add config & param to block forcing mem writes
-de11c86d68ba6c3e7fe38189d382027acab388d8 fs: mounts: Remove unused declaration mnt_cursor_del()
-3f785560771e0714018eced7fa8a476ce1e8dd39 fs: remove comment about d_rcu_to_refcount
-8da21bc855e8bd4bc4340dc3c668d20856d44da4 fs: add a kerneldoc header over lookup_fast
-d1968fae98da082d1c15a1c0afc3240ec940d273 exec: drop a racy path_noexec check
-2d17506818d0bfa8e73e2ef88fe77786cfd64b7e fs/namespace.c: Fix typo in comment
-3e83b67d1828eeac609d8cf3cfa7b86936e57215 file: remove outdated comment after close_fd()
-e9e0ccdb20ead509623d27596475f0dab9677fc2 nfsd: don't allocate the versions array.
-c9c7bf68dbfd5744ff0148a2bdf19e04f20f866c sunrpc: document locking rules for svc_exit_thread()
-29f9842a905e97b24baf068345464c0666c84d61 sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-84470cd1c2e1e0875f85182a0c4c0a8fab723f67 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-19e6e7f6748212699adea5cf13115997fd586e27 sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
-6f4e3e56b3734ccda4a0cf2c32ccb32a9acfc7ac sunrpc: allow svc threads to fail initialisation cleanly
-944ff9fa737f556342e21320096591586f36580c nfsd: don't assume copy notify when preprocessing the stateid
-10ca2af303d97390d38013f3030cbcdcae1b305d nfsd: Don't pass all of rqst into rqst_exp_find()
-2789c2d42eb6c6cf708295f945257033cd27adf9 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
-29a1675f69187ebac2693b9814357c07b7a8d8e2 nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
-b64335a6825992b20be13aafc7134db81262d1f2 nfsd: further centralize protocol version checks.
-c7d8065185729c84b2e1aacd38c67648eab07279 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
-11ff4658acaadbec522715fd26ace0959195dd1c nfsd: Move error code mapping to per-version proc code.
-f02f129df83dc53dff340d73663aa1e4ef324204 nfsd: be more systematic about selecting error codes for internal use.
-bf9f71db6233ad34795e9789fa8709629d9ade8c nfsd: move error choice for incorrect object types to version-specific code.
-75af9e7b67a6550a14c61d7d9250de7b303d7da2 svcrdma: Handle device removal outside of the CM event handler
-cb890c4388d3bc02c7e87a706ea11d7b869016b6 erofs: get rid of check_layout_compatibility()
-e23ee5db10d33decd8dbb9b319b055970823300a vfs: dodge smp_mb in break_lease and break_deleg in the common case
-bf9883d5779117776c2e25d29d4dfed31d390fb2 ufs: Convert ufs_get_page() to use a folio
-5fe08b1d7e315cb4238ae1afa4a3ec951ae4908e ufs: Convert ufs_get_page() to ufs_get_folio()
-a60b0e8f150ff5e9fefaf9166b75381f162da45d ufs: Convert ufs_check_page() to ufs_check_folio()
-e95d2754458a6a0a1c8a5dc1d593d80f6940fbdc ufs: Convert ufs_find_entry() to take a folio
-597697c5adf8ac16e8e8a5d55a572a19f2282b88 ufs: Convert ufs_set_link() and ufss_dotdot() to take a folio
-767bd0af25e59e8b75801847ddc7bf0ab186bf3c ufs: Convert ufs_delete_entry() to work on a folio
-f4a20e53aba74b406f3becf28cc3776ad38153e7 ufs: Convert ufs_make_empty() to use a folio
-128d1e89acb978bf6a4ec0d04bbfe8cb801965be ufs: Convert ufs_prepare_chunk() to take a folio
-0f3e63f30bf5ba214561e127a2c21c2d46ded141 ufs; Convert ufs_commit_chunk() to take a folio
-516b97cf03dd630ad90c9329de312c755690650a ufs: Convert directory handling to kmap_local
-a3b4537f82425f6cb37f299477cb38cc81cbe30a sysv: Convert dir_get_page() to dir_get_folio()
-ba36ee530896bb1094f1d86b5456d776c93a5516 sysv: Convert sysv_find_entry() to take a folio
-1cfdaf9708ba7f2ff170723999fcdf87e9afb843 sysv: Convert sysv_set_link() and sysv_dotdot() to take a folio
-9b1cf7790e5ae631839e06b1f96a9d05e088b450 sysv: Convert sysv_delete_entry() to work on a folio
-7f4fb150631bc2b1de11938f9fc9f8c60abae591 sysv: Convert sysv_make_empty() to use a folio
-d3a2fa28fe516cf9621ffdafde35308bebc4714c sysv: Convert sysv_prepare_chunk() to take a folio
-00753fb5f2406fb852e79d9c6e25328bab353388 sysv: Convert dir_commit_chunk() to take a folio
-b2aa61556fcfa83639507d329d48cd6e2f7ac487 qnx6: Convert qnx6_get_page() to qnx6_get_folio()
-5563040e852994c4ad40b189d3ea4ed253ace232 qnx6: Convert qnx6_find_entry() to qnx6_find_ino()
-b2f2454c3662ebdfe8b3ebe6fc247f2daf384bf8 qnx6: Convert qnx6_longname() to take a folio
-29c42e8b8a7813479961f868fb4189295943c07d qnx6: Convert qnx6_checkroot() to use a folio
-1d49228f2762740be986886286f7683c6ae30f6d qnx6: Convert qnx6_iget() to use a folio
-25689405bc33788de71d39d9900f849aa8bd9040 qnx6: Convert directory handling to use kmap_local
-9cf2de3ddaeb2d70ea21448104cc604199da2acc minixfs: Convert dir_get_page() to dir_get_folio()
-5a77670ff8634f12636db6b5fd0a4ec5d548ef64 minixfs: Convert minix_find_entry() to take a folio
-6e9ead1ec9f8067178d8db005470242bc5375e7f minixfs: Convert minix_set_link() and minix_dotdot() to take a folio
-e033fe609d749749ba40554f6c312f9b29b28447 minixfs: Convert minix_delete_entry() to work on a folio
-da2c04c15068adaf4a5cce0f47fd7aad97ac8c4f minixfs: Convert minix_make_empty() to use a folio
-cf04e47128afd071bcb9d0c9806dce835f85356d minixfs: Convert minix_prepare_chunk() to take a folio
-0551bc716e830e36c16c70282bc4134e2f3ec821 minixfs: Convert dir_commit_chunk() to take a folio
-8eb835a1366f52d335aae7c2acff9c1bd57fb227 fs: Convert block_write_begin() to use a folio
-24481ffdc0d1580ec2d968682b3c2dc4fbfd6c0b reiserfs: Convert grab_tail_page() to use a folio
-cc67bcb2c3709e12f1a72d5a884942309c89c2ee reiserfs: Convert reiserfs_write_begin() to use a folio
-1262249d038a3823531dd220e5eced93bccf8d38 block: Use a folio in blkdev_write_end()
-696876d03542a1c348e004511c4a307770481286 buffer: Use a folio in generic_write_end()
-663459c851995a6dc216d83d9dea2e2aa18a2db7 nilfs2: Use a folio in nilfs_recover_dsync_blocks()
-c4c9c89c8c8ec1bcb0fad951b91da0d3a7569a71 ntfs3: Remove reset_log_file()
-97edbc02b2efdb0cd0f507b6a45fc509acc861bb buffer: Convert block_write_end() to take a folio
-efe2f7a4132d8c399f9238a320df5edb0d62fd48 ecryptfs: Convert ecryptfs_write_end() to use a folio
-6a09084cd4e67ab2e454cf6da6737383a7c6d41c ecryptfs: Use a folio in ecryptfs_write_begin()
-a0f858d450ce7b18fd2b7db6f22b321c2f28ed89 f2fs: Convert f2fs_write_end() to use a folio
-dfd2e81d37e154f70f1e35d54ddb3d9df34595f2 f2fs: Convert f2fs_write_begin() to use a folio
-556d0ac068d71b78c309d7444357df4fa55f594e fuse: Convert fuse_write_end() to use a folio
-a060d835cf76605fbb784f1285a6d40e9239c436 fuse: Convert fuse_write_begin() to use a folio
-02d8a3227f49f07cd8c2c4f42b4449f657c060c5 hostfs: Convert hostfs_write_end() to use a folio
-c8dbe54a2e0bf8cb9e7d36cdf16507d0025ef028 jffs2: Convert jffs2_write_end() to use a folio
-0ee818cc42fc313b480e2e29ebe7b0dc14ccc156 jffs2: Convert jffs2_write_begin() to use a folio
-87969292a93f4afbd1179fb46ad02ac1dd275ca0 orangefs: Convert orangefs_write_end() to use a folio
-4c7e13850f317933b081fd49841dd246bff99619 orangefs: Convert orangefs_write_begin() to use a folio
-3e5d37c5f98a06ee68a5c3e2784d4a4420e9d227 vboxsf: Use a folio in vboxsf_write_end()
-a225800f322a3d6cc8b8b6c7dc4d5281f2f5375b fs: Convert aops->write_end to take a folio
-1da86618bdce301d23e89ecce92161f9d3b3c5e7 fs: Convert aops->write_begin to take a folio
-7f90d7f1bc9418aba1ef040565308e83dbe0f485 ocfs2: Convert ocfs2_write_zero_page to use a folio
-9f04609f74ec7a439e1ac42da5db9e6ddf4f7b13 buffer: Convert __block_write_begin() to take a folio
-3e673d651c3749e7447f0ccccfebb9cea58d8bf2 Merge branch 'work.write.end'
-9ba1824cc875c321dcde6d82934c9f30f906332a Fix spelling and gramatical errors
-94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-a00e354110422fd8c5c8c488789bd4bafa77fa8a eventpoll: Don't re-zero eventpoll fields
-9a809be7b6cde8918cfe6a9d61e0d7957da080a8 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-573e020c093cedc9ac00c453d0bdebdc190c2d2a Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-727f51efa89505764e4e6f3a28f922b6230ebcfc Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7587d1507cc412ed5003437624ef9353401e4225 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-191138965490286dd99ca0bb55ebb86ef93daeb9 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-02f09a73af14b7ae141302eada4dd77e46c762d6 Fix spelling errors in Server Message Block
-9251a773620352641ecc54c3196b00457f35b9fc Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-f2b8de02edd7b3d75ee65063c27aa65f4907f78e Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-2996b8306e4be14559c454183725817d30ab664d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-72a9936cc9b77151d96feb7568b41d62c0bcf4a4 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-27ca7fe476be54150780d7d3581d2f1de1575ea7 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-573eda3267492dcdd441593735fee10258321f8a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-0a47a15eae4bf9f2faae2c846e3a181cdac7c501 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-14dc587d9e7a424c09ebfee716632160299ac677 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-fc2e6ee079838276bdfe454b69fe79f474d754f0 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-db84925f983aa62f620c67c7bad307ccb30f6b70 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-07b78c6dbbc8802f1bfd67189044a75cfab0adae Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-209bb8183e50b136f7730f5e7e70dad913de999c Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-3686d9491213db80be6e4ec08e72f5550ed2e81c Merge branch '9p-next' of git://github.com/martinetd/linux
-ff87cfde02feddce3795ef64cac3824ff2fb9e63 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============5605024161787449252==
+--===============6616587714865940640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -840,25 +710,4 @@ d68de5bbb5c883d5f00df800e934434740846d91 Merge branch 'master' of git://git.kern
 e45e80f961c8796347293a2d286fe38acb9cb1df fixup for "s390/mm/ptdump: Generate address marker array dynamically"
 222a3380f92b8791d4eeedf7cd750513ff428adf Add linux-next specific files for 20240808
 
---===============5605024161787449252==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4560686726f-6a0e38264012.txt
-
-d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
-b34ce4a59cfe9cd0d6f870e6408e8ec88a964585 power: supply: axp288_charger: Fix constant_charge_voltage writes
-81af7f2342d162e24ac820c10e68684d9f927663 power: supply: axp288_charger: Round constant_charge_voltage writes down
-bf9d5cb588755ee41ac12a8976dccf44ae18281b power: supply: qcom_battmgr: return EAGAIN when firmware service is not up
-d6cca7631a4b54a8995e3bc53e5afb11d3b0c8ff power: supply: qcom_battmgr: Ignore extra __le32 in info payload
-33eb1e5db351e2c0e652d878b66b8a6d4d013135 btrfs: factor out stripe length calculation into a helper
-63447b7dd40c6a9ae8d3bb70c11f4c46731823e3 btrfs: scrub: update last_physical after scrubbing one stripe
-872617a0896fc7510b0b8f25d323670424461cfc btrfs: implement launder_folio for clearing dirty page reserve
-30479f31d44d47ed00ae0c7453d9b253537005b2 btrfs: fix qgroup reserve leaks in cow_file_range
-1e7bec1f7d6533f08bc1c4ee94930c02361db86c btrfs: emit a warning about space cache v1 being deprecated
-e0391e92f9ab4fb3dbdeb139c967dcfa7ac4b115 btrfs: fix double inode unlock for direct IO sync writes
-12653ec36112ab55fa06c01db7c4432653d30a8d btrfs: avoid using fixed char array size for tree names
-94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============5605024161787449252==--
+--===============6616587714865940640==--
