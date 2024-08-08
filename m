@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 08 Aug 2024 08:12:28 -0000
-Message-Id: <172310474866.10544.5761435064004229101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 08 Aug 2024 08:18:14 -0000
+Message-Id: <172310509480.14292.12620987123184787712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: e4c4638b6a10427d30e29d22351c375886025f47
-    new: 730bbfaf7d4890bd99e637db7767dc68cfeb24e7
-    log: |
-         730bbfaf7d4890bd99e637db7767dc68cfeb24e7 spi: spi-fsl-lpspi: Fix scldiv calculation
-         
-  - ref: refs/heads/for-next
-    old: 51181a73934f0e43eb7245553e97cb6c195df7ff
-    new: 7e0d87f1c836093c4d65b3b2fe2b30b4b7e03c14
-    log: |
-         730bbfaf7d4890bd99e637db7767dc68cfeb24e7 spi: spi-fsl-lpspi: Fix scldiv calculation
-         7e0d87f1c836093c4d65b3b2fe2b30b4b7e03c14 Merge remote-tracking branch 'spi/for-6.12' into spi-next
-         
+  - ref: refs/tags/sent/20231019-clone3-shadow-stack-15d40d2bf536-v8
+    old: 0000000000000000000000000000000000000000
+    new: c23199df48ca619a38a749a736bb502ad5daa679
+  - ref: refs/tags/sent/20240614-alsa-selftest-volatile-d6f3e8e28c08-v1
+    old: 0000000000000000000000000000000000000000
+    new: 0ef5c6ef273d497ce445788938d33c1331bcdcbe
