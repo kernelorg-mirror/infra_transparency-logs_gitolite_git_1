@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 08 Aug 2024 01:47:06 -0000
-Message-Id: <172308162641.19868.8339148534835840157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Aug 2024 01:50:03 -0000
+Message-Id: <172308180395.22710.14612744896784744487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 30765ccd451301f9708d5510b476dbe6b2f0e5d1
-    new: 3b9d5d7b96fb69768a27bc2596c052e008627738
+  - ref: refs/heads/io_uring-6.11
+    old: c5ae41cdfdca4ae5160bb64ee5cdf21dc4396d9a
+    new: 8fe8ac24adcd76b12edbfdefa078567bfff117d4
     log: |
-         3b9d5d7b96fb69768a27bc2596c052e008627738 test/recvsend_bundle: various fixes
+         11893e144ed75be55d99349760513ca104781fc0 io_uring/net: ensure expanded bundle recv gets marked for cleanup
+         70ed519ed59da3a92c3acedeb84a30e5a66051ce io_uring/net: ensure expanded bundle send gets marked for cleanup
+         8fe8ac24adcd76b12edbfdefa078567bfff117d4 io_uring/net: don't pick multiple buffers for non-bundle send
          
