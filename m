@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 08 Aug 2024 17:22:26 -0000
-Message-Id: <172313774641.11451.9889609447032516494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 08 Aug 2024 17:22:37 -0000
+Message-Id: <172313775718.11574.435349548591797840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: paulmck
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/nolibc.2024.07.15a
-    old: 0000000000000000000000000000000000000000
-    new: 3588cb132ae9fd65077ae8be332300d284798445
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
-  - ref: refs/tags/v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+  - ref: refs/heads/experimental
+    old: 6d3a4dae8fbf79190040b83fa5891846ad1706da
+    new: 97b462a8a1611e5e9538a6d9f49cd573e188a841
+    log: |
+         ba89229901d149ce6fdfb571db9d78a1f9bd3c98 erofs-utils: release 1.8
+         97b462a8a1611e5e9538a6d9f49cd573e188a841 erofs-utils: lib: drop prefix_sha256 digests
+         
