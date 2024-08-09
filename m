@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 09 Aug 2024 19:16:16 -0000
-Message-Id: <172323097611.26629.1965751083377364738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 09 Aug 2024 19:16:17 -0000
+Message-Id: <172323097716.26691.11410412960326289095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/dir-deleg
-    old: b6b3856556f208fe4c5f54e48e32395c3c4eaf50
-    new: b900ff1243a931458b8a269348e020d6651e685b
+  - ref: refs/heads/master
+    old: 642a2b961f95a7e5ece74cb09a3289cecbdb9cda
+    new: b8559c53649da7a12ae48c11e6ba2570cdfd3466
     log: |
-         b900ff1243a931458b8a269348e020d6651e685b nfsd: add encoders and decoders for CB_NOTIFY
+         b8559c53649da7a12ae48c11e6ba2570cdfd3466 Fri Aug  9 03:15:21 PM EDT 2024
          
