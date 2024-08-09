@@ -1,30 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 09 Aug 2024 07:33:43 -0000
-Message-Id: <172318882337.26238.15496168712564730270@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6365798011054592114=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 09 Aug 2024 07:35:35 -0000
+Message-Id: <172318893502.28600.16201073721296564379@gitolite.kernel.org>
+
+--===============6365798011054592114==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus
-    old: 72776774b55bb59b7b1b09117e915a5030110304
-    new: 5552cccb0b73020f6506fd5d8f81975b1f59080c
+  - ref: refs/heads/slab/for-6.12/misc
+    old: aefc252b1db9aa46f23e190bdc905373c684caa9
+    new: 63fb859e4e59549e20fe22e6745acc2bc308e0b1
     log: |
-         49f6202ce991742f451fc724f03d0c17460d06cd ASoC: codecs: lpass-macro: fix version strings returned for 1.x codecs
-         a9a7a2d80790d06cd32c535e2e7b10f72ce592e7 ASoC: codecs: lpass-va-macro: warn on unknown version
-         5552cccb0b73020f6506fd5d8f81975b1f59080c ASoC: codecs: warn on unknown codec version
+         63fb859e4e59549e20fe22e6745acc2bc308e0b1 mm, slub: print CPU id on slab OOM
          
-  - ref: refs/heads/for-next
-    old: ff387e3e7647f6b65e95cf33247bdfebdf5d2a34
-    new: f63b600f7de3567f1907c79cc067467b4aa3f6d4
-    log: |
-         49f6202ce991742f451fc724f03d0c17460d06cd ASoC: codecs: lpass-macro: fix version strings returned for 1.x codecs
-         a9a7a2d80790d06cd32c535e2e7b10f72ce592e7 ASoC: codecs: lpass-va-macro: warn on unknown version
-         5552cccb0b73020f6506fd5d8f81975b1f59080c ASoC: codecs: warn on unknown codec version
-         f63b600f7de3567f1907c79cc067467b4aa3f6d4 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
-         
+
+--===============6365798011054592114==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1723188929 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1723188929-4cee661a1baa38137898d95be9ed6756ab8d2014
+
+aefc252b1db9aa46f23e190bdc905373c684caa9 63fb859e4e59549e20fe22e6745acc2bc308e0b1 refs/heads/slab/for-6.12/misc
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAma1xsEACgkQu+CwddJF
+iJqH5ggAhS0xVc+4x0IeASZVzQTPcuG6aeSQ9EQXmSrDFSYknHN+rujYCM3kQGsZ
+yBtpxSTQxiNRm2WswtfjYa+exvQVrHqIZ9uR/KQjYTzYYfmJftu6/TulorEG7V3d
+NDeR8c01QVFXygRxTM72vbbWnzJPxY5dXFGMEtsuIELeUTT29okbaghT3ULzx+d6
+c3GyjXporAIMvT25wolAbAkaZ+qfMq4g7PNfsLz++A5eMk/sKgKC0t0AgnIjiUPX
+t6KbOsH2/F3eURR2u5nYKbCgmr+QT/jLUQJEGxArWiDDLHqtHZDdyisuClr5ud6O
+po+c2zMGKd6Odo90dVWetSvoejA0mA==
+=PczI
+-----END PGP SIGNATURE-----
+
+--===============6365798011054592114==--
