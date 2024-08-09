@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Aug 2024 12:35:30 -0000
-Message-Id: <172320693085.18775.2642651768074236650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 09 Aug 2024 12:35:32 -0000
+Message-Id: <172320693224.18860.9509916285426311191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/x86/apic
-    old: 00e5bd44389145cd2f42be8e98cadb210731e72a
-    new: 838ba7733e4e3a94a928e8d0a058de1811a58621
+  - ref: refs/heads/next
+    old: cbecc3785266f0c54eb1ea660b88a66f063fbd58
+    new: 14be4e3d3fe56ce9a952bbb38bdd7696f34dadbe
     log: |
-         838ba7733e4e3a94a928e8d0a058de1811a58621 x86/apic: Remove logical destination mode for 64-bit
+         ee933f35484ac9348a1c596df2aab0dc61528cd0 dwarf_loader: Simplify the tag__alloc() routine
+         14be4e3d3fe56ce9a952bbb38bdd7696f34dadbe pahole: Only warn about multithreading not being available with older versions of elfutils in verbose mode
          
