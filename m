@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 09 Aug 2024 15:47:56 -0000
-Message-Id: <172321847653.567.18327380413012810582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 09 Aug 2024 15:48:06 -0000
+Message-Id: <172321848663.686.13067101095112569051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/200GbE
-    old: ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d
-    new: 67927a1b255d883881be9467508e0af9a5e0be9d
-    log: |
-         e5876b088ba03a62124266fa20d00e65533c7269 usbnet: ipheth: race between ipheth_close and error handling
-         655b46d7a39ac6f049698b27c1568c0f7ff85d1e usbnet: ipheth: remove extraneous rx URB length check
-         94d7eeb6c0ef0310992944f0d0296929816a2cb0 usbnet: ipheth: drop RX URBs with no payload
-         74efed51e0a4d62f998f806c307778b47fc73395 usbnet: ipheth: do not stop RX on failing RX callback
-         67927a1b255d883881be9467508e0af9a5e0be9d usbnet: ipheth: fix carrier detection in modes 1 and 4
-         
+  - ref: refs/tags/asm-generic-fixes-6.11-2
+    old: 0000000000000000000000000000000000000000
+    new: dbe91ce712c9339df56237ad6e30f779b83619c1
