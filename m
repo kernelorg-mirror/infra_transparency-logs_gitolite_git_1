@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 09 Aug 2024 14:01:57 -0000
-Message-Id: <172321211740.18332.8272255710121230495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 09 Aug 2024 14:11:04 -0000
+Message-Id: <172321266437.26394.10389225768998167938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: 78d64f6ccc675ced13140ddd1448a80d69d1b91d
-    new: 2cecfeec9cc29a72f909221fa8892c9cc61a0254
+  - ref: refs/heads/master
+    old: e1aa24a4394993375c381740c59f5292a32f6d4d
+    new: 40621e269287d6c5de8fd653df0c49b7907c2c17
     log: |
-         2cecfeec9cc29a72f909221fa8892c9cc61a0254 9p: Fix DIO read through netfs
+         66044ecd8dd95f684a8759358312f9f985fb8893 shared/shell: Add support for comments on scripts
+         40621e269287d6c5de8fd653df0c49b7907c2c17 shared/shell: Add support for running script command as part of script
          
