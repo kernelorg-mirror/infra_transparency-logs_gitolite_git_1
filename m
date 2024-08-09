@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 09 Aug 2024 15:34:41 -0000
-Message-Id: <172321768189.21650.12427341587236864192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 09 Aug 2024 15:38:24 -0000
+Message-Id: <172321790481.26022.8834634295371655125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 787822ab08872a6d2193c8638bddbe0f765f52d6
-    new: 2b981a2d852f380a6c23745b1c09d7c4780524c8
+  - ref: refs/heads/main
+    old: ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d
+    new: 67927a1b255d883881be9467508e0af9a5e0be9d
     log: |
-         ea5856bbcdfa9370d54d3f8d057e4263893680ba btrfs: check delayed refs when we're checking if a ref exists
-         a65f31c81b17b4fe329559bd73cea625d5f75534 Merge branch 'misc-6.11' into for-next-current-v6.10-20240809
-         bad6418df0f62737a759f236f84de0fba9623f9c Merge branch 'misc-6.11' into for-next-next-v6.11-20240809
-         79c559f05629d48d5ad418133c2dd3517ab9d9c2 Merge branch 'for-next-current-v6.10-20240809' into for-next-20240809
-         2b981a2d852f380a6c23745b1c09d7c4780524c8 Merge branch 'for-next-next-v6.11-20240809' into for-next-20240809
+         e5876b088ba03a62124266fa20d00e65533c7269 usbnet: ipheth: race between ipheth_close and error handling
+         655b46d7a39ac6f049698b27c1568c0f7ff85d1e usbnet: ipheth: remove extraneous rx URB length check
+         94d7eeb6c0ef0310992944f0d0296929816a2cb0 usbnet: ipheth: drop RX URBs with no payload
+         74efed51e0a4d62f998f806c307778b47fc73395 usbnet: ipheth: do not stop RX on failing RX callback
+         67927a1b255d883881be9467508e0af9a5e0be9d usbnet: ipheth: fix carrier detection in modes 1 and 4
          
