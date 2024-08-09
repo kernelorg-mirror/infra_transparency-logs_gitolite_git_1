@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 09 Aug 2024 10:47:30 -0000
-Message-Id: <172320045086.4437.11358505094630723463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 09 Aug 2024 11:03:50 -0000
+Message-Id: <172320143091.15098.3171936828229854832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/vfs.mount
-    old: e7251ad2744c7f35c95fb25cb5a2f03314034ebe
-    new: 49224a345c488a0e176f193a60a2a76e82349e3e
+  - ref: refs/heads/main
+    old: eb3ab13d997a2f12ec9d557b6ae2aea4e28e2bc3
+    new: 2524d6c28bdcb114372e86354c88d2e47eb1019d
     log: |
-         7b9d14af8777ac439bbfa9ac73a12a6d85289e7e fs: allow mount namespace fd
-         5fcf329676cf9d132842d9871f83a091c32f3bfc fs: add put_mnt_ns() cleanup helper
-         257b1c2c78c25643526609dee0c15f1544eb3252 file: add fput() cleanup helper
-         a1d220d9dafa8d76ba60a784a1016c3134e6a1e8 nsfs: iterate through mount namespaces
-         49224a345c488a0e176f193a60a2a76e82349e3e Merge patch series "nsfs: iterate through mount namespaces"
+         2524d6c28bdcb114372e86354c88d2e47eb1019d net: dsa: vsc73xx: use defined values in phy operations
          
