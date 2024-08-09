@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 09 Aug 2024 09:54:43 -0000
-Message-Id: <172319728334.29073.10244926569267353329@gitolite.kernel.org>
+Date: Fri, 09 Aug 2024 09:59:49 -0000
+Message-Id: <172319758968.32537.16720173920805766640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
-  - ref: refs/heads/ssbs-stable/v6.6.y
-    old: 83e5887dd0349114f7c4d65b47f9dd7531dd35e6
-    new: 35f9530dc5a7d7c0257fb65946d5c4ab0675efa8
+  - ref: refs/heads/ssbs-stable/v6.1.y
+    old: 25bc103413f82e8d6091ec171484d10d2148d580
+    new: 01565ab9f72c0462c2182c3d264a6a3b7e489d20
     log: |
-         980c46f94ca59a0cb6c0fc57b394a88906a1f36d arm64: errata: Unify speculative SSBS errata logic
-         cd8faf7175249a92e8f107052c9607b39d6e2ab6 arm64: errata: Expand speculative SSBS workaround
-         ab56912289aefec65e88c32188729a54c0ccd026 arm64: cputype: Add Cortex-X1C definitions
-         1361a8d2993145899bfb02aa4e75e9e1e163f392 arm64: cputype: Add Cortex-A725 definitions
-         35f9530dc5a7d7c0257fb65946d5c4ab0675efa8 arm64: errata: Expand speculative SSBS workaround (again)
+         dbbe8201c0372e5bcf47be46c4b4fe0d81e53793 arm64: errata: Unify speculative SSBS errata logic
+         b095853edfffe64fd097114da979b5f1b7901f86 arm64: errata: Expand speculative SSBS workaround
+         caa76789e34aa19f03c35715a3923fa4cf82d3d6 arm64: cputype: Add Cortex-X1C definitions
+         0a20d7d68e1b567fbe9ec91d370b5d7c0fa1a66a arm64: cputype: Add Cortex-A725 definitions
+         01565ab9f72c0462c2182c3d264a6a3b7e489d20 arm64: errata: Expand speculative SSBS workaround (again)
          
