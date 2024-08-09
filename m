@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1636908939757711538=="
+Content-Type: multipart/mixed; boundary="===============3310437054039509486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Fri, 09 Aug 2024 09:14:55 -0000
-Message-Id: <172319489543.19283.5201429999979760286@gitolite.kernel.org>
+Date: Fri, 09 Aug 2024 09:17:41 -0000
+Message-Id: <172319506145.21982.15736727584254687542@gitolite.kernel.org>
 
---===============1636908939757711538==
+--===============3310437054039509486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/coresight/linux
 user: suzukikp
 changes:
-  - ref: refs/heads/next
-    old: 2e5657aa59669698f0f3bf7742d83577a18eb830
+  - ref: refs/heads/for-next/queue
+    old: 878a7ffc0392964d318770e4a8fd1d38ecbcc7f7
     new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    log: revlist-2e5657aa5966-de9c2c66ad8e.txt
+    log: revlist-878a7ffc0392-de9c2c66ad8e.txt
 
---===============1636908939757711538==
+--===============3310437054039509486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e5657aa5966-de9c2c66ad8e.txt
+Content-Disposition: attachment; filename=revlist-878a7ffc0392-de9c2c66ad8e.txt
 
 e33df1c488d6e2b58064355651adb51901137036 mtd: rawnand: intel: use 'time_left' variable with wait_for_completion_timeout()
 14427d4b883159d179847f1090112221c1abc7bd dt-bindings: mtd: qcom,nandc: Define properties at top-level
@@ -1051,4 +1051,4 @@ a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of gi
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
 
---===============1636908939757711538==--
+--===============3310437054039509486==--
