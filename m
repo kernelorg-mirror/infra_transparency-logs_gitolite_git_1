@@ -1,23 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 09 Aug 2024 10:19:51 -0000
-Message-Id: <172319879152.15589.3540765146050496150@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2091305005227972048=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 09 Aug 2024 10:27:06 -0000
+Message-Id: <172319922628.21481.11080085192389411738@gitolite.kernel.org>
+
+--===============2091305005227972048==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ssbs-stable/v5.4.y
-    old: 97be9e608d86873db70faecbf65a37c37bf0db5a
-    new: a8be6f227fb739d5973fc6c9f44669fd81fdec2e
+  - ref: refs/heads/fixes
+    old: 3114f77e9453daa292ec0906f313a715c69b5943
+    new: 7cc06e729460a209b84d3db4db56c9f85f048cc2
     log: |
-         fbc5d25cd661320f51fd96e973a2ea3806c2f603 arm64: errata: Unify speculative SSBS errata logic
-         99f74f4325a1a290bd423a6e28da4e7d476ce855 arm64: errata: Expand speculative SSBS workaround
-         07f7a3634eef24f5d173dbf7252516c4d3daa5fa arm64: cputype: Add Cortex-X1C definitions
-         28346dcf5dd4595ef33cedaad6c1cee406ccd9cd arm64: cputype: Add Cortex-A725 definitions
-         a8be6f227fb739d5973fc6c9f44669fd81fdec2e arm64: errata: Expand speculative SSBS workaround (again)
+         78296429e20052b029211b0aca64aadc5052d581 platform/x86/amd/pmf: Fix to Update HPD Data When ALS is Disabled
+         613e3900c24bb1379d994f44d75d31c3223cc263 platform/x86: ideapad-laptop: introduce a generic notification chain
+         cde7886b35176d56e72bfc68dc104fa08e7b072c platform/x86: ideapad-laptop: move ymc_trigger_ec from lenovo-ymc
+         7cc06e729460a209b84d3db4db56c9f85f048cc2 platform/x86: ideapad-laptop: add a mutex to synchronize VPC commands
          
+
+--===============2091305005227972048==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1723199219 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1723199218-0b3df915ffa4f9f8c09199d6e1515c54ca1e6db5
+
+3114f77e9453daa292ec0906f313a715c69b5943 7cc06e729460a209b84d3db4db56c9f85f048cc2 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZrXu+QAKCRBZrE9hU+XO
+MZ80AP4gB7Rc3xrOz7EAqLwMG2pQg1kr7/AbQlsxKvKenhJSkwD/WZpDUs80YYil
+C1dXXkYFglICTKcMJ3UWQjveMnkayAw=
+=+auw
+-----END PGP SIGNATURE-----
+
+--===============2091305005227972048==--
