@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 09 Aug 2024 12:53:33 -0000
-Message-Id: <172320801318.31814.7114111457896021102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Aug 2024 12:54:31 -0000
+Message-Id: <172320807193.32229.5262226828110136203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: 3e491faa76488dae06907b79855a269491d9e05c
-    new: 98ad7b9012b5ba3a146f9b9193b2eb2717908ca7
+  - ref: refs/heads/main
+    old: ee9a43b7cfe2d8a3520335fea7d8ce71b8cabd9d
+    new: 67927a1b255d883881be9467508e0af9a5e0be9d
     log: |
-         98ad7b9012b5ba3a146f9b9193b2eb2717908ca7 exfat: Implement sops->shutdown and ioctl
+         e5876b088ba03a62124266fa20d00e65533c7269 usbnet: ipheth: race between ipheth_close and error handling
+         655b46d7a39ac6f049698b27c1568c0f7ff85d1e usbnet: ipheth: remove extraneous rx URB length check
+         94d7eeb6c0ef0310992944f0d0296929816a2cb0 usbnet: ipheth: drop RX URBs with no payload
+         74efed51e0a4d62f998f806c307778b47fc73395 usbnet: ipheth: do not stop RX on failing RX callback
+         67927a1b255d883881be9467508e0af9a5e0be9d usbnet: ipheth: fix carrier detection in modes 1 and 4
          
