@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Fri, 09 Aug 2024 16:33:40 -0000
-Message-Id: <172322122027.1201.10011265754947530390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 09 Aug 2024 16:33:45 -0000
+Message-Id: <172322122577.1287.9956035841930592229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/cpupower
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 76fb981ad6774b82f06703c896b492c8659b543b
+  - ref: refs/heads/dev
+    old: 978be3e9b016d727cc2ba1420f511242a1a79024
+    new: b9b6493e6010445f36183cfa630353f82bbf6b44
     log: |
-         76fb981ad6774b82f06703c896b492c8659b543b tools/cpupower: display residency value in idle-info
+         b9b6493e6010445f36183cfa630353f82bbf6b44 erofs-utils: lib: fix truncated uncompressed files
          
