@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 09 Aug 2024 19:16:17 -0000
-Message-Id: <172323097716.26691.11410412960326289095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 09 Aug 2024 19:19:29 -0000
+Message-Id: <172323116941.27893.416598403615101026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 642a2b961f95a7e5ece74cb09a3289cecbdb9cda
-    new: b8559c53649da7a12ae48c11e6ba2570cdfd3466
+  - ref: refs/heads/tmp.master
+    old: 4281f83c1a9b3e9151eb5cd770ef43ce7b92a951
+    new: 5e3ed3ec2947c69f2bf447857e4dd288ba245529
     log: |
-         b8559c53649da7a12ae48c11e6ba2570cdfd3466 Fri Aug  9 03:15:21 PM EDT 2024
+         c46455bb0379fa38fdebec0e5f10a465732238c2 dwarf_loader: Allow filtering CUs early in loading
+         5e3ed3ec2947c69f2bf447857e4dd288ba245529 pahole: Do --lang_exclude CU filtering earlier
          
