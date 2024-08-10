@@ -1,69 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0491703682458390444=="
+Content-Type: multipart/mixed; boundary="===============6047528834234091305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 10 Aug 2024 03:58:57 -0000
-Message-Id: <172326233762.15099.12761606582631618683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Sat, 10 Aug 2024 04:26:35 -0000
+Message-Id: <172326399593.4692.8488568337252488290@gitolite.kernel.org>
 
---===============0491703682458390444==
+--===============6047528834234091305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/work.fd
-    old: a2303c1df65cfa7933b43246c298d558ad70dbce
-    new: 9d58a36411c167b4126de90e5fe844270b858082
-    log: revlist-a2303c1df65c-9d58a36411c1.txt
+  - ref: refs/heads/master
+    old: b0cd6f4c3f1963439e9f26363c2bd40a05239f0a
+    new: 001412493e74d89166d2441b622eeaea00511bdc
+    log: revlist-b0cd6f4c3f19-001412493e74.txt
 
---===============0491703682458390444==
+--===============6047528834234091305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2303c1df65c-9d58a36411c1.txt
+Content-Disposition: attachment; filename=revlist-b0cd6f4c3f19-001412493e74.txt
 
-d3e472bd018cdbb12e82438b2af28e82392b56f1 memcg_write_event_control(): fix a user-triggerable oops
-254beb4164efececb3e7b85019e0102c36e86e62 introduce fd_file(), convert all accessors to it.
-f3270beef0d85432783be702bb9509879415e747 struct fd: representation change
-3e4ce77ccc879ef739b2e4503cef62dac4632adc add struct fd constructors, get rid of __to_fd()
-fa05e1457c0db776d0a7aaab2ab1e2d912b027e7 regularize emptiness checks in fini_module(2) and vfs_dedupe_file_range()
-4c2609b98b83d889f04c3f58fb4072b9cd39e1bb net/socket.c: switch to CLASS(fd)
-dc58489edde0d0377982267984be9d10fae3fb27 introduce struct fderr, convert overlayfs uses to that
-19c8b8a700103d58246420f4be0ea36b7f705f2a experimental: convert fs/overlayfs/file.c to CLASS(...)
-344010e32c5971ac059301f79383de01d616b581 timerfd: switch to CLASS(fd)
-4904e75066fe37c670cb6932b2197db810cdfbc3 get rid of perf_fget_light(), convert kernel/events/core.c to CLASS(fd)
-ca4e9cbcd3de6784ddc9e4d6332f5619b23036d2 switch netlink_getsockbyfilp() to taking descriptor
-4367770408cb536d9c810b1cf069369da9fd2ad7 do_mq_notify(): saner skb freeing on failures
-3ef70f290d185222c2b15d2aa34abd98b871c61f do_mq_notify(): switch to CLASS(fd)
-ccce8c539449b090500e716ec056514d330d891f simplify xfs_find_handle() a bit
-fecd77b2edc1950e658ab4daa4cdf7a37311de58 convert vmsplice() to CLASS(fd)
-08ed5c5377a7e985a0ddefc482c5794d86c95e37 convert __bpf_prog_get() to CLASS(fd)
-0ba0aa13ce129585912364c2fff445ff9f0158d1 bpf: resolve_pseudo_ldimm64(): take handling of a single ldimm64 insn into helper
-465943926d450d572a9e424576ac40785312d1b6 bpf maps: switch to CLASS(fd)
-9097290f07cd8bc769cb7ff77b9d157289bf8b5d fdget_raw() users: switch to CLASS(fd_raw)
-e35f993801f8d3de114884effdcff8e2554b350e introduce "fd_pos" class, convert fdget_pos() users to it.
-a86bd68c430036743608216bc02ae22ba7efafbb o2hb_region_dev_store(): avoid goto around fdget()/fdput()
-c2881b4b7e419d2ef712a239ca5a9ae535380e69 privcmd_ioeventfd_assign(): don't open-code eventfd_ctx_fdget()
-ec62197e308b012830518d0df5fe0ddd048719de fdget(), trivial conversions
-b43620d06c36797b7f148126e8c770001df11b9f fdget(), more trivial conversions
-912404e9edf322a79fc6b84cc36ce89e10fb325b convert do_preadv()/do_pwritev()
-7e2cfc9e0c46d0ddb72ce42e119665d4dc03dc8c convert cachestat(2)
-dc845530da6f42e348ed3044821a86beed77876f switch spufs_calls_{get,put}() to CLASS() use
-aba6f5ffa231245ad908426bd9103809d55674c0 convert spu_run(2)
-acb27682b0028ef25db515f4ab14095f0e7ceb2d convert media_request_get_by_fd()
-2d81bda464d5ca41921e9da5cff266a082987ad8 convert coda_parse_fd()
-3757aff242721e85d7eda41b63195abfaea40bd9 convert cifs_ioctl_copychunk()
-3384130a87fecdbff195282e1af129b6043822cf convert vfs_dedupe_file_range().
-4c676bd0c70631092a2860a77a4a28e4cc4fa47d convert do_select()
-6f1793298e73660c587773a00e4d5fe8bf2eb31d do_pollfd(): convert to CLASS(fd)
-b8ae247009a65869408c35a38e4480dce09ff099 convert bpf_token_create()
-72524bb28f7a91af2c79ad31ce922f8e38982495 assorted variants of irqfd setup: convert to CLASS(fd)
-b0d7cbc73ca7e1b04ac3bde036f09ed0a374ca5f memcg_write_event_control(): switch to CLASS(fd)
-661b03618956f95bb2a909e3311f14c3186230c1 css_set_fork(): switch to CLASS(fd_raw, ...)
-9d58a36411c167b4126de90e5fe844270b858082 deal with the last remaing boolean uses of fd_file()
+c8981d9230d808e62c65349d0b255c7f4b9087d6 crypto: spacc - Add SPAcc Skcipher support
+8ebb14deef0f374f7ca0d34a1ad720ba0a7b79f3 crypto: spacc - Enable SPAcc AUTODETECT
+9f1a7ab4d31ef30fbf8adb0985300049469f2270 crypto: spacc - Add SPAcc ahash support
+06af76b46c78f4729fe2f9712a74502c90d87554 crypto: spacc - Add SPAcc aead support
+cb67c924b2a7b561bd7f4f2bd66766337c1007b7 crypto: spacc - Add SPAcc Kconfig and Makefile
+fc61c658c94cb7405ca6946d8f2a2b71cef49845 crypto: spacc - Enable Driver compilation in crypto Kconfig and Makefile
+9d3a7ff2ce1781a77ad6f8896e1256875c17631e hwrng: cn10k - Enable by default CN10K driver if Thunder SoC is enabled
+f5903f50070518b6722559d25744f8a8dbe5011e crypto: caam/qi* - Use cpumask_var_t instead of cpumask_t
+16fd38ab651ecebf1ff3d637f437f17e88cdc777 dt-bindings: rng: Add Rockchip RK3568 TRNG
+dcf4fef6631c302f9bdd188979fe3172e47a29c7 hwrng: rockchip - add hwrng driver for Rockchip RK3568 SoC
+da4fe6815aca25603944a64b0965310512e867d0 Revert "lib/mpi: Introduce ec implementation to MPI library"
+d57e2f7cffd57fe2800332dec768ec1b67a4159f hwrng: bcm2835 - Add missing clk_disable_unprepare in bcm2835_rng_init
+4b7acc85de14ee8a2236f54445dc635d47eceac0 hwrng: cctrng - Add missing clk_disable_unprepare in cctrng_resume
+001412493e74d89166d2441b622eeaea00511bdc crypto: x86/aes-gcm - fix PREEMPT_RT issue in gcm_crypt()
 
---===============0491703682458390444==--
+--===============6047528834234091305==--
