@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 10 Aug 2024 19:00:41 -0000
-Message-Id: <172331644130.2835.16665067188329935739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 10 Aug 2024 19:08:22 -0000
+Message-Id: <172331690212.8565.11661386924857467926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: c484e1321ccc143a762fda0019ee9cc2fad21542
-    new: 53d30219b382bebc9edb0631a43cf95e75fa2af9
+  - ref: refs/heads/pbuf-ring-inc
+    old: 561e1f9f1a7d99c47a0529481d89d31dbc7084f4
+    new: 87b8377b6da6bb8cf93d8da80eeda15c3e019fc6
     log: |
-         55f1eeeb4b5e22f4d282a6c46c4b117877722aaf patches/next: use damonitor GitHub organization
-         53d30219b382bebc9edb0631a43cf95e75fa2af9 patches/next: rebase to latest mm-unstable
+         87b8377b6da6bb8cf93d8da80eeda15c3e019fc6 test/recvsend_bundle-inc: add incremental buffer ring test case
          
