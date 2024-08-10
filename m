@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8277183387270909200=="
+Content-Type: multipart/mixed; boundary="===============5694885870074151141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sat, 10 Aug 2024 13:43:35 -0000
-Message-Id: <172329741514.32616.12110026071092195502@gitolite.kernel.org>
+Date: Sat, 10 Aug 2024 13:43:45 -0000
+Message-Id: <172329742583.32753.13359154964353806490@gitolite.kernel.org>
 
---===============8277183387270909200==
+--===============5694885870074151141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 43d88246062185c887438c36753250f93f354231
-    new: 9156bb59c9b5d35b3363c1cf7615fa45e5e55130
-    log: revlist-43d882460621-9156bb59c9b5.txt
+  - ref: refs/heads/m68k-queue
+    old: 1571641b1d114c2d0ce7c0ed7564d2c81719983e
+    new: 200ece55b0134fe5e95d474fdc4c704500d4b55b
+    log: revlist-1571641b1d11-200ece55b013.txt
 
---===============8277183387270909200==
+--===============5694885870074151141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43d882460621-9156bb59c9b5.txt
+Content-Disposition: attachment; filename=revlist-1571641b1d11-200ece55b013.txt
 
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
 8ede71e1202011d8bfceeab4737e6d52d88688ab ARM: 9402/1: Kconfig: Spelling s/Cortex A-/Cortex-A/
@@ -362,6 +362,8 @@ ff58838015c14a12cb8c003b9d6fc062b49e8d9e arm: dts: arm: versatile-ab: Fix duplic
 a5dbd76a89423eca9f8de338350f2666aacfb432 Merge tag 'x86-urgent-2024-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b88f55389ad27f05ed84af9e1026aa64dbfabc9a profiling: remove profile=sleep support
 de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed Linux 6.11-rc2
-9156bb59c9b5d35b3363c1cf7615fa45e5e55130 Merge tag 'v6.11-rc2'
+12be8c24989101eb9f81e3f9de1608c53ca3b43f m68k: atari: usb: Add ISP1160 USB host controller support
+911b2e587878646cbcc0edc6884934204b8961ef m68k: atari: Update Kconfig.bus help text
+200ece55b0134fe5e95d474fdc4c704500d4b55b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8277183387270909200==--
+--===============5694885870074151141==--
