@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 10 Aug 2024 17:53:36 -0000
-Message-Id: <172331241671.18020.3645391627268703978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 10 Aug 2024 18:08:17 -0000
+Message-Id: <172331329719.29618.10220010625798566021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/kvm-arm64/nv-at-pan-WIP
-    old: 774406116f90d7007e10d84cafda97b24b75e43a
-    new: e9613e7ddde1cfd2ad2e3b039385a3dd47095e2f
+  - ref: refs/heads/master
+    old: 7299cd48aeceba873a52968d6d6edb34c15bac11
+    new: 5189dafa4cf950e675f02ee04b577dfbbad0d9b1
     log: |
-         7a50ebda45d254396f2a8cf399be45b09c69317c fixup! KVM: arm64: nv: Add SW walker for AT S1 emulation
-         e9613e7ddde1cfd2ad2e3b039385a3dd47095e2f KVM: arm64: nv: Enforce S2 alignment when contiguous bit is set
+         785280973472dbdee2c31cb740633c4b6460a8ee sunrpc: avoid -Wformat-security warning
+         91da337e5d506f2c065d20529d105ca40090e320 nfsd: don't set SVC_SOCK_ANONYMOUS when creating nfsd sockets
+         5189dafa4cf950e675f02ee04b577dfbbad0d9b1 Merge tag 'nfsd-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
          
