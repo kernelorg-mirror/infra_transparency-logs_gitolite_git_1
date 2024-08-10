@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5556487670008583441=="
+Content-Type: multipart/mixed; boundary="===============7936772406704587753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 10 Aug 2024 01:35:52 -0000
-Message-Id: <172325375213.10185.7501598631688713721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 10 Aug 2024 01:36:02 -0000
+Message-Id: <172325376211.10342.4778933616748374299@gitolite.kernel.org>
 
---===============5556487670008583441==
+--===============7936772406704587753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cb1898f58e0f175d168a5a8c5a269a4d24cbbef5
     log: revlist-43b49c16302f-cb1898f58e0f.txt
 
---===============5556487670008583441==
+--===============7936772406704587753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ed5bb548cc648de6dbb5894cf95955998e466589 perf test: Add a new shell test for per
 336989d00f2140c7524b76126aa62c8a47a5a1d3 perf annotate: Fix --group behavior when leader has no samples
 cb1898f58e0f175d168a5a8c5a269a4d24cbbef5 perf annotate-data: Support --skip-empty option
 
---===============5556487670008583441==--
+--===============7936772406704587753==--
