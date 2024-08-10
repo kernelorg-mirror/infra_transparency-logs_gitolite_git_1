@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sat, 10 Aug 2024 22:29:31 -0000
-Message-Id: <172332897196.23624.11270410285340336872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 10 Aug 2024 22:37:45 -0000
+Message-Id: <172332946593.31169.13638113396869811250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 56cc34a8c179b49585b0318a49f26326ed25443d
-    new: de7131e2d4754204a42f30a1a5a627f201c0c28d
+  - ref: refs/heads/pbuf-ring-inc
+    old: 01ba859477ef738c59bd9629ab6fba3f29eb8d89
+    new: e379246fbe723d63e896763a76110780305a5fe2
     log: |
-         de7131e2d4754204a42f30a1a5a627f201c0c28d firewire: core: correct range of block for case of switch statement
+         e379246fbe723d63e896763a76110780305a5fe2 test/read-mshot: add various read/read-mshot incremental buffer tests
          
