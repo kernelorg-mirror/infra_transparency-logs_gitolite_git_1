@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2093995973207560691=="
+Content-Type: multipart/mixed; boundary="===============4045893454238049724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 11 Aug 2024 23:04:07 -0000
-Message-Id: <172341744770.27842.9879677189309877753@gitolite.kernel.org>
+Date: Sun, 11 Aug 2024 23:04:11 -0000
+Message-Id: <172341745142.27953.4911157701727103853@gitolite.kernel.org>
 
---===============2093995973207560691==
+--===============4045893454238049724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: b7eb88b9583d5ddd6ef277f33c6a20a00cbc32fe
-    new: 81ca8053244a60de891de1cde927e67a4e150297
-    log: revlist-b7eb88b9583d-81ca8053244a.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9ba48db9f77ce0001dbb882476fa46e092feb695
+    new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+    log: revlist-9ba48db9f77c-7c626ce4bae1.txt
 
---===============2093995973207560691==
+--===============4045893454238049724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1723417444 +0200
+pusher andi.shyti@kernel.org 1723417450 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1723417443-3a9d5b61c3d6fbe260c02493a042b260f3af06c4
+nonce 1723417449-4acfe2b49cd5c0f8a5158f6208690d869a23e7df
 
-b7eb88b9583d5ddd6ef277f33c6a20a00cbc32fe 81ca8053244a60de891de1cde927e67a4e150297 refs/heads/i2c/i2c-host
+9ba48db9f77ce0001dbb882476fa46e092feb695 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrlDZBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uuZYA/AtAve7fYe+xDvN9S3V98p4Q7bwv
-TDphfWsnAZye82T+AP9bzkVw9xkpNvIQleQgXLIIhRTGC3XwoYlPOegnt8W3AQ==
-=RXsW
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrlDahYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uqbMA/1JJXeVIrmt8RfDlN00rpe3n+jUr
+O5EKrfmq+r5z2gDRAP4/0bZUQjuSOchUalQTaJfZAq4W2Hx5+zVoVD6KGj73Aw==
+=sUYQ
 -----END PGP SIGNATURE-----
 
---===============2093995973207560691==
+--===============4045893454238049724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7eb88b9583d-81ca8053244a.txt
+Content-Disposition: attachment; filename=revlist-9ba48db9f77c-7c626ce4bae1.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
@@ -175,7 +175,6 @@ ce4a995884ecedb98ba00e2e0b8ce94cde2060ce drm/omap: add CONFIG_MMU dependency
 5916be8a53de6401871bdd953f6c60237b47d6d3 timekeeping: Fix bogus clock_was_set() invocation in do_adjtimex()
 1fb0847392e220890c9cf8908e3ab8e7e1227ff6 drm/bridge-connector: Fix double free in error handling paths
 c813111d19e65b6336a6352eae9c1ff5c40f722f Merge tag 'slab-fixes-for-6.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-b93d16bee557302d4e588375ececd833cc048acc i2c: qcom-geni: Add missing clk_disable_unprepare in geni_i2c_runtime_resume
 9a1af1e218779724ff29ca75f2b9397dc3ed11e7 ASoC: codecs: lpass-macro: fix missing codec version
 e42066df07c0fcedebb32ed56f8bc39b4bf86337 ASoC: cs35l56: Handle OTP read latency over SoundWire
 4e436f6fb95e507131df78c0d98052237db60ecc arm64: dts: ti: k3-am62p: Add gpio-ranges for mcu_gpio0
@@ -197,7 +196,6 @@ bd44ca3de49cc1badcff7a96010fa2c64f04868c dma-debug: avoid deadlock between dma d
 d4560686726f7a357922f300fc81f5964be8df04 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 929725bd7eb4eea1f75197d9847f3f1ea5afdad1 drm/atomic: allow no-op FB_ID updates for async flips
 3e7917c0cdad835a5121520fc5686d954b7a61ab net: linkwatch: use system_unbound_wq
-9ba48db9f77ce0001dbb882476fa46e092feb695 i2c: qcom-geni: Add missing geni_icc_disable in geni_i2c_runtime_resume
 c7a19018bd557c24072b59088ad2684fd83ea3f4 net: dsa: microchip: Fix Wake-on-LAN check to not return an error
 1ca645a2f74a4290527ae27130c8611391b07dbf net: usb: qmi_wwan: add MeiG Smart SRM825L
 eb91c456f3714c336f0812dccab422ec0e72bde4 ALSA: hda/realtek: Add Framework Laptop 13 (Intel Core Ultra) to quirks
@@ -363,9 +361,5 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
-11fbb6d9364011d82aa24a1d0d2278cf3ba9e965 i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
-5dd604626f3d640288ff787568ae15827aca05b6 i2c: don't use ',' after delimiters
-9d440c5359da9b19a0473848eb73123647167bbc i2c: mt65xx: Avoid double initialization of restart_flag in isr
-81ca8053244a60de891de1cde927e67a4e150297 i2c: imx: Switch to RUNTIME_PM_OPS()
 
---===============2093995973207560691==--
+--===============4045893454238049724==--
