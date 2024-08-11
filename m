@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4045893454238049724=="
+Content-Type: multipart/mixed; boundary="===============0661265367175611872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 11 Aug 2024 23:04:11 -0000
-Message-Id: <172341745142.27953.4911157701727103853@gitolite.kernel.org>
+Date: Sun, 11 Aug 2024 23:04:15 -0000
+Message-Id: <172341745538.28038.9859769079536490785@gitolite.kernel.org>
 
---===============4045893454238049724==
+--===============0661265367175611872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 9ba48db9f77ce0001dbb882476fa46e092feb695
-    new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-9ba48db9f77c-7c626ce4bae1.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: f4ce62224ef0a7465260538a21b945bdaaf56e53
+    new: 81ca8053244a60de891de1cde927e67a4e150297
+    log: revlist-f4ce62224ef0-81ca8053244a.txt
 
---===============4045893454238049724==
+--===============0661265367175611872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1723417450 +0200
+pusher andi.shyti@kernel.org 1723417454 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1723417449-4acfe2b49cd5c0f8a5158f6208690d869a23e7df
+nonce 1723417453-928352683eb05b31e823d7dd8386c948217af457
 
-9ba48db9f77ce0001dbb882476fa46e092feb695 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/i2c/i2c-host-fixes
+f4ce62224ef0a7465260538a21b945bdaaf56e53 81ca8053244a60de891de1cde927e67a4e150297 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrlDahYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uqbMA/1JJXeVIrmt8RfDlN00rpe3n+jUr
-O5EKrfmq+r5z2gDRAP4/0bZUQjuSOchUalQTaJfZAq4W2Hx5+zVoVD6KGj73Aw==
-=sUYQ
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZrlDbhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uXAcA/1vyHHXQFh0E4ep35QyIHLEjrmWm
+WvGKDhFh4W6pDxXiAQCycuTb09zgJe2NY2cV7wJr9HR9a7e7+iLTk+ha0lyuBA==
+=cFD+
 -----END PGP SIGNATURE-----
 
---===============4045893454238049724==
+--===============0661265367175611872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ba48db9f77c-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-f4ce62224ef0-81ca8053244a.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
@@ -361,5 +361,9 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
+11fbb6d9364011d82aa24a1d0d2278cf3ba9e965 i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
+5dd604626f3d640288ff787568ae15827aca05b6 i2c: don't use ',' after delimiters
+9d440c5359da9b19a0473848eb73123647167bbc i2c: mt65xx: Avoid double initialization of restart_flag in isr
+81ca8053244a60de891de1cde927e67a4e150297 i2c: imx: Switch to RUNTIME_PM_OPS()
 
---===============4045893454238049724==--
+--===============0661265367175611872==--
