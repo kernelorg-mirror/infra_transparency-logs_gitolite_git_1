@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2305379894188484438=="
+Content-Type: multipart/mixed; boundary="===============4551609101540120175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 11 Aug 2024 10:40:40 -0000
-Message-Id: <172337284093.4534.5056967541909784420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 11 Aug 2024 10:49:04 -0000
+Message-Id: <172337334444.16568.11061576756293100986@gitolite.kernel.org>
 
---===============2305379894188484438==
+--===============4551609101540120175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dma-split-wip
-    old: d2d12ab916b61ceffcd0c322ca155f3b9dfc8478
-    new: 12db8bc8acfcf7780044a0624ec08da531c640cd
-    log: revlist-d2d12ab916b6-12db8bc8acfc.txt
+  - ref: refs/heads/master
+    old: d71d4d3cec8ff97e8be3a3822247be5a1b0c5be4
+    new: dd2fd1188a91260c4823daf6edfc4f5973789a9d
+    log: |
+         dd2fd1188a91260c4823daf6edfc4f5973789a9d Linux 6.6.45
+         
 
---===============2305379894188484438==
+--===============4551609101540120175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2d12ab916b6-12db8bc8acfc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a8fc2bbcf1d63f636b22500e023b7daa7c4a62af dma: call unconditionally to unmap_page and unmap_sg callbacks
-4f19341578f2344c7f47afa00f57e367c79f322e dma: add IOMMU static calls with clear default ops
-7256fecbe12e550d86b5b89303670d6111e738c5 nvme-pci: add missing condition check for existence of mapped data
-3d6677006c73b90ebf5ced6eb1ca4d6b575a5516 iommu/dma: Provide an interface to allow preallocate IOVA
-97309ef70575f1b672e9307b760f3d447e180b3b iommu/dma: Implement link/unlink ranges callbacks
-616ec92f93feac338dbb19e6d55afd8e14b7ada7 iommu/dma: Add check if IOVA can be used
-a30aa4b3a11708e482acfcada99f065a8d82dea4 dma-mapping: initialize IOVA state struct
-3c9db7f449ae353fb58fd2015ad520356557116d dma-mapping: provide an interface to allocate IOVA
-0930b52a8e09eebe6cbd058305ad0c56e7cb28d5 dma-mapping: set DMA IOVA state
-0acf3112988b9ef429a8daaf4aa9ac8d562d0aaa dma-mapping: implement link range API
-1f3f52e23e5b37c8291860f1b6ea7191409d01bb mm/hmm: let users to tag specific PFN with DMA mapped bit
-fee83436875498f9e164f57c9d72b0821c010e14 dma-mapping: provide callbacks to link/unlink HMM PFNs to specific IOVA
-048ef0cb353b36d2508d67a89cc4b2662da4bf92 RDMA/umem: Preallocate and cache IOVA for UMEM ODP
-a5b542656183c96c91775e2a6c46d3faf6f7f992 RDMA/umem: Store ODP access mask information in PFN
-0fb6b38785a90212352f14a7028eb23930f42d1b RDMA/core: Separate DMA mapping to caching IOVA and page linkage
-c71cb3272e3a710edf8c03048d87beb2a218cc7b RDMA/umem: Prevent UMEM ODP creation with SWIOTLB
-8c91acb3486d24a10b7ab3f75f6cc42ab7608cd2 vfio/mlx5: Explicitly use number of pages instead of allocated length
-d4bdb6fcaf913c3d4de3bf0da9c01b29712dc5e2 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
-74f7db6cf93e60788634a5f060267f177e4f59ce vfio/mlx5: Explicitly store page list
-fe37ac1b5c99fa33931951bb262d50b4485350e7 vfio/mlx5: Convert vfio to use DMA link API
-d1f285d3747e9fa9994794997ed3f81c5828190e block: export helper to get segment max size
-5ac7224eda7722a1e20e37c99a6c8dd93e27728b nvme-pci: remove optimizations for single DMA entry
-f4c7e551974564e8b3ddf292fcd46865917b8370 nvme-pci: factor out single DMA entry assignment
-28f0a14aa34804d5a75cefd7892d8f7da22a86a1 nvme-pci: use new dma API
-12db8bc8acfcf7780044a0624ec08da531c640cd nvme-pci: don't allow mapping of bvecs with offset
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723373343 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1723373342-77c86f7b69fec4a8d566e0f6034ca1f104bdd2e6
 
---===============2305379894188484438==--
+d71d4d3cec8ff97e8be3a3822247be5a1b0c5be4 dd2fd1188a91260c4823daf6edfc4f5973789a9d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma4lx8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GJoQAMEJBReAZNaVY1qK4w9I
+I0FmIMHq9FAxxx45xoRKj0pGLUGDK/mgAirU5o35kO3Px2swj2cDz43Mg5KBW4Rk
+vUo0t5Ndzo/bki04f/tfgj4cwRfJJNF1KBrjYtJsQt5EYki+9u6gqy4gKTkuOX+U
+nmtR8YlMlD2CXlDW+2TQS26XTdx12EsD5YIKOKXPZDH/ybsGVzT8n8Xo8lKkkUC4
+/hWbFqWIv5a8TDzQgnkYD2Fb9l2x8D0ii0SWJBTlHoCIJMwoH602JqpdCGqRkjHg
+8ldzROl+xOhApUvJRmXNH0Vuyn8GqEIps8JBIXCA3+3z/sTHWhBK63vuXuqysc+c
+41vpUjtNS/KUiqjzpgrP+gD9nO+l7C+ECp1+Q+O8ESO4C2mTjBbqBPFMSy8raKSj
+CwDrcRFwFZuu749QsiHbU7w3JmAzEZyZU/GcZdc4Zs7WH3qQNAQBzGFFaL7J0J3A
+YmDB6Ou3L/f0+351H56m1ewTQKElm3q3b7LC6gf9MiKrDKahRPRQzx2O83rhMmia
+iAc4gtqdf+ZtW6GOrYsXqbPnRN5inAp369jrQDM9dfr3iTqkY2T2ypbIk6Co6ooN
+es5E9BuGoeZ/v09t/Gtm3KsYJABXlAA+T3hhqxMYxGyiMLL4YvtmVuK/qUCkA1GI
+LLBJ1JUfYOHLD8iAei9dRczA
+=QGSK
+-----END PGP SIGNATURE-----
+
+--===============4551609101540120175==--
