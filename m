@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 11 Aug 2024 14:50:04 -0000
-Message-Id: <172338780419.10765.2416837090679464726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 11 Aug 2024 15:11:18 -0000
+Message-Id: <172338907850.26000.9951550297482666007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/io_uring-net-coalesce
-    old: 7beeba7e86186e2abf658b984be2698977380050
-    new: cc1f949480e85e2c04203fe07c76400b6b83af72
+  - ref: refs/heads/master
+    old: 44f13539fa11f9e05cf3d867eb264c8abb181aec
+    new: 4d42ccc8bc229959aae844fd2982c1c3f006b6de
     log: |
-         cc1f949480e85e2c04203fe07c76400b6b83af72 io_uring/kbuf: add support for incremental buffer consumption
+         4d42ccc8bc229959aae844fd2982c1c3f006b6de sasha: review v6.10.4
          
