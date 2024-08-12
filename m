@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1905365213127096482=="
+Content-Type: multipart/mixed; boundary="===============5057233240408499122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 12 Aug 2024 16:46:56 -0000
-Message-Id: <172348121689.27462.1052595425074045358@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 16:47:03 -0000
+Message-Id: <172348122354.27587.11386717596413381102@gitolite.kernel.org>
 
---===============1905365213127096482==
+--===============5057233240408499122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 15fffc6a5624b13b428bb1c6e9088e32a55eb82c
-    new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-15fffc6a5624-7c626ce4bae1.txt
+  - ref: refs/heads/driver-core-next
+    old: bfa54a793ba77ef696755b66f3ac4ed00c7d1248
+    new: 0c80bdfc9aa624b4a6c33c30ad11e81bf6407c36
+    log: revlist-bfa54a793ba7-0c80bdfc9aa6.txt
 
---===============1905365213127096482==
+--===============5057233240408499122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481216 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481221 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1723481215-0c70df593610881b21b0818da2a9dffbeb3c7137
+nonce 1723481220-2cbfbd0d978c218c859af5961de5cc75fcf18a1f
 
-15fffc6a5624b13b428bb1c6e9088e32a55eb82c 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/driver-core-linus
+bfa54a793ba77ef696755b66f3ac4ed00c7d1248 0c80bdfc9aa624b4a6c33c30ad11e81bf6407c36 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PIAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PpwQAJ0wQq62k0DkRNMa6Eu4
-XUhpRPdshESidFTlZBM9kL/9KHpONpS9/TZhrsDd+jMX3LLHlQ8dlXt2v23Zpzuf
-jWG7TQUDsXYVZlswh+U8Lib/l7m0xPFnUDkqI1G+zbuMKIWDq4btXQQdv/cqJ3cJ
-/maag+D0ifTeWpWmOmzCc1dr71sa6+KWC7sNQ5XjD+8k4+3xdvBCeHkJoKyVYPED
-G+YOIXkUt5VE8RLEHci8UdRJD5rZwU7mOls8eOjrh9gE3+eQQCjlot7jKSDo3P8V
-c3RAOOOwku5BuSIJN+dCEAYoTebjtQkby6vM3evhzCYkweWyDEwP1Rk1ruuA8oT5
-gqx0UJhDkwZgibpe7dLqo910c52ms41LLokyu8FnX1bsRqtYfU5TVFmc6OkALIim
-utVuiIzMCgsw++fEzGSxOlEHUu0Bc14Ah3C5oPq+AJQEciTOQ3rGNyf9oUU2qWiA
-jHj+PnUWqjaxssmUy9hKqgIVB44p99MnXORmM07bU60ZjTL2xqXajcZEy6T7RwmS
-yeocxcUSYm4UlkTA+2sogINvOREsZX0nsups6IRCZVY9ggHlL0K09G+b0Yl95tk2
-QnTziHR0JHbGhHk0nPD5fEvtfs3Os8Csp5u5nsIRUWvDKTvR6DaokTvyvHBB6G7H
-LlQ2C1jYCnd/Nm0ya3EvT4PO
-=STsV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+53sQAMofPbImXZVZLzuPj/PA
+BbGDzEdVMqfdwg6EwtVPwV87nu+WhdTl6lk1nppCAnUvMfnu748YhAJ1FE3GYS5o
+NWxxTfR46qOsJMybF7dhbQE2H0AIpB8kSOT1VuQ8Qp1fGujqV9hmeDEYU2gD34Xa
+xdj9pIo4/B2EnPxZEtTZQL2ej/6ru8j6GLtC06zv6kHX1dew/wQwbHjj0m0c76dj
+xYqKZzZqpdoCCOU/K58Q6agVa19pviEKnd/tt7UhObUJdMV8QHore6dIiAR6VtdQ
+8/WA15yrxk5lUcNAdLC8OZp748hxQpIXyQ1cBd4gIDl44pVDLq7TuQLLtTcuXVQU
+2QkES1Uo+QVYGcS9VmUQwKP2hl9E4JX+ySKkBl2Bdb5VIpqVxVENB49YGLjoFBG9
+4YGP1A08uGwZu1hLcwrrmc7qxXEi4lg4EXCNLkz5S6qdloAUGDnKqyHCWK8vMngo
+f3XCiUO4bonh00sIWuQt9OGlIa8+vns8Ztl3ZdZmxw8JiJ8BFO8rs4jn9JF5IkJm
+QDlTZreMxb4Ti+s57vkUnScKUlYSqBsGNNAj2bJ49awXvbU9xw7nWcVUCvo/AnlQ
++FEryxdg9hSCS2vdu7F2XixSPG0V1T0ZmrjCw5g52CoBE2K855WH5fXu69tabKKT
+HZjkc9QRdbBCSmTtHSLvV6Uz
+=WdQh
 -----END PGP SIGNATURE-----
 
---===============1905365213127096482==
+--===============5057233240408499122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15fffc6a5624-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-bfa54a793ba7-0c80bdfc9aa6.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
@@ -339,6 +339,9 @@ d955d7cecb51b1a3ef4849886f39688aba3f60b3 Merge branch 'thermal-intel'
 6881e75237a84093d0986f56223db3724619f26e tick/broadcast: Move per CPU pointer access into the atomic section
 224fa3552029a3d14bec7acf72ded8171d551b88 jump_label: Fix the fix, brown paper bags galore
 f73cefa3b72eaa90abfc43bf6d68137ba059d4b1 perf/x86: Fix smp_processor_id()-in-preemptible warnings
+cd04d50979502a1a965869dcd246d44db1bf0153 rust: firmware: fix invalid rustdoc link
+a2e4bdca2c361260609d47dff6c0e36ef2b41d4c Documentation: embargoed-hardware-issues.rst: minor cleanups and fixes
+86fee2877f3427df5876159a182aa70d10964cdf Documentation: embargoed-hardware-issues.rst: add a section documenting the "early access" process
 be62f1289df01b7083f9ee5daf2a27d81355d666 fsi: add missing MODULE_DESCRIPTION() macros
 e6cd0dc91ef9d24edda553343e64eb6b542c21dd eeprom: ee1004: Fix locking issues in ee1004_probe()
 f528cd55853968db8e959ff0e4c2c43e561e7b83 misc: mrvl-cn10k-dpi: add PCI_IOV dependency
@@ -347,6 +350,7 @@ d1009d04a0fefe4df86285cbb37c78aa0b7ab852 char: add missing NetWinder MODULE_DESC
 2c10a20f5e84ab777d29ed921d4c78d66de6d0fb binder_alloc: Fix sleeping function called from invalid context
 f38ba5459ced3441852f37f20fcfb7bd39d20f62 spmi: pmic-arb: Pass the correct of_node to irq_domain_add_tree
 ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c spmi: pmic-arb: add missing newline in dev_err format strings
+15fffc6a5624b13b428bb1c6e9088e32a55eb82c driver core: Fix uevent_show() vs driver detach race
 e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
 50a6dd19dca9446475f023eaa652016bfe5b1cbe ALSA: ump: Explicitly reset RPN with Null RPN
 a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank conversion context
@@ -705,5 +709,6 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
+0c80bdfc9aa624b4a6c33c30ad11e81bf6407c36 Merge 6.11-rc3 into driver-core-next
 
---===============1905365213127096482==--
+--===============5057233240408499122==--
