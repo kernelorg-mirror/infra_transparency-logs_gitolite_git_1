@@ -1,58 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1732796656082395973=="
+Content-Type: multipart/mixed; boundary="===============9018687271849026586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 12 Aug 2024 10:33:03 -0000
-Message-Id: <172345878368.30462.9449351006135021537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 12 Aug 2024 10:35:33 -0000
+Message-Id: <172345893307.735.10146557366358111363@gitolite.kernel.org>
 
---===============1732796656082395973==
+--===============9018687271849026586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/for-next
-    old: e3e4e77140b4a240865309cc543141a593be4a21
-    new: 23a641d5c2bce4c723fff9118a5d865ee6b9d05a
-    log: |
-         8c38617722bdf57a90e6c77ed9ee5ebb60958d2a memory: ti-aemif: remove platform data support
-         f6ae541cc3355fe872d4c942dc47d67877951d17 memory: ti-aemif: use devm_clk_get_enabled() and shrink the code
-         23a641d5c2bce4c723fff9118a5d865ee6b9d05a memory: ti-aemif: don't needlessly iterate over child nodes
-         
+  - ref: refs/heads/master
+    old: a5ebf3657448559aeec5c3e31516695c9655a34d
+    new: ca3deea38b300f6175b943d2f5a0f3f232ccf382
+    log: revlist-a5ebf3657448-ca3deea38b30.txt
 
---===============1732796656082395973==
+--===============9018687271849026586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a5ebf3657448-ca3deea38b30.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1723458782 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1723458781-4f2542708ec26198ec7fe7a2f155e2672cc17a45
+4ef24145dcfff5415029c7cb8b9cd48cee1ab187 arm64: dts: ti: k3-j784s4-evm: Assign only lanes 0 and 1 to PCIe1
+732aac95d77a39b1ef78a9667296419a7e33df89 arm64: dts: ti: k3-j784s4-evm: Consolidate serdes0 references
+a0d37a587f153c0d52070d00ccf047fdf89d5115 Merge tag 'ti-k3-dt-for-v6.11-part2' into ti-k3-dts-next
+aa26ae7f77fe0d79528ec61c232cd2a9aefa12f0 dt-bindings: usb: microchip,usb2514: Add USB2517 compatible
+55288a83587dfb08478b44a7897f558fef16d31e arm64: dts: ti: k3-am62-verdin-dahlia: Keep CTRL_SLEEP_MOCI# regulator on
+bac04d23616f458280e6627b30f3a97da3e934b2 arm64: dts: ti: k3-am62p: Add gpio-ranges for mcu_gpio0
+8a9c5c189689a4006c93f0ccfbcc0cff97437351 arm64: dts: ti: k3-am62p: Fix gpio-range for main_pmx0
+ccc4534faf10ab1dd92054aee2882c9b2a970a22 arm64: dts: ti: k3-j722s: Fix gpio-range for main_pmx0
+4b69ebe2916cb9300141cb96ef43a061f7fe9ee7 arm64: dts: ti: k3-j784s4-main: Correct McASP DMAs
+8dc5413a7458885acac03099da410d5a5eb391e0 dt-bindings: display: panel: samsung,atna45dc02: Document ATNA45DC02
+f09c114db2f15cad8916bec9a56a72846fcee9db ASoC: dt-bindings: qcom,wcd937x: Correct reset GPIO polarity in example
+d3c8bda33435df21b1dbe04f2531105778702b57 ASoC: dt-bindings: qcom,wcd934x: Correct reset GPIO polarity in example
+86abe8a4d35988201349bb90ec1866ad666346ad ASoC: dt-bindings: qcom,wcd938x: Correct reset GPIO polarity in example
+360abf66559b5cfd547e344d0254bbe1d5e371ae ASoC: dt-bindings: qcom,wcd939x: Correct reset GPIO polarity in example
+42dace775595b49c299177ca3b01e644eb943510 Merge tag 'drm-misc-fixes-2024-08-08' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+4acbf538e2976fd943c4953675495627f9420b19 Merge tag 'asoc-fix-v6.11-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+8f739ba319676204d5ef45eedef2c83046f0e9e0 Merge tag 'arm-fixes-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+c3f6670f71b051ae7cbd6358d3e8c6796788139d Merge tag 'drm-fixes-2024-08-10' of https://gitlab.freedesktop.org/drm/kernel
+3044a84d0bd6408a19eb8bc68a24b02417a50a53 Merge tag 'usb-6.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+ca3deea38b300f6175b943d2f5a0f3f232ccf382 Merge tag 'v6.11-rc3-dts-raw'
 
-e3e4e77140b4a240865309cc543141a593be4a21 23a641d5c2bce4c723fff9118a5d865ee6b9d05a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAma55N4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1ypWD/9CKrvclNfYfLuc7tC35f+mvN3MsuZRhZz+
-Seewex7GjIgt/6DGQqrtHjxY/I1qOFE8m4UNqVFul3bDuQBpX87qG1LHdk2rGEm4
-CbJfF2P4TEeOdrRTsv8UFO3asbXSowiVRkW5vKvRvnZC64oKjmp18nByIPBZ1ZDj
-bOv8k8pC3wfcMMqpy6gHc4Sg2mjzLNjN5Au3su7KaGbESIlZLez76C6y4tkJ3BXZ
-QBQQFNqaR2eXH8pQNBTwajZppHzt+ZH0S7AnOoqEC/A3+MXXc/iRCeFmutRreNa0
-XXHqEsq6oVpp3CL9AdrvplWE+yxHiWxHRDKPoo5ShXcYhx5dmjoEHFhdUn5CZio2
-MHSAmWjT93CkyAvwrL6kTaAEXxnkdaOF8ekAG39wMTAbo1f+IwJ80khuQAB4ePNR
-KOkREJwso0s34vQ6fQ8lngWpTrSzbfCRT4pHlo0l0cd1uskiWXQXOY3y4p9s26Zf
-y1Kbz8z8eCnDnhgAWLITRRkf4KwfZu7Qr0RTX9i+zaxkaDNRdNiVJw5gozHqTpVi
-fW37d0oOrEzE/ntEsdMw1bEaDW6nhrZSXCyPx+YLRQU9WrvK23CAKUcANIDZac1u
-Fjx1VevrbaL4I22jGzP4B4nq74gJfHaAL+CI8XrpRJ3Vl0foXHgE26VUH1+zyx1W
-t81ZOa74dA==
-=iuMQ
------END PGP SIGNATURE-----
-
---===============1732796656082395973==--
+--===============9018687271849026586==--
