@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============8066166654190476430=="
+Content-Type: multipart/mixed; boundary="===============0023557519675896076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 12 Aug 2024 17:09:16 -0000
-Message-Id: <172348255641.12155.715390229809535017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 12 Aug 2024 17:09:26 -0000
+Message-Id: <172348256604.12305.6967122723209699888@gitolite.kernel.org>
 
---===============8066166654190476430==
+--===============0023557519675896076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 9dcdeafd362189441453eced2cc3efe37888baa7
+    old: cb1898f58e0f175d168a5a8c5a269a4d24cbbef5
     new: f18b0152e599be155ca16424eb49ed91f3b65137
-    log: revlist-9dcdeafd3621-f18b0152e599.txt
+    log: revlist-cb1898f58e0f-f18b0152e599.txt
 
---===============8066166654190476430==
+--===============0023557519675896076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9dcdeafd3621-f18b0152e599.txt
+Content-Disposition: attachment; filename=revlist-cb1898f58e0f-f18b0152e599.txt
 
+4f21bfed691c96da1fc85b76c16e8f6d8fe98a3d perf tests pmu: Initialize all fields of test_pmu variable
 e6b56ae7c2d82976398fdbf00858f31193cf5971 perf script: add --addr2line option
 043da846c2b2dfd5b187bf3a9993b8fb0a6ed94a perf docs: Refine the description for the buffer size
 a5830204dd3e871054c166a5664ca73dabf4305f perf auxtrace: Remove dummy tools
@@ -40,4 +41,4 @@ c5231977d3be1c2abbcd03a81e0009e77d8f4dce perf annotate-data: Fix a buffer overfl
 b2ba47b208fc013acada92c208b1894b4a440c0f perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
 f18b0152e599be155ca16424eb49ed91f3b65137 perf test: Add test for Intel TPEBS counting mode
 
---===============8066166654190476430==--
+--===============0023557519675896076==--
