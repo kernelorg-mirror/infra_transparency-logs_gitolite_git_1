@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 12 Aug 2024 18:23:50 -0000
-Message-Id: <172348703082.1943.7532961969872523644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Mon, 12 Aug 2024 18:27:46 -0000
+Message-Id: <172348726629.5015.8735880157648200145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 73f24c57f0f6152cfc932d857d9cbd05fa1006cf
-    new: d5651e09b2325f8ff19c0cd501e9d779b9ca8499
-    log: |
-         7d442a33bfe817ab2a735f3d2e430e36305354ea binfmt_elf: Dump smaller VMAs first in ELF cores
-         d5651e09b2325f8ff19c0cd501e9d779b9ca8499 binfmt_flat: Fix corruption when not offsetting data start
-         
+  - ref: refs/heads/fixes.12.08.24a
+    old: 0000000000000000000000000000000000000000
+    new: 0aac9daef6763e6efef398faff71f8c593651cce
+  - ref: refs/heads/next.12.08.24a
+    old: 0000000000000000000000000000000000000000
+    new: 2b3afc0e5eebe2d7d3c3bfcb96f0988fac4393d0
+  - ref: refs/heads/srcu.12.08.24a
+    old: 0000000000000000000000000000000000000000
+    new: e53cef031bfac2369d249cfd726706c30a5a3351
