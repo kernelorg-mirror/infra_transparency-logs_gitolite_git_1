@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0023557519675896076=="
+Content-Type: multipart/mixed; boundary="===============5929922922443833533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 12 Aug 2024 17:09:26 -0000
-Message-Id: <172348256604.12305.6967122723209699888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 12 Aug 2024 17:11:37 -0000
+Message-Id: <172348269749.14744.16476206665821756013@gitolite.kernel.org>
 
---===============0023557519675896076==
+--===============5929922922443833533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: cb1898f58e0f175d168a5a8c5a269a4d24cbbef5
-    new: f18b0152e599be155ca16424eb49ed91f3b65137
-    log: revlist-cb1898f58e0f-f18b0152e599.txt
+  - ref: refs/heads/master
+    old: 7ee7848a96c1ad9fb0d09d24ccc44a66a112301d
+    new: d2f14b29519c523378f2cbc1fa961d05e13747b3
+    log: revlist-7ee7848a96c1-d2f14b29519c.txt
 
---===============0023557519675896076==
+--===============5929922922443833533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb1898f58e0f-f18b0152e599.txt
+Content-Disposition: attachment; filename=revlist-7ee7848a96c1-d2f14b29519c.txt
 
-4f21bfed691c96da1fc85b76c16e8f6d8fe98a3d perf tests pmu: Initialize all fields of test_pmu variable
-e6b56ae7c2d82976398fdbf00858f31193cf5971 perf script: add --addr2line option
-043da846c2b2dfd5b187bf3a9993b8fb0a6ed94a perf docs: Refine the description for the buffer size
-a5830204dd3e871054c166a5664ca73dabf4305f perf auxtrace: Remove dummy tools
-9a2216369ef190234c1560093fca1e8e7c3601e3 perf s390-cpumsf: Remove unused struct
-0520d06171c08ba45f4ea12997b856af698b3d5c perf tool: Constify tool pointers
-c5231977d3be1c2abbcd03a81e0009e77d8f4dce perf annotate-data: Fix a buffer overflow in TUI browser
-33bbad5cd3a0aaddecc8378d9c33e59d80284f6d perf parse-events: Add a retirement latency modifier
-0d40cd03cdf0abb53a70b751bc4252bba152c822 perf data: Allow to use given fd in data->file.fd
-803d0da717be719d8edb4d5435d98d5181aa4450 perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
-89feec866c52fc2fa74e8609903d48dd31bddc8f perf vendor events intel: Add MTL metric json files
-514f0cdcbe913cd9b5e17b95c73682da8c34a22e perf stat: Add command line option for enabling tpebs recording
-b2ba47b208fc013acada92c208b1894b4a440c0f perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
-f18b0152e599be155ca16424eb49ed91f3b65137 perf test: Add test for Intel TPEBS counting mode
+cd1507620f680e8818a973fe959c3d6387d7cddc dbus: Add net.connman.iwd.BasicServiceSet interface
+fe2a91ae11e6637079449c15aeb77c85d073f73c network: Add BasicServiceSet object
+560ad581add033bea8f6d9f503e9e40d2e2faf86 station: use network_bss_{start,stop}_update
+aca92df19b773a0c6f993f65a957d8ca67620851 network: add ExtendedServiceSet DBus property
+68e1d055dd10b36afe6ebf19e559547bc43b9f74 network: remove network_bss_list_clear
+a73b877c5b36fc2ccf4f8e490bcabaf9434850e6 station: add ConnectedAccessPoint property
+b31e298df4aadc119becafebe62ed5d76d2f3a29 doc: document BasicServiceSet API
+a7d8b9a06849688d0611d17cc2f23bc6a9f1137e client: separate property header and values into two functions
+0e3322b5da946f14ca2c1514d9796652f3f56df9 client: add net.connman.iwd.BasicServiceSet definition
+05166d099904bfcf2d4cfa37b10fd3cc4c4bdc18 client: Add BasicServiceSets property to network
+0d7ff8ebd9dc37daac0a817820d8117c5f6576f6 client: add BasicServiceSet interface
+73c79dbd41b27d6dcd06da8adacb5acc08b06768 client: refactor cmd_connect() and add find_network()
+d2f14b29519c523378f2cbc1fa961d05e13747b3 client: add station command "get-bsses"
 
---===============0023557519675896076==--
+--===============5929922922443833533==--
