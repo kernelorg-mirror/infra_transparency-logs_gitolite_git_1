@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8595966161121437612=="
+Content-Type: multipart/mixed; boundary="===============3851717695677730205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 12 Aug 2024 18:55:06 -0000
-Message-Id: <172348890695.26215.7782081547663168125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 12 Aug 2024 18:55:18 -0000
+Message-Id: <172348891807.26368.8832923498932657703@gitolite.kernel.org>
 
---===============8595966161121437612==
+--===============3851717695677730205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
 
---===============8595966161121437612==
+--===============3851717695677730205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -326,4 +326,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 a1460e457e7ae42f48d8490c1214fa29f23e4d58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d74da846046aeec9333e802f5918bd3261fb5509 Merge tag 'platform-drivers-x86-v6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============8595966161121437612==--
+--===============3851717695677730205==--
