@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 12 Aug 2024 22:19:14 -0000
-Message-Id: <172350115483.13582.10896902721193259522@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 22:19:28 -0000
+Message-Id: <172350116866.13758.16116856255231055643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: d7fae3906382defc01fe28be7f10d3a738a48767
+  - ref: refs/heads/for-next/hardening
+    old: 5d6b91b74ccdbba4d23d725a11053472c0b2d4e3
     new: 84c55b004573b85f3898b72453a22827687b20b2
     log: |
          5ef2221e1f2163cb5e236c28621679461e6967dc refcount: Report UAF for refcount_sub_and_test(0) when counter==0
