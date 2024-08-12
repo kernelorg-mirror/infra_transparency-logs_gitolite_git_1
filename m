@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 12 Aug 2024 15:50:03 -0000
-Message-Id: <172347780352.16261.14677430875732576569@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1264027107333451336=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 Aug 2024 15:50:41 -0000
+Message-Id: <172347784161.16636.13760919633701000430@gitolite.kernel.org>
+
+--===============1264027107333451336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-net-coalesce
-    old: 5df28c78a6f25dbf4321d06bf6047601b591d978
-    new: 5a0e096425f46285b82f6a521d26fe821f9d0ec7
+  - ref: refs/heads/master
+    old: a2e0146a5c564ac50b635d69117801baab855e6a
+    new: d4fc7ce48ffa48a66f013944281566e938100237
     log: |
-         8dc53a5610eca953a027b3624580ef8982ce9d8a io_uring/kbuf: add io_kbuf_commit() helper
-         6813bb43c75ad7195cc36bfc3e8f3a1359882a83 io_uring/kbuf: move io_ring_head_to_buf() to kbuf.h
-         51ec7b5f3cd0aff89ccb4d2360c48db57e455e9e io_uring/kbuf: add support for incremental buffer consumption
-         8028805d0615787269b26ed7ea0e1f765be9d68f io_uring/kbuf: have io_provided_buffers_select() take buf_sel_arg
-         3eb68a2453a2dd2a7bc90fea851fa1dfd4cf1bbb io_uring/net: pass in io_kiocb to io_bundle_nbufs()
-         1f239937ea696222ad7a1a4fbd6c5a3634aacee4 io_uring/kbuf: shrink nr_iovs/mode in struct buf_sel_arg
-         5a0e096425f46285b82f6a521d26fe821f9d0ec7 io_uring/net: allow coalescing of mapped segments
+         d4fc7ce48ffa48a66f013944281566e938100237 5.15-stable patches
          
+
+--===============1264027107333451336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723477840 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1723477836-8d12af8e085d965a4cc4f58f4e1ed73988087ef7
+
+a2e0146a5c564ac50b635d69117801baab855e6a d4fc7ce48ffa48a66f013944281566e938100237 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6L1AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3d4P/0Si1Sck91Jx2pCDUosD
+dltseRZ+gW28AGnPWhw4JyXBvOn5zZ/ERpQuHl5HvJfKMOoVq6I04wNFff5EqpLR
+9hvrU3M6BiYebE/cRhCrvI1bGAu6Mc9xKXVpSqh8ZsOpN8vcVwiHqDD/dzaMCOmW
+vrSuc8QJ8cOTYHHrep0ecCAwwDct9s6uGZ9nRonjHK6XNsJEUptniq4+2zAuGMVG
+do6JHZtRbIkGNIEYBJrD9py2lNNjowHGkQURUez5R79fgYuXgsmMNk3RiAlA8bHz
+xsD9pMfY1qZL6rKOMB4qAai3ZW1rtkzG55nykZJ7s/q3Z3GzVhjh6HBX5m98ArMy
+FqnqQBOdiJgi3sIHd0ndcITz2SwsiyPGoyh55bLrRPj0qO8gNQLPl0gckIfieRtM
+WfbxA2GSJ73nbS5ICRkklWXUD3qL6n51h9/aKO7fFo1R6K4GrmiDS2m+b1tspNxI
+ag0b8DqNtZOIIFq3cwvVSA8DKglVj2xStbJyvPucvAEaIU2rKzl4MCeUnie7acyh
+RZcncCvk3lZ5FCSs4ynep8ezVPpDw9FSA8HjauS+TXtx97zOOHJjVIDZDuCcDf5O
+AR1EALb0R+cYTrgJlP5rWZJYKlnUstGdFd4tuW5Hhh+3Iur8poW454FRJP9I6Rzo
+JhiHQX/StqdbonA47SNuSOku
+=o1pV
+-----END PGP SIGNATURE-----
+
+--===============1264027107333451336==--
