@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 12 Aug 2024 08:02:49 -0000
-Message-Id: <172344976927.18776.15317836253399620664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Mon, 12 Aug 2024 08:05:29 -0000
+Message-Id: <172344992923.3567.4705363874888360213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 91865b4f3b0dd30c132271b806016852b6641bdf
-    new: d85e9f0a26f1cf04af103fc1ab7659aafee16090
+  - ref: refs/heads/master
+    old: 218d1460e046a55d320620823f7bd5de9881e131
+    new: 21fcb86afa068472e933be7a8d055ba7357d417a
     log: |
-         d85e9f0a26f1cf04af103fc1ab7659aafee16090 Notes added by 'git notes add'
+         158f10565163523c819e072a3cd0b5569561e84c wireless-regdb: Update regulatory info for Bahrain (BH) for 2024
+         21fcb86afa068472e933be7a8d055ba7357d417a wireless-regdb: Update regulatory info for Guatemala (GT) for 2020
          
