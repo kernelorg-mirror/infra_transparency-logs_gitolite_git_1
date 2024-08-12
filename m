@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 12 Aug 2024 18:13:05 -0000
-Message-Id: <172348638589.26946.3992229832823547351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 12 Aug 2024 18:14:20 -0000
+Message-Id: <172348646039.27465.3652471050363803464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-linus
-    old: 5560a612c20d3daacbf5da7913deefa5c31742f4
-    new: 054308ad90ae43ba2d4b9c83c6582e8fe94f6fed
+  - ref: refs/heads/master
+    old: d2f14b29519c523378f2cbc1fa961d05e13747b3
+    new: 1455988efbe7f1632758f40f1d4c4dfaeea81b76
     log: |
-         054308ad90ae43ba2d4b9c83c6582e8fe94f6fed MAINTAINERS: Add Manivannan Sadhasivam as Reviewer for PCI native host bridge and endpoint drivers
+         1455988efbe7f1632758f40f1d4c4dfaeea81b76 sae: support default group for H2E
          
