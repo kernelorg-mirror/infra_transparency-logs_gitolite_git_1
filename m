@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0598802324928459906=="
+Content-Type: multipart/mixed; boundary="===============1166891805473431209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 12 Aug 2024 15:51:56 -0000
-Message-Id: <172347791674.17638.4153306007941299115@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 15:51:59 -0000
+Message-Id: <172347791905.17707.15150482813409549047@gitolite.kernel.org>
 
---===============0598802324928459906==
+--===============1166891805473431209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 67927a1b255d883881be9467508e0af9a5e0be9d
     new: db1b4bedb9b97c6d34b03d03815147c04fffe8b4
     log: revlist-67927a1b255d-db1b4bedb9b9.txt
 
---===============0598802324928459906==
+--===============1166891805473431209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ c25504a0ba36968f919aa30caff172ef23346299 dt-bindings: net: fsl,qoriq-mc-dpmac: a
 32316f676b4ee87c0404d333d248ccf777f739bc net: mana: Fix RX buf alloc_size alignment and atomic op panic
 db1b4bedb9b97c6d34b03d03815147c04fffe8b4 net: ethernet: mtk_wed: fix use-after-free panic in mtk_wed_setup_tc_block_cb()
 
---===============0598802324928459906==--
+--===============1166891805473431209==--
