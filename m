@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6666197886849266230=="
+Content-Type: multipart/mixed; boundary="===============0125535974386032636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 12 Aug 2024 16:48:23 -0000
-Message-Id: <172348130330.28399.6402306508097869086@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 16:48:30 -0000
+Message-Id: <172348131037.28533.4836936060085902349@gitolite.kernel.org>
 
---===============6666197886849266230==
+--===============0125535974386032636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 6e20753da6bc651e02378a0cdb78f16c42098c88
-    new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-6e20753da6bc-7c626ce4bae1.txt
+  - ref: refs/heads/tty-next
+    old: 259b46204885431f2853afa2a2bffa63f3705e67
+    new: 9f3eb413606b259c03ecbd20d61e5f7906681891
+    log: revlist-259b46204885-9f3eb413606b.txt
 
---===============6666197886849266230==
+--===============0125535974386032636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481302 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481308 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1723481301-38ba6b97e0dbe9ff5ef86e0399ab460d27122d81
+nonce 1723481307-056dcbde3d90f80c85dad3c783e528b268c13a91
 
-6e20753da6bc651e02378a0cdb78f16c42098c88 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/tty-linus
+259b46204885431f2853afa2a2bffa63f3705e67 9f3eb413606b259c03ecbd20d61e5f7906681891 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PNYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BlAP/jSuGVQcPkyNMy7bbuhw
-BdTJSfMPdyzTlRoH3njEk36PFjwG6wtrP35zlIEdnHq00GgdeGlti2tdPN7hZxBT
-/Ynd5i+YLEw7XdI1XvcSqd2NzqtFB0joZ3xjDypq9CfWVHsow/ADyEby9ddeZXWW
-5RwuDLpaJpa4VzhZeb/nYAKgNsl4loI26PNSH1HWMwaKZnmXg4CeaM84iwU2HrWG
-sj8LHXaYoFR6QN0TzDBJJf7lsh7mWdQM9rlhe9IOWHHYfLpmWOob9nZ1AS/Qzvy8
-XfEVUbi4UVVDGI5aXUrNPmGYzZEcD/kki08pPk1Ux/oFsBmZFYdX+Qg5tREtbm9d
-FudY0T34VtvVAjH1wLuZ2KtX6iF6XCEKqAxzaBOpl1Ng+rpDiRJc368HWH5kpv82
-vyUlb81zvbdc5bmGCBGprp4tdVxjOBcX6L+LgYr5dEJXQEn5oOMOpr4NSL7cdrUX
-iuHJR0GM2dbw1AazNkkdaE9MM4kx19NT15ZjXkjjlKvwVV+vqB1NOspLJiBwWgD/
-ubTwL3WzMRtbne74VwXEoTBJND4XJkFwKM7+C9zHK9CKsll65YEKDJ32+36W0Hf8
-qp5x70Ggeqst7w6qbQ6hWjlIgsGMePmaLFywPF/nnxo8xLbSIH/VDiF1FhMwCg/s
-Fgok1xVUuQI2XjHv89pJDxCf
-=aqMN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PNwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QQsQAL6an4AeZFuzImI/ZgWm
+N+pISbk1fiaVoNMqlRQpU0FLdiP35nr1YXs7XAR3OvEWkqDvR2Sbs+60TzxqyRW/
+yT35++KPlKJwg8fdfDxvW8zKbvjo3CJSOe6iMTJlhhIr0CoVucGXGRe4iBEmtrPZ
+SBNclY3UBcEVH1upjP5ZZFLolrOEKz9P6kg5VR2t36bMGiY7Z2KMB+D2NGcgheDO
+WMUBSYLbkOhgtyKg8gtAjxm3oPXHUI6sNq919F6lOi9pc3wSoVklky8+HaCEyUVo
+47gS0URUQle1VteKEOwr3HwkaEngbqBFzR1U/PW0cZdmTqpuYhW5X34vZ/IlQZxv
+NKWXKXwi3AscuoiPeo2bBoPLKk26wyIOTsDizBHrCDkzqmHhcrnnUmZPinWZHR1Y
+UtZSVhDVvwCmcIbFqyRtSYdP8r+/4A/lehZViVHUannNRNSWIFJX7cPIIiBnjqCX
++v5KvgPhDq5pnk51iLM8uIesdSyHh+Qpe1FNdCVywO3Xpyqv4wtX+exId5iI1w5Q
+C7ZW0o+CTTRYJxlgrr2/RLeh9mBG3R4WtiFRzGWhwwFxGppCnf1FIVV895GAVB52
+W1GQbF1YSUx9du+ceLcl4YketzyWFcjZ1PNDWfLINrmvDAC5EX/aPzBtE8IVFeeD
+stPNvpDqjhWlPEC3//o0aIpy
+=1Fsf
 -----END PGP SIGNATURE-----
 
---===============6666197886849266230==
+--===============0125535974386032636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e20753da6bc-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-259b46204885-9f3eb413606b.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
@@ -330,8 +330,12 @@ b1dad2f091382b0049c72dab8153779248fa8016 usb: typec: tipd: Delete extra semi-col
 3dab73ab925a51ab05543b491bf17463a48ca323 Revert "ALSA: firewire-lib: operate for period elapse event in process context"
 6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
 3114f77e9453daa292ec0906f313a715c69b5943 platform/x86/intel/ifs: Initialize union ifs_status to zero
+6eabce6608d6f3440f4c03aa3d3ef50a47a3d193 serial: core: check uartclk for zero to avoid divide by zero
 f844793f2d374ffb7f2231f4d36cd4bc52f12de0 thermal: trip: Avoid skipping trips in thermal_zone_set_trips()
+133f4c00b8b2bfcacead9b81e7e8edfceb4b06c4 serial: sc16is7xx: fix TX fifo corruption
+7d3b793faaab1305994ce568b59d61927235f57b serial: sc16is7xx: fix invalid FIFO access with special register set
 d955d7cecb51b1a3ef4849886f39688aba3f60b3 Merge branch 'thermal-intel'
+6e20753da6bc651e02378a0cdb78f16c42098c88 tty: vt: conmakehash: cope with abs_srctree no longer in env
 6881e75237a84093d0986f56223db3724619f26e tick/broadcast: Move per CPU pointer access into the atomic section
 224fa3552029a3d14bec7acf72ded8171d551b88 jump_label: Fix the fix, brown paper bags galore
 f73cefa3b72eaa90abfc43bf6d68137ba059d4b1 perf/x86: Fix smp_processor_id()-in-preemptible warnings
@@ -705,5 +709,6 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
+9f3eb413606b259c03ecbd20d61e5f7906681891 Merge 6.11-rc3 into tty-next
 
---===============6666197886849266230==--
+--===============0125535974386032636==--
