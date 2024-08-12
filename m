@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8137578186013589702=="
+Content-Type: multipart/mixed; boundary="===============7728496238407156514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 11 Aug 2024 23:50:40 -0000
-Message-Id: <172342024096.31093.8727932053879864814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Mon, 12 Aug 2024 00:29:34 -0000
+Message-Id: <172342257498.25179.5803279391362774976@gitolite.kernel.org>
 
---===============8137578186013589702==
+--===============7728496238407156514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 69e8c2f4508357ab6fa00be592dfc0bde7864104
-    new: e5f5022b026cf43b68aa30f73739df765f605db6
-    log: revlist-69e8c2f45083-e5f5022b026c.txt
+  - ref: refs/heads/ps3-queue-v6.11
+    old: 3df0b1f050aa4c6f019613f0d9d3dc60590ea5fd
+    new: 0ae5d16341f8d89d3d9bc7aa3116b38d764889d8
+    log: revlist-3df0b1f050aa-0ae5d16341f8.txt
 
---===============8137578186013589702==
+--===============7728496238407156514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69e8c2f45083-e5f5022b026c.txt
+Content-Disposition: attachment; filename=revlist-3df0b1f050aa-0ae5d16341f8.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
@@ -342,33 +342,21 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
-687caeab9844db8d8a38f6f62ed05f0d2c7ecb30 nfsd: add list_head nf_gc to struct nfsd_file
-fd61a51ad515b91190e2e226118b855655e2b552 nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
-5f0d1fe7129bfbd52adbf9761dd92e63e46aa506 nfsd: fix refcount leak when file is unhashed after being found
-c776fc31a70ba5d379c593b17bf53e36a1191ef9 nfsd: count nfsd_file allocations
-e9dff2092e6a2cab8437f0d25a5eec8c3add57b8 nfsd: use system_unbound_wq for nfsd_file_gc_worker()
-7dc5b64eeb608005f5b7db25248d56097aea9a1e NFS: trace: show TIMEDOUT instead of 0x6e
-df762decf47ef51ad1dc5e53497fb53bf15b262a nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
-e75a47426611559f24d2c916e789470e678e2779 lockd: discard nlmsvc_timeout
-75b73d4437c839eff8768155613ecaf2bbf85123 SUNRPC: make various functions static, or not exported.
-c7b025a9d553b964372f53eceb2c9db3a5b1c28f nfsd: move nfsd_pool_stats_open into nfsctl.c
-f5af6b7b03e44583aa8bf29d94650d35c5265178 nfsd: don't allocate the versions array.
-3db062459676ff767120a4080ffc82734d3eb5f1 sunrpc: document locking rules for svc_exit_thread()
-71658af18df2b785a40ed60af33bcf0346065f7c sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-5a3ef3cd7ae07d9672f4f9ff195b8e6f114a9680 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-59807b23931197a19d956abf7dbf9550193e8f7f sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
-67333b75cd0c9469b40d90142d7a45e1d6a671fe sunrpc: allow svc threads to fail initialisation cleanly
-3f47c05c06b550bfdb17172ff8656a377c005828 nfsd: don't assume copy notify when preprocessing the stateid
-777a12a4bd6245d0d24f63abbc30109654ebda26 nfsd: Don't pass all of rqst into rqst_exp_find()
-5c018453c37177372c743f7017e6fd6395a83d4e nfsd: Pass 'cred' instead of 'rqstp' to some functions.
-0982d5266ac504503421fba0d098f6089a0e2abf nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
-885a31edf40f91672cc8cdd112f482f6a986fe0f nfsd: further centralize protocol version checks.
-a63832262e220b9155ec6f32dd6f12cf10a6abf8 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
-402ce6ab624d6f1e12c4adc93e82e0bfa6feb946 nfsd: Move error code mapping to per-version proc code.
-b9982372ff54e95a8bcfbbb136f8bca82a72317f nfsd: be more systematic about selecting error codes for internal use.
-bd0c04afe5c02a9fa6a55e85eb191389c7e06b4e nfsd: move error choice for incorrect object types to version-specific code.
-f63764aeea0e8dd42f18af589ca1b8d5855abc29 svcrdma: Handle device removal outside of the CM event handler
-ec6836a4a51f78c501c2d2bb220e7f791642767b nfsd: Add quotes to client info 'callback address'
-e5f5022b026cf43b68aa30f73739df765f605db6 NFSD: Fix NFSv4's PUTPUBFH operation
+45b26d817891beb19259b95e64e9a59aef55f847 net/ps3_gelic_net: Use napi routines for RX SKB
+4c4160f6ffdc559a1938631a8d905dddccb39b6d hvc_console: Allow backends to set I/O buffer size
+d29bda5aaa8efb463c9671ca7765c0a2a56bb8d6 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+7bce4f8e410d2cd12dd0fcecb52f0904afe84fd0 ps3-debugging: Setup DABR register
+0b7069e70c9e144770e7c344828846d444434459 local: Add ps3_nfs_defconfig
+fd9ea80eb93be9fdabfcd1cee08291267fa8c3ac local: ps3_nfs_defconfig: Cut down version
+085ff2a2f439d3503b2080720912a385a70a0057 local: Refresh ps3_nfs_defconfig
+2c7f9726b43a6471b3e59f76c475d1473b55cfa3 local: Add ps3_petitboot_defconfig
+d00f02dc467d1b499ab0cf03a723d1da59318193 local: Add ps3_petitboot_nfs_defconfig
+854e29f9f5f20347b43f570ca40cc145ba1dfd29 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+70aa8543361af5d8f24699794d527113094eb008 ps3_defconfig: Cut down version
+38b916eb8e872ece5df64ee9a1c33a5f2dc7da6b Refresh ps3_defconfig for v6.7
+2c3b4e3e05c5615ba6aae9d8f466a1221c74fb94 ps3_defconfig: Updates
+fc2f588e14d1e81f3aea4b182351152cfd243183 fu: gelic skb cleanup
+008dd7ed0bc141e72f9c209c67271ad8fff175da fu ps3_gelic_net: Use page_frag_free
+0ae5d16341f8d89d3d9bc7aa3116b38d764889d8 ps3_defconfig: Refresh for v6.9
 
---===============8137578186013589702==--
+--===============7728496238407156514==--
