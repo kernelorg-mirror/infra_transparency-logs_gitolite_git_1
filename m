@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1564952313235192668=="
+Content-Type: multipart/mixed; boundary="===============1399084266352274358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 12 Aug 2024 16:49:38 -0000
-Message-Id: <172348137877.29235.10780678507368740585@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 16:49:44 -0000
+Message-Id: <172348138407.29359.15495110341102570861@gitolite.kernel.org>
 
---===============1564952313235192668==
+--===============1399084266352274358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/usb-linus
+    old: 65ba8cef0416816b912c04850fc2468329994353
     new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-8400291e289e-7c626ce4bae1.txt
+    log: revlist-65ba8cef0416-7c626ce4bae1.txt
 
---===============1564952313235192668==
+--===============1399084266352274358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481378 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481383 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1723481377-7f81e05392ce287e18dd36d38f8b666e3059e39e
+nonce 1723481382-efdf010178c3b368bf7382dcbb5446975dc1c938
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/main
+65ba8cef0416816b912c04850fc2468329994353 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PSIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xq0P/jefPNSZebupnxCMFekz
-UM5CthvNwvbGeX4vSpi1fzXpJ1tNQ6laUEETz1E4cKOlzbEoG3WGvi2peNu0ZmmT
-Tdazt9rB4MxE6LWEoBAFQx68DNdbqleCXg0IdGNEtqnyE+L7VeSaWgwdmOMCa2zm
-nDxV0jUiAJrBIGl4wOsehKxxQow1c4HQ2axgh/ICOuF5ILnT9+0f+dK6MpqXwB1I
-fYfii1FP4MNPS191JiC1LaGg6a3j4x4EIaERVVYkZdc3GyJJFnacPuk0bqBFIyVj
-8/3iAWQ7fztS9IcSRUqOO0+LOFqEWk7wuYpCCzxjFlsw+J06tuqWC3CFw6ZwwrTu
-IF1tQXAAGZe5h4xA5uWhJnUPCUyWtJT70ucARCn/agKoqmNLUbNI+gq2uf+o1MDs
-byoZdnAXVgufUiLMr7lwP3qm7+fy/6j+xbgFPgg6Hrm+vyCllOoft1QOjwrRo8tw
-qNxF/S85q2bSndJRSyCUI00qnpJ3SqLDJ9+5Vqsy5MP9x7jKiNYYK+mV8dOKaijD
-BOWmKSC9gXIbphRm4o1kqiv0c85hZQt9jZ9SQCuLxM/mPXLCy1a3SEya6awpj7Tb
-sEwtyYqxcigPykFNBSaHjDkUg7fCnEM3Ic3SPh41sTFWaEaWEtPCotgCWgy/2gFr
-F0kDZOA5FoBPd38KpnRlsppp
-=28Zc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PScbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h3gP/1U1JELH46P+6kdw1qH1
+hclaDpFA6T7mvQQN0zXEmy12yIHcSjJHe8z30KmZMIer72BDOriG2ERW6KtcjJg/
+1cEyzKWO9naj/wNGNLsJV+vakaw8LvszoSXU1IS9P1y4IA4vOYPYjnkJpZc6EX88
+7xD+Tsd+ux0TJBShXr5znvR3H4ALMTvmMdqrg2rza1n9Wnc/zHVZI2LSsIeanGMV
+gzGMcfCpti0/mo5MabHnLntvJocwdTao30/6GJ3Kj6aLHnivkjGml+pVFLiypgq5
+HHbj1otp05TpemOw+CDGf7MwtVMH6WxwAhyxFGrUepsgo/W69977e1+VeCLwgNJd
+kvK4RxXPX7p+5acBT5E4SKwvYfUOQMk7/N08dabyTdgYR7tLnioXnsaub8RWSQbL
+OkytCc5pFSxiODWIRPCB7t9W5VvqIHYPXDV2Eg0iMylU1JcJPWDSP90vDZCFVl2s
+n6zW7JJbvZAjo57jfHPF1Y7mLYtNmtb3qvlPXDjPAzkFJANpaxBK4CZFjbxH3Ekn
+5UVIdCHZl2oSqnK0EC6aS/QMbuiwozXx8BYo5+QP/acvAVi+Otz50eojFZYRzXC3
+GebgiHBuORuOuwbCj/6pn+ZF2CzWWF6UUgdMtdc+A+IAOZ6Tg0UNWMyuRVmaCe2B
+4H7fR/bd3AHQgjucKX29IKEE
+=uCxO
 -----END PGP SIGNATURE-----
 
---===============1564952313235192668==
+--===============1399084266352274358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-65ba8cef0416-7c626ce4bae1.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
@@ -65,10 +65,6 @@ ed0f941022515ff40473ea5335769a5dc2524a3f ARM: 9404/1: arm32: enable HAVE_LD_DEAD
 4e7b4ff2dcaed228cb2fb7bfe720262c98ec1bb9 ARM: 9406/1: Fix callchain_trace() return value
 2335c9cb831faba1a4efcc612886073b6f175fe4 ARM: 9407/1: Add support for STACKLEAK gcc plugin
 657a292d679ae3a6c733ab0e939e24ae44b20faf ARM: 9408/1: mm: CFI: Fix some erroneous reset prototypes
-f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
-9f4dc05107a6db3743e6b9ea4014cbdc3795682d USB: serial: add missing MODULE_DESCRIPTION() macros
-55a15b3a713a3f24360cf9d8dcfd2a3e337321d6 USB: serial: garmin_gps: annotate struct garmin_packet with __counted_by
-df8c0b8a03e871431587a13a6765cb4c601e1573 USB: serial: garmin_gps: use struct_size() to allocate pkt
 833cd3e9ad8360785b6c23c82dd3856df00732d9 drm/fb-helper: Don't schedule_work() to flush frame buffer during panic()
 84f78178b6fe37b5eb8b90b5bb1239abce0b64d8 arm64: dts: ti: k3-j784s4-evm: Assign only lanes 0 and 1 to PCIe1
 cc5049007d722364bca4a4eeb619d5629733a004 arm64: dts: ti: k3-j784s4-evm: Consolidate serdes0 references
@@ -315,17 +311,6 @@ a7f3abcf635767b2e19c4c55c4c35756595ebc86 net: phy: aquantia: only poll GLOBAL_CF
 0bf50cead4c4710d9f704778c32ab8af47ddf070 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 e254e0c5baeae28717d1b312821e6ded29e7d969 Merge tag 'perf-tools-fixes-for-v6.11-2024-07-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 e4fc196f5ba36eb7b9758cf2c73df49a44199895 Merge tag 'for-6.11-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-3ca06e90a7ceb06aaba8a9dc1c59d970824dab23 Merge tag 'usb-serial-6.11-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-16d731890db94e23d5483402494ef378f2271ba1 dt-bindings: usb: microchip,usb2514: Add USB2517 compatible
-228a953e61d6d608a3facc1c3a27b9fb03c99de7 usb: gadget: midi2: Fix the response for FB info with block 0xff
-76a7bfc445b8e9893c091e24ccfd4f51dfdc0a70 usb: gadget: u_audio: Check return codes from usb_ep_enable and config_ep_by_speed.
-afdcfd3d6fcdeca2735ca8d994c5f2d24a368f0a usb: vhci-hcd: Do not drop references before new references are gained
-973a57891608a98e894db2887f278777f564de18 usb: gadget: core: Check for unset descriptor
-e885f5f1f2b43575aa8e4e31404132d77d6663d1 usb: typec: fsa4480: Check if the chip is really there
-3c526089a663e25ac78b6a61d84a52a83680d0c3 usb: typec: tcpci: Fix error code in tcpci_check_std_output_cap()
-5a444bea37e2759549ef72bfe83d1c8712e76b3d usb: gadget: u_serial: Set start_delayed during suspend
-8290b567621ba4e3ccf45ec9d67e0507196c5ddc usb: typec: tipd: Fix dereferencing freeing memory in tps6598x_apply_patch()
-b1dad2f091382b0049c72dab8153779248fa8016 usb: typec: tipd: Delete extra semi-colon
 6ccf9984d6be3c2f804087b736db05c2ec42664b Revert "ALSA: firewire-lib: obsolete workqueue for period update"
 3dab73ab925a51ab05543b491bf17463a48ca323 Revert "ALSA: firewire-lib: operate for period elapse event in process context"
 6e73c490445ae77c52f62fcf9a49193d17c6f79a platform/x86: msi-wmi-platform: Fix spelling mistakes
@@ -356,7 +341,6 @@ e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at
 a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank conversion context
 a4ff92ff0bdd731eca9f0b50b1cbb5aba89be4b2 ALSA: seq: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
 98ea612dd1150adb61cd2a0e93875e1cc77e6b87 ALSA: seq: ump: Explicitly reset RPN with Null RPN
-00af4f3dda1461ec90d892edc10bec6d3c50c554 USB: serial: debug: do not echo input by default
 9da8aa3b3ca05b22be5ba312771e6df4366e56cc ASoC: nau8822: Lower debug print priority
 b7b7e1ab7619deb3b299b5e5c619c3e6f183a12d ALSA: usb-audio: Correct surround channels in UAC1 channel map
 4734406c39238cbeafe66f0060084caa3247ff53 s390/fpu: Re-add exception handling in load_fpu_state()
@@ -553,11 +537,6 @@ e688c220732e518c2eb1639e9ef77d4a9311713c LoongArch: Enable general EFI poweroff 
 4574815abf43e2bf05643e1b3f7a2e5d6df894f0 LoongArch: Use accessors to page table entries instead of direct dereference
 296b03ce389b4f7b3d7ea5664e53d432fb17e745 LoongArch: KVM: Remove unnecessary definition of KVM_PRIVATE_MEM_SLOTS
 494b0792d962e8efac72b3a5b6d9bcd4e6fa8cf0 LoongArch: KVM: Remove undefined a6 argument comment for kvm_hypercall()
-7d5cbd799a97b4483aa278663138b5af8bccffdf Merge tag 'usb-serial-6.11-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-382b6eabb0316b7334d97afbdcf33a4e20b0ecd8 usb: gadget: f_fs: restore ffs_func_disable() functionality
-a59d8cc9292c58bccec7d8fa27eb59d0a3a6aa0d usb: gadget: f_fs: pull out f->disable() from ffs_func_set_alt()
-becac61a771a4a127e0c38c28110a55cb84d9f41 usb: typec: tcpm: avoid sink goto SNK_UNATTACHED state if not received source capability message
-65ba8cef0416816b912c04850fc2468329994353 usb: typec: ucsi: Fix a deadlock in ucsi_send_command_common()
 ff9bf4b34104955017822e9bc42aeeb526ee2a80 lockdep: Fix lockdep_set_notrack_class() for CONFIG_LOCK_STAT
 7442b5cdf259e2fb112560904b7002ce48d15578 bcachefs: Don't rely on implicit unsigned -> signed integer conversion
 90b211fa2da3f36939e84b6426988832a62caf4b bcachefs: Add a comment for bucket helper types
@@ -710,4 +689,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 
---===============1564952313235192668==--
+--===============1399084266352274358==--
