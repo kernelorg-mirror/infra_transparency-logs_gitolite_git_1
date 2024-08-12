@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0533455396935331242=="
+Content-Type: multipart/mixed; boundary="===============8813684138287330933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Mon, 12 Aug 2024 23:39:24 -0000
-Message-Id: <172350596455.7922.2837336560468683618@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 23:41:44 -0000
+Message-Id: <172350610496.10446.5884057400078760321@gitolite.kernel.org>
 
---===============0533455396935331242==
+--===============8813684138287330933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,82 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/next/linux-next
 user: sfr
 changes:
-  - ref: refs/heads/fs-current
-    old: 82affba036e33b6d707c0df95248adbfa2cca24a
-    new: ace28a2990db1ea89e138a19996fe3950b10a869
-    log: revlist-82affba036e3-ace28a2990db.txt
-  - ref: refs/heads/pending-fixes
-    old: a456b2d103fae3ed56b94eef4028d3016196dc14
-    new: 0d4af706d40cae10a064a9cc44a7d8cab5c12489
-    log: revlist-a456b2d103fa-0d4af706d40c.txt
+  - ref: refs/heads/fs-next
+    old: eedbb59af1d006e1bbc45eb545de027124e76cf4
+    new: 667ab57d2d131f55c8657ceaa08fc33481a1b0c3
+    log: revlist-eedbb59af1d0-667ab57d2d13.txt
 
---===============0533455396935331242==
+--===============8813684138287330933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82affba036e3-ace28a2990db.txt
+Content-Disposition: attachment; filename=revlist-eedbb59af1d0-667ab57d2d13.txt
 
+53566cca34de34dceac16363e97e0faa03d2a425 fs: rename struct xattr_ctx to kernel_xattr_ctx
+b4988e3bd1f05bd853ef16dacae4d4731f9bd569 eventpoll: Annotate data-race of busy_poll_usecs
+10c62724d2b5e7025b9b086e401fea6686b191ed fs: try an opportunistic lookup for O_CREAT opens too
+c3dd9f0e320a631bdb12ecd298cedcc43358b80f fs: move audit parent inode
+ac4db275670c1311fecb00145f585127c3a7e648 fs: pull up trailing slashes check for O_CREAT
+155a11570398943dcb623a2390ac27f9eae3d8b3 fs: remove audit dummy context check
+a2e0e55a57f88e08745cbd7bcdf8de8692306284 fs: rearrange general fastpath check now that O_CREAT uses it
 78296429e20052b029211b0aca64aadc5052d581 platform/x86/amd/pmf: Fix to Update HPD Data When ALS is Disabled
 613e3900c24bb1379d994f44d75d31c3223cc263 platform/x86: ideapad-laptop: introduce a generic notification chain
 cde7886b35176d56e72bfc68dc104fa08e7b072c platform/x86: ideapad-laptop: move ymc_trigger_ec from lenovo-ymc
 7cc06e729460a209b84d3db4db56c9f85f048cc2 platform/x86: ideapad-laptop: add a mutex to synchronize VPC commands
+7b9d14af8777ac439bbfa9ac73a12a6d85289e7e fs: allow mount namespace fd
+5fcf329676cf9d132842d9871f83a091c32f3bfc fs: add put_mnt_ns() cleanup helper
+257b1c2c78c25643526609dee0c15f1544eb3252 file: add fput() cleanup helper
+a1d220d9dafa8d76ba60a784a1016c3134e6a1e8 nsfs: iterate through mount namespaces
+49224a345c488a0e176f193a60a2a76e82349e3e Merge patch series "nsfs: iterate through mount namespaces"
+1810bb54fc6e1d1258cd1d266d7d6489865f6aa1 fs/xattr: add *at family syscalls
+3bdc91d73e116f45a671bcff5e0ad912891add8f xattr: handle AT_EMPTY_PATH when setting xattrs
+ba26ebe9110084302f89377cb636bd07ee559a1e xattr: handle AT_EMPTY_PATH when getting xattrs
+24dc652cc6f5a2f9aeb86f3c806bfdfe2de1591e xattr: handle AT_EMPTY_PATH when listing xattrs
+1a4033aea65dd563935a2973688ecfca4833ac34 xattr: handle AT_EMPTY_PATH when removing xattrs
+c0d13f4ef52938067e32a887616fcfd9c6ebcd2e xattr: don't raise LOOKUP_EMPTY
+a037d5e7f81bae8ff69eb670b2ec3f25ad4d2cc2 fs: add infrastructure for multigrain timestamps
+6147cbda93bac1fd347d7ec24256c54d0e6ae274 fs: tracepoints around multigrain timestamp events
+a777e231666a41cb3bb99ebcd04bee3defef7039 fs: add percpu counters for significant multigrain timestamp events
+3a5e76794b88f36d492d6c18058978c15171f941 fs: have setattr_copy handle multigrain timestamps appropriately
+42ba4ae65752b8cb8b04430909cb66b28d51c94d Documentation: add a new file documenting multigrain timestamps
+3062a738d73c866bf50df13bc47a2223b7b47d87 xfs: switch to multigrain timestamps
+729f35ab8b0a5641b0d64c320cc77282a89ba2fc ext4: switch to multigrain timestamps
+c7e408a168b5ae6530685ad3bfbeec1755e83b53 btrfs: convert to multigrain timestamps
+72f170e6e3cf35f2fbfbdc893eb0467c9f8be737 tmpfs: add support for multigrain timestamps
+06b40ace0f054f87252ec7498240d55cd6c45aa9 fs/select: Annotate struct poll_list with __counted_by()
+29c62aca494cbcc40e7ae9878804723ad2ca4a47 vfs: only read fops once in fops_get/put
+70fc574170e7aac558319473d6c78981121c8680 fs: move FMODE_UNSIGNED_OFFSET to fop_flags
+687caeab9844db8d8a38f6f62ed05f0d2c7ecb30 nfsd: add list_head nf_gc to struct nfsd_file
+fd61a51ad515b91190e2e226118b855655e2b552 nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
+5f0d1fe7129bfbd52adbf9761dd92e63e46aa506 nfsd: fix refcount leak when file is unhashed after being found
+c776fc31a70ba5d379c593b17bf53e36a1191ef9 nfsd: count nfsd_file allocations
+e9dff2092e6a2cab8437f0d25a5eec8c3add57b8 nfsd: use system_unbound_wq for nfsd_file_gc_worker()
+7dc5b64eeb608005f5b7db25248d56097aea9a1e NFS: trace: show TIMEDOUT instead of 0x6e
+df762decf47ef51ad1dc5e53497fb53bf15b262a nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
+e75a47426611559f24d2c916e789470e678e2779 lockd: discard nlmsvc_timeout
+75b73d4437c839eff8768155613ecaf2bbf85123 SUNRPC: make various functions static, or not exported.
+c7b025a9d553b964372f53eceb2c9db3a5b1c28f nfsd: move nfsd_pool_stats_open into nfsctl.c
+f5af6b7b03e44583aa8bf29d94650d35c5265178 nfsd: don't allocate the versions array.
+3db062459676ff767120a4080ffc82734d3eb5f1 sunrpc: document locking rules for svc_exit_thread()
+71658af18df2b785a40ed60af33bcf0346065f7c sunrpc: change sp_nrthreads from atomic_t to unsigned int.
+5a3ef3cd7ae07d9672f4f9ff195b8e6f114a9680 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
+59807b23931197a19d956abf7dbf9550193e8f7f sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
+67333b75cd0c9469b40d90142d7a45e1d6a671fe sunrpc: allow svc threads to fail initialisation cleanly
+3f47c05c06b550bfdb17172ff8656a377c005828 nfsd: don't assume copy notify when preprocessing the stateid
+777a12a4bd6245d0d24f63abbc30109654ebda26 nfsd: Don't pass all of rqst into rqst_exp_find()
+5c018453c37177372c743f7017e6fd6395a83d4e nfsd: Pass 'cred' instead of 'rqstp' to some functions.
+0982d5266ac504503421fba0d098f6089a0e2abf nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
+885a31edf40f91672cc8cdd112f482f6a986fe0f nfsd: further centralize protocol version checks.
+a63832262e220b9155ec6f32dd6f12cf10a6abf8 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
+402ce6ab624d6f1e12c4adc93e82e0bfa6feb946 nfsd: Move error code mapping to per-version proc code.
+b9982372ff54e95a8bcfbbb136f8bca82a72317f nfsd: be more systematic about selecting error codes for internal use.
+bd0c04afe5c02a9fa6a55e85eb191389c7e06b4e nfsd: move error choice for incorrect object types to version-specific code.
+f63764aeea0e8dd42f18af589ca1b8d5855abc29 svcrdma: Handle device removal outside of the CM event handler
+ec6836a4a51f78c501c2d2bb220e7f791642767b nfsd: Add quotes to client info 'callback address'
+e5f5022b026cf43b68aa30f73739df765f605db6 NFSD: Fix NFSv4's PUTPUBFH operation
+9fae888050fb7da8ac1561c443accee6a5c6ef01 smb/client: avoid possible NULL dereference in cifs_free_subrequest()
+022ee3ac4807007fde323edeef738b169faf400e smb: smb2pdu.h: Use static_assert() to check struct sizes
+33bbc2bf5034b6a999061db7404f374948995b87 vfs: use RCU in ilookup
 a1460e457e7ae42f48d8490c1214fa29f23e4d58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d74da846046aeec9333e802f5918bd3261fb5509 Merge tag 'platform-drivers-x86-v6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 98055bc3595500bcf2126b93b1595354bdb86a66 netfs: Fault in smaller chunks for non-large folio mappings
@@ -48,93 +105,28 @@ f71aa06398aabc2e3eaac25acdf3d62e0094ba70 fs/netfs/fscache_cookie: add missing "n
 7b589a9b45ae32aa9d7bece597490e141198d7a6 netfs: Fix handling of USE_PGPRIV2 and WRITE_TO_CACHE flags
 08aebb9ecc62eb2b37b92dbcc4d5bbd0fcc9bf83 9p: Fix DIO read through netfs
 d93693cf2c3afcff3cf38aece7ca1cb5f5c660d2 vfs: Don't evict inode under the inode lru traversing context
+271bbadd9d4eacba9d7dd3627ef2491d74c19fad file: reclaim 24 bytes from f_owner
+61e79cae4f6de053f0c8ae717c3d7d88d809e1dc Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+7ff1b1c2157c7c85806b0d1550e6ce3c244a257b Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+1e35926a3e82624b1ebb129a150d5d148ddc241b Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+211533bbc39900ce8ca5cad05760a32381988264 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+ea1a49a5a1c0c628f02cee9c0de793c715d824c5 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+391c3d1bda4eaf963e1973d883231070ffe27dd5 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+652b0ae675fede81420758e3af7c5174cdaa8404 dlm: add missing -ENOMEM if alloc_workqueue() fails
 601e95bc2858d94b1ff2fc1c66d6068c79d5e49f Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
 ace28a2990db1ea89e138a19996fe3950b10a869 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+0d6ecc9e5293158a1f4bcdc622c5f921fca4b9ba Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
+2e08ea30e2985162fc40ab6d933dd228eac12d64 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+95c048c9224f447ed528725ea5593364ea79674b Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
+f808faf459ea591ef1f075f6da9da1f400ab145f Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
+9fed9d33adb49f496719fe2510e4ee0bd6630a5c Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
+8b75913c1731f74d4c16382df57f58552d450145 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+a77af8bfdaf091be204f86bd470bba3a26b89633 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
+98ed4925c8e86845d65a75d84bfb0ab2a69370e9 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
+49462139b98f78156e31ab651b14deb9c6b5eda1 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
+74e33f26b31f7296ae566fa508b97a68574a5402 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
+f82500ce405b34489f4bb9cef0830fea4916b650 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+8091ee6de69e3cf3601ecc66767ae05408c07439 Merge branch '9p-next' of git://github.com/martinetd/linux
+667ab57d2d131f55c8657ceaa08fc33481a1b0c3 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
 
---===============0533455396935331242==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a456b2d103fa-0d4af706d40c.txt
-
-90ec3a8a7fd0d43026fcca979713e077d4883b56 spi: Add empty versions of ACPI functions
-06ce0af34177a110d6a5cf71f924965b9b230691 soc: fsl: qbman: remove unused struct 'cgr_comp'
-ef9718b3d54e822de294351251f3a574f8a082ce ALSA: hda/realtek: Fix noise from speakers on Lenovo IdeaPad 3 15IAU7
-9219b179bab20563c43aee0c195e1e9304a9deed Merge tag 'spi-acpi-lookup-dummy' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi into topic/cirrus-hp-g12
-03c5c350e38d9346b69357d0e52c3c40495c14a0 ALSA: hda/realtek: Add support for new HP G12 laptops
-eb75d05d96b824e14efa4de6c30692d300a9ce67 Merge branch 'topic/cirrus-hp-g12' into for-linus
-004eb8ba776ccd3e296ea6f78f7ae7985b12824e ALSA: usb-audio: Add delay quirk for VIVO USB-C-XE710 HEADSET
-b86aa4140f6a8f01f35bfb05af60e01a55b48803 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
-2c71c8459c8ca66bd8f597effaac892ee8448a9f drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
-e332a5aba83500e8d422c90d2a84d8a5f888673e treewide: remove unnecessary <linux/version.h> inclusion
-1472464c6248575bf2d01c7f076b94704bb32c95 kbuild: avoid scripts/kallsyms parsing /dev/null
-a9a18e8f770c9b0703dab93580d0b02e199a4c79 atm: idt77252: prevent use after free in dequeue_rx()
-9ff2f816e2aa65ca9a1cdf0954842f8173c0f48d net: axienet: Fix register defines comment description
-63796bc2e97cd5ebcef60bad4953259d4ad11cb4 net: dsa: vsc73xx: fix port MAC configuration in full duplex mode
-5b9eebc2c7a5f0cc7950d918c1e8a4ad4bed5010 net: dsa: vsc73xx: pass value in phy_write operation
-fa63c6434b6f6aaf9d8d599dc899bc0a074cc0ad net: dsa: vsc73xx: check busy flag in MDIO operations
-9f9a72654622bae75adb1e1923d709e96ede3042 net: dsa: vsc73xx: allow phy resetting
-de7a670f8defe4ed2115552ad23dea0f432f7be4 net: phy: vitesse: repair vsc73xx autonegotiation
-1fc2021941241bf32728a198bc0a7f38669e44a5 Merge branch 'vsc73xx-fix-mdio-and-phy'
-e7a9af8c93aa9f408f9972809b642faeec5287e1 powerpc/mm: Fix size of allocated PGDIR
-e7e846dc6c73fbc94ae8b4ec20d05627646416f2 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-c25504a0ba36968f919aa30caff172ef23346299 dt-bindings: net: fsl,qoriq-mc-dpmac: add missed property phys
-32316f676b4ee87c0404d333d248ccf777f739bc net: mana: Fix RX buf alloc_size alignment and atomic op panic
-db1b4bedb9b97c6d34b03d03815147c04fffe8b4 net: ethernet: mtk_wed: fix use-after-free panic in mtk_wed_setup_tc_block_cb()
-497d370a644d95a9f04271aa92cb96d32e84c770 drm/v3d: Fix out-of-bounds read in `v3d_csd_job_run()`
-a1460e457e7ae42f48d8490c1214fa29f23e4d58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-d74da846046aeec9333e802f5918bd3261fb5509 Merge tag 'platform-drivers-x86-v6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-054308ad90ae43ba2d4b9c83c6582e8fe94f6fed MAINTAINERS: Add Manivannan Sadhasivam as Reviewer for PCI native host bridge and endpoint drivers
-98055bc3595500bcf2126b93b1595354bdb86a66 netfs: Fault in smaller chunks for non-large folio mappings
-3f65f3c099bcb27949e712f39ba836f21785924a filelock: fix name of file_lease slab cache
-f71aa06398aabc2e3eaac25acdf3d62e0094ba70 fs/netfs/fscache_cookie: add missing "n_accesses" check
-42b0f8da3acc87953161baeb24f756936eb4d4b2 nsfs: fix ioctl declaration
-64a7ce76fb901bf9f9c36cf5d681328fc0fd4b5a libfs: fix infinite directory reads for offset dir
-889ced4c9388785952d78d20d338bda2df209bb5 netfs: clean up after renaming FSCACHE_DEBUG config
-3b5bbe798b2451820e74243b738268f51901e7d0 pidfd: prevent creation of pidfds for kthreads
-86509e38a80da34d7800985fa2be183475242c8c file: fix typo in take_fd() comment
-8e5ced7804cb9184c4a23f8054551240562a8eda netfs, ceph: Revert "netfs: Remove deprecated use of PG_private_2 as a second writeback flag"
-7b589a9b45ae32aa9d7bece597490e141198d7a6 netfs: Fix handling of USE_PGPRIV2 and WRITE_TO_CACHE flags
-08aebb9ecc62eb2b37b92dbcc4d5bbd0fcc9bf83 9p: Fix DIO read through netfs
-d93693cf2c3afcff3cf38aece7ca1cb5f5c660d2 vfs: Don't evict inode under the inode lru traversing context
-fdad456cbcca739bae1849549c7a999857c56f88 bpf: Fix updating attached freplace prog in prog_array map
-601e95bc2858d94b1ff2fc1c66d6068c79d5e49f Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-ace28a2990db1ea89e138a19996fe3950b10a869 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-c5441cb1e0798ba93a4210d57de6344c2af7ad0c Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-6c5d9202103b833b746f1ef493fa4949da3347d0 Merge branch 'fs-current' of linux-next
-c24b3946d1e2b569b09e3f3d5777f4112a78f7fa Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-a1372f3d81cdae1a7425f494292cfb53dff80512 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-a4e53d95d6e16a9cdeb49956d2c3ca17f16a8b9b Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-1ef45bfc674d054152d6729b9cb9118b93ad8a20 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-065a9a90baf04127341a13b97e4318fb886a8a89 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-6c0d778ec305e3719601bc07ea37f9621cface3e Merge branch 'for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git
-1a15983e39bf512d912c226c9d5ae0a266012e5f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-4a991934fe0acf030da49d803967ff512fe0da03 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-168d81bb4d9fcc900d5c74d3c4fc08c19b638053 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-c0cee4da06296f2033467e787485104e3eaf9551 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-8e4fd60974d404b4c42b48c4a696342f3cc47115 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-4f09eb71d9b11ff83db289895c20b54172fd6a07 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-7928d7898bd213dcceddf1b2f0dba7cd08275a78 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-45fc872208e05e47c26f16f0c20b4cd8f512dd55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-df406aca8394b7ae7e35eaf27bc1df27cd04e2be Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-ea87158f4549328dffc8ca519aaedc00997e43b8 Merge branch 'fixes' of https://git.linuxtv.org/media_stage.git
-294cd5377d0b781a2ae46647b02813f5819a7173 Merge branch 'mips-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux.git
-db626a211d23cbb149bd4be923c0912ccbf21d44 Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-49136da9645c78d49d0a5c93380ece392fc53b5e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git
-2ddf4cb9f330036f0a4b567bfd1a7311c0e38a14 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-1dc42af659ad8407cced8519c3c25ab75672a160 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-bfe30eab30b06d479c39986c40916c629adbba0e Merge branch 'libnvdimm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm.git
-da6fe1697f47fe436187c8fe24afd0e0ac18431a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-7824bc8f08b915fb2fbfc09626f0114dd89f8c20 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-374d9726494a81e1e685f56c4d4f5a442953a6a4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-243ee3853099e6f1023d49a474002cc3d2da9e17 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-798a673d8318efca44b7869f8820e30e8069c529 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-ee9362cdca927b7f0520022a14d6b3b3d73998d5 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-5adabcb192bf51a0bfc9851520dfc49f0d3628c0 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-b90ee6c27eab98df09cfc63d512bf4717ea0d010 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-ff6d41add5096f92c91f297e6a8a3893a7b84418 Merge branch 'rust-fixes' of https://github.com/Rust-for-Linux/linux.git
-fa2232cad69512fe4e88a479696e971260444960 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
-da43d0f88bccb631d07f8c4af0240ce1074743c0 Merge branch 'clk-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-0d4af706d40cae10a064a9cc44a7d8cab5c12489 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============0533455396935331242==--
+--===============8813684138287330933==--
