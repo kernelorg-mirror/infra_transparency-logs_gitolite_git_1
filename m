@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3736875783616103448=="
+Content-Type: multipart/mixed; boundary="===============7612531944821402094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 12 Aug 2024 21:23:43 -0000
-Message-Id: <172349782374.5002.9248821091649891828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 12 Aug 2024 21:23:56 -0000
+Message-Id: <172349783605.5181.1444007926934611631@gitolite.kernel.org>
 
---===============3736875783616103448==
+--===============7612531944821402094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 9da7820712021e104008d17330259f1915199eae
     log: revlist-f342d913ae89-9da782071202.txt
 
---===============3736875783616103448==
+--===============7612531944821402094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ be18d2c339331aba667303494e4116adcd2866bf perf stat: Add command line option for 
 b2fb95da0fae71f1d9e24936018586f2daa28dd4 perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
 9da7820712021e104008d17330259f1915199eae perf test: Add test for Intel TPEBS counting mode
 
---===============3736875783616103448==--
+--===============7612531944821402094==--
