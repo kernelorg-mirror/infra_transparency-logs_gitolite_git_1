@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0867867719712203978=="
+Content-Type: multipart/mixed; boundary="===============0233808286460524213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 12 Aug 2024 10:32:45 -0000
-Message-Id: <172345876536.30183.4752660825466694485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 12 Aug 2024 10:32:54 -0000
+Message-Id: <172345877453.30345.6350792178623421741@gitolite.kernel.org>
 
---===============0867867719712203978==
+--===============0233808286460524213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 8bfac314bf377f61dab8a88ff5a6718b3a405e89
-    new: 2681e930c1d778de233358abd2c1567170b4fa6b
+  - ref: refs/heads/mem-ctrl-next
+    old: e3e4e77140b4a240865309cc543141a593be4a21
+    new: 23a641d5c2bce4c723fff9118a5d865ee6b9d05a
     log: |
-         0d26d559581125451a7fefc0235ab49012e4ce80 5.4-stable patches
-         8212e3669d8f5d05db4ef7f50a4cb1bb5c1c04d7 5.10-stable patches
-         b2cbad9d61e9907cf5c62cd0827ffa75ef980683 5.15-stable patches
-         544e496b22f7c4e652bd441f27c3b853cb06cf9f 6.1-stable patches
-         97e0c2a6aabc4a4d5ece5b91b9ee6ca6576c599b 6.6-stable patches
-         2681e930c1d778de233358abd2c1567170b4fa6b Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         8c38617722bdf57a90e6c77ed9ee5ebb60958d2a memory: ti-aemif: remove platform data support
+         f6ae541cc3355fe872d4c942dc47d67877951d17 memory: ti-aemif: use devm_clk_get_enabled() and shrink the code
+         23a641d5c2bce4c723fff9118a5d865ee6b9d05a memory: ti-aemif: don't needlessly iterate over child nodes
          
 
---===============0867867719712203978==
+--===============0233808286460524213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723458763 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1723458761-f0a4f3a65b8c4870d88470ea2f82be4ef547e2ef
+pusher krzk@kernel.org 1723458772 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1723458772-c7151870cb03e1335a317df44d2fd36cb306ebbd
 
-8bfac314bf377f61dab8a88ff5a6718b3a405e89 2681e930c1d778de233358abd2c1567170b4fa6b refs/heads/master
+e3e4e77140b4a240865309cc543141a593be4a21 23a641d5c2bce4c723fff9118a5d865ee6b9d05a refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma55MsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++ggQANFIcKLpmhhXWUGOMbCX
-GP+yJSoydM8zf8BcdxMo/akmLWgduTX7abltkRBSKLpC0EIAO3yKTLWlWfMrzqCh
-4gFB7OYl2svNEJUevMCmX41VJk7cbYUqSW4j9yogqvUvNYF59Pu/tUC8c1H1qXtw
-bWosNANCnTilnrdUhdJzbmNTflP3b5grShKOp0j0RAmvwl+3BRjeJE1IgNFIPMWP
-zqKMbc2jdICAVYo/h2TOVmEpa4oZhr62lQrSjtsMHfLbiqwy6XQX+dLEU3tGftAi
-wGYiUvd8uxz71oKUSrzRlV9JZPWRYncsPKRwW5t+Ux4SrETBm+opxcQuQQcQPa27
-aYlfH4nS91b570iiKcLclM3Eg3J/TOLfO8/8M6jq/Hesa0s+pwshYB45RqI5Pmuf
-eo/t15+pU29HPQNmp9YON2sEfQnszVOvCUf+akY2w4Gaz+a1XzVZK4cW9vRt6Nm1
-NyqbHzQPDoGKsdAcZ4rdUHxpdxaO6dIIaSI3UhLBKY8TMMTE2Ms5kGLgjlm/ObgW
-yQiIIMAZXGK3j6flEx+B0c/tiTMvWguj+Wp/3lKnS2ivAW1Fvvg4KV7J+ZfOhTyH
-lwcOvH+BP+Lk20V76mcFIP32wBJeSEq1FYJTPEdGP8AUE1EsdBnbb/wAlNBcJbWG
-qsN6v6LUgGdcIzTg04BGTF0B
-=obQu
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAma55NUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zRyD/4heCQ0/WXPkdrGJZtRyy5Q+27BZpFj4c5w
+hY9O1lg7LJ8sp8gakwGo6b6wdtNXZDRFI/336hQf32+yhygw5glvv7KRzGm0VaMI
+6eQuBSoKxJmCbpYOc6t+myP3DI9+6viAU2zwf4cxosYHdhu2OQlw/RGW2LJDrPeP
+5BwgvouxtYpYmL6Mamr7aTv5Y9prmWX1cH/bxCo++UQ+5iledziuFFbsr4pKT5FL
++4UmnIyQDrqgg8qWseqktOLg+Kj623UYjDKbA/mijsu5Jy4x0YJEmDSOfYR4Pc/S
+wxb1If+QVvm1S4BFJJUjUdSEF1Z8XPGa50k0CpixyA2qgV/REEBbRo3vaKfJQAnJ
+GRIbMo/4wvO5f0sMKN9fcCfNX/CTLnA9yL3Fr4hZWp6dQPN74kEsS9TCjrFZc+GW
++50bW1MrzSi1WrMRm2ELRFlvHlsEDtqRGxlIVwu0Pobiu0y2AJmI39Dq7sy2H+n2
+RKb2BiZl/0eg/FJoUtMowxrQ9ExNhf2NBf1LXpUwN7DCx0KcgF5hdrwbSseLxxiG
+dispk08ETRypl3aPbv+4DAYlKmaWGChR5GV5M6ce69XRy2FXHgLVaLkEFPk7+urw
+I4NFFjnLOORZcA0keRBG/DeGt8wBYrAIj3pxJuV0NNMCSviVaUCM6XhASGU7c9pP
+gMeDttuVGA==
+=/eC+
 -----END PGP SIGNATURE-----
 
---===============0867867719712203978==--
+--===============0233808286460524213==--
