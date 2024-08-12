@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 12 Aug 2024 16:50:04 -0000
-Message-Id: <172348140442.31387.17564472261987861353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 12 Aug 2024 16:54:08 -0000
+Message-Id: <172348164811.476.10132986718611433706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/block-6.11
-    old: eded04fe3bdad9b11bc82b972b4c6fa79f1726ba
-    new: 7db4042336580dfd75cb5faa82c12cd51098c90b
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 9dcf8da1aca90e9c89aa41b00c80f044a0ec382a
+    new: 9dcdeafd362189441453eced2cc3efe37888baa7
     log: |
-         2a07bb64d80152701d507b1498237ed1b8d83866 s390/dasd: Remove DMA alignment
-         7db4042336580dfd75cb5faa82c12cd51098c90b s390/dasd: fix error recovery leading to data corruption on ESE devices
-         
-  - ref: refs/heads/for-6.12/block
-    old: f48ada402d2f1e46fa241bcc6725bdde70725e15
-    new: 9327b51c9a9c864f5177127e09851da9d78b4943
-    log: |
-         9327b51c9a9c864f5177127e09851da9d78b4943 ublk: move zone report data out of request pdu
-         
-  - ref: refs/heads/for-next
-    old: c86b415c56450cfc80070291b5d2af14d02e7932
-    new: 271a1759135460e6ff244c3bfc99ffc5286d88c7
-    log: |
-         9327b51c9a9c864f5177127e09851da9d78b4943 ublk: move zone report data out of request pdu
-         271a1759135460e6ff244c3bfc99ffc5286d88c7 Merge branch 'for-6.12/block' into for-next
+         c881ab0f7345621073dfab3cf28011ff99f4717f perf parse-events: Add a retirement latency modifier
+         0a4f8c71f1daaca5ef8fb5b9d83a64ddbb0348f2 perf data: Allow to use given fd in data->file.fd
+         2e22c5fefef498eada1f11e132ec796f4c325a2e perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
+         fa06445709536d0eca86a88f43c1576111ee747c perf vendor events intel: Add MTL metric json files
+         9e416c92b0eeecb469a22b08963ae2ea2a91288e perf stat: Add command line option for enabling tpebs recording
+         2a98f4b1853c4afd12f19583b769829cf1748ced perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
+         9dcdeafd362189441453eced2cc3efe37888baa7 perf test: Add test for Intel TPEBS counting mode
          
