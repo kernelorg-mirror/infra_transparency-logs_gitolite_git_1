@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8066166654190476430=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 12 Aug 2024 16:54:08 -0000
-Message-Id: <172348164811.476.10132986718611433706@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 17:09:16 -0000
+Message-Id: <172348255641.12155.715390229809535017@gitolite.kernel.org>
+
+--===============8066166654190476430==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,14 +16,28 @@ repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 9dcf8da1aca90e9c89aa41b00c80f044a0ec382a
-    new: 9dcdeafd362189441453eced2cc3efe37888baa7
-    log: |
-         c881ab0f7345621073dfab3cf28011ff99f4717f perf parse-events: Add a retirement latency modifier
-         0a4f8c71f1daaca5ef8fb5b9d83a64ddbb0348f2 perf data: Allow to use given fd in data->file.fd
-         2e22c5fefef498eada1f11e132ec796f4c325a2e perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
-         fa06445709536d0eca86a88f43c1576111ee747c perf vendor events intel: Add MTL metric json files
-         9e416c92b0eeecb469a22b08963ae2ea2a91288e perf stat: Add command line option for enabling tpebs recording
-         2a98f4b1853c4afd12f19583b769829cf1748ced perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
-         9dcdeafd362189441453eced2cc3efe37888baa7 perf test: Add test for Intel TPEBS counting mode
-         
+    old: 9dcdeafd362189441453eced2cc3efe37888baa7
+    new: f18b0152e599be155ca16424eb49ed91f3b65137
+    log: revlist-9dcdeafd3621-f18b0152e599.txt
+
+--===============8066166654190476430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9dcdeafd3621-f18b0152e599.txt
+
+e6b56ae7c2d82976398fdbf00858f31193cf5971 perf script: add --addr2line option
+043da846c2b2dfd5b187bf3a9993b8fb0a6ed94a perf docs: Refine the description for the buffer size
+a5830204dd3e871054c166a5664ca73dabf4305f perf auxtrace: Remove dummy tools
+9a2216369ef190234c1560093fca1e8e7c3601e3 perf s390-cpumsf: Remove unused struct
+0520d06171c08ba45f4ea12997b856af698b3d5c perf tool: Constify tool pointers
+c5231977d3be1c2abbcd03a81e0009e77d8f4dce perf annotate-data: Fix a buffer overflow in TUI browser
+33bbad5cd3a0aaddecc8378d9c33e59d80284f6d perf parse-events: Add a retirement latency modifier
+0d40cd03cdf0abb53a70b751bc4252bba152c822 perf data: Allow to use given fd in data->file.fd
+803d0da717be719d8edb4d5435d98d5181aa4450 perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
+89feec866c52fc2fa74e8609903d48dd31bddc8f perf vendor events intel: Add MTL metric json files
+514f0cdcbe913cd9b5e17b95c73682da8c34a22e perf stat: Add command line option for enabling tpebs recording
+b2ba47b208fc013acada92c208b1894b4a440c0f perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
+f18b0152e599be155ca16424eb49ed91f3b65137 perf test: Add test for Intel TPEBS counting mode
+
+--===============8066166654190476430==--
