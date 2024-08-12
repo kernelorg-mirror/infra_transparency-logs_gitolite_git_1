@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3279569873064910970=="
+Content-Type: multipart/mixed; boundary="===============5730830060311263490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 12 Aug 2024 08:59:59 -0000
-Message-Id: <172345319928.11384.17404638208494127516@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 09:00:05 -0000
+Message-Id: <172345320555.13180.16747899533834205641@gitolite.kernel.org>
 
---===============3279569873064910970==
+--===============5730830060311263490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 2dca436ca7e3d7280fb2a555d9acdda27c32f2c5
-    new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-2dca436ca7e3-7c626ce4bae1.txt
+  - ref: refs/heads/for-next
+    old: a538e81b1eec362915158ce9ec1520a5b0c2070d
+    new: 73f5901c5c42c9842be78514b1e0dfc594164040
+    log: revlist-a538e81b1eec-73f5901c5c42.txt
 
---===============3279569873064910970==
+--===============5730830060311263490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dca436ca7e3-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-a538e81b1eec-73f5901c5c42.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
@@ -342,5 +342,6 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7270e931b53025c1070c2dda30a0ba7f1b2c072c Merge tag 'timers-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
+73f5901c5c42c9842be78514b1e0dfc594164040 Merge branch 'features' into for-next
 
---===============3279569873064910970==--
+--===============5730830060311263490==--
