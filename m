@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 12 Aug 2024 16:08:04 -0000
-Message-Id: <172347888436.31377.18256663717244232118@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 16:08:15 -0000
+Message-Id: <172347889589.31506.4545685409046215056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
+  - ref: refs/heads/for-next
+    old: 73f5901c5c42c9842be78514b1e0dfc594164040
+    new: 1baaf1ccf111b8fd3503608ba7536feae63596ba
+    log: |
+         1baaf1ccf111b8fd3503608ba7536feae63596ba Merge branch 'features' into for-next
+         
