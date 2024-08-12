@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1757632965387669459=="
+Content-Type: multipart/mixed; boundary="===============4798149227905423697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 12 Aug 2024 16:47:13 -0000
-Message-Id: <172348123348.27792.662201965522879627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 12 Aug 2024 16:47:16 -0000
+Message-Id: <172348123614.27884.12839079935773610339@gitolite.kernel.org>
 
---===============1757632965387669459==
+--===============4798149227905423697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/tags/v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
-  - ref: refs/tags/v6.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/heads/tmp.perf-tools-next
+    old: cb1898f58e0f175d168a5a8c5a269a4d24cbbef5
+    new: 9dcf8da1aca90e9c89aa41b00c80f044a0ec382a
+    log: revlist-cb1898f58e0f-9dcf8da1aca9.txt
 
---===============1757632965387669459==
+--===============4798149227905423697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cb1898f58e0f-9dcf8da1aca9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481231 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1723481231-f88a7372cd6b62cff8bca0a34659cd9629a504d7
+4f21bfed691c96da1fc85b76c16e8f6d8fe98a3d perf tests pmu: Initialize all fields of test_pmu variable
+00b26ed0e5abbd9186cb1e280bdea4b68203866d perf test record.sh: Raise limit of open file descriptors
+38e9989937ef6cba73e18d9124ecdd25c6e9ef6a perf script: add --addr2line option
+61684d92b93ee1667e6cd4117db71fab970339a2 perf docs: Refine the description for the buffer size
+0f8042e7f36d32587b4269bd2a04de4b64f5cded perf auxtrace: Remove dummy tools
+00188227bc063ba59a4350b842d21894b3b96941 perf s390-cpumsf: Remove unused struct
+6d508c01187c551fdec90ccce33b768590d64693 perf tool: Constify tool pointers
+f138efee65d357b1e00a259f3a12c1614386a424 perf annotate-data: Fix a buffer overflow in TUI browser
+76d157f121f90bd74b7a1358770f4c2f46cf9e27 perf lock contention: Change stack_id type to s32
+31225f76dd4b00c4255d2f7975085c2a93b24219 perf parse-events: Add a retirement latency modifier
+fdae56db5b3e54694421eadb23eddab2019d796e perf data: Allow to use given fd in data->file.fd
+756d8c050788525a1e68a79b90064174902ab366 perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
+9d387cfa4cd0ba948a8385bf3990f922b096a448 perf vendor events intel: Add MTL metric json files
+e31869d309c10c83a43fa3470e6dbd82ec97e9e7 perf stat: Add command line option for enabling tpebs recording
+e7dc1ec22e22ff188b7a96d68b3d74ffd2bcc629 perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
+9dcf8da1aca90e9c89aa41b00c80f044a0ec382a perf test: Add test for Intel TPEBS counting mode
 
-0000000000000000000000000000000000000000 985513f98be23b25f42fd33c0d53e27a0a0ad705 refs/tags/v6.11-rc2
-0000000000000000000000000000000000000000 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c refs/tags/v6.11-rc3
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PI8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qJsP/A3xVJBOC8nKr+g1QP9j
-fGP/7/CLFWBlldgUWk4Q4y7fQSuViMApHHIauDygU0EAxbwbgqrMW8w8v6Dqx2mV
-dwlT2MmYxj8eO+yqv+PbXsnWDwiKKssKWztAv/xOatQ74jMK/SzYJcg/Yvazmx1U
-8K31y48B+fvud9EU2/FwXLxF8cGztkyz9vzODOs2dUvCDuLYavNCy6AMb9cwx+n0
-tC440Tz/iSJHqeNzf4zD3JOjhIif+P0+DW23LRf2hSXX2AlJbJyszrkgPf7t2qP6
-ldNnQtKLh5YRy5sO9lMOItUtfRg9FT2WpXImFlsM5kZSXdO55w1b+w3wxGm/SkL7
-Q6CYhYdiPSaZIMH1w6Li0YnGk++8zoaDlUtsWIuPR4zvew4x3QBKrDh5l992+IfB
-XH0G9wix0yXjYSMnskgWYfbyeQ5iW5rGtjFpA5CJCI7rgr+VCGXY78+HnFdoqhkw
-hYK6P6ZbzCTekaW5cPXsGbJzl6r+P4kx+rfyU3sbvMiiX5gq/Qud598nOYa7ALPN
-OBh0Zqx0bCRZGnKcJ43OL/NHyivZLMHs2ux7S/ZLHvCyIRHBLMh8s9kybEXKp1Ut
-AO/8G0SIeaAQgdYJtVU9MJOhf1NyJXJTE/QXXQiW+7daelEqBw7Erbi0vLYN1C1f
-syJn1Y9D1GLlu6bJBHERtKzP
-=Djp7
------END PGP SIGNATURE-----
-
---===============1757632965387669459==--
+--===============4798149227905423697==--
