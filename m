@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6069178235551204448=="
+Content-Type: multipart/mixed; boundary="===============5560789918475192301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 12 Aug 2024 15:28:24 -0000
-Message-Id: <172347650467.30271.11896098818726202300@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 15:28:55 -0000
+Message-Id: <172347653521.30559.15107530683928923294@gitolite.kernel.org>
 
---===============6069178235551204448==
+--===============5560789918475192301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,29 @@ repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
   - ref: refs/heads/hwmon-staging
-    old: bda2625cf592021dfd6730c2fec3e9b8d78dae5e
-    new: de4abd2a7095a2232f9bc5d95256c9d0db798d42
-    log: revlist-bda2625cf592-de4abd2a7095.txt
+    old: de4abd2a7095a2232f9bc5d95256c9d0db798d42
+    new: fbf562a03282767f24ecc5e1b6a1bb8e1d2256db
+    log: |
+         9986b1571b0fecd9df9dc64801e74ba7047e3ec7 Merge branch 'hwmon-next' into hwmon-staging
+         424feac121bd30d15c76d5eebf211c4384185ffb Merge branch 'hwmon' into hwmon-staging
+         c885f48214555597fc768198f2100c1c9b3c6dba Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+         6db5172bce01568e9a3d3dba125768457c347acd Merge branch 'hwmon-g762' into hwmon-staging
+         d41532395574d31be79b045ba5ea6400fec06d4d Merge branch 'hwmon-emc2103' into hwmon-staging
+         9f73984448a7759b572c865def6dd197ec08a1ec Merge branch 'hwmon-ina2xx' into hwmon-staging
+         ae49aaadda93a16b01e910b750c73ff0598b7c7c Merge branch 'hwmon-amc6821' into hwmon-staging
+         fbf562a03282767f24ecc5e1b6a1bb8e1d2256db Merge branch 'hwmon-max16065' into hwmon-staging
+         
+  - ref: refs/heads/testing
+    old: 679d51771510ad76815ce5835b9fd5abcf14c6e3
+    new: 7f32bde51dcd0c75f1085f0282010ea77f04a717
+    log: revlist-679d51771510-7f32bde51dcd.txt
 
---===============6069178235551204448==
+--===============5560789918475192301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bda2625cf592-de4abd2a7095.txt
+Content-Disposition: attachment; filename=revlist-679d51771510-7f32bde51dcd.txt
 
-d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
 9f4dc05107a6db3743e6b9ea4014cbdc3795682d USB: serial: add missing MODULE_DESCRIPTION() macros
 55a15b3a713a3f24360cf9d8dcfd2a3e337321d6 USB: serial: garmin_gps: annotate struct garmin_packet with __counted_by
@@ -35,10 +47,6 @@ df8c0b8a03e871431587a13a6765cb4c601e1573 USB: serial: garmin_gps: use struct_siz
 cc5049007d722364bca4a4eeb619d5629733a004 arm64: dts: ti: k3-j784s4-evm: Consolidate serdes0 references
 785280973472dbdee2c31cb740633c4b6460a8ee sunrpc: avoid -Wformat-security warning
 91da337e5d506f2c065d20529d105ca40090e320 nfsd: don't set SVC_SOCK_ANONYMOUS when creating nfsd sockets
-b34ce4a59cfe9cd0d6f870e6408e8ec88a964585 power: supply: axp288_charger: Fix constant_charge_voltage writes
-81af7f2342d162e24ac820c10e68684d9f927663 power: supply: axp288_charger: Round constant_charge_voltage writes down
-bf9d5cb588755ee41ac12a8976dccf44ae18281b power: supply: qcom_battmgr: return EAGAIN when firmware service is not up
-d6cca7631a4b54a8995e3bc53e5afb11d3b0c8ff power: supply: qcom_battmgr: Ignore extra __le32 in info payload
 01aa8c869d0cdaf603f42dc1d2302b164c25353a blk-throttle: remove more latency dead-code
 37c526f00bc1c4f847fc800085f8f009d2e11be6 i2c: smbus: Improve handling of stuck alerts
 137d9e76ae0b51d9b39c17e2675dae09de5f16e3 Merge tag 'ti-k3-dt-for-v6.11-part2' into ti-k3-dts-next
@@ -93,11 +101,6 @@ ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c spmi: pmic-arb: add missing newline in 
 73d148ccb9e1b62cdcb65e1c6a461229446a55a2 nvme: change data type of lba_shift
 b4c1f33a5d59f577814d87704c45a745a35d8bd9 nvme: reorganize nvme_ns_head fields
 7354eb7f1558466e92e926802d36e69e42938ea9 ASoC: SOF: Remove libraries from topology lookups
-33eb1e5db351e2c0e652d878b66b8a6d4d013135 btrfs: factor out stripe length calculation into a helper
-63447b7dd40c6a9ae8d3bb70c11f4c46731823e3 btrfs: scrub: update last_physical after scrubbing one stripe
-872617a0896fc7510b0b8f25d323670424461cfc btrfs: implement launder_folio for clearing dirty page reserve
-30479f31d44d47ed00ae0c7453d9b253537005b2 btrfs: fix qgroup reserve leaks in cow_file_range
-1e7bec1f7d6533f08bc1c4ee94930c02361db86c btrfs: emit a warning about space cache v1 being deprecated
 d67c5649c1541dc93f202eeffc6f49220a4ed71d mptcp: fully established after ADD_ADDR echo on MPJ
 8af1f11865f259c882cce71d32f85ee9004e2660 mptcp: pm: deny endp with signal + subflow + port
 c95eb32ced823a00be62202b43966b07b2f20b7f mptcp: pm: reduce indentation blocks
@@ -115,8 +118,6 @@ becfa08bfefa2cbb22c84d9e583e81387f2f3bf2 ASoC: cs42l43: Remove redundant semi-co
 c8a132e2e032b00828d51141ab34f9aeb24f44ae ASoC: soc-component: Add new snd_soc_component_get_kcontrol() helpers
 4791c422981350d0de4ad02a14a08b99c766d06f ASoC: cs35l45: Use new snd_soc_component_get_kcontrol_locked() helper
 93afd028fb5f06a46a32375fd1f0473451eb1c5a ASoC: cs42l43: Cache shutter IRQ control pointers
-e0391e92f9ab4fb3dbdeb139c967dcfa7ac4b115 btrfs: fix double inode unlock for direct IO sync writes
-12653ec36112ab55fa06c01db7c4432653d30a8d btrfs: avoid using fixed char array size for tree names
 eeef5f183f1c1bdc3ea42b26ded1da2a8a5c69d9 MAINTAINERS: update status of sky2 and skge drivers
 9ab0faa7f9ffe31296dbb9bbe6f76c72c14eea18 sctp: Fix null-ptr-deref in reuseport_add_sock().
 89108cb5c28527c1882df2987394e5c261a1f4aa net: pse-pd: tps23881: Fix the device ID check
@@ -195,8 +196,6 @@ cddaac0459c004c439510bd109929466b0d5908e ARM: pxa/gumstix: fix attaching propert
 6b1124c4526fb1648a3921a441515ea8a98b92e4 Merge tag 'ti-k3-dt-fixes-for-v6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
 c48b5a4cf3125adb679e28ef093f66ff81368d05 x86/mm: Fix PTI for i386 some more
 edbbaae42a56f9a2b39c52ef2504dfb3fb0a7858 genirq/irqdesc: Honor caller provided affinity in alloc_desc()
-94a8ee195daf9b2d081a573d740993cef4a64a20 Merge tag 'for-v6.11-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-6a0e38264012809afa24113ee2162dc07f4ed22b Merge tag 'for-6.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 25a7123579ecac9a89a7e5b8d8a580bee4b68acd ice: Fix reset handler
 bca515d58367494d8699ab53c645b57b71fb4785 ice: Skip PTP HW writes during PTP reset procedure
 c181da18a7302c5de510fe975a3a333299c6e4b7 ice: Fix incorrect assigns of FEC counts
@@ -350,13 +349,24 @@ d74da846046aeec9333e802f5918bd3261fb5509 Merge tag 'platform-drivers-x86-v6.11-3
 506869b99d6cb8f180d38b0b2f067563491a433e hwmon: (max16065) Reorder include files to alphabetic order
 11349392560f0da102c27937bd87db38d983e6b7 hwmon: (max16065) Use bit operations
 86f9b95acfb1c9ddce567f9f470bcab1ba7617cc hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
-0ea2a4b4658276d19537083bafa448b816a16637 Merge branch 'hwmon-next' into hwmon-staging
-6e1b46d99f32387b34116ed10059d4f8d90dc409 Merge branch 'hwmon' into hwmon-staging
-3ea1bc949a4dc39b2e042b14a13c7c103260dd80 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-f15a044981dd4fc12cc85925bf490bf529ce8405 Merge branch 'hwmon-g762' into hwmon-staging
-7e8096508f6b909fb48ae01d3e3d61d68f42ca74 Merge branch 'hwmon-emc2103' into hwmon-staging
-71497fcc938182c296b862f018ab3d1641ffeb23 Merge branch 'hwmon-ina2xx' into hwmon-staging
-7ec4338b4d67ccb315c717dddf59a9f93884267a Merge branch 'hwmon-amc6821' into hwmon-staging
-de4abd2a7095a2232f9bc5d95256c9d0db798d42 Merge branch 'hwmon-max16065' into hwmon-staging
+9986b1571b0fecd9df9dc64801e74ba7047e3ec7 Merge branch 'hwmon-next' into hwmon-staging
+424feac121bd30d15c76d5eebf211c4384185ffb Merge branch 'hwmon' into hwmon-staging
+c885f48214555597fc768198f2100c1c9b3c6dba Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+6db5172bce01568e9a3d3dba125768457c347acd Merge branch 'hwmon-g762' into hwmon-staging
+d41532395574d31be79b045ba5ea6400fec06d4d Merge branch 'hwmon-emc2103' into hwmon-staging
+9f73984448a7759b572c865def6dd197ec08a1ec Merge branch 'hwmon-ina2xx' into hwmon-staging
+ae49aaadda93a16b01e910b750c73ff0598b7c7c Merge branch 'hwmon-amc6821' into hwmon-staging
+fbf562a03282767f24ecc5e1b6a1bb8e1d2256db Merge branch 'hwmon-max16065' into hwmon-staging
+e197354c72c321883a8c271f5dedff3b445176d0 init/main.c: Initialize early LSMs after arch code
+66d3e7abee82b23c63b9dfa66d0d6fbb19ca7b70 microblaze: don't treat zero reserved memory regions as error
+abde1ce7bce3e4b492d77c7d3c77a93a9e0e87d7 kernel: Add helper macros for loop unrolling
+f3bf52a2e47d6b070b7c94334e443cef15b3ddd9 Revert "MIPS: csrc-r4k: Apply verification clocksource flags"
+a7c236e636969ab3805525c05d876064d5c8c533 lsm: count the LSMs enabled at compile time
+8647a093752b3cacea76f1ac77f849a9d05a3028 powerpc/mm: Fix size of allocated PGDIR
+f12021c839cfd5e25756f37fc8f00d714de172f8 lsm: replace indirect LSM hook calls with static calls
+1e94a0654bc416235a48e9ca595804fba1befc92 apparmor: fix policy_unpack_test on big endian systems
+6d3d790e4ce955a686b6d2e1cae5947a78ff3c85 Revert "lsm: replace indirect LSM hook calls with static calls"
+f70ed9f6c818f19af0661f54429030a81ebca6b8 Merge branch 'fixes-v6.11' into testing
+7f32bde51dcd0c75f1085f0282010ea77f04a717 Merge branch 'kpsingh-static' into testing
 
---===============6069178235551204448==--
+--===============5560789918475192301==--
