@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9079880407044088996=="
+Content-Type: multipart/mixed; boundary="===============2298889227243756166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 12 Aug 2024 15:48:10 -0000
-Message-Id: <172347769096.13668.15968196050076576414@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 15:48:19 -0000
+Message-Id: <172347769998.13771.6521003160704344244@gitolite.kernel.org>
 
---===============9079880407044088996==
+--===============2298889227243756166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/200GbE
     old: 600a91931057bfec0afd665759c5574ed137cbea
     new: fe1f433555d5ba80fd8b2085f737b16b4197da6f
     log: revlist-600a91931057-fe1f433555d5.txt
 
---===============9079880407044088996==
+--===============2298889227243756166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ f6122900f4e28bfcb8abc76e1f7b83a1e0d8afd3 ethtool: rss: support dumping RSS conte
 c1ad8ef804e40fc1ef3cb008e0113d76f4acc1a0 selftests: drv-net: rss_ctx: test dumping RSS contexts
 fe1f433555d5ba80fd8b2085f737b16b4197da6f Merge branch 'ethtool-rss-driver-tweaks'
 
---===============9079880407044088996==--
+--===============2298889227243756166==--
