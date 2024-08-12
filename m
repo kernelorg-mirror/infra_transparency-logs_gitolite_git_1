@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1844657036674099001=="
+Content-Type: multipart/mixed; boundary="===============1470568260719516605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 12 Aug 2024 16:45:37 -0000
-Message-Id: <172348113781.26496.8969846203209841624@gitolite.kernel.org>
+Date: Mon, 12 Aug 2024 16:45:42 -0000
+Message-Id: <172348114254.26617.2116001988114393926@gitolite.kernel.org>
 
---===============1844657036674099001==
+--===============1470568260719516605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/char-misc-linus
+    old: ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c
     new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-8400291e289e-7c626ce4bae1.txt
+    log: revlist-ffcf2eb4bfa2-7c626ce4bae1.txt
 
---===============1844657036674099001==
+--===============1470568260719516605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481137 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723481141 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1723481136-66fea9959709e6e55bf3c20c1b5a05bcc05458ad
+nonce 1723481140-417ff5c086fe740743ce095c39c2c966d31d4310
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/main
+ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pREQAIHpbXkyRvzLn5j5osq+
-uassUeEuwSz59m2qItZBnYc14OGCm3C8CYvDxfmaDICWZc4PI/eYVUJuUPhx5ktG
-Us9XflZkH+RGlaNcAPmwvPMzQoeo5Qrr716lOOWn++jPCEBy8SVBb3u+OIomS2yo
-WbuDzXrJ1EwELvhjBMQwtF1ThrHY3bIk5Fp9VqPmtPlDW1xZ1MaoleMpsYx3rPli
-3KbyB3FKVMn+G7ffjRsBgag07/25nWTTZcXK04PUVVzgsWmHQA9fscsijr4UW7TX
-AVV3Q4rrcjnYz5WxW0DvbelWIOQ8AVITvc+M33WF0xzxiiumeSRbZ20Ssz+wgrbA
-eXoIVdtATd3zrHq8mKo0bNjF5AxOKodhSERncu2ymdkOXGHWM8iHYm18khuAkUJP
-c+AuH9JNlre0BRi5yochdtVcrsibwb5RgOYpWfeD4dr+Ugaq8zAmKNJwTQYD0z8t
-VjdRZThd98Vebn/Zsxehv0f7SUKIsnu3S5oCYYhBmyrb8LT2JlQYm8v9i+PPKvfz
-iq82WwjBZGjrJd/EhKfw+al5i14q4SNJLtFobdpzxzu5kgaRv7ffO6C8X1ewi2zk
-0MklWCBjhmI+GSokceqFLQXd6JTiOUQwN37HdwUadJw+ruKY6rZYy4CLunXUG02l
-59zU/YwrQOf/Luln+vaCc465
-=a583
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6PDUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JD4QAMvCbQws4xXYEm7S8De3
+HGIQjD2qRMCH2dighgd7AEP1QEK9xVg6oLWm3rr/woREF9Uu/RI7AO1zocJV9rjC
+h94k5u082kK+UZuPvlAc0h2/OIf5jD1j+QvAXzh5rX+j57hBxWjZAmJREWDRIJPa
+/fDaD+zPx0YLaJ4FHnLJ1MoXE6e3HXEyii8ld9k1oldhFxSg9LGndUVIUzkrJsIP
+ODiHx2d22n3Xew4RXcYiDuEHCLl0DQ+2wcUzpK9b8jaeIkY/0cOFvF2jFPwd044s
+YhWAOqXjZMxcAxoieKJ8NbaX9E681lj6MJ0YQxvH2HhI9jEwtLjFmGspUO2eOUGH
+G2IYGJPMxoflKUAQwImhcN1l7jpi/bMna95jjIMa8rmp3DjztQHXMwERYva/I4Vh
+hCI1LZe+tBW6iBlY3/vyvI7Nn6DRYzEfV0ZInTV9xEsKOyFRHg7nE7lwqcYPVT2R
+5jUeNIKgsRLEdVNZH4lRVY6yAXlnaYJ/DzZbkrIMC7Lp41QJnBtEUNLRqgfoHKCO
+X5mHv4W1IkZ1Wb7bHBuq/L9QqsCCBnaAy9JxgVrJ+90TG2mdM3gQQFE2dqDrAO2H
+kUc3sHbboBG6UbrVVKZPWYxwUO5KTaGR6o/qBbp+XDaRMA5kQixv8+Z1oAtE8FTz
+Dg1VGhQ3b06dcN3QjUg49VaL
+=Q1LF
 -----END PGP SIGNATURE-----
 
---===============1844657036674099001==
+--===============1470568260719516605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-ffcf2eb4bfa2-7c626ce4bae1.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 9b69b52cdde74a38c5ab4d89405b2bd384ec0155 ARM: 9400/1: Remove unused struct 'mod_unwind_map'
@@ -342,14 +342,6 @@ f73cefa3b72eaa90abfc43bf6d68137ba059d4b1 perf/x86: Fix smp_processor_id()-in-pre
 cd04d50979502a1a965869dcd246d44db1bf0153 rust: firmware: fix invalid rustdoc link
 a2e4bdca2c361260609d47dff6c0e36ef2b41d4c Documentation: embargoed-hardware-issues.rst: minor cleanups and fixes
 86fee2877f3427df5876159a182aa70d10964cdf Documentation: embargoed-hardware-issues.rst: add a section documenting the "early access" process
-be62f1289df01b7083f9ee5daf2a27d81355d666 fsi: add missing MODULE_DESCRIPTION() macros
-e6cd0dc91ef9d24edda553343e64eb6b542c21dd eeprom: ee1004: Fix locking issues in ee1004_probe()
-f528cd55853968db8e959ff0e4c2c43e561e7b83 misc: mrvl-cn10k-dpi: add PCI_IOV dependency
-d1009d04a0fefe4df86285cbb37c78aa0b7ab852 char: add missing NetWinder MODULE_DESCRIPTION() macros
-11512c197d387b59569d3a93af93de204d3bdaa6 binder: fix descriptor lookup for context manager
-2c10a20f5e84ab777d29ed921d4c78d66de6d0fb binder_alloc: Fix sleeping function called from invalid context
-f38ba5459ced3441852f37f20fcfb7bd39d20f62 spmi: pmic-arb: Pass the correct of_node to irq_domain_add_tree
-ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c spmi: pmic-arb: add missing newline in dev_err format strings
 15fffc6a5624b13b428bb1c6e9088e32a55eb82c driver core: Fix uevent_show() vs driver detach race
 e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
 50a6dd19dca9446475f023eaa652016bfe5b1cbe ALSA: ump: Explicitly reset RPN with Null RPN
@@ -710,4 +702,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 
---===============1844657036674099001==--
+--===============1470568260719516605==--
