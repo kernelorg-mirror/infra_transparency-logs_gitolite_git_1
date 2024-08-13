@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1288667189400080785=="
+Content-Type: multipart/mixed; boundary="===============6569359512404733750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 13 Aug 2024 15:42:29 -0000
-Message-Id: <172356374943.12729.9478885737619907215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Aug 2024 15:42:35 -0000
+Message-Id: <172356375568.12845.16003469317009477659@gitolite.kernel.org>
 
---===============1288667189400080785==
+--===============6569359512404733750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     log: revlist-8400291e289e-7c626ce4bae1.txt
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regulator-6.12
     old: 1b4ec561b47d806eb0752a73837c2248bf622c06
     new: b31274caf3993839e2eb266fe85ff5bcfd31292b
     log: |
@@ -29,32 +29,32 @@ changes:
          b31274caf3993839e2eb266fe85ff5bcfd31292b Add input voltage suppliers for PMIC MCP16502
          
 
---===============1288667189400080785==
+--===============6569359512404733750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1723563747 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1723563747-c9ba3ba997353fe0553758cba4e7ed6badadfa5a
+pusher C3F436CA30F5D8EB 1723563754 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1723563753-45d3510518e01fcdaf049db9e91dd2a78503e0b1
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/for-6.11
-1b4ec561b47d806eb0752a73837c2248bf622c06 b31274caf3993839e2eb266fe85ff5bcfd31292b refs/heads/for-6.12
+8400291e289ee6b2bf9779ff1c83a291501f017b 7c626ce4bae1ac14f60076d00eafe71af30450ba refs/heads/regulator-6.11
+1b4ec561b47d806eb0752a73837c2248bf622c06 b31274caf3993839e2eb266fe85ff5bcfd31292b refs/heads/regulator-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma7fuMACgkQJNaLcl1U
-h9A6BQf/SQczz3QfZl5wfqk/N4Bn84vpCo4Qb5GYd3t1F/fCOfUMKby04i3LCeJV
-ppcFOsMQGNemx2DaOxs8QDap9owZlcWHzbv3F4wa9DNDVi9ZABX3IFlLBO7WfZAp
-qcM8leaZRN6RvzpAUCjX/+mPj0pSYlaqrgL7mhfxmIntnJqLUeP4ggfxDiWwZ+Vq
-v3CKyJxH2+evICyAbhmI7luoXoVcxmXL8Ha9JAGkzDflTOL2EFNfWcfG/PP0g5TP
-8TVeTu9hYN3SPMGaS4CPlhXz/2G6PteME9RHjVfggD0GqoIBiMSeue+tYVHC+FiH
-Egh8KrgltVPXx8xaEP6yGjx5QZU0sg==
-=pFdV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma7fuoACgkQJNaLcl1U
+h9Atgwf+Izg9OB7YDhQHT+N1I2yH5KKEeq+y7m+WRuckM1D0zKPZj0KcLEsJYNJd
+mrR4QbpbLfaNednQSK6re92pcr2soC+5JxDGB+WqIs2x7yos/ts8BF4RYp+nH89y
+6IVy7q/RM+8leZMP2+rAqFTuhmZ6HWg+PLsTYEOU0xDZf/II57+LQ7TJLwriKzWd
+WLDg294P/O52DkCYkFlDv8hUp8Q5ycOqCJoRpzKxflrH/jpGTNUhP2lp3Mrbeihi
+TSIDAeTN1nE7HvteEwRqjL3DWWYJgNysV1DT4S/j1/z+h6Dfdw177beidqOu7oq4
+ioZSt1uW0n8Jq+duKJp8PdH3edmxMg==
+=wrwu
 -----END PGP SIGNATURE-----
 
---===============1288667189400080785==
+--===============6569359512404733750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 
---===============1288667189400080785==--
+--===============6569359512404733750==--
