@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 13 Aug 2024 11:00:08 -0000
-Message-Id: <172354680877.9222.8250454229087608242@gitolite.kernel.org>
+Date: Tue, 13 Aug 2024 11:22:34 -0000
+Message-Id: <172354815451.24849.4426503658473809934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,10 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
   - ref: refs/heads/dm-6.12
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    new: c7570a6542acbe94dd3399e559c844dce2632fc0
+    old: c7570a6542acbe94dd3399e559c844dce2632fc0
+    new: 38922bce761b241add7265ef854615ff26348f77
     log: |
-         e9583f9cc8c0ec30c28ec4378311d3d141e29416 dm vdo: don't refer to dedupe_context after releasing it
-         a4e08cbc8aa0d60c83437418c8b7be7aa0777633 dm vdo: remove bad check of bi_next field
-         f6ac0ba5b586c9df7381ed4d7481c40456889454 dm vdo: add dmsetup message for returning configuration info
-         e40510e57312c4a2bd48c59f52b87138279e8c3b dm vdo: abort loading dirty VDO with the old recovery journal format
-         c7570a6542acbe94dd3399e559c844dce2632fc0 dm vdo: force read-only mode for a corrupt recovery journal
+         450eb54a38cc2e8c111153b337d39e911d4b8b34 dm: Remove unused declaration dm_get_rq_mapinfo()
+         f106f9c2357b8784acb2d344a5b000b0fdae596c Documentation: dm-crypt.rst warning + error fix
+         38922bce761b241add7265ef854615ff26348f77 dm delay: enhance kernel documentation
          
