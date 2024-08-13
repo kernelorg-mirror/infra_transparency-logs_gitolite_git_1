@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5740921975614026035=="
+Content-Type: multipart/mixed; boundary="===============3037815739270692957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Aug 2024 16:10:07 -0000
-Message-Id: <172356540747.3312.6024246608272711328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Tue, 13 Aug 2024 16:11:25 -0000
+Message-Id: <172356548527.3901.8153449665630045579@gitolite.kernel.org>
 
---===============5740921975614026035==
+--===============3037815739270692957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bc96622942a2cec26a157857ad2a4caea3520ff0
-    new: 6d2a54264ba5af4fc01768d5c64a75ff8f9b08e9
+    old: 15e1c3d65975524c5c792fcd59f7d89f00402261
+    new: 238d3d63d1e27c8d9733b48f7b682fc6aba86672
     log: |
-         6d2a54264ba5af4fc01768d5c64a75ff8f9b08e9 drop queue-4.19/drm-i915-gem-fix-virtual-memory-mapping-boundaries-calculation.patch
+         4b7c3f6d04bd53f2e5b228b6821fb8f5d1ba3071 KVM: x86: Make x2APIC ID 100% readonly
+         238d3d63d1e27c8d9733b48f7b682fc6aba86672 KVM: selftests: Add a testcase to verify x2APIC is fully readonly
          
 
---===============5740921975614026035==
+--===============3037815739270692957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723565406 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1723565405-19be32fb748767954d45943a7f7674ab012cd538
+pusher Paolo Bonzini <pbonzini@redhat.com> 1723565483 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1723565483-bd6e011dec6a232f46624ebd8ad042fb41ed0f87
 
-bc96622942a2cec26a157857ad2a4caea3520ff0 6d2a54264ba5af4fc01768d5c64a75ff8f9b08e9 refs/heads/master
+15e1c3d65975524c5c792fcd59f7d89f00402261 238d3d63d1e27c8d9733b48f7b682fc6aba86672 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7hV4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+59AQAJzbYHhAsYrLXxv8so1H
-KH9RrktTX2WkaGWa2MT14Y4K6dFvcub8SpltbVKeejBQyAiGQoQg1FRkH86AxT2T
-te45M2dODRmMgTwE3766WDEtIJ8TsJizH/8dnFuUzlS9liGZk0HNXb3r3k2dqJGC
-wL3mjOqHPBuTeNR+0kAdS2tf+GIOpVZDfxb59k6uL7nOstXQ3waNYdATjEoFljZe
-B8+8tJm11PR8DSSLFpGjvfgtf4f21ryKc3Ir8RXop/pRvpqmSlOh7QWMFh/qSOvN
-AmrkSZTIIvR5c5UegJzWwUmU4CoiFINFZKj8R+rBKO82UCArHF6p7XDQgzaSH1Iv
-bLFA+L7OSHyOvcz/e4zCgOy5zZs2IGf4hFk4IIkTFV+ZyeKbXoC0fHXWvpLvAm99
-2EvB32f/1jQ/zFxdBMTFIMdBzsUzmDW2gxu7TzdyJpPY5J775XoCdhXX7DA3jCT5
-C+jyC5Yub4Dy7MFRc/d2tMwC2VkU3o45BKzm1TXH441MS0DMi3Mob1M8faDZ0OW/
-xlNwdhfUBMc0VByF1yvj82iKyFo4LXGx7ViXnZRnQSoWOGafno+Q5vbio9sMAeA4
-4L0hBbl2steSpPC5ZamjONARtn/bpA/p7JBUwU48TMDVDIIqiOwEwyBbKlRALNtT
-nLJN8Hf/HDWeyUHLlf8tqKv1
-=KSQb
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAma7hasUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOBxgf/bCNER3veJHk+bIoNQ4DJcO8UAgBw
+rctMdqpoV1xVySvEjSM6kFkHBHnYQ2au3nN08n0fJWHnsFaXJXQrmRsOBVhNnAEI
+J/WpFrSS7qwrDh5QKfVX8+c7OlDKP+crMfb23ulX1iAwHwRqcvvaUKe1OM24tbvn
+pbWLDlxnpaKycpRdPgPxDrIjYb0wYQmU5LvB5d1exEW24Oa8Gj0tRNCcaP5dIjRA
+ypQenRyuZ6Nhk2wK1DxjmkFFUQtwwZw+VURPoTUkPMg9fUPFbkwiOhEeqJvfDcIs
+Q5ZJwTVinsdm4/J/p7mP6qqw/IqugQaEdizsrK+IjplwERhgGLaZpY3kVA==
+=E7i5
 -----END PGP SIGNATURE-----
 
---===============5740921975614026035==--
+--===============3037815739270692957==--
