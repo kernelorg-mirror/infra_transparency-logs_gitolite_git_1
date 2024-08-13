@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0451096939315121207=="
+Content-Type: multipart/mixed; boundary="===============8089691938236451695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 13 Aug 2024 15:46:43 -0000
-Message-Id: <172356400372.16527.3560607092325816238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 13 Aug 2024 15:47:35 -0000
+Message-Id: <172356405598.16900.4909391869822695825@gitolite.kernel.org>
 
---===============0451096939315121207==
+--===============8089691938236451695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/for-next/perf
-    old: 42bebc7cca79d545f4eb9ec131560cfdd07762e0
+  - ref: refs/heads/for-kernelci
+    old: 8867bbd4a056cc938e76bac5162fe4a9b3a0d128
     new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    log: revlist-42bebc7cca79-7c626ce4bae1.txt
+    log: revlist-8867bbd4a056-7c626ce4bae1.txt
 
---===============0451096939315121207==
+--===============8089691938236451695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42bebc7cca79-7c626ce4bae1.txt
+Content-Disposition: attachment; filename=revlist-8867bbd4a056-7c626ce4bae1.txt
 
 ef035628c326af9aa645af1b91fbb72fdfec874e Merge tag 'i2c-for-6.11-rc1-try2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8e5c0abfa02d85b9cd2419567ad2d73ed8fe4b74 Merge tag 'input-for-v6.11-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
@@ -1051,4 +1051,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 
---===============0451096939315121207==--
+--===============8089691938236451695==--
