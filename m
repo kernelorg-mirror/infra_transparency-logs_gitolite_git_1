@@ -1,45 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3189235938811224696=="
+Content-Type: multipart/mixed; boundary="===============3353601678749188566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 13 Aug 2024 08:25:49 -0000
-Message-Id: <172353754979.9081.8281904033261036681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 13 Aug 2024 08:26:02 -0000
+Message-Id: <172353756251.9240.7493821576035451572@gitolite.kernel.org>
 
---===============3189235938811224696==
+--===============3353601678749188566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0a3e6939d4b33d68bce89477b9db01d68b744749
-    new: 2bbf1aedd6650227115edbe2ddd9446b1e8cdc3b
-    log: revlist-0a3e6939d4b3-2bbf1aedd665.txt
+  - ref: refs/heads/usb-linus
+    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+    new: 2185b4b72017e47fc8e0daa6bba4d4cb662c48f7
+    log: |
+         ab3de2c7ec91db6a3cf5fc07765852c81ca7d6ef thunderbolt: Fix memory leaks in {port|retimer}_sb_regs_write()
+         e2006140ad2e01a02ed0aff49cc2ae3ceeb11f8d thunderbolt: Mark XDomain as unplugged when router is removed
+         2185b4b72017e47fc8e0daa6bba4d4cb662c48f7 Merge tag 'thunderbolt-for-v6.11-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+         
 
---===============3189235938811224696==
+--===============3353601678749188566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a3e6939d4b3-2bbf1aedd665.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-12dbc67c3b0bcd7414b511fd8a42ba4e388705bc net: stmmac: Move the atds flag to the stmmac_dma_cfg structure
-ad72f783de06827a1f20d7df57ca52ee102a6faf net: stmmac: Add multi-channel support
-005c0f071bc1db6a6972d598a265c0e45bca4038 net: stmmac: Export dwmac1000_dma_ops
-393ea68bf154a53a108bde4bd387fa85b3662181 net: stmmac: dwmac-loongson: Drop duplicated hash-based filter size init
-0c979e6b55f99f939bb8158f3d8f8d2072b04e9c net: stmmac: dwmac-loongson: Drop pci_enable/disable_msi calls
-324d96b46520f1476f25deaad0e49d8df71377c1 net: stmmac: dwmac-loongson: Use PCI_DEVICE_DATA() macro for device identification
-79afc70002c20753aaed41a5083cf936148832b1 net: stmmac: dwmac-loongson: Detach GMAC-specific platform data init
-c70f3163681381c15686bdd2fe56bf4af9b8aaaa net: stmmac: dwmac-loongson: Init ref and PTP clocks rate
-849dc7341d1f48dacdeadb86eb09f6d7777b1e5e net: stmmac: dwmac-loongson: Add phy_interface for Loongson GMAC
-0ec04d32b5e7f03f1a18713a4958a056240763c8 net: stmmac: dwmac-loongson: Introduce PCI device info data
-126f4f96c41d2efe9ea1b949ff3e6d997010991e net: stmmac: dwmac-loongson: Add DT-less GMAC PCI-device support
-803fc61df261dee7dc71fb4f7000c0569e2afff6 net: stmmac: dwmac-loongson: Add Loongson Multi-channels GMAC support
-56dbe2c290bc580ac0774e163133c2ed84ecb8f0 net: stmmac: dwmac-loongson: Add Loongson GNET support
-930df0990d06244c3baf43f295e3f3abbc075036 net: stmmac: dwmac-loongson: Add loongson module author
-2bbf1aedd6650227115edbe2ddd9446b1e8cdc3b Merge branch 'stmmac-add-loongson-platform-support'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723537557 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1723537557-cb857bd48f7b9858cda5cd1f7ff8d60b6cd696e6
 
---===============3189235938811224696==--
+7c626ce4bae1ac14f60076d00eafe71af30450ba 2185b4b72017e47fc8e0daa6bba4d4cb662c48f7 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7GJUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iv8P/RAc7Cfq65Ms+x20dtzp
+FqZ7VQzbx9o9pF2WZ3zzC25LyWtRQd3LgD7kYY74N5TjNC4CVdpPXRpUpf3/AX0L
+hBd88rXhs0EPYSGYjRpHHnHolxfvk0RgOtskI4DY7dki+fbiS0hWfT9STaFxe0sB
+gzbVmmhAS3v0am+zypliSrPz03XHUPpOCWGh1/BozZ+QREutEKeyvSBTUeGTnVKp
+eyfnmMU7rVkeo50Uq1Frl/s8QgksbKLedlsccsCdzPEZCDCD7qzaZokJYlhLrYXm
+R5JwPHNghejh4DqSK/N1P3F2hU730TW/ahrj7wfiO1yoXdAh/plel6rKeg6cOBRC
+8DnKxyvO0aqLy0viGT/BnA4KC+jQi68zwGCTyJ/WlzciEdOsULge5rKQ79cvH1DA
+otIeD4QSQYfcqNcQs5khjoFuN39yN7Xe5DsurEn5zSjT81iEWE4X/9KTb1X3G5M+
+LI1kvjiRwqXgr7BcI7SK7eW/xCGJ+dKpl9PU1WwMCW54w8BIP4pRz8jaGTRdotf4
+1lRKdQThEiP9QPxL8qnwAlMj+R2Ffqu/0gITRWUZBwHmIGR5+C9R7viYqDGOk6DU
+bErPoxjbfv4DvE8bathbZHEdLYiYIN9h844M61BbKOMwcX1hdaQrZOKr8vVWw1rv
+vnOhHAU1i5Hr8si8cq0B384c
+=zarZ
+-----END PGP SIGNATURE-----
+
+--===============3353601678749188566==--
