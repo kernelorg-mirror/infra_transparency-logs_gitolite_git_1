@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4423002350955033762=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 13 Aug 2024 15:53:22 -0000
-Message-Id: <172356440275.20889.11723809124921359482@gitolite.kernel.org>
-
---===============4423002350955033762==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 13 Aug 2024 16:01:59 -0000
+Message-Id: <172356491979.27423.16957684440987207942@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/queue
-    old: 83742b4d62f3f5688c0becab6ff0689d3efafbd3
-    new: da1c1f1a5571e1ebc1dbd2aa41d5ac682ca39170
+  - ref: refs/heads/rproc-next
+    old: 8749919defb874d6deabfbef24c4901d9ec76583
+    new: 209dd85aa4417480fb8d3c195893b116f9b87acb
     log: |
-         e8f67a6d0c589365b58df9bbbbf261b9a4e0475b KVM: x86: Make x2APIC ID 100% readonly
-         da1c1f1a5571e1ebc1dbd2aa41d5ac682ca39170 KVM: selftests: Add a testcase to verify x2APIC is fully readonly
+         ba70bbfd28ab8aa09ed4b905b1b47580d5df17d6 remoteproc: Use of_property_present()
+         74de9654abf7cd0ab46d2393889f3f28b6384db8 dt-bindings: remoteproc: xlnx,zynqmp-r5fss: Add missing "additionalProperties" on child nodes
+         d32e71660056455ff0af73e10d239d4043d9c1a5 remoteproc: keystone: Use devm_kasprintf() to build name string
+         209dd85aa4417480fb8d3c195893b116f9b87acb remoteproc: keystone: Use devm_rproc_alloc() helper
          
-
---===============4423002350955033762==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1723564401 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1723564400-39d9f00b88b1b111ed3a9cffb9061db1041e5676
-
-83742b4d62f3f5688c0becab6ff0689d3efafbd3 da1c1f1a5571e1ebc1dbd2aa41d5ac682ca39170 refs/heads/queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAma7gXEUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroO0dwgAjfRNMVATRLcGYju+U2UxKhGeHGFA
-Aa5+5VSE7AJAIqN4S2Bxt3POQIMUpUas5ZEHSPFydZE5zjdxVnzQJKSbLFqTvNBE
-Ip06b0Ml1GqF+kc9MHJ16sLFm+6SB9RUNfySD4hEZb7f865huvCf/42egzAJ1hQW
-/EUZoj72etSIf5cgSoTYlQsK5mpoZqotvhdsSM0xBLl5rCxymGO0k6kzXobhI5dX
-S23IhoWAFYi8JbC1mjC7qSkR5kyFEAO1SvA09xIKLw77tHdzL9ao6ykGylYqp+I4
-t+GfWWclTSWhiedjXGDpnlibYbYWHez99FF50fGEKMQpoSbxYiy9TsvVdw==
-=MXCU
------END PGP SIGNATURE-----
-
---===============4423002350955033762==--
