@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0642475857447587289=="
+Content-Type: multipart/mixed; boundary="===============9039848795588695814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 13 Aug 2024 06:37:30 -0000
-Message-Id: <172353105018.27814.4501523495157266109@gitolite.kernel.org>
+Date: Tue, 13 Aug 2024 06:37:59 -0000
+Message-Id: <172353107981.28053.12511221527163498724@gitolite.kernel.org>
 
---===============0642475857447587289==
+--===============9039848795588695814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-mika
     old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
     new: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     log: revlist-de9c2c66ad8e-7c626ce4bae1.txt
 
---===============0642475857447587289==
+--===============9039848795588695814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -343,4 +343,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7006fe2f7f781fc96c8bab9df0c0417fd670a8e1 Merge tag 'x86-urgent-2024-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 
---===============0642475857447587289==--
+--===============9039848795588695814==--
