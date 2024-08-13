@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5685028317028503499=="
+Content-Type: multipart/mixed; boundary="===============7016598928741347720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Aug 2024 06:18:17 -0000
-Message-Id: <172352989747.12357.9383974731851773134@gitolite.kernel.org>
+Date: Tue, 13 Aug 2024 06:19:21 -0000
+Message-Id: <172352996184.12806.9733749669597776272@gitolite.kernel.org>
 
---===============5685028317028503499==
+--===============7016598928741347720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: f450d1e9d2b7d3855421e976b54a6b533e3609a8
-    new: 7fa08fd24c5b1fa3a31c218453b97528608d4098
+    old: 7fa08fd24c5b1fa3a31c218453b97528608d4098
+    new: fe24afaead10d8f3941f8c4029c8943e980ab25c
     log: |
-         7fa08fd24c5b1fa3a31c218453b97528608d4098 drop bpftool patch from 5.15 and older
+         fe24afaead10d8f3941f8c4029c8943e980ab25c drop queue-6.1/parisc-fix-a-possible-dma-corruption.patch
          
 
---===============5685028317028503499==
+--===============7016598928741347720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723529893 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723529960 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1723529887-d2a097c5f48006ad7740584cf48a58f3efc00061
+nonce 1723529958-cd3ad0433afc7a4a894eb4c81b48d0ef36d588f8
 
-f450d1e9d2b7d3855421e976b54a6b533e3609a8 7fa08fd24c5b1fa3a31c218453b97528608d4098 refs/heads/master
+7fa08fd24c5b1fa3a31c218453b97528608d4098 fe24afaead10d8f3941f8c4029c8943e980ab25c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6+qUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WCwQAIu4M/ozSVohz81dmG26
-5qCM+u5IpK8stL6ZanfiI4r15hk0f5iw1AwJ519AMuP+kY5I6yjcOfFcN3lNVuvV
-UoDeOv/1xeDsy+ylUbblNe6+4W2kBZURrQ/Mn7x51o1vTxYJR1s/OtgYUJYKy6UQ
-x+KdDscOq8u5odSK9SKJ4Bf4aL+dj6JNegi3caJNEUv/uIYMpN+y7516xR5o0h+L
-K16xeJBOlJFMb1otwNWQVjehEPNY0bbQd734kaB1HqDOzGLJE/MbhB2Xq9m9eZti
-n5R2u9/jsFy2++ozS3rWjSODhKp+ZUZ2KR/lC598Q/8SOp/vX38Qc0aRA1vH/5p4
-CO8za2tYscKQHFEGqifwSVq0yRJljAuwsZisCccV0lkYnqo1hkDzoUP1Z8V2DKAl
-KcbubdLjqAziTPKGoLRl1Ny9yeNs98jme0F7pKkg6rmTlZ89ZMNmB6YYASkL5XFI
-Ki+aMfQF05dWf2krup+ndpi1hAPESV1qrO1Ox5WSL+rErWbqFvN2jv309QVxo5EU
-LPiojiy9Dk3Ko0R2FxlhscXFulR+7yLyfGWlR8HpP1ODl8BQQQhX17y6VOEx5VUV
-KlyMW3yBSa14QEQMUk2qlu49QIOuB0FU4aT0oARSa9iIw8hHHGgZ75zTYfbMLRMX
-r+GL0mb/zLvteuSiNN9IC+nd
-=QD24
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma6+ukbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1dwP/iCO5mMMpCKozgQ+w0dp
+WlZmGIi8paIjQydvkXvt59TdzKahSKWhfhZTMOeg0OWawnJVq+qn/ltLkQaIQb8Y
+JGzZBbmLYRzdygtQPTrnTnrG3qDelYZpmskmJbW6kypW99iT+dDWeDmTr2uuXUlZ
+ig7b0Ut7JHnETnsWGsxgPopyMSXZSd99dZkC4H3V74rljf64d/fmj9fd5BkZxOcU
+tbIVUov5w1EjN5K2KDm3AXCJ0Cfw3kfydyTEzyuG7tU+JGlQjwgNGv/MmpY56Kxe
+HlwzRqeUnDYOCA084xAxPybCMrEMm+SQTHZ0dBqv83NURjotpNdRi072n8SiLRoQ
+pDi4UFNah88+Ug+fEfJF2SIfttuzZnOYOeJIaqu35n0xFy9zAclpC9/50RnZFveM
+9Q7nTgwvGx0158IH7kvYbXXgEKfIYRp62IU44JeZowH1hvCvWcGHIJuFtMDamooQ
+lq1qO+rrJYCM7hclp3SgxSl//D87/zQKHD8QcJm/H+vd91lLrR/4uUbsRrjq0GMi
+A8Fs0mL1SohtqIcdgmQYwWtM8MJw2Yy6TtRnqBBYEkucYDd1cYG4KDlrjDMKmfnM
+rV21E92eSSDEkn7aObv5BY+KSJPGjW00pQbLPTByj0cvNqEiIJWiK9BvBoqJmgql
+mRlee1M44hd6nFdUoxg16qWR
+=sjUQ
 -----END PGP SIGNATURE-----
 
---===============5685028317028503499==--
+--===============7016598928741347720==--
