@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 13 Aug 2024 18:29:57 -0000
-Message-Id: <172357379772.9990.4673008147861027881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 13 Aug 2024 18:29:59 -0000
+Message-Id: <172357379959.10056.12314151956501615936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/kvm-arm64/misc-6.12
-    old: 38753cbc4dca431d4354319c7481f6bd1a212baf
-    new: e0b7de4fd18c47ebd47ec0dd1af6503d4071b943
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 9da7820712021e104008d17330259f1915199eae
+    new: aebc8eb389a5fa3fd52e36115fc13b22dadccf7c
     log: |
-         ae41d7dbaeb4f79134136cd65ad7015cf9ccf78a KVM: arm64: Release pfn, i.e. put page, if copying MTE tags hits ZONE_DEVICE
-         e0b7de4fd18c47ebd47ec0dd1af6503d4071b943 KVM: arm64: Disallow copying MTE to guest memory while KVM is dirty logging
+         8db5cabcf1b6f9d62bd024aa6293de715d75518f perf stat: Fork and launch 'perf record' when 'perf stat' needs to get retire latency value for a metric.
+         0a7381601b8a55d44c97ea132e23876c0dd9f90e perf vendor events intel: Add MTL metric JSON files
+         d546e3acf3526eaf1d74902236c7219a424ac2e9 perf stat: Add command line option for enabling TPEBS recording
+         169f18fd980cea90804bd8bc5a5614335fa0c8ae perf Document: Add TPEBS (Timed PEBS(Precise Event-Based Sampling)) to Documents
+         b2738fda24543777a623a7d1cc2a9985ab81b448 perf test: Add test for Intel TPEBS counting mode
+         1a9d080d19c3303569614ed4c3b43a39aacd90d7 perf callchain: Add a for_each callback style API
+         3d557dd3f54e329556e880129d0181988893b00f perf inject: Inject build ids for entire call chain
+         d67cc9732d627cdacc173a8555f5f064d8377ad0 perf disasm: Fix memory leak for locked operations
+         aebc8eb389a5fa3fd52e36115fc13b22dadccf7c perf test annotate: Dump trapping test in trap handler
          
