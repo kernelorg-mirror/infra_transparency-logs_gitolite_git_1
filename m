@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 13 Aug 2024 19:09:14 -0000
-Message-Id: <172357615427.8358.5958045916516013818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 13 Aug 2024 19:10:50 -0000
+Message-Id: <172357625013.10617.10887021961165721654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-6.12
-    old: 33d031ec12105e4e4589dc5f50511a666d6f4b4f
-    new: 89909296a51e792f296e52e104a04aed0cb7a9e9
+  - ref: refs/heads/vfs.xattr
+    old: c0d13f4ef52938067e32a887616fcfd9c6ebcd2e
+    new: 346574e1e6d94fbc34caf8fa4c657330b9ed780a
     log: |
-         89909296a51e792f296e52e104a04aed0cb7a9e9 sched_ext: Don't use double locking to migrate tasks across CPUs
-         
-  - ref: refs/heads/for-next
-    old: 33d031ec12105e4e4589dc5f50511a666d6f4b4f
-    new: 89909296a51e792f296e52e104a04aed0cb7a9e9
-    log: |
-         89909296a51e792f296e52e104a04aed0cb7a9e9 sched_ext: Don't use double locking to migrate tasks across CPUs
+         6a7fb6ebe3718ca5f56468b163ff82c65bdf7b7f fs/xattr: add *at family syscalls
+         1a61c9d6ec1d4a485c025904acff19f93765f8b6 xattr: handle AT_EMPTY_PATH when setting xattrs
+         278397b2c592b08f207d6d91bd1c60b14823fdf6 xattr: handle AT_EMPTY_PATH when getting xattrs
+         5560ab7ee32eff54ce278cb7905471f90c05abe5 xattr: handle AT_EMPTY_PATH when listing xattrs
+         33fce6444e7d8f98e896bf3843ead87ce142e1f9 xattr: handle AT_EMPTY_PATH when removing xattrs
+         346574e1e6d94fbc34caf8fa4c657330b9ed780a xattr: don't raise LOOKUP_EMPTY
          
