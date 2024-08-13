@@ -1,41 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4832613476290199104=="
+Content-Type: multipart/mixed; boundary="===============5828303455166858183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 13 Aug 2024 02:52:00 -0000
-Message-Id: <172351752070.24504.5100813759507702916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 13 Aug 2024 03:24:44 -0000
+Message-Id: <172351948405.14721.7136649047886450503@gitolite.kernel.org>
 
---===============4832613476290199104==
+--===============5828303455166858183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/perf-tools
-    old: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
-    new: 4bbe6002931954bbe82b25f25990b987b0392e18
-    log: revlist-de9c2c66ad8e-4bbe60029319.txt
+  - ref: refs/heads/master
+    old: b8c7cbc324dc17b9e42379b42603613580bec2d8
+    new: 1d00f3427bfdb9f5b7a817b1f4f44c5b02da3edd
+    log: revlist-b8c7cbc324dc-1d00f3427bfd.txt
 
---===============4832613476290199104==
+--===============5828303455166858183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de9c2c66ad8e-4bbe60029319.txt
+Content-Disposition: attachment; filename=revlist-b8c7cbc324dc-1d00f3427bfd.txt
 
-fbc05142ccdd0061f6d0e489608935943d2984a1 perf tools: Add tools/include/uapi/README
-aef21f6b6a4aae648c890e74c2322d10ab267249 tools/include: Sync uapi/drm/i915_drm.h with the kernel sources
-a625df3995c31a5d8cf46f2337b207e93bef9bdd tools/include: Sync uapi/linux/kvm.h with the kernel sources
-8ec9497d3ef34fab216e277eca5035811f06b421 tools/include: Sync uapi/linux/perf.h with the kernel sources
-b9735006762677c2cd794bfcb1463a9a6ed558dd tools/include: Sync uapi/sound/asound.h with the kernel sources
-568901e709d7fa564dfdc75816ea59fec65d20a0 tools/include: Sync uapi/asm-generic/unistd.h with the kernel sources
-ed86525f1f4b738bae75c73e89f25430bd0af1b0 tools/include: Sync network socket headers with the kernel sources
-845295f4004c7e1591bab4bad01b51f37d32272f tools/include: Sync filesystem headers with the kernel sources
-f6d9883f8e680460be4714d4d35c7acac1dffeaf tools/include: Sync x86 headers with the kernel sources
-d5b854893d27b4030943a10cf28a07189aab0c36 tools/include: Sync arm64 headers with the kernel sources
-4bbe6002931954bbe82b25f25990b987b0392e18 perf daemon: Fix the build on 32-bit architectures
+85028373d44ab10930a266410b2cf47c7917ed26 Merge branch into tip/master: 'irq/core'
+4ea1a4d742e2cd5b46150f91d3331c86724a0ab5 Merge branch into tip/master: 'locking/core'
+39623768135f12b008e00136a90bddb39e6ff615 Merge branch into tip/master: 'perf/core'
+399f50e31ed551487d82b57622cb29b62eb21819 Merge branch into tip/master: 'ras/core'
+4a4a838397fae22a2bd0fca54aa7c042cd513bf4 Merge branch into tip/master: 'sched/core'
+0cc848f83819fcfce3ede22d130562121751f389 Merge branch into tip/master: 'smp/core'
+5c0b92faf87c10db4edb44aaac2bd295632bcb96 Merge branch into tip/master: 'timers/clocksource'
+6487053b8ab85447b16215e314bcbc2de8683dbe Merge branch into tip/master: 'timers/core'
+56acaa8a56b9dc3cd06228177b13ec99bab80516 Merge branch into tip/master: 'x86/apic'
+013a85d2f9a33335712889f019edd38fc286f608 Merge branch into tip/master: 'x86/bugs'
+d6ae8d6b3d25bc9a24a959344742837e6d113167 Merge branch into tip/master: 'x86/build'
+9cdb993340f379fe3618784a1a58cb28a6d66c34 Merge branch into tip/master: 'x86/core'
+b3909d5160619d1e8507c86eb5969c2bdf859aa3 Merge branch into tip/master: 'x86/fpu'
+13dfd6a8df3f67ae0f984695be9a62217c8d6050 Merge branch into tip/master: 'x86/microcode'
+7c1a2becd26eddb23d55b63a4102d61e5fd6edd7 Merge branch into tip/master: 'x86/misc'
+04d57fee52889d0794aff5839e4e658675c3bee7 Merge branch into tip/master: 'x86/mm'
+1caa7e0d5360ef40c9ce426fbe1365e71e128d73 Merge branch into tip/master: 'x86/splitlock'
+1d00f3427bfdb9f5b7a817b1f4f44c5b02da3edd Merge branch into tip/master: 'x86/timers'
 
---===============4832613476290199104==--
+--===============5828303455166858183==--
