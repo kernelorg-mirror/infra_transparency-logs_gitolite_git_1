@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7399653499391659400=="
+Content-Type: multipart/mixed; boundary="===============1385176584009674704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 13 Aug 2024 15:06:05 -0000
-Message-Id: <172356156587.1382.16608110966933743495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 13 Aug 2024 15:06:40 -0000
+Message-Id: <172356160075.1861.10108803116161610956@gitolite.kernel.org>
 
---===============7399653499391659400==
+--===============1385176584009674704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.11
+  - ref: refs/heads/for-6.11
     old: 730bbfaf7d4890bd99e637db7767dc68cfeb24e7
     new: 5d61841c74db8b5bbbf9403f1bd4879f614617d2
     log: revlist-730bbfaf7d48-5d61841c74db.txt
 
---===============7399653499391659400==
+--===============1385176584009674704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1723561599 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1723561598-0a37dc55ca2cc9b81780ba99b4b2dd7aee60ad21
+
+730bbfaf7d4890bd99e637db7767dc68cfeb24e7 5d61841c74db8b5bbbf9403f1bd4879f614617d2 refs/heads/for-6.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma7dn8ACgkQJNaLcl1U
+h9CS6gf/df7hWATLIq6hSNHVqoCjQBp9TJUEJTHQWOGAeP/m/gninEnvpYJX/1px
+Ire+WqIfttnqxrbFAvz1uhqFD4qSuRck4JmSnC9uSnxDEkkBietVaJxVrl6/uv8Y
+n3mZCV5sdP10cpOBNf4EIBZ/6M/UC1rYxBnDnpaojLoSl6jdnHc3wDJZjF8o4Gi4
+kYzL7TZWFUDWO8q3I+Lvq5yix25SrEX0YFbfkO5jCDnmvfAIWm9KyltGXy2nfVzt
+AUMi86+kxOuanbJNZXgYLTBFqH37XXN0C3awgjGCsARmSodIbBhF7m/mvPmXvPXI
+6GAZAQ4STQIrvt6kdSil4mz39Ao43Q==
+=dQaL
+-----END PGP SIGNATURE-----
+
+--===============1385176584009674704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -676,4 +701,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 7c626ce4bae1ac14f60076d00eafe71af30450ba Linux 6.11-rc3
 5d61841c74db8b5bbbf9403f1bd4879f614617d2 spi: zynqmp-gqspi: Scale timeout by data size
 
---===============7399653499391659400==--
+--===============1385176584009674704==--
