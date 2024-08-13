@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 13 Aug 2024 22:30:22 -0000
-Message-Id: <172358822251.27927.6676129692737076532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 13 Aug 2024 22:30:31 -0000
+Message-Id: <172358823157.28082.12648661451485027677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/struct_fd
-    old: fcb1503ed2b70e3f619bc3d07329dd2b290c7035
-    new: e811c1ee15c743885be841ca27ea1f5eae6baabb
+  - ref: refs/heads/master
+    old: d74da846046aeec9333e802f5918bd3261fb5509
+    new: 6b4aa469f04999c3f244515fa7491b4d093c5167
     log: |
-         b7014005e1e83400b5b54c93afd863e3b4c54237 bpf: convert __bpf_prog_get() to CLASS(fd, ...)
-         b57c48f806fdb3ff735fdf7a7033af94728f769a bpf: switch fdget_raw() uses to CLASS(fd_raw, ...)
-         c885ffc3e331ff006546c8263d35a18c900ea060 bpf: factor out fetching bpf_map from FD and adding it to used_maps list
-         2d74d8e9897c3b6a035926aca31a2815e20278e3 bpf: switch maps to CLASS(fd, ...)
-         139dc6fa791d4eaa850c7e78b72076da84f20229 bpf: trivial conversions for fdget()
-         795bc52f75ad1b2a9200e7d97ef1d0d90195e3e8 bpf: more trivial fdget() conversions
-         a0b8cb42f82ba94e43796034dbf1f43e346396fc security,bpf: constify struct path in bpf_token_create() LSM hook
-         e811c1ee15c743885be841ca27ea1f5eae6baabb bpf: convert bpf_token_create() to CLASS(fd, ...)
+         a018c1b636e79b60149b41151ded7c2606d8606e ksmbd: override fsids for share path check
+         f6bd41280a44dcc2e0a25ed72617d25f586974a7 ksmbd: override fsids for smb2_query_info()
+         6b4aa469f04999c3f244515fa7491b4d093c5167 Merge tag '6.11-rc3-ksmbd-fixes' of git://git.samba.org/ksmbd
          
