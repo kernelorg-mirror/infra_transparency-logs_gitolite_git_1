@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 13 Aug 2024 13:02:19 -0000
-Message-Id: <172355413941.3918.8321290518132875279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 13 Aug 2024 13:03:34 -0000
+Message-Id: <172355421441.4448.11749796775662758366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/work.f_owner
-    old: f3212653f980f2b3bb3b82c3d53479c1a3c882bd
-    new: f106f7828173b585730123c34c61f58bc08653e5
+  - ref: refs/heads/for-next
+    old: 8bf100092d60bf586bbc1a3a2cd833bb212d9d53
+    new: bcc954c6caba01fca143162d5fbb90e46aa1ad80
     log: |
-         6e910f7fd9f64db8e0645cf3d7ae1439f278fc0c file: reclaim 24 bytes from f_owner
-         f106f7828173b585730123c34c61f58bc08653e5 file: reclaim 24 bytes from f_owner
+         bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
          
