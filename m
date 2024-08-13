@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 13 Aug 2024 16:32:58 -0000
-Message-Id: <172356677810.19764.14147593923752515403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 13 Aug 2024 16:36:19 -0000
+Message-Id: <172356697969.22623.4682152047294836312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/100GbE
-    old: db1b4bedb9b97c6d34b03d03815147c04fffe8b4
-    new: df934abb185c71c9f2fa07a5013672d0cbd36560
+  - ref: refs/heads/master
+    old: 38f7629f1f00cc3a64d19fc75e77713cf5054aef
+    new: 3d7e6da398fab60eece64aafc44d8133737fe626
     log: |
-         6e1918ff680527ce4be77426aa537012b5aa997c net: macb: Use rcu_dereference() for idev->ifa_list in macb_suspend().
-         58a63729c957621f1990c3494c702711188ca347 net: mana: Fix doorbell out of order violation and avoid unnecessary doorbell rings
-         df934abb185c71c9f2fa07a5013672d0cbd36560 mlxbf_gige: disable RX filters until RX path initialized
+         3d7e6da398fab60eece64aafc44d8133737fe626 Tue Aug 13 12:35:22 PM EDT 2024
          
