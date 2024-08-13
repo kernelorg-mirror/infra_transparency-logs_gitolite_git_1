@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 13 Aug 2024 13:03:34 -0000
-Message-Id: <172355421441.4448.11749796775662758366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 13 Aug 2024 13:05:20 -0000
+Message-Id: <172355432088.6717.18320872328306484732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 8bf100092d60bf586bbc1a3a2cd833bb212d9d53
-    new: bcc954c6caba01fca143162d5fbb90e46aa1ad80
+  - ref: refs/heads/dir-deleg
+    old: c108cac4e274b72f71cff733b7ff931b3d6e569d
+    new: da853062185ac54cb004d8ca64c0e1267fc2630b
     log: |
-         bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
+         da853062185ac54cb004d8ca64c0e1267fc2630b nfsd: add directory deleg fields to struct nfs4_delegation
          
