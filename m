@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4247402309187336322=="
+Content-Type: multipart/mixed; boundary="===============5994241003849907167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 13 Aug 2024 09:27:57 -0000
-Message-Id: <172354127791.21962.5083488011073681109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 13 Aug 2024 09:47:40 -0000
+Message-Id: <172354246073.18356.14460265148749276836@gitolite.kernel.org>
 
---===============4247402309187336322==
+--===============5994241003849907167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 9ca12e50a48c100e3bda3e5152d2181f4a6649e2
-    new: 4a017c0163833fa3b0ebd2419973d30e9bd67e1e
+  - ref: refs/heads/driver-core-linus
+    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+    new: cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61
     log: |
-         4a017c0163833fa3b0ebd2419973d30e9bd67e1e kgdbts: fix hw_access_break_test
+         abfceba0a7a246ac082bf569807738ff7416f59f ARM: riscpc: ecard: Fix the build
+         cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61 mips: sgi-ip22: Fix the build
          
 
---===============4247402309187336322==
+--===============5994241003849907167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723541275 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1723541274-411457ecc2d70645e9aeabb5aedf5a2205680ce1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723542458 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1723542457-e5eb325a3291b0daf34a09d125a60779a2b1622d
 
-9ca12e50a48c100e3bda3e5152d2181f4a6649e2 4a017c0163833fa3b0ebd2419973d30e9bd67e1e refs/heads/char-misc-testing
+7c626ce4bae1ac14f60076d00eafe71af30450ba cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7JxsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wfUP/3NjMmHZmLlvTKonjYP8
-DJkZMLFYdx2vkHkjwfcDjC21l78uNX6zyFTXx2SEVykXIru2TEU0MyhvBfTdji2m
-/kuayps6uDTM5HXp9pXLKh5Ahmx7bFQZc1evDTiA6VCMt1W/IZhTpzU2Zw613jiU
-Fb9xdx8WuxTGTaH+ddkc+q2Zz9JrIYrQq+DnN47mXMUKKe/VpJX3ZsbHifB2PehR
-P7L1SV+4G0hrbzDMurlil1xjynpmDibXue5sHpV81HQCo/SqoPDSe6y8SVUD5ErH
-E7BDzHbRj/jFf3Mb9GqPNftxJb+leEbkRAzBSlmhfa5GuMTF+9FuCHsO87v8jA2q
-liv9Rzc9NoUmjTSrg8+Qdb8HT4czKC5aaoHKQCrr9C7tSKX7ik1OHVuSV2ulN691
-UrE9y4Mqco6RJSdBc2hsFWUBIsKYQ8XdWoA/lYbKJ7ceWX7N8jqrm0zz/W/nN4PM
-24f5aj5q8OdpIsFckJhfEoFFmHGPNLzzTwT4EXkEzdvgx7JncA+XuQpeivlEjNnJ
-I0wh154OtRZig+YFnWnSboJedu/pvyN9r2TeYawixIzA5tlAICjkaYkEKMV9Jjd9
-JHmTo4AGPDveZIFBuTd/5YuMzdVf6xgdbCDXDMnUAFnlAKPY3t0Z2owrllJxjmu5
-/wel0ZeuKOI/bWcd6WMZIqK9
-=Fnoq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7K7obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yXoP/1ZjtOH9HRttIRRS88HI
+gD1dJis5umBL7NTHcFIjN6MYZKoOe9CwhYCOPAJHHXGOSJ3tgvslO3/Obpu8vwGC
+/ICbSrbNf0YsYjz0zF3SCcjXh5FyU9qzgwqgs6gZWB1XCRNAz4w7lpyUeYd3WUlw
+bvvhgZQGqT+eLlW2uIhs7IhLlwHzPXTN45orG+aD1GPZr35sBaQ6kYU+8ciQfOMW
+D0biiKSw2UwFAIZLr69Osms0gWUomlPhwkg7HSYRtEh1+hyXY1yGkE4ZcRTldqSj
+v/F6VZOIo/LBknRWBkQRiludoAhUozTlqpKdZRXr8+nTzYVkAC5c4qAm6vunTtHI
+wMwM+bD5Y5BgMrclk+UAAmULdvA6ahb0zB5V1+AGrOZbqEsuFThpGIrmjSRY5Vyd
+R7Di9llGXRq7/JiYNaSYUHLdm4ygrIquCIXohF0NycXDjSJU7E5oBOfGlX+3kyBC
+RvvqMiqtfriYXFElpn97BFR9ymyt92CvYO/lv5t/kZuPpBhI/a0/yw+XZDAv/472
+P995Wd7G8Pzeei71osXSHI/tW94PYM4zzDrpLKgqXO6NJp4P7/sq4PZD+dBKB5RW
+30i38qxHGMyQjuEpkF9/oR4g35O2MrSjuTb/Mexg/LXeslO5rnohL6igZqJWINVB
+8Inja5c08aeKduR77vvrg5cm
+=GOtx
 -----END PGP SIGNATURE-----
 
---===============4247402309187336322==--
+--===============5994241003849907167==--
