@@ -1,71 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8457771335843318816=="
+Content-Type: multipart/mixed; boundary="===============7534452082389654913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 13 Aug 2024 10:09:33 -0000
-Message-Id: <172354377359.2732.10114882362620624236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 13 Aug 2024 10:15:57 -0000
+Message-Id: <172354415751.8330.7872316210097518218@gitolite.kernel.org>
 
---===============8457771335843318816==
+--===============7534452082389654913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    new: cd2d00606553e631e9b5d11cca7da38fc95433e6
-    log: revlist-7c626ce4bae1-cd2d00606553.txt
+  - ref: refs/heads/review-ilpo
+    old: 7cc06e729460a209b84d3db4db56c9f85f048cc2
+    new: bc923d594db21bee0ead128eb4bb78f7e77467a4
+    log: |
+         d2dfed310aae0739dc87b68c660357e6a4f29819 platform/x86: asus-wmi: Add quirk for ROG Ally X
+         9c8e022567bbec53bee8ae75c44b3d6cd2080d42 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+         ed235163c3f02329d5e37ed4485bbc39ed2568d4 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+         28d04b4a2cc20981c95787f9c449e6fc51d904f9 platform/surface: aggregator_registry: Add support for Surface Laptop Studio 2
+         002adda09bc1c983c75c82a7e12285c7423aec31 platform/surface: aggregator_registry: Add fan and thermal sensor support for Surface Laptop 5
+         99ae7b9ba047ad029a0a23b2bd51608ce79c8e97 platform/surface: aggregator_registry: Add support for Surface Laptop 6
+         bc923d594db21bee0ead128eb4bb78f7e77467a4 platform/surface: aggregator: Fix warning when controller is destroyed in probe
+         
 
---===============8457771335843318816==
+--===============7534452082389654913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1723543771 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1723543771-4d4083baf7654642498a66297ee639fd17e0439e
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1723544152 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1723544151-82f1c70e0937ccd90f6b16c16421ec2212f40328
 
-7c626ce4bae1ac14f60076d00eafe71af30450ba cd2d00606553e631e9b5d11cca7da38fc95433e6 refs/heads/master
+7cc06e729460a209b84d3db4db56c9f85f048cc2 bc923d594db21bee0ead128eb4bb78f7e77467a4 refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAma7MNsUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPCyAgAm8xyzv1Cy8+C4IhPBja+mBAvRXD7
-hqZlh/VXTrpHJRdckNN//mXz5w/5LdENuGzqBnJ8Mz3Sw2+v3pVHm+Tv7uGaAFdy
-UGwopCm7vmxpOcBAg/1iLtrTHv+R/8iTQjakz3essOCkcyy88fjd6OYxlNQVSGBk
-e8QefT9HPuET4HBEXOU2zqqvR275Zd5ZSmychMX9PFJHumggzFttM0odO8XppgzK
-lQ0Xdfidow8o7vK/qEX87f+2XE1PCSe3tQxNNXCCa3aDCxEjrR1IT3FprT3Fz/NO
-wN8CAPK1SwV/dIl+jc8o5VfGEdyKyt7D4xqrJDJ4kckMWFHWsnHjJyXNqw==
-=GBy3
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZrsyWQAKCRBZrE9hU+XO
+MbE3AP9ZxTbWdQVTu5wnyN6oFvOFadH2zbtNPeS0zX5K5h5kuwD+OHUF06yf7kI5
+bP3gzbKYao/Oyi+tN8flUOA1zZxH/wM=
+=hl8l
 -----END PGP SIGNATURE-----
 
---===============8457771335843318816==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c626ce4bae1-cd2d00606553.txt
-
-32b9a52f88a5713bf8a02dae66f2ad69705de69f KVM: arm64: free kvm->arch.nested_mmus with kvfree()
-963a08e586bd45fd55f4c1752e98029ce83fc091 KVM: arm64: fix override-init warnings in W=1 builds
-0aa34b37a78d063da58838b84b20a68a94d919fd KVM: arm64: fix kdoc warnings in W=1 builds
-19d837bc881b2f9f72f9eb506b46c2e2d983896d KVM: arm64: vgic: fix unexpected unlock sparse warnings
-7fef1eb0b013eaa42019a95a08f71368e5a22dba docs: KVM: Fix register ID of SPSR_FIQ
-5a44bb061d04b0306f2aa8add761d86d152b9377 KVM: s390: fix validity interception issue when gisa is switched off
-cff59d8631e1409ffdd22d9d717e15810181b32c s390/uv: Panic for set and remove shared access UVC errors
-10f2ad032defe906240d0c3b62dcbceace96b230 KVM: arm64: Enforce dependency on an ARMv8.4-aware toolchain
-01ab08cafeced7ae1d6c01a08218742c8182f8da KVM: arm64: vgic-debug: Exit the iterator properly w/o LPI
-7e814a20f6da2bd2044b1a4682dd92a6f0df5a92 KVM: arm64: Tidying up PAuth code in KVM
-ad518452fd263766946346324810f14bd8bb8b34 KVM: selftests: arm64: Correct feature test for S1PIE in get-reg-list
-9eb18136af9fe4dd688724070f2bfba271bd1542 KVM: arm64: vgic: Hold config_lock while tearing down a CPU interface
-92b6c2f0076c50aaa919d16b595f34f3e9967bea KVM: SVM: Fix uninitialized variable bug
-747cfbf161a5bc292ce194bfce6ab1a2d5e60b40 Merge tag 'kvmarm-fixes-6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-696eb24ac2af632ddcb422114b2d8498af1de20c Merge tag 'kvm-s390-master-6.11-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-cd2d00606553e631e9b5d11cca7da38fc95433e6 KVM: SVM: Fix an error code in sev_gmem_post_populate()
-
---===============8457771335843318816==--
+--===============7534452082389654913==--
