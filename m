@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2699808082861993517=="
+Content-Type: multipart/mixed; boundary="===============8186050006268821503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 13 Aug 2024 17:24:15 -0000
-Message-Id: <172356985529.25376.3357795620869355075@gitolite.kernel.org>
+Date: Tue, 13 Aug 2024 17:24:18 -0000
+Message-Id: <172356985805.25464.7060940672417441973@gitolite.kernel.org>
 
---===============2699808082861993517==
+--===============8186050006268821503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fe1f433555d5ba80fd8b2085f737b16b4197da6f
     new: dd1bf9f9df156b43e5122f90d97ac3f59a1a5621
     log: revlist-fe1f433555d5-dd1bf9f9df15.txt
 
---===============2699808082861993517==
+--===============8186050006268821503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ f2ab4c1a9288774b1f9c102f0cb1b478965169bb net: netconsole: Unify Function Return 
 2c9c2a3d1aeb1c1c598dcb9a75daf4f2247f9007 Merge branch 'net-netconsole-fix-netconsole-unsafe-locking'
 dd1bf9f9df156b43e5122f90d97ac3f59a1a5621 net: hinic: use ethtool_sprintf/puts
 
---===============2699808082861993517==--
+--===============8186050006268821503==--
