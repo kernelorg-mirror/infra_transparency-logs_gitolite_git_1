@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7605684779574417188=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Aug 2024 16:06:43 -0000
-Message-Id: <172356520309.31291.16408984739526532844@gitolite.kernel.org>
-
---===============7605684779574417188==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 13 Aug 2024 16:09:26 -0000
+Message-Id: <172356536664.1385.2764330791094348880@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 96e18fb841750804d69c48511d65a0ffe08ff1dc
-    new: bc96622942a2cec26a157857ad2a4caea3520ff0
+  - ref: refs/heads/for-next
+    old: 6df1e63268faa719c014c34b5a010a85c0e854a4
+    new: a53935f8153af93bef3668bf9e92ee5ac1470c3c
     log: |
-         bc96622942a2cec26a157857ad2a4caea3520ff0 5.15-stable patches
+         ba70bbfd28ab8aa09ed4b905b1b47580d5df17d6 remoteproc: Use of_property_present()
+         74de9654abf7cd0ab46d2393889f3f28b6384db8 dt-bindings: remoteproc: xlnx,zynqmp-r5fss: Add missing "additionalProperties" on child nodes
+         d32e71660056455ff0af73e10d239d4043d9c1a5 remoteproc: keystone: Use devm_kasprintf() to build name string
+         209dd85aa4417480fb8d3c195893b116f9b87acb remoteproc: keystone: Use devm_rproc_alloc() helper
+         a53935f8153af93bef3668bf9e92ee5ac1470c3c Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
          
-
---===============7605684779574417188==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723565201 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1723565200-e91e45eaaff3f549f174739fde03de944c059195
-
-96e18fb841750804d69c48511d65a0ffe08ff1dc bc96622942a2cec26a157857ad2a4caea3520ff0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7hJEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wzwP/0YRiWR4iXV7oq52ardj
-IzJO7okJwofFGA8v/IDrzMn+X0reQDmS4lTRmzsEVLEyhUxL3zvyxcLheJ5WRwYu
-GqIoSSB5Q5PwSgpqVG28iQyyCShWgy6cCA+4pJ7XtC5T4t/9FppoA5j35a3w6uaB
-KULIErWLo96Tmq2Phj/yK3ZKn7fbbT3Rgkqtn2od85mJ69HFB/QHBdAAAhEmN40O
-c3IcudxihyEA7rX7yPN++rj4s8rxzmS9AP34OiHzNkhhAtpaTW0VOJ3hO/RDfxEy
-EuWjuxspQsFqZ+tBpMoLL7pX5R9Rmwt2uiR/Hn67qF1dFxtHfqxcwdeD1cIoa3rp
-cOWspHe44eApoOt4/zrVG7H58BujsVwaiI2dbaTS6GN5rK/69/syiAw8blsb8DLP
-/nKA65/Wool+di7E6J4liYUqMwElQrcWl+63Y2BcRXRgJtK0lkOaIlT0ZU1GT293
-bTEytz6RiXsOFJWULqA7YfOTKfJ/KnsnyBOOnurar7+KqV0CNXzj2B3VUAFWTcF4
-1UMgVeLpUfia0LWheSWIb7E5VVX6of3iWWWj/3s5RWgB1qvKIgM9zbwyzFY7/PZy
-I4Bi2StzwUDnNBvEmrIlJGomQ13m/91lNW/jqNLKEXqd5LmhWsY5yJpmpCeHZHUr
-5rYeX1ZyNhRUO7zmFlUNZakK
-=hnYC
------END PGP SIGNATURE-----
-
---===============7605684779574417188==--
