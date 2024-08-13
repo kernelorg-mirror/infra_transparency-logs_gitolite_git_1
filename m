@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 13 Aug 2024 12:50:29 -0000
-Message-Id: <172355342903.28206.14439564504025966661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 13 Aug 2024 12:50:36 -0000
+Message-Id: <172355343613.28318.16131921304863503822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/kvm-arm64/fpmr
-    old: e535c4d2d2c3101486f4c77040a54a9a2111050a
-    new: d04cbd7606945bf13d957a70cc7fda233f04caca
+  - ref: refs/heads/next-fixes
+    old: 624529b15858dbc47887e754b7de82a3cf93c3ef
+    new: 2691f6fae726ae8605f74e1baf699a15aae21295
     log: |
-         d04cbd7606945bf13d957a70cc7fda233f04caca fixup! KVM: arm64: Expose ID_AA64PFR2_EL1 to userspace and guests
+         2691f6fae726ae8605f74e1baf699a15aae21295 Merge branch 'misc-6.11' into next-fixes
          
