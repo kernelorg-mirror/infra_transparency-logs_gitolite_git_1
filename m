@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
-Date: Tue, 13 Aug 2024 16:38:00 -0000
-Message-Id: <172356708070.24623.6681986129264197775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Tue, 13 Aug 2024 16:43:47 -0000
+Message-Id: <172356742715.28342.18008817018704035981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/linux-firmware
-user: kvalo
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/ath-20240813
+  - ref: refs/heads/kangrejos/driver
     old: 0000000000000000000000000000000000000000
-    new: 82318c966fd1af87044299d34611751c76f70927
+    new: de9c2c66ad8e787abec7c9d7eff4f8c3cdd28aed
