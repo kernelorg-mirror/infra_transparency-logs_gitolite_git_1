@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4555220007388749342=="
+Content-Type: multipart/mixed; boundary="===============7444036511756223852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 13 Aug 2024 10:43:30 -0000
-Message-Id: <172354581008.28085.14863703757269412194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 13 Aug 2024 10:46:45 -0000
+Message-Id: <172354600507.30988.9050801388454211438@gitolite.kernel.org>
 
---===============4555220007388749342==
+--===============7444036511756223852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/nv-at-pan-WIP
-    old: 102150c71fc1776b9045ee0153557dde975496b6
-    new: 5c9bcd5b734407654ebc8128167306075987c074
-    log: revlist-102150c71fc1-5c9bcd5b7344.txt
+  - ref: refs/heads/master
+    old: 49da3af3d17fe4e802cc336e100adb89aeee839d
+    new: 2e9db7028c2ad7921a115063c8ec9a7bfdf06413
+    log: |
+         2e9db7028c2ad7921a115063c8ec9a7bfdf06413 4.19-stable patches
+         
 
---===============4555220007388749342==
+--===============7444036511756223852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-102150c71fc1-5c9bcd5b7344.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8375dde53dabf607547c71888c2658ba67c1081b KVM: arm64: nv: Enforce S2 alignment when contiguous bit is set
-69f35fa88eb0af87f366b5f1eb8c486a9a9f1979 KVM: arm64: nv: Turn upper_attr for S2 walk into the full descriptor
-1613f671d80a38d01dc6d25ace1ab19f12cde87c KVM: arm64: nv: Honor absence of FEAT_PAN2
-6723971c0fc453b5ec511242d0e9f28863360810 KVM: arm64: nv: Add basic emulation of AT S1E{0,1}{R,W}
-7f145cea53b35827e449261ca488c1a3351317d3 KVM: arm64: nv: Add basic emulation of AT S1E1{R,W}P
-1c908e7b8253117b49418ff3c28f9531937baa9b KVM: arm64: nv: Add basic emulation of AT S1E2{R,W}
-2400dcbaee19656017eceeecd22749f24726e593 KVM: arm64: nv: Add emulation of AT S12E{0,1}{R,W}
-0ee705096a50e9b65cb32568ef41f2350114dbb0 KVM: arm64: nv: Make ps_to_output_size() generally available
-7c10c97ac4509a6b7b1adb127594adfe60af4ec4 KVM: arm64: nv: Add SW walker for AT S1 emulation
-b35ed30225d54d539dbc6fd81a57361c849e86e3 KVM: arm64: nv: Sanitise SCTLR_EL1.EPAN according to VM configuration
-1ccf8c95350d3e1214ec19dce9f7d27b6507997c KVM: arm64: nv: Make AT+PAN instructions aware of FEAT_PAN3
-46634ca368b006e6f48c9f415cea6dc8444b1068 KVM: arm64: nv: Plumb handling of AT S1* traps from EL2
-5c9bcd5b734407654ebc8128167306075987c074 KVM: arm64: nv: Add support for FEAT_ATS1A
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723546004 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1723546001-ca11c76df874cfcdb209dbac9d6323210b9c7b35
 
---===============4555220007388749342==--
+49da3af3d17fe4e802cc336e100adb89aeee839d 2e9db7028c2ad7921a115063c8ec9a7bfdf06413 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma7OZQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gWwP/2ATRsB8SPsxWAiMtmaK
+KDny7wILN7bV6uWZ9s02NXeJ9rUHTKU0xCeRok3QFJc6kv02LAFdcvIKzUOUBG9n
+yoRBAF4mbiA2ZIHYb23Ifjsp1LfReump/BTXrJu4JDHYgYzKV9nkCJE87jx9uhl3
+Lwe0ODVcHCPhWFiRk7SIgxaB7sEI/F62/AbrEnA77IeXMFdQk+V+NVPvx68iYV+o
+QhXc04A2moFefxNDjNxE3WNnVkgd6qICA1jw+pA2JXslb6GoCiCFHisboNntRXCY
+jYcVSoZY8D1RZX97W29Vw1NP/8XpF3Bn0zj2RSZWfVM9H8DAfgadBJ5v9GJhCeKy
+LgrgH6rcAorP4bHC3J49l6plVLjv0TxbfxW00muhbIMf4sABCSKJVIkZGeMBa1Z7
+FpUG9quGI5qoBfpzPOYXtdaLqEDR8myIWFDYKTUjd0AgtbMJy+hXlju/bSHnLw+G
+iXqCksTidnAz8vfA0cbj9HDbS/g5kP/R8tv/vC85AtygZdNnm8/bMfCCVakDHoHJ
+MKuKw3JVXkvEGouV5PB7nDKyEFCGZ4YT27nmcyDhANds/pc9vCcKEW/vw3pBSRet
+CMnsRvaNQVYhpNPKQEw6cI2LxUsRdUkMdB4aWg27RKk+XMWkML6sLeJ/eppIzPdf
+lgXeUQcGrlStdtGxIxR1kKDW
+=rYHc
+-----END PGP SIGNATURE-----
+
+--===============7444036511756223852==--
