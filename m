@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 13 Aug 2024 06:53:38 -0000
-Message-Id: <172353201892.6129.5989931212893482757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 13 Aug 2024 06:59:07 -0000
+Message-Id: <172353234782.9769.2135637277299874299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/fixes
-    old: f874d7210d882cb1c58a8e3da66f61cdc63cd4b4
-    new: 8c6b808c8c2a9de21503944bd6308979410fd812
+  - ref: refs/heads/for-linus
+    old: 004eb8ba776ccd3e296ea6f78f7ae7985b12824e
+    new: 3beddef84d90590270465a907de1cfe2539ac70d
     log: |
-         6b9935da2a6b2a72774c15c844ae201a3fc362ac scsi: mpi3mr: Add missing spin_lock_init() for mrioc->trigger_lock
-         8c6b808c8c2a9de21503944bd6308979410fd812 scsi: mpi3mr: Avoid MAX_PAGE_ORDER WARNING for buffer allocations
+         3beddef84d90590270465a907de1cfe2539ac70d ALSA: hda/tas2781: fix wrong calibrated data order
+         
+  - ref: refs/heads/master
+    old: 0f1d91a58848401490e0d0542dd1535d88f9e9c5
+    new: be94a5de129d3298dd60386263a5de336b5fa50e
+    log: |
+         3beddef84d90590270465a907de1cfe2539ac70d ALSA: hda/tas2781: fix wrong calibrated data order
+         be94a5de129d3298dd60386263a5de336b5fa50e Merge branch 'for-linus'
          
