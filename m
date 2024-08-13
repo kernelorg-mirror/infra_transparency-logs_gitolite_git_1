@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3010895322949488025=="
+Content-Type: multipart/mixed; boundary="===============5882617565243936445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Aug 2024 14:43:16 -0000
-Message-Id: <172356019606.16805.9321614740832264702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Aug 2024 14:43:22 -0000
+Message-Id: <172356020221.16911.6500037227085284214@gitolite.kernel.org>
 
---===============3010895322949488025==
+--===============5882617565243936445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: 5552cccb0b73020f6506fd5d8f81975b1f59080c
     new: b919a27fab37e108164d657ac6e77bf870bf95e6
     log: |
@@ -25,28 +25,28 @@ changes:
          b919a27fab37e108164d657ac6e77bf870bf95e6 ASoC: MAINTAINERS: Drop Banajit Goswami from Qualcomm sound drivers
          
 
---===============3010895322949488025==
+--===============5882617565243936445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1723560194 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1723560194-9e5b3b683a7338fef7b4ad3637c17a4d0c8306da
+pusher C3F436CA30F5D8EB 1723560200 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1723560199-0ee2c678cab87ab0e1c5eaf631f6ac8747dff88c
 
-5552cccb0b73020f6506fd5d8f81975b1f59080c b919a27fab37e108164d657ac6e77bf870bf95e6 refs/heads/for-6.11
+5552cccb0b73020f6506fd5d8f81975b1f59080c b919a27fab37e108164d657ac6e77bf870bf95e6 refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma7cQIACgkQJNaLcl1U
-h9BvRwf+PfcRzJ2d0oKH/NDzy1bDy0FPUGKCTunMo0L3r8Vc9Ea0FSkOsRbgRwCm
-S9OqOgqIEOmxZQOZwpb85nH5jSve21Nv/jKgwajH7d2j/lvRmB2e3UNoFb1W7VlY
-RVcJoZtpmwG48i9PzwsBjUg6ObiHKxFuypSwqQoJTat/uop7BddF8z8eDl0mJUSt
-FtV5+0RvEaoVOHiO1i2XqMmuXEu9P9vsZpXfa0hZDIJ86LAqJRZWAOfaPCtf0alA
-LcJw+4eLSIPg1Kaq6wUr0ylPLGHywi7Q0lpRp02nX19zfir1JI2+gLOtIO1e6UkP
-tzzh68tc45eIJcNgKE9VNuBo5hHFfw==
-=YFpg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma7cQgACgkQJNaLcl1U
+h9ChuAf/VbfCrfIpMPShpHwLqhk+MmPMt00/h9+8SK1SVSyVCneV7lrPjwq1VNNi
+zKSaKlP8yw/+cJjlxS2Xi3TjDxa6PvWr+lgfzAqlKn6xrcuEDWij7/JUV9Tmuxyw
+rGkhQPrcqdxplk6yJb0RLiM7YwkhlDDs4cBsLilHx0htpwbxpAGVnQPtkQ3dyfQJ
+FjFiNlmM/fNPusFEHvp9pQeRUXbi8JxAVIPvciE0VkhOYAXlD3Sg6cuwcfLHFMHy
++UFCyv1zJ/69/OhPlGJqMsFMaV1qfaqXzbG02aamSLCBoTS+wNZ4XrbSmAbnh8dT
+dff7ooU25CreNjIn+IDUoQtnmp9dFQ==
+=yiPW
 -----END PGP SIGNATURE-----
 
---===============3010895322949488025==--
+--===============5882617565243936445==--
