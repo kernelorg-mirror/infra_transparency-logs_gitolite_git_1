@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7971300516493583342=="
+Content-Type: multipart/mixed; boundary="===============8052662453661566145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 14 Aug 2024 22:42:01 -0000
-Message-Id: <172367532103.24029.8230425326800579564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 14 Aug 2024 22:42:14 -0000
+Message-Id: <172367533471.24188.16751092807210936944@gitolite.kernel.org>
 
---===============7971300516493583342==
+--===============8052662453661566145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
 
---===============7971300516493583342==
+--===============8052662453661566145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,4 +402,4 @@ f50733b45d865f91db90919f8311e2127ce5a0cb exec: Fix ToCToU between perm check and
 1c0e5881691a787a9399a99bff4d56ead6e75e91 KVM: SEV: uapi: fix typo in SEV_RET_INVALID_CONFIG
 d07b43284ab356daf7ec5ae1858a16c1c7b6adab Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============7971300516493583342==--
+--===============8052662453661566145==--
