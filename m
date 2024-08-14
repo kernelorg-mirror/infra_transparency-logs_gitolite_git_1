@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7964454110488650117=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 14 Aug 2024 17:17:17 -0000
-Message-Id: <172365583757.8183.13457938901454672789@gitolite.kernel.org>
-
---===============7964454110488650117==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 14 Aug 2024 17:18:37 -0000
+Message-Id: <172365591706.8696.17773612011794593250@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-linus
-    old: 79f5ad40bb6e400db1a1963e40cfa31dae389998
-    new: c7989ae0a1904a700ee8727a0a6e8f66ea9b9bca
-
---===============7964454110488650117==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1723655836 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1723655835-69e82ac64bcaccfae580d515458497e81a741dd3
-
-79f5ad40bb6e400db1a1963e40cfa31dae389998 c7989ae0a1904a700ee8727a0a6e8f66ea9b9bca refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAma85pwUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNXSQgAkT044ArgfunjzeRi872GcmpGhfXn
-RLKfHY0u7X6UseJDzt2a5+tHp6/hNqLbGUpvBQ/jbqVEn36f6Gp3qSAv0TkqHLvO
-CQkV0Od2H12l0wEjz+jrBe6qjeSlOLNh300BDqTPMmIEivlXlaZfkXibyZc2+Mky
-5NdZy6bKtvJ9i9jfWY/bEG5zx9WGdC+DSOWY3omg2/salQVAgfpxiHpGYjLcXE+a
-8kxvq0Tb2hDZXRovQOdQ8TP/L4s/jNxGoBZJ9Kt7vMCL/joEtK0AOd6ahYa3xuPn
-JKQ6RrlQ2pVthXXV1gxXPvi9O/4ap21Bj0dLAuF7NODcXRp1VbO2Sj5FBQ==
-=DeOJ
------END PGP SIGNATURE-----
-
---===============7964454110488650117==--
+  - ref: refs/heads/clone3-shadow-stack
+    old: 1886ee594591ace2457c3e7f89a7559f88cb3c78
+    new: 3f4004efffb76950da8e85b471f39fa3e1b1c6e9
+    log: |
+         8fdcd019fb26b278580f14428b8e6474f678feff fork: Support shadow stacks in clone3()
+         a480abd32c45822e0a3bf505cfdbf5917593563f Documentation: userspace-api: Add shadow stack API documentation
+         a2810f570d87e9326960c2ea27ae4f5a56145491 selftests: Provide helper header for shadow stack testing
+         1e62840dd2c38a90e55ce7d46e3e531d9a89ea0f mm: Introduce ARCH_HAS_USER_SHADOW_STACK
+         30a6204943b3f91cf8b8334a74f38c8f976c215e fork: Add shadow stack support to clone3()
+         32dfdd00b818825c1e5c7e93a8abb8dd8097063c selftests/clone3: Remove redundant flushes of output streams
+         f673d429386da0dc70d60bd59dde7828812b41c4 selftests/clone3: Factor more of main loop into test_clone3()
+         6e124d0bc096fdb3c338ad364fea30d31e47ea2d selftests/clone3: Explicitly handle child exits due to signals
+         3350a5c58b9de05a1e85d28605e15bbb96b78066 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
+         3f4004efffb76950da8e85b471f39fa3e1b1c6e9 selftests/clone3: Test shadow stack support
+         
