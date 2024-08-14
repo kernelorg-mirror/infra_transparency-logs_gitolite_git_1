@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 14 Aug 2024 00:52:05 -0000
-Message-Id: <172359672537.2871.17484075091653438692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 14 Aug 2024 01:19:17 -0000
+Message-Id: <172359835722.26303.3594985760327330991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 6d9ebb8d3d1a2050f02c92ab7636c254d8ab4723
-    new: 05da3fe161e9abddf63efd8a6ba9edc3aa9227b9
+  - ref: refs/heads/main
+    old: dd1bf9f9df156b43e5122f90d97ac3f59a1a5621
+    new: ac8c97b19dfc01d007ccaeabbbe2daa5e05fce74
     log: |
-         05a3d6e9307250a5911d75308e4363466794ab21 selinux: revert our use of vma_is_initial_heap()
-         05da3fe161e9abddf63efd8a6ba9edc3aa9227b9 Automated merge of 'dev' into 'next'
-         
-  - ref: refs/heads/stable-6.11
-    old: 6dd1e4c045afa6a4ba5d46f044c83bd357c593c2
-    new: 05a3d6e9307250a5911d75308e4363466794ab21
-    log: |
-         05a3d6e9307250a5911d75308e4363466794ab21 selinux: revert our use of vma_is_initial_heap()
+         baae8b0ba8352f2b93346cc1e33ca115152cf22c Documentation: networking: correct spelling
+         be034ee6c33dcd7c8dc7160266acb50c897cc2ea dt-bindings: net: fsl,qoriq-mc-dpmac: using unevaluatedProperties
+         58c98d0cd4f8899f517ba1f0255d2aac7666a002 gve: Add RSS device option
+         fa46c456fa6ecc409cec43ac534b1a156bcef7b2 gve: Add RSS adminq commands and ethtool support
+         ac8c97b19dfc01d007ccaeabbbe2daa5e05fce74 Merge branch 'gve-add-rss-config-support'
          
