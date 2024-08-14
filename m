@@ -1,25 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 14 Aug 2024 02:05:26 -0000
-Message-Id: <172360112687.29348.13485852066536488484@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5161677847530959063=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/storage/autofs/autofs
+Date: Wed, 14 Aug 2024 02:16:10 -0000
+Message-Id: <172360177081.5819.3771978878594481157@gitolite.kernel.org>
+
+--===============5161677847530959063==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/storage/autofs/autofs
+user: raven
 changes:
   - ref: refs/heads/master
-    old: fee8c257a23ea728deff4cf4f19e2d5bd1710825
-    new: 260e85304153836284013aaff0a2468e42b43c16
-    log: |
-         9843fb6a51d07f95e9fbe6a7fee3831c819fb8a3 foo
-         d070f94adf221753b7aad79ca66d8d0363ee4772 foo
-         e7cef9b9102167a2c0eac0bb1283517ae6379e3c foo
-         3617c4b718f7b2baa7a6371385e2e74a5bb3c6e3 foo
-         8357135dfc47d0c953b7bd27de2c6e21728819bb foo
-         34b9581f0eb45b1d1cd0d30bcb68c7778aae7c4d foo
-         260e85304153836284013aaff0a2468e42b43c16 foo
-         
+    old: 5be858007775a51c0d793cb1770526006527db2d
+    new: 47dbf98327f59c6471bb9befbb8f2fdf928c7e75
+    log: revlist-5be858007775-47dbf98327f5.txt
+
+--===============5161677847530959063==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5be858007775-47dbf98327f5.txt
+
+d208de3741e80f954bbfdec7d20fa45a160e8a75 autofs-5.1.9 - fix amd external mount error handling
+c12e043736d358b3ce8101dd2bcaa62a62f1d7e2 autofs-5.1.9 - fix amd external mount mount handling
+0d9a9cb2179015f77d4510ca8d74b95de8de9adc autofs-5.1.9 - don't free ext mount if mounted
+edb2f0ffbcba701238efe9cf152bc7edbbd42163 autofs-5.1.9 - refactor amd function do_program_mount()
+8b6fb4e3855f536bcd14ec313fd3bcc1afa65299 autofs-5.1.9 - refactor amd function umount_amd_ext_mount()
+ddbfd2915fb486d97f4f16325cb0062239bf5f36 autofs-5.1.9 - add flags argument to amd do_program_mount()
+abf2030556dfe694dc19ed2d73f84f7e5046b660 autofs-5.1.9 - fix amd cache options not copied
+a2002247e16ef60efe049e04119a9c92694cbfe1 autofs-5.1.9 - seperate amd mount and entry flags
+6fdfbcd65fd845e968a68cbdf475a6dd0ee0ee66 autofs-5.1.9 - make ioctl ops ->timeout() handle per-dentry expire
+b48aab92dd3f47411a8ccd67ff4370cbfee64581 autofs-5.1.9 - refactor amd mount options handling
+6cbb6e9a3b8b223babf723e0f56cdd7b7eb90455 autofs-5.1.9 - add some unimplemented amd map options
+47dbf98327f59c6471bb9befbb8f2fdf928c7e75 remove invalid utf8
+
+--===============5161677847530959063==--
