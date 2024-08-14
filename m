@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 14 Aug 2024 13:31:14 -0000
-Message-Id: <172364227495.18674.4310932338544176346@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2724108128117994073=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 14 Aug 2024 13:41:01 -0000
+Message-Id: <172364286117.26680.1115490248351559829@gitolite.kernel.org>
+
+--===============2724108128117994073==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsd-next
-    old: a3a5517a396192ce5656b60872f430c88d96db94
-    new: 7a23210e0d5e8ba8210f79d2ec73f7c66749248d
+  - ref: refs/heads/master
+    old: 3724694bf1619f1bbf2f8154bbae9670af8cbe9a
+    new: 266e7f6557eea59b7a2ef05099a220b3dc9d9580
     log: |
-         dfb1ec94475ccb3cc5c94ad969691ef7806ef79f nfsd: move error choice for incorrect object types to version-specific code.
-         1e5fb8951e9a86d0dae3f954090122e4c0e4181c svcrdma: Handle device removal outside of the CM event handler
-         c72ab3adadb05133279a10fbc70388f637ceaaa2 nfsd: Add quotes to client info 'callback address'
-         826e59935017b302c9ce4204168ed96b1ccbcc23 NFSD: Fix NFSv4's PUTPUBFH operation
-         4d3a160bf6c27d0b6d16f38f33c102668b5b8b4c .mailmap: Add an entry for my work email address
-         7a23210e0d5e8ba8210f79d2ec73f7c66749248d NFSD: remove redundant assignment operation
+         266e7f6557eea59b7a2ef05099a220b3dc9d9580 Linux 6.10.5
          
+
+--===============2724108128117994073==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723642860 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1723642855-2ebe79edf880e50bfdc59314d6a19119a7e1b81b
+
+3724694bf1619f1bbf2f8154bbae9670af8cbe9a 266e7f6557eea59b7a2ef05099a220b3dc9d9580 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8s+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s6YP+wWQpSEt6nS1iJl/DE7I
+Cu+0kjiYkzvu3+YD8JCcEhnkP7+0DdyLSf+oMAGMF5JAzADvSUrQI6lQ1OtOq3p4
+EQtZN3CudvgdpCOIx97mrtHW7lErO0hGe/4qpfL+WkgxtqHaf1xNJKawSxYDWrWg
++zcehalpkheevWWwYmXQFNGKYG8KETT+nIS6NkWYVQ3xwmibeJMhZzMzIXT61DV6
+Fx0FgvgkKdg/0nJ8FUohhfFXJ5aaMfodxq2Zplnbwu13CgzlgX29z17HK05g5Ii2
+SuZ2TK6Vpiw6KqSgQ8Rplyeea52iZ0bqr9mN4HPU7cibYNpnV3Dfq7rVaeVdvUuM
+KzX6ekODN/tZk/usI3IVTnxDjL+uEAX0WPn6p+r/FXItGriP8RpWxSJu1lyoJ/Lk
+fPwy/PADkKdAd49OBFfEZlEvdY28qjwSleWdWltyY057Y+AgXWHzV1c184+snNvG
+Is4jVwBH932nmzIIbbkXtD4WPiGDEm7d2qiPHz5awRApPw0FvFB76FfDQNA/MqI5
+s90bDoe8lRr/1Ig13hDkVXt6qF1W6rU2e5AAbCNK3ByCxQ3TbRakZjrXIMwRTiFN
+WROh7ONBskXlN4/2RMxp8fLM4AyRMUCAnWpC0vGciUNeT2Y/fPtRf8hkLHBOxms2
+H31gYN3hS2FX/8IqiiabEgIK
+=oD0t
+-----END PGP SIGNATURE-----
+
+--===============2724108128117994073==--
