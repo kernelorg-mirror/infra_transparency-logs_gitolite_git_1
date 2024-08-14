@@ -1,27 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 Aug 2024 14:39:09 -0000
-Message-Id: <172364634957.19069.1949012941874472340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 14 Aug 2024 14:44:51 -0000
+Message-Id: <172364669115.22740.17785321404018124995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: b9c3de10723ed9723844c818adc29b1c0fc13f0e
-    new: 1886ee594591ace2457c3e7f89a7559f88cb3c78
+  - ref: refs/heads/vfs.all
+    old: 53f195db51e294280ca92f9422c575af6d2196c5
+    new: a5bc3f003261ea3ef65099f8b26f41db8411cea2
     log: |
-         a2ce8325b065062e5bd43b1d05f8b036af44f8af Documentation: userspace-api: Add shadow stack API documentation
-         8efdf95d9dc7a72911a47efbb9891668f2fe78bf selftests: Provide helper header for shadow stack testing
-         c65711c13aceb36760eb713e6cb5215000b388ca mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-         8d3f8e61bdbef3e52e2ab65803b0ed670fa8eea6 fork: Add shadow stack support to clone3()
-         9403dcb07b93d6656b0356adb496710a41e960f8 selftests/clone3: Remove redundant flushes of output streams
-         12c979e41874aad445267a159d28ee4fba7803ce selftests/clone3: Factor more of main loop into test_clone3()
-         14f94e5273ab12ce805fd98c0f7a8e44c3ccc8f5 selftests/clone3: Explicitly handle child exits due to signals
-         979b694875da43e88c46d041f2896a0cf9e8b500 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-         1886ee594591ace2457c3e7f89a7559f88cb3c78 selftests/clone3: Test shadow stack support
+         8b30d568bd8dd1d085401223330ff0ea93fb4c5a vfs: drop one lock trip in evict()
+         bd5cb032f657762f91a968b7ea19956a4f64ce46 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         94812a675aa73a90493c4b2fe30fdda0b9aec1b4 Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         4a2e3ffe64b28d7ceecc9da3b3913baf0e426f26 Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         d0b670e7de719511bfc6f4dc4da298ecf0106887 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         7f516c36c1ce020ade397aacfbc70c3631948875 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         a5bc3f003261ea3ef65099f8b26f41db8411cea2 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         
+  - ref: refs/heads/vfs.fixes
+    old: 810ee43d9cd245d138a2733d87a24858a23f577d
+    new: 8b30d568bd8dd1d085401223330ff0ea93fb4c5a
+    log: |
+         8b30d568bd8dd1d085401223330ff0ea93fb4c5a vfs: drop one lock trip in evict()
          
