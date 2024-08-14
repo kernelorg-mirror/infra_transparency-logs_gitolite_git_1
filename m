@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 14 Aug 2024 17:29:22 -0000
-Message-Id: <172365656275.15718.5266929923082223605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 14 Aug 2024 17:30:48 -0000
+Message-Id: <172365664878.18020.3966156664883221673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/200GbE
-    old: db1b4bedb9b97c6d34b03d03815147c04fffe8b4
-    new: fbb612d689c60a82fc2a3065ab8626858ebb7b3a
+    old: 2984e69a24affc8e5624069b7bb44593e09037e8
+    new: 87add1b8079a69cc5fb8f9dc0348925a109c21b7
     log: |
-         6e1918ff680527ce4be77426aa537012b5aa997c net: macb: Use rcu_dereference() for idev->ifa_list in macb_suspend().
-         58a63729c957621f1990c3494c702711188ca347 net: mana: Fix doorbell out of order violation and avoid unnecessary doorbell rings
-         df934abb185c71c9f2fa07a5013672d0cbd36560 mlxbf_gige: disable RX filters until RX path initialized
-         655111b838cdabdb604f3625a9ff08c5eedb11da mptcp: correct MPTCP_SUBFLOW_ATTR_SSN_OFFSET reserved size
-         a2cbb1603943281a604f5adc48079a148db5cb0d tcp: Update window clamping condition
-         fbb612d689c60a82fc2a3065ab8626858ebb7b3a idpf: remove redundant 'req_vec_chunks' NULL check
+         7bf891a310bf2527a7b99dde89dc7c51020d4792 unroll: add generic loop unroll helpers
+         b78100d4d09b8fcaee48b79fd14037f3d9e037b9 libeth: add common queue stats
+         5c74a30907a0003480e0d168568f0ba7c274c975 libie: add Tx buffer completion helpers
+         3d020e62de1d0d969abe00178bb67835fa060059 idpf: convert to libie Tx buffer completion
+         75626c6f3f3c82b061cb0fb3ba287dca4c1cb8ac netdevice: add netdev_tx_reset_subqueue() shorthand
+         34270aa349796c98587330c5a31b43274584c2ac idpf: refactor Tx completion routines
+         715bcb362f0ecaa0f170f9c4e1b0b9a225af6d63 idpf: fix netdev Tx queue stop/wake
+         6a4102247cafcb23937b6dc11520fd8f475b0845 idpf: enable WB_ON_ITR
+         87add1b8079a69cc5fb8f9dc0348925a109c21b7 idpf: switch to libeth generic statistics
          
