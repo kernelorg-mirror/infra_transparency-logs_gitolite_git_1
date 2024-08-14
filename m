@@ -1,58 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3108647965757696711=="
+Content-Type: multipart/mixed; boundary="===============7135180766321273077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Wed, 14 Aug 2024 14:14:19 -0000
-Message-Id: <172364485950.417.7732471991824216040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Wed, 14 Aug 2024 14:19:32 -0000
+Message-Id: <172364517261.4105.4004885618929053741@gitolite.kernel.org>
 
---===============3108647965757696711==
+--===============7135180766321273077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
-user: chao
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/wip
-    old: c07b0954506a159f68358edddc09be0a4d810e61
-    new: dc5fc5d733453caf28b1e429b89d997a6a41a3a5
-    log: revlist-c07b0954506a-dc5fc5d73345.txt
+  - ref: refs/heads/for-next
+    old: 08fd3b6e0df4968af2d8a9dce944a6731c22a709
+    new: 160f8902030ebf2450fefa082bff4d9aee54520e
+    log: |
+         e06e908dba9fed62c9493ea5cea2e4cbd306d23c arm64: dts: sprd: sc2731: rename fuel gauge node to be generic
+         160f8902030ebf2450fefa082bff4d9aee54520e Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: c7b44ed960ddecb3604d1e273494a932f00f384b
+    new: e06e908dba9fed62c9493ea5cea2e4cbd306d23c
+    log: |
+         e06e908dba9fed62c9493ea5cea2e4cbd306d23c arm64: dts: sprd: sc2731: rename fuel gauge node to be generic
+         
 
---===============3108647965757696711==
+--===============7135180766321273077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c07b0954506a-dc5fc5d73345.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b5ec029d2b32798777977454e5d2b844ec45171c dump.f2fs: Fix dumping inlined files
-584ebc710bc0779381595135e0686492c3908a20 f2fs-tools: use atoll replace atoi to avoid data truncate
-bd1474707dac76621e27bf765713f9048381f0d1 f2fs-tools: fix do_set_verity ioctl fail issue
-4a5da2ef15040605685c46e84e1d12b8858586ae f2fs-tools: export is_digits
-a66d49fd267834fea0cfb699308a0eee87dbb4b8 dump.f2fs: Dump symlinks as symlinks
-4f7ac389f4af614803060d2eea71e9cbde1fd823 libf2fs: add BLKFINISHZONE define if not defined
-1a1e775935d88abc994e04beeec74c85b4c8e06a f2fs-tools: fix to do not dump inode if it has F2FS_NODUMP_FL flag
-250d610d62ef3f0763407230c5f6eae0c86c4090 f2fs-tools: fix to add missing le32_to_cpu()/cpu_to_le32()
-d31d5f26ae91b58b64194cad71e29110b5fdbb5c f2fs-tools: clean up addrs_per_{inode,block}()
-3a3d362a86919af599b47870da04221d4dde22aa fsck.f2fs: update superblock if invalid
-752fcbe65af7e67fe408ba0e5e306a42158a3e30 fsck.f2fs: fix checking wp of all devices
-2d653ca599739a6e73e70bd488eda3cfaa30adc0 fsck.f2fs: check all-zero inline data with helper is_zeroed
-2c7fa4f0a1c6b20309ef9e421e3c94946d21354e f2fs-tools: show device info of sb->devs
-a9066a4e23ec95265941e69eed12a2c1306d1527 f2fs-tools: cleanup is_sit_bitmap_set
-b39aa8064711b13bf355c88c0bc847506d6d7102 inject.f2fs: introduce inject.f2fs
-082e3515a7267a997fd33ded315fa481bfb457bf inject.f2fs: add sb injection
-a6cca0edf0686139758a5f5feb975b19c2c7eba7 inject.f2fs: add cp injection
-28754d326c5dec00c052ffc89557bae084f82bf6 inject.f2fs: add nat injection
-0d7c27c5da12786b134854a2ff4009bf2ca1eb78 inject.f2fs: add sit injection
-27aa00c503f5f4457d6640cfbd33d1a9be46632f inject.f2fs: add ssa injection
-ed8b267262ec8d25de290445e7164ea4f334b647 inject.f2fs: add node injection
-1aeab18dc61407a4c384c628435e7829c0e5c518 man: add inject.f2fs man page
-72f6b7806c955749ca580cd17d64b590354a58bf mkfs.f2fs: Fix out-of-bounds read in f2fs_prepare_super_block
-6efff7aee3ac179d794e4d1d57e94136ef5f717d dump.f2fs: add checkpoint version to dump_nat
-309f273b3d9d3ac14088b74307103a72ad052440 inject.f2fs: fix some build errors
-f6f644859182d82c7b27b2c18cd5b50c5725bb03 inject.f2fs: install makefile
-3aefe2d27e599c6b2f9882a8103a1f402cb9f443 fsck.f2fs: don't finish zones if it's not open
-dc5fc5d733453caf28b1e429b89d997a6a41a3a5 f2fs-tools: reduce overprov_segment_count set times
+certificate version 0.1
+pusher krzk@kernel.org 1723645168 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1723645167-71bab9ee379c6d012be75eedb250fbf630337209
 
---===============3108647965757696711==--
+08fd3b6e0df4968af2d8a9dce944a6731c22a709 160f8902030ebf2450fefa082bff4d9aee54520e refs/heads/for-next
+c7b44ed960ddecb3604d1e273494a932f00f384b e06e908dba9fed62c9493ea5cea2e4cbd306d23c refs/heads/next/dt
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAma8vPAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/mhD/9IN8lMM+7yNav8kLXwj3f5oGQDcOIh9Sxs
+TTOLf2oMYca/LDnTy5CKLrR4YBCyo5+9BODp+ZA4IOxWPtczL3U1kr0KGbE4ZbBv
+3ml28uemC60sKO7r1ot+LcAmRvurh+kgofK7Yxe0i3tBpD2AZHc9VtxPbITqqf9L
+PeZWgOrwin2UOYuh3kecAiSI0wW7eaqDsG1CoM4IOQFEsvc7QOPy10Q3JiVPyfP2
+WNWAUydjiJkE2mP3ZtFacG2bJgZwB70SzL94dQ6UvTgAAF2yf7O3k1Nm0tdLKVAq
+smu96u4XHZIo8MaUAZ0nmk4rSCev7CU+zB4Hl4C8fPEiWgjkkoa0bunS7M3/idwu
+E7Uii2EnKGQzIdRtHvO5prI1YTG6drIDj45eBJtPNfonts3pWhcx8+QyANKcjJuV
+mDRlCE+3HeUg42JjvgtIrkaQKmihj2YG9hUs81cFYAlNOgFuGwTc15wcmZ8rK2Q1
+UEbiy6ENxRhvV/tAy1odUQo59ooaKAKSEGSsUXgBTrmuYt0K5f1J/VfLZefl7kce
+iQUOVdUZ131d0DbwgmCfmNue0Q3SkEJCsIfoxGIofiINi0i7T7NFuCCPeR+hPxT0
+T92P1cKwVQiqQSSl2CBMlJC5+xtx2c6k4FxxFvZQpMtSPA1fx+PUkHFSgynwtRuX
+YUv/ZKmXnA==
+=MZTX
+-----END PGP SIGNATURE-----
+
+--===============7135180766321273077==--
