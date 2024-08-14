@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 14 Aug 2024 22:06:45 -0000
-Message-Id: <172367320596.29617.1783085211690438181@gitolite.kernel.org>
+Date: Wed, 14 Aug 2024 22:07:48 -0000
+Message-Id: <172367326838.31494.17463111276669598632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: pablo
 changes:
-  - ref: refs/heads/main
-    old: 1a2e6ba587cb592593a33ac076ff03db6a1a52e3
-    new: bd662c4218f9648e888bebde9468146965f3f8a0
+  - ref: refs/tags/nf-24-08-15
+    old: 0000000000000000000000000000000000000000
+    new: bf32728a1978bb2e1e8d3b5dba677842a6f8f427
