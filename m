@@ -1,50 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6533497363720352606=="
+Content-Type: multipart/mixed; boundary="===============3108647965757696711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 14 Aug 2024 14:13:33 -0000
-Message-Id: <172364481317.32530.342529522537177771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Wed, 14 Aug 2024 14:14:19 -0000
+Message-Id: <172364485950.417.7732471991824216040@gitolite.kernel.org>
 
---===============6533497363720352606==
+--===============3108647965757696711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
 user: chao
 changes:
-  - ref: refs/heads/folio
-    old: 13d137ef9b4cdf82bd0d81b290c13bc8185a690f
-    new: 639946203da17aa5565c7ef9caef2bb584f92356
-    log: revlist-13d137ef9b4c-639946203da1.txt
+  - ref: refs/heads/wip
+    old: c07b0954506a159f68358edddc09be0a4d810e61
+    new: dc5fc5d733453caf28b1e429b89d997a6a41a3a5
+    log: revlist-c07b0954506a-dc5fc5d73345.txt
 
---===============6533497363720352606==
+--===============3108647965757696711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13d137ef9b4c-639946203da1.txt
+Content-Disposition: attachment; filename=revlist-c07b0954506a-dc5fc5d73345.txt
 
-a52eceeb0206add211dbdfbbf5e47be8fd875f20 f2fs: atomic: fix to not allow GC to pollute atomic_file
-17fbf6501a19848330f134b07d05b090338aedfc f2fs: atomic: fix to forbid dio in atomic_file
-364be82ab1aa6be2e5a1b05f7236ab735d640de9 f2fs: reduce expensive checkpoint trigger frequency
-ee3711629968e253aad7497cd9b05f9fd128f74b f2fs: fix to wait dio completion
-f54b7865a9b4190cac897c2111ccd1d81817d1e8 f2fs: fix to avoid racing in between read and OPU dio write
-bd7080fdf49a121f8de09459e8999f6e81a232e2 f2fs: get rid of buffer_head use
-6174f9d0b6f8e49d458fc270052b4f0a32201bc9 Revert "f2fs: use flush command instead of FUA for zoned device"
-d30b5e1304134116071856cd23be31ab5ee22e63 f2fs: sysfs: support atgc_enabled
-1fb6a666a53b4665ab231dc52d2fca555fffb93a f2fs: use f2fs_get_node_page when write inline data
-d81c83dd401b2433b4c63539f70cb6aa41c62ad8 f2fs: fix to use per-inode maxbytes and cleanup
-056c3d391173fc3eb3fb248db46bf5181d7f61e4 f2fs: clean up val{>>,<<}F2FS_BLKSIZE_BITS
-9506d9d8f0811e9dcc1d62655d2d781482d47720 f2fs: convert f2fs_compress_ctx_add_page() to use folio
-9df730eb4e742d7794d379c504d575f58a3e22b1 f2fs: convert f2fs_vm_page_mkwrite() to use folio
-010eff4861e23d61cf164db282edaac6c855d13f f2fs: convert f2fs_clear_page_cache_dirty_tag() to use folio
-f32c1abd2b444445d92827efd108876798822b42 f2fs: convert f2fs_write_inline_data() to use folio
-1f166b55aa541ec0823d9804c57a1bba7a0655cd f2fs: convert f2fs_write_single_data_page() to use folio
-8effe10f62e688ede299afa19b6f174df079a1eb f2fs: convert f2fs_do_write_meta_page() to use folio
-e8bf6e4fb9b0ef8a9fd0fd541e200bcda79e5c64 f2fs: convert __f2fs_write_meta_page() to use folio
-ae54d01ae63497827e25807e5d509c3dd3c68246 f2fs: convert f2fs_read_multi_pages() to use folio
-639946203da17aa5565c7ef9caef2bb584f92356 f2fs: convert f2fs_handle_page_eio() to use folio
+b5ec029d2b32798777977454e5d2b844ec45171c dump.f2fs: Fix dumping inlined files
+584ebc710bc0779381595135e0686492c3908a20 f2fs-tools: use atoll replace atoi to avoid data truncate
+bd1474707dac76621e27bf765713f9048381f0d1 f2fs-tools: fix do_set_verity ioctl fail issue
+4a5da2ef15040605685c46e84e1d12b8858586ae f2fs-tools: export is_digits
+a66d49fd267834fea0cfb699308a0eee87dbb4b8 dump.f2fs: Dump symlinks as symlinks
+4f7ac389f4af614803060d2eea71e9cbde1fd823 libf2fs: add BLKFINISHZONE define if not defined
+1a1e775935d88abc994e04beeec74c85b4c8e06a f2fs-tools: fix to do not dump inode if it has F2FS_NODUMP_FL flag
+250d610d62ef3f0763407230c5f6eae0c86c4090 f2fs-tools: fix to add missing le32_to_cpu()/cpu_to_le32()
+d31d5f26ae91b58b64194cad71e29110b5fdbb5c f2fs-tools: clean up addrs_per_{inode,block}()
+3a3d362a86919af599b47870da04221d4dde22aa fsck.f2fs: update superblock if invalid
+752fcbe65af7e67fe408ba0e5e306a42158a3e30 fsck.f2fs: fix checking wp of all devices
+2d653ca599739a6e73e70bd488eda3cfaa30adc0 fsck.f2fs: check all-zero inline data with helper is_zeroed
+2c7fa4f0a1c6b20309ef9e421e3c94946d21354e f2fs-tools: show device info of sb->devs
+a9066a4e23ec95265941e69eed12a2c1306d1527 f2fs-tools: cleanup is_sit_bitmap_set
+b39aa8064711b13bf355c88c0bc847506d6d7102 inject.f2fs: introduce inject.f2fs
+082e3515a7267a997fd33ded315fa481bfb457bf inject.f2fs: add sb injection
+a6cca0edf0686139758a5f5feb975b19c2c7eba7 inject.f2fs: add cp injection
+28754d326c5dec00c052ffc89557bae084f82bf6 inject.f2fs: add nat injection
+0d7c27c5da12786b134854a2ff4009bf2ca1eb78 inject.f2fs: add sit injection
+27aa00c503f5f4457d6640cfbd33d1a9be46632f inject.f2fs: add ssa injection
+ed8b267262ec8d25de290445e7164ea4f334b647 inject.f2fs: add node injection
+1aeab18dc61407a4c384c628435e7829c0e5c518 man: add inject.f2fs man page
+72f6b7806c955749ca580cd17d64b590354a58bf mkfs.f2fs: Fix out-of-bounds read in f2fs_prepare_super_block
+6efff7aee3ac179d794e4d1d57e94136ef5f717d dump.f2fs: add checkpoint version to dump_nat
+309f273b3d9d3ac14088b74307103a72ad052440 inject.f2fs: fix some build errors
+f6f644859182d82c7b27b2c18cd5b50c5725bb03 inject.f2fs: install makefile
+3aefe2d27e599c6b2f9882a8103a1f402cb9f443 fsck.f2fs: don't finish zones if it's not open
+dc5fc5d733453caf28b1e429b89d997a6a41a3a5 f2fs-tools: reduce overprov_segment_count set times
 
---===============6533497363720352606==--
+--===============3108647965757696711==--
