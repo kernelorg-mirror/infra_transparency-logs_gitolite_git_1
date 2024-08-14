@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2633707419436267882=="
+Content-Type: multipart/mixed; boundary="===============6481820304811340603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 14 Aug 2024 06:23:50 -0000
-Message-Id: <172361663086.23339.688183851204234429@gitolite.kernel.org>
+Date: Wed, 14 Aug 2024 06:25:07 -0000
+Message-Id: <172361670776.25468.9496650303019121430@gitolite.kernel.org>
 
---===============2633707419436267882==
+--===============6481820304811340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: b42243ffd7b68080899d9cdef63dfc691f1478b9
+  - ref: refs/heads/tty-next
+    old: 9f3eb413606b259c03ecbd20d61e5f7906681891
     new: 98e24a58b597d888f604f0de43fcf5eb5eb204b4
-    log: revlist-b42243ffd7b6-98e24a58b597.txt
+    log: revlist-9f3eb413606b-98e24a58b597.txt
 
---===============2633707419436267882==
+--===============6481820304811340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723616628 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723616707 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1723616627-89ab98f47e74ebb7f73cd515cf23325cf9333503
+nonce 1723616706-dbe4555a2c60197325dbfe505e091de65aefe4fc
 
-b42243ffd7b68080899d9cdef63dfc691f1478b9 98e24a58b597d888f604f0de43fcf5eb5eb204b4 refs/heads/tty-testing
+9f3eb413606b259c03ecbd20d61e5f7906681891 98e24a58b597d888f604f0de43fcf5eb5eb204b4 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8TXQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++38QAMPffsS1+XP+q3pwt06J
-TDk3g3OQuTWLI38fZvoebyg+sQOUDet/yaKokXPHvtcypMOcorpq8uqgWaa74aU+
-9tnJ06+zBDprPr+c42n5AyOQ9EIaKSKV7zyaTQLeNebWd/QxyTHiq+VJGOMOm6ps
-3BlMicza/fsJiJZTCpr4KBFHR8RKly+ceAa68/tejdVMY6z7UOfWvo4xHrcz3H81
-GuAZOW751AU/tGPugDdp/oL1byaDwQCXK6dWkS0VIxnXZJakdTwt9fKeC3iWT2is
-cxkF0+9TS/JP4r/c6lf/GlKngkZXKYysjWh0zu9PLNviNaQfclPhIz+jr4c4jqJ5
-T1MuqGdhDewe2UnpIDGMkPCqZajTJwrA9sjZekPUOP/+nZed2A3bvq7eDsBDxO0b
-QcL1fp9jhUx0LfyUDVk9IJKi9UmwkKmACkE2vPlpYGYeTxOojMcnS9P24WQSdmft
-qhoCKftXLfFruf4lJgNxuNfEfak8LMcU2uMTGjB52UFpnFeOP1DJRoFSBVJPTFgR
-/dZIn9a/YVKxCIsEyK/dcdeclpaVjtjxHmWMxaJxfFej9ylqi/hGUgMqHEjC/fgo
-5YKN2smMP6DW3msOzwrxvBUcx2kzwTm70pevciJy4T22KnimJkQyo9+e1uEGfdUg
-M3C3KZH6eA1obyNOnoa0LjvI
-=u+tn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8TcMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nuYQAL2pRRggYh6ck4nGjyYV
+5P+sVjl3jDzHC42NW2/C9T9YGj+jZhcFFrWfAIC87AqCgUbWzEF0MMNWSUweaFTW
+lICzCSp5igFXGxYWG4mVjXiUB7z2eqOqpTl7BiGRifu2LGlgr6Hjsi2j1nBhAiEs
+HeNJVT9ZV6Zsbvpy87nmOu4uHCSsOsIEunR/TZfwNEHcHGLAn2hZt9l59fFkIvuh
+5xDXk6TQyMMF7NOn413o6HtWknpbMRPy7eH698H2b3dKJKyPXqR+p9hkz8ExhN3d
+QiM2RBc+t/Dgx6bmcW14rEKApWLpGuBIKyPw0LgiziJZDRSOIjxMb+kksMAcIwjR
+2jmzaoQowAm8QLFLyCRHiXg3sHkoqgVlnXWgdu2Wujs3p+g/Kk5RWMVZOcj3fRRg
+60p2SgZfjsiKJWUKtzvR/kCVckGLx8GJXk0C4hDEBo3xYLEuPICPcB2EMeGMYgVT
+Fv6iAgJY0WcsbOrgAlYFBYRbpaELDHNQ2DjNmrdp3oloothG2bBKjzxEcgZlBaeA
+UmRIXVkS0zBm6RKH2N5BxCePBoEUL3ejg2F3+DjN6DJcNx0DgsOG2uaWXbfVeeU2
+ye+VeX6ydezcOEFQAz7TLNjjOXwUnMZ+0okC0tGVh4YB9Qt+Lr+qg7oFSzIF0rDl
+2YYMTxYbTABDypIW2QQFChMn
+=+Hw3
 -----END PGP SIGNATURE-----
 
---===============2633707419436267882==
+--===============6481820304811340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b42243ffd7b6-98e24a58b597.txt
+Content-Disposition: attachment; filename=revlist-9f3eb413606b-98e24a58b597.txt
 
 24179de090b973850e0359299a273683ab2e44b5 tty: serial: samsung_tty: drop unused argument to irq handlers
 ff3c62edfc4e7af94f4c960962c105b4b564e939 tty: serial: samsung_tty: cast the interrupt's void *id just once
@@ -73,4 +73,4 @@ cc04428b2e9ea60b620e5ad5412cfcb2f07f3cd6 serial: 8250_platform: Refactor serial8
 77748913d5d157f1315202e54e24359505a09f65 serial: 8250_platform: Unify comment style
 98e24a58b597d888f604f0de43fcf5eb5eb204b4 serial: 8250_bcm2835aux: Switch to DEFINE_SIMPLE_DEV_PM_OPS()
 
---===============2633707419436267882==--
+--===============6481820304811340603==--
