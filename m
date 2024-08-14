@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 14 Aug 2024 20:16:04 -0000
-Message-Id: <172366656440.13559.17842106805485525911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 14 Aug 2024 20:17:21 -0000
+Message-Id: <172366664142.14079.11178644633145423717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/fixes
-    old: f7732f8df6407f5b6d5f9b59ca3b28303c781d30
-    new: 687b685cedd3dc4db78245dd610d81997e0d9036
+  - ref: refs/heads/dev-queue
+    old: e1ce1d239169d4ecba5f01c7254863fb07039280
+    new: b4af97d32ec3735ad7c95dfd0b8d87dbf06fb06b
     log: |
-         b3f10d9b81e54cb96fbe7790448e70707ee9f406 riscv: Fix out-of-bounds when accessing Andes per hart vendor extension array
-         687b685cedd3dc4db78245dd610d81997e0d9036 Merge patch series "RISC-V: hwprobe: Misaligned scalar perf fix and rename"
+         b4af97d32ec3735ad7c95dfd0b8d87dbf06fb06b e1000e: avoid failing the system during pm_suspend
          
