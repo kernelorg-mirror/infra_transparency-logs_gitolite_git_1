@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4300285261724510430=="
+Content-Type: multipart/mixed; boundary="===============2730156106256133002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 14 Aug 2024 16:23:49 -0000
-Message-Id: <172365262939.31720.11681343515432572522@gitolite.kernel.org>
+Date: Wed, 14 Aug 2024 16:24:07 -0000
+Message-Id: <172365264737.31888.3762414865225054054@gitolite.kernel.org>
 
---===============4300285261724510430==
+--===============2730156106256133002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.11-fixes
     old: 7bf888fa26e8f22bed4bc3965ab2a2953104ff96
     new: 4813305c621d0084bea47964ee39df4fc7ba80d9
     log: revlist-7bf888fa26e8-4813305c621d.txt
 
---===============4300285261724510430==
+--===============2730156106256133002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -678,4 +678,4 @@ cb2e5ee8e7a04be6a762b51241701b5105b82022 Merge tag 'usb-6.11-rc3' of git://git.k
 681a1601ec077b4b4ffed4b4be029bdc5c12ae73 xfs: fix handling of RCU freed inodes from other AGs in xfs_icwalk_ag
 4813305c621d0084bea47964ee39df4fc7ba80d9 xfs: fix handling of RCU freed inodes from other AGs in xrep_iunlink_mark_incore
 
---===============4300285261724510430==--
+--===============2730156106256133002==--
