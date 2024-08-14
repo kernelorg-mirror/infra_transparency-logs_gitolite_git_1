@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 14 Aug 2024 11:44:59 -0000
-Message-Id: <172363589975.13305.9776306971392046387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 14 Aug 2024 11:46:02 -0000
+Message-Id: <172363596241.28984.16439622874751791629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: neeraj.upadhyay
 changes:
   - ref: refs/heads/next.14.08.24a
