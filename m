@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Wed, 14 Aug 2024 00:10:02 -0000
-Message-Id: <172359420250.4774.8130061959782220077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 14 Aug 2024 00:52:05 -0000
+Message-Id: <172359672537.2871.17484075091653438692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: c147eab8e2f5b7fc9346f1db0f91a21c82959588
-    new: e7154dede9e919b947bd1f08fab1b1f585c8b8e4
+  - ref: refs/heads/next
+    old: 6d9ebb8d3d1a2050f02c92ab7636c254d8ab4723
+    new: 05da3fe161e9abddf63efd8a6ba9edc3aa9227b9
     log: |
-         51afd84802c39ff2000c176c1ce5220515191e4b firewire: core: minor code refactoring to release client resource
-         6f915e012203bb7cd16981e5ff55136e401a37f1 firewire: core: add helper functions to convert to parent resource structure
-         fea71e15ab15218671da490deda1600958f12ad5 firewire: core: add helper function to detect data of iso resource structure
-         e2023cf05304a682facc30c3c1913be76555aa70 firewire: core: code refactoring to use idr_for_each_entry() macro instead of idr_for_each() function
-         e7154dede9e919b947bd1f08fab1b1f585c8b8e4 firewire: core: use xarray instead of idr to maintain client resource
+         05a3d6e9307250a5911d75308e4363466794ab21 selinux: revert our use of vma_is_initial_heap()
+         05da3fe161e9abddf63efd8a6ba9edc3aa9227b9 Automated merge of 'dev' into 'next'
+         
+  - ref: refs/heads/stable-6.11
+    old: 6dd1e4c045afa6a4ba5d46f044c83bd357c593c2
+    new: 05a3d6e9307250a5911d75308e4363466794ab21
+    log: |
+         05a3d6e9307250a5911d75308e4363466794ab21 selinux: revert our use of vma_is_initial_heap()
          
