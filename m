@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Aug 2024 17:40:45 -0000
-Message-Id: <172365724587.26145.12649510596301853500@gitolite.kernel.org>
+Date: Wed, 14 Aug 2024 17:41:51 -0000
+Message-Id: <172365731157.26602.11655080576634942289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 0ecc5be200c84e67114f3640064ba2bae3ba2f5a
-    new: 2848ff28d180bd63a95da8e5dcbcdd76c1beeb7b
+  - ref: refs/heads/x86/mm
+    old: 1aa0c92f816b3a136cc3a31ef184206a19fc3c03
+    new: d4245fd4a62931aebd1c5e6b7b6f51b6ef7ad087
     log: |
-         2848ff28d180bd63a95da8e5dcbcdd76c1beeb7b x86/fpu: Avoid writing LBR bit to IA32_XSS unless supported
+         d4245fd4a62931aebd1c5e6b7b6f51b6ef7ad087 x86/mm: Remove duplicate check from build_cr3()
          
