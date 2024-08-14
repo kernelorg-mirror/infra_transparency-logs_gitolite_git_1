@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 14 Aug 2024 14:44:51 -0000
-Message-Id: <172364669115.22740.17785321404018124995@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3531000423661833788=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 14 Aug 2024 14:51:37 -0000
+Message-Id: <172364709788.28556.18112957460158727934@gitolite.kernel.org>
+
+--===============3531000423661833788==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs.all
-    old: 53f195db51e294280ca92f9422c575af6d2196c5
-    new: a5bc3f003261ea3ef65099f8b26f41db8411cea2
+  - ref: refs/heads/master
+    old: 0114fa5276edf73226e964c34d3087ecad6180e7
+    new: 1d17540c751d9fae0d08234331017bb5d0c6cfda
     log: |
-         8b30d568bd8dd1d085401223330ff0ea93fb4c5a vfs: drop one lock trip in evict()
-         bd5cb032f657762f91a968b7ea19956a4f64ce46 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-         94812a675aa73a90493c4b2fe30fdda0b9aec1b4 Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-         4a2e3ffe64b28d7ceecc9da3b3913baf0e426f26 Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-         d0b670e7de719511bfc6f4dc4da298ecf0106887 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-         7f516c36c1ce020ade397aacfbc70c3631948875 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-         a5bc3f003261ea3ef65099f8b26f41db8411cea2 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+         1d17540c751d9fae0d08234331017bb5d0c6cfda assign CVE-2024-42259
          
-  - ref: refs/heads/vfs.fixes
-    old: 810ee43d9cd245d138a2733d87a24858a23f577d
-    new: 8b30d568bd8dd1d085401223330ff0ea93fb4c5a
-    log: |
-         8b30d568bd8dd1d085401223330ff0ea93fb4c5a vfs: drop one lock trip in evict()
-         
+
+--===============3531000423661833788==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723647092 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1723647092-7d4d7d40adb6cd6d7768045cbf680f7d57e0cc35
+
+0114fa5276edf73226e964c34d3087ecad6180e7 1d17540c751d9fae0d08234331017bb5d0c6cfda refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8xHQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O6kP/RhoGE0pOi0bKEiAebL/
+aGjFa69vRLAYs0oo0gwBllyhNoE/5tG1hi8yAKY4RVshzIVCoRyDVV5KSHnzP5m0
+DD+xHYaaWSQz1dyEvwovIVjjeCR44jZzB2THUuCCCLdMNZU3YuAFWtaSAeGVH9H6
+JLpoaUpyeotnanG8c+0Cgnh2Ag8ojkY8Bn8eR1erRI3jAPooTfrK5a32u1Mv7+y5
+QNDsLA27mjlrM7/mNkMJgulf8jvKNef0GOr1HXNCSygSO7m6QIJeMtHyyV629YjZ
+ayszMFm7KkCk4kJeZqNm0FpUEVffZzz5fjHLir+4/1+4QWzUDn5e2Gg1EAFq2o+Q
+Mhz6b0Ajf89qVT3tkZPp6R2KQbK5eNfGxfxu3BPmhj4uVzaXf3by5Ka2FtLOsCXV
+ABlQYaf1aEyjRsdFeWcvffTb8LQFV2rdSboeMOL8rcJJcFjDxgZo9gczAnX35gNH
+Y4UJI99ssE4ttHu3YjOW5xbDUyiQf+8qvYpxbApynoRe8PPINzvcOInBpmmiB0hb
+br4J74snWs8yYXEO3XLG3T/LhHyZ2xZ726ETliZ+MWo/rKDTTjsjEHydbrIydD9H
+dYHkso0I1OGa6S9xSUzPucepAhbuXNFTpYAnlEm8k1rwE8CaIZyfGoNLMQrBjaB/
+WI9HOwpkzmuHf/Gvz8tLPLnu
+=0kQZ
+-----END PGP SIGNATURE-----
+
+--===============3531000423661833788==--
