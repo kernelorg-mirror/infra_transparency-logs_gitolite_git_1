@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5272689200968720156=="
+Content-Type: multipart/mixed; boundary="===============1987514758424095146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 14 Aug 2024 18:08:14 -0000
-Message-Id: <172365889484.16250.2650834113688902996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 14 Aug 2024 18:08:35 -0000
+Message-Id: <172365891530.16486.8863478209676847437@gitolite.kernel.org>
 
---===============5272689200968720156==
+--===============1987514758424095146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: fd37dfa92f66f10b9e7af457a64fbe02a4805e63
-    new: 952e74cd01acff951b2373c9cd27cf34e79000af
-    log: revlist-fd37dfa92f66-952e74cd01ac.txt
+  - ref: refs/heads/master
+    old: 389ee88c666a9e7fd0fb60bec28e6f4eac6f78b0
+    new: 2db0ca81f2788a99c8b5c890b01cec55618426f5
+    log: |
+         2db0ca81f2788a99c8b5c890b01cec55618426f5 fix up queue-5.10/exec-fix-toctou-between-perm-check-and-set-uid-gid-usage.patch
+         
 
---===============5272689200968720156==
+--===============1987514758424095146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd37dfa92f66-952e74cd01ac.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1bc3e618481f28bd1dafd2a04d988a19c36b05e5 Merge branch 'thermal-core' into thermal-core-testing
-e158fd241a031f64c0c02ef2b33139d0f7c70bfe Merge branch 'thermal-fixes' into thermal-core-testing
-1c16e333ac584a0f31323e17131378576f8ec9da thermal: core: Fold two functions into their respective callers
-b077a941a71dabacb16a83e82d07af6c927d8221 thermal: core: Rearrange checks in thermal_bind_cdev_to_trip()
-9b3bac23b5d0bfe0b2a3ea52b0d9868121f28b9f thermal: core: Drop redundant thermal instance checks
-2d1485b1a43295d548f3c20fcddf404ecd5e8676 thermal: sysfs: Use the dev argument in instance-related show/store
-eb3bf0b5dc9e570eed3d38ae60c7f7e105587567 thermal: core: Move thermal zone locking out of bind/unbind functions
-471df9462bff7f231d2e371d06677452360c92a5 thermal: core: Introduce .should_bind() thermal zone callback
-cae093dd3550bdfe0a7177cb29385e4e906fa869 thermal: ACPI: Use the .should_bind() thermal zone callback
-4747fff40c2d4146724292532d077836ff64bfe8 thermal: core: Unexport thermal_bind_cdev_to_trip() and thermal_unbind_cdev_from_trip()
-b791c8628579a551571ca164e5074c94eeb2bd2c mlxsw: core_thermal: Use the .should_bind() thermal zone callback
-49f4fa29905fc26611387bc7088516e77562f78b platform/x86: acerhdf: Use the .should_bind() thermal zone callback
-bca871def46ec3d75e3df89301babbd6b4a13a6e thermal: imx: Use the .should_bind() thermal zone callback
-b13f080248eb9bf172077a5dae4ab461336f1636 thermal/of: Use the .should_bind() thermal zone callback
-1e15f02ea69a8f26fce2e4a574c74dc9fd7aa915 thermal: core: Drop unused bind/unbind functions and callbacks
-de6a0da9617b0f80381decd164249c970a463968 thermal: core: Clean up trip bind/unbind functions
-624c875c608056ab9ab57fe716964026d65eda73 thermal: core: Move lists of thermal instances to trip descriptors
-2eac6ebe0347d604de866651caf144019103b5e7 thermal: core: Pass trip descriptors to trip bind/unbind functions
-952e74cd01acff951b2373c9cd27cf34e79000af Merge branch 'thermal-core-testing' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723658914 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1723658912-d13dd43ba86820e012e8db40efb806264755da94
 
---===============5272689200968720156==--
+389ee88c666a9e7fd0fb60bec28e6f4eac6f78b0 2db0ca81f2788a99c8b5c890b01cec55618426f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma88qIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s/sP/2/KikBjp6LaX5Csxvv0
+Nog8UevHB91FeFz4DUc8LtBzsQakmjaUVOa9J+7X/Qs0p/KoSr14IZkm/RBTifIF
+QOuElmly9OuWjG6oEQIm8wrSRDfyPFAIJTeaqqUw4CHioncF6bZE/1A6wTsygZC3
+ZrYYbKtPf5bL7yiW6CwFjfHR/02DUEbbo/PFR7IpQiwd+jkddsVhMP0mBozSdurf
+LMLom7v1BsbCISN2MJWgQYNkqWYn8YnuxgNBR0VcyKIqh8cCtEIIp/miCivnbkN3
+DC6krN36pZ4dR6TZaFFXATWrbBHuZvQFLN04Frs4nObv55RVdvt86OHbMQPZXieC
+FDDcWPdy3zlf4CvSdkJOEys6lJ5PZGO6fPnMcfKs2bJ9VZQqHTSJqh7oGytannt5
+fCKLfhHs9kOpJShs6tcsIKU2O9dxotrZPTASto2z3yqiflUJkjCC0XeCi3ayv6fz
+GXhSLE1uQEnbPQFD7HRNLaMYq4QcvoNteCgb+jVasYDTPzoiCJ7xnUq+5ksAZjj2
+c1WumfWynVFgjcbg94fEQ2abzkwDb2SHg7x+IFNMxZGBVO9x/4RfgOAz+0Igbzi2
+kultmLktnOoy5D6XM8Kt6aapi+d2r98xRrR36FHSoC/ZGFcuiLG+5hNnLYDtETIt
+Bhnuwo8iFTlCCbGGmOhQ6eCa
+=HVgw
+-----END PGP SIGNATURE-----
+
+--===============1987514758424095146==--
