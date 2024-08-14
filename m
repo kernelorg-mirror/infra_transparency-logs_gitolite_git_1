@@ -1,64 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7135180766321273077=="
+Content-Type: multipart/mixed; boundary="===============6674346512141461277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Wed, 14 Aug 2024 14:19:32 -0000
-Message-Id: <172364517261.4105.4004885618929053741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 14 Aug 2024 14:19:43 -0000
+Message-Id: <172364518313.4253.11195412047721217868@gitolite.kernel.org>
 
---===============7135180766321273077==
+--===============6674346512141461277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 08fd3b6e0df4968af2d8a9dce944a6731c22a709
-    new: 160f8902030ebf2450fefa082bff4d9aee54520e
+  - ref: refs/heads/mem-ctrl-next
+    old: 23a641d5c2bce4c723fff9118a5d865ee6b9d05a
+    new: 67dd9e861add38755a7c5d29e25dd0f6cb4116ab
     log: |
-         e06e908dba9fed62c9493ea5cea2e4cbd306d23c arm64: dts: sprd: sc2731: rename fuel gauge node to be generic
-         160f8902030ebf2450fefa082bff4d9aee54520e Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: c7b44ed960ddecb3604d1e273494a932f00f384b
-    new: e06e908dba9fed62c9493ea5cea2e4cbd306d23c
-    log: |
-         e06e908dba9fed62c9493ea5cea2e4cbd306d23c arm64: dts: sprd: sc2731: rename fuel gauge node to be generic
+         67dd9e861add38755a7c5d29e25dd0f6cb4116ab memory: tegra186-emc: drop unused to_tegra186_emc()
          
 
---===============7135180766321273077==
+--===============6674346512141461277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1723645168 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1723645167-71bab9ee379c6d012be75eedb250fbf630337209
+pusher krzk@kernel.org 1723645181 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1723645180-f07e3041e0614a10717ab29d2ba0841fdc7f1f24
 
-08fd3b6e0df4968af2d8a9dce944a6731c22a709 160f8902030ebf2450fefa082bff4d9aee54520e refs/heads/for-next
-c7b44ed960ddecb3604d1e273494a932f00f384b e06e908dba9fed62c9493ea5cea2e4cbd306d23c refs/heads/next/dt
+23a641d5c2bce4c723fff9118a5d865ee6b9d05a 67dd9e861add38755a7c5d29e25dd0f6cb4116ab refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAma8vPAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/mhD/9IN8lMM+7yNav8kLXwj3f5oGQDcOIh9Sxs
-TTOLf2oMYca/LDnTy5CKLrR4YBCyo5+9BODp+ZA4IOxWPtczL3U1kr0KGbE4ZbBv
-3ml28uemC60sKO7r1ot+LcAmRvurh+kgofK7Yxe0i3tBpD2AZHc9VtxPbITqqf9L
-PeZWgOrwin2UOYuh3kecAiSI0wW7eaqDsG1CoM4IOQFEsvc7QOPy10Q3JiVPyfP2
-WNWAUydjiJkE2mP3ZtFacG2bJgZwB70SzL94dQ6UvTgAAF2yf7O3k1Nm0tdLKVAq
-smu96u4XHZIo8MaUAZ0nmk4rSCev7CU+zB4Hl4C8fPEiWgjkkoa0bunS7M3/idwu
-E7Uii2EnKGQzIdRtHvO5prI1YTG6drIDj45eBJtPNfonts3pWhcx8+QyANKcjJuV
-mDRlCE+3HeUg42JjvgtIrkaQKmihj2YG9hUs81cFYAlNOgFuGwTc15wcmZ8rK2Q1
-UEbiy6ENxRhvV/tAy1odUQo59ooaKAKSEGSsUXgBTrmuYt0K5f1J/VfLZefl7kce
-iQUOVdUZ131d0DbwgmCfmNue0Q3SkEJCsIfoxGIofiINi0i7T7NFuCCPeR+hPxT0
-T92P1cKwVQiqQSSl2CBMlJC5+xtx2c6k4FxxFvZQpMtSPA1fx+PUkHFSgynwtRuX
-YUv/ZKmXnA==
-=MZTX
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAma8vP0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+VzD/9Q56WzW+4sOyUDz8sKIIvvCsSRs1jiVvKg
+AQL2+PzKUoR+zwCu3qPgPsebCPzfaaGH1qnZ/ROT5O5h8AqTh4FkXm5cWNLzCVrB
+cW3dsfhY4TOl9S+1/MxcNrqqOrKs/NR9ehTdQ7CkVooygH6a7g2FDVeWIerOraq0
+WXJ14KPmqfUAqxm2UXuA2Oiwl5n/Tn7rgkaiC0shw8pLRq4yGlhv0jKAaPwIL/ST
+c5UUUZwkZwbEIz4ub5L1K/aAtw2s7BTkToC2EDN5130KFoiK/hUjYKGqrMZjelPZ
+vjQrgm5CdjTr8eEgbOhC3Aj+DPDWhtqNq2e2Ii4St0vFZW2GWSdv1XswrudHOb0R
+3GYzXeLs3qLcff0GvmEYxkRUrJOAEtN1HJDnjWuD0/8nykVm0VvRBYCkH23FRm6s
+5aFwAYoizqXi1Wqw/24yuYufb5xctDnuTfsj+8EOCtMxSg6E4/FsqOaOV2M6w7t9
+NPrMP/K0M7luCkpely9yYWI7nOAhZsOeVrQQF/a3MHxrg25LesGci5qfLcg9zgmx
+ebIvfgf2RKwoPtAvb/7njO8+Q92loipbDS0wbWzO1H56PdyiC7V+fGTiHW2dkYZJ
+jFom7zTOEkK8cx3YbXcSD+FN381qR1hOJjZnKUpiiXbdXxAOim5+7dUXkS9PCPKa
+lprrSNOcTA==
+=8weT
 -----END PGP SIGNATURE-----
 
---===============7135180766321273077==--
+--===============6674346512141461277==--
