@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3321505008205896671=="
+Content-Type: multipart/mixed; boundary="===============2663330104904404795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Aug 2024 13:47:31 -0000
-Message-Id: <172364325102.12707.17015149449162050523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 14 Aug 2024 13:47:50 -0000
+Message-Id: <172364327012.12934.11407242624209124919@gitolite.kernel.org>
 
---===============3321505008205896671==
+--===============2663330104904404795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4c55560f23d19051adc7e76818687a88448bef83
     log: revlist-0df215218169-4c55560f23d1.txt
 
---===============3321505008205896671==
+--===============2663330104904404795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e6952dcec8302643a8b59751df250d03762429c3 perf annotate: Display the branch count
 dab5b6cb0d405425502e60450ecf1c8e5ea6b845 perf test: Add new test cases for the branch counter feature
 4c55560f23d19051adc7e76818687a88448bef83 perf build: Fix up broken capstone feature detection fast path
 
---===============3321505008205896671==--
+--===============2663330104904404795==--
