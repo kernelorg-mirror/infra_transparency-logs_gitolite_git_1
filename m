@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6481820304811340603=="
+Content-Type: multipart/mixed; boundary="===============8218043303564795956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 14 Aug 2024 06:25:07 -0000
-Message-Id: <172361670776.25468.9496650303019121430@gitolite.kernel.org>
+Date: Wed, 14 Aug 2024 06:26:45 -0000
+Message-Id: <172361680578.26149.8397392368000440878@gitolite.kernel.org>
 
---===============6481820304811340603==
+--===============8218043303564795956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 9f3eb413606b259c03ecbd20d61e5f7906681891
-    new: 98e24a58b597d888f604f0de43fcf5eb5eb204b4
-    log: revlist-9f3eb413606b-98e24a58b597.txt
+  - ref: refs/heads/tty-testing
+    old: 98e24a58b597d888f604f0de43fcf5eb5eb204b4
+    new: 1241b384efa53f4b7a95fe2b34d69359bb3ae1b5
+    log: |
+         5879adbff5aad0436298db006a922dd576339c7f serial: use guards for simple mutex locks
+         e64caf989c76d6cfb1b4226fc977c342449452ce mxser: remove stale comment
+         b1ce5164b5835eed98cee4132926e5b016179c8c mxser: remove doubled sets of close times
+         2b217514436744dd98c4d9fa48d60610f9f67d61 xhci: dbgtty: remove kfifo_out() wrapper
+         866025f0237609532bc8e4af5ef4d7252d3b55b6 xhci: dbgtty: use kfifo from tty_port struct
+         be9a28455952ce4284a3a573fef1e35eb41637a3 mctp: serial: propagage new tty types
+         4c576b3fdeb0713baeb68b4daa1c12eb93d03a79 6pack: remove sixpack::rbuff
+         e2a61a7974bc1d876803dde6f14abe3cabd14009 6pack: drop sixpack::mtu
+         392a9d4807e869cb7adfbde62e11e295389c7a72 6pack: drop sixpack::buffsize
+         4283232aeb114d2a5906c24b5497a545c9b33629 6pack: remove global strings
+         1241b384efa53f4b7a95fe2b34d69359bb3ae1b5 6pack: propagage new tty types
+         
 
---===============6481820304811340603==
+--===============8218043303564795956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723616707 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723616803 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1723616706-dbe4555a2c60197325dbfe505e091de65aefe4fc
+nonce 1723616803-1d35ea93c4afe57f785552c61f4278a1df559dd8
 
-9f3eb413606b259c03ecbd20d61e5f7906681891 98e24a58b597d888f604f0de43fcf5eb5eb204b4 refs/heads/tty-next
+98e24a58b597d888f604f0de43fcf5eb5eb204b4 1241b384efa53f4b7a95fe2b34d69359bb3ae1b5 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8TcMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nuYQAL2pRRggYh6ck4nGjyYV
-5P+sVjl3jDzHC42NW2/C9T9YGj+jZhcFFrWfAIC87AqCgUbWzEF0MMNWSUweaFTW
-lICzCSp5igFXGxYWG4mVjXiUB7z2eqOqpTl7BiGRifu2LGlgr6Hjsi2j1nBhAiEs
-HeNJVT9ZV6Zsbvpy87nmOu4uHCSsOsIEunR/TZfwNEHcHGLAn2hZt9l59fFkIvuh
-5xDXk6TQyMMF7NOn413o6HtWknpbMRPy7eH698H2b3dKJKyPXqR+p9hkz8ExhN3d
-QiM2RBc+t/Dgx6bmcW14rEKApWLpGuBIKyPw0LgiziJZDRSOIjxMb+kksMAcIwjR
-2jmzaoQowAm8QLFLyCRHiXg3sHkoqgVlnXWgdu2Wujs3p+g/Kk5RWMVZOcj3fRRg
-60p2SgZfjsiKJWUKtzvR/kCVckGLx8GJXk0C4hDEBo3xYLEuPICPcB2EMeGMYgVT
-Fv6iAgJY0WcsbOrgAlYFBYRbpaELDHNQ2DjNmrdp3oloothG2bBKjzxEcgZlBaeA
-UmRIXVkS0zBm6RKH2N5BxCePBoEUL3ejg2F3+DjN6DJcNx0DgsOG2uaWXbfVeeU2
-ye+VeX6ydezcOEFQAz7TLNjjOXwUnMZ+0okC0tGVh4YB9Qt+Lr+qg7oFSzIF0rDl
-2YYMTxYbTABDypIW2QQFChMn
-=+Hw3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma8TiMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WP8P/1ZRn8qg8541E9fyDQUs
+6t4S+d+ehTVrrwfexbkDE+B/rUUNRGWN4Euoqt2UY27NtrkNuQySfJBDf0c4st0H
+nwsfIT9KiJZHpLvnx8UVGnzWbaT1NlCVd+Lv7sO8Xi+O3YSjlOOph17zvGml6lwk
+wdOZcXLP8eYPvUJfEer6pH6qVnY9a3PVrXe3yEtv6p8XS0YtRdNGlZsywCRxZEZy
+axdaG0exCqj87GsejFzHwWkW9SYNeIgEAZ8oJo26rHvSYQhQbZg5xsbjIwpakxf8
+QCzGi0hZYM5WVIfkomwe2/iS0e9Zlxx09V/05hTlv5hskoxc4vwxyp8Gs4qe0sUM
+vdilS+q0vqhhIbaRbgBRnWVmZEyceccpzhQUSJb0PFCDTiU3wVIGnRzcEgcC1pGy
+gTi2y7bpvyH0uEiFYp5pxH1JNaWbMyL/pL8wpJrE/drLWzchRSOejrgDK1jgEj5m
+HSwCKangAxWKSJLXcVSKMAfPukIVYTnOf0joUxsSFmciqlLcEHxOe8Oecpe6H90j
+Pu4n1BB1TmcoH4ZRD3DsCAkHnj76YxgpSDHD3TQErbYpSW+rq8tCplZAvETPeCdF
+YqJoGchZR24EhU6kLpBrPL/Nt9Ih/RDnwK2eOsVuE3FRJkPGuvReGqxHWZIu9EOF
+SR2d7tgzgizW7Q8GAraFMNVz
+=Tnth
 -----END PGP SIGNATURE-----
 
---===============6481820304811340603==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f3eb413606b-98e24a58b597.txt
-
-24179de090b973850e0359299a273683ab2e44b5 tty: serial: samsung_tty: drop unused argument to irq handlers
-ff3c62edfc4e7af94f4c960962c105b4b564e939 tty: serial: samsung_tty: cast the interrupt's void *id just once
-a4db50efe0745001c65b8920d3d5609151cedef9 dt-bindings: serial: 8250_omap: Add wakeup-source property
-704c2c361e1f405dcf676217498a7c24b64190cb serial: 8250: omap: Remove unused wakeups_enabled
-35e648a16018b747897be2ccc3ce95ff23237bb5 serial: 8250: omap: Cleanup on error in request_irq
-4179df77e5f559e907c4f540e23d5464d7bf67fe serial: 8250: omap: Set wakeup capable, do not enable
-7c199bd2fdcbc221b6f77d624c34f864ad938487 serial: 8250: omap: Parse DT wakeup-source proerty
-acf7c31def54147964955b61b883d440e0fd1a7f serial: 8250_platform: Remove duplicate mapping
-6586ccd7685bd1550c06ed93e3b11feab9f9d6a6 serial: 8250_platform: Don't shadow error from serial8250_register_8250_port()
-9136b3766635a08623f3627038533f4c093f7fa1 serial: 8250_platform: Use same check for ACPI in the whole driver
-32e0a658752d9822f7b37299696c624cff6979d6 serial: 8250_platform: Tidy up ACPI ID table
-4596d2bd551d847dd7380979f064b17b8d41562e serial: 8250_platform: Switch to use platform_get_mem_or_io()
-cc04428b2e9ea60b620e5ad5412cfcb2f07f3cd6 serial: 8250_platform: Refactor serial8250_probe()
-77748913d5d157f1315202e54e24359505a09f65 serial: 8250_platform: Unify comment style
-98e24a58b597d888f604f0de43fcf5eb5eb204b4 serial: 8250_bcm2835aux: Switch to DEFINE_SIMPLE_DEV_PM_OPS()
-
---===============6481820304811340603==--
+--===============8218043303564795956==--
