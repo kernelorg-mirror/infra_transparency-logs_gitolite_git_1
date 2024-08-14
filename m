@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 14 Aug 2024 21:53:02 -0000
-Message-Id: <172367238289.19006.17077164663904030021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 14 Aug 2024 21:57:39 -0000
+Message-Id: <172367265969.22299.6203259107772469098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: 136d8c9ccf35dda7e3d4550833cdb02e84ffbda9
-    new: 98d0f02390e71ef9114304d9a27168d9f5107237
-    log: |
-         4d94719f7d9c19f283a3adc56db6fce73473156b foo
-         b14cbb9e206254d056d813ede59d6b3921469c7e foo
-         2ddc5ba9e97ce63d5296168aed63d70785cc4000 foo
-         98d0f02390e71ef9114304d9a27168d9f5107237 foo
-         
+  - ref: refs/tags/nf-24-08-14
+    old: 0000000000000000000000000000000000000000
+    new: bb64170446a2a8f3fc4e801c18ead47d6475e5cd
+  - ref: refs/tags/v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/tags/v6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
