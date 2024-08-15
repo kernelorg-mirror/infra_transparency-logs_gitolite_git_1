@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2671614228827950423=="
+Content-Type: multipart/mixed; boundary="===============0685647595436540515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 15 Aug 2024 14:59:58 -0000
-Message-Id: <172373399878.21912.9564999074518720536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 15 Aug 2024 15:00:46 -0000
+Message-Id: <172373404620.24022.6043719636327170449@gitolite.kernel.org>
 
---===============2671614228827950423==
+--===============0685647595436540515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: ccbde4b128ef9c73d14d0d7817d68ef795f6d131
-    new: 9bb5e74b2bf88fbb024bb15ded3b011e02c673be
-    log: |
-         9bb5e74b2bf88fbb024bb15ded3b011e02c673be Revert "misc: fastrpc: Restrict untrusted app to attach to privileged PD"
-         
+  - ref: refs/heads/pic64gx
+    old: 0f5d55e6ec0ab7dcbcf6f46c778dc4efcf6832dc
+    new: 73763fba3b22ce3161375f3249de3046a3f6aeee
+    log: revlist-0f5d55e6ec0a-73763fba3b22.txt
 
---===============2671614228827950423==
+--===============0685647595436540515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0f5d55e6ec0a-73763fba3b22.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723733996 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1723733995-a1e00ee372141fa8ffec5fc48b9d259160538cee
+6dc1dc4dbf8f957ca8c4da66d2a576435cb92e5c dt-bindings: mailbox: mpfs: fix reg properties
+55cd0b829f2e5a68e88d286febdeaa145b50ce2e hwmon: add a driver for the temp/voltage sensor on PolarFire SoC
+c5493530ebf2e5fdea13ce2b02adc60337142f60 mailbox: mpfs: support fixed binding (TODO: always use regmap)
+b4d6c6aec68cbbe99d710b802640493bec4c6437 riscv: dts: microchip: fix mailbox description (TODO drop 3rd syscon from here)
+95c96d0d577110b7cbd9d6c95e56250301cbbfcc dt-bindings: mfd: syscon document the non simple-mfd syscon on PolarFire SoC
+586e4f4db182980099aa10489be42b26370a9e68 dt-bindings: soc: microchip: document the two simple-mfd syscons on PolarFire SoC
+1815ad1900513da5070512fe292e6105d3ca2b96 reset: mpfs: add non-auxiliary bus probing
+f2d85955fcc0ed4aac49b04223b83dfbb3f1bea7 copy meson clk-regmap for now
+bd9fb92d6a0d0864d4269647ae4456ecf928d615 clk: microchip: mpfs: use regmap clock types
+f857ee8f91ef99e54631dadf060d9fa320baf30d dt-bindings: clk: microchip: mpfs: remove first reg region
+73763fba3b22ce3161375f3249de3046a3f6aeee riscv: dts: microchip: convert clock and reset (TODO: fixup phandle)
 
-ccbde4b128ef9c73d14d0d7817d68ef795f6d131 9bb5e74b2bf88fbb024bb15ded3b011e02c673be refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma+F+wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eIIP/2Ga/iO0vGjXHrD0HUEd
-XwWY21izSJiZFObGR53Px/FsjvVx59luVcyN96j/5zjHh2lE1k/bUgzLHhFeCb2v
-ypBHgSB4sspk2nFQcpJC71IBD7OrUmhhigla3PxDr0CfF+wnCtjg8PL5Xdjm2Zy2
-Woj8EQqMChxhUYKkxhCFlzfzfvyaMgzjomuylqSVRFtaaTDI3GF5Ml2g5Ck9BOLg
-0VfZHoGUVqw1Aoh2jR5W0k0we7IxsEqJqPQquPJQnBpPpQS6gUiel9aJedgaeGWb
-/frfnr900ObCMuJRB1y75iW+R0iGCg75pLuKQ022sNeACMClc8IAheXFj5qCnKyS
-E/5IVxQ6AYVRW09+0CipYfIVy3fWUTBctJOK/qHtao5L4ocVWUVX5nL4feY2teS+
-3ZyzO2qPFcF9G5MZRvZ3D75nJ5Hi+rWABelmEHMQRFW+Tqjz+oBneIkhwgJN3jxi
-i8faLMWTniJLfPbE+9QMNP+2862ag5RVtwCNte7PqiOvpS9mISO40nT9+XWj4ih3
-nX9YGSRBwEiMscfH5CHNCc92r97l1d6tWrGvH0963QFSHDg8UTmo4knRLTIgZxUu
-hL0I3W57fw8WUGYSAiSK8RrDDVf6W21NteBWM/7sbF5VBB/aEv+7Njc3smu/J9NS
-uUmddCi9+1r/r5m54hkbUoZR
-=1AE8
------END PGP SIGNATURE-----
-
---===============2671614228827950423==--
+--===============0685647595436540515==--
