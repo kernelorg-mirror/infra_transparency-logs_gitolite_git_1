@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4069808518235125004=="
+Content-Type: multipart/mixed; boundary="===============0368058634489949082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 15 Aug 2024 19:01:33 -0000
-Message-Id: <172374849357.10129.1682135693272301607@gitolite.kernel.org>
+Date: Thu, 15 Aug 2024 19:01:53 -0000
+Message-Id: <172374851346.10330.15713529940990171984@gitolite.kernel.org>
 
---===============4069808518235125004==
+--===============0368058634489949082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b4c6353606130a822bace13d94be1d95c65a6129
     new: ac6b3979de1e07ef86da44181dd54dbe27bc2258
     log: revlist-b4c635360613-ac6b3979de1e.txt
 
---===============4069808518235125004==
+--===============0368058634489949082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -667,4 +667,4 @@ a4a35f6cbebbf9466b6c412506ab89299d567f51 Merge tag 'net-6.11-rc4' of git://git.k
 5e1c39cbccbaef01f01e8ec601cec1bde8218408 tpm: ibmvtpm: Call tpm2_sessions_init() to initialize session support
 ac6b3979de1e07ef86da44181dd54dbe27bc2258 KEYS: Remove unused declarations
 
---===============4069808518235125004==--
+--===============0368058634489949082==--
