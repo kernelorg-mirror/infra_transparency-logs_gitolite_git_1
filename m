@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 15 Aug 2024 23:43:30 -0000
-Message-Id: <172376541062.22838.16102424281034518040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 15 Aug 2024 23:45:41 -0000
+Message-Id: <172376554105.25416.17005242458046814712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 227bdf4e2f6fe2376fb9f2ebba69ed09de361740
-    new: 4949be55b52e826710089be44a8cf8b0e02e204f
+  - ref: refs/heads/for-rc
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 950aeefb34923fe3c28ade35fe05f24e2c5b1d55
     log: |
-         0a40fbbbc54d433b7d48fa02f3bf9fa4b9518fa9 foo
-         4949be55b52e826710089be44a8cf8b0e02e204f foo
+         950aeefb34923fe3c28ade35fe05f24e2c5b1d55 iommufd/device: Fix hwpt at err_unresv in iommufd_device_do_replace()
          
