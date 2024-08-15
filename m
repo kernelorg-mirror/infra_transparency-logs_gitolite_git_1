@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Thu, 15 Aug 2024 15:41:53 -0000
-Message-Id: <172373651325.23738.6100626200938667888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 15 Aug 2024 15:58:05 -0000
+Message-Id: <172373748519.2034.7115697225460591114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/topic/event-hist-poll
-    old: d906671fe57d510462376a6e06e0a5ee404b5210
-    new: 8c88dfafec4751b0a1c446b7e029ceddfcd6b70e
+  - ref: refs/heads/master
+    old: f173b220f9dc60a9f202e47336c484979cdcf588
+    new: f2ed8d6d8aea7d1def44f3b8ea713460299389d1
     log: |
-         8c88dfafec4751b0a1c446b7e029ceddfcd6b70e selftests/tracing: Add hist poll() support test
+         f9774a6ac6623484f1b4fbd4887cb3a908b15986 Bluetooth: HCI: Invert LE State quirk to be opt-out rather then opt-in
+         56817724f4d32918c6883198887cd0cdb423de33 Bluetooth: btusb: Invert LE State flag to set invalid rather then valid
+         a8d17a97ecfdcc06fbbab02b3048141db232a61e Bluetooth: hci_core: Fix LE quote calculation
+         a7e36fd74c874577a9a25243a24572ce2d5e4f8c Bluetooth: SMP: Fix assumption of Central always being Initiator
+         f2ed8d6d8aea7d1def44f3b8ea713460299389d1 Bluetooth: MGMT: Add error handling to pair_device()
          
