@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2618373909846573420=="
+Content-Type: multipart/mixed; boundary="===============6607273988863841504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Thu, 15 Aug 2024 17:57:16 -0000
-Message-Id: <172374463656.26515.1883094774500809031@gitolite.kernel.org>
+Date: Thu, 15 Aug 2024 18:01:26 -0000
+Message-Id: <172374488608.29758.3851391497695090427@gitolite.kernel.org>
 
---===============2618373909846573420==
+--===============6607273988863841504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/rust-dev/mm
-    old: fa237d0a990eb21fd8e29ca56338a04957d145f0
+  - ref: refs/heads/rust/mm
+    old: 07fa3efc985d9bf93bcc8a3f92c62169cb7355de
     new: 98ae5720dfc2c9dcfbf4b83f35c896ebbb307c27
-    log: revlist-fa237d0a990e-98ae5720dfc2.txt
+    log: revlist-07fa3efc985d-98ae5720dfc2.txt
 
---===============2618373909846573420==
+--===============6607273988863841504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa237d0a990e-98ae5720dfc2.txt
+Content-Disposition: attachment; filename=revlist-07fa3efc985d-98ae5720dfc2.txt
 
+33b7889e3b5a49f6d72ce9e81a132837b1c4b807 rust: add improved version of `ForeignOwnable::borrow_mut`
+62c34da1da6c01a635ea2308cb42996d0571059e rust: kernel: add `drop_contents` to `BoxExt`
+76c469c33b6765dc9407171ad5a04a463931ea78 rust: init: add `write_[pin_]init` functions
+c2f0204ae670345710143e7bc48c0e9a56ae113f rust: rbtree: add red-black tree implementation backed by the C version
+6019d4da064ea5242965bd7412914eb45df689dc rust: rbtree: add iterator
+12837fa2e3dd3359ac8458d4eed2e472f44210b2 rust: rbtree: add mutable iterator
+dd3c2150dc945e6238ccb9896cfd8cdcda2ba67a rust: rbtree: add `RBTreeCursor`
+bc623d126caa0ee3094d4d1f32a4b19f0fac16c3 rust: rbtree: add `RBTree::entry`
+3bcc4c4fddc7d9a03eaa9cbc981cbc10b9af3002 rust: add `ARef::into_raw`
+1fac9e6e2cd71efded440de1304f00964a27616f rust: types: add `NotThreadSafe`
+3c9e4f98f2c31ae26a06a72dbe9107d809c564cb rust: task: add `Task::current_raw`
+e9fce74052645c76e6ab55feab52560699799ed0 rust: file: add Rust abstraction for `struct file`
+b4f7f5b110c18cc25c6626cf6da31efc6f23edde rust: cred: add Rust abstraction for `struct cred`
+adceb0bc1161b75c777a5dea1d846c87fb90a8cf rust: security: add abstraction for secctx
+0d2ecaa95ad14223456717aeea33284c331369c7 rust: file: add `FileDescriptorReservation`
+fee628ea059c2d32b9117529b2fd0e8899742a96 rust: file: add `Kuid` wrapper
+17395d5863c20c5795ceb32c4222de6d073684b5 rust: file: add abstraction for `poll_table`
+7a6ad2ead462b5e066c8a55e64f34498e2e1d541 rust: x86: remove `-3dnow{,a}` from target features
+7d03eaab6e310f6f856950231615acff68952a1d rust: add intrinsics to fix `-Os` builds
+d56868b009a9c332b4f86ff75071cf9b5e712f7a mm: vmalloc: implement vrealloc()
+f005c686d6c1a2e66f2f9d21179d6b6bd45b20e2 mm: kvmalloc: align kvrealloc() with krealloc()
 a3467d184e4ee7521510e0dcf562ab221818676f rust: alloc: add `Allocator` trait
 d9ea38a04942404ce1f45fd56d362b7184e8f43b rust: alloc: separate `aligned_size` from `krealloc_aligned`
 0ff384bc573a57b46287d2ae46274aa2e168b607 rust: alloc: rename `KernelAllocator` to `Kmalloc`
@@ -53,4 +74,4 @@ ce0a390a3bfdfb9aee048c9304b55890df2c4ee5 rust: alloc: update module comment of a
 b35e90388783f56aa14a08d41a90684a894bc8ce kbuild: rust: remove the `alloc` crate and `GlobalAlloc`
 98ae5720dfc2c9dcfbf4b83f35c896ebbb307c27 MAINTAINERS: add entry for the Rust `alloc` module
 
---===============2618373909846573420==--
+--===============6607273988863841504==--
