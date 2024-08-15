@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2605303827524043271=="
+Content-Type: multipart/mixed; boundary="===============3929077663955439394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Aug 2024 13:04:26 -0000
-Message-Id: <172372706641.28316.566272563250093329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 15 Aug 2024 13:06:26 -0000
+Message-Id: <172372718606.30711.8370438230793994975@gitolite.kernel.org>
 
---===============2605303827524043271==
+--===============3929077663955439394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 1be62df4ef39f495c71228dc7c8ab1938d59d993
-    new: 6500bef954deee6aafb6eb63ab602602e4b89b88
-    log: |
-         6500bef954deee6aafb6eb63ab602602e4b89b88 6.6-stable patches
-         
+  - ref: refs/heads/vfs.netfs
+    old: d04da86c72dbf416a671d7c52c3057126f9ab3f1
+    new: bd060bad6cf511e9a9bfca3fadf2044e3311d22e
+    log: revlist-d04da86c72db-bd060bad6cf5.txt
 
---===============2605303827524043271==
+--===============3929077663955439394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d04da86c72db-bd060bad6cf5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723727065 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1723727064-23f1e428181ccaabb379755095afb1366f44d42b
+4ca422fc1c2562c1c935e07dd70a755f41204a28 cachefiles: Fix non-taking of sb_writers around set/removexattr
+2d8e8e0dcfa832753d879816026713b27ae147f2 netfs: Adjust labels in /proc/fs/netfs/stats
+b946f63b34fa6e3715245249eac35646a9e0ddbd netfs: Record contention stats for writeback lock
+922d33ef048c6ba59deb158ef76e6961aa1e7c2c netfs: Reduce number of conditional branches in netfs_perform_write()
+4c1daf044aedcdd81fb12a3cd8bfa7501bca0c68 netfs, cifs: Move CIFS_INO_MODIFIED_ATTR to netfs_inode
+a479f52b44011dd764c1d18f5473b4af8dda3f9c netfs: Move max_len/max_nr_segs from netfs_io_subrequest to netfs_io_stream
+e1de76429131eee8a2bc6d7a6d5f0b8104421ced netfs: Reserve netfs_sreq_source 0 as unset/unknown
+2a4e83a305ef5f17558f95cc62d5c12ed92419e7 netfs: Remove NETFS_COPY_TO_CACHE
+52c62b5f6dc0980626bcd9fc1e7b0b6b7ac5dc06 netfs: Set the request work function upon allocation
+45268b70a77d81fb17296b09e237761f0e7373fe netfs: Use bh-disabling spinlocks for rreq->lock
+3e73d92929db6a13efd86656d8aef4000a034ff6 mm: Define struct folio_queue and ITER_FOLIOQ to handle a sequence of folios
+7a51f5cf08518851ebc39bea34b689ae3b9520f1 iov_iter: Provide copy_folio_from_iter()
+97b15fbddd0cd1098e6378b455a353ebe5032428 cifs: Provide the capability to extract from ITER_FOLIOQ to RDMA SGEs
+b33aa21f3b7feba88f7b9983a833566690a79210 netfs: Use new folio_queue data type and iterator instead of xarray iter
+7306dffdd871a3dd70566a55729451b3d4cc1b0f netfs: Provide an iterator-reset function
+5fb0299ed8dfb6a24533376030f9b29729b5a7bf netfs: Simplify the writeback code
+05fd361eb083ffd414f4bc346597310ed6e4eddd afs: Make read subreqs async
+6437a28f5de15fd92b190eb5793d7de5e773dc06 netfs: Speed up buffered reading
+85112b95630cf79fdf367b3bb891a9d6a2377cc0 netfs: Remove fs/netfs/io.c
+3b5a6483e8d20f99e037dadaef7072b4243b06b2 cachefiles, netfs: Fix write to partial block at EOF
+3cca08a1c4c54c7366cbbcdeae48ab2e14cd0c95 netfs: Cancel dirty folios that have no storage destination
+c86e6c3343116b6f52e5984d55c0736a63341005 cifs: Use iterate_and_advance*() routines directly for hashing
+04c9967360eab413bf5087681df433db6bb7a29c cifs: Switch crypto buffer to use a folio_queue rather than an xarray
+7d0f7f2d1e8bdebb97b287eb6c3e860bfad2c046 cifs: Don't support ITER_XARRAY
+bd060bad6cf511e9a9bfca3fadf2044e3311d22e Merge patch series "netfs: Read/write improvements"
 
-1be62df4ef39f495c71228dc7c8ab1938d59d993 6500bef954deee6aafb6eb63ab602602e4b89b88 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma9/NkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++D8QAM18LGcW8kFJs50Hy8wF
-bweL/6dsRsbSMHdjlZbLRZHCWR1ekkwJiWC6jNtOiMbHZMPUZPgxuc1EMRt7+EgR
-7z4w2LVHQ6LP6com5aTa7AIGl5V694VHZHcCc5OcePNIEzOlQmVll31zVFax3npu
-+SEe9QkPu0j76IHyEoHwD9EXK9Y/rxa1gMQHNZ1kHm0lhBqwFzxh97WEZaWeJ+L0
-seK7zLb2p8UU0jGIzpoJuGXGRPSAZIdX4KjfZrcQKCiMAmCHj0qQU2qW264MjfHr
-ElIIjnZJr6GIPXsOSRZjAzm1u80lbiHdtt4Km8HcpoT6BUxL+PmBPHF4Q8Z1Njs3
-Kr1cBy2nSDc+ZOgukpY9oY0qF8Vtvkp9vqPwwRK/HZypKiOE8YEjUAqUO6H7TSZS
-ZgCJf+hxWY8UTx1m5PcTt/An/QlhH0t8KvRvdMVjqYcfwfXOkn/cfYLX32OBU+aU
-VZm2gq6I5lGI/39G0IFH/hMVcL2riZN8g7zBHSzFdwnFHvBAzTdlpngXZZZHlQa9
-b4124GYRT1dtZt0/ZQIzYumVrQw5CvMLC/8fB5dvKoJulvc3BU3J5x82k/yYyXjV
-608eoJzhIiNrUivpd1zij0HP1IX8xMN87kCzNWJObSONipQlCbhKEbFCYQdYYyXW
-XJus9zkxLtoLK3sgLO+OQ77G
-=xdKG
------END PGP SIGNATURE-----
-
---===============2605303827524043271==--
+--===============3929077663955439394==--
