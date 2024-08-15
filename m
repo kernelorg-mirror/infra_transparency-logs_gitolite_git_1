@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 15 Aug 2024 18:08:20 -0000
-Message-Id: <172374530052.3242.11149954789787372545@gitolite.kernel.org>
+Date: Thu, 15 Aug 2024 18:08:24 -0000
+Message-Id: <172374530453.3351.2874601950337099283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/delstid
-    old: 6901b4a10fd4f042c258a2123a370e1094f44fb6
+  - ref: refs/heads/kdevops
+    old: f5b0f87da511f0709f9edf4eac775f8bf4ed14c3
     new: 452fe02c096d5a134b7649635a7e1ea076efa2cd
     log: |
          6d0cd2727ed2cf725b1f20dc4e2d0d138c1cf117 nfs: fix the fetch of FATTR4_OPEN_ARGUMENTS
