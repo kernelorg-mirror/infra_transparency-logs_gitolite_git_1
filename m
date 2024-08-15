@@ -1,55 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8926225353845373717=="
+Content-Type: multipart/mixed; boundary="===============2019426501141079957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 15 Aug 2024 15:30:47 -0000
-Message-Id: <172373584763.14180.13630482388211185106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 15 Aug 2024 15:30:54 -0000
+Message-Id: <172373585442.14329.2930333827905721724@gitolite.kernel.org>
 
---===============8926225353845373717==
+--===============2019426501141079957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev-test
-    old: 0ba32da612963003eda5fc72f12c3346bea69a68
-    new: 5cd20ad5a33278f684549ebc5c3112f6428df9a8
-    log: revlist-0ba32da61296-5cd20ad5a332.txt
+  - ref: refs/heads/main
+    old: a2cbb1603943281a604f5adc48079a148db5cb0d
+    new: 9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b
+    log: revlist-a2cbb1603943-9c5af2d7dfe1.txt
 
---===============8926225353845373717==
+--===============2019426501141079957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ba32da61296-5cd20ad5a332.txt
+Content-Disposition: attachment; filename=revlist-a2cbb1603943-9c5af2d7dfe1.txt
 
-aaf8c0b9ae042494cb4585883b15c1332de77840 f2fs: reduce expensive checkpoint trigger frequency
-96cfeb0389530ae32ade8a48ae3ae1ac3b6c009d f2fs: fix to wait dio completion
-0cac51185e65dc2a20686184e02f3cafc99eb202 f2fs: fix to avoid racing in between read and OPU dio write
-5bcde45578624c43eb35bb739b03c50459971865 f2fs: get rid of buffer_head use
-b722ff8ad66cf9beba971d9eb4bb7b5e6265ae5c Revert "f2fs: use flush command instead of FUA for zoned device"
-6f092b55e1ad2d5c6a82d91dcf93534aeefcf1b9 f2fs: sysfs: support atgc_enabled
-f97a11c86cc38da14fd1d44fde767ae2ee1b6ebe f2fs: use f2fs_get_node_page when write inline data
-d33ebd57b987bb8dc499f4468170c8f85f64fe72 f2fs: fix to use per-inode maxbytes and cleanup
-8c3d8fa2dbfd4d95b318b00f43dda2fcf34404fa f2fs: atomic: fix to not allow GC to pollute atomic_file
-99a6ad742ce197b66d956f96545c84156e047d0f f2fs: clean up val{>>,<<}F2FS_BLKSIZE_BITS
-8eeae6a6e34d1c3a41520148335af9a86d374a84 f2fs: Require FMODE_WRITE for atomic write ioctls
-b4792583613da58b2b7019cc878dbd0fa3af3643 f2fs: Create COW inode from parent dentry for atomic write
-9f2f15eac62d2f1b39dcf308db591733b62a7a64 f2fs: fix to wait page writeback before setting gcing flag
-923e3af5a04c456c683a67aa82a00bf81fa9ac11 f2fs: atomic: fix to truncate pagecache before on-disk metadata truncation
-6924baba6122c3ab75f773d14af507e07ac88e39 f2fs: fix to avoid use-after-free in f2fs_stop_gc_thread()
-fc6684295ecbfa267f3b31ffe866548a5f8950b5 f2fs: convert f2fs_compress_ctx_add_page() to use folio
-63541778df3e65e822f9e0078525b7a5d09ff4bc f2fs: convert f2fs_vm_page_mkwrite() to use folio
-f2374a2f5516d813bfaf9265179deb88fbc32f29 f2fs: convert f2fs_clear_page_cache_dirty_tag() to use folio
-a0463c30e4bc444806a45c292dcf98651da8f138 f2fs: convert f2fs_write_inline_data() to use folio
-1a2c60bc8a7ebc29fdc9d0ecc8ebefd29d9fa1b3 f2fs: convert f2fs_write_single_data_page() to use folio
-fc317df821050dddeb2d851fb35fe40feb511925 f2fs: convert f2fs_do_write_meta_page() to use folio
-822698ac60408370befb0eb414e311405cf6afc8 f2fs: convert __f2fs_write_meta_page() to use folio
-e4f8ba969180b561440a8c2c61ee8fa8cfaabc9b f2fs: convert f2fs_read_multi_pages() to use folio
-53a075d4d077334a36dd65c2d1c70130ed09e00d f2fs: convert f2fs_handle_page_eio() to use folio
-5cd20ad5a33278f684549ebc5c3112f6428df9a8 f2fs: Use sysfs_emit_at() to simplify code
+38055789d15155109b41602ad719d770af507030 wifi: ath12k: use 128 bytes aligned iova in transmit path for WCN7850
+f1cb9d5aefba07fc52b06b7bd5fdcd9ef91157b4 wifi: rtlwifi: rtl8192du: Initialise value32 in _rtl92du_init_queue_reserved_page
+2ad4e1ada8eebafa2d75a4b75eeeca882de6ada1 wifi: brcmfmac: cfg80211: Handle SSID based pmksa deletion
+479ffee68d59c599f8aed8fa2dcc8e13e7bd13c3 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+38c8d02501c09454e4fbf0f67de03de35e94d384 wifi: iwlwifi: correctly lookup DMA address in SG table
+e37a9184f27084b891d3617723b9410f8fcaff99 Merge tag 'ath-current-20240812' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+3cd740b985963f874a1a094f1969e998b9d05554 netfilter: allow ipv6 fragments to arrive on different devices
+d1a7b382a9d3f0f3e5a80e0be2991c075fa4f618 netfilter: nfnetlink: Initialise extack before use in ACKs
+e9767137308daf906496613fd879808a07f006a2 netfilter: flowtable: initialise extack before use
+7d8dc1c7be8d3509e8f5164dd5df64c8e34d7eeb netfilter: nf_queue: drop packets with cloned unconfirmed conntracks
+ea2306f0330c59ac8cd6ba13193497f0a6a02684 selftests: netfilter: add test for br_netfilter+conntrack+queue combination
+e0b6648b0446e59522819c75ba1dcb09e68d3e94 netfilter: nf_tables: Audit log dump reset after the fact
+69fc3e9e90f1afc11f4015e6b75d18ab9acee348 netfilter: nf_tables: Introduce nf_tables_getobj_single
+bd662c4218f9648e888bebde9468146965f3f8a0 netfilter: nf_tables: Add locking for NFT_MSG_GETOBJ_RESET requests
+6c569b77f0300f8a9960277c7094fa0f128eb811 selftest: af_unix: Fix kselftest compilation warnings
+b2ca1661c7db9693095cee7991c55d67c3b5d346 Merge tag 'wireless-2024-08-14' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+69139d2919dd4aa9a553c8245e7c63e82613e3fc vsock: fix recursive ->recvmsg calls
+fde25c20f51807db340b875953cfd1cedaa392fc net: ethtool: Allow write mechanism of LPL and both LPL and EPL
+1f1b194284093d619c9fbc7e9e38b2c68d0408e8 net: thunder_bgx: Fix netdev structure allocation
+cdc90f75387c42d64a0ed1ba03550ea9447249d4 pse-core: Conditionally set current limit during PI regulator registration
+7965a7f32a53d9ad807ce2c53bdda69ba104974f selftests: net: lib: kill PIDs before del netns
+8445d9d3c03101859663d34fda747f6a50947556 net: hns3: fix wrong use of semaphore up
+30545e17eac1f50c5ef49644daf6af205100a965 net: hns3: use the user's cfg after reset
+be5e816d00a506719e9dbb1a9c861c5ced30a109 net: hns3: fix a deadlock problem when config TC during resetting
+86db7bfb06704ef17340eeae71c832f21cfce35c net: hns3: void array out of bound when loop tnl_num
+7660833d217528c8f2385528951ab820a031e4e3 net: hns3: use correct release function during uninitialization
+34dfdf210d05ea6c6c75de2fa785853734fb51e8 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b Merge tag 'nf-24-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============8926225353845373717==--
+--===============2019426501141079957==--
