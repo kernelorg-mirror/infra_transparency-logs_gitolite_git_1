@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 Aug 2024 17:18:02 -0000
-Message-Id: <172374228253.30177.16847280718585413340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 15 Aug 2024 17:24:10 -0000
+Message-Id: <172374265047.1708.16846554144305806548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 62ab2ca4930a668fe8a6349535ce26b6eb5ebda9
-    new: d771eded144f3bdd711fe58a41adb0759f2529f1
+  - ref: refs/heads/kdevops
+    old: 69c67de67bb6a8b839f9ee316f36fd64662b7aca
+    new: 00b9766d1541331047b20db0c1929994ed68f02c
     log: |
-         0a9173541b3f8cde8ad923eebd2e157650e13f35 ASoc: tas2781: Remove unnecessary line feed and space
-         d771eded144f3bdd711fe58a41adb0759f2529f1 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         00b9766d1541331047b20db0c1929994ed68f02c nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
          
