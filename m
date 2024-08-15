@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1027306093877165577=="
+Content-Type: multipart/mixed; boundary="===============0769284696569937879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Aug 2024 12:22:40 -0000
-Message-Id: <172372456098.27833.18219797972501812660@gitolite.kernel.org>
+Date: Thu, 15 Aug 2024 12:22:43 -0000
+Message-Id: <172372456337.27909.10153456844777658550@gitolite.kernel.org>
 
---===============1027306093877165577==
+--===============0769284696569937879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,108 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 572cb6a6c6acda33f01f7624fd583f35272ed46b
-    new: 5f034047ad47dd62362f0f2ec2e43dac2dc426f8
-    log: revlist-572cb6a6c6ac-5f034047ad47.txt
+  - ref: refs/heads/linux-6.6.y
+    old: c9d85b66b58e4d43910515a2c446cd0709ac1065
+    new: bc875e2c86fc83dc4c36a408b1e261428f1b4a8c
+    log: revlist-c9d85b66b58e-bc875e2c86fc.txt
 
---===============1027306093877165577==
+--===============0769284696569937879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723724559 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1723724561 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1723724557-e3bfe64b87c16f73f8f37471847891e26f776502
+nonce 1723724559-34fe1a2d6c69d8e3b8e3b90bdba09c2d873707c1
 
-572cb6a6c6acda33f01f7624fd583f35272ed46b 5f034047ad47dd62362f0f2ec2e43dac2dc426f8 refs/heads/linux-6.1.y
+c9d85b66b58e4d43910515a2c446cd0709ac1065 bc875e2c86fc83dc4c36a408b1e261428f1b4a8c refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma98w8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CiMQANOMatxsKlg4bl9pORh8
-/r7cm/y8xmdGtNpOMpGfa6tJM8xu7AjqKTJewY4uaOsdl8g8sDEFAvBVLDHy1qOe
-apFVelTXayTOnXYE3CyOnKqEcef0lXDkEGYL8v4Cc8jbi1ymq61xwuPF3iiD6fBu
-Y4eSsJjyUSlyDnPsFTirF4lOIIcAhZyuAJM89dCFh0c9DAPXzbtQXEJOANDUke/x
-dNh9hVVLeu0fMHglOJvzuoF2aodCzGBG8HC3ZAHZFWPFitiM6+htdLw7eD/VhjDl
-8NJbdAxp6np6QXFwwm+GFdAsTELxQoaqdS/FKGTXOqMd+6i7hs2ysDQArRsxZWpP
-eqB6bo++noguDLiaDdqYorkMqdAanvECFiJvCfLglo3dnbO284QTztUnBa4zoUU9
-Dt8fc6mAXxo1re5J2IFIQnFIW9pzM7j07I4BoXhIs+Q2GeJw20VqXLHpf1ogFZCw
-3IHDgT4y/Tz80TkHlGzAxe6vu8HJFyhFmebR9CyamysbJciJOrOLLmRWmJWagKk9
-WLNnqfLSn61dJhQ6avuDaSnTnVmOMerLD6Da22u88BDKL+anCdRVlDJo2emSluuS
-2YlksMsVuRaJBa6hgtxEH9fxItGYEtHu6OPfEETsIwP9Cy2OBUHaV61MBibNRnua
-e/lVIeDmLkMvTbrJTtBAnymR
-=LXtO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAma98xEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vt0QAMnL7PicpZ254xuU+Xd6
+ERyHGwhYoZeflnXRYf4HvFvJI1I4AeoEYTZb4Vvlsm63snalaq9POGdywXk+hzMK
+6yTsteANfrjAY1asOfvMezs8zokUfFa7iW3VS6vunlD07TNocp+ckq1GRPxAHzb3
+joM/p8s31XImC6EXhnP/bmVd8ov/VNVQ09gX+A6O9Pr1dddURirLQztdsefn0ZTT
+PUWBrNWAcLzUQYbR54nIY9O/78itU9IPmPI09j4o2r+xxZZa2qFzvNX52YBEa0qs
+hP7RSX1opwkW0TlMGphmkuLdGETvBfD19y1s2OY34WjgiIUzLRoJsIIXruhEo9Wk
+x/rptuWQ8DuviayBL00sK/ine312bwfDnKeyCWFfd2PUavIRG7k4jtYNe2CUrD2r
+Z9Z6yauoyctZPIWMAwB/EiDuJjxFcK9Vnudv98+H44XJJ4cTjhosoZ/yxxWamiXG
+5Avq6rn8K42tHjK7LUjAUboZtMSnNYSbdCl3dhwh6eUisLlrjyP4JgSqsrj+qFPK
+0HVr489xm43HC5oJKEqs9KAfuOrIQK0BwwXBcyTzlJiu2sggS8a+2/AGIuNi5gdL
+L0yDI5sZwYvzRTvNrUHG4+360fyMrqddkKCuP/VPXmawLBsy4n0//ebOQ1aDezoB
+BW0o20L75bg00nuL5i40JCu5
+=aPTA
 -----END PGP SIGNATURE-----
 
---===============1027306093877165577==
+--===============0769284696569937879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-572cb6a6c6ac-5f034047ad47.txt
+Content-Disposition: attachment; filename=revlist-c9d85b66b58e-bc875e2c86fc.txt
 
-9778780127c9c3dc96f21dcce2826254f09c8b9f mptcp: pass addr to mptcp_pm_alloc_anno_list
-3315342fec3f599f73aa9b898ad30e9fbf6c046b mptcp: pm: reduce indentation blocks
-45875d51856af9f35675a9d33e11b1c0fe07361a mptcp: pm: don't try to create sf if alloc failed
-a8d02ddb792824972a32f521f2f68518e7781292 mptcp: pm: do not ignore 'subflow' if 'signal' flag is also set
-55fe26aef3d3fe581a05e9868e06d20cc44a7a98 selftests: mptcp: join: test both signal & subflow
-d9f6764fe3601d39901930d0f81f95548df85352 ASoC: topology: Clean up route loading
-5a431e7343ac4729ff16b13775ab6f734dfc98a1 ASoC: topology: Fix route memory corruption
-fc41530eee31b3f39fe56d9ceeb985d79d8ef533 exec: Fix ToCToU between perm check and set-uid/gid usage
-5dd1a57ca65eb783bb9a9b8eb202eed44893e88f LoongArch: Define __ARCH_WANT_NEW_STAT in unistd.h
-1d5f839b30afffc6f75d1509ab871efd25ae9a0f nfsd: move reply cache initialization into nfsd startup
-d2f3c7557535b741b224a58cd7d0b1ccccdba6a6 nfsd: move init of percpu reply_cache_stats counters back to nfsd_init_net
-fd8fce698f79ffdc1d944dbbd295c3e7ba71c51f NFSD: Refactor nfsd_reply_cache_free_locked()
-9f5e1fd8d03c422c8fdc57531a621895c77c0213 NFSD: Rename nfsd_reply_cache_alloc()
-b963e943b9e1c7c803d5c8adba7b077bc48a307d NFSD: Replace nfsd_prune_bucket()
-84df44428a66c3e8dc0ea88bbc3ace54b80e7e73 NFSD: Refactor the duplicate reply cache shrinker
-0c2f615c1cd4dcadafd3cc43d42562c756f9f5b9 NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
-e2b447f10603adda7beb860b1d7f1e140885d8c5 NFSD: Fix frame size warning in svc_export_parse()
-81c78a03864d36e4b14188b7b1392536c18310a7 sunrpc: don't change ->sv_stats if it doesn't exist
-a18e11738dfceed3f78e19ec0c5052c5e8ffb5e5 nfsd: stop setting ->pg_stats for unused stats
-54f71df4c0d85947d37781ac82186d8cfd8f0cf6 sunrpc: pass in the sv_stats struct through svc_create_pooled
-6bd98ccc078c4e9fa44efc2adcedbb24f24e731c sunrpc: remove ->pg_stats from svc_program
-9b9df0c4d9018ac80d74fac9884e1820a45bddd8 sunrpc: use the struct net as the svc proc private
-88785aa51f64c33bcc90f232651e6691949254e9 nfsd: rename NFSD_NET_* to NFSD_STATS_*
-426948ad184a1136c3cbab4ac2f26f9bbf7b6e39 nfsd: expose /proc/net/sunrpc/nfsd in net namespaces
-1d0157256ffdce157d593444a8a9522de027a52f nfsd: make all of the nfsd stats per-network namespace
-b3bb6df0376dfe51b9b6ff542df7c7745faee7c1 nfsd: remove nfsd_stats, make th_cnt a global counter
-2ff8d7432b018d704246fc35d4a1195f93a57198 nfsd: make svc_stat per-network namespace instead of global
-e836334358c134c1238e29a6acbf46151be78a45 nvme/pci: Add APST quirk for Lenovo N60z laptop
-3f3da55675f7b1a598e4b5a06f2dbde156184c85 mptcp: fully established after ADD_ADDR echo on MPJ
-2cc0d46411d010cdc6ead3dab546c5740e81d0e2 drm/i915/gem: Fix Virtual Memory mapping boundaries calculation
-b0970dc3f1e3b3ab186527a0f27c4f23c80315df cgroup: Make operations on the cgroup root_list RCU safe
-6fc0feaa82bcb98ca18d4d00e675037c4f8e3b4b drm/i915: Add a function to mmap framebuffer obj
-1d2ea3bf86c13190a6bef1b8385950f4b1ef733d drm/i915: Fix a NULL vs IS_ERR() bug
-526d9318bf98983124fd27bc6d5f180a3bf4ac8f drm/i915/gem: Adjust vma offset for framebuffer mmap offset
-a56993ccb003bf3054533687afa2a1a7e251b528 binfmt_flat: Fix corruption when not offsetting data start
-5f034047ad47dd62362f0f2ec2e43dac2dc426f8 Linux 6.1.106-rc1
+04f0f657f1b8963d5f5c6c37726001784b172b0e exec: Fix ToCToU between perm check and set-uid/gid usage
+91e53ff8a365e601c6e4ab9a704a5c1326b90795 ASoC: topology: Clean up route loading
+9453232a13a5ea0aaacbb72df030ba645afdbb4b ASoC: topology: Fix route memory corruption
+88b9e1b4874ce9729daaa05c613c1505516ec7b7 LoongArch: Define __ARCH_WANT_NEW_STAT in unistd.h
+5eaba484321ef94a75def424aefb41627b01504b NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
+ff55cb7a3e9973372f5a797658b8ce3bd5c079bc NFSD: Fix frame size warning in svc_export_parse()
+772ace0278194c774df9d5a3c4f10c385476b345 sunrpc: don't change ->sv_stats if it doesn't exist
+4f6bfcf8935206947dd3d87f820ff0a38b483105 nfsd: stop setting ->pg_stats for unused stats
+0887f528800f3ab60ebf29af37b7291c0f8cec7c sunrpc: pass in the sv_stats struct through svc_create_pooled
+1207225e44f803b08b7a398cf92e425b26d8b3e7 sunrpc: remove ->pg_stats from svc_program
+3904598f6cc95ce3c97aade485375765e9edb50c sunrpc: use the struct net as the svc proc private
+91a490472abe08deaabcdffa9c799d84d3678eab nfsd: rename NFSD_NET_* to NFSD_STATS_*
+009fbbfb6b57a4f40dab66418a4bdb1e4193091d nfsd: expose /proc/net/sunrpc/nfsd in net namespaces
+26564cd0e48443553cf4a9609ffbfae5cfb48ca0 nfsd: make all of the nfsd stats per-network namespace
+135962b01f6895894326608ccb5dfc7b732f40fb nfsd: remove nfsd_stats, make th_cnt a global counter
+ddb1604566c0812747bc051614ddad84d129c6db nfsd: make svc_stat per-network namespace instead of global
+866da88c3e267361f5476886cec90194b2676fd8 mm: gup: stop abusing try_grab_folio
+b85dd52d7712336ec78a048d7348949b4ec68ca4 nvme/pci: Add APST quirk for Lenovo N60z laptop
+838a814e06482a69914acba390a0a767a9eb08e5 genirq/cpuhotplug: Skip suspended interrupts when restoring affinity
+36369b0e167ba0418a16e1d1f25759845b35c294 genirq/cpuhotplug: Retry with cpu_online_mask when migration fails
+c0da80037f31d162ac28fd33103bb9b8cb5ed82e cgroup: Make operations on the cgroup root_list RCU safe
+f60fc8d94feb0ca2ee85c5cab0bbd574cc76a6c1 tcp_metrics: optimize tcp_metrics_flush_all()
+c85bc1303bbf8beb00205a6b1d0e5e7928714374 wifi: mac80211: take wiphy lock for MAC addr change
+2bd6b425016dbec8e590fb3e8eb7a8ad815df095 wifi: mac80211: fix change_address deadlock during unregister
+5628e89e32951db1e875e2d97e1d26c2380ae36b fs: Convert to bdev_open_by_dev()
+540433c60a4c7c38893cc8eab7c2c10a77953748 jfs: Convert to bdev_open_by_dev()
+0c332769842ea536b25e34fa55456d94899c6057 jfs: fix log->bdev_handle null ptr deref in lbmStartIO
+fecffaf2073ee15c1bd2947b73c129cf7f804774 net: don't dump stack on queue timeout
+1d9bf137571d70a425a065b3f3611747ae3422ab jfs: fix shift-out-of-bounds in dbJoin
+9b997b9112529a3c9dc10742d438e423adf6272f squashfs: squashfs_read_data need to check if the length is 0
+83945dd15f23d7fc0c625436cec361cda36f6e68 Squashfs: fix variable overflow triggered by sysbot
+dc5ec1a447aff1f629462b9b9afd95430c936746 reiserfs: fix uninit-value in comp_keys
+8cacef06a606c4e8089e3af6ae56501e313df59c erofs: avoid debugging output for (de)compressed data
+a8f73375ea562c95225db39d96ce2188c63fb6da net: tls, add test to capture error on large splice
+40e888d88f1677e95ddfb113b3b192292cef5ee8 Input: bcm5974 - check endpoint type before starting traffic
+94fd1f5b15619e69d03b5d57bcc81c5265b99f7b quota: Detect loops in quota tree
+00e4e5cdfeb1ed0d40ebf6ac5b1c4489b9d24f4b net:rds: Fix possible deadlock in rds_message_put
+c0a4f394311700f4bce911572cf61b1c58a6c08d net: sctp: fix skb leak in sctp_inq_free()
+681d74bb2117fb9cd957c7ce9185fdf69213ee36 pppoe: Fix memory leak in pppoe_sendmsg()
+fb77bd38b8042b11a0d99d52f2161ad09d971296 bpf: Replace bpf_lpm_trie_key 0-length array with flexible array
+dc01c958fc212d2cb179a3f9de5c37ab2cf5343e bpf: Avoid kfree_rcu() under lock in bpf_lpm_trie.
+ef3137e9e136e0d243f68a1221c139ae56b8f724 fs: Annotate struct file_handle with __counted_by() and use struct_size()
+52a542e8855a6942b543199c7ee8e1173d7567ef mISDN: fix MISDN_TIME_STAMP handling
+47948f164f1f37076bad2a511c46f6d4d1991f3b net: add copy_safe_from_sockptr() helper
+9ea4f67f82edc3919fb259558e26cf7bbc269637 nfc: llcp: fix nfc_llcp_setsockopt() unsafe copies
+b69cea681ba68c963393f339377b7aaa43e12174 Bluetooth: RFCOMM: Fix not validating setsockopt user input
+8fba099fe94091eee1cc97908a69f594aae776d1 ext4: fold quota accounting into ext4_xattr_inode_lookup_create()
+d543c850c2b655443818a44aac10f7c702935a50 ext4: do not create EA inode under buffer lock
+7f6f7f10921693ac458750caf3439bcff0bc36ab mm/page_table_check: support userfault wr-protect entries
+c8740b2c3b17d4d17a66018e65bbd39b68361275 wifi: cfg80211: restrict NL80211_ATTR_TXQ_QUANTUM values
+b1121aa8f2d9c16063dca8f4534ff71e0f9f5cd2 ext4: convert ext4_da_do_write_end() to take a folio
+8f462e7e8a1cf7629033377a28386dc4c2a31451 ext4: sanity check for NULL pointer after ext4_force_shutdown
+e5d72036d30a2619fea0c7161edb25b2c10c534b bpf, net: Use DEV_STAT_INC()
+96ec06cbae374fe8183a24e0bd2a485a0663902b f2fs: fix to do sanity check on F2FS_INLINE_DATA flag in inode during GC
+aaa41406437c1646ba78fbec3e32e3ecf649c488 f2fs: fix to cover read extent cache access with lock
+667375a51efeb47f0ffde3b97bb40bfc134efc0a fou: remove warn in gue_gro_receive on unsupported protocol
+2e6d624a7e058be96746c780cd509521b3574d9c jfs: fix null ptr deref in dtInsertEntry
+d02adfac3c4b9eddf1b35ac86fff348f53711875 jfs: Fix shift-out-of-bounds in dbDiscardAG
+91387ded23390c67bf00fc146ebc959c23127faf fs/ntfs3: Do copy_to_user out of run_lock
+8c613d8554aa49f0000bb3d96f2b47c012d6184a ALSA: usb: Fix UBSAN warning in parse_audio_unit()
+e57015712e494a16d089ebd0036b707d8f3dd6ec binfmt_flat: Fix corruption when not offsetting data start
+bc875e2c86fc83dc4c36a408b1e261428f1b4a8c Linux 6.6.47-rc1
 
---===============1027306093877165577==--
+--===============0769284696569937879==--
