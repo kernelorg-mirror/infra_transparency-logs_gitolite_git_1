@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 15 Aug 2024 21:50:03 -0000
-Message-Id: <172375860374.5137.7313057704479509448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Thu, 15 Aug 2024 21:55:43 -0000
+Message-Id: <172375894366.9054.4010533261781754604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/block-6.11
-    old: 7db4042336580dfd75cb5faa82c12cd51098c90b
-    new: 50faba777177e80fd29a249fcd9f8aa18348d65b
-    log: |
-         c916ca35308d3187c9928664f9be249b22a3a701 md/raid1: Fix data corruption for degraded array with slow disk
-         50faba777177e80fd29a249fcd9f8aa18348d65b Merge tag 'md-6.11-20240815' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.11
-         
+  - ref: refs/heads/superm1/runtime-pm-screen-on-off
+    old: 0000000000000000000000000000000000000000
+    new: 09020cb8f4063731baa98c5f0fd9f1785597c989
