@@ -1,123 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============4754923744498719337=="
+Content-Type: multipart/mixed; boundary="===============4240688086633627966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 15 Aug 2024 18:16:09 -0000
-Message-Id: <172374576960.9430.1989734735248996103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 15 Aug 2024 18:18:28 -0000
+Message-Id: <172374590875.10332.7471443314486267559@gitolite.kernel.org>
 
---===============4754923744498719337==
+--===============4240688086633627966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/next
-    old: ddde3f2535d17d0698e32c8f15e9fd627603e752
-    new: 3b9ea8a38a6dae92b40b35f4a028f38a8d55278e
-    log: |
-         9a91f7a4de430235fe401eb8b598724f70bd70b8 tutorial: grammofix
-         170cdfc5a41a54014344d25d051e2c7dfb6087da doc: grammofix in git-diff-tree
-         7298bcc573f8e022854b1811a9a7413281da05ea builtin/bundle: have unbundle check for repo before opening its bundle
-         96a9a3e42e85874ba5edfcf86d91f7d8c05d5f94 bundle: default to SHA1 when reading bundle headers
-         111d5f5c13f17ef1f27ad0c42c331328f6d0bc60 Merge branch 'jc/grammo-fixes' into next
-         3b9ea8a38a6dae92b40b35f4a028f38a8d55278e Merge branch 'ps/bundle-outside-repo-fix' into next
-         
-  - ref: refs/heads/seen
-    old: 1d0414e2e1c4f2acf0a9cc4946100940e92e930f
-    new: 7bc5661c0aafd963bf04c18fd2eac0ac9f7bfa3a
-    log: revlist-1d0414e2e1c4-7bc5661c0aaf.txt
+  - ref: refs/heads/master
+    old: 1fb918967b56df3262ee984175816f0acb310501
+    new: a4a35f6cbebbf9466b6c412506ab89299d567f51
+    log: revlist-1fb918967b56-a4a35f6cbebb.txt
 
---===============4754923744498719337==
+--===============4240688086633627966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d0414e2e1c4-7bc5661c0aaf.txt
+Content-Disposition: attachment; filename=revlist-1fb918967b56-a4a35f6cbebb.txt
 
-983555a1f262b6a5819cdd235c1f3f9788bb147d howto-maintain: mention preformatted docs
-9b4df826346bacfc19b8b11c4aba03ef411efbf5 Merge branch 'ps/reftable-stack-compaction' into ps/reftable-drop-generic
-487a9157c2179249108b094d17844731033d3cfe reftable/merged: expose functions to initialize iterators
-f1118359a104d628372a0ed13df114c01bd8cfb8 reftable/merged: rename `reftable_new_merged_table()`
-dd73d66b5cdc54b717c21249ac26dd41809ea864 reftable/merged: stop using generic tables in the merged table
-81e47e960521401c0fcf248f6876947440a9944d reftable/stack: open-code reading refs
-67670f6dffa54a039c0b146025a619a40991da34 reftable/iter: drop double-checking logic
-c804785892e4b5140fe8ffa5096fea2aefa63fd6 reftable/generic: move generic iterator code into iterator interface
-2e8b5e2e164ec4127da4b904381fb3902a3f21d9 reftable/dump: drop unused `compact_stack()`
-63cf06c40214857e8009a07161dfe1bd7e1498b3 t/helper: inline `reftable_dump_main()`
-d5c73599b3426bc7dddbdb92d67d828923498eb6 t/helper: inline `reftable_reader_print_file()`
-9f43389d8d158df1d3f7794cc8c065dc00b79642 t/helper: inline `reftable_stack_print_directory()`
-7e440ad63d6427c762065291ec39fadf3fd802d9 t/helper: inline `reftable_table_print()`
-8d886ed3f4d197b52a212bf87fe1e29062ecaf94 t/helper: inline printing of reftable records
-0e524357adbc6167ce6bb4630a3c8f9a59945452 t/helper: use `hash_to_hex_algop()` to print hashes
-061f3dea1221550435c812c9e071842209ec3fc3 t/helper: refactor to not use `struct reftable_table`
-1a3c3870ee1a65b0579ccbac6b18e22b8c44c5b4 reftable/generic: drop interface
-ab764c27e2974d358d241412ffab11ce9cda495c config: fix constness of out parameter for `git_config_get_expiry()`
-70d7e57cea6feea620e820e34fa097d1eca021b6 builtin/gc: refactor to read config into structure
-1b1ebefeef5e4ab4d5f10387411912f5b5cf2f9b builtin/gc: fix leaking config values
-8e5a39fefabe59b1a242d35295bd0825c94b70a4 builtin/gc: stop processing log file on signal
-caaa8f955ba78860dfd3fd75f4e3e56dda3a7980 builtin/gc: add a `--detach` flag
-f285ae90b4fc562ba7653dfd8d30a5862be8c909 builtin/maintenance: add a `--detach` flag
-ae99522d11454ad288e509e906c456cab26bff89 run-command: fix detaching when running auto maintenance
-7ad9979552dfebb23db25a19b389fff98870e853 SQUASH???: documentation update
-beeba167dc589ddd473701ed9fa5d44270177a65 git-prompt: use here-doc instead of here-string
-1bc759aeb5eb9c169cb6e50a27feb501a19f262b git-prompt: fix uninitialized variable
-50a8484e36ec554cdf6334d517868b6a6a40bb20 git-prompt: don't use shell arrays
-b0ad5c0fc75898049d35bd601f143aebbdf777d7 git-prompt: replace [[...]] with standard code
-98f328e2e00783ce638b0bf4f63610d8af2d3d66 git-prompt: add some missing quotes
-6bb66d3ab366263f742e86bae15e022293238a73 git-prompt: don't use shell $'...'
-edca6faf90e7f33f0e6cbd5d2a7f3c53f01692f6 git-prompt: ta-da! document usage in other shells
-1f49c604947ff3dbb0d2d6206f8013ca2e44480f git-prompt: support custom 0-width PS1 markers
-49e5cc5b26550951c2381d959f866db656a97c3c t4129: fix racy index when calling chmod after git-add
-cc15c7798db5d19548f0d099573791bbf4f842b6 Merge branch 'jc/safe-directory' into jch
-f19fa9ad6af48a7e7187bfc8a9bc1ae0d19ca120 Merge branch 'rs/t-example-simplify' into jch
-9888ec96544df2a615254755d83639688b7ac0a8 Merge branch 'jc/t3206-test-when-finished-fix' into jch
-361f07f3f30792abe0209fbb35d912d73f995eff Merge branch 'gt/unit-test-hashmap' into jch
-291af3ffb29e0da182aebfebdb800a4478cd4f85 Merge branch 'es/doc-platform-support-policy' into jch
-ac4aa1d10fe0c7a819c6da48602b20b6cd4e1af0 Merge branch 'sj/ref-fsck' into jch
-3d008f71078ff7ac2d4b76727efba47fc89db482 Merge branch 'ps/reftable-stack-compaction' into jch
-6758697dc2d92508fe3521ed3249456fc9d30b11 Merge branch 'ag/t7004-modernize' into jch
-20559e901e39f0c547d4c1b8520d0ef8f861a1c9 Merge branch 'ps/submodule-ref-format' into jch
-d906f1ecf172f3742ebecb0424ca3b2e7307dfc1 Merge branch 'jc/refs-symref-referent' into jch
-7ccdbb2908dcda074fb7b1ec977f2107026a1b64 Merge branch 'xx/diff-tree-remerge-diff-fix' into jch
-f967f79259ff317f29c1c9f78e58842b30195d6f ###
-505038114c15ad71d700d8bf79ed8d8ea6fd8685 Merge branch 'ag/git-svn-global-ignores' (early part) into jch
-e95570006e46a086e2107ca68c1ff6f595c7affc Merge branch 'rs/unit-tests-test-run' into jch
-544559d164965df7f8dd0e613937a281305331d2 Merge branch 'jc/tests-no-useless-tee' into jch
-bdc2aeae7bab0764b60313d14cfeda473ccab8c2 Merge branch 'tb/incremental-midx-part-1' into jch
-06e0939b1a7692ce6ad584c351f1b5d595709751 Merge branch 'ps/transport-leakfix-test-updates' into jch
-5de55501be181ede711ddaba71a26f0ae2c7951e Merge branch 'jk/midx-unused-fix' into jch
-1453baf841cf9126863dda193f04a0ed3e70bb3b Merge branch 'jc/grammo-fixes' into jch
-8606628f5890db01babf47ac544caf6bdabdd782 Merge branch 'ps/bundle-outside-repo-fix' into jch
-f03ba9713f72c286741707543d15e92bde4f990b ### match next
-190630710167ce30ce6112b4faa039ed6851bb62 Merge branch 'jk/apply-patch-mode-check-fix' into jch
-dbd2f0e30234764311a62a450c5e5d580df5bc46 Merge branch 'ps/config-wo-the-repository' into jch
-4ef70981d7b27f74965941ee3f57450529f962c2 Merge branch 'jk/send-email-translate-aliases' into jch
-d2bafd02c6952fb7e0c548767b1b72774c221324 Merge branch 'ps/leakfixes-part-4' into jch
-8ed6744192848a5d1fb1588dc9adb889f8922d49 Merge branch 'ag/git-svn-global-ignores' into jch
-210621b118edf21f1f7f9ccf2fa632c3b7e77d8f Merge branch 'jc/how-to-maintain-updates' into jch
-e0a1e5f95c3b4ca806d21d5ed237433f7e517a5b Merge branch 'cp/unit-test-reftable-readwrite' into jch
-5211c529311322cc7319df7b47cb23fa191fb953 Merge branch 'pp/add-parse-range-unit-test' into jch
-f77cebb5db2f38c4373d7d056c4366ca012f2699 Merge branch 'ja/doc-synopsis-markup' into jch
-cb3f3b66509ee2d5d46ac9d674f7a73cbb393760 Merge branch 'cc/promisor-remote-capability' into jch
-81f7b30710d3749e16d5d940946e46e9a021c99b Merge branch 'ds/for-each-ref-is-base' into jch
-774e0a8c794ea47a76fc0e949352c15255b4632f Merge branch 'jc/too-many-arguments' into jch
-7579465fa62a49a9dd13e8fb67d13f54fab2b065 Merge branch 'gt/unit-test-urlmatch-normalization' into jch
-c3b09803f25eb3ddeac5723e09f1de6bb4eeb33a Merge branch 'ps/reftable-drop-generic' into jch
-ded229243e903b292648adb27dec3df266a73f34 Merge branch 'ah/git-prompt-portability' into jch
-b239abc99b299453cccd828d2c15146f00e3495e Merge branch 'ew/cat-file-optim' into seen
-2986e470b0c67d86e4f1c460331f9cbfed6ad693 Merge branch 'tc/fetch-bundle-uri' into seen
-2e7197cfbc189a4b16a9b44d111dcb1865c6ce04 Merge branch 'jc/range-diff-lazy-setup' into seen
-4482ce4adacf569b62186691f87f41443af336bf Merge branch 'js/libgit-rust' into seen
-9db8b6d93f8907eb49e4ba5a6a90547199d44a35 Merge branch 'ps/maintenance-detach-fix' into seen
-c2494986b58b0ea76b661dee516acd69e237f387 Merge branch 'cp/unit-test-reftable-block' into seen
-18a1b78902e6d1b241e3c7a234cad944ac64fc4d t0001: exercise initialization with ref formats more thoroughly
-f8e4bb1211d2b6509fa7aa244e9d20f29d10f03d t0001: delete repositories when object format tests finish
-e5da6ed7d4c40e03046916fac22484bb54524f50 setup: merge configuration of repository formats
-48aeb1d142d31d407d84788288b58e61e171a180 setup: make object format configurable via config
-4f6e9311c7b9f1b0709595555a285df98b4e10dd setup: make ref storage format configurable via config
-7bc5661c0aafd963bf04c18fd2eac0ac9f7bfa3a Merge branch 'ps/hash-and-ref-format-from-config' into seen
+38055789d15155109b41602ad719d770af507030 wifi: ath12k: use 128 bytes aligned iova in transmit path for WCN7850
+f1cb9d5aefba07fc52b06b7bd5fdcd9ef91157b4 wifi: rtlwifi: rtl8192du: Initialise value32 in _rtl92du_init_queue_reserved_page
+e037a26ead187901f83cad9c503ccece5ff6817a igc: Fix packet still tx after gate close by reducing i226 MAC retry buffer
+f8d6acaee9d35cbff3c3cfad94641666c596f8da igc: Fix qbv_config_change_errors logics
+0afeaeb5dae86aceded0d5f0c3a54d27858c0c6f igc: Fix reset adapter logics when tx mode change
+6c3fc0b1c3d073bd6fc3bf43dbd0e64240537464 igc: Fix qbv tx latency by setting gtxoffset
+0c84bde4f37ba27d50e4c70ecacd33fe4a57030d media: Revert "media: dvb-usb: Fix unexpected infinite loop in dvb_usb_read_remote_control()"
+e5876b088ba03a62124266fa20d00e65533c7269 usbnet: ipheth: race between ipheth_close and error handling
+655b46d7a39ac6f049698b27c1568c0f7ff85d1e usbnet: ipheth: remove extraneous rx URB length check
+94d7eeb6c0ef0310992944f0d0296929816a2cb0 usbnet: ipheth: drop RX URBs with no payload
+74efed51e0a4d62f998f806c307778b47fc73395 usbnet: ipheth: do not stop RX on failing RX callback
+67927a1b255d883881be9467508e0af9a5e0be9d usbnet: ipheth: fix carrier detection in modes 1 and 4
+3a3be7ff9224f424e485287b54be00d2c6bd9c40 gtp: pull network headers in gtp_dev_xmit()
+2b2bc3bab158b7e036508742b16cd8a3c2f59a12 net: Make USO depend on CSUM offload
+30b03f2a0592eee1267298298eac9dd655f55ab2 udp: Fall back to software USO if IPv6 extension headers are present
+1d2c46c1bc5680335f20f64089c161fdfcd3e8ab selftests/net: Add coverage for UDP GSO with IPv6 extension headers
+d2438c16a6347f811ab0249330ee9e54fa3db6b0 Merge branch 'don-t-take-hw-uso-path-when-packets-can-t-be-checksummed-by-device'
+c31fe2b5095d8c84562ce90db07600f7e9f318df net/mlx5: SD, Do not query MPIR register if no sd_group
+ab6013a59b4d0947fda409c29426dc904959e632 net/mlx5e: SHAMPO, Increase timeout to improve latency
+e6b5afd30b99b43682a7764e1a74a42fe4d5f4b3 net/mlx5e: Take state lock during tx timeout reporter
+cbc796be1779c4dbc9a482c7233995e2a8b6bfb3 net/mlx5e: Correctly report errors for ethtool rx flows
+0b4a4534d083e055831b3bc29c5eafc918ed4d86 net/mlx5e: Fix queue stats access to non-existing channels splat
+eb755a956f618ff113355333b1af68973ce9d861 Merge branch 'mlx5-misc-fixes-2024-08-08'
+2ad4e1ada8eebafa2d75a4b75eeeca882de6ada1 wifi: brcmfmac: cfg80211: Handle SSID based pmksa deletion
+9a039eeb71a42c8b13408a1976e300f3898e1be0 net: ethernet: use ip_hdrlen() instead of bit shift
+484caf207629e94f8414ffd50d2287ca3c7698e3 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-q ueue
+a9a18e8f770c9b0703dab93580d0b02e199a4c79 atm: idt77252: prevent use after free in dequeue_rx()
+9ff2f816e2aa65ca9a1cdf0954842f8173c0f48d net: axienet: Fix register defines comment description
+63796bc2e97cd5ebcef60bad4953259d4ad11cb4 net: dsa: vsc73xx: fix port MAC configuration in full duplex mode
+5b9eebc2c7a5f0cc7950d918c1e8a4ad4bed5010 net: dsa: vsc73xx: pass value in phy_write operation
+fa63c6434b6f6aaf9d8d599dc899bc0a074cc0ad net: dsa: vsc73xx: check busy flag in MDIO operations
+9f9a72654622bae75adb1e1923d709e96ede3042 net: dsa: vsc73xx: allow phy resetting
+de7a670f8defe4ed2115552ad23dea0f432f7be4 net: phy: vitesse: repair vsc73xx autonegotiation
+1fc2021941241bf32728a198bc0a7f38669e44a5 Merge branch 'vsc73xx-fix-mdio-and-phy'
+c25504a0ba36968f919aa30caff172ef23346299 dt-bindings: net: fsl,qoriq-mc-dpmac: add missed property phys
+32316f676b4ee87c0404d333d248ccf777f739bc net: mana: Fix RX buf alloc_size alignment and atomic op panic
+db1b4bedb9b97c6d34b03d03815147c04fffe8b4 net: ethernet: mtk_wed: fix use-after-free panic in mtk_wed_setup_tc_block_cb()
+6e1918ff680527ce4be77426aa537012b5aa997c net: macb: Use rcu_dereference() for idev->ifa_list in macb_suspend().
+479ffee68d59c599f8aed8fa2dcc8e13e7bd13c3 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+38c8d02501c09454e4fbf0f67de03de35e94d384 wifi: iwlwifi: correctly lookup DMA address in SG table
+e37a9184f27084b891d3617723b9410f8fcaff99 Merge tag 'ath-current-20240812' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+58a63729c957621f1990c3494c702711188ca347 net: mana: Fix doorbell out of order violation and avoid unnecessary doorbell rings
+df934abb185c71c9f2fa07a5013672d0cbd36560 mlxbf_gige: disable RX filters until RX path initialized
+655111b838cdabdb604f3625a9ff08c5eedb11da mptcp: correct MPTCP_SUBFLOW_ATTR_SSN_OFFSET reserved size
+63de936b513f7a9ce559194d3269ac291f4f4662 media: atomisp: Fix streaming no longer working on BYT / ISP2400 devices
+a2cbb1603943281a604f5adc48079a148db5cb0d tcp: Update window clamping condition
+fa0db8e568787c665384430eaf2221b299b85367 Revert "ata: libata-scsi: Honor the D_SENSE bit for CK_COND=1 and no error"
+3cd740b985963f874a1a094f1969e998b9d05554 netfilter: allow ipv6 fragments to arrive on different devices
+d1a7b382a9d3f0f3e5a80e0be2991c075fa4f618 netfilter: nfnetlink: Initialise extack before use in ACKs
+e9767137308daf906496613fd879808a07f006a2 netfilter: flowtable: initialise extack before use
+7d8dc1c7be8d3509e8f5164dd5df64c8e34d7eeb netfilter: nf_queue: drop packets with cloned unconfirmed conntracks
+ea2306f0330c59ac8cd6ba13193497f0a6a02684 selftests: netfilter: add test for br_netfilter+conntrack+queue combination
+e0b6648b0446e59522819c75ba1dcb09e68d3e94 netfilter: nf_tables: Audit log dump reset after the fact
+69fc3e9e90f1afc11f4015e6b75d18ab9acee348 netfilter: nf_tables: Introduce nf_tables_getobj_single
+bd662c4218f9648e888bebde9468146965f3f8a0 netfilter: nf_tables: Add locking for NFT_MSG_GETOBJ_RESET requests
+6c569b77f0300f8a9960277c7094fa0f128eb811 selftest: af_unix: Fix kselftest compilation warnings
+b2ca1661c7db9693095cee7991c55d67c3b5d346 Merge tag 'wireless-2024-08-14' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+69139d2919dd4aa9a553c8245e7c63e82613e3fc vsock: fix recursive ->recvmsg calls
+fde25c20f51807db340b875953cfd1cedaa392fc net: ethtool: Allow write mechanism of LPL and both LPL and EPL
+1f1b194284093d619c9fbc7e9e38b2c68d0408e8 net: thunder_bgx: Fix netdev structure allocation
+cdc90f75387c42d64a0ed1ba03550ea9447249d4 pse-core: Conditionally set current limit during PI regulator registration
+7965a7f32a53d9ad807ce2c53bdda69ba104974f selftests: net: lib: kill PIDs before del netns
+8445d9d3c03101859663d34fda747f6a50947556 net: hns3: fix wrong use of semaphore up
+30545e17eac1f50c5ef49644daf6af205100a965 net: hns3: use the user's cfg after reset
+be5e816d00a506719e9dbb1a9c861c5ced30a109 net: hns3: fix a deadlock problem when config TC during resetting
+86db7bfb06704ef17340eeae71c832f21cfce35c net: hns3: void array out of bound when loop tnl_num
+7660833d217528c8f2385528951ab820a031e4e3 net: hns3: use correct release function during uninitialization
+34dfdf210d05ea6c6c75de2fa785853734fb51e8 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b Merge tag 'nf-24-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+6e80a1fd99fd71a2e104f45f2aeafb0cb19da44a Merge tag 'ata-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+20573d8e1c2801d6f0cc08d26003248fd118962b Merge tag 'media/v6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+a4a35f6cbebbf9466b6c412506ab89299d567f51 Merge tag 'net-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4754923744498719337==--
+--===============4240688086633627966==--
