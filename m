@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0250098731885323752=="
+Content-Type: multipart/mixed; boundary="===============2376083213293222948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Aug 2024 15:32:48 -0000
-Message-Id: <172373596884.15292.14528911448983722216@gitolite.kernel.org>
+Date: Thu, 15 Aug 2024 15:32:51 -0000
+Message-Id: <172373597115.15368.11166153037804021819@gitolite.kernel.org>
 
---===============0250098731885323752==
+--===============2376083213293222948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: df934abb185c71c9f2fa07a5013672d0cbd36560
     new: 9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b
     log: revlist-df934abb185c-9c5af2d7dfe1.txt
 
---===============0250098731885323752==
+--===============2376083213293222948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ be5e816d00a506719e9dbb1a9c861c5ced30a109 net: hns3: fix a deadlock problem when 
 34dfdf210d05ea6c6c75de2fa785853734fb51e8 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
 9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b Merge tag 'nf-24-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============0250098731885323752==--
+--===============2376083213293222948==--
