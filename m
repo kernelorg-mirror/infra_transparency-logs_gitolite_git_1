@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 15 Aug 2024 14:03:57 -0000
-Message-Id: <172373063737.12988.870853490402557859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 15 Aug 2024 14:04:56 -0000
+Message-Id: <172373069660.13402.11553156395666046313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 874cadf4dfcb1bcbe20b0b4e81b2bffe9569ad5c
-    new: 1039dd65901ef16cb5314b1aa73579219ab89f76
+  - ref: refs/heads/kdevops
+    old: 39beccda1e6221f427535384419f3b9e7d7d2311
+    new: 0712fc72111edb5aec7ca827b0312c0a8649705e
     log: |
-         1039dd65901ef16cb5314b1aa73579219ab89f76 Debugging
+         0712fc72111edb5aec7ca827b0312c0a8649705e SQUASH: nfsd
          
