@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2445144198465083789=="
+Content-Type: multipart/mixed; boundary="===============2906128387689573875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 15 Aug 2024 14:43:05 -0000
-Message-Id: <172373298500.10578.5192267852933154976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 15 Aug 2024 14:43:16 -0000
+Message-Id: <172373299646.10734.8474626401935884990@gitolite.kernel.org>
 
---===============2445144198465083789==
+--===============2906128387689573875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regulator-6.12
     old: 39b8cb4e1b51191dd0da03b77fbd8b2a2e3e7645
     new: 5a38089fe4438a587291ccf932178ed8cdbdde28
     log: |
@@ -30,28 +30,28 @@ changes:
          5a38089fe4438a587291ccf932178ed8cdbdde28 regulator: Use scoped device node handling to simplify
          
 
---===============2445144198465083789==
+--===============2906128387689573875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1723732983 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1723732980-9a08b48e4ee6a65a2a2dc11a4bc7789aebf8ffa2
+pusher C3F436CA30F5D8EB 1723732994 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1723732989-d0996f05632bf3b9ac7fa6633a34df4f6465050f
 
-39b8cb4e1b51191dd0da03b77fbd8b2a2e3e7645 5a38089fe4438a587291ccf932178ed8cdbdde28 refs/heads/for-6.12
+39b8cb4e1b51191dd0da03b77fbd8b2a2e3e7645 5a38089fe4438a587291ccf932178ed8cdbdde28 refs/heads/regulator-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma+E/cACgkQJNaLcl1U
-h9C6Vwf/SVrR2zxOt28h2sePQtdzbZkN7/4LAEkyQLRPYo86XZnN1vsz54pn7ipK
-oFdCRI5nd7secivBZzxI8H5EmTJfx1oYNZDsDZRA4zTAVgJpGepkjt/ORDKHjlDC
-+DvIwuMXQq8Nmv22UHHA6hbpOXaIvwPIn5JyolMMqVRXRmeTR3AAq3aU7N+owvo4
-T8dbdl03k/XwBP7U9s+BxsrYk0z1grOXS7/ISbZvuswQB7XN5PdJ4isQbv2mx3R+
-l8LhYM36kCEeN3zYFKeK+FbvzDr9a8X0I9n304r3MEbd4DnbT40VnnBE6LBoR5iq
-R+vCcOFGlyKZ6mr31yzYkphbBN3ybw==
-=Fl9b
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAma+FAIACgkQJNaLcl1U
+h9A7zQf+JAY2byeoTVOJe48rYwxrCYJcdRtbKgtP1VQJBZLghqtm9u198dHlRVIz
+HJgjodRU7xXiVURgIThyLz1zYUFo8GDYn8v7CLgXsn4I+trbRWMYciojSPUryqNz
+gQA3CRVX9rSkVbFWmqADTUQ+zdnyNEoOX/AftxI4DTNmtxy0ietoipRjXWiKkcO0
+2ZU/MyQrpJhaJwr6mjtopIqdUV3nZb4J98cOFqmpB18TcpVuivv8YHBDHfL2dMkY
+VYmD0UtQ1z+3tmBDqFUPLcsSltmlkLzHO6IpawsRd/AVPuC0gaE1z+TodurG9RSV
+uu1+kYMdfQvu70WWeS6l1si6DfmqgA==
+=gVUk
 -----END PGP SIGNATURE-----
 
---===============2445144198465083789==--
+--===============2906128387689573875==--
