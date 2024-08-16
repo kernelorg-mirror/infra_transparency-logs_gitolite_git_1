@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Aug 2024 21:31:15 -0000
-Message-Id: <172384387589.12976.8407680591802692108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 16 Aug 2024 21:37:11 -0000
+Message-Id: <172384423152.17976.13244777868227811909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 2dce239099d2e18aef7f36a5da43c4c33712d773
-    new: 9480fd0cd8a4621d42a88d43b0e7864048a6b09e
+  - ref: refs/heads/master
+    old: 7838d0611b51575589f45236a8b31522fbe67608
+    new: edda1a1d8f3f619575a64baa59a1fa1aa85b6e4e
     log: |
-         02404bdb811dbea6ab523675ec98d9f815cfb3b2 dt-bindings: net: mdio: change nodename match pattern
-         9480fd0cd8a4621d42a88d43b0e7864048a6b09e docs: networking: Align documentation with behavior change
+         edda1a1d8f3f619575a64baa59a1fa1aa85b6e4e Fri Aug 16 05:36:03 PM EDT 2024
          
