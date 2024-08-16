@@ -1,54 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============8622938796038633247=="
+Content-Type: multipart/mixed; boundary="===============6292540584637907007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/cgit
-Date: Fri, 16 Aug 2024 18:54:22 -0000
-Message-Id: <172383446220.24884.4740819049493740419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 16 Aug 2024 19:02:20 -0000
+Message-Id: <172383494088.31173.1468802616359649826@gitolite.kernel.org>
 
---===============8622938796038633247==
+--===============6292540584637907007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/cgit
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/kr/korg-deployment
-    old: 7f36de17f490852c99d3fd98f8b5cb79ad36f952
-    new: 1a336d923ac6639a3de017fe030989a933193ee7
-    log: |
-         6feb1b669b381452c1c2b4723bfd18275ecae350 git: update to v2.39.1
-         4dee601bb6042cf7db2472b9c34530850345f680 git: update to v2.39.2
-         2593cd813860d71bd85db48c919de3d6e41b8b57 git: update to v2.40.0
-         0e6744b3082f576be21dd1b88f519a3c1f7d3931 git: update to v2.40.1
-         a6da40bf84527cbe77d1ec504e1fefb982b9a52a git: update to v2.41.0
-         2f50b47c72cbc4270bbd12ae7f520486d5f42736 git: update to v2.42.0
-         a95762af1ab8b4286a515630f750892d85bd6540 git: update to v2.42.1
-         793c420897e18eb3474c751d54cf4e0983f85433 git: update to v2.43.0
-         1a336d923ac6639a3de017fe030989a933193ee7 Merge branch 'ch/for-jason' into kr/korg-deployment
-         
+  - ref: refs/heads/master
+    old: 60cb1da6ed4a62ec8331e25ad4be87115cd28feb
+    new: 296c871d2904cff2b4742702ef94512ab467a8e3
+    log: revlist-60cb1da6ed4a-296c871d2904.txt
 
---===============8622938796038633247==
+--===============6292540584637907007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-60cb1da6ed4a-296c871d2904.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1723834461 -0400
-pushee gitolite.kernel.org:pub/scm/infra/cgit
-nonce 1723834461-f6f3c1aa803d5583ca21c941ffed9e0c8b971622
+d5240fa65db071909e9d1d5adcc5fd1abc8e96fe nvdimm/pmem: Set dax flag for all 'PFN_MAP' cases
+779bac9994452f6a894524f70c00cfb0cd4b6364 Revert "ACPI: EC: Evaluate orphan _REG under EC device"
+cdf65d73e001fde600b18d7e45afadf559425ce5 ACPICA: Add a depth argument to acpi_execute_reg_methods()
+71bf41b8e913ec9fc91f0d39ab8fb320229ec604 ACPI: EC: Evaluate _REG outside the EC scope more carefully
+b9b6ee6fe258ce4d89592593efcd3d798c418859 thermal: gov_bang_bang: Call __thermal_cdev_update() directly
+84248e35d9b60e03df7276627e4e91fbaf80f73d thermal: gov_bang_bang: Split bang_bang_control()
+5f64b4a1ab1b0412446d42e1fc2964c2cdb60b27 thermal: gov_bang_bang: Add .manage() callback
+6e6f58a170ea98e44075b761f2da42a5aec47dfb thermal: gov_bang_bang: Use governor_data to reduce overhead
+e4a55b555db6d2a006551605ef4404529e878cd2 Merge tag 'libnvdimm-fixes-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
+64ab5e4039cd713afdb7c1b1d6a693efdd2050d8 Merge tag 'acpi-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+296c871d2904cff2b4742702ef94512ab467a8e3 Merge tag 'thermal-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
-7f36de17f490852c99d3fd98f8b5cb79ad36f952 1a336d923ac6639a3de017fe030989a933193ee7 refs/heads/kr/korg-deployment
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+gXQAKCRC2xBzjVmSZ
-bO9XAQDAgyAVeQ7ap/lUHvl4O+i+B+lT0maLLSGutzCUKCSB4wD/UxdKZhmLdijp
-c5eZ5uz7ee171C4lr9w8ElszTzu/0AM=
-=rMdo
------END PGP SIGNATURE-----
-
---===============8622938796038633247==--
+--===============6292540584637907007==--
