@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 16 Aug 2024 19:22:52 -0000
-Message-Id: <172383617294.14214.8817363010416308221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 16 Aug 2024 19:39:49 -0000
+Message-Id: <172383718992.26429.15451823864056825722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/next-fixes
-    old: b9d6f23c8bf31566b8764802fd0deaed7d614817
-    new: 915fda2c4fcd3687686238937d3386a7bb3d0811
+  - ref: refs/heads/master
+    old: cbb085ce37e1d0563a97e262c37981ed5393e3e3
+    new: 7838d0611b51575589f45236a8b31522fbe67608
     log: |
-         534f7eff9239c1b0af852fc33f5af2b62c00eddf btrfs: only enable extent map shrinker for DEBUG builds
-         915fda2c4fcd3687686238937d3386a7bb3d0811 Merge branch 'misc-6.11' into next-fixes
+         7838d0611b51575589f45236a8b31522fbe67608 Fri Aug 16 03:38:39 PM EDT 2024
          
