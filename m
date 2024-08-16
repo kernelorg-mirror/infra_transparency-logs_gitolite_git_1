@@ -1,83 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6776359834691557511=="
+Content-Type: multipart/mixed; boundary="===============2557902746855125595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/public-inbox
-Date: Fri, 16 Aug 2024 19:50:12 -0000
-Message-Id: <172383781214.2842.8459454817180163888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 16 Aug 2024 19:56:24 -0000
+Message-Id: <172383818450.6709.452683702987626108@gitolite.kernel.org>
 
---===============6776359834691557511==
+--===============2557902746855125595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/public-inbox
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/v1.0.0
-    old: 0000000000000000000000000000000000000000
-    new: 8a918a8523bc9904123460f85999d75f6d604916
-  - ref: refs/tags/v1.1.0-pre1
-    old: 0000000000000000000000000000000000000000
-    new: 03425a6dc59a2986ca4fe4bbc18c8f0f9f8c7a56
-  - ref: refs/tags/v1.2.0
-    old: 0000000000000000000000000000000000000000
-    new: b0e72e2eef4ec6a21e88f2af312289efe90255b2
-  - ref: refs/tags/v1.3.0
-    old: 0000000000000000000000000000000000000000
-    new: 7fe3f73281eb9fed9291defb2dd47bc1e3ce913e
-  - ref: refs/tags/v1.4.0
-    old: 0000000000000000000000000000000000000000
-    new: 08ef56ec4f1f98a578fb8f09e4b562133af94f41
-  - ref: refs/tags/v1.5.0
-    old: 0000000000000000000000000000000000000000
-    new: 43e3f694fbb451a49024c50e6b40c6b315b30ee3
-  - ref: refs/tags/v1.6.0
-    old: 0000000000000000000000000000000000000000
-    new: da0150e5a2ec0a80e204276e689b7640df7be8c2
-  - ref: refs/tags/v1.6.1
-    old: 0000000000000000000000000000000000000000
-    new: 6262866eaf635089aadbd6ef74f5fd00e539c888
-  - ref: refs/tags/v1.7.0
-    old: 0000000000000000000000000000000000000000
-    new: 86edf17a8e171e80111945debeafe63ec593155e
-  - ref: refs/tags/v1.8.0
-    old: 0000000000000000000000000000000000000000
-    new: bf3b9ceeebab735485e485c07ad239545d074541
-  - ref: refs/tags/v1.9.0
-    old: 0000000000000000000000000000000000000000
-    new: a8db9a02c57befaaae9b1269029c11ee8190db00
+  - ref: refs/heads/delstid
+    old: a266da672d048d5f97fc92b93ee6170649755768
+    new: 1768c1ecf101cadf2fc891eb7343100ae1f2b266
+    log: revlist-a266da672d04-1768c1ecf101.txt
 
---===============6776359834691557511==
+--===============2557902746855125595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a266da672d04-1768c1ecf101.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1723837810 -0400
-pushee gitolite.kernel.org:pub/scm/infra/public-inbox.git
-nonce 1723837810-920964e0ab8ed7fe1c615b36f957a615bdbe4f6d
+a037d5e7f81bae8ff69eb670b2ec3f25ad4d2cc2 fs: add infrastructure for multigrain timestamps
+6147cbda93bac1fd347d7ec24256c54d0e6ae274 fs: tracepoints around multigrain timestamp events
+a777e231666a41cb3bb99ebcd04bee3defef7039 fs: add percpu counters for significant multigrain timestamp events
+3a5e76794b88f36d492d6c18058978c15171f941 fs: have setattr_copy handle multigrain timestamps appropriately
+42ba4ae65752b8cb8b04430909cb66b28d51c94d Documentation: add a new file documenting multigrain timestamps
+3062a738d73c866bf50df13bc47a2223b7b47d87 xfs: switch to multigrain timestamps
+729f35ab8b0a5641b0d64c320cc77282a89ba2fc ext4: switch to multigrain timestamps
+c7e408a168b5ae6530685ad3bfbeec1755e83b53 btrfs: convert to multigrain timestamps
+72f170e6e3cf35f2fbfbdc893eb0467c9f8be737 tmpfs: add support for multigrain timestamps
+ec121a3260e682c776eea8ce64bd0ed29ce78853 Merge branch 'brauner/vfs.mgtime'
+e4b0ac435222f13dde44b650067b2ff65479a199 nfs: fix the fetch of FATTR4_OPEN_ARGUMENTS
+27705989bdbce5bc7514587a60b7ecec82294c2e nfsd: implement OPEN_XOR_DELEGATION part of delstid draft
+3789888c30eb940ace9447c0ec348eb40c5fe8e1 nfsd: bring in support for delstid draft XDR encoding
+15991147e69d27e0fcef335f42e73ac22a423fc9 nfsd: add support for FATTR4_OPEN_ARGUMENTS
+7f6ae175c3877c2ca8d71aec1f08e23bcbaf3d40 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+878657e482d885c2761053f762b98b81fdae2c58 nfsd: fix up handling of inode attrs in cb_getattr
+1768c1ecf101cadf2fc891eb7343100ae1f2b266 nfsd: add support for delegated timestamps
 
-0000000000000000000000000000000000000000 8a918a8523bc9904123460f85999d75f6d604916 refs/tags/v1.0.0
-0000000000000000000000000000000000000000 03425a6dc59a2986ca4fe4bbc18c8f0f9f8c7a56 refs/tags/v1.1.0-pre1
-0000000000000000000000000000000000000000 b0e72e2eef4ec6a21e88f2af312289efe90255b2 refs/tags/v1.2.0
-0000000000000000000000000000000000000000 7fe3f73281eb9fed9291defb2dd47bc1e3ce913e refs/tags/v1.3.0
-0000000000000000000000000000000000000000 08ef56ec4f1f98a578fb8f09e4b562133af94f41 refs/tags/v1.4.0
-0000000000000000000000000000000000000000 43e3f694fbb451a49024c50e6b40c6b315b30ee3 refs/tags/v1.5.0
-0000000000000000000000000000000000000000 da0150e5a2ec0a80e204276e689b7640df7be8c2 refs/tags/v1.6.0
-0000000000000000000000000000000000000000 6262866eaf635089aadbd6ef74f5fd00e539c888 refs/tags/v1.6.1
-0000000000000000000000000000000000000000 86edf17a8e171e80111945debeafe63ec593155e refs/tags/v1.7.0
-0000000000000000000000000000000000000000 bf3b9ceeebab735485e485c07ad239545d074541 refs/tags/v1.8.0
-0000000000000000000000000000000000000000 a8db9a02c57befaaae9b1269029c11ee8190db00 refs/tags/v1.9.0
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+tcgAKCRC2xBzjVmSZ
-bDpAAQCEI0aKo3wnN0vysvMYiomkiQnf42jHp/jQgc7z+DNkvwD/QmlBK+e6fBUi
-/4oGAEP21X/8zNUUvsa1QBMCi0C4rAo=
-=zHYm
------END PGP SIGNATURE-----
-
---===============6776359834691557511==--
+--===============2557902746855125595==--
