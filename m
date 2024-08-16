@@ -1,16 +1,83 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 16 Aug 2024 19:40:46 -0000
-Message-Id: <172383724616.28503.9706377316925914355@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6776359834691557511=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/public-inbox
+Date: Fri, 16 Aug 2024 19:50:12 -0000
+Message-Id: <172383781214.2842.8459454817180163888@gitolite.kernel.org>
+
+--===============6776359834691557511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/infra/public-inbox
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/devicetree-fixes-for-6.11-2
+  - ref: refs/tags/v1.0.0
     old: 0000000000000000000000000000000000000000
-    new: d437446af1b34b17d7202d1363e3491b3df08458
+    new: 8a918a8523bc9904123460f85999d75f6d604916
+  - ref: refs/tags/v1.1.0-pre1
+    old: 0000000000000000000000000000000000000000
+    new: 03425a6dc59a2986ca4fe4bbc18c8f0f9f8c7a56
+  - ref: refs/tags/v1.2.0
+    old: 0000000000000000000000000000000000000000
+    new: b0e72e2eef4ec6a21e88f2af312289efe90255b2
+  - ref: refs/tags/v1.3.0
+    old: 0000000000000000000000000000000000000000
+    new: 7fe3f73281eb9fed9291defb2dd47bc1e3ce913e
+  - ref: refs/tags/v1.4.0
+    old: 0000000000000000000000000000000000000000
+    new: 08ef56ec4f1f98a578fb8f09e4b562133af94f41
+  - ref: refs/tags/v1.5.0
+    old: 0000000000000000000000000000000000000000
+    new: 43e3f694fbb451a49024c50e6b40c6b315b30ee3
+  - ref: refs/tags/v1.6.0
+    old: 0000000000000000000000000000000000000000
+    new: da0150e5a2ec0a80e204276e689b7640df7be8c2
+  - ref: refs/tags/v1.6.1
+    old: 0000000000000000000000000000000000000000
+    new: 6262866eaf635089aadbd6ef74f5fd00e539c888
+  - ref: refs/tags/v1.7.0
+    old: 0000000000000000000000000000000000000000
+    new: 86edf17a8e171e80111945debeafe63ec593155e
+  - ref: refs/tags/v1.8.0
+    old: 0000000000000000000000000000000000000000
+    new: bf3b9ceeebab735485e485c07ad239545d074541
+  - ref: refs/tags/v1.9.0
+    old: 0000000000000000000000000000000000000000
+    new: a8db9a02c57befaaae9b1269029c11ee8190db00
+
+--===============6776359834691557511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1723837810 -0400
+pushee gitolite.kernel.org:pub/scm/infra/public-inbox.git
+nonce 1723837810-920964e0ab8ed7fe1c615b36f957a615bdbe4f6d
+
+0000000000000000000000000000000000000000 8a918a8523bc9904123460f85999d75f6d604916 refs/tags/v1.0.0
+0000000000000000000000000000000000000000 03425a6dc59a2986ca4fe4bbc18c8f0f9f8c7a56 refs/tags/v1.1.0-pre1
+0000000000000000000000000000000000000000 b0e72e2eef4ec6a21e88f2af312289efe90255b2 refs/tags/v1.2.0
+0000000000000000000000000000000000000000 7fe3f73281eb9fed9291defb2dd47bc1e3ce913e refs/tags/v1.3.0
+0000000000000000000000000000000000000000 08ef56ec4f1f98a578fb8f09e4b562133af94f41 refs/tags/v1.4.0
+0000000000000000000000000000000000000000 43e3f694fbb451a49024c50e6b40c6b315b30ee3 refs/tags/v1.5.0
+0000000000000000000000000000000000000000 da0150e5a2ec0a80e204276e689b7640df7be8c2 refs/tags/v1.6.0
+0000000000000000000000000000000000000000 6262866eaf635089aadbd6ef74f5fd00e539c888 refs/tags/v1.6.1
+0000000000000000000000000000000000000000 86edf17a8e171e80111945debeafe63ec593155e refs/tags/v1.7.0
+0000000000000000000000000000000000000000 bf3b9ceeebab735485e485c07ad239545d074541 refs/tags/v1.8.0
+0000000000000000000000000000000000000000 a8db9a02c57befaaae9b1269029c11ee8190db00 refs/tags/v1.9.0
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+tcgAKCRC2xBzjVmSZ
+bDpAAQCEI0aKo3wnN0vysvMYiomkiQnf42jHp/jQgc7z+DNkvwD/QmlBK+e6fBUi
+/4oGAEP21X/8zNUUvsa1QBMCi0C4rAo=
+=zHYm
+-----END PGP SIGNATURE-----
+
+--===============6776359834691557511==--
