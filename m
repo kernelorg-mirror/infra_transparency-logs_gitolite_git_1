@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8761549879059534494=="
+Content-Type: multipart/mixed; boundary="===============2398997898401307791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Aug 2024 21:55:04 -0000
-Message-Id: <172384530448.31251.15168075022727079599@gitolite.kernel.org>
+Date: Fri, 16 Aug 2024 21:55:06 -0000
+Message-Id: <172384530687.31324.4503753867966068921@gitolite.kernel.org>
 
---===============8761549879059534494==
+--===============2398997898401307791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 399117317001d0f5bf4194feccaafa62b12e744f
     new: 2dce239099d2e18aef7f36a5da43c4c33712d773
     log: revlist-399117317001-2dce239099d2.txt
 
---===============8761549879059534494==
+--===============2398997898401307791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ aeac0b5e32e42aaafde0a71877fb0878c9999230 Merge branch 'use-more-devm-for-ag71xx'
 795b1aa8f37e38cf1a6202d274960bdd9c2ac44a idpf: remove redundant 'req_vec_chunks' NULL check
 2dce239099d2e18aef7f36a5da43c4c33712d773 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8761549879059534494==--
+--===============2398997898401307791==--
