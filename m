@@ -1,49 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6330329173873773946=="
+Content-Type: multipart/mixed; boundary="===============5053104119111849684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 16 Aug 2024 11:20:26 -0000
-Message-Id: <172380722687.8926.266069807030413866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 16 Aug 2024 11:43:50 -0000
+Message-Id: <172380863020.24933.15331839374545179066@gitolite.kernel.org>
 
---===============6330329173873773946==
+--===============5053104119111849684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 5ee7540ca6dc7ef90259fe465ef362e781b75ad6
-    new: 413e2254b7a67f21e05791073f95ad41e0a54593
-    log: revlist-5ee7540ca6dc-413e2254b7a6.txt
+  - ref: refs/heads/master
+    old: a4a35f6cbebbf9466b6c412506ab89299d567f51
+    new: d7a5aa4b3c007fae50405ca75c40258d90300e96
+    log: revlist-a4a35f6cbebb-d7a5aa4b3c00.txt
 
---===============6330329173873773946==
+--===============5053104119111849684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ee7540ca6dc-413e2254b7a6.txt
+Content-Disposition: attachment; filename=revlist-a4a35f6cbebb-d7a5aa4b3c00.txt
 
-1bc3e618481f28bd1dafd2a04d988a19c36b05e5 Merge branch 'thermal-core' into thermal-core-testing
-8cce69c2eb8aa6f2455d7d47c4ba5d46bd3474a9 Merge branch 'thermal-fixes' into thermal-core-testing
-b4303d0be314baef95bf0b79f876719c4c9c7e23 thermal: core: Fold two functions into their respective callers
-69fa1d0ac9c03554e605fcb2f15b151d2649f9d6 thermal: core: Rearrange checks in thermal_bind_cdev_to_trip()
-93c5c80a4c921e5c2bd9412a98a8d0cde8028182 thermal: core: Drop redundant thermal instance checks
-509b59b40640e8f8e3596e687b56b3a7fb721017 thermal: sysfs: Use the dev argument in instance-related show/store
-6feec4cfb370081c2025497653eeda4d9d7bb653 thermal: core: Move thermal zone locking out of bind/unbind functions
-13ca15994643c2aaac880a72d48396350dbb72be thermal: core: Introduce .should_bind() thermal zone callback
-3c076610986712037d9a7f77cfd85705c2e99d45 thermal: ACPI: Use the .should_bind() thermal zone callback
-53efd9adfbd70dec09ded1b28c91fa51ed9801f5 thermal: core: Unexport thermal_bind_cdev_to_trip() and thermal_unbind_cdev_from_trip()
-9a96640e73eb998c0cbcf50cfc92860a1d66f82c mlxsw: core_thermal: Use the .should_bind() thermal zone callback
-e5189a503d4d8d4b24c940bdd85d3d19938c4191 platform/x86: acerhdf: Use the .should_bind() thermal zone callback
-c8f5793a3ef16d6f7bd279e0fa25da50b5d60e51 thermal: imx: Use the .should_bind() thermal zone callback
-d67921b3a07428696ab6d91d3c027b1c7afbca85 thermal/of: Use the .should_bind() thermal zone callback
-ddaff0239d28cd090e654eaa4d349f81363c3bbf thermal: core: Drop unused bind/unbind functions and callbacks
-dceec0f955f267f7233c2360001aa7b14e1960ba thermal: core: Clean up trip bind/unbind functions
-3802d4702ffe1271baf5304a40c1332771ccd31e thermal: core: Move lists of thermal instances to trip descriptors
-7614833c510a4fa9b8567097aac91c71d38b3fa7 thermal: core: Pass trip descriptors to trip bind/unbind functions
-413e2254b7a67f21e05791073f95ad41e0a54593 Merge branch 'thermal-core-testing' into bleeding-edge
+f91f7ac900e7342e0fd66093dfbf7cb8cb585a99 refcount: Report UAF for refcount_sub_and_test(0) when counter==0
+f32e90c0688a3d1f8079ac18ed39b752d22e92bd gcc-plugins: randstruct: Remove GCC 4.7 or newer requirement
+fbc05142ccdd0061f6d0e489608935943d2984a1 perf tools: Add tools/include/uapi/README
+aef21f6b6a4aae648c890e74c2322d10ab267249 tools/include: Sync uapi/drm/i915_drm.h with the kernel sources
+a625df3995c31a5d8cf46f2337b207e93bef9bdd tools/include: Sync uapi/linux/kvm.h with the kernel sources
+8ec9497d3ef34fab216e277eca5035811f06b421 tools/include: Sync uapi/linux/perf.h with the kernel sources
+b9735006762677c2cd794bfcb1463a9a6ed558dd tools/include: Sync uapi/sound/asound.h with the kernel sources
+568901e709d7fa564dfdc75816ea59fec65d20a0 tools/include: Sync uapi/asm-generic/unistd.h with the kernel sources
+ed86525f1f4b738bae75c73e89f25430bd0af1b0 tools/include: Sync network socket headers with the kernel sources
+845295f4004c7e1591bab4bad01b51f37d32272f tools/include: Sync filesystem headers with the kernel sources
+f6d9883f8e680460be4714d4d35c7acac1dffeaf tools/include: Sync x86 headers with the kernel sources
+d5b854893d27b4030943a10cf28a07189aab0c36 tools/include: Sync arm64 headers with the kernel sources
+4bbe6002931954bbe82b25f25990b987b0392e18 perf daemon: Fix the build on 32-bit architectures
+92e9bac18124682c4b99ede9ee3bcdd68f121e92 kunit/overflow: Fix UB in overflow_allocation_test
+020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
+fb6a421fb6153d97cf3058f9bd550b377b76a490 kallsyms: Match symbols exactly with CONFIG_LTO_CLANG
+e724918b3786252b985b0c2764c16a57d1937707 Merge tag 'hardening-v6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+d7a5aa4b3c007fae50405ca75c40258d90300e96 Merge tag 'perf-tools-fixes-for-v6.11-2024-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============6330329173873773946==--
+--===============5053104119111849684==--
