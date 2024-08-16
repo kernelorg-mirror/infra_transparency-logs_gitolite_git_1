@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8436428409568972340=="
+Content-Type: multipart/mixed; boundary="===============4657773934479413603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 16 Aug 2024 15:29:43 -0000
-Message-Id: <172382218378.30136.1971261872174696084@gitolite.kernel.org>
+Date: Fri, 16 Aug 2024 15:29:46 -0000
+Message-Id: <172382218693.30224.12056756235109050958@gitolite.kernel.org>
 
---===============8436428409568972340==
+--===============4657773934479413603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9c5af2d7dfe18e3a36f85fad8204cd2442ecd82b
     new: 3d93a1448ed017f3536319a2445568b5f3969547
     log: revlist-9c5af2d7dfe1-3d93a1448ed0.txt
 
---===============8436428409568972340==
+--===============4657773934479413603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -322,4 +322,4 @@ f1288fd7293b91442ad7420394c252a252ecaa30 net: dsa: felix: fix VLAN tag loss on C
 36dd1141be70b5966906919714dc504a24c65ddf net: mscc: ocelot: treat 802.1ad tagged traffic as 802.1Q-untagged
 3d93a1448ed017f3536319a2445568b5f3969547 Merge branch 'vln-ocelot-fixes'
 
---===============8436428409568972340==--
+--===============4657773934479413603==--
