@@ -1,19 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 16 Aug 2024 18:50:04 -0000
-Message-Id: <172383420406.22819.17548607277131200595@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4528676673878958394=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/public-inbox
+Date: Fri, 16 Aug 2024 18:50:43 -0000
+Message-Id: <172383424348.23217.3732742328088995131@gitolite.kernel.org>
+
+--===============4528676673878958394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/infra/public-inbox
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-6.11
-    old: e4956dc7a84da074fd8dc10f7abd147f15b3ae58
-    new: 1fc2ac428ef7d2ab9e8e19efe7ec3e58aea51bf3
-    log: |
-         1fc2ac428ef7d2ab9e8e19efe7ec3e58aea51bf3 io_uring: fix user_data field name in comment
-         
+  - ref: refs/heads/mricon
+    old: 0000000000000000000000000000000000000000
+    new: fdcbf76edee95d14def70d4091085e4d70305a38
+
+--===============4528676673878958394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1723834240 -0400
+pushee gitolite.kernel.org:pub/scm/infra/public-inbox.git
+nonce 1723834240-775dfedcec5bf87781a729fc13e908f7ac800284
+
+0000000000000000000000000000000000000000 fdcbf76edee95d14def70d4091085e4d70305a38 refs/heads/mricon
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+fgAAKCRC2xBzjVmSZ
+bNnCAQCcpXe29YmzZAvTJFqeLcxGH6lEeqkyD+TQjlm1J4igQwD/WyfHTMoiTBwy
+bQhb6xgyCOq/BebaZfP9BNZ4EzU7MAQ=
+=JsVM
+-----END PGP SIGNATURE-----
+
+--===============4528676673878958394==--
