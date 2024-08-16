@@ -1,19 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 16 Aug 2024 18:01:08 -0000
-Message-Id: <172383126869.13768.17202621808920202957@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8754534417314468624=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
+Date: Fri, 16 Aug 2024 18:04:03 -0000
+Message-Id: <172383144343.16916.16964206920678502278@gitolite.kernel.org>
+
+--===============8754534417314468624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/mricon/hook-test
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f5f8a18115bb21e3ddbee632eaa419cdadac1b8e
-    new: d2ff146707793821be73d21e3049792af82ab5e5
+  - ref: refs/heads/main
+    old: 3c570919b083b73fb9ee8563fda8f9cabddc6b36
+    new: a5038c08c42dd52855ee1fa13354f41b012c0b95
     log: |
-         d2ff146707793821be73d21e3049792af82ab5e5 patches/next: rebase to latest mm-unstable
+         157135b03616a8e86923539ec6da8d24b6adbaf7 Go 1->2
+         a5038c08c42dd52855ee1fa13354f41b012c0b95 2->3
          
+
+--===============8754534417314468624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1723831442 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
+nonce 1723831442-91188ac4659bbec4d217d4379059f9604155d27a
+
+3c570919b083b73fb9ee8563fda8f9cabddc6b36 a5038c08c42dd52855ee1fa13354f41b012c0b95 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+UkgAKCRC2xBzjVmSZ
+bPqLAQCf/QH+DdwVgv4t2he/97RTBykjTU/cQGcvH/lACoITHAD/V0Ju9QL5uEqM
+d237jSHfo6ZphrTP7rh6UzKKv3M0dQs=
+=GsG6
+-----END PGP SIGNATURE-----
+
+--===============8754534417314468624==--
