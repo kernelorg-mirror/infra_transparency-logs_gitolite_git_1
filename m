@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 16 Aug 2024 07:39:29 -0000
-Message-Id: <172379396940.23533.11221027002410059709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 16 Aug 2024 07:53:58 -0000
+Message-Id: <172379483804.2014.7098886563276373460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 2e263156198d6defb2d72c6885d5df6f40bf00a0
-    new: 1db93e3fc19156ef113d5bb25b9143bb5124dd1e
+  - ref: refs/heads/for-next
+    old: d79e13f8e8abb5cd3a2a0f9fc9bc3fc750c5b06f
+    new: d32cf9fbcb613a8f43e2211e964ccc8bb7271dcf
     log: |
-         290d3029ec5fc75d6b5984700734c67a5549b7f7 foo
-         00d6345679ec88d1e72db317c0dca6930a018586 foo
-         3aff9475b25d87e8836820d88a8ddcab8fcd043a foo
-         e664a3d84150108af2985da9f363d91f7f3d1eab foo
-         08352e30eb9a71d6d057b113ddafef5824e6543d foo
-         49b358981b53220c68e2fe16883addbc11e31a32 foo
-         361dd578a75932f10916561d417498e94250b772 foo
-         850c4088f9dfbf75996fbb28f93cce44ca17c18b foo
-         1db93e3fc19156ef113d5bb25b9143bb5124dd1e foo
+         d32cf9fbcb613a8f43e2211e964ccc8bb7271dcf ALSA: aoa: Use helper function for_each_child_of_node()
+         
+  - ref: refs/heads/master
+    old: b7143abec789f5ac3a2f87604aa7750d3428458e
+    new: ec47f9404fed19af66a4036e5b81eef8e195b72d
+    log: |
+         d32cf9fbcb613a8f43e2211e964ccc8bb7271dcf ALSA: aoa: Use helper function for_each_child_of_node()
+         ec47f9404fed19af66a4036e5b81eef8e195b72d Merge branch 'for-next'
          
