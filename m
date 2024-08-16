@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 16 Aug 2024 12:19:00 -0000
-Message-Id: <172381074041.18191.14959311040013629168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 16 Aug 2024 12:36:40 -0000
+Message-Id: <172381180013.31125.6247886335064512695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/dm-6.12
-    old: 0e70056eb82232073c6dde332e5ad0dc05557d4e
-    new: 8dd5000d9dff03344ca70ce3a3c2a27219f5e1bb
+  - ref: refs/heads/fixes
+    old: 1472464c6248575bf2d01c7f076b94704bb32c95
+    new: 145082ebfcf08f4fd254c467abf4aa58b4d38505
     log: |
-         8dd5000d9dff03344ca70ce3a3c2a27219f5e1bb dm: Remove unused declaration and empty definition "dm_zone_map_bio"
+         145082ebfcf08f4fd254c467abf4aa58b4d38505 Documentation/llvm: turn make command for ccache into code block
          
