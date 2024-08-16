@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 16 Aug 2024 04:36:13 -0000
-Message-Id: <172378297339.18812.6761504939573546186@gitolite.kernel.org>
+Date: Fri, 16 Aug 2024 04:43:05 -0000
+Message-Id: <172378338596.24202.3997862013202611908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 590074281e8463128ac92ed2640405cd05b10cb1
-    new: 8116f06614886209a66ad421125191c03f94f478
+    old: 8116f06614886209a66ad421125191c03f94f478
+    new: 75b8268a26b7d29f5f383bf8a71493d27d6a1892
     log: |
-         8116f06614886209a66ad421125191c03f94f478 depmod: Fix out of boundary write with long paths
+         75b8268a26b7d29f5f383bf8a71493d27d6a1892 depmod: Improve P argument check
          
