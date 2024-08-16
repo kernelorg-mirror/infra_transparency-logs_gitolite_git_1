@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 16 Aug 2024 19:05:26 -0000
-Message-Id: <172383512662.1696.15874760882041336954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 16 Aug 2024 19:09:27 -0000
+Message-Id: <172383536742.4526.7816657029904776912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/tip-debian
-    old: 3f0b88a4423332a48d88426c4d1c9e7d358ad221
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 5a3f19cae9b075e80f8a9944e4f416e2931eb1c6
+    new: cbb085ce37e1d0563a97e262c37981ed5393e3e3
+    log: |
+         cbb085ce37e1d0563a97e262c37981ed5393e3e3 Fri Aug 16 03:08:09 PM EDT 2024
+         
