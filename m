@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 16 Aug 2024 02:59:47 -0000
-Message-Id: <172377718704.11421.12200339870945114627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Fri, 16 Aug 2024 03:14:11 -0000
+Message-Id: <172377805170.22748.11899084770749699808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 5da40dbc7742618cf86941823319003de77b9c5c
-    new: ea24b529e34593e81ded82ffc2712efea637001e
-    log: |
-         ea24b529e34593e81ded82ffc2712efea637001e cpufreq: Add SM7325 to cpufreq-dt-platdev blocklist
-         
+  - ref: refs/heads/context_tracking.15.08.24a
+    old: 0000000000000000000000000000000000000000
+    new: 4040b1139904b3f72b56862fc9a8d3e9abb69ffb
