@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 16 Aug 2024 14:41:58 -0000
-Message-Id: <172381931873.27815.4343075785488086654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 16 Aug 2024 14:42:22 -0000
+Message-Id: <172381934267.28050.1586313904900797186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-linus
-    old: 164199615ae230ace4519141285f06766d6d8036
-    new: a42db293e5983aa1508d12644f23d73f0553b32c
+  - ref: refs/heads/hwmon-next
+    old: 1754caf94b8c22a54039434c190285fc001a9e78
+    new: df9686ab8ee94af8cd8bcde9cec66ef20913e4fb
     log: |
-         a42db293e5983aa1508d12644f23d73f0553b32c ASoC: SOF: amd: Fix for acp init sequence
-         
-  - ref: refs/heads/for-next
-    old: 1b0c53bf26fadba5f2bd5ac9d7f008ed7211c660
-    new: be08b848e53147224b70ac66ab420dac22e0667a
-    log: |
-         a42db293e5983aa1508d12644f23d73f0553b32c ASoC: SOF: amd: Fix for acp init sequence
-         be08b848e53147224b70ac66ab420dac22e0667a Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         3bc45d42a1bada38ec6779e8ecc91348e0f08940 hwmon: (chipcap2) Drop cc2_disable() in the probe and return dev_err_probe()
+         03f9142f75b2151792f684c6c78d3a9575e26d0c hwmon: (nct6775) add G15CF to ASUS WMI monitoring list
+         ffd2ff4ac66badaf337ea7fa549945b4cdc2f04e hwmon: Add thermal sensor driver for Surface Aggregator Module
+         f1816a510c8e32820616f6dcebfc0201fb2d70b4 hwmon: (gsc-hwmon) fix module autoloading
+         49bae62d2d33c4621d35ae0bb3c05b8f782ab780 hwmon: (sch5627) Remove unused declaration sch56xx_watchdog_unregister()
+         df9686ab8ee94af8cd8bcde9cec66ef20913e4fb hwmon: (ntc_thermistor) fix module autoloading
          
