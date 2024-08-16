@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 16 Aug 2024 14:45:27 -0000
-Message-Id: <172381952744.30871.18189731572322928651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 16 Aug 2024 14:47:29 -0000
+Message-Id: <172381964908.31715.11442102694630291720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/delstid
-    old: dd3356d15760f9fdeaab248207985c37d1e14eea
-    new: a1a25f96464c2cb4f64865de90350f5c57a11298
+  - ref: refs/heads/rproc-next
+    old: 9091225ba28c0106d3cd041c7abf5551a94bb524
+    new: ea1d6fb5b57135e8e05ebfaaf816e199baee96b3
     log: |
-         f95f1e98ea69bbe6aa8b8d60c8f5015a267f129d nfsd: implement OPEN_XOR_DELEGATION part of delstid draft
-         97ddb66403022eca36b256fdcd060df0eded4a46 nfsd: bring in support for delstid draft XDR encoding
-         eb509462c76425fcf819fbccbb51da2404f27811 nfsd: add support for FATTR4_OPEN_ARGUMENTS
-         a1a25f96464c2cb4f64865de90350f5c57a11298 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+         c81ef0cb576a3995edf24b63e9639881f19a2122 remoteproc: k3-r5: Use devm_rproc_alloc() helper
+         f3f11cfe890733373ddbb1ce8991ccd4ee5e79e1 remoteproc: k3-r5: Acquire mailbox handle during probe routine
+         ea1d6fb5b57135e8e05ebfaaf816e199baee96b3 remoteproc: k3-dsp: Acquire mailbox handle during probe routine
          
