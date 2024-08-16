@@ -1,58 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============8195230027537641909=="
+Content-Type: multipart/mixed; boundary="===============8761549879059534494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 16 Aug 2024 21:50:03 -0000
-Message-Id: <172384500377.27737.14345171361303370632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 16 Aug 2024 21:55:04 -0000
+Message-Id: <172384530448.31251.15168075022727079599@gitolite.kernel.org>
 
---===============8195230027537641909==
+--===============8761549879059534494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-6.12/block
-    old: a28dc358e28fb0738dd23e401cd7646cb4b0f7f1
-    new: b2261de75212910e2ca01fa673c8855a535d8c60
-    log: |
-         b2261de75212910e2ca01fa673c8855a535d8c60 blk-cgroup: Remove unused declaration blkg_path()
-         
-  - ref: refs/heads/for-next
-    old: 619693b2d81cc5d12b414de5ee471a8e052647f5
-    new: 362c29c0d2a362e652bb7137a207e278f16a72db
-    log: |
-         b2261de75212910e2ca01fa673c8855a535d8c60 blk-cgroup: Remove unused declaration blkg_path()
-         362c29c0d2a362e652bb7137a207e278f16a72db Merge branch 'for-6.12/block' into for-next
-         
-  - ref: refs/heads/master
-    old: 296c871d2904cff2b4742702ef94512ab467a8e3
-    new: 85652baa895b59b94bea29c77cb9b51cf7120deb
-    log: revlist-296c871d2904-85652baa895b.txt
+  - ref: refs/heads/1GbE
+    old: 399117317001d0f5bf4194feccaafa62b12e744f
+    new: 2dce239099d2e18aef7f36a5da43c4c33712d773
+    log: revlist-399117317001-2dce239099d2.txt
 
---===============8195230027537641909==
+--===============8761549879059534494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-296c871d2904-85652baa895b.txt
+Content-Disposition: attachment; filename=revlist-399117317001-2dce239099d2.txt
 
-0710c3d304f67f9b68f5082214e311ec8f82bd82 dt-bindings: Batch-update Konrad Dybcio's email
-e1cf752ede8e82c2d084868c50a1ca6cdb07c9c4 dt-bindings: eeprom: at25: add fujitsu,mb85rs256 compatible
-2a07bb64d80152701d507b1498237ed1b8d83866 s390/dasd: Remove DMA alignment
-7db4042336580dfd75cb5faa82c12cd51098c90b s390/dasd: fix error recovery leading to data corruption on ESE devices
-84f2eecf95018386c145ada19bb45b03bdb80d9e io_uring/napi: check napi_enabled in io_napi_add() before proceeding
-48cc7ecd3a68e0fbfa281ef1ed6f6b6cb7638390 io_uring/napi: remove duplicate io_napi_entry timeout assignation
-e4956dc7a84da074fd8dc10f7abd147f15b3ae58 io_uring/sqpoll: annotate debug task == current with data_race()
-b739dffa5d570b411d4bdf4bb9b8dfd6b7d72305 of/irq: Prevent device address out-of-bounds read in interrupt map walk
-c916ca35308d3187c9928664f9be249b22a3a701 md/raid1: Fix data corruption for degraded array with slow disk
-50faba777177e80fd29a249fcd9f8aa18348d65b Merge tag 'md-6.11-20240815' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.11
-b313a8c835516bdda85025500be866ac8a74e022 block: Fix lockdep warning in blk_mq_mark_tag_wait
-1fc2ac428ef7d2ab9e8e19efe7ec3e58aea51bf3 io_uring: fix user_data field name in comment
-2731835f3f2e5b0642ad82a3a0265c98a552283e Merge tag 'devicetree-fixes-for-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-c5ac744cdddae82916d4cd35d962d3f47065e68a Merge tag 'io_uring-6.11-20240824' of git://git.kernel.dk/linux
-85652baa895b59b94bea29c77cb9b51cf7120deb Merge tag 'block-6.11-20240824' of git://git.kernel.dk/linux
+86ff3d79a0ee72b7662ef1cc712ba85336b77c30 ice: add parser create and destroy skeleton
+75b4a938a947785cdda8908cb700c58e95f8ff69 ice: parse and init various DDP parser sections
+68add288189a5490868ccf8cbed273320568928d ice: add debugging functions for the parser sections
+4851f12c8d8a0dc89d1bf83ec9d7f34bd4f65572 ice: add parser internal helper functions
+9a4c07aaa0f54dd2ddd9e772be9b9ece27b229f0 ice: add parser execution main loop
+b2687653fe690569d48eb60343745fe436f7d532 ice: support turning on/off the parser's double vlan mode
+80a480075911ec333a692e3108899a565b5f4bdc ice: add UDP tunnels support to the parser
+e312b3a1e2092f612914dbc4fa5d96b4d8ff94ef ice: add API for parser profile initialization
+fb4dae4ca315fe48f1a8a452172f29196b2a7f3d virtchnl: support raw packet in protocol header
+f217c187ea2eb31500fdea34f595f56433a164f1 ice: add method to disable FDIR SWAP option
+99f419df8a5c5e1a58822203989f77712d01d410 ice: enable FDIR filters from raw binary patterns for VFs
+995617dccc89643d8d8022bbec76e869643842bf iavf: refactor add/del FDIR filters
+623122ac1c4074791ea319df4676fb2875817fe4 iavf: add support for offloading tc U32 cls filters
+2140e63cd87fa707acf514d594725097bed018fd ethtool: Add new result codes for TDR diagnostics
+9e7c1a9b90334d3c87467f0204bf2bcd9794c22c phy: Add Open Alliance helpers for the PHY framework
+20f77dc7247138c0c1463920f6d9829593804848 net: phy: dp83tg720: Add cable testing support
+6a66873d820b4bd87a7c3f8e21b8bf4a76fa3223 dt-bindings: net: dsa: microchip: add microchip,pme-active-high flag
+f3ac6198a719857c492b04b0a8eb22c2cc81197b net: dsa: microchip: move KSZ9477 WoL functions to ksz_common
+fd250fed1f8856c37caa7b9a5e6015ad6f5011e5 net: dsa: microchip: generalize KSZ9477 WoL functions at ksz_common
+90b06ac06529b4c90af97763e57cf38d96999827 net: dsa: microchip: add WoL support for KSZ87xx family
+0d3edc90c4a0ac77332a25e1e6b709a39b202de9 net: dsa: microchip: fix KSZ87xx family structure wrt the datasheet
+6f2b72c04d58a40c16f3cd858776517f16226119 net: dsa: microchip: fix tag_ksz egress mask for KSZ8795 family
+c39be5e818e7769704f69dd7e4528ef99dce9d0c Merge branch 'net-dsa-microchip-ksz8795-add-wake-on-lan-support'
+f40a455d01f80c6638be382d75cb1c4e7748d8af ipv6: Add ipv6_addr_{cpu_to_be32,be32_to_cpu} helpers
+b908c722133e3a158bf703b5003e7a8272e9d540 net: ethernet: mtk_eth_soc: Use ipv6_addr_{cpu_to_be32,be32_to_cpu} helpers
+c7be6e70d20c0f8a20b484a0c51d2a12ef8f8ec7 net: hns3: Use ipv6_addr_{cpu_to_be32,be32_to_cpu} helpers
+5da65c41620352a7705f308cedf5a20d94e726d8 Merge branch 'ipv6-add-ipv6_addr_-cpu_to_be32-be32_to_cpu-helpers'
+30dcdd6a3a6caa27d75196bcc4f6ea9c7a51ad19 selftests: fib_rule_tests: Remove unused functions
+b1487d6abeb5ccfc23f61d600ca63d2b09964f9a selftests: fib_rule_tests: Clarify test results
+9b6dcef32c2d8fe357592da5f6f52ef2edf1652d selftests: fib_rule_tests: Add negative match tests
+53f88ed85bdd194b8a30605a264692b28a3ee665 selftests: fib_rule_tests: Add negative connect tests
+5f1b4f1be2d2b8d85dd07352b097cfc7064ad2e5 selftests: fib_rule_tests: Test TOS matching with input routes
+7a4e0801b09e8642c2aed4c3db06f5a5f63078f2 Merge branch 'selftests-fib_rule_tests-cleanups-and-new-tests'
+df37fcf58f2a02eb0d49d27020e3dbd6c1115288 net: ag71xx: devm_clk_get_enabled
+8ef34bea8cad381e0b5c90f9e4e539f48e8c2d7f net: ag71xx: use devm for of_mdiobus_register
+cc20a4791641a1cbd1525695fac0d4725dd72509 net: ag71xx: use devm for register_netdev
+aeac0b5e32e42aaafde0a71877fb0878c9999230 Merge branch 'use-more-devm-for-ag71xx'
+795b1aa8f37e38cf1a6202d274960bdd9c2ac44a idpf: remove redundant 'req_vec_chunks' NULL check
+2dce239099d2e18aef7f36a5da43c4c33712d773 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8195230027537641909==--
+--===============8761549879059534494==--
