@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2557902746855125595=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 16 Aug 2024 19:56:24 -0000
-Message-Id: <172383818450.6709.452683702987626108@gitolite.kernel.org>
-
---===============2557902746855125595==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 16 Aug 2024 19:56:26 -0000
+Message-Id: <172383818687.6773.7058913257691188601@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/delstid
-    old: a266da672d048d5f97fc92b93ee6170649755768
-    new: 1768c1ecf101cadf2fc891eb7343100ae1f2b266
-    log: revlist-a266da672d04-1768c1ecf101.txt
-
---===============2557902746855125595==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a266da672d04-1768c1ecf101.txt
-
-a037d5e7f81bae8ff69eb670b2ec3f25ad4d2cc2 fs: add infrastructure for multigrain timestamps
-6147cbda93bac1fd347d7ec24256c54d0e6ae274 fs: tracepoints around multigrain timestamp events
-a777e231666a41cb3bb99ebcd04bee3defef7039 fs: add percpu counters for significant multigrain timestamp events
-3a5e76794b88f36d492d6c18058978c15171f941 fs: have setattr_copy handle multigrain timestamps appropriately
-42ba4ae65752b8cb8b04430909cb66b28d51c94d Documentation: add a new file documenting multigrain timestamps
-3062a738d73c866bf50df13bc47a2223b7b47d87 xfs: switch to multigrain timestamps
-729f35ab8b0a5641b0d64c320cc77282a89ba2fc ext4: switch to multigrain timestamps
-c7e408a168b5ae6530685ad3bfbeec1755e83b53 btrfs: convert to multigrain timestamps
-72f170e6e3cf35f2fbfbdc893eb0467c9f8be737 tmpfs: add support for multigrain timestamps
-ec121a3260e682c776eea8ce64bd0ed29ce78853 Merge branch 'brauner/vfs.mgtime'
-e4b0ac435222f13dde44b650067b2ff65479a199 nfs: fix the fetch of FATTR4_OPEN_ARGUMENTS
-27705989bdbce5bc7514587a60b7ecec82294c2e nfsd: implement OPEN_XOR_DELEGATION part of delstid draft
-3789888c30eb940ace9447c0ec348eb40c5fe8e1 nfsd: bring in support for delstid draft XDR encoding
-15991147e69d27e0fcef335f42e73ac22a423fc9 nfsd: add support for FATTR4_OPEN_ARGUMENTS
-7f6ae175c3877c2ca8d71aec1f08e23bcbaf3d40 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
-878657e482d885c2761053f762b98b81fdae2c58 nfsd: fix up handling of inode attrs in cb_getattr
-1768c1ecf101cadf2fc891eb7343100ae1f2b266 nfsd: add support for delegated timestamps
-
---===============2557902746855125595==--
+  - ref: refs/heads/clone3-shadow-stack
+    old: 3f4004efffb76950da8e85b471f39fa3e1b1c6e9
+    new: 1b4cf7c42845701278cdbf2b790a4ed45a75d457
+    log: |
+         f5ddc3cdf027b9ad2bf1e0aecddc10ebc1f316ba fork: Support shadow stacks in clone3()
+         d82c61cba6f56ca3588250b5d11c0415d8ee00f6 Documentation: userspace-api: Add shadow stack API documentation
+         322dd75f1d831374ab010eee74c7f7467e224c1d selftests: Provide helper header for shadow stack testing
+         743da1732f8cdf5e37e57d286eee9f771a158743 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
+         b138b03c807edae0907b40cdf3df86c63780c9eb fork: Add shadow stack support to clone3()
+         6d61bb31a416dc67c63b8e8edf4c2b18e3ee997c selftests/clone3: Remove redundant flushes of output streams
+         28869ccd4388b1d35f773892f9b1c30298b9e5fe selftests/clone3: Factor more of main loop into test_clone3()
+         8e26945069b6f4ecd047da6d35d02b0b4449ea08 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
+         1b4cf7c42845701278cdbf2b790a4ed45a75d457 selftests/clone3: Test shadow stack support
+         
