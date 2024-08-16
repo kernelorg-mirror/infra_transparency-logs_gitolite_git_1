@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6649865498549386244=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Fri, 16 Aug 2024 17:15:45 -0000
-Message-Id: <172382854542.12896.1928284122552801176@gitolite.kernel.org>
-
---===============6649865498549386244==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Aug 2024 17:18:36 -0000
+Message-Id: <172382871622.13994.8707891987798180015@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/grokmirror/grokmirror
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b5ffa134cbee8913177ae3dc7d4db40a637c5cfa
-    new: 93c098d4a95d98a90a29c1be99c094bd1cae0df6
+  - ref: refs/heads/main
+    old: 399117317001d0f5bf4194feccaafa62b12e744f
+    new: 20f77dc7247138c0c1463920f6d9829593804848
     log: |
-         93c098d4a95d98a90a29c1be99c094bd1cae0df6 pi-indexer: allow accepting extra config options from remote
+         2140e63cd87fa707acf514d594725097bed018fd ethtool: Add new result codes for TDR diagnostics
+         9e7c1a9b90334d3c87467f0204bf2bcd9794c22c phy: Add Open Alliance helpers for the PHY framework
+         20f77dc7247138c0c1463920f6d9829593804848 net: phy: dp83tg720: Add cable testing support
          
-
---===============6649865498549386244==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1723828544 -0400
-pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1723828544-c5ec479ed782a5d0d97a29d556d5e5b8fc03d510
-
-b5ffa134cbee8913177ae3dc7d4db40a637c5cfa 93c098d4a95d98a90a29c1be99c094bd1cae0df6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZr+JQAAKCRC2xBzjVmSZ
-bOrjAQDcR76uC33p3zO3h10LwQy/pMessE6qH2uiJp2ZJlh87gD6AtcFExNHin4s
-GuyYxQHdMlMP8kpRNAplvM5KsX1WRQE=
-=X1xo
------END PGP SIGNATURE-----
-
---===============6649865498549386244==--
