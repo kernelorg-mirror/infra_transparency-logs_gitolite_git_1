@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8103422532566798311=="
+Content-Type: multipart/mixed; boundary="===============2829021479528637025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Aug 2024 20:05:46 -0000
-Message-Id: <172383874665.13550.526010670702847395@gitolite.kernel.org>
+Date: Fri, 16 Aug 2024 20:15:22 -0000
+Message-Id: <172383932263.21833.16640171672326714356@gitolite.kernel.org>
 
---===============8103422532566798311==
+--===============2829021479528637025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 399117317001d0f5bf4194feccaafa62b12e744f
-    new: 2dce239099d2e18aef7f36a5da43c4c33712d773
-    log: revlist-399117317001-2dce239099d2.txt
+  - ref: refs/heads/dev-queue
+    old: 55865acdd030632763dbfde8db2e2b1b53d0aa85
+    new: e467f0790c8df97d570b794a8169585fb64c6fb8
+    log: revlist-55865acdd030-e467f0790c8d.txt
 
---===============8103422532566798311==
+--===============2829021479528637025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-399117317001-2dce239099d2.txt
+Content-Disposition: attachment; filename=revlist-55865acdd030-e467f0790c8d.txt
 
 86ff3d79a0ee72b7662ef1cc712ba85336b77c30 ice: add parser create and destroy skeleton
 75b4a938a947785cdda8908cb700c58e95f8ff69 ice: parse and init various DDP parser sections
@@ -65,5 +65,56 @@ cc20a4791641a1cbd1525695fac0d4725dd72509 net: ag71xx: use devm for register_netd
 aeac0b5e32e42aaafde0a71877fb0878c9999230 Merge branch 'use-more-devm-for-ag71xx'
 795b1aa8f37e38cf1a6202d274960bdd9c2ac44a idpf: remove redundant 'req_vec_chunks' NULL check
 2dce239099d2e18aef7f36a5da43c4c33712d773 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+89fa70a0eacff31772013ce6ee26a15d50e2bb90 ice: add new VSI type for subfunctions
+2dd8e15cd2c1c894a532eb31cbc906e32dc6c411 ice: export ice ndo_ops functions
+58b41714a82d6737019c5eb07d92e4b7a77466d6 ice: add basic devlink subfunctions support
+9efb30c4b039f58afcb9d0f2153511f3d0ecde57 ice: treat subfunction VSI the same as PF VSI
+fcba8c67c9fbec9b2d152cc3e660913787512a79 ice: allocate devlink for subfunction
+7693e386119009a4f7d9eee4ee1dfe72688ceb15 ice: base subfunction aux driver
+af3ec0a609c93afe6d8da8029666080b9e887a0a ice: implement netdev for subfunction
+ca6d8f8b33d89ec9b0021d7724788d639df3a90c ice: make representor code generic
+1ae882bc77e71bd7d11b415e53959f944c50b008 ice: create port representor for SF
+458dd7ad29e919d94222e0ef61a54fc9f1be5fe9 ice: don't set target VSI for subfunction
+788f5123f334e54caa4cd5c36e553434db915977 ice: check if SF is ready in ethtool ops
+7315a04c2ffb953cccf4c9f238bdddbe916f1070 ice: implement netdevice ops for SF representor
+244e92c1b413b7e9ee6e24990848e351d50465d8 ice: support subfunction devlink Tx topology
+4a8ddd8c85f9a5a72b550bae6c266e7543638912 ice: basic support for VLAN in subfunctions
+178088f60f625b240f14055c061b120af9c0b0ff ice: allow to activate and deactivate subfunction
+844c6a47659429e97658e4f9b731af52dcf43fb8 igc: Get rid of spurious interrupts
+5b1e36567ff08a52c297cf887248ed69dacf8f8d igc: Add MQPRIO offload support
+14e5b93954de004aa9413bd4e635d0c807fbc88d ice: Fix lldp packets dropping after changing the number of channels
+43890e2c4802e8a01a2c69e0ecbcb4bf19060ab8 ice: Implement ice_ptp_pin_desc
+500a8c2fa9b6bfb527c82c7a4b90054e3460f0e6 ice: Add SDPs support for E825C
+cc370b472b8fb6996c39c130e2df4805b9de8047 ice: Align E810T GPIO to other products
+9be1827b398e135c6c26510291ae6b849b740ee1 ice: Cache perout/extts requests and check flags
+68285613e6d9875511156db95fdc71c5f84b128e ice: Disable shared pin on E810 on setfunc
+ff2f368f2d0e8428e69304c7eebc8c35db996ee6 ice: Read SDP section from NVM for pin definitions
+a6e7c1897c6452457512d11b871db6ef17c096bf ice: Enable 1PPS out from CGU for E825C products
+d2b317063fd91a394a8cef55cda4de40b41b7401 ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
+d21a536dac397f619e3bab90d764371693291395 igc: Add Energy Efficient Ethernet ability
+cf9b7d9f96afae169d0dd639fb728a4cde7ff217 idpf: remove redundant 'req_vec_chunks' NULL check
+6721eec3d0d55997af73553c2195cab6c34a7dc4 ice: fix accounting for filters shared by multiple VSIs
+7ce79ebdadca6c9e314d566f7daed5625fc8b25a ice: Flush FDB entries before reset
+31e7e92334b31978d9ba406bb1d2faca4c6e50a9 unroll: add generic loop unroll helpers
+e4a17e334b37bb677f6b9c8fa1c5611ec024e4aa libeth: add common queue stats
+f988f04ef6adccf4412deb282e5e199a323cb976 libie: add Tx buffer completion helpers
+ca0b8f1ea71c13820a60a048c3d344cda7cdba2c idpf: convert to libie Tx buffer completion
+acb86781cabc6595721d4d826ad3d368ed2ce362 netdevice: add netdev_tx_reset_subqueue() shorthand
+29157c921a7b34856e5a51cf72ed676565dcb393 idpf: refactor Tx completion routines
+619437b1e69e5931c0410bec5362e46cdfc97602 idpf: fix netdev Tx queue stop/wake
+f0cba25d30ba894406ff60e52fb5e6ede33679c6 idpf: enable WB_ON_ITR
+05d8fa19619f279d59d665ffb036ad641a3a7d49 idpf: switch to libeth generic statistics
+61421443109a614960dea3184d756516b43265b9 ice: implement and use rd32_poll_timeout for ice_sq_done timeout
+be6e92c17e2f7e6c54356086fe9be1c46b7d6ee9 ice: improve debug print for control queue messages
+9f18a0faf287f2421d430b73068fd2d6bfae6369 ice: do not clutter debug logs with unused data
+dcaaa58fe8c589648a0db89a30739fbd2fa66b93 ice: stop intermixing AQ commands/responses debug dumps
+e06b011abe248a0334b626bab47e991f4a313bb8 ice: reword comments referring to control queues
+d9a590696d2c9f9bed2b58a81dc40aba59400b56 ice: remove unnecessary control queue cmd_buf arrays
+b71ca3aa59e2c280b4089a539bc34e39bae5f7e4 ice: Report NVM version numbers on mismatch during load
+b9038e1d080a4bb2ee1adc06c1645b37dcc76b48 ice: Implement ethtool reset support
+579bb9e5ef7c37619358bfd094089da38d0d8f0b ice: fix page reuse when PAGE_SIZE is over 8k
+ec9006741f703795cfe13ff8450bd9247bdb9bee ice: fix ICE_LAST_OFFSET formula
+014fa4b31c1ac892811cb53c67cd3a47560a5e06 ice: fix truesize operations for PAGE_SIZE >= 8192
+e467f0790c8df97d570b794a8169585fb64c6fb8 e1000e: avoid failing the system during pm_suspend
 
---===============8103422532566798311==--
+--===============2829021479528637025==--
