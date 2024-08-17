@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 17 Aug 2024 10:09:28 -0000
-Message-Id: <172388936855.30837.15052316401689581198@gitolite.kernel.org>
+Date: Sat, 17 Aug 2024 10:23:56 -0000
+Message-Id: <172389023680.8746.9135682209085464743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 05ebe1349d7303cc6f07c24201fe459bfcc4819a
-    new: 7bfb22b90356cfc7d8ce0d7d5286c451649c519d
+    old: 7bfb22b90356cfc7d8ce0d7d5286c451649c519d
+    new: 651057ac453ae4689ec9e44a29b40edce51e95dd
     log: |
-         e5e0da58b133044decc8d8242b64728b3d292b93 dt-bindings: iio: humidity: add ENS210 sensor family
-         7bfb22b90356cfc7d8ce0d7d5286c451649c519d iio: humidity: Add support for ENS210
+         651057ac453ae4689ec9e44a29b40edce51e95dd iio: light: noa1305: Fix up integration time look up
          
