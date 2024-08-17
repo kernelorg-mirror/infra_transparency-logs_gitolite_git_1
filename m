@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0113052087304607689=="
+Content-Type: multipart/mixed; boundary="===============0935228435241619342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 17 Aug 2024 00:21:16 -0000
-Message-Id: <172385407635.9339.16719959769311388606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 17 Aug 2024 00:21:25 -0000
+Message-Id: <172385408565.9478.9127780340522029252@gitolite.kernel.org>
 
---===============0113052087304607689==
+--===============0935228435241619342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 3bce87eb744f1f88523a118e10e0deebf31806ec
     log: revlist-27ac597c0e2f-3bce87eb744f.txt
 
---===============0113052087304607689==
+--===============0935228435241619342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -608,4 +608,4 @@ c5ac744cdddae82916d4cd35d962d3f47065e68a Merge tag 'io_uring-6.11-20240824' of g
 2615639352420e6e3115952c5b8f46846e1c6d0e perf stat: Display iostat headers correctly
 3bce87eb744f1f88523a118e10e0deebf31806ec Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============0113052087304607689==--
+--===============0935228435241619342==--
