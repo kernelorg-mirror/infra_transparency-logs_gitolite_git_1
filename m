@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6869032203418430481=="
+Content-Type: multipart/mixed; boundary="===============7710592474576631440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 17 Aug 2024 01:23:58 -0000
-Message-Id: <172385783864.21841.33180893933101985@gitolite.kernel.org>
+Date: Sat, 17 Aug 2024 01:24:03 -0000
+Message-Id: <172385784340.21954.16518525146549950324@gitolite.kernel.org>
 
---===============6869032203418430481==
+--===============7710592474576631440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: a5a28a1ff74f873c0d253e41d346682adac7e6fc
-    new: d6fb95786257b888163b781b87f1a8d30d7d8b1a
-    log: revlist-a5a28a1ff74f-d6fb95786257.txt
+  - ref: refs/heads/6.12/scsi-queue
+    old: 5f36bd89a9948ae23571f9ffd122d7de1ced73e0
+    new: f51d748195773c7780deca815dc787c281d77eb5
+    log: revlist-5f36bd89a994-f51d74819577.txt
 
---===============6869032203418430481==
+--===============7710592474576631440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1723857823 -0400
+pusher 75C5DE3D 1723857841 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1723857823-5a725fbf6bc6bb0f4e8007faf9dcb34b1f1cf7dc
+nonce 1723857841-d4f8d82abcfaa5698e4466f03dbfd3116c5824bb
 
-a5a28a1ff74f873c0d253e41d346682adac7e6fc d6fb95786257b888163b781b87f1a8d30d7d8b1a refs/tags/mkp-scsi-queue
+5f36bd89a9948ae23571f9ffd122d7de1ced73e0 f51d748195773c7780deca815dc787c281d77eb5 refs/heads/6.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAma/+58ACgkQ7ulgGnXF
-3j2JkQ/+NdAZXn+weabsiSnMYKLdqCezeSHgkCXeJte6p76QgrDchEjMV7FdIfDf
-vhbHwTkDz5zav3z48qWNsUZgjjWhISTPyWBaVGvS9rze2Aj6EhonuzvPsVDspWFy
-+RDb722R/j9evVuP7eQOupCPt/OHGlT1JNelVgptDmSwXhz4jhDWy6tN61qG4R7P
-NXhrUHOKvPii9mz37+I3LLYmHXiiXnp1VgsGt6tmixAyC32UeyAbahdFO/J6Cg5c
-oJQWEGYjiueS74MDy6N71MOeOZx2EMlGP/TbggBWAWme+lNqQgbCm5ZZadFTWUH8
-5i9yGP4dtvNuPsdpu5iZ4y34gDrGvOgPlrgdB9Zogdkj+cGaxursTe2Ts074annj
-gUBulFZXfbo5Hhhz3lYEsiFnPp3DLPf8LdPuAhEDd19FR5taWHA/s8zyKqazyPDq
-H9tWmtYQLLip7W188liiUZoxZcJI++Hs52STZ4pfsfNtcu2NtSZ8fW/tNy3AT9Qc
-XurGiKgWAPxU2QfgDN/pRyUugidKgkwrNgEbrwzpJ0K6bgCLZjxJLALF5Iozjh05
-wrvzQYjIH61FR7rOddtaw3zU8MFShWgI5u9sOkvrz/cydCx0ylxY76wSzuhyXBwD
-5cFlMznt6ziO9rOJJcY1jU20nDthu8/+D/6TOLVFvR0cDYBw1KM=
-=yC9A
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAma/+7IACgkQ7ulgGnXF
+3j2uUQ//QWNPOMSxKKgq7g3O+z622NNxjy7XXCmu5XqOw9p/LMLkn41d5FZ2rCYN
+TvX3oilPBr8uS5FohuXRD5A4VTeJGXCDEYhGdPzw7r2FV90HEXrlKLF4YqjMGp6C
+a0vl8nOdRBt5jQ3Cvht5s72CU5/Iphq+mXdCas2sGcZZCSq41O1v7N8eDQO/+wgg
+ulY8i/mVDoUY2Szy1dOs0hSq7t0akoeTLZUnnV+18P13i1Qs9ATCLnmHFnSYqqKA
+63Ql9FhdMk0HEyXmhWqNU10wk+SPLdacy7gW0G2fySU6WBa9B97epZjZxFF8YWsx
+RRrFk/BGzSo8IeihDI1/vDfqjgWSsKYT9pIPsRwxUo6xKLMCQWLXgBNdm1UeRqPy
+mNlZfeTaItfYuJeWET3TNhoM0ZERd+s0kZ+cSwTWn9S8kgBvs3XuzMeUuVQ7xXdO
+fBqE/Cv636TKfqumY59+t6SCim4kDKlvkGVWNXot7wEOnQqIQocZk1W4EyiRf+Tn
+Sqb1qSdkKM92JDSOYhWRg1rN0Xde0/QAPC0is7dGLc5+IRnjzo6rnyG1NOhb2Jy1
+4Jl42d4UGQcggd90D68Mir5dqz0qIYAx/ms8rT8OH1BUVUIxl9DvWPUWWMZPr4gO
+VHsvCeezgUVhJ+9coNlP5N+4pncHSxoHZN7rHs3tO5LiCpAiMUY=
+=biEM
 -----END PGP SIGNATURE-----
 
---===============6869032203418430481==
+--===============7710592474576631440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5a28a1ff74f-d6fb95786257.txt
+Content-Disposition: attachment; filename=revlist-5f36bd89a994-f51d74819577.txt
 
 0c150b30d3d51a8c2e09fadd004a640fa12985c6 scsi: sd: Don't check if a write for REQ_ATOMIC
 ea6787c695ab7595d851c3506f67c157f3b593c0 scsi: block: Don't check REQ_ATOMIC for reads
@@ -79,4 +79,4 @@ a8ebca904f8e0e02afcff961f342734d36b69c69 scsi: NCR5380: Clean up indentation
 b9d104465a6c2f1bb27ae247bd90b4ab079a1699 scsi: ufs: Prepare to add HCI capabilities sysfs
 f51d748195773c7780deca815dc787c281d77eb5 scsi: ufs: Add HCI capabilities sysfs group
 
---===============6869032203418430481==--
+--===============7710592474576631440==--
