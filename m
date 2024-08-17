@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1821566998625055791=="
+Content-Type: multipart/mixed; boundary="===============0113052087304607689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 17 Aug 2024 00:21:07 -0000
-Message-Id: <172385406741.9186.8188235173845803200@gitolite.kernel.org>
+Date: Sat, 17 Aug 2024 00:21:16 -0000
+Message-Id: <172385407635.9339.16719959769311388606@gitolite.kernel.org>
 
---===============1821566998625055791==
+--===============0113052087304607689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ac01c8c4246546fd8340a232f3ada1921dc0ee48
+  - ref: refs/heads/perf-tools-next
+    old: 27ac597c0e2f596f53963db4a2cf53cd84657cda
     new: 3bce87eb744f1f88523a118e10e0deebf31806ec
-    log: revlist-ac01c8c42465-3bce87eb744f.txt
+    log: revlist-27ac597c0e2f-3bce87eb744f.txt
 
---===============1821566998625055791==
+--===============0113052087304607689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac01c8c42465-3bce87eb744f.txt
+Content-Disposition: attachment; filename=revlist-27ac597c0e2f-3bce87eb744f.txt
 
 d3911f1639e67fc7b12aae0efa5a540976d7443b power: supply: rt5033: Bring back i2c_set_clientdata
 f666604321f1da2b9bd237ef8a1afdd47460e74b USB: serial: spcp8x5: remove unused struct 'spcp8x5_usb_ctrl_arg'
@@ -563,6 +563,7 @@ d28bb0120f360e772458a7cf295d6d0ae3dc18a4 drm/xe: Add ref counting for xe_file
 90be4cc6f7674a1478c4c750beeee3edd14aee38 drm/xe: Add xe_gt_tlb_invalidation_fence_init helper
 58bfe6674467f4c037e89111e6007f25b34d8bb3 drm/xe: Drop xe_gt_tlb_invalidation_wait
 f002702290fccbd473f5bb94e52f25c96917fff2 drm/xe: Hold a PM ref when GT TLB invalidations are inflight
+ac01c8c4246546fd8340a232f3ada1921dc0ee48 perf hist: Update hist symbol when updating maps
 92e9bac18124682c4b99ede9ee3bcdd68f121e92 kunit/overflow: Fix UB in overflow_allocation_test
 020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
 fb6a421fb6153d97cf3058f9bd550b377b76a490 kallsyms: Match symbols exactly with CONFIG_LTO_CLANG
@@ -607,4 +608,4 @@ c5ac744cdddae82916d4cd35d962d3f47065e68a Merge tag 'io_uring-6.11-20240824' of g
 2615639352420e6e3115952c5b8f46846e1c6d0e perf stat: Display iostat headers correctly
 3bce87eb744f1f88523a118e10e0deebf31806ec Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============1821566998625055791==--
+--===============0113052087304607689==--
