@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1687210321823326830=="
+Content-Type: multipart/mixed; boundary="===============8412978290733923423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 17 Aug 2024 06:23:04 -0000
-Message-Id: <172387578465.13033.16647698063631142788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Sat, 17 Aug 2024 07:06:06 -0000
+Message-Id: <172387836609.11779.2951387257763225306@gitolite.kernel.org>
 
---===============1687210321823326830==
+--===============8412978290733923423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/work.fdtable
-    old: 4313972a946c304a48040f5465d1e8df77384e60
-    new: 2c06918093289c58905bf8281f112e608fa32c45
-    log: revlist-4313972a946c-2c0691809328.txt
+  - ref: refs/heads/master
+    old: 2d6213bd592b4731b53ece3492f9d1d18e97eb5e
+    new: 8e84a650079a0044374f57af8d24b367fc795340
+    log: revlist-2d6213bd592b-8e84a650079a.txt
 
---===============1687210321823326830==
+--===============8412978290733923423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4313972a946c-2c0691809328.txt
+Content-Disposition: attachment; filename=revlist-2d6213bd592b-8e84a650079a.txt
 
-046667c4d3196938e992fba0dfcde570aa85cd0e memcg_write_event_control(): fix a user-triggerable oops
-8c86f1a45749d6185244fe56a182c2b9a23c3a7f close_range(): fix the logics in descriptor table trimming
-850a31bfaa04cf4fcaef85e54096220000c4619c get rid of ...lookup...fdget_rcu() family
-9da4936dc7ab923e78a9f6dbbc726208e12d0676 remove pointless includes of <linux/fdtable.h>
-7ba25343037fa0df24828e855a69e877326986ba close_files(): don't bother with xchg()
-2a48ef117511da1cbe822c8642f0e6731218771f proc_fd_getattr(): don't bother with S_ISDIR() check
-713b5d1b4cfdd5ca7fd92792f1ca22ba2ec2c9c9 move close_range(2) into fs/file.c, fold __close_range() into it
-f7ddd0aba1236c3886bfd26ca9e9d9eadbf19d73 fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
-b6d2f9a1e91327eb408e996723232ce9796dba7a fs/file.c: conditionally clear full_fds
-92a48d674c2d933c0feecda51cad8b7c52524815 fs/file.c: add fast path in find_next_fd()
-00aa3f11c6ce84faf7cadc97cecaf2fa9cb141db alloc_fdtable(): change calling conventions.
-f3ffe40d69a4f5090e195692ec394e58e9d1106c file.c: merge __{set,clear}_close_on_exec()
-2c06918093289c58905bf8281f112e608fa32c45 expand_files(): simplify calling conventions
+18e2188c4b2069cf52c12344b47b4f7ac982f555 crypto: chacha20poly1305 - Annotate struct chachapoly_ctx with __counted_by()
+9369693a2c8f4832f6cdc8a94cc63cc7f7f9c96c crypto: arm64/poly1305 - move data to rodata section
+8caa061cfdf65bca9a3ceb4ce2b2b8e5fb98c1e8 crypto: qat - Use static_assert() to check struct sizes
+f2f853e7ae4cb0aaf758fa30c07689a8d82680bc crypto: nx - Use static_assert() to check struct sizes
+9a22b2812393d93d84358a760c347c21939029a6 padata: use integer wrap around to prevent deadlock on seq_nr overflow
+f235bc11cc95fcd5847e8249d4c1c9ae5979701c crypto: arm/aes-neonbs - go back to using aes-arm directly
+fca5cb4dd2b4a9423cb6d112cc71c33899955a1f Revert "lib/mpi: Extend the MPI library"
+8e3a67f2de87ee94ac11ea69beb4edc2993b17a0 crypto: lib/mpi - Add error checks to extension
+560efa7fca4f4f5bd390e54d43cd2cd1831c60cd crypto: dh - Check mpi_rshift errors
+5a72a244bac3e8663834d88bb0b4f9069203e5e0 crypto: rsa - Check MPI allocation errors
+a304393a9d950ae498151890d6cacc83909d90a4 crypto: octeontx - Remove custom swap function in favor of built-in sort swap
+8e84a650079a0044374f57af8d24b367fc795340 crypto: octeontx2 - Remove custom swap functions in favor of built-in sort swap
 
---===============1687210321823326830==--
+--===============8412978290733923423==--
