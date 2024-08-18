@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 18 Aug 2024 00:54:26 -0000
-Message-Id: <172394246657.29158.5862220366321915051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 18 Aug 2024 01:48:16 -0000
+Message-Id: <172394569625.3670.8951739138798912652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/nfs-localio-for-next-6.11-rc3
-    old: 1f64a4703737ca364423a99775c6c4457b25d60e
-    new: fa2c862f4eed72fe9e00e9a88a3c3ba25f97facb
+  - ref: refs/heads/for-next
+    old: fd1946198aa7e0473a33dd41e8cd895b45c04b66
+    new: 9377acc34c132ae3501f53a406b78b97b258a1cb
     log: |
-         fa2c862f4eed72fe9e00e9a88a3c3ba25f97facb nfsd: use GC for nfsd_file returned by nfsd_file_acquire_local
+         9377acc34c132ae3501f53a406b78b97b258a1cb firewire: ohci: fix error path to detect initiated reset in TI TSB41BA3D phy
          
