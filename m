@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5662215661499564871=="
+Content-Type: multipart/mixed; boundary="===============4837115207221085367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 18 Aug 2024 20:47:46 -0000
-Message-Id: <172401406693.2314.7957995857518597818@gitolite.kernel.org>
+Date: Sun, 18 Aug 2024 20:48:35 -0000
+Message-Id: <172401411595.2668.12957034204233395967@gitolite.kernel.org>
 
---===============5662215661499564871==
+--===============4837115207221085367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
-    new: 47ac09b91befbb6a235ab620c32af719f8208399
-    log: revlist-7c626ce4bae1-47ac09b91bef.txt
+  - ref: refs/heads/nfsd-next
+    old: 2573f7004d1129ef2b6d46f61fda3456a2ebaab2
+    new: 3cd8719c4fd9287024c234b0b66518c797f5f5e0
+    log: revlist-2573f7004d11-3cd8719c4fd9.txt
 
---===============5662215661499564871==
+--===============4837115207221085367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c626ce4bae1-47ac09b91bef.txt
+Content-Disposition: attachment; filename=revlist-2573f7004d11-3cd8719c4fd9.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -395,5 +395,37 @@ c3f2d783a459980eafd24c5af94ccd56a615961f Merge tag 'mm-hotfixes-stable-2024-08-1
 e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
+e11125a74f54753d641992f95539c760e9ee0460 nfsd: add list_head nf_gc to struct nfsd_file
+9697d3373d7352b0f1eb75dfc8bfcdc22295cb7b nfsd: remove unneeded EEXIST error check in nfsd_do_file_acquire
+b00b6ff45034da84620fb8e1b5fc429654efb4ae nfsd: fix refcount leak when file is unhashed after being found
+1eae6e8cf2dd30e9f27e738840cb042238e5822e nfsd: count nfsd_file allocations
+1c38625b7c9078c91f3cded458226ee95d277c22 nfsd: use system_unbound_wq for nfsd_file_gc_worker()
+25f7714edf3393ac317491ff39a73b45db958437 NFS: trace: show TIMEDOUT instead of 0x6e
+14e11d14e0ff00e333824d13f4e7a9fc95cacb05 nfsd: don't EXPORT_SYMBOL nfsd4_ssc_init_umount_work()
+d8de6f35b6b9fa916940e7add80e74388baa5ace lockd: discard nlmsvc_timeout
+cc0449d728c0dedbd07b6b540a25abfb46906845 SUNRPC: make various functions static, or not exported.
+7b79fb53d1f6a8a36df570828cb4bcb7b2f13e6f nfsd: move nfsd_pool_stats_open into nfsctl.c
+9385c1df0c958f6469851a3af4f187f9cad98ac2 nfsd: don't allocate the versions array.
+c7ec81eeb523c22553129118dcec2e556202444f sunrpc: document locking rules for svc_exit_thread()
+d9e51ed2ce5b2fc7431a60cdda0c0c996d131c1f sunrpc: change sp_nrthreads from atomic_t to unsigned int.
+b44d05a4778ece786d93cabc562e0b37ed374321 sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
+1e1c165e2a1b2e5f7fb4d422c0229cde61cefbc2 sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
+9c30fe5a119bd78a6d9777aec1ab873df86f1b5d sunrpc: allow svc threads to fail initialisation cleanly
+5ca303a24afe5aed4c15fa028af1c429f1d14a6c nfsd: don't assume copy notify when preprocessing the stateid
+bb4bd6ac31bcdc02b2030aedd779bbe1e8e7ce38 nfsd: Don't pass all of rqst into rqst_exp_find()
+21e01a4612d54476111f77750047533c4e2695e2 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
+3d9cd308b8a4286bafb028f981f1fcddec1d2e31 nfsd: use nfsd_v4client() in nfsd_breaker_owns_lease()
+ad9c204e2f2d34dd053e558c0458a3c753e07e54 nfsd: further centralize protocol version checks.
+d73f9603f0c6f04b9b0e31e15a8615d1952bb5f9 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
+e2d1b5384bc893cef9663b1413139ab15a5dab15 nfsd: Move error code mapping to per-version proc code.
+8be62f1e9236b7a6e4dab2f041a64715671c8ed2 nfsd: be more systematic about selecting error codes for internal use.
+069ad436007ca2e6e3952210338a0c7adc5ad191 nfsd: move error choice for incorrect object types to version-specific code.
+fe46d4784954297d5f9b1589010d382c3e1591a3 svcrdma: Handle device removal outside of the CM event handler
+fe59c67ce18caf68cfd0fc96ced501c307f9f54d nfsd: Add quotes to client info 'callback address'
+f187390025da1bd194eaeb5211062c34f6a3b4c0 NFSD: Fix NFSv4's PUTPUBFH operation
+48938d4bde89ed9ce4f30d925a6d263ea621ccc4 .mailmap: Add an entry for my work email address
+fb264478e1c8710571f0bf78c72f14145f516425 MAINTAINERS: Update Olga Kornievskaia's email address
+b0ec4b004918d1272cb639e3881a325ed2fd7cc3 NFSD: remove redundant assignment operation
+3cd8719c4fd9287024c234b0b66518c797f5f5e0 nfsd: map the EBADMSG to nfserr_io to avoid warning
 
---===============5662215661499564871==--
+--===============4837115207221085367==--
