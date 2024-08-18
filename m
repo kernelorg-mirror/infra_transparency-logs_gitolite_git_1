@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 18 Aug 2024 20:06:45 -0000
-Message-Id: <172401160507.4261.6623383916454640818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 18 Aug 2024 20:19:35 -0000
+Message-Id: <172401237527.13422.8773793862972175257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: ff4ddcafab3fefb1f4bb0607c06e805205129326
-    new: e4ccf0e870d343ac62695b4ee883b6739827b985
+  - ref: refs/heads/master
+    old: ccdbf91fdf5a71881ef32b41797382c4edd6f670
+    new: 47ac09b91befbb6a235ab620c32af719f8208399
     log: |
-         99aa656f86d922b4d6fb2edfb016934c3e8278e9 TODO: Add an item for --damos_filter_out
-         72247b4bf51fc0a541f403485aea8e21130427f6 _damon_args: Close parentheses on the help message of --damos_filter
-         b6a722c85ff91e5abe9dd47135e300df243da056 _damon_args: Implement --damos_filter_out
-         e4ccf0e870d343ac62695b4ee883b6739827b985 tests/unit/test_damon_args: Add a test for --damos_filter_out handling function
+         47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
          
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
