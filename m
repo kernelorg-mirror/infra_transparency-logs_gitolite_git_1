@@ -1,26 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Sun, 18 Aug 2024 07:29:15 -0000
-Message-Id: <172396615537.23411.16339005158072598222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 18 Aug 2024 08:02:31 -0000
+Message-Id: <172396815146.15487.3112463914530124794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/fixes
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: ab8d66d132bc8f1992d3eb6cab8d32dda6733c84
+  - ref: refs/heads/for-next
+    old: ff6615efa87482600af14c1a1c4b5da4e32f9a82
+    new: 1026392d10af7b35361c7ec4e14569d88c0c33e4
     log: |
-         ab8d66d132bc8f1992d3eb6cab8d32dda6733c84 soundwire: stream: fix programming slave ports for non-continous port maps
+         48f1434a4632c7da1a6a94e159512ebddbe13392 ALSA: hda: cs35l41: fix module autoloading
+         e949df0b021cdd503c4e72db12b1b4154a82d698 ALSA: aloop: Allow using global timers
+         8fad71b6771afc1f12f1cdf616ae0fca628802e9 Docs/sound: Add documentation for userspace-driven ALSA timers
+         37745918e0e7575bc40f38da93a99b9fa6406224 ALSA: timer: Introduce virtual userspace-driven timers
+         1026392d10af7b35361c7ec4e14569d88c0c33e4 selftests: ALSA: Cover userspace-driven timers with test
          
-  - ref: refs/heads/next
-    old: 663229e24255883f010ae4d94f9f8e9c34e57d6c
-    new: 5aedb8d8336b0a0421b58ca27d1b572aa6695b5b
+  - ref: refs/heads/master
+    old: 4ee87dcfbf3d0849569b9613566244cfd0b6f535
+    new: 311698176c3ef52f08a507cd8fa37b6538eab8aa
     log: |
-         f8c35d61ba01afa76846905c67862cdace7f66b0 soundwire: cadence: re-check Peripheral status with delayed_work
-         5aedb8d8336b0a0421b58ca27d1b572aa6695b5b soundwire: intel_bus_common: enable interrupts before exiting reset
+         48f1434a4632c7da1a6a94e159512ebddbe13392 ALSA: hda: cs35l41: fix module autoloading
+         51b9e871e0da65e5f782c343b85a123cc6831ba9 Merge branch 'for-next'
+         e949df0b021cdd503c4e72db12b1b4154a82d698 ALSA: aloop: Allow using global timers
+         8fad71b6771afc1f12f1cdf616ae0fca628802e9 Docs/sound: Add documentation for userspace-driven ALSA timers
+         37745918e0e7575bc40f38da93a99b9fa6406224 ALSA: timer: Introduce virtual userspace-driven timers
+         1026392d10af7b35361c7ec4e14569d88c0c33e4 selftests: ALSA: Cover userspace-driven timers with test
+         311698176c3ef52f08a507cd8fa37b6538eab8aa Merge branch 'for-next'
          
