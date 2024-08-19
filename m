@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0046444344502572030=="
+Content-Type: multipart/mixed; boundary="===============3714838535421494351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 19 Aug 2024 15:55:06 -0000
-Message-Id: <172408290606.31598.4866815153734269307@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 15:55:12 -0000
+Message-Id: <172408291236.31741.8485995181010567444@gitolite.kernel.org>
 
---===============0046444344502572030==
+--===============3714838535421494351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3d93a1448ed017f3536319a2445568b5f3969547
-    new: 565d121b69980637f040eb4d84289869cdaabedf
-    log: revlist-3d93a1448ed0-565d121b6998.txt
+  - ref: refs/heads/dev-queue
+    old: b99ed396eddf7f9c31800ab129f6482ceb77e128
+    new: 5534ec23b472e8a990a6e81981f34ace4a28e995
+    log: revlist-b99ed396eddf-5534ec23b472.txt
 
---===============0046444344502572030==
+--===============3714838535421494351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d93a1448ed0-565d121b6998.txt
+Content-Disposition: attachment; filename=revlist-b99ed396eddf-5534ec23b472.txt
 
 aae6b81260fd9a7224f7eb4fc440d625852245bb Bluetooth: HCI: Invert LE State quirk to be opt-out rather then opt-in
 932021a11805b9da4bd6abf66fe233cccd59fe0e Bluetooth: hci_core: Fix LE quote calculation
@@ -41,5 +41,11 @@ a0c9fe5eecc97680323ee83780ea3eaf440ba1b7 tc-testing: don't access non-existent v
 d7818402b1d80347c764001583f6d63fa68c2e1a selftests: udpgro: no need to load xdp for gro
 1e557246f8dbdb476f7112ab58d2de947f22acc5 Merge branch 'selftests-udpgro-fixes'
 565d121b69980637f040eb4d84289869cdaabedf tcp: prevent concurrent execution of tcp_sk_exit_batch
+81f49a27336cdf8dcaa6cf4072b76bcbc91ca6a2 ice: Fix lldp packets dropping after changing the number of channels
+edd34697d2f05df160d20f682144e02abdcd891b ice: fix accounting for filters shared by multiple VSIs
+b2e8d89c22df0430b505e53cd317364d0a6b8ab8 ice: Flush FDB entries before reset
+a99eaf8b8ceef487358a8b6d3acdaa56b397cdd3 ice: fix page reuse when PAGE_SIZE is over 8k
+eb9c9439133b1060287906c49484a06fd447806c ice: fix ICE_LAST_OFFSET formula
+5534ec23b472e8a990a6e81981f34ace4a28e995 ice: fix truesize operations for PAGE_SIZE >= 8192
 
---===============0046444344502572030==--
+--===============3714838535421494351==--
