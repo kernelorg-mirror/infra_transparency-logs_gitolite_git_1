@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3532693623201474531=="
+Content-Type: multipart/mixed; boundary="===============3985730981170582782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 19 Aug 2024 18:44:27 -0000
-Message-Id: <172409306749.27210.4969610854668007342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 19 Aug 2024 18:44:37 -0000
+Message-Id: <172409307750.27325.8038000219311071980@gitolite.kernel.org>
 
---===============3532693623201474531==
+--===============3985730981170582782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: d08ea4193a72c5e3090240872ff7ed60a70716e6
-    new: e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d
+  - ref: refs/heads/for-6.12
+    old: d6d0af1b9efff4e83ecd5eb2585b6e5f75df7495
+    new: aa6e8296a7ff55c7c40a616b87c521b2a7e96395
     log: |
-         e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d ASoC: dt-bindings: convert tlv320aic31xx.txt to yaml
+         802df33076cabfcb32b2c5b066c3af07f68e40fa spi: cadence: Make cdns_mrvl_xspi_clk_div_list static
+         aa6e8296a7ff55c7c40a616b87c521b2a7e96395 spi: s3c64xx: Fix module autoloading
          
 
---===============3532693623201474531==
+--===============3985730981170582782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1724093066 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1724093065-ed4f4b982ed2e4f904af273914c1474a79243ae9
+pusher C3F436CA30F5D8EB 1724093076 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1724093075-7bf9968494a328f4d693105da03b65dea72f05f3
 
-d08ea4193a72c5e3090240872ff7ed60a70716e6 e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d refs/heads/asoc-6.12
+d6d0af1b9efff4e83ecd5eb2585b6e5f75df7495 aa6e8296a7ff55c7c40a616b87c521b2a7e96395 refs/heads/for-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbDkooACgkQJNaLcl1U
-h9Chbwf+PMS5V96N633f63UcFVn8Nh0ld1zes1u+quxQXbnnLbQIbsXOomlCHUxJ
-9F37QyhYlErePLAt9NnCOQgR0IhRA9REHtSaG82nVXD9Rd7GLBtU9hKTlvhnGb8Q
-kN/bjn3sJ6mosb7cWtHCp/VO5ol1lrvPekZnpPpa+mChWa9l3XiL/6ZBHNO3mO7j
-aMqn/DY4P2j7leV3CFRW78JQDj54zNt+S7SVRNM1mqBInNlT2RzyuFcFwMdzn4mu
-jZewToysvN+Ug/65cxb7aJ06U/YmfrO+t7sDkEuhUYu4vGx6LAjCrgne7Emh0gK8
-2Xg1PGc3zs5Z/41IAuiQK6I4858oFA==
-=dodR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbDkpQACgkQJNaLcl1U
+h9DlrAf8C1HxweJtyoTfIoRGLIsriqQgB9vRkHs5SPvlv6YvQfqjniEGmU4A95tQ
+dc3F8ai5reR2qjQ/SOYRuWo8yGHgD0rgixibudPntCUkIaBliBCKDnJlrUEuwe6x
+N6ARQQzkMd5sgWTGfLtktaydQ2Dck4g8RrQ74SYEpC0d7jYOywh2DA0ROHlEdJCj
+vGjSgH/vuWKUtvIzirc6Vh8vTD1n7KJ9V5E+OG4zeyj17OO0Gb8YbXCCwkyLogj8
+2FkXPWMNkp+U6PSqx9BJbOyeAVXOandTu9SZUXi4ZOeL55LrnIZcbbt9aEpLEVEa
+dlIINDsdyHxe7cqMVALRFdHm26DpBQ==
+=WQAf
 -----END PGP SIGNATURE-----
 
---===============3532693623201474531==--
+--===============3985730981170582782==--
