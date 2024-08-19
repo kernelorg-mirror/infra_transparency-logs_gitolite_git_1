@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 19 Aug 2024 08:13:37 -0000
-Message-Id: <172405521700.13310.928226133037982065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 19 Aug 2024 08:25:54 -0000
+Message-Id: <172405595498.22618.18329808866931904615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: f2c38c96d51093a38af90e46bca813c7dff671d7
-    new: 88d8a3082a949f09809352c334caff80c3ad234f
+  - ref: refs/heads/for-next/ffa/updates
+    old: b67fbbc99dc662b2e487a81662b5ea275a96a1d9
+    new: 74b04c1d2b83e1365e8e46f083cfee082928f257
     log: |
-         312fc21c86824426b27ac9aa0889426ab10eae49 dt-bindings: mfd: Add Analog Devices ADP5585
-         480a8ad683d7a54e8d38c9c7778fb6b15aac241a mfd: adp5585: Add Analog Devices ADP5585 core support
-         738bbc660cae6437dda214d0d97ae68d39479fcd gpio: adp5585: Add Analog Devices ADP5585 support
-         e9b503879fd2b6332eaf8b719d1e07199fc70c6b pwm: adp5585: Add Analog Devices ADP5585 support
-         88d8a3082a949f09809352c334caff80c3ad234f Merge tag 'ib-mfd-gpio-pwm-v6.12' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/lee/mfd into gpio/for-next
+         5914594104623331f36be1e814834de3b897e4e3 firmware: arm_ffa: Add support for FFA_MSG_SEND_DIRECT_{REQ,RESP}2
+         2e2a209e08f2c6d0c08c0833a8579e0e5a250a64 firmware: arm_ffa: Add support for FFA_YIELD in direct messaging
+         74b04c1d2b83e1365e8e46f083cfee082928f257 firmware: arm_ffa: Fetch the Rx/Tx buffer size using ffa_features()
          
