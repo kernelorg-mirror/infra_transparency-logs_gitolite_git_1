@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 19 Aug 2024 14:06:09 -0000
-Message-Id: <172407636919.13766.11141767518444092376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 19 Aug 2024 14:13:18 -0000
+Message-Id: <172407679855.19551.12738425401370292789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
-  - ref: refs/heads/for-next
-    old: 41776e40082b06c79c3c069559d6ab6664394113
-    new: b29ba8f1f9429b775a8b901364a21291588c2a23
-    log: |
-         b29ba8f1f9429b775a8b901364a21291588c2a23 ALSA: hda/realtek: Convert existing CS35L56 products to use autodetect fixup function
-         
   - ref: refs/heads/master
-    old: aac45155e6d5cbb38a294a66fbb196b45308d4fa
-    new: 0503cdd795df672ea0c16f1fd4741f382a2cd4b0
+    old: d725cbe97a62c7165ce35f40f3e7faeb2d1a0cdb
+    new: fc9bdaa6cecf3900193ec65fe23f263e130c8fbd
     log: |
-         b29ba8f1f9429b775a8b901364a21291588c2a23 ALSA: hda/realtek: Convert existing CS35L56 products to use autodetect fixup function
-         0503cdd795df672ea0c16f1fd4741f382a2cd4b0 Merge branch 'for-next'
+         b61075a4dcd92594e5463e611deb81b8389ded72 proposed: Add Lee's v6.10.4 results
+         fc9bdaa6cecf3900193ec65fe23f263e130c8fbd cve_review: Enhance handling for already created CVEs
          
