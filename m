@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8171418616328372997=="
+Content-Type: multipart/mixed; boundary="===============4166084332369759166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 19 Aug 2024 04:53:36 -0000
-Message-Id: <172404321624.28078.1478830747225781420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 19 Aug 2024 04:53:58 -0000
+Message-Id: <172404323871.28304.16874920798019289476@gitolite.kernel.org>
 
---===============8171418616328372997==
+--===============4166084332369759166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     new: 47ac09b91befbb6a235ab620c32af719f8208399
     log: revlist-7c626ce4bae1-47ac09b91bef.txt
 
---===============8171418616328372997==
+--===============4166084332369759166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -396,4 +396,4 @@ e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git:/
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
 
---===============8171418616328372997==--
+--===============4166084332369759166==--
