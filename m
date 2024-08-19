@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 19 Aug 2024 20:14:38 -0000
-Message-Id: <172409847854.30904.5755088775906305186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 19 Aug 2024 20:20:57 -0000
+Message-Id: <172409885750.4234.1141613321686317301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-sre-traps
-    old: ac62efaa9f4232857075492660074a507dfe3fe1
-    new: 77525fdeb70d1932072745fbc5d943db79bbf347
+  - ref: refs/heads/kdevops
+    old: 0e01552c94baf38359296ae9c87530984f28f6e3
+    new: 6acd62efce2bd00fa196f84da0144b01e543f434
     log: |
-         827e5b16d76d0b69bb45be9b3d8a356878ed3edf KVM: arm64: Force SRE traps when SRE access is not enabled
-         b63b0ce03c7e1ecfa66810e2b27e2df67651a91d KVM: arm64: Force GICv3 traps activa when no irqchip is configured on VHE
-         9651bbce934a034f2c9650e9053b2b10a165b7a9 KVM: arm64: Add helper for last ditch idreg adjustments
-         6f483b9048cf6e2ce121f6a498aa7f7bb71231cb KVM: arm64: Zero ID_AA64PFR0_EL1.GIC when no GICv3 is presented to the guest
-         bbab2e34fbec97a2974e21ebecce841f41dd43a8 KVM: arm64: Add ICH_HCR_EL2 to the vcpu state
-         aafb141f366185db8cbe7e51d665d42a773808fd KVM: arm64: Add trap routing information for ICH_HCR_EL2
-         9a537b19035ced394ef2aaa7033ca194aa4356b6 KVM: arm64: Honor guest requested traps in GICv3 emulation
-         9b03f008acbb89b247bebff3224163efa0e51042 KVM: arm64: Make most GICv3 accesses UNDEF if they trap
-         2cff511d4f59bbeb671ef3e8d712ac4ba962a807 KVM: arm64: Unify UNDEF injection helpers
-         77525fdeb70d1932072745fbc5d943db79bbf347 KVM: arm64: Add selftest checking how the absence of GICv3 is handled
+         9b7e40ee204f380733e9fe85d97ba1f8fc3ef969 nfsd: implement OPEN_XOR_DELEGATION part of delstid draft
+         802409232a3f7dc1623c6b87e429386cf0c31290 nfsd: add new delstid draft .x file along with generated files
+         a69a01204e778cdea5d0e5b3dc037bdb0c07f0bd nfsd: hand-edits to the xdrgen files
+         b8b5a8aa297e453e1c19b4195977d9a5da2c9aac nfs_common: rename struct nfstime4 in include/linux/nfs4.h
+         28a1d7ff910440b5c7fae82b6cb0d0ab0c9fb843 nfsd: add support for FATTR4_OPEN_ARGUMENTS
+         e5260cb501f1daed8822bd1c0676c1a9405d33b4 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+         fe38aaeb8d00f799c3d67dd872b8fa1bf4556b84 nfsd: fix up handling of inode attrs in cb_getattr
+         c6970fa1c7b657807d020409ab9d8a21fdd52651 fs: add an ATTR_CTIME_DLG flag
+         5a227003e36cf6adabc0fb177e2bbb21e55e8be7 nfsd: drop the ncf_cb_bmap field
+         6acd62efce2bd00fa196f84da0144b01e543f434 nfsd: add support for delegated timestamps
          
