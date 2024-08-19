@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6991887372698514663=="
+Content-Type: multipart/mixed; boundary="===============1829330753788138664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 19 Aug 2024 16:07:21 -0000
-Message-Id: <172408364177.8531.12987327624601493305@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 16:07:24 -0000
+Message-Id: <172408364411.8650.17050392089973246546@gitolite.kernel.org>
 
---===============6991887372698514663==
+--===============1829330753788138664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 3d93a1448ed017f3536319a2445568b5f3969547
     new: 565d121b69980637f040eb4d84289869cdaabedf
     log: revlist-3d93a1448ed0-565d121b6998.txt
 
---===============6991887372698514663==
+--===============1829330753788138664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d7818402b1d80347c764001583f6d63fa68c2e1a selftests: udpgro: no need to load xdp 
 1e557246f8dbdb476f7112ab58d2de947f22acc5 Merge branch 'selftests-udpgro-fixes'
 565d121b69980637f040eb4d84289869cdaabedf tcp: prevent concurrent execution of tcp_sk_exit_batch
 
---===============6991887372698514663==--
+--===============1829330753788138664==--
