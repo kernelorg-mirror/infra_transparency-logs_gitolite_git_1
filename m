@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 19 Aug 2024 18:28:49 -0000
-Message-Id: <172409212963.14759.18327883178066849202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 19 Aug 2024 18:34:21 -0000
+Message-Id: <172409246103.18449.16321050591227032717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 404895e45778c989a98e05fce01fce8501261136
-    new: 38f4dcb8cb0067cd517447149248e66c1af12601
-    log: |
-         38f4dcb8cb0067cd517447149248e66c1af12601 Mon Aug 19 02:28:00 PM EDT 2024
-         
+  - ref: refs/heads/wip/jgg-for-next
+    old: 0000000000000000000000000000000000000000
+    new: e2e641fe1c69bbbe94a89e814967da50e6df226b
