@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0483645221797712838=="
+Content-Type: multipart/mixed; boundary="===============0432754651185111121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 19 Aug 2024 04:03:05 -0000
-Message-Id: <172404018547.23628.259473230919800635@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 04:03:14 -0000
+Message-Id: <172404019448.23757.3519902980435807327@gitolite.kernel.org>
 
---===============0483645221797712838==
+--===============0432754651185111121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+  - ref: refs/heads/char-misc-linus
+    old: 2374bf7558de915edc6ec8cb10ec3291dfab9594
     new: 47ac09b91befbb6a235ab620c32af719f8208399
-    log: revlist-7c626ce4bae1-47ac09b91bef.txt
+    log: revlist-2374bf7558de-47ac09b91bef.txt
 
---===============0483645221797712838==
+--===============0432754651185111121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040182 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040191 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1724040183-472cb9e784b30b7f5b27c80b321321186fad163e
+nonce 1724040191-321bffbaf6d90af3c071aa3c2c7123b4b8bd0e3f
 
-7c626ce4bae1ac14f60076d00eafe71af30450ba 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/main
+2374bf7558de915edc6ec8cb10ec3291dfab9594 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCw/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nbwP/R6N8rXECfoVy83sBIdp
-WUkzjDlQ47o+eBSkA3GMfdAjKK2tsrjSj0gZeX90/Ehbz9yDHe6KQ/oIblrf8OLx
-XcjhRJr2TY4rfKvpRZfg6ldxQ+9ZfYyxi6rFYk6HP7iHz6efW/fDS1PcNjiPXQLY
-0zz/k49CMKcWDXpJakifw3KhJUwxVJ6HpzogISbaYdw9zxi+4K3cdSShytVK+Asm
-myTkz7E2Pr9Gb0YOBd96sRaByWO3lCoWF41I26QRSFtxAh/jYCCYIfhhihhc8WrL
-E3c/hF4NKIJKAFon08X6K+2DQsjOoVl6Pi/TtKrN4We/jEcSCCaFUYCB8jh7lA7i
-/mBJ9NYDxHvfouo/KtXZ6MWHjay0IUk3HzJCKObJ2LdKp4IBAlVyQLbm74DaPqE+
-tDe3aIzTf5ADD8Xk9bfYh4NllZqplslPibi3vVaT7S/SoRz/1ub9rBrxAhl2eglp
-vOzfCzq+7WbC1zBPuR2ED3ZOpldhz608CuiU5dagZvuweOb/17JgbWvwS0LDTcjU
-riNHOnoHj3RyasdQmdsx2ZoosEfxmvPRAFZFAPfmF1oupF+V8h/s0emIj3KClWLg
-fHi/li0+YAOvktnf9X27gANQC7aenS4vCAwhNMq8hvrDggTHwNk9UgzsOhAvRXmy
-tjKPeGk0aT6mCaKN6SQNGW2j
-=dhHG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCw/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F0kQAMTDEt29/6k9Bu2pQpo8
+6kwcSiaHVAhoT+6/K2gj0DPpKyhsBgmFOvDSXB+QLQm2myjyKy80WSH/kwV/qLa/
+g9rkVwp6bGh3QyO2AuA7sD8FaZkPoTr3JFG+5S2yppSdJRETbe0jrLmGcKnA8hgY
+Xihmcox08G1skbUuKvUX2UhCL1IHbgNwa7eptVI4hOdkbnA9sg8jWLti/wGXPHW5
+z74k66rA6y10wNQfVhfybdyR/tEojfPFq3R1L9dxYAYqUxPiFdOM5/18RvHKDEdp
+Vpt2dXQwbBQZ5OfCHu3tWb1J5B5T3N+O77nHfOZZAFtMT5pcqd+yOA96f0qrXfTJ
+UiR4/npM+oeFfXH6kWWVEQAq9GHcH6GZz/m9+L9fetgMQe+VpZ3aO1u9rDe1GsJq
+FGD72R7/ksh0YE04/vpv8zY7rYT2B9ZRbrsBKxmN2XTKpuOpgylFn70VXqL7/QOx
+zfCzcmQI9WzVCjO6KQrcb3ZILSoVSNxsPpERyJzw9W0HyClJN3I+mc5jco8YT10h
+vqcSr4/c7KiTOoCsnjr4z8YwXrDv/tSaOz02GPeHTil72RqG59NrXBoPaWEjDL7M
+m6SrnIpQsg+sC4zFRJuXt5PfeWST+4+w3HhQoxUePHhFyG0kHoChKauccDajJze0
+I9PQuchALDmlbVrLXQXNxhKh
+=Mce2
 -----END PGP SIGNATURE-----
 
---===============0483645221797712838==
+--===============0432754651185111121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c626ce4bae1-47ac09b91bef.txt
+Content-Disposition: attachment; filename=revlist-2374bf7558de-47ac09b91bef.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -190,7 +190,6 @@ bed2eb964c70b780fb55925892a74f26cb590b25 bpf: Fix a kernel verifier crash in sta
 6e1918ff680527ce4be77426aa537012b5aa997c net: macb: Use rcu_dereference() for idev->ifa_list in macb_suspend().
 046667c4d3196938e992fba0dfcde570aa85cd0e memcg_write_event_control(): fix a user-triggerable oops
 3beddef84d90590270465a907de1cfe2539ac70d ALSA: hda/tas2781: fix wrong calibrated data order
-ccbde4b128ef9c73d14d0d7817d68ef795f6d131 char: xillybus: Don't destroy workqueue from work item running on it
 2185b4b72017e47fc8e0daa6bba4d4cb662c48f7 Merge tag 'thunderbolt-for-v6.11-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 dcdb52d948f3a17ccd3fce757d9bd981d7c32039 usb: xhci: Check for xhci->interrupters being allocated in xhci_mem_clearup()
 741b41b48faf41c0bcf3c26fbb3448b0fda4fc5d usb: xhci: fix duplicate stall handling in handle_tx_event()
@@ -337,7 +336,6 @@ d28bb0120f360e772458a7cf295d6d0ae3dc18a4 drm/xe: Add ref counting for xe_file
 58bfe6674467f4c037e89111e6007f25b34d8bb3 drm/xe: Drop xe_gt_tlb_invalidation_wait
 f002702290fccbd473f5bb94e52f25c96917fff2 drm/xe: Hold a PM ref when GT TLB invalidations are inflight
 af8e119f52e9c13e556be9e03f27957554a84656 xhci: Fix Panther point NULL pointer deref at full-speed re-enumeration
-9bb5e74b2bf88fbb024bb15ded3b011e02c673be Revert "misc: fastrpc: Restrict untrusted app to attach to privileged PD"
 92e9bac18124682c4b99ede9ee3bcdd68f121e92 kunit/overflow: Fix UB in overflow_allocation_test
 020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
 fb6a421fb6153d97cf3058f9bd550b377b76a490 kallsyms: Match symbols exactly with CONFIG_LTO_CLANG
@@ -380,8 +378,6 @@ edb907a6133323e19311901a39dee68b1c6a2ef8 crash: fix riscv64 crash memory reserve
 a8fc28dad6d574582cdf2f7e78c73c59c623df30 alloc_tag: introduce clear_page_tag_ref() helper function
 766c163c2068b45330664fb67df67268e588a22d alloc_tag: mark pages reserved during CMA activation as not tagged
 2e6506e1c4eed2676a8412231046f31e10e240da mm/migrate: fix deadlock in migrate_pages_batch() on large folios
-ad899c301c880766cc709aad277991b3ab671b66 char: xillybus: Refine workqueue handling
-2374bf7558de915edc6ec8cb10ec3291dfab9594 char: xillybus: Check USB endpoints when probing device
 b9b6ee6fe258ce4d89592593efcd3d798c418859 thermal: gov_bang_bang: Call __thermal_cdev_update() directly
 84248e35d9b60e03df7276627e4e91fbaf80f73d thermal: gov_bang_bang: Split bang_bang_control()
 5f64b4a1ab1b0412446d42e1fc2964c2cdb60b27 thermal: gov_bang_bang: Add .manage() callback
@@ -427,4 +423,4 @@ e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git:/
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
 
---===============0483645221797712838==--
+--===============0432754651185111121==--
