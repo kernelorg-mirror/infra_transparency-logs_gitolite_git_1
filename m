@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 19 Aug 2024 17:11:03 -0000
-Message-Id: <172408746380.24047.4589664311007737277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 19 Aug 2024 17:24:39 -0000
+Message-Id: <172408827935.32179.15031505862859489182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/master
-    old: 1676d0d74a8149a8e560056936dbd7dfac14decc
-    new: 404895e45778c989a98e05fce01fce8501261136
+  - ref: refs/heads/fixes
+    old: 9eb18136af9fe4dd688724070f2bfba271bd1542
+    new: f616506754d34bcfdbfbc7508b562e5c98461e9a
     log: |
-         404895e45778c989a98e05fce01fce8501261136 Mon Aug 19 01:09:49 PM EDT 2024
+         2240a50e6294214de791729e9dcba6880fa7e44e KVM: arm64: vgic-debug: Don't put unmarked LPIs
+         f616506754d34bcfdbfbc7508b562e5c98461e9a KVM: arm64: vgic: Don't hold config_lock while unregistering redistributors
          
