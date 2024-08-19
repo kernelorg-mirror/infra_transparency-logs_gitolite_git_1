@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5394083856859965560=="
+Content-Type: multipart/mixed; boundary="===============2013644668733035869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 19 Aug 2024 22:05:18 -0000
-Message-Id: <172410511821.14872.17284717532776902502@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 22:05:26 -0000
+Message-Id: <172410512694.15030.6432910744486325207@gitolite.kernel.org>
 
---===============5394083856859965560==
+--===============2013644668733035869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 88af00b3fc027aae0cb73454843b92ae638e3ed1
     new: ee74817b0d6674c926c3ec2e14b191313fb59d8d
     log: revlist-88af00b3fc02-ee74817b0d66.txt
 
---===============5394083856859965560==
+--===============2013644668733035869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ ab00f2abe68614438fbc3c213ddba5b8e27f3a52 dt-bindings: bluetooth: move Bluetooth 
 c006059101a18b5c225ef68d6e52504a4d0a6085 dt-bindings: bluetooth: reference serial-peripheral-props.yaml
 ee74817b0d6674c926c3ec2e14b191313fb59d8d ASoC: dt-bindings: serial-midi: reference serial-peripheral-props.yaml
 
---===============5394083856859965560==--
+--===============2013644668733035869==--
