@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9065641083203956907=="
+Content-Type: multipart/mixed; boundary="===============0401681515249478247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 19 Aug 2024 15:26:01 -0000
-Message-Id: <172408116156.9628.1629309747411975251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 19 Aug 2024 15:26:03 -0000
+Message-Id: <172408116329.9709.3936200905667243679@gitolite.kernel.org>
 
---===============9065641083203956907==
+--===============0401681515249478247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
 
---===============9065641083203956907==
+--===============0401681515249478247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -392,4 +392,4 @@ e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git:/
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
 
---===============9065641083203956907==--
+--===============0401681515249478247==--
