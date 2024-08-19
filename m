@@ -1,56 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============2736515483658174303=="
+Content-Type: multipart/mixed; boundary="===============0522228624449705280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 19 Aug 2024 04:14:31 -0000
-Message-Id: <172404087176.14900.8176425737253176859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 19 Aug 2024 04:15:26 -0000
+Message-Id: <172404092646.28849.4389272744185083721@gitolite.kernel.org>
 
---===============2736515483658174303==
+--===============0522228624449705280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a7c6c3a4963e56e451824c1aac0a90135f182041
-    new: 9e99f65056ab98afa926e460530ab08f030ba034
-    log: |
-         9e99f65056ab98afa926e460530ab08f030ba034 update cvelistV5
-         
+  - ref: refs/tags/v4.19.320
+    old: 0000000000000000000000000000000000000000
+    new: 96301ff0115ec5dbfa07b43c6215a60b0fa5f621
+  - ref: refs/tags/v5.10.224
+    old: 0000000000000000000000000000000000000000
+    new: 5e44c6fa3472246d5f86e98d9b91a467f9184293
+  - ref: refs/tags/v5.15.165
+    old: 0000000000000000000000000000000000000000
+    new: 47486c52610601716616e68887970522ccbd9af1
+  - ref: refs/tags/v5.4.282
+    old: 0000000000000000000000000000000000000000
+    new: 9ff959f9401b53ef1514579ac6d29545649db553
+  - ref: refs/tags/v6.1.106
+    old: 0000000000000000000000000000000000000000
+    new: 06431b0a44fbc5e3b3b32bfe9f1dcf142efe50b5
+  - ref: refs/tags/v6.10.6
+    old: 0000000000000000000000000000000000000000
+    new: ebf160206a2c0aa0db0bf61c78050af4365a44fa
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/v6.6.47
+    old: 0000000000000000000000000000000000000000
+    new: 037d55485563d2750f9d64f8ad6c499b15abf518
 
---===============2736515483658174303==
+--===============0522228624449705280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040871 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1724040871-ff3b9da9a3e4ef13476b3c09dbee14939d796a25
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040914 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1724040913-354f5dd358e14e760aa7c6b7e522a0c569b2a26c
 
-a7c6c3a4963e56e451824c1aac0a90135f182041 9e99f65056ab98afa926e460530ab08f030ba034 refs/heads/master
+0000000000000000000000000000000000000000 96301ff0115ec5dbfa07b43c6215a60b0fa5f621 refs/tags/v4.19.320
+0000000000000000000000000000000000000000 5e44c6fa3472246d5f86e98d9b91a467f9184293 refs/tags/v5.10.224
+0000000000000000000000000000000000000000 47486c52610601716616e68887970522ccbd9af1 refs/tags/v5.15.165
+0000000000000000000000000000000000000000 9ff959f9401b53ef1514579ac6d29545649db553 refs/tags/v5.4.282
+0000000000000000000000000000000000000000 06431b0a44fbc5e3b3b32bfe9f1dcf142efe50b5 refs/tags/v6.1.106
+0000000000000000000000000000000000000000 ebf160206a2c0aa0db0bf61c78050af4365a44fa refs/tags/v6.10.6
+0000000000000000000000000000000000000000 cd9d19c02d27518ed40a2231d0e0f072dfcebe33 refs/tags/v6.11-rc4
+0000000000000000000000000000000000000000 037d55485563d2750f9d64f8ad6c499b15abf518 refs/tags/v6.6.47
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCxqcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8GYQALtPQZDO2vm+EmVsjQgz
-Lo4DEAy+m7PMZFzaQgp5FBVgsSduY9rKtdHfLD8UOMcoL8V99xqhctO62YWVegB9
-+oKaJcHj3x2EuhzKWNwDQzQQ10U2KOAjDvI400OKEj5qCUc88NHFOtFMfOdZ+Qmw
-5tsst6gRkxCXoDlGOeH9h3UzxmxBXSbyWBEze1izuKn7nYu83m+yanD8IHh5otow
-0nli501g71c8Cn0daH545zb2P3uqrVt2oWzkBBj1du9R/IqQznTfpxalPXuSKWRy
-B8E7oyqIzNXp3M1r3XyZa45iWwPiNPUhg19eDTWNJ7qUt8+RiGPGXwzh9Vr/cs8o
-eC20cI8l7zWC6EWsu96IC8YonuyZcUHz4hcFp18N5bT4HmhCPdd423Ps6Ql8dD/a
-AAwK4SAW4VAwpN+cZlr9hZHPanfLS2cFqyRyWXSR1TD+ifs5bVY0cciniblq1YRW
-QRkbfzIdq15r4mgaCZRYRLP2Ht2mt+T9qykHzd9fPkMMDIPrK39dxZyuDJui5IoK
-Bl91hAAy/o9/I96ZlLJzpR7xYut4rTgU0CVMyt48aVgW04SauzdMAeb3GGt3hVgv
-wAfzqzx9pw6HsOrmx/CyIH1MQc1mkFF/Tljf+bLWBj+hWDqG2a+RVRQT4w0ygQYn
-rfghFzpv9yUl6tlR9YTAcMvB
-=/hg2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCxtIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TvAP/jEtE5obj7Ank+DkSli3
+++KjXevmneaQYiDsLWaJPmmoaFyKxmb+nWeI8R6g4dWhXj4n8B/Jr4IZEJfgPm8W
+nf6twpLSyWFse1bHdutrQKQftk7f3nnVwKG7jk4UgepZQ63OfYLSnJhS9j9nbhHX
+l+WWLnbcshUwWzX/skCW4zp3mz1AXOEA4t1R6mnuTAWgfuw2ZasqXy31Cvf0i1Q2
+Q0oPRx8atfmO65er821shxzj0NbdnqIJ0JPb4bn3sFkgd2iiI40tTVh7PtztL5Yb
+ildGFDmP36oQtd1tHUS9YjKiXuI29qGrSjJv4D89ZaAhweM3kTyQtC3OTEC0LB2y
+uiYz5MUNvR35OBTb9rYQvMEV8FWCSJI5ui6Ab2D1g5s/TPljpZuSa+FL5anvkoD3
+Qk6+L93mWSpE+h/Xv6wtu+QgbaQ5ytYiY8ptdLdb4/r1b1rFPjgwFuXC5yfGs2oR
+LA3x0MZNRShUbwEfoG/ZmMPgRmg4H+vWc0IBsrBZ1Df8RmslBA8dOVFP42H2hSAr
+1l9YKdS2d0MZTUfqnxXBGGkknfiWlJFUTwRouFUfODHftagoHX7Y/bDzcXF0ovYb
+72Ghbw+kNgHLtLgMpXpNmyH5/EfbUffUng8wBC4AoSYI9BhklOPn6WZQPrXIOlRj
+2sDi0JNBkgfeGRlYytAFic1X
+=WloE
 -----END PGP SIGNATURE-----
 
---===============2736515483658174303==--
+--===============0522228624449705280==--
