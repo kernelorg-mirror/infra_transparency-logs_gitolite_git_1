@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7490243777998516579=="
+Content-Type: multipart/mixed; boundary="===============8026890521687342366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 19 Aug 2024 04:17:27 -0000
-Message-Id: <172404104724.32322.2237313815793274444@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 04:17:31 -0000
+Message-Id: <172404105173.32422.5672786904222760579@gitolite.kernel.org>
 
---===============7490243777998516579==
+--===============8026890521687342366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+  - ref: refs/heads/usb-linus
+    old: af8e119f52e9c13e556be9e03f27957554a84656
     new: 47ac09b91befbb6a235ab620c32af719f8208399
-    log: revlist-7c626ce4bae1-47ac09b91bef.txt
+    log: revlist-af8e119f52e9-47ac09b91bef.txt
 
---===============7490243777998516579==
+--===============8026890521687342366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724041045 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724041049 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1724041046-fb3c01f875e5dacaaa0b0f47c397671beb4c3f9b
+nonce 1724041050-a2eb561303c100687fcc83d6b0540361ef887240
 
-7c626ce4bae1ac14f60076d00eafe71af30450ba 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/main
+af8e119f52e9c13e556be9e03f27957554a84656 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCx1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++8sQALW3HRGqnUY9UYR/WYzM
-5l4dXpYJaHEnaeabYAgtQRpLqKzehCnNIYhUbKJq7PX0Lr0DIz62LK5BPEsIIv+o
-Sep225MEnSlvMHQVF5o/BQsmuffdSOez7ORaaNaW6MNJsBdCjFjViKuobbTtCEFN
-9o27WCt8ULGUvq7mL5T9fiuRzx4bPLtAOYnS7XEZdjiL4XO5d8dMQvmO7whbfs6n
-ab8ekFzJhc4N2n+2z4TF/j/EC4sLxY/6mwA1h3g/5OOIwhSU0DY2LoOumE/MKsV2
-QIQqirdNwnB2FIISY6ZT4o4jBRuoDyuk6P/djZRcoRFkfNVsLuWR+oWOR/NsyH2r
-i+ksEKdROBXIJJDbdWCwfZAeCyhL3OGJEUHRIvMRjru8mBs5p9/sikieNK2rTw9s
-9JW8zgqRcOq/EtfrklBoTAwjBIIu233UCNCSBjsd4FkMbJ+T9Q6UmLq0636NzOdX
-UtgBK9vnysL8qZ+cFWkzh1HpLAUA6jqzkPC/Ekig1LvXXdF3G8V9ttYsegwOu28b
-B+nO2HmRnBRD3UmDnPvzOLmZYyBTsmp+ZOY8UnkWWTT+Ckf04nYaiu3PpEhpp+Ml
-S2kH1+fNOYDt+CafQW7mU4pNsds31FNhZEOpASjLEbBmvpT+dNJFgqTWDyEbd66o
-RqFu+pGSoVVFxgANhAT4wS92
-=eKeb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCx1kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ur8P+wQLKN0aCo98Hy5Bb0rv
+C7OpJ72EGP3nNKkcSLM+3GNT0C4AZUna3iOckLYeYwKp1UsUznLspoVhYGVpCSr6
+0JrbmN+4l9rzCJjbG5mkRCw36A1eH8V5s9lxAuc2phowQjCXytYV689pd+0SPozB
+8GcR3TtT1YlOqYybaAdcV42uBiqZEQNVxNI/nssbKzw2EeajFLWUgS4GVit76Esr
+M/NA+xYsmJMaExKw62LdUGRmVYupp31KC4ZNJRNGZvlwyqU1zGOxA6jTBdSA0Buz
+RMOmWMp28GJoQ/x2zH2le68hq/L/oLDXYlfw6cNMQ9wXle6/bUy3JgRG9CVi2Te0
+nTmehZZSMuLVAp5P608JQk/41MaD3JUYNuXo/9f1DcTp+Y4Pg7ZIayBTOFPqIAIQ
+rBxT9eYLYQ4TDWu/tVeolPhbPuNWCx17WFdKirRplC6yderhFej5Ys1mANvZ4Qab
+XtMH2zDWq9tI4JTNUhwn1LmcIdQsOSbo/FHk0Az184SYKXiDLsdmPj+/Ga+Q73ix
+wuaI6H5o0dnG27lZA2d1n3vCAOTLs811QlH/pVrzI1qaYVMLYvZAvrL4t1w9fZmt
+zykZ+jCIdHpLGqMhd814wToTskrC81gvpJoRJ+9Y49dp5oU7xDPOjX00sldAx3Nv
+jXEdpzQHuFIhJW3Ti8TnKiM4
+=CgRp
 -----END PGP SIGNATURE-----
 
---===============7490243777998516579==
+--===============8026890521687342366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c626ce4bae1-47ac09b91bef.txt
+Content-Disposition: attachment; filename=revlist-af8e119f52e9-47ac09b91bef.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -63,7 +63,6 @@ aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG
 0710c3d304f67f9b68f5082214e311ec8f82bd82 dt-bindings: Batch-update Konrad Dybcio's email
 e1cf752ede8e82c2d084868c50a1ca6cdb07c9c4 dt-bindings: eeprom: at25: add fujitsu,mb85rs256 compatible
 39a3396558fb97e6e7d4c1eb04c2166da31904a9 clk: thead: fix dependency on clk_ignore_unused
-ab3de2c7ec91db6a3cf5fc07765852c81ca7d6ef thunderbolt: Fix memory leaks in {port|retimer}_sb_regs_write()
 fca5b78511e98bdff2cdd55c172b23200a7b3404 iommu: Restore lost return in iommu_report_device_fault()
 90ec3a8a7fd0d43026fcca979713e077d4883b56 spi: Add empty versions of ACPI functions
 32b9a52f88a5713bf8a02dae66f2ad69705de69f KVM: arm64: free kvm->arch.nested_mmus with kvfree()
@@ -76,7 +75,6 @@ fca5b78511e98bdff2cdd55c172b23200a7b3404 iommu: Restore lost return in iommu_rep
 f91f7ac900e7342e0fd66093dfbf7cb8cb585a99 refcount: Report UAF for refcount_sub_and_test(0) when counter==0
 f32e90c0688a3d1f8079ac18ed39b752d22e92bd gcc-plugins: randstruct: Remove GCC 4.7 or newer requirement
 9a2fa1472083580b6c66bdaf291f591e1170123a fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
-e2006140ad2e01a02ed0aff49cc2ae3ceeb11f8d thunderbolt: Mark XDomain as unplugged when router is removed
 5a44bb061d04b0306f2aa8add761d86d152b9377 KVM: s390: fix validity interception issue when gisa is switched off
 ee9a68394b4bea8b9044ec4bfdbaacf45297ecef riscv: Re-introduce global icache flush in patch_text_XXX()
 fbc05142ccdd0061f6d0e489608935943d2984a1 perf tools: Add tools/include/uapi/README
@@ -191,12 +189,6 @@ bed2eb964c70b780fb55925892a74f26cb590b25 bpf: Fix a kernel verifier crash in sta
 046667c4d3196938e992fba0dfcde570aa85cd0e memcg_write_event_control(): fix a user-triggerable oops
 3beddef84d90590270465a907de1cfe2539ac70d ALSA: hda/tas2781: fix wrong calibrated data order
 ccbde4b128ef9c73d14d0d7817d68ef795f6d131 char: xillybus: Don't destroy workqueue from work item running on it
-2185b4b72017e47fc8e0daa6bba4d4cb662c48f7 Merge tag 'thunderbolt-for-v6.11-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-dcdb52d948f3a17ccd3fce757d9bd981d7c32039 usb: xhci: Check for xhci->interrupters being allocated in xhci_mem_clearup()
-741b41b48faf41c0bcf3c26fbb3448b0fda4fc5d usb: xhci: fix duplicate stall handling in handle_tx_event()
-d209d1634e6562eafc369b28f8a1f67a2e9e5222 usb: typec: ucsi: Fix the return value of ucsi_run_command()
-21ea1ce37fc267dc45fe27517bbde926211683df Revert "usb: typec: tcpm: clear pd_event queue in PORT_RESET"
-3ed486e383ccee9b0c8d727608f12a937c6603ca usb: misc: ljca: Add Lunar Lake ljca GPIO HID to ljca_gpio_hids[]
 92567a5f92bc947fb7aa4351979db1b7b71a554c iommu: Remove unused declaration iommu_sva_unbind_gpasid()
 dc98d76a15bc29a9a4e76f2f65f39f3e590fb15c tty: serial: fsl_lpuart: mark last busy before uart_add_one_port
 7258fdd7d7459616b3fe1a603e33900584b10c13 tty: vt: conmakehash: remove non-portable code printing comment header
@@ -336,7 +328,6 @@ d28bb0120f360e772458a7cf295d6d0ae3dc18a4 drm/xe: Add ref counting for xe_file
 90be4cc6f7674a1478c4c750beeee3edd14aee38 drm/xe: Add xe_gt_tlb_invalidation_fence_init helper
 58bfe6674467f4c037e89111e6007f25b34d8bb3 drm/xe: Drop xe_gt_tlb_invalidation_wait
 f002702290fccbd473f5bb94e52f25c96917fff2 drm/xe: Hold a PM ref when GT TLB invalidations are inflight
-af8e119f52e9c13e556be9e03f27957554a84656 xhci: Fix Panther point NULL pointer deref at full-speed re-enumeration
 9bb5e74b2bf88fbb024bb15ded3b011e02c673be Revert "misc: fastrpc: Restrict untrusted app to attach to privileged PD"
 92e9bac18124682c4b99ede9ee3bcdd68f121e92 kunit/overflow: Fix UB in overflow_allocation_test
 020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
@@ -427,4 +418,4 @@ e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git:/
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
 
---===============7490243777998516579==--
+--===============8026890521687342366==--
