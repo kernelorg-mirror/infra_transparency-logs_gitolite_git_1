@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 19 Aug 2024 11:48:23 -0000
-Message-Id: <172406810338.26771.18161694519320335618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 19 Aug 2024 11:56:32 -0000
+Message-Id: <172406859247.16309.10261176054374241055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e3e16d0cace7fdfa3d8d9730a11f705a6d3ea4ed
-    new: 63f5b04c9743ba8e84208dccc2125bc782a610c0
+  - ref: refs/heads/review-hans
+    old: 8f2407cb3f1e8586622e80269338efb7bed2f05b
+    new: b27622f1317271b88048ff2d76fead28b72aeccf
     log: |
-         63f5b04c9743ba8e84208dccc2125bc782a610c0 Notes added by 'git notes add'
+         3573fee87fe36e7c078d801809b186984ebe10d9 platform/x86: lg-laptop: Add operation region support
+         ac5ebdad20060a734ba5ae75e20dcfc1b89ef998 dt-bindings: serial: Allow embedded-controller as child node
+         ceccd196e158805a4e9b69d92318dafe7b9d3ea2 dt-bindings: platform: Add Surface System Aggregator Module
+         b27622f1317271b88048ff2d76fead28b72aeccf platform/surface: Add OF support
          
