@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7022783237668015308=="
+Content-Type: multipart/mixed; boundary="===============3768605822536871805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 19 Aug 2024 19:02:31 -0000
-Message-Id: <172409415103.8795.10278670921709970097@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 19:02:35 -0000
+Message-Id: <172409415507.8896.9313890524154125607@gitolite.kernel.org>
 
---===============7022783237668015308==
+--===============3768605822536871805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 14d069d92951a3e150c0a81f2ca3b93e54da913b
-    new: 47ac09b91befbb6a235ab620c32af719f8208399
-    log: revlist-14d069d92951-47ac09b91bef.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: b7fae5fb049902fa7e4cdf2b59bf3c7bb476e38e
+    new: 8bc921e413c305650251df5bc2fcec5fc25bc553
+    log: revlist-b7fae5fb0499-8bc921e413c3.txt
 
---===============7022783237668015308==
+--===============3768605822536871805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1724094150 +0200
+pusher andi.shyti@kernel.org 1724094154 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1724094148-0c4e1ba20e76e271cb8d132424b8748c0e5b38ee
+nonce 1724094153-cb06badef6dde3074a9252dd893879781ab1f6d1
 
-14d069d92951a3e150c0a81f2ca3b93e54da913b 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/i2c/i2c-host-fixes
+b7fae5fb049902fa7e4cdf2b59bf3c7bb476e38e 8bc921e413c305650251df5bc2fcec5fc25bc553 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsOWxhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ucd4BAPky/tsQOd2MojTqCyTNf1SlRO6m
-GYkvmzXUsMgjnOTOAP9aZimi2QROquoxWnQk4a4um2inDiBYsGkIc+s4iDToDg==
-=VOuz
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsOWyhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ukn8BAPBadfrmzn55h7dWruSP9wPK1iT6
+e8B4ZEe1ujFbHkmJAP0VM9Umewl0NYizOeeLLEn7YQ3uUdH8/ZS6giq1wiHGBQ==
+=syPP
 -----END PGP SIGNATURE-----
 
---===============7022783237668015308==
+--===============3768605822536871805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14d069d92951-47ac09b91bef.txt
+Content-Disposition: attachment; filename=revlist-b7fae5fb0499-8bc921e413c3.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -414,5 +414,9 @@ c3f2d783a459980eafd24c5af94ccd56a615961f Merge tag 'mm-hotfixes-stable-2024-08-1
 e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
+302f7acfec760a7710af3c76d82e8821df8c12c5 i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
+2f3a3db7d0caae302b23d79bf357c083fadd6f21 i2c: don't use ',' after delimiters
+309686d77ace92ebf542c760cfb43b190269601e i2c: mt65xx: Avoid double initialization of restart_flag in isr
+8bc921e413c305650251df5bc2fcec5fc25bc553 i2c: imx: Switch to RUNTIME_PM_OPS()
 
---===============7022783237668015308==--
+--===============3768605822536871805==--
