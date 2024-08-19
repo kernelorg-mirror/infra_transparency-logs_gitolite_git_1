@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8014679383251986790=="
+Content-Type: multipart/mixed; boundary="===============3329435962392809257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 19 Aug 2024 04:08:37 -0000
-Message-Id: <172404051700.11017.9275203708030883457@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 04:08:45 -0000
+Message-Id: <172404052560.11244.3298656743705993769@gitolite.kernel.org>
 
---===============8014679383251986790==
+--===============3329435962392809257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61
-    new: 47ac09b91befbb6a235ab620c32af719f8208399
-    log: revlist-cdd1fa91a6b8-47ac09b91bef.txt
+  - ref: refs/heads/driver-core-next
+    old: 18ec12c97b39ff6aa15beb8d2b25d15cd44b87d8
+    new: 87ee9981d1f86ee9b1623a46c7f9e4ac24461fe4
+    log: revlist-18ec12c97b39-87ee9981d1f8.txt
 
---===============8014679383251986790==
+--===============3329435962392809257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040513 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724040521 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1724040514-21f82358fa018b627adad2114975ed77330da720
+nonce 1724040522-94c82f083434e6caa48fc362cc9fdfb25c307db9
 
-cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/driver-core-linus
+18ec12c97b39ff6aa15beb8d2b25d15cd44b87d8 87ee9981d1f86ee9b1623a46c7f9e4ac24461fe4 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCxUEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fXMP/2wZJgU2Bh4s13CebAtJ
-lh6EOb6mTT+aARIEHTRatyHYyzIVSzKK62SgARoxfSvdGkILF7WYvv27x5f8qsoU
-PjKySQtn9/G48jHHTgDQIuz8mqm7luWNdZGVpSKLWEhyXdu+8VhFcER70ZdoKRka
-gQJMoWmNcjf2X2LGdDweZQHDQmFmcaUm66lmfFmFiL/SNSTGTs3Hi++Fm1bRVv1P
-I8SkVx4VnIoZllfdkanXSjOsos65Xtymu92zUhUtwYf/PA8AUTA5bWKcnmNBfFUZ
-L29hrW41FKgO+RwvifKwWo8OaWDQt3vv/PZ46GCxKTcZIR3lFVfm8vVturCo4xs9
-9dHsoalE/b/pnLTnZd6NDoTkiPtp4TVXt+PJoRo+UqNcES4hYl0KBbpc3Q/XtbFe
-Bg1++Zzt2wMMybT4GSIQR1yHwqqppKzdGBiOx/gBrO+V2nV/MrnLn3+RemSw9j3J
-m8TU3l1wwYGSBKBaoE2Q283/QRWapmXu/oHRIsQiXYF5sExnSQp2/6yRb/EbFp60
-TYVDLenMzCjhyXbL38t5VdihOi3ndCW9Ih+xGhseSUdbXWg0BfWAy5b6/rn7MxBy
-4cKueiUUbPbFb1G/lyfM9TPfugkdvGD17i071I5g3Nz9oZfRERZQH3fV/FP9m896
-EufZd32lO1AguSFESVgrtsFc
-=z4/g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCxUkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MYYP/103VFx/TrKn8vMAjPDK
+JK0RtvoLW2fI4yO07xf4SOWPrv4CdjlFqrmGU3fF0s6gyq20zWL18XrV4ihgvKro
+1Fd3DDOWNVEdkD6mdDHQ3EwndiDsfhmCSEHVlDy0GSf/YOCPxcm/D16n4WVFW9hR
++czy8saKjMXUQAZpyBniht9rp7toOxyZt0Sf/FdQcHwcuYajVAEbUz6qS9vw+b4k
+1o4qo17M+4uhw24r3sXshnci/joSIzxfz2HKn/QKjWo0zgEFkbjnpWD3Kn768WJ4
+k+DewP/oXHBEPGdPn62ValiRN50afAmjaU4iiQc2QoW03sXq3afDAssUsz/HBmLG
+mQbn48tzbcK2mungZXYX2QK4zZkaIAkOHUFkWRhaQcEDVZO8dvZ+rE3dRu3FLg73
+vAAjHllQaDP1bN+G1qd11slK1Qp1MvTCb64Wgvf5yGFtGLVA6N3ycEz1Nb+tQca4
+a+TQsf2WcAOoEduukqqbJSf7jPQSFL/ZTSnladnIqU2M/wOyQWhS94jitkpcvJbE
+0eBKhPXfvDVQuJtgEPVRHH+d7877t4X2QCOBoY7AJGXOgVPjOnXqh9kO3yM6XpxD
+7iSdqXZUXSZ6jqLauoayJxQ/TKkH25MTpbwBcQXEaAOPadvhNoqv/r6NJwuN8ALw
+TAwp8egTwtAeW7FTMM2WB0yH
+=mV2d
 -----END PGP SIGNATURE-----
 
---===============8014679383251986790==
+--===============3329435962392809257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdd1fa91a6b8-47ac09b91bef.txt
+Content-Disposition: attachment; filename=revlist-18ec12c97b39-87ee9981d1f8.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -201,6 +201,8 @@ d209d1634e6562eafc369b28f8a1f67a2e9e5222 usb: typec: ucsi: Fix the return value 
 dc98d76a15bc29a9a4e76f2f65f39f3e590fb15c tty: serial: fsl_lpuart: mark last busy before uart_add_one_port
 7258fdd7d7459616b3fe1a603e33900584b10c13 tty: vt: conmakehash: remove non-portable code printing comment header
 c9f6613b16123989f2c3bd04b1d9b2365d6914e7 tty: atmel_serial: use the correct RTS flag.
+abfceba0a7a246ac082bf569807738ff7416f59f ARM: riscpc: ecard: Fix the build
+cdd1fa91a6b8c7cd93b3abf9f3ef05b8ce741b61 mips: sgi-ip22: Fix the build
 479ffee68d59c599f8aed8fa2dcc8e13e7bd13c3 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
 38c8d02501c09454e4fbf0f67de03de35e94d384 wifi: iwlwifi: correctly lookup DMA address in SG table
 e37a9184f27084b891d3617723b9410f8fcaff99 Merge tag 'ath-current-20240812' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
@@ -424,5 +426,6 @@ c3f2d783a459980eafd24c5af94ccd56a615961f Merge tag 'mm-hotfixes-stable-2024-08-1
 e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
+87ee9981d1f86ee9b1623a46c7f9e4ac24461fe4 Merge 6.11-rc4 into driver-core-next
 
---===============8014679383251986790==--
+--===============3329435962392809257==--
