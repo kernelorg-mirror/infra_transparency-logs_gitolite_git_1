@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6114434640449606750=="
+Content-Type: multipart/mixed; boundary="===============7022783237668015308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 19 Aug 2024 19:02:26 -0000
-Message-Id: <172409414675.8677.10692811503743405768@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 19:02:31 -0000
+Message-Id: <172409415103.8795.10278670921709970097@gitolite.kernel.org>
 
---===============6114434640449606750==
+--===============7022783237668015308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 81ca8053244a60de891de1cde927e67a4e150297
-    new: 8bc921e413c305650251df5bc2fcec5fc25bc553
-    log: revlist-81ca8053244a-8bc921e413c3.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 14d069d92951a3e150c0a81f2ca3b93e54da913b
+    new: 47ac09b91befbb6a235ab620c32af719f8208399
+    log: revlist-14d069d92951-47ac09b91bef.txt
 
---===============6114434640449606750==
+--===============7022783237668015308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1724094145 +0200
+pusher andi.shyti@kernel.org 1724094150 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1724094144-7e27260ab9db3a679ae1ca2f6f502bf9c327630a
+nonce 1724094148-0c4e1ba20e76e271cb8d132424b8748c0e5b38ee
 
-81ca8053244a60de891de1cde927e67a4e150297 8bc921e413c305650251df5bc2fcec5fc25bc553 refs/heads/i2c/i2c-host
+14d069d92951a3e150c0a81f2ca3b93e54da913b 47ac09b91befbb6a235ab620c32af719f8208399 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsOWwRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ulV8BAMEyqWicqTjgqQ7aa3CSW6A1sJ6N
-67ziAy9xIP2PitV1AQCPwdb44uQLWe6ul9IZDG9b8p2RJk2qv5nmnjFOSgRCCw==
-=gYzX
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsOWxhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ucd4BAPky/tsQOd2MojTqCyTNf1SlRO6m
+GYkvmzXUsMgjnOTOAP9aZimi2QROquoxWnQk4a4um2inDiBYsGkIc+s4iDToDg==
+=VOuz
 -----END PGP SIGNATURE-----
 
---===============6114434640449606750==
+--===============7022783237668015308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81ca8053244a-8bc921e413c3.txt
+Content-Disposition: attachment; filename=revlist-14d069d92951-47ac09b91bef.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -249,7 +249,6 @@ af401543df510a73f7beb13f80cf4c541be94786 drm/amdgpu/mes12: sw/hw fini for unifie
 faada2174c08662ae98b439c69efe3e79382c538 dm persistent data: fix memory allocation failure
 f50733b45d865f91db90919f8311e2127ce5a0cb exec: Fix ToCToU between perm check and set-uid/gid usage
 b739dffa5d570b411d4bdf4bb9b8dfd6b7d72305 of/irq: Prevent device address out-of-bounds read in interrupt map walk
-4e91fa1ef3ce6290b4c598e54b5eb6cf134fbec8 i2c: qcom-geni: Add missing geni_icc_disable in geni_i2c_runtime_resume
 6b0f8db921abf0520081d779876d3a41069dab95 Merge tag 'execve-v6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 655111b838cdabdb604f3625a9ff08c5eedb11da mptcp: correct MPTCP_SUBFLOW_ATTR_SSN_OFFSET reserved size
 a24e6e7146e361aa0855cf8ee3b2e80b8eb692e3 bcachefs: delete faulty fastpath in bch2_btree_path_traverse_cached()
@@ -296,7 +295,6 @@ ea2306f0330c59ac8cd6ba13193497f0a6a02684 selftests: netfilter: add test for br_n
 e0b6648b0446e59522819c75ba1dcb09e68d3e94 netfilter: nf_tables: Audit log dump reset after the fact
 69fc3e9e90f1afc11f4015e6b75d18ab9acee348 netfilter: nf_tables: Introduce nf_tables_getobj_single
 bd662c4218f9648e888bebde9468146965f3f8a0 netfilter: nf_tables: Add locking for NFT_MSG_GETOBJ_RESET requests
-14d069d92951a3e150c0a81f2ca3b93e54da913b i2c: tegra: Do not mark ACPI devices as irq safe
 1fb918967b56df3262ee984175816f0acb310501 Merge tag 'for-6.11-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 6c569b77f0300f8a9960277c7094fa0f128eb811 selftest: af_unix: Fix kselftest compilation warnings
 b2ca1661c7db9693095cee7991c55d67c3b5d346 Merge tag 'wireless-2024-08-14' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
@@ -416,9 +414,5 @@ c3f2d783a459980eafd24c5af94ccd56a615961f Merge tag 'mm-hotfixes-stable-2024-08-1
 e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
-302f7acfec760a7710af3c76d82e8821df8c12c5 i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
-2f3a3db7d0caae302b23d79bf357c083fadd6f21 i2c: don't use ',' after delimiters
-309686d77ace92ebf542c760cfb43b190269601e i2c: mt65xx: Avoid double initialization of restart_flag in isr
-8bc921e413c305650251df5bc2fcec5fc25bc553 i2c: imx: Switch to RUNTIME_PM_OPS()
 
---===============6114434640449606750==--
+--===============7022783237668015308==--
