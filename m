@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3565485628785062988=="
+Content-Type: multipart/mixed; boundary="===============6604092881581331720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 19 Aug 2024 11:12:22 -0000
-Message-Id: <172406594292.377.725688557732185435@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 11:12:23 -0000
+Message-Id: <172406594347.428.13020309382546035455@gitolite.kernel.org>
 
---===============3565485628785062988==
+--===============6604092881581331720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 62b9122a2a133e96c3b439477e2d931041765a12
-    new: 7fb53b427e3e0e1a6cef02d130ff7d21cf098e74
-    log: revlist-62b9122a2a13-7fb53b427e3e.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 5bb3c84a1185766460e392fe31ff8882f989c66b
+    new: 055335f91e2280f5aee4bc15a715eb8abf0564cb
+    log: revlist-5bb3c84a1185-055335f91e22.txt
 
---===============3565485628785062988==
+--===============6604092881581331720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724065941 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724065942 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1724065940-1f2c610e8c6935ff41cd5848ac0e70290f4dc136
+nonce 1724065941-efedfbb2a5cca2159dc9fb40e3539a0d3d70a109
 
-62b9122a2a133e96c3b439477e2d931041765a12 7fb53b427e3e0e1a6cef02d130ff7d21cf098e74 refs/heads/linux-4.19.y
+5bb3c84a1185766460e392fe31ff8882f989c66b 055335f91e2280f5aee4bc15a715eb8abf0564cb refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbDKJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GYAP/ibbK3moN8mD9z1/YTeR
-7EDA90GpzlMBr3wj9niqjLT4ZdvwX/52h8m8ggb6v8fWRfI7pDTYL0xPt4bR1hg2
-jlHS4KlIZfQR4pKhkHwBNIMZUEh6EF9xcxKY9DeJQ1dm3taDVgP/RNKQATcM0EJ7
-Gv42bnLJE98b/25SReGUy+khgSYd51azMNbWneMSunHMnZ82k26wtIJtyy/p0RVZ
-nD6WVZfqFeIfdW6jiMx8prg0D0E//FuFlOtdKWbvQpCHcvvLPuTuA1jTJ12KbDxX
-ps7j6Q03eu96rUaYTSGEdi838b/kDjBayuOXDrXhICajWN1O45hD0+B3mAtsaq6w
-P9FP1hEDYKklBiuK5PBv+PnneN/5k+yWQXhidjIWcEtI5485bU8XqQQ2LOMqB4S0
-IGb1bzWIrD45QG8QKH0cWEDYlLyRCSvBMVFjDRiu86FFTmq6y7tPfFMT1Ve85yzD
-zv5EBnl2FTZLy0lwcQyMvhhtcDledNAXRh0VvQL9rsGmZ7bidPkYANWX3eVQjk31
-valPfKPyOkBEDuOH/hhUPbXKSGxmpGpN1rOwZ2VagmJDiZ19K89YRgNZ1oW4nE54
-V0/u+4/1RvwDkuLPmJ/7z9HmJQk5g5Aox3XeVA0lOW/kzXUn+TZktwHe8D4LNJee
-K00wsG/66U/B4XYSmVXkAsx7
-=OSMl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbDKJYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PzoP/AuSH2w3fMouFE2AtVdk
+WP5zZO7iY+zlZXk0bv6CIU7J4c1Xqp6E8bn+eX4oOmsVTnw1I+bfL5sLOz2/cC3m
+5eJq//1QUo35HRNJFWFYTsARF15+UhaQtVlGplfIwDKLigOYKvBp8XeeAAEzjpIq
+YS60TAlqykB5luCCN/AnKWMTtqZZ31arPbtGYURr5MggmikOSN7fy2EWj3aCKxmb
+Cj4VEzT1+g7yMKiC0POt9bLwmPmxWr3oK1skL5/ApLmOrS4KPYhjCIRuLq/AlEQJ
+ZIdId+lZHwmWWiKmibch2fY1MY46Qa8PCfNabXwE0eTwr6QMmCUBtTyZMF1aZ5gw
+7kiIAISNPXiUL/8t+RmaO4W02ppUVnoP2cuUc1kx81bE9ACAZvi0YlsTENLnAUe/
+NIf4tCixYC2xN8aaIfXhSfmH+KcvXyYS8OrC+/yVq39AotOww9zl15cTKOr7m2GY
+CMp4StRkPIYvIUdZlYk0m+baQaAr0Ub7+W2qv5ZwxZ2symCDmmlgqUjPAK6vxjHQ
+Slpvtnwm/EetMr1dFm8cVPD84iFjbrvoaNFf76ZKAvjwnYu3LhUozkgEeqNTs1/Q
+uDOHP8BI5jbtKtV+PLgVwdRxZJot96okj8h9AYVYGH064Y4B9lpBQ5aIXYdJa+gh
+CKRfA1WMNs0yZ0raEF88dtDJ
+=YhRf
 -----END PGP SIGNATURE-----
 
---===============3565485628785062988==
+--===============6604092881581331720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62b9122a2a13-7fb53b427e3e.txt
+Content-Disposition: attachment; filename=revlist-5bb3c84a1185-055335f91e22.txt
 
-5a04b1747d6c6a79f531a20c504cc1af093adc33 fuse: Initialize beyond-EOF page contents before setting uptodate
-290485c21b9cf729ffb8b9ac168886be27aadc90 ALSA: usb-audio: Support Yamaha P-125 quirk entry
-823fc1600e21214b7d9a55387ddf756640f2566d xhci: Fix Panther point NULL pointer deref at full-speed re-enumeration
-27e63019db8a121ca218041a5b0deaaada8f7733 arm64: ACPI: NUMA: initialize all values of acpi_early_node_map to NUMA_NO_NODE
-cb16adf7af48ab0b7766c7972d09afb55014fbfb dm resume: don't return EINVAL when signalled
-9835240807c34c27d8d5ed63190f74a8f8746c1c dm persistent data: fix memory allocation failure
-81f8e45bf017b046c5dd2167b8e6bfba18a6b379 bitmap: introduce generic optimized bitmap_size()
-bd36a3321af0caa2562dce7122a1661e300be706 fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
-a821f7acb12b8a93ff6478df214f6312d86d9c68 selinux: fix potential counting error in avc_add_xperms_decision()
-0ce5c13c7e5effb64a350d761a37ec270b12e9f6 drm/amdgpu: Actually check flags for all context ops.
-d4994f0810b11930a5c7900cb1e118d739d447bd memcg_write_event_control(): fix a user-triggerable oops
-15821203cff6ede3b70094793663fe91e7937ee5 s390/cio: rename bitmap_size() -> idset_bitmap_size()
-13ef4001e4db17d5964db735fa6f51e62ca1d250 btrfs: rename bitmap_set_bits() -> btrfs_bitmap_set_bits()
-7fb53b427e3e0e1a6cef02d130ff7d21cf098e74 Linux 4.19.321-rc1
+e66466c81b865f5c00987da3e0a0d1197061fec7 fuse: Initialize beyond-EOF page contents before setting uptodate
+40e3938d8ead81da3376317e9472a35259d1161f ALSA: usb-audio: Support Yamaha P-125 quirk entry
+1ae47318ea75b9a1591471753ffdecdcb38afdd5 xhci: Fix Panther point NULL pointer deref at full-speed re-enumeration
+6ba3d00ee70fa30146e807a142168537c3d47f18 s390/dasd: fix error recovery leading to data corruption on ESE devices
+e2218d633a802572248333310ea61eaf6a724657 arm64: ACPI: NUMA: initialize all values of acpi_early_node_map to NUMA_NO_NODE
+3dc9ace2d50ee7ec1580da933f1aeedc2ff16b50 dm resume: don't return EINVAL when signalled
+0a8a429aa9b1adcdc47ba6c2adcf4e2c9df38b07 dm persistent data: fix memory allocation failure
+fa63073ec57dcfc6d97f1fe7caacde96c79858cc vfs: Don't evict inode under the inode lru traversing context
+75d4e75f5235a53fabf4b0ca98d402cf79675562 bitmap: introduce generic optimized bitmap_size()
+140ed854ee3c2752b7aee162acda88d958927d79 fix bitmap corruption on close_range() with CLOSE_RANGE_UNSHARE
+3572a3c2964fe0bda26dc2d60b45ed736b2cb7e6 selinux: fix potential counting error in avc_add_xperms_decision()
+5c02dfaee89cd03d0015d40b7d7f9374c836e079 drm/amdgpu: Actually check flags for all context ops.
+93a1ac14ba3c3150df4afade63c44a85fc1c9e59 memcg_write_event_control(): fix a user-triggerable oops
+a297e826325308b022e73b95a09d2285bf22cc5f s390/cio: rename bitmap_size() -> idset_bitmap_size()
+03ac70c4b7bd02166ebd4497dc29c18d42016718 btrfs: rename bitmap_set_bits() -> btrfs_bitmap_set_bits()
+055335f91e2280f5aee4bc15a715eb8abf0564cb Linux 5.4.283-rc1
 
---===============3565485628785062988==--
+--===============6604092881581331720==--
