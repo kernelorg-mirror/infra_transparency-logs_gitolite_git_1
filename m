@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1105443243661178250=="
+Content-Type: multipart/mixed; boundary="===============8341794181253825995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 19 Aug 2024 04:34:05 -0000
-Message-Id: <172404204539.12072.14533934386762857876@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 04:34:20 -0000
+Message-Id: <172404206095.12256.16747898491262596048@gitolite.kernel.org>
 
---===============1105443243661178250==
+--===============8341794181253825995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1b573f4f85626831115ceb237965caf814b0cb95
-    new: d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5
+    old: d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5
+    new: d725cbe97a62c7165ce35f40f3e7faeb2d1a0cdb
     log: |
-         d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5 update entries based on new stable releases.
+         d725cbe97a62c7165ce35f40f3e7faeb2d1a0cdb update cvelistV5
          
 
---===============1105443243661178250==
+--===============8341794181253825995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724042044 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724042060 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1724042044-eeb2bf0aea6a7f5ce6c113d5804e21785ebabd68
+nonce 1724042060-d961b6ba8016bcbbfca32eed2a68f29601bb4c26
 
-1b573f4f85626831115ceb237965caf814b0cb95 d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5 refs/heads/master
+d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5 d725cbe97a62c7165ce35f40f3e7faeb2d1a0cdb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCyzwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mv8P/3/ZWZIE14Lzgdlvc3vq
-mi+5mx2Hgt7k6Ep68jyLfYoMQwl9XmqwIA+9c8/AlpUwNY62EKWgmi2RwjxLbi/5
-Klimv9g3/UCJBmhd3t+dVJc5q3l26TWptVuKbzvRTUFFZCe1KAeFRxOmD3WGMiVp
-kh2r+A5lJj7Iv1c6BbvyDo/r/6Kondu0cJ6U6TWRy40u1c6wlcBMoNMEBG9RPsZZ
-Q1yj2IOajKv0x51WbPu3n0g/8yAB+lQrr86c2RoEv9re4YJPidzxjVW2DYTFYBMy
-5134JsuoQcuQlcJnDfTV3SPSNzzy0SlP4QU7c5TqAiAqroZvwmdrwE1fQWxKIljF
-uEebCezx/G9oDXdOxCf/YDMJbmWSx7VJbyVM75qv7Te/1CDkEOy2+JHtsafqfPUN
-4+8gr02/+i8dnRcuasD6CZ7iae9XqiPoqQzgm4Lb8BAFc2cpb1RLjyLzGvsDrfyr
-uHD4FUeGHc/EyYcSQWVMamEXemtKX7/DbR2TKZMRFQht/KgENTb6imakUdR7PNWE
-DYHblv2TJSBpGjbtkwcl+JI8Bdrxtn/fdn9RtYn+j8+GMRF7G1jtNe58Txqjmq7s
-bNxiozGLWTopRWDa1Jt/qw9kK0/d39LZaTRMZYWc0pGjHjqbgeMkUu6yTodr6McB
-InD9+zCfC7zGkEjhQnKQUgOY
-=Uhyy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCy0wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9CkQAIeg16BDhDe/szrzS4za
+4gEqkRQU9nt3blUa2NdQOYbqQxZsQ/Jx/sf1J1p3YyFV+XW5/bTSR722JLqIw++b
+PRF24DKmFDGm8ufNAI2we6GMCwY2F1oYJTsvrgYytcBHRxopgIye7h7kdYp6WNQI
+i2JBBHoOLFMFjBFa1nlssalzZATcQMXOklDwR+h7RJsFpU1VWOwHp/xbGRUVkrqN
+betgVtuVPGU4hgRCyEvwam1Cw14+nau/xd5Fh+9Ek31m/YBpr6an9CeX3iHi6FgP
+8u8MWtaRyk25GdOA6L/OaeEknCnnpSBOgWymXqtAPT0YLTueBp5A+o2S/YWq9J7v
+C2mbkyqUyb5+NoqW0REUgdO2tc+UCNWuYMb3ZwOzjCrATK7Gg3yuiYARhP2Ud1tz
+78hQLkJpty11uKm4umf+F/opmKUJ8Fn4mOLDrMILJUv40BYag8J9mR3Ncp47ouZW
+493+hWdiMjd8wK+8e8n3fVR8TzPgSOnux2me+bD4fFw+eco55jB1ZuF7n1/nNgxr
+OHYGOa3Coi8/3x9ACPeQ0dfrQ4qy6T5K5oErzLqQ8vTZmTPE8ZXShxMXP+H8nyTD
+lNXkoqQI+qg8yHwlLe4Q6/ieAj08DKtdPHMEPhXI72VUOJ6ZcDSp/BwJZjQ7pgS8
+FGcZX1Cyw2ieR+4j6yJ0ti/6
+=rbHj
 -----END PGP SIGNATURE-----
 
---===============1105443243661178250==--
+--===============8341794181253825995==--
