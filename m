@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1070234582127086359=="
+Content-Type: multipart/mixed; boundary="===============0461907641591299036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 19 Aug 2024 04:54:38 -0000
-Message-Id: <172404327818.28655.12121035814342593161@gitolite.kernel.org>
+Date: Mon, 19 Aug 2024 04:55:12 -0000
+Message-Id: <172404331247.30567.14047503645864428358@gitolite.kernel.org>
 
---===============1070234582127086359==
+--===============0461907641591299036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-mika
     old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     new: 47ac09b91befbb6a235ab620c32af719f8208399
     log: revlist-7c626ce4bae1-47ac09b91bef.txt
 
---===============1070234582127086359==
+--===============0461907641591299036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -396,4 +396,4 @@ e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git:/
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
 
---===============1070234582127086359==--
+--===============0461907641591299036==--
