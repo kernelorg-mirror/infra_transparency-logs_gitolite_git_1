@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 19 Aug 2024 13:59:18 -0000
-Message-Id: <172407595815.7904.2957576603434652426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 19 Aug 2024 14:06:09 -0000
+Message-Id: <172407636919.13766.11141767518444092376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: be0927d5b3d2b523d076ebdcda244463d037e37c
-    new: 22b7e83a787a464b72a425aba28399f68b61d634
+  - ref: refs/heads/for-next
+    old: 41776e40082b06c79c3c069559d6ab6664394113
+    new: b29ba8f1f9429b775a8b901364a21291588c2a23
     log: |
-         cd8e468efb4fb2742e06328a75b282c35c1abf8d ACPI: video: Add Dell UART backlight controller detection
-         b5f0943001339c4d324a1af10470ce0bdd79f966 platform/x86: dell-uart-backlight: Use acpi_video_get_backlight_type()
-         5c7bb62cb8f53de71d8ab3d619be22740da0b837 ACPI: video: Add backlight=native quirk for Dell OptiPlex 7760 AIO
-         22b7e83a787a464b72a425aba28399f68b61d634 Merge branch 'acpi-video' into bleeding-edge
+         b29ba8f1f9429b775a8b901364a21291588c2a23 ALSA: hda/realtek: Convert existing CS35L56 products to use autodetect fixup function
+         
+  - ref: refs/heads/master
+    old: aac45155e6d5cbb38a294a66fbb196b45308d4fa
+    new: 0503cdd795df672ea0c16f1fd4741f382a2cd4b0
+    log: |
+         b29ba8f1f9429b775a8b901364a21291588c2a23 ALSA: hda/realtek: Convert existing CS35L56 products to use autodetect fixup function
+         0503cdd795df672ea0c16f1fd4741f382a2cd4b0 Merge branch 'for-next'
          
