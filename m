@@ -1,47 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 19 Aug 2024 04:31:37 -0000
-Message-Id: <172404189769.11106.15146769891882242303@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1105443243661178250=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 19 Aug 2024 04:34:05 -0000
+Message-Id: <172404204539.12072.14533934386762857876@gitolite.kernel.org>
+
+--===============1105443243661178250==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 206f533a0a7c683982af473079c4111f4a0f9f5e
-    new: aaa4ca873d3da768896ffc909795359a01e853ef
-    log: |
-         7ce7c2283fa6843ab3c2adfeb83dcc504a107858 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-         3d765ae2daccc570b3f4fbcb57eb321b12cdded2 Input: i8042 - add forcenorestore quirk to leave controller untouched even on s3
-         aaa4ca873d3da768896ffc909795359a01e853ef Input: i8042 - use new forcenorestore quirk to replace old buggy quirk combination
-         
   - ref: refs/heads/master
-    old: 63f92f11385dc3b1990e5af1d6412c22c71d7342
-    new: 4e12e550936364660b056116c848b82bf73aa8b6
+    old: 1b573f4f85626831115ceb237965caf814b0cb95
+    new: d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5
     log: |
-         14d650fcb7fb57f121fda361b9f63eeefd8d59a5 Input: synaptics-rmi4 - add support for querying DPM value (F12)
-         7d0b18cd5dc7429917812963611d961fd93cb44d Input: ilitek_ts_i2c - avoid wrong input subsystem sync
-         208989744a6f01bed86968473312d4e650e600b3 Input: ilitek_ts_i2c - add report id message validation
-         2c71e987f0af7b91195d52aebe074b9e2d5423b8 Input: ilitek_ts_i2c - stop including gpio.h
-         7925312eca64ef7de8c149ea80e1411be7df4679 Input: cyttsp - stop including gpio.h
-         ae25dbac2ecced6b5825992449f2bd8bee3466ae Input: cyttsp - use devm_regulator_bulk_get_enable()
-         25162a4f64f8ba0065f300977589fe1f6af332f0 Input: cyttsp4 - remove driver
-         4e12e550936364660b056116c848b82bf73aa8b6 dt-bindings: input: touchscreen: convert ad7879 to yaml format
+         d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5 update entries based on new stable releases.
          
-  - ref: refs/heads/next
-    old: 63f92f11385dc3b1990e5af1d6412c22c71d7342
-    new: 4e12e550936364660b056116c848b82bf73aa8b6
-    log: |
-         14d650fcb7fb57f121fda361b9f63eeefd8d59a5 Input: synaptics-rmi4 - add support for querying DPM value (F12)
-         7d0b18cd5dc7429917812963611d961fd93cb44d Input: ilitek_ts_i2c - avoid wrong input subsystem sync
-         208989744a6f01bed86968473312d4e650e600b3 Input: ilitek_ts_i2c - add report id message validation
-         2c71e987f0af7b91195d52aebe074b9e2d5423b8 Input: ilitek_ts_i2c - stop including gpio.h
-         7925312eca64ef7de8c149ea80e1411be7df4679 Input: cyttsp - stop including gpio.h
-         ae25dbac2ecced6b5825992449f2bd8bee3466ae Input: cyttsp - use devm_regulator_bulk_get_enable()
-         25162a4f64f8ba0065f300977589fe1f6af332f0 Input: cyttsp4 - remove driver
-         4e12e550936364660b056116c848b82bf73aa8b6 dt-bindings: input: touchscreen: convert ad7879 to yaml format
-         
+
+--===============1105443243661178250==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724042044 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1724042044-eeb2bf0aea6a7f5ce6c113d5804e21785ebabd68
+
+1b573f4f85626831115ceb237965caf814b0cb95 d1ef231965a2fcb0865eecd8d95f08e7cd2c34d5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbCyzwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mv8P/3/ZWZIE14Lzgdlvc3vq
+mi+5mx2Hgt7k6Ep68jyLfYoMQwl9XmqwIA+9c8/AlpUwNY62EKWgmi2RwjxLbi/5
+Klimv9g3/UCJBmhd3t+dVJc5q3l26TWptVuKbzvRTUFFZCe1KAeFRxOmD3WGMiVp
+kh2r+A5lJj7Iv1c6BbvyDo/r/6Kondu0cJ6U6TWRy40u1c6wlcBMoNMEBG9RPsZZ
+Q1yj2IOajKv0x51WbPu3n0g/8yAB+lQrr86c2RoEv9re4YJPidzxjVW2DYTFYBMy
+5134JsuoQcuQlcJnDfTV3SPSNzzy0SlP4QU7c5TqAiAqroZvwmdrwE1fQWxKIljF
+uEebCezx/G9oDXdOxCf/YDMJbmWSx7VJbyVM75qv7Te/1CDkEOy2+JHtsafqfPUN
+4+8gr02/+i8dnRcuasD6CZ7iae9XqiPoqQzgm4Lb8BAFc2cpb1RLjyLzGvsDrfyr
+uHD4FUeGHc/EyYcSQWVMamEXemtKX7/DbR2TKZMRFQht/KgENTb6imakUdR7PNWE
+DYHblv2TJSBpGjbtkwcl+JI8Bdrxtn/fdn9RtYn+j8+GMRF7G1jtNe58Txqjmq7s
+bNxiozGLWTopRWDa1Jt/qw9kK0/d39LZaTRMZYWc0pGjHjqbgeMkUu6yTodr6McB
+InD9+zCfC7zGkEjhQnKQUgOY
+=Uhyy
+-----END PGP SIGNATURE-----
+
+--===============1105443243661178250==--
