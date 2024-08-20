@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 20 Aug 2024 12:21:21 -0000
-Message-Id: <172415648136.13974.18074236644126498823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 20 Aug 2024 12:39:07 -0000
+Message-Id: <172415754713.26361.15002317909642726915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/kvm-arm64/fpmr
-    old: d04cbd7606945bf13d957a70cc7fda233f04caca
-    new: 025d6532b00cda34e8971141bedcd7d8b8a9fa44
+  - ref: refs/heads/kdevops
+    old: 618c43de03f772b207607180141e2fe1f3ccbcf9
+    new: 1aa85e0149ac43616f7ff77859bdfe96b662bf0e
     log: |
-         025d6532b00cda34e8971141bedcd7d8b8a9fa44 KVM: arm64: Expose ID_AA64PFR2_EL1 to userspace and guests
+         1aa85e0149ac43616f7ff77859bdfe96b662bf0e DEBUG: add some trace_printks
          
