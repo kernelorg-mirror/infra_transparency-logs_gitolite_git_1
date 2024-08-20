@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 20 Aug 2024 08:37:15 -0000
-Message-Id: <172414303581.30288.6436165396938060955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Tue, 20 Aug 2024 08:47:29 -0000
+Message-Id: <172414364981.4936.10630512447835360324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 1cb6ab446424649f03c82334634360c2e3043684
-    new: 50f2b98dc83de7809a5c5bf0ccf9af2e75c37c13
-    log: |
-         50f2b98dc83de7809a5c5bf0ccf9af2e75c37c13 MIPS: cevt-r4k: Don't call get_c0_compare_int if timer irq is installed
-         
+  - ref: refs/heads/for-6.12
+    old: 0000000000000000000000000000000000000000
+    new: c4b3c1332f55c48785e6661cebeb7269a92a45fd
