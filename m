@@ -1,170 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0364860013429225082=="
+Content-Type: multipart/mixed; boundary="===============2509120046101356133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 20 Aug 2024 03:54:16 -0000
-Message-Id: <172412605621.16343.12542683244407764832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 20 Aug 2024 03:54:24 -0000
+Message-Id: <172412606487.16532.20868308187127105@gitolite.kernel.org>
 
---===============0364860013429225082==
+--===============2509120046101356133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-current
-    old: 821df8c2c7643908191ce0232e03e08e4cfa7472
-    new: a0694fc7a4c22309433d5a18eae3943aa2b206d2
-    log: revlist-821df8c2c764-a0694fc7a4c2.txt
-  - ref: refs/heads/fs-next
-    old: 63e48bdc17538d699b68f737f5a66a613e1ac967
-    new: d7cf76b6fd7636b6df9fe9880788344c23ef96fc
-    log: revlist-63e48bdc1753-d7cf76b6fd76.txt
   - ref: refs/heads/master
     old: 469f1bad3c1c6e268059f78c0eec7e9552b3894c
     new: bb1b0acdcd66e0d8eedee3570d249e076b89ab32
     log: revlist-469f1bad3c1c-bb1b0acdcd66.txt
-  - ref: refs/heads/pending-fixes
-    old: 9675ba1ff716baea4302c5a11e926d444f2d2ae0
-    new: 137108eea6fb72fb5c5d3025c814fff4554e376e
-    log: revlist-9675ba1ff716-137108eea6fb.txt
-  - ref: refs/heads/stable
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
-    new: 6e4436539ae182dc86d57d13849862bcafaa4709
-    log: |
-         a6e9c391d45b5865b61e569146304cff72821a5d HID: cougar: fix slab-out-of-bounds Read in cougar_report_fixup
-         d1aa95e86f178dc597e80228cd9bd81fc3510f34 hid-asus: add ROG Ally X prod ID to quirk list
-         97155021ae17b86985121b33cf8098bcde00d497 HID: amd_sfh: free driver_data after destroying hid device
-         c8000deb68365b461b324d68c7ea89d730f0bb85 HID: multitouch: Add support for GT7868Q
-         1b8f9c1fb464968a5b18d3acc1da8c00bad24fad HID: wacom: Defer calculation of resolution until resolution_code is known
-         bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
-         b0da640826ba3b6506b4996a6b23a429235e6923 Merge tag 'printk-for-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-         6e4436539ae182dc86d57d13849862bcafaa4709 Merge tag 'hid-for-linus-2024081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-         
-  - ref: refs/tags/next-20240520
-    old: 1c9c3d799dc5e112e5cebf11d82ad42380e1db59
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240820
     old: 0000000000000000000000000000000000000000
     new: 35e11837bc272ed00c41cd02a5b7f0348efe0331
 
---===============0364860013429225082==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-821df8c2c764-a0694fc7a4c2.txt
-
-a6e9c391d45b5865b61e569146304cff72821a5d HID: cougar: fix slab-out-of-bounds Read in cougar_report_fixup
-d1aa95e86f178dc597e80228cd9bd81fc3510f34 hid-asus: add ROG Ally X prod ID to quirk list
-97155021ae17b86985121b33cf8098bcde00d497 HID: amd_sfh: free driver_data after destroying hid device
-c8000deb68365b461b324d68c7ea89d730f0bb85 HID: multitouch: Add support for GT7868Q
-1b8f9c1fb464968a5b18d3acc1da8c00bad24fad HID: wacom: Defer calculation of resolution until resolution_code is known
-bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
-5b5c96c63d5b6e91c622611e04b2b156bbae53f5 erofs: simplify readdir operation
-2c534624ae70100aeea0b5800b0f3768b2fd3cf0 erofs: get rid of check_layout_compatibility()
-e080a26725fb36f535f22ea42694c60ab005fb2e erofs: allow large folios for compressed files
-24f4c0e2ba99adadaee27413fc974ddfcf6cf031 vfs: drop one lock trip in evict()
-975ed18e8293e24fef33225b66fef6a85242d22b netfs, ceph: Partially revert "netfs: Replace PG_fscache by setting folio->private and marking dirty"
-ce22af435a2e7b3f7ce56292dd0fac9a19b6ccb5 romfs: fix romfs_read_folio()
-780d60bac21ebee5c2465d21fe51b67bb9b054db Revert "pidfd: prevent creation of pidfds for kthreads"
-b0da640826ba3b6506b4996a6b23a429235e6923 Merge tag 'printk-for-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-6e4436539ae182dc86d57d13849862bcafaa4709 Merge tag 'hid-for-linus-2024081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-b3ff26e88346d884ab9f3998b9639ee9d998e4c7 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-08e15bbf98bb3b9a48aeb459e569db1688acd862 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-a0694fc7a4c22309433d5a18eae3943aa2b206d2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-
---===============0364860013429225082==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63e48bdc1753-d7cf76b6fd76.txt
-
-a6e9c391d45b5865b61e569146304cff72821a5d HID: cougar: fix slab-out-of-bounds Read in cougar_report_fixup
-d1aa95e86f178dc597e80228cd9bd81fc3510f34 hid-asus: add ROG Ally X prod ID to quirk list
-97155021ae17b86985121b33cf8098bcde00d497 HID: amd_sfh: free driver_data after destroying hid device
-c8000deb68365b461b324d68c7ea89d730f0bb85 HID: multitouch: Add support for GT7868Q
-1b8f9c1fb464968a5b18d3acc1da8c00bad24fad HID: wacom: Defer calculation of resolution until resolution_code is known
-bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
-d6d539c9a7ad0655e5ad46b5e869f1b20bce8953 bcachefs: Reallocate table when we're increasing size
-d9f49c3106e404776afcf6c5682357f4fe088beb bcachefs: fix field-spanning write warning
-47cdc7b14417a40af6a5d5909f1d28a5a23fc11d bcachefs: Fix incorrect gfp flags
-35eab307b9138b6d59116e0235c9898e7a676b15 inode: make __iget() a static inline
-aa2a92f986caab288f3a3cf2f042640e8acccd7f bcachefs: switch to rhashtable for vfs inodes hash
-d0bfdf4854fbe962f2027664d0397394a865ce93 bcachefs: Fix deadlock in __wait_on_freeing_inode()
-d5872acebc8d00c42ab37fe23d69b129bcc82964 bcachefs: Extra debug for data move path
-b3eeb941ebff48ffab35571a4fa1358d604a07d5 bcachefs: bch2_data_update_init() cleanup
-df6bb7c7816f06d88013c2da3f8523caa27adff6 bcachefs: Fix "trying to move an extent, but nr_replicas=0"
-ef4d5c5a526eaa5c5c9a961d6828b85268f5a550 bcachefs: setting bcachefs_effective.* xattrs is a noop
-6323b4612a015d8b409b0ba8328ec03b0b37b52b bcachefs: Fix failure to relock in btree_node_get()
-f54ad571f5a28d34fdcd27e3049ed0f786d50381 bcachefs: Fix bch2_trigger_alloc assert
-6e0f188e87a1daa90cee6826336480f810a0eb6f bcachefs: Fix bch2_bucket_gens_init()
-0083971722f711a40cff462cb95cc96bb0c3e186 scripts/decode_stacktrace.sh: nix-ify
-f250bdaf2444b59ff643d3e5f6836d067c8ddd71 bcachefs: data_allowed is now an opts.h option
-ed6e9f54085e6d303eb9f1e45143707936214f2a bcachefs: bch2_opt_set_sb() can now set (some) device options
-b8b1a44cd74c4fb3877c44ae0cec8cb12b6bd390 bcachefs: Opt_durability can now be set via bch2_opt_set_sb()
-a7e77f7b018c8495fad71baefac4cbf1a450a3e9 bcachefs: allocate inode by using alloc_inode_sb()
-1341ef1494c0c57e63491be1d4824de6a9689fca bcachefs: Mark bch_inode_info as SLAB_ACCOUNT
-da9c911693df348a5ac0928ef5891fd7e14dde33 bcachefs: Add check for btree_path ref overflow
-9bac13b644e4795d6d14ffdf68fe74e26237ffae bcachefs: Btree path tracepoints
-eb573edfbdaba3a32a3f91d0ccee643199548375 bcachefs: kill bch2_btree_iter_peek_and_restart()
-9c3ee3e6463cef00e26d574629d7c3c54c74c846 bcachefs: bchfs_read(): call trans_begin() on every loop iter
-646eb5582eee758ecdcf2f8f8f0ba4c104f4e00c bcachefs: bch2_fiemap(): call trans_begin() on every loop iter
-238b3e2485067248bdc367628b6f168c4aade278 bcachefs: for_each_btree_key_in_subvolume_upto()
-8e1885fbebd42a101c99c0dd4c09f474ef782421 bcachefs: bch2_readdir() -> for_each_btree_key_in_subvolume_upto
-86d97c189bf7c4fb20c72939a4a675f509281788 bcachefs: bch2_xattr_list() -> for_each_btree_key_in_subvolume_upto
-e2eedf3c37f19c1a021a15f80467b1aea0d6a2e6 bcachefs: bch2_seek_data() -> for_each_btree_key_in_subvolume_upto
-f455e7fa4855661b72e6e0a24f6e77103379a2c2 bcachefs: bch2_seek_hole() -> for_each_btree_key_in_subvolume_upto
-f12673841e14d21ba3c9580a1d803735d2974778 bcachefs: range_has_data() -> for_each_btree_key_in_subvolume_upto
-e88eced3199256c09b1fbbd08deb21fe7fc4c4ab bcachefs: bch2_folio_set() -> for_each_btree_key_in_subvolume_upto
-07410fc998e8898fe52517395f7ed27e2d9942f2 bcachefs: quota_reserve_range() -> for_each_btree_key_in_subvolume_upto
-60d665585e020f6dde108fc8e3116597f1728da5 bcachefs: remove the unused macro definition
-275fc872e06aeee9057f3f7a4a9ee01598666283 bcachefs: fix macro definition allocate_dropping_locks_errcode
-552b6d4fd68b9a0e957c1055b69dc6f01701eae9 bcachefs: fix macro definition allocate_dropping_locks
-22daedff6b6d34e963f3962d2071aa850e461fb1 bcachefs: remove the unused parameter in macro bkey_crc_next
-8fe8c59100ac15d39e859aa879f4ae19e3051d9f bcachefs: Move rebalance_status out of sysfs/internal
-5c26e718b98c0b8438cefa7abce9fe7335c9665f bcachefs: promote_whole_extents is now a normal option
-3350c568653293d2a823c842ddd884a7692b4c77 bcachefs: Fix a spelling error in docs
-736e250c375f2e857a16925c4e9175d007061d0d bcachefs: trivial open_bucket_add_buckets() cleanup
-97f84461aa69b43faa94e055f833692e2a2fa0c3 bcachefs: bch2_sb_nr_devices()
-fd6690729fd861482e274a3c8cfbf4ecc7972348 bcachefs: Remove unused parameter of bkey_mantissa
-66422da644853299523578eccd1c64cb1ab28974 bcachefs: Remove unused parameter of bkey_mantissa_bits_dropped
-b4eef82769e600c069986d4e0b748133fd5c8e7f bcachefs: Remove dead code in __build_ro_aux_tree
-ede948e6cb0a1a1a5e6cfa6cc9f7c51f41583b53 bcachefs: Convert open-coded extra computation to helper
-990d27c0552d2cbed0c77248c26d3d2c3af8e74f bcachefs: Minimize the search range used to calculate the mantissa
-6e10919ac0dbb84bf7773d8c68d406cae15a4a53 bcachefs: Remove the prev array stuff
-b74848e8e06311e47f6eabef5ba28c8e4bb68426 bcachefs: Remove unused parameter
-3276ed6c27c11e56010d310df2307095b1676f5d bcachefs: drop unused posix acl handlers
-62439c6f1a6dba3fca1e57f352745d6e36dd1e31 bcachefs: Simplify bch2_xattr_emit() implementation
-5b5c96c63d5b6e91c622611e04b2b156bbae53f5 erofs: simplify readdir operation
-2c534624ae70100aeea0b5800b0f3768b2fd3cf0 erofs: get rid of check_layout_compatibility()
-e080a26725fb36f535f22ea42694c60ab005fb2e erofs: allow large folios for compressed files
-24f4c0e2ba99adadaee27413fc974ddfcf6cf031 vfs: drop one lock trip in evict()
-975ed18e8293e24fef33225b66fef6a85242d22b netfs, ceph: Partially revert "netfs: Replace PG_fscache by setting folio->private and marking dirty"
-ce22af435a2e7b3f7ce56292dd0fac9a19b6ccb5 romfs: fix romfs_read_folio()
-780d60bac21ebee5c2465d21fe51b67bb9b054db Revert "pidfd: prevent creation of pidfds for kthreads"
-b0da640826ba3b6506b4996a6b23a429235e6923 Merge tag 'printk-for-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-6e4436539ae182dc86d57d13849862bcafaa4709 Merge tag 'hid-for-linus-2024081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-b3ff26e88346d884ab9f3998b9639ee9d998e4c7 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-08e15bbf98bb3b9a48aeb459e569db1688acd862 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-a0694fc7a4c22309433d5a18eae3943aa2b206d2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-326c35f37a86eab69a4a82671cd0f13f51901fab Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-ef4a2f6aaca423b706fa4a4653a4fc34849a6cd9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-9bb6a49a7cc77d6ec34b093705f2fa4319ba121f Merge branch 'master' of git://github.com/ceph/ceph-client.git
-58b7c8fc7991d303aad9dc377b637884d24ce88b Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-9691f59b848ced75d5956f3bf791622035080220 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-7ba2482073a7d97777c367016eced87daf03514c Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-14be997169e4a585fc9abb38f19b3c4ea13ce8ea Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-2168d01323ed27b79649cca365335f5c29c640fa Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-0ece3e2e854dd4366fd1fb68a0847376241cf633 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-48e5f2ec2de139778c184e1fe71f9a8824161b47 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
-b269cf16e0ca314ea8c190473e6f6c1d14e665c7 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-c09f09a39f86374a51cc4f628f61a4703a80a5f3 Merge branch '9p-next' of git://github.com/martinetd/linux
-d7cf76b6fd7636b6df9fe9880788344c23ef96fc next-20240819/vfs-brauner
-
---===============0364860013429225082==
+--===============2509120046101356133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -608,72 +467,4 @@ f8092bcacfdffc49904a5607ac7b038dfdb34d8f Merge branch 'next' of git://git.kernel
 0dec408547d2a9e21ea44eab538a1ca852f0be0d Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 bb1b0acdcd66e0d8eedee3570d249e076b89ab32 Add linux-next specific files for 20240820
 
---===============0364860013429225082==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9675ba1ff716-137108eea6fb.txt
-
-a6e9c391d45b5865b61e569146304cff72821a5d HID: cougar: fix slab-out-of-bounds Read in cougar_report_fixup
-d1aa95e86f178dc597e80228cd9bd81fc3510f34 hid-asus: add ROG Ally X prod ID to quirk list
-97155021ae17b86985121b33cf8098bcde00d497 HID: amd_sfh: free driver_data after destroying hid device
-c8000deb68365b461b324d68c7ea89d730f0bb85 HID: multitouch: Add support for GT7868Q
-1b8f9c1fb464968a5b18d3acc1da8c00bad24fad HID: wacom: Defer calculation of resolution until resolution_code is known
-bcc954c6caba01fca143162d5fbb90e46aa1ad80 printk/panic: Allow cpu backtraces to be written into ringbuffer during panic
-5b5c96c63d5b6e91c622611e04b2b156bbae53f5 erofs: simplify readdir operation
-2c534624ae70100aeea0b5800b0f3768b2fd3cf0 erofs: get rid of check_layout_compatibility()
-7ce7c2283fa6843ab3c2adfeb83dcc504a107858 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-5d41eeb6725e3e24853629e5d7635e4bc45d736e drm/i915/hdcp: Use correct cp_irq_count
-3d765ae2daccc570b3f4fbcb57eb321b12cdded2 Input: i8042 - add forcenorestore quirk to leave controller untouched even on s3
-aaa4ca873d3da768896ffc909795359a01e853ef Input: i8042 - use new forcenorestore quirk to replace old buggy quirk combination
-a9aaf1ff88a8cb99a1335c9eb76de637f0cf8c10 power: sequencing: request the WLAN enable GPIO as-is
-e080a26725fb36f535f22ea42694c60ab005fb2e erofs: allow large folios for compressed files
-24f4c0e2ba99adadaee27413fc974ddfcf6cf031 vfs: drop one lock trip in evict()
-56314c0d78d6f5a60c8804c517167991a879e14a ALSA: hda/realtek: Enable mute/micmute LEDs on HP Laptop 14-ey0xxx
-975ed18e8293e24fef33225b66fef6a85242d22b netfs, ceph: Partially revert "netfs: Replace PG_fscache by setting folio->private and marking dirty"
-ce22af435a2e7b3f7ce56292dd0fac9a19b6ccb5 romfs: fix romfs_read_folio()
-780d60bac21ebee5c2465d21fe51b67bb9b054db Revert "pidfd: prevent creation of pidfds for kthreads"
-32108c22ac619c32dd6db594319e259b63bfb387 ALSA: seq: Skip event type filtering for UMP events
-7167395a4be7930ecac6a33b4e54d7e3dd9ee209 selftests: udpgro: report error when receive failed
-d7818402b1d80347c764001583f6d63fa68c2e1a selftests: udpgro: no need to load xdp for gro
-1e557246f8dbdb476f7112ab58d2de947f22acc5 Merge branch 'selftests-udpgro-fixes'
-cf1e515c9a40caa8bddb920970d3257bb01c1421 iommufd/selftest: Make dirty_ops static
-565d121b69980637f040eb4d84289869cdaabedf tcp: prevent concurrent execution of tcp_sk_exit_batch
-b0da640826ba3b6506b4996a6b23a429235e6923 Merge tag 'printk-for-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-6e4436539ae182dc86d57d13849862bcafaa4709 Merge tag 'hid-for-linus-2024081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-b3ff26e88346d884ab9f3998b9639ee9d998e4c7 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-08e15bbf98bb3b9a48aeb459e569db1688acd862 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-a0694fc7a4c22309433d5a18eae3943aa2b206d2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-40995bcedfba539462ee4ba07404330db13bcfa8 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-822bd6a4d771c6cbe551b11068c5a99461242f55 Merge branch 'fs-current' of linux-next
-a07f5f8965ee453f457fbfb90fc1c7ff3e5130cf Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-e04cb7d6fd7734cfe6391c21a10391e0d6da13b3 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-1b8b87d0dc4a8a28b90413cc9bd3c806b02896c2 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-1275721276e223f8075ae994bd8a180c8cb6bfe3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-55ded1c7a8b90ed879f2ee0fb089631dc56c76aa Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-7468590dc6542adf8da69c6814f3dc946f804eff Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-da9a0253d7b8d5cb0952d8ead4329c58d5a77f4e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-719ce32899c3be065e3deac0073c3d865a7d8026 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-119344b06364e4bd8c230165a2a62e536b9e6c9a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-fb08f8915d410898c8e6bddc0a97f1b41acd6fce Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-eaed0d720224992a321b3dbea24f064bb03cd3f2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-8fcda09d70eb627373b9bf76543d61f4d8d97186 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-c69f30307711bde2b98dceb243aebf5983bd24c1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-01225a9cff1258443939382f1dad7abfc01723ae Merge branch 'mips-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux.git
-d6d85dd8819369cd3f9352cb0b29692324f46696 Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-c4ee9f41050600f657031c0fce99271f4ced7a3f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git
-5098ea6531a9fd5ced80d017bd95b53c5b22866f Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-809529209296ffbee831748345f35f5c1b47b102 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-e9607bf2b5f1fa45ac34ab35e673e901bc080b87 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-e7fb81ee9389babff9dd01d5b6a96fee89220865 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-82263856e82f38db3926d3cc955c05dd2ef58e78 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel
-c3344c6d2589688be778cc6c9773f1b42d903d28 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-41abab65fc6a4b7f45d453a9c8419247be7b1a0c Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-e93f15ab289e7c7771648597f818dcb7c7d90517 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-18a9416a81b3f2eb1a7a9ecaeb4725eff8278aa9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-f5632db42c535ab4d8c3f6066a68f7fed7ea6375 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
-a5e4213e26f195c446078ced5f9bc6f5fda7bf31 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
-7dca2fb48a96f03d7144349d1686c119f17a3f9a Merge branch 'pwrseq/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-137108eea6fb72fb5c5d3025c814fff4554e376e Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============0364860013429225082==--
+--===============2509120046101356133==--
