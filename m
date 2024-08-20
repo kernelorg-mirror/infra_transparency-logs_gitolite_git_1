@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Aug 2024 21:52:28 -0000
-Message-Id: <172419074850.15741.9991195515552280094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 20 Aug 2024 22:11:11 -0000
+Message-Id: <172419187118.30480.7377010178092985731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/100GbE
-    old: 7565c39da89dc6ac9b1b0733bd70276bc66612b1
-    new: 503ab6ee40fc103ea55cc9e50bb879e571d65aac
+  - ref: refs/heads/arm64-for-6.12
+    old: 8312d0f20f835a58d89edb1d55bf9a0f2aeceafa
+    new: b45af698d5114f9b666c7d8b58a9111d0526d7f7
     log: |
-         50b2143356e888777fc5bca023c39f34f404613a ice: fix page reuse when PAGE_SIZE is over 8k
-         b966ad832942b5a11e002f9b5ef102b08425b84a ice: fix ICE_LAST_OFFSET formula
-         d53d4dcce69be5773e2d0878c9899ebfbf58c393 ice: fix truesize operations for PAGE_SIZE >= 8192
-         503ab6ee40fc103ea55cc9e50bb879e571d65aac ice: use internal pf id instead of function number
+         b45af698d5114f9b666c7d8b58a9111d0526d7f7 arm64: dts: qcom: sa8775p: fix the fastrpc label
+         
+  - ref: refs/heads/drivers-fixes-for-6.11
+    old: 924fc22c282edbf93869b150d9e1b47e0b10485e
+    new: 8d856ad26551f9a9f428a73bf422e81c98e774ae
+    log: |
+         e4bff3088afc459687ed90c6584c443bcb5fba90 soc: qcom: pmic_glink: Fix race during initialization
+         15f19bc3de2ab0a5ece2e6aa34f626b38e9317cc usb: typec: ucsi: Move unregister out of atomic section
+         8d856ad26551f9a9f428a73bf422e81c98e774ae soc: qcom: pmic_glink: Actually communicate when remote goes down
          
