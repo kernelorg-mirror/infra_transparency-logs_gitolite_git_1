@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 20 Aug 2024 14:24:12 -0000
-Message-Id: <172416385241.6954.18319586751401685440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 20 Aug 2024 14:26:17 -0000
+Message-Id: <172416397751.9412.16906705022052214173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/filenw1IbX
-    old: 0000000000000000000000000000000000000000
-    new: 1004f34d4f4a59aa5508c3b96069759efa738544
+  - ref: refs/heads/kdevops
+    old: 1aa85e0149ac43616f7ff77859bdfe96b662bf0e
+    new: a83b9f4529b886b722448ba3560a662143f5171f
+    log: |
+         a83b9f4529b886b722448ba3560a662143f5171f SQUASH: fix up supported attrs mask
+         
