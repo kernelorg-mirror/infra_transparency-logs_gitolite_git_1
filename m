@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Tue, 20 Aug 2024 19:34:02 -0000
-Message-Id: <172418244279.10522.12923130488195274189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 20 Aug 2024 19:39:26 -0000
+Message-Id: <172418276673.15436.1039939348882089131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/kdevops
-    old: 6802ec2047c889df8020276a75f6096ac81f4da0
-    new: f640392f6f665e69513c68ddd4577033ed51cbb7
+  - ref: refs/heads/for-6.12
+    old: 8dffaec34dd55473adcbc924a4c9b04aaa0d4278
+    new: 9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3
     log: |
-         f640392f6f665e69513c68ddd4577033ed51cbb7 generic/755: test that inode's ctime is updated on unlink
+         9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3 workqueue: Don't call va_start / va_end twice
+         
+  - ref: refs/heads/for-next
+    old: 7b0b5f2609dca7676e6ccb12cbf0a8c2a6990dfb
+    new: 22de962e8a691e86283c9aa3819caca1f963ae15
+    log: |
+         9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3 workqueue: Don't call va_start / va_end twice
+         22de962e8a691e86283c9aa3819caca1f963ae15 Merge branch 'for-6.12' into for-next
          
