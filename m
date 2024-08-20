@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 20 Aug 2024 10:27:38 -0000
-Message-Id: <172414965882.26472.12024989654964555616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Tue, 20 Aug 2024 10:44:43 -0000
+Message-Id: <172415068383.6396.2113645791124255523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: pablo
 changes:
   - ref: refs/heads/main
-    old: 565d121b69980637f040eb4d84289869cdaabedf
-    new: a0b39e2dc7017ac667b70bdeee5293e410fab2fb
+    old: 1bf8e07c382bd4f04ede81ecc05267a8ffd60999
+    new: c88baabf16d1ef74ab8832de9761226406af5507
     log: |
-         ce335db0621648472f9bb4b7191eb2e13a5793cf net: mctp: test: Use correct skb for route input check
-         807067bf014d4a3ae2cc55bd3de16f22a01eb580 kcm: Serialise kcm_sendmsg() for the same socket.
-         1eacdd71b3436b54d5fc8218c4bb0187d92a6892 netfilter: nft_counter: Disable BH in nft_counter_offload_stats().
-         a0b39e2dc7017ac667b70bdeee5293e410fab2fb netfilter: nft_counter: Synchronize nft_counter_reset() against reader.
+         26a77d02891ab62172085a4f94af9b3c90aed387 netfilter: nfnetlink_queue: unbreak SCTP traffic
+         4e97d521c2be094718c4c5c7c4f785e8972b4af0 selftests: netfilter: nft_queue.sh: sctp coverage
+         e2444c1d463995477fb447be9d0c54150a5c393b netfilter: nfnetlink: convert kfree_skb to consume_skb
+         c1aa38866b9c58dc6cf7a5fc6a3e1ca75565169e netfilter: nf_tables: store new sets in dedicated list
+         c9526aeb4998393171d85225ff540e28c7d4ab86 netfilter: nf_tables: do not remove elements if set backend implements .abort
+         d5283b47e225e1473e1a07085b9c4e6bfd08ba51 netfilter: move nf_ct_netns_get out of nf_conncount_init
+         7ea0522ef81a335c2d3a0ab1c8a4fab9a23c4a03 netfilter: nf_tables: pass context structure to nft_parse_register_load
+         14fb07130c7ddd257e30079b87499b3f89097b09 netfilter: nf_tables: allow loads only when register is initialized
+         c88baabf16d1ef74ab8832de9761226406af5507 netfilter: nf_tables: don't initialize registers in nft_do_chain()
          
