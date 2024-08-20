@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Aug 2024 00:50:16 -0000
-Message-Id: <172411501658.7639.5021504122166283834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 20 Aug 2024 00:55:33 -0000
+Message-Id: <172411533324.11233.10957054694458262653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/main
-    old: 565d121b69980637f040eb4d84289869cdaabedf
-    new: ce335db0621648472f9bb4b7191eb2e13a5793cf
+  - ref: refs/heads/lkxdrgen
+    old: 81853e5d2cd33ad82a871195721339bde51dc425
+    new: 3c2fb7dc0370a90745a3370ad5765065a4e501ed
     log: |
-         ce335db0621648472f9bb4b7191eb2e13a5793cf net: mctp: test: Use correct skb for route input check
+         36fedaa91adb507461dd5b7c14fb6a50f07570dc tools: Add xdrgen
+         a1e8f7a51b718a88ce00d0065081a6111cf3ea26 Documentation: Add XDR specifications for RPC-based protocols
+         3c2fb7dc0370a90745a3370ad5765065a4e501ed NFSD: Create an initial nfs4_1.x file
          
