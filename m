@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8889444447751822432=="
+Content-Type: multipart/mixed; boundary="===============5479335132191302568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 20 Aug 2024 00:59:02 -0000
-Message-Id: <172411554202.12524.2373201397703782225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 20 Aug 2024 00:59:09 -0000
+Message-Id: <172411554975.12664.8394173487504233004@gitolite.kernel.org>
 
---===============8889444447751822432==
+--===============5479335132191302568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 6236ebe07131a7746d870f1d8eb3637a8df13e70
     log: revlist-3bce87eb744f-6236ebe07131.txt
 
---===============8889444447751822432==
+--===============5479335132191302568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ a8656614ebe017a0487ba9f85213910c09e89c59 perf test: Expand pipe/inject test
 5cc698bad72667cf80097dece6b91efbb4a1a0a7 perf test: Add cgroup sampling test
 6236ebe07131a7746d870f1d8eb3637a8df13e70 perf daemon: Fix the build on more 32-bit architectures
 
---===============8889444447751822432==--
+--===============5479335132191302568==--
