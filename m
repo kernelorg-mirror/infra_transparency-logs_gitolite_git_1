@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============8994319213209242934=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Aug 2024 16:39:44 -0000
-Message-Id: <172417198497.12316.2145981557862174410@gitolite.kernel.org>
-
---===============8994319213209242934==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 20 Aug 2024 16:57:42 -0000
+Message-Id: <172417306279.25118.18319852640231983019@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/40GbE
-    old: 1bf8e07c382bd4f04ede81ecc05267a8ffd60999
-    new: 797653865b982d53ecca517dd2b0ffb8bd967022
-    log: revlist-1bf8e07c382b-797653865b98.txt
-
---===============8994319213209242934==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bf8e07c382b-797653865b98.txt
-
-a2901083b1490a45df0700ac0aaa0730811cbf15 tcp_metrics: use netlink policy for IPv6 addr len validation
-359c5eb0f7364be9a26626402cc315e5e5f0d8c7 gve: Remove unused declaration gve_rx_alloc_rings()
-12906bab4414d0e9034218a2ada82c53109ffff9 igbvf: Remove two unused declarations
-c5e2a1b06760a2253c5e8959b49b307e9986bfae net/mlx5: E-Switch, Remove unused declarations
-af3dc0ad3167985894a292968c67502f42854e6d mptcp: Remove unused declaration mptcp_sockopt_sync()
-dca9d62a0d7684a5510645ba05960529c5066457 net: remove redundant check in skb_shift()
-d386d59b7c1a39112ca875327339ed519df2b96c net/smc: introduce statistics for allocated ringbufs of link group
-e0d103542b06c36240e3887edfe49578464866eb net/smc: introduce statistics for ringbufs usage of net namespace
-ccb445ae460e90b6864e5d77d72c42ae2b3cf377 Merge branch 'net-smc-introduce-ringbufs-usage-statistics'
-8fed54758cd248cd311a2b5c1e180abef1866237 ipv4: Mask upper DSCP bits and ECN bits in NETLINK_FIB_LOOKUP family
-548a2029eb6668a47e9bc86a7ded3d33a738aa0c netfilter: nft_fib: Mask upper DSCP bits before FIB lookup
-1fa3314c14c6a20d098991a0a6980f9b18b2f930 ipv4: Centralize TOS matching
-6b2efdc454406ffcaa93ca925cebad448ea3241e Merge branch 'preparations-for-fib-rule-dscp-selector'
-797653865b982d53ecca517dd2b0ffb8bd967022 net: ethernet: ibm: Simpify code with for_each_child_of_node()
-
---===============8994319213209242934==--
+  - ref: refs/heads/master
+    old: 0553b3a4ef28517c7b26b817c89515955ffa3ec5
+    new: 7a6abe8d0fdb1ae8219e8e4a6453e66b49f4529d
+    log: |
+         215220f8c90fa77261dc995940fafa9a1e40b153 Bluetooth: L2CAP: Remove unused declarations
+         7a6abe8d0fdb1ae8219e8e4a6453e66b49f4529d Bluetooth: hci_conn: Remove redundant memset after kzalloc
+         
