@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 20 Aug 2024 19:39:26 -0000
-Message-Id: <172418276673.15436.1039939348882089131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 20 Aug 2024 19:41:36 -0000
+Message-Id: <172418289615.17890.9405582763428821021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-6.12
-    old: 8dffaec34dd55473adcbc924a4c9b04aaa0d4278
-    new: 9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3
+  - ref: refs/heads/nfsd-5.15.y
+    old: fa4556ef893f3aae0dfafb15fe2ea5f776f34f8d
+    new: 797d9574a44d0b235352012390d7b3fca27c0e61
     log: |
-         9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3 workqueue: Don't call va_start / va_end twice
-         
-  - ref: refs/heads/for-next
-    old: 7b0b5f2609dca7676e6ccb12cbf0a8c2a6990dfb
-    new: 22de962e8a691e86283c9aa3819caca1f963ae15
-    log: |
-         9b59a85a84dc37ca4f2c54df5e06aff4c1eae5d3 workqueue: Don't call va_start / va_end twice
-         22de962e8a691e86283c9aa3819caca1f963ae15 Merge branch 'for-6.12' into for-next
+         09816b810b2715baa8654dbc92020a5dc923e81c nfsd: make all of the nfsd stats per-network namespace
+         ccd1e8976ce668fc12c06225cb841eaa60af077c nfsd: remove nfsd_stats, make th_cnt a global counter
+         797d9574a44d0b235352012390d7b3fca27c0e61 nfsd: make svc_stat per-network namespace instead of global
          
