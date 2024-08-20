@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4828638429207093688=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 20 Aug 2024 11:20:50 -0000
-Message-Id: <172415285049.1494.15816538552283267872@gitolite.kernel.org>
-
---===============4828638429207093688==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 20 Aug 2024 11:44:20 -0000
+Message-Id: <172415426030.17502.17459015791970231722@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/review-ilpo
-    old: bc923d594db21bee0ead128eb4bb78f7e77467a4
-    new: 46ee21e9f59205e54943dfe51b2dc8a9352ca37d
+  - ref: refs/heads/fixes
+    old: 9374ae912dbb1eed8139ed75fd2c0f1b30ca454d
+    new: e54e26a5aee948b1d5f5b7bbfc15d70915b383df
     log: |
-         46ee21e9f59205e54943dfe51b2dc8a9352ca37d platform/x86: ISST: Fix return value on last invalid resource
+         6275c7bc8dd07644ea8142a1773d826800f0f3f7 mmc: dw_mmc: allow biu and ciu clocks to defer
+         f41945728fb84255727c83c6dd84bf6d2d39fa45 mmc: mtk-sd: Improve data type in msdc_timeout_cal()
+         769df9a7d5d8af400fc7cc1729ce0aa549af96df dt-bindings: mmc: renesas,sdhi: add top-level constraints
+         e54e26a5aee948b1d5f5b7bbfc15d70915b383df mmc: mmc_test: Fix NULL dereference on allocation failure
          
-
---===============4828638429207093688==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1724152846 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1724152845-075fb1f1425af38297f39a883f18cf467127a1a7
-
-bc923d594db21bee0ead128eb4bb78f7e77467a4 46ee21e9f59205e54943dfe51b2dc8a9352ca37d refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZsR8DgAKCRBZrE9hU+XO
-MaVzAP9UWNGq0xPu35SpwrfJawBMtryMmLo9MqblJDQ1AJh6tgEAzEp+nabJF0eJ
-A92+cvTb2TJX0PADI163MCxYZztQdAw=
-=0xuq
------END PGP SIGNATURE-----
-
---===============4828638429207093688==--
