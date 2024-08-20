@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4853038056542954905=="
+Content-Type: multipart/mixed; boundary="===============3071995015312957827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Aug 2024 16:39:40 -0000
-Message-Id: <172417198031.12163.16462446065980116929@gitolite.kernel.org>
+Date: Tue, 20 Aug 2024 16:39:42 -0000
+Message-Id: <172417198266.12235.5364505502590679551@gitolite.kernel.org>
 
---===============4853038056542954905==
+--===============3071995015312957827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1bf8e07c382bd4f04ede81ecc05267a8ffd60999
     new: 797653865b982d53ecca517dd2b0ffb8bd967022
     log: revlist-1bf8e07c382b-797653865b98.txt
 
---===============4853038056542954905==
+--===============3071995015312957827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ccb445ae460e90b6864e5d77d72c42ae2b3cf377 Merge branch 'net-smc-introduce-ringbuf
 6b2efdc454406ffcaa93ca925cebad448ea3241e Merge branch 'preparations-for-fib-rule-dscp-selector'
 797653865b982d53ecca517dd2b0ffb8bd967022 net: ethernet: ibm: Simpify code with for_each_child_of_node()
 
---===============4853038056542954905==--
+--===============3071995015312957827==--
