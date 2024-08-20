@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7485883001152328801=="
+Content-Type: multipart/mixed; boundary="===============2541471181352831090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 20 Aug 2024 12:43:01 -0000
-Message-Id: <172415778183.29448.18125995090356813457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 Aug 2024 12:43:08 -0000
+Message-Id: <172415778861.29551.13546306950845859218@gitolite.kernel.org>
 
---===============7485883001152328801==
+--===============2541471181352831090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d
     new: 175fcd15e8606f2cca1edce43e18fa65c443bce6
     log: revlist-e486feb7b8ec-175fcd15e860.txt
 
---===============7485883001152328801==
+--===============2541471181352831090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1724157779 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1724157779-f9784fc7e5160b079442e42ac5c098ca3be979ea
+pusher C3F436CA30F5D8EB 1724157786 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1724157785-a8f100548bb60458ab28565fb6994286b02797e7
 
-e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d 175fcd15e8606f2cca1edce43e18fa65c443bce6 refs/heads/for-6.12
+e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d 175fcd15e8606f2cca1edce43e18fa65c443bce6 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbEj1MACgkQJNaLcl1U
-h9Atfgf/bcXEF+VZumx9+AyTJcW5uw+Ghn1TzhYaBjElYsIBnnenEmW/uQ4m71c8
-L+s/XWd1+X4TEf0DKndL4RAy4i1ycowltF1OsvseXzHvpEgVCm61U7jlYyaR04Qd
-SadMvJlMO08MhAaXiiU29QnQSwUglbTlOR/ZXabfQVDOcEuPINVE0bFMTMUsyh13
-dSKlwLocfKk/nLLrDEb8h7iLgBR8wdIwZ/t847JQPcwsy2p9jrwsxunrVlf2qqfn
-73xijyyDGHoIfhaha5oGAP3NADeqZ14aKjnSUvL+lfk6d6VkbsH8SfRNiNrKZIEp
-BjrKFnp5jN05xFYemaeCnBWk+B8RDQ==
-=aFbJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbEj1oACgkQJNaLcl1U
+h9AnyQf/ThilO5sYvdEfSyMe4WRf8BesNLLVyzwyxEd8SbumWniUN6CxnRxbmms1
+UhJrf1TKHsR55Y3XqlTOxKsXEFuyhhxmxJQfQU2ysdoWpeAwgv5JudIdFo2N1onJ
+ro7OuLxLlKW7LKx4rB9u8RhttySCbgxSb6F9QqGq+rggyyk69BeKhBGjuJUxw+/e
+HCoAKye3Ncr3dlH//GwVgshpxlxAD1bJZeKc0fQja5vh0jNp7lnovQBAEbqEKPPf
+qh5rCywtqTlTjx7hngkiXXQOkP9lrs5AKCEYGZt+k+iZXEmpiMucYR9YocZaen6h
+zpUNIqgt2YewXcNl6m1MPsZnvenzMA==
+=OFfP
 -----END PGP SIGNATURE-----
 
---===============7485883001152328801==
+--===============2541471181352831090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -698,4 +698,4 @@ a882f4d750ee0ec7e264c015019d0d642e136ff6 ASoC: Intel: Remove skylake driver
 46e211411113932be1fd31580a03502466648f91 ASoC: Intel: Remove skylake driver
 175fcd15e8606f2cca1edce43e18fa65c443bce6 ALSA/ASoC/SoundWire: Intel: update maximum number
 
---===============7485883001152328801==--
+--===============2541471181352831090==--
