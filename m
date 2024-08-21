@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9218516462306330593=="
+Content-Type: multipart/mixed; boundary="===============3023805496644363100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Aug 2024 20:46:18 -0000
-Message-Id: <172427317816.19437.10737051459660662810@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 20:46:20 -0000
+Message-Id: <172427318040.19518.314994719230884190@gitolite.kernel.org>
 
---===============9218516462306330593==
+--===============3023805496644363100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7565c39da89dc6ac9b1b0733bd70276bc66612b1
     new: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
     log: revlist-7565c39da89d-0d76fc7e27b2.txt
 
---===============9218516462306330593==
+--===============3023805496644363100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ ca6e55a703ca2894611bb5c5bca8bfd2290fd91e mptcp: pm: only in-kernel cannot have e
 48e50dcbcbaaf713d82bf2da5c16aeced94ad07d mptcp: pm: avoid possible UaF when selecting endp
 0d76fc7e27b2097e18ee128e484d107ed6d45e88 Merge branch 'mptcp-pm-fix-ids-not-being-reusable'
 
---===============9218516462306330593==--
+--===============3023805496644363100==--
