@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1891429270902198936=="
+Content-Type: multipart/mixed; boundary="===============6340713748577211939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 21 Aug 2024 03:52:58 -0000
-Message-Id: <172421237812.29885.10045659193412730293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 21 Aug 2024 03:53:08 -0000
+Message-Id: <172421238860.30047.2671848952325635368@gitolite.kernel.org>
 
---===============1891429270902198936==
+--===============6340713748577211939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: bb1b0acdcd66e0d8eedee3570d249e076b89ab32
     new: eb8c5ca373cbb018a84eb4db25c863302c9b6314
     log: revlist-bb1b0acdcd66-eb8c5ca373cb.txt
-  - ref: refs/heads/stable
-    old: 6e4436539ae182dc86d57d13849862bcafaa4709
-    new: 521b1e7f4cf0b05a47995b103596978224b380a8
-    log: |
-         8c251c5ab1b7cd204231e4ee936bfe078a33f234 cxl/pci: Get AER capability address from RCRB only for RCH dport
-         2c402bd2e85b44dc00ef85b5c0e217de684b5372 cxl/test: Skip cxl_setup_parent_dport() for emulated dports
-         521b1e7f4cf0b05a47995b103596978224b380a8 Merge tag 'cxl-fixes-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-         
-  - ref: refs/tags/next-20240521
-    old: 2a4656f352f9e497146c6103754a0e658b595edc
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240821
     old: 0000000000000000000000000000000000000000
     new: 80383d402106a4bd1bb763afc922759c47e4f3de
 
---===============1891429270902198936==
+--===============6340713748577211939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -936,4 +925,4 @@ a90f0d127636d5e54bde3322fabc817a51a88e71 Merge branch 'for-next/kspp' of git://g
 85c22721104a15a392e47003613346564218680c Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 eb8c5ca373cbb018a84eb4db25c863302c9b6314 Add linux-next specific files for 20240821
 
---===============1891429270902198936==--
+--===============6340713748577211939==--
