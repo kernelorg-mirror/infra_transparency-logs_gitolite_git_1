@@ -1,27 +1,70 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 21 Aug 2024 13:53:10 -0000
-Message-Id: <172424839083.30480.827210936518643981@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0455376175197090774=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 21 Aug 2024 14:13:43 -0000
+Message-Id: <172424962323.13475.16901075369041304939@gitolite.kernel.org>
+
+--===============0455376175197090774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: c58dc5a1f886f2fcc1133746d0cbaa1fe7fd44ff
-    new: 988d40a4d4e7d671305bea501562a5d1a1d479fa
-    log: |
-         34172002bdac28dabbb846f191a86454bb226c7a coresight: Remove unused ETM Perf stubs
-         eda1d11979c03f0104ca59ec4a0478cd52fa20de coresight: Clarify comments around the PID of the sink owner
-         acb0184fe9bca3bb7103dadc76ba9d38c969ca86 coresight: Move struct coresight_trace_id_map to common header
-         7e52877868ae2546ead8ba07cdf1d3e4c9e931f7 coresight: Expose map arguments in trace ID API
-         d53c8253c7822fbc524adcd950e7c6de6a229c99 coresight: Make CPU id map a property of a trace ID map
-         5ad628a7617607baac53745f8025638b967470a2 coresight: Use per-sink trace ID maps for Perf sessions
-         de0029fdde86092c75472c92e56a962f4edee0f6 coresight: Remove pending trace ID release mechanism
-         487eec8da80aef16229d30429f1b26090b1bf0eb coresight: Emit sink ID in the HW_ID packets
-         988d40a4d4e7d671305bea501562a5d1a1d479fa coresight: Make trace ID map spinlock local to the map
-         
+  - ref: refs/heads/i2c/i2c-host
+    old: 8bc921e413c305650251df5bc2fcec5fc25bc553
+    new: 3d0deade7b328f3b536bde571d8ed1a9e3212f37
+    log: revlist-8bc921e413c3-3d0deade7b32.txt
+
+--===============0455376175197090774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1724249621 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1724249621-28a95a990f6e2b4df1a36436b5c8f7748cd35473
+
+8bc921e413c305650251df5bc2fcec5fc25bc553 3d0deade7b328f3b536bde571d8ed1a9e3212f37 refs/heads/i2c/i2c-host
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsX2FRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uVwMBAM5zcO29Z5I1swoGXxtZ/C1HJMmu
+Znc1PqwOngirZlA+AP9tmZHNdocomVjAi29E/F38Za4TFQ88ErEr3xfkESeuAg==
+=TdbS
+-----END PGP SIGNATURE-----
+
+--===============0455376175197090774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8bc921e413c3-3d0deade7b32.txt
+
+322accaf09e7912ac46e503174c9f83fedd70148 i2c: qcom-geni: Use goto for clearer exit path
+d28cdfd37d06c29dd6b1327af8047beb9d631b46 i2c: designware: Replace a while-loop by for-loop
+7b3840f8e94082de5ee876eeba41c32d4c5a5701 i2c: designware: Let PCI core to take care about interrupt vectors
+65db8ffda911ae5071f6720514077c3265cad9a6 i2c: designware: Add missing 'c' into PCI IDs variable name
+cee29d49ec45ce64faa15f62154f058afc53c34d i2c: designware: Unify terminator in device ID tables
+18e75c4ce35efd89763304e77e1682a3b3b01f6b i2c: designware: Always provide device ID tables
+b50f6e120023832e1d217c6b551271ec95ddb21b i2c: designware: Drop return value from i2c_dw_acpi_configure()
+7abdd5666fc6bf9d5f0e5abf5cfabb402acefc06 i2c: designware: Drop return value from dw_i2c_of_configure()
+3226af946d3d5c1ab63fd89f04183013d368a962 i2c: riic: Use temporary variable for struct device
+cb119b3a3f744c6cf70799a5d5dccbbcf9693b19 i2c: riic: Call pm_runtime_get_sync() when need to access registers
+c170dafb1cb6b6d145d2c1725544af229115f429 i2c: riic: Use pm_runtime_resume_and_get()
+87ff36dad629cb35df953442c426f59cdc03ad3e i2c: riic: Enable runtime PM autosuspend support
+a7d5b6d0772d7c582b48fafc15e2cb1709f90854 i2c: riic: Add suspend/resume support
+1271a2572c1276623efc807ce0550c49285ba75a i2c: riic: Define individual arrays to describe the register offsets
+5e8f0cd03492aaf6c1861f0f0f5a02b3b8591780 dt-bindings: i2c: renesas,riic: Document the R9A08G045 support
+e7d0b75ea623cc55e03959c5a35653a2de2383b4 i2c: riic: Add support for fast mode plus
+3fb12ed7a5cc5c3889f341fe9290fa2dae9909af dt-bindings: i2c: nvidia,tegra20-i2c: combine same if:then: clauses
+5ffe4f55d73a6fb776299bd7a16f3f0977e0b48d dt-bindings: i2c: nvidia,tegra20-i2c: restrict also clocks in if:then:
+3d0deade7b328f3b536bde571d8ed1a9e3212f37 dt-bindings: i2c: nvidia,tegra20-i2c: define power-domains top-level
+
+--===============0455376175197090774==--
