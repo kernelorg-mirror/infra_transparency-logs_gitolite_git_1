@@ -1,60 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============4844042768946184057=="
+Content-Type: multipart/mixed; boundary="===============0484677690463123554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 21 Aug 2024 11:28:44 -0000
-Message-Id: <172423972424.19430.664870658704106082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 21 Aug 2024 11:30:50 -0000
+Message-Id: <172423985097.21916.7468054101493747303@gitolite.kernel.org>
 
---===============4844042768946184057==
+--===============0484677690463123554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: ab900da20520283543131bd825ac1442f8a9bcc0
-    new: 6c25d00415596ed6554193f699b055fe4476d33d
-    log: |
-         6c25d00415596ed6554193f699b055fe4476d33d Merge branch 'next/clk' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: 881ed4f31e06694376aeca75728941e77e072a53
-    new: a8782104b78a08f42f156e1f830b4761de51a9a8
+  - ref: refs/heads/mem-ctrl-next
+    old: 67dd9e861add38755a7c5d29e25dd0f6cb4116ab
+    new: c7f67fec177484fd4f7836e832e66e77fa25700f
+    log: revlist-67dd9e861add-c7f67fec1774.txt
 
---===============4844042768946184057==
+--===============0484677690463123554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1724239722 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1724239721-76db1c12854cdc9b01ad09b3dea304f02156f29e
+pusher krzk@kernel.org 1724239849 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1724239848-d875f4a4f3d6e0e3de7974c63bb286879828ae02
 
-ab900da20520283543131bd825ac1442f8a9bcc0 6c25d00415596ed6554193f699b055fe4476d33d refs/heads/for-next
-881ed4f31e06694376aeca75728941e77e072a53 a8782104b78a08f42f156e1f830b4761de51a9a8 refs/heads/next/dt64
+67dd9e861add38755a7c5d29e25dd0f6cb4116ab c7f67fec177484fd4f7836e832e66e77fa25700f refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbFz2oQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16GdD/9vbDYWVlHnJTG93QEIJxN9yhcThyWrPq2X
-KIRCQysQJm5OZOtw7N+jFkwThT3NnP1sJ34KtkyCOd1xxRS8vtWbhIPgpZD60TJu
-lelhSi9Q4Cl6iLpjLvrVjVvBx/Hu3Sqhi3+tA5UV1dM5J7AYrH06DEqcAxxDUq9W
-5Hlm+ksa8EOnWpNTcpvJnwxl+BImii/T0SJwdcN1ZEqzml84ekDrqd5D3+7+2GfH
-ML/tgZ/4S0dLjBiY+6iQ9DtCFpNJH2RuVUisXUAoXwbB3Y6zXhvFyjS0EHK/fnL9
-4JTEMNpkqlk5k8f+V7kWkDriuB48xAeoDsUEkC/RriAMii/Ols3QdCfjX4EYIL27
-PmwrQANaBuVQ4us/LVhBBO+McAmHKAsnnwp+bLlQWVgiKdN2QX886TjihRdMLkGC
-1BDcvG51maQieNPIcTgLfTbNH4mB0o8ZZycsNwGQtXdKKVJAeU540zR1gmuLKz9z
-OiZL4u35fsJ7yzHbm9bC0z+tyjEiO4FqaXBO/NemW54ctunvENeKRLWnQyU9gEjl
-vM7epY8K0PHd0uxWH0j6pbPdfUuoKYSJyha9395BrelU3Q23vsNIM5dbfsaozpt9
-fDomMBgowO3wwtdgTr1NvJRWayC9b2m5ey8W/e4z81NjO/xQWp02TLtV5sqcDgti
-WDlcYywPVg==
-=1wx0
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbFz+kQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19rsD/9laj+NmN1JseAMPiJ4DA8Y9e1wKqLTvQSa
+pKZSzhMypQuf87Tp+u7RtMiNweMDBujitbEVLcO18HNDGNXb7NEI5Ts07VF5zIea
+UY8L7KMDPyRetHGZLeUWXwbZ9nysle0kPsFsfklybxfns0kur2TT8iq0J8ChN3/F
+xmk4X9tSgy9ghAaX97V0sVsZ9geH5exlUvB6Tpd1HYlLm4TzX4qiSIPijTr5rjI/
+NbAVWG1tJO/T3UCkKRRYufCkHXDZpyjDCW+3qYraK1vC/9X9FzvA/gRT4wtX65nz
+FigVT64a/6Ft8Jqwi81J8ql70ly95KxCaIEOxy9jYth4987Gi59YUbZSqP63XQP+
+Gs2SqDJBJvJYZqKJYenXUuVn+0axmZh2XOCjHzzRbZuoK0y2F2lROTAeqDN6YEQ0
+5/isS7CPMar4cSAB9SCKhdRnbqYAn3fUl2Hd6oTv3hppmXpE0Ik9O23pgbINEgIE
+A39W2cgva2dkH68r7ZFshGCF22kp5AgNyMv/jBq+kAMZmuR7gg8gJdpGoNhFIoNH
+u8IxUZAq9KNKmFpcR8saAvoyws6GOu5aWsm64r1tYavThJoVm5SY8AZJy7oEvhKJ
+L2/CXDDG5cAhlISMaPXgPaTvDQqhRL0BXmVCkiYpPxzfY0w6qpmMWBCpsJzI/2DU
+AMp+ZolJMQ==
+=c7PV
 -----END PGP SIGNATURE-----
 
---===============4844042768946184057==--
+--===============0484677690463123554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-67dd9e861add-c7f67fec1774.txt
+
+eba8a7b05e21ab1baa0394eb7e915312303492fe dt-bindings: memory-controllers: renesas,rpc-if: add top-level constraints
+d47d52554d0233120ee74ab874cea979147f00e3 memory: atmel-ebi: use scoped device node handling to simplify error paths
+50e40b71598cd19d59683c989bc5b89140e70d28 memory: atmel-ebi: simplify with scoped for each OF child loop
+2af13f97fc67979701a240ebe397811491ad575c memory: samsung: exynos5422-dmc: simplify dmc->dev usage
+e2cc3ddaec0218f227cc53e3f784144640cd1765 memory: samsung: exynos5422-dmc: use scoped device node handling to simplify error paths
+48ec68281d40ee566c2f38d36357ee7d493000c8 memory: stm32-fmc2-ebi: simplify with scoped for each OF child loop
+4c1a381a9eb775f96eb64b1a63a4147fb265bb6f memory: stm32-fmc2-ebi: simplify with dev_err_probe()
+210059143b6f51819ecc9a00a15aeef80b45beee memory: tegra-mc: simplify with scoped for each OF child loop
+2bc48f69717485e28ff9a300a928cc742ddd39b0 memory: tegra124-emc: simplify with scoped for each OF child loop
+818902cb74c377ade67ce933f3bbd8305615a459 memory: tegra20-emc: simplify with scoped for each OF child loop
+c7f67fec177484fd4f7836e832e66e77fa25700f memory: tegra30-emc: simplify with scoped for each OF child loop
+
+--===============0484677690463123554==--
