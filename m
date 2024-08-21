@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3658608218604750437=="
+Content-Type: multipart/mixed; boundary="===============8353770714287560859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 21 Aug 2024 20:57:00 -0000
-Message-Id: <172427382049.27019.3932919146722216534@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 20:57:02 -0000
+Message-Id: <172427382281.27110.11674335986245338359@gitolite.kernel.org>
 
---===============3658608218604750437==
+--===============8353770714287560859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 797653865b982d53ecca517dd2b0ffb8bd967022
     new: d785ed945de6955361aafc2d540d9bb7c6a69a65
     log: revlist-797653865b98-d785ed945de6.txt
 
---===============3658608218604750437==
+--===============8353770714287560859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bc3dd9ed04d69cba3bb603da06fa26d888233cff l2tp: use skb_queue_purge in l2tp_ip_de
 4d36b2b1dea4ff528bd7d312d9c713a827656d75 net: dsa: b53: Use dev_err_probe()
 d785ed945de6955361aafc2d540d9bb7c6a69a65 net: wwan: t7xx: PCIe reset rescan
 
---===============3658608218604750437==--
+--===============8353770714287560859==--
