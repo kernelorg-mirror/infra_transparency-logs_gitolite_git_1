@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 21 Aug 2024 15:53:15 -0000
-Message-Id: <172425559570.22506.10187317082832387265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 21 Aug 2024 16:00:53 -0000
+Message-Id: <172425605396.28582.3956031753913620175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/gpio-irq-6.11
-    old: 28639bf17b888ec8af26a2c689f32777439caa1c
-    new: 2036a419d2c160c6e08893ade8218b073ec28cea
+  - ref: refs/heads/arm64-for-6.12
+    old: f7b01bfb4b476ce87a35a35c671f37114344268a
+    new: cad5b06c1fc71fe98272b26031b0560770094970
     log: |
-         724a5b04078a5d15b77e5c7eb031708972d9700c irqchip: add mpfs gpio interrupt mux
-         2ce6d9268eb74e7c6309fc484ad86a61cb27f593 gpio: mpfs: add polarfire soc gpio support
-         baa855e57fe12f6e17feee08934ea5610a5847c7 gpio: mpfs: pass gpio line number as irq data
-         2036a419d2c160c6e08893ade8218b073ec28cea riscv: dts: microchip: update gpio interrupts to better match the SoC
+         cad5b06c1fc71fe98272b26031b0560770094970 arm64: dts: qcom: sm8150-mtp: drop incorrect amd,imageon
+         
+  - ref: refs/heads/drivers-fixes-for-6.11
+    old: 8342009efa2a5e75dce56173d7de026bcc6666d8
+    new: c158ceb826068a8bbe3c9e78df420f47ba53c8a8
+    log: |
+         c158ceb826068a8bbe3c9e78df420f47ba53c8a8 soc: qcom: pd-mapper: Fix singleton refcount
          
