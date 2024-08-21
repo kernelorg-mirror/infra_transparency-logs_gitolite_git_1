@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0455376175197090774=="
+Content-Type: multipart/mixed; boundary="===============8768940745020159807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 21 Aug 2024 14:13:43 -0000
-Message-Id: <172424962323.13475.16901075369041304939@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 14:13:47 -0000
+Message-Id: <172424962765.13575.8351330564431114164@gitolite.kernel.org>
 
---===============0455376175197090774==
+--===============8768940745020159807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 8bc921e413c305650251df5bc2fcec5fc25bc553
     new: 3d0deade7b328f3b536bde571d8ed1a9e3212f37
     log: revlist-8bc921e413c3-3d0deade7b32.txt
 
---===============0455376175197090774==
+--===============8768940745020159807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1724249621 +0200
+pusher andi.shyti@kernel.org 1724249626 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1724249621-28a95a990f6e2b4df1a36436b5c8f7748cd35473
+nonce 1724249626-dd64dee36a0629c4bbdba9cbb0d8ce1dda5653b5
 
-8bc921e413c305650251df5bc2fcec5fc25bc553 3d0deade7b328f3b536bde571d8ed1a9e3212f37 refs/heads/i2c/i2c-host
+8bc921e413c305650251df5bc2fcec5fc25bc553 3d0deade7b328f3b536bde571d8ed1a9e3212f37 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsX2FRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uVwMBAM5zcO29Z5I1swoGXxtZ/C1HJMmu
-Znc1PqwOngirZlA+AP9tmZHNdocomVjAi29E/F38Za4TFQ88ErEr3xfkESeuAg==
-=TdbS
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZsX2GhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u2TMBAIUipbl7c/En9ixGwiU1pcuMOrWJ
+BdB2R6hdA8DeGbD6AQCpewk8Byb4uQahmBHNMDxmZ3KclC4w1n/q6ErbDDUbAw==
+=GTf2
 -----END PGP SIGNATURE-----
 
---===============0455376175197090774==
+--===============8768940745020159807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ e7d0b75ea623cc55e03959c5a35653a2de2383b4 i2c: riic: Add support for fast mode pl
 5ffe4f55d73a6fb776299bd7a16f3f0977e0b48d dt-bindings: i2c: nvidia,tegra20-i2c: restrict also clocks in if:then:
 3d0deade7b328f3b536bde571d8ed1a9e3212f37 dt-bindings: i2c: nvidia,tegra20-i2c: define power-domains top-level
 
---===============0455376175197090774==--
+--===============8768940745020159807==--
