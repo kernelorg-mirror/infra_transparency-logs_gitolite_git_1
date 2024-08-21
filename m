@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Aug 2024 23:55:17 -0000
-Message-Id: <172419811780.10086.7252961056616019265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 21 Aug 2024 00:03:13 -0000
+Message-Id: <172419859306.14671.3831933819600245301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 8594d9b85c07f05e431bd07e895c2a3ad9b85d6f
-    new: bc3dd9ed04d69cba3bb603da06fa26d888233cff
+  - ref: refs/heads/master
+    old: fdf523c335d7a33b99ccd1aea5b24f19d484b2ce
+    new: 272cf13af2062741f18bebc580cc3ea9c55f19da
     log: |
-         bc3dd9ed04d69cba3bb603da06fa26d888233cff l2tp: use skb_queue_purge in l2tp_ip_destroy_sock
+         272cf13af2062741f18bebc580cc3ea9c55f19da Tue Aug 20 08:02:22 PM EDT 2024
          
