@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 21 Aug 2024 08:17:55 -0000
-Message-Id: <172422827571.30120.953061267949387048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Wed, 21 Aug 2024 08:45:15 -0000
+Message-Id: <172422991545.18393.11461985933067802579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/docs/kernel/ksmap
+user: lukas
 changes:
   - ref: refs/heads/master
-    old: 98c888fabce3077a6fb94188524d84fdea6591ba
-    new: 96ac92a3d2734f70562f210564f5c3dde60f722a
+    old: dade924601d67e85929f50937620b365685670a7
+    new: c9ee0d1ce2a98d462dec70eb69b0c9e6715a1524
     log: |
-         96ac92a3d2734f70562f210564f5c3dde60f722a fix typos
+         d44d52044b6611233efc6cb8ab29b3e543e1be56 users: Clean up key ids and e-mail addresses
+         c9ee0d1ce2a98d462dec70eb69b0c9e6715a1524 yaml-to-kml.py: Link to graphs on kernel.org
          
