@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2668007066969585895=="
+Content-Type: multipart/mixed; boundary="===============6967952036033402147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 21 Aug 2024 23:53:29 -0000
-Message-Id: <172428440998.28217.349638991431205401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 21 Aug 2024 23:54:48 -0000
+Message-Id: <172428448896.28752.1819954998323120316@gitolite.kernel.org>
 
---===============2668007066969585895==
+--===============6967952036033402147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: b03f17763d0f2a96bbf9da8f2f269b36fdcad7e6
-    new: 0f0103717b28b354bd97bc3ec871922cf9fe7d48
-    log: revlist-b03f17763d0f-0f0103717b28.txt
+  - ref: refs/heads/master
+    old: 957fda96fc0b733ad4a71bd9e5c335d76abebffd
+    new: 59c0d9d7312d04f365c938b325240b596bf8a99c
+    log: |
+         59c0d9d7312d04f365c938b325240b596bf8a99c rejected CVE-2024-37353 based on maintainer review
+         
 
---===============2668007066969585895==
+--===============6967952036033402147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b03f17763d0f-0f0103717b28.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6acd9c0d407e7d272420d5aa85df050d43bc4495 kselftest/arm64: Verify the GCS hwcap
-afe6ad942613550096d249f1f3feb866f9e8f7fb kselftest/arm64: Add GCS as a detected feature in the signal tests
-1caae9cdebee16d1e9643718be154a6de39e6770 kselftest/arm64: Add framework support for GCS to signal handling tests
-797f75989003164ffa0bfd6ab43b917a23aa8719 kselftest/arm64: Allow signals tests to specify an expected si_code
-d2c73ac2d06b0a436feefdac46d06f0d7f047eaf kselftest/arm64: Always run signals tests with GCS enabled
-02039137f79b552e3cf0dd2ab024f746e01f031b kselftest/arm64: Add very basic GCS test program
-65ca7085020727faa70c6434b16d3eac5ed28f0a kselftest/arm64: Add a GCS test program built with the system libc
-0a3a9a19007444f9728e971f86771a13407b524d kselftest/arm64: Add test coverage for GCS mode locking
-fee73c4d39aa5e4332b290b87aff9e9b6d94787b kselftest/arm64: Add GCS signal tests
-dc9d8543efe1e756b855f6bdcebfc2060e79b5a4 kselftest/arm64: Add a GCS stress test
-0223f069011babadf929424b7915447d6f8c51c0 kselftest/arm64: Enable GCS for the FP stress tests
-0f0103717b28b354bd97bc3ec871922cf9fe7d48 KVM: selftests: arm64: Add GCS registers to get-reg-list
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724284486 +0800
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1724284485-9c0a864d34f1f20f1fd8ab22a6f7f10ff40862cc
 
---===============2668007066969585895==--
+957fda96fc0b733ad4a71bd9e5c335d76abebffd 59c0d9d7312d04f365c938b325240b596bf8a99c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbGfkYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4cAQAL25/s/XpbhvXt8Kwr5W
+U9vkoJNhvZatAfzkg39SpL2gFOZDd+vJguOYRlhSIcT7BzDfj+jEJGL+09B203Vw
+k/h1/aH70NTPUoV2MFb2CmXX/NSm4c954GUtEtRcsk3KpFJE5mqPJ/R0gVPZEZfL
+2zuf+h5XdyqnMqVeaw0YtpnGHG3qUlY3sCOBd3bNGgNnau+58895GedbwuW9mjKG
+oi/0U/3ZsknF02JOTp4/87wGrQMcoGYZh1Q6+2UX9q0SOxYLxPmqIlBi3nUombeZ
+QNAwSoBT3nKeEfnylhiDBSfFlL+Xz//h53eiiPzIVXaq4KgSrC3gUvvHsj+ia274
+rwp3De2V8iYtReHglCXrKhjYq4yAsf6fHW5nJCmrp/fmKIy9b8hcyBoh98mlnIC9
+AUIwtub8optMsyO/HCbdmuFYORQQF/ghEi6ONxpCz70L/3PivO4anCm/7KwKt2wd
+1kNQcd3kqsFTP4ROORPMOxD/UdTkSY1VWW1kle7pTsQh940/OhpFtaZmYnIEGElC
+Vok2R0rnXA1LiuBbFn/R48erAirmqxTWm2n60Zh5iMKOK4Dw3tX8vPtlbIrmPeK6
+Gvy8yAwzWtKz8LyzCm9NhxTITDuz8iA0qIfWG4CqzyUMAX/e4ZBeG2LvIa+UgwWt
+Ry90OF8WlSWdsiycUdpuY8y3
+=JkWQ
+-----END PGP SIGNATURE-----
+
+--===============6967952036033402147==--
