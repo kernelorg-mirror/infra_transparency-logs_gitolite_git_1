@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 21 Aug 2024 20:11:43 -0000
-Message-Id: <172427110390.21614.5556662533737403913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 21 Aug 2024 20:28:20 -0000
+Message-Id: <172427210015.3160.2279155412033082718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 6c9fd0cbdee76197beea72a9b0267dc94c172e1a
-    new: 429d2e1d76463dfef1ae71cde7d113fa23f6cc3d
+  - ref: refs/heads/misc
+    old: e845e723bea5492614fd364a581ec0241593453e
+    new: dbc3171194403d0d40e4bdeae666f6e76e428b53
     log: |
-         429d2e1d76463dfef1ae71cde7d113fa23f6cc3d foo
+         dbc3171194403d0d40e4bdeae666f6e76e428b53 x86/PCI: Check pcie_find_root_port() return for NULL
          
