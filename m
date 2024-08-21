@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6887866005333769988=="
+Content-Type: multipart/mixed; boundary="===============0812471915063006297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Aug 2024 07:13:55 -0000
-Message-Id: <172422443508.15612.9837113902106542866@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 07:14:23 -0000
+Message-Id: <172422446329.15847.14097522222283564582@gitolite.kernel.org>
 
---===============6887866005333769988==
+--===============0812471915063006297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2c227ab41750071220e93937cca780a2d0f77dd1
-    new: d9ce7a7fc0e78c1a6dd97b3e3e80a98fea4a58c6
-    log: revlist-2c227ab41750-d9ce7a7fc0e7.txt
+    old: d9ce7a7fc0e78c1a6dd97b3e3e80a98fea4a58c6
+    new: a97f14a3f0bd8ea76c030f161fb1ad6095350c24
+    log: revlist-d9ce7a7fc0e7-a97f14a3f0bd.txt
 
---===============6887866005333769988==
+--===============0812471915063006297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c227ab41750-d9ce7a7fc0e7.txt
+Content-Disposition: attachment; filename=revlist-d9ce7a7fc0e7-a97f14a3f0bd.txt
 
-ea72ce5da22806d5713f3ffb39a6d5ae73841f93 x86/kaslr: Expose and use the end of the physical memory address space
-eebdf3d7fd8ae0b7e6eba979677509bf4797af6c Merge branch into tip/master: 'irq/urgent'
-99b884025aff449e6ddbeefbf0f8454e78974770 Merge branch into tip/master: 'locking/urgent'
-a8dfbf9e52c2f686e917270beb8ca02d06a0a5da Merge branch into tip/master: 'x86/urgent'
-9af48562bf05e2d3dfb8ee12ade3d03ebf519e6c Merge branch into tip/master: 'irq/core'
-23617f950421c17aff1b1af5198e0855daba8c15 Merge branch into tip/master: 'locking/core'
-e7a293f2d8b36fa530fa5f2dc76716175b7b0d5a Merge branch into tip/master: 'perf/core'
-7c4cdef25fc8a4b2b5bb7578dbbb41ccb59ee5eb Merge branch into tip/master: 'ras/core'
-995bd8f1f498677636f041b42139de4f42674a00 Merge branch into tip/master: 'sched/core'
-2d86aae621c7e0c9d9c87f1c34e02704f3b1055c Merge branch into tip/master: 'smp/core'
-5c3f5b6cf9bcb328d83d11905a12695f3dbabf1f Merge branch into tip/master: 'timers/clocksource'
-112d5445067bbdb528244f0a01ff9c9eaf7b600b Merge branch into tip/master: 'timers/core'
-7bcb46f52788e562b4c4953c63b06f726def43fd Merge branch into tip/master: 'x86/apic'
-d453d2ad34a6b4281175639ddb259b42bf15c451 Merge branch into tip/master: 'x86/bugs'
-be1eb404a3cd372a6650942586b43b10fd5426f7 Merge branch into tip/master: 'x86/build'
-a56689de340fe177c646f95551deaaa961b79b9c Merge branch into tip/master: 'x86/core'
-02c924f697f3a5896f5ca0349b8f5884d5abfdd4 Merge branch into tip/master: 'x86/fpu'
-957e3da9c5acfd9e757d9642ea5d64f6617a1eee Merge branch into tip/master: 'x86/fred'
-b6410e41bef6f1e5e16d51f2e72e91be4ce4e094 Merge branch into tip/master: 'x86/microcode'
-eb224f6d429182a08ac1fdd9dac4153ea5fd49e5 Merge branch into tip/master: 'x86/misc'
-dae0167619a8d26cf5a5542f61feb2f2ec358391 Merge branch into tip/master: 'x86/mm'
-19bf8940fe19ea446879f42f7abdf95674695059 Merge branch into tip/master: 'x86/platform'
-c18ab651194a2447d1507dbe42c83d3153851495 Merge branch into tip/master: 'x86/splitlock'
-d9ce7a7fc0e78c1a6dd97b3e3e80a98fea4a58c6 Merge branch into tip/master: 'x86/timers'
+950aeefb34923fe3c28ade35fe05f24e2c5b1d55 iommufd/device: Fix hwpt at err_unresv in iommufd_device_do_replace()
+8c251c5ab1b7cd204231e4ee936bfe078a33f234 cxl/pci: Get AER capability address from RCRB only for RCH dport
+2c402bd2e85b44dc00ef85b5c0e217de684b5372 cxl/test: Skip cxl_setup_parent_dport() for emulated dports
+dfd046d0ced19b6ff5f11ec4ceab0a83de924771 ksmbd: Use unsafe_memcpy() for ntlm_negotiate
+76e98a158b207771a6c9a0de0a60522a446a3447 ksmbd: fix race condition between destroy_previous_session() and smb2 operations()
+4fdd8664c8a94411a01d11d5ed2f083f105f570a ksmbd: fix spelling mistakes in documentation
+7c525dddbee71880e654ad44f3917787a4f6042c ksmbd: Replace one-element arrays with flexible-array members
+cf1e515c9a40caa8bddb920970d3257bb01c1421 iommufd/selftest: Make dirty_ops static
+521b1e7f4cf0b05a47995b103596978224b380a8 Merge tag 'cxl-fixes-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+0108b7be2a18d85face1e10c68ecc0138f1bed58 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of git://git.samba.org/ksmbd
+a97f14a3f0bd8ea76c030f161fb1ad6095350c24 Merge branch 'linus'
 
---===============6887866005333769988==--
+--===============0812471915063006297==--
