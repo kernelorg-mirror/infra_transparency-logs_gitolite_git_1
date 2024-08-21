@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 21 Aug 2024 13:24:41 -0000
-Message-Id: <172424668137.8828.12812732282472847069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Aug 2024 13:32:30 -0000
+Message-Id: <172424715030.14873.17274011309718948981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-linus
-    old: 32108c22ac619c32dd6db594319e259b63bfb387
-    new: 91191a6e50a2ff752da244493171037663536768
-    log: |
-         91191a6e50a2ff752da244493171037663536768 ALSA: hda: cs35l56: Don't use the device index as a calibration index
-         
   - ref: refs/heads/master
-    old: 0503cdd795df672ea0c16f1fd4741f382a2cd4b0
-    new: f1270b2912cd72028d128a3f918cf1d391df0b77
+    old: ac2f4cfd3ee11384ff0bfbde765d616a1dec7a47
+    new: ea7f659e2ec236ef4f9e5ee917d7045c9247a5d4
     log: |
-         91191a6e50a2ff752da244493171037663536768 ALSA: hda: cs35l56: Don't use the device index as a calibration index
-         f1270b2912cd72028d128a3f918cf1d391df0b77 Merge branch 'for-linus'
+         368c175cea497c52dd391cf16bac04282fabaa3b Fixes for 6.6
+         87e19cfedc3fe8a38f30b7f142720ab4b69ac73d Fixes for 6.1
+         524503f15d13f57ceb3ab7b957b74febd4cf6708 Fixes for 5.15
+         e9e089cc607e2ccae5249994f9d022bb84815d6b Fixes for 5.10
+         1bc00a2bfd9a9d1e470b0af4954c02fa3a817fda Fixes for 5.4
+         ea7f659e2ec236ef4f9e5ee917d7045c9247a5d4 Fixes for 4.19
          
