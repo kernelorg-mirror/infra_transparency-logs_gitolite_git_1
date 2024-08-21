@@ -1,44 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1079705328691208819=="
+Content-Type: multipart/mixed; boundary="===============6162313913404553224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 21 Aug 2024 20:44:52 -0000
-Message-Id: <172427309260.17063.17817318514033311057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 21 Aug 2024 20:46:15 -0000
+Message-Id: <172427317572.19346.9994178695218504181@gitolite.kernel.org>
 
---===============1079705328691208819==
+--===============6162313913404553224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kvm-arm64-hide-pie-regs
-    old: 5318bdaf077efa4c2b57a973173d5b1dae62dc24
-    new: 78b2a91e935e1252380c0a374ab1eeee07dbe6a2
-    log: revlist-5318bdaf077e-78b2a91e935e.txt
+  - ref: refs/heads/1GbE
+    old: 7565c39da89dc6ac9b1b0733bd70276bc66612b1
+    new: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
+    log: revlist-7565c39da89d-0d76fc7e27b2.txt
 
---===============1079705328691208819==
+--===============6162313913404553224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5318bdaf077e-78b2a91e935e.txt
+Content-Disposition: attachment; filename=revlist-7565c39da89d-0d76fc7e27b2.txt
 
-91ae38838c316c778dde9b26a4b435c85758c3d4 KVM: arm64: nv: Handle CNTHCTL_EL2 specially
-5bea4d8f0dd8cd7e59634af1df8f04a3ae096106 KVM: arm64: nv: Save/Restore vEL2 sysregs
-1d8db9183edf3f0aee1785fec32ea94cca8571cb KVM: arm64: Add TCR2_EL2 to the sysreg arrays
-df3c0dc0b3e0d58c1968353f2fea42f971e8088a KVM: arm64: Add save/restore for TCR2_EL2
-1c89193122b7332752e803e8d3a7e0e1a883f720 arm64: Add encoding for PIRE0_EL2
-b81734754adc8dfd425b3beabf1cd83c23b7c08f arm64: Remove VNCR definition for PIRE0_EL2
-32e525da6ce482c707c8fabf8b9e689a710a87b8 KVM: arm64: Add PIR{,E0}_EL2 to the sysreg arrays
-f0770ff5cf600a0260b9f0fe8046f142859f2073 KVM: arm64: Add save/restore for PIR{,E0}_EL2
-a68bf3ebcbf8ef172090e0d6ae82fe9a7e0ceada KVM: arm64: Handle PIR{,E0}_EL2 traps
-6998fa93fbbf237b518bf921f8c21e71514e5aed KVM: arm64: Sanitise ID_AA64MMFR3_EL1
-4f4c01a088eaadae3905ceab418e63301b1f1e54 KVM: arm64: Control visibility of S1PIE related sysregs to userspace
-eb839c620bd0f9b7fd749a60999bf5df47c9d1b9 KVM: arm64: Define helper for EL2 registers with custom visibility
-58143b5d308788e3bf44bd2ba1f79cbb4b55693c KVM: arm64: Hide TCR2_EL1 from userspace when disabled for guests
-78b2a91e935e1252380c0a374ab1eeee07dbe6a2 KVM: arm64: Hide S1PIE registers from userspace when disabled for guests
+c50e7475961c36ec4d21d60af055b32f9436b431 dpaa2-switch: Fix error checking in dpaa2_switch_seed_bp()
+80a1e7b83bb1834b5568a3872e64c05795d88f31 cxgb4: add forgotten u64 ivlan cast before shift
+8aba27c4a5020abdf60149239198297f88338a8d igb: cope with large MAX_SKB_FRAGS
+6efea5135417ae8194485d1d05ea79a21cf1a11c net: dsa: microchip: fix PTP config failure when using multiple ports
+528876d867a23b5198022baf2e388052ca67c952 net: dsa: mv88e6xxx: Fix out-of-bound access
+c07ff8592d57ed258afee5a5e04991a48dbaf382 netem: fix return value if duplicate enqueue fails
+e255683c06df572ead96db5efb5d21be30c0efaa mptcp: pm: re-using ID of unused removed ADD_ADDR
+a13d5aad4dd9a309eecdc33cfd75045bd5f376a3 selftests: mptcp: join: check re-using ID of unused ADD_ADDR
+edd8b5d868a4d459f3065493001e293901af758d mptcp: pm: re-using ID of unused removed subflows
+65fb58afa341ad68e71e5c4d816b407e6a683a66 selftests: mptcp: join: check re-using ID of closed subflow
+ef34a6ea0cab1800f4b3c9c3c2cefd5091e03379 mptcp: pm: re-using ID of unused flushed subflows
+e06959e9eebdfea4654390f53b65cff57691872e selftests: mptcp: join: test for flush/re-add endpoints
+f448451aa62d54be16acb0034223c17e0d12bc69 mptcp: pm: remove mptcp_pm_remove_subflow()
+322ea3778965da72862cca2a0c50253aacf65fe6 mptcp: pm: only mark 'subflow' endp as available
+1c1f721375989579e46741f59523e39ec9b2a9bd mptcp: pm: only decrement add_addr_accepted for MPJ req
+0137a3c7c2ea3f9df8ebfc65d78b4ba712a187bb mptcp: pm: check add_addr_accept_max before accepting new ADD_ADDR
+ca6e55a703ca2894611bb5c5bca8bfd2290fd91e mptcp: pm: only in-kernel cannot have entries with ID 0
+09355f7abb9fbfc1a240be029837921ea417bf4f mptcp: pm: fullmesh: select the right ID later
+4878f9f8421f4587bee7b232c1c8a9d3a7d4d782 selftests: mptcp: join: validate fullmesh endp on 1st sf
+48e50dcbcbaaf713d82bf2da5c16aeced94ad07d mptcp: pm: avoid possible UaF when selecting endp
+0d76fc7e27b2097e18ee128e484d107ed6d45e88 Merge branch 'mptcp-pm-fix-ids-not-being-reusable'
 
---===============1079705328691208819==--
+--===============6162313913404553224==--
