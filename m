@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 21 Aug 2024 17:36:24 -0000
-Message-Id: <172426178405.2948.17249994570972739110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 21 Aug 2024 17:40:58 -0000
+Message-Id: <172426205899.7603.1686240869302106325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: 1a491aaf1d1ce3a1cf5190394c36f21d805c7e96
-    new: fb73da4ca1e3d18accc493617bc67a7f75c29d64
+    old: 6706415bf9f3dcb425f4b60a08a3a6f1d94ec0e0
+    new: 6cb9df81a2c462b89d2f9611009ab43ae8717841
     log: |
-         9fedb829372d4bd176ad077a0f52bc47258aa178 dt-bindings: remoteproc: k3-m4f: Add K3 AM64x SoCs
-         ce6acb2240f40f24bc7b9240e11bbfad7cf3d113 remoteproc: k3: Factor out TI-SCI processor control OF get function
-         ebcf9008a895a2a9416f69e186b56fbade35e12c remoteproc: k3-m4: Add a remoteproc driver for M4F subsystem
-         8fa052c29e509f3e47d56d7fc2ca28094d78c60a remoteproc: k3-r5: Delay notification of wakeup event
-         fb73da4ca1e3d18accc493617bc67a7f75c29d64 Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         4117efd5c9ecd9d1d531f85967df7a394d783cf2 gfs2: Minor gfs2_glock_cb cleanup
+         6cb9df81a2c462b89d2f9611009ab43ae8717841 gfs2: fix double destroy_workqueue error
          
