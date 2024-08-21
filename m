@@ -1,51 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6298214065250961715=="
+Content-Type: multipart/mixed; boundary="===============3246957161600181452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Aug 2024 20:46:31 -0000
-Message-Id: <172427319104.19647.14288980016471061594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 21 Aug 2024 20:46:40 -0000
+Message-Id: <172427320032.19801.12765491103054068785@gitolite.kernel.org>
 
---===============6298214065250961715==
+--===============3246957161600181452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 7565c39da89dc6ac9b1b0733bd70276bc66612b1
-    new: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
-    log: revlist-7565c39da89d-0d76fc7e27b2.txt
+  - ref: refs/heads/main
+    old: 797653865b982d53ecca517dd2b0ffb8bd967022
+    new: d785ed945de6955361aafc2d540d9bb7c6a69a65
+    log: revlist-797653865b98-d785ed945de6.txt
 
---===============6298214065250961715==
+--===============3246957161600181452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7565c39da89d-0d76fc7e27b2.txt
+Content-Disposition: attachment; filename=revlist-797653865b98-d785ed945de6.txt
 
-c50e7475961c36ec4d21d60af055b32f9436b431 dpaa2-switch: Fix error checking in dpaa2_switch_seed_bp()
-80a1e7b83bb1834b5568a3872e64c05795d88f31 cxgb4: add forgotten u64 ivlan cast before shift
-8aba27c4a5020abdf60149239198297f88338a8d igb: cope with large MAX_SKB_FRAGS
-6efea5135417ae8194485d1d05ea79a21cf1a11c net: dsa: microchip: fix PTP config failure when using multiple ports
-528876d867a23b5198022baf2e388052ca67c952 net: dsa: mv88e6xxx: Fix out-of-bound access
-c07ff8592d57ed258afee5a5e04991a48dbaf382 netem: fix return value if duplicate enqueue fails
-e255683c06df572ead96db5efb5d21be30c0efaa mptcp: pm: re-using ID of unused removed ADD_ADDR
-a13d5aad4dd9a309eecdc33cfd75045bd5f376a3 selftests: mptcp: join: check re-using ID of unused ADD_ADDR
-edd8b5d868a4d459f3065493001e293901af758d mptcp: pm: re-using ID of unused removed subflows
-65fb58afa341ad68e71e5c4d816b407e6a683a66 selftests: mptcp: join: check re-using ID of closed subflow
-ef34a6ea0cab1800f4b3c9c3c2cefd5091e03379 mptcp: pm: re-using ID of unused flushed subflows
-e06959e9eebdfea4654390f53b65cff57691872e selftests: mptcp: join: test for flush/re-add endpoints
-f448451aa62d54be16acb0034223c17e0d12bc69 mptcp: pm: remove mptcp_pm_remove_subflow()
-322ea3778965da72862cca2a0c50253aacf65fe6 mptcp: pm: only mark 'subflow' endp as available
-1c1f721375989579e46741f59523e39ec9b2a9bd mptcp: pm: only decrement add_addr_accepted for MPJ req
-0137a3c7c2ea3f9df8ebfc65d78b4ba712a187bb mptcp: pm: check add_addr_accept_max before accepting new ADD_ADDR
-ca6e55a703ca2894611bb5c5bca8bfd2290fd91e mptcp: pm: only in-kernel cannot have entries with ID 0
-09355f7abb9fbfc1a240be029837921ea417bf4f mptcp: pm: fullmesh: select the right ID later
-4878f9f8421f4587bee7b232c1c8a9d3a7d4d782 selftests: mptcp: join: validate fullmesh endp on 1st sf
-48e50dcbcbaaf713d82bf2da5c16aeced94ad07d mptcp: pm: avoid possible UaF when selecting endp
-0d76fc7e27b2097e18ee128e484d107ed6d45e88 Merge branch 'mptcp-pm-fix-ids-not-being-reusable'
+555e5531635a7c5dba663d06cea240362624dfde selftests: net/forwarding: spawn sh inside vrf to speed up ping loop
+2cbece60a4af03803634abd1e840e513db48d42e net: hns3: Use ARRAY_SIZE() to improve readability
+13cfd6a6d7ac78e845768278ab745acbd19c43ce net: Silence false field-spanning write warning in metadata_dst memcpy
+55da77dec1be92afafb5683cc28a60bc2cc83716 dt-bindings: net: mediatek,net: narrow interrupts per variants
+06ab21c3cb6e124bdc2da226f38bc8eb45946887 dt-bindings: net: mediatek,net: add top-level constraints
+70d16e13368c0526eb3e2a326ed002183a087c21 dt-bindings: net: renesas,etheravb: add top-level constraints
+2862c9349d5d8667d897aa5cecf0f3886979ecb1 dt-bindings: net: socionext,uniphier-ave4: add top-level constraints
+8594d9b85c07f05e431bd07e895c2a3ad9b85d6f af_unix: Don't call skb_get() for OOB skb.
+bc3dd9ed04d69cba3bb603da06fa26d888233cff l2tp: use skb_queue_purge in l2tp_ip_destroy_sock
+4d36b2b1dea4ff528bd7d312d9c713a827656d75 net: dsa: b53: Use dev_err_probe()
+d785ed945de6955361aafc2d540d9bb7c6a69a65 net: wwan: t7xx: PCIe reset rescan
 
---===============6298214065250961715==--
+--===============3246957161600181452==--
