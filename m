@@ -1,20 +1,282 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/ksmap
-Date: Wed, 21 Aug 2024 08:45:15 -0000
-Message-Id: <172422991545.18393.11461985933067802579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 21 Aug 2024 09:00:01 -0000
+Message-Id: <172423080110.26890.8606565836132018923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/ksmap
-user: lukas
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: dade924601d67e85929f50937620b365685670a7
-    new: c9ee0d1ce2a98d462dec70eb69b0c9e6715a1524
+  - ref: refs/heads/main
+    old: 42f4a68705384eeecb5b31b71cc8a8fe19bca916
+    new: da09835b6ceb36f1d99c6469056c18a7435e8b68
     log: |
-         d44d52044b6611233efc6cb8ab29b3e543e1be56 users: Clean up key ids and e-mail addresses
-         c9ee0d1ce2a98d462dec70eb69b0c9e6715a1524 yaml-to-kml.py: Link to graphs on kernel.org
+         da09835b6ceb36f1d99c6469056c18a7435e8b68 Document reencryption process status callbak return code.
          
+  - ref: refs/heads/master
+    old: 42f4a68705384eeecb5b31b71cc8a8fe19bca916
+    new: da09835b6ceb36f1d99c6469056c18a7435e8b68
+    log: |
+         da09835b6ceb36f1d99c6469056c18a7435e8b68 Document reencryption process status callbak return code.
+         
+  - ref: refs/merge-requests/286/head
+    old: ddf09be4950a51c26cd8f1928ef00b50b759b027
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/286/merge
+    old: 1827d0c4109bb1b87359827453598b0a75ad07de
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/365/head
+    old: 5b001b7962744b1bdaeb60b7c8cb9c682f907e03
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/365/merge
+    old: dfa4453f53bef2ae488174625e8113cf323620c6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/366/head
+    old: 836017eb3f443c7133d8d585e093f5eb8653e405
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/366/merge
+    old: 19cd177a5136aa43a8cc344a019dbe65227f7a1a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/385/head
+    old: 3106b4e2c16a1b62eaf533f3bce2b03801014098
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/385/merge
+    old: 36083f2e2f64010e536cc8f02ca6cd435fe20f32
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/386/head
+    old: a76c96d3610a78b99e74e467acbbbc51a2b13634
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/386/merge
+    old: 7a1104fd467fbfe4f442aeefe3ea850cbbd3859a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/387/head
+    old: dab326b8c0f4af055a8a827502ce40c2958b9270
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/387/merge
+    old: 2e4a8dee49a8dc8c7ad8600125ef24b270b85d0e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/388/head
+    old: 8315ada3b0c649f8ba5ec7aaa7e1b9eee4e24263
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/388/merge
+    old: 23a1a2265408bbd50b867975c7f7ba8fff4f7010
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/389/head
+    old: 648a85ed3af42a343938c3f0fa24806c90a0b0d3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/389/merge
+    old: 2c827bbbe52ba58e499eb6143747a719c70e8265
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/390/head
+    old: fbcef71c410864bedaf7ea29779adcfba09eda39
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/390/merge
+    old: ca23d376d834121d9a327f96b2bb497a5f5df443
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/391/head
+    old: 090dca635a62b6d1215db06a594fe2b7fb3de48f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/391/merge
+    old: fce49e6332453132fba0e61c42fd4fc9ca4ca68d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/392/head
+    old: bf4bfeac8a65c0b09fa51ae75196954d5a396959
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/392/merge
+    old: 480c6352ac7b8375da57d5c9a0c25d5d9dabaa31
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/393/head
+    old: 3e178caeafc65bae61281c3be5db74c7523aae39
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/393/merge
+    old: 95cceb42415965b2bbfebf2b64f3a36f23baeb81
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/394/head
+    old: 94e5d227ce00c3a21e21a4522fa0471c0e0d2e6f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/394/merge
+    old: 1112eb1f9ac00e29f61c6dc8a18368f57c8d4de8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/395/head
+    old: 8270b72bfc329098a5ea5bf3535bcb3e7a439d7a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/395/merge
+    old: 780b25e8cc3575c5b8304bd8cc4a27ea21269560
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/396/head
+    old: 17e6d2053a89a579bf490700e9ea5d673ee6623a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/396/merge
+    old: 5af9a62e83d13aeafc58f4ba3d2a26ce5c2b9be0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/397/head
+    old: dc3adaf79b544480f5e2fe11901954ea8189ce75
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/397/merge
+    old: 9b242cd5a7f1b5c2a85f343c6216fdec312ac588
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/398/head
+    old: 766ac108ec300b95de53ea5d46ef7f40ec2db3bc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/398/merge
+    old: c3256940f72b66cce4911b7bcb99c5fa2197ecab
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/399/head
+    old: b9b7c3a9bd98688e01508bd4227eb4c12ac9d986
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/399/merge
+    old: ed24af08438774671adfac51442c3e55fd58623b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/400/head
+    old: e263b3e1370f7fd800c9c7572029b8474c5cf74c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/400/merge
+    old: a75b470b5bcf24ed9cb2a9dcd31f728a17fc89e5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/401/head
+    old: c6ed1becd789757ae09a0398d713ed82994b13f3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/401/merge
+    old: b80db0661d32520d85681f980d81abf8e5ad4821
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/402/head
+    old: 093adfc5f916fb323862af63e6a2decd291757a4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/402/merge
+    old: 4eb174fe5d7ff02194ebd1049164b619b9f30063
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/403/head
+    old: 190e4fc0330323c4a6952144af6df141d937ad71
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/403/merge
+    old: e3210851f6b2d7b9a103c6126339abd0198286f7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/404/head
+    old: f8c79f9a95d6db085cd0ee31960a016cc2482dce
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/404/merge
+    old: 2c4dfa07724e3c21adc1684f1786f6f707bb1c92
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/405/head
+    old: 429afe8fc3532bb30cc8b47a8247a61a643be59c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/405/merge
+    old: 812849d6cafee20ef98685bfe850953ccdbcd58c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/406/head
+    old: f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/406/merge
+    old: 6fd8709c9259f8d8e0077d7560a02d29497ef9b0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/407/head
+    old: 132027bafa20c829a69d718e2b5e24ec0bc2710e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/407/merge
+    old: b65886cc461f353bbda7dcb2cdfffbd4e91f5fb5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/409/head
+    old: b183bb25e2a47cb856ab239680f731d15a17cf88
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/409/merge
+    old: 73c53fafaf546b980909b48accf99d844b36dfc5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/410/head
+    old: 01c032df0401d1acb0b060ac2a2ef0412acc28be
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/410/merge
+    old: 7fa15df2915522ed3bf7c2e467d51121ed9b06e1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/411/head
+    old: c1302555b7999675c3293c202604e790a2f69746
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/411/merge
+    old: ebebd87d54cec517b8fa473ce3591d12fbc57886
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/412/head
+    old: 88d9524e6cae861e28c748eb4ccc5777d9254638
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/412/merge
+    old: 50d909cf274ce02788e00a02e50c5876a3d3b9fc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/413/head
+    old: 09ac5321f4ebe5f7e4e330c628881932b10b38df
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/413/merge
+    old: 7733bce96a8727f265865520c0c08213724a7aac
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/414/head
+    old: 94e8a7ca968131dedca4ed8a08c8e450a92dd8ba
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/414/merge
+    old: 0ffb69eac00b089a57e2b6c73a33b4b52834a902
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/415/head
+    old: eac02f5605d65a83d566922c7c1b7f97fd28d3a8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/415/merge
+    old: fda3fbe10bdd5bf63b8823409f517b8b4efd2f1e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/420/merge
+    old: c834cc2535b8a5bffba4acc5ff2841f81d081e23
+    new: 5b5e5a6d4c8218b53fd5b888fdf657b52db0ba5a
+    log: |
+         42f4a68705384eeecb5b31b71cc8a8fe19bca916 Initialize crypto in crypt_format_luks2_opal
+         5b5e5a6d4c8218b53fd5b888fdf657b52db0ba5a Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/674/head
+    old: 7c992fa09e786a9e861e510a102e38cac07c9d97
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/674/merge
+    old: 1fef79eb3ee84274fe3c23362d2cc6bb81da6d83
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/679/merge
+    old: d73b64dda5cc8c6a72ea8b7ef2444e1fc812e58b
+    new: 0e3466b981939e21eecd5a32ed1649d30135fa69
+    log: |
+         42f4a68705384eeecb5b31b71cc8a8fe19bca916 Initialize crypto in crypt_format_luks2_opal
+         0e3466b981939e21eecd5a32ed1649d30135fa69 Merge branch 'ubuntu-ci-runner' into 'main'
+         
+  - ref: refs/merge-requests/680/head
+    old: 3a7794795f7de97ee8964dcae8ee2dfa9e300421
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/680/merge
+    old: fce1a6a30deacf0a1a6903d477546bd1c0a04a97
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/681/head
+    old: e0852d21ddbd5352d6e23281a936f6bb318b10f6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/681/merge
+    old: 94772cc9dd7a54a105d8e4d551bd5e870ffcb770
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/682/head
+    old: 0d4027291a247c1eda8ccd2c4337d91ef1454d5d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/682/merge
+    old: 5524416999ec16e653ae1a614a4ba79ff2488242
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/683/head
+    old: d5fb76a3b4aa84a391907099eacde8fd2252120b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/683/merge
+    old: 6d5b0aa7b7656dd699e64fc045ec095a9b04f499
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fix-ssize
+    old: 0000000000000000000000000000000000000000
+    new: 8ba3e18c19497c2d85ff39b423e4a30319766c4f
+  - ref: refs/merge-requests/685/head
+    old: 0000000000000000000000000000000000000000
+    new: da09835b6ceb36f1d99c6469056c18a7435e8b68
+  - ref: refs/merge-requests/685/merge
+    old: 0000000000000000000000000000000000000000
+    new: 52c5b8c21245669d4b524b330174094413db07cf
+  - ref: refs/merge-requests/686/head
+    old: 0000000000000000000000000000000000000000
+    new: 8ba3e18c19497c2d85ff39b423e4a30319766c4f
+  - ref: refs/merge-requests/686/merge
+    old: 0000000000000000000000000000000000000000
+    new: 6960552f626c9d2aff5b171142a1202f93669235
