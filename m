@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4159222573638240106=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 21 Aug 2024 01:40:25 -0000
-Message-Id: <172420442515.30680.13414562191117340549@gitolite.kernel.org>
-
---===============4159222573638240106==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 21 Aug 2024 02:06:34 -0000
+Message-Id: <172420599415.15968.15053806733161189046@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6a3bef9c70fe94551ec46debacd74f0b5a96f6df
-    new: c3e9b596365106f3ef9acdc9db3f76afcd3470e7
+    old: 0108b7be2a18d85face1e10c68ecc0138f1bed58
+    new: b311c1b497e51a628aa89e7cb954481e5f9dced2
     log: |
-         c3e9b596365106f3ef9acdc9db3f76afcd3470e7 add 6.10.5 review from greg
+         dfd046d0ced19b6ff5f11ec4ceab0a83de924771 ksmbd: Use unsafe_memcpy() for ntlm_negotiate
+         76e98a158b207771a6c9a0de0a60522a446a3447 ksmbd: fix race condition between destroy_previous_session() and smb2 operations()
+         4fdd8664c8a94411a01d11d5ed2f083f105f570a ksmbd: fix spelling mistakes in documentation
+         7c525dddbee71880e654ad44f3917787a4f6042c ksmbd: Replace one-element arrays with flexible-array members
+         b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of git://git.samba.org/ksmbd
          
-
---===============4159222573638240106==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724204421 +0800
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1724204421-29ae4efdb505ce41634f60d593b9fa0ca64f0427
-
-6a3bef9c70fe94551ec46debacd74f0b5a96f6df c3e9b596365106f3ef9acdc9db3f76afcd3470e7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbFRYUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NqgQAJGUHGTy+lWGQIIt6rNe
-4vn6gM4WAdDq/VfSoO+fTOPYCgQ9i8/MRpxQ73fudYNZmAPWPhHCjArbbvGhN7ik
-jMmYj8Ia1yWCYE3RfEinfoktU0HBsRUOJItcuOHPruZzDBIyCazF4D6jHqGxoTXr
-i17m3jLqNvmYA57GhcSOpPi8f+ulzIgeOSzHRNVhnHhiABJnmotEACSvmj2fj6cj
-VjYq+z181B5/TnSlQE95Hs9zYK8/LOqbq7PDo7hyewv7RNFwvFD2alwg5T2C593Z
-1ql0OyTufZuj2w/yeYPI468DaemxCBma9RHdmUPJrWoHjF95QP5I3R+iR4WXekq1
-QpOhsr84AJO3vjtSFDs5fUI2jbIEnR8nKYu5TWtlGQXn42lmJt1r7JCRc6duSebc
-am91W4jhkiCtk64kKty1wfDQvQAHEFexlMthB6CpJUj2yhiZc/Wd/MextD1ThF7K
-J+Iu7K7iW2FhRSYik8Ufji9UGvynyeYcW/VC9KLmNtBOYHZPYcbbyV4TH81iaE4U
-YJLWgCVY3NIqintg6EIvL3Pgn2eA2ZtVUrtgDCU8uDXROS1llWDvHAmpLLJGelHS
-wn9s2g4aqA5ECuX+H0ZWBuUc+LVl5o8+4+jfMnmDkTo3Rpzwz7l/M035FA9HhuMO
-i+rYsNuqzxePu5EW/rawDG9e
-=nX3P
------END PGP SIGNATURE-----
-
---===============4159222573638240106==--
