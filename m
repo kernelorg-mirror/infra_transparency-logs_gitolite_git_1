@@ -1,28 +1,72 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 21 Aug 2024 17:50:05 -0000
-Message-Id: <172426260527.14311.17709880402719941249@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6447575902099478572=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 21 Aug 2024 17:56:07 -0000
+Message-Id: <172426296722.18106.15858433195413854906@gitolite.kernel.org>
+
+--===============6447575902099478572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fix-async-copy
-    old: dc88baf12b14f70884c363f5893dd2e5d53c78b8
-    new: f0f708bee4e72a90af2a137efd0d736d2081ddb1
+  - ref: refs/heads/clk-cleanup
+    old: de7aeb5dddd484a9b840dcb53449e5c15f5d3e97
+    new: 1b2ed9df08007bfa44d818f6511af43bf089e63b
     log: |
-         9ba2f5d8f2588824c0c3ffed7315d28184e2ff52 NFSD: Document callback stateid laundering
-         9143dc1d7448fe7b3b32309c1a4e9c26d4377d92 NFSD: Wrap async copy operations with trace points
-         a957a17984a624bceb2a9621bc565530f3e3c114 NFSD: Add a per-net-namespace async copy limit
-         08bc42e61b87d49cde52089561f16bb60b01f7df NFS: Fix typo in OFFLOAD_CANCEL comment
-         e78a4ecd9dbe46d10fd263c26dd57ae91fa7c11b NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
-         8c550db1e67c3fd5f3ac82992e3bd4d6d4a0ed35 NFS: Rename struct nfs4_offloadcancel_data
-         b56ebb9d827fd11efa41d5bcfe45949aefac59eb NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
-         d9734283bd69df6d83498abaa16f10dbb8fb0bfe NFS: Use NFSv4.2's OFFLOAD_STATUS operation
-         260840d314d99298bb05e16321c853d98b45deef NFS: Refactor trace_nfs4_offload_cancel
-         f0f708bee4e72a90af2a137efd0d736d2081ddb1 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+         0da7faca5319a07a2f02df3e17e665fd7718c9b9 clk: mmp: Switch to use kmemdup_array()
+         1b2ed9df08007bfa44d818f6511af43bf089e63b clk: visconti: Switch to use kmemdup_array()
          
+  - ref: refs/heads/clk-next
+    old: 96e52588fb2c54e8c2a39fe7aabfe7239cf715b4
+    new: 5cbecabe63a8f98265017b78cc2cb7aab68b5ccc
+    log: |
+         0da7faca5319a07a2f02df3e17e665fd7718c9b9 clk: mmp: Switch to use kmemdup_array()
+         1b2ed9df08007bfa44d818f6511af43bf089e63b clk: visconti: Switch to use kmemdup_array()
+         0ff0974475b3ce611d76c67ce7638d58cc3c0f2f Merge branch 'clk-cleanup' into clk-next
+         965e063743f6fb25add023cced360735b023d478 clk: clk-conf: support assigned-clock-rates-u64
+         5cbecabe63a8f98265017b78cc2cb7aab68b5ccc Merge branch 'clk-assigned-rates' into clk-next
+         
+  - ref: refs/heads/clk-assigned-rates
+    old: 0000000000000000000000000000000000000000
+    new: 965e063743f6fb25add023cced360735b023d478
+
+--===============6447575902099478572==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1724262965 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1724262965-7409887fffa69457752b17d49790d1059babd93e
+
+de7aeb5dddd484a9b840dcb53449e5c15f5d3e97 1b2ed9df08007bfa44d818f6511af43bf089e63b refs/heads/clk-cleanup
+96e52588fb2c54e8c2a39fe7aabfe7239cf715b4 5cbecabe63a8f98265017b78cc2cb7aab68b5ccc refs/heads/clk-next
+0000000000000000000000000000000000000000 965e063743f6fb25add023cced360735b023d478 refs/heads/clk-assigned-rates
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmbGKjURHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSXfDQ/8CraXMx+EXAwXR+THR6SKbzFVGP9NLtjq
+My+95TjfBEVXcyeWYdjeRVfB9XqeLa7iERAsGoeb8yMQkfqTAtjMPX4FDO9ZhzMl
+wMTA8avy4qOEk9WXC+GqumoELXXuOXHYFXXIIW4YTp3p7TaLe+LU+g8NVlsfSg+I
+KKwPOXWPKw5BiQDLWg1o3tqfoWJCxw9mTIQJM7t2+muPmZWufsLu4hzXS9xoRKwb
+WPg02Sov0EYYDkbhHeJA3PzTh/ppplFDRRzmFDY7t278SNI1iL+hdITwUw8BBLeM
+GsPQeMqWCR9Q+g3X+Q1CBfwBuPs6L6cJw+zkLqyhMFUO+LhDcoUPwbnio9xPtE7Z
+BgAgp0kzVEs72qzYkk2BePfd82vUbNtwZtH5Va6V6F9wg2AgYiBHA1E/4uQVUJ6+
+lYg96NmxGuR9OukCqXeEElTmG0Gw3EQQj9310Y92axGb3FUcRwZ+nsT0lhUzqe7N
+rh6vu6vIqmlNxAd63a4WEc9IcKTAjhrj20iNefjlTC1fPFEabUvLaYYN6KI7YhBL
+IlUoGT3TXF+nFxr1HBvuk1rO3cFrXo4C5+qo1QZZT2s4rPkaKeblzN5X+TzPXUTw
+qfGhGoe0Gew3hUWqBtdXQ0irfio3gCGVuck+XfQefUoExFor36jAu4r1ohfrfHQj
+qpAX3DAFr0o=
+=i1cG
+-----END PGP SIGNATURE-----
+
+--===============6447575902099478572==--
