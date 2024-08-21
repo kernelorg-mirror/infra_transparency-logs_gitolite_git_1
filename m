@@ -1,41 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4839255169652983006=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 21 Aug 2024 18:03:37 -0000
-Message-Id: <172426341764.22602.12598085155633971882@gitolite.kernel.org>
-
---===============4839255169652983006==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 21 Aug 2024 18:07:15 -0000
+Message-Id: <172426363562.26829.12116531054118805093@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 2480817766274a569f08e71454b536e584af3a11
-    new: 7fee0ddd8c56414b54924d112ee1145692f011eb
-    log: revlist-248081776627-7fee0ddd8c56.txt
-
---===============4839255169652983006==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-248081776627-7fee0ddd8c56.txt
-
-861c627f5eb0f847d5bb0c5371eb246bb7bdcb27 mm, slub: do not call do_slab_free for kfence object
-9f4c01868de277b81d39d37a75c58f923174ea2a mm, slab: dissolve shutdown_cache() into its caller
-f82b0bcbc07fae9bc1f6edab86813444c7f99a93 mm, slab: unlink slabinfo, sysfs and debugfs immediately
-29f494e68e4cf5c00447a3ac2555fc9f56dd2b72 mm, slab: move kfence_shutdown_cache() outside slab_mutex
-3a803a56f27eb9dd4f6384445e9b7dceb22f2230 mm, slab: reintroduce rcu_barrier() into kmem_cache_destroy()
-3ebbcc153f4222631def0a280f3115b9a6c06419 rcu/kvfree: Add kvfree_rcu_barrier() API
-948d992df3621a1bf890e7c91324ac0db6324a67 mm, slab: call kvfree_rcu_barrier() from kmem_cache_destroy()
-2377a7d90f5bb2ccc302b5fb0e6ba4c67cf24ddd kunit, slub: add test_kfree_rcu() and test_leak_destroy()
-fb2ac6e8be485ce1b9ddcba52f3a92ae5ace5507 kasan: catch invalid free before SLUB reinitializes the object
-3a34e8ea62cdeba64a66fa4489059c59ba4ec285 slub: Introduce CONFIG_SLUB_RCU_DEBUG
-7fee0ddd8c56414b54924d112ee1145692f011eb Merge branch 'slab/for-6.12/rcu_barriers' into slab/for-next
-
---===============4839255169652983006==--
+  - ref: refs/heads/master
+    old: ffc41ce5cf09f8d7113aca98e68f6e11956c0eab
+    new: 1a437d35a90b7a765d9ce2c629787d22ff103252
+    log: |
+         7d41dad105b6667745f0984e386caf3289cef6db selftests/bpf: less spam in the log for message matching
+         d0a29cdb6ef95d8a175e09ab2d1334271f047e60 selftests/bpf: correctly move 'log' upon successful match
+         f00bb757ed630affc951691ddaff206039cbb7ee selftests/bpf: fix to avoid __msg tag de-duplication by clang
+         f8d161756d422598e10a112171a73cf621e67fae selftests/bpf: replace __regex macro with "{{...}}" patterns
+         b991fc52070042468f31b70fb8ccab96ba351f8a selftests/bpf: utility function to get program disassembly after jit
+         7d743e4c759c6bff0131d638158c3472358eda2b selftests/bpf: __jited test tag to check disassembly after jit
+         e5bdd6a8be783eb0c960723d9f37df7ee931d6d6 selftests/bpf: validate jit behaviour for tail calls
+         a038eacdbf59e6024c9e8da5df7f293e64cf20de selftests/bpf: validate __xlated same way as __jited
+         1a437d35a90b7a765d9ce2c629787d22ff103252 Merge branch '__jited-test-tag-to-check-disassembly-after-jit'
+         
