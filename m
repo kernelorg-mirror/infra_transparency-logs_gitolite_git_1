@@ -1,28 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 21 Aug 2024 18:42:31 -0000
-Message-Id: <172426575117.20941.5813409540314676635@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4424716792062440361=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 21 Aug 2024 18:44:39 -0000
+Message-Id: <172426587902.21741.4404386403949785650@gitolite.kernel.org>
+
+--===============4424716792062440361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-linus
-    old: a42db293e5983aa1508d12644f23d73f0553b32c
-    new: 5f7c98b7519a3a847d9182bd99d57ea250032ca1
-    log: |
-         0e9fdab1e8df490354562187cdbb8dec643eae2c ASoC: allow module autoloading for table db1200_pids
-         5f7c98b7519a3a847d9182bd99d57ea250032ca1 ASoC: allow module autoloading for table board_ids
-         
   - ref: refs/heads/for-next
-    old: 61c80c77b4f35e229347551d13e265752f067151
-    new: ec77be57d0c396de9e10081dbeb1096cb9fac8f2
-    log: |
-         0e9fdab1e8df490354562187cdbb8dec643eae2c ASoC: allow module autoloading for table db1200_pids
-         5f7c98b7519a3a847d9182bd99d57ea250032ca1 ASoC: allow module autoloading for table board_ids
-         ec77be57d0c396de9e10081dbeb1096cb9fac8f2 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
-         
+    old: 8ccd382ffd07fbd7f162ba2062dda2e6b0f99a69
+    new: e7a594a6408c0d01e380267ed61c0473acc72ec5
+    log: revlist-8ccd382ffd07-e7a594a6408c.txt
+
+--===============4424716792062440361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8ccd382ffd07-e7a594a6408c.txt
+
+496ddd19a0fad22f250fc7a7b7a8000155418934 bpf: extract iterator argument type and name validation logic
+baebe9aaba1e59e34cd1fe6455bb4c3029ad3bc1 bpf: allow passing struct bpf_iter_<type> as kfunc arguments
+b0cd726f9a8279b33faa5b4b0011df14f331fb33 selftests/bpf: test passing iterator to a kfunc
+ffc41ce5cf09f8d7113aca98e68f6e11956c0eab Merge branch 'support-passing-bpf-iterator-to-kfuncs'
+7d41dad105b6667745f0984e386caf3289cef6db selftests/bpf: less spam in the log for message matching
+d0a29cdb6ef95d8a175e09ab2d1334271f047e60 selftests/bpf: correctly move 'log' upon successful match
+f00bb757ed630affc951691ddaff206039cbb7ee selftests/bpf: fix to avoid __msg tag de-duplication by clang
+f8d161756d422598e10a112171a73cf621e67fae selftests/bpf: replace __regex macro with "{{...}}" patterns
+b991fc52070042468f31b70fb8ccab96ba351f8a selftests/bpf: utility function to get program disassembly after jit
+7d743e4c759c6bff0131d638158c3472358eda2b selftests/bpf: __jited test tag to check disassembly after jit
+e5bdd6a8be783eb0c960723d9f37df7ee931d6d6 selftests/bpf: validate jit behaviour for tail calls
+a038eacdbf59e6024c9e8da5df7f293e64cf20de selftests/bpf: validate __xlated same way as __jited
+1a437d35a90b7a765d9ce2c629787d22ff103252 Merge branch '__jited-test-tag-to-check-disassembly-after-jit'
+e7a594a6408c0d01e380267ed61c0473acc72ec5 Merge branch 'bpf-next/master' into bpf-next/for-next
+
+--===============4424716792062440361==--
