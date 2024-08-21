@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 Aug 2024 11:57:34 -0000
-Message-Id: <172424145436.8915.14313957292180504226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 21 Aug 2024 12:00:58 -0000
+Message-Id: <172424165871.11924.10950629110338725402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 4d36b2b1dea4ff528bd7d312d9c713a827656d75
-    new: d785ed945de6955361aafc2d540d9bb7c6a69a65
-    log: |
-         d785ed945de6955361aafc2d540d9bb7c6a69a65 net: wwan: t7xx: PCIe reset rescan
-         
+  - ref: refs/tags/v6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+  - ref: refs/tags/v6.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/erofs-for-6.11-rc5-fixes
+    old: 0000000000000000000000000000000000000000
+    new: e1f2538de1fddfe9d0c3b928a59bf1e1ce3d2f87
