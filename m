@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 21 Aug 2024 21:07:38 -0000
-Message-Id: <172427445862.3701.14315433132614265316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 21 Aug 2024 21:15:39 -0000
+Message-Id: <172427493976.9927.10100852888310025630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/lkxdrgen
-    old: 23eab62fabfcd2af9769609dd9018f31f28e6d4d
-    new: b5036f76b6fde75f153a1e4e6371f1bd199e581a
+  - ref: refs/heads/todo
+    old: c2ddd02d6ba655a91494f665033de5b86cf75d6e
+    new: 1d61109da6b67b58ca1dd8fc104dfab2a6a0ea75
     log: |
-         afec13278f4ed7dad696cfdaddbee978d905b9f2 nfsd: use LIST_HEAD() to simplify code
-         724064d1648e8532a93781ea8a3c10f84dcfd5d9 tools: Add xdrgen
-         b5036f76b6fde75f153a1e4e6371f1bd199e581a NFSD: Create an initial nfs4_1.x file
+         1d61109da6b67b58ca1dd8fc104dfab2a6a0ea75 What's cooking (2024/08 #08)
          
