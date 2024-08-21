@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8450244112876677760=="
+Content-Type: multipart/mixed; boundary="===============5013147344106076414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Aug 2024 20:33:55 -0000
-Message-Id: <172427243579.7982.9461402921572398663@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 20:34:02 -0000
+Message-Id: <172427244231.8095.16347098240255410997@gitolite.kernel.org>
 
---===============8450244112876677760==
+--===============5013147344106076414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 7565c39da89dc6ac9b1b0733bd70276bc66612b1
-    new: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
-    log: revlist-7565c39da89d-0d76fc7e27b2.txt
+  - ref: refs/heads/dev-queue
+    old: b6b95772787537a88aae49ba7ce13a25a3f240b6
+    new: c1e41c723ce6a8fced5159a9b23898e88a557379
+    log: revlist-b6b957727875-c1e41c723ce6.txt
 
---===============8450244112876677760==
+--===============5013147344106076414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7565c39da89d-0d76fc7e27b2.txt
+Content-Disposition: attachment; filename=revlist-b6b957727875-c1e41c723ce6.txt
 
 c50e7475961c36ec4d21d60af055b32f9436b431 dpaa2-switch: Fix error checking in dpaa2_switch_seed_bp()
 80a1e7b83bb1834b5568a3872e64c05795d88f31 cxgb4: add forgotten u64 ivlan cast before shift
@@ -47,5 +47,13 @@ ca6e55a703ca2894611bb5c5bca8bfd2290fd91e mptcp: pm: only in-kernel cannot have e
 4878f9f8421f4587bee7b232c1c8a9d3a7d4d782 selftests: mptcp: join: validate fullmesh endp on 1st sf
 48e50dcbcbaaf713d82bf2da5c16aeced94ad07d mptcp: pm: avoid possible UaF when selecting endp
 0d76fc7e27b2097e18ee128e484d107ed6d45e88 Merge branch 'mptcp-pm-fix-ids-not-being-reusable'
+281b58442b9e3e15d8e033a9e3db1f543148018b ice: Fix lldp packets dropping after changing the number of channels
+08eacb0c19d0d2a5b461a9a207930d891a6895eb ice: fix accounting for filters shared by multiple VSIs
+7495020cbac20bdf90a2e133057e786e4fd06181 ice: Flush FDB entries before reset
+dec94bfbc1fd5e230858c2a540a101dfb55b4f3b ice: fix page reuse when PAGE_SIZE is over 8k
+d2967e8612f8b537666090a2fd23189fb48ce14e ice: fix ICE_LAST_OFFSET formula
+46266617f061f0f52e940501bf6ddd534a56ce49 ice: fix truesize operations for PAGE_SIZE >= 8192
+dfa2f76186c55f6ba863ff6a80bee1c1d2e19000 igb: Fix not clearing TimeSync interrupts for 82580
+c1e41c723ce6a8fced5159a9b23898e88a557379 ice: use internal pf id instead of function number
 
---===============8450244112876677760==--
+--===============5013147344106076414==--
