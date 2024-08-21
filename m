@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5304015532306088903=="
+Content-Type: multipart/mixed; boundary="===============4844042768946184057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 21 Aug 2024 11:26:18 -0000
-Message-Id: <172423957830.18498.14403979807079298022@gitolite.kernel.org>
+Date: Wed, 21 Aug 2024 11:28:44 -0000
+Message-Id: <172423972424.19430.664870658704106082@gitolite.kernel.org>
 
---===============5304015532306088903==
+--===============4844042768946184057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,59 +17,44 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 0c280f9bf41c4136c265689658570d16b39eb995
-    new: ab900da20520283543131bd825ac1442f8a9bcc0
+    old: ab900da20520283543131bd825ac1442f8a9bcc0
+    new: 6c25d00415596ed6554193f699b055fe4476d33d
     log: |
-         4e39e5b84361924006f4d7cf81e049a2793079a6 clk: samsung: clk-pll: Add support for pll_1418x
-         011a9de99793c3a2ee612ff3e0ce293dcbea6df0 clk: samsung: exynos7885: Add USB related clocks to CMU_FSYS
-         881ed4f31e06694376aeca75728941e77e072a53 arm64: dts: exynosautov9: Add dpum SysMMU
-         4c558474c2db0ed33927cd5e3036749c5a177df3 Merge branch 'next/dt64' into for-next
-         ab900da20520283543131bd825ac1442f8a9bcc0 Merge branch 'next/clk' into for-next
-         
-  - ref: refs/heads/next/clk
-    old: ae07389413d41995a027aa5fb99938cd9201fb40
-    new: 011a9de99793c3a2ee612ff3e0ce293dcbea6df0
-    log: |
-         4e39e5b84361924006f4d7cf81e049a2793079a6 clk: samsung: clk-pll: Add support for pll_1418x
-         011a9de99793c3a2ee612ff3e0ce293dcbea6df0 clk: samsung: exynos7885: Add USB related clocks to CMU_FSYS
+         6c25d00415596ed6554193f699b055fe4476d33d Merge branch 'next/clk' into for-next
          
   - ref: refs/heads/next/dt64
-    old: a8782104b78a08f42f156e1f830b4761de51a9a8
-    new: 881ed4f31e06694376aeca75728941e77e072a53
-    log: |
-         881ed4f31e06694376aeca75728941e77e072a53 arm64: dts: exynosautov9: Add dpum SysMMU
-         
+    old: 881ed4f31e06694376aeca75728941e77e072a53
+    new: a8782104b78a08f42f156e1f830b4761de51a9a8
 
---===============5304015532306088903==
+--===============4844042768946184057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1724239573 +0200
+pusher krzk@kernel.org 1724239722 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1724239572-5fb7bc36cfe9e5763961ee6348efca504f906def
+nonce 1724239721-76db1c12854cdc9b01ad09b3dea304f02156f29e
 
-0c280f9bf41c4136c265689658570d16b39eb995 ab900da20520283543131bd825ac1442f8a9bcc0 refs/heads/for-next
-ae07389413d41995a027aa5fb99938cd9201fb40 011a9de99793c3a2ee612ff3e0ce293dcbea6df0 refs/heads/next/clk
-a8782104b78a08f42f156e1f830b4761de51a9a8 881ed4f31e06694376aeca75728941e77e072a53 refs/heads/next/dt64
+ab900da20520283543131bd825ac1442f8a9bcc0 6c25d00415596ed6554193f699b055fe4476d33d refs/heads/for-next
+881ed4f31e06694376aeca75728941e77e072a53 a8782104b78a08f42f156e1f830b4761de51a9a8 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbFztUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zZGD/9piiaUu69KaAEHYZoXR+XmMFwZcEKf6zjY
-LMPIHBLNRhQm3NB7juIFgnwTmCIOYHLjrXMnDYPEd9uf3HUhnek4L2Ant9vFXKDF
-nzlbY4mogpO8H9H2yYORdorFF2V7JMAkNTrhybbcwVJhxYv0nYT61bjzgVXyLr0l
-6nnNiD2LVj/2Asjbq/I9Us84kjm+CZoMrT0PggOuhWQfImkHZ/v6a989RdEId4BJ
-/mBGsjb+TN+0QPeelAuQngHfSzN5gO8JUNT7q3EtB42MOYkWVsy3nZOHc06sPF2q
-GfIBwCRo79gz5Yze0248B8Ldo0ois/wW6HaFHvPE9X9PrEI7l6YWowC4LpNdBJM1
-Tc6/sW1dgVDlke1z8F7Tl9OoCSevh4LBAkNEsUSjykg77hnZ2CFm+x19kx85WnSH
-oEs3pKgEsce/ah8ZFsFsF2YlzzNDxI4bIIX+ezUVoOcV3JLCtKt5gXRidYUWzhx8
-/JBx7S7aP2/v9NLCCmiuA+s++sTs56w7awFQoWDRbjbuuoqe8L0vuI4n7ad6NLpR
-FI62CDqTznEEndr5R+b/VipsnHCE7PPT2tyjmpvirNIHconXPqmNmRMxmZ/ZWMwn
-f5+k9M+TUK2Tzf8eAqZvkzatQCtVEmWfGGBRZk8Rvih2/6REUWVJynddkg7wq9pn
-BUGWZau7lg==
-=7N4a
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbFz2oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16GdD/9vbDYWVlHnJTG93QEIJxN9yhcThyWrPq2X
+KIRCQysQJm5OZOtw7N+jFkwThT3NnP1sJ34KtkyCOd1xxRS8vtWbhIPgpZD60TJu
+lelhSi9Q4Cl6iLpjLvrVjVvBx/Hu3Sqhi3+tA5UV1dM5J7AYrH06DEqcAxxDUq9W
+5Hlm+ksa8EOnWpNTcpvJnwxl+BImii/T0SJwdcN1ZEqzml84ekDrqd5D3+7+2GfH
+ML/tgZ/4S0dLjBiY+6iQ9DtCFpNJH2RuVUisXUAoXwbB3Y6zXhvFyjS0EHK/fnL9
+4JTEMNpkqlk5k8f+V7kWkDriuB48xAeoDsUEkC/RriAMii/Ols3QdCfjX4EYIL27
+PmwrQANaBuVQ4us/LVhBBO+McAmHKAsnnwp+bLlQWVgiKdN2QX886TjihRdMLkGC
+1BDcvG51maQieNPIcTgLfTbNH4mB0o8ZZycsNwGQtXdKKVJAeU540zR1gmuLKz9z
+OiZL4u35fsJ7yzHbm9bC0z+tyjEiO4FqaXBO/NemW54ctunvENeKRLWnQyU9gEjl
+vM7epY8K0PHd0uxWH0j6pbPdfUuoKYSJyha9395BrelU3Q23vsNIM5dbfsaozpt9
+fDomMBgowO3wwtdgTr1NvJRWayC9b2m5ey8W/e4z81NjO/xQWp02TLtV5sqcDgti
+WDlcYywPVg==
+=1wx0
 -----END PGP SIGNATURE-----
 
---===============5304015532306088903==--
+--===============4844042768946184057==--
