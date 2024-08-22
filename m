@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 22 Aug 2024 22:44:11 -0000
-Message-Id: <172436665100.4620.2135459342330184091@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4478189390727112155=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 22 Aug 2024 22:44:55 -0000
+Message-Id: <172436669538.5027.15123826416606383483@gitolite.kernel.org>
+
+--===============4478189390727112155==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 88e01f1bd4b9d5a5cc2b56bea2aa166eb6d3be31
-    new: 5ba58cdc95899e1b0898c11758d5619f6604ff52
+  - ref: refs/heads/master
+    old: 109a95f67571a312abc333bc72c24e1235487acc
+    new: 46114a467c57d1e287dea44234bff3ef99be9dcb
     log: |
-         ad9d7a82901d9cea756b8666035b30ca41728e15 regulator: Clarify error message for "id == NULL" in _regulator_get()
-         395a41a1d3e377462f3eea8a205ee72be8885ff6 regulator: Return actual error in of_regulator_bulk_get_all()
-         bfefa214d179f13d01cf1b64a7efbabf586b0c49 regulator: Fully clean up on error in of_regulator_bulk_get_all()
-         b8195520e8b486a0922b4baf511a2fd19bbfc25f regulator: s2mps11: use scoped memory allocation to simplify probe
-         bff5ca83791801b33c1e973e81d077ddc7530e33 regulator: Minor cleanups
-         5ba58cdc95899e1b0898c11758d5619f6604ff52 Merge remote-tracking branch 'regulator/for-6.12' into regulator-next
+         46114a467c57d1e287dea44234bff3ef99be9dcb 6.1-stable patches
          
+
+--===============4478189390727112155==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724366694 +0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1724366693-cfabeaf1489c66ef4f9dcf975b2d41a493166b27
+
+109a95f67571a312abc333bc72c24e1235487acc 46114a467c57d1e287dea44234bff3ef99be9dcb refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbHv2YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X2cP/0iRYwhQO4pwnCwXoJra
+1zlG/gGRAno3Z0/EX7HMiMAvYk/lgEDpks68ltp1fYB2G4SLxziQLjLQfnw0fXVR
+mk3ym5aPKMAOswbJCUgE63b4Wqp70P+Y4B4btfUNcfNp+2HZOJ00ipxuiNihw6QT
+lM9ZyKusg75pX+NpMaHRj0/WuZF1SghEGsSDQd+URmwLD9oJbl8xDCmk9NaRrcU8
+X61AIZrmuClMr6MehjQvhJpTD7P9oOmYstoH7x8ZTcUIOYyXu1ty/GMoOCdWafqz
+HRWzy71iIk8hAjRv7vSAkqEz8RuZpu3Qn+lxFQR6ICFBcTsGKJ7R3MKsFOwBO78v
+cttvxbucxl/Jf/Qqt42/mEjb8dCVOUNihtW0FUbwHCYSqD/Sa219bs67HmGBxmTS
+NNsOkwCHBHia89rBQxcFudz6e5nqQyqAxKLejivoWwKbVig/TIeJPRLQ8OyXaNnb
+R6MdoXlBNn0kKFzYdBnuhfpHZKeeiR/FPyOpfo1L9H0RDeQ9uXdtasjOFDARMxIR
+v8KCNVMyJt5ZKrTV5eqdBlzlMCSnQSSj52SwhOrx1FK1KaJv3uYihWgA7VLk3J2p
+AUyARcMOryStZ8X6MdR93fZhX/pBOmWT+s/S+Z2l8jk2cOUfsqh/uoqZ891CJTW5
+c8AovWk1Putst00Ze36S1Gwq
+=6juZ
+-----END PGP SIGNATURE-----
+
+--===============4478189390727112155==--
