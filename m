@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Aug 2024 20:12:15 -0000
-Message-Id: <172435753518.21955.1904915244928105289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 22 Aug 2024 20:17:32 -0000
+Message-Id: <172435785239.25538.8443535946661790676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 3ddbf7b6966d8a679bd2a6f8104734face6de4a1
-    new: 0124fb0ebf3b0ef89892d42147c9387be3105318
+  - ref: refs/heads/kdevops
+    old: 82f9b314d8e1c8243ed8081e258a3bc48b42a598
+    new: 644ae0968a170223469d751d913bc42836e16054
     log: |
-         57fb67783c4011581882f32e656d738da1f82042 net: ovs: fix ovs_drop_reasons error
-         0124fb0ebf3b0ef89892d42147c9387be3105318 s390/iucv: Fix vargs handling in iucv_alloc_device()
+         644ae0968a170223469d751d913bc42836e16054 nfsd: add some tracepoints around CB_GETATTR callbacks
          
