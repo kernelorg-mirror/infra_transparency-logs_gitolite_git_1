@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0638227882484096463=="
+Content-Type: multipart/mixed; boundary="===============1092522457171405163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 22 Aug 2024 12:49:15 -0000
-Message-Id: <172433095511.6971.14002478467108882454@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 12:53:49 -0000
+Message-Id: <172433122969.10330.15859645425757389855@gitolite.kernel.org>
 
---===============0638227882484096463==
+--===============1092522457171405163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,43 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/heads/fixes-test
+    old: 4575f30a363d85d0637c211c14fecdeb2a04269f
+    new: 3b1f7a46977fe2ff9384d08651a6e0d272ae6a60
+    log: |
+         d92b5cc29c792f1d3f0aaa3b29dddfe816c03e88 powerpc/64e: Define mmu_pte_psize static
+         6114139c3bdde992f4a19264e4f9bfc100d8d776 powerpc/vdso: Don't discard rela sections
+         3b1f7a46977fe2ff9384d08651a6e0d272ae6a60 powerpc/mm: Fix return type of pgd_val()
+         
 
---===============0638227882484096463==
+--===============1092522457171405163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1724330953 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1724331227 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1724330952-e6e6b3e713d324474c4230986505be5db30bed1d
+nonce 1724331224-793a36b81431d20a814e6d09c59588953d64cd0c
 
-0000000000000000000000000000000000000000 cd9d19c02d27518ed40a2231d0e0f072dfcebe33 refs/tags/v6.11-rc4
+4575f30a363d85d0637c211c14fecdeb2a04269f 3b1f7a46977fe2ff9384d08651a6e0d272ae6a60 refs/heads/fixes-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJLBAABCAA1FiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmbHM8kXHG1pY2hhZWxA
-ZWxsZXJtYW4uaWQuYXUACgkQUevqPMjhpYBfvQ/+ICU9XmaFfmAOgYSl93HxpiJY
-AemALJdshtPO9fR8T7sZicUhVIrguLsj76zEgJrgxU3tNXw10eQvcTq9/GCc7P65
-NncK/qFxSG0UeL8UqnOXE35+DoB5TCYSCRaMV3yE0AOiMOjOL7TbFMw6hqbw+4ya
-WW710tPLl6rKyNVlx3m4yTG/+T+gHHEPn9DTFC0wEFZRrG4OX9MdgumWiIam3aeC
-O0+P1uDcJ71YCqHebc5lxU01U7YREu/5Y0RhKYEVXAhQRWLKuc8UVMLNRYnq/buW
-3IviNRGLrZnH5xY5ymlNCFm/q3/2o+3mL8x1TlyUrFyEmZrBCtCjCnQQIPu5niXW
-N7xnbKrdw19jYkG/Q0fyArMt0nMgdI5afwLkHI/Ddzw/8lWay4Ht0Wb4x+zER1v6
-uUvYc+xtiGEOBqb5dyiiL3MqC6T2gP7DVUBp21S0rURLB/F98g+WVsPNEjjs1Y9I
-rlNNZP6XYSgUx5f/JxCAwARdbFO58nxcL9fp4oDjfSW3YHHwY9nq6d9KhgA9rDxv
-8sSyl4d8TZX1PaGPLsgCYHX+UJkMl+JMtag9oDpCJUcbvaLQxO3vh2bXekg94gmb
-Yjtjs4ae7Z1oDMz+Lh6ydRqc5X0YYVzfI9ptaPen+1alP/YPxsywLPyf7cafUtgi
-aoYPP7MkuzHr0Ff8ON4=
-=tA74
+iQJLBAABCAA1FiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmbHNNsXHG1pY2hhZWxA
+ZWxsZXJtYW4uaWQuYXUACgkQUevqPMjhpYDWAxAAhtplvWmLqBwUv+sPkl0/6hTw
+m3jjUsWJj6wZM06gPua+tJ5Zg4Yye9cy46Vl2HRSWOXYNwRYNSdu06aSn0Ao6JFT
+VzSLo6zUEF9JP4rm1yPQr8DeHsuZ44I9nuEp7elU/6D4QzyyTWqvzheAXF/efm8G
+XY06E18TTDIf2ofVyZ43cp0qHj9krBg23AcybU87XJXo5FkFrGkkeQK9LMMoFizl
+tq6zDHmMjTHcVQarjkZywvmYxzTHb6Tcq0ZFlqo7Zql/uFSEYaQzzmKvhT6YsnCb
+SiovaSqH9OgmgDvQEACeOAvoLmrrQof353ZO/NdAjlmvcop7MxQugspb57Thx45N
+Hhu4wECzj9VV15bYlivbTXD7negywHXVGhareI8qA4DlzNgD/N5qdCZqQ8doagtv
+QYeSdC+4QCcwu1aHTy5thEjANV+xqq76dfNTuK08jb0KlC16LoAA6gz2ywOK0lVE
+Y/BNJYNJ+aYda6yFSu4X3MlPUeuIfK4wtGHINrw3DZRhri0pg00kgvTAc59Qk36b
+XbMpbeToovwetsIncwXcMPXbjSoQO92xX4s+kZOdh+Ppi1z9nj5Mtj75MSl3MujZ
+0Z5Is+5GZgJXLTOvXVTAZ+DaQ8y9xKhB6ABa1RXq7T0hUg0VVO1pdNkWaYjq/muN
+S7FkKDAojx2aNPi3F2M=
+=zvr3
 -----END PGP SIGNATURE-----
 
---===============0638227882484096463==--
+--===============1092522457171405163==--
