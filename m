@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 Aug 2024 16:16:39 -0000
-Message-Id: <172434339901.5229.11674948596120122718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 22 Aug 2024 16:17:16 -0000
+Message-Id: <172434343684.5555.12509940766807926727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 5f7c98b7519a3a847d9182bd99d57ea250032ca1
-    new: bff980d8d9ca537fd5f3c0e9a99876c1e3713e81
+    old: 783bf5d09f86b9736605f3e01a3472e55ef98ff8
+    new: e17465f78eb92ebb4be17e35d6c0584406f643a0
     log: |
-         bff980d8d9ca537fd5f3c0e9a99876c1e3713e81 ASoC: cs-amp-lib-test: Force test calibration blob entries to be valid
+         9a8fc292dd93b93db30e01c94c0da4c944852f28 spi: pxa2xx: Do not override dev->platform_data on probe
+         e17465f78eb92ebb4be17e35d6c0584406f643a0 spi: pxa2xx: Move PM runtime handling to the glue drivers
          
   - ref: refs/heads/for-next
-    old: ec77be57d0c396de9e10081dbeb1096cb9fac8f2
-    new: 08ed942324810975e2c6d104abc03d46c9899675
+    old: 7e2de823e080f64ceb2fa7a07d4a719b16511378
+    new: 9eeedc097d30ca4b31ca76f3cafe3c6994621760
     log: |
-         23618f5b630a1dde8c465150ddb2fd308b686b08 ASoC: dwc: change to use devm_clk_get_enabled() helpers
-         1a9e3b0af301413210319e6946fb4b0b1ad71ccc ASoC: tas2781: mark const variables tas2563_dvc_table as __maybe_unused
-         bff980d8d9ca537fd5f3c0e9a99876c1e3713e81 ASoC: cs-amp-lib-test: Force test calibration blob entries to be valid
-         08ed942324810975e2c6d104abc03d46c9899675 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         9a8fc292dd93b93db30e01c94c0da4c944852f28 spi: pxa2xx: Do not override dev->platform_data on probe
+         e17465f78eb92ebb4be17e35d6c0584406f643a0 spi: pxa2xx: Move PM runtime handling to the glue drivers
+         9eeedc097d30ca4b31ca76f3cafe3c6994621760 Merge remote-tracking branch 'spi/for-6.12' into spi-next
          
