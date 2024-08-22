@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 22 Aug 2024 00:28:00 -0000
-Message-Id: <172428648084.22941.3322305086196677264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 22 Aug 2024 00:31:53 -0000
+Message-Id: <172428671386.26054.2411712306160693763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-drm
-    old: 7f00fa553526418517f910ac35f6d10fe49bf139
-    new: 77e69b5dedc7ba7b90c2b109d00e2bee89dd63c0
+  - ref: refs/heads/main
+    old: 2d86ecb64b51127f0d9eac29cd4c58215246a029
+    new: 0ce054f2b891afdd102c8bcc1fc57253c8964e40
     log: |
-         124f63fb197bc1007ef03aa2c81ba48c1363dcef amdgpu: fix a race in kfd_mem_export_dmabuf()
-         4eae9912067b4f56318ed6e7c8aeda0c6ef8ec1a amdkfd CRIU fixes
-         77e69b5dedc7ba7b90c2b109d00e2bee89dd63c0 amdgpu: get rid of bogus includes of fdtable.h
+         d35a3a8f1b7f27ac1ea0f7068dcab0c08846ac44 ipv6: remove redundant check
+         0ce054f2b891afdd102c8bcc1fc57253c8964e40 ice: Fix a 32bit bug
          
