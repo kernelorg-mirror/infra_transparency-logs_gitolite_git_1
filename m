@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1977053325358508247=="
+Content-Type: multipart/mixed; boundary="===============6171022019931789336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 22 Aug 2024 06:56:54 -0000
-Message-Id: <172430981428.24332.18183055135507048265@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 06:57:19 -0000
+Message-Id: <172430983989.24532.8775770073473865856@gitolite.kernel.org>
 
---===============1977053325358508247==
+--===============6171022019931789336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/for-next
     old: 89909296a51e792f296e52e104a04aed0cb7a9e9
     new: 9ad2861b773d7da1cf3a5a04a4e8f1aa7d092bbb
     log: revlist-89909296a51e-9ad2861b773d.txt
 
---===============1977053325358508247==
+--===============6171022019931789336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ aef6987d89544d63a47753cf3741cabff0b5574c sched/eevdf: Propagate min_slice up the
 5ac998574f93ac042cb84b4f1d919e2b20966afe Merge branch 'tip/sched/core' into for-6.12
 9ad2861b773d7da1cf3a5a04a4e8f1aa7d092bbb sched_ext: Allow dequeue_task_scx to fail
 
---===============1977053325358508247==--
+--===============6171022019931789336==--
