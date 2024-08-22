@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3606523191547726637=="
+Content-Type: multipart/mixed; boundary="===============0018215061899450424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 22 Aug 2024 09:34:50 -0000
-Message-Id: <172431929017.10087.7172741085662715872@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 09:36:30 -0000
+Message-Id: <172431939085.12389.9115826803411310496@gitolite.kernel.org>
 
---===============3606523191547726637==
+--===============0018215061899450424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 3a8839bbb86da7968a792123ed2296d063871a52
-    new: cd4897bfd14f6a5388b21ba45a066541a0425199
+  - ref: refs/heads/usb-testing
+    old: a139c98f760efa1b6f0ee2f36ea6f62f04c8b20a
+    new: c6f29014f04d190070769d9c8c30f20c39ec0f50
     log: |
-         72fca8371f205d654f95b09cd023a71fd5307041 usb: dwc3: ep0: Don't reset resource alloc flag (including ep0)
-         ddfcfeba891064b88bb844208b43bef2ef970f0c usb: dwc3: st: fix probed platform device ref count on probe error path
-         cd4897bfd14f6a5388b21ba45a066541a0425199 usb: dwc3: st: add missing depopulate in probe error path
+         211af9f2bdfa4eef26640597ffec760dcadf44bc usb: dwc3: omap: add missing depopulate in probe error path
+         914c9adec0211e6dbbe4fbca66057fca48edba1e usb: dwc3: xilinx: add missing depopulate in probe error path
+         49292e7045c03f3733cd0d0ed743baf4344d2db7 usb: typec: ucsi: Remove unused fields from struct ucsi_connector_status
+         662560d517b18fea18c895ca6a965a5b13b2e75c usb: typec: ucsi: Don't truncate the reads
+         25a5d780e5a83dfab4f2b438222c918feae9eb57 usb: typec: ucsi: Only assign the identity structure if the PPM supports it
+         21696841083ddb47abfb0140b4b837b6b384ea26 usb: typec: ucsi: Common function for the GET_PD_MESSAGE command
+         4cbc85a03451d9695a962a17b2fdad504c1e8bb8 usb: typec: ucsi: Call CANCEL from single location
+         c6f29014f04d190070769d9c8c30f20c39ec0f50 usb: typec: ucsi: Remove useless error check from ucsi_read_error()
          
 
---===============3606523191547726637==
+--===============0018215061899450424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724319288 +0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724319388 +0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1724319287-6f651513aa5d214b8bd10f91147c1b848d7a6409
+nonce 1724319388-d87763e05af9927e0d0c4e794233f89aea811044
 
-3a8839bbb86da7968a792123ed2296d063871a52 cd4897bfd14f6a5388b21ba45a066541a0425199 refs/heads/usb-linus
+a139c98f760efa1b6f0ee2f36ea6f62f04c8b20a c6f29014f04d190070769d9c8c30f20c39ec0f50 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbHBjgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K+0QAK6qPaSKc90/6oMlQwsM
-duxg72FZ/Np2+X1tJ/e9mMGmxOMaP9TBV41HKJrwy2GNdVgJwwqzuH8xr5raV6OW
-A6zUmi8EnUJq0ZQF2b5xwqZgc8RBIAkobdE3uEq4YmfuW2juU+vnSMspwYVpWid9
-ZKKZeL7OLeCgKkxGM67OzwCB26D+qgF7BxwlOe9t4kOsO3LX1UYRenYzVY1KW3pA
-Uk3Cg2jbqfPVmObeilT9bY1Xi41Wa/6wT9+VU36sX3pXPpxEAUAr2/6O/6z35hGk
-Rym/ds4ZVc+DQt7WK5F8f8FGxdRfrvflmy97k5w4B0lrlYZhx9efF9N3ruqelqjH
-uq4FBJq0hmgUy2IafPVdfQVxXIn+8rAv110Wsg5hiQVwlWS8VnjGmTRQ1I8XbD/n
-C1DslhSJ3CqankzoXOEaou2+T5MRikiRcOsxSiz3QSWmL59pOoFl7LlmB/GawvXB
-WYW2dgkveMMmoRZUXFtpSW+Y5x/sUJO/EBl1voS6Z02cU+rNfpIzxZclbMFCNqW1
-gKLRAoLHfHPjuhjcmZ77SS1bbaQDFBOeYE/fXS13yF7hIVRd0bgsFA1jho8cK+jh
-EGKcCl7mjdb/Yf7VUfM5vxkz0jUXZfMxVRSurnkHzv9nPevDrfDDMDCY7t26ao3k
-ep2hAobIDfzqHvyACNSBEs5Z
-=U3XV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbHBpwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6+oQANFpyBvpfi1ZA6m19vFp
+cwxrR40aHMYX4aVpUebtjVz+FtB7ULGOdiVsiXYEckAtbI+FDZFw5OMzA3IAjG/n
+/Hzuzwhrd1NCCLwxMN5Kq3fY5c0NweycotYt5cvG6JGIjFH7ZHdX4gJS9KN4XIgk
+4Tg+ylBleBF1F7UsjP4QJqDWa5vvqfOiCA48EEbqW+sjXoTvi5BOatFdRNy4ex4x
+boPyGaA/2NkLd1ZMFavMrA42T9KxGTPnd7iKJnndswl+e6Jebhpci96H+V0Mq/xn
+VwYVymG0DuO6mwjw63McYwBkanEYxpLmIjBnaeI6YXshawRvJPwONtnoM8HT9Cku
+1oaHQR0ANi0ktpfigqGsqn/6y2KAppAdNl+4m9sxn2pk1WqyakRGC6wNAS26oU6g
+PkAxiEYhRorDmYMh/jgrXWmJAdU+72hBrUzKMT448iuUMxEjw7NpHVRMzLgd62oU
++SnIhVizDAnBhTg18o8iO/O7sEPC6ylOVK9ZMiGh/w7A2Pyy8YOB0KskH6ay5dp4
+IGIUl28ZDqiKwGt7w69oOHz6Z4Li3vCH1cEus6SV1V0C7NKn54CY7GtMc3+kwRI2
+jYcFfNOwOweQ78YfIVSkUtP5JF3ayQjLC+5NOIbH3730V+ZdJZJOkylu+rSF0aB+
+ZlNFDN8lYMsIpoH4tgExZsal
+=QZLm
 -----END PGP SIGNATURE-----
 
---===============3606523191547726637==--
+--===============0018215061899450424==--
