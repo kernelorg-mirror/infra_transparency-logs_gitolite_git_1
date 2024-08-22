@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 22 Aug 2024 00:21:05 -0000
-Message-Id: <172428606570.18891.5059281345946124141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 22 Aug 2024 00:28:00 -0000
+Message-Id: <172428648084.22941.3322305086196677264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main
-    old: d785ed945de6955361aafc2d540d9bb7c6a69a65
-    new: 2d86ecb64b51127f0d9eac29cd4c58215246a029
+  - ref: refs/heads/for-drm
+    old: 7f00fa553526418517f910ac35f6d10fe49bf139
+    new: 77e69b5dedc7ba7b90c2b109d00e2bee89dd63c0
     log: |
-         488d34643ec3f4ce5ce120846fc81412534e9af1 nfc: pn533: Avoid -Wflex-array-member-not-at-end warnings
-         e58c3f3d5196952ffa29dd987a15405b7f559af9 net: dsa: ocelot: Simplify with scoped for each OF child loop
-         2d86ecb64b51127f0d9eac29cd4c58215246a029 net: dsa: sja1105: Simplify with scoped for each OF child loop
+         124f63fb197bc1007ef03aa2c81ba48c1363dcef amdgpu: fix a race in kfd_mem_export_dmabuf()
+         4eae9912067b4f56318ed6e7c8aeda0c6ef8ec1a amdkfd CRIU fixes
+         77e69b5dedc7ba7b90c2b109d00e2bee89dd63c0 amdgpu: get rid of bogus includes of fdtable.h
          
