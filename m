@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6985078872457035256=="
+Content-Type: multipart/mixed; boundary="===============8236833052809892989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 22 Aug 2024 05:42:33 -0000
-Message-Id: <172430535320.2644.746796546793776415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 22 Aug 2024 05:42:43 -0000
+Message-Id: <172430536361.2810.14826864469598396249@gitolite.kernel.org>
 
---===============6985078872457035256==
+--===============8236833052809892989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: eb8c5ca373cbb018a84eb4db25c863302c9b6314
     new: 6a7917c89f219f09b1d88d09f376000914a52763
     log: revlist-eb8c5ca373cb-6a7917c89f21.txt
-  - ref: refs/heads/stable
-    old: 521b1e7f4cf0b05a47995b103596978224b380a8
-    new: b311c1b497e51a628aa89e7cb954481e5f9dced2
-    log: |
-         950aeefb34923fe3c28ade35fe05f24e2c5b1d55 iommufd/device: Fix hwpt at err_unresv in iommufd_device_do_replace()
-         dfd046d0ced19b6ff5f11ec4ceab0a83de924771 ksmbd: Use unsafe_memcpy() for ntlm_negotiate
-         76e98a158b207771a6c9a0de0a60522a446a3447 ksmbd: fix race condition between destroy_previous_session() and smb2 operations()
-         4fdd8664c8a94411a01d11d5ed2f083f105f570a ksmbd: fix spelling mistakes in documentation
-         7c525dddbee71880e654ad44f3917787a4f6042c ksmbd: Replace one-element arrays with flexible-array members
-         cf1e515c9a40caa8bddb920970d3257bb01c1421 iommufd/selftest: Make dirty_ops static
-         0108b7be2a18d85face1e10c68ecc0138f1bed58 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-         b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of git://git.samba.org/ksmbd
-         
-  - ref: refs/tags/next-20240522
-    old: b49b5b05b6535fc85491ba68fbc6410645ad5a24
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240822
     old: 0000000000000000000000000000000000000000
     new: 5b91b02e84e3cdb7560e6a14929a4f3003268ce5
 
---===============6985078872457035256==
+--===============8236833052809892989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1070,4 +1054,4 @@ ab7e56e3d45f8a1c54ef6fc848a7d7b1f3ff9ac7 Merge branch 'rust-next' of https://git
 8b7152bdbdf431339434e30aaf2dfdd6a532dd02 Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 6a7917c89f219f09b1d88d09f376000914a52763 Add linux-next specific files for 20240822
 
---===============6985078872457035256==--
+--===============8236833052809892989==--
