@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 22 Aug 2024 11:26:42 -0000
-Message-Id: <172432600200.10611.17159106324014786605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Aug 2024 12:31:27 -0000
+Message-Id: <172432988723.26064.755964687154162217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: bcc3773c49af2426093645473fe02a5a8e765587
-    new: 812a2751e827fa1eb01f3bd268b4d74c23f4226a
+  - ref: refs/heads/master
+    old: 1a437d35a90b7a765d9ce2c629787d22ff103252
+    new: b6ab50902724a27f1fc7136927c27d29f9ba01c6
     log: |
-         812a2751e827fa1eb01f3bd268b4d74c23f4226a net: airoha: configure hw mac address according to the port id
+         b6ab50902724a27f1fc7136927c27d29f9ba01c6 bpf: Use kmemdup_array instead of kmemdup for multiple allocation
          
