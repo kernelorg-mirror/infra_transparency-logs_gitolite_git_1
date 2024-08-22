@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Thu, 22 Aug 2024 14:45:41 -0000
-Message-Id: <172433794146.316.14152436861749124692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 22 Aug 2024 14:58:51 -0000
+Message-Id: <172433873111.8502.5913239411305550998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
-  - ref: refs/heads/extcon-next
-    old: e508f2606c0bbe6fd051d5833acedc24a3c993b5
-    new: 8daf1c28478dd141e6598d29fb398880ed240385
+  - ref: refs/heads/master
+    old: 878ea5cdc476eb73b04d983e27429c350da637a5
+    new: 2386f5e5c1bc0a0ad82dade7ba968d0b84e44959
     log: |
-         a3fefbf6bd1234c639aa01bd83f0b2da35cba5bd dt-bindings: extcon: ptn5150: add child node port
-         8daf1c28478dd141e6598d29fb398880ed240385 dt-bindings: extcon: convert extcon-usb-gpio.txt to yaml format
+         2386f5e5c1bc0a0ad82dade7ba968d0b84e44959 Release 2.10
          
