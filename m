@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 22 Aug 2024 12:32:37 -0000
-Message-Id: <172432995700.26536.2903838996241748945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 22 Aug 2024 12:38:41 -0000
+Message-Id: <172433032155.31667.9974882092789765989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: cd0beac5eaa58bd9e55b6bd56731282f771ee870
-    new: 16967046460679cd1b32e39d3480fe8be7ec3e52
-    log: |
-         b6ab50902724a27f1fc7136927c27d29f9ba01c6 bpf: Use kmemdup_array instead of kmemdup for multiple allocation
-         16967046460679cd1b32e39d3480fe8be7ec3e52 Merge branch 'bpf-next/master' into for-next
-         
+  - ref: refs/heads/20240822_andriy_shevchenko_spi_pxa2xx_fix_module_reloading_failure
+    old: 0000000000000000000000000000000000000000
+    new: e17465f78eb92ebb4be17e35d6c0584406f643a0
+  - ref: refs/heads/20240822_wenst_regulator_minor_cleanups
+    old: 0000000000000000000000000000000000000000
+    new: bfefa214d179f13d01cf1b64a7efbabf586b0c49
+  - ref: refs/heads/file6jlJUP
+    old: 0000000000000000000000000000000000000000
+    new: 1a9e3b0af301413210319e6946fb4b0b1ad71ccc
+  - ref: refs/heads/v8_20240821_kuninori_morimoto_gx_asoc_grace_time_for_dpcm_cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 61e1f74f739546415570ccc1ac14e1b26afe4705
