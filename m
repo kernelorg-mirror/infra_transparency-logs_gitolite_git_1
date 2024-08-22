@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8811988266416195716=="
+Content-Type: multipart/mixed; boundary="===============2931921577931117342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Aug 2024 15:29:47 -0000
-Message-Id: <172434058708.31349.1375361070333003130@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 15:29:54 -0000
+Message-Id: <172434059490.31489.7864546060044835639@gitolite.kernel.org>
 
---===============8811988266416195716==
+--===============2931921577931117342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
-    new: a812a3f45cae787abe29567749a0acc879d2df37
-    log: revlist-0d76fc7e27b2-a812a3f45cae.txt
+  - ref: refs/heads/dev-queue
+    old: 3fc5622eeab29be1767dd9bb990daea5296fba48
+    new: d9ee2cbcd49808f076e9ae9ab9585906f3351b1c
+    log: revlist-3fc5622eeab2-d9ee2cbcd498.txt
 
---===============8811988266416195716==
+--===============2931921577931117342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d76fc7e27b2-a812a3f45cae.txt
+Content-Disposition: attachment; filename=revlist-3fc5622eeab2-d9ee2cbcd498.txt
 
 50b2143356e888777fc5bca023c39f34f404613a ice: fix page reuse when PAGE_SIZE is over 8k
 b966ad832942b5a11e002f9b5ef102b08425b84a ice: fix ICE_LAST_OFFSET formula
@@ -48,5 +48,16 @@ eb208fecd77d898709c25af680487289fd5f3e16 MAINTAINERS: Add net_tstamp.h to SOCKET
 f2d20c9b97f0df64841b89fa1ad3e9c92f7377ae MAINTAINERS: Add header files to NETWORKING sections
 46097a92662496394628cb41138e681d6074cce7 MAINTAINERS: Mark JME Network Driver as Odd Fixes
 a812a3f45cae787abe29567749a0acc879d2df37 Merge branch 'maintainers-networking-updates'
+7fe15d26f7fd7812649ac53fcb9ebb5bd530d11b ice: Fix lldp packets dropping after changing the number of channels
+daceeeed557cb8c2627d6babbfc63c1eca629947 ice: fix accounting for filters shared by multiple VSIs
+8bca2aaac007c5476b884d8c35fc444931959f2c ice: Flush FDB entries before reset
+c54266777c2b14a732281a959d50be7b25ef85aa igb: Fix not clearing TimeSync interrupts for 82580
+ad64729008decf97119cac6bdefc67c5d096027c ice: set correct dst VSI in only LAN filters
+105eb0283ef1512e6b95cbad00dee78fdec46789 ice: move netif_queue_set_napi to rtnl-protected sections
+314ac4e39b99ede0e398d2cd426bad2d2539b1ac ice: protect XDP configuration with a mutex
+fd4b38c65ccb096e92eaaff7d945eaa4f9320173 ice: check for XDP rings instead of bpf program when unconfiguring
+a02c4e7ce819f6a7daa267a6d17c5e69d85dde2f ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
+90b684a102071c0d619fcfb1ed5315b5020b9811 ice: remove ICE_CFG_BUSY locking from AF_XDP code
+d9ee2cbcd49808f076e9ae9ab9585906f3351b1c ice: do not bring the VSI up, if it was down before the XDP setup
 
---===============8811988266416195716==--
+--===============2931921577931117342==--
