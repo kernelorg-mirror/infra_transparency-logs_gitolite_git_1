@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1844840905565963225=="
+Content-Type: multipart/mixed; boundary="===============8794529356264252393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Thu, 22 Aug 2024 04:01:28 -0000
-Message-Id: <172429928805.24334.2348063297623475753@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 04:01:48 -0000
+Message-Id: <172429930804.24517.8475401091291751369@gitolite.kernel.org>
 
---===============1844840905565963225==
+--===============8794529356264252393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel/bmc
 user: joel
 changes:
-  - ref: refs/heads/aspeed-6.12-devicetree
+  - ref: refs/heads/for-next
     old: 995d8fe0341ef206838fa88a021dd327e45c6521
     new: d212c55cc811fdc2e58f8ace2484c5c4845aed3c
     log: revlist-995d8fe0341e-d212c55cc811.txt
 
---===============1844840905565963225==
+--===============8794529356264252393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ c8d75c18367d1a9a5fdd7b892815664044a2a2cb ARM: dts: aspeed: harma: Enable mctp co
 7fa11184852f6a8d690d21f60540b8de499f8bb0 ARM: dts: aspeed: harma: Fix spi-gpio dtb_check warnings
 d212c55cc811fdc2e58f8ace2484c5c4845aed3c ARM: dts: aspeed: harma: Remove pca9546
 
---===============1844840905565963225==--
+--===============8794529356264252393==--
