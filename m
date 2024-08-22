@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 22 Aug 2024 21:48:51 -0000
-Message-Id: <172436333153.27969.7374568703277284983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 22 Aug 2024 21:51:33 -0000
+Message-Id: <172436349358.30685.7173461884642915731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 84eff55d4d68b3705a86ff184aab558dfd3ce804
-    new: fbe86ce8a65007ecdcb76e7f47dc6585f35f788b
+  - ref: refs/heads/kdevops
+    old: 644ae0968a170223469d751d913bc42836e16054
+    new: 7dc6a58f390469e870f0446e39db5d6ae7b082e6
     log: |
-         fbe86ce8a65007ecdcb76e7f47dc6585f35f788b libkmod: Fix memory leak on error path
+         7dc6a58f390469e870f0446e39db5d6ae7b082e6 nfsd: track the main opcode for callbacks
          
