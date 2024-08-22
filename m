@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 22 Aug 2024 08:53:24 -0000
-Message-Id: <172431680445.12802.13977212210595714790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 22 Aug 2024 09:03:02 -0000
+Message-Id: <172431738298.19530.4305701301589037612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
   - ref: refs/heads/main
-    old: f32c821ae0198cf43181711efb18376b2eb6a1cb
-    new: 001b98c9897352e914c71d8ffbfa9b79a6e12c3c
+    old: daaf0dd0398d5e93b7304f35184ca182ed583681
+    new: 67a72043aa2e6f60f7bbe7bfa598ba168f16d04f
     log: |
-         924b8bea870b4968cec4784676e6b27597e25d01 net: ipv6: ioam6: code alignment
-         273f8c142003dfd874d45b1a60965809e95ccd50 net: ipv6: ioam6: new feature tunsrc
-         001b98c9897352e914c71d8ffbfa9b79a6e12c3c Merge branch 'net-ipv6-ioam6-introduce-tunsrc'
+         a7e8997ae18c42d30bc7181421b5715e319c0f71 wifi: iwlegacy: Avoid multiple -Wflex-array-member-not-at-end warnings
+         c9f4c1ec69728310a31080c266b8529381c1a7fa wifi: mwifiex: Fix uninitialized variable in mwifiex_cfg80211_authenticate()
+         67a72043aa2e6f60f7bbe7bfa598ba168f16d04f wifi: mwifiex: remove unnecessary checks for valid priv
          
