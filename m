@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 22 Aug 2024 21:53:21 -0000
-Message-Id: <172436360170.31399.17457164473290690040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 22 Aug 2024 21:53:48 -0000
+Message-Id: <172436362836.31645.6835490568742031575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: f03408cfa5184e9c54d795f2593e1954a0f7b973
-    new: 2e4fe7d5fac8f8aac80a30a6f0b42becefbf85f9
+  - ref: refs/heads/master
+    old: fbe86ce8a65007ecdcb76e7f47dc6585f35f788b
+    new: e9ace0b75a261411878ef78764f753eef068a735
     log: |
-         e965eccae3d47d68cfd04d21395666fc5e55de58 cifs: Fix lack of credit renegotiation on read retry
-         2e4fe7d5fac8f8aac80a30a6f0b42becefbf85f9 netfs, cifs: Fix handling of short DIO read
+         df8354e97b9bdeb06a9a2dab48391f080cf35ca3 libkmod: Propagate correct errno values
+         e9ace0b75a261411878ef78764f753eef068a735 libkmod: Treat illegal modinfo file as error
          
