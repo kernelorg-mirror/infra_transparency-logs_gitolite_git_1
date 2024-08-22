@@ -1,60 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============6171022019931789336=="
+Content-Type: multipart/mixed; boundary="===============3595986325063866680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 22 Aug 2024 06:57:19 -0000
-Message-Id: <172430983989.24532.8775770073473865856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 22 Aug 2024 06:58:50 -0000
+Message-Id: <172430993087.25140.12980764847095922337@gitolite.kernel.org>
 
---===============6171022019931789336==
+--===============3595986325063866680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 89909296a51e792f296e52e104a04aed0cb7a9e9
-    new: 9ad2861b773d7da1cf3a5a04a4e8f1aa7d092bbb
-    log: revlist-89909296a51e-9ad2861b773d.txt
+    old: 6c25d00415596ed6554193f699b055fe4476d33d
+    new: 371ce31a7d35b97e0fbb2e21c66b0cacafb5bbef
+    log: |
+         1e6084cf69b3adefe6591d89bff911eef0c1d6da Merge branch 'for-v6.12/clk-dt-bindings' into next/dt64
+         71e0b08ed2a98e5ab5eb255fc86cda04205b141e arm64: dts: exynosautov9: Add dpum SysMMU
+         371ce31a7d35b97e0fbb2e21c66b0cacafb5bbef Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: a8782104b78a08f42f156e1f830b4761de51a9a8
+    new: 71e0b08ed2a98e5ab5eb255fc86cda04205b141e
+    log: |
+         01ce1bf22adc0d09d906319787091ce784cb9914 dt-bindings: clock: exynos850: Add TMU clock
+         abf3a3ea9acb5c886c8729191a670744ecd42024 dt-bindings: clock: exynos7885: Fix duplicated binding
+         59baa83e30f82b74b4c7dc07c20eac9899b6c0c6 dt-bindings: clock: exynos7885: Add CMU_TOP PLL MUX indices
+         b9dee49cc6f9efa97eee059d03b704dec0f45658 dt-bindings: clock: exynos7885: Add indices for USB clocks
+         ccb41c445a3e9506ef43fe33867a356048e41477 dt-bindings: clock: exynosautov9: add dpum clock
+         1e6084cf69b3adefe6591d89bff911eef0c1d6da Merge branch 'for-v6.12/clk-dt-bindings' into next/dt64
+         71e0b08ed2a98e5ab5eb255fc86cda04205b141e arm64: dts: exynosautov9: Add dpum SysMMU
+         
 
---===============6171022019931789336==
+--===============3595986325063866680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89909296a51e-9ad2861b773d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-924e2904da9b5edec61611918b98ab1f7fccc461 sched/fair: Make balance_fair() test sched_fair_runnable() instead of rq->nr_running
-4ae0c2b91110dab6f4291c2c7f99dde60ecc97d8 sched/debug: Fix fair_server_period_max value
-130fd056dd82b02db9a661c013071af35309be1a sched/rt: Clean up usage of rt_task()
-b166af3db70fdcecf125662a2360471bb20be203 sched/rt, dl: Convert functions to return bool
-ae04f69de0bef93c7086cf2983dbc8e8fd624ebe sched/rt: Rename realtime_{prio, task}() to rt_or_dl_{prio, task}()
-f25b7b32b0db6d71b07b06fe8de45b0408541c2a sched/eevdf: Add feature comments
-949090eaf0a3e39aa0f4a675407e16d0e975da11 sched/eevdf: Remove min_vruntime_copy
-8e2e13ac6122915bd98315237b0317495e391be0 sched/fair: Cleanup pick_task_fair() vs throttle
-c97f54fe6d014419e557200ed075cf53b47c5420 sched/fair: Cleanup pick_task_fair()'s curr
-3b3dd89b8bb0f03657859c22c86c19224f778638 sched/fair: Unify pick_{,next_}_task_fair()
-863ccdbb918a77e3f011571f943020bf7f0b114b sched: Allow sched_class::dequeue_task() to fail
-fab4a808ba9fb59b691d7096eed9b1494812ffd6 sched/fair: Re-organize dequeue_task_fair()
-e8901061ca0cd9acbd3d29d41d16c69c2bfff9f0 sched: Split DEQUEUE_SLEEP from deactivate_task()
-abc158c82ae555078aa5dd2d8407c3df0f868904 sched: Prepare generic code for delayed dequeue
-dfa0a574cbc47bfd5f8985f74c8ea003a37fa078 sched/uclamg: Handle delayed dequeue
-e28b5f8bda01720b5ce8456b48cf4b963f9a80a1 sched/fair: Assert {set_next,put_prev}_entity() are properly balanced
-2e0199df252a536a03f4cb0810324dff523d1e79 sched/fair: Prepare exit/cleanup paths for delayed_dequeue
-f12e148892ede8d9ee82bcd3e469e6d01fc077ac sched/fair: Prepare pick_next_task() for delayed dequeue
-781773e3b68031bd001c0c18aa72e8470c225ebd sched/fair: Implement ENQUEUE_DELAYED
-a1c446611e31ca5363d4db51e398271da1dce0af sched,freezer: Mark TASK_FROZEN special
-e1459a50ba31831efdfc35278023d959e4ba775b sched: Teach dequeue_task() about special task states
-152e11f6df293e816a6a37c69757033cdc72667d sched/fair: Implement delayed dequeue
-54a58a78779169f9c92a51facf6de7ce94962328 sched/fair: Implement DELAY_ZERO
-fc1892becd5672f52329a75c73117b60ac7841b7 sched/eevdf: Fixup PELT vs DELAYED_DEQUEUE
-82e9d0456e06cebe2c89f3c73cdbc9e3805e9437 sched/fair: Avoid re-setting virtual deadline on 'migrations'
-85e511df3cec46021024176672a748008ed135bf sched/eevdf: Allow shorter slices to wakeup-preempt
-857b158dc5e81c6de795ef6be006eed146098fc6 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
-aef6987d89544d63a47753cf3741cabff0b5574c sched/eevdf: Propagate min_slice up the cgroup hierarchy
-5ac998574f93ac042cb84b4f1d919e2b20966afe Merge branch 'tip/sched/core' into for-6.12
-9ad2861b773d7da1cf3a5a04a4e8f1aa7d092bbb sched_ext: Allow dequeue_task_scx to fail
+certificate version 0.1
+pusher krzk@kernel.org 1724309926 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1724309925-e996a16255c3705b1243fd6653fd5e16453f4924
 
---===============6171022019931789336==--
+6c25d00415596ed6554193f699b055fe4476d33d 371ce31a7d35b97e0fbb2e21c66b0cacafb5bbef refs/heads/for-next
+a8782104b78a08f42f156e1f830b4761de51a9a8 71e0b08ed2a98e5ab5eb255fc86cda04205b141e refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbG4aYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16wFEACbJM8ZYWaMINdx6jbeS9iXOYO7R0gWAH/i
+eFnrgMXsgnzI+XyHN5npEeRwSbgCsqNwE5d9gV9o3EKejaF03hj65iZKGMrmJZ1W
+j3uVSRI/1IrBe8KnX9dBal5Wo7xSrn2blH2v0wIfDpi17WH8OuvUT2oOTCFzM3Jc
+LJMMVeDrbSXeLEJ2Lg3K9OpU0/Yv9bAI21zOYt5hKYVYhUR0K+x75Cs+2Wz1QQ/o
+/ERRPykVup8fMVj4I4FkAwFdkyEC5Qywr2qoLtNSPjCZX85J6xKT/EWzK1teSX5b
+RpR0KhXfjGmSQ35coGETiiUE5twF6IPJ1lPirB1MVutQz5LQ9kWXWENUyE7Z9o//
+7nSi+Acx3/ovK5sjSk18NvFmjQGT/Hl6IoP/l+D89XDi5RutZtKsnVVy50STs9Qo
+5eiilT7zRN56YFB7c9aLcN99vmH0JOmuCbCfUpWrOngnRdEzj4MXXDOpmHxDl3Zg
+S5k2gd/QIhMB1J+NQfjRezP2WruPRkkcdDOyOW+J6omHdhbhN24gneBr9x4I/SU6
+P8v8iALVA2FLNcy+SkGgg7gxv7uSW0RNvSzkQq2IMXUstzB6yxye3aH7kLSn8dQX
+YgtnZcGQEgKjY0n64lJ8vJhVftPfnXCSN1z7acJydVCCTo1n8XeZGOyBvhAXfGK1
+slLmT1qWxg==
+=oypY
+-----END PGP SIGNATURE-----
+
+--===============3595986325063866680==--
