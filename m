@@ -1,51 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============8129684559137259509=="
+Content-Type: multipart/mixed; boundary="===============4049593972215949093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 22 Aug 2024 14:30:57 -0000
-Message-Id: <172433705771.21161.17155268974654215580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 22 Aug 2024 14:34:00 -0000
+Message-Id: <172433724051.22273.5847428319558425016@gitolite.kernel.org>
 
---===============8129684559137259509==
+--===============4049593972215949093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/spi-6.11
-    old: 783bf5d09f86b9736605f3e01a3472e55ef98ff8
-    new: e17465f78eb92ebb4be17e35d6c0584406f643a0
-    log: |
-         9a8fc292dd93b93db30e01c94c0da4c944852f28 spi: pxa2xx: Do not override dev->platform_data on probe
-         e17465f78eb92ebb4be17e35d6c0584406f643a0 spi: pxa2xx: Move PM runtime handling to the glue drivers
-         
+  - ref: refs/heads/master
+    old: b34bbe44b8222d43d6311d5caa1226ebddda4bfb
+    new: b030fc2f21d5b7fa808ea0bf31b1d2eb99f94fa4
+    log: revlist-b34bbe44b822-b030fc2f21d5.txt
 
---===============8129684559137259509==
+--===============4049593972215949093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b34bbe44b822-b030fc2f21d5.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1724337056 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1724337055-b60dfc51588d33a17eba22a006f0eda0ee1c1116
+d2dfed310aae0739dc87b68c660357e6a4f29819 platform/x86: asus-wmi: Add quirk for ROG Ally X
+9c8e022567bbec53bee8ae75c44b3d6cd2080d42 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+ed235163c3f02329d5e37ed4485bbc39ed2568d4 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+28d04b4a2cc20981c95787f9c449e6fc51d904f9 platform/surface: aggregator_registry: Add support for Surface Laptop Studio 2
+002adda09bc1c983c75c82a7e12285c7423aec31 platform/surface: aggregator_registry: Add fan and thermal sensor support for Surface Laptop 5
+99ae7b9ba047ad029a0a23b2bd51608ce79c8e97 platform/surface: aggregator_registry: Add support for Surface Laptop 6
+bc923d594db21bee0ead128eb4bb78f7e77467a4 platform/surface: aggregator: Fix warning when controller is destroyed in probe
+5b5c96c63d5b6e91c622611e04b2b156bbae53f5 erofs: simplify readdir operation
+2c534624ae70100aeea0b5800b0f3768b2fd3cf0 erofs: get rid of check_layout_compatibility()
+e080a26725fb36f535f22ea42694c60ab005fb2e erofs: allow large folios for compressed files
+46ee21e9f59205e54943dfe51b2dc8a9352ca37d platform/x86: ISST: Fix return value on last invalid resource
+0005e01e1e875c5e27130c5e2ed0189749d1e08a erofs: fix out-of-bound access when z_erofs_gbuf_growsize() partially fails
+5c6154ffd40c5bca1eb01f9bf5a4d2b6d18d55bd Merge tag 'erofs-for-6.11-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+872cf28b8df9c5c3a1e71a88ee750df7c2513971 Merge tag 'platform-drivers-x86-v6.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+b030fc2f21d5b7fa808ea0bf31b1d2eb99f94fa4 Merge branch 'linus'
 
-783bf5d09f86b9736605f3e01a3472e55ef98ff8 e17465f78eb92ebb4be17e35d6c0584406f643a0 refs/heads/spi-6.11
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbHS6ATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0B7pB/9l+dQbQEcXxfb1x+9TsEhjA+ci84N2
-/JOLZjxCV0pK2w0GrckOnWH4g0CGZPQMPIvDEID6eJzr17Vw7omRc6ecMecr0C3X
-fxlnbl5+fA7Eu1wY8wJXMB9wy6rSsaBgB9+L0DKuQfa1dp4pzio5/aY6yLC/rXmn
-K9TP/lg0lW7L9tK/4kzaJJVQd1TBYCEOPlPsKjA9GmJtaKELJti2XgTw4psmRj+L
-0Erd4ZLVKTbSUSnC108j/eEhnd/anIrHtA6qZxbMPzVaMxK0ieWcazSVSr82hswp
-LoWH52iIX6QWfqrsFPrkPSDRTIpxoDxZYO0Qz7wHtlhAqIYeg7iqxYtC
-=kU7d
------END PGP SIGNATURE-----
-
---===============8129684559137259509==--
+--===============4049593972215949093==--
