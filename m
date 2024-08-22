@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Aug 2024 10:49:44 -0000
-Message-Id: <172432378408.14954.10707772539730757520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 22 Aug 2024 10:56:46 -0000
+Message-Id: <172432420661.20813.14602543535922778876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: a0b4a80ed6ce2cf8140fe926303ba609884b5d9b
-    new: f2916c83d746eb99f50f42c15cf4c47c2ea5f3b3
+    old: 001b98c9897352e914c71d8ffbfa9b79a6e12c3c
+    new: bcc3773c49af2426093645473fe02a5a8e765587
     log: |
-         f2916c83d746eb99f50f42c15cf4c47c2ea5f3b3 net: ngbe: Fix phy mode set to external phy
+         bcc3773c49af2426093645473fe02a5a8e765587 selftests: net: add helper for checking if nettest is available
          
