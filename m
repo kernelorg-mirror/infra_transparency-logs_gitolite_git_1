@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8049430138567524575=="
+Content-Type: multipart/mixed; boundary="===============5060148517548851401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 22 Aug 2024 18:23:56 -0000
-Message-Id: <172435103623.4385.3257328805619320290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 22 Aug 2024 18:23:57 -0000
+Message-Id: <172435103792.4457.2016119173541173085@gitolite.kernel.org>
 
---===============8049430138567524575==
+--===============5060148517548851401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
     old: 6e4436539ae182dc86d57d13849862bcafaa4709
     new: 872cf28b8df9c5c3a1e71a88ee750df7c2513971
     log: revlist-6e4436539ae1-872cf28b8df9.txt
-  - ref: refs/tags/omap-for-v6.11/fixes-signed
-    old: 0000000000000000000000000000000000000000
-    new: bf32ba6cf077ef437d7de6ed748d515d978a3099
 
---===============8049430138567524575==
+--===============5060148517548851401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +52,4 @@ b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of gi
 5c6154ffd40c5bca1eb01f9bf5a4d2b6d18d55bd Merge tag 'erofs-for-6.11-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 872cf28b8df9c5c3a1e71a88ee750df7c2513971 Merge tag 'platform-drivers-x86-v6.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============8049430138567524575==--
+--===============5060148517548851401==--
