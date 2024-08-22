@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 22 Aug 2024 20:45:51 -0000
-Message-Id: <172435955165.15379.2005708718941936946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 22 Aug 2024 20:46:05 -0000
+Message-Id: <172435956511.15551.10057992280945545662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 4f8f447086fbf89239b23e618064a1020da82ed6
-    new: bbd80de1705454f99cbb3cac384352546eecaf78
-    log: |
-         bbd80de1705454f99cbb3cac384352546eecaf78 patches/next: rebase to latest mm-unstable
-         
+  - ref: refs/heads/fileqDmEtd
+    old: bb4485562f5907708f1c218b5d70dce04165d1e1
+    new: 0000000000000000000000000000000000000000
