@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 22 Aug 2024 20:11:04 -0000
-Message-Id: <172435746420.21477.5356197223134117786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 22 Aug 2024 20:12:15 -0000
+Message-Id: <172435753518.21955.1904915244928105289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kdevops
-    old: 38384150419031fc1984303013ba680f0d8a7693
-    new: 82f9b314d8e1c8243ed8081e258a3bc48b42a598
+  - ref: refs/heads/main
+    old: 3ddbf7b6966d8a679bd2a6f8104734face6de4a1
+    new: 0124fb0ebf3b0ef89892d42147c9387be3105318
     log: |
-         82f9b314d8e1c8243ed8081e258a3bc48b42a598 nfsd: add some tracepoints around CB_GETATTR callbacks
+         57fb67783c4011581882f32e656d738da1f82042 net: ovs: fix ovs_drop_reasons error
+         0124fb0ebf3b0ef89892d42147c9387be3105318 s390/iucv: Fix vargs handling in iucv_alloc_device()
          
