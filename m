@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 22 Aug 2024 21:45:12 -0000
-Message-Id: <172436311284.26636.4953855281443557053@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 21:48:51 -0000
+Message-Id: <172436333153.27969.7374568703277284983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 56bebc9a0e0f0983df27513be7e3d68c2b6207d4
-    new: 84eff55d4d68b3705a86ff184aab558dfd3ce804
+    old: 84eff55d4d68b3705a86ff184aab558dfd3ce804
+    new: fbe86ce8a65007ecdcb76e7f47dc6585f35f788b
     log: |
-         84eff55d4d68b3705a86ff184aab558dfd3ce804 shared: use proper data types in freadline_wrapped
+         fbe86ce8a65007ecdcb76e7f47dc6585f35f788b libkmod: Fix memory leak on error path
          
