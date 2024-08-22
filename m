@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7828929878334154923=="
+Content-Type: multipart/mixed; boundary="===============8314363658525292064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Aug 2024 15:35:44 -0000
-Message-Id: <172434094434.4795.2337015433593879873@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 15:35:46 -0000
+Message-Id: <172434094666.4885.16556343143814692538@gitolite.kernel.org>
 
---===============7828929878334154923==
+--===============8314363658525292064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0d76fc7e27b2097e18ee128e484d107ed6d45e88
     new: a812a3f45cae787abe29567749a0acc879d2df37
     log: revlist-0d76fc7e27b2-a812a3f45cae.txt
 
---===============7828929878334154923==
+--===============8314363658525292064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f2d20c9b97f0df64841b89fa1ad3e9c92f7377ae MAINTAINERS: Add header files to NETWOR
 46097a92662496394628cb41138e681d6074cce7 MAINTAINERS: Mark JME Network Driver as Odd Fixes
 a812a3f45cae787abe29567749a0acc879d2df37 Merge branch 'maintainers-networking-updates'
 
---===============7828929878334154923==--
+--===============8314363658525292064==--
