@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 22 Aug 2024 21:53:48 -0000
-Message-Id: <172436362836.31645.6835490568742031575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 22 Aug 2024 21:59:40 -0000
+Message-Id: <172436398069.3081.12124515263724391737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: fbe86ce8a65007ecdcb76e7f47dc6585f35f788b
-    new: e9ace0b75a261411878ef78764f753eef068a735
+  - ref: refs/heads/kdevops
+    old: 7dc6a58f390469e870f0446e39db5d6ae7b082e6
+    new: 9d3e21ac1b9fb9154df2ccb8489cb72ce17fe64b
     log: |
-         df8354e97b9bdeb06a9a2dab48391f080cf35ca3 libkmod: Propagate correct errno values
-         e9ace0b75a261411878ef78764f753eef068a735 libkmod: Treat illegal modinfo file as error
+         9d3e21ac1b9fb9154df2ccb8489cb72ce17fe64b nfsd: track the main opcode for callbacks
          
