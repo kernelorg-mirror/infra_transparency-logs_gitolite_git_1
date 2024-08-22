@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1627283805617805912=="
+Content-Type: multipart/mixed; boundary="===============5282999855715980914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 22 Aug 2024 15:40:04 -0000
-Message-Id: <172434120445.10200.13800321591835508821@gitolite.kernel.org>
+Date: Thu, 22 Aug 2024 15:40:06 -0000
+Message-Id: <172434120684.10292.6439534876021135087@gitolite.kernel.org>
 
---===============1627283805617805912==
+--===============5282999855715980914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d785ed945de6955361aafc2d540d9bb7c6a69a65
     new: d6f75d86aa786740ef7a7607685e9e1039e30aab
     log: revlist-d785ed945de6-d6f75d86aa78.txt
 
---===============1627283805617805912==
+--===============5282999855715980914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ bcc3773c49af2426093645473fe02a5a8e765587 selftests: net: add helper for checking
 812a2751e827fa1eb01f3bd268b4d74c23f4226a net: airoha: configure hw mac address according to the port id
 d6f75d86aa786740ef7a7607685e9e1039e30aab nfp: bpf: Use kmemdup_array instead of kmemdup for multiple allocation
 
---===============1627283805617805912==--
+--===============5282999855715980914==--
