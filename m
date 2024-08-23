@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 23 Aug 2024 16:36:00 -0000
-Message-Id: <172443096063.8944.570643459819074026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 23 Aug 2024 16:50:03 -0000
+Message-Id: <172443180373.19961.7856262759727814657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-next
-    old: afec13278f4ed7dad696cfdaddbee978d905b9f2
-    new: c78a662dfe4ea208e05c7ba78949a239e31c360d
+  - ref: refs/heads/io_uring-pbuf-partial
+    old: 2042bac99c623f97d82b2b24e3bec1f64e73cf58
+    new: 8651eb2300affb54fe7d6ae9e78d0eeb487bb5a1
     log: |
-         c78a662dfe4ea208e05c7ba78949a239e31c360d nfsd: remove unused parameter of nfsd_file_mark_find_or_create
+         8651eb2300affb54fe7d6ae9e78d0eeb487bb5a1 io_uring/kbuf: add support for incremental buffer consumption
          
