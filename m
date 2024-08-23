@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6067274685193837407=="
+Content-Type: multipart/mixed; boundary="===============2825733349369268825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 23 Aug 2024 15:21:27 -0000
-Message-Id: <172442648718.15917.7114718874703183341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 23 Aug 2024 15:23:27 -0000
+Message-Id: <172442660710.16703.1197270833358961704@gitolite.kernel.org>
 
---===============6067274685193837407==
+--===============2825733349369268825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: b5c47a48380ae63d9fdc978c031451bb44bec3f3
-    new: ac466e9dbd22cc5428c3ce73979866f44d1595d7
-    log: |
-         ac466e9dbd22cc5428c3ce73979866f44d1595d7 trailer_map: add a few more debug statements and a possible fix
-         
+  - ref: refs/heads/kdevops
+    old: 2544f561b4192a948512ac375d12e30cbe158d14
+    new: b0fed9ae910f4c55bbb7d88e5359c83885fc2e50
+    log: revlist-2544f561b419-b0fed9ae910f.txt
 
---===============6067274685193837407==
+--===============2825733349369268825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2544f561b419-b0fed9ae910f.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1724426486 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1724426486-28c32357a5a928a02dc6c898b817c4945e6f9802
+7c7e133b6800d0089cbcef4f74503910f8c10d75 nfsd: fix up handling of inode attrs in cb_getattr
+3643a01f46146b739239f3efa3117abcf59520a8 nfsd: add support for FATTR4_OPEN_ARGUMENTS
+a42af8158dba56c474fe277261d8f184769c5826 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+a237e836736fbaa2d88e23a34c0d4783e433df73 fs: add an ATTR_CTIME_DLG flag
+2549f7b928e676b6234a3851df5cd4393ac2db61 nfsd: drop the ncf_cb_bmap field
+9cbe868012f776d8a5839322df0203445bcd8dc7 nfsd: add support for delegated timestamps
+8d47c6bf6557e12838669c6e4f66c2283e8effb7 nfsd: ensure that nfsd4_fattr_args.context is zeroed out
+3e5059782111366035d809552d6707fa133b9f91 nfsd: add more info to WARN_ON_ONCE on failed callbacks
+b4c91393eec1d62f1fabcd991a892583e618e11a nfsd: add some tracepoints around CB_GETATTR callbacks
+d75ab2ccbdca4275333796797d28d6f8539b19a7 nfsd: track the main opcode for callbacks
+2f7f859bb86a6828751a1b5fa17c30b82a273e5e nfsd: add more nfsd_cb tracepoints
+f12c6ad02ee03f81dfc24763261a37284d82ed53 nfsd: wait longer for an RPC reply from the client
+b0fed9ae910f4c55bbb7d88e5359c83885fc2e50 DEBUG: show result of cb_getattr wait
 
-b5c47a48380ae63d9fdc978c031451bb44bec3f3 ac466e9dbd22cc5428c3ce73979866f44d1595d7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZsio9gAKCRC2xBzjVmSZ
-bN8DAQCYMhr+//YNeyKVXJeqHXfCf6FOvRxzgcaIbY7LkTCSVQD+PgvRMz9O3g92
-EL1ob+clHBqKfm77fhk0wTsbJU9nOgk=
-=cBjs
------END PGP SIGNATURE-----
-
---===============6067274685193837407==--
+--===============2825733349369268825==--
