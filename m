@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Fri, 23 Aug 2024 06:04:10 -0000
-Message-Id: <172439305002.9388.10482224741027258759@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 06:04:12 -0000
+Message-Id: <172439305261.9463.11959460303784196816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wireless/wireless-testing
 user: kvalo
 changes:
-  - ref: refs/tags/wt-2024-08-23
+  - ref: refs/tags/v6.11-rc4
     old: 0000000000000000000000000000000000000000
-    new: 6af087ad018bae6635defad547be4440aed3c903
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
