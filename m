@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5376840330371855361=="
+Content-Type: multipart/mixed; boundary="===============0529128412354107759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 23 Aug 2024 14:27:10 -0000
-Message-Id: <172442323075.4411.15851854222391339780@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 14:27:19 -0000
+Message-Id: <172442323953.4519.6474558212465974821@gitolite.kernel.org>
 
---===============5376840330371855361==
+--===============0529128412354107759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/thermal
-    old: 6e6f58a170ea98e44075b761f2da42a5aec47dfb
-    new: c0a1ef9c5be72ff28a5413deb1b3e1a066593c13
-    log: revlist-6e6f58a170ea-c0a1ef9c5be7.txt
-  - ref: refs/tags/thermal-6.11-rc5
+  - ref: refs/heads/acpi
+    old: 71bf41b8e913ec9fc91f0d39ab8fb320229ec604
+    new: 5c7bb62cb8f53de71d8ab3d619be22740da0b837
+    log: revlist-71bf41b8e913-5c7bb62cb8f5.txt
+  - ref: refs/tags/acpi-6.11-rc5
     old: 0000000000000000000000000000000000000000
-    new: 4b35d1e23a47588069e6d9a1d31615eaf0564028
+    new: b6710197a9e1226f42acb7de652255f6a64ead87
 
---===============5376840330371855361==
+--===============0529128412354107759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e6f58a170ea-c0a1ef9c5be7.txt
+Content-Disposition: attachment; filename=revlist-71bf41b8e913-5c7bb62cb8f5.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -188,9 +188,6 @@ cd2d00606553e631e9b5d11cca7da38fc95433e6 KVM: SVM: Fix an error code in sev_gmem
 31723c9542dba1681cc3720571fdf12ffe0eddd9 btrfs: tree-checker: reject BTRFS_FT_UNKNOWN dir type
 8475a1d9bb7acf1cb15842dd24baab0e8ea4e4ff ALSA: hda: cs35l41: Remove redundant call to hda_cs_dsp_control_remove()
 ae1e766f623f7a2a889a0b09eb076dd9a60efbe9 btrfs: only run the extent map shrinker from kswapd tasks
-779bac9994452f6a894524f70c00cfb0cd4b6364 Revert "ACPI: EC: Evaluate orphan _REG under EC device"
-cdf65d73e001fde600b18d7e45afadf559425ce5 ACPICA: Add a depth argument to acpi_execute_reg_methods()
-71bf41b8e913ec9fc91f0d39ab8fb320229ec604 ACPI: EC: Evaluate _REG outside the EC scope more carefully
 46a6e10a1ab16cc71d4a3cab73e79aabadd6b8ea btrfs: send: allow cloning non-aligned extent if it ends at i_size
 1e1fd567d32fcf7544c6e09e0e5bc6c650da6e23 dm suspend: return -ERESTARTSYS instead of -EINTR
 7a636b4f03af9d541205f69e373672e7b2b60a8a dm resume: don't return EINVAL when signalled
@@ -354,6 +351,10 @@ a8fc28dad6d574582cdf2f7e78c73c59c623df30 alloc_tag: introduce clear_page_tag_ref
 2e6506e1c4eed2676a8412231046f31e10e240da mm/migrate: fix deadlock in migrate_pages_batch() on large folios
 ad899c301c880766cc709aad277991b3ab671b66 char: xillybus: Refine workqueue handling
 2374bf7558de915edc6ec8cb10ec3291dfab9594 char: xillybus: Check USB endpoints when probing device
+b9b6ee6fe258ce4d89592593efcd3d798c418859 thermal: gov_bang_bang: Call __thermal_cdev_update() directly
+84248e35d9b60e03df7276627e4e91fbaf80f73d thermal: gov_bang_bang: Split bang_bang_control()
+5f64b4a1ab1b0412446d42e1fc2964c2cdb60b27 thermal: gov_bang_bang: Add .manage() callback
+6e6f58a170ea98e44075b761f2da42a5aec47dfb thermal: gov_bang_bang: Use governor_data to reduce overhead
 87cea484951eba1d0342033241f80e49303d802c Merge tag 'i2c-host-fixes-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 37b20e9a5810e132a21c54f858043b22671396dd Merge tag 'drm-fixes-2024-08-16' of https://gitlab.freedesktop.org/drm/kernel
 d58c542a33e719029ae3fc1343b4cb09c125cb09 Merge tag 'sound-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -394,9 +395,8 @@ c3f2d783a459980eafd24c5af94ccd56a615961f Merge tag 'mm-hotfixes-stable-2024-08-1
 e1bc113215ab2875ab52fbbd76a54b5583f67e61 Merge tag 'char-misc-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ccdbf91fdf5a71881ef32b41797382c4edd6f670 Merge tag 'driver-core-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 47ac09b91befbb6a235ab620c32af719f8208399 Linux 6.11-rc4
-57df60e1f981fa8c288a49012a4bbb02ae0ecdbc thermal/debugfs: Fix the NULL vs IS_ERR() confusion in debugfs_create_dir()
-afc954fd223ded70b1fa000767e2531db55cce58 thermal: of: Fix OF node leak in thermal_of_trips_init() error path
-662b52b761bfe0ba970e5823759798faf809b896 thermal: of: Fix OF node leak in thermal_of_zone_register()
-c0a1ef9c5be72ff28a5413deb1b3e1a066593c13 thermal: of: Fix OF node leak in of_thermal_zone_find() error paths
+cd8e468efb4fb2742e06328a75b282c35c1abf8d ACPI: video: Add Dell UART backlight controller detection
+b5f0943001339c4d324a1af10470ce0bdd79f966 platform/x86: dell-uart-backlight: Use acpi_video_get_backlight_type()
+5c7bb62cb8f53de71d8ab3d619be22740da0b837 ACPI: video: Add backlight=native quirk for Dell OptiPlex 7760 AIO
 
---===============5376840330371855361==--
+--===============0529128412354107759==--
