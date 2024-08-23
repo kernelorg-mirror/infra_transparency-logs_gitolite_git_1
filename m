@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 23 Aug 2024 18:34:27 -0000
-Message-Id: <172443806798.32062.9348936312744239401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Aug 2024 18:41:15 -0000
+Message-Id: <172443847598.6790.105137398609668741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/testing
-    old: 0f718e10da81446df0909c9939dff2b77e3b4e95
-    new: e0ba4cf57a1891097da841e533740f89bd82f059
+  - ref: refs/heads/irq/core
+    old: 0b3af7591dbfd16ca45740cd90eb34be8b9a7175
+    new: ae16f05c928a1336d5d9d19fd805d7bf29c3f0c8
     log: |
-         bd5eebf4d3f02cdd069e5014a502ac7a310e3f03 dt-bindings: iio: st,stm32-adc: add top-level constraints
-         6bcffddc14bbb39e05188c9b24826209576b52cf iio: ABI: remove duplicate in_resistance_calibbias
-         d35099d3c60c8a60de2cab909040c35e255cf474 iio: sgp40: retain documentation in driver
-         c4b43d8336e52dce6d124e428aa3b71703e62647 drivers:iio:Fix the NULL vs IS_ERR() bug for debugfs_create_dir()
-         389bda4ee215ade936efe84bd09766f8163c500e iio: magnetometer: ak8975: Relax failure on unknown id
-         53857070192294e106a2e38375ded236e99b5fbb iio: magnetometer: ak8975: Fix reading for ak099xx sensors
-         02d38a75aa0ba5688ac1dade0d348aecfbd2616c dt-bindings: iio: magnetometer: Add ak09118
-         e0ba4cf57a1891097da841e533740f89bd82f059 iio: magnetometer: ak8975: Add AK09118 support
+         06fac729a6d54e2c6650b38734f84383aafb3acc LoongArch: Move irqchip function prototypes to irq-loongson.h
+         843ed9317be1d0c3f4245418644fc7e55f465419 LoongArch: Architectural preparation for AVEC irqchip
+         9e83dd3ebb14fadccb936308b7b101c75da76324 irqchip/loongson-eiointc: Rename CPUHP_AP_IRQ_LOONGARCH_STARTING
+         a1d4646d34c6642194a421ca9afbd060b0f9aa00 irqchip/loongson-pch-msi: Prepare get_pch_msi_handle() for AVECINTC
+         ae16f05c928a1336d5d9d19fd805d7bf29c3f0c8 irqchip/loongarch-avec: Add AVEC irqchip support
          
