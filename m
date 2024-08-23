@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 23 Aug 2024 17:31:07 -0000
-Message-Id: <172443426759.18314.9796067236257014802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 23 Aug 2024 17:34:33 -0000
+Message-Id: <172443447379.19584.1030551501622903980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 5f74ed75e72f9253bd1d45abf3caefbb9ab2b985
-    new: e5c0e187519de0fc16bd336129e861d4df9e2d47
+  - ref: refs/heads/kdevops
+    old: 004d6f530e2be93dc4e29acae557ce70c5e41bea
+    new: 1c7805a0aabec00b042b4b115d9c51649255d091
     log: |
-         e5c0e187519de0fc16bd336129e861d4df9e2d47 monitor: Print rmnet flags
+         1c7805a0aabec00b042b4b115d9c51649255d091 SQUASH: disable extra length check
          
