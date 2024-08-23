@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Fri, 23 Aug 2024 09:07:50 -0000
-Message-Id: <172440407098.14902.11703270717002401410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Aug 2024 09:21:16 -0000
+Message-Id: <172440487660.24485.9384025877152043889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/pmdomain-v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 3fdba35c7979348b0811e62147dec403b7dff414
-  - ref: refs/tags/v6.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
-  - ref: refs/tags/v6.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/heads/main
+    old: 979b581e4c69257acab1af415ddad6b2d78a2fa5
+    new: 82b8000c28b56b014ce52a1f1581bef4af148681
+    log: |
+         82b8000c28b56b014ce52a1f1581bef4af148681 net: drop special comment style
+         
