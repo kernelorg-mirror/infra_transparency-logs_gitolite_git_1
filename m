@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 23 Aug 2024 20:03:00 -0000
-Message-Id: <172444338066.3511.8988495781703310887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 23 Aug 2024 20:10:05 -0000
+Message-Id: <172444380502.10913.1006524685946769058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 1594ee3e104f47e7a1f882b87ad49b4882339a4c
-    new: 61bea6923172a4a9d279f3032abb1eb283ab23c0
+  - ref: refs/heads/kdevops
+    old: a669a223c1d890a59ed9fe3ad73c791a54eec3a0
+    new: e1c86289c8977cca8b5404c15a1ec7bf1bb38cdb
     log: |
-         61bea6923172a4a9d279f3032abb1eb283ab23c0 Bluetooth: qca: If memdump doesn't work, re-enable IBS
+         e1c86289c8977cca8b5404c15a1ec7bf1bb38cdb DEBUG: more info
          
