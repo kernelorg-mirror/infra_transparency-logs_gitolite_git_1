@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0672097409025382371=="
+Content-Type: multipart/mixed; boundary="===============2422996693553500991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Aug 2024 15:35:12 -0000
-Message-Id: <172442731261.27187.13651958513701711093@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 15:35:15 -0000
+Message-Id: <172442731533.27261.4603417605701467328@gitolite.kernel.org>
 
---===============0672097409025382371==
+--===============2422996693553500991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: a812a3f45cae787abe29567749a0acc879d2df37
     new: 8af174ea863c72f25ce31cee3baad8a301c0cf0f
     log: revlist-a812a3f45cae-8af174ea863c.txt
 
---===============0672097409025382371==
+--===============2422996693553500991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -312,4 +312,4 @@ aa0743a229366e8c1963f1b72a1c974a9d15f08f Merge tag 'net-6.11-rc5' of git://git.k
 82b8000c28b56b014ce52a1f1581bef4af148681 net: drop special comment style
 8af174ea863c72f25ce31cee3baad8a301c0cf0f net: mana: Fix race of mana_hwc_post_rx_wqe and new hwc response
 
---===============0672097409025382371==--
+--===============2422996693553500991==--
