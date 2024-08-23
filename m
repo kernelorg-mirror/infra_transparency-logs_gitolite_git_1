@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6413423931947272756=="
+Content-Type: multipart/mixed; boundary="===============3655524346909983690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 23 Aug 2024 20:52:36 -0000
-Message-Id: <172444635600.9097.3967887223604923405@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 20:52:51 -0000
+Message-Id: <172444637188.9266.5259896924528705492@gitolite.kernel.org>
 
---===============6413423931947272756==
+--===============3655524346909983690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/delstid
-    old: 2544f561b4192a948512ac375d12e30cbe158d14
+  - ref: refs/heads/kdevops
+    old: d918979f9b31b875051c24524b8689ced4f4d153
     new: 599c5cbbad3d04bac8d90eb859888bb93ed688c7
-    log: revlist-2544f561b419-599c5cbbad3d.txt
+    log: revlist-d918979f9b31-599c5cbbad3d.txt
 
---===============6413423931947272756==
+--===============3655524346909983690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2544f561b419-599c5cbbad3d.txt
+Content-Disposition: attachment; filename=revlist-d918979f9b31-599c5cbbad3d.txt
 
 5b37e9283d1896d8ba1bafdce1845bc0588c2cc8 nfsd: hold reference to delegation when updating it for cb_getattr
 381354299a93be5d665d9f06dcc59b55d17854c5 nfsd: fix potential UAF in nfsd4_cb_getattr_release
@@ -41,4 +41,4 @@ f585030e77edb67f2d2e8a1890e0d8c68030012b nfsd: add some tracepoints around CB_GE
 a3351cd67fb53bd9d28c1c52efd30db3a7290cb5 nfsd: track the main opcode for callbacks
 599c5cbbad3d04bac8d90eb859888bb93ed688c7 nfsd: add more nfsd_cb tracepoints
 
---===============6413423931947272756==--
+--===============3655524346909983690==--
