@@ -1,52 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4941639674580160553=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 23 Aug 2024 21:43:22 -0000
-Message-Id: <172444940226.15486.1917665632030074539@gitolite.kernel.org>
-
---===============4941639674580160553==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 23 Aug 2024 21:46:35 -0000
+Message-Id: <172444959557.18391.16987461815117581745@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.12
-    old: 429ecbef0d599cec66918d552a284b617f8724a4
-    new: 91232b00b1a5d2486770c72c51a752a77c7601b2
+  - ref: refs/heads/asoc-6.12
+    old: ca39fab8b7bc6c5a38c48c7bdf2b3c47792af9dd
+    new: b42c0ec286c5bd7ec14110a11e27d2f99a154cd3
     log: |
-         3bf2a5359b0bde22418705ec862ac5077312e4c2 spi: wpcm-fiu: Use devm_platform_ioremap_resource_byname()
-         3ccea1dedef39b8fc1adb13dd38c6e0b69e728af spi: atmel-quadspi: Simpify resource lookup
-         91232b00b1a5d2486770c72c51a752a77c7601b2 spi: bcmbca-hsspi: Simpify resource lookup
+         0e9fdab1e8df490354562187cdbb8dec643eae2c ASoC: allow module autoloading for table db1200_pids
+         5f7c98b7519a3a847d9182bd99d57ea250032ca1 ASoC: allow module autoloading for table board_ids
+         bff980d8d9ca537fd5f3c0e9a99876c1e3713e81 ASoC: cs-amp-lib-test: Force test calibration blob entries to be valid
+         bb4485562f5907708f1c218b5d70dce04165d1e1 ASoC: cs-amp-lib: Ignore empty UEFI calibration entries
+         0cc65482f5b03ac2b1c240bc34665e43ea2d71bb ASoC: Intel: Boards: Fix NULL pointer deref in BYT/CHT boards harder
+         839a4ec06f75cec8fec2cc5fc14e921d0c3f7369 ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+         b42c0ec286c5bd7ec14110a11e27d2f99a154cd3 ASoC: Merge up fixes
          
-
---===============4941639674580160553==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1724449400 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1724449398-f77b357beae4bfda44a3776b8f068882749121ac
-
-429ecbef0d599cec66918d552a284b617f8724a4 91232b00b1a5d2486770c72c51a752a77c7601b2 refs/heads/spi-6.12
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbJAngTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HqyB/9bY+Vo30HCMTCZaEpLMoqTDoZPwYo1
-fITLsQhnMc5j0hiVoax4fOmGVE/RsNZmBzhcwW39SxFDqvxDmOQFD8ys5LlLpDdN
-lpRj+06RWkPvFWNgrk/iV5SfDabfHahAjHvvGVpju4FCGch8RuajFBWCT87X4h9C
-p6RJHP4YAUi1NBcAIGspz/QPxKqV16CAufsK9ZCBEiM1pAZuvzY8qOCdyF5EHjbH
-Z01xGIXA2CMwZeHUCovySvZUagCx630eZlcyRap99LDfpSvGIxPVcGi4qAmSnFk4
-RTyqyw6M7leOu7DsW/PUiihTIAq4ah+YGuYl2Wlpx1gRrl3cP5RUg5A2
-=o1ux
------END PGP SIGNATURE-----
-
---===============4941639674580160553==--
