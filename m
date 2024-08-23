@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 23 Aug 2024 22:56:48 -0000
-Message-Id: <172445380821.5412.1101254256429373697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 23 Aug 2024 22:57:01 -0000
+Message-Id: <172445382104.5569.9895536598060982629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: e0ee39920027bc9a3bbf0dc3363388713e36a5a3
-    new: 9c5f8c385701ecba6b9943767a3dfb291e3e3367
-    log: |
-         9c5f8c385701ecba6b9943767a3dfb291e3e3367 Merge remote-tracking branch 'regmap/for-6.10' into regmap-linus
-         
   - ref: refs/heads/for-next
-    old: 9eeca3012ae62e87830e248504b1dd724caac10c
-    new: 18a6399396adbb59fa0177f6d705266b5c1191b1
+    old: 9eeedc097d30ca4b31ca76f3cafe3c6994621760
+    new: 7a3ebbfe99fe138804c81ef92b0b5fecd6ef4852
     log: |
-         fd4ebc07b4dff7e1abedf1b7fd477bc04b69ae55 regmap: Hold the regmap lock when allocating and freeing the cache
-         290d6e5d6498703accffc66849b7fb2d4d7503ff regmap: Use locking during kunit tests
-         9c5f8c385701ecba6b9943767a3dfb291e3e3367 Merge remote-tracking branch 'regmap/for-6.10' into regmap-linus
-         18a6399396adbb59fa0177f6d705266b5c1191b1 Merge remote-tracking branch 'regmap/for-6.12' into regmap-next
+         3bf2a5359b0bde22418705ec862ac5077312e4c2 spi: wpcm-fiu: Use devm_platform_ioremap_resource_byname()
+         3ccea1dedef39b8fc1adb13dd38c6e0b69e728af spi: atmel-quadspi: Simpify resource lookup
+         91232b00b1a5d2486770c72c51a752a77c7601b2 spi: bcmbca-hsspi: Simpify resource lookup
+         7a3ebbfe99fe138804c81ef92b0b5fecd6ef4852 Merge remote-tracking branch 'spi/for-6.12' into spi-next
          
