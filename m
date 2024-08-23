@@ -1,26 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 Aug 2024 20:48:29 -0000
-Message-Id: <172444610995.5746.11414640855459066830@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6413423931947272756=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 23 Aug 2024 20:52:36 -0000
+Message-Id: <172444635600.9097.3967887223604923405@gitolite.kernel.org>
+
+--===============6413423931947272756==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dev-queue
-    old: 5583defe38fa248e5d3013eeabce359e984e02cb
-    new: 18db178f87087fa608b1c1c21e353c21288e9ad9
-    log: |
-         d75c288d0ca40b6ea7f6c9e3421b2f08a83c8a28 ice: Add netif_device_attach/detach into PF reset flow
-         fb38ef8510c3012e276af16d99a612c75c640eb5 igb: Always call igb_xdp_ring_update_tail() under Tx lock
-         2d10a3e0d0a6417e0407d13c28b6a3fa7c6c9a32 ice: add E830 HW VF mailbox message limit support
-         9cddcde4660bf950acab36d4d85954850506515c ice: Introduce ice_get_phy_model() wrapper
-         21afc99e69b0f06543131d9ee6d7dbbce624216d ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
-         6691dda96da6732b228c19ae2b944a8bd7a186db ice: Initial support for E825C hardware in ice_adapter
-         1902ec59d800890690fa3b26713600d7a48b49a0 ice: Use ice_adapter for PTP shared data instead of auxdev
-         18db178f87087fa608b1c1c21e353c21288e9ad9 ice: Drop auxbus use for PTP to finalize ice_adapter move
-         
+  - ref: refs/heads/delstid
+    old: 2544f561b4192a948512ac375d12e30cbe158d14
+    new: 599c5cbbad3d04bac8d90eb859888bb93ed688c7
+    log: revlist-2544f561b419-599c5cbbad3d.txt
+
+--===============6413423931947272756==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2544f561b419-599c5cbbad3d.txt
+
+5b37e9283d1896d8ba1bafdce1845bc0588c2cc8 nfsd: hold reference to delegation when updating it for cb_getattr
+381354299a93be5d665d9f06dcc59b55d17854c5 nfsd: fix potential UAF in nfsd4_cb_getattr_release
+d0b7dde6ad9a94d8803e61abfc15715d37dbb6a1 nfs_common: make nfs4.h include generated header
+b04d88503bed457ea21680dab9d5b48d18f8634f nfsd: fix up handling of inode attrs in cb_getattr
+c8b6f30c5f3538b297c6bee2c220cc158e0e77fd nfsd: add support for FATTR4_OPEN_ARGUMENTS
+7be6029e7db4afbf28ce20091bf8a511cbe522ef nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+9fe8f74bc1e84fdecef88ad5ab534842ead5d8cf fs: add an ATTR_CTIME_DLG flag
+d3410c6aceb06809531e84b72561ebef29bf7689 nfsd: drop the ncf_cb_bmap field
+e99fa1e6034dc9ee2146ecd6e76765c73004a341 nfsd: add support for delegated timestamps
+b7fac49633b10343850b79e1bfb0aad7fa284cd5 nfsd: ensure that nfsd4_fattr_args.context is zeroed out
+f492278013390a08f08f02be5cd95a1aeb3504a3 nfsd: add more info to WARN_ON_ONCE on failed callbacks
+f585030e77edb67f2d2e8a1890e0d8c68030012b nfsd: add some tracepoints around CB_GETATTR callbacks
+a3351cd67fb53bd9d28c1c52efd30db3a7290cb5 nfsd: track the main opcode for callbacks
+599c5cbbad3d04bac8d90eb859888bb93ed688c7 nfsd: add more nfsd_cb tracepoints
+
+--===============6413423931947272756==--
