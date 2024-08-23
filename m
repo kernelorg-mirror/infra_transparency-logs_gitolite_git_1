@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7480681455342067197=="
+Content-Type: multipart/mixed; boundary="===============0867756406656674419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 23 Aug 2024 01:40:45 -0000
-Message-Id: <172437724549.13614.3672990403897005086@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 01:41:03 -0000
+Message-Id: <172437726373.13814.16805209934559027877@gitolite.kernel.org>
 
---===============7480681455342067197==
+--===============0867756406656674419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 4ddde5ef26aee69046a2f034a03509669b1ccc5f
-    new: 507dc04865b2bffcdcaba7f6b1abee98bd0c4d71
+  - ref: refs/heads/6.11/scsi-fixes
+    old: cbaac68987b8699397df29413b33bd51f5255255
+    new: 4f9eedfa27ae5806ed10906bcceee7bae49c8941
     log: |
          3417c9574e368f0330637505f00d3814ca8854d2 scsi: lpfc: Fix overflow build issue
          919ddf8336f0b84c0453bac583808c9f165a85c2 scsi: aacraid: Fix double-free on probe failure
          4f9eedfa27ae5806ed10906bcceee7bae49c8941 scsi: sd: Ignore command SYNCHRONIZE CACHE error if format in progress
          
 
---===============7480681455342067197==
+--===============0867756406656674419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1724377218 -0400
+pusher 75C5DE3D 1724377249 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1724377218-f6fd37aa6ca476e879470455db1877fd07e0ceca
+nonce 1724377248-613abffd9131bd3e23de897425a44e2f46a32988
 
-4ddde5ef26aee69046a2f034a03509669b1ccc5f 507dc04865b2bffcdcaba7f6b1abee98bd0c4d71 refs/tags/mkp-scsi-fixes
+cbaac68987b8699397df29413b33bd51f5255255 4f9eedfa27ae5806ed10906bcceee7bae49c8941 refs/heads/6.11/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbH6IIACgkQ7ulgGnXF
-3j0y4Q/+JH4SucAWexDPL7Upe4DevJNzJgAJOfA1yr6CCMhsLjwoaSO7rueNLfM5
-Rw2ys7IiBtirt2CA7VFjgMJMwSy3YjcBUP+o0Etb4Fwe5b8fJVbxZ8jlSFUFdS+z
-NY3LVg6WJJXyA3jogiBHDEPbjFGoxoIQnNS55BwRC6m6DKYohLRTvbTL2DsPT9HV
-P26x5M4s/XDLtKXb4ojadLS1fDfwm8UuzUHRN/pvZWlKAeB6xWxxeCZG+l4ZPVEE
-TeusDI+wyVLS7MKXBqgHLkw8CwyMYR+PFXJ9PiysGDOLszCdsXob1YKxAODtUq62
-QJz2Nsp1NgLJ5v4CB2gIy7tmFqkbyd2pCSbBz5pHFXFq7XMi43yb/rRwT0uXUw2l
-HLHA73Y7MPyJSslQVpaEQR0zoDjAdTapr0wgvrLTO5kINOpgHFiXQbCfdTd8UQdE
-QTJ7FKmob7CJo2tzDnljXeZ1/XUeej98BxdBpmoANj2MrrKoWENh5pBStL7Acrlx
-hABjVlwEkt3MkQ8jKRmC/oBybXvTwJ8WeRFdUChLMA+J2KWh6Ihz4bBKQ1Rm0T+t
-6KhyotlU6AD6CSZ8TR0q86y7Oi+4c3SRfG3Yk4rvKDj5O7JYp4yoz02N4+SezlWW
-tEjtevHCSg3TbZWLj1lFPbppWOY9LSAi+pEllBg9/vLH8Adv4nk=
-=lfnm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbH6KEACgkQ7ulgGnXF
+3j3tnA//QA4ASwReq1Wo6wE8Ihb5VoCp+PilWi1StGJ6qu8ai7tzgIqIJSG9PPGs
+rowk0VQtSuQQ7YlHSYrimTRNuhisZAw3E0uxEdnJA57QwfTQ1hgP2rpIdrp1vAd6
+ujXa1YOUZE8rwnoWXbEPN5LPo85dXrmTTjxkrs5S9X3KrkLb5LPWUZFaVTJh3Ua8
+LnR4qq+8GjUkhwy53+7tlVJSdDmLDd4MBWILzZ8zRAHM/TW36jJ495bH3wA6qERv
+8/Gi8FmX2SdJKI9IWdBXEr8N+TLZPQeCGTUz7uMzEIGLk7SPoJ9jorJ3B3Of3Twd
+UI45T862qkzsjTS8AaT36ZEwmMheNg9M0hmLfDu2bBtWmuMGhZHV2qBJfXbKY/ft
+5XPbcyWh0bIRpuKJ+0iT8cjec1X6LjzHHplBlGOol+k9iOA9StQ43QdccEDc7fB2
+UPeZ75Wxj06312hTdbKTsKxOzCQBft7Nl+Y9+cB0PmlYQnsDF8Fr+YVDSrIvDgBH
+ujvNv6iCxXapKBNu/HlocYWTQ93GTOKwqtFMTP1OWnuKJFu1PQ+Pmd6yH4G+wEgf
+uGbBNF672j2TBUZzTttpWpb2mkxY/oj2IiLJSEZHqm3GDLflyqVO4CWnnLa0U8T7
+vPq5gmMbWLRKmxVc85dXKkieXshzg2BSZMumd2lF7ndCJQQXJLY=
+=aqe1
 -----END PGP SIGNATURE-----
 
---===============7480681455342067197==--
+--===============0867756406656674419==--
