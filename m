@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 23 Aug 2024 22:24:41 -0000
-Message-Id: <172445188123.13030.17380921568949839062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Fri, 23 Aug 2024 22:26:36 -0000
+Message-Id: <172445199655.15369.15916141457922165123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 5cd0aea0b16a74769533ca605bc43634a4485dd9
-    new: 5772c3458bb8d17d763e0f411e1bae1bf4eda88d
+  - ref: refs/heads/hyperv-next
+    old: 87c9741a38c4fa63ff3525c3191fb8a4a69b4ff6
+    new: 0b5530861eec1cf3f240a6a4a0ceed58f67fbcc5
     log: |
-         5772c3458bb8d17d763e0f411e1bae1bf4eda88d selftests/bpf: use simply-expanded variables for libpcap flags
+         0b5530861eec1cf3f240a6a4a0ceed58f67fbcc5 x86/hyperv: use helpers to read control registers in hv_snp_boot_ap()
          
