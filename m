@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7484044207078008069=="
+Content-Type: multipart/mixed; boundary="===============1546175336827833955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 Aug 2024 15:58:15 -0000
-Message-Id: <172442869540.11323.10435557868370574006@gitolite.kernel.org>
+Date: Fri, 23 Aug 2024 15:58:18 -0000
+Message-Id: <172442869827.11414.7535727422903835739@gitolite.kernel.org>
 
---===============7484044207078008069==
+--===============1546175336827833955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d6f75d86aa786740ef7a7607685e9e1039e30aab
     new: f9db28bb09f46087580f2a8da54bb0aab59a8024
     log: revlist-d6f75d86aa78-f9db28bb09f4.txt
 
---===============7484044207078008069==
+--===============1546175336827833955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -437,4 +437,4 @@ cd9ebde125bf77e22ba0c47e3ac657b993089a55 net/ipv6: delete redundant judgment sta
 fb8e83cf443a98297cd15b58b5529f8d259b22f5 net: mpls: delete redundant judgment statements
 f9db28bb09f46087580f2a8da54bb0aab59a8024 Merge branch 'net-redundant-judgments'
 
---===============7484044207078008069==--
+--===============1546175336827833955==--
