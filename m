@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2422996693553500991=="
+Content-Type: multipart/mixed; boundary="===============2642716217503805987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Aug 2024 15:35:15 -0000
-Message-Id: <172442731533.27261.4603417605701467328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 23 Aug 2024 15:35:30 -0000
+Message-Id: <172442733026.27428.15106461879572560179@gitolite.kernel.org>
 
---===============2422996693553500991==
+--===============2642716217503805987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: a812a3f45cae787abe29567749a0acc879d2df37
-    new: 8af174ea863c72f25ce31cee3baad8a301c0cf0f
-    log: revlist-a812a3f45cae-8af174ea863c.txt
+  - ref: refs/heads/main
+    old: d6f75d86aa786740ef7a7607685e9e1039e30aab
+    new: f9db28bb09f46087580f2a8da54bb0aab59a8024
+    log: revlist-d6f75d86aa78-f9db28bb09f4.txt
 
---===============2422996693553500991==
+--===============2642716217503805987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a812a3f45cae-8af174ea863c.txt
+Content-Disposition: attachment; filename=revlist-d6f75d86aa78-f9db28bb09f4.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -196,6 +196,10 @@ af8e119f52e9c13e556be9e03f27957554a84656 xhci: Fix Panther point NULL pointer de
 92e9bac18124682c4b99ede9ee3bcdd68f121e92 kunit/overflow: Fix UB in overflow_allocation_test
 020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
 fb6a421fb6153d97cf3058f9bd550b377b76a490 kallsyms: Match symbols exactly with CONFIG_LTO_CLANG
+aae6b81260fd9a7224f7eb4fc440d625852245bb Bluetooth: HCI: Invert LE State quirk to be opt-out rather then opt-in
+932021a11805b9da4bd6abf66fe233cccd59fe0e Bluetooth: hci_core: Fix LE quote calculation
+28cd47f75185c4818b0fb1b46f2f02faaba96376 Bluetooth: SMP: Fix assumption of Central always being Initiator
+538fd3921afac97158d4177139a0ad39f056dbb2 Bluetooth: MGMT: Add error handling to pair_device()
 c0247d289e73e18f6ddb0895de30c09770fbed95 btrfs: send: annotate struct name_cache_entry with __counted_by()
 3bc2ac2f8f0b78a13140fc72022771efe0c9b778 btrfs: update target inode's ctime on unlink
 008e2512dc5696ab2dc5bf264e98a9fe9ceb830e btrfs: tree-checker: add dev extent item checks
@@ -215,6 +219,9 @@ d7a5aa4b3c007fae50405ca75c40258d90300e96 Merge tag 'perf-tools-fixes-for-v6.11-2
 b313a8c835516bdda85025500be866ac8a74e022 block: Fix lockdep warning in blk_mq_mark_tag_wait
 75eac7e8bb77597fa199a056710f9ebba5b1995b Merge tag 'drm-misc-fixes-2024-08-15' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 f8e170a3dd723c29d7fedcd584c468e1fedd5e5b Merge tag 'drm-xe-fixes-2024-08-15' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+b96ed2c97c791954abc881ef384e773010945aec virtio_net: move netdev_tx_reset_queue() call before RX napi enable
+c948c0973df5db9314459da621342e1170bd9e8e bnxt_en: Don't clear ntuple filters and rss contexts during ethtool ops
+b153b3c747003e1ce312ba205e552db4bd9e8df7 MAINTAINERS: add selftests to network drivers
 fee9d135e2fd5963a7f466cd1ef2060731a1ab29 Merge tag 'mediatek-drm-fixes-20240805' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
 e46bc2e7eb90a370bc27fa2fd98cb8251e7da1ec mseal: fix is_madv_discard()
 5f75cfbd6bb02295ddaed48adf667b6c828ce07b mm/hugetlb: fix hugetlb vs. core-mm PT locking
@@ -234,6 +241,21 @@ a8fc28dad6d574582cdf2f7e78c73c59c623df30 alloc_tag: introduce clear_page_tag_ref
 2e6506e1c4eed2676a8412231046f31e10e240da mm/migrate: fix deadlock in migrate_pages_batch() on large folios
 ad899c301c880766cc709aad277991b3ab671b66 char: xillybus: Refine workqueue handling
 2374bf7558de915edc6ec8cb10ec3291dfab9594 char: xillybus: Check USB endpoints when probing device
+8d019b15ddd55d6dc5685b1f51902c4aa8e01939 selftests: net: local_termination: refactor macvlan creation/deletion
+4261fa35185c0112acca0496d3732c8fcfe1dcf2 selftests: net: local_termination: parameterize sending interface
+df7cf5cc551c7c0a92520e91e1184993784c6386 selftests: net: local_termination: parameterize test name
+5b8e74182ed3d4f1c38c626e6120275ca9d92bee selftests: net: local_termination: add one more test for VLAN-aware bridges
+5fea8bb009744bbb90b3f6ca41c558429ee4c849 selftests: net: local_termination: introduce new tests which capture VLAN behavior
+9aa3749ca4a880c1a59720aab3eacf344ed8d68d selftests: net: local_termination: don't use xfail_on_veth()
+237979504264912a9797dabc0db35126e705fe0d selftests: net: local_termination: add PTP frames to the mix
+e29b82ef27616777e21c07dc263a8769cbdaa358 selftests: net: bridge_vlan_aware: test that other TPIDs are seen as untagged
+67c3ca2c5cfe6a50772514e3349b5e7b3b0fac03 net: mscc: ocelot: use ocelot_xmit_get_vlan_info() also for FDMA and register injection
+e1b9e80236c540fa85d76e2d510d1b38e1968c5d net: mscc: ocelot: fix QoS class for injected packets with "ocelot-8021q"
+c5e12ac3beb0dd3a718296b2d8af5528e9ab728e net: mscc: ocelot: serialize access to the injection/extraction groups
+93e4649efa964201c73b0a03c35c04a0d6fc809f net: dsa: provide a software untagging function on RX for VLAN-aware bridges
+f1288fd7293b91442ad7420394c252a252ecaa30 net: dsa: felix: fix VLAN tag loss on CPU reception with ocelot-8021q
+36dd1141be70b5966906919714dc504a24c65ddf net: mscc: ocelot: treat 802.1ad tagged traffic as 802.1Q-untagged
+3d93a1448ed017f3536319a2445568b5f3969547 Merge branch 'vln-ocelot-fixes'
 b9b6ee6fe258ce4d89592593efcd3d798c418859 thermal: gov_bang_bang: Call __thermal_cdev_update() directly
 84248e35d9b60e03df7276627e4e91fbaf80f73d thermal: gov_bang_bang: Split bang_bang_control()
 5f64b4a1ab1b0412446d42e1fc2964c2cdb60b27 thermal: gov_bang_bang: Add .manage() callback
@@ -261,10 +283,17 @@ e4a55b555db6d2a006551605ef4404529e878cd2 Merge tag 'libnvdimm-fixes-6.11-rc4' of
 2731835f3f2e5b0642ad82a3a0265c98a552283e Merge tag 'devicetree-fixes-for-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 c5ac744cdddae82916d4cd35d962d3f47065e68a Merge tag 'io_uring-6.11-20240824' of git://git.kernel.dk/linux
 85652baa895b59b94bea29c77cb9b51cf7120deb Merge tag 'block-6.11-20240824' of git://git.kernel.dk/linux
+f232de7cdb4b99adb2c7f2bc5e0b7e4e1292873b net/mlx5e: SHAMPO, Fix page leak
+94e521937839475b83bac46e4d3ccba332e12064 net/mlx5e: SHAMPO, Release in progress headers
+a07e953dafe5ebd88942dc861dfb06eaf055fb07 net/mlx5e: XPS, Fix oversight of Multi-PF Netdev changes
+607e1df7bd47fe91cab85a97f57870a26d066137 net/mlx5: Fix IPsec RoCE MPV trace call
+0373d71215a2062fb9eaf82ab0ac09c87d067f9f Merge branch 'mlx5-misc-fixes-2024-08-15'
 216595b708dac1707fc68d48042738d6d559ddd5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 c2cdb13a34d950e61e3b53af0c5f9eb828710beb Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 e5fa841af679cb830da6c609c740a37bdc0b8b35 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0e49d3ff12501adaafaf6fdb19699f021d1eda1c bcachefs: Fix locking in __bch2_trans_mark_dev_sb()
+a0c9fe5eecc97680323ee83780ea3eaf440ba1b7 tc-testing: don't access non-existent variable on exception
+2d7423040b7cca0beb385e67b660ca524c670ff9 Merge tag 'for-net-2024-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 b71817585383d96ddc51ebd126f6253fdb9a8568 Merge tag 'bcachefs-2024-08-16' of git://evilpiepirate.org/bcachefs
 d09840f8b362d16a0722d300a6c7c8cca626e628 Merge tag 'xfs-6.11-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 df6cbc62cc9b3bcf593d13400dd58cd339a0f56d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -286,19 +315,74 @@ dfd046d0ced19b6ff5f11ec4ceab0a83de924771 ksmbd: Use unsafe_memcpy() for ntlm_neg
 5b5c96c63d5b6e91c622611e04b2b156bbae53f5 erofs: simplify readdir operation
 2c534624ae70100aeea0b5800b0f3768b2fd3cf0 erofs: get rid of check_layout_compatibility()
 e080a26725fb36f535f22ea42694c60ab005fb2e erofs: allow large folios for compressed files
+7167395a4be7930ecac6a33b4e54d7e3dd9ee209 selftests: udpgro: report error when receive failed
+d7818402b1d80347c764001583f6d63fa68c2e1a selftests: udpgro: no need to load xdp for gro
+1e557246f8dbdb476f7112ab58d2de947f22acc5 Merge branch 'selftests-udpgro-fixes'
 cf1e515c9a40caa8bddb920970d3257bb01c1421 iommufd/selftest: Make dirty_ops static
+565d121b69980637f040eb4d84289869cdaabedf tcp: prevent concurrent execution of tcp_sk_exit_batch
 b0da640826ba3b6506b4996a6b23a429235e6923 Merge tag 'printk-for-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 6e4436539ae182dc86d57d13849862bcafaa4709 Merge tag 'hid-for-linus-2024081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+ce335db0621648472f9bb4b7191eb2e13a5793cf net: mctp: test: Use correct skb for route input check
+807067bf014d4a3ae2cc55bd3de16f22a01eb580 kcm: Serialise kcm_sendmsg() for the same socket.
 1eacdd71b3436b54d5fc8218c4bb0187d92a6892 netfilter: nft_counter: Disable BH in nft_counter_offload_stats().
 a0b39e2dc7017ac667b70bdeee5293e410fab2fb netfilter: nft_counter: Synchronize nft_counter_reset() against reader.
 46ee21e9f59205e54943dfe51b2dc8a9352ca37d platform/x86: ISST: Fix return value on last invalid resource
+4b3e33fcc38f7750604b065c55a43e94c5bc3145 ip6_tunnel: Fix broken GRO
+fc59b9a5f7201b9f7272944596113a82cc7773d5 bonding: fix bond_ipsec_offload_ok return type
+95c90e4ad89d493a7a14fa200082e466e2548f9d bonding: fix null pointer deref in bond_ipsec_offload_ok
+f8cde9805981c50d0c029063dc7d82821806fc44 bonding: fix xfrm real_dev null pointer dereference
+c4c5c5d2ef40a9f67a9241dc5422eac9ffe19547 bonding: fix xfrm state handling when clearing active slave
+7565c39da89dc6ac9b1b0733bd70276bc66612b1 Merge branch 'bonding-fix-xfrm-offload-bugs'
 521b1e7f4cf0b05a47995b103596978224b380a8 Merge tag 'cxl-fixes-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+50b2143356e888777fc5bca023c39f34f404613a ice: fix page reuse when PAGE_SIZE is over 8k
+b966ad832942b5a11e002f9b5ef102b08425b84a ice: fix ICE_LAST_OFFSET formula
+d53d4dcce69be5773e2d0878c9899ebfbf58c393 ice: fix truesize operations for PAGE_SIZE >= 8192
+503ab6ee40fc103ea55cc9e50bb879e571d65aac ice: use internal pf id instead of function number
+c50e7475961c36ec4d21d60af055b32f9436b431 dpaa2-switch: Fix error checking in dpaa2_switch_seed_bp()
+80a1e7b83bb1834b5568a3872e64c05795d88f31 cxgb4: add forgotten u64 ivlan cast before shift
+8aba27c4a5020abdf60149239198297f88338a8d igb: cope with large MAX_SKB_FRAGS
+6efea5135417ae8194485d1d05ea79a21cf1a11c net: dsa: microchip: fix PTP config failure when using multiple ports
 0108b7be2a18d85face1e10c68ecc0138f1bed58 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+528876d867a23b5198022baf2e388052ca67c952 net: dsa: mv88e6xxx: Fix out-of-bound access
+c07ff8592d57ed258afee5a5e04991a48dbaf382 netem: fix return value if duplicate enqueue fails
 0005e01e1e875c5e27130c5e2ed0189749d1e08a erofs: fix out-of-bound access when z_erofs_gbuf_growsize() partially fails
+e255683c06df572ead96db5efb5d21be30c0efaa mptcp: pm: re-using ID of unused removed ADD_ADDR
+a13d5aad4dd9a309eecdc33cfd75045bd5f376a3 selftests: mptcp: join: check re-using ID of unused ADD_ADDR
+edd8b5d868a4d459f3065493001e293901af758d mptcp: pm: re-using ID of unused removed subflows
+65fb58afa341ad68e71e5c4d816b407e6a683a66 selftests: mptcp: join: check re-using ID of closed subflow
+ef34a6ea0cab1800f4b3c9c3c2cefd5091e03379 mptcp: pm: re-using ID of unused flushed subflows
+e06959e9eebdfea4654390f53b65cff57691872e selftests: mptcp: join: test for flush/re-add endpoints
+f448451aa62d54be16acb0034223c17e0d12bc69 mptcp: pm: remove mptcp_pm_remove_subflow()
+322ea3778965da72862cca2a0c50253aacf65fe6 mptcp: pm: only mark 'subflow' endp as available
+1c1f721375989579e46741f59523e39ec9b2a9bd mptcp: pm: only decrement add_addr_accepted for MPJ req
+0137a3c7c2ea3f9df8ebfc65d78b4ba712a187bb mptcp: pm: check add_addr_accept_max before accepting new ADD_ADDR
+ca6e55a703ca2894611bb5c5bca8bfd2290fd91e mptcp: pm: only in-kernel cannot have entries with ID 0
+09355f7abb9fbfc1a240be029837921ea417bf4f mptcp: pm: fullmesh: select the right ID later
+4878f9f8421f4587bee7b232c1c8a9d3a7d4d782 selftests: mptcp: join: validate fullmesh endp on 1st sf
+48e50dcbcbaaf713d82bf2da5c16aeced94ad07d mptcp: pm: avoid possible UaF when selecting endp
+0d76fc7e27b2097e18ee128e484d107ed6d45e88 Merge branch 'mptcp-pm-fix-ids-not-being-reusable'
 b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of git://git.samba.org/ksmbd
 5c6154ffd40c5bca1eb01f9bf5a4d2b6d18d55bd Merge tag 'erofs-for-6.11-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 872cf28b8df9c5c3a1e71a88ee750df7c2513971 Merge tag 'platform-drivers-x86-v6.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+b128ed5ab27330deeeaf51ea8bb69f1442a96f7f udp: fix receiving fraglist GSO packets
+f8669d7b5f5d2d88959456ae9123d8bb6fdc1ebe selftests: mlxsw: ethtool_lanes: Source ethtool lib from correct path
+007d4271a5f10638cba6f0b99698557ef30014b9 netpoll: do not export netpoll_poll_[disable|enable]()
+faa389b2fbaaec7fd27a390b4896139f9da662e3 ipv6: prevent UAF in ip6_send_skb()
+da273b377ae0d9bd255281ed3c2adb228321687b ipv6: fix possible UAF in ip6_finish_output2()
+2d5ff7e339d04622d8282661df36151906d0e1c7 ipv6: prevent possible UAF in ip6_xmit()
+58652e2422a7407e77ee50fcaaf4bf1885de8753 Merge branch 'ipv6-fix-possible-uaf-in-output-paths'
+8baeef7616d5194045c5a6b97fd1246b87c55b13 bnxt_en: Fix double DMA unmapping for XDP_REDIRECT
+a0b4a80ed6ce2cf8140fe926303ba609884b5d9b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 6ea14ccb60c8ab829349979b22b58a941ec4a3ee netfilter: flowtable: validate vlan header
+f2916c83d746eb99f50f42c15cf4c47c2ea5f3b3 net: ngbe: Fix phy mode set to external phy
+a2f5c505b4378cd6fc7c4a44ff3665ccef2037db net: phy: realtek: Fix setting of PHY LEDs Mode B bit on RTL8211F
+af688a99eb1fc7ef69774665d61e6be51cea627a octeontx2-af: Fix CPT AF register offset calculation
+1ac66c4960e1c735eb6edfd3e6d52bebb2aa347e MAINTAINERS: Add sonet.h to ATM section of MAINTAINERS
+eb208fecd77d898709c25af680487289fd5f3e16 MAINTAINERS: Add net_tstamp.h to SOCKET TIMESTAMPING section
+8cb0a938d90b25f123fcb2e24bbda9eaabd79c9e MAINTAINERS: Add limited globs for Networking headers
+f2d20c9b97f0df64841b89fa1ad3e9c92f7377ae MAINTAINERS: Add header files to NETWORKING sections
+46097a92662496394628cb41138e681d6074cce7 MAINTAINERS: Mark JME Network Driver as Odd Fixes
+a812a3f45cae787abe29567749a0acc879d2df37 Merge branch 'maintainers-networking-updates'
 8fb4ac1cee88a57e7a56faba49b408a41a4af4db kbuild: fix typos "prequisites" to "prerequisites"
 4ae738dfef2c0323752ab81786e2d298c9939321 net: xilinx: axienet: Always disable promiscuous mode
 797a68c9de0f5a5447baf4bd3bb9c10a3993435b net: xilinx: axienet: Fix dangling multicast addresses
@@ -308,8 +392,49 @@ b311c1b497e51a628aa89e7cb954481e5f9dced2 Merge tag '6.11-rc4-server-fixes' of gi
 0124fb0ebf3b0ef89892d42147c9387be3105318 s390/iucv: Fix vargs handling in iucv_alloc_device()
 3f44ae972ae5cf6a75eb40314a6a81bd694d0f53 Merge tag 'kbuild-fixes-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 aa0743a229366e8c1963f1b72a1c974a9d15f08f Merge tag 'net-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-979b581e4c69257acab1af415ddad6b2d78a2fa5 pktgen: use cpus_read_lock() in pg_net_init()
-82b8000c28b56b014ce52a1f1581bef4af148681 net: drop special comment style
-8af174ea863c72f25ce31cee3baad8a301c0cf0f net: mana: Fix race of mana_hwc_post_rx_wqe and new hwc response
+5874e0c9f25661c2faefe4809907166defae3d7f net: atlantic: Avoid warning about potential string truncation
+1820b84f3c61fbe5d9cf82a09cb9733a23cd463c selftests: net: Create veth pair for testing in networkless kernel
+6ce7bdbc0d4bde7578727e95e7d138e364512b33 selftests: net: Add on/off checks for non-fixed features of interface
+8402a158028ffe030f3a02ec57b8c94cb94b137c selftests: net: Use XFAIL for operations not supported by the driver
+1cf60c6121587d3d068853179a5bab4db4a21a18 Merge branch 'enhance-network-interface-feature-testing'
+ef434fae72287a9cd0f7b85ad1701b998cce800b bpf: Unmask upper DSCP bits in bpf_fib_lookup() helper
+bc52a4eecefdd686065f8f68ba9e1c83d4ce6f14 ipv4: Unmask upper DSCP bits in NETLINK_FIB_LOOKUP family
+be2e9089cb34dfc958d8383a755bde3681a817b2 ipv4: Unmask upper DSCP bits when constructing the Record Route option
+c1ae5ca69b691a7403e85047382fc4fd6a69ee9f netfilter: rpfilter: Unmask upper DSCP bits
+338385e059c5d299556fa341d10601ae72c6e932 netfilter: nft_fib: Unmask upper DSCP bits
+2bc9778b6696337f1e0b38f07522319296b39d83 ipv4: ipmr: Unmask upper DSCP bits in ipmr_rt_fib_lookup()
+39d3628f7ceabd22385dcd6811ed4c353f7c859b ipv4: Unmask upper DSCP bits in fib_compute_spec_dst()
+df9131c7fafdc0d4c85686f5c7711a4dd4f3ae60 ipv4: Unmask upper DSCP bits in input route lookup
+b1251a6f1a9b475725a097e75196ee105076cbd1 ipv4: Unmask upper DSCP bits in RTM_GETROUTE input route lookup
+1c6f50b37f711b831d78973dad0df1da99ad0014 ipv4: icmp: Pass full DS field to ip_route_input()
+b6791ac5ea49aec7f9ef123ebc728fa6a5f9090a ipv4: udp: Unmask upper DSCP bits during early demux
+be8b8ded77996cfcd1bb2f1d97b91106d5882877 ipv4: Unmask upper DSCP bits when using hints
+bfc52deef5ed58d92cfbe68dbceee3102617a8df Merge branch 'unmask-upper-dscp-bits-part-1'
+761d527d5d0036b98a2cecf4de1293d84d452aa1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+3849687869092094003ba009dc00e2e0237a3b8a net: phy: Introduce ethernet link topology representation
+4d76f115ab9121f4458330da962ae9ef5430e60b net: sfp: pass the phy_device when disconnecting an sfp module's PHY
+b2db6f4ace72e71fa09b8d1354f8ac9854140d74 net: phy: add helpers to handle sfp phy connect/disconnect
+0a2f7de0f3b96c4a30e56d2c79f8d812f89599a1 net: sfp: Add helper to return the SFP bus name
+c15e065b46dc4e19837275b826c1960d55564abd net: ethtool: Allow passing a phy index for some commands
+9af0e89d6c2433afd3e5e7cc52c7592ef23526c0 netlink: specs: add phy-index as a header parameter
+17194be4c8e1e82d8b484e58cdcb495c0714d1fd net: ethtool: Introduce a command to list PHYs on an interface
+d3d9a3e48a63eec82082a7ef76f5d5b6d339933f netlink: specs: add ethnl PHY_GET command set
+02180fb525bac8c259c3b7271ddfa498d47c5dcc net: ethtool: plca: Target the command to the requested PHY
+31748765bed3fb7cebf4a32b43a6fdf91b9c23de net: ethtool: pse-pd: Target the command to the requested PHY
+3688ff3077d3f334cee1d4b61d8bfb6a9508c2d2 net: ethtool: cable-test: Target the command to the requested PHY
+e96c93aa4be971276f9340fa74e84ae62701f2f0 net: ethtool: strset: Allow querying phy stats by index
+db31e09d517bac2ac7314d8c5749ee2cb2b50ef2 Documentation: networking: document phy_link_topology
+b34a6e73faf68e4987f7a2037af4be1e89b91b17 Merge branch 'phy-listing-and-topology-tracking'
+6ef1ca2d14f2a78a83dfd40e34f53e8d5c1c0b4b net: vxlan: delete redundant judgment statements
+41aa426392be26865a8a774df3e5ec4c56a98b26 fib: rules: delete redundant judgment statements
+c25bdd2ac8cf7da70a226f1a66cdce7af15ff86f neighbour: delete redundant judgment statements
+2d522384fb5b8187cb7f8fe7d05c119ac38fd8f3 rtnetlink: delete redundant judgment statements
+4c180887775f3e3fb46b9e447cf3ea539286919d ipv4: delete redundant judgment statements
+ebe39f95bc8138eedaba9adaa5a4d7bfe98a9806 ipmr: delete redundant judgment statements
+649c3c9b8e448f41f6249abcfe9a670a80fac7f7 net: nexthop: delete redundant judgment statements
+aa32799c017b881a79cb1b9263419626fc9a5f66 ip6mr: delete redundant judgment statements
+cd9ebde125bf77e22ba0c47e3ac657b993089a55 net/ipv6: delete redundant judgment statements
+fb8e83cf443a98297cd15b58b5529f8d259b22f5 net: mpls: delete redundant judgment statements
+f9db28bb09f46087580f2a8da54bb0aab59a8024 Merge branch 'net-redundant-judgments'
 
---===============2422996693553500991==--
+--===============2642716217503805987==--
