@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 23 Aug 2024 07:49:39 -0000
-Message-Id: <172439937924.21790.791938080734771389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Fri, 23 Aug 2024 08:48:48 -0000
+Message-Id: <172440292823.32566.18197888269436525864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/tags/pull-for-drm
-    old: 0000000000000000000000000000000000000000
-    new: 56f47e4dbf6c2abeb5c0e3a27daafbbce17d966b
+  - ref: refs/heads/execmem/x86-rox/rfc-v2
+    old: 1ed68c458a903b01b26064ff71cc5ac567515aaa
+    new: 0000000000000000000000000000000000000000
