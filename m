@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 Aug 2024 18:50:28 -0000
-Message-Id: <172443902859.13727.7618388321436289410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 23 Aug 2024 18:52:08 -0000
+Message-Id: <172443912834.14396.6821137189861770591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/irq/core
-    old: ae16f05c928a1336d5d9d19fd805d7bf29c3f0c8
-    new: 17e28a9aeae40d2de3c1ea3b94819ed94bfd6392
-    log: |
-         17e28a9aeae40d2de3c1ea3b94819ed94bfd6392 genirq: Fix typo in struct comment
-         
+  - ref: refs/heads/ci-test
+    old: 7a1de13a54ca827e6ba344cc2643e6383fa71726
+    new: 0000000000000000000000000000000000000000
