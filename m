@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 23 Aug 2024 16:28:20 -0000
-Message-Id: <172443050074.2045.9492748590301424398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 23 Aug 2024 16:30:28 -0000
+Message-Id: <172443062842.5259.8707701844737327010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: f58bab6fd4063913bd8321e99874b8239e9ba726
-    new: a204501e1743d695ca2930ed25a2be9f8ced96d3
+  - ref: refs/heads/pbuf-ring-inc
+    old: 829311ba5af2edfb5c573f9f99f3478e9e3bda39
+    new: 458b615a2727c0a92e4f3e3b6ed6d3ed1382a1d3
     log: |
-         a204501e1743d695ca2930ed25a2be9f8ced96d3 nfsd: prevent panic for nfsv4.0 closed files in nfs4_show_open
+         458b615a2727c0a92e4f3e3b6ed6d3ed1382a1d3 examples/proxy: submit new send for sink OR no pending send
          
