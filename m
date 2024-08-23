@@ -1,25 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 23 Aug 2024 00:06:03 -0000
-Message-Id: <172437156362.1654.250989985359769563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-documentation
+Date: Fri, 23 Aug 2024 00:06:35 -0000
+Message-Id: <172437159511.2069.2883644500536832532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/fs/xfs/xfs-documentation
+user: djwong
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 05269aaef889c09ccbb862ba3fac3c6cfe19c43e
-    new: 7c26646068f54448e9bfa6a829fb8a774a47494d
+  - ref: refs/heads/for-next
+    old: 858b0667d5643eb9250a6037a3ab20024f700321
+    new: 661d339d50b8e504456d6435ae25246057d21a21
     log: |
-         020925ce92990c3bf59ab2cde386ac6d9ec734ff kallsyms: Do not cleanup .llvm.<hash> suffix before sorting symbols
-         fb6a421fb6153d97cf3058f9bd550b377b76a490 kallsyms: Match symbols exactly with CONFIG_LTO_CLANG
-         5ac86f0ed04bce41242167ffa12ad92038788a95 virt: vbox: struct vmmdev_hgcm_pagelist: Replace 1-element array with flexible array
-         c93452777f537b2f6c3c601dc484821142b07dc7 media: venus: hfi_cmds: struct hfi_session_release_buffer_pkt: Replace 1-element array with flexible array
-         32ef4b710cbe1a8901534033872a5bc6b1618bbc media: venus: hfi_cmds: struct hfi_session_release_buffer_pkt: Add __counted_by annotation
-         559048d156ff3391c4b793779a824c9193e20442 string: Check for "nonstring" attribute on strscpy() arguments
-         7c26646068f54448e9bfa6a829fb8a774a47494d Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
+         a1fea3a894c563bb0acc310053571d83f6d39d8e design: document atomic file mapping exchange log intent structures
+         ff9995e7dfd03328e45269de72b78036abab1b6f design: document new logged parent pointer attribute variants
+         2e8458c5836444d12d4ee5f12585da3ffa64b837 design: document the parent pointer ondisk format
+         4d6cdd07d6d7fbb7571916c2fc59fd4f242e3342 design: document the metadump v2 format
+         3ecf3b36dd08cef08d7cb247a0ca911d4d457e56 design: fix the changelog to reflect the new changes
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
          
+  - ref: refs/heads/master
+    old: 858b0667d5643eb9250a6037a3ab20024f700321
+    new: 661d339d50b8e504456d6435ae25246057d21a21
+    log: |
+         a1fea3a894c563bb0acc310053571d83f6d39d8e design: document atomic file mapping exchange log intent structures
+         ff9995e7dfd03328e45269de72b78036abab1b6f design: document new logged parent pointer attribute variants
+         2e8458c5836444d12d4ee5f12585da3ffa64b837 design: document the parent pointer ondisk format
+         4d6cdd07d6d7fbb7571916c2fc59fd4f242e3342 design: document the metadump v2 format
+         3ecf3b36dd08cef08d7cb247a0ca911d4d457e56 design: fix the changelog to reflect the new changes
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         
+  - ref: refs/tags/2024-08-22
+    old: 0000000000000000000000000000000000000000
+    new: 996a040e2d2b5435ba226b2f2e3685896e8cedb3
