@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4367851885912855958=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 23 Aug 2024 19:39:48 -0000
-Message-Id: <172444198888.17710.3365547590267361758@gitolite.kernel.org>
-
---===============4367851885912855958==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 23 Aug 2024 19:49:28 -0000
+Message-Id: <172444256806.25359.11505584833129669753@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/master
-    old: 5bd1d15c7d993562f991e0443f04381431627356
-    new: 99b128995f27cd9aa6fa8adf7588f339919ac14d
+  - ref: refs/heads/netfs-fixes
+    old: 94f281c37c326c35b62fd91eac062693d64d7b26
+    new: fb6a9a8221862dd4b6010d310ee2d58bfa78df31
     log: |
-         99b128995f27cd9aa6fa8adf7588f339919ac14d trailer_map: don't walk down from the cover letter
+         932fe78e9a13acb240f8d30b1f85c9a8a851d966 mm: Fix missing folio invalidation calls during truncation
+         1cd67784d4af4e297645e7c6a88253055df7a115 afs: Fix post-setattr file edit to do truncation correctly
+         2e13ec14b74cf68cb3576f950ed935ce0d5bad9d netfs: Fix netfs_release_folio() to say no if folio dirty
+         2f7fb221196a9100821d522ca7b478fe487bfe7b netfs: Fix trimming of streaming-write folios in netfs_inval_folio()
+         d701c071ac1391861e9b448af6a19b522c90c703 netfs: Fix missing iterator reset on retry of short read
+         2ff9d5a4ffbee321f508acc17077bfb47cef2021 cifs: Fix lack of credit renegotiation on read retry
+         e37543136d1fe8bfc9881efad1befc82cd3418c1 netfs, cifs: Fix handling of short DIO read
+         2e236001c1366cda18eaa5b4ffdf19a9a611de88 cifs: Fix FALLOC_FL_PUNCH_HOLE support
+         fb6a9a8221862dd4b6010d310ee2d58bfa78df31 netfs, cifs: Improve some debugging bits
          
-
---===============4367851885912855958==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1724441988 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1724441987-70cd85d74b5e41f5f7c5706004b9bb816d050922
-
-5bd1d15c7d993562f991e0443f04381431627356 99b128995f27cd9aa6fa8adf7588f339919ac14d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZsjlhAAKCRC2xBzjVmSZ
-bDKWAP9gtEeIErqbMiGiL3xtMnVeSHmLtD3HgeUw58q6zcyOeAD7BTbHqz3zJzZY
-Z919w18HR/TmNChsn+zSFh7SxP1zBw0=
-=UN3D
------END PGP SIGNATURE-----
-
---===============4367851885912855958==--
