@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 23 Aug 2024 03:11:47 -0000
-Message-Id: <172438270730.14860.16259939742710650893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Fri, 23 Aug 2024 03:30:06 -0000
+Message-Id: <172438380683.27859.15694860582420978609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/master
-    old: aa0743a229366e8c1963f1b72a1c974a9d15f08f
-    new: b78b25f69a1dfa79798f684ad34707b1da10a48f
+  - ref: refs/heads/amd-pstate-fixes
+    old: 740ca5e5af9cd6a9418834cfd66fd2cd969cdba7
+    new: 8e3d11e4ace716d9f3bf179fae32c67373f53491
     log: |
-         822c8020aebcf5804a143b891e34f29873fee5e2 ata: pata_macio: Fix DMA table overflow
-         d4bc0a264fb482b019c84fbc7202dd3cab059087 ata: pata_macio: Use WARN instead of BUG
-         b78b25f69a1dfa79798f684ad34707b1da10a48f Merge tag 'ata-6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+         34da418092349f7e7dfac1f792ca615c91e1fb84 cpufreq/amd-pstate: Add the missing cpufreq_cpu_put()
+         8e3d11e4ace716d9f3bf179fae32c67373f53491 cpufreq/amd-pstate-ut: Don't check for highest perf matching on prefcore
          
