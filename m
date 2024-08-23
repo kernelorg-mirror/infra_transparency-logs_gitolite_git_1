@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4581474991055418253=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Fri, 23 Aug 2024 20:54:24 -0000
-Message-Id: <172444646460.9919.13199622865933355667@gitolite.kernel.org>
-
---===============4581474991055418253==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Aug 2024 20:59:46 -0000
+Message-Id: <172444678654.13626.13046829034478527721@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/korg
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 149fc55d0df31bbb30f46ca4fc953defb9b4950d
-    new: ed4582537c754624e28b7caf7123f336673384ac
+  - ref: refs/heads/x86/misc
+    old: ea66e7107bdc4efb530878f2216390b8bc5bae0d
+    new: d19d638b1e6cf746263ef60b7d0dee0204d8216a
     log: |
-         ed4582537c754624e28b7caf7123f336673384ac Tweak wording for TOTP 2fa
+         d19d638b1e6cf746263ef60b7d0dee0204d8216a x86/syscall: Avoid memcpy() for ia32 syscall_get_arguments()
          
-
---===============4581474991055418253==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1724446463 -0400
-pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
-nonce 1724446463-9d0f2e44ecaf68a818984d14c891d6f301e1d63f
-
-149fc55d0df31bbb30f46ca4fc953defb9b4950d ed4582537c754624e28b7caf7123f336673384ac refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZsj2/wAKCRC2xBzjVmSZ
-bLKoAP9XgZZ/DE36Eue2JX3KTmXLA+0mqy7/nZKqGSqtvOBjfQEA+CTLGpHfJzwq
-63A3pJaG6HFuJ1KxJNKFI5Mamk6QdgI=
-=fouf
------END PGP SIGNATURE-----
-
---===============4581474991055418253==--
