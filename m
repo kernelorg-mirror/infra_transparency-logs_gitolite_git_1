@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 23 Aug 2024 14:30:21 -0000
-Message-Id: <172442342191.7320.3384979228393352471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 Aug 2024 14:31:16 -0000
+Message-Id: <172442347614.7812.18209425508135877614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 7559a7a84ef83a2dd86caf623430b8d834843cec
-    new: b4406e100347884fb4acaa744bbc01949e74c9f3
+  - ref: refs/heads/tmp.perf_trace_btf
+    old: 2c1ea68ac3d18109d96bd16e2860e076d2e0d61e
+    new: ba1547e9da72117f179b7e9e0a770078dfb0c228
     log: |
-         ec1f77f6557b46639fa47c6980ef9d38995c1e05 selftests/bpf: test_loader.c:get_current_arch() should not return 0
-         c52a1e6eb74ffe4f217e9b53ed75440a45b08c4c selftests/bpf: match both retq/rethunk in verifier_tailcall_jit
-         21a56fc503faae7589167fcd2771ab6dce36ab39 selftests/bpf: #define LOCAL_LABEL_LEN for jit_disasm_helpers.c
-         b4406e100347884fb4acaa744bbc01949e74c9f3 Merge branch 'follow-up-for-__jited-test-tag'
+         00dc514612fe98cfa117193b9df28f15e7c9db9c perf python: Disable -Wno-cast-function-type-mismatch if present on clang
+         23da4ec3640538fabb09029870cf427b6afeeb06 perf evlist: Introduce method to find if there is a bpf-output event
+         667c48575ff374fcd0f0fd18af2ddd5eed38c0c7 perf trace: Fix perf trace -p <PID>
+         8c2ee595b95f893fb535923c5587f87b38ef9edb perf trace: Add trace__bpf_sys_enter_beauty_map() to prepare for fetching data in BPF
+         75ab27498b9c7a230a459b92842d0055ec082c0a perf trace: Pass the richer 'struct syscall_arg' pointer to trace__btf_scnprintf()
+         6b6801a2e19f8530cb4202a547de375a5fd110a9 perf trace: Pretty print struct data
+         155f2a3ca0b9cd136672022811e469ad2e37913a perf trace: Pretty print buffer data
+         ba1547e9da72117f179b7e9e0a770078dfb0c228 perf trace: Collect augmented data using BPF
          
