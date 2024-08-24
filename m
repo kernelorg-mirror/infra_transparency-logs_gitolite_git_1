@@ -1,52 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4959776185429745509=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sat, 24 Aug 2024 22:50:28 -0000
-Message-Id: <172453982800.8908.5635380913460644832@gitolite.kernel.org>
-
---===============4959776185429745509==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 24 Aug 2024 23:25:03 -0000
+Message-Id: <172454190303.815.16975799668582623802@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/next-media-misc-20240825
-    old: 0000000000000000000000000000000000000000
-    new: e4f837735734e3bccfc9cd422189afbc748bfd98
-  - ref: refs/tags/next-media-imx-20240825
-    old: 0000000000000000000000000000000000000000
-    new: 8ffe48e44973c701b67841461d28e9e8ed8e9055
-  - ref: refs/tags/next-media-renesas-20240825
-    old: 0000000000000000000000000000000000000000
-    new: 4ebe66595baf24c4f1a02761ad55d7aca3f9631a
-
---===============4959776185429745509==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1724539818 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1724539819-b9df264c3273f2dc7d7b2eeefaaa541449dc7bde
-
-0000000000000000000000000000000000000000 e4f837735734e3bccfc9cd422189afbc748bfd98 refs/tags/next-media-misc-20240825
-0000000000000000000000000000000000000000 8ffe48e44973c701b67841461d28e9e8ed8e9055 refs/tags/next-media-imx-20240825
-0000000000000000000000000000000000000000 4ebe66595baf24c4f1a02761ad55d7aca3f9631a refs/tags/next-media-renesas-20240825
------BEGIN PGP SIGNATURE-----
-
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZspjqiIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95k7R8A/3nwFs0a6Be2
-MJ/gvwS0VmCCEtPTvtODFNGzYYu/Eq8yAQDgn1a7x84s9rf4YryNdUrL5/r8wWtn
-uJl+9z6FsKA3DA==
-=qKWh
------END PGP SIGNATURE-----
-
---===============4959776185429745509==--
+  - ref: refs/heads/nfsd-5.10.y
+    old: 03f8b800c8c85f92d21da9604c7015a144e102c9
+    new: 0a534cd287357aafcc688d5db6fb889b75db0c63
+    log: |
+         a6be78bccf81bd5f734b73c05f783e26be6f7056 nfsd: make all of the nfsd stats per-network namespace
+         423d77c5634f8b3659e688e8f498a8d249291a01 nfsd: remove nfsd_stats, make th_cnt a global counter
+         0a534cd287357aafcc688d5db6fb889b75db0c63 nfsd: make svc_stat per-network namespace instead of global
+         
