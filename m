@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5129353934471200461=="
+Content-Type: multipart/mixed; boundary="===============6579336302026056514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 24 Aug 2024 11:17:50 -0000
-Message-Id: <172449827091.22388.2499420880156803892@gitolite.kernel.org>
+Date: Sat, 24 Aug 2024 11:17:56 -0000
+Message-Id: <172449827639.22520.5935563681807289300@gitolite.kernel.org>
 
---===============5129353934471200461==
+--===============6579336302026056514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 494b0792d962e8efac72b3a5b6d9bcd4e6fa8cf0
     new: d0393b80acd60c1b9a898d19b6f888a97e28b28d
     log: revlist-494b0792d962-d0393b80acd6.txt
 
---===============5129353934471200461==
+--===============6579336302026056514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -967,4 +967,4 @@ d2bafcf224f3911b183113b2fcb536c9e90684a3 Merge tag 'cgroup-for-6.11-rc4-fixes' o
 fe0ad3354adbe78f7d343b0178e3de6a4de04a69 LoongArch: Add ifdefs to fix LSX and LASX related warnings
 d0393b80acd60c1b9a898d19b6f888a97e28b28d LoongArch: KVM: Invalidate guest steal time address on vCPU reset
 
---===============5129353934471200461==--
+--===============6579336302026056514==--
