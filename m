@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3675331876916985939=="
+Content-Type: multipart/mixed; boundary="===============1842783831348608357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 24 Aug 2024 10:12:45 -0000
-Message-Id: <172449436589.7805.10165828156785544288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 24 Aug 2024 10:12:52 -0000
+Message-Id: <172449437286.7915.15399935113757740627@gitolite.kernel.org>
 
---===============3675331876916985939==
+--===============1842783831348608357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: 839a4ec06f75cec8fec2cc5fc14e921d0c3f7369
     new: 6781b962d97bc52715a8db8cc17278cc3c23ebe8
     log: |
          b4a90b543d9f62d3ac34ec1ab97fc5334b048565 ASoC: dapm: Fix UAF for snd_soc_pcm_runtime object
          6781b962d97bc52715a8db8cc17278cc3c23ebe8 ASoC: tegra: Fix CBB error during probe()
          
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: b42c0ec286c5bd7ec14110a11e27d2f99a154cd3
     new: 7db44914889f7e1149c1d038f5bcf57c6c90e0d3
     log: |
@@ -36,29 +36,29 @@ changes:
          7db44914889f7e1149c1d038f5bcf57c6c90e0d3 Add SOF support for ACP7.0 based platform
          
 
---===============3675331876916985939==
+--===============1842783831348608357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1724494363 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1724494363-cab560259bffe3274a40d6bb03a914eb606d0596
+pusher Mark Brown <broonie@kernel.org> 1724494370 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1724494370-7f78143729bc6319d97ed325b88716c4e63fa7f2
 
-839a4ec06f75cec8fec2cc5fc14e921d0c3f7369 6781b962d97bc52715a8db8cc17278cc3c23ebe8 refs/heads/for-6.11
-b42c0ec286c5bd7ec14110a11e27d2f99a154cd3 7db44914889f7e1149c1d038f5bcf57c6c90e0d3 refs/heads/for-6.12
+839a4ec06f75cec8fec2cc5fc14e921d0c3f7369 6781b962d97bc52715a8db8cc17278cc3c23ebe8 refs/heads/asoc-6.11
+b42c0ec286c5bd7ec14110a11e27d2f99a154cd3 7db44914889f7e1149c1d038f5bcf57c6c90e0d3 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbJshsTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PkvB/44GIJwq5CPv2luC6UPBEpbhPdgD+8U
-bpvW0GlIm3VzE3J9mU2Bp/4/bizF/L4d5kDdqhRHsBTepOdEaOc8zj68RArYXpeY
-iImOFIpDqN4m4Kvr/bR1WEWN+hCk11CBQ+liqK6oMuDB1wtjSzCq5y2pitGimyum
-PB688D/MbkDhZx2CJvZgPJI3xujEdOo/2BhrcbNIMAsT2AXLFkVVARJ7yuifL635
-OBwuxDP0p0CNyLVlNx887ArqiLvEH1NFPn1i7ZIc86YJS1nkyGsPV3X5kR3NVhX9
-wR1uppOILqw5ohSrQ39xGJiSS9lzUyH6taI5RXzyZv1rLkyv17TwzZG/
-=vMbJ
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbJsiITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0KcSB/99cMxPU/Yic9m6CHa9H2ThNZKrLdye
+Vl0nwnmIUE4ENG8SLw9/zrtphiTAZUvJK6S3Dz7kHHvyoseX/r73rqxp5FhC74eK
+I0ypwbnFGsofV3OWdW6YuM7lBVAjsGPNUkfre7bpdNFHRJ/0sCA/0S4dzdyyYPVN
+zE8tiRfCc+S4n2yESl3Oks8CtzeCKQjddpkUSNyNUSW3E8b4rGHjz1W6/2C1gska
+ytyn85YKM1rOebYXZ97izLegKXLiXhQntPBMilMs50NmF0JaKJqAT21VljBZJc3i
+d0bUPzddy1L/uv8BnKZNTLEeP0y3551zlUlwCOtSf5G1XYeObK6wGGVI
+=rcmR
 -----END PGP SIGNATURE-----
 
---===============3675331876916985939==--
+--===============1842783831348608357==--
