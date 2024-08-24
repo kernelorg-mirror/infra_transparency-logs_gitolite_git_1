@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8470124828511127046=="
+Content-Type: multipart/mixed; boundary="===============1110584561186650037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 24 Aug 2024 00:18:59 -0000
-Message-Id: <172445873910.32766.11211605870255832339@gitolite.kernel.org>
+Date: Sat, 24 Aug 2024 00:19:23 -0000
+Message-Id: <172445876307.534.12011510779689899948@gitolite.kernel.org>
 
---===============8470124828511127046==
+--===============1110584561186650037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next.v13
+  - ref: refs/heads/nfs-localio-for-next-6.11-rc4
     old: e0df8d4c3c2659f542129fcf2fb4352d71aa1997
     new: 2fb65358eaf2243702340958874577e3e3ea0711
     log: revlist-e0df8d4c3c26-2fb65358eaf2.txt
 
---===============8470124828511127046==
+--===============1110584561186650037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ feb89b6f77932733e35bb6f13b47e60b42988075 nfs: implement client support for NFS_L
 a1cdafc0dc0a3e83c447620b239ff74bdd272a01 nfs: add Documentation/filesystems/nfs/localio.rst
 2fb65358eaf2243702340958874577e3e3ea0711 nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
 
---===============8470124828511127046==--
+--===============1110584561186650037==--
