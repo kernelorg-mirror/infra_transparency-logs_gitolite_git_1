@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1474412833962497090=="
+Content-Type: multipart/mixed; boundary="===============6666909156855122200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 24 Aug 2024 16:46:40 -0000
-Message-Id: <172451800073.3741.13640725183064251893@gitolite.kernel.org>
+Date: Sat, 24 Aug 2024 16:47:37 -0000
+Message-Id: <172451805785.4128.5172251293335819380@gitolite.kernel.org>
 
---===============1474412833962497090==
+--===============6666909156855122200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 47ac09b91befbb6a235ab620c32af719f8208399
-    new: d2bafcf224f3911b183113b2fcb536c9e90684a3
-    log: revlist-47ac09b91bef-d2bafcf224f3.txt
+    new: ba8decd2660a04f898a230bfc2a2b84c660a2a4a
+    log: revlist-47ac09b91bef-ba8decd2660a.txt
 
---===============1474412833962497090==
+--===============6666909156855122200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ac09b91bef-d2bafcf224f3.txt
+Content-Disposition: attachment; filename=revlist-47ac09b91bef-ba8decd2660a.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -281,5 +281,8 @@ a8a8dcbd679e223cfdfec304d55287e07e4d0054 Merge tag 'arm64-fixes' of git://git.ke
 5bd6cf00740765c47b5684e2d75ac90d3371659a Merge tag 'mips-fixes_6.11_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cb2c84b38082f8bd052bf909c7da344b83578ace Merge tag 'wq-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 d2bafcf224f3911b183113b2fcb536c9e90684a3 Merge tag 'cgroup-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+b224b3fd4bf203b2aff9878e95c4b8c7f1fee3c2 microblaze: don't treat zero reserved memory regions as error
+17f1a989952d692cb53f9a0c2938535fff763ef0 Revert "MIPS: csrc-r4k: Apply verification clocksource flags"
+ba8decd2660a04f898a230bfc2a2b84c660a2a4a apparmor: fix policy_unpack_test on big endian systems
 
---===============1474412833962497090==--
+--===============6666909156855122200==--
