@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 24 Aug 2024 14:28:15 -0000
-Message-Id: <172450969524.30870.3773812852822723013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Sat, 24 Aug 2024 15:11:56 -0000
+Message-Id: <172451231623.31124.10661338042112422900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/main
-    old: f9db28bb09f46087580f2a8da54bb0aab59a8024
-    new: 7d3aed652d090508990d245f9d80dcc481910d02
+  - ref: refs/heads/clk-microchip
+    old: 33013b43e2715c7e061ae052825edd87fd278330
+    new: 2d6e9ee7cb3e79b1713783c633b13af9aeffc90c
     log: |
-         7d3aed652d090508990d245f9d80dcc481910d02 net: refactor ->ndo_bpf calls into dev_xdp_propagate
+         2d6e9ee7cb3e79b1713783c633b13af9aeffc90c clk: at91: sama7g5: Allocate only the needed amount of memory for PLLs
          
