@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Sat, 24 Aug 2024 07:58:49 -0000
-Message-Id: <172448632902.25234.3723392754127348302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 24 Aug 2024 09:27:09 -0000
+Message-Id: <172449162959.24635.8695630083520548493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/testing
-    old: 54f2f78d6b9f1f90e91aaf5dbb34a6198f65fdfd
-    new: a54ad727f74559f7c3dfcfd2a63d0ce7683a82e8
+  - ref: refs/heads/vfs.misc
+    old: c4333cf838cb49c3b2858962907ff023e96e8a1e
+    new: 88dad26dcadd9e8a47ff0cd85e9aef5a5b1667f7
     log: |
-         9c5b6d4e33dd78a0511ec34756d783b7e36028c2 selftests: add xfrm policy insertion speed test script
-         33f611cf7d52ffdaebdcd6e42672ca1d06e22974 xfrm: policy: don't iterate inexact policies twice at insert time
-         563d5ca93e883b9dcb4b7dc8967ac569fd91820d xfrm: switch migrate to xfrm_policy_lookup_bytype
-         a54ad727f74559f7c3dfcfd2a63d0ce7683a82e8 xfrm: policy: remove remaining use of inexact list
+         1c2aef5813c28ee088df391df995670a50e1b7ce fs: switch f_iocb_flags and f_ra
+         88dad26dcadd9e8a47ff0cd85e9aef5a5b1667f7 fs: pack struct file
          
