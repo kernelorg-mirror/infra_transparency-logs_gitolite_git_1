@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3851882586808930139=="
+Content-Type: multipart/mixed; boundary="===============5252388428613901473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 24 Aug 2024 17:01:15 -0000
-Message-Id: <172451887552.14135.4176746824831683494@gitolite.kernel.org>
+Date: Sat, 24 Aug 2024 17:03:56 -0000
+Message-Id: <172451903617.15149.16605949628333219361@gitolite.kernel.org>
 
---===============3851882586808930139==
+--===============5252388428613901473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: aa0743a229366e8c1963f1b72a1c974a9d15f08f
-    new: d2bafcf224f3911b183113b2fcb536c9e90684a3
-    log: revlist-aa0743a22936-d2bafcf224f3.txt
+  - ref: refs/heads/kbuild
+    old: 08dc79b6fe5c0b566ea0e4861e47f925e34f52a1
+    new: 184a282d540c3da03f6a229f4792a5f72d3dfc2a
+    log: revlist-08dc79b6fe5c-184a282d540c.txt
 
---===============3851882586808930139==
+--===============5252388428613901473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa0743a22936-d2bafcf224f3.txt
+Content-Disposition: attachment; filename=revlist-08dc79b6fe5c-184a282d540c.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -146,5 +146,25 @@ a8a8dcbd679e223cfdfec304d55287e07e4d0054 Merge tag 'arm64-fixes' of git://git.ke
 5bd6cf00740765c47b5684e2d75ac90d3371659a Merge tag 'mips-fixes_6.11_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cb2c84b38082f8bd052bf909c7da344b83578ace Merge tag 'wq-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 d2bafcf224f3911b183113b2fcb536c9e90684a3 Merge tag 'cgroup-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+dd315da6400e07810cb68365ae2212948ead2bb1 modpost: remove unused HOST_ELFCLASS
+0023fe83a4924a1bae3d8d8c6caab070b9164b3e modpost: detect endianness on run-time
+e44369fef20c991821866ab7c9a2f22b82e411c5 kbuild: slim down package for building external modules
+4f01169b976201ed67e9a74eaf4a31f58106e7d4 kbuild: cross-compile linux-headers package when possible
+b1193104a93d0bf6166d6f2b351e87245f0bd6e6 Remove *.orig pattern from .gitignore
+aa37fb927893f2f1ab3f1755496de7a83b941078 kbuild: modinst: remove the multithread option from zstd compression
+9266fa2c66e6f185b6cc2c015d85710532453898 tinyconfig: remove unnecessary 'is not set' for choice blocks
+a2ea41378c1b17d250ca485cb57eb1460713caac kconfig: remove dummy assignments to cur_{filename,lineno}
+54f031f38a21467f22b0895e05641e1bb5d9e457 kconfig: stop adding P_SYMBOL property to symbols
+5af7d9563e580fa27ad795613d6469a527e9946e kconfig: remove P_SYMBOL property
+abc1ac480eb7583b710d03b1a8fe9d58f76804c6 kbuild: split x*alloc() functions in kconfig to scripts/include/xalloc.h
+0c0d7711dc561c911d57085f37143d0a4c858adc modpost: replace the use of NOFAIL() with xmalloc() etc.
+27abf7ad8ca74153f809fd82c73758f4de41f90b kallsyms: use xmalloc() and xrealloc()
+1800af85ac08e98a8cabe4bcc92676d52427acc7 fixdep: use xmalloc()
+b4cc918b09d85a4d87144a2b7234efb75b6d8d71 modpost: improve the section mismatch warning format
+6bdee1e1d91b6d7e0c858136dce59dda4b41f010 kbuild: control extra pacman packages with PACMAN_EXTRAPACKAGES
+df766c3606aa114a9170c5c9836e116d07413055 kbuild: pacman-pkg: move common commands to a separate function
+7ec18a656b8956849e853da335295c65083b4be6 kbuild: pacman-pkg: do not override objtree
+ec7653ec81b0abc5a599c4a227c8a9bef93f34cf modpost: simplify modpost_log()
+184a282d540c3da03f6a229f4792a5f72d3dfc2a kbuild: remove *.symversions left-over
 
---===============3851882586808930139==--
+--===============5252388428613901473==--
