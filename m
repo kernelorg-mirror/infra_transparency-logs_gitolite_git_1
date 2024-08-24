@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7278987493041887629=="
+Content-Type: multipart/mixed; boundary="===============6949019789122760410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 24 Aug 2024 16:48:38 -0000
-Message-Id: <172451811845.4553.3670893937231717545@gitolite.kernel.org>
+Date: Sat, 24 Aug 2024 16:48:52 -0000
+Message-Id: <172451813261.4755.12232821754161484949@gitolite.kernel.org>
 
---===============7278987493041887629==
+--===============6949019789122760410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: fbf562a03282767f24ecc5e1b6a1bb8e1d2256db
-    new: bd80f02bbe68758b0f31ae4808e80db069172b76
-    log: revlist-fbf562a03282-bd80f02bbe68.txt
+  - ref: refs/heads/testing
+    old: 7f32bde51dcd0c75f1085f0282010ea77f04a717
+    new: e4ea81e0fc33662dfb01e2eb0eeaba1f484a9232
+    log: revlist-7f32bde51dcd-e4ea81e0fc33.txt
 
---===============7278987493041887629==
+--===============6949019789122760410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbf562a03282-bd80f02bbe68.txt
+Content-Disposition: attachment; filename=revlist-7f32bde51dcd-e4ea81e0fc33.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -660,6 +660,26 @@ d1941d3092edf3f228ced155d5cd1262bcac3b64 Merge branch 'hwmon-g762' into hwmon-st
 02ac4f8943789b6580c82b0fdc3c1e24dda8a86c Merge branch 'hwmon-emc2103' into hwmon-staging
 373d74db37f16d333d09e73cae436276a223bac8 Merge branch 'hwmon-ina2xx' into hwmon-staging
 fab58fcd9dbd8df9727be6304d7b580f8c585fad Merge branch 'hwmon-amc6821' into hwmon-staging
+b224b3fd4bf203b2aff9878e95c4b8c7f1fee3c2 microblaze: don't treat zero reserved memory regions as error
 bd80f02bbe68758b0f31ae4808e80db069172b76 Merge branch 'hwmon-max16065' into hwmon-staging
+c704840ba7b49c25294cbab2956ff9339d487466 init/main.c: Initialize early LSMs after arch code, static keys and calls.
+778c9271e494322f4c81b34fe435f366ed130fac kernel: Add helper macros for loop unrolling
+e4575631672205847748efc5ab8b1f213d96e2e1 lsm: count the LSMs enabled at compile time
+b0ef2d53a2c3af4ece20f3dab790f35737c04b7b lsm: infrastructure management of the sock security
+17f1a989952d692cb53f9a0c2938535fff763ef0 Revert "MIPS: csrc-r4k: Apply verification clocksource flags"
+dfd3bea4d08b6975ed967c95a86fcc74c5f3fd64 lsm: infrastructure management of the key security blob
+ba8decd2660a04f898a230bfc2a2b84c660a2a4a apparmor: fix policy_unpack_test on big endian systems
+7fd0c03ae9c19acbb84f6ced75ecf675aae4fab2 lsm: add helper for blob allocations
+fcf9f72d835db5f1c9477f6681352e06e0b1f54a lsm: infrastructure management of the dev_tun blob
+e90e7f7d1ca05a5579b969b155e27731912d6412 lsm: infrastructure management of the infiniband blob
+10b8da2d9cbd54285a0f543541f890590b9408cb lsm: infrastructure management of the perf_event security blob
+b9f222aee8a61f315135274d529490f57600b59d lsm: Refactor return value of LSM hook vm_enough_memory
+69666c5d5c6e17cb05d34a3d287351e179cef74b lsm: Refactor return value of LSM hook inode_copy_up_xattr
+e3e4ec00a2d74d9e9849bb932c02c2b0abbe8b41 lsm: cleanup lsm_hooks.h
+44a8d6d35fbe5ba376c2e1f3c5bb9fcc8e9632a9 lsm: add the inode_free_security_rcu() LSM implementation hook
+a00a1eac89667cc6ecedd1faaa23244611ea103b security,bpf: constify struct path in bpf_token_create() LSM hook
+5bcdcc0c422dd29467c72024c371b8de1face44b lsm: replace indirect LSM hook calls with static calls
+d6cbadc6d5ca1c63b8d53b9d517a996271dd99f6 Merge branch 'fixes-v6.11' into testing
+e4ea81e0fc33662dfb01e2eb0eeaba1f484a9232 Merge branch 'kpsingh-static' into testing
 
---===============7278987493041887629==--
+--===============6949019789122760410==--
