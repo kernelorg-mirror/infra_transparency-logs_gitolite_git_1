@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1658076701174542436=="
+Content-Type: multipart/mixed; boundary="===============1083365884302203019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 25 Aug 2024 14:30:16 -0000
-Message-Id: <172459621652.6325.12192125275961589116@gitolite.kernel.org>
+Date: Sun, 25 Aug 2024 14:30:24 -0000
+Message-Id: <172459622494.6464.16168079835939748565@gitolite.kernel.org>
 
---===============1658076701174542436==
+--===============1083365884302203019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: d0393b80acd60c1b9a898d19b6f888a97e28b28d
     new: ac4f535b96824387899294b2e9fe594da910641f
     log: revlist-d0393b80acd6-ac4f535b9682.txt
 
---===============1658076701174542436==
+--===============1083365884302203019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 b8a97afe1464608909f5fbda3e2e4bfd880e6e29 LoongArch: Add ifdefs to fix LSX and LASX related warnings
 ac4f535b96824387899294b2e9fe594da910641f LoongArch: KVM: Invalidate guest steal time address on vCPU reset
 
---===============1658076701174542436==--
+--===============1083365884302203019==--
