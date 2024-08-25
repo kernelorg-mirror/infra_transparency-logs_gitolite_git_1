@@ -1,75 +1,110 @@
-Content-Type: multipart/mixed; boundary="===============1911058573104661771=="
+Content-Type: multipart/mixed; boundary="===============7769595014620763680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 25 Aug 2024 08:17:30 -0000
-Message-Id: <172457385092.31289.838010857606619046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 25 Aug 2024 08:35:53 -0000
+Message-Id: <172457495324.11900.956135796444236546@gitolite.kernel.org>
 
---===============1911058573104661771==
+--===============7769595014620763680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 5e8431f722d95bf58276a3051240c1ebe3cc238d
-    new: 5a5ac96f9bcaaa5f04a0ab70252ea708fb9eb8b4
-    log: revlist-5e8431f722d9-5a5ac96f9bca.txt
+  - ref: refs/heads/master
+    old: d2bafcf224f3911b183113b2fcb536c9e90684a3
+    new: 5be63fc19fcaa4c236b307420483578a56986a37
+    log: revlist-d2bafcf224f3-5be63fc19fca.txt
 
---===============1911058573104661771==
+--===============7769595014620763680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1724573845 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1724573846-b9f5a96b7157f56fe06dec8d52ec51bfa4d98d72
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724574951 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1724574950-0742db47a3d6ab42f447ab688ff60fa8eb7984ae
 
-5e8431f722d95bf58276a3051240c1ebe3cc238d 5a5ac96f9bcaaa5f04a0ab70252ea708fb9eb8b4 refs/heads/mem-ctrl-next
+d2bafcf224f3911b183113b2fcb536c9e90684a3 5be63fc19fcaa4c236b307420483578a56986a37 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbK6JUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10gLD/0XIclzjBw+4Y8V9nDTcGqK3+0un+gBWRNq
-NHkwqetXG2Yxu5F0y+Atx2mzGyJpgeNciIqtxLnWK/dGZyfa/c/hSb1aAfX369uz
-g5MQv1O2UBIcBs40lFSKSk2c2299s2kNIrAl6OwHnC5FyVr6wD3akZD9fmpGkyRY
-tn4CQ4iwGmr94hKjPcDxCPcHYRAZYEMbPwpuMFVxpwbT6+WwnTW4QxY8wqFU9of8
-IYCENPIX1ZxYUdFbq4gB5v2LcAxyvfnDWOPIfKMvFtlmC1wuafZKtkNrnwjIchG6
-Ipl47eSKoTjCmyxtRkpyU6s6Bzd8KSkjbjJ5L49ivzGJkEIh6hN+6vJDJWzhgNZc
-TOGuF+4VUA/SEF0x7IbHr2RWmpUhaikpnJb1wqLJpE8fNt5l+s6pkoSHkEnvOlH/
-YNwDp4n0dNwc9jSxWpsVZmxFB3wMsSiMbXPiXww4wWJNSu47J6q5hK5+nr7/8xe5
-Yg7KfpKinlnm+jCaaBjcG13INXXe3di9rDnR/4ZJS46FdB7Mn3HpFunV8tQ9wENI
-t4X/3HFVq9AFpU0yGakMNftvd2gAtLF2nuQ637J8N8D1c0mlEsOnfndg8HvNW+zd
-Bum61MRhAQv5S7s0qljJ3vmSjbUGndC6en+N/4WS+SvX2IQKM6FECb6pjY2tn80H
-gdPGeSNl5g==
-=fs+8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbK7OcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LRsQAKvWszKX6l1LDyOjbGt+
+IsVBVQGB9QBzv1CV0TaGuGg4ORUOm6GO+HETckHuZM60K/RnIRYkVH3N8hIr89wZ
+BqBMqAYrGaS8UtAPy42eIcDsxZEPWFNYW/zCbpMz5KsB4OgEzw6u0taV3X7n++Ly
+OwgaFXvNOgFfE+pg3fPYUIvGWyY1REZuyrGJvKaNjizSt+4guAgAN451wS5XWx6d
+uVeq9HCmMqHkZyWUJL2kVG5Y1yZAtpIzXY19d9G/QO19MFSyPP8nipXMM/6P9Ojo
+sx937671i5scE8agtBNHq9TPlB3CEHnYwoXzy/tOEppCZjUFBhjDu15HNuHufLFZ
+4xgMyNgzNkoUmB9OYkrFqIsdC1lijRPTacB8lEOX+NT4Hd9vDN3HLJapgmrHPbU4
+LujoN4Byer55tmxXXGJZOKgojTfG7xh+Frd2oJzuOOSRXvU+3/E1pT6noeN6yM2I
+7Df+4tvpUTP3k/niYLwUzNv6JcMM0XknpJ4TGO+8zjMnEzl9PvRAyMw1krUPCmvh
+pFysGLT/n8MSkuDzkcdE1tWWEUFnqFhW9IEegJmgAVsRULOijbHnSrHjaAyeDdh0
+SeV31d4HojTrfOWyAK/fg0GisJ3082OdrGbPc2fF+gfxBKSPEPosatR5L/NvOOzB
+0uQ5TiPQ6LPMbq5jVp8GDl3n
+=KWDX
 -----END PGP SIGNATURE-----
 
---===============1911058573104661771==
+--===============7769595014620763680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e8431f722d9-5a5ac96f9bca.txt
+Content-Disposition: attachment; filename=revlist-d2bafcf224f3-5be63fc19fca.txt
 
-b60784d31e77f131b23b540fe1918b168f59d1f3 memory: tegra186-emc: drop unused to_tegra186_emc()
-525b771931670086b5598404e40bba7381fdae3c dt-bindings: memory-controllers: renesas,rpc-if: add top-level constraints
-448bedb8d80037bd1947e2c2921c63384bde73f7 memory: atmel-ebi: use scoped device node handling to simplify error paths
-b47c7416a8a95d336437b7f659b1dcf92b5b61de memory: atmel-ebi: simplify with scoped for each OF child loop
-64905aa8bdde43cfb88bef1d5af40032d6258414 memory: samsung: exynos5422-dmc: simplify dmc->dev usage
-fdabadab683dadab990c17eed7e9a62201f0981b memory: samsung: exynos5422-dmc: use scoped device node handling to simplify error paths
-73b99bda459d1eaac1a104564bd7c30713458fbf memory: stm32-fmc2-ebi: simplify with scoped for each OF child loop
-0bc01a28ac74d072f389d54d5fe3114eb29ba66f memory: stm32-fmc2-ebi: simplify with dev_err_probe()
-cfac414308f858906d851d66a76cc3c0d2a77001 memory: tegra-mc: simplify with scoped for each OF child loop
-cdce58456b1a6a7d8742717854ee9d9d61502cf6 memory: tegra124-emc: simplify with scoped for each OF child loop
-01bf9b07be6cbb6f2202db7991ad70c81cd286ac memory: tegra20-emc: simplify with scoped for each OF child loop
-eb075e54b7376a8e0003d97dc359854089ea9d4f memory: tegra30-emc: simplify with scoped for each OF child loop
-6d9eebfdfe2431f1ee07af9acb7e2fe127d23b90 memory: ti-aemif: simplify with dev_err_probe()
-5a5ac96f9bcaaa5f04a0ab70252ea708fb9eb8b4 memory: ti-aemif: simplify with scoped for each OF child loop
+2fa62ce91a52e704716d08f9a8eb3f9e7e04710d scsi: MAINTAINERS: Update HiSilicon SAS controller driver maintainer
+f03e94f23b04c2b71c0044c1534921b3975ef10c scsi: core: Fix the return value of scsi_logical_block_count()
+cd06b713a6880997ca5aecac8e33d5f9c541749e scsi: ufs: core: Add a quirk for handling broken LSDBS field in controller capabilities register
+ea593e028a9cc523557b4084a61d87ae69e2f270 scsi: ufs: qcom: Add UFSHCD_QUIRK_BROKEN_LSDBS_CAP for SM8550 SoC
+cd612b57c3672487ae8565855eaf9e83862eccc5 scsi: MAINTAINERS: Add header files to SCSI SUBSYSTEM
+cbaac68987b8699397df29413b33bd51f5255255 scsi: sd: Do not attempt to configure discard unless LBPME is set
+d6d539c9a7ad0655e5ad46b5e869f1b20bce8953 bcachefs: Reallocate table when we're increasing size
+d9f49c3106e404776afcf6c5682357f4fe088beb bcachefs: fix field-spanning write warning
+47cdc7b14417a40af6a5d5909f1d28a5a23fc11d bcachefs: Fix incorrect gfp flags
+2102bdac67b55bf2d1df4ff757bced74e94a5f74 bcachefs: Extra debug for data move path
+a3ca27c405faad584af6e8e38cdafe5be73230a1 s390/mm: Prevent lowcore vs identity mapping overlap
+32db401965f165f7c44447d0508097f070c8f576 s390/mm: Pin identity mapping base to zero
+b4f5bd60d558f6ba451d7e76aa05782c07a182a3 s390/ap: Refine AP bus bindings complete processing
+3f53d050416e88122d53aabbadb1fede998004da bcachefs: bch2_data_update_init() cleanup
+8cc0e50614520c6c609c6ae32a65d0591b7865a1 bcachefs: Fix "trying to move an extent, but nr_replicas=0"
+548e7f51679bf0ec3cdc2027d780c5d06a2a7ac6 bcachefs: setting bcachefs_effective.* xattrs is a noop
+49203a6b9d12bfd1a223a67847a631a78f1cd782 bcachefs: Fix failure to relock in btree_node_get()
+e150a7e89c4727176d07f5a0a8966fc2af05821c bcachefs: Fix bch2_trigger_alloc assert
+c2a503f3e98e191d86738f5438a3a2b69575c830 bcachefs: Fix bch2_bucket_gens_init()
+b8db1bd8020d5fecb3bf46cd8b954a657c20ba14 bcachefs: fix time_stats_to_text()
+cecc328240609df17395dfd0ea03cc813d8be36d bcachefs: fix missing bch2_err_str()
+1dceae4cc12aa6389d9a8706f0d2a94d1679e79d bcachefs: unlock_long() before resort in journal replay
+3c5d0b72a8e8c19c960e8fefb7463067e58b6bc4 bcachefs: fix failure to relock in bch2_btree_node_mem_alloc()
+5dbfc4ef72f15508882aff58c307b8425cf037a8 bcachefs: fix failure to relock in btree_node_fill()
+6575b8c9877c3dd1f7db1d0d61bd250a0bf18b6d bcachefs: Fix locking in bch2_ioc_setlabel()
+cab18be6957b6af8cbe3502fd5f6d7b9f02ccceb bcachefs: Fix replay_now_at() assert
+bdbdd4759f081ca2d0a5d9e8af21d742ffaf8439 bcachefs: Fix missing validation in bch2_sb_journal_v2_validate()
+06f67437ab356e3140f51aea272d33ce28421f66 fs/super.c: improve get_tree() error message
+7f2de6947f92cfa4be8e5eaa1237e962bb8ee65f bcachefs: Fix warning in bch2_fs_journal_stop()
+8ed823b19214e403ca485532f48c0e02035021ae bcachefs: Fix compat issue with old alloc_v4 keys
+0b50b7313ef2494926df30ce8e2ce284f1b847fc bcachefs: Fix refcounting in discard path
+dedb2fe37574857c84e9598b9f5272505dedf7af bcachefs: Fix double assignment in check_dirent_to_subvol()
+87313ac1f134d6ee1e7c858da8bdea9147b537a9 bcachefs: clear path->should_be_locked in bch2_btree_key_cache_drop()
+3e878fe5a0b139838a65f50a3df3caf3299dbc24 bcachefs: add missing inode_walker_exit()
+a592cdf5164d3feb821085df71f63e70e8b8b08c bcachefs: don't use rht_bucket() in btree_key_cache_scan()
+ce61b605a00502c59311d0a4b1f58d62b48272d0 ksmbd: the buffer of smb2 query dir response has at least 1 byte
+2186a116538a715b20e15f84fdd3545e5fe0a39b smb/server: fix return value of smb2_open()
+4e8771a3666c8f216eefd6bd2fd50121c6c437db smb/server: fix potential null-ptr-deref of lease_ctx_info in smb2_open()
+0dd771b7d60b8281f10f6721783c60716d22075f smb/server: remove useless assignment of 'file_present' in smb2_open()
+2b7e0573a49064d9c94c114b4471327cd96ae39c smb/server: update misguided comment of smb2_allocate_rsp_buf()
+d7fd2941ae9a67423d1c7bee985f240e4686634f s390/boot: Avoid possible physmem_info segment corruption
+1642285e511c2a40b14e87a41aa8feace6123036 s390/boot: Fix KASLR base offset off by __START_KERNEL bytes
+d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves before sleeping in copygc
+49aa7830396bce33b00fa7ee734c35de36521138 bcachefs: Fix rebalance_work accounting
+891e811ad604805b2c706f85480e38961b706a70 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+48fb4b3d9b43ea8f81de06f12f83912f8c1d5a15 Merge tag 's390-6.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+780bdc1ba77646c3461f1988b12c42c60f836d77 Merge tag '6.11-rc5-server-fixes' of git://git.samba.org/ksmbd
+72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
+5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============1911058573104661771==--
+--===============7769595014620763680==--
