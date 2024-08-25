@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 25 Aug 2024 14:08:02 -0000
-Message-Id: <172459488224.22278.11804322017682775990@gitolite.kernel.org>
+Date: Sun, 25 Aug 2024 14:10:51 -0000
+Message-Id: <172459505111.24983.2632948397853209980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 7678a53a1688e3d03337ca884b284c6e7b060ec5
-    new: cc5e03f3be3154f860c9d08b2ac8c139863e1515
+  - ref: refs/heads/x86/misc
+    old: d19d638b1e6cf746263ef60b7d0dee0204d8216a
+    new: 0f70fdd42559b4eed8f74bf7389656a8ae3eb5c3
     log: |
-         b51207dc02ec3aeaa849e419f79055d7334845b6 x86/boot/64: Strip percpu address space when setting up GDT descriptors
-         cc5e03f3be3154f860c9d08b2ac8c139863e1515 x86/extable: Remove unused declaration fixup_bug()
+         0f70fdd42559b4eed8f74bf7389656a8ae3eb5c3 x86/amd_nb: Add new PCI IDs for AMD family 1Ah model 60h-70h
          
