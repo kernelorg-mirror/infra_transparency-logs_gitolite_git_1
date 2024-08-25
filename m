@@ -1,53 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5349770298428523550=="
+Content-Type: multipart/mixed; boundary="===============3792039757551815190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 25 Aug 2024 08:35:56 -0000
-Message-Id: <172457495665.12016.5270775737614739969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 25 Aug 2024 11:47:34 -0000
+Message-Id: <172458645421.15786.10330175139293320110@gitolite.kernel.org>
 
---===============5349770298428523550==
+--===============3792039757551815190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/heads/usb-testing
+    old: 9a03b9a88e4a44e358e3638736286442ae262497
+    new: fc88bb11617978fb3fcfcc697fd5c9d2dae9c4a3
+    log: |
+         3df1b090a437596bb5ca90f5e6ed8648d485af29 usb: phy: phy-gpio-vbus-usb: fix module autoloading
+         62cadfb51852bf691e9cfa0bf0a8426c3b922e18 usb: misc: brcmstb-usb-pinmap: fix module autoloading
+         15a34e5d4b23ce500d8de8ac8e084c417a500255 usb: typec: fix module autoloading
+         4333dbd9798d470d0c81608bb44bb7c8fd7f7948 usb: ehci-brcm: fix module autoloading
+         fc88bb11617978fb3fcfcc697fd5c9d2dae9c4a3 usb: roles: add lockdep class key to struct usb_role_switch
+         
 
---===============5349770298428523550==
+--===============3792039757551815190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724574955 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1724574954-270ec909535402b32433f6f86a8556bd275823f9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724586452 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1724586451-e891da5518f28287d0701415c9ef8dc1dcf61ffc
 
-0000000000000000000000000000000000000000 042a071fcf19ce0b699ad7caaa4726915f740dd6 refs/tags/v6.11-rc5
+9a03b9a88e4a44e358e3638736286442ae262497 fc88bb11617978fb3fcfcc697fd5c9d2dae9c4a3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbK7OsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F28P/2AUEBHkAnoraYdgze5x
-+q7ZvAgmwiTZQpjYysNrbYMl7Y5pwxyilMVxrBIW4Ym79VXQfCXShfQsYaVLevUo
-jkrIb9E6pEIkUhwu/gqj1e1/e6CMKX5qRfx/X4QlTHUyxGYpcFY7eyJkKr37o1DA
-m78wUvfpKEPlgT/AdJobTaLOy5hKGKGkUvD28nkHot6OMKy+jOOQdh9G26Fwasdg
-v0ocSCPh46KTybLauS85lS3ECoD3WQCEpmRsGif/cwX67AXxMyM4+IwCT4ep0bv6
-4rC+j3QoSP4hGKWrByMBXqduKhlLJTN033SWdgne9K2ugNf6dT9/F5lSrcLJMI3T
-T5N+tU9rZLDZGiMxQZ036tW4v7OzPu0rI8YO5HChnIvMjL+KtwCPxGlZ70XemFt+
-WcLC5Dh3K0OvIeIaLasX/V16Fq5U/feTrTWDWpj+TQ6ul+pJReyghJfPddDn/1sJ
-eDINtRyYRxMJqyf25Q+twnNVpMZDidhi8Nf/7eWwaBQ4PfzQZYUIcXmE0r6uVqU8
-SF/RvleqXGYlKuRb4X6UXtD9Sl5/poc+ZAP2iNbdSPh2il2Yvi1jA3nd1yPWsU6k
-trXg0Bz/+cZ3G2IWLmvDj5cDDC/LQ66vBs4BEjt08W/XdCLr0KrbtP1mkyXuAXmJ
-vgt5r2gu2Sh1arD4HkXPHMgI
-=tbT4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbLGdQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t/wQAIjsG4qhysAUSU6b3xsW
++EwhowDHZckokBQjFjaFUVl3OqGJIibDEpnqYdt7fBvqX4pbnKnq/ZH9BV6H6XYa
+8ipaO3rnB78x+H0xbpxHivGtGl2nGQ02gH7LhnCzBP714KHCER62HQblfLHfP4bA
+xd4fLVS4oHM6yaDpNzgsy5zLTvpTk9cqXMxBnp5WGmtFyNP3l9/SpcFf8txy9ngi
+8WzwC6Y2ZW+nQ/jEOC+r14dIIjGcWJPOIDuXIZ3GA9ptKGCUFrd/ArzcxdXiOcZd
+Apf8WXrvFPwfwdoPOMPP0xSO3SC+YciinY/HG8lhwwlRRJGkUWO9ww6lrTwxxPF1
+27+NcS2o0QnaNLOlzsGkQ2mf0nKIz2snl8yOf6XSgNdGc05N+F4fu+HBm9nbsaBE
+bcKFsjUQGjxUPlFfcwaZpVD6wlJEcyUmd0H36kMjo8FheusDgdIPYgMr3ee5gYeQ
+UDWahbdKd8oLdwxSfrWQhGaqwsgvK9KAINjefO6qlyB+m9DJL82QZVcAuihC1RJO
+b/JPmlxccmc6h9F7cRkDk9gPYNqxBc4ufHBXN79ObgWEJ+bjuXwzbvgfyyat5ZMs
+wRDd3CPFjTarbL8HM7bCKZ1eaix2hZBj5JUEmDAq5t/Dy6gCUnY8R6kH8ODjKb5D
+gjG8pNWSHBtAn9pri1+fz2XO
+=8R6S
 -----END PGP SIGNATURE-----
 
---===============5349770298428523550==--
+--===============3792039757551815190==--
