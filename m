@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 26 Aug 2024 22:52:06 -0000
-Message-Id: <172471272610.8075.17373531800590374570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 26 Aug 2024 22:52:19 -0000
+Message-Id: <172471273918.8264.7969451127914860151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 80d7d07099b97210098eb218aa1cd6d7c04e69f0
-    new: 7056c395ebcb944d02682b82d3300a83ab50c464
+    old: 67e6e2ad67fcd67cb5a9dac3ad5b10a254302fd1
+    new: 025f455f893c9f39ec392d7237d1de55d2d00101
     log: |
-         b18ac5299439bcf2ed5d8ff6d05a60251ce48ed8 ice: move netif_queue_set_napi to rtnl-protected sections
-         f54e0be356aa2c7575ed835873575308549afd6b ice: protect XDP configuration with a mutex
-         eaf29642ee23efe5d6d04e8cab2e3ea12773b9bd ice: check for XDP rings instead of bpf program when unconfiguring
-         bbbb46d93fc1f9e28427949a555fb5a4be4be252 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
-         d4bb62917e5d8221ac66368d9370e7b3fb6158b4 ice: remove ICE_CFG_BUSY locking from AF_XDP code
-         7056c395ebcb944d02682b82d3300a83ab50c464 ice: do not bring the VSI up, if it was down before the XDP setup
+         d51eb8578db71df2028a45f1ca2ebfdd8d495ede checkpatch: don't complain on _Generic() use
+         92f3d68e84a49423697d64da3b98582f95a4621b devlink: add devlink_fmsg_put() macro
+         f2df8ad68c42de78ee14476961851314459825b1 devlink: add devlink_fmsg_dump_skb() function
+         ad67767ec545828cf537a270823405d7f5e88a81 ice: add Tx hang devlink health reporter
+         dfd9d6fb3be92b0a063264d6abf7d2e4cf7ccf49 ice: dump ethtool stats and skb by Tx hang devlink health reporter
+         025f455f893c9f39ec392d7237d1de55d2d00101 ice: Add MDD logging via devlink health
          
