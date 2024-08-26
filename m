@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1671311809803371650=="
+Content-Type: multipart/mixed; boundary="===============7002358394751733165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 26 Aug 2024 07:21:48 -0000
-Message-Id: <172465690891.2795.13822815410267905567@gitolite.kernel.org>
+Date: Mon, 26 Aug 2024 07:22:28 -0000
+Message-Id: <172465694841.3090.4168717137175979543@gitolite.kernel.org>
 
---===============1671311809803371650==
+--===============7002358394751733165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-mika
     old: 47ac09b91befbb6a235ab620c32af719f8208399
     new: 5be63fc19fcaa4c236b307420483578a56986a37
     log: revlist-47ac09b91bef-5be63fc19fca.txt
 
---===============1671311809803371650==
+--===============7002358394751733165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -331,4 +331,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============1671311809803371650==--
+--===============7002358394751733165==--
