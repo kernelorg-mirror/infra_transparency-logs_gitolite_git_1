@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7790980533731013901=="
+Content-Type: multipart/mixed; boundary="===============7795209376839385307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 26 Aug 2024 07:20:23 -0000
-Message-Id: <172465682306.2032.14724800574084941932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 26 Aug 2024 07:20:43 -0000
+Message-Id: <172465684312.2244.3662245781698873078@gitolite.kernel.org>
 
---===============7790980533731013901==
+--===============7795209376839385307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 47ac09b91befbb6a235ab620c32af719f8208399
     new: 5be63fc19fcaa4c236b307420483578a56986a37
     log: revlist-47ac09b91bef-5be63fc19fca.txt
 
---===============7790980533731013901==
+--===============7795209376839385307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -331,4 +331,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============7790980533731013901==--
+--===============7795209376839385307==--
