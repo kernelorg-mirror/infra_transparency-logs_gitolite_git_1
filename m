@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 26 Aug 2024 20:37:23 -0000
-Message-Id: <172470464342.4910.10236047122174070409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 26 Aug 2024 20:50:03 -0000
+Message-Id: <172470540354.14440.7903217951306500538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 6781b962d97bc52715a8db8cc17278cc3c23ebe8
-    new: 1165e70a4a5d8b4da77002ac22b4c5397f30e00d
+  - ref: refs/heads/for-6.12/block
+    old: 87599eddc25ac03647ab76221523c6485e7594b1
+    new: 9bce8005ec0dcb23a58300e8522fe4a31da606fa
     log: |
-         ae61a3391088d29aa8605c9f2db84295ab993a49 ASoC: intel: fix module autoloading
-         8e1bb4a41aa78d6105e59186af3dcd545fc66e70 ASoC: google: fix module autoloading
-         934b44589da9aa300201a00fe139c5c54f421563 ASoC: tda7419: fix module autoloading
-         6ba20539ac6b12ea757b3bfe11adf8de1672d7b8 ASoC: fix module autoloading
-         22652022c7eef3c4ad6ab5f13a6dfc7f25f853d4 ASoC: SOF: ipc: replace "enum sof_comp_type" field with "uint32_t"
-         1165e70a4a5d8b4da77002ac22b4c5397f30e00d ASoC: fix module autoloading
+         9bce8005ec0dcb23a58300e8522fe4a31da606fa blk_iocost: fix more out of bound shifts
+         
+  - ref: refs/heads/for-next
+    old: 0c79aa9a02d78180ccb8998e197e4abd614b3a87
+    new: 0a9a2cc11dfd825c22b4a74cb80bf098bb06287c
+    log: |
+         9bce8005ec0dcb23a58300e8522fe4a31da606fa blk_iocost: fix more out of bound shifts
+         0a9a2cc11dfd825c22b4a74cb80bf098bb06287c Merge branch 'for-6.12/block' into for-next
          
