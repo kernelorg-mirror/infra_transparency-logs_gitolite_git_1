@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 26 Aug 2024 20:00:06 -0000
-Message-Id: <172470240636.7953.3870062071384335784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 26 Aug 2024 20:05:36 -0000
+Message-Id: <172470273653.12618.3325898865901469215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/main
-    old: 73dd3094cd810fb93ab3cf199d14e0cffc208014
-    new: 3cff7109c79f928330e0b91585c14588db49631c
+  - ref: refs/heads/for-linus/execve
+    old: f50733b45d865f91db90919f8311e2127ce5a0cb
+    new: c6a09e342f8e6d3cac7f7c5c14085236aca284b9
     log: |
-         bec4fd18cc57b262241cd4578ed4533ca23ed0c3 amdgpu: DMCUB updates forvarious AMDGPU ASICs
-         3cff7109c79f928330e0b91585c14588db49631c Merge branch 'amd-staging' into 'main'
+         c6a09e342f8e6d3cac7f7c5c14085236aca284b9 binfmt_elf_fdpic: fix AUXV size calculation when ELF_HWCAP2 is defined
          
