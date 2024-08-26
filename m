@@ -1,24 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 26 Aug 2024 22:52:19 -0000
-Message-Id: <172471273918.8264.7969451127914860151@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6406297324168336884=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 26 Aug 2024 22:52:45 -0000
+Message-Id: <172471276559.8511.8606806143516233519@gitolite.kernel.org>
+
+--===============6406297324168336884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/dev-queue
-    old: 67e6e2ad67fcd67cb5a9dac3ad5b10a254302fd1
-    new: 025f455f893c9f39ec392d7237d1de55d2d00101
-    log: |
-         d51eb8578db71df2028a45f1ca2ebfdd8d495ede checkpatch: don't complain on _Generic() use
-         92f3d68e84a49423697d64da3b98582f95a4621b devlink: add devlink_fmsg_put() macro
-         f2df8ad68c42de78ee14476961851314459825b1 devlink: add devlink_fmsg_dump_skb() function
-         ad67767ec545828cf537a270823405d7f5e88a81 ice: add Tx hang devlink health reporter
-         dfd9d6fb3be92b0a063264d6abf7d2e4cf7ccf49 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-         025f455f893c9f39ec392d7237d1de55d2d00101 ice: Add MDD logging via devlink health
-         
+  - ref: refs/heads/tip/sched/core
+    old: cea5a3472ac43f18590e1bd6b842f808347a810c
+    new: aef6987d89544d63a47753cf3741cabff0b5574c
+    log: revlist-cea5a3472ac4-aef6987d8954.txt
+  - ref: refs/heads/scx-cgroup-v2
+    old: 0000000000000000000000000000000000000000
+    new: 6c5715ff638f20b199f0a9e31a278c6a6f65f2fb
+
+--===============6406297324168336884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cea5a3472ac4-aef6987d8954.txt
+
+924e2904da9b5edec61611918b98ab1f7fccc461 sched/fair: Make balance_fair() test sched_fair_runnable() instead of rq->nr_running
+4ae0c2b91110dab6f4291c2c7f99dde60ecc97d8 sched/debug: Fix fair_server_period_max value
+130fd056dd82b02db9a661c013071af35309be1a sched/rt: Clean up usage of rt_task()
+b166af3db70fdcecf125662a2360471bb20be203 sched/rt, dl: Convert functions to return bool
+ae04f69de0bef93c7086cf2983dbc8e8fd624ebe sched/rt: Rename realtime_{prio, task}() to rt_or_dl_{prio, task}()
+f25b7b32b0db6d71b07b06fe8de45b0408541c2a sched/eevdf: Add feature comments
+949090eaf0a3e39aa0f4a675407e16d0e975da11 sched/eevdf: Remove min_vruntime_copy
+8e2e13ac6122915bd98315237b0317495e391be0 sched/fair: Cleanup pick_task_fair() vs throttle
+c97f54fe6d014419e557200ed075cf53b47c5420 sched/fair: Cleanup pick_task_fair()'s curr
+3b3dd89b8bb0f03657859c22c86c19224f778638 sched/fair: Unify pick_{,next_}_task_fair()
+863ccdbb918a77e3f011571f943020bf7f0b114b sched: Allow sched_class::dequeue_task() to fail
+fab4a808ba9fb59b691d7096eed9b1494812ffd6 sched/fair: Re-organize dequeue_task_fair()
+e8901061ca0cd9acbd3d29d41d16c69c2bfff9f0 sched: Split DEQUEUE_SLEEP from deactivate_task()
+abc158c82ae555078aa5dd2d8407c3df0f868904 sched: Prepare generic code for delayed dequeue
+dfa0a574cbc47bfd5f8985f74c8ea003a37fa078 sched/uclamg: Handle delayed dequeue
+e28b5f8bda01720b5ce8456b48cf4b963f9a80a1 sched/fair: Assert {set_next,put_prev}_entity() are properly balanced
+2e0199df252a536a03f4cb0810324dff523d1e79 sched/fair: Prepare exit/cleanup paths for delayed_dequeue
+f12e148892ede8d9ee82bcd3e469e6d01fc077ac sched/fair: Prepare pick_next_task() for delayed dequeue
+781773e3b68031bd001c0c18aa72e8470c225ebd sched/fair: Implement ENQUEUE_DELAYED
+a1c446611e31ca5363d4db51e398271da1dce0af sched,freezer: Mark TASK_FROZEN special
+e1459a50ba31831efdfc35278023d959e4ba775b sched: Teach dequeue_task() about special task states
+152e11f6df293e816a6a37c69757033cdc72667d sched/fair: Implement delayed dequeue
+54a58a78779169f9c92a51facf6de7ce94962328 sched/fair: Implement DELAY_ZERO
+fc1892becd5672f52329a75c73117b60ac7841b7 sched/eevdf: Fixup PELT vs DELAYED_DEQUEUE
+82e9d0456e06cebe2c89f3c73cdbc9e3805e9437 sched/fair: Avoid re-setting virtual deadline on 'migrations'
+85e511df3cec46021024176672a748008ed135bf sched/eevdf: Allow shorter slices to wakeup-preempt
+857b158dc5e81c6de795ef6be006eed146098fc6 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
+aef6987d89544d63a47753cf3741cabff0b5574c sched/eevdf: Propagate min_slice up the cgroup hierarchy
+
+--===============6406297324168336884==--
