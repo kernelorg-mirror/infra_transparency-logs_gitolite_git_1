@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 26 Aug 2024 23:13:51 -0000
-Message-Id: <172471403125.24123.10261491223206398170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 26 Aug 2024 23:26:32 -0000
+Message-Id: <172471479291.1049.8199874392453026243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/dev
-    old: f5dafb8909dc2f5d859734eec41ceb21777d855e
-    new: d6bd12e80bf94b055def6ff708e76f836b4b17ad
+  - ref: refs/heads/for-6.12
+    old: 66afec7c6992a04f8ab65b54421bdb5f8ac806e6
+    new: 13acf2b74803a9a9ab3475c306d5814cf3cefbd8
     log: |
-         d6bd12e80bf94b055def6ff708e76f836b4b17ad lsm: remove LSM_COUNT and LSM_CONFIG_COUNT
-         
-  - ref: refs/heads/next
-    old: f5dafb8909dc2f5d859734eec41ceb21777d855e
-    new: d6bd12e80bf94b055def6ff708e76f836b4b17ad
-    log: |
-         d6bd12e80bf94b055def6ff708e76f836b4b17ad lsm: remove LSM_COUNT and LSM_CONFIG_COUNT
+         13acf2b74803a9a9ab3475c306d5814cf3cefbd8 ata: libata: Remove obsolete function declarations
          
