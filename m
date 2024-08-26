@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 26 Aug 2024 21:03:05 -0000
-Message-Id: <172470618583.22537.6619866849694443183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 26 Aug 2024 21:03:37 -0000
+Message-Id: <172470621732.22804.11764903684968022512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 73b22ba0ae9b148efb493c5dbf0d3c72058188c0
-    new: 0d9e5df4a257afc3a471a82961ace9a22b88295a
+  - ref: refs/heads/delstid
+    old: 42acd4f95d2d51587c32a996defff2d2ca1681a0
+    new: b9bab103f24f22bab4a34a08ef0f39d23ce62dd7
     log: |
-         0d9e5df4a257afc3a471a82961ace9a22b88295a tcp: avoid reusing FIN_WAIT2 when trying to find port in connect() process
+         ab5baacebb01e235dfc5d5ba0954f7d8f1f43adb nfsd: drop the ncf_cb_bmap field
+         78a2c6abb93e64b548ef3dca080003756ee2cb83 fs: properly handle delegated timestamps in setattr_copy_mgtime
+         b9bab103f24f22bab4a34a08ef0f39d23ce62dd7 nfsd: add support for delegated timestamps
          
