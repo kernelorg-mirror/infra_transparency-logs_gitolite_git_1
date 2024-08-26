@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 26 Aug 2024 21:55:31 -0000
-Message-Id: <172470933199.30413.13390467508277508444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 26 Aug 2024 22:20:01 -0000
+Message-Id: <172471080146.15626.2909655690229761305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.11-fixes
-    old: 4052aa64a72bbf9d98a19dd34b0bdedd4990e9ed
-    new: 284b75a3d83c7631586d98f6dede1d90f128f0db
+  - ref: refs/heads/main
+    old: 9ceebd7a264798a792a3cf515f4c331704d4c5fb
+    new: 2c163922de69983e6ccedeb5c00dec85b6a17283
     log: |
-         284b75a3d83c7631586d98f6dede1d90f128f0db ata: libata: Fix memory leak for error path in ata_host_alloc()
+         89683b45f15ca5e0064d6dc1c1bfaa8aacc208f5 ipv6: avoid indirect calls for SOL_IP socket options
+         2c163922de69983e6ccedeb5c00dec85b6a17283 net: dpaa: reduce number of synchronize_net() calls
          
