@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 26 Aug 2024 08:19:40 -0000
-Message-Id: <172466038007.13361.6694206374467086876@gitolite.kernel.org>
+Date: Mon, 26 Aug 2024 08:20:00 -0000
+Message-Id: <172466040010.13553.2240467090531947095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: ed9fbbeb29e0c0a473b199656fde347f401d9293
-    new: f00868f41aea80079291eff313f0e94c6ab72ece
+  - ref: refs/heads/jd/vdso-test-harness
+    old: 3dca04b87aa6eaca00d126dc84a3ceb5ce037008
+    new: 3095295fafd0be7431d15ecbda14ff86d87e4abe
     log: |
          28f5df210d06beb5920cf80446f1c27456c14b92 random: vDSO: reject unknown getrandom() flags
          d669e216100c2a993c1ec6e51bc0fc13c977cf89 random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
@@ -23,4 +23,5 @@ changes:
          d069ca74bbd6042cd10aa2cb1c9bcab745b5f80f selftests/vDSO: don't hard-code location of vDSO sources
          10283f5a3a948b0ae35ca5300b8736cde3e16b1a selftests/vDSO: fix include order in build of test_vdso_chacha
          f00868f41aea80079291eff313f0e94c6ab72ece selftests/vDSO: look for arch-specific function name in getrandom test
+         3095295fafd0be7431d15ecbda14ff86d87e4abe wireguard: selftests: re-use/ab-use test harness to run vDSO tests
          
