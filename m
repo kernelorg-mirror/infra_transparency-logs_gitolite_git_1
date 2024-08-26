@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5219148384414791925=="
+Content-Type: multipart/mixed; boundary="===============4356255769589937554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 26 Aug 2024 15:54:20 -0000
-Message-Id: <172468766019.14137.2507340151688212819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 26 Aug 2024 15:54:32 -0000
+Message-Id: <172468767209.14304.7247327122012738521@gitolite.kernel.org>
 
---===============5219148384414791925==
+--===============4356255769589937554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5be63fc19fcaa4c236b307420483578a56986a37
     log: revlist-7c626ce4bae1-5be63fc19fca.txt
 
---===============5219148384414791925==
+--===============4356255769589937554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -700,4 +700,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============5219148384414791925==--
+--===============4356255769589937554==--
