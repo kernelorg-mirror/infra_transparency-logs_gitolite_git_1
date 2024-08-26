@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0891742705765154288=="
+Content-Type: multipart/mixed; boundary="===============3844836434236114814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Mon, 26 Aug 2024 13:37:21 -0000
-Message-Id: <172467944159.8668.1188445057983452533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 26 Aug 2024 13:38:09 -0000
+Message-Id: <172467948956.9122.12161274561209798568@gitolite.kernel.org>
 
---===============0891742705765154288==
+--===============3844836434236114814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/next-media-20240826
-    old: bc7417b589438e2dae219fdb3acb74faf1d33f86
-    new: 3c2b34b4bd44cd8669d7bf5bba1412182eacf042
+  - ref: refs/heads/master
+    old: d32291d111de2d45317d42074f7c86b18bd633f5
+    new: bcbee51b51f68e7426052a29a9556cb1ac4877c2
     log: |
-         06564411dcd10277eb5e192106603114cac3fd3f media: microchip-isc: Drop v4l2_subdev_link_validate() for video devices
-         2dc5d5d401f5c6cecd97800ffef82e8d17d228f0 media: sun4i_csi: Implement link validate for sun4i_csi subdev
-         9bde4f7caf38df94257d2483e89f371b1a530e9a media: sun4i_csi: Don't use v4l2_subdev_link_validate() for video device
-         d1307671e5221967809c4b626affbad29e371006 media: v4l2-subdev: Refactor warnings in v4l2_subdev_link_validate()
-         5fd3e2412ade67ea20d855f0aea821c650d27559 media: v4l2-subdev: Support hybrid links in v4l2_subdev_link_validate()
-         a3d44f011c6b7a87c9ad0d5be2f5fa092fa419bf media: renesas: vsp1: Implement .link_validate() for video devices
+         bcbee51b51f68e7426052a29a9556cb1ac4877c2 drop 2 mptcp patches from 5.15
          
 
---===============0891742705765154288==
+--===============3844836434236114814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher laurent.pinchart@ideasonboard.com 1724679425 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1724679427-bc439ebe7a265c5fbb1eae4c60f49c96d7b409e4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724679486 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1724679485-220b70298a57f0f1fb13498e3f7b1293585bf6bd
 
-bc7417b589438e2dae219fdb3acb74faf1d33f86 3c2b34b4bd44cd8669d7bf5bba1412182eacf042 refs/tags/next-media-20240826
+d32291d111de2d45317d42074f7c86b18bd633f5 bcbee51b51f68e7426052a29a9556cb1ac4877c2 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZsyFASIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95k+IABAIp0BmaRLfwC
-+/m0etvFKgdtEgGTKJy8vBRakezy2V9BAQDj5pcVhcVUQjvnKmejt/7dOaQf9nBi
-et28aUkIm2OCBw==
-=LAHN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbMhT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jg8P/ja3hg4HZ9KXqziEtsza
++FdOnaFvRiTvzE670IuregSPOX2JEi/eeoo+SmOqVm+rR6FEEyzKRvGatfhOL6fk
+c65HVcJIMI8iepTVswisIil97bNM0oAuUpwRJekQy1q9811oI0llOT5k6kSsCaCQ
+6BOxe81Giu2YQDYZ5msIaz2o4qr+qPgXdSBWB4/BFXwQDl0v18dO0vDbpcHvzrFh
+hc2xzC1Bx2u6a71Uf6JtcUb951ruPxKouxYZUYGwbo2WswT9idZgJNZYvvPDm0Pu
+N6o+GZuMN0haROLGwxK2W/ehcWzU7E2VTftwxF7WlI3oJg/ukoqoB43ehLIP2kdz
+SgprpaMWdHrdaF5q9ujK+HsGTiOpekQ6H6dsD0RBw/6fwnKdhAtIK/7SRJD6qshw
+MFx2pbO+MATfwawYrgqEQpUMzxuAEY43+MCADtQIrZsZH+odycEv5cmrF/nKSIvt
+u6eXJKYrVbi009ivAoNgrY5M8a1vAgS11h2lrkgVkOjneDcSo42quK09F6vNPiSd
+ZpA161Fg6RqhBAa16JvZnq/XKvVUoh/lCjtSL91TrXog8jN+nj3+sXF1oGcrQaax
+qJCIUKCwyWJhmq4UY9rmQ9nKFP6B8FatUePMEYUIt8Ja5VU0cRGkEqnswU9OdrZF
+xRAdUWvKMHcj+GseNMbgsmOu
+=KJcW
 -----END PGP SIGNATURE-----
 
---===============0891742705765154288==--
+--===============3844836434236114814==--
