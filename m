@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 26 Aug 2024 02:30:33 -0000
-Message-Id: <172463943321.16052.10687275712463853354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 26 Aug 2024 04:02:48 -0000
+Message-Id: <172464496805.16631.6129513370050521105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/superm1/dsm-screen-on-off
-    old: 51ab4b24213165881b766e5e83e70804c5f9ef5f
-    new: 37f97ff4f1c82cac7211447658f86931aa462d7d
+  - ref: refs/heads/for-6.11-fixes
+    old: ed786d9be01b0d9d556770f75d324e900be3d555
+    new: 4052aa64a72bbf9d98a19dd34b0bdedd4990e9ed
     log: |
-         37f97ff4f1c82cac7211447658f86931aa462d7d acpi/x86: s2idle: Add ability to configure wakeup by AC adapter changes
+         4052aa64a72bbf9d98a19dd34b0bdedd4990e9ed ata: libata: Fix memory leak for error path in ata_host_alloc()
          
