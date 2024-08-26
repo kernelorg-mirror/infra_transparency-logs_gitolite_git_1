@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 26 Aug 2024 16:59:43 -0000
-Message-Id: <172469158393.437.5723670402933814751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 26 Aug 2024 17:00:41 -0000
+Message-Id: <172469164181.2714.8405641140104046539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: 7888173eb18063c15e10d099310a58ab8c3a4b44
-    new: d2ab3bb890f6a88facf89494ce50b27ff8236d24
+  - ref: refs/heads/next
+    old: 5e3ed3ec2947c69f2bf447857e4dd288ba245529
+    new: f37212d1611673a2f284dfcda3110b85fa096c80
     log: |
-         1461f5a3d810869e182f1d11caaac7dee0458ff7 l2tp: avoid overriding sk->sk_user_data
-         d2ab3bb890f6a88facf89494ce50b27ff8236d24 net: ag71xx: move clk_eth out of struct
+         bc4e6a9adfc72758cdc0c03de70e0754f466182e pahole: Sync with libbpf-1.5
+         c7ec9200caa7d485626b9e6b9d9239a495e6db48 btf_encoder: Add "distilled_base" BTF feature to split BTF generation
+         f37212d1611673a2f284dfcda3110b85fa096c80 pahole: Teduce memory usage by smarter deleting of CUs
          
