@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 26 Aug 2024 18:35:27 -0000
-Message-Id: <172469732717.9979.11147784711032973270@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5661818786867503005=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 26 Aug 2024 18:37:40 -0000
+Message-Id: <172469746068.12197.17957532178038229862@gitolite.kernel.org>
+
+--===============5661818786867503005==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 02d3a370a7bcdab1034ae6a355ba09e5d0ee6e87
-    new: d579eaacaebfbdc3466524a136b480f58cf2568d
+  - ref: refs/heads/slab/for-6.12/misc
+    old: 63fb859e4e59549e20fe22e6745acc2bc308e0b1
+    new: cacaeee43c27ca4ed9c4da5c88bbbdbbaaa3dd58
     log: |
-         c8dc1016ba0e249e45863c1da3b951efe7c4214a ASoC: tas2781: replace devm_kzalloc and scnprintf with devm_kstrdup
-         0225d3b9efe3daca332befaa0c4ce2f119297d5a ASoC: MAINTAINERS: Drop incorrect tlv320aic31xx.txt path
-         69a8d0edb9d78bb5515133b7c08f399d6eaff37a ASoC: SOF: topology: Use kmemdup_array instead of kmemdup for multiple allocation
-         d579eaacaebfbdc3466524a136b480f58cf2568d Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         cacaeee43c27ca4ed9c4da5c88bbbdbbaaa3dd58 mm, slub: print CPU id (and its node) on slab OOM
          
+
+--===============5661818786867503005==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1724697456 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1724697455-91018c766b2c6c4ca91a49a4cf714b111050c539
+
+63fb859e4e59549e20fe22e6745acc2bc308e0b1 cacaeee43c27ca4ed9c4da5c88bbbdbbaaa3dd58 refs/heads/slab/for-6.12/misc
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbMy3AACgkQu+CwddJF
+iJr3Ngf/T1MWljxcK4Uyv3YYXnQIWfQzNa38d2zTIc2Tr4rhc2TvOOWB7c2OZuoA
+axwm7h9L0lugDFsrYPv1h25rQKepy9mlxE7z2F3pYuAUjctI6Nw8BOTXRg+VwNIY
+4buRrRgN/RtQQjgYpdJAdHmIvPdv1T6OKchEB2RTGeV09jZSQiyaqEM6KFQwQFdY
+S3reMRoFHec/aJ++aQr7Kqkm4XeC1ga6GIofrPomdZx0IJ+d4e8fPgqsSdWtfRoP
+CZPKnSQF+PTxpVKWYTitTlECtEZvrZ94Qxfe5Vl6PIL71NmLTJKYh4NEdAk303FH
+rfyg3vPQ8Tb0ZnSAuNctNO8/wfeYzQ==
+=cnof
+-----END PGP SIGNATURE-----
+
+--===============5661818786867503005==--
