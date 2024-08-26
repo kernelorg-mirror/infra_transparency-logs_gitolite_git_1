@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 26 Aug 2024 05:19:04 -0000
-Message-Id: <172464954445.8677.911305569603650545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 26 Aug 2024 06:06:20 -0000
+Message-Id: <172465238041.10605.11218313423758707712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/superm1/dsm-screen-on-off
-    old: 9c1280756e9f21a31604daf6f415523edcfcde37
-    new: eaf3d006b20716b8e56a8dfe764144ff624e428f
+  - ref: refs/heads/master
+    old: c5cfee0100dfce1acd8fc072ecbe0add5fc245b8
+    new: 54f89bca5f665eff41b0f2d384e0404d51343b7d
     log: |
-         eaf3d006b20716b8e56a8dfe764144ff624e428f acpi/x86: s2idle: Add ability to configure wakeup by AC adapter changes
+         54f89bca5f665eff41b0f2d384e0404d51343b7d scripts/hkml: Add a script for release
          
