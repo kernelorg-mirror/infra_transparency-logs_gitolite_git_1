@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 26 Aug 2024 16:27:21 -0000
-Message-Id: <172468964194.7307.13764492228190717583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 26 Aug 2024 16:34:25 -0000
+Message-Id: <172469006519.11557.15499207989274221874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/rproc-next
-    old: 8fa052c29e509f3e47d56d7fc2ca28094d78c60a
-    new: ff555fc5537db70fa75d0ca557d3a41e4c08b55c
+  - ref: refs/heads/nfsd-next
+    old: a7821990757cc0932136bcd15cb1c9480b94b116
+    new: 548ddf619060262afc87db275d644b7f6ee6cbfb
     log: |
-         d9dbd7149c852d51b94d5fda89d79a6c3e1fff97 remoteproc: imx_rproc: Allow setting of the mailbox transmit mode
-         ff555fc5537db70fa75d0ca557d3a41e4c08b55c remoteproc: imx_rproc: Add support for poweroff and reboot
+         3a806b2adad5855d9603f2306c81ff43ba3ab977 NFSD: remove redundant assignment operation
+         87e55eb451b62d3536c7adbb4b018e5f35c3c0f0 nfsd: map the EBADMSG to nfserr_io to avoid warning
+         e9414080dc14fc98418100fd92d21eb201eeba73 nfsd: use LIST_HEAD() to simplify code
+         44248e30e0a31b2d47c92e651540448524d9e610 nfsd: remove unused parameter of nfsd_file_mark_find_or_create
+         e744569dad0cf8f981322ac3b31a65532551e027 nfsd: fix some spelling errors in comments
+         53d519333daf57adc2e682b8316a14afc4dfce6f nfsd: add more info to WARN_ON_ONCE on failed callbacks
+         17d2b21a691f364710f7ed4192dc3236e44decb0 nfsd: track the main opcode for callbacks
+         548ddf619060262afc87db275d644b7f6ee6cbfb nfsd: add more nfsd_cb tracepoints
          
