@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6847725769339673485=="
+Content-Type: multipart/mixed; boundary="===============8848611651682564154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 26 Aug 2024 11:37:23 -0000
-Message-Id: <172467224337.13058.12269229520039370648@gitolite.kernel.org>
+Date: Mon, 26 Aug 2024 11:37:54 -0000
+Message-Id: <172467227496.13438.258883203047306115@gitolite.kernel.org>
 
---===============6847725769339673485==
+--===============8848611651682564154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: a1e627af32ed60713941cbfc8075d44cad07f6dd
-    new: 469e5e4713989fdd5e3e502b922e7be0da2464b9
-    log: revlist-a1e627af32ed-469e5e471398.txt
-  - ref: refs/tags/v6.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/heads/next
+    old: 5cc5d08b873de66092ec1ebed010981f367b17de
+    new: f5e1638bf3c785600e2ab53e5532007af5296581
+    log: revlist-5cc5d08b873d-f5e1638bf3c7.txt
 
---===============6847725769339673485==
+--===============8848611651682564154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1e627af32ed-469e5e471398.txt
+Content-Disposition: attachment; filename=revlist-5cc5d08b873d-f5e1638bf3c7.txt
 
-ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c spmi: pmic-arb: add missing newline in dev_err format strings
-15fffc6a5624b13b428bb1c6e9088e32a55eb82c driver core: Fix uevent_show() vs driver detach race
-e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-50a6dd19dca9446475f023eaa652016bfe5b1cbe ALSA: ump: Explicitly reset RPN with Null RPN
-a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank conversion context
-a4ff92ff0bdd731eca9f0b50b1cbb5aba89be4b2 ALSA: seq: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
-98ea612dd1150adb61cd2a0e93875e1cc77e6b87 ALSA: seq: ump: Explicitly reset RPN with Null RPN
-00af4f3dda1461ec90d892edc10bec6d3c50c554 USB: serial: debug: do not echo input by default
-9da8aa3b3ca05b22be5ba312771e6df4366e56cc ASoC: nau8822: Lower debug print priority
-b7b7e1ab7619deb3b299b5e5c619c3e6f183a12d ALSA: usb-audio: Correct surround channels in UAC1 channel map
-4734406c39238cbeafe66f0060084caa3247ff53 s390/fpu: Re-add exception handling in load_fpu_state()
-0a34c027a3dd756bdc17762db3acaeacdabacaf0 s390/alternatives: Remove unused empty header file
-c8e4d73eae835a1b9f6fc29f2577770ea8ca0c03 s390/cio: Add missing MODULE_DESCRIPTION() macros
-373953444ce542db43535861fb8ebf3a1e05669c s390/mm/ptdump: Fix handling of identity mapping area
-7e4d4cfed6483303436687f1db9a28a377c6ab2a s390/mm/ptdump: Add support for relocated lowcore mapping
-7e12284c523be33f34d43b2bf8627ab0c8af2388 s390/mm/ptdump: Improve sorting of markers
-1e72ba5566d90a668c1c0fbde319cec03454fd20 s390/mm: Get rid of RELOC_HIDE()
-75c10d5377d8821efafed32e4d72068d9c1f8ec0 s390/vmlinux.lds.S: Move ro_after_init section behind rodata section
-33bd8d153c337ba9b30a2e5994437ca703ab4ed8 s390: Keep inittext section writable
-e1cf752ede8e82c2d084868c50a1ca6cdb07c9c4 dt-bindings: eeprom: at25: add fujitsu,mb85rs256 compatible
-6339b7edada2d0c4661bc4200f1adfc80f2e24aa nvme: remove a field from nvme_ns_head
-73d148ccb9e1b62cdcb65e1c6a461229446a55a2 nvme: change data type of lba_shift
-b4c1f33a5d59f577814d87704c45a745a35d8bd9 nvme: reorganize nvme_ns_head fields
 b75a22e7d4f23dcd4f78ed2ff368a3d2a4556c0c riscv: cpufeature: Do not drop Linux-internal extensions
 21b136cc63d2a9ddd60d4699552b69c214b32964 minmax: fix up min3() and max3() too
 478689b5990deb626a0b3f1ebf165979914d6be4 ALSA: hda: Conditionally use snooping for AMD HDMI
@@ -1052,6 +1026,29 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 780bdc1ba77646c3461f1988b12c42c60f836d77 Merge tag '6.11-rc5-server-fixes' of git://git.samba.org/ksmbd
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
+db93caa6a4cf467c90ec11c438f776fc37050c00 dt-bindings: mmc: nuvoton,ma35d1-sdhci: Document MA35D1 SDHCI controller
+addc9ecb9ddb3fe77be3979cce021ad07442c1fc mmc: sdhci-of-ma35d1: Add Nuvoton MA35D1 SDHCI driver
+3af5a1e7be84e0a5d6635dbedb13bd1ce4161414 mmc: sdhci-pxav2: Remove unnecessary null pointer check
+24a9ea1c0fdc2cab2dda08e3370880b7d9a3359e dt-bindings: mmc: renesas,sdhi: Document RZ/V2H(P) support
+a091f510af0b55617b6abf1989837fb8fe86257a mmc: tmio: Use MMC core APIs to control the vqmmc regulator
+b6db8f1fb415afd4f7773668c8576ad591ed32eb mmc: renesas_sdhi: Add RZ/V2H(P) compatible string
+977849b2d46da3ac3e57e46791f2be3eb48df0b6 mmc: sdhci-of-dwcmshc: add common bulk optional clocks support
+2b857745498fdb341b684aa399b05dfffec35501 mmc: sdhci-of-dwcmshc: move two rk35xx functions
+76610189b281cad900dafb9320161168e5761c14 mmc: sdhci-of-dwcmshc: factor out code for th1520_init()
+9676a7ef2cf5feb757fb08a712d0f06dcb824d24 mmc: sdhci-of-dwcmshc: factor out code into dwcmshc_rk35xx_init
+a2e34ac156a0ff7bc0b22ea21a92b411636b7b50 mmc: sdhci-of-dwcmshc: add dwcmshc_pltfm_data
+fc7b91683edbba4eab6c454f89e41aa56ea614e2 dt-bindings: mmc: sdhci-of-dwcmhsc: Add Sophgo SG2042 support
+7af1a8f0965158b608baf11c53882f10a57376fd mmc: sdhci-of-dwcmshc: Add support for Sophgo SG2042
+fcd56ecaadc88b26fefebf3fb6a1787ac1d059e2 dt-bindings: mmc: renesas,sdhi: Remove duplicate compatible and add clock checks
+e634d9873bb13f6a91262099f545af8faf456fd0 mmc: mtk-sd: Improve data type in msdc_timeout_cal()
+1645e815cb5c10ee7df736408d2afc9b7bcfd606 dt-bindings: mmc: renesas,sdhi: add top-level constraints
 469e5e4713989fdd5e3e502b922e7be0da2464b9 mmc: core: apply SD quirks earlier during probe
+0579ac48d30f8bea0c83e92fd508efc879bbe96e mmc: Merge branch fixes into next
+1e9046e3a154608f63ce79edcb01e6afd6b10c7c rpmb: add Replay Protected Memory Block (RPMB) subsystem
+7852028a35f03e04c9cdc92fd26894cca4a8a4de mmc: block: register RPMB partition with the RPMB subsystem
+c30b855e814d9094e369a19fbd86c9bb5badc154 tee: add tee_device_set_dev_groups()
+f0c8431568eedee7705c92f5c341bdc4567e3ad5 optee: probe RPMB device using RPMB subsystem
+d3596c73011d1b0e9b43ae12f1e0f491d6bb96eb mmc: core: Remove struct mmc_context_info
+f5e1638bf3c785600e2ab53e5532007af5296581 mmc: core: remove left-over data structure declarations
 
---===============6847725769339673485==--
+--===============8848611651682564154==--
