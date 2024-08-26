@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 26 Aug 2024 09:14:15 -0000
-Message-Id: <172466365526.21866.8435612451939921385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 26 Aug 2024 09:19:16 -0000
+Message-Id: <172466395695.25441.7094353417224427227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 0e254c14977de1dd62be10b725e7351645e4bbc1
-    new: 32b1e8d071182d30fcd4af5c1f9747fd9c7ce546
-    log: |
-         32b1e8d071182d30fcd4af5c1f9747fd9c7ce546 selftests/vDSO: look for arch-specific function name in getrandom test
-         
+  - ref: refs/tags/v6.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
