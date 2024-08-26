@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1463856378141991631=="
+Content-Type: multipart/mixed; boundary="===============6000028824206462175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 26 Aug 2024 14:43:53 -0000
-Message-Id: <172468343303.26140.11336030030736239094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 26 Aug 2024 14:44:11 -0000
+Message-Id: <172468345139.26380.7848575843020625562@gitolite.kernel.org>
 
---===============1463856378141991631==
+--===============6000028824206462175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: a1ef91d0824ffe39f5f69f4f0f53c88cedb46990
     log: revlist-155212c965b5-a1ef91d0824f.txt
 
---===============1463856378141991631==
+--===============6000028824206462175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e93a54d6c3517e0f8799df33a99537b8b078f25f perf trace: Add trace__bpf_sys_enter_be
 6736d7d39098cc7488059e310550d4a8d666b084 perf trace: Pretty print buffer data
 a1ef91d0824ffe39f5f69f4f0f53c88cedb46990 perf trace: Collect augmented data using BPF
 
---===============1463856378141991631==--
+--===============6000028824206462175==--
