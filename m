@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 26 Aug 2024 23:26:32 -0000
-Message-Id: <172471479291.1049.8199874392453026243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 26 Aug 2024 23:26:53 -0000
+Message-Id: <172471481325.1247.17966650464215358742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/for-6.12
-    old: 66afec7c6992a04f8ab65b54421bdb5f8ac806e6
-    new: 13acf2b74803a9a9ab3475c306d5814cf3cefbd8
+  - ref: refs/heads/tmp.master
+    old: e9a13b757317f3b755a9a647eec9c56dec3cc027
+    new: 9576fca8aed178708f460936239babdd9faa9c0e
     log: |
-         13acf2b74803a9a9ab3475c306d5814cf3cefbd8 ata: libata: Remove obsolete function declarations
+         9576fca8aed178708f460936239babdd9faa9c0e pfunct: Print DW_AT_external=1 functions once
          
