@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4189258222762030990=="
+Content-Type: multipart/mixed; boundary="===============1651857789923417959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 27 Aug 2024 06:08:16 -0000
-Message-Id: <172473889662.8627.6408679948373769664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 27 Aug 2024 06:08:25 -0000
+Message-Id: <172473890570.8790.8666411214541171657@gitolite.kernel.org>
 
---===============4189258222762030990==
+--===============1651857789923417959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5e2d8ff67506c7ab67afd4a225a997218dad03f1
 
---===============4189258222762030990==
+--===============1651857789923417959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -602,4 +602,4 @@ e12c45213051ed84e6e60d878a100bbcdf21619f Merge branch 'next' of git://git.kernel
 114faab5ab454088ca7c1de3e861f7f0805a6863 Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 6f923748057a4f6aa187e0d5b22990d633a48d12 Add linux-next specific files for 20240827
 
---===============4189258222762030990==--
+--===============1651857789923417959==--
