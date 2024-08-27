@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Aug 2024 08:51:58 -0000
-Message-Id: <172474871881.14305.18209380653738364125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 27 Aug 2024 08:54:11 -0000
+Message-Id: <172474885111.15169.6959737297916429180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: 005a85c736cb3e9b29becd1b6ffc2c972b6588a1
-    new: 5dcb0ce5f72384f77da974c84bcf2c105eb4aaf7
+    old: 54f2f78d6b9f1f90e91aaf5dbb34a6198f65fdfd
+    new: 5ce90c842ef57bceb515503347306174e231575f
     log: |
-         40153505259d8dc0e4ea6889fca5e567c42b76a9 Documentation/srso: Document a method for checking safe RET operates properly
-         dc6d20b900b72bea89ebd8154ba9bde1029f330b virt: sev-guest: Replace dev_dbg() with pr_debug()
-         a1bbb2236bb97c0afee4cdf8fd732ff5f9cd60ac virt: sev-guest: Rename local guest message variables
-         5f7c38f81df206b370d97a827251bd4bc50ff46b virt: sev-guest: Fix user-visible strings
-         2b9ac0b84c2cae91bbaceab62df4de6d503421ec virt: sev-guest: Ensure the SNP guest messages do not exceed a page
-         05e5a4db5813411f7a4513015cc84453666954fc Merge x86/sev into tip/master
-         5dcb0ce5f72384f77da974c84bcf2c105eb4aaf7 Merge x86/bugs into tip/master
+         9c5b6d4e33dd78a0511ec34756d783b7e36028c2 selftests: add xfrm policy insertion speed test script
+         33f611cf7d52ffdaebdcd6e42672ca1d06e22974 xfrm: policy: don't iterate inexact policies twice at insert time
+         563d5ca93e883b9dcb4b7dc8967ac569fd91820d xfrm: switch migrate to xfrm_policy_lookup_bytype
+         a54ad727f74559f7c3dfcfd2a63d0ce7683a82e8 xfrm: policy: remove remaining use of inexact list
+         5ce90c842ef57bceb515503347306174e231575f Merge branch 'xfrm: speed up policy insertions'
          
