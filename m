@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Aug 2024 20:01:06 -0000
-Message-Id: <172478886668.688340.8451372246643067745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 Aug 2024 20:13:26 -0000
+Message-Id: <172478960694.694595.8159913060849792133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f8fdda9e4f988c210b1e4519a28ddbf7d29b0038
-    new: 3333df3b4bc8904768c0fd3d8a93564163c7962d
+    old: 65a3cce43d5b4c53cf16b0be1a03991f665a0806
+    new: 2fecbf75c40aca51ae35accbaa6ea051bb2340c4
     log: |
-         3d6a0c4f4552c8b08ba63b9da97c8255db4c6a56 net: fix unreleased lock in cable test
-         3333df3b4bc8904768c0fd3d8a93564163c7962d net: ethernet: ti: am65-cpsw-nuss: Replace of_node_to_fwnode() with more suitable API
+         ec13009472f4a756288eb4e18e20a7845da98d10 bonding: implement xdo_dev_state_free and call it after deletion
+         907ed83a7583e8ffede88c5ac088392701a7d458 bonding: extract the use of real_device into local variable
+         2aeeef906d5a526dc60cf4af92eda69836c39b1f bonding: change ipsec_lock from spin lock to mutex
+         2fecbf75c40aca51ae35accbaa6ea051bb2340c4 Merge branch 'fixes-for-ipsec-over-bonding'
          
