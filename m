@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 27 Aug 2024 16:58:02 -0000
-Message-Id: <172477788271.571568.1541733365116692275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 27 Aug 2024 16:58:25 -0000
+Message-Id: <172477790533.571731.3997718461936346990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/for-next
-    old: dc123a1a80933b7fba1cf53cec77c2425268ff85
-    new: ba7e053ec89f61be9d27bfb244de52849b5138aa
+  - ref: refs/heads/md-6.12
+    old: ca958879ade564daa0e0fa82aeeccf3bc7f73edd
+    new: 86ad4cda79e0dade87d4bb0d32e1fe541d4a63e8
     log: |
-         3a3acf839b2cedf092bdd1ff65b0e9895df1656b power: supply: max17042_battery: Fix SOC threshold calc w/ no current sense
-         ba7e053ec89f61be9d27bfb244de52849b5138aa power: supply: max77693: Expose input current limit and CC current properties
+         86ad4cda79e0dade87d4bb0d32e1fe541d4a63e8 md: Don't flush sync_work in md_write_start()
          
