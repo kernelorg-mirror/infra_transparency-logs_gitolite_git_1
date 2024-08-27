@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 27 Aug 2024 06:46:38 -0000
-Message-Id: <172474119858.19271.13000634657448182193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 27 Aug 2024 06:50:54 -0000
+Message-Id: <172474145495.22530.391946674612785848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: f7b1633d6467a08ff78744cb519a92fb24ad9a0c
-    new: 5e1c5c5a687bb3351d9b4a3b0ad457f8497b2a0d
+  - ref: refs/heads/usb-linus
+    old: 47ac09b91befbb6a235ab620c32af719f8208399
+    new: 9a471de516c35219d1722c13367191ce1f120fe9
     log: |
-         002353a537a29b9be5bde3c1d9964628f0d20d45 drm/bridge: dw-hdmi: Move vmalloc PCM buffer management into the driver
-         5e1c5c5a687bb3351d9b4a3b0ad457f8497b2a0d ALSA: pcm: Drop PCM vmalloc buffer helpers
-         
-  - ref: refs/heads/master
-    old: 7aa5189ce52e2656a2f0315007c2fbaf0b6f8e3d
-    new: 6a8949f7b50241adc1fd7228eb7d520edb60452d
-    log: |
-         002353a537a29b9be5bde3c1d9964628f0d20d45 drm/bridge: dw-hdmi: Move vmalloc PCM buffer management into the driver
-         5e1c5c5a687bb3351d9b4a3b0ad457f8497b2a0d ALSA: pcm: Drop PCM vmalloc buffer helpers
-         6a8949f7b50241adc1fd7228eb7d520edb60452d Merge branch 'for-next'
+         9a471de516c35219d1722c13367191ce1f120fe9 USB: serial: option: add MeiG Smart SRM825L
          
