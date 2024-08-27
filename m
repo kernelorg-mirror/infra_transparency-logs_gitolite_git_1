@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Aug 2024 09:57:07 -0000
-Message-Id: <172475262724.10592.15584279291839597111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 27 Aug 2024 10:04:28 -0000
+Message-Id: <172475306849.14975.12797902936284076876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: d0cb324c478044760d0da34586a45fcbc1476485
-    new: f8fdda9e4f988c210b1e4519a28ddbf7d29b0038
+  - ref: refs/heads/for-next/scmi/updates
+    old: 1780e411ef940db314578b511518e5872d4a13b4
+    new: b773edde40029e80992d682f9dca95d22ae19fe7
     log: |
-         938863727076f684abb39d1d0f9dce1924e9028e tc: adjust network header after 2nd vlan push
-         59c330eccee82f9e53421dd8a83b1bc236f4557a selftests: tc_actions: test ingress 2nd vlan push
-         2da44703a54403b9048ba268b2896dc0537a154f selftests: tc_actions: test egress 2nd vlan push
-         f8fdda9e4f988c210b1e4519a28ddbf7d29b0038 Merge branch 'tc-adjust-network-header-after-2nd-vlan-push'
+         488cce374e78acc789ba7fa01734c496d5380961 dt-bindings: firmware: add i.MX95 SCMI Extension protocol
+         f618fa0dbf63f73929a6556dcb446c7166fd8365 firmware: arm_scmi: add initial support for i.MX BBM protocol
+         aa71111e6ca84f7ea105520efc4300986670146b firmware: arm_scmi: add initial support for i.MX MISC protocol
+         2d5d5a88da63fa740552a600b811b0c4f906c839 firmware: arm_scmi: add NXP i.MX95 SCMI documentation
+         5445deceeb51867083038a19cb6f12a1ac8344bc firmware: imx: add i.MX95 MISC driver
+         7f40a5b18b00214dbc70ad11d8e943d43f820cfc rtc: support i.MX95 BBM RTC
+         b773edde40029e80992d682f9dca95d22ae19fe7 input: keyboard: support i.MX95 BBM module
          
