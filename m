@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 27 Aug 2024 13:00:34 -0000
-Message-Id: <172476363425.17784.9298394931618225602@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8203484860363700375=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
+Date: Tue, 27 Aug 2024 13:44:18 -0000
+Message-Id: <172476625827.471674.4027008332765588406@gitolite.kernel.org>
+
+--===============8203484860363700375==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/mricon/hook-test
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: e764374f4b57a0e0c0221bc0188034ae9996808e
+  - ref: refs/heads/main
+    old: 68e6ba66970e993d92580e3b534a7f503de70d18
+    new: 42c5dd04274f77ac6de0bd9ee22e191b4945338c
     log: |
-         919a4719026f68a9d6b5b87db2e935564cdf42a5 ABI: testing: sysfs-class-power: clarify charge_type documentation
-         7b2e5b9f1d5ea84802ae5ff531ae1739acd97c54 power: supply: max8998_charger: Fix module autoloading
-         17656d2215c3978bbe2811a5e249cd07fe3de77f dt-bindings: power: supply: sc27xx-fg: add low voltage alarm IRQ
-         a9125e868f7ad80d527cf5c69e20fa0ada96bff9 power: supply: core: simplify with cleanup.h
-         e764374f4b57a0e0c0221bc0188034ae9996808e power: supply: twl4030_charger: correct comparision with old current
+         42c5dd04274f77ac6de0bd9ee22e191b4945338c 3->4
          
+
+--===============8203484860363700375==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1724766279 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
+nonce 1724766257-02b2a716b0719630d385b507b2f588609bf110b1
+
+68e6ba66970e993d92580e3b534a7f503de70d18 42c5dd04274f77ac6de0bd9ee22e191b4945338c refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZs3YRwAKCRC2xBzjVmSZ
+bDRhAQCBMhcX3d9y4kZdu+/BXKwbX4I5cM+aDNuNWq+i5kHc/gD8DH7ZnKMqPvev
+rF8tLFbIMdi7jB7p//ktfKYSzGk/IQ8=
+=xozh
+-----END PGP SIGNATURE-----
+
+--===============8203484860363700375==--
