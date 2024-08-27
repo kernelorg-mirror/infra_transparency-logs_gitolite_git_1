@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7973322358351031397=="
+Content-Type: multipart/mixed; boundary="===============3564751728788915144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 27 Aug 2024 12:26:25 -0000
-Message-Id: <172476158596.23940.16415779739415257455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 27 Aug 2024 12:28:44 -0000
+Message-Id: <172476172443.24827.17458148481119779544@gitolite.kernel.org>
 
---===============7973322358351031397==
+--===============3564751728788915144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: ad12a1b418a94015d2ecef959f32559d777d13f3
-    new: 1299f4e61ce58dd5890bfd9897e93a7fa3c573ec
-    log: |
-         1299f4e61ce58dd5890bfd9897e93a7fa3c573ec 6.10-stable patches
-         
+  - ref: refs/tags/memory-controller-drv-6.12
+    old: 0000000000000000000000000000000000000000
+    new: 144b6a014773a2f9126a417c81cc1df955c6c7c1
 
---===============7973322358351031397==
+--===============3564751728788915144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724761585 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1724761583-aef7754f33b90fdbad93c539c783cb9c32e3ce70
+pusher krzk@kernel.org 1724761722 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1724761722-e3af9e2d61c9c40f48d1ab364cd358ade2f677da
 
-ad12a1b418a94015d2ecef959f32559d777d13f3 1299f4e61ce58dd5890bfd9897e93a7fa3c573ec refs/heads/master
+0000000000000000000000000000000000000000 144b6a014773a2f9126a417c81cc1df955c6c7c1 refs/tags/memory-controller-drv-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbNxfEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PCkP/iJ/C4aB9sU88MBDVDNz
-zWGGwF+kCo2gUVTJUDRpw7NCe+1TtrKVb75juCwrukljKYYhawjsNrk0OGStB3u/
-6kzYjfU2RfyfdCXdiIrXi6nmn1t5WqFDKgjHHiOkbRJ9s6ZnbDprFeY8+EK1OAh5
-NNyiQGhjy3amg93tlh0vyw1QHPX9Z1ziuTZir6Le1mxoV0NuxrXJbWgK/A1LcvWa
-CTGwoLmLcOFg8PiBr6FlebFKA3iDDTESiQHjLEMvZ+S7G+cVsmUAsJQQx1m9Bc27
-tGGdpf3MzMPsmRwn3iKy6PetgBdsFRLCJ+QbG99+hmLIgjZo8LRlit7L9ij7HNXF
-Taj9HtT8KEKYNHbjyPhvnOuKUj+iz/rcwgav5cc4LgprhnBtdoUIcZcv6D/varJJ
-cAzMVS6aFDt70i+g8Y2L1cBQb2sf1IzwtXvCcaPZjmNAuIFzQYaRrFIMOvbhR89i
-Qc9NXxZrB9roTzZfmtX/X09Nfr0jDGLYoRzqwotobZiUEe3BNb3tsju3DKQU8dH7
-1aTTG+kb+hcoNxidXy+Xm9t3fq6vLlpU2YttkGHE/U2uhTo5KrLrt9hnyI4JNezC
-zdKIQjNi+qErjcQFv7m9DyiG/9JKOCl9NSDM3M3c2MahZC/t+6i/DAJhN6/7gk4r
-QOH3o1bspACkkvu/jqPxkdGI
-=HtBh
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbNxnoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1x6mEACK7kVKVFRWEX1b+/QX92Odbal0SovpGYtf
+xmEI0vNSC9PUbEbFk93Wkxjkt4iAAI6cKgIaZcGknY3okJ3dMJGtijE194R4CJLE
+8m6SBye7XDLIxdVOpVShALY1XlqxlVxM599SsQaprht/W1lzTJb8XrxP1V4XaEgU
+ZtfftZ+i71kPF/mYXhsX/GiZZBm7gCqsvJRnG+E/RsoXjdZhITw7sc8T21AYBicg
+8mX31SaFPPZWqukR7PYw/YZG9cizHhwzzaHAOkgQd2KOabNUnWWWJipBL2WAT+N8
+2tVKnDujDNeq31tB3WrSY5VNUNak7Der++8klIdIqZKZuPHbpOEGJAbOSSc2qf/U
+t64AzxYDT+9wVNLl+jFoW31+46ftIUymrcpAAtOZ7BMoZpV5YziQDP1bniWjMj8G
+uETz+TJcioSYoQdUOCSmzHV1xv5bHZ3j9ST14sRwGoU5oRYh7pbT2TKhJ5pyoU8g
+R0BZ9rcDiSuChUeanWUs90Sz2jTQ0UqGovEYLQzcsEW4mWMEVJ7uVyMfF90yHaiK
+M3FkqgSf4ojvETpyHKcbvZ4bqNMP0k/K6JGmS0xFXGZM6NMr7KMdJ6tVncoabDUQ
+7TTwYNraxRAoPY5tBzkdM98580hh+t8I4apDGZjZcVburyeioxN3dkn9v7Mzu7QT
+bvGPQfMn1w==
+=5zJW
 -----END PGP SIGNATURE-----
 
---===============7973322358351031397==--
+--===============3564751728788915144==--
