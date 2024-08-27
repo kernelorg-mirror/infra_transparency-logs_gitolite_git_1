@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4864428572195958306=="
+Content-Type: multipart/mixed; boundary="===============8835577211686106980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 27 Aug 2024 18:11:32 -0000
-Message-Id: <172478229216.619202.14585858341355526288@gitolite.kernel.org>
+Date: Tue, 27 Aug 2024 18:11:56 -0000
+Message-Id: <172478231609.619492.5861829089511865126@gitolite.kernel.org>
 
---===============4864428572195958306==
+--===============8835577211686106980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 5e1c39cbccbaef01f01e8ec601cec1bde8218408
-    new: 7ac227ce3096f68e9551932c660789d50f64ec9f
-    log: revlist-5e1c39cbccba-7ac227ce3096.txt
+  - ref: refs/heads/master
+    old: a65cbb1ab9278f8822602d4d1de2ae924d6afcac
+    new: cc8bc270e092b5023b3f530e74eaa16d126d0445
+    log: revlist-a65cbb1ab927-cc8bc270e092.txt
 
---===============4864428572195958306==
+--===============8835577211686106980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e1c39cbccba-7ac227ce3096.txt
+Content-Disposition: attachment; filename=revlist-a65cbb1ab927-cc8bc270e092.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -576,5 +576,6 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 3e9bff3bbe1355805de919f688bef4baefbfd436 Merge tag 'vfs-6.11-rc6.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 08d08e2e9f0ad1af0044e4747723f66677c35ee9 tpm: ibmvtpm: Call tpm2_sessions_init() to initialize session support
 7ac227ce3096f68e9551932c660789d50f64ec9f tpm: Clean up TPM space after command failure
+cc8bc270e092b5023b3f530e74eaa16d126d0445 KEYS: Remove unused declarations
 
---===============4864428572195958306==--
+--===============8835577211686106980==--
