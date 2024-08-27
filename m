@@ -1,47 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============4341810938204149582=="
+Content-Type: multipart/mixed; boundary="===============1767594022247348500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 27 Aug 2024 19:25:04 -0000
-Message-Id: <172478670410.666399.12773036996980935840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 27 Aug 2024 19:46:47 -0000
+Message-Id: <172478800758.678836.17322485975778969882@gitolite.kernel.org>
 
---===============4341810938204149582==
+--===============1767594022247348500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pbuf-ring-inc
-    old: 03b92d32b1fa9b5fc5e2ac3ca7aa207cd7afc1a4
-    new: 14b31a5a0051a09e9ebc1c30f4830debffe6734b
-    log: revlist-03b92d32b1fa-14b31a5a0051.txt
+  - ref: refs/heads/slab/for-next
+    old: 470283d6d22fdc7802410a7dc10d21d51585aa04
+    new: 056c925c07661aaef7dd56d62222ccb350a2f6b0
+    log: revlist-470283d6d22f-056c925c0766.txt
 
---===============4341810938204149582==
+--===============1767594022247348500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03b92d32b1fa-14b31a5a0051.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c85d55a026fa83be4bd15c1aa015cc08cbce005d Fix typos
-b698b0dff0ddb51454c4c5062bf4f25383a79872 Fix typos
-bb1d03aeb6c7bb64770f70dd453e9c241d96450f .github: Add new codespell CI test
-d9fa14296b3e1abb8b283f033ea38c559e3d97af Merge branch 'pu/typos' of https://github.com/guillemj/liburing
-b08194d7e4cdfe1717af90ab067a4d62945d5180 test/fdinfo: add fdinfo reading test case
-96cbb396b6bac6122fa7d813ef3e96cc19be7456 .github: Bump actions/checkout to version 4
-69e2070eb2a6f0fecc153d2a25ef63d4dccbb295 Merge branch 'pu/ci-update' of https://github.com/guillemj/liburing
-8cc585db3a0db98334bef1fd92071f359c5de47f io_uring.h: add incremental buffer ring consumption defines
-cd77a9cc62a572ce39c1fe56900e9f70effa710c src/register: add in flags for buffer ring registration
-9046d29c481e64c12df47b79edb76181a54da81f test/read-mshot: add incremental buffer ring test cases
-388198dfb3fa9f8a33aeb5efdd66bf3c752a8b9f test/recvsend_bundle-inc: add incremental buffer ring test case
-34c05862875511fc0953a40aa2ba78cc1995176c test/read-mshot: add various read/read-mshot incremental buffer tests
-061a6daa0160f9b868b787e4ef3421e4ccf47568 examples/proxy: add support for incrementally consumed buffers
-88f5e5c0f75378ab33e5806b74a5cbcc5bfbe8da examples/proxy: handle sink mode correctly with incremental buffers
-a111838eb239b710e1f604b7171f993e2d2cc4eb examples/proxy: submit new send for sink OR no pending send
-9a4f7a425ecde80315ceb4b9c916f63b5a372eeb test/recvsend_bundle-inc: various fixes and cleanups
-14b31a5a0051a09e9ebc1c30f4830debffe6734b test/recvsend_bundle-inc: skip test on older kernels
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1724788025 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1724788002-783290bc81a195739e4146436057e16003eeebd6
 
---===============4341810938204149582==--
+470283d6d22fdc7802410a7dc10d21d51585aa04 056c925c07661aaef7dd56d62222ccb350a2f6b0 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbOLTkACgkQu+CwddJF
+iJoRnAf/eGHvt4SdByUTc9KWqB03CmZqPF9dYY+IgDpgcGMchiI+thdQytvCTIlo
+EP6Y4NG7hxqmScDWlAAwBJ5M6oR2ixhvY8Qn4MZWdA4oO+H4pcU5R8jx9blyF2Mx
+4mNj+OpiUb/9jcN3sHZleOj8auZkKcPZ5EgjkWYOisiTBmBLQtI/gyv40dXxqpXX
+AOi+r/6JBGM7vdB65Nu51DZPYb8REDF6P5IzBS7PsopOmoz9QQYBCn3ccTYr5XwO
+b80ZXfcS/nHI6ORj4X2DqihQq+oEgZ1qB0XDCNVKHVgLRR1uUy6vI+H9PGY7hGQb
+9B9pSX08UeKH3ONy0vCM+pp2ErbHGA==
+=2zEI
+-----END PGP SIGNATURE-----
+
+--===============1767594022247348500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-470283d6d22f-056c925c0766.txt
+
+b5959789e96e01b4b27a6d0354b475398d67aa6f mm, slab: dissolve shutdown_cache() into its caller
+4ec10268ed98a3d568a39861e7b7d0a0fa7cbe60 mm, slab: unlink slabinfo, sysfs and debugfs immediately
+f77d0cda4a8ebd070bfa1ef9a153c470ea3601ce mm, slab: move kfence_shutdown_cache() outside slab_mutex
+2eb14c1c2717396f2fb1e4a4c5a1ec87cdd174f6 mm, slab: reintroduce rcu_barrier() into kmem_cache_destroy()
+2b55d6a42d14c8675e38d6d9adca3014fdf01951 rcu/kvfree: Add kvfree_rcu_barrier() API
+6c6c47b063b593785202be158e61fe5c827d6677 mm, slab: call kvfree_rcu_barrier() from kmem_cache_destroy()
+4e1c44b3db79ba910adec32e2e1b920a0e34890a kunit, slub: add test_kfree_rcu() and test_leak_destroy()
+b3c34245756adada8a50bdaedbb3965b071c7b0a kasan: catch invalid free before SLUB reinitializes the object
+b8c8ba73c68bb3c3e9dad22f488b86c540c839f9 slub: Introduce CONFIG_SLUB_RCU_DEBUG
+3beb2fb68184fda063cdd3cdd3bbe52c5cae56bb mm, slab: use kmem_cache_free() to free from kmem_buckets_cache
+056c925c07661aaef7dd56d62222ccb350a2f6b0 Merge branch 'slab/for-6.12/rcu_barriers' into slab/for-next
+
+--===============1767594022247348500==--
