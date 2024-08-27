@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
 Date: Tue, 27 Aug 2024 15:49:42 -0000
-Message-Id: <172477378211.526279.13971447008747907997@gitolite.kernel.org>
+Message-Id: <172477378228.526301.2771175576745511381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-6.12/block
-    old: 9bce8005ec0dcb23a58300e8522fe4a31da606fa
-    new: 752a59298ea9c695ec966fc5ba7173897a1ef361
+  - ref: refs/heads/jd/vdso-test-harness
+    old: e3f1c84fed52b3b5ddfa5f383f92b49b2353b7e7
+    new: 7d7bdd4c1831a4f4dbaacc6a2037347199504a0c
     log: |
-         752a59298ea9c695ec966fc5ba7173897a1ef361 pktcdvd: remove unnecessary debugfs_create_dir() error check
+         69b2da39f77e32bd17a890a863733378d52f4491 random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
+         7d7bdd4c1831a4f4dbaacc6a2037347199504a0c wireguard: selftests: re-use/ab-use test harness to run vDSO tests
          
-  - ref: refs/heads/for-next
-    old: 0a9a2cc11dfd825c22b4a74cb80bf098bb06287c
-    new: b1745d6ab0fbd549dd8be6276750f130c7baee7d
+  - ref: refs/heads/master
+    old: e7e17dba78ff0ecb7f71eac76aa5c3033b1fae17
+    new: 69b2da39f77e32bd17a890a863733378d52f4491
     log: |
-         752a59298ea9c695ec966fc5ba7173897a1ef361 pktcdvd: remove unnecessary debugfs_create_dir() error check
-         b1745d6ab0fbd549dd8be6276750f130c7baee7d Merge branch 'for-6.12/block' into for-next
+         69b2da39f77e32bd17a890a863733378d52f4491 random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
          
