@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Aug 2024 21:18:33 -0000
-Message-Id: <172479351378.737227.5138637522910007311@gitolite.kernel.org>
+Date: Tue, 27 Aug 2024 21:19:47 -0000
+Message-Id: <172479358764.738219.13042660212007881825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 7c89562f95f0a3bc922c91a6bb84df22a3efca65
-    new: 0eaebf738e6ec45d1f8a268155b13afcf17e2c97
+    old: 0eaebf738e6ec45d1f8a268155b13afcf17e2c97
+    new: be04024a24a93f761a7b2c5f2de46db0f3acdc74
     log: |
-         9a4556862d1f0f4d3a77c5252a616e006a4c3432 net: thunderx: Remove unused declarations
-         0eaebf738e6ec45d1f8a268155b13afcf17e2c97 net: liquidio: Remove unused declarations
+         be04024a24a93f761a7b2c5f2de46db0f3acdc74 net: ag71xx: support probe defferal for getting MAC address
          
