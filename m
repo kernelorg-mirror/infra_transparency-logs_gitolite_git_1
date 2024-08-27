@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8567881874622559430=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Tue, 27 Aug 2024 13:46:42 -0000
-Message-Id: <172476640216.471881.6479567541141003772@gitolite.kernel.org>
-
---===============8567881874622559430==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 27 Aug 2024 14:02:53 -0000
+Message-Id: <172476737331.473109.151307008853086882@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 42c5dd04274f77ac6de0bd9ee22e191b4945338c
-    new: 9cd96c40f0141410dfcc788c390d4859124e337e
+  - ref: refs/heads/wip/leon-for-next
+    old: 04e36fd27a2aebb03ef019debc4df247f2a427c6
+    new: ca58eeb8b9e59cd8f0e0aa476dedbf28df9c49cd
     log: |
-         9cd96c40f0141410dfcc788c390d4859124e337e 4->5
+         9ac691e5faab4feabf9169827f0d9130f27a7d9f RDMA/bnxt_re: Add support for Variable WQE in Genp7 adapters
+         be3b457400fc97af8208d03d72ff127abc7d82ef RDMA/bnxt_re: Get the WQE index from slot index while completing the WQEs
+         8cca8cd8cb2898710e754acca041cd070ff3a22a RDMA/bnxt_re: Fix the table size for PSN/MSN entries
+         e0e75e66109dd2dba94483ac6dd1c6d68385b6ad RDMA/bnxt_re: Handle variable WQE support for user applications
+         ca58eeb8b9e59cd8f0e0aa476dedbf28df9c49cd RDMA/bnxt_re: Enable variable size WQEs for user space applications
          
-
---===============8567881874622559430==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1724766423 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1724766401-31c1e4a562ec876dc01a10a90c228944881fc174
-
-42c5dd04274f77ac6de0bd9ee22e191b4945338c 9cd96c40f0141410dfcc788c390d4859124e337e refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZs3Y1wAKCRC2xBzjVmSZ
-bIlzAQClNWqH8ymjQjYNoAUf8t1sU4r3BBorS7YhDBuHOyhaMgD/fQcwYaEuAS9z
-cPXe70UrsUsSeptG0l27QorK0pAiCgs=
-=QcFk
------END PGP SIGNATURE-----
-
---===============8567881874622559430==--
