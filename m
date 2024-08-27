@@ -1,48 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============3805581016074256193=="
+Content-Type: multipart/mixed; boundary="===============8320045342643449088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 27 Aug 2024 04:01:17 -0000
-Message-Id: <172473127720.12415.5208421913237369729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 27 Aug 2024 04:26:31 -0000
+Message-Id: <172473279167.31971.8851988435190373013@gitolite.kernel.org>
 
---===============3805581016074256193==
+--===============8320045342643449088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/hwmon
-    old: 9efaebc0072b8e95505544bf385c20ee8a29d799
-    new: 7bbc079531fc38d401e1c4088d4981435a8828e3
-    log: |
-         7bbc079531fc38d401e1c4088d4981435a8828e3 hwmon: (pt5161l) Fix invalid temperature reading
-         
-  - ref: refs/heads/hwmon-next
-    old: df9686ab8ee94af8cd8bcde9cec66ef20913e4fb
-    new: f66f51c3e0b7b4409723af7a187b18a64814c3a8
-    log: revlist-df9686ab8ee9-f66f51c3e0b7.txt
+  - ref: refs/heads/damon/next
+    old: 996ab367e32e947d54f368acda58cb178c3c6ec4
+    new: 79626f178e45032989a9ddc193244b3b3e396000
+    log: revlist-996ab367e32e-79626f178e45.txt
 
---===============3805581016074256193==
+--===============8320045342643449088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df9686ab8ee9-f66f51c3e0b7.txt
+Content-Disposition: attachment; filename=revlist-996ab367e32e-79626f178e45.txt
 
-48dd65540bbaa12107104cdf834beaf45450dbf0 hwmon: stts751: Add "st" vendor prefix to "stts751" compatible string
-39c86efed5359cad6512f68f8d74d551a4ff15e2 Add support for multiple new devices.
-388157b09a112b5709c9fd635e9d5a212c0a2ef3 dt-bindings: hwmon: Add maxim max31790
-92625af9b91f83d36ad04da10b308f640091afab hwmon: (k10temp): Use cpu_feature_enabled() for detecting zen
-107cd36f16ef55d8bc35bf96979b16d510407f69 hwmon: (aspeed-g6-pwm-tacho): Simplify with scoped for each OF child loop
-0a605c914f9067d42d7dd1e45dfd8c594f69c67b hwmon: (aspeed-pwm-tacho): Simplify with scoped for each OF child loop
-f66cb80da3973f4ed123d859efe64c0e3a5710e9 hwmon: (ina3221): Simplify with scoped for each OF child loop
-9544bc93d3181a843bc226e184ccd17ac49055ae hwmon: (lm90): Simplify with scoped for each OF child loop
-d51f2821a0f33c1d9bb34aa10dc7d4ddc13c8138 hwmon: (nct7802): Simplify with scoped for each OF child loop
-5b258064e1d561684c1404c0dccb88959a0a07f2 hwmon: (npcm750-pwm-fan): Simplify with scoped for each OF child loop
-1805f31bb33ad4476387b04f109a15c871fd43e9 hwmon: (tmp421): Simplify with scoped for each OF child loop
-f66f51c3e0b7b4409723af7a187b18a64814c3a8 hwmon: (tmp464): Simplify with scoped for each OF child loop
+6f6c1913d73b42760afd047de0de3761879726b3 ==== DAMON tests fixup ====
+17a921894b5ef58e9f3349bf24c17f80447f67b3 selftests/damon: add access_memory_even to .gitignore
+71791f527366a982f9e9b14e5d37df6444ea5749 selftests/damon: cleanup __pycache__/ with 'make clean'
+f788f3b19fab443b853ec044e45164b21e586665 selftests/damon: add execute permissions to test scripts
+d30bd7309d0f6baec59e52b7d8e74491487803e0 mm/damon/core-test: test only vaddr case on ops registration test
+cb0eec3fa87c2af7b76a4af5ac3e0c66e0f2e46f mm/damon/core-test: fix damon_test_ops_registration() for DAMON_VADDR unset case
+028caa023e5a879fdf4a80f26d856ca05f6d867c mm/damon/dbgfs-test: skip dbgfs_set_targets() test if PADDR is not registered
+03b2e274828ab5b4e7979b49b49ccb3f225c9f68 mm/damon/dbgfs-test: skip dbgfs_set_init_regions() test if PADDR is not registered
+eed963e0eaa654686f9b8ed348d4adfff30adf43 mm/damon: move kunit tests to tests/ subdirectory with _kunit suffix
+802c68db6c2f084df2d305335354def288563f36 mm/damon/tests: add .kunitconfig file for DAMON kunit tests
+d4cb032eca48f50e66f1e97fc041474ac96b1854 === commits aiming not to be posted ===
+fb83f884b2b6ce7eaad08a809b960b68f2953140 mm/damon: Add debug code
+e80f734949f71d53f2bec469836cbbbc120f64a9 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+53e3cf317f98ee082b0453d8c2bc289822843005 mm/damon/core: add todo for DAMOS interval validation
+85dadfdc1dd4845584d69f5722b0496f2d0e69c3 mm/damon/core: add debugging-purpose log of tuned esz
+a2bf2aae445ccd7c0ca3e11775f4a30f0235207b Add debug log for PSI
+bbef48115d1da0075e48f0f0ac9c7c5d5807e25d === hacks in progress ===
+f41d03c917ef4eb52f5f78e9d12a02feafe025e3 ==== ACMA ====
+b8875fc1d8d07835aa65443617df775c59e9432b mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+01f5aa2431f4bcbb81dbb8cb28bb48229ae716eb mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+6b2cce3ce2845f0b167d024a49f524790ff87b6e mm/page_reporting: implement a function for reporting specific pfn range
+7f370de4cb325339ae093ea0afd00a0851e6d219 mm/damon/acma: implement scale down feature
+307f0f6a4496183507104ed3f0600dff387f31c2 mm/damon/acma: implement scale up feature
+f6bbdbf432d036a65fcf8f84eedfb735597f8fb0 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+b0c6273fbf6a6ff16513ee18dc79190ab64475d2 ==== write-only monitoring ====
+8a8502fcdecd4fb07566c8e7b0e8f6ece4929c7a ==== docs for DAMON and mm ====
+5b9248dd9a2c0ccf0cf1c54d7199a75da4e91d16 Docs/mm/damon/design: add API link to damon_ctx
+ea11fb200e1930715d4193d1b7fe481daad3f381 MAINTAINERS/MEMORY MANAGEMENT: add mm document files as managed files
+9012e573e735a5ed3128c71900a515a80d1f7e05 Docs/process/2.Process: Update mm tree URL
+1dcfbad68a91b7f939920c0e34bde9d1197d3d07 ==== unsorted ====
+028283242f75b82864b2c1edec49cf69b7544596 tools/testing/selftests/kselftest/runner: warn non-executable tests only when really cannot execute
+5ea3ded8c3d7f21c60ed1c74522bfa8cbbf7b545 net/ipv4/Kconfig: Convert goo.gl URL to the original one
+195f758f819fe2a0fe09e4b0b95b3d0dd598f98d mm/memory: temporal build fixup
+7e41dd8e60cf61fa206a9cbd26ddc0f0480a320f mm: include linux/pgtable.h in vma_internal.h
+79626f178e45032989a9ddc193244b3b3e396000 mm/vma.h: temporal build fix
 
---===============3805581016074256193==--
+--===============8320045342643449088==--
