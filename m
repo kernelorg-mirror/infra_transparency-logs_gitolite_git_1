@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0478191327192369486=="
+Content-Type: multipart/mixed; boundary="===============7973322358351031397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 27 Aug 2024 12:19:43 -0000
-Message-Id: <172476118323.18209.15942277714434178597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 27 Aug 2024 12:26:25 -0000
+Message-Id: <172476158596.23940.16415779739415257455@gitolite.kernel.org>
 
---===============0478191327192369486==
+--===============7973322358351031397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/samsung-pinctrl-6.12
-    old: 0000000000000000000000000000000000000000
-    new: 723bd290a25b78021483b05c973c30ca7da2445e
+  - ref: refs/heads/master
+    old: ad12a1b418a94015d2ecef959f32559d777d13f3
+    new: 1299f4e61ce58dd5890bfd9897e93a7fa3c573ec
+    log: |
+         1299f4e61ce58dd5890bfd9897e93a7fa3c573ec 6.10-stable patches
+         
 
---===============0478191327192369486==
+--===============7973322358351031397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1724761181 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1724761180-624320558257ded209955e0cdcd03ab5c132c483
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724761585 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1724761583-aef7754f33b90fdbad93c539c783cb9c32e3ce70
 
-0000000000000000000000000000000000000000 723bd290a25b78021483b05c973c30ca7da2445e refs/tags/samsung-pinctrl-6.12
+ad12a1b418a94015d2ecef959f32559d777d13f3 1299f4e61ce58dd5890bfd9897e93a7fa3c573ec refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbNxF0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1y7kD/0VK4g9aDin6siX+WjOok3Ne/iNleqrrOZY
-TCsNTYnKjUGTPWOllJVBpLUjyqLEDcUmQulZdyNOjXcOQwk2He+B/JujTNhZ+B3/
-3RsTz1gUy09KG4I8mA+hzULpL14AncD59QbOmgE0QvzgcDnKrHqSWO0j0NGStMLd
-TxNhbg8vzEHRoTJGEdQJ3i7BSk0NozF6/alJHWl/LlG221peDNAVOutP8xGadqky
-MEO+anK0mVcT2WF7tS+EOzWeh8Lnem9LLNOGLUtBRPd8ElVeYDGEAj8xTw/YzcRI
-oBGWkV6kYhUHLBzYaQm1s+QLqr+Sdo9UscR7tkVtQiRdiayFsjq7JOkjrJqTWOrx
-vzmi8qNzuLnwvOlxSYqiNc/q9/rGIAhlkRqzNpQ+P67NcaqfzVHMjZz5dYHoyONS
-JPKDPkgtr5NH+Du4YNNyuQX5kcxXXZbiE+Qq4xoWEoXEoRL64pOwPYxew4f1P2zK
-28IUkANlo791PvzYk6oWSBd4bHLgI3PeC+Ez6T79t/0KCbfD3FWxhO72AuYFeNXW
-G4SUqCc61IoLm26jiy98tslL3xF9bZ2L6CLmTyMg3tix9Qu8ofkouf5bwYOQ5Fue
-+tx+nx4Vlw7kz4/OM0wphE/BXNXHcE85bC1yVoXvORccVQlth9ZzKSr4/rPdOEo+
-buT6kVU7Tg==
-=qnbX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbNxfEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PCkP/iJ/C4aB9sU88MBDVDNz
+zWGGwF+kCo2gUVTJUDRpw7NCe+1TtrKVb75juCwrukljKYYhawjsNrk0OGStB3u/
+6kzYjfU2RfyfdCXdiIrXi6nmn1t5WqFDKgjHHiOkbRJ9s6ZnbDprFeY8+EK1OAh5
+NNyiQGhjy3amg93tlh0vyw1QHPX9Z1ziuTZir6Le1mxoV0NuxrXJbWgK/A1LcvWa
+CTGwoLmLcOFg8PiBr6FlebFKA3iDDTESiQHjLEMvZ+S7G+cVsmUAsJQQx1m9Bc27
+tGGdpf3MzMPsmRwn3iKy6PetgBdsFRLCJ+QbG99+hmLIgjZo8LRlit7L9ij7HNXF
+Taj9HtT8KEKYNHbjyPhvnOuKUj+iz/rcwgav5cc4LgprhnBtdoUIcZcv6D/varJJ
+cAzMVS6aFDt70i+g8Y2L1cBQb2sf1IzwtXvCcaPZjmNAuIFzQYaRrFIMOvbhR89i
+Qc9NXxZrB9roTzZfmtX/X09Nfr0jDGLYoRzqwotobZiUEe3BNb3tsju3DKQU8dH7
+1aTTG+kb+hcoNxidXy+Xm9t3fq6vLlpU2YttkGHE/U2uhTo5KrLrt9hnyI4JNezC
+zdKIQjNi+qErjcQFv7m9DyiG/9JKOCl9NSDM3M3c2MahZC/t+6i/DAJhN6/7gk4r
+QOH3o1bspACkkvu/jqPxkdGI
+=HtBh
 -----END PGP SIGNATURE-----
 
---===============0478191327192369486==--
+--===============7973322358351031397==--
