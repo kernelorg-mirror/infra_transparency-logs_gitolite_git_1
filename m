@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 27 Aug 2024 06:50:54 -0000
-Message-Id: <172474145495.22530.391946674612785848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 27 Aug 2024 06:55:53 -0000
+Message-Id: <172474175304.25913.16283000019737961264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/usb-linus
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
-    new: 9a471de516c35219d1722c13367191ce1f120fe9
+  - ref: refs/heads/irq/set_affinity_scalability
+    old: 55000b9dcbcd30820a92553bc1fd63211dabaa19
+    new: 9ba54352c6895f2fc850b78bf8a63d9dcbf92511
     log: |
-         9a471de516c35219d1722c13367191ce1f120fe9 USB: serial: option: add MeiG Smart SRM825L
+         9ba54352c6895f2fc850b78bf8a63d9dcbf92511 genirq: Get rid of global lock in irq_do_set_affinity()
          
