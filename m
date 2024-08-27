@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6867160646679927659=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 27 Aug 2024 14:55:05 -0000
-Message-Id: <172477050586.496572.14823614351398572790@gitolite.kernel.org>
-
---===============6867160646679927659==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 27 Aug 2024 14:56:36 -0000
+Message-Id: <172477059695.497044.16900493564472887227@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/slab/for-6.12/misc
-    old: 78597f1b08f414e8d189d045824d019cd9f14c2c
-    new: 45d1edf11e3c6ff1dba968568002a66e33eed2c0
+  - ref: refs/heads/master
+    old: 00a7cd43a1557c7098da01edaebc1602ddb69569
+    new: 545f52e90a9255c2086c8bcdd81b2fe06cb08e4c
     log: |
-         45d1edf11e3c6ff1dba968568002a66e33eed2c0 mm, slab: use kmem_cache_free() to free from kmem_buckets_cache
+         e7ee2286930a08549c2a4412a3a34900cb296d09 selftests/vDSO: separate LDLIBS from CFLAGS for libsodium
+         14cfd1864d5806911e6bc09f5b77fd76e6549572 selftests/vDSO: remove unnecessary command line defs from chacha test
+         94aac6f596c95f6bc0d43f9efbe95e3f13edf07f random: vDSO: don't use 64-bit atomics on 32-bit architectures
+         5e058e46250ae21c01ae39d5d2cfd521dfcfbae1 random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
+         1daa387cd8584ae2eb65246cf99ff7eef3d2dcb8 random: vDSO: add missing c-getrandom-y in Makefile
+         d0409b98974e57ee4872b762900b434c969cb891 random: vDSO: avoid call to out of line memset()
+         545f52e90a9255c2086c8bcdd81b2fe06cb08e4c random: vDSO: minimize and simplify header includes
          
-
---===============6867160646679927659==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1724770523 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1724770501-fd8eac70cfaafe76ad90f08b78572e3d3935bac4
-
-78597f1b08f414e8d189d045824d019cd9f14c2c 45d1edf11e3c6ff1dba968568002a66e33eed2c0 refs/heads/slab/for-6.12/misc
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbN6NsACgkQu+CwddJF
-iJqQAgf9H6GViTdLYD1z5NfqaqauwuH7wIhvR2BGYP4SFXu9ULes0c2glXIYoWqb
-MjTcsP4auPEVxrtqR+JeyW2rw6WUwhReGNwFHTtGUFVIgnkM+YYgzNBkCzNetchM
-hBpcpko/8h3MdekvOWTVXB6yNObQLoiW3wKrQztGXp8RyrvyYhtXBz8M9qWT2imA
-9oDpAJWWbVMWcdCT91ZSVNR2I9K1V/Cyi+zv74Sy8nci/zWaOReN74V7zvdBFgHB
-kxGxOG7MKJaUq3IuCDi8lYm4aYove/quIvZ7usniCUuSEdbXLRcY0+CrjmQl+t5A
-FZHkcPalORC6i0SRdQfZbfMiAsPshQ==
-=iU+6
------END PGP SIGNATURE-----
-
---===============6867160646679927659==--
