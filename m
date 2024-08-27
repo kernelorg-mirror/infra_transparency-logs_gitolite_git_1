@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2314463154354634535=="
+Content-Type: multipart/mixed; boundary="===============4334427911434343652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 27 Aug 2024 15:01:40 -0000
-Message-Id: <172477090068.500087.11334280126096266252@gitolite.kernel.org>
+Date: Tue, 27 Aug 2024 15:03:21 -0000
+Message-Id: <172477100149.500544.6250050967193869884@gitolite.kernel.org>
 
---===============2314463154354634535==
+--===============4334427911434343652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.11-fixes
     old: 8d16762047c627073955b7ed171a36addaf7b1ff
     new: a24cae8fc1f13f6f6929351309f248fd2e9351ce
     log: revlist-8d16762047c6-a24cae8fc1f1.txt
 
---===============2314463154354634535==
+--===============4334427911434343652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -706,4 +706,4 @@ ca6448aed4f10ad88eba79055f181eb9a589a7b3 xfs: Fix missing interval for missing_o
 16e1fbdce9c8d084863fd63cdaff8fb2a54e2f88 xfs: take m_growlock when running growfsrt
 a24cae8fc1f13f6f6929351309f248fd2e9351ce xfs: reset rootdir extent size hint after growfsrt
 
---===============2314463154354634535==--
+--===============4334427911434343652==--
