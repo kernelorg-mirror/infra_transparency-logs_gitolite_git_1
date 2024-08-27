@@ -1,73 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============7299478844266095901=="
+Content-Type: multipart/mixed; boundary="===============8827390287198573877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 27 Aug 2024 20:43:29 -0000
-Message-Id: <172479140999.714720.9830943434286063431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 27 Aug 2024 20:49:41 -0000
+Message-Id: <172479178195.718613.13703976427205310218@gitolite.kernel.org>
 
---===============7299478844266095901==
+--===============8827390287198573877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: ea946d37068f76de56814494b8e43862426fbc23
-    new: e2cf493099269321c3f806dcf91c7f00c1e1932a
-    log: |
-         686e9f616fea49f892ee400b4a5424ffef8dc3bb git-config.1: --get-all description update
-         160947040917c340633f79c6f44d3cae4653d53a git-config.1: fix description of --regexp in synopsis
-         e2cf493099269321c3f806dcf91c7f00c1e1932a Merge branch 'jc/config-doc-update' into next
-         
-  - ref: refs/heads/seen
-    old: 3ee033fa36f86d7d6da3ab2ffcb54faf65190389
-    new: 8c07c600c6d8dc859fde67be15115e2722a8e4c1
-    log: revlist-3ee033fa36f8-8c07c600c6d8.txt
+  - ref: refs/heads/master
+    old: 5be63fc19fcaa4c236b307420483578a56986a37
+    new: 3ec3f5fc4a91e389ea56b111a73d97ffc94f19c6
+    log: revlist-5be63fc19fca-3ec3f5fc4a91.txt
 
---===============7299478844266095901==
+--===============8827390287198573877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ee033fa36f8-8c07c600c6d8.txt
+Content-Disposition: attachment; filename=revlist-5be63fc19fca-3ec3f5fc4a91.txt
 
-e4a98310e18c63a6510878a721d7d3fdf932c347 ref: initialize "fsck_ref_report" with zero
-c642542d20ceebec33ad6f2e54dfee8e889f951f ref: add regular ref content check for files backend
-2c7a9985ffb11b4bf9b93be876392ca2fd5aa51c ref: add symbolic ref content check for files backend
-1b18d473fd329469c617c3ed721f51b311f544de ref: add symlink ref check for files backend
-24fdb638882d7c3baeba4767605c930e3c886beb Merge branch 'ps/reftable-drop-generic' into jch
-16d82c3a1496e86343927e174eb8f0bd17e3363b Merge branch 'cp/unit-test-reftable-block' into jch
-88ae38d87b93786d9eba3c4cc059f35378a30b5b Merge branch 'mt/rebase-x-quiet' into jch
-ba18c83c65ab3b9a603cba89a6eb517be81305c4 Merge branch 'gt/unit-test-urlmatch-normalization' into jch
-a9f47d21aa80f75107de3c0d70e0b7e765ca0677 Merge branch 'ah/git-prompt-portability' into jch
-0a59cd70672665ee647a4fe58edcae14f15d1142 Merge branch 'ds/sparse-diff-index' into jch
-aa96add7446144da52019f1e4471376d4fdd49ab Merge branch 'cl/config-regexp-docfix' into jch
-44eafada48c27ee2d40cfa62a73e64bc62ff9789 Merge branch 'ps/leakfixes-part-5' into jch
-3fdc8cde26f69a68ac1cbf72ff901256f35bf393 Merge branch 'dh/runtime-prefix-on-zos' into jch
-0f4ab31f536c125f86e8d5b892c0e3593c532468 Merge branch 'aa/cat-file-batch-output-doc' into jch
-2b00144921ad737b26610f3f7f1959cee78442da Merge branch 'js/fetch-push-trace2-annotation' into jch
-6f061a633637a11bc98673fa8359773402d4bccf Merge branch 'ps/reftable-concurrent-compaction' into jch
-31b9c99a16d57409b6af400fac1fca540970d1ce Merge branch 'rs/remote-leakfix' into jch
-5466aa921d2dbf7104c822fbf94e3e3f6c170fa2 Merge branch 'jc/config-doc-update' into jch
-2686709c4297e8b073db4b535de543351ed2694d ### match next
-ba270582f9b3b2f08ba8d3a3cb258dc6919dfed0 Merge branch 'pp/add-parse-range-unit-test' into jch
-963e68c72fea1d69769739fc8149cd56babe2349 Merge branch 'ja/doc-synopsis-markup' into jch
-d2b5ca40b9c40d535d6bd48bd2a8be27348f4f2d Merge branch 'cc/promisor-remote-capability' into jch
-4390d68d3084b7089607e6ba08c5170e7c3c2b2c Merge branch 'jc/too-many-arguments' into jch
-7c73774732f4c9cedc89c975109cf69a59b5f9a8 Merge branch 'jk/send-email-mailmap' into jch
-2a7f98e718db25563905ee08a8d06fce21566491 Merge branch 'jc/mailinfo-header-cleanup' into jch
-b997a2049cd064d8b3e1c861f7f254626bad55b9 Merge branch 'ew/cat-file-optim' into jch
-6efe19b5b064fabac852d45cca7e589da129bba1 Merge branch 'tc/fetch-bundle-uri' into seen
-3d76cb800e09bbe9b9a6ab45909899ca1677aa31 Merge branch 'jc/range-diff-lazy-setup' into seen
-d29f7793705140fb333b64e93398d352a070a889 Merge branch 'js/libgit-rust' into seen
-7651570d72135bee88d516824898a5904ba5ba86 Merge branch 'tb/incremental-midx-part-2' into seen
-649c9f0e9708d60badd17bbca4612a71817bcd76 Merge branch 'ps/clar-unit-test' into seen
-464dfdc157095b7f2178de518d7ad025c4c8041b Merge branch 'gt/unit-test-oidset' into seen
-41387d19da3fa7999d7ca9aefb6e0c5955cb4d47 Merge branch 'gt/unit-test-oid-array' into seen
-f6c71dfd0da0f09b34d9474e83b5acb8d8ad35e8 Merge branch 'ps/leakfixes-part-6' into seen
-8c07c600c6d8dc859fde67be15115e2722a8e4c1 Merge branch 'sj/ref-contents-check' into seen
+b7fd10333713e9984cc9b9c04f3681f80efdc809 pinctrl: qcom: x1e80100: Update PDC hwirq map
+49f6202ce991742f451fc724f03d0c17460d06cd ASoC: codecs: lpass-macro: fix version strings returned for 1.x codecs
+a9a7a2d80790d06cd32c535e2e7b10f72ce592e7 ASoC: codecs: lpass-va-macro: warn on unknown version
+5552cccb0b73020f6506fd5d8f81975b1f59080c ASoC: codecs: warn on unknown codec version
+c56ba3e44784527fd6efe5eb7a4fa6c9f6969a58 ASoC: SOF: amd: move iram-dram fence register programming sequence
+897e91e995b338002b00454fd0018af26a098148 ASoC: SOF: amd: Fix for incorrect acp error register offsets
+b919a27fab37e108164d657ac6e77bf870bf95e6 ASoC: MAINTAINERS: Drop Banajit Goswami from Qualcomm sound drivers
+c0196faaa927321a63e680427e075734ee656e42 ASoC: SOF: mediatek: Add missing board compatible
+2251db28edcc70b7ee8a8c6bcbaecf752b3ea5ec ASoC: codecs: wcd937x: Fix missing de-assert of reset GPIO
+ff9f065318e17a1a97981d9e535fcfc6ce5d5614 ASoC: mediatek: mt8188: Mark AFE_DAC_CON0 register as volatile
+164199615ae230ace4519141285f06766d6d8036 ASoC: amd: acp: fix module autoloading
+a42db293e5983aa1508d12644f23d73f0553b32c ASoC: SOF: amd: Fix for acp init sequence
+56314c0d78d6f5a60c8804c517167991a879e14a ALSA: hda/realtek: Enable mute/micmute LEDs on HP Laptop 14-ey0xxx
+32108c22ac619c32dd6db594319e259b63bfb387 ALSA: seq: Skip event type filtering for UMP events
+91191a6e50a2ff752da244493171037663536768 ALSA: hda: cs35l56: Don't use the device index as a calibration index
+0e9fdab1e8df490354562187cdbb8dec643eae2c ASoC: allow module autoloading for table db1200_pids
+5f7c98b7519a3a847d9182bd99d57ea250032ca1 ASoC: allow module autoloading for table board_ids
+92764e8822d4e7f8efb5ad959fac195a7f8ea0c6 netfs, ceph: Partially revert "netfs: Replace PG_fscache by setting folio->private and marking dirty"
+524b2c6dc80d735be9ebcd2decffe2889baab65d romfs: fix romfs_read_folio()
+232590ea7fc125986a526e03081b98e5783f70d2 Revert "pidfd: prevent creation of pidfds for kthreads"
+9b82ff1362f50914c8292902e07be98a9f59d33d ALSA: hda/realtek - Fixed ALC256 headphone no sound
+1fa7b099d60ad64f559bd3b8e3f0d94b2e015514 ALSA: hda/realtek - FIxed ALC285 headphone no sound
+bff980d8d9ca537fd5f3c0e9a99876c1e3713e81 ASoC: cs-amp-lib-test: Force test calibration blob entries to be valid
+bb4485562f5907708f1c218b5d70dce04165d1e1 ASoC: cs-amp-lib: Ignore empty UEFI calibration entries
+b3c18a55e1a6cab791727fc91f798239f95e6bad Merge tag 'asoc-fix-v6.11-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+996b37da1e0f51314d4186b326742c2a95a9f0dd backing-file: convert to using fops->splice_write
+752f387faaae0ae2e84d3f496922524785e77d60 pinctrl: at91: make it work with current gpiolib
+1c38a62f15e595346a1106025722869e87ffe044 pinctrl: single: fix potential NULL dereference in pcs_get_function()
+166bf8af91225576f85208a31eaedbadd182d1ea pinctrl: mediatek: common-v2: Fix broken bias-disable for PULL_PU_PD_RSEL_TYPE
+d3692d95cc4d88114b070ee63cffc976f00f207f pinctrl: qcom: x1e80100: Fix special pin offsets
+639766ca10d1e218e257ae7eabe76814bae6ab89 pinctrl: starfive: jh7110: Correct the level trigger configuration of iev register
+7eff3453cbd7e0bfc7524d59694119b5ca844778 ovl: pass string to ovl_parse_layer()
+ca76ac36bb6068866feca185045e7edf2a8f392f ovl: fix wrong lowerdir number check for parameter Opt_lowerdir
+441e36ef5b347d9ab4f54f7b54853266be687556 ovl: ovl_parse_param_lowerdir: Add missed '\n' for pr_err
+d10771d51b28f73aeb4e533207a294c1c1d45690 Merge patch series "ovl: simplify ovl_parse_param_lowerdir()"
+0aa2e1b2fb7a75aa4b5b4347055ccfea6f091769 mm: Fix missing folio invalidation calls during truncation
+a74ee0e878e262c0276966528d72d4e887174410 afs: Fix post-setattr file edit to do truncation correctly
+7dfc8f0c6144c290dbeb01835a67e81b34dda8cd netfs: Fix netfs_release_folio() to say no if folio dirty
+cce6bfa6ca0e30af9927b0074c97fe6a92f28092 netfs: Fix trimming of streaming-write folios in netfs_inval_folio()
+950b03d0f664a54389a555d79215348ed413161f netfs: Fix missing iterator reset on retry of short read
+e00e99ba6c6b8e5239e75cd6684a6827d93c39a2 netfs: Fix interaction of streaming writes with zero-point tracker
+128f71fe014fc91efa1407ce549f94a9a9f1072c pinctrl: rockchip: correct RK3328 iomux width flag for GPIO2-B pins
+44ceabdec12f4e5938f5668c5a691aa3aac703d7 ALSA: hda/realtek: Fix the speaker output on Samsung Galaxy Book3 Ultra
+2dc43c5e212036458ed7c5586fb82ee183fee504 ALSA: hda/realtek: support HP Pavilion Aero 13-bg0xxx Mute LED
+28b329f431cef840fddd9a9b493bc3eff1aa06c0 ALSA: hda: hda_component: Fix mutex crash if nothing ever binds
+052f3951640fd96d2e777b3272a925ec6c0c8100 selftests/livepatch: wait for atomic replace to occur
+3e9bff3bbe1355805de919f688bef4baefbfd436 Merge tag 'vfs-6.11-rc6.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+6ace1c7ea2972bb3d8bfd5ca3d1a1b2bbc41687e Merge tag 'sound-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+41594663c3fb565940ec2b947bd7e623e3f0e600 Merge tag 'pinctrl-v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+3ec3f5fc4a91e389ea56b111a73d97ffc94f19c6 Merge tag 'livepatching-for-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============7299478844266095901==--
+--===============8827390287198573877==--
