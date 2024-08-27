@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7623729039389832945=="
+Content-Type: multipart/mixed; boundary="===============1112213924417526238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 27 Aug 2024 17:24:26 -0000
-Message-Id: <172477946664.587332.9007088372140521107@gitolite.kernel.org>
+Date: Tue, 27 Aug 2024 17:27:53 -0000
+Message-Id: <172477967344.590239.9762278320610776231@gitolite.kernel.org>
 
---===============7623729039389832945==
+--===============1112213924417526238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.master
     old: c58a3714450ecbcad33f282a5dbc6a7a8b0de616
     new: 1dfd141fafd40d63653a6fd6da8ba331f2099d2c
     log: revlist-c58a3714450e-1dfd141fafd4.txt
 
---===============7623729039389832945==
+--===============1112213924417526238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c7b1f6a29ba15a5dfd3de506dda85cc2fb3ad846 btf_encoder: Add "distilled_base" BTF f
 e3fda2668a8cebf02dd7bff6273673b3c942db5a pahole: Reduce memory usage by smarter deleting of CUs
 1dfd141fafd40d63653a6fd6da8ba331f2099d2c pfunct: Print DW_AT_external=1 functions once
 
---===============7623729039389832945==--
+--===============1112213924417526238==--
