@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 28 Aug 2024 21:36:59 -0000
-Message-Id: <172488101969.1648218.7928825429247358561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 28 Aug 2024 21:39:04 -0000
+Message-Id: <172488114447.1648757.12944142209996399748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/seen
-    old: 989b2428ce2ebe31679a860cdf228fbfbc3869ea
-    new: 3a83d1674ca463a8055b922527edc34b66d0ea18
+  - ref: refs/heads/master
+    old: ab267c7544567567fdbe3e18b2382b6d0b627d22
+    new: e5ac6a7c44cc5c5387d46f72f438b48ed63e323e
     log: |
-         6ff19750ac0f4cc9b568e89533dd5e32573bb0d3 SQUASH??? -Wunused-parameter fix
-         7c044800fad16ae8f64ec03ffe23591a1a72aad7 Merge branch 'sj/ref-contents-check' into seen
-         3a83d1674ca463a8055b922527edc34b66d0ea18 Merge branch 'pp/add-parse-range-unit-test' into seen
+         e5ac6a7c44cc5c5387d46f72f438b48ed63e323e foo
          
