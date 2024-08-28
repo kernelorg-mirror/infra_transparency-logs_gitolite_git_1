@@ -1,46 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3596090811106708019=="
+Content-Type: multipart/mixed; boundary="===============7231800851268214562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Wed, 28 Aug 2024 19:14:00 -0000
-Message-Id: <172487244007.1555349.2887483486346406776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 28 Aug 2024 19:17:32 -0000
+Message-Id: <172487265296.1558185.10658781248829554612@gitolite.kernel.org>
 
---===============3596090811106708019==
+--===============7231800851268214562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: c3fa8bd14fe452fcceafd7f2baea171ac5533f30
-    new: 5d490055cefcc49e755f3567028f14bd10878de0
-    log: |
-         5d490055cefcc49e755f3567028f14bd10878de0 Update some scripts to no longer default to gpg2
-         
+    old: a18093afa393d03599cbe42da2eb00d84a1c9a34
+    new: 928f79a188aacc057ba36c85b36b6d1e99c8f595
+    log: revlist-a18093afa393-928f79a188aa.txt
 
---===============3596090811106708019==
+--===============7231800851268214562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a18093afa393-928f79a188aa.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1724872461 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1724872439-d27d74c59892f5ce127f88b21486d22331bcfbbe
+ba7b6633e9afa6b5a788efd533c4bdc6fb1c606d platform/x86/amd/pmc: Fix SMU command submission path on new AMD platform
+a24cd5cfd1d07712a9f192401af638e3c6cc1491 platform/x86/amd/pmc: Extend support for PMC features on new AMD platform
+58aec91efb93338d1cc7acc0a93242613a2a4e5f LoongArch: Remove the unused dma-direct.h
+9286dfd5735b9cceb6a14bdf15e13400ccb60fe7 platform/x86: asus-wmi: Fix spurious rfkill on UX8406MA
+a3379eca24a7da5118a7d090da6f8eb8611acac8 platform/x86: x86-android-tablets: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+274ea3563e5ab9f468c15bfb9d2492803a66d9be LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
+80376323e2b6a4559f86b2b4d864848ac25cb054 LoongArch: Add ifdefs to fix LSX and LASX related warnings
+4956e07f05e239b274d042618a250c9fa3e92629 LoongArch: KVM: Invalidate guest steal time address on vCPU reset
+f9a59dd09749c6303821e5d6cdff1affdb5917dd Merge tag 'platform-drivers-x86-v6.11-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+928f79a188aacc057ba36c85b36b6d1e99c8f595 Merge tag 'loongarch-fixes-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
-c3fa8bd14fe452fcceafd7f2baea171ac5533f30 5d490055cefcc49e755f3567028f14bd10878de0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZs93DQAKCRC2xBzjVmSZ
-bLKmAQCbxWfHbAAxngt/O4nHjs0qkUfetaR9HL8xuQ9TWPgOGwD/Ue2y61aV6uPX
-B3EqQir2D8iGnwogsJ9wSU3LavPEFQ0=
-=oiOl
------END PGP SIGNATURE-----
-
---===============3596090811106708019==--
+--===============7231800851268214562==--
