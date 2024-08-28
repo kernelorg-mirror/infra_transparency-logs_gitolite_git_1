@@ -1,41 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5501472900400904254=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 28 Aug 2024 14:29:24 -0000
-Message-Id: <172485536426.1360911.525693158915876138@gitolite.kernel.org>
-
---===============5501472900400904254==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 28 Aug 2024 14:35:55 -0000
+Message-Id: <172485575581.1366331.8652923124149281761@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/pbuf-ring-inc
-    old: 953288695bb8af53deaa2526c88693ca13ad83ed
-    new: 1f94eab911e8efe4c032dfb7804fe2d493bb19df
-    log: revlist-953288695bb8-1f94eab911e8.txt
-
---===============5501472900400904254==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-953288695bb8-1f94eab911e8.txt
-
-f17265c7e5e8b82fde68d6dc68f8eddc2181cc35 Wire up napi test
-4758db1295459f61ce2a435c299bdf494ea72ba3 io_uring.h: add incremental buffer ring consumption defines
-ceb07ce40808ab120f15f9b6d95666113ce4622a src/register: add in flags for buffer ring registration
-983e4e13bc4ea7b27248af7f0de6ed9d407b845f test/read-mshot: add incremental buffer ring test cases
-e72188195f7d55411e289c014e532c35644256e9 test/recvsend_bundle-inc: add incremental buffer ring test case
-77a619ff47252464a799fb389056407aac2f126f test/read-mshot: add various read/read-mshot incremental buffer tests
-9e3de2b267decc6b53c70ad6d95d51e890282ea6 examples/proxy: add support for incrementally consumed buffers
-f60b8e93a953fba5ae0868ef2822e1c5f0653350 examples/proxy: handle sink mode correctly with incremental buffers
-43899705debdbc646c9ff7eb75f61cf4bb60e405 examples/proxy: submit new send for sink OR no pending send
-f78d63605de2688fb0b41d3e406c7f00e60304e4 test/recvsend_bundle-inc: various fixes and cleanups
-1f94eab911e8efe4c032dfb7804fe2d493bb19df test/recvsend_bundle-inc: skip test on older kernels
-
---===============5501472900400904254==--
+  - ref: refs/heads/master
+    old: 8825595421ab00e4ca738ed6a49782ddfab41fc7
+    new: 66ac90ce7224e5c21b536a5550b6f0c5909ef762
+    log: |
+         76c88a5ed784e44ecccecfa54e26e6c4d8715db8 selftests/vDSO: use KHDR_INCLUDES for UAPI headers for getrandom test
+         f9a4befbe8b48af0b5a0f23cf932e10d672c077c random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
+         a225237c80b1185f7235cb5e6bba0bc08dab2ccd selftests/vDSO: open code basic chacha instead of linking to libsodium
+         221935e9754ffedca953a81c604b7c24cffe4df4 random: vDSO: don't use 64-bit atomics on 32-bit architectures
+         41f397c17196efab3fa467f0cc944308abebf9d5 random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
+         d218f8029b17c3ec7a0496155852154de7190de1 random: vDSO: add missing c-getrandom-y in Makefile
+         ebdf565719eb5d03d56b7aecf88046428dc63851 random: vDSO: avoid call to out of line memset()
+         73017df3bffe10b50b790a9b4cc228d5ae5fa3de random: vDSO: minimize and simplify header includes
+         66ac90ce7224e5c21b536a5550b6f0c5909ef762 LoongArch: vDSO: Wire up getrandom() vDSO implementation
+         
