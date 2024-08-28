@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 28 Aug 2024 22:17:02 -0000
-Message-Id: <172488342279.1673430.11237515225031889347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 28 Aug 2024 22:26:03 -0000
+Message-Id: <172488396336.1679285.5600631590342900106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: cf8c39b00e982fa506b16f9d76657838c09150cb
-    new: 9dad0127ad732f756d056ea152e0b084f321c765
+  - ref: refs/heads/tmp.master
+    old: ea1865cf7a109806c007d9e893c8b41908fbbb2e
+    new: fd14dc67cb6aaead553074afb4a1ddad10209892
     log: |
-         9dad0127ad732f756d056ea152e0b084f321c765 power: supply: core: constify psy_tzd_ops
+         ba38e1567bc43f7a8d912896e50b1134f516e239 tests reproducible_build: Try to find the running kernel vmlinux if ran without args
+         2282d7df4d99cfdd9bab3d1afdc9a33381947aea tests: Add script to enumerate and run regression tests in the tests/ dir
+         fd14dc67cb6aaead553074afb4a1ddad10209892 tests prettify_perf.data: Add regression test for 'pahole --prettify'
          
