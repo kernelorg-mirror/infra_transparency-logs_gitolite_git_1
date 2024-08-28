@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2395752147462586083=="
+Content-Type: multipart/mixed; boundary="===============5931702478552125521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 28 Aug 2024 15:28:13 -0000
-Message-Id: <172485889325.1401793.267274763957852530@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 15:28:15 -0000
+Message-Id: <172485889588.1401875.976459089486102385@gitolite.kernel.org>
 
---===============2395752147462586083==
+--===============5931702478552125521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 18aaa82bd36ae3d4eaa3f1d1d8cf643e39f151cd
+  - ref: refs/heads/100GbE
+    old: 62fdaf9e8056e9a9e6fe63aa9c816ec2122d60c6
     new: e5899b60f52a7591cfc2a2dec3e83710975117d7
-    log: revlist-18aaa82bd36a-e5899b60f52a.txt
+    log: revlist-62fdaf9e8056-e5899b60f52a.txt
 
---===============2395752147462586083==
+--===============5931702478552125521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18aaa82bd36a-e5899b60f52a.txt
+Content-Disposition: attachment; filename=revlist-62fdaf9e8056-e5899b60f52a.txt
 
 3882dccf48f9fbe787b5df3187d708ef348ac860 bpf/bpf_get,set_sockopt: add option to set TCP-BPF sock ops flags
 d53050934e66dbee64caed1309cef963a416c52f selftests/bpf: add sockopt tests for TCP_BPF_SOCK_OPS_CB_FLAGS
@@ -60,7 +60,6 @@ abcd3026dd63417692a5e80aff70e7cd9b5c14ea ethtool: Extend cable testing interface
 4715d87e11ac805ab95a75adfbf93d67dfbdbe81 ethtool: Add support for specifying information source in cable test results
 986a7fa4b454c9ee338a133868b8ed740cd45edd phy: dp83td510: Utilize ALCD for cable length measurement when link is active
 f85cd6aec1f1dfc29fd4a8440cdf0693c2411a3f Merge branch 'add-alcd-support-to-cable-testing-interface'
-5f6df173f92eff2d6fa09d74e47e204b0072f82e ice: implement and use rd32_poll_timeout for ice_sq_done timeout
 be91edc81b09ca062e39db894561d25447235c68 dt-bindings: soc: ti: pruss: Add documentation for PA_STATS support
 550ee90ac61c1f0cd987c68a9ac6c4c9833925d7 net: ti: icssg-prueth: Add support for PA Stats
 0de45db8f4318f03e55214e3af3c5a7a2dc01120 Merge branch 'add-support-for-icssg-pa_stats'
@@ -78,17 +77,10 @@ a7a45f02a093d3b3f80a77db334703b5f53ebd44 net: sched: Correct spelling in headers
 70d0bb45fae87a3b08970a318e15f317446a1956 net: Correct spelling in headers
 a8c924e98738f77668b022ec34107ca8b6093392 net: Correct spelling in net/core
 77f0caecf4e63fd7fb0533ea85d7e792f95c2251 Merge branch 'net-header-and-core-spelling-corrections'
-caf4daae871c20a3da1a822d8713c858c8a85d5c ice: improve debug print for control queue messages
-6bd7cb522b1c06f826b74a40c5a0f23b1e4d00ae ice: do not clutter debug logs with unused data
-74ce564a30efbab1eccc2182f21414eae1dd085c ice: stop intermixing AQ commands/responses debug dumps
-1d95d9256cfaa3e5a1a4b3cedbd3c043df229b5a ice: reword comments referring to control queues
-448711c1dad080c0fc5e87d0464366f21085e98e ice: remove unnecessary control queue cmd_buf arrays
-b1703d5f794d755e0d4ce1f22eee1215acb8ce02 ice: Report NVM version numbers on mismatch during load
 b4985aa8e312fd40fbbce0fe44ce677368fdee43 net: caif: use max() to simplify the code
 26549dab8a4676ce549cb20bf384daf458a9ea24 ipv6: mcast: use min() to simplify the code
 a18308623ce303a0f8954294f3877b3ece8c5e7b tipc: use min() to simplify the code
 5efc9623cfaef22b3492147bf76c2d4d8586c77f Merge branch 'some-modifications-to-optimize-code-readability'
-62fdaf9e8056e9a9e6fe63aa9c816ec2122d60c6 ice: Adjust over allocation of memory in ice_sched_add_root_node() and ice_sched_add_node()
 cd039e6787ff6c496239c0c2f6d740e7c216d763 net: xilinx: axienet: Don't print if we go into promiscuous mode
 7a826fb3e4c68f42ffdec8361e1fb49cdfbbc991 net: xilinx: axienet: Don't set IFF_PROMISC in ndev->flags
 749e67d5b297c01b4825315808c9f1c9e7c91d01 net: xilinx: axienet: Support IFF_ALLMULTI
@@ -141,4 +133,4 @@ a96c5515d0d15df103598b2bc57245d66143b5dd net: dsa: microchip: Add KSZ8895/KSZ886
 b3bc5341b04763c78e256503fc4a31019bb03f20 Merge branch 'net-dsa-microchip-add-ksz8895-ksz8864-switch-support'
 e5899b60f52a7591cfc2a2dec3e83710975117d7 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============2395752147462586083==--
+--===============5931702478552125521==--
