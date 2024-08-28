@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8657145827109633085=="
+Content-Type: multipart/mixed; boundary="===============2395752147462586083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 28 Aug 2024 15:28:10 -0000
-Message-Id: <172485889028.1401658.7746051487031912801@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 15:28:13 -0000
+Message-Id: <172485889325.1401793.267274763957852530@gitolite.kernel.org>
 
---===============8657145827109633085==
+--===============2395752147462586083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 18aaa82bd36ae3d4eaa3f1d1d8cf643e39f151cd
     new: e5899b60f52a7591cfc2a2dec3e83710975117d7
     log: revlist-18aaa82bd36a-e5899b60f52a.txt
 
---===============8657145827109633085==
+--===============2395752147462586083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -141,4 +141,4 @@ a96c5515d0d15df103598b2bc57245d66143b5dd net: dsa: microchip: Add KSZ8895/KSZ886
 b3bc5341b04763c78e256503fc4a31019bb03f20 Merge branch 'net-dsa-microchip-add-ksz8895-ksz8864-switch-support'
 e5899b60f52a7591cfc2a2dec3e83710975117d7 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8657145827109633085==--
+--===============2395752147462586083==--
