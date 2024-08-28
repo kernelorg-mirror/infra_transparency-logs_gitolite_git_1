@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0125388074751727924=="
+Content-Type: multipart/mixed; boundary="===============1140222074401653875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 28 Aug 2024 15:19:36 -0000
-Message-Id: <172485837656.1393266.16561120658710132695@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 15:19:44 -0000
+Message-Id: <172485838441.1393900.9893657244702995312@gitolite.kernel.org>
 
---===============0125388074751727924==
+--===============1140222074401653875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4186c8d9e6af57bab0687b299df10ebd47534a0a
-    new: 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7
-    log: revlist-4186c8d9e6af-3a0504d54b3b.txt
+  - ref: refs/heads/dev-queue
+    old: 7056c395ebcb944d02682b82d3300a83ab50c464
+    new: 35035b3d2e6b91aed3b3d021697add09f628f595
+    log: revlist-7056c395ebcb-35035b3d2e6b.txt
 
---===============0125388074751727924==
+--===============1140222074401653875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4186c8d9e6af-3a0504d54b3b.txt
+Content-Disposition: attachment; filename=revlist-7056c395ebcb-35035b3d2e6b.txt
 
 eb9e749c0182affafadfbe5ded4503c4b5a9b57c Bluetooth: btintel: Allow configuring drive strength of BRI
 35237475384ab3622f63c3c09bdf6af6dacfe9c3 Bluetooth: btnxpuart: Fix random crash seen while removing driver
@@ -48,5 +48,18 @@ e93681afcb96864ec26c3b2ce94008ce93577373 selftests: mptcp: join: cannot rm sf if
 cb41b195e634d3f1ecfcd845314e64fd4bb3c7aa mptcp: pr_debug: add missing \n at the end
 237c3851dc81f418ef735bb71ef482e126f78ea0 Merge branch 'mptcp-close-subflow-when-receiving-tcp-fin-and-misc'
 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7 sctp: fix association labeling in the duplicate COOKIE-ECHO case
+1c0d143266480054a45cfe4213c08aba1e686518 ice: Fix lldp packets dropping after changing the number of channels
+8187757d0857e91f01a5088bd759393aa9bb13cf ice: fix accounting for filters shared by multiple VSIs
+cd53431d0e2a59c7b90aaadff51b4223df996d35 ice: Flush FDB entries before reset
+07dab1d1cd7e49e3837412c3eb5d0c53db537a16 igb: Fix not clearing TimeSync interrupts for 82580
+c84f1cb5b9e1f80d2d27fd6608cc5f92de3ad4d8 ice: set correct dst VSI in only LAN filters
+736743bd75a3ec8de86b88fa3d072f89abb99b37 ice: Add netif_device_attach/detach into PF reset flow
+26d9c864b19f440603f64eaa489404a0e5df7248 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+d3e144183b0f14410e2a6c630ce1ec9182d2de81 ice: move netif_queue_set_napi to rtnl-protected sections
+4a75025922181b83c349e2f79789fcf433f717b5 ice: protect XDP configuration with a mutex
+c74ed0786b7417e7c1c7f4db3ba2181a0b8bb57a ice: check for XDP rings instead of bpf program when unconfiguring
+ab38c35828cf9836c8f17b128fba33993ffee774 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
+648f32369bae76f86c8c91df33328c4f709f7230 ice: remove ICE_CFG_BUSY locking from AF_XDP code
+35035b3d2e6b91aed3b3d021697add09f628f595 ice: do not bring the VSI up, if it was down before the XDP setup
 
---===============0125388074751727924==--
+--===============1140222074401653875==--
