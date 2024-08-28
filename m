@@ -1,51 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3920737262071606796=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Wed, 28 Aug 2024 14:23:21 -0000
-Message-Id: <172485500186.1357337.13353090577261298695@gitolite.kernel.org>
-
---===============3920737262071606796==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/maint-scripts
+Date: Wed, 28 Aug 2024 14:26:03 -0000
+Message-Id: <172485516387.1360114.11193854935000261592@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
+repo: pub/scm/linux/kernel/git/tegra/maint-scripts
 user: thierry.reding
 changes:
-  - ref: refs/heads/for-next
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 99aac2e5823483a412655d9977eab60268d31433
-    log: revlist-8400291e289e-99aac2e58234.txt
-  - ref: refs/heads/for-6.12/firmware
-    old: 0000000000000000000000000000000000000000
-    new: 8812b8689ee652ee7f7e958473a9de56d7c184b6
-  - ref: refs/heads/for-6.12/dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: 16b760acb2da5c90c52d1258148102bf2b60c21d
-  - ref: refs/heads/for-6.12/arm64/dt
-    old: 0000000000000000000000000000000000000000
-    new: b93679b8f165467e1584f9b23055db83f45c32ce
-
---===============3920737262071606796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-99aac2e58234.txt
-
-9c3a62c20f7fb00294a4237e287254456ba8a48b firmware: tegra: bpmp: Drop unused mbox_client_to_bpmp()
-8812b8689ee652ee7f7e958473a9de56d7c184b6 firmware: tegra: bpmp: Use scoped device node handling to simplify error paths
-69a87db435a705475519c9e165cde2cad8e7cba0 dt-bindings: i2c: nvidia,tegra20-i2c: Combine same if:then: clauses
-e0c7b7fcaf77a2b387336e499d00cb9477ab1cb2 dt-bindings: i2c: nvidia,tegra20-i2c: Restrict also clocks in if:then:
-fd16970c9d67096f57fb5f6ee2b5ce78c917f780 dt-bindings: i2c: nvidia,tegra20-i2c: Define power-domains top-level
-16b760acb2da5c90c52d1258148102bf2b60c21d dt-bindings: arm: tegra: Document Nyan, all revisions in kernel tree
-7ac0be7a4cd708dd5139e68597c816fa4ce22a88 arm64: tegra: Add DMA properties for Tegra234 UARTA
-92331cc63ce378546368c8a58c4d8cbb044d1f70 arm64: tegra: enable same UARTs for Orin NX/Nano
-b93679b8f165467e1584f9b23055db83f45c32ce arm64: tegra: Correct location of power-sensors for IGX Orin
-5b3c56fd7647b302af90e90615f2a803ed4575d8 Merge branch for-6.12/firmware into for-next
-dfd6332392588b4b2ca86e5665c8179666b0ad58 Merge branch for-6.12/dt-bindings into for-next
-99aac2e5823483a412655d9977eab60268d31433 Merge branch for-6.12/arm64/dt into for-next
-
---===============3920737262071606796==--
+  - ref: refs/heads/master
+    old: cca38b152144bdc3b506e8ca1da4d4e177b9eead
+    new: 4b8f3e1c70868d5e309a082beb13f7f1a0824abf
+    log: |
+         8ff9175d25c74b13ea76c90c80274f5b0ab4bd2d Final branches for v6.7-rc1
+         ecc05ead54135688b99c807f7151fc582d1d18e9 Final branches for v6.8-rc1
+         7114afa815c26e19df4d87bf6b1cf619212015fc Final branches for v6.9-rc1
+         ab928064aa586b46081f15ee87e65ec8bfa9222c Final branches for v6.10-rc1
+         0a26858d49ed757e856ac52542033812000f00d0 tms: Sign-off on merge commits
+         e23df3ad4be5b7c4bd59b6bdb982e8223b13fb82 tms: Support pull requests for multiple releases
+         c78d7e73029a66f0dafa9093b07f15ae436ca7e0 Final branches for v6.11-rc1
+         eb98ddbb0c7e5c941643abcabd624a8931e00f8f tms: Properly mark regular expression strings
+         4b8f3e1c70868d5e309a082beb13f7f1a0824abf tms: Force-push base first without verification
+         
