@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2404813520005271384=="
+Content-Type: multipart/mixed; boundary="===============0477058050076698716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 28 Aug 2024 21:36:45 -0000
-Message-Id: <172488100507.1647920.11534710176473891772@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 21:36:53 -0000
+Message-Id: <172488101385.1648110.1067090539055656733@gitolite.kernel.org>
 
---===============2404813520005271384==
+--===============0477058050076698716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/delstid
+  - ref: refs/heads/kdevops
     old: b301ead5d7dce2b07c512cb3a3515362269f719f
     new: 6a41861ad5f1f363e3eda3b5e456a219f3a3effa
     log: revlist-b301ead5d7dc-6a41861ad5f1.txt
 
---===============2404813520005271384==
+--===============0477058050076698716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b8d31639a1d614754d48b3e52caf99906733998b nfsd: have nfsd4_deleg_getattr_conflict
 a80b013c015878779703e5cb5e50e232035c96e9 nfsd: add support for delegated timestamps
 6a41861ad5f1f363e3eda3b5e456a219f3a3effa nfsd: handle delegated timestamps in SETATTR
 
---===============2404813520005271384==--
+--===============0477058050076698716==--
