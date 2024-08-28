@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3794051756569829546=="
+Content-Type: multipart/mixed; boundary="===============8650253703962054888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 28 Aug 2024 11:12:02 -0000
-Message-Id: <172484352240.1239616.6731348753111127360@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 11:13:55 -0000
+Message-Id: <172484363551.1240014.16001943728730876353@gitolite.kernel.org>
 
---===============3794051756569829546==
+--===============8650253703962054888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 766508e7e2c5075eb744cb29b8cef6fa835b0344
-    new: 3f59876ef756dbc7687291fe720c729b830eb257
-    log: revlist-766508e7e2c5-3f59876ef756.txt
+  - ref: refs/heads/vfs.all
+    old: 5f0950705be88cddb50cf87a055b8a5b74a6bda7
+    new: 557611e48183c022409bb5baae6823ade88baf29
+    log: revlist-5f0950705be8-557611e48183.txt
 
---===============3794051756569829546==
+--===============8650253703962054888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-766508e7e2c5-3f59876ef756.txt
+Content-Disposition: attachment; filename=revlist-5f0950705be8-557611e48183.txt
 
+596650f4587ccc7ab15c63816c2e252c55468488 file: reclaim 24 bytes from f_owner
+cabe4a1b9232ae706628d91539eb25c6098cee35 fs: switch f_iocb_flags and f_ra
+181d8cec6dde9ed1c231d5a16ce4463849392f78 fs: pack struct file
+296a6738a8ff42bc7377b33df299154c41ae4bee mm: remove unused root_cache argument
+03bc2d1a92cc51bfb051b87f3f25484bf9d89a17 mm: add kmem_cache_create_rcu()
+504a31f6d62a81c52ab9c30e542d17c0c698e60a fs: use kmem_cache_create_rcu()
+258860652e1ab249b7bf013ba44ef89cc76ead90 Merge patch series "fs,mm: add kmem_cache_create_rcu()"
 6a223e846e6222bec9d57c90d7e0d781ae498aac autofs: add per dentry expire timeout
 8fe15dd70207ae341bcb89f12175492064f34fce vfs: elide smp_mb in iversion handling in the common case
 489e17fed2210508db462acef249b89d3eec6c5d fs: Use in_group_or_capable() helper to simplify the code
@@ -44,5 +51,14 @@ f9fc3f2b5e3b8d0093dd435bfc63f998400776be inode: port __I_SYNC to var event
 34b10fce2bb969ee90d786e024f074e9cad456c9 inode: port __I_LRU_ISOLATING to var event
 dbd5479b432492b47490021c843e8c1f36d0ec7e inode: make i_state a u32
 3f59876ef756dbc7687291fe720c729b830eb257 Merge patch series "fs: add i_state helpers"
+c270b65478ecf626b2094e4f7b08dc0f1d4d2431 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+84a4f81a072e08f3fe5b5635ffc6f72afa9efdad Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+5745eabf4d1b508c1f91e1fa0eebe2d311aeeffe Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+76617ce7023ef9994f6d973c6a80a9bbb0266f89 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+9c507a37168d4979e31337b2b5d32dd920a1b187 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+91a3bab75f50b7debf15f7103d35c30b6b72ebd3 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+fb676ed294672b7a617c7858477d6f914ee1fe32 Merge branch 'vfs.idmap' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+22cbe724ad9c7ec0993cf52717b97e9306331bea Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+557611e48183c022409bb5baae6823ade88baf29 Merge branch 'vfs.file' into vfs.all
 
---===============3794051756569829546==--
+--===============8650253703962054888==--
