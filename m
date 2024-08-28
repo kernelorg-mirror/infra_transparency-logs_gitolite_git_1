@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 28 Aug 2024 04:47:01 -0000
-Message-Id: <172482042162.1010109.18107626998747713400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 28 Aug 2024 05:30:56 -0000
+Message-Id: <172482305669.1035900.18327909032376045343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 862c5757436cd47a1273c812cba09c1a8c03f6ba
-    new: c95be75a0d46d9d8ff7feccde495a8bacccbfe5c
+    old: 3ec3f5fc4a91e389ea56b111a73d97ffc94f19c6
+    new: 86987d84b968b69a610fd00ab9006c13db193b4e
     log: |
-         d2623baf90271149fc8ba4419cc0229d891f2848 foo
-         8b7d556a8d98a3544f0fbb1d92ea3bec43310d5d foo
-         3d9d408a884cd6070953f742852b505fb9de2527 foo
-         6955ecfe93dc81a9697de7860973ee1c5a05748b foo
-         af8ef822a00231854b933715b1ec6e364b2e00df foo
-         6011744be76a0682f3dd76fcb0d2e1a01705198f foo
-         a256599d2b657316198bf08d35fb43733007f464 foo
-         c95be75a0d46d9d8ff7feccde495a8bacccbfe5c foo
+         c724b2ab6a46435b4e7d58ad2fbbdb7a318823cf smb/client: avoid dereferencing rdata=NULL in smb2_new_read_req()
+         b608e2c318789aeba49055747166e13bee57df4a smb/client: remove unused rq_iter_size from struct smb_rqst
+         017d1701743657fbfaea74397727a9d2b81846b7 smb/client: fix rdma usage in smb2_async_writev()
+         416871f4fb84bc96822562e654941d5625a25bf8 cifs: Fix FALLOC_FL_PUNCH_HOLE support
+         08d08e2e9f0ad1af0044e4747723f66677c35ee9 tpm: ibmvtpm: Call tpm2_sessions_init() to initialize session support
+         46d22bfdf0bc76429f596c58ca74a8f67d0f6251 Merge tag 'tpmdd-next-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+         86987d84b968b69a610fd00ab9006c13db193b4e Merge tag 'v6.11-rc5-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
          
