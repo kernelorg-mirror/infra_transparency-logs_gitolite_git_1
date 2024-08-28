@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8385741720264585154=="
+Content-Type: multipart/mixed; boundary="===============6670378393872525728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 28 Aug 2024 20:29:46 -0000
-Message-Id: <172487698633.1603775.2347012965152009229@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 20:30:05 -0000
+Message-Id: <172487700523.1605486.890407693217007225@gitolite.kernel.org>
 
---===============8385741720264585154==
+--===============6670378393872525728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
+  - ref: refs/heads/for-next
     old: 6b1124c4526fb1648a3921a441515ea8a98b92e4
     new: 3536c01d6577ce4612617ced32dbc891f39f9d64
     log: revlist-6b1124c4526f-3536c01d6577.txt
 
---===============8385741720264585154==
+--===============6670378393872525728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d8f2638b835c9c7fd40c64828b576d3b809b399e Merge tag 'qcom-drivers-fixes-for-6.11'
 ec57571b5dda1fdd68b572e1e980c52d1edb0b0d Merge tag 'qcom-arm64-fixes-for-6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
 3536c01d6577ce4612617ced32dbc891f39f9d64 Merge tag 'riscv-soc-fixes-for-v6.11-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 
---===============8385741720264585154==--
+--===============6670378393872525728==--
