@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 28 Aug 2024 00:20:03 -0000
-Message-Id: <172480440302.846857.1217900847082888643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Wed, 28 Aug 2024 01:32:58 -0000
+Message-Id: <172480877804.895707.14311293594636824525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/md-6.12
-    old: 427994079b68c320155342880c4838f9593fb8b9
-    new: b75197e86e6d3de4e611869ef30a27cf414a5f77
+  - ref: refs/heads/for-6.12
+    old: 13acf2b74803a9a9ab3475c306d5814cf3cefbd8
+    new: 43d37fffda9b7ad10ae90122ea532a829bdd2f92
     log: |
-         b75197e86e6d3de4e611869ef30a27cf414a5f77 md: Remove flush handling
+         43d37fffda9b7ad10ae90122ea532a829bdd2f92 ata: ahci_brcm: Use devm_platform_ioremap_resource_byname() helper function
          
