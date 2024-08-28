@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 28 Aug 2024 01:33:35 -0000
-Message-Id: <172480881573.895894.16752063212869107905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 28 Aug 2024 01:38:32 -0000
+Message-Id: <172480911214.899007.3508424339131203145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next
-    old: 66afec7c6992a04f8ab65b54421bdb5f8ac806e6
-    new: 43d37fffda9b7ad10ae90122ea532a829bdd2f92
-    log: |
-         13acf2b74803a9a9ab3475c306d5814cf3cefbd8 ata: libata: Remove obsolete function declarations
-         43d37fffda9b7ad10ae90122ea532a829bdd2f92 ata: ahci_brcm: Use devm_platform_ioremap_resource_byname() helper function
-         
+  - ref: refs/heads/imx/defconfig
+    old: e6e8309debe8a3bef33a5c50c98d478818fb0142
+    new: 8400291e289ee6b2bf9779ff1c83a291501f017b
