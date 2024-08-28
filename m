@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6947696508174311164=="
+Content-Type: multipart/mixed; boundary="===============7417385836742549573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 28 Aug 2024 15:21:32 -0000
-Message-Id: <172485849260.1397002.14289804713699008162@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 15:21:34 -0000
+Message-Id: <172485849470.1397080.11231643503921607147@gitolite.kernel.org>
 
---===============6947696508174311164==
+--===============7417385836742549573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4186c8d9e6af57bab0687b299df10ebd47534a0a
     new: 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7
     log: revlist-4186c8d9e6af-3a0504d54b3b.txt
 
---===============6947696508174311164==
+--===============7417385836742549573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ cb41b195e634d3f1ecfcd845314e64fd4bb3c7aa mptcp: pr_debug: add missing \n at the 
 237c3851dc81f418ef735bb71ef482e126f78ea0 Merge branch 'mptcp-close-subflow-when-receiving-tcp-fin-and-misc'
 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7 sctp: fix association labeling in the duplicate COOKIE-ECHO case
 
---===============6947696508174311164==--
+--===============7417385836742549573==--
