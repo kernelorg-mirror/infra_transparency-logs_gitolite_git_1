@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4182818766015010269=="
+Content-Type: multipart/mixed; boundary="===============0298605742938764679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 28 Aug 2024 17:35:22 -0000
-Message-Id: <172486652228.1488016.14115661745040674120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 28 Aug 2024 17:35:38 -0000
+Message-Id: <172486653879.1488322.5649226954963668547@gitolite.kernel.org>
 
---===============4182818766015010269==
+--===============0298605742938764679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 75560718e83bede12d70b2a6b6940089477f58e4
-    new: 4f451bc91e7a0d198d0ded5e96cdd69c3e5e9e67
-    log: revlist-75560718e83b-4f451bc91e7a.txt
+  - ref: refs/heads/for-next
+    old: 3433229d46ca6679aaa68a01571dfd41f8b2b759
+    new: ab1441e8ac9527138575f2ce09b9f61054b88dc4
+    log: revlist-3433229d46ca-ab1441e8ac95.txt
 
---===============4182818766015010269==
+--===============0298605742938764679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1724866542 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1724866519-cd48d8be53a0ee8db0d5bd54699caa884e178c0e
-
-75560718e83bede12d70b2a6b6940089477f58e4 4f451bc91e7a0d198d0ded5e96cdd69c3e5e9e67 refs/heads/asoc-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbPX+4ACgkQJNaLcl1U
-h9Cwcwf9GNJ7mrGw1t+AOB1hToWrd6EG5W1THcXuCKBoafEsY1tTbTuIgiL+a3XN
-vf6KLuKvXnWH/MSGyNGCRdJsAowJT8BemWHU8f4eahl12ZSrHT7gCaCrDgS4Rg0A
-zLDdLv54KBOKSVm3s9OSxP3PGxTkemngPZEfSYwmNpl9pxtNwoBN/u13zgH6DQVk
-6+ablJYocegvNwl+DbguKMpcqTf9yWxAh1lJzSe4gNUFFDdfTTFFtyRzGQziNjjC
-+JRaztOJekoPIUI37Pq4mn4aBMerIlsGyJ03bBx6pBP0J2e43ZjRBAIpFyrMMZa/
-vmjvvR30hKTQZ7myW+rfaAn/ywBz6w==
-=IeyH
------END PGP SIGNATURE-----
-
---===============4182818766015010269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75560718e83b-4f451bc91e7a.txt
+Content-Disposition: attachment; filename=revlist-3433229d46ca-ab1441e8ac95.txt
 
 6785244f3dfd40fb0671c330de4e953cbc2e2846 ASoC: Intel: sof_sdw: make sof_sdw_quirk static
 1ab959bea29c265d7d219346a72ed15b2490d956 ASoC: Intel: sof_sdw: add rt1320 amp support
@@ -72,5 +47,6 @@ c0524067653d07e78bc215220bc111b6e5e4a94d ASoC: Intel: soc-acpi: arl: Add match e
 290f31e943a29c93532b1684652b04fd60d0f696 ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local function
 a1a94016db4be2957ae35835a25e3cb4c605db7e ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local
 4f451bc91e7a0d198d0ded5e96cdd69c3e5e9e67 ASoC: Intel: boards: updates for 6.12
+ab1441e8ac9527138575f2ce09b9f61054b88dc4 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
 
---===============4182818766015010269==--
+--===============0298605742938764679==--
