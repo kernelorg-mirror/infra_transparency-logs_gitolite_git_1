@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4033938905123245146=="
+Content-Type: multipart/mixed; boundary="===============2757566789299404480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 28 Aug 2024 13:27:58 -0000
-Message-Id: <172485167883.1322964.1163759590512004034@gitolite.kernel.org>
+Date: Wed, 28 Aug 2024 13:28:26 -0000
+Message-Id: <172485170601.1323212.9609083756751188533@gitolite.kernel.org>
 
---===============4033938905123245146==
+--===============2757566789299404480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: cc8bc270e092b5023b3f530e74eaa16d126d0445
-    new: e7707283cad96dc909b8fcaade30d61db62eefe7
-    log: revlist-cc8bc270e092-e7707283cad9.txt
+  - ref: refs/heads/next
+    old: 08d08e2e9f0ad1af0044e4747723f66677c35ee9
+    new: 86987d84b968b69a610fd00ab9006c13db193b4e
+    log: revlist-08d08e2e9f0a-86987d84b968.txt
 
---===============4033938905123245146==
+--===============2757566789299404480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc8bc270e092-e7707283cad9.txt
+Content-Disposition: attachment; filename=revlist-08d08e2e9f0a-86987d84b968.txt
 
 b7fd10333713e9984cc9b9c04f3681f80efdc809 pinctrl: qcom: x1e80100: Update PDC hwirq map
 49f6202ce991742f451fc724f03d0c17460d06cd ASoC: codecs: lpass-macro: fix version strings returned for 1.x codecs
@@ -67,7 +67,5 @@ b608e2c318789aeba49055747166e13bee57df4a smb/client: remove unused rq_iter_size 
 3ec3f5fc4a91e389ea56b111a73d97ffc94f19c6 Merge tag 'livepatching-for-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 46d22bfdf0bc76429f596c58ca74a8f67d0f6251 Merge tag 'tpmdd-next-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 86987d84b968b69a610fd00ab9006c13db193b4e Merge tag 'v6.11-rc5-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-e6fdc4b8d308d5a45f8cfd5f7d4bd2fe175568a5 tpm: Clean up TPM space after command failure
-e7707283cad96dc909b8fcaade30d61db62eefe7 KEYS: Remove unused declarations
 
---===============4033938905123245146==--
+--===============2757566789299404480==--
