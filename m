@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 28 Aug 2024 21:39:24 -0000
-Message-Id: <172488116488.1649190.14745065554068863143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 28 Aug 2024 21:53:30 -0000
+Message-Id: <172488201084.1658197.8188806579642892642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/master
-    old: e5ac6a7c44cc5c5387d46f72f438b48ed63e323e
-    new: 0333e2fff7d59cae2c101909831f391a86005746
+  - ref: refs/heads/modules-next
+    old: f94ce04e54038c37bcac8ae2e4e99a81a188b777
+    new: 907fa79d787f6f762c0afb67b8b02be8ed1f7bd2
     log: |
-         0333e2fff7d59cae2c101909831f391a86005746 foo
+         907fa79d787f6f762c0afb67b8b02be8ed1f7bd2 MAINTAINERS: scale modules with more reviewers
          
