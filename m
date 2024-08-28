@@ -1,64 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8650253703962054888=="
+Content-Type: multipart/mixed; boundary="===============6891015949952109076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 28 Aug 2024 11:13:55 -0000
-Message-Id: <172484363551.1240014.16001943728730876353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 28 Aug 2024 11:18:16 -0000
+Message-Id: <172484389692.1243019.2358605581506315798@gitolite.kernel.org>
 
---===============8650253703962054888==
+--===============6891015949952109076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs.all
-    old: 5f0950705be88cddb50cf87a055b8a5b74a6bda7
-    new: 557611e48183c022409bb5baae6823ade88baf29
-    log: revlist-5f0950705be8-557611e48183.txt
+  - ref: refs/heads/main
+    old: d07e1f5c745058d1805e7d8042b9a326b120cb6e
+    new: 20361712880396e44ce80aaeec2d93d182035651
+    log: |
+         ac35180032fbc5d80b29af00ba4881815ceefcb6 wifi: mac80211: fix RCU list iterations
+         67bb124cd9ae38870667e4f9c876ef8e0f82ec44 wifi: mac80211: Check for missing VHT elements only for 5 GHz
+         8109b226f23af2b9f4a866196349992e5cdfc5d8 wifi: mac80211: scan: Use max macro
+         20361712880396e44ce80aaeec2d93d182035651 wifi: cfg80211: Set correct chandef when starting CAC
+         
 
---===============8650253703962054888==
+--===============6891015949952109076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f0950705be8-557611e48183.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-596650f4587ccc7ab15c63816c2e252c55468488 file: reclaim 24 bytes from f_owner
-cabe4a1b9232ae706628d91539eb25c6098cee35 fs: switch f_iocb_flags and f_ra
-181d8cec6dde9ed1c231d5a16ce4463849392f78 fs: pack struct file
-296a6738a8ff42bc7377b33df299154c41ae4bee mm: remove unused root_cache argument
-03bc2d1a92cc51bfb051b87f3f25484bf9d89a17 mm: add kmem_cache_create_rcu()
-504a31f6d62a81c52ab9c30e542d17c0c698e60a fs: use kmem_cache_create_rcu()
-258860652e1ab249b7bf013ba44ef89cc76ead90 Merge patch series "fs,mm: add kmem_cache_create_rcu()"
-6a223e846e6222bec9d57c90d7e0d781ae498aac autofs: add per dentry expire timeout
-8fe15dd70207ae341bcb89f12175492064f34fce vfs: elide smp_mb in iversion handling in the common case
-489e17fed2210508db462acef249b89d3eec6c5d fs: Use in_group_or_capable() helper to simplify the code
-afe9bc60b7ec9433ecf2c32b550eeb9fc1d6b647 doc: correcting the idmapping mount example
-c943c82f614f7ac8af69fb2cff0226c0ce5619f2 inode: remove __I_DIO_WAKEUP
-a2e2178f3209de4b565fa25328a3906b8162c18b debugfs show actual source in /proc/mounts
-df37e1e53c7c53577d09a4a905f94e3c79a49fd3 vfs: drop one lock trip in evict()
-6af0ec2a0ae2283117a333da4ef319d3df9c00ce fs: remove unused path_put_init()
-3125625795796e591bf151135f1b908f7dbd75cd fs: s/__u32/u32/ for s_fsnotify_mask
-6a4d23515f3b8c0a4da0c37d19effbcaa73a6f40 MAINTAINERS: add the VFS git tree
-d126e3782fd87c0eea6b7aebe78e0968fb9fbe02 vfs: fix race between evice_inodes() and find_inode()&iput()
-7864f8a6cc92856b4bd856a76f2947942207a434 fs: add i_state helpers
-86aa46a86f9c01f1ab91acd243a9e5ba460b9dcd fs: reorder i_state bits
-f9fc3f2b5e3b8d0093dd435bfc63f998400776be inode: port __I_SYNC to var event
-2cef0e1dc8e62bd656dddd7e2f125ce1a2218dab inode: port __I_NEW to var event
-34b10fce2bb969ee90d786e024f074e9cad456c9 inode: port __I_LRU_ISOLATING to var event
-dbd5479b432492b47490021c843e8c1f36d0ec7e inode: make i_state a u32
-3f59876ef756dbc7687291fe720c729b830eb257 Merge patch series "fs: add i_state helpers"
-c270b65478ecf626b2094e4f7b08dc0f1d4d2431 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-84a4f81a072e08f3fe5b5635ffc6f72afa9efdad Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-5745eabf4d1b508c1f91e1fa0eebe2d311aeeffe Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-76617ce7023ef9994f6d973c6a80a9bbb0266f89 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-9c507a37168d4979e31337b2b5d32dd920a1b187 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-91a3bab75f50b7debf15f7103d35c30b6b72ebd3 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-fb676ed294672b7a617c7858477d6f914ee1fe32 Merge branch 'vfs.idmap' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-22cbe724ad9c7ec0993cf52717b97e9306331bea Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-557611e48183c022409bb5baae6823ade88baf29 Merge branch 'vfs.file' into vfs.all
+certificate version 0.1
+pusher 7BF9099A 1724843895 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1724843873-6c3b91fced1342ef56723d9045a1860d5a5532ac
 
---===============8650253703962054888==--
+d07e1f5c745058d1805e7d8042b9a326b120cb6e 20361712880396e44ce80aaeec2d93d182035651 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmbPB3cACgkQ10qiO8sP
+aADv3w/8DEMm8OUS+zAg+rrcVz14t2HNYIjPeyWQnRwnXFjZK56uI6QvGBV8L4v5
+QxFS2DeSLdKt/vHKY+/Bi6TSAbhjtoVxelHlkY5y8m1MrCa2XsKjy8prCnLKjXao
+T7jOJe4qWzvnHdvA63KiKqEj2hqeVRKgA6jqYj4OLFGxZex/OIwk3eErK5RROVcO
+Idx3ikofdgFhXKRn7IT8gudUcMXtxHDB99AYFm/UVohDCGTVF8IWzgkP8P6JOjIC
+WzTj5iq94xwjOtaGJf9cP4XV04By6bSLvyuiD/zN8KRvt/7PEQXcQRJ4IE+F6bm+
+jvZmCzywPzcVQWF5Q7AqvSG5iJveyoij3rLQixDqUC+y9t/vPGO/loH0tdPe18VS
+/0vqSi20nyWsDxk773PfzCMV2xemGTRHEewy6qsHIrLXWiPtVF0irChyLlMXA8JD
+h4o2cYV06tphmvKm3i19z33lB3Bg972as/aVVe1+oDg9R2W92aOKhFwYfHpZw3zY
+xJVfKjn6nmXLv1SfQo1jO/9GBONxQvgx6G44HbDlAj8JGYV8bIdwtW1RZqy27wc9
+roqZlRdmlxSTQwNoVkKroBTnYS1ewrAHnqKr4xKnhRe2DBEtFbhlxYgBUKGVOvsZ
+lCr5xDsFCSaxDJjAwadQxA3Dk2LPaU/4WupXeaiJZrZKRzOvfI0=
+=R7Q6
+-----END PGP SIGNATURE-----
+
+--===============6891015949952109076==--
