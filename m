@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 28 Aug 2024 15:22:07 -0000
-Message-Id: <172485852767.1397762.12480253649641937973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 28 Aug 2024 15:24:13 -0000
+Message-Id: <172485865359.1398379.4745502582851182413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/next
-    old: f5e1638bf3c785600e2ab53e5532007af5296581
-    new: eea2b5d9bc41478796b3e8dd3c9a16b49671d36c
+  - ref: refs/heads/master
+    old: 612e076222cf6685aa0e5efe1aafa13b2f6b9fac
+    new: faf107bbca9f31b6747e5d03588d6e491d316414
     log: |
-         6e540da4c1db7b840e347c4dfe48359b18b7e376 mmc: sdhci-of-aspeed: fix module autoloading
-         7eb42da6ab4a963677e3f692c4debdcc781cf4c9 mmc: sdhci-of-dwcmshc: Add hw_reset() support for BlueField-3 SoC
-         8396c793ffdf28bb8aee7cfe0891080f8cab7890 mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K
-         eea2b5d9bc41478796b3e8dd3c9a16b49671d36c mmc: Merge branch fixes into next
+         c4044633ef77ee5718dad6191834b72801dbba01 netlink: Add l_netlink_iter
+         66818e1d929d9f880aeec48e8e98d57a2689adb7 unit: Use the new l_netlink_attr API
+         b28aef008c2de0b18b7f4ee54397c304b1abee85 netlink: Add l_netlink_message_append_string
+         d29651d1839d3409356dd8e84cd7b85816768a14 netlink: Add l_netlink_request_sent
+         080ad37d31e724763b320b432c8887f9586fb9f2 util: Handle NULL pointers in l_safe_ato* functions
+         faf107bbca9f31b6747e5d03588d6e491d316414 rtnl: Add l_rtnl_link_set_mtu
          
