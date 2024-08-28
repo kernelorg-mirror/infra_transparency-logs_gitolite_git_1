@@ -1,42 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 28 Aug 2024 20:52:12 -0000
-Message-Id: <172487833266.1619466.6744281384039484702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 28 Aug 2024 20:55:01 -0000
+Message-Id: <172487850191.1620660.17870740542082567138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: 6b9039a36ce18df63d9079b699e59784b29377f0
-    new: a1bccba154c5eb5071497bebcf5b0b4e3a3dcc84
+  - ref: refs/heads/for-next/scmi/updates
+    old: c49438109fd362dd5eb47fbf8a325d13b1c271b6
+    new: 3885278cae9a8bfa11398cd0c3c83f82ef7107ac
     log: |
-         2496910c84a4bd1aa2c10fe57cf4ae1cbcab17f4 clk: rockchip: px30: Drop CLK_NR_CLKS CLKPMU_NR_CLKS usage
-         ec4f4261c315d9bc30bb1bb8c3bb17cbaebe7741 clk: rockchip: rk3036: Drop CLK_NR_CLKS usage
-         819b2e19a9f7dc9e84a00e2f6da2b2f15a01cee6 clk: rockchip: rk3228: Drop CLK_NR_CLKS usage
-         545b1313c5a24eed0e4d34554c715b46686251ff clk: rockchip: rk3288: Drop CLK_NR_CLKS usage
-         31fe14956883bc09846ce239993e215330218a6f clk: rockchip: rk3308: Drop CLK_NR_CLKS usage
-         0758fe99bc969294c2391de145b67c1223c7b104 clk: rockchip: rk3328: Drop CLK_NR_CLKS usage
-         41563197e7f2a0b449476bbbe931cb2806e84966 clk: rockchip: rk3368: Drop CLK_NR_CLKS usage
-         1a229868852ffe1d59f6bdad1e473d9d5f9e14bb clk: rockchip: rk3399: Drop CLK_NR_CLKS CLKPMU_NR_CLKS usage
-         fb234516c5a0728d7dbd718667c33c1523b55fe8 dt-bindings: clock: rockchip: remove CLK_NR_CLKS and CLKPMU_NR_CLKS
-         a1bccba154c5eb5071497bebcf5b0b4e3a3dcc84 Merge branch 'v6.12-clk/next' into for-next
-         
-  - ref: refs/heads/v6.12-clk/next
-    old: 1d34b9757523c1ad547bd6d040381f62d74a3189
-    new: fb234516c5a0728d7dbd718667c33c1523b55fe8
-    log: |
-         2496910c84a4bd1aa2c10fe57cf4ae1cbcab17f4 clk: rockchip: px30: Drop CLK_NR_CLKS CLKPMU_NR_CLKS usage
-         ec4f4261c315d9bc30bb1bb8c3bb17cbaebe7741 clk: rockchip: rk3036: Drop CLK_NR_CLKS usage
-         819b2e19a9f7dc9e84a00e2f6da2b2f15a01cee6 clk: rockchip: rk3228: Drop CLK_NR_CLKS usage
-         545b1313c5a24eed0e4d34554c715b46686251ff clk: rockchip: rk3288: Drop CLK_NR_CLKS usage
-         31fe14956883bc09846ce239993e215330218a6f clk: rockchip: rk3308: Drop CLK_NR_CLKS usage
-         0758fe99bc969294c2391de145b67c1223c7b104 clk: rockchip: rk3328: Drop CLK_NR_CLKS usage
-         41563197e7f2a0b449476bbbe931cb2806e84966 clk: rockchip: rk3368: Drop CLK_NR_CLKS usage
-         1a229868852ffe1d59f6bdad1e473d9d5f9e14bb clk: rockchip: rk3399: Drop CLK_NR_CLKS CLKPMU_NR_CLKS usage
-         fb234516c5a0728d7dbd718667c33c1523b55fe8 dt-bindings: clock: rockchip: remove CLK_NR_CLKS and CLKPMU_NR_CLKS
+         7d2b23fda9961e7bfdd063a1708445b101a831c5 dt-bindings: firmware: Add i.MX95 SCMI Extension protocol
+         c66beeab7436de419b6f3281479d702c1b0eb915 firmware: arm_scmi: Add NXP i.MX95 SCMI documentation
+         41845541adebc503b8574943c92670016d5e566b firmware: arm_scmi: Add initial support for i.MX BBM protocol
+         61c9f03e22fc57fe61726c513b1f92c0ed1ef00f firmware: arm_scmi: Add initial support for i.MX MISC protocol
+         0b4f8a68b292e7ee82107b1ce15c3aad31c864b1 firmware: imx: Add i.MX95 MISC driver
+         d17baf052cbbd793784bc0f4fc613459afa4b883 input: keyboard: support i.MX95 BBM module
+         3885278cae9a8bfa11398cd0c3c83f82ef7107ac rtc: support i.MX95 BBM RTC
          
