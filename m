@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 29 Aug 2024 12:44:12 -0000
-Message-Id: <172493545277.2277425.14604791576412796742@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 12:44:16 -0000
+Message-Id: <172493545624.2277519.5580936340153600803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
+  - ref: refs/heads/delstid
     old: d5793c7856de90fd9e86008be29cfae8193deaf9
     new: 5420568b4c28e266fa02db23d0062795d331f5b2
     log: |
