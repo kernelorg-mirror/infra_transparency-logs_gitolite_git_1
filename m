@@ -1,20 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 29 Aug 2024 07:36:30 -0000
-Message-Id: <172491699002.2064141.3151550759810686718@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0334784045291743272=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 29 Aug 2024 07:46:16 -0000
+Message-Id: <172491757638.2070069.16459035063294417324@gitolite.kernel.org>
+
+--===============0334784045291743272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: 1093a3758142ce8613341ae39fb4591383d5df0a
-    new: 4b851ed48f050f6446b8267b712925aea46c9b39
+  - ref: refs/heads/slab/for-6.12/misc
+    old: 3beb2fb68184fda063cdd3cdd3bbe52c5cae56bb
+    new: c0957dff267833ec26a537a3c2ac4fcff6db476b
     log: |
-         4641c7ea88d1029500ff64c4d0a1df0584b1bfcc KVM: arm64: selftests: Cope with lack of GICv3 in set_id_regs
-         4b851ed48f050f6446b8267b712925aea46c9b39 Merge branch kvm-arm64/vgic-sre-traps into kvmarm-master/next
+         c0957dff267833ec26a537a3c2ac4fcff6db476b mm, slub: avoid zeroing kmalloc redzone
          
+
+--===============0334784045291743272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1724917593 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1724917571-85133601340c83fcd239700ca1955ccdf9d5010c
+
+3beb2fb68184fda063cdd3cdd3bbe52c5cae56bb c0957dff267833ec26a537a3c2ac4fcff6db476b refs/heads/slab/for-6.12/misc
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbQJ1kACgkQu+CwddJF
+iJr4cQf/Qqgl/mZYsIBt2wvj4SWSdAJS1M/wiu8prhpypvGrsj01I3PckjAnBv+c
+8k7vhq47sn3uy/RPPunBStDGmHsp+4GUEYWw9ptvBCj9RpEPEjwYBzZWn7xShVJf
+ic/qG0ly+Ea+Np5KbWxPAyerGTe+uQKplwhHkL6MN+B7kf/93FaIeena0Rn4FPCp
+/+Q5vZX08RTlvWmczGxaKtNrF9q9kdKMWWiXpeujmjZwUQNmMx/VBg5zS9gStvSI
+qGa5v/loqF6iUiWnYG+G6zxzSwsarQHOZwcIuYfiGRWpdqz8kWjCNga1H33ZAyBw
+0JEnP8iKi0eAuWsRkB1yzCsQWfX/tA==
+=vLI+
+-----END PGP SIGNATURE-----
+
+--===============0334784045291743272==--
