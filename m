@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 29 Aug 2024 15:53:01 -0000
-Message-Id: <172494678135.2545214.12215812703680357916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 29 Aug 2024 15:54:02 -0000
+Message-Id: <172494684277.2545559.7883797176238138667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 5785ffa3900938badbf6776348dc2a94bc0d6444
-    new: c858dc985d7095f2948e83e4ba732f317964d4f0
+  - ref: refs/heads/objtool-diff
+    old: 79b64d765851ba61bc04526c3af9488498c7dad2
+    new: da1f797dee2ac4d571ebcf549b54c45ce8e86b7d
     log: |
-         4e76e85acacd6258a3cb54f23f63442407e4e1f0 Revert "Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE"
-         c858dc985d7095f2948e83e4ba732f317964d4f0 Bluetooth: MGMT: Ignore keys being loaded with invalid type
+         da1f797dee2ac4d571ebcf549b54c45ce8e86b7d todo
          
