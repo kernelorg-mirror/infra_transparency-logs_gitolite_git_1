@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 29 Aug 2024 00:50:45 -0000
-Message-Id: <172489264575.1767105.10817454608742321522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Aug 2024 00:54:39 -0000
+Message-Id: <172489287942.1767892.579772854494203661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e24a6c874601efb3de6e535895dd8e4f56fa98f1
-    new: ad78337cb20c1a52781a7b329b1a747d91be3491
+    old: 41901c227e00ca6cd1a42d1d59a51f3a5af1621b
+    new: 0870b0d8b393dde53106678a1e2cec9dfa52f9b7
     log: |
-         646f071d315b75e87583de290d333478d42ccde1 net: netvsc: Update default VMBus channels
-         ad78337cb20c1a52781a7b329b1a747d91be3491 net: ethtool: cable-test: Release RTNL when the PHY isn't found
+         0870b0d8b393dde53106678a1e2cec9dfa52f9b7 net: busy-poll: use ktime_get_ns() instead of local_clock()
          
