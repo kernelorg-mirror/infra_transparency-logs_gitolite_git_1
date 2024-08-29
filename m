@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 29 Aug 2024 20:06:13 -0000
-Message-Id: <172496197327.2753804.11520485200837468173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 29 Aug 2024 20:56:22 -0000
+Message-Id: <172496498203.2810784.16099026885350909771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: d897a6bdbb793787587a38d87cdc15fe24a1b63e
-    new: f4ac972c0a7d925fbad63aa394bf3699c6835193
-    log: |
-         f4ac972c0a7d925fbad63aa394bf3699c6835193 Thu Aug 29 04:05:25 PM EDT 2024
-         
+  - ref: refs/tags/mlx5-updates-2024-08-29
+    old: 0000000000000000000000000000000000000000
+    new: 97912335268587ed5fee17d52091e7618b7659ee
