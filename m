@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 29 Aug 2024 15:51:29 -0000
-Message-Id: <172494668939.2544585.6879728452058269454@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 15:51:38 -0000
+Message-Id: <172494669869.2544728.5503862003180114206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next.v14
+  - ref: refs/heads/nfs-localio-for-next
     old: 0ec28d8e0c3d5f8bf9cbef513d13383b5f3fab45
     new: 0e90f0342173f918583601da069b9b4082c3ba11
     log: |
