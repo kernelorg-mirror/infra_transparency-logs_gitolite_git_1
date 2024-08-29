@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 29 Aug 2024 14:41:11 -0000
-Message-Id: <172494247178.2354585.2956900871824052028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 29 Aug 2024 14:42:00 -0000
+Message-Id: <172494252024.2354901.12450010299928851371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/nfsd-next
-    old: ada7d1ab3aa1266b24d08aa4b3df93360a203924
-    new: 78148471c154ad9daf49b3818b12925e56fd547b
+  - ref: refs/heads/irq/core
+    old: 92f9d825b12fa3f6c14b42405489880d0694c96f
+    new: 4609c6eab67bb1785a5337ddafb5c74c796bcd35
     log: |
-         35f581ca107cdfe5b7149e6bb8bf4a6235808c71 NFSD: Annotate struct pnfs_block_deviceaddr with __counted_by()
-         293aa814a61b039493d24ffca113316375a80b95 tools: Add xdrgen
-         78148471c154ad9daf49b3818b12925e56fd547b NFSD: Create an initial nfs4_1.x file
+         c7718e5c76d49b5bb394265383ae51f766d5dd3a genirq/proc: Correctly set file permissions for affinity control files
+         9012f84e1c5b653c282b7a6cca81454ecf7c5a0a genirq/proc: Use irq_move_pending() in show_irq_affinity()
+         eb29369fa543e7d5557c19ebecf072244bb14815 genirq/proc: Change the return value for set affinity permission error
+         bf1e0fb69a15fac4d6ee71d0e1c715147add986a genirq/msi: Use kmemdup_array() instead of kmemdup()
+         4609c6eab67bb1785a5337ddafb5c74c796bcd35 irqdomain: Use IS_ERR_OR_NULL() in irq_domain_trim_hierarchy()
          
