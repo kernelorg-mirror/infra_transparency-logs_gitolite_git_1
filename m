@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6552167382158073102=="
+Content-Type: multipart/mixed; boundary="===============0952732330573511670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 29 Aug 2024 12:07:20 -0000
-Message-Id: <172493324007.2251038.6540827935935937571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 29 Aug 2024 12:07:26 -0000
+Message-Id: <172493324618.2251181.214900096200684326@gitolite.kernel.org>
 
---===============6552167382158073102==
+--===============0952732330573511670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     new: 5be63fc19fcaa4c236b307420483578a56986a37
     log: revlist-7c626ce4bae1-5be63fc19fca.txt
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regulator-6.12
     old: bff5ca83791801b33c1e973e81d077ddc7530e33
     new: dd72a3b8a6007b44ed3b85e1d606afc434879e70
     log: |
@@ -28,32 +28,32 @@ changes:
          dd72a3b8a6007b44ed3b85e1d606afc434879e70 regulator: qcom_spmi: Use of_property_read_bool()
          
 
---===============6552167382158073102==
+--===============0952732330573511670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1724933260 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1724933237-fca636d2f9608799df5b25d013d1d9e11343bd99
+pusher C3F436CA30F5D8EB 1724933266 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1724933243-a81ecbba51aa8c3fadf983e55c86149b533a979b
 
-7c626ce4bae1ac14f60076d00eafe71af30450ba 5be63fc19fcaa4c236b307420483578a56986a37 refs/heads/for-6.11
-bff5ca83791801b33c1e973e81d077ddc7530e33 dd72a3b8a6007b44ed3b85e1d606afc434879e70 refs/heads/for-6.12
+7c626ce4bae1ac14f60076d00eafe71af30450ba 5be63fc19fcaa4c236b307420483578a56986a37 refs/heads/regulator-6.11
+bff5ca83791801b33c1e973e81d077ddc7530e33 dd72a3b8a6007b44ed3b85e1d606afc434879e70 refs/heads/regulator-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbQZIwACgkQJNaLcl1U
-h9DEGAf+MGjv9dzGBE3P3RnROZwsfOXL/PUzKETpTAxXdr0w9PYyGeNmd8ruH0il
-+MgUgdwGDEm8NEbq6qXSdbzW44sYqqA7m9ACYijk7MkEUOplY4YX/DzpA7/obBhj
-GeyGnQT4mzdxA8k92b1F4R8WtdnJ0b/5y9Kg66pupl6r/zQ+HZO0Ku4RYNKo4cdr
-Fgl87hy8p2wVI0aPL+mqFz3dhLa45o8cqBwxuPJW21xRVKOhjGHYWLyNPFub/JCy
-MmevjPeTGODnxaGFJkwyJlN6Sv4IkTcOIXRHJH0T/qdXY4v3XpUU0NHcTzACyl/8
-z7jr2WuQUrqcW3OpAMVjmFIZ4lwi4w==
-=HKSE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbQZJIACgkQJNaLcl1U
+h9AKpAf7BfKUu2zKY6yxN3Q5Y9HeC3UEAp5Q38Y2iJ4ufHE74mnPIKpiBZpFTzwE
+eOxpWhBforE6wruGy9Cp3Szw8VVDVJsnBAnkPpD3g10DubQ4mu44explfYEtaNSr
+6Dv3TPAvAdPmSCQ8d6U4dbO4OaPWbAr1KL9IBE1EudGC+AEfK2y3P/mhrql2L7NR
+DjHt/JaEcS7lknyK/buSs37O3P7UyGqmwrNXuZqOUQQlJo612ECIdNcfetV/zBkZ
+5LagH46BV/BoI5kOfoeRpTdSZoRvInyJVnm/6Wj3u6qHRF4xHNs13Qag2oSZ6rmk
+uh9BEREs/kqVfqAfynH1lb669runZA==
+=FuB/
 -----END PGP SIGNATURE-----
 
---===============6552167382158073102==
+--===============0952732330573511670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -733,4 +733,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============6552167382158073102==--
+--===============0952732330573511670==--
