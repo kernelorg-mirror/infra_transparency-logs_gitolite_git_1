@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4314432543213189956=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 29 Aug 2024 17:36:38 -0000
-Message-Id: <172495299862.2616983.688831664578270297@gitolite.kernel.org>
-
---===============4314432543213189956==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 29 Aug 2024 17:37:51 -0000
+Message-Id: <172495307171.2617394.13327482425171188412@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/spi-6.12
-    old: 2fe6102bf01a5f4f48f211c2e5c8a274342fccb1
-    new: 3959d1f0f8d6682aa896a8f78a9f5ebfd2b6f6c8
+  - ref: refs/heads/for-next
+    old: f341d7bb24025a4ae90d57e0690a80d74a2a882c
+    new: 5366a104f6bef8fa66b26d93a3ffba21b7a11864
     log: |
-         8a0ec8c2d736961ff556e9d331decda9048fe0f1 spi: Insert the missing pci_dev_put()before return
-         ac7ee784fd00e90542411f113650222c82f86bfd dt-bindings: trivial-devices: Document elgin,jg10309-01
-         ab3f6e159204864f2bc208599d4652d10a4824ac spi: spidev: Add an entry for elgin,jg10309-01
-         3959d1f0f8d6682aa896a8f78a9f5ebfd2b6f6c8 spi: nxp-fspi: Use max macro
+         0296f20c72d23f41ca0ccd64eb849e9ef1aa8977 ARM: dts: rockchip: Do not describe unexisting DAC device on rv1108-elgin-r1
+         5366a104f6bef8fa66b26d93a3ffba21b7a11864 Merge branch 'v6.12-armsoc/dts32' into for-next
          
-
---===============4314432543213189956==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1724953018 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1724952996-ba65dac746317c8cdef9db6fc94aba0c773619af
-
-2fe6102bf01a5f4f48f211c2e5c8a274342fccb1 3959d1f0f8d6682aa896a8f78a9f5ebfd2b6f6c8 refs/heads/spi-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbQsboACgkQJNaLcl1U
-h9ASOAf/YAphHVRMJAH92CMK/DpjBX/Ehsrwt6mz0BZNItRj1NpqU7M2YZ8FTNCB
-25HCaAksyKKyvwz5Am/niYqcJcaAzdMbK2/mY399qTEa+WyahFqm2TMxlGGpe5Jq
-ZhEKyLSrVeCUO76Gp/fxFpHQV8bpjGEiR36WpPO1ojDK6wLz/vtzTQDDlIWjx93v
-lcxhNq9hBIkCeQnn92Id2QG0K4g7oSqdBNoec/uvYH/0OxmheqbaHi7cF7UHehsJ
-pUv5WtRfzhdjMh9lyk/tr0irgPbJixsBCVa6/xx6LExXE16YJZ7eIbDByMw4n0vP
-SnKmbUTkna6pfXnslvHnEhdSokTs8Q==
-=vV3y
------END PGP SIGNATURE-----
-
---===============4314432543213189956==--
+  - ref: refs/heads/v6.12-armsoc/dts32
+    old: fc5aa1ba77c78c17d2c1ddb94e7aca3f4f32efcf
+    new: 0296f20c72d23f41ca0ccd64eb849e9ef1aa8977
+    log: |
+         0296f20c72d23f41ca0ccd64eb849e9ef1aa8977 ARM: dts: rockchip: Do not describe unexisting DAC device on rv1108-elgin-r1
+         
