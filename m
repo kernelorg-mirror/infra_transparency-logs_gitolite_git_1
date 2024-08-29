@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1228807005503954536=="
+Content-Type: multipart/mixed; boundary="===============4159006628427870993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 29 Aug 2024 12:21:56 -0000
-Message-Id: <172493411660.2262091.10241804271841925252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 29 Aug 2024 12:22:02 -0000
+Message-Id: <172493412273.2262244.215057706541230939@gitolite.kernel.org>
 
---===============1228807005503954536==
+--===============4159006628427870993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: e17465f78eb92ebb4be17e35d6c0584406f643a0
     new: be721b451affbecc4ba4eaac3b71cdbdcade1b1b
     log: revlist-e17465f78eb9-be721b451aff.txt
 
---===============1228807005503954536==
+--===============4159006628427870993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1724934136 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1724934114-36efef9b8ec6aa0f83540c731dd6d61b5eb7a425
+pusher C3F436CA30F5D8EB 1724934142 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1724934120-96e32f272ed43eff5e817e1a31f8f1b1ed2aae30
 
-e17465f78eb92ebb4be17e35d6c0584406f643a0 be721b451affbecc4ba4eaac3b71cdbdcade1b1b refs/heads/for-6.11
+e17465f78eb92ebb4be17e35d6c0584406f643a0 be721b451affbecc4ba4eaac3b71cdbdcade1b1b refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbQZ/gACgkQJNaLcl1U
-h9D0sgf/bVtRLng7lcPLW0IBdqHH2S4icMWkIsO1gAhzqHjhgqlcl3tMc9agws94
-+UbZHGaOrMrckbO/DQ8p8/ZPAKNGXE3TKu4lv4nDWV9K4IEcSDZV6TmXNpuSZP+V
-7xt1z2Jew8123QZPHxi3sI47VWypiZy1l3sdO5VvQFu34Nm26Dz03HMmSpXz52fz
-N1xDDb8XPjp3rk/McRjbWIrqg7o+oqKVRxzfE3sgeqLQqht0U9+ru0rKdGjvgFzE
-SB+70OTk5W63XC9CKbb4TkByEqTzjl+lkiufrm7EjB7h2k0pcFFx4PN4Yzh6I0VS
-DW9Aa13MN3F7m7hHMd8Wmi6ZOlLhKA==
-=int1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbQZ/8ACgkQJNaLcl1U
+h9A8WQf+NAGszHwoknZlEEtWbneuljalYyxp+moVEqdZYOdWUQM8QGtJhmOhosk9
+B0qs4G7wJ4d9jaToz5hX2uj+647dsIz29ouyOm+15afaOcZFx7a5WG9BqCw13I7C
+TE2S2g6HlNfQp/W6Li8tVrtUoMOG4saTj/SzuNodYQxYiQgzfA8eNtgrVxHcQpOg
+Ghua6PW5DAqPDnrmaC38T/XNd7g2uzYQBTQSgwsDk0HmSOhdVUb2nw+619NGuF4b
+0K6u7aL+W83KU25BnkwRnqu0aAL6LuvGzOIvqwKhJKJrn4ShPx3SOXBzudg3PRiH
+QgJDbBYSeHYoxiwwVZqrDmTc/MqYsA==
+=tOaB
 -----END PGP SIGNATURE-----
 
---===============1228807005503954536==
+--===============4159006628427870993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -721,4 +721,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 be721b451affbecc4ba4eaac3b71cdbdcade1b1b spi: rockchip: Resolve unbalanced runtime PM / system PM handling
 
---===============1228807005503954536==--
+--===============4159006628427870993==--
