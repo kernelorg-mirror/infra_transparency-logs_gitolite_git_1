@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 29 Aug 2024 15:12:00 -0000
-Message-Id: <172494432002.2376493.7460073056499242912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 29 Aug 2024 15:12:30 -0000
+Message-Id: <172494435092.2376662.5992996378178147335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/dev-test
-    old: b45adcbdf48df5f488f118bc459e1fc7a94ace68
-    new: b4f122f3634db5ba66a71d11ed7761a594114792
+  - ref: refs/heads/dev
+    old: d6bd12e80bf94b055def6ff708e76f836b4b17ad
+    new: ce4a60592ee03e8f6900bf9bf2a6108cd1a9903c
     log: |
-         b4f122f3634db5ba66a71d11ed7761a594114792 erofs: Prevent entering an infinite loop when i is 0
+         ce4a60592ee03e8f6900bf9bf2a6108cd1a9903c lsm: Use IS_ERR_OR_NULL() helper function
          
