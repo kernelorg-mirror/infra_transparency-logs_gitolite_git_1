@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 29 Aug 2024 15:19:49 -0000
-Message-Id: <172494478906.2381485.11816773193049404275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 29 Aug 2024 15:24:38 -0000
+Message-Id: <172494507801.2430839.14550323065966852990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 47b3b6435e4bfb61ae8ffc63a11bd3c310f69acf
-    new: 0fd77ae4a3c94eca3f07e01083680ad0056df628
+  - ref: refs/heads/arm64-sme-signal-vl-change-test
+    old: 5c1e9ebc89120f5526a22bdb0a34d5cbb7edbae3
+    new: 504fe72cfb0396e46c3c1faaa2f7d343a536e438
     log: |
-         0fd77ae4a3c94eca3f07e01083680ad0056df628 Revert "tools build: Remove leftover libcap tests that prevents fast path feature detection from working"
+         504fe72cfb0396e46c3c1faaa2f7d343a536e438 kselftest/arm64: Actually test SME vector length changes via sigreturn
          
