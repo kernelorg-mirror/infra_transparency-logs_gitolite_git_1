@@ -1,57 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6277655496805500091=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 29 Aug 2024 09:04:20 -0000
-Message-Id: <172492226073.2118531.10461943357716376330@gitolite.kernel.org>
-
---===============6277655496805500091==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 29 Aug 2024 09:23:48 -0000
+Message-Id: <172492342827.2130442.15490176674801607635@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 7b6f04efc73bdfdb2a4ba51631a9871f1f625040
-    new: 1a56849e175d498fba768136878673fd82c1fb9d
+  - ref: refs/heads/for-next
+    old: a1bccba154c5eb5071497bebcf5b0b4e3a3dcc84
+    new: 4fcc580be8a54db0f5238694d5ce1df529761556
     log: |
-         899cbcd83a6d3baa3af465bffeb090867916d1ef reserve a 2021 id from cve.org
-         1a56849e175d498fba768136878673fd82c1fb9d Allocate CVE-2021-4442 on request
+         0d02e8d284a45bfa8997ebe8764437b8eb6b108b clk: rockchip: rk3588: Fix 32k clock name for pmu_24m_32k_100m_src_p
+         3529dc29fe65672ad9aeab9499fee901d0010901 dt-bindings: clock: rockchip,rk3588-cru: drop unneeded assigned-clocks
+         49c04453db81fc806906e26ef9fc53bdb635ff39 dt-bindings: clock, reset: Add support for rk3576
+         e781bffc296766b55dbd048890d558655031e8d1 clk: rockchip: Add new pll type pll_rk3588_ddr
+         cc40f5baa91bb7b031f5622e11a4e443cb771527 clk: rockchip: Add clock controller for the RK3576
+         4fcc580be8a54db0f5238694d5ce1df529761556 Merge branch 'v6.12-clk/next' into for-next
          
-
---===============6277655496805500091==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1724922279 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1724922257-0b78b963796ebbffb1206dedd1e217f57c513510
-
-7b6f04efc73bdfdb2a4ba51631a9871f1f625040 1a56849e175d498fba768136878673fd82c1fb9d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbQOacbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jmQP/AlS92ZSZT4tY0QAVxK2
-YbDSdqbqK4fH2w/4tHwGIzrrdGeL88f1GutmCS0nvHdtimi2eJa7dQBcK1ZBkCNi
-Z+hQFBzWWumFWlJxE8rAB2qASFqjKq8c1ThhPWToQrfX+/mGzme9clau9raFSu+a
-Wz1OhD/DQ5pVW60E7uTglRkQT26UjoAa3YRk0jQwAkIJsu00JFFUY3zsPsdteE0o
-+qVP51NNvQbFEwiKFOjLulFw1SbBoPz2vtMKB6crdcrYZfUowDkNYeFidyuxERbm
-9H0nwcxG239In2o2md2/GzEkFQ0tw7zHn8ObUyNxVtGDVvrPX61EjNJwM5sgQUYT
-bCxv5YyDANyO/NKERoffAFfQ/2IQoTB9p4dQRBC4wirVG89Z13pDnzCrhwb1hYlt
-GkJzcSM4tFC7pJiqSRs5rE7DQ+DehG/IpwSTG1o6ndwPED+Vtoc7VR1DQ3ylDCz3
-GfzQl7P4IgAUgZN6Zdz38asMp/cQ+SeCGdA+HHtA2cFLVg78LRLQnQdPPzVC7/G1
-ytIiGfpqhBgMP7X7pEci5QxjwQHl9ogUzJ+YGHIeJfcUs1+8tajwbqzds8oSRhpe
-Xwq3sRbnrTV1vRmD0NFm4YSVvbdbbDcBXkEsUKuADINYLHBxQDU/E3HfoEDe11lA
-ebEX+Ing5lJqiNS1jncvuRIg
-=y5WP
------END PGP SIGNATURE-----
-
---===============6277655496805500091==--
+  - ref: refs/heads/v6.12-clk/next
+    old: fb234516c5a0728d7dbd718667c33c1523b55fe8
+    new: cc40f5baa91bb7b031f5622e11a4e443cb771527
+    log: |
+         0d02e8d284a45bfa8997ebe8764437b8eb6b108b clk: rockchip: rk3588: Fix 32k clock name for pmu_24m_32k_100m_src_p
+         3529dc29fe65672ad9aeab9499fee901d0010901 dt-bindings: clock: rockchip,rk3588-cru: drop unneeded assigned-clocks
+         49c04453db81fc806906e26ef9fc53bdb635ff39 dt-bindings: clock, reset: Add support for rk3576
+         e781bffc296766b55dbd048890d558655031e8d1 clk: rockchip: Add new pll type pll_rk3588_ddr
+         cc40f5baa91bb7b031f5622e11a4e443cb771527 clk: rockchip: Add clock controller for the RK3576
+         
