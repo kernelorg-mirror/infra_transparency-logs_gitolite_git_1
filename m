@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0959990906620214437=="
+Content-Type: multipart/mixed; boundary="===============2260244295886353375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Aug 2024 02:50:15 -0000
-Message-Id: <172489981511.1846440.10922591107173785951@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 02:50:19 -0000
+Message-Id: <172489981963.1846580.164168469622665467@gitolite.kernel.org>
 
---===============0959990906620214437==
+--===============2260244295886353375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 168a1db3d2d37590715b93df494d7af13c07f5b0
-    new: 6f0e2c77cf8125e0cd5607efb9034672764d617f
-    log: revlist-168a1db3d2d3-6f0e2c77cf81.txt
+  - ref: refs/heads/6.12/scsi-queue
+    old: 3ba963597d19d88eb06b50af8e8757abbdc9035b
+    new: 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d
+    log: revlist-3ba963597d19-70302fc7adcd.txt
 
---===============0959990906620214437==
+--===============2260244295886353375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1724899822 -0400
+pusher 75C5DE3D 1724899840 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1724899799-4b0b7c33e5b4c8edbfe83a747316ffbd4cfd0991
+nonce 1724899817-8d536fb97ca25ae5b118c9403edd631f61d5345b
 
-168a1db3d2d37590715b93df494d7af13c07f5b0 6f0e2c77cf8125e0cd5607efb9034672764d617f refs/tags/mkp-scsi-queue
+3ba963597d19d88eb06b50af8e8757abbdc9035b 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d refs/heads/6.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbP4e4ACgkQ7ulgGnXF
-3j2sdBAAtJQYyIeqB9I0yiZmOJavsOcX/r1Y9A7ojodknHT3hq/bfTduXmylqXpr
-7Oj8pjCBMOMQAj7N0mPNWgCBhZYYm8JLXBb3NBRodN3nAgFXw/Q7t4vT8qglO8JZ
-VK2dTaoyameMNS12h4u6oX85/dIUCwC+eMuhydcYEb9VPeL2MNdzFHuiEIPQlY6M
-uUf7aYKAp8o+88tzDvnLJc8SF3k2Ys8pm5+CMJ1jyVSlT+3nRl76usNETgo29Xbi
-1XS2+eRl9cj532Ti+kkWUzMH0ORDujrzLZNho0yOHfV7P24sYRUxz3xgc0yjPcxK
-wWlOEALEuSGmQFOBs4tL9jjreTh0wXHmTVF3kJzOcazLbjaaMB3InrVPN/yVVOH2
-pHbHLBbp+gkwzP2ggqPmokqfTDr7Jgs7ggwGe4epRxTOQB09Z/rKVU9HN30/87EY
-CefFKe+Hkkhg4jdxSI/kgca+j2h0U7/BxuuADWMRXFAtFTc4hvRacO5JD1b5SK0V
-+sSmzhpiyzAv7q7kSwhYPoVhpVGqkbXPMjxa7aw6qBRSJP9lrNJpi5bIl23Q//4/
-nrG9TeuGmB/FVRZZQhSLBSS1FETboKtSu4uE2xGUKKw0Ui3UnQBDe7WMHeetXZHE
-w8/ZsULqP16hMewKsxAfYdYSCHcVes06ofD/8nvhG8v/OdP3VhY=
-=FzBj
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbP4gAACgkQ7ulgGnXF
+3j2pDQ/+I7f1JczZtbR33tVfXHrxjeutZmprU7WGGuoWv6mbYoVCYYq4hYtERhTe
+yTIaQHJMpuEek2MmKXh8LV4F0gDXhllMQg82m05Bi1hk/Oz34Jmbq72/XpBJv9Al
+FDioTnqj6Z+R3ti5y1Q6nQFx9MOv5Bjrlr/lzvY0PqMutSV0kwehzVitIebVvWJf
++Z0IEHg2La6RmuLUV7BFHI6KN4F58kRk3eGIFtA8hudYioQa7cky9wrmOBhBR4gm
+g+FUGgkyktBdYObMENSQgPFpAfmzYtR3KVT8HLXAahZyrWqeOWzG9xjzMeWYZnBu
+pAX0T7vO5Cdmn5svPbUehRvYBVuxt5Mv8hK3bRjdwLhIgkgSjdogXMQPI+aoLoS9
+0HVvRqmpuRLDMgMSn4yRc/ULNSy0GSDG07RR6IXfzpirouNPRlLhBK8dU4pY0ZbT
+ztvDyC65NgQMVpU5VoQcEdkiOz8M6japZrcb0DBSvp4OdK6I5g0YIHxzBCUoo1ya
+0Pnbc/M3Gyjscjm/u9mHAwsC8j6p3/5OPRB6pY7FUnXYxJEfa+YaAvOZle584Nyc
+eBcTunjNuSNUvUNF8l2o0jvDQuukeNqvz8eXPCgNT2jZ9xZciwTqBfcRVnN1DtaR
+x1D+0Ebp4qTJYXgysKoXR88yQwuLoasSSAETdHkItAzg6rPi+M0=
+=v31u
 -----END PGP SIGNATURE-----
 
---===============0959990906620214437==
+--===============2260244295886353375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-168a1db3d2d3-6f0e2c77cf81.txt
+Content-Disposition: attachment; filename=revlist-3ba963597d19-70302fc7adcd.txt
 
 89835a58f5f54d52537709f2513fb91024e2d069 scsi: ufs: Move UFS trace events to private header
 2e4b02fad094976763af08fec2c620f4f8edd9ae scsi: elx: libefc: Fix potential use after free in efc_nport_vport_del()
@@ -79,4 +79,4 @@ f30679166255148f7781b0726d8e1b5e22dd5b48 scsi: myrs: Simplify an alloc_ordered_w
 ba52850cb6b4db5f4ec4636c73d2ad85d0e9adba scsi: core: Simplify an alloc_workqueue() invocation
 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d Merge patch series "Simplify multiple create*_workqueue() invocations"
 
---===============0959990906620214437==--
+--===============2260244295886353375==--
