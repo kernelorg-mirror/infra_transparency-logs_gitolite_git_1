@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 29 Aug 2024 15:24:38 -0000
-Message-Id: <172494507801.2430839.14550323065966852990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Thu, 29 Aug 2024 15:25:36 -0000
+Message-Id: <172494513618.2433213.18056867059822083314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/arm64-sme-signal-vl-change-test
-    old: 5c1e9ebc89120f5526a22bdb0a34d5cbb7edbae3
-    new: 504fe72cfb0396e46c3c1faaa2f7d343a536e438
+  - ref: refs/heads/update-toolchain
+    old: a0c632def18590db5e9f8da2ca708d7731d84a32
+    new: 957fbe64308d2ed2d3bdf8da57f92826251da7ed
     log: |
-         504fe72cfb0396e46c3c1faaa2f7d343a536e438 kselftest/arm64: Actually test SME vector length changes via sigreturn
+         957fbe64308d2ed2d3bdf8da57f92826251da7ed wireguard: selftests: move from musl.cc to arnd's crosstool compilers
          
