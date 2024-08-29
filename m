@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Thu, 29 Aug 2024 15:25:36 -0000
-Message-Id: <172494513618.2433213.18056867059822083314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 29 Aug 2024 15:31:05 -0000
+Message-Id: <172494546577.2436639.6544017935013283984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/update-toolchain
-    old: a0c632def18590db5e9f8da2ca708d7731d84a32
-    new: 957fbe64308d2ed2d3bdf8da57f92826251da7ed
+  - ref: refs/heads/master
+    old: 928f79a188aacc057ba36c85b36b6d1e99c8f595
+    new: d5d547aa7b51467b15d9caa86b116f8c2507c72a
     log: |
-         957fbe64308d2ed2d3bdf8da57f92826251da7ed wireguard: selftests: move from musl.cc to arnd's crosstool compilers
+         28f5df210d06beb5920cf80446f1c27456c14b92 random: vDSO: reject unknown getrandom() flags
+         d5d547aa7b51467b15d9caa86b116f8c2507c72a Merge tag 'random-6.11-rc6-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
          
