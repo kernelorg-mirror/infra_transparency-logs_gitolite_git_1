@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5177019525582670743=="
+Content-Type: multipart/mixed; boundary="===============0951173916167063746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Aug 2024 02:50:44 -0000
-Message-Id: <172489984427.1847096.14742847563904658381@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 02:51:02 -0000
+Message-Id: <172489986219.1847294.4469538175602629350@gitolite.kernel.org>
 
---===============5177019525582670743==
+--===============0951173916167063746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 073c89779160a12eb2bd6623d32d16fa4458c16a
-    new: 4573e42ae58922be0f44c9667d69b0983096c0e0
-    log: revlist-073c89779160-4573e42ae589.txt
+  - ref: refs/heads/6.12/scsi-staging
+    old: 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d
+    new: cff06a799dbe81f3a697ae7c805eaf88d30c2308
+    log: revlist-70302fc7adcd-cff06a799dbe.txt
 
---===============5177019525582670743==
+--===============0951173916167063746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1724899850 -0400
+pusher 75C5DE3D 1724899869 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1724899827-33250256b99a2c909e76f70c1dfc89222c69a712
+nonce 1724899847-57f86cd256960f5763361e8aebada027df455fbf
 
-073c89779160a12eb2bd6623d32d16fa4458c16a 4573e42ae58922be0f44c9667d69b0983096c0e0 refs/tags/mkp-scsi-staging
+70302fc7adcd29c4c744489cd89e2d3ed08ecd8d cff06a799dbe81f3a697ae7c805eaf88d30c2308 refs/heads/6.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbP4goACgkQ7ulgGnXF
-3j2S8w/+No5F3fpugrMUjTtmw6ORr28P0d3QkRmyRi5lJoyMnmrc+XcBHrCU4V7q
-nd1tsS5/Ge35ttkYSWB0QU4L1XU1+vYonSi1X3se60rUBJ1LKPltZRJ5Ymoc/WuO
-6Kpjf9L12w2Gzy2nw/+p7Lmke/JSuQD+2V5M0XJElWROKjH7GL0hGnTUcoty/OjT
-9Lx/XSDQ0rHMjKCqnxfA6c2bcoA7RnIhaJTAOd+V7G4qa5sNIgJEZ6/Tn9RDCz8o
-pUDPb2NTPi5BZGm8HO+tl8lOgBcy144BOjTrTiTCd6typoDdX2oRns04DTJWlpxZ
-WvhnoMk3v8+9UXd4V4mZ5mdJzR7UV1vC27nt7zdg+p1Tnvn0TBxqkVU6M8YGAHke
-ErfX2uVq7I4esyJ6ZpnrnS4796kG12BfZ4rTOFVHoJvACWyCAA7gCsc4XsZzwVDq
-53Wf/X3c5pSmrY24KG3AVqRc053cz3FK9epSiJeisUzzosgvrMHtVypZCnCwC2aV
-bMzc7RO4MOzbn3RqlIANGzj5+0bUvy3IT5km/2KED1qd8i/DbNUwMhqSPyWSP9Fx
-j1bXi3YPZwRBS5+rauiFG6YzkhDGfe7fiK23j3C/gkz2sKmlANGcIpiiVfWe5YP6
-8kfYHFJh310/5HQE9ZHA7atZpF8/hInKYLm31p2zz7QwtBqPhrg=
-=HN4Z
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbP4h0ACgkQ7ulgGnXF
+3j3new/9E+RQg86e0xHlOcACtmXxST5LUFqQWoQl1PBPEiXLrvlY4mRYSf+OdeRq
+saaXTU7RCRxU4opvHNih2VUICR5z86FIY5iQADnjuvFOXSjvKOQCRRRiQ8LGC11I
+3lHlRAeRT+zd9HG3B26aVGKe/mxM+7YOkuFiWkhVSz38jb3lEmUazTTW3OsOnr+I
+ZLjr7SRNEfz9X9nb8ajxY6Ndo3CtzUkKf5tZK6Z1YiROihHdtF73FoKO98DGqxr0
+2bHAYBKQEdIwEvWN6CRpHsuS99PVVPidd8cfH9fIqG4Nq3CmC9NNaFyOhAADzzia
+QD05eARPS9dS1Acz5uwhmcNPVdWVFyVkG2QXQBFWClrxwQPI45OTcNpjydpBQ/KX
+08dDJJxKIHPa5UWscKC6nLQzL2OSdVGPxIKXX7+APVzvERBHMg9ErSl4RZkxVzZz
+/tgHjq2r2ZMdwL7zcMJeqtL1fAju3p7WE5gmiT0UBWHTola0qOIRMlhIJuzDEbkd
+HA2XgO68qPbcbyxtZdOQkcQ/3IC0rWxHSLQM6lzRsYQvWY6xjV2fzdD1BC2J7Ol0
+O8OdczYvhHEzQm4QfluWyKB1jLN6bhipi0W7Im86G+3mDnmzuPtUX69ebpZG942w
+5D+F0uS4tJ5FSKWVUvoR5q/+/1I76KxXF02AGjjNCBHvOVL7OnI=
+=6edA
 -----END PGP SIGNATURE-----
 
---===============5177019525582670743==
+--===============0951173916167063746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-073c89779160-4573e42ae589.txt
+Content-Disposition: attachment; filename=revlist-70302fc7adcd-cff06a799dbe.txt
 
 adedd0f46c923f8d63aeb42d504c82431febed31 scsi: bnx2i: Remove unused declarations
 3e3ac9c39e1b575e970ecab90504b6cb090f6b05 scsi: core: Remove obsoleted declaration for scsi_driverbyte_string()
@@ -70,4 +70,4 @@ dbc39b84540f746cc814e69b21e53e6d3e12329a scsi: smartpqi: add new controller PCI 
 bda1c931e2993cbd43515dccec8bdd200a39cbf0 scsi: smartpqi: update driver version to 2.1.30-031
 cff06a799dbe81f3a697ae7c805eaf88d30c2308 Merge patch series "smartpqi updates"
 
---===============5177019525582670743==--
+--===============0951173916167063746==--
