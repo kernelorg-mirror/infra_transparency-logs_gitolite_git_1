@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7937681671039458746=="
+Content-Type: multipart/mixed; boundary="===============3876730970746687264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 29 Aug 2024 07:56:59 -0000
-Message-Id: <172491821964.2076782.9059906197505689999@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 07:57:33 -0000
+Message-Id: <172491825398.2076955.2998310348337642827@gitolite.kernel.org>
 
---===============7937681671039458746==
+--===============3876730970746687264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 466da3d2d967ee87d82060df2bc9c6ad4fc4af49
     new: 42dc425fa8b5be982bcc2025d5bf30be8b26da86
     log: revlist-466da3d2d967-42dc425fa8b5.txt
 
---===============7937681671039458746==
+--===============3876730970746687264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a0c04bd55a467aee3eb647555343ad6971106e86 Merge tag 'kbuild-fixes-v6.11' of git:/
 b4f62001ccd3fa953769ccbd313c9a7a4f5f8f3d dt-bindings: clock: add RMII clock selection
 42dc425fa8b5be982bcc2025d5bf30be8b26da86 clk: imx95: enable the clock of NETCMIX block control
 
---===============7937681671039458746==--
+--===============3876730970746687264==--
