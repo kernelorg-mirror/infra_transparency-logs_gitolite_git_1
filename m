@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4260824122737358356=="
+Content-Type: multipart/mixed; boundary="===============6045124904800481751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 29 Aug 2024 12:22:30 -0000
-Message-Id: <172493415087.2262465.6051529734458686674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 29 Aug 2024 12:23:09 -0000
+Message-Id: <172493418945.2262916.14560732608868159796@gitolite.kernel.org>
 
---===============4260824122737358356==
+--===============6045124904800481751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 47b3b6435e4bfb61ae8ffc63a11bd3c310f69acf
     log: revlist-a1ef91d0824f-47b3b6435e4b.txt
 
---===============4260824122737358356==
+--===============6045124904800481751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ d5726f1c8d421f000a9265601c28279e82d43db0 perf auxtrace: Remove unused 'pmu' poin
 d56a4d56a25c6aa76d816f1ee1888d38cf654004 perf test: Add 'perf record cgroup' filtering test
 47b3b6435e4bfb61ae8ffc63a11bd3c310f69acf tools build: Remove leftover libcap tests that prevents fast path feature detection from working
 
---===============4260824122737358356==--
+--===============6045124904800481751==--
