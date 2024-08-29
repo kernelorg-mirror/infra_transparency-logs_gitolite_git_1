@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 29 Aug 2024 08:36:49 -0000
-Message-Id: <172492060999.2100685.970765217198347342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 29 Aug 2024 08:39:41 -0000
+Message-Id: <172492078193.2101754.5259723365044087402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/main
-    old: 15229ce324181733a75cd80e75b6a3e0fc64fe5b
-    new: 0a8b08c554dabea952a75363c89050b1fbcbfffb
-    log: |
-         0a8b08c554dabea952a75363c89050b1fbcbfffb selftests: netfilter: nft_queue.sh: reduce test file size for debug build
-         
+  - ref: refs/heads/for-6.12/hidraw
+    old: 0000000000000000000000000000000000000000
+    new: 321f7798cfb8d834ae0ed0d467c8bf46804243f9
