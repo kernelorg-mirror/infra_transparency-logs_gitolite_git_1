@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 29 Aug 2024 10:46:21 -0000
-Message-Id: <172492838131.2200112.15885070730636510251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 29 Aug 2024 10:48:32 -0000
+Message-Id: <172492851242.2200612.11556497508103793800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/kdevops
-    old: 6a41861ad5f1f363e3eda3b5e456a219f3a3effa
-    new: 98419c303d6479e3a57b0a8db7215082a627b87e
+  - ref: refs/heads/bleeding-edge
+    old: 0d71c25b13a39385cc2fde7716e40ce44b89a792
+    new: ea1e84a948609a84fa2b30422adcddd5400a6eeb
     log: |
-         6df30ece30391a006b008a8c8da6bbfd4b4966cd nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
-         75b4aa396243fddd31d6b486878a648218477dec nfsd: add pragma public to delegated timestamp types
-         916cac2acca1cf3fb17897b800be78efcb51ab5e nfsd: fix reported change attr on a write delegation
-         7ba1266bdcc722dd760fba2ba20fbeb580c55546 nfs_common: make nfs4.h include generated nfs4_1.h
-         8a625aae494471308b75e2d110ee4326db095440 nfsd: add support for FATTR4_OPEN_ARGUMENTS
-         8f6f6bc3e2594c3c5d1ebd09b7b7e77618c37d25 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
-         54fafe31c955cbb010e2427000ac22fc1c357e27 fs: properly handle delegated timestamps in setattr_copy_mgtime
-         ebe6922ec04b7c37208f7cd9a2274e930eb3e579 nfsd: add support for delegated timestamps
-         98419c303d6479e3a57b0a8db7215082a627b87e nfsd: handle delegated timestamps in SETATTR
+         4be50f9918507bb3392726777f483c59e41a1e28 ACPI: video: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+         1728e57a9d26170ca13dd6b04474e2350be3c1a2 ACPI: x86: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+         ea1e84a948609a84fa2b30422adcddd5400a6eeb Merge branch 'acpi-video' into bleeding-edge
          
