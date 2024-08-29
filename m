@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2675150278136314356=="
+Content-Type: multipart/mixed; boundary="===============3294667415854292502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Thu, 29 Aug 2024 07:17:01 -0000
-Message-Id: <172491582188.2051290.5229273266697528916@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 07:17:13 -0000
+Message-Id: <172491583378.2051439.4910786685689070963@gitolite.kernel.org>
 
---===============2675150278136314356==
+--===============3294667415854292502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/mips-fixes
+    old: 50f2b98dc83de7809a5c5bf0ccf9af2e75c37c13
     new: 5be63fc19fcaa4c236b307420483578a56986a37
-    log: revlist-8400291e289e-5be63fc19fca.txt
+    log: revlist-50f2b98dc83d-5be63fc19fca.txt
 
---===============2675150278136314356==
+--===============3294667415854292502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-5be63fc19fca.txt
+Content-Disposition: attachment; filename=revlist-50f2b98dc83d-5be63fc19fca.txt
 
+ffcf2eb4bfa24f7256de53a95182c3e3e23fdc6c spmi: pmic-arb: add missing newline in dev_err format strings
+15fffc6a5624b13b428bb1c6e9088e32a55eb82c driver core: Fix uevent_show() vs driver detach race
 e6ce8a28c768dbbad3f818db286cd0f4c7a921a8 ALSA: ump: Transmit RPN/NRPN message at each MSB/LSB data reception
 50a6dd19dca9446475f023eaa652016bfe5b1cbe ALSA: ump: Explicitly reset RPN with Null RPN
 a683030606fa5ff8b722a5e28839d19288011ede ALSA: seq: ump: Use the common RPN/bank conversion context
@@ -401,7 +403,6 @@ b54de55990b0467538c6bb33523b28816384958a net: ethtool: fix off-by-one error in m
 2ff4ceb0309abb3cd1843189e99e4cc479ec5b92 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 1b5487aefb1ce7a6b1f15a33297d1231306b4122 smb3: fix setting SecurityFlags when encryption is required
 bdcffe4be7cb90ccd12c49924dad9e2eda11b57a Fix spelling errors in Server Message Block
-1cb6ab446424649f03c82334634360c2e3043684 MIPS: Loongson64: Set timer mode in cpu-probe
 9eb18136af9fe4dd688724070f2bfba271bd1542 KVM: arm64: vgic: Hold config_lock while tearing down a CPU interface
 5819e464a17587e6830cfab05f3e91a9a8753a41 cpumask: Fix crash on updating CPU enabled mask
 ae02c7b7fea3e034fbd724c21d88406f71ccc2f8 drm/xe/rtp: Fix off-by-one when processing rules
@@ -887,7 +888,6 @@ a06a7b3429e2548a28bb661f17347b8ffe4a8a15 drm/xe/uc: Use devm to register cleanup
 ce335db0621648472f9bb4b7191eb2e13a5793cf net: mctp: test: Use correct skb for route input check
 807067bf014d4a3ae2cc55bd3de16f22a01eb580 kcm: Serialise kcm_sendmsg() for the same socket.
 2102bdac67b55bf2d1df4ff757bced74e94a5f74 bcachefs: Extra debug for data move path
-50f2b98dc83de7809a5c5bf0ccf9af2e75c37c13 MIPS: cevt-r4k: Don't call get_c0_compare_int if timer irq is installed
 1eacdd71b3436b54d5fc8218c4bb0187d92a6892 netfilter: nft_counter: Disable BH in nft_counter_offload_stats().
 a0b39e2dc7017ac667b70bdeee5293e410fab2fb netfilter: nft_counter: Synchronize nft_counter_reset() against reader.
 46ee21e9f59205e54943dfe51b2dc8a9352ca37d platform/x86: ISST: Fix return value on last invalid resource
@@ -1051,4 +1051,4 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 
---===============2675150278136314356==--
+--===============3294667415854292502==--
