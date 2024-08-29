@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289619524089610879=="
+Content-Type: multipart/mixed; boundary="===============3460384302509795666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 29 Aug 2024 09:50:27 -0000
-Message-Id: <172492502717.2148623.13877690264858393395@gitolite.kernel.org>
+Date: Thu, 29 Aug 2024 09:51:01 -0000
+Message-Id: <172492506142.2148953.14601954827262435769@gitolite.kernel.org>
 
---===============7289619524089610879==
+--===============3460384302509795666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: ec309dd126280ca4ef4087e02246a6f61f36c8d1
-    new: 7e6e3ee869ae862ba674a10bc9b5cb6a6005b26f
-    log: revlist-ec309dd12628-7e6e3ee869ae.txt
-  - ref: refs/heads/linus/master
-    old: 0000000000000000000000000000000000000000
-    new: d5d547aa7b51467b15d9caa86b116f8c2507c72a
+  - ref: refs/heads/jd/vdso-test-harness
+    old: f49b38bdbc73ec9d12da33dcb9909b345caa1081
+    new: 1b7d62798b85917d1c9a3214cb5bed72554774ac
+    log: revlist-f49b38bdbc73-1b7d62798b85.txt
 
---===============7289619524089610879==
+--===============3460384302509795666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec309dd12628-7e6e3ee869ae.txt
+Content-Disposition: attachment; filename=revlist-f49b38bdbc73-1b7d62798b85.txt
 
-ffed586b8c4f1fdb772ee350e229863f145defb5 scsi: sd: Move sd_read_cpr() out of the q->limits_lock region
 4eb399741ff67452eeaf099f366045042401cf3c Merge tag 'drm-misc-fixes-2024-08-01' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 27ce65f65258cf2f2855162cbeef59659a81fac4 Revert "nouveau: rip out busy fence waits"
 ab3de2c7ec91db6a3cf5fc07765852c81ca7d6ef thunderbolt: Fix memory leaks in {port|retimer}_sb_regs_write()
@@ -1053,5 +1049,6 @@ ad71e5586225d7e5355c053ea65f4c8782ab1392 random: vDSO: add __arch_get_k_vdso_rng
 4a643b1cc895374bb05edad6c1c61d3dea4aed3e random: vDSO: add missing c-getrandom-y in Makefile
 6c71c0995a5d8e4c0e593eea989bd30e960679ed random: vDSO: avoid call to out of line memset()
 7e6e3ee869ae862ba674a10bc9b5cb6a6005b26f random: vDSO: minimize and simplify header includes
+1b7d62798b85917d1c9a3214cb5bed72554774ac wireguard: selftests: re-use/ab-use test harness to run vDSO tests
 
---===============7289619524089610879==--
+--===============3460384302509795666==--
