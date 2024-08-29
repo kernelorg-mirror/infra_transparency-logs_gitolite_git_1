@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============8972140881436550864=="
+Content-Type: multipart/mixed; boundary="===============8802157690017636740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 Aug 2024 08:51:08 -0000
-Message-Id: <172492146894.2111213.15234992803528832108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 29 Aug 2024 08:51:20 -0000
+Message-Id: <172492148084.2111465.15299418566852111575@gitolite.kernel.org>
 
---===============8972140881436550864==
+--===============8802157690017636740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/main
-    old: 0870b0d8b393dde53106678a1e2cec9dfa52f9b7
-    new: b666a651d0db4b5a50616a52ac5d00adc858d9d7
-    log: revlist-0870b0d8b393-b666a651d0db.txt
+  - ref: refs/heads/mips-next
+    old: 5be63fc19fcaa4c236b307420483578a56986a37
+    new: 439667fb943cfea46d7bde5c7b29c89efec3cbc7
+    log: revlist-5be63fc19fca-439667fb943c.txt
 
---===============8972140881436550864==
+--===============8802157690017636740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0870b0d8b393-b666a651d0db.txt
+Content-Disposition: attachment; filename=revlist-5be63fc19fca-439667fb943c.txt
 
-8b8ed1b429f8fa7ebd5632555e7b047bc0620075 mptcp: pm: reuse ID 0 after delete and re-add
-87b5896f3f7848130095656739b05881904e2697 mptcp: pm: fix RM_ADDR ID for the initial subflow
-5f94b08c001290acda94d9d8868075590931c198 selftests: mptcp: join: check removing ID 0 endpoint
-c07cc3ed895f9bfe0c53b5ed6be710c133b4271c mptcp: pm: send ACK on an active subflow
-bc19ff57637ff563d2bdf2b385b48c41e6509e0d mptcp: pm: skip connecting to already established sf
-dce1c6d1e92535f165219695a826caedcca4e9b9 mptcp: pm: reset MPC endp ID when re-added
-1c2326fcae4f0c5de8ad0d734ced43a8e5f17dac selftests: mptcp: join: check re-adding init endp with != id
-76a2d8394cc183df872adf04bf636eaf42746449 selftests: mptcp: join: no extra msg if no counter
-58e1b66b4e4b8a602d3f2843e8eba00a969ecce2 mptcp: pm: do not remove already closed subflows
-9366922adc6a71378ca01f898c41be295309f044 mptcp: pm: fix ID 0 endp usage after multiple re-creations
-d397d7246c11ca36c33c932bc36d38e3a79e9aa0 selftests: mptcp: join: check re-re-adding ID 0 endp
-d82809b6c5f2676b382f77a5cbeb1a5d91ed2235 mptcp: avoid duplicated SUB_CLOSED events
-20ccc7c5f7a3aa48092441a4b182f9f40418392e selftests: mptcp: join: validate event numbers
-57f86203b41c98b322119dfdbb1ec54ce5e3369b mptcp: pm: ADD_ADDR 0 is not a new address
-f18fa2abf81099d822d842a107f8c9889c86043c selftests: mptcp: join: check re-re-adding ID 0 signal
-b666a651d0db4b5a50616a52ac5d00adc858d9d7 Merge branch 'mptcp-more-fixes-for-the-in-kernel-pm'
+4f3089ad555601b494c91aa9dfbf9c3060cc3e73 MIPS: ralink: Fix missing `plat_time_init` prototype
+9fd2ba4bf139bfe7781a24649d57133bd8af3624 MIPS: ralink: Fix missing `get_c0_perfcount_int` prototype
+c0bb40a2a401fed232d1e58e6a46d69a835fcf0a MIPS: Remove unused function dump_au1000_dma_channel() in dma.c
+7569c9fb2afd326258108e81d462b1a43c6b7ee0 mips/jazz: remove unused jazz_handle_int() declaration
+3fd19664c3bd50dc479ff444e43787439074458a MIPS: MT: Remove unused function mips_mt_regdump()
+fdb31c54e896d9df8c96c2683af64aae92e9946e MIPS: Remove unused declarations in asm/cmp.h
+9d14962e90ee94573a603ae407706011f551aa8c MIPS: Remove unused mips_display/_scroll_message() declarations
+58f28a2e0bbec52ee7b02e5d818bbe6adceecab3 MIPS: dec: prom: Remove unused unregister_prom_console() declaration
+854527e0fb9142fa6aea2ca24741ca25c23a0bec bus: bt1-axi: change to use devm_clk_get_enabled() helper
+6c4cdf4e126675d8ce0ead810c30831ee1c0997f bus: bt1-apb: change to use devm_clk_get_enabled() helper
+439667fb943cfea46d7bde5c7b29c89efec3cbc7 mips: Remove posix_types.h include from sigcontext.h
 
---===============8972140881436550864==--
+--===============8802157690017636740==--
