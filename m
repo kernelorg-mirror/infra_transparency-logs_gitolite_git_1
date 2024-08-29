@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 29 Aug 2024 19:19:31 -0000
-Message-Id: <172495917192.2701904.14755265226745869699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Thu, 29 Aug 2024 19:22:54 -0000
+Message-Id: <172495937446.2706460.7445653246856315301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
   - ref: refs/heads/master
-    old: bd0b4836a2333d5c725397d458c8edfa66f1d9bb
-    new: 89dd9bb25597621ca0500aa598140ff0858091e2
+    old: b86329a9f58efe153bc7c752c8cd1aaaf4b1cb6c
+    new: e395695a97a8b73b184f25cfa3a96fd12ba427e5
     log: |
-         89dd9bb25597621ca0500aa598140ff0858091e2 docs/bpf: Fix a typo in verifier.rst
+         e395695a97a8b73b184f25cfa3a96fd12ba427e5 mempool: Remove deprecated rseq_mempool_init_numa from API
          
