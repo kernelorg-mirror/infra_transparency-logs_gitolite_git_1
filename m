@@ -1,157 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 30 Aug 2024 13:45:43 -0000
-Message-Id: <172502554342.3696067.7690302709311917587@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4533715039154139903=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 30 Aug 2024 13:47:19 -0000
+Message-Id: <172502563910.3697715.1601478188956901909@gitolite.kernel.org>
+
+--===============4533715039154139903==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/sent/20231123-mv88e6xxx-leds-b8b9b316ff98-v2
-    old: 0000000000000000000000000000000000000000
-    new: 9d1f99f61742808b126b63fa133d3f3c448cd230
-  - ref: refs/tags/sent/20240115-arm32-cfi-65d60f201108-v4
-    old: 0000000000000000000000000000000000000000
-    new: 2e13868c99f51e2dd5c38f6bc7e8669ee92b415a
-  - ref: refs/tags/sent/20240115-arm32-cfi-65d60f201108-v5
-    old: 0000000000000000000000000000000000000000
-    new: d72cef429574f98d26f4b2e54db41bdf8d4b05cb
-  - ref: refs/tags/sent/20240115-arm32-cfi-65d60f201108-v6
-    old: 0000000000000000000000000000000000000000
-    new: edfa25821fd9700d1d9b1e1a80a842333d000523
-  - ref: refs/tags/sent/20240115-arm32-cfi-65d60f201108-v7
-    old: 0000000000000000000000000000000000000000
-    new: 5b1bb17f05eebcd7e045166712b228f4dc7e8c05
-  - ref: refs/tags/sent/20240115-arm32-cfi-65d60f201108-v8
-    old: 0000000000000000000000000000000000000000
-    new: 8245207047f5eb16138236d15487480c43a0a098
-  - ref: refs/tags/sent/20240430-arm32-cfi-topping-3253b11d3600-v1
-    old: 0000000000000000000000000000000000000000
-    new: 4115ee8a42d300cd3867dfcecac683f257f44f9a
-  - ref: refs/tags/sent/20240506-gemini-ethernet-fix-tso-ebc71477c2fb-v1
-    old: 0000000000000000000000000000000000000000
-    new: e0392abe5d74b91878894c12f74cc8e63c0e6c4b
-  - ref: refs/tags/sent/20240506-gemini-ethernet-fix-tso-ebc71477c2fb-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5302c9442697a050b1f79997d1500e4767abe94e
-  - ref: refs/tags/sent/20240506-gemini-ethernet-fix-tso-ebc71477c2fb-v3
-    old: 0000000000000000000000000000000000000000
-    new: a8d75fe8770424f2639d427d83ea20d0ade637bd
-  - ref: refs/tags/sent/20240509-gemini-ethernet-locking-7c1cb004ed49-v1
-    old: 0000000000000000000000000000000000000000
-    new: 6467b2851c83c5d0938f6cb0fcef212791601e17
-  - ref: refs/tags/sent/20240527-gemini-phylib-fixes-c2c0460be20b-v4
-    old: 0000000000000000000000000000000000000000
-    new: 5ccb8ede22920ae9c1829cacbac580ff2eba4c56
-  - ref: refs/tags/sent/20240527-gemini-tso-1-ac9056a61ae4-v4
-    old: 0000000000000000000000000000000000000000
-    new: 05204a08bcdb9e2388da0db0af3eca1116afd50f
-  - ref: refs/tags/sent/20240529-vitesse-schema-56e59067012d-v1
-    old: 0000000000000000000000000000000000000000
-    new: 81dafa3693f8c7fea3841597e7b16fb82c97f27a
-  - ref: refs/tags/sent/20240530-pwm-gpio-e9133a1806ec-v6
-    old: 0000000000000000000000000000000000000000
-    new: 699da8952521146ace1933b652a75bf5fae53900
-  - ref: refs/tags/sent/20240530-pwm-gpio-e9133a1806ec-v7
-    old: 0000000000000000000000000000000000000000
-    new: fb6d941e7c32ea066a5a063f0b7a6687d7c58ff5
-  - ref: refs/tags/sent/20240606-mmc-moxart-revert-beb833b07dcb-v1
-    old: 0000000000000000000000000000000000000000
-    new: 042ab50b158e84d5802f288b8476af79cedd01ce
-  - ref: refs/tags/sent/20240625-eevdf-doc-2a1876d94ee4-v1
-    old: 0000000000000000000000000000000000000000
-    new: 5c1cd82db49029f48e757de0856e800035c9ee26
-  - ref: refs/tags/sent/20240626-arm-proto-regression-d1456e00ff02-v1
-    old: 0000000000000000000000000000000000000000
-    new: adddb71be1165937a00a656e827495db7a0bf89e
-  - ref: refs/tags/sent/20240627-arm-dts-fixes-d76332dec07d-v1
-    old: 0000000000000000000000000000000000000000
-    new: fecc9a11d77eda00d4f4e95bdf621ea5f508b4dd
-  - ref: refs/tags/sent/20240627-ixp4xx-dts-6da9d0bf1ca4-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3251bf03fe106542c182f8b37a36e26549c5baa8
-  - ref: refs/tags/sent/20240630-arm-dts-fixes-2-0ca0c877d8dd-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3f507e10038d0d1ab4bb9de7349424aaeb208c05
-  - ref: refs/tags/sent/20240701-arm-ttbcr-cleanup-323ff4a666a1-v1
-    old: 0000000000000000000000000000000000000000
-    new: eddb8a1b0ade55c581f3c354a3749f77a3e09bd8
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
-  - ref: refs/tags/v6.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ac1064c236193fe48bded6f718ad47203870743b
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
-  - ref: refs/tags/v6.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
-  - ref: refs/tags/v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
-  - ref: refs/tags/v6.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
-  - ref: refs/tags/v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
-  - ref: refs/tags/v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
-  - ref: refs/tags/v6.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
-  - ref: refs/tags/v6.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
-  - ref: refs/tags/v6.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
-  - ref: refs/tags/v6.8
-    old: 0000000000000000000000000000000000000000
-    new: 90d1f30371ae3337beb01666b226320728d35c70
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
-  - ref: refs/tags/v6.8-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
-  - ref: refs/tags/v6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
-  - ref: refs/tags/versatile-soc-for-v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 0030f1572fb315e19c8b610b753055018f3c6876
+  - ref: refs/heads/master
+    old: 0c7e00e22c21d6684cc177020bbc775f0c9be2f3
+    new: 344e696ae9f394e1fb81f14c3c9ce101e2c91146
+    log: revlist-0c7e00e22c21-344e696ae9f3.txt
+
+--===============4533715039154139903==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0c7e00e22c21-344e696ae9f3.txt
+
+01b52f01c5a6bdc3b3e4229dccc84ed667e6867b selftests: vDSO: simplify getrandom thread local storage and structs
+20a9af057cd7c4057c72c803dcf83c97eb5deb95 selftests: vDSO: don't hard-code location of vDSO sources
+f8d92fc527ff0388b2e94c101afb0e5c7496199f selftests: vDSO: fix include order in build of test_vdso_chacha
+e1bbcab496f745d963e43a6e0f669359e82c4934 selftests: vDSO: look for arch-specific function name in getrandom test
+1e661b349041c3d5026d9e95930b1d396c0c6e6d selftests: vDSO: add --cflags for pkg-config command querying libsodium
+a5330eb3bcd87f3ce7738a2e898671a0ff561e85 selftests: vDSO: separate LDLIBS from CFLAGS for libsodium
+be9155154bc39e910ba8e56f32be299cf83e21d0 selftests: vDSO: remove unnecessary command line defs from chacha test
+b90eeff1badd9c3d12123e2721ae08dfb689cda7 selftests: vDSO: use KHDR_INCLUDES for UAPI headers for getrandom test
+f78280b1a3cedd9f68d5f596179675514a15bd1d selftests: vDSO: skip getrandom test if architecture is unsupported
+9e114a7608f3deab715d9bf49181207fb36511d7 random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
+4686bb7c14e8e6118e5d29c1a3fff43d661b7739 selftests: vDSO: open code basic chacha instead of linking to libsodium
+6250d9438a75b9bc8bc4d5793a53a0e49f6815bb selftests: vDSO: fix vDSO name for powerpc
+6319a3d2ce616e71d47789bfbef942e277e082b1 selftests: vDSO: fix vdso_config for powerpc
+bb4622277011481bf5a950a60e00d88987b0b2ac selftests: vDSO: fix vDSO symbols lookup for powerpc64
+5ee16a4be9cc0d86d0457fb5d9094de8d0660865 selftests: vDSO: fix the way vDSO functions are called for powerpc
+5747a6ecaa1ce5b8bf1c803103d99fc260eba904 selftests: vDSO: use parse_vdso.h in vdso_test_abi
+105224453e804bbf29abddb74f26fe9bdd4c5646 random: vDSO: don't use 64-bit atomics on 32-bit architectures
+d204fdd7a6cf97718d6a597ab9343da0b386e00b random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
+56d7b48f0cfc69593fdb1a0ecc38cea031aeea99 random: vDSO: add missing c-getrandom-y in Makefile
+258a2e87e18c7372eafc23e88221fc21551eb28f random: vDSO: avoid call to out of line memset()
+344e696ae9f394e1fb81f14c3c9ce101e2c91146 random: vDSO: minimize and simplify header includes
+
+--===============4533715039154139903==--
