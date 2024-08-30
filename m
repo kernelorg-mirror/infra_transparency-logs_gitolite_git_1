@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7411592400388858347=="
+Content-Type: multipart/mixed; boundary="===============8416839036647786256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Fri, 30 Aug 2024 12:19:39 -0000
-Message-Id: <172502037949.3606828.6145870440320435923@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 12:19:53 -0000
+Message-Id: <172502039380.3607636.13010385307943417831@gitolite.kernel.org>
 
---===============7411592400388858347==
+--===============8416839036647786256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/overlayfs/vfs
 user: amir73il
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: 004b8d1491b4bcbb7da1a3206d1e7e66822d47c6
-    new: 7d6899fb69d25e1bc6f4700b7c1d92e6b608593d
-    log: revlist-004b8d1491b4-7d6899fb69d2.txt
+  - ref: refs/heads/master
+    old: 277100b3d5fefacba4f5ff18e2e52a9553eb6e3f
+    new: 3e9bff3bbe1355805de919f688bef4baefbfd436
+    log: revlist-277100b3d5fe-3e9bff3bbe13.txt
 
---===============7411592400388858347==
+--===============8416839036647786256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-004b8d1491b4-7d6899fb69d2.txt
+Content-Disposition: attachment; filename=revlist-277100b3d5fe-3e9bff3bbe13.txt
 
+75c10d5377d8821efafed32e4d72068d9c1f8ec0 s390/vmlinux.lds.S: Move ro_after_init section behind rodata section
+33bd8d153c337ba9b30a2e5994437ca703ab4ed8 s390: Keep inittext section writable
 e1cf752ede8e82c2d084868c50a1ca6cdb07c9c4 dt-bindings: eeprom: at25: add fujitsu,mb85rs256 compatible
 6339b7edada2d0c4661bc4200f1adfc80f2e24aa nvme: remove a field from nvme_ns_head
 73d148ccb9e1b62cdcb65e1c6a461229446a55a2 nvme: change data type of lba_shift
@@ -1048,7 +1050,5 @@ d3204616a67e53fdcad14c7026869330fb382fd4 bcachefs: Fix failure to flush moves be
 72bea05cb1ad486b1a850f584cc93b651579ad2f Merge tag 'bcachefs-2024-08-24' of git://evilpiepirate.org/bcachefs
 5be63fc19fcaa4c236b307420483578a56986a37 Linux 6.11-rc5
 3e9bff3bbe1355805de919f688bef4baefbfd436 Merge tag 'vfs-6.11-rc6.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-34b4540e6646577d02afacfcbc08e563b7d69a9f ovl: don't set the superblock's errseq_t manually
-7d6899fb69d25e1bc6f4700b7c1d92e6b608593d ovl: fsync after metadata copy-up
 
---===============7411592400388858347==--
+--===============8416839036647786256==--
