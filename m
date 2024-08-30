@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1611803193136209930=="
+Content-Type: multipart/mixed; boundary="===============5291459242626608529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 30 Aug 2024 10:36:58 -0000
-Message-Id: <172501421850.3468098.14598839382762515809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 30 Aug 2024 10:37:10 -0000
+Message-Id: <172501423022.3468388.66398398613071072@gitolite.kernel.org>
 
---===============1611803193136209930==
+--===============5291459242626608529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: fa62e33c57eed94bcaf3d820ef8e73c1d9714536
-    new: 304a799204aa34a30b08d6cdb2604f90d9eb47de
-    log: |
-         304a799204aa34a30b08d6cdb2604f90d9eb47de 6.10-stable patches
-         
+    old: a85536e1bce722cb184abbac98068217874bdd6e
+    new: 385bb9e6a7433dbef1d8def900e1a8ba8c973180
+    log: revlist-a85536e1bce7-385bb9e6a743.txt
 
---===============1611803193136209930==
+--===============5291459242626608529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a85536e1bce7-385bb9e6a743.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725014239 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1725014215-93579c8ddf35c4472c06eeb1b6097d21126b1db5
+4460e8538ef17c86eae46ccbe096eee8c740a7d0 MAINTAINERS: Add selftests/x86 entry
+a678164aadbf68d80f7ab79b8bd5cfe3711e42fa x86/EISA: Dereference memory directly instead of using readl()
+4381b895f544bb84b8cfb34ada64df67c9b2a4f0 timers: Remove historical extra jiffie for timeout in msleep()
+c7718e5c76d49b5bb394265383ae51f766d5dd3a genirq/proc: Correctly set file permissions for affinity control files
+9012f84e1c5b653c282b7a6cca81454ecf7c5a0a genirq/proc: Use irq_move_pending() in show_irq_affinity()
+eb29369fa543e7d5557c19ebecf072244bb14815 genirq/proc: Change the return value for set affinity permission error
+bf1e0fb69a15fac4d6ee71d0e1c715147add986a genirq/msi: Use kmemdup_array() instead of kmemdup()
+4609c6eab67bb1785a5337ddafb5c74c796bcd35 irqdomain: Use IS_ERR_OR_NULL() in irq_domain_trim_hierarchy()
+f333614f8d94d2d68d90591c7061000c8d5eb3ea Merge branch into tip/master: 'irq/core'
+e7070dace8f471f002f70222b3dda0c181008f46 Merge branch into tip/master: 'locking/core'
+08c8b72927a6e76ceba6b79c021d3930a74f7bc3 Merge branch into tip/master: 'perf/core'
+b7e12c90aaf300097cdb1369fe0831a331e8ac30 Merge branch into tip/master: 'ras/core'
+791048a3d9152793907fa0b93db3e21ffac987b9 Merge branch into tip/master: 'smp/core'
+5596820a5c54d27f455b065605fe81e808798052 Merge branch into tip/master: 'timers/clocksource'
+eac35325fb5962239a3b74a5229c57c1b724b7d7 Merge branch into tip/master: 'timers/core'
+988a6a22fbc975e7d25da7ee92bf4c0a2d2bb296 Merge branch into tip/master: 'x86/apic'
+9b194954ca237f5e04d476138d7e58c01c1a8599 Merge branch into tip/master: 'x86/bugs'
+b728aa36a9c94f80489f3f41c93f44a4526ed317 Merge branch into tip/master: 'x86/build'
+16c31a147922fde43103380477e3f9c891dbe51f Merge branch into tip/master: 'x86/cleanups'
+6fb34aed176b353e7e6ef602ed725621e6739057 Merge branch into tip/master: 'x86/core'
+0a80b314badc3b4ed90d2d1ec21414177e4d8829 Merge branch into tip/master: 'x86/fpu'
+6320809ecdd4ca6e810a30d66c39d99b12d2f091 Merge branch into tip/master: 'x86/fred'
+bf4434964c5adaa11932b695868c3c3f53f83c48 Merge branch into tip/master: 'x86/microcode'
+8847ba8b2fc257c0d3438e509136ecf03409cbb7 Merge branch into tip/master: 'x86/misc'
+db95245d99a30ba387b834a91bd3d6a695e33b3e Merge branch into tip/master: 'x86/mm'
+f5a750fb77e1b71654a59a37f953f8f18e0b87af Merge branch into tip/master: 'x86/platform'
+44b91e0304771f2ee83da1a5772b1b951f057843 Merge branch into tip/master: 'x86/sev'
+c814434adf85183add562e4d06d7739ba0ee5518 Merge branch into tip/master: 'x86/splitlock'
+385bb9e6a7433dbef1d8def900e1a8ba8c973180 Merge branch into tip/master: 'x86/timers'
 
-fa62e33c57eed94bcaf3d820ef8e73c1d9714536 304a799204aa34a30b08d6cdb2604f90d9eb47de refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbRoN8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GaoP/Rr2C8XdfQup+OMcsKJi
-oMGh4d7Hrv/SxHiC8GLx7L78lpvrBvVWsqfNuLuZ9b83yLSZgrmg+vHJyhFgTfhC
-KQCCegcvnWcZASiHSo47Sa5ODPKeIOIoqBKhEogY0D+4iv+3FT2HC76Mftu/BSsj
-CSfGVhf2zikLCGtUKVjWwa/YyVJA84loJHoLtosUAdX7Yi2Uhmr62N9ZzW4JO7dN
-NsCr3wO5xThbUX72KOdbdjhM+F+uT8DvnxvdX3FnyvcnHrqC9u6Z4BRpt4LXPm7n
-+FkqpwB2qWpo3fvB2xEF7IpkJWH/45xIfYOC8HeuRDGsDSnuZmHVy//ZCVEUDiMO
-/TIfHD2PgtVt3YhZfK8Xk6W1d6ZmM5VvdklAfuYTEir9LbFAHQyPnuHtGsP/WdYR
-jySTab6Sa9KmNCxtdHTfAHrW9xPjYxdx0OChnhdC16evQncEoppaBLMiMBJExs7K
-MN4xcB2pxGW7pCwRH4r4PtoSgBxZTEEbVXG/G0VvLU1+QNaa7M86aoC7QdXVe/ma
-ttPi7zUYw6uqzp1J5vV76hMJvR0gO/4q4D9zheUSkbnJc3Mzh0yP0/Ft6fRBUObi
-0qD8/9/eeWrsavsrUng4dZrnlpkLhPH/Uo16gARI+GhiLZrl7Tr1DL45lmObRqJW
-f/i0YQcBa6V+uF5ORmIkgQuj
-=6JdE
------END PGP SIGNATURE-----
-
---===============1611803193136209930==--
+--===============5291459242626608529==--
