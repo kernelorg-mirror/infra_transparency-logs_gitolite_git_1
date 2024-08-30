@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6127326015651330586=="
+Content-Type: multipart/mixed; boundary="===============4923439959874602344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 Aug 2024 14:29:45 -0000
-Message-Id: <172502818594.3737285.10702954167733365876@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 14:29:48 -0000
+Message-Id: <172502818850.3737362.12880045616838364850@gitolite.kernel.org>
 
---===============6127326015651330586==
+--===============4923439959874602344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e5899b60f52a7591cfc2a2dec3e83710975117d7
     new: fbdaffe41adca26cb9566e92060b97cd6dd87b60
     log: revlist-e5899b60f52a-fbdaffe41adc.txt
 
---===============6127326015651330586==
+--===============4923439959874602344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -392,4 +392,4 @@ b2e47002b2350f57bfa8fe1c231e9fbb6baef78b rust: net::phy unified read/write API f
 fd3eaad826daf4774835599e264b216a30129c32 net: phy: add Applied Micro QT2025 PHY driver
 fbdaffe41adca26cb9566e92060b97cd6dd87b60 Merge branch 'am-qt2025-phy-rust'
 
---===============6127326015651330586==--
+--===============4923439959874602344==--
