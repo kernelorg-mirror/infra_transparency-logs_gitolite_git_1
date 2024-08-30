@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Fri, 30 Aug 2024 20:52:41 -0000
-Message-Id: <172505116162.4086964.4312486982976715959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 30 Aug 2024 21:09:17 -0000
+Message-Id: <172505215733.4099061.10376255163096299337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 60f47d2c58cb96b18219558b41dfa4121ea1a36e
-    new: 478e3c7ebbe7a56422276dac1ebc1e7b94b2b967
-    log: |
-         4cb80590f12dfb6c19a00ccb1df437a319bc14c9 perf python: include "util/sample.h"
-         478e3c7ebbe7a56422276dac1ebc1e7b94b2b967 perf daemon: Fix the build on more 32-bit architectures
-         
+  - ref: refs/tags/arm-fixes-6.11-2
+    old: 0000000000000000000000000000000000000000
+    new: 1fb158015eac213736688922b273b6d26f96ae5b
