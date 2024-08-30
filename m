@@ -1,49 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2451759370411751711=="
+Content-Type: multipart/mixed; boundary="===============3117739721812091790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 30 Aug 2024 15:29:29 -0000
-Message-Id: <172503176966.3793763.14366158705469537890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 30 Aug 2024 15:34:21 -0000
+Message-Id: <172503206145.3798210.2334192725797840414@gitolite.kernel.org>
 
---===============2451759370411751711==
+--===============3117739721812091790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 0fd77ae4a3c94eca3f07e01083680ad0056df628
-    new: 39c243411bdb8fb35777adf49ee32549633c4e12
-    log: revlist-0fd77ae4a3c9-39c243411bdb.txt
+  - ref: refs/heads/hwmon-next
+    old: 2f0d9872beca2def687de76a7c052db36d6ba78d
+    new: 63fb21afc1f5b2af746f332710491c61e2ad6d74
+    log: revlist-2f0d9872beca-63fb21afc1f5.txt
 
---===============2451759370411751711==
+--===============3117739721812091790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fd77ae4a3c9-39c243411bdb.txt
+Content-Disposition: attachment; filename=revlist-2f0d9872beca-63fb21afc1f5.txt
 
-b6aa0de9a53a231eb068ce1e62b5e7ec9e30e627 perf cs-etm: Create decoders after both AUX and HW_ID search passes
-57880a7966be510cdaa08ab76b9d63e3df786bf0 perf: cs-etm: Allocate queues for all CPUs
-77c123f53e97ad4bde0271eb671b71774a99ebf6 perf: cs-etm: Move traceid_list to each queue
-19c3e4db38c5bf30c7e7b53dad5a464d7031dec4 perf: cs-etm: Create decoders based on the trace ID mappings
-940007cee539fd07c7c274030f7f7252f8c5a5d7 perf: cs-etm: Only save valid trace IDs into files
-1506af6db8c4abbe3d5dd573ec72b90f81abfcf7 perf: cs-etm: Support version 0.1 of HW_ID packets
-022aa67b5ab9077d8f5bf02df5a7f0f2d4dfb909 perf: cs-etm: Print queue number in raw trace dump
-d9c993100ef1906bd1f25bab789390828ef10a41 perf session: Document 'struct perf_session' and constify its 'auxtrace' member
-d71bbe799c0cda4a0581f98ea3e4d646a18e799d perf header: Add kerneldoc to 'struct perf_file_header'
-10df481fda13d29c2d9893b7460b8a7095d0ccf5 perf header: Fail read if header sections overlap
-e9a7053da377e19ebc6f1afe55c7f75219aaef79 perf header: Allow attributes to be written after data
-89d64e72732f3f970a048a46a7b60164b34dfc43 perf inject: Overhaul handling of pipe files
-2d57c32b32fb84c6f6b2342bca85c9ba2b2d759b perf header: Remove repipe option
-ccb9004656e55ea13e11e93862aa32aa575bf802 perf test: Additional pipe tests with pipe output written to a file
-10d6c57c824e21b4cf8eda9491caea06edac9fd7 perf lock contention: Handle error in a single place
-05a5dd1dfd8fdeee6498875c2d78d4385d627bd6 perf lock contention: Simplify spinlock check
-36cddd105666d45a2cfb70a04c27b0c53bb383cd perf lock contention: Do not fail EEXIST for update
-74fd69a35cae1d53d9c95b700aae312d77b0d1cb perf lock contention: Fix spinlock and rwlock accounting
-39c243411bdb8fb35777adf49ee32549633c4e12 perf sched timehist: Fixed timestamp error when unable to confirm event sched_in time
+9e60bb811f582a13a1f8346675f270db7e48404c hwmon: (ina2xx) Reorder include files to alphabetic order
+61a4a8414e1c6331a5a2fcfd235e6252c985f9d7 hwmon: (ina2xx) Replace platform data with device properties
+232177a37b90d76d3616f28fb47636d81c02fe8b hwmon: (ina2xx) Use bit operations
+2bb476524c61f43e6e89aeacaee6599ce5dd3505 hwmon: (ina2xx) Mark regmap_config as const
+d491e781b0600487be9f85977deb5f833d15db56 hwmon: (ina2xx) Use local regmap pointer if used more than once
+bb25cdc2bff408ee3be1f20bd2cee4ea8b79c2d6 hwmon: (ina2xx) Re-initialize chip using regmap functions
+ab7fbee452beca56b7c570d49190e679863362d5 hwmon: (ina2xx) Fix various overflow issues
+51c6fa3246cd6f12e3194795b0a934c1aa8f9d4f hwmon: (ina2xx) Consolidate chip initialization code
+aa7d17636640233062075c22afbb3e25fc5e5a91 hwmon: (ina2xx) Set alert latch
+c263d9166765567433f759b6435a3255cfdd4620 hwmon: (ina2xx) Move ina2xx_get_value()
+814db9f1b8ec1cad9fa707c52c695550cbb66b80 hwmon: (ina2xx) Convert to use with_info hwmon API
+9965ebd1836fb75c7a80f20ca65469f5df0d6063 hwmon: (ina2xx) Pass register to alert limit write functions
+4d5c2d986757e4d6f56761af8ab689218a2bc432 hwmon: (ina2xx) Add support for current limits
+63fb21afc1f5b2af746f332710491c61e2ad6d74 hwmon: (ina2xx) Use shunt voltage to calculate current
 
---===============2451759370411751711==--
+--===============3117739721812091790==--
