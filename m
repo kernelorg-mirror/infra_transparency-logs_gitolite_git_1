@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 30 Aug 2024 08:33:28 -0000
-Message-Id: <172500680840.3362084.15828370423075066085@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 08:33:36 -0000
+Message-Id: <172500681678.3362288.5748579753852213470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/ib-mfd-for-iio-power-6.12
+  - ref: refs/tags/ib-mfd-for-iio-power-v6.12
     old: 0000000000000000000000000000000000000000
-    new: 2e1a57d5b0adbb5bd1d85245ec29b6d3cc7edc69
+    new: 99ed631ea7e3ec97f5e06030cec570e3a706d703
