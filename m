@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4533715039154139903=="
+Content-Type: multipart/mixed; boundary="===============8814425259385764060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 30 Aug 2024 13:47:19 -0000
-Message-Id: <172502563910.3697715.1601478188956901909@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 13:48:31 -0000
+Message-Id: <172502571163.3698294.6390507957234916433@gitolite.kernel.org>
 
---===============4533715039154139903==
+--===============8814425259385764060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,27 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 0c7e00e22c21d6684cc177020bbc775f0c9be2f3
-    new: 344e696ae9f394e1fb81f14c3c9ce101e2c91146
-    log: revlist-0c7e00e22c21-344e696ae9f3.txt
+    old: 344e696ae9f394e1fb81f14c3c9ce101e2c91146
+    new: c252b0599716d2b88f0d35d07065f1896b6e5a37
+    log: revlist-344e696ae9f3-c252b0599716.txt
 
---===============4533715039154139903==
+--===============8814425259385764060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c7e00e22c21-344e696ae9f3.txt
+Content-Disposition: attachment; filename=revlist-344e696ae9f3-c252b0599716.txt
 
-01b52f01c5a6bdc3b3e4229dccc84ed667e6867b selftests: vDSO: simplify getrandom thread local storage and structs
-20a9af057cd7c4057c72c803dcf83c97eb5deb95 selftests: vDSO: don't hard-code location of vDSO sources
-f8d92fc527ff0388b2e94c101afb0e5c7496199f selftests: vDSO: fix include order in build of test_vdso_chacha
-e1bbcab496f745d963e43a6e0f669359e82c4934 selftests: vDSO: look for arch-specific function name in getrandom test
-1e661b349041c3d5026d9e95930b1d396c0c6e6d selftests: vDSO: add --cflags for pkg-config command querying libsodium
-a5330eb3bcd87f3ce7738a2e898671a0ff561e85 selftests: vDSO: separate LDLIBS from CFLAGS for libsodium
-be9155154bc39e910ba8e56f32be299cf83e21d0 selftests: vDSO: remove unnecessary command line defs from chacha test
-b90eeff1badd9c3d12123e2721ae08dfb689cda7 selftests: vDSO: use KHDR_INCLUDES for UAPI headers for getrandom test
-f78280b1a3cedd9f68d5f596179675514a15bd1d selftests: vDSO: skip getrandom test if architecture is unsupported
-9e114a7608f3deab715d9bf49181207fb36511d7 random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
-4686bb7c14e8e6118e5d29c1a3fff43d661b7739 selftests: vDSO: open code basic chacha instead of linking to libsodium
-6250d9438a75b9bc8bc4d5793a53a0e49f6815bb selftests: vDSO: fix vDSO name for powerpc
-6319a3d2ce616e71d47789bfbef942e277e082b1 selftests: vDSO: fix vdso_config for powerpc
-bb4622277011481bf5a950a60e00d88987b0b2ac selftests: vDSO: fix vDSO symbols lookup for powerpc64
-5ee16a4be9cc0d86d0457fb5d9094de8d0660865 selftests: vDSO: fix the way vDSO functions are called for powerpc
-5747a6ecaa1ce5b8bf1c803103d99fc260eba904 selftests: vDSO: use parse_vdso.h in vdso_test_abi
-105224453e804bbf29abddb74f26fe9bdd4c5646 random: vDSO: don't use 64-bit atomics on 32-bit architectures
-d204fdd7a6cf97718d6a597ab9343da0b386e00b random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
-56d7b48f0cfc69593fdb1a0ecc38cea031aeea99 random: vDSO: add missing c-getrandom-y in Makefile
-258a2e87e18c7372eafc23e88221fc21551eb28f random: vDSO: avoid call to out of line memset()
-344e696ae9f394e1fb81f14c3c9ce101e2c91146 random: vDSO: minimize and simplify header includes
+59eb856c3ed9b3552befd240c0c339f22eed3fa1 selftests: vDSO: fix vDSO name for powerpc
+7d297c419b08eafa69ce27243ee9bbecab4fcaa4 selftests: vDSO: fix vdso_config for powerpc
+ba83b3239e657469709d15dcea5f9b65bf9dbf34 selftests: vDSO: fix vDSO symbols lookup for powerpc64
+6eda706a535c3d0119eaefaad5fc119609639ed2 selftests: vDSO: fix the way vDSO functions are called for powerpc
+f0d0dbbc101a5ed2cd844eae0c2cc0546327ef89 selftests: vDSO: use parse_vdso.h in vdso_test_abi
+c90f1af32e92dd1ba71dc1219f116bed81e32110 random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
+c92e606a5817baf1d2e7b8e21e4f2e5b80e979ca selftests: vDSO: open code basic chacha instead of linking to libsodium
+4cfb1c46461b213fb6eb54d88c2705598350d3b4 random: vDSO: don't use 64-bit atomics on 32-bit architectures
+05a91e6219de5227b2933c2692f60061c60c3cf1 random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
+5db5c65d2d7a367d8803b972a4ba6e4df9da4d66 random: vDSO: add missing c-getrandom-y in Makefile
+9060c7ef3b94a136228f95c3ba5141990ab6d2c7 random: vDSO: avoid call to out of line memset()
+c252b0599716d2b88f0d35d07065f1896b6e5a37 random: vDSO: minimize and simplify header includes
 
---===============4533715039154139903==--
+--===============8814425259385764060==--
