@@ -1,28 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 30 Aug 2024 23:06:51 -0000
-Message-Id: <172505921135.2286.18295947394733944004@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1092460529325186236=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 30 Aug 2024 23:23:25 -0000
+Message-Id: <172506020510.14819.2716757466001548329@gitolite.kernel.org>
+
+--===============1092460529325186236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/objtool-diff
-    old: da1f797dee2ac4d571ebcf549b54c45ce8e86b7d
-    new: 17d8c6676a759a12e8dd665716881740f430ee00
-    log: |
-         4886b4ac2172710b7e04c5f76196a8e8fa759b00 livepatch: Enable -ffunction-sections -fdata-sections
-         f60012550c7b26e96eb3a393ee242a5b69c2e97d x86/module: Improve relocation error messages
-         30ae4477d9777b0609164348dbdcf02bad1879fb x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
-         73fd053942d37ce83a54c6405b55da782f385ff0 kernel/sys: Don't reference UTS_RELEASE directly
-         d22497c84deb096165b3eb99c5a07b514210010a x86/compiler: Tweak __UNIQUE_ID naming
-         a22bf79a80a0a57f0df7b691fff0502fa2024fa5 elfnote: Use __UNIQUE_ID() for note symbols
-         a15643e72d59633aa8af4567d18f9908113a0dd5 reloc error msg
-         e5efb4f37e61065ff688c810456692652ec27f46 fake symbol
-         df97ed4d94070eb466323d69316d81e508176300 kbuild: Remove "kmod" prefix from __KBUILD_MODNAME
-         17d8c6676a759a12e8dd665716881740f430ee00 todo
-         
+  - ref: refs/heads/nfs-localio-for-next.v15
+    old: 7584285c4da124e554cfdfbd7f3dba3d58130947
+    new: 8802dbf2c2c40b9fba3ed980b472899da43c382c
+    log: revlist-7584285c4da1-8802dbf2c2c4.txt
+
+--===============1092460529325186236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7584285c4da1-8802dbf2c2c4.txt
+
+4df2d7fe9674bd52ae8ffac410abc8de78b9275a nfs_common: add NFS LOCALIO auxiliary protocol enablement
+c86b070ba6061748759b6daa5e09c1388d6e6e6a nfs_common: prepare for the NFS client to use nfsd_file for LOCALIO
+2285b7353a5c9b52d6e0e0128b385274d499d69a nfsd: add localio support
+c9dc4287dbb1f9b237904ff2a9670b29871bff00 nfsd: implement server support for NFS_LOCALIO_PROGRAM
+0b4d90dda27599c8b437e3fa180a382dc4928c28 nfs: pass struct nfs_localio_ctx to nfs_init_pgio and nfs_init_commit
+32d4625ed404bfcdec3a3df17d2d89b8e7bea1aa nfs: add localio support
+b7c7c92f2cc0999ddfe64309ae689adf5256fa6e nfs: enable localio for non-pNFS IO
+9c122829ca195c2b064a276fc1ab130338b345e6 pnfs/flexfiles: enable localio support
+bd46f35fe222cbfaa7a7663237f29c7893d0ff92 nfs/localio: use dedicated workqueues for filesystem read and write
+4278eddcab833d09f4a3b4770a4ae995f708bd7d nfs: implement client support for NFS_LOCALIO_PROGRAM
+d031988ad6769a5b4757875611fae193ad95b26e nfs: add Documentation/filesystems/nfs/localio.rst
+8802dbf2c2c40b9fba3ed980b472899da43c382c nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
+
+--===============1092460529325186236==--
