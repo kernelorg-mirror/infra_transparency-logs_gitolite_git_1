@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3411791311372244801=="
+Content-Type: multipart/mixed; boundary="===============2451759370411751711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 30 Aug 2024 15:29:23 -0000
-Message-Id: <172503176385.3793641.9405445012165896583@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 15:29:29 -0000
+Message-Id: <172503176966.3793763.14366158705469537890@gitolite.kernel.org>
 
---===============3411791311372244801==
+--===============2451759370411751711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 47b3b6435e4bfb61ae8ffc63a11bd3c310f69acf
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0fd77ae4a3c94eca3f07e01083680ad0056df628
     new: 39c243411bdb8fb35777adf49ee32549633c4e12
-    log: revlist-47b3b6435e4b-39c243411bdb.txt
+    log: revlist-0fd77ae4a3c9-39c243411bdb.txt
 
---===============3411791311372244801==
+--===============2451759370411751711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47b3b6435e4b-39c243411bdb.txt
+Content-Disposition: attachment; filename=revlist-0fd77ae4a3c9-39c243411bdb.txt
 
-0fd77ae4a3c94eca3f07e01083680ad0056df628 Revert "tools build: Remove leftover libcap tests that prevents fast path feature detection from working"
 b6aa0de9a53a231eb068ce1e62b5e7ec9e30e627 perf cs-etm: Create decoders after both AUX and HW_ID search passes
 57880a7966be510cdaa08ab76b9d63e3df786bf0 perf: cs-etm: Allocate queues for all CPUs
 77c123f53e97ad4bde0271eb671b71774a99ebf6 perf: cs-etm: Move traceid_list to each queue
@@ -47,4 +46,4 @@ ccb9004656e55ea13e11e93862aa32aa575bf802 perf test: Additional pipe tests with p
 74fd69a35cae1d53d9c95b700aae312d77b0d1cb perf lock contention: Fix spinlock and rwlock accounting
 39c243411bdb8fb35777adf49ee32549633c4e12 perf sched timehist: Fixed timestamp error when unable to confirm event sched_in time
 
---===============3411791311372244801==--
+--===============2451759370411751711==--
