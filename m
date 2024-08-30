@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8598526101758593796=="
+Content-Type: multipart/mixed; boundary="===============6482000303945491644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Aug 2024 14:21:11 -0000
-Message-Id: <172502767158.3729392.2310357473911517635@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 14:21:14 -0000
+Message-Id: <172502767404.3729489.2467032071391460811@gitolite.kernel.org>
 
---===============8598526101758593796==
+--===============6482000303945491644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: d11a67634227f9f9da51938af085fb41a733848f
+  - ref: refs/heads/10GbE
+    old: 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7
     new: 98d4435efcbf37801a3246fb53856c4b934a2613
-    log: revlist-d11a67634227-98d4435efcbf.txt
+    log: revlist-3a0504d54b3b-98d4435efcbf.txt
 
---===============8598526101758593796==
+--===============6482000303945491644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d11a67634227-98d4435efcbf.txt
+Content-Disposition: attachment; filename=revlist-3a0504d54b3b-98d4435efcbf.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -291,6 +291,8 @@ ecb54277cb63c273e8d74272e5b9bfd80c2185d9 btrfs: fix uninitialized return value f
 a18093afa393d03599cbe42da2eb00d84a1c9a34 Merge tag 'nfsd-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 f9a59dd09749c6303821e5d6cdff1affdb5917dd Merge tag 'platform-drivers-x86-v6.11-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 928f79a188aacc057ba36c85b36b6d1e99c8f595 Merge tag 'loongarch-fixes-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+ba8cf80724dbc09825b52498e4efacb563935408 igb: Fix not clearing TimeSync interrupts for 82580
+d11a67634227f9f9da51938af085fb41a733848f ice: Add netif_device_attach/detach into PF reset flow
 41901c227e00ca6cd1a42d1d59a51f3a5af1621b Merge tag 'wireless-2024-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 0870b0d8b393dde53106678a1e2cec9dfa52f9b7 net: busy-poll: use ktime_get_ns() instead of local_clock()
 d5d547aa7b51467b15d9caa86b116f8c2507c72a Merge tag 'random-6.11-rc6-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
@@ -318,4 +320,4 @@ b57d643a673ce54bc1437d1cca25e1909f553a7e MAINTAINERS: exclude bluetooth and wire
 1bb3c548e4e3567749d7313e037a934cbadec8ee Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 98d4435efcbf37801a3246fb53856c4b934a2613 net/smc: prevent NULL pointer dereference in txopt_get
 
---===============8598526101758593796==--
+--===============6482000303945491644==--
