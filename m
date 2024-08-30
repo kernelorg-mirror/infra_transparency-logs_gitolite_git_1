@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 30 Aug 2024 09:28:28 -0000
-Message-Id: <172501010844.3407888.16400645876909408125@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0742674995281991943=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 30 Aug 2024 09:37:31 -0000
+Message-Id: <172501065196.3415878.12539020100290558035@gitolite.kernel.org>
+
+--===============0742674995281991943==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 670726a8262e69b3625723b0e168aa20eb7a5f42
-    new: fbdaffe41adca26cb9566e92060b97cd6dd87b60
+  - ref: refs/heads/master
+    old: 2f8db49e9a9b3ce6ae57458f89155c91da0c4c47
+    new: 8bee7401b5ebcef1feb69d0cfebb81445b6a33c0
     log: |
-         4d080a029db1b2ff7e173d86886b3429596f3c63 rust: sizes: add commonly used constants
-         ffd2747de6ab1545883bffe23f24e60625c1f455 rust: net::phy support probe callback
-         7909892a9fbb3e60623e60c3c3e95e10fc56f687 rust: net::phy implement AsRef<kernel::device::Device> trait
-         b2e47002b2350f57bfa8fe1c231e9fbb6baef78b rust: net::phy unified read/write API for C22 and C45 registers
-         5114e05a3cfa61c2ea20fa2e223a8e519aa163e4 rust: net::phy unified genphy_read_status function for C22 and C45 registers
-         fd3eaad826daf4774835599e264b216a30129c32 net: phy: add Applied Micro QT2025 PHY driver
-         fbdaffe41adca26cb9566e92060b97cd6dd87b60 Merge branch 'am-qt2025-phy-rust'
+         8bee7401b5ebcef1feb69d0cfebb81445b6a33c0 strip mbox
          
+
+--===============0742674995281991943==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725010670 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1725010648-694fe0af80f3d05cb65430e9f4ea403d8153997d
+
+2f8db49e9a9b3ce6ae57458f89155c91da0c4c47 8bee7401b5ebcef1feb69d0cfebb81445b6a33c0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbRku4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sOwP/3UxMGDavmm+deSN9iMP
+mHVbH7k0IljlGKNNkNSegD0QOUM7YzQOjIHGlr6uGp3izIpqAUru1kHKS547BKRM
+Pf7ZlD2NTKRc1w2HkosSzAhQUbrZY/mCGG7SkLWx0SmurA6nh4sep0KQOhm2btnx
+fxcXmXCWffakz8efW4mRHUyjuIHMmE7C2OoDCAyVoeyb5ttCVHsQdBtrnnPW3N34
+uczxDJLdV2pkK08l+Ri0uJHl5UNuEXv3oEKc5qffWqbzlV8YTjDlppdqpdIyFSrH
+FspDCMIK1aAyxUX1/1my1UZKYr7j5KzKCL1EZHy5ULD2R3hK0iT7Y5mQfsaN9bRv
+FG6dA3IYz9Pd8NdiiEucW66D4Ps66zq2g2EeDWoD9neMhdkq4MJhDgp89l5Ei7/D
+4epBzYY5XqvK72R9QryoB5B09xGLKalhXSN7FP1N/VC+2bChNueLBWRQ/0X3YqTY
+a1pupw30TelY/r3dh+fyIt8TbF/cBRVng+Zq1D/aXNNMKDvnvlTOfN2zL7WCvXl8
+uF24wN0X21QtB3csNzMfGvxL3wfXUI4mM6GvyaXirU01BPekJHGTmPKBK4iOfggs
+ZvvlMegiD0+v5BTOQp2LB+JNj0rY2l6KuHLKYGYfBEtkz/bHEBKOu6MPxv3RIMwr
+EY+Cz4Frmbaj3wVbGfc4Kb3K
+=hH3h
+-----END PGP SIGNATURE-----
+
+--===============0742674995281991943==--
