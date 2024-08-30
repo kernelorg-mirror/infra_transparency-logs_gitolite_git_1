@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 30 Aug 2024 00:41:52 -0000
-Message-Id: <172497851250.2982014.9877138885597112003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 30 Aug 2024 00:50:46 -0000
+Message-Id: <172497904691.2990109.962506144971000893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 3b9dfd9e59367eff5f65ef2a850f2df674f1f1c5
-    new: 1b5fe53681d9c388f1600310fe3488091701d4d0
+    old: f4ac972c0a7d925fbad63aa394bf3699c6835193
+    new: 4741b51489895eb8de91bc74e953ecf5cc0b5051
     log: |
-         c6a09e342f8e6d3cac7f7c5c14085236aca284b9 binfmt_elf_fdpic: fix AUXV size calculation when ELF_HWCAP2 is defined
-         04c8abae1b7b2abeb638a3d5d5950fa2a031c244 dcache: keep dentry_hashtable or d_hash_shift even when not used
-         1b5fe53681d9c388f1600310fe3488091701d4d0 Merge tag 'execve-v6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+         4741b51489895eb8de91bc74e953ecf5cc0b5051 Thu Aug 29 08:50:19 PM EDT 2024
          
