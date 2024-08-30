@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0742674995281991943=="
+Content-Type: multipart/mixed; boundary="===============3499983628648498458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 30 Aug 2024 09:37:31 -0000
-Message-Id: <172501065196.3415878.12539020100290558035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 30 Aug 2024 09:58:34 -0000
+Message-Id: <172501191454.3431956.4596987340238697000@gitolite.kernel.org>
 
---===============0742674995281991943==
+--===============3499983628648498458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 2f8db49e9a9b3ce6ae57458f89155c91da0c4c47
-    new: 8bee7401b5ebcef1feb69d0cfebb81445b6a33c0
+  - ref: refs/heads/review-ilpo
+    old: a3379eca24a7da5118a7d090da6f8eb8611acac8
+    new: ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb
     log: |
-         8bee7401b5ebcef1feb69d0cfebb81445b6a33c0 strip mbox
+         ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb platform/x86: dell-smbios: Fix error path in dell_smbios_init()
          
 
---===============0742674995281991943==
+--===============3499983628648498458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725010670 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725010648-694fe0af80f3d05cb65430e9f4ea403d8153997d
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1725011933 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1725011910-80d6bf44a9df6e3075d9b1d539f49b1b4cb3504c
 
-2f8db49e9a9b3ce6ae57458f89155c91da0c4c47 8bee7401b5ebcef1feb69d0cfebb81445b6a33c0 refs/heads/master
+a3379eca24a7da5118a7d090da6f8eb8611acac8 ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbRku4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sOwP/3UxMGDavmm+deSN9iMP
-mHVbH7k0IljlGKNNkNSegD0QOUM7YzQOjIHGlr6uGp3izIpqAUru1kHKS547BKRM
-Pf7ZlD2NTKRc1w2HkosSzAhQUbrZY/mCGG7SkLWx0SmurA6nh4sep0KQOhm2btnx
-fxcXmXCWffakz8efW4mRHUyjuIHMmE7C2OoDCAyVoeyb5ttCVHsQdBtrnnPW3N34
-uczxDJLdV2pkK08l+Ri0uJHl5UNuEXv3oEKc5qffWqbzlV8YTjDlppdqpdIyFSrH
-FspDCMIK1aAyxUX1/1my1UZKYr7j5KzKCL1EZHy5ULD2R3hK0iT7Y5mQfsaN9bRv
-FG6dA3IYz9Pd8NdiiEucW66D4Ps66zq2g2EeDWoD9neMhdkq4MJhDgp89l5Ei7/D
-4epBzYY5XqvK72R9QryoB5B09xGLKalhXSN7FP1N/VC+2bChNueLBWRQ/0X3YqTY
-a1pupw30TelY/r3dh+fyIt8TbF/cBRVng+Zq1D/aXNNMKDvnvlTOfN2zL7WCvXl8
-uF24wN0X21QtB3csNzMfGvxL3wfXUI4mM6GvyaXirU01BPekJHGTmPKBK4iOfggs
-ZvvlMegiD0+v5BTOQp2LB+JNj0rY2l6KuHLKYGYfBEtkz/bHEBKOu6MPxv3RIMwr
-EY+Cz4Frmbaj3wVbGfc4Kb3K
-=hH3h
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZtGX3gAKCRBZrE9hU+XO
+MXwGAP9+rO1iReDs7BCTqQzBkThiN7xP95oK4NxrbbU2cES5pwD7BciLABsLMb1R
+/etO1+xxMZUQz7LajJaRueRrC7zBxww=
+=dti7
 -----END PGP SIGNATURE-----
 
---===============0742674995281991943==--
+--===============3499983628648498458==--
