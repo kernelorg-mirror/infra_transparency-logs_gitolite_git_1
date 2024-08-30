@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4194253046604715814=="
+Content-Type: multipart/mixed; boundary="===============9082918578149766135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 30 Aug 2024 18:07:32 -0000
-Message-Id: <172504125239.3936634.3395928103028756746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 30 Aug 2024 18:07:34 -0000
+Message-Id: <172504125413.3936735.15524928868756605286@gitolite.kernel.org>
 
---===============4194253046604715814==
+--===============9082918578149766135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
 
---===============4194253046604715814==
+--===============9082918578149766135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -477,4 +477,4 @@ dde72a5d4fdf2e18fedb4b2abfba5f7e86bcb7c8 Merge tag 'drm-xe-fixes-2024-08-29' of 
 27f5b729cb56e46d8beca47c227c0edf1e958fbb Merge tag 'drm-misc-fixes-2024-08-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 20371ba120635d9ab7fc7670497105af8f33eb08 Merge tag 'drm-fixes-2024-08-30' of https://gitlab.freedesktop.org/drm/kernel
 
---===============4194253046604715814==--
+--===============9082918578149766135==--
