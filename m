@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Fri, 30 Aug 2024 12:45:10 -0000
-Message-Id: <172502191042.3633479.12684514350862028796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Fri, 30 Aug 2024 12:49:00 -0000
+Message-Id: <172502214012.3635882.113227435902874546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/tags/iommu-fixes-v6.11-rc5
+  - ref: refs/tags/dmaengine-fix-6.11
     old: 0000000000000000000000000000000000000000
-    new: c4cfbe4998d5199d36b4d0f82473f938f10cca46
+    new: 0c9946bea4da8a9b067c0a895dda23cf52284b69
