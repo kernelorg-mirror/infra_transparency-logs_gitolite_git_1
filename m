@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1802559663465601369=="
+Content-Type: multipart/mixed; boundary="===============3411791311372244801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 30 Aug 2024 15:29:15 -0000
-Message-Id: <172503175588.3793484.12998965612265275456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 30 Aug 2024 15:29:23 -0000
+Message-Id: <172503176385.3793641.9405445012165896583@gitolite.kernel.org>
 
---===============1802559663465601369==
+--===============3411791311372244801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 39c243411bdb8fb35777adf49ee32549633c4e12
     log: revlist-47b3b6435e4b-39c243411bdb.txt
 
---===============1802559663465601369==
+--===============3411791311372244801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ ccb9004656e55ea13e11e93862aa32aa575bf802 perf test: Additional pipe tests with p
 74fd69a35cae1d53d9c95b700aae312d77b0d1cb perf lock contention: Fix spinlock and rwlock accounting
 39c243411bdb8fb35777adf49ee32549633c4e12 perf sched timehist: Fixed timestamp error when unable to confirm event sched_in time
 
---===============1802559663465601369==--
+--===============3411791311372244801==--
