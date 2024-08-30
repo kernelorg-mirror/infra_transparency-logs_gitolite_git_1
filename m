@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 30 Aug 2024 12:22:34 -0000
-Message-Id: <172502055437.3611008.1159519204699412215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Aug 2024 12:26:04 -0000
+Message-Id: <172502076416.3614678.11732705077196913251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/stm32-next
-    old: 76e16f3549e802dc8bb822ebcef9d35c125acc09
-    new: d3557e468f6867ab49ea355fd0cd18f30887f597
+  - ref: refs/heads/main
+    old: 1bb3c548e4e3567749d7313e037a934cbadec8ee
+    new: 98d4435efcbf37801a3246fb53856c4b934a2613
     log: |
-         d3557e468f6867ab49ea355fd0cd18f30887f597 ARM: dts: stm32: Disable PHY clock output on DH STM32MP13xx DHCOR DHSBC board
+         98d4435efcbf37801a3246fb53856c4b934a2613 net/smc: prevent NULL pointer dereference in txopt_get
          
