@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 30 Aug 2024 18:13:39 -0000
-Message-Id: <172504161904.3942456.17614972423223901576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 30 Aug 2024 18:17:33 -0000
+Message-Id: <172504185332.3946602.16731686570086873880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/main
-    old: fbdaffe41adca26cb9566e92060b97cd6dd87b60
-    new: b26b64493343659cce8bbffa358bf39e4f68bdec
-    log: |
-         74ce94ac38a6eac2ffc235739294f24964fd0a86 sfc: Convert to use ERR_CAST()
-         f24f966feb62164f4a68d1b84e866504904ac4ac nfp: Convert to use ERR_CAST()
-         b26b64493343659cce8bbffa358bf39e4f68bdec net: openvswitch: Use ERR_CAST() to return
-         
+  - ref: refs/heads/nfsd-fixes
+    old: 40927f3d0972bf86357a32a5749be71a551241b6
+    new: 7e8ae8486e4471513e2111aba6ac29f2357bed2a
