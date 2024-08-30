@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 30 Aug 2024 19:15:31 -0000
-Message-Id: <172504533188.4004984.17785774780947758103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 30 Aug 2024 19:23:58 -0000
+Message-Id: <172504583821.4010727.5373173864825113204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 6af91e3d2cfc8bb579b1aa2d22cd91f8c34acdf6
-    new: cff69f72d33318f4ccfe7d5ff6c5616d00dd45a7
+  - ref: refs/heads/master
+    old: 76d157aeebf2dd1b8bdf9d7463ce9a05ec221b7b
+    new: 502136a9b2bf743ee364ac75dd2e3e76ab3b5f6f
     log: |
-         cff69f72d33318f4ccfe7d5ff6c5616d00dd45a7 ethtool: pse-pd: move pse validation into set
+         502136a9b2bf743ee364ac75dd2e3e76ab3b5f6f test/link-timeout: test updates of linked timeouts
          
