@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3075127944238309557=="
+Content-Type: multipart/mixed; boundary="===============8610640821789376681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Aug 2024 14:21:16 -0000
-Message-Id: <172502767657.3729661.3296342671685699521@gitolite.kernel.org>
+Date: Fri, 30 Aug 2024 14:21:31 -0000
+Message-Id: <172502769179.3730317.14547688919004870497@gitolite.kernel.org>
 
---===============3075127944238309557==
+--===============8610640821789376681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 3a0504d54b3b57f0d7bf3d9184a00c9f8887f6d7
     new: 98d4435efcbf37801a3246fb53856c4b934a2613
     log: revlist-3a0504d54b3b-98d4435efcbf.txt
 
---===============3075127944238309557==
+--===============8610640821789376681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -320,4 +320,4 @@ b57d643a673ce54bc1437d1cca25e1909f553a7e MAINTAINERS: exclude bluetooth and wire
 1bb3c548e4e3567749d7313e037a934cbadec8ee Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 98d4435efcbf37801a3246fb53856c4b934a2613 net/smc: prevent NULL pointer dereference in txopt_get
 
---===============3075127944238309557==--
+--===============8610640821789376681==--
