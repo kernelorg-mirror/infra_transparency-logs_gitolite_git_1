@@ -1,21 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 30 Aug 2024 08:06:40 -0000
-Message-Id: <172500520016.3340863.16444931507490152040@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1024940799210723570=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 30 Aug 2024 08:10:53 -0000
+Message-Id: <172500545392.3344756.7110991552935105766@gitolite.kernel.org>
+
+--===============1024940799210723570==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
   - ref: refs/heads/next
-    old: 4b851ed48f050f6446b8267b712925aea46c9b39
-    new: 10ec8d6d2e82aab6e878b21ac82a1d7ed9c821a9
-    log: |
-         ca1a18368d764f9b29ab0c79b3ddd712f5511855 KVM: arm64: selftests: Ensure pending interrupts are handled in arch_timer test
-         54306f564441f6bc99514af45552236f28b1768d KVM: arm64: selftests: Add arch_timer_edge_cases selftest
-         10ec8d6d2e82aab6e878b21ac82a1d7ed9c821a9 Merge branch kvm-arm64/selftests-6.12 into kvmarm-master/next
-         
+    old: b48baf69db9725aa5ddde52d98cd7b5517ddd9eb
+    new: 3c2ea12a625dbf5a864f4920235fa1c739d06e7d
+    log: revlist-b48baf69db97-3c2ea12a625d.txt
+
+--===============1024940799210723570==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b48baf69db97-3c2ea12a625d.txt
+
+e33525de6c3c7780564e0859ea6daef27309995b phy: broadcom: bcm-cygnus-pcie: Simplify with scoped for each OF child loop
+a7f1dbf479d2a3cbf2a25bd186bbe15efd17d849 phy: broadcom: brcm-sata: Simplify with scoped for each OF child loop
+612f9fcb435fdc9abd46b6339c9000cef6d323a2 phy: cadence: sierra: Simplify with scoped for each OF child loop
+93cab07a02f08e4a2837dd22280b741ba0a7a541 phy: hisilicon: usb2: Simplify with scoped for each OF child loop
+d2714416770ed0cecaf69eaff34d20817f2c3bea phy: mediatek: tphy: Simplify with scoped for each OF child loop
+77df35acd182a23c117a937ffd6b0830a5428649 phy: mediatek: xsphy: Simplify with scoped for each OF child loop
+608863e1e600a4d91b00dddd6ff11eda1cbebaa5 phy: qcom: qmp-pcie-msm8996: Simplify with scoped for each OF child loop
+29b44a38503856952862c710d47d933c0173fd04 phy: ti: am654-serdes: Use scoped device node handling to simplify error paths
+27a4046255377eb0faab5c41fd271b1acab1ac41 phy: ti: gmii-sel: Simplify with dev_err_probe()
+afd7aaf3ecaf1b247db1294ef0687fb3cb530213 phy: ti: j721e-wiz: Drop OF node reference earlier for simpler code
+0d5a213c2eae880e0f7f8bc252314bae194d68d8 phy: ti: j721e-wiz: Simplify with scoped for each OF child loop
+4eae16375357a2a7e8501be5469532f7636064b3 phy: renesas: rcar-gen3-usb2: Add support to initialize the bus
+f3c8498551146dfb014be0d85d3a7df98be16aa2 dt-bindings: phy: renesas,usb2-phy: Document RZ/G3S phy bindings
+3c2ea12a625dbf5a864f4920235fa1c739d06e7d phy: renesas: rcar-gen3-usb2: Add support for the RZ/G3S SoC
+
+--===============1024940799210723570==--
