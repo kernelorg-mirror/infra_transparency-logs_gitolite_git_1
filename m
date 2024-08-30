@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 30 Aug 2024 16:24:03 -0000
-Message-Id: <172503504343.3843820.17179620897272276269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 30 Aug 2024 16:26:20 -0000
+Message-Id: <172503518098.3847116.1070290287390880318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 98d9517072736dab2779bf2b30afd2d9e1ed3d17
-    new: 8ea978e70be723db6cf1610deb34dce81818b407
+    old: 80d2d2dbcce7752566f19472e379658de74cf977
+    new: e278dcc0a237c48963d4768c31afbba9039ba6ae
     log: |
-         8ea978e70be723db6cf1610deb34dce81818b407 test/kallsyms: add test case reading /proc/kallsyms
+         669e8c8b5663713009ea8c9c0c08bbd21e207267 Bluetooth: Use led_set_brightness() in LED trigger activate() callback
+         e278dcc0a237c48963d4768c31afbba9039ba6ae Bluetooth: btrtl: Set msft ext address filter quirk for RTL8852B
          
