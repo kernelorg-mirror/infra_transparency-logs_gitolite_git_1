@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sat, 31 Aug 2024 22:25:37 -0000
-Message-Id: <172514313756.1102756.12488890805598577041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Sat, 31 Aug 2024 22:46:15 -0000
+Message-Id: <172514437550.1118212.8532840992983643463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 81bdc7eab99404ad657a8bc3ee02b95fbfbb7154
-    new: 092b7d431f5eb1443cbf0e797858861e2ede1e28
+  - ref: refs/heads/devel
+    old: f33254db6c9dc255801b19d6d0272166779c4377
+    new: 5213518d5ab7d5191490b93a306bbc6f2356d3c1
     log: |
-         092b7d431f5eb1443cbf0e797858861e2ede1e28 Input: snvs_pwrkey - use devm_clk_get_optional_enabled()
+         5213518d5ab7d5191490b93a306bbc6f2356d3c1 pinctrl: sophgo: cv18xx: fix missed __iomem type identifier
          
-  - ref: refs/heads/next
-    old: 81bdc7eab99404ad657a8bc3ee02b95fbfbb7154
-    new: 092b7d431f5eb1443cbf0e797858861e2ede1e28
+  - ref: refs/heads/for-next
+    old: f33254db6c9dc255801b19d6d0272166779c4377
+    new: 5213518d5ab7d5191490b93a306bbc6f2356d3c1
     log: |
-         092b7d431f5eb1443cbf0e797858861e2ede1e28 Input: snvs_pwrkey - use devm_clk_get_optional_enabled()
+         5213518d5ab7d5191490b93a306bbc6f2356d3c1 pinctrl: sophgo: cv18xx: fix missed __iomem type identifier
          
