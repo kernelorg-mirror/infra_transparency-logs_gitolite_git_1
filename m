@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 31 Aug 2024 04:30:40 -0000
-Message-Id: <172507864056.255147.13352370921405502831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sat, 31 Aug 2024 04:33:52 -0000
+Message-Id: <172507883284.256875.13558949306802268526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: b13ff50f7a8363be3462aa3938c342e0087b8e3b
-    new: d8f176682496693326cf9e615ba46320462c25dd
+  - ref: refs/heads/objtool-diff
+    old: 17d8c6676a759a12e8dd665716881740f430ee00
+    new: fe71a789fd2c99ac279334949e9f42eb2992c31f
     log: |
-         d8f176682496693326cf9e615ba46320462c25dd Sat Aug 31 12:30:13 AM EDT 2024
+         fe71a789fd2c99ac279334949e9f42eb2992c31f todo
          
