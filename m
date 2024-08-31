@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sat, 31 Aug 2024 19:34:27 -0000
-Message-Id: <172513286717.967344.15311926261665158428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Sat, 31 Aug 2024 19:48:55 -0000
+Message-Id: <172513373505.978716.6745484229339238769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/tags/pwrseq-fixes-for-v6.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 751dba00c65f45c952473f73244b6112c5fb8fde
+  - ref: refs/heads/for-next
+    old: aef9b1d92516359711b05de453aed75bd71c592a
+    new: 5fb9c98e9d8ddf2abc645e2dcd9eb6703f77fdab
+    log: |
+         5fb9c98e9d8ddf2abc645e2dcd9eb6703f77fdab fuse: add support for no forget requests
+         
