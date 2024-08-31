@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 31 Aug 2024 10:56:53 -0000
-Message-Id: <172510181307.552221.1296455775189408244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 31 Aug 2024 10:57:26 -0000
+Message-Id: <172510184680.552552.5455881596488157366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/testing
-    old: e9388616c991665f3a49b77d4aae7ad579ea7572
-    new: 6ae493b98e50a6a1d6f3151b28c775bf93fc962f
+  - ref: refs/heads/for-next
+    old: 2186fe21e57aada45f365a79cdb6d21140a539e2
+    new: 61bc4deff033181992408f973b48fca08757d3ff
     log: |
-         6ae493b98e50a6a1d6f3151b28c775bf93fc962f tools/iio: Add memory allocation failure check for trigger_name
+         61bc4deff033181992408f973b48fca08757d3ff ALSA: pcm: replace simple_strtoul to kstrtoul
+         
+  - ref: refs/heads/master
+    old: 4a5389aba2d422ab6ef7d26b606936d74ed9142c
+    new: 79eeb729aeecf7bc9e9b63659a0dde6d820f1921
+    log: |
+         61bc4deff033181992408f973b48fca08757d3ff ALSA: pcm: replace simple_strtoul to kstrtoul
+         79eeb729aeecf7bc9e9b63659a0dde6d820f1921 Merge branch 'for-next'
          
