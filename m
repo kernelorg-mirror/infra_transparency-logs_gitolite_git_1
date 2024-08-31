@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 31 Aug 2024 10:57:26 -0000
-Message-Id: <172510184680.552552.5455881596488157366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 31 Aug 2024 11:13:52 -0000
+Message-Id: <172510283284.564944.170179375587833784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 2186fe21e57aada45f365a79cdb6d21140a539e2
-    new: 61bc4deff033181992408f973b48fca08757d3ff
+  - ref: refs/heads/testing
+    old: 6ae493b98e50a6a1d6f3151b28c775bf93fc962f
+    new: 540a08fa42126c5c7fbe1539ce81d0f03b417779
     log: |
-         61bc4deff033181992408f973b48fca08757d3ff ALSA: pcm: replace simple_strtoul to kstrtoul
-         
-  - ref: refs/heads/master
-    old: 4a5389aba2d422ab6ef7d26b606936d74ed9142c
-    new: 79eeb729aeecf7bc9e9b63659a0dde6d820f1921
-    log: |
-         61bc4deff033181992408f973b48fca08757d3ff ALSA: pcm: replace simple_strtoul to kstrtoul
-         79eeb729aeecf7bc9e9b63659a0dde6d820f1921 Merge branch 'for-next'
+         8c8b7b73f500c8b611534f72e4854e4c3e8efb06 dt-bindings: iio: adc: sophgo,cv1800b-saradc: Add Sophgo CV1800B SARADC
+         540a08fa42126c5c7fbe1539ce81d0f03b417779 iio: adc: sophgo-saradc: Add driver for Sophgo CV1800B SARADC
          
