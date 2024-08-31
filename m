@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5526255797834455108=="
+Content-Type: multipart/mixed; boundary="===============9084712976176211372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 31 Aug 2024 16:16:57 -0000
-Message-Id: <172512101771.814580.8968803912513127895@gitolite.kernel.org>
+Date: Sat, 31 Aug 2024 16:17:13 -0000
+Message-Id: <172512103324.814871.232480790090731461@gitolite.kernel.org>
 
---===============5526255797834455108==
+--===============9084712976176211372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 3ba963597d19d88eb06b50af8e8757abbdc9035b
-    new: 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d
-    log: revlist-3ba963597d19-70302fc7adcd.txt
+  - ref: refs/heads/for-next
+    old: f682c0f62af8006e1b55d65a630a9d1570cf9ed3
+    new: 8a1f405ed3bd4b69cc19844f8a45601fdc6b8578
+    log: revlist-f682c0f62af8-8a1f405ed3bd.txt
 
---===============5526255797834455108==
+--===============9084712976176211372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ba963597d19-70302fc7adcd.txt
+Content-Disposition: attachment; filename=revlist-f682c0f62af8-8a1f405ed3bd.txt
 
 89835a58f5f54d52537709f2513fb91024e2d069 scsi: ufs: Move UFS trace events to private header
 2e4b02fad094976763af08fec2c620f4f8edd9ae scsi: elx: libefc: Fix potential use after free in efc_nport_vport_del()
@@ -48,5 +48,8 @@ f30679166255148f7781b0726d8e1b5e22dd5b48 scsi: myrs: Simplify an alloc_ordered_w
 1aa992cbc272beceba40ae39b33b2848c228c0c9 scsi: ufs: Simplify alloc*_workqueue() invocation
 ba52850cb6b4db5f4ec4636c73d2ad85d0e9adba scsi: core: Simplify an alloc_workqueue() invocation
 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d Merge patch series "Simplify multiple create*_workqueue() invocations"
+0f9592ae26ffe044cfb2b2d071ccf4427be57ed4 scsi: ufs: ufs-mediatek: Add UFSHCD_QUIRK_BROKEN_LSDBS_CAP
+2ad82e498fa80d2e7195fbe0c302912152e56015 Merge branch 'misc' into for-next
+8a1f405ed3bd4b69cc19844f8a45601fdc6b8578 Merge branch 'fixes' into for-next
 
---===============5526255797834455108==--
+--===============9084712976176211372==--
