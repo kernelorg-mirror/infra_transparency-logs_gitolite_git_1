@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0369634868848636225=="
+Content-Type: multipart/mixed; boundary="===============7021262602048507352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sat, 31 Aug 2024 05:45:03 -0000
-Message-Id: <172508310342.315314.3890948218116908557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 31 Aug 2024 06:21:54 -0000
+Message-Id: <172508531466.343163.15145173919682051991@gitolite.kernel.org>
 
---===============0369634868848636225==
+--===============7021262602048507352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 84d1078af52f6a099267fccfb1dda602ac8b66d0
-    new: 32960b4f25c248f13758b8bbe6cc4260828442a1
+  - ref: refs/heads/master
+    old: 0d5eea21cb7964765baa59c8bfa3fdfcef6f9864
+    new: 7408289f53449f5dd93a8ef93c400bc5051a326c
     log: |
-         331b8a963137d182248599d500edd9b4a3783db5 memory: pl172: simplify releasing AMBA regions with devm
-         32960b4f25c248f13758b8bbe6cc4260828442a1 memory: pl353-smc: simplify with scoped for each OF child loop
+         efc1ffb6f42dcbee5043b9b099a5cc0350d74bc3 6.1-stable patches
+         82562766585d741048579398d38c874e00d57bec 6.6-stable patches
+         5ea240e01eae2afe859ccf22d4db31bc33a732c3 drop queue-6.1/cifs-fix-falloc_fl_punch_hole-support.patch
+         7408289f53449f5dd93a8ef93c400bc5051a326c 4.19-stable patches
          
 
---===============0369634868848636225==
+--===============7021262602048507352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1725083123 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1725083101-3610167f426ae581eec8d29e1be2458ce7c52db3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725085335 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725085310-338e5647424609340a8e8181d01682b599e80976
 
-84d1078af52f6a099267fccfb1dda602ac8b66d0 32960b4f25c248f13758b8bbe6cc4260828442a1 refs/heads/for-next
+0d5eea21cb7964765baa59c8bfa3fdfcef6f9864 7408289f53449f5dd93a8ef93c400bc5051a326c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbSrfMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yuoD/4khDOvqcCFc1aFFgAriQ2QRb2Jlpn5nAWQ
-Acsbbr7m53Qfg0VjMhZBVTSIKHj/2yvoT2sSpycT9ZS/QtFww6qFoqrTMJL4iHui
-0ky8CrkdNyJ9DywtaOCltk80rsTOPPNUyksRlBISeph7G6AwPelaGy1oB82UR7Nz
-l/YIitDhxw05LOMervUQc4KGd+sS1uMsnb5IAdDXtxl5S2b6Ez+7fKAVqq364Z2x
-q/kn+8BeH5U6bUujPVViMKD1EkSCca3mSd3ys8holJOlIlNs3CiR7BtfrdCnjD2K
-ryVXJ01siLyi84DYOT+tXLu2z4iOv04+I27jjSDmOFpAIMGY+XQHIXbAZUujO/4R
-kNgPutYM07YlzQNTeRpcHNr3SJbkRbTr039xgH59flcW5+kbiigNnOe05GsYKyyN
-Kah6a9O5qJDV/GFWlc+4BnTzV1gYoMGkCR6YPUB1CGl113I+nlogT7o0N2PzHgN0
-JknTMKgWJ4XjGxEn6pFpF/VHfTtwn3vddTcOrpaDj5oGJJEoTinQBEhSSF6keSpF
-h7LsYg7uaC2PK3u+EJoeZabAGMu4lJkuoDF7xoQlGlLTmSCTdI046WMUYXRsWzau
-iKrc4NasP/ct0CET2NapXK5uShFNRwBH4ReZPprfvfKiTUDsCsQDrbqi6aQD9oyz
-O+uZE2WsFg==
-=PLjp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbStpcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s9QQAMiUCU4nVnK/uxGUbelU
+RGSfuY1EBmVDj4jdWd+pHyphM7UBO0aQacDbWhB8ZyaAluWOnN0MN5ik+qTljGst
+cCqH8N2mF1S/OsjT+AreOhtMm/006myx84puGIs0FIMcKNj/gQIId7FdfYLGJ6Tk
+lkGgbbW6m9+KnPGDPeD+eGcXzcPziUBm4UbCFnzk64Upc/DisMDr74yLtiZALkCW
+4uUMYHQDWpC7VzBPSJ5Zxw3pExr4xhK450cPgmbNBPupmm/D2GoPAA9PjjOjn4oQ
+BBZrc8rB14djbIuSmJHW/1iAip64Yr/CzUG/dOD4odMFSfPGK+E+qDQoMgLvvYrj
+hM2d1KYw9ZUF+Nc2CVdDBZlMh+pd84+XUUejU223SR+lSSohirNGip0DsoE59Q7t
+tOsOOuLsRdSaoOdotA0gZGpts/T2XlO4QEr7I7lpKquoS359OKhxa1suQ34rv7Xo
+5ACsJYtZOp8+OMREAEhfAcGxwUQ7JAgsRpZZ8/wmgvWzsUqJLdwUaaG5T1FrEDSA
+bq9l08GSNfkENufl7ZtOnrHA/fZ3clfCsTwdrYFJgvTIwXS4WYGNy0ho3n6sdrO8
+gp7QP3Th47yV4eWnLU+ll+EDK0XZGxRCqwS0h295jFC708IHCPbxj4NAlwwaDrW9
+VxHXRQqVSVoc9CYUSG+wBwfd
+=qwS3
 -----END PGP SIGNATURE-----
 
---===============0369634868848636225==--
+--===============7021262602048507352==--
