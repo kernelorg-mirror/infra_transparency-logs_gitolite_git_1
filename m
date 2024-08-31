@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5515661497686164776=="
+Content-Type: multipart/mixed; boundary="===============3975933943528119525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 31 Aug 2024 14:01:59 -0000
-Message-Id: <172511291970.701977.14799841344517359979@gitolite.kernel.org>
+Date: Sat, 31 Aug 2024 14:02:22 -0000
+Message-Id: <172511294214.702279.9825035118806484667@gitolite.kernel.org>
 
---===============5515661497686164776==
+--===============3975933943528119525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/bindings
-    old: 9ebd74c20a48dc6c07e7077987565df2cb9a9f00
-    new: b575d3bd08d2c46b2e9aa9668a8ac8a10af6e54c
-    log: |
-         32e1089ed23569685521021925bd839946d76ccd dt-bindings: arm: fsl: add fsl-ls2081a-rdb board
-         5d7b3dfb30e0ea91198292ae54415e390387dc76 dt-bindings: arm: fsl: correct spelling of TQ-Systems
-         b575d3bd08d2c46b2e9aa9668a8ac8a10af6e54c dt-bindings: arm: fsl: Add Kontron i.MX93 OSM-S based boards
-         
-  - ref: refs/heads/imx/dt
-    old: ebfaa1a900c4e5cacb553eff60bb8aa15675e3f3
-    new: 0353e9809eb65cdf227821e6e65a6f0676271242
-    log: |
-         d8ae1cdea3e735ebd2c12f88a81b2f03d2206a46 ARM: dts: imx7-mba7: add iio-hwmon support
-         3e74825cd9ffca4bf4d082c150b861e541c52ff1 ARM: dts: imx7-mba7: improve compatible for LM75 temp sensor
-         0353e9809eb65cdf227821e6e65a6f0676271242 ARM: dts: imx28-apx4devkit: Fix the regulator description
-         
-  - ref: refs/heads/imx/dt64
-    old: 788f125e5db14cec5e59a32c5e455a8ffa2ae886
-    new: 236890867af19fc488516044832427751ecfc734
-    log: revlist-788f125e5db1-236890867af1.txt
+  - ref: refs/heads/for-next
+    old: 1d43464566cd7dc2f3f078e2ef46b55a5bab6c70
+    new: be5d181a34f8759233625f3cfa00b74ef7aff5d1
+    log: revlist-1d43464566cd-be5d181a34f8.txt
 
---===============5515661497686164776==
+--===============3975933943528119525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-788f125e5db1-236890867af1.txt
+Content-Disposition: attachment; filename=revlist-1d43464566cd-be5d181a34f8.txt
 
 6f5a740c5f47cea9d1db0f9f0b8a9007a2df60bf arm64: dts: layerscape: remove unused num-viewport
 70cf622bb16e810a36db755a136e419fb3b3853f arm64: dts: mba8mx: Add Ethernet PHY IRQ support
+d8ae1cdea3e735ebd2c12f88a81b2f03d2206a46 ARM: dts: imx7-mba7: add iio-hwmon support
+3e74825cd9ffca4bf4d082c150b861e541c52ff1 ARM: dts: imx7-mba7: improve compatible for LM75 temp sensor
+32e1089ed23569685521021925bd839946d76ccd dt-bindings: arm: fsl: add fsl-ls2081a-rdb board
+5d7b3dfb30e0ea91198292ae54415e390387dc76 dt-bindings: arm: fsl: correct spelling of TQ-Systems
 ffb2e5f1cbdf3a828d0d729d3f3fbbfbdedfd40c arm64: dts: imx8mq: Add dbi2 and atu reg for i.MX8MQ PCIe EP
 a39758af7714661e62b04a248c93e748f19cd185 arm64: dts: imx8mp: Add dbi2 and atu reg for i.MX8MP PCIe EP
 e2eeb9b17cc67ecc20ccd07bc20b31738aae095a arm64: dts: imx8mm: Add dbi2 and atu reg for i.MX8MM PCIe EP
+b575d3bd08d2c46b2e9aa9668a8ac8a10af6e54c dt-bindings: arm: fsl: Add Kontron i.MX93 OSM-S based boards
 eb61f61da69a2f4538979854f27fb7db715d1be4 arm64: dts: Add support for Kontron i.MX93 OSM-S SoM and BL carrier board
 f7ed5f78264e395efe141b4a9d996596ce8921a0 arm64: dts: imx8mp: Clarify csis clock frequency
 0b16c5687b37dde7f2af427fc02f8ce1ab27b50b arm64: dts: imx8mp-phycore: Add VDD_IO regulator
@@ -87,5 +76,10 @@ ad63501736a10067cb54366f55d2840999ebc3d0 arm64: dts: imx8mm-venice-gw7902(3): ad
 a8be6a5e48466f5c3771e861e3afc30244f038bb arm64: dts: s32v234: remove fallback compatible string arm,cortex-a9-gic
 f7894106fdb854f7eeb4022470148ca193be0418 arm64: dts: imx8mm-beacon-kit: add DVDD-supply and DOVDD-supply
 236890867af19fc488516044832427751ecfc734 arm64: dts: imx8mp-beacon: Enable DW HDMI Bridge
+0353e9809eb65cdf227821e6e65a6f0676271242 ARM: dts: imx28-apx4devkit: Fix the regulator description
+d2b3832b76d1572c83b547682171aa1b2243ff9a Merge branch 'imx/soc' into for-next
+f53a62e09178eb4f395b2fbae36ba28105eb9310 Merge branch 'imx/bindings' into for-next
+178b54bc55e075820e401f55055cff86d1b535ad Merge branch 'imx/dt' into for-next
+be5d181a34f8759233625f3cfa00b74ef7aff5d1 Merge branch 'imx/dt64' into for-next
 
---===============5515661497686164776==--
+--===============3975933943528119525==--
