@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 31 Aug 2024 12:20:05 -0000
-Message-Id: <172510680560.623304.17029194876275714162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 31 Aug 2024 12:27:09 -0000
+Message-Id: <172510722951.628220.17793141294931039764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 289468f7e28d080712ab00ce46881249949818ca
-    new: cc74667886e92a0a1b3a279ed5f2f527c5d9f3e0
-    log: |
-         cc74667886e92a0a1b3a279ed5f2f527c5d9f3e0 Update CHANGELOG
-         
+  - ref: refs/heads/for-next-clocksource
+    old: 0000000000000000000000000000000000000000
+    new: e5bb163b9996359e6ecbe894a87324a842496e37
