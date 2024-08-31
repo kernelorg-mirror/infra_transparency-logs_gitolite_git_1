@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3267672685549673795=="
+Content-Type: multipart/mixed; boundary="===============6408055857967882243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 31 Aug 2024 03:18:12 -0000
-Message-Id: <172507429246.192712.4555401096318362148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 31 Aug 2024 04:10:26 -0000
+Message-Id: <172507742603.237725.15400306754264702548@gitolite.kernel.org>
 
---===============3267672685549673795==
+--===============6408055857967882243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: d7b69f6e9e1c8b6acdcce3b385779eb046835dd5
-    new: dd5d5a60ac5c380d55cd296f452b61e97f10e890
-    log: revlist-d7b69f6e9e1c-dd5d5a60ac5c.txt
+  - ref: refs/heads/master
+    old: fb24560f31f9dff2c97707cfed6029bfebebaf1c
+    new: 1934261d897467a924e2afd1181a74c1cbfa2c1d
+    log: revlist-fb24560f31f9-1934261d8974.txt
 
---===============3267672685549673795==
+--===============6408055857967882243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7b69f6e9e1c-dd5d5a60ac5c.txt
+Content-Disposition: attachment; filename=revlist-fb24560f31f9-1934261d8974.txt
 
-6614be05358869f1642964b650977018ac528a14 firmware: qcom: scm: Allow QSEECOM on Surface Laptop 7 models
-2538d0689cfe0a3c45c1fbed54d14cd56df8781c dt-bindings: arm: qcom: Add Surface Laptop 7 devices
-02a1bfb34ca8607fc0ed5b5155fd81b7574e931e arm64: dts: qcom: x1e80100-pmics: Add PMC8380C PWM
-ecbdce2041ee09cb3a046fd2b7d000fa5e333773 arm64: dts: qcom: x1e80100: Add UART2
-09d77be56093b9fc7daa14c9c745e77ae3a56492 arm64: dts: qcom: Add support for X1-based Surface Laptop 7 devices
-4b520e4983c37b2e33ea0dd5171cb8a79fd7e022 Revert "arm64: dts: qcom: msm8939-longcheer-l9100: Add rear flash"
-7ad660f9991d3f9029b55c112e728ef43170d402 dt-bindings: arm: qcom: Add Lenovo ThinkPad T14s Gen 6
-7d1cbe2f49854a9a5f723e3932da7da1b7e3c7b8 arm64: dts: qcom: Add X1E78100 ThinkPad T14s Gen 6
-17c5909f53e01c151c91f66949a9c4f191756bae arm64: dts: qcom: x1e80100: Add orientation-switch to all USB+DP QMP PHYs
-fec09568a355ec70cbad254168da4391e0241238 arm64: dts: qcom: qcm6490-idp: Add SD Card node
-ba728bda663b0e812cb20450d18af5d0edd803a2 arm64: dts: qcom: x1e80100: Fix PHY for DP2
-db213b0cfe3268d8b1d382b3bcc999c687a2567f firmware: qcom: uefisecapp: Fix deadlock in qcuefi_acquire()
-dd5d5a60ac5c380d55cd296f452b61e97f10e890 Merge branches 'arm32-for-6.12', 'arm64-defconfig-fixes-for-6.11', 'arm64-defconfig-for-6.12', 'arm64-fixes-for-6.11', 'arm64-for-6.12', 'clk-fixes-for-6.11', 'clk-for-6.12', 'drivers-fixes-for-6.11' and 'drivers-for-6.12' into for-next
+054308ad90ae43ba2d4b9c83c6582e8fe94f6fed MAINTAINERS: Add Manivannan Sadhasivam as Reviewer for PCI native host bridge and endpoint drivers
+5d6a6c7454ebaefba518e334750b05700131923b PCI: qcom-ep: Disable MHI RAM data parity error interrupt for SA8775P SoC
+db1ec60fba4a995975dc1dc837b408db0d666801 PCI: qcom: Use OPP only if the platform supports it
+e33a97a830b230b79a98dbbb4121d4741a2be619 block: fix detection of unsupported WRITE SAME in blkdev_issue_write_zeroes
+c472d33bcbf7a1ed3710efe93822b5e94eabe18c Input: cypress_ps2 - fix waiting for command response
+1c47c0d6014c832ad8e2ba04fc2c5b7070d999f7 io_uring/rsrc: ensure compat iovecs are copied correctly
+f274495aea7b15225b3d83837121b22ef96e560c io_uring/kbuf: return correct iovec count from classic buffer peek
+150b572a7c1df30f5d32d87ad96675200cca7b80 MAINTAINERS: PCI: Add NXP PCI controller mailing list imx@lists.linux.dev
+ad246d9f04aa037f8e8bbf8573c9af527114cead Merge tag 'io_uring-6.11-20240830' of git://git.kernel.dk/linux
+216d163165a937ee9c1d0e9c26fe7a6f7d27ac4c Merge tag 'block-6.11-20240830' of git://git.kernel.dk/linux
+8101b2766d5bfee43a4de737107b9592db251470 Merge tag 'pci-v6.11-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+1934261d897467a924e2afd1181a74c1cbfa2c1d Merge tag 'input-for-v6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============3267672685549673795==--
+--===============6408055857967882243==--
