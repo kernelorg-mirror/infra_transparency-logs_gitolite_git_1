@@ -1,42 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0078918750838589193=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 31 Aug 2024 07:21:22 -0000
-Message-Id: <172508888247.390086.2084417234683194496@gitolite.kernel.org>
-
---===============0078918750838589193==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sat, 31 Aug 2024 09:37:18 -0000
+Message-Id: <172509703835.491098.12207060709613982654@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ath/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: fb24560f31f9dff2c97707cfed6029bfebebaf1c
-    new: 1934261d897467a924e2afd1181a74c1cbfa2c1d
-    log: revlist-fb24560f31f9-1934261d8974.txt
-
---===============0078918750838589193==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb24560f31f9-1934261d8974.txt
-
-054308ad90ae43ba2d4b9c83c6582e8fe94f6fed MAINTAINERS: Add Manivannan Sadhasivam as Reviewer for PCI native host bridge and endpoint drivers
-5d6a6c7454ebaefba518e334750b05700131923b PCI: qcom-ep: Disable MHI RAM data parity error interrupt for SA8775P SoC
-db1ec60fba4a995975dc1dc837b408db0d666801 PCI: qcom: Use OPP only if the platform supports it
-e33a97a830b230b79a98dbbb4121d4741a2be619 block: fix detection of unsupported WRITE SAME in blkdev_issue_write_zeroes
-c472d33bcbf7a1ed3710efe93822b5e94eabe18c Input: cypress_ps2 - fix waiting for command response
-1c47c0d6014c832ad8e2ba04fc2c5b7070d999f7 io_uring/rsrc: ensure compat iovecs are copied correctly
-f274495aea7b15225b3d83837121b22ef96e560c io_uring/kbuf: return correct iovec count from classic buffer peek
-150b572a7c1df30f5d32d87ad96675200cca7b80 MAINTAINERS: PCI: Add NXP PCI controller mailing list imx@lists.linux.dev
-ad246d9f04aa037f8e8bbf8573c9af527114cead Merge tag 'io_uring-6.11-20240830' of git://git.kernel.dk/linux
-216d163165a937ee9c1d0e9c26fe7a6f7d27ac4c Merge tag 'block-6.11-20240830' of git://git.kernel.dk/linux
-8101b2766d5bfee43a4de737107b9592db251470 Merge tag 'pci-v6.11-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-1934261d897467a924e2afd1181a74c1cbfa2c1d Merge tag 'input-for-v6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-
---===============0078918750838589193==--
+  - ref: refs/heads/main-pending
+    old: 2581a85efc4f26cdf1230ea050598d0144a689be
+    new: 13276569e05eefcd271f683169f4883606c244c1
+    log: |
+         10395516540fdc67d1415f15dcde9b05917ecdf7 Revert "wifi: ath11k: restore country code during resume"
+         d8535e2ae09212fbdd9330870814b62a231f8745 Revert "wifi: ath11k: support hibernation"
+         13276569e05eefcd271f683169f4883606c244c1 Merge branch 'pending' into main-pending
+         
+  - ref: refs/heads/pending
+    old: d075f3981ba56d694c33a21588bb70d9f5aea321
+    new: d8535e2ae09212fbdd9330870814b62a231f8745
+    log: |
+         10395516540fdc67d1415f15dcde9b05917ecdf7 Revert "wifi: ath11k: restore country code during resume"
+         d8535e2ae09212fbdd9330870814b62a231f8745 Revert "wifi: ath11k: support hibernation"
+         
+  - ref: refs/tags/ath-pending-202408310934
+    old: 0000000000000000000000000000000000000000
+    new: 13276569e05eefcd271f683169f4883606c244c1
