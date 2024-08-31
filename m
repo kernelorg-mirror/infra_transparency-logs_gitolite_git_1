@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 31 Aug 2024 11:59:40 -0000
-Message-Id: <172510558047.603293.9556102366856196528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 31 Aug 2024 12:00:00 -0000
+Message-Id: <172510560031.603984.1606871612571369016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 359f7f61d519e54e18618faa2bdf590d6dee2f84
-    new: 289468f7e28d080712ab00ce46881249949818ca
-    log: |
-         289468f7e28d080712ab00ce46881249949818ca test: move utime helpers into helpers.h
-         
+  - ref: refs/heads/for-next-time
+    old: 0000000000000000000000000000000000000000
+    new: 362d06932f8518b8e42af5bdcb10664bf1dbdb03
