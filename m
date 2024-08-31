@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1942779253878538615=="
+Content-Type: multipart/mixed; boundary="===============2354147912150710193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 31 Aug 2024 05:43:48 -0000
-Message-Id: <172508302856.312968.7410910799137098935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sat, 31 Aug 2024 05:44:57 -0000
+Message-Id: <172508309703.314049.3427345285314247136@gitolite.kernel.org>
 
---===============1942779253878538615==
+--===============2354147912150710193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 8fa9ef3dc50985610ab0a9469d744ea7163d0c5f
-    new: cea7d2a2c07565c76c5efa0940dce70613e60acc
+  - ref: refs/heads/mem-ctrl-next
+    old: 84d1078af52f6a099267fccfb1dda602ac8b66d0
+    new: 32960b4f25c248f13758b8bbe6cc4260828442a1
     log: |
-         cea7d2a2c07565c76c5efa0940dce70613e60acc update cvelistV5
+         331b8a963137d182248599d500edd9b4a3783db5 memory: pl172: simplify releasing AMBA regions with devm
+         32960b4f25c248f13758b8bbe6cc4260828442a1 memory: pl353-smc: simplify with scoped for each OF child loop
          
 
---===============1942779253878538615==
+--===============2354147912150710193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725083049 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725083028-dc9b8463c90e549f7cef4cb5ad4caae1ac70f5a0
+pusher krzk@kernel.org 1725083117 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1725083094-0f5aa170c556a3f62174fff08452285ec65aac95
 
-8fa9ef3dc50985610ab0a9469d744ea7163d0c5f cea7d2a2c07565c76c5efa0940dce70613e60acc refs/heads/master
+84d1078af52f6a099267fccfb1dda602ac8b66d0 32960b4f25c248f13758b8bbe6cc4260828442a1 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbSraobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EdsQAI1H3iez350rCz9bbwqS
-ZgUIwsAEnFeoYviBrYFe0pGpipfjy0IF2nx7+bvtnCsJ6a7YOw/pdQ4o0C6/lR3V
-C+b9KWa0jY2+tgiilYTQVLgY2cqB9TECGZnZmMmnJrt454YTl6Dm0FDax+kSgNO4
-pe5AeR+8p/JWTLnuRVPXoh+EOYxQunxbJlLAIxlzvrBkIiWUqaZYjBX3OAkPHu1z
-F7mBhuDFqjaJl6EvqcPJJO+6dNiBPLt13Teg1rT33XLuSLjyW7GPVfMrrNh7L3Fu
-hpBBoVi1IkHcxbypGe+7mHUHAUq9TQs4gt9XkyN5yJWpvEalIm7+/c+LnRW3oaRN
-b753j81kME1fctFBHaoLzdQdfUSN2mIix1p1+jd683nYYSfwOXn73sTgN6PePVXV
-JtXXHxgGY5jg6VnxZ39HgQKqWVBsVb42JGnc4w8gMEgf11rAP5rQSBu+ZljRn6R2
-rx215LxgqfKnCXYI6IdOGNM0U0X1WyvNFKlC8C06icQjZXEXHavzg2uVQNQvQ83S
-Ol3EqWrH6X3u7J8k6A14EaS2RzjTfgAp4BO59M7LJ05FM8d0YyO3EaaRJ9O+vNpg
-OWi4Nb9Yk+/IC7xJmh8GnQiiFtT4LJNbhz84LQCoq9tbx3LTaCm2Ng/gWu87DLDt
-vRlLYcAd3oplE1Bw2K3y0ftE
-=GEaD
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbSre0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zYzD/4o3o9AqkWurXbXkwnSw+ET/9U+Ei5OiAgs
+MQ3SaCP0rAEpJUOO4OaMUv6BR5d5khVmYUTFSgV+892UQ8xBQXWTaHrWw1ggMjcI
+4chwbmqk4lf1mKCRommRwm/TbS9BkCv/gAc4jz/vqZ2z0YBpFZdkmpKJj3m0XQZA
+E84s/uU5a6aQd6poM41gKAfddPwEtPsitQ0BYTNAZkkkcBvLeiffS+Tvy/QnI3Kb
+gTdbn6P0BwAppTRcCJOuFriYjKZpHQvH06QsELJCab+7S+Hbdk609KLx7dGHBxVn
+/n5D1b7Eqyo7NMldvGjXsJ8HAaiGqCWt2ZMTjndMcQfSX+fiCm5JhBOeImMzbkIx
+UlrCdPr7tzTIZAKwxf1y0siJ+hOd0ldZI09sKn7F+x6bb934qiydE4VA6TzbJw92
+aGOJWnN9GgDxlVmK/yppgUyvni4p9302eliz16bBRgK2EFRNd1KOuxpXWs8LG+9U
+1zSQZgVdn0qAR4sUVRIOMgaR3rT1WdYJwJ6xeVjESNSg440jYv0C7lGvWzoGLvkq
+lhdqwsaGsJN/L7rl06nxYjnBLC/fCCHuTN2/0FOyPg1Sd89Ws/LPAA40gc4AiXJq
+NUydYsU4ie300+15JtKaiyna+T66lObpXRJh25zJdfWa/ME3vGQP+YM2GQjd+NjJ
+LhT3Wv8utw==
+=1far
 -----END PGP SIGNATURE-----
 
---===============1942779253878538615==--
+--===============2354147912150710193==--
