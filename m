@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 31 Aug 2024 14:02:48 -0000
-Message-Id: <172511296831.702548.12095530298569442648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 31 Aug 2024 14:09:01 -0000
+Message-Id: <172511334140.707110.12761552622020795845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/controller/xilinx
-    old: 19adc99ac882fdfc1375675887e1274ccd322512
-    new: 6ac721795d7375e48bede6bb4965c0e46133c704
+  - ref: refs/heads/testing
+    old: 540a08fa42126c5c7fbe1539ce81d0f03b417779
+    new: a369e1d1a10790f63b4b858dc74b53730146754f
     log: |
-         899d54826110af3a896a614c9d065ba6acf1e8b3 dt-bindings: PCI: xilinx-xdma: Add schemas for Xilinx QDMA PCIe Root Port Bridge
-         6ac721795d7375e48bede6bb4965c0e46133c704 PCI: xilinx-xdma: Add Xilinx QDMA Root Port driver
+         81ecf0f268eea75434b705ef9e107c294aff5697 dt-bindings: iio: aw96103: Add bindings for aw96103/aw96105 sensor
+         a369e1d1a10790f63b4b858dc74b53730146754f iio: proximity: aw96103: Add support for aw96103/aw96105 proximity sensor
          
