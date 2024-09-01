@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7760930983591668252=="
+Content-Type: multipart/mixed; boundary="===============1248166016084968718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 01 Sep 2024 11:37:36 -0000
-Message-Id: <172519065648.1749038.4832166281357581388@gitolite.kernel.org>
+Date: Sun, 01 Sep 2024 11:37:57 -0000
+Message-Id: <172519067751.1749242.16737496960669542768@gitolite.kernel.org>
 
---===============7760930983591668252==
+--===============1248166016084968718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 184a282d540c3da03f6a229f4792a5f72d3dfc2a
-    new: 8b185a2ef825645a04355f6dda16234c376e5a26
-    log: revlist-184a282d540c-8b185a2ef825.txt
+  - ref: refs/heads/master
+    old: d2bafcf224f3911b183113b2fcb536c9e90684a3
+    new: 431c1646e1f86b949fa3685efc50b660a364c2b6
+    log: revlist-d2bafcf224f3-431c1646e1f8.txt
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
 
---===============7760930983591668252==
+--===============1248166016084968718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-184a282d540c-8b185a2ef825.txt
+Content-Disposition: attachment; filename=revlist-d2bafcf224f3-431c1646e1f8.txt
 
 e4ab5d7cb5f19858305395e034f214c92afc3cf5 soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST
 10f98bb9d98137b544b00abb4f9df45e9be7878d arm64: defconfig: Add CONFIG_DRM_PANEL_SAMSUNG_ATNA33XC20
@@ -402,26 +408,5 @@ e3e6940940910c2287fe962bdf72015efd4fee81 bcachefs: Revert lockless buffered IO p
 a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of https://github.com/koverstreet/bcachefs
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
-4f32f799a950c7fffa17971177be42c79d74b69f modpost: remove unused HOST_ELFCLASS
-a660deb0f1f62214439640292cd7726f6ed8023d modpost: detect endianness on run-time
-aaed5c7739be81ebdd6008aedc8befd98c88e67a kbuild: slim down package for building external modules
-f1d87664b82aeeaa1be9ee22dc85a59fd5a60d63 kbuild: cross-compile linux-headers package when possible
-76be4f5a784533c71afbbb1b8f2963ef9e2ee258 Remove *.orig pattern from .gitignore
-0c4beffbfe3fcd711b5d9268e7c7d63d4c1cc964 kbuild: modinst: remove the multithread option from zstd compression
-2893f00322922b2adce07fd6d0db37d6b8e30977 tinyconfig: remove unnecessary 'is not set' for choice blocks
-dc73a57aeaaabe148c69c16b388771f891a996a2 kconfig: remove dummy assignments to cur_{filename,lineno}
-5e6cc7e3f2965fc3df901416336f6bf985a363da kconfig: stop adding P_SYMBOL property to symbols
-96490176f1e11947be2bdd2700075275e2c27310 kconfig: remove P_SYMBOL property
-a9d83d74783b00f9189c14180f77bbed133b092c kbuild: split x*alloc() functions in kconfig to scripts/include/xalloc.h
-4c2598e3b62102d5ea7f618e13d996b069cde27d modpost: replace the use of NOFAIL() with xmalloc() etc.
-aeaa4283a309520c22a783071f554645943955d8 kallsyms: use xmalloc() and xrealloc()
-a46078d651819c988d36379e8df68cb866eae747 fixdep: use xmalloc()
-7a7f974594cd5d6723242cb8c018b59db16fe27b modpost: improve the section mismatch warning format
-e6b65ee10588a552d04d488ebeac24bba20747a8 kbuild: control extra pacman packages with PACMAN_EXTRAPACKAGES
-b6223c2de6b0cade1e1d37490b304cb5df8d45d9 kbuild: pacman-pkg: move common commands to a separate function
-5b000f3cbb38c23992ee95fcd3e983ca66164eff kbuild: pacman-pkg: do not override objtree
-4079fe8e7b2b42b278e77dae7cb9d95e62c415a2 modpost: simplify modpost_log()
-87af9388b4e0c2ce94275ab4bef7227550b30df3 kbuild: remove *.symversions left-over
-8b185a2ef825645a04355f6dda16234c376e5a26 kbuild: add debug package to pacman PKGBUILD
 
---===============7760930983591668252==--
+--===============1248166016084968718==--
