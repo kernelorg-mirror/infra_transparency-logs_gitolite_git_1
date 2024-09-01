@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 01 Sep 2024 03:40:32 -0000
-Message-Id: <172516203265.1339808.9635099863486304897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 01 Sep 2024 04:00:20 -0000
+Message-Id: <172516322076.1354914.735255584942682276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e698e228e980581c1919889f4497c200a37d80ca
-    new: 53d741b2719d1f54d02e13c4c7e9c891c99722a8
+    old: a4c763129fbcc7da5d3134ea95f9577f25bc637d
+    new: 6b9ffc4595ab936b10834167037acb992ebac34a
     log: |
-         53d741b2719d1f54d02e13c4c7e9c891c99722a8 Sat Aug 31 11:40:04 PM EDT 2024
+         6a5dcd487791e0c2d86622064602a5c7459941ed cifs: Fix lack of credit renegotiation on read retry
+         1da29f2c39b67b846b74205c81bf0ccd96d34727 netfs, cifs: Fix handling of short DIO read
+         8101d6e112e2524e967368f920c404ae445a9757 cifs: Fix copy offload to flush destination region
+         91d1dfae464987aaf6c79ff51d8674880fb3be77 cifs: Fix FALLOC_FL_ZERO_RANGE to preflush buffered part of target region
+         6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
          
