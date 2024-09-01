@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Sun, 01 Sep 2024 18:34:39 -0000
-Message-Id: <172521567971.2074652.14782215415010805669@gitolite.kernel.org>
+Date: Sun, 01 Sep 2024 18:35:46 -0000
+Message-Id: <172521574692.2077260.1804263726108977640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/main
-    old: 07aa33988ad92fef79056f5ec30b9a0e4364b616
-    new: 3682c302e72d71abeb17a81a6d29f281b22928e2
-    log: |
-         b8ec0dc3845f6c9089573cb5c2c4b05f7fc10728 net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
-         7eba264a3c102b6c006aa429f7eb25d2b8533da7 mac802154: Correct spelling in mac802154.h
-         3682c302e72d71abeb17a81a6d29f281b22928e2 ieee802154: Correct spelling in nl802154.h
-         
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
+  - ref: refs/tags/v6.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
+  - ref: refs/tags/v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/tags/v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/tags/v6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+  - ref: refs/tags/v6.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
