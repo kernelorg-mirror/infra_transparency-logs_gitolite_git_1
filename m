@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8354050345860721818=="
+Content-Type: multipart/mixed; boundary="===============8451454136828131598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 02 Sep 2024 07:56:08 -0000
-Message-Id: <172526376839.2696618.5207874464067337974@gitolite.kernel.org>
+Date: Mon, 02 Sep 2024 07:56:33 -0000
+Message-Id: <172526379352.2697053.9600650438860231199@gitolite.kernel.org>
 
---===============8354050345860721818==
+--===============8451454136828131598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
-    old: b9e7fc0aeda79031a101610b2fcb12bf031056e9
+  - ref: refs/heads/master
+    old: 89a2aefe4b084686c2ffc1ee939585111ea4fc0f
     new: 9b0874286768d7f380b08e4f1fa9b96c526b0bad
-    log: revlist-b9e7fc0aeda7-9b0874286768.txt
+    log: revlist-89a2aefe4b08-9b0874286768.txt
 
---===============8354050345860721818==
+--===============8451454136828131598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9e7fc0aeda7-9b0874286768.txt
+Content-Disposition: attachment; filename=revlist-89a2aefe4b08-9b0874286768.txt
 
 f17c06c6608ad4ecd2ccf321753fb511812d821b i2c: Fix conditional for substituting empty ACPI functions
 3c41df428e9989eee79ed86d809a59ac03ac7c31 Merge tag 'media/v6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
@@ -1051,4 +1051,4 @@ fe1910f9337bd46a9343967b547ccab26b4b2c6e tcp_bpf: fix return value of tcp_bpf_se
 f962e8361adfa84e8252d3fc3e5e6bb879f029b1 net: mctp-serial: Fix missing escapes on transmit
 9b0874286768d7f380b08e4f1fa9b96c526b0bad Merge branch 'mctp-serial-tx-escapes'
 
---===============8354050345860721818==--
+--===============8451454136828131598==--
