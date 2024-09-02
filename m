@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Sep 2024 11:51:12 -0000
-Message-Id: <172527787278.2889205.9428472147879623662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Mon, 02 Sep 2024 11:55:15 -0000
+Message-Id: <172527811529.2892988.17782473809094296146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/mm-generic-shadow-stack-guard
-    old: cee7666d4399dc5fc380d4bccf0ea2765ca0f475
-    new: 9d8320fed97a7dd8626c59780eef0843a71b1613
+  - ref: refs/heads/for-next
+    old: bd97615a331684590f6fe65420e9a959a57c975b
+    new: 27f22f897095b09df32bf689b63624d23b0c8ebc
     log: |
-         e20e42643b0c31b61ae8f48fa1ec3ecabcac1b4b mm: Make arch_get_unmapped_area() take vm_flags by default
-         3a5b0ecf759935e5c3017ac27b8de3414634a8bd mm: Pass vm_flags to generc_get_unmapped_area()
-         9d8320fed97a7dd8626c59780eef0843a71b1613 mm: Care about shadow stack guard gap when getting an unmapped area
+         2ff86df2b6a3b535b9cd4f3a9a37f5e181d3a898 fbdev: pxa3xx-gcu: Convert comma to semicolon
+         18b0327310efa286e1bf8fca3845cf2d121d36f1 fbdev: imsttfb: convert comma to semicolon
+         27f22f897095b09df32bf689b63624d23b0c8ebc fbdev: hyperv_fb: Convert comma to semicolon
          
