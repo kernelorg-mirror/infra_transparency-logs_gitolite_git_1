@@ -1,51 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1077525192607843079=="
+Content-Type: multipart/mixed; boundary="===============3799892140086198324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Sep 2024 19:10:41 -0000
-Message-Id: <172530424181.3249753.6954860975189895031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 02 Sep 2024 19:29:12 -0000
+Message-Id: <172530535281.3262289.9364686216754478352@gitolite.kernel.org>
 
---===============1077525192607843079==
+--===============3799892140086198324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: e2c55c3112270a869de5c431f21fde9ebd4441bc
-    new: ce6599a930ba054176fd5b90ffdf622597a523e9
-    log: revlist-e2c55c311227-ce6599a930ba.txt
+  - ref: refs/heads/objtool-diff
+    old: 4fa7e76352c78100ddda166167138cccfaccbc06
+    new: 88abd0e60763e32757e29243eed3c282e4a6537e
+    log: revlist-4fa7e76352c7-88abd0e60763.txt
 
---===============1077525192607843079==
+--===============3799892140086198324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2c55c311227-ce6599a930ba.txt
+Content-Disposition: attachment; filename=revlist-4fa7e76352c7-88abd0e60763.txt
 
-ea846426197b4cd060c9cc64c7d40fcef1810b04 arm64/mm: Handle GCS data aborts
-699cdd2de9b1ce40dbc4b66e551f37646bad7aa6 arm64/gcs: Context switch GCS state for EL0
-ecbc4bcd12ce689adc79cc4c17d6ddf2a71c1326 arm64/gcs: Ensure that new threads have a GCS
-b5fad65a6780b471389a9bbc865bec7ea8a4f64b arm64/gcs: Implement shadow stack prctl() interface
-0e1061789e3aa7326f62547cdb6065f2bae8864a arm64/mm: Implement map_shadow_stack()
-a3b00cbf0ddea7e5fccaa11b1f9d645592a36612 arm64/signal: Set up and restore the GCS context for signal handlers
-fba56b60d2264c54fabeff5d3c131f80edaef953 arm64/signal: Expose GCS state in signal frames
-45e9d854a072fb5e4932108db5c5d42abd035c8c arm64/ptrace: Expose GCS via ptrace and core files
-431c91284613ae4346b4dbb729eb614852a2a504 arm64: Add Kconfig for Guarded Control Stack (GCS)
-cad1a3b408344aba18ceec9258515227c01fc30a kselftest/arm64: Verify the GCS hwcap
-fb7f1a5dc5d419fe200892a15342dbdbeb534625 kselftest/arm64: Add GCS as a detected feature in the signal tests
-ccb969d4ffe232beb6bdbef0c961c6aad11a21f4 kselftest/arm64: Add framework support for GCS to signal handling tests
-d75aff8cc04b04e2dd33d324d9f222ad42906541 kselftest/arm64: Allow signals tests to specify an expected si_code
-0ea8436be2f2f6ac502d215e05a917a8cc83b3ab kselftest/arm64: Always run signals tests with GCS enabled
-2fdcf8aad5da88f904da710fcf2cb35249c0bd86 kselftest/arm64: Add very basic GCS test program
-e7af5fcba9268a69c975ec02a9b58177d006a6d0 kselftest/arm64: Add a GCS test program built with the system libc
-74e452ee69041b6acb34bacddea16de2186f4ea9 kselftest/arm64: Add test coverage for GCS mode locking
-2cfb30dcc044e749b4ddf0a2eaeaba28d494a187 kselftest/arm64: Add GCS signal tests
-cb2df5eaeaa45b65f8ea38636e98c57a63ab42db kselftest/arm64: Add a GCS stress test
-02e5a55bb8a066d079a61319461085de69421d73 kselftest/arm64: Enable GCS for the FP stress tests
-ce6599a930ba054176fd5b90ffdf622597a523e9 KVM: selftests: arm64: Add GCS registers to get-reg-list
+3ffa2f93dba2371ada436fbee3e8d0194d4f0df6 sym/sec type helpers
+32d7f4df01d959ab82bf5913061a9b513d3a9665 Objname
+c78124a3e6c96c24e4e863f54c61053334b792eb addend calculation simplfication
+17ca22ae2aa24919bb7eeefe726a45ab31c825eb jump_dest-refactor
+c0bc65268b4661fbbc22bfc522d4eea95ae4e621 objtool: Simplify fatal error handling
+475ee4ba5310a14f63fdbc11063905e84d067684 interval tree fix
+3324299845c985beffabd4acc7ffb8c6c686e914 ud1 fix
+6460edfd1da422aa9862296eca8018749a8feb65 arch_dest_reloc_addend
+0aacac2d078ce4bf19b15468f83b95f914133b25 find_symbol_containing
+8fa619eec635a5e635b68d521d9ab599636355ac elf_update_symbol-fix
+f44c8aebc82f41a4bfcba2a6f63a314be5253023 align fix?
+67e1d7e28dc86051157c60fb43797c2f199658bb phys_to_virt
+d9b3ca1323b794a4cf2cac2edab12e12d17ab539 elf_hash_add-fix
+465591e50be5427a1086bf89145390284d6fc993 insn_reloc-fix
+47fb96cd623954fb640ee3966142164971f96ffc func_stack_frame_non_standard fix
+a0ea24693386340c7dc649d824ce29424abd2469 elf api refactor
+7d7611ec7f55657e1205e2b4d804eaeb1321f001 objtool: Interval tree cleanups
+23b2ec37ec0bab3f8cb01c3fc72bc99881f4ee4a objtool: Fix weak symbol detection
+f4fbaa0f55b6271a09843956f25275d5e99775f1 x86/alternative: Refactor INT3 call emulation selftest
+8f7bff7aee2a87c36804cfa7827424a942123a2d x86/alternative: Create symbols for special section entries
+3ad9e373e61ff19d5adce5527721304413d545eb x86/module: Improve relocation error messages
+89091b4b0512e9c783d84e5555767de2f90d23f8 x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
+bf92fda9d4bcdb4073fe9f423c8f0611fa2cad5b kernel/sys: Don't reference UTS_RELEASE directly
+0c00e0517444baf250ca15c1471f278b8ffb63d0 x86/compiler: Tweak __UNIQUE_ID naming
+a8072845f8899e7c2138a1ca497362894985ee20 elfnote: Use __UNIQUE_ID() for note symbols
+0ba31bdf6e160c8b1aad374c224b61c2dcfbfe8f kbuild: Remove "kmod" prefix from __KBUILD_MODNAME
+b468ee1fe670e4138ed6ad8f424c70eb4530364c livepatch: Enable -ffunction-sections -fdata-sections
+c35715b8a1d0165cc0ad42b8c19df787dda50e08 sym checksum
+88abd0e60763e32757e29243eed3c282e4a6537e klp-build
 
---===============1077525192607843079==--
+--===============3799892140086198324==--
