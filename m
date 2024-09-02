@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0311364676896048240=="
+Content-Type: multipart/mixed; boundary="===============3595142020721969433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Sep 2024 07:58:32 -0000
-Message-Id: <172526391235.2697957.4755155004304140833@gitolite.kernel.org>
+Date: Mon, 02 Sep 2024 07:58:45 -0000
+Message-Id: <172526392560.2698119.6382693159541968620@gitolite.kernel.org>
 
---===============0311364676896048240==
+--===============3595142020721969433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: d58bb1895199bf0700b15faf136ed6f4ad12a918
-    new: d1b21794855ee7cd686b0b36def437f054654025
-    log: revlist-d58bb1895199-d1b21794855e.txt
+  - ref: refs/heads/m68k-queue
+    old: fecf32c0edad5d92f40727881c2c5cd354a72f1e
+    new: 592dc4af0573333d4f13784a9ade5f3eeadf6f51
+    log: revlist-fecf32c0edad-592dc4af0573.txt
 
---===============0311364676896048240==
+--===============3595142020721969433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58bb1895199-d1b21794855e.txt
+Content-Disposition: attachment; filename=revlist-fecf32c0edad-592dc4af0573.txt
 
 e4ab5d7cb5f19858305395e034f214c92afc3cf5 soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST
 10f98bb9d98137b544b00abb4f9df45e9be7878d arm64: defconfig: Add CONFIG_DRM_PANEL_SAMSUNG_ATNA33XC20
@@ -353,6 +353,10 @@ e3e6940940910c2287fe962bdf72015efd4fee81 bcachefs: Revert lockless buffered IO p
 a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of https://github.com/koverstreet/bcachefs
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
-d1b21794855ee7cd686b0b36def437f054654025 Merge tag 'v6.11-rc6'
+756f487ad861bc0b07d82c3e7e82c8a12209aa64 m68k: cmpxchg: Use swap() to improve code
+41e069ad4869516d8ef2aa562f47083d7ae39344 m68k: Fix kernel_clone_args.flags in m68k_clone()
+7e1026e42ce317bb4a1749b704f96352d6ea37be m68k: atari: usb: Add ISP1160 USB host controller support
+57e2f54db3748435da1e5e938ad3b4f5e8009a9a m68k: atari: Update Kconfig.bus help text
+592dc4af0573333d4f13784a9ade5f3eeadf6f51 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0311364676896048240==--
+--===============3595142020721969433==--
