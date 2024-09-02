@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3440069579048150451=="
+Content-Type: multipart/mixed; boundary="===============6149608395350738366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 02 Sep 2024 07:16:42 -0000
-Message-Id: <172526140215.2665209.11451276894368973140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 02 Sep 2024 07:18:29 -0000
+Message-Id: <172526150987.2666030.12669328509602805276@gitolite.kernel.org>
 
---===============3440069579048150451==
+--===============6149608395350738366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 5af9b304bc6010723c02f74de0bfd24ff19b1a10
+    old: ab8d66d132bc8f1992d3eb6cab8d32dda6733c84
     new: 431c1646e1f86b949fa3685efc50b660a364c2b6
-    log: revlist-5af9b304bc60-431c1646e1f8.txt
+    log: revlist-ab8d66d132bc-431c1646e1f8.txt
   - ref: refs/tags/v6.11-rc6
     old: 0000000000000000000000000000000000000000
     new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
@@ -35,12 +35,13 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
 
---===============3440069579048150451==
+--===============6149608395350738366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5af9b304bc60-431c1646e1f8.txt
+Content-Disposition: attachment; filename=revlist-ab8d66d132bc-431c1646e1f8.txt
 
+bca515d58367494d8699ab53c645b57b71fb4785 ice: Skip PTP HW writes during PTP reset procedure
 c181da18a7302c5de510fe975a3a333299c6e4b7 ice: Fix incorrect assigns of FEC counts
 568901e709d7fa564dfdc75816ea59fec65d20a0 tools/include: Sync uapi/asm-generic/unistd.h with the kernel sources
 ed86525f1f4b738bae75c73e89f25430bd0af1b0 tools/include: Sync network socket headers with the kernel sources
@@ -581,7 +582,6 @@ cbaac68987b8699397df29413b33bd51f5255255 scsi: sd: Do not attempt to configure d
 b71817585383d96ddc51ebd126f6253fdb9a8568 Merge tag 'bcachefs-2024-08-16' of git://evilpiepirate.org/bcachefs
 d09840f8b362d16a0722d300a6c7c8cca626e628 Merge tag 'xfs-6.11-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 df6cbc62cc9b3bcf593d13400dd58cd339a0f56d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-ab8d66d132bc8f1992d3eb6cab8d32dda6733c84 soundwire: stream: fix programming slave ports for non-continous port maps
 98a1b2d71f9fac01c7aba80f30235b1b2e8234da Merge tag 'i2c-for-6.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e0fac5fc8b7657ee82a7d23eeac564182dbf51fd Merge tag 'v6.11-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 810996a36309a56a39b406d9ad2903115714228f Merge tag 'powerpc-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -1066,4 +1066,4 @@ a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of http
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
 
---===============3440069579048150451==--
+--===============6149608395350738366==--
