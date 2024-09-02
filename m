@@ -1,21 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 02 Sep 2024 21:41:56 -0000
-Message-Id: <172531331608.3365221.3873472818975231747@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7132659561727959846=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 02 Sep 2024 22:46:54 -0000
+Message-Id: <172531721457.3413761.13910368459408297324@gitolite.kernel.org>
+
+--===============7132659561727959846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/next-fixes
-    old: ad354ce8cc6cbfb525850c1d012c2fd69c2c48e6
-    new: 27a355ae6da957fe51b1d6dd33ea208a99389104
+  - ref: refs/heads/master
+    old: a14bd42394c36b65bde378c39ad814dd2f07fe93
+    new: 4cd617a22d3cc0bc5b9d088d5d7965da4f492fe6
+    log: revlist-a14bd42394c3-4cd617a22d3c.txt
+  - ref: refs/heads/next
+    old: a9e87ec5f84e5998726c5974e8545e91e15c6c2b
+    new: 4cd617a22d3cc0bc5b9d088d5d7965da4f492fe6
     log: |
-         b1934cd6069538db2255dc94ba573771ecf3b560 btrfs: zoned: handle broken write pointer on zones
-         95b3456f23e3691bb317d8bcccfa13b7131832d4 btrfs: fix race between direct IO write and fsync when using same fd
-         27a355ae6da957fe51b1d6dd33ea208a99389104 Merge branch 'misc-6.11' into next-fixes
+         4cd617a22d3cc0bc5b9d088d5d7965da4f492fe6 Update the version
          
+  - ref: refs/tags/v2.4.9
+    old: 0000000000000000000000000000000000000000
+    new: 1c4f031ab596c8d959fd52a36581d3a2f0a990f6
+
+--===============7132659561727959846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a14bd42394c3-4cd617a22d3c.txt
+
+a6a1663076c97d710c9c1f27e553b4a6d6b00f54 damo_record_info: Check null case for heat_per_byte() When region.nr_accesses.samples is zero heats not setted to 0, so in such conditions heat_per_byte tries to do an invalid arithmetic operation.
+87f0303cc153de6ac2999b550c210f7d62090fcc Add cpu usage for kdamond This commit adds cpu usage for kdamond with basically parsing ps output.
+3933082f35d3ab459d2b224899f266cf85ec9491 _damo_records: Use 'is' for comparisons against None
+cc121042ef215e0f4d3d34c75063358f9768b711 TODO: Remove completed items
+368b9aacbb834240f6c1941df05afb7063457cc5 TODO: Update fmt_json deprecation status
+70823f888e3c4e4920a5b92ecf4a37315e83a03d TODO: Update record/report extension idea
+845eb2e3c0aa013c01e5675533c576e99f26f746 damo_record: Add --timeout option
+2fdbb91680dd9eecb387a9423ee8210ec72b5c21 release_note: Update
+556ebcd8f8ab274a9d959d242683c2dbd1639681 damo_report_access: Remove trailing white space
+2c71010829f692c637602cd706fb35e5f4513e52 tests/unit/test_damon_args: Remove test_none_parser()
+c90a1324d60e8e9ac942dac8f073fda43c7d6ba9 _damon_args/set_argparser(): Drop support of None parser
+99a23a9aa814138daf70d1d229a802e41104d9a0 damo_{record,start}: Stop using _damon_args.set_argparser() return value
+fd417ed0020c50400f27e2ef7a88cf44ba0b6bea damo_{schemes,tune}.set_argparser(): Do not return parser
+bdcd55613e3825bde8b919163373c0891449e7f0 treewide: Explicitly specify min_help param of _damon_args.set_argparser()
+5206fd66bb5769ed53d83c04469a9c22057d6ed8 _damon_args: Drop default value for min_help of set_argparser()
+a9e87ec5f84e5998726c5974e8545e91e15c6c2b TODO: Add more detailed plan for damo report's recording
+4cd617a22d3cc0bc5b9d088d5d7965da4f492fe6 Update the version
+
+--===============7132659561727959846==--
