@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 02 Sep 2024 16:38:47 -0000
-Message-Id: <172529512763.3126929.7585065102107237756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 02 Sep 2024 16:43:33 -0000
+Message-Id: <172529541324.3131101.3958495751592482430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/ath-current
-    old: 9abf199943a6469a71f6ce5c2266e9364d310f8b
-    new: 2f833e8948d6c88a3a257d4e426c9897b4907d5a
+  - ref: refs/heads/mm-generic-shadow-stack-guard
+    old: 9d8320fed97a7dd8626c59780eef0843a71b1613
+    new: cb02398ba093f1730eca10afbb4baea7af28b1e5
     log: |
-         d3e154d7776ba57ab679fb816fb87b627fba21c9 Revert "wifi: ath11k: restore country code during resume"
-         2f833e8948d6c88a3a257d4e426c9897b4907d5a Revert "wifi: ath11k: support hibernation"
+         b0d1546cdc48802c21027911773b9f1f428b4cf4 mm: Pass vm_flags to generic_get_unmapped_area()
+         cb02398ba093f1730eca10afbb4baea7af28b1e5 mm: Care about shadow stack guard gap when getting an unmapped area
          
