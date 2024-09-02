@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8202155643471711215=="
+Content-Type: multipart/mixed; boundary="===============6535386178767604292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 02 Sep 2024 19:30:17 -0000
-Message-Id: <172530541711.3264833.4751232997537628855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 02 Sep 2024 19:58:44 -0000
+Message-Id: <172530712411.3284567.7737938352844081972@gitolite.kernel.org>
 
---===============8202155643471711215==
+--===============6535386178767604292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/controller/brcmstb
-    old: 1ae791a877e79f93a51743e998020d8833c54b2a
-    new: 551a928636b907e1a7508e1a0abb379873f32180
-    log: revlist-1ae791a877e7-551a928636b9.txt
+  - ref: refs/heads/objtool-diff
+    old: 88abd0e60763e32757e29243eed3c282e4a6537e
+    new: b6036a702b20bdd71ab98b7d3c2fd8f58f54cee5
+    log: revlist-88abd0e60763-b6036a702b20.txt
 
---===============8202155643471711215==
+--===============6535386178767604292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ae791a877e7-551a928636b9.txt
+Content-Disposition: attachment; filename=revlist-88abd0e60763-b6036a702b20.txt
 
-9759334aaf61b441d82776ef8439ac5483ef5d83 dt-bindings: PCI: brcm,stb-pcie: Change brcmstb maintainer and cleanup
-d317fd07291638356a21a6ab7e939bb0d05521a0 dt-bindings: PCI: brcm,stb-pcie: Use maxItems for reset controllers
-333f703364ed2c609115ac08c639e2ccfb07f87c dt-bindings: PCI: brcm,stb-pcie: Add 7712 SoC description
-89d8f53d8a0a483113f87c8040223de2274d9776 PCI: brcmstb: Use common error handling code in brcm_pcie_probe()
-7bfc9b823bbea9b6b5d3a0208c9a6015f0b07adb PCI: brcmstb: Use bridge reset if available
-28ea6304f682f4884204f8328560aefb7e4572d8 PCI: brcmstb: Use swinit reset if available
-7a12db1ecbba5c8e8eecd6062567005f1072b5b0 PCI: brcmstb: PCI: brcmstb: Make HARD_DEBUG, INTR2_CPU_BASE offsets SoC-specific
-9f20741a877c450e9bed7e92027439dd4d617880 PCI: brcmstb: Remove two unused constants from driver
-98975a4f5b693465b4f3d655d9def07ba213bcae PCI: brcmstb: Don't conflate the reset rescal with PHY ctrl
-917e804f4ceec4ca761fa40b08c1b3bc1703fcac PCI: brcmstb: Refactor for chips with many regular inbound windows
-7b979ec7ca515bf075d4923a55990b26d405e312 PCI: brcmstb: Check return value of all reset_control_* calls
-de80215928b86203bf7bc8e6fe475614289018fd PCI: brcmstb: Change field name from 'type' to 'soc_base'
-551a928636b907e1a7508e1a0abb379873f32180 PCI: brcmstb: Enable 7712 SOCs
+b5806568f130f6aae822ccc8df32c42e5e73e8de elf->symbols
+5340568ce4d740856c4c171f48346307243bb37f expose elf_hash_for_each_possible
+2618e62fbf655c0ceea66bf8c30d44a5e36da6c4 elf api
+0717e520876751f0eb370c0ca1ecfbda393aac33 objtool: Interval tree cleanups
+3ef4399fdaf7518815037b58f3eb2dd365ec4152 objtool: Fix weak symbol detection
+1011216dde470738523a4454cd14be6f1c8d8bf6 x86/alternative: Refactor INT3 call emulation selftest
+60153acac991c5a8ec68cb897709b6c10f4babec x86/alternative: Create symbols for special section entries
+c0ccd86ee864a660d9a6b475483a27bc04220637 x86/module: Improve relocation error messages
+2bd1ac147f9c963745e6a69ace4d174718c4c8b0 x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
+e08b93a7dd2f3e1dd9914a016c86e8920499d575 kernel/sys: Don't reference UTS_RELEASE directly
+cba73309be157497a9ff13dcc61d205775f8fb73 x86/compiler: Tweak __UNIQUE_ID naming
+2ae4eeca64e9cdd9db8a3c5bdeb7594425116856 elfnote: Use __UNIQUE_ID() for note symbols
+1bb34f10e2a8a3ceaf9332906713d2d91cb1fda5 kbuild: Remove "kmod" prefix from __KBUILD_MODNAME
+2422504c3ee81654251df1f76b91e304acdf1c4f livepatch: Enable -ffunction-sections -fdata-sections
+dc8c9a28c23b0202858b9c8c900c0aa2da95b461 sym checksum
+a292a86926b36922391eb7f619fe8bba9b26a538 klp-build
+b6036a702b20bdd71ab98b7d3c2fd8f58f54cee5 interval fix before removing __sym_delte
 
---===============8202155643471711215==--
+--===============6535386178767604292==--
