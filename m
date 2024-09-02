@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 02 Sep 2024 08:25:26 -0000
-Message-Id: <172526552682.2720019.10229877082356817039@gitolite.kernel.org>
+Date: Mon, 02 Sep 2024 08:26:31 -0000
+Message-Id: <172526559114.2720852.11369504390424249962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: bc11f57d276cc39e5129bafd15c74142657b3c54
-    new: 8018165a217274cbb055feb5812e723e68c6de66
+    old: 8018165a217274cbb055feb5812e723e68c6de66
+    new: 7a3ca6783ed234a1c11afcecc8d71dd286e5550b
     log: |
-         8018165a217274cbb055feb5812e723e68c6de66 gdhcp: nul-terminate return for 0 sized option value
+         7a3ca6783ed234a1c11afcecc8d71dd286e5550b dhcp: clear c_gateway and c_prefixlen before remove
          
