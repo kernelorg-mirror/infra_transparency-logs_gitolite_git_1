@@ -1,92 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1027951416218128045=="
+Content-Type: multipart/mixed; boundary="===============2644730160798541599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 02 Sep 2024 18:57:08 -0000
-Message-Id: <172530342817.3237831.16641192554976483513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 02 Sep 2024 18:57:43 -0000
+Message-Id: <172530346302.3238199.11821489371991877237@gitolite.kernel.org>
 
---===============1027951416218128045==
+--===============2644730160798541599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/vfs.all
-    old: d38e08d37ef9b3963d639fbad4b2c1fa44dc2515
-    new: ed141fd02d8b3010473f2af7ee8a7b07b800871a
-    log: revlist-d38e08d37ef9-ed141fd02d8b.txt
-  - ref: refs/heads/vfs.blocksize
-    old: 18b184171112e737e03e3a97d49806269d24088e
-    new: f7d4d280f2eb4389c51a13f0d8046c395a49739b
-    log: |
-         304617858a821dd54e5ca0b1e007508a62f0871c mm: split a folio in minimum folio order chunks
-         5aaa01133a967061731d02cf98cbf3150fbd847f filemap: cap PTE range to be created to allowed zero fill in folio_map_range()
-         0bf2dfb73b92864ab04354a2ba67ef41426eaaeb iomap: fix iomap_dio_zero() for fs bs > system page size
-         1dc83d1f488a5b8823235db9f49a498fc8d4ec79 xfs: use kvmalloc for xattr buffers
-         e415f4a66262105cf47435f43b8565f31d0dea63 xfs: expose block size in stat
-         713e9f75b2c7c9414d1d7c61ff32e16facce253f xfs: make the calculation generic in xfs_sb_validate_fsb_count()
-         8608f1ecd2dbfbbb70d81515a0031d60720feb3b xfs: enable block size larger than page size support
-         0ebeea34e9fddd25b41cd4f95473db98f6d5bbf5 Merge patch series "enable bs > ps in XFS"
-         dcaafecbb72825b26ef92dd4d59ba24a5a9a75de iomap: remove set_memor_ro() on zero page
-         9a40a18705b453cc900b38d5bb099091dd6fa7f0 iomap: add a private argument for iomap_file_buffered_write
-         f7d4d280f2eb4389c51a13f0d8046c395a49739b filemap: fix htmldoc warning for mapping_align_index()
-         
-  - ref: refs/heads/vfs.file
-    old: 79868ff5ce9156228f9aef351d8bf76fb8540230
-    new: 6e016babce7c845ed015da25c7a097fa3482d95a
-    log: |
-         6e016babce7c845ed015da25c7a097fa3482d95a mm: Removed @freeptr_offset to prevent doc warning
-         
-  - ref: refs/heads/vfs.fixes
-    old: 139591dc610dda5d690ebb2495d729e4a16dfb86
-    new: 72a6e22c604c95ddb3b10b5d3bb85b6ff4dbc34f
-    log: |
-         72a6e22c604c95ddb3b10b5d3bb85b6ff4dbc34f fscache: delete fscache_cookie_lru_timer when fscache exits to avoid UAF
-         
-  - ref: refs/heads/vfs.misc
-    old: bf72320f8348a426118b2d29fc7b211faf2bdf0f
-    new: 5b53696a4ef157a228d75673297bddbfb33b01e4
-    log: |
-         34cf4084965437b9d1b470067b0b3155dbc119d6 uapi: explain how per-syscall AT_* flags should be allocated
-         9cde4ebc6f4faf4c9118b39e58bfa235bffe07f8 fhandle: expose u64 mount id to name_to_handle_at(2)
-         5b53696a4ef157a228d75673297bddbfb33b01e4 Merge patch series "fhandle: expose u64 mount id to name_to_handle_at(2)"
-         
+  - ref: refs/heads/objtool-diff
+    old: d63894f7f2633e98788b1a74a983e9dbea49d1b7
+    new: 4fa7e76352c78100ddda166167138cccfaccbc06
+    log: revlist-d63894f7f263-4fa7e76352c7.txt
 
---===============1027951416218128045==
+--===============2644730160798541599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d38e08d37ef9-ed141fd02d8b.txt
+Content-Disposition: attachment; filename=revlist-d63894f7f263-4fa7e76352c7.txt
 
-72a6e22c604c95ddb3b10b5d3bb85b6ff4dbc34f fscache: delete fscache_cookie_lru_timer when fscache exits to avoid UAF
-6e016babce7c845ed015da25c7a097fa3482d95a mm: Removed @freeptr_offset to prevent doc warning
-34cf4084965437b9d1b470067b0b3155dbc119d6 uapi: explain how per-syscall AT_* flags should be allocated
-9cde4ebc6f4faf4c9118b39e58bfa235bffe07f8 fhandle: expose u64 mount id to name_to_handle_at(2)
-5b53696a4ef157a228d75673297bddbfb33b01e4 Merge patch series "fhandle: expose u64 mount id to name_to_handle_at(2)"
-304617858a821dd54e5ca0b1e007508a62f0871c mm: split a folio in minimum folio order chunks
-5aaa01133a967061731d02cf98cbf3150fbd847f filemap: cap PTE range to be created to allowed zero fill in folio_map_range()
-0bf2dfb73b92864ab04354a2ba67ef41426eaaeb iomap: fix iomap_dio_zero() for fs bs > system page size
-1dc83d1f488a5b8823235db9f49a498fc8d4ec79 xfs: use kvmalloc for xattr buffers
-e415f4a66262105cf47435f43b8565f31d0dea63 xfs: expose block size in stat
-713e9f75b2c7c9414d1d7c61ff32e16facce253f xfs: make the calculation generic in xfs_sb_validate_fsb_count()
-8608f1ecd2dbfbbb70d81515a0031d60720feb3b xfs: enable block size larger than page size support
-0ebeea34e9fddd25b41cd4f95473db98f6d5bbf5 Merge patch series "enable bs > ps in XFS"
-dcaafecbb72825b26ef92dd4d59ba24a5a9a75de iomap: remove set_memor_ro() on zero page
-9a40a18705b453cc900b38d5bb099091dd6fa7f0 iomap: add a private argument for iomap_file_buffered_write
-f7d4d280f2eb4389c51a13f0d8046c395a49739b filemap: fix htmldoc warning for mapping_align_index()
-2f579ff70a093ba88abd82c0797aa381aeb80a87 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-61678d129a2193be206db335db6002badfbd9b2c Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-71f78655f142e453f5e25f433443d355bb7a2a6f Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7cd85b14c5530fb4350c7445f869deb22ae9788d Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-5465627d001e886b5bf0508f490bc617f56f47f4 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-84c254e9cba8510fda61ef46c3247afd18909cbc Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-052777be6c103546d03dc2dea2c840c02476386b Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-54f93691c1736a7b4bfe60d90a19a28dad225fb0 Merge branch 'vfs.file' into vfs.all
-1cfa0e03b66191bc42af1c3bb31cccdf02e20d54 Merge branch 'vfs.fallocate' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-ed141fd02d8b3010473f2af7ee8a7b07b800871a Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+1e8f12c92ad57a6e243b9307a89a64dcfc6130b3 parainstructions
+06e37e7e48a6775795fffac928246e705b923ccf const char
+6cf9384e3bfc0c6910c4c35d01e92310dd4ae866 file->elf -> elf
+0bd3445862e1379a0d5d4d18ac7558e8e19ddbd7 sym/sec type helpers
+ce62db50ca3bb2531b9bf9b5a54e0b4d35309083 Objname
+f21693dd5fb9013c875c63c4b832584731f5f002 addend calculation simplfication
+3723cd1f9948c0691f44cf7b093557511d4c6a7c jump_dest-refactor
+7a705dacf60011677b978c2434d8a680af1fe882 objtool: Simplify fatal error handling
+bd56b4e88dc81ed1fca51dd1fdfb49a75cf6321b interval tree fix
+abd872c87c6ccc796fcaef0ad30743a7c0dc8d9a ud1 fix
+0a7a39ed1f1759ee2a77b6c5bf4bab23e72731c7 arch_dest_reloc_addend
+3b599d0a48bbb7d7b3f9e6762a0da41273ce7478 find_symbol_containing
+ff481539f633b4ae69e6786ff95e4daa3c0e7c48 elf_update_symbol-fix
+6dcd59e2775d27a9bf6c645e7cc92c6b0ac0cbaf align fix?
+08780a4e8dd7c8acc8e28001bd80a6c39738d973 phys_to_virt
+0183663d046025d9d89c861bf569ab188eadec88 elf_hash_add-fix
+fdf4765e1be45914e2bada8361b4be90214967dd insn_reloc-fix
+e64d4694becb51e16f7ed75736614c4cd902d999 func_stack_frame_non_standard fix
+d5ce71c3767c3969324b5113562d41d5f7222264 elf api refactor
+a4d5a04dda256bb337c622cca18e0f91bf2f6d3e objtool: Interval tree cleanups
+6f27bd5012246fde4f0444f8ad4d0b853493114d objtool: Fix weak symbol detection
+769e32bd2523782e1035bab8312218bf20640f75 x86/alternative: Refactor INT3 call emulation selftest
+c045c595d0ccd3f1ff98eaf6620c732c8efe16f7 x86/alternative: Create symbols for special section entries
+3a30c5fc74d24861882a581b4f7b1b86f106d6ae x86/module: Improve relocation error messages
+128a8459f4341ad3eb239d1f1e9feeefeabc4f18 x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
+73c08d2441d36ad2075b1f0a8ce7a25b7c3f4e55 kernel/sys: Don't reference UTS_RELEASE directly
+76fa6db2d9f8179bc5fbae62623c3e741804ea7c x86/compiler: Tweak __UNIQUE_ID naming
+28fd0b77e3274b45871041fe001614678fbf74b0 elfnote: Use __UNIQUE_ID() for note symbols
+21ca8c517043891fb6894635feeeca486482de53 kbuild: Remove "kmod" prefix from __KBUILD_MODNAME
+e6afa851b694f73e00700136b76555cf2c6708be livepatch: Enable -ffunction-sections -fdata-sections
+8e6bd107a221da183ba9110bfe60f6551fb7f3f8 sym checksum
+4fa7e76352c78100ddda166167138cccfaccbc06 klp-build
 
---===============1027951416218128045==--
+--===============2644730160798541599==--
