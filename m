@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6629070869181737503=="
+Content-Type: multipart/mixed; boundary="===============5751529519398217873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 02 Sep 2024 13:34:31 -0000
-Message-Id: <172528407180.2973759.12721671120246246063@gitolite.kernel.org>
+Date: Mon, 02 Sep 2024 13:36:03 -0000
+Message-Id: <172528416365.2976617.12640759898275482437@gitolite.kernel.org>
 
---===============6629070869181737503==
+--===============5751529519398217873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/for-next
     old: a94699fa406d0ce0bf6168dcf462dffdd28bcd06
     new: 4744c5cbba441095e6a3305e469d7bcd00568dbb
     log: revlist-a94699fa406d-4744c5cbba44.txt
 
---===============6629070869181737503==
+--===============5751529519398217873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b08a4e37d4f0dd981cb73f739b9c97045e6072f2 nvmem: sunplus-ocotp: Use devm_platform
 be2e634c628a3b6f67fd1a04886710a162993716 nvmem: Fix misspelling
 4744c5cbba441095e6a3305e469d7bcd00568dbb dt-bindings: nvmem: sfp: add ref to nvmem-deprecated-cells.yaml
 
---===============6629070869181737503==--
+--===============5751529519398217873==--
