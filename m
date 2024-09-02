@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8622598419868862086=="
+Content-Type: multipart/mixed; boundary="===============1982168343571411949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 02 Sep 2024 09:56:04 -0000
-Message-Id: <172527096456.2798081.870915237327075474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 02 Sep 2024 09:56:12 -0000
+Message-Id: <172527097226.2798197.3082517636351240780@gitolite.kernel.org>
 
---===============8622598419868862086==
+--===============1982168343571411949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 431c1646e1f86b949fa3685efc50b660a364c2b6
     log: revlist-5be63fc19fca-431c1646e1f8.txt
 
---===============8622598419868862086==
+--===============1982168343571411949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -354,4 +354,4 @@ a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of http
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
 
---===============8622598419868862086==--
+--===============1982168343571411949==--
