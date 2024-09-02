@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4199911349337685836=="
+Content-Type: multipart/mixed; boundary="===============7571303351571709045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 02 Sep 2024 16:01:25 -0000
-Message-Id: <172529288538.3097124.14695763317181100580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Sep 2024 16:01:31 -0000
+Message-Id: <172529289143.3097363.3483600888523005222@gitolite.kernel.org>
 
---===============4199911349337685836==
+--===============7571303351571709045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regmap-6.11
     old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
     new: 431c1646e1f86b949fa3685efc50b660a364c2b6
     log: revlist-7c626ce4bae1-431c1646e1f8.txt
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regmap-6.12
     old: ae0acef3822ed8908e83cd24f337891e6be64eba
     new: c7edb7ac8472a57e0c56a3a95796db3af98b2383
     log: |
          c7edb7ac8472a57e0c56a3a95796db3af98b2383 regmap: kunit: Add coverage of spinlocked regmaps
          
 
---===============4199911349337685836==
+--===============7571303351571709045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1725292905 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1725292883-bee1dcefb21c1d38efc6e6293a3dbaca5c444f4d
+pusher C3F436CA30F5D8EB 1725292911 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1725292889-1222be2b404ce2dc7659ffc1092c1f2e75243250
 
-7c626ce4bae1ac14f60076d00eafe71af30450ba 431c1646e1f86b949fa3685efc50b660a364c2b6 refs/heads/for-6.11
-ae0acef3822ed8908e83cd24f337891e6be64eba c7edb7ac8472a57e0c56a3a95796db3af98b2383 refs/heads/for-6.12
+7c626ce4bae1ac14f60076d00eafe71af30450ba 431c1646e1f86b949fa3685efc50b660a364c2b6 refs/heads/regmap-6.11
+ae0acef3822ed8908e83cd24f337891e6be64eba c7edb7ac8472a57e0c56a3a95796db3af98b2383 refs/heads/regmap-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbV4WkACgkQJNaLcl1U
-h9ClBgfyA6GmOnUhKPmXYHPVuJsyEKEC2G1teaVEPxwiOlr50fPzU5wF+oGswvyv
-ODhgWjCg8n7F6VN3YuIXk6prWf3K+2VtBYHhnaXCksYv9kCESV/zweCZJLIOSZm1
-l6BdXQYlc8oLj8whiTDhupdleXT4Uw9yTk5jnpf6RNhNjY/jjlVlhtONRwvCPNTX
-LRIBURp6dOyMj7pqo5Sv9myrN3edYzU9ev0KOq5PQ2IO5RvGIqn8Z72nwY3XUlfe
-Qe42OQAJaDQ/1aEXz1UUOG53EIYjvlpNKXWrkxlzPtpHyl5Irzh2gVT1BX061vc8
-UtJtRp+JDGmiqL7xeGZ/VG2mrQ8Z
-=2Vxh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbV4W8ACgkQJNaLcl1U
+h9C/wAf/eQM8ydxN15PF007loqRJ8einZgeDbjXEx0y3cblgA2oGc1PSqjQMSmJy
+WrcwfDxabSJTnZuMvAp7Q772iAc3j99aIhowOWF5KDgDprLiaYpF5LzoA9BiMpav
+afjt2ks+Rm2WJ9Y4QRckhS15WOPkYzzOGbtdAybSsddQF3B+ypRtutOzHI3mCi/k
+nodsMvxYfiu5WzatHgVGQRMIzTlUR8cvSuspt9gZjYF6TzXpt9Lksr3w4Ah5ZLMH
+ourRVbjDExOJQLrNwrhOeanmb3Tp9h2S3fA//aPLrFnqDrRMCcobNLvsvMtkiZaq
+dYuwKYwj2DDsZWl/ZMb8nv8CkXF61w==
+=0frw
 -----END PGP SIGNATURE-----
 
---===============4199911349337685836==
+--===============7571303351571709045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1059,4 +1059,4 @@ a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of http
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
 
---===============4199911349337685836==--
+--===============7571303351571709045==--
