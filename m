@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3622995048370072918=="
+Content-Type: multipart/mixed; boundary="===============4453489143585266825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 02 Sep 2024 17:36:26 -0000
-Message-Id: <172529858676.3173437.3077496268226620116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Mon, 02 Sep 2024 17:56:53 -0000
+Message-Id: <172529981370.3188738.12346099623707425974@gitolite.kernel.org>
 
---===============3622995048370072918==
+--===============4453489143585266825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/master
-    old: 8a254cfffb6f3b89c70e28c5e1f0a7d090a2b7ee
-    new: f38208c571f2c352a56255162e46c720c8904ea3
-    log: |
-         f38208c571f2c352a56255162e46c720c8904ea3 Allocate CVE-2024-44947 on request
-         
+  - ref: refs/heads/intel/vt-d
+    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+    new: 705c1cdf1e73c4c727bbfc8775434e6dd36e8baf
+    log: revlist-7c626ce4bae1-705c1cdf1e73.txt
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
 
---===============3622995048370072918==
+--===============4453489143585266825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7c626ce4bae1-705c1cdf1e73.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725298608 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725298586-74ceca68fea33de8411857b5408e568e3368cfbc
+184bee388d4661c3fea633f135a5c45ff03c7ec6 iommu/vt-d: Require DMA domain if hardware not support passthrough
+9e74e1b8198fd07fcbb4266771ca0f5195c71d9c iommu/vt-d: Remove identity mappings from si_domain
+2c13012e09190174614fd6901857a1b8c199e17d iommu/vt-d: Always reserve a domain ID for identity setup
+487df6836606dc67cd8e2c26616f581c8800a17a iommu/vt-d: Remove has_iotlb_device flag
+c7191984e5aade540f1a3845a116537c89572655 iommu/vt-d: Factor out helpers from domain_context_mapping_one()
+2031c469f8161abe74189cb74f50da224f340b71 iommu/vt-d: Add support for static identity domain
+50a7e2c6c3b6ea2439aa2e2e392c0ca2ef567fcf iommu/vt-d: Cleanup si_domain
+3cf74230c139f208b7fb313ae0054386eee31a81 iommu/vt-d: Fix potential lockup if qi_submit_sync called with 0 count
+ccb02b27bb50c0f5a8f6fd745aecf4ac4beda73f iommu/vt-d: Move PCI PASID enablement to probe path
+1f5e307ca16c0c19186cbd56ac460a687e6daba0 iommu/vt-d: Unconditionally flush device TLB for pasid table updates
+f701c9f36bcb7940f9c53413b508de8c9cb0321c iommu/vt-d: Factor out invalidation descriptor composition
+3297d047cd7f502ea7bd949fe070bf01c02aec3e iommu/vt-d: Refactor IOTLB and Dev-IOTLB flush for batching
+777cdd853434849cc98ef94787538b1eb9f492d9 iommu/vt-d: Add qi_batch for dmar_domain
+705c1cdf1e73c4c727bbfc8775434e6dd36e8baf iommu/vt-d: Introduce batched cache invalidation
 
-8a254cfffb6f3b89c70e28c5e1f0a7d090a2b7ee f38208c571f2c352a56255162e46c720c8904ea3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbV97AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rHMP/0uh+Rum+9gESG/SJug7
-TypX134ayG0TQcVbdQ4drPnCgZGz23tCyOvEwcE4zkC0adPcBuw0LRvNkh27aOuS
-C8+liAv7BX5gr7EdycVNdBv5tnVgZ2nISwXoGnrPZEfhfCtqUthbsx6Vij4EMdag
-qj/XloXEkd7tbxVZ2EQfjuXBjACN6IP9DNskjWPYcOjsHJV113V1KE2wsS9CwVcJ
-dciYZDirXIf37rD1sgXPwg26ASChcSMRfLBFWNu/kfr4d93QJG2u5+FTRbVbuICj
-isHmCEc+NqFpp9dB7aI/kbmx3/L/8xdCGu6fJyVIWcTCvyhY0VQxxDcOmgnFoQJT
-UKvIxlXPr9tnDsq0sKmOXBD2dGDke26DZI3E/1WpFIzXiCSHVRxbIOp/q5K9InUc
-RJ4iC6QWu2PXORCto5KQHdOapw35VPjm6kWw15nCULSA1/0pIQkSj3yJQTCihftM
-/OtNckMlKs/J0BPtByvkduxupqUqhX3eCxN9KQyfqTVeevs7F3NudycpKlxb5jWM
-dRavPEgJPPCdI9Plg19dyGhBQVqHa8fViUfVMSIRJtOTKMmQbGlBQY9ce6LKerGO
-pSHzSqzjpNNHbKQ8se/q7A9IGqlznzfJ/dkKbJsqAhWV9OtO4tvq4IcqhupY/QBm
-zubhF/DJZ9BeH9iXQcIyCxwS
-=OiRL
------END PGP SIGNATURE-----
-
---===============3622995048370072918==--
+--===============4453489143585266825==--
