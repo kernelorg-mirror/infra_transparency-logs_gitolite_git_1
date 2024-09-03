@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 03 Sep 2024 12:00:04 -0000
-Message-Id: <172536480467.4049330.10021423032462438040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Sep 2024 12:15:41 -0000
+Message-Id: <172536574187.4061418.2829966354367563971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.11/upstream-fixes
-    old: de07af0ab02edcd4665deafc7373c5b13fb82db1
-    new: d11cfda966c18d8bf4f0e3f6d82a09c0771c955a
-    log: |
-         d11cfda966c18d8bf4f0e3f6d82a09c0771c955a HID: hid-sensor-custom: Convert comma to semicolon
-         
-  - ref: refs/heads/for-next
-    old: 91b66ba58494d02b8da3ab12fe1524876705648a
-    new: ad5d71dcc1f6844e944c1d6dca38fb8e9f3360d9
-    log: |
-         d11cfda966c18d8bf4f0e3f6d82a09c0771c955a HID: hid-sensor-custom: Convert comma to semicolon
-         ad5d71dcc1f6844e944c1d6dca38fb8e9f3360d9 Merge branch 'for-6.11/upstream-fixes' into for-next
-         
+  - ref: refs/heads/20240830_heiko_fixes_for_the_audio_setup_on_the_rk3588_nanopc_t6
+    old: 0000000000000000000000000000000000000000
+    new: 92ff90cffbeef9b1a4983017555a194f8bc83f77
+  - ref: refs/heads/20240903_venkataprasad_potturu_add_i2s_tdm_support_for_acp7_0_and_acp7_1_platforms
+    old: 0000000000000000000000000000000000000000
+    new: 3f600592fa0ca1599326e20aa22e845de5fc8ac5
+  - ref: refs/heads/v7_20240722_amergnat_add_audio_support_for_the_mediatek_genio_350_evk_board
+    old: 0000000000000000000000000000000000000000
+    new: 324ebdbbb865798f760521001444540962bcf324
