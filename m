@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0575198895633624557=="
+Content-Type: multipart/mixed; boundary="===============7903297374604859416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 03 Sep 2024 06:31:52 -0000
-Message-Id: <172534511221.3772244.651363085921166670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 03 Sep 2024 06:32:01 -0000
+Message-Id: <172534512162.3772458.6680783804839509098@gitolite.kernel.org>
 
---===============0575198895633624557==
+--===============7903297374604859416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ecc768a84f0b8e631986f9ade3118fa37852fef0
     new: 6804f0edbe7747774e6ae60f20cec4ee3ad7c187
     log: revlist-ecc768a84f0b-6804f0edbe77.txt
-  - ref: refs/heads/stable
-    old: c9f016e72b5cc7d4d68fac51f8e72c8c7a69c06e
-    new: 67784a74e258a467225f0e68335df77acd67b7ab
-    log: |
-         284b75a3d83c7631586d98f6dede1d90f128f0db ata: libata: Fix memory leak for error path in ata_host_alloc()
-         67784a74e258a467225f0e68335df77acd67b7ab Merge tag 'ata-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-         
-  - ref: refs/tags/next-20240603
-    old: 82440cfb38eeeaad0978378997c0dc7748335505
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240903
     old: 0000000000000000000000000000000000000000
     new: 43de8c4ef232ebc86ce62509745365faec4eb764
 
---===============0575198895633624557==
+--===============7903297374604859416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ faef0d406881637bb0345ef9a115efe683ff2a6e Merge branch 'rust-next' of https://git
 6a67113a1a7994fc3ba4c06101de0d46afd198bb Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 6804f0edbe7747774e6ae60f20cec4ee3ad7c187 Add linux-next specific files for 20240903
 
---===============0575198895633624557==--
+--===============7903297374604859416==--
