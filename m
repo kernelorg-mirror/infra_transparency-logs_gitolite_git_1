@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8133741869932926357=="
+Content-Type: multipart/mixed; boundary="===============7525793305335419553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 03 Sep 2024 08:48:48 -0000
-Message-Id: <172535332885.3880185.13645746488484935992@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 08:48:52 -0000
+Message-Id: <172535333257.3880306.2841325027155288646@gitolite.kernel.org>
 
---===============8133741869932926357==
+--===============7525793305335419553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 5be63fc19fcaa4c236b307420483578a56986a37
-    new: 431c1646e1f86b949fa3685efc50b660a364c2b6
-    log: revlist-5be63fc19fca-431c1646e1f8.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 0bcd5edc7ef6c886713e1477dee8dd811be11bfb
+    new: 27cdd0aba739845bd5ef4600f701439c5b5a42e1
+    log: revlist-0bcd5edc7ef6-27cdd0aba739.txt
 
---===============8133741869932926357==
+--===============7525793305335419553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725353349 +0200
+pusher andi.shyti@kernel.org 1725353353 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725353327-c689b9cd5907edad0c6cded6dcdbc9a8b71f3799
+nonce 1725353330-9f45e3d4a0321182a2841bab50208bfa10b71627
 
-5be63fc19fcaa4c236b307420483578a56986a37 431c1646e1f86b949fa3685efc50b660a364c2b6 refs/heads/i2c/i2c-host-fixes
+0bcd5edc7ef6c886713e1477dee8dd811be11bfb 27cdd0aba739845bd5ef4600f701439c5b5a42e1 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZtbNhRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uUdUBAMV2+wvumqqTyEnRXHPL75YVonQU
-GBXJ7lqUx3gedLDdAP4vdkWZbspc0BDDqfIgY1h+IEWGqb+5mGIVW9i0WnqLAQ==
-=9NTN
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZtbNiRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uVIIBAIziXiWRroUY1XUb55yw3kQ44+76
+PIQQzEZaQqsbus63AQCNs/tVhQc4HPLAGCmmiR75gCemCGYSG8Yhr2+ReQI1Dg==
+=I4et
 -----END PGP SIGNATURE-----
 
---===============8133741869932926357==
+--===============7525793305335419553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5be63fc19fca-431c1646e1f8.txt
+Content-Disposition: attachment; filename=revlist-0bcd5edc7ef6-27cdd0aba739.txt
 
 e4ab5d7cb5f19858305395e034f214c92afc3cf5 soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST
 10f98bb9d98137b544b00abb4f9df45e9be7878d arm64: defconfig: Add CONFIG_DRM_PANEL_SAMSUNG_ATNA33XC20
@@ -374,5 +374,36 @@ e3e6940940910c2287fe962bdf72015efd4fee81 bcachefs: Revert lockless buffered IO p
 a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of https://github.com/koverstreet/bcachefs
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
+bc3cd660e298d1b89d146fdaed213ac3b50642d9 i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
+dc35fc0c216e1b2b32890c735b875d92973d51c6 i2c: don't use ',' after delimiters
+7b2160b4803c8ac531fd25f0371f03620a4b7aa9 i2c: mt65xx: Avoid double initialization of restart_flag in isr
+77e7d6a75304418fff9723f8efedaa56fd8d1930 i2c: imx: Switch to RUNTIME_PM_OPS()
+6e99d7e5a665a376447399d34e1f7b8376fd0031 i2c: qcom-geni: Use goto for clearer exit path
+60455925483c591ab3d29a9b35539d7f9dd82c5b i2c: designware: Replace a while-loop by for-loop
+8616c433586e221fb1c15cf2d311772ee8951055 i2c: designware: Let PCI core to take care about interrupt vectors
+79c4ae42006153c0638ea8cedbb700db0f8394c5 i2c: designware: Add missing 'c' into PCI IDs variable name
+3e7b7e22032b6b0b207adec049131fc6daf78118 i2c: designware: Unify terminator in device ID tables
+6d13c47b80459880573bebc9e8ead86d802d121d i2c: designware: Always provide device ID tables
+c3c44edaf2ae80141ec672033c9ccf36d7b40571 i2c: designware: Drop return value from i2c_dw_acpi_configure()
+7945d9817fb70b9a2a4a0de5d1fb9375926b65a9 i2c: designware: Drop return value from dw_i2c_of_configure()
+704482b884515ccc8a28881447ace2bc6f692b73 i2c: riic: Use temporary variable for struct device
+e9c7c89f3311a12834667fb4295064525cf90cbe i2c: riic: Call pm_runtime_get_sync() when need to access registers
+fc04b4408f85282db10f7dd2c0f01bc678669e07 i2c: riic: Use pm_runtime_resume_and_get()
+2ab1314a1eecb599c1d13e3740ec1e75d80c112b i2c: riic: Enable runtime PM autosuspend support
+55ccd1b0a1f3f6488922f92831963d738c5a3aae i2c: riic: Add suspend/resume support
+94019460d6e064041fea84c079f404ffbed529b0 i2c: riic: Define individual arrays to describe the register offsets
+825d5cc9b07d482d139ceb47b28fd11c8dcd4735 dt-bindings: i2c: renesas,riic: Document the R9A08G045 support
+9d5941df26d517d94f1d279cc1d3abdc0fbbe0dc i2c: riic: Add support for fast mode plus
+802f7d13996dadacb49f0e08850b8aa4c6b674e2 dt-bindings: i2c: nvidia,tegra20-i2c: combine same if:then: clauses
+c0000b67013654b9c66bc68c172ef9de390ebb2f dt-bindings: i2c: nvidia,tegra20-i2c: restrict also clocks in if:then:
+14812f64900c5ef30888fa4710dddc7b7551319d dt-bindings: i2c: nvidia,tegra20-i2c: define power-domains top-level
+86a546ad893ad7128a226df3620eb0e5f20fd35c dt-bindings: i2c: qcom,i2c-cci: add missing clocks constraint in if:then:
+a34de0dc29f585b245ebc1615ac8a75f04293f99 i2c: designware: Rename dw_i2c_of_configure() -> i2c_dw_of_configure()
+81061b2fd71a095dcac420c46d97db56fe831c85 i2c: designware: Consolidate firmware parsing and configuring code
+5b85515cdc3747f7ed619303c1838d472ef25257 i2c: designware: Unify the firmware type checks
+07e1347c1c093ea07eef1ab04039c786de819b5c i2c: designware: Move exports to I2C_DW namespaces
+76c142e02de51b9417231d7873f433becf71c455 i2c: designware: Remove ->disable() callback
+b56f1972d76d03bd23588d133e4c59671f980d99 i2c: riic: Simplify unsupported bus speed handling
+27cdd0aba739845bd5ef4600f701439c5b5a42e1 dt-bindings: i2c: aspeed: drop redundant multi-master
 
---===============8133741869932926357==--
+--===============7525793305335419553==--
