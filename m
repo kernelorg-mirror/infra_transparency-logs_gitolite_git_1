@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8657888504398102935=="
+Content-Type: multipart/mixed; boundary="===============6260542896361992503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 03 Sep 2024 11:31:47 -0000
-Message-Id: <172536310767.4022719.4093377327076012689@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 11:32:14 -0000
+Message-Id: <172536313428.4023201.7306225453142641075@gitolite.kernel.org>
 
---===============8657888504398102935==
+--===============6260542896361992503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_driver
-    old: d0192328ccc7c6f93a4b2527aeecd3557714f70e
-    new: 2d49d7a671eb8fdfc5c475b9576eb938b351ff8b
-    log: revlist-d0192328ccc7-2d49d7a671eb.txt
+  - ref: refs/heads/const_work
+    old: 3d56539d92114bba680c1ea3aa0815adcd50c808
+    new: 5cbf546e827388f992254ad1b5cd8ec56816dbd0
+    log: revlist-3d56539d9211-5cbf546e8273.txt
 
---===============8657888504398102935==
+--===============6260542896361992503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725363126 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725363153 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1725363104-3d8b779e761fc4e83f1de5cec53b448b93612b3e
+nonce 1725363131-1e23fc79ab66e2a4286741e69f4914cff7902560
 
-d0192328ccc7c6f93a4b2527aeecd3557714f70e 2d49d7a671eb8fdfc5c475b9576eb938b351ff8b refs/heads/const_driver
+3d56539d92114bba680c1ea3aa0815adcd50c808 5cbf546e827388f992254ad1b5cd8ec56816dbd0 refs/heads/const_work
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW87YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WWcP/2Dcpy+zy94vEl9QWBYB
-Avx7Tqxyq9j06mWMH2PhG7MKVTG15R4tiuK0YCRy1nsr7G+rP5LstxbXKEcjlUpZ
-QjFRI/k2AT6YMAxUw+KOR+uQnS+J6mjBlVH7Lu1zhMjTGl0oj8z4/gr+Mj1BY2wV
-HG1EbNNLvzQSZdMy1UGznnMYv0QBuoGVTuVEJ+bFqFAxFxXBM0l5tqyh9mf95eDl
-eDKaQbHKwRLipKnft2zK8ZbHs3r9lpCSKU03A52XoA5Y/HlobcbV4JOpaFEOmoy+
-wf1X/lMYhD154CBflBvKlgRblDyqGeHiYGsZWm4kAj5k91+GjPQoDk/yVtVrNyCi
-eqgkNVnvnHCKzeIKo7A37j5glqA06EJv2lsK8wOGqDQ3aRLoLLvOWrXhpUrCvlEF
-143fbBil1OyxAaHYim9FPlYd+1p/jFoqK/A80QH/WPsBk438ZZ4LbROr5TSQYqP1
-u5mQU+vB8I+3GsPRf/Hp08kDEZ3MV7zZxaKTUbuIAwf6KVC/hdDXbD0H/+pHnTJ2
-S3pfiO4RNHamk+MrKdQdnm2IH2QxMjkz11qAJGwBzUHaQdSWMGuWdvNxSl+wixDF
-iGvoBbyvOC1wyCLyvqdoWQrsVT9lysWeIpDnVp5YadesGU6hUnsAGa5OJVs/DfGT
-/x5VF+l6eFrW7LD3SWW75f4m
-=gM7/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW89EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IQwP/jiZ9UG3VBAYeFQf/fRW
+1rMv8f0hKIul+/9heRzvFgSGY5/G4CyO1U021jsd/SuKHrOlDnrlVnx8dSvBrYHP
+lc/IynuHWlTxfB5ntlVk+iSl7O5Cb3YlfvIbtaj2WAfavHZ5Ar0P31dmwMluP1c8
+su+JDV6JxzNhauyfTZmFXMC4kQz6A+x74k/1mxqAjwxB3zH4QPg5xp458LmWRp0P
+DEdHrYXhT3gOEAj/NN4ry9DXiKBdGorSN8OXnvtwmVazLgFCIARcCUj/iLG/WVnp
+iWWDh8M5/A1RuUCW/6CoG2QjEoPzKOhpwPYqL6H9KIhD/yCXQNvezPWuUD4C8FN2
+MoBDd56O8gKZS8N+jaU8Mipou47pOOLe07Bw4eupp9wkd+YZoxcxzEtA8robE/El
+HSdkKGGLa5ex2ztITGdOOGmYD5cP0jlTdRT+o8Rj7Vfex6tmdun0nt4zj46e41+F
+1UqReTdR/+nALqifM2jNafXThdt+ChUtrRalUZ8NWlBzIaGbl8y3GytZB+eZCtuz
+Ej5Vm26bHmqu4dUvQypDC0OQLheoYq9n4OM6YU7OgNFC3DS7w78shZVSh5rYzJQW
+sc3pcgCaBKGKOX19HzZEgTUhqDRdLoOdZ5pKKzs8mgs54EWZxC69yRSV7GwNCIp/
+SUEteLXlyLaTh2+aT4yNA9Ze
+=DTY2
 -----END PGP SIGNATURE-----
 
---===============8657888504398102935==
+--===============6260542896361992503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0192328ccc7-2d49d7a671eb.txt
+Content-Disposition: attachment; filename=revlist-3d56539d9211-5cbf546e8273.txt
 
-96b82af36efaa1787946e021aa3dc5410c05beeb Bluetooth: hci_sync: Fix suspending with wrong filter policy
-f0c83a23fcbb424fdff5b38fbcdda3c04003a210 Bluetooth: btmtk: Fix btmtk.c undefined reference build error
-61f7a8f975456d7be21100ee0936389142b95a81 Bluetooth: btmtk: Fix btmtk.c undefined reference build error harder
-7a8c6fb21a7c913ddb99785b14914dab2f934fbd Bluetooth: btmtk: remove #ifdef around declarations
-df3d6a3e01fd82cb74b6bb309f7be71e728a3448 Bluetooth: hci_event: Fix setting DISCOVERY_FINDING for passive scanning
-51c4767503d5d3a5a0ae4dcb19b7f7cf38b40c6c Merge tag 'bitmap-6.11-rc1' of https://github.com:/norov/linux
-4c7be57f2772c8ce4e1e43c6a79b8f8d401a4795 arm64: allow installing compressed image by default
-dd90ad50cb372056d01a9913ce80aaa526826593 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-732c275394305b6d71b4bb74f5432d2d91f05257 Merge tag 'erofs-for-6.11-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-0005ca2076ad222de34de519c47b0eb80f458877 KVM: x86: Eliminate log spam from limited APIC timer periods
-5779d398dbcd74c30a641c209946b8498e668a53 smb3: add dynamic tracepoint for reflink errors
-6629f87b97e0740431b7b29b8dfdfa9d842c4bc5 smb3: add four dynamic tracepoints for copy_file_range and reflink
-6467dfdfc94cfefed728bb1d9eb78493760469e0 Merge tag 'ceph-for-6.11-rc1' of https://github.com/ceph/ceph-client
-b6f6a7aa689f1c255e06fee3ca13c9f9e5c12780 smb3: add dynamic trace point for session setup key expired failures
-c2adcf051be01d3da1e138c178a680514299461b KVM: Documentation: Fix title underline too short warning
-a6294b5b1fdcdcb23c6882f2edb4bae1db3fc096 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-52e130764ab6bdc439bcf124ac3e15f52ca0c8e5 tools/power turbostat: Move debug prints from stdout to stderr
-b2e4a5dfafcce87ed2b9aac0b2887f421cd2930a tools/power turbostat: Move verbose counter messages to level 2
-65ad409e6388ea59d8ae73e99857c565da69612e Merge tag 's390-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-1f8add13e6c86653da2ec599dfc94e7a8865cdcb tools/power turbostat: Add selftests for SMI, APERF and MPERF counters
-f3065f9c3917fa9279992623a2f3282f1fd43515 tools/power turbostat: Add selftests for added perf counters
-0ba9b1551185a8b42003b708b6a9c25a9808701e Merge tag 'drm-next-2024-07-26' of https://gitlab.freedesktop.org/drm/kernel
-eb966e0c5f238ffeacc15543f1d25fb06a5100c2 Merge tag 'sound-fix-6.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-2f8c4f5062855a83c1f2dbc012c4fa274ce999d4 Merge tag 'auxdisplay-for-v6.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-4c17736689ccfc44ec7dcc472577f25c34cf8724 perf tool: fix dereferencing NULL al->maps
-440cf77625e300e683ca0edc39fbc4b6f3175feb perf: build: Setup PKG_CONFIG_LIBDIR for cross compilation
-cffe29d3b54aa0437bc35440ea64866bbfc418a3 perf: build: Set Python configuration for cross compilation
-536661da6ea18fe6df5740bc9e9001d097b035ee perf: build: Only link libebl.a for old libdw
-91b6a536b40658c24d6f04747ddf852d30f7f259 perf: build: Link lib 'lzma' for static build
-f42596c73872b753ff1799bc7fc79b1100226da1 perf: build: Link lib 'zstd' for static build
-d27087c76e3c859ea05b7581ef7ce8aa5a088dd8 perf docs: Document cross compilation
-f0e4ed752fda6997b41917c94a5478b340178001 tools/power turbostat: Add early support for PMT counters
 640540beb88363a825524295664acfdb0f5d5fc2 tools/power turbostat: Add MTL's PMT DC6 builtin counter
 944264a2a99cc4dd4b10eaa9798b6aab80adf4be tools/power turbostat: Document PMT in turbostat.8
 19d076903b95896ce55c7cc3679f795731591ac6 tools/power turbostat: Include umask=%x in perf counter's config
@@ -1077,9 +1045,41 @@ a355a4655ec660fc68b60b909776290cb88e1124 driver core: Use kasprintf() instead of
 adcae2048df15ae9647d792b09f8742d6ebe459b driver core: Use guards for simple mutex locks
 d1363030d824b244744399ddd85a52cf615dee4c driver core: Make use of returned value of dev_err_probe()
 888f67e621dda5c2804a696524e28d0ca4cf0a80 driver core: Use 2-argument strscpy()
-af0e09f9cb3a77ebfbb9456fa0b667cffb7f3148 USB: make to_usb_driver() use container_of_const()
-b5fb7828358debb12dcdafd73d7fc1f07c5f0cf4 USB: make to_usb_device_driver() use container_of_const()
-ce9254821bc0eb900388233ff50a9fa3d90adec3 USB: make single lock for all usb dynamic id lists
-2d49d7a671eb8fdfc5c475b9576eb938b351ff8b USB: move dynamic ids out of usb driver structures
+75850603ce62ad11a727df05c1cb80dd27916f21 powerpc: cell: make spu_subsys const
+f910b708b92a9135f6d0789d00a6e5a4ecbf96b9 powerpc: ps3: make ps3_system_bus_type const
+7a65b05267e1feec829e94f4ad3ac155e1afa6a0 powerpc: pseries: make cmm_subsys const
+e430d08a660d4b6a036f3ee3bbd38d15d6868e20 powerpc: pseries: make suspend_subsys const
+dc0d728af8bc1e59d2734fb374ab2f7d73956ee1 perf: make pmu_bus const
+eb21bd75d9e51de1cd2b8c85064bfdad8c2c8092 drm/dp: make drm_dp_aux_dev_class constant
+aa9ca3a560b3fc0a6d705cec28a759690c7821b3 drm/sysfs: make drm_class constant
+6126d97699850a8bc75323f6789ced4f2f85ea91 drm/fbdev/core: make fb_class constant
+f1ef3140879a4b5bceaf2361b8552a06d7db5773 dma-buf: heaps: make dma_heap_class constant
+98a3cdb0a3153379b295525c130a54181d2bab8f media: dvbdev: make dvb_class constant
+a168cf96f2a05dc20db1b8bf6d3a6d5f05512ebd drm/dp: constify the struct device_type usage
+a8610821d217704c3ec1e84f1e587001b6373099 drm/privacy_screen: constify the struct device_type usage
+848cd8bab2963192e4e2eebbd1a058afbcb1839c drm/sysfs: constify the struct device_type usage
+046bda0522fbcc2fff35a387c82acf1786328777 cxl/port: make cxl_bus_type const
+69e94697d1a3fbd2cfa751b9a74c1b73bf6069d8 ARM: sa1111: make sa1111_bus_type const
+3b3c33b0f40c61be8df1e33a8b70d47156002f02 ARM: ecard: make ecard_bus_type const
+d3102a43e6502d6400ce427ffcc8b7403dc3d32c fsi: core: make fsi_bus_type const
+ba1c88958893450b1f90ac55e43daeb44ee09f8d bus: mhi: ep: make mhi_ep_bus_type const
+20e911cd1a8f84a43b0f8e8ea8dd6ffd87c574f4 ntb: ntb_transport: make ntb_transport_bus const
+c915f3b1335b9a88eea366a09b51b51a5e9cbe86 ntb: core: make ntb_bus const
+ec7c08b1c9ac81453ebf903613547a125751756d rapidio: make rio_mport_class constant
+d1a3e078b365e252033375a8e1bae8b1135f8d68 pps: make pps_class constant
+388ca4d9ad1eb2d74458e674842bf5f9f5489917 nvmem: core: make nvmem_bus_type const
+3817c934bc991b16cc27075ad1a8854dfcc932dd intel_th: make intel_th_bus const
+8dd1d8301f5f8ef3e1877b0f324e84d95b6a6bb1 EISA: make eisa_bus_type const
+c3c37655e500df1ba4e3af91f87400bf96db8ce7 parport: constify the struct device_type usage
+f4bff7444475c796c7dfb671cde4ef3c6def296f bus: fsl-mc: constify the struct device_type usage
+a00e3c927ae011c698a0e13d28e16184af728979 coda: psdev: make coda_psdev_class a static const structure
+9580aaa2661ac446524278dbf4ba30789fa8517b cuse: make cuse_class a static const structure
+4f97ac96e84a1f13a4a0f897ecaf1469ffa7bcd4 pstore: pmsg: make pmsg_class a static const structure
+dc995d589f1b7c39ebd6a7acb6583abd8d0006c4 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+fc03cd6b2dfd9caf324a75d00e9ccf31aada3268 PM: wakeup: make wakeup_class a static const structure
+34a07a634ee08e4a4ca46c70077eb014ce930d2e PM / devfreq: make all 'class' structures const
+ac238125e1c29eb01da9cb1b1e2b6ac976183ffe gnss: make gnss_class a static const structure
+1db9afec590310d89d0088b5739d261e5e168319 extcon: make extcon_class a static const structure
+5cbf546e827388f992254ad1b5cd8ec56816dbd0 misc: c2port: core: make c2port_class a static const structure
 
---===============8657888504398102935==--
+--===============6260542896361992503==--
