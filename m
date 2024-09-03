@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 03 Sep 2024 20:07:55 -0000
-Message-Id: <172539407549.297905.4875347620816155299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 03 Sep 2024 20:09:44 -0000
+Message-Id: <172539418453.299125.5183818732492500641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/master
-    old: a4f5f07ea0f3ba92bf4a11afdafce62dedcd54d4
-    new: 84ab4532efe4e263f59f89e4c0a13c49b55361b8
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 9b3a48bbe20d9692e0d456488cd3a6244cac3e3b
+    new: f76e3525acf395f22712fc9120de555fb4b1a52f
     log: |
-         84ab4532efe4e263f59f89e4c0a13c49b55361b8 dwarf_loader: Fix memleaks in creating cus
+         beef8fb2af95ae8aa77f05a2663710d260741ddd perf pmu: Merge boolean sysfs event option parsing
+         f76e3525acf395f22712fc9120de555fb4b1a52f perf parse-events: Pass cpu_list as a perf_cpu_map in __add_event()
          
