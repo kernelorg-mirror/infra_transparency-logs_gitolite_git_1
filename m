@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Sep 2024 11:35:28 -0000
-Message-Id: <172536332824.4027192.16347054799280950542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 03 Sep 2024 11:36:17 -0000
+Message-Id: <172536337727.4027795.8546286934630454295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: e14a726b0e86f3e4032475c0fc776d2f1d443a42
-    new: 27f252d9b05713ab299bd331a2e73ced114a5a76
+    old: 42afa0cec405abcaf9263378496a51ba16895252
+    new: 3bf71c4b18c10a1103ebf2a161f18e4aa68b80b7
     log: |
-         dc70fd02404398388f3471a57b9f4e26c0eeba5e ASoC: adi: Use str_enabled_disabled() helper
-         27f252d9b05713ab299bd331a2e73ced114a5a76 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         f626a0cd07ddb13f146e52adb4b534da40bb1ff7 spi: zynq-qspi: Replace kzalloc with kmalloc for buffer allocation
+         3bf71c4b18c10a1103ebf2a161f18e4aa68b80b7 Merge remote-tracking branch 'spi/for-6.12' into spi-next
          
