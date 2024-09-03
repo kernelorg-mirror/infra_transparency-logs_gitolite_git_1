@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4480711566242835335=="
+Content-Type: multipart/mixed; boundary="===============2812380682794256852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 03 Sep 2024 10:13:54 -0000
-Message-Id: <172535843438.3951056.5801382944424023855@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 10:14:01 -0000
+Message-Id: <172535844188.3951216.15748621216609968223@gitolite.kernel.org>
 
---===============4480711566242835335==
+--===============2812380682794256852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 10c8d1bd786508e996837d5d4b125c69315c5529
-    new: aead27d77f3e703f6056e12fb19f48a426df2fd7
-    log: revlist-10c8d1bd7865-aead27d77f3e.txt
+    new: 43027957e87fe18afd9ab872915bf4012d53929d
+    log: revlist-10c8d1bd7865-43027957e87f.txt
 
---===============4480711566242835335==
+--===============2812380682794256852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725358448 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725358460 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725358426-02f1a09c87a62d1d9f7bfe4fdda7cb5be19f74ea
+nonce 1725358438-7ca4571abce38a9476a01f1d3799b16e7ae93bba
 
-10c8d1bd786508e996837d5d4b125c69315c5529 aead27d77f3e703f6056e12fb19f48a426df2fd7 refs/heads/char-misc-next
+10c8d1bd786508e996837d5d4b125c69315c5529 43027957e87fe18afd9ab872915bf4012d53929d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW4XAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QDoQAIdQM7NWLU8LE6AtIjaF
-oRu2xPo53Gj5z+1GbsiFM3nPYy+MjOmoF3N62VcYqqqX5KU+OyiAkAq+cPxPj3iA
-amvcHkfuKXHFt4RoHXqPfV0sXuUHe9oDXO7/d6EHZPdcXFy05kSl7yFGFinq4hDK
-b9UQriZlTe2QBSsLvMAGJX16eV5Y0qnjXar8u3kOLHwXfeyzm+ZtQ0hbUBQsF0Ba
-sOOqssywF79EOuKbfhzbKEbHePzLglzfPiD0+Vh/uZTs8HUriRon6aZ+eLimh0oB
-ZabpwHdt5oLGsMtBobgiOvzizIZ1Ym9oOUNjlt2xLKDhukAfCdHz3CDsMLbZscET
-3rltnf9y1ifbdzrk+HaNxeO5fuav+Y5iMzzAa+ue3JErbFk2NAHrW0yzANEVquwt
-Eu5WBP/pCspNhfUPdzb0TeAoGJfKRdZ2P7TeMYpjyMehWlUPpcwO6rrqOPBZsM5O
-JS8pfCvbts3/w3u5iTl9Gb83zO1kbFxzltT7WuKg9PLWN7wNjSmyduS9yZ5yjN9c
-yWvKk/oLATS1SxLJk4nImv9x0z4QSYp89pli4+FrUpl/Ejg10Nu5jFg1p1yrRdW2
-4zM3INaS2nYA1lW80o/bk4Q/nFJi8BWKzSEHZlAq8Dt38ejhLC2LSRTLHAG1dsdh
-PY0El1RrX5R/B/l1nIgzOmDa
-=RSRc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW4XwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3aUQAIftgvZu5dNyXJOlrUlt
+wdqVLU+9ZXJBbNpvBSkkcZeySUfia3+hMKFs3+r4i90I4RJWwO5auaFLL/MKvM6r
+Ld8BRHlVyF95RXG5tzhuFJX73KivxGRXMa1dW83qpdwfFFgwg2L6OjaYhzWqqIop
+1x3+6tBH4KXk0lbHapH4IjsGc+FlNj6J5Oim4tZ24LEb4ys5OvRF0/dapU16bsw5
+mvkqDr8OGfLgZULtA/mM3cJAjfLp+NRaHHPOD1fuVHMG2dTP6csxshTs2I03HHdZ
+kTaGSuYMH8Mv6dW5dHUhPZoFz9nJVL7RMhVH604pRJBrzWdtQg/RWFZGmxu/y+2u
+rhC7DEOQ/caq97WysZeCCeJt4MU8fTe9ZrXQvC2jAJgCFeATDtFSROTVtyy8phuX
+y5Gj20EnoguCkH6XUZjQyxzUwme7oBnxcBMSt1Ityx7X6tn8IUA2AwFauKWAfN2K
+ds086+XKWRx0lACg/Er+eYCY6oy6Gy9L50bGIrYdI2wTL4GMLwkAMBgtm+kCbAyA
+P6obURsuCj/ny/m20sUHy7St37O8JiXE+pOEtXI7Jzn8aCdRCK/GKdLKF5GhITWY
+aZB6C50d+Wvh5Pbr1qIndWlu3GItzjo+mi5YbJj5mQL7nlDXimMW2NoZhYcS79tq
++vBZla9UB3gcmvS6OPP5qwW/
+=+Wtw
 -----END PGP SIGNATURE-----
 
---===============4480711566242835335==
+--===============2812380682794256852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10c8d1bd7865-aead27d77f3e.txt
+Content-Disposition: attachment; filename=revlist-10c8d1bd7865-43027957e87f.txt
 
 f58872f45c36ded048bccc22701b0986019c24d8 spi: Enable controllers to extend the SPI protocol with MOSI idle configuration
 320f6693097bf89d67f9cabad24a2b911e23073f spi: bitbang: Implement support for MOSI idle state configuration
@@ -329,5 +329,20 @@ c4b43d8336e52dce6d124e428aa3b71703e62647 drivers:iio:Fix the NULL vs IS_ERR() bu
 f53835f110f19934271c48f01e463c0aa302827d Merge tag 'iio-for-6.12a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-testing
 88850f7ccaaca0dc3f8f70ff90d79a6215f7e7b3 Merge tag 'coresight-next-v6.12' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 aead27d77f3e703f6056e12fb19f48a426df2fd7 Merge tag 'fpga-for-6.12-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
+59d617dc727e06f97481331722b589715b3b4a87 binder: fix typo in comment
+eee75a3a3ba35fdc7723465d49314976b020a509 slimbus: messaging: use 'time_left' variable with wait_for_completion_timeout()
+9c6fd5fc98d21cdd2027f702463946b327ff22ee slimbus: qcom-ctrl: use 'time_left' variable with wait_for_completion_timeout()
+088c588fffbf952bb7210c58a00e6dd3089cf88e slimbus: qcom-ngd-ctrl: use 'time_left' variable with wait_for_completion_timeout()
+b4b8183055789b0d981e83217ce401db8037d033 slimbus: generate MODULE_ALIAS() from MODULE_DEVICE_TABLE()
+9eb2c5faaafce10a9143c397ff63218f1c2115e5 dt-bindings: misc: qcom,fastrpc: increase the max number of iommus
+dd747494ae6affac59b83abc993091541477b639 misc: fastrpc: Add support for cdsp1 remoteproc
+24d85d971b3ced4d5bde7ecd302e46c7c013462d dt-bindings: misc: qcom,fastrpc: document new domain ID
+8ca1cfd6864011ebffcb329240aa471adca506be dt-bindings: nvmem: imx-ocotp: support i.MX95
+c3f9b7b4e5f9de319d00784577cda42036ff243a nvmem: imx-ocotp-ele: support i.MX95
+2fcea44e1ba16c55f4602948d2d43f3a365d6070 dt-bindings: nvmem: convert U-Boot env to a layout
+cdb63c73fa513df9a2d7253e4f9cdcd18b5ceb56 dt-bindings: nvmem: st,stm32-romem: add missing "unevaluatedProperties" on child nodes
+98ee46391baf35987227236d0c3bb30ab6e758c8 nvmem: sunplus-ocotp: Use devm_platform_ioremap_resource_byname() helper function
+3a2de36d20b8be36389dc44a57a966030047ded1 nvmem: Fix misspelling
+43027957e87fe18afd9ab872915bf4012d53929d dt-bindings: nvmem: sfp: add ref to nvmem-deprecated-cells.yaml
 
---===============4480711566242835335==--
+--===============2812380682794256852==--
