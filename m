@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 03 Sep 2024 14:54:35 -0000
-Message-Id: <172537527588.21795.13254136628835979717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 03 Sep 2024 14:57:48 -0000
+Message-Id: <172537546847.25675.5330823184809224150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/perf/core
-    old: 0ce9cde4ba046e61d940772e4dfd4821b0920e34
-    new: bc70687ade2ea5d94270fbfd5afabfcc43709838
+  - ref: refs/heads/fixes
+    old: b686ecdeacf6658e1348c1a32a08e2e72f7c0f00
+    new: 1ff95eb2bebda50c4c5406caaf201e0fcb24cc8f
     log: |
-         714c991b65bef819d136f311c606fd0c269a1cfb perf/core: Fix small negative period being ignored
-         bc70687ade2ea5d94270fbfd5afabfcc43709838 bpf: Fix use-after-free in bpf_uprobe_multi_link_attach()
+         5ba7a75a53dffbf727e842b5847859bb482ac4aa riscv: Fix toolchain vector detection
+         5f771088a2b5edd6f2c5c9f34484ca18dc389f3e riscv: Do not restrict memory size because of linear mapping on nommu
+         1ff95eb2bebda50c4c5406caaf201e0fcb24cc8f riscv: Fix RISCV_ALTERNATIVE_EARLY
          
