@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============1349734276382007729=="
+Content-Type: multipart/mixed; boundary="===============5382159369279309398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/anna-maria/linux-devel
-Date: Tue, 03 Sep 2024 07:17:23 -0000
-Message-Id: <172534784395.3807705.3150639989830043470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 03 Sep 2024 07:53:47 -0000
+Message-Id: <172535002710.3834903.10464810084364810847@gitolite.kernel.org>
 
---===============1349734276382007729==
+--===============5382159369279309398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/anna-maria/linux-devel
-user: anna-maria
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/timers/misc
-    old: ceb06ef82d0411b8ee62cc25066b6640453d38f4
-    new: 8bc9baa81d52110039a228279b43fa1bf5f0a7e7
-    log: revlist-ceb06ef82d04-8bc9baa81d52.txt
+  - ref: refs/heads/usb-testing
+    old: 35f4a629641b812e04fadef087da5d6af59e32d7
+    new: c146ede472717f352b7283a525bd9a1a2b15e2cf
+    log: revlist-35f4a629641b-c146ede47271.txt
 
---===============1349734276382007729==
+--===============5382159369279309398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ceb06ef82d04-8bc9baa81d52.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0af02a8e356fc6d3b1eebb32fae7d35625127835 selftests/timers/posix_timers: Simplify error handling
-45c4225c3dcc7db2c0cdbf889cc7a9c72a53f742 selftests/timers/posix_timers: Add SIG_IGN test
-e65bb03e442751ccf1631382516dcca5b3a20122 selftests/timers/posix_timers: Validate signal rules
-2c2b56132bb74b6b801dcb82f57489ae1cf81a91 selftests/timers/posix-timers: Validate SIGEV_NONE
-f924f868ed05d954d79db419e97ba11293110d52 selftests/timers/posix-timers: Validate timer_gettime()
-73339b82f86521eeadbb781d8d7e04813cbd0998 selftests/timers/posix-timers: Validate overrun after unblock
-d859704bf18519739c231403d53461e008eea4bf posix-cpu-timers: Split up posix_cpu_timer_get()
-b3e866b2dffbc36b31be7811ebded91ce82ecd10 posix-cpu-timers: Save interval only for armed timers
-1c5028425793ea98fcb403852331664662d97226 posix-cpu-timers: Handle interval timers correctly in timer_get()
-d786b8ba9f01b361817033d06766b2dadf619c60 posix-cpu-timers: Handle SIGEV_NONE timers correctly in timer_get()
-5f9d4a1065949a64c107f93a89dc2b62f806c833 posix-cpu-timers: Handle SIGEV_NONE timers correctly in timer_set()
-d471ff397c3571cfa648a20e7018aa04f8873cb3 posix-cpu-timers: Replace old expiry retrieval in posix_cpu_timer_set()
-bd29d773ea8d2c7fc36dc3f70d4c9d1cf404aa4b posix-cpu-timers: Do not arm SIGEV_NONE timers
-c44462661e4c5967c5df451393af727d1886c8ea posix-cpu-timers: Use @now instead of @val for clarity
-286bfaccea76e0bd3805ac6e77c8ec4a18ecb3fe posix-cpu-timers: Remove incorrect comment in posix_cpu_timer_set()
-c20b99e3243f9e72b6fa0e260766adcba115f25b posix-cpu-timers: Simplify posix_cpu_timer_set()
-bfa408f03fc74bcfe8f275a434294bde06eabb00 posix-timers: Retrieve interval in common timer_settime() code
-aca1dc0ce128a9b12640c39c0e035266bf9c9fa5 posix-timers: Clear overrun in common_timer_set()
-52dea0a15cc888e89f0144dca7b712fb56d12a28 posix-timers: Convert timer list to hlist
-20f13385b5836d00d64698748565fc6d3ce9b419 posix-timers: Consolidate timer setup
-24aea4cc483240ead3fdf581045a636dc7ea1352 posix-cpu-timers: Make k_itimer::it_active consistent
-566e2d82536cf77b5ed7c03f887e7c36bf86feaa posix-timers: Consolidate signal queueing
-a2b80ce87a87fc18c594e74d13031d5e347b69cb signal: Remove task argument from dequeue_signal()
-7f8af7bac5380f2d95a63a6f19964e22437166e1 signal: Replace BUG_ON()s
-9a7b0158aea7a53c8c942e8b83e16f7f30e0018c Merge tag 'posix-timers-2024-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks into timers/core
-38cd4cee73a87c40a3e9ef31c0ca7b179fd282f0 timers: Add sparse annotation for timer_sync_wait_running().
-330dd6d9c0fce69718b53ca0bc4f2e3920f7f600 hrtimer: Annotate hrtimer_cpu_base_.*_expiry() for sparse.
-ed4fb6d7ef68111bb539283561953e5c6e9a6e38 hrtimer: Use and report correct timerslack values for realtime tasks
-4381b895f544bb84b8cfb34ada64df67c9b2a4f0 timers: Remove historical extra jiffie for timeout in msleep()
-8bc9baa81d52110039a228279b43fa1bf5f0a7e7 timers: Annotate possible non critical data race of next_expiry
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350046 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1725350023-9e3d0897c333e1f2f2fc0f2349854be315a32da0
 
---===============1349734276382007729==--
+35f4a629641b812e04fadef087da5d6af59e32d7 c146ede472717f352b7283a525bd9a1a2b15e2cf refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwJ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U88QAIcHCndwQ7+CFVcae3Pd
+fvbghxv+xh7IZMzxUlhepMCiPLzO7CfF8001G37rGNj8lAtsB7iQQwAyc645w1oZ
+ihMfDxjoStvojB2E9DPTK1in6YzX98di5qo70j2trEMy89FYyH4C5CVhPFZ3lpQo
+1xVeOhmxsOxz+gVWnsADxzYEzgc7wSc68AaTfnEtByS2T9NzwOASYHsNCTdWrIVq
+gM7fgRGLwaxBsQMb3FuvxnTbgvL6jzgRoBtxE2I+SpogZeQVvV9davywTq0ZbjqT
+LJDIOgydG/VcxMTHfYhHauL3JRlmhFQnxO9f3hWyXfDW0MPAbNdEzqpxMs6QKQb9
+467D6oLTYquJvoUcP+jZKFvJLoZA8okYzdxMIDwGAJqntrdHxMVFBoonE/aNTuA+
+Nsc+OtHRqnbjq55fB5Ya4CgRGXZO3GZLeipWzi8JFC8rIxMe9BBFtXpzgqETMYwH
+b48axpJrB2u7qqczD9QTwdV3Syul2dhAL1qkbGZYEuydIGY58gLHhe70ggrgIWaE
+xCa43cyjJR5TPFIbJ+q1jy0vgag9zTuUvsTpg8AxR/nzlO7ftoSpjX6QGA+ujWwj
+VPiyqEvFMzICtIKPN+6bHUXM5Z7rc7S7PLtbOeofafKbBwNZmhI2aAisCalZ5rsI
+PsG5Pr7mGoh0vGaaDNiXrz0A
+=+WMX
+-----END PGP SIGNATURE-----
+
+--===============5382159369279309398==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-35f4a629641b-c146ede47271.txt
+
+e4fdcc10092fb244218013bfe8ff01c55d54e8e4 usb: chipidea: udc: enable suspend interrupt after usb reset
+dbf0fa1c8d47914c3b4919f01b131e0523f6d804 usb-storage: Constify struct usb_device_id and us_unusual_dev
+bde053252c02186836ea0d1bee492d2e95c3f983 usb: dwc3: st: use scoped device node handling to simplify error paths
+a93c3ad6a9b2f9b8add42cc07e8857bab0eb1616 usb: dwc3: st: simplify with dev_err_probe
+fcc78cce2f9653af6d46460274d352e8b26ac5ea usb: dwc3: st: simplify pdev->dev usage
+3fdfebc58e0ddd86f5c0da85ef5eab94bf3d674a usb: dwc3: imx8mp: simplify with devm_clk_get_enabled
+81d905b1022033a5885e2d2c169606eabf669084 usb: dwc3: imx8mp: simplify with dev_err_probe
+34e8df2fb2de4e56fdd91a03ffe466f3c88a67df usb: dwc3: imx8mp: use scoped device node handling to simplify error paths
+a85f13d509254acd508856be57099a818552cfc9 usb: dwc3: qcom: use scoped device node handling to simplify error paths
+17d206a3687ec662b0eb7c1f083fb8abd29842be usb: dwc3: qcom: simplify with devm_platform_ioremap_resource
+f93e96c544ca723be5c4ff553630ad6a72d3c677 usb: dwc3: rtk: use scoped device node handling to simplify error paths
+819c0c31a78e389812ab183eceabec58d1d23319 usb: dwc3: rtk: return directly and simplify with devm_platform_ioremap_resource
+e23593ee41fa4d2f76588dfe609b416c1d9710b8 usb: dwc3: xilinx: simplify with dev_err_probe
+4058c39bd176daf11a826802d940d86292a6b02b usb: dwc2: Adjust the timing of USB Driver Interrupt Registration in the Crashkernel Scenario
+27e12d5aa4f9b0cc7b15050bc560c75aaaa8695b usb: chipidea: npcm: Fix coding style with missing space
+b24301364a9471fbca86d41fa0982ae4e038140d usb: gadget: udc-xilinx: Remove trailing space after \n newline
+c146ede472717f352b7283a525bd9a1a2b15e2cf usb: ohci-nxp: Use helper function devm_clk_get_enabled()
+
+--===============5382159369279309398==--
