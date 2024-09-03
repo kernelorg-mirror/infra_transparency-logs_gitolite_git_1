@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3443239493544689925=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 03 Sep 2024 18:07:27 -0000
-Message-Id: <172538684759.192278.1578346858816722665@gitolite.kernel.org>
-
---===============3443239493544689925==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 03 Sep 2024 18:18:43 -0000
+Message-Id: <172538752362.200814.6200854058933449975@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: f38208c571f2c352a56255162e46c720c8904ea3
-    new: 94aa55c2ef929be296a2fffca2e36b30b3d5977d
+  - ref: refs/heads/controller/j721e
+    old: 82c4be4168e26a5593aaa1002b5678128a638824
+    new: 5b291d08c9f9fa13195c5772b09e4065820d2a70
     log: |
-         94aa55c2ef929be296a2fffca2e36b30b3d5977d proposed: Add Ruiqi's CVE review of v6.10.7
+         a829cf5c0b492daf782d13359b0e2cecf4fb4394 PCI: cadence: Extract link setup sequence from cdns_pcie_host_setup()
+         aff677e9d141e026279667382fd827e8ec8617af PCI: cadence: Set cdns_pcie_host_init() global
+         6bb31a4b4cda82cb118f38265419de9807971021 PCI: j721e: Use dev_err_probe() in the probe() function
+         bd772989630d77210203d748df25491721d979c5 PCI: j721e: Add reset GPIO to struct j721e_pcie
+         d8c9cf5aa315d54ef8338adf580f55120ee744fb PCI: Add T_PERST_CLK_US macro
+         3e190cf24b8f37c7dd419ec1a4829ba3ad1b7888 PCI: j721e: Use T_PERST_CLK_US macro
+         5b291d08c9f9fa13195c5772b09e4065820d2a70 PCI: j721e: Add suspend and resume support
          
-
---===============3443239493544689925==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725386869 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725386847-4a52a8d817c87eedc8ddcb8ff2828634a3cf9467
-
-f38208c571f2c352a56255162e46c720c8904ea3 94aa55c2ef929be296a2fffca2e36b30b3d5977d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbXUHUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eaoQAIvcjXOPvJOcbg5MxtHl
-ienLV3M5BUIy+L/WhKCeYA09amUPmU33bJq5u/U/IzVa6hldmr/8ARmk5QRZjCFZ
-m+VAeWyyHlxu8ewAwWhbj1HmTnNzpAwtN4T1CVfhqXIBT/Wyo9Z1rNo9M4g2+ax0
-VmjK/IA761MSFSrPldtY8RMgJYjldMiDNEyv+LSQmcQAyLJ0gIAJibOlBIcRUiLL
-fnrZeX2l0TV6V3vUpT9Ngsx67sbKTctYZhKmtOlBW+6u1R4A2dEw0zGnCmgOJ5El
-JKIB+/0B5NCovxF6NugOwT7grNo+ZRHMWzLw8aWvmcLhJzb2etZ5F555C/i4OqQR
-rd/A/gG9nHtNFy7s63H6ZuLAMZXYdRAj+uJ13hFciIX4pgFSaxOH5ci9v7ucOjKU
-wt/Da6RXW8FvUsTdOa/6NrJssAcQ2JFJ7QRR1GhpTiO82rt2lTic5o8Lie+g2dXb
-VJPeBv1reEaZGlhmxzUPXEM935vXeo5FuM6YKRib6obZYPJKerrtp28sHv9ZF0Yh
-PajB5mHX+rQ1eKDeAD2OBI8JmXwXAxMGulmX+scRjAL4eA0+KHUfDNFB9AXJkwab
-/4o/BlxPWcam7lKXFgUVoILKh498pJpD4ZIIdgwLZ/KD+c27n/tk4ZMc1LL8OHM6
-gtlwKHQikdIdHUuoqyoCOtGq
-=a8fA
------END PGP SIGNATURE-----
-
---===============3443239493544689925==--
