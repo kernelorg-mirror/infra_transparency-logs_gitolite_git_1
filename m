@@ -1,77 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5160219523336783712=="
+Content-Type: multipart/mixed; boundary="===============0144512032400404689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 03 Sep 2024 08:36:23 -0000
-Message-Id: <172535258336.3870572.176707062250937736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Sep 2024 08:36:26 -0000
+Message-Id: <172535258642.3870676.17660704931151846762@gitolite.kernel.org>
 
---===============5160219523336783712==
+--===============0144512032400404689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/staging-testing
-    old: b7059df44f12a481ed257b242607c0ff64b36a95
-    new: cd0920ebab6bce93ac5054d621c0633f6a4d640b
-    log: revlist-b7059df44f12-cd0920ebab6b.txt
+  - ref: refs/heads/master
+    old: 74f6c10d077eb85cc07cbc392d81c732b21e942a
+    new: 2c627d66603c383d316c62daeee0fa7c069c6dee
+    log: revlist-74f6c10d077e-2c627d66603c.txt
 
---===============5160219523336783712==
+--===============0144512032400404689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-74f6c10d077e-2c627d66603c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725352601 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1725352577-f28d21e266c38552c71b629efe5890ff654c8cb5
+0d8880a3d55568450071f57518ac04c3fcf9a526 Merge branch into tip/master: 'timers/urgent'
+b05675eded2e36ea923a6d67f57a34c3ff0bdf21 Merge branch into tip/master: 'core/core'
+c1c4f7be2d830620612d0581c15e821b0344a4de Merge branch into tip/master: 'irq/core'
+d13821fd29593f42114339a5461e3678fb32c603 Merge branch into tip/master: 'locking/core'
+c4d6aff24188e7f05a53931867bd2ec50eeed0cd Merge branch into tip/master: 'perf/core'
+f767e2d3474388905550290d8a268308db726fad Merge branch into tip/master: 'ras/core'
+41c10d2bcd040b1a6791b877d7de15f83a210ec5 Merge branch into tip/master: 'smp/core'
+db6c5f0bf45f283d8d60206db3d778e4b4d955d0 Merge branch into tip/master: 'timers/clocksource'
+4e0343b0507a5df6edd22469cc85ea8fe211ad52 Merge branch into tip/master: 'timers/core'
+88ac7ab8267d29fc8f08f71e806bc1828fd773d6 Merge branch into tip/master: 'x86/apic'
+692f9659b685c833e19395576ad83011baf53fd6 Merge branch into tip/master: 'x86/bugs'
+ec2fff2e34563dcf86653f3d0e19dbd1b5bdf228 Merge branch into tip/master: 'x86/build'
+9dfa2589982ad32366e39c22e6943348787666e7 Merge branch into tip/master: 'x86/cleanups'
+b6734e3198d0e52c1f629e6275b7ee82eda7cd40 Merge branch into tip/master: 'x86/core'
+e10beac94f65d8830917d95fd73efaf70bd7d722 Merge branch into tip/master: 'x86/fpu'
+86b36c7bba2e45a22740666c5deffdb462ab5ea3 Merge branch into tip/master: 'x86/fred'
+66dd0e8f0bf7bd33af89a6e58e90bfe27ec0aacd Merge branch into tip/master: 'x86/microcode'
+33952efade4812825a6172b98c47de9d6c9768ac Merge branch into tip/master: 'x86/misc'
+ca62b543f7c8a772c82e4e2cff21fa0829fcbf93 Merge branch into tip/master: 'x86/mm'
+f130fb92c006c441871bd7bc0067a30cfe4e2ce2 Merge branch into tip/master: 'x86/platform'
+9ba189409779bc9787452ccb142d637350379c64 Merge branch into tip/master: 'x86/sev'
+9ac5659da3166454b2b254d0ad726aada9b6f96f Merge branch into tip/master: 'x86/splitlock'
+2c627d66603c383d316c62daeee0fa7c069c6dee Merge branch into tip/master: 'x86/timers'
 
-b7059df44f12a481ed257b242607c0ff64b36a95 cd0920ebab6bce93ac5054d621c0633f6a4d640b refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWypkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dm0QAIsyuQw93fBfdfeV3mxP
-xlXrg7dRaOHiwDeCIRxGg+uRdXESn6hGF8S4DxAiwS/MoMUC/QVIJ7GP+JHsM9RY
-RtgMeia5/Q7kE2qKlY1s4gbfnI5lQqpAlA6KXGpIXAevKNdpR0m63I5ru7PGAxqM
-vlvGEgrb/TkIdjhgVY06nAYtz2ocm7DamxEzfniFQIyrNZ2tWs/rS6jB/W8IE/Q2
-XCkzcIOyJXhrckDjqNMHAiuqCQTSEpWFzmBAuu/1PeozFHp3Ue2iIqAPJRETGOnW
-q4TyAhABqNPc8RgCaixUfQoitIePRpxeS4KhnAuAw/Em85K6W6KKiOFL8ZBUxUmD
-WE1TSSmVU9x27wUS6vdEKbdQAcInFpPAAfokGvyuYKqvpPGCb5uTTM4LZz5CNb8B
-IT40hvt+tlTEQEsFrX6H+l0ypb4NP6wEG0BAsHggvVJpXecXrJuuat7495txxklE
-Cf/WSPXwS4nm4KRNFUbAywVhgRdMP88P8/ekksFr8tAUUrF5exZe/IsIDO2R5sBA
-BrxcWJLN8QICHFgrCZ7AcL/eIyuSo0IyZEJ1WT40ImEQPnhcBJw3P4fYUpki24SB
-3POx32uPON6EF5ldj4Bt0Ly8HmGJUtfj8jU7niveJPXm0XpYqjNGV8nZNMcA/1yB
-Sen3gsTApwsxarlDRG+Kj2Nd
-=VTnM
------END PGP SIGNATURE-----
-
---===============5160219523336783712==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7059df44f12-cd0920ebab6b.txt
-
-a5d1b523ad47ab2b7e7547c555f92f3230f046c5 staging: rtl8192e: remove RF90_PATH_{C,D} from enum rf90_radio_path
-24f7977e83cda19cd34fe69a12ceb881dc632d47 staging: rtl8192e: adjust size of rx_pwr for new RF90_PATH_MAX
-12ce200da92a8122132f3b5dee506575b9d5fbba staging: rtl8192e: adjust size of trsw_gain_X for new RF90_PATH_MAX
-ad796f708dc3801300e189acd3a393d7cb075811 staging: rtl8192e: adjust size of brfpath_rxenable for new RF90_PATH_MAX
-357c468552f0bbe68e9c9678a82dde6db14e5591 staging: rtl8192e: adjust size of RxMIMOSignalStrength
-0348e117d9599b49940b968583d6e076a8004bc7 staging: greybus: spi: switch to use spi_alloc_host()
-35c75ce7a79d050497e087f8fb350922333c2aeb staging: rtl8192e: Fix multiple assignments in rtl_wx.c
-eea0007f6af778620aff51223f0de064e0df00d2 staging: rtl8192e: Fix Assignment operator '=' in rtl_wx.c
-37d1e01a6117ed88ce0c62c07717a18f5c98eb8c staging: rtl8192e: Fix parenthesis alignment in rtl_core.c
-9d21254c94588084b767d3775d54718b900115e2 Staging: rtl8192e: Rename variable pNetwork
-6c14d5ddc63ca0be4f5d4c7b9233ffc4caa2031f Staging: rtl8192e: Rename variable bHwError
-f48404522f03a9bc3365225f81ca079a35cf50b9 Staging: rtl8192e: Add spaces around operators.
-ae26a4cc10e8a736c995eba3997a9f4edcd2d76e staging: rtl8192e: Constify struct pci_device_id
-fde40290ed831af46e652ea76f3e594cfe6af19c staging: rtl8723bs: Remove trailing space after \n newline
-30db8460f984a7f5299b6e07ea8a57cd09fc9557 staging: greybus: Fix capitalization and punctuation inconsistencies
-cd0920ebab6bce93ac5054d621c0633f6a4d640b staging: rtl8723bs: Remove an unused struct in rtw_cmd.h
-
---===============5160219523336783712==--
+--===============0144512032400404689==--
