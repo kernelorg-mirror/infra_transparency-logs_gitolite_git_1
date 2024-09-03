@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 03 Sep 2024 20:09:50 -0000
-Message-Id: <172539419089.299301.10433050752919449089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Sep 2024 20:21:52 -0000
+Message-Id: <172539491230.309865.6705370269194912696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 9b3a48bbe20d9692e0d456488cd3a6244cac3e3b
-    new: f76e3525acf395f22712fc9120de555fb4b1a52f
-    log: |
-         beef8fb2af95ae8aa77f05a2663710d260741ddd perf pmu: Merge boolean sysfs event option parsing
-         f76e3525acf395f22712fc9120de555fb4b1a52f perf parse-events: Pass cpu_list as a perf_cpu_map in __add_event()
-         
+  - ref: refs/heads/filecW8m36
+    old: a14e9323267d8f20bdb5a1cebc4abc5abd80cfb2
+    new: 0000000000000000000000000000000000000000
