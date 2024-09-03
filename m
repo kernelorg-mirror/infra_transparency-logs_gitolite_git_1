@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 03 Sep 2024 19:03:50 -0000
-Message-Id: <172539023089.241709.9486812997590131512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Sep 2024 19:04:44 -0000
+Message-Id: <172539028421.242627.4672331610505583056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/fixes
-    old: b686ecdeacf6658e1348c1a32a08e2e72f7c0f00
-    new: 1ff95eb2bebda50c4c5406caaf201e0fcb24cc8f
+  - ref: refs/heads/mm-generic-shadow-stack-guard
+    old: 4850046398b431cba8b65ada614a7a7bc3681dd5
+    new: 88f612788ee7c35afd2cf8c0a0a797f8add7ab02
     log: |
-         5ba7a75a53dffbf727e842b5847859bb482ac4aa riscv: Fix toolchain vector detection
-         5f771088a2b5edd6f2c5c9f34484ca18dc389f3e riscv: Do not restrict memory size because of linear mapping on nommu
-         1ff95eb2bebda50c4c5406caaf201e0fcb24cc8f riscv: Fix RISCV_ALTERNATIVE_EARLY
+         6dae3ef76e6646060db96f74f471b1cd328b0f74 mm: Care about shadow stack guard gap when getting an unmapped area
+         310c7bcd678cc58263105f5c551fe9cce78203e3 mm: Make arch_get_unmapped_area() take vm_flags by default
+         2a85724354ec958b53fb82392d0065a9224d92e9 mm: Pass vm_flags to generic_get_unmapped_area()
+         88f612788ee7c35afd2cf8c0a0a797f8add7ab02 mm: Care about shadow stack guard gap when getting an unmapped area
          
