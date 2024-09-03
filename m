@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 03 Sep 2024 14:49:49 -0000
-Message-Id: <172537498943.16778.9658020851433828079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 03 Sep 2024 14:54:35 -0000
+Message-Id: <172537527588.21795.13254136628835979717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 6f8b3481cf511ade803fe7a2ea8fe3b99fce3658
-    new: 835ff249f982aea46fe24b33aa990d71783947f7
+  - ref: refs/heads/perf/core
+    old: 0ce9cde4ba046e61d940772e4dfd4821b0920e34
+    new: bc70687ade2ea5d94270fbfd5afabfcc43709838
     log: |
-         835ff249f982aea46fe24b33aa990d71783947f7 Define _GNU_SOURCE in liburing.h, if not already set
+         714c991b65bef819d136f311c606fd0c269a1cfb perf/core: Fix small negative period being ignored
+         bc70687ade2ea5d94270fbfd5afabfcc43709838 bpf: Fix use-after-free in bpf_uprobe_multi_link_attach()
          
