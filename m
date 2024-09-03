@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Sep 2024 20:01:18 -0000
-Message-Id: <172539367868.291971.3633636508785099028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 03 Sep 2024 20:03:39 -0000
+Message-Id: <172539381983.293242.9305176138453870274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 3b3a2a9c6349e25a025d2330f479bc33a6ccb54a
-    new: 33f339a1ba54e56bba57ee9a77c71e385ab4825c
+  - ref: refs/heads/controller/rcar-gen4
+    old: 5603a3491b368faf180472f4bdc6480c13c7385e
+    new: 05a01639b8f5fa42fb28f58cb1142bf11917d3c2
     log: |
-         77461c10819103eaee7b33c744174b32a8c78b40 net: dqs: Do not use extern for unused dql_group
-         33f339a1ba54e56bba57ee9a77c71e385ab4825c bpf, net: Fix a potential race in do_sock_getsockopt()
+         97e629c8bdf78066f480f0c44365c6ecb44b7301 dt-bindings: PCI: rcar-gen4-pci-host: Add R-Car V4M compatible
+         05a01639b8f5fa42fb28f58cb1142bf11917d3c2 dt-bindings: PCI: rcar-gen4-pci-ep: Add R-Car V4M compatible
          
