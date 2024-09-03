@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 03 Sep 2024 09:10:42 -0000
-Message-Id: <172535464243.3898957.5064751930481247047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 03 Sep 2024 09:21:11 -0000
+Message-Id: <172535527115.3906940.1128505630291275503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: ea24b529e34593e81ded82ffc2712efea637001e
-    new: be8fecc0660313f83ea9cff5534c1824f4c35029
+  - ref: refs/heads/master
+    old: 728659867e56378542ec86a3229a3d7cc973c76e
+    new: c9674e73a7fd96a19b45bb7756cc384dde846991
     log: |
-         f1e53264262f67aef3f07a3f0aee47afe469185f cpufreq: amd-pstate: add check for cpufreq_cpu_get's return value
-         5e4a183a9e466e8839b9acc33819bed5a19a5b51 cpufreq: loongson3: Use raw_smp_processor_id() in do_service_request()
-         42ae2c3ac719970f2fa8fd37fde413f063c1eadf cpufreq: ti-cpufreq: Introduce quirks to handle syscon fails appropriately
-         adf24e490f3e612719b56ca924dd56211c4b1b1b cpufreq: Fix the cacography in powernv-cpufreq.c
-         be8fecc0660313f83ea9cff5534c1824f4c35029 cpufreq: ti-cpufreq: Use socinfo to get revision in AM62 family
+         4877d7f61a72e46aba3fc52f347d1cd74124dba5 sfdisk: ignore last-lba from script on --force
+         c9674e73a7fd96a19b45bb7756cc384dde846991 libfdisk: check alignment reset return codes
          
