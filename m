@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 03 Sep 2024 22:02:19 -0000
-Message-Id: <172540093999.402405.16768614847945866763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 03 Sep 2024 22:10:59 -0000
+Message-Id: <172540145936.409641.6960195247836887508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/master
-    old: 8f5ea12942ad60a0798fcb68995df8a23b8567b7
-    new: a790df272a20dcc88ffebe20eca34c54f528fcaa
+  - ref: refs/heads/edac-drivers
+    old: b4765ca18f953e9114d73e8c7478d64cbcec03fa
+    new: 43247abd092e634a4ca5bcd25eeae3b42f703b58
     log: |
-         a790df272a20dcc88ffebe20eca34c54f528fcaa Input: synaptics-rmi4 - fix crash when DPM query is not supported
-         
-  - ref: refs/heads/next
-    old: 8f5ea12942ad60a0798fcb68995df8a23b8567b7
-    new: a790df272a20dcc88ffebe20eca34c54f528fcaa
-    log: |
-         a790df272a20dcc88ffebe20eca34c54f528fcaa Input: synaptics-rmi4 - fix crash when DPM query is not supported
+         43247abd092e634a4ca5bcd25eeae3b42f703b58 EDAC/sb_edac: Fix the compile warning of large frame size
          
