@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Sep 2024 13:28:11 -0000
-Message-Id: <172537009196.4122883.6069857538351819221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 03 Sep 2024 13:28:36 -0000
+Message-Id: <172537011698.4123176.2623814903955551206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: aef6987d89544d63a47753cf3741cabff0b5574c
-    new: b2d70222dbf2a2ff7a972a685d249a5d75afa87f
+  - ref: refs/heads/perf/core
+    old: 5c2cc1ef7b1323f674551781ce72ed09ac4bb312
+    new: 0ce9cde4ba046e61d940772e4dfd4821b0920e34
     log: |
-         9c602adb799e72ee537c0c7ca7e828c3fe2acad6 sched/deadline: Fix schedstats vs deadline servers
-         75b6499024a6c1a4ef0288f280534a5c54269076 sched/fair: Properly deactivate sched_delayed task upon class change
-         7d2180d9d943d31491d77e336557f33670cfe7fd sched: Use set_next_task(.first) where required
-         dae4320b29f0bbdae93f7c1f6f80b19f109ca0bc sched: Fixup set_next_task() implementations
-         4686cc598f669dea1b50dde1568e6c65c355bc67 sched: Clean up DL server vs core sched
-         260598f142c34811d226fdde5ab0346b48181439 sched: Split up put_prev_task_balance()
-         fd03c5b8585562d60f8b597b4332d28f48abfe7d sched: Rework pick_next_task()
-         436f3eed5c69c1048a5754df6e3dbb291e5cccbd sched: Combine the last put_prev_task() and the first set_next_task()
-         bd9bbc96e8356886971317f57994247ca491dbf1 sched: Rework dl_server
-         b2d70222dbf2a2ff7a972a685d249a5d75afa87f sched: Add put_prev_task(.next)
+         22371fde7585c782f83faf0900b53b97711912b9 perf/core: Fix small negative period being ignored
+         a1288bf2002ed08f63b791f71a0bae19531ff15e uprobes: Revamp uprobe refcounting and lifetime management
+         c519e4b80662bd433dcf27c38e57fee8b9e86f99 uprobes: Protected uprobe lifetime with SRCU
+         bc10886d64d193b0df4d65e0a3a1e2b6dbb036be uprobes: Get rid of enum uprobe_filter_ctx in uprobe filter callbacks
+         0d509d08a6582fbb1dfc96d1a43e05f642308cac uprobes: Travers uprobe's consumer list locklessly under SRCU protection
+         ef4d722bb99fc53f4788512f7c51fd91fb4ca795 perf/uprobe: Split uprobe_unregister()
+         c876606a5c281bc322122aa25f360e11ae63c2f8 rbtree: Provide rb_find_rcu() / rb_find_add_rcu()
+         ca7cdb71f5596872818afc86b8ff0ca899cfbd0d uprobes: Perform lockless SRCU-protected uprobes_tree lookup
+         0ce9cde4ba046e61d940772e4dfd4821b0920e34 uprobes: Switch to RCU Tasks Trace flavor for better performance
          
