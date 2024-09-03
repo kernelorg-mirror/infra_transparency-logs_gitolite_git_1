@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5186030053508369406=="
+Content-Type: multipart/mixed; boundary="===============8286408615522698555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 03 Sep 2024 16:12:29 -0000
-Message-Id: <172537994993.94570.455473869248996675@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 16:13:03 -0000
+Message-Id: <172537998359.95018.15761043314473129031@gitolite.kernel.org>
 
---===============5186030053508369406==
+--===============8286408615522698555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: bf76d6f33d6ee0e599a002b86a5ff4d01e165084
+  - ref: refs/heads/next
+    old: 86987d84b968b69a610fd00ab9006c13db193b4e
     new: 6e255c1e52802422ba4d080ec6b5bf369e4e2033
-    log: revlist-bf76d6f33d6e-6e255c1e5280.txt
+    log: revlist-86987d84b968-6e255c1e5280.txt
 
---===============5186030053508369406==
+--===============8286408615522698555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf76d6f33d6e-6e255c1e5280.txt
+Content-Disposition: attachment; filename=revlist-86987d84b968-6e255c1e5280.txt
 
 e4ab5d7cb5f19858305395e034f214c92afc3cf5 soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST
 10f98bb9d98137b544b00abb4f9df45e9be7878d arm64: defconfig: Add CONFIG_DRM_PANEL_SAMSUNG_ATNA33XC20
@@ -320,4 +320,4 @@ fef358222c805e0042c14009c12d897e2967e668 KEYS: Remove unused declarations
 f743ea9d38cd056457b68d3b5ad47b8a1fccbbc1 MAINTAINERS: Add selftest files to TPM section
 6e255c1e52802422ba4d080ec6b5bf369e4e2033 selftests: tpm2: test_smoke: Run only when TPM2 is avaialable.
 
---===============5186030053508369406==--
+--===============8286408615522698555==--
