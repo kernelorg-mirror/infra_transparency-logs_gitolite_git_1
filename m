@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0296956733119018031=="
+Content-Type: multipart/mixed; boundary="===============1535758592358033968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 03 Sep 2024 05:43:20 -0000
-Message-Id: <172534220094.3734894.5760952054405874147@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 05:43:25 -0000
+Message-Id: <172534220566.3735012.8661121591383129473@gitolite.kernel.org>
 
---===============0296956733119018031==
+--===============1535758592358033968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
+  - ref: refs/heads/usb-linus
+    old: 58c2fa54257d640c83137b44e12c174fd660a485
     new: 431c1646e1f86b949fa3685efc50b660a364c2b6
-    log: revlist-47ac09b91bef-431c1646e1f8.txt
+    log: revlist-58c2fa54257d-431c1646e1f8.txt
 
---===============0296956733119018031==
+--===============1535758592358033968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725342222 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725342226 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725342199-39f4ae8562be582dcfd6cf19acd229fcd357bc33
+nonce 1725342203-1de4252d102f1e95d836c0fa7b7efd276eecfc26
 
-47ac09b91befbb6a235ab620c32af719f8208399 431c1646e1f86b949fa3685efc50b660a364c2b6 refs/heads/main
+58c2fa54257d640c83137b44e12c174fd660a485 431c1646e1f86b949fa3685efc50b660a364c2b6 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWog4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ys8QAMtLEdTSGwbZ1V9afrLE
-EY2Pb68lQdV8qmpwb2O2p/7Kokzg5sVSYUDFQpOcZJRWo3gFnwkfaHs5Y63+NxEY
-A70uie1sXJcnB9IigOdLXSEG+6elzBkVIKFcUNomkB4cY0u0gbpfCgKEkZ2GWNc9
-TazCm5vpHJyCkw6QymUqLJ9ipIxpt6kFlp4N7wMsGABbBZIuAQP41jErn69bq2mj
-ybW1hRhPa0YwvIvAbenb7K0UvgU3l2WAxwQo6QHzjN+wbBhCSW+NJQvKdB3D0maD
-etHokCZX3B0AHWXBEdBiiddf5pHfj5ayFwcBjCcg2HngBiSyb0HR/1a7h6xLcVXy
-jwABNn/HNTsrO/M2O4UZKR0mYnF8X+mrrw4WGt1UuDpCxSfLl0LjIr5xpYUsSsvR
-VCmCgA/+FOqpY66I1kSny+8y800YyZiCCEoVf6F1vdX7Ir3hUdaUE3pJpy45mR9J
-dqkY1+6xPkzhPqivIoggeuYjS+IMqF3qLsftfIrz3BprrpZld32bR1PEVvRGJ1lI
-1R1ZAclbRhV/JHOgdDo6rmz49W3xx4gQB32Pl6MYN2UVoIffkLLnByVaPn4H96lt
-B07OyiXOWK1Sko5LVJmnHOP23XvP/a5k2eztzeJJ9DJ9akZgb4fAFfs4sjk7HNJZ
-y5QoFgj5vak0Ng1zAVhuOX6G
-=Qpr8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWohIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W5kP/3tQ3FRtpoEiSr7lTCwT
+ymVJWl0GWnlqUxDBuJu+qD8p9S1R+QKLRbHKUgaSbrIr7b1EtOfez5CAdlNRFCUY
+zIUCbfbh5DHvj3ZtA++VoIXPBKF4bKH9qm185cplECoHINrgJJ/NAS/sfpDdqZth
+jdU8rtqoW8hksX91CBrGScikXc0Pu/1pDxH4z6We1JghYQKIIbcI0kiDLYCgffZG
+VKD+naYMYB8h6tQBZUOmQjEiJ8Gtbi5uTsIV/Ie3XJeTtu/vdJx/GL+a1Ku46oFJ
+5dpsTp4uanJXwBDbSSMn224B6wxJlx4Nexm3iBUApBRAU7SHN9eufTz6c7V/pTkV
+GfxgMtYKtKZCkg2qP/yhD+1XqujEp+0JA/Reg1dze/xYXOI17APyAgbQj8IUnW04
+TbcbecEVSYSnlXWOeVo5sVG3ZSUZPal3GbPVq6ujZdoFjKjuUgt8ujdk6chIBUYL
+qJulx4iQrBxdxvpHkFQaLqJq8QhrlPcbRt8vleaJnhbMK5r4RKZm72ne3jGv4SOw
+BlBm4PWI7YslPO2PLyXF0tC6t8Z2avVnddlp1MNDozjRRfeTOpXDFbcRKtCOoYHi
+pyMZmIh5ub4zrn/vlr64gZ6UnDu7m/wFT96ZZ3MLy18LnWG7cMioegLa1djmZije
+HT+MaA1L49c2qh4OscG0Fwiz
+=AmP0
 -----END PGP SIGNATURE-----
 
---===============0296956733119018031==
+--===============1535758592358033968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ac09b91bef-431c1646e1f8.txt
+Content-Disposition: attachment; filename=revlist-58c2fa54257d-431c1646e1f8.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -373,20 +373,7 @@ dedb2fe37574857c84e9598b9f5272505dedf7af bcachefs: Fix double assignment in chec
 87313ac1f134d6ee1e7c858da8bdea9147b537a9 bcachefs: clear path->should_be_locked in bch2_btree_key_cache_drop()
 9b82ff1362f50914c8292902e07be98a9f59d33d ALSA: hda/realtek - Fixed ALC256 headphone no sound
 1d8c3c23a6bc1527e253b305b4b68c03d833b824 KVM: arm64: Ensure canonical IPA is hugepage-aligned when handling fault
-6e95097b6bb20f0021180b150f41ad9962dcdcc9 MAINTAINERS: Mark UVC gadget driver as orphan
 3e6245ebe7ef341639e9a7e402b3ade8ad45a19f KVM: arm64: Make ICC_*SGI*_EL1 undef in the absence of a vGICv3
-14e497183df28c006603cc67fd3797a537eef7b9 usb: dwc3: core: Prevent USB core invalid event buffer address access
-0497a356d3c498221eb0c1edc1e8985816092f12 usb: cdnsp: fix incorrect index in cdnsp_get_hw_deq function
-0b00583ecacb0b51712a5ecd34cf7e6684307c67 cdc-acm: Add DISABLE_ECHO quirk for GE HealthCare UI Controller
-b52a07e07dead777517af3cbda851bb2cc157c9d usb: gadget: uvc: queue pump work in uvcg_video_enable()
-5b235693ed2a1e4963625717a1598becf97759cc dt-bindings: usb: microchip,usb2514: Fix reference USB device schema
-2aa765a43817ec8add990f83c8e54a9a5d87aa9c usb: dwc3: omap: add missing depopulate in probe error path
-16f2a21d9d7e48e1af02654fe3d926c0ce6cb3e5 usb: dwc3: xilinx: add missing depopulate in probe error path
-4f83cae0edb2b13aabb82e8a4852092844d320aa usb: typec: fsa4480: Relax CHIP_ID check
-3a8839bbb86da7968a792123ed2296d063871a52 usb: core: sysfs: Unmerge @usb3_hardware_lpm_attr_group in remove_power_attributes()
-72fca8371f205d654f95b09cd023a71fd5307041 usb: dwc3: ep0: Don't reset resource alloc flag (including ep0)
-ddfcfeba891064b88bb844208b43bef2ef970f0c usb: dwc3: st: fix probed platform device ref count on probe error path
-cd4897bfd14f6a5388b21ba45a066541a0425199 usb: dwc3: st: add missing depopulate in probe error path
 6ea14ccb60c8ab829349979b22b58a941ec4a3ee netfilter: flowtable: validate vlan header
 1fa7b099d60ad64f559bd3b8e3f0d94b2e015514 ALSA: hda/realtek - FIxed ALC285 headphone no sound
 f2916c83d746eb99f50f42c15cf4c47c2ea5f3b3 net: ngbe: Fix phy mode set to external phy
@@ -483,7 +470,6 @@ d5afaf917e802665d67673991974f5bc204dfa11 Merge tag 'block-6.11-20240823' of git:
 66ace9a8f9b4dedc44045c1e47accf148c7cb5fa Merge tag 'v6.11-rc4-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 60f0560f53e395adf4bce7282d8d4bc94a4952ac Merge tag 'nfs-for-6.11-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 a8a8dcbd679e223cfdfec304d55287e07e4d0054 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-740f2e2791b98e47288b3814c83a3f566518fed2 usb: cdnsp: fix for Link TRB with TC
 5bd6cf00740765c47b5684e2d75ac90d3371659a Merge tag 'mips-fixes_6.11_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cb2c84b38082f8bd052bf909c7da344b83578ace Merge tag 'wq-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 d2bafcf224f3911b183113b2fcb536c9e90684a3 Merge tag 'cgroup-for-6.11-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
@@ -562,7 +548,6 @@ b49420d6a1aeb399e5b107fc6eb8584d0860fbd7 video/aperture: optionally match the de
 d26935690c03fe8159d42358bed1c56252700cd1 bcachefs: Fix bch2_extents_match() false positive
 7bbc079531fc38d401e1c4088d4981435a8828e3 hwmon: (pt5161l) Fix invalid temperature reading
 3e9bff3bbe1355805de919f688bef4baefbfd436 Merge tag 'vfs-6.11-rc6.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-9a471de516c35219d1722c13367191ce1f120fe9 USB: serial: option: add MeiG Smart SRM825L
 6d30bb88f623526197c0e18a366e68a4254a2c83 wifi: wfx: repair open network AP mode
 094513f8a2fbddee51b055d8035f995551f98fce wifi: iwlwifi: clear trans->state earlier upon error
 7d058e6bac9afab6a406e34344ebbfd3068bb2d5 drm/i915/dsi: Make Lenovo Yoga Tab 3 X90F DMI match less strict
@@ -659,7 +644,6 @@ c472d33bcbf7a1ed3710efe93822b5e94eabe18c Input: cypress_ps2 - fix waiting for co
 dde72a5d4fdf2e18fedb4b2abfba5f7e86bcb7c8 Merge tag 'drm-xe-fixes-2024-08-29' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 27f5b729cb56e46d8beca47c227c0edf1e958fbb Merge tag 'drm-misc-fixes-2024-08-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 20371ba120635d9ab7fc7670497105af8f33eb08 Merge tag 'drm-fixes-2024-08-30' of https://gitlab.freedesktop.org/drm/kernel
-58c2fa54257d640c83137b44e12c174fd660a485 Merge tag 'usb-serial-6.11-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 1c47c0d6014c832ad8e2ba04fc2c5b7070d999f7 io_uring/rsrc: ensure compat iovecs are copied correctly
 40927f3d0972bf86357a32a5749be71a551241b6 nfsd: fix nfsd4_deleg_getattr_conflict in presence of third party lease
 f274495aea7b15225b3d83837121b22ef96e560c io_uring/kbuf: return correct iovec count from classic buffer peek
@@ -689,4 +673,4 @@ a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of http
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
 
---===============0296956733119018031==--
+--===============1535758592358033968==--
