@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5382159369279309398=="
+Content-Type: multipart/mixed; boundary="===============1417925964312034664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 03 Sep 2024 07:53:47 -0000
-Message-Id: <172535002710.3834903.10464810084364810847@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 07:54:57 -0000
+Message-Id: <172535009777.3835784.11632083544115425272@gitolite.kernel.org>
 
---===============5382159369279309398==
+--===============1417925964312034664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,62 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 35f4a629641b812e04fadef087da5d6af59e32d7
-    new: c146ede472717f352b7283a525bd9a1a2b15e2cf
-    log: revlist-35f4a629641b-c146ede47271.txt
+    old: c146ede472717f352b7283a525bd9a1a2b15e2cf
+    new: f20998f23a8ce3ba56a06d9423ee57e92bae298c
+    log: |
+         a17f04d4f26db70a42e52ebf0f04d84da79ebf1e usb: gadget: f_acm: make bInterfaceProtocol configurable
+         9299f12c20d4dc51d3b548392e1725da37cada48 usb: f_mass_storage: Make use of the helper macro kthread_run()
+         948ce83fbb7df85bc930a5c0d6b133481be05c0b xhci: Add USB4 tunnel detection for USB3 devices on Intel hosts
+         f46a6e16519712651e2304da03ec144cc0bb084c usb: Add tunnel_mode parameter to usb device structure
+         f1bfb4a6fed64de1771b43a76631942279851744 usb: acpi: add device link between tunneled USB3 device and USB4 Host Interface
+         f20998f23a8ce3ba56a06d9423ee57e92bae298c thunderbolt: Don't create device link from USB4 Host Interface to USB3 xHC host
+         
 
---===============5382159369279309398==
+--===============1417925964312034664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350046 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350116 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725350023-9e3d0897c333e1f2f2fc0f2349854be315a32da0
+nonce 1725350094-31400aadf77b335f1082962759c83ae47360a33e
 
-35f4a629641b812e04fadef087da5d6af59e32d7 c146ede472717f352b7283a525bd9a1a2b15e2cf refs/heads/usb-testing
+c146ede472717f352b7283a525bd9a1a2b15e2cf f20998f23a8ce3ba56a06d9423ee57e92bae298c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwJ4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U88QAIcHCndwQ7+CFVcae3Pd
-fvbghxv+xh7IZMzxUlhepMCiPLzO7CfF8001G37rGNj8lAtsB7iQQwAyc645w1oZ
-ihMfDxjoStvojB2E9DPTK1in6YzX98di5qo70j2trEMy89FYyH4C5CVhPFZ3lpQo
-1xVeOhmxsOxz+gVWnsADxzYEzgc7wSc68AaTfnEtByS2T9NzwOASYHsNCTdWrIVq
-gM7fgRGLwaxBsQMb3FuvxnTbgvL6jzgRoBtxE2I+SpogZeQVvV9davywTq0ZbjqT
-LJDIOgydG/VcxMTHfYhHauL3JRlmhFQnxO9f3hWyXfDW0MPAbNdEzqpxMs6QKQb9
-467D6oLTYquJvoUcP+jZKFvJLoZA8okYzdxMIDwGAJqntrdHxMVFBoonE/aNTuA+
-Nsc+OtHRqnbjq55fB5Ya4CgRGXZO3GZLeipWzi8JFC8rIxMe9BBFtXpzgqETMYwH
-b48axpJrB2u7qqczD9QTwdV3Syul2dhAL1qkbGZYEuydIGY58gLHhe70ggrgIWaE
-xCa43cyjJR5TPFIbJ+q1jy0vgag9zTuUvsTpg8AxR/nzlO7ftoSpjX6QGA+ujWwj
-VPiyqEvFMzICtIKPN+6bHUXM5Z7rc7S7PLtbOeofafKbBwNZmhI2aAisCalZ5rsI
-PsG5Pr7mGoh0vGaaDNiXrz0A
-=+WMX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++BkQAJ+zmCgHND/Wb1Lv1+Du
+yhcpdV3tkUZ2tA9E9a3yogvBCgyLgw8UYBFxW7SfsUL1ns4Y9rWryBYNjEE31M+h
+KWwdVzVU/tTLBwJpVfcn2uDExyAUm/et6gOMyR2JUFon7EHWy4ZFPhV/r2lspb05
+qZVhEZsqFtaNmIMc+3tpsymkrdNq0AV1Dz5+RbIOmu3p66GIZ3OomzBHjgGzmaiK
+e7g3LDeuNqimJPDqx8McsJUTWfV4186ywxmBDx9/Y6FW6Ozseqpdg3yHCiwL2w5p
+zzE7+sQR62gGntbgWqFbDxECGjW1gfODy6Dx0S/RIbpyUoqIdxtWEQmxi9zFkgFX
+VHhGSF3l9ErXzyrK1/32cn/wZiXyu4AVxJ4F7rLW/Q6GNe1ZIg/+b35LqhbTkXFs
+c7zsHDwDT+x0Kp+vwlXSR4tGV2GdUkB05a3f+iQhNhykjMZ6y3ExepJM3D9+e3P+
+mMUnLyxzyGFkAiUcrlYaRqD8LTs0aPuCZBVrBroPRpA7XhyJR+cHBcaTtezyE5MI
+F5W8U6pynfCblfQv/y5+wSxLWDA2nPOjmTcH5sdpSityYf+Atn0T1tSQiVYheVgH
+kcLBqvwSg/dlGdyyh4q16BJhHejKqG0KYnCVPB1DAYTj/0Is7QiSktan2knyo+77
+LQVPjtxu1QEscXd0nsEfrB4N
+=k80T
 -----END PGP SIGNATURE-----
 
---===============5382159369279309398==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35f4a629641b-c146ede47271.txt
-
-e4fdcc10092fb244218013bfe8ff01c55d54e8e4 usb: chipidea: udc: enable suspend interrupt after usb reset
-dbf0fa1c8d47914c3b4919f01b131e0523f6d804 usb-storage: Constify struct usb_device_id and us_unusual_dev
-bde053252c02186836ea0d1bee492d2e95c3f983 usb: dwc3: st: use scoped device node handling to simplify error paths
-a93c3ad6a9b2f9b8add42cc07e8857bab0eb1616 usb: dwc3: st: simplify with dev_err_probe
-fcc78cce2f9653af6d46460274d352e8b26ac5ea usb: dwc3: st: simplify pdev->dev usage
-3fdfebc58e0ddd86f5c0da85ef5eab94bf3d674a usb: dwc3: imx8mp: simplify with devm_clk_get_enabled
-81d905b1022033a5885e2d2c169606eabf669084 usb: dwc3: imx8mp: simplify with dev_err_probe
-34e8df2fb2de4e56fdd91a03ffe466f3c88a67df usb: dwc3: imx8mp: use scoped device node handling to simplify error paths
-a85f13d509254acd508856be57099a818552cfc9 usb: dwc3: qcom: use scoped device node handling to simplify error paths
-17d206a3687ec662b0eb7c1f083fb8abd29842be usb: dwc3: qcom: simplify with devm_platform_ioremap_resource
-f93e96c544ca723be5c4ff553630ad6a72d3c677 usb: dwc3: rtk: use scoped device node handling to simplify error paths
-819c0c31a78e389812ab183eceabec58d1d23319 usb: dwc3: rtk: return directly and simplify with devm_platform_ioremap_resource
-e23593ee41fa4d2f76588dfe609b416c1d9710b8 usb: dwc3: xilinx: simplify with dev_err_probe
-4058c39bd176daf11a826802d940d86292a6b02b usb: dwc2: Adjust the timing of USB Driver Interrupt Registration in the Crashkernel Scenario
-27e12d5aa4f9b0cc7b15050bc560c75aaaa8695b usb: chipidea: npcm: Fix coding style with missing space
-b24301364a9471fbca86d41fa0982ae4e038140d usb: gadget: udc-xilinx: Remove trailing space after \n newline
-c146ede472717f352b7283a525bd9a1a2b15e2cf usb: ohci-nxp: Use helper function devm_clk_get_enabled()
-
---===============5382159369279309398==--
+--===============1417925964312034664==--
