@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1417925964312034664=="
+Content-Type: multipart/mixed; boundary="===============6698391185181236681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 03 Sep 2024 07:54:57 -0000
-Message-Id: <172535009777.3835784.11632083544115425272@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 07:57:44 -0000
+Message-Id: <172535026421.3838836.16868515886321197768@gitolite.kernel.org>
 
---===============1417925964312034664==
+--===============6698391185181236681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c146ede472717f352b7283a525bd9a1a2b15e2cf
-    new: f20998f23a8ce3ba56a06d9423ee57e92bae298c
+    old: f20998f23a8ce3ba56a06d9423ee57e92bae298c
+    new: 673f0c3ffc75166317ca5edb66ff35eaa6a12149
     log: |
-         a17f04d4f26db70a42e52ebf0f04d84da79ebf1e usb: gadget: f_acm: make bInterfaceProtocol configurable
-         9299f12c20d4dc51d3b548392e1725da37cada48 usb: f_mass_storage: Make use of the helper macro kthread_run()
-         948ce83fbb7df85bc930a5c0d6b133481be05c0b xhci: Add USB4 tunnel detection for USB3 devices on Intel hosts
-         f46a6e16519712651e2304da03ec144cc0bb084c usb: Add tunnel_mode parameter to usb device structure
-         f1bfb4a6fed64de1771b43a76631942279851744 usb: acpi: add device link between tunneled USB3 device and USB4 Host Interface
-         f20998f23a8ce3ba56a06d9423ee57e92bae298c thunderbolt: Don't create device link from USB4 Host Interface to USB3 xHC host
+         d9c61bb33fbbcbc2d5f69efa10db116dab4b56cc usb: gadget: function: move u_f.h to include/linux/usb/func_utils.h
+         a3be076dc174d9022a71a12554feb4c97b5c4d5c net/9p/usbg: Add new usb gadget function transport
+         673f0c3ffc75166317ca5edb66ff35eaa6a12149 tools: usb: p9_fwd: add usb gadget packet forwarder script
          
 
---===============1417925964312034664==
+--===============6698391185181236681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350116 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350283 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725350094-31400aadf77b335f1082962759c83ae47360a33e
+nonce 1725350260-8951ba73253fedd8e7e70f6dcd3ee89335897610
 
-c146ede472717f352b7283a525bd9a1a2b15e2cf f20998f23a8ce3ba56a06d9423ee57e92bae298c refs/heads/usb-testing
+f20998f23a8ce3ba56a06d9423ee57e92bae298c 673f0c3ffc75166317ca5edb66ff35eaa6a12149 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwOQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++BkQAJ+zmCgHND/Wb1Lv1+Du
-yhcpdV3tkUZ2tA9E9a3yogvBCgyLgw8UYBFxW7SfsUL1ns4Y9rWryBYNjEE31M+h
-KWwdVzVU/tTLBwJpVfcn2uDExyAUm/et6gOMyR2JUFon7EHWy4ZFPhV/r2lspb05
-qZVhEZsqFtaNmIMc+3tpsymkrdNq0AV1Dz5+RbIOmu3p66GIZ3OomzBHjgGzmaiK
-e7g3LDeuNqimJPDqx8McsJUTWfV4186ywxmBDx9/Y6FW6Ozseqpdg3yHCiwL2w5p
-zzE7+sQR62gGntbgWqFbDxECGjW1gfODy6Dx0S/RIbpyUoqIdxtWEQmxi9zFkgFX
-VHhGSF3l9ErXzyrK1/32cn/wZiXyu4AVxJ4F7rLW/Q6GNe1ZIg/+b35LqhbTkXFs
-c7zsHDwDT+x0Kp+vwlXSR4tGV2GdUkB05a3f+iQhNhykjMZ6y3ExepJM3D9+e3P+
-mMUnLyxzyGFkAiUcrlYaRqD8LTs0aPuCZBVrBroPRpA7XhyJR+cHBcaTtezyE5MI
-F5W8U6pynfCblfQv/y5+wSxLWDA2nPOjmTcH5sdpSityYf+Atn0T1tSQiVYheVgH
-kcLBqvwSg/dlGdyyh4q16BJhHejKqG0KYnCVPB1DAYTj/0Is7QiSktan2knyo+77
-LQVPjtxu1QEscXd0nsEfrB4N
-=k80T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwYsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MQP/A5wO7OOYBJ0/nPeFnaK
+mpQHviAPNzQ6isk4PmaoSa4AdLbirEgd/B/tcqzw9Ok43B8c3uOYrjMe47fxxVbw
+1/dzc2fp6aZvbxQ5pdHDXbconodeTroCGQA1O2Lzr8K91ZhOe8pAQzx9CPbfmyWj
+3gFBjPMqg0d96EdpC4+uKR5orPRpafg+X0Li1KNK88ibYtIRvijccMwVbshJd+GH
+dNm+0kN0YF403yxYGRd6U2IeGUZa3/nyrqK11aQP+hRF7GpkvgTtseDrfZrnsv3D
+Spu10MVOY0D/39TerL+wWPnGyzeLwMmmeZjAhq6ye1on/xCacos8lmtR+kg+y7F+
+yilRHj2JtZky+msSqF4TsgxINLt0aMxgomZa2CmjprNBmb91ABI+3vs+yMOqgsWU
+Dh9tXvj43W+c8I7iHVVyMGHvOyeDAHEiR/0RMpATP5ZjmeRuOJEteSLA2v0Sxh+3
+7ScGHpHaN9C+ikggzFeh8e1b/1RXGvIWTDyatrvAyL1CgK45WEyYAGZXWUW+x9GA
+hEi3uF3GcyDrwfcJbB3vU/rMj61lpDg6uCe8zQMOvOWJ9S9chICj9V7fE0N09MBc
+EXXE/yrjd5EDexEKrjVmoAw/pOb8NWlymLmaeHxKigLQTbmmRBOviI4HsOWd/sxD
+wUK/PgwRVosc+qk/8wyK/Ex2
+=htAe
 -----END PGP SIGNATURE-----
 
---===============1417925964312034664==--
+--===============6698391185181236681==--
