@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 03 Sep 2024 14:25:02 -0000
-Message-Id: <172537350286.4172583.522416118028474817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 03 Sep 2024 14:25:59 -0000
+Message-Id: <172537355912.4174247.1362842338661467225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/fixes
-    old: 32d5f7add080a936e28ab4142bfeea6b06999789
-    new: b686ecdeacf6658e1348c1a32a08e2e72f7c0f00
+  - ref: refs/heads/netfs-fixes
+    old: ddfae3830b648d2ed7dd40377fad7dfa38940582
+    new: ef7e3b8dd2a578ea8967e9467b787353deb9bf07
     log: |
-         954260ff5a4657eb97ad7e1618505074f1610acc Revert "RISC-V: mm: Document mmap changes"
-         83dae72ac0382693540a055ec6210dd3691a8df6 riscv: selftests: Remove mmap hint address checks
-         2116988d5372aec51f8c4fb85bf8e305ecda47a0 riscv: mm: Do not restrict mmap address based on hint
-         84cfab9a1805f8e300e945f26e3fdff6d125bc20 Merge patch series "riscv: mm: Do not restrict mmap address based on hint"
-         b686ecdeacf6658e1348c1a32a08e2e72f7c0f00 riscv: misaligned: Restrict user access to kernel memory
+         79e811323d61e0d629908df00dea5ef49f9e73c2 smb: client: fix double put of @cfile in smb2_rename_path()
+         73f4a8f87871bf99ec71a60bec2145d42f034572 smb: client: fix double put of @cfile in smb2_set_path_size()
+         f764106ff0e52c8e29756e7dbe7800e418ee3f61 cifs: Fix zero_point init on inode initialisation
+         ef7e3b8dd2a578ea8967e9467b787353deb9bf07 cifs: Fix SMB1 readv/writev callback in the same way as SMB2/3
          
