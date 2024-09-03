@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8938971198092470841=="
+Content-Type: multipart/mixed; boundary="===============0745436564192100238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 03 Sep 2024 16:59:00 -0000
-Message-Id: <172538274042.135993.7793421634467698175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Sep 2024 16:59:06 -0000
+Message-Id: <172538274623.136172.8351622634974426908@gitolite.kernel.org>
 
---===============8938971198092470841==
+--===============0745436564192100238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: 709df70a20e990d262c473ad9899314039e8ec82
     new: 5478a4f7b94414def7b56d2f18bc2ed9b0f3f1f2
     log: |
          5478a4f7b94414def7b56d2f18bc2ed9b0f3f1f2 spi: spidev: Add missing spi_device_id for jg10309-01
          
 
---===============8938971198092470841==
+--===============0745436564192100238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1725382760 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1725382738-972afd2108bb395eb3035299cecc75ec40f5776e
+pusher C3F436CA30F5D8EB 1725382766 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1725382744-7886ffc8af970aa137704756d6382941f9be9509
 
-709df70a20e990d262c473ad9899314039e8ec82 5478a4f7b94414def7b56d2f18bc2ed9b0f3f1f2 refs/heads/for-6.11
+709df70a20e990d262c473ad9899314039e8ec82 5478a4f7b94414def7b56d2f18bc2ed9b0f3f1f2 refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbXQGgACgkQJNaLcl1U
-h9BFmAf9GhoxPqRNSd89fUXnnzP9A3JoXpWa479QVFeH4rkAKWAGmFQOdiq4D3pP
-aLrMynMyj7zvM97Z4V9PB+j6S19DTd2x8E25aD3LIyv+0CGL4J/twsk06OtGeNF5
-ICvVReco4XKeJ8u9wfLZlGD1p7R+3SEdkHgYuDgXZjDRVmOUohjCeN4YOBd9vKbx
-EigcLTB8ysEkBmEz0G9KaqJzq4csDVwPDZeQbH2hWMz1eKEG977Aklxr45S/O6vU
-9P6CJNdDhceW5owTgUL+M1VQxHX/WrR9Ed6eRU3LM9BtOIFgIHBdsP9yBAVRrAJD
-iA3fru8Qsuq8VfKiiv2+8htMrYAsiQ==
-=J87O
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbXQG4ACgkQJNaLcl1U
+h9CkSQf/Sb6qL2H002/PS0vQ+IVyFP7yviBi8TJQYa0CrieF2yBBtmORhOl92PK/
+bi8mp3XMao8SiItu3VYSATxY381cZEAfJ3UFqab+43QseyyJWLFUE0k6pPfkIvpR
+gBVn2FLqW4L4lARygjVekrSGpBaunnt80d6zL13oVJCKtGn7U/C28zN2+TzTubpM
+M1h/exf+X2Cc+Q+gmtxeH9id4irk4hd1eKTAlvETaGrk2xi7BxFCwiflP77/s4ml
+poPFBTrqW0JpgtutyjrBDfwIL8Q7bZMNT7XM0Ij45O6/yRoJ05cumeeCbxkNc0hA
+g50FvMjFj4RjAjenA2eEWC6htliExw==
+=10Kh
 -----END PGP SIGNATURE-----
 
---===============8938971198092470841==--
+--===============0745436564192100238==--
