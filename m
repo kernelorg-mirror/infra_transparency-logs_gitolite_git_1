@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0414887894611591698=="
+Content-Type: multipart/mixed; boundary="===============1795494281542847207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 03 Sep 2024 11:16:15 -0000
-Message-Id: <172536217548.4008393.8860212754238971973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 03 Sep 2024 11:20:19 -0000
+Message-Id: <172536241903.4012239.17365146358308904433@gitolite.kernel.org>
 
---===============0414887894611591698==
+--===============1795494281542847207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ba82e10c3c6b5b5d2c8279a8bd0dae5c2abaacfc
-    new: fea64fa04c31426eae512751e0c5342345c5741c
+  - ref: refs/heads/char-misc-linus
+    old: 6fd28941447bf2c8ca0f26fda612a1cabc41663f
+    new: 48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7
     log: |
-         8ab0f4605d5ce3c0d386b3828b07719f1e8e0505 bus: fsl-mc: make fsl_mc_bus_type const
-         903c44939abc02e2f3d6f2ad65fa090f7e5df5b6 driver core: Make parameter check consistent for API cluster device_(for_each|find)_child()
-         fea64fa04c31426eae512751e0c5342345c5741c devres: Correclty strip percpu address space of devm_free_percpu() argument
+         48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7 VMCI: Fix use-after-free when removing resource in vmci_resource_remove()
          
 
---===============0414887894611591698==
+--===============1795494281542847207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725362194 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1725362171-71665ab9586c7516a520d294613167422277124b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725362438 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1725362416-3b2b11dc40f021c0f14133d3bc2706413f87fb44
 
-ba82e10c3c6b5b5d2c8279a8bd0dae5c2abaacfc fea64fa04c31426eae512751e0c5342345c5741c refs/heads/driver-core-testing
+6fd28941447bf2c8ca0f26fda612a1cabc41663f 48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW8BIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IkAQALFvEYNYDponCjIn2HmG
-aB94OR8SwvjEu111BjuKLCdZkkxvYO8lfim4wZkUZgxZSD5aUlarmAMM5QKaDich
-j+9llrl/uUBQVojzrAMjJmI0wSjS0rJdVMY3FVT8iPa9up7WswBK1jlintmWR/xw
-F6IDEryWwX2akcDKL5syk4NIJBM7dLDmjVpDx8klV6xZJrhTR/HR3YqmNkKQsIl2
-FFuAQQ7erju0NnNmlIDsxWHoogrQ2ciqft+RwE4E0mprxVwNDSRGuDa/PzfVLepg
-+beSHkmo12aqxnETw0WHVdo2gZue8yhH8YqFAggLVrVbBX/KHatfxiOgN8VB3r9N
-xQ+HjbaJa3VcN7y9Xc125zerGfiyg7hZOY9PAWAk5uqnQwL6lV0DLZ0WXNvZ2zXw
-Phg+t+s3mD/+on+gobl/v2VmmllyPEnJF9MhR0QtkqhVdZeV22GBknn1Hv3xRVgF
-XNiskLKy3nE7XNx/mys0ZaONrcStZs+zGh1k5zNUr9Rw9AeJxPj762puHqf9zb4w
-mWCdcvP9U6Bg5tq6MJDdNmyzHchOJgzLlXGNF1rzwfV/TwLn0DnK8jwZmH3MNIGO
-fkSdueOMZ8Kfh9GRnJjMpgJhlWlo4VfeoLRRmcW4EycQEMMKGdsSh092mmLTJRTo
-jnn46ZyXyNXRBsyzKF9C79vc
-=16fx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbW8QYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LjoP/iRRGX7B9fgSgJZhkWoP
+EiZGfXo7cCvbjUzA1FqvQoWZ8Zb0vflNHkIRMFzMHxDuDFGSU26hHecdKRH0jfUU
+JiG4fHWsu+7breGAxKkS6AjgMtKAUStw2aS/6YrwHaye/Vtiq48oXutOIAQ/+Mxe
+lGlTuDLEegQqZs4pelcmXTZ3BCT1Z/3mn1P9dy5QKaEBx2TePKca0OBSuMNoFpVM
+QEJ3ITLBFFDD6M2v6LrlLucnHF/sB+6GT97i8gSsKBf7733wn4PKRQUWTRzZVJjK
+xBaQC/em57todlguXA26mtlCZn0TvGtfYKrX9CFQy+ER4RZK5SvjTuDsmkmL5c/w
+qcf7pz9p9POD840XfYNgHF1ohdc60LvxDZOCuPffKUYWShhgAPCqBrxlY50UBGy1
+is/qKr81OWbzFQcAyfwn0HWfwIaN7jw2tZAs8qlPAwvVhMR4uuao3OX0Jf9qsDAO
+rp2kHpH8H5X63YiXCB0gtQ4kixYED6tcMvxsh0qP6z9Np43U7BJYRRkb/jnXkt0n
+CBIZ0JAqtoclxEAlaZjBim6fHMVUslbeMoH3nhMZivR+IkOPU3gU623cUJx1l9/y
+a8UI3sNBpTRX5p2ZzcPQ2DQ6nRAbt5ejg8jJD8cO4oRaB9tKwsJeNx7cKLTwYk86
+BJOiDud6QN5JSYGMxt2bm+/6
+=llfE
 -----END PGP SIGNATURE-----
 
---===============0414887894611591698==--
+--===============1795494281542847207==--
