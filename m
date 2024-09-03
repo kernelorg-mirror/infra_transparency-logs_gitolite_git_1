@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1927296291345459018=="
+Content-Type: multipart/mixed; boundary="===============5434200594071337618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Sep 2024 15:16:33 -0000
-Message-Id: <172537659395.42558.13272649321897934832@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 15:16:40 -0000
+Message-Id: <172537660025.42746.3753176702022891799@gitolite.kernel.org>
 
---===============1927296291345459018==
+--===============5434200594071337618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 98d4435efcbf37801a3246fb53856c4b934a2613
-    new: cfd433cecef929b4d92685f570f1a480762ec260
-    log: revlist-98d4435efcbf-cfd433cecef9.txt
+  - ref: refs/heads/dev-queue
+    old: 8d1cd4c8c3ead3e13b963d1342514ff1c137685d
+    new: f679a06d5342849cff49e02a698abbb7c5a3b3a4
+    log: revlist-8d1cd4c8c3ea-f679a06d5342.txt
 
---===============1927296291345459018==
+--===============5434200594071337618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98d4435efcbf-cfd433cecef9.txt
+Content-Disposition: attachment; filename=revlist-8d1cd4c8c3ea-f679a06d5342.txt
 
 76fe372ccb81b0c89b6cd2fec26e2f38c958be85 can: bcm: Remove proc entry when dev is unregistered.
 06d4ef3056a7ac31be331281bb7a6302ef5a7f8a can: m_can: Release irq on error in m_can_open
@@ -63,5 +63,16 @@ d7875b4b078f7e2d862e88aed99c3ea0381aa189 ptp: ocp: convert serial ports to array
 82ace0c8fe9b025eaa273365e27057402cdaeb02 ptp: ocp: adjust sysfs entries to expose tty information
 40bec579d4c718dabc3e3baf7d84c93a89e6bcce docs: ABI: update OCP TimeCard sysfs entries
 cfd433cecef929b4d92685f570f1a480762ec260 Merge branch 'ptp-ocp-fix-serial-port-information-export'
+88cd1b9694515ee7224a70caad61773095f9bc88 ice: Fix lldp packets dropping after changing the number of channels
+b657031a99b0d29888157403fad467b417f86274 ice: fix accounting for filters shared by multiple VSIs
+14b63702a3aa391d841f2fae54464c7f149a6695 ice: Flush FDB entries before reset
+2667f622c92501a5d4fa78cb329a98eac5162764 ice: set correct dst VSI in only LAN filters
+c8da0146e52c8d3d49f8ad23a3d0436485aa1d04 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+b19162aa5122bd94adffa1d18bc676732db14e23 ice: move netif_queue_set_napi to rtnl-protected sections
+89fa3fc3951e946f6878f9790c0e1b3d28f450d4 ice: protect XDP configuration with a mutex
+68b56fc90a029400831cbb676c250a7c9d4d33f4 ice: check for XDP rings instead of bpf program when unconfiguring
+f8b3ea89549a9b24ed7cb9a12f7915406ed45535 ice: check ICE_VSI_DOWN under rtnl_lock when preparing for reset
+d80eb7bd1502a7950e728dd0cffabdf05e4cb42c ice: remove ICE_CFG_BUSY locking from AF_XDP code
+f679a06d5342849cff49e02a698abbb7c5a3b3a4 ice: do not bring the VSI up, if it was down before the XDP setup
 
---===============1927296291345459018==--
+--===============5434200594071337618==--
