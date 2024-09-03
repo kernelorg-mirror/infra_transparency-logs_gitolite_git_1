@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2128271922837968316=="
+Content-Type: multipart/mixed; boundary="===============6153822420725002150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Sep 2024 15:31:57 -0000
-Message-Id: <172537751769.58498.6767443613101291372@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 15:32:00 -0000
+Message-Id: <172537752008.58595.8476170640966565812@gitolite.kernel.org>
 
---===============2128271922837968316==
+--===============6153822420725002150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: fbdaffe41adca26cb9566e92060b97cd6dd87b60
     new: 54f1a107bd034e8d9052f5642280876090ebe31c
     log: revlist-fbdaffe41adc-54f1a107bd03.txt
 
---===============2128271922837968316==
+--===============6153822420725002150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -84,4 +84,4 @@ bd11198da8ac239c0e831ac476490fd38db9cc37 cxgb3: Remove unused declarations
 f5f840de659b39e7b3f285a2bb5117dd27bf0912 cxgb: Remove unused declarations
 54f1a107bd034e8d9052f5642280876090ebe31c Merge branch 'cleanup-chelsio-driver-declarations'
 
---===============2128271922837968316==--
+--===============6153822420725002150==--
