@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
 Date: Tue, 03 Sep 2024 21:30:37 -0000
-Message-Id: <172539903729.376589.14451615121416019154@gitolite.kernel.org>
+Message-Id: <172539903760.376615.17110933259652154175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 67784a74e258a467225f0e68335df77acd67b7ab
-    new: 88fac17500f4ea49c7bac136cf1b27e7b9980075
+  - ref: refs/heads/nfsd-next
+    old: e681699a17b336452be76579ac26af627c923e1b
+    new: 42facfb244beb8527a27404a96e0b97a68069e64
     log: |
-         b18915248a15eae7d901262f108d6ff0ffb4ffc1 fuse: use unsigned type for getxattr/listxattr size truncation
-         97f30876c94382d1b01d45c2c76be8911b196527 fuse: check aborted connection before adding requests to pending list for resending
-         3002240d16494d798add0575e8ba1f284258ab34 fuse: fix memory leak in fuse_create_open
-         76a51ac00ca2a72fe3e168b7fb0e70f75ba6f512 fuse: clear PG_uptodate when using a stolen page
-         f7790d67785302b3116bbbfda62a5a44524601a3 fuse: update stats for pages in dropped aux writeback list
-         3ab394b363c5fd14b231e335fb6746ddfb93aaaa fuse: disable the combination of passthrough and writeback cache
-         88fac17500f4ea49c7bac136cf1b27e7b9980075 Merge tag 'fuse-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+         e492841732bbce2b2dd19cd285d5e7f61b1bdaee nfsd: return -EINVAL when namelen is 0
+         39634efbee5c6764a91aa693f1a36b07e5869441 tools: Add xdrgen
+         42facfb244beb8527a27404a96e0b97a68069e64 NFSD: Add initial generated XDR definitions and functions for NFSv4
          
