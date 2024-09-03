@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 03 Sep 2024 13:45:50 -0000
-Message-Id: <172537115004.4139540.12083639451441712719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 03 Sep 2024 13:49:17 -0000
+Message-Id: <172537135790.4141154.14253062163025704787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ec08ddd2dc0889370cf0fd6978f2dc15c8ca7ac2
-    new: 04885681788855bb266fd131f06c04952a717659
+  - ref: refs/heads/master
+    old: cc74667886e92a0a1b3a279ed5f2f527c5d9f3e0
+    new: 6f8b3481cf511ade803fe7a2ea8fe3b99fce3658
     log: |
-         c3f8644c21df9b7db97eb70e08e2826368aaafa0 perf report: Support LLVM for addr2line()
-         6eca7c5ac23effd552d6f03acc5ce0efc1ed1c1e perf annotate: Split out read_symbol()
-         04885681788855bb266fd131f06c04952a717659 perf annotate: LLVM-based disassembler
+         6f8b3481cf511ade803fe7a2ea8fe3b99fce3658 Don't set _GNU_SOURCE in pkg-config cflags
          
