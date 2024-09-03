@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 03 Sep 2024 09:57:31 -0000
-Message-Id: <172535745173.3937080.14508974711024379995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 03 Sep 2024 09:58:53 -0000
+Message-Id: <172535753300.3937626.13676061375084453066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: 46b8275ad98b812f8ac577371a7be23c578cf8c8
-    new: e48c74b77fd012290b755ca0ba2ecc465eef9fdd
+  - ref: refs/heads/for-next
+    old: 26207c6332e83583a74228da9e5278d4fe5d26cf
+    new: 98250b22cf6e8ce1ae9c5332e049623687f5ab3b
     log: |
-         e48c74b77fd012290b755ca0ba2ecc465eef9fdd Update Readme.md.
+         98250b22cf6e8ce1ae9c5332e049623687f5ab3b dm integrity: fix gcc 5 warning
          
-  - ref: refs/heads/master
-    old: beef8e325a1aa8d4b783a39dfd92615ca04a3440
-    new: e48c74b77fd012290b755ca0ba2ecc465eef9fdd
-    log: |
-         46b8275ad98b812f8ac577371a7be23c578cf8c8 Add 2.7.5 release notes.
-         e48c74b77fd012290b755ca0ba2ecc465eef9fdd Update Readme.md.
-         
-  - ref: refs/tags/v2.7.5
-    old: 0000000000000000000000000000000000000000
-    new: 6629a162e7648c8b2aa5dacb0644a85a004e4059
