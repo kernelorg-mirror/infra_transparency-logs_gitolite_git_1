@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 03 Sep 2024 22:50:04 -0000
-Message-Id: <172540380437.448014.6759317931557890689@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 22:50:33 -0000
+Message-Id: <172540383343.448485.9135208621212427736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/mm-generic-shadow-stack-guard
-    old: 41d27961a3da373b61f63640dfbc4dd99caa9733
-    new: 40d4a9e78fbb403763329031006f6d6461eaf3a0
-    log: |
-         036e2ea569f3e7b6aa077b60633d370ca2515f43 mm: Make arch_get_unmapped_area() take vm_flags by default
-         d064af78843f1bfc1956c5796357054465556c46 mm: Pass vm_flags to generic_get_unmapped_area()
-         40d4a9e78fbb403763329031006f6d6461eaf3a0 mm: Care about shadow stack guard gap when getting an unmapped area
-         
+  - ref: refs/heads/v7_20240722_amergnat_add_audio_support_for_the_mediatek_genio_350_evk_board
+    old: e1991d102bc2abb32331c462f8f3e77059c69578
+    new: 0000000000000000000000000000000000000000
