@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6698391185181236681=="
+Content-Type: multipart/mixed; boundary="===============1806220118730850971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 03 Sep 2024 07:57:44 -0000
-Message-Id: <172535026421.3838836.16868515886321197768@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 08:03:50 -0000
+Message-Id: <172535063035.3843437.16220712138717755428@gitolite.kernel.org>
 
---===============6698391185181236681==
+--===============1806220118730850971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: f20998f23a8ce3ba56a06d9423ee57e92bae298c
-    new: 673f0c3ffc75166317ca5edb66ff35eaa6a12149
+  - ref: refs/heads/usb-linus
+    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
+    new: e2940928115e83d707b21bf00b0db7d6c15f8341
     log: |
-         d9c61bb33fbbcbc2d5f69efa10db116dab4b56cc usb: gadget: function: move u_f.h to include/linux/usb/func_utils.h
-         a3be076dc174d9022a71a12554feb4c97b5c4d5c net/9p/usbg: Add new usb gadget function transport
-         673f0c3ffc75166317ca5edb66ff35eaa6a12149 tools: usb: p9_fwd: add usb gadget packet forwarder script
+         00dcf2fa449f23a263343d7fe051741bdde65d0b usb: dwc3: Avoid waking up gadget during startxfer
+         9149c9b0c7e046273141e41eebd8a517416144ac usb: dwc3: core: update LC timer as per USB Spec V3.2
+         e2940928115e83d707b21bf00b0db7d6c15f8341 usb: cdns2: Fix controller reset issue
          
 
---===============6698391185181236681==
+--===============1806220118730850971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350283 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725350648 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725350260-8951ba73253fedd8e7e70f6dcd3ee89335897610
+nonce 1725350625-f654a1b0be93ccf33c4a31fb05950ef06895a77a
 
-f20998f23a8ce3ba56a06d9423ee57e92bae298c 673f0c3ffc75166317ca5edb66ff35eaa6a12149 refs/heads/usb-testing
+431c1646e1f86b949fa3685efc50b660a364c2b6 e2940928115e83d707b21bf00b0db7d6c15f8341 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwYsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MQP/A5wO7OOYBJ0/nPeFnaK
-mpQHviAPNzQ6isk4PmaoSa4AdLbirEgd/B/tcqzw9Ok43B8c3uOYrjMe47fxxVbw
-1/dzc2fp6aZvbxQ5pdHDXbconodeTroCGQA1O2Lzr8K91ZhOe8pAQzx9CPbfmyWj
-3gFBjPMqg0d96EdpC4+uKR5orPRpafg+X0Li1KNK88ibYtIRvijccMwVbshJd+GH
-dNm+0kN0YF403yxYGRd6U2IeGUZa3/nyrqK11aQP+hRF7GpkvgTtseDrfZrnsv3D
-Spu10MVOY0D/39TerL+wWPnGyzeLwMmmeZjAhq6ye1on/xCacos8lmtR+kg+y7F+
-yilRHj2JtZky+msSqF4TsgxINLt0aMxgomZa2CmjprNBmb91ABI+3vs+yMOqgsWU
-Dh9tXvj43W+c8I7iHVVyMGHvOyeDAHEiR/0RMpATP5ZjmeRuOJEteSLA2v0Sxh+3
-7ScGHpHaN9C+ikggzFeh8e1b/1RXGvIWTDyatrvAyL1CgK45WEyYAGZXWUW+x9GA
-hEi3uF3GcyDrwfcJbB3vU/rMj61lpDg6uCe8zQMOvOWJ9S9chICj9V7fE0N09MBc
-EXXE/yrjd5EDexEKrjVmoAw/pOb8NWlymLmaeHxKigLQTbmmRBOviI4HsOWd/sxD
-wUK/PgwRVosc+qk/8wyK/Ex2
-=htAe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbWwvgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DR0P/iAx8pEChIyPLwT5n6Mz
+rwA6pen1jfZR/+dPOPpjZTT7tDWSmCZo32ek8qyEpCO2F4E8g6UqCFeoQl8G2zdj
+D2kOaCG9ey4U+z2NoSUNv7J/8v16kCQyNH3wJWN0jNfXeKwcrydXILrlWjqDJXm8
+EE3x22iY2BrnZwBBZ5CSCJj7y//Y8yUYVxfiSW5gQftwJbK03nyhqR2IR65d6XLr
+ZAmpIWPRCj7+Sf0DEGbt4UoLOqaJaVxo7GKJQsa+R9n50BB1xuhoYylR9A3SWM8F
+9OEeR2iJwJx9d7BaPNLTuZXU9HBWLYeFtbo1j/YdLQVOY7eI6neLH8HaNmZZLYwn
+xxRbkAifK1QFz5HXfZxJWvMeuwE6UcCPGpSSzYX8trgUECjGc75UEd1+stlRkeF7
+uC4BkI+J7IdwXgeS7EaavIo6Gvz6AM8/PxIOx2HgxNfEycwQqlN0sxXS1h/uepVS
+4DA188SbCj7/uviiiw9oPONsjBVB0NYXA6xr8vFy372GiEdr8+stw24V4/hs1CqT
+jumTcDHONXv440N3IM8kxsYoiUA2Zap17rdr7TwnXnZn58rA25XhC2T7FZmUsCe4
+NdrQ6tfYycRz+6blt8QzGv4T10w1iiVcVqgxoI3i5mHALYqS6Sn189QOB6Xtwamx
+rcLN//NYOg7veM6B2Q8rgQzo
+=HhCU
 -----END PGP SIGNATURE-----
 
---===============6698391185181236681==--
+--===============1806220118730850971==--
