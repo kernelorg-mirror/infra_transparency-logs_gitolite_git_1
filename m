@@ -1,27 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 03 Sep 2024 13:28:36 -0000
-Message-Id: <172537011698.4123176.2623814903955551206@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3381507946554964618=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 03 Sep 2024 13:29:08 -0000
+Message-Id: <172537014804.4123476.2630440078230989781@gitolite.kernel.org>
+
+--===============3381507946554964618==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/perf/core
-    old: 5c2cc1ef7b1323f674551781ce72ed09ac4bb312
-    new: 0ce9cde4ba046e61d940772e4dfd4821b0920e34
+  - ref: refs/heads/fixes
+    old: ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb
+    new: 3067482790262518bd686ac830f9ffbad719f0e2
     log: |
-         22371fde7585c782f83faf0900b53b97711912b9 perf/core: Fix small negative period being ignored
-         a1288bf2002ed08f63b791f71a0bae19531ff15e uprobes: Revamp uprobe refcounting and lifetime management
-         c519e4b80662bd433dcf27c38e57fee8b9e86f99 uprobes: Protected uprobe lifetime with SRCU
-         bc10886d64d193b0df4d65e0a3a1e2b6dbb036be uprobes: Get rid of enum uprobe_filter_ctx in uprobe filter callbacks
-         0d509d08a6582fbb1dfc96d1a43e05f642308cac uprobes: Travers uprobe's consumer list locklessly under SRCU protection
-         ef4d722bb99fc53f4788512f7c51fd91fb4ca795 perf/uprobe: Split uprobe_unregister()
-         c876606a5c281bc322122aa25f360e11ae63c2f8 rbtree: Provide rb_find_rcu() / rb_find_add_rcu()
-         ca7cdb71f5596872818afc86b8ff0ca899cfbd0d uprobes: Perform lockless SRCU-protected uprobes_tree lookup
-         0ce9cde4ba046e61d940772e4dfd4821b0920e34 uprobes: Switch to RCU Tasks Trace flavor for better performance
+         fedab404f6c334ef6bfa46b63d6e4b97ca1d727b platform/x86: ideapad-laptop: Make the scope_guard() clear of its scope
+         3067482790262518bd686ac830f9ffbad719f0e2 platform/x86/amd: pmf: Make ASUS GA403 quirk generic
          
+
+--===============3381507946554964618==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1725370162 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1725370139-ca339b39cefb2c7c122b84f183d97f9261ed5f30
+
+ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb 3067482790262518bd686ac830f9ffbad719f0e2 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZtcPNwAKCRBZrE9hU+XO
+Ma5FAQCR/XbFK1Ov09re+IcVwdp8NgKpS4Fwib5xMJrO1DxcigD9GC8mHht6PCOI
+IdRW/CklGOfzlm8KgD/vkyqV7e6kLAU=
+=DGke
+-----END PGP SIGNATURE-----
+
+--===============3381507946554964618==--
