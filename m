@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4997269239336623762=="
+Content-Type: multipart/mixed; boundary="===============2128271922837968316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Sep 2024 15:27:35 -0000
-Message-Id: <172537725576.54659.5046044065196096786@gitolite.kernel.org>
+Date: Tue, 03 Sep 2024 15:31:57 -0000
+Message-Id: <172537751769.58498.6767443613101291372@gitolite.kernel.org>
 
---===============4997269239336623762==
+--===============2128271922837968316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 264af8a5b6ab54ecc5e0dde8012bb1852fab76cb
-    new: 725349e54fa76083ddc3660004422b60805c15c9
-    log: revlist-264af8a5b6ab-725349e54fa7.txt
+  - ref: refs/heads/10GbE
+    old: fbdaffe41adca26cb9566e92060b97cd6dd87b60
+    new: 54f1a107bd034e8d9052f5642280876090ebe31c
+    log: revlist-fbdaffe41adc-54f1a107bd03.txt
 
---===============4997269239336623762==
+--===============2128271922837968316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-264af8a5b6ab-725349e54fa7.txt
+Content-Disposition: attachment; filename=revlist-fbdaffe41adc-54f1a107bd03.txt
 
 74ce94ac38a6eac2ffc235739294f24964fd0a86 sfc: Convert to use ERR_CAST()
 f24f966feb62164f4a68d1b84e866504904ac4ac nfp: Convert to use ERR_CAST()
@@ -83,54 +83,5 @@ bd11198da8ac239c0e831ac476490fd38db9cc37 cxgb3: Remove unused declarations
 17d8aa831aa0d7335e86d544441bfdf65bb3497f cxgb4: Remove unused declarations
 f5f840de659b39e7b3f285a2bb5117dd27bf0912 cxgb: Remove unused declarations
 54f1a107bd034e8d9052f5642280876090ebe31c Merge branch 'cleanup-chelsio-driver-declarations'
-a39a44105162ed974c7957e96fdb872f6aaf55ef ice: add new VSI type for subfunctions
-fdabf066f910498f2e30c3c39bdb3abe3b27009f ice: export ice ndo_ops functions
-f98eee9513020b6cc6d77bd6ba866e381572c9a4 ice: add basic devlink subfunctions support
-8f962752b29c09b38aeed9ee03369ad1fe61356e ice: treat subfunction VSI the same as PF VSI
-821b8bf738c71b667515bb7a140c48a117ee9b83 ice: allocate devlink for subfunction
-7a79f49db2fc1ef89dbe2940264c00143429a22b ice: base subfunction aux driver
-d98bf73e25ba1a8df754d28101a1745a9cbe12b4 ice: implement netdev for subfunction
-a96ca52a80021ee9d2ab84c9b0d7e2a4a18db43f ice: make representor code generic
-b538ab8e0e5e431ae444b7b488cbca8a4e90c2e1 ice: create port representor for SF
-f3310810408cd798385a9b2c76dd7476e3297e97 ice: don't set target VSI for subfunction
-6e612e994acd80bef67c914eec3fe7ce2916e221 ice: check if SF is ready in ethtool ops
-c4f151486da25cf9335816641f921868174d2bb9 ice: implement netdevice ops for SF representor
-84428e04cd2de822ab727a5ae804a62a4b33c51a ice: support subfunction devlink Tx topology
-8154bc6da0e9c30dc5947b5137cc7bd3c8e0ea76 ice: basic support for VLAN in subfunctions
-14035fa36cf6ca4f24c8e29da84a672511d8f48d ice: allow to activate and deactivate subfunction
-216719250412743d0a1c5afb4479d708eb4767bc igc: Get rid of spurious interrupts
-113eed03da064533a3dc50698ad83c1d18778393 igc: Add MQPRIO offload support
-0d9bbef7d82172936734576aca4fce4e0ba6e536 ice: Fix lldp packets dropping after changing the number of channels
-941e19450b85ffc12b31276d6f46a8ca09c31050 ice: Implement ice_ptp_pin_desc
-3425fe440cf0196fa937147f71c1f64e6715fffb ice: Add SDPs support for E825C
-54fcf8872a29fa287bfb1303a0543bcdbbd2494c ice: Align E810T GPIO to other products
-6ada4ca18a9ee45d3bfdc0083374f58a653478fc ice: Cache perout/extts requests and check flags
-87c2406d88597749f7a2aa2f7e3dc83ab13a6fba ice: Disable shared pin on E810 on setfunc
-2d8bdb8365229ea7f411c088c0c9c6ae44618357 ice: Read SDP section from NVM for pin definitions
-7bdda020cfe0841fe8580bdb51d49b02d1732160 ice: Enable 1PPS out from CGU for E825C products
-4af1408d799ad186aabe0d1c516893ec26c3e6d1 igc: Add Energy Efficient Ethernet ability
-ecfdf944e9be243b004d440a44476a6d6eeea45a ice: fix accounting for filters shared by multiple VSIs
-b1f3675cdccf7d00ec534d37761accd492e91c29 ice: Flush FDB entries before reset
-607da37597dbe3d2b1892667c42f958a60d95938 ice: Implement ethtool reset support
-a03b6a60572baa2f7c1b2f041842f4e4d3b86756 e1000e: avoid failing the system during pm_suspend
-4ebbde2f848f6f2167eb7e6d3346e52d39fde59d igb: Fix not clearing TimeSync interrupts for 82580
-8ede63d3a7815443e51538a8c028465c44ee633c ice: set correct dst VSI in only LAN filters
-a97705ab1a95fa07932feb390603c6416587f638 igc: Move the MULTI GBT AN Control Register to _regs file
-af03b1d77e18174a36f9240ad55db6e535e80796 i40e: Add Energy Efficient Ethernet ability for X710 Base-T/KR/KX cards
-bdc6d35d6bc7c988378636219a1344260a05be0c ice: Add netif_device_attach/detach into PF reset flow
-44c03eb666974255e53f961f3d8185864529bc26 igb: Always call igb_xdp_ring_update_tail() under Tx lock
-a3567caed876bdab9acaea853770499775316b56 ice: add E830 HW VF mailbox message limit support
-2651a5e7703259e9f857b9e6cc52df426bb9c0ab ice: Introduce ice_get_phy_model() wrapper
-6ff4768f4b44a1eee777b5a895d11b90997980e9 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
-50dcb5f0b6fd243bfecfcff9de5d7f0ac1855877 ice: Initial support for E825C hardware in ice_adapter
-c9ed86b77907e510cf24b3e6006d8c73b6c6e9af ice: Use ice_adapter for PTP shared data instead of auxdev
-5c82c80163fd89ccde69f5ece5b080ab4caa51dd ice: Drop auxbus use for PTP to finalize ice_adapter move
-2d02424afea44555698fdfaa3b62df7d6a8b6d30 checkpatch: don't complain on _Generic() use
-ab005f4458085194187f2a00686c921ed51d12fc devlink: add devlink_fmsg_put() macro
-33fe853ff77caa8e6657347ed721fef26e62c507 devlink: add devlink_fmsg_dump_skb() function
-44e6c041aa1067a0eb2d21f07d20b9541fc745ea ice: add Tx hang devlink health reporter
-7c9f9516935031ef01c993fdd2095a0267dbf737 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-1f4f0eda6dfd32e4fe6cf63c3b2d6f77f6076dd2 ice: Add MDD logging via devlink health
-725349e54fa76083ddc3660004422b60805c15c9 ice: fix BST key index in ice_bst_key_init()
 
---===============4997269239336623762==--
+--===============2128271922837968316==--
