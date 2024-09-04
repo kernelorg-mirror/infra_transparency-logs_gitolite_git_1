@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 04 Sep 2024 17:57:03 -0000
-Message-Id: <172547262354.1654650.15418427295494307687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 04 Sep 2024 18:03:59 -0000
+Message-Id: <172547303988.1659602.9974171033368989867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/for-6.11-rc5-tag
-    old: 699e4f7a35424571d685f4e17538b9ee997ed7d8
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kdevops
+    old: 05890502671184c63d533634d113855f041519aa
+    new: e65e3a8ea98cbde6f6fb6a6c081975c0572fb0f6
+    log: |
+         e65e3a8ea98cbde6f6fb6a6c081975c0572fb0f6 DEBUG: look at change attr handling
+         
