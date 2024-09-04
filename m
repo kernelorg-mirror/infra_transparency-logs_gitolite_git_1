@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Sep 2024 22:25:13 -0000
-Message-Id: <172548871333.1884947.15246109819327420858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
+Date: Wed, 04 Sep 2024 22:29:00 -0000
+Message-Id: <172548894094.1886871.14566033771343657124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/kbusch/linux
+user: kbusch
 changes:
-  - ref: refs/heads/npem
-    old: 7f9dd658f56d4a2747f977aec1e7757412bfc10b
-    new: 86490d228610361825bd2f8dee1e24cb6b61539f
+  - ref: refs/heads/nvme-meta-sgl
+    old: ff269b4c2cb352f0b1ff88587a0f3ea1f523a025
+    new: 0403cb7d2294507405e9d0f86ab9e3d214d8c30b
     log: |
-         78efa53e715e21a97c722dba20f8437a0860521e leds: Init leds class earlier
-         4e893545ef8712d25f3176790ebb95beb073637e PCI/NPEM: Add Native PCIe Enclosure Management support
-         86490d228610361825bd2f8dee1e24cb6b61539f PCI/NPEM: Add _DSM PCIe SSD status LED management
+         53f91607ce7afc25bf1a3f9634d6dbd3462e6fa7 nvme-pci: add support for sgl metadata
+         0403cb7d2294507405e9d0f86ab9e3d214d8c30b nvme: force sgls on user passthrough if possible
          
