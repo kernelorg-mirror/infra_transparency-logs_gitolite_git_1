@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4527537146987449639=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 04 Sep 2024 18:19:22 -0000
-Message-Id: <172547396288.1672459.11650005142883505599@gitolite.kernel.org>
-
---===============4527537146987449639==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 04 Sep 2024 18:20:16 -0000
+Message-Id: <172547401625.1674840.2180027363811488611@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: d6969d201a0a6ebe2bc0c3afea8847d16501f949
-    new: e480ff2a271fc4d9998c122b7622412e9742e537
+  - ref: refs/heads/review-hans
+    old: a8a2253e84dc62b0d50943408c480188a0086263
+    new: bb9c2e5492a88e255305d0dfae33e34f0e8bbec6
     log: |
-         e480ff2a271fc4d9998c122b7622412e9742e537 proposed: Add Allen's v6.10.7 results
+         298c9babadb83844632144369cc6bb2a43221aea x86/platform/geode: switch GPIO buttons and LEDs to software properties
+         d9dca215708d32e7f88ac0591fbb187cbf368adb platform/x86: lenovo-ymc: Ignore the 0x0 state
+         8022ae2c435f09f029a68235e3bb49e1e0b5b686 Documentation: admin-guide: pm: Add efficiency vs. latency tradeoff to uncore documentation
+         bb516dc79c4a6334d5ef6bdbd0d262cf8be9db8e platform/x86/intel-uncore-freq: Add support for efficiency latency control
+         24b6616355f7eb2a839776578b104a0348b4f77f platform/x86/intel-uncore-freq: Add efficiency latency control to sysfs interface
+         a093cb667c3ff5eadd4b23ddf996d9ccae9b7ac6 platform/x86: ideapad-laptop: Make the scope_guard() clear of its scope
+         bb9c2e5492a88e255305d0dfae33e34f0e8bbec6 platform/x86: x86-android-tablets: Fix spelling in the comments
          
-
---===============4527537146987449639==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725473982 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725473960-1abdf37508d3d975c061519a99e90c3b11702011
-
-d6969d201a0a6ebe2bc0c3afea8847d16501f949 e480ff2a271fc4d9998c122b7622412e9742e537 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbYpL4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JfIQAJUyl5PY0jClKUjBdWrJ
-/HhdVqSGhs3uO/Xwl8W6YWGwf9zv5cOaQvxecI8xb/eMdLD107cAb78WMt25ieYU
-YRCqgcJuC+99QKgbllHTRzFk0gnRopWIQb7dkpF/w9/LgxG1c24+ekr14WTromZ3
-2FsZ0KcdXaVcNsNDsSc6UI5ZV4dWudwpP3O4wbSa9EvpnGvo+aEc/FnTwUp7gU73
-dH7EW56SbnejpE54QKK+TEJt0TAyKPWPwXleO4fwY3lfbBrNLy8TZkREStG8u1h0
-960n9H8lJEnW25b3EhkDEdsI+aARFBlI3pwIipFKDQ4HLD1aJ8zRXKxW+edhNYUw
-/qL/baoLcQ4HLW/pY2XiWZQnBVi4YKEaPbbs1FO650njtYhUMeYMqDrbB/bSgNmm
-DJ1vf3CL2gxJjkw24MOYJkA9gK+6ZHG00JLdf0gB3bN+/Ne0r+HMXKTBrFin4y7l
-PkYbOZInkOAjFuqk6e/izoNE8kgbTWbHiPI1gtnZU4/ghj4soYro7twdQHhbZuEe
-/tETr36JbJew77LhATu8Rsrm9zU0OOIzfVK2KkbQXLGiIzyMcdq5GL5KutadSfq8
-tnZ9BaK9OWLwyMbm7XEo8Jz+x7LVwrw7Lqes0wfORz3c63wzXBG+0sAle94iOfhR
-w7hRiU+OilacRppq4jOzF5Lj
-=DV86
------END PGP SIGNATURE-----
-
---===============4527537146987449639==--
