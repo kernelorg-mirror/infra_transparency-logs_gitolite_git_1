@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Sep 2024 14:57:59 -0000
-Message-Id: <172546187928.1485633.16488232442759936462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 04 Sep 2024 14:58:14 -0000
+Message-Id: <172546189461.1485834.9831745187472760043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/dt-bindings
-    old: b9fe09a1b293429f456115dae8cf9cecb82b5d13
-    new: f66b63ef10d65cf8ce57a7341262308443705628
+  - ref: refs/heads/wip
+    old: 2a1850421d83e7cf2523c48919840996380ae912
+    new: c818fc44647e807be729a033ca455ea2abb96e78
     log: |
-         f66b63ef10d65cf8ce57a7341262308443705628 dt-bindings: PCI: layerscape-pci: Change property 'fsl,pcie-scfg' type
+         e080fc8bec4d674cb8eb26ef0a0432f88bd65dd0 f2fs: get rid of online repaire on corrupted directory
+         c818fc44647e807be729a033ca455ea2abb96e78 f2fs: fix to check atomic_file in f2fs ioctl interfaces
          
