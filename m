@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 04 Sep 2024 13:03:46 -0000
-Message-Id: <172545502678.1383736.16244997184016326428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 04 Sep 2024 13:05:00 -0000
+Message-Id: <172545510035.1384788.13648038486172211427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: f76e3525acf395f22712fc9120de555fb4b1a52f
-    new: 98ad0b77323ce8c216e5a505fda6b2ea53299231
+  - ref: refs/heads/review-hans
+    old: 66cb96af8394e016df90f51c637b78b59e3429d7
+    new: 1bda29aef6e19662496244b2b3f7eb2a6edf0cd5
     log: |
-         70b27c756f95156f51b1e28ec7d1b16a539d5487 perf parse-events: Add default_breakpoint_len helper
-         fa6cc3f932584a5fb5eedd2261fdf0058e1d8828 perf parse-events: Vary default_breakpoint_len on i386 and arm64
-         1a5efc9e13f357abc396dbf445b25d08914c8060 libsubcmd: Don't free the usage string
-         98ad0b77323ce8c216e5a505fda6b2ea53299231 perf check: Introduce 'check' subcommand
+         d2b27d8eb8795736358706c3c5ab3b572f641d3a platform/x86: int3472: Use GPIO_LOOKUP() macro
+         1bda29aef6e19662496244b2b3f7eb2a6edf0cd5 platform/x86: int3472: Use str_high_low()
          
