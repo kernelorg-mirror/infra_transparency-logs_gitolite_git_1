@@ -1,90 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5093350971951049467=="
+Content-Type: multipart/mixed; boundary="===============7263437512436133576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Wed, 04 Sep 2024 12:18:53 -0000
-Message-Id: <172545233386.1344584.9347348562037572551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 04 Sep 2024 12:22:46 -0000
+Message-Id: <172545256676.1348623.17611491903662993284@gitolite.kernel.org>
 
---===============5093350971951049467==
+--===============7263437512436133576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: e75a02441ff7647d8e64e37a264a7a228b7f4ab9
-    new: 9cfde354710dc4e4e26d0ede38b31be77cef4b00
-    log: revlist-e75a02441ff7-9cfde354710d.txt
-  - ref: refs/heads/next
-    old: 8b3100a624e98069129363b64bd9055cfa77fd2c
-    new: abc82afb6cdcccdb70e952f65cda6abef3b4f1b7
-    log: revlist-8b3100a624e9-abc82afb6cdc.txt
+  - ref: refs/heads/controller/brcmstb
+    old: 551a928636b907e1a7508e1a0abb379873f32180
+    new: f35b175713c1413d9bfecd7927ebd1a9586e930f
+    log: revlist-551a928636b9-f35b175713c1.txt
 
---===============5093350971951049467==
+--===============7263437512436133576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e75a02441ff7-9cfde354710d.txt
+Content-Disposition: attachment; filename=revlist-551a928636b9-f35b175713c1.txt
 
-04f4f33c941c221645d2a58b46f4d698b0f5aa39 iommu: Use of_property_present()
-fdc39b77db95e36f6b4d3c006a2642b9f47510c5 iommu/amd: Update event log pointer as soon as processing is complete
-53f1fb0c46f0e3ebf13b76697b67782f65fc3f69 iommu/amd: Make amd_iommu_is_attach_deferred() static
-95eb6a05124f9a206f009a21c9a0a9f320859b6c iommu/amd: Remove unused DTE_GCR3_INDEX_* macros
-293aa9ec694e633bff83ab93715a2684e15fe214 iommu/amd: Handle error path in amd_iommu_probe_device()
-845bd6ac43422671778120ec082d7ddcab035a1f iommu/amd: Make amd_iommu_dev_flush_pasid_all() static
-964877dc26232835d4465d9565399fe8ca4525e8 iommu/amd: Make amd_iommu_domain_flush_complete() static
-a3303762eb80fe03479962470a81b9176fc24f8e iommu/amd: Rework amd_iommu_update_and_flush_device_table()
-89ffb2c3c2a1d0bff5515fc53f93de86fb6753c0 iommu/amd: Make amd_iommu_dev_update_dte() static
-8d00b77a52ef4b2091696ca25753d0ab95e4d839 iommu/amd: Move allocation of the top table into v1_alloc_pgtable
-b0a6c883bcd42eeb0850135e529b34b64d57673c iommu/amd: Allocate the page table root using GFP_KERNEL
-7a41dcb52f9de6079621fc31c3b84c7fc290934b iommu/amd: Set the pgsize_bitmap correctly
-322d889ae7d39f8538a6deac35869aa3be1855bd iommu/amd: Remove amd_iommu_domain_update() from page table freeing
-1ed2d21d471caf2e4351c2e8bb14143bc8062092 iommu/amd: Remove the amd_iommu_domain_set_pt_root() and related
-670b57796c5dc1ca58912132cad914cf4b3c0cdd iommu/amd: Rename struct amd_io_pgtable iopt to pgtbl
-977fc27ca7f8a83b67ccd91264ac56b0fb996f51 iommu/amd: Remove amd_io_pgtable::pgtbl_cfg
-47f218d108950984b24af81f66356ceda380eb74 iommu/amd: Store the nid in io_pgtable_cfg instead of the domain
-9ac0b3380acdece01fa1b361687e3cd988831c55 iommu/amd: Narrow the use of struct protection_domain to invalidation
-485534bfccb23e1c3e5915aca9acce1ecdc07a3f iommu/amd: Remove conditions from domain free paths
-a06dcb6b7897152e4dafdc9d4d84e9a35d0ae94a iommu/amd: Fix typo of , instead of ;
-c435209f7203d90676e9eeae6c1b2d375fbf0304 iommu/amd: Remove the confusing dummy iommu_flush_ops tlb ops
-7e515866299d1d01db6c2bbbc8045218c099ba1f iommu/amd: Correct the reported page sizes from the V1 table
-2910a7fa1be090fc7637cef0b2e70bcd15bf5469 iommu/amd: Do not set the D bit on AMD v2 table entries
-abc82afb6cdcccdb70e952f65cda6abef3b4f1b7 Merge branches 'arm/smmu', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
-9cfde354710dc4e4e26d0ede38b31be77cef4b00 Merge branch 'next'
+8a4db021b9445dd019f1b4e9466c5812ddf9e63a dt-bindings: PCI: brcm,stb-pcie: Change brcmstb maintainer and cleanup
+c64e40caf9eab6bbd3f37d106472723349853b4f dt-bindings: PCI: brcm,stb-pcie: Use maxItems for reset controllers
+56d020296a122f814b65f3fb5b3f90d7c4533042 dt-bindings: PCI: brcm,stb-pcie: Add 7712 SoC description
+64706ba771f5e8f05b26a1293beed23e83a81b25 PCI: brcmstb: Use common error handling code in brcm_pcie_probe()
+2771b00f8a62f63c6841ea7e5cc1fea13fe25c54 PCI: brcmstb: Use bridge reset if available
+9b4f3588a371bf05eddb72a460a23847ea120a23 PCI: brcmstb: Use swinit reset if available
+9e3d5cdf1d5475aa83b431666138faa6eb153282 PCI: brcmstb: PCI: brcmstb: Make HARD_DEBUG, INTR2_CPU_BASE offsets SoC-specific
+490b11ccead8cffe474bee275ce6b9a7068a892f PCI: brcmstb: Remove two unused constants from driver
+ed36fb877b148f9fcb1896ccab29cb0af2057a7e PCI: brcmstb: Don't conflate the reset rescal with PHY ctrl
+e958640f937ecc76488bbd79bf73e53bbfbc95a0 PCI: brcmstb: Refactor for chips with many regular inbound windows
+680ec7073a2a84dac696743251e6156b75248ce4 PCI: brcmstb: Check return value of all reset_control_* calls
+00402c726d9438ca03da224bfc55bf7e8b393fab PCI: brcmstb: Change field name from 'type' to 'soc_base'
+f35b175713c1413d9bfecd7927ebd1a9586e930f PCI: brcmstb: Enable 7712 SoCs
 
---===============5093350971951049467==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b3100a624e9-abc82afb6cdc.txt
-
-04f4f33c941c221645d2a58b46f4d698b0f5aa39 iommu: Use of_property_present()
-fdc39b77db95e36f6b4d3c006a2642b9f47510c5 iommu/amd: Update event log pointer as soon as processing is complete
-53f1fb0c46f0e3ebf13b76697b67782f65fc3f69 iommu/amd: Make amd_iommu_is_attach_deferred() static
-95eb6a05124f9a206f009a21c9a0a9f320859b6c iommu/amd: Remove unused DTE_GCR3_INDEX_* macros
-293aa9ec694e633bff83ab93715a2684e15fe214 iommu/amd: Handle error path in amd_iommu_probe_device()
-845bd6ac43422671778120ec082d7ddcab035a1f iommu/amd: Make amd_iommu_dev_flush_pasid_all() static
-964877dc26232835d4465d9565399fe8ca4525e8 iommu/amd: Make amd_iommu_domain_flush_complete() static
-a3303762eb80fe03479962470a81b9176fc24f8e iommu/amd: Rework amd_iommu_update_and_flush_device_table()
-89ffb2c3c2a1d0bff5515fc53f93de86fb6753c0 iommu/amd: Make amd_iommu_dev_update_dte() static
-8d00b77a52ef4b2091696ca25753d0ab95e4d839 iommu/amd: Move allocation of the top table into v1_alloc_pgtable
-b0a6c883bcd42eeb0850135e529b34b64d57673c iommu/amd: Allocate the page table root using GFP_KERNEL
-7a41dcb52f9de6079621fc31c3b84c7fc290934b iommu/amd: Set the pgsize_bitmap correctly
-322d889ae7d39f8538a6deac35869aa3be1855bd iommu/amd: Remove amd_iommu_domain_update() from page table freeing
-1ed2d21d471caf2e4351c2e8bb14143bc8062092 iommu/amd: Remove the amd_iommu_domain_set_pt_root() and related
-670b57796c5dc1ca58912132cad914cf4b3c0cdd iommu/amd: Rename struct amd_io_pgtable iopt to pgtbl
-977fc27ca7f8a83b67ccd91264ac56b0fb996f51 iommu/amd: Remove amd_io_pgtable::pgtbl_cfg
-47f218d108950984b24af81f66356ceda380eb74 iommu/amd: Store the nid in io_pgtable_cfg instead of the domain
-9ac0b3380acdece01fa1b361687e3cd988831c55 iommu/amd: Narrow the use of struct protection_domain to invalidation
-485534bfccb23e1c3e5915aca9acce1ecdc07a3f iommu/amd: Remove conditions from domain free paths
-a06dcb6b7897152e4dafdc9d4d84e9a35d0ae94a iommu/amd: Fix typo of , instead of ;
-c435209f7203d90676e9eeae6c1b2d375fbf0304 iommu/amd: Remove the confusing dummy iommu_flush_ops tlb ops
-7e515866299d1d01db6c2bbbc8045218c099ba1f iommu/amd: Correct the reported page sizes from the V1 table
-2910a7fa1be090fc7637cef0b2e70bcd15bf5469 iommu/amd: Do not set the D bit on AMD v2 table entries
-abc82afb6cdcccdb70e952f65cda6abef3b4f1b7 Merge branches 'arm/smmu', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
-
---===============5093350971951049467==--
+--===============7263437512436133576==--
