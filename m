@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Sep 2024 23:33:39 -0000
-Message-Id: <172549281959.1940415.12744747711526314884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Sep 2024 23:36:15 -0000
+Message-Id: <172549297511.1943499.11753629973004699972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4963d2343af81f493519f9c3ea9f2169eaa7353a
-    new: 7e4196935069947d8b70b09c1660b67b067e75cb
+    old: 7808012003004b5b31e24795af33480d5eed20f1
+    new: 1705341485ff1eec097dfa26891d03afe5907e16
     log: |
-         7e4196935069947d8b70b09c1660b67b067e75cb fou: Fix null-ptr-deref in GRO.
+         1705341485ff1eec097dfa26891d03afe5907e16 net: mana: Improve mana_set_channels() in low mem conditions
          
