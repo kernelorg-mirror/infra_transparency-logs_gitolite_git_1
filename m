@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8506222403187961046=="
+Content-Type: multipart/mixed; boundary="===============4169558927809312244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 04 Sep 2024 16:38:16 -0000
-Message-Id: <172546789602.1584434.5549060944362814037@gitolite.kernel.org>
+Date: Wed, 04 Sep 2024 16:38:19 -0000
+Message-Id: <172546789933.1584535.10916671079956438461@gitolite.kernel.org>
 
---===============8506222403187961046==
+--===============4169558927809312244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
+  - ref: refs/heads/delstid
     old: 4a3bc33e07e15d328cfb93355014354f459e0fab
     new: bda5f7c8848e4917b3341883bc6c327d9a1d1874
     log: revlist-4a3bc33e07e1-bda5f7c8848e.txt
 
---===============8506222403187961046==
+--===============4169558927809312244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -292,4 +292,4 @@ d44882ca0d46f91a7bd7489b6964c93051d5e5a1 fs: handle delegated timestamps in seta
 824ebd5a7c504e237f7ed58d5adfde9fdfbf740f nfsd: handle delegated timestamps in SETATTR
 bda5f7c8848e4917b3341883bc6c327d9a1d1874 nfsd: fix handling of delegated change attr in CB_GETATTR
 
---===============8506222403187961046==--
+--===============4169558927809312244==--
