@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============1011654925576066859=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 04 Sep 2024 11:57:16 -0000
-Message-Id: <172545103694.1325823.13742386770256549654@gitolite.kernel.org>
-
---===============1011654925576066859==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 04 Sep 2024 11:57:27 -0000
+Message-Id: <172545104748.1325979.2139030544730263402@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,28 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 3c34f6c16c326943967ee8e5641f665c589b9acf
-    new: 90a0af017901f16b1bc56ef9ada08aef7379df8b
-    log: revlist-3c34f6c16c32-90a0af017901.txt
-
---===============1011654925576066859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c34f6c16c32-90a0af017901.txt
-
-9c602adb799e72ee537c0c7ca7e828c3fe2acad6 sched/deadline: Fix schedstats vs deadline servers
-75b6499024a6c1a4ef0288f280534a5c54269076 sched/fair: Properly deactivate sched_delayed task upon class change
-7d2180d9d943d31491d77e336557f33670cfe7fd sched: Use set_next_task(.first) where required
-dae4320b29f0bbdae93f7c1f6f80b19f109ca0bc sched: Fixup set_next_task() implementations
-4686cc598f669dea1b50dde1568e6c65c355bc67 sched: Clean up DL server vs core sched
-260598f142c34811d226fdde5ab0346b48181439 sched: Split up put_prev_task_balance()
-fd03c5b8585562d60f8b597b4332d28f48abfe7d sched: Rework pick_next_task()
-436f3eed5c69c1048a5754df6e3dbb291e5cccbd sched: Combine the last put_prev_task() and the first set_next_task()
-bd9bbc96e8356886971317f57994247ca491dbf1 sched: Rework dl_server
-b2d70222dbf2a2ff7a972a685d249a5d75afa87f sched: Add put_prev_task(.next)
-8cdd9e62bc2f7e6a0c755243787d382abdab88de sched/core: Introduce SM_IDLE and an idle re-entry fast-path in __schedule()
-90a0af017901f16b1bc56ef9ada08aef7379df8b sched/fair: Move effective_cpu_util() and effective_cpu_util() in fair.c
-
---===============1011654925576066859==--
+  - ref: refs/heads/perf/core
+    old: bc70687ade2ea5d94270fbfd5afabfcc43709838
+    new: efd323ddf524d02f523a5c00144e91055483a30b
+    log: |
+         545a42b69d52ef071ffc246aeb86955d5616c460 perf/core: Fix small negative period being ignored
+         b00a8383267cfe7702ea4043e70581f18bdaa354 bpf: Fix use-after-free in bpf_uprobe_multi_link_attach()
+         dcf9391c2089c8ed72d9874bb6946c1f72e105a6 uprobes: revamp uprobe refcounting and lifetime management
+         3b2e7aeb6026380c83b1a061954c2aa1f903f3a5 uprobes: protected uprobe lifetime with SRCU
+         cae449d9b00c9ebebdb6a14f36f9025cca7a01f5 uprobes: get rid of enum uprobe_filter_ctx in uprobe filter callbacks
+         9b3e8614b1218b5dd936af54772d635df0e627ae uprobes: travers uprobe's consumer list locklessly under SRCU protection
+         9d6348638ad8b20bae4c574a0c39426ebbc0f227 perf/uprobe: split uprobe_unregister()
+         81c6d3faab292bbf9e5cc238faef0aa3b2ee0ab8 rbtree: provide rb_find_rcu() / rb_find_add_rcu()
+         d4990e9ba8459a15844bca05349ede41d0ad33b3 uprobes: perform lockless SRCU-protected uprobes_tree lookup
+         efd323ddf524d02f523a5c00144e91055483a30b uprobes: switch to RCU Tasks Trace flavor for better performance
+         
