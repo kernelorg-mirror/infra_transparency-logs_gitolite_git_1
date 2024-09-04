@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 04 Sep 2024 00:24:33 -0000
-Message-Id: <172540947305.521941.17693872896974773096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Sep 2024 00:30:17 -0000
+Message-Id: <172540981721.528356.11131737863117632288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 38af835d5893e83b31db51c38178d5d52e687fef
-    new: bbb1b85002cfb6d1daa7cfadacc53b8a2d40c84e
+  - ref: refs/heads/main
+    old: 9748229c90dc4974f56874a2a19e040cc86de67e
+    new: 3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5
     log: |
-         bbb1b85002cfb6d1daa7cfadacc53b8a2d40c84e patches/next: rebase to latest mm-unstable
+         6c76474fc1ceac25ee26b563954e48b6bb94fe77 qlcnic: Remove unused declarations
+         3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5 be2net: Remove unused declarations
          
