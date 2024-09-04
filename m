@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5903979953779976544=="
+Content-Type: multipart/mixed; boundary="===============3821184977302201701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 04 Sep 2024 00:52:15 -0000
-Message-Id: <172541113595.545389.1597638949384097550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 04 Sep 2024 00:52:17 -0000
+Message-Id: <172541113766.545468.6048428758640151791@gitolite.kernel.org>
 
---===============5903979953779976544==
+--===============3821184977302201701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
 
---===============5903979953779976544==
+--===============3821184977302201701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -207,4 +207,4 @@ c9f016e72b5cc7d4d68fac51f8e72c8c7a69c06e Merge tag 'x86-urgent-2024-09-01' of gi
 67784a74e258a467225f0e68335df77acd67b7ab Merge tag 'ata-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 88fac17500f4ea49c7bac136cf1b27e7b9980075 Merge tag 'fuse-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 
---===============5903979953779976544==--
+--===============3821184977302201701==--
