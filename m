@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8302052204248640952=="
+Content-Type: multipart/mixed; boundary="===============1571514435265248069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 04 Sep 2024 16:24:51 -0000
-Message-Id: <172546709177.1571529.6259388998989042979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 04 Sep 2024 16:34:58 -0000
+Message-Id: <172546769829.1581151.4852453760776088976@gitolite.kernel.org>
 
---===============8302052204248640952==
+--===============1571514435265248069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 88fac17500f4ea49c7bac136cf1b27e7b9980075
     new: c7fb1692dc0139f95bd4131d3d5fa5eba2ba569e
     log: revlist-88fac17500f4-c7fb1692dc01.txt
 
---===============8302052204248640952==
+--===============1571514435265248069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ e399257349098bf7c84343f99efb2bc9c22eb9fd mm/memcontrol: respect zswap.writeback 
 962da4d1be82889af5b9cc0f718e5eccfd93cd2d Merge tag 'parisc-for-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 c7fb1692dc0139f95bd4131d3d5fa5eba2ba569e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============8302052204248640952==--
+--===============1571514435265248069==--
