@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4867475143727405450=="
+Content-Type: multipart/mixed; boundary="===============5447004568858210699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Wed, 04 Sep 2024 18:44:45 -0000
-Message-Id: <172547548568.1695258.15684659113845350308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 04 Sep 2024 18:49:00 -0000
+Message-Id: <172547574089.1698851.15712552952103552665@gitolite.kernel.org>
 
---===============4867475143727405450==
+--===============5447004568858210699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/korg
-user: mricon
+repo: pub/scm/linux/security/vulns
+user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ed4582537c754624e28b7caf7123f336673384ac
-    new: db4189553bc27ac47752fe9ed6e6b1a320ca63cd
+    old: 02f6396052629056366fb5f108f99231ba1f1033
+    new: c6d9b6f9131445244d309baa385bde316af47f1f
     log: |
-         db4189553bc27ac47752fe9ed6e6b1a320ca63cd Add a section on FIDO2 devices
+         c6d9b6f9131445244d309baa385bde316af47f1f add 6.10.8 review from greg
          
 
---===============4867475143727405450==
+--===============5447004568858210699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1725475506 -0400
-pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
-nonce 1725475484-f34e4575c2d9a503e8590c73183d9cc7e9d9fa93
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725475762 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1725475740-57d35eabd7fdc028309b84959c4e6ea26d9d4b02
 
-ed4582537c754624e28b7caf7123f336673384ac db4189553bc27ac47752fe9ed6e6b1a320ca63cd refs/heads/master
+02f6396052629056366fb5f108f99231ba1f1033 c6d9b6f9131445244d309baa385bde316af47f1f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtiqsgAKCRC2xBzjVmSZ
-bIx0AQDV1NQACJDTaFNUCy2Fpv118o2AIVviyD5SJP7+DtaqrwD9HxoBiZJsbl7l
-mo1QNxAwMNuZ+p6FhXfunr766sb46QY=
-=7gND
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbYq7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S1EQALH2aBCVqVYZ/rDVBBv6
+si3tRPBQx1gzRgrFig3xH+WMtZijBRfMoPtN3gWekjYaKiNtDk3fW6kUTiLP6jMb
+s7fU7ccp4B3cIu3hDZ6wIfbEH0PbUC5RIuAzQNDrTwzktcoM6Yb8hh2ti4QSKYrP
+B+MbrDJxU/8061V9mMRtrGbbi1ChyOOuPZT4Y0LavKAg4BRwCdHhVHRUASvmKLPN
+FkpS50/SxcFgdggrogpWA+fN/dTljccFiLJ8pqdymsxByd9sp78QHB12IN8tSndh
+kNnaU8DZU/SLkQ8sL2ZgdF07jtF5hRP7ceS6z3xfOxdlWoQKDFAczhtw6ZEkQOK9
+0/5Aj2f5Ol8/r3aQYA1KnBisDqNxCGFDEoQMF3DrkHa5UKSMsHgu/+YYBWuvpQ+l
+r9Mo3m/eVcuQV8+ECoF2BuklGonp6rZUkrHwEGPhpjrtsn1G5KlsKDhyRvyeEwtK
+iKjsaPAIQiqCrL2XxhhMwcY66Lp7Lh6DeA4wBbgpzSXQUTNQLubZHxAT6ep0Gzmi
+t2JgGFX7/wwlywqVFotYr6hvl/CTQma2IHrw3JqAbgRMSeBGLcVkLTcILNf7QQXF
+1ObqnnmWza5TJ7AVb9G9ysTDAirN2N3IhHUHc0CtcpwONhgDwWjMm7f+vzJW8rzA
+wJN6Sz2BjL+P7gKa2jSqr56W
+=XUvT
 -----END PGP SIGNATURE-----
 
---===============4867475143727405450==--
+--===============5447004568858210699==--
