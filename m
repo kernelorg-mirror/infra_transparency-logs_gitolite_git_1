@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8019865842142554388=="
+Content-Type: multipart/mixed; boundary="===============7885223492920811600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 04 Sep 2024 11:15:12 -0000
-Message-Id: <172544851242.1108782.13974994520664772508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 04 Sep 2024 11:15:19 -0000
+Message-Id: <172544851937.1116743.4349109411597062006@gitolite.kernel.org>
 
---===============8019865842142554388==
+--===============7885223492920811600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 97688a9c5b1fd2b826c682cdfa36d411a5c99828
     new: 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6
     log: revlist-97688a9c5b1f-1324e5ff2eeb.txt
 
---===============8019865842142554388==
+--===============7885223492920811600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1725448531 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1725448509-cf5a1b4a042152bee736b752ff637a358112689f
+pusher C3F436CA30F5D8EB 1725448538 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1725448516-0ed86a6c539a6f159e76db79c6e937a2a712626c
 
-97688a9c5b1fd2b826c682cdfa36d411a5c99828 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 refs/heads/for-6.12
+97688a9c5b1fd2b826c682cdfa36d411a5c99828 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbYQVMACgkQJNaLcl1U
-h9DkfAgAgyyBbkXt3CLwml4vFECrWl7jn2gdPi24G+gCaSuf7G5hFvaBprb6xIBl
-mHzdhSYP+lBXk+AEDkEDkzLS7npcUkY9LhRlMVshUNbGH2VXVXWa2+Yrj0d6IjQE
-1QesMWzytp69pCR7v1T1gGEVUZPR64mABnNCQei0iGM0Ic7nh+lw/tYr6Xb7JZxe
-lHFZdKoNj+9lPA6bv+KGI0NIPdL2c8lY/XeKlrOm4hBcJBZnMsRTqwdzMsu/m766
-JvpSyzdXHd4g3ZSgN/m66Kq3kMmSua9YmJxMiXRh+yuwSA9C36Et2sPi9L8NTIiC
-nIESAld0E9iTBTJbh/wDs5diNSCv6A==
-=5dwG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbYQVoACgkQJNaLcl1U
+h9BgWQf+Lfnek1NuVZkjHAdgZIFtLihD+r1gHewNpcrWQAP9rDlKO5x5v0PsVIyM
+UgfEWLjpfEtoXlZu5o7DThCJwdBXowwjDz3K0k1CMawNsKMWgFGJor1ZKY2Py0pg
+pMuz+d035SkswJ9uxotnNFuelQ0So2MMEOLemtbQmTIpmhVS2sbqQuAsYsemy0zn
+LaKDAuXgBdDqCQkz+FS6bKVp/A8rAW+018lmk/Ls0peu3EbIiNICs3hfBRiNth9t
+omWU1GAm24oh9/AMV3sLTM0wBZenINE0WrsOH2FQu75VsP3pCfzIzfBJmAbzY7PG
+M5KpzHXCx/qxoj8PiTNZKZ61ztRQZw==
+=s63O
 -----END PGP SIGNATURE-----
 
---===============8019865842142554388==
+--===============7885223492920811600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ e1991d102bc2abb32331c462f8f3e77059c69578 ASoC: mediatek: mt8365: Add the AFE dri
 56f97d4da7f1bc2b0a647b9162bebe51e0573699 Fixes for the audio setup on the rk3588-nanopc-t6
 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 Add i2s/tdm support for acp7.0 and acp7.1 platforms
 
---===============8019865842142554388==--
+--===============7885223492920811600==--
