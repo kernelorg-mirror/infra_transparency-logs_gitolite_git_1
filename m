@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 04 Sep 2024 12:07:13 -0000
-Message-Id: <172545163327.1334801.1442254720314677311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Sep 2024 12:10:34 -0000
+Message-Id: <172545183477.1338349.4286559964847443147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/dev-test
-    old: a667755777ba7c73b2d9cc25c12e1fffcea06006
-    new: e96d85720f1f96debde8afdc1f277f1a1f9cf41e
+  - ref: refs/heads/main
+    old: ff09bc366fc45861b35dfeac97baadee16f65aec
+    new: 5c26516f090363b548c51ce892b8bcc46c7dcdbc
     log: |
-         e96d85720f1f96debde8afdc1f277f1a1f9cf41e erofs: handle overlapped pclusters out of crafted images properly
+         5c26516f090363b548c51ce892b8bcc46c7dcdbc selftests: add selftest for UDP SO_PEEK_OFF support
          
