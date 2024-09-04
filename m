@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7673671057230028725=="
+Content-Type: multipart/mixed; boundary="===============2196714640034429552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Sep 2024 12:02:53 -0000
-Message-Id: <172545137301.1330820.10052173352297965146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 04 Sep 2024 12:03:29 -0000
+Message-Id: <172545140973.1331167.13031209049380783625@gitolite.kernel.org>
 
---===============7673671057230028725==
+--===============2196714640034429552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/controller/imx6
-    old: 0c6f3834d535fb32e83472be3094a1e954184892
-    new: 3966f1073f1f32e1d81a324679f3aabe2569db10
-    log: revlist-0c6f3834d535-3966f1073f1f.txt
+  - ref: refs/heads/master
+    old: 71eb4c6cd674b9fc975160ce7afcb91ba65c271c
+    new: d6969d201a0a6ebe2bc0c3afea8847d16501f949
+    log: |
+         d6969d201a0a6ebe2bc0c3afea8847d16501f949 update some entries based on new stable kernels released.
+         
 
---===============7673671057230028725==
+--===============2196714640034429552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c6f3834d535-3966f1073f1f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b6e75e8ba81d80cdf3e5a1a3faf2a5766fec1287 PCI: imx6: Fix establish link failure in EP mode for i.MX8MM and i.MX8MP
-cab323aa3c7d720e1ddbd4c2c1dfdb2775b26eef PCI: imx6: Fix i.MX8MP PCIe EP's occasional failure to trigger MSI
-63a26d5bc1ccef8f02d38a63727eef1bb024bd43 PCI: imx6: Fix missing call to phy_power_off() in error handling
-c9436ecf311af25d8c0925e9f56948b48c6fe952 PCI: imx6: Rename imx6_* with imx_*
-dbedc6afa332183b4874af497be46a16c8d55bc1 PCI: imx6: Introduce SoC specific callbacks for controlling REFCLK
-91a95fc6cc35b025700f7e497f82adaea5df225d PCI: imx6: Simplify switch-case logic by involve core_reset callback
-660bb8931c5e1bc3bc040c78e3bacf9c5c0270fe PCI: imx6: Improve comment for workaround ERR010728
-35ce755da7dc2d786c585b53fb56ab828e408ef9 PCI: imx6: Consolidate redundant if-checks
-9b61b13f4174a855be7173abb5706aa9d4335ce9 dt-bindings: PCI: imx6q-pcie: Add i.MX8Q PCIe compatible string
-01744b5cd3fe45efe30fefd053b0ed07b5613654 PCI: imx6: Call common PHY API to set mode, speed, and submode
-3966f1073f1f32e1d81a324679f3aabe2569db10 PCI: imx6: Add i.MX8Q PCIe Root Complex (RC) support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725451426 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1725451404-72831a2786801bb83f42c90751e7c57d70d85262
 
---===============7673671057230028725==--
+71eb4c6cd674b9fc975160ce7afcb91ba65c271c d6969d201a0a6ebe2bc0c3afea8847d16501f949 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbYTKIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N64QAKLuGv1/FF3dmSxtebyO
+0VLeRLH6u2U1V0n+9Q84ZDl3QOZib3HtCTj6D2rodzmkfB6QbfnKfzIpOtyGFYFD
+8jFSo3ULJXLduS+BXW62ylhcjbJw+DGpiuRo+oIppcnAI2Mt7mrx4P70dSjmtxEj
+6aJKHW7/gBJ/hgTVv218dV0X/CkFS5GmfBpe2/uosWS0IrHwto0pYkQUVLD3g1gt
+IpMo9l+h9l2S5DD6FLKYuW14+IO3ydlRdCLZkPLmqVH6Ua+vbK/uL8ftTeyJTiRA
+jYvjoTZDwTcUNtjULQvNdP2bifRHQ6PdY/UhNnSNytarZ1j/eKXXPAcAQpa3hqW8
+WDzrNkGFNvoTdJUWDLT5BU2NiBWW4On8Ak1pfh8Xr1M4PV/9+b+V8I06siy+ht6W
+8I9FWacdhEstZEIgwiNMgG3cxmp5rxo+gNdindsmKp2HlXtr3I2GA2kJJnmlHKC0
+bxy3/V8zArftNsQ704vTfLHeU4lKwJL7GGz9HCSGhR38X2oVbMNSgui3PeMrW29c
+MBvKJ1e4rcqv4iyjV6+rK5x59TwiMRGqNPjJ9tFhphxw9aKDubYRvlms2MOX8FTV
+hulwALFjTNaSCF0wp8T2NnAl2KEGoOjHoM/ivkGB8V2vDTBJEKfRfXMPpZysd8Ql
+UDH+K6E+COvec6U6yZrsi53T
+=kwAN
+-----END PGP SIGNATURE-----
+
+--===============2196714640034429552==--
