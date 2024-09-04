@@ -1,25 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 Sep 2024 19:01:38 -0000
-Message-Id: <172547649874.1716501.15123840352245711465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 04 Sep 2024 19:01:46 -0000
+Message-Id: <172547650624.1716735.15190480005638892384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 015336905d233b6fd968b660501ed03b1cb7beb3
-    new: 116fbad011b82629e5241e2429c81cf3f03db9d7
+  - ref: refs/heads/for-next
+    old: 842cbde22e2d40a05f5bb0e4b4ed8b370d2aa097
+    new: 9e3f350857e4d7c98640488c9246bddc6b68d6ac
     log: |
-         3058401ef67aa3b461346c6e743df9ef7325db3e Fixes for 6.10
-         e52fbe17cb341864f5ffb4009049b80c2db6e40a Fixes for 6.6
-         6f766cb642e844432696f4c0643dcf77e9e636f2 Fixes for 6.1
-         ec18cd75a36d09a41eda33749b5c6216d47ef9f5 Fixes for 5.15
-         0311538119de029fb400686f8014bfa0d20fcd0e Fixes for 5.10
-         d2a7e269bed9a036be4a3802a5d46fbff969e33e Fixes for 5.4
-         116fbad011b82629e5241e2429c81cf3f03db9d7 Fixes for 4.19
+         01c007567944913c29e6e19af241d0ba4e59ce24 arm64: dts: rockchip: drop hp-pin-name property from audio card on nanopc-t6
+         f1f348158813f64cd772d6ff4a3df0704285c14c dt-bindings: arm: rockchip: Add Hardkernel ODROID-M2
+         ce48b8c976ce439c336def6e06bf8224a8ff9125 arm64: dts: rockchip: Add Hardkernel ODROID-M2
+         93f5fb809b8336143a6668c38dba1f4c7ffe5cab arm64: dts: rockchip: Add missing tshut props to tsadc on quartz64-b
+         13066fc101ca2deec1c9619e2f82ca437f38a6da arm64: dts: rockchip: Add RGA2 support to rk3588
+         bd60cae2932cd123d867bf93bdadc4bf545fcdce arm64: dts: rockchip: rk3588s fix sdio pins to pull up
+         3e5be1d7e7ef3dc5413e774e580f0c2d14aa6755 dt-bindings: arm: rockchip: Add GameForce Ace
+         4e946c447a043c88b5db38501f3af174989dcc94 arm64: dts: rockchip: Add GameForce Ace
+         2edb4f0ede44725ad88534e73ba15213cbc7d556 arm64: dts: rockchip: remove duplicate nodes from dts for ROCK 4SE
+         9e3f350857e4d7c98640488c9246bddc6b68d6ac Merge branch 'v6.12-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.12-armsoc/dts64
+    old: 78d500329b65217c45422ac0adf5c030783d3e58
+    new: 2edb4f0ede44725ad88534e73ba15213cbc7d556
+    log: |
+         01c007567944913c29e6e19af241d0ba4e59ce24 arm64: dts: rockchip: drop hp-pin-name property from audio card on nanopc-t6
+         f1f348158813f64cd772d6ff4a3df0704285c14c dt-bindings: arm: rockchip: Add Hardkernel ODROID-M2
+         ce48b8c976ce439c336def6e06bf8224a8ff9125 arm64: dts: rockchip: Add Hardkernel ODROID-M2
+         93f5fb809b8336143a6668c38dba1f4c7ffe5cab arm64: dts: rockchip: Add missing tshut props to tsadc on quartz64-b
+         13066fc101ca2deec1c9619e2f82ca437f38a6da arm64: dts: rockchip: Add RGA2 support to rk3588
+         bd60cae2932cd123d867bf93bdadc4bf545fcdce arm64: dts: rockchip: rk3588s fix sdio pins to pull up
+         3e5be1d7e7ef3dc5413e774e580f0c2d14aa6755 dt-bindings: arm: rockchip: Add GameForce Ace
+         4e946c447a043c88b5db38501f3af174989dcc94 arm64: dts: rockchip: Add GameForce Ace
+         2edb4f0ede44725ad88534e73ba15213cbc7d556 arm64: dts: rockchip: remove duplicate nodes from dts for ROCK 4SE
          
