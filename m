@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 04 Sep 2024 07:01:45 -0000
-Message-Id: <172543330550.838830.12801601298259158515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 04 Sep 2024 07:03:12 -0000
+Message-Id: <172543339241.839618.13026896858987492267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/dev
-    old: 6271bfd5f5baa704afe1a29a058bef71d2fecc5c
-    new: a667755777ba7c73b2d9cc25c12e1fffcea06006
+  - ref: refs/heads/gpio/for-next
+    old: e1df5d0229c37265e4a84a32e71690c5089d2f5b
+    new: 9f0127b9cea593a661004df948dc0b4479081c2e
     log: |
-         5f1783faf708c04ece7bc830ed186ead4ee446d8 erofs: support unencoded inodes for fileio
-         8772dc9cde67fa0a9136e313ae91023fe0b1d475 erofs: support compressed inodes for fileio
-         aa84c2308f1321723b99d9b49c87244c56cc7893 erofs: mark experimental fscache backend deprecated
-         489b1ba80b1aaa703089c098fdc4d52b6d06fffd erofs: use kmemdup_nul in erofs_fill_symlink
-         a667755777ba7c73b2d9cc25c12e1fffcea06006 erofs: refactor read_inode calling convention
+         a794331325f143bd010a91aa078547fee7fe907e gpio: stmpe: Fix IRQ related error messages
+         c028e1c5a414f03cd849912073db7c1927ec8d89 gpio: stmpe: Remove unused 'dev' member of struct stmpe_gpio
+         56f534dde6ff41eaf71f4e368953cb8da54cecc3 gpio: stmpe: Utilise temporary variable for struct device
+         e6815a05c0c909c8d6396bf41d0c06bc967f37bc gpio: stmpe: Make use of device properties
+         9f0127b9cea593a661004df948dc0b4479081c2e gpio: stmpe: Sort headers
          
