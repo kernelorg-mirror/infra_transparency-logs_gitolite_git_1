@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Wed, 04 Sep 2024 07:34:24 -0000
-Message-Id: <172543526480.865436.4713393472302824919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 04 Sep 2024 07:41:23 -0000
+Message-Id: <172543568340.872480.2163604386938915569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: b1d38b512aa3162b5089fbf6b02357ed5fdf5760
-    new: dd0d193ad8722140e240c95a4fd1e214077dd719
-    log: |
-         f786072a3e2928766a9b4f1b7d3372a601c259ea mdadm: Increase number limit in md device name to 1024.
-         dd0d193ad8722140e240c95a4fd1e214077dd719 imsm: save checkpoint prior to exit
-         
+  - ref: refs/heads/scx-pick_task
+    old: 0000000000000000000000000000000000000000
+    new: 9f7360fa7535bacf5166c7312dcbdb71b0c3817f
