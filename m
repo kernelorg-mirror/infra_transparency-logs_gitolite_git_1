@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 04 Sep 2024 21:08:40 -0000
-Message-Id: <172548412016.1822970.12491944737495044907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 04 Sep 2024 21:17:36 -0000
+Message-Id: <172548465682.1830581.10882684116315095736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: b4bcdff7e839237d89a2aa15b6042b96b0240ac4
-    new: f0a6ecebd858658df213d114b0530f8f0b96e396
+  - ref: refs/heads/master
+    old: ffb42837906395d24336f31798728a39fd23905a
+    new: cd0227e1b08edb6542162a21c0175b422ff319c0
     log: |
-         f0a6ecebd858658df213d114b0530f8f0b96e396 selftests/ftrace: Fix eventfs ownership testcase to find mount point
+         cd0227e1b08edb6542162a21c0175b422ff319c0 Wed Sep  4 05:16:54 PM EDT 2024
          
