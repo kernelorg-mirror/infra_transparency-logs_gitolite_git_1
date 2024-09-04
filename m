@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 04 Sep 2024 20:20:42 -0000
-Message-Id: <172548124217.1784669.14808409552525057210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 04 Sep 2024 20:20:45 -0000
+Message-Id: <172548124582.1784769.13480137409570616752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/scx-pick_task
-    old: 9f7360fa7535bacf5166c7312dcbdb71b0c3817f
-    new: 37cb049ef8b89e97d735f5cf7e34ef3f85ed6d94
+  - ref: refs/heads/master
+    old: 6fee7a7e9ad8613251d74472fb5bd2c6464f234a
+    new: df26ef274f76a658fe58821163ba30b651d582e1
     log: |
-         7c65ae81ea86a6ed8086e1a5651acd766187f19b sched_ext: Don't call put_prev_task_scx() before picking the next task
-         8b1451f2f723f845c05b8bad3d4c45de284338b5 sched_ext: Replace SCX_TASK_BAL_KEEP with SCX_RQ_BAL_KEEP
-         753e2836d139b43ab535718c5f17c73c284bb299 sched_ext: Unify regular and core-sched pick task paths
-         65aaf90569ffa283170243576c3982521d6cb193 sched_ext: Relocate functions in kernel/sched/ext.c
-         f422316d7466da7724f0662b7e282afbbca78e95 sched_ext: Remove switch_class_scx()
-         37cb049ef8b89e97d735f5cf7e34ef3f85ed6d94 sched_ext: Remove sched_class->switch_class()
+         23457b37ec3f9bb373d43cca61db371303726a1e selftests: bpf: Replace sizeof(arr)/sizeof(arr[0]) with ARRAY_SIZE
+         65ee11d9c8228c55491135a0c482a85da91e33f7 libbpf: Access first syscall argument with CO-RE direct read on s390
+         ebd8ad4748885dd244100a9fc86b4c612c711518 libbpf: Access first syscall argument with CO-RE direct read on arm64
+         3a913c4d62e18a08a7d74fcf68ae2cec7319904b selftests/bpf: Enable test_bpf_syscall_macro: Syscall_arg1 on s390 and arm64
+         13143c5816bc773a9759b5e45eb2b5d18a24ea84 libbpf: Fix accessing first syscall argument on RV64
+         df26ef274f76a658fe58821163ba30b651d582e1 Merge branch 'fix-accessing-first-syscall-argument-on-rv64'
          
