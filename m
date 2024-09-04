@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 04 Sep 2024 23:58:33 -0000
-Message-Id: <172549431393.1963745.1159771964429079397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 04 Sep 2024 23:59:12 -0000
+Message-Id: <172549435227.1964143.10580894225740825636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
+user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 9f18baf3dd656e7ca166038d51e0b54a892d87db
-    new: 7558c16f4c4ec95cbd33ba5f4e722ec708a08078
-    log: |
-         f558f968d3eb486fee547eb273f556625ad58637 Documentation: kbuild: explicitly document missing prompt
-         6aefa4aadb2954eb97f5a64d0a590be733c12681 kbuild: add debug package to pacman PKGBUILD
-         61ccb0ce015c9a9c54ecc810ab635ecae85b48e3 kbuild: remove recent dependency on "truncate" program
-         33c069a6bd22991639321fccdc4ad03a17267d51 ARC: update the help message for CONFIG_ARC_BUILTIN_DTB_NAME
-         7558c16f4c4ec95cbd33ba5f4e722ec708a08078 kbuild: compile constant module information only once
-         
+  - ref: refs/tags/omap-for-v6.12/soc-signed
+    old: e0a560a4f42c54ae61b799ea4437302b73dfab20
+    new: 270f932a2f4996ed1d272a62f46186e5a7456efe
