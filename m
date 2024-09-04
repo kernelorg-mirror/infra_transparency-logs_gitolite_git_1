@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 04 Sep 2024 23:58:11 -0000
-Message-Id: <172549429164.1963225.7898235709200338078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 04 Sep 2024 23:58:24 -0000
+Message-Id: <172549430480.1963561.552956297041667309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: 6ffa72acc9c933a065782cb49afde1130ca722f7
-    new: 2a7e41be085bbe50220b44a5964228625cda1487
+  - ref: refs/heads/kbuild
+    old: 18b7bcd8af813619941872e34b48db2e7ba3d7e0
+    new: 7558c16f4c4ec95cbd33ba5f4e722ec708a08078
     log: |
-         71f1fea4f65deeb0e1a4442fe661cfc5a541a036 ipv4: Unmask upper DSCP bits in __ip_queue_xmit()
-         97edbbaad30368c2e0219d21987ceba5a303ba5f ipv4: ipmr: Unmask upper DSCP bits in ipmr_queue_xmit()
-         de1fb3e8b053bf29ab366ae56b43659e87985928 ip6_tunnel: Unmask upper DSCP bits in ip4ip6_err()
-         c9a1e2629d10669e86b772add4fdea84252442da ipv6: sit: Unmask upper DSCP bits in ipip6_tunnel_bind_dev()
-         2a7e41be085bbe50220b44a5964228625cda1487 Merge branch 'unmask-upper-dscp-bits-part-3'
+         f558f968d3eb486fee547eb273f556625ad58637 Documentation: kbuild: explicitly document missing prompt
+         6aefa4aadb2954eb97f5a64d0a590be733c12681 kbuild: add debug package to pacman PKGBUILD
+         61ccb0ce015c9a9c54ecc810ab635ecae85b48e3 kbuild: remove recent dependency on "truncate" program
+         33c069a6bd22991639321fccdc4ad03a17267d51 ARC: update the help message for CONFIG_ARC_BUILTIN_DTB_NAME
+         7558c16f4c4ec95cbd33ba5f4e722ec708a08078 kbuild: compile constant module information only once
          
