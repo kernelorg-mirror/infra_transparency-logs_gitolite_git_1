@@ -1,24 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 04 Sep 2024 20:20:45 -0000
-Message-Id: <172548124582.1784769.13480137409570616752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 04 Sep 2024 20:24:54 -0000
+Message-Id: <172548149437.1787352.11785222310498104239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 6fee7a7e9ad8613251d74472fb5bd2c6464f234a
-    new: df26ef274f76a658fe58821163ba30b651d582e1
+  - ref: refs/heads/for-6.12
+    old: 37cb049ef8b89e97d735f5cf7e34ef3f85ed6d94
+    new: a4103eacc2ab408bb65e9902f0857b219fb489de
     log: |
-         23457b37ec3f9bb373d43cca61db371303726a1e selftests: bpf: Replace sizeof(arr)/sizeof(arr[0]) with ARRAY_SIZE
-         65ee11d9c8228c55491135a0c482a85da91e33f7 libbpf: Access first syscall argument with CO-RE direct read on s390
-         ebd8ad4748885dd244100a9fc86b4c612c711518 libbpf: Access first syscall argument with CO-RE direct read on arm64
-         3a913c4d62e18a08a7d74fcf68ae2cec7319904b selftests/bpf: Enable test_bpf_syscall_macro: Syscall_arg1 on s390 and arm64
-         13143c5816bc773a9759b5e45eb2b5d18a24ea84 libbpf: Fix accessing first syscall argument on RV64
-         df26ef274f76a658fe58821163ba30b651d582e1 Merge branch 'fix-accessing-first-syscall-argument-on-rv64'
+         61eeb9a90522da89b95a1f02060fd5a2caaae4df sched_ext: TASK_DEAD tasks must be switched out of SCX on ops_disable
+         a8532fac7b5d27b8d62008a89593dccb6f9786ef sched_ext: TASK_DEAD tasks must be switched into SCX on ops_enable
+         859dc4ec5a4321298d8978cb6eeb3e21a2eebab5 sched: Expose css_tg()
+         41082c1d1d2bf6c3e989785fd1def0f09cede446 sched: Make cpu_shares_read_u64() use tg_weight()
+         e179e80c5d4fef458c3cbc3ad4ea17c6d42c0446 sched: Introduce CONFIG_GROUP_SCHED_WEIGHT
+         8195136669661fdfe54e9a8923c33b31c92fc1da sched_ext: Add cgroup support
+         a4103eacc2ab408bb65e9902f0857b219fb489de sched_ext: Add a cgroup scheduler which uses flattened hierarchy
+         
+  - ref: refs/heads/for-next
+    old: 37cb049ef8b89e97d735f5cf7e34ef3f85ed6d94
+    new: a4103eacc2ab408bb65e9902f0857b219fb489de
+    log: |
+         61eeb9a90522da89b95a1f02060fd5a2caaae4df sched_ext: TASK_DEAD tasks must be switched out of SCX on ops_disable
+         a8532fac7b5d27b8d62008a89593dccb6f9786ef sched_ext: TASK_DEAD tasks must be switched into SCX on ops_enable
+         859dc4ec5a4321298d8978cb6eeb3e21a2eebab5 sched: Expose css_tg()
+         41082c1d1d2bf6c3e989785fd1def0f09cede446 sched: Make cpu_shares_read_u64() use tg_weight()
+         e179e80c5d4fef458c3cbc3ad4ea17c6d42c0446 sched: Introduce CONFIG_GROUP_SCHED_WEIGHT
+         8195136669661fdfe54e9a8923c33b31c92fc1da sched_ext: Add cgroup support
+         a4103eacc2ab408bb65e9902f0857b219fb489de sched_ext: Add a cgroup scheduler which uses flattened hierarchy
          
