@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4948365004277321279=="
+Content-Type: multipart/mixed; boundary="===============1259654497401353571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 04 Sep 2024 07:14:52 -0000
-Message-Id: <172543409248.848837.10378034753866535900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 04 Sep 2024 07:15:01 -0000
+Message-Id: <172543410185.849060.15928302197119729660@gitolite.kernel.org>
 
---===============4948365004277321279==
+--===============1259654497401353571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6804f0edbe7747774e6ae60f20cec4ee3ad7c187
     new: fdadd93817f124fd0ea6ef251d4a1068b7feceba
     log: revlist-6804f0edbe77-fdadd93817f1.txt
-  - ref: refs/heads/stable
-    old: 67784a74e258a467225f0e68335df77acd67b7ab
-    new: 88fac17500f4ea49c7bac136cf1b27e7b9980075
-    log: |
-         b18915248a15eae7d901262f108d6ff0ffb4ffc1 fuse: use unsigned type for getxattr/listxattr size truncation
-         97f30876c94382d1b01d45c2c76be8911b196527 fuse: check aborted connection before adding requests to pending list for resending
-         3002240d16494d798add0575e8ba1f284258ab34 fuse: fix memory leak in fuse_create_open
-         76a51ac00ca2a72fe3e168b7fb0e70f75ba6f512 fuse: clear PG_uptodate when using a stolen page
-         f7790d67785302b3116bbbfda62a5a44524601a3 fuse: update stats for pages in dropped aux writeback list
-         3ab394b363c5fd14b231e335fb6746ddfb93aaaa fuse: disable the combination of passthrough and writeback cache
-         88fac17500f4ea49c7bac136cf1b27e7b9980075 Merge tag 'fuse-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-         
-  - ref: refs/tags/next-20240604
-    old: 686bc102890aefecdd1402353e032e9991e5202c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240904
     old: 0000000000000000000000000000000000000000
     new: 2a5bfb03cc107fea188398298d44f0039fbb0c1a
 
---===============4948365004277321279==
+--===============1259654497401353571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1069,4 +1054,4 @@ caed4600f14ba3c74a6c19c94b80e88fdd32f360 Merge branch 'next' of git://git.kernel
 d29523c2b8657cce7ce47820d8de1605c66936f0 Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 fdadd93817f124fd0ea6ef251d4a1068b7feceba Add linux-next specific files for 20240904
 
---===============4948365004277321279==--
+--===============1259654497401353571==--
