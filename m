@@ -1,46 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4429631505592297288=="
+Content-Type: multipart/mixed; boundary="===============6978772412808823592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Wed, 04 Sep 2024 15:10:46 -0000
-Message-Id: <172546264663.1499817.15907264863428277637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Wed, 04 Sep 2024 15:11:21 -0000
+Message-Id: <172546268190.1500417.15992532125895397682@gitolite.kernel.org>
 
---===============4429631505592297288==
+--===============6978772412808823592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/main
-    old: a06a60fb1da063f5e593cc776972bee21c709ebe
-    new: 40fd54a106deaea129fbe805074925727c4ee5d7
-    log: |
-         40fd54a106deaea129fbe805074925727c4ee5d7 3->4
-         
+  - ref: refs/heads/for-next
+    old: 4a2579360ced7b5426a572d56a2b8e5710afe98d
+    new: 9dc504f244895def513a0f2982c909103d4ab345
+    log: revlist-4a2579360ced-9dc504f24489.txt
 
---===============4429631505592297288==
+--===============6978772412808823592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4a2579360ced-9dc504f24489.txt
 
-certificate version 0.1
-pusher SHA256:MqRX3uo+JwANwK9bf65j33RR/F1BnhmcgUZ0tYJGHEA  1725462664 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1725462642-fc483e08880f62a13ac058934aa6813899b233b7
+2097154a10c6ee78be8796411e5d0ad81ee06ed6 namespace: introduce SB_I_NOIDMAP flag
+aa16880d9f13c6490e80ad614402c8a6fe6f3efa fuse: add basic infrastructure to support idmappings
+10dc721836c0c968990a519e147d4cb7decdae5c fuse: add an idmap argument to fuse_simple_request
+d561254fb7ba451f580becb21ab3472bc0265080 fuse: support idmapped FUSE_EXT_GROUPS
+556208e139e19e0b308e104c6b0e42a9e0a54c3a fuse: support idmap for mkdir/mknod/symlink/create/tmpfile
+2a8c810d5e492906fe0af94a6e8b2398714e80e0 fuse: support idmapped getattr inode op
+c1d82215d391ded456e7bdd1c0893c9cb6322272 fuse: support idmapped ->permission inode op
+276a02569920f793047479fe7ef5da2c3e285a80 fuse: support idmapped ->setattr op
+4d833befa20253049e4f48ece9cb82f12800405d fuse: drop idmap argument from __fuse_get_acl
+d395d0a5d2544b639cd7b0055e4de85b0efc2762 fuse: support idmapped ->set_acl
+4be75ffe721cbf925478ebfbff872b02833899b7 fuse: support idmapped ->rename op
+5b8ca5a54cb89ab07b0389f50e038e533cdfdd86 fuse: handle idmappings properly in ->write_iter()
+6d14b18596ca69719cfe1af87dbf3c5e763d29b5 fuse: warn if fuse_access is called when idmapped mounts are allowed
+16e1503eaf329129170e4e7a078aee17686967a5 fuse: allow idmapped mounts
+9dc504f244895def513a0f2982c909103d4ab345 virtio_fs: allow idmapped mounts
 
-a06a60fb1da063f5e593cc776972bee21c709ebe 40fd54a106deaea129fbe805074925727c4ee5d7 refs/heads/main
------BEGIN SSH SIGNATURE-----
-U1NIU0lHAAAAAQAAAEoAAAAac2stc3NoLWVkMjU1MTlAb3BlbnNzaC5jb20AAAAg5pdoz6
-G6keRspPp40mN3dQBBsExkFuarmLoSHPfZTe0AAAAEc3NoOgAAAANnaXQAAAAAAAAABnNo
-YTUxMgAAAGcAAAAac2stc3NoLWVkMjU1MTlAb3BlbnNzaC5jb20AAABA7qj8ad8Is/H6jM
-3an8L7IvUGdirDfhh2GsWPYBEz121YlTj16h0J6d1Ig2QF/fvMk4WvQEhbFs+e6RsaHIva
-CgUAAABp
------END SSH SIGNATURE-----
-
---===============4429631505592297288==--
+--===============6978772412808823592==--
