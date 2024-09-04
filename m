@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1754178137548249807=="
+Content-Type: multipart/mixed; boundary="===============0978981485223389744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 04 Sep 2024 13:34:00 -0000
-Message-Id: <172545684068.1407551.12157369941845443344@gitolite.kernel.org>
+Date: Wed, 04 Sep 2024 13:36:00 -0000
+Message-Id: <172545696060.1410393.6878217562488716398@gitolite.kernel.org>
 
---===============1754178137548249807==
+--===============0978981485223389744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 99873ec50de77752738629cf8c426b6eadad13ac
+  - ref: refs/heads/thermal/linux-next
+    old: 7eeb114a635a04bea2fa7d57cedbf374c714d29e
     new: 7d8abc5f3b5ce0f53d499279d8defc0f72bf7557
-    log: revlist-99873ec50de7-7d8abc5f3b5c.txt
+    log: revlist-7eeb114a635a-7d8abc5f3b5c.txt
 
---===============1754178137548249807==
+--===============0978981485223389744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99873ec50de7-7d8abc5f3b5c.txt
+Content-Disposition: attachment; filename=revlist-7eeb114a635a-7d8abc5f3b5c.txt
 
 d27087c76e3c859ea05b7581ef7ce8aa5a088dd8 perf docs: Document cross compilation
 f0e4ed752fda6997b41917c94a5478b340178001 tools/power turbostat: Add early support for PMT counters
@@ -1051,4 +1051,4 @@ bf2876f6bae3f9ece8d781627623630963b19333 thermal/drivers/qoriq: Remove __maybe_u
 14ed0ef0a27a0646ecd7dc6f61cde3f6ba2b303b thermal/drivers/ti-soc-thermal: Remove unused declarations
 7d8abc5f3b5ce0f53d499279d8defc0f72bf7557 thermal/drivers/imx_sc_thermal: Use dev_err_probe
 
---===============1754178137548249807==--
+--===============0978981485223389744==--
