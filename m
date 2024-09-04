@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 04 Sep 2024 07:28:35 -0000
-Message-Id: <172543491571.860789.5533383746598739733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 04 Sep 2024 07:34:17 -0000
+Message-Id: <172543525756.865152.8213517384772765571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: ab10edfc477cf6fea775ec4b843a9ab10299fcec
-    new: 5e0bfcfb5163bd677446966d5bcfe554d9856d91
+  - ref: refs/heads/main
+    old: b1d38b512aa3162b5089fbf6b02357ed5fdf5760
+    new: dd0d193ad8722140e240c95a4fd1e214077dd719
     log: |
-         5e0bfcfb5163bd677446966d5bcfe554d9856d91 pwm: omap-dmtimer: Use of_property_read_bool()
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: ab10edfc477cf6fea775ec4b843a9ab10299fcec
-    new: 5e0bfcfb5163bd677446966d5bcfe554d9856d91
-    log: |
-         5e0bfcfb5163bd677446966d5bcfe554d9856d91 pwm: omap-dmtimer: Use of_property_read_bool()
+         f786072a3e2928766a9b4f1b7d3372a601c259ea mdadm: Increase number limit in md device name to 1024.
+         dd0d193ad8722140e240c95a4fd1e214077dd719 imsm: save checkpoint prior to exit
          
