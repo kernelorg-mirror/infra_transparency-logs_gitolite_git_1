@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4050669606557552388=="
+Content-Type: multipart/mixed; boundary="===============1031752884023222714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 04 Sep 2024 02:10:05 -0000
-Message-Id: <172541580584.616251.10143401520894439557@gitolite.kernel.org>
+Date: Wed, 04 Sep 2024 02:15:03 -0000
+Message-Id: <172541610317.619766.16761523565923760944@gitolite.kernel.org>
 
---===============4050669606557552388==
+--===============1031752884023222714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
+  - ref: refs/heads/for-linux-next
     old: 627a24f5f25d689682f395f3df1411273be4436b
     new: e066e9aa4d9c869c92d1d03647472e4ce96c0919
     log: revlist-627a24f5f25d-e066e9aa4d9c.txt
 
---===============4050669606557552388==
+--===============1031752884023222714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5d4657e192ba7a3f21fc397cf5d169982b4ec0c drm/i915/dsb: Use chained DSBs for LUT 
 b1aa0491fad27f030c94ed42c873c3f46f5e7364 drm/xe: Fix merge fails related to display runtime PM
 e066e9aa4d9c869c92d1d03647472e4ce96c0919 MAINATINERS: update drm maintainer contacts
 
---===============4050669606557552388==--
+--===============1031752884023222714==--
