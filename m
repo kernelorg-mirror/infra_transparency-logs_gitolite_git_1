@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 04 Sep 2024 19:15:19 -0000
-Message-Id: <172547731965.1729423.2895972031623704544@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4919738594273008223=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Wed, 04 Sep 2024 19:15:46 -0000
+Message-Id: <172547734652.1729857.1797059129681776458@gitolite.kernel.org>
+
+--===============4919738594273008223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1263a7bf8a0e77c6cda8f5a40509d99829216a45
-    new: 2adad548f74c30739c35994da419eb2318e6fbd1
+    old: db4189553bc27ac47752fe9ed6e6b1a320ca63cd
+    new: 24a0ba0259ff48c65b489f877ba3a79d3764cb60
     log: |
-         6a422a96bc84cf9b9f0ff741f293a1f9059e0883 hwmon: ltc2991: fix register bits defines
-         a54da9df75cd1b4b5028f6c60f9a211532680585 hwmon: (hp-wmi-sensors) Check if WMI event data exists
-         1c7fb536e899a2f66f9b1719a0234570dda2e634 perf test pmu: Set uninitialized PMU alias to null
-         287bd5cf06e0f2c02293ce942777ad1f18059ed3 perf lock contention: Fix spinlock and rwlock accounting
-         aee1d55922977bf9282398283a72d38fc5514540 perf python: include "util/sample.h"
-         e162cb25c410afc42051a582c46a47dde597f51c perf daemon: Fix the build on more 32-bit architectures
-         14a244a9095e9034339c1c9a7b435f238f7d49df Merge tag 'hwmon-for-v6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-         2adad548f74c30739c35994da419eb2318e6fbd1 Merge tag 'perf-tools-fixes-for-v6.11-2024-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+         24a0ba0259ff48c65b489f877ba3a79d3764cb60 Add a section on how to set up a new computer with the same fido2 key
          
+
+--===============4919738594273008223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1725477367 -0400
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1725477345-e1f4ce41df95128360bb14a4c5dbca259483e263
+
+db4189553bc27ac47752fe9ed6e6b1a320ca63cd 24a0ba0259ff48c65b489f877ba3a79d3764cb60 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtix9wAKCRC2xBzjVmSZ
+bIxkAP0RMSODuxGDGwH8/dn92GTzkFhrwgFSszCZcLXBDhULpwD/VB8F6TgjGHdP
+3nFPTGOHYNprNitELA3Rhd3G2kJYaws=
+=YCj4
+-----END PGP SIGNATURE-----
+
+--===============4919738594273008223==--
