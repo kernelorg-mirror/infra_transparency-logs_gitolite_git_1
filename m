@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Sep 2024 15:23:54 -0000
-Message-Id: <172546343403.1514711.7357497810927284509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 04 Sep 2024 15:26:22 -0000
+Message-Id: <172546358283.1517861.9014127018779231876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/dt-bindings
-    old: 364cfd8a56c0eec874057514b8cee220494746f5
-    new: b08929e1ec2f69db49e119a0d6af7cf32c813f5e
-    log: |
-         b08929e1ec2f69db49e119a0d6af7cf32c813f5e dt-bindings: PCI: altera: Convert to YAML
-         
+  - ref: refs/tags/wireless-next-2024-09-04
+    old: 0000000000000000000000000000000000000000
+    new: 8c8bbe41f7243bca8065ef104df612aa475b4af9
