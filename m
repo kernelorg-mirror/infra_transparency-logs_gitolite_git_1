@@ -1,89 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============8051970225788473908=="
+Content-Type: multipart/mixed; boundary="===============1546556179657901057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 04 Sep 2024 06:14:19 -0000
-Message-Id: <172543045901.798974.3529987158304482993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 04 Sep 2024 06:14:50 -0000
+Message-Id: <172543049090.799667.16732276402441369639@gitolite.kernel.org>
 
---===============8051970225788473908==
+--===============1546556179657901057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 35f4a629641b812e04fadef087da5d6af59e32d7
-    new: d40ae4cdd9a400dea9dff3408b8c8983c45e943f
-    log: revlist-35f4a629641b-d40ae4cdd9a4.txt
+  - ref: refs/heads/char-misc-next
+    old: aead27d77f3e703f6056e12fb19f48a426df2fd7
+    new: 072e18d63b91710b6469411030fcd6e7bc036bbc
+    log: revlist-aead27d77f3e-072e18d63b91.txt
 
---===============8051970225788473908==
+--===============1546556179657901057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725430479 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725430457-5d1028838e327a1e131025346e787bc02df912df
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725430511 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1725430489-462db4e0b09287e8876f8d4e3e75d2864003100d
 
-35f4a629641b812e04fadef087da5d6af59e32d7 d40ae4cdd9a400dea9dff3408b8c8983c45e943f refs/heads/usb-next
+aead27d77f3e703f6056e12fb19f48a426df2fd7 072e18d63b91710b6469411030fcd6e7bc036bbc refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbX+s8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hD0QAIgHrEkqXRzAaax9e3Mr
-mNIFCdBYTOWmFjzAGwcCTIKmZjKUsLB5Cj3+7uKvZXxGDPQahxB9SO6sDVq3ahga
-lK5KzuDUll2hyVuiJS5Zr2oJLJYU7inN6SUXhpRXcMY3F1AvdP2MWWquLhy2sec8
-BzFH+gYR7GeXwmC3wxuU1hc3do1Q+FiK8KcDTPYTVdOvI2/Ukmakr7dOL0GXo1yN
-QICRik/JeTVC1euwszISyJqq/351ms6Kl3RlFCEQ+HDh0enwS/Ny+OxbVGbpcrym
-5kP5ksU/ZBU/E7ggfJqPWcSPTLEd44iI8DfMh+2/LA3+xsPnOoJCrTdI1JjV1Pd1
-ncFqRMAfY38JCjm6qONJmxyCMSTq7s+b1EbQ8WwUP72kBhgJ53clnFpmfDJwnNqW
-kiaPVKSQD3AHysMMH4jQ4+aVc2dUEOmnCOz7yWPTemlKSRf8HtorIK2C/oDE8fLH
-c8nHtPg7+oLkTQ75PSnuwlfdVWZJ6gLomD4uv3smyvcivaiv2UUYYePBwN05pkBR
-n3HafD2b8C3G2LYMM5jOCjGW9OJjSSpTOp75kFqmI+MzmMYXGoeajCokCPTLb8vj
-q/v25W0ZhE4K4LAgLtY7GNz2JWzxx4cS/DU3OkUmz71kzdny4K4+Efdy1KeGoa0e
-kVFFqIExwnc3IYHyCEwXnJJv
-=bpVz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbX+u8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GzEP/1Zc0+AWZsv3QMwKrJRc
+DiAl+KxCARSk549BIbJAgbIfKmLJ1sfyGOxniIGjn75JdtDODMvNSurz5jBlSg8j
+5Do8u+gP43R6HyrzDVcgmiDBvfFMLKBH7924nSOcvnu+EszvJfFgBQerPJM+fJiX
+c2LzHNvVXt6A4lZfHtV/8mnKUyLtaskVCCXeNKNMG/hx1t5XVv62TSaHBJycLpdY
+qO9ljgMXW/INfbv9jHwf7vjARh+iE+NqNiomAVSML4jnZ7/HgbOB1ZP1XbEtPDsk
+u/8c5uWpgVCOTJHTsmT9Yz86V0Q++3bMaSP/66seSNiEF1TXQQ1tRsVT+AvHGl5L
+zgSJx3XSFTRXYY2b2jyhNKC/LPkaWve7pSZssuW/gXUv9p0j2r7qLZC+Ho5VwpQZ
+35XuyizLbv0xJpVK5yA2zUe7N6R4pDei+pdC4i+BT27eOv+PIiBf4j7cY7IN93T/
+Ol+MXfnTl9TodW4dUbrQk+hO/7CqCnpKHXc4u/tFdZaAQ10CxggspOLZQ44pmIa7
+OIC7AnHBgkVYQKSri6VudVGOOVuAle0Bgud/wvnl+eVJDFwed3AmmCC0udIxaEFe
+RBPlqVcgAEvx4wc5YOjjvDOdDGA4to3av/uvDQI62IXjq7TYENiy7ET+THEKGfRI
+TglZ5ZEgaGqjEBELpN3YSauP
+=0GR8
 -----END PGP SIGNATURE-----
 
---===============8051970225788473908==
+--===============1546556179657901057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35f4a629641b-d40ae4cdd9a4.txt
+Content-Disposition: attachment; filename=revlist-aead27d77f3e-072e18d63b91.txt
 
-e4fdcc10092fb244218013bfe8ff01c55d54e8e4 usb: chipidea: udc: enable suspend interrupt after usb reset
-dbf0fa1c8d47914c3b4919f01b131e0523f6d804 usb-storage: Constify struct usb_device_id and us_unusual_dev
-bde053252c02186836ea0d1bee492d2e95c3f983 usb: dwc3: st: use scoped device node handling to simplify error paths
-a93c3ad6a9b2f9b8add42cc07e8857bab0eb1616 usb: dwc3: st: simplify with dev_err_probe
-fcc78cce2f9653af6d46460274d352e8b26ac5ea usb: dwc3: st: simplify pdev->dev usage
-3fdfebc58e0ddd86f5c0da85ef5eab94bf3d674a usb: dwc3: imx8mp: simplify with devm_clk_get_enabled
-81d905b1022033a5885e2d2c169606eabf669084 usb: dwc3: imx8mp: simplify with dev_err_probe
-34e8df2fb2de4e56fdd91a03ffe466f3c88a67df usb: dwc3: imx8mp: use scoped device node handling to simplify error paths
-a85f13d509254acd508856be57099a818552cfc9 usb: dwc3: qcom: use scoped device node handling to simplify error paths
-17d206a3687ec662b0eb7c1f083fb8abd29842be usb: dwc3: qcom: simplify with devm_platform_ioremap_resource
-f93e96c544ca723be5c4ff553630ad6a72d3c677 usb: dwc3: rtk: use scoped device node handling to simplify error paths
-819c0c31a78e389812ab183eceabec58d1d23319 usb: dwc3: rtk: return directly and simplify with devm_platform_ioremap_resource
-e23593ee41fa4d2f76588dfe609b416c1d9710b8 usb: dwc3: xilinx: simplify with dev_err_probe
-4058c39bd176daf11a826802d940d86292a6b02b usb: dwc2: Adjust the timing of USB Driver Interrupt Registration in the Crashkernel Scenario
-27e12d5aa4f9b0cc7b15050bc560c75aaaa8695b usb: chipidea: npcm: Fix coding style with missing space
-b24301364a9471fbca86d41fa0982ae4e038140d usb: gadget: udc-xilinx: Remove trailing space after \n newline
-c146ede472717f352b7283a525bd9a1a2b15e2cf usb: ohci-nxp: Use helper function devm_clk_get_enabled()
-a17f04d4f26db70a42e52ebf0f04d84da79ebf1e usb: gadget: f_acm: make bInterfaceProtocol configurable
-9299f12c20d4dc51d3b548392e1725da37cada48 usb: f_mass_storage: Make use of the helper macro kthread_run()
-948ce83fbb7df85bc930a5c0d6b133481be05c0b xhci: Add USB4 tunnel detection for USB3 devices on Intel hosts
-f46a6e16519712651e2304da03ec144cc0bb084c usb: Add tunnel_mode parameter to usb device structure
-f1bfb4a6fed64de1771b43a76631942279851744 usb: acpi: add device link between tunneled USB3 device and USB4 Host Interface
-f20998f23a8ce3ba56a06d9423ee57e92bae298c thunderbolt: Don't create device link from USB4 Host Interface to USB3 xHC host
-d9c61bb33fbbcbc2d5f69efa10db116dab4b56cc usb: gadget: function: move u_f.h to include/linux/usb/func_utils.h
-a3be076dc174d9022a71a12554feb4c97b5c4d5c net/9p/usbg: Add new usb gadget function transport
-673f0c3ffc75166317ca5edb66ff35eaa6a12149 tools: usb: p9_fwd: add usb gadget packet forwarder script
-b022041ea9ef7a54becbc1c06717000bfcd8266d usb: cdns2: Convert comma to semicolon
-d40ae4cdd9a400dea9dff3408b8c8983c45e943f dt-bindings: phy: mxs-usb-phy: add nxp,sim property
+59d617dc727e06f97481331722b589715b3b4a87 binder: fix typo in comment
+eee75a3a3ba35fdc7723465d49314976b020a509 slimbus: messaging: use 'time_left' variable with wait_for_completion_timeout()
+9c6fd5fc98d21cdd2027f702463946b327ff22ee slimbus: qcom-ctrl: use 'time_left' variable with wait_for_completion_timeout()
+088c588fffbf952bb7210c58a00e6dd3089cf88e slimbus: qcom-ngd-ctrl: use 'time_left' variable with wait_for_completion_timeout()
+b4b8183055789b0d981e83217ce401db8037d033 slimbus: generate MODULE_ALIAS() from MODULE_DEVICE_TABLE()
+9eb2c5faaafce10a9143c397ff63218f1c2115e5 dt-bindings: misc: qcom,fastrpc: increase the max number of iommus
+dd747494ae6affac59b83abc993091541477b639 misc: fastrpc: Add support for cdsp1 remoteproc
+24d85d971b3ced4d5bde7ecd302e46c7c013462d dt-bindings: misc: qcom,fastrpc: document new domain ID
+8ca1cfd6864011ebffcb329240aa471adca506be dt-bindings: nvmem: imx-ocotp: support i.MX95
+c3f9b7b4e5f9de319d00784577cda42036ff243a nvmem: imx-ocotp-ele: support i.MX95
+2fcea44e1ba16c55f4602948d2d43f3a365d6070 dt-bindings: nvmem: convert U-Boot env to a layout
+cdb63c73fa513df9a2d7253e4f9cdcd18b5ceb56 dt-bindings: nvmem: st,stm32-romem: add missing "unevaluatedProperties" on child nodes
+98ee46391baf35987227236d0c3bb30ab6e758c8 nvmem: sunplus-ocotp: Use devm_platform_ioremap_resource_byname() helper function
+3a2de36d20b8be36389dc44a57a966030047ded1 nvmem: Fix misspelling
+43027957e87fe18afd9ab872915bf4012d53929d dt-bindings: nvmem: sfp: add ref to nvmem-deprecated-cells.yaml
+62c5a01a5711c8e4be8ae7b6f0db663094615d48 pps: add an error check in parport_attach
+e807c406a6b405518f420426665e2455f83ad8fc misc: lis3lv02d: Fix incorrect of_get_property() usage
+072e18d63b91710b6469411030fcd6e7bc036bbc misc: tsl2550: replace simple_strtoul to kstrtoul
 
---===============8051970225788473908==--
+--===============1546556179657901057==--
