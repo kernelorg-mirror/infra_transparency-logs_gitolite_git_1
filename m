@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 04 Sep 2024 16:45:04 -0000
-Message-Id: <172546830440.1591885.14000644880941936090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Wed, 04 Sep 2024 16:48:54 -0000
+Message-Id: <172546853473.1593749.5009385282848810409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 915b801b8b957d0a508ad70d9cd14ab0800c2bf6
-    new: 2e01ac83c1c7166e58043ff2bdb0dc7dbfcfd11a
+  - ref: refs/heads/devfreq-next
+    old: bba5ae9c2b7de2d65fe74d3450c3b62931684edf
+    new: d47552124bb0b9527da7a95357ae7d2e6046c4f6
     log: |
-         2e01ac83c1c7166e58043ff2bdb0dc7dbfcfd11a extcon: lc824206xa: Fix build error of POWER_SUPPLY_PROP_USB_TYPE
+         d47552124bb0b9527da7a95357ae7d2e6046c4f6 PM / devfreq: imx-bus: Use of_property_present()
          
