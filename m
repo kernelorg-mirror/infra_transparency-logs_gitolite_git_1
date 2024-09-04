@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5447004568858210699=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 04 Sep 2024 18:49:00 -0000
-Message-Id: <172547574089.1698851.15712552952103552665@gitolite.kernel.org>
-
---===============5447004568858210699==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 04 Sep 2024 18:49:43 -0000
+Message-Id: <172547578353.1699704.11088645817106271734@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 02f6396052629056366fb5f108f99231ba1f1033
-    new: c6d9b6f9131445244d309baa385bde316af47f1f
+    old: 5d789274bd8979d881ad793faba9f885f3b80113
+    new: 20d0ba84d3b7e7abd8a3318175b46f5e5363547d
     log: |
-         c6d9b6f9131445244d309baa385bde316af47f1f add 6.10.8 review from greg
+         ac18dd16aa3d3bb7506de93d4cbbd2d839945386 stat: reduce arguments of add_*lat_sample() functions
+         2e7da20db20584d2c894fc49a4ed1a7d94975a26 stat: reduce arguments of add_log_sample()
+         3ec6b6da9cfe474589a7b3f9d70d047d242a66b7 iolog: refactor flush_samples()
+         9f0a81a64d1de05529e1ed1e59d0a563666eba2c iolog: drop struct io_sample_offset
+         14d3134a5fc0464461ee7d7f1b29c73f59765fc9 introduce the log_issue_time option
+         c37cf1df65c2bb2af14ffdb7c181df19a564712c doc: fix the descriptions of the log_prio option
+         17fb6f087c277f0069ca47fc3b5697ff0dd753c2 doc: describe the log_issue_time option
+         8b0018e93eac657d4f4423414fa8e23b0597ae0d t/jobs/t0033: add test for the log file format
+         20d0ba84d3b7e7abd8a3318175b46f5e5363547d t/jobs/t0034: add test for the log_issue_time option
          
-
---===============5447004568858210699==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725475762 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725475740-57d35eabd7fdc028309b84959c4e6ea26d9d4b02
-
-02f6396052629056366fb5f108f99231ba1f1033 c6d9b6f9131445244d309baa385bde316af47f1f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbYq7IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S1EQALH2aBCVqVYZ/rDVBBv6
-si3tRPBQx1gzRgrFig3xH+WMtZijBRfMoPtN3gWekjYaKiNtDk3fW6kUTiLP6jMb
-s7fU7ccp4B3cIu3hDZ6wIfbEH0PbUC5RIuAzQNDrTwzktcoM6Yb8hh2ti4QSKYrP
-B+MbrDJxU/8061V9mMRtrGbbi1ChyOOuPZT4Y0LavKAg4BRwCdHhVHRUASvmKLPN
-FkpS50/SxcFgdggrogpWA+fN/dTljccFiLJ8pqdymsxByd9sp78QHB12IN8tSndh
-kNnaU8DZU/SLkQ8sL2ZgdF07jtF5hRP7ceS6z3xfOxdlWoQKDFAczhtw6ZEkQOK9
-0/5Aj2f5Ol8/r3aQYA1KnBisDqNxCGFDEoQMF3DrkHa5UKSMsHgu/+YYBWuvpQ+l
-r9Mo3m/eVcuQV8+ECoF2BuklGonp6rZUkrHwEGPhpjrtsn1G5KlsKDhyRvyeEwtK
-iKjsaPAIQiqCrL2XxhhMwcY66Lp7Lh6DeA4wBbgpzSXQUTNQLubZHxAT6ep0Gzmi
-t2JgGFX7/wwlywqVFotYr6hvl/CTQma2IHrw3JqAbgRMSeBGLcVkLTcILNf7QQXF
-1ObqnnmWza5TJ7AVb9G9ysTDAirN2N3IhHUHc0CtcpwONhgDwWjMm7f+vzJW8rzA
-wJN6Sz2BjL+P7gKa2jSqr56W
-=XUvT
------END PGP SIGNATURE-----
-
---===============5447004568858210699==--
