@@ -1,48 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============1741237761860103887=="
+Content-Type: multipart/mixed; boundary="===============1211600756453289762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 04 Sep 2024 10:15:47 -0000
-Message-Id: <172544494707.1001334.15406169840857558773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 04 Sep 2024 10:16:21 -0000
+Message-Id: <172544498158.1001910.8480424650395564129@gitolite.kernel.org>
 
---===============1741237761860103887==
+--===============1211600756453289762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/work.kmem_cache_args
-    old: 43fc7710215871aaa467554873f1fa9f939a7911
-    new: e6f1b21418137e745cea26c3daeaed0dd82ee608
-    log: revlist-43fc77102158-e6f1b2141813.txt
+  - ref: refs/heads/master
+    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
+    new: 88fac17500f4ea49c7bac136cf1b27e7b9980075
+    log: revlist-431c1646e1f8-88fac17500f4.txt
 
---===============1741237761860103887==
+--===============1211600756453289762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43fc77102158-e6f1b2141813.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-df1ea16396cbf4bf85fe7a486922106837908286 slab: s/__kmem_cache_create/do_kmem_cache_create/g
-4aaaa3b533eff9d56ae556d1205b64b25d3a2e9f slab: add struct kmem_cache_args
-8c3cf7e2d0c418af6f32ee51309a9a8ba64a5ce7 slab: port kmem_cache_create() to struct kmem_cache_args
-556665087082bc3a27d0c0a888caacae50e7de3d slab: port kmem_cache_create_rcu() to struct kmem_cache_args
-52c0aa6e976adb9d17ab39b6fec193afc1375b93 slab: port kmem_cache_create_usercopy() to struct kmem_cache_args
-9a08507971b6cefd2cf47f718ecaab07a7807dfa slab: pass struct kmem_cache_args to create_cache()
-600f45c2ce7a4ae84148950ad5edfde994eb6512 slub: pull kmem_cache_open() into do_kmem_cache_create()
-e4411cb6bd8f63851eda48d5800419637d013cf8 slab: pass struct kmem_cache_args to do_kmem_cache_create()
-9f1f6d4ceced03122db3deab039f7497be677fdd slab: remove rcu_freeptr_offset from struct kmem_cache
-c7846e07e7e99254d6185d2487d4c1466a1f1396 slab: port KMEM_CACHE() to struct kmem_cache_args
-daddc6ce785af611053bdafaa9aa8cfdc42d6702 slab: port KMEM_CACHE_USERCOPY() to struct kmem_cache_args
-b8a8d9445d435c99694b93729f00eeee608f7e2e slab: create kmem_cache_create() compatibility layer
-788679cfd5d900d6502710c477738cad2667155e file: port to struct kmem_cache_args
-04078df093faeda62416bc19479833b9eebf2cb1 slab: remove kmem_cache_create_rcu()
-02c3187bad284586d36c25f6e957ea9e8323e379 slab: make kmem_cache_create_usercopy() static inline
-317f92b6bf6c8be932d3b66c8b34329257595bbe slab: make __kmem_cache_create() static inline
-e02890bc9d2e1400fc15266a538e4b15df28cc51 io_uring: port to struct kmem_cache_args
-e6f1b21418137e745cea26c3daeaed0dd82ee608 slab: add struct kmem_cache_args
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725445002 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1725444978-a9fe5392742bf20c378aff40cefd5ec450ca7fd5
 
---===============1741237761860103887==--
+431c1646e1f86b949fa3685efc50b660a364c2b6 88fac17500f4ea49c7bac136cf1b27e7b9980075 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbYM4obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SysP/3cSep+tu9RWdsNnCrx/
+/MPiCidZQogRu0L3nP9vNnZejlh0zuTUArkr5+pw1aENy7rXV/fmtKQMYHYWrZXN
+gG/ymWoonU1dJw3ZzGe7AyI3KwiUIVUXDvgnEIxF2GQFTv8moK5Yv6oDs9vqJKR/
+DxYdq2TJk80p72hNHmUf/m5YQjH5kPxZHSuDgxSk7N4HO1YdzR2rIiow3jWfOvGd
+wtfLiLkuN+EGiqAW+CB/m6wCriYB0yJkt9rf/Qv3vdleLj2j2y8JxiwCBIXl/PTc
+T6mnV7zbKTtcIZczlYgC3pvoNGncjm3BJf1zN1cNp56Zxo6WZUgc2vacP+/pfNle
+SEU9cv7fAYoB0IJkI6nqIJmQxh/6B0faGkbZZTtccEi+HFsfcAppqeZ42acIuWot
+8f6shbNXuwzvFBYmOAzEMgifDhIT9JZ4h0BrZrAFraM4bAOw4hl8V/Qu/ROK8FN6
+VwDH/gXFIu9f8lS/ry3e8ZwADbkb2+NV2mk2dAVRh6knv5YAkom6CN/A4g/lmSE7
+Pu+SM6OGfv/xpLbuZkoUlx5sorRvXv240053qikF2EHq27+FavTu9vK6HB+iqnp7
++92TPPPdMcf8WjbuS2mBWx0qCx8vea439dLcu7O09ysq88T/RNBQ2on3EtaxSgoI
+osgwtBksNajm/TXrjUS71CTy
+=Mxi5
+-----END PGP SIGNATURE-----
+
+--===============1211600756453289762==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-431c1646e1f8-88fac17500f4.txt
+
+0ecc5be200c84e67114f3640064ba2bae3ba2f5a x86/apic: Make x2apic_disable() work correctly
+2848ff28d180bd63a95da8e5dcbcdd76c1beeb7b x86/fpu: Avoid writing LBR bit to IA32_XSS unless supported
+d33d26036a0274b472299d7dcdaa5fb34329f91b rtmutex: Drop rt_mutex::wait_lock before scheduling
+ea72ce5da22806d5713f3ffb39a6d5ae73841f93 x86/kaslr: Expose and use the end of the physical memory address space
+4d936f10ff80274841537a26d1fbfe9984de0ef9 irqchip/sifive-plic: Probe plic driver early for Allwinner D1 platform
+f97fd458763a4801d04dbb4a79d9ca6282d293ec irqchip/gic-v4: Fix ordering between vmapp and vpe locks
+efe81b7bdf7d882d0ce3d183f1571321046da8f1 irqchip/riscv-aplic: Fix an IS_ERR() vs NULL bug in probe()
+c5af2c90ba5629f0424a8d315f75fb8d91713c3c irqchip/gic-v2m: Fix refcount leak in gicv2m_of_init()
+71c8e2a7c822ee557b07d9bb49028dd269c87b2e irqchip/gic-v3: Init SRE before poking sysregs
+880799fc7a3a127c43143935c1a8767d77c19cae irqchip/irq-msi-lib: Check for NULL ops in msi_lib_irq_domain_select()
+25dfc9e357af8aed1ca79b318a73f2c59c1f0b2b perf/x86/intel: Limit the period on Haswell
+b6fb565a2d15277896583d471b21bc14a0c99661 x86/tdx: Fix data leak in mmio_read()
+284b75a3d83c7631586d98f6dede1d90f128f0db ata: libata: Fix memory leak for error path in ata_host_alloc()
+a547a5880cba6f287179135381f1b484b251be31 x86/resctrl: Fix arch_mbm_* array overrun on SNC
+b18915248a15eae7d901262f108d6ff0ffb4ffc1 fuse: use unsigned type for getxattr/listxattr size truncation
+97f30876c94382d1b01d45c2c76be8911b196527 fuse: check aborted connection before adding requests to pending list for resending
+3002240d16494d798add0575e8ba1f284258ab34 fuse: fix memory leak in fuse_create_open
+76a51ac00ca2a72fe3e168b7fb0e70f75ba6f512 fuse: clear PG_uptodate when using a stolen page
+f7790d67785302b3116bbbfda62a5a44524601a3 fuse: update stats for pages in dropped aux writeback list
+3ab394b363c5fd14b231e335fb6746ddfb93aaaa fuse: disable the combination of passthrough and writeback cache
+9a754292e88f81acaf26cc5e0cec56b3276029de Merge tag 'irq-urgent-2024-08-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+51859c5aa6daa96340a81a1ea2de1b48ccadccf1 Merge tag 'locking-urgent-2024-08-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3df9427f351a9cb8aee0eea13d185f0d78340a70 Merge tag 'perf-urgent-2024-09-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c9f016e72b5cc7d4d68fac51f8e72c8c7a69c06e Merge tag 'x86-urgent-2024-09-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+67784a74e258a467225f0e68335df77acd67b7ab Merge tag 'ata-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+88fac17500f4ea49c7bac136cf1b27e7b9980075 Merge tag 'fuse-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+
+--===============1211600756453289762==--
