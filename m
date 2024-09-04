@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6755199872965358439=="
+Content-Type: multipart/mixed; boundary="===============0849082997064434785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 04 Sep 2024 13:58:26 -0000
-Message-Id: <172545830613.1429207.13918177984142508481@gitolite.kernel.org>
+Date: Wed, 04 Sep 2024 13:59:06 -0000
+Message-Id: <172545834614.1429623.5866399965430105936@gitolite.kernel.org>
 
---===============6755199872965358439==
+--===============0849082997064434785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/rework/threaded-printk
+  - ref: refs/heads/for-next
     old: d33d5e683b0d3b4f5fc6a49ce17583f8ca663944
     new: daeed1595b4ddf314bad8ee40b2662e03fd012dc
     log: revlist-d33d5e683b0d-daeed1595b4d.txt
 
---===============6755199872965358439==
+--===============0849082997064434785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ def84b4467771d0ea0b55e6a5d0d70eb54bdf46a tty: sysfs: Add nbcon support for 'acti
 1529bbb6e2619495f146dd519a196b67837fdfa6 printk: nbcon: Assign nice -20 for printing threads
 daeed1595b4ddf314bad8ee40b2662e03fd012dc printk: Avoid false positive lockdep report for legacy printing
 
---===============6755199872965358439==--
+--===============0849082997064434785==--
