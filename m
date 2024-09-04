@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7885223492920811600=="
+Content-Type: multipart/mixed; boundary="===============8642155047473566346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 04 Sep 2024 11:15:19 -0000
-Message-Id: <172544851937.1116743.4349109411597062006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 04 Sep 2024 11:15:47 -0000
+Message-Id: <172544854740.1148088.6973618624150100045@gitolite.kernel.org>
 
---===============7885223492920811600==
+--===============8642155047473566346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 97688a9c5b1fd2b826c682cdfa36d411a5c99828
-    new: 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6
-    log: revlist-97688a9c5b1f-1324e5ff2eeb.txt
+  - ref: refs/heads/for-next
+    old: c72a0a7720787776ce80b9699e698b9e467dc429
+    new: 1489c782ba00b25ecc9a79d4af1243fb7b29b68a
+    log: revlist-c72a0a772078-1489c782ba00.txt
 
---===============7885223492920811600==
+--===============8642155047473566346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1725448538 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1725448516-0ed86a6c539a6f159e76db79c6e937a2a712626c
-
-97688a9c5b1fd2b826c682cdfa36d411a5c99828 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 refs/heads/asoc-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbYQVoACgkQJNaLcl1U
-h9BgWQf+Lfnek1NuVZkjHAdgZIFtLihD+r1gHewNpcrWQAP9rDlKO5x5v0PsVIyM
-UgfEWLjpfEtoXlZu5o7DThCJwdBXowwjDz3K0k1CMawNsKMWgFGJor1ZKY2Py0pg
-pMuz+d035SkswJ9uxotnNFuelQ0So2MMEOLemtbQmTIpmhVS2sbqQuAsYsemy0zn
-LaKDAuXgBdDqCQkz+FS6bKVp/A8rAW+018lmk/Ls0peu3EbIiNICs3hfBRiNth9t
-omWU1GAm24oh9/AMV3sLTM0wBZenINE0WrsOH2FQu75VsP3pCfzIzfBJmAbzY7PG
-M5KpzHXCx/qxoj8PiTNZKZ61ztRQZw==
-=s63O
------END PGP SIGNATURE-----
-
---===============7885223492920811600==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97688a9c5b1f-1324e5ff2eeb.txt
+Content-Disposition: attachment; filename=revlist-c72a0a772078-1489c782ba00.txt
 
 ea8f615b399988abd801fa52a5eb631d826d0ba4 ASoC: dt-bindings: realtek,rt5616: document mclk clock
 92ff90cffbeef9b1a4983017555a194f8bc83f77 ASoC: dt-bindings: realtek,rt5616: Document audio graph port
@@ -79,5 +54,6 @@ e1991d102bc2abb32331c462f8f3e77059c69578 ASoC: mediatek: mt8365: Add the AFE dri
 9a029545bb36825f65b1ba182739eaf2809db2c7 Add audio support for the MediaTek Genio 350-evk
 56f97d4da7f1bc2b0a647b9162bebe51e0573699 Fixes for the audio setup on the rk3588-nanopc-t6
 1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 Add i2s/tdm support for acp7.0 and acp7.1 platforms
+1489c782ba00b25ecc9a79d4af1243fb7b29b68a Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
 
---===============7885223492920811600==--
+--===============8642155047473566346==--
