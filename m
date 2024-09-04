@@ -1,87 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============2636696694842397646=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 04 Sep 2024 06:17:25 -0000
-Message-Id: <172543064527.802997.12395259307096521508@gitolite.kernel.org>
-
---===============2636696694842397646==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Wed, 04 Sep 2024 06:31:57 -0000
+Message-Id: <172543151710.814613.10660894833225042350@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 17c3902bc762e4037cf78c50613e9864675e2650
-    new: 9b3846f745126fb655c20f5f4dba8eaadfdb6ed4
-    log: revlist-17c3902bc762-9b3846f74512.txt
-
---===============2636696694842397646==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17c3902bc762-9b3846f74512.txt
-
-ebf4ed7d2b0f814fa87793f323fee8b4def03f3a foo
-3be2966f7ec6f015cb9620b5553347df23d4169e foo
-f3873ea5cada76c820ad6b9b6255a8f2c9261b34 foo
-d28ff7027b6a4328893bd4301fe33576cc8ce04e foo
-dee6b895216c878cd83c1a1ec0aade130fedf46a foo
-b6a2576a7f9d3a888d2f2a98b667bce7a75c212c foo
-9616474b02062b2cfac66e35fc95bd406cafbe8a foo
-916b0f1fc92194ab8810cc76637fddb4d66ed1b2 foo
-daa75245cba13f39c07277acf385cb5b53bd859e foo
-33bda0a353301ea43c47f68fba47c303c267570f foo
-2594c809257cc027d6f5e93cad0de33fc6f3a8d0 foo
-652c08eb93b888ffcc35c6531d8c27a6ddc96513 foo
-cb6ae203adb0590be2b98a6b8b7db45a92aefcd2 foo
-48a7923a56d51a4774cc87bb95f86bfbce1b120c foo
-b10a5267e99126ca08d745f53a32620113655385 foo
-46de9fba0a16d2c1db3e5854faad442c6631cdee foo
-6e02be6d0677f27134466f073309eae7abd20ba5 foo
-560998909b66dda3888240342cff0417f64a2bd5 foo
-7bd4f6eaca981145e9be5222dba98fd863caaaa3 foo
-a975ccdb27e9cd18f841c09139b11fb7c7b432a7 foo
-1e368864ed77a4f6520834f5b4fbfb04aeca06a0 foo
-e693883fd8f10e8a2b018f4d5112a3415a262252 foo
-6073ea75bb4e9ad51f14ffd587459db82a01d5c0 foo
-7233e3db5d6f4acad12460b335c94ebec561c8cf foo
-d23ebbefbd5d501d8a793ae0b4b5f2a25d785066 foo
-e1c68dd87d8bf1644b4e983920f689c5e13f1b44 foo
-d35f60b43aaf6bf40440075bac6def01d211ff95 foo
-63fbfd092f832d5f6347cc765fad3a997502e688 foo
-36e2f111d368c373bc7102b0bc0c2fbe239f2c02 foo
-f22cd46dcf777acc2807b45c69d3e354c0c5de7a foo
-f3cc9c8e0448a28447a40f1868ae0fa7953362c2 foo
-0d990d79b628f25d144b672d865dae2a8fe278f2 foo
-764e664798f7f626c43a7e212bd430ad9243a9d1 foo
-ae8f5c1619cfbd8f340f0516199561bfa1a4616e foo
-e68c2e56288e970f93e75e4e6363635c8cbdc9af foo
-ea9f13b01fcf31d97da7fa762d9f597925e35f18 foo
-25d2d30e71bbefaf3218112fceadbfdfe577db37 foo
-e8416693a51bdde931326b93953fc1147cb94af1 foo
-b33b7ddad89b119a906e543c0ba3b78394f86567 foo
-fe3e91b48229b3ce50d0ebc2cecea37567b32db7 foo
-49e3c36d455e9ee22f229658a5aa3a1477bd6a38 foo
-2b41384269270a2483ed4d2c488148b526970381 foo
-b1cc2840f72380d9b488427f02f4f75a47f663d7 foo
-06d6e51cbd825deacd16fdc9ccb48514256771e6 foo
-f20a6de07fdcdb6283bef302ac1687f40912e13d foo
-bfd8db732a8c47ed7172589b19d88f207b30f305 foo
-75df587ee4b8d0ba14690fb127673c4da5cc600f foo
-c1861536aa5591a434639fc9a66f81e72ab94a0b foo
-9ba9357e4029f0af792ff8a11ddfeadb450b1388 foo
-56eae0bad3b8abd13af262cb0f662566cab464cd foo
-8b8e2bf75a5d186970c7ef5921a7f71d70456425 foo
-d3a8eaeefa039c7707f2a7afab94fd186480aab3 foo
-586068be4a233140106158fbabb2e18910255715 foo
-1915dfe0510c4fd1db43445f3b8153cad7366986 foo
-3e795eb11e1486c9a860d9c66973d2657c6dcb63 foo
-9ff21355aff57e71220f9581f1fbe372a632e36b foo
-9b3846f745126fb655c20f5f4dba8eaadfdb6ed4 foo
-
---===============2636696694842397646==--
+  - ref: refs/heads/perf/exclude-v2
+    old: 0000000000000000000000000000000000000000
+    new: f7a7bd06d6c85eaf9b4a8eeb8dfa2735c1b68d0e
