@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 Sep 2024 17:19:09 -0000
-Message-Id: <172547034995.1622477.7742277374631867950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 04 Sep 2024 17:24:59 -0000
+Message-Id: <172547069978.1627537.874553692441883034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: c5ec4dab8f3eafd5a112fd41dc7844e0ea6fa221
-    new: d94b69e386c0cedd9bb42ff5088a06ab3862ffb2
+  - ref: refs/heads/kdevops
+    old: bda5f7c8848e4917b3341883bc6c327d9a1d1874
+    new: 719b0377a8134325359bf03e59655cd8f1901718
     log: |
-         dce35dd27684640508ff330b8235c4671159743e spi: spidev_fdx: Fix the wrong format specifier
-         d94b69e386c0cedd9bb42ff5088a06ab3862ffb2 Merge remote-tracking branch 'spi/for-6.12' into spi-next
+         719b0377a8134325359bf03e59655cd8f1901718 nfsd: fix handling of delegated change attr in CB_GETATTR
          
