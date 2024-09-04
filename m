@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1099559614782771092=="
+Content-Type: multipart/mixed; boundary="===============1335006963994844889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 04 Sep 2024 14:56:59 -0000
-Message-Id: <172546181926.1484828.1348403952670738357@gitolite.kernel.org>
+Date: Wed, 04 Sep 2024 14:57:26 -0000
+Message-Id: <172546184678.1485162.11442305060164601990@gitolite.kernel.org>
 
---===============1099559614782771092==
+--===============1335006963994844889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1c0e5881691a787a9399a99bff4d56ead6e75e91
-    new: 593377036e50de89132bc1222800174fde0780ec
-    log: revlist-1c0e5881691a-593377036e50.txt
+  - ref: refs/tags/for-linus
+    old: c7989ae0a1904a700ee8727a0a6e8f66ea9b9bca
+    new: f3d102edfd7ce04a46690e59495f5445af797944
+    log: revlist-c7989ae0a190-f3d102edfd7c.txt
 
---===============1099559614782771092==
+--===============1335006963994844889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1725461839 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1725461866 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1725461816-c8d9798ff1ebebeb7cef459e8a123dedf1e80180
+nonce 1725461844-e333d4deb191a526a3aec52143bcac1cbe3ce80f
 
-1c0e5881691a787a9399a99bff4d56ead6e75e91 593377036e50de89132bc1222800174fde0780ec refs/heads/master
+c7989ae0a1904a700ee8727a0a6e8f66ea9b9bca f3d102edfd7ce04a46690e59495f5445af797944 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmbYdU8UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPPFAgAlitwWo3ZgK84hHUnBZoM3Syej6XU
-sZLWyAtIU1UvWaw8QiCoc/Uc2rRVZDUooBQ6FQIm5CcUZhUA4oochIexWvviCO5q
-iOQN2w51HKwoFDX+QndVXDR0F5BCQsvPGkGNY06R5toAqt1lhd4Qge2A/8ZKeCcP
-hmM2Yt3KvI3/qTEdsOMmCIcOYswXW+EnAn6Vaq3fqdmt3pIxyKVjZeyUKqzNWpvb
-2baXK7P2K890C5xdmva1elf5j/kid8cnnA85RjtsiXgD+R3du7cLl9ifcvKSnlvb
-eIikvslqj3hdx2jUnBF/icY5Y+VJnyqG95VJP2YlrQ12+b5pWKXnbM+lbA==
-=LMY6
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmbYdWoUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroO5/Qf+I/9EYAfhVlFQOzpWC9gV2uotAJaP
+hEauzSDNHwduW7EY6dLrNYsFLYBZo46mR9Vt6wvuG7PxA66RuSN//pWEa2jqAR98
+d8dCBGCizJINsVg0tGkR0bZffJuM2Hu0kUPoHrbgH5zOs/x0FaIaj6yjLtL1sVEy
+6cm1Xs1nY4UA3Owl7VknELhLT4fjxIknpkCPLhgAXXRvUudDSF3F6UsrlKW7CpVM
+uDSk7c/Vvf2Ur1ZuZqPww+bwEJqmDkX0ezrmXyzSf8scGs8Xv4givwbTxEioSAyx
+a4durEmzqfRuo1ohhmqM0GASgWsYPOlQHPtR4DLtlu8Fh6a/USMpqUNFww==
+=ZhYs
 -----END PGP SIGNATURE-----
 
---===============1099559614782771092==
+--===============1335006963994844889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c0e5881691a-593377036e50.txt
+Content-Disposition: attachment; filename=revlist-c7989ae0a190-f3d102edfd7c.txt
 
 5ce86c6c861352c9346ebb5c96ed70cb67414aa3 rust: suppress error messages from CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
 aacf93e87f0d808ef46e621aa56caea336b4433c rust: fix the default format for CONFIG_{RUSTC,BINDGEN}_VERSION_TEXT
@@ -407,4 +407,4 @@ dad1613e0533b380318281c1519e1a3477c2d0d2 KVM: SVM: fix emulation of msr reads/wr
 d30d9ee94cc0e7ae91da7251d9c280b8cf7e5e4d KVM: x86: Only advertise KVM_CAP_READONLY_MEM when supported by VM
 593377036e50de89132bc1222800174fde0780ec kvm: Note an RCU quiescent state on guest exit
 
---===============1099559614782771092==--
+--===============1335006963994844889==--
