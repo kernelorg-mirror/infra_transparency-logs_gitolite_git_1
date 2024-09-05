@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5658697169513410516=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 05 Sep 2024 08:26:30 -0000
-Message-Id: <172552479098.2370807.4106981128762403098@gitolite.kernel.org>
-
---===============5658697169513410516==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Sep 2024 08:27:07 -0000
+Message-Id: <172552482702.2371372.17287674949882363169@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: a726399a341a405da97131de3628de45de0e5ea2
-    new: ee93fbff6f5fb63515d101e3b740f65e3b2b6fb9
+  - ref: refs/heads/x86/cpu
+    old: fd82221a59fa5ce9dc7523e11c5e995104a28cb0
+    new: db4001f9cc32e3ef105a4e4f492d7d813b28292a
     log: |
-         ee93fbff6f5fb63515d101e3b740f65e3b2b6fb9 6.10-stable patches
+         171a7d9563a07a5101cc536932bc4db88a53374d extcon: axp288: Switch to new Intel CPU model defines
+         13ad4848dde0f83a27d433f7e11722924de1d506 x86/cpu/vfm: Delete X86_MATCH_INTEL_FAM6_MODEL[_STEPPING]() macros
+         db4001f9cc32e3ef105a4e4f492d7d813b28292a x86/cpu/vfm: Delete all the *_FAM6_ CPU #defines
          
-
---===============5658697169513410516==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725524810 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1725524784-ca98726e821e1b7fe2eeaeb120819e9646a049de
-
-a726399a341a405da97131de3628de45de0e5ea2 ee93fbff6f5fb63515d101e3b740f65e3b2b6fb9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbZa0sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8pQP/0acJzLDsofMYJtXS+LC
-43i1Pcs4FIgMPLzn+WSRmoEmhF6t8TYrj4xKTQoiRsTWuGmbtQlh3eerm7lM2vel
-V5LnM8iVtd0/+EYU1KhVgWS67WNhXHkU/Pn14tSt/kYIqPeN1x6f725l6d4EsI3Y
-iXfmeV6bYNARkfO2/rtc6xhCfd6WqvZZL2DI/3TepJrGsHXi/reTXu2grM8ps2tF
-u/eQm2fB/OxpksLV2pb0N+aDQngz0kQmPQwdGRUHfWvdxL7y/7lhP6OpCbmVHJfU
-SuwZRGwdYI/WrpEdtI7e9UtdGvJ+cYkQz+xW3hywFu2sSz1rpjEx7sPK7bmD3vdV
-sXMWzcid8F7sDPiJA7KdnchuEvZmWOaI3iXmQSiArNmYXURLmZ0DVIRYUhrmB4r7
-rO0a+V+9b1/G5gVIHwC3kKt3vta6MmMKszHHjzPG4y/8bCcEmzyC+HOXNYNpyb5F
-spWvy6ltTTrAyf0xzbQENSVW28chy/GGiJOA2HC+hA+VXL9WRmFGGGLHAwhHaciD
-pOSPj3UBr+NEf1jQMwT6E79isPFi5Uzn8CHV3XSma+9slNe9bQ8BEMnH/HM11uo+
-NFVI6I0t8yp2GGzwY3TjL7ZUzPaOKNpK+0hoO+/oT/25Sb7BwWKtPK+UeaXgvE+h
-L9ORdanSpyV6Aq3u9qFJHZjA
-=t0p0
------END PGP SIGNATURE-----
-
---===============5658697169513410516==--
