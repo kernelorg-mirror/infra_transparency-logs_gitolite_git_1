@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4278074582711730095=="
+Content-Type: multipart/mixed; boundary="===============1397761491393477576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 05 Sep 2024 09:15:33 -0000
-Message-Id: <172552773331.2416012.17282771007881294626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 05 Sep 2024 09:16:57 -0000
+Message-Id: <172552781710.2417198.5032010122257972991@gitolite.kernel.org>
 
---===============4278074582711730095==
+--===============1397761491393477576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: ce4d3d3804bdb27446b5c6638b134e013cc88eba
-    new: a0568c72abb29521aedd332928a12f88aa0baf65
-    log: |
-         a0568c72abb29521aedd332928a12f88aa0baf65 6.6-stable patches
-         
+  - ref: refs/heads/pwm/for-next
+    old: 25422cef98d65e0093e794af6ea68ba72defbba1
+    new: cf6631b07b907d4c644ca42f7cc234e7149290a2
+    log: revlist-25422cef98d6-cf6631b07b90.txt
+  - ref: refs/heads/pwm/for-nexxt
+    old: 25422cef98d65e0093e794af6ea68ba72defbba1
+    new: cf6631b07b907d4c644ca42f7cc234e7149290a2
+    log: revlist-25422cef98d6-cf6631b07b90.txt
 
---===============4278074582711730095==
+--===============1397761491393477576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-25422cef98d6-cf6631b07b90.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725527754 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1725527731-3f7d70bdb7b4c42d5383db897592ef20f442bcb3
+10c48e9a8fd5e524d37559cf4a06039b4c25db48 pwm: stm32: Use the right CCxNP bit in stm32_pwm_enable()
+24e529c5fbcad9a480607bb05128c61ba908a926 dt-bindings: pwm: renesas,pwm-rcar: Add r8a779h0 support
+9407f23d14edd42d372cefee023302bd95c9bca6 dt-bindings: pwm: renesas,tpu: Add r8a779h0 support
+1c3e34bf8802b8b17d0c2067c43bb49b7e83885c pwm: Make info in traces about affected pwm more useful
+f9ecc2febf6fd6ad53208a1c0e1b5066ee65dd8b pwm: Don't export pwm_capture()
+75f0cb339b7814dc759c58a0d42fc5c1b93c7836 pwm: lp3943: Use of_property_count_u32_elems() to get property length
+d6a800796e9806f62b52f2aa80e52a2553e11e9f pwm: Simplify pwm_capture()
+00576dc859b82267e65b600dedc762d258f35e43 pwm: lp3943: Fix an incorrect type in lp3943_pwm_parse_dt()
+512b65af172807418c3704d993a3c42957a1fa1f Merge tag 'ib-mfd-gpio-pwm-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into HEAD
+30e7899d8511affd43f82d696bddd2e8a19a0dc9 pwm: adp5585: Set OSC_EN bit to 1 when PWM state is enabled
+70b1192fd5b65f0ce8f5cf84bfa1e52d94943f71 pwm: omap-dmtimer: Use of_property_read_bool()
+86d5c767de59b363692bb44c22c68f5fd84c7a6a pwm: atmel-hlcdc: Enable module autoloading
+cf6631b07b907d4c644ca42f7cc234e7149290a2 pwm: atmel-hlcdc: Drop trailing comma
 
-ce4d3d3804bdb27446b5c6638b134e013cc88eba a0568c72abb29521aedd332928a12f88aa0baf65 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbZdsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yN8QAMLacXCJsDWOsVBpmDZ9
-4uJg8lbmQ1AVxmwvk39Lg6cU2OL8YlGy+vxhpjRqonV3SCei79HmS45HyojVyplY
-sa1tSL2HnVohQibwdmehLvSYNYDbMueZmp/VmOpS5CyYUFq/WoyWIFcaCVeftedB
-JpW2LBOAaZX/XL2OpSRZXyOiS6CUKXoe4zgMIio6BLE0XzfrYaS3fP/GEezdGVxB
-uqHrhEevZU/NI3bOjhuXnfwFiTVhVgSZzG6WcUs+ZxzJm8Nv/w3CHv3rQdArFIgo
-8/4/PraZ1k8CcOoqR/H6sXrk8DZb0qAToGmdwA+QQJHdFMiykPFOVRRcYt6sVq9B
-ChypVxWlvrnseb8Opg3S+3+kWIFdNWdSDiKudGtL4WQTxt1GcHtY8jiPcUjHaj0l
-Jrz9sWagjgaeIBuznNxoL3DT/cle8Udd/FfsrxesEFTrLzkXy1ZYSQHzl/5fiSz/
-dZQ8mtKNPK460/Dljps3EkOXPWvtz/DQ0H0iymImNeZhTLa1tvI8HcGIDCbu5kJV
-TC6CigKuCpr8kPbtQCy0DV/cD8g91ZJuRFPpZWmEK86ZxREbk4pf0MFo9U0rVhKD
-/3kna+xKhYVh3lPmBrAqpsin+zsPaumdIQ5GsmmolNbcnMTrfRbCoAVCp8ZJU6Jg
-3x0tZ8DDd2OcTjmlaDkitYhU
-=Wyvl
------END PGP SIGNATURE-----
-
---===============4278074582711730095==--
+--===============1397761491393477576==--
