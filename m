@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5860452769984611478=="
+Content-Type: multipart/mixed; boundary="===============5470059995926841120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Sep 2024 17:40:11 -0000
-Message-Id: <172555801195.2863737.4749676845683297912@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 17:43:54 -0000
+Message-Id: <172555823415.2865704.13281533369754328663@gitolite.kernel.org>
 
---===============5860452769984611478==
+--===============5470059995926841120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 231536077f05bf98167fe1f09454b03bc7ee3f2c
-    new: df7992fa81cd498d545196aff5d52320782bd5ac
-    log: revlist-231536077f05-df7992fa81cd.txt
+  - ref: refs/heads/1GbE
+    old: 7808012003004b5b31e24795af33480d5eed20f1
+    new: 22d6adac5b17d817f3ac5da2bd68aa8aa3c9dc17
+    log: revlist-780801200300-22d6adac5b17.txt
 
---===============5860452769984611478==
+--===============5470059995926841120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-231536077f05-df7992fa81cd.txt
+Content-Disposition: attachment; filename=revlist-780801200300-22d6adac5b17.txt
 
 177b49dbf9c1d8f9f25a22ffafa416fc2c8aa6a3 wifi: ath11k: use work queue to process beacon tx event
 e106b7ad13c1d246adaa57df73edb8f8b8acb240 wifi: ath12k: fix array out-of-bound access in SoC stats
@@ -213,54 +213,5 @@ d0c4dd9f7ca62be949343e3f6e59ce18f7873657 Merge tag 'linux-can-next-for-6.12-2024
 8d878c87b5c45ae64b0aecd4aac71e210d19173f net: phy: Optimize phy speed mask to be compatible to yt8821
 b671105b88c3bb9acc1fb61a3ee2ca0ece60cb8d net: phy: Add driver for Motorcomm yt8821 2.5G ethernet phy
 22d6adac5b17d817f3ac5da2bd68aa8aa3c9dc17 Merge branch 'add-driver-for-motorcomm-yt8821-2-5g-ethernet-phy'
-ba4535002e978ac5bec8ce12c913b71814b260b5 ice: add new VSI type for subfunctions
-ba707d3fbed369fba57e93c4609b3001099add26 ice: export ice ndo_ops functions
-2a9793282157f55303b2f9a94d4c3b954405a9cf ice: add basic devlink subfunctions support
-eb5638481f7f1c51d09c13c8ffb4f5a2d051c7a8 ice: treat subfunction VSI the same as PF VSI
-a3b25cc0edbd35aed24c87a629622cc77803c29e ice: allocate devlink for subfunction
-6fe9c2bc975a56ea15f0284f5b28460ff9c57784 ice: base subfunction aux driver
-476f5bbfd86c3ecb3604763fad9af1d729140d41 ice: implement netdev for subfunction
-bf6f32d943c39b8548fd9e4e2d8d03bc2c64f135 ice: make representor code generic
-ef9177c83912269396edc616098009c174be3434 ice: create port representor for SF
-a29a331b0060a249bc4bf05de4e92e9bb9282ba3 ice: don't set target VSI for subfunction
-cc8bc7446134ff9544e0ecafe92dce4fdb123a2b ice: check if SF is ready in ethtool ops
-0dd950e94c8a260a587f8c31388e26451049acf2 ice: implement netdevice ops for SF representor
-72a03020e23972744da4d835a6e624adc455e070 ice: support subfunction devlink Tx topology
-d2a8aafb7939bdaa49ca0f2c14eac7a4cbcfdff2 ice: basic support for VLAN in subfunctions
-1a01141ad058398d8fb677931114bda36b4416f7 ice: allow to activate and deactivate subfunction
-0a2206329f766db61e906177150199b735d39dd8 ice: Fix lldp packets dropping after changing the number of channels
-22332acdd8a84beba6a85e1edb925be36a739cd9 ice: Implement ice_ptp_pin_desc
-478ad4cd4ced0d7bb4a519ee871e64ea4964436e ice: Add SDPs support for E825C
-8454ea6ac26ad57a6b7fa533292c37425462da95 ice: Align E810T GPIO to other products
-9aaff12eb8099cfdb952d8f4883dfd751be36227 ice: Cache perout/extts requests and check flags
-21be25423136bbc751d1ee66ecb92812ce0f0cdc ice: Disable shared pin on E810 on setfunc
-f0f279ec243498a16aac06c1ade0299e205101d5 ice: Read SDP section from NVM for pin definitions
-cc11cdd78b6894c943b1e717bc08a2f90f37a05a ice: Enable 1PPS out from CGU for E825C products
-81299b92acc0b703c47933a9b8de7ae959b226cb ice: fix accounting for filters shared by multiple VSIs
-bfc21bddbfd1a775497ac85b7ff16520ebcd350b ice: Flush FDB entries before reset
-3353f80cb3fdced1ffc38a6c4a4b4e0d277cd70d ice: Implement ethtool reset support
-22971844a21d17d7ed70357bac4c611ee560cbc5 igb: Fix not clearing TimeSync interrupts for 82580
-eccca1a88dab76d0238ca55d228fc7aafd1b0963 ice: set correct dst VSI in only LAN filters
-e9e5b8bd7e45932069eb4651d19ce93356a981e2 ice: Add netif_device_attach/detach into PF reset flow
-1db464307dddebc67eee85fbfce4c9b4e8c850a8 igb: Always call igb_xdp_ring_update_tail() under Tx lock
-b29bbbb4e4987e1b5d6c5d4b0bee70bb0565cddf ice: add E830 HW VF mailbox message limit support
-93bbf6993659b6587ada1b14fa2ee7f6b9e0f330 ice: Introduce ice_get_phy_model() wrapper
-bec737b6b5735fcb739dd4937131fda817091d78 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
-b63961afaf99c7743e8f6f02998bc9827c03710a ice: Initial support for E825C hardware in ice_adapter
-72cacb8b87e2ccd904b2878ca6089b2bd2750812 ice: Use ice_adapter for PTP shared data instead of auxdev
-9a5721f1a238c819c890bcae91df54688cb93b57 ice: Drop auxbus use for PTP to finalize ice_adapter move
-0bfb6a4af42618e880e7e20f3f7b2090a853b892 checkpatch: don't complain on _Generic() use
-d1daa553b700f8a967e927fb9f44946f33def87d devlink: add devlink_fmsg_put() macro
-87ed8e9d0d617bb8dc3a470daba7a8bad71c25d6 devlink: add devlink_fmsg_dump_skb() function
-63077c4b5dde31da7991518e2b4025864336c333 ice: add Tx hang devlink health reporter
-10b9f3d4ace148510ca5e0dd87d43e349c18a3b3 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-d1f6b4de40e241fa74d8f2bfc7a881871d275dfe ice: Add MDD logging via devlink health
-a75ba58dbc0ba2e7da7e215489c6a175d7c3e513 ice: fix BST key index in ice_bst_key_init()
-356210f7b44065423ffc9a6da756b6078949c526 idpf: fix VF dynamic interrupt ctl register initialization
-272df5ea58a5137e345e62575a5334c39070f0e0 ice: stop calling pci_disable_device() as we use pcim
-d23e333baf17bb75e874e058d8db2df428f7ca1c ice: fix VSI lists confusion when adding VLANs
-00bd08c889c147c247c2121535258f2c0884299e ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
-4f6d5f4276e4cb1ec26191e4b734ef48fb8d7b54 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
-df7992fa81cd498d545196aff5d52320782bd5ac ice: Make use of assign_bit() API
 
---===============5860452769984611478==--
+--===============5470059995926841120==--
