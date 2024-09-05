@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1619573794107505477=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Thu, 05 Sep 2024 12:54:15 -0000
-Message-Id: <172554085585.2605267.12597114979769626966@gitolite.kernel.org>
-
---===============1619573794107505477==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 05 Sep 2024 12:54:42 -0000
+Message-Id: <172554088240.2606116.13394932071087448436@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/korg
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: e6f2b562f3bf30620d847ca892844ebe08849656
-    new: ff82fc58fb33d7736ab47b74e03111408b076a34
+  - ref: refs/heads/for-next
+    old: 1577a09c7b8ab8d61b7441b42d0191d9ef70350e
+    new: 05144ab7b7eaf531fc728fcb79dcf36b621ff42d
     log: |
-         ff82fc58fb33d7736ab47b74e03111408b076a34 Fix typoed wording
+         d9b5ca66b3e7bef31e603b8e0750222a50c8517a dt-bindings: input: qcom,pm8xxx-vib: Document PM6150 compatible
+         90e09575d49b64e8cd43e771eb878d88ed548669 dt-bindings: watchdog: convert ziirave-wdt.txt to yaml
+         0416f00cb0ef1a919a463cbd03ac32470eac24a4 dt-bindings: watchdog: nxp,lpc1850-wdt: Convert bindings to dtschema
+         c65d6796677ecaab992113a80bac7fe39dd76c27 dt-bindings: lcdif: Document the dmas/dma-names properties
+         05144ab7b7eaf531fc728fcb79dcf36b621ff42d kselftest: dt: Ignore nodes that have ancestors disabled
          
-
---===============1619573794107505477==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1725540877 -0400
-pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
-nonce 1725540855-72340815da1ad45d52d89b705c938d01ad9fa739
-
-e6f2b562f3bf30620d847ca892844ebe08849656 ff82fc58fb33d7736ab47b74e03111408b076a34 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtmqDQAKCRC2xBzjVmSZ
-bGw8AP9xTLqC5vJD5uW/l3YY7JVYFLCN9THeVuDBZ8c4eROnBAEAmBLuv9pY6T2M
-fyke5EmFccwxqIme2/5WSWFkZavodgk=
-=Sfax
------END PGP SIGNATURE-----
-
---===============1619573794107505477==--
