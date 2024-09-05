@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Sep 2024 00:12:10 -0000
-Message-Id: <172549513055.1977827.16746100302220076222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 05 Sep 2024 00:12:14 -0000
+Message-Id: <172549513490.1977959.2584025951296584728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bee2ef946d3184e99077be526567d791c473036f
-    new: 858430db28a5f5a11f8faa3a6fa805438e6f0851
+    old: 8ed6e71219a3571a5583db6f839e80eebaa2853d
+    new: d57f7b45945ac0517ff8ea50655f00db6e8d637c
     log: |
-         858430db28a5f5a11f8faa3a6fa805438e6f0851 net: xilinx: axienet: Fix race in axienet_stop
+         569bf6d481b0b823c3c9c3b8be77908fd7caf66b net: phy: Check for read errors in SIOCGMIIREG
+         d57f7b45945ac0517ff8ea50655f00db6e8d637c net: cadence: macb: Enable software IRQ coalescing by default
          
