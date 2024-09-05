@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 05 Sep 2024 16:09:51 -0000
-Message-Id: <172555259175.2785096.8331679253661796151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 05 Sep 2024 16:15:51 -0000
+Message-Id: <172555295162.2791396.833735452973263612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 6627c697ccea6ea806dfcd6c0f3899543f980cc0
-    new: f369c8d132791aa4018af9b6059a24e25fea280a
+  - ref: refs/heads/for-joerg/arm-smmu/updates
+    old: 086a3c40ebd02a4ac38121cf909326407b2883bc
+    new: 483e0bd8883a40fd3dd3193997a4014337698d72
     log: |
-         f369c8d132791aa4018af9b6059a24e25fea280a dt-bindings: pwm: allwinner,sun4i-a10-pwm: add top-level constraints
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: 6627c697ccea6ea806dfcd6c0f3899543f980cc0
-    new: f369c8d132791aa4018af9b6059a24e25fea280a
-    log: |
-         f369c8d132791aa4018af9b6059a24e25fea280a dt-bindings: pwm: allwinner,sun4i-a10-pwm: add top-level constraints
+         2408b81f817ba6c278c5453eb9b43a167f35d471 iommu/tegra241-cmdqv: Drop static at local variable
+         483e0bd8883a40fd3dd3193997a4014337698d72 iommu/tegra241-cmdqv: Do not allocate vcmdq until dma_set_mask_and_coherent
          
