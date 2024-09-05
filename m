@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7350571285143948733=="
+Content-Type: multipart/mixed; boundary="===============5548673069796228755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 05 Sep 2024 11:44:55 -0000
-Message-Id: <172553669534.2548028.16489120482781993339@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 11:45:57 -0000
+Message-Id: <172553675753.2550109.936787871513853430@gitolite.kernel.org>
 
---===============7350571285143948733==
+--===============5548673069796228755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: a63ce8f0be7b4db5282c63274f5aa106d8896620
+  - ref: refs/heads/delstid
+    old: d49661b0f1dbb3ba424d9b6f8fdf26283c00c4ef
     new: e485104ea973e87dcccdb9c72976423818e521e5
-    log: revlist-a63ce8f0be7b-e485104ea973.txt
+    log: revlist-d49661b0f1db-e485104ea973.txt
 
---===============7350571285143948733==
+--===============5548673069796228755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a63ce8f0be7b-e485104ea973.txt
+Content-Disposition: attachment; filename=revlist-d49661b0f1db-e485104ea973.txt
 
 9e6397ee97dec6313c26727810f583c07b933288 nfsd: implement the "delstid" draft
 abcb9fc015981d4be2748e7baeab81acfe54e989 nfsd: fix initial getattr on write delegation
@@ -39,4 +39,4 @@ eea773107d6b4a15b7a3d568211a6ed56cfd3d36 nfs_common: make include/linux/nfs4.h i
 fef04926d46dcc53e3b71fdc541ba83dc6a17ec1 nfsd: add support for delegated timestamps
 e485104ea973e87dcccdb9c72976423818e521e5 nfsd: handle delegated timestamps in SETATTR
 
---===============7350571285143948733==--
+--===============5548673069796228755==--
