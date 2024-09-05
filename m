@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8297106803881802156=="
+Content-Type: multipart/mixed; boundary="===============7081049814729504875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Sep 2024 17:57:34 -0000
-Message-Id: <172555905484.2879519.8167339299846103214@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 17:57:37 -0000
+Message-Id: <172555905704.2879598.10527931133941006499@gitolite.kernel.org>
 
---===============8297106803881802156==
+--===============7081049814729504875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4963d2343af81f493519f9c3ea9f2169eaa7353a
     new: 8e69c96df771ab469cec278edb47009351de4da6
     log: revlist-4963d2343af8-8e69c96df771.txt
 
---===============8297106803881802156==
+--===============7081049814729504875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ c82299fbbccecf5866bdc3fa9cc46d5c6f5005ad docs: netdev: document guidance on clea
 546ea84d07e3e324644025e2aae2d12ea4c5896e sched: sch_cake: fix bulk flow accounting logic for host fairness
 8e69c96df771ab469cec278edb47009351de4da6 net: dsa: vsc73xx: fix possible subblocks range of CAPT block
 
---===============8297106803881802156==--
+--===============7081049814729504875==--
