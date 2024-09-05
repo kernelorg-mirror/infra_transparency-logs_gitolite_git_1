@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Sep 2024 10:49:32 -0000
-Message-Id: <172553337269.2503462.15015302070979444181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 05 Sep 2024 10:51:30 -0000
+Message-Id: <172553349094.2506331.12651977897880226008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 097a44db5747403b19d05a9664e8ec6adba27e3b
-    new: 650ca1ed44c5b9256b15227ba2c16285990b7488
+  - ref: refs/heads/wip/leon-for-next
+    old: cf2840f59119f41de3d9641a8b18a5da1b2cf6bf
+    new: fedf7d466d3d67bfc79d44079da9055bbdb0faff
     log: |
-         de849243404e8ce02320a7178d4448e4d0191377 ASoC: audio-graph-card: Use for_each_child_of_node_scoped() to simplify code
-         815f1fcf2403454904cbbc5cf370df6bc300f392 ASoC: audio-graph-card2: Use helper function of_get_child_count()
-         e328ab3de4d8147e2458a524db0f7661e7c28ac7 Some clean up with helper fucntion
-         650ca1ed44c5b9256b15227ba2c16285990b7488 Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         291766e6420e72f30647273a7d4f78bd15f5f277 RDMA/mlx5: Drop redundant work canceling from clean_keys()
+         cf047a4d734c28ad0ba73d1595bf16ab3855af91 RDMA/mlx5: Fix counter update on MR cache mkey creation
+         24e58150b7c370fbb136eec3126857ce3cdc611d RDMA/mlx5: Limit usage of over-sized mkeys from the MR cache
+         8a1e4024cc963c415c9e07eb75afbe92a8a4e2f7 RDMA/mlx5: Fix MR cache temp entries cleanup
+         b98993bf7e63b08a3246251b67d3d17e2ad6477d RDMA/bnxt_re: Fix the compatibility flag for variable size WQE
+         fedf7d466d3d67bfc79d44079da9055bbdb0faff RDMA/bnxt_re: Fix the max WQE size for static WQE support
          
