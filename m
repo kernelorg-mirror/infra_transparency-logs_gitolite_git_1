@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Sep 2024 09:54:14 -0000
-Message-Id: <172553005404.2452113.1301336983732299864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Sep 2024 09:54:19 -0000
+Message-Id: <172553005958.2452283.4043634931431063527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: d1501078d78cfbb4469efae1525fb404e1e17d1c
-    new: 7af786126ef769fde85019a2e070b141b4c6dcce
+  - ref: refs/heads/main
+    old: c82299fbbccecf5866bdc3fa9cc46d5c6f5005ad
+    new: 546ea84d07e3e324644025e2aae2d12ea4c5896e
     log: |
-         1dbb6b1495d472806fef1f4c94f5b3e4c89a3c1d x86/bugs: Fix handling when SRSO mitigation is disabled
-         7af786126ef769fde85019a2e070b141b4c6dcce Merge branch into tip/master: 'x86/bugs'
+         546ea84d07e3e324644025e2aae2d12ea4c5896e sched: sch_cake: fix bulk flow accounting logic for host fairness
          
