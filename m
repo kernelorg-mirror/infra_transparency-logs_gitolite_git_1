@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 05 Sep 2024 14:49:41 -0000
-Message-Id: <172554778175.2715696.14407568293226289942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Sep 2024 14:56:51 -0000
+Message-Id: <172554821189.2722421.11099885339709935161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/block-6.11
-    old: b858a36fe9a1261dfd097aec855161ad135bed60
-    new: 4ba032bc71dad8d604d308afffaa16b81816c751
+  - ref: refs/heads/perf/core
+    old: 95c13662b65c562d4902ad9f810378261347a749
+    new: c4d4569c41f9cda745cfd1d8089ea3d3526bafe5
     log: |
-         f4bd3139933da65c2daa402b2a4d5fe469133aec nvmet: Make nvmet_debugfs static
-         5a6d3a638c93881b7a7c13df870238b91399578a nvme: use better description for async reset reason
-         5572a55a6f830ee3f3a994b6b962a5c327d28cb3 nvmet-tcp: fix kernel crash if commands allocation fails
-         6f01bdbfef3b62955cf6503a8425d527b3a5cf94 nvme-pci: allocate tagset on reset if necessary
-         61aa894e7a2fda4ee026523b01d07e83ce2abb72 nvme-pci: Add sleep quirk for Samsung 990 Evo
-         28982ad73d6a9605708631dc49a0c763cc398aa2 nvme: set BLK_FEAT_ZONED for ZNS multipath disks
-         899d2e5a4e3d36689e8938e152f4b69a4bcc6b4d nvmet: Identify-Active Namespace ID List command should reject invalid nsid
-         4ba032bc71dad8d604d308afffaa16b81816c751 Merge tag 'nvme-6.11-2024-09-05' of git://git.infradead.org/nvme into block-6.11
+         62c0b1061593d7012292f781f11145b2d46f43ab perf/core: Fix small negative period being ignored
+         5fe6e308abaea082c20fbf2aa5df8e14495622cf bpf: Fix use-after-free in bpf_uprobe_multi_link_attach()
+         3f7f1a64da731749f1bbd7424b44c1ec6191f21c uprobes: revamp uprobe refcounting and lifetime management
+         8617408f7a01e94ce1f73e40a7704530e5dfb25c uprobes: protected uprobe lifetime with SRCU
+         59da880afed211c989ef65da577b24215ce57774 uprobes: get rid of enum uprobe_filter_ctx in uprobe filter callbacks
+         cc01bd044e6a521d2cd128f685ee8d23ef0067f2 uprobes: travers uprobe's consumer list locklessly under SRCU protection
+         04b01625da130c7521b768996cd5e48052198b97 perf/uprobe: split uprobe_unregister()
+         50a38035ed5ccc2ab8a28eaf70c3c7a87e060345 rbtree: provide rb_find_rcu() / rb_find_add_rcu()
+         cd7bdd9d46a9540f3a20a0e14c99aa37b2d4a1dd uprobes: perform lockless SRCU-protected uprobes_tree lookup
+         c4d4569c41f9cda745cfd1d8089ea3d3526bafe5 uprobes: switch to RCU Tasks Trace flavor for better performance
          
