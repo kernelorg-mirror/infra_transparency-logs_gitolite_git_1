@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6693774422417815362=="
+Content-Type: multipart/mixed; boundary="===============7941720662673523300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 05 Sep 2024 09:36:47 -0000
-Message-Id: <172552900701.2435901.15583666647098300937@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 09:36:56 -0000
+Message-Id: <172552901653.2436089.11590697545123733443@gitolite.kernel.org>
 
---===============6693774422417815362==
+--===============7941720662673523300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 6f6130031f9833c61ff5d707a5697226037876ec
-    new: eeef0bb583969a5178376dad55f6f39f92646944
-    log: revlist-6f6130031f98-eeef0bb58396.txt
+  - ref: refs/heads/linux-5.4.y
+    old: e472fc50b5ddfcc28364eb0f24cbb8a3ed10152f
+    new: 628a7c4b8ae2732b8e38c8234e01d9b7ea9aacf4
+    log: revlist-e472fc50b5dd-628a7c4b8ae2.txt
 
---===============6693774422417815362==
+--===============7941720662673523300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725529027 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725529037 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1725528999-e722151bb13ec76e5df596aefc5854a320b0fc58
+nonce 1725529006-ec25fa3438d3d6ed64d40f4aa30cf07375afe7b4
 
-6f6130031f9833c61ff5d707a5697226037876ec eeef0bb583969a5178376dad55f6f39f92646944 refs/heads/linux-4.19.y
+e472fc50b5ddfcc28364eb0f24cbb8a3ed10152f 628a7c4b8ae2732b8e38c8234e01d9b7ea9aacf4 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbZe8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iOsQAK2Kc3GNOW4+Te9/WGqZ
-HKxVHh2g8IIA8iPANgWjco9kQeNpZOMHZ8fugaLl8PPP6rjSclhtxBPyhJdfkT95
-mdZt+2CSl9zhLwRzM+TuJHR4/IKmyawOHPskOz4OfQK1V6bNwlqehbZvfLmAisY7
-9XoFrTE3Ku0jUShkEnH9vgW1WYbjZf+UcdwWxEfB0+bhifbGd9S4yEnF4i2eVKDb
-BFb7M4l4DFk7qEKPHr/n/7zaCapLWQCfyqDOQ1CseOYi+m6Z5AAHC7kESHb1JVkl
-b1oxs4OB/K0SD5w2aTvls+U50O9CorGs6xKO2NGcM4i2AjEQBCPSnfDH705yi5kj
-JM6qqyhip3/+LAh8j97F5YW3RL1UPmM93yumXPEeOMCstNdt2J6TZAoYApR/nUZg
-3woNHxfCErtsCUBZGPS7u7v67PAMSJ6gBEPZMN1rrBGcknC8e/5VLZGZxGwBhOWj
-ceDP6W0dcqOLkwrDIyuFtTsLOBj0tNICGhEtd1czL8AcUybxEp2VZnEJMfjAIAoF
-egHp109omXHrpllOm2yBj/h0EWCUELVyd/MjwVsRRDpWSQOXwpLb+oQaehqhVzH6
-MUbmCxVNtaWJirLZ7GvkCzgeXhQOyikccABdvbSiXPiYd+jUutRa46QXyMB0NYcZ
-pYuhwwB47pOlDVGrgSAW8jpr
-=GR2Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbZe80bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ekMQAKQHuA95m75+qEpuMGn1
+0Sa/F46j6EjBm+lthP64xwdQi/Y83d9NOLbDb0a9aSGN7S+7d1cBQqHWrMVVpCOG
+hDLG+LUqNLU0PCjNQ0Ix9k7vag5YGS0PDzwIVMFj9g7MKktPkFTNAPXRurTg7Mdb
+S7Lp4VZj+4OhIYlYIHc4cRlgfyObciT37lICZqWsGx9IIXsfV3k1grZY2VPk4EqI
+428l4mVIjmlQlp301KgReQa2hg746venufy1hNKy5z/LRtVEiRdR0DIfZ1SWhoNY
+QQF5yN0U2pkFmouXspsFa+a8CehbJ4WG4yg/uW4rgeX3uJzD+26c6BYhUdBJFRoZ
+4gHyUpSaS0YvFLgafDw9yAt0fMekrXzbwa6YIfUEa8wrEZArN2qT84pIXFRSJpiZ
+AkuG5Wb5BTRwFHS0kVfzXGvI9Aj0RqHMSgQM6vJ5XIU35fPpGcBOmF3Cx6vWNGDK
+AF/WTyJ1K2h8agHrq5VFfLAlySSUnSiecDMkMYYI9r2177PbedhpqkpAZARDwOsK
+KCuwughZ8IGMQ73qYAa64nBFWPMX/x+XIs1t4saVTTCNuN8RXqkdTcnPbOOCZoNM
+hvdkOvl6JnQ0UvH2rg3U+XurDZUQ58oewKsAiPmDnsIhqS/MHA0+1N3u8k1DXc61
+qX1qC17BmlEJdNjmN8ALN9k9
+=vl0D
 -----END PGP SIGNATURE-----
 
---===============6693774422417815362==
+--===============7941720662673523300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f6130031f98-eeef0bb58396.txt
+Content-Disposition: attachment; filename=revlist-e472fc50b5dd-628a7c4b8ae2.txt
 
-26e5e09e5b262819a5b0455b14711770b0d4744f net: usb: qmi_wwan: add MeiG Smart SRM825L
-cc6dc57f5e31702f059f1658074d29202154401d usb: dwc3: st: Add of_node_put() before return in probe function
-a00a246497ce070652289c8b465155ec68cae5fe usb: dwc3: st: add missing depopulate in probe error path
-89e3e3cec1c93a2c4258c88dd632d2ce319d7f8e drm/amdgpu: Fix uninitialized variable warning in amdgpu_afmt_acr
-7542d2182b43d45ace19725369ed5613f9299fda drm/amdgpu: fix overflowed array index read warning
-22202e4a59d3972fdfe1a0812e16ba8dde39bb09 drm/amdgpu: fix ucode out-of-bounds read warning
-d61e92cddc318757c6f89e13af38151abd124a4b drm/amdgpu: fix mc_data out-of-bounds read warning
-0a370931dbe54251f432c7090db93fa7483db73a drm/amdkfd: Reconcile the definition and use of oem_id in struct kfd_topology_device
-9bf5d785fceb56de731523db3d3225e3f8fb1ec0 apparmor: fix possible NULL pointer dereference
-a2b3245aaa4422ae27afe97e7e9a1da836eab769 usbip: Don't submit special requests twice
-e6b4a1457817e5e1742518fba4238f1e3fe62467 smack: tcp: ipv4, fix incorrect labeling
-755ca200b52599457edc7a97b27e38aa60b18067 media: uvcvideo: Enforce alignment of frame and interval
-d1e488dfc592f8a9102575fe64ff41a479aeb211 block: initialize integrity buffer to zero before writing it to media
-5c88eaf6a8834bb7dca0534f478008326b7f4ce0 virtio_net: Fix napi_skb_cache_put warning
-da78058d4da3aad03a102734570199b557ada4e5 udf: Limit file size to 4TB
-eeef0bb583969a5178376dad55f6f39f92646944 Linux 4.19.322-rc1
+f720977591e7f43aa3aa9f881440fe0ebcec891b drm: panel-orientation-quirks: Add quirk for OrangePi Neo
+8ac4261b9c6a10e8051c1fbab555b1460fc43b70 i2c: Fix conditional for substituting empty ACPI functions
+43cc81b601f423b099b8c738b073ed4967895d92 net: usb: qmi_wwan: add MeiG Smart SRM825L
+c14c85e9d01825d8573765b121c97ea0e17a211b drm/amdgpu: Fix uninitialized variable warning in amdgpu_afmt_acr
+da3d78bf3e1da60bbc9d032213d9ea101d1d1f66 drm/amdgpu: fix overflowed array index read warning
+539f9a83a9e0a233ed3af20b84076712b101b5c2 drm/amd/display: Check gpio_id before used as array index
+a28e1fbe1f6ff4228747ce0f67f281cca2bfc327 drm/amd/display: Stop amdgpu_dm initialize when stream nums greater than 6
+07729d32d29d04454058f2c3fa642895df961537 drm/amd/display: Check num_valid_sets before accessing reader_wm_sets[]
+ab1b693f83107bebfed9f8c112c624e323c607ca drm/amd/display: Fix Coverity INTEGER_OVERFLOW within dal_gpio_service_create
+9e25bedc53617091f23607a85c0734662a1cca93 drm/amdgpu: fix ucode out-of-bounds read warning
+09396bb33de69902873204f5d1498f365c597edb drm/amdgpu: fix mc_data out-of-bounds read warning
+bd61ca7c5d5007911fd659df70ad50159be739da drm/amdkfd: Reconcile the definition and use of oem_id in struct kfd_topology_device
+a38cf019a6bab911d14b6ca20d81ff1c88b78e54 apparmor: fix possible NULL pointer dereference
+96f63ea2724ad1c3ffe02b7e6f7f92b26b127178 ionic: fix potential irq name truncation
+79bc4ab07c2179b2391144b72937c869b04bff82 usbip: Don't submit special requests twice
+6ee409e3899ec322bec301e7f4339a1ed41faefa usb: typec: ucsi: Fix null pointer dereference in trace
+bdbaecb2b5cceb2d97dd298caa8c7173e1343126 smack: tcp: ipv4, fix incorrect labeling
+be97c8523bf7c1a68d0be56b17e13e6e9f75d81e wifi: cfg80211: make hash table duplicates more survivable
+e74ebbc545e62df7e9b44954ced5779becba89ef drm/amd/display: Skip wbscl_set_scaler_filter if filter is null
+a84cb0891e12084a70921c8f4399600976b425c5 media: uvcvideo: Enforce alignment of frame and interval
+0900b72d1c1d43fe3071d0e421a64e11e704c973 block: initialize integrity buffer to zero before writing it to media
+382bff9b49eb56dfdab2df7a772ac0c4dd046461 net: set SOCK_RCU_FREE before inserting socket into hashtable
+7eae6f78a6bfaa778263cfe38036d5906a493eac virtio_net: Fix napi_skb_cache_put warning
+1e65db9a4e4cd76af18e3dcf69708ce1a7bcb958 udf: Limit file size to 4TB
+f035f3ef44463cc52b3462be8018dc1a176782da i2c: Use IS_REACHABLE() for substituting empty ACPI functions
+628a7c4b8ae2732b8e38c8234e01d9b7ea9aacf4 Linux 5.4.284-rc1
 
---===============6693774422417815362==--
+--===============7941720662673523300==--
