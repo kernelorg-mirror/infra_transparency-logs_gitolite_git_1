@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 05 Sep 2024 17:50:00 -0000
-Message-Id: <172555860099.2871546.1758154455344130690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 05 Sep 2024 17:50:15 -0000
+Message-Id: <172555861540.2873226.9232792101765678099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: c763c43396883456ef57e5e78b64d3c259c4babc
-    new: ad618736883b8970f66af799e34007475fe33a68
+    old: e1ee858a9a925fcd7b62ff0004a55a61dddc5475
+    new: f59c6b16f075783d6d5540c17fc22e665b0bbc40
     log: |
-         f2c6dbd220170c2396fb019ead67fbada1e23ebd kunit: Device wrappers should also manage driver name
-         ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb platform/x86: dell-smbios: Fix error path in dell_smbios_init()
-         d34af755a533271f39cc7d86e49c0e74fde63a37 platform/x86/amd: pmf: Make ASUS GA403 quirk generic
-         120434e5b305defa1fb1e7a38421ed08f93243d5 Merge tag 'linux_kselftest-kunit-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         ad618736883b8970f66af799e34007475fe33a68 Merge tag 'platform-drivers-x86-v6.11-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+         924772422df8afec4579a7245a032c3a0194b19c patches/next: cleanup damon_test_nr_accesses_to_accesses_bp() 32bit fix
+         c24701ad6670bc361805f87f83f65aef9b5dbea5 patches/posted/hotfixes: add posted patch for damon_tests_nr_accesses_to_accesses_bp() 32bit fix
+         f5799285c6d52a374874ea429e5d3374a6467e9a patches/next: cleanup damon_feed_loop_next_input() overflows fix
+         9519dde019b75cf0706e742bd8ea76490f851010 patches/posted/hotfixes: add the posted feed loop overflows fix RFC patch
+         f59c6b16f075783d6d5540c17fc22e665b0bbc40 patches/next: drop temporal build fix
          
