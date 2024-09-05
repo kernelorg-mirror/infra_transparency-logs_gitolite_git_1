@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5470059995926841120=="
+Content-Type: multipart/mixed; boundary="===============1679000445913278270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Sep 2024 17:43:54 -0000
-Message-Id: <172555823415.2865704.13281533369754328663@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 17:43:56 -0000
+Message-Id: <172555823666.2865785.6999736105720139809@gitolite.kernel.org>
 
---===============5470059995926841120==
+--===============1679000445913278270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7808012003004b5b31e24795af33480d5eed20f1
     new: 22d6adac5b17d817f3ac5da2bd68aa8aa3c9dc17
     log: revlist-780801200300-22d6adac5b17.txt
 
---===============5470059995926841120==
+--===============1679000445913278270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -214,4 +214,4 @@ d0c4dd9f7ca62be949343e3f6e59ce18f7873657 Merge tag 'linux-can-next-for-6.12-2024
 b671105b88c3bb9acc1fb61a3ee2ca0ece60cb8d net: phy: Add driver for Motorcomm yt8821 2.5G ethernet phy
 22d6adac5b17d817f3ac5da2bd68aa8aa3c9dc17 Merge branch 'add-driver-for-motorcomm-yt8821-2-5g-ethernet-phy'
 
---===============5470059995926841120==--
+--===============1679000445913278270==--
