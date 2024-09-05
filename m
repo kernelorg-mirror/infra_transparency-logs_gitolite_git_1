@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6830613666371522642=="
+Content-Type: multipart/mixed; boundary="===============4020827525258183255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Sep 2024 22:19:50 -0000
-Message-Id: <172557479088.3098984.2930421581113695938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Thu, 05 Sep 2024 22:21:25 -0000
+Message-Id: <172557488585.3101494.15551839425937536532@gitolite.kernel.org>
 
---===============6830613666371522642==
+--===============4020827525258183255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/daveh/devel
 user: daveh
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 981cf568a8644161c2f15c02278ebc2834b51ba6
-    new: 431c1646e1f86b949fa3685efc50b660a364c2b6
-    log: revlist-981cf568a864-431c1646e1f8.txt
+  - ref: refs/heads/testme
+    old: 85cd0dc8bfd0231091b4253e608403026367012b
+    new: c8ddc99eeba5f00b65efeae920eec3990bfc34ca
+    log: revlist-85cd0dc8bfd0-c8ddc99eeba5.txt
 
---===============6830613666371522642==
+--===============4020827525258183255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-981cf568a864-431c1646e1f8.txt
+Content-Disposition: attachment; filename=revlist-85cd0dc8bfd0-c8ddc99eeba5.txt
 
-c181da18a7302c5de510fe975a3a333299c6e4b7 ice: Fix incorrect assigns of FEC counts
-568901e709d7fa564dfdc75816ea59fec65d20a0 tools/include: Sync uapi/asm-generic/unistd.h with the kernel sources
 ed86525f1f4b738bae75c73e89f25430bd0af1b0 tools/include: Sync network socket headers with the kernel sources
 845295f4004c7e1591bab4bad01b51f37d32272f tools/include: Sync filesystem headers with the kernel sources
 f6d9883f8e680460be4714d4d35c7acac1dffeaf tools/include: Sync x86 headers with the kernel sources
@@ -1050,5 +1048,7 @@ e3e6940940910c2287fe962bdf72015efd4fee81 bcachefs: Revert lockless buffered IO p
 a4c763129fbcc7da5d3134ea95f9577f25bc637d Merge tag 'bcachefs-2024-08-21' of https://github.com/koverstreet/bcachefs
 6b9ffc4595ab936b10834167037acb992ebac34a Merge tag 'v6.11-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 431c1646e1f86b949fa3685efc50b660a364c2b6 Linux 6.11-rc6
+9c936844010466535bd46ea4ce4656ef17653644 x86/sgx: Fix deadlock in SGX NUMA node search
+c8ddc99eeba5f00b65efeae920eec3990bfc34ca x86/sgx: Log information when a node lacks an EPC section
 
---===============6830613666371522642==--
+--===============4020827525258183255==--
