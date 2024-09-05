@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 05 Sep 2024 03:26:05 -0000
-Message-Id: <172550676590.2136659.11977785128918019272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 05 Sep 2024 04:06:40 -0000
+Message-Id: <172550920040.2166947.1499760350220996009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 23cf6107c6c22f32ba358e3316264eec4d0d30c2
-    new: 163c2ebd37712160622670a971bb8cb9bc5c0d09
+  - ref: refs/heads/nfs-localio-for-next.v15-with-fixups
+    old: ccc15daac1858efed6100c5c85cd47b15d30a794
+    new: e85306941878a87070176702de687f2779436061
     log: |
-         154a29be0552f5a39e34301ebaf24623d64073da netdev: fall back to RSSI polling if SET_CQM fails
-         163c2ebd37712160622670a971bb8cb9bc5c0d09 netdev: fix potential command ID overwrite setting CQM threshold
+         ae70303edfeb9670a4fdd047ceb889ada2164fd5 nfs_common: fixes to nfs_to to follow normal operations table pattern
+         7b0105cc6ce18f12af3471fec658f74fa89724c1 nfs_common: a few sparse fixes primarily dealing with rcu usage
+         e85306941878a87070176702de687f2779436061 nfs_common: push nfsd_open_local_fh rcu requirements to caller
          
