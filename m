@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 05 Sep 2024 20:08:35 -0000
-Message-Id: <172556691542.2989068.7313013704567420537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 05 Sep 2024 20:15:20 -0000
+Message-Id: <172556732040.2996298.12274914806346443246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 552895afadb39f82ac44b62651b3c6261b6f96cc
-    new: bd4d67f8ae55d42273c6cd661b622ed713d20350
+  - ref: refs/heads/for-next
+    old: 9e3f350857e4d7c98640488c9246bddc6b68d6ac
+    new: bae9cc0db17298604c56256a6af6ca0180b0fbdf
     log: |
-         5db0ba6766f8a6606e655ddad745c87bc01349c7 selftests/bpf: fix some typos in selftests
-         a86857d2546c98f6c4e5677af8c6b8a80edd0704 bpftool: fix some typos in bpftool
-         bd4d67f8ae55d42273c6cd661b622ed713d20350 libbpf: fix some typos in libbpf
+         687d6009ae28d51a081c3d6f66c29d195a5cda2f arm64: dts: rockchip: add CAN-FD controller nodes to rk3568
+         e00bf11185033456f3d4345bcd366df1f7cc7255 arm64: dts: rockchip: add CAN0 and CAN1 interfaces to mecsbc board
+         bae9cc0db17298604c56256a6af6ca0180b0fbdf Merge branch 'v6.12-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.12-armsoc/dts64
+    old: 2edb4f0ede44725ad88534e73ba15213cbc7d556
+    new: e00bf11185033456f3d4345bcd366df1f7cc7255
+    log: |
+         687d6009ae28d51a081c3d6f66c29d195a5cda2f arm64: dts: rockchip: add CAN-FD controller nodes to rk3568
+         e00bf11185033456f3d4345bcd366df1f7cc7255 arm64: dts: rockchip: add CAN0 and CAN1 interfaces to mecsbc board
          
