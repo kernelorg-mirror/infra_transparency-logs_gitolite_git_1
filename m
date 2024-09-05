@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 05 Sep 2024 03:07:25 -0000
-Message-Id: <172550564556.2122150.4727855411367313298@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 03:26:05 -0000
+Message-Id: <172550676590.2136659.11977785128918019272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: c66438e34fdf54afddccd027d5cc06a38946343a
-    new: 23cf6107c6c22f32ba358e3316264eec4d0d30c2
+    old: 23cf6107c6c22f32ba358e3316264eec4d0d30c2
+    new: 163c2ebd37712160622670a971bb8cb9bc5c0d09
     log: |
-         23cf6107c6c22f32ba358e3316264eec4d0d30c2 monitor: fix build with INGRESS/EGRESS definitions
+         154a29be0552f5a39e34301ebaf24623d64073da netdev: fall back to RSSI polling if SET_CQM fails
+         163c2ebd37712160622670a971bb8cb9bc5c0d09 netdev: fix potential command ID overwrite setting CQM threshold
          
