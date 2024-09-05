@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 05 Sep 2024 12:42:00 -0000
-Message-Id: <172554012023.2594671.7226890235621048628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 05 Sep 2024 12:42:25 -0000
+Message-Id: <172554014567.2595057.9987912634585021728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/slab/for-6.12/misc
-    old: 59090e479ac78ae18facd4c58eb332562a23020e
-    new: e02147cb703412fa13dd31908c734d7fb2314f55
-    log: |
-         e02147cb703412fa13dd31908c734d7fb2314f55 mm/slab: Optimize the code logic in find_mergeable()
-         
+  - ref: refs/tags/amlogic-drivers-for-v6.12
+    old: 0000000000000000000000000000000000000000
+    new: f01b9c82b00217945f52c6133434ea8af5f239b8
