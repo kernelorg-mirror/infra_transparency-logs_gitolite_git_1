@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 05 Sep 2024 21:59:13 -0000
-Message-Id: <172557355383.3079873.5573451026969456148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 05 Sep 2024 21:59:42 -0000
+Message-Id: <172557358274.3080642.7329737977954929264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/v6.12-next/dts64
-    old: 83c7d5aa7bdcdc894a710b175cb980cea94511f8
-    new: 05a76158866fdab59b8140db805b7a28286ae78e
+  - ref: refs/heads/master
+    old: 857cfc973acaccac5bf41c9f40496877f54e623a
+    new: ceae9ded52bf20a22ddf7feb78ddb1a78c2ebd1e
     log: |
-         fe758bb580a88fad7ebe6a0e0b636956a56ca1e8 arm64: dts: mediatek: add afe support for mt8365 SoC
-         05a76158866fdab59b8140db805b7a28286ae78e arm64: dts: mediatek: add audio support for mt8365-evk
+         6c8f0234c7d75ef6caa494fd642a0d7447064f75 foo
+         ceae9ded52bf20a22ddf7feb78ddb1a78c2ebd1e foo
          
