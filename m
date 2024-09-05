@@ -1,44 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7192026763730037540=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Thu, 05 Sep 2024 22:43:04 -0000
-Message-Id: <172557618486.3118760.8408458649716672930@gitolite.kernel.org>
-
---===============7192026763730037540==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 05 Sep 2024 22:44:07 -0000
+Message-Id: <172557624749.3119350.15328183898172245797@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/nxp/v6.11/dev/rpi-cam/next
-    old: 0000000000000000000000000000000000000000
-    new: 87ba3a408a5da41bd4afb10275a88a73c0ef3573
-
---===============7192026763730037540==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1725576196 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1725576175-c985f9db808fbeeeb4b3d79f014f0ff7f58b1ea9
-
-0000000000000000000000000000000000000000 87ba3a408a5da41bd4afb10275a88a73c0ef3573 refs/heads/nxp/v6.11/dev/rpi-cam/next
------BEGIN PGP SIGNATURE-----
-
-iJgEABYKAEAWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCZto0BCIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEIXxllBhQkvhdpYBAMQGN2ZICpHO
-yvqcrsRaVNqrj0KB70fQAeAlegt/mF7pAQDb9DXkrwgWkxCW+D0FFt3WbsWlEnan
-IHgFl2ymElkfCg==
-=V/oC
------END PGP SIGNATURE-----
-
---===============7192026763730037540==--
+  - ref: refs/heads/master
+    old: c763c43396883456ef57e5e78b64d3c259c4babc
+    new: ad618736883b8970f66af799e34007475fe33a68
+    log: |
+         f2c6dbd220170c2396fb019ead67fbada1e23ebd kunit: Device wrappers should also manage driver name
+         ffc17e1479e8e9459b7afa80e5d9d40d0dd78abb platform/x86: dell-smbios: Fix error path in dell_smbios_init()
+         d34af755a533271f39cc7d86e49c0e74fde63a37 platform/x86/amd: pmf: Make ASUS GA403 quirk generic
+         120434e5b305defa1fb1e7a38421ed08f93243d5 Merge tag 'linux_kselftest-kunit-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+         ad618736883b8970f66af799e34007475fe33a68 Merge tag 'platform-drivers-x86-v6.11-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+         
