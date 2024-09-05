@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0363562338573643116=="
+Content-Type: multipart/mixed; boundary="===============7732689305627450678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 05 Sep 2024 13:31:36 -0000
-Message-Id: <172554309681.2641673.2870439046921998264@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 13:31:55 -0000
+Message-Id: <172554311567.2642064.3790485462278186441@gitolite.kernel.org>
 
---===============0363562338573643116==
+--===============7732689305627450678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5
-    new: d0c4dd9f7ca62be949343e3f6e59ce18f7873657
-    log: revlist-3d4d0fa4fc32-d0c4dd9f7ca6.txt
-  - ref: refs/heads/master
-    old: 3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5
-    new: d0c4dd9f7ca62be949343e3f6e59ce18f7873657
-    log: revlist-3d4d0fa4fc32-d0c4dd9f7ca6.txt
+  - ref: refs/heads/testing
+    old: 35921ee1bedeef067e33792b3e2d2fdb11ae0609
+    new: ad3cd264c835f46423c3646e98433749182fd7d2
+    log: revlist-35921ee1bede-ad3cd264c835.txt
 
---===============0363562338573643116==
+--===============7732689305627450678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1725543114 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1725543134 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1725543092-f2ceab512e626c1259e33e6ff14450da97a30712
+nonce 1725543111-a24a5a63069c97d557b1626208163c5eabfa4bb7
 
-3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5 d0c4dd9f7ca62be949343e3f6e59ce18f7873657 refs/heads/main
-3d4d0fa4fc32f03f615bbf0ac384de06ce0005f5 d0c4dd9f7ca62be949343e3f6e59ce18f7873657 refs/heads/master
+35921ee1bedeef067e33792b3e2d2fdb11ae0609 ad3cd264c835f46423c3646e98433749182fd7d2 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbZssoTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28bwUQCACCCA3FxBRRy8dKPE40BSvddUToe2qI
-Jn50hK2F9Cfe2K6yzb+0LdVlakUmNiMz/qSZxMIMNdKyWnu0x+gKlwwVEEEnwIfP
-OjpmQzrldoVaecIOq1Jm1XKFO4deEmutglJRVNNoSXk9gRVHAWvMSolilX690O7h
-3Vweie6qePHOWyCDnbN3PtbZ2Y/6VZ41C41xKqOP7EDYz9mSc9qw4JDD5dYH2UoL
-78uOPrgqU55J8pEp2Vehr3qsFQHyzXc0x1vsOMU/7p5vDiDNQbWw1o/VWVyqdn3Z
-tV2IlIIcpOLvSkX/OQ5lsbsMCksvkHqwSopus5PW/M5s2j/jxNOblAH/
-=rndT
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbZst4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b3v+B/46rn7KvIbxniLUPOA5wW1E3oKQsBoV
+r7xJ4tGS/U5p5PPhcWUL35aqCkpsCqabaKly2Y5O0WRBcPeuoei7EfR/0SzC3gU+
+L++J/RGMSvYxqVV6gAV0HM1VpBdi8Xcnx6/yMRyn+RMVGloqqaZOScnJdc+BwwIv
+ONfEkJsplZaxkvv8dLxLSjwY5yFNh5TUr9FLj5UaVwylZ7ulFQxvN9HmnnoZmqeh
+uhK19W5voQG3hHIw4L7LomhW+EG1UkMWJ8kxNQz6Sik0leBymjtnZBeVdjGTLfg2
+vi4IJrmm3iOvdlGOobgX/L0BmGUpPKq+tZwYLl0n0vw5qi7ue+4XfkAk
+=YylA
 -----END PGP SIGNATURE-----
 
---===============0363562338573643116==
+--===============7732689305627450678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d4d0fa4fc32-d0c4dd9f7ca6.txt
+Content-Disposition: attachment; filename=revlist-35921ee1bede-ad3cd264c835.txt
 
 177b49dbf9c1d8f9f25a22ffafa416fc2c8aa6a3 wifi: ath11k: use work queue to process beacon tx event
 e106b7ad13c1d246adaa57df73edb8f8b8acb240 wifi: ath12k: fix array out-of-bound access in SoC stats
@@ -199,7 +194,6 @@ d38792292be7113e73ba77383ed687ec87e8f7b5 wifi: brcmsmac: Use kvmemdup to simplif
 b0dc7018477e8fbb7e40c908c29cf663d06b17a7 wifi: wilc1000: Do not operate uninitialized hardware during suspend/resume
 0c896eceb5f348b5e314f5cd5faad966f09a56ff wifi: wilc1000: Re-enable RTC clock on resume
 97b766f989bcd06e5a7651b1080001d7327012f5 wifi: mwifiex: Convert to use jiffies macro
-8b2f4d01f56c99491f6f107f7a03fedcfb9d2d52 dt-bindings: can: rockchip_canfd: add rockchip CAN-FD controller
 30e48a75df9c6ead93866bdf1511ca6ecfe17fbe net: microchip: add FDMA library
 947a72f40f69fc0341cccf849e4e8a1e70fd4d3c net: sparx5: use FDMA library symbols
 e8218f7a9f4425894048ad87f0064efd06fe19fc net: sparx5: replace a few variables with new equivalent ones
@@ -257,5 +251,6 @@ ed42b2bcd38e95a967287273144a7c7a1dbc97cb Merge branch 'bonding-support-new-xfrm-
 50ddaedeae7562b25e8eeca04f581d7c815be1db net: dsa: felix: Annotate struct action_gate_entry with __counted_by
 335cc75ce3d8ba27023bc4365b6f2cd25f0e0d25 ptp: ptp_idt82p33: Convert comma to semicolon
 d0c4dd9f7ca62be949343e3f6e59ce18f7873657 Merge tag 'linux-can-next-for-6.12-20240904-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+ad3cd264c835f46423c3646e98433749182fd7d2 net: can: cc770: Simplify parsing DT properties
 
---===============0363562338573643116==--
+--===============7732689305627450678==--
