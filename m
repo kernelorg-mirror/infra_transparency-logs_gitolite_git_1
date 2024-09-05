@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5085152213156157864=="
+Content-Type: multipart/mixed; boundary="===============2338647460976940760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Sep 2024 17:55:26 -0000
-Message-Id: <172555892687.2878019.2298149589840701242@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 17:55:34 -0000
+Message-Id: <172555893468.2878239.1674392607210273421@gitolite.kernel.org>
 
---===============5085152213156157864==
+--===============2338647460976940760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4963d2343af81f493519f9c3ea9f2169eaa7353a
-    new: 8e69c96df771ab469cec278edb47009351de4da6
-    log: revlist-4963d2343af8-8e69c96df771.txt
+  - ref: refs/heads/dev-queue
+    old: cc851d8f8eb951455fa89d0577922a42f688cd81
+    new: 0c10abe63027241fd45995cbe759697c1bd7ea6b
+    log: revlist-cc851d8f8eb9-0c10abe63027.txt
 
---===============5085152213156157864==
+--===============2338647460976940760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4963d2343af8-8e69c96df771.txt
+Content-Disposition: attachment; filename=revlist-cc851d8f8eb9-0c10abe63027.txt
 
 9abf199943a6469a71f6ce5c2266e9364d310f8b wifi: ath11k: fix NULL pointer dereference in ath11k_mac_get_eirp_power()
 d3e154d7776ba57ab679fb816fb87b627fba21c9 Revert "wifi: ath11k: restore country code during resume"
@@ -46,5 +46,15 @@ f0417c50fddd628e534c336d87932e7e1e883df3 Merge branch '100GbE' of git://git.kern
 c82299fbbccecf5866bdc3fa9cc46d5c6f5005ad docs: netdev: document guidance on cleanup.h
 546ea84d07e3e324644025e2aae2d12ea4c5896e sched: sch_cake: fix bulk flow accounting logic for host fairness
 8e69c96df771ab469cec278edb47009351de4da6 net: dsa: vsc73xx: fix possible subblocks range of CAPT block
+fae3ce04622ce9e284d4ad609266781b8a89d0ff ice: Fix lldp packets dropping after changing the number of channels
+8e90a5deb1ff618b3bea6a0d5e41b40aceb59fa8 ice: fix accounting for filters shared by multiple VSIs
+3eabb051abf0a9ff36346c0fd58073193d76e6a1 ice: Flush FDB entries before reset
+7f353331258cb8acdd4f1ae31c525f1f0361b14a ice: set correct dst VSI in only LAN filters
+ecd9816c68dfac5c07b3f31faeb15c0fe245326b igb: Always call igb_xdp_ring_update_tail() under Tx lock
+0821c4961cf73a4f4ff3be437e10f1fd2fb0c8da idpf: fix VF dynamic interrupt ctl register initialization
+b8acfde9dc6e762f44cdaa582f4914a45a05c138 ice: stop calling pci_disable_device() as we use pcim
+8a15cb6bd84c16a56dc2101c36fb070d4996e46c ice: fix VSI lists confusion when adding VLANs
+2521275a8ef11dc7590fd3cf6d6cf4848b7dcca0 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+0c10abe63027241fd45995cbe759697c1bd7ea6b ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
 
---===============5085152213156157864==--
+--===============2338647460976940760==--
