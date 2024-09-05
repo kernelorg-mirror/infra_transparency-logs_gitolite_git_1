@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6028887271379006311=="
+Content-Type: multipart/mixed; boundary="===============6780894805865395597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 05 Sep 2024 16:23:41 -0000
-Message-Id: <172555342114.2798521.2241411720424313532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 05 Sep 2024 16:28:42 -0000
+Message-Id: <172555372207.2802817.3812393802131844159@gitolite.kernel.org>
 
---===============6028887271379006311==
+--===============6780894805865395597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/for-linus
-    old: ec312077bbe666323df3868f40e424de8925aeea
-    new: 173d7e8f7a55254a84fef979975572f627ff27bb
+  - ref: refs/heads/master
+    old: ebf93f2de366d94d7b416ff18846628442f9da62
+    new: 570e4c287846f0170d526d2a3c090f9eabd1a8c9
+    log: |
+         570e4c287846f0170d526d2a3c090f9eabd1a8c9 fix up emails in 4.19 alsa patches
+         
 
---===============6028887271379006311==
+--===============6780894805865395597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1725553441 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1725553419-8c420da96fa50189fc522b8eb2dd15a6d1a4408d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725553740 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725553717-34bb1c1fdea344f9777e1b000c50690dc6fce558
 
-ec312077bbe666323df3868f40e424de8925aeea 173d7e8f7a55254a84fef979975572f627ff27bb refs/tags/for-linus
+ebf93f2de366d94d7b416ff18846628442f9da62 570e4c287846f0170d526d2a3c090f9eabd1a8c9 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmbZ2yEUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMotggAlDPL+Lw3sPoqrmYaQnUtoXEw6Ore
-7MuWQmky065hiQ97H7H9b3yb0jryLHo/onctNQxHzRYoQOGxz9I7r+JBPPOaNpco
-k3AtBV9BwUxJuoFpMUF/vu4XgjyQICH+ru7v85TbSm+UXZw+wBw9OpVjTO6/Xz94
-FV7Dmaq+P4ih1GKfrQ9s4yf63Qbpt8bhtCOxtb3h6ogXO7GgXXC4CWwZF2CuiQHR
-F+CamMrPopNSydpe+1S+P2MW+ccKVScPN4DPnN/NY5FMCIg5W+4pb8p2VRFTqF2r
-YalVzkhrR5rAS1Yi9wsDJfdjlTh7eNhdKRYjc+kuF9bvPS72Xw8rRjQU5Q==
-=kbPp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbZ3EwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+an0P/3kzpXZyMjZT4Sxr9NnO
+8x1Vxzr+p5TG/AWPO2bZOK2VhHoiZEF4eEcOqPX5qtY4iKlWvTorLXxPZ4V18RcT
+nr1N22MSayGAf2buJQis7rje59WWjTm355TqETfJoUcMkuEDtmfBzoYSkuj8RKkr
+rSpQQXmg8qe+mER4w94nxrcjS8juE3gimTDvEX4MS9ART4/4kvU4HIWioVaMpuu6
+6siSPoLyaizqYRI2Ssh6GpM+dBb8pOs/r0TdJvapk3C3fbLdz1CmpXSzRuioBQoT
+WwqaWL2uMfxBBdQBirl2JUfFUO7Mw1Y9HD5pE4eoynKxjSkL7vfLqGT7mNXPXKEd
+7spY9SRBZyCN/s5q55bOI0Dlu7p4CvcRzwq+i50exQuURFoV2Lyrhn79nY3oy7gG
+P/YaZxHpFJSXEOwHVgqsEBXpN4/gHbkcqbfWBZrt2VDAeU5ur6dVmC8gs5ODnfCS
+BD7rDGsdPkeWkXZgGiv0uTJFtOrwIVJ1unAVbGjYmH1EGGWgMJNMs2vWmp5rFotN
+Om6d7ZcqTwqIU7wAXFftp2FzOQz8MYSYkMUgMuGyvgX4vR2FxOKtZik2F9joSWg1
+aUz8j/FArbH0W8QBHenpfoIFfNTtT4pj57sk0l38GAikdYYMMc36AnBmh9/dsBBj
+dzOlckj7KW0lbTDUy3m0/Xkx
+=VJCf
 -----END PGP SIGNATURE-----
 
---===============6028887271379006311==--
+--===============6780894805865395597==--
