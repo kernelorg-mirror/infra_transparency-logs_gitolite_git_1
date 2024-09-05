@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 05 Sep 2024 12:47:45 -0000
-Message-Id: <172554046531.2599879.6324333737559280749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 05 Sep 2024 12:49:03 -0000
+Message-Id: <172554054306.2600698.17020276017062992210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/master
-    old: e87734831e8781d804c2456e38c972a22ad68812
-    new: 99a13b3ba317bedee32bf8fac3e295cad31f3e60
+  - ref: refs/heads/slab/for-next
+    old: bf62da2362367f102365e18beb8715598474acf1
+    new: 2e0abb33823cd3885e6d9118fccf2a027db9b490
     log: |
-         1d7f2c57b5d27f81eaad42698bb7b6a63614fa18 arm64: vDSO: Wire up getrandom() vDSO implementation
-         99a13b3ba317bedee32bf8fac3e295cad31f3e60 selftests: vDSO: don't include generated headers for chacha test
+         e02147cb703412fa13dd31908c734d7fb2314f55 mm/slab: Optimize the code logic in find_mergeable()
+         903494cb73f58c746d9807cc803107c27a5906da Merge branch 'slab/for-6.12/rcu_barriers' into slab/for-next
+         2e0abb33823cd3885e6d9118fccf2a027db9b490 Merge branch 'slab/for-6.12/kmem_cache_args' into slab/for-next
          
