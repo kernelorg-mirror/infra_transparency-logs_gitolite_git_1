@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 05 Sep 2024 04:06:40 -0000
-Message-Id: <172550920040.2166947.1499760350220996009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 05 Sep 2024 05:42:35 -0000
+Message-Id: <172551495522.2237706.4492670396399735253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/nfs-localio-for-next.v15-with-fixups
-    old: ccc15daac1858efed6100c5c85cd47b15d30a794
-    new: e85306941878a87070176702de687f2779436061
+  - ref: refs/heads/dev-test
+    old: e96d85720f1f96debde8afdc1f277f1a1f9cf41e
+    new: fd42504d1e908f84cf32953918789b4198c16990
     log: |
-         ae70303edfeb9670a4fdd047ceb889ada2164fd5 nfs_common: fixes to nfs_to to follow normal operations table pattern
-         7b0105cc6ce18f12af3471fec658f74fa89724c1 nfs_common: a few sparse fixes primarily dealing with rcu usage
-         e85306941878a87070176702de687f2779436061 nfs_common: push nfsd_open_local_fh rcu requirements to caller
+         7e9b5626441109e52c6f11785e6512e0667ba3c9 erofs: handle overlapped pclusters out of crafted images properly
+         fd42504d1e908f84cf32953918789b4198c16990 erofs: simplify erofs_map_blocks_flatmode()
          
