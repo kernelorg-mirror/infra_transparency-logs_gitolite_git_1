@@ -1,26 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============8133101079017180278=="
+Content-Type: multipart/mixed; boundary="===============5733780613244641933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Thu, 05 Sep 2024 19:29:17 -0000
-Message-Id: <172556455717.2953851.4653352843564360441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 05 Sep 2024 19:29:20 -0000
+Message-Id: <172556456023.2954033.11507050093997287664@gitolite.kernel.org>
 
---===============8133101079017180278==
+--===============5733780613244641933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
     old: 88fac17500f4ea49c7bac136cf1b27e7b9980075
     new: ad618736883b8970f66af799e34007475fe33a68
     log: revlist-88fac17500f4-ad618736883b.txt
+  - ref: refs/tags/omap-for-v6.12/drivers-signed
+    old: 0000000000000000000000000000000000000000
+    new: c7cef74a23a251b5bc9637a5b6d5a91045546ab7
+  - ref: refs/tags/omap-for-v6.12/dt-signed
+    old: 0000000000000000000000000000000000000000
+    new: b033e7994f68c4e9abf2933a1f228bf8efd3bebb
+  - ref: refs/tags/omap-for-v6.12/soc-signed
+    old: 0000000000000000000000000000000000000000
+    new: a5ec4035731181d5bfd24bb78c3fee5111cfb358
 
---===============8133101079017180278==
+--===============5733780613244641933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +85,4 @@ c763c43396883456ef57e5e78b64d3c259c4babc Merge tag 'bcachefs-2024-09-04' of git:
 120434e5b305defa1fb1e7a38421ed08f93243d5 Merge tag 'linux_kselftest-kunit-fixes-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 ad618736883b8970f66af799e34007475fe33a68 Merge tag 'platform-drivers-x86-v6.11-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============8133101079017180278==--
+--===============5733780613244641933==--
