@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 05 Sep 2024 16:40:38 -0000
-Message-Id: <172555443871.2814959.8915084410321427820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 05 Sep 2024 16:50:17 -0000
+Message-Id: <172555501776.2822739.15554951810405538113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 057e5c17e29fe67fae4c2786d558c31fd3b106ba
-    new: 995f4465281a385f196b7e649264a17fc13cf669
+    old: 73183ad6ea51029d04b098286dcee98d715015f1
+    new: 3e6a7e3cda773adacc2fa4b9623d0a8c0f904d50
     log: |
-         77fcdf51b8ca5e89f1074902b860caa2418d72e6 remoteproc: xlnx: Add sram support
-         995f4465281a385f196b7e649264a17fc13cf669 Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         3e6a7e3cda773adacc2fa4b9623d0a8c0f904d50 iommufd: Reorder struct forward declarations
          
