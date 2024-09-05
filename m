@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 05 Sep 2024 10:19:38 -0000
-Message-Id: <172553157853.2476791.11932254630567654034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 05 Sep 2024 10:21:05 -0000
+Message-Id: <172553166529.2479602.9538106815823214010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: dc116b7fddbdad000b6f2a8ca41d1fe5371b403c
-    new: cf2840f59119f41de3d9641a8b18a5da1b2cf6bf
-    log: |
-         112e6e83a894260cc7efe79a1fc47d4d51461742 IB/mlx5: Fix UMR pd cleanup on error flow of driver init
-         1403c8b14765eab805377dd3b75e96ace8747aed IB/core: Fix ib_cache_setup_one error flow cleanup
-         6a0e452d7fcc0973b9179f535da7429fb57ca474 RDMA/mlx5: Enable ATS when allocating MRs
-         2ffc67aeb9910531ed45999d68a14d983e6dd0d5 RDMA/erdma: Refactor the initialization and destruction of EQ
-         05572fa5268ec6443c372b616f5453cb5e61c121 RDMA/erdma: Add disassociate ucontext support
-         cf2840f59119f41de3d9641a8b18a5da1b2cf6bf RDMA/erdma: Return QP state in erdma_query_qp
-         
+  - ref: refs/heads/imx/dt64
+    old: 0000000000000000000000000000000000000000
+    new: f68db46a0977858f8a52987acc54454afd4c2ed5
