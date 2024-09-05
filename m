@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Thu, 05 Sep 2024 14:07:49 -0000
-Message-Id: <172554526962.2674452.9350918715854370530@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2997470906856459925=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Thu, 05 Sep 2024 14:08:25 -0000
+Message-Id: <172554530536.2674861.16463762425099509645@gitolite.kernel.org>
+
+--===============2997470906856459925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mhi-next
-    old: 30a7e9df309ffb0ff895b958cc27867e93bd9ad2
-    new: 84a5ae5b23ba6320bbdfeccfe9a3ad31b2cc41d9
+  - ref: refs/heads/master
+    old: ff82fc58fb33d7736ab47b74e03111408b076a34
+    new: cd01cbaf2e1d0da5298544cabb24f20bbbf2a843
     log: |
-         a7bc66fe8093b48e86386cf73dd601feaaa7949c bus: mhi: host: pci_generic: Update EDL firmware path for Foxconn modems
-         84a5ae5b23ba6320bbdfeccfe9a3ad31b2cc41d9 bus: mhi: host: pci_generic: Enable EDL trigger for Foxconn modems
+         cd01cbaf2e1d0da5298544cabb24f20bbbf2a843 Put back the IdentityFile and IdentitiesOnly lines
          
+
+--===============2997470906856459925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1725545326 -0400
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1725545304-d75fb966b5b647b9e3d4aa220f688ee0c8e1d2fe
+
+ff82fc58fb33d7736ab47b74e03111408b076a34 cd01cbaf2e1d0da5298544cabb24f20bbbf2a843 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtm7bgAKCRC2xBzjVmSZ
+bKmsAQCK6MHvGCkwvR2EOWFGiwkD7bW3M8thOKupIuy3pGBfcAEA9xhj8trT6UJA
+ahIJ8jrpqRMZ3vrHj2Fa85oyge8VTQ0=
+=IXmV
+-----END PGP SIGNATURE-----
+
+--===============2997470906856459925==--
