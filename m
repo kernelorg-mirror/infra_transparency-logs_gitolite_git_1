@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3177996005025611727=="
+Content-Type: multipart/mixed; boundary="===============8184312526746677683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Sep 2024 09:23:59 -0000
-Message-Id: <172552823944.2423022.11911295611888916834@gitolite.kernel.org>
+Date: Thu, 05 Sep 2024 09:24:33 -0000
+Message-Id: <172552827368.2423355.8180097051551024731@gitolite.kernel.org>
 
---===============3177996005025611727==
+--===============8184312526746677683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6013521a26903a1e1efe13c79bb7b0262c179cea
-    new: e2d783b5ffa73f30bc9d54051694166d39765945
-    log: revlist-6013521a2690-e2d783b5ffa7.txt
+    old: e2d783b5ffa73f30bc9d54051694166d39765945
+    new: d1501078d78cfbb4469efae1525fb404e1e17d1c
+    log: revlist-e2d783b5ffa7-d1501078d78c.txt
 
---===============3177996005025611727==
+--===============8184312526746677683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6013521a2690-e2d783b5ffa7.txt
+Content-Disposition: attachment; filename=revlist-e2d783b5ffa7-d1501078d78c.txt
 
-8d8d244726c8436c50f84092616c92bf551ea89a smb: Annotate struct xattr_smb_acl with __counted_by()
-78c5a6f1f630172b19af4912e755e1da93ef0ab5 ksmbd: unset the binding mark of a reused connection
-844436e045ac2ab7895d8b281cb784a24de1d14d ksmbd: Unlock on in ksmbd_tcp_set_interfaces()
-c26096ee0278c5e765009c5eee427bbafe6dc090 mm: Fix filemap_invalidate_inode() to use invalidate_inode_pages2_range()
-72a6e22c604c95ddb3b10b5d3bb85b6ff4dbc34f fscache: delete fscache_cookie_lru_timer when fscache exits to avoid UAF
-6a422a96bc84cf9b9f0ff741f293a1f9059e0883 hwmon: ltc2991: fix register bits defines
-7f12a963b65872fda1219f065c1cc1b1b9a806e8 bcachefs: fix rebalance accounting
-b808f629215685c1941b1cd567c7b7ccb3c90278 selftests: mm: fix build errors on armhf
-3e3de7947c751509027d26b679ecd243bc9db255 mm: vmalloc: ensure vmap_block is initialised before adding to queue
-71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8 userfaultfd: fix checks for huge PMDs
-4828d207dc5161dc7ddf9a4f6dcfd80c7dd7d20a userfaultfd: don't BUG_ON() if khugepaged yanks our page table
-683408258917541bdb294cd717c210a04381931e nilfs2: protect references to superblock parameters exposed in sysfs
-5787fcaab9eb5930f5378d6a1dd03d916d146622 nilfs2: fix missing cleanup on rollforward recovery error
-6576dd6695f2afca3f4954029ac4a64f82ba60ab nilfs2: fix state management in error path of log writing function
-ab7ca09520e9c41c219a4427fe0dae24024bfe7f mm/slub: add check for s->flags in the alloc_tagging_slab_free_hook
-6dacd79d28842ff01f18b4900d897741aac5999e kexec_file: fix elfcorehdr digest exclusion when CONFIG_CRASH_HOTPLUG=y
-f806de88d8f7f8191afd0fd9b94db4cd058e7d4f maple_tree: remove rcu_read_lock() from mt_validate()
-bfe0857c20c663fcc1592fa4e3a61ca12b07dac9 Revert "mm: skip CMA pages when they are not available"
-a3f6a89c834a4cba0f881da21307b26de3796133 scripts: fix gfp-translate after ___GFP_*_BITS conversion to an enum
-e399257349098bf7c84343f99efb2bc9c22eb9fd mm/memcontrol: respect zswap.writeback setting from parent cg too
-5e9784e997620af7c1399029282f5d6964b41942 codetag: debug: mark codetags for poisoned page as empty
-4f295229b279145bdc667c58f62e89f5968e12fb mailmap: update entry for Jan Kuliga
-409faf8c97d5abb0597ea43e99c8b3dd8dbe99e3 mm: vmalloc: optimize vmap_lazy_nr arithmetic when purging each vmap_area
-052a45c1cb1b32f05dd63a295d65496d8b403283 alloc_tag: fix allocation tag reporting when CONFIG_MODULES=n
-a54da9df75cd1b4b5028f6c60f9a211532680585 hwmon: (hp-wmi-sensors) Check if WMI event data exists
-c346c629765ab982967017e2ae859156d0e235cf btrfs: qgroup: don't use extent changeset when not needed
-1c7fb536e899a2f66f9b1719a0234570dda2e634 perf test pmu: Set uninitialized PMU alias to null
-287bd5cf06e0f2c02293ce942777ad1f18059ed3 perf lock contention: Fix spinlock and rwlock accounting
-aee1d55922977bf9282398283a72d38fc5514540 perf python: include "util/sample.h"
-e162cb25c410afc42051a582c46a47dde597f51c perf daemon: Fix the build on more 32-bit architectures
-b1934cd6069538db2255dc94ba573771ecf3b560 btrfs: zoned: handle broken write pointer on zones
-213aa670153ed675a007c1f35c5db544b0fefc94 parisc: Delay write-protection until mark_rodata_ro() call
-cd9253c23aedd61eb5ff11f37a36247cd46faf86 btrfs: fix race between direct IO write and fsync when using same fd
-53f6619554fb1edf8d7599b560d44dbea085c730 bcachefs: BCH_SB_MEMBER_INVALID
-0d437918fb6473d25fb83188c2d6040f47acfbcd ARM: 9414/1: Fix build issue with LD_DEAD_CODE_DATA_ELIMINATION
-76c0f27d063079ce2c6e7fa971a185a38905d844 Merge tag 'mm-hotfixes-stable-2024-09-03-20-19' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-962da4d1be82889af5b9cc0f718e5eccfd93cd2d Merge tag 'parisc-for-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-c7fb1692dc0139f95bd4131d3d5fa5eba2ba569e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-4356ab331c8f0dbed0f683abde345cd5503db1e4 Merge tag 'vfs-6.11-rc7.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d8abb73f584772eaafa95a447c90f1c02dba0dec Merge tag 'v6.11-rc6-server-fixes' of git://git.samba.org/ksmbd
-1263a7bf8a0e77c6cda8f5a40509d99829216a45 Merge tag 'for-6.11-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-14a244a9095e9034339c1c9a7b435f238f7d49df Merge tag 'hwmon-for-v6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-2adad548f74c30739c35994da419eb2318e6fbd1 Merge tag 'perf-tools-fixes-for-v6.11-2024-09-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-c763c43396883456ef57e5e78b64d3c259c4babc Merge tag 'bcachefs-2024-09-04' of git://evilpiepirate.org/bcachefs
-e2d783b5ffa73f30bc9d54051694166d39765945 Merge branch 'linus'
+95c13662b65c562d4902ad9f810378261347a749 Merge branch 'perf/urgent' into perf/core, to pick up fixes
+829ff9a273a32e5929a6971548a580650957dce3 Merge branch into tip/master: 'perf/urgent'
+6906d19b628ff7af46b463afa1902ec1fcc70f57 Merge branch into tip/master: 'timers/urgent'
+eaf2711a7c31db6ee7106d68b41cf38e4943d6f1 Merge branch into tip/master: 'core/core'
+ef37eb4206efef685036c2d8519814777d76a3a5 Merge branch into tip/master: 'irq/core'
+d20d9d99591fd793dc19a688a08c19d55813374e Merge branch into tip/master: 'locking/core'
+b512d8ec6aa13bc469c786ade5878d7b04ccef87 Merge branch into tip/master: 'perf/core'
+5eb784d0d2c7a416341251ee161b655d80a4b869 Merge branch into tip/master: 'ras/core'
+95a6d513cb959283cd817b994651ddffedd99fbf Merge branch into tip/master: 'sched/core'
+63eadee4d71542dbb77bc21e2ce4addb3fd1baf6 Merge branch into tip/master: 'smp/core'
+85c22ec2a3aab609598061a4a024faa914cf9425 Merge branch into tip/master: 'timers/clocksource'
+f4f46466f406ecb1131f18ff93f290a71c32f81d Merge branch into tip/master: 'timers/core'
+e594455b52246a8b94c18c73a6525668c01a0fee Merge branch into tip/master: 'x86/apic'
+662e7d65ba91666ba94c36d747a9efa3ea9a47de Merge branch into tip/master: 'x86/bugs'
+2acf61a20a008cb89809d2b4d9d1fb18ff2102c0 Merge branch into tip/master: 'x86/build'
+ea091c8b496c6da3853b3d417c374cb60136edb4 Merge branch into tip/master: 'x86/cleanups'
+8205cc313e24eee58cd7533e2e6ed7dfae65a5f4 Merge branch into tip/master: 'x86/core'
+257ad6296b194491d56383335b19fc4566908144 Merge branch into tip/master: 'x86/cpu'
+08f7d39d855eaa1766b278b7315eb681e750942b Merge branch into tip/master: 'x86/fpu'
+85bbf0d9cbe25859f8de5a8433d6e6c775c5cfbd Merge branch into tip/master: 'x86/fred'
+a9a75c42e96d630c815df1f5efe2477318264990 Merge branch into tip/master: 'x86/microcode'
+07a1397f0e56dfd266023964e85ff20912585691 Merge branch into tip/master: 'x86/misc'
+affcc7e20af54a42235e12eea0d7f921ebeff5fc Merge branch into tip/master: 'x86/mm'
+e792347b408b9cea3396b6e28b7f7816af225b2a Merge branch into tip/master: 'x86/platform'
+a9d83aeddd15fbfa47a8317eda279cfec1cce6f8 Merge branch into tip/master: 'x86/sev'
+d190495fb8b165a747a6a5b37f86e90ef690a936 Merge branch into tip/master: 'x86/splitlock'
+d1501078d78cfbb4469efae1525fb404e1e17d1c Merge branch into tip/master: 'x86/timers'
 
---===============3177996005025611727==--
+--===============8184312526746677683==--
