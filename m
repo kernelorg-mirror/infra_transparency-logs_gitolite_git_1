@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4955707772987785376=="
+Content-Type: multipart/mixed; boundary="===============4552313114455735350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 05 Sep 2024 15:03:00 -0000
-Message-Id: <172554858010.2727947.13050889705785765638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 05 Sep 2024 15:03:37 -0000
+Message-Id: <172554861709.2728509.7641590122512276085@gitolite.kernel.org>
 
---===============4955707772987785376==
+--===============4552313114455735350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 499590135cbddb2891826453dd9e40ce4b3174f3
     log: revlist-98ad0b77323c-499590135cbd.txt
 
---===============4955707772987785376==
+--===============4552313114455735350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -833,4 +833,4 @@ d8abb73f584772eaafa95a447c90f1c02dba0dec Merge tag 'v6.11-rc6-server-fixes' of g
 c763c43396883456ef57e5e78b64d3c259c4babc Merge tag 'bcachefs-2024-09-04' of git://evilpiepirate.org/bcachefs
 499590135cbddb2891826453dd9e40ce4b3174f3 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============4955707772987785376==--
+--===============4552313114455735350==--
