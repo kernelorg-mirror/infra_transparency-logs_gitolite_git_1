@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3201465808048086276=="
+Content-Type: multipart/mixed; boundary="===============5374308521367781933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 06 Sep 2024 15:27:56 -0000
-Message-Id: <172563647674.4001809.12469767532988963267@gitolite.kernel.org>
+Date: Fri, 06 Sep 2024 15:28:01 -0000
+Message-Id: <172563648155.4001942.18295649038818571890@gitolite.kernel.org>
 
---===============3201465808048086276==
+--===============5374308521367781933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 22d6adac5b17d817f3ac5da2bd68aa8aa3c9dc17
     new: 52fc70a32573707f70d6b1b5c5fe85cc91457393
     log: revlist-22d6adac5b17-52fc70a32573.txt
 
---===============3201465808048086276==
+--===============5374308521367781933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -424,4 +424,4 @@ f9b74d602ee3a43a2c85a8cd444ae7f939fa338b net: netcp: Remove setting of RX softwa
 26f74155df44fdcbc1962a7f404be6a8eec895e0 bnx2x: Remove setting of RX software timestamp
 52fc70a32573707f70d6b1b5c5fe85cc91457393 Merge branch 'rx-sw-tstamp-for-all'
 
---===============3201465808048086276==--
+--===============5374308521367781933==--
