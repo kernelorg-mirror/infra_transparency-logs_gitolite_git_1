@@ -1,24 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 06 Sep 2024 11:44:29 -0000
-Message-Id: <172562306940.3781223.13663982837325501116@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1124509258236493120=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Fri, 06 Sep 2024 11:57:28 -0000
+Message-Id: <172562384874.3792044.5483951517607439837@gitolite.kernel.org>
+
+--===============1124509258236493120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: a383777d19657ad0f5ee6aeefe67c5b1fc408772
-    new: 00fa449228a7290e6e5139157c44609dde6fd768
+  - ref: refs/heads/nxp/v6.11/dev/rpi-cam/next
+    old: 87ba3a408a5da41bd4afb10275a88a73c0ef3573
+    new: ec6b83c037c3c41b2cfe5365579d41928ced494a
     log: |
-         767edacb70ea402672af5bb00c48307767f7a313 Merge branch 'misc-6.11' into for-next-current-v6.10-20240906
-         47935405a3bc289889ccfb3dbaa4cd2793031443 Merge branch 'misc-6.11' into for-next-next-v6.11-20240906
-         ea817c2a04f77fa6eb93ce9a34db6b765a4efc7c Merge branch 'b-for-next' into for-next-next-v6.11-20240906
-         d85cfb978c8a21f8418cf2f847fe48fa4d5b42ac Merge branch 'misc-next' into for-next-next-v6.11-20240906
-         9aa98021c894f10452c488faace76df09b096c82 Merge branch 'for-next-current-v6.10-20240906' into for-next-20240906
-         00fa449228a7290e6e5139157c44609dde6fd768 Merge branch 'for-next-next-v6.11-20240906' into for-next-20240906
+         cdf9280959af45cad113072f54e7ad6d1b235d66 media: v4l: ctrls: Add a control for companding
+         ec6b83c037c3c41b2cfe5365579d41928ced494a media: i2c: ar0144: Add support for companding
          
+
+--===============1124509258236493120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1725623863 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
+nonce 1725623840-86913350a29711a1b5d9db717f80c291a30e564f
+
+87ba3a408a5da41bd4afb10275a88a73c0ef3573 ec6b83c037c3c41b2cfe5365579d41928ced494a refs/heads/nxp/v6.11/dev/rpi-cam/next
+-----BEGIN PGP SIGNATURE-----
+
+iJgEABYKAEAWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCZtruNyIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEIXxllBhQkvhnlYA+wfQBcRQ0+/A
+zDLzCLF+rYM59CUzVt85+GQb+YOFnRNaAP0S9l39P+vkKxrzZ6huACstfyYWrlZG
+/pt8Y6FkYSetDQ==
+=sZ8v
+-----END PGP SIGNATURE-----
+
+--===============1124509258236493120==--
