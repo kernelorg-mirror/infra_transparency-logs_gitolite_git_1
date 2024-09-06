@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Fri, 06 Sep 2024 16:59:24 -0000
-Message-Id: <172564196433.4079218.14753009575383163263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 06 Sep 2024 17:06:29 -0000
+Message-Id: <172564238971.4085940.10735648986881455160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/cpupower
-    old: 757eebc10839de8b16a29192382584a5e5a36173
-    new: 80e67f1802d0fc21543216557a68320c71d7dbe1
+  - ref: refs/tags/arm64-fixes
+    old: 40539f37b6c05403ad39b1786df1dec730ebed67
+    new: 12f6c77ed3ec70f348b9f80339f6ff8df57648e5
     log: |
-         80e67f1802d0fc21543216557a68320c71d7dbe1 pm:cpupower: Add error warning when SWIG is not installed
+         c060f93253cad63ea9d41b5b1186a1da32541dec arm64: stacktrace: fix the usage of ftrace_graph_ret_addr()
          
