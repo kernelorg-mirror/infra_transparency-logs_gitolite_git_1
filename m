@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Sep 2024 13:05:11 -0000
-Message-Id: <172562791191.3846019.3217226912021128528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Fri, 06 Sep 2024 13:19:59 -0000
+Message-Id: <172562879993.3856115.10428563896265666087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-next
-    old: 08a0dea87ab839c93fd0b49e6e2c62774bfcb616
-    new: 4031df6edcd330caa6b613c4e9f6aff75ae063df
+  - ref: refs/heads/for-usb-next
+    old: bfbfec31417d5dcc015087fdb7dd2163173ad2ad
+    new: 8a88c945e8e9db42f6311ff283da83aa9febe04d
     log: |
-         1798acef8f50af59abaa0ff4775e7a79a68db671 ASoC: loongson: remove redundant variable assignments
-         3c5a18a10a8c6fab27739e6e7bd0e4c0aa854d92 ASoC: amd: acp: Return in-case of error
-         4031df6edcd330caa6b613c4e9f6aff75ae063df Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         d251bfa5287d113be2b4af85d42e217acb55275e xhci: support setting interrupt moderation IMOD for secondary interrupters
+         8a88c945e8e9db42f6311ff283da83aa9febe04d xhci: Add Isochronous TRB fields to TRB tracer
          
