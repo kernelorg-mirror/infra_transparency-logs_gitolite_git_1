@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 06 Sep 2024 22:38:03 -0000
-Message-Id: <172566228396.168822.18211194932830495049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 06 Sep 2024 23:00:42 -0000
+Message-Id: <172566364223.187083.16330793492024661845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 6b8ff511e412af4a367a8d3d4f323715a9357aa0
-    new: 9d4c304001cf44d24c643211a1673cf49ecaf287
+    old: 880d3f671ebba029d27369c512f82b04aa4b6a16
+    new: 7a48964bacedf271728ce440a44826e0874b3fde
     log: |
-         9d4c304001cf44d24c643211a1673cf49ecaf287 KVM: x86: don't fall through case statements without annotations
+         7a48964bacedf271728ce440a44826e0874b3fde Fri Sep  6 07:00:15 PM EDT 2024
          
