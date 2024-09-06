@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0846120986690526355=="
+Content-Type: multipart/mixed; boundary="===============6882203080175888735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 06 Sep 2024 18:20:59 -0000
-Message-Id: <172564685904.4149610.1327225232096086767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Fri, 06 Sep 2024 18:21:01 -0000
+Message-Id: <172564686102.4149751.17134621444926573951@gitolite.kernel.org>
 
---===============0846120986690526355==
+--===============6882203080175888735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b831f83e40a24f07c8dcba5be408d93beedc820f
     log: revlist-ad618736883b-b831f83e40a2.txt
 
---===============0846120986690526355==
+--===============6882203080175888735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -135,4 +135,4 @@ f95359996ac35206ff24e378052ce564d5bfdc94 Merge tag 'spi-fix-v6.11-rc6' of git://
 d759ee240d3c0c4a19f4d984eb21c36da76bc6ce Merge tag 'net-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b831f83e40a24f07c8dcba5be408d93beedc820f Merge tag 'bpf-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============0846120986690526355==--
+--===============6882203080175888735==--
