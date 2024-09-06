@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3297287674223688321=="
+Content-Type: multipart/mixed; boundary="===============6985504129971043838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Fri, 06 Sep 2024 14:04:13 -0000
-Message-Id: <172563145342.3891575.13208259318964496234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Fri, 06 Sep 2024 14:08:04 -0000
+Message-Id: <172563168401.3895205.6956902982834066765@gitolite.kernel.org>
 
---===============3297287674223688321==
+--===============6985504129971043838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/tags/dt-cleanup-6.12
+  - ref: refs/tags/memory-controller-drv-6.12-2
     old: 0000000000000000000000000000000000000000
-    new: 8c3cc78374854c8bf7520e220ba1b28ee55cbcfe
-  - ref: refs/tags/dt64-cleanup-6.12
-    old: 0000000000000000000000000000000000000000
-    new: 19af06bb4d351a887c09f6501c4286b4acba06a8
+    new: 9474ae16d17b81aa618e707d21c7ae60a8767157
 
---===============3297287674223688321==
+--===============6985504129971043838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1725631473 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1725631451-15343462bd434a75f1e4347f2d36e6f26f527d0d
+pusher krzk@kernel.org 1725631703 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1725631681-c90e39e6312f719d0fb4eeb12a780f35bea9e496
 
-0000000000000000000000000000000000000000 8c3cc78374854c8bf7520e220ba1b28ee55cbcfe refs/tags/dt-cleanup-6.12
-0000000000000000000000000000000000000000 19af06bb4d351a887c09f6501c4286b4acba06a8 refs/tags/dt64-cleanup-6.12
+0000000000000000000000000000000000000000 9474ae16d17b81aa618e707d21c7ae60a8767157 refs/tags/memory-controller-drv-6.12-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbbC/EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zHCD/4hbFa4ZKys8q7mc5g0vkUmqaC0f+zrz79y
-WBPe9V6OssBZb17pkCV9rTASTfOTy2qA82dhOysW6inpVMxa8YkJGybKy9VKNpO6
-2Hyi0c8r+8s5g4a5FSYm5Eurg3LxTxEWCKOzNUxFdZkD28gJTia2Sq603h/pu3rS
-ItaxSnxgKkGCqjUkT7HcHsBjl2kmsuyQ8bxjwPf7uXgvSDAlkdsdj0kfcNut+gYN
-doX4SwhkOfdLEFId+5H3WQd6sK8dUR6Sn2C2iDR+TpmnzlYMs9zVwr45Car6NZfn
-8YqegT8VJErAEXA036KtLH5jeiaTSpDF0kMyprMiQM37aaXNipR9WqVcMD295HVB
-lE6Uke2nG8or56Js6yPW9rR/kzd824EM+KJSDOQs47SaxGwObkEPvPr0Mf7gWSty
-VfbZi9oU/63Xr7HD6pxGDnEZ2MXBj3Rt1FF0HbMz5EgfgIJOVUPxQb1nXnTkAG12
-rttKEHxNQxftHo9i/hHiSIfQq6tSlM73xI9aafRzmh5Lm7Kk0lsjYx7SL2LY9lBb
-/UbQXzkZ2o7y1KRrPvjqTP/XhIG2aIDARbzswNXzNt5oFBK/6tKsvfjHRuxzhRxn
-uEcogD7EQ6OBAgCZ/vO2mWPYMvuIVnb7weRH2li4m7UxbF1L/gmmvcUqsQfODNKk
-of5BOTpldQ==
-=eb90
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmbbDNcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19qVEACW5mlJkcIm4pXxmvSsbKxmie59YDLTCfbu
+D2jjoOpvTFXQmNB+Fotj82ovxU4zgSiDaf5aZh2+d1TXy69+PSX8XOM4slulCUvP
+QsD+CPi85U5E6oZwnYZQAaxoc/bAoyTYglQxgxi0bjn+RIh6edH/M9wOxqfGM4Mp
+jRWoYQ6y2TXx8oJeDnnJgV2eMBnlVNJMtHc3io9xg9cdcPSkJlKYScnM7dwifwpz
+hR6AFnogbYrjK7I5IEAR7eN8UQth/ScOzOjNM+OSw2NqEBmmMpmv/fzLoeytQxOT
+EJJSpLzUNZRgvuPmvzaKO8JlUMuH9KsaTPVsmrC0YGYwe1RQXW0WgS/tlhAZpFOK
+cFrJcLos61FZrUyFO4GvwPshzJ2INRUxZ9x8sbk/re6IcuJr2f31eWJD2nnQsxP1
+Iep73N4ykp5V7qOg6sFRSd2cPwN3Gd0kgp8pmI/kqH8DmZRxd2Vzq0xjOsaoHqeZ
+vE1ORBouhAFc+0pQEV1lySjqn5cF3ZxfX2lybcXOeu0FUEPsyOvN72r31Fk14vIa
+eExUdhIN2V/VtIPjo4dt/KFb2a8bPZoIoO5/j425vf5Ib8VDnRnBcpVbrlBDllx5
+KXtNgdBpTdstmTotM67/JhqDmREUd+ZnTAD0S7OzhAYZLk9xsbjfAvVlJKlx389f
+Py2zFeIoBg==
+=5TgT
 -----END PGP SIGNATURE-----
 
---===============3297287674223688321==--
+--===============6985504129971043838==--
