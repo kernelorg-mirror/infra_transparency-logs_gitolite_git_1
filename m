@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Fri, 06 Sep 2024 14:29:53 -0000
-Message-Id: <172563299351.3914294.9683088296061240781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Sep 2024 14:30:10 -0000
+Message-Id: <172563301071.3916105.17182399211430785781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/arm/smmu
-    old: 483e0bd8883a40fd3dd3193997a4014337698d72
-    new: a2bb820e862d61f9ca1499e500915f9f505a2655
+  - ref: refs/heads/locking/urgent
+    old: d33d26036a0274b472299d7dcdaa5fb34329f91b
+    new: de752774f38bb766941ed1bf910ba5a9f6cc6bf7
     log: |
-         a2bb820e862d61f9ca1499e500915f9f505a2655 iommu/arm-smmu-v3: Use the new rb tree helpers
+         4b30051c4864234ec57290c3d142db7c88f10d8a static_call: Handle module init failure correctly in static_call_del_module()
+         fe513c2ef0a172a58f158e2e70465c4317f0a9a2 static_call: Replace pointless WARN_ON() in static_call_module_notify()
+         de752774f38bb766941ed1bf910ba5a9f6cc6bf7 jump_label: Fix static_key_slow_dec() yet again
          
