@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8493181470227547301=="
+Content-Type: multipart/mixed; boundary="===============3894946797825350807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 06 Sep 2024 18:15:29 -0000
-Message-Id: <172564652985.4144389.11402844309035129007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 06 Sep 2024 18:15:35 -0000
+Message-Id: <172564653544.4144569.2291737178297367179@gitolite.kernel.org>
 
---===============8493181470227547301==
+--===============3894946797825350807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 003265bb6f028d7bcd7cbd92d6ba2b4e26382796
     log: revlist-39c243411bdb-003265bb6f02.txt
 
---===============8493181470227547301==
+--===============3894946797825350807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -974,4 +974,4 @@ f2dbc7790929b2e39a348a344311a8b70e6ed4b4 perf jevents: Ignore sys when determini
 5ad7db2c3f941cde3045ce38a9c4c40b0c7d56b9 perf mem: Fix missed p-core mem events on ADL and RPL
 003265bb6f028d7bcd7cbd92d6ba2b4e26382796 perf mem: Fix the wrong reference in parse_record_events()
 
---===============8493181470227547301==--
+--===============3894946797825350807==--
