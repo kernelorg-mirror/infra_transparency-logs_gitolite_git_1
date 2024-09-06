@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5420762664978846996=="
+Content-Type: multipart/mixed; boundary="===============7359835171102964665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 06 Sep 2024 21:13:22 -0000
-Message-Id: <172565720261.98124.7241601348577278723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 06 Sep 2024 21:13:25 -0000
+Message-Id: <172565720586.98246.5793504414759654735@gitolite.kernel.org>
 
---===============5420762664978846996==
+--===============7359835171102964665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6b8ff511e412af4a367a8d3d4f323715a9357aa0
     log: revlist-b831f83e40a2-6b8ff511e412.txt
 
---===============5420762664978846996==
+--===============7359835171102964665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -139,4 +139,4 @@ a78d7dce1e71231cef671ccf5ab48b31606fe352 Merge tag 'powerpc-6.11-3' of git://git
 890daedec4f483bcb5cea0a4ce290830d12d78b2 Merge tag 'riscv-for-linus-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6b8ff511e412af4a367a8d3d4f323715a9357aa0 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============5420762664978846996==--
+--===============7359835171102964665==--
