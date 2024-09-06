@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 06 Sep 2024 18:37:47 -0000
-Message-Id: <172564786752.4163274.7960163622012206581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Fri, 06 Sep 2024 18:39:52 -0000
+Message-Id: <172564799242.4164646.10522760856668453830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 6cb1ac2b11b2f26eb4828ca5d3f0f61556acdb32
-    new: ba1b153f6d27093b3087ebc7f57db7e21b40353a
+  - ref: refs/heads/dev-staging
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 3ff8254d50734cfa19a55bd876a57299698f723e
     log: |
-         1934b0c82e980df4c9503315bed4e178905cc1d8 ARM: OMAP1: Remove unused declarations in arch/arm/mach-omap1/pm.h
-         9aee8262445d185960431e972e2d997e6aba3de0 ARM: OMAP2+: Remove obsoleted declaration for gpmc_onenand_init
-         2a53bda1b8010ec621973d51d6a00337db8fa140 Merge branch 'omap-for-v6.12/dt' into tmp/omap-next-20240904.164705
-         fa7a81399c381f4e517c16149fce0332eca0e966 Merge branch 'omap-for-v6.12/soc' into tmp/omap-next-20240904.164705
-         ba1b153f6d27093b3087ebc7f57db7e21b40353a Merge branch 'omap-for-v6.12/drivers' into tmp/omap-next-20240904.164705
+         da2d41308c4206b966d77dcb77fb838d94244352 selinux: Streamline type determination in security_compute_sid
+         fc328c869c4128fc1f975b8cfe92e9ec320d477f selinux: refactor code to return ERR_PTR in selinux_netlbl_sock_genattr
+         2571bb9d553ba2b8db1971bd3c903bff07d0bb11 selinux: annotate false positive data race to avoid KCSAN warnings
+         4ad858bd6fbe21c563f177d499da5f99b4b2480e selinux: replace kmem_cache_create() with KMEM_CACHE()
+         a3422eb4facdebb685b9b4688feb60430450e3c9 selinux: mark both IPv4 and IPv6 accepted connection sockets as labeled
+         68cfb28332420e0515cb6ffdb46921d59ba9739f selinux: simplify avc_xperms_audit_required()
+         d19a9e25a722d629041ac8fd320a86c016e349d1 selinux: fix style problems in security/selinux/include/audit.h
+         d2022b87b5ed2e16388ef62a65953097c6dc5227 selinux: do not include <linux/*.h> headers from host programs
+         3ff8254d50734cfa19a55bd876a57299698f723e selinux: move genheaders to security/selinux/
          
