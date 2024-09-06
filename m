@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 06 Sep 2024 20:57:20 -0000
-Message-Id: <172565624098.83031.13875615178495750335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 06 Sep 2024 21:06:21 -0000
+Message-Id: <172565678168.92191.12072320707438865007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 91c076da32c56a2271d8ce37a9b0b9a49df778f6
-    new: 880d3f671ebba029d27369c512f82b04aa4b6a16
+    old: 04bb60d0dfd13ac51c0294ea1c3b78a783b7d22d
+    new: f8c6b7913dfaa67475883f94261c278adbcaa0ae
     log: |
-         880d3f671ebba029d27369c512f82b04aa4b6a16 Fri Sep  6 04:56:48 PM EDT 2024
+         f8c6b7913dfaa67475883f94261c278adbcaa0ae bpftool: Improve btf c dump sorting stability
          
