@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6617832636897817571=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 06 Sep 2024 17:18:42 -0000
-Message-Id: <172564312277.4096719.7841422536612884665@gitolite.kernel.org>
-
---===============6617832636897817571==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 06 Sep 2024 17:20:54 -0000
+Message-Id: <172564325460.4099504.2166462882094401400@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 9d06852b249c24349ffcb162f0623d6d71f311b2
-    new: b39121354f95cdca77d7576a979c5cbe387a9eed
+  - ref: refs/heads/200GbE
+    old: 52fc70a32573707f70d6b1b5c5fe85cc91457393
+    new: 4b18064883a7755854c4472dcad9cf9f5f3291da
     log: |
-         b39121354f95cdca77d7576a979c5cbe387a9eed w1: ds2482: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         cd73b0bdab83bbbc4521ed82e6f0e44bc8a24d6f libeth: add Tx buffer completion helpers
+         45fd4a6362581357aa0b93d6ace0c225ee2738a0 idpf: convert to libeth Tx buffer completion
+         c08b4373bbc6bf10a22cb5a97103cd067b823226 netdevice: add netdev_tx_reset_subqueue() shorthand
+         2230a6f0408f4e9c389e0b059454d35f01caf17d idpf: refactor Tx completion routines
+         14dcaa6ab84e8857745c80ea2d046207d1089774 idpf: fix netdev Tx queue stop/wake
+         4b18064883a7755854c4472dcad9cf9f5f3291da idpf: enable WB_ON_ITR
          
-
---===============6617832636897817571==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725643144 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725643121-46576d8c14fbc3e14e4276012c92020c3d5fd52f
-
-9d06852b249c24349ffcb162f0623d6d71f311b2 b39121354f95cdca77d7576a979c5cbe387a9eed refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbbOYgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X8EP/iNRlA+bzPTsQ7ktsrhc
-2bD9Ypl64P/ZDRzhLtOvg+8eOxhf3EqmWEmPsb4OFdjnHLn7zfGPYsQAHjSOHpJq
-+PEbgr0jM+jWFtpXk1lgdBygwqAtmc2wSQ9MBZlFacC6hUFrgKO4hjdwN5MT+iZN
-p+oTEymhjucYFMFWVnRh8rCypdAAsZcybde3whTL6D2yqJUx11vBQmJy0D9Wyyt9
-M2pxk1M1zgVIPrZdGoaZAxl0u64rmi0rxLJUaeO8LipwvxvtPUENZ8fWXFliMurh
-w9APYE1tOpJ8vwS1veUSQUH8hheRIqA+xcNRV/eoDifWlpGNiwDPEcNvNxfwsjHP
-RaGohuClL8ARIekUH+UuKgvSQiiaUKgWWUx7NGwrxKSIfnT6a18sl8VDAIf7op9j
-V18xfxL0wvtIQvmkVLtcnWNWDxJbyCVxEWqh83RqwWQClNTfIk5SeEuZWVOFeXXS
-YyJi4EqzWw0aDK80L6n89T9RMMYWDR7uBS+7NGVOnAO9+KiF5pCB9vLjuCxN068y
-H0C7VyY3DaYsNGUp0b7mr2+J+pxnDNtG64GaFvT57bkdx+S5MnfuwUIl7JGUZO37
-h55+Gv66maEVFnIsCqHeykq50eqFRJbjo9iP1IMkyy/G+9AFQqbe9EcbT5FlmLa7
-QFy1eZPdp6etk/GZcJt5XXXt
-=bcbK
------END PGP SIGNATURE-----
-
---===============6617832636897817571==--
