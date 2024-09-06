@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3482348089063020107=="
+Content-Type: multipart/mixed; boundary="===============3954391924846164794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 06 Sep 2024 21:52:47 -0000
-Message-Id: <172565956701.131124.7927019212296828172@gitolite.kernel.org>
+Date: Fri, 06 Sep 2024 21:53:32 -0000
+Message-Id: <172565961206.131541.14804262407964084549@gitolite.kernel.org>
 
---===============3482348089063020107==
+--===============3954391924846164794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: cb14d1fdbd054988773234624906ff39d8a6311e
-    new: 7be4fe35d52daac57b8c6df7c3cf76218add771c
+  - ref: refs/heads/stable-0.14.y
+    old: 0f9f5a8178ac93defde9cdf91e5dcb8fac82ebcc
+    new: 648c7be795898a8c21c9b7792333b1424976984c
     log: |
-         5adaafce395df4d84cd6ce3677ee4186ce69e9e7 Properly pass nocache when querying thread
-         7be4fe35d52daac57b8c6df7c3cf76218add771c ez: use a temporary workdir when preparing sent tags
+         648c7be795898a8c21c9b7792333b1424976984c Properly pass nocache when querying thread
          
 
---===============3482348089063020107==
+--===============3954391924846164794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1725659588 -0400
+pusher B6C41CE35664996C! 1725659633 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1725659566-5e75d80e4b27d0b1c074085bb6ef7eded6903338
+nonce 1725659611-3126c5b3f8e9a25688a1dc3a719d0f51308c8d28
 
-cb14d1fdbd054988773234624906ff39d8a6311e 7be4fe35d52daac57b8c6df7c3cf76218add771c refs/heads/master
+0f9f5a8178ac93defde9cdf91e5dcb8fac82ebcc 648c7be795898a8c21c9b7792333b1424976984c refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtt5xAAKCRC2xBzjVmSZ
-bPeQAP9wx/bMRdcYN29sKcePxzBPDste2sLrJoYQEExkBI1+LQD+ON7ITzHC5JNS
-DsZkn0SN91bLpswuNvUCjaWltTvn5AA=
-=KuvQ
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtt58QAKCRC2xBzjVmSZ
+bAZWAQClogm9zcYl5ftPW55100X6Ook/kH1SfU7PvoXIweBqUAEA7cFYnXrNrDFD
+Jhfls6VYgIDT6Y54JalPQcBZOzv9lw8=
+=Hlkt
 -----END PGP SIGNATURE-----
 
---===============3482348089063020107==--
+--===============3954391924846164794==--
