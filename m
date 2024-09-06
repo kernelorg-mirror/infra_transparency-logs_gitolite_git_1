@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 06 Sep 2024 16:40:53 -0000
-Message-Id: <172564085399.4065546.1937671145394019904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 06 Sep 2024 16:47:07 -0000
+Message-Id: <172564122732.4069954.16852795858773369840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 16b202aacb85fd3f6fb9ec4f4b18c40a57f81a88
-    new: 38943b20609e458b487f4255c3d3c1ef7eb1a15a
+  - ref: refs/heads/next
+    old: f0a6ecebd858658df213d114b0530f8f0b96e396
+    new: 7beaf1da074f7ea25454d6c11da142c3892d3c4e
     log: |
-         38943b20609e458b487f4255c3d3c1ef7eb1a15a shared: use size_t for strbuf
+         7beaf1da074f7ea25454d6c11da142c3892d3c4e selftests:resctrl: Fix build failure on archs without __cpuid_count()
          
