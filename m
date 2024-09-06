@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9086356981089307317=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 06 Sep 2024 15:32:58 -0000
-Message-Id: <172563677861.4006344.3103885894255862853@gitolite.kernel.org>
-
---===============9086356981089307317==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Fri, 06 Sep 2024 15:38:36 -0000
+Message-Id: <172563711670.4011325.817243061028611450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: e2eaabef795ccfbe311ec84509b39a30a766257e
-    new: 14a2bb16f6cacb52dbdd34e4b7de0d68a6a9dd75
+  - ref: refs/heads/i3c/next
+    old: ced86959d28cc26bbfc5f2fd6e37407637c20e11
+    new: 061dd21ca712cd7103c26ed77bb4a04d98930981
     log: |
-         14a2bb16f6cacb52dbdd34e4b7de0d68a6a9dd75 ez: add X-Change-ID header
+         133f67bea5e03134b4b388a884e59a052809403d i3c: master: cdns: fix module autoloading
+         061dd21ca712cd7103c26ed77bb4a04d98930981 i3c/master: cmd_v1: Fix the rule for getting i3c mode
          
-
---===============9086356981089307317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1725636799 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1725636777-bb58528bfc89f0a801a9fa842713d3ee4173cb14
-
-e2eaabef795ccfbe311ec84509b39a30a766257e 14a2bb16f6cacb52dbdd34e4b7de0d68a6a9dd75 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZtsgvwAKCRC2xBzjVmSZ
-bF9aAP0UNfSd20pyGG8T8grXwjgeQApQDLNfc47MTgTsqw+h8QD+IMypi7cHjmK+
-/syla3xQUibhcvyrxFMgqCJrR8i3aA8=
-=7tiO
------END PGP SIGNATURE-----
-
---===============9086356981089307317==--
