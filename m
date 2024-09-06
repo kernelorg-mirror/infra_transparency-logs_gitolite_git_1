@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 06 Sep 2024 14:28:39 -0000
-Message-Id: <172563291976.3912659.14307882209489597647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Sep 2024 14:28:48 -0000
+Message-Id: <172563292854.3912890.18150191542942064958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-joerg/arm-smmu/updates
-    old: 483e0bd8883a40fd3dd3193997a4014337698d72
-    new: a2bb820e862d61f9ca1499e500915f9f505a2655
+  - ref: refs/heads/irq/core
+    old: 59fc20ba70294d2c5f620ad6206aa661ce7718d6
+    new: 87b5a153b862b7d937fc1dd499368297a1feae87
     log: |
-         a2bb820e862d61f9ca1499e500915f9f505a2655 iommu/arm-smmu-v3: Use the new rb tree helpers
+         87b5a153b862b7d937fc1dd499368297a1feae87 genirq/cpuhotplug: Use cpumask_intersects()
          
