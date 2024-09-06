@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Fri, 06 Sep 2024 15:41:46 -0000
-Message-Id: <172563730690.4015125.16101842191787064183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 06 Sep 2024 15:44:04 -0000
+Message-Id: <172563744406.4016254.16844868702019764499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: dd312ee980875d38513c7076c436038c6897e07f
-    new: 75dcef54b10180dc425a285443ff4d37b523fc21
+  - ref: refs/heads/master
+    old: 18c49d0598afe87796e3b9981df4ff9e94308f62
+    new: ac34d1897282cf764296e085d26100788fd5a0e2
     log: |
-         75dcef54b10180dc425a285443ff4d37b523fc21 firewire: core: use WARN_ON_ONCE() to avoid superfluous dumps
+         ac34d1897282cf764296e085d26100788fd5a0e2 libkmod: Improve signature parser on 32 bit archs
          
