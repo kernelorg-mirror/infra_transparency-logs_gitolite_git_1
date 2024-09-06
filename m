@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8895160061552304193=="
+Content-Type: multipart/mixed; boundary="===============8179281915761858663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 06 Sep 2024 17:17:29 -0000
-Message-Id: <172564304935.4095733.2165168591540913234@gitolite.kernel.org>
+Date: Fri, 06 Sep 2024 17:17:53 -0000
+Message-Id: <172564307392.4096073.5614780206334202597@gitolite.kernel.org>
 
---===============8895160061552304193==
+--===============8179281915761858663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 3ff77190cc892f8e78428bb38042f093b48d3d82
     new: 9d06852b249c24349ffcb162f0623d6d71f311b2
     log: revlist-3ff77190cc89-9d06852b249c.txt
 
---===============8895160061552304193==
+--===============8179281915761858663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725643069 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725643095 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725643047-d62b5f0d7c07f458869ed706d91c3db4786b3af9
+nonce 1725643072-4902a3bdd482f943b82a1a520b450c9078138ec6
 
-3ff77190cc892f8e78428bb38042f093b48d3d82 9d06852b249c24349ffcb162f0623d6d71f311b2 refs/heads/char-misc-testing
+3ff77190cc892f8e78428bb38042f093b48d3d82 9d06852b249c24349ffcb162f0623d6d71f311b2 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbbOT0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cDUP/A9h+JT4y/OIrwmP4OgA
-9f4kycjPNzrwyzgerJpYQYP2s6H3s3emmmEKNrZQT70V9jALL2VzZiWmSxepWpjm
-1n6cfXaX2l1nFvgVv6YTsm7OMZYP+cQ78r503UvjcH5Rs2hJNW0YlyspAtBN89id
-5Dy4+i7ZKoT5dRpxx6uo1pxvmVlf0Q0lb+vljiBJSdfG/uH054bJ1p8cCgOjr7+n
-M72ca9pgdfDAPsEoaw4FvaKcH2EOm53eGAbxf/UNY+vRL4RqPgBsIZuuKmMvQz5T
-2A/Z6Y0+pFXz2uIQruahGzIfXG/dTAlQThkLys0R6LsLduTDu6LsA7VRBcQ52ZzZ
-jWeXKDRu1WwzRhMzLAWYT1FwDVNPCg4PtyjU6hybpF3PeVKBOc2sVWmmXF6H1ZZs
-SoOzFCT2CdyShRE/3Dd8+Hd2snvx9IYg1KxYJx6Ms+GL73+UnhDW1KlIOPnX1vO7
-gF7MxhgEov4FRb8ywLKNZszWeZG2AUvHIXbLC80YksTO+fVPlHkBVhX9VJwYQdsK
-wUF8NZMrDoFZT96dUOGfUKt+hEegUoVol3C+Rikd8ZII54ZY8p8cc2/Z7wNDQFYx
-alLfpoWZyKet5GIwqjmDh7hQK2DTqw3L7mZpugnqAaQm9qSRiowy1MWrvRWe/rc7
-PQJIkt7r9bqOOFm3eDQrC992
-=vOIa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbbOVcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pa4P/3xfh1oDNkMYpHEO5A9C
+f4Db7QHMx6cRAvoWM1bPAVGlOQjpj0WpHFZX7QlDT2upZ413NrY5M4LYOyudzpPg
+Xmg9ba2twoPycgrxcg/v15LV0KlaxEmAjfQXU7o3qGn6uxH1YT19OQ/kzu70M/37
+XVF1borUc98V/2m9WmmTYqm27ARNEHXilidb6cXGVr42rFoAchn8KKQxVmzrw7LF
+43eptjGWrI3cmNA9+oGwfPwF29JhX86AP1zcV/fzP47BHrPUn/Insr/l3yXicYDw
+KMw5XNFkqkqZIJCMNF5cGcNxjHn1AOrkT8T2XkaTzpTTYmfmH1pPz5cRNJgEkh4M
+KO3VSMGvJf5aF4SguZ6EThcUFi97z3Scacu3hbBbpFYhlj6OZTIHUMLX1S4tZ0hV
+w0q4WNtoRwv+aiSgILx5V932uW9cG29MZAjwfXCyB47wZiICpEwOKb+6oobD9Lzs
+XB2AB+/1Pw8FuCUlmIXY8N5aSnSMMvB0w45jSCG9CN3prqCy5RBoG4BmYm7ZhQsa
+hn5HySQqMpXdCXKRedeu10Rm7gcfxUQqjOE3mRLI2QaaPYcV6+Z0MJxmIgmzuEVf
+udi2RfG0jGCPkLVEzhNXCgk36clfEW3Yzpg6u2h1R5oIfqyEoGHflpKsgTmNppoj
+jIasxWp4pQBc2QiewocOOnwx
+=eV+B
 -----END PGP SIGNATURE-----
 
---===============8895160061552304193==
+--===============8179281915761858663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ f7d27c1cc83be7df49ba3a0e117bdedef92b4dec Merge branch 'icc-misc' into icc-next
 a5733950fe35d56a935257995d8093a3b4867f61 Merge branch 'icc-sm8350' into icc-next
 9d06852b249c24349ffcb162f0623d6d71f311b2 Merge tag 'icc-6.12-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 
---===============8895160061552304193==--
+--===============8179281915761858663==--
