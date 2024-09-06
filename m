@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5004153638161964795=="
+Content-Type: multipart/mixed; boundary="===============1466316376713723217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 06 Sep 2024 23:04:36 -0000
-Message-Id: <172566387624.188993.9212110203127870302@gitolite.kernel.org>
+Date: Fri, 06 Sep 2024 23:06:07 -0000
+Message-Id: <172566396791.191625.14823462755698883181@gitolite.kernel.org>
 
---===============5004153638161964795==
+--===============1466316376713723217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: c6f1758f7a6867a211919e99f695d73f2660504d
-    new: 5697e94daab9e40cbf1fb368781d110f22fb6760
-    log: revlist-c6f1758f7a68-5697e94daab9.txt
+  - ref: refs/heads/dev-test
+    old: 6e2b326704da9cba66211aff267a1f23cc8c5a7d
+    new: e0dbcaf0d635020a52a93a654b5d928a62cf0c5f
+    log: revlist-6e2b326704da-e0dbcaf0d635.txt
 
---===============5004153638161964795==
+--===============1466316376713723217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6f1758f7a68-5697e94daab9.txt
+Content-Disposition: attachment; filename=revlist-6e2b326704da-e0dbcaf0d635.txt
 
 10de741a5d7ab110eb026ad214eea2c5e5fe7e9c f2fs: convert f2fs_compress_ctx_add_page() to use folio
 aec5755951b74e3bbb5ddee39ac142a788547854 f2fs: convert f2fs_vm_page_mkwrite() to use folio
@@ -44,5 +44,13 @@ bcf4d2dd840e5f4401a2d9425bd0ce94cab12336 f2fs: convert f2fs_do_write_data_page()
 4deccfbdc4464b66fe50d71e9d64240483efb07d f2fs: convert __write_node_page() to use folio
 2eaa98e5203979fd5fa6386f307f4f8277a72593 f2fs: convert read_node_page() to use folio
 5697e94daab9e40cbf1fb368781d110f22fb6760 f2fs: get rid of page->index
+a53d2a9c10f00f8797a5b59b159aa288b01dd093 f2fs: make BG GC more aggressive for zoned devices
+885eb454d2b9e28a35ff91562739f7f6d157724f f2fs: read summary blocks with the correct amount for migration_granularity
+4d8d6e3514281e715346cd4202490f0df76f2aeb f2fs: add reserved_segments sysfs node
+12506abeebd263a3f4601aaa12749815a9c1750a f2fs: increase BG GC migration granularity when boosted for zoned devices
+14cd2584235aee6e119a9c97169214b64fa3a040 f2fs: do FG_GC when GC boosting is required for zoned devices
+1edef4cd1053a2e3ac140a7be482c333ee56286b f2fs: create gc_no_zoned_gc_percent and gc_boost_zoned_gc_percent
+7489d8dae98b9da5256be8aff4f1f4b631435216 f2fs: add valid block ratio not to do excessive GC for one time GC
+e0dbcaf0d635020a52a93a654b5d928a62cf0c5f f2fs: prevent atomic file from being dirtied before commit
 
---===============5004153638161964795==--
+--===============1466316376713723217==--
