@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8320336016330500055=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 07 Sep 2024 01:49:25 -0000
-Message-Id: <172567376505.319198.2708248700218425944@gitolite.kernel.org>
-
---===============8320336016330500055==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Sat, 07 Sep 2024 01:51:26 -0000
+Message-Id: <172567388618.322142.4144349920329838111@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/regulator-6.12
-    old: 401d078eaf2edd605c9121741e166d9326c63677
-    new: 8651db0fcb60b2376f5be7934ecf68b19cb81124
+  - ref: refs/heads/for-6.12
+    old: 0f3e1eaaf7f97839ac65f525efec392161d73219
+    new: 602bcf212637633d537ee74bf39c6bc5722efb9b
     log: |
-         b4c21faf69b8eec1016c776be4777f39f194e3b0 dt-bindings: mfd: x-powers,axp152: add boost regulator
-         bb2ac59f8205165fce5aee9135bd1e2ea9b1a74b mfd: axp20x: AXP717: Add support for boost regulator
-         22dfe2ea1d63f15d8b9661e7690ac0a03159db6a regulator: axp20x: AXP717: Add boost regulator
-         8651db0fcb60b2376f5be7934ecf68b19cb81124 regulator: Add AXP717 boost support
+         c494708d1f680027c7cbbaa670198179774f7d4d ata: libata: Cleanup libata-transport
+         a16951510fae8fa9b934673404c4fc990d124ccd ata: libata-scsi: Improve ata_scsi_handle_link_detach()
+         5bb52d926598a018b1510fd6684dcbaed31d57f2 ata: libata: Improve __ata_qc_complete()
+         b642212d8858059f652b2a81b0cb73541416d2e3 ata: libata: Move sata_down_spd_limit() to libata-sata.c
+         78f76b09c915d7281317d8e082c4c02f325a0366 ata: libata: Move sata_std_hardreset() definition to libata-sata.c
+         10e807637f288f9963340a30ae8da9bb06beca3c ata: libata: Rename ata_eh_read_sense_success_ncq_log()
+         da65bbdd3bc1e8d2193e01167a413d90d9988c04 ata: libata: Move sector_buf from struct ata_port to struct ata_device
+         5f8319c4b3ec4e8fdc7f7bf61f47f985e1a6f074 ata: libata: Introduce ata_dev_free_resources
+         602bcf212637633d537ee74bf39c6bc5722efb9b ata: libata: Improve CDL resource management
          
-
---===============8320336016330500055==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1725673785 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1725673763-93f99d2689728574a716aa6e77a57d6849244b26
-
-401d078eaf2edd605c9121741e166d9326c63677 8651db0fcb60b2376f5be7934ecf68b19cb81124 refs/heads/regulator-6.12
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbbsTkTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GmAB/9ingydO0GtE+Z03ucJJIp8HTIpR0Zr
-T1aNlW/PlYC4vBX3T4oK90ZLjv8L79nS84IG8US3zKY3SK2nDRQ3bcZyZnZhufvu
-QHklKZek7GbECENJpIKFdCVbw5KRLMjQrIuGvhAbEN841vzrdTEtHuMqCpO8NoPG
-KofMt+Zpoe7F1+XOJBL52pRsRm6aOCuRUipgSNvESZ+6ZEN1+xI8NyCVAmQavpZv
-uC/UZR3cG5se39F7igrsmWKsnV/Kemg2MGF+nBOK/T9wETmoW1S7ideBCJmAKTrG
-635qBEt8eHIg8ruti7eTr+9JEHgz+25ZzhHg9isrLoI39w0nsNr7FPoI
-=7isw
------END PGP SIGNATURE-----
-
---===============8320336016330500055==--
