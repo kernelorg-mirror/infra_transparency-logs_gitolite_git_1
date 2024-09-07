@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4781129612444781019=="
+Content-Type: multipart/mixed; boundary="===============0263395114580913939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 07 Sep 2024 10:00:52 -0000
-Message-Id: <172570325265.731440.2934577926347180436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Sat, 07 Sep 2024 10:06:15 -0000
+Message-Id: <172570357514.735676.10095672829005344807@gitolite.kernel.org>
 
---===============4781129612444781019==
+--===============0263395114580913939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1e915558c0496e6885f78a455144275644ba05ae
-    new: c01e680709870e861523ce11e64d17d86a57e052
+    old: 284a7cd7b56af4255c3a60e31d2e4114bddee1b8
+    new: 67b288f964ff6ade4856e09cfa9d2ece0d01ab06
     log: |
-         5703df61964dcc36fe51e00f3c12d7ac07f74b3b update cvelistV5
-         c01e680709870e861523ce11e64d17d86a57e052 proposed: Add Ruiqi's CVE review of v6.10.8
+         67b288f964ff6ade4856e09cfa9d2ece0d01ab06 usbhid-dump: clean up meson.build a bit
          
 
---===============4781129612444781019==
+--===============0263395114580913939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725703265 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725703246-265a5b950da7458edf30e7ddb13a598c9b565407
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725703593 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1725703574-c9269e2b217dc7640320e6a19135d11ef60c6346
 
-1e915558c0496e6885f78a455144275644ba05ae c01e680709870e861523ce11e64d17d86a57e052 refs/heads/master
+284a7cd7b56af4255c3a60e31d2e4114bddee1b8 67b288f964ff6ade4856e09cfa9d2ece0d01ab06 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbcJGEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mh4P/1+GTJ4xR1G+bcTxCVRK
-ZWrb4dygxjTGZvrjptKI0mthbXEc9vfIE1gSFOcVfvt7F1KxNw0JDm8p8Aiq7/EG
-aDQPfUR/2D2PtjJtczRBtuUk9PQ6EN08bS3pDWbxHZX+YdujOMA0GJeAe5fO2H5l
-M6oAR2SJWVuqF2AE21oGPLxER+7GrO1MqCxTOYs8FOuoY+xSUumNbmWCGC+YLXLf
-YexMPv3flCFQKzS4XIggSKdyUdhVHYB4Z2asCNuD5jca3OppBO4Y34NTSV019C4P
-RfIBq2bIWf0RIUsVDgc6mkuglj9RqaP7sA7elgrH4b6HnZhsTsL4LsjQ2/dG11ws
-LnXMp2SQi8FYlUqEmmkngVvlUoEQ/7WH/bxOqO685nJjphOM28O8sjQm0aUCHOPS
-CV3h07T+R2twW+SEegF8py65BkmxcF+hAIOZeTjss1+CF7LIKzHRvJTPGVIEuz1E
-uCDmgX6hEJQMv3QhHIieHwPxF8M7opiF2C5aBw8Xq79j2KUxWhisym0P7C+tamVT
-GxfdrWZ5QeJHm4Z1v6s38+eB+3fzBfDYXl4cOlvORFJX6ADI5YB+j3JbcBFWzFHh
-/xyL9YFh3R/kr7Hsn9xKyjuE4GeHgdtiHOt/mlG2C3DRvZG7jSnB8zaaTLKUvO4H
-XzSkylGEmLch7qEinsigQ/2g
-=IS2u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbcJakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3e0P/0kTFkY6cc9OmzKapn6a
+P0vX+WnYMpLgkEaP/nruNUZeW88qO0OEB2478QvsO3B42DljIBozflo01s64nArY
+IMWlFz8G1AXxg4cHwqpY0SssnMLwr2tOp6mEmJAJ3ka6bSczW8nymg7hHlOqyr41
+h2CdxMxKA0UmQ6ZFswkqrPO1CygvJkmXvGfPdSn9/LNDKa+s+koOYZ6Uf1aNmbd1
+uBzz1yKIVY8UdQB93+ssax6P/gdtQL3PE34tJ8o59Mj5iHJjCYAX6ZVFQJKZUiB8
+IEc3aqTm5ZQYRVwbJKg7Ae+qQYZyOTp6esct99+TUAABtSKX2HoLzXzw+RVcNos1
+qkHgaiN1nLhcby7sYxOKSv4NHhRhPrNp6Zxz3ihe3co5ojMN51wY0MegOj+3OLk9
+8Np+G2ADlNJo2USJEX9JeASdzF8muN284pFlx0xCIQc7EGDA9RGcUelHj6oQRwPn
+3wsswEPbwnXngs+vi8oWcogoFiSnu06ZrKhC5D8raKZgyEscZJT1x1EbtxQBHEJj
+F3VKMlltFZMJqq9XvKdXF7592ErGA+5hVhSaKYmwggWNHfX/UG7pWmdNmJDGYR/y
+k7W2M1vpyBwaj1rfZ3x9OaIcFDF2c4S0fjoQxT5X6QMRElJ/pNha28fRF4dViQy0
+fMjOi1DOqr4WuSSACs/TPQhi
+=jf6b
 -----END PGP SIGNATURE-----
 
---===============4781129612444781019==--
+--===============0263395114580913939==--
