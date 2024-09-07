@@ -1,23 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 07 Sep 2024 08:24:26 -0000
-Message-Id: <172569746690.657028.3235101695930597776@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8361459015917113638=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sat, 07 Sep 2024 08:33:22 -0000
+Message-Id: <172569800240.664554.17200777256360427847@gitolite.kernel.org>
+
+--===============8361459015917113638==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: a220efd26cd0fe382153ce0ff129e050fe7b6d15
-    new: fdf94e4403ece60b29ef9e2da95e2fcefe50817f
+  - ref: refs/heads/i2c/i2c-host
+    old: 48b83f5f68edb4d19771d5ecc54bbbc37166f753
+    new: 39d86d26dc8aac03403cb18b3bff6391787e6676
     log: |
-         d97eae80d57220477a02435e49b48ac6f01e289c Documentation: kconfig: explicitly document missing prompt
-         4929f5b95f6b20ae10f2c409fb2ca58253e73706 kbuild: add debug package to pacman PKGBUILD
-         dde60e7d103bf6cf820b2c4c4bb5658bad1759a9 kbuild: remove recent dependency on "truncate" program
-         cd615d7fcc7958107d1506c6eb5be50f4e920312 ARC: update the help message for CONFIG_ARC_BUILTIN_DTB_NAME
-         fdf94e4403ece60b29ef9e2da95e2fcefe50817f kbuild: compile constant module information only once
+         8759646774b0bdd1e211696a4a686c32eb6e3e0e dt-bindings: i2c: add support for tsd,mule-i2c-mux
+         39d86d26dc8aac03403cb18b3bff6391787e6676 i2c: muxes: add support for tsd,mule-i2c multiplexer
          
+
+--===============8361459015917113638==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1725698023 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1725698000-7f930c02058b1fb9e5ba3d7c30d4b020e3f274a1
+
+48b83f5f68edb4d19771d5ecc54bbbc37166f753 39d86d26dc8aac03403cb18b3bff6391787e6676 refs/heads/i2c/i2c-host
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZtwP5xYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ujw4A/2JNBKoqaJK6eIdfmocwBn0D8ai1
+5PZYZUcHNeOxxchoAP42+epDFX5Ce2SKRlGj/G79YgMf0mjld3EsNBMkkx0cAw==
+=atRv
+-----END PGP SIGNATURE-----
+
+--===============8361459015917113638==--
