@@ -1,62 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2178637584303695514=="
+Content-Type: multipart/mixed; boundary="===============0219242009786276471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 07 Sep 2024 13:49:41 -0000
-Message-Id: <172571698175.919919.13510420261868527756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sat, 07 Sep 2024 14:30:15 -0000
+Message-Id: <172571941560.967055.13234302494265985448@gitolite.kernel.org>
 
---===============2178637584303695514==
+--===============0219242009786276471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-6.12/block
-    old: 68f31e88917f5608eb8da0bef37249648ffd48d4
-    new: acc8c0a9887558966295e3c0881e633154c239a9
-    log: |
-         a02e98bebc15f1d973c2a62005be9456a657e2b6 mtip32xx: Remove redundant null pointer checks in mtip_hw_debugfs_init()
-         acc8c0a9887558966295e3c0881e633154c239a9 blk-mq: add missing unplug trace event
-         
   - ref: refs/heads/for-next
-    old: 687d187469be8943f14507d544e145060bd1479b
-    new: e183891c2478b96e6c9da397341f0463de987774
-    log: revlist-687d187469be-e183891c2478.txt
-  - ref: refs/heads/io_uring-6.11
-    old: f274495aea7b15225b3d83837121b22ef96e560c
-    new: b7ed6d8ffd627a3de8b0e336996d0247a6535608
-    log: |
-         b7ed6d8ffd627a3de8b0e336996d0247a6535608 io_uring/sqpoll: inherit cpumask of creating process
-         
+    old: 00fa449228a7290e6e5139157c44609dde6fd768
+    new: 084e6b2e25a385af3e79a16a6a29be5f1fb8e8c4
+    log: revlist-00fa449228a7-084e6b2e25a3.txt
 
---===============2178637584303695514==
+--===============0219242009786276471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-687d187469be-e183891c2478.txt
+Content-Disposition: attachment; filename=revlist-00fa449228a7-084e6b2e25a3.txt
 
-4e893ca8117022de68ce1b61c0309e3d17bb8a25 nvme_core: scan namespaces asynchronously
-79559c75332458985ab8a21f11b08bf7c9b833b0 nvme-keyring: restrict match length for version '1' identifiers
-363895767fbfa05891b0b4d9e06ebde7a10c6a07 nvme-tcp: sanitize TLS key handling
-5bc46b49c828a6dfaab80b71ecb63fe76a1096d2 nvme-tcp: check for invalidated or revoked key
-c5f2ca52d00de5d0348a758a28b51ddf5e685a89 nvme: add a newline to the 'tls_key' sysfs attribute
-1e48b34c9bc79aa36700fccbfdf87e61e4431d2b nvme: split off TLS sysfs attributes into a separate group
-f5eb7397471bbc24d63011f8cb2d422ac606085d nvme-sysfs: add 'tls_configured_key' sysfs attribute
-02a3688c53d648e027ca9c27423bf864a189d7c7 nvme-sysfs: add 'tls_keyring' attribute
-bb2df18958b4287104c38541cf48c4a60c90e721 nvmet-auth: allow to clear DH-HMAC-CHAP keys
-ff4a0a4088adc6a37293a9cce25bb56ad2f26a16 nvme-target: do not check authentication status for admin commands twice
-03c3d7c74371a46d967fbf41628874ec04ddda96 nvme-rdma: send cntlid in the RDMA_CM_REQUEST Private Data
-cead0b8991713bdeb5b947758dd62287fcf8da40 nvme: rename apptag and appmask to lbat and lbatm
-7c2fd76048e95dd267055b5f5e0a48e6e7c81fd9 nvme: fix metadata handling in nvme-passthrough
-d981ed8419303ed12351eea8541ad6cb76455fe3 md: Add new_level sysfs interface
-981414306c05a6cf2b18a6d63380888270c3ee9f Merge tag 'nvme-6.12-2024-09-06' of git://git.infradead.org/nvme into for-6.12/block
-68f31e88917f5608eb8da0bef37249648ffd48d4 Merge tag 'md-6.12-20240906' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.12/block
-a02e98bebc15f1d973c2a62005be9456a657e2b6 mtip32xx: Remove redundant null pointer checks in mtip_hw_debugfs_init()
-acc8c0a9887558966295e3c0881e633154c239a9 blk-mq: add missing unplug trace event
-e183891c2478b96e6c9da397341f0463de987774 Merge branch 'for-6.12/block' into for-next
+ee81808197bf38e36110a13a95b016c56d4073a5 btrfs: merge btrfs_folio_unlock_writer() into btrfs_folio_end_writer_lock()
+966416b380926c94751476747ea68571004eac24 btrfs: only unlock the to-be-submitted ranges inside a folio
+d2594ad7ad7b76eef415eeb62b1fa92ad2d14f4b btrfs: === misc-next on b-for-next ===
+6c43e74320100b18562487b9b4a0b29e3f5c41a5 btrfs: handle unexpected parent block offset in btrfs_alloc_tree_block()
+36c9c8067baf0de8e2be0c5f4e79a9e53495571c btrfs: scrub: fix incorrectly reported logical/physical address
+5f8fae64054b6d22dea45ee3ca081b6e9d095bdb btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
+f7248d7939220354227d99de7bdb99dddfc4eb0b btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
+2b00b442e39e4dbb81c56eb58f63f162217f6e0a btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
+c9f2ed5b760df530a950fbcf79c2607f6a95900f btrfs: scrub: simplify the inode iteration output
+70bf50a7e175b2a4e1c3afce76c3c0483b58a487 btrfs: scrub: ensure we output at least one error message for unrepaired corruption
+f703521daa51d03d6527527aa3cf90bced08ff32 btrfs: scrub: use generic ratelimit helpers to output error messages
+986f3fb2f94d0ac470d2e39b6c22e235bbad27cf btrfs: push cleanup into read_locked_inode()
+4e7847f4695636907a76363d64bb246c7c3ddc8f btrfs: remove conditional path allocation
+7613192c1e2a1ffc8a589e7b948889ec31b929a7 Merge branch 'misc-6.11' into for-next-current-v6.10-20240907
+ed5b3535ae6408939246965758233b09603bad8e Merge branch 'misc-6.11' into for-next-next-v6.11-20240907
+83970f71d39273e4e4ebc4e3961e822f6dd5f696 Merge branch 'b-for-next' into for-next-next-v6.11-20240907
+5224b4406dd2f84972347265c1a38ab27c9892a6 Merge branch 'misc-next' into for-next-next-v6.11-20240907
+e898473c07147281a09a0379a2c3b87784e9f785 Merge branch 'for-next-current-v6.10-20240907' into for-next-20240907
+084e6b2e25a385af3e79a16a6a29be5f1fb8e8c4 Merge branch 'for-next-next-v6.11-20240907' into for-next-20240907
 
---===============2178637584303695514==--
+--===============0219242009786276471==--
