@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 07 Sep 2024 00:46:21 -0000
-Message-Id: <172566998106.269852.5766329081898832623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 07 Sep 2024 00:55:46 -0000
+Message-Id: <172567054670.277659.9400400956914778325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.12
-    old: 401d078eaf2edd605c9121741e166d9326c63677
-    new: 8651db0fcb60b2376f5be7934ecf68b19cb81124
-    log: |
-         b4c21faf69b8eec1016c776be4777f39f194e3b0 dt-bindings: mfd: x-powers,axp152: add boost regulator
-         bb2ac59f8205165fce5aee9135bd1e2ea9b1a74b mfd: axp20x: AXP717: Add support for boost regulator
-         22dfe2ea1d63f15d8b9661e7690ac0a03159db6a regulator: axp20x: AXP717: Add boost regulator
-         8651db0fcb60b2376f5be7934ecf68b19cb81124 regulator: Add AXP717 boost support
-         
+  - ref: refs/tags/sent/20240906-asoc-fix-mt8365-build-974117b12f0a-v1
+    old: 0000000000000000000000000000000000000000
+    new: 52fbd6f2ef86110dc53b85460d7758d23d445d5c
