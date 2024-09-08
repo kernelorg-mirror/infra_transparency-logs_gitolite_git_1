@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0738216360405111693=="
+Content-Type: multipart/mixed; boundary="===============0261086877215105455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 08 Sep 2024 06:17:42 -0000
-Message-Id: <172577626258.1845920.6398824943530274407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 08 Sep 2024 07:08:35 -0000
+Message-Id: <172577931566.1883729.3388992854098335694@gitolite.kernel.org>
 
---===============0738216360405111693==
+--===============0261086877215105455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 6568d337bb6e022d212059ad65759f5e72ede51a
-    new: dfb5f64c8b8a643077369479c3fe00a37523046b
-    log: |
-         dfb5f64c8b8a643077369479c3fe00a37523046b strip some 2023 emails
-         
+  - ref: refs/heads/vfs.file
+    old: 6e016babce7c845ed015da25c7a097fa3482d95a
+    new: cb9dd5ed1c3dde2fc73097eef7a4a9bd0b674066
+    log: revlist-6e016babce7c-cb9dd5ed1c3d.txt
 
---===============0738216360405111693==
+--===============0261086877215105455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6e016babce7c-cb9dd5ed1c3d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725776281 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1725776258-90d02cd619a363abf58d332785aa91bc1db94e2e
+6e0d8cd71497957d298995f5449317d67991f3c9 file: remove pointless comment
+20a3c1665b1a618d6f70d55694059c9623b0481c adi: remove unused f_version
+6cc0e9b9f9f459b2cbdfdbbed402b32a78ea346f ceph: remove unused f_version
+8b758a67ded9c08e9f921e4c8d66011797198c20 s390: remove unused f_version
+4f908ad3c64868effd9e358de53eca9956f8e91a fs: add vfs_setpos_cookie()
+c7b6dd5fd02482626a3e5ca6e59ec84752180b30 fs: add must_set_pos()
+1acd04686a6b106fd0a31ce58d8409b53c8ae2bb fs: use must_set_pos()
+d64671177c3c4758e5188f89b5749b1a9e72e192 fs: add generic_llseek_cookie()
+4a18744c3f9c2a495e7c638c769099027effb666 affs: store cookie in private data
+80b20a6e7093e4e6fae850d28bb769c8c6595fd5 ext2: store cookie in private data
+146e0154be88ad287fd6e6f2d5a5fa54355262c3 ext4: store cookie in private data
+7c3d158418c2916ed13ec4ccd2f47997f36ebcac input: remove f_version abuse
+e7e830d29f92edab393d9fff832636da4af79b0a ocfs2: store cookie in private data
+d62e931c84d44992d27223beb6bdc4e077bf1a5e proc: store cookie in private data
+ccc905983373860d338ebb97014f1176b2ec453c udf: store cookie in private data
+0db1a9e306c91a033963eab5312a0381764ec930 ufs: store cookie in private data
+52535b9e7e1b4078e25253fd784f0a9c4534be54 ubifs: store cookie in private data
+7f5fa9b68385a96f3fcc1323e4cbf391c72d92f7 fs: add f_pipe
+50e5ae0bd12fdfa89aec47700ea8fef7091f6511 pipe: use f_pipe
+21ae72332a07b20d20ab27c134e1811d7fca416c fs: remove f_version
+cb9dd5ed1c3dde2fc73097eef7a4a9bd0b674066 Merge patch series "file: remove f_version"
 
-6568d337bb6e022d212059ad65759f5e72ede51a dfb5f64c8b8a643077369479c3fe00a37523046b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdQZkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r/kP/RP6DzcHE/oDkS49ZdPu
-y6/AnS7ypI5ZLLW3RKi968RLqPlhGbRR6ej5IhitKdDCn4suEpFyrsFdgNviczrl
-eSk7nHNEkQ+EXdCffX9gyvvpqeLHWA3Ib6XYv/70I2mv7uMc4ymull8cAKqXIgFm
-PoumRG2ap31VfYp/7OGz8D+Rp+pTPc+2sVr5yI3M1K1LWFAjnRhYnuTc9eekzSv4
-89pfgCpHhythzsTfV9hmjrjepopyoBsp6lyhKK3y3n+UrzlgZh9eZlOUp66Z1KXT
-X32YaGvfNzfP9q4lN4aiceM3dDjRpZxgu8wyxxQycT3wnLvGw1a276l5DEsR90Rv
-GIj+kPISx8G9y0gPr1WbakbUksElxCq6QBEGUKvPZWQBQWrXkbA9lX7LjV6Yeny/
-wmXYClaDaDab5tJDuUBKExy4+rrjgwMeiqYbOCooZCGHyv2ROV1THsjv7K3k0Ldw
-j2Q4BkPFlEkXCKRbXzKC6emFsd+1DZkhVxBv57vulntX+5oiDB8nVzw4A9Ct1gH+
-8z7Uvagxo5Xv9PG5BP4pCkwNQi06QAHXFoPzyZgyhD9pTt+KorD1PCqkjnfdrr4D
-5dC/fq3nO0HGH/oHL7r0Jt4DONOVX/7OOBRBccmdIOwAMAZUJa7+6JBZL/YtMyaj
-fVU7lEb8XFtGW+WmMHabl5FB
-=6dOg
------END PGP SIGNATURE-----
-
---===============0738216360405111693==--
+--===============0261086877215105455==--
