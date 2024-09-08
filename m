@@ -1,98 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1513129045793433038=="
+Content-Type: multipart/mixed; boundary="===============6279637235263489312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 08 Sep 2024 21:14:32 -0000
-Message-Id: <172583007296.2569518.3152123936943656066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 08 Sep 2024 21:15:36 -0000
+Message-Id: <172583013612.2599152.12921096028137380071@gitolite.kernel.org>
 
---===============1513129045793433038==
+--===============6279637235263489312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f
-    new: 89f5e14d05b4852db5ecdf222dc6a13edc633658
-    log: revlist-d1f2d51b711a-89f5e14d05b4.txt
+    old: 7e4ace630d4fc930b81f4ceff0c9e0e04c218161
+    new: 0ea876a2664ac0baf603cd8be146c2f1b4c0afc3
+    log: |
+         0ea876a2664ac0baf603cd8be146c2f1b4c0afc3 6.6-stable patches
+         
 
---===============1513129045793433038==
+--===============6279637235263489312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725830093 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1725830070-2162008d4dcac8d4719df91528aa7db3c0c6d770
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725830157 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725830134-ffa9fc19ee16810e0ec2cd459fc0c6b5aa944490
 
-d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f 89f5e14d05b4852db5ecdf222dc6a13edc633658 refs/heads/master
+7e4ace630d4fc930b81f4ceff0c9e0e04c218161 0ea876a2664ac0baf603cd8be146c2f1b4c0afc3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbeE80bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/5IP/3dAZvv0ke1mjV/NfvZ1
-w61O84DuKN15vAY6qCa/TDolsKUIt39Gxsj17ROEfaLl7RWw378UPNGPWxnG7oE2
-wr1oavx3CW8urTYHYUDnEVjQBoqXtZudRnAWFZTYEjvcOCJayvJF0t/CFKJZSkUB
-i9KeOjbmg255x7TefZg9YSQMgo73mL3MfKTEbLJSE09pAx5ysD8EsguI5C2cfS6i
-Vm15aO1vGQM5vKa2e/ph94qi17a+sE6ulPYjQcqVxrN01bzV5HXtSGKAYm3krNL/
-1zVkOoHaS6sQp3fGFp/LwE3wls27wH1yxMqp2GiqgUNvnt+ZihVOelOlSH9GCI2L
-9y1JHgPe1cDdfFFcDiUU5aRyyOdB1j2BEV7ispexRJURFE32hjhsOfpE2eBd5ajv
-jyPCtxfqknSR0gcruerVzR9+PTtjFHheGQGjFYSQXuGehSB02U7S2ah6oBOLaRNq
-9TjTkHB412BCtGso3SsTZdQQewJCHC82LXFNF7F8JVk5N/8hS/+uDyI3NrDIa0eY
-DtnaQy58zYyoQ6YBPKxEcuzN/AmyoLlDm4O6rSqYBYfnhBLt9DOKwGT4BOLgMiUC
-2KOHwf0qDZAQma7qH9lahvWz/6vpMyATmdOdRJm51DapDR8vs1CURkiDM6by+zVD
-5hqws8YWT1Xbi6rlpi4kN63W
-=6Ukk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbeFA0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IxEQAMaJDdupBnOFj5K2B3k2
+m7jC4H+h4UwYefPSTOH8p2jZIKOg9FRQWFOP8pzmq96gdjWXgcv8c/r91Rn6a9+z
+DGyh4ghIF9uSib1Gq8QfXr/XpFly2u0DfZDu43zo3TO6B6d4j4CFgRsc6Pl+sr4g
+lCsrOLCrfVEIYuvdceheEb7YW4hnaPZyAU/QFIe7pFSh+MQa4AdAWUzj9Pd61Oo2
+UPAEkYWpOVxQi+jdK6D8yzpMDEOBfp6b5WpYcs6BxCmvMztC0IW/GyhnoHcNAJQh
+Rexr3HQpCDvA/og9mjh0CoPb8Td970HIfg3jhjEDMCyfW+DwqU9DXBB7+NWuSXRU
+U6spcyewIlsXjbU4uZVTQA/dVV2fRO5wh6pyvWva5IBrkfMjV+7Hrhlprgq52o9Q
+bbTuSu8FHnzZBmbxmnI6MdHdP7G8Bkd2bHfzt96WS4CS1PbDXRu7aCGSCC8Mklta
+pfrdhEP7Vu4Qr78TbmuUKvsAgJmX6dSdCc0A9Nopb2+AayKBKpgIMqGGFdwbZzf/
+4l4Z5rlWJRjFU1mDdUGqB4FGU3rz5Uc35Gq+t0V0NJQoDqgmDutMW29qsv/Rv3km
+DDdJRnFjebE3qzCbVIdQen0+kzj5U0AqU7eca8zGd98wA1RRoCnTXWPjARtvid0A
+S6V91vMrfAno3Oyze2lMoubW
+=Pbuk
 -----END PGP SIGNATURE-----
 
---===============1513129045793433038==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1f2d51b711a-89f5e14d05b4.txt
-
-b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
-90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
-84c65d8008764a8fb4e627ff02de01ec4245f2c4 iio: buffer-dmaengine: fix releasing dma channel on error
-70eac5c3c49195a323387ec237f17f9801cbdb25 iio: adc: ad7173: Fix incorrect compatible string
-96f9ab0d5933c1c00142dd052f259fce0bc3ced2 iio: adc: ad7124: fix chip ID mismatch
-2f6b92d0f69f04d9e2ea0db1228ab7f82f3173af iio: adc: ad7124: fix config comparison
-8a3dcc970dc57b358c8db2702447bf0af4e0d83a iio: fix scale application in iio_convert_raw_to_processed_unlocked
-de80af5c2ffd9c3f02792f6979296cb6f74e82e5 iio: adc: ads1119: Fix IRQ flags
-e81bb580ec08d7503c14c92157d810d306290003 iio: adc: ad_sigma_delta: fix irq_flags on irq request
-61cbfb5368dd50ed0d65ce21d305aa923581db2b iio: adc: ad7124: fix DT configuration parsing
-f242967f4d1c024ac42bb47ea50b6360b4cb4556 iio: adc: ad7173: fix GPIO device info
-0a3b517c8089aa4cf339f41460d542c681409386 iio: imu: inv_mpu6050: fix interrupt status read for old buggy chips
-471ef0b5a8aaca4296108e756b970acfc499ede4 clocksource/drivers/timer-of: Remove percpu irq related code
-5b8843fcd49827813da80c0f590a17ae4ce93c5d clocksource/drivers/imx-tpm: Fix return -ETIME when delta exceeds INT_MAX
-3d5c2f8e75a55cfb11a85086c71996af0354a1fb clocksource/drivers/imx-tpm: Fix next event not taking effect sometime
-342123d6913c62be17e5ca1bb325758c5fd0db34 Merge tag 'timers-v6.11-rc7' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
-00dcf2fa449f23a263343d7fe051741bdde65d0b usb: dwc3: Avoid waking up gadget during startxfer
-9149c9b0c7e046273141e41eebd8a517416144ac usb: dwc3: core: update LC timer as per USB Spec V3.2
-e2940928115e83d707b21bf00b0db7d6c15f8341 usb: cdns2: Fix controller reset issue
-de3d7969f6a80aa5abbbc0f39897495ae35548d0 usb: typec: ucsi: Fix the partner PD revision
-8cbec539593a7dc1cbcc2d839333353a47342c06 Merge tag 'iio-fixes-for-6.11a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-4df153652cc46545722879415937582028c18af5 binder: fix UAF caused by offsets overwrite
-e8c276d4dc0e19ee48385f74426aebc855b49aaf misc: fastrpc: Fix double free of 'buf' in error path
-8679e8b4a1ebdb40c4429e49368d29353e07b601 nvmem: u-boot-env: error if NVMEM device is too small
-c69f37f6559a8948d70badd2b179db7714dedd62 nvmem: Fix return type of devm_nvmem_device_get() in kerneldoc
-a759d1f25182f51210c8831d71ce7ee81e0930f4 dt-bindings: nvmem: Use soc-nvmem node name instead of nvmem
-7d32e779eb9add47bfdb4731c4d4ff443a7f7fa6 misc: keba: Fix sysfs group creation
-fb1adbd7e50f3d2de56d0a2bb0700e2e819a329e uio_hv_generic: Fix kernel NULL pointer dereference in hv_uio_rescind
-6fd28941447bf2c8ca0f26fda612a1cabc41663f Drivers: hv: vmbus: Fix rescind handling in uio_hv_generic
-48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7 VMCI: Fix use-after-free when removing resource in vmci_resource_remove()
-e240b0fde52f33670d1336697c22d90a4fe33c84 uprobes: Use kzalloc to allocate xol area
-87eb3cb4ec619299cd5572e1d5eb68aef4074ac2 usb: typec: ucsi: Fix cable registration
-2ab9d830262c132ab5db2f571003d80850d56b2a perf/aux: Fix AUX buffer serialization
-51c4d5f10da4434d63790a679f54e68abc7170e7 Merge tag 'usb-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-5dadc1be8fc5355034a8515e021ed557acf5fd17 Merge tag 'char-misc-6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-
---===============1513129045793433038==--
+--===============6279637235263489312==--
