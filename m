@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0388865967451976584=="
+Content-Type: multipart/mixed; boundary="===============4278070232200497081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 08 Sep 2024 15:48:50 -0000
-Message-Id: <172581053021.2319403.16422019666716551093@gitolite.kernel.org>
+Date: Sun, 08 Sep 2024 15:49:10 -0000
+Message-Id: <172581055015.2319721.5962428894900571491@gitolite.kernel.org>
 
---===============0388865967451976584==
+--===============4278070232200497081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: ba26342a386a07bdeed1ef8e55ec02a9a5abde07
     new: 72486eb13b254d0bee637a947f9ec46d01c37f04
     log: revlist-ba26342a386a-72486eb13b25.txt
 
---===============0388865967451976584==
+--===============4278070232200497081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725810550 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725810571 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725810528-2331cc46e0cc840663380040059a8b576913e973
+nonce 1725810549-3a28bed268af5112770732629c64a17862a19804
 
-ba26342a386a07bdeed1ef8e55ec02a9a5abde07 72486eb13b254d0bee637a947f9ec46d01c37f04 refs/heads/char-misc-testing
+ba26342a386a07bdeed1ef8e55ec02a9a5abde07 72486eb13b254d0bee637a947f9ec46d01c37f04 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdx3YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dEMQANhJvQkZHfhErUYcMfd4
-3ZykTLqYUOY6dHhPWm8sqCXYE6ved2ym+NkhRDCKFbjFKNV7vdGsL2qIVjBaKYWK
-8vq2ucvdmCzC9sYGQL03lYZmnl2+QQlXxtdX91oDEJvoEcaQ4NuEO5aW9EBj3RJL
-PPIJyg300wyJs8MAV8z3JICuusOyToSZ9DlrrRrQX2NIXywZIrIPlTYGRxY3Q4rR
-em59TPaqQHPNGDQq6yQq6vHJ0SVqPh+Ip7SZ79xY9ZPESABHkwk6qTTeVSiwp8aI
-RAW6mLW5/fcWTLTwEJ+C45oTzp8vPv7/uve6iz7xuUjG0E7/1phXTmu9uvgPRXRb
-niGscuAzf3+LIijELxuFnm2N6J/rgjU8XgU7/V31HTr9iMo2enOAUCNHeGc9vo1d
-aF2ZuDfFpimli4H0r4/LjpMAoN99vYceWall5+DeCWXcP1ycsJMfMFRtDH6WwxLs
-MqviejLjhaSafbCteONa9WOtdQy/MWdfZozfetcazmJ0yJHFcNmOlqWNPevvlOMa
-fauWyM4FXbqkbS/3NdxvzqBt1YX3iap1IczO5mlMLincQCmZWeMh7iC3X/JN6Kyw
-ZUeBnb6LssB20ZEy7xgU6mU/+DM4dNMVyW2HndAEjRO4l8cBJeMwe6DSK63f1NPF
-HnpEag0E3VbXZ8AXgJ8ifpRB
-=I/tF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdx4sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mpcQAJNyUXPLPx4USBPuuYaw
+M6ZO6wvJWG/pg8QFIMe4hsNo1dgNvG2LIERO7BYanlWOMliwVMxyeOE9Ut5cEfuV
+2d8Xq28mcmPnPCy5PCjXbSdW7H55tJosvJfxZ3UwcS8eh49+0QSP/oxCDaLxUPLT
+qN7wC+U5U35Qxt5JvgvDw5TfXh53EpDmpdB8Bf/uoQZCsXxD4CR845UL7rpi63YJ
+Vu76nsRnxAaWgjxMuZCOgQy7qcxntZiSfzl2loC2gmT8B31rpAZe5bNaYa/JEs5D
+BALZp7ATXiTtTrXrcHWbpLEUukPjT5K4G4Tuqb656zb9HY0YaouAH0HjH/eX9BcD
++jVpsWI4IrUo+3B2hOTZvjnfylRCaGU5QWxHPD8I4M0vvtsY57tULJ8puUCd8Lw8
+2/Efq0x5h4TDJhbLfmIguM8XjdDuwrAFwnLYgaabet3yBNQO4fCRvdaUkAPNpkq1
+QNR/KFnuKSiUMuiQl4PP5ApVllXyqWadq5eN36RqvI/ROfNXcMDObrBM1AcNGens
+cuK7IaIxGOWcKnOKADzqtoGl9G19nnV84UxaEKtj5mIWEJXKaVd9vt8LOkLODuCp
+eXSsahotahzYN2ebKyVuScrLsnGrLJprFcTcDfpgqMS+uvsEnFFVtLg/Af1rCIRK
+PZiVqFfgoMkPKlnNDhGlYqPM
+=fs0m
 -----END PGP SIGNATURE-----
 
---===============0388865967451976584==
+--===============4278070232200497081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ c135cd82f194eed0328e2c1942892990b7fb0dc1 Merge tag 'ib-psy-usb-types-signed' of 
 2e01ac83c1c7166e58043ff2bdb0dc7dbfcfd11a extcon: lc824206xa: Fix build error of POWER_SUPPLY_PROP_USB_TYPE
 72486eb13b254d0bee637a947f9ec46d01c37f04 Merge tag 'extcon-next-for-6.12' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 
---===============0388865967451976584==--
+--===============4278070232200497081==--
