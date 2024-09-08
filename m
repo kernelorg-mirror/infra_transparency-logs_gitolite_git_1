@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 08 Sep 2024 03:16:17 -0000
-Message-Id: <172576537748.1565708.6216986121429570511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 08 Sep 2024 05:01:43 -0000
+Message-Id: <172577170343.1643554.12665725431438425537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/for-next
-    old: fdf94e4403ece60b29ef9e2da95e2fcefe50817f
-    new: 4dda2081d84398248af60da1d519840a5d6e3390
+  - ref: refs/heads/sunxi/dt-for-6.12
+    old: 89f1a037e97cb2ec0948eb92bca17e7d8c4fc824
+    new: f59e6de7585a638b1de3b26cba12b939fae574bf
     log: |
-         fc41a0a7498636ac0af7c37be80ca8571c2f4173 kbuild: add intermediate targets for Flex/Bison in scripts/Makefile.host
-         e6abfb536d16cc9264c4d92b429934f92adf5285 kbuild: split device tree build rules into scripts/Makefile.dtbs
-         62e7b80a7ff507e83bb056dd7543f8d412e4d81b kbuild: move non-boot builtin DTBs to .init.rodata section
-         17f00f343da721fb393d8f9277e765ddf4c033c9 kbuild: add generic support for built-in boot DTBs
-         4dda2081d84398248af60da1d519840a5d6e3390 scripts: import more hash table macros
+         37ed8e75c66099ffeca1fb51c7cc7999ec4315ac arm64: dts: allwinner: h5: NanoPi Neo Plus2: Fix regulators
+         f59e6de7585a638b1de3b26cba12b939fae574bf arm64: dts: allwinner: H5: NanoPi NEO Plus2: Use regulators for pio
+         
+  - ref: refs/heads/sunxi/for-next
+    old: 1c215074f370261de614a905f1511ac61eb5a821
+    new: 0acd498601249b488986a213abbd6403a096041c
+    log: |
+         37ed8e75c66099ffeca1fb51c7cc7999ec4315ac arm64: dts: allwinner: h5: NanoPi Neo Plus2: Fix regulators
+         f59e6de7585a638b1de3b26cba12b939fae574bf arm64: dts: allwinner: H5: NanoPi NEO Plus2: Use regulators for pio
+         0acd498601249b488986a213abbd6403a096041c Merge branch 'sunxi/dt-for-6.12' into sunxi/for-next
          
