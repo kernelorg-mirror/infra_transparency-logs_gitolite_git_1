@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 08 Sep 2024 17:54:22 -0000
-Message-Id: <172581806208.2418396.3816377073707626279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 08 Sep 2024 18:07:14 -0000
+Message-Id: <172581883495.2429057.13998884935674436882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 64c09a324912d336c56fa75966a163a0527ff0b6
-    new: 606a168c370a7f871d3c468777d4f4d8d16d22ad
+  - ref: refs/heads/nfsd-next
+    old: 2af79fd1cf1a7e076779c0af854aabde542e4858
+    new: ac8743b99b8c461432f26218266ee67670bbc4b9
     log: |
-         606a168c370a7f871d3c468777d4f4d8d16d22ad Sun Sep  8 01:53:55 PM EDT 2024
+         c495f65ad2ff851b62a7b00cdb2a65eb28ee967e nfsd: fix initial getattr on write delegation
+         ac8743b99b8c461432f26218266ee67670bbc4b9 NFSD: Fix the preceding patch
          
