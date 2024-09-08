@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5242140230522009547=="
+Content-Type: multipart/mixed; boundary="===============7886289721748578523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 08 Sep 2024 12:45:13 -0000
-Message-Id: <172579951302.2163281.5712694338047588033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 08 Sep 2024 12:51:06 -0000
+Message-Id: <172579986618.2167922.15390934722348865796@gitolite.kernel.org>
 
---===============5242140230522009547==
+--===============7886289721748578523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs.all
-    old: d4bd21c15b6371f5cb085a50f60db4d66f20f566
-    new: 2f3f66fba07c9835a85a0a8676744283b64a39f7
-    log: revlist-d4bd21c15b63-2f3f66fba07c.txt
-  - ref: refs/heads/vfs.file
-    old: cb9dd5ed1c3dde2fc73097eef7a4a9bd0b674066
-    new: ef7085f76cb976fd7fd2a543e8303583fd0e9908
+  - ref: refs/heads/master
+    old: f8b26cd36f47bfac6351e9dfc1172490d704bc7c
+    new: 2ef739813cef03b483b12959f6b3e5e42026a40e
     log: |
-         48d4ba6c477ce4e300014e166bf9c4de5f561fc6 fs: add f_pipe
-         24d93ff63ecacfb2c56510ec01eca5fc25b01862 pipe: use f_pipe
-         652e83e653640542f69b8387d81d68c52e2485ef fs: remove f_version
-         ef7085f76cb976fd7fd2a543e8303583fd0e9908 Merge patch series "file: remove f_version"
+         2ef739813cef03b483b12959f6b3e5e42026a40e drop queue-4.19/ila-call-nf_unregister_net_hooks-sooner.patch
          
 
---===============5242140230522009547==
+--===============7886289721748578523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4bd21c15b63-2f3f66fba07c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-48d4ba6c477ce4e300014e166bf9c4de5f561fc6 fs: add f_pipe
-24d93ff63ecacfb2c56510ec01eca5fc25b01862 pipe: use f_pipe
-652e83e653640542f69b8387d81d68c52e2485ef fs: remove f_version
-ef7085f76cb976fd7fd2a543e8303583fd0e9908 Merge patch series "file: remove f_version"
-1b9b5ff6d84f88f85de7c266498b8db62dd68f77 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-99d496f47cb3da554a662471f3b938fb7910391e Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-257c49d69c7834571d0b39afaaf0d2ea7464745d Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-6393b26d72069d6ac55c3829ecf79c3803e44e23 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-98833e64191a232f112bc4ec5bf23e297cd08c43 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-d3aaa7ba9b342f9bd40036a578283f66b8d0149f Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f8c4d4a36f880d425bc7a815bc502fcb5b8c6617 Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-5b2b61fa3433d5d3db5f885d5ad62b7c1b8c66c3 Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-166cfda6c62929d65d09686b009df0ea22c09c6f Merge branch 'vfs.file' into vfs.all
-87a479744ed50c73d697bd1972e4c334dfb7f732 Merge branch 'vfs.fallocate' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-2f3f66fba07c9835a85a0a8676744283b64a39f7 Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725799883 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725799861-40ee847f94f6e5b626704b65feda7c0091ed57a3
 
---===============5242140230522009547==--
+f8b26cd36f47bfac6351e9dfc1172490d704bc7c 2ef739813cef03b483b12959f6b3e5e42026a40e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdncsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i+YP/3dml7epKW+6oAAQ0FIJ
+rJtowPrP1NNuxx6Rb+7JkGbsAHa8ihIaQPhOwuaxSOboqxzKa0yxnBPcZuhg/Nr7
+xnTrB/MbXV9gOEuHQpST2C0pycPVprtyXv92blPIsfhZ5X5XTKGCZQu+UFbmjx+C
+hr3qyqcsuaw7Icoa7jJyVFVE0QxtEGJXmFFtbGzd9+4wz01Lk5EMnP6ip29+HOhf
+w3jYzWpXaz1GTFyht0i9ybewcWgJgrMQc6WvtOXFWEKaF6onBuaR+bSQGx1L6yEs
+QSb1Td3B8ZWuKUdKrMBaLFA4/xlv+LUeJdOVNOC5X3thgKtMHWQ6QAd0n3LEqOEk
+1locORxdb+hsKZFdKK6rNkhmzkDO/EAeSdJWsfrRy5synLTWDlLmdnVxbct+efRP
+9ncd53kezaDgyKMZjJjSrzgvrAvx6aUAwJgmlVH96sBvOpCBcjbXvmZkXtXzMZQV
+fCmoeW4Yfrlb7mJLSyHwSqS2Ev9OmrsaPZ4jsY3MG6+iUz8ZSs4ede2Uwla4SlA6
+Ri8PpC7szkOt75v5mHJ9mO5I0GJ+0VmDnYJc+Q29AFGlhcaS/Jh6x1i/vy9pDWzI
+Qg1FBhnk9oOtr/ASa01a0laF3AuzJUtpc/oFvpvfG954hgquUbxJ4DKv840Kjm/u
+n+Uhe2jeHU4Iptdk8Jr6FeCj
+=1MOa
+-----END PGP SIGNATURE-----
+
+--===============7886289721748578523==--
