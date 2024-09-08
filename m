@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6008758602044575427=="
+Content-Type: multipart/mixed; boundary="===============0366121319119665165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 08 Sep 2024 11:24:41 -0000
-Message-Id: <172579468149.2088429.14597720486636855241@gitolite.kernel.org>
+Date: Sun, 08 Sep 2024 11:25:03 -0000
+Message-Id: <172579470386.2090410.11348673917282215111@gitolite.kernel.org>
 
---===============6008758602044575427==
+--===============0366121319119665165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: b39121354f95cdca77d7576a979c5cbe387a9eed
     new: ba26342a386a07bdeed1ef8e55ec02a9a5abde07
     log: revlist-b39121354f95-ba26342a386a.txt
 
---===============6008758602044575427==
+--===============0366121319119665165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725794701 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725794725 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725794678-ba89c5ddc7f01fa00fc1eb4923e39e2140fcfc9e
+nonce 1725794702-a277b5b52e9a6fc125eb8eff96faab0da5996fb2
 
-b39121354f95cdca77d7576a979c5cbe387a9eed ba26342a386a07bdeed1ef8e55ec02a9a5abde07 refs/heads/char-misc-testing
+b39121354f95cdca77d7576a979c5cbe387a9eed ba26342a386a07bdeed1ef8e55ec02a9a5abde07 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdiY0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TgsP/1RBX7xtMFs8g6l4w1aw
-Ga606Rd9t0wK6wRp8thuYzzr2TT4O5iLGjUrf8m0Rkb1YzYW3S4C/Ra26OZpdien
-QKavGrnHViiE+4i8c0knhZSxUtskI1Bf55IJgR7PpK782/tFBZyXA4ePMYiq63R4
-dHg/kXHycSSRg4bbyGdFW1pAvbHIviDBuvmMAfjy2T/0bY3WffHr3t26XdE2U5cy
-Ceb0/WcCgt+SsOnPGpW/Xd4aOHJleXX2taXI0DYtPDFavdqJDUtZGHIhAfhQoaLE
-3QfaYsD5oIxwCUFmTqCI1bKvs4+bevcn9Dk8okOW+IRkO7Bqla6WgqLA0iyd7Ub6
-yG4/DYpGwEbLgIFQDQcypkjJuCrJbi+jsV6XyGyJRA0aBgP4pZX9J8v25u749Cjx
-HKe+UDUxMM0iMgmISEbv8jx+Ep9h2P5GBtckjRvzon3MpdW3/eYZp2kjpG/7qExL
-catBHIVRc7jzFF1M7e/lSg0MOI6XuNvoIA9gXabgq9KaGXliBuu4of9CJ6IvTt2C
-5w6fH9AMoMOMJV302gyNs9wsoYCtm/z8G/XR+Gwqcwk7ohXcH64UCKvsE2dCJOAN
-/dJFSK+1Se/RCmkRT7Cqs+DE46gHtwAzKpx2LLjlLrIjfFyXlxTTgPRpAGl4f0Ld
-uX1MaLwDv6L2ZlqJ3gwzFE8q
-=iD9l
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbdiaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dX8QAIn4WXz44VVU8j7l09De
+0Z6WwXtW7u8fKk0lRchO2nJFzuhZ/PdpsCKBO0wow5MRbjUa/n0447Fy+Cirmisc
++Lflnu9CZtWiZVOP92Fr2RSllfUfqEyRycqnM0bmGErI2KYjwDC3Mqc2QFyTYPaa
+9kCwgwuf1EMBUiDfxAz2mX5+aiC96NOjbMJiRaHeih5iOfFij6NdC/EYYK4WjE9M
+po/LZMXp5pn5UkCW75FRimhbui/11yjCIu29Qcyi+apBUmPxG4ykzqkSI5me5gsl
+SY4HFPtUdIka9mezvVttKxxAYLU4cvWe19qIjbiFd1clTPmsTyien/D3Ni1mYwVh
+BBfmt3dos2T2vLUhvKjFVLc3jNFKk29S6FgHs2rscGW5D1Mz1YshbDFzOm4DXPN9
+VQtecMvOE/1MpWtnD1Ujkd+tNC03vi+ByOOar/eO4is//AEvwB7/sSzRmNWTlmNp
+00W1nor47X0UBpCOxliyk9yquAjZ13Y/qXv7p2zMyUjMxUNiPFQY41ftn6x2LFgY
+drktqkBEuUisDdtZ9ID/H5L4LcoqHhMyDYCBRadtLHVNUUfPjZI18p/nvuA2oHZS
+fHeTtd1L8W/DHfqeePsWkoreULOlgzz8yXcx8pwhRODZKpfAzfVn9n0/XRdyV/sK
+H399CIIFeyumKLnYJZpoH3FG
+=xNR4
 -----END PGP SIGNATURE-----
 
---===============6008758602044575427==
+--===============0366121319119665165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ c7ac44751d18c53230bd86b4e13b361abd9590bb iio: adc: axp20x_adc: Add adc_en1 and a
 5ba0cb92584ba5e107c97001e09013c1da0772a8 iio: adc: axp20x_adc: add support for AXP717 ADC
 ba26342a386a07bdeed1ef8e55ec02a9a5abde07 Merge tag 'iio-for-6.12b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 
---===============6008758602044575427==--
+--===============0366121319119665165==--
