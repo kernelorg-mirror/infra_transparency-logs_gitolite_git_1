@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3772937761534197938=="
+Content-Type: multipart/mixed; boundary="===============5342310835888883215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 09 Sep 2024 09:15:17 -0000
-Message-Id: <172587331736.3234453.6187976880916203731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 09 Sep 2024 09:17:57 -0000
+Message-Id: <172587347702.3235952.2440743131426704898@gitolite.kernel.org>
 
---===============3772937761534197938==
+--===============5342310835888883215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 431c1646e1f86b949fa3685efc50b660a364c2b6
     new: da3ea35007d0af457a0afc87e84fddaebc4e0b63
     log: revlist-431c1646e1f8-da3ea35007d0.txt
 
---===============3772937761534197938==
+--===============5342310835888883215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -391,4 +391,4 @@ e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' o
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
 
---===============3772937761534197938==--
+--===============5342310835888883215==--
