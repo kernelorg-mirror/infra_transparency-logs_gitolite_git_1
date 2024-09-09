@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Mon, 09 Sep 2024 15:54:16 -0000
-Message-Id: <172589725608.3573719.6754275401954001164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Mon, 09 Sep 2024 15:55:18 -0000
+Message-Id: <172589731881.3576167.17990023240852309522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/iommu/linux
 user: will
 changes:
-  - ref: refs/heads/for-joerg/arm-smmu/updates
+  - ref: refs/heads/arm/smmu
     old: a2bb820e862d61f9ca1499e500915f9f505a2655
     new: e3b1be2e73dbe599f8b8886e120d206aa87e90f9
     log: |
