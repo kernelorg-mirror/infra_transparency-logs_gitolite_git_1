@@ -1,54 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0120093163605776355=="
+Content-Type: multipart/mixed; boundary="===============2593392151837072508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 09 Sep 2024 13:02:23 -0000
-Message-Id: <172588694335.3423060.6267071658501855916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 Sep 2024 13:14:59 -0000
+Message-Id: <172588769912.3432297.16006587194792892918@gitolite.kernel.org>
 
---===============0120093163605776355==
+--===============2593392151837072508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/jd/vdso-test-harness
-    old: da576617fdc1d058cbc5bb391fef53b957581778
-    new: 70d1b4d20ce673e90c4ac3ad7c1d2af69dcb3e12
-    log: revlist-da576617fdc1-70d1b4d20ce6.txt
+  - ref: refs/heads/main
+    old: 8f088541991bc1716a5ed570456d218241303851
+    new: bfba7bc8b7c2c100b76edb3a646fdce256392129
+    log: revlist-8f088541991b-bfba7bc8b7c2.txt
 
---===============0120093163605776355==
+--===============2593392151837072508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da576617fdc1-70d1b4d20ce6.txt
+Content-Disposition: attachment; filename=revlist-8f088541991b-bfba7bc8b7c2.txt
 
-91066de24501f4ab45d97e098e45a230c076648c selftests: vDSO: ensure vgetrandom works in a time namespace
-f0e4ee84a982b15108afa13262fcb3cb1abfc51b random: vDSO: move prototype of arch chacha function to vdso/getrandom.h
-2f7e6f395ad5effd4f363caf03e120bf38d1be62 selftests: vDSO: open code basic chacha instead of linking to libsodium
-26c5d588e75bf3378d66148e0f8b8aad711db895 random: vDSO: don't use 64-bit atomics on 32-bit architectures
-2bcccda59073b77834852e76ff635768c7ed8fca random: vDSO: add __arch_get_k_vdso_rng_data() helper for data page access
-a3b2931a27abb72105050f169c5ee6b0e80bc045 random: vDSO: add missing c-getrandom-y in Makefile
-8d57e1a3d15127b517ae8c76f6585ff9bbd071be random: vDSO: avoid call to out of line memset()
-b75eb4403eefde26f8f71a66dcc609a091fa40e6 random: vDSO: minimize and simplify header includes
-9782a9ab9b746bcb43800b7a51fe07d60a7e5679 selftests: vDSO: fix cross build for getrandom and chacha tests
-85ef33cdfa6194e9aa9ee2c1e0d926f20ca8948c random: vDSO: add a __vdso_getrandom prototype for all architectures
-62c7531b91f483708466b8da01a5b9946f95cb14 LoongArch: vDSO: Wire up getrandom() vDSO implementation
-af9c001214a7e7d061c94afbcd80436a90c404dd selftests: vDSO: build tests with O2 optimization
-c2066b95688ab8d1c296d44e325f54630688e6a7 selftests: vDSO: also test counter in vdso_test_chacha
-e0c4f8a78a0590622f3b2260a59ddd610a1dc186 arm64: alternative: make alternative_has_cap_likely() VDSO compatible
-67e5214e51e767d4e04d9eb5754d320c918c5ed8 arm64: vDSO: Wire up getrandom() vDSO implementation
-a727d213f81c9ffba79e161f59e120c92b9ddb1b selftests: vDSO: don't include generated headers for chacha test
-33ee1443947a8499c449dcbc6c2fbf87ca488352 powerpc/vdso: Fix VDSO data access when running in a non-root time namespace
-9f3f631741de3b587fe1f02cafeb1d1db34be90b mm: Define VM_DROPPABLE for powerpc/32
-5bc8fca346995ada9a379369492620f5d1991a08 powerpc/vdso32: Add crtsavres
-b535088b65609622b7dcba84419db9fc2919d279 powerpc/vdso: Refactor CFLAGS for CVDSO build
-9e2e31f62035831bfe28995ab9e7fb0d87ab5da5 powerpc/vdso: Wire up getrandom() vDSO implementation on VDSO32
-cb8ea88f450824fe4083efe783068c925a9b8a25 powerpc/vdso: Wire up getrandom() vDSO implementation on VDSO64
-a0fc8d90572ba188a8f0d3f2750a3690824c806b wireguard: selftests: upgrade deps, toolchains, and add loongarch
-70d1b4d20ce673e90c4ac3ad7c1d2af69dcb3e12 wireguard: selftests: re-use/ab-use test harness to run vDSO tests
+1f23a1909d7f5f7c5fa6809816d61712de1a2d5b netfilter: br_netfilter: Unmask upper DSCP bits in br_nf_pre_routing_finish()
+25376a890119b616d5982c8cb59f805138ab81fa ipv4: ip_gre: Unmask upper DSCP bits in ipgre_open()
+b3899830aa47333fa73e7f23eddc856003fd8bda bpf: lwtunnel: Unmask upper DSCP bits in bpf_lwt_xmit_reroute()
+848789d552bbfb47077993bb35ca99c854c37556 ipv4: icmp: Unmask upper DSCP bits in icmp_reply()
+e7191e517a03d025405c7df730b400ad4118474e ipv4: ip_tunnel: Unmask upper DSCP bits in ip_tunnel_bind_dev()
+c34cfe72bb260fc49660d9e6a9ba95ba01669ae2 ipv4: ip_tunnel: Unmask upper DSCP bits in ip_md_tunnel_xmit()
+c2b639f9f3b7a058ca9c7349b096f355773f2cd8 ipv4: ip_tunnel: Unmask upper DSCP bits in ip_tunnel_xmit()
+4f0880766a971409684eeac0aa39378036d17cb4 ipv4: netfilter: Unmask upper DSCP bits in ip_route_me_harder()
+b7172768abfd8aecdc6af05c60403af1664a4976 netfilter: nft_flow_offload: Unmask upper DSCP bits in nft_flow_route()
+345663e6a727f6baa70989a8412c2c047389ca65 netfilter: nf_dup4: Unmask upper DSCP bits in nf_dup_ipv4_route()
+2c60fc9ca21636e4bbb30357562dc1abb577f5fb ipv4: udp_tunnel: Unmask upper DSCP bits in udp_tunnel_dst_lookup()
+8b6d13cc8b3855862af583fed83d60b1df6f9ba2 sctp: Unmask upper DSCP bits in sctp_v4_get_dst()
+bfba7bc8b7c2c100b76edb3a646fdce256392129 Merge branch 'unmask-dscp-part-four'
 
---===============0120093163605776355==--
+--===============2593392151837072508==--
