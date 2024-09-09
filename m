@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3641731481687833396=="
+Content-Type: multipart/mixed; boundary="===============6633643176363099456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Sep 2024 21:56:21 -0000
-Message-Id: <172591898114.3886201.373820920138242901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Sep 2024 21:56:34 -0000
+Message-Id: <172591899487.3886402.18218840776037860775@gitolite.kernel.org>
 
---===============3641731481687833396==
+--===============6633643176363099456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 130af75b5c05eef4ecd8593371f3e924bcd41241
-    new: 16faf8cb4c1a82ffd799268197a42a214b1dcbbf
-    log: revlist-130af75b5c05-16faf8cb4c1a.txt
+  - ref: refs/heads/for-next
+    old: fbb5b0342bb67e8c6814605d755c7b8e4c13280a
+    new: f213ec06a294096f19b553972368832cdcef157c
+    log: revlist-fbb5b0342bb6-f213ec06a294.txt
 
---===============3641731481687833396==
+--===============6633643176363099456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1725919001 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1725918978-2da1d21e756054c951f747a73b1c26c9b0ee377a
-
-130af75b5c05eef4ecd8593371f3e924bcd41241 16faf8cb4c1a82ffd799268197a42a214b1dcbbf refs/heads/asoc-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbfbxkACgkQJNaLcl1U
-h9DpJQf+Nda3zlriIV0xJcbrAKWW6eLnf0fLFaDzPnk9KGCbmenFo4FB2k5e0j6D
-YleKh75cwGwcgINykv7hqmcqpPHL1APTFBvNlTQwr3ZwiiNAWfGvAZssZFAi+4G9
-vSsNCX1Wzx3piQVFaebduysq1mbBK5vK0ar65Is0BPQm4elByj9uZgaQs+RJdbKb
-LwuesFrtNboMz86GEDmd976Ur4qxNZblVPa5iZDeKtsfoTUMuCo6KMNpZ+zTRfGI
-qDfxgGvz71cNGbbNVFU4zMkvMUBKLhCDoogUxh+XJF+c/o93VyPUB0MvYmuPsLcm
-Ek5R6rN/ycxFsHM84qTHl9Z3M8Wwjw==
-=XFIF
------END PGP SIGNATURE-----
-
---===============3641731481687833396==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-130af75b5c05-16faf8cb4c1a.txt
+Content-Disposition: attachment; filename=revlist-fbb5b0342bb6-f213ec06a294.txt
 
 f2bd6f5b3777d800fb3cad17b9509e1e2128df62 ASoC: loongson: Use BIT() macro
 ce3997ab8b4ae2312b8cdddd7db9b15eb11004a3 ASoC: loongson: Simplify probe() with local dev variable
@@ -67,5 +42,6 @@ d70ce6d3105a6bd02b1708c399105631643a550a ASoC: mt8365: Remove unused DMIC IIR co
 36fa259b214c37bbae3e0b7a47e7fb49cb0ab462 ASoC: mt8365: Allow build coverage
 43fbb2c702663d7af844ee952aec224a0e059e26 ASoC: loongson: Simplify code formatting
 16faf8cb4c1a82ffd799268197a42a214b1dcbbf ASoC: mt8365: Fix -Werror builds
+f213ec06a294096f19b553972368832cdcef157c Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
 
---===============3641731481687833396==--
+--===============6633643176363099456==--
