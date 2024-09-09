@@ -1,47 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3043287475845403551=="
+Content-Type: multipart/mixed; boundary="===============1468021415574282611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 09 Sep 2024 22:01:47 -0000
-Message-Id: <172591930732.3890855.8635293314630226469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 09 Sep 2024 22:20:36 -0000
+Message-Id: <172592043604.3905682.16378799666194479143@gitolite.kernel.org>
 
---===============3043287475845403551==
+--===============1468021415574282611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 1f732d760a931afe576ed78343270c74c2c1e7ee
-    new: 9ec46e85f9107c14dca87ff1d83544ce90780675
-    log: |
-         5eed2b13919a7f22bdbdae3aaf57c30e9786a1cb i2c: core: Setup i2c_adapter runtime-pm before calling device_add()
-         9ec46e85f9107c14dca87ff1d83544ce90780675 i2c: i801: Use a different adapter-name for IDF adapters
-         
+  - ref: refs/heads/clk-rockchip
+    old: 0000000000000000000000000000000000000000
+    new: 4500f510d9bb4e8e283fb249a7adb4ecd6136f26
 
---===============3043287475845403551==
+--===============1468021415574282611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725919328 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725919305-d35c616e56a8c9777c3a20e87a7cfaf15796114e
+pusher Stephen Boyd <sboyd@kernel.org> 1725920457 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1725920434-9ec9cbb9d764e0df98d7b88dfdb310ef93be55e1
 
-1f732d760a931afe576ed78343270c74c2c1e7ee 9ec46e85f9107c14dca87ff1d83544ce90780675 refs/heads/i2c/i2c-host
+0000000000000000000000000000000000000000 4500f510d9bb4e8e283fb249a7adb4ecd6136f26 refs/heads/clk-rockchip
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt9wYBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1usyEBAJwuCVT902i726pWBKksM2Zt1cf1
-lK5o7KmJVTf4cO1UAP4pRPy9U6nrjze4vOOMjnIOpl25RkIvKdLIR7e/SBIHAA==
-=vgTb
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmbfdMkRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSXphBAAntYwUKQEjXduQZ+82ib64m52xPBn6dee
+BPbTB/3uFFZDz9Gpx61Mjpn1OO71U5q2JOKdI8zfMiFo4YitDuz4nrDuAninp48j
+Iz6aaElzInvWxizJjnDK+U2cbUiGzBMssNMXusZKGuxm4mLhtZDkM9JLtW26j7H3
+DVyO/WfIGsYBmfyhQPPuK2tyo6zXtgzq2qwymY4N0WZJDMabbZevRytL66HPd4cD
+In1ry0HCqBd1F1joCeeeUvgDdXKuoGnU0DyPLmLhvxN/+n1Vp4bBCSJ5dpxA0Dht
+t6tIlTl6Ic49meH+aKyMemKQss1VhK5DlRyBsmGcs5wLhrsY/nBM7JomvTfyPdb0
+onWGVcEiCHolkC8UOQ39OqRGmZsmKvLbLJmKbWVSFXQe135A5ZSwEc2kn6PS36JE
+JBLacKgdXjgCBzLaPkMhxsKnKHmEHGYuYwRQVQwicqy5lSKJ4Zsg2/sjg+Q0STtX
+HoVPtaTwOlhhfwVp7dvnF869BRDP8CrHROHyUrSkzKkMxfZXnB2Drhb5zS5OCTOm
+1nBNxdzOREC2LFZq15R/R0Ahvh3nVoHttQSSyGToIdF7tgn0CNuYV3zkyIzUx/DL
+bYSjMCAnoyYAVm9Pa+HuMysJvq+Mg+dkugQaPFoRy17om2M4r/1DwHmzrN8zr55M
+4SaklrdFO+I=
+=IBin
 -----END PGP SIGNATURE-----
 
---===============3043287475845403551==--
+--===============1468021415574282611==--
