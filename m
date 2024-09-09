@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2798787998785518882=="
+Content-Type: multipart/mixed; boundary="===============6540620993083810859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 09 Sep 2024 06:31:54 -0000
-Message-Id: <172586351400.3099578.4606113534325610832@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 06:32:34 -0000
+Message-Id: <172586355441.3100103.5926498786349717539@gitolite.kernel.org>
 
---===============2798787998785518882==
+--===============6540620993083810859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: d0c4dd9f7ca62be949343e3f6e59ce18f7873657
-    new: c259acab839e57eab0318f32da4ae803a8d59397
-    log: revlist-d0c4dd9f7ca6-c259acab839e.txt
-  - ref: refs/heads/master
-    old: d0c4dd9f7ca62be949343e3f6e59ce18f7873657
-    new: c259acab839e57eab0318f32da4ae803a8d59397
-    log: revlist-d0c4dd9f7ca6-c259acab839e.txt
+  - ref: refs/heads/testing
+    old: ad3cd264c835f46423c3646e98433749182fd7d2
+    new: 9c100bc3ec13914f9911a937ec5b38182a5c3d64
+    log: revlist-ad3cd264c835-9c100bc3ec13.txt
 
---===============2798787998785518882==
+--===============6540620993083810859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1725863531 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1725863571 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1725863508-95d324894f8493c06524a8365268fc7f8b16f37e
+nonce 1725863548-eee1db798b97392c80afaa44ad37ce462958fba8
 
-d0c4dd9f7ca62be949343e3f6e59ce18f7873657 c259acab839e57eab0318f32da4ae803a8d59397 refs/heads/main
-d0c4dd9f7ca62be949343e3f6e59ce18f7873657 c259acab839e57eab0318f32da4ae803a8d59397 refs/heads/master
+ad3cd264c835f46423c3646e98433749182fd7d2 9c100bc3ec13914f9911a937ec5b38182a5c3d64 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbelmsTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b8sZB/0dazdao71Yp1KraM7k02a7s+EiVvjh
-ywtlPCdtPwM3MU3hV85RP4pBBLRO4IiN6jxa08lCSH/9joSz+jJICUSots8EFQ4v
-tOuy1lYAMyKb331LZ5LN2376b1lC89TsNgnLBByn5T+Q47/C8psqdV6nJrl0WOyd
-zQn+3TAWi2O/ur9xOMZwDSgZThJyj1xSq8yniUhF6kDAlun3qU6XHcErbs3ZBmNy
-lj0/YYJyWB0v1+xXeWyx9yCZG6nL4FBrFDtciRjmyUlUCaXXLAjwLr/jjdSlxjn4
-eoBO7kJh8DSDs2ludJexpV2rnoT8ugow04C4C0pL/cOMtFfkRXQNCHhG
-=cQw/
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbelpMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28bwubCACV0Wy+Gt5L7t6jECdtsJwpjFe21elO
+T9411A6JeaB2XzguCUaR0oYK2J1Ncu8XyAZ6ClE3VjdBco77iNxoPESmc0gAxtAX
+jemUTOawg4Q9mVTbZa1qX3MSKn7xd9j3OKniCZ28syQ0eAkfMjO4oa25Ll+ULhec
+lS1w7e9kRE+Vi6P8dzFyAS7aTUvI69cmw7gyqa+41sUSrZ/Vvk/8MgOd3Y+BE+Qf
+BMHKLT1Q2jJ60JLjYw2KDeOzSQDEwuGWbyM/rPepmuT3xxvNiN0jwVRwiEX9kDrg
+XJH3xN5TkRXJ4lQxOMA6MT4JFWoMRxJngs12kfsSnclfm3XZmOdsy/14
+=aE6b
 -----END PGP SIGNATURE-----
 
---===============2798787998785518882==
+--===============6540620993083810859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0c4dd9f7ca6-c259acab839e.txt
+Content-Disposition: attachment; filename=revlist-ad3cd264c835-9c100bc3ec13.txt
 
 e4ab5d7cb5f19858305395e034f214c92afc3cf5 soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST
 10f98bb9d98137b544b00abb4f9df45e9be7878d arm64: defconfig: Add CONFIG_DRM_PANEL_SAMSUNG_ATNA33XC20
@@ -497,5 +492,8 @@ aa05fe67bcd641378454ca9d15b539125eb0933a ptp: ocp: Improve PCIe delay estimation
 f723224742fc6d25f88a9d9036be4713398be65d Merge tag 'nf-next-24-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 d5c4546062fd6f5dbce575c7ea52ad66d1968678 net: sched: consistently use rcu_replace_pointer() in taprio_change()
 c259acab839e57eab0318f32da4ae803a8d59397 ptp/ioctl: support MONOTONIC{,_RAW} timestamps for PTP_SYS_OFFSET_EXTENDED
+dfb970cc5f612a95fdf142f34610fccb3b2fc18c net: can: cc770: Simplify parsing DT properties
+9a0e4c18cdec39b1d724703180e29156d86bb94b can: rockchip_canfd: fix return type of rkcanfd_start_xmit()
+9c100bc3ec13914f9911a937ec5b38182a5c3d64 can: rockchip_canfd: rkcanfd_timestamp_init(): fix 64 bit division on 32 bit platforms
 
---===============2798787998785518882==--
+--===============6540620993083810859==--
