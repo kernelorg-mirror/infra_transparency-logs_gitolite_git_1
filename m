@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 09 Sep 2024 13:30:03 -0000
-Message-Id: <172588860311.3446100.4904828238130796668@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 13:31:20 -0000
+Message-Id: <172588868076.3447405.17487298007058221294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
   - ref: refs/heads/testing
-    old: 69716a3babe1165a9ab1b3770b55d303d5bb5fa3
-    new: 6a13f5afd39d17320316dbb8dd533fe7c6a613e6
+    old: 6a13f5afd39d17320316dbb8dd533fe7c6a613e6
+    new: e62d39332d4b9400a69ba902797aa17a1a0037e7
     log: |
-         6a13f5afd39d17320316dbb8dd533fe7c6a613e6 xfrm: policy: fix null dereference
+         e62d39332d4b9400a69ba902797aa17a1a0037e7 xfrm: policy: Restore dir assignments in xfrm_hash_rebuild()
          
