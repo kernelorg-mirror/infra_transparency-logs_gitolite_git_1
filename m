@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1931427677080023821=="
+Content-Type: multipart/mixed; boundary="===============6729880800938846424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 09 Sep 2024 16:37:40 -0000
-Message-Id: <172589986045.3615113.13712823351413437079@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 16:37:42 -0000
+Message-Id: <172589986270.3615194.9464380229432773062@gitolite.kernel.org>
 
---===============1931427677080023821==
+--===============6729880800938846424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 52fc70a32573707f70d6b1b5c5fe85cc91457393
     new: bfba7bc8b7c2c100b76edb3a646fdce256392129
     log: revlist-52fc70a32573-bfba7bc8b7c2.txt
 
---===============1931427677080023821==
+--===============6729880800938846424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ b7172768abfd8aecdc6af05c60403af1664a4976 netfilter: nft_flow_offload: Unmask upp
 8b6d13cc8b3855862af583fed83d60b1df6f9ba2 sctp: Unmask upper DSCP bits in sctp_v4_get_dst()
 bfba7bc8b7c2c100b76edb3a646fdce256392129 Merge branch 'unmask-dscp-part-four'
 
---===============1931427677080023821==--
+--===============6729880800938846424==--
