@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1606221169196165464=="
+Content-Type: multipart/mixed; boundary="===============7489885424422543669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 09 Sep 2024 18:51:07 -0000
-Message-Id: <172590786775.3733424.16655318180281017580@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 18:54:28 -0000
+Message-Id: <172590806867.3735000.3776102067849050848@gitolite.kernel.org>
 
---===============1606221169196165464==
+--===============7489885424422543669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: andi.shyti
 git_push_cert_status: E
 changes:
   - ref: refs/heads/i2c/i2c-host
-    old: 123f4fcbded80dfd612e9639ab26c5384f9cbe89
-    new: 291d8f83ea99a8c1aa9388cb2d7ccc7f328b68e4
+    old: 291d8f83ea99a8c1aa9388cb2d7ccc7f328b68e4
+    new: 23259e671392916cee187dffb787e34aceead312
     log: |
-         291d8f83ea99a8c1aa9388cb2d7ccc7f328b68e4 i2c: rcar: tidyup priv->devtype handling on rcar_i2c_probe()
+         23259e671392916cee187dffb787e34aceead312 i2c: virtio: Constify struct i2c_algorithm and struct virtio_device_id
          
 
---===============1606221169196165464==
+--===============7489885424422543669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725907889 +0200
+pusher andi.shyti@kernel.org 1725908089 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725907866-e075451609b1e5d14a9bb445e852408db53c1639
+nonce 1725908067-7d8fd993dd32f8733863000ddf25e2255aa04c46
 
-123f4fcbded80dfd612e9639ab26c5384f9cbe89 291d8f83ea99a8c1aa9388cb2d7ccc7f328b68e4 refs/heads/i2c/i2c-host
+291d8f83ea99a8c1aa9388cb2d7ccc7f328b68e4 23259e671392916cee187dffb787e34aceead312 refs/heads/i2c/i2c-host
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt9DsRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uOZkA/RYVXdXQC5s65lWNsdIy5C4GPp1o
-1xQ8NHbkFwU+Cc7HAP9IZL/iwBouKcVihQkFkfs0dPTRiGzg3s4ACqwdpPfFAg==
-=jv1z
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt9EeRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uCTMA+wTGnPPx9Lf3jJMamnn7BBkTZBOP
++5t+HsEicGTUQGRmAQCuvQvTujqp/rc0lMKPi360KhxqoLetrO4GOAEBwIajCA==
+=hx1S
 -----END PGP SIGNATURE-----
 
---===============1606221169196165464==--
+--===============7489885424422543669==--
