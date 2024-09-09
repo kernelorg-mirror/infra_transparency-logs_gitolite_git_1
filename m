@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8127889111221547644=="
+Content-Type: multipart/mixed; boundary="===============5578759810664415374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 09 Sep 2024 22:24:37 -0000
-Message-Id: <172592067769.3907510.11285685537974045350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 09 Sep 2024 22:24:47 -0000
+Message-Id: <172592068773.3908146.17182185256001685298@gitolite.kernel.org>
 
---===============8127889111221547644==
+--===============5578759810664415374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 0d83b7a135b7fd4636f9e88d48c841e9cfbcce00
     log: revlist-14053de1be2b-0d83b7a135b7.txt
 
---===============8127889111221547644==
+--===============5578759810664415374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c790f2bafb7a17d97c49c17607fa2ff919891f51 perf trace: Introduce SCA_TIMESPEC_FROM
 665109611d4b5463d3677e3918a780e892144415 perf trace: Collect augmented data using BPF
 0d83b7a135b7fd4636f9e88d48c841e9cfbcce00 perf trace: Add --force-btf for debugging
 
---===============8127889111221547644==--
+--===============5578759810664415374==--
