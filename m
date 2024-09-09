@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Sep 2024 15:27:32 -0000
-Message-Id: <172589565236.3551613.6112463969292743892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 09 Sep 2024 15:28:28 -0000
+Message-Id: <172589570838.3552362.148893681441998737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/20240909_zhoubinbin_asoc_loongson_simplify_code_formatting
+  - ref: refs/tags/v6.11-next-soc
     old: 0000000000000000000000000000000000000000
-    new: 4c22b04e116e114f18d9cef15f913e1649ccb7ed
+    new: 1df7ed72e20db8edb5ad4f5d2f25892ad53bdd16
