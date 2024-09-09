@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6806191562177097295=="
+Content-Type: multipart/mixed; boundary="===============8118252745654748899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 09 Sep 2024 11:22:24 -0000
-Message-Id: <172588094468.3339768.9171508828851481696@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 11:22:36 -0000
+Message-Id: <172588095611.3340078.176027511884328913@gitolite.kernel.org>
 
---===============6806191562177097295==
+--===============8118252745654748899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v6.12-next/dts64
-    old: 05a76158866fdab59b8140db805b7a28286ae78e
-    new: cd27b88ddd951bc50c19e7cc0edc375560a73181
-    log: revlist-05a76158866f-cd27b88ddd95.txt
+  - ref: refs/heads/v6.12-next/defconfig
+    old: df79d0ecc2538cc528fca206a4bc248577b27147
+    new: e601c52a4d5f3ea4b988f6ef8620b3dad95c80ea
+    log: revlist-df79d0ecc253-e601c52a4d5f.txt
+  - ref: refs/heads/v6.12-next/soc
+    old: 0000000000000000000000000000000000000000
+    new: 47c6fa2eb5687a2288d0558f71738df5fb6eb25b
 
---===============6806191562177097295==
+--===============8118252745654748899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05a76158866f-cd27b88ddd95.txt
+Content-Disposition: attachment; filename=revlist-df79d0ecc253-e601c52a4d5f.txt
 
 b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
 90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
@@ -390,30 +393,6 @@ d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f Merge tag 'clk-fixes-for-linus' of git:
 e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
-05d334bcafb691fff321d37a7baab7360b6bbd04 arm64: dts: mediatek: mt8186: Fix supported-hw mask for GPU OPPs
-db460fda9dd9d30131146ff648875eb85fad7654 arm64: dts: mediatek: Add ADC node on MT6357, MT6358, MT6359 PMICs
-6dc2e150dd486c0c00a8b2b7036b9c82df83e729 arm64: dts: mediatek: cherry: Specify pull resistance for RSEL GPIOs
-7da3728e49d338c8c3a10f8875ec638b9ada4ae1 arm64: dts: mediatek: mt8195-cherry: Remove keyboard-backlight node
-efd084541aaaab985fe0077801952d8d8cf7e85f arm64: dts: mediatek: mt8183-kukui-jacuzzi: Simplify DSI endpoint replacement
-2cf7fd5f90d20c428cbe84ae938e993005640576 arm64: dts: mediatek: mt8195: Add SCP phandle to MDP3 DMA controller
-f79e977c1dcea1584a544a8c83ff0ed27bb2381e arm64: dts: mediatek: mt8195-cherry: Mark USB 3.0 on xhci1 as disabled
-32ca75f4b456134324d51cb82a1256982b885e20 arm64: dts: mediatek: mt8395-nio-12l: Mark USB 3.0 on xhci1 as disabled
-3a1909d026799be33314f230526b6fb7972950f1 arm64: dts: mediatek: mt8195: Assign USB 3.0 PHY to xhci1 by default
-4759d25d264f0351d98c09fa81c68d95ac0949bd arm64: dts: mediatek: mt8186: add lvts definitions
-5b062b4ff63d0c72f7916e907e2d1b2bdb205af2 arm64: dts: mediatek: mt8186: add default thermal zones
-73c20294dc3e913a1b75226ffb033a56c6d09461 arm64: dts: mediatek: mt8188: add lvts definitions
-eb68a57f3be9a17fb0dbc8c4d85566d516636b28 arm64: dts: mediatek: mt8188: add default thermal zones
-0e566b5a15af00397b5b288027040a31624d8c05 arm64: dts: mediatek: mt8183-kukui: Disable unused efuse at 8000000
-ab26865bca2c70f7d9d05ef01132c421ea68874a arm64: dts: mediatek: mt7981: add SPI controllers
-4ac7ed9c7bc61cba743cc837cb21e4bccbada381 arm64: dts: mt8183-kukui: clean up regulator tree
-3f48c9a9722f736bba49026540d9e790afd3f58b arm64: dts: mediatek: mt8183: Remove clock from mfg_async power domain
-8283214bcf40a5b3f2f4fdcca516f2005d40a57d arm64: dts: mediatek: mt8186-corsola: Update ADSP reserved memory region
-0091cc1af81b32d38e89f01c4cddff8f902d5a63 arm64: dts: mt8183: add dpi node to mt8183
-8b95c5df9250a99533ad8e70d96fa07ed2804713 arm64: dts: mediatek: mt8195: Correct clock order for dp_intf*
-8d22df4491edfa9635ecb06644047976249a8fee arm64: dts: mediatek: mt8186: Add power domain for DPI
-1d09b8d35d050443fc712591151bbe3f10498f7b arm64: dts: mediatek: mt8186: Add svs node
-0cafb30d4a7889cb1f4750c3e2d07715b95f74f5 arm64: dts: mediatek: mt8186-corsola: Disable DPI display interface
-59d99e243a24a221758e7d2372687dfb0805b534 arm64: dts: mediatek: add afe support for mt8365 SoC
-cd27b88ddd951bc50c19e7cc0edc375560a73181 arm64: dts: mediatek: add audio support for mt8365-evk
+e601c52a4d5f3ea4b988f6ef8620b3dad95c80ea arm64: defconfig: enable mt8365 sound
 
---===============6806191562177097295==--
+--===============8118252745654748899==--
