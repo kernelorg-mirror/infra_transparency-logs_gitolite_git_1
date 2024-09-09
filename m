@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4867463712317050767=="
+Content-Type: multipart/mixed; boundary="===============2138226405818252226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 09 Sep 2024 14:44:34 -0000
-Message-Id: <172589307407.3508908.1747680588261396557@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 14:46:11 -0000
+Message-Id: <172589317133.3511615.15602676267587309857@gitolite.kernel.org>
 
---===============4867463712317050767==
+--===============2138226405818252226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 22e044f2eecbfc3d6650a7e2e2fa00f4af9119f2
-    new: bd400f0ac66e0a6e1276d6455d73aed6ce6a1453
-    log: revlist-22e044f2eecb-bd400f0ac66e.txt
+  - ref: refs/heads/nfsd-testing
+    old: d88690b0d8403bb799710707068f923d826aafbc
+    new: f49926ef9e6a35dbce72f3071b5bb6fe76e48bfd
+    log: revlist-d88690b0d840-f49926ef9e6a.txt
 
---===============4867463712317050767==
+--===============2138226405818252226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22e044f2eecb-bd400f0ac66e.txt
+Content-Disposition: attachment; filename=revlist-d88690b0d840-f49926ef9e6a.txt
 
 39719dbc1e220c86e7eb5e07883a17ed8055551c nfsd: fix initial getattr on write delegation
 0133f429c708b07f8c3f71665c88b9bad0982ef0 nfsd: drop the ncf_cb_bmap field
@@ -37,5 +37,6 @@ b9c8496c1ad6999d3f0f42dd81bfd0cb35830839 nfs_common: make include/linux/nfs4.h i
 9519508b5e184a4283ed81e8aca0ab670591ac94 nfsd: add support for delegated timestamps
 4bbcb19cda0db69b90c25a7b32b44eb62c88f817 nfsd: handle delegated timestamps in SETATTR
 bd400f0ac66e0a6e1276d6455d73aed6ce6a1453 nfsd: fix delegation_blocked() to block correctly for at least 30 seconds
+f49926ef9e6a35dbce72f3071b5bb6fe76e48bfd siw: Enable try_gso
 
---===============4867463712317050767==--
+--===============2138226405818252226==--
