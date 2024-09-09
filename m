@@ -1,46 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5390143987788667591=="
+Content-Type: multipart/mixed; boundary="===============6678258193664539622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 09 Sep 2024 12:15:29 -0000
-Message-Id: <172588412953.3384190.9214247615047428598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 09 Sep 2024 12:15:34 -0000
+Message-Id: <172588413460.3384444.9438755074721185356@gitolite.kernel.org>
 
---===============5390143987788667591==
+--===============6678258193664539622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 0c92d3da9d868cde2c2034b5dea59519bbc559d5
-    new: 123f4fcbded80dfd612e9639ab26c5384f9cbe89
-    log: |
-         123f4fcbded80dfd612e9639ab26c5384f9cbe89 i2c: imx: Convert comma to semicolon
-         
+  - ref: refs/heads/vfs.all
+    old: a80a1ee241e7a26bb314f81fc2ab9239a75a63e0
+    new: e2376b68cb7c0d79ff2cc72c9973c6952dab0a5d
+    log: revlist-a80a1ee241e7-e2376b68cb7c.txt
 
---===============5390143987788667591==
+--===============6678258193664539622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a80a1ee241e7-e2376b68cb7c.txt
 
-certificate version 0.1
-pusher andi.shyti@kernel.org 1725884150 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725884127-23fba08a7ce4e9d5e47c1f45dd9850e22d3a3cc8
+b84f44f73774f55a17ae043897f58c1e5b1af4cf Merge patch series "file: remove f_version"
+cc92c17db44addbc070aac7084e1dbc989022987 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+72a9f731e280ca06e7c51607dd2b4bf1fd4fbd35 Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+dceac05a3b6ff3d3cb0d92b7b6581da9c82a4363 Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+bd90936d377bfdcea9dd2463f43fdd6e633d8644 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+14b13ea64e35315212f4522606d1d01fa16060a5 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+da04d102ff3b7d626d61b57295939f819a9d07ff Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+675c83f9e4d51964d6d6fe0e6c410a5073047c0f Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+d171033f32fd679ec5bf79351e056a6e9304894a Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+12b61ef07adffd0db09be44d53d77f06f6a3e169 Merge branch 'vfs.file' into vfs.all
+e51c7026ca7de63261782e4a1ba048d95be61496 Merge branch 'vfs.fallocate' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+e2376b68cb7c0d79ff2cc72c9973c6952dab0a5d Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
 
-0c92d3da9d868cde2c2034b5dea59519bbc559d5 123f4fcbded80dfd612e9639ab26c5384f9cbe89 refs/heads/i2c/i2c-host
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt7m9hYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uvi4BAJJVzd1CMFbo5r11RLYJlfWtI7DE
-wingCHZ0X6O75VAmAQDWhFcDpRcB47noodDnecG8pBrq1PIyVt58X2lnq4ZoBA==
-=GB85
------END PGP SIGNATURE-----
-
---===============5390143987788667591==--
+--===============6678258193664539622==--
