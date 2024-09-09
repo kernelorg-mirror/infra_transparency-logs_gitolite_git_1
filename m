@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7922372622700830992=="
+Content-Type: multipart/mixed; boundary="===============0656800981448186195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 09 Sep 2024 06:41:06 -0000
-Message-Id: <172586406676.3108662.977999404727901681@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 06:41:11 -0000
+Message-Id: <172586407113.3108790.3027225135200459736@gitolite.kernel.org>
 
---===============7922372622700830992==
+--===============0656800981448186195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
+  - ref: refs/heads/usb-linus
+    old: 87eb3cb4ec619299cd5572e1d5eb68aef4074ac2
     new: da3ea35007d0af457a0afc87e84fddaebc4e0b63
-    log: revlist-431c1646e1f8-da3ea35007d0.txt
+    log: revlist-87eb3cb4ec61-da3ea35007d0.txt
 
---===============7922372622700830992==
+--===============0656800981448186195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725864087 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725864091 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725864065-407b6577367e27facf90ea419f5683bdc97b8c87
+nonce 1725864069-41fb8ae3817dbe67997d521141d986c2bb451459
 
-431c1646e1f86b949fa3685efc50b660a364c2b6 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/main
+87eb3cb4ec619299cd5572e1d5eb68aef4074ac2 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbemJcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fJcQAI0r7bOks52WkBl3KR+F
-CSUNz0GfcU5wRk0Wbc31FbtFfwTR2HkpRDDYyY3rcS4gMWJPfxE4Q0FHXHZknTWI
-yUYUAGZuqps8v84MzIWm5LVH/uFOV9iHxaqzCSDkOaXFs2CrXOWSQc3op+IXviBJ
-OZXs+Ye+u2JWRzBUwCFjKe+s+N1+jpgffvSrjw2Sd/IZX7uFV40zPaGqQaMj5RYZ
-7tN/he9rk87bIzZ4dFLDs3Nfj0uC40LMup4oAP5BaOMx0uWXY07WDs7tvvbpvYt5
-z2uwNRRO5bvzPBixsIHlGwrR6/Z9w+Q+G3hA7L5aNbzPdqy26N8629Z/fr8+SjGJ
-OzjePAlvRnnLqrGVi7mVDqv+XknGCShtXfwqtZPICIke5K+ZNQPtQlKS+QcMUKPT
-4O/RsdfpMjYFibuS++xP2bR2WyYEtXY37oimkBMje7QMfQ94OJRS3i95+R3/Uqfw
-54xIq40nblKFLmCBQfuIi0CoiOewXHsf+29eQEgFWVItnoU+QXZ/s/hiS1qToNrF
-bGnKSqoimsInY9ZIyixOSxvKbdkjE7DVBX7n7isAzMtWvoLNHJSCbfh+N9sr8987
-zAftGa1itlXcdOSTA1kHRyOSVkLvVR5YiiFnqweDwpg/5kT5TNkdVY7+52qpNfdV
-fx9XVfQjecrMS78zBqJHEY4x
-=XfRY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbemJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+df0P/1jrWL9xxcDgxbaleLJ4
+/w8Erwnmje/TlcC2BumuNFI4JsLwGRPMm3jn5B+VrmnoNSyuodbuELhbpBz4Nvdd
+4GegFCS/8yf0XuyLi3/HuyGKxdVn2QkVQ0UGzsQDgF4117Q42idDsXo/GQtU6aRD
+/V6fJsCWNCh8kRaAlf706SRKchD0cMPsubJW7dppC53c7jOrdgdkKMMHQDj4bXQo
+vLoyaKANT1PjOUTTA6STc3kiCz8ceka5Zjbc+aPJEpIrUu+hEwnvxyN+eYB4UVo7
+rjHICz3GbCuDJ8Q9KnKpH4ZMySjVqWbZxausmDmmC7tjLzZgKh0ESxYW+wFPxSzd
+VGyOvsPYLIP2qydpeFcc/zqml0EguV2rL8iBpb/R6Pnukcz8NMYuVIrq1N1Q2irm
+Z449RbSjpmPmzFX9nN3qVxwC254Jt/9Kr9aMqR/G9Qfn7AJT5CK1n/K3Lk9hcl23
+KcCZIscIIwMEhV5wfJKuj0ck8IobzAZBA191Hf0sRiBJL2dGikBN2Tm5QXr4o6gU
+tqae1x2l1PCOxG3Jlm1izfWKorrMdFWLb7SyxVdXBK8s/26vF0LTPLkAdqq35c1A
+yGA8fdjknkjBHzZUFRNKQ0jWZE0ltCA/5P70e8gaBHeRUGWNZkh1sQJaQR+Ecvoa
+207rkMMf/7J9n8NGRCZOBosz
+=djqw
 -----END PGP SIGNATURE-----
 
---===============7922372622700830992==
+--===============0656800981448186195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-431c1646e1f8-da3ea35007d0.txt
+Content-Disposition: attachment; filename=revlist-87eb3cb4ec61-da3ea35007d0.txt
 
 b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
 90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
@@ -260,10 +260,6 @@ b1934cd6069538db2255dc94ba573771ecf3b560 btrfs: zoned: handle broken write point
 5517ae241919e0208b077c910b0a369b9dce3c11 Merge tag 'for-net-2024-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 43cf50eb1408ccb99cab01521263e8cb4cfdc023 drm/i915/display: Add mechanism to use sink model when applying quirk
 a13494de53258d8cf82ed3bcd69176bbf7f2640e drm/i915/display: Increase Fast Wake Sync length as a quirk
-00dcf2fa449f23a263343d7fe051741bdde65d0b usb: dwc3: Avoid waking up gadget during startxfer
-9149c9b0c7e046273141e41eebd8a517416144ac usb: dwc3: core: update LC timer as per USB Spec V3.2
-e2940928115e83d707b21bf00b0db7d6c15f8341 usb: cdns2: Fix controller reset issue
-de3d7969f6a80aa5abbbc0f39897495ae35548d0 usb: typec: ucsi: Fix the partner PD revision
 466cb3c630a51b04995c6247d2fb73b5ce7bfd7f drm/display: stop depending on DRM_DISPLAY_HELPER
 9da7ec9b19d8c1ad4f44e459fa5f93ad7a117dcd drm/bridge-connector: move to DRM_DISPLAY_HELPER module
 9a71cf8b6fa433a8f243626ba9930a3870584e38 drm/bridge-connector: reset the HDMI connector state
@@ -311,7 +307,6 @@ d8c40b9d3a6cef61eb5a0c58c34a3090ea938d89 ice: check ICE_VSI_DOWN under rtnl_lock
 e88b9ed3e03a6471bee131f201f6f2f87383e898 Merge tag 'ath-current-20240903' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 28982ad73d6a9605708631dc49a0c763cc398aa2 nvme: set BLK_FEAT_ZONED for ZNS multipath disks
 899d2e5a4e3d36689e8938e152f4b69a4bcc6b4d nvmet: Identify-Active Namespace ID List command should reject invalid nsid
-87eb3cb4ec619299cd5572e1d5eb68aef4074ac2 usb: typec: ucsi: Fix cable registration
 cd9253c23aedd61eb5ff11f37a36247cd46faf86 btrfs: fix race between direct IO write and fsync when using same fd
 5872b47ce18efad5862b74ad334cbdfffa7f8a0c MAINTAINERS: wifi: cw1200: add net-cw1200.h
 bab8eb0dd4cb995caa4a0529d5655531c2ec5e8e usbnet: modern method to get random MAC
@@ -422,4 +417,4 @@ e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' o
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
 
---===============7922372622700830992==--
+--===============0656800981448186195==--
