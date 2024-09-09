@@ -1,23 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 09 Sep 2024 14:42:30 -0000
-Message-Id: <172589295086.3507682.359312988220522802@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4867463712317050767=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 09 Sep 2024 14:44:34 -0000
+Message-Id: <172589307407.3508908.1747680588261396557@gitolite.kernel.org>
+
+--===============4867463712317050767==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 4dda2081d84398248af60da1d519840a5d6e3390
-    new: e3bf4ec9d54ed96fb3eb7dd53edcc9452897604d
-    log: |
-         e7e2941300d258d551dda6ca9a370e29e085fa73 kbuild: split device tree build rules into scripts/Makefile.dtbs
-         80823ed65b006ec754ba08cad725c8b64774ccbc kbuild: move non-boot builtin DTBs to .init.rodata section
-         eeb91f69c3a7e0b5ed895235e894fc72742a06e7 kbuild: add generic support for built-in boot DTBs
-         e7777aec97a49542b287c045aab7061deddbb6e9 scripts: import more hash table macros
-         e3bf4ec9d54ed96fb3eb7dd53edcc9452897604d scripts: subarch.include: fix SUBARCH on macOS hosts
-         
+  - ref: refs/heads/nfsd-next
+    old: 22e044f2eecbfc3d6650a7e2e2fa00f4af9119f2
+    new: bd400f0ac66e0a6e1276d6455d73aed6ce6a1453
+    log: revlist-22e044f2eecb-bd400f0ac66e.txt
+
+--===============4867463712317050767==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-22e044f2eecb-bd400f0ac66e.txt
+
+39719dbc1e220c86e7eb5e07883a17ed8055551c nfsd: fix initial getattr on write delegation
+0133f429c708b07f8c3f71665c88b9bad0982ef0 nfsd: drop the ncf_cb_bmap field
+22e6bd51c74a4f5ca60e53855ea56c35acb09406 nfsd: don't request change attr in CB_GETATTR once file is modified
+555f2b89a1f7f5551bb73290a2ea0ea26ab61060 nfsd: drop the nfsd4_fattr_args "size" field
+57a1ae479b77b7387f13bcd767f7b5c3d370d828 nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
+b9c8496c1ad6999d3f0f42dd81bfd0cb35830839 nfs_common: make include/linux/nfs4.h include generated nfs4.h
+005e25ec9eb8e09afbc7954f02ef9cc5e3bcd9fb nfsd: add support for FATTR4_OPEN_ARGUMENTS
+2d5d62e70d2b1fc542bae491c71791cf0e17c71f nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+9519508b5e184a4283ed81e8aca0ab670591ac94 nfsd: add support for delegated timestamps
+4bbcb19cda0db69b90c25a7b32b44eb62c88f817 nfsd: handle delegated timestamps in SETATTR
+bd400f0ac66e0a6e1276d6455d73aed6ce6a1453 nfsd: fix delegation_blocked() to block correctly for at least 30 seconds
+
+--===============4867463712317050767==--
