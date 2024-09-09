@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 09 Sep 2024 13:53:43 -0000
-Message-Id: <172589002371.3466032.15767762717262548321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 09 Sep 2024 13:56:36 -0000
+Message-Id: <172589019609.3469153.6321750812991005643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: ed8de7074249a7f60fbc0d01921b007c99d06005
-    new: f6cffbbc26f71bfa7a91b003d3d6d4ff2f8f12f2
+  - ref: refs/heads/kdevops
+    old: 74a66bd10a9313af934cb8a5639938adc631e02e
+    new: 4463d5274eadc97318bb0bfc512c3c4d10102cfb
     log: |
-         f6cffbbc26f71bfa7a91b003d3d6d4ff2f8f12f2 meson: Move symlinks up
+         4463d5274eadc97318bb0bfc512c3c4d10102cfb fs: convert coarse time instead of refetching it
          
