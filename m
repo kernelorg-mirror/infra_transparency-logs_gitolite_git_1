@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7044958242317710584=="
+Content-Type: multipart/mixed; boundary="===============7770213500270133885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 Sep 2024 05:47:42 -0000
-Message-Id: <172586086245.3064921.17716426085824482056@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 05:47:48 -0000
+Message-Id: <172586086864.3065114.7730112886035018351@gitolite.kernel.org>
 
---===============7044958242317710584==
+--===============7770213500270133885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
+  - ref: refs/heads/char-misc-linus
+    old: 48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7
     new: da3ea35007d0af457a0afc87e84fddaebc4e0b63
-    log: revlist-47ac09b91bef-da3ea35007d0.txt
+    log: revlist-48b9a8dabcc3-da3ea35007d0.txt
 
---===============7044958242317710584==
+--===============7770213500270133885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725860884 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725860890 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1725860861-4db8ed907a66c33a864d406387ab43f338856d48
+nonce 1725860866-747c4b7c60e5a8fc8bae7b860e44193b61990d9b
 
-47ac09b91befbb6a235ab620c32af719f8208399 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/main
+48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbejBQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cRUP/AppiqxeHfwViHoAUqyF
-IKOevrBbKa9MP6JTi2g6VUgbz8GbJYSHZbfymcBjtOsK604pcIAVOCm5McBuuqR8
-9OKp5wei1OdF+OrDaoZL30PsWUGDA+GCXU5Rm+0EYJw2gnG5w+ZynJyQ/feebNKe
-wquVmLnqLNWYH+Gvl4cElT61tKVetgyzKyhyowlAaXGgVKHTld5MoaJIF02wbRTC
-6qbnawkUutv9+pHtW+iyQNoL2AK05VGHSIQwFb6cF8M8AnGmmfWa6ZtJ7WKjc01i
-mmBwKDnfNDkTKW0HDjzn4dRcjvQSKD7RhjOep3wTWYrGL4sRMVusjpoEp6BIgbt+
-g4K/3yExBoycN1u7NEQFGqBy+cWk1/stwUl1E2jW2r6DFiJ18Cgui2YA/eC91Oka
-4av3anWmRuhr2PAFcHKGlTwR5/xNWIfQP2AgAZOl354ub5TSY3daqrT2M4gmOUXS
-RLfcAJx29nm6ZhLf7JyAzwIRNrNn3Z/9XJO5pz6kRg6YsqoF4l4fvvssYmAqAb9d
-k3tAr6CPxk3G8lX/A5Vmz3lYuBZTOdnbWwCQKkYraELkcNWiwCkdf/Hj8rp0M1LR
-Mv3NpkSqFvGOkGqbcUW8prLr7EdX6E3y/rmGj9wC/yMghwzF+rqKkiiPAGJfkkKO
-iOQMHJNUo3PsBnO7ywOM5Stl
-=0vPC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbejBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8JsP/A1iyYd+CzqHXoN7jmV+
+LozObbjSsOl206gEK0J2P0j0Na3WcG2A4jts0XDROTYCeK8qPuCfDcGHCuVVMryd
+SjzuYZMFqs7JDxlK+M00w6WFEp3PKnY86rSGckc3BtkPPiiQiq2Hzd7kZrzFiQYr
+KVMc8TGcc9s9VtjRcCg6SIIcn5AjleZQ+kSE7Gt0RZ7TEpMDT8dUkKc3Ha0ilGtb
+9oLVDwkq/a1Px3LiAuaquKRmBVH7tOz1AEXboqjckoOKz32dBbux4X0uN3jdUanZ
+8/InOqmaov9zUsoxeWsPjI5OaI78xV1nbGnfOOMUpL3YYm66BgUJD3LKhV+XiZiL
+0f6Ih8+iNb1wV9kAPS3EXMkPfW487FERiM+5ZkPHq5X97jDMXCqOKBFWkKqTblFf
+h9MvNJcPSVb3fHCQEtCPddtOxc7Cp1vXS2lg6+eSVyEVlvnUJ8kG1lk3DhYfTlnX
+vZj8vpmN60pcJTB68ePXff0hK+Fa8ayWZntesDWY4vHluFxq9rWqM7L7hhCB0Rkk
+3/URwDzJWAW/Bv/0bxiZLsBfkKDad2hcCRb6SmgAanxafb0vPabgoKF5xJQSPFX/
+MSeHuVrrqRWbnNMb2aGwKQyYqmIyu57B3mKnDbjI9HF5eo90j774b3wPFrcGH05B
+kirfLS8Pq3pi1nJBjp4uxJqA
+=0R2N
 -----END PGP SIGNATURE-----
 
---===============7044958242317710584==
+--===============7770213500270133885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ac09b91bef-da3ea35007d0.txt
+Content-Disposition: attachment; filename=revlist-48b9a8dabcc3-da3ea35007d0.txt
 
 ccbfea78adf75d3d9e87aa739dab83254f5333fa Input: ads7846 - ratelimit the spi_sync error message
 da897484557b34a54fabb81f6c223c19a69e546d Input: synaptics - enable SMBus for HP Elitebook 840 G2
@@ -66,10 +66,6 @@ dbd6bd124e34f9f859271ed9ae2afc39f36c7e8c soc: qcom: pd-mapper: mark qcom_pdm_dom
 8bc7cb73df8644423758c79d4504d501c8ef3854 arm64: dts: qcom: x1e80100-yoga: add wifi calibration variant
 60a76f7826b88ebf7697a56fdcd9596b23c2b616 arm64: dts: qcom: ipq5332: Fix interrupt trigger type for usb
 950aeefb34923fe3c28ade35fe05f24e2c5b1d55 iommufd/device: Fix hwpt at err_unresv in iommufd_device_do_replace()
-b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
-90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
-84c65d8008764a8fb4e627ff02de01ec4245f2c4 iio: buffer-dmaengine: fix releasing dma channel on error
-70eac5c3c49195a323387ec237f17f9801cbdb25 iio: adc: ad7173: Fix incorrect compatible string
 30f593fa0088b89f479f7358640687b3cbca93d4 arm64: dts: qcom: x1e80100-crd: fix PCIe4 PHY supply
 f8fa1f2f6412bffa71972f9506b72992d0e6e485 arm64: dts: qcom: x1e80100: fix PCIe domain numbers
 98abf2fbd179017833c38edc9f3b587c69d07e2a arm64: dts: qcom: x1e80100: add missing PCIe minimum OPP
@@ -102,10 +98,6 @@ d1aa95e86f178dc597e80228cd9bd81fc3510f34 hid-asus: add ROG Ally X prod ID to qui
 97155021ae17b86985121b33cf8098bcde00d497 HID: amd_sfh: free driver_data after destroying hid device
 c8000deb68365b461b324d68c7ea89d730f0bb85 HID: multitouch: Add support for GT7868Q
 1b8f9c1fb464968a5b18d3acc1da8c00bad24fad HID: wacom: Defer calculation of resolution until resolution_code is known
-96f9ab0d5933c1c00142dd052f259fce0bc3ced2 iio: adc: ad7124: fix chip ID mismatch
-2f6b92d0f69f04d9e2ea0db1228ab7f82f3173af iio: adc: ad7124: fix config comparison
-8a3dcc970dc57b358c8db2702447bf0af4e0d83a iio: fix scale application in iio_convert_raw_to_processed_unlocked
-de80af5c2ffd9c3f02792f6979296cb6f74e82e5 iio: adc: ads1119: Fix IRQ flags
 0e8a0504da59041e775a95db3ebc1a6211423593 phy: qcom: qmp-pcie: Fix X1E80100 PCIe Gen4 PHY initialisation
 ce52c2532299c7ccfd34a52db8d071e890a78c59 phy: fsl-imx8mq-usb: fix tuning parameter name
 3a07703a523045cbdb0a5fa5e0902a9145ee43e9 phy: exynos5-usbdrd: fix error code in probe()
@@ -157,8 +149,6 @@ e443d15b949952ee039b731d5c35bcbafa300024 can: m_can: Limit coalescing to periphe
 50ea5449c56310d2d31c28ba91a59232116d3c1e can: mcp251xfd: fix ring configuration when switching from CAN-CC to CAN-FD mode
 ac2b81eb8b2d104033560daea886ee84531e3d0a can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
 8de78e00986e883670d79d99d174626e4d4dabc5 Merge patch series "can: mcp251xfd: fix ring/coalescing configuration"
-e81bb580ec08d7503c14c92157d810d306290003 iio: adc: ad_sigma_delta: fix irq_flags on irq request
-61cbfb5368dd50ed0d65ce21d305aa923581db2b iio: adc: ad7124: fix DT configuration parsing
 e9408fa234fb2c0f087d718c7172212bb0dd7e6f MAINTAINERS: Update DTS path for ARM/Microchip (AT91) SoC
 49f6202ce991742f451fc724f03d0c17460d06cd ASoC: codecs: lpass-macro: fix version strings returned for 1.x codecs
 a9a7a2d80790d06cd32c535e2e7b10f72ce592e7 ASoC: codecs: lpass-va-macro: warn on unknown version
@@ -247,8 +237,6 @@ ea593e028a9cc523557b4084a61d87ae69e2f270 scsi: ufs: qcom: Add UFSHCD_QUIRK_BROKE
 cd612b57c3672487ae8565855eaf9e83862eccc5 scsi: MAINTAINERS: Add header files to SCSI SUBSYSTEM
 cbaac68987b8699397df29413b33bd51f5255255 scsi: sd: Do not attempt to configure discard unless LBPME is set
 2d7423040b7cca0beb385e67b660ca524c670ff9 Merge tag 'for-net-2024-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-f242967f4d1c024ac42bb47ea50b6360b4cb4556 iio: adc: ad7173: fix GPIO device info
-0a3b517c8089aa4cf339f41460d542c681409386 iio: imu: inv_mpu6050: fix interrupt status read for old buggy chips
 ab8d66d132bc8f1992d3eb6cab8d32dda6733c84 soundwire: stream: fix programming slave ports for non-continous port maps
 e4be320eeca842a3d7648258ee3673f1755a5a59 smb3: fix broken cached reads when posix locks
 dfd046d0ced19b6ff5f11ec4ceab0a83de924771 ksmbd: Use unsafe_memcpy() for ntlm_negotiate
@@ -902,18 +890,8 @@ de3d7969f6a80aa5abbbc0f39897495ae35548d0 usb: typec: ucsi: Fix the partner PD re
 0a50c35277f96481a5a6ed5faf347f282040c57d net: ethernet: ti: am65-cpsw: Fix NULL dereference on XDP_TX
 624d3291484f9cada10660f820db926c0bce7741 net: ethernet: ti: am65-cpsw: Fix RX statistics for XDP_TX and XDP_REDIRECT
 c2eb0626536f49f25e544d9d178c047b544340bb Merge branch 'net-ethernet-ti-am65-cpsw-fix-xdp-implementation'
-8cbec539593a7dc1cbcc2d839333353a47342c06 Merge tag 'iio-fixes-for-6.11a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-4df153652cc46545722879415937582028c18af5 binder: fix UAF caused by offsets overwrite
-e8c276d4dc0e19ee48385f74426aebc855b49aaf misc: fastrpc: Fix double free of 'buf' in error path
-8679e8b4a1ebdb40c4429e49368d29353e07b601 nvmem: u-boot-env: error if NVMEM device is too small
-c69f37f6559a8948d70badd2b179db7714dedd62 nvmem: Fix return type of devm_nvmem_device_get() in kerneldoc
-a759d1f25182f51210c8831d71ce7ee81e0930f4 dt-bindings: nvmem: Use soc-nvmem node name instead of nvmem
-7d32e779eb9add47bfdb4731c4d4ff443a7f7fa6 misc: keba: Fix sysfs group creation
-fb1adbd7e50f3d2de56d0a2bb0700e2e819a329e uio_hv_generic: Fix kernel NULL pointer dereference in hv_uio_rescind
-6fd28941447bf2c8ca0f26fda612a1cabc41663f Drivers: hv: vmbus: Fix rescind handling in uio_hv_generic
 2560db6ede1aaf162a73b2df43e0b6c5ed8819f7 net: phy: Fix missing of_node_put() for leds
 213aa670153ed675a007c1f35c5db544b0fefc94 parisc: Delay write-protection until mark_rodata_ro() call
-48b9a8dabcc3cf5f961b2ebcd8933bf9204babb7 VMCI: Fix use-after-free when removing resource in vmci_resource_remove()
 aea62c744a9ae2a8247c54ec42138405216414da mmc: cqhci: Fix checking of CQHCI_HALT state
 5478a4f7b94414def7b56d2f18bc2ed9b0f3f1f2 spi: spidev: Add missing spi_device_id for jg10309-01
 d7875b4b078f7e2d862e88aed99c3ea0381aa189 ptp: ocp: convert serial ports to array
@@ -1053,4 +1031,4 @@ e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' o
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
 
---===============7044958242317710584==--
+--===============7770213500270133885==--
