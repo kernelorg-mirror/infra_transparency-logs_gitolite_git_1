@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 09 Sep 2024 16:22:01 -0000
-Message-Id: <172589892102.3599844.505028025834449228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 09 Sep 2024 16:28:08 -0000
+Message-Id: <172589928862.3604572.13185620867691228748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kdevops
-    old: 092a2b303f9d36e12c428e02cdce2e3c3dac9239
-    new: 8d42e1921ace57bb8ed329d3ce6a81b4a691bff0
+  - ref: refs/heads/1GbE
+    old: d759ee240d3c0c4a19f4d984eb21c36da76bc6ce
+    new: b3c9e65eb227269ed72a115ba22f4f51b4e62b4d
     log: |
-         8d42e1921ace57bb8ed329d3ce6a81b4a691bff0 neuter ktime_mono_to_any
+         b3c9e65eb227269ed72a115ba22f4f51b4e62b4d net: hsr: remove seqnr_lock
          
