@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8867799209925847718=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 09 Sep 2024 14:53:20 -0000
-Message-Id: <172589360096.3517640.10140467268509771767@gitolite.kernel.org>
-
---===============8867799209925847718==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Mon, 09 Sep 2024 14:55:52 -0000
+Message-Id: <172589375201.3520692.6904828803921281481@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/kbuild
-    old: e3bf4ec9d54ed96fb3eb7dd53edcc9452897604d
-    new: 3ff66815d74540c223fa6c8868c1c7803ff3e27f
-    log: revlist-e3bf4ec9d54e-3ff66815d745.txt
-
---===============8867799209925847718==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3bf4ec9d54e-3ff66815d745.txt
-
-d063d446f9780db3fa6db0bb25efa77aca138ebb kbuild: add mod(name,file)_flags to assembler flags for module objects
-a9f073517c7c6d427bdc1de8c0ebaff09745a4e1 kbuild: generate offset range data for builtin modules
-3f15b0c677fd3dd4d529e60288ef2d9a6c88f505 scripts: add verifier script for builtin module range data
-fa65c73bd86f7c1a4545551084bcddf52467dd78 kbuild: add install target for modules.builtin.ranges
-bf4cf6fbae9106560618725e6479eb95e29058aa scripts: move hash function from scripts/kconfig/ to scripts/include/
-364246cdfe302fb7191c78bcb8f0dfe7adc81a49 kconfig: change some expr_*() functions to bool
-6ba7f65b0fb408d6518ba40294e7934e90cdb564 kconfig: add comments to expression transformations
-cc12e9223793b8fea04741786f0b445fef7c1b10 kconfig: refactor expr_eliminate_dups()
-fe75f77c92b46296b741b8f12497f1a9066d5de9 kconfig: use hash table to reuse expressions
-f65fda88462b3106345fc79c2f24a5e80ff1bd6a kconfig: cache expression values
-3ff66815d74540c223fa6c8868c1c7803ff3e27f kbuild: remove append operation on cmd_ld_ko_o
-
---===============8867799209925847718==--
+  - ref: refs/heads/next
+    old: a54a47fa82d1c212f5645983114dcbb57ab00559
+    new: 355debb83bf79853cde43579f88eed16adb1da29
+    log: |
+         1fcb932c8b5ce86219d7dedcd63659351a43291c rcu/nocb: Simplify (de-)offloading state machine
+         9139f93209d1ffd7f489ab19dee01b7c3a1a43d2 rcu/nocb: Fix RT throttling hrtimer armed from offline CPU
+         1b022b8763fde84c51ca06218306d7d88fb090cb rcu/nocb: Conditionally wake up rcuo if not already waiting on GP
+         7562eed272b49e233c430524e684b957f34f2fd2 rcu/nocb: Remove superfluous memory barrier after bypass enqueue
+         1ecd9d68eb44e4b7972aee2840eb4fdf29b9de2b rcu: Defer printing stall-warning backtrace when holding rcu_node lock
+         355debb83bf79853cde43579f88eed16adb1da29 Merge branches 'context_tracking.15.08.24a', 'csd.lock.15.08.24a', 'nocb.09.09.24a', 'rcutorture.14.08.24a', 'rcustall.09.09.24a', 'srcu.12.08.24a', 'rcu.tasks.14.08.24a', 'rcu_scaling_tests.15.08.24a', 'fixes.12.08.24a' and 'misc.11.08.24a' into next.09.09.24a
+         
