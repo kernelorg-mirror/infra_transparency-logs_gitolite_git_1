@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7649354070159809977=="
+Content-Type: multipart/mixed; boundary="===============5667308634792163181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 09 Sep 2024 22:37:34 -0000
-Message-Id: <172592145427.3919117.17616609068427553741@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 22:37:37 -0000
+Message-Id: <172592145779.3919215.5967948535560002087@gitolite.kernel.org>
 
---===============7649354070159809977==
+--===============5667308634792163181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 8392e0c4be9fcd00aa9a4faaf2ab02547655e659
     new: 43457ada98c824f310adb7bd96bd5f2fcd9a3279
     log: revlist-8392e0c4be9f-43457ada98c8.txt
 
---===============7649354070159809977==
+--===============5667308634792163181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725921475 +0200
+pusher andi.shyti@kernel.org 1725921479 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725921452-cd3bf3dcfabb4fcc46c588a0100f75ddebe85a46
+nonce 1725921456-dd74606d98d9c9336215b0eaac09d24f70b36173
 
-8392e0c4be9fcd00aa9a4faaf2ab02547655e659 43457ada98c824f310adb7bd96bd5f2fcd9a3279 refs/heads/i2c/i2c-host
+8392e0c4be9fcd00aa9a4faaf2ab02547655e659 43457ada98c824f310adb7bd96bd5f2fcd9a3279 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt94wxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u6W4A/jInoXHC0H55SsZuqRY92wdsTkAW
-Esa2FL6VVJWaNDK4AQCuHT7ZkViw01Tju12niaHwStit8dex7Bw3SHRBj6baBw==
-=4PeQ
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt94xxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uGZYA+QHdBTzuB7b4EUUkrdUBfvyKqUWB
+x2JTu2b3O2xmg6S5AQD4X6DruiTU6LWBLfFUCccyKAVd0JB5YxdrDQb/ezZHBA==
+=VDtP
 -----END PGP SIGNATURE-----
 
---===============7649354070159809977==
+--===============5667308634792163181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ dd5e982dc81d73e91b45e41406b86a35911a377d arm64: defconfig: enable I2C_DESIGNWARE
 60f68597024d5af727c8a5f5f3b11f246265192b i2c: core: Setup i2c_adapter runtime-pm before calling device_add()
 43457ada98c824f310adb7bd96bd5f2fcd9a3279 i2c: i801: Use a different adapter-name for IDF adapters
 
---===============7649354070159809977==--
+--===============5667308634792163181==--
