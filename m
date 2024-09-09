@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4865262640967973358=="
+Content-Type: multipart/mixed; boundary="===============1125615328772190160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 09 Sep 2024 22:34:04 -0000
-Message-Id: <172592124424.3915594.7683698783216769357@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 22:34:08 -0000
+Message-Id: <172592124811.3915801.465429111795766361@gitolite.kernel.org>
 
---===============4865262640967973358==
+--===============1125615328772190160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
-    new: da3ea35007d0af457a0afc87e84fddaebc4e0b63
-    log: revlist-431c1646e1f8-da3ea35007d0.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 63c2e39cbf07c8d8ff6909d4f5c5193ca63facc3
+    new: 8392e0c4be9fcd00aa9a4faaf2ab02547655e659
+    log: revlist-63c2e39cbf07-8392e0c4be9f.txt
 
---===============4865262640967973358==
+--===============1125615328772190160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725921265 +0200
+pusher andi.shyti@kernel.org 1725921269 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725921242-181720cd88ace687b14c21b8fa34bb08386d48e0
+nonce 1725921246-fc643a203a1130bce732a17543cb992c27d7d9d6
 
-431c1646e1f86b949fa3685efc50b660a364c2b6 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/i2c/i2c-host-fixes
+63c2e39cbf07c8d8ff6909d4f5c5193ca63facc3 8392e0c4be9fcd00aa9a4faaf2ab02547655e659 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt938RYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ulj4BAPbQPkMli/Qkj6sGR3W7YqEnlGEN
-IU5ay3MGBCRwQqNMAP4wNmg6oX+ge8IGIqFvLHZQF0f6NMvsrfwHQ1R10qAfCw==
-=y3dx
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZt939RYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u3fAA+wU5oFyAMsWUZtRr1EcO7tJ6Jpb/
+DqfgFI4pNETxv00LAP47kZwgjpR3mKVojSx3+i3hVPLuDmCs7fSE9JNO6M44Aw==
+=bRoc
 -----END PGP SIGNATURE-----
 
---===============4865262640967973358==
+--===============1125615328772190160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-431c1646e1f8-da3ea35007d0.txt
+Content-Disposition: attachment; filename=revlist-63c2e39cbf07-8392e0c4be9f.txt
 
 b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
 90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
@@ -411,5 +411,58 @@ d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f Merge tag 'clk-fixes-for-linus' of git:
 e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
+4fec76e0985c638f3b9bb628a28b79b1658ffcca i2c: designware: Fix wrong setting for {ss,fs,hs}_{h,l}cnt registers
+1dc8baa408a2e873f69fc356fbbc0bddb7813839 i2c: don't use ',' after delimiters
+ab5bd055e4dbb849d5d77c9a6d908e6f3bed58ed i2c: mt65xx: Avoid double initialization of restart_flag in isr
+2d30c638f98408c0d2ad5a8c3b2421328aa30213 i2c: imx: Switch to RUNTIME_PM_OPS()
+23cc961a08591976eb17ca8552a602425b1a780d i2c: qcom-geni: Use goto for clearer exit path
+1a2b14e9cedae93e73222a77ce474a99eb7e3eaa i2c: designware: Replace a while-loop by for-loop
+c2587420fe65391884389a7b90d0040d6a9c2312 i2c: designware: Let PCI core to take care about interrupt vectors
+fdc9be121005b17d492082dd840466a1165f3a7a i2c: designware: Add missing 'c' into PCI IDs variable name
+949e9cde4164a39490c5074e6bb86b39edf0653e i2c: designware: Unify terminator in device ID tables
+f2330bfbdd5765c01b01b79d7e81e2ad08b0a375 i2c: designware: Always provide device ID tables
+5674e089bd9c093e253175436cfeac43c42203e4 i2c: designware: Drop return value from i2c_dw_acpi_configure()
+982959ffabfc34f9d8b2cc2d112c62b5ddef2bd6 i2c: designware: Drop return value from dw_i2c_of_configure()
+b42ed9fd6cd111a312e4ef35d9a417756f581bef i2c: riic: Use temporary variable for struct device
+a1ecb041589017ce4e03d92f3b9a92a2a8a37ceb i2c: riic: Call pm_runtime_get_sync() when need to access registers
+3149a9cf36cf17411e8564e22ec698b5aa2175c5 i2c: riic: Use pm_runtime_resume_and_get()
+10d5c8845d36ca71212f588849532c5f484111e4 i2c: riic: Enable runtime PM autosuspend support
+53326135d0e041ebe7d08bf22f82529ae69a096e i2c: riic: Add suspend/resume support
+88c5cf45927bb43328b869b0bda7276e47896c44 i2c: riic: Define individual arrays to describe the register offsets
+caad8883e4202c4ba002b9b1adc62e123f739394 dt-bindings: i2c: renesas,riic: Document the R9A08G045 support
+3e3c9bea659a48388a7444b6c2c41e967b263a24 i2c: riic: Add support for fast mode plus
+13b09d0fe7b65d466f5df9689a0b8e3cea7babe6 dt-bindings: i2c: nvidia,tegra20-i2c: combine same if:then: clauses
+6d88bb79b46c21b3f415b27cd477bb312737d95e dt-bindings: i2c: nvidia,tegra20-i2c: restrict also clocks in if:then:
+3a04293b14a120aa81e678b1b673c178cc5273f2 dt-bindings: i2c: nvidia,tegra20-i2c: define power-domains top-level
+c1a5e6ffdd4f02ca32ef526ad83320cf123f27b8 dt-bindings: i2c: qcom,i2c-cci: add missing clocks constraint in if:then:
+628c248167b548a8774ca0302d70e60caf2ff97e i2c: designware: Rename dw_i2c_of_configure() -> i2c_dw_of_configure()
+308545a7be4745ced46ed4a9c5a45d6415fe3f79 i2c: designware: Consolidate firmware parsing and configuring code
+7867e08f1e53a6923845bb073910962428e75f66 i2c: designware: Unify the firmware type checks
+9bfa6da6bccdd4229c0840f2439d7030a58ce95c i2c: designware: Move exports to I2C_DW namespaces
+14053af6fc1166c450527eec93578d60a8e8e11d i2c: designware: Remove ->disable() callback
+fb17add34122bd22f5a58639c54ad169b7bce306 i2c: riic: Simplify unsupported bus speed handling
+f884631b263e824772f5f787dee8e8d40e9c0e9f dt-bindings: i2c: aspeed: drop redundant multi-master
+f3ff7af788a02fd1234cdb284dff0c76e0c8cf04 i2c: designware: Consolidate PM ops
+cd6f1204f2637ba871bbfb092cbae2fa143dc7be dt-bindings: i2c: i2c-rk3x: Add rk3576 compatible
+4452f0f7c9bc9b4fa165dc677b9a64f7abf0b0f8 i2c: mpc: Use devm_clk_get_optional_enabled() to simplify code
+7ed35ddf21458a7aaffda36aab0753a0ce869e76 i2c: npcm: restore slave addresses array length
+ed8b0f4fdb4a8b9521eb9dbbcf6865f33adf2471 dt-bindings: i2c: add support for tsd,mule-i2c-mux
+1c620b70784d3a32997c1c4205930bd76ec037fb i2c: muxes: add support for tsd,mule-i2c multiplexer
+ddfbe815986e3546b84167a3fef0b8c338abe930 i2c: emev2: Use devm_clk_get_enabled() helpers
+9b7d7f617c0d047c9108be11ba8f57e5f4abca98 i2c: jz4780: Use devm_clk_get_enabled() helpers
+b9dc5d3122ef6fd2793c4951df9363d1fa7629bc i2c: imx: Convert comma to semicolon
+e0130deec647db09a54a42af37f543ddd3fe5b9c i2c: rcar: tidyup priv->devtype handling on rcar_i2c_probe()
+0014a9c53217a4c6a7e4b8b4785121711f75ae7f i2c: virtio: Constify struct i2c_algorithm and struct virtio_device_id
+7f42dbd92c1a039cafaa74caca0670396fcbe304 ARC: configs: enable I2C_DESIGNWARE_CORE with I2C_DESIGNWARE_PLATFORM
+7995f774ebfa2cbc461502588fb3d0a454da88c9 ARM: configs: enable I2C_DESIGNWARE_CORE with I2C_DESIGNWARE_PLATFORM
+4c02366ab009294a74f19dc3bf3ec73cba8f2d61 arm64: defconfig: enable I2C_DESIGNWARE_CORE with I2C_DESIGNWARE_PLATFORM
+b287d525b850515a7fd40a687136f140b66a6da3 mips: configs: enable I2C_DESIGNWARE_CORE with I2C_DESIGNWARE_PLATFORM
+ffe0f085cf8cfbbad5b85eec6c34adf6de1153f8 RISC-V: configs: enable I2C_DESIGNWARE_CORE with I2C_DESIGNWARE_PLATFORM
+a407f27e8704af4470e5ba37560edf039fc183d9 net: txgbe: Fix I2C Kconfig dependencies
+82e0a5d25a4ed6828aef93e5a4fb4264b8dd58f0 i2c: designware: Group all DesignWare drivers under a single option
+1b4d1e2a3aaaea0111e7457d0dd7113e59213e24 i2c: ismt: kill transaction in hardware on timeout
+0374e13b04c9019d611839a90202198823cdaa12 dt-bindings: i2c: i2c-sprd: convert to YAML
+d47b19e8e48e336c6cc90359e114ea053e3560cd i2c: core: Setup i2c_adapter runtime-pm before calling device_add()
+8392e0c4be9fcd00aa9a4faaf2ab02547655e659 i2c: i801: Use a different adapter-name for IDF adapters
 
---===============4865262640967973358==--
+--===============1125615328772190160==--
