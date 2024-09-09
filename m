@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 09 Sep 2024 13:31:20 -0000
-Message-Id: <172588868076.3447405.17487298007058221294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 09 Sep 2024 13:31:43 -0000
+Message-Id: <172588870393.3447685.5605019854307605723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/testing
-    old: 6a13f5afd39d17320316dbb8dd533fe7c6a613e6
-    new: e62d39332d4b9400a69ba902797aa17a1a0037e7
+  - ref: refs/heads/kdevops
+    old: da3ea35007d0af457a0afc87e84fddaebc4e0b63
+    new: 74a66bd10a9313af934cb8a5639938adc631e02e
     log: |
-         e62d39332d4b9400a69ba902797aa17a1a0037e7 xfrm: policy: Restore dir assignments in xfrm_hash_rebuild()
+         74a66bd10a9313af934cb8a5639938adc631e02e fs: add infrastructure for multigrain timestamps
          
