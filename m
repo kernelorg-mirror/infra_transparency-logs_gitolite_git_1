@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3159410977113798146=="
+Content-Type: multipart/mixed; boundary="===============1289585695082744903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Sep 2024 10:23:43 -0000
-Message-Id: <172587742379.3290934.14420630086325552923@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 10:23:50 -0000
+Message-Id: <172587743018.3291112.18323041099242306414@gitolite.kernel.org>
 
---===============3159410977113798146==
+--===============1289585695082744903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: d1b21794855ee7cd686b0b36def437f054654025
-    new: f656cd0df24b86a4b87e0c67fa83b016793ec8b5
-    log: revlist-d1b21794855e-f656cd0df24b.txt
+  - ref: refs/heads/m68k-queue
+    old: 592dc4af0573333d4f13784a9ade5f3eeadf6f51
+    new: 721770eb371950d5a5cd5850c36038126830bbaf
+    log: revlist-592dc4af0573-721770eb3719.txt
 
---===============3159410977113798146==
+--===============1289585695082744903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b21794855e-f656cd0df24b.txt
+Content-Disposition: attachment; filename=revlist-592dc4af0573-721770eb3719.txt
 
 b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
 90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
@@ -390,6 +390,10 @@ d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f Merge tag 'clk-fixes-for-linus' of git:
 e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
-f656cd0df24b86a4b87e0c67fa83b016793ec8b5 Merge tag 'v6.11-rc7'
+cd90711b022d433362eadcd8fd548cb8b5fe1eb8 m68k: cmpxchg: Use swap() to improve code
+0f873dc79c273b89a4caf0b683c889e18ba92345 m68k: Fix kernel_clone_args.flags in m68k_clone()
+e9631ad37613df95b70e26392062970d2b1e7d14 m68k: atari: usb: Add ISP1160 USB host controller support
+a524dc01d4b91547c6dd13844597cbab8402bde5 m68k: atari: Update Kconfig.bus help text
+721770eb371950d5a5cd5850c36038126830bbaf m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3159410977113798146==--
+--===============1289585695082744903==--
