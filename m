@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8758213255309810188=="
+Content-Type: multipart/mixed; boundary="===============0885623403950064530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 09 Sep 2024 16:28:34 -0000
-Message-Id: <172589931436.3605408.535454338944541932@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 16:28:47 -0000
+Message-Id: <172589932798.3605669.17164009445494676230@gitolite.kernel.org>
 
---===============8758213255309810188==
+--===============0885623403950064530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 52fc70a32573707f70d6b1b5c5fe85cc91457393
-    new: bfba7bc8b7c2c100b76edb3a646fdce256392129
-    log: revlist-52fc70a32573-bfba7bc8b7c2.txt
+  - ref: refs/heads/dev-queue
+    old: 7bb66c4760d45799164cd69d755e84dfb0232d18
+    new: b92ea26d087c2ff01ee74dcd90a2d99c7c216b7e
+    log: revlist-7bb66c4760d4-b92ea26d087c.txt
 
---===============8758213255309810188==
+--===============0885623403950064530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52fc70a32573-bfba7bc8b7c2.txt
+Content-Disposition: attachment; filename=revlist-7bb66c4760d4-b92ea26d087c.txt
 
 1ef7f50ccc6e8e2b5de96ad1e304684a277a3055 netfilter: ctnetlink: support CTA_FILTER for flush
 4a1d3acd6ea86075e77fcc1188c3fc372833ba73 netfilter: nft_counter: Use u64_stats_t for statistic.
@@ -90,5 +90,66 @@ b7172768abfd8aecdc6af05c60403af1664a4976 netfilter: nft_flow_offload: Unmask upp
 2c60fc9ca21636e4bbb30357562dc1abb577f5fb ipv4: udp_tunnel: Unmask upper DSCP bits in udp_tunnel_dst_lookup()
 8b6d13cc8b3855862af583fed83d60b1df6f9ba2 sctp: Unmask upper DSCP bits in sctp_v4_get_dst()
 bfba7bc8b7c2c100b76edb3a646fdce256392129 Merge branch 'unmask-dscp-part-four'
+8ae6a4b8660be58da1ad8431ebe4a7bda46c7518 ice: add new VSI type for subfunctions
+ac2b15acaed1954c6b98ab30f30afadd38fb1ed9 ice: export ice ndo_ops functions
+e6b8e8f664f9ec1c919a80dec27700174abf5e51 ice: add basic devlink subfunctions support
+bbdd93378a27a2e0203a7a923c3886cd3adc9025 ice: treat subfunction VSI the same as PF VSI
+9e1c79610fd177c4eaf08360f9f8ef797aff4293 ice: allocate devlink for subfunction
+99bdef71ced9d09ff2b3a066bb91155bc7e0135a ice: base subfunction aux driver
+b0a411b8139bc68c307e407e655edb9650867ef1 ice: implement netdev for subfunction
+42c8f63482e54922d5635427316e39ebd0e4afc5 ice: make representor code generic
+15933e5a859162e12e0bc956c9e4c0fad0839d63 ice: create port representor for SF
+da2b29b61222e2a9619cadc97b99c518f86aa6e2 ice: don't set target VSI for subfunction
+d3b00b7d86b44dc2aa0662c65d51ec6190223d77 ice: check if SF is ready in ethtool ops
+5204bc64eef4cd6ad57b49bf2539396cebf39985 ice: implement netdevice ops for SF representor
+dfb7bdc671bd031354c2bdeda5c58ffecd0e0053 ice: support subfunction devlink Tx topology
+da7c00d6d2dca703004d505464649bff87b1d094 ice: basic support for VLAN in subfunctions
+6545240b3cc827c1f2059c0baf608bb822259e54 ice: allow to activate and deactivate subfunction
+84cf1d06b16f87d591d6f222fd550f73491646fe ice: Fix lldp packets dropping after changing the number of channels
+7b7bfabf5d4556874b04d4b3547b55fe508417c0 ice: Implement ice_ptp_pin_desc
+cfce56bbc2542525551b84de5abfa83a39cbabba ice: Add SDPs support for E825C
+db110f05f0faf8940ddde60c40aec888b696b17a ice: Align E810T GPIO to other products
+bcd48679cdd9011e555e53d6c3ba0a510db49c4a ice: Cache perout/extts requests and check flags
+cbc046dedbd19d4192e73838fa8886d5773b780e ice: Disable shared pin on E810 on setfunc
+635fa73b7a0aa3efc5a39beceb725baee4676739 ice: Read SDP section from NVM for pin definitions
+8c14a983640541d0dc2d89b55fef9dba66379cae ice: Enable 1PPS out from CGU for E825C products
+09dd25ccc2245e799aa7a8d56e6df7e01bfeeb63 ice: fix accounting for filters shared by multiple VSIs
+6a0f0d67e5f72853901c78922464dfef107f4b96 ice: Flush FDB entries before reset
+a4c9c33d62b5667154609ad093509d3e745d098f ice: Implement ethtool reset support
+54e7bc5e972baf9cd8715fbacbc8ada06e6419c6 ice: set correct dst VSI in only LAN filters
+a9f1ae20840019220142d30ba85f901931980e3f igb: Always call igb_xdp_ring_update_tail() under Tx lock
+b98177d5d799847cf41e189bfefafc76954b7d5e ice: add E830 HW VF mailbox message limit support
+962a3a2ece67ea26f3286127cd576aede61fa5b5 ice: Introduce ice_get_phy_model() wrapper
+427fd3ab40eb84e390d249f38cb150279a99764c ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
+ef000467fe0d7980532f55e51966cfc463517920 ice: Initial support for E825C hardware in ice_adapter
+8654078978776579150c6557ba7f3760106c8ac9 ice: Use ice_adapter for PTP shared data instead of auxdev
+11fa5811c605cc75ee5a6489d0e8c9ed072cd3e6 ice: Drop auxbus use for PTP to finalize ice_adapter move
+7e1dd851088be71ef64593752931d734f4b4f2b6 checkpatch: don't complain on _Generic() use
+edcd22850caee200db913b3a5a70ca07241c99e7 devlink: add devlink_fmsg_put() macro
+f26e7855c40786b9bb8b720f591827712d934179 devlink: add devlink_fmsg_dump_skb() function
+64f8912418368b9ff0715bc92225ec652e344f38 ice: add Tx hang devlink health reporter
+420c1d9d9205faee3e3ae76b29e395ae591ff263 ice: dump ethtool stats and skb by Tx hang devlink health reporter
+77161bda47c2668f567e08f00ca022bb4ce1f2e9 ice: Add MDD logging via devlink health
+6ef4fc6859c01d3f0265262bcfde2bf1d86e53d4 ice: fix BST key index in ice_bst_key_init()
+a899d4046c8bd89ea3be6ce4168ffde72bff5b5e idpf: fix VF dynamic interrupt ctl register initialization
+2e1328aeea169daa2898672d805e4aa2589bfaa6 ice: stop calling pci_disable_device() as we use pcim
+b9452aa1dae6d7f521df53c87a0e984f4d12bd52 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+245d5123fbcde469f1ef1c480f296c137ab752c4 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+916ef1879d1d147390376c37705cb983f539c999 ice: Make use of assign_bit() API
+0cec161ae571a94cace3250f7cdd03cf24898ff3 ice: fix VSI lists confusion when adding VLANs
+3adbbd6c69ed12759fcec7af0a3f979c07e1e67f idpf: use actual mbx receive payload length
+8358c6f6576b582621f2322354c0ad3ca94c6554 idpf: deinit virtchnl transaction manager after vport and vectors
+a65b33bcf157e0861ae502d4b96e1f1d7408baa4 ice: fix memleak in ice_init_tx_topology()
+59f4cc0f2ef1f742ad84ea1923ef7b20de2852d5 iavf: allow changing VLAN state without calling PF
+00fb9356a65e98ddf97f012aab483c5e2c4fe9c0 iavf: Remove unused declarations
+af03246ad29a69361228e981a7978f40139abeb8 igb: Cleanup unused declarations
+240473c8b64f9f6d555ba05a704f46321c8bc130 ice: Cleanup unused declarations
+2c98d7985e6594f81eba50e37321e34b1d345389 ice: make ice_cfg_tx_topo() almost const-correct
+fbdc485a1c3806e22d7141229d09bd4066736b38 libeth: add Tx buffer completion helpers
+37bb4ccea5de148a0679e933dd5e499d56a6731e idpf: convert to libeth Tx buffer completion
+e503e4fa649cf44eb2167d9665e3f021f90edf2c netdevice: add netdev_tx_reset_subqueue() shorthand
+00175d1cafeacf763e0378640449061fc7d20509 idpf: refactor Tx completion routines
+a187b04179dfe6ab0f725e00e9f3a3c02c480608 idpf: fix netdev Tx queue stop/wake
+b92ea26d087c2ff01ee74dcd90a2d99c7c216b7e idpf: enable WB_ON_ITR
 
---===============8758213255309810188==--
+--===============0885623403950064530==--
