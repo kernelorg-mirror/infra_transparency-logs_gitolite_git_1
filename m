@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 09 Sep 2024 08:59:08 -0000
-Message-Id: <172587234857.3219349.7674379684400755448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 09 Sep 2024 09:09:31 -0000
+Message-Id: <172587297199.3227435.6048401369653050233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/tags/edac_updates_for_v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 466d4b70e753850a912cb618640f39cc7b72a69b
+  - ref: refs/heads/master
+    old: 39467578207889fd015775cbe81a3db9dd26abea
+    new: e8575b6196ab8d457342c2d332bd402f2bedd9f7
+    log: |
+         60257ab82801c5df552772061448fdcdecde95ba build: Update library version
+         e8575b6196ab8d457342c2d332bd402f2bedd9f7 Release 5.78
+         
