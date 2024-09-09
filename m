@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 09 Sep 2024 18:36:49 -0000
-Message-Id: <172590700992.3721350.11662203264343005048@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 18:37:09 -0000
+Message-Id: <172590702918.3721657.5071797083385501421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: fedf7d466d3d67bfc79d44079da9055bbdb0faff
+  - ref: refs/heads/for-next
+    old: cf2840f59119f41de3d9641a8b18a5da1b2cf6bf
     new: 227f51743b61fe3f6fc481f0fb8086bf8c49b8c9
     log: |
          34efda1735a179cd233479a99f09728825748ea1 RDMA/mlx5: Enable ATS when allocating kernel MRs
