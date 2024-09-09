@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0656800981448186195=="
+Content-Type: multipart/mixed; boundary="===============3486616915175336645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 09 Sep 2024 06:41:11 -0000
-Message-Id: <172586407113.3108790.3027225135200459736@gitolite.kernel.org>
+Date: Mon, 09 Sep 2024 06:41:16 -0000
+Message-Id: <172586407661.3108946.7079351816830668593@gitolite.kernel.org>
 
---===============0656800981448186195==
+--===============3486616915175336645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 87eb3cb4ec619299cd5572e1d5eb68aef4074ac2
-    new: da3ea35007d0af457a0afc87e84fddaebc4e0b63
-    log: revlist-87eb3cb4ec61-da3ea35007d0.txt
+  - ref: refs/heads/usb-next
+    old: 9c0c11bb87b09a8b7cdc21ca1090e7b36abe9d09
+    new: f299cd11f7539482e87b2d2d527968a26b33f0ec
+    log: revlist-9c0c11bb87b0-f299cd11f753.txt
 
---===============0656800981448186195==
+--===============3486616915175336645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725864091 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725864096 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1725864069-41fb8ae3817dbe67997d521141d986c2bb451459
+nonce 1725864074-0d24f1455d72ae3f260ee82e3105a0c37139390a
 
-87eb3cb4ec619299cd5572e1d5eb68aef4074ac2 da3ea35007d0af457a0afc87e84fddaebc4e0b63 refs/heads/usb-linus
+9c0c11bb87b09a8b7cdc21ca1090e7b36abe9d09 f299cd11f7539482e87b2d2d527968a26b33f0ec refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbemJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+df0P/1jrWL9xxcDgxbaleLJ4
-/w8Erwnmje/TlcC2BumuNFI4JsLwGRPMm3jn5B+VrmnoNSyuodbuELhbpBz4Nvdd
-4GegFCS/8yf0XuyLi3/HuyGKxdVn2QkVQ0UGzsQDgF4117Q42idDsXo/GQtU6aRD
-/V6fJsCWNCh8kRaAlf706SRKchD0cMPsubJW7dppC53c7jOrdgdkKMMHQDj4bXQo
-vLoyaKANT1PjOUTTA6STc3kiCz8ceka5Zjbc+aPJEpIrUu+hEwnvxyN+eYB4UVo7
-rjHICz3GbCuDJ8Q9KnKpH4ZMySjVqWbZxausmDmmC7tjLzZgKh0ESxYW+wFPxSzd
-VGyOvsPYLIP2qydpeFcc/zqml0EguV2rL8iBpb/R6Pnukcz8NMYuVIrq1N1Q2irm
-Z449RbSjpmPmzFX9nN3qVxwC254Jt/9Kr9aMqR/G9Qfn7AJT5CK1n/K3Lk9hcl23
-KcCZIscIIwMEhV5wfJKuj0ck8IobzAZBA191Hf0sRiBJL2dGikBN2Tm5QXr4o6gU
-tqae1x2l1PCOxG3Jlm1izfWKorrMdFWLb7SyxVdXBK8s/26vF0LTPLkAdqq35c1A
-yGA8fdjknkjBHzZUFRNKQ0jWZE0ltCA/5P70e8gaBHeRUGWNZkh1sQJaQR+Ecvoa
-207rkMMf/7J9n8NGRCZOBosz
-=djqw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbemKAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZkcP/2LjBOxUxl5/fpAr5J3D
+wxLEAkXVDTZOKH6DXExJeuYlXIAPQTrN/TXVRjsE2go8MBPgBikNbqJI7P3zO7/s
+wsTY6Dk9/gM5FSi7HhfVPOHPZnORcj31ff2cgEjhguCnx4nUeM1bD4zROrnSdaVG
+OMwpbyqyzNVYRpbZnFnXJ9AJy674IcwsPppvgC825bkqQabX+aVg7ZFCYZ3iUuNj
+SiDj6ullvZ6WfxT9nKDbE7qpRjI4k9ZzRcgpKhUQRvpfSpYjdOJOCOOOawKtma/a
+M/ApBRgKR5U3z7ME1PLXrzkQTW3HcpZFsnaaRETvOKVIB8HHSAq2ry6beuVfW62M
+fqkA1oXYB9TV/NbWtWW0cqkwG2U49DSIW3o9gOomWENtLVG9r0x8AOmrYu0sRqNa
+1byNhsOooPCL9DtUxeyt7Z0pbQhwKpQWjiYeMljY88tXzeebm58Z/swG47DrdKgf
+H0HYd20FFR4qAOGlu5zOE031ze2oMLtB0WoJegubaocCQa0Bu2s9bzGv0C9OPF7w
+i+zXHJD6iI6aKXf2s3YBcEWWL9TMpnCbF6PLmj3vnpvbv5LGf6jJyL3UuxqqP9R8
+dXcEoHkHR5cYCOr3uiblEEPHJGlyf27eOx1wbxGnSPGqjPI9NRxhxNO8bFi2SK2r
+NTTGzkTohSbX4O5wUQMDxLpk
+=JsPk
 -----END PGP SIGNATURE-----
 
---===============0656800981448186195==
+--===============3486616915175336645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87eb3cb4ec61-da3ea35007d0.txt
+Content-Disposition: attachment; filename=revlist-9c0c11bb87b0-f299cd11f753.txt
 
 b48aa991758999d4e8f9296c5bbe388f293ef465 staging: iio: frequency: ad9834: Validate frequency parameter value
 90826e08468ba7fb35d8b39645b22d9e80004afe iio: adc: ad7606: remove frstdata check for serial mode
@@ -260,6 +260,10 @@ b1934cd6069538db2255dc94ba573771ecf3b560 btrfs: zoned: handle broken write point
 5517ae241919e0208b077c910b0a369b9dce3c11 Merge tag 'for-net-2024-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 43cf50eb1408ccb99cab01521263e8cb4cfdc023 drm/i915/display: Add mechanism to use sink model when applying quirk
 a13494de53258d8cf82ed3bcd69176bbf7f2640e drm/i915/display: Increase Fast Wake Sync length as a quirk
+00dcf2fa449f23a263343d7fe051741bdde65d0b usb: dwc3: Avoid waking up gadget during startxfer
+9149c9b0c7e046273141e41eebd8a517416144ac usb: dwc3: core: update LC timer as per USB Spec V3.2
+e2940928115e83d707b21bf00b0db7d6c15f8341 usb: cdns2: Fix controller reset issue
+de3d7969f6a80aa5abbbc0f39897495ae35548d0 usb: typec: ucsi: Fix the partner PD revision
 466cb3c630a51b04995c6247d2fb73b5ce7bfd7f drm/display: stop depending on DRM_DISPLAY_HELPER
 9da7ec9b19d8c1ad4f44e459fa5f93ad7a117dcd drm/bridge-connector: move to DRM_DISPLAY_HELPER module
 9a71cf8b6fa433a8f243626ba9930a3870584e38 drm/bridge-connector: reset the HDMI connector state
@@ -307,6 +311,7 @@ d8c40b9d3a6cef61eb5a0c58c34a3090ea938d89 ice: check ICE_VSI_DOWN under rtnl_lock
 e88b9ed3e03a6471bee131f201f6f2f87383e898 Merge tag 'ath-current-20240903' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 28982ad73d6a9605708631dc49a0c763cc398aa2 nvme: set BLK_FEAT_ZONED for ZNS multipath disks
 899d2e5a4e3d36689e8938e152f4b69a4bcc6b4d nvmet: Identify-Active Namespace ID List command should reject invalid nsid
+87eb3cb4ec619299cd5572e1d5eb68aef4074ac2 usb: typec: ucsi: Fix cable registration
 cd9253c23aedd61eb5ff11f37a36247cd46faf86 btrfs: fix race between direct IO write and fsync when using same fd
 5872b47ce18efad5862b74ad334cbdfffa7f8a0c MAINTAINERS: wifi: cw1200: add net-cw1200.h
 bab8eb0dd4cb995caa4a0529d5655531c2ec5e8e usbnet: modern method to get random MAC
@@ -416,5 +421,6 @@ d1f2d51b711a3b7f1ae1b46701c769c1d580fa7f Merge tag 'clk-fixes-for-linus' of git:
 e20398877b6216023ac311053baf2f50965cbf27 Merge tag 'perf_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 89f5e14d05b4852db5ecdf222dc6a13edc633658 Merge tag 'timers_urgent_for_v6.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 da3ea35007d0af457a0afc87e84fddaebc4e0b63 Linux 6.11-rc7
+f299cd11f7539482e87b2d2d527968a26b33f0ec Merge 6.11-rc7 into usb-next
 
---===============0656800981448186195==--
+--===============3486616915175336645==--
