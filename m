@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Sep 2024 14:59:16 -0000
-Message-Id: <172589395638.3522399.4132361343482337908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 09 Sep 2024 15:02:36 -0000
+Message-Id: <172589415623.3525773.15056716963282348534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/ath-next-20240909
+  - ref: refs/tags/x86_bugs_for_v6.12_rc1
     old: 0000000000000000000000000000000000000000
-    new: 051e58dbb682f5986779f73dcea66356df9afc4f
+    new: 1436695e1c32929d88e9aef8f7505e9935199bb4
