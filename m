@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 10 Sep 2024 17:02:39 -0000
-Message-Id: <172598775994.630445.9459155096590752510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Sep 2024 17:07:37 -0000
+Message-Id: <172598805768.634557.3007460020530151561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/filebArZkI
-    old: 0000000000000000000000000000000000000000
-    new: afe671ac3e9309e55d556d066250bd37d9c47d1a
+  - ref: refs/heads/tmp.perf-tools-next
+    old: fa9596c41e8f1a1c105cc2491373237accfc037c
+    new: 5cc76c89d567afe6fdb24ec2ec508f981befb29c
+    log: |
+         5cc76c89d567afe6fdb24ec2ec508f981befb29c perf trace: If a syscall arg is marked as 'const', assume it is coming _from_ userspace
+         
