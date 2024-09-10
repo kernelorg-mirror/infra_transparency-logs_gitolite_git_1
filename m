@@ -1,50 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0215621026694488733=="
+Content-Type: multipart/mixed; boundary="===============3988763151336833269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 10 Sep 2024 09:34:09 -0000
-Message-Id: <172596084940.260998.6289171168316890273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 10 Sep 2024 09:38:05 -0000
+Message-Id: <172596108565.264583.11318166633663669024@gitolite.kernel.org>
 
---===============0215621026694488733==
+--===============3988763151336833269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/slab/for-6.12/rcu_barriers
-    old: 2a51e14ca2cc0666aaa68575b972ba62ba382ab0
-    new: 9028cdeb38e1f37d63cb3154799dd259b67e879e
-    log: |
-         9028cdeb38e1f37d63cb3154799dd259b67e879e memcg: add charging of already allocated slab objects
-         
+  - ref: refs/heads/kbuild
+    old: 176e1be64cc138e889543518a7d7cda1e7acbb5a
+    new: c589902e95d40b3ed4c50960a4e860b848702491
+    log: revlist-176e1be64cc1-c589902e95d4.txt
 
---===============0215621026694488733==
+--===============3988763151336833269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-176e1be64cc1-c589902e95d4.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1725960863 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1725960841-fadbcfd9d708c3327e0fc4247e54c5746916da32
+16ff3f606c7e639d815ede92c258b63484242783 scripts: import more hash table macros
+8a62d44588451095fd6645d6ed7ff8761edf62aa scripts: subarch.include: fix SUBARCH on macOS hosts
+23d93aa4b3b90b6e3dc8e6b6bb36580c1068bc07 kbuild: add mod(name,file)_flags to assembler flags for module objects
+04b15cdd611a1de7063a1e31941a57339144b2b8 kbuild: generate offset range data for builtin modules
+58ec42f7788cf0a90610316a7cbcba4933678ec5 scripts: add verifier script for builtin module range data
+00ea95d829916f220c9eacc22b0bdb3ad909dd95 kbuild: add install target for modules.builtin.ranges
+2669ebd23177e8af9036b6df1f30a1dd361a75c8 kallsyms: squash output_address()
+40ea58d302ad436dc5f97b71022b32ed2dcd161e kallsyms: change overflow variable to bool type
+f5446a662d7809801cc7967d23bcd91733512573 scripts: move hash function from scripts/kconfig/ to scripts/include/
+01407111d02a52acc595e722d14c4f645adc17ff kconfig: change some expr_*() functions to bool
+66268a8faed4a7abbf2e41d4d35fe1abfe68a89a kconfig: add comments to expression transformations
+793c1c013be89ed313bf74c736f4261b468f3b8b kconfig: refactor expr_eliminate_dups()
+001bd6f2b55d46330491c81b05985f907757bb25 kconfig: use hash table to reuse expressions
+ab5cc974fdad05fdd356d64ce67a421a6151fd7d kconfig: cache expression values
+c589902e95d40b3ed4c50960a4e860b848702491 kbuild: remove append operation on cmd_ld_ko_o
 
-2a51e14ca2cc0666aaa68575b972ba62ba382ab0 9028cdeb38e1f37d63cb3154799dd259b67e879e refs/heads/slab/for-6.12/rcu_barriers
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbgEp8ACgkQu+CwddJF
-iJo6Lwf/YnTBJ0ooQSrcPt1AwWjct4LY2/vnEUiOEGo6ZAqq5D+bzy/TETCprI0Z
-PFNJH5ht1UtLV7KMI62ZHP7srM2wYXz4uWjwg8zux9fXyDwBbffmQFrWCi8S2goa
-ODY0oL0MjsppSt1PHAg3S3Fo8rzdfSGdDwQnn5QiI1S9Vb7TOZ7SeDXope+NWNlh
-0qa9rRv7JgPJ9BpWpTTIiAt2i5v1Wd8qoQGrYfnKcZJbQwg/PDzvIwMIonVhixXJ
-APITjW94RJLd9idLmonwFM5Q/rr+kwFQdbv2ISUaEAApFuSpvZ8SbyWIY2tkzw8f
-29ccK0/sQn7y2wOWUkf5+ymeBykD8Q==
-=2+Mv
------END PGP SIGNATURE-----
-
---===============0215621026694488733==--
+--===============3988763151336833269==--
