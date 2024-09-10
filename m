@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0680336328771186686=="
+Content-Type: multipart/mixed; boundary="===============5993886734257249070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 10 Sep 2024 09:02:33 -0000
-Message-Id: <172595895310.231838.3992618301702879509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Sep 2024 09:02:55 -0000
+Message-Id: <172595897503.232204.4923097321916594544@gitolite.kernel.org>
 
---===============0680336328771186686==
+--===============5993886734257249070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: fe35d49e07f40e500ea6b8ff01a5c2d4e8fcbfd5
-    new: c7e08c816cd2fdf8b86f2762f4667ca0f748c286
+  - ref: refs/heads/master
+    old: 732d90d627d21c8113c8a41d8b2a3f1a96392bfa
+    new: 26c804dafab1ad32a0f3558050a5b98624889d1a
     log: |
-         c7e08c816cd2fdf8b86f2762f4667ca0f748c286 i2c: keba: Add KEBA I2C controller support
+         26c804dafab1ad32a0f3558050a5b98624889d1a 6.1-stable patches
          
 
---===============0680336328771186686==
+--===============5993886734257249070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1725958974 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725958950-b76578da6ca4223ba6b0f36a7b744c38b5d722b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725958996 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725958973-bad19e5fc45cbb353fe05174de83479df5e0131a
 
-fe35d49e07f40e500ea6b8ff01a5c2d4e8fcbfd5 c7e08c816cd2fdf8b86f2762f4667ca0f748c286 refs/heads/i2c/i2c-host
+732d90d627d21c8113c8a41d8b2a3f1a96392bfa 26c804dafab1ad32a0f3558050a5b98624889d1a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuALPhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uUhkBAKTmBsiHbJMSE/r9QFyWCInfDb8w
-1KVEl7FUOP7+6QCyAQCHEacaKCq9fjJojcYVM1Tac2p9/uu4bmKqyceIgwEsAg==
-=L5wf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbgC1QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bm8QAI7r82Gnfqt83e132y5i
+xb4qfc6+If9P+TEKw11WgeRUUI1fyuk0LyjUM995H63AcWMw8ZIrhP3ZgXHJJa4A
+cPRndzmsRBy9RQWH4hP5J9vKhVz5cKEGuaqLWdMJdbsrngof4tbZM0pujo7h/bU6
+TNXcQETGfGtXdvtfiFISTfA70+LAEgh6trRBEuc7o0kJqWmCUjmHS+HF89NxOJSx
+jXcJIp+MHC0KfKn/obdG1uBFDbL/3NHw8QEZI76QscpI0HP7Og/8ZSbWEnAxvAM3
+lIhBJYgdWYYaj3UiAASfy9vTcDyJC7YVajHZ+cMU20nZyG3nB7TQxqi2dlHF5HKO
+D42pa7vYmMWYhgpJIE3e5P1Wu9evJfu4QebA8VwUyzoX7uIbzYG7KGAztqH3uNQx
+d/bLxrq4XvC3/ZAY3N7wLW0K1fn+noDrHz0A4cj6jlwWpgdYdyYo7NlKdUcz01ip
+YP7uUI04BSiWFggZgwJ/eAkMm6DqGIirrMSmxzkhR0j1PLPhE9XJmzcjfzBJP/6X
+Eza4trezJ8pTuvT2uuHojzX6p61haj1xsBEHy/6a7NIlSzIYKJ4/H0fgq7WlfsLj
+VA/One1NDrRg8Vk1X8tq/kA1Hk8Xua5bDxIJ73B11FQcPAsDdiT2cxCGfi8Ih7+t
+bq3iPlHQfW3F2PTa38eF2n2B
+=QAIU
 -----END PGP SIGNATURE-----
 
---===============0680336328771186686==--
+--===============5993886734257249070==--
