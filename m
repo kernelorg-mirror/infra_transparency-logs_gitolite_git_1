@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9030639767396854322=="
+Content-Type: multipart/mixed; boundary="===============6851469608257856711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 10 Sep 2024 09:42:51 -0000
-Message-Id: <172596137172.269270.6273223152006617603@gitolite.kernel.org>
+Date: Tue, 10 Sep 2024 09:44:54 -0000
+Message-Id: <172596149424.270989.2738772008044301129@gitolite.kernel.org>
 
---===============9030639767396854322==
+--===============6851469608257856711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.12/kmem_cache_args
-    old: 8f88d16ae7c45ff68c8786f30df1c9fa1b62104e
-    new: a6711d1cd4e291f334ae900065e18f585732acfa
-    log: revlist-8f88d16ae7c4-a6711d1cd4e2.txt
+  - ref: refs/heads/slab/for-next
+    old: 66dcd51a4503376c6d6071bf66931acdd6df2378
+    new: b5f07550be43f5968f7c8d39fdb4a62dd3fb7ee6
+    log: revlist-66dcd51a4503-b5f07550be43.txt
 
---===============9030639767396854322==
+--===============6851469608257856711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1725961389 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1725961512 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1725961366-2072e30934b686a05137a23cf060a558d85e098c
+nonce 1725961489-dbab2cb8c7f620d64fa9df86a374766c6b909330
 
-8f88d16ae7c45ff68c8786f30df1c9fa1b62104e a6711d1cd4e291f334ae900065e18f585732acfa refs/heads/slab/for-6.12/kmem_cache_args
+66dcd51a4503376c6d6071bf66931acdd6df2378 b5f07550be43f5968f7c8d39fdb4a62dd3fb7ee6 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbgFK0ACgkQu+CwddJF
-iJrLpQgAoVHIqPx/8v9jLjpGW5yOeB1WBlD3x1GPUmMkdM229movrD8ORP6d7c6O
-AvjBzJAB+59p3R4hSWnS/zUAo6YQzkFS74rBYGgfvymQr+CPYZY09gSAozzB06eV
-9v23xtCmTMfzvStEoVNErlOwsCeNGFZy+EhgxZF2ZVIN8y8pcRCwpGg1hnQbRiQP
-OpfHZ5MDpYBQFYGY3Zky9L+Hzpsa9VJ63S6vZEhj6oSSq4h5Qtxy2YO14H6BLM3F
-Huht6mNF/pza/JO+MQxVcQLmS0YRJgslTNlMaQCxv6WtqvtjMLi01SYa4okOp8qu
-BMHc7mZ3c+mpaqYStEj/GIdXvjxtHg==
-=drp8
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmbgFSgACgkQu+CwddJF
+iJoW1wgApLleISzOwWU1ITaos9iISEgy9P5ZOLcsDUgbo1X2rpFhT+Py17xPRN+3
+PHLgDZUUTV/4Y+6ATVptWZ/Xuh5XlNtFVH8v9ifIRHvHSVx5hUTLHSw/GjicwK2d
+2bforOlhL0nZ95WMnuSTddcIGwzuBC5T2nTiuHtZ7anNZ6xDrEe77QW1ez4s1qfE
+Z1CjOeA5pdgCKFcuhh+nPuGc0hUMvSe2nOO3jv8q21088oNvyPstgY0vEgec3H7A
+L8s88TiSwNWLIFVHpZ8l4QgK8fxj96Mglof9vAy7axiPs8ZzkzEk54x7DAQDbkJN
+IbbvNDJCtAg50QTrlN87C0aWWx64Dg==
+=NvXz
 -----END PGP SIGNATURE-----
 
---===============9030639767396854322==
+--===============6851469608257856711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f88d16ae7c4-a6711d1cd4e2.txt
+Content-Disposition: attachment; filename=revlist-66dcd51a4503-b5f07550be43.txt
 
+9028cdeb38e1f37d63cb3154799dd259b67e879e memcg: add charging of already allocated slab objects
 e16f4f70987bce1f6a61609145d075c3926179d2 Merge branch 'vfs.file' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs into slab/for-6.12/kmem_cache_args
 53d3d210864e532ee5d8ae48f66168c12dd8f530 slab: s/__kmem_cache_create/do_kmem_cache_create/g
 879fb3c274c12cb0892718e1e54f85fc406e3c7b slab: add struct kmem_cache_args
@@ -69,5 +70,7 @@ b2e7456b5c25c41eda7a8a15f7ccaa4e7579949f slab: create kmem_cache_create() compat
 0c9050b09cfb1ddb3fe4b2d401dca1fb674c825a slab: make kmem_cache_create_usercopy() static inline
 781aee755638dbb6dbfe022bdd2f732621ec9534 slab: make __kmem_cache_create() static inline
 a6711d1cd4e291f334ae900065e18f585732acfa io_uring: port to struct kmem_cache_args
+f229954f360a9c19d126e5e7ec6da991216240f2 Merge branch 'slab/for-6.12/rcu_barriers' into slab/for-next
+b5f07550be43f5968f7c8d39fdb4a62dd3fb7ee6 Merge branch 'slab/for-6.12/kmem_cache_args' into slab/for-next
 
---===============9030639767396854322==--
+--===============6851469608257856711==--
