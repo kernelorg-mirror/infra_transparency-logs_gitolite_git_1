@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1401952643302518820=="
+Content-Type: multipart/mixed; boundary="===============7049411775454843088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 10 Sep 2024 16:30:13 -0000
-Message-Id: <172598581379.603234.14604093844535309079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Sep 2024 16:33:32 -0000
+Message-Id: <172598601249.604892.2671410606050243344@gitolite.kernel.org>
 
---===============1401952643302518820==
+--===============7049411775454843088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: fa9596c41e8f1a1c105cc2491373237accfc037c
     log: revlist-0d83b7a135b7-fa9596c41e8f.txt
 
---===============1401952643302518820==
+--===============7049411775454843088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ db10009056cd37d49f0eeadd868f651673f12da8 perf inject: Fix build ID injection
 e28c84833083b8d3d672bd6ef642632e41d43bb5 perf callchain: Allow symbols to be optional when resolving a callchain
 fa9596c41e8f1a1c105cc2491373237accfc037c perf parse-events: Remove duplicated include in parse-events.c
 
---===============1401952643302518820==--
+--===============7049411775454843088==--
