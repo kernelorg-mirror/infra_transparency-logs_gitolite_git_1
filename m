@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 10 Sep 2024 16:13:19 -0000
-Message-Id: <172598479979.587212.13739498117719659318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 10 Sep 2024 16:14:40 -0000
+Message-Id: <172598488012.588170.4971931317420196623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/kdevops
-    old: 9b1c8ae6c752ef7e00b5d64a707468ac09b29072
-    new: ffe9d5a92cc690238cedd7ee7d67869875fb5e7e
+  - ref: refs/heads/master
+    old: d251605818001904bbdc841b5b0c57aa88c14e51
+    new: fd8c0f820825964dc525a99b9096048f829a1e8a
     log: |
-         a833754dba0fcc8984e8e86042a8877be70187d9 timekeeping: move ctime_floor handling into timekeeper
-         933b02a87ec6600fe10342c22d8c3fb79b6637d5 timekeeping: don't use seqcount loop in ktime_mono_to_any on 64-bit arch
-         ffe9d5a92cc690238cedd7ee7d67869875fb5e7e timekeeping: don't use seqcount loop in ktime_mono_to_any on 64-bit systems
+         fd8c0f820825964dc525a99b9096048f829a1e8a Bluetooth: hci_sync: Ignore errors from HCI_OP_REMOTE_NAME_REQ_CANCEL
          
