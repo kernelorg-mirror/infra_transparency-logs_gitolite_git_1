@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 10 Sep 2024 20:13:15 -0000
-Message-Id: <172599919514.783273.14460422464332397519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 10 Sep 2024 20:22:39 -0000
+Message-Id: <172599975901.790927.7482833549029834257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kdevops
-    old: 96fda56332d829545d5433832bd94bfedd9234ad
-    new: 75d0622b7775d63de343891c1e846503c83cc291
+  - ref: refs/heads/dev-queue
+    old: 3a5b980cbfda151eac5d74ad95999840b174d757
+    new: 27e52d4715bb4796e6efcf699227f654a35a54ab
     log: |
-         ba66dfd321e965158cbabd2296255f3b420509e8 timekeeper: add new helper for getting file timestamps with floor
-         75d0622b7775d63de343891c1e846503c83cc291 timekeeping: move multigrain ctime floor handling into timekeeper
+         27e52d4715bb4796e6efcf699227f654a35a54ab iavf: allow changing VLAN state without calling PF
          
