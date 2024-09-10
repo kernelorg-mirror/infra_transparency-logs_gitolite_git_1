@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 10 Sep 2024 07:21:56 -0000
-Message-Id: <172595291620.136837.6552606790786614017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 10 Sep 2024 07:23:25 -0000
+Message-Id: <172595300516.137731.13709661151267568546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: 6ed84689cbdabf04af95aba49a84eed8bb2c7b30
-    new: 4520e4440952c8a348d1f62b48d11d88adfe7ac2
+  - ref: refs/heads/dev-test
+    old: 32df7999af4988989c510e5a5e8fd9c2d4a52f5b
+    new: ae8358bbf55f2a8a292fd063e68004b7eb22ee83
     log: |
-         39dacbeeee703d29140aca7bc2826d4b1936ecb6 KVM: arm64: Add memory length checks and remove inline in do_ffa_mem_xfer
-         4520e4440952c8a348d1f62b48d11d88adfe7ac2 Merge branch kvm-arm64/mmu-misc-6.12 into kvmarm-master/next
+         4c3d4bc36c0cf65450ed07858e39c1fd7abf0e1d erofs: handle overlapped pclusters out of crafted images properly
+         87ff96a4ffe006aa659def2a43fccedb7638ccd8 erofs: simplify erofs_map_blocks_flatmode()
+         b2addde9e066f162876304652aacca70fc284294 erofs: sunset unneeded NOFAILs
+         ae8358bbf55f2a8a292fd063e68004b7eb22ee83 erofs: allocate more short-lived pages from reserved pool first
          
