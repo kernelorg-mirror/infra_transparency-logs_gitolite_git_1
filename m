@@ -1,16 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 10 Sep 2024 08:25:08 -0000
-Message-Id: <172595670857.199002.5497627968309106363@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8915015011331296624=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 10 Sep 2024 08:35:46 -0000
+Message-Id: <172595734622.207549.14036470204372931135@gitolite.kernel.org>
+
+--===============8915015011331296624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/intel-pinctrl-v6.12-1
-    old: 0000000000000000000000000000000000000000
-    new: 5318ed4b1e4f0a6e554a872425182bdbfbbef403
+  - ref: refs/heads/for-next
+    old: 28fbfaf6bd1df94cccf1a5c009fe26b9bdccc2b6
+    new: 7e4d4b32ab9532bd1babcd5d0763d727ebb04be0
+    log: revlist-28fbfaf6bd1d-7e4d4b32ab95.txt
+  - ref: refs/heads/master
+    old: 9c277a71e59a333f8b3cc632c6f4001e786a7631
+    new: 5001a4ceb47b408f507e753e84475f41fbb77228
+    log: |
+         5516e3f4763e3604b789b3567dafe4388eec4a8f Merge branch 'for-linus' into for-next
+         fc09ea51ddc01119d7cbb3ff56d51af2de6f71d8 ALSA: hda/realtek: Enable mic on Vaio VJFH52
+         7e4d4b32ab9532bd1babcd5d0763d727ebb04be0 ALSA: hda/realtek: Refactor and simplify Samsung Galaxy Book init
+         5001a4ceb47b408f507e753e84475f41fbb77228 Merge branch 'for-next'
+         
+
+--===============8915015011331296624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-28fbfaf6bd1d-7e4d4b32ab95.txt
+
+0cc65482f5b03ac2b1c240bc34665e43ea2d71bb ASoC: Intel: Boards: Fix NULL pointer deref in BYT/CHT boards harder
+839a4ec06f75cec8fec2cc5fc14e921d0c3f7369 ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+b4a90b543d9f62d3ac34ec1ab97fc5334b048565 ASoC: dapm: Fix UAF for snd_soc_pcm_runtime object
+6781b962d97bc52715a8db8cc17278cc3c23ebe8 ASoC: tegra: Fix CBB error during probe()
+ae61a3391088d29aa8605c9f2db84295ab993a49 ASoC: intel: fix module autoloading
+8e1bb4a41aa78d6105e59186af3dcd545fc66e70 ASoC: google: fix module autoloading
+934b44589da9aa300201a00fe139c5c54f421563 ASoC: tda7419: fix module autoloading
+6ba20539ac6b12ea757b3bfe11adf8de1672d7b8 ASoC: fix module autoloading
+22652022c7eef3c4ad6ab5f13a6dfc7f25f853d4 ASoC: SOF: ipc: replace "enum sof_comp_type" field with "uint32_t"
+1165e70a4a5d8b4da77002ac22b4c5397f30e00d ASoC: fix module autoloading
+e0be875c5bf03a9676a6bfed9e0f1766922a7dbd ASoc: SOF: topology: Clear SOF link platform name upon unload
+5325b96769a5b282e330023e1d0881018e89e266 ASoC: mediatek: mt8188-mt6359: Modify key
+283844c35529300c8e10f7a263e35e3c5d3580ac ASoC: amd: yc: Add a quirk for MSI Bravo 17 (D7VEK)
+3e83957e8dd7433a69116780d9bad217b00913ea ASoC: sunxi: sun4i-i2s: fix LRCLK polarity in i2s mode
+77212f300bfd6fb3edaabd1daf863cabb521854a ASoC: codecs: lpass-va-macro: set the default codec version for sm8250
+b474f60f6a0c90f560190ac2cc6f20805f35d2c1 ALSA: hda/realtek: Enable Mute Led for HP Victus 15-fb1xxx
+47a9e8dbb8d4713a9aac7cc6ce3c82dcc94217d8 ALSA: hda/realtek: Support mute LED on HP Laptop 14-dq2xxx
+a83e4c97ddd7473406ec5e1df8d5e7b24bd7e892 ALSA: hda/realtek - Fix inactive headset mic jack for ASUS Vivobook 15 X1504VAP
+c491b044cf5f8236742887ba59b30032036e4ac8 Merge tag 'asoc-fix-v6.11-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+5516e3f4763e3604b789b3567dafe4388eec4a8f Merge branch 'for-linus' into for-next
+fc09ea51ddc01119d7cbb3ff56d51af2de6f71d8 ALSA: hda/realtek: Enable mic on Vaio VJFH52
+7e4d4b32ab9532bd1babcd5d0763d727ebb04be0 ALSA: hda/realtek: Refactor and simplify Samsung Galaxy Book init
+
+--===============8915015011331296624==--
