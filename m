@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3418293255801392414=="
+Content-Type: multipart/mixed; boundary="===============1401952643302518820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 10 Sep 2024 16:27:04 -0000
-Message-Id: <172598562453.599672.16117641227739773201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 10 Sep 2024 16:30:13 -0000
+Message-Id: <172598581379.603234.14604093844535309079@gitolite.kernel.org>
 
---===============3418293255801392414==
+--===============1401952643302518820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 43457ada98c824f310adb7bd96bd5f2fcd9a3279
-    new: 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b
-    log: |
-         c7e08c816cd2fdf8b86f2762f4667ca0f748c286 i2c: keba: Add KEBA I2C controller support
-         18024d60679a5ec34600ccd37cc1bf1f66f0eb6b i2c: ljca: Remove unused "target_addr" parameter
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0d83b7a135b7fd4636f9e88d48c841e9cfbcce00
+    new: fa9596c41e8f1a1c105cc2491373237accfc037c
+    log: revlist-0d83b7a135b7-fa9596c41e8f.txt
 
---===============3418293255801392414==
+--===============1401952643302518820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0d83b7a135b7-fa9596c41e8f.txt
 
-certificate version 0.1
-pusher andi.shyti@kernel.org 1725985645 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1725985623-828d65200111d30ac3a66343e00edd4ea783806c
+d92f490cba69fbab495ac21eefff01130be3ec31 perf trace: Mark bpf's attr as from_user
+7f403067288f05335f7d8b8283ae1dac6cb1ab31 perf trace: Add trace__bpf_sys_enter_beauty_map() to prepare for fetching data in BPF
+cb32035214b9a09df29680a6a4da64d34579bb8f perf trace: Pretty print struct data
+b257fac12f38d7f503b932313d704cee21092350 perf trace: Pretty print buffer data
+a68fd6a6cdd309bb51c72df4a39f49aa408728d0 perf trace: Collect augmented data using BPF
+3278024540e882b21e915afb507522e8e01ca160 perf trace: Add --force-btf for debugging
+62701b10a21b1204c931fa0d8205e300cd3b02bc perf trace: Support collecting 'union's with the BPF augmenter
+dabc4fa9c97846b2b0ca663092efd3f898f249fc perf trace: Mark the rlim arg in the prlimit64 and setrlimit syscalls as coming from user space
+ae29ad7baefa48e2bfaa4c0919dbd5c203270ee6 perf build: Autodetect minimum required llvm-dev version
+4ba7eff55489c3ca79f7b496fc35c2f0b95afd31 perf build: Remove unused feature test target
+91193c2ef3fb58da8dea83cfd292a1085460f847 perf annotate: Treat 'call' instruction as stack operation
+1daf995a711a7272a8e387b47dbcce600bd05620 perf annotate-data: Add pr_debug_scope()
+db10009056cd37d49f0eeadd868f651673f12da8 perf inject: Fix build ID injection
+838951a4a863b03c3a74b7573bc646058df23532 perf inject: Add new mmap2-buildid-all option
+126ad2167900da4adec99f7ae36e804c244b3e21 perf inject: Lazy build-id mmap2 event insertion
+e28c84833083b8d3d672bd6ef642632e41d43bb5 perf callchain: Allow symbols to be optional when resolving a callchain
+fa9596c41e8f1a1c105cc2491373237accfc037c perf parse-events: Remove duplicated include in parse-events.c
 
-43457ada98c824f310adb7bd96bd5f2fcd9a3279 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b refs/heads/i2c/i2c-host-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuBzbRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uJ3wBAN7r1O7UETk0hljNknVhJ2wROvBN
-qyUlpUxBHVPO/vlVAQDJWWbkUAbTKPLZegwBxnk8puJvL+BZqnMHIlQPjD6lCw==
-=sV+q
------END PGP SIGNATURE-----
-
---===============3418293255801392414==--
+--===============1401952643302518820==--
