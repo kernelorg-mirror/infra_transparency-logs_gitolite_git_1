@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Tue, 10 Sep 2024 14:46:56 -0000
-Message-Id: <172597961621.517624.14149068304048826228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 10 Sep 2024 14:49:41 -0000
+Message-Id: <172597978140.519531.63217742084737057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devsec/spdm
-user: lukas
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/p1363
-    old: b74f4875ae056ff8aa20b7530fe4f41592581c63
-    new: c0705f5a44fab7fd10aa76e11bdd428a9f90baaa
+  - ref: refs/heads/io_uring-6.11
+    old: b7ed6d8ffd627a3de8b0e336996d0247a6535608
+    new: f1f5c248512134f5bb20345ff56f70f3142ab490
     log: |
-         c0705f5a44fab7fd10aa76e11bdd428a9f90baaa crypto: ecrdsa - Fix signature size calculation
+         f1f5c248512134f5bb20345ff56f70f3142ab490 io_uring/rw: treat -EOPNOTSUPP for IOCB_NOWAIT like -EAGAIN
          
