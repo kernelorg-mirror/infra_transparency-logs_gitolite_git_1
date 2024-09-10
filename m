@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 10 Sep 2024 07:56:34 -0000
-Message-Id: <172595499473.169488.4048923683998833611@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6375893351867400894=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Sep 2024 07:56:36 -0000
+Message-Id: <172595499685.169566.16103044321986929628@gitolite.kernel.org>
+
+--===============6375893351867400894==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: 32df7999af4988989c510e5a5e8fd9c2d4a52f5b
-    new: a71f78705a875400b47ebf28131c7ac85192a751
+  - ref: refs/heads/master
+    old: 426532147fa68fe88c15c2efcf9f2a45e1e36135
+    new: d210e4e474e0b4bcac48e4323610b5d73d1a1dfa
     log: |
-         9e2f9d34dd12e6e5b244ec488bcebd0c2d566c50 erofs: handle overlapped pclusters out of crafted images properly
-         fb176750266a3d7f42ebdcf28e8ba40350b27847 erofs: add file-backed mount support
-         ce63cb62d794c98c7631c2296fa845f2a8d0a4a1 erofs: support unencoded inodes for fileio
-         283213718f5d618dfe88d16a3c63a077a12f15ec erofs: support compressed inodes for fileio
-         0d442ce0b3027e99491520a3a8585e8c4ffd79dc erofs: mark experimental fscache backend deprecated
-         b1bbb9a637a329873e14b596b7e6fa2fd44b87b4 erofs: use kmemdup_nul in erofs_fill_symlink
-         53d514b970106976fd64f593ea13b55ebf26b3ff erofs: refactor read_inode calling convention
-         8bdb6a8393dc32e3ab2cf89081e5b0f95cb7221b erofs: simplify erofs_map_blocks_flatmode()
-         6d5c4d4fb130949134819125f624f4785868c376 erofs: sunset unneeded NOFAILs
-         a71f78705a875400b47ebf28131c7ac85192a751 erofs: allocate more short-lived pages from reserved pool first
+         d210e4e474e0b4bcac48e4323610b5d73d1a1dfa 6.1-stable patches
          
+
+--===============6375893351867400894==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1725955018 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1725954995-1278e56d47be20a285035b0954f35e1b92a74c56
+
+426532147fa68fe88c15c2efcf9f2a45e1e36135 d210e4e474e0b4bcac48e4323610b5d73d1a1dfa refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbf+8obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zLwQANUq+rV6cP31tqCzZEVx
+hZLY8vgo5Zuw6rmGeXKzspPamP6uevOJjNV1rhznK7j5ml4+Kf8N4H38YgWKN7CA
+DF8pLuvoPx6qGm9cX2iYWBs4HTLAswBCokNAOMW0j8kSpm19U3CIXDA+FHRqqp2e
+8oq5la0qxdjDqDmj66NKUp0QMKgGKEpiD2rUzDaSuHGnopYGp/Zj8RKZdtz7grA+
+CON6cYuL3Ug82KkzonSp6MCw9guq7owBi9WRX3jK33zIR+WkvDEXRnNxZH27H7UD
+r4wGoIZC8NSfRr85k0bGG7O6WPfNq+Ae1aoZuUB32qSnlET76tH0FnpPHva4fU0L
+6s3ydSbhHRNBSLz/l+9fvaYJ+Qmar+FzKAiwHbZkzY7Dl/6Y15MVD6phZ3AC5SH6
+FqL/eQf77ZRkbsaeze0SKQXOnopG6gSyo7LD/tmZWbtaz9+m08W8fgkf9vEhjr/M
+nUj9dPYY2SRsyWZnt+OP2QQ2RjcL6Rv9NtdK6/gs1gBkkVDSbQ3yndMOH46oyodd
+Tl3DlpCWCbj4QWPoPjtGAY+Na9wHGJVWo9aFBLUzW433j1aOJR8IXRNYA9bXz0oP
+Eqs/Iz0l1H2k1pwLSzQ+WAcL9tPi3UjdK2ib62hNQNfRradyNnG4ve2Ftn87fwrS
+nJkGyVUupnj5NrZ/ugzvbABV
+=KJ5i
+-----END PGP SIGNATURE-----
+
+--===============6375893351867400894==--
