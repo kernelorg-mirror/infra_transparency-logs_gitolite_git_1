@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 10 Sep 2024 22:23:28 -0000
-Message-Id: <172600700824.892713.11013594019136726984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 10 Sep 2024 22:33:26 -0000
+Message-Id: <172600760673.900522.1199638655109119623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/kdevops
-    old: 36fa5f28ed82b4eed65f7cdd64824bb15e300a7c
-    new: ae2ace95660484d4704ad6bdb40fc9de53f89dcd
-    log: |
-         ae2ace95660484d4704ad6bdb40fc9de53f89dcd timekeeping: move multigrain ctime floor handling into timekeeper
-         
+  - ref: refs/heads/kthread/urgent
+    old: 0000000000000000000000000000000000000000
+    new: 6c61d4fbb51815ccc5e822516ff8118813ebfdac
