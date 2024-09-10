@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5724880495495879053=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 10 Sep 2024 20:34:18 -0000
-Message-Id: <172600045893.801297.6213974766728237912@gitolite.kernel.org>
-
---===============5724880495495879053==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 10 Sep 2024 20:35:00 -0000
+Message-Id: <172600050038.802236.12494244784507886420@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: f1212506b6a74629825bab1124cb871fa800c20d
-    new: e1bf4e05df788f8164acd25941d9b94cf447d028
-    log: revlist-f1212506b6a7-e1bf4e05df78.txt
-
---===============5724880495495879053==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1212506b6a7-e1bf4e05df78.txt
-
-f3f16112c65f5923f41d9d7222fe7e4f34bf73ad perf trace: Support collecting 'union's with the BPF augmenter
-375f9262ac81f56f41dab41f089f0e43b2792ae6 perf trace: Mark the rlim arg in the prlimit64 and setrlimit syscalls as coming from user space
-206dcfca1f5cfac344bd88e5ed4b6a095014b91f perf build: Autodetect minimum required llvm-dev version
-332f60ac052f5d7bfc646502f377c600986f10c2 perf build: Remove unused feature test target
-c8b9358778a82534251dc93ebc4601246d5ae04e perf annotate: Treat 'call' instruction as stack operation
-02648783c2e1ed24cba23477282fa8cbc1525a77 perf annotate-data: Add pr_debug_scope()
-ae39ba16554eb4a2d97f752847e93aa428438912 perf inject: Fix build ID injection
-d762ba020d29ddb676805a90bf1450921817418f perf inject: Add new mmap2-buildid-all option
-64eed019f3fce1248cd29443c8a8635d317cb70f perf inject: Lazy build-id mmap2 event insertion
-02b2705017d2e5ad32c23067d4b44477ec20b637 perf callchain: Allow symbols to be optional when resolving a callchain
-205d7d279c9929e45bc397c845dcf0a1dae4b5be perf parse-events: Remove duplicated include in parse-events.c
-256ac0a0ecbce19c8ce1dcb1b84e0d03c0e6bf1b perf trace: If a syscall arg is marked as 'const', assume it is coming _from_ userspace
-e1bf4e05df788f8164acd25941d9b94cf447d028 perf build: Require at least clang 16.0.6 to build BPF skeletons
-
---===============5724880495495879053==--
+  - ref: refs/heads/next
+    old: 38724db805be9595382324b736a13fef42f05813
+    new: c2cc1cd73d7b9fa7a4c4b4a0fc5dc0e8f87097d0
+    log: |
+         29caeda359da15d16963096043cda39530f81cc4 KVM: arm64: Move pagetable definitions to common header
+         acc3d3a8176651a839056c7da4b925ea0bcc38c2 arm64: ptdump: Expose the attribute parsing functionality
+         9182301a7bd2564fb050ade9820333c8b1adfcc2 arm64: ptdump: Use the ptdump description from a local context
+         79c4c7284f92d5e780c8532c343ca2cacfaf5125 arm64: ptdump: Don't override the level when operating on the stage-2 tables
+         7c4f73548ed15476daf1101f66648085eda65067 KVM: arm64: Register ptdump with debugfs on guest creation
+         c2cc1cd73d7b9fa7a4c4b4a0fc5dc0e8f87097d0 Merge branch kvm-arm64/s2-ptdump into kvmarm-master/next
+         
