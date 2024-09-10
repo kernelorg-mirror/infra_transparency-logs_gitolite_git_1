@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Sep 2024 10:29:14 -0000
-Message-Id: <172596415429.309740.17081319770861319380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Sep 2024 10:29:23 -0000
+Message-Id: <172596416368.310054.2674275359824235550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 4c8002277167125078e6b9b90137bdf443ebaa08
-    new: 019aba04f08c2102b35ce7fee9d4628d349f56c0
+  - ref: refs/heads/perf/core
+    old: fa90a7dad75b47302f6d35f6c6a36d0c87450187
+    new: 5e645f31139183ac9a282238da18ca6bbc1c6f4a
     log: |
-         019aba04f08c2102b35ce7fee9d4628d349f56c0 octeontx2-af: Modify SMQ flush sequence to drop packets
+         8d72eba1cf8cecd76a2b4c1dd7673c2dc775f514 perf/x86/rapl: Fix the energy-pkg event for AMD CPUs
+         5e645f31139183ac9a282238da18ca6bbc1c6f4a Merge branch 'perf/urgent' into perf/core, to pick up fixes
          
