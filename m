@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4580643167122984140=="
+Content-Type: multipart/mixed; boundary="===============7827524270653710903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 Sep 2024 18:31:13 -0000
-Message-Id: <172599307391.700642.9000622084228841078@gitolite.kernel.org>
+Date: Tue, 10 Sep 2024 18:31:16 -0000
+Message-Id: <172599307617.700776.15578997859015718592@gitolite.kernel.org>
 
---===============4580643167122984140==
+--===============7827524270653710903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bfba7bc8b7c2c100b76edb3a646fdce256392129
     new: 525034e2e2ee60d31519af0919e374b0032a70de
     log: revlist-bfba7bc8b7c2-525034e2e2ee.txt
 
---===============4580643167122984140==
+--===============7827524270653710903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ c06fef96c7d599ac6d1cdfd42ffee8c8d59729fe net: lan966x: ditch tx->last_in_use var
 f8406a2fd279d05eb4a76c9b77cb740b6f350549 net/smc: add sysctl for smc_limit_hs
 525034e2e2ee60d31519af0919e374b0032a70de net: mdiobus: Debug print fwnode handle instead of raw pointer
 
---===============4580643167122984140==--
+--===============7827524270653710903==--
