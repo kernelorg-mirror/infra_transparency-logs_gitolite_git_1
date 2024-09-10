@@ -1,21 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 10 Sep 2024 16:24:51 -0000
-Message-Id: <172598549180.597070.5884480090657515507@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3418293255801392414=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 10 Sep 2024 16:27:04 -0000
+Message-Id: <172598562453.599672.16117641227739773201@gitolite.kernel.org>
+
+--===============3418293255801392414==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: bc83b4d1f08695e85e85d36f7b803da58010161d
-    new: 8d8d276ba2fb5f9ac4984f5c10ae60858090babc
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 43457ada98c824f310adb7bd96bd5f2fcd9a3279
+    new: 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b
     log: |
-         af178143343028fdec9d5960a22d17f5587fd3f5 tracing/osnoise: Fix build when timerlat is not enabled
-         4e378158e5c15bd237a6ff44b7abb9184d61208c tracing: Drop unused helper function to fix the build
-         8d8d276ba2fb5f9ac4984f5c10ae60858090babc Merge tag 'trace-v6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         c7e08c816cd2fdf8b86f2762f4667ca0f748c286 i2c: keba: Add KEBA I2C controller support
+         18024d60679a5ec34600ccd37cc1bf1f66f0eb6b i2c: ljca: Remove unused "target_addr" parameter
          
+
+--===============3418293255801392414==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1725985645 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1725985623-828d65200111d30ac3a66343e00edd4ea783806c
+
+43457ada98c824f310adb7bd96bd5f2fcd9a3279 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b refs/heads/i2c/i2c-host-next
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuBzbRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uJ3wBAN7r1O7UETk0hljNknVhJ2wROvBN
+qyUlpUxBHVPO/vlVAQDJWWbkUAbTKPLZegwBxnk8puJvL+BZqnMHIlQPjD6lCw==
+=sV+q
+-----END PGP SIGNATURE-----
+
+--===============3418293255801392414==--
