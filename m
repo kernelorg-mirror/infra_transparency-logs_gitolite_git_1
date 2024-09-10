@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9029246588891641830=="
+Content-Type: multipart/mixed; boundary="===============5724880495495879053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 10 Sep 2024 20:34:11 -0000
-Message-Id: <172600045195.801093.636661661301684174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 10 Sep 2024 20:34:18 -0000
+Message-Id: <172600045893.801297.6213974766728237912@gitolite.kernel.org>
 
---===============9029246588891641830==
+--===============5724880495495879053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e1bf4e05df788f8164acd25941d9b94cf447d028
     log: revlist-f1212506b6a7-e1bf4e05df78.txt
 
---===============9029246588891641830==
+--===============5724880495495879053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ d762ba020d29ddb676805a90bf1450921817418f perf inject: Add new mmap2-buildid-all 
 256ac0a0ecbce19c8ce1dcb1b84e0d03c0e6bf1b perf trace: If a syscall arg is marked as 'const', assume it is coming _from_ userspace
 e1bf4e05df788f8164acd25941d9b94cf447d028 perf build: Require at least clang 16.0.6 to build BPF skeletons
 
---===============9029246588891641830==--
+--===============5724880495495879053==--
