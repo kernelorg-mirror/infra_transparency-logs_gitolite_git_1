@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8097193420269940038=="
+Content-Type: multipart/mixed; boundary="===============1520529221478886049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 10 Sep 2024 13:31:59 -0000
-Message-Id: <172597511940.456944.2297083840765282734@gitolite.kernel.org>
+Date: Tue, 10 Sep 2024 13:32:04 -0000
+Message-Id: <172597512465.457167.15606786184876070813@gitolite.kernel.org>
 
---===============8097193420269940038==
+--===============1520529221478886049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/mgtime
-    old: d0cd218759faeced294d0f9a60c6b14dcfcd2ea2
+  - ref: refs/heads/kdevops
+    old: abc91dde614a3017bc1a1c6a5eea3c0fe3e05a33
     new: 9b1c8ae6c752ef7e00b5d64a707468ac09b29072
-    log: revlist-d0cd218759fa-9b1c8ae6c752.txt
+    log: revlist-abc91dde614a-9b1c8ae6c752.txt
 
---===============8097193420269940038==
+--===============1520529221478886049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0cd218759fa-9b1c8ae6c752.txt
+Content-Disposition: attachment; filename=revlist-abc91dde614a-9b1c8ae6c752.txt
 
 90ac806c32952e4eb39fa21cc4e93f086a4047c3 Drivers: hv: Remove deprecated hv_fcopy declarations
 7f828d5fff7d24752e1ecf6bebb6617a81f97b93 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
@@ -57,4 +57,4 @@ bc83b4d1f08695e85e85d36f7b803da58010161d Merge tag 'bcachefs-2024-09-09' of git:
 5cd1dab4a54c7153c8587e297bf44b47eec3cd0d timekeeping: don't use seqcount loop in ktime_mono_to_any on 64-bit systems
 9b1c8ae6c752ef7e00b5d64a707468ac09b29072 timekeeping: move ctime_floor handling into timekeeper
 
---===============8097193420269940038==--
+--===============1520529221478886049==--
