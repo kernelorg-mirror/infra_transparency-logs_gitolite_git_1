@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 10 Sep 2024 22:11:18 -0000
-Message-Id: <172600627853.883822.10949738312090141159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 10 Sep 2024 22:21:47 -0000
+Message-Id: <172600690727.891958.17183801175587801752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 06ed1dcba5630f223c4a05ae443549860c3322fa
-    new: d801bd2a96ea76c85c30c444813aa3270a67cf7d
+  - ref: refs/heads/mgtime
+    old: 36fa5f28ed82b4eed65f7cdd64824bb15e300a7c
+    new: ae2ace95660484d4704ad6bdb40fc9de53f89dcd
     log: |
-         464f2de3bd864410bc10912330c566f00cab119d foo
-         d801bd2a96ea76c85c30c444813aa3270a67cf7d foo
+         ae2ace95660484d4704ad6bdb40fc9de53f89dcd timekeeping: move multigrain ctime floor handling into timekeeper
          
