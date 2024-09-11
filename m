@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1080328525462441916=="
+Content-Type: multipart/mixed; boundary="===============0902509561977278628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 11 Sep 2024 13:17:51 -0000
-Message-Id: <172606067165.1663389.16446098005965110917@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 13:18:47 -0000
+Message-Id: <172606072705.1664124.7164874374211749516@gitolite.kernel.org>
 
---===============1080328525462441916==
+--===============0902509561977278628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f299cd11f7539482e87b2d2d527968a26b33f0ec
-    new: 761fd871015f4102725b52b81c4373513ad8991f
+    old: 761fd871015f4102725b52b81c4373513ad8991f
+    new: 7de106b768e299400798f995bd7a50b43d4bdd6b
     log: |
-         24edc397047180210ace0da60577b4a3e3d2af39 thunderbolt: Add missing usb4_port_sb_read() to usb4_port_sw_margin()
-         81f848d28787b1f98f0526345c8f45f6dc1baf9e thunderbolt: Consolidate margining parameters into a structure
-         9fafd46b39d140b7359b77e5fcc4c3130788df42 thunderbolt: Add optional voltage offset range for receiver lane margining
-         10904df3f20cf36e418e78ab73c2fbcecda512b8 thunderbolt: Improve software receiver lane margining
-         761fd871015f4102725b52b81c4373513ad8991f Merge tag 'thunderbolt-for-v6.12-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+         af8a6e65f42c6c89414017cc4d78403e83056172 USB: serial: set driver owner when registering drivers
+         6d243588e95ec221e533cc749106aaefaea27486 USB: serial: drop driver owner initialization
+         4c0d9477ba69a417c698aec1d3012e188cf97add USB: serial: kobil_sct: restore initial terminal settings
+         7de106b768e299400798f995bd7a50b43d4bdd6b Merge tag 'usb-serial-6.12-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
          
 
---===============1080328525462441916==
+--===============0902509561977278628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726060689 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726060747 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1726060667-d54bb3bf75d52894e3bdc8b5bb4ddb05be6550dd
+nonce 1726060724-f84b619e27cb8ef735690496bea5092b0bcc996f
 
-f299cd11f7539482e87b2d2d527968a26b33f0ec 761fd871015f4102725b52b81c4373513ad8991f refs/heads/usb-testing
+761fd871015f4102725b52b81c4373513ad8991f 7de106b768e299400798f995bd7a50b43d4bdd6b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhmJEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rSkP/3CDdO1+uFb3KjgS1+YT
-SL7kgzjauYmOKIK3RBjsyOUSCX6pVShYUnYHaLoQZpAR2Cuo1gflWjbFW0k5Ew+m
-fKv/kyKeNu8HQbNDtXljqtXCGK129J0jKRjvCytroBHEE4osHyCh7qgsk2glhsoR
-2nZI8vg8NBbnLqH4lDA7fWJlndTAMcQSOw8crH/9AcyWfdQxAkgJsH6/9xPvi3i0
-2tUQJ3ZxQRMb9vOD7FNfEP+VNDnwcIO1BlJlbXusjMCcDyEV1oB5rp1QlHUZQgVm
-dJQJJi/pH4ckQTdKr1rlpYKRrL8JJ8zQ9pAhLb5Dy5LsR230Y9QFkwQ9xEy8kF0Z
-poW15Epq7pw2sdcfmFzvw9a16RrY7X/XdGHc08F8omQn79iFqFtf346DJFICXk7X
-PlGqx8YZxv3nwMqXuTElilfA84O7mt4rqtgWr2CCvfmmZmTIagmF/nQussF4k+wt
-PRkOMU1NMLpVQmSYSCowojLuGaUCkIzPCwlt7VEJFDEZ2U1EKrwwftj9mOeyMsQR
-S3OIHlZj9hWBUDa0BD+gWQJPj4LTVvQaEUkFH2ILzIcAK7VCCrAv+XBt3aM28Xhe
-p194UzChkgwgG6XxlEvkRIDxUbDb3BGg5ntbdmoRwDuR0nd4KKwvzvSAICbyPpkU
-k2aaIFuQlZaxUyXImsxt7LX4
-=LcK0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhmMsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+50wQAM9Gs7ZAMq99ttCj1Cwk
+rvcabh/aezSBX0lM5dIzDglQ79U8ZNTQb+TOTGONnyECBret5Ju4dpZTMbA0B2cQ
+wCvLolz7LNMplOWM0dYjhtSrCoVZLoYhBe70PZsmt+GEXRBIIoe+MguKqdXOMdlh
+ppETzhKCfjl5DxfHI491fV37qAdqSe6YtJUpTvujn1nNvKBMksFdiglRc7SwEc/v
+5EoVzOnctO875fkgMunyT1y/a4+Hc2iVqRnqXNWFI+7Z0CXBlxe5qwsDeAXJfEww
+ia+mrn/7mTmsifML1vqd+yYLToueIFIQngVQohJ5rLrGc+0aHn/RpEVqPW2WT0mB
+2udsIAndoxNPSAP3JEtR8rQqzCqJonxqmEgQeuO/Douv4bfH+/y7ImC+qoDykk5O
+mjE7prSElfHpxWxTOVYKrMRZthq9RKSVmE/lF75F9mQbNofoCf8IeNK1k1PpobAu
+cqYVChSrXIKD1ACGElHtT+Lu0Ki3vEUpufy/lMSzt87EPSGHV6wJxBpTMuHcNemX
+ltZGVQqkyb+FW008xXdBa4gllO3t3umFuehjRDRZIUIDJnGKgQWbKBszKBPPFPSh
+MKb+aYpf781OzvyvSkP8YWp7SWJFdjVmZkiPiuXtCows/p5Fn3WaIOXQAE30ppBm
+2Uwv5Q9fTafYcgyNreIqa0mw
+=SvOQ
 -----END PGP SIGNATURE-----
 
---===============1080328525462441916==--
+--===============0902509561977278628==--
