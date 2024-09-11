@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 11 Sep 2024 14:42:36 -0000
-Message-Id: <172606575662.1737100.9434947540317652327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Wed, 11 Sep 2024 14:42:53 -0000
+Message-Id: <172606577375.1737345.1947385538980452327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/20240911_andrei_simion_improvements_for_mchp_pdmc
+  - ref: refs/heads/renesas/cosmin-6.11
     old: 0000000000000000000000000000000000000000
-    new: de7910394ba77d4701df8dcea2bc5371cc33b421
-  - ref: refs/heads/filezONQBv
-    old: 0000000000000000000000000000000000000000
-    new: a1d12410d9b1ecff87d39f80b0d1cec895012ffa
+    new: 5b21037632ae247c40506bc83d2252b080d383d1
