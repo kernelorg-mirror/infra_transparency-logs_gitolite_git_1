@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1192177456574516782=="
+Content-Type: multipart/mixed; boundary="===============6386783225490430392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 11 Sep 2024 20:32:56 -0000
-Message-Id: <172608677619.61476.6318353527904350865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 11 Sep 2024 20:34:38 -0000
+Message-Id: <172608687866.62306.5549824390521158887@gitolite.kernel.org>
 
---===============1192177456574516782==
+--===============6386783225490430392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 1de5b5dcb8353f36581c963df2d359a5f151a0be
     log: revlist-e1bf4e05df78-1de5b5dcb835.txt
 
---===============1192177456574516782==
+--===============6386783225490430392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ edf3ce0ed38e2d04a817984e4ea7f05b18102926 perf env: Find correct branch counter i
 0c1019e3463b263a89e71d3b4543c28408ebe9a1 perf trace: Mark the 'rseq' arg in the rseq syscall as coming from user space
 1de5b5dcb8353f36581c963df2d359a5f151a0be perf trace: Mark the 'head' arg in the set_robust_list syscall as coming from user space
 
---===============1192177456574516782==--
+--===============6386783225490430392==--
