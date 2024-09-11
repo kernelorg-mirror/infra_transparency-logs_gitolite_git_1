@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4195696545664988843=="
+Content-Type: multipart/mixed; boundary="===============8016357210873784049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 11 Sep 2024 13:34:05 -0000
-Message-Id: <172606164552.1677962.3646669171961985797@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 13:34:45 -0000
+Message-Id: <172606168572.1678766.13992388471738099692@gitolite.kernel.org>
 
---===============4195696545664988843==
+--===============8016357210873784049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0088d7581b12c6b310fb57a25b7c07622655c23d
-    new: 625fa77151f00c1bd00d34d60d6f2e710b3f9aad
+    old: 625fa77151f00c1bd00d34d60d6f2e710b3f9aad
+    new: 7793472be315c5bddbb5cabb55e61ea9a7dca755
     log: |
-         625fa77151f00c1bd00d34d60d6f2e710b3f9aad USB: usbtmc: prevent kernel-usb-infoleak
+         64fa3bc36d3cf6b58f9981d9c5d353777de7952e usb: common: Switch to device_property_match_property_string()
+         7793472be315c5bddbb5cabb55e61ea9a7dca755 usb: chipidea: npcm: Fix coding style with clarification of data type
          
 
---===============4195696545664988843==
+--===============8016357210873784049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726061666 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726061706 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1726061643-a00947e6662d39d0608da0916be501e553287bc4
+nonce 1726061684-da11c89950f07335292e23c97e85f6cc87edc48e
 
-0088d7581b12c6b310fb57a25b7c07622655c23d 625fa77151f00c1bd00d34d60d6f2e710b3f9aad refs/heads/usb-testing
+625fa77151f00c1bd00d34d60d6f2e710b3f9aad 7793472be315c5bddbb5cabb55e61ea9a7dca755 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhnGIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UHsQAMqoJQy5Xj2a+H6FQgvs
-aaDT1icfygWgWwrqCJEaQLD++Ie7Xr3eJeQVhwHF95enEkQqqPBYJHKxTnRB3vI/
-CM+oOsmVWgwTGXfuBGaJIF/eN+AzZ/Lq57ktqYXbdoCa6Ll5MIV18LG3g8Bit8HE
-MT8apoEdiqrWn5lqQDvg6jncsg17P9DeUaLgRRrtcKW7SE6K967Dm5PkrVeJfZri
-EUvCGB+jm574qzRJqQXntPLb4e2lv7ZgmdUb73FMDSRjVprGqaolBtzLXG7ngkgH
-rrSLlAmH1VO9bYNf5aOLii6ZLEvI4k9zjkvxX8wf6Ve9Dttw+yK/oE1iwDfS+VxS
-oCYzhI00Th9IPL2776Z38sXaVVv5nien0/7IYE6NpyPLC7mXaA9e4llzJG8tNIwS
-JlZ3uVwj6Utho9Di/rcNKTiRnznskFqinH6AmaYNICcnfN6tq2kzy9h6HYFLDDFY
-DvpTgD60RQVGZj32ccvy9AnnzbIgdL2QE0LSPjVXdzignKDkJq8B0Al6fDi3qBT0
-0G94CzYbb2mCeeVP5/jqW38uGjPFfTwREkESA55E0kz3PZY0KaxrK9FWy/4rsnuW
-Hm6Kutlb55DpPgB9Lp6RgOz3AGkaFxoOjFWmPPppvt02uKFzrlQPXh3+tSndvQNl
-2K543JbjLvzo6IeHhVidM+4/
-=+XaB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhnIsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MhcQANfnMywRyZBAqu3UHIju
+Vo9opVdydLHuHBPOjQ/Zz875vi/Wr9s0O+0VE/ebIxszuNGp+CEruVwESfS2b2bE
+qh/A+GhVUNDeuB67nAqMnvR9YffyXoRMCUkSjtFfFmpekH0oi0Rnb2R4sDuAI9mN
+GGSc4MY+N0NU+Bj1LeeRYgoqDrFyOBmil3Ptk61mQ1ng4MT2+8tFaakAMdrn6VDX
+SKQc3iPQzvz0Q0DtNp2yoFrdTFCrbOVcndFJAtAuGvfiz5h/rr0bXnn8DMxrU7QG
+aj0cKSZQS6tRTNnD9KLxHMAfovcuBLD4GI5i0GqjBEZ9Rh1zT0A9EhXXdBY3dP2Z
+6u+aDa5W0/YT3YEw0OAtfERlfLfUw3Gzk8adCWe9RN51cAWhDk8PXJzjLHKEwcHt
+WSTCtrmdN4fH7P6SzatVpm7jZKYsj5QJu2AOb13buKZ2X9msLR3QMZBiIqY/SxWN
+go1JJknCuTEBYuUSxTqcpfsVsLl3bWAEXmvj7lg1BRXGA9QKfrAASKI+J37PDWao
+M/j0hPDtL1oXvnfvCi6/druspScAHt1oRa2ni3hmnW0138TYtxmdqYTxgsU9R8D/
+Xl+y9+2wRpivSBiH/CZapuM1xXNN7BZAC6nMxnBiSvvZE39CY8ajnj8wfRtPJu4p
+Pv1ogD+SiA9Z7ve/isFR1rIz
+=WQXG
 -----END PGP SIGNATURE-----
 
---===============4195696545664988843==--
+--===============8016357210873784049==--
