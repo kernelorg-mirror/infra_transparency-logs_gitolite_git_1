@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 11 Sep 2024 00:52:20 -0000
-Message-Id: <172601594059.1014570.8633914215736799665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 11 Sep 2024 00:58:18 -0000
+Message-Id: <172601629844.1019358.8920678358580544586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/crs
-    old: 0b778d31a16072f3078a762404635229619a8ca5
-    new: 87f10faf166a9114aa0d4132298cad379de16fdd
+  - ref: refs/heads/master
+    old: 2386f5e5c1bc0a0ad82dade7ba968d0b84e44959
+    new: 87b12433cbcaba35bd2498580e79de14cc7ee574
     log: |
-         d591f6804e7e1310881c9224d72247a2b65039af PCI: Wait for device readiness with Configuration RRS
-         dd4e47eab886abf28859ccf8aad373983015f89e PCI: aardvark: Correct Configuration RRS checking
-         87f10faf166a9114aa0d4132298cad379de16fdd PCI: Rename CRS Completion Status to RRS
+         ef867dce8f0170e22b0fa1e5595ce7127dc7239c udevng: support for EG916Q-GL using option driver.
+         e9af32a90215b165154961f6b0b341f1af0f7eda quectel: support for EG916Q-GL
+         87b12433cbcaba35bd2498580e79de14cc7ee574 atmodem: Support for Quectel EG916Q-GL modem
          
