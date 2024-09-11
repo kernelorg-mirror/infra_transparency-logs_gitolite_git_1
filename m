@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3529124016284222682=="
+Content-Type: multipart/mixed; boundary="===============2480215124289023491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 11 Sep 2024 10:59:39 -0000
-Message-Id: <172605237924.1497419.17314524669523443106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 11 Sep 2024 10:59:49 -0000
+Message-Id: <172605238967.1498130.1365655253789261533@gitolite.kernel.org>
 
---===============3529124016284222682==
+--===============2480215124289023491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6708132e80a2ced620bde9b9c36e426183544a23
     new: 32ffa5373540a8d1c06619f52d019c6cdc948bb4
     log: revlist-6708132e80a2-32ffa5373540.txt
-  - ref: refs/heads/stable
-    old: bc83b4d1f08695e85e85d36f7b803da58010161d
-    new: 8d8d276ba2fb5f9ac4984f5c10ae60858090babc
-    log: |
-         af178143343028fdec9d5960a22d17f5587fd3f5 tracing/osnoise: Fix build when timerlat is not enabled
-         4e378158e5c15bd237a6ff44b7abb9184d61208c tracing: Drop unused helper function to fix the build
-         8d8d276ba2fb5f9ac4984f5c10ae60858090babc Merge tag 'trace-v6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
-  - ref: refs/tags/next-20240611
-    old: d09306a48802d5e3fee2357604db49f98ad863e1
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240911
     old: 0000000000000000000000000000000000000000
     new: 9c6f44d18f025105c57588985f358c0f1da17fa7
 
---===============3529124016284222682==
+--===============2480215124289023491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1059,4 +1048,4 @@ f8789af29ad4cf1263352a4e95c45e3852acd9b8 Merge branch 'pwrseq/for-next' of git:/
 6fc6ece02d8e9f5f779c1b7c7e33e01ed690bbaf Revert "cpufreq/cppc: Use NSEC_PER_MSEC for deadline task"
 32ffa5373540a8d1c06619f52d019c6cdc948bb4 Add linux-next specific files for 20240911
 
---===============3529124016284222682==--
+--===============2480215124289023491==--
