@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Wed, 11 Sep 2024 18:19:24 -0000
-Message-Id: <172607876446.1927403.8038519240070769464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 11 Sep 2024 18:26:18 -0000
+Message-Id: <172607917803.1934287.14095451522831133444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/modules-next
-    old: e1d90ff7bc4b93c0b6c4821bef71b51ce145d7a7
-    new: 71c0bab396aabd473ae625a2c5a3b59e913620b0
+  - ref: refs/heads/master
+    old: 02d17c066716690d31361bcf6f6a4348af60242e
+    new: 6619bb88427c842d652ac7a8cfa0407b73780ee2
     log: |
-         71c0bab396aabd473ae625a2c5a3b59e913620b0 module: Refine kmemleak scanned areas
+         6619bb88427c842d652ac7a8cfa0407b73780ee2 Wed Sep 11 02:25:49 PM EDT 2024
          
