@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7826113378415920827=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 11 Sep 2024 11:04:21 -0000
-Message-Id: <172605266188.1502105.9446653850758872138@gitolite.kernel.org>
-
---===============7826113378415920827==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 11 Sep 2024 11:04:48 -0000
+Message-Id: <172605268845.1502870.16137670054053867673@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/i2c/i2c-host-for-6.12
-    old: 0000000000000000000000000000000000000000
-    new: 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b
-
---===============7826113378415920827==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1726052683 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1726052660-158ddc38941c90d04dd256b9f3437d498c9de8a4
-
-0000000000000000000000000000000000000000 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b refs/heads/i2c/i2c-host-for-6.12
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuF5SxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uBekBAJXsyo9MZ+ST2+njq3jL5J7Q8BHt
-qLCf/pn4KqUGsaBsAP4gRRdFYc05JuXSYxhOc+oLIpY3ZSxBb6AoWSNo1KYSCQ==
-=92u3
------END PGP SIGNATURE-----
-
---===============7826113378415920827==--
+  - ref: refs/heads/main
+    old: ce299c0f97a873e969f2b22644ee9e9710bfbc63
+    new: 4a0367b33aeaa7fe1255a920d0e39f825b6985c1
+    log: |
+         59def907425d9bbc49c826c9834d6707af5fe97d rtl_bt: Update RTL8852B BT USB FW to 0x0447_9301
+         4a0367b33aeaa7fe1255a920d0e39f825b6985c1 Merge branch 'rtl8852b' into 'main'
+         
