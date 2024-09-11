@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0537785105971821007=="
+Content-Type: multipart/mixed; boundary="===============0733762121533627980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Sep 2024 02:16:49 -0000
-Message-Id: <172602100918.1087346.16954839542681072155@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 03:04:38 -0000
+Message-Id: <172602387823.1122470.11553870927050446338@gitolite.kernel.org>
 
---===============0537785105971821007==
+--===============0733762121533627980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,31 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e35b0515bbc406de1b7e2703250e32c4acaeda38
-    new: ea403549daa6e546a33418d029dc1984309a35db
-    log: revlist-e35b0515bbc4-ea403549daa6.txt
+    old: ea403549daa6e546a33418d029dc1984309a35db
+    new: 474bb1aa4548e6102c1b7e688595c820baf0f80f
+    log: revlist-ea403549daa6-474bb1aa4548.txt
 
---===============0537785105971821007==
+--===============0733762121533627980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e35b0515bbc4-ea403549daa6.txt
+Content-Disposition: attachment; filename=revlist-ea403549daa6-474bb1aa4548.txt
 
-9b49f55838b1f42b2624216ce494f0536669e8f0 xfrm: Remove documentation WARN_ON to limit return values for offloaded SA
-6ad8bc92a47702f0b5d0b96b680199910b89f688 net: add copy from skb_seq_state to buffer function
-54f2f78d6b9f1f90e91aaf5dbb34a6198f65fdfd xfrm: Correct spelling in xfrm.h
-9c5b6d4e33dd78a0511ec34756d783b7e36028c2 selftests: add xfrm policy insertion speed test script
-33f611cf7d52ffdaebdcd6e42672ca1d06e22974 xfrm: policy: don't iterate inexact policies twice at insert time
-563d5ca93e883b9dcb4b7dc8967ac569fd91820d xfrm: switch migrate to xfrm_policy_lookup_bytype
-a54ad727f74559f7c3dfcfd2a63d0ce7683a82e8 xfrm: policy: remove remaining use of inexact list
-5ce90c842ef57bceb515503347306174e231575f Merge branch 'xfrm: speed up policy insertions'
-e7cd191f83fd899c233dfbe7dc6d96ef703dcbbd xfrm: add SA information to the offloaded packet
-08c2182cf0b47646af7f3daa292980f95f5e1ea6 xfrm: policy: use recently added helper in more places
-17163f23678c7599e40758d7b96f68e3f3f2ea15 xfrm: minor update to sdb and xfrm_policy comments
-69716a3babe1165a9ab1b3770b55d303d5bb5fa3 Revert "xfrm: add SA information to the offloaded packet"
-6a13f5afd39d17320316dbb8dd533fe7c6a613e6 xfrm: policy: fix null dereference
-e62d39332d4b9400a69ba902797aa17a1a0037e7 xfrm: policy: Restore dir assignments in xfrm_hash_rebuild()
-ea403549daa6e546a33418d029dc1984309a35db Merge tag 'ipsec-next-2024-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+34c626c3004a73ee7da5072be48ddff9c2902902 net/mlx5: Added missing mlx5_ifc definition for HW Steering
+00b9f0daefd7670356e592d418c890acf9179c94 net/mlx5: Added missing definitions in preparation for HW Steering
+504e536d90104c850731840d3fbc95acf251f11b net/mlx5: HWS, added actions handling
+71a1372b8275dd1c57db045d4a710a5b8f124f52 net/mlx5: HWS, added tables handling
+49674803542c162a465819c1a5ca66b494ecf367 net/mlx5: HWS, added rules handling
+74a778b4a63faef9ff02aad0d332b209835f93e1 net/mlx5: HWS, added definers handling
+472dd792348f6601ccaa97d5626ee4faff891901 net/mlx5: HWS, added matchers functionality
+0869701cba3d4c9865a019d23b0d159aee90d23f net/mlx5: HWS, added FW commands handling
+aefc15a0fa1cfab233f490a4675167e5ca5c42b2 net/mlx5: HWS, added modify header pattern and args handling
+6c5e68254027e7a82cb4580fd1a28cda3d417a97 net/mlx5: HWS, added vport handling
+c61afff94373641695cc81999e9bb10408ea84d5 net/mlx5: HWS, added memory management handling
+2111bb970c787b16b002dc726c1d296ce87a00fb net/mlx5: HWS, added backward-compatible API handling
+d4a605e968e7f0af58f228ab7bf96d9d7d4f0b69 net/mlx5: HWS, added debug dump and internal headers
+2ca62599aa0bbc0e61595531614e0989ba6b3194 net/mlx5: HWS, added send engine and context handling
+510f9f61a1121a296a45962760d5e2824277fa37 net/mlx5: HWS, added API and enabled HWS support
+474bb1aa4548e6102c1b7e688595c820baf0f80f Merge tag 'mlx5-updates-2024-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============0537785105971821007==--
+--===============0733762121533627980==--
