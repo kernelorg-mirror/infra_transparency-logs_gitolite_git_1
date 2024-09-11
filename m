@@ -1,46 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4665915649106173290=="
+Content-Type: multipart/mixed; boundary="===============4549555080225464744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Sep 2024 03:08:53 -0000
-Message-Id: <172602413385.1126401.2976331545357899106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 11 Sep 2024 03:15:59 -0000
+Message-Id: <172602455998.1132980.15947538334108937062@gitolite.kernel.org>
 
---===============4665915649106173290==
+--===============4549555080225464744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 474bb1aa4548e6102c1b7e688595c820baf0f80f
-    new: f3b6129b7d252b2fbdcac2e0005abc6804dc287c
-    log: revlist-474bb1aa4548-f3b6129b7d25.txt
+    old: 330dadacc59c2290e0fae47736ccd26b74aa1fd9
+    new: d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9
+    log: revlist-330dadacc59c-d1aaaa2e0a67.txt
 
---===============4665915649106173290==
+--===============4549555080225464744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-474bb1aa4548-f3b6129b7d25.txt
+Content-Disposition: attachment; filename=revlist-330dadacc59c-d1aaaa2e0a67.txt
 
-597b8af58bb2df443ebbdbdc4eef297f5d79d356 ice: add new VSI type for subfunctions
-004688c4cb5b2ef598fc33e4daf07ef76f79c16c ice: export ice ndo_ops functions
-eda69d654c7edae21312f731e0308941cb2ee2a9 ice: add basic devlink subfunctions support
-747967b0bbfae121d1f474b077001ddb24537259 ice: treat subfunction VSI the same as PF VSI
-f43e3be662e6e75352e0242e2a58c936d7a9a65f ice: allocate devlink for subfunction
-177ef7f1e2a051e8962048ffd41973d29be3302c ice: base subfunction aux driver
-8f9b681adb4437c8b2d1ad998d66b79558bc900a ice: implement netdev for subfunction
-415db8399d06a45ebd7b7d26b951f831a4b01801 ice: make representor code generic
-977514fb0fa84ca199262b1a9c1d6f3d8175e775 ice: create port representor for SF
-ef25090371725a340675a701b9ebd1a125a03ae1 ice: don't set target VSI for subfunction
-0f00a897c9fcbd20dcd47996a2cadde2b41adadc ice: check if SF is ready in ethtool ops
-54f07712395216e1961b1daf8b92f8e76368655d ice: implement netdevice ops for SF representor
-7cde47431df52c73ce51287ccacdc572bb3ddd0a ice: support subfunction devlink Tx topology
-0c6a3cb6f181c8edb1246016d12dbd08366eb383 ice: basic support for VLAN in subfunctions
-13acc5c4cdbeccf3274cbbd4de2e2d316b8c4ce6 ice: subfunction activation and base devlink ops
-f3b6129b7d252b2fbdcac2e0005abc6804dc287c Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+9debb703e14939dfafa5d403f27c4feb2e9f6501 ice: Fix lldp packets dropping after changing the number of channels
+e843cf7b34fe2e0c1afc55e1f3057375c9b77a14 ice: fix accounting for filters shared by multiple VSIs
+e6501fc38a7590fc014d7bb5c406974d32c0530f ice: stop calling pci_disable_device() as we use pcim
+d2940002b0aa42898de815a1453b29d440292386 ice: fix VSI lists confusion when adding VLANs
+27717f8b17c098c4373ddb8fe89e1a1899c7779d igb: Always call igb_xdp_ring_update_tail() under Tx lock
+7472d157cb8014103105433bcc0705af2e6f7184 net/mlx5: Update the list of the PCI supported devices
+7617d62cba4a8a3ff3ed3fda0171c43f135c142e net/mlx5e: Add missing link modes to ptys2ethtool_map
+80bf474242b21d64a514fd2bb65faa7a17ca8d8d net/mlx5e: Add missing link mode to ptys2ext_ethtool_map
+c88146abe4d0f8cf659b2b8883fdc33936d2e3b8 net/mlx5: Explicitly set scheduling element and TSAR type
+452ef7f86036392005940de54228d42ca0044192 net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+861cd9b9cb62feb244b8d77e68fd6ddedbbf66e9 net/mlx5: Verify support for scheduling element and TSAR type
+b1d305abef4640af1b4f1b4774d513cd81b10cfc net/mlx5: Fix bridge mode operations when there are no VFs
+3d731dc9b123610bb7a25c7e13c38666a1069e8c Merge tag 'mlx5-fixes-2024-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============4665915649106173290==--
+--===============4549555080225464744==--
