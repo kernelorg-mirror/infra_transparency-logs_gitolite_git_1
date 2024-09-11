@@ -1,28 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 11 Sep 2024 10:46:49 -0000
-Message-Id: <172605160958.1487760.223677645794464108@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5304798010733806974=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 11 Sep 2024 10:53:42 -0000
+Message-Id: <172605202280.1492753.3026971923975984257@gitolite.kernel.org>
+
+--===============5304798010733806974==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 227f51743b61fe3f6fc481f0fb8086bf8c49b8c9
-    new: f4ccc0a2a0c5977540f519588636b5bc81aae2db
+  - ref: refs/heads/i2c/i2c-host
+    old: 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b
+    new: f56f4ba2fc1dbefd3242946f2fad35338a60e3bc
     log: |
-         6928d264e328e0cb5ee7663003a6e46e4cba0a7e RDMA/hns: Don't modify rq next block addr in HIP09 QPC
-         fd8489294dd2beefb70f12ec4f6132aeec61a4d0 RDMA/hns: Fix Use-After-Free of rsv_qp on HIP08
-         d586628b169d14bbf36be64d2b3ec9d9d2fe0432 RDMA/hns: Fix the overflow risk of hem_list_calc_ba_range()
-         74d315b5af180220d561684d15897730135733a6 RDMA/hns: Fix spin_unlock_irqrestore() called with IRQs enabled
-         4321feefa5501a746ebf6a7d8b59e6b955ae1860 RDMA/hns: Fix VF triggering PF reset in abnormal interrupt handler
-         ce196f6297c7f3ab7780795e40efd6c521f60c8b RDMA/hns: Fix 1bit-ECC recovery address in non-4K OS
-         fe51f6254d81f5a69c31df16353d6539b2b51630 RDMA/hns: Optimize hem allocation performance
-         e4ed570122544dc39ba953c99380a75a52c01db4 IB/iser: Remove unused declaration in header file
-         9cd30319bbd497b9fac13e822f184b84fd50ef88 IB/qib: Remove unused declarations in header file
-         f4ccc0a2a0c5977540f519588636b5bc81aae2db RDMA/hns: Fix restricted __le16 degrades to integer issue
+         588e5a0621a3c8c9e936fc0e16a8faf0e4a09fe6 i2c: designware: Uninline i2c_dw_probe()
+         a6e690b0f784d70779ed23b76cf02a6b1cd23984 i2c: designware: Propagate firmware node
+         f56f4ba2fc1dbefd3242946f2fad35338a60e3bc i2c: designware: Use pci_get_drvdata()
          
+
+--===============5304798010733806974==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1726052044 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1726052021-9fcc554823011208c3bf8427879ed1eae9ef98e7
+
+18024d60679a5ec34600ccd37cc1bf1f66f0eb6b f56f4ba2fc1dbefd3242946f2fad35338a60e3bc refs/heads/i2c/i2c-host
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuF2zBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uT3MBAOMU72+032YtlqxaeRZqfpqlPOwK
+9ys55yjZgXIawextAQDfb32U6I8HfLR3S3VJD3V9PIaZ4KyV1AdkYU6LBousBA==
+=fYwH
+-----END PGP SIGNATURE-----
+
+--===============5304798010733806974==--
