@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 11 Sep 2024 13:00:42 -0000
-Message-Id: <172605964248.1647845.10812206611812345473@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0368903677221358947=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 11 Sep 2024 13:02:53 -0000
+Message-Id: <172605977394.1648869.4493349411982662519@gitolite.kernel.org>
+
+--===============0368903677221358947==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: 506873c0fa27b696373c875c57e32a1406d75dc1
-    new: bac2a553dbf2c4f749682407b8bb5cef71f8eba3
+  - ref: refs/heads/master
+    old: e391ec1f7e0a8ddc503261dad44f0c4d265c3f4a
+    new: 801ae12521f066409bbf65943c103f33d66fc513
     log: |
-         8d72eba1cf8cecd76a2b4c1dd7673c2dc775f514 perf/x86/rapl: Fix the energy-pkg event for AMD CPUs
-         4ba4f1afb6a9fed8ef896c2363076e36572f71da perf: Generic hotplug support for a PMU with a scope
-         a48a36b316ae5d3ab83f9b545dba15998e96d59c perf: Add PERF_EV_CAP_READ_SCOPE
-         08155c7f2a2cc6ff99886ea5743da274be24ebe4 perf/x86/intel/cstate: Clean up cpumask and hotplug
-         a8c73b82f7792400555143773d0152d5bc3ac068 iommu/vt-d: Clean up cpumask and hotplug for perfmon
-         bbdd4df35c31fe502c1c70e4d3a8e3ebe5a270b7 dmaengine: idxd: Clean up cpumask and hotplug for perfmon
-         5e645f31139183ac9a282238da18ca6bbc1c6f4a Merge branch 'perf/urgent' into perf/core, to pick up fixes
-         33c918498f7317bac93ed2ede98fb80e634679c3 perf/x86: Refine hybrid_pmu_type defination
-         e31d978bf88c85fc619cefbeb3542aac30cc8615 x86/cpu/intel: Define helper to get CPU core native ID
-         ed8f953b70d5c66bf36e8bbaeb8eaf2039e7d90a perf/x86/intel: Support hybrid PMU with multiple atom uarchs
-         bac2a553dbf2c4f749682407b8bb5cef71f8eba3 perf/x86/intel: Add PMU support for ArrowLake-H
+         801ae12521f066409bbf65943c103f33d66fc513 drop clk patch from all branches
          
+
+--===============0368903677221358947==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726059795 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1726059772-c299a13135b0714dd3034f454062655a71f28c78
+
+e391ec1f7e0a8ddc503261dad44f0c4d265c3f4a 801ae12521f066409bbf65943c103f33d66fc513 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhlRMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0nQP/jmpH6+7j/jCBNJdRuBe
+PNiJpBApbVDVYufgK6aff8vFsCmWXGJzOsrW/VYwx3+xbBP7TKKujUloxqGvHhk6
+ib+mQ62QEuYssIv8Frq/OLwY38BjBGn1lWvlPm9rHG0mL8SdZzZkZHMXD1Lp67lM
+OSrh32ieMK9IlfJTikopvmJBzmYqobQHQfjYW62B4qkMBJyaXGX/7lVhHxZEIgNK
+xRzENAtugfmLlY+nb9FdQ18+84Vz62sXVxJ48B2Bcoz1i00++5VnY8OKsoyYorLG
+T6g1sRW2tyTHeMOBZXYCFxflyhxsqn4dDHefKzpGujPjoZ6HMoG/YA1wGRiW6QNp
+Z6QKjXqWmZwRDunx2caFez4CWX1KNgEVOvitXZ00NTM5x7JlGza2svwy6SI3ZepC
+PANIwOL/bM01xf5exHNYfBRj69wcNEB013tfMuwPtaJgAajYBie4fvpTZd/l6UAf
+Ost6DDbqvVjBLNtrRXoGauwsHN3Vx1Ty44rj0XmNbq0Slibb7g20zv9K8MUoY/Na
+5KOxZFyIHqb1fn9uhUuXe6INHzZM9nZSPaeoP2CRQ6RBRFhPn/BQdFYiOH+drSIp
+O/gbuQ+0OaKWqNMQIEfLEfOQNFQyG3eYmCRIlZYnJxcnVYcKTkKz/wVvEGzmYK8B
++bPNISWXUbj5Xx3Czz+HtTOe
+=gezV
+-----END PGP SIGNATURE-----
+
+--===============0368903677221358947==--
