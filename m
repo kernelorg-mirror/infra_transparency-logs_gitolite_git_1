@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0733762121533627980=="
+Content-Type: multipart/mixed; boundary="===============4665915649106173290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Sep 2024 03:04:38 -0000
-Message-Id: <172602387823.1122470.11553870927050446338@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 03:08:53 -0000
+Message-Id: <172602413385.1126401.2976331545357899106@gitolite.kernel.org>
 
---===============0733762121533627980==
+--===============4665915649106173290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ea403549daa6e546a33418d029dc1984309a35db
-    new: 474bb1aa4548e6102c1b7e688595c820baf0f80f
-    log: revlist-ea403549daa6-474bb1aa4548.txt
+    old: 474bb1aa4548e6102c1b7e688595c820baf0f80f
+    new: f3b6129b7d252b2fbdcac2e0005abc6804dc287c
+    log: revlist-474bb1aa4548-f3b6129b7d25.txt
 
---===============0733762121533627980==
+--===============4665915649106173290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea403549daa6-474bb1aa4548.txt
+Content-Disposition: attachment; filename=revlist-474bb1aa4548-f3b6129b7d25.txt
 
-34c626c3004a73ee7da5072be48ddff9c2902902 net/mlx5: Added missing mlx5_ifc definition for HW Steering
-00b9f0daefd7670356e592d418c890acf9179c94 net/mlx5: Added missing definitions in preparation for HW Steering
-504e536d90104c850731840d3fbc95acf251f11b net/mlx5: HWS, added actions handling
-71a1372b8275dd1c57db045d4a710a5b8f124f52 net/mlx5: HWS, added tables handling
-49674803542c162a465819c1a5ca66b494ecf367 net/mlx5: HWS, added rules handling
-74a778b4a63faef9ff02aad0d332b209835f93e1 net/mlx5: HWS, added definers handling
-472dd792348f6601ccaa97d5626ee4faff891901 net/mlx5: HWS, added matchers functionality
-0869701cba3d4c9865a019d23b0d159aee90d23f net/mlx5: HWS, added FW commands handling
-aefc15a0fa1cfab233f490a4675167e5ca5c42b2 net/mlx5: HWS, added modify header pattern and args handling
-6c5e68254027e7a82cb4580fd1a28cda3d417a97 net/mlx5: HWS, added vport handling
-c61afff94373641695cc81999e9bb10408ea84d5 net/mlx5: HWS, added memory management handling
-2111bb970c787b16b002dc726c1d296ce87a00fb net/mlx5: HWS, added backward-compatible API handling
-d4a605e968e7f0af58f228ab7bf96d9d7d4f0b69 net/mlx5: HWS, added debug dump and internal headers
-2ca62599aa0bbc0e61595531614e0989ba6b3194 net/mlx5: HWS, added send engine and context handling
-510f9f61a1121a296a45962760d5e2824277fa37 net/mlx5: HWS, added API and enabled HWS support
-474bb1aa4548e6102c1b7e688595c820baf0f80f Merge tag 'mlx5-updates-2024-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+597b8af58bb2df443ebbdbdc4eef297f5d79d356 ice: add new VSI type for subfunctions
+004688c4cb5b2ef598fc33e4daf07ef76f79c16c ice: export ice ndo_ops functions
+eda69d654c7edae21312f731e0308941cb2ee2a9 ice: add basic devlink subfunctions support
+747967b0bbfae121d1f474b077001ddb24537259 ice: treat subfunction VSI the same as PF VSI
+f43e3be662e6e75352e0242e2a58c936d7a9a65f ice: allocate devlink for subfunction
+177ef7f1e2a051e8962048ffd41973d29be3302c ice: base subfunction aux driver
+8f9b681adb4437c8b2d1ad998d66b79558bc900a ice: implement netdev for subfunction
+415db8399d06a45ebd7b7d26b951f831a4b01801 ice: make representor code generic
+977514fb0fa84ca199262b1a9c1d6f3d8175e775 ice: create port representor for SF
+ef25090371725a340675a701b9ebd1a125a03ae1 ice: don't set target VSI for subfunction
+0f00a897c9fcbd20dcd47996a2cadde2b41adadc ice: check if SF is ready in ethtool ops
+54f07712395216e1961b1daf8b92f8e76368655d ice: implement netdevice ops for SF representor
+7cde47431df52c73ce51287ccacdc572bb3ddd0a ice: support subfunction devlink Tx topology
+0c6a3cb6f181c8edb1246016d12dbd08366eb383 ice: basic support for VLAN in subfunctions
+13acc5c4cdbeccf3274cbbd4de2e2d316b8c4ce6 ice: subfunction activation and base devlink ops
+f3b6129b7d252b2fbdcac2e0005abc6804dc287c Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============0733762121533627980==--
+--===============4665915649106173290==--
