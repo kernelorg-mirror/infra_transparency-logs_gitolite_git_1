@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 11 Sep 2024 06:19:20 -0000
-Message-Id: <172603556001.1274120.12134650065658818925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 11 Sep 2024 06:30:41 -0000
+Message-Id: <172603624114.1284611.15937280160352745210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/linux-next
-    old: 66618315515fb64da24fa72c9c636dbf4baad8f8
-    new: b5c88537fc45cd83f486b6f0416d91d4de469cde
+  - ref: refs/heads/for-next
+    old: 5ced8b914ed46edff0d265fb6f397bc851f5fd85
+    new: 9408ace468c317d60159c011b863b2982dae5e05
     log: |
-         de4237fd5174a0c193fd268ebf3e33b3d7ea7a3e xen: allow mapping ACPI data using a different physical address
-         908733c3992166ae9f69902f24c30b65a76ca53d xen: tolerate ACPI NVS memory overlapping with Xen allocated memory
-         4552a1dac0767877f04c68ca232f813f1ae6d5fc xen, pvh: fix unbootable VMs (PVH + KASAN - AMD_MEM_ENCRYPT)
-         7f5edbcc39155aea18dcf3b4211ff95dced3a518 x86/cpu: fix unbootable VMs by inlining memcmp() in hypervisor_cpuid_base()
-         57083d5748d47f6d46be2e550fc876a71e866d0f xen, pvh: fix unbootable VMs by inlining memset() in xen_prepare_pvh()
-         b5c88537fc45cd83f486b6f0416d91d4de469cde xen/xenbus: Convert to use ERR_CAST()
+         0ccbc99e05ec80a7a2348e12132f8341f5b890aa ALSA: hda: Add a new CM9825 standard driver
+         9408ace468c317d60159c011b863b2982dae5e05 ALSA: memalloc: Drop Xen PV workaround again
+         
+  - ref: refs/heads/master
+    old: 1ed61ca8160f0b728fc82d037abf8406dbfbe6bc
+    new: 2c237fd2d0b17f2e2480eb5c41bcb15bcdbafb3f
+    log: |
+         0ccbc99e05ec80a7a2348e12132f8341f5b890aa ALSA: hda: Add a new CM9825 standard driver
+         0138a883600e84b061b8a7e4f34dce7715c065ce Merge branch 'for-next'
+         9408ace468c317d60159c011b863b2982dae5e05 ALSA: memalloc: Drop Xen PV workaround again
+         2c237fd2d0b17f2e2480eb5c41bcb15bcdbafb3f Merge branch 'for-next'
          
