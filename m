@@ -1,41 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7658761728440560069=="
+Content-Type: multipart/mixed; boundary="===============8041461980237050658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Sep 2024 17:05:46 -0000
-Message-Id: <172607434649.1864845.1138764225086319556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Wed, 11 Sep 2024 17:06:55 -0000
+Message-Id: <172607441596.1865497.5918468859220644772@gitolite.kernel.org>
 
---===============7658761728440560069==
+--===============8041461980237050658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 58ff04e2e22319e63ea646d9a38890c17836a7f6
-    new: f765274d0c9436bc130911abbd97e52b1648d13c
-    log: revlist-58ff04e2e223-f765274d0c94.txt
+  - ref: refs/heads/rust/mm
+    old: 25860bc3deca552e5ed4883ed05aa9e25e4b1400
+    new: b09b751e4a02aeffa4fee95d3c3c9d0ff74bba65
+    log: revlist-25860bc3deca-b09b751e4a02.txt
 
---===============7658761728440560069==
+--===============8041461980237050658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58ff04e2e223-f765274d0c94.txt
+Content-Disposition: attachment; filename=revlist-25860bc3deca-b09b751e4a02.txt
 
-905415ff3ffb1d7e5afa62bacabd79776bd24606 lib/buildid: harden build ID parsing logic
-de3ec364c3c37971dbba1e37a55ae5b646c6f24e lib/buildid: add single folio-based file reader abstraction
-d4deb82423416e3ace7889816eea630af81fe702 lib/buildid: take into account e_phoff when fetching program headers
-4e9d360c4cdf2dc11a30fd5caf39e8c31f0896cb lib/buildid: remove single-page limit for PHDR search
-45b8fc3096542a53bfd245a9ad8ef870384b4897 lib/buildid: rename build_id_parse() into build_id_parse_nofault()
-ad41251c290dfe3c01472c94d2439a59de23fe97 lib/buildid: implement sleepable build_id_parse() API
-cdbb44f9a74fe7d01090ae492672e89cf7d83ce5 lib/buildid: don't limit .note.gnu.build-id to the first page in ELF
-4f4c4fc0153fb11ac40b16c24a24543dc9689d8c bpf: decouple stack_map_get_build_id_offset() from perf_callchain_entry
-d4dd9775ec242425576af93daadb80a34083a53c bpf: wire up sleepable bpf_get_stack() and bpf_get_task_stack() helpers
-3c217a182018e6c6d381b3fdc32626275eefbfb0 selftests/bpf: add build ID tests
-f765274d0c9436bc130911abbd97e52b1648d13c Merge branch 'harden-and-extend-elf-build-id-parsing-logic'
+1ddf371413a888e75df53b1b3ae9deeb8def6653 rust: alloc: implement kernel `Box`
+eb2c36f05a34a490584a200c9b92592e6bd60340 rust: treewide: switch to our kernel `Box` type
+68cb7d70f154821f90607e917fb93f245470afa9 rust: alloc: remove extension of std's `Box`
+ce606f5bc6ce1432593301d30bf7497db75c17a9 rust: alloc: add `Box` to prelude
+3f3d977f036adaf85eebf90d99433c9a4bc15c41 rust: alloc: implement kernel `Vec` type
+bb06f40b9403fd4f6fe59bf2406937076b2a75a5 rust: alloc: implement `IntoIterator` for `Vec`
+4436e4bf40fa4be91dfbe31f74f330c82a811faf rust: alloc: implement `collect` for `IntoIter`
+a65771cddd70747209b35fc5211c05c76b926674 rust: treewide: switch to the kernel `Vec` type
+c17b7b5e905ead8a2084031b28814aaf7b3027c6 rust: alloc: remove `VecExt` extension
+73df258be6a570ed1062c6584cbe18d5ad2a0ce8 rust: alloc: add `Vec` to prelude
+0bdbd8259afd32c3a433f61d20196df03a666799 rust: error: use `core::alloc::LayoutError`
+8951f469c1c359985cc959c7336f016ca297ce9e rust: error: check for config `test` in `Error::name`
+937fb78dc3aadb8ceec96199347b1afbf59643ca rust: alloc: implement `contains` for `Flags`
+cbdb1eeb57b319995c346df2458070fc1b20d295 rust: alloc: implement `Cmalloc` in module allocator_test
+78f741de70565d08c03e49998ec16718d81f30f3 rust: str: test: replace `alloc::format`
+99decd66dd1757ad6837297fcd234c5164ef6004 rust: alloc: update module comment of alloc.rs
+95e181d5c810de48034a1efee12485df1ac6e1fd kbuild: rust: remove the `alloc` crate and `GlobalAlloc`
+b09b751e4a02aeffa4fee95d3c3c9d0ff74bba65 MAINTAINERS: add entry for the Rust `alloc` module
 
---===============7658761728440560069==--
+--===============8041461980237050658==--
