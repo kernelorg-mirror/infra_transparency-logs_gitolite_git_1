@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4588328058145212122=="
+Content-Type: multipart/mixed; boundary="===============1825578074171655392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 11 Sep 2024 21:31:27 -0000
-Message-Id: <172609028772.107123.9995859099162522040@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 21:36:04 -0000
+Message-Id: <172609056405.110785.7033796590228621006@gitolite.kernel.org>
 
---===============4588328058145212122==
+--===============1825578074171655392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,35 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 1d4a1adbed2582444aaf97671858b7d12915bd05
-    new: 3e637826d02d699f5e9cf5820c39da261d721e1d
+  - ref: refs/heads/i2c/i2c-host-for-6.12
+    old: cea53041cc7ec7b704df16c874e9696aea422847
+    new: 4e8443efb8d642999ce5f261391e0de25ff77859
     log: |
-         3e637826d02d699f5e9cf5820c39da261d721e1d i2c: isch: Add missed 'else'
+         1db4da55070d6a2754efeb3743f5312fc32f5961 i2c: isch: Add missed 'else'
+         8588e562ec3337b90020607dfc5c5cc2646b625a Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         0c51fab6ef2f1fac8fea0caf431b4de4d282235d i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
+         af8d1071c57f3b06c01cf11e78e431a1bf121531 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
+         4e8443efb8d642999ce5f261391e0de25ff77859 i2c: cadence: Add atomic transfer support for controller version 1.4
          
 
---===============4588328058145212122==
+--===============1825578074171655392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1726090287 +0200
+pusher andi.shyti@kernel.org 1726090564 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1726090286-48a239a680cd74a1bdfab3f87f183b18c379dade
+nonce 1726090561-d278fc4fad5fd09851e082ffd65dd8059f8053a9
 
-1d4a1adbed2582444aaf97671858b7d12915bd05 3e637826d02d699f5e9cf5820c39da261d721e1d refs/heads/i2c/i2c-host-fixes
+cea53041cc7ec7b704df16c874e9696aea422847 4e8443efb8d642999ce5f261391e0de25ff77859 refs/heads/i2c/i2c-host-for-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuIMLxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uWekBANdm+R/x+4KLlgZLkHZ0JzkFSrQM
-r+UHnOlOCkAjWEbwAQCO69d8MDdyKYDA0LbTVUZIJRpiAbFfu5KTS5PuNS3ACg==
-=PriY
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuINRBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1urhEBALlwiQnAcUgEJdIB2SSSngXFa3FA
+khdNgJDatXWVmwvcAP9aHcq9Y/S/zbGN826UfsbW7EzVNGplYAU9yR4tUWR3Aw==
+=XAD2
 -----END PGP SIGNATURE-----
 
---===============4588328058145212122==--
+--===============1825578074171655392==--
