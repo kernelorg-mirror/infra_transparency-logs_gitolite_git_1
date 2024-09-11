@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2771091340685081857=="
+Content-Type: multipart/mixed; boundary="===============3790116131206407327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 11 Sep 2024 15:20:32 -0000
-Message-Id: <172606803238.1773277.13822114114203483308@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 15:20:34 -0000
+Message-Id: <172606803455.1773356.16155877125333537526@gitolite.kernel.org>
 
---===============2771091340685081857==
+--===============3790116131206407327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 48aa361c5db0b380c2b75c24984c0d3e7c1e8c09
     new: d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9
     log: revlist-48aa361c5db0-d1aaaa2e0a67.txt
 
---===============2771091340685081857==
+--===============3790116131206407327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e8a63d473b49011a68a748aea1c8aefa046ebacf selftests: net: csum: Fix checksums for
 3d731dc9b123610bb7a25c7e13c38666a1069e8c Merge tag 'mlx5-fixes-2024-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============2771091340685081857==--
+--===============3790116131206407327==--
