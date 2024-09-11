@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Sep 2024 00:28:10 -0000
-Message-Id: <172601449071.993709.12200275326149501294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 11 Sep 2024 00:36:23 -0000
+Message-Id: <172601498329.1002536.5567983453929784301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/main
-    old: 97b1ebb1e27d71a34367f6401ddebbd837d076a9
-    new: 3f464b193d40e49299dcd087b10cc3b77cbbea68
+  - ref: refs/heads/nfsd-next
+    old: 42ff64ba8c7ccbd0b5c681d342f872b363f6bc61
+    new: 127b5a02dfd56d350fc40534a42aa4bb0ba4197c
     log: |
-         3f464b193d40e49299dcd087b10cc3b77cbbea68 net: dsa: microchip: update tag_ksz masks for KSZ9477 family
+         da9852353b845b65d45eea9bd1a94ea93869446f xdrgen: Fix return code checking in built-in XDR decoders
+         ced4cfca5fb994326235a233a5d8d0156ed1d2e9 xdrgen: typedefs should use the built-in string and opaque functions
+         127b5a02dfd56d350fc40534a42aa4bb0ba4197c xdrgen: Prevent reordering of encoder and decoder functions
          
