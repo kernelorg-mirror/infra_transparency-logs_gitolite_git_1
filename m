@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5942857075854409643=="
+Content-Type: multipart/mixed; boundary="===============1045432427222130809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 11 Sep 2024 15:26:00 -0000
-Message-Id: <172606836077.1778392.17791122110348384598@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 15:26:03 -0000
+Message-Id: <172606836303.1778512.5881205665581204347@gitolite.kernel.org>
 
---===============5942857075854409643==
+--===============1045432427222130809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 525034e2e2ee60d31519af0919e374b0032a70de
     new: bf73478b539b4a13e0b4e104c82fe3c2833db562
     log: revlist-525034e2e2ee-bf73478b539b.txt
 
---===============5942857075854409643==
+--===============1045432427222130809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -106,4 +106,4 @@ a5f199a8d8a03512199a9e7cdd4d8ea06c943295 net: lan743x: Migrate phylib to phylink
 f95f28d794ed0b3c71103646ee29e0bcc947c83a net: lan743x: Add support to ethtool phylink get and set settings
 bf73478b539b4a13e0b4e104c82fe3c2833db562 Merge branch 'lan743x-phylink'
 
---===============5942857075854409643==--
+--===============1045432427222130809==--
