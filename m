@@ -1,72 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3225459393014834726=="
+Content-Type: multipart/mixed; boundary="===============8378717656326868578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 11 Sep 2024 13:57:55 -0000
-Message-Id: <172606307520.1700256.5065734362471111679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 11 Sep 2024 14:03:37 -0000
+Message-Id: <172606341736.1704654.4613778058920660901@gitolite.kernel.org>
 
---===============3225459393014834726==
+--===============8378717656326868578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: bbc75685d573695f0e201dd43c8b78e2b4575d1a
-    new: 17a1d7c5a49cae46b46a36eb4c4ee0add1565488
-    log: revlist-bbc75685d573-17a1d7c5a49c.txt
+  - ref: refs/heads/char-misc-testing
+    old: 895b4fae931a256f6c7c6c68f77a8e337980b5a1
+    new: 5baeb157b341b1d26a5815aeaa4d3bb9e0444fda
+    log: |
+         e9e46ed220abe2bac542d1b682d6dff68145c19f binder: modify the comment for binder_proc_unlock
+         5c09cfa5d21cfd820c183bd188be6f215d99770e cxl: Constify struct kobj_type
+         89ec686a17914a6b663b11b8bdaf3f966546da32 uio: Constify struct kobj_type
+         619bac6a97b4eb32bdbbe4525eaecfcef59edc1b hpet: Fix the wrong format specifier
+         0bad57708d7c16a409a2770e9e8c477a30b257c0 ocxl: Remove the unused declarations in headr file
+         5baeb157b341b1d26a5815aeaa4d3bb9e0444fda comedi: ni_routing: tools: Check when the file could not be opened
+         
 
---===============3225459393014834726==
+--===============8378717656326868578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726063090 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1726063067-950dc226225cca3b8093b25cc25ad1817e259be5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726063437 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1726063414-7de38276cba34fbe95972ebe737555120b9d2682
 
-bbc75685d573695f0e201dd43c8b78e2b4575d1a 17a1d7c5a49cae46b46a36eb4c4ee0add1565488 refs/heads/staging-testing
+895b4fae931a256f6c7c6c68f77a8e337980b5a1 5baeb157b341b1d26a5815aeaa4d3bb9e0444fda refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhofIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GRsQAKlf7crdkFtaT5R3U4n3
-fgP99n7aNgYiy95M4EFRjo1BsV7E+5Bn1J3gVgYxMNtJmuWHIGNsD5xDm4xFWrWN
-Xq32vcrzVxqE5RM6+gOqkrr6MyqrZE2Y/cPXIweM3ga6WDfZiMCqr6/46s4BBXRj
-m5lUXZmBBtsXunmJc96tXIAYMS33UxGapwcSfccCbxIJiY85oFnDIhBxqeagEZe5
-zy2Gr1LhzUtRN2MXGtjKFLKn/oHVRH+4MVVAZRAbNalISQwOMhkfHZftnUShddFc
-7ZyU+z/CmCpWAWSWiUX4ZplD04efNCTb6GD9Ie/YS2VpZLiq6UrKkmi/JfzOBhhB
-Ej+x29GxFE6ypDLrGCxCKpCdOidDbOY4uh97kbUJDCrF86XHCu1XS1g8E/577W3Z
-35Pe6eC8kVsbExdrQ6va+IkvNsIgUOfv8y/hA5WfMjIeDfHkG6T5vpcM/FfbpzSX
-Rr6SXOy0i7c1nn0PmlD8jyHc2H019pJvuL7/+gWuyb6Fe7c+D7uoq3sTRbuZ8g7k
-y/+dlBlLgghCB9v6crlu7Vtuz3buDR+UX2cQuvbWhYh+A2Xbyv8uEohIk+Y9QrNO
-SProYfSB1rIu9u2pebS2H/ggfZP7P6T8gOnK/9T4rHtLvt4AxDl6l0Nq7brGQumE
-mQzrkTgUVxij8HDm4bo9FiCR
-=/ZWk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbho00bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p9MQAIcgtUTJ7y9vqTAd3RpG
+z6JgQLwVVSo0Cdjw9BSfb9Hrsl5W3QV4I2IzQ0acDsLuf2THbjNoMwQf8ZWzbJRF
+hHcORLUleeKMeBjLppEuWFyvahU2q+H9FXgpO+x7pqZkJ6jbluiv3EofDe3VtoJP
+0BYuDr+Vxqwc6I/1RkeSMMkqE5lNS+tl4PyD+3PXWPAPWMSi5VqqwlfFqho719lX
+YEHZC83uW4RvJ78QTRLMb1+kOYcdTWvAdwEsdraXSQlbltug5p8J8lEMZP/OSRLu
+DvbBFO4T9muOcyaPQSezvjA4VF7RlO1EGIKzdAkbujrI8k4YFB4LmipXAke3xqqm
+U6aaDFIL+NAdjRPPcblSxjyJG/4OZmH9frx7Sof/Bv8SCrly6vzUwhhFXwHO2fW6
+5hYYFb1vvUC9L1UYd+en+LdMk+5FyOvS/KIRTRKXe9+mG3MJb3NMrO20QKQXeqzA
+vWRfXNkIKZt/cIZlBFpEewmFvxELpjRNtftDp29wanztf2no5We8fKOwefiBjyuT
+hiMHs9SfI9/otgn7V597tZrJcbdniiXfbV5dokD4SVPTeuN8yMnK/dE/gDdx+35F
+3QgwYFq0H4rcm+eLQQKwSVeQyZS+9hIf3Nc1GXLBS+haViMx/ldXDL7osRGFXKGB
+RRFLMQdTCrtmn+fFUDUfyy1z
+=GdrK
 -----END PGP SIGNATURE-----
 
---===============3225459393014834726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc75685d573-17a1d7c5a49c.txt
-
-a51942deb92682ef09b44c360bc223812e3f1499 staging: rtl8723bs: Remove unused function RTW_DISABLE_FUNC
-0d52df8c877b27fdb4992e70cc387a1fc78b1c3c staging: rtl8723bs: Remove unused function rxmem_to_recvframe
-7e902396f389b0148d17c77de992bf05eeba6fe5 staging: rtl8723bs: Remove unused function rtw_hal_get_odm_var
-370c7a835f781bcc3fbcdbbc536c260d8a430a3e staging: rtl8723bs: Remove unused function rf_reg_dump
-14adc53f4ccd8bf7357835ca2900a449b3095f67 staging: rtl8723bs: Remove unused function dump_4_rf_regs
-75758f449760181a9baacd999d5150e6c75dd7e3 staging: rtl8723bs: Remove unused function bb_reg_dump
-a5f6f2f1ec6a1dbdd8e03a8d612f4b1aeb698b95 staging: rtl8723bs: Remove unused function mac_reg_dump
-41087c3d42e357d1b9962d799bc8c2c83317071c staging: rtl8723bs: Remove unused function dump_4_regs
-211b4ed0572c39f9f49883ac00f18eeb9c6adc30 staging: rtl8723bs: Remove unused files rtw_debug.c and rtw_debug.h
-717ab65eb82b09c157ee43961686d65c005536a1 staging: rtl8723bs: Remove unused function rtw_ch2freq
-17a1d7c5a49cae46b46a36eb4c4ee0add1565488 staging: rtl8723bs: Remove unused file rtw_rf.c
-
---===============3225459393014834726==--
+--===============8378717656326868578==--
