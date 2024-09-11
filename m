@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7256688281863328398=="
+Content-Type: multipart/mixed; boundary="===============9075301206322581171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 11 Sep 2024 09:00:26 -0000
-Message-Id: <172604522610.1402227.2259892141067006305@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 09:00:37 -0000
+Message-Id: <172604523745.1402478.14642794319925292767@gitolite.kernel.org>
 
---===============7256688281863328398==
+--===============9075301206322581171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: c259acab839e57eab0318f32da4ae803a8d59397
-    new: f3b6129b7d252b2fbdcac2e0005abc6804dc287c
-    log: revlist-c259acab839e-f3b6129b7d25.txt
-  - ref: refs/heads/master
-    old: c259acab839e57eab0318f32da4ae803a8d59397
-    new: f3b6129b7d252b2fbdcac2e0005abc6804dc287c
-    log: revlist-c259acab839e-f3b6129b7d25.txt
+  - ref: refs/heads/testing
+    old: 3fddb392d6f209a024b458a719676d666254513a
+    new: 2b2a9a08f8f0b904ea2bc61db3374421b0f944a6
+    log: revlist-3fddb392d6f2-2b2a9a08f8f0.txt
 
---===============7256688281863328398==
+--===============9075301206322581171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1726045243 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1726045256 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1726045221-e5f6fafcbc1b3bb1b6e10320d8a7e1636f5f42c8
+nonce 1726045233-1a0d3e4617a2bbbb20a5d3df099490826cf55bc9
 
-c259acab839e57eab0318f32da4ae803a8d59397 f3b6129b7d252b2fbdcac2e0005abc6804dc287c refs/heads/main
-c259acab839e57eab0318f32da4ae803a8d59397 f3b6129b7d252b2fbdcac2e0005abc6804dc287c refs/heads/master
+3fddb392d6f209a024b458a719676d666254513a 2b2a9a08f8f0b904ea2bc61db3374421b0f944a6 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbhXDsTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b3JrB/4plKijRmwhf7aL4ncGaLKoyOCuEsED
-KPcmL7jSOt8ijFdpBUzrKnggrHtS6NEEIoVoxgBGTPu7GtYUBHS4eDciQCRI4Ryv
-+0uignKOjMP7RFvF8IVH7lfojqtoSsk3u8/evgsU6EGk/HbFl4pQqPWDCye5zGcC
-QTLAJi2kp6pDuiB5JcbH+LepjXYnbpAni9d4+TEjou/nPUpBilY8lAnS4AvzFYwK
-esUx7Pb1Lpv2jgdgh8rBurtKfXh4N6Cf/Kg2AcStdHqcBFGY8Bu73A7ji1hU4wVn
-gLEEdwhCEx4APIUAxoIsH9zb5EQ9UgzXTky0QzwfIqBib/PWhUoW/8eq
-=Ue53
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbhXEgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b+RgCACXVkOal7uCg0fhJGo2aa9GT0UAot0O
+/ue6J/gwffGg13qB6GJ/pwhz1vqwFZy60nDyKE2wUmD1zIvs06e9B0jobTZ77vzB
+xDsCmYHS9K6gUcLNG93ASP8IuaqJdcP59Ji2njtmEDyx67tHv4mGLiKjV25Gb9nv
+m6NWN89rFkv90KIOL98qmuLff7/sOK0ueXyIyaiLpteYQI9cGLPdNd5S0C/gL9pR
+v6qFgOobTsbBkDakqnclldMnBtingo+2AM6slLYAuYuATPWV7m0pp4NHwfsaW7sw
+U6K/xWuUBndQmlL03LRG/nMEYywjlPeTFG+e7tEo5uPOZTczOEpfQhwd
+=2nUM
 -----END PGP SIGNATURE-----
 
---===============7256688281863328398==
+--===============9075301206322581171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c259acab839e-f3b6129b7d25.txt
+Content-Disposition: attachment; filename=revlist-3fddb392d6f2-2b2a9a08f8f0.txt
 
 9b49f55838b1f42b2624216ce494f0536669e8f0 xfrm: Remove documentation WARN_ON to limit return values for offloaded SA
 6ad8bc92a47702f0b5d0b96b680199910b89f688 net: add copy from skb_seq_state to buffer function
@@ -82,9 +77,6 @@ ef25090371725a340675a701b9ebd1a125a03ae1 ice: don't set target VSI for subfuncti
 7cde47431df52c73ce51287ccacdc572bb3ddd0a ice: support subfunction devlink Tx topology
 0c6a3cb6f181c8edb1246016d12dbd08366eb383 ice: basic support for VLAN in subfunctions
 13acc5c4cdbeccf3274cbbd4de2e2d316b8c4ce6 ice: subfunction activation and base devlink ops
-dfb970cc5f612a95fdf142f34610fccb3b2fc18c net: can: cc770: Simplify parsing DT properties
-9a0e4c18cdec39b1d724703180e29156d86bb94b can: rockchip_canfd: fix return type of rkcanfd_start_xmit()
-9c100bc3ec13914f9911a937ec5b38182a5c3d64 can: rockchip_canfd: rkcanfd_timestamp_init(): fix 64 bit division on 32 bit platforms
 30ba6d2f3463ee296243cbcb628f7122c49db4a7 net: ethernet: fs_enet: convert to SPDX
 2b29ac68e786d8d16772bb92eee88ed7beda5d0d net: ethernet: fs_enet: cosmetic cleanups
 96bf0c4e9f485e286fef7c6677f16f37e7a7ff7c net: ethernet: fs_enet: drop the .adjust_link custom fs_ops
@@ -223,5 +215,11 @@ e35b0515bbc406de1b7e2703250e32c4acaeda38 Merge branch 'bnxt_en-msix-improvements
 ea403549daa6e546a33418d029dc1984309a35db Merge tag 'ipsec-next-2024-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 474bb1aa4548e6102c1b7e688595c820baf0f80f Merge tag 'mlx5-updates-2024-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 f3b6129b7d252b2fbdcac2e0005abc6804dc287c Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+221013afb459e5deb8bd08e29b37050af5586d1c can: Switch back to struct platform_driver::remove()
+fe1456451a111203860e124cda8396f8f2c9c16c can: usb: Kconfig: Fix list of devices for esd_usb driver
+709cbd5bb49b54c3d73c1a89b8ebce09c10ed2ed can: m_can: m_can_chip_config(): mask timestamp wraparound IRQ
+cd0983c7f8809d685bc57eda1f11cc1cdb67b9ac can: rockchip_canfd: rkcanfd_timestamp_init(): rework delay calculation
+a63e10462af67257b99b5330b32d1a47583803e2 can: rockchip_canfd: rkcanfd_handle_error_int_reg_ec(): fix decoding of error code register
+2b2a9a08f8f0b904ea2bc61db3374421b0f944a6 Merge patch series "can: rockchip_canfd: rework delay calculation and decoding of error code register"
 
---===============7256688281863328398==--
+--===============9075301206322581171==--
