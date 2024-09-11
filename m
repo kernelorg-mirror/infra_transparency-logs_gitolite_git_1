@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5304798010733806974=="
+Content-Type: multipart/mixed; boundary="===============1909794299368591215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 11 Sep 2024 10:53:42 -0000
-Message-Id: <172605202280.1492753.3026971923975984257@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 10:53:46 -0000
+Message-Id: <172605202655.1492907.13349044456109162747@gitolite.kernel.org>
 
---===============5304798010733806974==
+--===============1909794299368591215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 18024d60679a5ec34600ccd37cc1bf1f66f0eb6b
     new: f56f4ba2fc1dbefd3242946f2fad35338a60e3bc
     log: |
@@ -25,24 +25,24 @@ changes:
          f56f4ba2fc1dbefd3242946f2fad35338a60e3bc i2c: designware: Use pci_get_drvdata()
          
 
---===============5304798010733806974==
+--===============1909794299368591215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1726052044 +0200
+pusher andi.shyti@kernel.org 1726052048 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1726052021-9fcc554823011208c3bf8427879ed1eae9ef98e7
+nonce 1726052025-7528d7b01e056e4510c73cf1700426cf07d0eab9
 
-18024d60679a5ec34600ccd37cc1bf1f66f0eb6b f56f4ba2fc1dbefd3242946f2fad35338a60e3bc refs/heads/i2c/i2c-host
+18024d60679a5ec34600ccd37cc1bf1f66f0eb6b f56f4ba2fc1dbefd3242946f2fad35338a60e3bc refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuF2zBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uT3MBAOMU72+032YtlqxaeRZqfpqlPOwK
-9ys55yjZgXIawextAQDfb32U6I8HfLR3S3VJD3V9PIaZ4KyV1AdkYU6LBousBA==
-=fYwH
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZuF20BYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uRp4A/irdlHfzGjr08JFgzB+Kqi2t5Iui
+wG7VYPVoRv9RkingAP9buyoqqZw5DnnuOo76OKPgTucNehjiB8GAL2SOkDJNAA==
+=T7MP
 -----END PGP SIGNATURE-----
 
---===============5304798010733806974==--
+--===============1909794299368591215==--
