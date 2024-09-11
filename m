@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 11 Sep 2024 11:53:59 -0000
-Message-Id: <172605563991.1543051.9761240490375486288@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 12:05:17 -0000
+Message-Id: <172605631787.1553422.16373148043768568422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/tags/for-6.11/dm-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: 9d0a37382c517f66138a687430801b05b3e4f63c
+  - ref: refs/heads/for-next
+    old: 90da77987dd59c8f6ec6d508d23d5a77c7af64f1
+    new: 9c2010bccc0ce012f52de18ebd0c3add241f75b8
+    log: |
+         9c2010bccc0ce012f52de18ebd0c3add241f75b8 dm-integrity: check mac_size against HASH_MAX_DIGESTSIZE in sb_mac()
+         
