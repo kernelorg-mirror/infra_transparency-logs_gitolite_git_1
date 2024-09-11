@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3521559033803183413=="
+Content-Type: multipart/mixed; boundary="===============1782090101467098909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 11 Sep 2024 15:14:24 -0000
-Message-Id: <172606766486.1764576.7653133829351920095@gitolite.kernel.org>
+Date: Wed, 11 Sep 2024 15:14:32 -0000
+Message-Id: <172606767250.1764793.11000346047338556255@gitolite.kernel.org>
 
---===============3521559033803183413==
+--===============1782090101467098909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 48aa361c5db0b380c2b75c24984c0d3e7c1e8c09
-    new: d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9
-    log: revlist-48aa361c5db0-d1aaaa2e0a67.txt
+  - ref: refs/heads/dev-queue
+    old: d86717781c0f51d82c72b89f1e5ddfdf2a112e84
+    new: e53a32eb89ee503c40f7dff7858e0797768bf284
+    log: revlist-d86717781c0f-e53a32eb89ee.txt
 
---===============3521559033803183413==
+--===============1782090101467098909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48aa361c5db0-d1aaaa2e0a67.txt
+Content-Disposition: attachment; filename=revlist-d86717781c0f-e53a32eb89ee.txt
 
 9debb703e14939dfafa5d403f27c4feb2e9f6501 ice: Fix lldp packets dropping after changing the number of channels
 e843cf7b34fe2e0c1afc55e1f3057375c9b77a14 ice: fix accounting for filters shared by multiple VSIs
@@ -44,5 +44,15 @@ e8a63d473b49011a68a748aea1c8aefa046ebacf selftests: net: csum: Fix checksums for
 330dadacc59c2290e0fae47736ccd26b74aa1fd9 MAINTAINERS: Add ethtool pse-pd to PSE NETWORK DRIVER
 3d731dc9b123610bb7a25c7e13c38666a1069e8c Merge tag 'mlx5-fixes-2024-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+6519b3abaaea5b0a63779337c478f67a7a173068 ice: fix accounting for filters shared by multiple VSIs
+c5422dfa191075a062b8b4e08117c90daf2b63c7 ice: Flush FDB entries before reset
+130b04d240566eed9e064318f96333fc1eb4b714 ice: set correct dst VSI in only LAN filters
+631a7ea9538c11b9984ee84af0f5fe0b4190b534 idpf: fix VF dynamic interrupt ctl register initialization
+650082ed1e1a2e75b36dd94ab042eacef44dd272 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+ac5479a418a9740b8aca5620cd5914231ddb53c2 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+1a9f4340519a5538c3ff541563b469a62a8133ce idpf: use actual mbx receive payload length
+2ffc97b06c8e5106e53161affb9cacda639d9630 idpf: deinit virtchnl transaction manager after vport and vectors
+476afffa0b3e032705aed72b459f71ad6f0d8a5b iavf: allow changing VLAN state without calling PF
+e53a32eb89ee503c40f7dff7858e0797768bf284 ice: clear port vlan config during reset
 
---===============3521559033803183413==--
+--===============1782090101467098909==--
