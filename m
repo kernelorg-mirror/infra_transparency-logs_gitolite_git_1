@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5011797851918867024=="
+Content-Type: multipart/mixed; boundary="===============0559650554782902637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 11 Sep 2024 13:29:47 -0000
-Message-Id: <172606138714.1674162.9671844215072592464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 11 Sep 2024 13:33:40 -0000
+Message-Id: <172606162029.1677540.1924755163053195756@gitolite.kernel.org>
 
---===============5011797851918867024==
+--===============0559650554782902637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 07a316d64a1a53b2519ca2b7d69fe4e6d6527418
-    new: 5d13aa44d9aec1fe4b98223805d024fe113b6e5e
-    log: revlist-07a316d64a1a-5d13aa44d9ae.txt
+  - ref: refs/heads/usb-testing
+    old: 7b24a3bce42b9a0cbafd1bd12de349b82c649b79
+    new: 0088d7581b12c6b310fb57a25b7c07622655c23d
+    log: |
+         0088d7581b12c6b310fb57a25b7c07622655c23d tools: usb: p9_fwd: wrap USBG shell command examples in literal code blocks
+         
 
---===============5011797851918867024==
+--===============0559650554782902637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07a316d64a1a-5d13aa44d9ae.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e67266dc429670539d3569238493499a7981aae8 RDMA/mlx5: Check RoCE LAG status before getting netdev
-eb66fcc43fde8f157ff08f89b3fce45eae51b12a RDMA/mlx5: Obtain upper net device only when needed
-41068c95b0bf6e9e3a317636ab7386fcf7ba74a9 RDMA/mlx5: Initialize phys_port_cnt earlier in RDMA device creation
-95ae29d023a4ba077cdd255b294de733ab6f91f0 RDMA/device: Remove optimization in ib_device_get_netdev()
-425b36d3b2cb817d75c218bd1cea714dd88225c1 RDMA/mlx5: Use IB set_netdev and get_netdev functions
-9a13c8cffcf6e8b5897380124f747e85ae26fb44 RDMA/nldev: Add support for RDMA monitoring
-61eb1e03c16f3876afe704ac43e4356a235c7bca RDMA/nldev: Expose whether RDMA monitoring is supported
-6656fda9d744bda417b774af0043ab12e38731d1 RDMA/bnxt_re: Change aux driver data to en_info to hold more information
-5b93677f520908d7ffd5cc6c2b297c7f8d689e38 RDMA/bnxt_re: Use the aux device for L2 ULP callbacks
-c1fcf8aff481b6f7fa0ca2962aa9c28e2ea1885b RDMA/bnxt_re: Group all operations under add_device and remove_device
-5d13aa44d9aec1fe4b98223805d024fe113b6e5e RDMA/bnxt_re: Recover the device when FW error is detected
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726061641 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1726061618-cf5fcda71c8a5c5737aabba7b0f96b2bb4c97d39
 
---===============5011797851918867024==--
+7b24a3bce42b9a0cbafd1bd12de349b82c649b79 0088d7581b12c6b310fb57a25b7c07622655c23d refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbhnEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9c8QALLbdjOZmLT71omyHB98
+0gDcf3JIZRZ9LjvPao7B35Wf4/aDiSFLQUc72/jE0ICZZA4tnSw/BjrGZP5nQSvQ
+/HOJPJoqqk/qqdOoGVA5f/ueVs5lckMCt0MVH1jrCd6CexJf4DMGROPYORjF1MTJ
+Gvh3gc+Rhv77c/OTusOjwswFYBAtU+z/9k8BH9Nz8HeTvhagcwI2eB5FSAwEoJ2C
+/dzNqzhnDE9S1/BsLjbHhZSSCb0GXjgM4sYc01YgM+tpjTypOJs972Ok7tebJtDN
+1RklyRhr4L1GkFNhQ7WzvjJ/iEw7aMR1Z6D3pY14cRT5ltd+35XTmTFUO6dPiVN6
+JKTXO6h6gd2zUKUIYnpASRxtHtH0XQN/Zyg5p86CuglQXXsoxLtZsk1VN6GXeLM6
+z2astl/Q9ciZGuaw7fr7eRx3Jr576CQijVsbPQ2WiwmKhNL1eyjo1AH11Vn71rly
+JHeFc6YAn5MsT/62vmJ8nP7tWc8MMhd1Yr1gPUZUvfiPLrQGHpRz/UvE33BQbo0y
+AyvM/ClGAlLdJw5D/Rr1sCGuKGv9b3YWyurMwlt5dZcj5x2IBEDbevx5LUHiC1hF
+XlHJwvpO6S+gjSrK/Ug2yIt1KmQb2uzrsnUIAHxSEdT3pjPATGn2I6ugxr4TEiyO
+ZrLUsnA9auwuKvsDHldzjQBe
+=Q1G0
+-----END PGP SIGNATURE-----
+
+--===============0559650554782902637==--
