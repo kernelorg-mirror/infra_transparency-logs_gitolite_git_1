@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 11 Sep 2024 12:18:10 -0000
-Message-Id: <172605709020.1562406.18225460238791607811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 11 Sep 2024 12:20:44 -0000
+Message-Id: <172605724484.1565842.4492876819434587588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-6.11/upstream-fixes
-    old: d11cfda966c18d8bf4f0e3f6d82a09c0771c955a
-    new: 65b72ea91a257a5f0cb5a26b01194d3dd4b85298
+  - ref: refs/heads/review-hans
+    old: f5dd17e30a59791ba3523aeaab04bafe001b7f67
+    new: f80d7100f091e96b54beb32dc6d136520453582f
     log: |
-         65b72ea91a257a5f0cb5a26b01194d3dd4b85298 HID: multitouch: Add support for Thinkpad X12 Gen 2 Kbd Portfolio
-         
-  - ref: refs/heads/for-next
-    old: 5b09c15d1c11a9990e1d6b239a69980999f1d5e7
-    new: 5e7479f53d4c3721eabca30bf166add5b7de9707
-    log: |
-         65b72ea91a257a5f0cb5a26b01194d3dd4b85298 HID: multitouch: Add support for Thinkpad X12 Gen 2 Kbd Portfolio
-         5e7479f53d4c3721eabca30bf166add5b7de9707 Merge branch 'for-6.11/upstream-fixes' into for-next
+         cedf233530cc375343c5a0b612fe94392f246c99 platform/x86: intel/pmc: Ignore all LTRs during suspend
+         f80d7100f091e96b54beb32dc6d136520453582f platform/olpc: Remove redundant null pointer checks in olpc_ec_setup_debugfs()
          
