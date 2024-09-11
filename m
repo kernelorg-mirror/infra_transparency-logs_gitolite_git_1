@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 11 Sep 2024 06:30:41 -0000
-Message-Id: <172603624114.1284611.15937280160352745210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 11 Sep 2024 06:49:29 -0000
+Message-Id: <172603736998.1297163.16820260342878983582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 5ced8b914ed46edff0d265fb6f397bc851f5fd85
-    new: 9408ace468c317d60159c011b863b2982dae5e05
+  - ref: refs/heads/dev
+    old: ff1ca05f60f731b038b9a2515be5c6022f54fb05
+    new: 85ea711aafd3d1cab58ac757106536d742ec37f9
     log: |
-         0ccbc99e05ec80a7a2348e12132f8341f5b890aa ALSA: hda: Add a new CM9825 standard driver
-         9408ace468c317d60159c011b863b2982dae5e05 ALSA: memalloc: Drop Xen PV workaround again
-         
-  - ref: refs/heads/master
-    old: 1ed61ca8160f0b728fc82d037abf8406dbfbe6bc
-    new: 2c237fd2d0b17f2e2480eb5c41bcb15bcdbafb3f
-    log: |
-         0ccbc99e05ec80a7a2348e12132f8341f5b890aa ALSA: hda: Add a new CM9825 standard driver
-         0138a883600e84b061b8a7e4f34dce7715c065ce Merge branch 'for-next'
-         9408ace468c317d60159c011b863b2982dae5e05 ALSA: memalloc: Drop Xen PV workaround again
-         2c237fd2d0b17f2e2480eb5c41bcb15bcdbafb3f Merge branch 'for-next'
+         4102c472f214372501ee59fd8c7dccb7f31f03a6 erofs-utils: lib: tar: allow pax headers with empty names
+         c551dab0b57757607dd27a1ed764e6d3f9e9fdbd erofs-utils: mkfs: fix inaccurate assertion of hardlinks in rebuild mode
+         85ea711aafd3d1cab58ac757106536d742ec37f9 erofs-utils: lib: use another way to check power-of-2
          
