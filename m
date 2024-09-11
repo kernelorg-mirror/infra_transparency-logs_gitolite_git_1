@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 11 Sep 2024 00:27:41 -0000
-Message-Id: <172601446161.993426.5368146402565915659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Sep 2024 00:28:10 -0000
+Message-Id: <172601449071.993709.12200275326149501294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e8a63d473b49011a68a748aea1c8aefa046ebacf
-    new: 2f9caba9b2f68639047d67d7cbfa98f7f2ac3180
+    old: 97b1ebb1e27d71a34367f6401ddebbd837d076a9
+    new: 3f464b193d40e49299dcd087b10cc3b77cbbea68
     log: |
-         2f9caba9b2f68639047d67d7cbfa98f7f2ac3180 dt-bindings: net: tja11xx: fix the broken binding
+         3f464b193d40e49299dcd087b10cc3b77cbbea68 net: dsa: microchip: update tag_ksz masks for KSZ9477 family
          
