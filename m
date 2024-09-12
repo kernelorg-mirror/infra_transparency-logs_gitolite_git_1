@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 12 Sep 2024 20:23:52 -0000
-Message-Id: <172617263289.1383699.6055575784826697140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 12 Sep 2024 20:27:21 -0000
+Message-Id: <172617284111.1387281.6933054741974304975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: c668bb13274fca405297ad6d125f8ff81adae284
-    new: 9c6148bcbec686e8205ca56989ca51eb382411ac
+  - ref: refs/heads/dt/next
+    old: d97f8755c8116ec2c5081eb4500018b96d7c3566
+    new: 9cffe0bcc4263839e5a00bad670d4fa0b625f2ca
     log: |
-         bd07676ddade417c7cfefb58fb87c27751395bb3 ASoC: Intel: board_helpers: support HDA link initialization
-         b28b23dea31497548010c248398162ef4c25cfd2 ASoC: Intel: skl_hda_dsp_generic: use common module for DAI links
-         2c80bcc27557b5db4aca8a0c621fc7d5cd10cf7e ASoC: Intel: ehl_rt5660: do not check common_hdmi_codec_drv
-         f22a351fe2193dac803fc919096b734ff2947958 ASoC: Intel: sof_pcm512x: do not check common_hdmi_codec_drv
-         dfa1a7f456f10018229d0d5b3c36dd36a9b5344f ASoC: SOF: Intel: hda: remove common_hdmi_codec_drv
-         47d94c13d5f1f9f9c2bc29e26ebbd4efe912256c ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for ARL.
-         322706e16988f6156ddd8fdcc6d06f87efc058f6 ASoC: Intel: ARL: Add entry for HDMI-In capture support to non-I2S codec boards.
-         49b2597a9e53a2491cbec29451766af898eedb44 ASoC: Intel: boards: updates for 6.12 - part 2
-         9c6148bcbec686e8205ca56989ca51eb382411ac Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
+         9b4b9ddda8cd35111247d44f35df1f3341732bae dt-bindings: interrupt-controller: arm,gic: add ESPI and EPPI specifiers
+         7f180f00665cdd5f3484e13e0236f5dfc13d6a0f dt-bindings: interrupt-controller: fsl,irqsteer: Document fsl,imx8qm-irqsteer
+         0f3ee8f12c16c49fc09a61e6c23d5d42734fa8d7 dt-bindings: watchdog: qcom-wdt: document support on SA8255p
+         9cffe0bcc4263839e5a00bad670d4fa0b625f2ca of: property: Do some clean up with use of __free()
          
