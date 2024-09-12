@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0889856041261141403=="
+Content-Type: multipart/mixed; boundary="===============7418447484708009579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 12 Sep 2024 16:42:08 -0000
-Message-Id: <172615932810.1210517.17144654729083808358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Sep 2024 16:42:14 -0000
+Message-Id: <172615933485.1210678.2767190840778414796@gitolite.kernel.org>
 
---===============0889856041261141403==
+--===============7418447484708009579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: b787a33864121a565aeb0e88561bf6062a19f99c
     new: 2a8787c1cdc7be24fdd8953ecd1a8743a1006235
     log: |
          2a8787c1cdc7be24fdd8953ecd1a8743a1006235 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
          
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/spi-6.12
     old: 740c1c84bfa3d8c63bd3b01fb570e7452f51fbd8
     new: 07f1eb718db281c3e0cdb068ea7d73c30921a81c
     log: revlist-740c1c84bfa3-07f1eb718db2.txt
 
---===============0889856041261141403==
+--===============7418447484708009579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1726159327 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1726159325-2fc6922f21ca541ba7c3897b1bf82bc7dd3bf2c3
+pusher C3F436CA30F5D8EB 1726159334 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1726159331-799b8765594bef0f1a05903972c7b3ff611c40ed
 
-b787a33864121a565aeb0e88561bf6062a19f99c 2a8787c1cdc7be24fdd8953ecd1a8743a1006235 refs/heads/for-6.11
-740c1c84bfa3d8c63bd3b01fb570e7452f51fbd8 07f1eb718db281c3e0cdb068ea7d73c30921a81c refs/heads/for-6.12
+b787a33864121a565aeb0e88561bf6062a19f99c 2a8787c1cdc7be24fdd8953ecd1a8743a1006235 refs/heads/spi-6.11
+740c1c84bfa3d8c63bd3b01fb570e7452f51fbd8 07f1eb718db281c3e0cdb068ea7d73c30921a81c refs/heads/spi-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbjGd8ACgkQJNaLcl1U
-h9BBHwf7BD4Ocpw1e+9wLSAZp53e3UtZkP644OcmVlRTlhx0wj2fh5teCnWlkNgQ
-Rk87XEVdl28vLhFHt77qo5sn/uxbcv9IpHMwxcTxgSfcEbIXQRlF8H1xlm9vUfu8
-XvIDoEA+d+0L0kriq9FJP+2mEBC6iK2qeobRiHxNAVfx+jXAm0PsYv5jWHjuWxVa
-TRyVmu0v9cBy8/JbviS/yHOV8GClMF7+7XF1w1DpMg39Zn5703Eibj9ahcAqftrt
-Y83Y77XH1kDVurwbQhEadfvSvDoLS2BjRsLFi82Ja0J8/zYtPLhim5Q6DLHGZtiy
-UzmOQxQndWht7GWSP8/yxOypz8wFWA==
-=SCXz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbjGeYACgkQJNaLcl1U
+h9Bkxgf/Rhde0jHOWopXt+tlAO/miLWCGYrmIp/IMxWsZnVQmLGve0w8uA2JYuJM
+M2ZK/8P+DmX1awHJDpUrJUG1LdxZ9ZQEehQyD8L5zXHhst9J8xP0eFHu6bLvAVi8
+xyYiwpDWWHf6lDiZToqGaNPVdp1jekxvUw5C88r8dclF+Whd/htKsoqmloLjIBXa
+tUXeGuB4dByaZ3bVPjv+52I6tGrey+sSkbTytwVV8NasChujc8GM36+6P9umJuy9
+byHEdgwH1R8JeCNRXnd35Pc1v6gKRVFMe/mXbHlTPJZUVZmK3t+VJhCvBZZd/W9u
+q93KOlGhRnKonKVZAcUNBLqFzJk0cw==
+=RUdL
 -----END PGP SIGNATURE-----
 
---===============0889856041261141403==
+--===============7418447484708009579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ b787a33864121a565aeb0e88561bf6062a19f99c spi: geni-qcom: Fix incorrect free_irq(
 f10d52087cbe85dcff2af3dc94c5b9d06e6d4b9a spi: Merge up fixes
 07f1eb718db281c3e0cdb068ea7d73c30921a81c spi: geni-qcom: Use devm functions to simplify code
 
---===============0889856041261141403==--
+--===============7418447484708009579==--
