@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0189936739487042622=="
+Content-Type: multipart/mixed; boundary="===============1938982883878669729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 12 Sep 2024 15:13:07 -0000
-Message-Id: <172615398755.1134319.4586891569091831445@gitolite.kernel.org>
+Date: Thu, 12 Sep 2024 15:13:17 -0000
+Message-Id: <172615399776.1134664.1568727627049436438@gitolite.kernel.org>
 
---===============0189936739487042622==
+--===============1938982883878669729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: a2b374fedce825404e751e9609b8f5627d34597d
     new: 357da696640e1db8fc8829a4dd1bb2d0402169b5
     log: revlist-a2b374fedce8-357da696640e.txt
 
---===============0189936739487042622==
+--===============1938982883878669729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ fa6235f320260dd24f67cebc211fca12e55672a2 LoongArch: KVM: Add EIOINTC user mode r
 7be4f6a2a443c5285a8ac1a070a730ac4c499a4f LoongArch: KVM: Add PCHPIC user mode read and write functions
 357da696640e1db8fc8829a4dd1bb2d0402169b5 LoongArch: KVM: Add irqfd support
 
---===============0189936739487042622==--
+--===============1938982883878669729==--
