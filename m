@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3024579339702121888=="
+Content-Type: multipart/mixed; boundary="===============8564996765694967907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Thu, 12 Sep 2024 14:11:14 -0000
-Message-Id: <172615027442.1084361.4869201507615501504@gitolite.kernel.org>
+Date: Thu, 12 Sep 2024 14:11:20 -0000
+Message-Id: <172615028051.1084559.8461006156276682084@gitolite.kernel.org>
 
---===============3024579339702121888==
+--===============8564996765694967907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: 9187210eee7d87eea37b45ea93454a88681894a4
     new: 3cfb5aa10cb78571e214e48a3a6e42c11d5288a1
     log: revlist-9187210eee7d-3cfb5aa10cb7.txt
 
---===============3024579339702121888==
+--===============8564996765694967907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ afd42170c8a6e68edd3f3a7f2aacd2bfbedb58b2 net: ethernet: oa_tc6: add helper funct
 ac49b950bea9e76ae435b9f9c340a4da7261364b dt-bindings: net: add Microchip's LAN865X 10BASE-T1S MACPHY
 3cfb5aa10cb78571e214e48a3a6e42c11d5288a1 Merge branch 'add-support-for-open-alliance-10base-t1x-macphy-serial-interface'
 
---===============3024579339702121888==--
+--===============8564996765694967907==--
