@@ -1,63 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5160275747323591509=="
+Content-Type: multipart/mixed; boundary="===============4317839503610713728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Thu, 12 Sep 2024 06:58:52 -0000
-Message-Id: <172612433218.556482.12003786361280276078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 12 Sep 2024 07:04:46 -0000
+Message-Id: <172612468638.560859.3083166960887579467@gitolite.kernel.org>
 
---===============5160275747323591509==
+--===============4317839503610713728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: f8723d169b010e156b89aeb2ab1a126a4453e233
-    new: 1bc6f4910ae955971097f3f2ae0e7e63fa4250ae
-    log: revlist-f8723d169b01-1bc6f4910ae9.txt
-  - ref: refs/heads/test
-    old: f8723d169b010e156b89aeb2ab1a126a4453e233
-    new: 1bc6f4910ae955971097f3f2ae0e7e63fa4250ae
-    log: revlist-f8723d169b01-1bc6f4910ae9.txt
-  - ref: refs/heads/vhost
-    old: f8723d169b010e156b89aeb2ab1a126a4453e233
-    new: 1bc6f4910ae955971097f3f2ae0e7e63fa4250ae
-    log: revlist-f8723d169b01-1bc6f4910ae9.txt
+  - ref: refs/heads/char-misc-testing
+    old: 71e4cf9d790632ca14e6dc4530365e6ca2ee3d4a
+    new: 0cf7befa3ea2e7284d8ba5b8f45a546865b09edb
+    log: |
+         e1fa41ba54b170a67a095fdddb2553d08d2d9c79 dt-bindings: net: ti,cc1352p7: Add bootloader-backdoor-gpios
+         bc65745dc685d09a341dc1d4f83229e631a83fe3 arm64: dts: ti: k3-am625-beagleplay: Add bootloader-backdoor-gpios to cc1352p7
+         0cf7befa3ea2e7284d8ba5b8f45a546865b09edb greybus: gb-beagleplay: Add firmware upload API
+         
 
---===============5160275747323591509==
+--===============4317839503610713728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8723d169b01-1bc6f4910ae9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-541189325e3c5e33d9e5190bdcd20a3f842c344b net/mlx5: Support throttled commands from async API
-789c9c4941bec0df1a6dfe6ca9fb2ebb4e25fffc vdpa/mlx5: Introduce error logging function
-f6d3c686dacc5ced6b775c22e2dd4fe49c26a68c vdpa/mlx5: Introduce async fw command wrapper
-9405d777cb250ec405187393c92f7c48d665188e vdpa/mlx5: Use async API for vq query command
-1fe47d28fb7871b80c205ce381df863b83c2546f vdpa/mlx5: Use async API for vq modify commands
-6559b78431b1673f03e317ff42175b22730a3aa5 vdpa/mlx5: Parallelize device suspend
-7b2ec63b4859aae219acb70da54856a5b2228cca vdpa/mlx5: Parallelize device resume
-d6a40cfd97aafe9cea55aa62b2d14fa02d17d8c2 vdpa/mlx5: Keep notifiers during suspend but ignore
-137844830e6befb4c101269169326d23ee74a1e7 vdpa/mlx5: Small improvement for change_num_qps()
-acba6a443aa4cc1432d1044c4bbc2cdbcf977145 vdpa/mlx5: Parallelize VQ suspend/resume for CVQ MQ command
-fbb072d2d19133222e202ea7c267cfc1f6bd83b0 ack! vdpa/mlx5: Parallelize device suspend/resume
-6203f5dfcb9d4ed22bf3c0fac114975d9e733b68 vdpa: Remove unused declarations
-007d62de6538e6cc770d393cf648a36c7af39840 virtio_fs: introduce virtio_fs_put_locked helper
-08b27514582bd0fee017d7b2808365e9175f7357 virtio_fs: add sysfs entries for queue information
-7ef85a0e0145479de8d50bedbe685aaea1d0da02 MAINTAINERS: add virtio-vsock driver in the VIRTIO CORE section
-982ddf9dea162ab88175dbf804bcf50ea840ee0d vdpa/mlx5: Create direct MKEYs in parallel
-1ece8559cdd34ae033c8fe5dcbb18784de4b942d vdpa/mlx5: Delete direct MKEYs in parallel
-16585ddbdec3c02fed1495f36b275e45cc041c68 vdpa/mlx5: Rename function
-af2189aba6a492e05648ca9ca72da5818a2626fd vdpa/mlx5: Extract mr members in own resource struct
-9180c8a4f791a34c9c77d98f1cd1404f5d88b78b vdpa/mlx5: Rename mr_mtx -> lock
-520c4653e8969ddb8504a357c4c1d89ac0e3b348 vdpa/mlx5: Introduce init/destroy for MR resources
-a5253d58baea9268bf7b48a2ea5a0db128435302 vdpa/mlx5: Postpone MR deletion
-53d4e258dcb6ccecb4953e5beae165e456b87f03 fw_cfg: Constify struct kobj_type
-8b01e780cff0a1907c4b0ff44cdcbda9ee272745 vsock/virtio: refactor virtio_transport_send_pkt_work
-1bc6f4910ae955971097f3f2ae0e7e63fa4250ae vsock/virtio: avoid queuing packets when intermediate queue is empty
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726124683 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1726124680-bac77d16d34eb65b1622d093a84d692986fbf15d
 
---===============5160275747323591509==--
+71e4cf9d790632ca14e6dc4530365e6ca2ee3d4a 0cf7befa3ea2e7284d8ba5b8f45a546865b09edb refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbikosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7QMP+gN2Km/dJcbacmlfQvrv
+5MSQE1VUEZRId8GYyEalZW7b5U3SoQSMfcoOIwiRd7Q7IQ29q910Bnt0PJeSvloh
+4FH2DS1LHmyKy0mPHcuEFAPXw172IEHAJfnmgeCf39/XC42OF2USTFSxx4wvLWng
+B9TDZzsl0rYoNlXxS2hwv5v1sRC62vx5JCxFgxAeyNCltCJ5yYLt87Hz70hIn9z9
+isFD+2ZUmykGzkXM/8rDT5pI4ySkrDRhb/cT6P6asLdTEAtZmqv8GMnx9kuqYWAo
+HALq11RMNc0xy3LCGF/dbRRDprszz96SSPTbgCbLl9vksW0GjZC4PzqJx8EhZLL+
+gW6wScp405Tuo8xLa4f3JXlVIFZD6Tb7KUGnGgrX3ZGvsr8ig+9yA5RGQtCr1IyB
+BBxEce6bFmtveihflgYqappItr2OIZZV82RmZ7JqwtODgx9yv7No2sXQNqHJjSHz
+KFaaxpRKA/BAQopitATI5eKnh9UicFzSKs8fruw17JNAfd1iTob7mHoyUtwwx2IJ
+usdVYkKFl8Zwnoo1+fVMYlabkChlJDC/RLIAuvOsAKsQbOQaMRgc0zBhfmAzKgx3
+hUD+t+hrj5Fs4QvUj1Q6anfoELHdTlflSRNYAHoTMjHItiizFFtVh2loUht1WBM9
+kcey3NbGIbUXQ8lvPYdJxA9I
+=+aLw
+-----END PGP SIGNATURE-----
+
+--===============4317839503610713728==--
