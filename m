@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 12 Sep 2024 09:35:20 -0000
-Message-Id: <172613372060.833299.9280989678060692857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 12 Sep 2024 09:52:39 -0000
+Message-Id: <172613475950.877009.13712147243131366843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/dev
-    old: 7d44934352f74bdd12b70eda1ae2387151ae5b15
-    new: 3324c1a4faf2add0bd51ab2a24ba1236495dc72e
-    log: |
-         9d09387621e8c91537257eee298df1b3c157995f erofs: restrict pcluster size limitations
-         3324c1a4faf2add0bd51ab2a24ba1236495dc72e erofs: reject inodes with negative i_size
-         
+  - ref: refs/tags/mips_6.12
+    old: 0000000000000000000000000000000000000000
+    new: 224ca00164a578664482f2c04c4aa638bbdfe1fe
