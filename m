@@ -1,24 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3257348116917071328=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Sep 2024 20:23:39 -0000
-Message-Id: <172617261956.1383501.12672524101028569488@gitolite.kernel.org>
-
---===============3257348116917071328==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Sep 2024 20:23:52 -0000
+Message-Id: <172617263289.1383699.6055575784826697140@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: f6e2e7397d00192bda11166d5fb3e2e67a8cf92e
-    new: 49b2597a9e53a2491cbec29451766af898eedb44
+  - ref: refs/heads/for-next
+    old: c668bb13274fca405297ad6d125f8ff81adae284
+    new: 9c6148bcbec686e8205ca56989ca51eb382411ac
     log: |
          bd07676ddade417c7cfefb58fb87c27751395bb3 ASoC: Intel: board_helpers: support HDA link initialization
          b28b23dea31497548010c248398162ef4c25cfd2 ASoC: Intel: skl_hda_dsp_generic: use common module for DAI links
@@ -28,30 +23,5 @@ changes:
          47d94c13d5f1f9f9c2bc29e26ebbd4efe912256c ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for ARL.
          322706e16988f6156ddd8fdcc6d06f87efc058f6 ASoC: Intel: ARL: Add entry for HDMI-In capture support to non-I2S codec boards.
          49b2597a9e53a2491cbec29451766af898eedb44 ASoC: Intel: boards: updates for 6.12 - part 2
+         9c6148bcbec686e8205ca56989ca51eb382411ac Merge remote-tracking branch 'asoc/for-6.12' into asoc-next
          
-
---===============3257348116917071328==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1726172619 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1726172617-0cec241fcce177ddaddb3713c2b19d7d95671499
-
-f6e2e7397d00192bda11166d5fb3e2e67a8cf92e 49b2597a9e53a2491cbec29451766af898eedb44 refs/heads/asoc-6.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbjTcsACgkQJNaLcl1U
-h9AcfQf8DMd4mOx4jtJf+r0vlMbkuyntxiGm3BN4iMA7nRZ0QK2uDcogoCx0cCRZ
-7oxAvouPBef0cBkJ1xkOmsvtpcuywP+epU6fyjbSqnYvOMBc8uKdBAs4DGTGI84b
-eXxo9d5N9lZkGk2K5CGo7q3XMUFsnBvhM3mzv0zQCwLC39tJLS6tbR9i25Paf/Zc
-zx5i4l/h+Vm/PwEpXuWdg1rOhw4CQFHlxOmO/lefzxG/AIBGQjQJoIu1rAq4XtTS
-Cez3FwXAvRVMcSRKRC205MeWKygUOW4tFieea+GV9NMpK3ARROMlgRoOOJMb9ESK
-e6g+xaqV7BeP6vDtfvsH9hrjaTM1lQ==
-=Fqf1
------END PGP SIGNATURE-----
-
---===============3257348116917071328==--
