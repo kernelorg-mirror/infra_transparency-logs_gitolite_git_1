@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 12 Sep 2024 20:54:01 -0000
-Message-Id: <172617444184.1408013.181117399485779174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 12 Sep 2024 21:04:13 -0000
+Message-Id: <172617505379.1415746.2487868986714946105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 9cffe0bcc4263839e5a00bad670d4fa0b625f2ca
-    new: 2d1ccb6b90ba1f9e6aac0fd3116acedb2399f0c3
+  - ref: refs/heads/master
+    old: 67a65fa0afb487e9857a0e9c54b773a33c62b6fe
+    new: 2c7c0064ce8b6e3c361302a9c2b6d49f5c0730a7
     log: |
-         2d1ccb6b90ba1f9e6aac0fd3116acedb2399f0c3 drivers/of: Improve documentation for match_string
+         2c7c0064ce8b6e3c361302a9c2b6d49f5c0730a7 Thu Sep 12 05:03:18 PM EDT 2024
          
