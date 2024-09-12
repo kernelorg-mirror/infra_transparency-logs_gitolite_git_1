@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4469248668697849369=="
+Content-Type: multipart/mixed; boundary="===============1173323217454849697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 12 Sep 2024 13:04:50 -0000
-Message-Id: <172614629050.1027630.8789015211195905810@gitolite.kernel.org>
+Date: Thu, 12 Sep 2024 13:05:04 -0000
+Message-Id: <172614630417.1029746.3269296190255845935@gitolite.kernel.org>
 
---===============4469248668697849369==
+--===============1173323217454849697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: a1654ae45ea695d81c15c300f2233ac1e68c140c
     new: 51c5fa17f8848206b9a40988053daedc67233e6c
     log: revlist-a1654ae45ea6-51c5fa17f884.txt
 
---===============4469248668697849369==
+--===============1173323217454849697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b86b08fc3ab5e719e93b7dfed021233d2baa6764 LoongArch: KVM: Add PCHPIC device suppo
 a7b7af70b2898d101301c7a932ea596987c655ce LoongArch: KVM: Add PCHPIC user mode read and write functions
 51c5fa17f8848206b9a40988053daedc67233e6c LoongArch: KVM: Add irqfd support
 
---===============4469248668697849369==--
+--===============1173323217454849697==--
