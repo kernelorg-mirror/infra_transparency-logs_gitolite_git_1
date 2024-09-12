@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
-Date: Thu, 12 Sep 2024 17:10:44 -0000
-Message-Id: <172616104409.1234666.2016667813531570740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 12 Sep 2024 17:11:12 -0000
+Message-Id: <172616107277.1235212.14022282214167750183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/kernel-shark
-user: y.karadzhov
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/kernelshark
-    old: 9e33324644fff49b7aa15d34f836e72af8b32c78
-    new: 59aeaca7afd6cc415bd7127bee528603535ddae5
-    log: |
-         59aeaca7afd6cc415bd7127bee528603535ddae5 kernel-shark: In CI switch to v4 of the artefact actions
-         
+  - ref: refs/tags/hwmon-for-v6.11-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 202bf5254a6d0637784ac6427d4c7d30f648dfdb
