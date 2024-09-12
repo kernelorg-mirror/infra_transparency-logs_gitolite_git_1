@@ -1,106 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============0257823591866541614=="
+Content-Type: multipart/mixed; boundary="===============1887669801105533855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 12 Sep 2024 13:18:36 -0000
-Message-Id: <172614711620.1040303.14156234053175488418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 12 Sep 2024 13:22:51 -0000
+Message-Id: <172614737194.1044089.15348359827580425265@gitolite.kernel.org>
 
---===============0257823591866541614==
+--===============1887669801105533855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/vfs.all
-    old: e2376b68cb7c0d79ff2cc72c9973c6952dab0a5d
-    new: 047b74d00949bd45ad32d29bf0b7ff6679c4109f
-    log: revlist-e2376b68cb7c-047b74d00949.txt
-  - ref: refs/heads/vfs.blocksize
-    old: b1daf3f8475fa2a4ffc1668043de738241f95d1d
-    new: 71fdfcdd0dc8344ce6a7887b4675c7700efeffa6
-    log: |
-         7a9d43eace888a0ee6095035997bb138425844d3 iomap: handle a post-direct I/O invalidate race in iomap_write_delalloc_release
-         b53fdb215d13f8e9c29541434bf2d14dac8bcbdc iomap: improve shared block detection in iomap_unshare_iter
-         11596dc3dfae572cc267dda2dc4dab9ae34668f3 iomap: pass flags to iomap_file_buffered_write_punch_delalloc
-         492f53758fad4fde3e9a98696780f8b53f87cdae iomap: pass the iomap to the punch callback
-         4bceb9ba05aca23652567fb5f899cc7fcb12c8d0 iomap: remove the iomap_file_buffered_write_punch_delalloc return value
-         71fdfcdd0dc8344ce6a7887b4675c7700efeffa6 Documentation: iomap: fix a typo
-         
-  - ref: refs/heads/vfs.file
-    old: b84f44f73774f55a17ae043897f58c1e5b1af4cf
-    new: 24a988f75c8a5f16ef935c51039700e985767eb9
-    log: |
-         7a7ce8b3ba66754f5d275a71630b4ee8b507d266 input: remove f_version abuse
-         ceaa5e80db7c73321c89fda39c3c8c78817aecd2 ocfs2: store cookie in private data
-         b4dba2efa8106002076b070fdff24ed6bf1ea87b proc: store cookie in private data
-         3dd4624ffcd2e6e5d2cee5a6c234774ce27e1f04 udf: store cookie in private data
-         0bea8287df6c86cacaf34eef167f23dcc5dbcede ufs: store cookie in private data
-         1146e5a69efca76501378f748388fd7742ad09cf ubifs: store cookie in private data
-         5e9b50dea970ae6d3e1309d4254157099734a2af fs: add f_pipe
-         5a957bbac3ab9808a8df711a269e4d18f84e9e4a pipe: use f_pipe
-         11068e0b64cbb540b96e577fcca0926242ecaf58 fs: remove f_version
-         24a988f75c8a5f16ef935c51039700e985767eb9 Merge patch series "file: remove f_version"
-         
-  - ref: refs/heads/vfs.misc
-    old: 698e7d1680544ef114203b0cf656faa0c1216ebc
-    new: 2077006d4725c82c6e9612cec3a6c140921b067f
-    log: |
-         2077006d4725c82c6e9612cec3a6c140921b067f uidgid: make sure we fit into one cacheline
-         
+  - ref: refs/heads/ep93xx/dt-conversion
+    old: 7fc923f499c313267e1f1d53440ef96e58f02ad0
+    new: f75308a6e96d0989b0a19cd9181786c1b6f34759
+    log: revlist-7fc923f499c3-f75308a6e96d.txt
 
---===============0257823591866541614==
+--===============1887669801105533855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2376b68cb7c-047b74d00949.txt
+Content-Disposition: attachment; filename=revlist-7fc923f499c3-f75308a6e96d.txt
 
-7a9d43eace888a0ee6095035997bb138425844d3 iomap: handle a post-direct I/O invalidate race in iomap_write_delalloc_release
-b53fdb215d13f8e9c29541434bf2d14dac8bcbdc iomap: improve shared block detection in iomap_unshare_iter
-11596dc3dfae572cc267dda2dc4dab9ae34668f3 iomap: pass flags to iomap_file_buffered_write_punch_delalloc
-492f53758fad4fde3e9a98696780f8b53f87cdae iomap: pass the iomap to the punch callback
-4bceb9ba05aca23652567fb5f899cc7fcb12c8d0 iomap: remove the iomap_file_buffered_write_punch_delalloc return value
-7a7ce8b3ba66754f5d275a71630b4ee8b507d266 input: remove f_version abuse
-ceaa5e80db7c73321c89fda39c3c8c78817aecd2 ocfs2: store cookie in private data
-b4dba2efa8106002076b070fdff24ed6bf1ea87b proc: store cookie in private data
-3dd4624ffcd2e6e5d2cee5a6c234774ce27e1f04 udf: store cookie in private data
-0bea8287df6c86cacaf34eef167f23dcc5dbcede ufs: store cookie in private data
-1146e5a69efca76501378f748388fd7742ad09cf ubifs: store cookie in private data
-5e9b50dea970ae6d3e1309d4254157099734a2af fs: add f_pipe
-5a957bbac3ab9808a8df711a269e4d18f84e9e4a pipe: use f_pipe
-11068e0b64cbb540b96e577fcca0926242ecaf58 fs: remove f_version
-24a988f75c8a5f16ef935c51039700e985767eb9 Merge patch series "file: remove f_version"
-2077006d4725c82c6e9612cec3a6c140921b067f uidgid: make sure we fit into one cacheline
-db0aa2e9566fda2d23dc8f6c102856ead95578a4 mm: Define struct folio_queue and ITER_FOLIOQ to handle a sequence of folios
-197a3de607d92b3d72e69edf5470e0a8fae548cc iov_iter: Provide copy_folio_from_iter()
-c45ebd636c32d33c75e51ce977520ff146bd41a1 cifs: Provide the capability to extract from ITER_FOLIOQ to RDMA SGEs
-cd0277ed0c188dd40e7744e89299af7b78831ca4 netfs: Use new folio_queue data type and iterator instead of xarray iter
-bfaa33b8ba196f9506a45e5a36e968f087c8cd16 netfs: Provide an iterator-reset function
-983cdcf8fe141b0ce16bc71959a5dc55bcb0764d netfs: Simplify the writeback code
-2e45b922977c07bb339d76fd45e68f9b907fef7d afs: Make read subreqs async
-ee4cdf7ba857a894ad1650d6ab77669cbbfa329e netfs: Speed up buffered reading
-86b374d061ee0dc1cf15b56659ab13542518770a netfs: Remove fs/netfs/io.c
-c4f1450ecccc5311db87f806998eda1c824c4e35 cachefiles, netfs: Fix write to partial block at EOF
-8f246b7c0a1be0882374f2ff831a61f0dbe77678 netfs: Cancel dirty folios that have no storage destination
-2982c8c19bab020e38da9d503aa21a3b389c53ac cifs: Use iterate_and_advance*() routines directly for hashing
-a2906d3316fc19bf0ade84618bb73eab604c447e cifs: Switch crypto buffer to use a folio_queue rather than an xarray
-4aa571d67e81b5b213abf9b4daa5523beb0e58e8 cifs: Don't support ITER_XARRAY
-3956e7284c41629eb8f1e7104f1e73332bd1ce97 Merge branch 'netfs-writeback' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
-4b40d43d9f951d87ae8dc414c2ef5ae50303a266 docs: filesystems: corrected grammar of netfs page
-71fdfcdd0dc8344ce6a7887b4675c7700efeffa6 Documentation: iomap: fix a typo
-a86d96e0d350ea4e7d700599e7c7fe1cdc806556 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-c09bcbf2727e4c02e8c82f07766029b481a16652 Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-dfea41ea007abbc9bcd9125b3347b4421ba0168c Merge branch 'vfs.mount' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-718c4603ee251ad4a53739d9d2158d8c86e70ea5 Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-d88f67c9448b211368b9f4d9c6eef5c3d6a8ab68 Merge branch 'vfs.folio' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-f669e228154476d0622a68ac4212e407e6b69f88 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-fff353c098ccca35a3dac781bb9924be1a18013a Merge branch 'vfs.xattr' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-82a8cdc195ea47b16c0e80b61bdb8bebd783bbbc Merge branch 'vfs.blocksize' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-fd193eb5f50ddca7c32619f8ce3a19aef620f510 Merge branch 'vfs.file' into vfs.all
-85ffc3931e6478f30a8ea0886e478aa7f7a578ab Merge branch 'vfs.fallocate' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-047b74d00949bd45ad32d29bf0b7ff6679c4109f Merge branch 'vfs.procfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+706ae6446494b4523d33b0d96ea1fd9d50ca9be6 clk: fixed-rate: add devm_clk_hw_register_fixed_rate_parent_data()
+3928aa3971067f2dd7df2e91458debb9ff8e622f Merge commit '706ae6446494b4523d33b0d96ea1fd9d50ca9be6' into ep93xx/dt-conversion
+b5f67acbd7c1289f5b182bfcefa6629b2da1cffb gpio: ep93xx: split device in multiple
+da7c8eb929c0917d180f45c92e4a0cf7a1e753c4 ARM: ep93xx: add regmap aux_dev
+c20bf620bfd193aff9731184812d0ab1bc6fbfed clk: ep93xx: add DT support for Cirrus EP93xx
+ad1827e433bdf660069f24ff703736423fa33c18 pinctrl: add a Cirrus ep93xx SoC pin controller
+a7f474f609ee871226a4902c0de5e2293e0ed259 power: reset: Add a driver for the ep93xx reset
+efb47236fa40848c77c2d2587257a4325032e2b8 dt-bindings: soc: Add Cirrus EP93xx
+98575313a8e2b2e664543caa6be4892de47ad645 soc: Add SoC driver for Cirrus ep93xx
+6dfaf5b809ff54ceae541a0da2f9936e02ddea18 dt-bindings: dma: Add Cirrus EP93xx
+5313a72f7e1147eef260d6d1350f85cbabd89e9c dmaengine: cirrus: Convert to DT for Cirrus EP93xx
+9c92b7a64ea1128f7efc1899a20c719346b808c0 dt-bindings: pwm: Add Cirrus EP93xx
+7189ce50f9415c980c63af4e23451e4e1e1a5d51 pwm: ep93xx: add DT support for Cirrus EP93xx
+1e0ec1fdb6a0725ebd16f974481b1c3b4e5ed32d dt-bindings: spi: Add Cirrus EP93xx
+3cfe73256905901c3718bc9c35b521618a1e3d09 spi: ep93xx: add DT support for Cirrus EP93xx
+574c53eb6be87beb46a54e1b1811aa55207518cc dt-bindings: net: Add Cirrus EP93xx
+787dd6c4c5ac6431be96c9c0793e629cf9ce0bd8 net: cirrus: add DT support for Cirrus EP93xx
+333fb93425a79193cce31601f4319082ec5d1d80 dt-bindings: mtd: Add ts7200 nand-controller
+a250efc7b196a4faa1f70672355cf4e6b412d597 mtd: rawnand: add support for ts72xx
+e6f4ba3db2893394c88b77ca5d8c1dca67321e10 dt-bindings: ata: Add Cirrus EP93xx
+8dbaf85cf9f77cbf96ea5dbb9002efd13385f5b6 ata: pata_ep93xx: add device tree support
+c68f8ef63b61f312b031939286170a962b1ae28b dt-bindings: input: Add Cirrus EP93xx keypad
+82bf0e182a745454511f0b816f6615df0570a775 input: keypad: ep93xx: add DT support for Cirrus EP93xx
+1ec135865e6cc9355267fb07a0604dcfbd01d665 wdt: ts72xx: add DT support for ts72xx
+4dfdb6128c96d1a1a8c63b0777802d992f536ed5 gpio: ep93xx: add DT support for gpio-ep93xx
+23e1549eb934f175dda9986dd4584bc959bc35a5 ASoC: dt-bindings: ep93xx: Document DMA support
+8e514b4835466842db4fb8f683410cc72dad67fd ASoC: dt-bindings: ep93xx: Document Audio Port support
+f8c03efc927bd3c2296cf6afbe368aad46fec52d ASoC: ep93xx: Drop legacy DMA support
+83c780866e477cc81bc70a0cafd719182dbaf3e3 ARM: dts: add Cirrus EP93XX SoC .dtsi
+fd599d9848f4522807d161082e62ac6d4a73b4dc ARM: dts: ep93xx: add ts7250 board
+c01ff6509689b75d62a5ffcabf826c7ce9edcb60 ARM: dts: ep93xx: Add EDB9302 DT
+a98abbb5fda7b7d1237121b9a768bc48675eb3bb ARM: ep93xx: DT for the Cirrus ep93xx SoC platforms
+7e02d579b451c0febdc990e428dc16773a8f3c93 pwm: ep93xx: drop legacy pinctrl
+6e5442e74f78c46f052afc487a14332e548fabd6 ata: pata_ep93xx: remove legacy pinctrl use
+3912b24f72622f2ac40032ad615a33b937b314fa ARM: ep93xx: delete all boardfiles
+f1e4e848f18f6a12f62ba3765074d46fe4e945ed ARM: ep93xx: soc: drop defines
+7a9a9110d765aa791b89083d2e0089d883bcae26 ASoC: cirrus: edb93xx: Delete driver
+df6c63f265a73ffb52375495a4d329b58fd518fb dmaengine: cirrus: remove platform code
+56ad5861087dc1ef390abe80a6d5fc89c3cb966a clk: ep93xx: add module license
+7590d9821ebc39d6ce5115171c6cff618d35d624 clk: ep93xx: Fix off by one in ep93xx_div_recalc_rate()
+f75308a6e96d0989b0a19cd9181786c1b6f34759 spi: ep93xx: update kerneldoc comments for ep93xx_spi
 
---===============0257823591866541614==--
+--===============1887669801105533855==--
