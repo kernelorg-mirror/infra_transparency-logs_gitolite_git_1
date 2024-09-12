@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1201424813508840238=="
+Content-Type: multipart/mixed; boundary="===============0676996791967972821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 12 Sep 2024 18:59:01 -0000
-Message-Id: <172616754190.1319260.17797909037252028811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Sep 2024 18:59:07 -0000
+Message-Id: <172616754778.1319454.7003719614643605874@gitolite.kernel.org>
 
---===============1201424813508840238==
+--===============0676996791967972821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1
     new: f6e2e7397d00192bda11166d5fb3e2e67a8cf92e
     log: |
          f6e2e7397d00192bda11166d5fb3e2e67a8cf92e ASoC: mediatek: mt7986-afe-pcm: Remove redundant error message
          
 
---===============1201424813508840238==
+--===============0676996791967972821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1726167541 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1726167540-2471547a0b087b229a353db373e86eeeae7c380b
+pusher C3F436CA30F5D8EB 1726167547 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1726167545-9acbd54dfcd4fc965b85ee78cae0e092cb97542c
 
-d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1 f6e2e7397d00192bda11166d5fb3e2e67a8cf92e refs/heads/for-6.12
+d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1 f6e2e7397d00192bda11166d5fb3e2e67a8cf92e refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbjOfYACgkQJNaLcl1U
-h9DVLwf+J2KiU9ao1Iv3C3fHVgiRPko6V7btjYLXg73Ax1yGMkwzWjyYm3cO7wK3
-J+8Mj+enb2gqnMRH1exzfo+dWO0gq38EFk4g/KUZ/NrHihRSphTkO9uBvZHhzUWp
-upc29zha9Kvyp9IhAsbYvc+wOcsYhQCjp/Tqfaoj3dejKUcEtis7xnQA8eWl/xoD
-Jk717uft34QcdZajFFmU9m7+snBw24/FEQj3VwLeaYvmD4UTMzxLOwzNccGv/Omh
-zTBYt3EPQuoSUJj3PS2sEu89VsfHn1/I35NErnlnKOq2LZy7NeIR30gA96WOws9l
-jkdfxyRtxRoyM8rYCOPYu/+vcDxolQ==
-=2gAX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbjOfsACgkQJNaLcl1U
+h9AWzwf/aEawRIx6ysD3CfUjx+uAPtMM+BZ+pyrnsTyCrZQ/H6Drp0/lNhMN8Yje
+0K4W2500LK3rHQZZOs3AwHtlZbKKnrl3AXDXngQko+B1G9ZEJO1HMDzYDUa5F2tb
+m38ZQir0qNTTdLAua7rveOl4j4KjFtNKIjETn6Fp2elTlYlWvfY0gfuH/FcJEg1y
+mXa8w5bnS6SrPIl0B/YpC6CsBPJFlbH3Fx1JcZnLrICVFtlOplBKLE0koUwxhiIg
+8qcv0zxl1d8lK2Pgoc13S+93djWtxgt0mMVT/iPd0T1kKYAecxAJ+Qlgf4A7ytoL
+93tMzRVCGZYwJs4JQdwF3Jl6SOvndg==
+=TXrJ
 -----END PGP SIGNATURE-----
 
---===============1201424813508840238==--
+--===============0676996791967972821==--
