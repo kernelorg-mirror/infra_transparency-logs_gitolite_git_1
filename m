@@ -1,29 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 12 Sep 2024 15:50:02 -0000
-Message-Id: <172615620211.1166216.15258621534368418602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 12 Sep 2024 16:01:48 -0000
+Message-Id: <172615690840.1176282.7583144169376759818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-6.12/io_uring
-    old: 21ee716241482ca5daf2852079f1d8b3bf2f81aa
-    new: 265373abb1b713ed03cb90078e5497942d3e476f
-    log: |
-         87fe03ba96ec00e8e4d6a0d96fd0f6ca7c02c119 io_uring/register: provide helper to get io_ring_ctx from 'fd'
-         265373abb1b713ed03cb90078e5497942d3e476f io_uring: add IORING_REGISTER_COPY_BUFFERS method
-         
   - ref: refs/heads/for-next
-    old: 121df11847f6866206848fb5515eff7e0e96a688
-    new: 5302ea5a534e9a13392a26734e6a5b18b5d90762
+    old: 12647a7cfbaa865cb291bd36a4c5d8496e28d61b
+    new: 0b9f2bd00fc3677e38ae5e46ff79b8d48d9cb02e
     log: |
-         87fe03ba96ec00e8e4d6a0d96fd0f6ca7c02c119 io_uring/register: provide helper to get io_ring_ctx from 'fd'
-         265373abb1b713ed03cb90078e5497942d3e476f io_uring: add IORING_REGISTER_COPY_BUFFERS method
-         b9ee57784c8266e8c8ea4c141034531ffa5b2b8b Merge branch 'for-6.12/block' into for-next
-         5302ea5a534e9a13392a26734e6a5b18b5d90762 Merge branch 'for-6.12/io_uring' into for-next
+         a51c925c11d7b855167e64b63eb4378e5adfc11d ALSA: usb-audio: Add logitech Audio profile quirk
+         c880a5146642e9d35f88aaa353ae98ffd4fc3f99 ALSA: memalloc: Use proper DMA mapping API for x86 WC buffer allocations
+         0b9f2bd00fc3677e38ae5e46ff79b8d48d9cb02e ALSA: memalloc: Use proper DMA mapping API for x86 S/G buffer allocations
+         
+  - ref: refs/heads/master
+    old: d2af731033d9f34fd971f6bc2f5efcc76d6ab7d5
+    new: df9ecf4563ae5010c5ac2f060d790fcf2fe787e6
+    log: |
+         a51c925c11d7b855167e64b63eb4378e5adfc11d ALSA: usb-audio: Add logitech Audio profile quirk
+         c880a5146642e9d35f88aaa353ae98ffd4fc3f99 ALSA: memalloc: Use proper DMA mapping API for x86 WC buffer allocations
+         0b9f2bd00fc3677e38ae5e46ff79b8d48d9cb02e ALSA: memalloc: Use proper DMA mapping API for x86 S/G buffer allocations
+         df9ecf4563ae5010c5ac2f060d790fcf2fe787e6 Merge branch 'for-next'
          
