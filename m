@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5529935376725832769=="
+Content-Type: multipart/mixed; boundary="===============0041900931690870617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 13 Sep 2024 16:54:09 -0000
-Message-Id: <172624644944.2410872.6924539047885701150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 13 Sep 2024 16:54:15 -0000
+Message-Id: <172624645586.2411032.14537889628787663674@gitolite.kernel.org>
 
---===============5529935376725832769==
+--===============0041900931690870617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 2ed1a4a5c0058dfd78f5037576d668a37d0ec609
     new: 0b117e58409efce351f435618e2b6023804c0988
     log: |
@@ -28,28 +28,28 @@ changes:
          0b117e58409efce351f435618e2b6023804c0988 AMD SoundWire machine driver code refactor
          
 
---===============5529935376725832769==
+--===============0041900931690870617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1726246449 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1726246446-8a2b3ba503972105ed35bbbe064123b7dc1155f3
+pusher C3F436CA30F5D8EB 1726246456 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1726246453-5e228c31556783ef8c3eec2870886d63383ea364
 
-2ed1a4a5c0058dfd78f5037576d668a37d0ec609 0b117e58409efce351f435618e2b6023804c0988 refs/heads/for-6.12
+2ed1a4a5c0058dfd78f5037576d668a37d0ec609 0b117e58409efce351f435618e2b6023804c0988 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbkbjEACgkQJNaLcl1U
-h9Cjwwf9EhmcUCvK4luf6Enpw0mr/VGmtOZ0ROnYqcgASVkKKznOIXAF9Ag8J5dG
-qD18uDFxiR4Q25TKZcC0h3sWHeLPpcofmAqjJOCKEf3U8Jh6+k8jKKsV7lPGYb1m
-O83LJMp5Ehp357lPqoc9UqtIB3a3OMK7HMN3N+5Om+AE/8uyJhZYzgT5YvEWnP/h
-wwO1Ssn+72MYzHlh9oYH0KwHzAhifaLnOKhaRwvNDSLlG5azig9YZ0pqkpGK+L4w
-uFV2fQiUV4FAgwSUKyq4UWf3f3aG5cahQvnPh6BtBKwAuF5XQR/I3xPQSir0b8z5
-pvWej/DyhAwpfr5n3ubWiohMYoRsCQ==
-=SqEK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmbkbjgACgkQJNaLcl1U
+h9CG6wf9HV0zwaAF+JRR5F5/b6XlnG7v818ZwqUZ+2D6DMYF7EEgQcMzTl+VIxxO
+qAqbMmuoOASyTgyN3FTAR/OChg9nVy9NGqvfVRda7ZwPlBIRBV61wIBTlyzrYD8d
+fKoa1mXL5SiPYjk6+V9JizqRV5bo99QHl2UHdst+P2SuGh9jxO5Ai7F33wYiXajK
+Lpifpr1t3vB3/KF7Kn1DlQFPmYVlzOdFS7zlQs5XBdLwWTaxUHT3qbVaq48iOROo
+jNqJcYaXUmCbO2AR8QRUpPaLs7nWARSwYsSd7SBa1Wd75bdsQiIqeguNFVvOY0CT
+867EaLUyoXOBi13FruVVLX7vtOp8Sg==
+=SEjW
 -----END PGP SIGNATURE-----
 
---===============5529935376725832769==--
+--===============0041900931690870617==--
