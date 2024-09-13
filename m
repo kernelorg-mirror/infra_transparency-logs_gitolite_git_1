@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 13 Sep 2024 16:31:17 -0000
-Message-Id: <172624507761.2393402.1495994968815048990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 13 Sep 2024 16:37:07 -0000
+Message-Id: <172624542794.2397725.16844462635846869014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 0afd12f5faa06851e25fcae46f781f030824d8b4
-    new: c12b083629e6c03362acb4c2b9aea7768e463763
+  - ref: refs/heads/dev-test
+    old: 35d314b8fe1f853af2099a547a9ebc63d879e232
+    new: 5cc69a27abfa91abbb39fc584f82d6c867b60f47
     log: |
-         c12b083629e6c03362acb4c2b9aea7768e463763 man: remove slash before @MODULE_DIRECTORY@
+         5cc69a27abfa91abbb39fc584f82d6c867b60f47 f2fs: forcibly migrate to secure space for zoned device file pinning
          
