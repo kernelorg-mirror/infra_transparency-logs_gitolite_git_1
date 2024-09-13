@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0554097218051419491=="
+Content-Type: multipart/mixed; boundary="===============0700947206822877442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 13 Sep 2024 19:02:07 -0000
-Message-Id: <172625412742.2516292.12059916494622399689@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 19:02:13 -0000
+Message-Id: <172625413395.2516457.10622857227713850888@gitolite.kernel.org>
 
---===============0554097218051419491==
+--===============0700947206822877442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt/next
     old: 2d1ccb6b90ba1f9e6aac0fd3116acedb2399f0c3
     new: 6417edb5d185917c4d7f72b81a4b6ebda26f7856
     log: revlist-2d1ccb6b90ba-6417edb5d185.txt
 
---===============0554097218051419491==
+--===============0700947206822877442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ eeedbb1e80a84496f0d74979617efd4eb0096f5a dt-bindings: interrupt-controller: fsl,
 69b860034c33429b5bf7eb89fb8c0ad269ad9cbd of: property: Do some clean up with use of __free()
 6417edb5d185917c4d7f72b81a4b6ebda26f7856 drivers/of: Improve documentation for match_string
 
---===============0554097218051419491==--
+--===============0700947206822877442==--
