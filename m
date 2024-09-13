@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0246859848335388890=="
+Content-Type: multipart/mixed; boundary="===============5739018368332647697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 13 Sep 2024 15:15:13 -0000
-Message-Id: <172624051316.2332067.3045229155808647050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Fri, 13 Sep 2024 15:32:47 -0000
+Message-Id: <172624156797.2345102.1013375194531364743@gitolite.kernel.org>
 
---===============0246859848335388890==
+--===============5739018368332647697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a7a7b47db4b1b92fea86402d941dcdd668083d84
-    new: edaa681143607b2bb8b27e4785ca1c95170c2168
+  - ref: refs/heads/main
+    old: e9096586e0701d5ae031df2f2708d20d34ae7bd4
+    new: 9ced13212ceb05c1334c5bfc6a144c97a6a9b362
     log: |
-         6343186b3f427cc947c2a2304ca69f0ebecd5db7 strip a mbox
-         edaa681143607b2bb8b27e4785ca1c95170c2168 update cvelistV5
+         058e82cb2f4896903358f03e4b895670906a91df replace use of term 'Sanity check'
+         c70ccb476dcb90e14a5a5b90541943082d0dc0c5 man: replace use of word segregate
+         9ced13212ceb05c1334c5bfc6a144c97a6a9b362 man: replace use of term whitelist
          
 
---===============0246859848335388890==
+--===============5739018368332647697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726240512 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1726240510-d7eb0e860b95dd7ac6c69f2ce5dd27cc4dca4ecd
+pusher Stephen Hemminger <stephen@networkplumber.org> 1726241569 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1726241567-9f4db3e3b193d0e0fdc3c813e2d07dfed92467bf
 
-a7a7b47db4b1b92fea86402d941dcdd668083d84 edaa681143607b2bb8b27e4785ca1c95170c2168 refs/heads/master
+e9096586e0701d5ae031df2f2708d20d34ae7bd4 9ced13212ceb05c1334c5bfc6a144c97a6a9b362 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbkVwAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YIYP/3Dh0tE5CWW2o4P9q6Hi
-p2T6lBhLi23FK1NhTj/hUZELjblq+rT63WwYgaP5/cscm5qbjb7hxTU/oM0Ia04h
-QX7ISMqibFi1aebplJqjJXwj+cbSi5T2kLx+LpAbHCvP9s2EuE4t5QMDZzKABVSI
-u+wP+gnVxdjOiKiUNGTAmqJ+Lk9MxAIOtS0qMBELDrXtlQX1jMTzCmku2L46WYfs
-HnjcncFddnMEXqGpBsj5LUhVRKmkIWGooNQKC3iklpSMmA6m0gVgPITteuHEENyb
-MiY3yIc1KDuBeDyrtf/S4SzH6k+gfI5kRGZnhFtnr/ZApg5JU0d/gKAn5VLVjaBB
-aFEBaYMTFfu0AmMUua7R8bwfkXzVejtTg+JN8KCByUxMOshtrhZMYBGDkT8XFCQ8
-VuaQKDypDuf2VN4t7k9PkXC4Vr1ikmmi0HUIPw/z6NIq+v9gfuk6vZ1WbGw2M+HI
-22m9RDpLgyE+zKMRgiCc0KQiIpHpeDiggedtJnxveBIQrMPg8gVhydoRG3zk79Fx
-uesLgtXHa52KjjBbpBwlnh6H3vElxEE4Wxe/ajLUqM9T9A360CNyXdol1EveYkCa
-2J3zD73C9rwEfgYG89zBCrpcx3Iq+IXkeZ4re/lizBFa+JdW/YDlqbO/uLmaeoO4
-C1k49aipH1W4Ya58H67LHaUf
-=7kZZ
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmbkWyEbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+zsQQALBShJmM3KhGNkR+fFSE
+7M95xt7fEaRgnbnLwAcr2WUPVc0CkOeEImUPCUGifjFQVr6cppTF1Wwxqo8/pIgf
+SVuQqL9lez4d3P4vEs0mX1C854M2pWCnIfapR7oaJQPNk5/fLEw5I/6KBhfGa/i7
+C9nTLzS2bW0iDmMiuXhC4iZJL890jNTcnQzE8uMgf+60lBueUsB6S1anf08fpsID
+QsSWo8F+Vb07dINI9vhjqaR/7HeFtcqH9eX7miDGltPJZa7+lDl+P2ICoXj50Smb
+2XDaYIzimjRN7+94bFaj1DrdywERejze2AnsbqL/hYj6wWIIEhv8Vo43/aqRAJfL
+gQWKPrWwaMHkRiJKGNPuz7hcgtGLYGCogXnzFLAenCNFsYcV0gi6qgb4VgiDVmWX
+lRz6VNUSat9T8n9thF564Si+HgqvnGGP5IdPl8UMKyROK65v413DIiAxOPvV94Ue
+ts2p6M4EPF1pIS6/5b4CnWb0VvQzkdWxgAXluihv707ipTIJ2e27n4bjkC7UxWv9
+GkN/2o9EiNiXkpPzRotbKmZIx9pNA5qJM2u8/GoKb47Kq0cIOdLTVqdYqDlwQor8
+eFlogC1lM4pTVbUVILoKe2RTXQe7Gb/b+FQgmM+ge9C/FPTex4QtHtVVe3pLT8V8
+J3+Lu/W2EJKel90U0jrAgUuG
+=Mtri
 -----END PGP SIGNATURE-----
 
---===============0246859848335388890==--
+--===============5739018368332647697==--
