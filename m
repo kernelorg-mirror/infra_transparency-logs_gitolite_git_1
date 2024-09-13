@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1346847583409854488=="
+Content-Type: multipart/mixed; boundary="===============7010293976617386190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 13 Sep 2024 06:55:51 -0000
-Message-Id: <172621055134.1927606.7187282259907007052@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 06:55:54 -0000
+Message-Id: <172621055438.1927701.13493958431461522158@gitolite.kernel.org>
 
---===============1346847583409854488==
+--===============7010293976617386190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: b1365224b7bd30454b0a0cfebc65ee7b41ed0a6c
-    new: 0606024b89d4ba59586cc7023d361a22065da8fa
-    log: revlist-b1365224b7bd-0606024b89d4.txt
-  - ref: refs/tags/ath-202409130653
-    old: 0000000000000000000000000000000000000000
-    new: 0606024b89d4ba59586cc7023d361a22065da8fa
+  - ref: refs/heads/ath-next
+    old: fe57beb026ef5f9614adfa23ee6f3c21faede2cf
+    new: 52fa3b6532ec6f3a1e39bf869b304d3560dd983b
+    log: revlist-fe57beb026ef-52fa3b6532ec.txt
 
---===============1346847583409854488==
+--===============7010293976617386190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1365224b7bd-0606024b89d4.txt
+Content-Disposition: attachment; filename=revlist-fe57beb026ef-52fa3b6532ec.txt
 
 90ac806c32952e4eb39fa21cc4e93f086a4047c3 Drivers: hv: Remove deprecated hv_fcopy declarations
 7f828d5fff7d24752e1ecf6bebb6617a81f97b93 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
@@ -165,6 +162,7 @@ b52a07e07dead777517af3cbda851bb2cc157c9d usb: gadget: uvc: queue pump work in uv
 72fca8371f205d654f95b09cd023a71fd5307041 usb: dwc3: ep0: Don't reset resource alloc flag (including ep0)
 ddfcfeba891064b88bb844208b43bef2ef970f0c usb: dwc3: st: fix probed platform device ref count on probe error path
 cd4897bfd14f6a5388b21ba45a066541a0425199 usb: dwc3: st: add missing depopulate in probe error path
+9abf199943a6469a71f6ce5c2266e9364d310f8b wifi: ath11k: fix NULL pointer dereference in ath11k_mac_get_eirp_power()
 d92b5cc29c792f1d3f0aaa3b29dddfe816c03e88 powerpc/64e: Define mmu_pte_psize static
 6114139c3bdde992f4a19264e4f9bfc100d8d776 powerpc/vdso: Don't discard rela sections
 3b1f7a46977fe2ff9384d08651a6e0d272ae6a60 powerpc/mm: Fix return type of pgd_val()
@@ -420,6 +418,8 @@ a5135526426df5319d5f4bcd15ae57c45a97714b gpio: modepin: Enable module autoloadin
 a54da9df75cd1b4b5028f6c60f9a211532680585 hwmon: (hp-wmi-sensors) Check if WMI event data exists
 1ae99594fb7a7e78de7b1adf0feb4f681937a28e Merge tag 'kvm-x86-fixes-6.11-rcN' of https://github.com/kvm-x86/linux into kvm-master
 d30d9ee94cc0e7ae91da7251d9c280b8cf7e5e4d KVM: x86: Only advertise KVM_CAP_READONLY_MEM when supported by VM
+d3e154d7776ba57ab679fb816fb87b627fba21c9 Revert "wifi: ath11k: restore country code during resume"
+2f833e8948d6c88a3a257d4e426c9897b4907d5a Revert "wifi: ath11k: support hibernation"
 731733c6234855b26d468aa2f89a3051c170e63a bpf, sockmap: Correct spelling skmsg.c
 5d1622831064abf2633a1bc9a6446e83a669f58d tcp_bpf: Remove an unused parameter for bpf_tcp_ingress()
 65444581a4aecf0e96b4691bb20fc75c602f5863 drm/amd/display: Determine IPS mode by ASIC and PMFW versions
@@ -1033,9 +1033,5 @@ ef7b79b924e50bef444dfdc04bb24693ad50365d net/mlx5: fs, separate action and desti
 cc1812918930036af55ba4b4c29b8c8a96ee2086 net/mlx5e: Match cleanup order in mlx5e_free_rq in reverse of mlx5e_alloc_rq
 b523f23f5c747d83c76b609dd268a76f7ec34975 Merge branch 'mlx5-updates-2024-09-11'
 52fa3b6532ec6f3a1e39bf869b304d3560dd983b memory-provider: fix compilation issue without SYSFS
-b4e55da7cda2f468473670823591cbd3b39e4699 Merge remote-tracking branch 'net-next/main'
-56545736a51ed5cc8dab5b5693b7c622abcb52ab Add localversion to identify builds from this tree
-b172e25cbb1e37ad1785b08ddbee359dca28defb Merge remote-tracking branch 'mhi/mhi-next'
-0606024b89d4ba59586cc7023d361a22065da8fa Add localversion-wireless-testing-ath
 
---===============1346847583409854488==--
+--===============7010293976617386190==--
