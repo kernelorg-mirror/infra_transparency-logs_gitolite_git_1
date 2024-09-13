@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7831046559385367466=="
+Content-Type: multipart/mixed; boundary="===============5883340998795819044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Sep 2024 05:41:42 -0000
-Message-Id: <172620610270.1869314.15887223114172193514@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 05:55:16 -0000
+Message-Id: <172620691650.1880063.5117225413796046359@gitolite.kernel.org>
 
---===============7831046559385367466==
+--===============5883340998795819044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 9027afa89bfe9e50e46714b72179761c67ebf4ad
-    new: 9ae0f262fc3f36c1f0b131c7017fbe75245a39df
+    old: 9ae0f262fc3f36c1f0b131c7017fbe75245a39df
+    new: 93907620b308609c72ba4b95b09a6aa2658bb553
     log: |
-         e8afd5ace118fe3a508cd6f2aa21e2da150bed48 usb: dwc3: rtk: Clean up error code in __get_dwc3_maximum_speed()
-         7fa6b25dfb43dafc0e16510e2fcfd63634fc95c2 usb: typec: ucsi: Fix busy loop on ASUS VivoBooks
-         9ae0f262fc3f36c1f0b131c7017fbe75245a39df usb: r8a66597-hcd: make read-only const arrays static
+         b41c1fa155ba56d125885b0191aabaf3c508d0a3 USB: class: CDC-ACM: fix race between get_serial and set_serial
+         8265d06b7794493d82c5c21a12d7ba43eccc30cb USB: appledisplay: close race between probe and completion handler
+         49cd2f4d747eeb3050b76245a7f72aa99dbd3310 USB: misc: cypress_cy7c63: check for short transfer
+         93907620b308609c72ba4b95b09a6aa2658bb553 USB: misc: yurex: fix race between read and write
          
 
---===============7831046559385367466==
+--===============5883340998795819044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726206103 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726206916 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1726206101-940fb318a6d0355493ce0056a38d23b27e2fb873
+nonce 1726206914-e185492aaeda0c8f0c595f10f8ab7482fd5fb50e
 
-9027afa89bfe9e50e46714b72179761c67ebf4ad 9ae0f262fc3f36c1f0b131c7017fbe75245a39df refs/heads/usb-testing
+9ae0f262fc3f36c1f0b131c7017fbe75245a39df 93907620b308609c72ba4b95b09a6aa2658bb553 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbj0JcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SPYQAMupgP7sZZN5KpkWzwF0
-nUVCgdDQaxiY8vvf3BNpKu5Jt8+C6JV2Slu0Q4+9lcf3oNI/d56yxrgm9QhH8X9h
-qTyWMQub0x4NSOby2Zryt/aCTstcLCVIY3Y0gs1kt9XILgbYAIOTWNd5nngvYbEB
-vOIJpR+NtoB3rCEr+UYCzkxm9NWU14Iwp7eZosFVWQVIGtVdj38pVIiJ0m7StmsM
-Cpxvp7uS+qgxXcUlcJGLj2fhYC/ab5Rmg6p4iJdpH1WV52Ylsg0IfK0pwQI6++gS
-rMgWF2Fu90OaNWWABaIqNWS7/g7Yt/0BSkdtW9ZJ+geOFdqdrUrwCJXNAVMJ7Kbo
-zBKgZeGzl34JcAcjXlnJQTz8lUGRtigFrvLHspDZjmmjVsXrCH19mInQv0XyExqL
-faexaLClN4SnkCzNB3duxgVNWoMJ94q9tadON6+GJkexomw4y0WrlAoIwYgqaa2L
-CodONyMq5g3y7Bgbd3JakGlM/pAGHXcTIvxkDbx6R1xmsaefJeaT5s43zZ/9xf3o
-KHNNnzhe6IospTZ8u2IKeu+mD2GC5R66ZHDtFjPmvM9MvxhXFyJ/hJ0Jge7ipcFS
-QB6vvpNsfDg5Z3Agy9p+NIVQDHQ8D/RKLKJRKzJil2XF+TNG1dlNS5UZt2mpbqt0
-eJ5WyKXYjN2LjZYzqUn32tvf
-=ZY5/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbj08UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vMkP/jJnP9ZidEK4pvP5pPPJ
+JQ1+CV7tAkdvsJOIGoDmEO3vzE6PxTG9tYfOsNHhjvFPohohoKfzXMc96cCODz9L
+xVUVw3ufEnabkrSwfF/WZGCIx/WhSP8230jvSJEPLuE4X1IVAEZuJF91iZZuGUxt
+SVlnfJfwwz7Rf9tJ7u47XxnWpdCDz4hk/GC2WAyInYbup2Fn8/uwaaJ3/fpWoIpm
+qSEd2oqIWsHbA7wHM1EVYBSL84HwiiezIxyTav3Q9zP1FOxJVsXXt99qjrRK9QLP
+/urOxZIro1xtQQgcEMQ3L7ee3+oA3n/B3lz0NyFmhLjrJc6cYil3Iyvs+9Gng7Zz
+cZkNqcYjsx5+9UgEZJ4BjanQ6dh1JoG76b0hRljTKvOQGuMNA5FW5VtvGOMDujh8
+KMcUJvkT67vJADzhp95p2MnSDMMF8DCi512XnmhDy9cqg/D3kzdmn2dXPgtrGZA0
+1aHvtSQCcrXW7Fwbg2R+Ufj1BX6WV9QErOsIOksLmHJ8VrktPdz0dUP740m3g5Gd
++GEakGsvQ0avIKEuY6phJ7EWPAWU+/1GGwN+EsqmC18xluhDNIwgndX610gv343w
+NpHAawxvfmJSYLSX7sCrADyfANFBoVrW3aPSgPKvSF29KmmqwxppBjngVwcTS5PZ
+hj+t8ri/j4lq9oLOs/wX1u37
+=75i2
 -----END PGP SIGNATURE-----
 
---===============7831046559385367466==--
+--===============5883340998795819044==--
