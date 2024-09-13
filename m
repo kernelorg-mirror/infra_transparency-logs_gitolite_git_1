@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0350122809589990624=="
+Content-Type: multipart/mixed; boundary="===============8499257975132196301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Sep 2024 22:32:33 -0000
-Message-Id: <172626675308.2686770.6034509988185531296@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 22:32:38 -0000
+Message-Id: <172626675832.2687042.2067521314888768559@gitolite.kernel.org>
 
---===============0350122809589990624==
+--===============8499257975132196301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6899a44bb1849adc6bf9b0bad085fdf37bc3123e
-    new: a947844911b782db2073d37bf12007f11b907196
-    log: revlist-6899a44bb184-a947844911b7.txt
+  - ref: refs/heads/1GbE
+    old: bf73478b539b4a13e0b4e104c82fe3c2833db562
+    new: 26d7460222a0be34ff61a92a1fcc4469797ad937
+    log: revlist-bf73478b539b-26d7460222a0.txt
 
---===============0350122809589990624==
+--===============8499257975132196301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6899a44bb184-a947844911b7.txt
+Content-Disposition: attachment; filename=revlist-bf73478b539b-26d7460222a0.txt
 
 90ac806c32952e4eb39fa21cc4e93f086a4047c3 Drivers: hv: Remove deprecated hv_fcopy declarations
 7f828d5fff7d24752e1ecf6bebb6617a81f97b93 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
@@ -508,45 +508,5 @@ eb41dd76abce6a13bd7ad9c779dd560136caf60a net: ethernet: ti: cpsw_ale: add Police
 b7468c0fe148f9f627921357f8cb97690c19d480 net: ethernet: ti: am65-cpsw: setup priority to flow mapping
 bdf2ba157eb7db4c7bc603fef001c10fa9444ee2 Merge branch 'am65-cpsw-rx-mq'
 26d7460222a0be34ff61a92a1fcc4469797ad937 memory-provider: disable building dmabuf mp on !CONFIG_PAGE_POOL
-6902995b473122cd4969df9986c8a2b3fcfbd244 ice: Implement ice_ptp_pin_desc
-ca9c59272f9219776eab3ee41076e15a50364544 ice: Add SDPs support for E825C
-322fcea5bb7647473d32eb6b633664bf6f1c2b68 ice: Align E810T GPIO to other products
-03c274c5a1eddf7f5b627dcb09bebbdef22af03d ice: Cache perout/extts requests and check flags
-b0c7977705c11f819d634480bf4b3a023794899d ice: Disable shared pin on E810 on setfunc
-0234e9130cfc0944e9f7dbff30b0a2c3daff227d ice: Read SDP section from NVM for pin definitions
-b411a1a2b1764cab7b0409fc978e5579266965d0 ice: Enable 1PPS out from CGU for E825C products
-84599f8f60155ce9b78108c530db918ba5af0485 ice: Flush FDB entries before reset
-3fb0113731a508b6084a95ff14615fb9949e8dac ice: Implement ethtool reset support
-02f8365eb2479329645f1114ef97604b9857f935 ice: set correct dst VSI in only LAN filters
-4fc95b65117fa2b0ee33341c4efaef4fa30f897d ice: add E830 HW VF mailbox message limit support
-bb1bcab9181c6c7698b2105965e1259e7edc4d8b ice: Introduce ice_get_phy_model() wrapper
-665f8082d80eb716dd62689e98b53de724799222 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
-03ae1db219ae10d6ea4e47a0f56aff63e1bfec33 ice: Initial support for E825C hardware in ice_adapter
-38458f87fb8236de2a0ef07c47a64292f317dbcf ice: Use ice_adapter for PTP shared data instead of auxdev
-a24ccede2f79e87bf100818e4a37e8ef0a04166b ice: Drop auxbus use for PTP to finalize ice_adapter move
-036dc113f55647775e2e443ae2794ce97dc2cb22 checkpatch: don't complain on _Generic() use
-e137d6682d211998afa09b63e3e4a2cb7f834428 devlink: add devlink_fmsg_put() macro
-d46af0dee8569cf120dca61118bb00b70a04e0ba devlink: add devlink_fmsg_dump_skb() function
-15121f7adde5849a57258544e3d7eb76954b2f1e ice: add Tx hang devlink health reporter
-6732ef049b6d6ee05f39068fe5a5d8372256b5f5 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-5aef61e1d1f59fe7338058dd5f0503141188612f ice: Add MDD logging via devlink health
-0547ba7c72f1402e0ea54c80d88d21644109cc7c ice: fix BST key index in ice_bst_key_init()
-99452e96c4e5ca4f8654a91d207040472d6290b6 idpf: fix VF dynamic interrupt ctl register initialization
-8ed270fac9ec7a9bee713347009a5ebe61bd2a94 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
-4cb6d0a3e7d21968a3c2645f1cae3ab32b58f514 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
-c61c4940024392556026ee42376e8133de0163ec ice: Make use of assign_bit() API
-ea8320fae553aacf72ae8dda316c0bba4b4735ec idpf: use actual mbx receive payload length
-7a1e08c3a95c76dc21d63c96b92ffc84e1088365 idpf: deinit virtchnl transaction manager after vport and vectors
-51ec3a31bb29cb2d451b62bf486a907fa5bbab36 iavf: allow changing VLAN state without calling PF
-45b7891826629dc4958f1abc3c4888899fbf5f5f iavf: Remove unused declarations
-e14e0ac775ff3fd658570e48d69dd2928718563a igb: Cleanup unused declarations
-e09081cde5842476f4e59079f520a8b90e11655e ice: Cleanup unused declarations
-f84375d6bee9701e8c51da5942d6a48d8a7b2148 ice: clear port vlan config during reset
-87c5706b9d0462f350c7725fea1a1a7cb70ecbb6 e1000e: Remove duplicated writel() in e1000_configure_tx/rx()
-4285174b469fa1e1f9bdd74527e33cdf0a352eb8 e1000e: change I219 (19) devices to ADP
-6c7df6710ea09ab5eefa9853d4d53e0f8d05f5ee ice: initialize pf->supported_rxdids immediately after loading DDP
-5a8da6e2c7f794081668525e28958b91de8c5524 ice: use stack variable for virtchnl_supported_rxdids
-e4e9ea3704532eec0fdced49342cf00f8302d161 ice: consistently use q_idx in ice_vc_cfg_qs_msg()
-a947844911b782db2073d37bf12007f11b907196 ice: store max_frame and rx_buf_len only in ice_rx_ring
 
---===============0350122809589990624==--
+--===============8499257975132196301==--
