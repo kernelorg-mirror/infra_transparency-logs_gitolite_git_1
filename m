@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 13 Sep 2024 14:43:01 -0000
-Message-Id: <172623858182.2303397.7461048609907306672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 13 Sep 2024 14:44:25 -0000
+Message-Id: <172623866543.2304003.16216253332395569617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: c475f2362d64cb40c71d9cca60ba2ec6bde1c536
-    new: fc358d9ac2e4f9302f059a4e912405d9957bdd7c
+    old: 876ccbd8fc5916fd634087f47493325310bf8c80
+    new: 340d22a4476ddd2aa1e5fedf6d2f79bdad249a5e
     log: |
-         fc358d9ac2e4f9302f059a4e912405d9957bdd7c selinux: add a SELinux specific README.md and SECURITY.md
+         340d22a4476ddd2aa1e5fedf6d2f79bdad249a5e lsm: add a LSM specific README.md and SECURITY.md
          
