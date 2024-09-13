@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8840949480117030704=="
+Content-Type: multipart/mixed; boundary="===============6169996551200979574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 13 Sep 2024 12:28:02 -0000
-Message-Id: <172623048249.2185949.4215778418979245032@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 12:28:18 -0000
+Message-Id: <172623049872.2186294.9312096702189459051@gitolite.kernel.org>
 
---===============8840949480117030704==
+--===============6169996551200979574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 70302fc7adcd29c4c744489cd89e2d3ed08ecd8d
-    new: cff06a799dbe81f3a697ae7c805eaf88d30c2308
-    log: revlist-70302fc7adcd-cff06a799dbe.txt
+  - ref: refs/heads/for-next
+    old: 8a1f405ed3bd4b69cc19844f8a45601fdc6b8578
+    new: 5fe9a493006d41bf72514f8fa0e96ee9083bc7c6
+    log: revlist-8a1f405ed3bd-5fe9a493006d.txt
 
---===============8840949480117030704==
+--===============6169996551200979574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70302fc7adcd-cff06a799dbe.txt
+Content-Disposition: attachment; filename=revlist-8a1f405ed3bd-5fe9a493006d.txt
 
 adedd0f46c923f8d63aeb42d504c82431febed31 scsi: bnx2i: Remove unused declarations
 3e3ac9c39e1b575e970ecab90504b6cb090f6b05 scsi: core: Remove obsoleted declaration for scsi_driverbyte_string()
@@ -39,5 +39,6 @@ dbc39b84540f746cc814e69b21e53e6d3e12329a scsi: smartpqi: add new controller PCI 
 07dde72ff173742137546cb4e5e9264c8e1ba2ba scsi: smartpqi: fix volume size updates
 bda1c931e2993cbd43515dccec8bdd200a39cbf0 scsi: smartpqi: update driver version to 2.1.30-031
 cff06a799dbe81f3a697ae7c805eaf88d30c2308 Merge patch series "smartpqi updates"
+5fe9a493006d41bf72514f8fa0e96ee9083bc7c6 Merge branch 'misc' into for-next
 
---===============8840949480117030704==--
+--===============6169996551200979574==--
