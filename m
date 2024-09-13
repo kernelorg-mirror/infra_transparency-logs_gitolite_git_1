@@ -1,56 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============6449031465958486201=="
+Content-Type: multipart/mixed; boundary="===============5400766338588947194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 13 Sep 2024 05:31:02 -0000
-Message-Id: <172620546202.1860403.6197942166288714041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 13 Sep 2024 05:32:15 -0000
+Message-Id: <172620553554.1861169.2587733407876675686@gitolite.kernel.org>
 
---===============6449031465958486201==
+--===============5400766338588947194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 340a0857afa627a82d4c738e82fdbbe10600ce81
-    new: 81a2d09ca5e33cf1d7e0805f97e73973c193828d
-    log: |
-         81a2d09ca5e33cf1d7e0805f97e73973c193828d assign some 6.10.8 cve ids
-         
+  - ref: refs/heads/staging-testing
+    old: 17a1d7c5a49cae46b46a36eb4c4ee0add1565488
+    new: ea0fca507967d2d4354f97f688cabddcf1dc5f9a
+    log: revlist-17a1d7c5a49c-ea0fca507967.txt
 
---===============6449031465958486201==
+--===============5400766338588947194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726205462 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1726205460-58fe0cf99bf6284cdc1ad973053a86493bbe208e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726205535 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1726205533-846a8b204dcc69c36296f9adc9a6f177afdf8b37
 
-340a0857afa627a82d4c738e82fdbbe10600ce81 81a2d09ca5e33cf1d7e0805f97e73973c193828d refs/heads/master
+17a1d7c5a49cae46b46a36eb4c4ee0add1565488 ea0fca507967d2d4354f97f688cabddcf1dc5f9a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbjzhYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dm0P/RqfX2X99+dnRBCHIKKN
-jdoVD04v2QxgLtH/k0RfTeHbhB7tHPOOW+EcXJU1gEEMFRVqtCyu4l9PejTNtQW2
-2545V9LE1Fw2eyhEJbLBX5JCmGbgLBgm393ZbbBGTnZNJVAsKFGOcFudZ4E0Jz+N
-hHRiYDUOihXo4rc34frwOOFKn0sKGS18F6RfZFVCMh68aM7YEZOdGSENR40eD5Qt
-pHl2oRxL/zggbvg776gP3Ijvi5ZYaM9TxtQ6rTQ+UBpwDm3Xti/Eel4ZdUfane+f
-sNBZcphRed9SpJMUny6ZB8AkaYcoTao3yTWsK9miaV/EtOR4dFWF3llsRBUwHPoW
-h3BRjfI3wGQoUfbkqRXnAHpY/0K+4EBCutB90UiqPTtfxUBLV+GDub5Ci+RSUktc
-TrKtzYCjKlyrJ8JWp2b0orxnwLqQ722HRtW6qBxFbU5TZS+/Oq+dsSNEIrTausBP
-3BWhfeyylP9RYJKXYcmTaMjadoo7AmC4rxRxSa/0nZJ7ovu6BmdeFRJvbg3JjN6Y
-Ea06bF+JNRNc3ixdW2stKoI3zRK9sISacdyOBT9B6jfwWRReBXIFDt1zYlSusLhc
-HEBiXpLSTcan2q9mXBGjkKCJovajwjH47gGK1Bqv7UCtPP6d41XbfyGJjrmOxjiq
-KTKtZx9rTdySug8eOPVBcc8/
-=2enm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbjzl8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TtwP/23NDjjzHBEddSFWJhxs
+WAMA+nsIELc3i5Esi4yBMRtS1eBwBBxBnnxOJCUd+i48IFH7Lf7OA8MLB9lXeODc
+aXoGeMCR1U2C57+T0GK3fDTRCNWTQM4i4fNPkiw1C2Nccck3GqUbYJ2zy3luPp/Y
+uBgamcF9pSxJNDLogQBHNhvTJqv+Tuk0JXr2qJ2ur35CqRrybNcV8vjOPFoDWY6X
+ovVZ7P68hqf+8n2W2/4YizKDk96QwPDQzM9qzTLWKTDVYwZU06jUSKgz6YOtbfu+
+Wq2Oo05bDHrRL/UVJu4SlJQ1UV2YrdOlsmeXbmJN2jybwMxV/t2sxAwWH6NhIKBA
+p+BBSIXXDWJWa3YhtvsbWOfAilBcr2B8PoR2nzXNmCPVo563iXOQJsKJR9zoa8jh
+mlg85Emu4vTQqbsEpNltkKcV1FkjwAcHkfMQ5Q8cvAJGmM4S3FxzymeGHPbeeOWv
+/roeNotL9i6+0wvLaZYk+GZGzGH6p3kQMHbPAThjDr1qO71W4GSDYbsihhI1En2S
+tTssKJ8bkqIxXUZXiHPhgFwNdtlkkTksUL9FEL+okYG7yORVpF2DC0VSenviLBDN
+4XUScKeoU9+hpxUQmwkTBPHXepH2y6XLtES2675NZ09wknWQY9/MoChqc5RnMf6A
+MSYbqvVjsruN99nuZ9Doo3u6
+=v4Qo
 -----END PGP SIGNATURE-----
 
---===============6449031465958486201==--
+--===============5400766338588947194==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-17a1d7c5a49c-ea0fca507967.txt
+
+33512ed157457af8960c7ac123d0213c72cf052f staging: nvec: Use IRQF_NO_AUTOEN flag in request_irq()
+fd64620992a9b938a6a4aac335d224ce07643c15 staging: rtl8723bs: include: Fix open brace position in rtw_security.h
+ec06bf59068ce0a3e0aee3d5f7c02d4cee895577 staging: rtl8723bs: include: Fix indent for switch case in rtw_security.h
+a77f871b966c2809af18c790da77b8805087f674 staging: rtl8723bs: include: Fix indent for switch block in rtw_security.h
+b5f23bf433d7dbb655c06d509a10016b7f1eb63f staging: rtl8723bs: include: Fix use of tabs for indent in rtw_security.h
+f7ecef7f49bbe071f0daab749deb9ee42f748e38 staging: rtl8723bs: include: Fix indent for struct _byte_ in rtw_security.h
+d958ae0dd027afe208d14a4db7076ee370d42882 staging: rtl8723bs: include: Fix indent for else block struct in rtw_security.h
+056cd1481b281e36f8ec3ac055bdb94df9832541 staging: rtl8723bs: include: Fix trailing */ position in rtw_security.h
+e6e639934664938335fa32d3576f87fc66055183 staging: rtl8723bs: include: Remove spaces before tabs in rtw_security.h
+81c05e4776adf8b439e5c439ac46e5025af57020 staging: vt6655: mac.h: Fix possible precedence issue in macros
+bfa0290f4fc4c84e1283077eecd44147ec27a8c9 staging: rtl8712: remove unused drvinfo_sz from update_recvframe_attrib
+aa947d717a498644b019591768be10a1aac713a9 staging: rtl8723bs: remove unused efuseValue from efuse_OneByteWrite()
+0b4d1ed30d8ddf0204afd2842a91c2113d997254 staging: rtl8723bs: remove unused cnt from recv_func()
+ea0fca507967d2d4354f97f688cabddcf1dc5f9a staging: rtl8723bs: remove unused 'poll_cnt' from rtw_set_rpwm()
+
+--===============5400766338588947194==--
