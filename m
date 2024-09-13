@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2192883278537387419=="
+Content-Type: multipart/mixed; boundary="===============3683371879234135875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 13 Sep 2024 05:29:44 -0000
-Message-Id: <172620538481.1857578.4713581205004837674@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 05:29:54 -0000
+Message-Id: <172620539470.1857778.13663738806301357845@gitolite.kernel.org>
 
---===============2192883278537387419==
+--===============3683371879234135875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 5d13aa44d9aec1fe4b98223805d024fe113b6e5e
+  - ref: refs/heads/for-next
+    old: f4ccc0a2a0c5977540f519588636b5bc81aae2db
     new: cc5b9b48d44756a87170f3901c6c2fd99e6b89b2
-    log: revlist-5d13aa44d9ae-cc5b9b48d447.txt
+    log: revlist-f4ccc0a2a0c5-cc5b9b48d447.txt
 
---===============2192883278537387419==
+--===============3683371879234135875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d13aa44d9ae-cc5b9b48d447.txt
+Content-Disposition: attachment; filename=revlist-f4ccc0a2a0c5-cc5b9b48d447.txt
 
+cef7dde8836ab09a3bfe96ada4f18ef2496eacc9 net/mlx5: Expand mkey page size to support 6 bits
+6cd9171d04cff79abe78c166927ab8563bf95fe5 net/mlx5: Expose HW bits for Memory scheme ODP
+64c68385a39bb676c76da36164ab696e8da78842 RDMA/mlx5: Add new ODP memory scheme eqe format
+8c6d097d830f779fc1725fbaa1314f20a7a07b4b RDMA/mlx5: Enforce umem boundaries for explicit ODP page faults
+7f91510af938b4b308a3d716fd3dbc1b3614ca6d RDMA/mlx5: Split ODP mkey search logic
+e4fda2320f8e6bfc74f01770eb95a31cb327cc09 RDMA/mlx5: Add handling for memory scheme page fault events
+6f2487bfafce5e6cd6f89e7238a82012f7b9f5ac RDMA/mlx5: Add implicit MR handling to ODP memory scheme
 907936b6f4e630718cc31ddea79cc76a3e32080a net/mlx5: Handle memory scheme ODP capabilities
 c77aec65e828bd82726f664585e3bb425d17be7f RDMA/mlx5: Consider the query_vuid cap for data_direct
 303ee44ac4b98196a4a311c670d3db0dc38cee84 RDMA/mlx5: Check RoCE LAG status before getting netdev
@@ -40,4 +47,4 @@ dee3da3422d5e8658b996243dd1ddc774bbf31f3 RDMA/bnxt_re: Change aux driver data to
 94a9dc6ac8f7e6801c88d05c42ed9ceaa4b5f609 RDMA/bnxt_re: Group all operations under add_device and remove_device
 cc5b9b48d44756a87170f3901c6c2fd99e6b89b2 RDMA/bnxt_re: Recover the device when FW error is detected
 
---===============2192883278537387419==--
+--===============3683371879234135875==--
