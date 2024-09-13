@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Fri, 13 Sep 2024 01:09:22 -0000
-Message-Id: <172618976257.1610137.7372242182096970206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
+Date: Fri, 13 Sep 2024 01:14:57 -0000
+Message-Id: <172619009795.1614492.8219424420231826216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/misc
+user: kuba
 changes:
-  - ref: refs/heads/for-6.12-base
-    old: 0000000000000000000000000000000000000000
-    new: 6e746563dfaf8f0ea655214f6935eb52d3050d11
+  - ref: refs/heads/main
+    old: 4b8fcca1c9c4019c8b92a7b1c3b0fbf20286f380
+    new: a8a5e5077abc6f4d56fcd84d74100d22685eeff7
+    log: |
+         a8a5e5077abc6f4d56fcd84d74100d22685eeff7 web: net-next is closed (for LPC + v6.12)
+         
