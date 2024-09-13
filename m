@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3351531612463126785=="
+Content-Type: multipart/mixed; boundary="===============4347579872703487531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 Sep 2024 12:56:09 -0000
-Message-Id: <172623216900.2212954.12625874302934512027@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 12:58:57 -0000
+Message-Id: <172623233709.2214395.12069571579426181596@gitolite.kernel.org>
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,253 +16,256 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 15363b16b2d0f5449bd7c254a6a8546702039031
-    new: 566fcf393386dc6ae21dec14867a1b08eb5d1368
+    old: 566fcf393386dc6ae21dec14867a1b08eb5d1368
+    new: b023a0ff0aef73dc80cf192e3091015957046e0e
     log: |
-         d04b8c2f342dfe744bdc3f1a6704a08142b789e8 staging: iio: frequency: ad9833: Get frequency value statically
-         b17c7c1f94aa64a70cb1c63f4e07b189d0cf8f5f staging: iio: frequency: ad9833: Load clock using clock framework
-         900792dfa9051a8eaf805226b670c4cb6f9ab7cc staging: iio: frequency: ad9834: Validate frequency parameter value
-         1edf2e81ba55fd161be8d4ece1a7764456cbd74e usbnet: ipheth: fix carrier detection in modes 1 and 4
-         2c161b73ebbc73d231c85f85560e1df4db1d4308 net: ethernet: use ip_hdrlen() instead of bit shift
-         f59b697e59c99a5921f28e3697861a0cd46085ed net: phy: vitesse: repair vsc73xx autonegotiation
-         bd5d5187ce136e169b48d49082d7ce8ddd3d2da6 scripts: kconfig: merge_config: config files: add a trailing newline
-         566fcf393386dc6ae21dec14867a1b08eb5d1368 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+         b04c46d3c7a633a19bde62524dc752663cb0c69d staging: iio: frequency: ad9833: Get frequency value statically
+         e44dfde957cccf2a207955907a5be1ba76692e47 staging: iio: frequency: ad9833: Load clock using clock framework
+         b4ccc9575f86a053a27a91da8ff3096327c61ed8 staging: iio: frequency: ad9834: Validate frequency parameter value
+         533c320ba4c5b65d4ee135ed24ef8823899f9f73 usbnet: ipheth: fix carrier detection in modes 1 and 4
+         745f5f19822b969c963001ab7b44a782f506beb2 net: ethernet: use ip_hdrlen() instead of bit shift
+         6aa07777965df4c645cc449f54ec09a69326f3cf net: phy: vitesse: repair vsc73xx autonegotiation
+         d557c955a977bf0af9ed29fb1affd01e1ef4a06b scripts: kconfig: merge_config: config files: add a trailing newline
+         b023a0ff0aef73dc80cf192e3091015957046e0e arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
          
   - ref: refs/heads/queue/5.10
-    old: 8dd9f02ce24308b051bc22c26756197280aad54f
-    new: b496d2b6c596b9631af5de1f85a1fa8ac89ecfce
-    log: revlist-8dd9f02ce243-b496d2b6c596.txt
+    old: b496d2b6c596b9631af5de1f85a1fa8ac89ecfce
+    new: 718da8fa4e4fc41ffe982a15c2e02554711ce9ff
+    log: revlist-b496d2b6c596-718da8fa4e4f.txt
   - ref: refs/heads/queue/5.15
-    old: ffc50602b4adb6352da213c9e84793590f2457fc
-    new: d0560bebcb521ed81da3568845b9a583f7f409b4
-    log: revlist-ffc50602b4ad-d0560bebcb52.txt
+    old: d0560bebcb521ed81da3568845b9a583f7f409b4
+    new: bfec7d21c7f6bb937a9e223ff36c6cc598ea0bcd
+    log: revlist-d0560bebcb52-bfec7d21c7f6.txt
   - ref: refs/heads/queue/5.4
-    old: 97391d7cf4fa626bf79e63c9870fab0f03c0b62f
-    new: f8c08d9e3a2bbe96b62689a557b9a0116b40cd27
+    old: f8c08d9e3a2bbe96b62689a557b9a0116b40cd27
+    new: d9255b93324a278944eba9f372a71f69b7284d3e
     log: |
-         4350ad04910007ed2e5d2d0606a2f372ea46eddb usbnet: ipheth: fix carrier detection in modes 1 and 4
-         0311f35e6bcb7ed984270ed50b40ac80f9128374 net: ethernet: use ip_hdrlen() instead of bit shift
-         c0fe9703d4f6676f19eaa6d966cd6be2519998e7 net: phy: vitesse: repair vsc73xx autonegotiation
-         d91f0911f68c77253f116ad7754256dad6f6946c scripts: kconfig: merge_config: config files: add a trailing newline
-         f8c08d9e3a2bbe96b62689a557b9a0116b40cd27 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+         d2b6fa007c09d73194d19a4dda89f6976087d062 usbnet: ipheth: fix carrier detection in modes 1 and 4
+         5b72ccb361459d8f8b991d40e715ea4f6ed000cd net: ethernet: use ip_hdrlen() instead of bit shift
+         77dcf86fc539f09c6d5489484a790b0217fc2ba6 net: phy: vitesse: repair vsc73xx autonegotiation
+         c9ad8c4227f30b445fa1b4ba6d16ae5dbe93738a scripts: kconfig: merge_config: config files: add a trailing newline
+         d9255b93324a278944eba9f372a71f69b7284d3e arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
          
   - ref: refs/heads/queue/6.1
-    old: c214a3920a48e01e33ccaaef814463268aaa3253
-    new: 84eb31f1e51bd63b333ec57f8e36848118bd2e78
-    log: revlist-c214a3920a48-84eb31f1e51b.txt
+    old: 84eb31f1e51bd63b333ec57f8e36848118bd2e78
+    new: c68005fff3a30029bf46281c5dbab5d54162103c
+    log: revlist-84eb31f1e51b-c68005fff3a3.txt
   - ref: refs/heads/queue/6.10
-    old: c34078f8bdf428f08f1ee162ec522559b8d694ec
-    new: a90db0bd0190e1fe850c49cc9615169797945089
-    log: revlist-c34078f8bdf4-a90db0bd0190.txt
+    old: a90db0bd0190e1fe850c49cc9615169797945089
+    new: 4712c5d735f56c2d0ec1572f8d2995ef35db076f
+    log: revlist-a90db0bd0190-4712c5d735f5.txt
   - ref: refs/heads/queue/6.6
-    old: d52a94a8513a3482b02d06bc55e40fd0e0c97d28
-    new: 59b8cf03bd59d43d4b355ab2b86f17c74b99daca
-    log: revlist-d52a94a8513a-59b8cf03bd59.txt
+    old: 59b8cf03bd59d43d4b355ab2b86f17c74b99daca
+    new: 07af2a317904ef139ed112deded05a86b5ca2c80
+    log: revlist-59b8cf03bd59-07af2a317904.txt
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dd9f02ce243-b496d2b6c596.txt
+Content-Disposition: attachment; filename=revlist-b496d2b6c596-718da8fa4e4f.txt
 
-5b7bbf893acf227c7277f393e8b54ca901d8f499 usb: dwc3: Decouple USB 2.0 L1 & L2 events
-b230dddbdd2e337021dc34652f024e29ef49b613 usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
-e529e9aa0cc4df4c0d2323eb42fa021295f4c22e usb: dwc3: core: update LC timer as per USB Spec V3.2
-01164cc3f2e09aa0276d33558901197faabb3360 usbnet: ipheth: fix carrier detection in modes 1 and 4
-d29dd0d0947f91dca0b26758807bd3e9cefe28cf net: ethernet: use ip_hdrlen() instead of bit shift
-1f9d7f62c9d94a3494b24a96123bcdfe1846b9e3 net: phy: vitesse: repair vsc73xx autonegotiation
-73241ecedf4b81587da94878e7f59facaa74f117 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-663f7b45e4d47330532d1c44ed2b0ceb8ede1d6f btrfs: update target inode's ctime on unlink
-0d8dc82c4a2b3383044b2ef650eb978558331d6c Input: ads7846 - ratelimit the spi_sync error message
-50a94097f4f1743b99987f69a0b4d5969c0107ff Input: synaptics - enable SMBus for HP Elitebook 840 G2
-b771dcc7f5047a471f6b08c1f2e2c2f5d1827825 scripts: kconfig: merge_config: config files: add a trailing newline
-ebc98914aa1503512cf8801fe69a767fee3d855d drm/msm/adreno: Fix error return if missing firmware-name
-cef108351d8c41fcc8b2c72278cf1eb2fb503642 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-b844fd8ac7aba2af8d9e80cab7700894c90d060a NFS: Avoid unnecessary rescanning of the per-server delegation list
-0b77dd4457724df781ed6d2ea77fdba1b081cff2 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-b496d2b6c596b9631af5de1f85a1fa8ac89ecfce minmax: reduce min/max macro expansion in atomisp driver
+f1f3ce58fc93caaa53f3a0b0af703ce298e74c99 usb: dwc3: Decouple USB 2.0 L1 & L2 events
+5086cbe287e4575c066248146e822fb4aaa3385f usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
+6aeb255013f71220741751d89251b32a70e29ce0 usb: dwc3: core: update LC timer as per USB Spec V3.2
+102bc2388711e9e57a09f8245c09ede721ca8382 usbnet: ipheth: fix carrier detection in modes 1 and 4
+4d8e3b61e2bd718c09bcf24b4864994f4e9c36f8 net: ethernet: use ip_hdrlen() instead of bit shift
+ecf3e0ae03f7e13f74539c804cc7387d428f7ad2 net: phy: vitesse: repair vsc73xx autonegotiation
+6cd01b21de9ae95a4a45af5366a00a45d623ac47 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+e31b155bfedc23a92ef451534702986d15ad9dc3 btrfs: update target inode's ctime on unlink
+681c47b8b05daa863ef918c6c35eff3b2982e17b Input: ads7846 - ratelimit the spi_sync error message
+727d9b2981606eb8a122383bcc26b9e41080dec7 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+22564189884d5be45662a2006e6011ad9781775b scripts: kconfig: merge_config: config files: add a trailing newline
+e517300bf607d49dc885a7498fb2c5ad1e7a4e95 drm/msm/adreno: Fix error return if missing firmware-name
+1faecc29711555934e9e7a1c2102effb82a13bde Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+0bf685638b4f9734d4a6c4ace59acb581ab16b78 NFS: Avoid unnecessary rescanning of the per-server delegation list
+26e7daa1a715ac947d20c38e7152e9fd083afab9 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+718da8fa4e4fc41ffe982a15c2e02554711ce9ff minmax: reduce min/max macro expansion in atomisp driver
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffc50602b4ad-d0560bebcb52.txt
+Content-Disposition: attachment; filename=revlist-d0560bebcb52-bfec7d21c7f6.txt
 
-4f677ecff9b2c7d5a4c4cb8ba548af4889383fd7 usbnet: ipheth: fix carrier detection in modes 1 and 4
-3311a1efc79ad80b0a081faf3da009affd8f31df net: ethernet: use ip_hdrlen() instead of bit shift
-034e0761977bb03c0b630d6e669d084acb854404 net: phy: vitesse: repair vsc73xx autonegotiation
-b2db6d9bb59be00827b04949f9631ff5d93623b9 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-e3777a6326da6b6cc722fff9d715ed7e1146d0d1 btrfs: update target inode's ctime on unlink
-021353fe32a02174c43fc4082faab48d19109217 Input: ads7846 - ratelimit the spi_sync error message
-b683aed10cf3b1fe313fa2d7c9583824fb560f52 Input: synaptics - enable SMBus for HP Elitebook 840 G2
-82b29bbbddfb2e73ddc6da31fc9cdfb65cf024b1 HID: multitouch: Add support for GT7868Q
-e4168a0c789d2170fa5f8e6ce8c732ede5b63a5f scripts: kconfig: merge_config: config files: add a trailing newline
-2ab1589698c9e191a6feaa84228aa341d5382840 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-04ae511a003521a54dc0f5fd2787e4e813fcefd5 drm/msm/adreno: Fix error return if missing firmware-name
-58b7ef2b8826ed90dac38a3d66f3e0da672b2ff4 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-03b545b0f60a3d075aec149ce3b7a560b2f5a70d NFSv4: Fix clearing of layout segments in layoutreturn
-538cbdaaa44c014438fa1cdd46a3fc8655dd7ea3 NFS: Avoid unnecessary rescanning of the per-server delegation list
-da0e9314fb0d1a0f33ebd275cdef1d9087bfee53 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-eac148c834864a426906836844975d527a97c745 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-92f30c9558fc11ceb19b78a3e795b516ce2a4af5 mptcp: pm: Fix uaf in __timer_delete_sync
-5a2a0c656ba4e82019eca03b3973455e5e584e7d arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-4d58aaab9b660302daa6b96229f40969cb382521 minmax: reduce min/max macro expansion in atomisp driver
-fd478b9c7e0a3efb86579157cd906c635d1cc1d7 net: tighten bad gso csum offset check in virtio_net_hdr
-5215f28a296d0a1f58911911667210f7e049d672 mm: avoid leaving partial pfn mappings around in error case
-d0560bebcb521ed81da3568845b9a583f7f409b4 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
+c68a0143ed40364be360ff9abb41fed8706f26c4 usbnet: ipheth: fix carrier detection in modes 1 and 4
+0dbfba7efcf1188af8733d1ccef7b5b5bdcdadf2 net: ethernet: use ip_hdrlen() instead of bit shift
+5907eec10bba84985224e30d44df401db13207dd net: phy: vitesse: repair vsc73xx autonegotiation
+a3f9f0a91aba958e98c3c415bbfc1bd23c0a6709 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+835e8b7e7b7daa4def1e08ff555e6f1e0e400fb7 btrfs: update target inode's ctime on unlink
+9b873fcf42844bf535feaaa8f426972a1a2e0b93 Input: ads7846 - ratelimit the spi_sync error message
+713982857a5cbb71d548d6d099009507c431c752 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+d39c886845ac7f12992d6c1645d0d4c8e121352c HID: multitouch: Add support for GT7868Q
+9bfd730af20ca314cf64483cccd11e9d48396d70 scripts: kconfig: merge_config: config files: add a trailing newline
+76f8e9b85dcd1f0b43c354906cdd875e7239aa57 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+64c2bdc96cd124caa13f3156828caae8345ff1de drm/msm/adreno: Fix error return if missing firmware-name
+debb7d4084fd7186e412193890a8dfcd8961f5ca Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+9a912b5aa953803d00fd73f3a3917f00d0034a83 NFSv4: Fix clearing of layout segments in layoutreturn
+b3e77e2022e1c9ffb04e8221f44a06350050f20f NFS: Avoid unnecessary rescanning of the per-server delegation list
+f1a317b2f9530362e61b8c1c253a91601df29257 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+8d3cc8e24f9b8ee1d7d3fa819127a43c8759b03b platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+faef3fa38c7621525595a1e384c164549ff28790 mptcp: pm: Fix uaf in __timer_delete_sync
+ac742d1f54ebfbc41f73514390e16cbfbf823c42 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+ed4680858c25e7e6a88191e125eca9c089230b82 minmax: reduce min/max macro expansion in atomisp driver
+6530fe4d14b260f3d6d4b9508cc48ec2172ea8f6 net: tighten bad gso csum offset check in virtio_net_hdr
+155e12db78b4c57a20f18a599a5fecba3f5a2f80 mm: avoid leaving partial pfn mappings around in error case
+bfec7d21c7f6bb937a9e223ff36c6cc598ea0bcd fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c214a3920a48-84eb31f1e51b.txt
+Content-Disposition: attachment; filename=revlist-84eb31f1e51b-c68005fff3a3.txt
 
-6a646c5c6bb222e00b21bda14f38b742f7156dd0 ksmbd: override fsids for share path check
-cd543d43293fc9900555d99d58ed7f8be20295dc ksmbd: override fsids for smb2_query_info()
-13717c17242473b1993b31f9d684ebc087aed217 usbnet: ipheth: fix carrier detection in modes 1 and 4
-8d263dd475a6bc7293d2ce661bcb273eb980f273 net: ethernet: use ip_hdrlen() instead of bit shift
-979c23b2e5adbb21fff1c8be95018c4317377d24 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
-34da958570862778331830663bbda62b6c0f9124 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
-f0be178bf0920fa82d9e6c46ccd62420ca6a218b net: phy: vitesse: repair vsc73xx autonegotiation
-d84d2efdae5d24b46c80f9c34460e822d995db3f powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-03beed3e0e948e817cac09c39c601a9075a7c986 btrfs: update target inode's ctime on unlink
-e42ff7d8f66e6c9df433476e2505168850678051 Input: ads7846 - ratelimit the spi_sync error message
-402678f9e8212f5ea9dfc1b5f00b79b79d76f408 Input: synaptics - enable SMBus for HP Elitebook 840 G2
-d987075bffc322fc0460b593581487563ca00893 HID: multitouch: Add support for GT7868Q
-9dd0b1847b4f864b2535bccd2bbc886ccec7c962 scripts: kconfig: merge_config: config files: add a trailing newline
-1cbda7826720bb280a2164405e920ff3ce16ec3f platform/surface: aggregator_registry: Add Support for Surface Pro 10
-13b6b1902b782b8bcbd7993d80611fcd6e174416 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-44c9d1e6dde6f37bab99eba737b6fc7dea03c802 drm/msm/adreno: Fix error return if missing firmware-name
-30b8f5a51c740a9bbe75fa9771c74f3c40b6109e Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-8485de064919c903f658d75771238dd8bff26470 smb/server: fix return value of smb2_open()
-25d825c389055eea8beb50e5fc4810a1e1d3f99c NFSv4: Fix clearing of layout segments in layoutreturn
-c6ea8b21969cf61bbc110838a1e99fa2aa0b630b NFS: Avoid unnecessary rescanning of the per-server delegation list
-c2941ce780b3a09d989550c34d2b2d0cb3e9ca1b platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-9be06bc72ffd404f15acf7c54cdf8b29ad98f545 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-8be432dc80144021780b8aef8a2ed42c71dc5cba mptcp: pm: Fix uaf in __timer_delete_sync
-da0bba94e51431be2542b6753da745e182430150 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
-9e0bfbd073323f09dd9f21cf4ee466f254458ac2 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-85ee79e0955d42860046b7c552b7e13399776577 minmax: reduce min/max macro expansion in atomisp driver
-3eb7dc28ed1a11422cc3ffe91ab7df14a889c100 net: tighten bad gso csum offset check in virtio_net_hdr
-2bdf7b62d6ce5e24c263873d5d6ec4f261de2067 dm-integrity: fix a race condition when accessing recalc_sector
-84eb31f1e51bd63b333ec57f8e36848118bd2e78 mm: avoid leaving partial pfn mappings around in error case
+449bf41489e90e3da5abd92751228dfb5e22dc33 ksmbd: override fsids for share path check
+46f99c7a8a7aa9a82c705e2b5504bc4a2e371a6d ksmbd: override fsids for smb2_query_info()
+41a6b01bb040fca6d8b6acb10bacb673ef75a0ac usbnet: ipheth: fix carrier detection in modes 1 and 4
+53e0ca86f2bb2d935cd3b5609841bedbb78a67f9 net: ethernet: use ip_hdrlen() instead of bit shift
+9f4f675d19a76efc18dfaff99adeeeea31dacd9d drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+86b513cdc32e1a96281ea6f72cdda85518af6584 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+7341ba8aabcd68a3043306cb19c37210dc9b0f30 net: phy: vitesse: repair vsc73xx autonegotiation
+0719a19d6e08a4291db846bc847a0caff4a55e5f powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+b044bccd7f0283cd4801283796f787f83f9abc6e btrfs: update target inode's ctime on unlink
+09dfed77f088c32fba95aff14f9993adecad3755 Input: ads7846 - ratelimit the spi_sync error message
+81221314be6311e159a0694ea087f3d7c0194843 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+6b474347471c1f69d307cf46afd3432a5c837d6b HID: multitouch: Add support for GT7868Q
+d294e5796effbb64567cf37355e81ee3f71603b0 scripts: kconfig: merge_config: config files: add a trailing newline
+e814f418a9d3b3c222f4a5e33dddb4a5bea93ab0 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+92edb6db86d7b66a37cafc92a3bfc6868dfaab6e platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+74b69aa8bb57fe7ce537215ef2fa54b2cd78714c drm/msm/adreno: Fix error return if missing firmware-name
+9141fb4cf60cdc96cef87dc1c437f1da7e06e696 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+e06ad181239beb84412c7723dab0f675a83cd94e smb/server: fix return value of smb2_open()
+7cd8355e9b88ba5a5f7f2efa42f85c89aebbb0fb NFSv4: Fix clearing of layout segments in layoutreturn
+72feabae856306a95bc178377b07e219428b154a NFS: Avoid unnecessary rescanning of the per-server delegation list
+08456b7988b44abd49a6683f75a5130eb86349e0 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+a906b20a11090d10bf72236ba6015ab786848352 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+380a9583bd97e6da269547ad45614244db610f5e mptcp: pm: Fix uaf in __timer_delete_sync
+99eabca6b0dcbe9bba940c8d856db3a7611aac31 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+065211b041bad2ade4d85863e92845da4b90806d arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+f954f231a80ac56910c0b1a639e4bc02125700ad minmax: reduce min/max macro expansion in atomisp driver
+2bbf5bf02b05ef48fdd3b1e4d41e86cb50a778b3 net: tighten bad gso csum offset check in virtio_net_hdr
+f101b344dbc2a4cf4e18ac9d96686ad02bf624b9 dm-integrity: fix a race condition when accessing recalc_sector
+c68005fff3a30029bf46281c5dbab5d54162103c mm: avoid leaving partial pfn mappings around in error case
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c34078f8bdf4-a90db0bd0190.txt
+Content-Disposition: attachment; filename=revlist-a90db0bd0190-4712c5d735f5.txt
 
-115faad3a8d10477c0f50efdd0deb0df72cb4e03 usb: typec: ucsi: Always set number of alternate modes
-3a01270d567b7fa73efcd91a2bed6b43f7df18c7 usb: typec: ucsi: Fix cable registration
-10d88ecb47238bcbf3d7206f482c6c51d3e85d55 drm/mediatek: Set sensible cursor width/height values to fix crash
-d51fbe114ee44152279cbadf6b23c2bcec084844 ksmbd: override fsids for share path check
-78651d0a48a1a9657ff8d46c100a37111c2e27be ksmbd: override fsids for smb2_query_info()
-ab9a8a7f35d03bc23af502f2025c3c5af60e35c0 usbnet: ipheth: remove extraneous rx URB length check
-562b489b3476136e013b9c48ed3b506241ac27aa usbnet: ipheth: drop RX URBs with no payload
-4e5323197956c98e129a5c1b4863e9e49202d899 usbnet: ipheth: do not stop RX on failing RX callback
-b02f8e43528cee4e55f4fd6914daa0b34e4c22f1 usbnet: ipheth: fix carrier detection in modes 1 and 4
-8399f5c272dae59c71a238a2120ef572119f336c net: ethernet: use ip_hdrlen() instead of bit shift
-5887eef37257d5d94cef67788d6fccc571ea7686 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
-2faec1025915adcd13b20268cdb121cb511fd853 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
-c347df9b3eb69af72fd0f6479c200d486ada938e net: phy: vitesse: repair vsc73xx autonegotiation
-3cb8907a3cbb7599f8d30cfdb9f156cadfd169cf powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-6bda095a1a23709c3e25a5cabfc0a57f732b732a wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
-e0cab402d165742c6b920090ce4c9b842708e6af drm/amdgpu: Update kmd_fw_shared for VCN5
-964d0ffa5613ea25ed0e03dfd6a7090ed2b3ba75 net: hns3: use correct release function during uninitialization
-347c1343b116b9f73ef32074a6e27da5126abf50 btrfs: update target inode's ctime on unlink
-8e96cad6fd67ca378f4a18ead65f4afbe1e56333 Input: ads7846 - ratelimit the spi_sync error message
-9cd5f487d839545d3e2f87f014b57df03155da8d Input: synaptics - enable SMBus for HP Elitebook 840 G2
-99066f5afca07ea0dbc3813cf2ab46f9d2725579 hid-asus: add ROG Ally X prod ID to quirk list
-c33966ec364d1a75cf3dacea1be016f5490dd7a1 HID: multitouch: Add support for GT7868Q
-4083c03aa02e9b18548e6baafa12a384bfb888ab Input: edt-ft5x06 - add support for FocalTech FT8201
-aacc25f1da0db8e5567a4a1bf66cedcf0dcc4ffc cgroup/cpuset: Eliminate unncessary sched domains rebuilds in hotplug
-bcf5545952419bd283acee7b96312365d4a4c054 scripts: kconfig: merge_config: config files: add a trailing newline
-a70bb8ce9a45312f21dd6dcb6baeb05dcbd57dfa platform/x86: asus-wmi: Add quirk for ROG Ally X
-d58eb634c3a75928118e7dbf0a5e524e9d1ddd8f platform/surface: aggregator_registry: Add Support for Surface Pro 10
-292856d280c34a7fb7911c9e7d77652799a1f829 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-6c91992135c1ed4fddda419693d95f05e390fe25 platform/surface: aggregator_registry: Add support for Surface Laptop Studio 2
-4d978eb5a39f8b2f3b38de04f214e9a6c4fe8183 platform/surface: aggregator_registry: Add fan and thermal sensor support for Surface Laptop 5
-a9e83b536ef023ce27b704ca1c6b9a4ab6efb8aa platform/surface: aggregator_registry: Add support for Surface Laptop 6
-0bff8f20345109ffba33aa31282882e6df9a6592 spi: zynqmp-gqspi: Scale timeout by data size
-c91d5d099b1d6ca56fed3da0fcec7ca72fa79ac2 drm/msm/adreno: Fix error return if missing firmware-name
-0b7acb730a61c78feb430f9b2b287826956a0f43 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-8ce170cf878f0dceb56d45a2f51a6a1ce1eab550 drm/xe/xe2lpm: Extend Wa_16021639441
-c1b8e14f570ad12b35d5a1e0c1f0fcff003c41c8 drm/xe: fix WA 14018094691
-3fc1e6a134ca1e06b6a4c55d1e4590c877d9e47f drm/xe: use devm instead of drmm for managed bo
-f97db119b92980ce19d73bc62769ce7367b88169 s390/mm: Prevent lowcore vs identity mapping overlap
-27ff4fc0b57d0ca67b807280e732dce7a1cc4887 s390/mm: Pin identity mapping base to zero
-ca2fdb56db05e5b9da69a0f9dfcf36205ae85d1c smb/server: fix return value of smb2_open()
-1fdefe7b8e635cd3815afad8566c144a94fdaeed NFSv4: Fix clearing of layout segments in layoutreturn
-cf1702defc208cb1b05394eac0a8a663cc21e9ac NFS: Avoid unnecessary rescanning of the per-server delegation list
-ce2d4d10817ccb262794b5b89941abe76465c23b platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-552cb2096142482e13d6ac8db19d2bca3c57297b platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-6d62a8492676583fd56201581d0d74d448ddb938 mptcp: pm: Fix uaf in __timer_delete_sync
-18e00efe611ad54471c3ce9172030a289817d5ba selftests: mptcp: join: restrict fullmesh endp on 1st sf
-23b91fd7e8fa88d74c664059f90c63908917972f arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
-a06c315875634afea2d73a7c01fabf186cc78ba1 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-6ebf7ca101b91c60b4cad2ea4026ede4846c5057 minmax: reduce min/max macro expansion in atomisp driver
-c4f473be0a12221e8739535d0b2f551fe1b03f97 net: tighten bad gso csum offset check in virtio_net_hdr
-0c7fe43477e0b8580c65f1a5a58d6148a521c09b net: libwx: fix number of Rx and Tx descriptors
-e0a1df6e82b88054c38f7aef9fd341a27b229c80 dm-integrity: fix a race condition when accessing recalc_sector
-439c785f7274b298250e36f95ea3c05eafc8d1f0 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
-bc14e2c92ee6007f61ed38f406fcb03213e20d5c x86/hyperv: fix kexec crash due to VP assist page corruption
-e02501803150021517067cba2ae4c414346333b8 mm: avoid leaving partial pfn mappings around in error case
-e2608027bc5bdd7a18e5ced17beeb5b30507e656 bcachefs: Fix bch2_extents_match() false positive
-6a7007f01495d28281439232dfd025b467fc9268 bcachefs: Revert lockless buffered IO path
-a90db0bd0190e1fe850c49cc9615169797945089 bcachefs: Don't delete open files in online fsck
+88362332796492b795e23d331568b81446f242ec usb: typec: ucsi: Always set number of alternate modes
+c998fd0a032f609a1e20c1c6ee959e801f62215a usb: typec: ucsi: Fix cable registration
+f4b17391c91a7be6f7df892606aefa3b89de2e0d drm/mediatek: Set sensible cursor width/height values to fix crash
+71a57bd28a8b7ca4445b68974affee38f04269e5 ksmbd: override fsids for share path check
+ae174a7b414f1b6c05c1dae0c7845ffd0d4661ff ksmbd: override fsids for smb2_query_info()
+d049e949894cd6f915b9c98cd3072eba277c1a41 usbnet: ipheth: remove extraneous rx URB length check
+4d9d9a30fb97341258d1ee3586624c8a28ea769e usbnet: ipheth: drop RX URBs with no payload
+e5450bba32b3b4b4eb457a8ed78d877aad91e1b7 usbnet: ipheth: do not stop RX on failing RX callback
+e842787d5e3fd7d6e465433f3953391f39074424 usbnet: ipheth: fix carrier detection in modes 1 and 4
+0daba714472c9e413e3f6394215021c4623e3a55 net: ethernet: use ip_hdrlen() instead of bit shift
+4e434487514b4738554cfdcb7a520221653d8ed2 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+14c64cb1de50b0f740bf611fd66e1a2e2136fc60 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+4c8fe25ac7872eaf7fdcbfc9214c90aa281a4a10 net: phy: vitesse: repair vsc73xx autonegotiation
+8a06a75c26e2443fa794126f9d5102caf29ac7ed powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+f4b13110106bc4e4e2f9abfd59fab2ff783fee27 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+2c870fe8cd5378566a0d6017ebe59c31be66bd96 drm/amdgpu: Update kmd_fw_shared for VCN5
+034d049a994c3c9673db4487616827cc0217924a net: hns3: use correct release function during uninitialization
+a19911540e7f033228e37b8d0ab62a4ec66fb199 btrfs: update target inode's ctime on unlink
+481c2719da070140de356b07ab73725f79ed6b22 Input: ads7846 - ratelimit the spi_sync error message
+2237cffe7e04c3c2a4698c21eb096a20b06251af Input: synaptics - enable SMBus for HP Elitebook 840 G2
+c6babc1342819966a8944c2c07eb882af801a684 hid-asus: add ROG Ally X prod ID to quirk list
+d8e4b749e1f18d8bcddfbadb48d49f1ed1f56b6b HID: multitouch: Add support for GT7868Q
+a697305a50dce693f7dfda29f6bdffceba9a5db5 Input: edt-ft5x06 - add support for FocalTech FT8201
+d8d9782ce33d34b0b1eade774ade6a3eba26ef01 cgroup/cpuset: Eliminate unncessary sched domains rebuilds in hotplug
+e53fcc11a00a5a121c96d85c4101f1347187b7bd scripts: kconfig: merge_config: config files: add a trailing newline
+800f666b3a7b235aec2b56cbb4912965610e9f82 platform/x86: asus-wmi: Add quirk for ROG Ally X
+71e0b047dd685ae116b6f8d57b4fdfbcfdc8995d platform/surface: aggregator_registry: Add Support for Surface Pro 10
+3f621e37b370039f6b1bfcddd410d0d4054bc330 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+f78d2a49b09378fe7cb92b218ebbfd254d93a638 platform/surface: aggregator_registry: Add support for Surface Laptop Studio 2
+21e23371f9db9b29c1f916926e9addcd343b7a29 platform/surface: aggregator_registry: Add fan and thermal sensor support for Surface Laptop 5
+da01c0fdea6c0ac48f8d03c5c635cf8c5494f32e platform/surface: aggregator_registry: Add support for Surface Laptop 6
+37eaacd24a1ba9259a85871b66e56616543c4ffa spi: zynqmp-gqspi: Scale timeout by data size
+38bdeb1f5c78b853c93d2bcfd6bdb6dd7e4c1bda drm/msm/adreno: Fix error return if missing firmware-name
+c8a2a0933b4df50788a3d4bce51fa146ca09c301 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+37ac23516fe76e3ea5a81f797ff34ad0c5f907d8 drm/xe/xe2lpm: Extend Wa_16021639441
+41f5f6d2aa7c297bac2db5865ca9c2a5ca9d713d drm/xe: fix WA 14018094691
+80e639e4bea532575aa7094a598d105e56adfa31 drm/xe: use devm instead of drmm for managed bo
+d6960a75a1c36982697d7474c4d0628a79a3a69a s390/mm: Prevent lowcore vs identity mapping overlap
+3f6c8240ff32b03032c261732c7fa34a5941bccd s390/mm: Pin identity mapping base to zero
+64d5a06bf55b8d797a12a9e617e80c284b2b25f4 smb/server: fix return value of smb2_open()
+e3851582f291791f96d28ef8c0d0c3ecf6d0d091 NFSv4: Fix clearing of layout segments in layoutreturn
+427e1e79a17e1a86721482c0e1b7e888ee8da407 NFS: Avoid unnecessary rescanning of the per-server delegation list
+cdd49b5d91031705ede1b9fed0e81ff4c5d19a0b platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+b895289b729d7cb1fef87fba238956cf3d6a9b8b platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+e16380b3bd4b57ae5a01b0a9be29d3eb71920a0a mptcp: pm: Fix uaf in __timer_delete_sync
+bc80d0318fad706eb2cbedeedc4eb7b6e4d44cc3 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+3c1cf4e335dff0814139fdd133d5f8c0e872f405 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+439af759dc224af926a0b700f92e222cdf10d063 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+11dda0e09d136acfc7d1af2cd1a1412a576092c4 minmax: reduce min/max macro expansion in atomisp driver
+8308cbc542b5c91fb4e36e1dea21bf7c4c25725c net: tighten bad gso csum offset check in virtio_net_hdr
+5f4d8d151dc26f5e54c64f6f9ade296d525ade0b net: libwx: fix number of Rx and Tx descriptors
+56bffbdceee272f24d4ced6e72fb36eaff982d3f dm-integrity: fix a race condition when accessing recalc_sector
+dae7e6897703746169f0521a7a776a4fb31ff7b4 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
+6eeda5b8c68756d0b7357210df6e4d9f3d356f02 x86/hyperv: fix kexec crash due to VP assist page corruption
+0a4c041b42bba476804b1cfcd24fd5e5d32fe505 mm: avoid leaving partial pfn mappings around in error case
+c89d52064b22065a000df61d74ac741a0d7c07c7 bcachefs: Fix bch2_extents_match() false positive
+15709420441e6765ee031a0cd90b6079d3fc0dfa bcachefs: Revert lockless buffered IO path
+4712c5d735f56c2d0ec1572f8d2995ef35db076f bcachefs: Don't delete open files in online fsck
 
---===============3351531612463126785==
+--===============4347579872703487531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d52a94a8513a-59b8cf03bd59.txt
+Content-Disposition: attachment; filename=revlist-59b8cf03bd59-07af2a317904.txt
 
-47f11c9bda4f97d2cf694f69a875f5f080ac59ac device property: Add cleanup.h based fwnode_handle_put() scope based cleanup.
-e29b75b32832d42d3e9976992f2f79554732073d device property: Introduce device_for_each_child_node_scoped()
-c3c9f28a3a3a80582f95494fc50c7b85513e755d iio: adc: ad7124: Switch from of specific to fwnode based property handling
-42c18385d20df382cbe40d365188cd224a00503f iio: adc: ad7124: fix DT configuration parsing
-fda7b5ec96dd71cff829131d9354cf446cd4f879 nvmem: core: add nvmem_dev_size() helper
-b650eeaaca8e732d619f334101eb678abac79aed nvmem: u-boot-env: use nvmem_add_one_cell() nvmem subsystem helper
-1c22e29b722c50db9099690434d2ee50cb03b88f nvmem: u-boot-env: use nvmem device helpers
-b4f6fb62f8c2485b339a4dfd5756169bb9e2b546 nvmem: u-boot-env: improve coding style
-8d563e88873bb2f3f4f3fb154642f817b42c96a7 nvmem: u-boot-env: error if NVMEM device is too small
-726addd9b17c08ecd506bbc78b155bd371b092db ksmbd: override fsids for share path check
-daa08bc1ca8ca3197f6a1eba6a1b3c7f5dbacc72 ksmbd: override fsids for smb2_query_info()
-4c85dc20ce1c4f74aff14d07bfd5eb6777f3b689 usbnet: ipheth: remove extraneous rx URB length check
-7b2bf3318381c5a765e6984a77a6a2111a297a2b usbnet: ipheth: drop RX URBs with no payload
-289ccdace493f27e9262ac90989402d8341490c1 usbnet: ipheth: do not stop RX on failing RX callback
-5f2086d86887ec351a997dc17633d0cce69e4146 usbnet: ipheth: fix carrier detection in modes 1 and 4
-b0b15538cca4fd13147bdea723bdab1b5a22e8eb net: ethernet: use ip_hdrlen() instead of bit shift
-7ecfd4909b6ce232303e16030bfa917761d21f27 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
-a7c15f11bc13c2e0cd5ad0d31903cd42b6ca922b drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
-f23e44d01b6122a2448cab36e898436adc7dfaa4 net: phy: vitesse: repair vsc73xx autonegotiation
-2480986f9f9ea5d68c83ecefa3138cfb08f76d57 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-92c0c83138ccf79acdab68f0f8113cbc086d6382 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
-1c92a97afb4fac9c8ec198ab50d498090770bc20 net: hns3: use correct release function during uninitialization
-b48616149c9360ef7aa63b34f2df86e6928ff369 btrfs: update target inode's ctime on unlink
-a9f775dc27e70ea21ba2e6350b5051f262774263 Input: ads7846 - ratelimit the spi_sync error message
-93a69d75367983d43f59da3dea5c2a71a3b816e0 Input: synaptics - enable SMBus for HP Elitebook 840 G2
-7d41bedbd4c69537096d888b8528b81c8332d627 HID: multitouch: Add support for GT7868Q
-a9bc4ea1c5688972aed3c3d9c293de71ac461944 scripts: kconfig: merge_config: config files: add a trailing newline
-d981cea7873f14140eeb059c8ad64b2c4518e620 platform/surface: aggregator_registry: Add Support for Surface Pro 10
-70b2eeefcc11816e8bc1bc265e35f602fe2d59dd platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-9d0c9e34757853bab8647e935bbe370017349918 drm/msm/adreno: Fix error return if missing firmware-name
-99828578c016f7b2a34db99abd78a01bf09716b2 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-ce97cccd44cd3fa6177aeed15427868273e768f8 s390/mm: Prevent lowcore vs identity mapping overlap
-d2e53b6f12c2225cd0999c58f13b0f0e2ec20d0f smb/server: fix return value of smb2_open()
-84f7b7c74d35866cb0c8979a0643924e9c67143c NFSv4: Fix clearing of layout segments in layoutreturn
-f83e4a6ef2ac93dd563890b06e62b2e3adb7e0bd NFS: Avoid unnecessary rescanning of the per-server delegation list
-d573fb387a65c3d3474e2732ba2a4845ee5a2e68 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-1f4d6d3ae7fc6765190fcdbabdc909d05fa924b4 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-9222c82fcf6decdaa61febed4c1b19ff0752c4a1 mptcp: pm: Fix uaf in __timer_delete_sync
-3dcac8906d47444cecf320f0a05170c7fbebf742 selftests: mptcp: join: restrict fullmesh endp on 1st sf
-780d2d5039cbe82d313c4c26fdb39da15ed420ee arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
-571bed83d22b25ef7e97ac37db8e29414e626da3 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-a34d26781a92a8f801c1872de8fd57a12412def7 minmax: reduce min/max macro expansion in atomisp driver
-0ea51eccbaec757c193fc3530c5153c598da8b99 net: tighten bad gso csum offset check in virtio_net_hdr
-fe257e281174660f2908d80cc56562b17af94115 dm-integrity: fix a race condition when accessing recalc_sector
-56cbbe5f7161f491a18bb6c2cf36f6166e0afdda x86/hyperv: fix kexec crash due to VP assist page corruption
-59b8cf03bd59d43d4b355ab2b86f17c74b99daca mm: avoid leaving partial pfn mappings around in error case
+2f9607fb5989371d47133388475e087d1375ed91 device property: Add cleanup.h based fwnode_handle_put() scope based cleanup.
+7c71dd88b46e658113d015a2c76b68da532bf159 device property: Introduce device_for_each_child_node_scoped()
+00ba7b1eecdd20559060458ddf6ba7b20efbe93b iio: adc: ad7124: Switch from of specific to fwnode based property handling
+67fd35ffb897cf44e379d69f6413ebf67ae77326 iio: adc: ad7124: fix DT configuration parsing
+f43634559c54bffe4fa8b79692c6ea80411d2921 nvmem: core: add nvmem_dev_size() helper
+d27c2b0e4340ff6e0e1ebc46e05251814fc5be1f nvmem: u-boot-env: use nvmem_add_one_cell() nvmem subsystem helper
+d57c16d72011879023f63ae1ab3c5ab6e4d49209 nvmem: u-boot-env: use nvmem device helpers
+2c126a6eb57b743cb47fc94bf5dcabe102ee8599 nvmem: u-boot-env: improve coding style
+5b7634863efd3082e36602a5488c5e8ef5241817 nvmem: u-boot-env: error if NVMEM device is too small
+82b6d31a12e67f38a20bda2c2761113414f75e4a ksmbd: override fsids for share path check
+40a61470fb58c79530e29f8361f6c7a2f8ccec51 ksmbd: override fsids for smb2_query_info()
+8223b7c01321bd408bb722b082789bd35f3ce6ab usbnet: ipheth: remove extraneous rx URB length check
+702fe9ee02eaf070dfb6b2663311426b4476be96 usbnet: ipheth: drop RX URBs with no payload
+2f48fc6df77e979864beccc3ab428ec36a681924 usbnet: ipheth: do not stop RX on failing RX callback
+f9e5573537e9afe3586b389be105b93aae90f567 usbnet: ipheth: fix carrier detection in modes 1 and 4
+6dac9b3d45b9c53692a2acd2f901d9f4dea64f95 net: ethernet: use ip_hdrlen() instead of bit shift
+04b119df11494214ceb13d4f4f35c66d68d92cea drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+7715093220d053a405a8189ac58964323988ef5d drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+daceb7748cee23f18ba8fc83546032096058d71b net: phy: vitesse: repair vsc73xx autonegotiation
+bfabbba8543da965171804e49ed166e5425153c7 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+88e8f743ff6ad21be2aa11afdb2f8f5852205fc7 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+525c5ae988c3cd0bf86358c2b7b6937def337a7a net: hns3: use correct release function during uninitialization
+d21470739b711d35cd17fa720825e23a66190a06 btrfs: update target inode's ctime on unlink
+247970156dee83f5026f9adb7a547ccdf5298053 Input: ads7846 - ratelimit the spi_sync error message
+1dffc39fd219ae724504de8d567687251361d558 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+1af26be653f707772b6aaeb1f1b66dd4356b3bd2 HID: multitouch: Add support for GT7868Q
+cf81f3c7eda5309f2ea9f1d55ad0f6284dba9ce4 scripts: kconfig: merge_config: config files: add a trailing newline
+8788929b0733270e2e5371f0fccde38143fdc9f4 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+5e3e6a6ddc5f3da2c34f9929f5071cfb22162eed platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+81ca96aa33095f7341f196be31012deb6f65c95c drm/msm/adreno: Fix error return if missing firmware-name
+f854bb60ad0ecb1adffbc0300d37e55b83bbeb10 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+8927f9f6a84b3fdffa916e507e6ec302a12c8ec1 s390/mm: Prevent lowcore vs identity mapping overlap
+3082e79dd01f3896c06893dd0c5b07c9adda6e61 smb/server: fix return value of smb2_open()
+e3b823fa93d55ba3ae4b3e23ab5d7b0e76386085 NFSv4: Fix clearing of layout segments in layoutreturn
+5bf341f98daec95c3cba12713f172c639ac3fc5f NFS: Avoid unnecessary rescanning of the per-server delegation list
+a3d6e7863a4bb87448fc994d0be9643c06c15ef6 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+2cb975d4378c148d94b354f21cc30a08673ac69b platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+989c8a8e52b7acb2e13b70276fd1c186c9fa88d0 mptcp: pm: Fix uaf in __timer_delete_sync
+44a6d582e23f7744176c0cbb54867d522474ac54 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+11e169722e58a10c6078a5f7050a2037b6d589d3 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+4aaf19ab239f11d4486310b7336816e17474bb03 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+2e3249db570676c69fd19974fde0e63bea1ae177 minmax: reduce min/max macro expansion in atomisp driver
+416661e4d112ecaf708383bb0b59a68b70de5814 net: tighten bad gso csum offset check in virtio_net_hdr
+95df5926450872df0833d23d62e659b561111a89 dm-integrity: fix a race condition when accessing recalc_sector
+be1a975882f7454e44dc3bc5ad33b4019ddf70bd x86/hyperv: fix kexec crash due to VP assist page corruption
+eb74022741f1f7205e046703dcf5ef5bfe0b0a4e mm: avoid leaving partial pfn mappings around in error case
+dfe462706931949ccb878d83fecb465a01146e68 net: xilinx: axienet: Fix race in axienet_stop
+447cb840ddefcb45e802123a7f86d5554867c122 LoongArch: KVM: Implement kvm mmu operations
+07af2a317904ef139ed112deded05a86b5ca2c80 LoongArch: Use accessors to page table entries instead of direct dereference
 
---===============3351531612463126785==--
+--===============4347579872703487531==--
