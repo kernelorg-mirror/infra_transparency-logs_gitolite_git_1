@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6367802672840765081=="
+Content-Type: multipart/mixed; boundary="===============0482349408542616043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 13 Sep 2024 20:53:06 -0000
-Message-Id: <172626078692.2608038.690985510691779942@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 21:05:47 -0000
+Message-Id: <172626154747.2618568.7293529355773431804@gitolite.kernel.org>
 
---===============6367802672840765081==
+--===============0482349408542616043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 89ce9681517cfea7ecf747597097b74d74bd2c6e
-    new: f8d647366d8cfb9975480ae9e77e6b21d5332395
-    log: revlist-89ce9681517c-f8d647366d8c.txt
+  - ref: refs/heads/1GbE
+    old: d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9
+    new: 1f2e900ac26fed3b1d11dbcb9f25589644330112
+    log: revlist-d1aaaa2e0a67-1f2e900ac26f.txt
 
---===============6367802672840765081==
+--===============0482349408542616043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89ce9681517c-f8d647366d8c.txt
+Content-Disposition: attachment; filename=revlist-d1aaaa2e0a67-1f2e900ac26f.txt
 
 90ac806c32952e4eb39fa21cc4e93f086a4047c3 Drivers: hv: Remove deprecated hv_fcopy declarations
 7f828d5fff7d24752e1ecf6bebb6617a81f97b93 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
@@ -256,6 +256,11 @@ b97acde6f9840edbac5c7ea07cba6f10308d24ee platform: cznic: turris-omnia-mcu: fix 
 77f587896757708780a7e8792efe62939f25a5ab Merge tag 'arm-fixes-6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 8b26ff7af8c32cb4148b3e147c52f9e4c695209c netfilter: nft_socket: fix sk refcount leaks
 7f3287db654395f9c5ddd246325ff7889f550286 netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+49ac6f05ace5bb0070c68a0193aa05d3c25d4c83 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+1a5a2d19e827447e6a4d768504866e6820819cee selftests: mptcp: include lib.sh file
+c66c08e51b55c30ae333d6027e4dfda209710d46 selftests: mptcp: include net_helper.sh file
+62540317771138c34dc87448366741bd7658681f Merge branch 'selftests-mptcp-misc-small-fixes'
+a7789fd4caaf96ecfed5e28c4cddb927e6bebadb net: hsr: prevent NULL pointer dereference in hsr_proxy_announce()
 70654f4c212e83898feced125d91ebb3695950d8 net: dsa: felix: ignore pending status of TAS module when it's disabled
 077ee7e6b13a2b6668196ed01a22023549e19381 net: libwx: fix number of Rx and Tx descriptors
 b4cd80b0338945a94972ac3ed54f8338d2da2076 mptcp: pm: Fix uaf in __timer_delete_sync
@@ -270,15 +275,5 @@ cbd7ec083413c6a2e0c326d49e24ec7d12c7a9e0 net: dpaa: Pad packets to ETH_ZLEN
 45fa29c85117170b0508790f878b13ec6593c888 bareudp: Pull inner IP header in bareudp_udp_encap_recv().
 c471236b2359e6b27388475dd04fff0a5e2bf922 bareudp: Pull inner IP header on xmit.
 1f2e900ac26fed3b1d11dbcb9f25589644330112 Merge branch 'bareudp-pull-inner-ip-header-on-xmit-recv'
-d24edb2e125e15a56b82cfa6caa676bdbac76810 ice: Flush FDB entries before reset
-afab04f8b63c78590e6842dd9a09a41d5e5c8c0b ice: set correct dst VSI in only LAN filters
-3a76ebf8bb5a1bf5ee66256f6868f6c02063e174 idpf: fix VF dynamic interrupt ctl register initialization
-76e25585a4350c9a9d5450e35679b00dfb1b22fd ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
-8f60e45e964e91dc45fa7804b338a26db3dee405 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
-0989efe28841a48a69187a8efb741f747d92cbbd idpf: use actual mbx receive payload length
-5731244242c41c4cea34459f078b0afddc3cfae9 idpf: deinit virtchnl transaction manager after vport and vectors
-d1d00ea6b017ab4a876d53feef827b0cc1b2ee5e iavf: allow changing VLAN state without calling PF
-49279b41290dc8667ed94039c7679dfa6ea55921 ice: clear port vlan config during reset
-f8d647366d8cfb9975480ae9e77e6b21d5332395 e1000e: change I219 (19) devices to ADP
 
---===============6367802672840765081==--
+--===============0482349408542616043==--
