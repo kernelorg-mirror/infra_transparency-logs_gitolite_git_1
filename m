@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0482349408542616043=="
+Content-Type: multipart/mixed; boundary="===============3689194657018841969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 13 Sep 2024 21:05:47 -0000
-Message-Id: <172626154747.2618568.7293529355773431804@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 21:05:50 -0000
+Message-Id: <172626155009.2618702.3502944364697955495@gitolite.kernel.org>
 
---===============0482349408542616043==
+--===============3689194657018841969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d1aaaa2e0a6742b2bc4d851eb1a2b6390dbde2d9
     new: 1f2e900ac26fed3b1d11dbcb9f25589644330112
     log: revlist-d1aaaa2e0a67-1f2e900ac26f.txt
 
---===============0482349408542616043==
+--===============3689194657018841969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -276,4 +276,4 @@ cbd7ec083413c6a2e0c326d49e24ec7d12c7a9e0 net: dpaa: Pad packets to ETH_ZLEN
 c471236b2359e6b27388475dd04fff0a5e2bf922 bareudp: Pull inner IP header on xmit.
 1f2e900ac26fed3b1d11dbcb9f25589644330112 Merge branch 'bareudp-pull-inner-ip-header-on-xmit-recv'
 
---===============0482349408542616043==--
+--===============3689194657018841969==--
