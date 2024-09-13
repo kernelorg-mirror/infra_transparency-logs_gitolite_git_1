@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0975327384565059710=="
+Content-Type: multipart/mixed; boundary="===============5686029633059994645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 13 Sep 2024 05:40:04 -0000
-Message-Id: <172620600485.1868219.7585591795787298444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 13 Sep 2024 05:40:46 -0000
+Message-Id: <172620604627.1868714.11285383838631013975@gitolite.kernel.org>
 
---===============0975327384565059710==
+--===============5686029633059994645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 81a2d09ca5e33cf1d7e0805f97e73973c193828d
-    new: 276b7d13ffdd04f55f4843cf12942c55c0129f15
+  - ref: refs/heads/usb-testing
+    old: 2193ede180dde21b7f866cc457eb9e13341e663b
+    new: 9027afa89bfe9e50e46714b72179761c67ebf4ad
     log: |
-         91e19b08605399c60acf03233439c385b00d872a strip some mboxes
-         276b7d13ffdd04f55f4843cf12942c55c0129f15 update cvelistV5
+         96f8052822e03c6f49b6b28fc1d6e5e0522ecbb9 locking/mutex: Define mutex_init() once
+         e837d833a13461c10f265a65ce6612e6dd43e76f locking/mutex: Introduce mutex_init_with_key()
+         7d01ef789bdcdd02ac42b98ae5b7f98310a0e3d2 usb: roles: Improve the fix for a false positive recursive locking complaint
+         9027afa89bfe9e50e46714b72179761c67ebf4ad usb: storage: ene_ub6250: Fix right shift warnings
          
 
---===============0975327384565059710==
+--===============5686029633059994645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726206006 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1726206004-240aeba32f6b7df01aadb717a21017d61d648a48
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726206046 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1726206044-86e6518da5b331322481c2008bd1efced9472c17
 
-81a2d09ca5e33cf1d7e0805f97e73973c193828d 276b7d13ffdd04f55f4843cf12942c55c0129f15 refs/heads/master
+2193ede180dde21b7f866cc457eb9e13341e663b 9027afa89bfe9e50e46714b72179761c67ebf4ad refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbj0DYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PwcP/2HhWi5OXIRpcnHy0yew
-wi66ffzCoME+oku392pPnE2JQeBODuhPh9EzDP4dDMiAijpQQSfFOIivbeIOp/Qs
-wR/nITNkDcVG7gQwAPIxNw6pJ4XVgaWBVaggefrcE5VIzni9VfysklFyc05/kb21
-j1EaIkUQvdof4ybBN9ApcfXt/HLjcE6axtsHUyUQ5qsj+qmKr+DvP13+ij3MjX93
-sN6lfXmr7ly/2Dcor1agYGFqvD99cZPdwKY1QB2j6pur/t6xpl/4HTibH2m+cwDP
-4UpCufn+lB6p38Be5TNonkzweyyh64xxkpPW5ZrsU0izgdtXAcz2XHK2b3Ukgcn4
-KErlfE0uiludjZqQyG+SSN1rxl8LWfd1Ea+yZ8DLBDUd/oU2XajDwB/tc/udbuGq
-AkWQP9DjQ6ayKwZ5fASXzTWB8ofXjVF8CNlaKVlbbEfY25O6aqOqJtifFCYp2E+c
-chq8HwD6cNaEoqOlMwwfuhLuoWPK8fWCVZsDz+zU7wQN8IldDRD/+87n1NuqTTO4
-biOsQ09xEzdcMNOf/JjJoOlsywaEsxdsWBAPowJmVfNKoHL+BJ919JeAe7WabslX
-Nvag/CJELTm5Tz9d3W3UMYU8Qptw0I1gc4TVc/mT2fyeHzyG3VNLg4eY8SFsBFas
-B3PmnDlVhy7Lhjx6W5vtUWoF
-=GSYa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbj0F4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y3sP/iSz2GqqyVvMD4rHweYV
+CVSxHpw5RG/NajWpkUbAlGLebTBIxHUl/EcQUh+ooLkGG29RITkvIHl3uXykG8IZ
+KTfemzqbpc5cyc/r6cWdcTfJ5YT4C9MP4XqyLmwD+hPMdicS4UrtLFLULul2XMUz
+BTnLSAKGYdVuyXGD0er7u6JdglVbbrXcQrpySV/U3EZ0xvCBAjj8HRW8/80uu4LH
+X3T3G7iopb5Dl30gYdKQIlbz2ZIO0Mzi4D8I5M1RK3XBi4fwdNGM+rNBdb6L0bfo
+SgHq5ODVPAOXZCtGabrekvsuLfQ9qIQdJmwuqvpR9leKuT7MVSWaptt42gay/tl6
+g1lBVqdywpKrjfF8WZ9VBVfTOoIwBqDz58m5YZRllmNS2xwHb9t6UMur5z2+aY0r
+YI4iZqT6myjHoXK/W6gWV39l2zAe88kzfUbSCctcPcfd5oIMheddvdd8JrTBT98Q
+C4nZ3rkb1V2KnHpJrPBg1u3HCGcrEDXdCC8TuU6uOmOqDMFOlktZVaP8SczeqNx+
+UMo76NVvgfx72XMbkiQz/SJG5GrzsO4RDrQIhf5pb//gDg0IAbqN6VsG2P5nSxv0
+a5f1gK0MB8vcoYtPBJChB1A5hqGDBLl86fR46IswEx4I+7ntEmamEFoJDc5daEo5
+5BjdsmVyJ0AvEMwu7WGjYXJt
+=Zu0S
 -----END PGP SIGNATURE-----
 
---===============0975327384565059710==--
+--===============5686029633059994645==--
