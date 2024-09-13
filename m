@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8499257975132196301=="
+Content-Type: multipart/mixed; boundary="===============2363124820827519705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Sep 2024 22:32:38 -0000
-Message-Id: <172626675832.2687042.2067521314888768559@gitolite.kernel.org>
+Date: Fri, 13 Sep 2024 22:32:41 -0000
+Message-Id: <172626676121.2687159.12934663260770960660@gitolite.kernel.org>
 
---===============8499257975132196301==
+--===============2363124820827519705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bf73478b539b4a13e0b4e104c82fe3c2833db562
     new: 26d7460222a0be34ff61a92a1fcc4469797ad937
     log: revlist-bf73478b539b-26d7460222a0.txt
 
---===============8499257975132196301==
+--===============2363124820827519705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -509,4 +509,4 @@ b7468c0fe148f9f627921357f8cb97690c19d480 net: ethernet: ti: am65-cpsw: setup pri
 bdf2ba157eb7db4c7bc603fef001c10fa9444ee2 Merge branch 'am65-cpsw-rx-mq'
 26d7460222a0be34ff61a92a1fcc4469797ad937 memory-provider: disable building dmabuf mp on !CONFIG_PAGE_POOL
 
---===============8499257975132196301==--
+--===============2363124820827519705==--
