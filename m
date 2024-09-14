@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sat, 14 Sep 2024 22:51:39 -0000
-Message-Id: <172635429994.3852485.14587199886972827005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 14 Sep 2024 23:13:44 -0000
+Message-Id: <172635562440.3868494.4300231271645618800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: aac871a6172f8d0c24ccee29ffe4dc87af17fef7
-    new: 11ccabdb5acad9bdc95086db5b9ee5ea4f56e25c
+  - ref: refs/heads/jd/vdso-test-harness
+    old: 96820604848d110799baf0eca3b7f1b0627d793d
+    new: 23b1ad5575b465b13f51484e5e354e5357dd2650
     log: |
-         ffbbd3f354ac6b1e17033e260174dd5d7a24ab12 docs: annotate the v1 API
-         448f120ece128da3ebf13a016112a7d20ee011bb docs: annotate the v2 API
-         a3d667f986cdb1c8e02b0562a11d7372221e219c docs: annotate the v3 API
-         de0e14fcaf8db0c6c07bb0ddbe192db144a02cef docs: annotate the v4 API
-         b2561149b73c9387c3fedf9da3d0c99074e92cb9 docs: annotate the v6 API
-         14e525de99ecf4312089bf6b8b8406e3d8d3fcd7 docs: annotate the v22 API
-         aebcba213cafd7a610b87c1e6dbf10aa2ec51b5a docs: annotate the v30 API
-         987ef4422bdcb5f3cce3a08ff8d212d88a95e6aa docs: annotate the v33 API
-         11ccabdb5acad9bdc95086db5b9ee5ea4f56e25c libkmod: document the symbols file
+         5ad9d91baaccbf1a61731e044fd8bbf50aa61b46 selftests: vDSO: check cpu caps before running chacha test
+         e69d4fc78d8e8f49fdcd079df4e035eb177b65ba wireguard: selftests: upgrade deps, toolchains, and add loongarch
+         23b1ad5575b465b13f51484e5e354e5357dd2650 wireguard: selftests: re-use/ab-use test harness to run vDSO tests
+         
+  - ref: refs/heads/master
+    old: b920aa77be6d57d407b6b6be5d8b4ccc17749cce
+    new: 5ad9d91baaccbf1a61731e044fd8bbf50aa61b46
+    log: |
+         5ad9d91baaccbf1a61731e044fd8bbf50aa61b46 selftests: vDSO: check cpu caps before running chacha test
          
