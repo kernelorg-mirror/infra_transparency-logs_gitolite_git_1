@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6010869466095545076=="
+Content-Type: multipart/mixed; boundary="===============0365447417376162116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 14 Sep 2024 11:47:21 -0000
-Message-Id: <172631444190.3347321.17081022820550858644@gitolite.kernel.org>
+Date: Sat, 14 Sep 2024 11:47:24 -0000
+Message-Id: <172631444449.3347415.1850440872999128997@gitolite.kernel.org>
 
---===============6010869466095545076==
+--===============0365447417376162116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: 0606024b89d4ba59586cc7023d361a22065da8fa
-    new: 675287e397d8578a22bc0ab6d7b703947b1cca81
-    log: revlist-0606024b89d4-675287e397d8.txt
-  - ref: refs/tags/ath-202409141146
-    old: 0000000000000000000000000000000000000000
-    new: 675287e397d8578a22bc0ab6d7b703947b1cca81
+  - ref: refs/heads/ath-next
+    old: 52fa3b6532ec6f3a1e39bf869b304d3560dd983b
+    new: 8619593634cbdf5abf43f5714df49b04e4ef09ab
+    log: revlist-52fa3b6532ec-8619593634cb.txt
 
---===============6010869466095545076==
+--===============0365447417376162116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0606024b89d4-675287e397d8.txt
+Content-Disposition: attachment; filename=revlist-52fa3b6532ec-8619593634cb.txt
 
 29aeb4e8918e6aeeaf0bb7a03b000a73596d54a3 Bluetooth: Add a helper function to extract iso header
 861da2c11c64abe706a8d39645bbcd3141c2efb5 Bluetooth: btintel_pcie: Add support for ISO data
@@ -70,8 +67,6 @@ eb41dd76abce6a13bd7ad9c779dd560136caf60a net: ethernet: ti: cpsw_ale: add Police
 b7468c0fe148f9f627921357f8cb97690c19d480 net: ethernet: ti: am65-cpsw: setup priority to flow mapping
 bdf2ba157eb7db4c7bc603fef001c10fa9444ee2 Merge branch 'am65-cpsw-rx-mq'
 26d7460222a0be34ff61a92a1fcc4469797ad937 memory-provider: disable building dmabuf mp on !CONFIG_PAGE_POOL
-67454607e8f7ebed9cdff9e569516f01a9eb8376 Merge remote-tracking branch 'wireless-next/main'
-8d0b41796e9661d26795147d2b4390b75b8f032d Add localversion to identify builds from this tree
 ef17c3d22cee57a857f3fbd3483d430fd5a44e1b Merge tag 'for-net-next-2024-09-12' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 7fd551a87ba427fee2df8af4d83f4b7c220cc9dd net: ag71xx: remove dead code path
 9297886f9fcd20176a2eb68961c79f4f0b99e117 Documentation: networking: Fix missing PSE documentation and grammar issues
@@ -107,8 +102,5 @@ c092d0be38f4f754cdbdc76dc6df628ca48ac0eb net: ibm: emac: remove all waiting code
 34c44eb31de9cb7202ff070900463d6c706392c4 Merge branch 'net-ibm-emac-modernize-a-bit'
 1d66430cc9afdc588f13897189565a08d5e518b1 wifi: ath9k: use clamp() in ar9003_aic_cal_post_process()
 8619593634cbdf5abf43f5714df49b04e4ef09ab wifi: ath9k: add range check for conn_rsp_epid in htc_connect_service()
-c4d67d1764569035bf09bff1273c212136a8a5dd Merge branch 'ath-next'
-23d03538795eba1caa6c5ad84487b077853b1510 Merge remote-tracking branch 'mhi/mhi-next'
-675287e397d8578a22bc0ab6d7b703947b1cca81 Add localversion-wireless-testing-ath
 
---===============6010869466095545076==--
+--===============0365447417376162116==--
