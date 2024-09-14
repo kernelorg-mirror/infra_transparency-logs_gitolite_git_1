@@ -1,40 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0078849781238177232=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 14 Sep 2024 14:50:01 -0000
-Message-Id: <172632540129.3487034.11948520669853754261@gitolite.kernel.org>
-
---===============0078849781238177232==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 14 Sep 2024 14:57:08 -0000
+Message-Id: <172632582813.3493442.14549415275243723224@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: b7718454f937f50f44f98c1222f5135eaef29132
-    new: 57719771a244ffa0c2e41968ba3d454eb1f15ac8
-    log: revlist-b7718454f937-57719771a244.txt
-
---===============0078849781238177232==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7718454f937-57719771a244.txt
-
-c4246f1fe9f24f8dcd97887ed67d8fcfd91f4796 ASoC: Intel: soc-acpi-intel-lnl-match: add missing empty item
-bf6d7a44a144aa9c476dee83c23faf3151181bab ASoC: Intel: soc-acpi-intel-mtl-match: add missing empty item
-af5e317175858603f950e51fe6377027fdd6eb79 ASoC: tas2781: fix to save the dsp bin file name into the correct array in case name_prefix is not NULL
-c6b9a92225d1365197effcb3afc56ddd62fc36aa MAINTAINERS: update Pierre Bossart's email and role
-38cc0334baabc5baf08a1db753de521e016c0432 ASoC: codecs: avoid possible garbage value in peb2466_reg_read()
-4f9a71435953f941969a4f017e2357db62d85a86 ASoC: meson: axg-card: fix 'use-after-free'
-5a20b7cb0d8d3ee490a8e088dc2584aa782e3355 cifs: Fix signature miscalculation
-134536c21275bb3410cd1f10c5e369d30702741d Merge tag 'asoc-fix-v6.11-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-d9bc226584fa1a9319f4f26882f046e94cfa032a Merge tag '6.11-rc7-SMB3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
-57719771a244ffa0c2e41968ba3d454eb1f15ac8 Merge tag 'sound-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-
---===============0078849781238177232==--
+    old: bfcfdd2e0f3f17745550f9a466639efc0cfda7b6
+    new: 126e93a51f6590a3a86e9042c580d946aa7252b6
+    log: |
+         126e93a51f6590a3a86e9042c580d946aa7252b6 Rename "buffer copying" to "buffer cloning"
+         
