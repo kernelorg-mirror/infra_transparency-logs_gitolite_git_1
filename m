@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6819571963796917756=="
+Content-Type: multipart/mixed; boundary="===============7105420400998855583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 14 Sep 2024 17:03:11 -0000
-Message-Id: <172633339170.3593647.16919205385214380438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sat, 14 Sep 2024 17:17:41 -0000
+Message-Id: <172633426180.3604804.8289156923116168387@gitolite.kernel.org>
 
---===============6819571963796917756==
+--===============7105420400998855583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/mgtime
-    old: 47859ad26463ca39073abe3dc472a03096fe7890
-    new: 5eb2403902dfa0c0e8ac23fb1b95c3a7aa90e94f
-    log: revlist-47859ad26463-5eb2403902df.txt
+  - ref: refs/heads/master
+    old: e936e7d4a83b5ff6b7a685722f0ba348383af68c
+    new: 0babf683783ddca06551537c6781e413cfe8d27b
+    log: revlist-e936e7d4a83b-0babf683783d.txt
 
---===============6819571963796917756==
+--===============7105420400998855583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47859ad26463-5eb2403902df.txt
+Content-Disposition: attachment; filename=revlist-e936e7d4a83b-0babf683783d.txt
 
-ea5fc992990a0a37f233d07361282dd516ffd53f fs: multigrain timestamp redux
-8658fd4d79bede5ec307fffb0ab230a4e906bc4a timekeeping: move multigrain timestamp floor handling into timekeeper
-ecb9d7412f549c07eff1d9edf6c8e90d9d83456e fs: add infrastructure for multigrain timestamps
-ca4f3240314218bd3e242359760379446ddd7218 fs: have setattr_copy handle multigrain timestamps appropriately
-222dfa52b780d865405a9b540d6d995e82e229c2 fs: handle delegated timestamps in setattr_copy_mgtime
-3061b61844a83b67fde0cbbc29b6d9782e7ec61a fs: tracepoints around multigrain timestamp events
-3ae992424ce6469ee7cfc94765166bbe5cf0fb91 fs: add percpu counters for significant multigrain timestamp events
-2bc0de02c057942332bdfa1aa85717e23c2958d0 Documentation: add a new file documenting multigrain timestamps
-fcf1161fc33db3660d79380180eb75c4c48ea44e xfs: switch to multigrain timestamps
-0ec4c10ea5bdd5526f691045d657dc8e21fa2613 ext4: switch to multigrain timestamps
-806a058171f1948851d8ae500af98e9902c7ce3f btrfs: convert to multigrain timestamps
-5eb2403902dfa0c0e8ac23fb1b95c3a7aa90e94f tmpfs: add support for multigrain timestamps
+a366e46da10d7bfa1a52c3bd31f342a3d0e8e7fe pinctrl: meteorlake: Add Arrow Lake-H/U ACPI ID
+c4246f1fe9f24f8dcd97887ed67d8fcfd91f4796 ASoC: Intel: soc-acpi-intel-lnl-match: add missing empty item
+bf6d7a44a144aa9c476dee83c23faf3151181bab ASoC: Intel: soc-acpi-intel-mtl-match: add missing empty item
+af5e317175858603f950e51fe6377027fdd6eb79 ASoC: tas2781: fix to save the dsp bin file name into the correct array in case name_prefix is not NULL
+c6b9a92225d1365197effcb3afc56ddd62fc36aa MAINTAINERS: update Pierre Bossart's email and role
+38cc0334baabc5baf08a1db753de521e016c0432 ASoC: codecs: avoid possible garbage value in peb2466_reg_read()
+4f9a71435953f941969a4f017e2357db62d85a86 ASoC: meson: axg-card: fix 'use-after-free'
+fc8c818e756991f5f50b8dfab07f970a18da2556 PCI: Fix potential deadlock in pcim_intx()
+5a20b7cb0d8d3ee490a8e088dc2584aa782e3355 cifs: Fix signature miscalculation
+d7c9ec3b07d73cf8a77b44a17f1819c079026ded Merge tag 'intel-pinctrl-v6.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel into fixes
+71e4001a0455ec2b6218715c81f374f1ab8b1b12 pinctrl: pinctrl-cy8c95x0: Fix regcache
+b7718454f937f50f44f98c1222f5135eaef29132 Merge tag 'pci-v6.11-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+134536c21275bb3410cd1f10c5e369d30702741d Merge tag 'asoc-fix-v6.11-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+d9bc226584fa1a9319f4f26882f046e94cfa032a Merge tag '6.11-rc7-SMB3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+57719771a244ffa0c2e41968ba3d454eb1f15ac8 Merge tag 'sound-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+0babf683783ddca06551537c6781e413cfe8d27b Merge tag 'pinctrl-v6.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============6819571963796917756==--
+--===============7105420400998855583==--
