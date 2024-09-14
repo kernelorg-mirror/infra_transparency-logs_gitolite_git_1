@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Sat, 14 Sep 2024 00:27:25 -0000
-Message-Id: <172627364582.2777287.10599517177561480255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 14 Sep 2024 01:15:36 -0000
+Message-Id: <172627653654.2813420.666009243837506650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 56545736a51ed5cc8dab5b5693b7c622abcb52ab
-    new: 8d0b41796e9661d26795147d2b4390b75b8f032d
+  - ref: refs/heads/main
+    old: 1f2e900ac26fed3b1d11dbcb9f25589644330112
+    new: 4144a1059b47e821c82c3c82eb23a4c7312dce3a
     log: |
-         67454607e8f7ebed9cdff9e569516f01a9eb8376 Merge remote-tracking branch 'wireless-next/main'
-         8d0b41796e9661d26795147d2b4390b75b8f032d Add localversion to identify builds from this tree
+         4144a1059b47e821c82c3c82eb23a4c7312dce3a xsk: fix batch alloc API on non-coherent systems
          
