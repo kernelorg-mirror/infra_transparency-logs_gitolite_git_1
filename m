@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 14 Sep 2024 03:14:46 -0000
-Message-Id: <172628368699.2902697.15550265324470098950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 14 Sep 2024 03:14:48 -0000
+Message-Id: <172628368878.2902807.4063428424576020042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9c699a8f3b273c62f7b364ff999e873501a1e834
-    new: 6503734916cc751bec825ff314d7cadaa587f2d0
+    old: 9f3e7f11f21ac83cd99428390165177d4953b005
+    new: 04ccecfa959d3b9ae7348780d8e379c6486176ac
     log: |
-         6503734916cc751bec825ff314d7cadaa587f2d0 net: macb: Use predefined PCI vendor ID constant
+         99655a304e450baaae6b396cb942b9e47659d644 net: tipc: avoid possible garbage value
+         04ccecfa959d3b9ae7348780d8e379c6486176ac ipv6: avoid possible NULL deref in rt6_uncached_list_flush_dev()
          
