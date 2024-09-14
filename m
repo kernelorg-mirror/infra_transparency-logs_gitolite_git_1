@@ -1,654 +1,412 @@
-Content-Type: multipart/mixed; boundary="===============6313513152593563261=="
+Content-Type: multipart/mixed; boundary="===============3835178450187042526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 14 Sep 2024 07:14:05 -0000
-Message-Id: <172629804535.3138116.8610979701831821336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 14 Sep 2024 07:14:15 -0000
+Message-Id: <172629805514.3138299.16115568850006567621@gitolite.kernel.org>
 
---===============6313513152593563261==
+--===============3835178450187042526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/heads/for-linus
-    old: c491b044cf5f8236742887ba59b30032036e4ac8
-    new: 134536c21275bb3410cd1f10c5e369d30702741d
-    log: |
-         c4246f1fe9f24f8dcd97887ed67d8fcfd91f4796 ASoC: Intel: soc-acpi-intel-lnl-match: add missing empty item
-         bf6d7a44a144aa9c476dee83c23faf3151181bab ASoC: Intel: soc-acpi-intel-mtl-match: add missing empty item
-         af5e317175858603f950e51fe6377027fdd6eb79 ASoC: tas2781: fix to save the dsp bin file name into the correct array in case name_prefix is not NULL
-         c6b9a92225d1365197effcb3afc56ddd62fc36aa MAINTAINERS: update Pierre Bossart's email and role
-         38cc0334baabc5baf08a1db753de521e016c0432 ASoC: codecs: avoid possible garbage value in peb2466_reg_read()
-         4f9a71435953f941969a4f017e2357db62d85a86 ASoC: meson: axg-card: fix 'use-after-free'
-         134536c21275bb3410cd1f10c5e369d30702741d Merge tag 'asoc-fix-v6.11-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-         
-  - ref: refs/heads/for-next
-    old: 5740434e1e0f51db1282436a7783658e6c139fd1
-    new: 1a529af6f81e54f15df162a0c703459937941c54
-    log: revlist-5740434e1e0f-1a529af6f81e.txt
-  - ref: refs/heads/master
-    old: f58bd8f9cb5a14751625469ef9aaa2156fd1aebe
-    new: 5f9d43a7d6fcd36424366a1b55e01f7429c8499e
-    log: revlist-f58bd8f9cb5a-5f9d43a7d6fc.txt
+  - ref: refs/heads/queue/4.19
+    old: 0a5d53dee5ee0f2f30cfe709dc33ce8dc035d304
+    new: 918ccc991144c827a65639ae5216d7b998c44efe
+    log: revlist-0a5d53dee5ee-918ccc991144.txt
+  - ref: refs/heads/queue/5.10
+    old: 86b727f979b0efbfd86dc2a7efc165e607cd1006
+    new: 8f905ebae4ef7222ab0f21faecb5b8c3303c32a5
+    log: revlist-86b727f979b0-8f905ebae4ef.txt
+  - ref: refs/heads/queue/5.15
+    old: b1d3f428c73193d7a354bf4629f3b446d1ebcfbc
+    new: c94beb34e4a429e921946ab9b210a03c5d8131d3
+    log: revlist-b1d3f428c731-c94beb34e4a4.txt
+  - ref: refs/heads/queue/5.4
+    old: 9f6535390c4328cb68774b56804b166851ba5eaf
+    new: 26e109f4fd29322cb0372dbe31213aaa1576e8bf
+    log: revlist-9f6535390c43-26e109f4fd29.txt
+  - ref: refs/heads/queue/6.1
+    old: d7af2ce196921e70c00d9720b5da356208e0b718
+    new: 18a145e8ad034d9304b2050c59eb0fdb96779ca4
+    log: revlist-d7af2ce19692-18a145e8ad03.txt
+  - ref: refs/heads/queue/6.10
+    old: e7df3ed0a6d9049b05dd5f063cbef8643fd15c17
+    new: bf4b63a3c7e28efb82941db62162610be117b836
+    log: revlist-e7df3ed0a6d9-bf4b63a3c7e2.txt
+  - ref: refs/heads/queue/6.6
+    old: 27cf969be345e41c44b6544a84ace15d74324398
+    new: 8df2e0fe2cd01e7e8b840c87498d5d065c3350b5
+    log: revlist-27cf969be345-8df2e0fe2cd0.txt
 
---===============6313513152593563261==
+--===============3835178450187042526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5740434e1e0f-1a529af6f81e.txt
+Content-Disposition: attachment; filename=revlist-0a5d53dee5ee-918ccc991144.txt
 
-2cc719983603f0e9d24da256b58d6abb79e3884a ASoC: dt-bindings: renesas,rz-ssi: Document port property
-3d2a69eb503d15171a7ba51cf0b562728ac396b7 ASoC: codecs: wsa881x: Drop unused version readout
-2fbf16992e5aa14acf0441320033a01a32309ded ASoC: codecs: wsa883x: Handle reading version failure
-cd15fded0e1090bf713647a5bcfd83e372152844 ASoC: codecs: wsa883x: Simplify handling variant/version
-7eb62acd43c9299630f0e859f56981072401c5b6 ASoC: codecs: wsa884x: Simplify handling variant
-00425bf8cbc9981bd975a5475cec4964544fb297 ASoC: dt-bindings: ti,pcm512x: Convert to dtschema
-00645b42e3ca6a35fc4a357dd769bcef41d4a077 ASoC: dt-bindings: fsl,imx-audio-es8328: Convert to dtschema
-6024f3429fd1ac4948bac9610ecd4d0139088f0b ASoC: codecs: ES8326: suspend issue
-8716bd241fa120aacce5e0136125b7ecc74fe3b2 ASoC: dt-bindings: qcom,apq8016-sbc-sndcard: move to separate binding
-3ff810b9bebe5578a245cfa97c252ab602e703f1 ASoC: rt5682s: Return devm_of_clk_add_hw_provider to transfer the error
-b3f35bae68c0ff9b9339b819ec5f5f341d798bbe ASoC: codecs: lpass-wsa-macro: Do not hard-code dai in VI mixer
-4f8cd05a43058b165b83f12f656e60415d2ff5be ASoC: sh: rz-ssi: Add full duplex support
-42eb47310f89eca3226e8e427bc9d571149dc866 ASoC: mediatek: mt8192: remove redundant null pointer check before of_node_put
-aaa5e1aa39074fb466f6ef3df4de6903741dfeec ASoC: Use __counted_by() annotation for snd_soc_pcm_runtime
-d57ef03314f529e76385a9d5108c115459b54c2b ASoC: dt-bindings: dlg,da7213: Convert to json-schema
-275d57ae441f34749cbf8621441ce2148f83d5e6 ASoC: cs42l42: Convert comma to semicolon
-874d04fe15d12cafa09dd36e8555cea4eb0653f6 ASoC: codecs: wsa881x: Use designator array initializers for Soundwire ports
-add41ea55060d5e41d62268aa0bda2a27e0f5053 ASoC: codecs: wsa883x: Use designator array initializers for Soundwire ports
-125ed86b0d669334dbc567f441d10163ff0c44bc ASoC: codecs: wsa884x: Use designator array initializers for Soundwire ports
-06fa8271273d8181cb8727e63aeec3f87a48d8c7 ASoC: codecs: wcd938x: Drop unused defines and enums
-42f3a2caf80910d0c251b2a407d4d220c0d3a79f ASoC: codecs: wcd937x: Move max port number defines to enum
-5e388488f0a1dd6d340f3925e7b371e212ee3cc2 ASoC: codecs: wcd938x: Move max port number defines to enum
-a9d843e6b231e550f8141f27e930f90ded4edae2 ASoC: codecs: wcd939x: Move max port number defines to enum
-2e08bba3a83cc311115519f5fcb294005e4230a5 Add HDMI Audio support
-d0296adb0db13467408d6594de2a46faf0f98f8f ASoC: codecs: wsa88xx: Few cleanups
-7803693988412380be095d228fb7b61f2d80e7c2 ASoC: codecs: wsa88xx and wcd93xx: Soundwire port
-e620b496c78706bb71691502e0381eb344afeaea ASoC: tas2781: Add TAS2563 into the Header
-80565764c7f53b47be266c90d635285e295684dc ASoC: rsnd: remove rsnd_mod_confirm_ssi() under DEBUG
-22c406c9bf5e28d9fed0bf37ac9d544e56127fd3 ASoC: rsnd: use pcm_dmaengine code
-d5742b5d4d7b99531e352ea814506641f9fc8981 ASoC: fsl: lpc3xxx-i2s: Remove set but not used variable 'savedbitclkrate'
-6588fcc8833d8338b994edd97a4446bae95ff12c ASoC: intel: rename codec_info and dai_info structures names
-408a454ee8886912cc8a64fcd012e0a1eb30fd0b ASoC: intel: rename soundwire common header macros
-96990cfeff61d0a1053dded6d1a4dceafb2f1562 ASoC: intel: rename soundwire machine driver soc ops
-bd5838c8999838059a25a963730bba1face1e53b ASoC: intel: rename soundwire codec helper functions
-a2b5ec0ca5fcd6f609733b37c52e23ddb7328ffd ASoC: intel: rename maxim codec macros
-b1f7cbf0d5746ba270bc090f6f85a4b176410854 ASoC: intel: rename ignore_pch_dmic variable name
-d39388e6555cb805beb985a7ece1c771c611037c ASoC: intel/sdw-utils: move soundwire machine driver soc ops
-73619137c633a89a90f8c8c5fa59171aaff6e913 ASoC: intel: move soundwire machine driver common structures
-941d6933eb31b13d09a7293bc92d9d494513a372 ASoC: intel/sdw_utils: move soundwire machine driver helper functions
-4776d0c9088634677749e42ae8b36b4da46226db ASoC: intel/sdw_utils: move dmic codec helper function
-a9831fd1c0e6353366bbde6e1dd7b15a2dd6d825 ASoC: intel/sdw_utils: move rtk dmic helper functions
-09c60bc9da91f188e2aedb0bac94d3e129fa20f9 ASoC: intel/sdw_utils: move rt712 sdca helper functions
-89b3456e9afa4c61879f6d744f6d2c6fadc2b2fc ASoC: intel/sdw_utils: move rt722 sdca helper functions
-4f54856b4ea460e9048c11e3f698c38fb072529d ASoC: intel: split soundwire machine driver private data
-139e17740200d8e92677942bfee6c8cfe4da3009 ASoC: intel/sdw_utils: move rt5682 codec helper function
-da5b1831673208e235cadc9107207adb092c2eb9 ASoC: intel/sdw_utils: move rtk jack common helper functions
-8e84fd22dc425fd0b005a20156eeb67f019ae39f ASoC: intel/sdw_utils: move rt700 and rt711 codec helper functions
-ccc96ae2814a7faad591af68bd0115e4d2b256b4 ASoC: intel/sdw_utils: move rtk amp codec helper functions
-5fa46627d5118bf58b80df45489f49e1e316473a ASoC: intel/sdw_utils: move cirrus soundwire codec helper functions
-051b7cb3fde16fd8788078d697d84069b0e50e03 ASoC: intel/sdw_utils: move maxim codec helper functions
-8f87e292a34813e4551e1513c62b7222900481cb ASoC: intel/sdw_utils: move dai id common macros
-6e7af1fdf7da7f0b79475f573d3c1f49a826bd68 ASoC: intel/sdw_utils: move soundwire dai type macros
-e377c94773171e8a97e716e57ec67d49b02ded0b ASoC: intel/sdw_utils: move soundwire codec_info_list structure
-778dcb08832a5e526e447971f7ca72cb6dd2307b ASoC: intel/sdw_utils: move machine driver dai link helper functions
-5bd414c7b80e39ef11bd86db76e726962c1bfc92 ASoC: sdw_utils: refactor sof_sdw_card_late_probe function
-59f8b622d52e30c5be7f14212c26ca37e810ece9 ASoC: intel/sdw_utils: refactor init_dai_link() and init_simple_dai_link()
-0b8f009ae92fa94ab3c0ca881fce02c336056a73 ASoC: soc-acpi: add pci revision id field in mach params structure
-57677ccde7522170c50eb44258d54c6584356f47 ASoC: amd: acp: add soundwire machines for acp6.3 based platform
-15049b6a6c19d799095e5dbe9a4772862b11ee23 ASoC: SOF: amd: add alternate machines for acp6.3 based platform
-b7cdb4a89cc864ead6470a57947815c49870b09a ASoC: SOF: amd: update mach params subsystem_rev variable
-cb8ea62e6402067ba092d4c1d66a9440513a572b ASoC: amd/sdw_utils: add sof based soundwire generic machine driver
-a1c8929b0ebbfd7598f038ac74fb0a28f94ade8c ASoC: Use of_property_present()
-69dd15a8ef0ae494179fd15023aa8172188db6b7 ASoC: Use of_property_read_bool()
-7dfdcde20179383d4acfee61692a22955d5a8217 ASoC: stm: use snd_pcm_direction_name()
-cda4aa0069b73e3404ee61864b4814ccc7b7a6ad ASoC: sof: pcm: use snd_pcm_direction_name()
-baa779902020d8921cf652944309d1284a63811c ASoC: sof: intel: use snd_pcm_direction_name()
-8156921e620827319460e8daa9831d731b0d75fd ASoC: fsl: lpc3xxx-i2s: use snd_pcm_direction_name()
-d6db65bc62fd19915a9926e08b9cbcfbadd64291 ASoC: tegra: use snd_pcm_direction_name()
-ebbd6703d4635d36b35f12a1365dfd7894c0ff12 ASoC: soc-pcm: use snd_pcm_direction_name()
-bb660132868b5208d6a5f2bd184425cf788f4ef9 ASoC: soc-dapm: use snd_pcm_direction_name()
-bb2bf8568a425d025bcb3f7c112f9a0282a7dc8e AMD SOF based generic SoundWire machine driver
-9aafe1dd035fd405c5514e6bea2647c196626dd3 ALSA/ASoC: use snd_pcm_direction_name()
-6a965fbaac461564ae74dbfe6d9c9e9de65ea67a ASoC: Intel: soc-acpi: add PTL match tables
-42b4763ab301c5604343aa49774426d5005711a3 ASoC: SOF: Intel: add PTL specific power control register
-3f8c8027775901c13d1289b4c54e024d3d5d982a ASoC: SOF: Intel: add initial support for PTL
-77a6869afbbfad0db297e9e4b9233aac209d5385 ASoC: Intel: soc-acpi-intel-ptl-match: add rt711-sdca table
-2786d3f4943c472c10dd630ec3e0a1a892181562 ASoC: Intel: soc-acpi-intel-ptl-match: Add rt722 support
-cac88e96ba0961921b8068326579b26094f37ba4 ASoC: SOF: sof-priv.h: optimize snd_sof_platform_stream_params
-e9e7eeaf199c7961d634235dbedeb7b682b1dd32 ASoC: SOF: sof-priv.h: optimize snd_sof_mailbox
-5a4413d0fa8d0a438246acaf81637d71aab1b6a0 ASoC: SOF: sof-priv.h: optimize snd_sof_ipc_msg
-5821d7b4981f4915ab353f538be38defe9656f81 ASoC: SOF: sof-audio.h: optimize snd_sof_pcm_stream_pipeline_list
-92b796845a4a8789c2d9434c6a77baa88a99121e ASoC: tas2781: Fix a compiling warning reported by robot kernel test due to adding tas2563_dvc_table
-11c2d223713b7a7fee848595e9f582d34adc552b ASoC: sti-sas: Constify snd_soc_component_driver struct
-a1c2716738b7ba9e912e04872639dd39c72baa35 ASoC: fsl: lpc3xxx: Make some symbols static
-839e231a53b824a62bc3696ad3ba1dcedc4f4167 ASoC: cs43130: Constify snd_soc_component_driver struct
-218c9007851c2190326ce12fd0719809a5219165 ASoC: SOF: reshuffle and optimize structures
-cf410c1beaded9c7ba16210b36cbe9ed0e2b4d19 ASoC/SOF/PCI/Intel: add PantherLake support
-7d2fb3812acde0a76e0d361877e8295db065f9f4 ASoC: remove bespoke trigger support
-c2c0b67dca3cb3b3cea0dd60075a1c5ba77e2fcd ASoC: tas2781-i2c: Drop weird GPIO code
-1c4b509edad15192bfb64c81d3c305bbae8070db ASoC: tas2781-i2c: Get the right GPIO line
-caab9a1cbb9a9fca24ceabeef57b3764d861ad32 ASoC: tas*: Drop unused GPIO includes
-1a4f7965016b9685bd158f7f306039ce96d2beb5 ASoC: Merge fixes
-7063a710830a09b01734be7f4ffd23f0ef72a57e ASoC: cs35l56: Use regmap_read_bypassed() to wake the device
-be942e3d20cf666f6174f47826914c3b5ea61d85 ASoC: codecs: ES8326: input issue after init
-20288905e1ee33af82570b79adee3f15018030d4 ASoC: amd: acp: remove MODULE_ALIAS for SoundWire machine driver
-c35fad6f7e0d69b0e9e7e196bdbca3ed03ac24ea ASoC: amd: acp: add ZSC control register programming sequence
-5dde0cd2433dc6ef7b82e04276335137cc4c3105 ASoC: SOF: sof-audio: Avoid -Wflex-array-member-not-at-end warnings
-001f8443d480773117a013a07f774d252f369bea ASoC: SOF: amd: update conditional check for cache register update
-5db564d4242e12c1de9ef294d7252dbb90898922 ASoC: tas*: Fix up GPIO usage
-86297bb30ae094e14a3a6c62b870a2f301a180a2 ASoC: cs43130: Constify struct reg_sequence and reg_sequences
-6024b86b4a618b6973cf6fc5ed3fa21280e395b9 ASoC: amd: acp: Convert comma to semicolon
-ab73c7c0e5800a44690023cfdfeac72d3b6b95e8 ASoC: rt1318: Constify struct reg_sequence
-c6f3abbbdc99930f831d5c76dac32ddbd9b88fa1 ASoC: amd: acp: add legacy driver support for ACP7.1 based platforms
-8f712c12f34daaaa2e47ba07cf3b348d3a442986 ASoc: tas2781: Rename dai_driver name to unify the name between TAS2563 and TAS2781
-73abd9698960c5d097559432cac13bb1f0aaf3df ASoC: fsl_audmix: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-b7e4dd8da05a9de18471868a914d609522d04fdd ASoC: fsl_mqs: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-bbc0798c402acb6799a8332fb0a49c05f4a5a414 ASoC: fsl_rpmsg: Switch to RUNTIME_PM_OPS()
-01661bb9560def44eff0c79ebf14ec7ce0fdffab ASoC: fsl_spdif: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-8ffb2fe2e92c98e5c69e9af9656baed7d298059a ASoC: fsl_ssi: Switch to SYSTEM_SLEEP_PM_OPS
-c504885a351b57c26c077992dde6904b8bbbdcd4 ASoC: imx-audmux: Switch to SYSTEM_SLEEP_PM_OPS
-bcbbf713061c41f696f47baa4bdcb789a59d4f21 ASoC: imx-pcm-rpmsg: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-c8c3d9f8e3ffc3e095159fdfda37038df74efdc5 ASoC: soc-pcm: remove snd_soc_dpcm_stream_{lock/unlock}_irq()
-60b5c173f5542adf020f5235db7fe5e5fa4ae0d8 ASoC: loongson: Remove useless variable definitions
-0a9173541b3f8cde8ad923eebd2e157650e13f35 ASoc: tas2781: Remove unnecessary line feed and space
-d08ea4193a72c5e3090240872ff7ed60a70716e6 ASoC: dt-bindings: qcom,lpass-wsa-macro: correct clocks on SM8250
-b27404b2bbf951a11500525dea15681cc970226c ALSA/ASoC/SoundWire: Intel: use single definition for SDW_INTEL_MAX_LINKS
-d2234596be2192d9c1ae34f8c7534531191bc433 soundwire: intel: add probe-time check on link id
-1f3662838a05f1ab6af89a417f6f252d91d0806b soundwire: intel: increase maximum number of links
-e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d ASoC: dt-bindings: convert tlv320aic31xx.txt to yaml
-ec7bccd770b628a465458194aeac4408cdcc5ccd ALSA: hda: Move SST device entries to AVS
-cd5c4dd97f35cd7cf772fc8c12738bd971cbb58e ASoC: Intel: Drop skl_machine_pdata usage
-4d61ed7609d8b8fef71f78db6a8ac3221a46ea17 ASoC: Intel: Remove bxt_rt298 board driver
-fa07502e01569b39265008bac783a1202a7560e5 ASoC: Intel: Remove bxt_da7219_max98357a board driver
-a08b5fde945ef8b427d2d29515a806fe571d7639 ASoC: Intel: Remove kbl_rt5663_rt5514_max98927 board driver
-1af24289751253e58850ba572c584f7e6b1caa87 ASoC: Intel: Remove kbl_rt5663_max98927 board driver
-1a40ef882fee37006243ebf0b4848c7811672fe2 ASoC: Intel: Remove kbl_rt5660 board driver
-1daa8dce04619f39d4d8ee43ae2a0cec9ab31897 ASoC: Intel: Remove kbl_da7219_max98927 board driver
-15d6966580f3e40fe2f4ecfcde2edd69cc5508e9 ASoC: Intel: Remove kbl_da7219_max98357a board driver
-51d8e9b20db840e78e0d1ff585cf4c8eb4e091b0 ASoC: Intel: Remove skl_rt286 board driver
-4dbf2f9a725d1370d67f9a3bce2f33e913b57e52 ASoC: Intel: Remove skl_nau88l25_ssm4567 board driver
-6de8dddc56b0577df996212b634f82f6f1fb013c ASoC: Intel: Remove skl_nau88l25_max98357a board driver
-a882f4d750ee0ec7e264c015019d0d642e136ff6 ASoC: Intel: Remove skylake driver
-526139aff1d14c5a2cc0a769c063f439444c61c2 ASoC: Intel: avs: Enable by default for all SST configurations
-46e211411113932be1fd31580a03502466648f91 ASoC: Intel: Remove skylake driver
-175fcd15e8606f2cca1edce43e18fa65c443bce6 ALSA/ASoC/SoundWire: Intel: update maximum number
-e6c1d9068295796e34d59ef08fa80f6ff8f3530a ASoC: dt-bindings: samsung,odroid: drop stale clocks
-5f83ee4b1f0c04a8b4125daab8918606df3dc035 ASoC: tas5086: use sleeping variants of gpiod API
-2c9abde40389759c095960fdc25c0b6d38a19ac5 ASoC: Merge up fixes
-1004f34d4f4a59aa5508c3b96069759efa738544 ASoC: amd: acp: replace desc->rev check with acp pci revision id
-aaf55d12fb51d7aa64abe51e27acac1d3d1853ec ASoC: dt-bindings: Convert tpa6130a2.txt to yaml
-6f6d8b2d49299492e704030632ab79257685e5d3 ASoC: codecs: wcd934x: make read-only array minCode_param static const
-8a8dcf702673787543173b8ac5dafae2f7f13e87 ASoC: tas2781: Remove unnecessary line feed for tasdevice_codec_remove
-2d3b218d383e24623070f4439a0af64d200eb740 ASoC: soc-pcm: remove snd_soc_dpcm_stream_lock_irqsave_nested()
-61c80c77b4f35e229347551d13e265752f067151 ASoC: SOF: amd: remove unused variable from sof_amd_acp_desc structure
-23618f5b630a1dde8c465150ddb2fd308b686b08 ASoC: dwc: change to use devm_clk_get_enabled() helpers
-1a9e3b0af301413210319e6946fb4b0b1ad71ccc ASoC: tas2781: mark const variables tas2563_dvc_table as __maybe_unused
-fd69dfe6789f4ed46d1fdb52e223cff83946d997 ASoC: soc-pcm: Indicate warning if dpcm_playback/capture were used for availability limition
-12806510481497a01d01edd64d7bb53a4d9ec28d ASoC: remove snd_soc_dai_link_set_capabilities()
-46fb727a28d8c7195f915150a669d927d463069b ASoC: amlogic: do not use dpcm_playback/capture flags
-61e1f74f739546415570ccc1ac14e1b26afe4705 ASoC: Intel: sof_sdw: use playback/capture_only flags
-90dc34da02aca2fe529ae1ed1822e8fc2a0d9ebc ASoC: cs35l56: Make struct regmap_config const
-ca39fab8b7bc6c5a38c48c7bdf2b3c47792af9dd ASoC: grace time for DPCM cleanup
-5a98c2e5399b125231ebb4594fee5fddfb7db9fd ASoC: dapm-graph: remove the "ROOT" cluster
-64a1e3ddab1ebaa590101b0d7d7fa5d3144da1e8 ASoC: dapm-graph: visualize component On/Off bias level
-a14b278a47dd4b263799214c5ae0da6506ed7692 ASoC: dapm-graph: show path name for non-static routes
-e17de785850e3112b2ea6ba786016a61f195bb23 ASoC: amd: Add acpi machine id for acp7.0 version based platform
-490be7ba2a018093fbfa6c2dd80d7d0c190c4c98 ASoC: SOF: amd: add support for acp7.0 based platform
-b42c0ec286c5bd7ec14110a11e27d2f99a154cd3 ASoC: Merge up fixes
-6756d308bce1553f22e390d0e8140e535caea5f4 ASoC: dapm-graph: add component on/off and route names
-7db44914889f7e1149c1d038f5bcf57c6c90e0d3 Add SOF support for ACP7.0 based platform
-c8dc1016ba0e249e45863c1da3b951efe7c4214a ASoC: tas2781: replace devm_kzalloc and scnprintf with devm_kstrdup
-0225d3b9efe3daca332befaa0c4ce2f119297d5a ASoC: MAINTAINERS: Drop incorrect tlv320aic31xx.txt path
-69a8d0edb9d78bb5515133b7c08f399d6eaff37a ASoC: SOF: topology: Use kmemdup_array instead of kmemdup for multiple allocation
-6785244f3dfd40fb0671c330de4e953cbc2e2846 ASoC: Intel: sof_sdw: make sof_sdw_quirk static
-1ab959bea29c265d7d219346a72ed15b2490d956 ASoC: Intel: sof_sdw: add rt1320 amp support
-14e91ddd5c02d8c3e5a682ebfa0546352b459911 ASoC: Intel: boards: always check the result of acpi_dev_get_first_match_dev()
-5458411d75947a4212e50a401ec0a98d4c6c931b ASoC: SOF: Intel: hda: refactoring topology name fixup for HDA mach
-85b66359c5a76ce613bd75460e4646e8a27b1e2f ASoC: SOF: Intel: hda: refactoring topology name fixup for SDW mach
-775c1a4aa640c701eb67d3954a375000d2be3af5 ASoC: Intel: sof_sdw: move ignore_internal_dmic check earlier
-7db9f6361170a8caa32cc31d894fac1ba8dfc4f3 ASoC: Intel: sof_sdw: overwrite mach_params->dmic_num
-65dc80a78c5f42f5648396b218f50374cf1c2770 ASoC: SOF: Intel: hda: support BT link mask in mach_params
-0752ba426a8182acbd083ca53fef32ddbf50e6d2 ASoC: Intel: skl_hda_dsp_generic: support BT audio offload
-26254073e74e9ea507fbd1f628adf428e545be6b ASoC: Intel: soc-acpi: Add entry for sof_es8336 in ARL match table.
-e1580f48d4a5b739cfbfbce5de637bc34000dcad ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in ARL match table
-a2a0312ac9ee3eb477a02f2706673cab6d375b07 ASoC: Intel: skl_hda_dsp_generic: remove hdac-hdmi support
-690640ef35a42ed96c89ab71788efef4c47766bf ASoC: Intel: skl_hda_dsp_generic: use sof_hdmi_private to init HDMI
-c0524067653d07e78bc215220bc111b6e5e4a94d ASoC: Intel: soc-acpi: arl: Add match entries for new cs42l43 laptops
-9ed85cb8c3af96028b2ba6209e9a8d2707e54f5d ASoC: Intel: soc-acpi: adl: Add match entries for new cs42l43 laptops
-1be6b1c689575e80a92d4f3bb85e22b805355059 ASoC: Intel: soc-acpi: lnl: Add match entries for new cs42l43 laptops
-9307694f340e518cac0e007f39dd9ff0736e6144 ASoC: Intel: sof_sdw: Add quirks from some new Dell laptops
-4dd4baa4408a15d50233e85bae611d576ef77b92 ASoC: soc-pcm: move snd_soc_dpcm_can_be_xxx() to top
-290f31e943a29c93532b1684652b04fd60d0f696 ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local function
-75560718e83bede12d70b2a6b6940089477f58e4 ASoC: dapm: Use IS_ERR_OR_NULL() helper function
-a1a94016db4be2957ae35835a25e3cb4c605db7e ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local
-4f451bc91e7a0d198d0ded5e96cdd69c3e5e9e67 ASoC: Intel: boards: updates for 6.12
-4b1d9019b26fd654ebc2d0d2e100ed56ef1821f0 ASoC: dt-bindings: amlogic,axg-sound-card: document clocks property
-f189c972f86b00318cf2547b62e461cb98374e34 ASoC: dt-bindings: amlogic,gx-sound-card: document clocks property
-125b749221aa54db069a7805f08d99b55c74c88c ASoC: dt-bindings: Convert mxs-saif.txt to fsl,saif.yaml (imx28 saif)
-7817eb1ad353d732bac546b39316f2422c76fff4 ASoC: dt-bindings: cirrus,cs4271: Convert to dtschema
-6b99dc62d940758455b0c7e7ffbf3a63fecc87cb ASoC: codecs: wsa884x: Implement temperature reading and hwmon
-03515f9f3f210eb034372d7a8155cdc73670f163 ASoC: dt-bindings: amlogic-sound-cards: document
-99c9767c0444098a806529204c7a2556f89d0c04 ASoC: cs-amp-lib: Add KUnit test case for empty calibration entries
-f465d10cd73188611ba952fd4df2e2c879998334 ASoC: rt1320: Add support for version C
-dc70fd02404398388f3471a57b9f4e26c0eeba5e ASoC: adi: Use str_enabled_disabled() helper
-a14e9323267d8f20bdb5a1cebc4abc5abd80cfb2 ASoC: loongson: remove unnecessary assignment in i2s_resume()
-ea8f615b399988abd801fa52a5eb631d826d0ba4 ASoC: dt-bindings: realtek,rt5616: document mclk clock
-92ff90cffbeef9b1a4983017555a194f8bc83f77 ASoC: dt-bindings: realtek,rt5616: Document audio graph port
-cd60dec8994cf0626faf80a67be9350ae335f7e9 ASoC: amd: acp: Refactor TDM slots selction based on acp revision id
-093184a3fe443f31a13ffa5d8d6d29ae68a4335d ASoC: amd: acp: Refactor I2S dai driver
-973e9edea93943924638040f9c6eb849163bd421 ASoC: amd: acp: Update pcm hardware capabilities for acp6.3 platform
-13aeb56e6dacaa392cde42df86096dfdbeef5ac4 ASoC: amd: acp: Add I2S TDM support for acp6.3 platform
-7a040cc5579708a327b2d82caa26ab9a02623343 ASoC: amd: acp: Update pcm hardware capabilities for acp7.0 platform
-fb2eaec6a38d853437c4a83b0c7168ef77536094 ASoC: amd: acp: Add I2S master clock generation support for acp7.0 platform
-13073ed06a9f0234033d31e0ccba1e3167d500a3 ASoC: amd: acp: Set i2s clock for acp7.0 platform
-b24df4fa40cc236ccea3de74d9cdb25c2906013b ASoC: amd: acp: Modify max channels and sample rate support for acp70 dai driver
-b80d5a0c875fa0a708be24260d8f160d31273b1b ASoC: amd: acp: Add I2S TDM support for acp7.0 platform
-f6f7d25b11033bdbf25d800572c003fced21a035 ASoC: amd: acp: Add pte configuration for ACP7.0 platform
-1150c18ba35376518b6ed9af3e96c671336fa5c7 ASoC: amd: acp: Add i2s master clock generation support for acp7.1 platform
-3f600592fa0ca1599326e20aa22e845de5fc8ac5 ASoC: amd: acp: Add I2S TDM support for acp7.1 platform
-ceb3ca2876243e3ea02f78b3d488b1f2d734de49 ASoC: dt-bindings: mediatek,mt8365-afe: Add audio afe document
-76d80dcdd55f70b28930edb97b96ee375e1cce5a ASoC: dt-bindings: mediatek,mt8365-mt6357: Add audio sound card document
-761cab667898d86c04867948f1b7aec1090be796 dt-bindings: mfd: mediatek: Add codec property for MT6357 PMIC
-38c7c9ddc74033406461d64e541bbc8268e77f73 ASoC: mediatek: mt8365: Add common header
-ef307b40b7f0042d54f020bccb3e728ced292282 ASoC: mediatek: mt8365: Add audio clock control support
-402bbb13a195caa83b3279ebecdabfb11ddee084 ASoC: mediatek: mt8365: Add I2S DAI support
-7c58c88e524180e8439acdfc44872325e7f6d33d ASoC: mediatek: mt8365: Add ADDA DAI support
-1c50ec75ce6c0c6b5736499393e522f73e19d0cf ASoC: mediatek: mt8365: Add DMIC DAI support
-5097c0c8634d703e3c59cfb89831b7db9dc46339 ASoC: mediatek: mt8365: Add PCM DAI support
-1bf6dbd75f7603dd026660bebf324f812200dc1b ASoc: mediatek: mt8365: Add a specific soundcard for EVK
-e1991d102bc2abb32331c462f8f3e77059c69578 ASoC: mediatek: mt8365: Add the AFE driver support
-fcca6d05ef49d5650514ea1dcfd12e4ae3ff2be6 ASoC: rt5682: Return devm_of_clk_add_hw_provider to transfer the error
-568dc2fae5d3697033f5e28cf4d6225b3db00461 ASoC: tlv320aic32x4: Add multi endpoint support
-97688a9c5b1fd2b826c682cdfa36d411a5c99828 ASoC: loongson: fix error release
-9a029545bb36825f65b1ba182739eaf2809db2c7 Add audio support for the MediaTek Genio 350-evk
-56f97d4da7f1bc2b0a647b9162bebe51e0573699 Fixes for the audio setup on the rk3588-nanopc-t6
-1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 Add i2s/tdm support for acp7.0 and acp7.1 platforms
-77e6a5e40aa393492cf3f1d2623d7d1dff7f33de ASoC: mediatek: mt2701-cs42448: Optimize redundant code in mt2701_cs42448_machine_probe
-de849243404e8ce02320a7178d4448e4d0191377 ASoC: audio-graph-card: Use for_each_child_of_node_scoped() to simplify code
-815f1fcf2403454904cbbc5cf370df6bc300f392 ASoC: audio-graph-card2: Use helper function of_get_child_count()
-e328ab3de4d8147e2458a524db0f7661e7c28ac7 Some clean up with helper fucntion
-5e2404493f9f6028bf143972b18c88156c9893e6 ASoC: codecs: add MT6357 support
-5bbfdad8cf8d4b2c3189fee8e6300b38f65f8d72 ASoC: mediatek: Add MT8365 support
-03667e3d4fbcaf6228fd642464467366f0b693de ASoC: atmel: mchp-i2s-mcc: Improve maxburst calculation for better performance
-d39b510a145a4766906cd49177695913d6e6bfd2 Add audio support for the MediaTek Genio 350-evk
-54694840eff5e95d1b0ec0c916db2d889529c5d7 ASoC: topology-test: Convert comma to semicolon
-813751eaec93bfeb6236aaed99607a44c01b3110 ASoC: Intel: skl_hda_dsp_generic: convert comma to semicolon
-1798acef8f50af59abaa0ff4775e7a79a68db671 ASoC: loongson: remove redundant variable assignments
-3c5a18a10a8c6fab27739e6e7bd0e4c0aa854d92 ASoC: amd: acp: Return in-case of error
-4849b2f78020cf0e3ba67777aadd07c620c91811 ASoC: makes rtd->initialized bit field
-241c044e743f9c55886828763c99b51b0392c21d ASoC: codecs: Use devm_clk_get_enabled() helpers
-77b696f489d2fd83bbcffeed363baac8f2f6ed4b ASoC: tlv320aic31xx: Add support for loading filter coefficients
-6b31d6a4ca3b4d8abfb39127130889f9a9a38aa1 ASoC: mediatek: mt8365: include linux/bitfield.h
-876dec03fdfb7eeb592d01a95ba292c9e53b324b ASoC: mediatek: mt8365: remove unused mt8365_i2s_hd_str
-f2bd6f5b3777d800fb3cad17b9509e1e2128df62 ASoC: loongson: Use BIT() macro
-ce3997ab8b4ae2312b8cdddd7db9b15eb11004a3 ASoC: loongson: Simplify probe() with local dev variable
-3d2528d6c021cba141a7079ae1a5937190700899 ASoC: loongson: Simplify with dev_err_probe()
-e28ee1b8a92e6797fc652fa64e536178dd627e89 ASoC: loongson: Simplify if statment in loongson_card_hw_params()
-c7b626a8930d7029c096f0634ae6169af59d92b6 ASoC: loongson: Replace if with ternary operator
-ddb538a3004b10a04a14a0d275c5f52a8d161e80 ASoC: loongson: Factor out loongson_card_acpi_find_device() function
-4c22b04e116e114f18d9cef15f913e1649ccb7ed ASoC: loongson: Factor out loongson i2s enable clock functions
-d01c6a398750aae265c17859b57d7409a6d9181d ASoC: mt8365: Open code BIT() to avoid spurious warnings
-1b084d8e3b98ca460b815cff14617719ebe605ad ASoC: mt8365: Remove spurious unsigned long casts
-3e61df7d2ff67875c770a7f548038054d05a0f15 ASoC: mt8365: Remove unused prototype for mt8365_afe_clk_group_48k()
-63157d994025639075b3faa372976a96186322c1 ASoC: mt8365: Make non-exported functions static
-067d832806225cfaabeec8f5f683b7e2bc508a6d ASoC: mt8365: Remove unused variables
-d70ce6d3105a6bd02b1708c399105631643a550a ASoC: mt8365: Remove unused DMIC IIR coefficient configuration
-36fa259b214c37bbae3e0b7a47e7fb49cb0ab462 ASoC: mt8365: Allow build coverage
-130eb72d3cb38a629205a2a192800b4b1b9bc5c9 ASoC: codecs: fix the right check and simplify code
-b09c71f3e8413ac0a9749f9d0d06f6f0d0b2cc65 ASoC: atmel: mchp-i2s-mcc: Remove interface name from stream_name
-130af75b5c05eef4ecd8593371f3e924bcd41241 ASoC: Switch back to struct platform_driver::remove()
-43fbb2c702663d7af844ee952aec224a0e059e26 ASoC: loongson: Simplify code formatting
-16faf8cb4c1a82ffd799268197a42a214b1dcbbf ASoC: mt8365: Fix -Werror builds
-86a7f453e99c3c202ac1623557e4f57bd73fc88c ASoC: soc-ac97: Fix the incorrect description
-5e6f78cb5f53c52a11090657e917d2d7202aea23 ASoC: loongson: Add the correct judgement return
-851e3a2a4490b03bb8dd0cda1b8b2a78f6a92805 ASoC: qcom: sm8250: enable primary mi2s
-afe671ac3e9309e55d556d066250bd37d9c47d1a ASoC: meson: Remove unused declartion in header file
-69f3014248f0f10e24f07a66ae650061ecaf732b ASoC: tlv320aic31xx: Fix typos
-bacae49eccb9a3acaf74fc275893abc26c0420b5 ASoC: amd: acp: remove MODULE_ALIAS for legacy machine driver
-0b0aa67baa8904e3c1e13be48a2ca125f59ead3d ASoC: amd: acp: remove MODULE_ALIAS for sof based generic machine driver
-5c4e15e63216e7268bb2f1132ee8fad0ec46bbb7 ASoC: mediatek: mt8365: check validity before usage of i2s_data
-8f0280c84607afe122788e508a171ba163d71be6 ASoC: atmel: mchp-pdmc: Improve maxburst calculation for better performance
-e6b95bdc1e333e14e4fdf71fd4e8962429d9b6cd ASoC: atmel: mchp-pdmc: Add snd_soc_dai_driver name
-92556bd800fe4ce1c3fd18332b42a4eb85633951 Add support for primary mi2s on SM8250
-a2187d0dadfc308551bbb1b8d6caee69e2ad4744 ASoC: dt-bindings: renesas,rsnd: add post-init-providers property
-448aa89af07b83be84a58155c60001743342fca0 ASoC: dt-bindings: microchip,sama7g5-spdifrx: Add common DAI reference
-32d5f79aafebb928eeb9325bb390d509f2d5c0a9 ASoC: Improvements for mchp-pdmc
-bd07676ddade417c7cfefb58fb87c27751395bb3 ASoC: Intel: board_helpers: support HDA link initialization
-b28b23dea31497548010c248398162ef4c25cfd2 ASoC: Intel: skl_hda_dsp_generic: use common module for DAI links
-2c80bcc27557b5db4aca8a0c621fc7d5cd10cf7e ASoC: Intel: ehl_rt5660: do not check common_hdmi_codec_drv
-f22a351fe2193dac803fc919096b734ff2947958 ASoC: Intel: sof_pcm512x: do not check common_hdmi_codec_drv
-dfa1a7f456f10018229d0d5b3c36dd36a9b5344f ASoC: SOF: Intel: hda: remove common_hdmi_codec_drv
-47d94c13d5f1f9f9c2bc29e26ebbd4efe912256c ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for ARL.
-322706e16988f6156ddd8fdcc6d06f87efc058f6 ASoC: Intel: ARL: Add entry for HDMI-In capture support to non-I2S codec boards.
-d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1 ASoc: mediatek: mt8365: Remove unneeded assignment
-f6e2e7397d00192bda11166d5fb3e2e67a8cf92e ASoC: mediatek: mt7986-afe-pcm: Remove redundant error message
-49b2597a9e53a2491cbec29451766af898eedb44 ASoC: Intel: boards: updates for 6.12 - part 2
-2ed1a4a5c0058dfd78f5037576d668a37d0ec609 ASoC: atmel: mchp-pdmc: Retain Non-Runtime Controls
-f5c05fd7e9d20a3a8f3401b467fec2d24f49ea5a ASoC: intel: sof_sdw: rename soundwire endpoint and dailink structures
-23f020bd607b7aec5f301699227ed196430fbc40 ASoC: intel: sof_sdw: rename soundwire parsing helper functions
-7860df5b29945cfab40dd667f576af31401d7c43 ASoC: sdw_util/intel: move soundwire endpoint and dai link structures
-13b24f84782d6c0373f62eb645353883d94d1dcd ASoC: sdw_utils/intel: move soundwire endpoint parsing helper functions
-6d8348ddc56ed43ba39d1e8adda13299201f32ed ASoC: amd: acp: refactor SoundWire machine driver code
-0b117e58409efce351f435618e2b6023804c0988 AMD SoundWire machine driver code refactor
-49e2e353fb0dbef8dced3e8e65365580349c4b14 ASoC: tas2781: Add Calibration Kcontrols for Chromebook
-2772ee6de6cf94e5f2a0c0ce6067d0796a4170ba ASoC: topology: Fix redundant logical jump
-1a529af6f81e54f15df162a0c703459937941c54 Merge tag 'asoc-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
+7b2f0a6622d47227b2bcbe516692a3015c4e85e6 staging: iio: frequency: ad9833: Get frequency value statically
+1a368bfcb508699acd31b4771467cc07bc1e55c6 staging: iio: frequency: ad9833: Load clock using clock framework
+d710173c0d26f0f06c74fc9fd2d39b4dd2138403 staging: iio: frequency: ad9834: Validate frequency parameter value
+b21142c9f47dbb739fe05ca7fc56f056ccbe0b68 usbnet: ipheth: fix carrier detection in modes 1 and 4
+336b5b05ebd429634157f96b3aeae3501b27fd3f net: ethernet: use ip_hdrlen() instead of bit shift
+0546713b08082d02a9271f20be1c6f9f2ec3cd3a net: phy: vitesse: repair vsc73xx autonegotiation
+f84e6061cfe6e09987d95eaf85e1f31d5c470ffd scripts: kconfig: merge_config: config files: add a trailing newline
+1a0aa87373671143d8a3d5f368ea58766e84af0c arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+6fec2a6c5dba1b121d5d8a06fb0f308b89cfbde0 net/mlx5: Update the list of the PCI supported devices
+33287897c0824b2dc759c6f32cf9a4d3e4d998c1 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+c2f9d507b16a0013bbe1fed668533971da1347f2 net: dpaa: Pad packets to ETH_ZLEN
+918ccc991144c827a65639ae5216d7b998c44efe soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
 
---===============6313513152593563261==
+--===============3835178450187042526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f58bd8f9cb5a-5f9d43a7d6fc.txt
+Content-Disposition: attachment; filename=revlist-86b727f979b0-8f905ebae4ef.txt
 
-2cc719983603f0e9d24da256b58d6abb79e3884a ASoC: dt-bindings: renesas,rz-ssi: Document port property
-3d2a69eb503d15171a7ba51cf0b562728ac396b7 ASoC: codecs: wsa881x: Drop unused version readout
-2fbf16992e5aa14acf0441320033a01a32309ded ASoC: codecs: wsa883x: Handle reading version failure
-cd15fded0e1090bf713647a5bcfd83e372152844 ASoC: codecs: wsa883x: Simplify handling variant/version
-7eb62acd43c9299630f0e859f56981072401c5b6 ASoC: codecs: wsa884x: Simplify handling variant
-00425bf8cbc9981bd975a5475cec4964544fb297 ASoC: dt-bindings: ti,pcm512x: Convert to dtschema
-00645b42e3ca6a35fc4a357dd769bcef41d4a077 ASoC: dt-bindings: fsl,imx-audio-es8328: Convert to dtschema
-6024f3429fd1ac4948bac9610ecd4d0139088f0b ASoC: codecs: ES8326: suspend issue
-8716bd241fa120aacce5e0136125b7ecc74fe3b2 ASoC: dt-bindings: qcom,apq8016-sbc-sndcard: move to separate binding
-3ff810b9bebe5578a245cfa97c252ab602e703f1 ASoC: rt5682s: Return devm_of_clk_add_hw_provider to transfer the error
-b3f35bae68c0ff9b9339b819ec5f5f341d798bbe ASoC: codecs: lpass-wsa-macro: Do not hard-code dai in VI mixer
-4f8cd05a43058b165b83f12f656e60415d2ff5be ASoC: sh: rz-ssi: Add full duplex support
-42eb47310f89eca3226e8e427bc9d571149dc866 ASoC: mediatek: mt8192: remove redundant null pointer check before of_node_put
-aaa5e1aa39074fb466f6ef3df4de6903741dfeec ASoC: Use __counted_by() annotation for snd_soc_pcm_runtime
-d57ef03314f529e76385a9d5108c115459b54c2b ASoC: dt-bindings: dlg,da7213: Convert to json-schema
-275d57ae441f34749cbf8621441ce2148f83d5e6 ASoC: cs42l42: Convert comma to semicolon
-874d04fe15d12cafa09dd36e8555cea4eb0653f6 ASoC: codecs: wsa881x: Use designator array initializers for Soundwire ports
-add41ea55060d5e41d62268aa0bda2a27e0f5053 ASoC: codecs: wsa883x: Use designator array initializers for Soundwire ports
-125ed86b0d669334dbc567f441d10163ff0c44bc ASoC: codecs: wsa884x: Use designator array initializers for Soundwire ports
-06fa8271273d8181cb8727e63aeec3f87a48d8c7 ASoC: codecs: wcd938x: Drop unused defines and enums
-42f3a2caf80910d0c251b2a407d4d220c0d3a79f ASoC: codecs: wcd937x: Move max port number defines to enum
-5e388488f0a1dd6d340f3925e7b371e212ee3cc2 ASoC: codecs: wcd938x: Move max port number defines to enum
-a9d843e6b231e550f8141f27e930f90ded4edae2 ASoC: codecs: wcd939x: Move max port number defines to enum
-2e08bba3a83cc311115519f5fcb294005e4230a5 Add HDMI Audio support
-d0296adb0db13467408d6594de2a46faf0f98f8f ASoC: codecs: wsa88xx: Few cleanups
-7803693988412380be095d228fb7b61f2d80e7c2 ASoC: codecs: wsa88xx and wcd93xx: Soundwire port
-e620b496c78706bb71691502e0381eb344afeaea ASoC: tas2781: Add TAS2563 into the Header
-80565764c7f53b47be266c90d635285e295684dc ASoC: rsnd: remove rsnd_mod_confirm_ssi() under DEBUG
-22c406c9bf5e28d9fed0bf37ac9d544e56127fd3 ASoC: rsnd: use pcm_dmaengine code
-d5742b5d4d7b99531e352ea814506641f9fc8981 ASoC: fsl: lpc3xxx-i2s: Remove set but not used variable 'savedbitclkrate'
-6588fcc8833d8338b994edd97a4446bae95ff12c ASoC: intel: rename codec_info and dai_info structures names
-408a454ee8886912cc8a64fcd012e0a1eb30fd0b ASoC: intel: rename soundwire common header macros
-96990cfeff61d0a1053dded6d1a4dceafb2f1562 ASoC: intel: rename soundwire machine driver soc ops
-bd5838c8999838059a25a963730bba1face1e53b ASoC: intel: rename soundwire codec helper functions
-a2b5ec0ca5fcd6f609733b37c52e23ddb7328ffd ASoC: intel: rename maxim codec macros
-b1f7cbf0d5746ba270bc090f6f85a4b176410854 ASoC: intel: rename ignore_pch_dmic variable name
-d39388e6555cb805beb985a7ece1c771c611037c ASoC: intel/sdw-utils: move soundwire machine driver soc ops
-73619137c633a89a90f8c8c5fa59171aaff6e913 ASoC: intel: move soundwire machine driver common structures
-941d6933eb31b13d09a7293bc92d9d494513a372 ASoC: intel/sdw_utils: move soundwire machine driver helper functions
-4776d0c9088634677749e42ae8b36b4da46226db ASoC: intel/sdw_utils: move dmic codec helper function
-a9831fd1c0e6353366bbde6e1dd7b15a2dd6d825 ASoC: intel/sdw_utils: move rtk dmic helper functions
-09c60bc9da91f188e2aedb0bac94d3e129fa20f9 ASoC: intel/sdw_utils: move rt712 sdca helper functions
-89b3456e9afa4c61879f6d744f6d2c6fadc2b2fc ASoC: intel/sdw_utils: move rt722 sdca helper functions
-4f54856b4ea460e9048c11e3f698c38fb072529d ASoC: intel: split soundwire machine driver private data
-139e17740200d8e92677942bfee6c8cfe4da3009 ASoC: intel/sdw_utils: move rt5682 codec helper function
-da5b1831673208e235cadc9107207adb092c2eb9 ASoC: intel/sdw_utils: move rtk jack common helper functions
-8e84fd22dc425fd0b005a20156eeb67f019ae39f ASoC: intel/sdw_utils: move rt700 and rt711 codec helper functions
-ccc96ae2814a7faad591af68bd0115e4d2b256b4 ASoC: intel/sdw_utils: move rtk amp codec helper functions
-5fa46627d5118bf58b80df45489f49e1e316473a ASoC: intel/sdw_utils: move cirrus soundwire codec helper functions
-051b7cb3fde16fd8788078d697d84069b0e50e03 ASoC: intel/sdw_utils: move maxim codec helper functions
-8f87e292a34813e4551e1513c62b7222900481cb ASoC: intel/sdw_utils: move dai id common macros
-6e7af1fdf7da7f0b79475f573d3c1f49a826bd68 ASoC: intel/sdw_utils: move soundwire dai type macros
-e377c94773171e8a97e716e57ec67d49b02ded0b ASoC: intel/sdw_utils: move soundwire codec_info_list structure
-778dcb08832a5e526e447971f7ca72cb6dd2307b ASoC: intel/sdw_utils: move machine driver dai link helper functions
-5bd414c7b80e39ef11bd86db76e726962c1bfc92 ASoC: sdw_utils: refactor sof_sdw_card_late_probe function
-59f8b622d52e30c5be7f14212c26ca37e810ece9 ASoC: intel/sdw_utils: refactor init_dai_link() and init_simple_dai_link()
-0b8f009ae92fa94ab3c0ca881fce02c336056a73 ASoC: soc-acpi: add pci revision id field in mach params structure
-57677ccde7522170c50eb44258d54c6584356f47 ASoC: amd: acp: add soundwire machines for acp6.3 based platform
-15049b6a6c19d799095e5dbe9a4772862b11ee23 ASoC: SOF: amd: add alternate machines for acp6.3 based platform
-b7cdb4a89cc864ead6470a57947815c49870b09a ASoC: SOF: amd: update mach params subsystem_rev variable
-cb8ea62e6402067ba092d4c1d66a9440513a572b ASoC: amd/sdw_utils: add sof based soundwire generic machine driver
-a1c8929b0ebbfd7598f038ac74fb0a28f94ade8c ASoC: Use of_property_present()
-69dd15a8ef0ae494179fd15023aa8172188db6b7 ASoC: Use of_property_read_bool()
-7dfdcde20179383d4acfee61692a22955d5a8217 ASoC: stm: use snd_pcm_direction_name()
-cda4aa0069b73e3404ee61864b4814ccc7b7a6ad ASoC: sof: pcm: use snd_pcm_direction_name()
-baa779902020d8921cf652944309d1284a63811c ASoC: sof: intel: use snd_pcm_direction_name()
-8156921e620827319460e8daa9831d731b0d75fd ASoC: fsl: lpc3xxx-i2s: use snd_pcm_direction_name()
-d6db65bc62fd19915a9926e08b9cbcfbadd64291 ASoC: tegra: use snd_pcm_direction_name()
-ebbd6703d4635d36b35f12a1365dfd7894c0ff12 ASoC: soc-pcm: use snd_pcm_direction_name()
-bb660132868b5208d6a5f2bd184425cf788f4ef9 ASoC: soc-dapm: use snd_pcm_direction_name()
-bb2bf8568a425d025bcb3f7c112f9a0282a7dc8e AMD SOF based generic SoundWire machine driver
-9aafe1dd035fd405c5514e6bea2647c196626dd3 ALSA/ASoC: use snd_pcm_direction_name()
-6a965fbaac461564ae74dbfe6d9c9e9de65ea67a ASoC: Intel: soc-acpi: add PTL match tables
-42b4763ab301c5604343aa49774426d5005711a3 ASoC: SOF: Intel: add PTL specific power control register
-3f8c8027775901c13d1289b4c54e024d3d5d982a ASoC: SOF: Intel: add initial support for PTL
-77a6869afbbfad0db297e9e4b9233aac209d5385 ASoC: Intel: soc-acpi-intel-ptl-match: add rt711-sdca table
-2786d3f4943c472c10dd630ec3e0a1a892181562 ASoC: Intel: soc-acpi-intel-ptl-match: Add rt722 support
-cac88e96ba0961921b8068326579b26094f37ba4 ASoC: SOF: sof-priv.h: optimize snd_sof_platform_stream_params
-e9e7eeaf199c7961d634235dbedeb7b682b1dd32 ASoC: SOF: sof-priv.h: optimize snd_sof_mailbox
-5a4413d0fa8d0a438246acaf81637d71aab1b6a0 ASoC: SOF: sof-priv.h: optimize snd_sof_ipc_msg
-5821d7b4981f4915ab353f538be38defe9656f81 ASoC: SOF: sof-audio.h: optimize snd_sof_pcm_stream_pipeline_list
-92b796845a4a8789c2d9434c6a77baa88a99121e ASoC: tas2781: Fix a compiling warning reported by robot kernel test due to adding tas2563_dvc_table
-11c2d223713b7a7fee848595e9f582d34adc552b ASoC: sti-sas: Constify snd_soc_component_driver struct
-a1c2716738b7ba9e912e04872639dd39c72baa35 ASoC: fsl: lpc3xxx: Make some symbols static
-839e231a53b824a62bc3696ad3ba1dcedc4f4167 ASoC: cs43130: Constify snd_soc_component_driver struct
-218c9007851c2190326ce12fd0719809a5219165 ASoC: SOF: reshuffle and optimize structures
-cf410c1beaded9c7ba16210b36cbe9ed0e2b4d19 ASoC/SOF/PCI/Intel: add PantherLake support
-7d2fb3812acde0a76e0d361877e8295db065f9f4 ASoC: remove bespoke trigger support
-c2c0b67dca3cb3b3cea0dd60075a1c5ba77e2fcd ASoC: tas2781-i2c: Drop weird GPIO code
-1c4b509edad15192bfb64c81d3c305bbae8070db ASoC: tas2781-i2c: Get the right GPIO line
-caab9a1cbb9a9fca24ceabeef57b3764d861ad32 ASoC: tas*: Drop unused GPIO includes
-1a4f7965016b9685bd158f7f306039ce96d2beb5 ASoC: Merge fixes
-7063a710830a09b01734be7f4ffd23f0ef72a57e ASoC: cs35l56: Use regmap_read_bypassed() to wake the device
-be942e3d20cf666f6174f47826914c3b5ea61d85 ASoC: codecs: ES8326: input issue after init
-20288905e1ee33af82570b79adee3f15018030d4 ASoC: amd: acp: remove MODULE_ALIAS for SoundWire machine driver
-c35fad6f7e0d69b0e9e7e196bdbca3ed03ac24ea ASoC: amd: acp: add ZSC control register programming sequence
-5dde0cd2433dc6ef7b82e04276335137cc4c3105 ASoC: SOF: sof-audio: Avoid -Wflex-array-member-not-at-end warnings
-001f8443d480773117a013a07f774d252f369bea ASoC: SOF: amd: update conditional check for cache register update
-5db564d4242e12c1de9ef294d7252dbb90898922 ASoC: tas*: Fix up GPIO usage
-86297bb30ae094e14a3a6c62b870a2f301a180a2 ASoC: cs43130: Constify struct reg_sequence and reg_sequences
-6024b86b4a618b6973cf6fc5ed3fa21280e395b9 ASoC: amd: acp: Convert comma to semicolon
-ab73c7c0e5800a44690023cfdfeac72d3b6b95e8 ASoC: rt1318: Constify struct reg_sequence
-c6f3abbbdc99930f831d5c76dac32ddbd9b88fa1 ASoC: amd: acp: add legacy driver support for ACP7.1 based platforms
-8f712c12f34daaaa2e47ba07cf3b348d3a442986 ASoc: tas2781: Rename dai_driver name to unify the name between TAS2563 and TAS2781
-73abd9698960c5d097559432cac13bb1f0aaf3df ASoC: fsl_audmix: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-b7e4dd8da05a9de18471868a914d609522d04fdd ASoC: fsl_mqs: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-bbc0798c402acb6799a8332fb0a49c05f4a5a414 ASoC: fsl_rpmsg: Switch to RUNTIME_PM_OPS()
-01661bb9560def44eff0c79ebf14ec7ce0fdffab ASoC: fsl_spdif: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-8ffb2fe2e92c98e5c69e9af9656baed7d298059a ASoC: fsl_ssi: Switch to SYSTEM_SLEEP_PM_OPS
-c504885a351b57c26c077992dde6904b8bbbdcd4 ASoC: imx-audmux: Switch to SYSTEM_SLEEP_PM_OPS
-bcbbf713061c41f696f47baa4bdcb789a59d4f21 ASoC: imx-pcm-rpmsg: Switch to RUNTIME/SYSTEM_SLEEP_PM_OPS()
-c8c3d9f8e3ffc3e095159fdfda37038df74efdc5 ASoC: soc-pcm: remove snd_soc_dpcm_stream_{lock/unlock}_irq()
-60b5c173f5542adf020f5235db7fe5e5fa4ae0d8 ASoC: loongson: Remove useless variable definitions
-0a9173541b3f8cde8ad923eebd2e157650e13f35 ASoc: tas2781: Remove unnecessary line feed and space
-d08ea4193a72c5e3090240872ff7ed60a70716e6 ASoC: dt-bindings: qcom,lpass-wsa-macro: correct clocks on SM8250
-b27404b2bbf951a11500525dea15681cc970226c ALSA/ASoC/SoundWire: Intel: use single definition for SDW_INTEL_MAX_LINKS
-d2234596be2192d9c1ae34f8c7534531191bc433 soundwire: intel: add probe-time check on link id
-1f3662838a05f1ab6af89a417f6f252d91d0806b soundwire: intel: increase maximum number of links
-e486feb7b8ec04ec7cd53476acc9e18afd4a6a7d ASoC: dt-bindings: convert tlv320aic31xx.txt to yaml
-ec7bccd770b628a465458194aeac4408cdcc5ccd ALSA: hda: Move SST device entries to AVS
-cd5c4dd97f35cd7cf772fc8c12738bd971cbb58e ASoC: Intel: Drop skl_machine_pdata usage
-4d61ed7609d8b8fef71f78db6a8ac3221a46ea17 ASoC: Intel: Remove bxt_rt298 board driver
-fa07502e01569b39265008bac783a1202a7560e5 ASoC: Intel: Remove bxt_da7219_max98357a board driver
-a08b5fde945ef8b427d2d29515a806fe571d7639 ASoC: Intel: Remove kbl_rt5663_rt5514_max98927 board driver
-1af24289751253e58850ba572c584f7e6b1caa87 ASoC: Intel: Remove kbl_rt5663_max98927 board driver
-1a40ef882fee37006243ebf0b4848c7811672fe2 ASoC: Intel: Remove kbl_rt5660 board driver
-1daa8dce04619f39d4d8ee43ae2a0cec9ab31897 ASoC: Intel: Remove kbl_da7219_max98927 board driver
-15d6966580f3e40fe2f4ecfcde2edd69cc5508e9 ASoC: Intel: Remove kbl_da7219_max98357a board driver
-51d8e9b20db840e78e0d1ff585cf4c8eb4e091b0 ASoC: Intel: Remove skl_rt286 board driver
-4dbf2f9a725d1370d67f9a3bce2f33e913b57e52 ASoC: Intel: Remove skl_nau88l25_ssm4567 board driver
-6de8dddc56b0577df996212b634f82f6f1fb013c ASoC: Intel: Remove skl_nau88l25_max98357a board driver
-a882f4d750ee0ec7e264c015019d0d642e136ff6 ASoC: Intel: Remove skylake driver
-526139aff1d14c5a2cc0a769c063f439444c61c2 ASoC: Intel: avs: Enable by default for all SST configurations
-46e211411113932be1fd31580a03502466648f91 ASoC: Intel: Remove skylake driver
-175fcd15e8606f2cca1edce43e18fa65c443bce6 ALSA/ASoC/SoundWire: Intel: update maximum number
-e6c1d9068295796e34d59ef08fa80f6ff8f3530a ASoC: dt-bindings: samsung,odroid: drop stale clocks
-5f83ee4b1f0c04a8b4125daab8918606df3dc035 ASoC: tas5086: use sleeping variants of gpiod API
-2c9abde40389759c095960fdc25c0b6d38a19ac5 ASoC: Merge up fixes
-1004f34d4f4a59aa5508c3b96069759efa738544 ASoC: amd: acp: replace desc->rev check with acp pci revision id
-aaf55d12fb51d7aa64abe51e27acac1d3d1853ec ASoC: dt-bindings: Convert tpa6130a2.txt to yaml
-6f6d8b2d49299492e704030632ab79257685e5d3 ASoC: codecs: wcd934x: make read-only array minCode_param static const
-8a8dcf702673787543173b8ac5dafae2f7f13e87 ASoC: tas2781: Remove unnecessary line feed for tasdevice_codec_remove
-2d3b218d383e24623070f4439a0af64d200eb740 ASoC: soc-pcm: remove snd_soc_dpcm_stream_lock_irqsave_nested()
-61c80c77b4f35e229347551d13e265752f067151 ASoC: SOF: amd: remove unused variable from sof_amd_acp_desc structure
-23618f5b630a1dde8c465150ddb2fd308b686b08 ASoC: dwc: change to use devm_clk_get_enabled() helpers
-1a9e3b0af301413210319e6946fb4b0b1ad71ccc ASoC: tas2781: mark const variables tas2563_dvc_table as __maybe_unused
-fd69dfe6789f4ed46d1fdb52e223cff83946d997 ASoC: soc-pcm: Indicate warning if dpcm_playback/capture were used for availability limition
-12806510481497a01d01edd64d7bb53a4d9ec28d ASoC: remove snd_soc_dai_link_set_capabilities()
-46fb727a28d8c7195f915150a669d927d463069b ASoC: amlogic: do not use dpcm_playback/capture flags
-61e1f74f739546415570ccc1ac14e1b26afe4705 ASoC: Intel: sof_sdw: use playback/capture_only flags
-90dc34da02aca2fe529ae1ed1822e8fc2a0d9ebc ASoC: cs35l56: Make struct regmap_config const
-ca39fab8b7bc6c5a38c48c7bdf2b3c47792af9dd ASoC: grace time for DPCM cleanup
-5a98c2e5399b125231ebb4594fee5fddfb7db9fd ASoC: dapm-graph: remove the "ROOT" cluster
-64a1e3ddab1ebaa590101b0d7d7fa5d3144da1e8 ASoC: dapm-graph: visualize component On/Off bias level
-a14b278a47dd4b263799214c5ae0da6506ed7692 ASoC: dapm-graph: show path name for non-static routes
-e17de785850e3112b2ea6ba786016a61f195bb23 ASoC: amd: Add acpi machine id for acp7.0 version based platform
-490be7ba2a018093fbfa6c2dd80d7d0c190c4c98 ASoC: SOF: amd: add support for acp7.0 based platform
-b42c0ec286c5bd7ec14110a11e27d2f99a154cd3 ASoC: Merge up fixes
-6756d308bce1553f22e390d0e8140e535caea5f4 ASoC: dapm-graph: add component on/off and route names
-7db44914889f7e1149c1d038f5bcf57c6c90e0d3 Add SOF support for ACP7.0 based platform
-c8dc1016ba0e249e45863c1da3b951efe7c4214a ASoC: tas2781: replace devm_kzalloc and scnprintf with devm_kstrdup
-0225d3b9efe3daca332befaa0c4ce2f119297d5a ASoC: MAINTAINERS: Drop incorrect tlv320aic31xx.txt path
-69a8d0edb9d78bb5515133b7c08f399d6eaff37a ASoC: SOF: topology: Use kmemdup_array instead of kmemdup for multiple allocation
-6785244f3dfd40fb0671c330de4e953cbc2e2846 ASoC: Intel: sof_sdw: make sof_sdw_quirk static
-1ab959bea29c265d7d219346a72ed15b2490d956 ASoC: Intel: sof_sdw: add rt1320 amp support
-14e91ddd5c02d8c3e5a682ebfa0546352b459911 ASoC: Intel: boards: always check the result of acpi_dev_get_first_match_dev()
-5458411d75947a4212e50a401ec0a98d4c6c931b ASoC: SOF: Intel: hda: refactoring topology name fixup for HDA mach
-85b66359c5a76ce613bd75460e4646e8a27b1e2f ASoC: SOF: Intel: hda: refactoring topology name fixup for SDW mach
-775c1a4aa640c701eb67d3954a375000d2be3af5 ASoC: Intel: sof_sdw: move ignore_internal_dmic check earlier
-7db9f6361170a8caa32cc31d894fac1ba8dfc4f3 ASoC: Intel: sof_sdw: overwrite mach_params->dmic_num
-65dc80a78c5f42f5648396b218f50374cf1c2770 ASoC: SOF: Intel: hda: support BT link mask in mach_params
-0752ba426a8182acbd083ca53fef32ddbf50e6d2 ASoC: Intel: skl_hda_dsp_generic: support BT audio offload
-26254073e74e9ea507fbd1f628adf428e545be6b ASoC: Intel: soc-acpi: Add entry for sof_es8336 in ARL match table.
-e1580f48d4a5b739cfbfbce5de637bc34000dcad ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in ARL match table
-a2a0312ac9ee3eb477a02f2706673cab6d375b07 ASoC: Intel: skl_hda_dsp_generic: remove hdac-hdmi support
-690640ef35a42ed96c89ab71788efef4c47766bf ASoC: Intel: skl_hda_dsp_generic: use sof_hdmi_private to init HDMI
-c0524067653d07e78bc215220bc111b6e5e4a94d ASoC: Intel: soc-acpi: arl: Add match entries for new cs42l43 laptops
-9ed85cb8c3af96028b2ba6209e9a8d2707e54f5d ASoC: Intel: soc-acpi: adl: Add match entries for new cs42l43 laptops
-1be6b1c689575e80a92d4f3bb85e22b805355059 ASoC: Intel: soc-acpi: lnl: Add match entries for new cs42l43 laptops
-9307694f340e518cac0e007f39dd9ff0736e6144 ASoC: Intel: sof_sdw: Add quirks from some new Dell laptops
-4dd4baa4408a15d50233e85bae611d576ef77b92 ASoC: soc-pcm: move snd_soc_dpcm_can_be_xxx() to top
-290f31e943a29c93532b1684652b04fd60d0f696 ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local function
-75560718e83bede12d70b2a6b6940089477f58e4 ASoC: dapm: Use IS_ERR_OR_NULL() helper function
-a1a94016db4be2957ae35835a25e3cb4c605db7e ASoC: soc-pcm: makes snd_soc_dpcm_can_be_xxx() local
-4f451bc91e7a0d198d0ded5e96cdd69c3e5e9e67 ASoC: Intel: boards: updates for 6.12
-4b1d9019b26fd654ebc2d0d2e100ed56ef1821f0 ASoC: dt-bindings: amlogic,axg-sound-card: document clocks property
-f189c972f86b00318cf2547b62e461cb98374e34 ASoC: dt-bindings: amlogic,gx-sound-card: document clocks property
-125b749221aa54db069a7805f08d99b55c74c88c ASoC: dt-bindings: Convert mxs-saif.txt to fsl,saif.yaml (imx28 saif)
-7817eb1ad353d732bac546b39316f2422c76fff4 ASoC: dt-bindings: cirrus,cs4271: Convert to dtschema
-6b99dc62d940758455b0c7e7ffbf3a63fecc87cb ASoC: codecs: wsa884x: Implement temperature reading and hwmon
-03515f9f3f210eb034372d7a8155cdc73670f163 ASoC: dt-bindings: amlogic-sound-cards: document
-99c9767c0444098a806529204c7a2556f89d0c04 ASoC: cs-amp-lib: Add KUnit test case for empty calibration entries
-f465d10cd73188611ba952fd4df2e2c879998334 ASoC: rt1320: Add support for version C
-dc70fd02404398388f3471a57b9f4e26c0eeba5e ASoC: adi: Use str_enabled_disabled() helper
-a14e9323267d8f20bdb5a1cebc4abc5abd80cfb2 ASoC: loongson: remove unnecessary assignment in i2s_resume()
-ea8f615b399988abd801fa52a5eb631d826d0ba4 ASoC: dt-bindings: realtek,rt5616: document mclk clock
-92ff90cffbeef9b1a4983017555a194f8bc83f77 ASoC: dt-bindings: realtek,rt5616: Document audio graph port
-cd60dec8994cf0626faf80a67be9350ae335f7e9 ASoC: amd: acp: Refactor TDM slots selction based on acp revision id
-093184a3fe443f31a13ffa5d8d6d29ae68a4335d ASoC: amd: acp: Refactor I2S dai driver
-973e9edea93943924638040f9c6eb849163bd421 ASoC: amd: acp: Update pcm hardware capabilities for acp6.3 platform
-13aeb56e6dacaa392cde42df86096dfdbeef5ac4 ASoC: amd: acp: Add I2S TDM support for acp6.3 platform
-7a040cc5579708a327b2d82caa26ab9a02623343 ASoC: amd: acp: Update pcm hardware capabilities for acp7.0 platform
-fb2eaec6a38d853437c4a83b0c7168ef77536094 ASoC: amd: acp: Add I2S master clock generation support for acp7.0 platform
-13073ed06a9f0234033d31e0ccba1e3167d500a3 ASoC: amd: acp: Set i2s clock for acp7.0 platform
-b24df4fa40cc236ccea3de74d9cdb25c2906013b ASoC: amd: acp: Modify max channels and sample rate support for acp70 dai driver
-b80d5a0c875fa0a708be24260d8f160d31273b1b ASoC: amd: acp: Add I2S TDM support for acp7.0 platform
-f6f7d25b11033bdbf25d800572c003fced21a035 ASoC: amd: acp: Add pte configuration for ACP7.0 platform
-1150c18ba35376518b6ed9af3e96c671336fa5c7 ASoC: amd: acp: Add i2s master clock generation support for acp7.1 platform
-3f600592fa0ca1599326e20aa22e845de5fc8ac5 ASoC: amd: acp: Add I2S TDM support for acp7.1 platform
-ceb3ca2876243e3ea02f78b3d488b1f2d734de49 ASoC: dt-bindings: mediatek,mt8365-afe: Add audio afe document
-76d80dcdd55f70b28930edb97b96ee375e1cce5a ASoC: dt-bindings: mediatek,mt8365-mt6357: Add audio sound card document
-761cab667898d86c04867948f1b7aec1090be796 dt-bindings: mfd: mediatek: Add codec property for MT6357 PMIC
-38c7c9ddc74033406461d64e541bbc8268e77f73 ASoC: mediatek: mt8365: Add common header
-ef307b40b7f0042d54f020bccb3e728ced292282 ASoC: mediatek: mt8365: Add audio clock control support
-402bbb13a195caa83b3279ebecdabfb11ddee084 ASoC: mediatek: mt8365: Add I2S DAI support
-7c58c88e524180e8439acdfc44872325e7f6d33d ASoC: mediatek: mt8365: Add ADDA DAI support
-1c50ec75ce6c0c6b5736499393e522f73e19d0cf ASoC: mediatek: mt8365: Add DMIC DAI support
-5097c0c8634d703e3c59cfb89831b7db9dc46339 ASoC: mediatek: mt8365: Add PCM DAI support
-1bf6dbd75f7603dd026660bebf324f812200dc1b ASoc: mediatek: mt8365: Add a specific soundcard for EVK
-e1991d102bc2abb32331c462f8f3e77059c69578 ASoC: mediatek: mt8365: Add the AFE driver support
-fcca6d05ef49d5650514ea1dcfd12e4ae3ff2be6 ASoC: rt5682: Return devm_of_clk_add_hw_provider to transfer the error
-568dc2fae5d3697033f5e28cf4d6225b3db00461 ASoC: tlv320aic32x4: Add multi endpoint support
-97688a9c5b1fd2b826c682cdfa36d411a5c99828 ASoC: loongson: fix error release
-9a029545bb36825f65b1ba182739eaf2809db2c7 Add audio support for the MediaTek Genio 350-evk
-56f97d4da7f1bc2b0a647b9162bebe51e0573699 Fixes for the audio setup on the rk3588-nanopc-t6
-1324e5ff2eeb1219d26a1287950e0345f3e7ffb6 Add i2s/tdm support for acp7.0 and acp7.1 platforms
-77e6a5e40aa393492cf3f1d2623d7d1dff7f33de ASoC: mediatek: mt2701-cs42448: Optimize redundant code in mt2701_cs42448_machine_probe
-de849243404e8ce02320a7178d4448e4d0191377 ASoC: audio-graph-card: Use for_each_child_of_node_scoped() to simplify code
-815f1fcf2403454904cbbc5cf370df6bc300f392 ASoC: audio-graph-card2: Use helper function of_get_child_count()
-e328ab3de4d8147e2458a524db0f7661e7c28ac7 Some clean up with helper fucntion
-5e2404493f9f6028bf143972b18c88156c9893e6 ASoC: codecs: add MT6357 support
-5bbfdad8cf8d4b2c3189fee8e6300b38f65f8d72 ASoC: mediatek: Add MT8365 support
-03667e3d4fbcaf6228fd642464467366f0b693de ASoC: atmel: mchp-i2s-mcc: Improve maxburst calculation for better performance
-d39b510a145a4766906cd49177695913d6e6bfd2 Add audio support for the MediaTek Genio 350-evk
-54694840eff5e95d1b0ec0c916db2d889529c5d7 ASoC: topology-test: Convert comma to semicolon
-813751eaec93bfeb6236aaed99607a44c01b3110 ASoC: Intel: skl_hda_dsp_generic: convert comma to semicolon
-c4246f1fe9f24f8dcd97887ed67d8fcfd91f4796 ASoC: Intel: soc-acpi-intel-lnl-match: add missing empty item
-bf6d7a44a144aa9c476dee83c23faf3151181bab ASoC: Intel: soc-acpi-intel-mtl-match: add missing empty item
-1798acef8f50af59abaa0ff4775e7a79a68db671 ASoC: loongson: remove redundant variable assignments
-3c5a18a10a8c6fab27739e6e7bd0e4c0aa854d92 ASoC: amd: acp: Return in-case of error
-4849b2f78020cf0e3ba67777aadd07c620c91811 ASoC: makes rtd->initialized bit field
-241c044e743f9c55886828763c99b51b0392c21d ASoC: codecs: Use devm_clk_get_enabled() helpers
-af5e317175858603f950e51fe6377027fdd6eb79 ASoC: tas2781: fix to save the dsp bin file name into the correct array in case name_prefix is not NULL
-77b696f489d2fd83bbcffeed363baac8f2f6ed4b ASoC: tlv320aic31xx: Add support for loading filter coefficients
-6b31d6a4ca3b4d8abfb39127130889f9a9a38aa1 ASoC: mediatek: mt8365: include linux/bitfield.h
-876dec03fdfb7eeb592d01a95ba292c9e53b324b ASoC: mediatek: mt8365: remove unused mt8365_i2s_hd_str
-f2bd6f5b3777d800fb3cad17b9509e1e2128df62 ASoC: loongson: Use BIT() macro
-ce3997ab8b4ae2312b8cdddd7db9b15eb11004a3 ASoC: loongson: Simplify probe() with local dev variable
-3d2528d6c021cba141a7079ae1a5937190700899 ASoC: loongson: Simplify with dev_err_probe()
-e28ee1b8a92e6797fc652fa64e536178dd627e89 ASoC: loongson: Simplify if statment in loongson_card_hw_params()
-c7b626a8930d7029c096f0634ae6169af59d92b6 ASoC: loongson: Replace if with ternary operator
-ddb538a3004b10a04a14a0d275c5f52a8d161e80 ASoC: loongson: Factor out loongson_card_acpi_find_device() function
-4c22b04e116e114f18d9cef15f913e1649ccb7ed ASoC: loongson: Factor out loongson i2s enable clock functions
-d01c6a398750aae265c17859b57d7409a6d9181d ASoC: mt8365: Open code BIT() to avoid spurious warnings
-1b084d8e3b98ca460b815cff14617719ebe605ad ASoC: mt8365: Remove spurious unsigned long casts
-3e61df7d2ff67875c770a7f548038054d05a0f15 ASoC: mt8365: Remove unused prototype for mt8365_afe_clk_group_48k()
-63157d994025639075b3faa372976a96186322c1 ASoC: mt8365: Make non-exported functions static
-067d832806225cfaabeec8f5f683b7e2bc508a6d ASoC: mt8365: Remove unused variables
-d70ce6d3105a6bd02b1708c399105631643a550a ASoC: mt8365: Remove unused DMIC IIR coefficient configuration
-36fa259b214c37bbae3e0b7a47e7fb49cb0ab462 ASoC: mt8365: Allow build coverage
-130eb72d3cb38a629205a2a192800b4b1b9bc5c9 ASoC: codecs: fix the right check and simplify code
-b09c71f3e8413ac0a9749f9d0d06f6f0d0b2cc65 ASoC: atmel: mchp-i2s-mcc: Remove interface name from stream_name
-130af75b5c05eef4ecd8593371f3e924bcd41241 ASoC: Switch back to struct platform_driver::remove()
-43fbb2c702663d7af844ee952aec224a0e059e26 ASoC: loongson: Simplify code formatting
-16faf8cb4c1a82ffd799268197a42a214b1dcbbf ASoC: mt8365: Fix -Werror builds
-86a7f453e99c3c202ac1623557e4f57bd73fc88c ASoC: soc-ac97: Fix the incorrect description
-5e6f78cb5f53c52a11090657e917d2d7202aea23 ASoC: loongson: Add the correct judgement return
-851e3a2a4490b03bb8dd0cda1b8b2a78f6a92805 ASoC: qcom: sm8250: enable primary mi2s
-c6b9a92225d1365197effcb3afc56ddd62fc36aa MAINTAINERS: update Pierre Bossart's email and role
-afe671ac3e9309e55d556d066250bd37d9c47d1a ASoC: meson: Remove unused declartion in header file
-69f3014248f0f10e24f07a66ae650061ecaf732b ASoC: tlv320aic31xx: Fix typos
-bacae49eccb9a3acaf74fc275893abc26c0420b5 ASoC: amd: acp: remove MODULE_ALIAS for legacy machine driver
-0b0aa67baa8904e3c1e13be48a2ca125f59ead3d ASoC: amd: acp: remove MODULE_ALIAS for sof based generic machine driver
-38cc0334baabc5baf08a1db753de521e016c0432 ASoC: codecs: avoid possible garbage value in peb2466_reg_read()
-5c4e15e63216e7268bb2f1132ee8fad0ec46bbb7 ASoC: mediatek: mt8365: check validity before usage of i2s_data
-8f0280c84607afe122788e508a171ba163d71be6 ASoC: atmel: mchp-pdmc: Improve maxburst calculation for better performance
-e6b95bdc1e333e14e4fdf71fd4e8962429d9b6cd ASoC: atmel: mchp-pdmc: Add snd_soc_dai_driver name
-92556bd800fe4ce1c3fd18332b42a4eb85633951 Add support for primary mi2s on SM8250
-a2187d0dadfc308551bbb1b8d6caee69e2ad4744 ASoC: dt-bindings: renesas,rsnd: add post-init-providers property
-448aa89af07b83be84a58155c60001743342fca0 ASoC: dt-bindings: microchip,sama7g5-spdifrx: Add common DAI reference
-4f9a71435953f941969a4f017e2357db62d85a86 ASoC: meson: axg-card: fix 'use-after-free'
-32d5f79aafebb928eeb9325bb390d509f2d5c0a9 ASoC: Improvements for mchp-pdmc
-bd07676ddade417c7cfefb58fb87c27751395bb3 ASoC: Intel: board_helpers: support HDA link initialization
-b28b23dea31497548010c248398162ef4c25cfd2 ASoC: Intel: skl_hda_dsp_generic: use common module for DAI links
-2c80bcc27557b5db4aca8a0c621fc7d5cd10cf7e ASoC: Intel: ehl_rt5660: do not check common_hdmi_codec_drv
-f22a351fe2193dac803fc919096b734ff2947958 ASoC: Intel: sof_pcm512x: do not check common_hdmi_codec_drv
-dfa1a7f456f10018229d0d5b3c36dd36a9b5344f ASoC: SOF: Intel: hda: remove common_hdmi_codec_drv
-47d94c13d5f1f9f9c2bc29e26ebbd4efe912256c ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for ARL.
-322706e16988f6156ddd8fdcc6d06f87efc058f6 ASoC: Intel: ARL: Add entry for HDMI-In capture support to non-I2S codec boards.
-d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1 ASoc: mediatek: mt8365: Remove unneeded assignment
-f6e2e7397d00192bda11166d5fb3e2e67a8cf92e ASoC: mediatek: mt7986-afe-pcm: Remove redundant error message
-49b2597a9e53a2491cbec29451766af898eedb44 ASoC: Intel: boards: updates for 6.12 - part 2
-2ed1a4a5c0058dfd78f5037576d668a37d0ec609 ASoC: atmel: mchp-pdmc: Retain Non-Runtime Controls
-f5c05fd7e9d20a3a8f3401b467fec2d24f49ea5a ASoC: intel: sof_sdw: rename soundwire endpoint and dailink structures
-23f020bd607b7aec5f301699227ed196430fbc40 ASoC: intel: sof_sdw: rename soundwire parsing helper functions
-7860df5b29945cfab40dd667f576af31401d7c43 ASoC: sdw_util/intel: move soundwire endpoint and dai link structures
-13b24f84782d6c0373f62eb645353883d94d1dcd ASoC: sdw_utils/intel: move soundwire endpoint parsing helper functions
-6d8348ddc56ed43ba39d1e8adda13299201f32ed ASoC: amd: acp: refactor SoundWire machine driver code
-0b117e58409efce351f435618e2b6023804c0988 AMD SoundWire machine driver code refactor
-49e2e353fb0dbef8dced3e8e65365580349c4b14 ASoC: tas2781: Add Calibration Kcontrols for Chromebook
-2772ee6de6cf94e5f2a0c0ce6067d0796a4170ba ASoC: topology: Fix redundant logical jump
-134536c21275bb3410cd1f10c5e369d30702741d Merge tag 'asoc-fix-v6.11-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-5c2f6a211deebee131aedf4a8539390876480fde Merge branch 'for-linus'
-1a529af6f81e54f15df162a0c703459937941c54 Merge tag 'asoc-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
-5f9d43a7d6fcd36424366a1b55e01f7429c8499e Merge branch 'for-next'
+c387d9e5a40b530914f65696c04ffad74ffde545 usb: dwc3: Decouple USB 2.0 L1 & L2 events
+7fbbf84bc6ff9d60d98c0b625161834027ae1756 usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
+1214e3e47cf781d3051364aaf08ad7a0dbd4b99a usb: dwc3: core: update LC timer as per USB Spec V3.2
+9395352cd66fb929abacaf763e8acd22eeb829f1 usbnet: ipheth: fix carrier detection in modes 1 and 4
+94cd815e2524a2c7be6a71dd2bc7cdfeeb87eaa2 net: ethernet: use ip_hdrlen() instead of bit shift
+10dc17085a888b1ba55321a807fc6126ea5aaddf net: phy: vitesse: repair vsc73xx autonegotiation
+189ee9085a62d6dcf68482cae7f31c3a35705407 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+1b77b009bb06edc32c4734554cd736665ddc8078 btrfs: update target inode's ctime on unlink
+cb3d3cf525acb5793574326aa18183d8652a9862 Input: ads7846 - ratelimit the spi_sync error message
+2f629e3699628da071e2407da0363195c3b22c1e Input: synaptics - enable SMBus for HP Elitebook 840 G2
+4a278e0cd250c46ff9d939f2fcee5e5e81fdf89b scripts: kconfig: merge_config: config files: add a trailing newline
+0738c051844fbc8bf09c1b9c30464865facead37 drm/msm/adreno: Fix error return if missing firmware-name
+3e6afb2c1546448e41d72aa94aa54c1a8b912dac Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+9385861da59fa82554251d36c195961d0cea38fc NFS: Avoid unnecessary rescanning of the per-server delegation list
+2af48e0adf3f482bcc33a40a00e0d49e31d5571b arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+0264c48548a207acf0ec12f8d13c206d49fa18a7 minmax: reduce min/max macro expansion in atomisp driver
+dd5607cdd056cb4a7c3f6cc724f3daaa73307f42 hwmon: (pmbus) Introduce and use write_byte_data callback
+c570d5097234dd556e1b8be29490405c6a3f70b0 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+ca3429004916048437b37f6effb0e3a91426200a ice: fix accounting for filters shared by multiple VSIs
+1b05932e911c27df352eabb302468d4dd9d2f0a0 net/mlx5: Update the list of the PCI supported devices
+9894a92378f6e8ec4f95f1d1db533a44cb621e79 net/mlx5e: Add missing link modes to ptys2ethtool_map
+9d643af0c39b71ecc6ce4c76b2ef8a1c98f75098 fou: fix initialization of grc
+cecd7aff793f2c7e54259d6ffa52f77a50a0897c net: ftgmac100: Enable TX interrupt to avoid TX timeout
+bdaeb4501cf2312c35728e70f4a828f6ad8300d4 net: dpaa: Pad packets to ETH_ZLEN
+f4511475344e7bcd64f172a5c778ca8638bd978c spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+4da350a54f48066a4239f973462589648e5faff7 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+8f905ebae4ef7222ab0f21faecb5b8c3303c32a5 drm/amd/amdgpu: apply command submission parser for JPEG v1
 
---===============6313513152593563261==--
+--===============3835178450187042526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b1d3f428c731-c94beb34e4a4.txt
+
+fbfc849742dc4bc24ce68cb53a13edc1be178ab4 usbnet: ipheth: fix carrier detection in modes 1 and 4
+141fe3126257d13da74c6119a2edef686b38f885 net: ethernet: use ip_hdrlen() instead of bit shift
+9afc3658e76b6ff91e26ddff0f34c284ac2e0e5b net: phy: vitesse: repair vsc73xx autonegotiation
+da0cdfe24ed08b4335a8965b3ed5f363e9f0437d powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+0e579c0333e91afc9007bc9ed776e3b058895b2c btrfs: update target inode's ctime on unlink
+4236e8f04d777225b76b30f2ee3e38c2508efdd8 Input: ads7846 - ratelimit the spi_sync error message
+6046aa8e8541b835f76c9490ff8e7cd44dfe34b0 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+6cb3810d91e971a813b570e083c12bbb7d75562f HID: multitouch: Add support for GT7868Q
+ca91aec75c7adc1c2a8698aa889e621d7c2788c8 scripts: kconfig: merge_config: config files: add a trailing newline
+5cd3014462195aed6fde3fca532736c4c83eed4c platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+645f66a34a1f334803b1f890ac78ad30d16ea16e drm/msm/adreno: Fix error return if missing firmware-name
+3bdf60365663f5ca1f0fc7315ca24f4ca3f99d45 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+19850115401aa5c952c3f21e560c30c108414dcd NFSv4: Fix clearing of layout segments in layoutreturn
+c9498d3765a5d9832bb7a72065815877eed09a29 NFS: Avoid unnecessary rescanning of the per-server delegation list
+c0eb9b09fa6ce2c01d59bcb56eca3cdb31afc4ba platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+e3374d773f8dd7bbaa2662c5d773e7ec92203d41 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+b41a061bf7d61c1ae7003d02f49a4dfd7b3a041d mptcp: pm: Fix uaf in __timer_delete_sync
+12684ac85e5e1f74cd290fd07673083ab185c00d arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+5f206f17d8cd762b6598f47f8b63998fcb98b809 minmax: reduce min/max macro expansion in atomisp driver
+2bf565928ba752d2880033cc482825854b11d662 net: tighten bad gso csum offset check in virtio_net_hdr
+129dbf1d10ca08f853ea3e66bdbf0ca40d7c4204 mm: avoid leaving partial pfn mappings around in error case
+38265b859a4121a86609df7bd4f8e3ed3578b4e9 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
+6da236969cbf949592f5d319e8c12014635d5f41 arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+7b7e422b5c734a0e71b63d7c25a078b16f2f14b0 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+25955b4a7a355c24191d878d4d5edf4e25696df0 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+ce3a7c825e20ab55a52f114409428152e886076e hwmon: (pmbus) Introduce and use write_byte_data callback
+4359d1211207d727c5d9f3232f957d4bb965999f hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+7a9fb36067bf7b40d63a3f6125114b176643e698 ice: fix accounting for filters shared by multiple VSIs
+6b886d9804f5a3ee79aaa822037fcb4428c6ea41 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+a93ca1942a317f4db43c370f46ac5d623332ae5f net/mlx5e: Add missing link modes to ptys2ethtool_map
+7a5ce66e545fc01dd0eb465f7139a7fb073f34dc net/mlx5: Explicitly set scheduling element and TSAR type
+f150665f9cb2c487db50286f5b5c3e49caf4ba0c net/mlx5: Add support to create match definer
+947d269cd561e03db4780033954034e66ccb6a95 net/mlx5: Add IFC bits and enums for flow meter
+6cbb1b4643dc03786ef1632b571079c834ba1d1b net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+50ec5f6ab9a115158989e512c0ca96452597344f fou: fix initialization of grc
+0cb56e7cd7908e80cd41fa53cfb43d1ff37b19a3 octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
+3610f817bcd439c5b3d302a8732d3b91ab7f6c70 octeontx2-af: Modify SMQ flush sequence to drop packets
+b8e90adfd323155be7eb8ce535c2511a829d1423 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+f2f5b6790c967e7eb87f37d8b8f49ae84353ad99 netfilter: nft_socket: fix sk refcount leaks
+34d9aaa3bac2160669400bef6d571f4792aabfa1 net: dpaa: Pad packets to ETH_ZLEN
+8d15947448df9e1b5998e0ed8c6448f528e781c2 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+e25fa0abfc1aa36ec7999c103993ab580dda308e soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+cdf0aca09e508f931d527ace8335e81fe917dbdb dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+c94beb34e4a429e921946ab9b210a03c5d8131d3 drm/amd/amdgpu: apply command submission parser for JPEG v1
+
+--===============3835178450187042526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9f6535390c43-26e109f4fd29.txt
+
+c2d2854b4ac88dc353fc5e66ada03bd6d2c50f68 usbnet: ipheth: fix carrier detection in modes 1 and 4
+b9c49168da097bedf9ed9dc551c096c9906b7272 net: ethernet: use ip_hdrlen() instead of bit shift
+7576f74550c552caa36f2dd5cac8e0338dc53c93 net: phy: vitesse: repair vsc73xx autonegotiation
+22101f47f34f95e4d94f38ee743e133adbd823ad scripts: kconfig: merge_config: config files: add a trailing newline
+64bbd5ef0617b4c99f71aafcaecd330d106fc460 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+b18ac66850682f85e6b9515fdb7ffd3d070f6673 ice: fix accounting for filters shared by multiple VSIs
+498e41b11a32e351f0cf07911db190f650f4464b net/mlx5e: Add missing link modes to ptys2ethtool_map
+56c36d1b83ad13947d0026b4aea72ac56928698b net: ftgmac100: Enable TX interrupt to avoid TX timeout
+68354929f945fdffe6ae8022e8642078287f191f net: dpaa: Pad packets to ETH_ZLEN
+5bda71b66d039d49aca5c5c2d862bba0b66d1c32 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+26e109f4fd29322cb0372dbe31213aaa1576e8bf soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+
+--===============3835178450187042526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d7af2ce19692-18a145e8ad03.txt
+
+68a4f4474c11922f75d1148eaed00fe254a7711d ksmbd: override fsids for share path check
+bdfd01d745e9d069a44ef15c6f094154ca80c02d ksmbd: override fsids for smb2_query_info()
+2b84355defa8ab3260f05a73983035e0d7bdc2c9 usbnet: ipheth: fix carrier detection in modes 1 and 4
+a77d180afba91250d3586ac26a9e7dc8dfd96c20 net: ethernet: use ip_hdrlen() instead of bit shift
+92780d5409a9f6a5b6f989cdc39a6d6f4244218d drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+8f26c1959b860ef3712ea9c4d56ed9c1355d72d3 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+6754e38fa9dc7fc5887fdf38069f24f2bf87f2cc net: phy: vitesse: repair vsc73xx autonegotiation
+07f5fe7b2c3acba0ccf3bd9791f79111a7cfa859 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+f287562925e631edb1fc16c56e81c6bf5059965a btrfs: update target inode's ctime on unlink
+820e0fbc509e312656a12cd02b6a80a8fdba48fd Input: ads7846 - ratelimit the spi_sync error message
+7f7b5a02cf96b78cd342a78b690e831a1e6958f0 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+0826f4d44675dfb75e3bf2dbc5c144d568d3ffe6 HID: multitouch: Add support for GT7868Q
+e591f589a6e44262d4553e40c5567ed9822feeeb scripts: kconfig: merge_config: config files: add a trailing newline
+42de719810e42ca8d898c3964201126a1c7c58f2 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+53ccfd244bc947bf388b5f6890b9da5f91ef0df3 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+579e828309a54f20709310a77fbc0229f473d114 drm/msm/adreno: Fix error return if missing firmware-name
+e221ff0af47ec7f0b971ffe6fb9ec2a6735c2006 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+94786eff5c3437f534fadd42960d5358445543e2 smb/server: fix return value of smb2_open()
+1874e8f26fb1c411ef20074c83db87ee4d2feebe NFSv4: Fix clearing of layout segments in layoutreturn
+1cf2b6e2572fb61f756f87e883d30b24e23be20e NFS: Avoid unnecessary rescanning of the per-server delegation list
+6409df96b3efcaa904652ffda2a6f8fcd997e4bf platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+3863f5c32b58a77b4881090de906ce5db9bbdffa platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+ed8fbf53ac371f1c7b2e06e49367df32b3040a42 mptcp: pm: Fix uaf in __timer_delete_sync
+a06fd226eaf7f0fa759e914cb2470a129f2eba4b arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+0e832660a0ea52659f2e8f7ca2ec2068edbb98bd arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+1ffdb2d672e141849b7724cfe221ffcffc4a81d9 minmax: reduce min/max macro expansion in atomisp driver
+a8c3c86f03b217b83e092fda2147ed47ac0c35f5 net: tighten bad gso csum offset check in virtio_net_hdr
+21f9fbe87851f949733c63c6d876bf73f784a526 dm-integrity: fix a race condition when accessing recalc_sector
+18a145e8ad034d9304b2050c59eb0fdb96779ca4 mm: avoid leaving partial pfn mappings around in error case
+
+--===============3835178450187042526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e7df3ed0a6d9-bf4b63a3c7e2.txt
+
+fb4b39fda54b531df425cf2ea8935afc12e089b9 usb: typec: ucsi: Always set number of alternate modes
+f031683ae75634f0832f6ffc1743dd5c624e5064 usb: typec: ucsi: Fix cable registration
+9af12416bcd27d2983bdf77845a3d712a20bf889 drm/mediatek: Set sensible cursor width/height values to fix crash
+46411984264f173928a467f64572f66510b2e932 ksmbd: override fsids for share path check
+63cebe7811d4adfc4930caaa8b4eb441f754ab4b ksmbd: override fsids for smb2_query_info()
+994647483b56b903e9fe414943b0a596cfbca2f2 usbnet: ipheth: remove extraneous rx URB length check
+f0a362fd43c6f26daae5adecd9b00c5523e1e8bf usbnet: ipheth: drop RX URBs with no payload
+6327595b211acd5aba51b16efbf9c72fae4018fb usbnet: ipheth: do not stop RX on failing RX callback
+071c877e22f8b3d08f53012865a24c629764c1e7 usbnet: ipheth: fix carrier detection in modes 1 and 4
+840012157dd8b9a0aedb81e10b4efd7f35be7cb7 net: ethernet: use ip_hdrlen() instead of bit shift
+698caa4578a1d327e650ffb0d3b7649e5af25e5e drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+ff5843e3dc5b1dabe58c825afd50b5667620def4 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+66cf79268fef8c12448d000851c0e79f819efcfb net: phy: vitesse: repair vsc73xx autonegotiation
+b112d700601b6adb6fe4ba304b77bb6d72bed66f powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+c98d602f12214793e1854e52b7c3891c3b80ffaf wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+243fb1fa4e5a5c25b3a797dfa200eef6f69fab85 drm/amdgpu: Update kmd_fw_shared for VCN5
+ac1b4e9849959d2c09d6a98a3c6fecd01cc2ec6a net: hns3: use correct release function during uninitialization
+d62b25e85db4317218c8134ade2d670afc7049d4 btrfs: update target inode's ctime on unlink
+008ea0a111cf720358818aa8ea0d96779d93a68c Input: ads7846 - ratelimit the spi_sync error message
+0ee29525e0172521543b6cf7cff6fda5e8b59b52 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+2c1d5c9c4bcbe0be56e2b8a14caae0248ca861a1 hid-asus: add ROG Ally X prod ID to quirk list
+bcff9bf93a794ce4084db9d8451485a84da1e00f HID: multitouch: Add support for GT7868Q
+71b0b589893b1339b8ed1faa5aaf9ae881fe9fe0 Input: edt-ft5x06 - add support for FocalTech FT8201
+350221be680313db6d7972412c04905ec0984347 cgroup/cpuset: Eliminate unncessary sched domains rebuilds in hotplug
+6e799cc401b33e304c13951c1054b6a74aa9662c scripts: kconfig: merge_config: config files: add a trailing newline
+f92442226c7a2f0caa26358575757c938164ffdc platform/x86: asus-wmi: Add quirk for ROG Ally X
+0ec073b28a7c090b03e9307c381394215a2dac42 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+05d37225e76f5d1817f0d35c48ea5e343e282601 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+3ef3777d27cbe7c12b97d2776040f00fe992f257 platform/surface: aggregator_registry: Add support for Surface Laptop Studio 2
+a11cc8712ab96f0d0bf06b82ae411ba96021825a platform/surface: aggregator_registry: Add fan and thermal sensor support for Surface Laptop 5
+a9045fb39bd2ee4d1a9a3eb93685af542bb34c88 platform/surface: aggregator_registry: Add support for Surface Laptop 6
+21e2840d624f04068744654f0a32e2949fd64429 spi: zynqmp-gqspi: Scale timeout by data size
+cd3c4d6a9594ef95c2b25ab6b1a48892c04389a1 drm/msm/adreno: Fix error return if missing firmware-name
+dce49059875e1878b140846657d96ca8e1c6795c Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+b0648c98ef518f6858a4e6e1af9acb47fac69d2a drm/xe/xe2lpm: Extend Wa_16021639441
+f601291fd80e6363e20b0752b23ad12e65efe134 drm/xe: fix WA 14018094691
+66e85619a16387e2e061916e8a8c32f4c8ddc584 drm/xe: use devm instead of drmm for managed bo
+7d92bee0f8c18918519c44e0245bcbb166a62faa s390/mm: Prevent lowcore vs identity mapping overlap
+b104747eafe9f8aa939d44d0bdec2fd2e82ddc8b s390/mm: Pin identity mapping base to zero
+00b41a799122f5a6207485fd14e03ba05b215247 smb/server: fix return value of smb2_open()
+3d1958d8e4293c010241eaafcbba76dcd88a01b8 NFSv4: Fix clearing of layout segments in layoutreturn
+aa694b40f36a4c53e789de243472eafcb819eae5 NFS: Avoid unnecessary rescanning of the per-server delegation list
+2d2e13a490933177372f597bbf4ca510f8aedfda platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+38e8e2f2c7e981e3871b739ca706b8768844f351 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+1e05b218a07a85a9d7edbca77cf653a3e54169e5 mptcp: pm: Fix uaf in __timer_delete_sync
+c14f09c34e1837bbe4c3bd3c7ca4cf64ffe02402 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+f747743b52b87cb5a4b299f87c2ad00d6be664c9 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+c23e444d103cfa520fd4bf9ffbc8361ca04412a0 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+ad707d9dc1df5ee614e9a06f4497559fb087a815 minmax: reduce min/max macro expansion in atomisp driver
+ae00516f50a2e6fa846fff95377eb8482b55ebdc net: tighten bad gso csum offset check in virtio_net_hdr
+cf4307fdcaaa434dc6c160181a8839a8ae8713f1 net: libwx: fix number of Rx and Tx descriptors
+2262a2a8fafc285b569ef54cb2f7b8bd6bca6e1a dm-integrity: fix a race condition when accessing recalc_sector
+8e19ac6c658105a95cc47a62714809e715301f81 clocksource: hyper-v: Use lapic timer in a TDX VM without paravisor
+dee213bd0fd9b7d89ea40ddf4e0a421a92afaaa2 x86/hyperv: fix kexec crash due to VP assist page corruption
+dc24b4f8f58e0a4cd3184671f1752245454152e7 mm: avoid leaving partial pfn mappings around in error case
+6424ee103c6a72dda7661d3829370956fae797fa bcachefs: Fix bch2_extents_match() false positive
+594ac885b654db89a2ce8082a5bd086c2aec5ea8 bcachefs: Revert lockless buffered IO path
+64853e5a0f763845bc445e711d14601c32afc3e0 bcachefs: Don't delete open files in online fsck
+fbbc38eee0dd65493e71f266aab6476ec78585c4 arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+92f5dd092a0b78c33dd3b2f14fcf80d4cdd9bcfb firmware: qcom: uefisecapp: Fix deadlock in qcuefi_acquire()
+84110ae7e091298c5fd052ec07d8362f0b15ca02 riscv: dts: starfive: jh7110-common: Fix lower rate of CPUfreq by setting PLL0 rate to 1.5GHz
+906403e96e1c590eea21481ae0f1c77baac00600 drm/amd/display: Disable error correction if it's not supported
+60df5a03f31d170244ca99fb1ed4596d2e267225 drm/amd/display: Fix FEC_READY write on DP LT
+74793548b113de7cd12b243df99c7a4709b62418 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+db2e9a360d412c1ae53dcab69b35ca2267c085bd clk/sophgo: Using BUG() instead of unreachable() in mmux_get_parent_id()
+9dbc96b55288ee884f71914e0ae6ec8c017b1198 cxl/core: Fix incorrect vendor debug UUID define
+bba333ebe3925889094bc1d34d8a981e33311b94 cxl: Restore XOR'd position bits during address translation
+2b889a885b5d253f5ad754dcb346fa3525ab4d96 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+b0151f44335a37ffbf74be9a4cf0a7ec389d27c7 net: hsr: Send supervisory frames to HSR network with ProxyNodeTable data
+572810d791dd63d0f29fe35660682c370c3b10d5 net: hsr: remove seqnr_lock
+9af7be601a784bb54e420b8498358d3ec1d2c106 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+eb093e71bbe5464539e2ed9213fa2c97b6dd9cfa ice: Fix lldp packets dropping after changing the number of channels
+2bf2eee4f47278451dcbe38d06c11a56fae6992e ice: fix accounting for filters shared by multiple VSIs
+0fbf787e53567100dfd23f207641c2739166f125 ice: fix VSI lists confusion when adding VLANs
+be20832d2523675fba7df8732bc09f29c798c58f igb: Always call igb_xdp_ring_update_tail() under Tx lock
+98ceeb56f7b079eaf88793cd907711688855764a net/mlx5: Update the list of the PCI supported devices
+592a95cb2dc0e2dc9c061ca605e12e2f23bc4bbd net/mlx5e: Add missing link modes to ptys2ethtool_map
+a8aad2804489177f2b0f66048eb9dcd61b0dcaea net/mlx5e: Add missing link mode to ptys2ext_ethtool_map
+14c628ec64b9c04d27dd068c06382b2a1f17f1d4 net/mlx5: Explicitly set scheduling element and TSAR type
+ad5e6f66f43d5a00abcf7ee075c20db0c517c7ff net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+009b871c3caa96a89f7d75c5347d4773dad426df net/mlx5: Correct TASR typo into TSAR
+b83618cf40e3470f010c065ab9b7f5f2452775e1 net/mlx5: Verify support for scheduling element and TSAR type
+9fae4c116d69cd74e88d41d67c9e12ac47bbcd96 net/mlx5: Fix bridge mode operations when there are no VFs
+be22032cc18a1b9c125975c669d44722f7b026e9 fou: fix initialization of grc
+6d00bf0f8f6d064ea2515a8d219a30a848a1d2fa octeontx2-af: Modify SMQ flush sequence to drop packets
+60133221224272368d986c60f3f801bcd7ef8bb8 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+5238f5d1de3d3a55721e6cc1d9f71c7c95e8d554 net: phy: dp83822: Fix NULL pointer dereference on DP83825 devices
+f1843fffdbd0bc1a09c68532596f7a69544ec03a selftests: net: csum: Fix checksums for packets with non-zero padding
+ebf2d24cf419e009d4c8579868b91079cb0dfc8c drivers: perf: Fix smp_processor_id() use in preemptible code
+013afabb645fc1691e51d594269fb65b558e2c35 riscv: Disable preemption while handling PR_RISCV_CTX_SW_FENCEI_OFF
+19f0d8846956266b05b8c1e89fa466b0b477b2d1 netfilter: nft_socket: fix sk refcount leaks
+015fc1c83498377722b3731748607f3a8ad7abcb netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+74f8e876550a45480de50462cfe6405ca5225b03 net: hsr: prevent NULL pointer dereference in hsr_proxy_announce()
+343c1f7a89951e48265451d8c500e7c1ef3969e0 net: dsa: felix: ignore pending status of TAS module when it's disabled
+528886cdec1ecd1ddfa406609f61813b9536ba38 net: dpaa: Pad packets to ETH_ZLEN
+33556c2bb6834f31996824392af1979077cb4299 netlink: specs: mptcp: fix port endianness
+865334b04317e3269e4170584df0627075bd7154 tracing/osnoise: Fix build when timerlat is not enabled
+f52cc6a267b277096521bcfa9cd8867c174eac86 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+661df4a64cfa8fec95a7a4de6ffac5ff1a764b37 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+81ac6a9b21df6e1fc0e788f2908f10dcdc715dfb drm/syncobj: Fix syncobj leak in drm_syncobj_eventfd_ioctl
+3c6cef05b176dbf84e7b66985be5e6326fbbb957 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+5cd6455496f8ff02d5c3ddc418be14f081b30947 drm/nouveau/fb: restore init() for ramgp102
+3ef41d4cb8845e5f545445bb906480e82c7a9e0f drm/amdgpu/atomfirmware: Silence UBSAN warning
+2147b192df14a5c01fded26f9146dc5a4831dd10 drm/amd/display: Avoid race between dcn10_set_drr() and dc_state_destruct()
+0c3150420927a420d9866a988b901a0aef9f4857 drm/amd/display: Avoid race between dcn35_set_drr() and dc_state_destruct()
+cc377c09a7462338bd8699d36b6dd0026ad59380 drm/amd/amdgpu: apply command submission parser for JPEG v1
+63200be2a0aa308a5cafe8f8e3d6a38873c32ede drm/amd/amdgpu: apply command submission parser for JPEG v2+
+4a62af0e81845061ac5330c3215a3634bea22b8c drm/xe/client: fix deadlock in show_meminfo()
+6e949293645abd422c35b94b58952939ea30dd65 drm/xe/client: add missing bo locking in show_meminfo()
+bf4b63a3c7e28efb82941db62162610be117b836 tracing/kprobes: Fix build error when find_module() is not available
+
+--===============3835178450187042526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-27cf969be345-8df2e0fe2cd0.txt
+
+5ee09355674c11bd4827869591a3731a900129ca device property: Add cleanup.h based fwnode_handle_put() scope based cleanup.
+484e392366513e31354175626c83361b4b91bf28 device property: Introduce device_for_each_child_node_scoped()
+3f156d9c9c104774b2c54ff6cf16801ee498f9e1 iio: adc: ad7124: Switch from of specific to fwnode based property handling
+85c0530c5cc0c0994232fc451ef5c086d7823f69 iio: adc: ad7124: fix DT configuration parsing
+86945b5919272cada18539a970320d6f97d10e71 nvmem: core: add nvmem_dev_size() helper
+4cf012b75f254430f65c4a78a65d6bb0c1d4c829 nvmem: u-boot-env: use nvmem_add_one_cell() nvmem subsystem helper
+8fe6bdb2f9c55d525c589768b93e56aebe72b3e2 nvmem: u-boot-env: use nvmem device helpers
+7e34e56ac54f2236e80df9dbf38d787d06529ef5 nvmem: u-boot-env: improve coding style
+40c2db244b2cc81fbe0bf24fcdb39e5f9b4a308e nvmem: u-boot-env: error if NVMEM device is too small
+7dc5eb86f3994c105012f6a510accf9128aa93f0 ksmbd: override fsids for share path check
+a5e7e630cd25df82b5bb021e7afe3a534e39c579 ksmbd: override fsids for smb2_query_info()
+8f65b9158b4dd85cfe400b7eff0a0286cba82169 usbnet: ipheth: remove extraneous rx URB length check
+54a07b6cae72989ea12f222a12cec927b451dda0 usbnet: ipheth: drop RX URBs with no payload
+13e396aa47c19c381db4ac8c653e67f86031026b usbnet: ipheth: do not stop RX on failing RX callback
+7b7be730eed4d471c640de9b07a11d7d5f83157e usbnet: ipheth: fix carrier detection in modes 1 and 4
+7601863449f8ec8036ea789fd284ab82d3101dc0 net: ethernet: use ip_hdrlen() instead of bit shift
+1c61e6aabc6b0c3d96f978c61febeff1452045e8 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+38ebf1ddea0fe422cc03384e83a5405146c00db0 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+16d85bcf3578cfb08611c6cdde115005bae0bcc4 net: phy: vitesse: repair vsc73xx autonegotiation
+bd17680ba9f7dfe945a0ca7be6ec5d2d5b0f7a19 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+8d607fb4d9e7d6cd84987c205f628ffe958ae048 wifi: mt76: mt7921: fix NULL pointer access in mt7921_ipv6_addr_change
+db4bcddcecbd2fa638b524367bf89ee110e6c9f2 net: hns3: use correct release function during uninitialization
+8cbf9d0ebe0422b82a7b4ff019516c260d3941d5 btrfs: update target inode's ctime on unlink
+32fdf54fa847b834bc6cc955e7d8e3009d11de02 Input: ads7846 - ratelimit the spi_sync error message
+1bf68401374738900caa1e84758a31069885a21f Input: synaptics - enable SMBus for HP Elitebook 840 G2
+1e6c82b98365a7a558ce5fddef554d32f997c9d5 HID: multitouch: Add support for GT7868Q
+caeef14be5387c4bf8d4e8b98ec21b04fb566fb8 scripts: kconfig: merge_config: config files: add a trailing newline
+7f67c7c97cfe68853bec8c5d80e007c674893edc platform/surface: aggregator_registry: Add Support for Surface Pro 10
+cd8da9f29f259b0607e47ae220ff72dd77d69691 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+2af4bf17c81d1fe7ec35b97bab90c2767fc23f07 drm/msm/adreno: Fix error return if missing firmware-name
+815aeba6e2551b9bde40e6627cb7687192adbfc5 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+b1bfe3e0b45f2cbe476ed742dc80408dbdbc3e01 s390/mm: Prevent lowcore vs identity mapping overlap
+e97d06c2669d482aa9a36099ba7e67b12a205b63 smb/server: fix return value of smb2_open()
+6ad7f80b06070ed29e699199b440f7b705abf687 NFSv4: Fix clearing of layout segments in layoutreturn
+d8e709ece2517cc0ce30c5919ce034205352856d NFS: Avoid unnecessary rescanning of the per-server delegation list
+fb83118bb692e4fbaf43fbec23b6d7f2fbee610e platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+95441b775c63b8c484f9250a06bfa21ce84dcce7 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+702485db21d11cc68ef6a97b8576760bd108ba42 mptcp: pm: Fix uaf in __timer_delete_sync
+fbcec2774e70881ce53176a68e7a15064799ce35 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+55018c04784d97a9086688763ea228fdaf1bc3c3 arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+0d7e1ae651d9b64e1541da19f32200f54a5fc608 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+573811573ff6f8ecf3944d7b2a959d909558e484 minmax: reduce min/max macro expansion in atomisp driver
+d6c1546e0096139464ef863c58c5cb695384822e net: tighten bad gso csum offset check in virtio_net_hdr
+4cf99eaf6c345e4ec36905051f429531f22ddbcf dm-integrity: fix a race condition when accessing recalc_sector
+11417bb76aad651b56361a39e335af87921c50b0 x86/hyperv: fix kexec crash due to VP assist page corruption
+269c865eb7af06d80185ddd2f070d9f5b2f8aa38 mm: avoid leaving partial pfn mappings around in error case
+c7fee60db520525187b3e7705dd9babf1de90e9b net: xilinx: axienet: Fix race in axienet_stop
+136ea0eaa3058de6f8d366f189f3df0c0e4655d0 arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+0b7836a14a01bcd06182b2945dac1d51a70520a3 drm/amd/display: Disable error correction if it's not supported
+56373a280ee81a7ff36cd161b788b446c3d9e809 drm/amd/display: Fix FEC_READY write on DP LT
+f083256796f6f45cc33fcf2cc1007b3ea5fbd6bd eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+baed8ce5597eb72fb8ba1851fe669fb950a54953 cxl/core: Fix incorrect vendor debug UUID define
+6cebf3e59f858232e40d1aac2e660c127c001777 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+6adcdcb10f1b2a24f5d77ab145238dd96f1c9253 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+5e5cc70922f31f87b58665cfda511db90db9d06a ice: Fix lldp packets dropping after changing the number of channels
+55216e664771538a7378ef044237acdd08bafaaa ice: fix accounting for filters shared by multiple VSIs
+5fc0e38e7fae062d640ca8fcf9aa847ce2973d62 ice: fix VSI lists confusion when adding VLANs
+3e7623f2c294f34f4a95fb7eba67b372cd7d4277 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+b634560eb5d64c99aa988b7552f456b830e503b1 net/mlx5: Update the list of the PCI supported devices
+0455e3beb48afc6ed607d28c09f3ac1c01911e33 net/mlx5e: Add missing link modes to ptys2ethtool_map
+18c822514b95308ca9dae5e648e7165aad48958f IB/mlx5: Rename 400G_8X speed to comply to naming convention
+77c10e6d4e530496eb0b0a6faa4c7ffdd7922e31 net/mlx5e: Add missing link mode to ptys2ext_ethtool_map
+335dadd22cc62953b3cf76a9e2b2bda1c2c2feb4 net/mlx5: Explicitly set scheduling element and TSAR type
+f25a1d722e8e15b8c089aff1762497bce5d52e5a net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+c6a9acfde2effc3a3852995509cee52a7d5a1fee net/mlx5: Correct TASR typo into TSAR
+0ff336b4e70963866a55a9362562805aba765622 net/mlx5: Verify support for scheduling element and TSAR type
+59cb529a2b563236a0c87d9c60e016a78bb6d2ae net/mlx5: Fix bridge mode operations when there are no VFs
+c550672dcf55c3c183c00ccf411860f4743ccbd7 fou: fix initialization of grc
+47a820acb4f467bfac5782e64293e5809bf7be99 octeontx2-af: Modify SMQ flush sequence to drop packets
+85f0b1a582a1b3c7bccdd7bdff6ccc965bfcad20 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+ca79abbd9d8749ebdce37fa36225490696be33b9 selftests: net: csum: Fix checksums for packets with non-zero padding
+8c0eb252e227436560f36f7b18fc669004d4da7a netfilter: nft_socket: fix sk refcount leaks
+8c9e5e38ee0ba9320317ef3f47066ae399f838aa netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+aef4d49d49a89b139e0273b125d1354b16d9393c net: dsa: felix: ignore pending status of TAS module when it's disabled
+19e81dbe4018d3a0abf48530287e3377cea59712 net: dpaa: Pad packets to ETH_ZLEN
+b689f57c6a43b4fc872e08fb25f2b494597a8dc8 tracing/osnoise: Fix build when timerlat is not enabled
+8c2a31df16ca5465d52b6d2d9d94e3cf8b1c85fa spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+18918030c84d2e5924bfd73da71cab9d284f4859 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+f347f8a01f3e030dfd7efe304302dce4d9cbd362 drm/syncobj: Fix syncobj leak in drm_syncobj_eventfd_ioctl
+76cf00e082e53d833fc412bf9142f3200c7def07 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+aed973a4fa4b67d3c3d060bf9bccfada742794a2 drm/nouveau/fb: restore init() for ramgp102
+406a2a6c844b5c127e6599b9bf4a2345606b3365 drm/amdgpu/atomfirmware: Silence UBSAN warning
+8df2e0fe2cd01e7e8b840c87498d5d065c3350b5 drm/amd/amdgpu: apply command submission parser for JPEG v1
+
+--===============3835178450187042526==--
