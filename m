@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3234602855777295307=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 14 Sep 2024 14:37:40 -0000
-Message-Id: <172632466063.3477342.2034557314977376268@gitolite.kernel.org>
-
---===============3234602855777295307==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 14 Sep 2024 14:41:54 -0000
+Message-Id: <172632491491.3480977.13346078240081619557@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: edaa681143607b2bb8b27e4785ca1c95170c2168
-    new: a0818e31f3d8f413297ee428c457aa9fcaa13513
+    old: bf11a2073320995546e169f82438abfd4b6aeaa6
+    new: 54a82ff22c1e1027bcf1691c1cf05ba8240a3205
     log: |
-         a0818e31f3d8f413297ee428c457aa9fcaa13513 update cvelistV5
+         55f15a6cf4648d933fb7dec2094a6020910a64d0 Clean up resources in various tests
+         c5283ca77f43b837e87742aee5ecefc471b1167f Skip tests that are not able to be run with sanitizers
+         28bcc102dea53a4b9df014383fe2e8260bea7ab7 test/read-mshot-empty: set line-endings to unix
+         f4934cc8b5b2cbbe2cf918b0817c21af57296f48 src/setup: don't munmap user provided buffer
+         fa56f1885f3a4579b5a64ec3cbf1344362a660c9 Add support for sanitizing user provided pointers
+         39f11799687b749f64fc830a24db7f55b85e9905 Add tests for testing sanitizer functionality
+         07b9fb4df31fb7b945a80f13140f6ce01131bf5c CHANGELOG: add sanitizer adition
+         54a82ff22c1e1027bcf1691c1cf05ba8240a3205 Merge branch 'master' of https://github.com/Oipo/liburing
          
-
---===============3234602855777295307==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726324659 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1726324656-356a7abb2816635d9f0bb97e08e8bfc946604ee3
-
-edaa681143607b2bb8b27e4785ca1c95170c2168 a0818e31f3d8f413297ee428c457aa9fcaa13513 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbln7MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QLIQAK+KW7JQmCHYn9d2l+v9
-B6ENpExLC5DD3ZTJHaZLK1dm0lchjVoZJcgPC/K2FNTXFmt/0rJ8obND6jMKmt+t
-g//rdoynBtg9Q3yf6ekhnXcUP46GuadTBAmIZurYRi0UEa/+Slh+Wshtm76XZzmt
-YxiZSUu1rgOMCPxt6TmySTFofNCaNypNjRqw4TdoBx3HGVfXSG+bgACqSFju78Ad
-XsWeSHqKjyAxesv9vTv7qGqLbHFxFKP6bivgHGkptjG2/SCLn97JWVbLK5GQb9ps
-iFV6SWrhL72ka7+UTA4AvW8/P/7bn9VGg+Z+gNxbSoGFEI/hTjQgMGWKDBZenoK4
-vHPHBuJKVYN1fcxoZ+a+M2zf9C3qkMrIodZz2TsbyDVOatEY+ePWNNeSibyaCLhS
-Z91D6iVZNwz1GrPbmEcykGVIoW1cP9H5UWapkmNDRc3YUfoa4QwY8EBmLaN2PpqQ
-onYv4k6oJTRQWjwAsVx5T+RoBNaPrs8KJD7x8GvZTILEpThgVxYNoll46OEiJ+6w
-uPwTFqJ18rCHAK1o7mjPZz3WQ+WBvpkdcVvkU6mSTkHIfv6JofHU7J203+IsJhWI
-3aw128XNOfc/z+1mM4Ia0AInUnKCCv1YwEO0lak/WsSXReqXG11LoSYLiEJkq1rX
-qduIbpS1K0yiS3bjwJzkovf9
-=bvzD
------END PGP SIGNATURE-----
-
---===============3234602855777295307==--
