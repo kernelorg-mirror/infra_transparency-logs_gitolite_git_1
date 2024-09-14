@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 13 Sep 2024 23:56:56 -0000
-Message-Id: <172627181623.2751953.4573531105547245870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 14 Sep 2024 00:00:43 -0000
+Message-Id: <172627204323.2755500.4342315920979089451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 211bf9cf178a986f025b65cee11012d4e3d6b1f8
-    new: ca7a5bac4528f45efbc19401c926f4cbed291c95
+  - ref: refs/heads/dt-bindings
+    old: b40f9ec546f8d79991bcc823da234feaf0d9b30e
+    new: 3cd3b49989fef8556b018fb8038581195b253b8d
     log: |
-         87e9675a0dfd0bf4a36550e4a0e673038ec67aee bpf: Call the missed btf_record_free() when map creation fails
-         986deb297d48ae7039ab975f00c14f0bfe069125 bpf: Call the missed kfree() when there is no special field in btf
-         ca7a5bac4528f45efbc19401c926f4cbed291c95 Merge branch 'two-tiny-fixes-for-btf-record'
+         3cd3b49989fef8556b018fb8038581195b253b8d dt-bindings: PCI: qcom: Allow 'vddpe-3v3-supply' again
          
