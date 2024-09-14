@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7612055006065377819=="
+Content-Type: multipart/mixed; boundary="===============4107421734287575641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 14 Sep 2024 14:27:40 -0000
-Message-Id: <172632406003.3469484.16318423428694663745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Sat, 14 Sep 2024 14:27:53 -0000
+Message-Id: <172632407386.3469694.5463086563899628501@gitolite.kernel.org>
 
---===============7612055006065377819==
+--===============4107421734287575641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 57719771a244ffa0c2e41968ba3d454eb1f15ac8
     log: revlist-da3ea35007d0-57719771a244.txt
 
---===============7612055006065377819==
+--===============4107421734287575641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -172,4 +172,4 @@ b7718454f937f50f44f98c1222f5135eaef29132 Merge tag 'pci-v6.11-fixes-4' of git://
 d9bc226584fa1a9319f4f26882f046e94cfa032a Merge tag '6.11-rc7-SMB3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 57719771a244ffa0c2e41968ba3d454eb1f15ac8 Merge tag 'sound-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============7612055006065377819==--
+--===============4107421734287575641==--
