@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 14 Sep 2024 16:09:31 -0000
-Message-Id: <172633017138.3549689.14396268582629381066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 14 Sep 2024 16:11:53 -0000
+Message-Id: <172633031389.3552915.17470245901419439806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/review-hans
-    old: 8e8895c9dc81a7fdbeb15adb394139e79f5281b6
-    new: 305790dd91057a3f7497c9d128614a4f8486b62b
+  - ref: refs/heads/todo
+    old: 2315a36a448aefa0177e8bc4f2c677adac57a62c
+    new: aa6ef1e22036b480d4e62fdb4e8370d08f2c2b58
     log: |
-         c11619af35bae5884029bd14170c3e4b55ddf6f3 platform/x86: touchscreen_dmi: add nanote-next quirk
-         06369503d644068abd9e90918c6611274d94c126 platform/x86/amd: pmf: Add quirk for TUF Gaming A14
-         305790dd91057a3f7497c9d128614a4f8486b62b platform/mellanox: mlxbf-pmc: fix lockdep warning
+         aa6ef1e22036b480d4e62fdb4e8370d08f2c2b58 What's cooking (2024/09 #05)
          
