@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
-Date: Sat, 14 Sep 2024 15:37:01 -0000
-Message-Id: <172632822168.3524882.5672125361473129270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 14 Sep 2024 15:50:00 -0000
+Message-Id: <172632900025.3533753.11979467664676856099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/backports/backports
-user: hauke
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 40bdd073ba4c1f86fa2bba617c82d48699ab320d
-    new: 965f73fc894d42f7cfa9880bbd6bcc671d295f12
+  - ref: refs/heads/for-6.12/io_uring
+    old: 7cc2a6eadcd7a5aa36ac63e6659f5c6138c7f4d2
+    new: 636119af94f2fbf3e4458be66a1bc740ba69ce6d
     log: |
-         965f73fc894d42f7cfa9880bbd6bcc671d295f12 patches: Refresh on 6.1.109
+         636119af94f2fbf3e4458be66a1bc740ba69ce6d io_uring: rename "copy buffers" to "clone buffers"
          
-  - ref: refs/tags/v6.1.110-1
-    old: 0000000000000000000000000000000000000000
-    new: fd93a669f5fba18b2bb7fd5fadcb170ba30cb146
+  - ref: refs/heads/for-next
+    old: 83098c99f6c5009b6e43a34add9c7f33fc3d090c
+    new: 2db201e52ed080fac6cf405015ace1ad218ac472
+    log: |
+         636119af94f2fbf3e4458be66a1bc740ba69ce6d io_uring: rename "copy buffers" to "clone buffers"
+         2db201e52ed080fac6cf405015ace1ad218ac472 Merge branch 'for-6.12/io_uring' into for-next
+         
