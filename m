@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 14 Sep 2024 03:09:51 -0000
-Message-Id: <172628339118.2898413.10248037009613810933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 Sep 2024 03:14:46 -0000
+Message-Id: <172628368699.2902697.15550265324470098950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/bpf-next-6.12
-    old: 0000000000000000000000000000000000000000
-    new: 070c1236713ee6187dfcd2a0cc3c5b45b1b3e0b7
+  - ref: refs/heads/main
+    old: 9c699a8f3b273c62f7b364ff999e873501a1e834
+    new: 6503734916cc751bec825ff314d7cadaa587f2d0
+    log: |
+         6503734916cc751bec825ff314d7cadaa587f2d0 net: macb: Use predefined PCI vendor ID constant
+         
