@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sun, 15 Sep 2024 07:02:53 -0000
-Message-Id: <172638377384.23342.6996047554570930720@gitolite.kernel.org>
+Date: Sun, 15 Sep 2024 07:03:47 -0000
+Message-Id: <172638382782.23749.18002836454340191955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,10 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 572c00a6a120d4d73ba228ab55f7631828fef510
-    new: 3f88bf06b071dd65569ca5faa7e8e9bcb3b65d29
+    old: 3f88bf06b071dd65569ca5faa7e8e9bcb3b65d29
+    new: 82ecb6d11cbcd12d21545779101ecce462df04cf
     log: |
-         3f88bf06b071dd65569ca5faa7e8e9bcb3b65d29 drivers/perf: riscv: Remove redundant macro check
+         6868d12e0205765c1296c7c5e81e515ec015ab89 riscv: errata: sifive: Use SYM_*() assembly macros
+         7c9d980e46703029e9f149ecf26c6a263d8923b6 riscv: select ARCH_USE_SYM_ANNOTATIONS
+         82ecb6d11cbcd12d21545779101ecce462df04cf Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
          
