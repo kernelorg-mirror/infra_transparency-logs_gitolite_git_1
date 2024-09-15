@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 15 Sep 2024 15:37:37 -0000
-Message-Id: <172641465797.475303.2726834951844891766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 15 Sep 2024 15:38:24 -0000
+Message-Id: <172641470486.475735.15406019971597295536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/hmac-v1
-    old: a807ad67827317dae77799e2fd6ae42746c0afc2
-    new: 824924176250c3cb103e6a5761c984394c2aa2bc
+  - ref: refs/heads/main
+    old: 36f6b72cb8554575f571f14796939ed22ea3da3a
+    new: 7052622fccb1efb850c6b55de477f65d03525a30
     log: |
-         824924176250c3cb103e6a5761c984394c2aa2bc tpm: address tpm2_create_primary() failure
+         7052622fccb1efb850c6b55de477f65d03525a30 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
          
