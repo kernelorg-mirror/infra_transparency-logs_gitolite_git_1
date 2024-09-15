@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Sun, 15 Sep 2024 09:08:40 -0000
-Message-Id: <172639132049.118535.12502042645783744153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sun, 15 Sep 2024 09:26:18 -0000
+Message-Id: <172639237895.132858.8811646740604525692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/topic/fprobe-on-fgraph
-    old: 32ac6ac4433b3201e2051ce9d05aedace54a1dc6
-    new: 57602abd7b7ad38e8a133c1d23bb5b4969a2daa4
+  - ref: refs/heads/for-next
+    old: ef7d99f3168997845a52e8b275d6af259806277f
+    new: e9cd604bed0e02c43f89ed1cf35aded937f1f056
     log: |
-         57602abd7b7ad38e8a133c1d23bb5b4969a2daa4 bpf: Add get_entry_ip() for arm64
+         19804602df21ca6ceff516704b27bed0b4abf98b Merge patch series "Svvptc extension to remove preventive sfence.vma"
+         e9cd604bed0e02c43f89ed1cf35aded937f1f056 riscv: avoid Imbalance in RAS
          
