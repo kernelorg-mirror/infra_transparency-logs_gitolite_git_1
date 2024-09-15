@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 15 Sep 2024 23:26:07 -0000
-Message-Id: <172644276750.883320.11865690121947283711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 15 Sep 2024 23:26:23 -0000
+Message-Id: <172644278348.883537.17297254181984212186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/tags/regmap-v6.12
+  - ref: refs/tags/regulator-v6.12
     old: 0000000000000000000000000000000000000000
-    new: 569dd80262ede7ee779222004481172ccf6fc132
+    new: 2fd7e588a88bc93e2adbf98b1f899311807c82b0
