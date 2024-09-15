@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Sun, 15 Sep 2024 23:08:48 -0000
-Message-Id: <172644172897.868905.13455703348441174306@gitolite.kernel.org>
+Date: Sun, 15 Sep 2024 23:09:42 -0000
+Message-Id: <172644178261.869346.5579354133577068864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/heads/bcain/boot_qemu
+  - ref: refs/tags/bcain-boot-qemu-13-Sept-2024
     old: 22744ea49bad0f42b8e74173d663f7f32dfd3858
     new: 165448b2f907f5aa47a4e82b3665d0db47182a70
     log: |
