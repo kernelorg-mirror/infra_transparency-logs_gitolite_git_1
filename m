@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6535084623798273113=="
+Content-Type: multipart/mixed; boundary="===============8140147744265934715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 16 Sep 2024 07:48:10 -0000
-Message-Id: <172647289016.1274545.7998576204972613845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 16 Sep 2024 07:48:16 -0000
+Message-Id: <172647289626.1274701.3157061647460432338@gitolite.kernel.org>
 
---===============6535084623798273113==
+--===============8140147744265934715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 98f7e32f20d28ec452afb208f9cffc08448a2652
     log: revlist-da3ea35007d0-98f7e32f20d2.txt
 
---===============6535084623798273113==
+--===============8140147744265934715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -179,4 +179,4 @@ d9bc226584fa1a9319f4f26882f046e94cfa032a Merge tag '6.11-rc7-SMB3-client-fix' of
 d42f7708e27cc68d080ac9d3803d27e86821d775 Merge tag 'for-linus-6.11' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 98f7e32f20d28ec452afb208f9cffc08448a2652 Linux 6.11
 
---===============6535084623798273113==--
+--===============8140147744265934715==--
