@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6201530408227325717=="
+Content-Type: multipart/mixed; boundary="===============2224522192601577854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 16 Sep 2024 16:43:57 -0000
-Message-Id: <172650503709.1716369.12557400285713810678@gitolite.kernel.org>
+Date: Mon, 16 Sep 2024 16:44:00 -0000
+Message-Id: <172650504086.1716534.5463347580708453205@gitolite.kernel.org>
 
---===============6201530408227325717==
+--===============2224522192601577854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1f2e900ac26fed3b1d11dbcb9f25589644330112
     new: 9410645520e9b820069761f3450ef6661418e279
     log: revlist-1f2e900ac26f-9410645520e9.txt
 
---===============6201530408227325717==
+--===============2224522192601577854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ be461814aa4cb32aae061404b9a6a83ef3895018 net/mlx5: HWS, check the correct variab
 3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 9410645520e9b820069761f3450ef6661418e279 Merge tag 'net-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============6201530408227325717==--
+--===============2224522192601577854==--
