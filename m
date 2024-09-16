@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Sep 2024 08:52:56 -0000
-Message-Id: <172647677644.1335838.3494823605148799441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 16 Sep 2024 08:53:32 -0000
+Message-Id: <172647681297.1336219.1579887667215468549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 39c047d4047a1242aeefa87513174b56a91080ab
-    new: e766e6a92410ca269161de059fff0843b8ddd65f
+  - ref: refs/heads/hmac-v2
+    old: 424a664118a26d6a4294a136d19cd872f50b820c
+    new: e6198a262e7bd374c33044f32a1c0329d6c0cad3
     log: |
-         e766e6a92410ca269161de059fff0843b8ddd65f RDMA/cxgb4: Added NULL check for lookup_atid
+         e6198a262e7bd374c33044f32a1c0329d6c0cad3 tpm: Allocate chip->auth in tpm2_start_auth_session()
          
