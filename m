@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 16 Sep 2024 09:08:16 -0000
-Message-Id: <172647769636.1349748.8948624194579684391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 16 Sep 2024 09:13:54 -0000
+Message-Id: <172647803456.1354102.2618214779618916936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: c645d2e8ac553f07162de775a722f310b5d70c2b
-    new: de5bf97204646ed7b35da2968ce12b5923155af8
+  - ref: refs/heads/review-hans
+    old: 305790dd91057a3f7497c9d128614a4f8486b62b
+    new: dbeac7cd8d74bba43a28504725a53178c2d54204
     log: |
-         de5bf97204646ed7b35da2968ce12b5923155af8 test/wq-aff: test for SQPOLL affinity with deliberately large CPU
+         dbeac7cd8d74bba43a28504725a53178c2d54204 platform/x86: x86-android-tablets: Adjust Xiaomi Pad 2 bottom bezel touch buttons LED
          
