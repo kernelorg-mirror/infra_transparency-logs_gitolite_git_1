@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Mon, 16 Sep 2024 20:40:23 -0000
-Message-Id: <172651922327.1947215.11972864978588654974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 16 Sep 2024 20:59:09 -0000
+Message-Id: <172652034960.1959889.7465305972986933513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/kvm-arm64/pmu-part-wip
-    old: 0000000000000000000000000000000000000000
-    new: 6bc40436f391aaf03fefaf6ddb6aa5d7ddf11605
+  - ref: refs/heads/for-next
+    old: 1634de90f68e248ab7e4a40a1672ca9a8d3f007e
+    new: 0000000000000000000000000000000000000000
