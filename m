@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0779327113015600337=="
+Content-Type: multipart/mixed; boundary="===============5125828365671157574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 16 Sep 2024 08:26:42 -0000
-Message-Id: <172647520204.1312739.7908976698054571617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 16 Sep 2024 08:26:46 -0000
+Message-Id: <172647520625.1312989.6490243059687073113@gitolite.kernel.org>
 
---===============0779327113015600337==
+--===============5125828365671157574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
 
---===============0779327113015600337==
+--===============5125828365671157574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ d22300518d875f78203e9afacb5aa0b0316da523 Merge tag 'thermal-6.12-rc1' of git://g
 ee25861f26e7a2213b97ce21ee1ccd98331a75b1 Merge tag 'vfs-6.12.fallocate' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e8fc317dfca9021f0ea9ed77061d8df677e47a9f Merge tag 'vfs-6.12.procfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============0779327113015600337==--
+--===============5125828365671157574==--
