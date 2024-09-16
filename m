@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 16 Sep 2024 16:20:10 -0000
-Message-Id: <172650361019.1699441.13615027043039887202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 16 Sep 2024 16:42:24 -0000
+Message-Id: <172650494472.1715521.8372677856223443150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/sframe-2.1
-    old: 6068a108886b005ffb221f517f0c7a298c36302a
-    new: f2859a157d99fbded658ebb3e08e5c5e8d108de6
-    log: |
-         f2859a157d99fbded658ebb3e08e5c5e8d108de6 unwind: Add deferred interfaces
-         
+  - ref: refs/tags/hwmon-for-v6.12
+    old: 0000000000000000000000000000000000000000
+    new: 0ae085488a2e40e91277600841125f93721bcde1
