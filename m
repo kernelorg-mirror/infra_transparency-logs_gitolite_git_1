@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Sep 2024 08:04:58 -0000
-Message-Id: <172647389895.1289125.1313589743870116855@gitolite.kernel.org>
+Date: Mon, 16 Sep 2024 08:16:00 -0000
+Message-Id: <172647456034.1300880.8457326490820982559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/tags/irq-core-2024-09-16
+  - ref: refs/tags/sched-rt-2024-09-16
     old: 0000000000000000000000000000000000000000
-    new: 3eef408b2bd5a2886bb3c42ecdfe0819072d6ed7
+    new: a711e1b0fc7936a99f08f1adf203a2995509472d
