@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 16 Sep 2024 09:07:35 -0000
-Message-Id: <172647765578.1349238.11148906332230053365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 16 Sep 2024 09:08:16 -0000
+Message-Id: <172647769636.1349748.8948624194579684391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/hmac-v2
-    old: f0ab4666e06509b5e98b5921208c0031676644ef
-    new: f79acbe930427702b0a25b07a68fcfc8aa9c12e5
+  - ref: refs/heads/master
+    old: c645d2e8ac553f07162de775a722f310b5d70c2b
+    new: de5bf97204646ed7b35da2968ce12b5923155af8
     log: |
-         f79acbe930427702b0a25b07a68fcfc8aa9c12e5 tpm: Allocate chip->auth in tpm2_start_auth_session()
+         de5bf97204646ed7b35da2968ce12b5923155af8 test/wq-aff: test for SQPOLL affinity with deliberately large CPU
          
