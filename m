@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 16 Sep 2024 16:59:36 -0000
-Message-Id: <172650597671.1729432.7158684919924713906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 16 Sep 2024 17:02:03 -0000
+Message-Id: <172650612336.1732657.16931959884846459293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/sframe-2.1
-    old: f2859a157d99fbded658ebb3e08e5c5e8d108de6
-    new: 5b35eb7c617539f21cbe3764b0ee0c77567b0f22
+  - ref: refs/heads/master
+    old: a4f4ccaf5f1ef8e842fb4993472f8e89d67d69d8
+    new: f48ecf91ef0b4f029550deac00abe5dece2c78e1
     log: |
-         a0737313b793121a36e5830518ba23e53131d9fc unwind: Introduce sframe user space unwinding
-         e070a20867ae6aba2b1664a3bde4346f1ed682cd unwind/x86/64: Enable sframe
-         5b35eb7c617539f21cbe3764b0ee0c77567b0f22 unwind: Add deferred interfaces
+         f48ecf91ef0b4f029550deac00abe5dece2c78e1 foo
          
