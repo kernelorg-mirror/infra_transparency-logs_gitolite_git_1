@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7671359956084232361=="
+Content-Type: multipart/mixed; boundary="===============3390081941462392501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 Sep 2024 11:42:13 -0000
-Message-Id: <172648693330.1475813.18061759320679625466@gitolite.kernel.org>
+Date: Mon, 16 Sep 2024 11:42:15 -0000
+Message-Id: <172648693536.1475919.13975027235699857715@gitolite.kernel.org>
 
---===============7671359956084232361==
+--===============3390081941462392501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 953b6762e00bafd51e6552fd5a225be8cb92fe70
-    new: b2c8086b6fe1dbc087691c6c4a840e3b66b6a2fc
-    log: revlist-953b6762e00b-b2c8086b6fe1.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 1d7aa7f457e4846c084629967a72b87ffab2713d
+    new: fa13e3ef42354801f090734c184b76f5f8abc6ca
+    log: revlist-1d7aa7f457e4-fa13e3ef4235.txt
 
---===============7671359956084232361==
+--===============3390081941462392501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726486936 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726486938 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1726486932-1cffeda1a95fe5b76cea4da877e71af29fc075f1
+nonce 1726486933-d0d33e4ae6c1abf4219f119dcc51186c0680304f
 
-953b6762e00bafd51e6552fd5a225be8cb92fe70 b2c8086b6fe1dbc087691c6c4a840e3b66b6a2fc refs/heads/linux-4.19.y
+1d7aa7f457e4846c084629967a72b87ffab2713d fa13e3ef42354801f090734c184b76f5f8abc6ca refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmboGZgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+knoQAJWvL4IiEoCplhcLGZ1X
-+IvvQtMMmZkgry0j/+wmsWunEsDt0XZnIvVWzqYOnHf9XUYZ1nqxYwr6i2dtm591
-bkjk9jRMuh5E5QzqWBSTisfuj2GKY7WJ1yECMjAHW9f8GwzPZZHifwfOFj6Mj3yn
-/8ReMgyJML8otqRZahu04u7sHGOaf0DLOE+BPAdw5dEcDhygd6oghc1u/kH3vkpC
-N7DayUbgD89lLDR2BUMz96SAmqW91BVnHNv9YXpxOYGgbeUEYZHt/ouEKACp3+Hn
-A6EDgpROYXJU7Ovz0ii2n+ZSZC4JtIjd16vm1xnZwzXxjsrdYrQMgWq6AIAsQsCC
-66d7JbstSXO2H0ziwTGbzNqsnqM1Wh9VgKIG4CP3W2PQVSL/89nEKD4S7kJnXd7a
-Kuh9onXaGDB6kyIhDOhcgZ+yuJC9pOVtFNeuoNjgD1gpW4C0U7rDtKMnwmYEJmqR
-AR2hrnA//vnyme89Mj3h/R5NJn8UW3wvDE+Z3Oxx2kyPsCP1N3KVOMo7DN5ZJcwY
-YDsqhe3C96YAi5sLeBkBgtVVxHnOC4OVzBLG4O8tTPyLk4PyFOAPDwctfTAKvtlD
-LocMYlDTn8b6AyJ6qK60yeWVcytaYDqyBZVW4awVeh3Nsf8bT/YJdIVZzw02Ljwh
-X0tv4l0Rnycqc5IXzDvKzZAy
-=qVqs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmboGZobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FoEQALn2B0CU3bTtq72E4Vmt
+xrtqICPC8tOPQ7hlqooAGZkqcQit9z0bl1fjXMPl+wW5ASQ3DD/lZI1GLe3zVZxo
+PJaxmPJ/rGoL1r9sc7f5ZHTc7yjIIooeDQ/d8fj1q5g43CtI+rIx+RT3bk1jUCqH
+Z9p1T1SUOSM759Fm3BGdybkJ/At3PRhIOV390Pq4lvxvXlqcGmCvDzcuAkrHGyny
+I1XkHesj+hJB7JW/2J81JcGPctHhqnzfY3LFT5jrN2FOtQK7zbTIs4GubXJtr9Uk
+Q7tzl4X4ZloaII6z2W766nPNBYjCe1hjv9VDF/yQKUurMnLw9fsPbMQ2bknXKx6i
+tauaEG/uMi9hboOPFO6V791XUapqFxj2h+fEGhZONdoLZ07KTKWzI8j31hdutMa4
+V5KjFjvwhud6dFEEykRvtI6DuO76UedPOYav5L3uMMx1MUYwbIgyvBe1y30s5yZY
+HXaXrEMLiQ9QsP3J+EuV67eJHbIvEJnvRUiZpLkiUJaVvvwzyn0G+3VJkEtXuFWa
+9kSxmINPsJQ6YjJh4A4WNCWoQEXw7/ynaFeCARsr6Bu2nFuX6fh9CHzLmYMf5aaa
+XxssdsqtQRM0RNo6XS5+qr5ic57uzofqRMhTjuqdH2L/JhnXi+2ntHGdFDzRmgzJ
+tlpUoMgQw/gefDmqC8WXw+Ji
+=3inz
 -----END PGP SIGNATURE-----
 
---===============7671359956084232361==
+--===============3390081941462392501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-953b6762e00b-b2c8086b6fe1.txt
+Content-Disposition: attachment; filename=revlist-1d7aa7f457e4-fa13e3ef4235.txt
 
-470309bf6536bf14b565a6d2df47c748c4250a25 staging: iio: frequency: ad9833: Get frequency value statically
-a7b8c0690745ae79c6b820937440f35e42e7d002 staging: iio: frequency: ad9833: Load clock using clock framework
-3f3b210f78776ca73baee924c2a6916c9121c954 staging: iio: frequency: ad9834: Validate frequency parameter value
-31f38491bf05328b3785123eebc09dd4c9d09722 usbnet: ipheth: fix carrier detection in modes 1 and 4
-36a0b1f622ec7426b01c9784d646a3a8f32024f0 net: ethernet: use ip_hdrlen() instead of bit shift
-03aa6c1fcff8c6f2e40dab9a9b4f02192a174612 net: phy: vitesse: repair vsc73xx autonegotiation
-03f3a22c2eac7ff39fe20ab7f96c7bf8c04f9680 scripts: kconfig: merge_config: config files: add a trailing newline
-fefa079f2f68a67027f96ae2b613220c121639e9 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-1bbe64a9bc3cd34080240fb109f4ee67b8fa1ea7 net/mlx5: Update the list of the PCI supported devices
-ce6fa13c4878d99a3713df7395a69f9bd58d96dc net: ftgmac100: Enable TX interrupt to avoid TX timeout
-4649e79c647da26ccd8ed255ec9b30ee74aaa631 net: dpaa: Pad packets to ETH_ZLEN
-105ee56fb859d56950474d2de77fce60677b9c01 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-85b1c31361891c7168d1399cb66c7e5e09dbbada selftests/vm: remove call to ksft_set_plan()
-0b79121cb8667d8b3765c7631b51854c2854064a selftests/kcmp: remove call to ksft_set_plan()
-b2c8086b6fe1dbc087691c6c4a840e3b66b6a2fc Linux 4.19.323-rc1
+b88569997c7a309c603d80ba9c0a4214626ed691 usb: dwc3: Decouple USB 2.0 L1 & L2 events
+42e3fd4b5e9469574ff8688c334f5427a887ceaa usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
+a502f84e667f120b552c173af63c0f713026e507 usb: dwc3: core: update LC timer as per USB Spec V3.2
+546d62d70c3de85cbe41f1d1337f00e99587e483 usbnet: ipheth: fix carrier detection in modes 1 and 4
+a02b525e1df196d20edc9eb9dd303c88a82bf1ab net: ethernet: use ip_hdrlen() instead of bit shift
+657c9f29a52a6b24d5e1ad0ecacbf43029d47ba3 net: phy: vitesse: repair vsc73xx autonegotiation
+56022d41efe0c5590204ee5efb2b6540b4571655 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+dd649429909477751d7b49cc8994a8203649116f btrfs: update target inode's ctime on unlink
+cab7774f80b3ee8b6123f54341f6d1e83029d131 Input: ads7846 - ratelimit the spi_sync error message
+619bd8cdc8d477e476a1abd91dade0808b55b064 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+bc66ef308bab70d2e85a5c76d54182fb3c6b9724 scripts: kconfig: merge_config: config files: add a trailing newline
+6b67a620ab1d9f9f02847eafd0765bbb8c21c615 drm/msm/adreno: Fix error return if missing firmware-name
+bf0417a38f9efc1600c6fc20b8b76f4421da1121 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+f0d64692e0b091d8bde6ed1b77e0efaeea997f2e NFS: Avoid unnecessary rescanning of the per-server delegation list
+0f3f32f208652f38e49b04eaf5e3869ec5157b4c arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+26bf7a99664594c04074e59619c5aa574abbb481 minmax: reduce min/max macro expansion in atomisp driver
+55615e428df87e43fb23c0b5f39ab9aa351509d8 hwmon: (pmbus) Introduce and use write_byte_data callback
+37c7c37b0f3f6ca983aea0a7e78d8c3a640be986 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+9aca05fa748e6c580116cc36247833ad89a83d8e ice: fix accounting for filters shared by multiple VSIs
+d05a331668fd9bf18ab085a8a6840f69e728b631 net/mlx5: Update the list of the PCI supported devices
+a5f3c65cc71cc22e3e213d65e03796226f666647 net/mlx5e: Add missing link modes to ptys2ethtool_map
+57814c777782eea27310711648b506dd7fdafccb fou: fix initialization of grc
+782a1c84d3ea7e413b6a842239af331cf7071e21 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+8a09452827c65933a7dad26a02b9d2e3dfb34269 net: dpaa: Pad packets to ETH_ZLEN
+563373fc96659bcd63d0786be194538c5653773d spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+770db20cb71d10cd16ccb5dee25e90f49146daf8 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+0ab9ae09088abc891def235615352bfffbef079f ASoC: meson: axg-card: fix 'use-after-free'
+afe2857ee1d71c5324992485ede6a226c7d7f6dc dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+fa13e3ef42354801f090734c184b76f5f8abc6ca Linux 5.10.227-rc1
 
---===============7671359956084232361==--
+--===============3390081941462392501==--
