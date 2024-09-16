@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Sep 2024 17:29:34 -0000
-Message-Id: <172650777487.1753401.7404253548069560464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 16 Sep 2024 17:41:47 -0000
+Message-Id: <172650850769.1763701.11618176622465687153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: e766e6a92410ca269161de059fff0843b8ddd65f
-    new: 7acad3c442df6d5158c5b732a7a0ccf3a01d9b30
+  - ref: refs/heads/master
+    old: 41f943630d9a03c40e95057b2ac3d96470b9c71e
+    new: 8562d0e3874ef8801d1f69d3c024611da33f9220
     log: |
-         9f0eafe86ea0a589676209d0cff1a1ed49a037d3 RDMA/irdma: fix error message in irdma_modify_qp_roce()
-         7acad3c442df6d5158c5b732a7a0ccf3a01d9b30 RDMA/nldev: Add missing break in rdma_nl_notify_err_msg()
+         5d7d3ac25bd56684f4f8c7378b3ec2db0b0ce1ae obexd: Add PSM support to session create
+         4c05a0ff41c88f293ab0bd8b19c371865a2ea959 player: Add OBEX PSM port for cover art support
+         5cd301e888a1093322de9b6a207f3450e99df852 player: Add image handle support property
+         8562d0e3874ef8801d1f69d3c024611da33f9220 obexd: Add support for specific headers in obex transfer
          
