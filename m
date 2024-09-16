@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0025587550509503365=="
+Content-Type: multipart/mixed; boundary="===============8628051134658052011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 Sep 2024 07:25:49 -0000
-Message-Id: <172647154957.1255680.14980458544128171552@gitolite.kernel.org>
+Date: Mon, 16 Sep 2024 07:25:52 -0000
+Message-Id: <172647155253.1255787.17467336537452924881@gitolite.kernel.org>
 
---===============0025587550509503365==
+--===============8628051134658052011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,91 +16,110 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 3a5928702e7120f83f703fd566082bfb59f1a57e
-    new: c54c0a2fe250d5d5092b749786ddd825246f0e01
-    log: revlist-3a5928702e71-c54c0a2fe250.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 5f55cad62cc9d8d29dd3556e0243b14355725ffb
+    new: 86ba9b292b11ff3ba46ea2860caa9459d4b7db5e
+    log: revlist-5f55cad62cc9-86ba9b292b11.txt
 
---===============0025587550509503365==
+--===============8628051134658052011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726471549 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726471553 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1726471530-9b8347f63488d575381dc9f8edd4ca50137eca60
+nonce 1726471536-33e3972d22139d6b3c266b85c7e181ed0e8c6d39
 
-3a5928702e7120f83f703fd566082bfb59f1a57e c54c0a2fe250d5d5092b749786ddd825246f0e01 refs/heads/linux-5.15.y
+5f55cad62cc9d8d29dd3556e0243b14355725ffb 86ba9b292b11ff3ba46ea2860caa9459d4b7db5e refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbn3X0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+chMQANaW0HdoUGzD+3Vq25ZS
-kTmgQOKNY4yOX7peM/SG8zSdWgbu0oDPIz8JPZRUjtgrQdvnw7jn+vfwnhXtp+ve
-AmlGuRS+L9ri6sFbm1E1Gczq4xLlYQOn4hqFaRhBw3pu9SUGGvHAnCT+wd1UEzxM
-IWaVDGfG0yFVI9dspTTbENBk5PIeaLAfxnCJWE6knnqDo1F27uJHwFqpsOuj88nc
-GQsv/smOvRU8k4V4J80MG5NY3xs8QFAAaQTj/euOLRuWNTYvvSUXuUdoVm8DiZNP
-PlKgyjIueuwxmGbWGQYdnG/7m8glP20LG2lcSdbAiZeWtNj56IE9GT33E9POEnzS
-MKUGw1vzSOrecwJp3JC3dogDcedsaJZEYJ0dvG9RTTIm4ZOgIOWvKusF+bXRKZhV
-Ejr+dEwuPOeYvnjn98lrrKPFoFvC1iETRa5zir0/4G4B2zOhSeBCyKR1DGl8tVMZ
-fIwATt/+Xuc3joF7qi/j17RiPwg/1IcGfLblf79Ymn+sUnZRvGiogDowjc+qFgXa
-5dFlU+KhIiSXUQ4Mzbs0u5cDhgdzGGyr85noAFzgXbPufP4wU/S2/oMqtv1O/O7Q
-EakNJ9jZZVUpWfPgbsP+WkIo95s8p8WSgK8rNnIOyJahYvCQrY7KTuGMYeCwrdhV
-LuNPn/6v4RsoZOyEhAJBkt5L
-=DQgp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbn3YEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dJ0P/i/cQXKiKInhbufJ9fMe
+AhPuNL0AQvkYN94FSK761JAMkA3Xe6yVkclPf9ggX88UiAyua196r7TmFopQl1Mq
+6MGDRLQNRfwBP4bIu9xR1smk4qF5zS6wIin2jzoaNCocsqFezH0BHOTOwo15xmE8
+BZ/NFRPxb81WdZVutsa9FcfHQn1geZr5CmU6MlD6bnuVW9nyYbKJcZIHuTbO6EEO
+hBYFZX+6YCnCdjaGXPE4Tk6Z79moXmfgxIqaRRI7ZpV2654KxcVs+hNtaRPLmJUK
+KCnzreTSGEpVag/Z0yFVDWqDgz4d8DD8zCVDHxBb9KlXNNFZ4jocPmi0NowLDo5z
+IAneoQXF2vyc+1IIA9SGcCzIJRgu7AQfBapwOr7Zg/emdJFWIzaJu2kS83gMc0iT
+M0zy0lamAFQ5+FgVCgRQ1jv2QmeCnZ2R6F4MRc/sGEjo2e3euTEWBvBzavvVMb4H
++VpHvsEb1pf4hd+2nj9o27R3cJOKSdfJZcGAP+Z62d3QbdmCYFLchlOKBuh0gMdU
+XW9bwJ/rbBStmiks8oi+swVmS9SiuuYmU3GC9/TXoN9Uu+ZHuMBk88G9cQBMQRAa
+DgLfG3PR42Z7U2jkckQvzFvJBABZtrHjMTdI0VimY0MYA7z0RpF+j6i/M7PTtH6b
+3iTVIMC36oZPvIYbxn2sU1Zd
+=RNyL
 -----END PGP SIGNATURE-----
 
---===============0025587550509503365==
+--===============8628051134658052011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a5928702e71-c54c0a2fe250.txt
+Content-Disposition: attachment; filename=revlist-5f55cad62cc9-86ba9b292b11.txt
 
-0b7f2383802d89fdaf5c0963430a380bbfbb64c6 usbnet: ipheth: fix carrier detection in modes 1 and 4
-6ecd182bff73cbd273ba8ecc92a342401e29bcee net: ethernet: use ip_hdrlen() instead of bit shift
-41856104b0e40a089dc9f10d81dec70195e23780 net: phy: vitesse: repair vsc73xx autonegotiation
-f9134510fb75ec6b65863407b6495bc920949e19 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-2093b75437137ac0deae6e38a29b3703e9a97542 btrfs: update target inode's ctime on unlink
-70028ef8488fd5e7a086d615964c653f82720d11 Input: ads7846 - ratelimit the spi_sync error message
-dc201686ccb59c7dc8270f3a9c1384f40d694003 Input: synaptics - enable SMBus for HP Elitebook 840 G2
-08e55b509acafb0ae389c0e54688fb5fd9c133c8 HID: multitouch: Add support for GT7868Q
-f98c488f32be63d624162d2e1e34d420162383f1 scripts: kconfig: merge_config: config files: add a trailing newline
-4bd81784f5c65b8ba8c2d00ee4157e23fbc032dc platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-ace5a2d98137ceb0846c7ae0f95aa96ac4688564 drm/msm/adreno: Fix error return if missing firmware-name
-1bd0e7650f0ae404d663da0c0d3d1cff2cf637fd Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-4db17e95021ee46efd51a7bae16c7827d211a542 NFSv4: Fix clearing of layout segments in layoutreturn
-549133446efdbfe28aa0402db8af6e70ea591b00 NFS: Avoid unnecessary rescanning of the per-server delegation list
-7626d9db765031bdb6e519f56a4e178fb37c945f platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-5e2be026a53df1533a2adf9291192572d17f5941 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-cb8162bcee7c7c976d62ed1c5d7e4184da9363c6 mptcp: pm: Fix uaf in __timer_delete_sync
-f7162aa06c30e269ed0e02f015aacb736097c99c arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-73a07bdcedea134502ad9166baf1df5a6b1538e1 minmax: reduce min/max macro expansion in atomisp driver
-d095f18ebef2a0d6a7dc418479e96de47f933530 net: tighten bad gso csum offset check in virtio_net_hdr
-4c6c8add364a8e61c3e10737f2df9e84ef59d7c5 mm: avoid leaving partial pfn mappings around in error case
-6553a081c1e174d222eeaf52a7dbe7b75686c690 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
-df125d3ff9ee295bac2bc46b734055b93cf0ba3b arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
-a762b404789671b436a0049e8abb40720fc308df eeprom: digsy_mtc: Fix 93xx46 driver probe failure
-900020aa3a33dd5414d3e4cb4afcb6b5441aa4b6 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
-cb0aa51a52be9540452bec735a44905aaa542712 hwmon: (pmbus) Introduce and use write_byte_data callback
-46a40c607b7c37140571c8039c9ea19fc9b3eaff hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
-4be24c253e915950860469e23d1323fdce2b69d9 ice: fix accounting for filters shared by multiple VSIs
-578ab9ecb2d0fab75b8c69b548d3c342791b946b igb: Always call igb_xdp_ring_update_tail() under Tx lock
-1c6fa41adf75844dda7cb77d7a5b13451d71baa9 net/mlx5e: Add missing link modes to ptys2ethtool_map
-7b06b7650f89b7032abf902428b211e94bdff1dd net/mlx5: Explicitly set scheduling element and TSAR type
-a4ccfeb213ed82d6948fdafe6851f6819945c57d net/mlx5: Add support to create match definer
-64cea6382e8e7bc4ed32932b0d8402541d28b4f1 net/mlx5: Add IFC bits and enums for flow meter
-40f2ddf78e382e8cc5ffef16ce1c103d59e7fa5f net/mlx5: Add missing masks and QoS bit masks for scheduling elements
-a55038d188e299ddb95410d1d12c82054fe3c88a fou: fix initialization of grc
-d774d81438a49223e741ed4ff414d4761e18e97c octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
-e9db2d4e263f060132890ea785a01c26e7097890 octeontx2-af: Modify SMQ flush sequence to drop packets
-35015c6aa51da09ad405374d0dc8af5c535536ad net: ftgmac100: Enable TX interrupt to avoid TX timeout
-78a6a6eba905c84b537bd7da733128988f6dc539 netfilter: nft_socket: fix sk refcount leaks
-675cb4e394eb5845ed8bcfcbebe50efd61621f1c net: dpaa: Pad packets to ETH_ZLEN
-2e4a661c02f640c6dad3a537a76b04cb9e18b25e spi: nxp-fspi: fix the KASAN report out-of-bounds bug
-cd716c0a31609779aae140968d13401f4675b309 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-92f45568356c77cae9b797a3260a90c7c5774203 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
-053832e213a98116580c566d990f75209f28af40 ASoC: meson: axg-card: fix 'use-after-free'
-c54c0a2fe250d5d5092b749786ddd825246f0e01 Linux 5.15.168-rc1
+a688dd477d130f79cf79c12989cc1974b320164d ksmbd: override fsids for share path check
+28c0196bc708084516b548f61232de3eaa06fb50 ksmbd: override fsids for smb2_query_info()
+158eb8a293262efcc679906d8f07928070749e5c usbnet: ipheth: fix carrier detection in modes 1 and 4
+5c37651b6c5b98eaff7eeec76b7ce2a84b55cc7a net: ethernet: use ip_hdrlen() instead of bit shift
+8c9db889af83c604f19f162696857ddf52099cb5 drm: panel-orientation-quirks: Add quirk for Ayn Loki Zero
+0264c66cc3a47d7ac1f76653a726bacfda16f2b9 drm: panel-orientation-quirks: Add quirk for Ayn Loki Max
+9b0e4839437349037e7386b2ab111f7e7ba304d9 net: phy: vitesse: repair vsc73xx autonegotiation
+060a4ae497aed431d3ad2a9f96799948523c2153 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+a836f8fa05b61ac1daa9bfaf36234b5fe3ef8da0 btrfs: update target inode's ctime on unlink
+7a0be33fe96732f85d846346491b9b1e9f8dde98 Input: ads7846 - ratelimit the spi_sync error message
+7d181c4aa3d76923f2d5ef7c0a62575397266a45 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+5c177d6825c3c4b3b7470aca97e110ea692c1dd5 HID: multitouch: Add support for GT7868Q
+0c0576ce802c2be3b6ae2f3111137a6c0ceb65e2 scripts: kconfig: merge_config: config files: add a trailing newline
+95ee747989c5a3050577af0de9914a8106807f35 platform/surface: aggregator_registry: Add Support for Surface Pro 10
+9216e5eec44ba421fea3d24f51f8fc0edf3618ae platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+f00fe5d43fd8ac26b89cdfcdd0429f1ae1100a0d drm/msm/adreno: Fix error return if missing firmware-name
+f385532732de06b65870237e6cbfd5bd67402a2e Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+0fe824812653e38d93d8e4eea543e5d8fbfe5004 smb/server: fix return value of smb2_open()
+d575e2d700c0b2d018a34b0d9c6d50b32b162d3e NFSv4: Fix clearing of layout segments in layoutreturn
+9ebfcc403a31e21780b2a860344bb25f70dae910 NFS: Avoid unnecessary rescanning of the per-server delegation list
+4d90531fa61c4b330b55d2e3c0bc29c64e634be0 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+ee0e40bee6bab8b98293390b47a59af6f9fcebbc platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+944733d2d9fc4f81b862de050210c26826449ecb mptcp: pm: Fix uaf in __timer_delete_sync
+7b48b3e098a7b0f2acd653ef52ba51d513c508ab arm64: dts: rockchip: fix eMMC/SPI corruption when audio has been used on RK3399 Puma
+d2b95c82b681bfbc49f350d255d90c45c403a360 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+b276476559de12ffef76bbea86352a66708cacf2 minmax: reduce min/max macro expansion in atomisp driver
+239e98623722628371fa3565fda5a4b9154a688b net: tighten bad gso csum offset check in virtio_net_hdr
+16ea4bb7a55a9dcf014345a41a6d080cdafe8fbb dm-integrity: fix a race condition when accessing recalc_sector
+4793dd4a9d23be150206051ee2dbe90a4c091549 mm: avoid leaving partial pfn mappings around in error case
+6993971ae039a3222e704e348a1dfbba63506802 net: xilinx: axienet: Fix race in axienet_stop
+2014a2b7697c8e282576ca40800d838e97623cdd pmdomain: ti: Add a null pointer check to the omap_prm_domain_init
+e8b0087cb59e43860dbebcbf4e95664a32a40645 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
+cdf1e206084e53428c577102fa6adce1572aaacd arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+61f558cbacdb7d6364c719a97735b8e8a9257227 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+a479acaad9a898e866cae0362e3f835b3491bd90 cxl/core: Fix incorrect vendor debug UUID define
+e02f320ae6348a65a0ecd740723c64d6e5fb2a97 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+5c696fcb143bdbf1baee891d72d5e07fcc7c83cb hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+43b4ce080de6bcba48fd5ccb6714954975780491 ice: fix accounting for filters shared by multiple VSIs
+a40e042485d26f7b9d9f0334de07a7273aecaa66 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+09e9ca38f2a47e5df24ff9e9e12cd66aa92fd415 net/mlx5: Update the list of the PCI supported devices
+039572e1a1dd2b41823537adff66f31223e91cfd net/mlx5e: Add missing link modes to ptys2ethtool_map
+e18cab583da2db6c2dd45c9c775deb6e134dc90f net/mlx5: Explicitly set scheduling element and TSAR type
+b1287e8a81b8e8a052357083a1de522bf6e55be9 net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+c71b4e4aedfd71572b1ed229d60fda7a1ac8b54f net/mlx5: Correct TASR typo into TSAR
+a92e42020f6466b5917a4973da43ad580a0e7ff7 net/mlx5: Verify support for scheduling element and TSAR type
+83fb4ca67db6a7b846e29d821ae20afc9a45f15c net/mlx5: Fix bridge mode operations when there are no VFs
+e75713d3f2103435ad81dc6719161836b8e267b2 fou: fix initialization of grc
+199cb6bc9e0cb38f71ee5ca6370bbabcab891146 octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
+c3a56db2c766036c5e97d2fd6023e13384e514c9 octeontx2-af: Modify SMQ flush sequence to drop packets
+830d01fb5a004e628d800fcc4587ac3a5a1f3698 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+e2c14858fb0318e9141d226672a4ff4ed8abed8b netfilter: nft_socket: fix sk refcount leaks
+91e0726452acafd5feb11e8a3dc6c3829a9f7603 netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+87c0f6ec47d4639738b278d0d610cc04ada503cd net: dpaa: Pad packets to ETH_ZLEN
+d0577bacffb12ebd5f7e18b2d6fcfb861f7f5f5f spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+1572fe72a0512ebf236c5fbb08d9a90f41850eae soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+e105e28d5409fbef3fdf7e0d4de0237e40b804c6 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+2cd6d8761a8294ef307b217666345f3f521a982f drm/amdgpu/atomfirmware: Silence UBSAN warning
+e7501186180bc8453cf621a00d8210fddabb2301 spi: geni-qcom: Convert to platform remove callback returning void
+4130e58e69021fdef09df2b30aabbbe46fc72fcf spi: geni-qcom: Undo runtime PM changes at driver exit time
+99227e06556218764408b32b2b6b1f91c5847a7a spi: geni-qcom: Fix incorrect free_irq() sequence
+e006c814ebc639eb56a7cf5e18a5f4bea9cdc136 drm/i915/guc: prevent a possible int overflow in wq offsets
+7c8576703cfa741ba727e066e14d5bb5afc300cc pinctrl: meteorlake: Add Arrow Lake-H/U ACPI ID
+cd27bb693c5448dac7b541850d8edb6030793890 ASoC: meson: axg-card: fix 'use-after-free'
+86ba9b292b11ff3ba46ea2860caa9459d4b7db5e Linux 6.1.111-rc1
 
---===============0025587550509503365==--
+--===============8628051134658052011==--
