@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 17 Sep 2024 08:12:39 -0000
-Message-Id: <172656075902.2529041.81860511502382492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 17 Sep 2024 08:14:10 -0000
+Message-Id: <172656085012.2530108.1764892259033948445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 1a203f64972e7ebd9a8015d6c02b933c5ff5d899
-    new: eb44a7e29a0fad0b0cf970a75e2824bfa9f2c7b1
+    old: 3520d0f8a1baeea603603ef7428556b54eb925a9
+    new: 89dd7e0638952319ad9de1d7c26ea8d7212a9c9e
     log: |
-         eb44a7e29a0fad0b0cf970a75e2824bfa9f2c7b1 foo
+         45ed9ee0519028507e2ae77ed350b11327fede20 scripts/ensure_gpg_password: Ensure .gnupg/sshcontrol file existence
+         89dd7e0638952319ad9de1d7c26ea8d7212a9c9e scripts/ensure_gpg_password: Ensure .gnupg/gpg_agent.conf file content
          
