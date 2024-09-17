@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 17 Sep 2024 14:52:28 -0000
-Message-Id: <172658474888.2845362.1476096622764567949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Tue, 17 Sep 2024 14:57:22 -0000
+Message-Id: <172658504243.2849634.869502140456527725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: 40ea58d302ad436dc5f97b71022b32ed2dcd161e
-    new: c589902e95d40b3ed4c50960a4e860b848702491
+  - ref: refs/heads/i3c/next
+    old: 061dd21ca712cd7103c26ed77bb4a04d98930981
+    new: 61850725779709369c7e907ae8c7c75dc7cec4f3
     log: |
-         f5446a662d7809801cc7967d23bcd91733512573 scripts: move hash function from scripts/kconfig/ to scripts/include/
-         01407111d02a52acc595e722d14c4f645adc17ff kconfig: change some expr_*() functions to bool
-         66268a8faed4a7abbf2e41d4d35fe1abfe68a89a kconfig: add comments to expression transformations
-         793c1c013be89ed313bf74c736f4261b468f3b8b kconfig: refactor expr_eliminate_dups()
-         001bd6f2b55d46330491c81b05985f907757bb25 kconfig: use hash table to reuse expressions
-         ab5cc974fdad05fdd356d64ce67a421a6151fd7d kconfig: cache expression values
-         c589902e95d40b3ed4c50960a4e860b848702491 kbuild: remove append operation on cmd_ld_ko_o
+         aef79e189ba2b32f78bd35daf2c0b41f3868a321 i3c: master: support to adjust first broadcast address speed
+         20ade67bb1645f5ce8f37fa79ddfebbc5b5b24ef i3c: master: svc: use slow speed for first broadcast address
+         96267f358c14e88e07f1d96ed6f1827da59e9ecc i3c: master: svc: adjust SDR according to i3c spec
+         609366e7a06d035990df78f1562291c3bf0d4a12 i3c: master: cdns: Fix use after free vulnerability in cdns_i3c_master Driver Due to Race Condition
+         61850725779709369c7e907ae8c7c75dc7cec4f3 i3c: master: svc: Fix use after free vulnerability in svc_i3c_master Driver Due to Race Condition
          
