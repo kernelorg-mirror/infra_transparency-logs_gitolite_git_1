@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sfr/next-fixes
-Date: Tue, 17 Sep 2024 20:37:06 -0000
-Message-Id: <172660542688.3111591.14924611369951769115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Tue, 17 Sep 2024 21:58:59 -0000
+Message-Id: <172661033938.3171725.6137284830110863266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sfr/next-fixes
-user: sfr
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/fixes
-    old: 4a614c4d8e81602b3a95f097a3e0f5cb9f8a1d1c
-    new: 8276a39ecaa639daf904414cb7a65101a4af0881
+  - ref: refs/heads/next
+    old: 55908bdcf2b060230adb493cc5aa638cf3a55104
+    new: 527aa0ca1c0c42e78b04ff2fba245742dbe89b3c
     log: |
-         8276a39ecaa639daf904414cb7a65101a4af0881 mm: fix PHYSMEM_END build error on m68k
+         527aa0ca1c0c42e78b04ff2fba245742dbe89b3c tools/power turbostat: Don't hide CPU column for num_cpus = 1
+         
+  - ref: refs/heads/turbostat
+    old: 55908bdcf2b060230adb493cc5aa638cf3a55104
+    new: 527aa0ca1c0c42e78b04ff2fba245742dbe89b3c
+    log: |
+         527aa0ca1c0c42e78b04ff2fba245742dbe89b3c tools/power turbostat: Don't hide CPU column for num_cpus = 1
          
