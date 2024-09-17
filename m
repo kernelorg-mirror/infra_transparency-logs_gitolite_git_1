@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 17 Sep 2024 15:14:22 -0000
-Message-Id: <172658606269.2864055.9137590989237380542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 17 Sep 2024 15:16:29 -0000
+Message-Id: <172658618931.2866986.11601557060215992699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/pwm/for-nexxt
-    old: d242feaf81d63b25d8c1fb1a68738dc33966a376
-    new: 59149ece966c67febc66e06dd74bc8630eb6d6ba
+  - ref: refs/heads/hmac-v3
+    old: 6a4a84158468eaf8c6c92020501769fecf4cd8ce
+    new: f3b081f48aa7e8107818531a01e3ba3217a1b0fa
     log: |
-         59149ece966c67febc66e06dd74bc8630eb6d6ba pwm: atmel-tcb: Use min() macro
+         f3b081f48aa7e8107818531a01e3ba3217a1b0fa tpm: open code tpm2_create_null_primary()
          
