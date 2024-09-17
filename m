@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 17 Sep 2024 10:42:21 -0000
-Message-Id: <172656974178.2647075.3326846464759180132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 17 Sep 2024 11:21:13 -0000
+Message-Id: <172657207386.2676401.8654755269931946701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: df40a23cc34c200cfde559eda7ca540f3ae7bd9e
-    new: 837acb691c844d0525f4ac86f2a2ce55a9706908
+  - ref: refs/heads/master
+    old: 311842735f29d80efe44e829559e1e5aedfeffd9
+    new: 20d0c0cd847665e543a0c7e7bd65b210e0a90d61
     log: |
-         837acb691c844d0525f4ac86f2a2ce55a9706908 MAINTAINERS: adjust file entry in INTEL MID PLATFORM
+         20d0c0cd847665e543a0c7e7bd65b210e0a90d61 ci: use upload action v4
          
