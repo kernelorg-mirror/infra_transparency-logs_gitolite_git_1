@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4729320336811736570=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 17 Sep 2024 12:21:55 -0000
-Message-Id: <172657571549.2722275.12936318633583882232@gitolite.kernel.org>
-
---===============4729320336811736570==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Tue, 17 Sep 2024 12:29:46 -0000
+Message-Id: <172657618639.2727411.1019461624339304975@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: E
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/tags/v6.11
-    old: 0000000000000000000000000000000000000000
-    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
-
---===============4729320336811736570==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 63BE2D79AEFD13493684F92205D280035FCB1E21 1726575717 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1726575712-4c696b74fd01fcd7229a6277d89df377a57c9e85
-
-0000000000000000000000000000000000000000 fa7818b3a6dd56c7956f515d287ed9f80c7bf59a refs/tags/v6.11
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRjvi15rv0TSTaE+SIF0oADX8seIQUCZul0ZQAKCRAF0oADX8se
-Ic0PAPsFWsEDOcpQSPINZsf3oEfNs4Sl81V2TDQrYEK972ccfwEAlbJfFkJTJmU3
-2O9R7JkTqtRCZSQgB5rC5V3V0pmXpA4=
-=CxpH
------END PGP SIGNATURE-----
-
---===============4729320336811736570==--
+  - ref: refs/heads/for-next
+    old: fde42a497dba52bcf1faaf0f6ae50707a3d06b29
+    new: 19dde7fac0f38af2990e367ef4dd8ec512920c12
+    log: |
+         71d2969be616e79bcfaa2d27414337afde40cdfc libxfs: dirty buffers should be marked uptodate too
+         2f0fedf94c54937662df6a95b7765f8745f39e2c xfs_db: release ip resource before returning from get_next_unlinked()
+         871d186c79f589b259b7dd38978c8c3c1cc8df54 man: Update unit for fsx_extsize and fsx_cowextsize
+         aa926341398f03125af4cac094b18c64cb969319 xfs_io: Fix fscrypt macros ordering
+         baf5cde86f22e210fe560ccd5f862a27a0fbc1eb libxfs: provide a memfd_create() wrapper if not present in libc
+         19dde7fac0f38af2990e367ef4dd8ec512920c12 fsck.xfs: fix fsck.xfs run by different shells when fsck.mode=force is set
+         
