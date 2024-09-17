@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 16 Sep 2024 23:51:21 -0000
-Message-Id: <172653068187.2092327.2663156223202633535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Tue, 17 Sep 2024 00:16:46 -0000
+Message-Id: <172653220698.2111037.156657886087934092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/tags/linux_kselftest-next-6.12-rc1
+  - ref: refs/tags/v1.7.1
     old: 0000000000000000000000000000000000000000
-    new: ccc749a716f5ecf81451503a6b35500adc7cd861
+    new: 23603fb9db4876fd2373ed1aea478f578732d0d3
