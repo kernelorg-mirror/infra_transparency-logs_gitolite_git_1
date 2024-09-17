@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 17 Sep 2024 18:25:46 -0000
-Message-Id: <172659754607.3015511.1764881124703227896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 17 Sep 2024 19:03:26 -0000
+Message-Id: <172659980634.3042475.2188837454773039788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 5569017b4bc3adaad2202073baae2466033917b5
-    new: 40c836308b423a905563417d0203cc369775adc2
+  - ref: refs/heads/for-next
+    old: 9320f0edf917235906f9991023b449e58bea461a
+    new: 21d98d658f9e5967dc30c321bc258b50740c6665
     log: |
-         ff0bc26d3220f9b7782e17ca7a93388a08f6b1dd test: Drop including error.h header
-         40cd129ec72ce661ffe8819e034fbc639a202290 ooo-file-unreg.c: Include poll.h instead of sys/poll.h
-         40c836308b423a905563417d0203cc369775adc2 Merge branch 'kraj/musl' of https://github.com/kraj/liburing
+         21d98d658f9e5967dc30c321bc258b50740c6665 ACPI: RISCV: Make acpi_numa_get_nid() to be static
          
