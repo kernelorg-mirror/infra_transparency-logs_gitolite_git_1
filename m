@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2074183115469514716=="
+Content-Type: multipart/mixed; boundary="===============6407936768518337361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 17 Sep 2024 15:56:50 -0000
-Message-Id: <172658861015.2900991.2642440068361496636@gitolite.kernel.org>
+Date: Tue, 17 Sep 2024 15:58:21 -0000
+Message-Id: <172658870127.2902055.1493770287691764837@gitolite.kernel.org>
 
---===============2074183115469514716==
+--===============6407936768518337361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: cbc2418c0e5a89a2a0f1e3645eb106c46d75fa41
+  - ref: refs/heads/next
+    old: ad9a5bcb00cdcabcd94bbd30b6fed55b28670bf9
     new: e1567fe754813ecd77d2f38fd843ddf95d151b52
-    log: revlist-cbc2418c0e5a-e1567fe75481.txt
+    log: revlist-ad9a5bcb00cd-e1567fe75481.txt
 
---===============2074183115469514716==
+--===============6407936768518337361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbc2418c0e5a-e1567fe75481.txt
+Content-Disposition: attachment; filename=revlist-ad9a5bcb00cd-e1567fe75481.txt
 
 7ab50d5e884077b4c01931d16124a5f2cc86f1db Merge branch 'make-use-of-the-helper-macro-list_head'
 54001d0f2fdbc7852136a00f3e6fc395a9547ae5 net: tls: wait for async completion on last message
@@ -1051,4 +1051,4 @@ f168c000d27f8134160d4a52dfc474a948a3d7e9 tpm: export tpm2_sessions_init() to fix
 b0c9a7dcc17835282b47042442cf94c6989194dc KEYS: Remove unused declarations
 e1567fe754813ecd77d2f38fd843ddf95d151b52 KEYS: prevent NULL pointer dereference in find_asymmetric_key()
 
---===============2074183115469514716==--
+--===============6407936768518337361==--
