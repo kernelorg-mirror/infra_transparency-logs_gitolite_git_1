@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 17 Sep 2024 08:14:10 -0000
-Message-Id: <172656085012.2530108.1764892259033948445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 17 Sep 2024 08:16:45 -0000
+Message-Id: <172656100561.2533309.5393881060433999845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 3520d0f8a1baeea603603ef7428556b54eb925a9
-    new: 89dd7e0638952319ad9de1d7c26ea8d7212a9c9e
-    log: |
-         45ed9ee0519028507e2ae77ed350b11327fede20 scripts/ensure_gpg_password: Ensure .gnupg/sshcontrol file existence
-         89dd7e0638952319ad9de1d7c26ea8d7212a9c9e scripts/ensure_gpg_password: Ensure .gnupg/gpg_agent.conf file content
-         
+  - ref: refs/tags/x86-fpu-2024-09-17
+    old: 0000000000000000000000000000000000000000
+    new: f90ddf41b5f7e693d69b78e6507b7d5ca15b3674
