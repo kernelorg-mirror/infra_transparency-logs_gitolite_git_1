@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 17 Sep 2024 02:38:04 -0000
-Message-Id: <172654068493.2223485.16370717794509125874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 17 Sep 2024 02:58:43 -0000
+Message-Id: <172654192359.2238466.16446948883895988505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/nfsd-next
-    old: bc20581cfdd70b15d247dc4820679b6583b06d95
-    new: ae9194e1d7a5be65e3312145bf139b47af2b6ead
+  - ref: refs/heads/master
+    old: 11ccabdb5acad9bdc95086db5b9ee5ea4f56e25c
+    new: 71ff7ffbe9c12205118d7f146dc5853ba44a3ef3
     log: |
-         d0eab73d48a015877f4063902fddd177a50bce3a nfsd: add support for delegated timestamps
-         50369a42b0c70cd7652789a75d6a85d4f50bf729 nfsd: handle delegated timestamps in SETATTR
-         e9f59d396fe0f39633233e5b6092f726391b6ea5 nfsd: fix delegation_blocked() to block correctly for at least 30 seconds
-         9c9e5bd6b72903748e14e6c3ea6262ae66102106 xdrgen: Fix return code checking in built-in XDR decoders
-         ede0655a94b1da9d7c71127c699e0b2b179bfc6e xdrgen: typedefs should use the built-in string and opaque functions
-         ae9194e1d7a5be65e3312145bf139b47af2b6ead xdrgen: Prevent reordering of encoder and decoder functions
+         dd69141e1a6910c6e8607c1a4788e68e9b35d7f1 CONTRIBUTING.md: s/tag/trailer/
+         49a4606777c8157d564f17c84ace0ac02f52e6e4 CONTRIBUTING.md: tweaks the section names a bit
+         bd97fe06f76890e2ee22ae4ce6a8d529be1aecc1 CONTRIBUTING.md: small grammar/typo/style fixes
+         06093cd856781bfbcde84ce2c23aaa67eed13156 CONTRIBUTING.md: mention the "Link:" tag
+         019c1bc27dac07252ca0d5aae7c8507991f38119 CONTRIBUTING.md: mention s-o-b tag, includ DCO copy
+         e1a8992b547b64950fbb55dedb37042b16585f70 CONTRIBUTING.md: add inline TOC
+         71ff7ffbe9c12205118d7f146dc5853ba44a3ef3 CONTRIBUTING.md: mention license and SPDX
          
