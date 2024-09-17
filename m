@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 17 Sep 2024 09:15:50 -0000
-Message-Id: <172656455072.2582268.9045344591506341852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 17 Sep 2024 09:24:08 -0000
+Message-Id: <172656504819.2587425.7053545891182545861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/v6.12-next/soc
-    old: 47c6fa2eb5687a2288d0558f71738df5fb6eb25b
-    new: ebb7758a4148a951ae5d53dab99f5da7fee23a5a
+  - ref: refs/heads/dev
+    old: 53756872a48490157f9d3827b1f8bbf1bfa35993
+    new: c9d13cee3f5b255a9d2030e62c6c910c956f6f75
     log: |
-         ebb7758a4148a951ae5d53dab99f5da7fee23a5a soc: mediatek: Add MediaTek DVFS Resource Collector (DVFSRC) driver
+         1a54ae7248a2bd31e1ae1451042c94af07a33e42 erofs-utils: lib: expose erofs_xattr_prefix_matches()
+         5c56672ae203a4382bc337022a69e490289a83cf erofs-utils: fsck: introduce exporting xattrs
+         c9d13cee3f5b255a9d2030e62c6c910c956f6f75 erofs-utils: lib: fix sorting shared xattrs
          
