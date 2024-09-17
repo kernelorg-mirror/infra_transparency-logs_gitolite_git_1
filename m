@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 17 Sep 2024 02:30:00 -0000
-Message-Id: <172654020058.2216770.6907311202735372577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 17 Sep 2024 02:38:04 -0000
+Message-Id: <172654068493.2223485.16370717794509125874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: f0af0812543d3d9a4019e2979c6e32f479ee70c4
-    new: bcd46be2adaa4afc32b836ad6137798544a3d80a
+  - ref: refs/heads/nfsd-next
+    old: bc20581cfdd70b15d247dc4820679b6583b06d95
+    new: ae9194e1d7a5be65e3312145bf139b47af2b6ead
     log: |
-         5ba34480dc222db47d7813009eb95a7543790dd3 os-linux: Define RWF_ATOMIC
-         40f1fc11d4fc6dbbd3c0eb5852e24126dad5fd4e os: Reintroduce atomic write support
-         80226c53d994e8a9206ed7acf4a4dc75a8691792 pvsync2: Support RWF_ATOMIC
-         a79319fe6efd138ae346aff28b528682fbed0a7c libaio: Support RWF_ATOMIC
-         b1552b6e655dba1b1d4957c04a19361654ab38ad io_uring: Support RWF_ATOMIC
-         274a69eab08837e4e32185f2944e3b98dd5258c0 tools/fiograph: Update for atomic support
-         cd3de3d7700294f28d52cc781d1ce3982c12ba7e doc: Document atomic command
-         2dd80ee4598bcd69d1413fd2f1205cbffb56d787 fio: Support verify_write_sequence
-         f23208c8860de515f025af6ac34d6a227f277e67 examples: Add example for atomic write verify
-         bcd46be2adaa4afc32b836ad6137798544a3d80a Merge branch 'atomic-writes'
+         d0eab73d48a015877f4063902fddd177a50bce3a nfsd: add support for delegated timestamps
+         50369a42b0c70cd7652789a75d6a85d4f50bf729 nfsd: handle delegated timestamps in SETATTR
+         e9f59d396fe0f39633233e5b6092f726391b6ea5 nfsd: fix delegation_blocked() to block correctly for at least 30 seconds
+         9c9e5bd6b72903748e14e6c3ea6262ae66102106 xdrgen: Fix return code checking in built-in XDR decoders
+         ede0655a94b1da9d7c71127c699e0b2b179bfc6e xdrgen: typedefs should use the built-in string and opaque functions
+         ae9194e1d7a5be65e3312145bf139b47af2b6ead xdrgen: Prevent reordering of encoder and decoder functions
          
