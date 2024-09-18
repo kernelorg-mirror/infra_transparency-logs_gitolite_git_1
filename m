@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 18 Sep 2024 20:30:11 -0000
-Message-Id: <172669141123.251481.15012544005620710109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 18 Sep 2024 20:32:08 -0000
+Message-Id: <172669152804.252842.10204928593562063389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 2fb0fd9f98eaf8c426edd673872bc9440368cbc1
-    new: 97bd73f2f183f4bdb25d454328fb8d0dad124fb3
+  - ref: refs/heads/hmac-v4
+    old: 063e69584879234a12aaa044a5024b3525b4ed02
+    new: 72dea7e45f2618c1b5eb63def9a22b5abd993453
     log: |
-         97bd73f2f183f4bdb25d454328fb8d0dad124fb3 Wed Sep 18 04:29:20 PM EDT 2024
+         a84ce9abbd6a4c58b17caf4edc8e36720aa94109 tpm: Return on tpm2_create_null_primary() failure
+         ed5fe9982d80d3d55c787b5e676f0260dcca2fec tpm: Return on tpm2_create_primary() failure in tpm2_load_null()
+         36cbd41e026859f5c7b0923cd67469937d749db4 tpm: flush the null key only when /dev/tpm0 is accessed
+         bf7d05d077d8d1384d55e3a9914928cc7c2ad80d tpm: Allocate chip->auth in tpm2_start_auth_session()
+         72dea7e45f2618c1b5eb63def9a22b5abd993453 tpm: flush the auth session only when /dev/tpm0 is open
          
