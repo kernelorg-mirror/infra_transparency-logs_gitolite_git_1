@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 18 Sep 2024 18:49:58 -0000
-Message-Id: <172668539801.172594.7451870291906880628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 18 Sep 2024 19:33:28 -0000
+Message-Id: <172668800824.205048.4153860290417832098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/for-6.12/io_uring
-    old: 53d69bdd5b19bb17602cb224e01aeed730ff3289
-    new: 23c021817fecc0759a2702a1f942463c15eda5fe
+  - ref: refs/heads/master
+    old: 6d2e20d223794cab6fc15bb37ae4533ac1bb5774
+    new: 2fb0fd9f98eaf8c426edd673872bc9440368cbc1
     log: |
-         23c021817fecc0759a2702a1f942463c15eda5fe io_uring: run normal task_work AFTER local work
-         
-  - ref: refs/heads/for-next
-    old: 7f6e32a7646f9ef65f620d374c72098623f0e1e4
-    new: 8405bda988a6ca89bc5ceac81c4f77ffe5d561c1
-    log: |
-         23c021817fecc0759a2702a1f942463c15eda5fe io_uring: run normal task_work AFTER local work
-         8405bda988a6ca89bc5ceac81c4f77ffe5d561c1 Merge branch 'for-6.12/io_uring' into for-next
+         2fb0fd9f98eaf8c426edd673872bc9440368cbc1 Wed Sep 18 03:32:31 PM EDT 2024
          
