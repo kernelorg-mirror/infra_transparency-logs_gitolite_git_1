@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 18 Sep 2024 18:09:47 -0000
-Message-Id: <172668298737.142742.7488816669087555767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 18 Sep 2024 18:49:58 -0000
+Message-Id: <172668539801.172594.7451870291906880628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 40c836308b423a905563417d0203cc369775adc2
-    new: 350fc0f44aa3f3ee8e68509dbfc4bdda9cffd334
+  - ref: refs/heads/for-6.12/io_uring
+    old: 53d69bdd5b19bb17602cb224e01aeed730ff3289
+    new: 23c021817fecc0759a2702a1f942463c15eda5fe
     log: |
-         350fc0f44aa3f3ee8e68509dbfc4bdda9cffd334 test/linked-defer-close: add test case for linked close
+         23c021817fecc0759a2702a1f942463c15eda5fe io_uring: run normal task_work AFTER local work
+         
+  - ref: refs/heads/for-next
+    old: 7f6e32a7646f9ef65f620d374c72098623f0e1e4
+    new: 8405bda988a6ca89bc5ceac81c4f77ffe5d561c1
+    log: |
+         23c021817fecc0759a2702a1f942463c15eda5fe io_uring: run normal task_work AFTER local work
+         8405bda988a6ca89bc5ceac81c4f77ffe5d561c1 Merge branch 'for-6.12/io_uring' into for-next
          
