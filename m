@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Sep 2024 23:10:32 -0000
-Message-Id: <172661463239.3227152.16644920528882009334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Wed, 18 Sep 2024 00:02:09 -0000
+Message-Id: <172661772967.3264589.7742911256397656386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/dev-queue
-    old: abc6944428c5cf8d3ad3fb6de03939ec12289e14
-    new: 2f0bdf7f38208cd8ddac5c4aa261829a8056c192
+  - ref: refs/heads/main
+    old: 3d5e376925fd15d8990c8a4ddcfff5f68150cf72
+    new: 99031e3a4a6e479466ae795790b44727434ca27d
     log: |
-         cc64fd591500d5c90b7534d4004264bb066a8c9d ice: Don't check device type when checking GNSS presence
-         fe8c9ffe0d4a7c222bd7bb45e0f49bfb8ad6203e ice: Remove unncecessary ice_is_e8xx() functions
-         833475f2c8ada93dd0583248e0915dc3051b44c5 ice: Use FIELD_PREP for timestamp values
-         8c3fb9168aa7ef47cde0e758c58224fb1d23b770 ice: Process TSYN IRQ in a separate function
-         e0cbb80bc7817f7d2f74676d82197d12b4b4770c ice: Add unified ice_capture_crosststamp
-         2af3a7cb64079810fdb4bf27769d14865fc4f394 ice: Refactor ice_ptp_init_tx_*
-         2f0bdf7f38208cd8ddac5c4aa261829a8056c192 ice: Implement PTP support for E830 devices
+         99031e3a4a6e479466ae795790b44727434ca27d Bump version to v1.7.1
+         
+  - ref: refs/heads/master
+    old: 3d5e376925fd15d8990c8a4ddcfff5f68150cf72
+    new: 99031e3a4a6e479466ae795790b44727434ca27d
+    log: |
+         99031e3a4a6e479466ae795790b44727434ca27d Bump version to v1.7.1
          
