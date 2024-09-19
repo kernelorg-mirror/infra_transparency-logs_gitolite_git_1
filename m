@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 19 Sep 2024 16:53:06 -0000
-Message-Id: <172676478606.1238779.6322715045815977930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 19 Sep 2024 16:58:26 -0000
+Message-Id: <172676510666.1242937.16615895407680667586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 7aa245979db6ee74b665154f5c1f203a277eb64a
-    new: b22859e3cc0b31959f76ec4f1682613f102e256b
+  - ref: refs/heads/kbuild
+    old: 0114e0d95603b5803710c51a09f3bcd7e80ea264
+    new: e83224e630f8345068e704befa98809acd2b96ce
     log: |
-         0ea4e4d52c55daa1a032ae53805f8d256317bf49 doc: Remove Pygments dependency from manpage
-         b22859e3cc0b31959f76ec4f1682613f102e256b client/print: Add decoding for UUID properties
+         796aaab7fc096bce7f05d1b8fab595f3435ba6a8 kbuild: doc: update the description about Kbuild/Makefile split
+         ad9aad390d082d823e444d994af1f38378148c2b kbuild: doc: remove description about grepping CONFIG options
+         e83224e630f8345068e704befa98809acd2b96ce kbuild: doc: remove outdated description of the limitation on -I usage
          
