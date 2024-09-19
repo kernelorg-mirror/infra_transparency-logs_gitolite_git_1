@@ -1,94 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============9157482747251481682=="
+Content-Type: multipart/mixed; boundary="===============6547189727326090515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 19 Sep 2024 14:25:52 -0000
-Message-Id: <172675595291.1124795.3501060823015955391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 19 Sep 2024 14:34:08 -0000
+Message-Id: <172675644828.1129855.12853344599445013134@gitolite.kernel.org>
 
---===============9157482747251481682==
+--===============6547189727326090515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: kvalo
 changes:
-  - ref: refs/heads/queue
-    old: cff06a799dbe81f3a697ae7c805eaf88d30c2308
-    new: 359aeb86480da0cba043a79c87a65806f158e931
-    log: revlist-cff06a799dbe-359aeb86480d.txt
+  - ref: refs/heads/ath12k-mlo
+    old: 955bc29c6df31fc983fc80608b5e7efe545639c8
+    new: 02f98ccf4d03b195fe36b232c5c0e10d500dc7f6
+    log: revlist-955bc29c6df3-02f98ccf4d03.txt
+  - ref: refs/tags/ath12k-mlo-202409191433
+    old: 0000000000000000000000000000000000000000
+    new: 02f98ccf4d03b195fe36b232c5c0e10d500dc7f6
 
---===============9157482747251481682==
+--===============6547189727326090515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-955bc29c6df3-02f98ccf4d03.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1726755957 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1726755951-ade332930269a231b4392407dae8ee08c4f1fcc1
+9bca3f75ad00512e8e3df10e0eb6362699d2adb5 wifi: ath12k: modify link arvif creation and removal for MLO
+1b231bfd4fb43bd74fdb0957cd26718b2a048d61 wifi: ath12k: MLO vdev bringup changes
+6eab49f683f06ebb7a449c597b739f2336fc8ce5 wifi: ath12k: Refactor sta state machine
+831028b97c8ba72a5fd61d48617243507ea111ce wifi: ath12k: Add helpers for multi link peer creation and deletion
+d154da96f049fb236f6a3d16fdd0eaa29e51af50 wifi: ath12k: add multi-link flag in peer create command
+5402cabd4b40d3022176af77670c4703616642a1 wifi: ath12k: add helper to find multi-link station
+230c18d031f0186437305c5ded4247e5ea463de3 wifi: ath12k: Add MLO peer assoc command support
+cafed76055f494b6ef1d9afa49a448c49ed235df wifi: ath12k: Add MLO station state change handling
+15c36cefe6ba762219bfd55eb95339236a2afd5d wifi: ath12k: Support for ath12k_mac_op_change_sta_links
+a416db2987872072f3a683a31930c7df023aa6bb wifi: ath12k: htt: remove value field from struct htt_tlv
+8b89d68ef16aff12db7402287083f78ec12ca779 wifi: ath12k: Add support for HTT MLO peer map and unmap event
+a8dd295746fd308d7170cc7e3836c33fb9609747 wifi: ath12k: add primary link for data path operations
+dde05be73d10f5246975803ef7defab4fc8b4a91 wifi: ath12k: use arsta instead of sta
+97059fb8e9cef84bae254901359642738533f0df wifi: ath12k: parse multiple device information from device tree
+84a5ed0781b7daab1c2a4f9a49d1e577657a5d68 wifi: ath12k: add reo queue lookup table for ML Peers
+53917dbfb83ef7487f72f811d54070ff8630916c wifi: ath12k: modify chanctx iterators for MLO
+44611666479a48cd61c1c2d82009f305b393035e wifi: ath12k: Use mac80211 vif's link conf instead of bss_conf
+7411cac8ba6d6b6bde2e7cf2fd9e91f303f295b1 wifi: ath12k: Use mac80211 sta's link_sta instead of deflink
+37171d1382e6633c5bdd5133e5a069e66951ae04 wifi: ath12k: handle mac_op_tx and perform address translation for MLO
+a37f85c0d8d338a35d0ac163417eb26339ac5f3c wifi: ath12k: handle mac_op_flush for MLO
+75615940c79c7aefdee404dc9f91034c85246fcc wifi: ath12k: handle ath12k_mac_op_ampdu_action for MLO
+529cdfe1a482f3fe9e62c2e898218599716015c9 wifi: ath12k: advertise MLO support and capabilities
+fcff37e9a16df603eb6cda0772dbfad8e2f49569 wifi: ath12k: fix potential leak of rx stats memory
+0dd7ed2859cf7716fb61a4b736c378a467a6cac5 wifi: ath12k: do not return invalid link id for scan link
+31f52e22cac46e1e35472843933f8ddce9ad414d wifi: ath12k: fix ath12k_qmi_alloc_chunk()
+5e992a8b5abfb8548511eb7dfee8ecb22cdb5e3e wifi: ath12k: fix ar->supports_6ghz usage during hw register
+02f98ccf4d03b195fe36b232c5c0e10d500dc7f6 wifi: ath12k: pass link ID during MLO while delivering skb
 
-cff06a799dbe81f3a697ae7c805eaf88d30c2308 359aeb86480da0cba043a79c87a65806f158e931 refs/heads/queue
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbsNHUACgkQ7ulgGnXF
-3j0iDRAAlEI7X/0Yi9zrFb9K9qFagcRmwCIE7N9PwoODnnTBSuuFhsXHVTSTR3hw
-iNxpW+iiSspQ9cwfaQGYdWn+/Pvs5ikrMKQjQtfKlvwXum7jqDt82WIA3mG7adKG
-drliBF7N22UnUJp0k91RbYwBM/BXHSeA3WbFwvi4GkRpFwkpQIr/u3V61q9EW9oG
-rcUhEguDsRRdGjATAlbLnCALVksMKUBA/7jbqZsoKGlVjtOzJZkR9e8fBt6jYDa+
-nUj4Cy/JZt9j1y2UGNMrc5sZRMRS/xVluP+T6586uWy1Z3s9rHQN+lRgjrMXSFmv
-rhWT76yTuihTX9cw5A6ogKovVMJX7l1QR5oYelrTs1GlWqUMYFx50sXg9XjoCyqf
-c44ZglE6yKaTjph6SRR5BAOR6Ddr+ngRCWwiW2A2M5J41IQrjm1QaYdBrS5BS5B1
-8sj8WM0+A9D765CfB9YOeLRk7CQYsnBFfjMGgN5430nTMVTS0t2f9mq4+NTx9fMj
-l4FtI3CFC+pTqMKayF+sttXvihdfF/D+ebHqVz2F0BWdrt3POyVwJnzaSyZYuuP5
-1sDrxh/NLnbb2Eux1eBBFdQKVrGZoaKsBT2vaPPzbeddyIiqEaVk6HpRL9wDQ0vG
-cTwd7Q5jyHAtqFmnqC5cYz4fr+E7dmoxWarDDXn4LGMyjhXtld8=
-=4BEe
------END PGP SIGNATURE-----
-
---===============9157482747251481682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cff06a799dbe-359aeb86480d.txt
-
-3d882cca73be830549833517ddccb3ac4668c04e scsi: st: Fix input/output error on empty drive reset
-b112947ffc30e9632d5c2acd0e9081e3e6bee01e scsi: sd: Remove duplicate included header file linux/bio-integrity.h
-e3684006945414153a33c5c4d1202dda2b80650f scsi: ibmvfc: Add max_sectors module parameter
-45fad027df61f848fa9e036e8de6ba009cd1a134 scsi: libcxgbi: Remove an unused field in struct cxgbi_device
-e88ed594328900959f8aae72c2e6240703a91f33 scsi: fusion: mptctl: Use min() macro
-57bada8a5e69e6cb0668436b206db1fbdbf7ebfd scsi: zalon: Remove trailing space after \n newline
-34f04a9b6e39d0085df5a2a5e6e4e1878d808132 scsi: pm8001: Remove trailing space after \n newline
-571d81b482f00dfe8912ecbc3de090f99181ee7a scsi: megaraid_sas: Remove trailing space after \n newline
-d2ce0e5ab505ddaf153c9c20b4f627f0ed034a1e scsi: hisi_sas: Remove trailing space after \n newline
-fa557da6b05034538ea4ecbf55bac4c23d391e2d scsi: qedf: Remove trailing space after \n newline
-c7c846fa94c9f71c4cfab3f15cffc5030cd01e39 scsi: lpfc: Remove trailing space after \n newline
-0557f49870714c8c8cddfdc3c4b805aeae6c3e4e scsi: mpt3sas: Remove trailing space after \n newline
-0c40f079f1c808e7e480c795a79009f200366eb1 scsi: ufs: qcom: Update MODE_MAX cfg_bw value
-24d7071d964574cca41fa72a10c211221af37aec scsi: mpi3mr: A performance fix
-a8598aefae31f3bf27bad1a4cebf2b04a4cdf220 scsi: sd: Retry START STOP UNIT commands
-4708c9332d975aabc8498ddb85936631535fdc20 scsi: pmcraid: Convert comma to semicolon
-bba20b894e3c2e20f1ac914561b9ac241e0e359e scsi: scsi_debug: Remove a useless memset()
-a141c17a543332fc1238eb5cba562bfc66879126 scsi: pm8001: Do not overwrite PCI queue mapping
-f81eaf08385ddd474a2f41595a7757502870c0eb scsi: sd: Fix off-by-one error in sd_read_block_characteristics()
-9634bb07083cfae38933d4e944709e06e4c30e74 scsi: mpi3mr: Enhance the Enable Controller retry logic
-fc1ddda330941b8a1571368bcbade16d377a5eaa scsi: mpi3mr: Use firmware-provided timestamp update interval
-6e4c825f267ed151596fe2554cfa457b9aaa7edf scsi: mpi3mr: Update MPI Headers to revision 34
-4616a4b3cb8aa736882f8dc392cf146365ead2a4 scsi: mpi3mr: Improve wait logic while controller transitions to READY state
-e7d67f3f9f9c89726c2ebcf5fce48db7798a49df scsi: mpi3mr: Update driver version to 8.12.0.0.50
-95474648b802fb4a6d1e50fdfe57b8d73b2d7620 Merge patch series "mpi3mr: Few Enhancements and minor fix"
-93bcc5f3984bf4f51da1529700aec351872dbfff scsi: lpfc: Add ELS_RSP cmd to the list of WQEs to flush in lpfc_els_flush_cmd()
-fc318cac66ac50398f9fc7cbec7b339e6d08a7e6 scsi: lpfc: Update phba link state conditional before sending CMF_SYNC_WQE
-05ab4e7846f1103377133c00295a9a910cc6dfc2 scsi: lpfc: Restrict support for 32 byte CDBs to specific HBAs
-d1a2ef63fc8b3e3dc5b74b7e08636896b32acbdc scsi: lpfc: Fix kref imbalance on fabric ndlps from dev_loss_tmo handler
-0a3c84f71680684c1d41abb92db05f95c09111e8 scsi: lpfc: Ensure DA_ID handling completion before deleting an NPIV instance
-1af9af1f8ab38f1285b27581a5e6920ec58296ba scsi: lpfc: Revise TRACE_EVENT log flag severities from KERN_ERR to KERN_WARNING
-eeb85c658e1bceaccb6ca3ffc1796741abd7b687 scsi: lpfc: Support loopback tests with VMID enabled
-b071c1a9099c7bc5fe24089117e7a15e52d4198f scsi: lpfc: Update lpfc version to 14.4.0.5
-359aeb86480da0cba043a79c87a65806f158e931 Merge patch series "Update lpfc to revision 14.4.0.5"
-
---===============9157482747251481682==--
+--===============6547189727326090515==--
