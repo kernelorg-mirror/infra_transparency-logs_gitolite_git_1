@@ -1,23 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 19 Sep 2024 12:17:47 -0000
-Message-Id: <172674826716.1023482.10200171961674158098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 19 Sep 2024 12:20:24 -0000
+Message-Id: <172674842412.1026676.3764492946619540203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/pending-fixes
-    old: 099f55c7fdf03cb9e2955888a45661cd9202d79a
-    new: 1a8517729279f081db55e9bf7d1f24272db67c6d
-    log: |
-         3fea6231ebb46352c00984d088d77340f9a88497 netfilter: nf_reject: Fix build warning when CONFIG_BRIDGE_NETFILTER=n
-         a20f8ab8ceb8dc19b8682a80b51dfc80850d651c netfilter: nf_tables: use rcu chain hook list iterator from netlink dump path
-         e471ba38185134a6083f219ce59537d17cfa59c7 netfilter: nf_tables: missing objects with no memcg accounting
-         df32f3b8e392c27820dcf104f2097e0d68a81f89 netfilter: nfnetlink_queue: remove old clash resolution logic
-         1a8517729279f081db55e9bf7d1f24272db67c6d kselftest: add test for nfqueue induced conntrack race
-         
+  - ref: refs/tags/v6.11
+    old: 0000000000000000000000000000000000000000
+    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
+  - ref: refs/tags/v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/tags/v6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+  - ref: refs/tags/v6.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
+  - ref: refs/tags/v6.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
