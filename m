@@ -1,35 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7266067487697849992=="
+Content-Type: multipart/mixed; boundary="===============6594091545996178663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 19 Sep 2024 18:49:58 -0000
-Message-Id: <172677179839.1326423.4307326695874825684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 19 Sep 2024 19:01:55 -0000
+Message-Id: <172677251510.1336490.17891460805598681764@gitolite.kernel.org>
 
---===============7266067487697849992==
+--===============6594091545996178663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-6.12/io_uring
-    old: 23c021817fecc0759a2702a1f942463c15eda5fe
-    new: 04beb6e0e08c30c6f845f50afb7d7953603d7a6f
-    log: |
-         04beb6e0e08c30c6f845f50afb7d7953603d7a6f io_uring: check for presence of task_work rather than TIF_NOTIFY_SIGNAL
-         
-  - ref: refs/heads/for-next
-    old: 8405bda988a6ca89bc5ceac81c4f77ffe5d561c1
-    new: 7f6e32a7646f9ef65f620d374c72098623f0e1e4
   - ref: refs/heads/master
     old: 839c4f596f898edc424070dc8b517381572f8502
     new: 2004cef11ea072838f99bd95cefa5c8e45df0847
     log: revlist-839c4f596f89-2004cef11ea0.txt
 
---===============7266067487697849992==
+--===============6594091545996178663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -111,4 +102,4 @@ e03ad65cea610b24c6991aebf432d5c6824cd002 Merge tag 'i2c-host-fixes-6.11-rc8' of 
 509d2cd12a10d057fdf72f565b930f9a81140d59 Merge tag 'Smack-for-6.12' of https://github.com/cschaufler/smack-next
 2004cef11ea072838f99bd95cefa5c8e45df0847 Merge tag 'sched-core-2024-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7266067487697849992==--
+--===============6594091545996178663==--
