@@ -1,120 +1,136 @@
-Content-Type: multipart/mixed; boundary="===============2620635488511827382=="
+Content-Type: multipart/mixed; boundary="===============2703523179119848303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 19 Sep 2024 23:09:11 -0000
-Message-Id: <172678735144.1519884.5803852227911216112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 19 Sep 2024 23:46:02 -0000
+Message-Id: <172678956238.1548445.2206760059712531906@gitolite.kernel.org>
 
---===============2620635488511827382==
+--===============2703523179119848303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/clk-next
-    old: a9b0a2b6841af683231348a9d75b7904e722e26f
-    new: 497f7c30f1848eb16661c580769edea82a5fe029
-    log: revlist-a9b0a2b6841a-497f7c30f184.txt
-  - ref: refs/heads/clk-qcom
-    old: 0000000000000000000000000000000000000000
-    new: 82cf3b8afc35bfc62fc1a91eac9e01edf22e1980
+  - ref: refs/heads/next
+    old: cf0dbffa2232233e2e6152dc28148e12ec9aa900
+    new: d892dcdcdd656c16370b586a56702de7f4047d07
+    log: revlist-cf0dbffa2232-d892dcdcdd65.txt
+  - ref: refs/heads/seen
+    old: 35b7d19b5f45aa4ad8f873af66f3fac56e5cfc56
+    new: cf50d3d4a42ad947fb09c3c2a5fbf6f50d50bbc6
+    log: revlist-35b7d19b5f45-cf50d3d4a42a.txt
 
---===============2620635488511827382==
+--===============2703523179119848303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cf0dbffa2232-d892dcdcdd65.txt
 
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1726787355 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1726787348-efacc23344a49b17bb80b80fcaecb4b1e00fa9a9
+cbc46c0583b62218db94c40403b8a5c12c4b403a Merge branch 'ps/reftable-exclude' into jc/cmake-unit-test-updates
+77c6bd9f38c96a568d851beef185aeb9930de7b4 cmake: rename clar-related variables to avoid confusion
+75c4d8f0448a7669447942e725cb87ce22067ff2 cmake: stop looking for `REFTABLE_TEST_OBJS` in the Makefile
+8afda42fce60126fe6d3bde86a44d8db63a77c08 cmake: generalize the handling of the `UNIT_TEST_OBJS` list
+26eab80642812a5ad956c77df8dbaf702ee4bac6 config.mak.dev: fix a typo
+4b8c76638ffbb61b8ee2f4819146c89c574a5271 diffcore-rename: fix typos
+be645cd268c2b1b9ee2e1d12ac309e696c8999e0 fsmonitor-settings: fix a typo
+bbe92166d42037cf9d0ef47931d343aac184489e git-instaweb: fix a typo
+086ba2eb3f84936ced3d209d02fe0dbac02dfcc1 git-p4: fix typos
+c055a2910960172cdef0ea87d5a1f248845a43fd gpg-interface: fix a typo
+7a6d5a464171dfc4d7830b3e1d1ed8a577604f8b http: fix a typo
+a3621abaf9e5958bb6d9ad1d19af8f430c361b76 merge-ll: fix a typo
+a966ad1e1b5d3c4788294262ba4bcd67f79176ea merge-ort: fix typos
+28012b915c1e6c535dcd42fc1460ea070e5f978f object-file: fix a typo
+e13c49a4c56460c902b6d5ba8dfcf3c8530842eb pretty: fix a typo
+d9369f78e71ff909e93f532961f357f15e2f89b7 read-cache-ll: fix a typo
+ce42f57af4e4f6fca7d392995e849b0fab3facd6 rebase: fix a typo
+619cbc01a34f037fa8ddb20d67f81f5f3cb01f9e refs: fix typos
+a0ef3816c11ff158179d4e1567b8ac19ebe8e9c9 revision: fix a typo
+b71d52cef598521865eb9d8cf9f7a95e685a76aa run-command: fix a typo
+d1d93ae8b1ee42b8d10fa083241237418830d0f4 setup: fix a typo
+e61651b1a8fe5760baa6e09738b294a2ed0152f0 sideband: fix a typo
+e02cc08a88e7d0323391e68937e75c11e3e3cfef upload-pack: fix a typo
+20652956420f7bd64339b4566623c293016e86b7 ref-filter: fix a typo
+5c5d29e1c4832a4ce754d1b281e621fa4dcb4108 gitlab-ci: upgrade machine type of Linux runners
+07777d1f116f9557fa420bcc55dd3ffad1d0760a Merge branch 'ak/typofix-2.46-maint' into next
+1b00b05df19cca7a67931e50a92d4b52b3d2f7f1 Merge branch 'ak/refs-symref-referent-typofix' into next
+907c53944e713179852ea5ec7570a300c58884f7 Merge branch 'ps/ci-gitlab-upgrade' into next
+d892dcdcdd656c16370b586a56702de7f4047d07 Merge branch 'jc/cmake-unit-test-updates' into next
 
-a9b0a2b6841af683231348a9d75b7904e722e26f 497f7c30f1848eb16661c580769edea82a5fe029 refs/heads/clk-next
-0000000000000000000000000000000000000000 82cf3b8afc35bfc62fc1a91eac9e01edf22e1980 refs/heads/clk-qcom
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmbsrxsRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSVTURAA1+QRw26c230PESM3Z9dsosS/4O8yhH+J
-Q6oeRS8voHV74y0jCUkyQ9FkEo0Tl19DUwD7f2MnDLFk8ropufAmRRprzv95WrwB
-F+ba4UciDT5HA12J5yF4M2u0Cfas0PjB60m9cQSgFDm8qphbqbkhwZxFbLnoFyN4
-0CKeVukbuMv3QjlC6aYrY//yRY7O+Fju5F2PQobm05loeBJA9UGAdzbf+YLy1tem
-jKRx3hvA2vTAYEUL1TyD9WDAtLF1xFb2FL3G/kEZTE9iS2OOP5Faee9YcI5pKGqA
-qqed0JtgQd6Y3XfHZzFyxHgIrSWZeZBy9e3RPvTKh8gYi/KRjrqT0uq4izg/7Dtl
-MkQWehEKPHw6mJ3pu7Wy1zFE23X45HEcDafNcKdRJxFipzzl5KDcClaPbb1E3q1Y
-PCQgG0jzP2SOGYo28zVVy7bYwYhk21NEsmH3DWhkjcRk8VO1Pr98nbkGmaau3I8G
-E8+XT4e4gAcNxiaz0/+0HtBQg8Z/Izs+38Z09wOiY7AbFEf4mm+NhbIRkONIc6io
-Dn8eXRVWXq1Iqo4BriMBmM0GavcjQauSIA2efPXfbV4cSgRV4NJJLMbNJzRLD9s/
-9ZRQ5AUsGdxUh3HJMKWOMe5jBsgulHQwKWCpPqSy4IuVnzuG64KCLRE91lzuq6YR
-SDx2BqNCA+I=
-=oB25
------END PGP SIGNATURE-----
-
---===============2620635488511827382==
+--===============2703523179119848303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9b0a2b6841a-497f7c30f184.txt
+Content-Disposition: attachment; filename=revlist-35b7d19b5f45-cf50d3d4a42a.txt
 
-da3c15ea05d8257c1987e527004e6331126e9451 clk: qcom: Constify struct freq_tbl
-ade508b545c969c72cd68479f275a5dd640fd8b9 clk: qcom: gcc-sm8250: Do not turn off PCIe GDSCs during gdsc_disable()
-889e1332310656961855c0dcedbb4dbe78e39d22 clk: qcom: gcc-sm8450: Do not turn off PCIe GDSCs during gdsc_disable()
-39b5ffc9554366122dbe5a4088a7c8798068ee9f dt-bindings: clock: qcom: Add missing USB MP resets
-856d6c27692e9b9cd5fee3f228b7136e7669b6c5 Merge branch '20240730-sc8180x-usb-mp-v2-1-a7dc4265b553@quicinc.com' into clk-for-6.12
-a5652d05f81b6d0387c3894c63fae4db69ef9aad clk: qcom: gcc-sc8180x: Add missing USB MP resets
-44933cd06e34e9838fa0d6c8ed16a3632d49849b dt-bindings: clock: qcom: Add SM8150 camera clock controller
-a689c2961f022c4f221304fe7bc542121fdc246c Merge branch '20240731062916.2680823-7-quic_skakitap@quicinc.com' into clk-for-6.12
-0c31f6a3ab7fa7dc094b9e93eb48b29c6bfcc5ce clk: qcom: clk-alpha-pll: Add support for Regera PLL ops
-ea73b7aceff69c4426c5d13bbdd785c5dc1e2960 clk: qcom: Add camera clock controller driver for SM8150
-99447ef003d199329c0a1890f54958fcd10f7063 dt-bindings: clock: qcom,sm8650-dispcc: replace with symlink
-d9b66d8300827b9f04204faaacde08e59058a699 Merge branch '20240717-dispcc-sm8550-fixes-v2-7-5c4a3128c40b@linaro.org' into clk-for-6.12
-7b6a4b907297b28727933493b9e0c95494504634 clk: qcom: dispcc-sm8550: fix several supposed typos
-cb4c00698f2f27d99a69adcce659370ca286cf2a clk: qcom: dispcc-sm8550: use rcg2_ops for mdss_dptx1_aux_clk_src
-eb64ccacd0cd9343926424f63fec76e73eb815a7 clk: qcom: dispcc-sm8550: make struct clk_init_data const
-7de10ddbdb9d03651cff5fbdc8cf01837c698526 clk: qcom: dispcc-sm8650: Update the GDSC flags
-c8bee3ff6c9220092b646ff929f9c832c1adab6d clk: qcom: dispcc-sm8550: use rcg2_shared_ops for ESC RCGs
-802b83205519e4253b873bef5c095b147cd69dad clk: qcom: fold dispcc-sm8650 info dispcc-sm8550
-e997b400c846248bf208e34632c14f205acbff44 clk: qcom: camcc-sm8150: Correct qcom_cc_really_probe() argument
-5115bcaf68d87e7a25fd238332b402a24bc534d0 dt-bindings: clock: qcom: add DISPCC clocks on SM4450
-9bf45e4f317f75db234ef6af1f316cf4676e8863 dt-bindings: clock: qcom: add CAMCC clocks on SM4450
-47bad234eed970d0d1b03204aab1b3644709ee0b dt-bindings: clock: qcom: add GPUCC clocks on SM4450
-b4c71885e5c8d1c339590bfe15037cc21590c2a3 Merge branch '20240611133752.2192401-1-quic_ajipan@quicinc.com' into clk-for-6.12
-fff617979f97c773aaa9432c31cf62444b3bdbd4 clk: qcom: clk-alpha-pll: Fix CAL_L_VAL override for LUCID EVO PLL
-76f05f1ec7664cc7ef7f26364aaa09044a34f8ac clk: qcom: Add DISPCC driver support for SM4450
-ef404007677931b19896429151056d9926c6d5c5 clk: qcom: Add CAMCC driver support for SM4450
-d63c77c5269652c32ad12eea98948a00cb6002ac clk: qcom: Add GPUCC driver support for SM4450
-233ea1bda3f8fcc0629b332da0c02240ba6788e5 dt-bindings: clock: qcom,a53pll: Allow opp-table subnode
-76709d35389ce81a29bcf1008f94f1a86951c803 dt-bindings: clock: qcom,a53pll: Add msm8226-a7pll compatible
-fd1036f7a73de55c9173d29067ff8c121be741fa clk: qcom: a53-pll: Add MSM8226 a7pll support
-6319bdd24e4b29d82496c103ed6606e1a470bc13 dt-bindings: clock: Add x1e80100 LPASS AUDIOCC reset controller
-386e0ac929f64de4c9df33e247d5acd514cd1c58 dt-bindings: clock: Add x1e80100 LPASSCC reset controller
-d0c2eccf64fd5b1a995c048cb6ad6fc53727fb17 dt-bindings: clock: qcom,qcs404-turingcc: convert to dtschema
-6720e8dbcb1b6b3b43e38998b522088814ae1268 dt-bindings: clock: qcom: Drop required-opps in required on sm8650 videocc
-db30c1160ca5f115476cd8c8008f67572acb2c08 dt-bindings: clock: qcom: Drop required-opps in required on SM8650 camcc
-a4e5af27e6f6a8b0d14bc0d7eb04f4a6c7291586 clk: qcom: clk-rpmh: Fix overflow in BCM vote
-1fc8c02e1d80463ce1b361d82b83fc43bb92d964 clk: qcom: gcc-sc8180x: Register QUPv3 RCGs for DFS on sc8180x
-648b4bde0aca2980ebc0b90cdfbb80d222370c3d dt-bindings: clock: qcom: Add GPLL9 support on gcc-sc8180x
-818a2f8d5e4ad2c1e39a4290158fe8e39a744c70 clk: qcom: gcc-sc8180x: Add GPLL9 support
-b8acaf2de8081371761ab4cf1e7a8ee4e7acc139 clk: qcom: gcc-sc8180x: Fix the sdcc2 and sdcc4 clocks freq table
-bab0c7a0bc586e736b7cd2aac8e6391709a70ef2 clk: qcom: gcc-sm8150: De-register gcc_cpuss_ahb_clk_src
-82ceaf6bcd7c7d01049c13f2461cc7830af41d53 clk: qcom: Fix SM_CAMCC_8150 dependencies
-015dff12dfdeb8d94115ec829bc2e4b711075935 dt-bindings: clock: gcc-msm8998: Add Q6 and LPASS clocks definitions
-2cb4fcc4d94d4e7150a47f59f42b64f72c7ba9cb Merge branch '20240814-lpass-v1-1-a5bb8f9dfa8b@freebox.fr' into clk-for-6.12
-7554d532e03b4f3a9e294077d38fb2403f2b5f7d clk: qcom: gcc-msm8998: Add Q6 BIMC and LPASS core, ADSP SMMU clocks
-a500427c84d1c7c59ebef6a70895fdf28ddb0884 dt-bindings: interconnect: Add Qualcomm IPQ5332 support
-2b148bf6030c31ccf0813044f00d911cb47229a0 Merge branch '20240730054817.1915652-2-quic_varada@quicinc.com' into clk-for-6.12
-34b8dbef668aed595a8e603c2e882e0ab65214f5 dt-bindings: usb: qcom,dwc3: Update ipq5332 clock details
-0e1ac23dfa3f635e486fdeb08206b981cb0a2a6b clk: qcom: ipq5332: Register gcc_qdss_tsctr_clk_src
-92d04de25516fdcd7cdc378b5064df95a70d23dc clk: qcom: ipq5332: Use icc-clk for enabling NoC related clocks
-0e93c6320ecde0583de09f3fe801ce8822886fec clk: qcom: dispcc-sm8250: use CLK_SET_RATE_PARENT for branch clocks
-362be5cbaec2a663eb86b7105313368b4a71fc1e clk: qcom: dispcc-sm8250: use special function for Lucid 5LPE PLL
-d628455ab3c22bf633935f5d09451530c44c4ba3 clk: qcom: videocc-sm8550: Use HW_CTRL_TRIGGER flag for video GDSC's
-82cf3b8afc35bfc62fc1a91eac9e01edf22e1980 Merge tag 'qcom-clk-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
-497f7c30f1848eb16661c580769edea82a5fe029 Merge branch 'clk-qcom' into clk-next
+0ab53941e160d0848c63b7d4a43e53fe329cd2b4 BreakingChanges: early adopter option
+26eab80642812a5ad956c77df8dbaf702ee4bac6 config.mak.dev: fix a typo
+4b8c76638ffbb61b8ee2f4819146c89c574a5271 diffcore-rename: fix typos
+be645cd268c2b1b9ee2e1d12ac309e696c8999e0 fsmonitor-settings: fix a typo
+bbe92166d42037cf9d0ef47931d343aac184489e git-instaweb: fix a typo
+086ba2eb3f84936ced3d209d02fe0dbac02dfcc1 git-p4: fix typos
+c055a2910960172cdef0ea87d5a1f248845a43fd gpg-interface: fix a typo
+7a6d5a464171dfc4d7830b3e1d1ed8a577604f8b http: fix a typo
+a3621abaf9e5958bb6d9ad1d19af8f430c361b76 merge-ll: fix a typo
+a966ad1e1b5d3c4788294262ba4bcd67f79176ea merge-ort: fix typos
+28012b915c1e6c535dcd42fc1460ea070e5f978f object-file: fix a typo
+e13c49a4c56460c902b6d5ba8dfcf3c8530842eb pretty: fix a typo
+d9369f78e71ff909e93f532961f357f15e2f89b7 read-cache-ll: fix a typo
+ce42f57af4e4f6fca7d392995e849b0fab3facd6 rebase: fix a typo
+619cbc01a34f037fa8ddb20d67f81f5f3cb01f9e refs: fix typos
+a0ef3816c11ff158179d4e1567b8ac19ebe8e9c9 revision: fix a typo
+b71d52cef598521865eb9d8cf9f7a95e685a76aa run-command: fix a typo
+d1d93ae8b1ee42b8d10fa083241237418830d0f4 setup: fix a typo
+e61651b1a8fe5760baa6e09738b294a2ed0152f0 sideband: fix a typo
+e02cc08a88e7d0323391e68937e75c11e3e3cfef upload-pack: fix a typo
+20652956420f7bd64339b4566623c293016e86b7 ref-filter: fix a typo
+8a1ebb2c169eb12f942eb64125e82bb7a49d5ba0 refs/reftable: introduce "reftable.lockTimeout"
+c1ec050016b11d7625c8b1d31b1e27a79ff741bf reftable/stack: allow locking of outdated stacks
+36d9898061f8f70e5f6825282498b9dbba5452b1 refs/reftable: reload locked stack when preparing transaction
+5c5d29e1c4832a4ce754d1b281e621fa4dcb4108 gitlab-ci: upgrade machine type of Linux runners
+a4c22c16fa961fd4cd4366edee722eccd27502b5 pack-objects: add --full-name-hash option
+356a7fa51ea5a90cd2d6a18a5da07dacd61ff119 repack: test --full-name-hash option
+0315ea77bbb08a74ee0b0cb4729b39d354c50da3 pack-objects: add GIT_TEST_FULL_NAME_HASH
+c2333cff32655d5662b6fd9f8d4fc75a0586dcb7 git-repack: update usage to match docs
+83d19f35a48127f10b88bfc287c75d53c6312d8f p5313: add size comparison test
+2abf1cb1e7700ed437be9ee83d3af5ee906df47c test-tool: add helper for name-hash values
+7ff60961a1d292ca2b74bf3958a3facaea6fff50 Merge branch 'pw/rebase-autostash-fix' into jch
+a858aeff9d05d057292adee726afef2dfc5c316a Merge branch 'ps/leakfixes-part-6' into jch
+4d05209c56846e15f792bf5399cbc6f79e592eb2 Merge branch 'jk/no-openssl-with-openssl-sha1' into jch
+519b30c1acdce5ce0ae558e758073e5f682a0a54 Merge branch 'jk/interop-test-build-options' into jch
+6ef30984cb5aac82e7219b43c62f580787f82852 Merge branch 'ma/test-libcurl-prereq' into jch
+7f9db212e8b1b7a48d7f2917845bc35fbb41f1c5 Merge branch 'bb/unicode-width-table-16' into jch
+b4835150173c661ec5b3622a7111518401174293 Merge branch 'jk/git-pm-bare-repo-fix' into jch
+bd03259d77d86da6684d2674276145635b6baf9a Merge branch 'ja/doc-synopsis-markup' into jch
+469588801ff380bc379fb21f4221e4cb09fd8cf9 Merge branch 'ps/environ-wo-the-repository' into jch
+dcde7d0d48bd3d1bc1345f60e5cd50641994a430 Merge branch 'jc/t5512-sigpipe-fix' into jch
+65a0949d3eedc4e60b9fdcac1217bd40b95e3c4e Merge branch 'jk/diag-unexpected-remote-helper-death' into jch
+48a33a8bd114da6603b3cf58e0e2d5057f4cf58a Merge branch 'ak/typofixes' into jch
+b59a5bb5aa1a1aecc6fb0fc0a040aa48aa2da87e Merge branch 'jk/jump-quickfix-fixes' into jch
+57bd86c1764ad5d4744ef0300988cfd328e919e5 Merge branch 'jk/t9001-deflake' into jch
+83d15ea915585806405ab506af55f09c00d5c222 Merge branch 'jc/pass-repo-to-builtins' into jch
+a441202e9957592ea688e1a61d1171ea8d243257 Merge branch 'ps/apply-leakfix' into jch
+e23b63002a8edf9ccff473c0d384100f1b4d7066 Merge branch 'ps/reftable-exclude' into jch
+c9a92b0ed6e45258fab09a59edea2b37859d209f Merge branch 'ak/typofix-2.46-maint' into jch
+c51003624b3c0a4f1d5569a6b0ae197aad11d25b Merge branch 'ak/refs-symref-referent-typofix' into jch
+8ebe403f3fff649ecba9af38d2c9cfc165b858f1 Merge branch 'ps/ci-gitlab-upgrade' into jch
+2c4e8a806a9814c06d2c76ccd6efe08a95161e7d Merge branch 'jc/cmake-unit-test-updates' into jch
+d37c14dc1133f1315f1b0f4f63233a85e5571a89 ### match next
+ecd136ffbcbe54abf39e6baa89e19722ef90abab Merge branch 'cc/promisor-remote-capability' into jch
+437afd52a1507034df5243c19dad1e437dba0ee2 Merge branch 'jc/too-many-arguments' into jch
+48a07f5a75cadd18128f728f7168a4ed452065a1 Merge branch 'ew/cat-file-optim' into jch
+f09ff248a34e0c164d6535f1d1b627d552520105 Merge branch 'tb/weak-sha1-for-tail-sum' into jch
+eb4ec9e730c09fee269629b96098a70ecaae9dd3 Merge branch 'ps/leakfixes-part-7' into jch
+685ab18db606230522a3d484c2b4d1ad984e1d3a Merge branch 'ps/reftable-alloc-failures' into jch
+6c8226189b068bc4aff596339250ac58b7996aca Merge branch 'jc/breaking-changes-early-adopter-option' into jch
+be2c089f60108e5855a460d11162601a899f8345 Merge branch 'ps/reftable-concurrent-writes' into jch
+79cde31523ad0093e4d0b75b915ada4498df520a Merge branch 'tb/incremental-midx-part-2' into seen
+452604936f645f5bec897398c9e225f506a06c5b Merge branch 'gt/unit-test-oidset' into seen
+065351dc1b5eef7d57ea92fa1b6b23f2d7844777 Merge branch 'sj/ref-contents-check' into seen
+b6310a6fc24db4f2539801630a684c55a1cde9bc Merge branch 'ds/pack-name-hash-tweak' into seen
+cf50d3d4a42ad947fb09c3c2a5fbf6f50d50bbc6 Merge branch 'jc/strbuf-commented-something' into seen
 
---===============2620635488511827382==--
+--===============2703523179119848303==--
