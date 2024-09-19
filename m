@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7049682976824794934=="
+Content-Type: multipart/mixed; boundary="===============3909035630975134229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 19 Sep 2024 14:25:43 -0000
-Message-Id: <172675594379.1124513.16685794158934522826@gitolite.kernel.org>
+Date: Thu, 19 Sep 2024 14:25:48 -0000
+Message-Id: <172675594831.1124651.13116066393715385486@gitolite.kernel.org>
 
---===============7049682976824794934==
+--===============3909035630975134229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: a0dc0a9efb6b44a74b870e4ffe3175abe04e2c6d
-    new: 5b8fdfacbb513e30ed40eabfaef640e8d4a29436
-    log: revlist-a0dc0a9efb6b-5b8fdfacbb51.txt
+  - ref: refs/heads/6.12/scsi-queue
+    old: cff06a799dbe81f3a697ae7c805eaf88d30c2308
+    new: 359aeb86480da0cba043a79c87a65806f158e931
+    log: revlist-cff06a799dbe-359aeb86480d.txt
 
---===============7049682976824794934==
+--===============3909035630975134229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1726755916 -0400
+pusher 75C5DE3D 1726755952 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1726755910-6a33078793c734428e7eea3d916f56ba55abaa94
+nonce 1726755946-c67775d25a7cc3eba40860b57619e2c45605fb63
 
-a0dc0a9efb6b44a74b870e4ffe3175abe04e2c6d 5b8fdfacbb513e30ed40eabfaef640e8d4a29436 refs/tags/mkp-scsi-queue
+cff06a799dbe81f3a697ae7c805eaf88d30c2308 359aeb86480da0cba043a79c87a65806f158e931 refs/heads/6.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbsNEwACgkQ7ulgGnXF
-3j0EcBAAhe0qAYBWvHhppd5rahcY9OU0swyF+U4rYXtrQBqVc+KTbhCRXAYlllOh
-gPgR8EVpEivyjJ9WnoF77LmPK6f67+tEn6xLjKks/f4u2OxUzHPgLnM2nZy8dkE0
-JUKjW0TCk0EF4NjfraFVxKHYYk+zIZ3UDMyFieIezS6QS+yM8+3VwYnNz4r/mqPE
-vC7L2wsIKEGC6FPHZSRjeRqKSoHGmPd5qzteJbgzjKt8xtFpB/ZwAodamfnCYAV/
-5sDoiIrr04TpbM7oRE8qR6VvqxzhbemqZrTcjqMDQp9PnlXGTgsPsD1gurfZ0/wr
-v7J7bk83tuwN4ZhDvar10x9GMyVOrwaBrWp/fiJDItZRNLDdb80VSlDnmiPBTHRM
-2m68ssjIXSRD7QiMjV6UwawvC5x+qO+FbGFl7LCUFnRDIFOeJo/Kk6bjeVxLedQS
-G2mgWwxhPBuXzHuSoIWZ+RHdU118eg8ugWunoemtxmsIVBRjU5324Fylvp5oBTdT
-yVd/LTldK1hZArntHs8Dz7ibikNFDJ7q77tcpYXmgcNYSe5H5Be97X/IlQdJH4bC
-UinTqhjIgN1jIEl4QWg/0M73GqGJsF6zh9GfFX5OsPWoBRwK0FKEO33kqpPgicwc
-zOga3kQYgfxn6oBX+8DdjJ2U8/aAMS/tgXOuqnCiPv8XiipGAdY=
-=PXqt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmbsNHAACgkQ7ulgGnXF
+3j0alw//X7RE68yHu6uPDSf37w+DWZTPyMMlzNCiG0fpwnsmOAfVqyKD6EBW69Mn
+nPECamZGo2K3wCxiN3ziLqu52XLxHWAblbQ1AYmzNgbx1I/CGH4XGd2QScQpVrkg
+06C230MIoh6J36mLXtHBrwrEZVQCIE1MLcwxlVs/CBimo4Gyd9CVnhezioLvzvN1
+3hJEonSqOThPfIRhdsf/CgUET/7yc9MHCbKLwDmDSKeapAZ9pJb59ebqHnY8F7jp
+H9cVTwGIJ/wyPf/f1xWmrXQUJkoe7scNgaS1OJj4rMeOMXLuJuHO3pKXVnHmhPqx
+vmZFXW2riAxMZhVfvtjsnRl2/26Mmt3E77dNf2Nmkf2l+tcSg2+C1xmZxCKkMluf
+q3LzebLp0imLAH6z6H0PpDrQ+SFsKaaL+WA4alfPsPDN/pQFhlCost9Na30Ihmbz
+EBs4KZ79PmQIo4uwlyLQusWD505kd5r2C3/dvJ7W+MYPhcT79u2pm11H6DkALXhS
+iDsOzV4tF2IQHMtMXzb50uT+cS6oiy79qnSRa/aPij/2yLDbJhI9jD9KQ94X1iga
+oDF/9U6lKb3/fzIEVaPwV6vKmdE2Q+SXk9u7KmpxR/mUCojrIrf5C3xO94GuPD1U
+oG77k0pjPIYe2RlROjfJXtyGX2++QxBpUtyuiaTjFPhUEvOV9kQ=
+=wJmc
 -----END PGP SIGNATURE-----
 
---===============7049682976824794934==
+--===============3909035630975134229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0dc0a9efb6b-5b8fdfacbb51.txt
+Content-Disposition: attachment; filename=revlist-cff06a799dbe-359aeb86480d.txt
 
 3d882cca73be830549833517ddccb3ac4668c04e scsi: st: Fix input/output error on empty drive reset
 b112947ffc30e9632d5c2acd0e9081e3e6bee01e scsi: sd: Remove duplicate included header file linux/bio-integrity.h
@@ -91,4 +91,4 @@ eeb85c658e1bceaccb6ca3ffc1796741abd7b687 scsi: lpfc: Support loopback tests with
 b071c1a9099c7bc5fe24089117e7a15e52d4198f scsi: lpfc: Update lpfc version to 14.4.0.5
 359aeb86480da0cba043a79c87a65806f158e931 Merge patch series "Update lpfc to revision 14.4.0.5"
 
---===============7049682976824794934==--
+--===============3909035630975134229==--
