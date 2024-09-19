@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Sep 2024 11:02:38 -0000
-Message-Id: <172674375803.965576.16310878729135517300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 19 Sep 2024 11:04:46 -0000
+Message-Id: <172674388680.966620.7502949248633558683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 194ef9d0de9021df4a0ba8b112f91e56adaddd22
-    new: 5a6caa2cfabb559309b5ce29ee7c8e9ce1a9a9df
+  - ref: refs/heads/experimental
+    old: 76bfef857ef96ce18e2853d60b511551f4f213c9
+    new: 6cd068a1b987c5221a43e2289d778b59aa725b45
     log: |
-         ba0da2dc934ec5ac32bbeecbd0670da16ba03565 net: xilinx: axienet: Schedule NAPI in two steps
-         5a6caa2cfabb559309b5ce29ee7c8e9ce1a9a9df net: xilinx: axienet: Fix packet counting
+         cb1742eb9655bb2d8e1ab83896cb6fc06a8d33da erofs-utils: mkfs: get rid of outdated subpage compression warning
+         6cd068a1b987c5221a43e2289d778b59aa725b45 erofs-utils: lib: drop prefix_sha256 digests
          
