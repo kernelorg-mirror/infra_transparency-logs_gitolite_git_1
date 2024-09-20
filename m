@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 20 Sep 2024 23:00:25 -0000
-Message-Id: <172687322541.2608066.16062930686161463164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 20 Sep 2024 23:15:50 -0000
+Message-Id: <172687415052.2619571.2702648062209013258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 2004cef11ea072838f99bd95cefa5c8e45df0847
-    new: baeb9a7d8b60b021d907127509c44507539c15e5
+  - ref: refs/heads/nfsd-testing
+    old: 5dc8b8390a84320028d66758416f6a6189c48f87
+    new: 762d36e077ac9f7c7499049f9d9f3f1de9e54e23
     log: |
-         d2d6422f8bd17c6bb205133e290625a564194496 x86: Allow to enable PREEMPT_RT.
-         d8fccd9ca5f905533dc6c26cfd1f91beb8691c95 arm64: Allow to enable PREEMPT_RT.
-         2638e4e6b18233d7ec54edb953f253ae9515bac2 riscv: Allow to enable PREEMPT_RT.
-         baeb9a7d8b60b021d907127509c44507539c15e5 Merge tag 'sched-rt-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         361b3fa79034217777a2a4f61121ae2f0257f3f9 nfsd: fix initial getattr on write delegation
+         3a8544ae3bc11294bb6e9ef340babb3aa346e1b1 nfsd: drop the ncf_cb_bmap field
+         1f771a71422df35d4f326f5ab073085fb8421b4a nfsd: don't request change attr in CB_GETATTR once file is modified
+         d3f584a7823dc762e8f26a2974257571c9165d75 nfsd: drop the nfsd4_fattr_args "size" field
+         1b97d5596bb34030aa498f112680494197bea978 nfsd: fix delegation_blocked() to block correctly for at least 30 seconds
+         69d246611be7e0041fe457969f0c704251b3d590 tools: Add xdrgen
+         a030a7f012565f11a5706b46747f0bd5923c03c1 xdrgen: Fix return code checking in built-in XDR decoders
+         cdfa43b1adf8476d3dac40cc372351309c42bce6 xdrgen: typedefs should use the built-in string and opaque functions
+         762d36e077ac9f7c7499049f9d9f3f1de9e54e23 xdrgen: Prevent reordering of encoder and decoder functions
          
