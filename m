@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Fri, 20 Sep 2024 08:52:34 -0000
-Message-Id: <172682235436.1963732.4036668735449178850@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8121226382725910651=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Fri, 20 Sep 2024 08:52:49 -0000
+Message-Id: <172682236981.1964036.14864301227144211811@gitolite.kernel.org>
+
+--===============8121226382725910651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: e660b934807d8429547b903c90d36f5fd6e2663a
-    new: 6a4ba9c0ae58620803514c80679c6a3409581a6f
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 7f52bb9de57dc1851a83e20e53491ad8df321e4e
+    new: eb30d09d3b588b75ae982285eb29d658dee2288a
     log: |
-         51506dfab9c94cd966948503d7c9082556052609 kunit: expose ftrace-based API for stubbing out functions during tests
-         b72ca89c6f7cc6db50a480ba7c961c3d34c24f1e platform/chrome: add Kunit tests for cros_ec_i2c
-         cd8b09b0151016ba2fa4d67545959a16dd1c0ef1 platform/chrome: add Kunit tests for cros_ec_spi
-         39161977d0220b05c11320540ba6c1d6c8f29ad9 platform/chrome: add Kunit tests for cros_ec_uart
-         ff3b16725dcb6e06970040b484d29c2c68548617 platform/chrome: add Kunit tests for cros_ec_spi (attempt 2)
-         f55803f34cf95b0802fec878de67de90d859b85d mfd: cros_ec: simplify cros_ec_dev_init()
-         eaa7f6bde620b6cf54a28b97844c27ac5d6e24fc mfd: cros_ec: update module description
-         6a4ba9c0ae58620803514c80679c6a3409581a6f mfd: cros_ec: add Kunit tests
+         eb30d09d3b588b75ae982285eb29d658dee2288a i2c: designware: fix controller is holding SCL low while ENABLE bit is disabled
          
+
+--===============8121226382725910651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1726822375 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1726822368-e72a8650ed1142dc33ff508c616a5c45a0886d33
+
+7f52bb9de57dc1851a83e20e53491ad8df321e4e eb30d09d3b588b75ae982285eb29d658dee2288a refs/heads/i2c/i2c-host-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZu035xYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uQlwA/3RoXuSahQO8pnrb8IOI/KsuxI0V
+as7CPPRmo07b5fpEAQDNXEbL+GIrsB37nLBL24XmJaolsAUWk3TLr+6mMYI9DQ==
+=Injk
+-----END PGP SIGNATURE-----
+
+--===============8121226382725910651==--
