@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 20 Sep 2024 16:48:17 -0000
-Message-Id: <172685089738.2329255.14567606632408239100@gitolite.kernel.org>
+Date: Fri, 20 Sep 2024 16:49:51 -0000
+Message-Id: <172685099171.2330032.11771404064590583474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: fb31bf3a3341a17b69478b1ff51d39b1b354322a
-    new: 7b55b1a8745f87529388e5ecb724a2125fec5e3e
+  - ref: refs/heads/master
+    old: 7b55b1a8745f87529388e5ecb724a2125fec5e3e
+    new: 1bfa04b5693a53302ee49125650a5f531ac8a4e4
     log: |
-         e7cc1134c272de42d7bf918a43c38c303dce1b1f KEYS: prevent NULL pointer dereference in find_asymmetric_key()
-         c1e1b9fd41963b16692e14d24c8a4cf3b3b90561 sign-file,extract-cert: move common SSL helper functions to a header
-         769e5bd981bf279cf9f1d06f327ae7bb321c4d7f sign-file,extract-cert: avoid using deprecated ERR_get_error_line()
-         7b55b1a8745f87529388e5ecb724a2125fec5e3e sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3
+         70fd1966c93bf3bfe3fe6d753eb3d83a76597eef KEYS: prevent NULL pointer dereference in find_asymmetric_key()
+         300e6d4116f956b035281ec94297dc4dc8d4e1d3 sign-file,extract-cert: move common SSL helper functions to a header
+         467d60eddf55588add232feda325da7215ddaf30 sign-file,extract-cert: avoid using deprecated ERR_get_error_line()
+         1bfa04b5693a53302ee49125650a5f531ac8a4e4 sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3
          
