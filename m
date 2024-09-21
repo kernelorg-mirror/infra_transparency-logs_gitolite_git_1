@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 21 Sep 2024 10:59:11 -0000
-Message-Id: <172691635142.3148752.1493127004230029422@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3986649041657259178=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 21 Sep 2024 11:07:55 -0000
+Message-Id: <172691687522.3156830.11486769771657657959@gitolite.kernel.org>
+
+--===============3986649041657259178==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hmac-v5
-    old: 72dea7e45f2618c1b5eb63def9a22b5abd993453
-    new: d863dac537722ddc9415ce17f70e448bcbc7bd02
+  - ref: refs/heads/master
+    old: 2312c472b9347698791f97d159982fe17e77432c
+    new: d391aea8787ae0ed39f2ca017c64e5a003598b64
     log: |
-         80fae96fe08f4fe25df9622e0a10a2f55f7d99b9 tpm: Return on tpm2_create_null_primary() failure
-         5626e3861750ab33899f81c146f22251d1db724b tpm: Return on tpm2_create_primary() failure in tpm2_load_null()
-         f983bc9e10007631783de9e04f281cdb3e81acd5 tpm: flush the null key only when /dev/tpm0 is accessed
-         dedb9ae80e31130a4a085a998926b8dc41ebbfae tpm: Allocate chip->auth in tpm2_start_auth_session()
-         d863dac537722ddc9415ce17f70e448bcbc7bd02 tpm: flush the auth session only when /dev/tpm0 is open
+         d391aea8787ae0ed39f2ca017c64e5a003598b64 update cvelistV5
          
+
+--===============3986649041657259178==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726916879 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1726916872-46da706a5324bcf7679bc521ce63c7fd7b09cca7
+
+2312c472b9347698791f97d159982fe17e77432c d391aea8787ae0ed39f2ca017c64e5a003598b64 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbuqQ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ujUP/RqgfJ+WAfKZTARBK5Nv
+BVbJoLXGbSmtkkH9t2wReQkRDt4KxUy0OPlD0zEIAIAHcC4AqKqLDVrzI/E93mVS
+PUuQKNTr0a2HbpKjo5xXYszQDHvEDvv3+yBOeP6nTyi6ylMzxfm/CFbIL4gNmo3B
+13risPdCBGA7RfmtLvC+UOKihzTBo+Vb1VzkgN5NBLFGcSAc6fzHrnYWKsdML03I
+e3JT9sDzIzjiCPPRxvEKqpWT2Kv0vsao0ize0eYglRxj0OsZ5APygorwzy83lGye
+KpIZOUt9ptcshe3rRwR/7n+koAkSwVHpTDyISSMyNSohqSj2W6rF353NUTx5GO8A
+OXhYAskVoaWhaV+wDh6Mq73pJSyMflciPykFM1wXLQM3rrQQ0wEgg/E8jGDkyF1N
+6h9fLldl6NANVoJ7yMgSGqEIZVBsQkWfvbzdBM4zjo6tmOxDk2eylDA5L3DwvT5c
+gy8V3Fpp1uArd/89GDNf0nEHahuBSoQcIjZDsw50UIVOioW4WpF/Xt7U7PeSTB7H
+d+Bf1N4bgqH9USu5t9SKAfvXC8wdqhcJLMAYgewomlA8WRp077Xi4Zs5+Mssg+1e
+v8gj70vhYAHsJqmm6Ma/MHoCPYkzklt8HJmaxXVBYxZZHtx64IpHNd7iFXjhDMTF
+LfO9Kdty09axdIYcDSoHQLtn
+=e1gk
+-----END PGP SIGNATURE-----
+
+--===============3986649041657259178==--
