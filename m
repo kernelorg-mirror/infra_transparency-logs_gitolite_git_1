@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sat, 21 Sep 2024 02:56:05 -0000
-Message-Id: <172688736597.2786128.5776126260644584512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 21 Sep 2024 03:58:55 -0000
+Message-Id: <172689113528.2832112.3632721837055925991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/tags/firewire-updates-6.12
-    old: 0965219a24505bfe34d6c9f952bb115cc087f0e8
-    new: b813759109927fee3f8d82fcf22c422a96246272
+  - ref: refs/heads/master
+    old: 6acafc62edadf7463e4c7fe368f276ce82a82e73
+    new: d900c849cbb864225c805f565c4d247f52d1d1a8
+    log: |
+         d900c849cbb864225c805f565c4d247f52d1d1a8 Fri Sep 20 11:58:05 PM EDT 2024
+         
