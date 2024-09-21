@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2381797718070449362=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 21 Sep 2024 11:40:34 -0000
-Message-Id: <172691883431.3182458.15196364713510124490@gitolite.kernel.org>
-
---===============2381797718070449362==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 21 Sep 2024 11:50:56 -0000
+Message-Id: <172691945640.3190379.6699467929278950941@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d391aea8787ae0ed39f2ca017c64e5a003598b64
-    new: 1534c524062cbf236993160e5e5843e64f2a0930
+  - ref: refs/heads/hmac-v5
+    old: 9cf1159fa871c8afb51f15146b2e705f00c2b235
+    new: 92999f9cd11fe2e932efd858c22ccf44f7f2583a
     log: |
-         1534c524062cbf236993160e5e5843e64f2a0930 updated a 2023 id with 6.11 information that I missed before
+         981118952a09dd143bc9affb5e43de1fe813ca56 tpm: Return on tpm2_create_null_primary() failure
+         db4f1dbdc05fae344180c85253233bb2a4e3f436 tpm: Implement tpm2_load_null() rollback
+         e01d10f458e9d3c4c1c2dc5962401eab5131a7bf tpm: flush the null key only when /dev/tpm0 is accessed
+         674f14e53a8155af0716332466b93ea8a95ea8b5 tpm: Allocate chip->auth in tpm2_start_auth_session()
+         92999f9cd11fe2e932efd858c22ccf44f7f2583a tpm: flush the auth session only when /dev/tpm0 is open
          
-
---===============2381797718070449362==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1726918838 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1726918831-0b9e6095a87876d61af18c1963bd33ff31624682
-
-d391aea8787ae0ed39f2ca017c64e5a003598b64 1534c524062cbf236993160e5e5843e64f2a0930 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmbusLYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+51gQAK+beADIAnELuxpdPoii
-qfpLMmj+VbPrz9dEsUUZlLEOWGjGbUd6e3+3Po3X0zgIGDigd54QqaFCriAsd5p0
-5TrM64vqqwiC6u1bhJGSFdZdU9vLCMLP4AEKGdaDJxLbgERufyz2THqx/VCGp74q
-xR7VL2dPkAdNQsbrQ6MEpuVazcS+diqoEui/O49ehdRPl/ZiGnQDAyZtnNAeQa6Z
-hBQ9wjJjEenHTLwd+Cf2hPA59nEXITV/ZO8T600Mq9P042/ecl85yqgzLN7Te0Uu
-gZNjKtc2vPnby7N8UyXUz53+Lv5FxEkGEjl8LgfQGBXMZcNvCpOSia35vKwGRwi0
-Ujv3EvBf7320Qb++iYZE3zdtAhZR0FayIVzxDiDh50BxAd5EBu7sfPJHFuHxKFFX
-C7PwhqVFYM6sA5s6Jy8+u36dD/KHg5Q01hrGN9cDtWpWJrTIm15D0/U9xDYAwhcB
-cCiNhucZQMMgc5SqHubiJCmzvsN8F5OURssfrAiQUb6ztZUBNtWqmA5obDMAvM7V
-FYNkyOc258iTXnzKbQtH4BRmUf5/Co/zLQSOUDUmjcO1R5F+QvRpvTW4G8dhYX8q
-UNMGY+QvI5twk1Xqa4z3ibz8hOZQVqQa4soLLib8WUc4DwkaU4z2RuFxjvZ8eoR8
-/uzFp1DZIel7NOgEKLZx0Ov0
-=5nxy
------END PGP SIGNATURE-----
-
---===============2381797718070449362==--
