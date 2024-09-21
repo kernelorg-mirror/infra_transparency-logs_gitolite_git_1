@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 21 Sep 2024 22:53:22 -0000
-Message-Id: <172695920268.3683244.6687642740054466413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sat, 21 Sep 2024 23:18:26 -0000
+Message-Id: <172696070651.3702081.13975136965466794979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: d900c849cbb864225c805f565c4d247f52d1d1a8
-    new: 7fee37d4aa115b96a6561ff16de25fa70d7426cb
+  - ref: refs/heads/rtc-next
+    old: 4015580e983daa699d7e1693328dd81f0e295589
+    new: 690286214916f32d75de2667ec0fcfa9c3f4eefb
     log: |
-         7fee37d4aa115b96a6561ff16de25fa70d7426cb Sat Sep 21 06:52:03 PM EDT 2024
+         b242650dfa17d8591d92e8e151438d1f8e54997a rtc: m48t59: set range
+         690286214916f32d75de2667ec0fcfa9c3f4eefb rtc: rc5t619: use proper module tables
          
