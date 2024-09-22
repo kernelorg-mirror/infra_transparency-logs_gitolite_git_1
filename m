@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Sun, 22 Sep 2024 22:34:03 -0000
-Message-Id: <172704444328.591042.16244083684001089830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Sun, 22 Sep 2024 22:35:04 -0000
+Message-Id: <172704450445.593417.15812532248035631197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: iweiny
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/tags/libnvdimm-for-6.12
-    old: 0000000000000000000000000000000000000000
-    new: bb6620e37066c080dfd3d7667b09252cf103e693
+  - ref: refs/heads/master
+    old: 069869f1cf98e385485065f1f035c2f8dc0f90d6
+    new: f2c7b08c3b3ec9b64de03fec06600d7f79181459
+    log: |
+         f2c7b08c3b3ec9b64de03fec06600d7f79181459 ci: add SPDX copyright/license identifiers
+         
