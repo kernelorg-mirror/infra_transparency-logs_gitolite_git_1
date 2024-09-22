@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8893881699545519135=="
+Content-Type: multipart/mixed; boundary="===============2826514740646941417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sun, 22 Sep 2024 21:37:40 -0000
-Message-Id: <172704106068.549641.16201960905834410009@gitolite.kernel.org>
+Date: Sun, 22 Sep 2024 21:37:46 -0000
+Message-Id: <172704106666.549789.14394174395038542768@gitolite.kernel.org>
 
---===============8893881699545519135==
+--===============2826514740646941417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: e162cb25c410afc42051a582c46a47dde597f51c
     new: de5cb0dcb74c294ec527eddfe5094acfdb21ff21
     log: revlist-e162cb25c410-de5cb0dcb74c.txt
 
---===============8893881699545519135==
+--===============2826514740646941417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ af9c191ac2a0c857f59d75b6812fef078ab1cefe Merge tag 'trace-ring-buffer-v6.12' of 
 533ab223aa1a036cfe5d6747fa3be92069f80988 x86: make the masked_user_access_begin() macro use its argument only once
 de5cb0dcb74c294ec527eddfe5094acfdb21ff21 Merge branch 'address-masking'
 
---===============8893881699545519135==--
+--===============2826514740646941417==--
