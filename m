@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 22 Sep 2024 17:03:49 -0000
-Message-Id: <172702462995.344240.6377052287019465400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 22 Sep 2024 18:09:56 -0000
+Message-Id: <172702859654.392514.9551034279008760379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: f6027cdc55dd0b0f948a906ab33c2c8783e3914c
-    new: 05cf532e6a6dedc0dfc340e9a0bce068c6816092
-    log: |
-         c36c67eff9b592b2144750a799543ea19b7f05f5 Revert "patches/next: add simple sparse warning fix and add references to DAMON academic papers"
-         05cf532e6a6dedc0dfc340e9a0bce068c6816092 patches/next: add sparse warning fix and link DAMON academic papers
-         
+  - ref: refs/heads/nfsd-testing
+    old: e64ee4817d2fe0054585d5413976d825dd0667b8
+    new: 509abfc7a0ba66afa648e8216306acdc55ec54ed
