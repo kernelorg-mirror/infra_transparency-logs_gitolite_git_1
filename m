@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sun, 22 Sep 2024 22:35:04 -0000
-Message-Id: <172704450445.593417.15812532248035631197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 22 Sep 2024 22:37:48 -0000
+Message-Id: <172704466846.594580.12849134972385053042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 069869f1cf98e385485065f1f035c2f8dc0f90d6
-    new: f2c7b08c3b3ec9b64de03fec06600d7f79181459
+    old: 19f30b7056bb6395142779392b5f687d146fef8d
+    new: e143bd5cd11b8d96fcb94d443f0059de01f13b23
     log: |
-         f2c7b08c3b3ec9b64de03fec06600d7f79181459 ci: add SPDX copyright/license identifiers
+         e143bd5cd11b8d96fcb94d443f0059de01f13b23 Sun Sep 22 06:36:33 PM EDT 2024
          
