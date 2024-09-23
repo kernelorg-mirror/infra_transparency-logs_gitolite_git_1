@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6860975715107973851=="
+Content-Type: multipart/mixed; boundary="===============4143623184051512453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 23 Sep 2024 15:43:18 -0000
-Message-Id: <172710619888.1433633.1564877065968895129@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 15:43:27 -0000
+Message-Id: <172710620775.1433800.18112110678263664072@gitolite.kernel.org>
 
---===============6860975715107973851==
+--===============4143623184051512453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 9fed8d7c46f37151037334ef5e8b30b945baaceb
+  - ref: refs/heads/for-next
+    old: e84a8303f1ba16d8214ee0e6cf349b92c2e08388
     new: 58057f97319f564a7c803723b3b9363bd2a75999
-    log: revlist-9fed8d7c46f3-58057f97319f.txt
+    log: revlist-e84a8303f1ba-58057f97319f.txt
 
---===============6860975715107973851==
+--===============4143623184051512453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fed8d7c46f3-58057f97319f.txt
+Content-Disposition: attachment; filename=revlist-e84a8303f1ba-58057f97319f.txt
 
 2609c9289f423e3d2d4044ddace4a0fb1939e9c3 btrfs: convert btrfs_run_delalloc_range() to take a folio
 3ed984b5d0cccdfe273e29bd19e588a704bc4b93 btrfs: convert struct async_chunk to hold a folio
@@ -1051,4 +1051,4 @@ b544fc75612cbc95022098b937512a8425b2ce8e s390/vdso: Use macros for annotation of
 43992ec8c5305d926de1e84a964f286a6940015c s390/vdso: Use SYM_DATA_START_LOCAL()/SYM_DATA_END() for data objects
 58057f97319f564a7c803723b3b9363bd2a75999 s390/vdso: Use one large alternative instead of an alternative branch
 
---===============6860975715107973851==--
+--===============4143623184051512453==--
