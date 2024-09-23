@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8133958107438788839=="
+Content-Type: multipart/mixed; boundary="===============5163148949975775070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 23 Sep 2024 09:00:57 -0000
-Message-Id: <172708205750.1071314.2354651823765726535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 23 Sep 2024 09:00:59 -0000
+Message-Id: <172708205909.1071445.16237965353405054352@gitolite.kernel.org>
 
---===============8133958107438788839==
+--===============5163148949975775070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: de5cb0dcb74c294ec527eddfe5094acfdb21ff21
     log: revlist-e8fc317dfca9-de5cb0dcb74c.txt
 
---===============8133958107438788839==
+--===============5163148949975775070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ af9c191ac2a0c857f59d75b6812fef078ab1cefe Merge tag 'trace-ring-buffer-v6.12' of 
 533ab223aa1a036cfe5d6747fa3be92069f80988 x86: make the masked_user_access_begin() macro use its argument only once
 de5cb0dcb74c294ec527eddfe5094acfdb21ff21 Merge branch 'address-masking'
 
---===============8133958107438788839==--
+--===============5163148949975775070==--
