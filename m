@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 23 Sep 2024 05:36:44 -0000
-Message-Id: <172706980471.913673.5300318278415187168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
+Date: Mon, 23 Sep 2024 06:14:14 -0000
+Message-Id: <172707205436.940935.5888308312210587308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/mchehab/linux-media
+user: mchehab
 changes:
-  - ref: refs/heads/dev
-    old: 8e6138c853f7de6724f48ce6ecc20cbce541d962
-    new: cb1742eb9655bb2d8e1ab83896cb6fc06a8d33da
-    log: |
-         cb1742eb9655bb2d8e1ab83896cb6fc06a8d33da erofs-utils: mkfs: get rid of outdated subpage compression warning
-         
+  - ref: refs/tags/media/v6.12-1
+    old: 0000000000000000000000000000000000000000
+    new: 4844c84f1facff778f1bf9fe7d89e00ac72b8da2
