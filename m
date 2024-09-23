@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1816392668335756240=="
+Content-Type: multipart/mixed; boundary="===============8150827245403253768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 23 Sep 2024 19:30:50 -0000
-Message-Id: <172711985000.1618721.5971201521563076652@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 19:37:43 -0000
+Message-Id: <172712026319.1623380.4830373404958675749@gitolite.kernel.org>
 
---===============1816392668335756240==
+--===============8150827245403253768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: de5cb0dcb74c294ec527eddfe5094acfdb21ff21
-    new: 18ba6034468e7949a9e2c2cf28e2e123b4fe7a50
-    log: revlist-de5cb0dcb74c-18ba6034468e.txt
+  - ref: refs/heads/testing
+    old: f8af270d21c9a3bd6855b075c22f838fc1f4932e
+    new: b0be766a65943563d8bca7cc9debf754081ecbf8
+    log: revlist-f8af270d21c9-b0be766a6594.txt
 
---===============1816392668335756240==
+--===============8150827245403253768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de5cb0dcb74c-18ba6034468e.txt
+Content-Disposition: attachment; filename=revlist-f8af270d21c9-b0be766a6594.txt
 
 d16a5f852025be546b6e4ceef15899db3490f4d7 quota: avoid missing put_quota_format when DQUOT_SUSPENDED is passed
 a838e5dca63d1dc701e63b2b1176943c57485c45 quota: remove unneeded return value of register_quota_format
@@ -208,5 +208,23 @@ d0359e4ca0f26aaf3118124dfb562e3b3dca1c06 Merge tag 'fs_for_v6.12-rc1' of git://g
 a1fb2fcbb60650621a7e3238629a8bfb94147b8e Merge tag 'for-6.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 721068dec4ec3cc625d8737d4dfa0ff0aa795cd1 Merge tag 'gfs2-v6.10-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 18ba6034468e7949a9e2c2cf28e2e123b4fe7a50 Merge tag 'nfsd-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+e748f9516fd190ba916cf180d11066033b6a07bf hwmon: (max16065) Reorder include files to alphabetic order
+23ad18862aa744c4ef86d2a4027b7edf683ea3f1 hwmon: (max16065) Use bit operations
+a9d4752ceaeb1a50b8b450f5412f9697c5a0c63f hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+f6aa1c92b7c9890e12a509e83482d7bbc32cc615 mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+1e2ab0c70a43c0de7c51f321123f29b9683f3383 ipe: Add missing terminator to list of unit tests
+cc3ab0d60788df055c9c9a1a46752d919c5e3ef5 Revert "list: test: fix tests for list_cut_position()"
+1ef897169ff25eb9d297615aa531819c48ca4304 resource, kunit: add dependency on SPARSEMEM
+9e3631f12a5137943ced2d0f82c23f7554fbb70f mm: Make SPLIT_PTE_PTLOCKS depend on the existence of NR_CPUS
+8ab11e73ef975f2faa7335ea48f441b341b58232 pm: cpupower: rename raw_pylibcpupower.i
+7b60524d044939aa5b5368a2f9521491fbaa9c50 Merge branch 'hwmon-next' into hwmon-staging
+291a82cdee61c4b696b42d6ae4b620a2df7140bc Merge branch 'hwmon' into hwmon-staging
+41b476718312e49e2d2972b44f22d25be867e319 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+c6502d30dce8bc9c7667ee0f98831d5c52a1d03f Merge branch 'hwmon-g762' into hwmon-staging
+5ee89cd016fc7d4673b41548b0de9f59a6dbe3bb Merge branch 'hwmon-emc2103' into hwmon-staging
+d3fc5d81568b2b43d1e5fcf29b06cfd48b62402f Merge branch 'hwmon-amc6821' into hwmon-staging
+496b95e0c4f4cca81e90dc775c01053ca49d17c5 Merge branch 'hwmon-max16065' into hwmon-staging
+03fb5f5cd6a0b5102ee1faf001eedae345df8aa3 Merge branch 'hwmon-staging' into testing
+b0be766a65943563d8bca7cc9debf754081ecbf8 Merge branch 'fixes-v6.12' into testing
 
---===============1816392668335756240==--
+--===============8150827245403253768==--
