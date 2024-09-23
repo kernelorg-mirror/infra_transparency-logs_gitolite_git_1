@@ -1,42 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8831245124683044908=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Sep 2024 17:58:00 -0000
-Message-Id: <172711428016.1544333.11770774739195807705@gitolite.kernel.org>
-
---===============8831245124683044908==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 23 Sep 2024 18:07:28 -0000
+Message-Id: <172711484860.1551999.6544798518768473342@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 814c9601700ecb1de41495529cee57184a2b8eca
-    new: cb91430d0c8c26e5027fe6fe55935e8e9661f2c8
-    log: revlist-814c9601700e-cb91430d0c8c.txt
-
---===============8831245124683044908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-814c9601700e-cb91430d0c8c.txt
-
-e8fa75580e7dd1e77e60470052f0c85c0acbbc56 nfs: add LOCALIO support
-c34ab453c3eece2d84142db27490c3d79c2f2854 nfs: enable localio for non-pNFS IO
-39aeb39e9c681bf78d9099d354251a148660d3b6 pnfs/flexfiles: enable localio support
-68627f28080613e8079987814144fda720743436 nfs/localio: use dedicated workqueues for filesystem read and write
-e1f5f7ddacdf40c49259d841e39778d311962f6a nfs: implement client support for NFS_LOCALIO_PROGRAM
-f8110cbb69f81a02aad8f7a51019a157760cf85b nfs: add Documentation/filesystems/nfs/localio.rst
-ee363c575404bb5fb86304475b8d82691a7fb560 nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
-50ceb38db7400ef76ea6f52cfb213b95a699b837 nfs: add "NFS Client and Server Interlock" section to localio.rst
-54bb4791d2e57e9c40c39ac9eaaef4e4d11c2404 nfs_common: fix race in NFS calls to nfsd_file_put_local() and nfsd_serv_put()
-1db4f995bd43df76909df5f52bf10a30fe1a0e9e nfs/localio: always verify completion of IO before acknowledging
-e68c4e1c561f4c7fb88c810baff4be5935d664f5 filemap: Fix bounds checking in filemap_read()
-cb91430d0c8c26e5027fe6fe55935e8e9661f2c8 filemap: filemap_read() should check that the offset is positive or zero
-
---===============8831245124683044908==--
+  - ref: refs/heads/kbuild
+    old: 1c7b917613eb13af2563c311bcbfcc8689262da0
+    new: fa911d1f377bbe4cc47e58afbd8fff7750b7ac62
+    log: |
+         fc1c79be45485565dc145fd03ee38bca89be8fbd kbuild: remove unnecessary export of RUST_LIB_SRC
+         062a1481cf275d39d3cda99f8357f2f8bdd8f611 kbuild: doc: update the description about Kbuild/Makefile split
+         1a59bd3ca5d8fde10d082e56c3073f7fa563e73b kbuild: doc: remove description about grepping CONFIG options
+         a866eda43f4f0d0c4dd53af81f15375a4b799eb8 kbuild: doc: remove outdated description of the limitation on -I usage
+         7813cd68ea7ae909676aea19411b5c9c20436ebb kbuild: doc: throw out the local table of contents in modules.rst
+         803d5059529aaabd53aabd5cd2c7b405824601b7 kbuild: doc: drop section numbering, use references in modules.rst
+         e873fb948283a595bba6228efc69ed1191f45689 kbuild: doc: remove the description about shipped files
+         2eb5d7f2429945aeb4730c7c310a0e1b5ae4c8d0 kbuild: doc: describe the -C option precisely for external module builds
+         fa911d1f377bbe4cc47e58afbd8fff7750b7ac62 kbuild: doc: replace "gcc" in external module description
+         
