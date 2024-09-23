@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6692496361084540246=="
+Content-Type: multipart/mixed; boundary="===============8831245124683044908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Sep 2024 17:57:48 -0000
-Message-Id: <172711426884.1544105.16515612121286281502@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 17:58:00 -0000
+Message-Id: <172711428016.1544333.11770774739195807705@gitolite.kernel.org>
 
---===============6692496361084540246==
+--===============8831245124683044908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-6.12
+  - ref: refs/heads/nfs-localio-for-next
     old: 814c9601700ecb1de41495529cee57184a2b8eca
     new: cb91430d0c8c26e5027fe6fe55935e8e9661f2c8
     log: revlist-814c9601700e-cb91430d0c8c.txt
 
---===============6692496361084540246==
+--===============8831245124683044908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ee363c575404bb5fb86304475b8d82691a7fb560 nfs: add FAQ section to Documentation/f
 e68c4e1c561f4c7fb88c810baff4be5935d664f5 filemap: Fix bounds checking in filemap_read()
 cb91430d0c8c26e5027fe6fe55935e8e9661f2c8 filemap: filemap_read() should check that the offset is positive or zero
 
---===============6692496361084540246==--
+--===============8831245124683044908==--
