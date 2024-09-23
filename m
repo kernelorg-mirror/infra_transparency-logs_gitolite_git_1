@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6103561759252626410=="
+Content-Type: multipart/mixed; boundary="===============1637364096372583698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Sep 2024 18:13:13 -0000
-Message-Id: <172711519328.1556483.14916632151822796346@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 18:13:19 -0000
+Message-Id: <172711519950.1556694.7745509317691048277@gitolite.kernel.org>
 
---===============6103561759252626410==
+--===============1637364096372583698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next
+  - ref: refs/heads/nfs-localio-for-6.12
     old: cb91430d0c8c26e5027fe6fe55935e8e9661f2c8
     new: 5c8013ff67e6eacc83f818aac14439a353ac476e
     log: revlist-cb91430d0c8c-5c8013ff67e6.txt
 
---===============6103561759252626410==
+--===============1637364096372583698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -483,4 +483,4 @@ a90030d370f1f6ce1e0d08fb890367827187ae82 nfs: add "NFS Client and Server Interlo
 0f0a75eb24702fc9c04506febdc07cb8010a956f filemap: Fix bounds checking in filemap_read()
 5c8013ff67e6eacc83f818aac14439a353ac476e filemap: filemap_read() should check that the offset is positive or zero
 
---===============6103561759252626410==--
+--===============1637364096372583698==--
