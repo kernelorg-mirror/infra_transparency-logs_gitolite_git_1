@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7345204745652338217=="
+Content-Type: multipart/mixed; boundary="===============3143748369682919554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Sep 2024 20:52:53 -0000
-Message-Id: <172712477388.1682856.12812357897936449395@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 20:53:04 -0000
+Message-Id: <172712478447.1683142.13991758939689321053@gitolite.kernel.org>
 
---===============7345204745652338217==
+--===============3143748369682919554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-6.12
+  - ref: refs/heads/nfs-localio-for-next
     old: 5c8013ff67e6eacc83f818aac14439a353ac476e
     new: c07ee40a8e75694d2efb9505065272c36102b62b
     log: revlist-5c8013ff67e6-c07ee40a8e75.txt
 
---===============7345204745652338217==
+--===============3143748369682919554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ f7d7a6fd801068612cf5d91acfaa967a54740e65 nfs/localio: always verify completion o
 6d92e8bfdbd16e8bbcf562cc676b8aa66f4c1f82 filemap: Fix bounds checking in filemap_read()
 c07ee40a8e75694d2efb9505065272c36102b62b filemap: filemap_read() should check that the offset is positive or zero
 
---===============7345204745652338217==--
+--===============3143748369682919554==--
