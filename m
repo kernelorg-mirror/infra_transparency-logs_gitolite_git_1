@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Sep 2024 17:50:28 -0000
-Message-Id: <172711382803.1538582.6656989447825810936@gitolite.kernel.org>
+Date: Mon, 23 Sep 2024 17:50:36 -0000
+Message-Id: <172711383627.1538782.5614803157210751019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 27c5b7a087b1b5759bc20c95f00d26583bf7a173
+  - ref: refs/heads/nfs-localio-for-6.12
+    old: d695620c54a449fe0da1c2bbb405019dc98c3228
     new: 814c9601700ecb1de41495529cee57184a2b8eca
     log: |
          0458a7b445c11c51a191d281c92f230d6a2eb2d6 nfs/localio: always verify completion of IO before acknowledging
