@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 23 Sep 2024 15:58:07 -0000
-Message-Id: <172710708729.1447255.2259028225160303565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 23 Sep 2024 16:00:33 -0000
+Message-Id: <172710723310.1450567.17979695544429082594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/v6.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
+  - ref: refs/heads/dev
+    old: 8b56d3f08d08d12df73de05f338edb84506247f2
+    new: 8bedd862edfbb9a5e54dd37abede29020dd8fdfb
+    log: |
+         8bedd862edfbb9a5e54dd37abede29020dd8fdfb erofs-utils: release 1.8.2
+         
