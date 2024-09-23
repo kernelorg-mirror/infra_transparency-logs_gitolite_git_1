@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 23 Sep 2024 16:57:07 -0000
-Message-Id: <172711062711.1495767.8582362210629798960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 23 Sep 2024 17:00:03 -0000
+Message-Id: <172711080303.1498056.3867627566139162130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 72c0aa37fe0104f347242a652f3ab3683967bbf0
-    new: 4e65ba2a3dc7455a92cdadda2f5cffa9496c159c
-    log: |
-         4e65ba2a3dc7455a92cdadda2f5cffa9496c159c libkmod: Avoid misaligned memory accesses
-         
+  - ref: refs/tags/sched_ext-for-6.12-rc1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 856f1ec134f7e1bcebb8be94910463005ab3c702
