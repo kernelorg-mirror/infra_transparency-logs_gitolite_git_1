@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Sep 2024 13:20:40 -0000
-Message-Id: <172718404070.2516715.5976015673963145860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 24 Sep 2024 13:24:27 -0000
+Message-Id: <172718426741.2518374.16368585527414226604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 3b067536daa4842adbf685accf47c899a26367d3
-    new: 0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c
+  - ref: refs/heads/kvm-arm64/nv-nv-WIP
+    old: 16a72326d3553c6fba0d53a23d05054012c4da21
+    new: 5e5bc8d683b9d45f161684c3c36fc98002eed386
     log: |
-         0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c bonding: Fix unnecessary warnings and logs from bond_xdp_get_xmit_slave()
+         dc943173708ed79e3d850a7fc791cd9cafc6248a WIP
+         4fd1016df212a428a0236d3b0b60703383f6a73b WIP
+         93cbc6ca00520837cd95b12eb14d57c0289b0a61 WIP
+         5e5bc8d683b9d45f161684c3c36fc98002eed386 WIP
          
