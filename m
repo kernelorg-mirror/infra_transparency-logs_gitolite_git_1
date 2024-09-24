@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1528189998941435968=="
+Content-Type: multipart/mixed; boundary="===============1503852771220466519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 24 Sep 2024 14:57:24 -0000
-Message-Id: <172718984448.2590797.10504089752736671516@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 14:57:27 -0000
+Message-Id: <172718984743.2590937.382754451787670014@gitolite.kernel.org>
 
---===============1528189998941435968==
+--===============1503852771220466519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,37 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 68414d4ca87b7d8b722773347aa8c137589e4683
-    new: f2990f8630531a99cad4dc5c44cb2a11ded42492
-    log: revlist-68414d4ca87b-f2990f863053.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: e7d04bb319cebff1a1bdd4375dd87f0f3d02b9cc
+    new: 1a5ec17b936b509deeae04500e7ec336bf5c4dce
+    log: revlist-e7d04bb319ce-1a5ec17b936b.txt
 
---===============1528189998941435968==
+--===============1503852771220466519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1727189852 +0200
+pusher andi.shyti@kernel.org 1727189855 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1727189842-ecd548734fa0a3f15e107cf26a863316dfd7ac0a
+nonce 1727189845-ec05380315e9d8347afbfcd5bd9fb0f8c3bcf1ed
 
-68414d4ca87b7d8b722773347aa8c137589e4683 f2990f8630531a99cad4dc5c44cb2a11ded42492 refs/heads/i2c/i2c-host-fixes
+e7d04bb319cebff1a1bdd4375dd87f0f3d02b9cc 1a5ec17b936b509deeae04500e7ec336bf5c4dce refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvLTXBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u3kkBAJZWCK4UMSRgJo9WiDkeWwsfPozA
-QogmpUrFJEUWjNezAQClrw+MoYtINDX+5TLhlE0w1BGAlhZ+uLjEIM5oxJt1Aw==
-=VH37
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvLTXxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uiJkBAOZQuH83kAGqmwelIbIApevTCZkX
+53gE5rbEIjVCV3ovAQCJpvRFesgQ/5ELQI8wiaI9sVUnpyLEfssuaqPZZEzqDA==
+=m9nl
 -----END PGP SIGNATURE-----
 
---===============1528189998941435968==
+--===============1503852771220466519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68414d4ca87b-f2990f863053.txt
+Content-Disposition: attachment; filename=revlist-e7d04bb319ce-1a5ec17b936b.txt
 
-8d391972ae2d4fcee9c928581dfb6cb4ce6a3938 gfs2: Remove __gfs2_writepage()
-e5ac17199275faffc5399ff7c8a0bea1db553f26 gfs2: Remove gfs2_jdata_writepage()
-6888c1e85f5db129e6ddcff879bb127bbfdb5c64 gfs2: Remove gfs2_aspace_writepage()
-116249b12939a8ec13eb50f36b6fffd1c719a9ed isofs: Annotate struct SL_component with __counted_by()
-0e7eb23668948585f3f0ea8c6249338f33fde872 perf tools: Build x86 32-bit syscall table from arch/x86/entry/syscalls/syscall_32.tbl
-e220917fa50774fedb27c075df2261fd664e8ca3 mm: split a folio in minimum folio order chunks
-743a2753a02e805347969f6f89f38b736850d808 filemap: cap PTE range to be created to allowed zero fill in folio_map_range()
-10553a91652d995274da63fc317470f703765081 iomap: fix iomap_dio_zero() for fs bs > system page size
-de631e1a8b71017b8a12b57d07db82e4052555af xfs: use kvmalloc for xattr buffers
-79012cfa00b50ca80fb9f399f3c54b2185d728be xfs: expose block size in stat
-cebf9dacd5c3cec2813215a081509647f777ecc3 xfs: make the calculation generic in xfs_sb_validate_fsb_count()
-5d2784e25d7a6c216c9a4cbed2026febfb0c094c bpftool: Add missing blank lines in bpftool-net doc example
-130078d020e0214809f2e13cf4fb80c646020e94 ext4: factor out ext4_map_create_blocks() to allocate new blocks
-8b8252884f2ff4d28e3ce1a825057b3ad2900c35 ext4: optimize the EXT4_GET_BLOCKS_DELALLOC_RESERVE flag set
-eba8c368c8cb9ea05c08caf3dd1a0d0b87d614dc ext4: don't set EXTENT_STATUS_DELAYED on allocated blocks
 fccd632670408ab3066712aa90cc972b18d1b617 ext4: let __revise_pending() return newly inserted pendings
 f3baf33b9cae0e00fe1870abca952d5dfea53dc6 ext4: passing block allocation information to ext4_es_insert_extent()
 c543e2429640293d9eda8c7841d4b5d5e8682826 ext4: update delalloc data reserve spcae in ext4_es_insert_extent()
@@ -1071,5 +1056,20 @@ f2debe057fcc962e865d57800e39e029887812b4 Merge tag 'leds-next-6.12' of git://git
 4e2c9cd7dce6c7480f236c3ead196ff4e92ed597 Merge tag 'i2c-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 5d69d5a00f80488ddcb4dee7d1374a0709398178 i2c: designware: fix controller is holding SCL low while ENABLE bit is disabled
 f2990f8630531a99cad4dc5c44cb2a11ded42492 i2c: synquacer: Deal with optional PCLK correctly
+e07c9e90b62517107a7eed6450742fc7bcdd5e37 i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
+0ea6c806730fc72dbb9de8e8597a142421d97a69 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
+2ecc5b93d5b58d14bdf34fde50ea7694dcbd36a0 i2c: cadence: Add atomic transfer support for controller version 1.4
+1b28fc0a8d5ad5edd9e872c1d111712b337e089a i2c: isch: Pass pointer to struct i2c_adapter down
+6607a5b102d73f3f62f496e9ae3db1fd7cbd8bca i2c: isch: Use string_choices API instead of ternary operator
+698e0c16a769e71fabb997eb8b05653d90dadc19 i2c: isch: Switch to memory mapped IO accessors
+fb93ce3a586c6ddb8a3f8d86a28e67eb5db24b67 i2c: isch: Use custom private data structure
+a5b98a30e5482ec82d08dbaa804f19af59dd21b7 i2c: isch: switch i2c registration to devm functions
+a27e4ceaf97f9d052b887a681e2b630821d2b41d i2c: isch: Utilize temporary variable to hold device pointer
+cc2f9d31e1cc6de2bffda778e5ae8dc2c75f1303 i2c: isch: Use read_poll_timeout()
+b19fb41902ae158ca017ef224c0a40eb194fc15a i2c: isch: Unify the name of the variable to hold an error code
+4d4dd531b97c72b26e3b62ec3fe0788c7a01160f i2c: isch: Don't use "proxy" headers
+877b6a1a06b35f51c148713d0338a4bd84107955 i2c: isch: Prefer to use octal permission
+9852803b3322d9d0ca94f34dacec8b06a2015d11 i2c: isch: Convert to kernel-doc
+1a5ec17b936b509deeae04500e7ec336bf5c4dce Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============1528189998941435968==--
+--===============1503852771220466519==--
