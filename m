@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8098079708520906262=="
+Content-Type: multipart/mixed; boundary="===============0437325829421202702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 24 Sep 2024 12:17:20 -0000
-Message-Id: <172718024038.2466260.177950368901443053@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 12:17:27 -0000
+Message-Id: <172718024782.2466434.4910346864455083738@gitolite.kernel.org>
 
---===============8098079708520906262==
+--===============0437325829421202702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,46 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 717338e2b23309470e218f0c58177ece62b8d458
-    new: c9d60d22093e11f11824bdcea97a765854783202
-    log: revlist-717338e2b233-c9d60d22093e.txt
+  - ref: refs/heads/main
+    old: 6513eb3d3191574b58859ef2d6dc26c0277c6f81
+    new: 3b067536daa4842adbf685accf47c899a26367d3
+    log: revlist-6513eb3d3191-3b067536daa4.txt
+  - ref: refs/heads/master
+    old: 6513eb3d3191574b58859ef2d6dc26c0277c6f81
+    new: 3b067536daa4842adbf685accf47c899a26367d3
+    log: revlist-6513eb3d3191-3b067536daa4.txt
 
---===============8098079708520906262==
+--===============0437325829421202702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1727180245 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1727180253 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1727180236-865ec6a8ae1ab9725c39bc1fcbca2448798f8377
+nonce 1727180243-1b5f6f924fde47372efb013d1e954decd2356758
 
-717338e2b23309470e218f0c58177ece62b8d458 c9d60d22093e11f11824bdcea97a765854783202 refs/heads/testing
+6513eb3d3191574b58859ef2d6dc26c0277c6f81 3b067536daa4842adbf685accf47c899a26367d3 refs/heads/main
+6513eb3d3191574b58859ef2d6dc26c0277c6f81 3b067536daa4842adbf685accf47c899a26367d3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbyrdUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b4gKB/9CkW5Kf8TW/OFWitjPHuQ0yZtlhY55
-saOsWzb/rOIhglUJSO0/JOq+2qPcFTkvcA8519PhDWB6cWKAKb5xSj6wr5D7vLa+
-MzE9umw4q/oRJ4WYj5/wm8G8pPgWvDg/w4txh6Iyd+H4pM/9Wb8E35w5UWAMt6U/
-RuM2ospvudU+LnhndL8DLPHTHNsQnNLmkVq1WtHNVcr0HkPyF2n6luslOd9KovHM
-gaqedxhuDA3ZjaT40RolNWhGoRFHjxWMBpVJR3tVzBjFRX9P5AIuLbK51oni9mWq
-XbjvVeqfPDDzv6AcBDVwtQrV54O2xNQHtYsVtyMSJF/Egjl3zM2vTV6a
-=ZRqz
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmbyrd0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b/UcB/0W+yJkBsu1XozGIV2P1QMiWZ1JgAyA
+mSZtAj8s3zFhqXYewNZlPlH/JOFkICtdCAIVszgz/492zcCoiKmnzP+j+J7q5JEU
+VO4/TqQsQyZmcHRsAb6Xu6AAvwWKoEJlAn9TzqRqrp+hq7D7YL+YfJFBvsXUvoCR
+Q8TXE2TnQto2vhPYmptmtuwqf/c7SeXNGI27mX6ayj2paKaKdTk6JpU5716+jL+a
+CJNfTzZAL63WFPWI/QIKuakcRknCmVw0X+oY90ciRRjQ4RBKcoqilP63hVYo457G
+ijFKfj+mez5D3jt4QpsRPG3ngw0hBGeyj8FHpG/6x+MdDlHZWcvbQ4uq
+=uCt6
 -----END PGP SIGNATURE-----
 
---===============8098079708520906262==
+--===============0437325829421202702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-717338e2b233-c9d60d22093e.txt
+Content-Disposition: attachment; filename=revlist-6513eb3d3191-3b067536daa4.txt
 
-2e25147a6560b684917d7f7142422c9901badfdd net: dm9051: fix module autoloading
-c76afed1bace01f5634ca18b3a5c85650ea653ad net: ag71xx: fix module autoloading
-7d2bd8ac9d2494cf9b16c4b00df9424ad24ed18c net: airoha: fix module autoloading
-ec4d817c608bcac5504e08eae72e3090a75111aa Merge branch 'net-fix-module-autoloading'
 cf740e3cc761560beefae4d772fd350e46f600fc net: phy: vitesse: implement MDI-X configuration in vsc73xx
 3410d0e14f9a6856386c6a8eb2310cbc58191777 net: mana: Implement get_ringparam/set_ringparam for mana
 85d4cf56e95ae0bb381587f229420a0eb6ab1d0a net/handshake: use sockfd_put() helper
@@ -918,6 +919,12 @@ afd42170c8a6e68edd3f3a7f2aacd2bfbedb58b2 net: ethernet: oa_tc6: add helper funct
 ac49b950bea9e76ae435b9f9c340a4da7261364b dt-bindings: net: add Microchip's LAN865X 10BASE-T1S MACPHY
 3cfb5aa10cb78571e214e48a3a6e42c11d5288a1 Merge branch 'add-support-for-open-alliance-10base-t1x-macphy-serial-interface'
 73613840a8896f4f859eea489cb4a7a656939e70 workqueue: Clear worker->pool in the worker thread context
+94b0818fa63555a65f6ba107080659ea6bcca63e can: bcm: Clear bo->bcm_proc_read after remove_proc_entry().
+75b3189540578f96b4996e4849b6649998f49455 can: esd_usb: Remove CAN_CTRLMODE_3_SAMPLES for CAN-USB/3-FD
+d0fa06408ccf96b1d3d93d97fad6618e942efd38 can: kvaser_pciefd: Enable 64-bit DMA addressing
+801ad2f87b0c6d0c34a75a4efd6bfd3a2d9f9298 can: m_can: enable NAPI before enabling interrupts
+2c09b50efcad985cf920ca88baa9aa52b1999dcc can: m_can: m_can_close(): stop clocks after device has been shut down
+717338e2b23309470e218f0c58177ece62b8d458 Merge patch series "can: m_can: fix struct net_device_ops::{open,stop} callbacks under high bus load"
 fc8c818e756991f5f50b8dfab07f970a18da2556 PCI: Fix potential deadlock in pcim_intx()
 87009709717f144c5581fdad3a5e479fe4c364c6 Merge tag 'nf-24-09-12' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 3e705251d998c9688be0e7e0526c250fec24d233 net: netfilter: move nf flowtable bpf initialization in nf_flow_table_module_init()
@@ -1073,7 +1080,5 @@ ced8e8b8f40accfcce4a2bbd8b150aa76d5eff9a r8169: add tally counter fields added w
 ec8234717db8589078d08b17efa528a235c61f4f net: ravb: Fix R-Car RX frame size limit
 bfde62650c73a9524c52e4a324349e99c7c39a48 Merge branch 'fix-maximum-tx-rx-frame-sizes-in-ravb-driver'
 3b067536daa4842adbf685accf47c899a26367d3 r8169: add missing MODULE_FIRMWARE entry for RTL8126A rev.b
-70b7e3e1d23c19924e0a3e94efa795b683895d60 can: {cc770,sja1000}_isa: allow building on x86_64
-c9d60d22093e11f11824bdcea97a765854783202 can: rockchip: CAN_ROCKCHIP_CANFD should depend on ARCH_ROCKCHIP
 
---===============8098079708520906262==--
+--===============0437325829421202702==--
