@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 24 Sep 2024 14:59:46 -0000
-Message-Id: <172718998617.2592082.12846058125374407170@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1352210846960063088=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/bugspray/bugspray
+Date: Tue, 24 Sep 2024 15:06:26 -0000
+Message-Id: <172719038666.2598734.14219850685293819608@gitolite.kernel.org>
+
+--===============1352210846960063088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/utils/bugspray/bugspray
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 62a199d4b564afd621cf704a1195c2af4a62df09
-    new: dccdc0be6b198b213c0cd2912e8d433a16f21cc4
+    old: 039caa58888c99f3f41174d50a381ffd684b3616
+    new: 744ddbda47ebff3f532f1b4e13e8dccee64c87b1
     log: |
-         115bcd529aa70bfb303936a9157fafd32d5c4c2c libkmod: mass convert with clang-format
-         1d0117f86acb4bffc4d4bac5009e3f26892dd66e shared: mass convert with clang-format
-         4c760f7edd27b9a0288162e5568eeda7a3485686 testsuite: mass convert with clang-format
-         f34d115d09a85766137399d8e894633ba55f23f1 tools: mass convert with clang-format
-         dccdc0be6b198b213c0cd2912e8d433a16f21cc4 ci: add clang-format action
+         744ddbda47ebff3f532f1b4e13e8dccee64c87b1 pi2bz: don't actually strip signature
          
+
+--===============1352210846960063088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1727190394 -0400
+pushee gitolite.kernel.org:pub/scm/utils/bugspray/bugspray
+nonce 1727190385-5d58998ea9f43c28d53437f20599587a86239c5c
+
+039caa58888c99f3f41174d50a381ffd684b3616 744ddbda47ebff3f532f1b4e13e8dccee64c87b1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZvLVegAKCRC2xBzjVmSZ
+bMvOAP4vJ5Y2oPoG5kv0BrPdD9+s1AvMkP8VBiSiS6AC1E0sEQEAy6ea/welwMRO
+ObGdmNhFNswZ3NCR3vQ01YfF/5I1NQs=
+=PA5V
+-----END PGP SIGNATURE-----
+
+--===============1352210846960063088==--
