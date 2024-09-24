@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 24 Sep 2024 11:30:41 -0000
-Message-Id: <172717744123.2397809.11313302710351992182@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 11:31:16 -0000
+Message-Id: <172717747693.2398280.6878295650733421057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/sync-msg
-    old: e6ebdde4082330a8a895a983c790b4e707f016e6
-    new: cefe4819b71d21da52d9556f0baeb94138d1bc5f
+    old: cefe4819b71d21da52d9556f0baeb94138d1bc5f
+    new: 78b68f4dee16dc454b6a54c1c1a3673ca3b17cc1
     log: |
-         cefe4819b71d21da52d9556f0baeb94138d1bc5f test/msg-ring-sync: ensure test is skipped on older kernels
+         78b68f4dee16dc454b6a54c1c1a3673ca3b17cc1 test/helpers: fix spelling error
          
