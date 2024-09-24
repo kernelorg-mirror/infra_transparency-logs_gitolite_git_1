@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7811471340682726438=="
+Content-Type: multipart/mixed; boundary="===============1405841425375417944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 24 Sep 2024 13:31:34 -0000
-Message-Id: <172718469408.2525222.12353554357244323546@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 13:32:03 -0000
+Message-Id: <172718472315.2525532.10621068988206202669@gitolite.kernel.org>
 
---===============7811471340682726438==
+--===============1405841425375417944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,87 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo-preparation
-    old: 1462e8e1c93ecb96b5820ec28f7cbbb8a5aeb732
-    new: d35bb26e150d7fb7434959fad9fcaeaac99906e6
-    log: revlist-1462e8e1c93e-d35bb26e150d.txt
-  - ref: refs/tags/ath12k-mlo-preparation-202409241331
+  - ref: refs/heads/ath12k-mlo
+    old: 706cead2249a49cd1847f31df28cd0d432fed126
+    new: 7f03e1b207bd7763f8e02113d43f19bb4bd92851
+    log: revlist-706cead2249a-7f03e1b207bd.txt
+  - ref: refs/tags/ath12k-mlo-202409241332
     old: 0000000000000000000000000000000000000000
-    new: d35bb26e150d7fb7434959fad9fcaeaac99906e6
+    new: 7f03e1b207bd7763f8e02113d43f19bb4bd92851
 
---===============7811471340682726438==
+--===============1405841425375417944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1462e8e1c93e-d35bb26e150d.txt
+Content-Disposition: attachment; filename=revlist-706cead2249a-7f03e1b207bd.txt
 
-58c2fa54257d640c83137b44e12c174fd660a485 Merge tag 'usb-serial-6.11-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-1c47c0d6014c832ad8e2ba04fc2c5b7070d999f7 io_uring/rsrc: ensure compat iovecs are copied correctly
-9f3297511dae19b28b333134cbf7e8746722d6a5 igc: Add MQPRIO offload support
-8dcf2c212078d8ac0714ae872a5496a36eda21e6 igc: Get rid of spurious interrupts
-ad7dffae4e40b5ed3b145b08625a4b1a9725211f igc: Add Energy Efficient Ethernet ability
-1a5caec7f80ca2e659c03f45378ee26915f4eda2 regulator: core: Stub devm_regulator_bulk_get_const() if !CONFIG_REGULATOR
-f9cb5e01cc4e57d86e906330828139efc06de602 igc: Move the MULTI GBT AN Control Register to _regs file
-40927f3d0972bf86357a32a5749be71a551241b6 nfsd: fix nfsd4_deleg_getattr_conflict in presence of third party lease
-f274495aea7b15225b3d83837121b22ef96e560c io_uring/kbuf: return correct iovec count from classic buffer peek
-b408473ea01b2e499d23503e2bf898416da9d7ac bpf: Fix a crash when btf_parse_base() returns an error pointer
-150b572a7c1df30f5d32d87ad96675200cca7b80 MAINTAINERS: PCI: Add NXP PCI controller mailing list imx@lists.linux.dev
-fe1910f9337bd46a9343967b547ccab26b4b2c6e tcp_bpf: fix return value of tcp_bpf_sendmsg()
-74ce94ac38a6eac2ffc235739294f24964fd0a86 sfc: Convert to use ERR_CAST()
-f24f966feb62164f4a68d1b84e866504904ac4ac nfp: Convert to use ERR_CAST()
-13c6bba601ac2928e330e14e178c7ebfabb19392 Merge tag 'iommu-fixes-v6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-b26b64493343659cce8bbffa358bf39e4f68bdec net: openvswitch: Use ERR_CAST() to return
-8c2bd38b95f75f3d2a08c93e35303e26d480d24e icmp: change the order of rate limits
-b056b4cd9178f7a1d5d57f7b48b073c29729ddaa icmp: move icmp_global.credit and icmp_global.stamp to per netns storage
-f17bf505ff89595df5147755e51441632a5dc563 icmp: icmp_msgs_per_sec and icmp_msgs_burst sysctls become per netns
-789ed80afa8c031bb125341a194e37aea71f1d46 Merge branch 'icmp-avoid-possible-side-channels-attacks'
-6af91e3d2cfc8bb579b1aa2d22cd91f8c34acdf6 Documentation: Add missing fields to net_cachelines
-8d80c9903e3f6f9a99e8fd4374c2cf0745d0b708 Merge tag 'soundwire-6.11-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-32fafaf2ab185d26337f79d3ae558b4cb2b4a5d4 Merge tag 'phy-fixes-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-922842a3bfbeff64dfebe7f01ce1f2ab01e4509d Merge tag 'dmaengine-fix-6.11' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-fb1a804535adf538532a2f6a27b1c7775efe5368 Merge tag 'pm-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-fb24560f31f9dff2c97707cfed6029bfebebaf1c Merge tag 'lsm-pr-20240830' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-cff69f72d33318f4ccfe7d5ff6c5616d00dd45a7 ethtool: pse-pd: move pse validation into set
-9cc7b1705141d1a077493dc107ed626e8dc84681 Merge tag 'at91-fixes-6.11' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-0a6ad4d9e1690c7faa3a53f762c877e477093657 e1000e: avoid failing the system during pm_suspend
-0568ee1198f8645864f55671b82e5175b08d8c83 i40e: Add Energy Efficient Ethernet ability for X710 Base-T/KR/KX cards
-7eba264a3c102b6c006aa429f7eb25d2b8533da7 mac802154: Correct spelling in mac802154.h
-3682c302e72d71abeb17a81a6d29f281b22928e2 ieee802154: Correct spelling in nl802154.h
-ced52c6ed257315c922dc870aafbc64dc8bd746d dt-bindings: can: renesas,rcar-canfd: Document R-Car V4M support
-09328600c2f930e8814cb9deff630a56788cc8e4 dt-bindings: can: convert microchip,mcp251x.txt to yaml
-dc2ddcd136fe9b6196a7dd01f75f824beb02d43f can: j1939: use correct function name in comment
-2423cc20087ae9a7b7af575aa62304ef67cad7b6 can: netlink: avoid call to do_set_data_bittiming callback with stale can_priv::ctrlmode
-a9c0fb33fd454fda5283281e47d556c81ee9fa47 can: kvaser_pciefd: Use IS_ENABLED() instead of #ifdef
-0315c0b5ed253853a7b07dc97487522345110548 can: kvaser_usb: Simplify with dev_err_probe()
-dd885d90c047dbdd2773c1d33954cbd8747d81e2 can: kvaser_pciefd: Use a single write when releasing RX buffers
-8ae22de9d2eae3c432de64bf2b3a5a69cf1d1124 Bluetooth: qca: If memdump doesn't work, re-enable IBS
-c898f6d7b093bd71e66569cd6797c87d4056f44b Bluetooth: hci_sync: Introduce hci_cmd_sync_run/hci_cmd_sync_run_once
-227a0cdf4a028a73dc256d0f5144b4808d718893 Bluetooth: MGMT: Fix not generating command complete for MGMT_OP_DISCONNECT
-532f8bcd1c2c4e8112f62e1922fd1703bc0ffce0 Revert "Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE"
-1e9683c9b6ca88cc9340cdca85edd6134c8cffe3 Bluetooth: MGMT: Ignore keys being loaded with invalid type
-f33b9ab0495b7e3bb01bf6d76045f078e20ada65 nouveau: fix the fwsec sb verification register.
-ad246d9f04aa037f8e8bbf8573c9af527114cead Merge tag 'io_uring-6.11-20240830' of git://git.kernel.dk/linux
-216d163165a937ee9c1d0e9c26fe7a6f7d27ac4c Merge tag 'block-6.11-20240830' of git://git.kernel.dk/linux
-8101b2766d5bfee43a4de737107b9592db251470 Merge tag 'pci-v6.11-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-db213b0cfe3268d8b1d382b3bcc999c687a2567f firmware: qcom: uefisecapp: Fix deadlock in qcuefi_acquire()
-1934261d897467a924e2afd1181a74c1cbfa2c1d Merge tag 'input-for-v6.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-47afa284b96c62bda127604e6091fd5c9fd7e42c ipv4: Unmask upper DSCP bits in RTM_GETROUTE output route lookup
-a63cef46adcbedd4f4ea7401773a310edca53131 ipv4: Unmask upper DSCP bits in ip_route_output_key_hash()
-4805646c42e51d2fbf142864d281473ad453ad5d ipv4: icmp: Unmask upper DSCP bits in icmp_route_lookup()
-ff95cb5e521b60d046e6571ada697a0977b189c3 ipv4: Unmask upper DSCP bits in ip_sock_rt_tos()
-356d054a4967e6190ee558b8e839fad3e9db35ec ipv4: Unmask upper DSCP bits in get_rttos()
-f6c89e95555ace0cb10d01b07756bfa5db5ee7fa ipv4: Unmask upper DSCP bits when building flow key
-b261b2c6c18bcb81d69de011fd991bdfb97259f7 xfrm: Unmask upper DSCP bits in xfrm_get_tos()
-13f6538de2b845650e68996621489de547b0337e ipv4: Unmask upper DSCP bits in ip_send_unicast_reply()
-6a59526628ad6dadf389f45ddb3f75db44930897 ipv6: sit: Unmask upper DSCP bits in ipip6_tunnel_xmit()
-939cd1abf080c629552a9c5e6db4c0509d13e4c7 ipvlan: Unmask upper DSCP bits in ipvlan_process_v4_outbound()
-c5d8ffe29cf2873b62e4bc008ca48d045b6cde88 vrf: Unmask upper DSCP bits in vrf_process_v4_outbound()
-50033400fc3a4744ea3ef6b7ec6443c5ec15a797 bpf: Unmask upper DSCP bits in __bpf_redirect_neigh_v4()
-43d0035b2c6a0e309f6023aaf569c9ec0e4b55e3 Merge branch 'unmask-dscp-bits'
-35667a2969d80a08b1df4066cbf282fc5d875cc4 Merge tag 'arm-fixes-6.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0efdc097965bcf60d1db62f100ef544714714e88 Merge tag 'xfs-6.11-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-6a2fcc51a7a1e92984350e7dd94122db5b8927f2 Merge tag 'nfsd-6.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-770b0ffe28b4f1a18a90e9093148b8a74bdfdd84 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e8784b0aef62cd6117e1c93c64d060e4c7314a1f Merge tag 'usb-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 d8b762070c3fde224f8b9ea3cf59bc41a5a3eb57 power: sequencing: qcom-wcn: set the wlan-enable GPIO to output
 8463be84486c19221198a76436d9177f395bb2eb Merge tag 'pwrseq-fixes-for-v6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1053,5 +986,72 @@ e2f4563bd1fadfacb740fdcdf583eec7979b1200 wifi: wcn36xx: fix a typo in struct wcn
 f99c8ec77d3a94f2136718e04c0d0f46cf12eb00 Merge branch 'ath-next'
 a800f2aa46c12bb45266d441c00bc2ce24eb8f57 Merge remote-tracking branch 'mhi/mhi-next'
 d35bb26e150d7fb7434959fad9fcaeaac99906e6 Add localversion-wireless-testing-ath
+cbcf75275e82a8cff030122159c4bec93f75f1ff wifi: mac80211: fix assigning channel in activate links
+0dba593206f7bb6488c09b6e8bcb3f3513f6c8d5 wifi: ath12k: Refactor core start api
+79abc899c2664eaa02715c3353214cc66bcc37f5 wifi: ath12k: Add helpers to get or set ath12k_hw
+a6f46e1b263b02db8ceafa38d4effa6d5a8db07e wifi: ath12k: Add ath12k_get_num_hw api
+1819dd3cd9f1c5f89b76739dd5ff93ccafef00cb wifi: ath12k: Introduce QMI firmware ready flag
+ce42e8a3dd53f21d9dc9f986226a67a034a72371 wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
+9c5673075b2366bb8cacb4d054681219b96d15cd wifi: ath12k: Introduce device group abstraction
+13790c0068d7ca7beabc25116bc03957c9288a0a wifi: ath12k: refactor core start based on hardware group
+e7ee94ae26fccc72faa39f803a925d63c6647a1a wifi: ath12k: move ath12k_hw from per device to group
+c9729a9efb83bff470517c9e4f98eb9db3240f62 wifi: ath12k: Send QMI host capability after device group is ready
+4d37692de5a9e7417aa5313facb03e1c5618975d wifi: ath12k: Introduce mlo_capable flag for device group
+50c381019167dae38a9b6a8b2f456f5c54d2a1f3 wifi: ath12k: Send partner device details in QMI MLO capability
+4cfe6c5992a86757d9474ace7a2ab48001faf48a wifi: ath12k: Refactor ath12k_qmi_alloc_target_mem_chunk function
+5f4262cff59a41f32454cf80d39ed7f68a30529d wifi: ath12k: Add support to allocate MLO global memory region
+063da95869cb68fad389a03da046ede6291729b3 wifi: ath12k: Add MLO WMI setup and teardown helper APIs
+642bd7b6cb6ec84a0d7738beb37d26d789cc7b1f wifi: ath12k: Add MLO setup and teardown from core start
+6c5f843e03116f6eee37784dad9acab320b6c58a wifi: ath12k: avoid redundant code in DP Rx error process
+d68a27907b06de3848e424ae04ad4041baa8c985 wifi: ath12k: Move to hw link id based Rx process
+ec8f2c0b182c8e94951fa6a6f3237cc1b2ca91e4 wifi: ath12k: Add partner device buffer support in data path Rx process
+3c2f87564eb3dfa0f532ae980aaa02489df44c38 wifi: ath12k: Add helper function to init partner cmem configuration
+a975c2313c6f4ff7e7038d8e660a681f1106caa3 wifi: cfg80211: check radio iface combination for multi radio per wiphy
+65b6fd1dcfaeb40f1980bfefe529fa434c525800 wifi: ath12k: Introduce iface combination cleanup helper
+29f3323cc279b6c704e9b5da2978a69196815d46 wifi: ath12k: Refactor radio freq low and high information
+ab472a86a174a8285bd4f390842941f78d3fcbfd wifi: ath12k: Advertise multi device iface combination
+da263357516c06f7ff1572713d2e5f5fa9713cf9 wifi: ath12k: prepare vif data structure for MLO handling
+93f3c52826d9611cd53e465972b54024042d0b53 wifi: ath12k: pass ath12k_link_vif instead of vif/ahvif
+f14d1f90ebd4ea9da5e5fa01559616c163c27d5a wifi: ath12k: prepare sta data structure for MLO handling
+fc827fe70f39bcdc641779a58ebc73b1b7d77627 wifi: ath12k: prepare vif config caching for MLO
+b338fec1bbd7d595cbbbe5d8e82faf69b7d2906f wifi: ath12k: modify ath12k_mac_vif_chan for MLO
+8ca7645a196bad29e9a6ccb51a311c70eaa2853b wifi: ath12k: modify ath12k_get_arvif_iter for MLO
+b923215329d20e31a233bd1f876afbb503f214f5 wifi: ath12k: modify ath12k_mac_op_bss_info_changed for MLO
+8073a8e84e0e5cee217400863c8eabd4348a8a3e wifi: ath12k: modify ath12k_mac_op_set_key for MLO
+f44c9a8961fdce10fdd8c4ba4fd110ce0e590e78 wifi: ath12k: update ath12k_mac_op_conf_tx for MLO
+f82038efca65d51911029da2b0f4c10c02662d18 wifi: ath12k: update ath12k_mac_op_update_vif_offload for MLO
+8de2cdaf5e99e4bf9425a6a0583944bc77644dbf wifi: ath12k: Add common log support
+db2bd102dfb1a3d5fd74fd0815aacb8aa3deb149 wifi: ath12k: modify link arvif creation and removal for MLO
+b6bb2e8d4c7032fd77e0da2cc5221da21601dbab wifi: ath12k: MLO vdev bringup changes
+77e9b521fbc6f459c23ea503a2bb553107602e94 wifi: ath12k: Refactor sta state machine
+262bb7cf8260e5e608286b3b489439da0610a352 wifi: ath12k: Add helpers for multi link peer creation and deletion
+20c284329a6bae631a1f8cdb9f457681e2edc0d7 wifi: ath12k: add multi-link flag in peer create command
+cb2e4e8488d68099fdf001256d27abc6a47e6a38 wifi: ath12k: add helper to find multi-link station
+c83d95db13be4a92d4c3b0c6867a3b28b525068b wifi: ath12k: Add MLO peer assoc command support
+d9586c976e60c2647ef278c9eea6fa9380f2d37a wifi: ath12k: Add MLO station state change handling
+79c4cd07b883f8b18f5577f3d882b7ac9a81c190 wifi: ath12k: Support for ath12k_mac_op_change_sta_links
+d8108e26ea3d6c3d841892fe363cd6e54518833e wifi: ath12k: htt: remove value field from struct htt_tlv
+55c7492f4d14e417dcaf745d7094ab7fd7a6e688 wifi: ath12k: Add support for HTT MLO peer map and unmap event
+1600dcd9baf1f42f93b71be09cc3b3413bc72659 wifi: ath12k: add primary link for data path operations
+e4f275ebd7d4d71463276d92fcf593beabe3c0aa wifi: ath12k: use arsta instead of sta
+5b34c48d190343ec80e6ff90ab93e5d444e903cf wifi: ath12k: parse multiple device information from device tree
+011716d8f4f1ecac957f630eeebd59d61deb003c wifi: ath12k: add reo queue lookup table for ML Peers
+2392ddba3dec1aad8d8881dae56c300b9914d341 wifi: ath12k: modify chanctx iterators for MLO
+b122f17ff2c3bdba0951840f99100ff6a507b65e wifi: ath12k: Use mac80211 vif's link conf instead of bss_conf
+c2c501a83a6bc9556c3bb3ed9eedea7e1b4a2bd2 wifi: ath12k: Use mac80211 sta's link_sta instead of deflink
+f4ad96473be632719b878c1d4c6c1f7c2c03c827 wifi: ath12k: handle mac_op_tx and perform address translation for MLO
+c33130272e71a65129ba7711006c1e9ecdb339cb wifi: ath12k: handle mac_op_flush for MLO
+9fe0ee1b765b5103fff39e4a6ebacc62a095c46a wifi: ath12k: handle ath12k_mac_op_ampdu_action for MLO
+c152a03e7c925d6bf242f7c27af278264f2d2563 wifi: ath12k: advertise MLO support and capabilities
+166c14314740a388e5b1107cce6e48bab93caf40 wifi: ath12k: fix potential leak of rx stats memory
+8f94a844b6e786c1d5b9f3d508bd5374f3967b29 wifi: ath12k: do not return invalid link id for scan link
+f219ecfdd1fdded6f7ba38ceb95966287c4585d4 wifi: ath12k: fix ath12k_qmi_alloc_chunk()
+718fdde95a3df3f2c6b49c7b7638a39f880d11e7 wifi: ath12k: fix ar->supports_6ghz usage during hw register
+0e369f0a384445c30795ad76b65f47a6135732ed wifi: ath12k: pass link ID during MLO while delivering skb
+33cb25e21ba0b36923584e5a1d6739267e004b00 wifi: ath12k: handle ath12k_bss_assoc for MLO
+a75ae930c7c825378bc7aacf7be1e887200ab087 wifi: ath12k: symmetrize scan vdev creation and deletion during HW scan
+c3182509962f96de13be2aa38bd2bec157580409 wifi: ath12k: add can_activate_links mac ops
+5e28777edc159aeb2dfe9526a4c9e023e46be52d wifi: ath12k: add no-op without debug print in WMI Rx event
+7f03e1b207bd7763f8e02113d43f19bb4bd92851 wifi: ath12k: remove warning print in htt mlo offset event message
 
---===============7811471340682726438==--
+--===============1405841425375417944==--
