@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 24 Sep 2024 11:35:45 -0000
-Message-Id: <172717774526.2418423.1325151378657034919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Tue, 24 Sep 2024 11:42:32 -0000
+Message-Id: <172717815266.2438811.18167671617303331832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/notes/signatures/tar
-    old: b88a23d1f4f99bc453e73490ac6cb1d12d37aa33
-    new: e518950df02d2f8eb30847eb3a66b7296529bb61
+  - ref: refs/heads/for-next
+    old: fcd2d9e1fdcd7cada612f2e8737fb13a2bce7d0e
+    new: 0ee2bbc902318f10e5597aa48e793aca2e509630
     log: |
-         e518950df02d2f8eb30847eb3a66b7296529bb61 Notes added by 'git notes add'
+         2f3d8ff457982f4055fe8f7bf19d3821ba22c376 fuse: use exclusive lock when FUSE_I_CACHE_IO_MODE is set
+         0ee2bbc902318f10e5597aa48e793aca2e509630 fuse: enable dynamic configuration of fuse max pages limit (FUSE_MAX_MAX_PAGES)
          
