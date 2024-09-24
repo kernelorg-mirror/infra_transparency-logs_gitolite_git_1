@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 24 Sep 2024 15:39:27 -0000
-Message-Id: <172719236767.2624884.5103688485695270254@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 15:39:33 -0000
+Message-Id: <172719237333.2625042.15755776624589430115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20240924-pinctl-sx150x-maple-d8c1f45b9629-v1
+  - ref: refs/heads/pinctl-sx150x-maple
     old: 0000000000000000000000000000000000000000
-    new: 16584c5f862b35ab7973bb9c9e9305aa29800a44
+    new: 5eb55d89a92036afad839e2f88b940890c76b4bb
