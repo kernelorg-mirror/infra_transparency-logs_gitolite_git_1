@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Sep 2024 10:18:48 -0000
-Message-Id: <172717312867.2338300.17238291278000549875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 24 Sep 2024 10:31:36 -0000
+Message-Id: <172717389667.2348944.1692866374345697185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/asoc-imx-maple
-    old: 0000000000000000000000000000000000000000
-    new: 661d53f7da75ef49d5c7fafc20d89cd0d8afe308
+  - ref: refs/heads/kmem_cache_args
+    old: 957c7384fa80018f3f47ec1b1a176c5d1414dab3
+    new: 0000000000000000000000000000000000000000
