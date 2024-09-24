@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 24 Sep 2024 07:57:11 -0000
-Message-Id: <172716463186.2193433.16517795929834218009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 24 Sep 2024 08:00:20 -0000
+Message-Id: <172716482079.2197027.16488610933432295644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: e5dd410acb34c7341a0a93b429dcf3dabf9e3323
-    new: 0e9a2990a93f27daa643b6fa73cfa47b128947a7
+  - ref: refs/heads/testing
+    old: b8469721034300bbb6dec5b4bf32492c95e16a0c
+    new: 645546a05b0370391c0eac0f14f5b9ddf8d00731
     log: |
-         03a9cfc1314bf75cc7a83995f3a029a7ebf49c05 ata: libata-scsi: Fix ata_msense_control_spgt2()
-         0e9a2990a93f27daa643b6fa73cfa47b128947a7 ata: libata-scsi: Fix ata_msense_control() CDL page reporting
+         645546a05b0370391c0eac0f14f5b9ddf8d00731 xfrm: policy: remove last remnants of pernet inexact list
          
