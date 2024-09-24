@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2233665861344416328=="
+Content-Type: multipart/mixed; boundary="===============2117041425030938977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 24 Sep 2024 02:40:29 -0000
-Message-Id: <172714562926.1949653.2406216492758189813@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 02:40:40 -0000
+Message-Id: <172714564058.1949862.16052313168670383644@gitolite.kernel.org>
 
---===============2233665861344416328==
+--===============2117041425030938977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 18ba6034468e7949a9e2c2cf28e2e123b4fe7a50
-    new: abf2050f51fdca0fd146388f83cddd95a57a008d
-    log: revlist-18ba6034468e-abf2050f51fd.txt
+  - ref: refs/heads/testing
+    old: b0be766a65943563d8bca7cc9debf754081ecbf8
+    new: fdde020fb5e94f991726df84c8ca0efa5a135039
+    log: revlist-b0be766a6594-fdde020fb5e9.txt
 
---===============2233665861344416328==
+--===============2117041425030938977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18ba6034468e-abf2050f51fd.txt
+Content-Disposition: attachment; filename=revlist-b0be766a6594-fdde020fb5e9.txt
 
 d7d9ef1f40dc0639ba0901097139fcdc4bedb32e dt-bindings: clock: imx8mp: Add #reset-cells property
 6f0e817175c5b2e453f7ad6a4e9a8a7fd904ee4a clk: imx: clk-audiomix: Add reset controller
@@ -970,5 +970,25 @@ f2debe057fcc962e865d57800e39e029887812b4 Merge tag 'leds-next-6.12' of git://git
 4e2c9cd7dce6c7480f236c3ead196ff4e92ed597 Merge tag 'i2c-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 9ab27b018649c9504e894496cb4d7d8afcffd897 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 abf2050f51fdca0fd146388f83cddd95a57a008d Merge tag 'media/v6.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+5a2e9f8ba8a8f03d4561832b88ccd345a36865f0 mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+55ab89808bf1dc9017b09cb66fc1763454b576c8 ipe: Add missing terminator to list of unit tests
+3fdddb0591dc3f9e5b4b429acc7b424dec41a4d7 Revert "list: test: fix tests for list_cut_position()"
+7c4feeb40e1a03aabf0bad38c5e316fe57c63c17 resource, kunit: add dependency on SPARSEMEM
+7872925d8764652819911a553d12f29019332e4c pm: cpupower: rename raw_pylibcpupower.i
+5bb96ed6bba8ed3fd01c5fe2890cee8436f00fbf m68k: Define NR_CPUS
+85290373e2b31b031e4af990778c72cdd83656e2 resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+2ece55614b92014ffcdbf0627d26cebd3e3268c6 Revert "resource, kunit: add dependency on SPARSEMEM"
+2bcb036dc119b6f7a21f43a99dc1404c5050a76a hwmon: (max16065) Reorder include files to alphabetic order
+2f8329259209a442aab58c5fcac8b053ff4906b6 hwmon: (max16065) Use bit operations
+b11a3fd0303ae231c2797e15cde68687c79c8e3f hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+9a906778eb779097c8826af6b2d4599e0ac55ead Merge branch 'hwmon-next' into hwmon-staging
+d300ea9c9b2e0171183b06e2a403ccadc6812d4f Merge branch 'hwmon' into hwmon-staging
+eb2ab2359593a88430503908a6a94b6c2dfbe1e8 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+95d0e661240a682d4a7d6521be3cf9a7a5493c80 Merge branch 'hwmon-g762' into hwmon-staging
+4fa2b3e9cf605a212ed351144b76c3e478aec1be Merge branch 'hwmon-emc2103' into hwmon-staging
+eafae736349e7e34170b2303e35372734ee360cb Merge branch 'hwmon-amc6821' into hwmon-staging
+24502389c68ff0e8ca9a3daf0d0190b2b5cf5342 Merge branch 'hwmon-max16065' into hwmon-staging
+eb700389dbbcff09b4a63dc3446908606db76351 Merge branch 'hwmon-staging' into testing
+fdde020fb5e94f991726df84c8ca0efa5a135039 Merge branch 'fixes-v6.12' into testing
 
---===============2233665861344416328==--
+--===============2117041425030938977==--
