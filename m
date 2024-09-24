@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1405841425375417944=="
+Content-Type: multipart/mixed; boundary="===============0019036387330547333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 24 Sep 2024 13:32:03 -0000
-Message-Id: <172718472315.2525532.10621068988206202669@gitolite.kernel.org>
+Date: Tue, 24 Sep 2024 13:33:00 -0000
+Message-Id: <172718478096.2526002.7243989743482767794@gitolite.kernel.org>
 
---===============1405841425375417944==
+--===============0019036387330547333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
+  - ref: refs/heads/ath12k-mlo-qcn9274
     old: 706cead2249a49cd1847f31df28cd0d432fed126
     new: 7f03e1b207bd7763f8e02113d43f19bb4bd92851
     log: revlist-706cead2249a-7f03e1b207bd.txt
-  - ref: refs/tags/ath12k-mlo-202409241332
+  - ref: refs/tags/ath12k-mlo-qcn9274-202409241333
     old: 0000000000000000000000000000000000000000
     new: 7f03e1b207bd7763f8e02113d43f19bb4bd92851
 
---===============1405841425375417944==
+--===============0019036387330547333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ c3182509962f96de13be2aa38bd2bec157580409 wifi: ath12k: add can_activate_links ma
 5e28777edc159aeb2dfe9526a4c9e023e46be52d wifi: ath12k: add no-op without debug print in WMI Rx event
 7f03e1b207bd7763f8e02113d43f19bb4bd92851 wifi: ath12k: remove warning print in htt mlo offset event message
 
---===============1405841425375417944==--
+--===============0019036387330547333==--
