@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 24 Sep 2024 12:31:42 -0000
-Message-Id: <172718110273.2478541.14581290771305725250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 24 Sep 2024 12:37:58 -0000
+Message-Id: <172718147884.2482826.7676921135102127960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: f56453448b9057d568ac908dabd79ef0ade6bed5
-    new: 42aa4cd4f6383875d4163620b0590c4ab659b68b
+  - ref: refs/heads/validate_fpu_and_vector
+    old: 578b781ac67a0e71029337d7fe1ad12d1d535da4
+    new: 3443740f135da09abfe5033cf27875898bcc9533
     log: |
-         d87ac5c6f2df44987528e03f603a35ab457f052c autotools: allow enabling lsblk with --disable-all-programs
-         42aa4cd4f6383875d4163620b0590c4ab659b68b autotools: allow enabling dmesg with --disable-all-programs
+         6757221a51c186aee7765aa7012180ff799f36f8 dt-bindings: riscv: d requires f
+         7896817ef86b5186d90c13470b31629fb0939dff dt-bindings: riscv: add vector sub-extension dependencies
+         3443740f135da09abfe5033cf27875898bcc9533 dt-bindings: riscv: document vector crypto requirements
          
