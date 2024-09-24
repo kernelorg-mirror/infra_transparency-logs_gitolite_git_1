@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 24 Sep 2024 10:55:03 -0000
-Message-Id: <172717530379.2368164.3189037386467252857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Sep 2024 10:59:14 -0000
+Message-Id: <172717555473.2370066.15440380680523422994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 466ed6db5fb7e976cae8e0ab8fd45dc505070e99
-    new: f56453448b9057d568ac908dabd79ef0ade6bed5
+  - ref: refs/heads/main
+    old: bfde62650c73a9524c52e4a324349e99c7c39a48
+    new: 3b067536daa4842adbf685accf47c899a26367d3
     log: |
-         d6564701e81254064ace56b57e6090620ed29d28 login-utils/su-common: Check that the user didn't change during PAM transaction
-         f56453448b9057d568ac908dabd79ef0ade6bed5 Merge branch 'su-double-check-pam-user' of https://github.com/3v1n0/util-linux
+         3b067536daa4842adbf685accf47c899a26367d3 r8169: add missing MODULE_FIRMWARE entry for RTL8126A rev.b
          
