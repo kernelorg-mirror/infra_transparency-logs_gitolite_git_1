@@ -1,103 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 24 Sep 2024 14:28:34 -0000
-Message-Id: <172718811433.2568258.9854053435445682437@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0372960946058383605=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/bugspray/bugspray
+Date: Tue, 24 Sep 2024 14:34:48 -0000
+Message-Id: <172718848822.2572610.2253371846501099626@gitolite.kernel.org>
+
+--===============0372960946058383605==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/utils/bugspray/bugspray
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/aer
-    old: 3ee1a6b5d78f07bc026f71ea0664d8df2a7d1280
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/affinity
-    old: abd9b9d94bc604e09ca73ad232c473006f1793d9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/brcmstb
-    old: 2a0091f9419cb6dbbada3a4c8d9e86117b80ead4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/cadence
-    old: c3d95aa93fd8549588097b0701b3835920fd8533
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/dra7xx
-    old: 4d60f6d4b8fa4d7bad4aeb2b3ee5c10425bc60a4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/endpoint
-    old: 7cb9b5fa218caa899f4288865c4598357bcce4e9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/imx6
-    old: c2699778e6be4757ee0b16449ab8777c6b46e6d0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/j721e
-    old: c538d40f365b5b6d7433d371710f58e8b266fb19
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/keystone
-    old: 6188a1c762eb9bbd444f47696eda77a5eae6207a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/kirin
-    old: c500a86693a126c9393e602741e348f80f1b0fc5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/loongson
-    old: 1f35a0c74e441e1a21b5414c25bc01f06e9cca31
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/mediatek
-    old: dd9d80408b7d6041ebaf2346c66d258bf6adceae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/mediatek-gen3
-    old: f6ab898356dd70f267c49045a79d28ea5cf5e43e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/qcom
-    old: 0cca961a026177af69044f10d6ae76d8ce043764
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/rcar-gen4
-    old: 05a01639b8f5fa42fb28f58cb1142bf11917d3c2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/vmd
-    old: 4654cf52cbd07cb2d6ab6f55bcc5eb2dae8b736a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/controller/xilinx
-    old: 6ac721795d7375e48bede6bb4965c0e46133c704
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/crs
-    old: 87f10faf166a9114aa0d4132298cad379de16fdd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/devres
-    old: 2eb20b96d7696dc354e1b38c511418b56291013c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt-bindings
-    old: 3cd3b49989fef8556b018fb8038581195b253b8d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/enumeration
-    old: 59100eb248c0b15585affa546c7f6834b30eb5a4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hotplug
-    old: 87d5403378cccc557af9e02a8a2c8587ad8b7e9a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/iommu
-    old: 9246b487ab3c3b5993aae7552b7a4c541cc14a49
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/misc
-    old: 5c7bdac783be8dcba1427460e7971445f839a5e2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/npem
-    old: 759ec28242894f2006a1606c1d6e9aca48cecfcf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pwrctl
-    old: 0da59840f10141988e949d8519ed9182991caf17
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/quirks
-    old: 2910306655a7072640021563ec9501bfa67f0cb1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/reset
-    old: 3e40aa29d47e231a54640addf6a09c1f64c5b63f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sysfs
-    old: 265baca69a0735b64227a43d4be865a95ba514bb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tools
-    old: d0aac667f2e02f114bc6c3bf8c085a6060599aef
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 9ef12822d603646463cbaca78e2dab4464ab363a
+    new: 039caa58888c99f3f41174d50a381ffd684b3616
+    log: |
+         039caa58888c99f3f41174d50a381ffd684b3616 pi2bz: don't strip signatures when looking for triggers
+         
+
+--===============0372960946058383605==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1727188496 -0400
+pushee gitolite.kernel.org:pub/scm/utils/bugspray/bugspray
+nonce 1727188487-126484aebeabc50b1db3ca2a23a7a796aa090f13
+
+9ef12822d603646463cbaca78e2dab4464ab363a 039caa58888c99f3f41174d50a381ffd684b3616 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZvLOEAAKCRC2xBzjVmSZ
+bB3mAP40CNo55caozkr04D4UltsxqYDG9DKTzK65K02auV65iAD/ZSHnnrChBTpZ
+EZWfoobE8cLB1rZ/+UrqO1ZqAuULcgE=
+=Kb9/
+-----END PGP SIGNATURE-----
+
+--===============0372960946058383605==--
