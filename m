@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0747673728169972479=="
+Content-Type: multipart/mixed; boundary="===============4607198318296385451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Wed, 25 Sep 2024 00:46:26 -0000
-Message-Id: <172722518669.3048377.16601412835769467542@gitolite.kernel.org>
+Date: Wed, 25 Sep 2024 00:46:29 -0000
+Message-Id: <172722518927.3048474.13617730001619393249@gitolite.kernel.org>
 
---===============0747673728169972479==
+--===============4607198318296385451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 68e5c7d4cefb66de3953a874e670ec8f1ce86a24
-    new: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
-    log: revlist-68e5c7d4cefb-684a64bf32b6.txt
+  - ref: refs/heads/linus-next
+    old: 21df106aabdaab36b154a8d24e42a71f46df0904
+    new: 828413f9126e00e38012331add84b2d82492a158
+    log: revlist-21df106aabda-828413f9126e.txt
 
---===============0747673728169972479==
+--===============4607198318296385451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e5c7d4cefb-684a64bf32b6.txt
+Content-Disposition: attachment; filename=revlist-21df106aabda-828413f9126e.txt
 
+c147f663b6a5813b9860f3917cc473fb2c462d8d clang-format: Update with v6.11-rc1's `for_each` macro list
 2cf66b9de406dadbe7598618aa4541261d7bf536 f2fs: clean up data_blkaddr() and get_dnode_addr()
 47f268f33dff4a5e31541a990dc09f116f80e61c f2fs: prevent possible int overflow in dir_block_index()
 1cade98cf6415897bf9342ee451cc5b40b58c638 f2fs: fix several potential integer overflows in file offsets
@@ -34,13 +35,10 @@ Content-Disposition: attachment; filename=revlist-68e5c7d4cefb-684a64bf32b6.txt
 d1e1ff971d1aafeaedda69136e6974e3a8792cbd f2fs: fix macro definition on_f2fs_build_free_nids
 d72750e4a7528b83a07b65335c35b454a98593d4 f2fs: fix macro definition stat_inc_cp_count
 1a0bd289a5db1df8df8fab949633a0b8d3f235ee f2fs: atomic: fix to avoid racing w/ GC
-50470d3899cdf06fd58def74dec87f31e13cda6f Merge remote-tracking branch 'vfs/stable-struct_fd'
-d71973707efe8522b1f95189113273d3d5652808 bpf: convert __bpf_prog_get() to CLASS(fd, ...)
-51a1ca933f5dc9e764ac065ff0949130cc32a48b bpf: switch fdget_raw() uses to CLASS(fd_raw, ...)
-535ead44ffd08479212e31729a7118bd4e9ac699 bpf: factor out fetching bpf_map from FD and adding it to used_maps list
-55f325958ccc41eaea43eb4546d4dc77c1b5ef8a bpf: switch maps to CLASS(fd, ...)
-eb80ee85801cd8e3c6f39b08830867d2afecd8f5 bpf: trivial conversions for fdget()
-eceb7b33e5f3bc1e60047d8695cb937b93a08ced bpf: more trivial fdget() conversions
+5b19519d4e6ff70c8bd7fc50055c910e141fd5f8 dt-bindings: rtc: stm32: describe pinmux nodes
+16ad2bc09efbcb9cb24f8d879ac218421cbef690 rtc: stm32: add pinctrl and pinmux interfaces
+bb7b0df2be5c6b7bfe0cf9c93067c5b1489566ca rtc: stm32: add Low Speed Clock Output (LSCO) support
+04dcadb87da68d1349b658b1fef04f077b78c13c rtc: stm32: add alarm A out feature
 aaf8c0b9ae042494cb4585883b15c1332de77840 f2fs: reduce expensive checkpoint trigger frequency
 96cfeb0389530ae32ade8a48ae3ae1ac3b6c009d f2fs: fix to wait dio completion
 0cac51185e65dc2a20686184e02f3cafc99eb202 f2fs: fix to avoid racing in between read and OPU dio write
@@ -59,30 +57,6 @@ c7f114d864ac91515bb07ac271e9824a20f5ed95 f2fs: fix to avoid use-after-free in f2
 f785cec298c95d00058560c0715233294a04b8f3 f2fs: compress: don't redirty sparse cluster during {,de}compress
 b2c160f4f3cfe9334b3e6bb52cb89a3a20ef0385 f2fs: atomic: fix to forbid dio in atomic_file
 f7a678bbe5a8f22cfcef5369757cc9b95f73e027 f2fs: Use sysfs_emit_at() to simplify code
-5de8acb41c86f1d335d165e0a350441ea3a1f480 fuse: cleanup request queuing towards virtiofs
-ac5cffec53be0b0231b89470a357bd3a5814f599 fuse: add fast path for fuse_range_is_writeback
-509a6458b44f72bb6854854c89cf76e56f11c9f1 fuse: drop unused fuse_mount arg in fuse_writepage_finish()
-c04e3b2118192384153b4eac595768e2ffb7ac4a fuse: refactor finished writeback stats updates into helper function
-672c3b7457fcee9656c36a29a4b21ec4a652433e fuse: move initialization of fuse_file to fuse_writepages() instead of in callback
-9a8ebcf5e04e6cc9472bfcdd90b2aeef35a2f8f6 fuse: convert fuse_writepages_fill() to use a folio for its tmp page
-4046d3adcca42b7678f11c71e46bd32bafb4dad1 fuse: move fuse file initialization to wpa allocation time
-0acad9289be33d324537d6c51988be0541b1139d fuse: refactor out shared logic in fuse_writepages_fill() and fuse_writepage_locked()
-396b209e405a571ce8e06d3760ffc3e389a944f1 fuse: add simple request tracepoints
-506b21c945b9716a1e092189c260d9400c52fa14 fuse: use correct name fuse_conn_list in docstring
-2097154a10c6ee78be8796411e5d0ad81ee06ed6 namespace: introduce SB_I_NOIDMAP flag
-aa16880d9f13c6490e80ad614402c8a6fe6f3efa fuse: add basic infrastructure to support idmappings
-10dc721836c0c968990a519e147d4cb7decdae5c fuse: add an idmap argument to fuse_simple_request
-d561254fb7ba451f580becb21ab3472bc0265080 fuse: support idmapped FUSE_EXT_GROUPS
-556208e139e19e0b308e104c6b0e42a9e0a54c3a fuse: support idmap for mkdir/mknod/symlink/create/tmpfile
-2a8c810d5e492906fe0af94a6e8b2398714e80e0 fuse: support idmapped getattr inode op
-c1d82215d391ded456e7bdd1c0893c9cb6322272 fuse: support idmapped ->permission inode op
-276a02569920f793047479fe7ef5da2c3e285a80 fuse: support idmapped ->setattr op
-4d833befa20253049e4f48ece9cb82f12800405d fuse: drop idmap argument from __fuse_get_acl
-d395d0a5d2544b639cd7b0055e4de85b0efc2762 fuse: support idmapped ->set_acl
-4be75ffe721cbf925478ebfbff872b02833899b7 fuse: support idmapped ->rename op
-5b8ca5a54cb89ab07b0389f50e038e533cdfdd86 fuse: handle idmappings properly in ->write_iter()
-6d14b18596ca69719cfe1af87dbf3c5e763d29b5 fuse: warn if fuse_access is called when idmapped mounts are allowed
-16e1503eaf329129170e4e7a078aee17686967a5 fuse: allow idmapped mounts
 10de741a5d7ab110eb026ad214eea2c5e5fe7e9c f2fs: convert f2fs_compress_ctx_add_page() to use folio
 aec5755951b74e3bbb5ddee39ac142a788547854 f2fs: convert f2fs_vm_page_mkwrite() to use folio
 fd3a11aff4bef4df7dff25c71e4c51fe8d93e2e7 f2fs: convert f2fs_clear_page_cache_dirty_tag() to use folio
@@ -101,6 +75,16 @@ bcf4d2dd840e5f4401a2d9425bd0ce94cab12336 f2fs: convert f2fs_do_write_data_page()
 4deccfbdc4464b66fe50d71e9d64240483efb07d f2fs: convert __write_node_page() to use folio
 2eaa98e5203979fd5fa6386f307f4f8277a72593 f2fs: convert read_node_page() to use folio
 5697e94daab9e40cbf1fb368781d110f22fb6760 f2fs: get rid of page->index
+dc12502905b7a3de9097ea6b98870470c2921e09 vdpa/mlx5: Fix invalid mr resource destroy
+02e9e9366fefe461719da5d173385b6685f70319 vhost_vdpa: assign irq bypass producer token correctly
+e25fbcd97cf52c3c9824d44b5c56c19673c3dd50 virtio_pmem: Check device status before requesting flush
+6cf1c97dad2ebc4de03105cc444b3dfaa83f3dc2 virtio_balloon: introduce oom-kill invocations
+c5b70a26aac39f09a23fd72f44cfbb3d4d5a14d5 virtio_balloon: introduce memory allocation stall counter
+74c025c5d7e4ac7c7ad269c1ee64da4bdfe4770c virtio_balloon: introduce memory scan/reclaim info
+a8927f69e85ec3508085e1042ca8ffe1c1ededae tools/virtio:Fix the wrong format specifier
+2f87e9cf0c9e21ab9be1fb2ba8520a1525359497 vdpa: support set mac address from vdpa tool
+218bb7ec17f1f66a63cb7421fb8a1d48032988e8 vdpa_sim_net: Add the support of set mac address
+6d17035a74028f0b0e77affefbfb5d71e6d32713 vdpa/mlx5: Add the support of set mac address
 fccaa81de87e80b1809906f7e438e5766fbdc172 f2fs: prevent atomic file from being dirtied before commit
 884ee6dc85b959bc152f15bca80c30f06069e6c4 f2fs: get rid of online repaire on corrupted directory
 bfe5c02654261bfb8bd9cb174a67f3279ea99e58 f2fs: fix to check atomic_file in f2fs ioctl interfaces
@@ -114,23 +98,46 @@ bfe5c02654261bfb8bd9cb174a67f3279ea99e58 f2fs: fix to check atomic_file in f2fs 
 e791d00bd06cb2d3a10afa43e57f6364931d0ada f2fs: add valid block ratio not to do excessive GC for one time GC
 930c6ab93492c4b15436524e704950b364b2930c f2fs: fix to don't set SB_RDONLY in f2fs_handle_critical_error()
 65a6ce4726c27b45600303f06496fef46d00b57f f2fs: fix to don't panic system for no free segment fault injection
+adab39e1f48224d5a89b10d171cdd78c0c215539 dt-bindings: rtc: sprd,sc2731-rtc: convert to YAML
+2d611fbe9a85971a38fe93a29512bd241e4d7035 rtc: twl: convert comma to semicolon
+da1531ecf18612572c53878d5ef8e94673bf86ce rtc: s35390a: Drop vendorless compatible string from match table
+5af858acea22bc5d8a2ebddcad57babca1442dd1 rtc: Add driver for SD2405AL
+0bb7e903e8a820fd5fa18ebc6820d4dfbfcaeae5 dt-bindings: rtc: Add support for SD2405AL.
+864f40bfdc5a7863ea4503e8893ee96f62f96522 dt-bindings: vendor-prefixes: Add DFRobot.
+0cfd26cc06ff353e9b59d0ee57a4950df2abd616 dt-bindings: rtc: Drop non-trivial duplicate compatibles
+80bf13c07c07c43cc959b253305b64922cb20a92 rtc: sun6i: disable automatic clock input switching
+73580e2ee6adfb40276bd420da3bb1abae204e10 rtc: at91sam9: fix OF node leak in probe() error path
+60a06efc56d7d336d13fae58f9e90c8a4e21619e rtc: m48t59: Remove division condition with direct comparison
+541189325e3c5e33d9e5190bdcd20a3f842c344b net/mlx5: Support throttled commands from async API
+789c9c4941bec0df1a6dfe6ca9fb2ebb4e25fffc vdpa/mlx5: Introduce error logging function
+f6d3c686dacc5ced6b775c22e2dd4fe49c26a68c vdpa/mlx5: Introduce async fw command wrapper
+9405d777cb250ec405187393c92f7c48d665188e vdpa/mlx5: Use async API for vq query command
+1fe47d28fb7871b80c205ce381df863b83c2546f vdpa/mlx5: Use async API for vq modify commands
+6559b78431b1673f03e317ff42175b22730a3aa5 vdpa/mlx5: Parallelize device suspend
+7b2ec63b4859aae219acb70da54856a5b2228cca vdpa/mlx5: Parallelize device resume
+d6a40cfd97aafe9cea55aa62b2d14fa02d17d8c2 vdpa/mlx5: Keep notifiers during suspend but ignore
+137844830e6befb4c101269169326d23ee74a1e7 vdpa/mlx5: Small improvement for change_num_qps()
+acba6a443aa4cc1432d1044c4bbc2cdbcf977145 vdpa/mlx5: Parallelize VQ suspend/resume for CVQ MQ command
+fbb072d2d19133222e202ea7c267cfc1f6bd83b0 ack! vdpa/mlx5: Parallelize device suspend/resume
+6203f5dfcb9d4ed22bf3c0fac114975d9e733b68 vdpa: Remove unused declarations
+007d62de6538e6cc770d393cf648a36c7af39840 virtio_fs: introduce virtio_fs_put_locked helper
+08b27514582bd0fee017d7b2808365e9175f7357 virtio_fs: add sysfs entries for queue information
+7ef85a0e0145479de8d50bedbe685aaea1d0da02 MAINTAINERS: add virtio-vsock driver in the VIRTIO CORE section
+982ddf9dea162ab88175dbf804bcf50ea840ee0d vdpa/mlx5: Create direct MKEYs in parallel
+1ece8559cdd34ae033c8fe5dcbb18784de4b942d vdpa/mlx5: Delete direct MKEYs in parallel
+16585ddbdec3c02fed1495f36b275e45cc041c68 vdpa/mlx5: Rename function
+af2189aba6a492e05648ca9ca72da5818a2626fd vdpa/mlx5: Extract mr members in own resource struct
+9180c8a4f791a34c9c77d98f1cd1404f5d88b78b vdpa/mlx5: Rename mr_mtx -> lock
+520c4653e8969ddb8504a357c4c1d89ac0e3b348 vdpa/mlx5: Introduce init/destroy for MR resources
+a5253d58baea9268bf7b48a2ea5a0db128435302 vdpa/mlx5: Postpone MR deletion
+53d4e258dcb6ccecb4953e5beae165e456b87f03 fw_cfg: Constify struct kobj_type
+8b01e780cff0a1907c4b0ff44cdcbda9ee272745 vsock/virtio: refactor virtio_transport_send_pkt_work
+1bc6f4910ae955971097f3f2ae0e7e63fa4250ae vsock/virtio: avoid queuing packets when intermediate queue is empty
 2af583afcf9d54b988b68d1033101e73edd72a9b f2fs: remove unused parameters
-433d7ce2d86d21274838c9e8c796f4232cd13cdb security,bpf: constify struct path in bpf_token_create() LSM hook
-37d3dd663f7485bf3e444f40abee3c68f53158cb bpf: convert bpf_token_create() to CLASS(fd, ...)
 5cc69a27abfa91abbb39fc584f82d6c867b60f47 f2fs: forcibly migrate to secure space for zoned device file pinning
-fba27cf005038a5fedf001b49636594819dbb1d5 exfat: drop ->i_size_ondisk
-231eb762bbe8fa232e672e5a399eed16a0c0c45a exfat: do not fallback to buffered write
-f761fcdd289d07e8547fef7ac76c3760fc7803f2 exfat: Implement sops->shutdown and ioctl
-d2b537b3e533f28e0d97293fe9293161fe8cd137 exfat: fix memory leak in exfat_load_bitmap()
-862b9a8eb900d347af5be0eb1aeef9b161a83e77 virtio_fs: allow idmapped mounts
-efad7153bf93db8565128f7567aab1d23e221098 fuse: allow O_PATH fd for FUSE_DEV_IOC_BACKING_OPEN
-3988a60d3aaabd6cca64fbd8f7be65c0c878d87b fs/fuse: fix null-ptr-deref when checking SB_I_NOIDMAP flag
-0c6793823d2b0eb079f4c6f54d9cdf6b2beec9d8 fs/fuse: introduce and use fuse_simple_idmap_request() helper
-ffcdc4c628e1a30489da10dd78358e89c823b341 fs/mnt_idmapping: introduce an invalid_mnt_idmap
-106e4593ed1b9925ca732a74f490e4f52ea4e65c fs/fuse: convert to use invalid_mnt_idmap
-6630ea49103c3d45461e29b0f6eb0ce750aeb8f5 exfat: move extend valid_size into ->page_mkwrite()
-c290fe508eee36df1640c3cb35dc8f89e073c8a8 exfat: resolve memory leak from exfat_create_upcase_table()
-cb7d85014fb1ca3387f7ff5f6067337b3d7f3c5a MAINTAINERS: exfat: add myself as reviewer
+4015580e983daa699d7e1693328dd81f0e295589 dt-bindings: rtc: microcrystal,rv3028: add #clock-cells property
+b242650dfa17d8591d92e8e151438d1f8e54997a rtc: m48t59: set range
+690286214916f32d75de2667ec0fcfa9c3f4eefb rtc: rc5t619: use proper module tables
 ae87b9c2dc9800e6ab52febd09341140599ff8e3 f2fs: allow F2FS_IPU_NOCACHE for pinned file
 8c04a6d6e07ce565928ea98ae8c534cac871af19 Merge tag 'nfsd-6.12' into linux-next-with-localio
 8f6a7c9467eaf39da4c14e5474e46190ab3fb529 nfs: fix memory leak in error path of nfs4_do_reclaim
@@ -173,13 +180,15 @@ b9f5dd57f4a52990963eeb1f1b58d00f717ece69 nfs/localio: use dedicated workqueues f
 92945bd81ca418ace7995bf5234ac311f6197d5d nfs: add Documentation/filesystems/nfs/localio.rst
 f7128262b15287e4be501e30f9e1f0258606a593 nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
 736cd2c1ae7f911df9aae0e647899b49bdbccdb8 nfs: add "NFS Client and Server Interlock" section to localio.rst
-fcd2d9e1fdcd7cada612f2e8737fb13a2bce7d0e fuse: clear FR_PENDING if abort is detected when sending request
-2f3d8ff457982f4055fe8f7bf19d3821ba22c376 fuse: use exclusive lock when FUSE_I_CACHE_IO_MODE is set
 68898131d2df70d1a9ad5c2f93f0f54dd6d5c336 nfs: Fix `make htmldocs` warnings in the localio documentation
 fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 79952bdcbcea53e57c2ca97e7448f8a6bdb6106a Merge tag 'f2fs-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 4165cee7ecb112c20bc1a05fa8d93d16d11b68c2 Merge tag 'exfat-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
+96dce4b4816d10b15324eb6d904ab448f4ff0814 Merge remote-tracking branch 'origin/master' into linus-next
+5e4443b298c98e68640dcd28c698e3d28ff491b1 Merge tag 'for_linus' of https://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost into linus-next
+b2765f4c1ebc30c1f9b26aa2fcbe78e9abfd1ea0 Merge tag 'rtc-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux into linus-next
+828413f9126e00e38012331add84b2d82492a158 Merge tag 'clang-format-6.12' of https://github.com/ojeda/linux into linus-next
 
---===============0747673728169972479==--
+--===============4607198318296385451==--
