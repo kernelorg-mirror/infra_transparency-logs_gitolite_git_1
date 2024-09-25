@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4825971233099832561=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 25 Sep 2024 08:12:52 -0000
-Message-Id: <172725197254.3391584.4098010737360262746@gitolite.kernel.org>
-
---===============4825971233099832561==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 25 Sep 2024 08:19:59 -0000
+Message-Id: <172725239932.3396842.13972122609101808768@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/i2c/i2c-host-for-6.13
-    old: 0c53b0c487cee4a9e2226ca9fff178d4c21662b1
-    new: 0000000000000000000000000000000000000000
-
---===============4825971233099832561==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1727251981 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1727251971-43dac7043fbf4f4464439c13ab729291809908b9
-
-0c53b0c487cee4a9e2226ca9fff178d4c21662b1 0000000000000000000000000000000000000000 refs/heads/i2c/i2c-host-for-6.13
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvPGDRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uX48BAL4DgEQX9PAUYKxYYAPpnCiTagaZ
-1aZPrsMAZJ6FwbMxAQC3vYPKtIjfy1Fk7wc4DnvlXryMyJ7BBHEeEr+9nPtWDg==
-=+unH
------END PGP SIGNATURE-----
-
---===============4825971233099832561==--
+  - ref: refs/heads/master
+    old: 9e156706f854d1d07f90937fe300d787f6e60dbd
+    new: 2eb3375d38e20694912f3f5fdbb744a7079c62e6
+    log: |
+         9e636bfdd205921b7be87f9b53e2f139fd872efd CodeSamples/count: Fix reduce.sh to pull from correct columns
+         0489d78718c3ec711741823df1c52a0ae850d729 CodeSamples/count/data: Add amd-milan data and plots
+         59dbb6efb346244a42448cce28487f227f82cb2f Merge /home/paulmck/Downloads/perfbook.2024.09.23a.bundle
+         2eb3375d38e20694912f3f5fdbb744a7079c62e6 CodeSamples/count: Update amd-milan.2024.09.22a plots
+         
