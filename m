@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0169675523419042341=="
+Content-Type: multipart/mixed; boundary="===============5043889518563537009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Wed, 25 Sep 2024 16:01:27 -0000
-Message-Id: <172728008725.3761591.10360331866873348575@gitolite.kernel.org>
+Date: Wed, 25 Sep 2024 16:02:58 -0000
+Message-Id: <172728017892.3762313.6975749439590788649@gitolite.kernel.org>
 
---===============0169675523419042341==
+--===============5043889518563537009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ericvh/v9fs
 user: ericvh
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/fixes/next
     old: 0c3836482481200ead7b416ca80c68a29cfdaabd
     new: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
     log: revlist-0c3836482481-684a64bf32b6.txt
 
---===============0169675523419042341==
+--===============5043889518563537009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of 
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============0169675523419042341==--
+--===============5043889518563537009==--
