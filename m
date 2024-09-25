@@ -1,54 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============5013128102747625839=="
+Content-Type: multipart/mixed; boundary="===============5908547983325079152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 25 Sep 2024 11:07:16 -0000
-Message-Id: <172726243657.3528317.9663051444616473108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Wed, 25 Sep 2024 11:08:45 -0000
+Message-Id: <172726252524.3529147.5632419753465528195@gitolite.kernel.org>
 
---===============5013128102747625839==
+--===============5908547983325079152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/x86-pie-v3
-    old: d4bbd9a7087ecca89532a9477b4201f5d78f5aec
-    new: 05e8cac2389a56ed54112102eb860f1384424252
-    log: revlist-d4bbd9a7087e-05e8cac2389a.txt
+  - ref: refs/heads/linux-next
+    old: 488592835eb48dab6c0dd59f798ecd45da7b15a6
+    new: b9efbe2b8f0177fa97bfab290d60858900aa196b
+    log: revlist-488592835eb4-b9efbe2b8f01.txt
+  - ref: refs/heads/test
+    old: 488592835eb48dab6c0dd59f798ecd45da7b15a6
+    new: b9efbe2b8f0177fa97bfab290d60858900aa196b
+    log: revlist-488592835eb4-b9efbe2b8f01.txt
+  - ref: refs/heads/vhost
+    old: 488592835eb48dab6c0dd59f798ecd45da7b15a6
+    new: b9efbe2b8f0177fa97bfab290d60858900aa196b
+    log: revlist-488592835eb4-b9efbe2b8f01.txt
+  - ref: refs/tags/for_linus
+    old: 025616694ab4c42d552b7657af10f8f19e045c1f
+    new: 1f0f4a3528c65e46b48916562945adb3c75fd9a5
+    log: revlist-025616694ab4-1f0f4a3528c6.txt
 
---===============5013128102747625839==
+--===============5908547983325079152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4bbd9a7087e-05e8cac2389a.txt
+Content-Disposition: attachment; filename=revlist-488592835eb4-b9efbe2b8f01.txt
 
-d3db436387ccbc7d6bf9cc61f6672bbfe8a9d73d x86: Define the stack protector guard symbol explicitly
-c27e311f7820de6af96dadb875b3ccdf4693d676 x86/percpu: Get rid of absolute per-CPU variable placement
-6c5b5fdfd06fdd134c7b5ed2afd7e71bafe54d0e scripts/kallsyms: Avoid 0x0 as the relative base
-e1c74f573bee30fef2353a2c4332f1072c8e7188 scripts/kallsyms: Remove support for absolute per-CPU variables
-10737dbf9f0237a36fc9398071797c0c4b855c5b x86/tools: Remove special relocation handling for per-CPU variables
-61b31fdbfe7c3bf28616576357e28589b461961e x86/xen: Avoid relocatable quantities in Xen ELF notes
-e7380ad10b5808a95ba4e2ecaa28e898cd903847 x86/pvh: Avoid absolute symbol references in .head.text
-fac014f3bc9ecceecb3f4bb9f4e38e9164712b4a x86/pm-trace: Use RIP-relative accesses for .tracedata
-728c0e7c164942e6a5f7f9c053ee16fe9809bfb8 x86/kvm: Use RIP-relative addressing
-cbc6cd54daba0ed04738c888c1b7214dc19081f5 x86/rethook: Use RIP-relative reference for return address
-2b78b81530c434146410995d76799b8956d4f9d9 x86/sync_core: Use RIP-relative addressing
-0c74ec40caafb87c5fe42ea0ddb674c9f36f86b2 x86/entry_64: Use RIP-relative addressing
-876a3ca3010390ee7119036f6c5ad5f3b9922eb8 x86/hibernate: Prefer RIP-relative accesses
-297c2846044709211626703190d95275e6e9e5a7 x86/boot/64: Determine VA/PA offset before entering C code
-22ea6ea0d7d79f7cf2517b7687c329e11d150b39 x86/boot/64: Avoid intentional absolute symbol references in .head.text
-764f53979c92f2f989a51159469f73cc4beabea4 x64/acpi: Use PIC-compatible references in wakeup_64.S
-819b3bf7a80599b473fb103a5e2a93314ccf8340 x86/head: Use PIC-compatible symbol references in startup code
-f73cefaeb2ad1979cb0e158acd841bf1b1f9575a asm-generic: Treat PIC .data.rel.ro sections as .rodata
-5963d1002e3f77fe48aaa2d0c01826df148f00ca tools/objtool: Mark generated sections as writable
-f73d1538a801820a42457826759e1de2785c0954 tools/objtool: Treat indirect ftrace calls as direct calls
-498b01c8ed4eacdad997c3e10a007e27e204aeb7 x86: Use PIE codegen for the core kernel
-4525cce315aa254ea6304bddc285711c20267fdf x86/boot: Implement support for ELF RELA/RELR relocations
-0affa26cf9528732e5a058a4f22e538c27f18e13 x86/kernel: Switch to PIE linking for the core kernel
-05e8cac2389a56ed54112102eb860f1384424252 x86/tools: Drop x86_64 support from 'relocs' tool
+7d627137dc1062aba6276a7d2ebe7f5ff8d542c5 net/mlx5: Support throttled commands from async API
+de2cd39fc11b2f55b7f40f2a3036ca27327e4461 vdpa/mlx5: Introduce error logging function
+d89d58f4888cde693e7707e13623eb50bb6435c2 vdpa/mlx5: Introduce async fw command wrapper
+1fcdf43ea69e976aae4f2d76ebb199cc0d4c5a88 vdpa/mlx5: Use async API for vq query command
+61674c154bb7f19fad612242022276e8bd9e10d2 vdpa/mlx5: Use async API for vq modify commands
+dcf3eac01f063df0a60ea779399331d2ac535784 vdpa/mlx5: Parallelize device suspend
+5eb8c7eb1ec74ac6b9e7337674cb7a33e82a1e68 vdpa/mlx5: Parallelize device resume
+55a7cb05b0a6c6cd6e3f482551cf93c398f1b4c9 vdpa/mlx5: Keep notifiers during suspend but ignore
+74c89072f22600cc3d83fc70617b1b6c2f500013 vdpa/mlx5: Small improvement for change_num_qps()
+9dba41951ab64596c58f170f79a696c2cf83ff4a vdpa/mlx5: Parallelize VQ suspend/resume for CVQ MQ command
+561a16366ef57caad66d0dfe49275cd3f809c138 vdpa: Remove unused declarations
+4045b6429874e07f14b5b41e326d4e6f866f8bbf virtio_fs: introduce virtio_fs_put_locked helper
+87cbdc396a31ce29b0849705e565c81564d5ed4b virtio_fs: add sysfs entries for queue information
+db0a314f845abf9572d5826f4cfdecb93b838952 MAINTAINERS: add virtio-vsock driver in the VIRTIO CORE section
+0071b138d44af4296bf871e6624369ce697b4b15 vdpa/mlx5: Create direct MKEYs in parallel
+e1ba5c947e56ccb09773eebfb730cae458b6a4fd vdpa/mlx5: Delete direct MKEYs in parallel
+0b916a9c45d92c69270f2b44a35468fe6e331c2f vdpa/mlx5: Rename function
+5fc85679076623a5c39ec09277144fb0bbf0c6ed vdpa/mlx5: Extract mr members in own resource struct
+58d4d50e758ab1e880b30ba815d733d46f5cbfac vdpa/mlx5: Rename mr_mtx -> lock
+f30a1232b6979c7fc14e821cb349c40073c6191d vdpa/mlx5: Introduce init/destroy for MR resources
+62111654481d5df4be3776a898cb88b5e4974103 vdpa/mlx5: Postpone MR deletion
+4a21d31d7bcb4c245783119252b0389255964cd2 fw_cfg: Constify struct kobj_type
+26618da3b2f3d510a3082a1cb0abafc0f92e8362 vsock/virtio: refactor virtio_transport_send_pkt_work
+efcd71af38be403fa52223092f79ada446e121ba vsock/virtio: avoid queuing packets when intermediate queue is empty
+bc0dcbc5c2c539f37004f2cce0e6e245b2e50b6c vdpa/octeon_ep: Fix format specifier for pointers in debug messages
+83c334ed521638c8dffe545ddf49d61430680308 virtio_ring: tag event_triggered as racy for KCSAN
+b9efbe2b8f0177fa97bfab290d60858900aa196b virtio_console: fix misc probe bugs
 
---===============5013128102747625839==--
+--===============5908547983325079152==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-025616694ab4-1f0f4a3528c6.txt
+
+7d627137dc1062aba6276a7d2ebe7f5ff8d542c5 net/mlx5: Support throttled commands from async API
+de2cd39fc11b2f55b7f40f2a3036ca27327e4461 vdpa/mlx5: Introduce error logging function
+d89d58f4888cde693e7707e13623eb50bb6435c2 vdpa/mlx5: Introduce async fw command wrapper
+1fcdf43ea69e976aae4f2d76ebb199cc0d4c5a88 vdpa/mlx5: Use async API for vq query command
+61674c154bb7f19fad612242022276e8bd9e10d2 vdpa/mlx5: Use async API for vq modify commands
+dcf3eac01f063df0a60ea779399331d2ac535784 vdpa/mlx5: Parallelize device suspend
+5eb8c7eb1ec74ac6b9e7337674cb7a33e82a1e68 vdpa/mlx5: Parallelize device resume
+55a7cb05b0a6c6cd6e3f482551cf93c398f1b4c9 vdpa/mlx5: Keep notifiers during suspend but ignore
+74c89072f22600cc3d83fc70617b1b6c2f500013 vdpa/mlx5: Small improvement for change_num_qps()
+9dba41951ab64596c58f170f79a696c2cf83ff4a vdpa/mlx5: Parallelize VQ suspend/resume for CVQ MQ command
+561a16366ef57caad66d0dfe49275cd3f809c138 vdpa: Remove unused declarations
+4045b6429874e07f14b5b41e326d4e6f866f8bbf virtio_fs: introduce virtio_fs_put_locked helper
+87cbdc396a31ce29b0849705e565c81564d5ed4b virtio_fs: add sysfs entries for queue information
+db0a314f845abf9572d5826f4cfdecb93b838952 MAINTAINERS: add virtio-vsock driver in the VIRTIO CORE section
+0071b138d44af4296bf871e6624369ce697b4b15 vdpa/mlx5: Create direct MKEYs in parallel
+e1ba5c947e56ccb09773eebfb730cae458b6a4fd vdpa/mlx5: Delete direct MKEYs in parallel
+0b916a9c45d92c69270f2b44a35468fe6e331c2f vdpa/mlx5: Rename function
+5fc85679076623a5c39ec09277144fb0bbf0c6ed vdpa/mlx5: Extract mr members in own resource struct
+58d4d50e758ab1e880b30ba815d733d46f5cbfac vdpa/mlx5: Rename mr_mtx -> lock
+f30a1232b6979c7fc14e821cb349c40073c6191d vdpa/mlx5: Introduce init/destroy for MR resources
+62111654481d5df4be3776a898cb88b5e4974103 vdpa/mlx5: Postpone MR deletion
+4a21d31d7bcb4c245783119252b0389255964cd2 fw_cfg: Constify struct kobj_type
+26618da3b2f3d510a3082a1cb0abafc0f92e8362 vsock/virtio: refactor virtio_transport_send_pkt_work
+efcd71af38be403fa52223092f79ada446e121ba vsock/virtio: avoid queuing packets when intermediate queue is empty
+
+--===============5908547983325079152==--
