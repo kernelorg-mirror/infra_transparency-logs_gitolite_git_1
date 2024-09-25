@@ -1,105 +1,232 @@
-Content-Type: multipart/mixed; boundary="===============0933303332831837199=="
+Content-Type: multipart/mixed; boundary="===============3071319619424774677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 25 Sep 2024 21:32:55 -0000
-Message-Id: <172729997587.4012727.1366105215296697437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 25 Sep 2024 21:49:22 -0000
+Message-Id: <172730096241.4024429.5424529040940221527@gitolite.kernel.org>
 
---===============0933303332831837199==
+--===============3071319619424774677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
-    new: aa486552a110fd6e625bb66b7edf0e0df7389a1a
-    log: revlist-684a64bf32b6-aa486552a110.txt
+  - ref: refs/heads/mm-everything
+    old: 3cd750fd7b053228590a9a5a686cfd2f0cb1cc9d
+    new: 1c709dc219bece90a951dd91bf9309e6cc02f66c
+    log: revlist-3cd750fd7b05-1c709dc219be.txt
+  - ref: refs/heads/mm-hotfixes-unstable
+    old: 0696c6240a7fa22b299f4c5ad850987106dc1ddf
+    new: f46eedd3c0702818006382c6787b5dd03c9b6149
+    log: revlist-0696c6240a7f-f46eedd3c070.txt
+  - ref: refs/heads/mm-nonmm-unstable
+    old: 7d5a22e4632ee33539a3bf12e5caed770c63ac18
+    new: 65f405680bcf059ef60da462862fda87629627fb
+    log: revlist-7d5a22e4632e-65f405680bcf.txt
+  - ref: refs/heads/mm-unstable
+    old: e2e8744cbcb747f77fc8e4dae0ec959f15fd6dfc
+    new: 99512fe63e6a323ba3ba151f84a73b406ad648af
+    log: revlist-e2e8744cbcb7-99512fe63e6a.txt
 
---===============0933303332831837199==
+--===============3071319619424774677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-684a64bf32b6-aa486552a110.txt
+Content-Disposition: attachment; filename=revlist-3cd750fd7b05-1c709dc219be.txt
 
-c147f663b6a5813b9860f3917cc473fb2c462d8d clang-format: Update with v6.11-rc1's `for_each` macro list
-19c91bd8932a2e00f8de76022c780951166be9a0 memblock tests: include memory_hotplug.h in mmzone.h as kernel dose
-d68c08173b70952cd74bb45075b843f4a637a43b memblock tests: include export.h in linkage.h as kernel dose
-e2ae9cf39f8806d2d8f5eb0a22ba511804a804ec tools/testing: abstract two init.h into common include directory
-39f64e402f659890a99d415eaf63a01f3b80a9a8 memblock test: fix implicit declaration of function 'virt_to_phys'
-9f76c2ade323121f9006f6a529e0795317e16b5c memblock test: add the definition of __setup()
-a88cde5769d523e4ae6aad61237e4a5f6bd2309a memblock test: fix implicit declaration of function 'memparse'
-8ac13bc7c266102f1068faafa5314522b68ebe65 memblock test: fix implicit declaration of function 'isspace'
-9e3d665384fca2a1c56283c7a79a968243ef4614 memblock test: fix implicit declaration of function 'strscpy'
-d0f8a8973f265f6a276f99d091af99edfb2b87de mm/memblock: introduce a new helper memblock_estimated_nr_free_pages()
-0910bf0ef85c5404aac94394cb31e076e4eb03f1 kernel/fork.c: get estimated free pages by memblock api
-cb088e38aab4c7e9ce711c18c66e851c8f4227bb s390/mm: get estimated free pages by memblock api
-08f983a55ccf0b015e4788d1a0de0da84e4a7626 rust: Implement the smart pointer `InPlaceInit` for `Arc`
-6c2d0ad53b8ff25cb1a12570191576d834e9108d rust: implement ForeignOwnable for Pin<Box<T>>
-7adcdd572248591c3932e27d98b4a086662d5cbe rust: types: improve `ForeignOwnable` documentation
-7bc186731e87482662c4f86da455f435fe838fb6 rust: error: allow `useless_conversion` for 32-bit builds
-f1385dc670fe66860bcec5dcba215364bf71b807 init/Kconfig: Only block on RANDSTRUCT for RUST
-876346536c1b59a5b1b5e44477b1b3ece77647fd rust: kbuild: split up helpers.c
-289088d54623a1a50bb3ff79f7331bbe501ea591 rust: module: add static pointer to `{init,cleanup}_module()`
-284a3ac4a96c619af269dfbdef5431a9a2a34d3b x86/rust: support MITIGATION_RETPOLINE
-d7868550d5731e05148c881f035423f009a2b4d5 x86/rust: support MITIGATION_RETHUNK
-fc582dfc1f20476cab9d43d0ee8ec0a6bfe13485 x86/rust: support MITIGATION_SLS
-56d680dd23c38067a32fb8aeb74d6ce838fcf26c objtool/rust: list `noreturn` Rust functions
-c4d7f546dd9aa9780716cdb07416ca97264dce43 objtool/kbuild/rust: enable objtool for Rust
-e26fa546042add70944d018b930530d16b3cf626 rust: kbuild: auto generate helper exports
-1d15880378662ade209eb9289f9f03c98b431254 rust: sort blk includes in bindings_helper.h
-76501d19c6af43054492420ae53a9bd2d4de50b3 rust: enable bindgen's `--enable-function-attribute-detection` flag
-01db99b272318da75a1aa5a81f75adb9d32f676e rust: kernel: add `drop_contents` to `BoxExt`
-6d1c22d0ace31d096b0dab5318c6a0d3219d6456 rust: init: add `write_[pin_]init` functions
-c6945acad7a14b6afb390a4afc1d354ef5413ea6 rust: support arrays in target JSON
-0528ca0a4f858da3369d405af8c76b8248dfeb7b rust: init: add `assert_pinned` macro
-6cd341715558b8422f33509d9b99a1a0a5b4b29c rust: list: add ListArc
-a48026315cd7b6018bd74831a6dc0586adbba1b9 rust: list: add tracking for ListArc
-14176295fe56ce9506e650dce436d2bdadec93b5 rust: list: add struct with prev/next pointers
-40c53294596b4a7fe2ae126d7aab986752496c31 rust: list: add macro for implementing ListItem
-db841866ecc01ca01ab93282d7809b87568a18ff rust: list: add List
-deeecc9c1b979f45ca7b97255763505e5430cce5 rust: list: add iterators
-9078a4f956dbef9366e1657915c883b380e6db39 rust: list: add cursor
-2003c04b059759b0ec3bff108f24ded9de86a726 rust: list: support heterogeneous lists
-b204bbc53f958fc3119d63bf2cda5a526e7267a4 rust: list: add ListArcField
-f363930484d733e784fce12355d32d04e5baa313 docs: rust: quick-start: add Debian Testing
-c73051168e7fc0c78e58791097cbc3a3ec95839e rust: kernel: use docs.kernel.org links in code documentation
-96fff2dc2954dcaf7affe7da212aba3f5107d06d rust: types: add `ARef::into_raw`
-0eef6ec5a8e5bc2d633d6716f2640de8d6b45da7 docs: rust: link to https://rust.docs.kernel.org
-b2bf463ed9a8131ad4e91a11af8c9a4ec84b876a docs: rust: improve main page introducing a "Code documentation" section
-6e6efc5fef4a1cdcccca3cffd5b73fd25d093352 rust: enable rustdoc's `--generate-link-to-definition`
-a0d13aac7022f95ec161c18d18e3d81172666ed8 rust: rbtree: add red-black tree implementation backed by the C version
-e601f1bb8e859758289b1c52503bc626168fba59 rust: rbtree: add iterator
-cf5397d1776489e1c66b7db01f6a58c431ab08f1 rust: rbtree: add mutable iterator
-98c14e40e07a077827f6842e8f31d191cb82576c rust: rbtree: add cursor
-a335e95914046c6bed45c0d17cabcd483682cf5e rust: rbtree: add `RBTree::entry`
-68d3b6aa08708bb3907c2c13eaf4b3ccf4805160 MAINTAINERS: add Trevor Gross as Rust reviewer
-ab309b6e084c70a29f9fa3cee797572bd2340901 rust: avoid `box_uninit_write` feature
-6e74c6b5a42e6a7313fcd29e814f211b392a00f5 kbuild: rust: add `CONFIG_RUSTC_VERSION`
-5134a335cfe6ebdd2420e15b5f6c06915040aa51 kbuild: rust: re-run Kconfig if the version text changes
-ac3e972629a69e118e3867531df936a6ce5e5f5a kbuild: rust: rebuild if the version text changes
-aeb0e24abbebebff3b5ac65486c933d0ecd5cf81 kbuild: rust: replace proc macros dependency on `core.o` with the version text
-93dc3be19450447a3a7090bd1dfb9f3daac3e8d2 docs: rust: include other expressions in conditional compilation section
-d077242d68a31075ef5f5da041bf8f6fc19aa231 rust: support for shadow call stack sanitizer
-ce4a2620985cdf06c200ec0b6dce80374237697c cfi: add CONFIG_CFI_ICALL_NORMALIZE_INTEGERS
-d21dffe51baabf6729a95585181507f24bd695a0 arch/sparc: remove unused varible paddrbase in function leon_swprobe()
-ca627e636551e74b528f150d744f67d9a63f0ae7 rust: cfi: add support for CFI_CLANG with Rust
-cc1d98f9fe30467a2224184336b3166ef4adbc25 kasan: simplify and clarify Makefile
-c42297438aee70e2d391225de3d35ffeb2bdbaf9 kbuild: rust: Define probing macros for rustc
-f64e2f3a66e30319023b7924d438d159ac742d63 rust: kasan: Rust does not support KHWASAN
-e3117404b41124c88a4d834fc3222669a880addc kbuild: rust: Enable KASAN support
-a2f11547052001bd448ccec81dd1e68409078fbb kasan: rust: Add KASAN smoke test via UAF
-699d53f04829d6b8855ff458f86e4b75ef3e5f0c powerpc/vdso32: Fix use of crtsavres for PPC64
-3af2e2f68cc6baf0a11f662d30b0bf981f77bfea powerpc/pseries/eeh: move pseries_eeh_err_inject() outside CONFIG_DEBUG_FS block
-570172569238c66a482ec3eb5d766cc9cf255f69 Merge tag 'rust-6.12' of https://github.com/Rust-for-Linux/linux
-1f9c4a996756867d678833c0513eabe4e8f1ed60 Kbuild: make MODVERSIONS support depend on not being a compile test build
-e520813b2de1d58712c29f1b469d38d8dacecf0c Merge tag 'clang-format-6.12' of https://github.com/ojeda/linux
-4ffc45808373e32112500756d6f02fe56c42f371 Merge tag 'powerpc-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-eb5b0f9812fff72f82e6ecc9ad4dafaf4971a16a Merge tag 'sparc-for-6.12-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/alarsson/linux-sparc
-aa486552a110fd6e625bb66b7edf0e0df7389a1a Merge tag 'memblock-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+3d96f9c6a6011d31956651a7fd01c5ac1b031f3b tools: fix shared radix-tree build
+8cc12f95c804435ce0aa4f17b37fb213cf36cda2 mm: make SPLIT_PTE_PTLOCKS depend on SMP
+c9c3cda25b48c2eced7bc41ff8cedcc058c1de7c mm/filemap: fix filemap_get_folios_contig THP panic
+f5f7ba38ea64e21dc3dc7963f9431ebfb876ada3 mm/hugetlb: fix memfd_pin_folios free_huge_pages leak
+5af768ab9f4475c63e972953fcaaf85fd1fd1420 mm/hugetlb: fix memfd_pin_folios resv_huge_pages leak
+fd5bea420ada26c1176a09d0dbf5070fcf86486a mm/gup: fix memfd_pin_folios hugetlb page allocation
+8777b5c9dd12bdd96a5b614ccf9f9e9e491d1491 mm/gup: fix memfd_pin_folios alloc race panic
+ea0aa8dd4cc52d29fef54ccda941c23140a8aabb mm/hugetlb: simplify refs in memfd_alloc_folio
+4ea7ae7d2d5a0ca3766aa69cc395f3a83c2f86d9 mm-hugetlb-simplify-refs-in-memfd_alloc_folio-v2
+6264e76d4d76a5243e050d33839f0554bb211ec0 mm: migrate: annotate data-race in migrate_folio_unmap()
+522257ee12dc75ed353cc8553bf46420ebfc024f ocfs2: reserve space for inline xattr before attaching reflink tree
+08da6b270652a5adc97d96adb799593e2de487b2 ocfs2: fix deadlock in ocfs2_get_system_file_inode
+4a519a642890f8e8e60920619a31013c0533bca2 mm: kfence: fix elapsed time for allocated/freed track
+8e51a26ebc524da2abd104dda67a65b8b6b667f0 mm/damon/Kconfig: update DAMON doc URL
+dd3f8503df80ff38cf0c06d327c751750d77c8e1 compiler.h: specify correct attribute for .rodata..c_jump_table
+062e595d98b9bb9b9f36d596aaab6d69a9b5219a kselftests: mm: fix wrong __NR_userfaultfd value
+15bb31ad052b3be76e0ffea464d384fa696a029f Revert "list: test: fix tests for list_cut_position()"
+db9c3d72372238a6e2af8367afb26cc758e2f7c3 memory tiers: use default_dram_perf_ref_source in log message
+0f00da0b5a4285eb291130f991fe9ace6790933f zram: don't free statically defined names
+f46eedd3c0702818006382c6787b5dd03c9b6149 ocfs2: fix uninit-value in ocfs2_get_block()
+8dfa45d95f4e69c7a76925830c9dafafa5bfada6 selftests/mm: add pkey_sighandler_xx, hugetlb_dio to .gitignore
+f2a915efc25b36511dcdea5fe2e2aaf48e41dacb mm: percpu: fix typo to pcpu_alloc_noprof() description
+48ea831bb2c6615bcbb2952cc617def97a1c0f4d mm/madvise: introduce PR_MADV_SELF flag to process_madvise()
+eb900e5717dd68fd4c35da62b219e8e982184aa9 selftests/mm: add test for process_madvise PR_MADV_SELF flag use
+646d49eed8f5e08ae485c526a04539a17cd27639 mm: shmem: fix khugepaged activation policy for shmem
+c3d8bb7d1fe7f50a0f8f324353fddf37fa585d7b mm/damon: fix sparse warning for zero initializer
+8fc0bf4221266f6c94dbfe51e74510a303e92ea3 mm/memcontrol: add per-memcg pgpgin/pswpin counter
+6eb5a9c45a7e4bf567807b1a1a373483a571756d mm-memcontrol-add-per-memcg-pgpgin-pswpin-counter-v2
+5ba51334bfb93ed36268c57549c57e46090169e4 mm/vmstat: defer the refresh_zone_stat_thresholds after all CPUs bringup
+73f2804f6e3f05d72163a62e789e8a109631ae38 mm-vmstat-defer-the-refresh_zone_stat_thresholds-after-all-cpus-bringup-fix
+e7740cc6e0b44ceccebd372f5bc046f3671a7d6f mm/vmalloc: combine all TLB flush operations of KASAN shadow virtual address into one operation
+00fcd8f15cc557ddb9b49ebade4aca4278c03506 zram: introduce ZRAM_PP_SLOT flag
+292aeda0f8fbb523d972bc7d5a6c9e4fd4465e10 zram: permit only one post-processing operation at a time
+5571bb5ea2d7d942108bbf58f8ec5e4aeb7c4c77 zram: rework recompress target selection strategy
+ec626d7f68840ea888b26a5b0c257e9ab2acc0ec zram: rework writeback target selection strategy
+c3a41e5708ef5100659c49fa4bfbf22becde8858 zram: do not mark idle slots that cannot be idle
+9a0edb88f7788b25bb903854db05e071b7473b60 zram: reshuffle zram_free_page() flags operations
+72d2bf780f674b196e5abb6d20804765a39e2123 zram: remove UNDER_WB and simplify writeback
+ca6861b95a4964c57763ea7fc3dffe26dfa81442 mm: refactor mm_access() to not return NULL
+45e554595f23c0088babdab10d353731734f3d51 procfs: prefer neater pointer error comparison
+c4823be7bdefb298ee1ec5f5e65f191e19e9fca9 maple_tree: i is always less than or equal to mas_end
+1e1d17525dc70531bbf4e9228fd2748aff0abb0e maple_tree: goto complete directly on a pivot of 0
+897c137d5434a1e52d4eceeb3ba93071d0c8df79 mm: shmem: fix data-race in shmem_getattr()
+bc60c4a48ad890ea5e396adf3539db272a2b6efa maple_tree: remove maple_big_node.parent
+3c540f3a8dea3c66a99961637e32967fb9375bee maple_tree: memset maple_big_node as a whole
+2078ec2afc510c1339eab85f66884fbd5fcae0a8 mm/list_lru: don't pass unnecessary key parameters
+30b8bf2cf6029da67a316a9a2fdeac8dc165e829 mm/list_lru: don't export list_lru_add
+5f007d15ee093f17039b58be4984ab92751d171d mm/list_lru: code clean up for reparenting
+faa07ea301f7871720eb4e5f7f79351a10b4cda8 mm/list_lru: simplify reparenting and initial allocation
+1c24af1698202250099a6639ece87374066dac51 mm/list_lru: split the lock to per-cgroup scope
+1fb8d2c9d27c5dd9abf4051ae5f58411f351041d mm/list_lru: simplify the list_lru walk callback function
+d14b9e883fd0ffb0b38fab3ea31223672828f139 mm: fix shrink nr.unqueued_dirty counter issue
+bfd1f519b65fb4a847a4909916ea631544357ccd mm/hugetlb_cgroup: introduce peak and rsvd.peak to v2
+4bcf401a58439d6020e5de37150a13b1660094ca mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
+99512fe63e6a323ba3ba151f84a73b406ad648af mm: optimization on page allocation when CMA enabled
+fbdf64670388d2c073f9a835f0696e5b8338a29b ocfs2: remove unused declaration in header file
+e2abf59cfb279d275e0c7ffa1639228a6a62087b ocfs2: Fix typo in comment
+1f1c45143e887df4bbf21f0e982bba7efad587c2 lib/math: Add int_log test suite
+2d703f1b50d0288dba8c0037c05476cbaac82954 kexec/crash: no crash update when kexec in progress
+0ac2b73e9fcbb2a96ed3d23269a14766f79e6b41 lib: devres: simplify API devm_iounmap() implementation
+0c2e064a0a5944b3c61901dbcc2ce10c16896f84 lib: devres: Simplify API devm_ioport_unmap() implementation
+ad32ec895b62cd768cfb6047aaea3bb4084d8dd2 kernel/watchdog: always restore watchdog_softlockup(,hardlockup)_user_enabled after proc show
+45c42fb7602f6e62b90eaf71a9f1ae182c113b0e resource: replace open coded resource_intersection()
+65f405680bcf059ef60da462862fda87629627fb resource: introduce is_type_match() helper and use it
+1c709dc219bece90a951dd91bf9309e6cc02f66c foo
 
---===============0933303332831837199==--
+--===============3071319619424774677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0696c6240a7f-f46eedd3c070.txt
+
+3d96f9c6a6011d31956651a7fd01c5ac1b031f3b tools: fix shared radix-tree build
+8cc12f95c804435ce0aa4f17b37fb213cf36cda2 mm: make SPLIT_PTE_PTLOCKS depend on SMP
+c9c3cda25b48c2eced7bc41ff8cedcc058c1de7c mm/filemap: fix filemap_get_folios_contig THP panic
+f5f7ba38ea64e21dc3dc7963f9431ebfb876ada3 mm/hugetlb: fix memfd_pin_folios free_huge_pages leak
+5af768ab9f4475c63e972953fcaaf85fd1fd1420 mm/hugetlb: fix memfd_pin_folios resv_huge_pages leak
+fd5bea420ada26c1176a09d0dbf5070fcf86486a mm/gup: fix memfd_pin_folios hugetlb page allocation
+8777b5c9dd12bdd96a5b614ccf9f9e9e491d1491 mm/gup: fix memfd_pin_folios alloc race panic
+ea0aa8dd4cc52d29fef54ccda941c23140a8aabb mm/hugetlb: simplify refs in memfd_alloc_folio
+4ea7ae7d2d5a0ca3766aa69cc395f3a83c2f86d9 mm-hugetlb-simplify-refs-in-memfd_alloc_folio-v2
+6264e76d4d76a5243e050d33839f0554bb211ec0 mm: migrate: annotate data-race in migrate_folio_unmap()
+522257ee12dc75ed353cc8553bf46420ebfc024f ocfs2: reserve space for inline xattr before attaching reflink tree
+08da6b270652a5adc97d96adb799593e2de487b2 ocfs2: fix deadlock in ocfs2_get_system_file_inode
+4a519a642890f8e8e60920619a31013c0533bca2 mm: kfence: fix elapsed time for allocated/freed track
+8e51a26ebc524da2abd104dda67a65b8b6b667f0 mm/damon/Kconfig: update DAMON doc URL
+dd3f8503df80ff38cf0c06d327c751750d77c8e1 compiler.h: specify correct attribute for .rodata..c_jump_table
+062e595d98b9bb9b9f36d596aaab6d69a9b5219a kselftests: mm: fix wrong __NR_userfaultfd value
+15bb31ad052b3be76e0ffea464d384fa696a029f Revert "list: test: fix tests for list_cut_position()"
+db9c3d72372238a6e2af8367afb26cc758e2f7c3 memory tiers: use default_dram_perf_ref_source in log message
+0f00da0b5a4285eb291130f991fe9ace6790933f zram: don't free statically defined names
+f46eedd3c0702818006382c6787b5dd03c9b6149 ocfs2: fix uninit-value in ocfs2_get_block()
+
+--===============3071319619424774677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7d5a22e4632e-65f405680bcf.txt
+
+3d96f9c6a6011d31956651a7fd01c5ac1b031f3b tools: fix shared radix-tree build
+8cc12f95c804435ce0aa4f17b37fb213cf36cda2 mm: make SPLIT_PTE_PTLOCKS depend on SMP
+c9c3cda25b48c2eced7bc41ff8cedcc058c1de7c mm/filemap: fix filemap_get_folios_contig THP panic
+f5f7ba38ea64e21dc3dc7963f9431ebfb876ada3 mm/hugetlb: fix memfd_pin_folios free_huge_pages leak
+5af768ab9f4475c63e972953fcaaf85fd1fd1420 mm/hugetlb: fix memfd_pin_folios resv_huge_pages leak
+fd5bea420ada26c1176a09d0dbf5070fcf86486a mm/gup: fix memfd_pin_folios hugetlb page allocation
+8777b5c9dd12bdd96a5b614ccf9f9e9e491d1491 mm/gup: fix memfd_pin_folios alloc race panic
+ea0aa8dd4cc52d29fef54ccda941c23140a8aabb mm/hugetlb: simplify refs in memfd_alloc_folio
+4ea7ae7d2d5a0ca3766aa69cc395f3a83c2f86d9 mm-hugetlb-simplify-refs-in-memfd_alloc_folio-v2
+6264e76d4d76a5243e050d33839f0554bb211ec0 mm: migrate: annotate data-race in migrate_folio_unmap()
+522257ee12dc75ed353cc8553bf46420ebfc024f ocfs2: reserve space for inline xattr before attaching reflink tree
+08da6b270652a5adc97d96adb799593e2de487b2 ocfs2: fix deadlock in ocfs2_get_system_file_inode
+4a519a642890f8e8e60920619a31013c0533bca2 mm: kfence: fix elapsed time for allocated/freed track
+8e51a26ebc524da2abd104dda67a65b8b6b667f0 mm/damon/Kconfig: update DAMON doc URL
+dd3f8503df80ff38cf0c06d327c751750d77c8e1 compiler.h: specify correct attribute for .rodata..c_jump_table
+062e595d98b9bb9b9f36d596aaab6d69a9b5219a kselftests: mm: fix wrong __NR_userfaultfd value
+15bb31ad052b3be76e0ffea464d384fa696a029f Revert "list: test: fix tests for list_cut_position()"
+db9c3d72372238a6e2af8367afb26cc758e2f7c3 memory tiers: use default_dram_perf_ref_source in log message
+0f00da0b5a4285eb291130f991fe9ace6790933f zram: don't free statically defined names
+f46eedd3c0702818006382c6787b5dd03c9b6149 ocfs2: fix uninit-value in ocfs2_get_block()
+fbdf64670388d2c073f9a835f0696e5b8338a29b ocfs2: remove unused declaration in header file
+e2abf59cfb279d275e0c7ffa1639228a6a62087b ocfs2: Fix typo in comment
+1f1c45143e887df4bbf21f0e982bba7efad587c2 lib/math: Add int_log test suite
+2d703f1b50d0288dba8c0037c05476cbaac82954 kexec/crash: no crash update when kexec in progress
+0ac2b73e9fcbb2a96ed3d23269a14766f79e6b41 lib: devres: simplify API devm_iounmap() implementation
+0c2e064a0a5944b3c61901dbcc2ce10c16896f84 lib: devres: Simplify API devm_ioport_unmap() implementation
+ad32ec895b62cd768cfb6047aaea3bb4084d8dd2 kernel/watchdog: always restore watchdog_softlockup(,hardlockup)_user_enabled after proc show
+45c42fb7602f6e62b90eaf71a9f1ae182c113b0e resource: replace open coded resource_intersection()
+65f405680bcf059ef60da462862fda87629627fb resource: introduce is_type_match() helper and use it
+
+--===============3071319619424774677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e2e8744cbcb7-99512fe63e6a.txt
+
+3d96f9c6a6011d31956651a7fd01c5ac1b031f3b tools: fix shared radix-tree build
+8cc12f95c804435ce0aa4f17b37fb213cf36cda2 mm: make SPLIT_PTE_PTLOCKS depend on SMP
+c9c3cda25b48c2eced7bc41ff8cedcc058c1de7c mm/filemap: fix filemap_get_folios_contig THP panic
+f5f7ba38ea64e21dc3dc7963f9431ebfb876ada3 mm/hugetlb: fix memfd_pin_folios free_huge_pages leak
+5af768ab9f4475c63e972953fcaaf85fd1fd1420 mm/hugetlb: fix memfd_pin_folios resv_huge_pages leak
+fd5bea420ada26c1176a09d0dbf5070fcf86486a mm/gup: fix memfd_pin_folios hugetlb page allocation
+8777b5c9dd12bdd96a5b614ccf9f9e9e491d1491 mm/gup: fix memfd_pin_folios alloc race panic
+ea0aa8dd4cc52d29fef54ccda941c23140a8aabb mm/hugetlb: simplify refs in memfd_alloc_folio
+4ea7ae7d2d5a0ca3766aa69cc395f3a83c2f86d9 mm-hugetlb-simplify-refs-in-memfd_alloc_folio-v2
+6264e76d4d76a5243e050d33839f0554bb211ec0 mm: migrate: annotate data-race in migrate_folio_unmap()
+522257ee12dc75ed353cc8553bf46420ebfc024f ocfs2: reserve space for inline xattr before attaching reflink tree
+08da6b270652a5adc97d96adb799593e2de487b2 ocfs2: fix deadlock in ocfs2_get_system_file_inode
+4a519a642890f8e8e60920619a31013c0533bca2 mm: kfence: fix elapsed time for allocated/freed track
+8e51a26ebc524da2abd104dda67a65b8b6b667f0 mm/damon/Kconfig: update DAMON doc URL
+dd3f8503df80ff38cf0c06d327c751750d77c8e1 compiler.h: specify correct attribute for .rodata..c_jump_table
+062e595d98b9bb9b9f36d596aaab6d69a9b5219a kselftests: mm: fix wrong __NR_userfaultfd value
+15bb31ad052b3be76e0ffea464d384fa696a029f Revert "list: test: fix tests for list_cut_position()"
+db9c3d72372238a6e2af8367afb26cc758e2f7c3 memory tiers: use default_dram_perf_ref_source in log message
+0f00da0b5a4285eb291130f991fe9ace6790933f zram: don't free statically defined names
+f46eedd3c0702818006382c6787b5dd03c9b6149 ocfs2: fix uninit-value in ocfs2_get_block()
+8dfa45d95f4e69c7a76925830c9dafafa5bfada6 selftests/mm: add pkey_sighandler_xx, hugetlb_dio to .gitignore
+f2a915efc25b36511dcdea5fe2e2aaf48e41dacb mm: percpu: fix typo to pcpu_alloc_noprof() description
+48ea831bb2c6615bcbb2952cc617def97a1c0f4d mm/madvise: introduce PR_MADV_SELF flag to process_madvise()
+eb900e5717dd68fd4c35da62b219e8e982184aa9 selftests/mm: add test for process_madvise PR_MADV_SELF flag use
+646d49eed8f5e08ae485c526a04539a17cd27639 mm: shmem: fix khugepaged activation policy for shmem
+c3d8bb7d1fe7f50a0f8f324353fddf37fa585d7b mm/damon: fix sparse warning for zero initializer
+8fc0bf4221266f6c94dbfe51e74510a303e92ea3 mm/memcontrol: add per-memcg pgpgin/pswpin counter
+6eb5a9c45a7e4bf567807b1a1a373483a571756d mm-memcontrol-add-per-memcg-pgpgin-pswpin-counter-v2
+5ba51334bfb93ed36268c57549c57e46090169e4 mm/vmstat: defer the refresh_zone_stat_thresholds after all CPUs bringup
+73f2804f6e3f05d72163a62e789e8a109631ae38 mm-vmstat-defer-the-refresh_zone_stat_thresholds-after-all-cpus-bringup-fix
+e7740cc6e0b44ceccebd372f5bc046f3671a7d6f mm/vmalloc: combine all TLB flush operations of KASAN shadow virtual address into one operation
+00fcd8f15cc557ddb9b49ebade4aca4278c03506 zram: introduce ZRAM_PP_SLOT flag
+292aeda0f8fbb523d972bc7d5a6c9e4fd4465e10 zram: permit only one post-processing operation at a time
+5571bb5ea2d7d942108bbf58f8ec5e4aeb7c4c77 zram: rework recompress target selection strategy
+ec626d7f68840ea888b26a5b0c257e9ab2acc0ec zram: rework writeback target selection strategy
+c3a41e5708ef5100659c49fa4bfbf22becde8858 zram: do not mark idle slots that cannot be idle
+9a0edb88f7788b25bb903854db05e071b7473b60 zram: reshuffle zram_free_page() flags operations
+72d2bf780f674b196e5abb6d20804765a39e2123 zram: remove UNDER_WB and simplify writeback
+ca6861b95a4964c57763ea7fc3dffe26dfa81442 mm: refactor mm_access() to not return NULL
+45e554595f23c0088babdab10d353731734f3d51 procfs: prefer neater pointer error comparison
+c4823be7bdefb298ee1ec5f5e65f191e19e9fca9 maple_tree: i is always less than or equal to mas_end
+1e1d17525dc70531bbf4e9228fd2748aff0abb0e maple_tree: goto complete directly on a pivot of 0
+897c137d5434a1e52d4eceeb3ba93071d0c8df79 mm: shmem: fix data-race in shmem_getattr()
+bc60c4a48ad890ea5e396adf3539db272a2b6efa maple_tree: remove maple_big_node.parent
+3c540f3a8dea3c66a99961637e32967fb9375bee maple_tree: memset maple_big_node as a whole
+2078ec2afc510c1339eab85f66884fbd5fcae0a8 mm/list_lru: don't pass unnecessary key parameters
+30b8bf2cf6029da67a316a9a2fdeac8dc165e829 mm/list_lru: don't export list_lru_add
+5f007d15ee093f17039b58be4984ab92751d171d mm/list_lru: code clean up for reparenting
+faa07ea301f7871720eb4e5f7f79351a10b4cda8 mm/list_lru: simplify reparenting and initial allocation
+1c24af1698202250099a6639ece87374066dac51 mm/list_lru: split the lock to per-cgroup scope
+1fb8d2c9d27c5dd9abf4051ae5f58411f351041d mm/list_lru: simplify the list_lru walk callback function
+d14b9e883fd0ffb0b38fab3ea31223672828f139 mm: fix shrink nr.unqueued_dirty counter issue
+bfd1f519b65fb4a847a4909916ea631544357ccd mm/hugetlb_cgroup: introduce peak and rsvd.peak to v2
+4bcf401a58439d6020e5de37150a13b1660094ca mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
+99512fe63e6a323ba3ba151f84a73b406ad648af mm: optimization on page allocation when CMA enabled
+
+--===============3071319619424774677==--
