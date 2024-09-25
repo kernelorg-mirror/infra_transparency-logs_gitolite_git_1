@@ -1,488 +1,348 @@
-Content-Type: multipart/mixed; boundary="===============5462662463893969468=="
+Content-Type: multipart/mixed; boundary="===============5377533535115534407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Wed, 25 Sep 2024 02:11:27 -0000
-Message-Id: <172723028726.3119750.11332623662254794245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Wed, 25 Sep 2024 02:13:55 -0000
+Message-Id: <172723043539.3120966.13104155641610393389@gitolite.kernel.org>
 
---===============5462662463893969468==
+--===============5377533535115534407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
 user: djwong
 changes:
   - ref: refs/heads/djwong-wtf
-    old: 72a2e5490482a8b2bda4363893fd241e1b539f3a
-    new: 4aef36d429bebf99d74a5ac78b3860ccd5063d48
-    log: revlist-72a2e5490482-4aef36d429be.txt
-  - ref: refs/tags/origin/for-next_2024-09-24
-    old: 0000000000000000000000000000000000000000
-    new: 27113989188b03a21d501cc13f08afd068480b1e
+    old: 3b01d85f0113ab061770c5061d76aad6dc6f4ab9
+    new: c1db8e3b783c6cb2de6d9b94632acdaa12bd4f73
+    log: revlist-3b01d85f0113-c1db8e3b783c.txt
   - ref: refs/tags/djwong-wtf_2024-09-24
     old: 0000000000000000000000000000000000000000
-    new: aade5b961590bbf52b7ad6b0bdfdaed5edbbe01c
+    new: d8f2f10a60e781022e952720ded9b31d3f891376
 
---===============5462662463893969468==
+--===============5377533535115534407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72a2e5490482-4aef36d429be.txt
+Content-Disposition: attachment; filename=revlist-3b01d85f0113-c1db8e3b783c.txt
 
-46b38f6a641a0d722b348d8985aefe60617333f9 debian: Update debhelper-compat level
-c8bd129215c08623156aca2a3299a60410a18c9a debian: Update public release key
-76bd8c132c4ae08ec181003793042c7df7bc91b4 debian: Prevent recreating the orig tarball
-b50fcf74edcd14dcd4b342765c3da8677fb78f41 debian: Add Build-Depends on pkg with systemd.pc
-833634fd8172b947661eb066336af14e34035ebd debian: Modernize build script
-c8fb0e1bee4171cb566e4a3251ae5aa82dda39f5 debian: Correct the day-of-week on 2024-09-04
-b58fbd08408024dae652e8e4df010314623722c7 misc: clean up code around attr_list_by_handle calls
-95b86433859119f7fffdfb8dc295737e0935b896 libfrog: emulate deprecated attrlist functionality in libattr
-764b31d955b3a4162d5651d4e160697b9c9ed9f1 xfs: avoid redundant AGFL buffer invalidation
-09e7bc0b64f076dd27c91524b172b9f75a245538 xfs: don't walk off the end of a directory data block
-af89430a145523f680091238fcea5e781b3b86b8 xfs: Remove header files which are included more than once
-2fde1445f580deff8b8edf55f8132e9e73c8ad88 xfs: hoist extent size helpers to libxfs
-f3b0a4a70253bd5cd2c15ed25d09042b1858c680 xfs: hoist inode flag conversion functions to libxfs
-85cdf9ec27bd87c4fea78995ec1b0f023dfb4bff xfs: hoist project id get/set functions to libxfs
-7f8548827722007b6c9b0380b448b8377141bbbd libxfs: put all the inode functions in a single file
-318a48613a25d6524f3151ba6a098ea7bf63262f libxfs: pass IGET flags through to xfs_iread
-ac5da08c531ebe2be9f2e22bde371bb359756d7b xfs: pack icreate initialization parameters into a separate structure
-75de75eb41fa9c2d21e40a78e227c84ea4903b8b libxfs: pack icreate initialization parameters into a separate structure
-750bab554d7ae4eb1107f2b5971775e42206f5f7 xfs: implement atime updates in xfs_trans_ichgtime
-fcd0f4c08d528413776e9a532cb8ee090da8d365 libxfs: rearrange libxfs_trans_ichgtime call when creating inodes
-52651b7593b36255b6103183a344bdfa17d3924e libxfs: set access time when creating files
-789a589a7195f42ae2e9fdae9d690f5f6a0c961e libxfs: when creating a file in a directory, set the project id based on the parent
-0b173071cae6300fc9999e91b31230513a1e8795 libxfs: pass flags2 from parent to child when creating files
-078bc17cd137e71e570aa0a73f732d9c1959be1e xfs: split new inode creation into two pieces
-f856c34e867c2aaf1007e1883d7d671ff33a985c libxfs: split new inode creation into two pieces
-b59280d5500c6ec327b76edbbe2cdd4315017df5 libxfs: backport inode init code from the kernel
-069509d12df573b026b51c1e44152694cae0d34f libxfs: remove libxfs_dir_ialloc
-52f17381bef98fe4059620192d1e6d29f4cdd700 libxfs: implement get_random_u32
-19fe43f18032f36496dbdcdc0da8aa4fc1f8cb82 xfs: hoist new inode initialization functions to libxfs
-fe8ea032d3cb92fedf709a25a290b8832320cf2c xfs: hoist xfs_iunlink to libxfs
-20d6c45b4e63fd7cdac92e32ce230b4c3bc4650d xfs: hoist xfs_{bump,drop}link to libxfs
-3e1ce5246ca95060a4b3306b05ac72bf30fc5872 xfs: separate the icreate logic around INIT_XATTRS
-eccc1daf7d01bd107af54fb35f3924ee70abaecc xfs: create libxfs helper to link a new inode into a directory
-60986974502f48f52ad67ac3a10fcf3342c226a6 xfs: create libxfs helper to link an existing inode into a directory
-1c18a22e4f3f4344ffa5bdb939a45ef01e9b4ad7 xfs: hoist inode free function to libxfs
-6fba0b8567181f49f0199563353f0e0d2843fb61 xfs: create libxfs helper to remove an existing inode/name from a directory
-531eee7f13f6b343f1833bc698f3325a6bf80d7d xfs: create libxfs helper to exchange two directory entries
-4f3ed7face84f9f5f66f3adec59a68970d3950f1 xfs: create libxfs helper to rename two directory entries
-3e5dfa93f41999e899f0f1bdf1af1eb532968ed1 xfs: move dirent update hooks to xfs_dir2.c
-908695f04eb572a1203be5db4f2a5b678a02f9aa xfs: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-0dead7bd5f47738c9cee2954f2f113ca01a0e7a7 xfs: clean up extent free log intent item tracepoint callsites
-bc855262a8c8111b4204cf456a582838690c2c2c xfs: convert "skip_discard" to a proper flags bitset
-cc98a73105642a0954471144de7ebe307a03225f xfs: pass the fsbno to xfs_perag_intent_get
-b4149045408db2ee810c73bd473fac8f4b61185a xfs: add a xefi_entry helper
-1161d7a7794ffb86aebb7597265a39e1e3d09a59 xfs: reuse xfs_extent_free_cancel_item
-4a39c1d20fdc1f5f6169c6e55ccbc99219b6a9e6 xfs: remove duplicate asserts in xfs_defer_extent_free
-e94ebf77f689b75eee00385024a888805014e6f2 xfs: remove xfs_defer_agfl_block
-49e210e05401e9f6f1d347510a3a2893cdf4510f xfs: move xfs_extent_free_defer_add to xfs_extfree_item.c
-af5cc06c9ab519ad2306e53c6e9182aa1c1ceaf9 xfs: give rmap btree cursor error tracepoints their own class
-1eefe3f8846ae0276a50a757582a36282b7fc878 xfs: pass btree cursors to rmap btree tracepoints
-d19fbc8cfb37723d6df9071824220d5eb21b7cd4 xfs: clean up rmap log intent item tracepoint callsites
-d4d90e476b305e8757450e460af8625cbb3f434e xfs: add a ri_entry helper
-35ce2d3df9f02f406aca83252c5837974418270c xfs: reuse xfs_rmap_update_cancel_item
-0b2769664bf70e98dd1f4eac0aa189b414196929 xfs: don't bother calling xfs_rmap_finish_one_cleanup in xfs_rmap_finish_one
-f55f4e076e59d4a0ac0d88d210d12b527b2b4583 xfs: simplify usage of the rcur local variable in xfs_rmap_finish_one
-6a67a039423270269f23b16ebdac1417d0d0ca0f xfs: move xfs_rmap_update_defer_add to xfs_rmap_item.c
-20b868d9b1ed82a3417603c47ad9201b78ef1b02 xfs: give refcount btree cursor error tracepoints their own class
-4293d54dccdade0188a8940a1df145d2bd7677c7 xfs: create specialized classes for refcount tracepoints
-c34057c0a3b2dbf93198e9985ddf02afe17bd5f7 xfs: pass btree cursors to refcount btree tracepoints
-8cf15831e7c76fffac9a32a259c11e01f058f6c4 xfs: clean up refcount log intent item tracepoint callsites
-defd3d6ef865b53bba47e0a6f21faee3b5dd4b55 xfs: add a ci_entry helper
-1e0d9dcd2381c3875635935caa6742f676f4c28f xfs: reuse xfs_refcount_update_cancel_item
-c03f949cbda2eb81f600760a3d93ea5d96cb0b0c xfs: don't bother calling xfs_refcount_finish_one_cleanup in xfs_refcount_finish_one
-c2eb08824ca42919606e49a062ac5fda8519d359 xfs: simplify usage of the rcur local variable in xfs_refcount_finish_one
-f84cca55bf9a173ca19a6cf48d65a5a0dd96dbd0 xfs: move xfs_refcount_update_defer_add to xfs_refcount_item.c
-7c291c754f8ec4bf2bb1b6138e7ce93b735534ba xfs: Avoid races with cnt_btree lastrec updates
-2119d0ac313e689051894903aa2519990fc88fbc xfs: AIL doesn't need manual pushing
-ad675bb0cb8b83174a1fa7d92c26a92a31291a73 xfs: background AIL push should target physical space
-f92b7b5d979d8557913d1c8cd91247bedade02ff xfs: get rid of xfs_ag_resv_rmapbt_alloc
-2b0a5a9904901acfc3b72ddf0218aa6cc86ab428 xfs: remove unused parameter in macro XFS_DQUOT_LOGRES
-d59848ab55515586b60f861a0188bdd2f3cf6ae3 xfs: fix di_onlink checking for V1/V2 inodes
-bf009600dc47b4a2c7f5eac572eaba729e8c82ae xfs: xfs_finobt_count_blocks() walks the wrong btree
-1a9f3d263873b6ede55ae178d96bfbb3f1d23499 xfs_db: port the unlink command to use libxfs_droplink
-b0b5e1e9f23aca6d53f632560c80e64047c92397 xfs_db/mkfs/xfs_repair: port to use XFS_ICREATE_UNLINKABLE
-ebb7992213533edabe94be3e41935722cffaee06 xfs_db/mdrestore/repair: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-1db70b6a9f1c9d391e859b24dd0f4f0a93413a76 xfs_db: port the iunlink command to use the libxfs iunlink function
-cd39fdd36a3fc864ad490f086918058aed8c3820 xfs_repair: don't crash in get_inode_parent
-bbe5f1d696ed679f901b5d6b62af52b45feae358 xfs_repair: use library functions to reset root/rbm/rsum inodes
-fddb690ec8ef80c924b6fbba9bc46b7e57799aa3 xfs_repair: use library functions for orphanage creation
-a09ced24e3b883068b058e30991e3a1d4b074aab mkfs: clean up the rtinit() function
-03bf7ce2a44611c6c4c1e982b6fe6e12c9172752 mkfs: break up the rest of the rtinit() function
-4a7e4c2dd37f7385462b04c8c34a937f353af9de xfs: introduce new file range commit ioctls
-31944e32f7c7a9557105c227400bd43cb295f2ce man: document file range commit ioctls
-069104287fa7f23380e888dd60f325f415751ea0 libfrog: add support for commit range ioctl family
-baae43b9e85c89a1f60b44b457d47d08720b12fa libxfs: remove unused xfs_inode fields
-14584b56058d1fa8e80b1d48c1d5eabbeb154ae6 xfs_fsr: port to new file exchange library function
-088083394f2d40d664480d0ebe9871bcc5da1544 xfs_io: add a commitrange option to the exchangerange command
-9b740d4668a06b34ed2627fd02cda1642d90369b xfs_io: add atomic file update commands to exercise file commit range
-fbfa8b87dc61b440506f8ed6895a7136402da7b3 xfs: validate inumber in xfs_iget
-840f61b912e42c57cc665c89fe2c5706f3746858 xfs: pass the icreate args object to xfs_dialloc
-b8b6550a5f7f3899966304f1437f0d8cbe2a07ca xfs_db: support passing the realtime device to the debugger
-3fa25f78d1456bdfa992573df18051b36aa95ff5 xfs_db: report the realtime device when associated with each io cursor
-81b3c9fc24c903d813e70c36d8e19af1806d4bf6 xfs_db: make the daddr command target the realtime device
-8347ddc8dc404ee57504ef14c1af8b58194aa70b xfs_db: access realtime file blocks
-8e31bf33213f158c6294344861d7f7434a11c58d xfs_db: access arbitrary realtime blocks and extents
-a1b716937be8112d2cf8817e6a03aad55d496fd7 xfs_db: enable conversion of rt space units
-92779cc3bc013177195632b62da090fe6ac22f01 xfs_db: convert rtbitmap geometry
-bf03383583aa95f8ad0313e3b5eb0c86cc9e820e xfs_db: convert rtsummary geometry
-6578f4007ec99a2599cae561086754099fd7cd32 xfs_db: allow setting current address to log blocks
-1049749a8558eab896cb6b6c7a7b5b6f17e20a3b xfs: remove xfs_validate_rtextents
-65e8bc985bf61c346c80eb279fdaa3483e483191 xfs: factor out a xfs_validate_rt_geometry helper
-57d2251b515f1ded59280f2017967369c4feb419 xfs: remove the limit argument to xfs_rtfind_back
-3b8edff2b071a4123f7438aed65b74f83e614ce3 xfs: assert a valid limit in xfs_rtfind_forw
-22763cdc8f1cd0f1452923cd042337b0c66bf9b7 xfs: add bounds checking to xfs_rt{bitmap,summary}_read_buf
-c1b94b4e6ea50989ee84c96188cb128a5d8fda39 xfs: factor out rtbitmap/summary initialization helpers
-e9821da74a50d36bcb8956c2e776b7458ae33dc6 xfs: push transaction join out of xfs_rtbitmap_lock and xfs_rtgroup_lock
-8e58f06b909444a6fcdb3410e0543618d4ff1a49 xfs_repair: checking rt free space metadata must happen during phase 4
-a244714e5f7d33dede5ac91994e0a9852a4e1cc2 xfs_repair: use xfs_validate_rt_geometry
-3f38239638b91acaaf25630d41f1e9b1afc36fdb mkfs: remove a pointless rtfreesp_init forward declaration
-ee546a6f9eee2ed6fed1430e1c93fec3d3dcbe16 mkfs: use xfs_rtfile_initialize_blocks
-1ece79148fb37617da2daf9d3de81eb2a1f80aa0 xfs_repair: use libxfs_rtfile_initialize_blocks
-d2293f741920f0c92a5ac75278b838b40f1e9f9b xfs_repair: stop preallocating blocks in mk_rbmino and mk_rsumino
-713c55ba4a028f8d0d125e2a5a456344dcd5282f xfs_repair: stop using libxfs_rt{bitmap,summary}_wordcount
-2cc1971562a08fe590534ce58ed853bc9d142957 xfs_db: stop using libxfs_rtsummary_wordcount
-7e542479d9171615278a585aa8a3f1cfc857d321 xfs: ensure rtx mask/shift are correct after growfs
-bc9f6398f4432a65b4dbbbfdb5e2dbd163fe3b5d xfs: remove xfs_rtb_to_rtxrem
-b005e4e558ff192eed6955beaf38c63db1aa0cd8 xfs: simplify xfs_rtalloc_query_range
-82247d62e08a08a44d7629e771d81985a67775c4 xfs: clean up the ISVALID macro in xfs_bmap_adjacent
-8937772fd6f5b00df4fa1d41a778437af575d952 xfs: remove xfs_{rtbitmap,rtsummary}_wordcount
-c263a081954b9bbf2d8d70e52b74ae6f6c7849f0 xfs: replace m_rsumsize with m_rsumblocks
-78a42eb384f840a2ad58f32fa40a67a371cba854 fixup
-780bbbee804aeb1c28dd9228b8d4b2bef3f848a4 libxfs: require -std=gnu11 for compilation by default
-6a599eed57f784923f5c4e81238de199bc287ae2 libxfs: compile with a C++ compiler
-2f2f62a937dd345072f2a28bd351c53a31bd2152 xfs: fix a sloppy memory handling bug in xfs_iroot_realloc
-f0f841447ad03aff472d997ee1fecdf83d6ccd92 xfs: replace shouty XFS_BM{BT,DR} macros
-93a4e1e16fbfe16de4ce7a3232f0827f67685a9f xfs: standardize the btree maxrecs function parameters
-000665128935b097d00cd875dd047614a0bb41c2 xfs: remove unnecessary check
-104ffdca9d7af028c58162e4cd382d473622ab1f xfs: use kfree_rcu_mightsleep to free the perag structures
-27e7e51839f0f62ee2d16caf288be4d7f3003a1f fixes
-752f95aef4b75efa848cd94696f07efb2efb09be xfs: move the tagged perag lookup helpers to xfs_icache.c
-f3334b38711a3021a5b1ed5c6d9c7794b1ca7c6f libfrog: add xarray emulation
-021a2f98cf2787354110fad66d1aa14c727e01ea xfs: convert perag lookup to xarray
-a7069f48f66e60d92dcbeb38189be01001e9f175 xfs: ensure st_blocks never goes to zero during COW writes
-c2349df7529e0036e51df677e2a7180fc4945304 xfs: pass the exact range to initialize to xfs_initialize_perag
-f7dcd9acaaae4437d9a28c89953e4b5f56afb9bb xfs: merge the perag freeing helpers
-90fa817ff0be6bd50661f543d4657d4989b99e06 xfs: don't use __GFP_RETRY_MAYFAIL in xfs_initialize_perag
-e92b1f98f34660d83aa861e371068aa3187648c1 xfs: remove the unused pagb_count field in struct xfs_perag
-9746acee1a3cb6d8f933a074efa255fa86fd5d7e xfs: remove the unused pag_active_wq field in struct xfs_perag
-4f42b19f7e0fa493f7eb48b3fa46cf620b7cbe4e xfs: pass a pag to xfs_difree_inode_chunk
-63698818f840f1ab050426a3f999848ea9512217 xfs: remove the agno argument to xfs_free_ag_extent
-e7569e8daff3488ed23aba57c9bfdc494c5ce1ce xfs: add xfs_agbno_to_fsb and xfs_agbno_to_daddr helpers
-340869cdf7de38378f37e15e6ee38be8a0b528c0 xfs: add a xfs_agino_to_ino helper
-791471cd040bc4943ad2883e18e50ab6fff5ef64 xfs: pass a pag to xfs_extent_busy_{search,reuse}
-1466ebc994c2de3dd134d4edd1e00f88fda2efa2 xfs: pass a perag structure to the xfs_ag_resv_init_error trace point
-d65f075eb93c92814582692b42e8fd41a908995b xfs: pass objects to the xfs_irec_merge_{pre,post} trace points
-e74070fade029a12f0f6854e238fb05f6c3e07e0 xfs: convert remaining trace points to pass pag structures
-edca4d3f0fa57d6d694fb9c156b93cbc4ff554dd xfs: split xfs_initialize_perag
-2f5bab8ba5a2d3509aec92555d11757f05141574 xfs: insert the pag structures into the xarray later
-d330eb6c9e6956113c7ace1c0c9bf68cfc978347 Subject: [PATCH] xfs: factor out a generic xfs_group structure
-44c9b27904b8bc3de7b9236a6eec8e9b36ff6cf1 Subject: [PATCH] fixup
-5b109285b2d6f77507cde99871f401b85f91825d Subject: [PATCH] xfs: add a xfs_group_next_range helper
-9c0f0c446525fbb44a2122b4d0e386c176080b79 Subject: [PATCH] xfs: switch perag iteration from the for_each macros to a while based iterator
-d6de4e8b695010e5d91e672912a6d62f61aa276d Subject: [PATCH] fixups
-85a8ab53126b28000f69203f7ce6129ee2996154 Subject: [PATCH] xfs: move metadata health tracking to the generic group structure
-9a3c02205a81baea3145e89c0105943f22b5878d Subject: [PATCH] fixups
-c62331b513ed16ad8eac362f77b8bc36e3f3afe2 Subject: [PATCH] xfs: move draining of deferred operations to the generic group structure
-eb188a5dae49d8b134a5c740566d65f3dc507289 Subject: [PATCH] xfs: move the online repair rmap hooks to the generic group structure
-cdb5be7ee84f02dde0f7725748c07367ffd5f57c Subject: [PATCH] xfs: convert busy extent tracking to the generic group structure
-a43b3ed763dab86d4a23e7bb7e2308d674763687 Subject: [PATCH] fixups
-3c22d3ad89781769c065444b0ae5d632ee861531 Subject: [PATCH] xfs: add a generic group pointer to the btree cursor
-580baad5bb975b8d56e8ac6400d70bee22858452 Subject: [PATCH] fixups
-1c2567acc5f9d38cbea43666ab0d6b46ef873742 Subject: [PATCH] xfs: add group based bno conversion helpers
-92763032e30f2ef558270bb13ae70e1367b52598 Subject: [PATCH] xfs: store a generic group structure in the intents
-e867a1bca71644b63d25bd4140ebf7af615220dd fixups
-c198a3ac8b1bc2fc72639b08d86202487ace556b xfs_repair: allow sysadmins to add free inode btree indexes
-4506b23a3a7b75347862496ccd5aae1776dcc766 xfs_repair: allow sysadmins to add reflink
-522b9bfb1938e698469c9ccab5fe39a9cc7a2c6d xfs_repair: allow sysadmins to add reverse mapping indexes
-be95e0a4d3cee23f925e186d74cc44e7b2b19980 xfs_repair: upgrade an existing filesystem to have parent pointers
-08d49928f74799a137dbfe93d435fa1468967096 xfs: define the on-disk format for the metadir feature
-14a52a17dc2b3d3cda649cd88080cb1e28242dca xfs: iget for metadata inodes
-9bc142f56efacdf00b82f95e4a2bb2e71ea641e6 xfs: load metadata directory root at mount time
-738711e107abd33661b204cf6423f2539f3fe561 xfs: enforce metadata inode flag
-420200e4d39ac5585c50aee49304b491d007694f xfs: read and write metadata inode directory tree
-856dbce27f9235710632d96fff601fc1375d05f0 xfs: disable the agi rotor for metadata inodes
-f31b42c4f39e46355be278bfc0ea22555fba6bb2 xfs: advertise metadata directory feature
-3d978e0c7bd70a070d944fcc2725f11553f9087d xfs: allow bulkstat to return metadata directories
-83e57d77e69c5ed6920541c2d8d9c85a1771e233 xfs: adjust xfs_bmap_add_attrfork for metadir
-8e7b137c07ad06b8ad78beee1af6cf2dbcab165d xfs: record health problems with the metadata directory
-67c672adcf42d165d94ed87e0d36375b8edd411a xfs: check metadata directory file path connectivity
-32c00da60b9807e6e092c04bd206a453caef58ff libfrog: report metadata directories in the geometry report
-cef23ca8b623eceb39f7b1a12e3a44a794905eb0 libfrog: allow METADIR in xfrog_bulkstat_single5
-35ed4e672fd8f4a761af364ed0da0adefc7c4f9a xfs_io: support scrubbing metadata directory paths
-86c0a18c5cee90f273c51f0cb8778fdf8ca8aa1b xfs_db: disable xfs_check when metadir is enabled
-00e63c24a0cb08ae0d211217dfbdd7017343cc22 xfs_db: report metadir support for version command
-4517d85f7824c512aef3870ebb1d41b761979eac xfs_db: don't obfuscate metadata directories and attributes
-88223c8a7fb37d23eff90fcd3e8d9239c9a9d3b8 xfs_db: support metadata directories in the path command
-bec82ab93400d3e24b0b55cbf4a822ec6b36fbaa xfs_db: show the metadata root directory when dumping superblocks
-501a853760bd0bc8c0106dd0f4001f49b180246b xfs_db: display di_metatype
-fe4f7d1733e581566be816f7320ac74b026525a6 xfs_io: support the bulkstat metadata directory flag
-558fd3db075a7aa397902d1e3f31080291e3f3f1 xfs_io: support scrubbing metadata directory paths
-2528b2b4cccec4e761cd6cbfb357f01fc8878c0f xfs_spaceman: report health of metadir inodes too
-e0290306576d66ed6137e42c48a2f871b6dca3eb xfs_scrub: tread zero-length read verify as an IO error
-eaf081c2f9e542d13e7a3c0fa61169f763f88590 xfs_scrub: scan metadata directories during phase 3
-92a09a73535fb2e2e4b00a35a9ef431b5bb10c1d xfs_scrub: re-run metafile scrubbers during phase 5
-e765443eb0868152c3d5b95a6a15db15b764bacb xfs_repair: preserve the metadirino field when zeroing supers
-9a5fbdf3c7ce035bcd19e00e9f89cae401bd1955 xfs_repair: dont check metadata directory dirent inumbers
-aec476189227a832b0e6211e0d6949189084d9e0 xfs_repair: refactor fixing dotdot
-66aa989d03291ff42263eab9f04b6195e530a804 xfs_repair: refactor marking of metadata inodes
-2fcd669647a3b27e7e05d4674f0efb0bc718a2dc xfs_repair: refactor root directory initialization
-d51d6496b1158a8614030aa61a25d7211981a17b xfs_repair: refactor grabbing realtime metadata inodes
-164588e38181610dd00a625b8a400a153f30288d xfs_repair: check metadata inode flag
-ecef5e12f323a98221e11ec9ecb79869a3654706 xfs_repair: use libxfs_metafile_iget for quota/rt inodes
-e96d84247c1e9d80148e5505114702270f1d5710 xfs_repair: rebuild the metadata directory
-beb03384f9ec013bac49a635de268ad7197f61f6 xfs_repair: don't let metadata and regular files mix
-7686c15d90c79e9f85da3bd5e697a9edc54bfc66 xfs_repair: update incore metadata state whenever we create new files
-14086ffcaac3b64f1eb7f72e12fba24536f8a8a9 xfs_repair: pass private data pointer to scan_lbtree
-2c86c5553298b8dc45a28c1ecc229f90a8c69bda xfs_repair: mark space used by metadata files
-39c1daad6c337be31c4f21443c06e4cc984256be xfs_repair: adjust keep_fsinos to handle metadata directories
-e12758cb802d2710423eb9c1515d92a4c4fa1802 xfs_repair: metadata dirs are never plausible root dirs
-3e41d35f8871c3c43a590e72c54c890993684674 xfs_repair: drop all the metadata directory files during pass 4
-7edb282b864b2a1c03c1d224f5a44c41fe50e19d xfs_repair: truncate and unmark orphaned metadata inodes
-ae95b4e9194220db235aa9c2b73bab4c0a3f582b xfs_repair: do not count metadata directory files when doing quotacheck
-c262f29eafc893b278cd5f56e29a02aec91eacb0 xfs_repair: fix maximum file offset comparison
-28f6743dd0ec7707a7b8e11656cf43a4cc5e154a xfs_repair: allow sysadmins to add metadata directories
-8dd7e8fe177529afff4e9a775e758e0a68c6a18b mkfs.xfs: enable metadata directories
-94bc33e5656a9f0f9702339ba7a29316d380e8a5 mkfs: add a utility to generate protofiles
-72c547642f9547980c2239e6ded7f11396bf68c0 xfs_repair: refactor generate_rtinfo
-b02d6805cd5ef04d9c88d57b341ddf5050e13864 xfs: create incore realtime group structures
-7f45aa82e24c810c5f7e348d66f4c2e382e2699d fixups
-658a5db307fe11cc6b5ff638721bf18ccc3dbd0c xfs: define locking primitives for realtime groups
-bc671d6be907fcc171b63353e28330c13633df7a xfs: add a lockdep class key for rtgroup inodes
-40e007613afcdebfc0ecff1f7d6f4d4df357b6ae xfs: support caching rtgroup metadata inodes
-0a3cba59c7207c389da58dc582137042f47f1203 fixup
-dde6f8738663a4e33a1cfea14d5222436be7e3cb xfs: move RT bitmap and summary information to the rtgroup
-44d93ed97c7119aae47ef5c48614476f609e267d fixup
-5015580a2e75f0517354fd10902cd6090bb6cae3 xfs: remove XFS_ILOCK_RT*
-fc1512d82fb85ed4820a72135e04d65b5a0360bd xfs: refactor xfs_rtbitmap_blockcount
-eb19503f94002b80ab65d4df31061edace2e1069 xfs: refactor xfs_rtsummary_blockcount
-a4b168628303f8142d795bc064ed8d372a754d11 fixup
-3b37864bb3bcf2d7bc258ed2c298e35b328f0078 xfs: make RT extent numbers relative to the rtgroup
-149f6d3a471ade3838b03d3a739bb7aec704fc73 fixup
-a9187324ce3650941a3893241f9cf7c882aea3b7 libfrog: add memchr_inv
-15647285d10976c08c49b5fbbe681133d2397aa5 xfs: define the format of rt groups
-ee8a41bbbc673a125bdbc8522bfeaacabd6ac520 fixup
-77f9816ff79a83e930768c37596405429d288d4e xfs: update realtime super every time we update the primary fs super
-a9d0d4442450b9a301ca5fee93cc00186526067a fixup
-0d1df9a3aad0f12a08c285b39c0edfeb6c33da13 xfs: export realtime group geometry via XFS_FSOP_GEOM
-40523c5abd6b0528e18b67859b79cd921d725724 xfs: check that rtblock extents do not break rtsupers or rtgroups
-c8fae58807c81d41fc32ab0f46946113f74df1f6 xfs: add a helper to prevent bmap merges across rtgroup boundaries
-b2400cec41d7f2ef6e3b805dc4055b71689bbfa4 xfs: add frextents to the lazysbcounters when rtgroups enabled
-580a267efb52f875f5f4ac0ac42e9c490efe0000 fixup
-3ba6aa3eb99a00e3da04e2b779e5d6c148da25e8 xfs: record rt group metadata errors in the health system
-ddd45a66de8f823ca5804691e7f9eec39500365a fixup
-6d622de3955d186392cd4c8a739de5d3d5447e2d xfs: export the geometry of realtime groups to userspace
-3babd2096e96b452c80d41081a5b31ff661a8477 fixup
-525f0b518d95842c938407878746703a9c27d07b xfs: add block headers to realtime bitmap and summary blocks
-5c73933d3a85972511a0a48061f66a0262215de1 fixup
-525a440688d42cb89867cd034cca5831bd96de75 xfs: encode the rtbitmap in big endian format
-57f528050eb05de3a88004bac0f43d477d8a69e8 fixup
-50e9cec99afdedb6507b6cd743e61d04cbd88575 xfs: encode the rtsummary in big endian format
-83a5c7f4e19f781c1a84ff2a9bbf3a6f56b67e0a fixup
-8ff75cbefcbb2c1d189bfb43acb5e47a02aaed8a xfs: grow the realtime section when realtime groups are enabled
-e587d7bec78bc477de0a67b943b639d178e8e87d fixup
-2f0e66331cc87cfff1baca1eae671d7d176c40da xfs: support logging EFIs for realtime extents
-9759c61175aebbaad66736dbb4ce0bd47a7e3f86 fixup
-850d3c75c2708d0ea1b46a618e6d0771169896b3 xfs: support error injection when freeing rt extents
-7fa4244878f48f96792994a9cce69840402b5a04 xfs: use realtime EFI to free extents when rtgroups are enabled
-0562087bf3b382ecb30ee008e78422a49c32eff4 xfs: make the RT allocator rtgroup aware
-f87a9f554a34e35c0e312579dcb39f7e733e46f9 xfs_logprint: report realtime EFIs
-e0272b134bf176d8555e56ab4ae20b46ce99dc16 xfs: scrub the realtime group superblock
-15470a1534a596b421d66907d1dce21cb18d47cd xfs: scrub metadir paths for rtgroup metadata
-0187d3ad5f3aa9e4247ee0fc4abe0863473d2ff2 xfs: mask off the rtbitmap and summary inodes when metadir in use
-17c274ddaa373faadf53f75c81a324528d71fb9a libxfs: implement some sanity checking for enormous rgcount
-b2a09e4be02f93d25527f3d2b3b435ceea28c743 libfrog: support scrubbing rtgroup metadata paths
-5a741cdb2f6ba2b01b8e108924e3c1f199e7beaf libfrog: report rt groups in output
-953f68d41305d43fe34df7dcc217547d1145523e libfrog: add bitmap_clear
-7b30e6f048929e5d728d0cb1549c837327e6ed77 xfs_repair: refactor phase4
-7825b3a0ca7710d79b3593027c9cb8decd9d3c62 xfs_repair: refactor offsetof+sizeof to offsetofend
-5e8a2b72a2f23d6738122f3170fd93bea589fc64 xfs_repair: improve rtbitmap discrepancy reporting
-44e80b749e1e4687c06aec36ff6cf69ee687ab80 xfs_repair: simplify rt_lock handling
-c2e0e24ce9760d92f03ee36f9fb04a64aa91bb56 xfs_repair: add a real per-AG bitmap abstraction
-cf660ab3ccf78049f19cb673d5ccee6eb2af801f xfs_repair: support realtime groups
-360d56e34ef4a6cd74b848a8ea8b90569ddd61d4 repair: use a separate bmaps array for real time groups
-eb6fc3f6e0f06e3d96751e924552959125981e28 xfs_repair: find and clobber rtgroup bitmap and summary files
-26e311bd71b5c987e84bdbd85b8afec4bc026a91 xfs_repair: support realtime superblocks
-7c3596292c89d7183cdd0c255a711a8ce6923d92 xfs_repair: repair rtbitmap and rtsummary block headers
-69572393ceac0765a78b1444dfe81cfba2676aba xfs_repair: stop tracking duplicate RT extents with rtgroups
-2819f5ba41c7aa16c5f744a51a5150cd18fbf38f xfs_db: listify the definition of enum typnm
-0cbd5f01094cf9f3b7d92a7f5a2baa806fda5f28 xfs_db: support dumping realtime superblocks
-1842253b4d29775995ac80994f6bb178c91f966e xfs_db: support changing the label and uuid of rt superblocks
-5b88bd62ff0952329dc5d9eb6805b9edaab813b7 xfs_db: enable conversion of rt space units
-0f5e94a2e2767f73c437c448d75fe9c1c7c89c04 xfs_db: metadump metadir rt bitmap and summary files
-ab5fce56fa0f4c96f18258c0bb880a7092033718 xfs_db: metadump realtime devices
-662053c0435098112279127644253e2f71c2a70c xfs_db: hoist bit scraping function
-9a428b429d36fcb34b85b11ab821f64147419d80 xfs_db: dump rt bitmap blocks
-ff25c28d45fcb37964115ecef7eb6ccf374f5ff5 xfs_db: dump rt summary blocks
-97c46691580a8f57fd1f319cedc20832255f9d32 xfs_mdrestore: restore rt group superblocks to realtime device
-6d7fa271ae77d800433ec711d57261e25518ac59 xfs_io: support scrubbing rtgroup metadata
-80ebdd1acc5e4057f2e8f2820f19c20dd5b12f80 xfs_io: support scrubbing rtgroup metadata paths
-b4a35e2477a03a04151431a537a0754d9d616bfa xfs_io: add a command to display allocation group information
-8d2c6f6b3d342742fb623361697313e269a1723c xfs_io: add a command to display realtime group information
-e4d646fb4c4c1e0d32c2ac74121170f95a197c55 xfs_io: display rt group in verbose bmap output
-c2c8939a465651030aa9e3e245ce31c6aa3ecc89 xfs_io: display rt group in verbose fsmap output
-b33b57fe2b1a10c970267e9411a50389b5af43ba xfs_spaceman: report on realtime group health
-0937058f0ef0ca0523bf68fcd9d381599e912980 xfs_scrub: scrub realtime allocation group metadata
-76ade5b5e702e653ff9f38bc9b06c79a6c6f49f3 xfs_scrub: check rtgroup metadata directory connections
-a4341d48909517dadf3e17fe65bf64e2c772bcd2 xfs_scrub: call GETFSMAP for each rt group in parallel
-05acfa217165f2b4ecbd9e3cee5699f7c6bc0a53 xfs_scrub: trim realtime volumes too
-901576abae3b8c502cb9048039db40972e986fea xfs_scrub: use histograms to speed up phase 8 on the realtime volume
-cf8f8ce8483e1cff50e18ec79133100f970887d1 mkfs: add headers to realtime bitmap blocks
-465706b4ccaa373751c62aae4678a322f002a02b xfs: use metadir for quota inodes
-2d54927334c57c48d715d12cae36018f4b8c5edf xfs: scrub quota file metapaths
-15813b691337fc1a9fdfc07ec31084a3b6527904 libfrog: scrub quota file metapaths
-a3ae801c3a9f6940688e943b0b0d959447574a6a xfs_db: support metadir quotas
-6500d60a9cb91f6608d809e012207ecb007a67b8 xfs_repair: refactor quota inumber handling
-4c9eec2b89871efc9f3b85cb166159efde637853 xfs_repair: hoist the secondary sb qflags handling
-a464ad911f3a2258a4af37b7338648dc4efe4762 xfs_repair: support quota inodes in the metadata directory
-b330ac26e6783d460b24d10898f941b05bc15615 xfs_repair: try not to trash qflags on metadir filesystems
-bc90d605c185f178efe4df2d969cde0db54cc3c5 mkfs: format realtime groups
-434749032f702bf10ab00b95611f652a7e30d478 mkfs: add quota flags when setting up filesystem
-1fa274535a3970671a6c776e444304f09cd8b8b6 xfs: enable metadata directory feature
-3e3bd3e5f844deaab4eaf67802324a7d74f28284 xfs: tidy up xfs_iroot_realloc
-015648e6c6b3b4cf45faabbee944515d434eb937 xfs: refactor the inode fork memory allocation functions
-7ba44bfd7ccab508cf2eabf60501945b15418481 xfs: make xfs_iroot_realloc take the new numrecs instead of deltas
-59b38a3a14cd55297da88b80e3a4976ce0777d6a xfs: make xfs_iroot_realloc a bmap btree function
-8b8c21b581befda73e406eb88215e62e9b92673b xfs: tidy up xfs_bmap_broot_realloc a bit
-17b6d6746e71168b7e6c09a81c9960e1404da97f xfs: hoist the node iroot update code out of xfs_btree_new_iroot
-060c01993ae005bc6f1aa5e1842ba8105b782307 xfs: hoist the node iroot update code out of xfs_btree_kill_iroot
-b800d2cf5f75f11426379a0d0e7d6d35bb9446c2 xfs: support storing records in the inode core root
-60875405f599ed9db6e48caefaa937dc7505e557 xfs: update btree keys correctly when _insrec splits an inode root block
-41f54e58cb844f8dab8906ae3b16a06c33d270b1 xfs: allow inode-based btrees to reserve space in the data device
-d059b28f5e6d3614858a10cea81acce6081731bd fixup
-a21f5d43e132635299de5807243bd7362a5faf6b xfs: simplify the xfs_rmap_{alloc,free}_extent calling conventions
-7655d7a9d23bb1dec1f738ed1674c37c1c1ca3f5 xfs: introduce realtime rmap btree definitions
-f63950421bcf39a65532bf35289c57896f26515e xfs: define the on-disk realtime rmap btree format
-86a5f99c08977814c6de562262f327d9ff187dbf fixup
-e81dcc4b43d78ca08d897d3cd7aceb0039c14463 xfs: realtime rmap btree transaction reservations
-58ea32bc0df73d72fbf2da1b4c3b63389e353db5 xfs: add realtime rmap btree operations
-77c3bf68f59d8bdb96edeeb92c8b20b05fe6b79a xfs: prepare rmap functions to deal with rtrmapbt
-584282e9d2eaff33c1fc184a7494b54126b8b13d xfs: add a realtime flag to the rmap update log redo items
-4421d5e4b8db99b339e5fc8fa590d996f924906a xfs: add realtime reverse map inode to metadata directory
-baad3600f09e5a57adff2ce4fdf39519ff902856 xfs: add metadata reservations for realtime rmap btrees
-2b80c864d83f7f45771f145e39f0d489b1a94020 xfs: wire up a new inode fork type for the realtime rmap
-1e4942ac9b6f7e8b3d85b9aa58a8a7a124e36c2d xfs: allow inodes with zero extents but nonzero nblocks
-cdae3e52c2f9bb3670c9e0641cd4b8ea82fcf4d7 xfs: wire up rmap map and unmap to the realtime rmapbt
-a2844b3e2730d33360dd421c3809617556484c9f xfs: create routine to allocate and initialize a realtime rmap btree inode
-4a45ed255c6f5fbf27b5a9b4edf12b0004cbd6c8 xfs: report realtime rmap btree corruption errors to the health system
-25ff9080c6f19bb7ac982929cd151501e9d2f19b fixup
-805195900c4dc895ab528f910849803c2a41aa7e xfs: scrub the realtime rmapbt
-b3248498445e7a7883c8e418f0934def14a629f4 fixup
-c5e311691a4e6423692a61b3daba41fa373879a4 xfs: scrub the metadir path of rt rmap btree files
-3b2515b839757863982e094b635701d18a8f5cae fixup
-500c7d3052259a4ba5ef0f5100cb2f544eeade35 xfs: online repair of the realtime rmap btree
-96150c46251455289246667f2d93231a79ba85e1 xfs: create a shadow rmap btree during realtime rmap repair
-d759edc8e2ecb6a82f6ae345e0c959467ba42a7d xfs_db: don't abort when bmapping on a non-extents/bmbt fork
-35d9ddc77de3606af38950faabdb8aed80efd6f7 xfs_db: display the realtime rmap btree contents
-bfd77fa57dc0d6b1a470e0735577c5e8e17bcce3 xfs_db: support the realtime rmapbt
-eb6e1bdeb5d61cc27ca37e9a1ee9bcc00c33ffb7 xfs_db: copy the realtime rmap btree
-6bf7a14f3eb4258972892faf5cbf24e4a655335a xfs_db: make fsmap query the realtime reverse mapping tree
-e9d4a06104617c405c021bd9d2ff1d25e520fac6 libfrog: enable scrubbing of the realtime rmap
-94449197b2d3dc374b0ffca97d3141e021a52c1b xfs_spaceman: report health status of the realtime rmap btree
-6228758b082e7fedd9600ba54be530c4107c10b5 xfs_repair: flag suspect long-format btree blocks
-325eaf516fcb7731fa3e8b334d6fc7a6c8f05356 xfs_repair: use realtime rmap btree data to check block types
-134d5a087dea7cef492bab64b9f3be2a39f4fc7e xfs_repair: create a new set of incore rmap information for rt groups
-cb9d1a61e7f278952a97c99bf3831aee424b85ef xfs_repair: refactor realtime inode check
-89d506cd642df82f3b7c749d441704aee1fa39e7 xfs_repair: find and mark the rtrmapbt inodes
-dc9fce87c56d3b0c04dc63f05a22ffddb6372458 xfs_repair: check existing realtime rmapbt entries against observed rmaps
-5b696fa49576d4eeb71fb8f32740d3890ea98c87 xfs_repair: always check realtime file mappings against incore info
-bde630008e9eca7be94ce6106049c184112a7131 xfs_repair: rebuild the realtime rmap btree
-abad382bf2cef33cea13d27243d8012ccb227504 xfs_repair: check for global free space concerns with default btree slack levels
-d9629aba44f271f4055857649e42010f80ba5246 xfs_repair: rebuild the bmap btree for realtime files
-c60f42db4cc4ea196d0ff528c7dfcc8a85611cb6 xfs_repair: reserve per-AG space while rebuilding rt metadata
-c8deed2adfef7924c457b8ce86a9d1a97304a39a xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-22d47d158b0761aff687e19fb1f1c0662eb934d9 xfs_logprint: report realtime RUIs
-26b5bac171c72e0e9373fde478467a18c436a3d9 mkfs: create the realtime rmap inode
-3cca6d13d35ef5a22ebcb25bdb04977a9fc5bdec libxfs: resync libxfs_alloc_file_space interface with the kernel
-1be5e1996ee1069c21c3ac73c7fc41b49572f7b8 mkfs: use file write helper to populate files
-692282d75592a864438cdb8dd7eb3786dfdfc303 xfs: introduce realtime refcount btree definitions
-2a6e6f2b47fe7236a97bc5f2d606ee5a1b13b047 xfs: namespace the maximum length/refcount symbols
-0fd0ac9f4f52dad8467291a2ebf7e572f8cdf2c4 xfs: define the on-disk realtime refcount btree format
-a9530fb7b61dbac4396a1502b71c09eb677e6415 xfs: realtime refcount btree transaction reservations
-e78fe4f13b23865bda1f81a6a492b467b9c08183 xfs: add realtime refcount btree operations
-bcad64b8370a41bb40196c527ba163235c33e49a xfs: prepare refcount functions to deal with rtrefcountbt
-4b8fef0c5e93b6d86158ebdf261f559f7812cd3c xfs: add a realtime flag to the refcount update log redo items
-256f72dc3a22084ed976cd3d7b11821e71f59b6a xfs: add realtime refcount btree inode to metadata directory
-1e6e71e6626c3ed085795b16bc917e9052e898f1 xfs: add metadata reservations for realtime refcount btree
-a314add4919d07eda2911ae1207afcfefbabff9c xfs: wire up a new inode fork type for the realtime refcount
-70b1a8084e9f73c48f7c9917149fc5df57d30508 xfs: wire up realtime refcount btree cursors
-029fb6b7bce0cb361f46fb16d01f9b6fef33a06e xfs: create routine to allocate and initialize a realtime refcount btree inode
-c8c7a721728c8918465bcc7d1e70fbb0c2093989 xfs: update rmap to allow cow staging extents in the rt rmap
-0982a5f05b0407f41be1f5734dbfc469103cef16 xfs: compute rtrmap btree max levels when reflink enabled
-70f19515f43d7ec33c596a5812e58d944b62bbb7 xfs: allow inodes to have the realtime and reflink flags
-0d60fa55167b6805ee4b5b5a4f1ddb96c4bbc1db xfs: recover CoW leftovers in the realtime volume
-015a4f29a3ce61013ab3d012ea58337b590101ca xfs: fix xfs_get_extsz_hint behavior with realtime alwayscow files
-07731bc36300cb1ac5148d6313015ec66e6100fc xfs: apply rt extent alignment constraints to CoW extsize hint
-aaf3d40e617f4d2ee1e643d36d252bb81c8027e0 xfs: enable extent size hints for CoW operations
-bb76d741542d32fd8ef1d66531d32b9d91622282 xfs: report realtime refcount btree corruption errors to the health system
-7f5f804e916c35f91739cf77f74916d20fc626ae xfs: scrub the realtime refcount btree
-93244f779b586cdc1281e5faab28ecb345fa6666 xfs: scrub the metadir path of rt refcount btree files
-401b671d9bec16cb8db195dd6e8f66ecd31d436e fixup
-e3385ec2a6c4a99539eedbd0568d667553e0e83e libfrog: enable scrubbing of the realtime refcount data
-e751d3c20e0077b60a73aa4a742fc608ea14de5e xfs_db: display the realtime refcount btree contents
-1eb6e34bf6c55d7d11e35af05885af7c3d946464 xfs_db: support the realtime refcountbt
-bc79b202584509ea76655cd174c3295913d43dec xfs_db: copy the realtime refcount btree
-11c4945270333932fe446878c237b35b6c59c0e1 xfs_spaceman: report health of the realtime refcount btree
-86d3bcc865ad1fba6943c6bd7b45409c8aef1e6d xfs_repair: allow CoW staging extents in the realtime rmap records
-f48d221f3e1ec8fed633d08cdd3e0ab539f6b5f3 xfs_repair: use realtime refcount btree data to check block types
-0598b8de102093156a822db33c3df7d7b484b69f xfs_repair: find and mark the rtrefcountbt inode
-f4fb71d06e8e100bb8697ac8a7c72a3480d3c456 xfs_repair: compute refcount data for the realtime groups
-d89e1fb0339a37ef00ba13e8e0e1c804d7e0ded4 xfs_repair: check existing realtime refcountbt entries against observed refcounts
-a2720233b0009008d40d9c5436a87bec36a53ad1 xfs_repair: reject unwritten shared extents
-13c8ff08de84aff2961ea4c5f8dffd2cc585e068 xfs_repair: rebuild the realtime refcount btree
-5703359e4bf9e1b3a1834b6397ead31fa5d325e5 xfs_repair: allow realtime files to have the reflink flag set
-cf8322f6657293e3ad90ef89e3c2da267c24a91a xfs_repair: validate CoW extent size hint on rtinherit directories
-f4c3e65edfc0c2b27fdb6d89c863e755609bb93e xfs_repair: allow sysadmins to add realtime reflink
-4b691e4d7e1543ccf8b8a4dac875d33bebdcf22d xfs_logprint: report realtime CUIs
-6bf59ded5eb141e556b28a77ae9e9af5255328d6 mkfs: validate CoW extent size hint when rtinherit is set
-90cdfb691ed7dc6e02827cf6e7eeb2cfa8ab59d4 mkfs: enable reflink on the realtime device
-b7baaf9283a92941f11003816ccb1004c758815c xfs: enable extent size hints for CoW when rtextsize > 1
-a44a3a38fc1d43152ce94d312715d50630787e12 xfs: fix integer overflow when validating extent size hints
-eec8a058e7b5ad16d84c1c9b3d16bb21f7461503 mkfs: enable reflink with realtime extent sizes > 1
-827956d332a56e25d1e2da0b9969e2657e8a546d xfs_quota: report warning limits for realtime space quotas
-74093f21e3f973c73d61b962544f9b89ad55a055 mkfs: enable rt quota options
-0b56964ec9aedada07fa6161bcc144c6c22ba2fc xfs: track deferred ops statistics
-a4cada18bcd80d15288ea96755fa99dab3c1da01 xfs: create a noalloc mode for allocation groups
-1e50ba147703c52fafad261da5d0f4b602e75ec9 xfs: enable userspace to hide an AG from allocation
-62adc6136268984938081ce76c72187fb06c63fb xfs: apply noalloc mode to inode allocations too
-6bd031b1b1292566d52e8cf69bdf788b78a8b040 xfs_io: enhance the aginfo command to control the noalloc flag
-b9207799265b38ba4cc1cf483386692e8de36365 xfs: export reference count information to userspace
-ea49bc0f8ffcb82382877ceaacc229c68e68dfa3 xfs_io: dump reference count information
-9847fa741d7eff5885225e360bc37269bf4a7aea xfs_io: display rtgroup number in verbose fsrefs output
-1107cd55f31628441a2fa741b798136207caa538 xfs: add an ioctl to map free space into a file
-3bfb5e49ec81b42b20c3b5cd7c11db9b69e47309 xfs_io: support using XFS_IOC_MAP_FREESP to map free space
-590965bf67e9cca8a720f4626b5e672d7bd6304e xfs_db: get and put blocks on the AGFL
-9930cd59c841520af5101297c14f3ae909e540b0 xfs_spaceman: implement clearing free space
-aa4be75d72fa06e8d4b1d8f89f4a11fd81b49be8 spaceman: physically move a regular inode
-6bca00f9e7dcc2e68d1502378b1cfbcc31767217 spaceman: find owners of space in an AG
-3405638313d3b5d4a9c24ef13a4acae503f720a8 xfs_spaceman: wrap radix tree accesses in find_owner.c
-05416082bc8970cf06d8f841eeb989493a01f87d xfs_spaceman: port relocation structure to 32-bit systems
-c69de60227c31d9dc94fa327cc4af344ce7429e9 spaceman: relocate the contents of an AG
-7b4506585eeeb0dfb3c3b2e0721aee337b584599 spaceman: move inodes with hardlinks
-81192dab8a68e03b1b39bdde486e4afd25913ddf xfs: create hooks for monitoring health updates
-fb0d12bbb440a69ca32092e6380918d999b25f54 xfs: create a special file to pass filesystem health to userspace
-97c0fbc6cdac87ce8e9f1eddc54810aa0e402b56 xfs: create event queuing, formatting, and discovery infrastructure
-20126611324f5ec5224ebe52fe69ee01ad150379 xfs: report metadata health events through healthmon
-9683b95ee9bb127e0d5e459b012d45ebbf87470d xfs: report shutdown events through healthmon
-854aa111caeb46d3c2e60e5f7ca93f4f1818ae39 xfs: report media errors through healthmon
-2047d005ca0ee415ac8afd11877acc32295c44d5 xfs: report file io errors through healthmon
-c15b97ad6776dfc70ae438504262475fa0a6cf8c xfs_io: monitor filesystem health events
-f625f9ef91ebc08fcb9f1a21560f2b8ca96ea4a0 xfs_scrubbed: create daemon to listen for health events
-a6b2312806963ddd479fa31feb28e96fa0679725 xfs_scrubbed: check events against schema
-dfc2b86dd9f1813b51d2f33db34e82f90bbc3495 xfs_scrubbed: enable repairing filesystems
-dba2ab09571232a48f9a517ce198f9d509ecfef3 xfs_scrubbed: check for fs features needed for effective repairs
-f7ae7086a9a9f607ec26624ada2d566051e68e0c xfs_scrubbed: use getparents to look up file names
-9fc0ff193b1fabcf045489add3da4a15bbe4b207 builddefs: refactor udev directory specification
-528c2a6c37ac3a1c28f53a5f254f5da38451b7d7 xfs_scrubbed: create a background monitoring service
-f80e98b14a072d2240d2a18f55d40b720d6e6653 xfs_scrubbed: don't start service if kernel support unavailable
-15c6a26c5c06ead61f86da4e0a8ad0df6274e14c xfs_scrubbed: use the autofsck fsproperty to select mode
-85a0ff539194f330156b4e36bed4dbe6687ae1f0 debian: enable xfs_scrubbed on the root filesystem by default
-61aa76c28614f94e600f8788c9713f9407cd9432 xfs: upgrade filesystem features
-3266e0446ab61fe8581f272515f255a64b4eeed1 xfs_repair: skip free space checks when upgrading
-4aef36d429bebf99d74a5ac78b3860ccd5063d48 xfs_repair: allow adding rmapbt to reflink filesystems
+9941be99d73dfcca8fbb09c7daccc3d7ef3ed883 xfs: introduce new file range commit ioctls
+db85d7c8733f467e3b7a59e9732ddb27235f20e9 xfs: validate inumber in xfs_iget
+c7a987baf764ffc52bfd1c5caf4aeb79464467d5 xfs: match on the global RT inode numbers in xfs_is_metadata_inode
+f0ef9b2d110506d174a4127f1539ef974bbc3ed2 xfs: pass the icreate args object to xfs_dialloc
+984085ea1b38f0c6ec3e6d56b3ecf3f417c54d87 xfs: remove xfs_validate_rtextents
+95f973447ba5450f761a60d2042a49ad9cff26b5 xfs: factor out a xfs_validate_rt_geometry helper
+ea96d37f4799daace8fb5a79faba8f14b74041cd xfs: make the RT rsum_cache mandatory
+5dcb1104952d44f5549e2fdf0317bfa76cec55c4 xfs: remove the limit argument to xfs_rtfind_back
+bf50f648b8803c405106b9ff5011f5e750837dcc xfs: assert a valid limit in xfs_rtfind_forw
+7ed71ed2b10ce038972610e8f003564264250e8c xfs: add bounds checking to xfs_rt{bitmap,summary}_read_buf
+f89a0d08cf22209e1e285e3f3068e2b09e9ff182 xfs: cleanup the calling convention for xfs_rtpick_extent
+beffcb8e5fc6b894fbbc8a5a17b008ca03877398 xfs: push the calls to xfs_rtallocate_range out to xfs_bmap_rtalloc
+ae747f23f0644aea9f6c3966772abef623ca1182 xfs: factor out a xfs_growfs_rt_bmblock helper
+b73937263940cecbb352e31e54cb0944cb62a42d xfs: factor out a xfs_last_rt_bmblock helper
+7806248a12d192a7b774c9fb940fc71a3a044efa xfs: factor out rtbitmap/summary initialization helpers
+f1adb25ca3631be3826f747e9c3fda6028e50794 xfs: push transaction join out of xfs_rtbitmap_lock and xfs_rtgroup_lock
+200cbcfd9bc17f5e016f7cdef443b1439c083732 xfs: use the recalculated transaction reservation in xfs_growfs_rt_bmblock
+04e24d61695e0b3ce9a52c0defc676e746a25214 xfs: ensure rtx mask/shift are correct after growfs
+b112f8d0c343616ded8865f6f92a63aceb209c42 xfs: don't return too-short extents from xfs_rtallocate_extent_block
+39626eb3a3ba139027587a3e13ffcea53f0a9461 xfs: don't scan off the end of the rt volume in xfs_rtallocate_extent_block
+81eb4b713e08e5a30cd8387845446aa73abc5afc xfs: refactor aligning bestlen to prod
+6d427307f1c87bca29b095a0786cf1274577645d xfs: clean up xfs_rtallocate_extent_exact a bit
+3a56ce6b492dcea23aade6db9783fd0f17ba6547 xfs: reduce excessive clamping of maxlen in xfs_rtallocate_extent_near
+4b320ed6b3f9870e65b220369ded4389dfe684d0 xfs: fix broken variable-sized allocation detection in xfs_rtallocate_extent_block
+7182a7f57a27b7fb61b9176671c2ba0f7edf7869 xfs: remove xfs_rtb_to_rtxrem
+5dd7fe05d859b2d5fd7e65822183ccd0f11d30f9 xfs: simplify xfs_rtalloc_query_range
+1b8553933b67a535a66d7c4d145fc1dce5d0f6ee xfs: clean up the ISVALID macro in xfs_bmap_adjacent
+e280ba9a153bcdbce1fcb05b9a1f749429b95201 xfs: factor out a xfs_rtallocate helper
+8e10d2f6e41240b4a48b501540300ff12b67e650 xfs: rework the rtalloc fallback handling
+ae6078d10931a18861be54a67b84d88f1906536b xfs: factor out a xfs_rtallocate_align helper
+2eefab44a6aa849354be4ed2f2ec5858a1ea8952 xfs: make the rtalloc start hint a xfs_rtblock_t
+9b78d8e17f4923a5e3fa3a6905bd846c0d413122 xfs: add xchk_setup_nothing and xchk_nothing helpers
+92a524d9a39bcea0cec5611226d4bce1a205f6ef xfs: remove xfs_{rtbitmap,rtsummary}_wordcount
+9d886abef790b56505116860c1f45176e6c2b00b xfs: replace m_rsumsize with m_rsumblocks
+c094ccba8a9ffd3b4a38b3a4c2207415ebf43f1f xfs: rearrange xfs_fsmap.c a little bit
+86371948e4987be84f020f75b7a6352798382d97 xfs: move xfs_ioc_getfsmap out of xfs_ioctl.c
+e7f6b890b85207e973d0fa16cc8c6a3f7f9b3b67 xfs: refactor loading quota inodes in the regular case
+309d5d2c4885bde9ca0bf9f0a78f58d4ea784b05 xfs: fix C++ compilation errors in xfs_fs.h
+91121068761dc1dda508ae9fc241404a9c7a63bc xfs: fix FITRIM reporting again
+f18db24e6db03868d4a4f84701dea2c732a55881 xfs: fix a sloppy memory handling bug in xfs_iroot_realloc
+a6d5be9fb1ab4789f07728962a748e2804f0fe73 xfs: replace shouty XFS_BM{BT,DR} macros
+2fa1a4152b8d9e7a11bd4f4fa5a48123838a757a xfs: standardize the btree maxrecs function parameters
+f1bceb7a242e32feeae22d0109bf87a1627aefe9 xfs: remove the i_mode check in xfs_release
+20200f5b5811141f92a6c186f9315121cc251141 xfs: refactor f_op->release handling
+6c8b33f1d6054cc08379348f5e64d2a809d0973c xfs: don't bother returning errors from xfs_file_release
+d5b36ed4ec22d988e262193e52954397a5c6722b xfs: skip all of xfs_file_release when shut down
+21cca6caa4a1090a61751eb64dc0e4cbbc05862c xfs: don't free post-EOF blocks on read close
+20e8b0c6eeb4a5ffccc9c44937a63da9b6b9fccd xfs: only free posteof blocks on first close
+102dc837bfe70c180c02411642969ab470aa90ae xfs: check XFS_EOFBLOCKS_RELEASED earlier in xfs_release_eofblocks
+7dfecfd808941a319c4aa5decd4feb4ea058b0dd xfs: simplify extent lookup in xfs_can_free_eofblocks
+86eb26b5eec70fc96767b2b754e2585ff385a6aa xfs: reclaim speculative preallocations for append only files
+59466da01178a202d623e3424a3be2f9bcac3137 xfs: Use xfs set and clear mp state helpers
+486d8827119072ebc1e2f8bf1d52fcbc35a2b00d xfs: remove unnecessary check
+ae2e24fd431b007f8634ce5b4942eceec48e8ea1 xfs: Remove duplicate xfs_trans_priv.h header
+fda12f4ebb18c2d5c13f0f51a641a1e3550f5de9 xfs: use LIST_HEAD() to simplify code
+f21142598aaa77823a1f007c41c1c45a39b9c8e2 xfs: use kfree_rcu_mightsleep to free the perag structures
+9c5b2568cf86a673b20642e431da3860c08e9cb6 xfs: move the tagged perag lookup helpers to xfs_icache.c
+b31bcbe00e2672a7ecdfd2621c33e2634613d8dc xfs: simplify tagged perag iteration
+e224288a98356445facd09412898789ae45812e0 xfs: convert perag lookup to xarray
+54c2cd679e20e4a2e229f8e99f5949e3dce75796 xfs: use xas_for_each_marked in xfs_reclaim_inodes_count
+f413449d5b4b0a3317311752854e11d30ebb94e8 xfs: ensure st_blocks never goes to zero during COW writes
+1174b45019a3d4c78ba288096e1cbefbe148fe45 xfs: pass the exact range to initialize to xfs_initialize_perag
+aec1038056e030e2633cfa47175826f8a5fa9620 xfs: merge the perag freeing helpers
+8b1d2779e03a708bd299f86c119b86cd4052c22e xfs: don't use __GFP_RETRY_MAYFAIL in xfs_initialize_perag
+a706453b821821d63747fe04a2c8120e40488c39 xfs: fix superfluous clearing of info->low in __xfs_getfsmap_datadev
+5213e7004aa86469619642ff58160c7d33bbf626 xfs: remove the unused pagb_count field in struct xfs_perag
+22321bf5ca4ff7a205e7c4435b7028c18919a591 xfs: remove the unused pag_active_wq field in struct xfs_perag
+2179c752a9d399f9595178fdf11b22396fcf06f6 xfs: pass a pag to xfs_difree_inode_chunk
+322ebbc713d1dfbfa2c3c912aabbd15ebcc60d3b xfs: remove the agno argument to xfs_free_ag_extent
+afc38d9d99a9c186749a23bef985e1f30851b3da xfs: add xfs_agbno_to_fsb and xfs_agbno_to_daddr helpers
+1144cca210d30db71d7113eeb30fd6a1514f9def xfs: add a xfs_agino_to_ino helper
+8a16a372db078dd0b3195e88aa41b3268e307a35 xfs: pass a pag to xfs_extent_busy_{search,reuse}
+29fbb35e205acc56b57ba5ad77e3502d245ad02c xfs: keep a reference to the pag for busy extents
+214bf60341eb97c8b32ed47611c941f068d505f7 xfs: remove the mount field from struct xfs_busy_extents
+1d3efae55459ccea871fea6b97ddda996792b503 xfs: remove the unused trace_xfs_iwalk_ag trace point
+de375c7dd025363f8a0271b45e674bbec882098c xfs: remove the unused xrep_bmap_walk_rmap trace point
+e1e71681bd0d9cb04657c7b22b4ff760d88c554a xfs: constify pag arguments to trace points
+952eca6dbc20c674998cd5d31dcfcf293f83196c xfs: pass a perag structure to the xfs_ag_resv_init_error trace point
+6973ac72433798f55e8bdf9a9b3504fc407a693e xfs: pass objects to the xfs_irec_merge_{pre,post} trace points
+caa58a685c51d4d6a066a47e0112deaa5c51cef7 xfs: pass the iunlink item to the xfs_iunlink_update_dinode trace point
+b3f57def0657e0aabdd89514a368963cae629fa9 xfs: pass objects to the xrep_ibt_walk_rmap tracepoint
+6c5a568d59600ab5c8ce7cfa9b476545544a9a83 xfs: pass the pag to the trace_xrep_calc_ag_resblks{,_btsize} trace points
+07719a27ab83bbc8927d07c9f39fb9d3c68646ca xfs: pass the pag to the xrep_newbt_extent_class tracepoints
+890263751da5ebe7f187c8ed8476566b33321755 xfs: convert remaining trace points to pass pag structures
+d6236d855e32d93565b0ba2ab0f9cf91b3a7a42d xfs: split xfs_initialize_perag
+958e0f5c66063376ba1b1c47e9fd43901ca1cb1e xfs: insert the pag structures into the xarray later
+89dce68700635ef88b90ac8f17299526ca7188cc xfs: factor out a xfs_iwalk_args helper
+ed579347e0a26b13eb882cf7fc289910c39af872 xfs: factor out a generic xfs_group structure
+11b6b6a9eb96d85334da21e92f64c02b81fbada4 xfs: add a xfs_group_next_range helper
+2cf3ffcf5e47770282e8e42750c01c86d24b8304 xfs: switch perag iteration from the for_each macros to a while based iterator
+4038247c62a3877246c672659769dd0bfd55fc61 xfs: move metadata health tracking to the generic group structure
+8e375d0d4e1c95a739132cc128112481ed2d587a xfs: mark xfs_perag_intent_{hold,rele} static
+22c80eae85b159b5290c8cf42e2a7f4fb8bc1b04 xfs: move draining of deferred operations to the generic group structure
+f2a5f6cddbe6f1cec970cefbbd9bec737c0066bb xfs: move the online repair rmap hooks to the generic group structure
+fbb62f0909e935a845dc7fd15a13d18b4087b78f xfs: return the busy generation from xfs_extent_busy_list_empty
+64546c60c1806d9c1a977764ac8fe6fd085fe02c xfs: convert extent busy tracing to the generic group structure
+ae0919cabfec06c11c873d5c77c99d0afb85de19 xfs: convert busy extent tracking to the generic group structure
+cb698fe77c5c6b030f5e5ec3b012fd68ba62d1ff xfs: add a generic group pointer to the btree cursor
+92b5f2a6b9f390bd1001b8c8e56ae0d4169a1077 xfs: store a generic xfs_group pointer in xfs_getfsmap_info
+76207bb3378aeb779c272b59dd53c056d118088d xfs: add group based bno conversion helpers
+f9d9572609fc59c7fba7bdb9ccc9b35a89bad7fb xfs: remove xfs_group_intent_hold and xfs_group_intent_rele
+9635a8368ce06177fa2184238c929d497f39bea2 xfs: store a generic group structure in the intents
+de18effe01724a36c579a5c3e64f43bb8f6f8d77 xfs: define the on-disk format for the metadir feature
+2ed9d0527001695aff8281bf270e5005d49c38b2 xfs: iget for metadata inodes
+962f35894680d8ae63274868456caa3d9924f083 xfs: load metadata directory root at mount time
+1762484cff9611ef668ccfb643b1b8540c2b3ff4 xfs: enforce metadata inode flag
+578de37de43d803c55383f6fc6360de2fa870bda xfs: read and write metadata inode directory tree
+acb2a1076daea900a131e4615103816e98ed4d8c xfs: disable the agi rotor for metadata inodes
+f863f0557a5dec635628edab7d1f189d388832ff xfs: hide metadata inodes from everyone because they are special
+0b6f32b5b8c85c113b3dc6a2e6d1b9e25a5c8a86 xfs: advertise metadata directory feature
+76260deae2abd2036fd3c0db97526208846dd669 xfs: allow bulkstat to return metadata directories
+b4e144a570d42df691f8635693ae16f0e7c7e2ea xfs: don't count metadata directory files to quota
+a0fe33249254ef53b1914c45b2bd71ea2c246a40 xfs: mark quota inodes as metadata files
+745c5afc616348da7ab60ee5c67f89c2a705bc9e xfs: adjust xfs_bmap_add_attrfork for metadir
+c17f2da3fde8c2ee1b587b40cb79deffb071843d xfs: record health problems with the metadata directory
+8a84bab764f27f459461ef8098d6fa8def34cad2 xfs: refactor directory tree root predicates
+9b43b4486f09a1689516b3eae959dc0e7a7a6004 xfs: do not count metadata directory files when doing online quotacheck
+4ceadd671e34626901cf8ef464bd9bc26549fafc xfs: don't fail repairs on metadata files with no attr fork
+44c8b1b9f405af4d9e16f9c5df26f7c293284c2b xfs: metadata files can have xattrs if metadir is enabled
+a1d185928c9262fdd185ab27284897cd0b52205b xfs: adjust parent pointer scrubber for sb-rooted metadata files
+42250b0706d41c868f645371b7ae672bfa3e209e xfs: fix di_metatype field of inodes that won't load
+127a5270ad29a2f64ed1d30f4d66ece1ac945312 xfs: scrub metadata directories
+e2620fd80dc41716f1f3ec09531dc97c67af76dd xfs: check the metadata directory inumber in superblocks
+2a6af10e054dec8ea10d02d3efe21d1a0f57f2e1 xfs: move repair temporary files to the metadata directory tree
+2f72873265c5e54dd9e86a367e540cbe26ab58bd xfs: check metadata directory file path connectivity
+58f905b2d51535b1469a567461452c954c8b2431 xfs: confirm dotdot target before replacing it during a repair
+75baf2d1527b5db5083f1ecf922d4845662dde9a xfs: repair metadata directory file path connectivity
+64575fea1cafcf7d7770363cd965e0166fa36032 xfs: clean up xfs_getfsmap_helper arguments
+a111a4b183eadb1df8538a93a0a940738c589fa7 xfs: create incore realtime group structures
+3c0d2f31e0e03f509e8b29f5f20ebf82be99d100 xfs: define locking primitives for realtime groups
+79420c3095ed2c532eb2cd7e77d489bf7005ecc8 xfs: add a lockdep class key for rtgroup inodes
+cbfd9e21260b12b41da1fa313ba4aa6239e7ad90 xfs: support caching rtgroup metadata inodes
+35790499bfab80c685285b4be16305a0e039e8a1 xfs: add rtgroup-based realtime scrubbing context management
+e3dcaadfe592f6f138660e02a393abef970d2925 xfs: move RT bitmap and summary information to the rtgroup
+6a74e1ff62b355ddd19d96f9bf5c9c2c9ff3fbe2 xfs: remove XFS_ILOCK_RT*
+91a2e0761f6962fbb6e43a55df43ecb1dfbc52a9 xfs: calculate RT bitmap and summary blocks based on sb_rextents
+7a1b93595924ce45740226aa0a577c4e9357f6cf xfs: factor out a xfs_growfs_rt_alloc_fake_mount helper
+e40ec92054a0b221afd5116dcca2f3038b8f5e7f xfs: use xfs_growfs_rt_alloc_fake_mount in xfs_growfs_rt_alloc_blocks
+09d55337c0f1a6589ed080b363edf05470593611 xfs: factor out a xfs_growfs_check_rtgeom helper
+8e0b4a0b036cd1851c805b96d2764b97efb0faa3 xfs: refactor xfs_rtbitmap_blockcount
+c8ea566313acc081cd159dac9db749cc40127251 xfs: refactor xfs_rtsummary_blockcount
+607b44f0b34c2ae45c8d2d6eec46d7d487948e00 xfs: make RT extent numbers relative to the rtgroup
+fa7c1b6cda52399963d5052b46fbec2e62bd84d7 iomap: add a merge boundary flag
+aed4cc8876842f7ad7d81578970392700f540dbc xfs: define the format of rt groups
+9e905a6a6f8baff951b4c7348e22f62c884ffe8c xfs: check the realtime superblock at mount time
+d52798428b1001ea882c5421009789a024dd6db6 xfs: update realtime super every time we update the primary fs super
+f8832f82b2521c0401296e5165ef14df62f3e295 xfs: export realtime group geometry via XFS_FSOP_GEOM
+ff98c661d690e737e6e6bcfb326836b245af6cbb xfs: check that rtblock extents do not break rtsupers or rtgroups
+30a0ef52ade178e32241a74ce0826a306745cc05 xfs: add a helper to prevent bmap merges across rtgroup boundaries
+93d64d56c07e9afb3cb61669563a08d2578050da xfs: add frextents to the lazysbcounters when rtgroups enabled
+83d3f5ac053c80a07761e84c98aa38de5fd95ad5 xfs: convert sick_map loops to use ARRAY_SIZE
+2f6b8bee1a7c3190b0babfcc8ffa53fb91208b17 xfs: record rt group metadata errors in the health system
+e268e37401b78e11be0752e002db271bd8187a2b xfs: export the geometry of realtime groups to userspace
+163b0cff6c49a5f873e0ca6bf16513144f4bb83f xfs: add block headers to realtime bitmap and summary blocks
+749fe6ecdeb7419979b2006f69a449c6c73aed08 xfs: encode the rtbitmap in big endian format
+6036082f7d04697202453c9949f382281f295d62 xfs: encode the rtsummary in big endian format
+e50f8314f46dcc9ab3c9b15e949351cac03c432c xfs: grow the realtime section when realtime groups are enabled
+b4e15dc63b1580ebfb0e58bc4c4166d3a4a23c25 xfs: store rtgroup information with a bmap intent
+04edb564d50d61513a0e4b96801f4e1868a2fdab xfs: force swapext to a realtime file to use the file content exchange ioctl
+28a89a3433068be0437e2643bf8c6d2e13664a4a xfs: support logging EFIs for realtime extents
+c5d1cb0f2355701417f5ce29aa840e0aa8078d83 xfs: support error injection when freeing rt extents
+f4c630cb0e7e3fdea0c12fe3512eab39a5b27e88 xfs: use realtime EFI to free extents when rtgroups are enabled
+2fd024ce28d56d3e318d67bcc0d1564c75352db4 xfs: don't merge ioends across RTGs
+7f598b917870f8a045e6f150ba03f9bfb305dda8 xfs: make the RT allocator rtgroup aware
+e024634030194d3aca1dc087b0fa2c157bae5616 xfs: don't coalesce file mappings that cross rtgroup boundaries in scrub
+ca36a144ac784c9712b6c945cd7ef7ee3016d9d7 xfs: scrub the realtime group superblock
+3234d01588d632e78dc1115984f9ddf413bba6bb xfs: repair realtime group superblock
+0a2f11d0c5393227b2e2326bde5090d622e3d55e xfs: scrub metadir paths for rtgroup metadata
+871f5b3467f04c0375d85d7258a1329bdf5f2f64 xfs: mask off the rtbitmap and summary inodes when metadir in use
+cadbf054dc3efa6a81447ffb7862495963c556da xfs: refactor xfs_qm_destroy_quotainos
+3e9c83c557bfe2b9c7de792a8d1517072ca8cf67 xfs: use metadir for quota inodes
+b15a38e29a028651ae3f2b27a84c3f7861f1f88f xfs: scrub quota file metapaths
+2779f79c603dc1639798a9fce9c5fdf238c6dd75 xfs: persist quota flags with metadir
+55c2abb536d5d416a9e024fe363a37d79147fefa xfs: update sb field checks when metadir is turned on
+fe7366f300b61b2ed37921038d48cf63d5e2cd11 xfs: enable metadata directory feature
+5f66ac6cf3b1eaee2a336a40ee12a55f232822b1 xfs: tidy up xfs_iroot_realloc
+e82008ae67e2439a47919d97fa91f3b8055ac808 xfs: refactor the inode fork memory allocation functions
+fd7307fd6052392141ba1cfcc5a980f47336bc49 xfs: make xfs_iroot_realloc take the new numrecs instead of deltas
+c3dd5cffe3c22c3e54350a3e7cd2160f20a83b9b xfs: make xfs_iroot_realloc a bmap btree function
+fc2fa37fcc4ebb508146bd103a5911a913d18b8d xfs: tidy up xfs_bmap_broot_realloc a bit
+b491201189471bbb048c25b7e02c8e903e37a4e0 xfs: hoist the node iroot update code out of xfs_btree_new_iroot
+310c3559d174d0dd7c741e604178ec39ca19b37f xfs: hoist the node iroot update code out of xfs_btree_kill_iroot
+b6a71a21ff814534711cf63d00bed1cd8c7161c5 xfs: support storing records in the inode core root
+3ed84d90f7442d4674545f7cce2e67be6505e3a7 xfs: update btree keys correctly when _insrec splits an inode root block
+545f31cadc5b0ac5ce656d936381a786823b6243 xfs: allow inode-based btrees to reserve space in the data device
+858448363672ec350d72839346ae9c1049ba6769 xfs: prepare rmap btree cursor tracepoints for realtime
+f40a6c7b9820a8a0c723ea0f5f9fea6c150d91c5 xfs: simplify the xfs_rmap_{alloc,free}_extent calling conventions
+f3b62cae535249a3bdfd2cb2cdc07b9fc24c0480 xfs: introduce realtime rmap btree definitions
+6b4b9e43640ce97c7ad3cab71b9555b21b7df8b6 xfs: define the on-disk realtime rmap btree format
+6697d8a390427c29879dad74e26567420f371695 xfs: realtime rmap btree transaction reservations
+6488cf72032f7dded0f43f768794934ddb382ba1 xfs: add realtime rmap btree operations
+17f3b27887dcea8577cbcd794de13abcc22c4a90 xfs: prepare rmap functions to deal with rtrmapbt
+5e42a5eaef102b1abfcc7a4544486c499fba454b xfs: add a realtime flag to the rmap update log redo items
+1e9905067bad27cdaf61ef2b93c999c1e3604893 xfs: support recovering rmap intent items targetting realtime extents
+dd6220135a005dd40c9ffa1f4de3368296aef69b xfs: add realtime rmap btree block detection to log recovery
+fd00f913f7dad76368ece71b6a7b63b9c3dc28eb xfs: add realtime reverse map inode to metadata directory
+543cae1135aff4d46609bd5517fc6bb1d624c842 xfs: add metadata reservations for realtime rmap btrees
+fcb777ea8f6859fd8a8ca92c19380de63978116c xfs: wire up a new inode fork type for the realtime rmap
+d15143f34545b3758c2553ef413d040123db6954 xfs: allow inodes with zero extents but nonzero nblocks
+5fc1d2c78345d25abf484e8022a48ad714562a25 xfs: wire up rmap map and unmap to the realtime rmapbt
+b1de6fb2fb3412c2c706ee8f3bcf6cb19326ec51 xfs: create routine to allocate and initialize a realtime rmap btree inode
+a61d862632c87924a451c4527867f60b99f86bfe xfs: wire up getfsmap to the realtime reverse mapping btree
+482a32557ba1a5950f5b76b159edd4266b14b5e3 xfs: check that the rtrmapbt maxlevels doesn't increase when growing fs
+fa25a1f4ee3ed355186ab5ad266c921d4d8ec40a xfs: report realtime rmap btree corruption errors to the health system
+79033d98300347ca4d37ed3dcc8bf7e51cce4753 xfs: fix scrub tracepoints when inode-rooted btrees are involved
+075829b1157b5f1083dac15699364c573778de31 xfs: allow queued realtime intents to drain before scrubbing
+d2738f2b4410d7404fef7c9efd21ebc41746130f xfs: scrub the realtime rmapbt
+90dfdbe2b3e71d6d59b2c2505e4254e4602ea6e2 xfs: cross-reference realtime bitmap to realtime rmapbt scrubber
+0890ad9bf83d43a3cff38688a18a0e92c064cbb2 xfs: cross-reference the realtime rmapbt
+64ea250bfdd63358ec1ea9bd5d27393e50974daa xfs: scan rt rmap when we're doing an intense rmap check of bmbt mappings
+004cd786d47452c202ec28b5d5dc9e0ff92469c2 xfs: scrub the metadir path of rt rmap btree files
+9bcf1b362c1415602e821cc6e8efcf85e12b8da9 xfs: walk the rt reverse mapping tree when rebuilding rmap
+41153feedd11ea7fc7338616b4024c69bfa99267 xfs: online repair of realtime file bmaps
+85134aca28f697dbd9b0ce9492e913bb5d599821 xfs: repair inodes that have realtime extents
+cc6972c14187858b568a9b76db5683e3341f5f0c xfs: repair rmap btree inodes
+3610ab8675ebcb153b866b3205d69d8f6f7c25e9 xfs: online repair of realtime bitmaps for a realtime group
+66a29c89da6d0b2f754a835166444d620f10cac1 xfs: support repairing metadata btrees rooted in metadir inodes
+84c48cc10a2bccc54fd99d542ce914db68939b62 xfs: online repair of the realtime rmap btree
+5bf300bac8f08f50b49df43a14aa9eb8e37bcd24 xfs: create a shadow rmap btree during realtime rmap repair
+460349069ca78df2871cd7a3c6437f4b323ca3e7 xfs: hook live realtime rmap operations during a repair operation
+66ddbff0215168582a3e1ff3a0ff954e5f98071f xfs: enable realtime rmap btree
+ee87fa638ed361a7f9dd9869806f515a86ca056a xfs: prepare refcount btree cursor tracepoints for realtime
+b323d86ae13f8756a83b22a0793a22a6ddb91b6a xfs: introduce realtime refcount btree definitions
+d867a4a4b14bb082ce5d3266eb63a45a7cd94cba xfs: namespace the maximum length/refcount symbols
+c6413aa486a1e633154d60d09ddb39aa56befa8b xfs: define the on-disk realtime refcount btree format
+c4f5086fb2673a8876056b265f67dd6c008a7bfb xfs: realtime refcount btree transaction reservations
+ce5c355626304ee0ab56bfa9c703d67ada879f20 xfs: add realtime refcount btree operations
+a7d338d1f82648f066451426d3bc87e56c81f236 xfs: prepare refcount functions to deal with rtrefcountbt
+3ba69118cb33da4b0f5b1764fa4716b3dd35769f xfs: add a realtime flag to the refcount update log redo items
+8265c13d7ad775406716d684895fa7848d7cdc04 xfs: support recovering refcount intent items targetting realtime extents
+ec3c0167c92e123b7f2fa9f0b440ec45651377a7 xfs: add realtime refcount btree block detection to log recovery
+4f090fc2d2f9fce5c7d249811369e02d9e0e59df xfs: add realtime refcount btree inode to metadata directory
+40ceb0bfc139beced78f306504f6aa784ed95d56 xfs: add metadata reservations for realtime refcount btree
+b36775e8dc2f0325c5b0df727c6e6a3ef7a3a62f xfs: wire up a new inode fork type for the realtime refcount
+1792bab729fe5433cf69170761031a8e9d10448d xfs: refactor xfs_reflink_find_shared
+8ebf55c4c32fef0f1aa81795a649b1bcb7b282ec xfs: wire up realtime refcount btree cursors
+b600c6ede320255afbec260909fc9f3c7b78c207 xfs: create routine to allocate and initialize a realtime refcount btree inode
+9050917314425c3a13d00a581eb60858149dd870 xfs: update rmap to allow cow staging extents in the rt rmap
+f4368c099450e28a4c03ce44ed4113e999e8bb73 xfs: compute rtrmap btree max levels when reflink enabled
+96a0eebe005f1c3c280efec54ca73b193c19c342 xfs: refactor reflink quota updates
+7287f02b2dc7ad637d2968dd5d175b47f2721e98 xfs: enable CoW for realtime data
+d524da54767521f644ac28d655a451cb47219449 xfs: enable sharing of realtime file blocks
+b0189c46521c55f9f114c3b5cd6792d54debcb63 xfs: allow inodes to have the realtime and reflink flags
+6890722df5bc65e950a4ee9e149c185463cdbbd0 xfs: recover CoW leftovers in the realtime volume
+18f0f6d539e2444e69b1737836e1787d20b0e4ff xfs: fix xfs_get_extsz_hint behavior with realtime alwayscow files
+8af56422a83c3c4402c4dc36baf808de85790e5d xfs: apply rt extent alignment constraints to CoW extsize hint
+33e496c42b6fa7c3e1a9facae51296b4359064f1 xfs: enable extent size hints for CoW operations
+e26309222967e37578b1f300f987f2223b30b173 xfs: check that the rtrefcount maxlevels doesn't increase when growing fs
+0f9ac676587f32a47a0d373681cc8cfc8b264a4e xfs: report realtime refcount btree corruption errors to the health system
+c8c33956cc2331601497fcd46c19fc17a724c20a xfs: scrub the realtime refcount btree
+f5edb9b831416b8cc2e3971080d5c2d78bbd0971 xfs: cross-reference checks with the rt refcount btree
+7fa7ec8d2ffcf067a629576b7718cbed1ee20287 xfs: allow overlapping rtrmapbt records for shared data extents
+3c68197acd781e814f654463c10eceef5f737ce2 xfs: check reference counts of gaps between rt refcount records
+4cf107e91ad6f31b296845bb4c48f1ccee2291b0 xfs: allow dquot rt block count to exceed rt blocks on reflink fs
+4f23a2ae3498f0782130f53843fffe8273e3c29b xfs: detect and repair misaligned rtinherit directory cowextsize hints
+37150280c63fe554902fc392720f30128d9f894a xfs: scrub the metadir path of rt refcount btree files
+ed221f7b71012da13b2c138129ad37f175fa5c50 xfs: don't flag quota rt block usage on rtreflink filesystems
+90bb3ba9bdcd612b955b8680db775c5cc68605ee xfs: check new rtbitmap records against rt refcount btree
+24980b80435dbab176098087d64c3f9155ae4cea xfs: walk the rt reference count tree when rebuilding rmap
+3fbb001931e4ba6e85a20ee3f22c5d6e62a8c382 xfs: capture realtime CoW staging extents when rebuilding rt rmapbt
+f1c5249f075ec461cd7d1258a8b0c99e42a5fe2e xfs: online repair of the realtime refcount btree
+71b3c02a6b1789529de5a8319e8eeca30df8075d xfs: repair inodes that have a refcount btree in the data fork
+8956ab10b7333647058e539db522b5cf3e714e67 xfs: check for shared rt extents when rebuilding rt file's data fork
+d2dd2f729e33c21dd7ecf94698e2d8ee0946f22f xfs: fix CoW forks for realtime files
+f98c601220791bd5c22e6c33cac3e8e8938d9afe xfs: enable realtime reflink
+a4a3db90cb0bbb279d0ac129de9d9d1411d57238 vfs: explicitly pass the block size to the remap prep function
+87e4568ee62821614236c86a0db0aad1c3e7a879 xfs: convert partially written rt file extents to completely written
+e71cc7ad3845a7f72961b322fbb2b6ecafcd65a4 xfs: enable CoW when rt extent size is larger than 1 block
+a3d78d21d8b3974a3b256e1bb8c4e91fcbc76f1b xfs: forcibly convert unwritten blocks within an rt extent before sharing
+4dc55301a311cb637527043ff78d648f971ffdc5 xfs: add some tracepoints for writeback
+8410f1711122b39be67312568049447479ce3420 xfs: extend writeback requests to handle rt cow correctly
+6fde64d3b4d860adc2b4cacb38d4ad5b95f234eb xfs: enable extent size hints for CoW when rtextsize > 1
+2aae6fcc2bb3773c8894f7e822c4e55f6109ca74 xfs: allow reflink on the rt volume when extent size is larger than 1 rt block
+5c9c0df37555a72d1b35197f1a980cbe905676a1 xfs: fix integer overflow when validating extent size hints
+f8bfc2a41e09f22f65368515c3730caea1d1bd55 xfs: support realtime reflink with an extent size that isn't a power of 2
+e9808ec720358452bfc498e1058db821ccaab2a5 xfs: fix chown with rt quota
+e5d9a8a928f542f7ecc27957cd0bdbc352ddba13 xfs: advertise realtime quota support in the xqm stat files
+2056f48fc47ee3ac35ba9d7aabcefcebdaca87fb xfs: report realtime block quota limits on realtime directories
+5da8cd48bb85ea69975478cde48d87c6a211d3e1 xfs: enable realtime quota again
+f95102455fc34ff07081cabc4acecd9084036ef6 xfs: Don't free EOF blocks on close when extent size hints are set
+86378e9ddaf0971a77165d6d0b7662dc68bac89f xfs: track deferred ops statistics
+487f7739cacffcc9585b6429d0fb51d96045da4e xfs: whine to dmesg when we encounter errors
+6af574db3156eb57c46e613a71c7f394b9336286 xfs: create a noalloc mode for allocation groups
+fed161825c2e1eba67e7e85aaaddd20352ccee8d xfs: enable userspace to hide an AG from allocation
+90a3b253bad802d6b6d02c520f520e2d9eb54802 xfs: apply noalloc mode to inode allocations too
+aa4afdd3948a66c0229fad07eecee5345234cdd1 xfs: export reference count information to userspace
+2b180d19c08c947a9125a083fc0a70fd1845ca36 xfs: export realtime refcount information
+dec5b5b01b536a5b0480ecd8a12f38b1db3be904 xfs: capture the offset and length in fallocate tracepoints
+076d6bc2c87e5e1a8f0cbd5b49720d5d4be66b9f xfs: add an ioctl to map free space into a file
+a02b6d4f8e70b99ce5a94368941e90a8beb1e7c1 xfs: implement FALLOC_FL_MAP_FREE for realtime files
+38b6755a5c51def13592125e697a1a6349338cf8 mean and variance: Promote to lib/math
+1cd7bb45d63fa382f3b58a901431e5b6b5edfccc eytzinger: Promote to include/linux/
+40ea4e22b5be25e40f757af1f096b3fc6cf6be7b time_stats: Promote to lib/
+ee64e87b6498482042a214c035d519e32b51c54b time_stats: report information in json format
+c680a86d5012df770749d450bc9101a796276b4d xfs: present wait time statistics
+d78eb49319cfe2357460f0b82e69b7d6be3232b2 xfs: present time stats for scrubbers
+9aeee3a21f6d85ecedec243c2d85e02990bac4d3 xfs: present timestats in json format
+d75e5c3c65b85e8c36c83038e7144ea50fbb9c9b xfs: create debugfs uuid aliases
+2c054889a67e2d44169275b0eacd23aa39757e69 xfs: create hooks for monitoring health updates
+758c47ebc51e52cfed5318976f0b4924a8e186c3 xfs: create a filesystem shutdown hook
+2d7b6e6743592a082fd1cdc67c9188cf814b097e xfs: create hooks for media errors
+731513f194b9622504f7b54a49dca724aaf1e5a5 iomap, filemap: report buffered read and write io errors to the filesystem
+5f2cc1f5dd0344b48588c6037b6f06ac7b4f969a iomap: report directio read and write errors to callers
+b87eed336c036d68364e28278af62d3be9512d07 xfs: create file io error hooks
+92f838b06363b7416b6179401ff623db0120268e xfs: create a special file to pass filesystem health to userspace
+02a416cfdac926696bd570995987513bb116d2cf xfs: create event queuing, formatting, and discovery infrastructure
+fd7945947c0ab2fd67635290d41408daba0a2b49 xfs: report metadata health events through healthmon
+a20bf0fbde43205ca6bc9d94e25bcbbd88ff044f xfs: report shutdown events through healthmon
+e4867391b1fbe116776c9b225d596a2b15ffb2a9 xfs: report media errors through healthmon
+534300678b715cea76b998acc33d2aff53a49b51 xfs: report file io errors through healthmon
+376382d8bfe73cdbf61fe7e73ee8ca447c36e545 xfs: allow reconfiguration of the health monitoring device
+8bc458cfeffad4c06ac7547c47a8c137f01c4068 xfs: send uevents when mounting and unmounting a filesystem
+a32e15890e0942500300f23faaff6a7d6a891f40 xfs: upgrade filesystem features
+9138cb72715f1d6b6d244c288cb9d8dfc8470690 jump_label: Fix static_key_slow_dec() yet again
+c1db8e3b783c6cb2de6d9b94632acdaa12bd4f73 iomap: fix handling of dirty folios over unwritten extents
 
---===============5462662463893969468==--
+--===============5377533535115534407==--
