@@ -1,948 +1,729 @@
-Content-Type: multipart/mixed; boundary="===============2693878181914449223=="
+Content-Type: multipart/mixed; boundary="===============0316671522331869093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Wed, 25 Sep 2024 02:32:42 -0000
-Message-Id: <172723156234.3135517.11023380285402860368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 25 Sep 2024 03:03:14 -0000
+Message-Id: <172723339449.3157871.16546727324894745109@gitolite.kernel.org>
 
---===============2693878181914449223==
+--===============0316671522331869093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-user: djwong
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/djwong-wtf
-    old: 4aef36d429bebf99d74a5ac78b3860ccd5063d48
-    new: 2f92d5ffbf77c60ef3bb91e28d4baed510b02025
-    log: revlist-4aef36d429be-2f92d5ffbf77.txt
-  - ref: refs/tags/djwong-wtf_2024-09-24
-    old: aade5b961590bbf52b7ad6b0bdfdaed5edbbe01c
-    new: a158655cd1e12747107ba08b5ed85bcb91e2a4d2
-    log: revlist-aade5b961590-a158655cd1e1.txt
-  - ref: refs/tags/origin/for-next_2024-09-24
-    old: 27113989188b03a21d501cc13f08afd068480b1e
-    new: 99c7c5405c8d8b7294ee0b993fdd7db83f67903a
+  - ref: refs/heads/master
+    old: 4d0326b60bb753627437fff0f76bf1525bcda422
+    new: 2b7275670032a98cba266bd1b8905f755b3e650f
+    log: revlist-4d0326b60bb7-2b7275670032.txt
+  - ref: refs/heads/stable
+    old: abf2050f51fdca0fd146388f83cddd95a57a008d
+    new: 68e5c7d4cefb66de3953a874e670ec8f1ce86a24
+    log: revlist-abf2050f51fd-68e5c7d4cefb.txt
+  - ref: refs/tags/next-20240625
+    old: 7a1b4e02ad2b26d5ccf4e1b98a02c104b9d2ba18
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/next-20240925
+    old: 0000000000000000000000000000000000000000
+    new: 09e431e862c97a5aad15137c3e42d6e4b15ce339
 
---===============2693878181914449223==
+--===============0316671522331869093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4aef36d429be-2f92d5ffbf77.txt
+Content-Disposition: attachment; filename=revlist-4d0326b60bb7-2b7275670032.txt
 
-42bc96ed51bae744f92fbfe11e192722492bc9e3 debian: Update debhelper-compat level
-de904e4d0cdd5583e3b5c163b3206650ae5865c2 debian: Update public release key
-f8ea7f20ea5495becc96acab00975833a2b88d94 debian: Prevent recreating the orig tarball
-832eff99c8e901416281166e2d94e70e164e7405 debian: Add Build-Depends on pkg with systemd.pc
-ecde7a62cf408e427b108ec0cc2b7fa64c7057cf debian: Modernize build script
-6bd4eb893d95b0c589be1b700cfaeebb1f7c5c7e debian: Correct the day-of-week on 2024-09-04
-9def30e158528bde4fffcf0b7a2519451daa3fa5 misc: clean up code around attr_list_by_handle calls
-c8b7579ab3c875070d1a1e099426c51dbcf67002 libfrog: emulate deprecated attrlist functionality in libattr
-807f24bfd69850e02ffd55346183a1c109e19ef9 xfs: avoid redundant AGFL buffer invalidation
-570d093e8d9fa584359055106721d344e6c23ac0 xfs: don't walk off the end of a directory data block
-60b51f9b94565f46acf701d4efe3b94c7d09e296 xfs: Remove header files which are included more than once
-113f27bd3caa76376f78547f912e8d83e28d1583 xfs: hoist extent size helpers to libxfs
-f59cb954d02cdb49c4ba753f8fdf771612a6c8d7 xfs: hoist inode flag conversion functions to libxfs
-7dde59bf4178617302aa9d9c6ba8421d54b07e44 xfs: hoist project id get/set functions to libxfs
-99c454bd97a4f9e6f25526b7fe0e15581d44c788 libxfs: put all the inode functions in a single file
-616f2724ac65b3067b74eb8bc0b006568ab45736 libxfs: pass IGET flags through to xfs_iread
-8885e1fe1c3e34161928191c78077382f38e0bd3 xfs: pack icreate initialization parameters into a separate structure
-5d5feff42f30520de5460700f0a2a1ada3d51dec libxfs: pack icreate initialization parameters into a separate structure
-63d6c0d8506dd534be89a3f9dd4bb885740283df xfs: implement atime updates in xfs_trans_ichgtime
-a55a931259ec91aa037d8d487859e6bcd82ae479 libxfs: rearrange libxfs_trans_ichgtime call when creating inodes
-f6b252ad03a02c99762a03e2bae61a4cfd2521cc libxfs: set access time when creating files
-e3bb73083e1f258bf2e9cf266e9a2bea262c54ae libxfs: when creating a file in a directory, set the project id based on the parent
-3d4a9e30565a85006686709a752472f36e24b2c2 libxfs: pass flags2 from parent to child when creating files
-cdad46174db23dae831c984a82a26446fcfbcb74 xfs: split new inode creation into two pieces
-df2abb40e5fc71c8bb193cc8ad9bb3dd2e284a4d libxfs: split new inode creation into two pieces
-39a3126948a419e627fa1cfd6b314b1710c517de libxfs: backport inode init code from the kernel
-dabfa16570f9e884b61b88a5595aa6bba2d611be libxfs: remove libxfs_dir_ialloc
-856e36d1dda36442d27d5aaaa43fd677614e41f5 libxfs: implement get_random_u32
-c02cfb445487a5d318c758c2d7cb9fdfc0e1af98 xfs: hoist new inode initialization functions to libxfs
-1cff684b625f299c604a6c0bae086d8a090bfb3f xfs: hoist xfs_iunlink to libxfs
-d439982fe20300e9b7656afb8d2084c321bfec3b xfs: hoist xfs_{bump,drop}link to libxfs
-01fb2f458f36d19f12f9561f43cdd28dd8eb165a xfs: separate the icreate logic around INIT_XATTRS
-25ec838ccc781647c8a248931dcbf3c1597224bd xfs: create libxfs helper to link a new inode into a directory
-82ac12224b127cec37b07d816103619401c7f449 xfs: create libxfs helper to link an existing inode into a directory
-ed25dca9c91fbfb333f43a41f2f7a8c1f21a6250 xfs: hoist inode free function to libxfs
-64c5edfc15b7af3b2ce413eb789d226f057dc9cc xfs: create libxfs helper to remove an existing inode/name from a directory
-8a3cf667588463bc41c2d3b0c016f4db0c2ad835 xfs: create libxfs helper to exchange two directory entries
-735d2410ad9d2001131dca0508afaf4559ef6b11 xfs: create libxfs helper to rename two directory entries
-04c2120c88ddd18290ba148d757bfdc02aa2c704 xfs: move dirent update hooks to xfs_dir2.c
-19b5612db71a3579e51bad2e637eebed887a7b25 xfs: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-693dea6596c502feb4a5b95b4ad1d40dc6e69288 xfs: clean up extent free log intent item tracepoint callsites
-b41f65ae7b48e35b2a80a755f778dd437f55a52c xfs: convert "skip_discard" to a proper flags bitset
-7926a382b26bc932499a1d358929b189195e779e xfs: pass the fsbno to xfs_perag_intent_get
-35ef3d93c5a72c6c5a130008c8fc1ff081c5828c xfs: add a xefi_entry helper
-1c07e18cdbdcf22b1fd15376e198d66bbe459001 xfs: reuse xfs_extent_free_cancel_item
-a73201dc5be78fda719b8d1a31079f448a1e3761 xfs: remove duplicate asserts in xfs_defer_extent_free
-5bb31ad9a67dc44db2cae99cb8633965c6bc2786 xfs: remove xfs_defer_agfl_block
-d16032909f3451de2c0e7954ad1ed93b3074746d xfs: move xfs_extent_free_defer_add to xfs_extfree_item.c
-f55acbe4500a1da3deb3205a5a68c0d8c0bd032b xfs: give rmap btree cursor error tracepoints their own class
-63ae59f60f1d50e0981b3ab08c9b682e6fa3a913 xfs: pass btree cursors to rmap btree tracepoints
-3c5c972ec3e11efff1f11b5567a798e69355f6f9 xfs: clean up rmap log intent item tracepoint callsites
-2f4553e729b4b1c3bbbe847dbb0f265eceec5be6 xfs: add a ri_entry helper
-6142c22f09dcdcad1697333a9bd4cc1f50db56e8 xfs: reuse xfs_rmap_update_cancel_item
-90387f060d58f0adfc1ab094267d5d7c48f36f02 xfs: don't bother calling xfs_rmap_finish_one_cleanup in xfs_rmap_finish_one
-077e4f551f514d392afb8b244414f3186da2fbe0 xfs: simplify usage of the rcur local variable in xfs_rmap_finish_one
-90102543d4ff951bba8b8dc72adabb1ac53571c7 xfs: move xfs_rmap_update_defer_add to xfs_rmap_item.c
-09d68e76f4b513d01e0a65136f96089db8c420b0 xfs: give refcount btree cursor error tracepoints their own class
-4049e24dcf76c69aec21d9aede16cb66ec2308ee xfs: create specialized classes for refcount tracepoints
-00e2f69681735d05a491bc3e005a9aae25bf9602 xfs: pass btree cursors to refcount btree tracepoints
-fc9eb1fa3e88de4e1b10f96eef05d2039524e133 xfs: clean up refcount log intent item tracepoint callsites
-8fac9cba8c58f020ca592fd78969283ebfb34426 xfs: add a ci_entry helper
-0d2af3351e240758d3559656228fa8a340689470 xfs: reuse xfs_refcount_update_cancel_item
-f398c84528e22f8e94a0debc45a9fe54326cc5b1 xfs: don't bother calling xfs_refcount_finish_one_cleanup in xfs_refcount_finish_one
-1c7214f707a651942fa281df9fc79cc2270828a6 xfs: simplify usage of the rcur local variable in xfs_refcount_finish_one
-ce1292165d16b2bc32ca407606e113e806be1c32 xfs: move xfs_refcount_update_defer_add to xfs_refcount_item.c
-4bc07caf9ab093815b0c805ba518b2110bdda756 xfs: Avoid races with cnt_btree lastrec updates
-3d1aecee11cc214a21e043cb73541feffe2b6147 xfs: AIL doesn't need manual pushing
-ec3f99d7e1d672053078b5fd10a0a0aa660572d3 xfs: background AIL push should target physical space
-420c963fd15a60907920b8f2db7cc227806f0cb6 xfs: get rid of xfs_ag_resv_rmapbt_alloc
-8e1cdb777979e18debecd47b4dd64d1248da068f xfs: remove unused parameter in macro XFS_DQUOT_LOGRES
-df1e138493f32cc05ca38caa90db13ac5b607bd7 xfs: fix di_onlink checking for V1/V2 inodes
-c174805fbb2bb3113bd1fc35d5150bee03699a8e xfs: xfs_finobt_count_blocks() walks the wrong btree
-421a97a3bd72858f80764da24225ca4f3370c4cd xfs_db: port the unlink command to use libxfs_droplink
-274a9fcab7ad864294a80089665f32de58157842 xfs_db/mkfs/xfs_repair: port to use XFS_ICREATE_UNLINKABLE
-aef1b9e0f6eae174d3420dfbf4b813a1e259b8ca xfs_db/mdrestore/repair: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-9771815f0a5c8d40999646820c30e2424cdb5982 xfs_db: port the iunlink command to use the libxfs iunlink function
-4545833b225170c541388f05efc9968f9fddc73e xfs_repair: don't crash in get_inode_parent
-f8c94c98b3668a749e95a71782c271958775b955 xfs_repair: use library functions to reset root/rbm/rsum inodes
-6bd75df38cd230280f9530846e41a220ebf8b1cd xfs_repair: use library functions for orphanage creation
-50f707cf2334e580498d14a49b5f2f175bfd4c42 mkfs: clean up the rtinit() function
-fa686326f8ad7d7b9039b85c676aee3f00ccb49d mkfs: break up the rest of the rtinit() function
-e119874f6c329258ab8c155b3561813699a7f83c xfs: introduce new file range commit ioctls
-b4c58b766b5d22466218d2b5d6c321c89effc9d7 man: document file range commit ioctls
-e3c214ffd1d064d893f46924fc66007ca9236e70 libfrog: add support for commit range ioctl family
-fa4f3a156e0957dcb84926edb5f535628a3277fa libxfs: remove unused xfs_inode fields
-5b0ec5e6cba5d9a0f7fa997ee6db22ea76001535 xfs_fsr: port to new file exchange library function
-b97908182b56feceac21f64585536417879e039b xfs_io: add a commitrange option to the exchangerange command
-2b3850c56d3f5aaa5493bbad3c52fe9d6b3d997e xfs_io: add atomic file update commands to exercise file commit range
-9a2f2a16df05716ef32ebe3a8e6fdebf20ec4441 xfs: validate inumber in xfs_iget
-9ddd55e375f4beb4b0de2f822938466cd3c5fe44 xfs: pass the icreate args object to xfs_dialloc
-a9f24ab0dd369019b1b2c8a5b538dff46a1b7f68 xfs_db: support passing the realtime device to the debugger
-dcac23e2d52f4c5e5b437dfbfb8d490d67d18d1c xfs_db: report the realtime device when associated with each io cursor
-7cd2cea1473da9fd6d55aaef1a16a54a285d597e xfs_db: make the daddr command target the realtime device
-3f7a9e9eaf5f5fa2ce6d52f10b9601e809c66dab xfs_db: access realtime file blocks
-9b97834be5eee9816dcb0ee13a3a7ec253ef29a5 xfs_db: access arbitrary realtime blocks and extents
-e7cf222422b35f5e39bda8dc129467db922a2357 xfs_db: enable conversion of rt space units
-7965cc859e39994141ed192e38957f524961aa63 xfs_db: convert rtbitmap geometry
-9a1e7c53af12e1a99afa56dae52d2391454adacb xfs_db: convert rtsummary geometry
-2e655369857e1681eb763796e8fb2f185e5887fc xfs_db: allow setting current address to log blocks
-c46d5af3bfc9e935d41c8c7467302309edcc598c xfs: remove xfs_validate_rtextents
-842474ab8bec346b5694a385233215ab31a468d5 xfs: factor out a xfs_validate_rt_geometry helper
-7a1b28a3659000b81372be47d0d33f3b83c8e89c xfs: remove the limit argument to xfs_rtfind_back
-298858698209cc5be0a15b674c786500bc64420e xfs: assert a valid limit in xfs_rtfind_forw
-9b6309ca26ecaf00a5623825b658eda1d77a18bc xfs: add bounds checking to xfs_rt{bitmap,summary}_read_buf
-09567ce9f1a5f0ad452ec3249fd7eeadf4fe313c xfs: factor out rtbitmap/summary initialization helpers
-a40c6c450f67fb19e77207e490faa71c253893e4 xfs: push transaction join out of xfs_rtbitmap_lock and xfs_rtgroup_lock
-dd2fa91e178484e7adf0ba38bcd3de32c95ac2dd xfs_repair: checking rt free space metadata must happen during phase 4
-854ef92fe6682021024e9fe00f8376294833421c xfs_repair: use xfs_validate_rt_geometry
-24f5c380cdf9e5ddb99520a4d62ddfac20c3ead5 mkfs: remove a pointless rtfreesp_init forward declaration
-dd18b468b48213dd8ff3c5aab319197a333518c8 mkfs: use xfs_rtfile_initialize_blocks
-94cd65c3cfa65ab05af9210dc36df9e1ae209ddd xfs_repair: use libxfs_rtfile_initialize_blocks
-9ddfd54976e83a59722609962a54542d3a57e5af xfs_repair: stop preallocating blocks in mk_rbmino and mk_rsumino
-ee4deac29a053be36e78bf387084e41c92a0271e xfs_repair: stop using libxfs_rt{bitmap,summary}_wordcount
-aac81c55aa2cc3afe17fd9c41ec56e6553f54acc xfs_db: stop using libxfs_rtsummary_wordcount
-e61b8089c51812bb47489d84b23aa34dcf7578ae xfs: ensure rtx mask/shift are correct after growfs
-4685b06adc582d1d5aec1f2fa29c86cfb6881317 xfs: remove xfs_rtb_to_rtxrem
-50dcbd821f246abee9ad32ac361abba4aaa34b93 xfs: simplify xfs_rtalloc_query_range
-f685c873df3ac00907d89d3c05566348366d9574 xfs: clean up the ISVALID macro in xfs_bmap_adjacent
-e5136580a63fdbcfbd11031903a9cc5a225ad919 xfs: remove xfs_{rtbitmap,rtsummary}_wordcount
-bbdb1aed58ca6b5bae575fd555ded2c6588747ff xfs: replace m_rsumsize with m_rsumblocks
-bdca4fe74f9cb9dae7ff6315261af0dfc2f62bac fixup
-78f29e4fb44e70bd38fc4321638e69df8e8205f9 libxfs: require -std=gnu11 for compilation by default
-9cbb437f990a48dc55dc07ddc1a2e1954eb08638 libxfs: compile with a C++ compiler
-abbf662d4ea7136c3d76a0e3ba526cd4d0564b3f xfs: fix a sloppy memory handling bug in xfs_iroot_realloc
-4abc2c18d5780d5a162e2c7a2c570234a8b54679 xfs: replace shouty XFS_BM{BT,DR} macros
-64219e30a9cc4b22076f1cd0fc809b328c847f74 xfs: standardize the btree maxrecs function parameters
-ae6364e498abc2c9f927d2a9e0e86fa1329f4a9b xfs: remove unnecessary check
-fdc7f57afcf221091328069efcc5d4b5b4957649 xfs: use kfree_rcu_mightsleep to free the perag structures
-f18a2e013d4e86342f9e96726958865716524f34 fixes
-ea20d3a9675d2dbb4ddb4ab91d4775aef3d7fbe9 xfs: move the tagged perag lookup helpers to xfs_icache.c
-e00d90182a1eb590cf9870ccc84a1ea499dc8d34 libfrog: add xarray emulation
-27372f38c94d419d34f57d75a660bfa2e0b46578 xfs: convert perag lookup to xarray
-3e3bf5229f88f911ec2dd8df40308ba5639f62cd xfs: ensure st_blocks never goes to zero during COW writes
-217a6410ac1aa2e25fc77f99381e0b9065a9919b xfs: pass the exact range to initialize to xfs_initialize_perag
-6952e2afe3362880111fd314d5c1e316d17ee5eb xfs: merge the perag freeing helpers
-bbb062d1a550f4be843ed54edcc54c4bd69baa65 xfs: don't use __GFP_RETRY_MAYFAIL in xfs_initialize_perag
-a355ca4a00e658aa12bebf5cf9f8d5571741dad7 xfs: remove the unused pagb_count field in struct xfs_perag
-302c1782a2007a5a913e8317c5ddfcbd598a31a7 xfs: remove the unused pag_active_wq field in struct xfs_perag
-36fb1cc6f2901ada850340bb506d1bbcbe7e306d xfs: pass a pag to xfs_difree_inode_chunk
-6c18a57631a934d39d666a5f304cecdfbde8d41a xfs: remove the agno argument to xfs_free_ag_extent
-28ea6f6a40a00070461f177853366e5b5b3af3b4 xfs: add xfs_agbno_to_fsb and xfs_agbno_to_daddr helpers
-a75dc97c784ddf0c1040749f7e926e0eb7ce389c xfs: add a xfs_agino_to_ino helper
-27af413af3539fb87dc296b5e7d6db587281ce6c xfs: pass a pag to xfs_extent_busy_{search,reuse}
-eb0f355e5cbb702e70ace8cee3af71579d9bcae3 xfs: pass a perag structure to the xfs_ag_resv_init_error trace point
-9a395d5bb78f821cbd30f760b60a849c409f3585 xfs: pass objects to the xfs_irec_merge_{pre,post} trace points
-b0d2e007e20dbd4d79ddd5a120694d92875b1bc0 xfs: convert remaining trace points to pass pag structures
-ec89f82de70c713f8bf43b45356a8690aff2bd54 xfs: split xfs_initialize_perag
-2360c6a3db9caace2efe1b4f43c46688b43bbd3c xfs: insert the pag structures into the xarray later
-79d2bda1aba681f02f28a3288151499ddea948ea Subject: [PATCH] xfs: factor out a generic xfs_group structure
-9750d536bbe661d15f5e319d3f75c07c2ac9073d Subject: [PATCH] fixup
-3ba5f20e7881e1f6684e94fd089ac066164eb8e7 Subject: [PATCH] xfs: add a xfs_group_next_range helper
-dfa302957308d6790aeef2a702b3b88733f26bb5 Subject: [PATCH] xfs: switch perag iteration from the for_each macros to a while based iterator
-2213087376af99273a426bcc5e0670ed52d81919 Subject: [PATCH] fixups
-2c6a5cbe06751267276b6f203df42f947f204e65 Subject: [PATCH] xfs: move metadata health tracking to the generic group structure
-a0966799597ed27a61d7faccfc03a65308323e5c Subject: [PATCH] fixups
-178f8037261f23f938d57bb4ac6a138425927db7 Subject: [PATCH] xfs: move draining of deferred operations to the generic group structure
-3eef173556cf20de7b959fef65328a2969e85d4c Subject: [PATCH] xfs: move the online repair rmap hooks to the generic group structure
-da1b5e0baad20e098d20cb4b3068f26f16426819 Subject: [PATCH] xfs: convert busy extent tracking to the generic group structure
-751edbdecee7738ca8349110becad5b18b5d9ce7 Subject: [PATCH] fixups
-8ba62b98677f939213fe5544a89fc952373ea678 Subject: [PATCH] xfs: add a generic group pointer to the btree cursor
-8872aaad2a83674e21b8cf75651e94a0b702bc7a Subject: [PATCH] fixups
-11158f208a70679814d955b188783153d9b84a8f Subject: [PATCH] xfs: add group based bno conversion helpers
-24ce355e28db098f8a4ed16434b6d5fd838b0596 Subject: [PATCH] xfs: store a generic group structure in the intents
-f73361c75806d3553a441218b94af8f53238a5bf fixups
-3707ed982830691dca5e5b01733ce676ac71cfa9 xfs_repair: allow sysadmins to add free inode btree indexes
-6ed0903b78e63ec4e5fb3cf1ab3b6c0311975c30 xfs_repair: allow sysadmins to add reflink
-c8e995ce98361340c9c8b8ccbafd22a34f732ab8 xfs_repair: allow sysadmins to add reverse mapping indexes
-32534f614c8e08c73f0028bdc7c9cf7cee35e900 xfs_repair: upgrade an existing filesystem to have parent pointers
-1d565d7b98599cdc7cc65c73620130ba6f151ab0 xfs: define the on-disk format for the metadir feature
-49c872e881f708b3ca1ba351da944cdcf5a7dae0 xfs: iget for metadata inodes
-96d29d7b980e22718999924b4825971000155f7b xfs: load metadata directory root at mount time
-666adc2d790a74be8e028f021cf0750a8a4e3a1f xfs: enforce metadata inode flag
-90f9aa58143bf197d8681a82f24a3dffd13a5b0f xfs: read and write metadata inode directory tree
-539bfbaecb515dba135f459b7e1bbc6bc19c6b99 xfs: disable the agi rotor for metadata inodes
-32e6c8997854186e60d7bd53acf011b358b56c88 xfs: advertise metadata directory feature
-3e26d49625f13bc4fb40fad4deb4c9933e4b42a5 xfs: allow bulkstat to return metadata directories
-a59f9d76eb16430b8d1e75e5f68eb526d4688e01 xfs: adjust xfs_bmap_add_attrfork for metadir
-ec4a81b9cef1ee4268b4a613059ce51332da750b xfs: record health problems with the metadata directory
-4638aa5ff35c89b716ee0926c19d53140bf7692e xfs: check metadata directory file path connectivity
-b2240e6ab9022049cd28d72b2555e1709f40925d libfrog: report metadata directories in the geometry report
-371652987784cf549cdcd31ca8af3e9b7e99f9e2 libfrog: allow METADIR in xfrog_bulkstat_single5
-53cb4d66f6e4d9855718359b7c5f93e4fc97e8eb xfs_io: support scrubbing metadata directory paths
-a3cb14becc63abd7b0da79788226732b1e0889db xfs_db: disable xfs_check when metadir is enabled
-79a1c9ae9a78dbe78e4f1715c6345dfbae095362 xfs_db: report metadir support for version command
-9446550082d301d1f807c42fd615ad5a0d73b6f4 xfs_db: don't obfuscate metadata directories and attributes
-2dcaeb94b395842f9b81efe2530dae413a640469 xfs_db: support metadata directories in the path command
-90c20e264b3b3a73a8e32a24f0019deb15207ca5 xfs_db: show the metadata root directory when dumping superblocks
-46171bfa7dc26ef049be4fa2386d6540e9ab319d xfs_db: display di_metatype
-22a51571ae69267b8caab769fc389aacd74d76e2 xfs_io: support the bulkstat metadata directory flag
-3bc80a39eb27d86fac9bc1bae6e6d7085a50d35a xfs_io: support scrubbing metadata directory paths
-040d407e9236c8f66e76966700a5886b77d9ac85 xfs_spaceman: report health of metadir inodes too
-847b0fd98776fd7bdde652f31113a72182cce86f xfs_scrub: tread zero-length read verify as an IO error
-d289039c6228e3730bb9a5255743e40e5a6109be xfs_scrub: scan metadata directories during phase 3
-acd7493740519e2d390eb33cbcff221458f7024b xfs_scrub: re-run metafile scrubbers during phase 5
-6af2dc75175f9bf53c7b51d3db93419d8624ebba xfs_repair: preserve the metadirino field when zeroing supers
-0b5bd6bdd70da77726371142ad86035400c76a18 xfs_repair: dont check metadata directory dirent inumbers
-765092638759d88a292cc287dd2232241c610a79 xfs_repair: refactor fixing dotdot
-6bdfd36f38673a0287adb1c8085f63db345e072d xfs_repair: refactor marking of metadata inodes
-50ddc314fbc157f201752c67ba6bde818df7f49d xfs_repair: refactor root directory initialization
-7923566a8d1b030048d34f8f70942634c82db396 xfs_repair: refactor grabbing realtime metadata inodes
-ee3996e23bcbf42265425f6f4e8346245bcecff4 xfs_repair: check metadata inode flag
-86989321643a54bb2222b866ab1e51f074863f5c xfs_repair: use libxfs_metafile_iget for quota/rt inodes
-fcbb464a350ce34d489b19688a3db6cef183272f xfs_repair: rebuild the metadata directory
-c30a505193b3b1a00b17e66a8f88729d5c956aa6 xfs_repair: don't let metadata and regular files mix
-34756a6b09717c73bdfff1b1f09bf5881b5a7cf6 xfs_repair: update incore metadata state whenever we create new files
-fc869d92037eb00bbd469917058ab38e801e90fe xfs_repair: pass private data pointer to scan_lbtree
-e578778eaba8f3d8073d67af0dd8565fe90265e0 xfs_repair: mark space used by metadata files
-53f9dca3f87fe04428918c907f7624d46bb57eaa xfs_repair: adjust keep_fsinos to handle metadata directories
-fc0577ee6a0d58d2f88c34c5c59a34e6574c8f83 xfs_repair: metadata dirs are never plausible root dirs
-ecd66bd8335396bbb1d7a076f03eae40cf051ce1 xfs_repair: drop all the metadata directory files during pass 4
-b3c3b81b086ff410c8a36fc28ef4b96c93906032 xfs_repair: truncate and unmark orphaned metadata inodes
-d6194d5108c4168b22c269780b06c19e2f8f8a89 xfs_repair: do not count metadata directory files when doing quotacheck
-956397c97f7a957b3a7a01a63982e2e781003c7d xfs_repair: fix maximum file offset comparison
-e70be0d52121ddaf1f7a290a3d9a30d49116e9ae xfs_repair: allow sysadmins to add metadata directories
-c40559530ed548924c84a66b979abbc1b322525a mkfs.xfs: enable metadata directories
-e1db5557deed282e267d6d9ee72cb2826cc02bdf mkfs: add a utility to generate protofiles
-e420b3ab78c28b3127dad98d0cf68a0797dac45f xfs_repair: refactor generate_rtinfo
-65bad5f928d057acc4b64750f339885fb23cc691 xfs: create incore realtime group structures
-e166fbf471885b272a23baaf3d3aacbbe731a2d3 fixups
-23f3a4beaaf4a95dfed81f7ae05d85caec054e26 xfs: define locking primitives for realtime groups
-b461957819e0ce71fafef2734608aea079edb74d xfs: add a lockdep class key for rtgroup inodes
-6868992d8698f843d316ba851e3f39bad6ed4451 xfs: support caching rtgroup metadata inodes
-4df60299fb0f7178fe08cdf59dac57d813d23793 fixup
-7b44a4f5cf9988e92235a3a5683b138e8886fb80 xfs: move RT bitmap and summary information to the rtgroup
-a16ed693868f5f5b8e926e12709aa5e4f39cdac5 fixup
-199745599c35dae3eaed3d379e432c21484632c4 xfs: remove XFS_ILOCK_RT*
-86cecd20b60a07151b3aa3864cfc06a40e85ade5 xfs: refactor xfs_rtbitmap_blockcount
-59889a4709cc78ddfeb8ba2baebf7c04f4f75a05 xfs: refactor xfs_rtsummary_blockcount
-7f6a5cf678d158f045005072458adc94fa55a551 fixup
-b2c3e429a479aa0887c5a4eef06122328419ed20 xfs: make RT extent numbers relative to the rtgroup
-d849c6740759c90faad3727f8d47e43e9884fd89 fixup
-b0bbe9e570dba46b1b198a9d2f14722b25e24e5d libfrog: add memchr_inv
-eb4fbfa9604dcfe4dda6a90ae1cfc55f41167e24 xfs: define the format of rt groups
-ae280821023b3db71ae9609af5d21871fd27a3f6 fixup
-bde86de9043eb6ad1d42676e7605c8f0602f6a60 xfs: update realtime super every time we update the primary fs super
-8fdf00613fe754a81f0ae7ef7c23adff8d92fe46 fixup
-9517077142d4ec7f7d70da704050a1bc3dc0ad85 xfs: export realtime group geometry via XFS_FSOP_GEOM
-f73daf1838f31ff8cc7b7ee4c137667b1e8bd249 xfs: check that rtblock extents do not break rtsupers or rtgroups
-49458d5fe49bc3e7a83e683fec659d332a5e39d7 xfs: add a helper to prevent bmap merges across rtgroup boundaries
-43e35f13617191e37da45dc979cd9dcc2232fb39 xfs: add frextents to the lazysbcounters when rtgroups enabled
-5691006aba604b2f8d46ac3fe728fda24e322f41 fixup
-70beaf04cff562ec7c76dae114739884400de99d xfs: record rt group metadata errors in the health system
-de5d3babb9a7b06ed580f76088ad061aea96f6d6 fixup
-e7023cf45974b121c8642aa43e10f17c385e5f41 xfs: export the geometry of realtime groups to userspace
-f5c3cbe34b38b1f8b6af1b9ed99fd8f81cd94ac4 fixup
-80dff796ba4efaafe4c64f6d8c529f4416aec4a0 xfs: add block headers to realtime bitmap and summary blocks
-28d899f5f9195a74705e8700dc3eff22cf4ca311 fixup
-ef3fc5527f6b952c98ad37211052f4a9647688b2 xfs: encode the rtbitmap in big endian format
-6c1ed0062015e787a9208b752fe0b620c5186f2d fixup
-adb9a446bc141962c6db74603a5b8ec94b5ace06 xfs: encode the rtsummary in big endian format
-1e0af177ec6a3fd41cdcb0ea60416fd2c457bc0f fixup
-cac3bdc81035140a7a972ca9589825b99bde3620 xfs: grow the realtime section when realtime groups are enabled
-2997fa51c079ea01ffaf02b6c19fd75a017a7e00 fixup
-621f507fe709301a6bbd8101b7e0cc8af4e454c5 xfs: support logging EFIs for realtime extents
-c80dd8b33f24362bb3c3b0aa0f4a4f92a45848fa fixup
-e9b062f9c071ca9f3bdd44af4b21121ab98134ff xfs: support error injection when freeing rt extents
-2dd0164af3bf7933101946adecc6eb6d575af2bd xfs: use realtime EFI to free extents when rtgroups are enabled
-fa48b147b7f94f9f552828d4c60f8c498cdd775f xfs: make the RT allocator rtgroup aware
-4485a052acc37fce505a9549b417649f18d1f4a7 xfs_logprint: report realtime EFIs
-8df6bd91c28caae21d0dbb44c9d44f591ef055a9 xfs: scrub the realtime group superblock
-a59d57f72c91e3140d1276872b37d0123ce776b8 xfs: scrub metadir paths for rtgroup metadata
-bb208c7bfc78b3b17e6fa9992fbe4c17a62df168 xfs: mask off the rtbitmap and summary inodes when metadir in use
-9d6c1f058e1a54f2f53e4a2e2079d15ab6a25771 libxfs: implement some sanity checking for enormous rgcount
-da47f3afb34477ad333b391fedd91df567ae8a0d libfrog: support scrubbing rtgroup metadata paths
-9d67218f98a0a56c185ab814807edd5134cd915e libfrog: report rt groups in output
-3588bb591823211143aaf0a638e367bb1018594d libfrog: add bitmap_clear
-314559ef4d3a05563dc006c45f8c9d14e17e0fc9 xfs_repair: refactor phase4
-436b2b2b258feb96004a39c2bbc82452f880e5d8 xfs_repair: refactor offsetof+sizeof to offsetofend
-d894f6f45c185becd1c1599f8fcb0fbd5b371940 xfs_repair: improve rtbitmap discrepancy reporting
-915c2a0335e6e74a055dcaa8ea09c175402588af xfs_repair: simplify rt_lock handling
-6ef6b977e5d82628762377941207aa9e6a49c9ac xfs_repair: add a real per-AG bitmap abstraction
-9a671a9d3a2637e03bb346f2f6f79c9e6e6455e0 xfs_repair: support realtime groups
-e28d6e726056a4400bcc85cf25c1c1d0b2f0150b repair: use a separate bmaps array for real time groups
-e7ad6ca808b0d028d747f5992582e736a2145fda xfs_repair: find and clobber rtgroup bitmap and summary files
-ffc2ac396b6b6a85a1fa6d19c1661e3b25343e58 xfs_repair: support realtime superblocks
-966bd174bd66dac958c9ad38b8b533acb387795a xfs_repair: repair rtbitmap and rtsummary block headers
-e9cbe1afec89c75e1fa797e104f2fe3732c2ba0d xfs_repair: stop tracking duplicate RT extents with rtgroups
-3caabe159861753b080d0ceccfba76a79175fdf3 xfs_db: listify the definition of enum typnm
-cbc257d695587291e9e46ac5e80704c54e96a3c0 xfs_db: support dumping realtime superblocks
-ba2e2483cf1083797ca50c304f5ce6ce067f2104 xfs_db: support changing the label and uuid of rt superblocks
-6009ea9955e8bed262c7a84e132a69e74cabd6ef xfs_db: enable conversion of rt space units
-955e1489edbefd32997b05ac3ac73593598dfe0a xfs_db: metadump metadir rt bitmap and summary files
-8a748034fcea8376fe839214c0f9697b54d750ed xfs_db: metadump realtime devices
-02dcdeab3fc353637a6cfaf906f0849563646958 xfs_db: hoist bit scraping function
-323e911aac2d88135b561af8f4733d5bc33c2572 xfs_db: dump rt bitmap blocks
-198d4be35cd816ab667311934c223397d13e1958 xfs_db: dump rt summary blocks
-85be6dd6fc8b9382a97f61e4bebba5ab18012f7b xfs_mdrestore: restore rt group superblocks to realtime device
-df835db93085170e549fca20d23f2369e6021b02 xfs_io: support scrubbing rtgroup metadata
-f55e31d2f367c2258c6d0a05146089f02d2eaaeb xfs_io: support scrubbing rtgroup metadata paths
-cbd2f61bf5db60f5cdaa7542a7ead6f6614ddd0a xfs_io: add a command to display allocation group information
-f9cc5e6ff859463da4f7785a768ad4be5139220a xfs_io: add a command to display realtime group information
-534449eb4639717dcb13339f8e92c572d9f8532e xfs_io: display rt group in verbose bmap output
-46487a04804afdcfdc46e35990a3175c3b11ef82 xfs_io: display rt group in verbose fsmap output
-099ff791bb220b0f3065fcdcca255c3521e0bd19 xfs_spaceman: report on realtime group health
-fcf8ee1731cca10bfac8c8b9de52c6327156edc9 xfs_scrub: scrub realtime allocation group metadata
-d9a8d3f5f394d7f624346e8b9eb81be0a5a5bdcc xfs_scrub: check rtgroup metadata directory connections
-5de32e256b71b020bed213cb7d23af3bb9f7b1bc xfs_scrub: call GETFSMAP for each rt group in parallel
-a3f65dd6d1d810ac98a0a04197d078284ecc8d29 xfs_scrub: trim realtime volumes too
-e01596705205055bb6a94b2d05834323e2e44cc8 xfs_scrub: use histograms to speed up phase 8 on the realtime volume
-ab54c66459e93f2275a0142e41590b952e2ee400 mkfs: add headers to realtime bitmap blocks
-f9b2358c28231976031a826674911721a868d898 xfs: use metadir for quota inodes
-dcbe4c870953b874419bf9614a6d06a5c4adc704 xfs: scrub quota file metapaths
-6b74903167e4120851a686a3cdca1fcac028840d libfrog: scrub quota file metapaths
-5f02b1e3a1a20255dacf13a94baa04f1021c0017 xfs_db: support metadir quotas
-f69d97f3e3686e05edb50ade6898409eec1480d6 xfs_repair: refactor quota inumber handling
-c21a502403a0e134d619654d4a082f8a38396036 xfs_repair: hoist the secondary sb qflags handling
-a249fe34802cfbf5b47f33972d2fb4a4586c7029 xfs_repair: support quota inodes in the metadata directory
-22ad33a219fdbfd9fc06f1a538545fbdbae2a0a6 xfs_repair: try not to trash qflags on metadir filesystems
-68c4d7545c9e705a065268f30bd3739eec3ed8ab mkfs: format realtime groups
-267c07e4ca2e9afd8a1c38bbe5fecbf3d673bf5d mkfs: add quota flags when setting up filesystem
-edc3a66012e4180a59018533e3ac831c1f7b8bfa xfs: enable metadata directory feature
-a0d8cc32604c38b86e45f13b95a6bb0ca49315ab xfs: tidy up xfs_iroot_realloc
-c84b7c7fa0918bfc0bfc0bee1e65a1aafae455e7 xfs: refactor the inode fork memory allocation functions
-1f5f83f8ffa4185f72e8ee092d6dd05d11f4d316 xfs: make xfs_iroot_realloc take the new numrecs instead of deltas
-f77d5fd451ee88cd2b42d3843f44b156f65a4904 xfs: make xfs_iroot_realloc a bmap btree function
-4c3360711e6086fcd34eecf3a516995d73f1bb19 xfs: tidy up xfs_bmap_broot_realloc a bit
-2d6b200ca6d78c6364f57eb8b546b04ca77ded14 xfs: hoist the node iroot update code out of xfs_btree_new_iroot
-9722d6e66a94e073d5b564eaa7120d8a11064634 xfs: hoist the node iroot update code out of xfs_btree_kill_iroot
-349fe74ef9622907106b79899f834e5c6eaa61f1 xfs: support storing records in the inode core root
-9726d582a192460c02046518fc4673267bd0d3e0 xfs: update btree keys correctly when _insrec splits an inode root block
-ddca08e93966dadc2ff3858e81794b4a90177450 xfs: allow inode-based btrees to reserve space in the data device
-aa556230820ad81f692150fe81d51225dda7491e fixup
-225fe0945ef4cf5472d7321a93b415403443aaff xfs: simplify the xfs_rmap_{alloc,free}_extent calling conventions
-3de1af276b59a71ba70a916017bfcb69d85033c1 xfs: introduce realtime rmap btree definitions
-7951f3948ec7280a7769b09a2b8e5e5699640965 xfs: define the on-disk realtime rmap btree format
-86246f0a8ff6a0d89918ea49d2fc7582f04c271b fixup
-c5a0fa568f7279428f9905f36f4da33e82fde6cb xfs: realtime rmap btree transaction reservations
-784d40bdadfc19adb44c106d4dc9be7f5b1c3373 xfs: add realtime rmap btree operations
-682a36bfe38b858008fd81656c698c4d3b4673a0 xfs: prepare rmap functions to deal with rtrmapbt
-045e4905cdb98202e1c0b7e29cc479e6a02dfce9 xfs: add a realtime flag to the rmap update log redo items
-5a303ef9e8723764a806ea0b7ffbbfdda6a70187 xfs: add realtime reverse map inode to metadata directory
-5eae86f64e42d169281683f82a6d84f071a1f44a xfs: add metadata reservations for realtime rmap btrees
-a9aa89da768def8038e147efeb866538341a7e18 xfs: wire up a new inode fork type for the realtime rmap
-f512871b70199924454086237a3b56eab438d50a xfs: allow inodes with zero extents but nonzero nblocks
-683177f4bcff34d4fc8c2ddcf102567ffa6227ce xfs: wire up rmap map and unmap to the realtime rmapbt
-571f465cb106fa5848822d68b162061dc97eab03 xfs: create routine to allocate and initialize a realtime rmap btree inode
-344ba578950d7cddc7d4cec04a1f65c22647ca5e xfs: report realtime rmap btree corruption errors to the health system
-080d17e8d402a38a9418bb243b0e79f53b58a9eb fixup
-7caac3f954ed35eba5428253a44d473e808cebfd xfs: scrub the realtime rmapbt
-56f59cb386e2f2330fd6421003417c1af42728b8 fixup
-1fa854ed8273161c68e3c4e41c5b16a032717cdd xfs: scrub the metadir path of rt rmap btree files
-5de09ceb99d0a00651952b733deeb3ca26e24bca fixup
-bddd7b659b781699ab991e7b5e283c225b7c3a6e xfs: online repair of the realtime rmap btree
-a90082a1b3315b39bba03843aacdd4a870cc412f xfs: create a shadow rmap btree during realtime rmap repair
-28955de4eac5bf7b08e4d0b709d834d0ece738d7 xfs_db: don't abort when bmapping on a non-extents/bmbt fork
-3cae91900c960715b18a95276f06ed94fea584eb xfs_db: display the realtime rmap btree contents
-bcb59b8ab5080103b309680c2166299e7dcb1e31 xfs_db: support the realtime rmapbt
-e017fe2e36b1a7cb0b2dae1f33c0bacbc06280e1 xfs_db: copy the realtime rmap btree
-de05e9f68855a0bc5363efa67d0f004eb178c10a xfs_db: make fsmap query the realtime reverse mapping tree
-81753549bc4102831936b12b662e07ac36b55d17 libfrog: enable scrubbing of the realtime rmap
-de01070e45c17826649b0131f4f0bab9199b418d xfs_spaceman: report health status of the realtime rmap btree
-a536e397bb0e19c66c699aad955d4cd2a19662a4 xfs_repair: flag suspect long-format btree blocks
-b83f799f1e8cd67499cac6fceb973b8930a66cd1 xfs_repair: use realtime rmap btree data to check block types
-3cba1de5d3f6e9f1e6f5c5264bf7de0bad0f3c8d xfs_repair: create a new set of incore rmap information for rt groups
-928ec973663be6309c434c0685bfe2c40c4ff2bd xfs_repair: refactor realtime inode check
-11080f3f2411d693409cc97da82db8b4bc59662a xfs_repair: find and mark the rtrmapbt inodes
-e24c5ce91eadc531686bee650af176efdce54719 xfs_repair: check existing realtime rmapbt entries against observed rmaps
-55f21439787cc6508e66aca13225b975fda785e8 xfs_repair: always check realtime file mappings against incore info
-3104b925e802d8a06e525f485450644d0f2b2944 xfs_repair: rebuild the realtime rmap btree
-1864c553bdc1c91bee901a997752f9c4175c4b74 xfs_repair: check for global free space concerns with default btree slack levels
-5d90c345b6e158bf9894714fff3ef56f2264ceb2 xfs_repair: rebuild the bmap btree for realtime files
-cdfc2436ce86b01ed5391efcef47618e04c81ff3 xfs_repair: reserve per-AG space while rebuilding rt metadata
-7879de127cf10155791da8ab595fc6d3d07259cf xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-07e41ed09ba6f680514b8e4281041e8006616930 xfs_logprint: report realtime RUIs
-07313b7068978ce72940c1e5fda6265cbd23fbb5 mkfs: create the realtime rmap inode
-f2e2760c3519ab004dca45282b2452805af679eb libxfs: resync libxfs_alloc_file_space interface with the kernel
-58e882f42a39330945e02cd22bbc654d979940cf mkfs: use file write helper to populate files
-c6eaaedef3dcfcdaf95e55481d4fdce1fde538c5 xfs: introduce realtime refcount btree definitions
-08e7a99972b6f389ac22483cf2291e6dc81ac055 xfs: namespace the maximum length/refcount symbols
-d1937bd5cafabd0bfe49e887a7f17aec5ebdfdea xfs: define the on-disk realtime refcount btree format
-eb9e2979641274c7df46048ba702e0fe0ea219d2 xfs: realtime refcount btree transaction reservations
-17bdba31c60317fcc36663339bf7f714aae6d546 xfs: add realtime refcount btree operations
-66722e9375c37c4b2e2cd2ee337c39a85e2c4972 xfs: prepare refcount functions to deal with rtrefcountbt
-99a23c2a545293800b9d11274ca32cfe798eebbd xfs: add a realtime flag to the refcount update log redo items
-2a3a8b60ac6782fc19230c1ff41a9ca60bd0efc9 xfs: add realtime refcount btree inode to metadata directory
-962d7e7642aab661807a29f18fdfa4ee8d59cbe6 xfs: add metadata reservations for realtime refcount btree
-97bc20e34b2f2309fe320b36be5716a296efc5aa xfs: wire up a new inode fork type for the realtime refcount
-8b2fda2e1fae4d070ed8f9ae181d27b8f99167f8 xfs: wire up realtime refcount btree cursors
-0fba18e83dffada0f6664f4bfda7c32811a9a851 xfs: create routine to allocate and initialize a realtime refcount btree inode
-b3a3a048b46b0d3146c2051bcc14891a1f9e350f xfs: update rmap to allow cow staging extents in the rt rmap
-312aae4a742a31dcc8a234664b9a97bd1ec79ab1 xfs: compute rtrmap btree max levels when reflink enabled
-6c1cf9d5c0f6ff68ccdf1ed6cbb2f06394b869eb xfs: allow inodes to have the realtime and reflink flags
-64dbc885f5e2e4b9fcbea74f303853a2843b6022 xfs: recover CoW leftovers in the realtime volume
-58d277175b1c1616dd596c3959862404b47ffea3 xfs: fix xfs_get_extsz_hint behavior with realtime alwayscow files
-84e543d7917902aa6cf4bad0780d0a62cb34818c xfs: apply rt extent alignment constraints to CoW extsize hint
-2be42cb5d50189bdc5db4534dd6cb1f7f95606d4 xfs: enable extent size hints for CoW operations
-62fa4139a4979f4e5e6b5b98faf0b89acace5812 xfs: report realtime refcount btree corruption errors to the health system
-70af749379e34f0716e2ec3393d4d8ef3f154030 xfs: scrub the realtime refcount btree
-b7054bb9347106beb8d2338430f28a6a399d1bdd xfs: scrub the metadir path of rt refcount btree files
-8da66ba2797ad0621365a1e8842f8c26db9435b3 fixup
-09c07710ffaab8dc8c4f19bc036458949ddc355a libfrog: enable scrubbing of the realtime refcount data
-f9d46ca3a2e00b1f243de595982f348c22d3a4b5 xfs_db: display the realtime refcount btree contents
-a4bb99e618ea895c38f151d6ada1a0edbeb4f104 xfs_db: support the realtime refcountbt
-0191b03e959fce33e0d1d1ff6545ce8644c27fca xfs_db: copy the realtime refcount btree
-ffbbeffb7beef5ac7f49ad7737496ba8f656644f xfs_spaceman: report health of the realtime refcount btree
-488c85d9af407f2dee686a7c817fbc8cc5fab173 xfs_repair: allow CoW staging extents in the realtime rmap records
-fa2e79f57e9474d85398aa8fec4b86585689ba3d xfs_repair: use realtime refcount btree data to check block types
-b7f0a380cac3334c1cde45482190c3696b1b79b4 xfs_repair: find and mark the rtrefcountbt inode
-cc64d9fc0ec5e481fa9100039edce5d071585d61 xfs_repair: compute refcount data for the realtime groups
-c044638fe6a8979ee88e6b61b4753503f44ff43f xfs_repair: check existing realtime refcountbt entries against observed refcounts
-b522aa75292366441bc05dc68d78e48705188003 xfs_repair: reject unwritten shared extents
-c4dd838f0eba5c44a5d6a18c22720cf85e5128d4 xfs_repair: rebuild the realtime refcount btree
-d1ee885af72310ecb4405a8f2f89ecad7544406b xfs_repair: allow realtime files to have the reflink flag set
-c4c47567ac6d6465d6ba2051bd7151c0f2efd862 xfs_repair: validate CoW extent size hint on rtinherit directories
-f65a37cccabf0c98b12151c67af530e2c74616bb xfs_repair: allow sysadmins to add realtime reflink
-70a537a5b9afa5497e409c39ea856b8173118eb9 xfs_logprint: report realtime CUIs
-fd4962a71bb0df86d59065be889b66d7fe042b88 mkfs: validate CoW extent size hint when rtinherit is set
-e1284c1c6a2f2b96f9647547a8daa5667ebeedbd mkfs: enable reflink on the realtime device
-c16f4c50915fcf5af3b068143025b8895e5747b1 xfs: enable extent size hints for CoW when rtextsize > 1
-1adb246111fca9aedf2d8c4f2e98417e61fec0a4 xfs: fix integer overflow when validating extent size hints
-a366bcf0fe2deaef45a8b0b04b26484a0dd725a6 mkfs: enable reflink with realtime extent sizes > 1
-3cd6436bfe663fe596a3607eff4bb5e5d476acd9 xfs_quota: report warning limits for realtime space quotas
-403d3d2adb01d8bf3500b09d6341ffb08e01139d mkfs: enable rt quota options
-05afd14daf59508757b1b2f174ddc0d68895e4ff xfs: track deferred ops statistics
-44b989459924a89f22886a7863f180f4d8ef10bf xfs: create a noalloc mode for allocation groups
-218010899392ad13fb129c85c453f6b1b373dae7 xfs: enable userspace to hide an AG from allocation
-d4e41a2f2f43384dc428a44d5edaf18948b6b2e9 xfs: apply noalloc mode to inode allocations too
-33f3816e73dc033378c3ddb56ce2bbdb7bb3f8e6 xfs_io: enhance the aginfo command to control the noalloc flag
-1f8a3ce9b483e0d483775f1c15134af5cbd16bc8 xfs: export reference count information to userspace
-bea1e8649287716839500b0d1b9620b9564029a7 xfs_io: dump reference count information
-7b4fe64320be8341ac26c075ed1476c33c04167f xfs_io: display rtgroup number in verbose fsrefs output
-adef8811c6f4d1e83e9ab524f6aa687012914320 xfs: add an ioctl to map free space into a file
-401e342f482e85324c5872b307d7f2069d867444 xfs_io: support using XFS_IOC_MAP_FREESP to map free space
-d075f3c15959a2dccac0bfba2c1b7fb98e7d505f xfs_db: get and put blocks on the AGFL
-03cbe284944fe3b6a7feb01982b4e600be5c4e01 xfs_spaceman: implement clearing free space
-6292bc73190d3cea417e2901706e69dd316a0c2b spaceman: physically move a regular inode
-b08d4681bd66101b2e9abb1619051262ea380058 spaceman: find owners of space in an AG
-f907d172af8f8e766e0756a1b4e17468f144a54f xfs_spaceman: wrap radix tree accesses in find_owner.c
-b69fdf041d2bc27b3b556c7a0c5021ab1fa05fd4 xfs_spaceman: port relocation structure to 32-bit systems
-ca38656e6bf27ffb66905feccd2bb86bee0d2de4 spaceman: relocate the contents of an AG
-3ae7cbe28936b31e2ea544f40b77f801a76be05d spaceman: move inodes with hardlinks
-420db80f100892e5fafab0ce7ca9605c98778788 xfs: create hooks for monitoring health updates
-eaa13029c162cb8769650f80b633a81453cbfed9 xfs: create a special file to pass filesystem health to userspace
-f1e4da92cbada1a79bb68dc88b10d84fee4cf10b xfs: create event queuing, formatting, and discovery infrastructure
-43e88d946458c3ea1ad3912b44bcf4bb32d4831b xfs: report metadata health events through healthmon
-21f04e1008227445dccda5362d1119dae4527d4f xfs: report shutdown events through healthmon
-ef4f0f62b908dc93d37982f7e636dd9fb70bde20 xfs: report media errors through healthmon
-ce0736f107382a3e0b028a8e396869d64ef6f97e xfs: report file io errors through healthmon
-3acc28ce52e036349041136adf5aee8d080a56e0 xfs_io: monitor filesystem health events
-0011fdfda1d24e40e1c42ffa6dde7e698cd51fec xfs_scrubbed: create daemon to listen for health events
-65e63d72bb9f63a5b010565001caaceaca31051b xfs_scrubbed: check events against schema
-ab2073d3621fb69f2bdf43f70e8a1f96f67d3e14 xfs_scrubbed: enable repairing filesystems
-439c5edf427bea415f518df77a50cd5871bd6933 xfs_scrubbed: check for fs features needed for effective repairs
-2fef725cfab27d6a205db0280ce5b7b5aed38fe5 xfs_scrubbed: use getparents to look up file names
-d5aa1210b25516a10de398bdfe1b44df93e44ed6 builddefs: refactor udev directory specification
-f3c2ead786a2af66b1ce2ad58e12910e95e15085 xfs_scrubbed: create a background monitoring service
-f1086009ccc2608ff1882693d1faa7eeebcb62f5 xfs_scrubbed: don't start service if kernel support unavailable
-4f305954cff8be29886c421020c8b470edf4e5f3 xfs_scrubbed: use the autofsck fsproperty to select mode
-d17146a47229f37a33767e9a3394ceff9150bf1f debian: enable xfs_scrubbed on the root filesystem by default
-9508ccc33c5b42c8c9e9a92850f6e479045ff255 xfs: upgrade filesystem features
-dc9d759838fe2dc0bcdb98b2ff149e845e8dc47d xfs_repair: skip free space checks when upgrading
-2f92d5ffbf77c60ef3bb91e28d4baed510b02025 xfs_repair: allow adding rmapbt to reflink filesystems
+78a197158e3dde7c0cba2997a02a2cb76a1503e3 netfilter: nf_nat: don't try nat source port reallocation for reverse dir clash
+e5068c14440fa39d30a642d5f804f34de1eeb30f netfilter: conntrack: add clash resolution for reverse collisions
+a6b8ab372e860b4a13a9a2e17011ed827da34b28 selftests: netfilter: add reverse-clash resolution test case
+bab272d913c94f1b2ccbc6ffcf560f2e8e38ec48 selftests: netfilter: nft_tproxy.sh: add tcp tests
+77dd9a67733178da35d9acf64e547343d2d842bf netfilter: ctnetlink: Guard possible unused functions
+d60ee91bc5732d92c23c9667512da647bb18b7a9 docs: tproxy: ignore non-transparent sockets in iptables
+8c37d30e1044693fabc211dedc7178eddbb0e861 netfilter: nf_tables: Keep deleted flowtable hooks until after RCU
+3fea6231ebb46352c00984d088d77340f9a88497 netfilter: nf_reject: Fix build warning when CONFIG_BRIDGE_NETFILTER=n
+d852f502907f2efd7874389fddb93b8b47a41a24 netfilter: ctnetlink: compile ctnetlink_label_size with CONFIG_NF_CONNTRACK_EVENTS
+ceab1443434cf92412d89e382b4fd3d2c8191278 netfilter: nf_tables: use rcu chain hook list iterator from netlink dump path
+f9804ded3a25f730f2bc2f50238c8f840613c029 netfilter: nf_tables: missing objects with no memcg accounting
+47ce20d53213e88979ad7c79dcd016fe71bd0037 netfilter: nfnetlink_queue: remove old clash resolution logic
+c30bbdd44a678f49f88e1eacdbc76ba7fc69b2dd kselftest: add test for nfqueue induced conntrack race
+69021d3bc01c72c3315ea541062351a623b72c8f selftests: netfilter: Avoid hanging ipvs.sh
+732b177663e1757950d73e7763fa0de26272439f ACPI: NUMA: initialize all values of acpi_early_node_map to NUMA_NO_NODE
+ad380f6a0a5e82e794b45bb2eaec24ed51a56846 RISC-V: Don't have MAX_PHYSMEM_BITS exceed phys_addr_t
+6d74d178fe6eaf61e384f3be6ba64150bddce8a6 tools: Add riscv barrier implementation
+aa5736dc7aa4d6f0e5e4e4147d9aef42bb82deab tools: Optimize ring buffer for riscv
+47b9533ccd1a5e9c2e7944686ccf491b27a892f3 Merge patch series "tools: Add barrier implementations for riscv"
+f0c9363db2ddfb07723c00cb153c84c8179e92d4 perf/riscv-sbi: Add platform specific firmware event handling
+b3f835cd7339919561866252a11831ead72e7073 crash: Fix riscv64 crash memory reserve dead loop
+e509996b16728e37d5a909a5c63c1bd64f23b306 xfrm: extract dst lookup parameters into a struct
+b8469721034300bbb6dec5b4bf32492c95e16a0c xfrm: respect ip protocols rules criteria when performing dst lookups
+b06f737283b7719fc920df0dbc5c1ed540236fe1 drm/i915/dp: Fix colorimetry detection
+e8dd556c74325f29597665c2c557a8ea699a0686 LoongArch: Enable generic CPU vulnerabilites support
+d0bb0b600081bc7c246b97b2901abbb6c357ff7b LoongArch: Enable ACPI BGRT handling
+34e3c4500cdc06094b37a41b622598098308ba8f LoongArch: Rework CPU feature probe from CPUCFG/IOCSR
+e86935f705fa732d8c7c3ecf0c50ea461ffab76f LoongArch: Add ARCH_HAS_SET_MEMORY support
+f04de6d8f252ec6434b846895474cc205527b8b8 LoongArch: Add ARCH_HAS_SET_DIRECT_MAP support
+f93f67d06b1023313ef1662eac490e29c025c030 LoongArch: Improve hardware page table walker
+d4f31acf1302088a5b16d1e4de890729acfa9638 LoongArch: Simplify _percpu_read() and _percpu_write()
+5016c3a31a6d74eaf2fdfdec673eae8fcf90379e LoongArch: Fix memleak in pci_acpi_scan_root()
+64c35d6c0ff95e9507f5fb3cce4936c7c62f3d3a LoongArch: Remove posix_types.h include from sigcontext.h
+f339bd3b51dac675fbbc08b861d2371ae3df0c0b Docs/LoongArch: Add advanced extended IRQ model description
+03a9cfc1314bf75cc7a83995f3a029a7ebf49c05 ata: libata-scsi: Fix ata_msense_control_spgt2()
+0e9a2990a93f27daa643b6fa73cfa47b128947a7 ata: libata-scsi: Fix ata_msense_control() CDL page reporting
+f364d2a6a870e2068fe745dbcb98125a5102493a fbcon: Make cursor_blink=0 work when configured before fb devices appear
+089905b4fd6d6035312bcf2a1ca066076e864570 fbcon: Add sysfs attributes before registering the device
+1d90d44f626a4b7738bddeadd36756c77a77daed fbcon: fbcon_cursor_noblink -> fbcon_cursor_blink
+dc2d4e012de5bce3b4e0b604643656d10483e951 fbcon: fbcon_is_inactive() -> fbcon_is_active()
+bca575e78d0a300009e1b7256d85f47a345956d1 fbcon: Introduce get_{fg,bg}_color()
+6b16f01e5c8900ac409605863437ec4cfc1c19e3 fbcon: Use 'bool' where appopriate
+f011b313e8ebd5b7abd8521b5119aecef403de45 net: qrtr: Update packets cloning when broadcasting
+8cba98422ba2d72fc72e1169050a730d037e5b9d Merge branch into tip/master: 'locking/urgent'
+0e593edb5917c32c3cb65ef094fc2e389aa65d84 Merge branch into tip/master: 'locking/core'
+a6f489fee2633f8595934a850981bd4284abdbba Merge branch into tip/master: 'x86/splitlock'
+d2b366c43443a21d9bcf047f3ee1f09cf9792dc4 net: phy: aquantia: fix setting active_low bit
+6f9defaf99122d1af9c2562181c77bc99be0672d net: phy: aquantia: fix applying active_low bit after reset
+fcd2d9e1fdcd7cada612f2e8737fb13a2bce7d0e fuse: clear FR_PENDING if abort is detected when sending request
+ced8e8b8f40accfcce4a2bbd8b150aa76d5eff9a r8169: add tally counter fields added with RTL8125
+c666a8323d1f8e44c4826b48dffeb0f240eb3af0 Merge branch 'bpf-next/struct_fd' into for-next
+675faf5a14c14a2be0b870db30a70764df81e2df net: stmmac: Fix zero-division error when disabling tc cbs
+bff1709b3980bd7f80be6786f64cc9a9ee9e56da mac802154: Fix potential RCU dereference issue in mac802154_scan_worker
+1d63864299cafa7c8cbde56491c9932afdbff7ea net: ravb: Fix maximum TX frame size for GbEth devices
+ec8234717db8589078d08b17efa528a235c61f4f net: ravb: Fix R-Car RX frame size limit
+bfde62650c73a9524c52e4a324349e99c7c39a48 Merge branch 'fix-maximum-tx-rx-frame-sizes-in-ravb-driver'
+3b067536daa4842adbf685accf47c899a26367d3 r8169: add missing MODULE_FIRMWARE entry for RTL8126A rev.b
+2f3d8ff457982f4055fe8f7bf19d3821ba22c376 fuse: use exclusive lock when FUSE_I_CACHE_IO_MODE is set
+0ee2bbc902318f10e5597aa48e793aca2e509630 fuse: enable dynamic configuration of fuse max pages limit (FUSE_MAX_MAX_PAGES)
+09cfc6a532d249a51d3af5022d37ebbe9c3d31f6 ASoC: atmel: mchp-pdmc: Skip ALSA restoration if substream runtime is uninitialized
+9805f39d423a30a7189158905ec3d71774fe98a1 LoongArch: vDSO: Tune chacha implementation
+0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c bonding: Fix unnecessary warnings and logs from bond_xdp_get_xmit_slave()
+2861aec8347c829d246ac4102e589df5d2e62a06 Fixed some confusing spelling errors that were currently identified, the details are as follows:
+8b985bbfabbe46c8b9200d7d299030232c8ebd05 tomoyo: allow building as a loadable LSM module
+f0fa69b5011a45394554fb8061d74fee4d7cd72c drm/connector: hdmi: Fix writing Dynamic Range Mastering infoframes
+5d69d5a00f80488ddcb4dee7d1374a0709398178 i2c: designware: fix controller is holding SCL low while ENABLE bit is disabled
+f2990f8630531a99cad4dc5c44cb2a11ded42492 i2c: synquacer: Deal with optional PCLK correctly
+e07c9e90b62517107a7eed6450742fc7bcdd5e37 i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
+0ea6c806730fc72dbb9de8e8597a142421d97a69 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
+2ecc5b93d5b58d14bdf34fde50ea7694dcbd36a0 i2c: cadence: Add atomic transfer support for controller version 1.4
+1b28fc0a8d5ad5edd9e872c1d111712b337e089a i2c: isch: Pass pointer to struct i2c_adapter down
+6607a5b102d73f3f62f496e9ae3db1fd7cbd8bca i2c: isch: Use string_choices API instead of ternary operator
+698e0c16a769e71fabb997eb8b05653d90dadc19 i2c: isch: Switch to memory mapped IO accessors
+fb93ce3a586c6ddb8a3f8d86a28e67eb5db24b67 i2c: isch: Use custom private data structure
+a5b98a30e5482ec82d08dbaa804f19af59dd21b7 i2c: isch: switch i2c registration to devm functions
+a27e4ceaf97f9d052b887a681e2b630821d2b41d i2c: isch: Utilize temporary variable to hold device pointer
+cc2f9d31e1cc6de2bffda778e5ae8dc2c75f1303 i2c: isch: Use read_poll_timeout()
+b19fb41902ae158ca017ef224c0a40eb194fc15a i2c: isch: Unify the name of the variable to hold an error code
+4d4dd531b97c72b26e3b62ec3fe0788c7a01160f i2c: isch: Don't use "proxy" headers
+877b6a1a06b35f51c148713d0338a4bd84107955 i2c: isch: Prefer to use octal permission
+9852803b3322d9d0ca94f34dacec8b06a2015d11 i2c: isch: Convert to kernel-doc
+45a42b0ce77a8562aed0ce7cc958ac954719b2cf i2c: i801: Add support for Intel Panther Lake
+68898131d2df70d1a9ad5c2f93f0f54dd6d5c336 nfs: Fix `make htmldocs` warnings in the localio documentation
+c6c8946b40464c28703b7fdd7f6df36a7d260ac5 Merge remote-tracking branch 'asoc/for-6.11' into asoc-linus
+fe4f5d4b661666a45b48fe7f95443f8fefc09c8c drm/xe: Clean up VM / exec queue file lock usage.
+5c36498d06b9b00393c2f35edbf16b28194375fa Merge tag 'lsm-pr-20240923' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+24f772dec31591f9268a9c9e4943dc5dc47eaf9b Merge tag 'keys-next-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+e1b061b444fb01c237838f0d8238653afe6a8094 Merge tag 'landlock-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+1cfb46051db9ddb68e297eaf17270e09874ec5f3 Merge tag 'v6.12-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+7108fff8848bc3bd958789f4db6beff94bdae521 Merge tag 'm68knommu-for-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+97d8894b6f4c44762fd48f5d29e73358d6181dbb Merge tag 'riscv-for-linus-6.12-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+172d513936c707e991c3eca1b79cd8a153171862 Merge tag 'sysctl-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+2ed8983186d017e5a19e613ffcad2a9b69b307ea dm-verity: restart or panic on an I/O error
+3147a0689dd9793990ff954369ffcdf2de984b46 Merge tag 'for-6.12/io_uring-20240922' of git://git.kernel.dk/linux
+6fa6588e5964473356f0e2a02093ea42a5b3fd56 Merge tag 'sched_ext-for-6.12-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+54d7e8190ecfe72ff0dab96545e782f7298cb69a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+db78436bed06708a8cadb61c60881d568fb4ae27 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+4491b85480c8ca2d85b2a06262828ec1af5c00ba Merge tag 'dma-mapping-6.12-2024-09-24' of git://git.infradead.org/users/hch/dma-mapping
+7bc21c5e1f94351b04b6082c16c5d4887c28a414 Merge tag 'vfio-v6.12-rc1' of https://github.com/awilliam/linux-vfio
+5c480f1da82c15f635a2b663740cb2bb241cc416 Merge tag 'rproc-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+6e10aa1fee979a898b06a4c8f2083de16e16df69 Merge tag 'rpmsg-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+3a87e264290d71ec86a210ab3e8d23b715ad266d io_uring: fix memory leak when cache init fail
+17ea56b752b6ba58fdd1fcfd24f0fd2fa2b0ade2 io_uring: fix casts to io_req_flags_t
+6db6a19f1ae31e29857b0f6f3e3896c22543be21 Merge tag 'hwlock-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+1753b5c3dee1f12fa8461e3a627635f69d77a424 Merge remote-tracking branch 'origin/for-6.12/block' into for-next
+11703376f98e38d44cda63fac34a9c828cdca267 Merge branch 'io_uring-6.12' into for-next
+9ae2940cbcb332aee3c9d9a0bb0f2d7dc6a82e44 Merge tag 'input-for-v6.12-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+ba0c0cb56f227d9af9c19a276fac982c492c079f remoteproc: k3-m4: use the proper dependencies
+cd3d6477298155482b772eae481ce01c9e764129 Merge tag 'i3c/for-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+7f8de2bf072530a48f53a5658db8528af598b75f Merge tag 'linux-cpupower-6.12-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+68e5c7d4cefb66de3953a874e670ec8f1ce86a24 Merge tag 'kbuild-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+3c3d65abfcc902808b90ba21fa8abb3e7de7350e vdpa/octeon_ep: Fix format specifier for pointers in debug messages
+9cfd8b1484b867f79eae0df59c992bd679e70475 virtio_ring: tag event_triggered as racy for KCSAN
+488592835eb48dab6c0dd59f798ecd45da7b15a6 virtio_console: fix misc probe bugs
+c085f6ca956f75d40422db96eaa6298867db8dca ceph: rename ceph_flush_cap_releases() to ceph_flush_session_cap_releases()
+adc52461767f675264f2876d61e7220c113023e8 ceph: flush all caps releases when syncing the whole filesystem
+d97079e97eab20e08afc507f2bed4501e2824717 ceph: fix a memory leak on cap_auths in MDS client
+0039aebfe87129fae1e3567cb6de7a99dbb3ba28 ceph: Fix typo in the comment
+74249188f31827cf1eeeee8e06474c2fbe2fc1d2 ceph: Remove empty definition in header file
+c08dfb1b49492c09cf13838c71897493ea3b424e ceph: remove the incorrect Fw reference check when dirtying pages
+42268ad0eb4142245ea40ab01a5690a40e9c3b41 sched_ext: Build fix for !CONFIG_SMP
+d5d48d88feaeb5d79b155e1504d9b5b928cfef91 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+734941c25384c5d57a3475e04f9fe22b4eb656dd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+9afd0cc2611375a1035dbe30cad4ecb1c79f4e05 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+6704debd0db86f830f32687474a234dea52c8ac1 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
+f9c7265d5fe33bb65d61a72cb7cbb21357e14cca Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+5446d399f10bc149fca1f828b842cbbf2460f976 Merge branch 'master' of git://github.com/ceph/ceph-client.git
+03ac38e94db7369b73f0ecd6de34c9586671a4af Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
+eab4fe7b3038b2557a7929c67bf3ac9ebf48ba6d Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
+5b1bd390555f0f8f9ec96ef2ba9aef5c5f44b178 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+9a41515631e6dc45143bccacfa7d36191122ce0b Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
+12d3a1d3765cd1c4e1a3e61bb9b926d26a30991e Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
+8e6b0f76b2a241f89e4026a15061f1735313a0b9 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
+4d2bdf371fe264661cb4063b3ea7cbb415636dc9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
+c3db1a9eae823ca8db1e1e1170805da2e7ce77fb Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
+eb6de5db5ad253b862d2695183fa6333592835d7 Merge branch 'linux-next' of git://git.linux-nfs.org/projects/anna/linux-nfs.git
+2c011bc2b9bb6bfa50869218ba6956ad4bd2bdb1 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
+0ce9ccaa788fb42fad151f2dc109d9245ad9c45d Merge branch '9p-next' of git://github.com/martinetd/linux
+6525701a0302d426b683dcdd4b442123b56079e6 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
+abcd32e1d7ca481ee7bae1a5d21310b7d5cbda8f Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+16b26179d495780a31773c140160b8e145b0d5b1 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+fc6e7d3723bf82b310e2c8dbd9198d4713778900 Merge branch '' of linux-next
+f41a75123b806b9373822490b7a1e6e8ca9ec7e2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
+ea8adad1c6b3a35f81a540429a5a271ec7acb174 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+806426f4cc67a56ddeab3491ade5ab796206c966 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+a3b6663c3cd4f410317975d417a27f41c41a1b80 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf.git
+ad285cf3b0b1337023b9b57d4cbb9f4a4934bcfd Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+84bd8b41d94ef54ba56290737e3970ac233e58a5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan.git
+d1daa5fb43f89a1b0f5987110694129eb9abfd71 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+eb9b114bda51b526152c28959acd6504657269c6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+ef1cea8b035f863e8fe5a94e7930de04c6b99f73 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+9fe0450d1711a99c1b6e44e649ced137bb9f172b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+9d9327cae3826dfb7ab1e1ad49ced154e8b3ee4d Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
+1c548b5e0d612fe1a17c56529d077088378f5c79 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+da0c4a8eed6e733c4ecee22f103d09498126812f Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+2ee30f94b6d8248a6ab521e49c242b6ea72e6059 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+77f4fba5a9772268ec25f52bfcbbc7b2f29e2a74 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+af454f9dba9dfaebfda9411eca0183bdbd176621 Merge branch 'i2c/i2c-host-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
+260e0956d7aaa86789a2505333278f370c3aa1fa Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
+1c834687982905838fe9c547d6b98554edfcf569 Merge branch 'clang-format' of https://github.com/ojeda/linux.git
+462dfee94c34092ee0b2873c46aeed881d45d964 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux.git
+8c4d70a0867368500d04ade33591e281833a3f41 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+486a534eb8a440aef058255ec4ce8d55085133b7 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux.git
+d4dc063e14d059803fc0ba68830f1e1ec016b0b1 Merge branch 'at91-next' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
+248465dfab9eb582a7c29f4d50004d71301870cc Merge branch 'next' of https://github.com/Broadcom/stblinux.git
+99b67a9d68941e9a510aaccffcd46d3969eaf657 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git
+e5893ecfe7be33d111f1caf2a902b848ef72b3b8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mediatek/linux.git
+01acf53c62ad8332e171a58e42b195c0796e04bd Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git
+2bda391b3f5c8140b288e062ee52e33f8d114b84 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git
+e6117ec09d49984723df9d2ebd3681acda7bc461 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git
+bc858140ec826f2106a0f5cb13ce8409bd235bfc Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip.git
+34cf434a4e3a98eafd27003916e4107f65f7731e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git
+8d5c5acad6383204dafb22b1f916db596bf343bc Merge branch 'for-linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux.git
+a265239e48b36dad7301c5a423f160b892ed9b0b Merge branch 'for-next' of https://github.com/sophgo/linux.git
+418cd24c568a59b994532ab6d47a805fce621ac2 Merge branch 'stm32-next' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32.git
+1eec5cd555e68ac1ae9a2e5b3fec8c998a26adb6 Merge branch 'sunxi/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux.git
+113200e7375466e892f955887386f549286e5345 Merge branch 'next' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
+54a60d34ed09e5dbdaffc8168a9972eecbe51f2f Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git
+820688160b81407fcf226fbb140ace60dc41d7f2 Merge branch 'ti-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux.git
+d94a548c1916a691534b27313d66a6c5058166e1 Merge branch 'for-next' of git://github.com/Xilinx/linux-xlnx.git
+09fa11f9ed3b7ebec7b160c731a7d1c24c27a6bd Merge branch 'loongarch-next' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson.git
+c469edc1a896ae43ac258a7e352ad59ee8db6221 Merge branch 'next' of git://git.monstr.eu/linux-2.6-microblaze.git
+d676d4b46860fbd0e30cdfe610a1cca2679af5f5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
+96ae4c6629bae11774af00de4d52e3558f1ec979 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/alarsson/linux-sparc.git
+5a899b214a5018d1a5d3f67888a6b7029ed51464 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux.git
+d5c0174675420756e83e944484d39c284c831cb0 Merge branch '' of linux-next
+1fde933ff0fbf4e627e7b31fddefe36690141838 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux.git
+3cccacedcf063e96319344786a59f7176653a679 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid.git
+993a7aa7f2643916a3ffd1429623bd4cb02d037d Merge branch 'i2c/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux.git
+8495b88195e29757aaa88303777fda1545d5984a Merge branch 'i2c/i2c-host' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
+9bc11aaec251f4aa3c27453ba1b9ca2f43d782f8 Merge branch 'docs-next' of git://git.lwn.net/linux.git
+46128ad162fd123c2db3a184b9cdaace5cb0aa4d Merge branch 'linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm.git
+1f4593282c4470a88df104f1033d84d6dc47d7cc Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git
+1e45b9004947df805a71b2a9ba8f0e309ac6097c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git
+932c3971a7db54e70e8416e8eb81ed6b5cf669c2 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next.git
+eca97134c9a1c54469b5d64a4abdd32c42874419 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan-next.git
+c4d842439467c85d24757ddb0aedc1479483d824 Merge branch 'drm-next' of https://gitlab.freedesktop.org/agd5f/linux
+4a37f24029e3986e93e1642fcd997a2e738410c3 Merge branch 'for-linux-next' of https://gitlab.freedesktop.org/drm/i915/kernel
+36a6a1542ba209bed7026becf9b57b19a3fc52b8 Merge branch 'drm-xe-next' of https://gitlab.freedesktop.org/drm/xe/kernel
+4670d27326dfe7e3314bf7e8965a5517d4e92b9d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev.git
+1b21bfece28bd0e9ab30b689ae8cf61ab8d622af Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+00a84240ad666ce9aef98deba78b98f37c5a61fc Merge branch 'modules-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux.git
+1ecd36a50b3ef855b563d7b338face836d065780 Merge branch 'for-next' of git://git.kernel.dk/linux-block.git
+c669c20271b5ea52c10b0b87bb91961f6e218aee Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm.git
+4b8c5d39042f53d5f37f4dae6f6b97e25b5f7c90 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+138e122c57e2c1a9a4c8f6c13f940661587b1b1a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+c76d1bded4ce941f4ff416d48ae904d436008d3c Merge branch 'next-integrity' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+192ca3cc81bfb2d4300882e109c2062af91ba1f1 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux.git
+85c0ea8bda87f1d9bcbb17655c4202ccb6c50a5d Merge branch 'master' of git://git.code.sf.net/p/tomoyo/tomoyo.git
+13fc803105f10d083f4b3c6b7990bb62d66b2835 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt.git
+00d0429afc229e24f1b668339a0e6c117323ea1e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox.git
+ca873b9106290618880d6f9194793a102fcca205 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
+c001e8f11cf822814cae74b2a348a9c029a8dc7a Merge branch 'timers/drivers/next' of https://git.linaro.org/people/daniel.lezcano/linux.git
+439621a988cfbb940df57e4256a4da6205f05195 Merge branch 'edac-for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras.git
+568c348227c35ca75f69eb68033932234a2408e5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace.git
+e01f0ea259f6640a2115e62ed0ad2a601775377d Merge branch 'non-rcu/next' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu.git
+dd1b3620cd9b5663ff192c949e2b46c5f8e8933a Merge branch 'next' of git://git.kernel.org/pub/scm/virt/kvm/kvm.git
+01242b36eaa019353458c42e912b1a57002a1759 Merge branch 'next' of https://github.com/kvm-x86/linux.git
+b79c4f87847e36759e64e2592fecf17d54e38957 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu.git
+8a2bf51e0fead0906b06907cd6ed1b72bd6e2fdf Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq.git
+d0ba665d37dda73e2ee8339dfad24bb9cc8521f6 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext.git
+1a0f3e00961c51edab2d8060b06b1f227a7250ca Merge branch 'driver-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
+be299af10d38ef081c1573effef073e19339b2fc Merge branch 'usb-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+f41088c39dc8ddce45e770f8e5f540be28fa978b Merge branch 'tty-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+b50c8d73f1879010365dbd3ac9437c7a58b58bf3 Merge branch 'char-misc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
+51c655a955fa428f1cbd2be2ce54aa12ddba9f3f Merge branch 'togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+dececbd84d80f3ed040881816548ffcf8af75fe3 Merge branch 'staging-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+f991a43595d00ac20d8ccbd9d9f3d9e3eb0f70fc Merge branch 'counter-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
+57310039258879a652cc9c9cf7bd0ab0d343c2ae Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup.git
+02c556ae39458e954adefc2e58a19857a30d0257 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi.git
+741f31aa57e36bba7cfc9bc5c805a1dd0846b9d3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
+fcff288a8e7946c88eef1e845740fad73cc9f766 Merge branch 'linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost.git
+d17f0a8d46cd5b3175457fe3351c49ce3fdf8332 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux.git
+3ee3ef5ab7e58fed015841510814a7560e780bc6 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl.git
+a39e77fd864638ddae7e905c37488aec953f0225 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+79d3e9cfbda109c79c603840babc0e7ad099e766 Merge branch 'rtc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
+2a178605178fa647a557cf6db86fc283dca60b33 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/fsi.git
+e040f55307889f5b22f2cc0377540b36ea73190e Merge branch 'main' of git://git.infradead.org/users/willy/xarray.git
+facf941f3247d8b0bc25231a55e2d66ae6b26efd Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git
+a92bd6cb1d2a319fa2ad8eb916fde230b48da51d Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
+fd3e6369fa78faac157c89d85458f19b76f592ee Merge branch 'zstd-next' of https://github.com/terrelln/linux.git
+eb083d73899731c62bec5fc20f45f998c71d7279 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
+a54fac849e62fa74ac436f8ede54b26c381a46b5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krisman/unicode.git
+7226f3f40e8f47345fbe1e3c605d43214c6ba094 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random.git
+2597c464152a44fb70e6041b5c3c1bdc9fe26789 Merge branch 'rust-next' of https://github.com/Rust-for-Linux/linux.git
+617956276ea76c5107b190f36040e541eb07366e Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
+dbf5d6a8406631b9263023f7c4b6c703e79f50b1 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
+3f249b536b26f9117e666ab8cfa7771878376600 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux.git
+2b7275670032a98cba266bd1b8905f755b3e650f Add linux-next specific files for 20240925
 
---===============2693878181914449223==
+--===============0316671522331869093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aade5b961590-a158655cd1e1.txt
+Content-Disposition: attachment; filename=revlist-abf2050f51fd-68e5c7d4cefb.txt
 
-42bc96ed51bae744f92fbfe11e192722492bc9e3 debian: Update debhelper-compat level
-de904e4d0cdd5583e3b5c163b3206650ae5865c2 debian: Update public release key
-f8ea7f20ea5495becc96acab00975833a2b88d94 debian: Prevent recreating the orig tarball
-832eff99c8e901416281166e2d94e70e164e7405 debian: Add Build-Depends on pkg with systemd.pc
-ecde7a62cf408e427b108ec0cc2b7fa64c7057cf debian: Modernize build script
-6bd4eb893d95b0c589be1b700cfaeebb1f7c5c7e debian: Correct the day-of-week on 2024-09-04
-9def30e158528bde4fffcf0b7a2519451daa3fa5 misc: clean up code around attr_list_by_handle calls
-c8b7579ab3c875070d1a1e099426c51dbcf67002 libfrog: emulate deprecated attrlist functionality in libattr
-807f24bfd69850e02ffd55346183a1c109e19ef9 xfs: avoid redundant AGFL buffer invalidation
-570d093e8d9fa584359055106721d344e6c23ac0 xfs: don't walk off the end of a directory data block
-60b51f9b94565f46acf701d4efe3b94c7d09e296 xfs: Remove header files which are included more than once
-113f27bd3caa76376f78547f912e8d83e28d1583 xfs: hoist extent size helpers to libxfs
-f59cb954d02cdb49c4ba753f8fdf771612a6c8d7 xfs: hoist inode flag conversion functions to libxfs
-7dde59bf4178617302aa9d9c6ba8421d54b07e44 xfs: hoist project id get/set functions to libxfs
-99c454bd97a4f9e6f25526b7fe0e15581d44c788 libxfs: put all the inode functions in a single file
-616f2724ac65b3067b74eb8bc0b006568ab45736 libxfs: pass IGET flags through to xfs_iread
-8885e1fe1c3e34161928191c78077382f38e0bd3 xfs: pack icreate initialization parameters into a separate structure
-5d5feff42f30520de5460700f0a2a1ada3d51dec libxfs: pack icreate initialization parameters into a separate structure
-63d6c0d8506dd534be89a3f9dd4bb885740283df xfs: implement atime updates in xfs_trans_ichgtime
-a55a931259ec91aa037d8d487859e6bcd82ae479 libxfs: rearrange libxfs_trans_ichgtime call when creating inodes
-f6b252ad03a02c99762a03e2bae61a4cfd2521cc libxfs: set access time when creating files
-e3bb73083e1f258bf2e9cf266e9a2bea262c54ae libxfs: when creating a file in a directory, set the project id based on the parent
-3d4a9e30565a85006686709a752472f36e24b2c2 libxfs: pass flags2 from parent to child when creating files
-cdad46174db23dae831c984a82a26446fcfbcb74 xfs: split new inode creation into two pieces
-df2abb40e5fc71c8bb193cc8ad9bb3dd2e284a4d libxfs: split new inode creation into two pieces
-39a3126948a419e627fa1cfd6b314b1710c517de libxfs: backport inode init code from the kernel
-dabfa16570f9e884b61b88a5595aa6bba2d611be libxfs: remove libxfs_dir_ialloc
-856e36d1dda36442d27d5aaaa43fd677614e41f5 libxfs: implement get_random_u32
-c02cfb445487a5d318c758c2d7cb9fdfc0e1af98 xfs: hoist new inode initialization functions to libxfs
-1cff684b625f299c604a6c0bae086d8a090bfb3f xfs: hoist xfs_iunlink to libxfs
-d439982fe20300e9b7656afb8d2084c321bfec3b xfs: hoist xfs_{bump,drop}link to libxfs
-01fb2f458f36d19f12f9561f43cdd28dd8eb165a xfs: separate the icreate logic around INIT_XATTRS
-25ec838ccc781647c8a248931dcbf3c1597224bd xfs: create libxfs helper to link a new inode into a directory
-82ac12224b127cec37b07d816103619401c7f449 xfs: create libxfs helper to link an existing inode into a directory
-ed25dca9c91fbfb333f43a41f2f7a8c1f21a6250 xfs: hoist inode free function to libxfs
-64c5edfc15b7af3b2ce413eb789d226f057dc9cc xfs: create libxfs helper to remove an existing inode/name from a directory
-8a3cf667588463bc41c2d3b0c016f4db0c2ad835 xfs: create libxfs helper to exchange two directory entries
-735d2410ad9d2001131dca0508afaf4559ef6b11 xfs: create libxfs helper to rename two directory entries
-04c2120c88ddd18290ba148d757bfdc02aa2c704 xfs: move dirent update hooks to xfs_dir2.c
-19b5612db71a3579e51bad2e637eebed887a7b25 xfs: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-693dea6596c502feb4a5b95b4ad1d40dc6e69288 xfs: clean up extent free log intent item tracepoint callsites
-b41f65ae7b48e35b2a80a755f778dd437f55a52c xfs: convert "skip_discard" to a proper flags bitset
-7926a382b26bc932499a1d358929b189195e779e xfs: pass the fsbno to xfs_perag_intent_get
-35ef3d93c5a72c6c5a130008c8fc1ff081c5828c xfs: add a xefi_entry helper
-1c07e18cdbdcf22b1fd15376e198d66bbe459001 xfs: reuse xfs_extent_free_cancel_item
-a73201dc5be78fda719b8d1a31079f448a1e3761 xfs: remove duplicate asserts in xfs_defer_extent_free
-5bb31ad9a67dc44db2cae99cb8633965c6bc2786 xfs: remove xfs_defer_agfl_block
-d16032909f3451de2c0e7954ad1ed93b3074746d xfs: move xfs_extent_free_defer_add to xfs_extfree_item.c
-f55acbe4500a1da3deb3205a5a68c0d8c0bd032b xfs: give rmap btree cursor error tracepoints their own class
-63ae59f60f1d50e0981b3ab08c9b682e6fa3a913 xfs: pass btree cursors to rmap btree tracepoints
-3c5c972ec3e11efff1f11b5567a798e69355f6f9 xfs: clean up rmap log intent item tracepoint callsites
-2f4553e729b4b1c3bbbe847dbb0f265eceec5be6 xfs: add a ri_entry helper
-6142c22f09dcdcad1697333a9bd4cc1f50db56e8 xfs: reuse xfs_rmap_update_cancel_item
-90387f060d58f0adfc1ab094267d5d7c48f36f02 xfs: don't bother calling xfs_rmap_finish_one_cleanup in xfs_rmap_finish_one
-077e4f551f514d392afb8b244414f3186da2fbe0 xfs: simplify usage of the rcur local variable in xfs_rmap_finish_one
-90102543d4ff951bba8b8dc72adabb1ac53571c7 xfs: move xfs_rmap_update_defer_add to xfs_rmap_item.c
-09d68e76f4b513d01e0a65136f96089db8c420b0 xfs: give refcount btree cursor error tracepoints their own class
-4049e24dcf76c69aec21d9aede16cb66ec2308ee xfs: create specialized classes for refcount tracepoints
-00e2f69681735d05a491bc3e005a9aae25bf9602 xfs: pass btree cursors to refcount btree tracepoints
-fc9eb1fa3e88de4e1b10f96eef05d2039524e133 xfs: clean up refcount log intent item tracepoint callsites
-8fac9cba8c58f020ca592fd78969283ebfb34426 xfs: add a ci_entry helper
-0d2af3351e240758d3559656228fa8a340689470 xfs: reuse xfs_refcount_update_cancel_item
-f398c84528e22f8e94a0debc45a9fe54326cc5b1 xfs: don't bother calling xfs_refcount_finish_one_cleanup in xfs_refcount_finish_one
-1c7214f707a651942fa281df9fc79cc2270828a6 xfs: simplify usage of the rcur local variable in xfs_refcount_finish_one
-ce1292165d16b2bc32ca407606e113e806be1c32 xfs: move xfs_refcount_update_defer_add to xfs_refcount_item.c
-4bc07caf9ab093815b0c805ba518b2110bdda756 xfs: Avoid races with cnt_btree lastrec updates
-3d1aecee11cc214a21e043cb73541feffe2b6147 xfs: AIL doesn't need manual pushing
-ec3f99d7e1d672053078b5fd10a0a0aa660572d3 xfs: background AIL push should target physical space
-420c963fd15a60907920b8f2db7cc227806f0cb6 xfs: get rid of xfs_ag_resv_rmapbt_alloc
-8e1cdb777979e18debecd47b4dd64d1248da068f xfs: remove unused parameter in macro XFS_DQUOT_LOGRES
-df1e138493f32cc05ca38caa90db13ac5b607bd7 xfs: fix di_onlink checking for V1/V2 inodes
-c174805fbb2bb3113bd1fc35d5150bee03699a8e xfs: xfs_finobt_count_blocks() walks the wrong btree
-421a97a3bd72858f80764da24225ca4f3370c4cd xfs_db: port the unlink command to use libxfs_droplink
-274a9fcab7ad864294a80089665f32de58157842 xfs_db/mkfs/xfs_repair: port to use XFS_ICREATE_UNLINKABLE
-aef1b9e0f6eae174d3420dfbf4b813a1e259b8ca xfs_db/mdrestore/repair: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-9771815f0a5c8d40999646820c30e2424cdb5982 xfs_db: port the iunlink command to use the libxfs iunlink function
-4545833b225170c541388f05efc9968f9fddc73e xfs_repair: don't crash in get_inode_parent
-f8c94c98b3668a749e95a71782c271958775b955 xfs_repair: use library functions to reset root/rbm/rsum inodes
-6bd75df38cd230280f9530846e41a220ebf8b1cd xfs_repair: use library functions for orphanage creation
-50f707cf2334e580498d14a49b5f2f175bfd4c42 mkfs: clean up the rtinit() function
-fa686326f8ad7d7b9039b85c676aee3f00ccb49d mkfs: break up the rest of the rtinit() function
-e119874f6c329258ab8c155b3561813699a7f83c xfs: introduce new file range commit ioctls
-b4c58b766b5d22466218d2b5d6c321c89effc9d7 man: document file range commit ioctls
-e3c214ffd1d064d893f46924fc66007ca9236e70 libfrog: add support for commit range ioctl family
-fa4f3a156e0957dcb84926edb5f535628a3277fa libxfs: remove unused xfs_inode fields
-5b0ec5e6cba5d9a0f7fa997ee6db22ea76001535 xfs_fsr: port to new file exchange library function
-b97908182b56feceac21f64585536417879e039b xfs_io: add a commitrange option to the exchangerange command
-2b3850c56d3f5aaa5493bbad3c52fe9d6b3d997e xfs_io: add atomic file update commands to exercise file commit range
-9a2f2a16df05716ef32ebe3a8e6fdebf20ec4441 xfs: validate inumber in xfs_iget
-9ddd55e375f4beb4b0de2f822938466cd3c5fe44 xfs: pass the icreate args object to xfs_dialloc
-a9f24ab0dd369019b1b2c8a5b538dff46a1b7f68 xfs_db: support passing the realtime device to the debugger
-dcac23e2d52f4c5e5b437dfbfb8d490d67d18d1c xfs_db: report the realtime device when associated with each io cursor
-7cd2cea1473da9fd6d55aaef1a16a54a285d597e xfs_db: make the daddr command target the realtime device
-3f7a9e9eaf5f5fa2ce6d52f10b9601e809c66dab xfs_db: access realtime file blocks
-9b97834be5eee9816dcb0ee13a3a7ec253ef29a5 xfs_db: access arbitrary realtime blocks and extents
-e7cf222422b35f5e39bda8dc129467db922a2357 xfs_db: enable conversion of rt space units
-7965cc859e39994141ed192e38957f524961aa63 xfs_db: convert rtbitmap geometry
-9a1e7c53af12e1a99afa56dae52d2391454adacb xfs_db: convert rtsummary geometry
-2e655369857e1681eb763796e8fb2f185e5887fc xfs_db: allow setting current address to log blocks
-c46d5af3bfc9e935d41c8c7467302309edcc598c xfs: remove xfs_validate_rtextents
-842474ab8bec346b5694a385233215ab31a468d5 xfs: factor out a xfs_validate_rt_geometry helper
-7a1b28a3659000b81372be47d0d33f3b83c8e89c xfs: remove the limit argument to xfs_rtfind_back
-298858698209cc5be0a15b674c786500bc64420e xfs: assert a valid limit in xfs_rtfind_forw
-9b6309ca26ecaf00a5623825b658eda1d77a18bc xfs: add bounds checking to xfs_rt{bitmap,summary}_read_buf
-09567ce9f1a5f0ad452ec3249fd7eeadf4fe313c xfs: factor out rtbitmap/summary initialization helpers
-a40c6c450f67fb19e77207e490faa71c253893e4 xfs: push transaction join out of xfs_rtbitmap_lock and xfs_rtgroup_lock
-dd2fa91e178484e7adf0ba38bcd3de32c95ac2dd xfs_repair: checking rt free space metadata must happen during phase 4
-854ef92fe6682021024e9fe00f8376294833421c xfs_repair: use xfs_validate_rt_geometry
-24f5c380cdf9e5ddb99520a4d62ddfac20c3ead5 mkfs: remove a pointless rtfreesp_init forward declaration
-dd18b468b48213dd8ff3c5aab319197a333518c8 mkfs: use xfs_rtfile_initialize_blocks
-94cd65c3cfa65ab05af9210dc36df9e1ae209ddd xfs_repair: use libxfs_rtfile_initialize_blocks
-9ddfd54976e83a59722609962a54542d3a57e5af xfs_repair: stop preallocating blocks in mk_rbmino and mk_rsumino
-ee4deac29a053be36e78bf387084e41c92a0271e xfs_repair: stop using libxfs_rt{bitmap,summary}_wordcount
-aac81c55aa2cc3afe17fd9c41ec56e6553f54acc xfs_db: stop using libxfs_rtsummary_wordcount
-e61b8089c51812bb47489d84b23aa34dcf7578ae xfs: ensure rtx mask/shift are correct after growfs
-4685b06adc582d1d5aec1f2fa29c86cfb6881317 xfs: remove xfs_rtb_to_rtxrem
-50dcbd821f246abee9ad32ac361abba4aaa34b93 xfs: simplify xfs_rtalloc_query_range
-f685c873df3ac00907d89d3c05566348366d9574 xfs: clean up the ISVALID macro in xfs_bmap_adjacent
-e5136580a63fdbcfbd11031903a9cc5a225ad919 xfs: remove xfs_{rtbitmap,rtsummary}_wordcount
-bbdb1aed58ca6b5bae575fd555ded2c6588747ff xfs: replace m_rsumsize with m_rsumblocks
-bdca4fe74f9cb9dae7ff6315261af0dfc2f62bac fixup
-78f29e4fb44e70bd38fc4321638e69df8e8205f9 libxfs: require -std=gnu11 for compilation by default
-9cbb437f990a48dc55dc07ddc1a2e1954eb08638 libxfs: compile with a C++ compiler
-abbf662d4ea7136c3d76a0e3ba526cd4d0564b3f xfs: fix a sloppy memory handling bug in xfs_iroot_realloc
-4abc2c18d5780d5a162e2c7a2c570234a8b54679 xfs: replace shouty XFS_BM{BT,DR} macros
-64219e30a9cc4b22076f1cd0fc809b328c847f74 xfs: standardize the btree maxrecs function parameters
-ae6364e498abc2c9f927d2a9e0e86fa1329f4a9b xfs: remove unnecessary check
-fdc7f57afcf221091328069efcc5d4b5b4957649 xfs: use kfree_rcu_mightsleep to free the perag structures
-f18a2e013d4e86342f9e96726958865716524f34 fixes
-ea20d3a9675d2dbb4ddb4ab91d4775aef3d7fbe9 xfs: move the tagged perag lookup helpers to xfs_icache.c
-e00d90182a1eb590cf9870ccc84a1ea499dc8d34 libfrog: add xarray emulation
-27372f38c94d419d34f57d75a660bfa2e0b46578 xfs: convert perag lookup to xarray
-3e3bf5229f88f911ec2dd8df40308ba5639f62cd xfs: ensure st_blocks never goes to zero during COW writes
-217a6410ac1aa2e25fc77f99381e0b9065a9919b xfs: pass the exact range to initialize to xfs_initialize_perag
-6952e2afe3362880111fd314d5c1e316d17ee5eb xfs: merge the perag freeing helpers
-bbb062d1a550f4be843ed54edcc54c4bd69baa65 xfs: don't use __GFP_RETRY_MAYFAIL in xfs_initialize_perag
-a355ca4a00e658aa12bebf5cf9f8d5571741dad7 xfs: remove the unused pagb_count field in struct xfs_perag
-302c1782a2007a5a913e8317c5ddfcbd598a31a7 xfs: remove the unused pag_active_wq field in struct xfs_perag
-36fb1cc6f2901ada850340bb506d1bbcbe7e306d xfs: pass a pag to xfs_difree_inode_chunk
-6c18a57631a934d39d666a5f304cecdfbde8d41a xfs: remove the agno argument to xfs_free_ag_extent
-28ea6f6a40a00070461f177853366e5b5b3af3b4 xfs: add xfs_agbno_to_fsb and xfs_agbno_to_daddr helpers
-a75dc97c784ddf0c1040749f7e926e0eb7ce389c xfs: add a xfs_agino_to_ino helper
-27af413af3539fb87dc296b5e7d6db587281ce6c xfs: pass a pag to xfs_extent_busy_{search,reuse}
-eb0f355e5cbb702e70ace8cee3af71579d9bcae3 xfs: pass a perag structure to the xfs_ag_resv_init_error trace point
-9a395d5bb78f821cbd30f760b60a849c409f3585 xfs: pass objects to the xfs_irec_merge_{pre,post} trace points
-b0d2e007e20dbd4d79ddd5a120694d92875b1bc0 xfs: convert remaining trace points to pass pag structures
-ec89f82de70c713f8bf43b45356a8690aff2bd54 xfs: split xfs_initialize_perag
-2360c6a3db9caace2efe1b4f43c46688b43bbd3c xfs: insert the pag structures into the xarray later
-79d2bda1aba681f02f28a3288151499ddea948ea Subject: [PATCH] xfs: factor out a generic xfs_group structure
-9750d536bbe661d15f5e319d3f75c07c2ac9073d Subject: [PATCH] fixup
-3ba5f20e7881e1f6684e94fd089ac066164eb8e7 Subject: [PATCH] xfs: add a xfs_group_next_range helper
-dfa302957308d6790aeef2a702b3b88733f26bb5 Subject: [PATCH] xfs: switch perag iteration from the for_each macros to a while based iterator
-2213087376af99273a426bcc5e0670ed52d81919 Subject: [PATCH] fixups
-2c6a5cbe06751267276b6f203df42f947f204e65 Subject: [PATCH] xfs: move metadata health tracking to the generic group structure
-a0966799597ed27a61d7faccfc03a65308323e5c Subject: [PATCH] fixups
-178f8037261f23f938d57bb4ac6a138425927db7 Subject: [PATCH] xfs: move draining of deferred operations to the generic group structure
-3eef173556cf20de7b959fef65328a2969e85d4c Subject: [PATCH] xfs: move the online repair rmap hooks to the generic group structure
-da1b5e0baad20e098d20cb4b3068f26f16426819 Subject: [PATCH] xfs: convert busy extent tracking to the generic group structure
-751edbdecee7738ca8349110becad5b18b5d9ce7 Subject: [PATCH] fixups
-8ba62b98677f939213fe5544a89fc952373ea678 Subject: [PATCH] xfs: add a generic group pointer to the btree cursor
-8872aaad2a83674e21b8cf75651e94a0b702bc7a Subject: [PATCH] fixups
-11158f208a70679814d955b188783153d9b84a8f Subject: [PATCH] xfs: add group based bno conversion helpers
-24ce355e28db098f8a4ed16434b6d5fd838b0596 Subject: [PATCH] xfs: store a generic group structure in the intents
-f73361c75806d3553a441218b94af8f53238a5bf fixups
-3707ed982830691dca5e5b01733ce676ac71cfa9 xfs_repair: allow sysadmins to add free inode btree indexes
-6ed0903b78e63ec4e5fb3cf1ab3b6c0311975c30 xfs_repair: allow sysadmins to add reflink
-c8e995ce98361340c9c8b8ccbafd22a34f732ab8 xfs_repair: allow sysadmins to add reverse mapping indexes
-32534f614c8e08c73f0028bdc7c9cf7cee35e900 xfs_repair: upgrade an existing filesystem to have parent pointers
-1d565d7b98599cdc7cc65c73620130ba6f151ab0 xfs: define the on-disk format for the metadir feature
-49c872e881f708b3ca1ba351da944cdcf5a7dae0 xfs: iget for metadata inodes
-96d29d7b980e22718999924b4825971000155f7b xfs: load metadata directory root at mount time
-666adc2d790a74be8e028f021cf0750a8a4e3a1f xfs: enforce metadata inode flag
-90f9aa58143bf197d8681a82f24a3dffd13a5b0f xfs: read and write metadata inode directory tree
-539bfbaecb515dba135f459b7e1bbc6bc19c6b99 xfs: disable the agi rotor for metadata inodes
-32e6c8997854186e60d7bd53acf011b358b56c88 xfs: advertise metadata directory feature
-3e26d49625f13bc4fb40fad4deb4c9933e4b42a5 xfs: allow bulkstat to return metadata directories
-a59f9d76eb16430b8d1e75e5f68eb526d4688e01 xfs: adjust xfs_bmap_add_attrfork for metadir
-ec4a81b9cef1ee4268b4a613059ce51332da750b xfs: record health problems with the metadata directory
-4638aa5ff35c89b716ee0926c19d53140bf7692e xfs: check metadata directory file path connectivity
-b2240e6ab9022049cd28d72b2555e1709f40925d libfrog: report metadata directories in the geometry report
-371652987784cf549cdcd31ca8af3e9b7e99f9e2 libfrog: allow METADIR in xfrog_bulkstat_single5
-53cb4d66f6e4d9855718359b7c5f93e4fc97e8eb xfs_io: support scrubbing metadata directory paths
-a3cb14becc63abd7b0da79788226732b1e0889db xfs_db: disable xfs_check when metadir is enabled
-79a1c9ae9a78dbe78e4f1715c6345dfbae095362 xfs_db: report metadir support for version command
-9446550082d301d1f807c42fd615ad5a0d73b6f4 xfs_db: don't obfuscate metadata directories and attributes
-2dcaeb94b395842f9b81efe2530dae413a640469 xfs_db: support metadata directories in the path command
-90c20e264b3b3a73a8e32a24f0019deb15207ca5 xfs_db: show the metadata root directory when dumping superblocks
-46171bfa7dc26ef049be4fa2386d6540e9ab319d xfs_db: display di_metatype
-22a51571ae69267b8caab769fc389aacd74d76e2 xfs_io: support the bulkstat metadata directory flag
-3bc80a39eb27d86fac9bc1bae6e6d7085a50d35a xfs_io: support scrubbing metadata directory paths
-040d407e9236c8f66e76966700a5886b77d9ac85 xfs_spaceman: report health of metadir inodes too
-847b0fd98776fd7bdde652f31113a72182cce86f xfs_scrub: tread zero-length read verify as an IO error
-d289039c6228e3730bb9a5255743e40e5a6109be xfs_scrub: scan metadata directories during phase 3
-acd7493740519e2d390eb33cbcff221458f7024b xfs_scrub: re-run metafile scrubbers during phase 5
-6af2dc75175f9bf53c7b51d3db93419d8624ebba xfs_repair: preserve the metadirino field when zeroing supers
-0b5bd6bdd70da77726371142ad86035400c76a18 xfs_repair: dont check metadata directory dirent inumbers
-765092638759d88a292cc287dd2232241c610a79 xfs_repair: refactor fixing dotdot
-6bdfd36f38673a0287adb1c8085f63db345e072d xfs_repair: refactor marking of metadata inodes
-50ddc314fbc157f201752c67ba6bde818df7f49d xfs_repair: refactor root directory initialization
-7923566a8d1b030048d34f8f70942634c82db396 xfs_repair: refactor grabbing realtime metadata inodes
-ee3996e23bcbf42265425f6f4e8346245bcecff4 xfs_repair: check metadata inode flag
-86989321643a54bb2222b866ab1e51f074863f5c xfs_repair: use libxfs_metafile_iget for quota/rt inodes
-fcbb464a350ce34d489b19688a3db6cef183272f xfs_repair: rebuild the metadata directory
-c30a505193b3b1a00b17e66a8f88729d5c956aa6 xfs_repair: don't let metadata and regular files mix
-34756a6b09717c73bdfff1b1f09bf5881b5a7cf6 xfs_repair: update incore metadata state whenever we create new files
-fc869d92037eb00bbd469917058ab38e801e90fe xfs_repair: pass private data pointer to scan_lbtree
-e578778eaba8f3d8073d67af0dd8565fe90265e0 xfs_repair: mark space used by metadata files
-53f9dca3f87fe04428918c907f7624d46bb57eaa xfs_repair: adjust keep_fsinos to handle metadata directories
-fc0577ee6a0d58d2f88c34c5c59a34e6574c8f83 xfs_repair: metadata dirs are never plausible root dirs
-ecd66bd8335396bbb1d7a076f03eae40cf051ce1 xfs_repair: drop all the metadata directory files during pass 4
-b3c3b81b086ff410c8a36fc28ef4b96c93906032 xfs_repair: truncate and unmark orphaned metadata inodes
-d6194d5108c4168b22c269780b06c19e2f8f8a89 xfs_repair: do not count metadata directory files when doing quotacheck
-956397c97f7a957b3a7a01a63982e2e781003c7d xfs_repair: fix maximum file offset comparison
-e70be0d52121ddaf1f7a290a3d9a30d49116e9ae xfs_repair: allow sysadmins to add metadata directories
-c40559530ed548924c84a66b979abbc1b322525a mkfs.xfs: enable metadata directories
-e1db5557deed282e267d6d9ee72cb2826cc02bdf mkfs: add a utility to generate protofiles
-e420b3ab78c28b3127dad98d0cf68a0797dac45f xfs_repair: refactor generate_rtinfo
-65bad5f928d057acc4b64750f339885fb23cc691 xfs: create incore realtime group structures
-e166fbf471885b272a23baaf3d3aacbbe731a2d3 fixups
-23f3a4beaaf4a95dfed81f7ae05d85caec054e26 xfs: define locking primitives for realtime groups
-b461957819e0ce71fafef2734608aea079edb74d xfs: add a lockdep class key for rtgroup inodes
-6868992d8698f843d316ba851e3f39bad6ed4451 xfs: support caching rtgroup metadata inodes
-4df60299fb0f7178fe08cdf59dac57d813d23793 fixup
-7b44a4f5cf9988e92235a3a5683b138e8886fb80 xfs: move RT bitmap and summary information to the rtgroup
-a16ed693868f5f5b8e926e12709aa5e4f39cdac5 fixup
-199745599c35dae3eaed3d379e432c21484632c4 xfs: remove XFS_ILOCK_RT*
-86cecd20b60a07151b3aa3864cfc06a40e85ade5 xfs: refactor xfs_rtbitmap_blockcount
-59889a4709cc78ddfeb8ba2baebf7c04f4f75a05 xfs: refactor xfs_rtsummary_blockcount
-7f6a5cf678d158f045005072458adc94fa55a551 fixup
-b2c3e429a479aa0887c5a4eef06122328419ed20 xfs: make RT extent numbers relative to the rtgroup
-d849c6740759c90faad3727f8d47e43e9884fd89 fixup
-b0bbe9e570dba46b1b198a9d2f14722b25e24e5d libfrog: add memchr_inv
-eb4fbfa9604dcfe4dda6a90ae1cfc55f41167e24 xfs: define the format of rt groups
-ae280821023b3db71ae9609af5d21871fd27a3f6 fixup
-bde86de9043eb6ad1d42676e7605c8f0602f6a60 xfs: update realtime super every time we update the primary fs super
-8fdf00613fe754a81f0ae7ef7c23adff8d92fe46 fixup
-9517077142d4ec7f7d70da704050a1bc3dc0ad85 xfs: export realtime group geometry via XFS_FSOP_GEOM
-f73daf1838f31ff8cc7b7ee4c137667b1e8bd249 xfs: check that rtblock extents do not break rtsupers or rtgroups
-49458d5fe49bc3e7a83e683fec659d332a5e39d7 xfs: add a helper to prevent bmap merges across rtgroup boundaries
-43e35f13617191e37da45dc979cd9dcc2232fb39 xfs: add frextents to the lazysbcounters when rtgroups enabled
-5691006aba604b2f8d46ac3fe728fda24e322f41 fixup
-70beaf04cff562ec7c76dae114739884400de99d xfs: record rt group metadata errors in the health system
-de5d3babb9a7b06ed580f76088ad061aea96f6d6 fixup
-e7023cf45974b121c8642aa43e10f17c385e5f41 xfs: export the geometry of realtime groups to userspace
-f5c3cbe34b38b1f8b6af1b9ed99fd8f81cd94ac4 fixup
-80dff796ba4efaafe4c64f6d8c529f4416aec4a0 xfs: add block headers to realtime bitmap and summary blocks
-28d899f5f9195a74705e8700dc3eff22cf4ca311 fixup
-ef3fc5527f6b952c98ad37211052f4a9647688b2 xfs: encode the rtbitmap in big endian format
-6c1ed0062015e787a9208b752fe0b620c5186f2d fixup
-adb9a446bc141962c6db74603a5b8ec94b5ace06 xfs: encode the rtsummary in big endian format
-1e0af177ec6a3fd41cdcb0ea60416fd2c457bc0f fixup
-cac3bdc81035140a7a972ca9589825b99bde3620 xfs: grow the realtime section when realtime groups are enabled
-2997fa51c079ea01ffaf02b6c19fd75a017a7e00 fixup
-621f507fe709301a6bbd8101b7e0cc8af4e454c5 xfs: support logging EFIs for realtime extents
-c80dd8b33f24362bb3c3b0aa0f4a4f92a45848fa fixup
-e9b062f9c071ca9f3bdd44af4b21121ab98134ff xfs: support error injection when freeing rt extents
-2dd0164af3bf7933101946adecc6eb6d575af2bd xfs: use realtime EFI to free extents when rtgroups are enabled
-fa48b147b7f94f9f552828d4c60f8c498cdd775f xfs: make the RT allocator rtgroup aware
-4485a052acc37fce505a9549b417649f18d1f4a7 xfs_logprint: report realtime EFIs
-8df6bd91c28caae21d0dbb44c9d44f591ef055a9 xfs: scrub the realtime group superblock
-a59d57f72c91e3140d1276872b37d0123ce776b8 xfs: scrub metadir paths for rtgroup metadata
-bb208c7bfc78b3b17e6fa9992fbe4c17a62df168 xfs: mask off the rtbitmap and summary inodes when metadir in use
-9d6c1f058e1a54f2f53e4a2e2079d15ab6a25771 libxfs: implement some sanity checking for enormous rgcount
-da47f3afb34477ad333b391fedd91df567ae8a0d libfrog: support scrubbing rtgroup metadata paths
-9d67218f98a0a56c185ab814807edd5134cd915e libfrog: report rt groups in output
-3588bb591823211143aaf0a638e367bb1018594d libfrog: add bitmap_clear
-314559ef4d3a05563dc006c45f8c9d14e17e0fc9 xfs_repair: refactor phase4
-436b2b2b258feb96004a39c2bbc82452f880e5d8 xfs_repair: refactor offsetof+sizeof to offsetofend
-d894f6f45c185becd1c1599f8fcb0fbd5b371940 xfs_repair: improve rtbitmap discrepancy reporting
-915c2a0335e6e74a055dcaa8ea09c175402588af xfs_repair: simplify rt_lock handling
-6ef6b977e5d82628762377941207aa9e6a49c9ac xfs_repair: add a real per-AG bitmap abstraction
-9a671a9d3a2637e03bb346f2f6f79c9e6e6455e0 xfs_repair: support realtime groups
-e28d6e726056a4400bcc85cf25c1c1d0b2f0150b repair: use a separate bmaps array for real time groups
-e7ad6ca808b0d028d747f5992582e736a2145fda xfs_repair: find and clobber rtgroup bitmap and summary files
-ffc2ac396b6b6a85a1fa6d19c1661e3b25343e58 xfs_repair: support realtime superblocks
-966bd174bd66dac958c9ad38b8b533acb387795a xfs_repair: repair rtbitmap and rtsummary block headers
-e9cbe1afec89c75e1fa797e104f2fe3732c2ba0d xfs_repair: stop tracking duplicate RT extents with rtgroups
-3caabe159861753b080d0ceccfba76a79175fdf3 xfs_db: listify the definition of enum typnm
-cbc257d695587291e9e46ac5e80704c54e96a3c0 xfs_db: support dumping realtime superblocks
-ba2e2483cf1083797ca50c304f5ce6ce067f2104 xfs_db: support changing the label and uuid of rt superblocks
-6009ea9955e8bed262c7a84e132a69e74cabd6ef xfs_db: enable conversion of rt space units
-955e1489edbefd32997b05ac3ac73593598dfe0a xfs_db: metadump metadir rt bitmap and summary files
-8a748034fcea8376fe839214c0f9697b54d750ed xfs_db: metadump realtime devices
-02dcdeab3fc353637a6cfaf906f0849563646958 xfs_db: hoist bit scraping function
-323e911aac2d88135b561af8f4733d5bc33c2572 xfs_db: dump rt bitmap blocks
-198d4be35cd816ab667311934c223397d13e1958 xfs_db: dump rt summary blocks
-85be6dd6fc8b9382a97f61e4bebba5ab18012f7b xfs_mdrestore: restore rt group superblocks to realtime device
-df835db93085170e549fca20d23f2369e6021b02 xfs_io: support scrubbing rtgroup metadata
-f55e31d2f367c2258c6d0a05146089f02d2eaaeb xfs_io: support scrubbing rtgroup metadata paths
-cbd2f61bf5db60f5cdaa7542a7ead6f6614ddd0a xfs_io: add a command to display allocation group information
-f9cc5e6ff859463da4f7785a768ad4be5139220a xfs_io: add a command to display realtime group information
-534449eb4639717dcb13339f8e92c572d9f8532e xfs_io: display rt group in verbose bmap output
-46487a04804afdcfdc46e35990a3175c3b11ef82 xfs_io: display rt group in verbose fsmap output
-099ff791bb220b0f3065fcdcca255c3521e0bd19 xfs_spaceman: report on realtime group health
-fcf8ee1731cca10bfac8c8b9de52c6327156edc9 xfs_scrub: scrub realtime allocation group metadata
-d9a8d3f5f394d7f624346e8b9eb81be0a5a5bdcc xfs_scrub: check rtgroup metadata directory connections
-5de32e256b71b020bed213cb7d23af3bb9f7b1bc xfs_scrub: call GETFSMAP for each rt group in parallel
-a3f65dd6d1d810ac98a0a04197d078284ecc8d29 xfs_scrub: trim realtime volumes too
-e01596705205055bb6a94b2d05834323e2e44cc8 xfs_scrub: use histograms to speed up phase 8 on the realtime volume
-ab54c66459e93f2275a0142e41590b952e2ee400 mkfs: add headers to realtime bitmap blocks
-f9b2358c28231976031a826674911721a868d898 xfs: use metadir for quota inodes
-dcbe4c870953b874419bf9614a6d06a5c4adc704 xfs: scrub quota file metapaths
-6b74903167e4120851a686a3cdca1fcac028840d libfrog: scrub quota file metapaths
-5f02b1e3a1a20255dacf13a94baa04f1021c0017 xfs_db: support metadir quotas
-f69d97f3e3686e05edb50ade6898409eec1480d6 xfs_repair: refactor quota inumber handling
-c21a502403a0e134d619654d4a082f8a38396036 xfs_repair: hoist the secondary sb qflags handling
-a249fe34802cfbf5b47f33972d2fb4a4586c7029 xfs_repair: support quota inodes in the metadata directory
-22ad33a219fdbfd9fc06f1a538545fbdbae2a0a6 xfs_repair: try not to trash qflags on metadir filesystems
-68c4d7545c9e705a065268f30bd3739eec3ed8ab mkfs: format realtime groups
-267c07e4ca2e9afd8a1c38bbe5fecbf3d673bf5d mkfs: add quota flags when setting up filesystem
-edc3a66012e4180a59018533e3ac831c1f7b8bfa xfs: enable metadata directory feature
-a0d8cc32604c38b86e45f13b95a6bb0ca49315ab xfs: tidy up xfs_iroot_realloc
-c84b7c7fa0918bfc0bfc0bee1e65a1aafae455e7 xfs: refactor the inode fork memory allocation functions
-1f5f83f8ffa4185f72e8ee092d6dd05d11f4d316 xfs: make xfs_iroot_realloc take the new numrecs instead of deltas
-f77d5fd451ee88cd2b42d3843f44b156f65a4904 xfs: make xfs_iroot_realloc a bmap btree function
-4c3360711e6086fcd34eecf3a516995d73f1bb19 xfs: tidy up xfs_bmap_broot_realloc a bit
-2d6b200ca6d78c6364f57eb8b546b04ca77ded14 xfs: hoist the node iroot update code out of xfs_btree_new_iroot
-9722d6e66a94e073d5b564eaa7120d8a11064634 xfs: hoist the node iroot update code out of xfs_btree_kill_iroot
-349fe74ef9622907106b79899f834e5c6eaa61f1 xfs: support storing records in the inode core root
-9726d582a192460c02046518fc4673267bd0d3e0 xfs: update btree keys correctly when _insrec splits an inode root block
-ddca08e93966dadc2ff3858e81794b4a90177450 xfs: allow inode-based btrees to reserve space in the data device
-aa556230820ad81f692150fe81d51225dda7491e fixup
-225fe0945ef4cf5472d7321a93b415403443aaff xfs: simplify the xfs_rmap_{alloc,free}_extent calling conventions
-3de1af276b59a71ba70a916017bfcb69d85033c1 xfs: introduce realtime rmap btree definitions
-7951f3948ec7280a7769b09a2b8e5e5699640965 xfs: define the on-disk realtime rmap btree format
-86246f0a8ff6a0d89918ea49d2fc7582f04c271b fixup
-c5a0fa568f7279428f9905f36f4da33e82fde6cb xfs: realtime rmap btree transaction reservations
-784d40bdadfc19adb44c106d4dc9be7f5b1c3373 xfs: add realtime rmap btree operations
-682a36bfe38b858008fd81656c698c4d3b4673a0 xfs: prepare rmap functions to deal with rtrmapbt
-045e4905cdb98202e1c0b7e29cc479e6a02dfce9 xfs: add a realtime flag to the rmap update log redo items
-5a303ef9e8723764a806ea0b7ffbbfdda6a70187 xfs: add realtime reverse map inode to metadata directory
-5eae86f64e42d169281683f82a6d84f071a1f44a xfs: add metadata reservations for realtime rmap btrees
-a9aa89da768def8038e147efeb866538341a7e18 xfs: wire up a new inode fork type for the realtime rmap
-f512871b70199924454086237a3b56eab438d50a xfs: allow inodes with zero extents but nonzero nblocks
-683177f4bcff34d4fc8c2ddcf102567ffa6227ce xfs: wire up rmap map and unmap to the realtime rmapbt
-571f465cb106fa5848822d68b162061dc97eab03 xfs: create routine to allocate and initialize a realtime rmap btree inode
-344ba578950d7cddc7d4cec04a1f65c22647ca5e xfs: report realtime rmap btree corruption errors to the health system
-080d17e8d402a38a9418bb243b0e79f53b58a9eb fixup
-7caac3f954ed35eba5428253a44d473e808cebfd xfs: scrub the realtime rmapbt
-56f59cb386e2f2330fd6421003417c1af42728b8 fixup
-1fa854ed8273161c68e3c4e41c5b16a032717cdd xfs: scrub the metadir path of rt rmap btree files
-5de09ceb99d0a00651952b733deeb3ca26e24bca fixup
-bddd7b659b781699ab991e7b5e283c225b7c3a6e xfs: online repair of the realtime rmap btree
-a90082a1b3315b39bba03843aacdd4a870cc412f xfs: create a shadow rmap btree during realtime rmap repair
-28955de4eac5bf7b08e4d0b709d834d0ece738d7 xfs_db: don't abort when bmapping on a non-extents/bmbt fork
-3cae91900c960715b18a95276f06ed94fea584eb xfs_db: display the realtime rmap btree contents
-bcb59b8ab5080103b309680c2166299e7dcb1e31 xfs_db: support the realtime rmapbt
-e017fe2e36b1a7cb0b2dae1f33c0bacbc06280e1 xfs_db: copy the realtime rmap btree
-de05e9f68855a0bc5363efa67d0f004eb178c10a xfs_db: make fsmap query the realtime reverse mapping tree
-81753549bc4102831936b12b662e07ac36b55d17 libfrog: enable scrubbing of the realtime rmap
-de01070e45c17826649b0131f4f0bab9199b418d xfs_spaceman: report health status of the realtime rmap btree
-a536e397bb0e19c66c699aad955d4cd2a19662a4 xfs_repair: flag suspect long-format btree blocks
-b83f799f1e8cd67499cac6fceb973b8930a66cd1 xfs_repair: use realtime rmap btree data to check block types
-3cba1de5d3f6e9f1e6f5c5264bf7de0bad0f3c8d xfs_repair: create a new set of incore rmap information for rt groups
-928ec973663be6309c434c0685bfe2c40c4ff2bd xfs_repair: refactor realtime inode check
-11080f3f2411d693409cc97da82db8b4bc59662a xfs_repair: find and mark the rtrmapbt inodes
-e24c5ce91eadc531686bee650af176efdce54719 xfs_repair: check existing realtime rmapbt entries against observed rmaps
-55f21439787cc6508e66aca13225b975fda785e8 xfs_repair: always check realtime file mappings against incore info
-3104b925e802d8a06e525f485450644d0f2b2944 xfs_repair: rebuild the realtime rmap btree
-1864c553bdc1c91bee901a997752f9c4175c4b74 xfs_repair: check for global free space concerns with default btree slack levels
-5d90c345b6e158bf9894714fff3ef56f2264ceb2 xfs_repair: rebuild the bmap btree for realtime files
-cdfc2436ce86b01ed5391efcef47618e04c81ff3 xfs_repair: reserve per-AG space while rebuilding rt metadata
-7879de127cf10155791da8ab595fc6d3d07259cf xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-07e41ed09ba6f680514b8e4281041e8006616930 xfs_logprint: report realtime RUIs
-07313b7068978ce72940c1e5fda6265cbd23fbb5 mkfs: create the realtime rmap inode
-f2e2760c3519ab004dca45282b2452805af679eb libxfs: resync libxfs_alloc_file_space interface with the kernel
-58e882f42a39330945e02cd22bbc654d979940cf mkfs: use file write helper to populate files
-c6eaaedef3dcfcdaf95e55481d4fdce1fde538c5 xfs: introduce realtime refcount btree definitions
-08e7a99972b6f389ac22483cf2291e6dc81ac055 xfs: namespace the maximum length/refcount symbols
-d1937bd5cafabd0bfe49e887a7f17aec5ebdfdea xfs: define the on-disk realtime refcount btree format
-eb9e2979641274c7df46048ba702e0fe0ea219d2 xfs: realtime refcount btree transaction reservations
-17bdba31c60317fcc36663339bf7f714aae6d546 xfs: add realtime refcount btree operations
-66722e9375c37c4b2e2cd2ee337c39a85e2c4972 xfs: prepare refcount functions to deal with rtrefcountbt
-99a23c2a545293800b9d11274ca32cfe798eebbd xfs: add a realtime flag to the refcount update log redo items
-2a3a8b60ac6782fc19230c1ff41a9ca60bd0efc9 xfs: add realtime refcount btree inode to metadata directory
-962d7e7642aab661807a29f18fdfa4ee8d59cbe6 xfs: add metadata reservations for realtime refcount btree
-97bc20e34b2f2309fe320b36be5716a296efc5aa xfs: wire up a new inode fork type for the realtime refcount
-8b2fda2e1fae4d070ed8f9ae181d27b8f99167f8 xfs: wire up realtime refcount btree cursors
-0fba18e83dffada0f6664f4bfda7c32811a9a851 xfs: create routine to allocate and initialize a realtime refcount btree inode
-b3a3a048b46b0d3146c2051bcc14891a1f9e350f xfs: update rmap to allow cow staging extents in the rt rmap
-312aae4a742a31dcc8a234664b9a97bd1ec79ab1 xfs: compute rtrmap btree max levels when reflink enabled
-6c1cf9d5c0f6ff68ccdf1ed6cbb2f06394b869eb xfs: allow inodes to have the realtime and reflink flags
-64dbc885f5e2e4b9fcbea74f303853a2843b6022 xfs: recover CoW leftovers in the realtime volume
-58d277175b1c1616dd596c3959862404b47ffea3 xfs: fix xfs_get_extsz_hint behavior with realtime alwayscow files
-84e543d7917902aa6cf4bad0780d0a62cb34818c xfs: apply rt extent alignment constraints to CoW extsize hint
-2be42cb5d50189bdc5db4534dd6cb1f7f95606d4 xfs: enable extent size hints for CoW operations
-62fa4139a4979f4e5e6b5b98faf0b89acace5812 xfs: report realtime refcount btree corruption errors to the health system
-70af749379e34f0716e2ec3393d4d8ef3f154030 xfs: scrub the realtime refcount btree
-b7054bb9347106beb8d2338430f28a6a399d1bdd xfs: scrub the metadir path of rt refcount btree files
-8da66ba2797ad0621365a1e8842f8c26db9435b3 fixup
-09c07710ffaab8dc8c4f19bc036458949ddc355a libfrog: enable scrubbing of the realtime refcount data
-f9d46ca3a2e00b1f243de595982f348c22d3a4b5 xfs_db: display the realtime refcount btree contents
-a4bb99e618ea895c38f151d6ada1a0edbeb4f104 xfs_db: support the realtime refcountbt
-0191b03e959fce33e0d1d1ff6545ce8644c27fca xfs_db: copy the realtime refcount btree
-ffbbeffb7beef5ac7f49ad7737496ba8f656644f xfs_spaceman: report health of the realtime refcount btree
-488c85d9af407f2dee686a7c817fbc8cc5fab173 xfs_repair: allow CoW staging extents in the realtime rmap records
-fa2e79f57e9474d85398aa8fec4b86585689ba3d xfs_repair: use realtime refcount btree data to check block types
-b7f0a380cac3334c1cde45482190c3696b1b79b4 xfs_repair: find and mark the rtrefcountbt inode
-cc64d9fc0ec5e481fa9100039edce5d071585d61 xfs_repair: compute refcount data for the realtime groups
-c044638fe6a8979ee88e6b61b4753503f44ff43f xfs_repair: check existing realtime refcountbt entries against observed refcounts
-b522aa75292366441bc05dc68d78e48705188003 xfs_repair: reject unwritten shared extents
-c4dd838f0eba5c44a5d6a18c22720cf85e5128d4 xfs_repair: rebuild the realtime refcount btree
-d1ee885af72310ecb4405a8f2f89ecad7544406b xfs_repair: allow realtime files to have the reflink flag set
-c4c47567ac6d6465d6ba2051bd7151c0f2efd862 xfs_repair: validate CoW extent size hint on rtinherit directories
-f65a37cccabf0c98b12151c67af530e2c74616bb xfs_repair: allow sysadmins to add realtime reflink
-70a537a5b9afa5497e409c39ea856b8173118eb9 xfs_logprint: report realtime CUIs
-fd4962a71bb0df86d59065be889b66d7fe042b88 mkfs: validate CoW extent size hint when rtinherit is set
-e1284c1c6a2f2b96f9647547a8daa5667ebeedbd mkfs: enable reflink on the realtime device
-c16f4c50915fcf5af3b068143025b8895e5747b1 xfs: enable extent size hints for CoW when rtextsize > 1
-1adb246111fca9aedf2d8c4f2e98417e61fec0a4 xfs: fix integer overflow when validating extent size hints
-a366bcf0fe2deaef45a8b0b04b26484a0dd725a6 mkfs: enable reflink with realtime extent sizes > 1
-3cd6436bfe663fe596a3607eff4bb5e5d476acd9 xfs_quota: report warning limits for realtime space quotas
-403d3d2adb01d8bf3500b09d6341ffb08e01139d mkfs: enable rt quota options
-05afd14daf59508757b1b2f174ddc0d68895e4ff xfs: track deferred ops statistics
-44b989459924a89f22886a7863f180f4d8ef10bf xfs: create a noalloc mode for allocation groups
-218010899392ad13fb129c85c453f6b1b373dae7 xfs: enable userspace to hide an AG from allocation
-d4e41a2f2f43384dc428a44d5edaf18948b6b2e9 xfs: apply noalloc mode to inode allocations too
-33f3816e73dc033378c3ddb56ce2bbdb7bb3f8e6 xfs_io: enhance the aginfo command to control the noalloc flag
-1f8a3ce9b483e0d483775f1c15134af5cbd16bc8 xfs: export reference count information to userspace
-bea1e8649287716839500b0d1b9620b9564029a7 xfs_io: dump reference count information
-7b4fe64320be8341ac26c075ed1476c33c04167f xfs_io: display rtgroup number in verbose fsrefs output
-adef8811c6f4d1e83e9ab524f6aa687012914320 xfs: add an ioctl to map free space into a file
-401e342f482e85324c5872b307d7f2069d867444 xfs_io: support using XFS_IOC_MAP_FREESP to map free space
-d075f3c15959a2dccac0bfba2c1b7fb98e7d505f xfs_db: get and put blocks on the AGFL
-03cbe284944fe3b6a7feb01982b4e600be5c4e01 xfs_spaceman: implement clearing free space
-6292bc73190d3cea417e2901706e69dd316a0c2b spaceman: physically move a regular inode
-b08d4681bd66101b2e9abb1619051262ea380058 spaceman: find owners of space in an AG
-f907d172af8f8e766e0756a1b4e17468f144a54f xfs_spaceman: wrap radix tree accesses in find_owner.c
-b69fdf041d2bc27b3b556c7a0c5021ab1fa05fd4 xfs_spaceman: port relocation structure to 32-bit systems
-ca38656e6bf27ffb66905feccd2bb86bee0d2de4 spaceman: relocate the contents of an AG
-3ae7cbe28936b31e2ea544f40b77f801a76be05d spaceman: move inodes with hardlinks
-420db80f100892e5fafab0ce7ca9605c98778788 xfs: create hooks for monitoring health updates
-eaa13029c162cb8769650f80b633a81453cbfed9 xfs: create a special file to pass filesystem health to userspace
-f1e4da92cbada1a79bb68dc88b10d84fee4cf10b xfs: create event queuing, formatting, and discovery infrastructure
-43e88d946458c3ea1ad3912b44bcf4bb32d4831b xfs: report metadata health events through healthmon
-21f04e1008227445dccda5362d1119dae4527d4f xfs: report shutdown events through healthmon
-ef4f0f62b908dc93d37982f7e636dd9fb70bde20 xfs: report media errors through healthmon
-ce0736f107382a3e0b028a8e396869d64ef6f97e xfs: report file io errors through healthmon
-3acc28ce52e036349041136adf5aee8d080a56e0 xfs_io: monitor filesystem health events
-0011fdfda1d24e40e1c42ffa6dde7e698cd51fec xfs_scrubbed: create daemon to listen for health events
-65e63d72bb9f63a5b010565001caaceaca31051b xfs_scrubbed: check events against schema
-ab2073d3621fb69f2bdf43f70e8a1f96f67d3e14 xfs_scrubbed: enable repairing filesystems
-439c5edf427bea415f518df77a50cd5871bd6933 xfs_scrubbed: check for fs features needed for effective repairs
-2fef725cfab27d6a205db0280ce5b7b5aed38fe5 xfs_scrubbed: use getparents to look up file names
-d5aa1210b25516a10de398bdfe1b44df93e44ed6 builddefs: refactor udev directory specification
-f3c2ead786a2af66b1ce2ad58e12910e95e15085 xfs_scrubbed: create a background monitoring service
-f1086009ccc2608ff1882693d1faa7eeebcb62f5 xfs_scrubbed: don't start service if kernel support unavailable
-4f305954cff8be29886c421020c8b470edf4e5f3 xfs_scrubbed: use the autofsck fsproperty to select mode
-d17146a47229f37a33767e9a3394ceff9150bf1f debian: enable xfs_scrubbed on the root filesystem by default
-9508ccc33c5b42c8c9e9a92850f6e479045ff255 xfs: upgrade filesystem features
-dc9d759838fe2dc0bcdb98b2ff149e845e8dc47d xfs_repair: skip free space checks when upgrading
-2f92d5ffbf77c60ef3bb91e28d4baed510b02025 xfs_repair: allow adding rmapbt to reflink filesystems
+3daee2e4b3568f0ed88b0598df96547fcf21cb9b Merge tag 'v6.10' into next
+4256d472010e742a1ff7558d02ed867d378695d9 Input: iqs269a - use device_for_each_child_node_scoped()
+4f210af5ebc166d0b0219459024c13208295bae7 Input: qt1050 - use device_for_each_child_node_scoped()
+c90a85197428de2c7effdc71063df51513be7113 Input: gpio_keys - use device_for_each_child_node_scoped()
+1102db75c5ce9df1214ba06b69e00f6fe4dc19c1 Input: gpio_keys_polled - use device_for_each_child_node_scoped()
+44f9c7c5f5368738019d71e5b4bdf8de952c584a Input: adc-keys - use device_for_each_child_node_scoped()
+d13df21d62aaf3c7a8a07b5e5c659b7b75947814 Input: adc-joystick - use device_for_each_child_node_scoped()
+6797e19d9aa4b0cf134a2b4ccf4db8005cda35cf Input: usbtouchscreen - use driver core to instantiate device attributes
+9f2feb06142c08b9b89bc1763247824bee0e00b4 Input: usbtouchscreen - remove custom USB_DEVICE_HID_CLASS macro
+ca95a47e29b2f9455c6673a9daeead437e940a7d Input: usbtouchscreen - move the driver ID table
+fbb1c92282fac71b07ec59c5501d4b7751f5d48d Input: usbtouchscreen - move process_pkt() into main device structure
+830f06c01789e1da6d8e7a92b9cf50dc14610181 Input: usbtouchscreen - constify usbtouch_dev_info table
+7f787df1ac447e13ede6022061ecc2903afec26e Input: usbtouchscreen - split device info table into individual pieces
+f784adb66df7582316fe24f9507fc1f5d4d635b4 Input: usbtouchscreen - use guard notation when acquiring mutexes
+d04f939352ba70104adccf92691f9e971c309544 Input: usbtouchscreen - switch to using __free() cleanup facility
+e8858fc07eb8386b9b6436d3e86eeb4b81e4f660 Input: msc5000_ts - remove the driver
+dd29eadee1e8f07bbec57dddf4befbcd3e3c0af7 Input: msc_touchkey - remove the driver
+5d33d04e0c20ac7a2379d47e80acded8ab0af631 MAINTAINERS: update entry for Yealink driver
+2f99ffd8d730caddadb5e0257ff8c3faf16c6ee6 Input: bbnsm_pwrkey - fix missed key press after suspend
+240801c5f4f64616569990f744a81448c3d314b6 Input: goodix-berlin - add sysfs interface for reading and writing touch IC registers
+1dbd1ab556fde75fb9b753ab1efbb6047844b528 dt-bindings: input: zinitix: Document touch-keys support
+075d9b22c8feacd02f3ffdce918d34790a3ba9d1 Input: zinitix - add touchkey support
+740ff03d7238214a318cdcfd96dec51832b053d2 Input: Add driver for PixArt PS/2 touchpad
+3fe81a56253b25864f15b699609e26c0ccdd9180 Input: spear-keyboard - switch to devm_clk_get_prepared()
+75ab1533d79b046152d424ffe947f79f9d15682c RDMA/cxgb4: use dma_mmap_coherent() for mapping non-contiguous memory
+60dc7fcafea817f3dcff7ece18095ca6260b73bc RDMA/siw: Remove NETDEV_GOING_DOWN event handler
+c901f817792822eda9cec23814a4621fa3e66695 remoteproc: imx_rproc: Correct ddr alias for i.MX8M
+e954a1bd16102abc800629f9900715d8ec4c3130 remoteproc: imx_rproc: Use imx specific hook for find_loaded_rsc_table
+858e57c1d3dd7b92cc0fa692ba130a0a5d57e49d remoteproc: imx_rproc: Initialize workqueue earlier
+8749919defb874d6deabfbef24c4901d9ec76583 remoteproc: imx_rproc: Merge TCML/U
+8bd2aa8529aca1f39bc2bfac4f68adc47c6bd1d7 Input: tc3589x - use of_property_present()
+2a777679b8ccd09a9a65ea0716ef10365179caac RDMA/mad: Improve handling of timed out WRs of mad agent
+d95f0c4e5b5350c1b0ba0280004449cba79cb2ad Input: tsc2004/5 - fix handling of VIO power supply
+075c777ed7b2a02a9af7345dd55ee0b4794cd5eb Input: tsc2004/5 - do not hard code interrupt trigger
+f56b591880ff88f2107d5fe05fa6e1b9c804fb26 Input: tsc2004/5 - fix reset handling on probe
+d086d6d8036a9551781bf3a3002cfad87a8fda40 Input: tsc2004/5 - do not use irq_set_irq_wake() directly
+f46b18f36c01ee2c8f52b1adabd5a38202a6089f Input: tsc2004/5 - respect "wakeup-source" property
+63f92f11385dc3b1990e5af1d6412c22c71d7342 Input: tsc2004/5 - use guard notation when acquiring mutexes/locks
+14d650fcb7fb57f121fda361b9f63eeefd8d59a5 Input: synaptics-rmi4 - add support for querying DPM value (F12)
+7d0b18cd5dc7429917812963611d961fd93cb44d Input: ilitek_ts_i2c - avoid wrong input subsystem sync
+208989744a6f01bed86968473312d4e650e600b3 Input: ilitek_ts_i2c - add report id message validation
+2c71e987f0af7b91195d52aebe074b9e2d5423b8 Input: ilitek_ts_i2c - stop including gpio.h
+7925312eca64ef7de8c149ea80e1411be7df4679 Input: cyttsp - stop including gpio.h
+ae25dbac2ecced6b5825992449f2bd8bee3466ae Input: cyttsp - use devm_regulator_bulk_get_enable()
+25162a4f64f8ba0065f300977589fe1f6af332f0 Input: cyttsp4 - remove driver
+14c3ec67236b2d90c553d2575950369aa6fa43c5 RISC-V: pi: Force hidden visibility for all symbol references
+d57e19fcbf3f7492974e78cd1dbaf85c67d198ce RISC-V: lib: Add pi aliases for string functions
+b3311827155aca72498b8a0dfd0f2499b70d39b8 RISC-V: pi: Add kernel/pi/pi.h
+945302df3de156fc367d3b537cec76d4aea0b0d1 RISC-V: Use Zkr to seed KASLR base address
+7c08a2615f149f64fb1bb4660997e152fb3a11a7 Merge patch series "RISC-V: Parse DT for Zkr to seed KASLR"
+f15c21a3de1b5321ba4ae2c6c8f2e63b839d49fa RISC-V: Enable IPI CPU Backtrace
+c772a2c690182410642ead740f7a84b3a7544b2b net/mlx5: Add IFC related stuff for data direct
+df6d27a30970158466b632c82da09a9b24c30f4b RDMA/nldev: Enhance netlink message parsing and validation
+0ea4ffb2bc80e8f4e6ca87e07142d1c17285ae95 RDMA/mlx5: Expose vhca id for all ports in multiport mode
+a18eb864019e624bb4ea5778fce75cc903475ed5 Introducing Multi-Path DMA Support for mlx5 RDMA Driver
+6910e3660d86c1a5654f742a40181d2c9154f26f RDMA/mlx5: Introduce the 'data direct' driver
+2e8e631d7a41e3a4edc94f3c9dd5cb32c2aa539e RDMA/mlx5: Add the initialization flow to utilize the 'data direct' device
+682358fd35dece838e6ae2d9d6a69fc0b9a9d411 RDMA/umem: Add support for creating pinned DMABUF umem with a given dma device
+253c61dc256b3e6be65657f78b4a8452163ce00f RDMA/umem: Introduce an option to revoke DMABUF umem
+3aa73c6b795b9aaaf933f3c95495d85fc0de39e3 RDMA: Pass uverbs_attr_bundle as part of '.reg_user_mr_dmabuf' API
+de8f847a5114ff7cfcdfc114af8485c431dec703 RDMA/mlx5: Add support for DMABUF MR registrations with Data-direct
+ec7ad6530909983c8736c80af46e3529ce7bab55 RDMA/mlx5: Introduce GET_DATA_DIRECT_SYSFS_PATH ioctl
+4e12e550936364660b056116c848b82bf73aa8b6 dt-bindings: input: touchscreen: convert ad7879 to yaml format
+159c79764f37f081b79d577e71b62f0b1b2b1062 rpmsg: glink: Tidy up RX advance handling
+91adb340d1b8fed6507d0143da1f0d8ccb8aeca4 rpmsg: glink: Pass channel to qcom_glink_send_close_ack()
+34f79c11fb2f31ba05f13e42b936b3eae1783d40 rpmsg: glink: Introduce packet tracepoints
+8dc1bffd6e15da727f7cd07e2d2e7aea728f42ff dt-bindings: hwlock: sprd-hwspinlock: convert to YAML
+ba70bbfd28ab8aa09ed4b905b1b47580d5df17d6 remoteproc: Use of_property_present()
+74de9654abf7cd0ab46d2393889f3f28b6384db8 dt-bindings: remoteproc: xlnx,zynqmp-r5fss: Add missing "additionalProperties" on child nodes
+d32e71660056455ff0af73e10d239d4043d9c1a5 remoteproc: keystone: Use devm_kasprintf() to build name string
+209dd85aa4417480fb8d3c195893b116f9b87acb remoteproc: keystone: Use devm_rproc_alloc() helper
+c6ebf2c528470a09be77d0d9df2c6617ea037ac5 riscv/kexec_file: Fix relocation type R_RISCV_ADD16 and R_RISCV_SUB16 unknown
+0e3f3649d44bf1b388a7613ade14c29cbdedf075 riscv: Enable generic CPU vulnerabilites support
+888583bd3543da10c4bcb90c78825168fa8e7b90 dt-bindings: remoteproc: qcom,sm8550-pas: document the SDX75 PAS
+76064d8f4cd608e18cef74e810a934ce6da81b4c remoteproc: qcom: pas: Add SDX75 remoteproc support
+9091225ba28c0106d3cd041c7abf5551a94bb524 remoteproc: qcom: pas: Add support for SA8775p ADSP, CDSP and GPDSP
+c81ef0cb576a3995edf24b63e9639881f19a2122 remoteproc: k3-r5: Use devm_rproc_alloc() helper
+f3f11cfe890733373ddbb1ce8991ccd4ee5e79e1 remoteproc: k3-r5: Acquire mailbox handle during probe routine
+ea1d6fb5b57135e8e05ebfaaf816e199baee96b3 remoteproc: k3-dsp: Acquire mailbox handle during probe routine
+ed7687c75fc905a2ff4a95767c44d277dafd718b dt-bindings: input: touchscreen: convert colibri-vf50-ts.txt to yaml
+105a0c76fd0c576ce1d865d5a0acf3be75900937 Input: colibri-vf50-ts - make use of the helper function dev_err_probe()
+53ffc09a3e6d39d7a9b3758be4a8795fb57a7989 RDMA/mlx5: Remove two unused declarations
+1fb797af8a4bb0569c1bc8bf95b630ecaf7bd38e RDMA/core: Remove unused declaration rdma_resolve_ip_route()
+e2e641fe1c69bbbe94a89e814967da50e6df226b RDMA/ipoib: Remove unused declarations
+9fedb829372d4bd176ad077a0f52bc47258aa178 dt-bindings: remoteproc: k3-m4f: Add K3 AM64x SoCs
+ce6acb2240f40f24bc7b9240e11bbfad7cf3d113 remoteproc: k3: Factor out TI-SCI processor control OF get function
+ebcf9008a895a2a9416f69e186b56fbade35e12c remoteproc: k3-m4: Add a remoteproc driver for M4F subsystem
+8fa052c29e509f3e47d56d7fc2ca28094d78c60a remoteproc: k3-r5: Delay notification of wakeup event
+6c65914a40d33e96ceedc757be0129139cdf7852 Input: keypad-nomadik-ske - remove the driver
+92c7ad8364b2cad7e3c4842f3a77dda3b6e1fb88 RDMA/qib: Simplify an alloc_ordered_workqueue() invocation
+7229d7b64e2e99fc2c7e9bdc8d5c687fad2e9bbb RDMA/mad: Simplify an alloc_ordered_workqueue() invocation
+87a55daa67795c5c01fa2c31bba6e784cf0c121b RDMA/mlx4: Simplify an alloc_ordered_workqueue() invocation
+ae46d3fc17f960dc2d1399acdc488e27638a71a7 RDMA/mlx4: Simplify an alloc_ordered_workqueue() invocation
+c87c5f47ff72a14001c982d3bc58d7b98ca746c3 RDMA/rxe: Use sizeof instead of hard code number
+938aa9a3334881cd817fdb096426d291a73c4d3d RDMA/rxe: Fix misspelling of 'rmda'
+444948ee12c298b716635e8c4cd66fa5cd541592 RDMA/rxe: Fix __bth_set_resv6a
+86dfdd8288907f03c18b7fb462e0e232c4f98d89 RDMA/iwcm: Fix WARNING:at_kernel/workqueue.c:#check_flush_dependency
+04e36fd27a2aebb03ef019debc4df247f2a427c6 RDMA/efa: Add support for node guid
+6994d8b84bfd71431bfccb5baf84a827086d48a5 Input: evdev - limit amount of data for writes
+1d4684fbe88dc28e2bf79f5e94a432f0469d2dac iommufd: Reorder include files
+d9dbd7149c852d51b94d5fda89d79a6c3e1fff97 remoteproc: imx_rproc: Allow setting of the mailbox transmit mode
+ff555fc5537db70fa75d0ca557d3a41e4c08b55c remoteproc: imx_rproc: Add support for poweroff and reboot
+b7ffc98a6a55bf93021a5dcb88a7682ae6cb0177 Input: wistron_btns - use kmemdup_array instead of kmemdup for multiple allocation
+45d6486d2a5ad4310c1379071fc39d02d6784cbe dt-bindings: input: touchscreen: convert ads7846.txt to yaml
+79ea4a496ab5c970a3a793d863ed8893b1af107c iommufd/selftest: Fix buffer read overrrun in the dirty test
+de1d364c3815f9360a0945097ca2731950e914fa RDMA/bnxt_re: Add support for Variable WQE in Genp7 adapters
+51edebb73497f5dc1da357947d6ac985f0158a1b RDMA/bnxt_re: Get the WQE index from slot index while completing the WQEs
+b930d0bac9c671c053dd66229010ca9298e84aab RDMA/bnxt_re: Fix the table size for PSN/MSN entries
+d8ea645d6984c84a87032063a0941f15a323831f RDMA/bnxt_re: Handle variable WQE support for user applications
+10a104c0debbb19a1e45193d5670510216e339ff RDMA/bnxt_re: Enable variable size WQEs for user space applications
+b2f44814680b569be98e58111bd582fd3a689d4d iommufd/device: Enforce reserved IOVA also when attached to hwpt_nested
+76889bbaabf5cab981a74ed69cb3816921edc5d4 Merge branch 'nesting_reserved_regions' into iommufd.git for-next
+387e4975ecd3107fdf8819f6089fdee83bb7102a Input: mt6779-keypad - fix module autoloading
+34cd19288161313b6ba24004206ab6a64fdef7c5 Merge branch 'bnxt_re_variable_wqes' into rdma.git for-next
+4842cfb07a4faa4b9768e496925e48b50875ee13 RDMA/rtrs: For HB error add additional clt/srv specific logging
+8c8dd4e13bd5a716a0a2fa58e7e2f08b4af073f7 RDMA/rtrs-clt: Fix need_inv setting in error case
+53c26f3ecd59e8024692cea339c35f9aceb0f178 RDMA/rtrs-clt: Rate limit errors in IO path
+3258cbbd86deaa2675e1799bc3d18bd1ef472641 RDMA/rtrs: Reset hb_missed_cnt after receiving other traffic from peer
+6793f9581f75d98c5ba0753e863a5442a9dff07c RDMA/rtrs-clt: Reuse need_inval from mr
+3e4289b29e216a55d08a89e126bc0b37cbad9f38 RDMA/rtrs-clt: Reset cid to con_num - 1 to stay in bounds
+ff7395890580447507b27851c06e396f75913443 RDMA/rtrs-clt: Print request type for errors
+d0e62bf7b575fbfe591f6f570e7595dd60a2f5eb RDMA/rtrs-srv: Avoid null pointer deref during path establishment
+667db86bcbe82e789d82c2e8c8c40756ec2e1999 RDMA/rtrs: Register ib event handler
+bab9f8db4295c09df6fea5d197798186d01b8226 RDMA/rtrs-clt: Do local invalidate after write io completion
+e5bba9e0276441d53e976a932e728e8ced019a8d RDMA/rtrs-clt: Remove an extra space
+2d10b05bcef685572ce8962ecb0936952915d954 RDMA/cxgb4: Remove unused declarations
+9ab27eb5866ccbf57715cfdba4b03d57776092fb remoteproc: k3-r5: Fix error handling when power-up failed
+e2e75e4202d70086c1061b692da0c979d89f7f9c Input: mt6779-keypad - use devm_clk_get_enabled()
+f0da267996ce1ec981a99cb5820c36a3a8d90c04 Input: adp5588-keys - use guard notation when acquiring mutexes
+dc748812fca013c00d9b657e0cc1416fd71a1b06 Input: adp5588-keys - add support for pure gpio
+739b847dbe58e18ba0286a05b67d3ffc6a4c097e dt-bindings: input: pure gpio support for adp5588
+40a6bb10d3d124c9adfd9f5e0bb8e020e0ccb712 Input: matrix-keymap - switch to using __free() cleanup facility
+30f85882393193d344b815f02ecb5c8d7db4923d Input: bcm5974 - use guard notation when acquiring mutex
+b9401c658d2c7c0d5a7f33399389eaa18e1d1cea MAINTAINERS: add gameport.h, serio.h and uinput.h to INPUT section
+c561f3b110ebd49f4fd5c1632a22caa443a5f2a9 MAINTAINERS: add i8042.h and libps2.h to INPUT section
+81bdc7eab99404ad657a8bc3ee02b95fbfbb7154 dt-bindings: input: touchscreen: Use generic node name
+092b7d431f5eb1443cbf0e797858861e2ede1e28 Input: snvs_pwrkey - use devm_clk_get_optional_enabled()
+5278bb4cd6e96504ad4700bc1e445fbe7d6711e3 Input: zinitix - read and cache device version numbers
+dac973838b0a37d32141c50cf3882b5ff0e42543 Input: zinitix - varying icon status registers
+4f32f799a950c7fffa17971177be42c79d74b69f modpost: remove unused HOST_ELFCLASS
+a660deb0f1f62214439640292cd7726f6ed8023d modpost: detect endianness on run-time
+aaed5c7739be81ebdd6008aedc8befd98c88e67a kbuild: slim down package for building external modules
+f1d87664b82aeeaa1be9ee22dc85a59fd5a60d63 kbuild: cross-compile linux-headers package when possible
+76be4f5a784533c71afbbb1b8f2963ef9e2ee258 Remove *.orig pattern from .gitignore
+0c4beffbfe3fcd711b5d9268e7c7d63d4c1cc964 kbuild: modinst: remove the multithread option from zstd compression
+2893f00322922b2adce07fd6d0db37d6b8e30977 tinyconfig: remove unnecessary 'is not set' for choice blocks
+dc73a57aeaaabe148c69c16b388771f891a996a2 kconfig: remove dummy assignments to cur_{filename,lineno}
+5e6cc7e3f2965fc3df901416336f6bf985a363da kconfig: stop adding P_SYMBOL property to symbols
+96490176f1e11947be2bdd2700075275e2c27310 kconfig: remove P_SYMBOL property
+a9d83d74783b00f9189c14180f77bbed133b092c kbuild: split x*alloc() functions in kconfig to scripts/include/xalloc.h
+4c2598e3b62102d5ea7f618e13d996b069cde27d modpost: replace the use of NOFAIL() with xmalloc() etc.
+aeaa4283a309520c22a783071f554645943955d8 kallsyms: use xmalloc() and xrealloc()
+a46078d651819c988d36379e8df68cb866eae747 fixdep: use xmalloc()
+7a7f974594cd5d6723242cb8c018b59db16fe27b modpost: improve the section mismatch warning format
+e6b65ee10588a552d04d488ebeac24bba20747a8 kbuild: control extra pacman packages with PACMAN_EXTRAPACKAGES
+b6223c2de6b0cade1e1d37490b304cb5df8d45d9 kbuild: pacman-pkg: move common commands to a separate function
+5b000f3cbb38c23992ee95fcd3e983ca66164eff kbuild: pacman-pkg: do not override objtree
+4079fe8e7b2b42b278e77dae7cb9d95e62c415a2 modpost: simplify modpost_log()
+87af9388b4e0c2ce94275ab4bef7227550b30df3 kbuild: remove *.symversions left-over
+e012316d83bdf52061317cc361ca07c9580883d9 RDMA/rdmavt: Convert to use ERR_CAST()
+640c2cf84e1de62e6bb0738dc2128d5506e7e5bc RDMA/bnxt_re: Get the toggle bits from SRQ events
+b4207630e0040b2f8d59ee28bb645771db31d37f RDMA/bnxt_re: Refactor the BNXT_RE_METHOD_GET_TOGGLE_MEM method
+181028a0d84cdcc7ac86d05cc49eaa416ce85c8b RDMA/bnxt_re: Share a page to expose per SRQ info with userspace
+9e517a8e9d9a303bf9bde35e5c5374795544c152 RDMA/mana_ib: use the correct page table index based on hardware page size
+4a3b99bc04e501b816db78f70064e26a01257910 RDMA/mana_ib: use the correct page size for mapping user-mode doorbell page
+559d4c6a9d3b60f239493239070eb304edaea594 sysctl: avoid spurious permanent empty tables
+543b455c6e9cf08b9a96a06a4680a1ffcb299701 RDMA/bnxt_re: Update HW interface headers
+b98d96971908b71be394c43d87d037b5fb4e6d8a RDMA/bnxt_re: Rename a variable
+f786eebbbefa0c080d45533c5e0f66d500268961 RDMA/bnxt_re: Avoid an extra hwrm per MR creation
+dc116b7fddbdad000b6f2a8ca41d1fe5371b403c RDMA/bnxt_re: Add support for MR Relaxed Ordering
+097c72e1f2b57d8b4d0b18c5a768a2028d666475 riscv: Add license to fence.h
+4ffc8a3422986470972b4487f02e381692269098 riscv: Add license to vmalloc.h
+e1bf0f2ac949559a0b0720eaee252ae451e61acd vfio/pci: Remove unused struct 'vfio_pci_mmap_vma'
+a7aaa65f9c46b82051af490c93bc6398f11b94ce vfio/fsl-mc: Remove unused variable 'hwirq'
+7555c7d2cfc471144bc356e4a7c4a1d8733567a7 vfio: mdev: Remove unused function declarations
+8f5ea12942ad60a0798fcb68995df8a23b8567b7 MAINTAINERS: remove unneeded file entry in INPUT section
+a790df272a20dcc88ffebe20eca34c54f528fcaa Input: synaptics-rmi4 - fix crash when DPM query is not supported
+112e6e83a894260cc7efe79a1fc47d4d51461742 IB/mlx5: Fix UMR pd cleanup on error flow of driver init
+1403c8b14765eab805377dd3b75e96ace8747aed IB/core: Fix ib_cache_setup_one error flow cleanup
+73183ad6ea51029d04b098286dcee98d715015f1 iommufd: Check the domain owner of the parent before creating a nesting domain
+3e6a7e3cda773adacc2fa4b9623d0a8c0f904d50 iommufd: Reorder struct forward declarations
+77fcdf51b8ca5e89f1074902b860caa2418d72e6 remoteproc: xlnx: Add sram support
+8d2e56ef83ce944cc945d39f5ea7c875bba5c2ad i3c: mipi-i3c-hci: Add AMDI5017 ACPI ID to the I3C Support List
+039b23609ff243497ea350200635985364da25ee i3c: mipi-i3c-hci: Read HC_CONTROL_PIO_MODE only after i3c hci v1.1
+01408932995319eaa3d892c3c5d7739cff5da25b i3c: mipi-i3c-hci: Add a quirk to set PIO mode
+216201b3d7df0a9d2c848789b65c7f332f84a3af i3c: mipi-i3c-hci: Relocate helper macros to HCI header file
+46d4daa517e91a197ad253c1d81de29e8e2980be i3c: mipi-i3c-hci: Add a quirk to set timing parameters
+ced86959d28cc26bbfc5f2fd6e37407637c20e11 i3c: mipi-i3c-hci: Add a quirk to set Response buffer threshold
+133f67bea5e03134b4b388a884e59a052809403d i3c: master: cdns: fix module autoloading
+8f6887349b2f829a4121c518aeb064fc922714e4 iommufd: Protect against overflow of ALIGN() during iova allocation
+5080f62adb126e28d316298505272efea0aed81a Input: matrix_keypad - remove support for clustered interrupt
+584bf366f8fa8b588437d452af0cbb445fbbbe5d Input: matrix_keypad - switch to gpiod API and generic device properties
+11d29702ad20d40e5ba7011d72bf7382b07c8435 ARM: spitz: Use software nodes/properties for the GPIO-driven buttons
+1b05a701375107b2c2beae9c518b8e1a3819e086 ARM: spitz: Use software nodes/properties for the matrix keypad
+de35996d4b364749194c5b473d1912578880833e Input: matrix_keypad - remove support for platform data
+f057b57270c2a17d3f45c177e9434fa5745caa48 Merge branch 'ib/6.11-rc6-matrix-keypad-spitz' into next
+8e028d60ee55a61e88c90028d205c4322327fa8f dt-bindings: input: convert rotary-encoder to yaml
+e06edf96dea065dd1d9df695bf8b92784992333e Input: i8042 - add TUXEDO Stellaris 16 Gen5 AMD to i8042 quirk table
+d5322d537c2355fb2e7b1b0362a21e9c87c4b585 Input: alps - use guard notation when acquiring mutex
+934976f61eceab661cce492831448e01d1b89e4b Input: atkbd - use guard notation when acquiring mutex
+43a365abaf47539f065f6c7890e5433ef10f7381 Input: gpio-keys - switch to using cleanup functions
+22df24590f56e2a8d6d2f428448d9bfd2fcf48ee Input: iqs62x-keys - use cleanup facility for fwnodes
+78af00d8937179c051335f0e59db3601edc53ab2 Input: tegra-kbc - use guard notation when acquiring mutex and spinlock
+4a0467ed7387d7ed46f5e46ae6fd44987d1044c0 Input: zforce_ts - use devm_add_action_or_reset()
+5e091a49da06a4a761a0319eb5d37a93f2268dec Input: zforce_ts - simplify reporting of slot state
+f820b43754cdbd078a0d17122b281f42cbcd2155 Input: zforce_ts - remove support for platfrom data
+a9d59c206c8c90c916acefbaf3629704bff88266 Input: zforce_ts - do not explicitly set EV_SYN, etc bits
+624455941015c199ac317c8cf976ac6b02cfdec1 Input: zforce_ts - handle errors from input_mt_init_sots()
+f388412f707e98735e44341447263ab3e25e7043 Input: zforce_ts - remove unneeded locking
+9ba33f6145728c09c8e4578ffa8e94aef47b4e68 Input: zforce_ts - ensure that pm_stay_awake() and pm_relax() are balanced
+5c2002677e8f428d63369ea65ee008967147527e Input: zforce_ts - use guard notation when acquiring mutexes
+83b6549ee18885c1ac74ae91a7e406e7ed33b5c8 Input: zforce_ts - switch to using get_unaligned_le16
+43a48ec581d7e4b6751b236122f7c0a78c99a838 Input: zforce_ts - make parsing of contacts less confusing
+c4a8349262aaea42163dbc9171208f712f172d25 Input: zforce_ts - do not ignore errors when acquiring regulator
+7e168b81e6f84d67c1829d93bf3e6043ba27d074 Input: zforce_ts - use dev_err_probe() where appropriate
+b5ed81cc7bccef90e39ee36b0c1f3677686a0fbb Input: zforce_ts - make zforce_idtable constant
+16ff0224d8a6c7cb52c954c3dad4cb54a7d96720 Input: zforce_ts - stop treating VDD regulator as optional
+8f2ef2610f9b7920c5ce847042d5a0193bc42bcb Input: zforce_ts - switch to using devm_regulator_get_enable()
+7846bd8b8d3c1f8ee15f47ca9e177bd7a729ce4b Input: zforce_ts - do not hardcode interrupt level
+6a5180c619ed52f9e05767c78bf7edb04304d9bd Input: zforce_ts - remove assert/deassert wrappers
+4172a64ef2c4c519a67037fc4edc78277f786fee Input: zforce_ts - switch to using asynchronous probing
+27a8204b26ac009e47e0bcde4cd24ff69d96fccf vfio/mdev: Constify struct kobj_type
+061dd21ca712cd7103c26ed77bb4a04d98930981 i3c/master: cmd_v1: Fix the rule for getting i3c mode
+d97eae80d57220477a02435e49b48ac6f01e289c Documentation: kconfig: explicitly document missing prompt
+4929f5b95f6b20ae10f2c409fb2ca58253e73706 kbuild: add debug package to pacman PKGBUILD
+dde60e7d103bf6cf820b2c4c4bb5658bad1759a9 kbuild: remove recent dependency on "truncate" program
+cd615d7fcc7958107d1506c6eb5be50f4e920312 ARC: update the help message for CONFIG_ARC_BUILTIN_DTB_NAME
+fdf94e4403ece60b29ef9e2da95e2fcefe50817f kbuild: compile constant module information only once
+fc41a0a7498636ac0af7c37be80ca8571c2f4173 kbuild: add intermediate targets for Flex/Bison in scripts/Makefile.host
+aa99969ef591ca44cbafb320ceceb106792baee3 m68k: remove trailing space after \n newline
+e7e2941300d258d551dda6ca9a370e29e085fa73 kbuild: split device tree build rules into scripts/Makefile.dtbs
+b472e756ad53421528b632c37d0dc2fe058cd497 remoteproc: st_slim: Use devm_platform_ioremap_resource_byname()
+2de346a45ebf41a67809598c45412c19a95ca4a4 remoteproc: da8xx: Use devm_platform_ioremap_resource_byname()
+38a0e38b31d3f967525f6414711bed6f14dfa15e remoteporc: ingenic: Use devm_platform_ioremap_resource_byname()
+34efda1735a179cd233479a99f09728825748ea1 RDMA/mlx5: Enable ATS when allocating kernel MRs
+b24506f1c3c4e3379babf7c59e4873c862e674cb RDMA/erdma: Refactor the initialization and destruction of EQ
+b80330f1051d4e89d234a191db99caad5fbd8cbc RDMA/erdma: Add disassociate ucontext support
+e77127ff6416b17e0b3e630ac46ee5c9a6570f57 RDMA/erdma: Return QP state in erdma_query_qp
+30e6bd8d3b5639f8f4261e5e6c0917ce264b8dc2 RDMA/mlx5: Drop redundant work canceling from clean_keys()
+6f5cd6ac9a4201e4ba6f10b76a9da8044d6e38b0 RDMA/mlx5: Fix counter update on MR cache mkey creation
+ee6d57a2e13d11ce9050cfc3e3b69ef707a44a63 RDMA/mlx5: Limit usage of over-sized mkeys from the MR cache
+7ebb00cea49db641b458edef0ede389f7004821d RDMA/mlx5: Fix MR cache temp entries cleanup
+c6b2b5c86d448630cea58bf6fdfc761da3e3efb5 RDMA/bnxt_re: Fix the compatibility flag for variable size WQE
+227f51743b61fe3f6fc481f0fb8086bf8c49b8c9 RDMA/bnxt_re: Fix the max WQE size for static WQE support
+16ff3f606c7e639d815ede92c258b63484242783 scripts: import more hash table macros
+8a62d44588451095fd6645d6ed7ff8761edf62aa scripts: subarch.include: fix SUBARCH on macOS hosts
+23d93aa4b3b90b6e3dc8e6b6bb36580c1068bc07 kbuild: add mod(name,file)_flags to assembler flags for module objects
+6928d264e328e0cb5ee7663003a6e46e4cba0a7e RDMA/hns: Don't modify rq next block addr in HIP09 QPC
+fd8489294dd2beefb70f12ec4f6132aeec61a4d0 RDMA/hns: Fix Use-After-Free of rsv_qp on HIP08
+d586628b169d14bbf36be64d2b3ec9d9d2fe0432 RDMA/hns: Fix the overflow risk of hem_list_calc_ba_range()
+74d315b5af180220d561684d15897730135733a6 RDMA/hns: Fix spin_unlock_irqrestore() called with IRQs enabled
+4321feefa5501a746ebf6a7d8b59e6b955ae1860 RDMA/hns: Fix VF triggering PF reset in abnormal interrupt handler
+ce196f6297c7f3ab7780795e40efd6c521f60c8b RDMA/hns: Fix 1bit-ECC recovery address in non-4K OS
+fe51f6254d81f5a69c31df16353d6539b2b51630 RDMA/hns: Optimize hem allocation performance
+e4ed570122544dc39ba953c99380a75a52c01db4 IB/iser: Remove unused declaration in header file
+9cd30319bbd497b9fac13e822f184b84fd50ef88 IB/qib: Remove unused declarations in header file
+f4ccc0a2a0c5977540f519588636b5bc81aae2db RDMA/hns: Fix restricted __le16 degrades to integer issue
+82abef590eb31d373e632743262ee7c42f49c289 Input: ims-pcu - fix calling interruptible mutex
+cef7dde8836ab09a3bfe96ada4f18ef2496eacc9 net/mlx5: Expand mkey page size to support 6 bits
+6cd9171d04cff79abe78c166927ab8563bf95fe5 net/mlx5: Expose HW bits for Memory scheme ODP
+64c68385a39bb676c76da36164ab696e8da78842 RDMA/mlx5: Add new ODP memory scheme eqe format
+8c6d097d830f779fc1725fbaa1314f20a7a07b4b RDMA/mlx5: Enforce umem boundaries for explicit ODP page faults
+7f91510af938b4b308a3d716fd3dbc1b3614ca6d RDMA/mlx5: Split ODP mkey search logic
+e4fda2320f8e6bfc74f01770eb95a31cb327cc09 RDMA/mlx5: Add handling for memory scheme page fault events
+6f2487bfafce5e6cd6f89e7238a82012f7b9f5ac RDMA/mlx5: Add implicit MR handling to ODP memory scheme
+d9dfb5e6225a0a99e08dc2a538b0c30a5a9a460c iommufd: Avoid duplicated __iommu_group_set_core_domain() call
+79805c1bbbf9846fe91c16933d64614cbbff1dee iommu: Set iommu_attach_handle->domain in core
+aa3457f22f00b9c9039672b1ff942fd72a5330d8 riscv: cleanup XIP_FIXUP macro
+f2df5b4fdd74a3490c35498de935ebf4f9b7c382 riscv: don't export va_kernel_pa_offset in vmcoreinfo for XIP kernel
+5cf089672119808c2f5b7035c91adcc0cc7287e1 riscv: replace misleading va_kernel_pa_offset on XIP kernel
+e4eac34feda4959fad754004435512b24af73fe6 riscv: drop the use of XIP_OFFSET in XIP_FIXUP_OFFSET
+23311f57ee132b2584915d38955b6cf125e76022 riscv: drop the use of XIP_OFFSET in XIP_FIXUP_FLASH_OFFSET
+75fdf791dff08470c035996f5d3e92c64491ce19 riscv: drop the use of XIP_OFFSET in kernel_mapping_va_to_pa()
+a7cfb999433ad3a1aa7ca86ecdaf3e061ab7076a riscv: drop the use of XIP_OFFSET in create_kernel_page_table()
+b635a84bde6f0b94944b5d960f4e6a52ac3555c6 riscv: remove limit on the size of read-only section for XIP kernel
+9ea7b92b77df7d2eee3c31ef4a19f0f12ec74190 Merge patch series "remove size limit on XIP kernel"
+aab439ffa1ca1067c0114773d4044828fab582af vfio/pci: clean up a type in vfio_pci_ioctl_pci_hot_reset_groups()
+907936b6f4e630718cc31ddea79cc76a3e32080a net/mlx5: Handle memory scheme ODP capabilities
+c77aec65e828bd82726f664585e3bb425d17be7f RDMA/mlx5: Consider the query_vuid cap for data_direct
+303ee44ac4b98196a4a311c670d3db0dc38cee84 RDMA/mlx5: Check RoCE LAG status before getting netdev
+3ed7f9e239938a0cfaf3689e2f545229ecabec06 RDMA/mlx5: Obtain upper net device only when needed
+91b4b2c62613dab3e1ec8083f1e96e5f5b2eee36 RDMA/mlx5: Initialize phys_port_cnt earlier in RDMA device creation
+5f8ca04fdd3c66a322ea318b5f1cb684dd56e5b2 RDMA/device: Remove optimization in ib_device_get_netdev()
+8d159eb2117b2e3697a31785662b653938f007cb RDMA/mlx5: Use IB set_netdev and get_netdev functions
+9cbed5aab5aeea420d0aa945733bf608449d44fb RDMA/nldev: Add support for RDMA monitoring
+12fb1153c53bf9b53e299c9775b84fa7838640f7 RDMA/nldev: Expose whether RDMA monitoring is supported
+dee3da3422d5e8658b996243dd1ddc774bbf31f3 RDMA/bnxt_re: Change aux driver data to en_info to hold more information
+532929ad0a23b9b94ab840e50ca0486033611914 RDMA/bnxt_re: Use the aux device for L2 ULP callbacks
+94a9dc6ac8f7e6801c88d05c42ed9ceaa4b5f609 RDMA/bnxt_re: Group all operations under add_device and remove_device
+cc5b9b48d44756a87170f3901c6c2fd99e6b89b2 RDMA/bnxt_re: Recover the device when FW error is detected
+dcd18a3fb1228409dfc24373c5c6868a655810b0 Input: ps2-gpio - use IRQF_NO_AUTOEN flag in request_irq()
+313312c84b42d7b8ee1fb03ab30befc2bd0db211 pm: cpupower: rename raw_pylibcpupower.i
+c1ddb29709e675ea2a406e3114dbf5c8c705dd59 rpmsg: glink: Avoid -Wflex-array-member-not-at-end warnings
+c7c878ff329239e28d7ab9fae7f7f49f114b12ff Input: tegra-kbc - use of_property_read_variable_u32_array() and of_property_present()
+01eed86d50af9fab27d876fd677b86259ebe9de3 Input: i8042 - add another board name for TUXEDO Stellaris Gen5 AMD line
+3870e2850b56306d1d1e435c5a1ccbccd7c59291 Input: i8042 - add TUXEDO Stellaris 15 Slim Gen6 AMD to i8042 quirk table
+7587a3602bf2f12e798ea955b17521948ddb56a5 riscv: vdso: do not strip debugging info for vdso.so.dbg
+d6a1928134a1c626ff369129d7a80951b2949a48 riscv: Remove redundant restriction on memory size
+636119af94f2fbf3e4458be66a1bc740ba69ce6d io_uring: rename "copy buffers" to "clone buffers"
+22ab08955ea13be04a8efd20cc30890e0afaa49c riscv: Fix fp alignment bug in perf_callchain_user()
+1a7483318274d0ec60f160e604c2a1dbce27fc0a riscv: stacktrace: Add USER_STACKTRACE support
+6868d12e0205765c1296c7c5e81e515ec015ab89 riscv: errata: sifive: Use SYM_*() assembly macros
+7c9d980e46703029e9f149ecf26c6a263d8923b6 riscv: select ARCH_USE_SYM_ANNOTATIONS
+a6efe33cc5945c8d435d2441ecc4e0ca7c49e040 riscv: Add ISA extension parsing for Svvptc
+d25599b5933fb5f89d4b4c720564d613a795f502 dt-bindings: riscv: Add Svvptc ISA extension description
+503638e0babf364061bc50fca5103b00a56cc50a riscv: Stop emitting preventive sfence.vma for new vmalloc mappings
+7a21b2e370dab780ddb3aa80f2a4c8ff97bddccc riscv: Stop emitting preventive sfence.vma for new userspace mappings with Svvptc
+8b0c6025a02ddec2b497f83e7d2f27a07f1d0653 io_uring/rsrc: get rid of io_mapped_ubuf->folio_mask
+9753c642a53bc4fbdef06d372d389dce7d8cddc2 io_uring/rsrc: change ubuf->ubuf_end to length tracking
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
+1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
+9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
+cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
+1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
+7e340f4fad46b766705be96f5d1c764a397a7a36 Merge patch series "Svvptc extension to remove preventive sfence.vma"
+8f1534e7440382d118c3d655d3a6014128b2086d riscv: avoid Imbalance in RAS
+39c047d4047a1242aeefa87513174b56a91080ab RDMA/hns: Fix ah error counter in sw stat not increasing
+e766e6a92410ca269161de059fff0843b8ddd65f RDMA/cxgb4: Added NULL check for lookup_atid
+a09c17240bdf2e9fa6d0591afa9448b59785f7d4 io_uring/sqpoll: retain test for whether the CPU is valid
+7f44beadcc11adb98220556d2ddbe9c97aa6d42d io_uring/sqpoll: do not put cpumask on stack
+9f0eafe86ea0a589676209d0cff1a1ed49a037d3 RDMA/irdma: fix error message in irdma_modify_qp_roce()
+7acad3c442df6d5158c5b732a7a0ccf3a01d9b30 RDMA/nldev: Add missing break in rdma_nl_notify_err_msg()
+2f6a55e4235f596b7dd9e8a7cf3e07f39ac5e9c2 io_uring: clean up a type in io_uring_register_get_file()
+21d52e295ad2afc76bbd105da82a003b96f6ac77 landlock: Add abstract UNIX socket scoping
+5b6b63cd64bbaf9894e799b198cb4562733cab03 selftests/landlock: Test handling of unknown scope
+fefcf0f7cf470845b3675286c298484a056a7b13 selftests/landlock: Test abstract UNIX socket scoping
+4f9a5b50d3b39027c5fdb44b33835209665fe069 selftests/landlock: Test UNIX sockets with any address formats
+d1cc0ef80f2377a6970737ed88d95014ca461993 selftests/landlock: Test connected and unconnected datagram UNIX socket
+644a728506c794e9e4f5fb9845ed4f7014cf46d9 selftests/landlock: Test inherited restriction of abstract UNIX socket
+369b48b43a09f995876bb2e88d78845eb2a80212 samples/landlock: Add support for abstract UNIX socket scoping
+dba40c77003861b1b435de43101aaa05b769dda9 landlock: Document LANDLOCK_SCOPE_ABSTRACT_UNIX_SOCKET
+54a6e6bbf3bef25c8eb65619edde70af49bd3db0 landlock: Add signal scoping
+ea292363c322d82663e021c5dc532894c30d4e59 selftests/landlock: Test signal scoping
+c8994965013ee62cfb0f3cec01aa447f9077a869 selftests/landlock: Test signal scoping for threads
+f34e9ce5f4794387121120b2d2ff5aa265ef6ce9 selftests/landlock: Test signal created by out-of-bound message
+f490e205bcbada6eb6dca8b75a2511685e6bd0f0 samples/landlock: Add support for signal scoping
+1ca980815e1f284dddcb5e678c91bbd3e3f3a6a6 landlock: Document LANDLOCK_SCOPE_SIGNAL
+53d69bdd5b19bb17602cb224e01aeed730ff3289 io_uring/sqpoll: do the napi busy poll outside the submission block
+983f12149942a58c66e9db7638a10667aae0d958 RISC-V: Implement kgdb_roundup_cpus() to enable future NMI Roundup
+e36ddf3226864e095c5f18a7d46feb1e75fe91b2 riscv: defconfig: Disable RZ/Five peripheral support
+3cc754c237e9552ee0f2f6c2f37b3454bee39e67 riscv: Use LIST_HEAD() to simplify code
+aef79e189ba2b32f78bd35daf2c0b41f3868a321 i3c: master: support to adjust first broadcast address speed
+20ade67bb1645f5ce8f37fa79ddfebbc5b5b24ef i3c: master: svc: use slow speed for first broadcast address
+96267f358c14e88e07f1d96ed6f1827da59e9ecc i3c: master: svc: adjust SDR according to i3c spec
+609366e7a06d035990df78f1562291c3bf0d4a12 i3c: master: cdns: Fix use after free vulnerability in cdns_i3c_master Driver Due to Race Condition
+61850725779709369c7e907ae8c7c75dc7cec4f3 i3c: master: svc: Fix use after free vulnerability in svc_i3c_master Driver Due to Race Condition
+594ffcf4efe5094876f5b549a36262416104cd3d riscv: Make riscv_isa_vendor_ext_andes array static
+11c2dbd7f2415731ac8213d3de0dbd5f5dd0ddc7 selftests: riscv: Allow mmap test to compile on 32-bit
+048e2906d4caf57018e92f49c9a0f998ebb83f9b riscv: Randomize lower bits of stack address
+21d98d658f9e5967dc30c321bc258b50740c6665 ACPI: RISCV: Make acpi_numa_get_nid() to be static
+55bef83509f0cbe4cc54a583ac0313389dabee66 Input: Convert comma to semicolon
+58ff537109ac863d4ec83baf8413b17dcc10101c riscv: Omit optimized string routines when using KASAN
+77514915b72c51ebc1c30a67a54d4a90ca2a4a39 riscv: Enable bitops instrumentation
+ea7e2d5e49c05e5db1922387b09ca74aa40f46e2 mm: call the security_mmap_file() LSM hook in remap_file_pages()
+583543760976a4ba111d5e2e1b2c6cfb665fcc45 Merge patch series "riscv: Improve KASAN coverage to fix unit tests"
+04beb6e0e08c30c6f845f50afb7d7953603d7a6f io_uring: check for presence of task_work rather than TIF_NOTIFY_SIGNAL
+8a23c9e1ba4642b60420e8caa75859883a509c24 selinux,smack: properly reference the LSM blob in security_watch_key()
+5f5e7344322f0b0676579af054c787ed57d1c1df kbuild: generate offset range data for builtin modules
+ac7bd0945e3db5253bd03bfc40e71afafb08d225 scripts: add verifier script for builtin module range data
+ae70d708c932e7bc08b6c1975e1a010ee0b4e272 kbuild: add install target for modules.builtin.ranges
+327df5bf540e1cde17ae35d5a043ece773c80ff6 kallsyms: squash output_address()
+9a418218dadf913fe78dbe6ad6b2e31e721b84ef kallsyms: change overflow variable to bool type
+a16219bdd34777cce35b9b6a704bfbaad28adb72 scripts: move hash function from scripts/kconfig/ to scripts/include/
+d607e0e7a8d2ea6565f11064d28b0825a95748aa kconfig: change some expr_*() functions to bool
+4fa146eaecaee6301e8f5b104fe63b41afdf83e6 kconfig: add comments to expression transformations
+440f67ccdcd31ca33d8d0439b16e4b6d4d7aba17 kconfig: refactor expr_eliminate_dups()
+f93d6bfbd2f74d79041c153a59df5336f6e9a14a kconfig: use hash table to reuse expressions
+95573cac25c6b11f02d599d18e9a1c778706e838 kconfig: cache expression values
+cc6d281fcc7319babc6dde8f95a8b7feb1eeffd0 kbuild: remove append operation on cmd_ld_ko_o
+eed138d67d99312f07ed3bc326903b6808885571 io_uring: improve request linking trace
+eb017f4ea13b1a5ad7f4332279f2e4c67b44bdea Input: adp5588-keys - fix check on return code
+36ec807b627b4c0a0a382f0ae48eac7187d14b2b Merge branch 'next' into for-linus
+732b177663e1757950d73e7763fa0de26272439f ACPI: NUMA: initialize all values of acpi_early_node_map to NUMA_NO_NODE
+ad380f6a0a5e82e794b45bb2eaec24ed51a56846 RISC-V: Don't have MAX_PHYSMEM_BITS exceed phys_addr_t
+6d74d178fe6eaf61e384f3be6ba64150bddce8a6 tools: Add riscv barrier implementation
+aa5736dc7aa4d6f0e5e4e4147d9aef42bb82deab tools: Optimize ring buffer for riscv
+eac2ca2d682f94f46b1973bdf5e77d85d77b8e53 io_uring: check if we need to reschedule during overflow flush
+732b47db1d6c26985faca1ae5820bcfa10f6335d MAINTAINERS: update email for Joel Granados
+47b9533ccd1a5e9c2e7944686ccf491b27a892f3 Merge patch series "tools: Add barrier implementations for riscv"
+f0c9363db2ddfb07723c00cb153c84c8179e92d4 perf/riscv-sbi: Add platform specific firmware event handling
+b3f835cd7339919561866252a11831ead72e7073 crash: Fix riscv64 crash memory reserve dead loop
+652bfcb76fe689f4d85b6f3688025a87fb94f9a1 KEYS: Remove unused declarations
+70fd1966c93bf3bfe3fe6d753eb3d83a76597eef KEYS: prevent NULL pointer dereference in find_asymmetric_key()
+300e6d4116f956b035281ec94297dc4dc8d4e1d3 sign-file,extract-cert: move common SSL helper functions to a header
+467d60eddf55588add232feda325da7215ddaf30 sign-file,extract-cert: avoid using deprecated ERR_get_error_line()
+558bdc45dfb2669e1741384a0c80be9c82fa052c sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3
+5124bc96162667766f6120b19f57a640c2eccb2a crypto: caam - Pad SG length when allocating hash edesc
+4330869a2dd9e3abfde820fb5d93888e7d98ffa1 crypto: s390/paes - Fix module aliases
+44ac4625ea002deecd0c227336c95b724206c698 crypto: powerpc/p10-aes-gcm - Disable CRYPTO_AES_GCM_P10
+b2142a22ef22466575feaccc74a2995c62cae7e8 Input: hynitron_cstxxx - drop explicit initialization of struct i2c_device_id::driver_data to 0
+70920941923316b760bc7a804eb3d49a126d8712 RDMA/bnxt_re: Remove the unused variable en_dev
+bb0e391975f8da826305cbaa3e3d34b03c47e2a6 dma-mapping: fix vmap and mmap of noncontiougs allocations
+3d09ff45469eb2912ce2227c47efac297230d6d6 iommu/dma: remove most stubs in iommu-dma.h
+b348b6d17fd1d5d89b86db602f02bea54a754bd8 dma-mapping: report unlimited DMA addressing in IOMMU DMA path
+358800b702506c829c8ce21c125420d2abce2090 ARM: spitz: fix compile error when matrix keypad driver is enabled
+6c56fb4434f59df9c777eded5f77cc812882cef3 pm: cpupower: Clean up bindings gitignore
+bdeb868c0ddf04c4777bf651834495baaf4f991b sched: Add dummy version of sched_group_set_idle()
+7ebd84d627e40cb9fb12b338588e81b6cca371e3 sched: Put task_group::idle under CONFIG_GROUP_SCHED_WEIGHT
+edf1c586e92675c4e0eb27758fcdb55a56838de1 sched, sched_ext: Disable SM_IDLE/rq empty path when scx_enabled()
+62d3726d4cd66f3e48dfe0f0401e0d74e58c2170 sched_ext: Fix build when !CONFIG_STACKTRACE
+431844b65f4c1b988ccd886f2ed29c138f7bb262 sched_ext: Provide a sysfs enable_seq counter
+fc1c79be45485565dc145fd03ee38bca89be8fbd kbuild: remove unnecessary export of RUST_LIB_SRC
+062a1481cf275d39d3cda99f8357f2f8bdd8f611 kbuild: doc: update the description about Kbuild/Makefile split
+1a59bd3ca5d8fde10d082e56c3073f7fa563e73b kbuild: doc: remove description about grepping CONFIG options
+a866eda43f4f0d0c4dd53af81f15375a4b799eb8 kbuild: doc: remove outdated description of the limitation on -I usage
+7813cd68ea7ae909676aea19411b5c9c20436ebb kbuild: doc: throw out the local table of contents in modules.rst
+803d5059529aaabd53aabd5cd2c7b405824601b7 kbuild: doc: drop section numbering, use references in modules.rst
+e873fb948283a595bba6228efc69ed1191f45689 kbuild: doc: remove the description about shipped files
+2eb5d7f2429945aeb4730c7c310a0e1b5ae4c8d0 kbuild: doc: describe the -C option precisely for external module builds
+fa911d1f377bbe4cc47e58afbd8fff7750b7ac62 kbuild: doc: replace "gcc" in external module description
+f89722faa31466ff41aed21bdeb9cf34c2312858 ipe: Add missing terminator to list of unit tests
+5c36498d06b9b00393c2f35edbf16b28194375fa Merge tag 'lsm-pr-20240923' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+24f772dec31591f9268a9c9e4943dc5dc47eaf9b Merge tag 'keys-next-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+e1b061b444fb01c237838f0d8238653afe6a8094 Merge tag 'landlock-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+1cfb46051db9ddb68e297eaf17270e09874ec5f3 Merge tag 'v6.12-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+7108fff8848bc3bd958789f4db6beff94bdae521 Merge tag 'm68knommu-for-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+97d8894b6f4c44762fd48f5d29e73358d6181dbb Merge tag 'riscv-for-linus-6.12-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+172d513936c707e991c3eca1b79cd8a153171862 Merge tag 'sysctl-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+3147a0689dd9793990ff954369ffcdf2de984b46 Merge tag 'for-6.12/io_uring-20240922' of git://git.kernel.dk/linux
+6fa6588e5964473356f0e2a02093ea42a5b3fd56 Merge tag 'sched_ext-for-6.12-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+54d7e8190ecfe72ff0dab96545e782f7298cb69a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+db78436bed06708a8cadb61c60881d568fb4ae27 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+4491b85480c8ca2d85b2a06262828ec1af5c00ba Merge tag 'dma-mapping-6.12-2024-09-24' of git://git.infradead.org/users/hch/dma-mapping
+7bc21c5e1f94351b04b6082c16c5d4887c28a414 Merge tag 'vfio-v6.12-rc1' of https://github.com/awilliam/linux-vfio
+5c480f1da82c15f635a2b663740cb2bb241cc416 Merge tag 'rproc-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+6e10aa1fee979a898b06a4c8f2083de16e16df69 Merge tag 'rpmsg-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+6db6a19f1ae31e29857b0f6f3e3896c22543be21 Merge tag 'hwlock-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+9ae2940cbcb332aee3c9d9a0bb0f2d7dc6a82e44 Merge tag 'input-for-v6.12-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+ba0c0cb56f227d9af9c19a276fac982c492c079f remoteproc: k3-m4: use the proper dependencies
+cd3d6477298155482b772eae481ce01c9e764129 Merge tag 'i3c/for-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+7f8de2bf072530a48f53a5658db8528af598b75f Merge tag 'linux-cpupower-6.12-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+68e5c7d4cefb66de3953a874e670ec8f1ce86a24 Merge tag 'kbuild-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2693878181914449223==--
+--===============0316671522331869093==--
