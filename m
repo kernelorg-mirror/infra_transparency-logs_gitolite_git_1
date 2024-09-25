@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 25 Sep 2024 21:56:11 -0000
-Message-Id: <172730137171.4031826.2766066675586986349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 25 Sep 2024 22:01:26 -0000
+Message-Id: <172730168693.4035886.14707397888775333875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/todo
-    old: 091676c1e28123406a49ebcb6fe064114b7f2336
-    new: 4e49940f23354c9358a95b86ce17d7386b172d63
+  - ref: refs/heads/for-6.12-fixes
+    old: 42268ad0eb4142245ea40ab01a5690a40e9c3b41
+    new: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
     log: |
-         4e49940f23354c9358a95b86ce17d7386b172d63 What's cooking (2024/09 #10)
+         1e123fd73deb16cb362ecefb55c90c9196f4a6c2 sched_ext: Add __COMPAT helpers for features added during v6.12 devel cycle
+         
+  - ref: refs/heads/for-next
+    old: 42268ad0eb4142245ea40ab01a5690a40e9c3b41
+    new: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
+    log: |
+         1e123fd73deb16cb362ecefb55c90c9196f4a6c2 sched_ext: Add __COMPAT helpers for features added during v6.12 devel cycle
          
