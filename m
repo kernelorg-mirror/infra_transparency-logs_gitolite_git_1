@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 25 Sep 2024 09:31:12 -0000
-Message-Id: <172725667263.3452065.3089842706206650521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Sep 2024 09:48:23 -0000
+Message-Id: <172725770339.3464291.8138692835890594242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/linux-next
-    old: 2fae6bb7be320270801b3c3b040189bd7daa8056
-    new: 8f2f74f2f3ebd9bb7159301cb7560db75d2e801a
+  - ref: refs/heads/master
+    old: d364ce3bc3f5aaf0f9f99ce9f433f0e8a8d184b5
+    new: 25bfc6333e32ceee7b9da9ba260aeb4ac3144faf
     log: |
-         8f2f74f2f3ebd9bb7159301cb7560db75d2e801a xen/pciback: fix cast to restricted pci_ers_result_t and pci_power_t
+         25bfc6333e32ceee7b9da9ba260aeb4ac3144faf bpftool: Remove llvm-strip from Makefile
          
