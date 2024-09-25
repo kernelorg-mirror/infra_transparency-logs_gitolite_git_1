@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 25 Sep 2024 12:00:32 -0000
-Message-Id: <172726563249.3571380.1192902518771806874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 25 Sep 2024 12:15:19 -0000
+Message-Id: <172726651916.3582359.9724607208624628482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 42aa4cd4f6383875d4163620b0590c4ab659b68b
-    new: 93ba23d81326f64f2bd53d5ad00fa0a3d0ffb2a6
+  - ref: refs/heads/linux-next
+    old: 8f2f74f2f3ebd9bb7159301cb7560db75d2e801a
+    new: c727a18ca391d8d9bac9d39caea6dac9c4391c59
     log: |
-         2b12ea3a8966a6f3f1f9dd225d67dfcb362fd07d meson: test for pidfd_getfd()
-         d159b58bfd01bc261107c5a7a9e00d1715f33f14 login-utils/su-common: Validate all return values again
-         93ba23d81326f64f2bd53d5ad00fa0a3d0ffb2a6 Merge branch 'meson/pidfd_getfd' of https://github.com/t-8ch/util-linux
+         08377ed24feef66866d0c6aabcae0aec515cf2ca xen: sync elfnote.h from xen tree
+         1db29f99edb056d8445876292f53a63459142309 x86/pvh: Make PVH entrypoint PIC for x86-64
+         b464b461d27d564125db760938643374864c1b1f x86/pvh: Set phys_base when calling xen_prepare_pvh()
+         fe1fb5c4000072b3734a040b48a5385565aefa62 x86/kernel: Move page table macros to header
+         c727a18ca391d8d9bac9d39caea6dac9c4391c59 x86/pvh: Add 64bit relocation page tables
          
