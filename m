@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Wed, 25 Sep 2024 22:21:46 -0000
-Message-Id: <172730290636.4051560.16530621761879796277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 25 Sep 2024 22:24:45 -0000
+Message-Id: <172730308538.4052918.7338611121424190637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/bpf/slab-iter-v1
-    old: a8011a45985905497bc5e00fee4912f00289b781
-    new: 4b00a1c2a4965bcd16815d5ec9a53bf967db5c27
+  - ref: refs/heads/for-6.12-fixes
+    old: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
+    new: a748db0c8c6a88da66c3ab3791bd1a229f4a7fee
     log: |
-         2484111accb0d487ef52a4c62c6b5b25af560ee3 mm/bpf: Add bpf_get_slab_cache() kfunc
-         4b00a1c2a4965bcd16815d5ec9a53bf967db5c27 selftests/bpf: Add a test for slab_iter
+         a748db0c8c6a88da66c3ab3791bd1a229f4a7fee tools/sched_ext: Receive misc updates from SCX repo
+         
+  - ref: refs/heads/for-next
+    old: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
+    new: a748db0c8c6a88da66c3ab3791bd1a229f4a7fee
+    log: |
+         a748db0c8c6a88da66c3ab3791bd1a229f4a7fee tools/sched_ext: Receive misc updates from SCX repo
          
