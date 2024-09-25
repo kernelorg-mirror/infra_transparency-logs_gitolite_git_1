@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 25 Sep 2024 15:00:41 -0000
-Message-Id: <172727644136.3713916.11542706844802252045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 25 Sep 2024 15:08:37 -0000
+Message-Id: <172727691793.3719126.16279671012614982377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 79639a5a67eab71f0ef0b52a1ff55f13e7d2bd77
-    new: cebbc100cab6843ed9b688e0726b9e47eb8b1a87
-    log: |
-         cebbc100cab6843ed9b688e0726b9e47eb8b1a87 sunrpc: fix prog selection loop in svc_process_common
-         
+  - ref: refs/heads/fileMyXwX4
+    old: e249786b2188107a7c50e7174d35f955a60988a1
+    new: 0000000000000000000000000000000000000000
