@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 25 Sep 2024 15:12:28 -0000
-Message-Id: <172727714838.3723127.11234320346881179195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 25 Sep 2024 15:20:23 -0000
+Message-Id: <172727762365.3731391.9088675193132968241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 667e8026261de5d230908a836f65fa2b48219d05
-    new: 8e4ce1b9eaf0d3065e42538d601b8b5cbab66876
+  - ref: refs/heads/pwm/for-nexxt
+    old: 59149ece966c67febc66e06dd74bc8630eb6d6ba
+    new: 4dfff7c8dff05cf5baa248dd4f883796e3a4d1eb
     log: |
-         d93544ba0cd88dae94a8ddae751b344f9490ef8a Bluetooth: L2CAP: Fix uaf in l2cap_connect
-         f9c212dd4eb4e96501cd963764d3946aab549329 Bluetooth: btmrvl: Use IRQF_NO_AUTOEN flag in request_irq()
-         47d72bfcb3964f520cf19b5da5a9fcd587b224a2 Bluetooth: btusb: add Foxconn 0xe0fc for Qualcomm WCN785x
-         8e4ce1b9eaf0d3065e42538d601b8b5cbab66876 Bluetooth: btusb: Add one more ID 0x0489:0xe0f3 for Qualcomm WCN785x
+         4dfff7c8dff05cf5baa248dd4f883796e3a4d1eb pwm: axi-pwmgen: Create a dedicated function for getting driver data from a chip
          
