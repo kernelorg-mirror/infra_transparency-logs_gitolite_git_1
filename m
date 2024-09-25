@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Sep 2024 09:55:14 -0000
-Message-Id: <172725811413.3471306.1758167701631279121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 25 Sep 2024 09:57:03 -0000
+Message-Id: <172725822379.3472333.4133897914027305720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 25bfc6333e32ceee7b9da9ba260aeb4ac3144faf
-    new: 9eac650cd1202f0ef3613d79ba1013fd8f6cdabb
+    old: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
+    new: 8b62645b09f870d70c7910e7550289d444239a46
     log: |
-         510c654dfa3ba08b7df0da27cec445163f5aa99d selftests/bpf: Fix uprobe consumer test
-         9eac650cd1202f0ef3613d79ba1013fd8f6cdabb selftests/bpf: Bail out quickly from failing consumer test
+         8b62645b09f870d70c7910e7550289d444239a46 bpf: Use raw_spinlock_t in ringbuf
          
