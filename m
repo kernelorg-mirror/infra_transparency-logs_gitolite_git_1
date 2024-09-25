@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5123322908245905216=="
+Content-Type: multipart/mixed; boundary="===============3352108909212936180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 25 Sep 2024 05:03:10 -0000
-Message-Id: <172724059097.3248595.2675020469776288814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Sep 2024 05:45:10 -0000
+Message-Id: <172724311057.3280591.10863221658943306537@gitolite.kernel.org>
 
---===============5123322908245905216==
+--===============3352108909212936180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/testing
-    old: fdde020fb5e94f991726df84c8ca0efa5a135039
-    new: a0a17c87bd21abca9cd0aa2f386f7a19163e4cef
-    log: revlist-fdde020fb5e9-a0a17c87bd21.txt
+  - ref: refs/heads/master
+    old: a9f8c1b4273fe2eb679641ae8ea3f5a60e80967c
+    new: d364ce3bc3f5aaf0f9f99ce9f433f0e8a8d184b5
+    log: revlist-a9f8c1b4273f-d364ce3bc3f5.txt
 
---===============5123322908245905216==
+--===============3352108909212936180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdde020fb5e9-a0a17c87bd21.txt
+Content-Disposition: attachment; filename=revlist-a9f8c1b4273f-d364ce3bc3f5.txt
 
 3daee2e4b3568f0ed88b0598df96547fcf21cb9b Merge tag 'v6.10' into next
 4256d472010e742a1ff7558d02ed867d378695d9 Input: iqs269a - use device_for_each_child_node_scoped()
@@ -614,23 +614,7 @@ fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of 
 4165cee7ecb112c20bc1a05fa8d93d16d11b68c2 Merge tag 'exfat-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
-4354e7e044abd98308e09566ec2987aaf81769a7 hwmon: (max16065) Reorder include files to alphabetic order
-23a88949d8bcc6b682087178bd20269aa0c7c91b hwmon: (max16065) Use bit operations
-0423dd6b9fb5cc35692469890708c444748519fd hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
-892c30f6e7430dfa4d8dd55af87e98fabe35459e mm/damon/core: avoid overflow in damon_feed_loop_next_input()
-4cb17aad72af3881ee3c04721fe3349ce2402482 Revert "list: test: fix tests for list_cut_position()"
-fd208bca15d438aed5578978d342e4c3a757a3d5 resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
-4cc2fa197efb43d0512cdae74a999de2a4f7c138 mm: Make SPLIT_PTE_PTLOCKS depend on SMP
-ba9bcb6178ea8cb160214f9bb0484dde8f404c7f powerpc/pseries/eeh: move pseries_eeh_err_inject() outside CONFIG_DEBUG_FS block
-eb7466ecf5476268ddaa38dca917d7c972277c93 mmc: core: Only set maximum DMA segment size if DMA is supported
-b6ddbba5d798e046b1480710700ea076ffda3c90 Merge branch 'hwmon-next' into hwmon-staging
-1061cd0302bd75cac4671743260571333b592b2e Merge branch 'hwmon' into hwmon-staging
-8c54aeef4ade5d09626aa76c748f985048c5951b Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-5780bc6e28464e5f163c4c6554664b45232cf151 Merge branch 'hwmon-g762' into hwmon-staging
-9b7cfba5ee3894d0345ff25a511e57db8d52358f Merge branch 'hwmon-emc2103' into hwmon-staging
-8717ad5a75c7254c501d9d86b73a2fab001f7f2d Merge branch 'hwmon-amc6821' into hwmon-staging
-acb7cf9a81ba69369b720c44dc53129d7d9ae3ab Merge branch 'hwmon-max16065' into hwmon-staging
-afe64381ddcc392511750938541c59c89f7e2f8c Merge branch 'hwmon-staging' into testing
-a0a17c87bd21abca9cd0aa2f386f7a19163e4cef Merge branch 'fixes-v6.12' into testing
+c30806aa127b8fa7e922d4bbc3142fcdf0bc860d selftests/bpf: Remove test_skb_cgroup_id.sh from TEST_PROGS
+d364ce3bc3f5aaf0f9f99ce9f433f0e8a8d184b5 selftests/bpf: Set vpath in Makefile to search for skels
 
---===============5123322908245905216==--
+--===============3352108909212936180==--
