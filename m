@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1018815897309564701=="
+Content-Type: multipart/mixed; boundary="===============2891695415297504227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 25 Sep 2024 03:13:03 -0000
-Message-Id: <172723398360.3165680.11618810196503751949@gitolite.kernel.org>
+Date: Wed, 25 Sep 2024 03:13:09 -0000
+Message-Id: <172723398952.3165877.17015181715497782461@gitolite.kernel.org>
 
---===============1018815897309564701==
+--===============2891695415297504227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: c813111d19e65b6336a6352eae9c1ff5c40f722f
+  - ref: refs/heads/dev
+    old: ae87b9c2dc9800e6ab52febd09341140599ff8e3
     new: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
-    log: revlist-c813111d19e6-684a64bf32b6.txt
+    log: revlist-ae87b9c2dc98-684a64bf32b6.txt
 
---===============1018815897309564701==
+--===============2891695415297504227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c813111d19e6-684a64bf32b6.txt
+Content-Disposition: attachment; filename=revlist-ae87b9c2dc98-684a64bf32b6.txt
 
+2982c8c19bab020e38da9d503aa21a3b389c53ac cifs: Use iterate_and_advance*() routines directly for hashing
+a2906d3316fc19bf0ade84618bb73eab604c447e cifs: Switch crypto buffer to use a folio_queue rather than an xarray
+4aa571d67e81b5b213abf9b4daa5523beb0e58e8 cifs: Don't support ITER_XARRAY
 3956e7284c41629eb8f1e7104f1e73332bd1ce97 Merge branch 'netfs-writeback' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
 4b40d43d9f951d87ae8dc414c2ef5ae50303a266 docs: filesystems: corrected grammar of netfs page
 32d5f79aafebb928eeb9325bb390d509f2d5c0a9 ASoC: Improvements for mchp-pdmc
@@ -90,7 +93,6 @@ b635a84bde6f0b94944b5d960f4e6a52ac3555c6 riscv: remove limit on the size of read
 9ea7b92b77df7d2eee3c31ef4a19f0f12ec74190 Merge patch series "remove size limit on XIP kernel"
 168c3e0d443599dd370710243fbf5c815fad7890 Merge tag 'sunxi-dt-for-6.12-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
 a5fb217f13f74b2af2ab366ffad522bae717f93c dma-mapping: reflow dma_supported
-2af583afcf9d54b988b68d1033101e73edd72a9b f2fs: remove unused parameters
 26e197b7f9240a4ac301dd0ad520c0c697c2ea7d block: fix potential invalid pointer dereference in blk_add_partition
 3abb708ec0be25da16a1ee9f1ab5cbc93f3256f3 LoongArch: KVM: Implement function kvm_para_has_feature()
 79f504a2cd3c0b7d953d0015618a2a41559a2cfd erofs: allocate more short-lived pages from reserved pool first
@@ -297,7 +299,6 @@ a919390e9194209bac163ec8e19520bdb3fb738b s390/module: Provide find_section() hel
 e10863fffe3a377a828f876a39cc1c47567b556f s390/vdso: Allow alternatives in vdso code
 c1ae1b4ef5bf541c71ced84d087abed029f13b1a s390/vdso: Move vdso symbol handling to separate header file
 0b117e58409efce351f435618e2b6023804c0988 AMD SoundWire machine driver code refactor
-5cc69a27abfa91abbb39fc584f82d6c867b60f47 f2fs: forcibly migrate to secure space for zoned device file pinning
 49e2e353fb0dbef8dced3e8e65365580349c4b14 ASoC: tas2781: Add Calibration Kcontrols for Chromebook
 2a1de5678944147c2a41b6006127d2d0b618e83b regulator: Split up _regulator_get()
 dcd18a3fb1228409dfc24373c5c6868a655810b0 Input: ps2-gpio - use IRQF_NO_AUTOEN flag in request_irq()
@@ -945,7 +946,6 @@ abd4107a1d0ebbd4c44fe23c861b817a0e2843d7 dt-bindings: mfd: qcom,tcsr: Add compat
 91dba615c3431daf0132349812f6adc83e123eaf mfd: atc260x: Convert a bunch of commas to semicolons
 7ebd84d627e40cb9fb12b338588e81b6cca371e3 sched: Put task_group::idle under CONFIG_GROUP_SCHED_WEIGHT
 edf1c586e92675c4e0eb27758fcdb55a56838de1 sched, sched_ext: Disable SM_IDLE/rq empty path when scx_enabled()
-ae87b9c2dc9800e6ab52febd09341140599ff8e3 f2fs: allow F2FS_IPU_NOCACHE for pinned file
 f8eb5bd9a818cc5f2a1e50b22b0091830b28cc36 mm: fix build on 32-bit targets without MAX_PHYSMEM_BITS
 f8ffbc365f703d74ecca8ca787318d05bbee2bf7 Merge tag 'pull-stable-struct_fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 62d3726d4cd66f3e48dfe0f0401e0d74e58c2170 sched_ext: Fix build when !CONFIG_STACKTRACE
@@ -1051,4 +1051,4 @@ fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of 
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============1018815897309564701==--
+--===============2891695415297504227==--
