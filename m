@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4760078267623718965=="
+Content-Type: multipart/mixed; boundary="===============4291543829308580455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 25 Sep 2024 02:06:16 -0000
-Message-Id: <172722997682.3115573.14353995667349666684@gitolite.kernel.org>
+Date: Wed, 25 Sep 2024 02:06:28 -0000
+Message-Id: <172722998807.3115836.1132193170194028327@gitolite.kernel.org>
 
---===============4760078267623718965==
+--===============4291543829308580455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 431c1646e1f86b949fa3685efc50b660a364c2b6
     new: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
     log: revlist-431c1646e1f8-684a64bf32b6.txt
 
---===============4760078267623718965==
+--===============4291543829308580455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of 
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============4760078267623718965==--
+--===============4291543829308580455==--
