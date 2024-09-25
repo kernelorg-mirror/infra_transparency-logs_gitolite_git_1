@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 25 Sep 2024 12:32:36 -0000
-Message-Id: <172726755669.3594510.8863993564976431061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 25 Sep 2024 12:38:14 -0000
+Message-Id: <172726789478.3598761.6328306488133736477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 9bb8704a0b51c69f3788d0b0283a9512aff4f494
-    new: d34146416af6ca8b246f3a2dc918ac3dad6d264b
+  - ref: refs/heads/rdma-next
+    old: 112c8d3613bcb2995486a0c795c2b2e4cebb93c6
+    new: 3ad4a532895c6ecf4e54155540f1160bfb375d28
     log: |
-         d34146416af6ca8b246f3a2dc918ac3dad6d264b test/runtests.sh: revert to only checking dmesg for root
+         3ad4a532895c6ecf4e54155540f1160bfb375d28 RDMA/mlx5: Round max_rd_atomic/max_dest_rd_atomic up instead of down
          
