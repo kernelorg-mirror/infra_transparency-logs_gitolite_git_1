@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8525536134281753277=="
+Content-Type: multipart/mixed; boundary="===============4760078267623718965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 25 Sep 2024 01:53:37 -0000
-Message-Id: <172722921738.3104922.13679658972869983583@gitolite.kernel.org>
+Date: Wed, 25 Sep 2024 02:06:16 -0000
+Message-Id: <172722997682.3115573.14353995667349666684@gitolite.kernel.org>
 
---===============8525536134281753277==
+--===============4760078267623718965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: fa911d1f377bbe4cc47e58afbd8fff7750b7ac62
+  - ref: refs/heads/master
+    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
     new: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
-    log: revlist-fa911d1f377b-684a64bf32b6.txt
+    log: revlist-431c1646e1f8-684a64bf32b6.txt
 
---===============8525536134281753277==
+--===============4760078267623718965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa911d1f377b-684a64bf32b6.txt
+Content-Disposition: attachment; filename=revlist-431c1646e1f8-684a64bf32b6.txt
 
-0bea8287df6c86cacaf34eef167f23dcc5dbcede ufs: store cookie in private data
-1146e5a69efca76501378f748388fd7742ad09cf ubifs: store cookie in private data
-5e9b50dea970ae6d3e1309d4254157099734a2af fs: add f_pipe
-5a957bbac3ab9808a8df711a269e4d18f84e9e4a pipe: use f_pipe
-11068e0b64cbb540b96e577fcca0926242ecaf58 fs: remove f_version
-24a988f75c8a5f16ef935c51039700e985767eb9 Merge patch series "file: remove f_version"
-2077006d4725c82c6e9612cec3a6c140921b067f uidgid: make sure we fit into one cacheline
-db0aa2e9566fda2d23dc8f6c102856ead95578a4 mm: Define struct folio_queue and ITER_FOLIOQ to handle a sequence of folios
-197a3de607d92b3d72e69edf5470e0a8fae548cc iov_iter: Provide copy_folio_from_iter()
-c45ebd636c32d33c75e51ce977520ff146bd41a1 cifs: Provide the capability to extract from ITER_FOLIOQ to RDMA SGEs
-cd0277ed0c188dd40e7744e89299af7b78831ca4 netfs: Use new folio_queue data type and iterator instead of xarray iter
-bfaa33b8ba196f9506a45e5a36e968f087c8cd16 netfs: Provide an iterator-reset function
-983cdcf8fe141b0ce16bc71959a5dc55bcb0764d netfs: Simplify the writeback code
-2e45b922977c07bb339d76fd45e68f9b907fef7d afs: Make read subreqs async
-ee4cdf7ba857a894ad1650d6ab77669cbbfa329e netfs: Speed up buffered reading
-86b374d061ee0dc1cf15b56659ab13542518770a netfs: Remove fs/netfs/io.c
-c4f1450ecccc5311db87f806998eda1c824c4e35 cachefiles, netfs: Fix write to partial block at EOF
-8f246b7c0a1be0882374f2ff831a61f0dbe77678 netfs: Cancel dirty folios that have no storage destination
-2982c8c19bab020e38da9d503aa21a3b389c53ac cifs: Use iterate_and_advance*() routines directly for hashing
-a2906d3316fc19bf0ade84618bb73eab604c447e cifs: Switch crypto buffer to use a folio_queue rather than an xarray
-4aa571d67e81b5b213abf9b4daa5523beb0e58e8 cifs: Don't support ITER_XARRAY
 3956e7284c41629eb8f1e7104f1e73332bd1ce97 Merge branch 'netfs-writeback' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
 4b40d43d9f951d87ae8dc414c2ef5ae50303a266 docs: filesystems: corrected grammar of netfs page
 32d5f79aafebb928eeb9325bb390d509f2d5c0a9 ASoC: Improvements for mchp-pdmc
@@ -787,6 +766,18 @@ ca5c65687e3e0370623e9e5d4e1a2aab8ebe20fd Merge branch 'pci/quirks'
 5dc07a20ac1c6882e191f821f9c75edde958224d Merge branch 'pci/misc'
 81e53c0da8f8b153e049036e5ca5ca20e811c0c8 Merge branch 'pci/tools'
 8a23c9e1ba4642b60420e8caa75859883a509c24 selinux,smack: properly reference the LSM blob in security_watch_key()
+5f5e7344322f0b0676579af054c787ed57d1c1df kbuild: generate offset range data for builtin modules
+ac7bd0945e3db5253bd03bfc40e71afafb08d225 scripts: add verifier script for builtin module range data
+ae70d708c932e7bc08b6c1975e1a010ee0b4e272 kbuild: add install target for modules.builtin.ranges
+327df5bf540e1cde17ae35d5a043ece773c80ff6 kallsyms: squash output_address()
+9a418218dadf913fe78dbe6ad6b2e31e721b84ef kallsyms: change overflow variable to bool type
+a16219bdd34777cce35b9b6a704bfbaad28adb72 scripts: move hash function from scripts/kconfig/ to scripts/include/
+d607e0e7a8d2ea6565f11064d28b0825a95748aa kconfig: change some expr_*() functions to bool
+4fa146eaecaee6301e8f5b104fe63b41afdf83e6 kconfig: add comments to expression transformations
+440f67ccdcd31ca33d8d0439b16e4b6d4d7aba17 kconfig: refactor expr_eliminate_dups()
+f93d6bfbd2f74d79041c153a59df5336f6e9a14a kconfig: use hash table to reuse expressions
+95573cac25c6b11f02d599d18e9a1c778706e838 kconfig: cache expression values
+cc6d281fcc7319babc6dde8f95a8b7feb1eeffd0 kbuild: remove append operation on cmd_ld_ko_o
 baeb9a7d8b60b021d907127509c44507539c15e5 Merge tag 'sched-rt-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eed138d67d99312f07ed3bc326903b6808885571 io_uring: improve request linking trace
 eb017f4ea13b1a5ad7f4332279f2e4c67b44bdea Input: adp5588-keys - fix check on return code
@@ -961,6 +952,15 @@ f8ffbc365f703d74ecca8ca787318d05bbee2bf7 Merge tag 'pull-stable-struct_fd' of gi
 431844b65f4c1b988ccd886f2ed29c138f7bb262 sched_ext: Provide a sysfs enable_seq counter
 b3f391fddf3cfaadda59ec8da8fd17f4520bbf42 Merge tag 'bcachefs-2024-09-21' of git://evilpiepirate.org/bcachefs
 d0359e4ca0f26aaf3118124dfb562e3b3dca1c06 Merge tag 'fs_for_v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+fc1c79be45485565dc145fd03ee38bca89be8fbd kbuild: remove unnecessary export of RUST_LIB_SRC
+062a1481cf275d39d3cda99f8357f2f8bdd8f611 kbuild: doc: update the description about Kbuild/Makefile split
+1a59bd3ca5d8fde10d082e56c3073f7fa563e73b kbuild: doc: remove description about grepping CONFIG options
+a866eda43f4f0d0c4dd53af81f15375a4b799eb8 kbuild: doc: remove outdated description of the limitation on -I usage
+7813cd68ea7ae909676aea19411b5c9c20436ebb kbuild: doc: throw out the local table of contents in modules.rst
+803d5059529aaabd53aabd5cd2c7b405824601b7 kbuild: doc: drop section numbering, use references in modules.rst
+e873fb948283a595bba6228efc69ed1191f45689 kbuild: doc: remove the description about shipped files
+2eb5d7f2429945aeb4730c7c310a0e1b5ae4c8d0 kbuild: doc: describe the -C option precisely for external module builds
+fa911d1f377bbe4cc47e58afbd8fff7750b7ac62 kbuild: doc: replace "gcc" in external module description
 a1fb2fcbb60650621a7e3238629a8bfb94147b8e Merge tag 'for-6.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 721068dec4ec3cc625d8737d4dfa0ff0aa795cd1 Merge tag 'gfs2-v6.10-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 8c04a6d6e07ce565928ea98ae8c534cac871af19 Merge tag 'nfsd-6.12' into linux-next-with-localio
@@ -1051,4 +1051,4 @@ fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of 
 f7fccaa772718f6d2e798dece4a5210fe4c406ec Merge tag 'fuse-update-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 684a64bf32b6e488004e0ad7f0d7e922798f65b6 Merge tag 'nfs-for-6.12-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============8525536134281753277==--
+--===============4760078267623718965==--
