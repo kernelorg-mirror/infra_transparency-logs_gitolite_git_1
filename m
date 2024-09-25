@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 25 Sep 2024 22:39:49 -0000
-Message-Id: <172730398989.4064967.2910100140497953354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 25 Sep 2024 22:47:55 -0000
+Message-Id: <172730447561.4072108.2461796719417971246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 1de5b5dcb8353f36581c963df2d359a5f151a0be
-    new: f115506d2ce4549df306746cd0b1c5d7bf6537f5
+  - ref: refs/heads/master
+    old: 7386ccba1ad56cf9ca894e364dfbc2945aa314a8
+    new: 1160ce78f7b50c1504ee364472e56291a0b95633
     log: |
-         c940a66b3ac930227df0ab6e01f84bea1afa6c3f perf test: Be more tolerant of metricgroup failures
-         5afd032961e8465808c4bc385c06e7676fbe1951 perf cs-etm: Don't flush when packet_queue fills up
-         ba5ae78a5a2a956d281ac62f581ab95e618bbf18 perf cs-etm: Use new OpenCSD consistency checks
-         9943581c64b1d1edaf9985ee81e45e728f67cd2e perf scripting python: Add function to get a config value
-         7b371afc9b67349c724c15d235924bc40694872a perf scripts python cs-etm: Update to use argparse
-         8286cc55a9a6f03d62bd140ce827025f9ed5e619 perf scripts python cs-etm: Improve arguments
-         66dd3b539efe0d4b44324c1fe39978db8111ed93 perf scripts python cs-etm: Add start and stop arguments
-         eb0a59e9e1e799303bc421770dc039f96ab8b84d perf test: cs-etm: Test Coresight disassembly script
-         f115506d2ce4549df306746cd0b1c5d7bf6537f5 perf evsel: display dmesg command of showing a hardcoded path
+         1160ce78f7b50c1504ee364472e56291a0b95633 Wed Sep 25 06:47:08 PM EDT 2024
          
