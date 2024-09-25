@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 25 Sep 2024 10:33:42 -0000
-Message-Id: <172726042247.3502143.12757331085116223733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Sep 2024 10:33:48 -0000
+Message-Id: <172726042893.3502362.4744427405898393380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 2804a39cd65bc84bea2d9863182bd9c6d7bb3488
-    new: f441318ec664d99d7cb03b08557ed3b04d9af67f
+    old: cc475dea00c1d4ec32e70a8c86a7b99c99541cb0
+    new: db5ca265e3334b48c4e3fa07eef79e8bc578c430
     log: |
-         5b844a57b94c6a91c799470d5361dfa860508a43 Merge branch into tip/master: 'locking/urgent'
-         d73d270676d866fb7da979b9131b99362f6473ee Merge branch into tip/master: 'locking/core'
-         f441318ec664d99d7cb03b08557ed3b04d9af67f Merge branch into tip/master: 'x86/splitlock'
+         affb32e4f056883f285f8535b766293b85752fb4 selftests/bpf: Fix uprobe consumer test
+         950083800e50e4eb97969c48b1fd9709cc22753a selftests/bpf: Bail out quickly from failing consumer test
+         704f4f83887e33a4caba3948c1f74a81cff28d04 bpf: Constify struct btf_kind_operations
+         4cadee055864b802bbf06bcf3433705126a90f1d selftests/bpf: Add missing va_end.
+         db5ca265e3334b48c4e3fa07eef79e8bc578c430 libbpf: Change log level of BTF loading error message
          
