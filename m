@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 25 Sep 2024 14:06:35 -0000
-Message-Id: <172727319554.3667286.12184138935172955260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
+Date: Wed, 25 Sep 2024 14:17:20 -0000
+Message-Id: <172727384084.3675112.3085412536690153789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
+user: alarsson
 changes:
-  - ref: refs/heads/linux-next
-    old: c727a18ca391d8d9bac9d39caea6dac9c4391c59
-    new: 47ffe0578aee45fed3a06d5dcff76cdebb303163
-    log: |
-         e3e8cd90f8e2eef67ded38f9c1a5f5520a407a62 x86/kernel: Move page table macros to header
-         47ffe0578aee45fed3a06d5dcff76cdebb303163 x86/pvh: Add 64bit relocation page tables
-         
+  - ref: refs/tags/sparc-for-6.12-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 204a9b39a378419ab2080ff3d81ea08dbf4266cc
