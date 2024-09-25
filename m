@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 25 Sep 2024 22:01:26 -0000
-Message-Id: <172730168693.4035886.14707397888775333875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Wed, 25 Sep 2024 22:04:47 -0000
+Message-Id: <172730188736.4037391.17637255934365587607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/for-6.12-fixes
-    old: 42268ad0eb4142245ea40ab01a5690a40e9c3b41
-    new: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
+  - ref: refs/heads/bpf/slab-iter-v1
+    old: a020353f6a42cf9125af786593ce1a6f12212f0a
+    new: a8011a45985905497bc5e00fee4912f00289b781
     log: |
-         1e123fd73deb16cb362ecefb55c90c9196f4a6c2 sched_ext: Add __COMPAT helpers for features added during v6.12 devel cycle
-         
-  - ref: refs/heads/for-next
-    old: 42268ad0eb4142245ea40ab01a5690a40e9c3b41
-    new: 1e123fd73deb16cb362ecefb55c90c9196f4a6c2
-    log: |
-         1e123fd73deb16cb362ecefb55c90c9196f4a6c2 sched_ext: Add __COMPAT helpers for features added during v6.12 devel cycle
+         f64d383ac99d6adf90fbe971d24cf7cb3fa36753 bpf: Add slab iterator
+         bd2b32552aa39fb2aae515b0d4b8afa9b32de201 mm/bpf: Add bpf_get_slab_cache() kfunc
+         a8011a45985905497bc5e00fee4912f00289b781 selftests/bpf: Add a test for slab_iter
          
