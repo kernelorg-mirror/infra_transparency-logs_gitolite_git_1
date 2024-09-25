@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 25 Sep 2024 15:09:24 -0000
-Message-Id: <172727696495.3719858.12488022343769256187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 25 Sep 2024 15:12:28 -0000
+Message-Id: <172727714838.3723127.11234320346881179195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-linus
-    old: c6c8946b40464c28703b7fdd7f6df36a7d260ac5
-    new: 486152873956fea71d48adf7e19ccc22f1d6718d
+  - ref: refs/heads/master
+    old: 667e8026261de5d230908a836f65fa2b48219d05
+    new: 8e4ce1b9eaf0d3065e42538d601b8b5cbab66876
     log: |
-         e249786b2188107a7c50e7174d35f955a60988a1 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
-         486152873956fea71d48adf7e19ccc22f1d6718d Merge remote-tracking branch 'asoc/for-6.11' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: c6c8946b40464c28703b7fdd7f6df36a7d260ac5
-    new: 486152873956fea71d48adf7e19ccc22f1d6718d
-    log: |
-         e249786b2188107a7c50e7174d35f955a60988a1 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
-         486152873956fea71d48adf7e19ccc22f1d6718d Merge remote-tracking branch 'asoc/for-6.11' into asoc-linus
+         d93544ba0cd88dae94a8ddae751b344f9490ef8a Bluetooth: L2CAP: Fix uaf in l2cap_connect
+         f9c212dd4eb4e96501cd963764d3946aab549329 Bluetooth: btmrvl: Use IRQF_NO_AUTOEN flag in request_irq()
+         47d72bfcb3964f520cf19b5da5a9fcd587b224a2 Bluetooth: btusb: add Foxconn 0xe0fc for Qualcomm WCN785x
+         8e4ce1b9eaf0d3065e42538d601b8b5cbab66876 Bluetooth: btusb: Add one more ID 0x0489:0xe0f3 for Qualcomm WCN785x
          
