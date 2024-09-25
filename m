@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Sep 2024 10:33:48 -0000
-Message-Id: <172726042893.3502362.4744427405898393380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 25 Sep 2024 10:47:38 -0000
+Message-Id: <172726125837.3513456.3826642492546432691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/ath/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: cc475dea00c1d4ec32e70a8c86a7b99c99541cb0
-    new: db5ca265e3334b48c4e3fa07eef79e8bc578c430
+  - ref: refs/heads/main-pending
+    old: 68937a28e905a4edf1c113ce8c87b1a2a7a973c0
+    new: e643530a76baa26ad70b9f8b66f77edfef92bfdf
     log: |
-         affb32e4f056883f285f8535b766293b85752fb4 selftests/bpf: Fix uprobe consumer test
-         950083800e50e4eb97969c48b1fd9709cc22753a selftests/bpf: Bail out quickly from failing consumer test
-         704f4f83887e33a4caba3948c1f74a81cff28d04 bpf: Constify struct btf_kind_operations
-         4cadee055864b802bbf06bcf3433705126a90f1d selftests/bpf: Add missing va_end.
-         db5ca265e3334b48c4e3fa07eef79e8bc578c430 libbpf: Change log level of BTF loading error message
+         df6ba0a68ac75692bea052d456837711fff86d08 dt-bindings: net: ath11k: document the inputs of the ath11k on WCN6855
+         e643530a76baa26ad70b9f8b66f77edfef92bfdf Merge branch 'pending' into main-pending
          
+  - ref: refs/heads/pending
+    old: 8fd4aea35af4ea71b292676d0cb092d02caf5735
+    new: df6ba0a68ac75692bea052d456837711fff86d08
+    log: |
+         df6ba0a68ac75692bea052d456837711fff86d08 dt-bindings: net: ath11k: document the inputs of the ath11k on WCN6855
+         
+  - ref: refs/tags/ath-pending-202409251046
+    old: 0000000000000000000000000000000000000000
+    new: e643530a76baa26ad70b9f8b66f77edfef92bfdf
