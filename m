@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Thu, 26 Sep 2024 16:20:49 -0000
-Message-Id: <172736764924.728465.16490165523911360440@gitolite.kernel.org>
+Date: Thu, 26 Sep 2024 16:21:05 -0000
+Message-Id: <172736766592.728719.9548518805443284374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 81a361c86d61b3837acbbe802824a74dcd4d0f93
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: f1ebbe4cd07d058f42174cc5b8c5efcf83de8ffa
