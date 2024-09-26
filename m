@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 26 Sep 2024 14:53:51 -0000
-Message-Id: <172736243141.657576.12050030434253145887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 26 Sep 2024 14:54:06 -0000
+Message-Id: <172736244630.657819.13818172171781872771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/gpio-irq-6.11
-    old: 31951b1171ad7d194111ba003cee94c32228879c
-    new: 5e472591b6427eacd441e88e8599f723f63f7aae
+  - ref: refs/heads/for-next
+    old: 2ed8983186d017e5a19e613ffcad2a9b69b307ea
+    new: 0b5796d185174a4443d4064c8ffdbda376380720
     log: |
-         851b9e60be61427f8a3f13124a6e614bb873c8fe irqchip: add mpfs gpio interrupt mux
-         25862f606716b013a17f9ebfba3189efb6bce17f gpio: mpfs: add polarfire soc gpio support
-         df9127010adf49c99aeba7226dc8c649e2f2f1c5 gpio: mpfs: pass gpio line number as irq data
-         5e472591b6427eacd441e88e8599f723f63f7aae riscv: dts: microchip: update gpio interrupts to better match the SoC
+         fd9867edaa900053d462222406728e7e319d186e dm-verity: restart or panic on an I/O error
+         0b5796d185174a4443d4064c8ffdbda376380720 dm verity: fallback to platform keyring also if key in trusted keyring is rejected
          
