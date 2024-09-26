@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 26 Sep 2024 14:42:38 -0000
-Message-Id: <172736175863.649362.8200904233165328740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 26 Sep 2024 14:53:51 -0000
+Message-Id: <172736243141.657576.12050030434253145887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/tags/soc-ep93xx-dt-6.12
-    old: 6a499032fc2fa018260cd4bb4f3f830032579046
-    new: 07eb8fd2901892288805de705af8cdf557150de5
+  - ref: refs/heads/gpio-irq-6.11
+    old: 31951b1171ad7d194111ba003cee94c32228879c
+    new: 5e472591b6427eacd441e88e8599f723f63f7aae
     log: |
-         878716d40cdd4d7923f4e910fe4f6841ae7686f1 net: cirrus: use u8 for addr to calm down sparse
-         84db6f27b26b5bebeeb85d1b6f6c035daa6f2ac2 soc: ep93xx: drop reference to removed EP93XX_SOC_COMMON config
-         a481b9d2baf77d8153361ff19634530bc7272899 MAINTAINERS: Update EP93XX ARM ARCHITECTURE maintainer
-         e3eb39e6bab564ed430172f37be835f84e923c23 dt-bindings: gpio: ep9301: Add missing "#interrupt-cells" to examples
+         851b9e60be61427f8a3f13124a6e614bb873c8fe irqchip: add mpfs gpio interrupt mux
+         25862f606716b013a17f9ebfba3189efb6bce17f gpio: mpfs: add polarfire soc gpio support
+         df9127010adf49c99aeba7226dc8c649e2f2f1c5 gpio: mpfs: pass gpio line number as irq data
+         5e472591b6427eacd441e88e8599f723f63f7aae riscv: dts: microchip: update gpio interrupts to better match the SoC
          
