@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0037375759166715161=="
+Content-Type: multipart/mixed; boundary="===============0633557923500099369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 26 Sep 2024 15:02:33 -0000
-Message-Id: <172736295371.665393.3949307983808444976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 26 Sep 2024 15:02:54 -0000
+Message-Id: <172736297476.665670.15944908432260137551@gitolite.kernel.org>
 
---===============0037375759166715161==
+--===============0633557923500099369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: bc16455be7c7e0a8b498b9ae648a17056aef126b
-    new: 17c1764a4ab9a7fe39ec4d2d3435ec1528702cdc
+  - ref: refs/heads/gpio-irq-6.11
+    old: 5e472591b6427eacd441e88e8599f723f63f7aae
+    new: 862304786a2025f4ab644d8a0147a9be46528819
+    log: revlist-5e472591b642-862304786a20.txt
+  - ref: refs/heads/pic64gx
+    old: e78d05fa181f342344b7bc02893e221c24556f6a
+    new: 62d4488bfea4286375f62d991f700f1dc8b0b1f8
     log: |
-         17c1764a4ab9a7fe39ec4d2d3435ec1528702cdc scripts/voting_results: move the "----" line lower in the results
+         c4e14cdd957f24e4a26d53ec153be29b31d57b4c dt-bindings: clk: microchip: mpfs: remove first reg region
+         3707f453f11e75a295a0481aa9116ec1befcfc4f clk: microchip: mpfs: use regmap clock types
+         33f2aadae9ab12d9987d1b5a296df8d3d25c6cb7 soc: microchip: add mfd drivers for two syscon regions on PolarFire SoC
+         d62164b53760fe658dbdced21c94e0bb9a2db2bc riscv: dts: microchip: fix mailbox description
+         62d4488bfea4286375f62d991f700f1dc8b0b1f8 riscv: dts: microchip: convert clock and reset to use syscon
          
 
---===============0037375759166715161==
+--===============0633557923500099369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5e472591b642-862304786a20.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727362963 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1727362953-a62d159b4bbc8ba37fed8cb88d0af8fbcec8e53b
+c4e14cdd957f24e4a26d53ec153be29b31d57b4c dt-bindings: clk: microchip: mpfs: remove first reg region
+3707f453f11e75a295a0481aa9116ec1befcfc4f clk: microchip: mpfs: use regmap clock types
+33f2aadae9ab12d9987d1b5a296df8d3d25c6cb7 soc: microchip: add mfd drivers for two syscon regions on PolarFire SoC
+d62164b53760fe658dbdced21c94e0bb9a2db2bc riscv: dts: microchip: fix mailbox description
+62d4488bfea4286375f62d991f700f1dc8b0b1f8 riscv: dts: microchip: convert clock and reset to use syscon
+33eea624996396dfaa57b00c6a0eb84294148f9e dt-bindings: gpio: fix microchip,mpfs-gpio interrupt descriptions
+f2daa88844351da048b3196bf4485cf32954ea14 dt-bindings: interrupt-controller: document PolarFire SoC's gpio interrupt mux
+1005cc1f5fe87f93a42eec21db4efafb72f93d0f irqchip: add mpfs gpio interrupt mux
+dc3ea5fc83eb6fbb6d0cf6a14cbad3112153d534 gpio: mpfs: add polarfire soc gpio support
+3d75908d6ad614642ff5be062c465cc575422368 gpio: mpfs: pass gpio line number as irq data
+862304786a2025f4ab644d8a0147a9be46528819 riscv: dts: microchip: update gpio interrupts to better match the SoC
 
-bc16455be7c7e0a8b498b9ae648a17056aef126b 17c1764a4ab9a7fe39ec4d2d3435ec1528702cdc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb1d5MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NkYP/3jxHCWP5hQMiTP0fGfM
-FqQb97P5Tln6CO3EYDbi2JuB2bhHvbagrzVL4Y35eWUGvbnseSqWWvRf+TJpnglt
-P0ytoombs191eMQu95ms3seBTAO0r1Z78MDfQ5bIQmr/QH0VnmwPzAYP76WlY/Nh
-fKvB60gxYyeoSNwl3jE8t3RqwGUCWykqE+OXakPIIO08m2gT2buZqnWD/aJ19BoL
-0UVCeKBwL+p2egGE4tI5RBOYdmYukkRsySgnsfVWL7DgjbRLX2CBR6VWKOpp1aof
-CK3FZeCUfwyOqm/GygSI5maq8q5mVQspGV1LvOB/b639IN6FrAgFaytJZVECEa0r
-0QmcbuByLGaYYaeWLs8dKqJ8Uqb/ilZostzzfq3n5yv07CnieprzjVvzKQbjcZts
-WFF14BhnRqd4b4ajB4KlIskK9SL9OtzNdl1XJ1yKUOO+1bLZHPXvyhMkz3yPz2JG
-YaWooH2bPyxmKy/WzPzDPzoildXbViR6rnk9eKLMAgvUi46LbFNt3a5SzhS4KLWE
-rJlN5+Lp8xOAvjce/tiSvzuCLKDXS3uZ1/puihYu/Fjoy45hU4OD2VkuwXXlHYDq
-4IbFp0Hf0aL0FfohV4r/kZAW7UGZMXo1pPquYitzw72SxAKEN3Vf69DXw9hTpgjR
-MIDhhDRC4rwCgfwe5T0G7RfB
-=Jsfi
------END PGP SIGNATURE-----
-
---===============0037375759166715161==--
+--===============0633557923500099369==--
