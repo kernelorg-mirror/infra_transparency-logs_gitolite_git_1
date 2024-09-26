@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 26 Sep 2024 08:59:58 -0000
-Message-Id: <172734119855.340832.1917823628792207206@gitolite.kernel.org>
+Date: Thu, 26 Sep 2024 09:05:08 -0000
+Message-Id: <172734150889.346498.13373307013929305896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: b514c47ebf41a6536551ed28a05758036e6eca7c
-    new: 04e906839a053f092ef53f4fb2d610983412b904
+    old: 04e906839a053f092ef53f4fb2d610983412b904
+    new: 72ef07554c5dcabb0053a147c4fd221a8e39bcfd
     log: |
-         04e906839a053f092ef53f4fb2d610983412b904 usbnet: fix cyclical race on disconnect with work queue
+         72ef07554c5dcabb0053a147c4fd221a8e39bcfd selftests/net: packetdrill: increase timing tolerance in debug mode
          
