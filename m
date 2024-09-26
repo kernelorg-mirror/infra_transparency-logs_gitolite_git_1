@@ -1,90 +1,109 @@
-Content-Type: multipart/mixed; boundary="===============2225877690203873857=="
+Content-Type: multipart/mixed; boundary="===============4784170617503729339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 26 Sep 2024 16:36:37 -0000
-Message-Id: <172736859778.740804.10180743128445162146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 26 Sep 2024 16:38:15 -0000
+Message-Id: <172736869523.741655.14249151449319634076@gitolite.kernel.org>
 
---===============2225877690203873857==
+--===============4784170617503729339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
+  - ref: refs/heads/main
+    old: a116aba5d54bf44c6fc27fa1a4c2431d53cf8ff5
+    new: 3857aae53f3633b7de63ad640737c657387ae0c6
+    log: |
+         2eeb29702e8fb0d934a4c2dc9d2a049a613d66e9 ci: update FreeBSD image to 13.4
+         9a41735af66dba1b677a8e88e7c2bc2f831bf6d2 diff: report modified binary files as changes in builtin_diff()
+         98398f3b6b764e2a03203be9d00a0de41b556936 Documentation/technical: fix a typo
+         ed4d4f38373f774891123e995fc47333d5a048b6 builtin: fix typos
+         7ffcbafbf32185da7dccb4b3f49b871f24ab58c4 send-email: document --mailmap and associated configuration
+         a344b471652d4c836d7881ca8095199544456fa7 Merge branch 'ak/typofix-builtins'
+         4f454e14b5bd3a15f54ae1d9303b2b4bbd6d9b80 Merge branch 'ak/doc-sparse-co-typofix'
+         cd845c04224f203f614618a72843f24645accda3 Merge branch 'cb/ci-freebsd-13-4'
+         f92c61aef0190641e01294dad3b891b28113e1d5 Merge branch 'rs/diff-exit-code-binary'
+         1522467d13a8fe29eb32209f175722df41e224b6 Merge branch 'jk/sendemail-mailmap-doc'
+         3857aae53f3633b7de63ad640737c657387ae0c6 Git 2.47-rc0
+         
   - ref: refs/heads/master
-    old: 11a299a7933e03c83818b431e6a1c53ad387423d
-    new: 13882369ceb9b0953f9f5ff8563bbccfd80d0ffd
-    log: revlist-11a299a7933e-13882369ceb9.txt
+    old: a116aba5d54bf44c6fc27fa1a4c2431d53cf8ff5
+    new: 3857aae53f3633b7de63ad640737c657387ae0c6
+    log: |
+         2eeb29702e8fb0d934a4c2dc9d2a049a613d66e9 ci: update FreeBSD image to 13.4
+         9a41735af66dba1b677a8e88e7c2bc2f831bf6d2 diff: report modified binary files as changes in builtin_diff()
+         98398f3b6b764e2a03203be9d00a0de41b556936 Documentation/technical: fix a typo
+         ed4d4f38373f774891123e995fc47333d5a048b6 builtin: fix typos
+         7ffcbafbf32185da7dccb4b3f49b871f24ab58c4 send-email: document --mailmap and associated configuration
+         a344b471652d4c836d7881ca8095199544456fa7 Merge branch 'ak/typofix-builtins'
+         4f454e14b5bd3a15f54ae1d9303b2b4bbd6d9b80 Merge branch 'ak/doc-sparse-co-typofix'
+         cd845c04224f203f614618a72843f24645accda3 Merge branch 'cb/ci-freebsd-13-4'
+         f92c61aef0190641e01294dad3b891b28113e1d5 Merge branch 'rs/diff-exit-code-binary'
+         1522467d13a8fe29eb32209f175722df41e224b6 Merge branch 'jk/sendemail-mailmap-doc'
+         3857aae53f3633b7de63ad640737c657387ae0c6 Git 2.47-rc0
+         
+  - ref: refs/heads/next
+    old: caf1b0c932622a79da5dc26acbfbcfe828fa7bc8
+    new: e261f169bdc0d967eadb9c1eae13d86b6873c213
+    log: |
+         a344b471652d4c836d7881ca8095199544456fa7 Merge branch 'ak/typofix-builtins'
+         4f454e14b5bd3a15f54ae1d9303b2b4bbd6d9b80 Merge branch 'ak/doc-sparse-co-typofix'
+         cd845c04224f203f614618a72843f24645accda3 Merge branch 'cb/ci-freebsd-13-4'
+         f92c61aef0190641e01294dad3b891b28113e1d5 Merge branch 'rs/diff-exit-code-binary'
+         1522467d13a8fe29eb32209f175722df41e224b6 Merge branch 'jk/sendemail-mailmap-doc'
+         3857aae53f3633b7de63ad640737c657387ae0c6 Git 2.47-rc0
+         e261f169bdc0d967eadb9c1eae13d86b6873c213 Sync with Git 2.47-rc0
+         
+  - ref: refs/heads/seen
+    old: c0a1d61878c7f82b7bb0be37dd0f4d5f2e235289
+    new: 6eb3a4ee529b72c5b254af91de874b80fea89070
+    log: revlist-c0a1d61878c7-6eb3a4ee529b.txt
+  - ref: refs/tags/v2.47.0-rc0
+    old: 0000000000000000000000000000000000000000
+    new: c7a54b1d6984c297a142e9a97550fefcf8abd110
 
---===============2225877690203873857==
+--===============4784170617503729339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11a299a7933e-13882369ceb9.txt
+Content-Disposition: attachment; filename=revlist-c0a1d61878c7-6eb3a4ee529b.txt
 
-dc12502905b7a3de9097ea6b98870470c2921e09 vdpa/mlx5: Fix invalid mr resource destroy
-02e9e9366fefe461719da5d173385b6685f70319 vhost_vdpa: assign irq bypass producer token correctly
-e25fbcd97cf52c3c9824d44b5c56c19673c3dd50 virtio_pmem: Check device status before requesting flush
-6cf1c97dad2ebc4de03105cc444b3dfaa83f3dc2 virtio_balloon: introduce oom-kill invocations
-c5b70a26aac39f09a23fd72f44cfbb3d4d5a14d5 virtio_balloon: introduce memory allocation stall counter
-74c025c5d7e4ac7c7ad269c1ee64da4bdfe4770c virtio_balloon: introduce memory scan/reclaim info
-a8927f69e85ec3508085e1042ca8ffe1c1ededae tools/virtio:Fix the wrong format specifier
-2f87e9cf0c9e21ab9be1fb2ba8520a1525359497 vdpa: support set mac address from vdpa tool
-218bb7ec17f1f66a63cb7421fb8a1d48032988e8 vdpa_sim_net: Add the support of set mac address
-6d17035a74028f0b0e77affefbfb5d71e6d32713 vdpa/mlx5: Add the support of set mac address
-242d23efc987151ecd34bc0cae4c0b737494fc40 smb: client: avoid unnecessary reconnects when refreshing referrals
-9190cc0c97aafdae06015d468c6ca3991e32a23a smb: client: improve purging of cached referrals
-4f42a8b54b5c6e36519aef3cb1f6210e54abd451 smb: client: fix DFS interlink failover
-85633c00ad03049019df632f2bdcf5ff7efc7796 cifs: Make the write_{enter,done,err} tracepoints display netfs info
-0826b134c0b039db4850fb762e79766a45d847c5 smb: client: fix DFS failover in multiuser mounts
-4e3ba580f5ab2d74e1e2210aba869aad235349d5 smb: client: propagate error from cifs_construct_tcon()
-a9de67336a4aa3ff2e706ba023fb5f7ff681a954 smb: client: set correct device number on nfs reparse points
-663f295e35594f4c2584fc68c28546b747b637cd smb: client: fix parsing of device numbers
-2f3017e7cc7515e0110a3733d8dca84de2a1d23d smb3: fix incorrect mode displayed for read-only files
-307f77e7f5855cd42c62fee3f97e4dea5a04a15b cifs: Fix reversion of the iter in cifs_readv_receive().
-6c7f1b994a025a2d7748104ea9fc5e7d5808092a smb: client: print failed session logoffs with FYI
-387676fabf15f8e772fd22dd05794639115e4216 cifs: update internal version number
-665db14d0712ac27f6a0081510bd811efb3faa3c netfs, cifs: Fix mtime/ctime update for mmapped writes
-7d627137dc1062aba6276a7d2ebe7f5ff8d542c5 net/mlx5: Support throttled commands from async API
-de2cd39fc11b2f55b7f40f2a3036ca27327e4461 vdpa/mlx5: Introduce error logging function
-d89d58f4888cde693e7707e13623eb50bb6435c2 vdpa/mlx5: Introduce async fw command wrapper
-1fcdf43ea69e976aae4f2d76ebb199cc0d4c5a88 vdpa/mlx5: Use async API for vq query command
-61674c154bb7f19fad612242022276e8bd9e10d2 vdpa/mlx5: Use async API for vq modify commands
-dcf3eac01f063df0a60ea779399331d2ac535784 vdpa/mlx5: Parallelize device suspend
-5eb8c7eb1ec74ac6b9e7337674cb7a33e82a1e68 vdpa/mlx5: Parallelize device resume
-55a7cb05b0a6c6cd6e3f482551cf93c398f1b4c9 vdpa/mlx5: Keep notifiers during suspend but ignore
-74c89072f22600cc3d83fc70617b1b6c2f500013 vdpa/mlx5: Small improvement for change_num_qps()
-9dba41951ab64596c58f170f79a696c2cf83ff4a vdpa/mlx5: Parallelize VQ suspend/resume for CVQ MQ command
-561a16366ef57caad66d0dfe49275cd3f809c138 vdpa: Remove unused declarations
-4045b6429874e07f14b5b41e326d4e6f866f8bbf virtio_fs: introduce virtio_fs_put_locked helper
-87cbdc396a31ce29b0849705e565c81564d5ed4b virtio_fs: add sysfs entries for queue information
-db0a314f845abf9572d5826f4cfdecb93b838952 MAINTAINERS: add virtio-vsock driver in the VIRTIO CORE section
-0071b138d44af4296bf871e6624369ce697b4b15 vdpa/mlx5: Create direct MKEYs in parallel
-e1ba5c947e56ccb09773eebfb730cae458b6a4fd vdpa/mlx5: Delete direct MKEYs in parallel
-0b916a9c45d92c69270f2b44a35468fe6e331c2f vdpa/mlx5: Rename function
-5fc85679076623a5c39ec09277144fb0bbf0c6ed vdpa/mlx5: Extract mr members in own resource struct
-58d4d50e758ab1e880b30ba815d733d46f5cbfac vdpa/mlx5: Rename mr_mtx -> lock
-f30a1232b6979c7fc14e821cb349c40073c6191d vdpa/mlx5: Introduce init/destroy for MR resources
-62111654481d5df4be3776a898cb88b5e4974103 vdpa/mlx5: Postpone MR deletion
-4a21d31d7bcb4c245783119252b0389255964cd2 fw_cfg: Constify struct kobj_type
-26618da3b2f3d510a3082a1cb0abafc0f92e8362 vsock/virtio: refactor virtio_transport_send_pkt_work
-efcd71af38be403fa52223092f79ada446e121ba vsock/virtio: avoid queuing packets when intermediate queue is empty
-10cdb82aa77f313dcfe947a17f7fc12c5affb38e uprobes: turn trace_uprobe's nhit counter to be per-CPU one
-ce4db753de21abfb7516ef64aff907813e8a8e3e kprobes: Remove obsoleted declaration for init_test_probes
-d5dbf8b48a4620db771f399ed7fce32d447f04a6 tracepoint: Support iterating over tracepoints on modules
-d4df54f338e43c790460674a3cc7db35b8395421 tracepoint: Support iterating tracepoints in a loading module
-67e9a9ee476e862fda27803bdce888c04e4b3380 tracing/fprobe: Support raw tracepoint events on modules
-57a7e6de9e30cb40fd4b45e24e9eefedb84cdde5 tracing/fprobe: Support raw tracepoints on future loaded modules
-4e78dd6b4c27c5a6d057f179ff6c1ddd75a7a2ab sefltests/tracing: Add a test for tracepoint events on modules
-c6bae35fd67087e2dd2d874d0553e59b2f132424 HID: hid-goodix: drop unsupported and undocumented DT part
-1ee68f172482ab3d165468b989026fe67d6ea908 dt-bindings: input: Revert "dt-bindings: input: Goodix SPI HID Touchscreen"
-0181f8c809d6116a8347d8beb25a8c35ed22f7d7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-5159938e10d876fd23d3a5474689a9f6e18a446e Merge tag 'probes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-ac34bb40f748593e585f4c414a59cf4404249a15 Merge tag 'v6.12-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
-13882369ceb9b0953f9f5ff8563bbccfd80d0ffd Merge tag 'hid-for-linus-2024092601' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+a344b471652d4c836d7881ca8095199544456fa7 Merge branch 'ak/typofix-builtins'
+4f454e14b5bd3a15f54ae1d9303b2b4bbd6d9b80 Merge branch 'ak/doc-sparse-co-typofix'
+cd845c04224f203f614618a72843f24645accda3 Merge branch 'cb/ci-freebsd-13-4'
+f92c61aef0190641e01294dad3b891b28113e1d5 Merge branch 'rs/diff-exit-code-binary'
+1522467d13a8fe29eb32209f175722df41e224b6 Merge branch 'jk/sendemail-mailmap-doc'
+3857aae53f3633b7de63ad640737c657387ae0c6 Git 2.47-rc0
+c6f2a1f8359a30aa857b31acb764b85c7529cfb9 Merge branch 'ps/reftable-concurrent-writes' into jch
+573dec9a118f4801859d5e31b7220be4c38e4545 Merge branch 'pw/submodule-process-sigpipe' into jch
+b931c28cf6ee1878d7ce3d1fe0e5c6ffb346ec4a Merge branch 'rs/commit-graph-ununleak' into jch
+658d13409984aa50e97f1f58a5618900eae3d07e Merge branch 'rs/archive-with-attr-pathspec-fix' into jch
+9617c1716ca172ec7b7fa604b69452a78ebd1363 Merge branch 'ds/background-maintenance-with-credential' into jch
+c17f2eb8e0929e754526f874271819f807e484eb Merge branch 'ps/includeif-onbranch-cornercase-fix' into jch
+1f3d2bd9b30d08e99baf088b446bb5128467f925 ### match next
+cf73aa1ea6de3ee75288c126100171288c5dd821 Merge branch 'ps/leakfixes-part-7' into jch
+91b991a33e28aaaf2a9ce230fcd021628df186bb Merge branch 'cc/promisor-remote-capability' into jch
+4a48a808dc65331be3802d7bb128632180d50c73 Merge branch 'jc/too-many-arguments' into jch
+e29526df4293c499d1ada1506f83addca64e881d Merge branch 'ew/cat-file-optim' into jch
+4cfbfa6d8a82cc8832381083c26cc7275bde8ad6 Merge branch 'tb/weak-sha1-for-tail-sum' into jch
+db055c3e69e8802f44fcc26f5f3811d56dda9b4e Merge branch 'ps/reftable-alloc-failures' into jch
+3d7b2f1a45ba86f64ff13ba8cb58b4f4578e4c7b Merge branch 'jc/breaking-changes-early-adopter-option' into jch
+2fe45d2489f2284f39617b0fa3bc10b4e7dd80f6 Merge branch 'es/worktree-repair-copied' into jch
+2b5ffbc90a700b5106741a0a885844155a8b9946 Merge branch 'jk/test-lsan-improvements' into jch
+cd45dd16c9fc9191da41d6e6f414b4cf0daa92a4 Merge branch 'jk/http-leakfixes' into jch
+cebdb936791ea9248d077c353b4af2eb261fa89e Merge branch 'tb/incremental-midx-part-2' into seen
+a68a0a37ccb6335ac9715631668bb881b9b5a380 Merge branch 'gt/unit-test-oidset' into seen
+4cc1ba580c00501131644e2fd36c842df82ea606 Merge branch 'sj/ref-contents-check' into seen
+bbedfd00a31911eda4254fc261f0c2fad28d8353 Merge branch 'ds/pack-name-hash-tweak' into seen
+1f606b9927b40c7f826b4c57da4b6e34dcd11c64 Merge branch 'jc/strbuf-commented-something' into seen
+f7b50c9ec1bd5166239413d4056ffc43c9d4f2bc Merge branch 'cw/fix-reachable-in-repo-with-promisor' into seen
+76ee167bb23de21fbac61fddbdb05e391a63c32d Merge branch 'doc-typofix' into seen
+3102ea6681ffdb45bf67f04c80ee064217b16414 Merge branch 'ds/sparse-checkout-expansion-advice' into seen
+6eb3a4ee529b72c5b254af91de874b80fea89070 Merge branch 'ja/doc-synopsis-markup' into seen
 
---===============2225877690203873857==--
+--===============4784170617503729339==--
