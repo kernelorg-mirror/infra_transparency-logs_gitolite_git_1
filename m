@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1806259850669221860=="
+Content-Type: multipart/mixed; boundary="===============1361587578455430810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 27 Sep 2024 12:09:49 -0000
-Message-Id: <172743898931.1734453.9198808665497950002@gitolite.kernel.org>
+Message-Id: <172743898981.1734494.91748907807078635@gitolite.kernel.org>
 
---===============1806259850669221860==
+--===============1361587578455430810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,120 +16,118 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: d23493ba2026ecb940321bfad6c8b42828c96cc2
-    new: 111d951ae9284084446e542f2dc9ecde5fe05d9f
-    log: revlist-d23493ba2026-111d951ae928.txt
+  - ref: refs/heads/linux-6.1.y
+    old: e1806d6c5f82ba0f8b7b75569470c77073fd0cd0
+    new: 92a957509565b753fa783cd71a0e8f5d8bbde074
+    log: revlist-e1806d6c5f82-92a957509565.txt
 
---===============1806259850669221860==
+--===============1361587578455430810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727438997 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727438998 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1727438986-02ebda430fd8d4a7cf4d39be37cf1403f7ba0a48
+nonce 1727438987-948dc867ffe02ea5cbec49843d6a53c1ffb44c56
 
-d23493ba2026ecb940321bfad6c8b42828c96cc2 111d951ae9284084446e542f2dc9ecde5fe05d9f refs/heads/linux-5.15.y
+e1806d6c5f82ba0f8b7b75569470c77073fd0cd0 92a957509565b753fa783cd71a0e8f5d8bbde074 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2oJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SNMP/j61TYbs4GEJxW0X4ECt
-eEFw4i/S2ANlE/akx+bo+xhWPILgkD8kcZgQQZYYdrJBX09dB+ew/wKGjROxxxnp
-tHUF0dhlwUTvHG+tb3ctsCb4SCJ3GXsIT3TabQxgxgnR8G0TzxkAb3b5z6XmB+Xp
-rCYd0vXVUNkeHV9HopmzTPnR7A3hKNoUCvWiKn8LAi2xww8FXjKLbF1XA3wZLuG/
-clpiTK8Fvks3quPAkQbjuZsibzpVkuMm/PQXVF9hFUAvaBBaM950m4cveNp5eK+R
-bX4MSGwxrtVXEBb3/m8XEDtd+luB2JRtSKLmaNjSyZpCw5i1Tm/qipZI9kU66rpW
-fX7c99fRsa+unu9ZlGhmHR1Bc050k4A0WB3EAIxVhvIsFe3aKZCySBy7vKdBSEKL
-RMDXbUtme0bvXhgsd1htLRiZd7DO2L1gz5H7lX4ckqzS+A6OU4ynLr/to1JpnlZ+
-pZXbVpf7g5UC5fPexXsZXtP9fgxRlBOAFF52Sygop5zqavmeWo5XG2MTBVNt0Ru/
-i6kZ5qnzu4QbXjGz4AhxrWML51xj0NxNuKk0wfL9tyCpnmZhZdtT6HTD26Vm5DmP
-SJ8YoZUCeHZ+f7ooIHAbtt8+2w4Z5we88kVae98tLUjpPMB5gOWA9c2h6mbb0vqy
-FAysPN6aGPv9L5zONHGJo+31
-=/bO6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2oJYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y/4P+gMcoHFfMxhtd+1AfWcs
+yN5fex98QPHP9jD41bLRTGp502HvTZvU0NgO6elcYH3+Cegy/WiQzF1WaQZSNWBc
+ewYfBByS7ieZIL1fxy58qjo5VJmloqiAVckT8VouirjxxxF0KSw4FWQrBNE2b9Rh
+hvZZoSVdqmVh/1XFmtLSi380z8AfQvOj4VLI/PMCJkZzasTz6Z0JkkH+leVwAWmH
+6HTZj5GfAdFN7mmPbnYNgnsGk5VbORDRs5BjaMjdjx6lxtd2KLDfsLgBcaUXriRs
+1+J4kwEzYtbU2rSD5Z7G8oHWfSn0O5FyAz9DjLuE8NmvZwegc3hEO6RjFa82Y04t
+J4NZ3x4OhmYIvgSMMg+yXT+mRg1s8q83jiRpy+Y82XSQhYClvc0ZBRdjsG8bJwBy
+8YcCRDDPpI0CsDZ1+elnAdKkdgZF7+4QTYSD9s7opGtCzq8Lr3lPGHk/w4p277H5
+Fie+QrN/54evJx7ASyxqpzBQSRdGzNe9FK+ybzeyFztEjGPh+NUteaYuWLdYUE7D
+HXZn3AHP+a/ai1zOz66a1Sob7mp+oDQyPJ+0A6lFquQnfXadFgqMbZ3+/KjbX/Zh
+ed4REMGo5MTCzRdcmARIjGK+m6h6UNjzstFsBMst7UnGC8KZARp6tAytMUSECyj9
+aKl9eiESbmfJsCj5XI4iQsB6
+=dN2M
 -----END PGP SIGNATURE-----
 
---===============1806259850669221860==
+--===============1361587578455430810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d23493ba2026-111d951ae928.txt
+Content-Disposition: attachment; filename=revlist-e1806d6c5f82-92a957509565.txt
 
-fe0029f024c6da3df417d7a1c2acf7d393ab20a1 usbnet: ipheth: fix carrier detection in modes 1 and 4
-cf35bb5100885435278ea480b0e3462d4c1119b3 net: ethernet: use ip_hdrlen() instead of bit shift
-2fd498e16df473edb91159fbc1324ee580ebfd7d net: phy: vitesse: repair vsc73xx autonegotiation
-9d05c262866e09f04bfe19d916f16853d3b9d65a powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-c820ea1c7466b6b11f43f07d4ee7bac28f26d529 btrfs: update target inode's ctime on unlink
-e972d8ce670508743a23eb530417e600987bf6af Input: ads7846 - ratelimit the spi_sync error message
-70a1f1b3041e615e1f8dd3a87d38202887b36f2e Input: synaptics - enable SMBus for HP Elitebook 840 G2
-88c22bf04e1f067dcd0434f4f2de606d5f694a36 HID: multitouch: Add support for GT7868Q
-a40e45a6afc8ed9e575f557babc5de22286c16cd scripts: kconfig: merge_config: config files: add a trailing newline
-2e5e6b51b3afd341abf2444274347924345df5b9 platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-bfa95430e536c3b194412d9450619f0fccfbf5b9 drm/msm/adreno: Fix error return if missing firmware-name
-fffb33d77ae731f645d47dfaac58683024d61fce Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-eef843b6c843520215655ee83336e75b0ff3cbe0 NFSv4: Fix clearing of layout segments in layoutreturn
-b7aa8183c99b12b20b62b75da08eb8095f5350de NFS: Avoid unnecessary rescanning of the per-server delegation list
-c583c91cb827251d18a01d9f76b15a75f2173d42 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-c142fa574c3bc41a8c35af86d3932a8fbb1217a9 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-14b7db3e69105f35235c824bd796d5b25260c198 mptcp: pm: Fix uaf in __timer_delete_sync
-9ec05d65b1a1ffeede8214b01e13070c72b04be2 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-3489e2b6b567b075acedf30298adcc6fc5c42c00 minmax: reduce min/max macro expansion in atomisp driver
-d021ff420529dc69ed100e98f4fe284f9a6040f3 net: tighten bad gso csum offset check in virtio_net_hdr
-8ad8c9a5dc81fba3fd6f5370e6deb64b41cec30a mm: avoid leaving partial pfn mappings around in error case
-b2c672c68241efd5f04c3a723a44e0d72e40efbb fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
-752eca5040870db0b9a3e878d99f5c83054b385d arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
-eaa48d05d4cba66ac0404719af152d70fed13d51 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
-0c6b66e532edac4776729dc51a17aeaf620e1e83 selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
-3e305ed3c214e2388b9db328083fb9ad11dcd745 hwmon: (pmbus) Introduce and use write_byte_data callback
-7a6af161ac86f94f8bb93780af1eeabfca2abf81 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
-34f00c95383dc78f4ad4dc130d1cafb0d51baed2 ice: fix accounting for filters shared by multiple VSIs
-8c22f459c8a9305ae5e44c6fc81261189ca69db6 igb: Always call igb_xdp_ring_update_tail() under Tx lock
-56e1a8d7e2a1050aa9f8578d030f967c529f7440 net/mlx5e: Add missing link modes to ptys2ethtool_map
-fc093df8a7f4acf85f760bb05ff48284030a4755 net/mlx5: Explicitly set scheduling element and TSAR type
-ccfc57b3f48afeb3d04850db06441cd453c46e35 net/mlx5: Add support to create match definer
-104a310361e93848859abf4f0ac29537cb51acf3 net/mlx5: Add IFC bits and enums for flow meter
-bf587c4c567a717cb53e8eda4ebc724f6a400e57 net/mlx5: Add missing masks and QoS bit masks for scheduling elements
-462a73c9f53b163bc9e1c0c79c8871c475b79cbc fou: fix initialization of grc
-6dde58b2c636164f60520530a1886220a1cbc730 octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
-0e911072be4caa22b51f605925cceb8771d548c4 octeontx2-af: Modify SMQ flush sequence to drop packets
-5aebdfca4319fa57acc4f571eb58c43b84fef292 net: ftgmac100: Enable TX interrupt to avoid TX timeout
-22c81445cb8d57b4b5a6cc647f35796beaf447dc netfilter: nft_socket: fix sk refcount leaks
-335dffc5d0eead1f81a70ac8be677edc92a0b7ff net: dpaa: Pad packets to ETH_ZLEN
-8dbadc539e923465865400136cf269157beaac06 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
-c7764a1646e7b7c12f3ab2827673bb6885d336a3 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-ac46da29e57f6d3bfd28c41236f1093fc2445b94 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
-317ee89d133ce2b0abe274726bda3b35ac7bb4a7 ASoC: meson: axg-card: fix 'use-after-free'
-3f9f5f9e66cc788984b8cc1a072184ca049e46a9 ASoC: allow module autoloading for table db1200_pids
-0ac4a3c1eb7821bcc087802adedfe9b20d17b762 ALSA: hda/realtek - Fixed ALC256 headphone no sound
-8706efff36ec4b7259aa31b8c71601b8f36a2a29 ALSA: hda/realtek - FIxed ALC285 headphone no sound
-9c938d3278786a03585f7f83e349f685d164c3e8 scsi: lpfc: Fix overflow build issue
-29c07a910ea08f5dafff36195be3e79112d1f91c pinctrl: at91: make it work with current gpiolib
-f7156983d4688cfd8803b6df495f0f9f52711dbf microblaze: don't treat zero reserved memory regions as error
-32bacf3e6e29d2e60037a3e39f5a9f4bbce13d74 net: ftgmac100: Ensure tx descriptor updates are visible
-957dd0720e5650fa668b5a6c470e5cdb429501df wifi: iwlwifi: lower message level for FW buffer destination
-9529b8d69cb0952a9c0641611944b02c44f212dd wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
-06efa97598df7ad34cc2a47abb86cd8c1b08e113 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
-c483bfa50798e4e7a59a734332228426bd658828 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-8b1fc223fee986b79fcab1921a994acc64f61942 wifi: iwlwifi: clear trans->state earlier upon error
-8ba0e56d91abd00a95ecafec0e37ff13794e023a ASoC: intel: fix module autoloading
-242c35f433ba07649a836cbc92a352803e84f935 ASoC: tda7419: fix module autoloading
-123cd695198698b7e2d9230150ea80ba95a973a9 spi: spidev: Add an entry for elgin,jg10309-01
-66fe8f6d37da0a72709d1bf73cc6c72a7e2ff33c drm: komeda: Fix an issue related to normalized zpos
-d0e6e1273141cb6190058dba8ade2959c039a510 spi: bcm63xx: Enable module autoloading
-776284345477d57649715ebe995f52d4301b4370 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-0d4324393693a3151178330d7b25682b72a49dc4 spi: spidev: Add missing spi_device_id for jg10309-01
-0f8385b574fbfdbcdc900cbe4d271a9a8662a535 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-046489b914ac1ebc1a101125cd5e83a27e73413f ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-eb4f2399c647d80087f9e977104328ecfd805b62 cgroup: Make operations on the cgroup root_list RCU safe
-4570f4e28a04a02f7c5c33ad250617ceb584c807 netfilter: nft_set_pipapo: walk over current view on netlink dump
-2f2faf62e9a2dfaae9bc20b6862e9d39d40bc3b3 netfilter: nf_tables: missing iterator type in lookup walk
-8468cc92bb83af2e71190e5bf7a4a0e516fb5681 Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
-2a6196c4514afd1358154ef67ad5586b55f13cb4 gpio: prevent potential speculation leaks in gpio_device_get_desc()
-35884b01e202afe1510bc7908679fad7d0937a62 inet: inet_defrag: prevent sk release while still in use
-38e4d45defde58f3cdfc32a9d6657da06d68879c gpiolib: cdev: Ignore reconfiguration without direction
-507b71ccc97997c4c013b6c31af883a204efe8d5 cgroup: Move rcu_head up near the top of cgroup_root
-111d951ae9284084446e542f2dc9ecde5fe05d9f Linux 5.15.168-rc1
+4ec54340181adfe323b0d56a24b984c3bdb937e8 ASoC: SOF: mediatek: Add missing board compatible
+b1a054844e9afea4738d5f9f9be3b0509c9e1c55 ASoC: allow module autoloading for table db1200_pids
+f5721718eb777bc3621352319e74606c4226fd8a ASoC: allow module autoloading for table board_ids
+77bd019cb25fb5d9b001de294a951331f3e89bd6 ALSA: hda/realtek - Fixed ALC256 headphone no sound
+cd4dee73bcf5d52460dcd074b76710cab12b3205 ALSA: hda/realtek - FIxed ALC285 headphone no sound
+71d416fc6e940027dfc31a4f09f11bd5dd7ebb5a scsi: lpfc: Fix overflow build issue
+3b094f44d9fc0d91ebfb034fa11436aebf08844a pinctrl: at91: make it work with current gpiolib
+e92ac648af93680160bf71f7e94c3f66902744d3 hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
+50fd46217eca04c8410034ef556dec73a2fffb3c microblaze: don't treat zero reserved memory regions as error
+9decc58ed7352e9a191297d6e6ba30c6dd26e1c2 net: ftgmac100: Ensure tx descriptor updates are visible
+d3a20f1117b783c10c94425378293b0301ea1753 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
+d7ddabffe29fa6c80b16fd7d67a5831cf83c9447 wifi: iwlwifi: lower message level for FW buffer destination
+07c8fb64370fa45a7eaa95e8c051819a14fb606b wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
+d13246a1efe08fb776dc0abd137ff5a4a6cf6c55 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
+0ea5d6fa7ca0376091bcc9772980e8ef23bde255 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+4a95edaa82065a985456327425b0fac19c11bfbb wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
+f47d3847ab669cccd7eca00b7ecf4a40e1192c53 wifi: iwlwifi: clear trans->state earlier upon error
+0a588e38de8548630ad262efd3c45ad73d5ce459 can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
+447c858b4abb9ee374adb1cbbb78c35070bfbf32 ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+df833fddd8946c795d3e55112cc301136b45c836 ASoC: intel: fix module autoloading
+2eb1bfabed66f566685f29ad3a90deeaa384e4dd ASoC: tda7419: fix module autoloading
+582873ccfd230f73c61151ddd8f9c5faaa36e9cf spi: spidev: Add an entry for elgin,jg10309-01
+cfcc2779ee2f99824a5f52507c0f74db84024997 drm: komeda: Fix an issue related to normalized zpos
+c00e3d0691e0b95c990c1e15f58724341ab0ba2c spi: bcm63xx: Enable module autoloading
+691107f4a9b7dd24fdf7f207be6209185ea7bd92 smb: client: fix hang in wait_for_response() for negproto
+a9bca86725411562710abdb02eb777bd110a559e x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+30f10140dd24eee41d78e4fbc798bc5a0a1ea997 tools: hv: rm .*.cmd when make clean
+c4d5c35e33c7f7215b0ed2d800897fec2b302495 block: Fix where bio IO priority gets set
+ca118d9b27a3c6e72b6a5409588a7157318cb91d spi: spidev: Add missing spi_device_id for jg10309-01
+b2247cf70b283bba3d0ea7aef78c72b04862e867 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+d466c6225825cb0cbe477ab38186c7603f815433 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+9d223816329eeca3ee2030504548f952dbb42a36 xfs: dquot shrinker doesn't check for XFS_DQFLAG_FREEING
+1d81776a33a5ab97683d8eed7f74b9edb832eb9c xfs: Fix deadlock on xfs_inodegc_worker
+5c44176e36ad44c31aa80ca5dc00aea06a154f91 xfs: fix extent busy updating
+8cc3a026ee274f7b94cb7650ba31ffabc9c018a2 xfs: don't use BMBT btree split workers for IO completion
+d61205ab15ff6b8581ae2dad8424f3f7674e0b9a xfs: fix low space alloc deadlock
+e13082aca72a619925ae88f5d5f284bf44cb86be xfs: prefer free inodes at ENOSPC over chunk allocation
+5640b55a038a5919cd7ad4a3f13090fc8eeabe3f xfs: block reservation too large for minleft allocation
+11096ed303c0e10784e4571120e9a153de19bb64 xfs: fix uninitialized variable access
+e03347c2b6e66a4811c6b0f6c59acbee53b9d960 xfs: quotacheck failure can race with background inode inactivation
+0adf70475fac6382e1bc66bdfc63b25b7bd7bc12 xfs: fix BUG_ON in xfs_getbmap()
+e03cfa92bf5ccf155bfa565f6fefe36ff0c49c89 xfs: buffer pins need to hold a buffer reference
+bfdb3075b7c4212d4c46abae0bcb4b5d4d0275be xfs: defered work could create precommits
+0c57398a507f930c54576073915fe6bd66dee812 xfs: fix AGF vs inode cluster buffer deadlock
+062fa7a637ff64a8aa9ae7aa13403ec8f33bc1a2 xfs: collect errors from inodegc for unlinked inode recovery
+316fb87a588b1188de5755d378c668662fa36ee0 xfs: fix ag count overflow during growfs
+2bd30dfb824b7dca4d5c54fe96e29f455e401a21 xfs: remove WARN when dquot cache insertion fails
+dfab4e2b65c52c5ee6aff1d9aea3e1c23fa9c831 xfs: fix the calculation for "end" and "length"
+0d1f2055249f0eb05b4e506423525d87d170c459 xfs: load uncached unlinked inodes into memory on demand
+c454de2e1cda7b802db1825af16179a29bf09937 xfs: fix negative array access in xfs_getbmap
+757ab776e526e348665c6f80e4c395ca3f4f17a5 xfs: fix unlink vs cluster buffer instantiation race
+f8d0d08cf8da459e480d98160ed81234fcd116a8 xfs: correct calculation for agend and blockcount
+953fbf509c6115e8f5d75535178cd40da7569497 xfs: use i_prev_unlinked to distinguish inodes that are not on the unlinked list
+da8ad9453984f10cd7da1cc1b89f32e4287029d0 xfs: reload entire unlinked bucket lists
+85fdda828df713f7543ec88f1885b3065edbf845 xfs: make inode unlinked bucket recovery work with quotacheck
+8366c83b833f53f291ec72a7cfb16f204b595341 xfs: fix reloading entire unlinked bucket lists
+62996bafddfd21497b492dc0c9e73e99460e24c3 xfs: set bnobt/cntbt numrecs correctly when formatting new AGs
+b51f0d2da455169ff3410773ce5de597130ceef1 xfs: journal geometry is not properly bounds checked
+52d9d936c3d494f11958978513f374e65ab6e32f netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+19f992e59ec6c5266223dd825259619366c1de8c netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
+22c772c05882c1c93a3a5999a3942c2e5242fc3a netfilter: nft_set_pipapo: walk over current view on netlink dump
+dbd9e6da247ed6f90def4b59b43a0e890750ba51 netfilter: nf_tables: missing iterator type in lookup walk
+95a3a8c4fb2b36eccd32557f99a6fa7e5e81ae23 Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
+aa73ba4b827cec5bb696171498b697c27882ea4d gpiolib: cdev: Ignore reconfiguration without direction
+c987d1ef8fc74d3a3514f1d098d46deebf8d824e gpio: prevent potential speculation leaks in gpio_device_get_desc()
+49a454e9a8530e01cf124b3b92368e29f8286e6a can: mcp251xfd: properly indent labels
+80fe395369dd49094b51e27c6afdbea0e6ff1771 can: mcp251xfd: move mcp251xfd_timestamp_start()/stop() into mcp251xfd_chip_start/stop()
+b7460d7f4faf93d367e98bff7d7530bb21ed5071 selftests: mptcp: join: restrict fullmesh endp on 1st sf
+2c7146a43e8de3b9cc5dbbeff656ab15e9e2491b btrfs: calculate the right space for delayed refs when updating global reserve
+753bd2394e14f42a2020e9b89bc64b4f679a436d powercap: RAPL: fix invalid initialization for pl4_supported field
+aca8d5135f59e81f97bee770fd07c4d7062556e2 x86/mm: Switch to new Intel CPU model defines
+92a957509565b753fa783cd71a0e8f5d8bbde074 Linux 6.1.112-rc1
 
---===============1806259850669221860==--
+--===============1361587578455430810==--
