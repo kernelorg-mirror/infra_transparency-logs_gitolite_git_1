@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Fri, 27 Sep 2024 23:19:09 -0000
-Message-Id: <172747914904.2269924.17406447121539443789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 27 Sep 2024 23:36:04 -0000
+Message-Id: <172748016400.2283832.16479614048202529959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/kvm-arm64/nested-s2-reclaim
+  - ref: refs/heads/scx-ENQUEUE_RQ_SELECTED
     old: 0000000000000000000000000000000000000000
-    new: 14c2b824d1ab96fe90a5de95970ed8020e5ad202
+    new: 7c7a04f5cca7df1bf980b5a5294ea928f07a0f40
