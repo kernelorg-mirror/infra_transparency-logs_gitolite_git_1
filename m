@@ -1,47 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2448397153797721508=="
+Content-Type: multipart/mixed; boundary="===============9065358420026227960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 27 Sep 2024 16:04:20 -0000
-Message-Id: <172745306032.1925711.4150710181916257612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Fri, 27 Sep 2024 16:04:59 -0000
+Message-Id: <172745309927.1926527.1832054796588140897@gitolite.kernel.org>
 
---===============2448397153797721508==
+--===============9065358420026227960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/kvm-6.12-2
+  - ref: refs/tags/i2c-host-fixes-6.12-rc1
     old: 0000000000000000000000000000000000000000
-    new: 2c10aeea6f37f720930b89cd2869f40746186d84
+    new: 61713c95c367822d22505fb0dd06735c9957ffd2
 
---===============2448397153797721508==
+--===============9065358420026227960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1727453069 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1727453054-4d049c9f86013d67a34415d6922971fcdda1eba8
+pusher andi.shyti@kernel.org 1727453109 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1727453097-93918f21d605119df68935afb065a4e127f5d620
 
-0000000000000000000000000000000000000000 2c10aeea6f37f720930b89cd2869f40746186d84 refs/tags/kvm-6.12-2
+0000000000000000000000000000000000000000 61713c95c367822d22505fb0dd06735c9957ffd2 refs/tags/i2c-host-fixes-6.12-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmb2140UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroObVwf/U1hUup1oZN48l/gnBStx+vRzkxxc
-OKNy175PANXH8J48A5iMjDiWxEDC9Is+UQWl1z22fxM/IFFpm31qmz2G/mWxI+oc
-UfzBk/daFW/FtVu548zwCU2XJsV9LwCz2a2rbxDPHMXSuiIWKwstHQXryWENrRPH
-7i3ogwweRCTLgxOQLn1MdbNpd5Rrz98utpPl6ghir4Det8vJhT6ZbhN4cpCSf6SU
-fXe+FkDf1nHPa1MWGG/XmYQYTmBrVrD4OcdlcVQU9/Tt0uhY2h+8KkvcUvA1ArNp
-yIaSDZAEC38zKwqqAky1kIn2ZNfGWC4VvGr+ZN4AbSquBfketYpI9ZNE1A==
-=VQq/
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvbXtRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u7C4A/3Twpf+XPIvfRlQ54/TxfMo8w7s5
+g9bSKlRdFhxPXF7mAP9KtO9gXAma4PKBsoqF3tmbQ+LTzLANBi+64cwIzTQNCw==
+=eH0J
 -----END PGP SIGNATURE-----
 
---===============2448397153797721508==--
+--===============9065358420026227960==--
