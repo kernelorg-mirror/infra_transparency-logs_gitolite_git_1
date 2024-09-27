@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2669641711364742192=="
+Content-Type: multipart/mixed; boundary="===============5024376207368468090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 27 Sep 2024 15:43:56 -0000
-Message-Id: <172745183654.1907931.14345544339541645424@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 15:44:10 -0000
+Message-Id: <172745185081.1908164.16292899326423113303@gitolite.kernel.org>
 
---===============2669641711364742192==
+--===============5024376207368468090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,58 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 151ac45348afc5b56baa584c7cd4876addf461ff
-    new: c824deb1a89755f70156b5cdaf569fca80698719
-    log: revlist-151ac45348af-c824deb1a897.txt
+  - ref: refs/heads/dev-queue
+    old: 11423778adb6977084908e4a0dda29d50dddba2a
+    new: 2ee9f2762483b2884cba8feda5f1b32b507dc1ce
+    log: revlist-11423778adb6-2ee9f2762483.txt
 
---===============2669641711364742192==
+--===============5024376207368468090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-151ac45348af-c824deb1a897.txt
+Content-Disposition: attachment; filename=revlist-11423778adb6-2ee9f2762483.txt
 
-cdc118f802410525cca872e0861a14d76d12c574 LoongArch: KVM: Enable paravirt feature control from VMM
-c45b9a07b6392fa224ca76b89f24dae1046eef09 Revert "firewire: core: use mutex to coordinate concurrent calls to flush completions"
-6ffa9bd6ebce0626e62358dda59effe5758ebfc5 Revert "firewire: core: move workqueue handler from 1394 OHCI driver to core function"
-5d567654be41ea59cc15a63779209af45615f47e firewire: core: add helper function to retire descriptors
-4010cb1efda08ec6fd02ec5db9da909322ef352e firewire: core: update documentation of kernel APIs for flushing completions
-f1cba5212e252243a539e079813bc96fbf53e241 firewire: core: rename cause flag of tracepoints event
-d69f11e8c57e9459c9e60bffc0f2c6c3aa02f4b1 ASoc: mediatek: mt8365: Remove unneeded assignment
-aa3457f22f00b9c9039672b1ff942fd72a5330d8 riscv: cleanup XIP_FIXUP macro
-f2df5b4fdd74a3490c35498de935ebf4f9b7c382 riscv: don't export va_kernel_pa_offset in vmcoreinfo for XIP kernel
-5cf089672119808c2f5b7035c91adcc0cc7287e1 riscv: replace misleading va_kernel_pa_offset on XIP kernel
-e4eac34feda4959fad754004435512b24af73fe6 riscv: drop the use of XIP_OFFSET in XIP_FIXUP_OFFSET
-23311f57ee132b2584915d38955b6cf125e76022 riscv: drop the use of XIP_OFFSET in XIP_FIXUP_FLASH_OFFSET
-75fdf791dff08470c035996f5d3e92c64491ce19 riscv: drop the use of XIP_OFFSET in kernel_mapping_va_to_pa()
-a7cfb999433ad3a1aa7ca86ecdaf3e061ab7076a riscv: drop the use of XIP_OFFSET in create_kernel_page_table()
-b635a84bde6f0b94944b5d960f4e6a52ac3555c6 riscv: remove limit on the size of read-only section for XIP kernel
-9ea7b92b77df7d2eee3c31ef4a19f0f12ec74190 Merge patch series "remove size limit on XIP kernel"
-168c3e0d443599dd370710243fbf5c815fad7890 Merge tag 'sunxi-dt-for-6.12-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
-a5fb217f13f74b2af2ab366ffad522bae717f93c dma-mapping: reflow dma_supported
-2af583afcf9d54b988b68d1033101e73edd72a9b f2fs: remove unused parameters
-26e197b7f9240a4ac301dd0ad520c0c697c2ea7d block: fix potential invalid pointer dereference in blk_add_partition
-3abb708ec0be25da16a1ee9f1ab5cbc93f3256f3 LoongArch: KVM: Implement function kvm_para_has_feature()
-79f504a2cd3c0b7d953d0015618a2a41559a2cfd erofs: allocate more short-lived pages from reserved pool first
-7c3ca1838a7831855cbf2e6927a10e0e4723edf6 erofs: restrict pcluster size limitations
-025497e1d176a9e063d1e60699527e2f3a871935 erofs: reject inodes with negative i_size
-e4835f1da425fbc75e37ce8258c9927170de5bfe kunit: tool: Build compile_commands.json
-a51c925c11d7b855167e64b63eb4378e5adfc11d ALSA: usb-audio: Add logitech Audio profile quirk
-c880a5146642e9d35f88aaa353ae98ffd4fc3f99 ALSA: memalloc: Use proper DMA mapping API for x86 WC buffer allocations
-0b9f2bd00fc3677e38ae5e46ff79b8d48d9cb02e ALSA: memalloc: Use proper DMA mapping API for x86 S/G buffer allocations
-7fcc9b53216cd87f73cc6dbb404220350ddc93b8 lib/math: Add int_pow test suite
-0b6d253e084a97a05f4970dee06d9a75d29a7bda io_uring/register: provide helper to get io_ring_ctx from 'fd'
-7cc2a6eadcd7a5aa36ac63e6659f5c6138c7f4d2 io_uring: add IORING_REGISTER_COPY_BUFFERS method
-f6e2e7397d00192bda11166d5fb3e2e67a8cf92e ASoC: mediatek: mt7986-afe-pcm: Remove redundant error message
-83dcf232cc7919725a331359a300fb3929651b6e drm/xe: prevent potential UAF in pf_provision_vf_ggtt()
-6182e0b80f9b5c8da19ab3a60db2e4cc10b259e8 docs/bpf: Add missing BPF program types to docs
-ad92f52312614b0ef6eee07ee64f1e7661072a49 drm/xe: Suppress missing outer rpm protection warning
-49b2597a9e53a2491cbec29451766af898eedb44 ASoC: Intel: boards: updates for 6.12 - part 2
-aab439ffa1ca1067c0114773d4044828fab582af vfio/pci: clean up a type in vfio_pci_ioctl_pci_hot_reset_groups()
-38f9fa39afe119f6b2771c9065e638414226c86d hwmon: (sht21) Use %*ph to print small buffer
-3017d28d6c0fe995703a1f34275e1cade424dc35 hwmon: (sch5636) Print unknown ID in error string via %*pE
-d077242d68a31075ef5f5da041bf8f6fc19aa231 rust: support for shadow call stack sanitizer
-ce4a2620985cdf06c200ec0b6dce80374237697c cfi: add CONFIG_CFI_ICALL_NORMALIZE_INTEGERS
 457ca96d04f599d2f95bd61144851f2181ccacc4 drm/xe: fix build warning with CONFIG_PM=n
 2efba0c095419f93f8913f1cbae8bf3fb030db20 drm/xe: fix missing 'xe_vm_put'
 70b4ab5489da0fe5b699a8466aa4f73ea304ae65 drm/xe: Don't keep stale pointer to bo->ggtt_node
@@ -1050,5 +1009,46 @@ b707512b8b07396f8982103a84285a165a1bd94c Merge tag 'staging-6.12-rc1' of git://g
 62a0e2fa40c5c06742b8b4997ba5095a3ec28503 Merge tag 'net-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3a39d672e7f48b8d6b91a09afa4b55352773b4b5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c824deb1a89755f70156b5cdaf569fca80698719 cxgb4: clip_tbl: Fix spelling mistake "wont" -> "won't"
+854724215795988ca411ffa71b72cccece47ef23 ice: Implement ice_ptp_pin_desc
+65494ab8d25e75355ca75f1d764b6d0bb8a1d5ec ice: Add SDPs support for E825C
+a1756a36864e66dffb3edfa3d0558c19be4077b0 ice: Align E810T GPIO to other products
+ed9215f5353014cc2a18d60719a432e13e3d03ef ice: Cache perout/extts requests and check flags
+dff14017c91ccf1adb7671e523f71289e4cf6c12 ice: Disable shared pin on E810 on setfunc
+9b5dd9c5a81da2d2e98d41ade918ec1b738a2242 ice: Read SDP section from NVM for pin definitions
+c17be6bbfc7b0a44acd4ac7c0c8186273f6907db ice: Enable 1PPS out from CGU for E825C products
+089f18a3e50550b5a33e0ce8ffe6d7a2a2b69244 ice: Flush FDB entries before reset
+b2a175f9504282b1be0f53f9671f5296bb93b6d4 ice: Implement ethtool reset support
+896ca091ab6887065395b402eca0953629cc0177 ice: set correct dst VSI in only LAN filters
+53ea38e7355f5222102f17caf4d92ab4a5679aa3 ice: add E830 HW VF mailbox message limit support
+61bd1856399085fc330a317cd9c0f40210e85d5d ice: Introduce ice_get_phy_model() wrapper
+d0a75f31b54ab3df0a4cc13cd0ecfd29ba6e3862 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
+28b4f8f26e5f519d8e794f16019586ce6773900f ice: Initial support for E825C hardware in ice_adapter
+8888cc8a5fbd1f30c8c08324d6ad83bce36eec00 ice: Use ice_adapter for PTP shared data instead of auxdev
+3f01b894802d1be46aa9d0a0cd90472834689d81 ice: Drop auxbus use for PTP to finalize ice_adapter move
+7a9e7ef5b406d665e564313a0b7bc298230cc171 ice: fix BST key index in ice_bst_key_init()
+82ed9f1e74e0c535bc3800bd976cc654f01a9147 idpf: fix VF dynamic interrupt ctl register initialization
+a3e3b26cebab31ae538adedab6e2f8f3a3a2f478 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+85bf6422d2bcecfc88c2506cb05e346e414f7108 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+2c5acc581eb6bcb7bf626528425f8fdebbf940a7 ice: Make use of assign_bit() API
+55389733d7ff4816c9dbb98a56149640e29068c8 idpf: use actual mbx receive payload length
+cfc44c859eaf999d89ac31f7ae0b05b864a16047 idpf: deinit virtchnl transaction manager after vport and vectors
+8f9db7fd0092d595c5c516c896e93569affb287d iavf: allow changing VLAN state without calling PF
+934e80973fbad2f315f221f0340256417a93d21c iavf: Remove unused declarations
+6b3b04f44972b61eeb35b3fd7d6aed8b8245cf47 igb: Cleanup unused declarations
+b831e2f4f7fb0f79e3ecfb2873bf3db1eaca31bc ice: Cleanup unused declarations
+b8ba575a2b0926ffc581a89c1506118f6825de02 ice: clear port vlan config during reset
+b9128bcdc89b62969cde79931fbea6bfc812bc44 e1000e: Remove duplicated writel() in e1000_configure_tx/rx()
+98b416e29a71951610b169de6418c4718d1007d9 e1000e: change I219 (19) devices to ADP
+07d2dd6b69bac8c654d8d36712dcb725e257e1ed ice: initialize pf->supported_rxdids immediately after loading DDP
+483db309fe65dc97c5ae0d1cfb54c4b86ed14469 ice: use stack variable for virtchnl_supported_rxdids
+cdc0cadfb4608dc2f780122163c318b1c5d64948 ice: consistently use q_idx in ice_vc_cfg_qs_msg()
+76f5d4aa01943be4650289e34e21258e03d0bc82 ice: store max_frame and rx_buf_len only in ice_rx_ring
+9ac26b5a6959265638b8983f4d3b9aa14cc6e615 ice: fix memleak in ice_init_tx_topology()
+7d87feaadcb95492af53534d26d3c766ee07cfe9 ice: disallow DPLL_PIN_STATE_SELECTABLE for dpll output pins
+a40479af4ad68618395e30a7ff4d192d1ffe4d0f ice: fix VLAN replay after reset
+aff8a996687d35f043bdbe2c34b4a4247a65b650 igb: Disable threaded IRQ for igb_msix_other
+1ddcee783fae8bc31eb7a85eef458187c9531361 ice: Add E830 checksum offload support
+1e23aff3864a9529c3aef1413313c08e8e0c6455 ice: Use common error handling code in two functions
+2ee9f2762483b2884cba8feda5f1b32b507dc1ce igbvf: remove unused spinlock
 
---===============2669641711364742192==--
+--===============5024376207368468090==--
