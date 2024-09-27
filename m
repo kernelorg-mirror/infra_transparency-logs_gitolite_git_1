@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5758175113537226811=="
+Content-Type: multipart/mixed; boundary="===============8605571858751605085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 27 Sep 2024 15:56:44 -0000
-Message-Id: <172745260418.1919724.13162383710312714117@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 15:56:50 -0000
+Message-Id: <172745261044.1919936.14441030996514189211@gitolite.kernel.org>
 
---===============5758175113537226811==
+--===============8605571858751605085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 151ac45348afc5b56baa584c7cd4876addf461ff
     new: c824deb1a89755f70156b5cdaf569fca80698719
     log: revlist-151ac45348af-c824deb1a897.txt
 
---===============5758175113537226811==
+--===============8605571858751605085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b707512b8b07396f8982103a84285a165a1bd94c Merge tag 'staging-6.12-rc1' of git://g
 3a39d672e7f48b8d6b91a09afa4b55352773b4b5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c824deb1a89755f70156b5cdaf569fca80698719 cxgb4: clip_tbl: Fix spelling mistake "wont" -> "won't"
 
---===============5758175113537226811==--
+--===============8605571858751605085==--
