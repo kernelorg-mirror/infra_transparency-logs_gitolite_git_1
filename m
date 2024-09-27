@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3931882335527790101=="
+Content-Type: multipart/mixed; boundary="===============5658779981722279996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 27 Sep 2024 12:18:20 -0000
-Message-Id: <172743950015.1744924.4579808447306230399@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 12:21:21 -0000
+Message-Id: <172743968147.1748530.17454256986829793758@gitolite.kernel.org>
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,426 +16,434 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 073f6d2db0fd3f6ff9468b18435bc0343d7694cf
-    new: fec51b1f373316cf63f49a317097a1f480df082f
-    log: revlist-073f6d2db0fd-fec51b1f3733.txt
+    old: fec51b1f373316cf63f49a317097a1f480df082f
+    new: de6d191eedea3ca47be4887b30b45f7d8da03c8c
+    log: revlist-fec51b1f3733-de6d191eedea.txt
   - ref: refs/heads/queue/5.10
-    old: 28c62d6f8f1536037aa6b9876e155a91aeb7cd7f
-    new: 5fe72e67be79551cb246d878ad18fea0e874d8c0
-    log: revlist-28c62d6f8f15-5fe72e67be79.txt
+    old: 5fe72e67be79551cb246d878ad18fea0e874d8c0
+    new: 997ee7480ea7e949dfec28d0f915d9fa8d7c2a00
+    log: revlist-5fe72e67be79-997ee7480ea7.txt
   - ref: refs/heads/queue/5.15
-    old: 64b1a4f699f7dbdb1efcd45abbfc512d2390d225
-    new: 9f14398a2ef4c04b84fbc077343a0db6c410074c
-    log: revlist-64b1a4f699f7-9f14398a2ef4.txt
+    old: 9f14398a2ef4c04b84fbc077343a0db6c410074c
+    new: 97ebe91b90f7730e740b482221fee9501bf10460
+    log: revlist-9f14398a2ef4-97ebe91b90f7.txt
   - ref: refs/heads/queue/5.4
-    old: 2f1817e0e7820321ff7827445cbe7738cd5f0f16
-    new: e2d187b8224cd38be47490784085a0d11b69427c
-    log: revlist-2f1817e0e782-e2d187b8224c.txt
+    old: e2d187b8224cd38be47490784085a0d11b69427c
+    new: d7d741cdb712346dde946633156baa9f1d0c77e6
+    log: revlist-e2d187b8224c-d7d741cdb712.txt
   - ref: refs/heads/queue/6.1
-    old: 618788b5d85d649801201d86972a675702db9ec5
-    new: 68e7f0094265520b67cbe208c82adcc71fb8e6fe
-    log: revlist-618788b5d85d-68e7f0094265.txt
+    old: 68e7f0094265520b67cbe208c82adcc71fb8e6fe
+    new: 1de777269070a50b3dcb147b13abeca9893e9c20
+    log: revlist-68e7f0094265-1de777269070.txt
   - ref: refs/heads/queue/6.10
-    old: 8f185aaec0417dbee12678e91353119ca9873c0e
-    new: 9da3b220fb47aa1bec2ba32820b229ac4ede91b2
-    log: revlist-8f185aaec041-9da3b220fb47.txt
+    old: 9da3b220fb47aa1bec2ba32820b229ac4ede91b2
+    new: bd9cf56c60f0349b168200f0bcdf782a299b4ac2
+    log: revlist-9da3b220fb47-bd9cf56c60f0.txt
   - ref: refs/heads/queue/6.11
-    old: fba27ea0a8b31fe2d2530b922a0d98694ccf5ba5
-    new: 8a05cf8fc722ff64843d04ab317742bb5e68ca80
-    log: |
-         cb44e4188663f6d1274d943b03ada477fc2dc492 drm: Use XArray instead of IDR for minors
-         680a7949ab62067c121bf8d1a436c662736adc6a accel: Use XArray instead of IDR for minors
-         b5c6f0b0672a522c0bff8b5649a4c8f4bf4ab828 drm: Expand max DRM device number to full MINORBITS
-         3a69ab59b4bee756ec6c5f771c36442b48de0901 powercap/intel_rapl: Add support for AMD family 1Ah
-         3e90a286830fa35643100b18f7a18dac08b3ab41 powercap/intel_rapl: Fix the energy-pkg event for AMD CPUs
-         c408c3c420915d43ef35b54daab49e14ed4de58d cpufreq/amd-pstate: Add the missing cpufreq_cpu_put()
-         d4a52839e4e72d5c414cfd34523a9422096e9b42 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
-         c1661d17c10b52d99d7a9e78304e642f7fc1c317 Bluetooth: btintel_pcie: Allocate memory for driver private data
-         03a8e604ab044bcb4a0a89c54c1792e010c64af4 ASoC: amd: acp: add ZSC control register programming sequence
-         8a05cf8fc722ff64843d04ab317742bb5e68ca80 nvme-pci: qdepth 1 quirk
-         
+    old: 8a05cf8fc722ff64843d04ab317742bb5e68ca80
+    new: 7439094782d151290e73494f1061f9920333694d
+    log: revlist-8a05cf8fc722-7439094782d1.txt
   - ref: refs/heads/queue/6.6
-    old: 2f2364e07d00d7b02909f792317ab7599b316e90
-    new: 0cbd4bcd4ac5a22bc8fa7c5f53cedf985c298425
-    log: revlist-2f2364e07d00-0cbd4bcd4ac5.txt
+    old: 0cbd4bcd4ac5a22bc8fa7c5f53cedf985c298425
+    new: 60d19de21cda923a33549b3617738dcf1e5b5bf5
+    log: revlist-0cbd4bcd4ac5-60d19de21cda.txt
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-073f6d2db0fd-fec51b1f3733.txt
+Content-Disposition: attachment; filename=revlist-fec51b1f3733-de6d191eedea.txt
 
-8e198c3f62aa692395eace8ee36a4a339355b7e4 staging: iio: frequency: ad9833: Get frequency value statically
-7d34c590b416ae488a2f27c5d7fbe9d0f9560a86 staging: iio: frequency: ad9833: Load clock using clock framework
-af31ee1903f6c37c9bcae57df15a450216099189 staging: iio: frequency: ad9834: Validate frequency parameter value
-40401b1d5589d5e2136e6de19e927839be995426 usbnet: ipheth: fix carrier detection in modes 1 and 4
-491de38756e6e1ce635b549500d787e0f5b8ddfa net: ethernet: use ip_hdrlen() instead of bit shift
-a30936379f8ef4e748f6a5eba592ea133a27acb1 net: phy: vitesse: repair vsc73xx autonegotiation
-35dee7ec1a29914eb7d284652349afcb33a718d4 scripts: kconfig: merge_config: config files: add a trailing newline
-6f015755d8f0b79ec96392a586b3025c6ef3151b arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-a336bf8afa3c2f2fe10313d8a61308bef570a021 net/mlx5: Update the list of the PCI supported devices
-e436994211995a6a7940fe7820be67a8eebf4bce net: ftgmac100: Enable TX interrupt to avoid TX timeout
-444a280c32c96e5651115cef39fc7a2e5cc8265e net: dpaa: Pad packets to ETH_ZLEN
-ebd92344de03aff2a92c74365635f1ebda90c83f soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-99b21d389d2cce7313d587a568d7b3d9c2855b6c selftests/vm: remove call to ksft_set_plan()
-4a2be47eee8c27cdf635f3ad7574edd43101d860 selftests/kcmp: remove call to ksft_set_plan()
-0ff8cd27d0de940d73887f76c7f052f71d064f15 ASoC: allow module autoloading for table db1200_pids
-5b6f9c96bdec0f7b4871c290c43ef8bd0918faae pinctrl: at91: make it work with current gpiolib
-f7112ee7dbc07cc9dca9556cad6583e0d036ce73 microblaze: don't treat zero reserved memory regions as error
-098342b07d2cb19d8783e18dd2c1841f60c9cedd net: ftgmac100: Ensure tx descriptor updates are visible
-6764145667c44f895b86b0319c394ddfa960d180 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
-f8f5ac8ff7c5717c641e9f773d9fc676c5e33a26 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-4bdca83aedc64bc681980a16d56c22c1abb2b78f ASoC: tda7419: fix module autoloading
-f95030e6146aecc690a7a571fddf8fcc07561b91 spi: bcm63xx: Enable module autoloading
-f661a61e29b1eafdde06956f9a6aea61229876f5 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-34c5649cca300f40584f8c93b6fbbc0dc52947ea ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-d07c3ac32f8b29026e00736fa479ee73544fef7f ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-d2994d6bd2649f987a77c18f3eefa6d3c7bf550b gpio: prevent potential speculation leaks in gpio_device_get_desc()
-fec51b1f373316cf63f49a317097a1f480df082f USB: serial: pl2303: add device id for Macrosilicon MS3020
+7a945aafc23c88f3a07f2319b1c77efc079c151d staging: iio: frequency: ad9833: Get frequency value statically
+ef720633bcbb20a1ed298f93daf4c27493de1e82 staging: iio: frequency: ad9833: Load clock using clock framework
+58cdcf2a0637f178716ecdc75355f99624766066 staging: iio: frequency: ad9834: Validate frequency parameter value
+d2b2e728b6ecd7da4613a31b463a43a434486579 usbnet: ipheth: fix carrier detection in modes 1 and 4
+667e0f2a16d93be4cdb187947ca31cdff2bf1d9d net: ethernet: use ip_hdrlen() instead of bit shift
+aa460cc1e9fb3c5addec67239939f29d6ff9dcf3 net: phy: vitesse: repair vsc73xx autonegotiation
+c25cdc95e9e9ab520331dd159238cc5a5d6b68a2 scripts: kconfig: merge_config: config files: add a trailing newline
+ae9b36b645acbb89370ef4d261f2b0d122506354 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+9338073067772e467a0a5755b54191b1263916c8 net/mlx5: Update the list of the PCI supported devices
+a31618247217818c0825ec4f931f7eea6ea3003c net: ftgmac100: Enable TX interrupt to avoid TX timeout
+00874323c6cacc14198d6353385ede8ddf267ed1 net: dpaa: Pad packets to ETH_ZLEN
+c7746ab6c7dc6c034803d19346fe5194d0e08308 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+ab98c38eb46127fd4248b365d12775a6038742db selftests/vm: remove call to ksft_set_plan()
+ab028578deea2174b9aa738a8212d99f9bf72148 selftests/kcmp: remove call to ksft_set_plan()
+8652fe94161fe9f448545aa00f0dc69cb30ef47a ASoC: allow module autoloading for table db1200_pids
+abd35b4c19bcd7f78215a20e32cce0744319e9f1 pinctrl: at91: make it work with current gpiolib
+868e03b44c52c97cac9233156eee0f52a9dd49d0 microblaze: don't treat zero reserved memory regions as error
+1ff86f5ae0bb41556e72a3e8f3d58baba2fdd896 net: ftgmac100: Ensure tx descriptor updates are visible
+061f598a200f81f52cbab976f7d1eed1f134e2ae wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
+0bde3abd9208020bfba075cd7d8433f19b33b06f wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+9da8d8922966ac96353d470cbc2f979ba8ce437e ASoC: tda7419: fix module autoloading
+aff7aa1946ce1c63433df1df7a11efce15b62717 spi: bcm63xx: Enable module autoloading
+a7bed7f1ebb5e5aef0871dad9771d151d4f3eaf3 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+e3c0b837568c974408204d1c7c500a3a4cefe91b ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+b162c2c30901d95b6a4cfbf3053dda3d49b8a1a3 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+ab4f73f2748ee3a21947ae1ab7bb290ef1ce1a7b gpio: prevent potential speculation leaks in gpio_device_get_desc()
+de6d191eedea3ca47be4887b30b45f7d8da03c8c USB: serial: pl2303: add device id for Macrosilicon MS3020
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28c62d6f8f15-5fe72e67be79.txt
+Content-Disposition: attachment; filename=revlist-5fe72e67be79-997ee7480ea7.txt
 
-3e413cae44654c6b2da131f1fe8a53f2bd1d7724 usb: dwc3: Decouple USB 2.0 L1 & L2 events
-429283a61341c40d6f7bb9592bc30412d153bb1d usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
-3acac13761f5ca24064216e2b8d1b24c6185285e usb: dwc3: core: update LC timer as per USB Spec V3.2
-95bdb84d51bc31f0b2cb65cda515a674b3ee421c usbnet: ipheth: fix carrier detection in modes 1 and 4
-74090971d9297c7b5f151cbf9cb4e28f2fc11930 net: ethernet: use ip_hdrlen() instead of bit shift
-d2f745e5d14a121ac059e2fc31de0edc3e61d3a4 net: phy: vitesse: repair vsc73xx autonegotiation
-1b1c3e9727d355ded08d18d906f2a461f216618f powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-8f94f4c39e183cfea1524b65cd59991cfb3be717 btrfs: update target inode's ctime on unlink
-8d4d8b3d0ba08e95c532ac7ff2aae9c7f8dae11d Input: ads7846 - ratelimit the spi_sync error message
-59d68ed4956eaaf7ff420232a20ebad6ebf06e41 Input: synaptics - enable SMBus for HP Elitebook 840 G2
-3760cb520df28348497f373618a1bb63d9e01947 scripts: kconfig: merge_config: config files: add a trailing newline
-de93a013b5ce5afccde022caf923d6ec7d8f9c68 drm/msm/adreno: Fix error return if missing firmware-name
-92bc8eb2e367c9efab0df3842fb05f5a68a8269d Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-c1d7c2b317b5c747df130bfabe00e9d3dc387e6a NFS: Avoid unnecessary rescanning of the per-server delegation list
-4a76541920c53fb58a5195cba828cbae0657c16e arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-d5aa959e89afa9042dd4cd070cafa7af9988e8ab minmax: reduce min/max macro expansion in atomisp driver
-ac874c2e31bd6e32f3b9053d9169969c3ca86212 hwmon: (pmbus) Introduce and use write_byte_data callback
-a983e98f809e0a538f6757191f1136e9e6a93a5a hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
-bb33fe8190534368b1d78e4dae73010e6491ce07 ice: fix accounting for filters shared by multiple VSIs
-b3b908db84c86d4a6170616f26ee28e9c85c82f4 net/mlx5: Update the list of the PCI supported devices
-a7c1d059222ea0a73a286c29d0ed1406adcf9161 net/mlx5e: Add missing link modes to ptys2ethtool_map
-e729a1c0c95ae4efe5fcb268987bf8503f8e416a fou: fix initialization of grc
-3d55a30877c9590b930406e12ffbaacb407c106a net: ftgmac100: Enable TX interrupt to avoid TX timeout
-0277fd5eed80f07201f2e937a9cde8101da3b9df net: dpaa: Pad packets to ETH_ZLEN
-6b3ff1f0c6487e8494d65ec6c8d676e934144130 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
-e3aeb91750a8595a9b1ec0e5c7f89c7942645eb7 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-73807b61a4eabc32c644a8da2c1ba925be34d03f ASoC: meson: axg-card: fix 'use-after-free'
-8a175f09c9ff3ef3abbebeba2e7cd9e62f7dff10 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
-c92decee6deaad7fa551eb59bb06dd9249f4549f ASoC: allow module autoloading for table db1200_pids
-13b74b2bd803b53cbcf05a146650875211e6f550 ALSA: hda/realtek - Fixed ALC256 headphone no sound
-bc586cb8ef6be259b07fa4c5f675f946e3f95ba5 ALSA: hda/realtek - FIxed ALC285 headphone no sound
-adccec7eeff99808c3d00944efb7cb6c32acc325 pinctrl: at91: make it work with current gpiolib
-c16e8692344ae16d15346cdccd2267f7397549dd microblaze: don't treat zero reserved memory regions as error
-bdd4b00bd105b08c06033729ad797f6739010508 net: ftgmac100: Ensure tx descriptor updates are visible
-d58adbdba006f44feb1674f1640ac2f9da6f2022 wifi: iwlwifi: lower message level for FW buffer destination
-1dec549cc303edd192aa450107242f7cc993a42e wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-35f4f165d6cdfaf1fa0ef203a9ea53246db6a5b7 ASoC: intel: fix module autoloading
-aa758da09ffa6970bf5062756e9980d7733f1d50 ASoC: tda7419: fix module autoloading
-96dcdb912bbd262617b9006ff472f06939e7cb75 drm: komeda: Fix an issue related to normalized zpos
-e86be42a3c1524778c8d25218b278a64cdffe90b spi: bcm63xx: Enable module autoloading
-b51010c1531dfbe53876b0efbed5607292c82d9d x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-5490ff9d905a772f97b48a41dfa39f10bfb174c1 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-732a2f1f17a70c4a94455b65001c9d48b6bad3ef ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-58e654725ecb76bd552d9ccbe1717145f08facef cgroup: Make operations on the cgroup root_list RCU safe
-5ff91ca9976bac3bb5cfb86aaf8c7b3e262af2a8 netfilter: nft_set_pipapo: walk over current view on netlink dump
-ea357fd016d57cc05e12b92c60ff844f91554628 netfilter: nf_tables: missing iterator type in lookup walk
-df4719bf3fbffb0f7c641a832973806ce5053d70 gpio: prevent potential speculation leaks in gpio_device_get_desc()
-f58defacb0386769f09f0d33d86866ee9d5d051d mptcp: export lookup_anno_list_by_saddr
-4254ed32ab462d64c2e95d093889c04442c11fec mptcp: validate 'id' when stopping the ADD_ADDR retransmit timer
-82f0c20a0fa2844065240ae49b98a612e5738b0d mptcp: pm: Fix uaf in __timer_delete_sync
-e5cbb761d7f2907e6c3aeef90a19cb3e0332571f inet: inet_defrag: prevent sk release while still in use
-32aa18275a9d86017c4a9fc595bf27432e0dc3cc x86/ibt,ftrace: Search for __fentry__ location
-a9ac995b94ce0cab8a206f6ad3a020f913f36795 ftrace: Fix possible use-after-free issue in ftrace_location()
-3a76e5605c0628a01037c89dbe5c3dd1ce4fb575 gpiolib: cdev: Ignore reconfiguration without direction
-8900fc5f1a6bcdc2d840efedce7b362dda896645 cgroup: Move rcu_head up near the top of cgroup_root
-967e8025408e42c5533919f98e365edace47f72d usb: dwc3: Fix a typo in field name
-a47641f6dd1fb97874276fc5e334bc0fcd595fce USB: serial: pl2303: add device id for Macrosilicon MS3020
-5fe72e67be79551cb246d878ad18fea0e874d8c0 USB: usbtmc: prevent kernel-usb-infoleak
+ed66d6c0d61d638954e59de3b36ac97a8c07e8a9 usb: dwc3: Decouple USB 2.0 L1 & L2 events
+e5bab524d749740045e90d14d47c425736869a85 usb: dwc3: core: Enable GUCTL1 bit 10 for fixing termination error after resume bug
+5e56afb55ba425ad8fc0617f8593103f89566865 usb: dwc3: core: update LC timer as per USB Spec V3.2
+0c3d58e54df6dc0e206ac3c1f10dd2c2d691cb55 usbnet: ipheth: fix carrier detection in modes 1 and 4
+90b08a2508c03c106d3a3a98910b03d36ab252c5 net: ethernet: use ip_hdrlen() instead of bit shift
+80aa8c09520d9b145846ca3699c19a6e74d2a24f net: phy: vitesse: repair vsc73xx autonegotiation
+2a00f8e7d11b6e8c8786e5fd0f2313e9ca5581d5 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+be2fcdc177e18e3cf3d54b23d55c0aa02ef82b8a btrfs: update target inode's ctime on unlink
+fb378840e2c0a93a09849f79ff1ba54665f5b436 Input: ads7846 - ratelimit the spi_sync error message
+0088ff1fc59feea0f2cbdc1510739f6b47dac910 Input: synaptics - enable SMBus for HP Elitebook 840 G2
+1ab89946ef13eb855b90f036e547c7d778ceff68 scripts: kconfig: merge_config: config files: add a trailing newline
+3e6de4abd7cedeae2d8872d29bdde5c2dce1c2ca drm/msm/adreno: Fix error return if missing firmware-name
+457853a792b9b24185ab279f7b27cc491d7e8357 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+4c49b205fb45d2322350be57e7795f1ced28a2dc NFS: Avoid unnecessary rescanning of the per-server delegation list
+d9c1a9dd24d87fb60a7998a73d5d7e9972fde59f arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+1f3cd80cfb6294b1fdcd68bba773665b3f7bdef3 minmax: reduce min/max macro expansion in atomisp driver
+9fbe52887d5ed0d81f0cc35723ad325efa8643b0 hwmon: (pmbus) Introduce and use write_byte_data callback
+de44d6a0b6d6ef21fcb8733663f13334da5c101e hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+814f289689de41df6f32d75550dd1f4eac5edb05 ice: fix accounting for filters shared by multiple VSIs
+59886d1808b809f765b3980d432d957e0dfc822a net/mlx5: Update the list of the PCI supported devices
+a9f4bc74d6985bb6a4bbff1c10a5aa27f92f17d6 net/mlx5e: Add missing link modes to ptys2ethtool_map
+0915f4e78f280f8a51bfffdaad021f890f0254e5 fou: fix initialization of grc
+ea5e5eaf0af6f4d27800e4867343f7192912ef45 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+1aef397b6cedb4967ceca27a8101d1580a8207cd net: dpaa: Pad packets to ETH_ZLEN
+40201659ff8d3508921b91e39c46127b658aac40 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+95f39bdf76759281e72d5ce10f2a7c1fd2fad88b soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+5a86f5048a6745755c4d891175ac0bd3438a4064 ASoC: meson: axg-card: fix 'use-after-free'
+368a75ba27ee752d4559926cbf089793f081e250 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+4736077bac0f99080756b4b25d945df7b9e17e12 ASoC: allow module autoloading for table db1200_pids
+62a1ef391c99ff03ab4db185f4c3598498097db0 ALSA: hda/realtek - Fixed ALC256 headphone no sound
+9e482a33ce8c6a1fbbc9323427e2f4d53eae871c ALSA: hda/realtek - FIxed ALC285 headphone no sound
+591050ac62598ee1b356d8d3e9e80569f7a00886 pinctrl: at91: make it work with current gpiolib
+e04e524fd42a7cde66c5d9f30af4a29b49e840d7 microblaze: don't treat zero reserved memory regions as error
+3f3b6ef284e65159de579a0427fe9c8c5c3416a5 net: ftgmac100: Ensure tx descriptor updates are visible
+74c06d698da26b417518ad98a47dee6c3168daf4 wifi: iwlwifi: lower message level for FW buffer destination
+6e910799703fe19ee731ef8ce1ea39922d93bbbe wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+adea6f341f9fb250f349a67474e9a35f52402322 ASoC: intel: fix module autoloading
+d3acfb922898896a205334fddf9e2d01e63cc878 ASoC: tda7419: fix module autoloading
+fb88760b6cbc9c5c68581cfe1d970a633c2102da drm: komeda: Fix an issue related to normalized zpos
+1e9a7de4f2705a17d8baa12b1191e815d0347569 spi: bcm63xx: Enable module autoloading
+b21279b0864866d9c0534cec4ef46b5dfefef00a x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+ed80acb1241f6687b5594a70fbf05fce0b31144b ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+ed5472516a2c7255d6241fc9cb102e4fa54e3432 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+93c31f5c619b30e331f1fc7ffe62da4d16f58778 cgroup: Make operations on the cgroup root_list RCU safe
+694492ae3446313dfa74335fc6515b341a2e8c31 netfilter: nft_set_pipapo: walk over current view on netlink dump
+21093e3925b1bac7f69943f594b8c5cc08beaef9 netfilter: nf_tables: missing iterator type in lookup walk
+644c2ec375020b8a31250ff2a5e4bfcde0010226 gpio: prevent potential speculation leaks in gpio_device_get_desc()
+8739c20a6fb55cd1331d80f2177876aa352554dc mptcp: export lookup_anno_list_by_saddr
+52366a332eaffef41db87d35e2eda63d4b9931af mptcp: validate 'id' when stopping the ADD_ADDR retransmit timer
+f8c6c6aa4e050e69f05af431b364638f739cee13 mptcp: pm: Fix uaf in __timer_delete_sync
+b19ad9e4cf00a25f27a00497f6edfcd533b4eadc inet: inet_defrag: prevent sk release while still in use
+8be700c52adcf4438cab25f7161d97d7982b0b55 x86/ibt,ftrace: Search for __fentry__ location
+88972e0bb57e636eebeac4f44683ad97ec373f3d ftrace: Fix possible use-after-free issue in ftrace_location()
+aeb065d62091e1c1c85b9db91b1d62c38b733c4b gpiolib: cdev: Ignore reconfiguration without direction
+5f2f710917c284037253922a8407d4b25c54bcb7 cgroup: Move rcu_head up near the top of cgroup_root
+66a2d349b4237f9969cc086bbb172cbff992e31c usb: dwc3: Fix a typo in field name
+5512062fe4809acbe93f9bf68ff12917e76b85d1 USB: serial: pl2303: add device id for Macrosilicon MS3020
+997ee7480ea7e949dfec28d0f915d9fa8d7c2a00 USB: usbtmc: prevent kernel-usb-infoleak
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64b1a4f699f7-9f14398a2ef4.txt
+Content-Disposition: attachment; filename=revlist-9f14398a2ef4-97ebe91b90f7.txt
 
-0c4c9e0144f1da0bb992d7b8d4cdd2b3a2703a10 usbnet: ipheth: fix carrier detection in modes 1 and 4
-9f6eacb104471f5c02aae79eacf92a988775a344 net: ethernet: use ip_hdrlen() instead of bit shift
-83ecb54dae42a63e3c0e8a65533bd5f0b3e60b63 net: phy: vitesse: repair vsc73xx autonegotiation
-f217b5c9d9482f1333cf469864ae6eb965550ba1 powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
-bbd68648a6b707ba7cf0a208b1bb6b2a7c165777 btrfs: update target inode's ctime on unlink
-239cf8a27c45cb4b9df9674e0c9eea6a9144b79b Input: ads7846 - ratelimit the spi_sync error message
-58e76cd475c744d4eada0069a45c74e73174d1fd Input: synaptics - enable SMBus for HP Elitebook 840 G2
-39073132f530513616ca1d5c3b3afbbadf12706c HID: multitouch: Add support for GT7868Q
-7805ca43111c9b46a7de5471c5b43a2f8311bbd1 scripts: kconfig: merge_config: config files: add a trailing newline
-3d11a2d5a6ef44132d1452cdeb1145862450673e platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
-bb14ab7794558bbcdfff1ad5a89702c986e709ea drm/msm/adreno: Fix error return if missing firmware-name
-1555156af6990aacef6b668ecd575aa3cf362e57 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
-0863fe7a2273bd98903fddf9194be1862708ffe5 NFSv4: Fix clearing of layout segments in layoutreturn
-012b301a22e0bceca27966b4196513e203551d0e NFS: Avoid unnecessary rescanning of the per-server delegation list
-032a7fafb8fece5440e5fedd235e5d24d0aaab10 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
-2a60048bc4aa6495d589fd2cc8603f92815230f9 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
-1df88d7cbf9f7f9fc9e29b99d43bfe043e795e00 mptcp: pm: Fix uaf in __timer_delete_sync
-3c1f83bcd6686bf504b4e3d47eaf2863e0b9de45 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-20ecf8b9a017a9610c70f7c0d6de7e1f8f290c94 minmax: reduce min/max macro expansion in atomisp driver
-8e51cec0513aed4fd79aab566fe66d8a1c0db100 net: tighten bad gso csum offset check in virtio_net_hdr
-544186112ddea07aacea0770e07db15a32905d82 mm: avoid leaving partial pfn mappings around in error case
-355f3b1f3b358b3e90e811938cfeae5231cf3466 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
-85eee53825bd67ae75a71d59603f5f1d4422d096 arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
-011f722bf4d369aab8ddce7528013481b6d79e25 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
-af6099099d848758b5e91acc103e66c942b8ef9c selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
-550b49cd22358d2cecad4887841851a5707002a2 hwmon: (pmbus) Introduce and use write_byte_data callback
-44478066eff3871a13c8e160fdef36c67d901042 hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
-f1317dbbafd0e18ade84ffad799ff3b02c7e5a73 ice: fix accounting for filters shared by multiple VSIs
-bc0b7fd47ab5cf5ba997601e9d9cc9b859795e13 igb: Always call igb_xdp_ring_update_tail() under Tx lock
-0d5b17cc7ad5371ceae3d6d3c26060806dbe70ba net/mlx5e: Add missing link modes to ptys2ethtool_map
-bf3b02acb91953591c591ccc4668febe8d6b1757 net/mlx5: Explicitly set scheduling element and TSAR type
-b3db1166985e870d3f9e7dc673597be17a765b4d net/mlx5: Add support to create match definer
-e68f81a6cc88bff87b9dd8674b0e7ae251a2c4a3 net/mlx5: Add IFC bits and enums for flow meter
-55d18717eb1b227a57f7ab5c55e1b4ee198daaab net/mlx5: Add missing masks and QoS bit masks for scheduling elements
-bd1eabd535d6077478a674de16bf26164bbf4de1 fou: fix initialization of grc
-48c94173c2865582e6b768158a68a320a442e862 octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
-85645b265839eba5fd44d158892bd3e585dba45d octeontx2-af: Modify SMQ flush sequence to drop packets
-60c262e4b5e0cb68a2e92bafd4be1e0ecc53e325 net: ftgmac100: Enable TX interrupt to avoid TX timeout
-812e17f7c53c6024385f8a18337a049fe0a3b6b4 netfilter: nft_socket: fix sk refcount leaks
-fec46aaed24f5072c653359d10c6fb7c19cf57ac net: dpaa: Pad packets to ETH_ZLEN
-2b5795126c5a64f8e84aa23555d0550de64779a8 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
-243e8e83bb8292825e8a00e3316273555ab0ee0e soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-75858ab0744931d053ae81c9a941ba41bd5bf482 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
-3253e9d75ee1cfe58194473696084fc29188febb ASoC: meson: axg-card: fix 'use-after-free'
-dbac0620e6a3b20ec0088046ee068814a23dd200 ASoC: allow module autoloading for table db1200_pids
-4219045ad7dd2770494663043890332e97b5fcb5 ALSA: hda/realtek - Fixed ALC256 headphone no sound
-7a52fd766e21763b9005fb31f488f7273a94cc9b ALSA: hda/realtek - FIxed ALC285 headphone no sound
-1505f14793897e697440e74f222934d9bcbddb09 scsi: lpfc: Fix overflow build issue
-1c7b51fbdd05b7620f1c7b00426c1bc371f977ad pinctrl: at91: make it work with current gpiolib
-aefc49691f8d795453a73996c290716f59968ca6 microblaze: don't treat zero reserved memory regions as error
-790815b3619bcb376a5401e4db990bd632f9c2ae net: ftgmac100: Ensure tx descriptor updates are visible
-6de96b95d8207f375b3c0101e3b4939e780205cb wifi: iwlwifi: lower message level for FW buffer destination
-cf67897a96ec2ba7a4ea5c65eee7267eba3ff9a7 wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
-737c70047d36828ec689181c349d034c3f1f6085 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
-348ac0614ad226eea80fb429a97531555a8fdca6 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-c479aff12bbeb1d935888caa77f8d500002534fb wifi: iwlwifi: clear trans->state earlier upon error
-14c4331053dea29c948108065e45149ae389b0b3 ASoC: intel: fix module autoloading
-e8006db13929741c7c27bc844599eb58ea270eef ASoC: tda7419: fix module autoloading
-25d84668eda9292b7df2dcba5c4b31bd82237ba0 spi: spidev: Add an entry for elgin,jg10309-01
-48d76b66e4b8ddd2d204f51ff84878f366bfe768 drm: komeda: Fix an issue related to normalized zpos
-74a531a9afb707b8674bbd873b727c739be11a16 spi: bcm63xx: Enable module autoloading
-94961099e5fcd99c929a3b1e3559145486156f77 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-efa55e41f88ec50aea5a964b503e78fa1ae52487 spi: spidev: Add missing spi_device_id for jg10309-01
-8ce0d445b7a45c1ffafc97f6fd292d8360a96fcf ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-00ecb8c3a5046a270e11069d3b623d88a680f276 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-250b7bf54789dc8b2c590d6e29a9568f71b68eb1 cgroup: Make operations on the cgroup root_list RCU safe
-af3783af181ff18ff72d1efa40dc409b0b22e124 netfilter: nft_set_pipapo: walk over current view on netlink dump
-a15d365fdeaa67482caa5859ef23dfe2df19d068 netfilter: nf_tables: missing iterator type in lookup walk
-c780a0569e9adbb01a620bcaace90f5ba28d1f71 Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
-405fd24be4de972f852bf18491825245031fd2b9 gpio: prevent potential speculation leaks in gpio_device_get_desc()
-039761821048144161abfff03d6e22b56db5302b inet: inet_defrag: prevent sk release while still in use
-f3c99f3685b1e2014ef4685f1a1b0435d203926e gpiolib: cdev: Ignore reconfiguration without direction
-58bcb79a63ef6beeef3b8f3d5be31bce11c3e0b4 cgroup: Move rcu_head up near the top of cgroup_root
-c9f4fbb8f627d3c14b89cdeea3175f1674f20a20 USB: serial: pl2303: add device id for Macrosilicon MS3020
-9f14398a2ef4c04b84fbc077343a0db6c410074c USB: usbtmc: prevent kernel-usb-infoleak
+f49c645e94e10ba63d180e30089e784edd19f4bd usbnet: ipheth: fix carrier detection in modes 1 and 4
+a68cfe10f6c3c18ea0b3e1b4fdb5c682e5c8c394 net: ethernet: use ip_hdrlen() instead of bit shift
+ac8137f6c60c33b23c746a5e52bf216779812629 net: phy: vitesse: repair vsc73xx autonegotiation
+0539b919fbcd241be5fa03b27c728950fdaec56f powerpc/mm: Fix boot warning with hugepages and CONFIG_DEBUG_VIRTUAL
+88566312bd42e4595409e5d78ba87df066fbaba6 btrfs: update target inode's ctime on unlink
+48af237e6c2d0574a529326e54fa1107e951999f Input: ads7846 - ratelimit the spi_sync error message
+2ada169e3bda7d91f9b7c8f90bed12af45d1a06e Input: synaptics - enable SMBus for HP Elitebook 840 G2
+d494a0418a1f192d5b52f3d6704ba4a98406afaf HID: multitouch: Add support for GT7868Q
+6f10d4b2d956fb2420a661a93b0afb9864664f1e scripts: kconfig: merge_config: config files: add a trailing newline
+727df348860b4cc6e70a2809b3413ffebf1629ad platform/surface: aggregator_registry: Add support for Surface Laptop Go 3
+cc15b1d2a83ff2f8a2fcc5eb1b98f58a48745b03 drm/msm/adreno: Fix error return if missing firmware-name
+3ca1d24a96b174765e4d3a5e4d3964d79a4d9753 Input: i8042 - add Fujitsu Lifebook E756 to i8042 quirk table
+b3d541f2c69dcd2efd890e6813e047f30bb310a4 NFSv4: Fix clearing of layout segments in layoutreturn
+b55c1ae9dafb0a4bf3df6d6528a8be878f39ade4 NFS: Avoid unnecessary rescanning of the per-server delegation list
+0865f853ae29430b0cdcae1095f30ed6b7052fd6 platform/x86: panasonic-laptop: Fix SINF array out of bounds accesses
+1f99f2f7ae6ebba6ce5719f9771db1e8db01dd68 platform/x86: panasonic-laptop: Allocate 1 entry extra in the sinf array
+308f8b9cd84ab460c998cba6b6b3ecb5bf1ef66e mptcp: pm: Fix uaf in __timer_delete_sync
+288835264064735041c7bb6e22041bd48541f07d arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+6fc09d5d055133a245bf976b9772021833d764c7 minmax: reduce min/max macro expansion in atomisp driver
+131308e4e135ad2141155ea520f73b60af17c54b net: tighten bad gso csum offset check in virtio_net_hdr
+fc4d5c876c58b1fba844a779eb3ad0cc28c6f1fb mm: avoid leaving partial pfn mappings around in error case
+fc76e46617759a2b1db98eec66f691f037953360 fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
+d12be662670626bd11e0548c1241a2518638da5f arm64: dts: rockchip: fix PMIC interrupt pin in pinctrl for ROCK Pi E
+2a2a6b7ef48a12e03f5d6077338e54ae3b01d718 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+d479e5cd06286de9997acc5a4dc83133d1f8adce selftests/bpf: Support SOCK_STREAM in unix_inet_redir_to_connected()
+5f08cd2d01a5bb36bd8003083e2d933149ec2b18 hwmon: (pmbus) Introduce and use write_byte_data callback
+ef50bcf6e2a76088634253488561745f51a9df4f hwmon: (pmbus) Conditionally clear individual status bits for pmbus rev >= 1.2
+a62d213b9d17b3c7b79a9d7e5c5ba358bb69269e ice: fix accounting for filters shared by multiple VSIs
+8dddc39cbe6faec470e423dc053b7c58af8736b9 igb: Always call igb_xdp_ring_update_tail() under Tx lock
+ea26da83ef7c6269c6832b0b0d4553dd8745a29c net/mlx5e: Add missing link modes to ptys2ethtool_map
+cb5c8437d93af7a2d1de2d0515a5e5fc150d5d60 net/mlx5: Explicitly set scheduling element and TSAR type
+fa479bba29613375bc991ef28d8a540387261d3f net/mlx5: Add support to create match definer
+23e2cb78674f5f6b207940ea2ef20c0a72580fb6 net/mlx5: Add IFC bits and enums for flow meter
+34f2208733f76b7ec8c613602824b1d256dab108 net/mlx5: Add missing masks and QoS bit masks for scheduling elements
+661f57590f13efc7d51e02b1af8ad042a4d2deb4 fou: fix initialization of grc
+039c97d1430c4b61e3c3d45c70435cb84bf9fa02 octeontx2-af: Set XOFF on other child transmit schedulers during SMQ flush
+17a860aab1e430f71f98fc63f0404dfeb3152bca octeontx2-af: Modify SMQ flush sequence to drop packets
+ea07c0129df478cfb56899261d0b90368a8d9931 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+252f6c6d5546d8f4a9ab7606e1cc2f3eb6823aa1 netfilter: nft_socket: fix sk refcount leaks
+313248471a78848ef00c01f29cf013bff4a49c55 net: dpaa: Pad packets to ETH_ZLEN
+114cfd9d189e7957517c964246853fdda8a0a51d spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+7a82d69905b9ebb258fffeb7bf12b0657c9b06b0 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+67f7fba10f46b19f615d143e6416c527dffccd61 dma-buf: heaps: Fix off-by-one in CMA heap fault handler
+f3bef448acebe6cf44eb23a19efbd711d36cffc5 ASoC: meson: axg-card: fix 'use-after-free'
+30d1f6418d87d8e317a15dfc915ac6d52367e949 ASoC: allow module autoloading for table db1200_pids
+447e980e7481261e36ada94d82146ac41f5cdde2 ALSA: hda/realtek - Fixed ALC256 headphone no sound
+ec492aa3d332b465c7e304513dd062fa584b158f ALSA: hda/realtek - FIxed ALC285 headphone no sound
+bb10dcca94f4f781fd7225a99bb3a91f10d8cab2 scsi: lpfc: Fix overflow build issue
+8b6cca52b7de95d6ea5f415fd35ba04d0bb1e446 pinctrl: at91: make it work with current gpiolib
+d5ff8e47c2b145c6ad51b4fc1d847fce3397f63a microblaze: don't treat zero reserved memory regions as error
+15b5917a7e53764412632dd953365339cb95db9c net: ftgmac100: Ensure tx descriptor updates are visible
+eb817b66e6a698784692a96859019cebf0cd2ac2 wifi: iwlwifi: lower message level for FW buffer destination
+3bf6ef964e4b97eaab1d2a4e98d4494e335066ba wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
+e8de537980b5f563682f4a86374d156664d72440 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
+955d85a84af707d17b7243f836003f657bca110e wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+7088865c1df30d84f1ecdb562faa8427ea644c86 wifi: iwlwifi: clear trans->state earlier upon error
+df881cdc23681a46c2668455b9467c249e791688 ASoC: intel: fix module autoloading
+3347a5fc7c35cce0971511a44fc141cbcfb9b56e ASoC: tda7419: fix module autoloading
+57fefed86892d6b326e79095e9feea0286fa0707 spi: spidev: Add an entry for elgin,jg10309-01
+141e039e1f944780b937e1cf24a8a83161ac7b98 drm: komeda: Fix an issue related to normalized zpos
+2061c946a0610844afdc63e13f7d5a4f7447134b spi: bcm63xx: Enable module autoloading
+4b8e37753a7c8f154ca786df27a7baa0a3c00ac7 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+6ad0c9902496ee8f994488616a06a8d7ef82ba35 spi: spidev: Add missing spi_device_id for jg10309-01
+33e07d7bb4e0bc629a85a2299c004b3fcc088878 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+a3e7dfd99b145bfc12ee7896e164095601faf35e ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+38189fc3255ffa854ec6dfff6628add02cc920e6 cgroup: Make operations on the cgroup root_list RCU safe
+2d5e33de02e5a8fa66ba468c3be980cff8cabf2a netfilter: nft_set_pipapo: walk over current view on netlink dump
+fc071838718be7054fca110a0299d265e1aa2f23 netfilter: nf_tables: missing iterator type in lookup walk
+ce7afe86c6392c9aab5495ce0d68befddba6d61b Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
+3c1a6115edc7388988eecd67a677c5472c6c67a5 gpio: prevent potential speculation leaks in gpio_device_get_desc()
+9aca268b750bcbe7adf117ba4b1d3c76a00fa919 inet: inet_defrag: prevent sk release while still in use
+e291acbe546f3c9cdcf6a581134f60b99c697c1c gpiolib: cdev: Ignore reconfiguration without direction
+83482136042e3b46d124028d32e3ced57d29d94c cgroup: Move rcu_head up near the top of cgroup_root
+4fbe079e1c9277255ba19140f4ff821e2dc211de USB: serial: pl2303: add device id for Macrosilicon MS3020
+97ebe91b90f7730e740b482221fee9501bf10460 USB: usbtmc: prevent kernel-usb-infoleak
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f1817e0e782-e2d187b8224c.txt
+Content-Disposition: attachment; filename=revlist-e2d187b8224c-d7d741cdb712.txt
 
-65b9c5919bd6dba7d520c3cf90d4e52db634dcdd usbnet: ipheth: fix carrier detection in modes 1 and 4
-c9ce866775337608c83d2bfbe315faf401b7bc64 net: ethernet: use ip_hdrlen() instead of bit shift
-81576163e18dc2318214d154130abd66e805a779 net: phy: vitesse: repair vsc73xx autonegotiation
-a5023b62e92e05753c86c92a0b4248edf3f404a0 scripts: kconfig: merge_config: config files: add a trailing newline
-9f94723d67862062a88ab0ed326af021139ba6f6 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-2df48515ecc62b161924199f41df3cf364027abb ice: fix accounting for filters shared by multiple VSIs
-57d96721dbc115897999741331848eeefdf460fa net/mlx5e: Add missing link modes to ptys2ethtool_map
-c085cb2f59942e23971e3744efa7561b337867c1 net: ftgmac100: Enable TX interrupt to avoid TX timeout
-02578b41cac157b850dfd51c833500803f636d1d net: dpaa: Pad packets to ETH_ZLEN
-dfa4a65436b21c574e6c63e48f0c4540ce1cf001 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
-205f201122e1072324379666eea8cf7a266322ca soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-69c3069af6dcd89d1579b81123ca4063ddc327fd selftests: breakpoints: Fix a typo of function name
-7e149b121c251280115efcef1f95d67aa7b786d4 ASoC: allow module autoloading for table db1200_pids
-27954aa599dc04ce86ca4fe7409cd19a9585fc59 ALSA: hda/realtek - Fixed ALC256 headphone no sound
-c5a2801b6798a147ea82a5cd150453cf381ed386 ALSA: hda/realtek - FIxed ALC285 headphone no sound
-39a15a861d46104b27f7fd8ec49dd0435f851451 pinctrl: at91: make it work with current gpiolib
-fac538c71e3627b449f3f26dcc81fe2d873ff638 microblaze: don't treat zero reserved memory regions as error
-1220255e7f06ded3507fd2650f40ae306d5c3c2c net: ftgmac100: Ensure tx descriptor updates are visible
-7d3ce942619aa672b66dcd8eef612b9296afec4b wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
-3046d12c95e30508741d7bdf3a3f1b4af94c177e wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-86b058364d984605ad87d7b71a98ba8cdff2646d ASoC: tda7419: fix module autoloading
-646b3193ccfd80e29c6ad72798b94580313b3db2 drm: komeda: Fix an issue related to normalized zpos
-cb65d88acf743959c33547a89d099b828574e7b4 spi: bcm63xx: Enable module autoloading
-887a0db0d0ac23eb3f1b61af61d621237595265b x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-93e9911473ae80ae8bc49f88ae5d51b731f20d2b ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-7dddc60ec657a7a2ec1985230e64e19b86a1e985 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-e903f6f0ee699cb1c430d514cae30ca1679e5fb7 gpio: prevent potential speculation leaks in gpio_device_get_desc()
-4489604fb006f433d9342a12f4ee5162f5313ea7 inet: inet_defrag: prevent sk release while still in use
-35c40e64ff4f4e868c820c4e325238e28795cafa bpf: Fix DEVMAP_HASH overflow check on 32-bit arches
-08b425aff90b5689408f8ba334c6ae2f6a40c3a0 USB: serial: pl2303: add device id for Macrosilicon MS3020
-e2d187b8224cd38be47490784085a0d11b69427c USB: usbtmc: prevent kernel-usb-infoleak
+dce95d032fbd5dc1e2ad914beef14011b9a501ff usbnet: ipheth: fix carrier detection in modes 1 and 4
+2adb19b8506692f47ad45a3099cde255831ee171 net: ethernet: use ip_hdrlen() instead of bit shift
+f04d4344d62acb3dfd68a2f7550da22bcec08cd6 net: phy: vitesse: repair vsc73xx autonegotiation
+dc1185cca599a8b670d2d23b3b10ceee13aabbbb scripts: kconfig: merge_config: config files: add a trailing newline
+985fade62cb914c2816719edfbf7ae06e229a971 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+d3d429f1a1cbf1dac623392587e6935150d948ea ice: fix accounting for filters shared by multiple VSIs
+70dfdb8e303f18032cc3bb9569e4625e73f9c0b5 net/mlx5e: Add missing link modes to ptys2ethtool_map
+302dcef3d78c9cfb2ff2b51b372a164e8f86e2c2 net: ftgmac100: Enable TX interrupt to avoid TX timeout
+5c2747e192c180877fb59b56e5c035536ccfc380 net: dpaa: Pad packets to ETH_ZLEN
+7175e2840ee789c8631aa8cd209f9713a6b4fe82 spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+0dd7371c70d70bdd12d2114484c6648cec86da3b soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+1a6cd3facb36ca74a6c0e684fa7563c9ee04c14e selftests: breakpoints: Fix a typo of function name
+ee2f0b7029b4a7966e7336eb764bc8ca949c2902 ASoC: allow module autoloading for table db1200_pids
+6e57a04eb121725482c13dcc53a0647c332346ad ALSA: hda/realtek - Fixed ALC256 headphone no sound
+c8953adb357adae5496b684b1c57298f2cd12f2a ALSA: hda/realtek - FIxed ALC285 headphone no sound
+d39424f1de3a38d97d7d7ac731ef85fd96c26f56 pinctrl: at91: make it work with current gpiolib
+e1391d66557be18ca31ef8abb372a811f8096691 microblaze: don't treat zero reserved memory regions as error
+46018ac8436efe914498a45cc7c8968dbd3faf2c net: ftgmac100: Ensure tx descriptor updates are visible
+1ec2852a942b2bec2c35b012932b7dcf792d3765 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
+50d72acda6b615b3407f700bb5f32760f478fee1 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+1f8c16127d0d064cc660dd8fcd9e672d70a16d96 ASoC: tda7419: fix module autoloading
+5cb3b153c98cce42967a1efe6f3104c2b9997d36 drm: komeda: Fix an issue related to normalized zpos
+0561bbdeaa5df71b5a8bb012862e78a177223de1 spi: bcm63xx: Enable module autoloading
+68f724af3ae4b26d7c42ba4af7e28cd4828e3ea3 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+0f4b674f86ea4c87dc0ff3d5f2ec52093f6f5dbe ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+de4804a66c6cffa9036727abae5ccd962d971543 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+95cd6c64dcefd232960d809c53ce19e03123de6a gpio: prevent potential speculation leaks in gpio_device_get_desc()
+ffd4bc4a6c985f24ae42e0e8966140a210ad7826 inet: inet_defrag: prevent sk release while still in use
+57afd23133e22d8ab0b33f974dac39af6cb75d63 bpf: Fix DEVMAP_HASH overflow check on 32-bit arches
+81bbd2b776b6825102bd0ef8eae25e0173687950 USB: serial: pl2303: add device id for Macrosilicon MS3020
+d7d741cdb712346dde946633156baa9f1d0c77e6 USB: usbtmc: prevent kernel-usb-infoleak
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-618788b5d85d-68e7f0094265.txt
+Content-Disposition: attachment; filename=revlist-68e7f0094265-1de777269070.txt
 
-560f383aba127cd2a335c34a4693107d3b92f904 ASoC: SOF: mediatek: Add missing board compatible
-df373d46f81370c877ac38107461a5c617e3e9e1 ASoC: allow module autoloading for table db1200_pids
-c90fd364e0f0e8081b188b5e0289168caf8a8b03 ASoC: allow module autoloading for table board_ids
-d3ea60bf1b0f8ebfbf1bdd450ed81119e0399219 ALSA: hda/realtek - Fixed ALC256 headphone no sound
-b57559f57b4db68762ff353471e521b58a589af4 ALSA: hda/realtek - FIxed ALC285 headphone no sound
-a5070719abeb37d3768e40ea0126c9f4f5cdf1b6 scsi: lpfc: Fix overflow build issue
-9cf78b798c3fbcc26e53ac317e664eff9e3a88b4 pinctrl: at91: make it work with current gpiolib
-4238c5d92f115e8abdf82f0737c22b19fd1ae18a hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
-6fc680aa9a35b2d94a8f7cb74965f3048d2d9447 microblaze: don't treat zero reserved memory regions as error
-219d6dcd8751796cd053a698d030c49cd45ae7cf net: ftgmac100: Ensure tx descriptor updates are visible
-eaea6cf4de11d2423ecf68a3ab5b5169f37921e6 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
-01ebc16d1bdf7be152fb10af6c6c5d84030284ae wifi: iwlwifi: lower message level for FW buffer destination
-690363ee4af309bb1bf9305db00e2930506c8ec9 wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
-e55599dd8d10cfb71121ddb3aae2ab3ca8daab63 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
-d9246d27c69657bc54dbcd2100ba4bf7b395e9c4 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-b793929bdd0f4e402c8226fe047563180d38c819 wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
-5237cdf761f72cdd40707fe6c1e19e3122e97b65 wifi: iwlwifi: clear trans->state earlier upon error
-5c60e743f7690a6fc0b3eec481d641c0c254b2d9 can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
-101ebfcb4c53d8406c2a7d0ad863d9dbffb68e0b ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
-68491ae7291869a42cf66e85f9af032e95322a29 ASoC: intel: fix module autoloading
-96541f57ae2f765432f81ac4fbb8565fcdb7176d ASoC: tda7419: fix module autoloading
-a260c08893b94b17e0c07f6de8cde8132b2cc0b8 spi: spidev: Add an entry for elgin,jg10309-01
-5f2eebd6317ad7eaa462276e466746a3720381b7 drm: komeda: Fix an issue related to normalized zpos
-11accdd93127001ad1f3794a7a4c77593961de3e spi: bcm63xx: Enable module autoloading
-f0445c7dd3818397044313455b5d1a27445c7fcc smb: client: fix hang in wait_for_response() for negproto
-e4f22dfc0c48027f0b14c310331a0004567bc256 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-68e7f0094265520b67cbe208c82adcc71fb8e6fe tools: hv: rm .*.cmd when make clean
+b41b9e73aa00f0a21bf3922fa47fff7b487d2665 ASoC: SOF: mediatek: Add missing board compatible
+6e667b838050845efbf168455eae64045b255573 ASoC: allow module autoloading for table db1200_pids
+0888f23046e776d78846c285c550e75b20656b92 ASoC: allow module autoloading for table board_ids
+9ce1769815d8883a3bb10185ca850d38547b1efa ALSA: hda/realtek - Fixed ALC256 headphone no sound
+bfd6d8b3f87785b8f053a4a32a2107898dcd80bf ALSA: hda/realtek - FIxed ALC285 headphone no sound
+edd0ac6f6ec4d205d7ffc8d856629c1011d38a38 scsi: lpfc: Fix overflow build issue
+d5fa22a01a5da1a40140fd2540b5fed07e6575da pinctrl: at91: make it work with current gpiolib
+c21a396c08eea20e76b60ae677bb429d3e43fd52 hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
+2ec75f67989236a46c0f79e1960b79580b3bed7a microblaze: don't treat zero reserved memory regions as error
+f6f8e8016e9f8ab468c029b52ac5becdfc78df2e net: ftgmac100: Ensure tx descriptor updates are visible
+3d6cf4fbf29d925781355562074e87ea30e15564 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
+50963347015e3a32455a984041810f59d6915725 wifi: iwlwifi: lower message level for FW buffer destination
+3785ae30ede468d127cece89e65653e79cc33222 wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
+41cf2357468c8c76d72c750ad1e102e96a2d7301 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
+0d55d2067f5893aadb49fd58ecb30fc5fdc37de9 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+5ba88f76eb24a0f5089ad587ea5ef6b2a8542c22 wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
+13623c552673250bbfef2a0326e39a45c842f7b8 wifi: iwlwifi: clear trans->state earlier upon error
+e18a53edac2cd1277fd6c1acb991c23047478db6 can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
+c4fd71075cd53ec29ea08ae45a1707e299f5fd1c ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+1ec750cd5bea6cec3fd544b33778cc5aff1bc439 ASoC: intel: fix module autoloading
+8da5cf678dee73354737edf3c2613ea197b1e842 ASoC: tda7419: fix module autoloading
+d1e7744a9364f8c25f4d6dc7fdf10797083628fa spi: spidev: Add an entry for elgin,jg10309-01
+2ab831b98e741f3b8d1ff310f9930c6e3a0e7609 drm: komeda: Fix an issue related to normalized zpos
+fce9af49c99552b5f9ecad358f4ce2598187b299 spi: bcm63xx: Enable module autoloading
+63407a8036767ecec6ae4edeb58a9a47dd4df14b smb: client: fix hang in wait_for_response() for negproto
+cc045bd52cf86c76b7d06f6a0d9982f66ae3b497 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+1de777269070a50b3dcb147b13abeca9893e9c20 tools: hv: rm .*.cmd when make clean
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f185aaec041-9da3b220fb47.txt
+Content-Disposition: attachment; filename=revlist-9da3b220fb47-bd9cf56c60f0.txt
 
-af319d5b314ee71862b24ef77594d0c27ba3a301 ASoC: SOF: mediatek: Add missing board compatible
-6cf39c32c23b5003aef5d3ef166555342ac21118 ASoC: mediatek: mt8188: Mark AFE_DAC_CON0 register as volatile
-2b813d18de85773db7c89484ff1905275df3e1ac ASoC: allow module autoloading for table db1200_pids
-31518e9ad82fdb266e27195c3c00975af4773e14 ASoC: allow module autoloading for table board_ids
-da2de664df5465eabcb28ffcb20e51f91f5e394d ALSA: hda/realtek - Fixed ALC256 headphone no sound
-3be36f1d048f538efd51bf03781138647ba78ebc ALSA: hda/realtek - FIxed ALC285 headphone no sound
-f4d8eaa5ca750594fa43841a8676c831bab5872c scsi: lpfc: Fix overflow build issue
-998950c5c44711ef0814b1516bcc5ea64ca69506 pinctrl: at91: make it work with current gpiolib
-ff253bb163292e9feab83bf981c824a2e0c5127f hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
-3382c8136ca1eeaa159138ec3b5d8c93aa030537 microblaze: don't treat zero reserved memory regions as error
-611fb219dc322257642bb00b5ebbc77d4ac3b44d platform/x86: asus-wmi: Fix spurious rfkill on UX8406MA
-56824715ab3b2b16194984dca8060c7d973e718e platform/x86: x86-android-tablets: Make Lenovo Yoga Tab 3 X90F DMI match less strict
-8ab313d708ea7e9480b6ead6a176acd0e7eb3369 net: ftgmac100: Ensure tx descriptor updates are visible
-33a2f579dff61ddaa5f708ffc02e3164d9d55033 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
-76e20a74a0168206dae83c4891ebc4a408e913e5 LoongArch: KVM: Invalidate guest steal time address on vCPU reset
-64e408010e7793db217ead2ac31a801be277b0bc wifi: iwlwifi: lower message level for FW buffer destination
-91af3f66652678919da84aa495f568c436cacda5 wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
-279e48df7150abea60341aa4e79118d7e3e68098 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
-c381e4b8ee3dac9e6051342dd8e030e389b783b7 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
-420317c7935769af947cd70a19840195905d354d wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-23e6f21ff4ab2439903e3d89c8966ebfb457dd57 wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
-1a342bf0105dc2ff7977d92654f49c2f67925938 wifi: iwlwifi: clear trans->state earlier upon error
-0429abd2fc2d2a8c95e3c60e424211f104c6e70f can: m_can: Limit coalescing to peripheral instances
-14ce8fc5bae8e15b68f025acade5fddc1270850f can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
-876099d4cc0c0e180fd59d56b2ee5ccf73a5ed0d ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
-9deb0cbf7f95fffecb85ef3bdfdc1b25474f5e84 ASoC: intel: fix module autoloading
-e72b0009111275f9bbd16a04e5535940ed50dd28 ASoC: google: fix module autoloading
-47855d6abdcc574ad197da93a927887c06e911e6 ASoC: tda7419: fix module autoloading
-b53fd468c4963b6689f74e9eee6db012243a4ee1 ASoC: fix module autoloading
-eacabe1c57bf86f8fb06bad01dfd515adc6b05b0 ASoC: mediatek: mt8188-mt6359: Modify key
-beaf53c2c8111f8094f4c7c367b4b0e0bb69d727 spi: spidev: Add an entry for elgin,jg10309-01
-81ec53bcf084910dca884a5a54226c0ca430daed ASoC: amd: yc: Add a quirk for MSI Bravo 17 (D7VEK)
-c1a536930647b2bd15a69aa170063aff8f345729 clk: qcom: gcc-sm8650: Don't use shared clk_ops for QUPs
-df7103f6d722564a7d8066274a5a268661235b0c ALSA: hda: add HDMI codec ID for Intel PTL
-6a50ef522cbe4f7f221f912b36f53e2c99980497 drm: komeda: Fix an issue related to normalized zpos
-d8bd67af2fec19d0d8a804e88aa3fe6363c46f0c spi: bcm63xx: Enable module autoloading
-272d66177aa167d65357ce7f5c6045848d112067 smb: client: fix hang in wait_for_response() for negproto
-1fd5a39a39a9e3c75e07446338924bccf8981427 platform/x86/amd: pmf: Make ASUS GA403 quirk generic
-8ef37e5d52e782d6706ba845351500a5b8b7255a ice: check for XDP rings instead of bpf program when unconfiguring
-2353ec836665e9aa7cc87368e147ce39574b22ac x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-2d39525a416ed60bdbdb348be890bcd27f1b5f25 tools: hv: rm .*.cmd when make clean
-515b487b3eb98eab96efe14b34d27ccaa1e9caae drm/amd/pm: fix the pp_dpm_pcie issue on smu v14.0.2/3
-ab44966edc71091e1542a960fdcdbcb726cd2a2c spi: spidev: Add missing spi_device_id for jg10309-01
-3ee9e449eadccdb478d79fc7c9005e0da1e221e4 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-21b1cd0d1b57f1bfaf8c4507dd55b8ca9f7da6cd ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-9cc66c3eef4e65c1fb310a87d195e3a6d59c7ae7 drm: Use XArray instead of IDR for minors
-67d5295b4659912d528fac464298eada4efe2485 accel: Use XArray instead of IDR for minors
-ba893ef04839db46477473782c94201342ddbf00 drm: Expand max DRM device number to full MINORBITS
-248ac4ada55f9bc0dbaaeeb4a2c5732de8d7ff9d powercap/intel_rapl: Add support for AMD family 1Ah
-f651273e8992ebe402439b333db4db8e9974d7ec powercap/intel_rapl: Fix the energy-pkg event for AMD CPUs
-09ddf8ab0ded88dd7f35bb0f8b0551d4578a681a netfilter: nft_socket: make cgroupsv2 matching work with namespaces
-2f2960235471f846d5920306138c0bc5826e1900 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
-91fa9b0e637e1efc596e3c39f6de3ecbcf254ae8 Bluetooth: btintel_pcie: Allocate memory for driver private data
-2235f13e857888e12bbebf4f1d870422a98f24fd nvme-pci: qdepth 1 quirk
-10bf740a9ce9e31ec30b312242b40ee4b918e48a can: mcp251xfd: properly indent labels
-8aca44e427759adb8c65b369a7ef5bf00698ddec can: mcp251xfd: move mcp251xfd_timestamp_start()/stop() into mcp251xfd_chip_start/stop()
-b2a7be52360a70b2aae2725d25e6637292509338 USB: serial: pl2303: add device id for Macrosilicon MS3020
-9da3b220fb47aa1bec2ba32820b229ac4ede91b2 USB: usbtmc: prevent kernel-usb-infoleak
+2fcce0c918d7a76fdc15c9a04af99a98ab514d54 ASoC: SOF: mediatek: Add missing board compatible
+f88eed664b6d25e50829171f771746a7a660772c ASoC: mediatek: mt8188: Mark AFE_DAC_CON0 register as volatile
+7713091afc46f4b0fe235c4dec840b56ebb414dd ASoC: allow module autoloading for table db1200_pids
+a76685b8ac323cf1353dfd0c67dd43357c3c9181 ASoC: allow module autoloading for table board_ids
+eade4e0dbcaa6967133110ec87fb06495c693974 ALSA: hda/realtek - Fixed ALC256 headphone no sound
+ceb907b1265b2ff15cb3be2b1b65dc42658caecd ALSA: hda/realtek - FIxed ALC285 headphone no sound
+fbb6616878ce74f5641f31983494c4a9f344a691 scsi: lpfc: Fix overflow build issue
+b01cccc729857cc0589354c925546443749cc3ef pinctrl: at91: make it work with current gpiolib
+f04611ca0f0226aeb84e8dba569524f014879f87 hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
+7cc0e208f94a8eab0cf978ef9f879d83fce19d53 microblaze: don't treat zero reserved memory regions as error
+e28190dfc6c38dbfeca2161fe315611f3c25310e platform/x86: asus-wmi: Fix spurious rfkill on UX8406MA
+95748b14f59849391a65960e735987051cc87db2 platform/x86: x86-android-tablets: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+8d89f841803fbea6201805b5cb132d7f12b2ba40 net: ftgmac100: Ensure tx descriptor updates are visible
+1344ebd4d4c4e08a7d9a1c533cc01ca51e2aa6a1 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
+75936df0e1f815c8fe82e7883bebd744402fac81 LoongArch: KVM: Invalidate guest steal time address on vCPU reset
+c545f09672358fe4cf6c9c7a857cb5368f11a141 wifi: iwlwifi: lower message level for FW buffer destination
+410acb7120ef60c8517f5f3fd1a89aee644fdee4 wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
+41ccbbf5452c8090764c092c0c61b41d56f8e713 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
+1f57754b2265a05a6e4c791b694c67c1ab1ec7fa wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
+128bdb6756ea2b42a61f4016026b4c1e4913897f wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+71640680cc086a7f5d669bd7707891e1cbf99d54 wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
+0035c6e97b477a2d683d7ee35efbe5fd55ab1c3e wifi: iwlwifi: clear trans->state earlier upon error
+4ded260c02239df0c2893f2642ef0dbb3229092e can: m_can: Limit coalescing to peripheral instances
+598a45a584ac512e5b80d4aef276dbb23352526b can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
+976c4170960f4b88d26905136ea1213397ab929b ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+d0e83fed2960187a3fcdba51c60ff5f8fb8e433c ASoC: intel: fix module autoloading
+8df903862d3bfc9f2a2a4351f647c66b8e983f16 ASoC: google: fix module autoloading
+407c6175580a705d7425ade23eb93f9e15da535b ASoC: tda7419: fix module autoloading
+c10a9a54516818c3dbf95352df06f1ecbff0d540 ASoC: fix module autoloading
+0480c81aae53ff51678694c9168bef4a8320b580 ASoC: mediatek: mt8188-mt6359: Modify key
+80ffd319438bcc7ff3b3167b88830776dd8499df spi: spidev: Add an entry for elgin,jg10309-01
+8e1a9880f9cac9d86ca6a79930bcc39206037ad3 ASoC: amd: yc: Add a quirk for MSI Bravo 17 (D7VEK)
+33c51b471144e9b5fac252f106f6e7dbbac06d8d clk: qcom: gcc-sm8650: Don't use shared clk_ops for QUPs
+eb761cb67fd5a153b414b06da23c91e33d230533 ALSA: hda: add HDMI codec ID for Intel PTL
+659220e5dc82b7c6506f2514ab9a210dd01c595f drm: komeda: Fix an issue related to normalized zpos
+f631f12334cc6ec0381f0215fa5b4151864f47cd spi: bcm63xx: Enable module autoloading
+9c79e2b66913a7962dadb24b553702ddbc5ee382 smb: client: fix hang in wait_for_response() for negproto
+1e359d31f63af4faa738d5e6c2c301c5e4556da3 platform/x86/amd: pmf: Make ASUS GA403 quirk generic
+d06986cff7f2a33116e8a89f4c52c5f1b0dc949e ice: check for XDP rings instead of bpf program when unconfiguring
+3036d7dd06edf0cf4c82c350e5de528d0ee1a1d7 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+fc0259705c72b74cd27b1f32771c854c1b6599ef tools: hv: rm .*.cmd when make clean
+50f161d5c09d46807f3424fc7a758e962094c8e4 drm/amd/pm: fix the pp_dpm_pcie issue on smu v14.0.2/3
+fdc3ce0f678850350ed7a50ec5977b4d8eb41277 spi: spidev: Add missing spi_device_id for jg10309-01
+f38f14dad80ccc27baa3961ba23ade4f082808e7 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+3a338dbfacfe4d9ac644372b784c3358f425c05e ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+1b07da153060d76954bc24b3d9aa922abe6f8ce1 drm: Use XArray instead of IDR for minors
+2a2a5697f13fa31dc0f0d33c8fcd8e6063206889 accel: Use XArray instead of IDR for minors
+d93780a4de3b579d8de73ace52dfa67e371e499b drm: Expand max DRM device number to full MINORBITS
+97aa4c7e9a8a0a3476e4ffee44f77075836fd8dd powercap/intel_rapl: Add support for AMD family 1Ah
+999390f4404a5b944573fbada5d87ae5e97c49de powercap/intel_rapl: Fix the energy-pkg event for AMD CPUs
+5b0360ffeb24e118d3b8acc1ab318802cc65312d netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+0ee5268488aa69fc004e350f43bd2035c9547978 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
+acc6fe59522bcfe9b2564d6f65a0f26e9f6dc383 Bluetooth: btintel_pcie: Allocate memory for driver private data
+b9904001babb8c01d5b309af83d0266f0da5195a nvme-pci: qdepth 1 quirk
+b7cf7865c86ed08389d9ff5ae28ef0de44b874b6 can: mcp251xfd: properly indent labels
+c8f245fae7ab9010e30c25dd34ab060e11722b14 can: mcp251xfd: move mcp251xfd_timestamp_start()/stop() into mcp251xfd_chip_start/stop()
+14b0e90491dc4382e7c7ed669432b1629d7010ba USB: serial: pl2303: add device id for Macrosilicon MS3020
+bd9cf56c60f0349b168200f0bcdf782a299b4ac2 USB: usbtmc: prevent kernel-usb-infoleak
 
---===============3931882335527790101==
+--===============5658779981722279996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f2364e07d00-0cbd4bcd4ac5.txt
+Content-Disposition: attachment; filename=revlist-8a05cf8fc722-7439094782d1.txt
 
-54d4fcfed45bb0cd77a5ab49b27954bea2719aa6 ASoC: SOF: mediatek: Add missing board compatible
-dc11eacc323d665bef513d2c7d13462a98957b24 ASoC: mediatek: mt8188: Mark AFE_DAC_CON0 register as volatile
-20f1511370eeeec884f7f5bc31461c819d475b77 ASoC: allow module autoloading for table db1200_pids
-46b433a7e32d36c2c21af8247d3972c932bc8bdf ASoC: allow module autoloading for table board_ids
-41d1e21612d4b9da4dfc36c4fa2f7304f3f7b71f ALSA: hda/realtek - Fixed ALC256 headphone no sound
-8f2b2c98797df2aa12fdd256be3e070d78b2adbd ALSA: hda/realtek - FIxed ALC285 headphone no sound
-8bccc73858f5f5d64ac0cf413c73208991c9385e scsi: lpfc: Fix overflow build issue
-148546d7f23572712c6dd685123b4effebe4e8e3 pinctrl: at91: make it work with current gpiolib
-41c252f2ea02114e84423816dd8f09457613796c hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
-f674d40eb61bb84e0b8174738661c3fe71904808 microblaze: don't treat zero reserved memory regions as error
-7595f77fdb2a899b838601b7b2b827e9fa049642 platform/x86: x86-android-tablets: Make Lenovo Yoga Tab 3 X90F DMI match less strict
-4c1b494816ca38e8a31ccc06e68def7411d078e0 net: ftgmac100: Ensure tx descriptor updates are visible
-7c5d05765e9f0d794649ff1d3bdac8d804bfdd33 LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
-d1a80603142ed0520f3f081745b734935227d824 wifi: iwlwifi: lower message level for FW buffer destination
-8a74a86b589d11a66f47d39d64148fa3724962cf wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
-c1ddbc3087640ef3324414159f6fea4f826d7433 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
-99fdeee020cca6d2932596fd760f04fd3f2bf214 wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
-24793eb4c753cdcfe78f6799fba610a1a5550351 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-3f233052e8d08d71bc42f6f8742610ec295a332f wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
-f6eba65599fd7cd8811ae9ec501a4d4d37bb707d wifi: iwlwifi: clear trans->state earlier upon error
-141e253f403b35cac8d689a487d6b0983231adb5 can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
-16f112c22981644d87d3f3ce2f22a4b02994208b ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
-e4d5deb26c76b0edbed01e63ae84f3196ce2b726 ASoC: intel: fix module autoloading
-0683fd8a86eb1f8b98256b1d88b3b589f82e4f20 ASoC: google: fix module autoloading
-f6811b1b02ea89a424dfd9d043aaedfdb1e86d3a ASoC: tda7419: fix module autoloading
-017787ff6d20501e4e7b88942c548cc2a51fd270 ASoC: fix module autoloading
-23963ce10f2e21d83db1bb463270c0d886b46024 spi: spidev: Add an entry for elgin,jg10309-01
-70113c627dde32df2f3727d0b60403d9491a487e ASoC: amd: yc: Add a quirk for MSI Bravo 17 (D7VEK)
-a7133b8393aa0905dd3b40b6aec9d8a6e3dcec2f ALSA: hda: add HDMI codec ID for Intel PTL
-3b4fad04ae5915063142ece01ef81e516d9dd8e1 drm: komeda: Fix an issue related to normalized zpos
-259169a5a36edbba52f6cdf791ddbe33e4b653d8 spi: bcm63xx: Enable module autoloading
-6f5d1a2ebbb4e00a27dc12f5b3b2653447485041 smb: client: fix hang in wait_for_response() for negproto
-b19476dbbdfbe633010b9e24af3771ec12682fb1 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-811ff39a010f51e8e66a131ed8c8a558b336d401 tools: hv: rm .*.cmd when make clean
-e0cd891d30b790e17c43bb79548c1c2f6e11e611 block: Fix where bio IO priority gets set
-5eaf0244dc7264a4b2a4bcadb770d24c22eae73d spi: spidev: Add missing spi_device_id for jg10309-01
-99ddecde8de8a519199da039ce9ea4454f2de2cc ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-88333fbd55777741bf879d788cf826932bf07958 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-461772b409fd825b761f254992377e63570dd5fd drm: Use XArray instead of IDR for minors
-c5a8bc164670dfe20f85c5d9d759a7d31a4f29e4 accel: Use XArray instead of IDR for minors
-dca6939d3a6efaa8b47e4fccbf49db794cbc635d drm: Expand max DRM device number to full MINORBITS
-0f96962cc22bd90affc9660208ab3c29dd67a473 powercap/intel_rapl: Add support for AMD family 1Ah
-eb874898087056c66167fccd67bebac286e93a19 netfilter: nft_socket: make cgroupsv2 matching work with namespaces
-4b47f26e95c56fb34e7dc7834d0510f6c9a31602 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
-0d72c61e26d25b6c544525dfffc4a352ffed2fa5 netfilter: nft_set_pipapo: walk over current view on netlink dump
-3e0966e4a484c59f6efafdc56594a0aa7d0b8c9a netfilter: nf_tables: missing iterator type in lookup walk
-098ee4f70523443dee245f793f68d83256be6410 Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
-78e7ad842281b7e55a500ada4bc834e964250007 gpiolib: cdev: Ignore reconfiguration without direction
-62970d07c967277014eb4e6b4a27adf498387bab nvme-pci: qdepth 1 quirk
-7c3fa7a19a4c9a3346a06a877a4bfd62a42333c5 x86/mm: Switch to new Intel CPU model defines
-3dce3b1303492c3e517c72caef6dec239ad84dbc can: mcp251xfd: properly indent labels
-f8286e0130b344ceebb6796cfdc051eee9b37dba can: mcp251xfd: move mcp251xfd_timestamp_start()/stop() into mcp251xfd_chip_start/stop()
-80bddb0f99d212deaf91b79e263ce286fa44d964 USB: serial: pl2303: add device id for Macrosilicon MS3020
-0cbd4bcd4ac5a22bc8fa7c5f53cedf985c298425 USB: usbtmc: prevent kernel-usb-infoleak
+03ea7fd467f5c14dab20019828df54c30cd91449 drm: Use XArray instead of IDR for minors
+243f5872d604071a099dbe9897d739fcbde54cff accel: Use XArray instead of IDR for minors
+e95c331eb22bddc6a0fcad2e8167fec5db73166f drm: Expand max DRM device number to full MINORBITS
+aebce3fb2eddfd38d5c13081452a4807bd005ceb powercap/intel_rapl: Add support for AMD family 1Ah
+ea89a78c058d369a31cce742434cf93a091de9b2 powercap/intel_rapl: Fix the energy-pkg event for AMD CPUs
+3f7f9f7b9734572414dd91ba7b84a6281d75b5af cpufreq/amd-pstate: Add the missing cpufreq_cpu_put()
+8ba52e5d3f5d791eb949952a20d82edbda9b48c5 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
+a3e17499ebfabdfce5eba11c379d9a2b714b8808 Bluetooth: btintel_pcie: Allocate memory for driver private data
+4ac97065812b847c9bdaca99ad100b622411d61a ASoC: amd: acp: add ZSC control register programming sequence
+7a5fe6e4d15d54396ce2f888c9b56d2ee109111a nvme-pci: qdepth 1 quirk
+5ba9a42f97b260564c447f635023f0ef3df5cd3a USB: serial: pl2303: add device id for Macrosilicon MS3020
+7439094782d151290e73494f1061f9920333694d USB: usbtmc: prevent kernel-usb-infoleak
 
---===============3931882335527790101==--
+--===============5658779981722279996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0cbd4bcd4ac5-60d19de21cda.txt
+
+e1153c81ed957729aac9137b90b5423898704100 ASoC: SOF: mediatek: Add missing board compatible
+da2be1a73893bff31eff7deb12f6c76cb7275459 ASoC: mediatek: mt8188: Mark AFE_DAC_CON0 register as volatile
+6ddfc45120ae6ef5a1875d161058db893c02df51 ASoC: allow module autoloading for table db1200_pids
+4c463f3a8f2918197aea1071ce54f95cead96bcb ASoC: allow module autoloading for table board_ids
+bcc7a024000fcbfe0ad561226155c9fe255d91bb ALSA: hda/realtek - Fixed ALC256 headphone no sound
+9ab8403e98ebbd8b781ac7c9d59a8266decbfd3a ALSA: hda/realtek - FIxed ALC285 headphone no sound
+2e6bc416146af92fcc23c0ea69ef9d31258dfedc scsi: lpfc: Fix overflow build issue
+5630c6341693d23e435f13e351fd8da8ab2962c5 pinctrl: at91: make it work with current gpiolib
+67541c8ceedb886ac2ddd7458b4fb99c9c9aef5a hwmon: (asus-ec-sensors) remove VRM temp X570-E GAMING
+8c8e9fd8349246e0eb9437d66d0faac835b7e754 microblaze: don't treat zero reserved memory regions as error
+0d05745c847bae35cea7b6b3ab51b327826a7829 platform/x86: x86-android-tablets: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+68dfa709ef352d860345f2386f276782f2a2f8c6 net: ftgmac100: Ensure tx descriptor updates are visible
+093a90ca85c56b1851d82c8e1feee463357d1f2e LoongArch: Define ARCH_IRQ_INIT_FLAGS as IRQ_NOPROBE
+7dded4d6971601000a9b71311479c7d55c73e378 wifi: iwlwifi: lower message level for FW buffer destination
+9d266f82f1a7948a211c466b4290d13142839eff wifi: iwlwifi: mvm: fix iwl_mvm_scan_fits() calculation
+6bdfe58ac9059d745dec2ddf96e961c44f10362b wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
+726a9755d06060478a307f5677f977b363b80eea wifi: iwlwifi: mvm: pause TCM when the firmware is stopped
+71fe5e5f804513eb3647e89d5d885f48dd628298 wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+5c1b6683ac394b34ac3badfbb7edd6fc4f3a5e30 wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
+bfd99103bae76239a88d80a55007d1231ea99d5f wifi: iwlwifi: clear trans->state earlier upon error
+0b55190b74558129c0b2df40fc5b4f97eeff7913 can: mcp251xfd: mcp251xfd_ring_init(): check TX-coalescing configuration
+e9a7aaf3a803d773e8632665a6049e80f9969d15 ASoC: Intel: soc-acpi-cht: Make Lenovo Yoga Tab 3 X90F DMI match less strict
+1e13a165be5dfdfecbfd7e25f433f9d03c3d10e8 ASoC: intel: fix module autoloading
+09cc65521060be7e0954ad6573e6f321c1dbb35c ASoC: google: fix module autoloading
+b7a55a5ec7f22070649633fdaccc0851db39ee0e ASoC: tda7419: fix module autoloading
+24eeb6c3e06103e3b002d71203f2bceb0ce85692 ASoC: fix module autoloading
+5ef134acaddbcd85397a76505f4381eb5a3c1315 spi: spidev: Add an entry for elgin,jg10309-01
+b8289b79010a2029ac7f6548ec889d471dd055b4 ASoC: amd: yc: Add a quirk for MSI Bravo 17 (D7VEK)
+56639b97a6261e3aa815d5b945358f7862ffd37b ALSA: hda: add HDMI codec ID for Intel PTL
+bf32a882e137e23d62d9f10ddd7ad4e57636f33c drm: komeda: Fix an issue related to normalized zpos
+cc1b1ff97486b5f9a8d4d464bee7088af22140ff spi: bcm63xx: Enable module autoloading
+b44b2613ac82e8c56ca92425654848eec4506756 smb: client: fix hang in wait_for_response() for negproto
+5a281dbb7c2c38f8d602b7c16cf37fa0c9f5996c x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+acdd3fbea2fea0651c4ad5f8949e764f4041022b tools: hv: rm .*.cmd when make clean
+b57b8df7720b3ed099c41372300daa9bcd20d0e1 block: Fix where bio IO priority gets set
+891cd60d7c769582e4a5da2db199bd2a544e25d7 spi: spidev: Add missing spi_device_id for jg10309-01
+2a9f011a1373c47b53838a0f62cfa0d5b836b002 ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+096c93aec3c35d3f7d4c3c607e6a700cde8083b1 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+1b09a428138b5c09abfe9d915d368f4077c62c51 drm: Use XArray instead of IDR for minors
+7a72f458706765e5fed7b39b9edf15fc02bf88da accel: Use XArray instead of IDR for minors
+fe427c4cd6a79ac4ac35558795dc9abf3cd8ca69 drm: Expand max DRM device number to full MINORBITS
+8565ea1435000edbfbc1c42295662c4b6ca4429d powercap/intel_rapl: Add support for AMD family 1Ah
+1ce2fc1a7c5eb9c5ba7ffae2d30c7179f3b39f5b netfilter: nft_socket: make cgroupsv2 matching work with namespaces
+68934fe6d81192f8d3c7ae4daed4ac2ee9b140b9 netfilter: nft_socket: Fix a NULL vs IS_ERR() bug in nft_socket_cgroup_subtree_level()
+9a58525fea66069b7a0aab9f8bc7a47195886adf netfilter: nft_set_pipapo: walk over current view on netlink dump
+6a8160f0949f4671e8775a349466cd965c7f2758 netfilter: nf_tables: missing iterator type in lookup walk
+0ea23b9625e58278fec5d98cdab739d737e94572 Revert "wifi: cfg80211: check wiphy mutex is held for wdev mutex"
+78b1345ff4c27155813fd28fe1d7e5ed430c96b5 gpiolib: cdev: Ignore reconfiguration without direction
+d6f5e1fa373d83c0cdfed3052881bdfd1b7b2db6 nvme-pci: qdepth 1 quirk
+7920fbf7c73a17690d6db4e987b075287b6f5ac7 x86/mm: Switch to new Intel CPU model defines
+9726997ed9aab04b9eac7863b67d3d0ad8efe180 can: mcp251xfd: properly indent labels
+ada31004440896d50e3ddcdff185a958475e18b9 can: mcp251xfd: move mcp251xfd_timestamp_start()/stop() into mcp251xfd_chip_start/stop()
+f0ee8b04a497b279b465d621521dde8972d14e03 USB: serial: pl2303: add device id for Macrosilicon MS3020
+60d19de21cda923a33549b3617738dcf1e5b5bf5 USB: usbtmc: prevent kernel-usb-infoleak
+
+--===============5658779981722279996==--
