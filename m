@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1912172106153477704=="
+Content-Type: multipart/mixed; boundary="===============6047235591460132426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 27 Sep 2024 06:17:26 -0000
-Message-Id: <172741784676.1418484.10759733739546290023@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 06:17:32 -0000
+Message-Id: <172741785242.1418634.12138083327607144287@gitolite.kernel.org>
 
---===============1912172106153477704==
+--===============6047235591460132426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
+  - ref: refs/heads/tty-next
+    old: 5ed771f174726ae879945d4f148a9005ac909cb7
     new: 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8
-    log: revlist-47ac09b91bef-075dbe9f6e3c.txt
+    log: revlist-5ed771f17472-075dbe9f6e3c.txt
 
---===============1912172106153477704==
+--===============6047235591460132426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417856 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417862 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1727417845-344b35734dc100e0543d6cc2fd6b11142cadd43e
+nonce 1727417849-c3b30cd59d59fd4934ec93cd6f833607a5f22ee9
 
-47ac09b91befbb6a235ab620c32af719f8208399 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/tty-linus
+5ed771f174726ae879945d4f148a9005ac909cb7 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TgAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KLgQAIJ+j8XM8TqGFBed6sx7
-A157ZAFmxVNpvt1/6Ik9CVHy0otY04X42ZalYpuGCBy/eRL9cJW0GD68S5LGish1
-k27J1l7/gI4hkwMdPGTmY6JGXX6qso1ITTwaiD+nw7EjlM8KMt6uUIhTBRTJwbQL
-Ya9Ul+5FKWYByPfMlXIeR5uflMKpov5KXxmddiC6rECQgMGRrvId+Q1mYFFbSm7t
-nipwagp47squgNfJDoo7t45acU+WinKPZf1qcU6Ff39e6Yje//+FMlu+N2Fzl8zb
-Yp0LCyzlVS6ymtKXUZF8qZlw3wUVbqIgRr9K9Rd068ngazvz2gLaoQVMoST+9bKt
-Ooz0TqlHjmRAJr5vWuSy63A8XhdJsFLtXLvJsf1wCUY3qdE6Ozt9pppKC8DXbGhy
-c6bbMmlzY4Bzhxcj8Pd0kD2iS01yMMBc1Ai2qDTKL2fJK5hOco6TibNgAkpVT9dZ
-F1QHXLQ2t9GTT0CiX0/b2wS6azZIJFRWzSmly04Ov68t8LceJLkabGV+FhGwht/K
-UvuJaFZMCv9S91xMra75Bo5zQR9swZog3LTrBwMW9n1recuWLjXCkG3YmszLoqUM
-ykgiIP44mvTANakvkip5xWd3oV6De9bteFzvPDYPRHNJzsioNcOQQCP8zjfMg+5q
-xopRpkwu2VVla0FRC/GGILah
-=wPJj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TgYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x6UQALH4523KhRmhh8OnTe09
+esY4+cUoWAwwHTLdkddlHZzL4IAlznxYmMwBiVe32317T2SdcJ76jH5qEEpiuhBU
+fDwYSIoJ9D0/gVWAGKg7IQJivC/+dEGc8cRnnSOQLuxQWoQOq4VpjjWbXkDV5zwQ
+/FXvu20iNZeYX52bSvGQMLsEx+l7PjWqCQ8o1IEmKTa5Mnv3TdFkrxNZHuG9jKoU
+zkMIa6MCcLVKvSCVyVM22e/8FvgutMf0LJQBvxmSDpBFzxsMaT7C8B1XEmtmGk7K
+hXSET5wTJ1r086LwPwC/wPuQmZ6c9m9we3bTu5MBRPTesBZyiJRhkkyWyoqylq3G
+oMvyWSGNItk3tI27nQq4Fm6BhQuReLg6Cn1G+IsHaMipwxtkbOYb//J9oB+C7Jlt
+tLaQWQC4xQRsoDCbZWxK5Ltzdagkwi2RcSRvFne8ZmXPcrGNnc9J9D0Z/Y8Sv6Dy
+VUKU2LU2UAfs8Qq8Zum1xcF0qLjcEYgAL0jpZiri4VVpQTM0FceFmIU6XNb7pwoe
+qURD9z4qsRszu/d0Eejoj7mBHnpVzRl5J6fKV8WO3S7g+vGUPCCJHeDyKU4E3dKC
+Bsoarfn0NmqGcfL5SxUHheT8eINTeKqwnHpCdvyGz5iL9i1sOinwL+xee1XkIb/z
+J6zn+VTFL78ekiKU02G+h7zg
+=v+GE
 -----END PGP SIGNATURE-----
 
---===============1912172106153477704==
+--===============6047235591460132426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ac09b91bef-075dbe9f6e3c.txt
+Content-Disposition: attachment; filename=revlist-5ed771f17472-075dbe9f6e3c.txt
 
 8265d06b7794493d82c5c21a12d7ba43eccc30cb USB: appledisplay: close race between probe and completion handler
 49cd2f4d747eeb3050b76245a7f72aa99dbd3310 USB: misc: cypress_cy7c63: check for short transfer
@@ -1082,4 +1082,4 @@ a78282e2c94f4ca80a2d7c56e4d1e9546be5596d Revert "binfmt_elf, coredump: Log the r
 348325d6444413caed020665b79603a2aaf00e2c Merge tag 'asm-generic-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 Merge tag 'soc-ep93xx-dt-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============1912172106153477704==--
+--===============6047235591460132426==--
