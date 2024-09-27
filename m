@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 27 Sep 2024 14:45:52 -0000
-Message-Id: <172744835230.1861594.9697042903478431347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Fri, 27 Sep 2024 14:48:32 -0000
+Message-Id: <172744851292.1862690.13869776431082049256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/master
-    old: a5f3fa77e8851c77820be4a65ebf7a0fe1401f41
-    new: cc34f7a69916dcddfb3b5e29fac263b85ec5faa9
+  - ref: refs/heads/patches-in-queue
+    old: 10e6c6772b3d21a233dda763674c297337e88294
+    new: 7874ddec2416442b20e769abfb9a99b6e38082b2
     log: |
-         370e38c32529e0899bb387a70d5d92dfb5a2b3c5 Bluetooth: hci_event: Align BR/EDR JUST_WORKS paring with LE
-         6abb078c3cdbc2f450712eceff8d1bcf8db6415d Bluetooth: btusb: Add one more ID 0x13d3:0x3623 for Qualcomm WCN785x
-         fa5c74f806c5541b388a1902e1fd7962c7d58c04 Bluetooth: btnxpuart: Drop _v0 suffix from FW names
-         cc34f7a69916dcddfb3b5e29fac263b85ec5faa9 Bluetooth: btnxpuart: Rename IW615 to IW610
+         d9cc54741b608c9b6fec1098a9a052e939fe3073 xfs: new EOF fragmentation tests
+         81144c0d16fc4234eadbb98244d23412578301bc fsx: support unshare range fallocate mode
+         7874ddec2416442b20e769abfb9a99b6e38082b2 btrfs: test an incremental send scenario with cloning of unaligned extent
          
