@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7003576085224786469=="
+Content-Type: multipart/mixed; boundary="===============4982871952678787568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 27 Sep 2024 06:16:03 -0000
-Message-Id: <172741776326.1417372.10531498389467825014@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 06:16:09 -0000
+Message-Id: <172741776984.1417582.3977361804997131607@gitolite.kernel.org>
 
---===============7003576085224786469==
+--===============4982871952678787568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/staging-next
+    old: b4fdf9b1cd8b21a6569290a06b2a7df0eb071d6e
     new: 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8
-    log: revlist-8400291e289e-075dbe9f6e3c.txt
+    log: revlist-b4fdf9b1cd8b-075dbe9f6e3c.txt
 
---===============7003576085224786469==
+--===============4982871952678787568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417772 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417779 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1727417761-0e41d80f613402590a6cc850c9b438effbdb7418
+nonce 1727417766-2b4e8c6b51bc570a7d7ae566f5515aa4f48a77cd
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/staging-linus
+b4fdf9b1cd8b21a6569290a06b2a7df0eb071d6e 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TawbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0JsP/i/NvvAKR5XlkX0IScXz
-aVXoXj5E5W6DjhutWE62uuyiM8vo6QwG5W9pB68cDJkEwJ1ta5LN5DHPpDFsUNFG
-NrAAljIL7l4uzHnrPmWmSfLBjdIIgEgpbZztxmneG5NEFv/ge/yZbb+6Gc3fvFNc
-PuGq1fndQntNBIufC+LhpSTc86qeVu/TLlVenK2x0KWQASRIjD7EQMcjaQbBe6bQ
-AYHTISqqUIo5KtOet7RNG0onXU2AyiAa2qQwL+trxsFPPDH8S5b1GzeuOaRcFhn2
-RuB8iVKPdE5H4EQeCRMGBzv+nIwlsOInRQCW0ANRY3PThwTYd+7cOrSl1M1IYZhU
-U1srfyuHz2nAMG5BTK6wDzEJDswTLerhqwn5tJZr2ECliBqk8FMzBtrSdrZf52YL
-8nvLNHbJ5J9aJu6k3NDL2Nw+aoq/rYIGMQUOC9oGl04T6IcfGwFlmjKpjZAG7SPC
-GF0ZuyNXB392yXKTD47KHVhJ00cm2Zf+bnTIzvM4vqucxjkB51Q/QV/KMaEnsqWb
-x9FyLWj8hTUzBpPpPAr22rgnN/9iwgPPEXqiRqTVs2+4Rz5+F+0AaUKPp03/6yEP
-4XbfgwnZ8pCj19GtoKbcuEXRSTQEjlGmrHrQ1r0EcMlkZB/Q1FXAy4854Inc330+
-eJTCBhz6YJr9EPap8xDqMuHL
-=oJCD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MM4P/3mUTE5uM7RSu61hFN7w
+EFpGHqNikQNJICYqV1b7e7KQMJS3SfXW8Ay1hpKQwJbaguwNPWEjdxxtyBvi5xqq
+LOjRnPz6vv+1wmpACZfVmGZirLepZqEu3cJwM1O0JO7Gcy56x9Cp+/K4IpvH6aVI
+ck0fcqxFMj8nbwM15y6v1IQkVleq+/ZGV2pbjz0ONZrL+XnuTUZoSTadZjpshhQN
+lYt0i0cz5c85CXKka1di662SbtjqZAoyAj9f1Ml5hPNxy2AoHJEhRWaVG/txeMB+
+nllCphXFG2omIv+pcqdU3WSwtegCjWhaaTsM03nL0sutwExD8aaSLNHr7Ylu5YG/
+VTLLMoz517N31vv+RCptr9kiHvA56T5Fd4HHirkLrQ7puyOTBUZ7RUnnSiTodvmy
+mkZ8Hfhq/eUJ31XI6m8TVooR7RuUmnjYGBkfljgfWpC3C0mACBN1ZdqR9Q14W63g
+yWEupuL02DBXlubaYzPKEvHjBfO4ixmK0IC365KM+byRRdfoIuFS1IsD4Ae7Iow6
+tkUPEPuG2mo8jnSHQNmyKw1nFmtWbueu4EV3Yf+9aXFAlnjohp+KhtToFj3SbkfA
+o2cRPtaJ4nTA16Xc31Gn2OKHQx1k/qHuc3bd6vsB+qw7DwltJ705hJHv++lrWd0q
+LISSzA1LkhHTwhROwTtXMkiI
+=X/UH
 -----END PGP SIGNATURE-----
 
---===============7003576085224786469==
+--===============4982871952678787568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-075dbe9f6e3c.txt
+Content-Disposition: attachment; filename=revlist-b4fdf9b1cd8b-075dbe9f6e3c.txt
 
 8265d06b7794493d82c5c21a12d7ba43eccc30cb USB: appledisplay: close race between probe and completion handler
 49cd2f4d747eeb3050b76245a7f72aa99dbd3310 USB: misc: cypress_cy7c63: check for short transfer
@@ -1082,4 +1082,4 @@ a78282e2c94f4ca80a2d7c56e4d1e9546be5596d Revert "binfmt_elf, coredump: Log the r
 348325d6444413caed020665b79603a2aaf00e2c Merge tag 'asm-generic-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 Merge tag 'soc-ep93xx-dt-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============7003576085224786469==--
+--===============4982871952678787568==--
