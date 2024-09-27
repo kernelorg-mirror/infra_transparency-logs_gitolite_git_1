@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 27 Sep 2024 22:44:52 -0000
-Message-Id: <172747709213.2242588.5912455908841943401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 27 Sep 2024 22:54:33 -0000
+Message-Id: <172747767341.2250130.12596236622975155104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 2555906fd53e0a5239431d44fad695b420e94fdd
-    new: 9cf14f5a2746c19455ce9cb44341b5527b5e19c3
+  - ref: refs/heads/master
+    old: 8b62645b09f870d70c7910e7550289d444239a46
+    new: 99a648c951ba9721696a9664ca15f93a73facb18
     log: |
-         9cf14f5a2746c19455ce9cb44341b5527b5e19c3 fbdev: sisfb: Fix strbuf array overflow
+         27cda47e781928290574e9d875dffaf43613dd3e bpf: sync_linked_regs() must preserve subreg_def
+         99a648c951ba9721696a9664ca15f93a73facb18 selftests/bpf: Verify that sync_linked_regs preserves subreg_def
          
