@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8185376402461066932=="
+Content-Type: multipart/mixed; boundary="===============3779755010607243866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 27 Sep 2024 15:37:36 -0000
-Message-Id: <172745145686.1902889.2362540108232293538@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 15:37:43 -0000
+Message-Id: <172745146320.1903041.17048431478577178@gitolite.kernel.org>
 
---===============8185376402461066932==
+--===============3779755010607243866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c
     new: d505d3593b52b6c43507f119572409087416ba28
     log: revlist-0cbfd45fbcf0-d505d3593b52.txt
 
---===============8185376402461066932==
+--===============3779755010607243866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b707512b8b07396f8982103a84285a165a1bd94c Merge tag 'staging-6.12-rc1' of git://g
 3a39d672e7f48b8d6b91a09afa4b55352773b4b5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d505d3593b52b6c43507f119572409087416ba28 net: wwan: qcom_bam_dmux: Fix missing pm_runtime_disable()
 
---===============8185376402461066932==--
+--===============3779755010607243866==--
