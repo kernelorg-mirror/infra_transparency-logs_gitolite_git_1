@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0170720565853311139=="
+Content-Type: multipart/mixed; boundary="===============5175987703000080502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 27 Sep 2024 12:17:04 -0000
-Message-Id: <172743942455.1743488.3701628685359590340@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 12:17:05 -0000
+Message-Id: <172743942580.1743583.6044765897743173686@gitolite.kernel.org>
 
---===============0170720565853311139==
+--===============5175987703000080502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,78 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: b40e755fe82beb666d7543abdd99ba2f362d3c16
-    new: 9c3dff544d46ff9e5ab185cf2af42d6dd876b1af
-    log: revlist-b40e755fe82b-9c3dff544d46.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 2bcdf820d1b931c52597c1711f1118655812628a
+    new: 94f2986968b02f873d37da50367b9345f101c922
+    log: revlist-2bcdf820d1b9-94f2986968b0.txt
 
---===============0170720565853311139==
+--===============5175987703000080502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727439434 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727439435 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1727439422-7dd2b5d5680d1ee0d520ca6e0732ef3eb25dc5de
+nonce 1727439424-9b98e46e7e8a1daa8d244c4703f34f03afc6b1b9
 
-b40e755fe82beb666d7543abdd99ba2f362d3c16 9c3dff544d46ff9e5ab185cf2af42d6dd876b1af refs/heads/linux-4.19.y
+2bcdf820d1b931c52597c1711f1118655812628a 94f2986968b02f873d37da50367b9345f101c922 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2okobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xl4P/0KMdHh75xAeGcSzgI/O
-cr2lpRn11L5BEtgZjKmHnYClF650H3h9b3HsfuXIMKst8LDu4YtmJHaD6dFo2JoD
-8ifVoU/n6iB7BXSQ+nPvy6/7BxgvrvqOWtEh7VHKsg3kOdGvuTWtQSm29hF3LQ75
-bQDds9/iPv7VT21XlRl5D+1r2sYZLMQp1dyGvzCXNA9NDOa3Mre+efWXPWbCIEGr
-QyP7yXyMLXuHA+JHCv0G/7N3NN74CH2bTcvwfWF9CMgPbXe1SfqQ0VfiUQaLvbBA
-4rKo7P2FJNxJMNQUyLvv+k2nr0+ihvo+0TpghGHOTC4ZXYAoA9hfwjBAHF9BDMIp
-M0K+QoHGRXB55TVnx4CxmxHJasgpqeryk3j7w46z5xiT/xizObfPt7qu8nPQeMFV
-KyMsJGPG+41+LhWIJGG9TTnV9u4cofNna6icUB7/HdgRknKiXU+PnEmEguuBOrjh
-1W/U2sIEYOr1rC/V2AJ71eq94vQz+RSFpafV4Q+zCSkA09NzbtTsS06KGCf9lOUP
-NKaLQhw2IPj6qy5oM/FXJHI2u1/tFYWizJPLJPH7HJpKBcpA/PkK9tEmrO1TfMq8
-P3QlMeBSj2TLQoJ8nC3p9xQZltOSQFSKBL7PWB/fK0dtR1XYRitKny1OQS9iu2MV
-8p6N/i5TRk1RtGeHeEUq05eM
-=9PnY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2oksbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+utgQAIagNEqKtJduRE0FkI0e
+iT1LiLpt41EjrxeqgtHDbsFLSEovFaoV3teDB20fD97kimJPOKOUShH/yNOAkie0
+lgcNZBcHpgaehvRCY/JMwrwccD11WlD+XZ3zHH6zpYZ5cHI/1qbpUzNxJNjdgqEC
+gn89H/+r393JRq0OiBnEUbs+WGhN4G5z3KCYsUHekSOQFvB5e6Scc7by7mvaSbXO
+Jj/Z4Oqg5ZUY7KA8DvfKSvQpBN26JJWKphO6zUo23tWOCKRv2gbjQlMC6l6CJ0JV
+Ap4PCMNkp5Y6uwOwEyvLInSwnj0sBIOzfyoSH60qvCUEnchizafMOqD6fr2Ko+uP
+8JEXnKgX1DOPQGkZgYjwjVHHoBK3FgXyvFBOMkBdhlSaN1X9ik3RBokKXABOKg7S
+3jVDoT7vjBUeBtcHIK04ev1nckkYBqJzBehBog+zdq3c+oyyYKKW+1uoeKjc0rMb
+7M+I2U9uARJr9LDVSr/QHSSW2mRFYqzmDI9tPONJhyIdVFuV+h78UBIYY65+R96H
+jM+xFbcDBec4A6X9U0mT9Hm07/M6E02WtIybjgUbk0aPzp7ggLj7wRjJHpgnRcSU
+QN3RWnqIqi/sv/cifA3pwUWWmW4Ev6L7uaF4rf+3LjGG5qk35/s3w8f1qRzV0lPD
+vYk5jmzZuWkT6cCS6CK5GKHn
+=deug
 -----END PGP SIGNATURE-----
 
---===============0170720565853311139==
+--===============5175987703000080502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b40e755fe82b-9c3dff544d46.txt
+Content-Disposition: attachment; filename=revlist-2bcdf820d1b9-94f2986968b0.txt
 
-ee81805e4f471f753ee16a7d0c10347565f7edc0 staging: iio: frequency: ad9833: Get frequency value statically
-cb5f1586bb9936ab336b0352c8276408426239a7 staging: iio: frequency: ad9833: Load clock using clock framework
-ccb421d7157727a3eb985cdb4f7ac12b2c3ff69e staging: iio: frequency: ad9834: Validate frequency parameter value
-a65adbb257932d3d1bb3cfb9d0e461b79f2da3eb usbnet: ipheth: fix carrier detection in modes 1 and 4
-704b01fc45098d1cab443102d1063f5c91d52f88 net: ethernet: use ip_hdrlen() instead of bit shift
-89973ce8f86ab59c056fb88d2fec469be5ffac41 net: phy: vitesse: repair vsc73xx autonegotiation
-5b72d27f500d4780bc199d46699a663fdbcae82f scripts: kconfig: merge_config: config files: add a trailing newline
-c136b7a327307ff820dc24ec00aeb1b09143c800 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
-9e77b4923e8346d5570ec2d35f139d98d045a8c1 net/mlx5: Update the list of the PCI supported devices
-c2995c139dc761c965bf9da2da30ca22104a68f5 net: ftgmac100: Enable TX interrupt to avoid TX timeout
-eac8a6af6ff4c0a11b961fb84ee0522244459537 net: dpaa: Pad packets to ETH_ZLEN
-1b9dee9a9ccbfd472c86b7e80470e2bc7f7113d5 soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
-d722cc68296f4a0c683e76072ed13a030f0cd0d1 selftests/vm: remove call to ksft_set_plan()
-42f7d2b85e06f923203b3dbb8419dda49a7ac7dd selftests/kcmp: remove call to ksft_set_plan()
-29f3725581b61b19819ddc7a97c7635a0f274e4e ASoC: allow module autoloading for table db1200_pids
-548b3258a7cdd57b6a2db7e98f7d6c5ce69ecf82 pinctrl: at91: make it work with current gpiolib
-709e99d462f2faf31a59d5b1e97567d9142d5162 microblaze: don't treat zero reserved memory regions as error
-47a5f109c7ec20c865f94bdcba0f271a8fb1bb8d net: ftgmac100: Ensure tx descriptor updates are visible
-f99b91e4288d11e4a8943afca7530c4fbfed6ebe wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
-e3911bf6c69368cd6c202b47e42e48f62aeaa91f wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
-5742a8cdfe2094489fa86b39f3eae0da6a2b2695 ASoC: tda7419: fix module autoloading
-e150e452bdde749556f203624a80c4b879c8c797 spi: bcm63xx: Enable module autoloading
-f86371ff608f590210f0483e10ad87e25521c9c6 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
-02e52a4d7087fef007f2e558d42a92a6e0efab0b ocfs2: add bounds checking to ocfs2_xattr_find_entry()
-ee16d46c1415ff146f1618c4bbb65b77916b1715 ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
-f9567f3b8ee2730924eeadd11ac8610e34a9ee25 gpio: prevent potential speculation leaks in gpio_device_get_desc()
-90e7593fa57f5f92ec4af0c71077fd700268843b USB: serial: pl2303: add device id for Macrosilicon MS3020
-9c3dff544d46ff9e5ab185cf2af42d6dd876b1af Linux 4.19.323-rc1
+14bf2a339361a57d440f15b1c844a8efbe8ed4a0 usbnet: ipheth: fix carrier detection in modes 1 and 4
+8cce65a64b2155fe088bee13e6944349d3a8d98d net: ethernet: use ip_hdrlen() instead of bit shift
+b455a1d2c83b4285239db0b890f17c8c0c3b3f9a net: phy: vitesse: repair vsc73xx autonegotiation
+118711aa1241d8942d809864ca4ce007ad9e612b scripts: kconfig: merge_config: config files: add a trailing newline
+ebce3c6d0feb1ca4519a9b8b913f29a2ca371fe5 arm64: dts: rockchip: override BIOS_DISABLE signal via GPIO hog on RK3399 Puma
+bf14653e3719d07aa45da15f3b4c01b483f4f66f ice: fix accounting for filters shared by multiple VSIs
+680fbf5e76801e3f0872e11e0293fcb2a27bcdc0 net/mlx5e: Add missing link modes to ptys2ethtool_map
+674fa5e8a834d5957d9076c3d9fc6e86b15052bc net: ftgmac100: Enable TX interrupt to avoid TX timeout
+10bf62b6360e79e6f196883971616ae3b49f14a0 net: dpaa: Pad packets to ETH_ZLEN
+f020d11edcdeeda15e8d7c6f027e191b1dc6f41a spi: nxp-fspi: fix the KASAN report out-of-bounds bug
+040c80d19eb5314e2ca80dbe908ec5e8f5c3e5fe soundwire: stream: Revert "soundwire: stream: fix programming slave ports for non-continous port maps"
+63db08cddd5af1c7e0f621af6011bcfe5ab8a945 selftests: breakpoints: Fix a typo of function name
+a5e204f9e69aa0401d724446292c61185c3f9a60 ASoC: allow module autoloading for table db1200_pids
+4a8c3e17013d7e51076697d0094a324be70114c2 ALSA: hda/realtek - Fixed ALC256 headphone no sound
+a10b56bdd028a739b88bb4f9fd12e25bc4e34760 ALSA: hda/realtek - FIxed ALC285 headphone no sound
+cbb0f54cdb41b64c7d92d02eac9e7b1103863371 pinctrl: at91: make it work with current gpiolib
+377dcbc508e719ef7912fcca5df6679029cc1c98 microblaze: don't treat zero reserved memory regions as error
+7cfe7a42caf08e45680473d502099c22c6c5f4cd net: ftgmac100: Ensure tx descriptor updates are visible
+0b48f4b52f5e5348c0d41725f7f01ceb2023e1b9 wifi: iwlwifi: mvm: fix iwl_mvm_max_scan_ie_fw_cmd_room()
+d93ed9af3b8573882d1963521c3a8972fadbe0cb wifi: iwlwifi: mvm: don't wait for tx queues if firmware is dead
+22aae21f1a76d183f3ec4e7387f271178af78623 ASoC: tda7419: fix module autoloading
+8351209bf81d418977e1b8bf643305bebd4c28cd drm: komeda: Fix an issue related to normalized zpos
+678c0346a3afefdf24a92de05da81989d32bf13b spi: bcm63xx: Enable module autoloading
+613efccfb4e99e5e64854226777e4f8a6664ded1 x86/hyperv: Set X86_FEATURE_TSC_KNOWN_FREQ when Hyper-V provides frequency
+1a0560dc92c492384720b6591e09eccec19c000f ocfs2: add bounds checking to ocfs2_xattr_find_entry()
+29072a0bdf56429cf8665957c687bf3461a467ec ocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()
+49d948d1ed1d1101f03006bfe84619411daa0b81 gpio: prevent potential speculation leaks in gpio_device_get_desc()
+c91dc86e7becfb94706de1b19ec15e44b4408e0b inet: inet_defrag: prevent sk release while still in use
+581db6134ab1beb9a61b58859596c0db42a4e818 bpf: Fix DEVMAP_HASH overflow check on 32-bit arches
+1e90c317fda4903d69cbdf1c0d6ba8929d680863 USB: serial: pl2303: add device id for Macrosilicon MS3020
+c14faf7501d147d2329abdcf9495e20b7506cc80 USB: usbtmc: prevent kernel-usb-infoleak
+94f2986968b02f873d37da50367b9345f101c922 Linux 5.4.285-rc1
 
---===============0170720565853311139==--
+--===============5175987703000080502==--
