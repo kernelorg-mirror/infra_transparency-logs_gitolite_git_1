@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 27 Sep 2024 20:40:01 -0000
-Message-Id: <172746960138.2147999.7334946936884740604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 27 Sep 2024 20:41:29 -0000
+Message-Id: <172746968996.2150273.2759242126460634738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: b295d70db5e1b726b8a723c9ae0b3530806a6b9d
-    new: db38ed2cfa62dec7e49b703dc080acc6711f8026
+    old: f03e97a4f7f319a6938258756937567cd1aaab18
+    new: 168b92d8af55850a2807becdc34a7594c21854fe
     log: |
-         db38ed2cfa62dec7e49b703dc080acc6711f8026 selftests/bpf: Fix uprobe_multi compilation error
+         168b92d8af55850a2807becdc34a7594c21854fe Fri Sep 27 04:40:43 PM EDT 2024
          
