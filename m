@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 27 Sep 2024 18:15:27 -0000
-Message-Id: <172746092736.2033348.16421218492109199975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 27 Sep 2024 18:18:13 -0000
+Message-Id: <172746109376.2034428.2987057371543324421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-6.12/upstream-fixes
-    old: 1ee68f172482ab3d165468b989026fe67d6ea908
-    new: acd5f76fd5292c91628e04da83e8b78c986cfa2b
+  - ref: refs/heads/next
+    old: a0474b8d5974e142461ac7584c996feea167bcc1
+    new: 4b721fcc094e9eb6dd4702df8d79ab11e120833d
     log: |
-         acd5f76fd5292c91628e04da83e8b78c986cfa2b HID: bpf: fix cfi stubs for hid_bpf_ops
+         4b721fcc094e9eb6dd4702df8d79ab11e120833d selftests: vDSO: align stack for O2-optimized memcpy
          
