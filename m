@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6834141084971160042=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 27 Sep 2024 07:27:57 -0000
-Message-Id: <172742207734.1473062.12867892566780232825@gitolite.kernel.org>
-
---===============6834141084971160042==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 27 Sep 2024 07:33:51 -0000
+Message-Id: <172742243124.1477385.499974229290556345@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/tags/driver-core-6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 2719bbcafbdbd6d082f8bf05a2b33020daf5a5e3
-
---===============6834141084971160042==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727422083 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1727422071-bce6d6299e7887ac0928513772661c0e4e85e24a
-
-0000000000000000000000000000000000000000 2719bbcafbdbd6d082f8bf05a2b33020daf5a5e3 refs/tags/driver-core-6.12-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2XoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GtEP/1ywtgv+zkuoYW3RoUOo
-7Vn30Bz+Mcu7yrTYvK6qiuborJ2ct/04CiWAVEy11/yt974B1iTd2FIaGZMMQ4uc
-Hr8y05+VzkGr9Fwj3K9jFTfRZU425XtYL87wCbCg2yjJJ3qLhCt7YDB8/4GKwdKK
-YjnH/+bm/4D9SjWjmte7sV3ZE0qHtwpRvttn6ZygBt7K+uTQ/Uyha9l/Ae2VULVi
-KwMeniMg7la/9hMP0OJxpsIRkhuWvDktmAYaH5wbI52TBqeJsCm1q9nmkXtQW3Mp
-rPJIqR6zDAidAN/FUre3xS7+EaJ6WvMobIu2k4fcp5kegFBSlY04LiTSlIbzaTbg
-W4szhEkrIpR9L+uTwEptAfj87YrQJR4KpJFoi4F05lRq1PcKXDkL4I5LE/ly8mLL
-8dmLCFkj/K7aqRVz7Np88QFcyioNlj/UpHUHc7B5GmRwgyQS+fRgLfH9gIKJyQVf
-JzQcCEAEzrPCP8hgIxv8sS2hbl67dxl09ARlOujvxeDjZVNiwq/cskV1tHp9CpuQ
-tCpI97Exr1mYlWKiS2ChB+PS4kmzDXZToGRWyhRN+R84d+FqluKbMonFNUyr3FW3
-2vSKIHtNsPxVRNJibsOZuSni7vhl/VjHhwod2jlQ7QHTo541wEtvj7uwVpCGGj+I
-+SEVBLr6eHWTsrn/+Xetf6RA
-=xnaR
------END PGP SIGNATURE-----
-
---===============6834141084971160042==--
+  - ref: refs/heads/for-linus-6.12
+    old: c3dea3d54f4d399f8044547f0f1abdccbdfb0fee
+    new: 47ffe0578aee45fed3a06d5dcff76cdebb303163
+    log: |
+         88801d043b1d16caae76a5e2e5991e8b1f55ce7f xen/pci: Add a function to reset device for xen
+         b166b8ab4189743a717cb93f50d6fcca3a46770d xen/pvh: Setup gsi for passthrough device
+         2fae6bb7be320270801b3c3b040189bd7daa8056 xen/privcmd: Add new syscall to get gsi from dev
+         8f2f74f2f3ebd9bb7159301cb7560db75d2e801a xen/pciback: fix cast to restricted pci_ers_result_t and pci_power_t
+         08377ed24feef66866d0c6aabcae0aec515cf2ca xen: sync elfnote.h from xen tree
+         1db29f99edb056d8445876292f53a63459142309 x86/pvh: Make PVH entrypoint PIC for x86-64
+         b464b461d27d564125db760938643374864c1b1f x86/pvh: Set phys_base when calling xen_prepare_pvh()
+         e3e8cd90f8e2eef67ded38f9c1a5f5520a407a62 x86/kernel: Move page table macros to header
+         47ffe0578aee45fed3a06d5dcff76cdebb303163 x86/pvh: Add 64bit relocation page tables
+         
