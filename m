@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Fri, 27 Sep 2024 09:16:57 -0000
-Message-Id: <172742861755.1579007.2145075301077886656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 27 Sep 2024 09:35:52 -0000
+Message-Id: <172742975240.1609669.6022293282331614528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 6decc1f01453c15c408e9cd6ca5814e53cf5d548
-    new: ee3a6cab09c8acaf6706b3710f5652e9be43b57e
-    log: |
-         60923d5cae78447902e9ec10c44504e0588cf447 Incremental: Rename IncrementalRemove
-         d95edceb362a6b647ec454c2a83add11c4ed4e64 sysfs: add function for writing to sysfs fd
-         344690313ae4e66f760b14afafda663ec750dfe0 Mdmonitor: Fix startup with missing directory
-         ee3a6cab09c8acaf6706b3710f5652e9be43b57e mdadm: add xmalloc.h
-         
+  - ref: refs/tags/for-linus-6.12-rc1a-tag
+    old: 0000000000000000000000000000000000000000
+    new: c618d2c9ff56d3e0f53e6307914ddb3091f73675
