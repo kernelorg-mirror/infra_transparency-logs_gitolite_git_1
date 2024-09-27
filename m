@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 27 Sep 2024 18:18:13 -0000
-Message-Id: <172746109376.2034428.2987057371543324421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 27 Sep 2024 18:22:45 -0000
+Message-Id: <172746136591.2038302.15708596944618084922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/next
-    old: a0474b8d5974e142461ac7584c996feea167bcc1
-    new: 4b721fcc094e9eb6dd4702df8d79ab11e120833d
+  - ref: refs/heads/for-next
+    old: defaec3988b8cec7ba52fc824364725aa3964d09
+    new: 442be0efc8218518111f73f31342b5fd68541b92
     log: |
-         4b721fcc094e9eb6dd4702df8d79ab11e120833d selftests: vDSO: align stack for O2-optimized memcpy
+         acd5f76fd5292c91628e04da83e8b78c986cfa2b HID: bpf: fix cfi stubs for hid_bpf_ops
+         442be0efc8218518111f73f31342b5fd68541b92 Merge branch 'for-6.12/upstream-fixes' into for-next
          
