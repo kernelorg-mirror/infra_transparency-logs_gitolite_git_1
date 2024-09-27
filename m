@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3383617064130372351=="
+Content-Type: multipart/mixed; boundary="===============4455422399860231185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 27 Sep 2024 15:26:44 -0000
-Message-Id: <172745080401.1894343.2384222487750494469@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 15:26:54 -0000
+Message-Id: <172745081465.1894682.9493048031579957743@gitolite.kernel.org>
 
---===============3383617064130372351==
+--===============4455422399860231185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c
-    new: d505d3593b52b6c43507f119572409087416ba28
-    log: revlist-0cbfd45fbcf0-d505d3593b52.txt
+  - ref: refs/heads/dev-queue
+    old: f9f8790a0508e8bafd364de310cfb88ef87a49d3
+    new: e6464b6215cab597efd493360a37e7a3345fcfaa
+    log: revlist-f9f8790a0508-e6464b6215ca.txt
 
---===============3383617064130372351==
+--===============4455422399860231185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cbfd45fbcf0-d505d3593b52.txt
+Content-Disposition: attachment; filename=revlist-f9f8790a0508-e6464b6215ca.txt
 
-bd07676ddade417c7cfefb58fb87c27751395bb3 ASoC: Intel: board_helpers: support HDA link initialization
-b28b23dea31497548010c248398162ef4c25cfd2 ASoC: Intel: skl_hda_dsp_generic: use common module for DAI links
-2c80bcc27557b5db4aca8a0c621fc7d5cd10cf7e ASoC: Intel: ehl_rt5660: do not check common_hdmi_codec_drv
-f22a351fe2193dac803fc919096b734ff2947958 ASoC: Intel: sof_pcm512x: do not check common_hdmi_codec_drv
-dfa1a7f456f10018229d0d5b3c36dd36a9b5344f ASoC: SOF: Intel: hda: remove common_hdmi_codec_drv
-47d94c13d5f1f9f9c2bc29e26ebbd4efe912256c ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for ARL.
-322706e16988f6156ddd8fdcc6d06f87efc058f6 ASoC: Intel: ARL: Add entry for HDMI-In capture support to non-I2S codec boards.
-d2ea63804bc9d706e441cff8c941028ec70ab99f Merge branch 'for-next/acpi' into for-next/core
-dd22f4448572a35b74efac078ecf30c32ea0dfe0 Merge branch 'for-next/errata' into for-next/core
-f661eb5f8d049edbe8b1b7554861e04ab61d1a10 Merge branch 'for-next/misc' into for-next/core
-c2c94023692d483eabf33ba396bb56961c415698 Merge branch 'for-next/mm' into for-next/core
-119e3eef3262108c74d3f832372d8b74b7169c45 Merge branch 'for-next/perf' into for-next/core
-3175e051c3766047f645020d4a80a86321f7dcff Merge branch 'for-next/pkvm-guest' into for-next/core
-982a847c71d43eefd530e865314cbf31309619e2 Merge branch 'for-next/poe' into for-next/core
 2ef52ca02cfb1d13dbdfb96878fabe3a420b3da7 Merge branch 'for-next/selftests' into for-next/core
 75078ba2b38a38d94017bd334f71aaed205e30a4 Merge branch 'for-next/timers' into for-next/core
 f4e40ea9f78fed585e953bf38575e47d24922e1a LoongArch: KVM: Add PMU support for guest
@@ -1050,5 +1036,19 @@ b707512b8b07396f8982103a84285a165a1bd94c Merge tag 'staging-6.12-rc1' of git://g
 62a0e2fa40c5c06742b8b4997ba5095a3ec28503 Merge tag 'net-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3a39d672e7f48b8d6b91a09afa4b55352773b4b5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d505d3593b52b6c43507f119572409087416ba28 net: wwan: qcom_bam_dmux: Fix missing pm_runtime_disable()
+23291ca440d17770b9473480d349b9883a359af9 ice: Flush FDB entries before reset
+2601ea61327a184d0703fe0dc5867517c62accb8 ice: set correct dst VSI in only LAN filters
+ec9f4e32ad14044221e54b69c834fd349886c6e5 idpf: fix VF dynamic interrupt ctl register initialization
+7fe47a56a6bd9bf222235d16ccb99e32fea951aa ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+7298a567a08002a5d272dcf7fc64a928c745fc2f ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+a506de45a9cec91001bfc19f52c1b0c6c87cc4ab idpf: use actual mbx receive payload length
+b538445353beefe83010c08212dc42beea55dc7b idpf: deinit virtchnl transaction manager after vport and vectors
+e51f2509a2ee7f9642834f098780ee7a7e834a29 iavf: allow changing VLAN state without calling PF
+81ee5dff581c2abb39648b033d98fabd1692b26c ice: clear port vlan config during reset
+188cff921235a4cff97b58e9ff4c5606d5fd5ca0 e1000e: change I219 (19) devices to ADP
+17f8e3acb2f9b8da5494368e7cd856e752195198 ice: fix memleak in ice_init_tx_topology()
+546623f7fd100b57436c9d44b8e19ca7b31402b9 ice: disallow DPLL_PIN_STATE_SELECTABLE for dpll output pins
+ec30a1fd718195b4d98349a1f7e4ecad5e976099 ice: fix VLAN replay after reset
+e6464b6215cab597efd493360a37e7a3345fcfaa igb: Disable threaded IRQ for igb_msix_other
 
---===============3383617064130372351==--
+--===============4455422399860231185==--
