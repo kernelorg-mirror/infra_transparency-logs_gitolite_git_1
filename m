@@ -1,86 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============5712074631753463059=="
+Content-Type: multipart/mixed; boundary="===============5274870633684481779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 27 Sep 2024 16:30:07 -0000
-Message-Id: <172745460799.1948432.14176290218202161303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 Sep 2024 16:33:44 -0000
+Message-Id: <172745482465.1950066.7027118336851055397@gitolite.kernel.org>
 
---===============5712074631753463059==
+--===============5274870633684481779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: e261f169bdc0d967eadb9c1eae13d86b6873c213
-    new: e670bccf7ea22d98afd1d85ab892f66a87cef034
-    log: |
-         537e516a39a760fddc4f3f5020c4118943f6c146 sparse-checkout: disable advice in 'disable'
-         e670bccf7ea22d98afd1d85ab892f66a87cef034 Merge branch 'ds/sparse-checkout-expansion-advice' into next
-         
-  - ref: refs/heads/seen
-    old: 6eb3a4ee529b72c5b254af91de874b80fea89070
-    new: 2291cb7bea04517c8f3293962d0d816a590c700d
-    log: revlist-6eb3a4ee529b-2291cb7bea04.txt
+  - ref: refs/heads/master
+    old: 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8
+    new: e477dba5442c0af7acb9e8bbbbde1108a37ed39c
+    log: revlist-075dbe9f6e3c-e477dba5442c.txt
 
---===============5712074631753463059==
+--===============5274870633684481779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eb3a4ee529b-2291cb7bea04.txt
+Content-Disposition: attachment; filename=revlist-075dbe9f6e3c-e477dba5442c.txt
 
-02e36f9ffaf1f2395a19dc10c15423883c7b2817 builtin/help: fix dangling reference to `html_path`
-0f26223b6de6ac3a2e514bb306fef29f34970465 builtin/help: fix leaking `html_path` when reading config multiple times
-3aef7a05adb2868118181eb5605fffa65a9af2c8 git: fix leaking argv when handling builtins
-2e492f2047748cf70350d503214ef89f1110ee82 submodule: fix leaking update strategy
-8f786a8e9fbbc8d110937a0ffdfe559f945aab50 builtin/submodule--helper: clear child process when not running it
-2266bb4f6a8a876b57eaa04dc93f7b567e0e4eed builtin/submodule--helper: fix leaking error buffer
-f1652c04b5da814a6bd15873a0a0323bf58badcf t/helper: fix leaking subrepo in nested submodule config helper
-5bf922a4e914f15d899d38218ad0591933025ed4 builtin/submodule--helper: fix leaking remote ref on errors
-04ff8008f3a27274e53c69209362a5bbe3dc4457 dir: fix off by one errors for ignored and untracked entries
-49af1b772222673759756048344b142544d39849 builtin/pull: fix leaking "ff" option
-76c7e708bbd6b19856d1ffa58f720e8da0c9eb0f diff: fix leaking orderfile option
-cf8c4237ebc653fdbc3285a38945f407d08245e5 parse-options: free previous value of `OPTION_FILENAME`
-6932ec81834003855486547cdc561cbbdd335389 diffcore-order: fix leaking buffer when parsing orderfiles
-dea4a9521ea134bbc12bce492b1ae467f5ff1bd1 builtin/repack: fix leaking configuration
-7f795a17154a2aeb80a7f52bfdaeef14fe298d68 builtin/difftool: plug several trivial memory leaks
-64d9adafba5b3024414760838d9d81f68738e813 trace2: destroy context stored in thread-local storage
-f8d2ca7246394535dff520aac6d1a66a5a807b75 submodule: fix leaking submodule ODB paths
-6d82437a470fc7797e41f5a7ac4874914db7cdb8 grep: fix leaking grep pattern
-355b3190ee208594ab122eace8a20f17d668e21c promisor-remote: fix leaking partial clone filter
-84e9fc361dca294629ef0b1e4e2eea815fc5b522 builtin/maintenance: fix leaking config string
-b6c3f8e12c0a521450923ddbcf7a19a81aa3c4e7 builtin/maintenance: fix leak in `get_schedule_cmd()`
-fa016423c748cd142a40c10eb7f9cc4c4fffbb98 revision: fix leaking parents when simplifying commits
-12dfc2475ce4808df696fb67fc71a66793f78f06 diffcore-break: fix leaking filespecs when merging broken pairs
-c38d60ece140a59d4c8a6379b66c09df2502a75f Merge branch 'ps/reftable-concurrent-writes' into jch
-bcaa3d365c0511a3914c0fc65743381fe2537926 Merge branch 'pw/submodule-process-sigpipe' into jch
-c018d3d54d9acaed28fd9613509f79090147221c Merge branch 'rs/commit-graph-ununleak' into jch
-3a2061a1e083e45b8edcd0ea009b28a49503d94c Merge branch 'rs/archive-with-attr-pathspec-fix' into jch
-a99e922652f2add9bc0acc2a07081ddc9ca7322c Merge branch 'ds/background-maintenance-with-credential' into jch
-130d848b4635f30ea0ef4de3420d66fe071bf511 Merge branch 'ps/includeif-onbranch-cornercase-fix' into jch
-6db79b26d1036935e79c744e4cfffbd94f41381b Merge branch 'ds/sparse-checkout-expansion-advice' into jch
-9f913b6b12baef27f75aeef964bf8d29386bfe9d ### match next
-b5b97f062303ead41580388f0fd6d9b2021d0126 Merge branch 'ps/leakfixes-part-7' into jch
-ec509006729043a98dbc9fdfc42ff96d503dbed6 Merge branch 'cc/promisor-remote-capability' into jch
-8a74d7d1f80fde52d1bacbe69307ec022775d60f Merge branch 'jc/too-many-arguments' into jch
-b7370bb5dbcce45cec432615b7157fed247e72be Merge branch 'ew/cat-file-optim' into jch
-b7b9291a5826016ee732e0b5a2d4bda0cc80f66f Merge branch 'tb/weak-sha1-for-tail-sum' into jch
-83d273ef02d76403a122e895e2ffd2f88e5ba2ba Merge branch 'ps/reftable-alloc-failures' into jch
-deef322d0261bf3e1ee6e0626d34b4125fa81439 Merge branch 'jc/breaking-changes-early-adopter-option' into jch
-27ad71ca70a2e6608db20b9daf6ea99491649f66 Merge branch 'es/worktree-repair-copied' into jch
-455c19722a2c055f1c469f00368d0786b1b4c8c4 Merge branch 'jk/test-lsan-improvements' into jch
-916aaac121a0f178a2aa9c972ada31931a21658b Merge branch 'jk/http-leakfixes' into jch
-d5e8a5ff6e1c0a5f706ce3ce96e90305edf06a0e Merge branch 'tb/incremental-midx-part-2' into seen
-475908530d92ccf979268d9ff7c82bb29af6e5e5 Merge branch 'gt/unit-test-oidset' into seen
-75517fab16471b81ea585a9d5781f7e838c558be Merge branch 'sj/ref-contents-check' into seen
-135921b729e161a259bd4fa2cfb7162980c3792c Merge branch 'ds/pack-name-hash-tweak' into seen
-a4dfaf89be0a238a73493121923130e760510659 Merge branch 'jc/strbuf-commented-something' into seen
-c6c9300da40bc239451f8399e8370830ca5c3bc0 Merge branch 'cw/fix-reachable-in-repo-with-promisor' into seen
-e63ede9212fca436fb69c1e03e8946deec03a225 Merge branch 'doc-typofix' into seen
-2291cb7bea04517c8f3293962d0d816a590c700d Merge branch 'ja/doc-synopsis-markup' into seen
+4ea5e9deda3f4cbd471d29e6e99106e51be19c86 driver core: Fix size calculation of symlink name for devlink_(add|remove)_symlinks()
+6d8249ac29bc23260dfa9747eb398ce76012d73c driver core: Fix error handling in driver API device_rename()
+c0fd973c108cdc22a384854bc4b3e288a9717bb2 driver core: bus: Return -EIO instead of 0 when show/store invalid bus attribute
+0314647dec70bf0e856303dc70d00e9f1ba568ba driver core: Remove unused parameter for virtual_device_parent()
+2bdf3b83515ead3b3fdf93610e4a3bb9a89bc852 driver core: bus: Add simple error handling for buses_init()
+bfa54a793ba77ef696755b66f3ac4ed00c7d1248 driver core: bus: Fix double free in driver API bus_register()
+0c80bdfc9aa624b4a6c33c30ad11e81bf6407c36 Merge 6.11-rc3 into driver-core-next
+18ec12c97b39ff6aa15beb8d2b25d15cd44b87d8 driver core: Fix a potential null-ptr-deref in module_add_driver()
+87ee9981d1f86ee9b1623a46c7f9e4ac24461fe4 Merge 6.11-rc4 into driver-core-next
+0808ebf2f80b962e75741a41ced372a7116f1e26 dm vdo: don't refer to dedupe_context after releasing it
+3a59b2ec2400017f7fcc5d794802ebc7f4187d22 dm vdo: remove bad check of bi_next field
+47874c98dc0873aad65259d09f9b9029e97429e3 dm vdo: add dmsetup message for returning configuration info
+f3ff668352c59db2c0ab47f2e86488a70694ed57 dm vdo: abort loading dirty VDO with the old recovery journal format
+448c4e4eb1901543259c038ed08266c250f5b079 dm vdo: force read-only mode for a corrupt recovery journal
+013f510d1fce563f37f420bf231b065885a16f21 dm: Remove unused declaration dm_get_rq_mapinfo()
+5d3691a8266e77fd2d695064532d0926af974331 dm delay: enhance kernel documentation
+f3631ae11d4694e2befff9dd10dab8cd56033f6c dm: Remove unused declaration and empty definition "dm_zone_map_bio"
+4441686b24a1d7acf9834ca95864d67e3f97666a dm-crypt: Allow to specify the integrity key size as option
+d11f2a1ab8f6dcfda827f8f0c47d8483b8669165 driver core: Sort headers
+a355a4655ec660fc68b60b909776290cb88e1124 driver core: Use kasprintf() instead of fixed buffer formatting
+adcae2048df15ae9647d792b09f8742d6ebe459b driver core: Use guards for simple mutex locks
+d1363030d824b244744399ddd85a52cf615dee4c driver core: Make use of returned value of dev_err_probe()
+888f67e621dda5c2804a696524e28d0ca4cf0a80 driver core: Use 2-argument strscpy()
+02c0207ecdcc9abdf3442676154f8fd2be0f649a dm bufio: Remove NULL check of list_entry()
+00565cff01262c888512bffe9d41e4831a6f2cc7 dm: Convert to use ERR_CAST()
+35c9f09b5691d6dff1f3e62fe1825fa10b644b45 dm integrity: Remove extra unlikely helper
+26207c6332e83583a74228da9e5278d4fe5d26cf dm: Make use of __assign_bit() API
+a8fa6483b40943a6c8feea803a2dc8e9982cc766 dm integrity: fix gcc 5 warning
+f0e5311aa8022107d63c54e2f03684ec097d1394 firmware_loader: Block path traversal
+b45ed06f46737f8c2ee65698f4305409f2386674 drivers/base: Introduce device_match_t for device finding APIs
+4a74f22386ccb1ddd06eb242bdd02548a7199bda driver:base:core: Adding a "Return:" line in comment for device_link_add()
+a169a663bfa8198f33a5c1002634cc89e5128025 driver core: class: Check namespace relevant parameters in class_register()
+24e041e1e48d06f25a12caaf73728a4ec2e511fe platform: Make platform_bus_type constant
+ba6353748e71bd1d7e422fec2b5c2e2dfc2e3bd9 driver core: don't always lock parent in shutdown
+95dc7565253a8564911190ebd1e4ffceb4de208a driver core: separate function to shutdown one device
+8064952c65045f05ee2671fe437770e50c151776 driver core: shut down devices asynchronously
+ba82e10c3c6b5b5d2c8279a8bd0dae5c2abaacfc nvme-pci: Make driver prefer asynchronous shutdown
+8ab0f4605d5ce3c0d386b3828b07719f1e8e0505 bus: fsl-mc: make fsl_mc_bus_type const
+903c44939abc02e2f3d6f2ad65fa090f7e5df5b6 driver core: Make parameter check consistent for API cluster device_(for_each|find)_child()
+fea64fa04c31426eae512751e0c5342345c5741c devres: Correclty strip percpu address space of devm_free_percpu() argument
+a7722b82c2ca9ca771d6c698643883be76f61a7e dm integrity: Convert comma to semicolon
+90da77987dd59c8f6ec6d508d23d5a77c7af64f1 dm-integrity: support recalculation in the 'I' mode
+9c2010bccc0ce012f52de18ebd0c3add241f75b8 dm-integrity: check mac_size against HASH_MAX_DIGESTSIZE in sb_mac()
+efb0b309fa0d8a92f9b303d292944cda08349eed driver core: Trivially simplify ((struct device_private *)curr)->device->p to @curr
+6a36d828bdef0e02b1e6c12e2160f5b83be6aab5 driver core: attribute_container: Remove unused functions
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+c5391c0e04f1b6ede3623962192b08a4eb224491 dm-crypt: Use up_read() together with key_put() only once in crypt_set_keyring_key()
+5d49054ef616095d160c1072ba458e16e2f825de dm-crypt: Use common error handling code in crypt_set_keyring_key()
+9bcd923952078e08cd4570e15f751a6c9ec7633f dm vdo indexer: Convert comma to semicolon
+4f2c346e621624315e2a1405e98616a0c5ac146f driver core: fix async device shutdown hang
+66cac80698cd1e31ae9bc5c271e83209903d4861 dm vdo: handle unaligned discards correctly
+03a9cfc1314bf75cc7a83995f3a029a7ebf49c05 ata: libata-scsi: Fix ata_msense_control_spgt2()
+0e9a2990a93f27daa643b6fa73cfa47b128947a7 ata: libata-scsi: Fix ata_msense_control() CDL page reporting
+e11daafdbf5b683a5da33a080862769b696b1621 Revert "driver core: fix async device shutdown hang"
+ec1fcbae1918084b5dea2e72cc6297c32f7792da Revert "nvme-pci: Make driver prefer asynchronous shutdown"
+2efddb5575cd9f5f4d61ad417c92365a5f18d2f1 Revert "driver core: shut down devices asynchronously"
+56d16d44fe8d8012dabd32700ea143c7caa35ba3 Revert "driver core: separate function to shutdown one device"
+eb46cb321f1f3f3102f4ad3d61dd5c8c06cdbf17 Revert "driver core: don't always lock parent in shutdown"
+4feb014bc79a42485b15bc3912dd3b0bca592520 dm-cache: remove pointless error check
+0a92e5cdeef9fa4cba8bef6cd1d91cff6b5d300b dm: fix spelling errors
+e6a3531dd542cb127c8de32ab1e54a48ae19962b dm-verity: restart or panic on an I/O error
+579b2ba40ece57f3f9150f59dfe327e60a5445b5 dm verity: fallback to platform keyring also if key in trusted keyring is rejected
+cb787f4ac0c2e439ea8d7e6387b925f74576bdf8 [tree-wide] finally take no_llseek out
+e5f0e38e7ece5b35577faa9bfbe5ec56091ec76b Merge tag 'driver-core-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+b6c49fca9f810c7279ea59937dd3a01a2906d11a Merge tag 'ata-6.12-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+e477dba5442c0af7acb9e8bbbbde1108a37ed39c Merge tag 'for-6.12/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============5712074631753463059==--
+--===============5274870633684481779==--
