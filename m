@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 27 Sep 2024 09:16:05 -0000
-Message-Id: <172742856548.1578102.7746902629794301862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Fri, 27 Sep 2024 09:16:49 -0000
+Message-Id: <172742860974.1578652.570037901614128487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e518950df02d2f8eb30847eb3a66b7296529bb61
-    new: 1ad1751e5074ff4b6f0221b3d8f541843fcf2ac9
+  - ref: refs/heads/main
+    old: 6decc1f01453c15c408e9cd6ca5814e53cf5d548
+    new: ee3a6cab09c8acaf6706b3710f5652e9be43b57e
     log: |
-         1ad1751e5074ff4b6f0221b3d8f541843fcf2ac9 Notes added by 'git notes add'
+         60923d5cae78447902e9ec10c44504e0588cf447 Incremental: Rename IncrementalRemove
+         d95edceb362a6b647ec454c2a83add11c4ed4e64 sysfs: add function for writing to sysfs fd
+         344690313ae4e66f760b14afafda663ec750dfe0 Mdmonitor: Fix startup with missing directory
+         ee3a6cab09c8acaf6706b3710f5652e9be43b57e mdadm: add xmalloc.h
          
