@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5812079462481736914=="
+Content-Type: multipart/mixed; boundary="===============2787861754592013632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 27 Sep 2024 06:13:15 -0000
-Message-Id: <172741759554.1412806.369412324194859808@gitolite.kernel.org>
+Date: Fri, 27 Sep 2024 06:13:19 -0000
+Message-Id: <172741759995.1413003.5374397232215512440@gitolite.kernel.org>
 
---===============5812079462481736914==
+--===============2787861754592013632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: da3ea35007d0af457a0afc87e84fddaebc4e0b63
+  - ref: refs/heads/usb-next
+    old: 68d4209158f43a558c5553ea95ab0c8975eab18c
     new: 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8
-    log: revlist-da3ea35007d0-075dbe9f6e3c.txt
+    log: revlist-68d4209158f4-075dbe9f6e3c.txt
 
---===============5812079462481736914==
+--===============2787861754592013632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417605 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727417609 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1727417594-93eb4d1a9287cde2573cb86dc3f70165d087c56b
+nonce 1727417598-eb137f5c124e16fb55357caf2e968e99c5257047
 
-da3ea35007d0af457a0afc87e84fddaebc4e0b63 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/usb-linus
+68d4209158f43a558c5553ea95ab0c8975eab18c 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TQUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A1EP/i+U9/F7M/2xJWPkndZU
-B+H9aKZT6GlZFVXii8h+xAEATbBbJJD4QMm7MCi81F65jlSkkgDzdjhbhme5vh1N
-ii3HVEKCYRci4j9mTFmOl2xtNlMoTTYeb26jB2BSXS5cML1putB+FKpYgncFLV8O
-e03JVn2UUhZSA+31l3u//jMAkL4djSFUyC4ct75B+YSFMJBO96IyV0nSt8U0Ta1Y
-i9HceOJZ9KJ5VOH+WLDARDvfg3kzXPw+Oc3E4Jfv5Yh3wPNxeO967GCC0pHunApn
-WqyDgiPAxigxwZgURfd8ZgW/MTh1FMfuKkr4rvoU3IK2yGDLTAOfRlHmqguBJg4d
-PJu8dDMtWA5MK2BiAjZw5/VnYMcp6FovnzFwAccOl8MFh6iaQgXxgW1dbUpwJtAH
-ZUyGiPiUJ64V8/xGTCDF8hlNEwJzCUgecMZLpsjsxav3OF7jRAh2BC3FfZ/JrswA
-ObBszdeZQ4aZM3weot66bp6LnFMkbyUVgc5B//paUMfekpxWUP3SdwnUm6oVL4cd
-dV2yXcLcz5JhIJkJ94bq1ztIciaSuFOAx47f8rGpLWA0faNs/9C/WUaFeEGoF9u0
-d9lbK+2PynD8kA+dk+FEi1jSN9g0aKuBs0DIDS2WQQvbQMHzj7hvkcJ4olq5JoAY
-bP8S569eLyAo6T5kxr/YsVeU
-=7bJI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb2TQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v7gQANAOMx8xDcJ6YBdBMjpF
+hRHxmkliCQ7VP27YeOZs64hufAEXZkFsZqL4ctOfbEJwB2VGKJfqurZkHV5CxMqY
+HhfrFvdqgeK2fp/zfu2k8FI86/2MK9AFXNFOF6zgHjjnSnQXJgt15uvlJTlaWgxv
+Xv6Ya7HaIGRZxDluHY7O9QeWwCL4f0TL9IhqPfnPZ/puhei3kQS5mijwuzUSJ6jP
+LtytXjfzlSXKFcfV/xNd2cLx13MBJzSLpoYxn/OXK5t2alRo4k+2Kon0Z1UMojRq
+4KyepE4aGT1IF/ibanA4E4Yg73GX9DYn/K8XKjiep2x6axm9y3qq92jCFFZuSoss
+1QVbbDM9CJYasn+vQX9bNxx4dpHG3okErfVTf+bkmgqg2K6cEEM7dyFOnmlCmFX2
+HfvnsRFE1rqPki7xPJq2eINcT6Z+J/3ERfkaxWEsDHncFsMs8um0JOWDcmJNdO/U
+jrt3yLVV8XEERogUQSKllGdUE9NIoj4inQJzGY9jCYhceJlmTq2d33kyzbDeEq8p
+FXkr08hThSH08CZDQyAlFPFIG28R0ddJRXdjABfeE/2XKpl+s9JkrSMIWzxhbDn0
+HxQ3EsdlOPilZWIJQQzzaNfk2Y86mBAN2g7woSHIPO73XUVr7PdQAP81bBQnMu41
+laHDps4Vapeqr1kzG6H46eoF
+=2O+E
 -----END PGP SIGNATURE-----
 
---===============5812079462481736914==
+--===============2787861754592013632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da3ea35007d0-075dbe9f6e3c.txt
+Content-Disposition: attachment; filename=revlist-68d4209158f4-075dbe9f6e3c.txt
 
-8265d06b7794493d82c5c21a12d7ba43eccc30cb USB: appledisplay: close race between probe and completion handler
-49cd2f4d747eeb3050b76245a7f72aa99dbd3310 USB: misc: cypress_cy7c63: check for short transfer
-93907620b308609c72ba4b95b09a6aa2658bb553 USB: misc: yurex: fix race between read and write
+aa947d717a498644b019591768be10a1aac713a9 staging: rtl8723bs: remove unused efuseValue from efuse_OneByteWrite()
+0b4d1ed30d8ddf0204afd2842a91c2113d997254 staging: rtl8723bs: remove unused cnt from recv_func()
+ea0fca507967d2d4354f97f688cabddcf1dc5f9a staging: rtl8723bs: remove unused 'poll_cnt' from rtw_set_rpwm()
+6c36c1bdabe15ec77046b9d5d66f274b777115fe staging: vt6655: Rename variable apTD0Rings
+b4fdf9b1cd8b21a6569290a06b2a7df0eb071d6e staging: vt6655: Rename variable apTD1Rings
 bf05aeac230e390a5aee4bd3dc978b0c4d7e745f Merge tag 'drm-intel-next-fixes-2024-09-12' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
 77d48d39e99170b528e4f2e9fc5d1d64cdedd386 efistub/tpm: Use ACPI reclaim memory for event log to avoid corruption
 4b7ff9ab98af11a477d50f08382bcc4c2f899926 mm, slab: restore kerneldoc for kmem_cache_create()
@@ -122,8 +124,6 @@ fe9c6249e810818fe67bfeaf9319a40eb0bdae03 Merge branch 'for-6.12/goodix-spi' into
 54ab9273529d24e36f0490c8acf00c1e50d09278 Merge branch 'for-6.12/hid-playstation' into for-linus
 c9ce59650e5d57b986fdd4a599a46e28ccabb4d6 Merge branch 'for-6.12/elan' into for-linus
 ce28dae326afd4d7087b9e57e6834050da657b28 Merge branch 'for-6.12/picolcd' into for-linus
-d2a18bbc5279ddc090f1b776740f6909d2248c3b sub: cdns2: Use predefined PCI vendor ID constant
-68d4209158f43a558c5553ea95ab0c8975eab18c sub: cdns3: Use predefined PCI vendor ID constant
 e9a081c80cb377b84ead0ba46e8ec892184318bd hid: cp2112: Use irq_get_trigger_type() helper
 ff97b9c0df585d14c4c6b9c4cdcbeba43f7b885a regulator: max8973: Use irq_get_trigger_type() helper
 fb9ce84a01582c9d67dc51d5330136ea684172ef regulator: update some comments ([gs]et_voltage_vsel vs [gs]et_voltage_sel)
@@ -1082,4 +1082,4 @@ a78282e2c94f4ca80a2d7c56e4d1e9546be5596d Revert "binfmt_elf, coredump: Log the r
 348325d6444413caed020665b79603a2aaf00e2c Merge tag 'asm-generic-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8 Merge tag 'soc-ep93xx-dt-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============5812079462481736914==--
+--===============2787861754592013632==--
