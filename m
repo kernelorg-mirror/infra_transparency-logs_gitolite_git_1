@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 27 Sep 2024 08:08:07 -0000
-Message-Id: <172742448737.1506424.13193692296985592509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 27 Sep 2024 08:12:44 -0000
+Message-Id: <172742476432.1510291.16015083350069581228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: 813d56f16d3077726234e156d0c61c973ca391a7
-    new: 830c1b2c1c28a4c8be1666fb57178f16900ca0ed
+  - ref: refs/heads/master
+    old: 5715f61fd204d232925b30c26e20cce4993ddf5a
+    new: f6c8c3321d8f30979fa593a4f6546ff3dccd2549
     log: |
-         6e45740867eefc5d1c8775b5cb4027536c96efcd afs: Fix possible infinite loop with unresponsive servers
-         45635ccabac2bb7ddaf925eb4f5c049527dcc385 afs: Remove unused struct and function prototype
-         830c1b2c1c28a4c8be1666fb57178f16900ca0ed afs: Fix the setting of the server responding flag
+         f6c8c3321d8f30979fa593a4f6546ff3dccd2549 bindings: python: improve LineSettings.__repr__()
          
