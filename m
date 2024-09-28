@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Sep 2024 16:47:33 -0000
-Message-Id: <172754205330.3109969.11857695578617893968@gitolite.kernel.org>
+Date: Sat, 28 Sep 2024 17:16:06 -0000
+Message-Id: <172754376655.3131845.11533006561227236780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,11 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: fd28e45a8466c8d4a159d57e74c5a6fdf60a2ad9
-    new: 34cb5bbd504bac1409b5745d219f3079ce6083ce
+    old: 34cb5bbd504bac1409b5745d219f3079ce6083ce
+    new: 42ed45d8a8422fb49b9e19c0e1f1dbc73dea1733
     log: |
-         72f6be84fb4104dd4963001913c62821ebb69e78 iio: light: ltr390: Replaced mask values with GENMASK()
-         6b9cbf25ae0e5ff542bd5bc8ff8c85a832022ad4 iio: adc: ti-ads1119: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-         3cc07780962cc8274ce3bac39f64ccbcc9981f90 iio: adc: qcom-pm8xxx-xoadc: use scoped device_for_each_child_node()
-         b620316d8059d5b93ea729c49971d89d3aea2010 iio: adc: qcom-spmi-vadc: use scoped device_for_each_child_node()
-         693b0bc25304cedc4ec8ef965ccbab5e306097d0 iio: adc: sun20i-gpadc: use scoped device_for_each_child_node()
-         255dac1429e0e58e426aeebe6f3ed192a0493b2e iio: adc: ad5755: use scoped device_for_each_child_node()
-         52ccbaab9ca17bf88a416731d3cc7fa17e2a02fa dt-bindings: iio: imu: mpu6050: Add iam20680ht/hp bindings to mpu6050
-         34cb5bbd504bac1409b5745d219f3079ce6083ce iio: imu: inv_mpu6050: add support for IAM-20680HT/HP
+         f86286ff6ead96db0bd0268905d7ae207b7f5f6b dt-bindings: iio: imu: smi240: add Bosch smi240
+         580459d9f5a17510ab84edb506eb10e8350a0172 iio: imu: smi240: add driver
+         4d8fb7642eb39bf500d2961e942e7686baeb8551 iio: light: ltrf216a: Document device name for compatible
+         42ed45d8a8422fb49b9e19c0e1f1dbc73dea1733 iio: adc: Fix typos in comments across various files
          
