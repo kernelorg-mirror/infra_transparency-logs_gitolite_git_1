@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1102384877350772183=="
+Content-Type: multipart/mixed; boundary="===============6234523656796347634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Sep 2024 15:18:45 -0000
-Message-Id: <172753672589.3040228.16896383406249485635@gitolite.kernel.org>
+Date: Sat, 28 Sep 2024 15:47:30 -0000
+Message-Id: <172753845034.3063684.14722417435976757034@gitolite.kernel.org>
 
---===============1102384877350772183==
+--===============6234523656796347634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,93 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 979f93ded95059ef7f9cd133d783ce57f8f351bd
-    new: b5439cd406a707512b7bbd7680908c4a839e5801
-    log: revlist-979f93ded950-b5439cd406a7.txt
+  - ref: refs/heads/testing
+    old: 8bea3878a1511bceadc2fbf284b00bcc5a2ef28d
+    new: fd28e45a8466c8d4a159d57e74c5a6fdf60a2ad9
+    log: revlist-8bea3878a151-fd28e45a8466.txt
 
---===============1102384877350772183==
-Content-Type: text/plain; charset="us-ascii"
+--===============6234523656796347634==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-979f93ded950-b5439cd406a7.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-8bea3878a151-fd28e45a8466.txt
 
-81723e3ac388271cf1fe9d9ca8f4e9c74689ea0e random: vDSO: add missing c-getrandom-y in Makefile
-b7bad082e113640fc81200ff869e5c2d7a9c29a2 random: vDSO: avoid call to out of line memset()
-7f053812dab3946cb704520b72c381f605ecdf95 random: vDSO: minimize and simplify header includes
-67a121ac8fe136f17e505e6595b8cf1a1f65f40c selftests: vDSO: fix cross build for getrandom and chacha tests
-4d456f0c87c95efb6197a30cd76b5b6ee5fb012e random: vDSO: add a __vdso_getrandom prototype for all architectures
-18efd0b10e0fd77fe649a375f9f17a387b5d1609 LoongArch: vDSO: Wire up getrandom() vDSO implementation
-ecb8bd70d51ccf9009219a6097cef293deada65b selftests: vDSO: build tests with O2 optimization
-bb10ffe01bf2d2436190958c7eae694515e1ebb7 selftests: vDSO: also test counter in vdso_test_chacha
-2c2ca3416b4090aef8c646adccfc3be4b712db8a arm64: alternative: make alternative_has_cap_likely() VDSO compatible
-712676ea2bb3882a852bcf49862c4247317fc9b2 arm64: vDSO: Wire up getrandom() vDSO implementation
-8bc7c5e525584903ea83332e18a2118ed3b1985e selftests: vDSO: don't include generated headers for chacha test
-c73049389e58c01e2e3bbfae900c8daeee177191 powerpc/vdso: Fix VDSO data access when running in a non-root time namespace
-d175ee98fe545d2c56df22751314584cce228307 mm: Define VM_DROPPABLE for powerpc/32
-b163596a5b6f27aa6a9eac4198a6c6ec0ce3d5f2 powerpc/vdso32: Add crtsavres
-a6b67eb09963af29991625862cbb4f56b85954ed powerpc/vdso: Refactor CFLAGS for CVDSO build
-53cee505ae0c4d19a2c894501a363782410c4a29 powerpc/vdso: Wire up getrandom() vDSO implementation on VDSO32
-8072b39c3a75b63bc08737a74b24c263b7909ba0 powerpc/vdso: Wire up getrandom() vDSO implementation on VDSO64
-14be4e6f35221c4731b004553ecf7cbc6dc1d2d8 selftests: vDSO: fix ELF hash table entry size for s390x
-a6e23fb8d3c0e3904da70beaf5d7e840a983c97f selftests: vDSO: fix vdso_config for s390
-26d4959681e34a8479b8b7a9ef25ab27550562f6 s390/facility: Disable compile time optimization for decompressor code
-013e984397a27129972cb1d89589d2b5be95a40e s390/alternatives: Remove ALT_FACILITY_EARLY
-94c7755b1e8f9a8953c25f0900650be009e7be7a s390/facility: Let test_facility() generate static branch if possible
-a919390e9194209bac163ec8e19520bdb3fb738b s390/module: Provide find_section() helper
-e10863fffe3a377a828f876a39cc1c47567b556f s390/vdso: Allow alternatives in vdso code
-c1ae1b4ef5bf541c71ced84d087abed029f13b1a s390/vdso: Move vdso symbol handling to separate header file
-0b117e58409efce351f435618e2b6023804c0988 AMD SoundWire machine driver code refactor
-5cc69a27abfa91abbb39fc584f82d6c867b60f47 f2fs: forcibly migrate to secure space for zoned device file pinning
-49e2e353fb0dbef8dced3e8e65365580349c4b14 ASoC: tas2781: Add Calibration Kcontrols for Chromebook
-2a1de5678944147c2a41b6006127d2d0b618e83b regulator: Split up _regulator_get()
-dcd18a3fb1228409dfc24373c5c6868a655810b0 Input: ps2-gpio - use IRQF_NO_AUTOEN flag in request_irq()
-46040ea8a6a58e5645d91ffa3ead7ed8fd633d56 Merge tag 'drm-fixes-2024-09-13' of https://gitlab.freedesktop.org/drm/kernel
-4591a2271f2e4c320eaa63c348169e4e6e6f2852 regulator: sm5703: Remove because it is unused and fails to build
-d21dffe51baabf6729a95585181507f24bd695a0 arch/sparc: remove unused varible paddrbase in function leon_swprobe()
-1136ced48b6842065064ff28d2955cdf01cece8b Merge tag 'soundwire-6.11-fixes_2' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-2b018086143d638de8d67ae5be6e8c1afb413193 blk-mq: unconditional nr_integrity_segments
-9c297eced59817f461be33e4c241820c5be4bcc1 blk-mq: set the nr_integrity_segments from bio
-d148d7503456556859c7e4d354115215d8fb5016 blk-integrity: properly account for segments
-0d7cb52fe417dde4bc9e8d01fadd8c0ec69612cd blk-integrity: consider entire bio list for merging
-d2c5b1faccd5ef6352456f817e941945d3b3fe62 block: provide a request helper for user integrity segments
-27c3785e94f003c664d9d867fbd62d1494546876 scsi: use request to get integrity segments
-f4330766bc0d14b5eb9459e616060d697e7b128e nvme-rdma: use request to get integrity segments
-db5197b554fcb8fde0182af65e8e94bec414e342 block: unexport blk_rq_count_integrity_sg
-2772ee6de6cf94e5f2a0c0ce6067d0796a4170ba ASoC: topology: Fix redundant logical jump
-26d7460222a0be34ff61a92a1fcc4469797ad937 memory-provider: disable building dmabuf mp on !CONFIG_PAGE_POOL
-e936e7d4a83b5ff6b7a685722f0ba348383af68c Merge tag 'spi-fix-v6.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-b920aa77be6d57d407b6b6be5d8b4ccc17749cce s390/vdso: Wire up getrandom() vdso implementation
-1a52a094c2f0821860d9ce15fffe01103a146f1f of: address: Unify resource bounds overflow checking
-a7fcc23274299209b19171911911fcd6b6c26bf7 dt-bindings: Fix various typos
-7bab88f173af2991df1ef4ff5d81292f58114d10 dt-bindings: interrupt-controller: qcom-pdc: document support for SA8255p
-a4bd83e12c559a9dcaeaaec8d6cd5e248089d4db dt-bindings: wakeup-source: update reference to m8921-keypad.yaml
-4d9b28c93e22ef6f65a0edb30c1ed84ff3298b15 dt-bindings: trivial-devices: Drop incorrect and duplicate at24 compatibles
-86ab4c5eb70a03efdd75f166efadd87fa91af2fe dt-bindings: trivial-devices: Deprecate "ad,ad7414"
-7a75cd6f986133c68b80e68a2f31b633b5150e1c dt-bindings: trivial-devices: Drop duplicate LM75 compatible devices
-f8fd66468fc21a978f01fe29ce8eee63c9569da5 dt-bindings: trivial-devices: Drop duplicate "maxim,max1237"
-def1baeb25cfe310ee608a99059354ea131d4317 dt-bindings: dma: Add lpc32xx DMA mux binding
-58b3ac2447c22189cd3a26ac1babb2dae13fd514 dt-bindings: interrupt-controller: arm,gic: add ESPI and EPPI specifiers
-eeedbb1e80a84496f0d74979617efd4eb0096f5a dt-bindings: interrupt-controller: fsl,irqsteer: Document fsl,imx8qm-irqsteer
-0a543ac529fe18c7a6616d3d7af8fb08f1319fba dt-bindings: watchdog: qcom-wdt: document support on SA8255p
-69b860034c33429b5bf7eb89fb8c0ad269ad9cbd of: property: Do some clean up with use of __free()
-6417edb5d185917c4d7f72b81a4b6ebda26f7856 drivers/of: Improve documentation for match_string
-76c313f658d2752e8527610677164aa7094ef7a5 blk-integrity: improved sg segment mapping
-5f949556ed38bfa3d89dfe46a18accf52b04fa42 dt-bindings: clk: vc5: Make SD/OE pin configuration properties not required
-ba3c92ba09fecf9286f54ef54a03638711e11da8 of/irq: Make use of irq_get_trigger_type()
-0423caceb4599fca7c9575e8d8477e88784c8ae8 of/irq: Use helper to define resources
-227e1ac07eaeedba2ee1c7de2b23cb5f0c5feb6c dt-bindings: clock: mediatek: Drop duplicate mediatek,mt6795-sys-clock.yaml
-8887042373e20b4f959aa4773ae02257069346d5 dt-bindings: cpu: Drop duplicate nvidia,tegra186-ccplex-cluster.yaml
-7dd34d7b7dcf9309fc6224caf4dd5b35bedddcb7 bpf: Fix a sdiv overflow issue
-a18062d54a0ba35d22d2c7d3450964ada2a2ad7c selftests/bpf: Add tests for sdiv/smod overflow cases
-cfe69c50b05510b24e26ccb427c7cc70beafd6c1 bpf: Fix bpf_strtol and bpf_strtoul helpers for 32bit
-7d71f59e028028f1160602121f40f45e89b3664e bpf: Remove truncation test in bpf_strtol and bpf_strtoul helpers
-32556ce93bc45c730829083cb60f95a2728ea48b bpf: Fix helper writes to read-only maps
-18752d73c1898fd001569195ba4b0b8c43255f4a bpf: Improve check_raw_mode_ok test for MEM_UNINIT-tagged types
-4b3786a6c5397dc220b1483d8e2f4867743e966f bpf: Zero former ARG_PTR_TO_{LONG,INT} args in case of error
-b8e188f023e07a733b47d5865311ade51878fe40 selftests/bpf: Fix ARG_PTR_TO_LONG {half-,}uninitialized test
-b073b82d4d3cee703d17e099c7e739082f15bd2e selftests/bpf: Rename ARG_PTR_TO_LONG test description
-2e3f066020478316d7e13e0e2b9fe571c2f7f5af selftests/bpf: Add a test case to write strtol result into .rodata
 211bf9cf178a986f025b65cee11012d4e3d6b1f8 selftests/bpf: Add a test case to write mtu result into .rodata
 313312c84b42d7b8ee1fb03ab30befc2bd0db211 pm: cpupower: rename raw_pylibcpupower.i
 c1ddb29709e675ea2a406e3114dbf5c8c705dd59 rpmsg: glink: Avoid -Wflex-array-member-not-at-end warnings
@@ -1043,12 +967,88 @@ ba33a49fcd42a94d405221cd0677388db1b69ed2 Merge tag 'tomoyo-pr-20240927' of git:/
 0c33037c825e47f64f426999db7192604e6d3188 ovl: fix file leak in ovl_real_fdget_meta()
 12cc5240f41a90b7fabc075c92c04846670c6932 Merge tag 'uml-for-linus-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 ad46e8f95e931e113cb98253daf6d443ac244cde Merge tag 'pm-6.12-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-932496f53d7182ca05d8c351eb73c283b205112b iio: accel: bma400: Fix uninitialized variable field_value in tap event handling.
-79144d9fd33ec4bf91a7e9303b84f2b216381ca5 iio: light: veml6030: fix IIO device retrieval from embedded device
-8a0d2b80912fa685e8418fbf6f16e1315bc73962 iio: light: opt3001: add missing full-scale range value
-dbf840071e0a1fad585eee7ee32ad5fea756acd8 dt-bindings: iio: dac: adi,ad56xx: Fix duplicate compatible strings
-835a142b4babf071ce5d2a860ebb28a85a9e4078 iio: bmi323: Drop CONFIG_PM guards around runtime functions
-2c1f4c480c13b3ac5dc067b8b5126be723c98463 iio: bmi323: fix copy and paste bugs in suspend resume
-b5439cd406a707512b7bbd7680908c4a839e5801 iio: bmi323: fix reversed if statement in bmi323_core_runtime_resume()
+33c7a01b63be40e6ea67890a4adca5ac59c26ab2 iio: imu: inv_icm42600: add inv_icm42600 id_table
+0292a546902099556aeff7c0ca8909b38f6be7c9 iio: accel: adxl380: use irq_get_trigger_type()
+ff21472401e0792f0762c9437d6a7b2debbd2ddb iio: accel: fxls8962af: use irq_get_trigger_type()
+97d7bbc474aebdcdefd39b0c82c77a331609c530 iio: adc: ti-ads1015: use irq_get_trigger_type()
+a90ebeac42bd676cc94b20625f533db4b9db375a iio: common: st: use irq_get_trigger_type()
+f739b8d175836161d6c5871a0b2ad471f65abc4a iio: gyro: fxas21002c: use irq_get_trigger_type()
+c82b44c0eb74ae1c5b75a1fa30f1b2f0df617a49 iio: gyro: mpu3050: use irq_get_trigger_type()
+bc6ff07efd52a2af1fae4c9aa1c8c086d1eff881 iio: humidity: hts221: use irq_get_trigger_type()
+049c265c1d43cdab511d5661b6bc79316f668543 iio: imu: bmi160: use irq_get_trigger_type()
+66d7a83edbcada09b5dd39524015bb165c236b33 iio: imu: bmi323: use irq_get_trigger_type()
+4df2b34f48a8a692ad896082d7c0045602b22729 iio: imu: inv_icm42600: use irq_get_trigger_type()
+3dcd2d5d0fe17692f97783bcddcc47c20c4a33b0 iio: imu: inv_mpu6050: use irq_get_trigger_type()
+a66573f281650dfbd67c8703cee60484b5ab1160 iio: imu: st_lsm6dsx: use irq_get_trigger_type()
+f76594d238c4d6a3b6b302e1d791920a2f25fcac iio: light: st_uvis25: use irq_get_trigger_type()
+1c8fcaceb1c743c0cb3ea4aeed32eb4910c4bd3e iio: magn: ak8974: use irq_get_trigger_type()
+55526bb5f6c3db0025f971ac99bb3e0eaa1c0adb iio: pressure: bmp280: use irq_get_trigger_type()
+c4909666855ea4e8aa3d1a4ff83bc9a9dfaae28d iio: addac: ad74xxx: Constify struct iio_chan_spec​
+11ccc2939a40669eb3d213dc76a3a1246ea443a4 iio: imu: fxos8700: Drop unused acpi.h
+783e63389902a55efe917fe5110369eb1648830e iio: proximity: sx_common: Unexport sx_common_get_raw_register_config()
+a5a8967dc9d62c5ccbe2adf0d000dd7a8ddfcfa9 iio: proximity: sx_common: Drop unused acpi.h
+08722d30f3cea2f74e64f90905f6d428c3e46db5 types: Complement the aligned types with signed 64-bit one
+0627fac3778a0b860bea51c3695f202edc65d37d iio: imu: st_lsm6dsx: Use aligned data type for timestamp
+8fa107a77122af63bd438ec432569f6e9d63dfb0 iio: hid-sensor: Use aligned data type for timestamp
+78e2bb4468188528cf237679cbf75431d084d3ff iio: accel: hid-sensor-accel-3d: Get platform data via dev_get_platdata()
+d571d8bf9633022b5c744afea143f9edd87b41b2 iio: adc: ad7266: Get platform data via dev_get_platdata()
+9aff45e0306e09b13a1c05339fbf726b2c5fe324 iio: adc: ad7791: Get platform data via dev_get_platdata()
+8cbcae08fa0f2b4623482925731b5178d6bca66c iio: adc: ad7887: Get platform data via dev_get_platdata()
+5ce953a10acbd54098110912223ff3afbe70c993 iio: adc: ad7793: Get platform data via dev_get_platdata()
+5d9a615e9017063f68a6d154cb58ba0fbca1fccf iio: adc: ltc2497: Get platform data via dev_get_platdata()
+b63c979ea0eec25bfd27a3ad7f92f863718efa46 iio: dac: ad5504: Get platform data via dev_get_platdata()
+c41ebdc1eacfffcf93603cc554b3fe466be75170 iio: dac: ad5791: Get platform data via dev_get_platdata()
+bd948e885d8c2760b41fdd0042ff38d9e1f9b7ad iio: dac: m62332: Get platform data via dev_get_platdata()
+8b23889b76fd9101f9e69cf82c5dc9dd99408ce4 iio: dac: max517: Get platform data via dev_get_platdata()
+005cc28d25f2aeae4ef4ae2e73b707f47406e906 iio: frequency: ad9523: Get platform data via dev_get_platdata()
+a295083c353c9b42589dedf703ca8cb27984524f iio: frequency: adf4350: Get platform data via dev_get_platdata()
+4070b2fdba5a4f6368ec4b2e7e70257415eee42f iio: gyro: hid-sensor-gyro-3d: Get platform data via dev_get_platdata()
+4b68f96b3dc33487d534fad56dbc56f962764709 iio: imu: st_lsm6dsx: Get platform data via dev_get_platdata()
+69620bac1dc6fd287a420aa45ebb56c3cfa53a73 iio: light: hid-sensor-als: Get platform data via dev_get_platdata()
+47d78b84ed24dd65e3253b447b2b43cb50e5b202 iio: light: hid-sensor-prox: Get platform data via dev_get_platdata()
+5b2a14d21b49efd08c99af2452fed11633d07d9e iio: light: lm3533-als: Get platform data via dev_get_platdata()
+ea670544a58ea94301e8dc02728f1c8750f2e1fe iio: magnetometer: hid-sensor-magn-3d: Get platform data via dev_get_platdata()
+f21fb000cca7cc275c1219d3994a5457e7409826 iio: orientation: hid-sensor-incl-3d: Get platform data via dev_get_platdata()
+9dce31246a9649682d9142cef597f19d1eb7f62f iio: orientation: hid-sensor-rotation: Get platform data via dev_get_platdata()
+988f3a36bdb77d13865dc6f8f1150e3fd83e40cb iio: position: hid-sensor-custom-intel-hinge: Get platform data via dev_get_platdata()
+9fc947deff8ff0593f71cab38d921a98f50702df iio: pressure: hid-sensor-press: Get platform data via dev_get_platdata()
+e3c23113b68f207dbcedc26ab87d01718ee477f2 iio: event_monitor: Fix missing free in main
+5385153c6145b7cfef74b4b9aabd7974018b809e iio: pressure: bmp280: Use bulk read for humidity calibration data
+05c60e4c31c14407f993f0da55425c388e801273 iio: pressure: bmp280: Add support for bmp280 soft reset
+a6a6db90eea7daefda53081b176952420ce0db9a iio: pressure: bmp280: Remove config error check for IIR filter updates
+48d879230739c3e2551677d5f71cf497c200e969 iio: light: cm32181: Remove duplicate ACPI handle check
+0f19ac290b27fee10a54b84d1b9aa9413b28c3cb iio: imu: inv_mpu6050: Use upper_16_bits()/lower_16_bits() helpers
+0e26624fb5439d9a5969593c4217e1051d80c09e iio: adc: Constify struct iio_map
+1b54db8d69865c140fd96964c64e7ef088c0dfe6 iio: adc: Convert to IIO_MAP()
+6cc0f8fd005499f161367745715cb560178334ab dt-bindings: adc: ad7173: add support for ad4113
+7e54fb0e588bccc67fec70789339de85bd83af80 iio: adc: ad7173: order chipID by value
+e141302106be9cd86821f573234d398ad2821afd iio: adc: ad7173: add support for ad4113
+f2a88b4e61400514ebdeeec1a957c745cfb4a57c iio: temperature: tmp006: add triggered buffer support
+dfaba7415c572ba62960331be41b48aa472252c4 dt-bindings: iio: temperature: tmp006: document interrupt
+0b11d837d40e19d0d4e777820b89b729653886af dt-bindings: iio: imu: add bmi270 bindings
+b03909598afa79e87947109286750dc27104c8f3 iio: imu: Add i2c driver for bmi270 imu
+a3a6fab6c98debc4655ef845153a3e2596ec8e70 iio: proximity: vl53l0x-i2c: Added sensor ID check
+a04772fdf712d98daf2cc91047dff7c1dec8428b iio: proximity: vl53l0x-i2c: Added continuous mode support
+d6f2a0e2e278fb7adf4d79cfbb053b561fbeeb23 iio: light: al3010: Fix an error handling path in al3010_probe()
+722b2a030e366de591e7c01337e9aa4a35aae887 iio: imu: kmx61: Drop most likely fake ACPI ID
+b70533001bb9569dffaec8bdaefed1e64fcbc850 dt-bindings: iio: light: veml6030: rename to add manufacturer
+8f3b65ce0f536931b1d0d8af23e531907a4c72ce iio: light: veml6030: make use of regmap_set_bits()
+30406ff338a6d5b5271a233c7b69049b3e655342 dt-bindings: iio: dac: add docs for ad8460
+7fa87e9059447b6d524df66a8acbb08c1d642b36 iio: dac: support the ad8460 Waveform DAC
+8816b7991b3ef97344d347ebd6b35a9255859f7e dt-bindings: iio: adc: amlogic,meson-saradc: also allow meson8-saradc to have amlogic,hhi-sysctrl property
+c03ae7653833708dc2aad05a5683f00d0a306fe8 iio: adc: ad7606: add 'bits' parameter to channels macros
+d1577793fe7cf3071983b96cbf72f434cad58c26 iio: adc: ad7606: move 'val' pointer to ad7606_scan_direct()
+0faada8241d6516dc28efb3957780383e49bc254 iio: adc: ad7606: move scale_setup as function pointer on chip-info
+7818f9836b2c217b9e870aa67ba743be95dfbd6e iio: adc: ad7606: wrap channel ranges & scales into struct
+77a507ecf2cb0361d6f306d605af302717da8447 iio: adc: ad7606: rework available attributes for SW channels
+23500dfe25e93911e0f90b35b1f8b55788eb2563 dt-bindings: iio: adc: document diff-channels corner case for some ADCs
+68c9bd033790168a4ae39746757d41f5ff0d2e69 dt-bindings: iio: adc: add docs for AD7606C-{16,18} parts
+a59b021ab8b5d41aac8f39885c50951596c042a9 iio: adc: ad7606: add support for AD7606C-{16,18} parts
+a2b1676c17ac9c90f66393c096fb7128a156945e staging: iio: Fix alignment warning
+7b91ab3296f33a32a6255d0edaa4a11faa28228c iio: adc: max1363: Convert to get_unaligned_be16
+fb94d43dce50e11b03d526f6940393450e376780 iio: light: ltr390: Added configurable sampling frequency support
+cfe2cbd893eb405a9990301af6b7b501b1e31cf0 iio: light: ltr390: Suspend and Resume support
+8d4df882801388853b0c1562b2ac4d344b6c2e40 iio: light: ltr390: Interrupts and threshold event support
+fd28e45a8466c8d4a159d57e74c5a6fdf60a2ad9 iio: light: ltr390: Add interrupt persistance support
 
---===============1102384877350772183==--
+--===============6234523656796347634==--
