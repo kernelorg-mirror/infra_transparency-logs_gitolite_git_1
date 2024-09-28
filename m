@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sat, 28 Sep 2024 04:10:54 -0000
-Message-Id: <172749665426.2493804.7627013283642970361@gitolite.kernel.org>
+Date: Sat, 28 Sep 2024 04:12:51 -0000
+Message-Id: <172749677145.2494583.1640934448982057661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: f996293855ac294635883d81b3d55f13ab1f5170
-    new: 0db38d0bb420ace32c22f853f3c9463988e22e98
+    old: 0db38d0bb420ace32c22f853f3c9463988e22e98
+    new: 6b539ed83652ad2bad6a627b17ddc49d2c1d895a
     log: |
-         0db38d0bb420ace32c22f853f3c9463988e22e98 man: Fix typo
+         6b539ed83652ad2bad6a627b17ddc49d2c1d895a modinfo: Avoid unneeded system call
          
