@@ -1,41 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5488738114826891738=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 28 Sep 2024 09:27:02 -0000
-Message-Id: <172751562271.2776278.15678602962460116268@gitolite.kernel.org>
-
---===============5488738114826891738==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 28 Sep 2024 09:28:39 -0000
+Message-Id: <172751571914.2776982.11397289457077684673@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/ath-next
-    old: 07211778c0ca6a27e7adecff255ceac9c189e8c0
-    new: 1a0c640ce1cdcde3eb131a0c1e70ca1ed7cf27cb
-    log: revlist-07211778c0ca-1a0c640ce1cd.txt
-
---===============5488738114826891738==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07211778c0ca-1a0c640ce1cd.txt
-
-d50886b27850447d90c0cd40c725238097909d1e wifi: ath10k: fix invalid VHT parameters in supported_vht_mcs_rate_nss1
-52db16ec5bae7bd027804265b968259d1a6c3970 wifi: ath10k: fix invalid VHT parameters in supported_vht_mcs_rate_nss2
-c4c074d3fddc07ad0c0d1df1dc3fe4530e63e676 wifi: ath10k: fix the stack frame size warning in ath10k_remain_on_channel
-acf8304b58e86931822f2c9af1b5d7751b2d3028 wifi: ath10k: fix the stack frame size warning in ath10k_hw_scan
-5094204ff5ae7e32ec56632cf0dd7208df621a9f wifi: ath11k: Fix double free issue during SRNG deinit
-c9c6a4f1be1ff030bd82c8e9e6fd33f9a43ab193 wifi: ath11k: enable fw_wmi_diag_event hw param for WCN6750
-6f15937833d8283b641a024efeecf006ca4a8500 wifi: ath11k: fix the stack frame size warning in ath11k_vif_wow_set_wakeups
-095cb947490ca875715fd16ad4d1a69174dd68ff wifi: ath11k: allow missing memory-regions
-3ed5cb8dfbeb74481202261ab8dd3ead8a7627aa wifi: ath12k: move txbaddr/rxbaddr into struct ath12k_dp
-02d697272cc62665a66930f3a3f9fd12f820eba7 dt-bindings: net: ath11k: document the inputs of the ath11k on WCN6855
-1a0c640ce1cdcde3eb131a0c1e70ca1ed7cf27cb wifi: ath12k: Skip Rx TID cleanup for self peer
-
---===============5488738114826891738==--
+  - ref: refs/heads/renesas/genmai-upstreaming
+    old: 083783626e28ad2ed5e51144b4b0d06ac2594a4e
+    new: b2f117ed3c2e8271f98189b43e20d2f3108335a4
+    log: |
+         ff811b6ee95f768dc7740aae5607e9f678622339 ARM: dts: renesas: genmai: enable MMCIF
+         7d7a513886ccf593c645ab8b63c773dcd2c705a7 ARM: dts: renesas: lager: use proper node names for keys
+         2338491607419674b80a188c5e5ccfc0e091c389 ARM: dts: renesas: alt: use proper node names for keys
+         97e2c2f17235ddf5610e851ebdab4e015439ece9 ARM: dts: renesas: kzm9d: use proper node names for keys
+         c8c49153aa80a3cf7559ba5d7e1688ba824190f0 ASoC: dt-bindings: renesas,rsnd: correct reg-names for R-Car Gen1
+         cd00debf40d77a2816ec433bae509a73a289e3b8 ARM: dts: renesas: marzen: use interrupts-extended for gpio-keys
+         6ce2218c154f6ceaf492636f883b7975fe43f08e ARM: dts: renesas: genmai: use interrupts-extended for gpio-keys
+         6f4bec12cadf464cd14cbec9082e73d3a21188e7 ARM: dts: renesas: rskrza1: use interrupts-extended for gpio-keys
+         b2f117ed3c2e8271f98189b43e20d2f3108335a4 ARM: dts: renesas: rza2mevb: use interrupts-extended for gpio-keys
+         
