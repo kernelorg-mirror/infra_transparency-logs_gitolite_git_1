@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/hinoko-rs
-Date: Sat, 28 Sep 2024 01:08:04 -0000
-Message-Id: <172748568450.2352249.2230420681600433374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/hinawa-rs
+Date: Sat, 28 Sep 2024 01:08:25 -0000
+Message-Id: <172748570598.2352491.8913284395275655154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/hinoko-rs
+repo: pub/scm/libs/ieee1394/hinawa-rs
 user: takaswie
 changes:
   - ref: refs/heads/main
-    old: 24a4fe9bb671b62b9138d74b596e6136096472e0
-    new: a6a2905d2218c0d13ccae055704675f31a447617
+    old: 00d5fdca7c3630baa54dae2672e6243b43bd52a2
+    new: 6510638641076c37f6c67fe67a78cdbd11fc7a7c
     log: |
-         4bad8f965d0e4f251acdc5836e653d108c6d7a8c update gir files to 0.20.0 release
-         10202b0ff984ed8c79bd7eedc548dcfb748cd114 update gir files to 0.20.1 release
-         bcee30b1833bd2bcaba6e0fab4687f0630fc3ab9 hinoko-sys: regenerate FFI crate
-         1a73ffc5c9b78cf79ca6ad6ad444195c319b3b7f hinoko-sys: regenerate API crate
-         9c67ece4cfe31d49b59219c4708f9759130fbc9c hinoko: add example of asynchronous runtime for isochronous resource reservation
-         a6a2905d2218c0d13ccae055704675f31a447617 bump release version to 0.7.0
+         6edc6faace88b7baa0ed0952a9fc44e0c3cf4649 update gir files to 0.20.0 release
+         39a241f0346479285f917b9a13fe62e55851ceb6 update gir to 0.20.1 release
+         57a9c2351e5cc3404d6eeafbd70b83cef5537b42 hinawa-sys: regenerate FFI crate
+         ad3620e2ceebf17e2db1d729c20c17fb861b9033 hinawa: regenerate API crate
+         fe51cdb03723896cc19c1fe2edf2e8b182458c3c hinawa: add example of asynchronous runtime for read transaction
+         6510638641076c37f6c67fe67a78cdbd11fc7a7c bump release version to 0.12.0
          
