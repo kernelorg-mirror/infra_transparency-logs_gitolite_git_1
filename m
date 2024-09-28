@@ -1,23 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 28 Sep 2024 11:23:14 -0000
-Message-Id: <172752259443.2865422.14955810598299915626@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5397174016796064847=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sat, 28 Sep 2024 12:16:16 -0000
+Message-Id: <172752577634.2904931.17067000259990531850@gitolite.kernel.org>
+
+--===============5397174016796064847==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/kvm-arm64/nv-nv-WIP
-    old: ccdc38b1e66e309715db7bdf1210de05e37a3769
-    new: 0dffe21bb7a696c416585fc1a4bdf3e940a08b7a
-    log: |
-         ae9bb6fba3a2f40f7a78af7732b47df8c3b611cf KVM: arm64: Handle VNCR_EL2 faulting and mapping
-         83eced53547130339d67566f1a2f0aada1093308 KVM: arm64: Handle VNCR_EL2 invalidation from MMU notifiers
-         96b7c5e240d3455f74e07ed53fc426113fdcda70 KVM: arm64: Program host's VNCR_EL2 to the fixmap address
-         a494c8b262494bdf0cffc52b02de639dfa250e24 KVM: arm64: Add S1 TLB invalidation primitive for VNCR_EL2
-         0dffe21bb7a696c416585fc1a4bdf3e940a08b7a KVM: arm64: Plumb EL2 TLB invalidation into system instruction dispatch
-         
+  - ref: refs/heads/rust/mm-old-layout
+    old: 1b502a3e9e5190ebb111ccfae94e4cef512186b5
+    new: 692ef91e711ab0aa6778862e0f5701c188fb9eb2
+    log: revlist-1b502a3e9e51-692ef91e711a.txt
+
+--===============5397174016796064847==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b502a3e9e51-692ef91e711a.txt
+
+b1a6dfe29b0e0149732233e2bcefd3f00472220e rust: alloc: introduce `ArrayLayout`
+9b96de61924cb35a027a06ca416f68389f8202aa rust: alloc: implement kernel `Vec` type
+0293598e6946b6d2c2fea0624093201668820143 rust: alloc: implement `IntoIterator` for `Vec`
+8d4b250e762ea3451ce2c26ce280c9439d328a50 rust: alloc: implement `collect` for `IntoIter`
+866d3c90fe2f186546c4b6d73c07f471528ea5a0 rust: treewide: switch to the kernel `Vec` type
+1baf8ccdc9669269f2d85ecbd35e3803bdfe5d78 rust: alloc: remove `VecExt` extension
+7773dcf1bb34599bd9bffd649bdb4e29dd79794a rust: alloc: add `Vec` to prelude
+5c16e143389bd6b82a9e05afb37c4c61fd2e4e89 rust: error: use `core::alloc::LayoutError`
+acdf859a181c786d181f4ea1e669510db3ab47ce rust: error: check for config `test` in `Error::name`
+c9153b13b3724ee90983433a5c5c6fa448adc53d rust: alloc: implement `contains` for `Flags`
+6c671456b3d61b81528ed9d5e2ec8f8d226e2404 rust: alloc: implement `Cmalloc` in module allocator_test
+a55fb80a1e0701a9c6d273272617154ea14c3dff rust: str: test: replace `alloc::format`
+06df30b439d49d7ad326d42b7f6159de59d0d0e6 rust: alloc: update module comment of alloc.rs
+6831d0574999b929f049ebac06eb6447f47cbb05 kbuild: rust: remove the `alloc` crate and `GlobalAlloc`
+692ef91e711ab0aa6778862e0f5701c188fb9eb2 MAINTAINERS: add entry for the Rust `alloc` module
+
+--===============5397174016796064847==--
