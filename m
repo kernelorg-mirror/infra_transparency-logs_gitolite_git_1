@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8110470338605466048=="
+Content-Type: multipart/mixed; boundary="===============4178610173496268617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 28 Sep 2024 11:17:59 -0000
-Message-Id: <172752227962.2859949.14731187616770408795@gitolite.kernel.org>
+Date: Sat, 28 Sep 2024 11:18:03 -0000
+Message-Id: <172752228376.2860062.5324276361365353667@gitolite.kernel.org>
 
---===============8110470338605466048==
+--===============4178610173496268617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 47ac09b91befbb6a235ab620c32af719f8208399
+  - ref: refs/heads/driver-core-next
+    old: eb46cb321f1f3f3102f4ad3d61dd5c8c06cdbf17
     new: ad46e8f95e931e113cb98253daf6d443ac244cde
-    log: revlist-47ac09b91bef-ad46e8f95e93.txt
+    log: revlist-eb46cb321f1f-ad46e8f95e93.txt
 
---===============8110470338605466048==
+--===============4178610173496268617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727522290 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727522294 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1727522278-5add5d074678f50a4d26255669ba7ea52eee0e13
+nonce 1727522282-0eea18a402da9286f9e2243c91363a84c804b24c
 
-47ac09b91befbb6a235ab620c32af719f8208399 ad46e8f95e931e113cb98253daf6d443ac244cde refs/heads/driver-core-linus
+eb46cb321f1f3f3102f4ad3d61dd5c8c06cdbf17 ad46e8f95e931e113cb98253daf6d443ac244cde refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb35fIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KeQQAMitxzj4H4eOU8TRY6EW
-U5R8MqjIkY+G0OO7M0hoyjgbBRd1Ummjdo6PZK7CEmWniZzK3jaFUd5L5cwEb+pp
-GO0zbsEqfnYkl//PzpBtSv4yExv9JOz5rC3QKgoYSTjeNihQ177pLSzoCz1gptUf
-wn7Cdlxr5jOl76+dRP9mTdt+onV8thL+p/HpabbT+WQ5Up1XwJ+OcU17QY7S10KA
-2yHcpB/rJqpJDUG106OprPJdW1WzhdSwVqvwhkLSvgSr79Bvak+neiupYZvj/ryq
-rz9aLb1A4mrBbhpv+52mZg336jfnH7XlnnhdyqV2z5eohILipLT+P8CP6dHDDRt1
-fomv/PF0ZWLX3I2gMaGtE7ZmF+BnRf/t5Uh/N04/k9+1bjq3Sk5QyTXfhP+uh2xQ
-H2ZTHOCHFBFMOw0q7GqhzWHKtUWhzlusgdAoNSa87d6VWXfkqfKW2XDCOGbmRvf7
-xFCTdQ7c8cZvtyD3qR49iMj8ptxsl4RBZRIGSWF3Y4qi9X0sNeYEUBSrOLgJScsX
-4+j1VFSoV6O0pGp61L/i/xn/4jBCmO8hCEDe+GBkQ4Cz05b2RooQmEcZEdbKWY41
-MofgmUa96qyTXJQTrjZgtakSmpcWWrIJDMr/HaGNXyNP5zf/EkdBKylozxqn1TD/
-bghxobPvssi4G0G1LI0CNG7C
-=OhnU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb35fYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v+8P/0x2bmr50YS7lGe1DF7w
+PJRnOaO91Yzj3tbMEhlTmXUFKSc886g7SGpx1S4aDDx8qeCQaURsU4ws7fIiUczD
+G4W9C7sMH5zGjRaTUPzZlfuJq877g0k50C3PPAzimY2QM9f8zGauITr9u+oO24Dm
+GUI7Ow7334VGUYEk++YZJgBoRXqisbB4qoDdNxiPiogrx43j5Rh9wInIS1LvzlG8
+7Zrf+MSz1s0mDoAD0DS5RB0zSr00AMwBUvaitNRhackxGeX9E430wlVPpkqvr2HV
+dgY3QxnrcB9oikd5uAjT3AE/xyRBaJBsbj5rWndpixcxyJuLV0CjBRleaxs6fMSO
+s31vJNmFyRNCvAzH4rI3euX1EG6bHc2yPj4LnoKqTC3HtTzFLGxU+bpQ5sgMJbP1
+ADL3wJRt7vYY2CNrHgv2XC4HOVhG64VBgucqnLgv7f0PFcQjrRHr8TVqJiuLswR0
+S4OHoGFru9JJQcIE5a5M0MQn5BovWzs0Yc9cd1IKWn+ZyBz00Z/BjBFTKBzyQdug
+HCEU9DzfmIvAo35zEV8Xry/wxRYyG/120aZVEtmoR5BYkEjiXAFgel69gNRXd02n
+REjkXxM02/f0SX3oTR4uKA9fyScRnI9E8PDVwlac+kRukQlVUhCTIisgk/sZ6oP3
+35feQr3elS9cQsw3dOoZZeUn
+=kr7y
 -----END PGP SIGNATURE-----
 
---===============8110470338605466048==
+--===============4178610173496268617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ac09b91bef-ad46e8f95e93.txt
+Content-Disposition: attachment; filename=revlist-eb46cb321f1f-ad46e8f95e93.txt
 
+04736f7d1945722117def1462fd3602c72c02272 efi: Remove redundant null pointer checks in efi_debugfs_init()
+2cb4acf2140be8a4f299c0b887cc314845ef6ec8 hwmon: Remove devm_hwmon_device_unregister() API function
+83bdfcbdbe5d901c5fa432decf12e1725a840a56 nvme-pci: qdepth 1 quirk
+d4d7c03f7ee1d7f16b7b6e885b1e00968f72b93c Merge tag 'nvme-6.12-2024-09-13' of git://git.infradead.org/nvme into for-6.12/block
+2cebf68a24abb0552ea59cf928829acd51f8b175 PCI: dwc: Rename 'dw_pcie::link_gen' to 'dw_pcie::max_link_speed'
+19a69cbd9d436fe503e5cb6dade76fe371244d4f PCI: dwc: Always cache the maximum link speed value in dw_pcie::max_link_speed
 d45736b5984954da71292d858f277bac9c70cd2e PCI: qcom: Add equalization settings for 16.0 GT/s
 d14bc28af34fb8b599c1cc4ce24a2833e60ade8f PCI: qcom: Add RX lane margining settings for 16.0 GT/s
 2aec90036dcd2cb7047a6e28625fba6c64756665 selftests: vDSO: ensure vgetrandom works in a time namespace
@@ -698,7 +704,6 @@ fed8a17c61ffa2ba53dc749068b6f07ecf40e3bf xdrgen: typedefs should use the built-i
 171754c3808214d4fd8843eab584599a429deb52 Merge tag 'vfs-6.12.blocksize' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 056f8c437dc33e9e8e64b9344e816d7d46c06c16 Merge tag 'ext4_for_linus-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 1868f9d0260e9afaf7c6436d14923ae12eaea465 Merge tag 'for-linux-6.12-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-4f2c346e621624315e2a1405e98616a0c5ac146f driver core: fix async device shutdown hang
 5124bc96162667766f6120b19f57a640c2eccb2a crypto: caam - Pad SG length when allocating hash edesc
 4330869a2dd9e3abfde820fb5d93888e7d98ffa1 crypto: s390/paes - Fix module aliases
 44ac4625ea002deecd0c227336c95b724206c698 crypto: powerpc/p10-aes-gcm - Disable CRYPTO_AES_GCM_P10
@@ -950,11 +955,6 @@ a9de67336a4aa3ff2e706ba023fb5f7ff681a954 smb: client: set correct device number 
 88801d043b1d16caae76a5e2e5991e8b1f55ce7f xen/pci: Add a function to reset device for xen
 b166b8ab4189743a717cb93f50d6fcca3a46770d xen/pvh: Setup gsi for passthrough device
 2fae6bb7be320270801b3c3b040189bd7daa8056 xen/privcmd: Add new syscall to get gsi from dev
-e11daafdbf5b683a5da33a080862769b696b1621 Revert "driver core: fix async device shutdown hang"
-ec1fcbae1918084b5dea2e72cc6297c32f7792da Revert "nvme-pci: Make driver prefer asynchronous shutdown"
-2efddb5575cd9f5f4d61ad417c92365a5f18d2f1 Revert "driver core: shut down devices asynchronously"
-56d16d44fe8d8012dabd32700ea143c7caa35ba3 Revert "driver core: separate function to shutdown one device"
-eb46cb321f1f3f3102f4ad3d61dd5c8c06cdbf17 Revert "driver core: don't always lock parent in shutdown"
 a045553362b53fb8f34bb1c3e5de5e020af79550 Merge tag 'nvme-6.12-2024-09-25' of git://git.infradead.org/nvme into for-6.12/block
 8f2f74f2f3ebd9bb7159301cb7560db75d2e801a xen/pciback: fix cast to restricted pci_ers_result_t and pci_power_t
 7d627137dc1062aba6276a7d2ebe7f5ff8d542c5 net/mlx5: Support throttled commands from async API
@@ -1082,4 +1082,4 @@ ba33a49fcd42a94d405221cd0677388db1b69ed2 Merge tag 'tomoyo-pr-20240927' of git:/
 12cc5240f41a90b7fabc075c92c04846670c6932 Merge tag 'uml-for-linus-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 ad46e8f95e931e113cb98253daf6d443ac244cde Merge tag 'pm-6.12-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============8110470338605466048==--
+--===============4178610173496268617==--
