@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 29 Sep 2024 17:23:34 -0000
-Message-Id: <172763061422.11228.15494294414677840215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sun, 29 Sep 2024 18:09:37 -0000
+Message-Id: <172763337746.44422.6348682455192092879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 7df0940165069dd4634150d7ddcffdfb1701f389
-    new: 2d099b5c473b59cfcedd311aa5672353c4e9b5cf
+  - ref: refs/heads/master
+    old: 40df5e655735488a75b1e4ecf808269f78a64de6
+    new: 23b79d5ecc382dffb104623a54b331a2d1110323
     log: |
-         2d099b5c473b59cfcedd311aa5672353c4e9b5cf iio: pressure: sdp500: Add missing select CRC8
+         23b79d5ecc382dffb104623a54b331a2d1110323 test/recvsend_bundle: handle another case of not aborting
          
