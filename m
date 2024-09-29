@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 29 Sep 2024 18:09:37 -0000
-Message-Id: <172763337746.44422.6348682455192092879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 29 Sep 2024 18:18:10 -0000
+Message-Id: <172763389018.51869.4311442061271720505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 40df5e655735488a75b1e4ecf808269f78a64de6
-    new: 23b79d5ecc382dffb104623a54b331a2d1110323
+    old: 2eb3375d38e20694912f3f5fdbb744a7079c62e6
+    new: 1e9efb37d264bd11284727064eef42589e870703
     log: |
-         23b79d5ecc382dffb104623a54b331a2d1110323 test/recvsend_bundle: handle another case of not aborting
+         60fa9e999b438cee2fe12bf3eb0c64eeb81c8f96 CodeSamples/formal/rcutorture.sh: Don't bother with stable tags
+         1e9efb37d264bd11284727064eef42589e870703 CodeSamples/formal: Update rcu-test.dat for v6.11
          
