@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0530011884120251588=="
+Content-Type: multipart/mixed; boundary="===============7440620694558273260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Sep 2024 13:58:30 -0000
-Message-Id: <172770471087.1141237.17055703713021428034@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 14:09:35 -0000
+Message-Id: <172770537503.1149410.9317790927293070532@gitolite.kernel.org>
 
---===============0530011884120251588==
+--===============7440620694558273260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-sme-assert
-    old: 13b62c3c914d455dc94b3f25856f4a4cdb8a6b8d
-    new: e3527d55f2ee073b8b48441303205c366a9aa908
-    log: revlist-13b62c3c914d-e3527d55f2ee.txt
+  - ref: refs/heads/kvm-arm64-fix-pkvm-sve-vl
+    old: 8018bf2314c3dd8b6806a2ee57adf043aeb58afa
+    new: 0c3fb9149898ffe6f3c040d7f162b1ba5f3fe9af
+    log: revlist-8018bf2314c3-0c3fb9149898.txt
 
---===============0530011884120251588==
+--===============7440620694558273260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13b62c3c914d-e3527d55f2ee.txt
+Content-Disposition: attachment; filename=revlist-8018bf2314c3-0c3fb9149898.txt
 
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
-9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
 bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
@@ -1048,7 +1045,10 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-46493f3a0573ea5e07835b22cc587e3f99a4a3fa This has gone more than a kernel release with only positive review comments...
-e3527d55f2ee073b8b48441303205c366a9aa908 KVM: arm64: Fix confusion in documentation for pKVM SME assert
+958fb03f784661d62e26e1f650ad8ee2a4f0c2e6 KVM: arm64: Fix underallocation of storage for SVE state
+8a1e2b4cd460e2948ac28e8e5864a69c144b1c91 arm64/fpsimd: Introduce __bit_to_vl() helper
+cd4072ffbb1939a2378dcd4c05e385a490283fbe arm64/fpsimd: Discover maximum vector length implemented by any CPU
+b616c0e9f542e100d24b58c099374ea2cb21e311 KVM: arm64: Fix FFR offset calculation for pKVM host state save and restore
+0c3fb9149898ffe6f3c040d7f162b1ba5f3fe9af KVM: arm64: Avoid underallocating storage for host SVE state
 
---===============0530011884120251588==--
+--===============7440620694558273260==--
