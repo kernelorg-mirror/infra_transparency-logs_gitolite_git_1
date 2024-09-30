@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7736301166860779209=="
+Content-Type: multipart/mixed; boundary="===============7805523218194002966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Sep 2024 13:49:08 -0000
-Message-Id: <172770414855.1132985.13172534762261706234@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 13:54:10 -0000
+Message-Id: <172770445036.1137122.13759678586898454450@gitolite.kernel.org>
 
---===============7736301166860779209==
+--===============7805523218194002966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-fgt-doc
-    old: 4128e407bb53662a2bb1720e95c321437ca1b415
-    new: f7d2c5e6ea06e4526322415b35138162f9072f47
-    log: revlist-4128e407bb53-f7d2c5e6ea06.txt
+  - ref: refs/heads/kvm-arm64-limit-guest-vl
+    old: 86e8b051a37b26209573b59fd02caf9c069eb5d4
+    new: cd739d9376dae91739281b246291dfec03edffc5
+    log: revlist-86e8b051a37b-cd739d9376da.txt
 
---===============7736301166860779209==
+--===============7805523218194002966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4128e407bb53-f7d2c5e6ea06.txt
+Content-Disposition: attachment; filename=revlist-86e8b051a37b-cd739d9376da.txt
 
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
@@ -1047,8 +1048,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-4d13ac3e00d6391e42bc5f0434c961d384412540 KVM: arm64: Fine grained traps documentation clarification
-e12e8043a3874564102e055b398c324d7dc902a9 KVM: arm64: Fix outdated comment about incomplete FGT bitmask definitions
-f7d2c5e6ea06e4526322415b35138162f9072f47 KVM: arm64: Clarify meaning of _MASK and _nMASK for FGT registers
+46ee99e761ef861aed2488cec31ba050a2febccb EDITME: cover title for kvm-arm64-limit-guest-vl
+cd739d9376dae91739281b246291dfec03edffc5 KVM: arm64: Constrain the host to the maximum shared SVE VL with pKVM
 
---===============7736301166860779209==--
+--===============7805523218194002966==--
