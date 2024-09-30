@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3395060069865266841=="
+Content-Type: multipart/mixed; boundary="===============7532756092325311197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 30 Sep 2024 09:10:02 -0000
-Message-Id: <172768740201.748584.15447540343544206328@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 09:10:20 -0000
+Message-Id: <172768742025.750431.15116946149238044570@gitolite.kernel.org>
 
---===============3395060069865266841==
+--===============7532756092325311197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 5be63fc19fcaa4c236b307420483578a56986a37
+  - ref: refs/heads/mips-next
+    old: 439667fb943cfea46d7bde5c7b29c89efec3cbc7
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-5be63fc19fca-9852d85ec9d4.txt
+    log: revlist-439667fb943c-9852d85ec9d4.txt
 
---===============3395060069865266841==
+--===============7532756092325311197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5be63fc19fca-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-439667fb943c-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============3395060069865266841==--
+--===============7532756092325311197==--
