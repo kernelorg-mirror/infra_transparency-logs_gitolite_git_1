@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1068108987126739098=="
+Content-Type: multipart/mixed; boundary="===============2467236649270257827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 30 Sep 2024 11:42:29 -0000
-Message-Id: <172769654936.977256.6768181737214873743@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 11:42:53 -0000
+Message-Id: <172769657371.977636.10477014391596974974@gitolite.kernel.org>
 
---===============1068108987126739098==
+--===============2467236649270257827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 075dbe9f6e3c21596c5245826a4ee1f1c1676eb8
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-075dbe9f6e3c-9852d85ec9d4.txt
-  - ref: refs/tags/v6.11
-    old: 0000000000000000000000000000000000000000
-    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
-  - ref: refs/tags/v6.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
+  - ref: refs/heads/fixes
+    old: 18eb5e77e490c7b417649381bce4575f71efb772
+    new: 4d46b5b623e0adee1153b1d80689211e5094ae44
+    log: revlist-18eb5e77e490-4d46b5b623e0.txt
 
---===============1068108987126739098==
+--===============2467236649270257827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-075dbe9f6e3c-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-18eb5e77e490-4d46b5b623e0.txt
 
 6e30a7c98a9fda2f894e970e9cd637657f39c59d locking/atomic/x86: Introduce the read64_nonatomic macro to x86_32 with cx8
 dce2a224763ce968445e14c43b49321936309c75 locking/atomic/x86: Redeclare x86_32 arch_atomic64_{add,sub}() as void
@@ -592,5 +583,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+7fb1d1e0382c2841906fbc1bad7d902b21fe67de kbuild: move non-boot built-in DTBs to .rodata section
+4d46b5b623e0adee1153b1d80689211e5094ae44 kconfig: fix infinite loop in sym_calc_choice()
 
---===============1068108987126739098==--
+--===============2467236649270257827==--
