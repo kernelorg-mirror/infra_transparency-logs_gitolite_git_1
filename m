@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 30 Sep 2024 18:53:43 -0000
-Message-Id: <172772242326.1622374.17141324134593376510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 30 Sep 2024 18:54:18 -0000
+Message-Id: <172772245847.1622702.5406100876692454469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ath/ath
+user: kvalo
 changes:
-  - ref: refs/heads/kdevops
-    old: c10278a1b635b0d42e140a8a4f21bd27e82fdab3
-    new: ce47ce67711f6d48deba282d4246a8d53ba5afe1
+  - ref: refs/heads/ath12k-mlo-preparation
+    old: 22795afd35166ea0c756d7f2983535f45e34a160
+    new: 72f999b8bccf1532620331f6275f1e32a86ccf4e
     log: |
-         ce47ce67711f6d48deba282d4246a8d53ba5afe1 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+         72f999b8bccf1532620331f6275f1e32a86ccf4e wifi: ath12k: fix use-after-free in ath12k_dp_cc_cleanup()
          
+  - ref: refs/tags/ath12k-mlo-preparation-202409301854
+    old: 0000000000000000000000000000000000000000
+    new: 72f999b8bccf1532620331f6275f1e32a86ccf4e
