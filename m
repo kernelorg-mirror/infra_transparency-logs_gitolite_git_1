@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Sep 2024 16:45:42 -0000
-Message-Id: <172771474264.1523177.6354146502224328445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 30 Sep 2024 17:02:51 -0000
+Message-Id: <172771577159.1535463.12577723183425710401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/kvm-build-breakage
-    old: 0000000000000000000000000000000000000000
-    new: bf745cd9ce15eac15ccf570e44b4c3ec052657f3
+  - ref: refs/heads/misc
+    old: b21a18f730e4b659be951a041eff682a60c0f4a0
+    new: 43ee11adcb940204948ac0ca3a05d6178f0e8b08
+    log: |
+         43ee11adcb940204948ac0ca3a05d6178f0e8b08 PCI: hotplug: Remove "Returns" kerneldoc from void functions
+         
