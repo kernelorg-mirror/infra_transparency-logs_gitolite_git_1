@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2462938464999611676=="
+Content-Type: multipart/mixed; boundary="===============7440284470764470860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 30 Sep 2024 01:59:58 -0000
-Message-Id: <172766159863.408794.9579245094844208799@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 02:02:59 -0000
+Message-Id: <172766177955.411553.6297876917007391164@gitolite.kernel.org>
 
---===============2462938464999611676==
+--===============7440284470764470860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.fdtable
-    old: ab2aea10d0d9a0e62af1ab48f5802a807e946e1b
-    new: c18d81d7f51870a402ef3ed16db8cc6c57bdea8e
-    log: revlist-ab2aea10d0d9-c18d81d7f518.txt
+  - ref: refs/heads/work.vt_buffer
+    old: bfbf644a2dfbc124ccc325f4b952c1a559f7a607
+    new: 2967bbc27a6ec9981a27a00f797d5f237bce8810
+    log: revlist-bfbf644a2dfb-2967bbc27a6e.txt
 
---===============2462938464999611676==
+--===============7440284470764470860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab2aea10d0d9-c18d81d7f518.txt
+Content-Disposition: attachment; filename=revlist-bfbf644a2dfb-2967bbc27a6e.txt
 
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
 5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
 f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
@@ -1038,17 +1047,8 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-678379e1d4f7443b170939525d3312cfc37bf86b close_range(): fix the logics in descriptor table trimming
-7e0da669d830ce11bbc58b4f1296ae7864c048a7 get rid of ...lookup...fdget_rcu() family
-f1dd081151f1b246d6fb2ad5a0f363ed93595a46 remove pointless includes of <linux/fdtable.h>
-30c021108705f02aee131d1fde4d7c31de352093 close_files(): don't bother with xchg()
-efe0f1db74a77eea8ea3845eaf4fff15d45af949 move close_range(2) into fs/file.c, fold __close_range() into it
-0ab8d104ca3e00782cbc8a5ff28c5508125b039a fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
-631856ccf75251c6f1f75856bc38aae2abd980d4 fs/file.c: conditionally clear full_fds
-392b2fb10fc414d27ebf9e78a215ddf821be03ca fs/file.c: add fast path in find_next_fd()
-dec20e333112ae59ee4c20039085f05a19005968 alloc_fdtable(): change calling conventions.
-fecbd3b1c49efe0351e782c848ee20f8bbf068ca file.c: merge __{set,clear}_close_on_exec()
-2b6b3f37af99157303aae84beef05719b9c1ae25 make __set_open_fd() set cloexec state as well
-c18d81d7f51870a402ef3ed16db8cc6c57bdea8e expand_files(): simplify calling conventions
+150b910030ee94ea8c5afdef8e74acb0b90a8563 vt_buffer.h: get rid of dead code in default scr_...() instances
+a43f82e16c61cb0c12f77e8be486b4b6bfb9bb0b asm/vga.h: don't bother with scr_mem{cpy,move}v() unless we need to
+2967bbc27a6ec9981a27a00f797d5f237bce8810 sparc: get rid of asm/vga.h
 
---===============2462938464999611676==--
+--===============7440284470764470860==--
