@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3024997635858810239=="
+Content-Type: multipart/mixed; boundary="===============8857478928012359158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 30 Sep 2024 13:27:15 -0000
-Message-Id: <172770283575.1114727.9712559766195178794@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 13:27:30 -0000
+Message-Id: <172770285077.1114930.7406214324141831998@gitolite.kernel.org>
 
---===============3024997635858810239==
+--===============8857478928012359158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
+  - ref: refs/heads/counter-fixes
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============3024997635858810239==
+--===============8857478928012359158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============3024997635858810239==--
+--===============8857478928012359158==--
