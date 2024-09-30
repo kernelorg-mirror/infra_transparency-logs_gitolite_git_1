@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5527998998945570306=="
+Content-Type: multipart/mixed; boundary="===============0892490898452234259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 30 Sep 2024 15:22:52 -0000
-Message-Id: <172770977276.1450628.8387092768403477634@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 15:24:15 -0000
+Message-Id: <172770985512.1451205.17882184407122187841@gitolite.kernel.org>
 
---===============5527998998945570306==
+--===============0892490898452234259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/vimc
+  - ref: refs/heads/linux-safety
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============5527998998945570306==
+--===============0892490898452234259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============5527998998945570306==--
+--===============0892490898452234259==--
