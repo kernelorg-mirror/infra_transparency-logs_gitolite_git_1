@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 30 Sep 2024 15:37:08 -0000
-Message-Id: <172771062896.1463327.2872363452649219196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Mon, 30 Sep 2024 15:38:45 -0000
+Message-Id: <172771072517.1463979.6424860627106505800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/utils/cpu/mce/mcelog
+user: aegl
 changes:
   - ref: refs/heads/master
-    old: 824a3b4621752e8ad4d84943c4aa230c12016a99
-    new: 765d3a0efe3f851f0aa0885a64a80d2bc2089b0a
+    old: 955fd0917ab1b9f159443e5cbba1d0fa73486fac
+    new: cb52c8680cb5920cfede232286b798096d8b750d
     log: |
-         1c835821801803bd2c9f78e824a5f0d0658d6bd5 Make sure that upstream overlays can also be built and, thus, checked.
-         765d3a0efe3f851f0aa0885a64a80d2bc2089b0a Merge branch 'build'
+         3faedf5b8f5a5d0923e5388f6fb6a5a3dc0f21d0 Revert "mcelog: Reduce default threshold for corrected error page offline"
+         cb52c8680cb5920cfede232286b798096d8b750d mcelog: Reduce default threshold for corrected error page offline
          
