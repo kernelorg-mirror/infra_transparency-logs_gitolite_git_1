@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1785459065359171885=="
+Content-Type: multipart/mixed; boundary="===============3084394298094135481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 30 Sep 2024 01:42:58 -0000
-Message-Id: <172766057823.395916.14912040405685926198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 30 Sep 2024 01:57:17 -0000
+Message-Id: <172766143730.406851.17401689764219288219@gitolite.kernel.org>
 
---===============1785459065359171885==
+--===============3084394298094135481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/v6.12
-    old: b73a2c162e0ba2388e6497fee7a9f476f7dfddc5
-    new: c5556e4e93166d2c774d39742232416bd102f648
-    log: revlist-b73a2c162e0b-c5556e4e9316.txt
+  - ref: refs/heads/fixes
+    old: 8c86f1a45749d6185244fe56a182c2b9a23c3a7f
+    new: 678379e1d4f7443b170939525d3312cfc37bf86b
+    log: revlist-8c86f1a45749-678379e1d4f7.txt
 
---===============1785459065359171885==
+--===============3084394298094135481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b73a2c162e0b-c5556e4e9316.txt
+Content-Disposition: attachment; filename=revlist-8c86f1a45749-678379e1d4f7.txt
 
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
+1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
 9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
 cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
 1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
@@ -1034,21 +1049,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-1f51df0bb7f25a0085b953cbcbf6a2e8055ec840 net/ps3_gelic_net: Use napi routines for RX SKB
-76f9c21e12fc4828c6095257531a086c8d560cb2 hvc_console: Allow backends to set I/O buffer size
-9be0cb672f56822cb8538e3eb09ffbf541b68f45 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-34116df0d6569f6ef01b3758a9fdd1bfd35116f1 ps3-debugging: Setup DABR register
-37fd057213f113bc22f6f1f957df7861f12b7a6a local: Add ps3_nfs_defconfig
-0ee1e2a7628ddc3fcc1f8a6addaa7c8cb19988e9 local: ps3_nfs_defconfig: Cut down version
-9f8facf1d72d9f9aac03014b0e841b975311dc79 local: Refresh ps3_nfs_defconfig
-1d0695428823f3729da3b5c7bf2c4a14bf2dd353 local: Add ps3_petitboot_defconfig
-9ca2f32356872b0f148aa19cb9169e6c285dbeb8 local: Add ps3_petitboot_nfs_defconfig
-1a228a6102876da0cddc419d903f8359b6bd665d local: ps3_petitboot_nfs_defconfig: ip=dhcp
-ddf04357657b9cd0bb327007510cfb343cd5c921 ps3_defconfig: Cut down version
-c3dbad3b2749bfb6ca7bc26dab214a35267257ca Refresh ps3_defconfig for v6.7
-56e5d4c75f12bcb261834b53e0a98dccf90f9c9c ps3_defconfig: Updates
-fc8a61abefdd983de54d37304972a2bb55225ad9 fu: gelic skb cleanup
-5a670480faf6704e26297c8e78c66a2b3c7e46dd fu ps3_gelic_net: Use page_frag_free
-c5556e4e93166d2c774d39742232416bd102f648 ps3_defconfig: Refresh for v6.9
+678379e1d4f7443b170939525d3312cfc37bf86b close_range(): fix the logics in descriptor table trimming
 
---===============1785459065359171885==--
+--===============3084394298094135481==--
