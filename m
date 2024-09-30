@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8470801510945908424=="
+Content-Type: multipart/mixed; boundary="===============2918193463999685599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Sep 2024 21:22:27 -0000
-Message-Id: <172773134745.1744088.10642968136130900346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Sep 2024 21:22:33 -0000
+Message-Id: <172773135360.1744246.5184931625455584755@gitolite.kernel.org>
 
---===============8470801510945908424==
+--===============2918193463999685599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: e249786b2188107a7c50e7174d35f955a60988a1
     new: 46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3
     log: revlist-e249786b2188-46f2dd5ce572.txt
-  - ref: refs/heads/for-6.13
-    old: 46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3
+  - ref: refs/heads/asoc-6.13
+    old: 0000000000000000000000000000000000000000
     new: 04e800fc328e6eba9f4ec3df375f2b500802653a
-    log: revlist-46f2dd5ce572-04e800fc328e.txt
 
---===============8470801510945908424==
+--===============2918193463999685599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1727731358 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1727731344-d2c4f411ff212f89370dca88ff0d5ed990ac54ac
+pusher Mark Brown <broonie@kernel.org> 1727731364 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1727731350-01082f75065e6e8f571790c65ac87127ef6ddd38
 
-e249786b2188107a7c50e7174d35f955a60988a1 46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 refs/heads/for-6.12
-46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 04e800fc328e6eba9f4ec3df375f2b500802653a refs/heads/for-6.13
+e249786b2188107a7c50e7174d35f955a60988a1 46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 refs/heads/asoc-6.12
+0000000000000000000000000000000000000000 04e800fc328e6eba9f4ec3df375f2b500802653a refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7Fp4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0AcUB/98YQilSj6Z0OLsJlndkKGRmq6nLMfF
-g96vojf7vUIrS8dqtKoaZIAr66rkwpyGxeg2LPUekfAPylLP46CzlWi8GzroPgk5
-AHnl+K5PlNeFi0YNoTtxMo6UzBHNuJ9D+zp4ZfyohxSjQeEC6InQT3F4RwS1BLFG
-i/vSNkgYiSxGOIdHk+N0jGQ9NUefKBaaVbZjO+O8BxC35hxCKuJ6a7SLzttXD0N7
-K60F2JYL9vnJeZNm6VvDkphsyThPGE6sW/qhAr7mqmrUMa6Eok5mi7d/o87Ii8sY
-pWXoDSeUQ8binagVIhDZNxjGrujPfAkNvi0k7Ycne3aXyK0crzHMyIUH
-=Xnb4
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7FqQTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BPeB/9UwqYdMxEdvpNxACjvLFbOjraiuoXI
+z2aAxxOrhycGwnx8jf7LItTgoRJoVTsOHGzQN8RXZwz+dCzuoW2YU/Spj42q+TMO
+c2Sr7gyfwkwCrwTGAA88oOPcET09seA9DmILMLjAANVRNli5FR3PqSCBtZfQguE2
+LrHt4EgTe5fOgb1Zs77p8cRU8BaPEIOi/mTBhq5jehANG7pvdVbc1HLaEXi3X0u8
+E/X3Qh5Rw6rbNAxYH3qPdxqVA3jWjyfZkT01il8dljSbPudsyXIyEi1Nt2A/2Llc
+6iKgtyA5v345uR6WvsQYatCqgN1G01vSsnteRNIy+Yq+k+tFMoSnVnZV
+=UTbv
 -----END PGP SIGNATURE-----
 
---===============8470801510945908424==
+--===============2918193463999685599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,22 +1080,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 Merge existing fixes from asoc/for-6.12 into new branch
 
---===============8470801510945908424==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46f2dd5ce572-04e800fc328e.txt
-
-55c39835ee0ef94593a78f6ea808138d476f3b81 ASoC: SOF: ipc3: Use standard dev_dbg API
-3a02cc576accdccb22ffd2d6ac1f9788c7b4c7ce ASoC: meson: axg-iface: set continuous rates
-ecdaf9140528bc2ef37f2d663fbaf690a64bb125 ASoC: tas2781: Fix redundant parameter assignment
-87ad2133b805a6c18f159016a4282311a37c6bcb ASoC: codecs: aw88395: Fix spelling mistake "unsupport" -> "unsupported"
-a2bd5a25c1b548609fb2f095c7356fcae8fabac2 ASoC: dt-bindings: fsl-esai: Add power-domains for fsl,imx8qm-esai
-d72498fad93abf1817c4998d172a3d7f98f76bbe ASoC: rt1320: reads patch code from firmware file
-9e3da79544de209c006b6b4c1514be52a48a2c1d ASoC: bcm2835-i2s: Use maple tree register cache
-0e9f73f109025f0d5d16b104b6684e6c03aa0c83 ASoC: tas5805m: Improve a size determination in tas5805m_i2c_probe()
-bbeffdda5f26a56072cb8cf741f4c52bc2174838 ASoC: fsl: Use maple tree register cache
-eba5a0bac211075b9673139df42bab955e984fce ASoC: dt-bindings: realtek,rt5640: Convert to dtschema
-04e800fc328e6eba9f4ec3df375f2b500802653a ASoC: codecs: aw88399: Fix spelling mistake "unsupport" -> "unsupported"
-
---===============8470801510945908424==--
+--===============2918193463999685599==--
