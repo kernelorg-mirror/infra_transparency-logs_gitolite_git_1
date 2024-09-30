@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3341879328873384427=="
+Content-Type: multipart/mixed; boundary="===============4987659683058844515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 30 Sep 2024 22:28:10 -0000
-Message-Id: <172773529054.1797784.976343030915311500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Sep 2024 22:28:16 -0000
+Message-Id: <172773529604.1797941.497215748709989780@gitolite.kernel.org>
 
---===============3341879328873384427==
+--===============4987659683058844515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: 18be43aca2c0ec475037923a8086d0a29fcc9d16
     new: dc16594d9967773ca891b3d9111f152e3c99d1cf
     log: |
@@ -25,28 +25,28 @@ changes:
          dc16594d9967773ca891b3d9111f152e3c99d1cf Add of_regulator_get_optional() and Fix MTK Power
          
 
---===============3341879328873384427==
+--===============4987659683058844515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1727735302 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1727735288-12f268d95dbf8d81419309c568170bae76ad367d
+pusher Mark Brown <broonie@kernel.org> 1727735307 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1727735294-87e74e6370a123066df958dfd4912fbc757aa69a
 
-18be43aca2c0ec475037923a8086d0a29fcc9d16 dc16594d9967773ca891b3d9111f152e3c99d1cf refs/heads/for-6.13
+18be43aca2c0ec475037923a8086d0a29fcc9d16 dc16594d9967773ca891b3d9111f152e3c99d1cf refs/heads/regulator-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7JgYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HwmB/95OFXwPrgLx6FpUGtmUxKz0KjbVf0X
-IOQEseKybljazfArh/c5xt7Ur35Yf3o89boyecK3pIAm50tdFB1dT91WJ4tj1Xi5
-+K+oVqxp5BlgTEbK3IM9VSq+Zqi3nOBxKjX833Pex0TcIpScxEyRnjRcgW4CLF/2
-2lxZX+RdlhRwEEAYZ0b9W3F6EwEVPoKmJq2kAZF/9BdnA++5F2CW3I+YX4p/27os
-VWXwUlTZMzfNKULqZ4//4oTctyze1yZT6atdTmXMPbmOgkARGUhU4SOHOzOfHSX2
-VeQh1q5/DY0JxpFS3TJTJJ9M/Z29n10eRLt0PDmcGiGxh2ptfsQm12sn
-=jXWV
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7JgsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0MHrB/4jZkMR7NsxRPC9NIe2QFn75/t0u5Vp
+WIx32PNkj04jcSL0IIj+EaTCR29Fjke8VEjrqoGbwNhF504Ia358BV59RnUuQPcy
+5fvZhOPX+qQjfY6+mb6wUAxSjSkvTCq3LPrkA+ou8dCXKpCYA8F5FdTHxblTpMPu
+aILPrnA6MDHcrFO6WuuhcvZFRDEOnqrrf6D0S+U/AHIdGMHf2bF2PKBKlBQpRSLZ
+0H0/ba0gC+IUtwDenn1bv4ygXlkUJPKdOT1l3wGTxC3r8YGi43XAfUo9kEGHwodQ
+cONehbz4YCtoYebApr5Gh9z5zwL+TT3Cs1yCpBTDASLXA42eyStgmeTM
+=bose
 -----END PGP SIGNATURE-----
 
---===============3341879328873384427==--
+--===============4987659683058844515==--
