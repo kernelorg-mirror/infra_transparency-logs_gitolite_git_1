@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5472902659337870752=="
+Content-Type: multipart/mixed; boundary="===============5102317366144159136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 30 Sep 2024 08:49:26 -0000
-Message-Id: <172768616675.731254.3332402444022000278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 30 Sep 2024 08:50:21 -0000
+Message-Id: <172768622106.734004.15184366568368649247@gitolite.kernel.org>
 
---===============5472902659337870752==
+--===============5102317366144159136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-98f7e32f20d2-9852d85ec9d4.txt
 
---===============5472902659337870752==
+--===============5102317366144159136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============5472902659337870752==--
+--===============5102317366144159136==--
