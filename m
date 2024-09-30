@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0122350834157227359=="
+Content-Type: multipart/mixed; boundary="===============7654995105917009946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 30 Sep 2024 12:25:41 -0000
-Message-Id: <172769914199.1016164.14251186524187941120@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 12:25:47 -0000
+Message-Id: <172769914787.1016327.12286002296949286565@gitolite.kernel.org>
 
---===============0122350834157227359==
+--===============7654995105917009946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5c8d618072705e3043c69077b9328aaef6888037
-    new: f077472a6705df8b3101b5556f4be1fbd02f34ac
-    log: revlist-5c8d61807270-f077472a6705.txt
+  - ref: refs/heads/m68k-queue
+    old: 4db74a187382ab35b65b5af67193aa23242ff1ff
+    new: 6d5d97c233fa2e0a834533ba26811994193c5f88
+    log: revlist-4db74a187382-6d5d97c233fa.txt
 
---===============0122350834157227359==
+--===============7654995105917009946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8d61807270-f077472a6705.txt
+Content-Disposition: attachment; filename=revlist-4db74a187382-6d5d97c233fa.txt
 
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
@@ -1048,7 +1046,9 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-bdef6e3f409e26617e8e4b8a2525f422fa680b51 Merge tag 'v6.12-rc1'
-f077472a6705df8b3101b5556f4be1fbd02f34ac bcachefs: rename version -> bversion for big endian builds
+e8a3b32449327636042ae63c120be37f1207e3cf m68k: atari: usb: Add ISP1160 USB host controller support
+399ee77786c9078d9829298b3381aa0284eef118 m68k: atari: Update Kconfig.bus help text
+b0e515bb4a5ab9c94a66092a7b50c324eefaaf0c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+6d5d97c233fa2e0a834533ba26811994193c5f88 bcachefs: rename version -> bversion for big endian builds
 
---===============0122350834157227359==--
+--===============7654995105917009946==--
