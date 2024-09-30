@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 30 Sep 2024 21:14:43 -0000
-Message-Id: <172773088303.1736494.1610519383761144793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 30 Sep 2024 21:17:13 -0000
+Message-Id: <172773103345.1739666.3068902035087915694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/work.xattr
-    old: 19546ce69e55b6c1216e2c6c4d2fddad41b3c786
-    new: 242dce7f3a28f84e733f16d29368cedf91feccf3
-    log: |
-         242dce7f3a28f84e733f16d29368cedf91feccf3 fs/xattr: add *at family syscalls
-         
+  - ref: refs/tags/regulator-of-get-optional
+    old: 0000000000000000000000000000000000000000
+    new: 8e0717432975dabcf77d482b70fad876599973e9
