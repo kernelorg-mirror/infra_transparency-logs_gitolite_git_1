@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4630103405514391293=="
+Content-Type: multipart/mixed; boundary="===============3038582724519362732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 30 Sep 2024 23:00:39 -0000
-Message-Id: <172773723945.1824979.12561254335852475164@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 23:01:02 -0000
+Message-Id: <172773726224.1825307.4470901170187057704@gitolite.kernel.org>
 
---===============4630103405514391293==
+--===============3038582724519362732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
     new: e32cde8d2bd7d251a8f9b434143977ddf13dcec6
     log: revlist-684a64bf32b6-e32cde8d2bd7.txt
-  - ref: refs/tags/v6.11
-    old: 0000000000000000000000000000000000000000
-    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
-  - ref: refs/tags/v6.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
-  - ref: refs/tags/v6.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
-  - ref: refs/tags/v6.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
-  - ref: refs/tags/v6.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
-  - ref: refs/tags/v6.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
 
---===============4630103405514391293==
+--===============3038582724519362732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1051,4 @@ a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git:/
 190ecde722dd0531d087a9964537560aa35c769b Merge tag 'probes-fixes-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============4630103405514391293==--
+--===============3038582724519362732==--
