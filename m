@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1207915588478549258=="
+Content-Type: multipart/mixed; boundary="===============1832811894956136544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 30 Sep 2024 07:29:28 -0000
-Message-Id: <172768136822.664151.8267509902249313002@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 07:32:18 -0000
+Message-Id: <172768153807.667866.14783474238825815099@gitolite.kernel.org>
 
---===============1207915588478549258==
+--===============1832811894956136544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,19 +16,46 @@ repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
   - ref: refs/heads/for-next
-    old: 034835342aab1cc7dc1733a98cd2a6d159ee242a
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-034835342aab-9852d85ec9d4.txt
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: c0f04972d35be7b1b284f0421279997db383bd89
+    log: revlist-9852d85ec9d4-c0f04972d35b.txt
+  - ref: refs/heads/v6.13/arm64-dt
+    old: ba4a79957419ac7373d0112ca79f79e85700b012
+    new: eeb12b07012f060cc8abd661ebc0a22cf106badc
+    log: revlist-ba4a79957419-eeb12b07012f.txt
+  - ref: refs/heads/v6.13/arm-dt
+    old: 0000000000000000000000000000000000000000
+    new: 9d8706ba5abe9cd2b7e326dc51bc2bbc7c0ab9fa
 
---===============1207915588478549258==
+--===============1832811894956136544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-034835342aab-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-c0f04972d35b.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+5774b1e21783e1d716cbfb7b13d00b64886f0b11 arm64: dts: meson: a1: add definitions for meson PWM
+7e3b4f56a76b233a70db09ddaa5e822f7cddf371 arm64: dts: meson: a1: bind power domain to temperature sensor
+eeb12b07012f060cc8abd661ebc0a22cf106badc arm64: dts: meson-g12-common: fix uart-ao-a typo
+78233621aca725ef851c6c2fdace1c169680f94d ARM: dts: amlogic: meson6: fix clk81 node name
+285d2d647f4dedb15f015d9fa5430defb9a35897 ARM: dts: amlogic: meson8: fix soc thermal-zone node name
+e1d42e116770445e11a4062e28f23da70ea63d83 ARM: dts: amlogic: meson8: fix ao_arc_sram node name
+e2a3f11ae11c9f9ee780bf49f00a69f12dce3529 ARM: dts: amlogic: meson6: remove support for ATV1200 board
+6c180982d08b79271271e138399b68d2456c65f2 ARM: dts: amlogic: meson8b-odroidc1: fix invalid reset-gpio
+7947fd2d350e6057e7514459c7ee2db39d1096a2 ARM: dts: amlogic: fix /memory node name
+c3806b25c0f3b95a7f6e6edc23f93ff293173bfa ARM: dts: amlogic: meson8: use correct pinctrl bank node name
+e4940a57791d6accf95e822c10807af18e8e3c7d ARM: dts: amlogic: add missing phy-mode in ethmac node
+bf1f647c3af4b83683ba31b1ed359aa2cf5f6aed ARM: dts: amlogic: meson8-minix-neo-x8: fix invalid pnictrl-names
+ecb81fe2ffde2b925e46e4d02816a8292a7a3229 ARM: dts: amlogic: meson8b-ec100: add missing clocks property in sound card
+9d8706ba5abe9cd2b7e326dc51bc2bbc7c0ab9fa ARM: dts: amlogic: meson8b-ec100: add missing gpio-line-names entry
+3f549bbf16ca6d0ff61383f8409e647c29f69429 Merge branch 'v6.13/arm64-dt' into for-next
+c0f04972d35be7b1b284f0421279997db383bd89 Merge branch 'v6.13/arm-dt' into for-next
+
+--===============1832811894956136544==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba4a79957419-eeb12b07012f.txt
+
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
@@ -1050,5 +1077,8 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+5774b1e21783e1d716cbfb7b13d00b64886f0b11 arm64: dts: meson: a1: add definitions for meson PWM
+7e3b4f56a76b233a70db09ddaa5e822f7cddf371 arm64: dts: meson: a1: bind power domain to temperature sensor
+eeb12b07012f060cc8abd661ebc0a22cf106badc arm64: dts: meson-g12-common: fix uart-ao-a typo
 
---===============1207915588478549258==--
+--===============1832811894956136544==--
