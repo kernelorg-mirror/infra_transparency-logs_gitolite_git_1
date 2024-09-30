@@ -1,37 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============5178036910403006916=="
+Content-Type: multipart/mixed; boundary="===============6918669517338252841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Sep 2024 20:36:35 -0000
-Message-Id: <172772859547.1705593.12769735167869218794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 30 Sep 2024 20:36:49 -0000
+Message-Id: <172772860925.1705930.2666226127144827893@gitolite.kernel.org>
 
---===============5178036910403006916==
+--===============6918669517338252841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 486152873956fea71d48adf7e19ccc22f1d6718d
-    new: 0bbda9afa667ebc3e07796e26968d774ca1abd39
+    old: 10a650193899c3b013df5b1bdb4dc827606f826e
+    new: e2fb1465f1828684da6886f5b640a28087f26c68
     log: |
-         0bbda9afa667ebc3e07796e26968d774ca1abd39 Merge remote-tracking branch 'asoc/for-6.11' into asoc-linus
+         70114e7f7585ef078c2b7033ee14218f95f55e22 irqdomain: Simplify simple and legacy domain creation
+         1bf2c92829274e7c815d06d7b3196a967ff70917 irqdomain: Cleanup domain name allocation
+         1e7c05292531e5b6bebe409cd531ed4ec0b2ff56 irqdomain: Allow giving name suffix for domain
+         dde286ee57704226b500cb9eb59547fec07aad3d regmap: Allow setting IRQ domain name suffix
+         c69bb91c47e840c96ec4e72e7ebd982dd518441e regmap IRQ support for devices with multiple IRQs
+         fd4ebc07b4dff7e1abedf1b7fd477bc04b69ae55 regmap: Hold the regmap lock when allocating and freeing the cache
+         290d6e5d6498703accffc66849b7fb2d4d7503ff regmap: Use locking during kunit tests
+         ae0acef3822ed8908e83cd24f337891e6be64eba regcache: use map->alloc_flags also for allocating cache
+         c7edb7ac8472a57e0c56a3a95796db3af98b2383 regmap: kunit: Add coverage of spinlocked regmaps
+         e2fb1465f1828684da6886f5b640a28087f26c68 Merge remote-tracking branch 'regmap/for-6.11' into regmap-linus
          
   - ref: refs/heads/for-next
-    old: 486152873956fea71d48adf7e19ccc22f1d6718d
-    new: 40613d236d42df0d2dcec124ad663e096f7c31a7
-    log: revlist-486152873956-40613d236d42.txt
+    old: 7da49f45bf04d15ea04564fb513846831db3173a
+    new: 14cb88ad5b3ed6f13744f3c3a0deaf6e060d2628
+    log: revlist-7da49f45bf04-14cb88ad5b3e.txt
 
---===============5178036910403006916==
+--===============6918669517338252841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-486152873956-40613d236d42.txt
+Content-Disposition: attachment; filename=revlist-7da49f45bf04-14cb88ad5b3e.txt
 
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
@@ -1052,9 +1063,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 Merge existing fixes from asoc/for-6.12 into new branch
-0bbda9afa667ebc3e07796e26968d774ca1abd39 Merge remote-tracking branch 'asoc/for-6.11' into asoc-linus
-c903238cf9520fac152cb81e43447f49b6402fd4 Merge branch 'asoc-linus' into asoc-next
-40613d236d42df0d2dcec124ad663e096f7c31a7 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
+e2fb1465f1828684da6886f5b640a28087f26c68 Merge remote-tracking branch 'regmap/for-6.11' into regmap-linus
+14cb88ad5b3ed6f13744f3c3a0deaf6e060d2628 Merge branch 'regmap-linus' into regmap-next
 
---===============5178036910403006916==--
+--===============6918669517338252841==--
