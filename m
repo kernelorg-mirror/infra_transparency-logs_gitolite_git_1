@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Mon, 30 Sep 2024 15:38:45 -0000
-Message-Id: <172771072517.1463979.6424860627106505800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 30 Sep 2024 15:39:52 -0000
+Message-Id: <172771079241.1465271.11255720973120770783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 955fd0917ab1b9f159443e5cbba1d0fa73486fac
-    new: cb52c8680cb5920cfede232286b798096d8b750d
+    old: 962abc48a93da47487e2876dc86479a66595e19f
+    new: eb6146cd6f3b63ee22380a7be38c1e37cd21ea77
     log: |
-         3faedf5b8f5a5d0923e5388f6fb6a5a3dc0f21d0 Revert "mcelog: Reduce default threshold for corrected error page offline"
-         cb52c8680cb5920cfede232286b798096d8b750d mcelog: Reduce default threshold for corrected error page offline
+         eb6146cd6f3b63ee22380a7be38c1e37cd21ea77 foo
          
