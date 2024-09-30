@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6751791792562011301=="
+Content-Type: multipart/mixed; boundary="===============8583668362087557015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 30 Sep 2024 13:28:03 -0000
-Message-Id: <172770288361.1115542.8222938217170555378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 30 Sep 2024 13:28:28 -0000
+Message-Id: <172770290810.1115773.1016204025673855142@gitolite.kernel.org>
 
---===============6751791792562011301==
+--===============8583668362087557015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/counter-next
-    old: 0d0f611bdf8e1d06df7ecb44b424a6fb093e2efc
-    new: a3911e087d6237f5225bb41bb7d5052c33a794b1
-    log: revlist-0d0f611bdf8e-a3911e087d62.txt
+  - ref: refs/heads/next
+    old: 5379c9e0a6ad7d4690e7f496c48c0d44ebb30dd9
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
+    log: revlist-5379c9e0a6ad-9852d85ec9d4.txt
 
---===============6751791792562011301==
+--===============8583668362087557015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d0f611bdf8e-a3911e087d62.txt
+Content-Disposition: attachment; filename=revlist-5379c9e0a6ad-9852d85ec9d4.txt
 
+d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
@@ -1049,6 +1050,5 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-a3911e087d6237f5225bb41bb7d5052c33a794b1 counter: ftm-quaddec: Enable module autoloading
 
---===============6751791792562011301==--
+--===============8583668362087557015==--
