@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 30 Sep 2024 23:05:53 -0000
-Message-Id: <172773755311.1829497.16249014208805279530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 30 Sep 2024 23:08:07 -0000
+Message-Id: <172773768728.1830465.6218947743773756739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 2b03199c04fdece2eff21e63794f977488889d50
-    new: 896e586a9ab4daf1d1d6a69b8a191cc99ff10849
+    old: c4f9d8d3edf21edb135d7f439d2fa56959def47b
+    new: d4587edf529474d01ebcc4a0afcaca7a56ff0542
     log: |
-         896e586a9ab4daf1d1d6a69b8a191cc99ff10849 f2fs: introduce f2fs_get_section_mtime
+         bc280a4435d8b6ee3a80e53913446a4a3e47667f mkfs.f2fs: change -c option description
+         d4587edf529474d01ebcc4a0afcaca7a56ff0542 mkfs.f2fs: add device aliasing feature
          
