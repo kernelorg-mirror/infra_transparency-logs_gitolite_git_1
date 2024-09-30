@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7915294665567389043=="
+Content-Type: multipart/mixed; boundary="===============4991742391491413679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 30 Sep 2024 10:47:30 -0000
-Message-Id: <172769325052.878564.11175932648202145035@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 10:50:07 -0000
+Message-Id: <172769340742.881870.13111652682079573247@gitolite.kernel.org>
 
---===============7915294665567389043==
+--===============4991742391491413679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/soc
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00
+  - ref: refs/heads/next/clk
+    old: 97fd5d447beff9643c2a333ebfbc95fc1d625342
+    new: 2d3e0135cefccbcd8459112a8afe260e7b51ff6d
     log: |
-         0f702757c68b9790a844e5c07073d3d1c777b13a ARM: samsung: Remove obsoleted declaration for s3c_hwmon_set_platdata
-         3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00 ASoC: samsung: Remove obsoleted declaration for s3c64xx_ac97_setup_gpio
+         a86ffa40a64bd4d119c260a99e28f2a71f86d9f4 clk: samsung: fsd: do not define number of clocks in bindings
+         2d3e0135cefccbcd8459112a8afe260e7b51ff6d dt-bindings: clock: samsung: remove define with number of clocks for FSD
          
 
---===============7915294665567389043==
+--===============4991742391491413679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1727693261 +0200
+pusher krzk@kernel.org 1727693418 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1727693248-81e1a9d5d7991a018cbcb09027cdefbf07003ecd
+nonce 1727693405-64621407209265b9f41cca86e107309c43105253
 
-9852d85ec9d492ebef56dc5f229416c925758edc 3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00 refs/heads/next/soc
+97fd5d447beff9643c2a333ebfbc95fc1d625342 2d3e0135cefccbcd8459112a8afe260e7b51ff6d refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gc0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16rxD/9F1p7tSH7lGsSmdn4JH67fhuTSZB6cY1Qi
-iPT/aHS8ISOXfEDc59VE9HLHEPaAPfAtqa+fYhq1Zpn46OwC5DGnFCMkExEQ+WFt
-W8/ElhJbbagCKp+Q98nz0i0L740k6W4b8z57Myp8VRZrR5HSmyqlJvyyUUc70o6K
-uhki3v9FOMx7SrfxmvQDHdxf3e3YLCRbHrbBSV1QONtlulYvxJcxRQJHUteqzWVx
-e9BTXNUXpZtp9v6BMHyR84/qSB5DHkMRkwOoQqNtOITXmmv/ugRyqURTjLd/dLa4
-ZjFu1PRIgeCGmifurmx0Mh6jN8zXsOlZ7HymMdOhc6TL30LffU41N7hzMKP9YFag
-gcWT2HAQvjo8I4geRRTwdUf/5o0qBWjUhBSZgDhQu186uXUdcgjhkGHhrxyvNLwI
-hTpvlkSCzqA8LBQfzPGzw7o+/k3hg1hpLr2HoHUXhKlu43FiZCZ0pNzpazbzNZ49
-O3GbwSmu2lddffxWP7fh3X91WLuyrIdrEOoi54VOcuN+h776l5AALlj/iTiZORSE
-yKWyrV+0qOCbGCmoBdGeptoznz4N9MU4FzjYupgqibrALsTB1l9i0/eAM0P4IbyO
-DF/c5G4bdDEUbgeP886Y0vQRtqjk+mx7opLG2u2sVJrq53Uy3fImP3kQ5HYFvXnI
-qquFReqESw==
-=biCI
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gmoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yz5EACRkM8UIm6liEOYPdjZMOy69WyTdX4B4ILX
+m4HKuCrr9bvHK4eU3eSy/wrMClG9UO/KhoVE8ZFjq09Qp9ekLGsQDlv9whXfYe0j
+W5S5eJn6DuHX2njsRFgnpa13Nykz7al1ttIWzcIpBb9qrPJpl8WcOJSaT/TVaPJc
+Izvn/uhOtMzKymYDEA84MCUDScqfub27apV3OLn0o/m2UoLzEWF6HjwqFR/29sXV
+YGErXLLUUo9J7bAg+Os6TOKkCoiPhrGo3xXlFrl6lhPW1PJ/ovOupuTZj6ViqZHb
+bFyHDuDhDYVLniAYReQ21CVzxECVbq7c9HPRTY6k+dGvxaZbg6Lx3yOS0MVSxKI7
+HG3/SGvlIUaFwuSzm4zOSWJAbuTEFBgrIxDtfAq9UcOV86LkEY+unqLX4X+aVCOB
+6znozChwwjKStBeotGkQGNgtYFAjB4+wRku+z5tLonKd6Vsjd9UaRqosi2IbfESp
+8AkiPTB3+4RsramcTU8nLn7cRQjWWoDs3doE+zDLOny8CokdMA/HSLRMgKS6II8E
+nNrJ4Pn9TESvUFEOhE2F8j2WktWw32XR7zuAt6rC46FLz+Aojn7qjdxMJ2+9ia4v
+Ke1DbPKPflGk4aidrKmLm7P8oeEJ0sr17hP+zwwAIC/PP8uXEdvviP8rpnfXNyLP
+7mYFOcvCXA==
+=rjEd
 -----END PGP SIGNATURE-----
 
---===============7915294665567389043==--
+--===============4991742391491413679==--
