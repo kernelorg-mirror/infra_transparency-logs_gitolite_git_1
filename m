@@ -1,64 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8009589046217337183=="
+Content-Type: multipart/mixed; boundary="===============1070067491419568264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 30 Sep 2024 21:41:07 -0000
-Message-Id: <172773246766.1760385.547796481919276618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Sep 2024 21:41:13 -0000
+Message-Id: <172773247378.1760547.15337690297463347716@gitolite.kernel.org>
 
---===============8009589046217337183==
+--===============1070067491419568264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/spi-6.12
     old: 329ca3eed4a9a161515a8714be6ba182321385c7
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-329ca3eed4a9-9852d85ec9d4.txt
-  - ref: refs/heads/for-6.13
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/spi-6.13
+    old: 0000000000000000000000000000000000000000
     new: 625de1881b5aee6a42a3130004e47dbd632429f8
-    log: |
-         89980d3a34655d99c599f6acf877fd48775a29ad spi: fix typo in the comment
-         003c7e01916c5e2af95add9b0cbda2e6163873e8 spi: spi-fsl-lpspi: Use IRQF_NO_AUTOEN flag in request_irq()
-         610442f85c12ff662e3dec50c53d92f7a8e5a783 spi: slave-mt27xx: Call clk_disable_unprepare() only once in mtk_spi_slave_probe()
-         494c3dc467768782f93f1433650c56b08feb54ea spi: Switch back to struct platform_driver::remove()
-         759541d78eb8d6ac12dab7df14d4434cf5756e14 dt-bindings: spi: zynqmp-qspi: Include two 'reg' properties only for the Zynq UltraScale QSPI
-         7a4b3ebf1d60349587fee21872536e7bd6a4cf39 spi: airoha: do not keep {tx,rx} dma buffer always mapped
-         625de1881b5aee6a42a3130004e47dbd632429f8 spi: atmel-quadspi: Add cs_hold and cs_inactive setting support
-         
 
---===============8009589046217337183==
+--===============1070067491419568264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1727732478 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1727732464-45f68136be25bee316831f748592264a871c008e
+pusher Mark Brown <broonie@kernel.org> 1727732484 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1727732471-d4e59019c09ee23dd5a43d39e828002c1e54ab14
 
-329ca3eed4a9a161515a8714be6ba182321385c7 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/for-6.12
-9852d85ec9d492ebef56dc5f229416c925758edc 625de1881b5aee6a42a3130004e47dbd632429f8 refs/heads/for-6.13
+329ca3eed4a9a161515a8714be6ba182321385c7 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/spi-6.12
+0000000000000000000000000000000000000000 625de1881b5aee6a42a3130004e47dbd632429f8 refs/heads/spi-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7Gv4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NfNB/sHThtHm7KwjYn7ModaLickU+KCwc7L
-hiCsANdMhjmLEkDBDvWtz2EvnXp/KV/pZTiN4ZHOoADeDeMIELSiY3WwROAYLLtX
-445chU3wfngWpxIqjnQpUDnLzWNsvCEhWVMdLs71hCToGbmCtyCY4WAzOnDWg4co
-ZMc8ibad6KtAyCf0BNGXbO9D/kkal/CNbKi5yafulv+K6Q+gXrxBP0CUqAaf6/8y
-mK7BxwS4iZ09XGsffGk9jYmIvNhLf3FGNH8UJHb4GpwaSBEID45hIXNw90kXGalE
-qcbPR5mqs09pxJLqrievqwURASHMR9HAg741aeQI3Jh7ivyAZue4i2Jo
-=y9E6
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7GwQTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0DWFB/9QOl3EHKCU/IHMzHabRcrU6b2rkvcX
+ccsGqVwPpPegiiW7Vn8a+PKo9P+bNPWlJE/TXWewZRpo2ZbJAAwGsw/x8SvdmFJ1
+cEIAopsq0RSULN1rp9j08HithJmfRTrRNOxQ0jo+CQXs8FJt0jLOQzWwRQhb3uVb
+yapfYeDL61zsKEa43o78Gm89GlQKWmP+COUecGiKtAuuGfWtSpdvyjUIoBewZZMW
+OZtCuRl24oiTjJsLNmVH2IHtqveTsgqY1rPzJmP9jXtpM2OfhYklvSOLxEF+8u1B
+OCh6taZPRvtGzOITgrAJkG/JwxhBsFicRgScSX3ASDlP+kLZIi3TIc3Z
+=qF4A
 -----END PGP SIGNATURE-----
 
---===============8009589046217337183==
+--===============1070067491419568264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1089,4 +1080,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============8009589046217337183==--
+--===============1070067491419568264==--
