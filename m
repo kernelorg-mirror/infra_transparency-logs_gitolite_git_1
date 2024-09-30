@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4387851808061969737=="
+Content-Type: multipart/mixed; boundary="===============1377718706945439212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 30 Sep 2024 10:41:24 -0000
-Message-Id: <172769288433.871712.3070094215807055772@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 10:41:28 -0000
+Message-Id: <172769288816.871844.13816805930750291712@gitolite.kernel.org>
 
---===============4387851808061969737==
+--===============1377718706945439212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: a4b3f197bcd17ea81605f3121a459dece448e877
+  - ref: refs/heads/next/dt-bindings
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-a4b3f197bcd1-9852d85ec9d4.txt
+    log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============4387851808061969737==
+--===============1377718706945439212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1727692895 +0200
+pusher krzk@kernel.org 1727692899 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1727692881-39c2bf3a185a3cf40db40ff5e47b3c8d3030a690
+nonce 1727692885-e4e0c78f61d85225311cd77386e17797f2e95cbd
 
-a4b3f197bcd17ea81605f3121a459dece448e877 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/next/dt64
+8400291e289ee6b2bf9779ff1c83a291501f017b 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/next/dt-bindings
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gF8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19x4D/40C5lWNIcS+5JFiA9hk2D2guvxFhWnAZA4
-7cTmqM7wlOZUavcU7Qg/IaD/r3TipZoSOpECVHcLHjv7utvqQGZYdHf2SEf/MJxo
-LjyBB3a6JIiICgYNKktggElqkUR9/NbsP8xBt2Xd9qGws3anrrs1DZBktgHdTqNb
-07aUVZrJc8Re2ynoxWq1Rf8VKRKWKbLzCicLNOQmL6NL0xO8FWKtxgz1RrkalYNM
-hrTbSOlpfflhLpkdEqqVdWAdKFRChowSzAc5Ky4G4hNkqocbrd2e4/79az+SGngh
-7JpDuCbh6fG5L3ZSLlK256XBZgaviNR2AfKKbIRdpfgS+tAumrCTRh+67u86GcqW
-V/Qf9PxiPlFVeU/CFwsutOFulA+VmBdaCLKpcgtlOufecqS9oe+bSSwGZRfAjWVh
-tCQHOpZm5oIDQDWKd50+TMnWwQXi+Kl1wyj1uZTE/4EfUhKiHDPTG40u3QYG1PA1
-FdGWwF+x2Osy04xOPGVc2Q4o0ruhHdyyYNg7fYmQnV8EJuqqoQRHXCJf8duthgQR
-GeC2Bo0ibxzpn6h8ilHPf+F03ApXgAbTNfk5QPRzp//T2PHEyaVd+gx18xm2vgUJ
-8Kfn0EqIanVcjjxBEia6KpQ36N6ti4BL559+1pq7aTtiI7R5F8tv/TyAfhY/jUqn
-owpPYl9Iig==
-=eyEY
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gGMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1x22EACN5XPT+T5ZtY8WSEZHOZKFZCxleKHXTd1J
+HvBKbaiMkKyR8fbLREhLPFj6OEawshQHPf5rMxfifsrfbr3Gbd2GRvBVX851Sqd7
+dNZIiiIYcipRrRdpRYADzOswoUqc3xjERa2qzHwsGsK3Hfriie76arfb6rX8Zewb
+rYmTkS+KbuA/ubmB4X7KYbQ4fsK9oWpug34K9aU1JJjMXtt0N1GVt3/vyMqFMJ9X
+JCiVEcJ4vMqsWjIL2mpE2d1GH/CZPWYOBKBivBC7uVNHfPMN91G5YMfHmZxFgNIK
+zTootk1m8WRlSt77EXC9HQV/rR65wbHRSLxigsQYZqwku9rJC4300J/YzaHz/Sto
+TdjixcTnSROgtOQgpmE4S6qBjXMNzbVrMo9jloIeg3JRO4fzSG3kgHCQbaWyGCse
+BC/EizqgSZ2yCIdr9QIwW7pnP2T1U7a3uBbclKtghXDspdnPWOd6Afou7pmAaTRe
+w3LSiQSVw9zEkw6TCM7vOqfkVaWotkPOEfLz1p8RcSBNqb8sQ8Ynzy2rsQFo1ijF
+5Duy/Ejkm57v+roZZWa1qMcKHtOw6B3xqVo6rboKoqQ0YNHI6ZWoNaMEjKvlaEXh
+pvcfQDrxWUObHeb80MMJGjfICOW5Yf/S6/CtDVXgDN+7yb+CMBhr3CCwq8FiBcSp
+EBJr2QbYXg==
+=D4rA
 -----END PGP SIGNATURE-----
 
---===============4387851808061969737==
+--===============1377718706945439212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4b3f197bcd1-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1082,4 +1082,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============4387851808061969737==--
+--===============1377718706945439212==--
