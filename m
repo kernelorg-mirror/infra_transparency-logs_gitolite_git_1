@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3563749789083375355=="
+Content-Type: multipart/mixed; boundary="===============8679790557192331593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 30 Sep 2024 08:01:09 -0000
-Message-Id: <172768326984.694141.11044722272091179504@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 08:14:39 -0000
+Message-Id: <172768407945.703196.1481404400365450352@gitolite.kernel.org>
 
---===============3563749789083375355==
+--===============8679790557192331593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/master
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-0bb80ecc33a8-9852d85ec9d4.txt
+  - ref: refs/heads/xfs-6.12-rc2
+    old: 6e19fd40d755a64f271687a21cd304ecba41a571
+    new: 668b7c24d5065b71822e54c4256932ed87dd07c9
+    log: revlist-6e19fd40d755-668b7c24d506.txt
 
---===============3563749789083375355==
+--===============8679790557192331593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-6e19fd40d755-668b7c24d506.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
-9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
-89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
-cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
-bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
-25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
-2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
-21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
-3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
 5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
 f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
@@ -1050,5 +1038,17 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+c2790266d8220985ad79a67306953c8aa61d1461 MAINTAINERS: add Carlos Maiolino as XFS release manager
+01ec1a5d38fd4d836223f4b93e13e5173020d4c6 xfs: merge xfs_attr_leaf_try_add into xfs_attr_leaf_addname
+fec32c5a4493f302f21f77d678add57139354aa0 xfs: return bool from xfs_attr3_leaf_add
+c811f23eecc6f1cd614ad598a90339e787be0798 xfs: distinguish extra split from real ENOSPC from xfs_attr3_leaf_split
+9672ff53f2e1f8915eb181f9948d873d81dfd312 xfs: distinguish extra split from real ENOSPC from xfs_attr_node_try_addname
+6171e58cddaa6c9f75f7af506819a0d8927f91b2 xfs: fold xfs_bmap_alloc_userdata into xfs_bmapi_allocate
+09bfac576b762324beb602fdb32f07d201432d4c xfs: don't ifdef around the exact minlen allocations
+35ef1bc7dfdb3f66145f2f6a40108c9067989226 xfs: call xfs_bmap_exact_minlen_extent_alloc from xfs_bmap_btalloc
+4005a032f21fc590880cf90cc03fe991550bb2bf xfs: support lowmode allocations in xfs_bmap_exact_minlen_extent_alloc
+3345b3340dc156a1e5983a65b8162171fea217b2 xfs: Remove empty declartion in header file
+8e615720ca4927edf6959b7d7a1b0adf3fbce55a xfs: scrub: convert comma to semicolon
+668b7c24d5065b71822e54c4256932ed87dd07c9 xfs: Use try_cmpxchg() in xlog_cil_insert_pcp_aggregate()
 
---===============3563749789083375355==--
+--===============8679790557192331593==--
