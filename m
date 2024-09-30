@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5329780803482714313=="
+Content-Type: multipart/mixed; boundary="===============0654972687480930774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 30 Sep 2024 05:50:32 -0000
-Message-Id: <172767543289.587888.17758630000885656584@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 05:51:51 -0000
+Message-Id: <172767551160.588526.13690301728860732629@gitolite.kernel.org>
 
---===============5329780803482714313==
+--===============0654972687480930774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: d242feaf81d63b25d8c1fb1a68738dc33966a376
+  - ref: refs/heads/pwm/for-nexxt
+    old: 4dfff7c8dff05cf5baa248dd4f883796e3a4d1eb
     new: 3d7d2d834cd35529e12372e33b650726c03b74d2
-    log: revlist-d242feaf81d6-3d7d2d834cd3.txt
+    log: revlist-4dfff7c8dff0-3d7d2d834cd3.txt
 
---===============5329780803482714313==
+--===============0654972687480930774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d242feaf81d6-3d7d2d834cd3.txt
+Content-Disposition: attachment; filename=revlist-4dfff7c8dff0-3d7d2d834cd3.txt
 
 25e68c37caf2b87c7dbcd99c54ec3102db7e4296 smb: client: Use min() macro
 6795dab403924e98ea32f23254d1fe5749e78a74 cifs: Remove obsoleted declaration for cifs_dir_open
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 c5d94f0c30de697d67b0cab76af7cca61d4247d7 pwm: axi-pwmgen: Create a dedicated function for getting driver data from a chip
 3d7d2d834cd35529e12372e33b650726c03b74d2 Merge branch 'pwm/duty_offset'
 
---===============5329780803482714313==--
+--===============0654972687480930774==--
