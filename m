@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5824604379451432843=="
+Content-Type: multipart/mixed; boundary="===============6172535146595496768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 30 Sep 2024 15:17:24 -0000
-Message-Id: <172770944442.1444559.14858004160051504152@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 15:18:07 -0000
+Message-Id: <172770948764.1444984.1711269403375745709@gitolite.kernel.org>
 
---===============5824604379451432843==
+--===============6172535146595496768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+  - ref: refs/heads/nolibc
+    old: 248f6b935bbd8f7bc211cce2b6fd76be4c449848
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-8400291e289e-9852d85ec9d4.txt
+    log: revlist-248f6b935bbd-9852d85ec9d4.txt
 
---===============5824604379451432843==
+--===============6172535146595496768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-248f6b935bbd-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============5824604379451432843==--
+--===============6172535146595496768==--
