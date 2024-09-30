@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 30 Sep 2024 23:23:20 -0000
-Message-Id: <172773860035.1842638.5220315487881556191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 30 Sep 2024 23:29:43 -0000
+Message-Id: <172773898375.1847363.7253141121267281376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 424aafb61a0b98d7d242f447fdb84bb8b323e8a8
-    new: 38e7ac3e0eaac6376c9cd629efe9f783afc26a21
+  - ref: refs/heads/tmp.master
+    old: 28a8c3724c786544800b1308bd0384c1ac2b1353
+    new: 2ecd7ceb4ece977f23aad875141879794a337339
     log: |
-         c850897b6cc275aea01c068732894b286bca44d1 tools include UAPI: Sync sound/asound.h copy with the kernel sources
-         7ae76b32f9796449a5653c88847c6d784f38b7d3 tools include UAPI: Sync linux/sched.h copy with the kernel sources
-         58f969b7a83e3680f1de5f1f0d382d783cc15f6c tools include UAPI: Sync linux/fcntl.h copy with the kernel sources
-         744a6a1f2a8385a99803c3be08fae1921a746e15 tools arch x86: Sync the msr-index.h copy with the kernel sources
-         c94cd9508b1335b949fd13ebd269313c65492df0 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources
-         dc1e764b398e0548b1bb12fb234ed0b673cd60fb tools headers UAPI: Sync the linux/in.h with the kernel sources
-         d1648688799dd14075c43e2d091be815c794f331 perf beauty: Update copy of linux/socket.h with the kernel sources
-         7e23f48779fe2e3c3bde7c68a8de03ad883f63c5 tools check_headers.sh: Add check variant that excludes some hunks
-         38e7ac3e0eaac6376c9cd629efe9f783afc26a21 perf tools: Cope with differences for lib/list_sort.c copy from the kernel
+         4bff1141bb48ae58074e39d8e6774da39015fcec btf_encoder: Record BTF-centric function state instead of DWARF-centric
+         6b199c39c9320fc2ee2b2ea65aa3c64e79d78180 pfunct: Show all functions that match filter criteria
+         b56cf57f25daf8806966944240a86bfb19cc0275 tests: Add test validating BTF encoding, reasons we skip functions
+         012aaa959ae783feebae823efc7886cff4e65a9c pahole: Add --padding_ge N to show only structs with at least N bytes of padding at its end
+         3b282fd11e42ad4146123b6dff259c57fc78fb8e pahole: Add --padding N to show only structs with N bytes of padding at its end
+         d69324984e00131904c94bab850eadbdfda9afa0 btf_encoder: Fix strncpy issues, other issues identified in code review
+         8eb23b9a8ef2a658d05802bf9820a695aa60285f tests: Improve btf_functions.sh by reducing greps/pipes
+         2ecd7ceb4ece977f23aad875141879794a337339 pahole: Generate "bpf_fastcall" decl tags for eligible kfuncs
          
