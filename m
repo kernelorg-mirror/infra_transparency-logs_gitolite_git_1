@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3182518618196438910=="
+Content-Type: multipart/mixed; boundary="===============8627333765939203768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 30 Sep 2024 01:34:59 -0000
-Message-Id: <172766009952.388903.15062610254011434814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 30 Sep 2024 01:36:14 -0000
+Message-Id: <172766017491.391079.6130971745230338541@gitolite.kernel.org>
 
---===============3182518618196438910==
+--===============8627333765939203768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/work.headers.unaligned
-    old: 6f0416d97dba4a92bb397419a3f3eb68f443966f
-    new: c7aa4ea3d081865b7d8257c33ebda97fe5126211
-    log: revlist-6f0416d97dba-c7aa4ea3d081.txt
+  - ref: refs/heads/for-next
+    old: d1b35e6d34e9b46fbf98444dd7aa114c032e9ac0
+    new: 7cbf28998d737e04c4872cfeedd1a546d22cfb44
+    log: revlist-d1b35e6d34e9-7cbf28998d73.txt
 
---===============3182518618196438910==
+--===============8627333765939203768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f0416d97dba-c7aa4ea3d081.txt
+Content-Disposition: attachment; filename=revlist-d1b35e6d34e9-7cbf28998d73.txt
 
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
@@ -1048,7 +1049,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-70d37bd7ed08618d65508490d0cea88cb270fb71 arc, parisc: get rid of private asm/unaligned.h
-c7aa4ea3d081865b7d8257c33ebda97fe5126211 move asm/unaligned.h to linux/unaligned.h
+7cbf28998d737e04c4872cfeedd1a546d22cfb44 platform/chrome: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 
---===============3182518618196438910==--
+--===============8627333765939203768==--
