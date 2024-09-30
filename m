@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 30 Sep 2024 19:21:39 -0000
-Message-Id: <172772409935.1646178.8905967177358473386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 30 Sep 2024 19:45:04 -0000
+Message-Id: <172772550453.1664137.11633647828665593809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/work.xattr
-    old: 5b9586ab34367869365beb45d95a55b8d74c4dc8
-    new: 7eba813b8098be8e44879c70a7eeff5c09cfcb8a
+  - ref: refs/heads/master
+    old: 9a9dc3d456c04cb7f364ade1271113af7e2f6b03
+    new: 20a38abb36618b14f4cf7593de3dba9634970cc7
     log: |
-         7d09cc61eccdfcac6acac199017d7191af724781 fs: rename struct xattr_ctx to kernel_xattr_ctx
-         2f2c5acec84ecc44004ebcf100cb91f4286d649d io_[gs]etxattr_prep(): just use getname()
-         8bedb9338886b288ec9b5b3c6ae1bf1dfde7304f replace do_setxattr() with saner helpers.
-         cbc8dcfef9fbe9b7164a04bdb07dfa8f4b2c912e new helper: import_xattr_name()
-         9a23e814ba04d12d93269c43c0991d455f350954 replace do_getxattr() with saner helpers.
-         825336fc06e96f5c8d2e22f4b41d20ae54241de8 convert path_listxattr() to struct filename
-         7eba813b8098be8e44879c70a7eeff5c09cfcb8a new helper: filename_removexattr()
+         95c15d2ca02a1056947884a0f5cd8a8360862815 client/player: Make endpoint.show print all endpoint with no argument
+         eda123dc6d8e04ba7fadfd95d36b9f3ff0b1e1ff client/player: Make transport.show print all transports with no argument
+         f7028d6a0569d295ba1fd0386c72b734da9dc8db client: Update endpoint and trasport doc
+         20a38abb36618b14f4cf7593de3dba9634970cc7 client: Update endpoint.show and transport.show documentation
          
