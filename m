@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1048413633638806676=="
+Content-Type: multipart/mixed; boundary="===============7915294665567389043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 30 Sep 2024 10:46:05 -0000
-Message-Id: <172769316505.877969.7227683469129985344@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 10:47:30 -0000
+Message-Id: <172769325052.878564.11175932648202145035@gitolite.kernel.org>
 
---===============1048413633638806676==
+--===============7915294665567389043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
+  - ref: refs/heads/next/soc
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 97fd5d447beff9643c2a333ebfbc95fc1d625342
+    new: 3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00
     log: |
-         3ee92799a212963bbd8f860b53dd8b9b5e6bf812 clk: samsung: Fix block comment style warnings reported by checkpatch
-         97fd5d447beff9643c2a333ebfbc95fc1d625342 clk: samsung: Fix errors reported by checkpatch
+         0f702757c68b9790a844e5c07073d3d1c777b13a ARM: samsung: Remove obsoleted declaration for s3c_hwmon_set_platdata
+         3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00 ASoC: samsung: Remove obsoleted declaration for s3c64xx_ac97_setup_gpio
          
 
---===============1048413633638806676==
+--===============7915294665567389043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1727693176 +0200
+pusher krzk@kernel.org 1727693261 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1727693163-221fac0d94cefce8b51c049b60de2c0076968b05
+nonce 1727693248-81e1a9d5d7991a018cbcb09027cdefbf07003ecd
 
-9852d85ec9d492ebef56dc5f229416c925758edc 97fd5d447beff9643c2a333ebfbc95fc1d625342 refs/heads/next/clk
+9852d85ec9d492ebef56dc5f229416c925758edc 3a6ad95d97eb62a7b7c804ef7eeb329a1f697d00 refs/heads/next/soc
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gXgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+RoD/sFX+O4s1r0Rh2Fo4sDKi9Zl5TL+cn4zvZE
-nH+1atP460wksJLSKlIoy3Yi65eWdUfeVW6B9ZPZcjg3wQU+Hzp9j2kL4hXSyFPZ
-f0t1S1PI7H7g5Eq6Or+whTQLu6q08O+SnLIuly12iU48Xj/r28/hl+9uE11aG8ot
-JOmCH49CajaMgpePYDoG3OLIbAguaMNXeT+RjOVoxG86hJvOsdzAuUV7p736ulGE
-l0/dHLTEfh8bU5WfnFeMjGvDQQRPJruF4/4DmK+awD4fN8jVwxN79ThIiIo9Z9v0
-ACkW5QB0FXHcJik3OHKwBl0MI5lPAFybNZZ2d7ioNHgw0vEz3ZQnXMB8rBFdERuC
-51XS8W2mJwygS4nh2nHztveLmxlW3XjJWJE050y3kiT0hjqRDof81zc5r5Lqn8G3
-yQnhHlrtK5uyEqVAwPiBvgSl4M7XOjhAMiSHaW5dER+rgVdDhlNHDpAdjznkp0Av
-9jYBC5NQnab3k1H+HXYqgfaNMA1fCr0eMmq+kBoSmn+sIDmeX8Z6niDIhkK7UWzT
-736CJ17mQaGFxtwKjyVRC8ttyLCnPalEeJ9T7t+A6LyOfIL4UTyk/JomPFeP07qf
-sq4uJd0p/eGmWRRswdtdf/X/5L/EJ8XzaWbatmSt4zeF67fLv4ByVGV0KDgxJepf
-PStimirm8A==
-=yvEu
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gc0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16rxD/9F1p7tSH7lGsSmdn4JH67fhuTSZB6cY1Qi
+iPT/aHS8ISOXfEDc59VE9HLHEPaAPfAtqa+fYhq1Zpn46OwC5DGnFCMkExEQ+WFt
+W8/ElhJbbagCKp+Q98nz0i0L740k6W4b8z57Myp8VRZrR5HSmyqlJvyyUUc70o6K
+uhki3v9FOMx7SrfxmvQDHdxf3e3YLCRbHrbBSV1QONtlulYvxJcxRQJHUteqzWVx
+e9BTXNUXpZtp9v6BMHyR84/qSB5DHkMRkwOoQqNtOITXmmv/ugRyqURTjLd/dLa4
+ZjFu1PRIgeCGmifurmx0Mh6jN8zXsOlZ7HymMdOhc6TL30LffU41N7hzMKP9YFag
+gcWT2HAQvjo8I4geRRTwdUf/5o0qBWjUhBSZgDhQu186uXUdcgjhkGHhrxyvNLwI
+hTpvlkSCzqA8LBQfzPGzw7o+/k3hg1hpLr2HoHUXhKlu43FiZCZ0pNzpazbzNZ49
+O3GbwSmu2lddffxWP7fh3X91WLuyrIdrEOoi54VOcuN+h776l5AALlj/iTiZORSE
+yKWyrV+0qOCbGCmoBdGeptoznz4N9MU4FzjYupgqibrALsTB1l9i0/eAM0P4IbyO
+DF/c5G4bdDEUbgeP886Y0vQRtqjk+mx7opLG2u2sVJrq53Uy3fImP3kQ5HYFvXnI
+qquFReqESw==
+=biCI
 -----END PGP SIGNATURE-----
 
---===============1048413633638806676==--
+--===============7915294665567389043==--
