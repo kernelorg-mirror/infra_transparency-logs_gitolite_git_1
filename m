@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0510286598930727265=="
+Content-Type: multipart/mixed; boundary="===============7900314312930242226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 30 Sep 2024 10:43:16 -0000
-Message-Id: <172769299605.873523.17523008569231625069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 30 Sep 2024 10:43:31 -0000
+Message-Id: <172769301145.873728.16435062586234517563@gitolite.kernel.org>
 
---===============0510286598930727265==
+--===============7900314312930242226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 39dbbd4e6778ac5580313ba34409855250633c61
+  - ref: refs/heads/fixes
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-39dbbd4e6778-9852d85ec9d4.txt
+    log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============0510286598930727265==
+--===============7900314312930242226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1727693006 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1727692993-badc91da3c1db10a8f0e86774ab36bcee58f8ed1
+pusher krzk@kernel.org 1727693022 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1727693008-18f03a639fc6ccf320256ffdfd4f6be92f98d65e
 
-39dbbd4e6778ac5580313ba34409855250633c61 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/pinctrl-next
+8400291e289ee6b2bf9779ff1c83a291501f017b 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gM4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+VfD/9w/GkbwlJoOqwFEJJZtfrq+/Y80QUhhsQI
-pn+Wcc7Vj/7MjboRGi7d8l2ZgxbDH8qBpTu2L9R/G1xzjyKmnxAOVHxCrCXyaHOc
-/hX7sAMvpuadjbLp5yyMWjzYH5iatYy3IwAeoImmCnUF2YtnKyDbLEJczeQdMJ8j
-9AoXewgcd9/eirORQR3Y+GdJkHQ5VWMxgS7wBA0CyOUMRvnygL9HqyOxd/Cthp/M
-g+5oip6luPs2fqsV+kQiNRiFNCL9OSVE1USw7hYRoPd63vUi+kGOhZBxgb8rIycC
-C+n1288A5IMHSD38ebW8ACQ442lBvKitgCPo++1YKe5UNsIuoKr7BtrIvyZhdkHh
-RvDF/Uw6u3d5ix7T7QwdEGRPJzURMTkjeNbnYhGq9KwxVWENAGlqXr6TRYFZo14d
-6zgRmvcJwnA+ZWPMt2nkCu6ftIjCnZSld7w3ILJA9AXH8NvoQiJr1ODW5PYYJE21
-mOpq79eWX5gmURTZsMzEfDvf+143farCUVksCwSXD4pshy4LEJMAblAdVsLyjWcY
-6IxUsISjgYPOuoURKKAFOqXTYYUE9xr0YGL8BRhcy0zHF8mVkgGT2fbtRmosNO8R
-zqyBf4g9l+6tqNJqOa6s1GgzkpqXzn44Rrd1eHi7TbOTpLKIWS50yJ7Hhx1xhpWU
-0be7nhT9ug==
-=RptH
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmb6gN4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD198yD/sFq92QC7tX3qfqNRaiLeUuNFlks6rBtzOo
+Qbp0OcNtJj0LcGDmjvrEXP5pyItZn3prwIRZbV9KUCuz4uiowrb6KeflLnMYkXLY
+uULT2eDVxyL1j+lABR0X85C/zvAry7hzluyv1LrsbMwWFPq6BPJos2fX7TCVp7ra
+SrNhbiSk4khNX+5sR7ftzLS2vMMtWoDLVwfGFqkKsERLih6vM98KoA+AJNx44s7C
+0Bfyyu0ofX1vzSEC3b9+6y7nfxJSTBC/sYzlRQzIyprnRHRyW/e+O3d64Z9ncDVL
+brlh6PYnE3AD49sUilKMhrW2PZJmBX8n7C2FKJqkdAUjHKMff4m1cH8KEEnwCdlW
+OfgcChUNsoOSVVs/X2NO4XxvOAAeXtezfXPiaKOj+XIUG+Yek3CMyjojeCR1Y0id
+KnGOgfmA3Po9HxqFiZngcWBrvCFsWr6jD33aPbJsCcAwExCIFa1m6YWfX1er7x7d
+0T5h7Jr3mStj8gQ+wwUzWvXgy/6GD5j8GhXe1pL8ALir0q8F2YqNixN+Kux6gs+Y
+B8Tb3EUGRGblotyIc3AhgEq/MTBL1OWJYgApnABtaBEPWVSPBchhVNT75gZd2tBO
+g91JrKZNOBjnU0lDC+ccg0903NuH1dcOdSq1AuKr9cUrrFhmO4w2lb2BCfYuLBnT
+vOqnlM/W/w==
+=loH/
 -----END PGP SIGNATURE-----
 
---===============0510286598930727265==
+--===============7900314312930242226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39dbbd4e6778-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1082,4 +1082,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============0510286598930727265==--
+--===============7900314312930242226==--
