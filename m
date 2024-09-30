@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4153215354250543422=="
+Content-Type: multipart/mixed; boundary="===============6751791792562011301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 30 Sep 2024 13:27:57 -0000
-Message-Id: <172770287719.1115325.15199438608680651657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Mon, 30 Sep 2024 13:28:03 -0000
+Message-Id: <172770288361.1115542.8222938217170555378@gitolite.kernel.org>
 
---===============4153215354250543422==
+--===============6751791792562011301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/master
-    old: f3faa03b1df0ceadd96a121b2b72e7c0fd78fc20
-    new: 8939d6f4f46b2a7fc1991a8dfd99f6315d1ff3ab
-    log: revlist-f3faa03b1df0-8939d6f4f46b.txt
-  - ref: refs/tags/renesas-devel-2024-09-30-v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 7de37e4a7c5c35afd4aea0b544f7cfd1400649f8
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
+  - ref: refs/heads/counter-next
+    old: 0d0f611bdf8e1d06df7ecb44b424a6fb093e2efc
+    new: a3911e087d6237f5225bb41bb7d5052c33a794b1
+    log: revlist-0d0f611bdf8e-a3911e087d62.txt
 
---===============4153215354250543422==
+--===============6751791792562011301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3faa03b1df0-8939d6f4f46b.txt
+Content-Disposition: attachment; filename=revlist-0d0f611bdf8e-a3911e087d62.txt
 
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
@@ -1055,6 +1049,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-8939d6f4f46b2a7fc1991a8dfd99f6315d1ff3ab Merge tag 'v6.12-rc1' into renesas-devel
+a3911e087d6237f5225bb41bb7d5052c33a794b1 counter: ftm-quaddec: Enable module autoloading
 
---===============4153215354250543422==--
+--===============6751791792562011301==--
