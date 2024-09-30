@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6759456501753983065=="
+Content-Type: multipart/mixed; boundary="===============5149209908971184972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 30 Sep 2024 10:04:19 -0000
-Message-Id: <172769065903.837782.14781989373049108374@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 10:04:44 -0000
+Message-Id: <172769068402.838069.16237637893447605988@gitolite.kernel.org>
 
---===============6759456501753983065==
+--===============5149209908971184972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 4e23b83c1ea794eaaf3a23de6f84c2cd5f7a5da5
-    new: 31823167776d04c56f6ab340e43bcceafc6b63b4
-    log: revlist-4e23b83c1ea7-31823167776d.txt
+  - ref: refs/heads/for-next/ffa/fixes
+    old: b408bea3421a26050ef9068aedd4bdb753f25303
+    new: fc55df3e9c651f0eecf82c0f25f46bba92e59a0f
+    log: revlist-b408bea3421a-fc55df3e9c65.txt
 
---===============6759456501753983065==
+--===============5149209908971184972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e23b83c1ea7-31823167776d.txt
+Content-Disposition: attachment; filename=revlist-b408bea3421a-fc55df3e9c65.txt
 
+6673f43370a79e40f14b035f9eceaa89faf2eaf8 staging: rtl8192e: Fix parenthesis alignment
 1a88217a19df1e090ad70df08f4fb373ceb61b41 staging: rtl8192e: Fix blank line
 b5a71dce6358a26441526ea313e6c8d3f35bb54e dt-bindings: usb: qcom,dwc3: Document X1E80100 MP controller
 3cc92765a58f82d6ae512d8035d99095bfa7164a usb: ehci-exynos: Simplify with scoped for each OF child loop
@@ -1048,7 +1049,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-a981eeaf35a79bcb44b63984c6e46cb71e66c69a dt-bindings: sram: Document reg-io-width property
-31823167776d04c56f6ab340e43bcceafc6b63b4 firmware: arm_scmi: Support 'reg-io-width' property for shared memory
+fc55df3e9c651f0eecf82c0f25f46bba92e59a0f firmware: arm_ffa: Avoid string-fortify warningn in export_uuid()
 
---===============6759456501753983065==--
+--===============5149209908971184972==--
