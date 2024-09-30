@@ -1,32 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============8857478928012359158=="
+Content-Type: multipart/mixed; boundary="===============4153215354250543422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 30 Sep 2024 13:27:30 -0000
-Message-Id: <172770285077.1114930.7406214324141831998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 30 Sep 2024 13:27:57 -0000
+Message-Id: <172770287719.1115325.15199438608680651657@gitolite.kernel.org>
 
---===============8857478928012359158==
+--===============4153215354250543422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/counter-fixes
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-8400291e289e-9852d85ec9d4.txt
+  - ref: refs/heads/master
+    old: f3faa03b1df0ceadd96a121b2b72e7c0fd78fc20
+    new: 8939d6f4f46b2a7fc1991a8dfd99f6315d1ff3ab
+    log: revlist-f3faa03b1df0-8939d6f4f46b.txt
+  - ref: refs/tags/renesas-devel-2024-09-30-v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7de37e4a7c5c35afd4aea0b544f7cfd1400649f8
+  - ref: refs/tags/v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
 
---===============8857478928012359158==
+--===============4153215354250543422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-f3faa03b1df0-8939d6f4f46b.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
@@ -1050,5 +1055,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+8939d6f4f46b2a7fc1991a8dfd99f6315d1ff3ab Merge tag 'v6.12-rc1' into renesas-devel
 
---===============8857478928012359158==--
+--===============4153215354250543422==--
