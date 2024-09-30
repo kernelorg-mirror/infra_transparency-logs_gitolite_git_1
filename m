@@ -1,50 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============6918669517338252841=="
+Content-Type: multipart/mixed; boundary="===============6269983757181810843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 30 Sep 2024 20:36:49 -0000
-Message-Id: <172772860925.1705930.2666226127144827893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 30 Sep 2024 20:37:04 -0000
+Message-Id: <172772862419.1706204.712428740197349578@gitolite.kernel.org>
 
---===============6918669517338252841==
+--===============6269983757181810843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 10a650193899c3b013df5b1bdb4dc827606f826e
-    new: e2fb1465f1828684da6886f5b640a28087f26c68
-    log: |
-         70114e7f7585ef078c2b7033ee14218f95f55e22 irqdomain: Simplify simple and legacy domain creation
-         1bf2c92829274e7c815d06d7b3196a967ff70917 irqdomain: Cleanup domain name allocation
-         1e7c05292531e5b6bebe409cd531ed4ec0b2ff56 irqdomain: Allow giving name suffix for domain
-         dde286ee57704226b500cb9eb59547fec07aad3d regmap: Allow setting IRQ domain name suffix
-         c69bb91c47e840c96ec4e72e7ebd982dd518441e regmap IRQ support for devices with multiple IRQs
-         fd4ebc07b4dff7e1abedf1b7fd477bc04b69ae55 regmap: Hold the regmap lock when allocating and freeing the cache
-         290d6e5d6498703accffc66849b7fb2d4d7503ff regmap: Use locking during kunit tests
-         ae0acef3822ed8908e83cd24f337891e6be64eba regcache: use map->alloc_flags also for allocating cache
-         c7edb7ac8472a57e0c56a3a95796db3af98b2383 regmap: kunit: Add coverage of spinlocked regmaps
-         e2fb1465f1828684da6886f5b640a28087f26c68 Merge remote-tracking branch 'regmap/for-6.11' into regmap-linus
-         
+    old: 1a5caec7f80ca2e659c03f45378ee26915f4eda2
+    new: 72acc521f89494141c87e98919d1438ccd4cf261
+    log: revlist-1a5caec7f80c-72acc521f894.txt
   - ref: refs/heads/for-next
-    old: 7da49f45bf04d15ea04564fb513846831db3173a
-    new: 14cb88ad5b3ed6f13744f3c3a0deaf6e060d2628
-    log: revlist-7da49f45bf04-14cb88ad5b3e.txt
+    old: 88df17649d5a57199e0c03e77dab83022790038f
+    new: a7f29d6fa741f914635000c6fc5f402005561095
+    log: revlist-88df17649d5a-a7f29d6fa741.txt
 
---===============6918669517338252841==
+--===============6269983757181810843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7da49f45bf04-14cb88ad5b3e.txt
+Content-Disposition: attachment; filename=revlist-1a5caec7f80c-72acc521f894.txt
 
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
-9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
-89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+f0aaae1a5827c916f2d66e4392726c0c43d0479c regulator: bd96801: Delete unnecessary check in probe()
+291f854ecadeb275e5e586001963950341d85e7a regulator: wm831x-isink: Convert comma to semicolon
+3078425f63c5f526c8d2cb0b7ef9e0a3f50c9c39 regulator: rt5120: Convert comma to semicolon
+cd7d47c5762997a2b1de57a47cd48a1cdad38d96 regulator: max77857: Make max77857_id static
+b03695d95213121719f05cbf6f3baa1ad3667e7f regulator: Use of_property_read_bool()
+08b856b38c257bc23f208ef165816d7e710574e0 regulator: bd9576: Constify struct linear_range
+1b4ec561b47d806eb0752a73837c2248bf622c06 regulator: dt-bindings: mediatek,mt6397-regulator: convert to YAML
+861289835002b733aa8715442ba555b1daa84baa regulator: mcp16502: Add supplier for regulators
+bf5ba94fa0b90c9433167bf143780af6c8805479 regulator: dt-bindings: microchip,mcp16502: Add voltage input supply documentation
+b31274caf3993839e2eb266fe85ff5bcfd31292b Add input voltage suppliers for PMIC MCP16502
+83c7cdeef5b22a73336eb18a59c7b4d63ec26659 regulator: bd718x7: Use scoped device node handling to simplify error paths
+f372c262d4cfe31f0b67e8ae1a8ec9bf7c52d57b regulator: bd96801: Use scoped device node handling to simplify error paths
+ea13bd391d1b8f62ae2347bde7a174059d7f3f0d regulator: max8997: Use scoped device node handling to simplify error paths
+34a3f95941e0dfee750f2fd28faed4c8cd7ee42c regulator: s5m8767: Use scoped device node handling to simplify error paths
+17636d443fbe376d5192a7ce6a444aa45ce45541 regulator: qcom-rpmh: Simplify with scoped for each OF child loop
+d4cd75b8eff72d65dab63668d5d883d72dda0426 regulator: qcom-smd: Simplify with scoped for each OF child loop
+99cf5db9cdd39136fd5dbd10bda833aa0f870452 regulator: scmi: Simplify with scoped for each OF child loop
+d275e9918cc01d27ab511e5dbf2aafc1e782628e regulator: dt-bindings: qcom,qca6390-pmu: fix the description for bt-enable-gpios
+2416d2f87be431d98b2b05137fcd1f4da9a83894 regulator: dt-bindings: qcom,qca6390-pmu: document WCN6855
+39b8cb4e1b51191dd0da03b77fbd8b2a2e3e7645 regulator: dt-bindings: qcom,qca6390-pmu: document the swctrl-gpios property
+5a38089fe4438a587291ccf932178ed8cdbdde28 regulator: Use scoped device node handling to simplify
+ad9d7a82901d9cea756b8666035b30ca41728e15 regulator: Clarify error message for "id == NULL" in _regulator_get()
+395a41a1d3e377462f3eea8a205ee72be8885ff6 regulator: Return actual error in of_regulator_bulk_get_all()
+bfefa214d179f13d01cf1b64a7efbabf586b0c49 regulator: Fully clean up on error in of_regulator_bulk_get_all()
+b8195520e8b486a0922b4baf511a2fd19bbfc25f regulator: s2mps11: use scoped memory allocation to simplify probe
+bff5ca83791801b33c1e973e81d077ddc7530e33 regulator: Minor cleanups
+7540bd3398675e54cbd7324c47be8cd3c7a6d9c5 regulator: qcom_spmi: Drop unnecessary of_find_property() call
+dd72a3b8a6007b44ed3b85e1d606afc434879e70 regulator: qcom_spmi: Use of_property_read_bool()
+caa08dd8cdb8e58bf810e986cd6f9081ad056018 regulator: core: Fix short description for _regulator_check_status_enabled()
+753b9d86adb9d2c5882ac8ee0c3816aa48697eaa regulator: core: Fix regulator_is_supported_voltage() kerneldoc return value
+f746af13dd115ae3e0ec9d762baa170184401d41 regulator: core: Fix incorrectly formatted kerneldoc "Return" sections
+4ac204ff2d4ec360d9d2e39840ad286ddb78439f regulator: core: Add missing kerneldoc "Return" sections
+dac41d59f2de25b8d3f5350c8cbfe39187d214da regulator: of: Fix incorrectly formatted kerneldoc "Return" sections
+5f93c59e607e6f28eef2ed7ddd5a2f89abc943a5 regulator: fixed: Fix incorrectly formatted kerneldoc "Return" section
+4ddb16cf5390fc8546409aab3c69ffe6651b3c6b regulator: fixed-helper: Add missing "Return" kerneldoc section
+77904c81703b7a4a929abafb837d06b49de087e6 regulator: irq_helpers: Fix regulator_irq_map_event_simple() kerneldoc
+6eace77a6048c9b0b50950e88ef987d4519a53c1 regulator: of: Fix kerneldoc format for of_regulator_bulk_get_all()
+98ce82a52886edd5197e903cb2b56f21bf3b0781 regulator: Unify "negative error number" terminology in comments
+b8c3255457147162cd713a319a8e2274335449b9 regulator: Move OF-specific regulator lookup code to of_regulator.c
+401d078eaf2edd605c9121741e166d9326c63677 regulator: of: Refactor of_get_*regulator() to decrease indentation
+b4c21faf69b8eec1016c776be4777f39f194e3b0 dt-bindings: mfd: x-powers,axp152: add boost regulator
+bb2ac59f8205165fce5aee9135bd1e2ea9b1a74b mfd: axp20x: AXP717: Add support for boost regulator
+22dfe2ea1d63f15d8b9661e7690ac0a03159db6a regulator: axp20x: AXP717: Add boost regulator
+8651db0fcb60b2376f5be7934ecf68b19cb81124 regulator: Add AXP717 boost support
+97e63bc35f4c086ab7ad3894c9693e18e79162d9 regulator: mp5416: Constify struct regulator_desc
+0c0966b5019f97e2af0ab802c1453162748b1166 regulator: da9211: Constify struct regulator_desc
+48cc042bd68e0225f1e6b137452e3d867e7c0942 regulator: wm8400: Constify struct regulator_desc
+63a68ee1c27f5d1a17b78a2c937b86b0fb1fd99a regulator: tps6287x: Constify struct regulator_desc
+886fee35251107e169128723215b1f779a668be5 regulator: Fix typos in the comment
+9653007e7d878609be205ced4803ca57be341845 regulator: da9052: Constify static data
+dfa9e708c63e7833c61f551069d3ff4b03af7895 regulator: da9055: Constify static data
+0601c1e5c4a1162c909675233645889237b003a2 regulator: da9063: Constify static data
+b3f1e8e32ef579907fe0c0c9c102bb13883454d6 regulator: da9121: Constify static data
+b94afa51cad448d7d9bcb600ce267153132369ad regulator: hi6421: Constify static data
+5ec424afc95ab2490ae28b3e7756e6e9b271a5f0 regulator: hi6421v600: Constify static data
+7fb636dc26d6fc532fbc96fc74847afedc128154 regulator: tps65023: Constify static data
+653976707d03f9c8e07f1c7733f27c89a1d5eb1c regulator: max77826: Drop unused 'rdesc' in 'struct max77826_regulator_info'
+96d7ee7cb01203ae0b6078631738754424d89cf8 regulator: max77826: Constify static data
+90b94a05b6cd54b6ae65d09df86d7b602a228ae1 regulator: mtk-dvfsrc: Constify static data
+7f1bfca46b1524a774d03eccd8042935c453843a regulator: pcap: Constify static data
+6f4fd2b8a5c08656d293ed491335747ff3d34104 regulator: pfuze100: Constify static data
+7eb5d065ec6725d7da9a4f7ba71b6ff4aaf7eb42 regulator: qcom-refgen: Constify static data
+e9c7ff34c26d009c2f7c3d51236ed5a808dbc0d7 regulator: hi6421v530: Drop unused 'eco_microamp'
+7dd36b3287182bc889953f7741bdcef037109210 regulator: hi6421v530: Use container_of and constify static data
+c4d6a804713ac080841d1711a98ae1a6ecaede38 regulator: max77650: Use container_of and constify static data
+5faf6daf659a83bd036190172eb17b1f9b3a0b01 regulator: Few constifications of static data
+a1d12410d9b1ecff87d39f80b0d1cec895012ffa regulator: core: fix the broken behavior of regulator_dev_lookup()
+ff97b9c0df585d14c4c6b9c4cdcbeba43f7b885a regulator: max8973: Use irq_get_trigger_type() helper
+fb9ce84a01582c9d67dc51d5330136ea684172ef regulator: update some comments ([gs]et_voltage_vsel vs [gs]et_voltage_sel)
+2a1de5678944147c2a41b6006127d2d0b618e83b regulator: Split up _regulator_get()
+4591a2271f2e4c320eaa63c348169e4e6e6f2852 regulator: sm5703: Remove because it is unused and fails to build
+72acc521f89494141c87e98919d1438ccd4cf261 Merge remote-tracking branch 'regulator/for-6.11' into regulator-linus
+
+--===============6269983757181810843==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-88df17649d5a-a7f29d6fa741.txt
+
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
 bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
 25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
@@ -1063,7 +1127,11 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-e2fb1465f1828684da6886f5b640a28087f26c68 Merge remote-tracking branch 'regmap/for-6.11' into regmap-linus
-14cb88ad5b3ed6f13744f3c3a0deaf6e060d2628 Merge branch 'regmap-linus' into regmap-next
+f4e06afb0b47eb8ef6aa42eb8df2adb73b397bf7 regulator: isl6271a: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+7368e9f4e25bea507895bf194bd1c72d693840b2 regulator: Call of_node_put() only once in rzg2l_usb_vbus_regulator_probe()
+18be43aca2c0ec475037923a8086d0a29fcc9d16 regulator: qcom-smd: make smd_vreg_rpm static
+72acc521f89494141c87e98919d1438ccd4cf261 Merge remote-tracking branch 'regulator/for-6.11' into regulator-linus
+2a7ec5d944d81b4e4024b8eb94f6278c16418567 Merge branch 'regulator-linus' into regulator-next
+a7f29d6fa741f914635000c6fc5f402005561095 Merge remote-tracking branch 'regulator/for-6.13' into regulator-next
 
---===============6918669517338252841==--
+--===============6269983757181810843==--
