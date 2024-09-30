@@ -1,65 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3595128914651561602=="
+Content-Type: multipart/mixed; boundary="===============2619047608909858690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 30 Sep 2024 11:14:31 -0000
-Message-Id: <172769487127.917909.7377331410218328906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 30 Sep 2024 11:14:42 -0000
+Message-Id: <172769488214.918171.17157050838987164104@gitolite.kernel.org>
 
---===============3595128914651561602==
+--===============2619047608909858690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 837acb691c844d0525f4ac86f2a2ce55a9706908
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-837acb691c84-9852d85ec9d4.txt
+  - ref: refs/heads/vfs.misc
+    old: 2077006d4725c82c6e9612cec3a6c140921b067f
+    new: 1f08af4bef47c37354c13fedb192894bd5922a89
+    log: revlist-2077006d4725-1f08af4bef47.txt
 
---===============3595128914651561602==
+--===============2619047608909858690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2077006d4725-1f08af4bef47.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1727694879 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1727694865-967d5e293cd4dc8d57700f4635c001e7c641da78
-
-837acb691c844d0525f4ac86f2a2ce55a9706908 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZvqIJgAKCRBZrE9hU+XO
-MX7zAQDmLIQf+F1vY6GVxFx7uzBU/UVatfQ1TUAbUMyde2sX/wD/R4f37s3hse+T
-ULhGKL7l4MAeJGMmAZ/R9ptshAIzWQQ=
-=9eto
------END PGP SIGNATURE-----
-
---===============3595128914651561602==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-837acb691c84-9852d85ec9d4.txt
-
-25e68c37caf2b87c7dbcd99c54ec3102db7e4296 smb: client: Use min() macro
-6795dab403924e98ea32f23254d1fe5749e78a74 cifs: Remove obsoleted declaration for cifs_dir_open
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
-9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
-89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
-cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
-bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
-25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
-2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
-21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
 3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
 5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
@@ -113,6 +79,7 @@ d7333f9d33772ba93f0144b1e3969866f80fdb9a dmaengine: cirrus: use snprintf() to ca
 26bb0d3f38a764b743a3ad5c8b6e5b5044d7ceb4 Merge tag 'for-6.12/block-20240913' of git://git.kernel.dk/linux
 adfc3ded5c33d67e822525f95404ef0becb099b8 Merge tag 'for-6.12/io_uring-discard-20240913' of git://git.kernel.dk/linux
 e03ad65cea610b24c6991aebf432d5c6824cd002 Merge tag 'i2c-host-fixes-6.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+df40a23cc34c200cfde559eda7ca540f3ae7bd9e platform/x86: x86-android-tablets: Adjust Xiaomi Pad 2 bottom bezel touch buttons LED
 a550d6ae4d73dc4b9f1a2b3ad3d8d9e355b396be pwm: lp3943: Fix an incorrect type in lp3943_pwm_parse_dt()
 4c82005f17ec40863ee9bd5c82efcee1edd5282c Merge tag 'ib-mfd-gpio-pwm-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 59921a7397074e90030659bbb74aad372effdeee pwm: adp5585: Set OSC_EN bit to 1 when PWM state is enabled
@@ -229,8 +196,11 @@ b8979c6b4d0d1b36e94f5bc483fd86e38107e554 Merge tag 'soc-drivers-6.12' of git://g
 d2d6422f8bd17c6bb205133e290625a564194496 x86: Allow to enable PREEMPT_RT.
 d8fccd9ca5f905533dc6c26cfd1f91beb8691c95 arm64: Allow to enable PREEMPT_RT.
 2638e4e6b18233d7ec54edb953f253ae9515bac2 riscv: Allow to enable PREEMPT_RT.
+318580ad7f2828f6269e0b8819e943ddedda3375 hugetlbfs: support tracepoint
+014ad7c42a69d41aa670df96e41e8796d8645d37 hugetlbfs: use tracepoints in hugetlbfs functions.
 a940d9a43e623d1ba1e5c499aa843516656c0ae4 Merge tag 'soc-arm-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 5ba202a7c986fc58dd2fd1571c99667ab2699995 Merge tag 'x86-build-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+837acb691c844d0525f4ac86f2a2ce55a9706908 MAINTAINERS: adjust file entry in INTEL MID PLATFORM
 0279aa780df4362f218b5645c07e5265859937f6 Merge tag 'x86-cleanups-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 61d1ea914b3556c44f9ca04277ab990a60afb44d Merge tag 'x86-apic-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dea435d397ab90d8e682e4162a5b9835d24b1e3a Merge tag 'x86-core-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1071,5 +1041,14 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+3beaf941822abb967d4056d1cc7dbbb2162d192d Merge patch series "Fixup NLM and kNFSD file lock callbacks"
+b0e4991f950736940f79cde87f8463a0556a0159 Merge patch series "Introduce tracepoint for hugetlbfs"
+fad760b6e0410a0913c5712d6f78d4d9c3ab76dc filemap: filemap_read() should check that the offset is positive or zero
+b0ab04a8ffd829c096a207327707f08bba462063 acl: Annotate struct posix_acl with __counted_by()
+953a8ecfb286e96558dfc96abf9768e823c2a8c6 fs: support relative paths with FSCONFIG_SET_STRING
+a7f9ce1a32aaabe834645ac747517ff45ed4bbab vfs: Fix implicit conversion problem when testing overflow case
+53248c857899ea7e087f86cde22c0ca98c0b6713 epoll: annotate racy check
+847d7513139c909a2115e89354c494f9226d79de vfs: return -EOVERFLOW in generic_remap_checks() when overflow check fails
+1f08af4bef47c37354c13fedb192894bd5922a89 vfs: Add a sysctl for automated deletion of dentry
 
---===============3595128914651561602==--
+--===============2619047608909858690==--
