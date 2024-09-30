@@ -1,27 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 30 Sep 2024 22:28:35 -0000
-Message-Id: <172773531577.1798364.1692623060138392357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 30 Sep 2024 22:28:48 -0000
+Message-Id: <172773532825.1798663.10674059572872974865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: b38c49d8296b9eee1ffb6471853d542fd76de2fb
-    new: 80f192724e314ba860206e51bc1e3bc1ac7f58dd
+  - ref: refs/heads/for-linus
+    old: 72acc521f89494141c87e98919d1438ccd4cf261
+    new: fdeb154f578e7283a00f1ec062dea4d610014971
     log: |
-         9865f0a209fe78c7d924e10261c08fa7774e3e55 perf test: Use ARRAY_SIZE for array length
-         f0cb9fa7a567d613eb23dd486ca89f8820f778bf perf vender events arm64: Use "Topdown" as topdown metric group name
-         4d1b305dc8d74114abd544b0c11397ceb9ded528 perf evsel: Reduce a variables scope
-         39820ced2aa1fb2453294909651dfc7dd6e6e028 perf x86/topdown: Complete topdown slots/metrics events check
-         1e53e9d1787babb1544eaec7c7fdcb78a4a20a13 perf x86/topdown: Correct leader selection with sample_read enabled
-         3b5edc0421e2598a0ae7f0adcd592017f37e3cdf perf x86/topdown: Don't move topdown metric events in group
-         387892723ad4044ff139ad7433e4dd24f7cfe303 perf tests: Add leader sampling test in record tests
-         0836aa60083a478cbc788f19fd2f389574a921bf perf tests: Add topdown events counting and sampling tests
-         80f192724e314ba860206e51bc1e3bc1ac7f58dd perf tests: Add more topdown events regroup tests
+         fdeb154f578e7283a00f1ec062dea4d610014971 Merge remote-tracking branch 'regulator/for-6.11' into regulator-linus
+         
+  - ref: refs/heads/for-next
+    old: a7f29d6fa741f914635000c6fc5f402005561095
+    new: c74e58fd25e137997c789314bcdf805e05d57814
+    log: |
+         5441b6975adc26aeaca316b9075e04a98238b1b3 regulator: Add of_regulator_get_optional() for pure DT regulator lookup
+         36ec3f437227470568e5f460997f367f5446a34d regulator: Add devres version of of_regulator_get_optional()
+         dc16594d9967773ca891b3d9111f152e3c99d1cf Add of_regulator_get_optional() and Fix MTK Power
+         fdeb154f578e7283a00f1ec062dea4d610014971 Merge remote-tracking branch 'regulator/for-6.11' into regulator-linus
+         49d20e3474ab3b3ce2f9ba1d2560f4e7018dc8d9 Merge branch 'regulator-linus' into regulator-next
+         c74e58fd25e137997c789314bcdf805e05d57814 Merge remote-tracking branch 'regulator/for-6.13' into regulator-next
          
