@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8583668362087557015=="
+Content-Type: multipart/mixed; boundary="===============8901217038898069962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 30 Sep 2024 13:28:28 -0000
-Message-Id: <172770290810.1115773.1016204025673855142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 30 Sep 2024 13:29:56 -0000
+Message-Id: <172770299685.1117155.1752897813717818731@gitolite.kernel.org>
 
---===============8583668362087557015==
+--===============8901217038898069962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/next
-    old: 5379c9e0a6ad7d4690e7f496c48c0d44ebb30dd9
+  - ref: refs/heads/review-hans
+    old: 837acb691c844d0525f4ac86f2a2ce55a9706908
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-5379c9e0a6ad-9852d85ec9d4.txt
+    log: revlist-837acb691c84-9852d85ec9d4.txt
 
---===============8583668362087557015==
+--===============8901217038898069962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5379c9e0a6ad-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-837acb691c84-9852d85ec9d4.txt
 
+25e68c37caf2b87c7dbcd99c54ec3102db7e4296 smb: client: Use min() macro
+6795dab403924e98ea32f23254d1fe5749e78a74 cifs: Remove obsoleted declaration for cifs_dir_open
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
@@ -90,7 +92,6 @@ d7333f9d33772ba93f0144b1e3969866f80fdb9a dmaengine: cirrus: use snprintf() to ca
 26bb0d3f38a764b743a3ad5c8b6e5b5044d7ceb4 Merge tag 'for-6.12/block-20240913' of git://git.kernel.dk/linux
 adfc3ded5c33d67e822525f95404ef0becb099b8 Merge tag 'for-6.12/io_uring-discard-20240913' of git://git.kernel.dk/linux
 e03ad65cea610b24c6991aebf432d5c6824cd002 Merge tag 'i2c-host-fixes-6.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-df40a23cc34c200cfde559eda7ca540f3ae7bd9e platform/x86: x86-android-tablets: Adjust Xiaomi Pad 2 bottom bezel touch buttons LED
 a550d6ae4d73dc4b9f1a2b3ad3d8d9e355b396be pwm: lp3943: Fix an incorrect type in lp3943_pwm_parse_dt()
 4c82005f17ec40863ee9bd5c82efcee1edd5282c Merge tag 'ib-mfd-gpio-pwm-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 59921a7397074e90030659bbb74aad372effdeee pwm: adp5585: Set OSC_EN bit to 1 when PWM state is enabled
@@ -209,7 +210,6 @@ d8fccd9ca5f905533dc6c26cfd1f91beb8691c95 arm64: Allow to enable PREEMPT_RT.
 2638e4e6b18233d7ec54edb953f253ae9515bac2 riscv: Allow to enable PREEMPT_RT.
 a940d9a43e623d1ba1e5c499aa843516656c0ae4 Merge tag 'soc-arm-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 5ba202a7c986fc58dd2fd1571c99667ab2699995 Merge tag 'x86-build-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-837acb691c844d0525f4ac86f2a2ce55a9706908 MAINTAINERS: adjust file entry in INTEL MID PLATFORM
 0279aa780df4362f218b5645c07e5265859937f6 Merge tag 'x86-cleanups-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 61d1ea914b3556c44f9ca04277ab990a60afb44d Merge tag 'x86-apic-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dea435d397ab90d8e682e4162a5b9835d24b1e3a Merge tag 'x86-core-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============8583668362087557015==--
+--===============8901217038898069962==--
