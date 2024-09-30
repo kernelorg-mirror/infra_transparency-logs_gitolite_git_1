@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7644903851771596120=="
+Content-Type: multipart/mixed; boundary="===============7622699675606268205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 30 Sep 2024 23:50:36 -0000
-Message-Id: <172774023662.1865138.13385184689147051527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 30 Sep 2024 23:51:02 -0000
+Message-Id: <172774026227.1865464.5209566955454564877@gitolite.kernel.org>
 
---===============7644903851771596120==
+--===============7622699675606268205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.13
+  - ref: refs/heads/for-next
     old: 625de1881b5aee6a42a3130004e47dbd632429f8
     new: 356749a2b22b92789016ef29dec3e6b3581fe37e
     log: revlist-625de1881b5a-356749a2b22b.txt
 
---===============7644903851771596120==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1727740247 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1727740234-0e8fa17375dcc7c419588ae8d2b57975a725966b
-
-625de1881b5aee6a42a3130004e47dbd632429f8 356749a2b22b92789016ef29dec3e6b3581fe37e refs/heads/spi-6.13
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb7OVcTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JYYB/9PRUlF8CLm0zdyJ5XR/A9ajo/Vnuvh
-6g30InbLphWsH8L9ClirqMtLoFIAiWvNJzkSWsPSXgChrkU0fIzDwWPgpGaHnZLp
-1LKFMaFU81ZKcMCG4A6LMLfmP54pbka6UsJk+8uxG7D7/rjad3xcgTsrI7fyrZp6
-2EdgxiAXG8DQ+9ZdlK2/Co3caEiEPE9sgLPxQIB2IyGGf/y6fXXdbSb4eVg36X4L
-B0FsBix+oPhTlFu2oKGutftFN3vCGcD8Cx/CEiN+jL90RNJXSfFx21gqOCMUkA3n
-4wF5FlIMvy2irmYpmm4iC9hq0G3aByDgh0HrfPJY3ROq8yk6Uwja2nyB
-=VL24
------END PGP SIGNATURE-----
-
---===============7644903851771596120==
+--===============7622699675606268205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +47,4 @@ b45938ed3691e0c9ccf3fac16bdbb14a52c3c597 spi: spi_amd: Performance Optimization 
 9e3dfbcf70c90f374dc66f54f978853dbb93efa8 spi: replace and remove
 356749a2b22b92789016ef29dec3e6b3581fe37e Improve error handling in Rockchip SPI drivers
 
---===============7644903851771596120==--
+--===============7622699675606268205==--
