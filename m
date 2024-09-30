@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4410340659484735532=="
+Content-Type: multipart/mixed; boundary="===============3735145656580952409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 30 Sep 2024 08:55:49 -0000
-Message-Id: <172768654947.738329.4905471668416798963@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 09:01:10 -0000
+Message-Id: <172768687007.742562.8157748295416094284@gitolite.kernel.org>
 
---===============4410340659484735532==
+--===============3735145656580952409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 2d099b5c473b59cfcedd311aa5672353c4e9b5cf
-    new: d6bf6983b3949baab4b791b80a2aa0a077b00ced
-    log: revlist-2d099b5c473b-d6bf6983b394.txt
+  - ref: refs/heads/testing
+    old: 4057951fb272efda718dca665f6607c348d5785b
+    new: 19332fe4bd4659b2e3988f17b4d5dc59a86c266d
+    log: revlist-4057951fb272-19332fe4bd46.txt
 
---===============4410340659484735532==
-Content-Type: text/plain; charset="us-ascii"
+--===============3735145656580952409==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d099b5c473b-d6bf6983b394.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-4057951fb272-19332fe4bd46.txt
 
 6e30a7c98a9fda2f894e970e9cd637657f39c59d locking/atomic/x86: Introduce the read64_nonatomic macro to x86_32 with cx8
 dce2a224763ce968445e14c43b49321936309c75 locking/atomic/x86: Redeclare x86_32 arch_atomic64_{add,sub}() as void
@@ -413,14 +413,109 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-db9795a43dc944f048a37b65e06707f60f713e34 iio: accel: bma400: Fix uninitialized variable field_value in tap event handling.
-c7c44e57750c31de43906d97813273fdffcf7d02 iio: light: veml6030: fix IIO device retrieval from embedded device
-530688e39c644543b71bdd9cb45fdfb458a28eaa iio: light: opt3001: add missing full-scale range value
-9de32f48c5896e033b78a31da59a6594a805753f dt-bindings: iio: dac: adi,ad56xx: Fix duplicate compatible strings
-cd8247cd41bc983398f5eb572f660752adfe7a1a iio: bmi323: Drop CONFIG_PM guards around runtime functions
-506a1ac4c4464a61e4336e135841067dbc040aaa iio: bmi323: fix copy and paste bugs in suspend resume
-50161b2768d0f5381e095c04a3048fba9e19900e iio: bmi323: fix reversed if statement in bmi323_core_runtime_resume()
-c9e9746f275c45108f2b0633a4855d65d9ae0736 iio: light: veml6030: fix ALS sensor resolution
-d6bf6983b3949baab4b791b80a2aa0a077b00ced iio: pressure: sdp500: Add missing select CRC8
+c6ea08cdaa5868c3a8ec8d0f2d56359e1af3a5fa iio: imu: inv_icm42600: add inv_icm42600 id_table
+b90dcdd40fee338c2df627666ef013213dc49d4f iio: accel: adxl380: use irq_get_trigger_type()
+9f8d7583459fb5fd90900ac8774fb1af2f804b0d iio: accel: fxls8962af: use irq_get_trigger_type()
+57f91983c92a592fb7291c16990a4d3655ac25b4 iio: adc: ti-ads1015: use irq_get_trigger_type()
+d5ab4e9a10ae3c4eee42eca49f71f442a7a7d05e iio: common: st: use irq_get_trigger_type()
+8491eeff3588a969044c8635bcaa41ca447d5a80 iio: gyro: fxas21002c: use irq_get_trigger_type()
+8a231ae9b164e3925837b6ad39922c52734891fc iio: gyro: mpu3050: use irq_get_trigger_type()
+9b068d37bab1dbc6450644be67e4ff7b0e3bfa0d iio: humidity: hts221: use irq_get_trigger_type()
+bb0c6f4e4b341d4cfc62101a588f364de05fa1b8 iio: imu: bmi160: use irq_get_trigger_type()
+9c1125b4c4d6b144f910d1e93db05ebf37c83b5e iio: imu: bmi323: use irq_get_trigger_type()
+95bce3fcdbfaffb12c3203d08b9d44c8e12b527b iio: imu: inv_icm42600: use irq_get_trigger_type()
+dbd88a69d4eb17a45b0595f96e1c1dbb025134d7 iio: imu: inv_mpu6050: use irq_get_trigger_type()
+e200fa767f2301a5ee39bc6c17d576a18965f6df iio: imu: st_lsm6dsx: use irq_get_trigger_type()
+a9facbf521e7b02b2123ae141fc21ff273ebacf3 iio: light: st_uvis25: use irq_get_trigger_type()
+df2976072c697618d7b2230fc267a9145ae6f94a iio: magn: ak8974: use irq_get_trigger_type()
+3ad9e6396834b66e2b77222e6bea9e5fb08699d6 iio: pressure: bmp280: use irq_get_trigger_type()
+4f3333a658a05f7f9dd88d3ba194d665a4f4b19a iio: addac: ad74xxx: Constify struct iio_chan_spec​
+b71e9e129736ab5b97db927a0a05763434125291 iio: imu: fxos8700: Drop unused acpi.h
+9ebe06f15a696138060bc740629be6f6b1a21171 iio: proximity: sx_common: Unexport sx_common_get_raw_register_config()
+a1256a0b5bbdcbe9959964922340a1b370daa39c iio: proximity: sx_common: Drop unused acpi.h
+e4ca0e59c39442546866f3dd514a3a5956577daf types: Complement the aligned types with signed 64-bit one
+11b147cdec653126b078ff0e8f3f453a8afbd88a iio: imu: st_lsm6dsx: Use aligned data type for timestamp
+374c6deea7ffd05655ee9e48a5dfd284acb225b0 iio: hid-sensor: Use aligned data type for timestamp
+ef3aa5e937df4825fcf762e4f8035773875a3eea iio: accel: hid-sensor-accel-3d: Get platform data via dev_get_platdata()
+6c4b8282d085b9294b41c6ae19116b23fc704c88 iio: adc: ad7266: Get platform data via dev_get_platdata()
+4d9e79a422e115109844ee991e82dd68e48fe9ab iio: adc: ad7791: Get platform data via dev_get_platdata()
+d738ff00b63a265e154f7121795a139326b73a6c iio: adc: ad7887: Get platform data via dev_get_platdata()
+b144b6f7608a0aabe8c8249dd458a06a01dc0818 iio: adc: ad7793: Get platform data via dev_get_platdata()
+d29ac01249d958c4bc62c9738dd54596faf421fa iio: adc: ltc2497: Get platform data via dev_get_platdata()
+5d32e56c2737d495c30cd7404da83910a3921590 iio: dac: ad5504: Get platform data via dev_get_platdata()
+5f9acd2d80a11af06fda6f4efa150bb3d00b2471 iio: dac: ad5791: Get platform data via dev_get_platdata()
+62ba49346add5b2319eeca5fe9ab1606fa70d6e6 iio: dac: m62332: Get platform data via dev_get_platdata()
+3b6105e52bad737125e90d7d2975c8b56060e497 iio: dac: max517: Get platform data via dev_get_platdata()
+03bf27acc4d6392ebdc1aab40bfbec6308c54974 iio: frequency: ad9523: Get platform data via dev_get_platdata()
+602711d566c94c5209f6cef38dcfa0d5ee3f623a iio: frequency: adf4350: Get platform data via dev_get_platdata()
+80253ed8dbe5297a9b3abe35aa16a108bc046b6e iio: gyro: hid-sensor-gyro-3d: Get platform data via dev_get_platdata()
+57063b1d9e73239fa590f05113bf402648c94ad7 iio: imu: st_lsm6dsx: Get platform data via dev_get_platdata()
+a5b2f6548369de1c78db38da3e5f2992844bc63b iio: light: hid-sensor-als: Get platform data via dev_get_platdata()
+d72be90ac66ff1544ce3a830e1471aac2f6f7201 iio: light: hid-sensor-prox: Get platform data via dev_get_platdata()
+e2f4b3063bfcecc2162268fb80118947364939bc iio: light: lm3533-als: Get platform data via dev_get_platdata()
+c2a12a1a4093aded43ee3261d516c4fc7acce162 iio: magnetometer: hid-sensor-magn-3d: Get platform data via dev_get_platdata()
+b1b2cda4c04bf6a6639289132f179ecbcca5fb85 iio: orientation: hid-sensor-incl-3d: Get platform data via dev_get_platdata()
+a6cf377ad2f147283adc5928c3d9d2affe61346b iio: orientation: hid-sensor-rotation: Get platform data via dev_get_platdata()
+cc10cbd64b5bde599bd0ccce986b0a64cc35e20c iio: position: hid-sensor-custom-intel-hinge: Get platform data via dev_get_platdata()
+40a1127842e1a2f8dac4dffc0140a79e704140fe iio: pressure: hid-sensor-press: Get platform data via dev_get_platdata()
+ee113a9e3c92627aa5bd83698fd90475baea78ac iio: event_monitor: Fix missing free in main
+61809f186105bb56f8b8c6a8f706a7bc84def7fd iio: pressure: bmp280: Use bulk read for humidity calibration data
+1a8a87879e79bedc2074eb722784b1d162564e62 iio: pressure: bmp280: Add support for bmp280 soft reset
+7e1df2cab30399e60f3a71ba4f653b77f3f30c2a iio: pressure: bmp280: Remove config error check for IIR filter updates
+1d5623130fd438abd6225672b33de35cf9b468d7 iio: light: cm32181: Remove duplicate ACPI handle check
+482447fd6f20b9b04a36e0555f67d646be875392 iio: imu: inv_mpu6050: Use upper_16_bits()/lower_16_bits() helpers
+faf178607772f28006e403d7bab6c4217d4ee447 iio: adc: Constify struct iio_map
+51bedd7b98f95515a790a84198ed3c898124811f iio: adc: Convert to IIO_MAP()
+918e4c56bd1c28332947682aa1b0e990ed62b94f dt-bindings: adc: ad7173: add support for ad4113
+8a9687b30a29cb030bcde690d4a53a8a7bb691cb iio: adc: ad7173: order chipID by value
+819b69abb12aac65e26074d0fb0f058ef763aa05 iio: adc: ad7173: add support for ad4113
+91f75ccf9f032e17cde54f0c01eae2da4f067bc5 iio: temperature: tmp006: add triggered buffer support
+8b1e800b58fa1a243edbd647f85241b307be2563 dt-bindings: iio: temperature: tmp006: document interrupt
+242b6890f569f2d1faf34e428eaf110fdb6f6d60 dt-bindings: iio: imu: add bmi270 bindings
+3ea51548d6b255db201f37b2bca9a845e0120f5a iio: imu: Add i2c driver for bmi270 imu
+962b48d497421954f4a1a2665113cca58362bab8 iio: proximity: vl53l0x-i2c: Added sensor ID check
+762186c6e7b1dab5af1b8aa46fa0a3b1a9aaafde iio: proximity: vl53l0x-i2c: Added continuous mode support
+a4b7064d34186cf4970fe0333c3b27346cf8f819 iio: light: al3010: Fix an error handling path in al3010_probe()
+6831670f656c11ddbaf89ec08e42609d818e6299 iio: imu: kmx61: Drop most likely fake ACPI ID
+756ffac91cbd1bd8efc877e75fce0a8aa0339f09 dt-bindings: iio: light: veml6030: rename to add manufacturer
+b69f4745dbc44b99013abdf3f67bb5cd9fd39b86 iio: light: veml6030: make use of regmap_set_bits()
+e3a2d565d28f1ad902a03d82cd07426e157a35e4 dt-bindings: iio: dac: add docs for ad8460
+a976ef24c62540d6dd166a93e474684ae5463455 iio: dac: support the ad8460 Waveform DAC
+76729a03cc2ee855f3d1df4c7d581f058cd73471 dt-bindings: iio: adc: amlogic,meson-saradc: also allow meson8-saradc to have amlogic,hhi-sysctrl property
+300a90a6ba644cfcea75e5585e74a0e5fd46b94a iio: adc: ad7606: add 'bits' parameter to channels macros
+d2041446a716a0086436124e8f97bac980ba71bc iio: adc: ad7606: move 'val' pointer to ad7606_scan_direct()
+e571c1902116a376c96e59639820662d7d6a13da iio: adc: ad7606: move scale_setup as function pointer on chip-info
+bbd478f2cb0e3352c0af9078ea51643c0a497fa8 iio: adc: ad7606: wrap channel ranges & scales into struct
+94aab7a0f5c77f1ee9be87fab3524807d78cf560 iio: adc: ad7606: rework available attributes for SW channels
+ab38c083ff12ecfd3e8e30bd5c5ccb4f5b7019f8 dt-bindings: iio: adc: document diff-channels corner case for some ADCs
+0733e5148b2d2d4f9d52b75201cde23cce9b16ff dt-bindings: iio: adc: add docs for AD7606C-{16,18} parts
+cac03b9fb9b2936e06faf60450a00933bb498eba iio: adc: ad7606: add support for AD7606C-{16,18} parts
+ddf7328ac3cd25660c2ae50a19d75919bd516add staging: iio: Fix alignment warning
+018ce2545da5e1741668650a0364f4f848d60f62 iio: adc: max1363: Convert to get_unaligned_be16
+1f9288f9b2e81857bd6df9f4ab28df6ccbe42e9d iio: light: ltr390: Added configurable sampling frequency support
+42a7ffd0d5aefec9143825ce49f75447df3a5de6 iio: light: ltr390: Suspend and Resume support
+04d2b81680920fe411b1e597dbb60032baf9bda7 iio: light: ltr390: Interrupts and threshold event support
+79e973028563fc9724f79a46b345eb85443c889e iio: light: ltr390: Add interrupt persistance support
+1dcb969788764a0fccd64b75b090d372a7f57460 iio: light: ltr390: Replaced mask values with GENMASK()
+7d35e02d10df16fb1b9ef7108c953e8e733cc965 iio: adc: ti-ads1119: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+6755478a5e74cd8a2796e66291e61d003001dc95 iio: adc: qcom-pm8xxx-xoadc: use scoped device_for_each_child_node()
+e8acbd259aa6a604b99f349dc24ac49e49b7b000 iio: adc: qcom-spmi-vadc: use scoped device_for_each_child_node()
+8ae1fd1d69c236961fec054308e225d363f663bf iio: adc: sun20i-gpadc: use scoped device_for_each_child_node()
+ae713d9a27ab1d7dd28844d389ca9634397a22b5 iio: adc: ad5755: use scoped device_for_each_child_node()
+1b2ea8d92331186e71f13d96bb459dc818c830ed dt-bindings: iio: imu: mpu6050: Add iam20680ht/hp bindings to mpu6050
+479fb6327268274bb2727d0ffc999bde9f98f3db iio: imu: inv_mpu6050: add support for IAM-20680HT/HP
+dc45b0a5fff2d5563b62dc4916a074e9929e9489 dt-bindings: iio: imu: smi240: add Bosch smi240
+cb6cb2ff5a597c58af72e3b9f44d7d3c97cec72a iio: imu: smi240: add driver
+0027c15a3827c5eb379b1a2a3eac73a40f1f12bc iio: light: ltrf216a: Document device name for compatible
+fe311a796520388a7df8e55a43797e49578f0385 iio: adc: Fix typos in comments across various files
+79a6ab83bf98352eafdb99dc211816c942e26735 iio: adc: mt6360-adc: Converted to use get_unaligned_be16()
+63ec382f713fa5e539634f4f327a2cedec1a0d38 iio: dac: ad5770r: Convert to get_unaligned_le16
+6449f6899ee6364c37336acfda6c3f4a20836363 iio: light: veml6070: add action for i2c_unregister_device
+1244a7b022bf4cb1bd1a095fdccef4ee7a3dcfc6 iio: light: veml6070: use guard to handle mutex
+3a99fe733ad3b8661d231341f6f7629f4628ef88 iio: light: veml6070: use device managed iio_device_register
+f944263ccf1d55cd6be5fc9ccf6a0def793ebb82 iio: light: veml6070: add support for a regulator
+db9206bf7132eaaaf9213c51a471c00caa9bb8c8 dt-bindings: iio: light: vishay,veml6075: add vishay,veml6070
+129bb87353c8255d8d822c34057bfb7d97a7185f iio: light: veml6070: add devicetree support
+19332fe4bd4659b2e3988f17b4d5dc59a86c266d iio: light: veml6070: use dev_err_probe in probe function
 
---===============4410340659484735532==--
+--===============3735145656580952409==--
