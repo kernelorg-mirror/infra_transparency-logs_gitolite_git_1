@@ -1,31 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6800475188918781862=="
+Content-Type: multipart/mixed; boundary="===============4294077773611563901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 30 Sep 2024 06:09:33 -0000
-Message-Id: <172767657371.601298.4079959931646071986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 30 Sep 2024 06:27:05 -0000
+Message-Id: <172767762568.615660.6457501390237569527@gitolite.kernel.org>
 
---===============6800475188918781862==
+--===============4294077773611563901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/for-usb-next
-    old: c23ce1a54650668fc9061193af1dede7d2981aa7
-    new: b022a94c1c490351b27af30c1b3fa6799a4d8d44
-    log: revlist-c23ce1a54650-b022a94c1c49.txt
+  - ref: refs/heads/sunxi/for-next
+    old: 34180094bc07e78c35fc8b29c26e16617967d4df
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
+    log: revlist-34180094bc07-9852d85ec9d4.txt
 
---===============6800475188918781862==
+--===============4294077773611563901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c23ce1a54650-b022a94c1c49.txt
+Content-Disposition: attachment; filename=revlist-34180094bc07-9852d85ec9d4.txt
 
+d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
+1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
 9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
 cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
 1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
@@ -1034,21 +1050,5 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-d42815e36015c0a7a59dc6f62e6c99468ab0b552 xhci: Add Isochronous TRB fields to TRB tracer
-7e955e2563ec3293932ee2f6d5cdf4a7771352eb usb: xhci: Remove unused parameters of next_trb()
-9a1cb27801a19fd9802b61037a1410f2672468f1 usb: xhci: Fix sum_trb_lengths()
-14027793ed2f502b6f4feeaceee5d3d2860efdd2 xhci: Cleanup Candence controller PCI device and vendor ID usage
-6f2d6adb8499b155fb95e1065008d785fa3aebff xhci: show DMA address of TRB when tracing TRBs
-29128c348bda0f49b8770e4ecea50af8391b0fc8 xhci: Don't trace ring at every enqueue or dequeue increase
-fbce466d6b24d9715e75cf5c090925d773c5d6af xhci: add stream context tracing
-48b6fdc977007f214ccf280d981981964c1c8425 xhci: trace stream context at Set TR Deq command completion
-ff3495aa20f29ee9266c78249e97f9b34d4d74bf xhci: debugfs: Add virt endpoint state to xhci debugfs
-deb9577dbaab5a4c0dca40c38282ed77dede9db6 usb: xhci: introduce macro for ring segment list iteration
-0492160db38f8b4a6cbb6d016f10b8374cfd95bf usb: xhci: remove option to change a default ring's TRB cycle bit
-be48f95ee1389fcae249602915a72e89896040f7 usb: xhci: adjust xhci_alloc_segments_for_ring() arguments
-c2594388733c558e534f33d076b617c44cc037cd usb: xhci: rework xhci_free_segments_for_ring()
-6a9747da06ef9967233b538acef2a429d882aa2f usb: xhci: refactor xhci_link_rings() to use source and destination rings
-6abc08d47e82d3188421e8c371c291d7bba16852 usb: xhci: rework xhci_link_segments()
-b022a94c1c490351b27af30c1b3fa6799a4d8d44 usb: xhci: add xhci_initialize_ring_segments()
 
---===============6800475188918781862==--
+--===============4294077773611563901==--
