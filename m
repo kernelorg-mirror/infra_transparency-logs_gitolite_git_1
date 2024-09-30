@@ -1,32 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============4538732290666988713=="
+Content-Type: multipart/mixed; boundary="===============7408841522596041814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 30 Sep 2024 11:38:19 -0000
-Message-Id: <172769629955.973338.5757122712905342218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 30 Sep 2024 11:40:01 -0000
+Message-Id: <172769640124.974732.13734643400177608099@gitolite.kernel.org>
 
---===============4538732290666988713==
+--===============7408841522596041814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 233a95fd574fde1c375c486540a90304a2d2d49f
+    old: 431c1646e1f86b949fa3685efc50b660a364c2b6
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-233a95fd574f-9852d85ec9d4.txt
+    log: revlist-431c1646e1f8-9852d85ec9d4.txt
   - ref: refs/heads/master
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
   - ref: refs/heads/next
-    old: 5aedb8d8336b0a0421b58ca27d1b572aa6695b5b
+    old: 3c2ea12a625dbf5a864f4920235fa1c739d06e7d
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-5aedb8d8336b-9852d85ec9d4.txt
+    log: revlist-3c2ea12a625d-9852d85ec9d4.txt
   - ref: refs/tags/v6.12-rc1
     old: 0000000000000000000000000000000000000000
     new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
@@ -37,11 +37,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
 
---===============4538732290666988713==
+--===============7408841522596041814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-233a95fd574f-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-431c1646e1f8-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1068,7 +1068,7 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============4538732290666988713==
+--===============7408841522596041814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2099,11 +2099,11 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============4538732290666988713==
+--===============7408841522596041814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5aedb8d8336b-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-3c2ea12a625d-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -3130,4 +3130,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============4538732290666988713==--
+--===============7408841522596041814==--
