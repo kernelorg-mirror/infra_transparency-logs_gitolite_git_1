@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Sep 2024 18:23:21 -0000
-Message-Id: <172772060174.1599038.1014240982370225789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 30 Sep 2024 18:38:48 -0000
+Message-Id: <172772152813.1610595.242522270170495272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: 1e7e8cab44f0cbd5de83c37fa6f85756a6261d3a
-    new: 0a4ab9a3a26a6319dcc696494aff92222410a1da
+  - ref: refs/heads/bleeding-edge
+    old: 56a7acf940d4daf43aeaa7aa42f75289a27350ba
+    new: 5d00f37f89de7067d67e60d2d148e43a7860f067
     log: |
-         69f2b3f98771795b4592d124b58563e53b70faf6 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-         a75403eb55dcc55f9d6234456924aac8be0a33d6 Documentation: userspace-api: Add shadow stack API documentation
-         44bb890b000b7ac06445764f74c8623784886593 selftests: Provide helper header for shadow stack testing
-         41cd1cf72bb676b5d858d5a3d0cf4afa8d3eb0f7 fork: Add shadow stack support to clone3()
-         034797be4aebc9e8084002d32e035ebce89fef8b selftests/clone3: Remove redundant flushes of output streams
-         6f679a533cf68384a414e2ad60e217c8472945e9 selftests/clone3: Factor more of main loop into test_clone3()
-         5b6a02bc0a401af3750e0486657b7829089ba878 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-         daf5bf6472522c73625023b2da2bedf71af71312 selftests/clone3: Test shadow stack support
-         7b8dd1dde4252a695c119859135ca90a0be6d8d8 kselftest: Provide shadow stack enable helpers for arm64
-         0a4ab9a3a26a6319dcc696494aff92222410a1da selftests/clone3: Enable arm64 shadow stack testing
+         38f83090f515b4b5d59382dfada1e7457f19aa47 cpuidle: menu: Remove iowait influence
+         ff7359808d683613a6acae2fafe61e9924395b44 Merge branch 'pm-cpuidle' into bleeding-edge
+         65bdebf38e5fac7c56a9e05d3479a707e6dc783c ACPI: resource: Remove duplicate Asus E1504GAB IRQ override
+         63539defee17bf0cbd8e24078cf103efee9c6633 ACPI: resource: Loosen the Asus E1404GAB DMI match to also cover the E1404GA
+         2f80ce0b78c340e332f04a5801dee5e4ac8cfaeb ACPI: resource: Add Asus Vivobook X1704VAP to irq1_level_low_skip_override[]
+         056301e7c7c886f96d799edd36f3406cc30e1822 ACPI: resource: Add Asus ExpertBook B2502CVA to irq1_level_low_skip_override[]
+         5d00f37f89de7067d67e60d2d148e43a7860f067 Merge branch 'acpi-resource' into bleeding-edge
          
