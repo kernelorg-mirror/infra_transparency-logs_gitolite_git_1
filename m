@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3447392680059099579=="
+Content-Type: multipart/mixed; boundary="===============0002607177164267314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 30 Sep 2024 16:43:10 -0000
-Message-Id: <172771459073.1519640.15537573362325645556@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 16:43:18 -0000
+Message-Id: <172771459882.1519836.7245860949735556690@gitolite.kernel.org>
 
---===============3447392680059099579==
+--===============0002607177164267314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 38a0e38b31d3f967525f6414711bed6f14dfa15e
+  - ref: refs/heads/for-next
+    old: 752ce45a66ec3217490a02ef5165be7fbbcb0fc6
     new: 8a8622b7c20658bf24b4d48dc53aaa893c37f482
-    log: revlist-38a0e38b31d3-8a8622b7c206.txt
+    log: revlist-752ce45a66ec-8a8622b7c206.txt
 
---===============3447392680059099579==
+--===============0002607177164267314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38a0e38b31d3-8a8622b7c206.txt
+Content-Disposition: attachment; filename=revlist-752ce45a66ec-8a8622b7c206.txt
 
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 a36d9f96d1cf7c0308bf091e810bec06ce492c3d remoteproc: k3: Call of_node_put(rmem_np) only once in three functions
 8a8622b7c20658bf24b4d48dc53aaa893c37f482 remoteproc: Use iommu_paging_domain_alloc()
 
---===============3447392680059099579==--
+--===============0002607177164267314==--
