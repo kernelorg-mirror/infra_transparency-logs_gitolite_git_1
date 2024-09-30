@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2870492690380431648=="
+Content-Type: multipart/mixed; boundary="===============4873601549615020532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 30 Sep 2024 07:56:02 -0000
-Message-Id: <172768296244.688612.4252456693002482512@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 07:56:42 -0000
+Message-Id: <172768300208.689031.7164021443354669201@gitolite.kernel.org>
 
---===============2870492690380431648==
+--===============4873601549615020532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 98f7e32f20d28ec452afb208f9cffc08448a2652
+  - ref: refs/heads/next
+    old: 10904df3f20cf36e418e78ab73c2fbcecda512b8
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-98f7e32f20d2-9852d85ec9d4.txt
+    log: revlist-10904df3f20c-9852d85ec9d4.txt
 
---===============2870492690380431648==
+--===============4873601549615020532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98f7e32f20d2-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-10904df3f20c-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============2870492690380431648==--
+--===============4873601549615020532==--
