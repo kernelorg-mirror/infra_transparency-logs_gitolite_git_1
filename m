@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8627333765939203768=="
+Content-Type: multipart/mixed; boundary="===============5279982783289314465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 30 Sep 2024 01:36:14 -0000
-Message-Id: <172766017491.391079.6130971745230338541@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 01:41:39 -0000
+Message-Id: <172766049941.395280.301743643809179543@gitolite.kernel.org>
 
---===============8627333765939203768==
+--===============5279982783289314465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: d1b35e6d34e9b46fbf98444dd7aa114c032e9ac0
-    new: 7cbf28998d737e04c4872cfeedd1a546d22cfb44
-    log: revlist-d1b35e6d34e9-7cbf28998d73.txt
+  - ref: refs/heads/for-firmware-next
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
+    new: 67f488dff17e535ac3a8a52b47ff1363d8134983
+    log: revlist-8400291e289e-67f488dff17e.txt
 
---===============8627333765939203768==
+--===============5279982783289314465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b35e6d34e9-7cbf28998d73.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-67f488dff17e.txt
 
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
@@ -1049,6 +1048,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-7cbf28998d737e04c4872cfeedd1a546d22cfb44 platform/chrome: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+6074e905023d09f64f2c896f475820a5623deb2c firmware: sysfb: Add a sysfb_handles_screen_info() helper function
+67f488dff17e535ac3a8a52b47ff1363d8134983 firmware: coreboot: Don't register a pdev if screen_info data is present
 
---===============8627333765939203768==--
+--===============5279982783289314465==--
