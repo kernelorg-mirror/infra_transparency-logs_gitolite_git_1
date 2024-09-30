@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0410641697595111093=="
+Content-Type: multipart/mixed; boundary="===============7005866932882239167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 30 Sep 2024 14:25:05 -0000
-Message-Id: <172770630539.1165299.17420511009719235645@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 14:25:43 -0000
+Message-Id: <172770634391.1202639.16067820702986142098@gitolite.kernel.org>
 
---===============0410641697595111093==
+--===============7005866932882239167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 5474d49b2f79b41f2ab09b0deb9d97d47b18d094
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 042b8711a0beafb2c3b888bebe3c300ab4c817fa
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-5474d49b2f79-9852d85ec9d4.txt
+    log: revlist-042b8711a0be-9852d85ec9d4.txt
 
---===============0410641697595111093==
+--===============7005866932882239167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5474d49b2f79-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-042b8711a0be-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============0410641697595111093==--
+--===============7005866932882239167==--
