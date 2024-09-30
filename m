@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2044943218149414939=="
+Content-Type: multipart/mixed; boundary="===============0009327003654792574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Sep 2024 18:15:56 -0000
-Message-Id: <172772015628.1593516.13608064468671993066@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 18:17:20 -0000
+Message-Id: <172772024081.1594158.15755833645926408528@gitolite.kernel.org>
 
---===============2044943218149414939==
+--===============0009327003654792574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-vexpress-sp804
-    old: 57157bb26e1442e1bdda2ef82cbeab957e2b86c8
-    new: f39e67eeada8d2d7d627266116eb78f0a59a25d9
-    log: revlist-57157bb26e14-f39e67eeada8.txt
+  - ref: refs/heads/arm64-sme-no-cpuidle
+    old: 94f4ad6a728bc1125d9d4bdbfef78e1d3ffef0f5
+    new: 10f1574123c5ae425b7d4d98fb7e35bedd5eb1bb
+    log: revlist-94f4ad6a728b-10f1574123c5.txt
 
---===============2044943218149414939==
+--===============0009327003654792574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57157bb26e14-f39e67eeada8.txt
+Content-Disposition: attachment; filename=revlist-94f4ad6a728b-10f1574123c5.txt
 
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
@@ -1048,7 +1048,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-ec04a8504f1e46c47ad590380d3891b280487a5c EDITME: cover title for arm64-vexpress-sp804
-f39e67eeada8d2d7d627266116eb78f0a59a25d9 clocksource: sp804: Make user selectable
+82efa6f7967e665bf661113fab0a24ad4379811f EDITME: cover title for arm64-sme-no-cpuidle
+10f1574123c5ae425b7d4d98fb7e35bedd5eb1bb arm64/fpsimd: Ensure we don't contend a SMCU from idling CPUs
 
---===============2044943218149414939==--
+--===============0009327003654792574==--
