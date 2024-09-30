@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1022003020546694848=="
+Content-Type: multipart/mixed; boundary="===============7909449320115065471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 30 Sep 2024 04:18:57 -0000
-Message-Id: <172766993779.515788.18404438161374274257@gitolite.kernel.org>
+Date: Mon, 30 Sep 2024 04:19:06 -0000
+Message-Id: <172766994610.516034.16268396597857409344@gitolite.kernel.org>
 
---===============1022003020546694848==
+--===============7909449320115065471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-maintainer-next
+  - ref: refs/heads/ti-k3-next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============1022003020546694848==
+--===============7909449320115065471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============1022003020546694848==--
+--===============7909449320115065471==--
