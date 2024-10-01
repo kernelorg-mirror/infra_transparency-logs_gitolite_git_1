@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Oct 2024 11:08:32 -0000
-Message-Id: <172778091226.2412718.15021277257574369022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 01 Oct 2024 11:09:07 -0000
+Message-Id: <172778094705.2413083.6062855129122771777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 4c1b56671b68ffcbe6b78308bfdda6bcce6491ae
-    new: c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7
-    log: |
-         c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7 ipv4: ip_gre: Fix drops of small packets in ipgre_xmit
-         
+  - ref: refs/heads/20241001_yung_chuan_liao_asoc_intel_soc_acpi_fix_missing_empty_terminators
+    old: 0000000000000000000000000000000000000000
+    new: cccb586f513cd999b9dade82e5a25b711d90a76f
+  - ref: refs/heads/fileOIIim0
+    old: 0000000000000000000000000000000000000000
+    new: 162d9b5d2308c7e48efbc97d36babbf4d73b2c61
