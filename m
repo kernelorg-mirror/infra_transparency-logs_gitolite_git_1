@@ -1,46 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 01 Oct 2024 07:49:19 -0000
-Message-Id: <172776895977.2238564.393352251898058256@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2331083001408539014=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 01 Oct 2024 07:56:17 -0000
+Message-Id: <172776937742.2245521.13639233301944531958@gitolite.kernel.org>
+
+--===============2331083001408539014==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 92e805c809edd657e364088958b857bddf55cf09
-    new: d70ffb2645ce4f38e05a521c9b21fcf114025e7d
+    old: 5b75792d99fda79bbd88d9f0104465abf39ffb00
+    new: 247e5417376c9ad456e2c5b34cd8c5773d1218fc
     log: |
-         f2c9736d897c065590abda940be7ee8c0d954f58 ARM: dts: renesas: marzen: Use interrupts-extended for gpio-keys
-         b42df7016e06e29cfb58fbd58f5d7ba3fce57eb5 ARM: dts: renesas: rskrza1: Use interrupts-extended for gpio-keys
-         43b8b446580c716793353218e1594bc025801236 ARM: dts: renesas: rza2mevb: Use interrupts-extended for gpio-keys
-         d2c39fb16cddf1b609992f78ad45839badd859f6 arm64: dts: renesas: rcar-gen4: Switch PCIe to reset-gpios
-         fa41534f9055c9c4b2461b81d6a3a970cd3b03e5 ARM: dts: renesas: rskrza1: Enable watchdog timer
-         e14c77520a77dc6fe2557948f2486194a51bcb65 Merge branch 'renesas-dts-for-v6.13' into renesas-next
-         d70ffb2645ce4f38e05a521c9b21fcf114025e7d Merge branch 'renesas-next' into renesas-devel
+         247e5417376c9ad456e2c5b34cd8c5773d1218fc 5.15-stable patches
          
-  - ref: refs/heads/next
-    old: e764f35a43b3c0d6b6c65356564eec6da929b183
-    new: e14c77520a77dc6fe2557948f2486194a51bcb65
-    log: |
-         f2c9736d897c065590abda940be7ee8c0d954f58 ARM: dts: renesas: marzen: Use interrupts-extended for gpio-keys
-         b42df7016e06e29cfb58fbd58f5d7ba3fce57eb5 ARM: dts: renesas: rskrza1: Use interrupts-extended for gpio-keys
-         43b8b446580c716793353218e1594bc025801236 ARM: dts: renesas: rza2mevb: Use interrupts-extended for gpio-keys
-         d2c39fb16cddf1b609992f78ad45839badd859f6 arm64: dts: renesas: rcar-gen4: Switch PCIe to reset-gpios
-         fa41534f9055c9c4b2461b81d6a3a970cd3b03e5 ARM: dts: renesas: rskrza1: Enable watchdog timer
-         e14c77520a77dc6fe2557948f2486194a51bcb65 Merge branch 'renesas-dts-for-v6.13' into renesas-next
-         
-  - ref: refs/heads/renesas-dts-for-v6.13
-    old: 6695b5500ba4b83aaabf4eb2434f71ce1910f28c
-    new: fa41534f9055c9c4b2461b81d6a3a970cd3b03e5
-    log: |
-         f2c9736d897c065590abda940be7ee8c0d954f58 ARM: dts: renesas: marzen: Use interrupts-extended for gpio-keys
-         b42df7016e06e29cfb58fbd58f5d7ba3fce57eb5 ARM: dts: renesas: rskrza1: Use interrupts-extended for gpio-keys
-         43b8b446580c716793353218e1594bc025801236 ARM: dts: renesas: rza2mevb: Use interrupts-extended for gpio-keys
-         d2c39fb16cddf1b609992f78ad45839badd859f6 arm64: dts: renesas: rcar-gen4: Switch PCIe to reset-gpios
-         fa41534f9055c9c4b2461b81d6a3a970cd3b03e5 ARM: dts: renesas: rskrza1: Enable watchdog timer
-         
+
+--===============2331083001408539014==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727769389 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1727769375-edf2cc501656b291a8276e2b2ba472e9bdf4f84d
+
+5b75792d99fda79bbd88d9f0104465abf39ffb00 247e5417376c9ad456e2c5b34cd8c5773d1218fc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb7qy0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UU4P/iINIBFCcpFT/B9ebGpy
+hyNY6nDYykPInUafIlp6GpWxYJWAUMDpRdEEnNYMe1NswI8yqnYrwiH/chBcZTZS
+885hqdFKvxx1TGGObew6gux4zf2YCn8q9+N7Fno2HXk40FjxWvOFunNeY+a6xn2t
+bnCaUuFhkvty9GpPdcewdZWE+aXmJ6IYiY/rG5p2mVbwx651FrmEANGebARKRysC
+PcUGV71cBeLMROnAkVWwlrtY4mMbouj2e5b815pzrH6kKeOQwpenKkvz14vgln+t
+liv9ahrWezyubC93nc1Xu7aKQLLbWshD2PxcTj1ypDX8Xod5JWyXFTkJZ0Abqkjk
+PakeJ7m6unTG7laUEcl3GenYXkyw0mOgiYTAYiq9MYny9NbQxSz9fn2eQDTGoTGh
+aJEgB+7e6V4v/SQNr2xXcrrpcQti8yGiJxQEg12QeV/HY7Qb1BD9H4Xo3P8FqGBk
+czvXoNcmZROUcwkXiMk6xkYCLZm4vkmc5f34+DYraJfdKglP2Dt70dkuM72aTvul
+7tXDqWX1bfuTCy4AqtVfWYjOpAoQ9CRqSkOuQp0oBmFTpVXFRlJVlJAwltgJtTQB
+bthw/te94oHFncNl+82qNJOHibEzHJBh94Hb4MbGqdXeMcOBJUxJ9Kez1j5xv3nR
+P1u5wrd+/csx687OeMz1lhmD
+=+8pj
+-----END PGP SIGNATURE-----
+
+--===============2331083001408539014==--
