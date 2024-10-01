@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3277997013469476792=="
+Content-Type: multipart/mixed; boundary="===============8904454601480020511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 01 Oct 2024 09:27:22 -0000
-Message-Id: <172777484223.2325215.9101883668803969269@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 09:27:24 -0000
+Message-Id: <172777484497.2325292.15729471255337081130@gitolite.kernel.org>
 
---===============3277997013469476792==
+--===============8904454601480020511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 6b612d1bac67b0f483fde7779a45f6310274d4eb
-    new: dfb6e2f51beeaa77b2c07aabe58b833eb02ace81
-    log: revlist-6b612d1bac67-dfb6e2f51bee.txt
+  - ref: refs/heads/opp/linux-next
+    old: a84372012e9329daba8082efac98f3bc0b443aa2
+    new: 53205a7903666d35709954d9fb7370a8150d5e0e
+    log: revlist-a84372012e93-53205a790366.txt
 
---===============3277997013469476792==
+--===============8904454601480020511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b612d1bac67-dfb6e2f51bee.txt
+Content-Disposition: attachment; filename=revlist-a84372012e93-53205a790366.txt
 
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
@@ -1049,6 +1048,7 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-dfb6e2f51beeaa77b2c07aabe58b833eb02ace81 dt-bindings: cpufreq: qcom-hw: document support for SA8255p
+217fa3961a5915a12e4ef6982e593e5215f8499c OPP: Remove unused declarations in header file
+53205a7903666d35709954d9fb7370a8150d5e0e dt-bindings: opp: operating-points-v2-ti-cpu: Describe opp-supported-hw
 
---===============3277997013469476792==--
+--===============8904454601480020511==--
