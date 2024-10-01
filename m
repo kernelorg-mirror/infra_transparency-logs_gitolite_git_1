@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2402327937675554252=="
+Content-Type: multipart/mixed; boundary="===============8199443328805966208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Tue, 01 Oct 2024 13:46:13 -0000
-Message-Id: <172779037300.2552595.2222802993841364320@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 13:48:25 -0000
+Message-Id: <172779050508.2553465.17752632301275786204@gitolite.kernel.org>
 
---===============2402327937675554252==
+--===============8199443328805966208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/rust/mm-old-layout
-    old: 5d6dc8f0db8a4017211f418b280b7f6177fd2ab6
+  - ref: refs/heads/rust/mm
+    old: 9dabe1162fa4cdfcdcb46951f23cb225942bcf7f
     new: 14e8c7470be11d32bbbb8ead532eb9d4000b713d
-    log: revlist-5d6dc8f0db8a-14e8c7470be1.txt
+    log: revlist-9dabe1162fa4-14e8c7470be1.txt
 
---===============2402327937675554252==
+--===============8199443328805966208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d6dc8f0db8a-14e8c7470be1.txt
+Content-Disposition: attachment; filename=revlist-9dabe1162fa4-14e8c7470be1.txt
 
-1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-79f1a6adef3718c295b2ffb403049f15d5a2797d Merge tag 'x86_microcode_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d0a63f0e1a9506c79df997e70f7fad95a8236b1c Merge tag 'ras_core_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b56dff267d1246a6cd4a6ae1f850e12893dadf94 Merge tag 'x86_sev_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d580d74ea2836edbbd49cd791eb5d0acad7b14aa Merge tag 'x86_cpu_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 963d0d60d690ce2525a8fbcc0a63c4ae22f4670c Merge tag 'x86_bugs_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a4ebad655b98c91c10cf0690e66c11b0891c76ee Merge tag 'x86_sgx_for_6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8617d7d6298f54dfef4038281863270b5864fe83 Merge tag 'mips_6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
@@ -86,6 +80,12 @@ dc1a456dc1870942d19e8cea257554d9d8d1597a cifs: Fix cifs readv callback merge res
 dc644fba3cf837f22d14991cab3c4c65af37ae21 Merge tag 'audit-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 ad060dbbcfcfcba624ef1a75e1d71365a98b86d8 Merge tag 'selinux-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 26df39de93bb8763bb3088db6c76eb98d4cd7213 Merge tag 'amd-drm-next-6.12-2024-09-13' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+ca627e636551e74b528f150d744f67d9a63f0ae7 rust: cfi: add support for CFI_CLANG with Rust
+cc1d98f9fe30467a2224184336b3166ef4adbc25 kasan: simplify and clarify Makefile
+c42297438aee70e2d391225de3d35ffeb2bdbaf9 kbuild: rust: Define probing macros for rustc
+f64e2f3a66e30319023b7924d438d159ac742d63 rust: kasan: Rust does not support KHWASAN
+e3117404b41124c88a4d834fc3222669a880addc kbuild: rust: Enable KASAN support
+a2f11547052001bd448ccec81dd1e68409078fbb kasan: rust: Add KASAN smoke test via UAF
 a430d95c5efa2b545d26a094eb5f624e36732af0 Merge tag 'lsm-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 9f0eafe86ea0a589676209d0cff1a1ed49a037d3 RDMA/irdma: fix error message in irdma_modify_qp_roce()
 7acad3c442df6d5158c5b732a7a0ccf3a01d9b30 RDMA/nldev: Add missing break in rdma_nl_notify_err_msg()
@@ -1051,4 +1051,4 @@ c3849ea02b9aa46514a31b37afe471ea9f0c6a5e rust: alloc: update module comment of a
 08d10ae10104a73550e622b1ea6d133b2554efce kbuild: rust: remove the `alloc` crate and `GlobalAlloc`
 14e8c7470be11d32bbbb8ead532eb9d4000b713d MAINTAINERS: add entry for the Rust `alloc` module
 
---===============2402327937675554252==--
+--===============8199443328805966208==--
