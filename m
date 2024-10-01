@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 01 Oct 2024 19:34:20 -0000
-Message-Id: <172781126051.2838955.3764574238835175487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 01 Oct 2024 19:41:18 -0000
+Message-Id: <172781167861.2845762.6810383465068337810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/work.headers.unaligned
-    old: c7aa4ea3d081865b7d8257c33ebda97fe5126211
-    new: 47c3aac621f2144c4cd5bf7213c6a8d4b2959aba
+  - ref: refs/heads/next
+    old: 3a29b13291b1516a78a28c36220b43c057d9c717
+    new: 2b3595765dfd2837d38753ca16f2638de92d1382
     log: |
-         be62bc692ff4b8e10ddac188751058d132c66d99 parisc: get rid of private asm/unaligned.h
-         bc3f78b478aaa6310787c034a4b7e2758580a2a6 arc: get rid of private asm/unaligned.h
-         47c3aac621f2144c4cd5bf7213c6a8d4b2959aba move asm/unaligned.h to linux/unaligned.h
+         2b3595765dfd2837d38753ca16f2638de92d1382 tests reproducible_build.sh: Try first to find a vmlinux using pahole --running_kernel_vmlinux
          
