@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3395621411479404829=="
+Content-Type: multipart/mixed; boundary="===============9135199239290707328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Tue, 01 Oct 2024 09:47:59 -0000
-Message-Id: <172777607920.2342160.7513360131683298601@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 09:48:17 -0000
+Message-Id: <172777609738.2342433.12178321092769835966@gitolite.kernel.org>
 
---===============3395621411479404829==
+--===============9135199239290707328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devsec/spdm
 user: lukas
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============3395621411479404829==
+--===============9135199239290707328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============3395621411479404829==--
+--===============9135199239290707328==--
