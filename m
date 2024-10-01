@@ -1,31 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============6598681574501432718=="
+Content-Type: multipart/mixed; boundary="===============0722682050007018546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Oct 2024 23:08:22 -0000
-Message-Id: <172782410210.3003090.3747685350947122324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Tue, 01 Oct 2024 23:15:57 -0000
+Message-Id: <172782455738.3010175.15443861015347345122@gitolite.kernel.org>
 
---===============6598681574501432718==
+--===============0722682050007018546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 77eed198b8526acce430c67d1b50e074fd8bbbf4
-    new: 50e5676a0d468c1bdd15c6122fa99b69e8881dd5
-    log: revlist-77eed198b852-50e5676a0d46.txt
+  - ref: refs/heads/next
+    old: c6ccb691d484544636bc4a097574c5c135ccccda
+    new: 8464e7dc4e7e19aa3e9a258a9a1c94cef19beff0
+    log: revlist-c6ccb691d484-8464e7dc4e7e.txt
+  - ref: refs/tags/v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
 
---===============6598681574501432718==
+--===============0722682050007018546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77eed198b852-50e5676a0d46.txt
+Content-Disposition: attachment; filename=revlist-c6ccb691d484-8464e7dc4e7e.txt
 
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
+1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
+9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
+cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
+1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
+7e340f4fad46b766705be96f5d1c764a397a7a36 Merge patch series "Svvptc extension to remove preventive sfence.vma"
+8f1534e7440382d118c3d655d3a6014128b2086d riscv: avoid Imbalance in RAS
+9410645520e9b820069761f3450ef6661418e279 Merge tag 'net-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+85ffc6e4ed3712f8b3fedb3fbe42afae644a699c Merge tag 'v6.12-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+79f1a6adef3718c295b2ffb403049f15d5a2797d Merge tag 'x86_microcode_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d0a63f0e1a9506c79df997e70f7fad95a8236b1c Merge tag 'ras_core_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b56dff267d1246a6cd4a6ae1f850e12893dadf94 Merge tag 'x86_sev_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d580d74ea2836edbbd49cd791eb5d0acad7b14aa Merge tag 'x86_cpu_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+963d0d60d690ce2525a8fbcc0a63c4ae22f4670c Merge tag 'x86_bugs_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a4ebad655b98c91c10cf0690e66c11b0891c76ee Merge tag 'x86_sgx_for_6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8617d7d6298f54dfef4038281863270b5864fe83 Merge tag 'mips_6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+114143a595895c03fbefccfd8346fc51fb4908ed Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+980bcd35ae0a21da9a22155e386c8ff17019d545 Merge tag 'cmpxchg.2024.09.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+64dd3b6a79f0907d36de481b0f15fab323a53e5a Merge tag 'for-linus-non-x86' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+11b3125073d16929403d3aa7b2ae6a482060a937 Merge tag 'acpi-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+02824a5fd11f99b4637668926a59aab3698b46a9 Merge tag 'pm-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d22300518d875f78203e9afacb5aa0b0316da523 Merge tag 'thermal-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+9498f2e24ee0133d486667c9fa4c27ecdaadc272 drm/i915/psr: Do not wait for PSR being idle on on Panel Replay
+fcd33d434d31a210bc9f209b5bfd92f3b91a2dda drm/i915/display: BMG supports UHBR13.5
+ec2231b8dd2dc515912ff7816c420153b4a95e92 drm/i915/dp: Fix AUX IO power enabling for eDP PSR
 8f72c31f45a575d156cfe964099b4cfcc02e03eb Merge tag 'vfs-6.12.misc' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 2775df6e5e324be9dc375f7db2c8d3042df72bbf Merge tag 'vfs-6.12.folio' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 3352633ce6b221d64bf40644d412d9670e7d56e3 Merge tag 'vfs-6.12.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1009,46 +1055,6 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-5fa9053667193259ae75536dd9db1f2aa76de12b arm64/gcs: Provide support for GCS in userspace
-238e3b8c9e04ad0caa89d9f42bbbad3a88bb2852 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-89c077c91206aeb330a8ab2eb70a554c7125be85 mm: Define VM_HIGH_ARCH_6
-74f07d66d6e55e9f90916eb2edb0d50b92fd63ed arm64/mm: Restructure arch_validate_flags() for extensibility
-d9fa0d28344344331e4d5e0c7e044a23f8ebd8a6 prctl: arch-agnostic prctl for shadow stack
-966abbe43c7e9de5ecf9a0500c6c4efe74101534 mman: Add map_shadow_stack() flags
-34c4b7c6ef034d05e3e0c128638a463a42c1c1e9 arm64: Document boot requirements for Guarded Control Stacks
-35b410801800c81f6acb1406c729ca63c45bd92c arm64/gcs: Document the ABI for Guarded Control Stacks
-98628a7ff4a52d8e1d112a4b62e48236251b68c1 arm64/sysreg: Add definitions for architected GCS caps
-9a41dde88e423bd4078f37936f3dad40700039ff arm64/gcs: Add manual encodings of GCS instructions
-ff69cf173b4e653490fd8baf1feee0c6c0ff6706 arm64/gcs: Provide put_user_gcs()
-ebb7b68ee721326dbb71b72b75546d8407652194 arm64/gcs: Provide basic EL2 setup to allow GCS usage at EL0 and EL1
-f9255ce38e80ab6c52b15d5b053edecc707a1d09 arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-0f72d65afeafdd11cbef9385ea416777bc2050dc arm64/mm: Allocate PIE slots for EL0 guarded control stack
-63aa01b813941d3a36241a6b4986ab5a311d71bc mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-e88857627f172a0bd3d960c84fa3f2f385943c39 arm64/mm: Map pages for guarded control stack
-e0978a8dd675dfa07e963aca16e57fdd757cf5ab KVM: arm64: Manage GCS access and registers for guests
-9c72f00c17e9ec2cec3687fb68fc8c0182116095 arm64/idreg: Add overrride for GCS
-4ffa07488c81601e72ca8e3e2c0e92fb67194214 arm64/hwcap: Add hwcap for GCS
-b834c6a3fa62491fe6ffa007dfcf5b825383c8a8 arm64/traps: Handle GCS exceptions
-d61d0fd2c4eed151bbf577b2fd0245d91c59b67e arm64/mm: Handle GCS data aborts
-f0459741bd7ed21204761bc88aa1e202a1a75eda arm64/gcs: Context switch GCS state for EL0
-cde900a579e3a07b8310ebd2cd94172c7a826461 arm64/gcs: Ensure that new threads have a GCS
-ea7a6f64f4e0d560bfa8a88bf97d0277bb30957e arm64/gcs: Implement shadow stack prctl() interface
-39305116202cc49a93e215735828b68a0559f7b3 arm64/mm: Implement map_shadow_stack()
-97cf710dbc4743a8bdfd56f4436bcd7df39d345f arm64/signal: Set up and restore the GCS context for signal handlers
-129d9167bb91022d75ba6263050e385c7e83c06b arm64/signal: Expose GCS state in signal frames
-0d808a98d46fb2df7a0344e8e3a43365843b9018 arm64/ptrace: Expose GCS via ptrace and core files
-cad4b4e1dbbe6ade16b8ccb3b54732b47fd81458 arm64: Add Kconfig for Guarded Control Stack (GCS)
-c90cc2aa22ed63234c2010b8a269714f0fd3a0d9 kselftest/arm64: Verify the GCS hwcap
-6ea3f619d89be8c9bac66b0d02ba6a935ccb5abf kselftest/arm64: Add GCS as a detected feature in the signal tests
-4a3e9d24e2dc264079b884028530ac042e812fbf kselftest/arm64: Add framework support for GCS to signal handling tests
-c57343e6f24479c5bad08c35683a927d92b0ffb6 kselftest/arm64: Allow signals tests to specify an expected si_code
-fbb992810397caf3635a1c18f51249e3e6dcbf56 kselftest/arm64: Always run signals tests with GCS enabled
-d16ba39d89a514d2eff80cf5f57c8a70997de9e8 kselftest/arm64: Add very basic GCS test program
-c5cc6fcd5ad10139c7cdfd4a1bbecd150fa9f66d kselftest/arm64: Add a GCS test program built with the system libc
-1e9fce1c4c6daed360e06c04525d9afb00b8687d kselftest/arm64: Add test coverage for GCS mode locking
-ff12789563bbb806b273b2ff5dfcad4423f00c93 kselftest/arm64: Add GCS signal tests
-168934b649db41ef95bbe6694a34f6c199174941 kselftest/arm64: Add a GCS stress test
-121f96343d661da42b7b1ef2c18f32821382d608 kselftest/arm64: Enable GCS for the FP stress tests
-50e5676a0d468c1bdd15c6122fa99b69e8881dd5 KVM: selftests: arm64: Add GCS registers to get-reg-list
+8464e7dc4e7e19aa3e9a258a9a1c94cef19beff0 OPP: fix error code in dev_pm_opp_set_config()
 
---===============6598681574501432718==--
+--===============0722682050007018546==--
