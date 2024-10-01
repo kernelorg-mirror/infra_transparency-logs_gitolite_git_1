@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6273648836176981887=="
+Content-Type: multipart/mixed; boundary="===============4569039141283104567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Oct 2024 17:44:56 -0000
-Message-Id: <172780469615.2749087.16781232635022344391@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 17:44:58 -0000
+Message-Id: <172780469830.2749218.11750892445014808229@gitolite.kernel.org>
 
---===============6273648836176981887==
+--===============4569039141283104567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d505d3593b52b6c43507f119572409087416ba28
     new: c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7
     log: revlist-d505d3593b52-c4a14f6d9d17.txt
 
---===============6273648836176981887==
+--===============4569039141283104567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ab9a9a9e9647392a19e7a885b08000e89c86b535 net: add more sanity checks to qdisc_pk
 4c1b56671b68ffcbe6b78308bfdda6bcce6491ae net: stmmac: dwmac4: extend timeout for VLAN Tag register busy bit check
 c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7 ipv4: ip_gre: Fix drops of small packets in ipgre_xmit
 
---===============6273648836176981887==--
+--===============4569039141283104567==--
