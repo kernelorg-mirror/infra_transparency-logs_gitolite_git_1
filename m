@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Tue, 01 Oct 2024 11:04:51 -0000
-Message-Id: <172778069198.2409324.3757592516093270564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 01 Oct 2024 11:06:02 -0000
+Message-Id: <172778076294.2411523.7506073847139988014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/has_ioport
-    old: 540567f6c178b9813cd5cf8cd3f68414934703da
-    new: 99cb36da93816f5ed2a52c3d0bfceeb1f833bb8c
+  - ref: refs/heads/riscv-rust_on_gcc
+    old: 6570eaf20f1c344f0fdcd8f921ecae3866745d51
+    new: da7b75ed1a322051ad71cd17886fb3690f425f37
     log: |
-         61cc448146d7eb1b10d7748a5c7def030ad46300 tty: serial: handle HAS_IOPORT dependencies
-         99cb36da93816f5ed2a52c3d0bfceeb1f833bb8c asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
+         da7b75ed1a322051ad71cd17886fb3690f425f37 RISC-V: disallow gcc + rust builds
          
