@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6122943423702045477=="
+Content-Type: multipart/mixed; boundary="===============8138231364034861941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 01 Oct 2024 01:43:37 -0000
-Message-Id: <172774701722.1960557.13262168788023680881@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 01:45:32 -0000
+Message-Id: <172774713293.1963499.14950172118230439613@gitolite.kernel.org>
 
---===============6122943423702045477==
+--===============8138231364034861941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.misc
-    old: 74671198f1ebcfd75e5e5bcd107c2bfc3c455d6d
-    new: dc375900f510810b9fe5bedb970338eb98e66fff
-    log: revlist-74671198f1eb-dc375900f510.txt
+  - ref: refs/heads/experimental-for-mateusz
+    old: e214c1896cbd0e86bd2b770d6e49800d08c7dbe7
+    new: 2b4966e29d6c1cd277da57613995670a1aa8e03c
+    log: revlist-e214c1896cbd-2b4966e29d6c.txt
 
---===============6122943423702045477==
+--===============8138231364034861941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74671198f1eb-dc375900f510.txt
+Content-Disposition: attachment; filename=revlist-e214c1896cbd-2b4966e29d6c.txt
 
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
@@ -1049,6 +1047,8 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-dc375900f510810b9fe5bedb970338eb98e66fff proc_fd_getattr(): don't bother with S_ISDIR() check
+c1b94fea512bdd73a7705a8ed691f8921d96a75a don't duplicate vfs_open() in kernel_file_open()
+e779d1a18c83cf91df499b959bdca5311204a057 lift grabbing path into caller of do_dentry_open()
+2b4966e29d6c1cd277da57613995670a1aa8e03c avoid extra path_get/path_put cycle in path_openat()
 
---===============6122943423702045477==--
+--===============8138231364034861941==--
