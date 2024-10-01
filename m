@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0722682050007018546=="
+Content-Type: multipart/mixed; boundary="===============2792868730765828003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 01 Oct 2024 23:15:57 -0000
-Message-Id: <172782455738.3010175.15443861015347345122@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 23:17:13 -0000
+Message-Id: <172782463338.3010800.9780458093333904990@gitolite.kernel.org>
 
---===============0722682050007018546==
+--===============2792868730765828003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: c6ccb691d484544636bc4a097574c5c135ccccda
+  - ref: refs/heads/fixes
+    old: 9ec87c5957ea9bf68d36f5e098605b585b2571e4
     new: 8464e7dc4e7e19aa3e9a258a9a1c94cef19beff0
-    log: revlist-c6ccb691d484-8464e7dc4e7e.txt
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
+    log: revlist-9ec87c5957ea-8464e7dc4e7e.txt
 
---===============0722682050007018546==
+--===============2792868730765828003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6ccb691d484-8464e7dc4e7e.txt
+Content-Disposition: attachment; filename=revlist-9ec87c5957ea-8464e7dc4e7e.txt
 
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
@@ -1057,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 8464e7dc4e7e19aa3e9a258a9a1c94cef19beff0 OPP: fix error code in dev_pm_opp_set_config()
 
---===============0722682050007018546==--
+--===============2792868730765828003==--
