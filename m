@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7143515787053304086=="
+Content-Type: multipart/mixed; boundary="===============0425164181100676971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 01 Oct 2024 13:14:52 -0000
-Message-Id: <172778849245.2525476.8828335877791522378@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 13:14:59 -0000
+Message-Id: <172778849973.2525637.17418216452070112520@gitolite.kernel.org>
 
---===============7143515787053304086==
+--===============0425164181100676971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,69 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 383d1324f9f0ba61db640b02d374adea307e0552
-    new: 638d1ed62bb95db492679602d48ab750fa5a1102
-    log: revlist-383d1324f9f0-638d1ed62bb9.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 0c8d604dea437b69a861479b413d629bc9b3da70
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
+    log: revlist-0c8d604dea43-9852d85ec9d4.txt
 
---===============7143515787053304086==
+--===============0425164181100676971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1727788504 +0200
+pusher andi.shyti@kernel.org 1727788512 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1727788489-15fce1da3fec31493d666c6fba06f428175455b7
+nonce 1727788497-4e6ea6c0dcf8cd4172531954ec2b654741ec76d8
 
-383d1324f9f0ba61db640b02d374adea307e0552 638d1ed62bb95db492679602d48ab750fa5a1102 refs/heads/i2c/i2c-host
+0c8d604dea437b69a861479b413d629bc9b3da70 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvv12BYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u+AMBALlfQ3onq8obUww+3De0Jvdom8qk
-ggfaAfFZ/xUsrX1tAQD8j03p2h3FgUoBr/glRZqloEVRERsoIf6sY0a14mJmBQ==
-=prB0
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZvv14BYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uMfoBAKYCFxOagkZIFryUqt3bEoaKWLiI
+l+kW1b/lv1ErcorlAPwIq9kEerv0ToIzVOORPDP53hbrX3/W15tob2i5ShgoBQ==
+=U+xH
 -----END PGP SIGNATURE-----
 
---===============7143515787053304086==
+--===============0425164181100676971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-383d1324f9f0-638d1ed62bb9.txt
+Content-Disposition: attachment; filename=revlist-0c8d604dea43-9852d85ec9d4.txt
 
+e7e2941300d258d551dda6ca9a370e29e085fa73 kbuild: split device tree build rules into scripts/Makefile.dtbs
+b472e756ad53421528b632c37d0dc2fe058cd497 remoteproc: st_slim: Use devm_platform_ioremap_resource_byname()
+2de346a45ebf41a67809598c45412c19a95ca4a4 remoteproc: da8xx: Use devm_platform_ioremap_resource_byname()
+38a0e38b31d3f967525f6414711bed6f14dfa15e remoteporc: ingenic: Use devm_platform_ioremap_resource_byname()
+34efda1735a179cd233479a99f09728825748ea1 RDMA/mlx5: Enable ATS when allocating kernel MRs
+b24506f1c3c4e3379babf7c59e4873c862e674cb RDMA/erdma: Refactor the initialization and destruction of EQ
+b80330f1051d4e89d234a191db99caad5fbd8cbc RDMA/erdma: Add disassociate ucontext support
+e77127ff6416b17e0b3e630ac46ee5c9a6570f57 RDMA/erdma: Return QP state in erdma_query_qp
+30e6bd8d3b5639f8f4261e5e6c0917ce264b8dc2 RDMA/mlx5: Drop redundant work canceling from clean_keys()
+6f5cd6ac9a4201e4ba6f10b76a9da8044d6e38b0 RDMA/mlx5: Fix counter update on MR cache mkey creation
+ee6d57a2e13d11ce9050cfc3e3b69ef707a44a63 RDMA/mlx5: Limit usage of over-sized mkeys from the MR cache
+7ebb00cea49db641b458edef0ede389f7004821d RDMA/mlx5: Fix MR cache temp entries cleanup
+c6b2b5c86d448630cea58bf6fdfc761da3e3efb5 RDMA/bnxt_re: Fix the compatibility flag for variable size WQE
+227f51743b61fe3f6fc481f0fb8086bf8c49b8c9 RDMA/bnxt_re: Fix the max WQE size for static WQE support
+55e268694e8b07026c88191f9b6949b6887d9ce3 cxl/pci: Fix to record only non-zero ranges
+5c6e3d5a5da118be2ae074bd70d111994147c708 cxl/pci: Remove duplicated implementation of waiting for memory_info_valid
+99bf0eebc75c9085440d6dca014724e7e49b5116 cxl/pci: Check Mem_info_valid bit for each applicable DVSEC
+3f9e07531778ce66e0100d93f482e9a299d10d8d cxl/pci: simplify the check of mem_enabled in cxl_hdm_decode_init()
+d9a476c837fab38856c6b6ff9f794c33907a9f81 cxl/region: Remove lock from memory notifier callback
+df947ad4cc0b6cf8a6e8dffb3b9095915253b8c8 Merge tag 'v6.12-rockchip-clk1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-rockchip
+4500f510d9bb4e8e283fb249a7adb4ecd6136f26 clk: rockchip: remove unused mclk_pdm0_p/pdm0_p definitions
+40a895fd9a358eea16901026360bd2cd3ca691a7 cxl: move cxl headers to new include/cxl/ directory
+eb3b3f520518003cd363239fc160bdd7ed327319 dt-bindings: clock, reset: fix top-comment indentation rk3576 headers
+3f6821aa147b6e6fe07e8b35999724518b74a632 KVM: x86: Forcibly leave nested if RSM to L2 hits shutdown
+c32e028057f144f15c06e2f09dfec49b14311910 KVM: selftests: Verify single-stepping a fastpath VM-Exit exits to userspace
+4ca077f26d885cbc97e742a5f3572aac244a0f8a KVM: x86: Remove some unused declarations
+7efb4d8a392a18e37fcdb5e77c111af6e9a9e2f2 KVM: VMX: Also clear SGX EDECCSSA in KVM CPU caps when SGX is disabled
+a194a3a13ce0b4cce4b52f328405891ef3a85cb9 KVM: x86: Move "ack" phase of local APIC IRQ delivery to separate API
+363010e1dd0efd4778637c1a5a5aaffbcfcae919 KVM: nVMX: Get to-be-acknowledge IRQ for nested VM-Exit at injection site
+8c23670f2b0004edb8f7135e314114f0c3452085 KVM: nVMX: Suppress external interrupt VM-Exit injection if there's no IRQ
+6e0b456547f41bafdad2dc3a72adc7f69326ca4c KVM: nVMX: Detect nested posted interrupt NV at nested VM-Exit injection
+aa9477966aabc344ae83555002bd31809f6a9546 KVM: x86: Fold kvm_get_apic_interrupt() into kvm_cpu_get_interrupt()
 1ed0f119c5ff66bec663ba5507539ec4a4f33775 KVM: nVMX: Explicitly invalidate posted_intr_nv if PI is disabled at VM-Enter
 3dde46a21aa72a3640bf3f6ff5ce7838af06a1f9 KVM: nVMX: Assert that vcpu->mutex is held when accessing secondary VMCSes
 ec495f2ab12290b008a691e826b39b895f458945 KVM: Write the per-page "segment" when clearing (part of) a guest page
@@ -756,8 +788,6 @@ bfde62650c73a9524c52e4a324349e99c7c39a48 Merge branch 'fix-maximum-tx-rx-frame-s
 9805f39d423a30a7189158905ec3d71774fe98a1 LoongArch: vDSO: Tune chacha implementation
 0cbfd45fbcf0cb26d85c981b91c62fe73cdee01c bonding: Fix unnecessary warnings and logs from bond_xdp_get_xmit_slave()
 8b985bbfabbe46c8b9200d7d299030232c8ebd05 tomoyo: allow building as a loadable LSM module
-5d69d5a00f80488ddcb4dee7d1374a0709398178 i2c: designware: fix controller is holding SCL low while ENABLE bit is disabled
-f2990f8630531a99cad4dc5c44cb2a11ded42492 i2c: synquacer: Deal with optional PCLK correctly
 68898131d2df70d1a9ad5c2f93f0f54dd6d5c336 nfs: Fix `make htmldocs` warnings in the localio documentation
 5c36498d06b9b00393c2f35edbf16b28194375fa Merge tag 'lsm-pr-20240923' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 24f772dec31591f9268a9c9e4943dc5dc47eaf9b Merge tag 'keys-next-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -957,8 +987,6 @@ f7025d861694362348efc14eaad6a17840c4e9a4 smb: client: allocate crypto only for p
 a13ca780afab350f37f8be9eda2bf79d1aed9bdd smb: client: stop flooding dmesg in smb2_calc_signature()
 db44ca9f7bc00a368d345b9fa1ecee0c4e75ac48 smb: client: make HMAC-MD5 TFM ephemeral
 220d83b52c7d16ec3c168b82f4e6ce59c645f7ab smb: client: make SHA-512 TFM ephemeral
-6d3405415f887aef5774c04ae9fefae63d82bdaf i2c: keba: I2C_KEBA should depend on KEBA_CP500
-0c8d604dea437b69a861479b413d629bc9b3da70 i2c: xiic: Fix pm_runtime_set_suspended() with runtime pm enabled
 54595f2807d203770ee50486cb23dc5763916d72 mailbox, remoteproc: omap2+: fix compile testing
 cb787f4ac0c2e439ea8d7e6387b925f74576bdf8 [tree-wide] finally take no_llseek out
 efbc6bd090f48ccf64f7a8dd5daea775821d57ec Documentation: KVM: fix warning in "make htmldocs"
@@ -1043,33 +1071,5 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-4b63bb6d6d2eb0a1b80ebab0aabc82972721bd9f i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
-1c48bd5430a288ac7ffab75b6f5ae382ee7b86f0 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
-7af8387f71183ec69aa868d2f438299b747324ad i2c: cadence: Add atomic transfer support for controller version 1.4
-bdbd83d0245a77d49c28caf1a91cb54c7e6653a4 i2c: isch: Pass pointer to struct i2c_adapter down
-3bca7362d331df57a5f1e5003cd926aa4c321821 i2c: isch: Use string_choices API instead of ternary operator
-8ce7a1098b43b66a2d1f2b62aa5e313b535e5279 i2c: isch: Switch to memory mapped IO accessors
-b751fbeb617a0ce63bd2f15f875dbf1c57539bed i2c: isch: Use custom private data structure
-8c5ea5eba83ca1fbc06ab28d8424160bb2a26c1f i2c: isch: switch i2c registration to devm functions
-11a47f030e181285eb10f0b89985149f19e1b675 i2c: isch: Utilize temporary variable to hold device pointer
-01b4024524d0434c506345eac1a341ec6cd8d4b4 i2c: isch: Use read_poll_timeout()
-d980b080740eee430076d3bedeae9f297ed8d780 i2c: isch: Unify the name of the variable to hold an error code
-7c2efaddd4492f80d898c1309a20f1adf6106142 i2c: isch: Don't use "proxy" headers
-77281aa056efbc55e1fa4d8c6dcaad148e14176c i2c: isch: Prefer to use octal permission
-920f1d973e2e3fc9cc1ff19c7e30022502846c3b i2c: isch: Convert to kernel-doc
-91a1968ba517f609b11380057365d74db9fb1c8b i2c: i801: Add support for Intel Panther Lake
-7f52585ab8687648adf992418afd3b269a74fad1 i2c: piix4: Change the parameter list of piix4_transaction function
-b0b3ec4ea4728753939ad359594013aee03f7ee4 i2c: piix4: Move i2c_piix4 macros and structures to common header
-cb3a8cd7a696b5ecf1f5e1fb2ad4eae54602af55 i2c: piix4: Export i2c_piix4 driver functions as library
-e569ba77be2a05854562b788669c66c016ac004f i2c: amd-asf: Add ACPI support for AMD ASF Controller
-95bbf26bdd0276566e4f6478eb9534248682634c i2c: amd-asf: Add i2c_algorithm operations to support AMD ASF with SMBus
-f6bd75b8f12fc3b11e08d8aa63a610d270ccec1c i2c: amd-asf: Add routine to handle the ASF slave process
-30468f92d824e388d9a121c291182e6abfa8bc46 i2c: amd-asf: Clear remote IRR bit to get successive interrupt
-2d775cd2df7aa476c02ce5ea9a2617e332f08135 MAINTAINERS: Add AMD ASF driver entry
-cdd8306c83fb65cca52b1e59f4abdae242492876 i2c: designware: Use temporary variable for struct device
-4f67032f389d8e7cfc0ceb851aafce054f2cdec6 i2c: designware: Get rid of redundant 'else'
-8f4631ecbd9b6973deab2209b22fa2636e1f20a6 i2c: designware: Remove 'cond' from i2c_dw_scl_hcnt()
-80715309b555a05b8313df9a4aebd204b5a64309 i2c: designware: Use sda_hold_time variable name everywhere
-638d1ed62bb95db492679602d48ab750fa5a1102 i2c: designware: Fix spelling and other issues in the comments
 
---===============7143515787053304086==--
+--===============0425164181100676971==--
