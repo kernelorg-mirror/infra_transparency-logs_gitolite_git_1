@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7346799205944924045=="
+Content-Type: multipart/mixed; boundary="===============5716860183110255663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 01 Oct 2024 00:02:36 -0000
-Message-Id: <172774095643.1875307.2897835226024054270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 01 Oct 2024 00:02:38 -0000
+Message-Id: <172774095850.1875464.16296243837907506749@gitolite.kernel.org>
 
---===============7346799205944924045==
+--===============5716860183110255663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
 
---===============7346799205944924045==
+--===============5716860183110255663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1057,4 @@ a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git:/
 190ecde722dd0531d087a9964537560aa35c769b Merge tag 'probes-fixes-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============7346799205944924045==--
+--===============5716860183110255663==--
