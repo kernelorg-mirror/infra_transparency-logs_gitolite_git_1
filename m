@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7492412920605554295=="
+Content-Type: multipart/mixed; boundary="===============2888005446031501530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 01 Oct 2024 08:32:11 -0000
-Message-Id: <172777153127.2278150.4488268377478548680@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 08:32:15 -0000
+Message-Id: <172777153525.2278242.4787096990995650078@gitolite.kernel.org>
 
---===============7492412920605554295==
+--===============2888005446031501530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: ad46e8f95e931e113cb98253daf6d443ac244cde
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-ad46e8f95e93-9852d85ec9d4.txt
 
---===============7492412920605554295==
+--===============2888005446031501530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727771543 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727771547 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1727771529-bf69f480b744fa297cc0f754e668f6056c4f2e26
+nonce 1727771533-a2a94818086a08a5938de77d7debf4772bd42199
 
-ad46e8f95e931e113cb98253daf6d443ac244cde 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/driver-core-linus
+ad46e8f95e931e113cb98253daf6d443ac244cde 9852d85ec9d492ebef56dc5f229416c925758edc refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb7s5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VnUP/0/UxAyAaPn4onaNiL9H
-1QcCF96xN8E7qSyQ1PhtayfQzjTS7ovhxYNagqgG6RT0Ru6pZ0On0VbMPbiiibFE
-1WRRiYH8UWrD6TAHfJgLa3UWo/Er/782O5zH8C6UP7CH8DRaQCLpiiVooUjPKh1v
-ppwQUrzGWb5VqBVaSvYCpmIUFS6gWWEwOzhp9UZ3ch+WREDICVO5bRbqOzTRUZvY
-Ha5FO1VDJTAxb+XpSQ+LbgSco4+qN5+ctFRdbe92wgW5QNce2tj6jYGkBYXI6vYs
-vE3VmyDHjba+KkGvWNvhMQTiRcX7BIc0mdqTThtdLusUiw+pSA9nQ2uQu9rR5+Xf
-ffwgNEefnlJ0CtvktZ6dvzyxTfRpy1pRmRma5z9Cs30CF6jaGuQR6u2u3OiNiMdc
-ziL3MV+Oa3rzhptQPunlDrh6TSZZqs+c6ktczkR9sLXStzevsp4uwPzN38frVPDK
-x0kdaD1PS7melz6jGGlFyiWXC76KRZ9QGV8METg3OZTt/IkD+eHGulMKcQdBBVqt
-VHtF6g+aBBez43P3xEh9alzTRhzNnZPPaB7M3Ch3YtV+HTzleFtZq0SU8gkgW7NK
-Kw31Q0Sk5GdoqtrxktRXw9GQm4C1SSfa1LgS7P21g+9OOByk8pDeqEwPTpgtA5tu
-n/aEqBPYdiHglRcxuCRT/YoQ
-=5o06
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb7s5sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k/oP/3XQNmsnwtvgDjYf2oum
+b9ZTt+QWKZd1mFAzKGbSwUcbSYvbA71MHu+TqIsZmxY1HKWa7TqgRb4uk09s52p3
+6PeUZRH+I3d/czGDJZUtuZNx+peX7L+3p2FG0Cb/PglzRL0JdxFzf3GD2HU1M9pb
++3xPkNAbKdoyQzCfMCM8rVrBlmPmz2KE6+CB2Ov6pyXI+nYjqRUR/BnWqawtLgoP
+WV/+6nMR9krqsRZfpO1lWq7o4T+MLIJ4tlDVnVmnH3ebX261kkUHscFHOo2UhLsX
+YY3KhPak/4asJEjOCtVbmHy49xDC56XIwUoWr6qQCUmAfHgNSsA2kbY9/gkgv29i
+kp5liYrhu/bxZ0zipQkLrruNHowVMkUNW889yjyLlsdmCsKM2xvabBrKb6WMomlg
+kif4bnhe3MD81SQCwTGsLuiQQh5nF+MtJbkGkRR+RJ6EhnEeaBl7QMjwcMHknL2Z
+FROPph6PHwqxAuceo88VCxSk+Wu2wP19UPyLXBnwTv/uy/hCDqGlBgZf/xmoe/Rt
+uuNQRfDZ0EKxPoIraadt1nCZTLN9FLx47+eO+j1lld5nyGbgLm8O7hGQoUClhmPL
+Unc3253/VUpmpeP/r9kmP7oVMCNdWEzjHTXEg17W4oeC6SyJsq47akJSk/GN5MPQ
+cdbK3C3Zyo4VdNvvAVn58WWj
+=KIK4
 -----END PGP SIGNATURE-----
 
---===============7492412920605554295==
+--===============2888005446031501530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -445,4 +445,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============7492412920605554295==--
+--===============2888005446031501530==--
