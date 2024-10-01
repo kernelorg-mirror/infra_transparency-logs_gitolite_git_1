@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Tue, 01 Oct 2024 06:43:09 -0000
-Message-Id: <172776498915.2185512.13945605492049273783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 01 Oct 2024 06:50:49 -0000
+Message-Id: <172776544915.2192624.9883208564888666216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/ib-backlight-hid-fbdev-6.13
-    old: 0000000000000000000000000000000000000000
-    new: 0d580d99749e759b62dc8e28f511310e9235da7a
+  - ref: refs/heads/work.xattr
+    old: 242dce7f3a28f84e733f16d29368cedf91feccf3
+    new: 8cc413f730d08f362d68044ba2d11655c08c2677
+    log: |
+         8cc413f730d08f362d68044ba2d11655c08c2677 fs/xattr: add *at family syscalls
+         
