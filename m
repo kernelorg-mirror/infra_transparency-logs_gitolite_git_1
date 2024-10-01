@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2048274283492604428=="
+Content-Type: multipart/mixed; boundary="===============0093560105747430145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 01 Oct 2024 21:42:39 -0000
-Message-Id: <172781895909.2938169.13047892474801991452@gitolite.kernel.org>
+Date: Tue, 01 Oct 2024 21:44:05 -0000
+Message-Id: <172781904525.2938826.5749079358098729729@gitolite.kernel.org>
 
---===============2048274283492604428==
+--===============0093560105747430145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/ftrace/for-next
-    old: b576d375b536568c85d42c15a189f6b6fdd75b74
-    new: f1f36e22bee967db5e812a65e24389e54c46f3c2
-    log: revlist-b576d375b536-f1f36e22bee9.txt
+  - ref: refs/heads/for-next
+    old: 886f3732878dc92fb0ad6d8b6740b66410d1d50a
+    new: f8a50cc19bec1c172d5077fa7cd8a76a4e88be8f
+    log: revlist-886f3732878d-f8a50cc19bec.txt
 
---===============2048274283492604428==
+--===============0093560105747430145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b576d375b536-f1f36e22bee9.txt
+Content-Disposition: attachment; filename=revlist-886f3732878d-f8a50cc19bec.txt
 
+d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
 bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
@@ -847,19 +852,12 @@ f30a1232b6979c7fc14e821cb349c40073c6191d vdpa/mlx5: Introduce init/destroy for M
 4a21d31d7bcb4c245783119252b0389255964cd2 fw_cfg: Constify struct kobj_type
 26618da3b2f3d510a3082a1cb0abafc0f92e8362 vsock/virtio: refactor virtio_transport_send_pkt_work
 efcd71af38be403fa52223092f79ada446e121ba vsock/virtio: avoid queuing packets when intermediate queue is empty
-10cdb82aa77f313dcfe947a17f7fc12c5affb38e uprobes: turn trace_uprobe's nhit counter to be per-CPU one
-ce4db753de21abfb7516ef64aff907813e8a8e3e kprobes: Remove obsoleted declaration for init_test_probes
 08377ed24feef66866d0c6aabcae0aec515cf2ca xen: sync elfnote.h from xen tree
 1db29f99edb056d8445876292f53a63459142309 x86/pvh: Make PVH entrypoint PIC for x86-64
 b464b461d27d564125db760938643374864c1b1f x86/pvh: Set phys_base when calling xen_prepare_pvh()
 ada1986d07976d60bed5017aa38b7f7cf27883f7 tomoyo: fallback to realpath if symlink's pathname does not exist
 e3e8cd90f8e2eef67ded38f9c1a5f5520a407a62 x86/kernel: Move page table macros to header
 47ffe0578aee45fed3a06d5dcff76cdebb303163 x86/pvh: Add 64bit relocation page tables
-d5dbf8b48a4620db771f399ed7fce32d447f04a6 tracepoint: Support iterating over tracepoints on modules
-d4df54f338e43c790460674a3cc7db35b8395421 tracepoint: Support iterating tracepoints in a loading module
-67e9a9ee476e862fda27803bdce888c04e4b3380 tracing/fprobe: Support raw tracepoint events on modules
-57a7e6de9e30cb40fd4b45e24e9eefedb84cdde5 tracing/fprobe: Support raw tracepoints on future loaded modules
-4e78dd6b4c27c5a6d057f179ff6c1ddd75a7a2ab sefltests/tracing: Add a test for tracepoint events on modules
 4771d2ecb7b9e4c2c73ede2908d7e7c989460981 drm/amdgpu/mes12: set enable_level_process_quantum_check
 126be9b2bef9c7068fdd464790d82e6d70f9d8e6 drm/amdgpu: sync to KFD fences before clearing PTEs
 e1d27f7a9cea1e0c06699164e3b177862e7b4096 drm/amdgpu: skip coredump after job timeout in SRIOV
@@ -1050,5 +1048,7 @@ a370b72ec7165ebe1230d0225cbe66f6526e68ef tracing: Add a comment about ftrace_reg
 a312a0f7834e605e7c41570f0e9525d0fc4a70a4 fgraph: Use fgraph data to store subtime for profiler
 3c9880f3ab52b52b5b4e1850a70e80dd7329cb4c ftrace: Use a running sleeptime instead of saving on shadow stack
 f1f36e22bee967db5e812a65e24389e54c46f3c2 ftrace: Have calltime be saved in the fgraph storage
+b6bcee4de808ece464cd02646750a4073710ce4e Merge bootconfig/for-next
+f8a50cc19bec1c172d5077fa7cd8a76a4e88be8f Merge ftrace/for-next
 
---===============2048274283492604428==--
+--===============0093560105747430145==--
