@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2547038690590104090=="
+Content-Type: multipart/mixed; boundary="===============4693451965954497264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Oct 2024 17:52:25 -0000
-Message-Id: <172780514514.2757689.3858364554612947694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 01 Oct 2024 17:52:33 -0000
+Message-Id: <172780515398.2757899.6697492549818605414@gitolite.kernel.org>
 
---===============2547038690590104090==
+--===============4693451965954497264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.13
-    old: a34b9d812d7ec95789b15ce84de5f03c6dd1137b
-    new: 436bf27903ee56a242bcd373053dd8d1b5d17915
-    log: revlist-a34b9d812d7e-436bf27903ee.txt
+  - ref: refs/heads/for-next
+    old: 5213bc61a110e850fdc3edfce1fed6c8c1b2abc1
+    new: 2e10b65de5882422341757e91313ab8e79f85420
+    log: revlist-5213bc61a110-2e10b65de588.txt
 
---===============2547038690590104090==
+--===============4693451965954497264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1727805155 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1727805142-969deef67b5d152ab06b60361539677b50709f6d
-
-a34b9d812d7ec95789b15ce84de5f03c6dd1137b 436bf27903ee56a242bcd373053dd8d1b5d17915 refs/heads/asoc-6.13
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb8NuMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Da4B/9FEk94/1ffLNAsLWHLfiHS92rgP8IJ
-s5hQjmXsDH/0fwKlGYXcnL/FiJdDFFTb0wdAAqKniYYGEbg2q1jkfLCAcfa6UI4b
-2B6C6Repr5P9VPNrPsW35xIkRUMoxD6Eq/RFutbVGByvqGeNFgJZeIARJvobME1N
-c3ftwRKDLOwz74rJusTIvFdFXjOuhBIKjOcT4UOzyhDb+vfuTO4Ez0F7ErQ7MQjX
-nzgCJ/v5SYGRLBlpCzHiSLuA1uVMjATsih7uOV2fXhxyXAO6Ss4VQcKFbaNkpQ91
-shukpnK7uKsW0pSfjO8/hy+zvxT2pDCD2fxH3thKX+sTnFigytTWSjfA
-=peIf
------END PGP SIGNATURE-----
-
---===============2547038690590104090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a34b9d812d7e-436bf27903ee.txt
+Content-Disposition: attachment; filename=revlist-5213bc61a110-2e10b65de588.txt
 
 5d9e6d6fc1b98c8c22d110ee931b3b233d43cd13 dt-bindings: vendor-prefixes: Add NeoFidelity, Inc
 ba1850dc0f2b5638a4a6aa16905c1856dc17587b ASoC: codecs: Add NeoFidelity Firmware helpers
@@ -86,5 +61,6 @@ fe320cd2a5547eab8876c3b8872315de6307f125 ASoC: improve some macro definitions an
 6e393cce8c431847f602b3b366547028e0cb296c ASoC: Updates for mchp-spdif(tx/rx)
 0243533fe2fc6b9aa9843b5cd4c1b0088b5363eb {ASoC,media}: constify snd_soc_component_driver
 436bf27903ee56a242bcd373053dd8d1b5d17915 ASoC: Add NTP8918 and NTP8835 codecs support
+2e10b65de5882422341757e91313ab8e79f85420 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
 
---===============2547038690590104090==--
+--===============4693451965954497264==--
