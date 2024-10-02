@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1825605512992284587=="
+Content-Type: multipart/mixed; boundary="===============0298463280103881962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 02 Oct 2024 10:41:53 -0000
-Message-Id: <172786571394.3553321.5326560199251893712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 02 Oct 2024 10:45:25 -0000
+Message-Id: <172786592521.3556821.11251702295982559520@gitolite.kernel.org>
 
---===============1825605512992284587==
+--===============0298463280103881962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 3c5d61ae919cc377c71118ccc76fa6e8518023f8
-    new: a71ef757c9f02c0992dfcb0af96771764bc43fc9
+  - ref: refs/heads/master
+    old: 6def328dfda4955c8b2e4cc652b087b14a5703f1
+    new: ffa527ef31c17cefd5bd8e0572bd989ab36bd6ec
     log: |
-         7cb4d99a42c18620cdc261cc1bdda74ebf30e244 SLUB: Add support for per object memory policies
-         f3b57ed0f6740a6ebb4175e228c06bc80a7f612d mm/kasan: Don't store metadata inside kmalloc object when slub_debug_orig_size is on
-         b0c543648f3bd67ce1d845991a57f232bd248f09 mm/slub: Consider kfence case for get_orig_size()
-         f97ac9f57ebbe7b89e256fbc3d8963587f4503aa mm/slub: Move krealloc() and related code to slub.c
-         d0a38fad51cc70ab3dd3c59b54d8079ac19220b9 mm/slub: Improve redzone check and zeroing for krealloc()
-         52aa2296a968f2513c56f20e9f97b85771f2573c mm/slub, kunit: Add testcase for krealloc redzone and zeroing
-         97519fa158293dd7cb56e2dadbd88763f86dc1d3 Merge branch 'slab/for-6.13/fixes' into slab/for-next
-         a71ef757c9f02c0992dfcb0af96771764bc43fc9 Merge branch 'slab/for-6.13/features' into slab/for-next
+         ffa527ef31c17cefd5bd8e0572bd989ab36bd6ec 6.10-stable patches
          
 
---===============1825605512992284587==
+--===============0298463280103881962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1727865724 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1727865709-83bb7b18d1456cc9ac0f3aa3980de8f3d1227dd2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1727865937 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1727865922-1b539d54717b7d53cfc5c6f7391a8bbe68dc6d95
 
-3c5d61ae919cc377c71118ccc76fa6e8518023f8 a71ef757c9f02c0992dfcb0af96771764bc43fc9 refs/heads/slab/for-next
+6def328dfda4955c8b2e4cc652b087b14a5703f1 ffa527ef31c17cefd5bd8e0572bd989ab36bd6ec refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmb9I3wACgkQu+CwddJF
-iJoRFwf/dQFLwnrQXuibDj4ZTSkWq/xkGvQSD+JFDorjzL2qvGK1E+Tp6/FsoNCf
-bKfsun8k8yhceBFr/Jd5PpeppPFgRZduUX7ndi6I1mmotObx+q4o37gWe2TX+a09
-hkaVmeP/W7EDOX1d7AOZjO62b9lx3dLQwFg1afXeQ0XFaLIm94y97Z+7bhWWrj+Z
-I+ZzElIWbLVB/EvYAByGGHE5ULNQqhMpuk8QmH+QB8xBsphQjUCe1llzEBzMHUHh
-L/blvIPuKedMerulOwvCI35LnFqj94eyM9Okd1dzbBDKdFsqm/8+69oIj74ZOpnu
-JsoPo8dtH6+M+BU6Bgxa1Xrqo9pptQ==
-=g1Ix
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb9JFEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OFUP/15PtxZwyyyhzfRCIeqs
+Z+/m0izvPToiH5eQQC4Sw/mw0G91H/eLaNpRuZy8wxh8t8siOz2hpSSn7zOQIscs
+67lWumj0CmIjaPAwmIj2zhnA0ayKfMQQlBOLP3FaqVtLgW8vgPpFUj2tfTdm2PCu
+TH4TAlzaWlm52WqccvcVqz/fQuW+Ycut05py5oPMi0cWbkaoqYLumjd3G7YcYplG
+NqqcnySJ+0KUVb676LVXn2NTbhezMSZfuRkWQ79zTbcWSapXjd7ddwWa1qJQRFd8
+5ISFdZTIb7I/BhmhPTcd1P5nxN99rdtMhUQ3+7ruw+VFnlD3GE/HCv9SACFrGtZ0
+AxORzuvSp9x2+bic/Sz8oDjRUrUr9a45XxtadDX+e7yujg2Oa5IbmOYoPgGhHdZa
+NCuVBJtHTPDB9Gi526GayeP+uyjYttcK26ELQw+LbZm6jHNbE4oUA6353wZz5Mbj
++bMZEkvwBSHe/tdf74KbudH3eLrom3B2shD0gQudhTtOJmszgQG19hUsXed+AORj
+wpFS+3WFAi9dk/kGZkkbRA7GNvigsun6b3U50WUcmTzXs08m36EuIT2pl+lvjcM8
+NT7ANspPNZB2VhAEzgtg3IjX3pTii76ZuP0cAqpc7zUZGukgMD4mUa1DbB6Y8m13
+PcE4QjW82qvvpzAMVC8Nfvak
+=2qcH
 -----END PGP SIGNATURE-----
 
---===============1825605512992284587==--
+--===============0298463280103881962==--
