@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1167809691601238412=="
+Content-Type: multipart/mixed; boundary="===============4661450839523380600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 02 Oct 2024 22:35:33 -0000
-Message-Id: <172790853360.4150528.4885317976695060854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 02 Oct 2024 22:35:36 -0000
+Message-Id: <172790853674.4150696.43776021125666423@gitolite.kernel.org>
 
---===============1167809691601238412==
+--===============4661450839523380600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f23aa4c0761a70bfd046dd5755281667f0769a94
     log: revlist-e32cde8d2bd7-f23aa4c0761a.txt
 
---===============1167809691601238412==
+--===============4661450839523380600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f811b83879fb6717cdb288e34253cf26d135b019 dm-verity: introduce the options restar
 0d2746a208ea5faaaccf9a5e97ad214cff0942f5 Merge tag 'input-for-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 f23aa4c0761a70bfd046dd5755281667f0769a94 Merge tag 'hid-for-linus-2024090201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============1167809691601238412==--
+--===============4661450839523380600==--
