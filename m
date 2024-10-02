@@ -1,38 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1159064964654754498=="
+Content-Type: multipart/mixed; boundary="===============6743473929838999293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Wed, 02 Oct 2024 20:56:45 -0000
-Message-Id: <172790260573.4071984.2511316510677480657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 02 Oct 2024 20:56:51 -0000
+Message-Id: <172790261142.4072218.11457218013161248823@gitolite.kernel.org>
 
---===============1159064964654754498==
+--===============6743473929838999293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 19c9d55d72a9040cf9dc8de62633e6217381106b
+    old: d19a9e25a722d629041ac8fd320a86c016e349d1
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-19c9d55d72a9-9852d85ec9d4.txt
+    log: revlist-d19a9e25a722-9852d85ec9d4.txt
   - ref: refs/heads/next
-    old: f89722faa31466ff41aed21bdeb9cf34c2312858
+    old: 83f8b733c9b74d0907b292dec39e8f3d071c8b70
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-f89722faa314-9852d85ec9d4.txt
+    log: revlist-83f8b733c9b7-9852d85ec9d4.txt
   - ref: refs/heads/stable-6.12
-    old: f89722faa31466ff41aed21bdeb9cf34c2312858
+    old: d19a9e25a722d629041ac8fd320a86c016e349d1
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-f89722faa314-9852d85ec9d4.txt
+    log: revlist-d19a9e25a722-9852d85ec9d4.txt
 
---===============1159064964654754498==
+--===============6743473929838999293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c9d55d72a9-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-d19a9e25a722-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1059,15 +1059,12 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============1159064964654754498==
+--===============6743473929838999293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f89722faa314-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-83f8b733c9b7-9852d85ec9d4.txt
 
-9290038be2f91917d384b48f85665c4498c378f3 cifs: convert to use ERR_CAST()
-25e68c37caf2b87c7dbcd99c54ec3102db7e4296 smb: client: Use min() macro
-6795dab403924e98ea32f23254d1fe5749e78a74 cifs: Remove obsoleted declaration for cifs_dir_open
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
 94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
@@ -1434,6 +1431,7 @@ a65b3c3ed49a3b8068c002e98c90f8594927ff25 Merge tag 'hid-for-linus-2024091602' of
 176000734ee2978121fde22a954eb1eabb204329 Merge tag 'ata-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 58ff537109ac863d4ec83baf8413b17dcc10101c riscv: Omit optimized string routines when using KASAN
 77514915b72c51ebc1c30a67a54d4a90ca2a4a39 riscv: Enable bitops instrumentation
+ea7e2d5e49c05e5db1922387b09ca74aa40f46e2 mm: call the security_mmap_file() LSM hook in remap_file_pages()
 583543760976a4ba111d5e2e1b2c6cfb665fcc45 Merge patch series "riscv: Improve KASAN coverage to fix unit tests"
 de848da12f752170c2ebe114804a985314fd5a6a Merge tag 'drm-next-2024-09-19' of https://gitlab.freedesktop.org/drm/kernel
 726e2d0cf2bbc14e3bf38491cddda1a56fe18663 Merge tag 'dma-mapping-6.12-2024-09-19' of git://git.infradead.org/users/hch/dma-mapping
@@ -1482,6 +1480,7 @@ bb78146c18ac67f22cabb2448b501bcac30f8801 Merge branch 'pci/controller/xilinx'
 ca5c65687e3e0370623e9e5d4e1a2aab8ebe20fd Merge branch 'pci/quirks'
 5dc07a20ac1c6882e191f821f9c75edde958224d Merge branch 'pci/misc'
 81e53c0da8f8b153e049036e5ca5ca20e811c0c8 Merge branch 'pci/tools'
+8a23c9e1ba4642b60420e8caa75859883a509c24 selinux,smack: properly reference the LSM blob in security_watch_key()
 5f5e7344322f0b0676579af054c787ed57d1c1df kbuild: generate offset range data for builtin modules
 ac7bd0945e3db5253bd03bfc40e71afafb08d225 scripts: add verifier script for builtin module range data
 ae70d708c932e7bc08b6c1975e1a010ee0b4e272 kbuild: add install target for modules.builtin.ranges
@@ -1760,6 +1759,7 @@ b9f5dd57f4a52990963eeb1f1b58d00f717ece69 nfs/localio: use dedicated workqueues f
 f7128262b15287e4be501e30f9e1f0258606a593 nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
 736cd2c1ae7f911df9aae0e647899b49bdbccdb8 nfs: add "NFS Client and Server Interlock" section to localio.rst
 3a37872316c2e3288e09a1322221c83e5929768d Merge tag 'pci-v6.12-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+f89722faa31466ff41aed21bdeb9cf34c2312858 ipe: Add missing terminator to list of unit tests
 d7dfb07d4dacfc3d8fa553fe76f055724e2c7210 Merge tag 'firewire-updates-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 5f153b63302af24e7f807b0208f380f5c8654df4 Merge tag 'ntb-6.12' of https://github.com/jonmason/ntb
 962ad08780a5bfb3240bc793e565181eacfceafb Merge tag 'pinctrl-v6.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
@@ -2090,4 +2090,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============1159064964654754498==--
+--===============6743473929838999293==--
