@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4410042449734037251=="
+Content-Type: multipart/mixed; boundary="===============3860236956743523360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 02 Oct 2024 17:50:04 -0000
-Message-Id: <172789140433.3923844.13316620938130343605@gitolite.kernel.org>
+Date: Wed, 02 Oct 2024 17:50:35 -0000
+Message-Id: <172789143525.3924485.18388095155282249268@gitolite.kernel.org>
 
---===============4410042449734037251==
+--===============3860236956743523360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
-    old: 8d6f03ed42b89bff5af467647e8a9f63d6a1d59f
+  - ref: refs/heads/ath12k-mlo-qcn9274
+    old: 83fcc7003bd768a302c868ec35adb85b10d2851d
     new: e0e848205bfb7a6d7e31657aad4270896c2e8e07
-    log: revlist-8d6f03ed42b8-e0e848205bfb.txt
-  - ref: refs/tags/ath12k-mlo-202410021750
+    log: revlist-83fcc7003bd7-e0e848205bfb.txt
+  - ref: refs/tags/ath12k-mlo-qcn9274-202410021750
     old: 0000000000000000000000000000000000000000
     new: e0e848205bfb7a6d7e31657aad4270896c2e8e07
 
---===============4410042449734037251==
+--===============3860236956743523360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d6f03ed42b8-e0e848205bfb.txt
+Content-Disposition: attachment; filename=revlist-83fcc7003bd7-e0e848205bfb.txt
 
+72f999b8bccf1532620331f6275f1e32a86ccf4e wifi: ath12k: fix use-after-free in ath12k_dp_cc_cleanup()
+98cd507772ebc10c865cdbce507aa4b8ca197376 wifi: mac80211: fix assigning channel in activate links
+222e6945f26d064c2810e57232dab7d3b2169601 wifi: ath12k: Refactor core start api
+17ec26ec701ab81013de3f5ecd3895f42c68f39b wifi: ath12k: Add helpers to get or set ath12k_hw
+6be4a5f9d2069462f6dcb9b0e061853ee8717d86 wifi: ath12k: Add ath12k_get_num_hw api
+3fa3e3590a1e281a184d0828b372148bf5c51de6 wifi: ath12k: Introduce QMI firmware ready flag
+1b9d9ee8622b46b45c96f3931fab53249c94cea3 wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
 3799c5bce0e6c7cb018f973c23c83d92d60d51ed wifi: ath12k: rename mlo_capable_flags to single_chip_mlo_supp
 7c4a293acd5c7c3082fc1fffb6c1e07a78bfb45e wifi: ath12k: Introduce device group abstraction
 2526fa497c49cb705fe41be58a409f6949b0b831 wifi: ath12k: refactor core start based on hardware group
@@ -93,4 +100,4 @@ b59f715cd5657cbb7b035bb557d68555efc48b43 wifi: ath12k: pass link ID during MLO w
 f126ca387d54bab39afa2953358adbcc69192ac0 wifi: ath12k: remove warning print in htt mlo offset event message
 e0e848205bfb7a6d7e31657aad4270896c2e8e07 wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
 
---===============4410042449734037251==--
+--===============3860236956743523360==--
