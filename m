@@ -1,31 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0070250608001430598=="
+Content-Type: multipart/mixed; boundary="===============4973263596044316923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 02 Oct 2024 09:28:28 -0000
-Message-Id: <172786130848.3490423.8991753995807302077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Wed, 02 Oct 2024 09:33:03 -0000
+Message-Id: <172786158399.3494521.17132847330283710631@gitolite.kernel.org>
 
---===============0070250608001430598==
+--===============4973263596044316923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/perf/core
-    old: bac2a553dbf2c4f749682407b8bb5cef71f8eba3
-    new: 123bf632090070806535d3474eb1ce73c24c9ec0
-    log: revlist-bac2a553dbf2-123bf6320900.txt
+  - ref: refs/heads/v6.12-next/dts64
+    old: cd27b88ddd951bc50c19e7cc0edc375560a73181
+    new: ca80f75083f692d8bfffaaeb5940bf04ccd893fa
+    log: revlist-cd27b88ddd95-ca80f75083f6.txt
 
---===============0070250608001430598==
+--===============4973263596044316923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bac2a553dbf2-123bf6320900.txt
+Content-Disposition: attachment; filename=revlist-cd27b88ddd95-ca80f75083f6.txt
 
+1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+79f1a6adef3718c295b2ffb403049f15d5a2797d Merge tag 'x86_microcode_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d0a63f0e1a9506c79df997e70f7fad95a8236b1c Merge tag 'ras_core_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b56dff267d1246a6cd4a6ae1f850e12893dadf94 Merge tag 'x86_sev_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d580d74ea2836edbbd49cd791eb5d0acad7b14aa Merge tag 'x86_cpu_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+963d0d60d690ce2525a8fbcc0a63c4ae22f4670c Merge tag 'x86_bugs_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a4ebad655b98c91c10cf0690e66c11b0891c76ee Merge tag 'x86_sgx_for_6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8617d7d6298f54dfef4038281863270b5864fe83 Merge tag 'mips_6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+114143a595895c03fbefccfd8346fc51fb4908ed Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+980bcd35ae0a21da9a22155e386c8ff17019d545 Merge tag 'cmpxchg.2024.09.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+64dd3b6a79f0907d36de481b0f15fab323a53e5a Merge tag 'for-linus-non-x86' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+11b3125073d16929403d3aa7b2ae6a482060a937 Merge tag 'acpi-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+02824a5fd11f99b4637668926a59aab3698b46a9 Merge tag 'pm-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d22300518d875f78203e9afacb5aa0b0316da523 Merge tag 'thermal-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+9498f2e24ee0133d486667c9fa4c27ecdaadc272 drm/i915/psr: Do not wait for PSR being idle on on Panel Replay
+fcd33d434d31a210bc9f209b5bfd92f3b91a2dda drm/i915/display: BMG supports UHBR13.5
+ec2231b8dd2dc515912ff7816c420153b4a95e92 drm/i915/dp: Fix AUX IO power enabling for eDP PSR
+8f72c31f45a575d156cfe964099b4cfcc02e03eb Merge tag 'vfs-6.12.misc' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+2775df6e5e324be9dc375f7db2c8d3042df72bbf Merge tag 'vfs-6.12.folio' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 3352633ce6b221d64bf40644d412d9670e7d56e3 Merge tag 'vfs-6.12.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ee25861f26e7a2213b97ce21ee1ccd98331a75b1 Merge tag 'vfs-6.12.fallocate' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e8fc317dfca9021f0ea9ed77061d8df677e47a9f Merge tag 'vfs-6.12.procfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -750,7 +770,6 @@ d97079e97eab20e08afc507f2bed4501e2824717 ceph: fix a memory leak on cap_auths in
 0039aebfe87129fae1e3567cb6de7a99dbb3ba28 ceph: Fix typo in the comment
 74249188f31827cf1eeeee8e06474c2fbe2fc1d2 ceph: Remove empty definition in header file
 c08dfb1b49492c09cf13838c71897493ea3b424e ceph: remove the incorrect Fw reference check when dirtying pages
-42268ad0eb4142245ea40ab01a5690a40e9c3b41 sched_ext: Build fix for !CONFIG_SMP
 fa8380a06bd0523e51f826520aac1beb8c585521 Merge tag 'bpf-next-6.12-struct-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 79952bdcbcea53e57c2ca97e7448f8a6bdb6106a Merge tag 'f2fs-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 4165cee7ecb112c20bc1a05fa8d93d16d11b68c2 Merge tag 'exfat-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
@@ -842,8 +861,6 @@ c6bae35fd67087e2dd2d874d0553e59b2f132424 HID: hid-goodix: drop unsupported and u
 b2149f948c2d60880f94a68cc784eeefe1e78b77 Merge tag 'rtc-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 fe29393877be63363247510b99ae9a8068cacb31 Merge tag 'spi-fix-v6.12-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 11a299a7933e03c83818b431e6a1c53ad387423d Merge tag 'for-6.12/block-20240925' of git://git.kernel.dk/linux
-1e123fd73deb16cb362ecefb55c90c9196f4a6c2 sched_ext: Add __COMPAT helpers for features added during v6.12 devel cycle
-a748db0c8c6a88da66c3ab3791bd1a229f4a7fee tools/sched_ext: Receive misc updates from SCX repo
 d782d6e1d9078d6b82f8468dd6421050165e7d75 ksmbd: remove unsafe_memcpy use in session setup
 8e2f6a0e2dc9db663b4ba2225822e7a3c4047bfb ksmbd: fix open failure from block and char device file
 9e676e571d39eb6189bf6d55a9c401ba2dd13410 ksmbd: Correct typos in multiple comments across various files
@@ -919,11 +936,6 @@ a8387ddc0d15a365dd04baaa325a863d3612e020 drm/amdgpu: fix vbios fetching for SR-I
 34ad56a467c320d07db22146cfb99ee01704a5de drm/amdgpu: bump driver version for cleared VRAM
 d7d2688bf4ea58734d73e18edcbf4684b1496d30 drm/amd/pm: update workload mask after the setting
 df9b455633aee0bad3e5c3dc9fc1c860b13c96d2 netfs: Fix write oops in generic/346 (9p) and generic/074 (cifs)
-c9c809f4137c3c0f962226c10d245d3ce2fd5b7c scx_flatcg: Use a user DSQ for fallback instead of SCX_DSQ_GLOBAL
-63fb3ec80516b256e9fc91de48567f5eda61d135 sched_ext: Allow only user DSQs for scx_bpf_consume(), scx_bpf_dsq_nr_queued() and bpf_iter_scx_dsq_new()
-bba26bf356d1c1314a7bb24041c64c5784febbb0 sched_ext: Relocate find_user_dsq()
-b7b3b2dbae73b412c2d24b3d0ebf1110991e4510 sched_ext: Split the global DSQ per NUMA node
-6f34d8d382d64e7d8e77f5a9ddfd06f4c04937b0 sched_ext: Use shorter slice while bypassing
 b0abcd65ec545701b8793e12bc27dc98042b151a smb: client: fix UAF in async decryption
 f7025d861694362348efc14eaad6a17840c4e9a4 smb: client: allocate crypto only for primary server
 a13ca780afab350f37f8be9eda2bf79d1aed9bdd smb: client: stop flooding dmesg in smb2_calc_signature()
@@ -937,13 +949,6 @@ efbc6bd090f48ccf64f7a8dd5daea775821d57ec Documentation: KVM: fix warning in "mak
 e5f0e38e7ece5b35577faa9bfbe5ec56091ec76b Merge tag 'driver-core-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 b6c49fca9f810c7279ea59937dd3a01a2906d11a Merge tag 'ata-6.12-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 e477dba5442c0af7acb9e8bbbbde1108a37ed39c Merge tag 'for-6.12/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-da6ef2dffe6056aad3435e6cf7c6471c2a62187c cachefiles: fix dentry leak in cachefiles_open_file()
-2cf36327ee1e47733aba96092d7bd082a4056ff5 afs: Fix missing wire-up of afs_retry_request()
-8a46067783bdff222d1fb8f8c20e3b7b711e3ce5 pidfs: check for valid pid namespace
-f94d54208f25dc93f3bcae9e725a582380a503b1 afs: Fix possible infinite loop with unresponsive servers
-19dcfb9c1685d45ba96852e021415134865b0a95 afs: Remove unused struct and function prototype
-ff98751bae40faed1ba9c6a7287e84430f7dec64 afs: Fix the setting of the server responding flag
-9fffa4e9b3b158f63334e603e610da7d529a0f9a netfs: Advance iterator correctly rather than jumping it
 653608c67ae3dce1c5dee8c620ce6016e174bbd1 Merge tag 'for-linus-6.12-rc1a-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 26de8614d83f1f1a0b0b0a300e3be40a95b9a340 Merge tag 'i2c-host-fixes-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 ec38498450a96a8d85f0409d9e4a41415cde9c1d Merge tag 'sh-for-v6.12-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
@@ -956,15 +961,6 @@ ba33a49fcd42a94d405221cd0677388db1b69ed2 Merge tag 'tomoyo-pr-20240927' of git:/
 34e1a5d43c5deec563b94f3330b690dde9d1de53 Merge tag 'random-6.12-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 0c33037c825e47f64f426999db7192604e6d3188 ovl: fix file leak in ovl_real_fdget_meta()
 12cc5240f41a90b7fabc075c92c04846670c6932 Merge tag 'uml-for-linus-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-1bbcfe620e03aafc542b1c649dea0a9499a4490f sched_ext: Relocate check_hotplug_seq() call in scx_ops_enable()
-fc1fcebead344360979ea9407029f9c8a99d718f sched_ext: Remove SCX_OPS_PREPPING
-8c2090c504e998c8f34ec870bae71dafcc96a6e0 sched_ext: Initialize in bypass mode
-9753358a6a2b011478e8efdabbb489216252426f sched_ext: Fix SCX_TASK_INIT -> SCX_TASK_READY transitions in scx_ops_enable()
-4269c603cc26df154e0db303a9347e6ec3cc805e sched_ext: Enable scx_ops_init_task() separately
-568894edbe48f0878f787ed533dc9dbfd09c0fbe sched_ext: Add scx_cgroup_enabled to gate cgroup operations and fix scx_tg_online()
-160216568cddc9d6e7f36133ba41d25459d90de4 sched_ext: Decouple locks in scx_ops_disable_workfn()
-efe231d9debf6db812bebb262407c95b21cdb8a2 sched_ext: Decouple locks in scx_ops_enable()
-95b873693a0841e02b812e693296a884362fdd51 sched_ext: Remove redundant p->nr_cpus_allowed checker
 ad46e8f95e931e113cb98253daf6d443ac244cde Merge tag 'pm-6.12-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 9cf14f5a2746c19455ce9cb44341b5527b5e19c3 fbdev: sisfb: Fix strbuf array overflow
 e7268dd9bb9953a9eb0df9948abf5195bf474538 Merge tag 'amd-drm-fixes-6.12-2024-09-27' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1031,24 +1027,28 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-34820304cc2cd1804ee1f8f3504ec77813d29c8e uprobes: fix kernel info leak via "[uprobes]" vma
-2007d28ec0095c6db0a24fd8bb8fe280c65446cd bcachefs: rename version -> bversion for big endian builds
-28e8c5c095ec28edeedab5e976e62e0419a89fc1 netfs: Add folio_queue API documentation
-f801850bc263d7fa0a4e6d9a36cddf4966c79c14 netfs: Fix the netfs_folio tracepoint to handle NULL mapping
-a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-190ecde722dd0531d087a9964537560aa35c769b Merge tag 'probes-fixes-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-86bd80ad946ad2b9cc5550ae968a13d2be5a8fdd uprobes: switch to RCU Tasks Trace flavor for better performance
-04611ee702670ac483efe347dd20786bb20f85a2 perf/x86: Refine hybrid_pmu_type defination
-29a0a92777597927a2e147b1f13b6726ff166cee x86/cpu/intel: Define helper to get CPU core native ID
-b9f282d7e42906ddc17c25e3bd8e6d4032888742 perf/x86/intel: Support hybrid PMU with multiple atom uarchs
-e85d9e8fc71ab08ed398d6e8ab5d01a5f4ceba10 perf/x86/intel: Add PMU support for ArrowLake-H
-ebdf5bc22e5aa8c1c7d23ac59955955e96460953 uprobes: don't abuse get_utask() in pre_ssout() and prepare_uretprobe()
-35819e2a826e473afcc8fbb9d4614d8b86866d67 uprobes: sanitiize xol_free_insn_slot()
-36c3d1ea04f7eb35855d5993955237791c0dc6e9 uprobes: kill the unnecessary put_uprobe/xol_free_insn_slot in uprobe_free_utask()
-a6229465676195317303fb45ec338f752802d7df uprobes: simplify xol_take_insn_slot() and its caller
-f58b0a35085be8527cb5ba293ed63ad193e4d4d9 uprobes: move the initialization of utask->xol_vaddr from pre_ssout() to xol_get_insn_slot()
-df2df9660568f5e185788923b49165a969855096 uprobes: pass utask to xol_get_insn_slot() and xol_free_insn_slot()
-123bf632090070806535d3474eb1ce73c24c9ec0 uprobes: deny mremap(xol_vma)
+4007651c25553b10dbc6e7bff6b7abd2863c1702 arm64: dts: mediatek: mt8188: Fix wrong clock provider in MFG1 power domain
+0158b773a886156d8585d7c066c3323bd674625b arm64: dts: mediatek: mt8390-genio-700-evk: Enable Mali GPU
+ad9d9e158ba0a109a85dfd4331d78774fd2fc5be arm64: dts: mediatek: mt8188: Add missing dma-ranges to soc node
+c1134cbf001082925656c6ac4f38e8751d87b0f9 arm64: dts: mediatek: mt8188: Update vppsys node names to syscon
+66c466dae8a620010df24b636c3cffd15292e2bb arm64: dts: mediatek: mt8188: Move vdec1 power domain under vdec0
+08ea5de59db8201aa99b21c14e2a2b646b7f7008 arm64: dts: mediatek: mt8188: Move SPI NOR *-cells properties
+752804acea010959bb3a00c65acdf78086a8474c arm64: dts: mediatek: mt8395-genio-1200-evk: Fix dtbs_check error for phy
+0fc557b539a1e11bdc5053a308b12d84ea754786 arm64: dts: mt8195: Fix dtbs_check error for mutex node
+c14ab45f5d458073248ddc62d31045d5d616806f arm64: dts: mt8195: Fix dtbs_check error for infracfg_ao node
+377548f05bd0905db52a1d50e5b328b9b4eb049d arm64: dts: mediatek: mt8183-kukui: Disable DPI display interface
+72f3e3d68cfda508ec4b6c8927c50814229cd04e arm64: dts: mediatek: mt8183-pumpkin: add HDMI support
+43a9d9ea62efafa5457765a20f68f83d9a70a84a arm64: dts: mediatek: mt8186: add FHCTL node
+925ebc0cd55c8eebe3dc688fbf9d13d877cd6a88 arm64: dts: mt8192-asurada-spherion: Add Synaptics trackpad support
+ec1a37b3cd0cf9a1bf88816a5342fb06e3316b34 arm64: dts: mt8183: Add port node to dpi node
+3bbae49ea02862b3358914337f3d3e8911be4d28 arm64: dts: mediatek: mt8188: Add CPU performance controller for CPUFreq
+43fc1bd08e5bc50d48f17ef8d9164bb0bf605578 arm64: dts: mediatek: mt8188: Add SMI/LARB/IOMMU support
+41eb8f7ad206948d7ac952db78c075f1f903476c arm64: dts: mediatek: mt8188: Add PWM nodes for display backlight
+86bc9aefaef7190b74699e55eb2da3d6f07c19f2 arm64: dts: mediatek: mt8188: Add SPMI support for PMIC control
+4dbec3a59a7197fe322e641593afc99daac8b826 arm64: dts: mediatek: mt8188: Add audio support
+a4503b598ed20a33f142ab22aa6111c05d513888 arm64: dts: mediatek: mt8188: Add socinfo nodes
+a0fc74a438c3fc088e8c3c116c2165ff2a3b212e arm64: dts: mediatek: mt8395-genio-1200-evk: Enable GPU
+4045f71f24d81235d0554b25257e56962ff8e9e2 arm64: dts: mt8183: Add encoder node
+ca80f75083f692d8bfffaaeb5940bf04ccd893fa arm64: dts: mt8183: set DMIC one-wire mode on Damu
 
---===============0070250608001430598==--
+--===============4973263596044316923==--
