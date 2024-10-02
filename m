@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 02 Oct 2024 21:16:15 -0000
-Message-Id: <172790377566.4088093.2228026698882029024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 02 Oct 2024 21:21:57 -0000
+Message-Id: <172790411714.4092383.535847450256935094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 3ed6be68913b2d56a35d30c67f83ba3d2f1998fc
-    new: bcd28cfd04ebd3f871443e4746e511147686e517
+  - ref: refs/heads/next-unaligned
+    old: 134d988208602ccae792e91475c05911c962798e
+    new: 00429083f404efe230fee577aa3dfbf2dea9b1f1
     log: |
-         ca9984c5f0ab3690d98b13937b2485a978c8dd73 bpf: devmap: provide rxq after redirect
-         49ebeb0c15e86548822a8fc8c5ac34c70709c1aa bpf: selftests: send packet to devmap redirect XDP
-         bcd28cfd04ebd3f871443e4746e511147686e517 Merge branch 'bpf: devmap: provide rxq after redirect'
+         00429083f404efe230fee577aa3dfbf2dea9b1f1 arc: get rid of private asm/unaligned.h
+         
+  - ref: refs/heads/work.headers.unaligned
+    old: 70034590d3c1a36e6d77c25da69dd7e2bf358137
+    new: 5f60d5f6bbc12e782fac78110b0ee62698f3b576
+    log: |
+         00429083f404efe230fee577aa3dfbf2dea9b1f1 arc: get rid of private asm/unaligned.h
+         5f60d5f6bbc12e782fac78110b0ee62698f3b576 move asm/unaligned.h to linux/unaligned.h
          
