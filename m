@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 02 Oct 2024 17:52:37 -0000
-Message-Id: <172789155785.3925351.14484512503733063900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Wed, 02 Oct 2024 17:56:47 -0000
+Message-Id: <172789180798.3929099.9987856519438721541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: afa602cea6ef92c31eeeca849afe8ab0e1929320
-    new: 4e48a99c20626e3c7bb5f256aa37bfafd3f20316
-    log: |
-         a2a32572090f99213cece66724c46f438b9fc770 ACPI: battery: Simplify battery hook locking
-         4841fec3c97b6a6c86185ba9380bcbf70694b492 ACPI: battery: Fix possible crash when unregistering a battery hook
-         4e48a99c20626e3c7bb5f256aa37bfafd3f20316 Merge branch 'acpi-battery' into bleeding-edge
-         
+  - ref: refs/heads/bpf/slab-iter-v4
+    old: 0000000000000000000000000000000000000000
+    new: 2941faf08c4c0c782881cfe9e8b7e1b6432a6212
