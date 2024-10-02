@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8758688830527295302=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 02 Oct 2024 00:49:04 -0000
-Message-Id: <172783014449.3083784.17919085985532083921@gitolite.kernel.org>
-
---===============8758688830527295302==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+Date: Wed, 02 Oct 2024 00:49:16 -0000
+Message-Id: <172783015696.3083975.6014472959021782060@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+user: djwong
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 80f192724e314ba860206e51bc1e3bc1ac7f58dd
-    new: a15e4942448e4a076f46f581993a4f9f5bc87607
-    log: revlist-80f192724e31-a15e4942448e.txt
-
---===============8758688830527295302==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80f192724e31-a15e4942448e.txt
-
-3efa696e390da0ff089794efbf60fcafbecd574e tools check_headers.sh: Add check variant that excludes some hunks
-7919d23794cc42f3c9abaf450112fa20b069c3d1 perf tools: Cope with differences for lib/list_sort.c copy from the kernel
-95a8b2c27d4f40d969b6a18dbc6c8f6dfe5d13c4 perf jevents: Don't stop at the first matched pmu when searching a events table
-d5016fcfc01e1cbc7ca505df4415691bb7bca1e3 perf disasm: Fix capstone memory leak
-5a65ad01637de2123cf3855488745bb4db5f8aca perf probe: Fix libdw memory leak
-b87e664e5b8793ba3f9ed7f17173911e4a0ac3c5 perf build: Fix !HAVE_DWARF_GETLOCATIONS_SUPPORT
-8647b9b09a754740d3a413e38d2b517993671924 perf stat: Fix affinity memory leaks on error path
-f89476387ae4823c7848df9f66bfc0d0d8b99694 perf test: Fix memory leaks on event-times error paths
-74940286f36b3d80e799053c85e4066f0bfcf349 perf test: Skip not fail tp fields test when insufficient permissions
-29fe4ce01c6b6f89f06fc0aea6d54e1b0ac2acec perf test: Skip not fail syscall tp fields test when insufficient permissions
-7598345c5f886837a983d27a9ac6f7f3703f8b6d tools/perf: Correctly calculate sample period for inherited SAMPLE_READ values
-ec662d3278710c0eb7fd08b115be191336ca90a4 tools/perf: Allow inherit + PERF_SAMPLE_READ when opening events
-a15e4942448e4a076f46f581993a4f9f5bc87607 perf/test: perf test 86 fails on s390
-
---===============8758688830527295302==--
+  - ref: refs/tags/atomic-file-commits-6.12_2024-10-01
+    old: dd79bb5760c02d795b0453b36e981c47cb091002
+    new: c825d8773d39a319726c5229b84ecd3d998b9dc5
+  - ref: refs/tags/debian-modernize-6.11_2024-10-01
+    old: e74da2bb2260f9dd98c5b809dd366ab56087beab
+    new: 45f1132bbdab37a05be4738052df495c5e26b2c9
+  - ref: refs/tags/debug-realtime-geometry-6.12_2024-10-01
+    old: 69b6d181dc62b82b2d3d2064eaaaff54f30bd862
+    new: f0a5565392b7e9327c863d720fd838cd13e6603c
+  - ref: refs/tags/libattr-remove-6.11_2024-10-01
+    old: 18322c2a7448937b311479a6f9344b21b2dd8138
+    new: 36ec69a2c3e25d6b3907185422d3a217a67865e3
+  - ref: refs/tags/libxfs-sync-6.11_2024-10-01
+    old: 0f4fb659d93202ce830944473894a0f4de25f473
+    new: 2cda9b051d23caac08391b9e03ac23d6d037d3a9
+  - ref: refs/tags/libxfs-sync-6.12_2024-10-01
+    old: 195ed4f0ae3f93b9824d4275911f1f53bde20cea
+    new: bdbfc28ea1bc4c3dda7c4d906e3fd0eceadbeffe
+  - ref: refs/tags/metadump-external-devices-6.12_2024-10-01
+    old: bf572c0c3ded9cfdc2a3bc0a3c8286360f838488
+    new: b037f27b59b9dbedf662a527e22261d65723c2e1
+  - ref: refs/tags/misc-use-rtbitmap-helpers-6.12_2024-10-01
+    old: 388dad4c319f24026a5710af93ced4750c137bad
+    new: 43b14285e3412ba6c21b6b3516ac7ee96175f01e
+  - ref: refs/tags/mkfs-icreate-cleanups-6.11_2024-10-01
+    old: c7f3b7785a07c304e815c766e5cde06cb66b37b9
+    new: e2e6d9ed6cb952e78f59fffe2e136a935bfa9d35
+  - ref: refs/tags/repair-cleanups-6.11_2024-10-01
+    old: d77772afdd645f75a1a49fab5175f721f67ce3b6
+    new: 9a8247b017d15672ec9aa34c06a1bdc06d1ee697
+  - ref: refs/tags/xfsprogs-port-6.11_2024-10-01
+    old: 62293e4498d9fe4ef383edf052854699431de8e0
+    new: f5eea1943b699d985cc0e0665b2e37dd36aa8257
