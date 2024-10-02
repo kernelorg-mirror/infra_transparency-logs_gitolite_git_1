@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3606412419085871431=="
+Content-Type: multipart/mixed; boundary="===============0070250608001430598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 02 Oct 2024 09:28:13 -0000
-Message-Id: <172786129351.3490214.2908663305065334621@gitolite.kernel.org>
+Date: Wed, 02 Oct 2024 09:28:28 -0000
+Message-Id: <172786130848.3490423.8991753995807302077@gitolite.kernel.org>
 
---===============3606412419085871431==
+--===============0070250608001430598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: a74385e9baf94685e49c53b67b63c5618747bc63
-    new: 927731dfa8be3059636e928c62518d0fafd901f0
-    log: revlist-a74385e9baf9-927731dfa8be.txt
+  - ref: refs/heads/perf/core
+    old: bac2a553dbf2c4f749682407b8bb5cef71f8eba3
+    new: 123bf632090070806535d3474eb1ce73c24c9ec0
+    log: revlist-bac2a553dbf2-123bf6320900.txt
 
---===============3606412419085871431==
+--===============0070250608001430598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a74385e9baf9-927731dfa8be.txt
+Content-Disposition: attachment; filename=revlist-bac2a553dbf2-123bf6320900.txt
 
-fcd33d434d31a210bc9f209b5bfd92f3b91a2dda drm/i915/display: BMG supports UHBR13.5
-ec2231b8dd2dc515912ff7816c420153b4a95e92 drm/i915/dp: Fix AUX IO power enabling for eDP PSR
-8f72c31f45a575d156cfe964099b4cfcc02e03eb Merge tag 'vfs-6.12.misc' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-2775df6e5e324be9dc375f7db2c8d3042df72bbf Merge tag 'vfs-6.12.folio' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 3352633ce6b221d64bf40644d412d9670e7d56e3 Merge tag 'vfs-6.12.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ee25861f26e7a2213b97ce21ee1ccd98331a75b1 Merge tag 'vfs-6.12.fallocate' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e8fc317dfca9021f0ea9ed77061d8df677e47a9f Merge tag 'vfs-6.12.procfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1042,13 +1038,17 @@ f801850bc263d7fa0a4e6d9a36cddf4966c79c14 netfs: Fix the netfs_folio tracepoint t
 a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 190ecde722dd0531d087a9964537560aa35c769b Merge tag 'probes-fixes-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-be52a0b9d87298fb1c4006e2235c2089112c953b sched: change wake_up_bit() and related function to expect unsigned long *
-94f0fa6bce957a56923c4aa8267c9d11f09254a7 sched: Improve documentation for wake_up_bit/wait_on_bit family of functions
-68b3d2869f3500de7f9c27a6a08416bf6cb7b4e5 sched: Document wait_var_event() family of functions and wake_up_var()
-0bcbcb7d9eb6ddec0086a0c6bd7b86fa07e25de1 sched: Add test_and_clear_wake_up_bit() and atomic_dec_and_wake_up()
-d741c36545ae65d7680fb112e5b971f92b7c15ca sched: Add wait/wake interface for variable updated under a lock.
-a4ac8cdc1f3f0335841c668828e9ecd85905453a sched: add wait_var_event_io()
-8fb1d15013b876df4727edf6b24c682fbee968f0 softirq: use bit waits instead of var waits.
-927731dfa8be3059636e928c62518d0fafd901f0 sched: remove unused __HAVE_THREAD_FUNCTIONS hook support
+86bd80ad946ad2b9cc5550ae968a13d2be5a8fdd uprobes: switch to RCU Tasks Trace flavor for better performance
+04611ee702670ac483efe347dd20786bb20f85a2 perf/x86: Refine hybrid_pmu_type defination
+29a0a92777597927a2e147b1f13b6726ff166cee x86/cpu/intel: Define helper to get CPU core native ID
+b9f282d7e42906ddc17c25e3bd8e6d4032888742 perf/x86/intel: Support hybrid PMU with multiple atom uarchs
+e85d9e8fc71ab08ed398d6e8ab5d01a5f4ceba10 perf/x86/intel: Add PMU support for ArrowLake-H
+ebdf5bc22e5aa8c1c7d23ac59955955e96460953 uprobes: don't abuse get_utask() in pre_ssout() and prepare_uretprobe()
+35819e2a826e473afcc8fbb9d4614d8b86866d67 uprobes: sanitiize xol_free_insn_slot()
+36c3d1ea04f7eb35855d5993955237791c0dc6e9 uprobes: kill the unnecessary put_uprobe/xol_free_insn_slot in uprobe_free_utask()
+a6229465676195317303fb45ec338f752802d7df uprobes: simplify xol_take_insn_slot() and its caller
+f58b0a35085be8527cb5ba293ed63ad193e4d4d9 uprobes: move the initialization of utask->xol_vaddr from pre_ssout() to xol_get_insn_slot()
+df2df9660568f5e185788923b49165a969855096 uprobes: pass utask to xol_get_insn_slot() and xol_free_insn_slot()
+123bf632090070806535d3474eb1ce73c24c9ec0 uprobes: deny mremap(xol_vma)
 
---===============3606412419085871431==--
+--===============0070250608001430598==--
