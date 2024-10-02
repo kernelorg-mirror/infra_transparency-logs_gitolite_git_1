@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 02 Oct 2024 21:22:32 -0000
-Message-Id: <172790415255.4092782.10797243916022783464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 02 Oct 2024 21:37:11 -0000
+Message-Id: <172790503160.4103855.7840323737658597878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 28e884641fac8b45f18994fecb0bb626769e3f35
-    new: d7f515265b9a4625a628778cb20278a67ba813ac
+  - ref: refs/heads/misc
+    old: 43ee11adcb940204948ac0ca3a05d6178f0e8b08
+    new: 2985b1844f3f3447f2d938eff1ef6762592065a5
     log: |
-         00429083f404efe230fee577aa3dfbf2dea9b1f1 arc: get rid of private asm/unaligned.h
-         d7f515265b9a4625a628778cb20278a67ba813ac Merge branch 'next-unaligned' into for-next
+         2985b1844f3f3447f2d938eff1ef6762592065a5 PCI: Fix reset_method_store() memory leak
          
