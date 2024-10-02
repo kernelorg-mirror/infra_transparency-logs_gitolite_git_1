@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3287347404643123419=="
+Content-Type: multipart/mixed; boundary="===============0456566234011398415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 02 Oct 2024 10:40:24 -0000
-Message-Id: <172786562466.3552212.2779244298529142233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 02 Oct 2024 10:41:05 -0000
+Message-Id: <172786566591.3552803.15313255825870462555@gitolite.kernel.org>
 
---===============3287347404643123419==
+--===============0456566234011398415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: c495a2e2db31da2e71c0029b19011961a4ae6744
-    new: b9349c74218082d41ceb792e798751dd12c8dabf
-    log: |
-         f3fe928c4d6a85df8eb57b6de6d3812518c97200 dt-bindings: i2c: microchip: corei2c: Add PIC64GX as compatible with driver
-         b9349c74218082d41ceb792e798751dd12c8dabf Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
-         
+  - ref: refs/heads/slab/for-6.13/fixes
+    old: 0000000000000000000000000000000000000000
+    new: 52aa2296a968f2513c56f20e9f97b85771f2573c
 
---===============3287347404643123419==
+--===============0456566234011398415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1727865637 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1727865623-3c960d08a79fe33bcd50d52cee99a2e192e84397
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1727865675 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1727865661-b7a8b24377629f7bf2c6e58bd04e47c7a655de0f
 
-c495a2e2db31da2e71c0029b19011961a4ae6744 b9349c74218082d41ceb792e798751dd12c8dabf refs/heads/i2c/i2c-host-next
+0000000000000000000000000000000000000000 52aa2296a968f2513c56f20e9f97b85771f2573c refs/heads/slab/for-6.13/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZv0jJRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1utQEA/0p/WIPJh+oS9NlzZo37d8FUhRXu
-W7SIPqyvkQcsPnqaAQCZ9rF0jj9+inQPlmwlIJdW/H6w4APhPFYgLC5DkThsDw==
-=FP7s
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmb9I0sACgkQu+CwddJF
+iJpTPwgAkyQc0tK3SsM+IkJoQIMzmYhUoWzm8ZwG8AVIGkvLkQ+CW4NST6vhPZTt
+ibjSxbzwoG20gt9GkIw2dkfsJCdHuf9esvZg99sdIJkxZUmc/mrbMJPjQw988pBs
+EhSw/dpfcwO34NZ+v2Z2nqcgR5gz5FjfdqeO8C4R4Bqhhb4GzKuvx9TtATQQeSmy
+Dh3qsp4hbHe6Au1a85Yvqwv/jYybN5yr1yB0uct8uhlKlBss0cw7jsJ8XzX9nD0N
+7d02fgLV9wM3WU+wwYQ5/LT8Dc6boS4kjAi92nns9IHDxYTTHrTMLaNuxrg52gAE
+f51pgSGgHszXoKPCNO/AOEX9X/opxw==
+=4ibq
 -----END PGP SIGNATURE-----
 
---===============3287347404643123419==--
+--===============0456566234011398415==--
