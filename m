@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 02 Oct 2024 21:59:36 -0000
-Message-Id: <172790637625.4120068.3297898429390721032@gitolite.kernel.org>
+Date: Wed, 02 Oct 2024 22:00:13 -0000
+Message-Id: <172790641329.4122393.1289111836703763400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: a15e4942448e4a076f46f581993a4f9f5bc87607
+  - ref: refs/heads/perf-tools-next
+    old: 80f192724e314ba860206e51bc1e3bc1ac7f58dd
     new: 5873de90315a13d211b1d50a1ba97f21a6f17516
     log: |
          8d7f85e323ea402005fa83ddbdf5d00292d77098 perf jevents: Don't stop at the first matched pmu when searching a events table
