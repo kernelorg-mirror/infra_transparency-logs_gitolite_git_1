@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5050316286336864167=="
+Content-Type: multipart/mixed; boundary="===============1499964236261725216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 02 Oct 2024 13:26:32 -0000
-Message-Id: <172787559228.3711147.5243718155034674233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 02 Oct 2024 13:27:55 -0000
+Message-Id: <172787567587.3711940.3474492827806300267@gitolite.kernel.org>
 
---===============5050316286336864167==
+--===============1499964236261725216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/affs
-    old: bf751ad062b58d0750a5b9fb77d1400532a0ea44
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-bf751ad062b5-9852d85ec9d4.txt
+  - ref: refs/heads/for_next
+    old: 802e492f2fda38547f11e3b2d9d2f12bdb3e38b2
+    new: 282f03136b0628971baba245b81d3f8ab30ab11f
+    log: revlist-802e492f2fda-282f03136b06.txt
 
---===============5050316286336864167==
+--===============1499964236261725216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf751ad062b5-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-802e492f2fda-282f03136b06.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
-9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
-89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
-cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
 bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
 25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
 2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
@@ -1050,5 +1043,12 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+ee703a7068f95764cfb62b57db1d36e465cb9b26 udf: refactor udf_current_aext() to handle error
+b405c1e58b73981da0f8df03b00666b22b9397ae udf: refactor udf_next_aext() to handle error
+c226964ec786f3797ed389a16392ce4357697d24 udf: refactor inode_bmap() to handle error
+264db9d666ad9a35075cc9ed9ec09d021580fbb1 udf: fix uninit-value use in udf_get_fileshortad
+35ceae44742e1101f9d20adadbbbd92c05d7d659 fsnotify: Avoid data race between fsnotify_recalc_mask() and fsnotify_object_watched()
+cad3f4a22cfa4081cc2d465d1118cf31708fd82b inotify: Fix possible deadlock in fsnotify_destroy_mark
+282f03136b0628971baba245b81d3f8ab30ab11f Merge fsnotify fixes.
 
---===============5050316286336864167==--
+--===============1499964236261725216==--
