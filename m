@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 03 Oct 2024 16:34:07 -0000
-Message-Id: <172797324747.792216.911139395572323463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 03 Oct 2024 16:38:32 -0000
+Message-Id: <172797351244.796036.6897200235456929190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 6774cca543da1248a24bf8ae6b8c5a424e6293ec
-    new: a691ff3d32804529d7600c377ef845dd2dc22d1a
+    old: 38734e02051364b4b6db6e684beda8c47a1ba452
+    new: 8146d8f7dd675d7b0f8e997f39add23b1cc4e578
     log: |
-         bd92a25290bbf25913cb80a217a39046bf648b14 Bluetooth: hci_conn: Use disable_delayed_work_sync
-         a691ff3d32804529d7600c377ef845dd2dc22d1a Bluetooth: hci_conn: Fix UAF in hci_enhanced_setup_sync
+         43bd13f7c70072cb1be62350424d25d7675f500b client: Add Broadcast Assistant/Scan Delegator scripts
+         8146d8f7dd675d7b0f8e997f39add23b1cc4e578 shared/bap: Fix load of misaligned address error
          
