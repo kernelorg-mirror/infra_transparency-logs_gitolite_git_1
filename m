@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6136362856827877963=="
+Content-Type: multipart/mixed; boundary="===============6213528973484300616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 03 Oct 2024 12:55:48 -0000
-Message-Id: <172796014821.619795.8944805825309720216@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 12:58:58 -0000
+Message-Id: <172796033845.621037.3207361229550585923@gitolite.kernel.org>
 
---===============6136362856827877963==
+--===============6213528973484300616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,34 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: b9349c74218082d41ceb792e798751dd12c8dabf
-    new: 1614470671749c1b60aa7ef0dc20cbc482d483d6
+  - ref: refs/heads/i2c/i2c-host
+    old: 6be20768ce514416b0263aa7f43a5aab5e93e74c
+    new: 663bff1ddfe4ecbba3bcf4a74646bb388b1ad5b2
     log: |
-         63dccfcc54a0d8abf99bdbbae02b81300a63bf51 i2c: qcom-geni: Keep comment why interrupts start disabled
-         96ebbcdaec5094230ba512591297faf6143820ec ACPI: APD: Add clock frequency for HJMC01 I2C controller
-         6be20768ce514416b0263aa7f43a5aab5e93e74c i2c: designware: Add a new ACPI HID for HJMC01 I2C controller
-         1614470671749c1b60aa7ef0dc20cbc482d483d6 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         c1be14cee55d28efea7c512302b2cbc0e559c368 ACPI: APD: Add clock frequency for HJMC01 I2C controller
+         663bff1ddfe4ecbba3bcf4a74646bb388b1ad5b2 i2c: designware: Add a new ACPI HID for HJMC01 I2C controller
          
 
---===============6136362856827877963==
+--===============6213528973484300616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1727960161 +0200
+pusher andi.shyti@kernel.org 1727960352 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1727960147-88f0607c84a11eb7455c65890d304dfc3d4d3a1e
+nonce 1727960336-096bbe4f62d6fc6e15951aeb1454d5e935566e01
 
-b9349c74218082d41ceb792e798751dd12c8dabf 1614470671749c1b60aa7ef0dc20cbc482d483d6 refs/heads/i2c/i2c-host-next
+6be20768ce514416b0263aa7f43a5aab5e93e74c 663bff1ddfe4ecbba3bcf4a74646bb388b1ad5b2 refs/heads/i2c/i2c-host
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZv6UYRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u+i0BAMvFkEt39+dalpH3hOSlUxhiq+3l
-ovprAYK/9XkntDJaAQD9/QbMS2wx6tmRoyvQg2KUqzH+BvqRrLKWcmAFZUbRDQ==
-=Y/J9
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZv6VIBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1urhUBAImtvZY4+/zU6Ozq/zAUwtrujmGb
+DWeUqpG25aCzPv+EAP97LahWPlEqQszAiTOJXbIEfL+2GnG+P6yGRlcBIA6mCA==
+=VyUI
 -----END PGP SIGNATURE-----
 
---===============6136362856827877963==--
+--===============6213528973484300616==--
