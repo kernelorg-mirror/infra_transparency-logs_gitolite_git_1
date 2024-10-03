@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8307076970592596219=="
+Content-Type: multipart/mixed; boundary="===============2327522096891668098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 03 Oct 2024 20:57:33 -0000
-Message-Id: <172798905359.997924.16308380483397640698@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 20:57:44 -0000
+Message-Id: <172798906441.998156.12328599622463061993@gitolite.kernel.org>
 
---===============8307076970592596219==
+--===============2327522096891668098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: e32cde8d2bd7d251a8f9b434143977ddf13dcec6
     new: 8c245fe7dde3bf776253550fc914a36293db4ff3
     log: revlist-e32cde8d2bd7-8c245fe7dde3.txt
 
---===============8307076970592596219==
+--===============2327522096891668098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -109,4 +109,4 @@ c6929644c1e0d6108e57061d427eb966e1746351 dt-bindings: net: xlnx,axi-ethernet: Ad
 9c02404b52f56b2c8acc8c0ac16d525b1226dfe5 Merge tag 'v6.12-rc1-ksmbd-fixes' of git://git.samba.org/ksmbd
 8c245fe7dde3bf776253550fc914a36293db4ff3 Merge tag 'net-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8307076970592596219==--
+--===============2327522096891668098==--
