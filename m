@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 03 Oct 2024 10:11:52 -0000
-Message-Id: <172795031210.491098.10569111353220821758@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 10:15:20 -0000
+Message-Id: <172795052090.494397.42483961443834187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 1127c73a8d4f803bb3d9e3d024b0863191d52e03
-    new: b63ad06ddddfe792f93df0c24adb66622bd7b8c9
+    old: b63ad06ddddfe792f93df0c24adb66622bd7b8c9
+    new: c6929644c1e0d6108e57061d427eb966e1746351
     log: |
-         b63ad06ddddfe792f93df0c24adb66622bd7b8c9 doc: net: napi: Update documentation for napi_schedule_irqoff
+         c6929644c1e0d6108e57061d427eb966e1746351 dt-bindings: net: xlnx,axi-ethernet: Add missing reg minItems
          
