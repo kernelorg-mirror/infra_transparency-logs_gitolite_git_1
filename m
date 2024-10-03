@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1878053047941261872=="
+Content-Type: multipart/mixed; boundary="===============8261134326841239806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Oct 2024 14:33:10 -0000
-Message-Id: <172796599033.696715.16457284922889968562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 03 Oct 2024 14:33:16 -0000
+Message-Id: <172796599611.696871.9563343889792133872@gitolite.kernel.org>
 
---===============1878053047941261872==
+--===============8261134326841239806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 8cd4e1f087b6906bacbbf8b637cac4e479a9cb34
     new: 6061483d7141db3a805f8660eae23805af02d544
     log: |
          6061483d7141db3a805f8660eae23805af02d544 ASoC: codecs: wcd9335: remove unnecessary MODULE_ALIAS()
          
 
---===============1878053047941261872==
+--===============8261134326841239806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1727966003 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1727965988-436490b25b925e959f8f7d74f243a10c687f1036
+pusher C3F436CA30F5D8EB 1727966009 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1727965994-15fd15975253249d6007323889b559ef3ab7d99a
 
-8cd4e1f087b6906bacbbf8b637cac4e479a9cb34 6061483d7141db3a805f8660eae23805af02d544 refs/heads/for-6.13
+8cd4e1f087b6906bacbbf8b637cac4e479a9cb34 6061483d7141db3a805f8660eae23805af02d544 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb+qzMACgkQJNaLcl1U
-h9BYqQf/XxKeMqcomP8NQflJ4CVYjLOuIF5W/mF/pgwI96uR1nTK+iUp3kEjAIYN
-ygpLjw6Dbc7MaIq43FLkMEnkbgDrqShzpw6g+ozx9HvW93EZGeMKn0mS0p6/uE6+
-cCVy+nYVk4IPvQ1kJEdqtwUQ0d/ElC5hz3APbXTVgTvI4jzX4YlqRYAPfJhF2zgg
-hRg63Fgx9P/rzHv3q11bU8oDZQl4Q56qAzMC02oW6wE1CTDlKClGuPYDxXGKa4LP
-lT/6RdqSd+zKQPgGvPnJaBuF4nL2NChLoVv8irWyP7wKOctSgIZfjOueJDVsNTMi
-XPrOLRB8aKrXNFxx+UxA/8Xy5Wya5Q==
-=h61C
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmb+qzkACgkQJNaLcl1U
+h9BIUAf+N9zt7xO9lf3Hc7PG6xht128tzuDpMFHbPYfOJm6V/3aGNxicVE7st8B7
+GDBaQ+iHnKYTniHZB3kVco7cUxBStQ7omgPt++KGVjxV5uDSMmNbbrlpEFtuWaQw
+MsW/LFeWiLrD6JAClrQH98SGsT75c8Zq/PRQJVNnwrp9qgGkVxOmgSTNzR723JYa
+w7Bt7MVSB/XRd2xEC7MhhebR4QDXp1YSryQq8u97L01G9Xbmj6xZXWv4mxdm35it
+QwnPNwtOBjnC+REzWvh6JSLCfKp80RcdiDJG0RDIO3FUWdBs9i0Mi4x753y92pzr
+rVuNO8vTAEMTKmELZzXm2inYpeV5sA==
+=ASR/
 -----END PGP SIGNATURE-----
 
---===============1878053047941261872==--
+--===============8261134326841239806==--
