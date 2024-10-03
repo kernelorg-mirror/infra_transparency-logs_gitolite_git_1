@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Thu, 03 Oct 2024 10:07:23 -0000
-Message-Id: <172795004341.487124.10483247150771655007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Oct 2024 10:11:52 -0000
+Message-Id: <172795031210.491098.10569111353220821758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/review-andy
-    old: 7f11dc1a9ca9ec708e154e92bc9a43096d650984
-    new: e6fc7ef72bf2272d65d97e1b78024d686107d82e
+  - ref: refs/heads/main
+    old: 1127c73a8d4f803bb3d9e3d024b0863191d52e03
+    new: b63ad06ddddfe792f93df0c24adb66622bd7b8c9
     log: |
-         e6fc7ef72bf2272d65d97e1b78024d686107d82e auxdisplay: ht16k33: Make use of i2c_get_match_data()
+         b63ad06ddddfe792f93df0c24adb66622bd7b8c9 doc: net: napi: Update documentation for napi_schedule_irqoff
          
