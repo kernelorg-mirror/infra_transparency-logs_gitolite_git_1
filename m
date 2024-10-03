@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 03 Oct 2024 08:42:40 -0000
-Message-Id: <172794496035.421620.3263496858142486625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 03 Oct 2024 08:47:13 -0000
+Message-Id: <172794523302.425619.8753971942219863408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/vfs-6.12-rc2.fixes.2
-    old: 0000000000000000000000000000000000000000
-    new: 95fd4272f5a9e216e4fffb04d94e054b6c950a04
+  - ref: refs/heads/main
+    old: 6b67e098c9c95bdccb6b0cd2d63d4db9f5b64fbd
+    new: 7c2f1c2690a5965fa0913c7b8c1b833dccddbb39
+    log: |
+         7c2f1c2690a5965fa0913c7b8c1b833dccddbb39 selftests/net: Add missing va_end.
+         
