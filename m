@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8118509177968354429=="
+Content-Type: multipart/mixed; boundary="===============5709953341051115685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 03 Oct 2024 14:17:43 -0000
-Message-Id: <172796506351.684046.7053235426476994793@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 14:17:52 -0000
+Message-Id: <172796507237.684281.13148630304402001872@gitolite.kernel.org>
 
---===============8118509177968354429==
+--===============5709953341051115685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 7d47d22444bb7dc1b6d768904a22070ef35e1fc0
+  - ref: refs/heads/master
+    old: 47ac09b91befbb6a235ab620c32af719f8208399
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-7d47d22444bb-9852d85ec9d4.txt
+    log: revlist-47ac09b91bef-9852d85ec9d4.txt
 
---===============8118509177968354429==
+--===============5709953341051115685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d47d22444bb-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-47ac09b91bef-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============8118509177968354429==--
+--===============5709953341051115685==--
