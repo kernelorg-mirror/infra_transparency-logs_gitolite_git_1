@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2204607159279045868=="
+Content-Type: multipart/mixed; boundary="===============0020965962468222768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 03 Oct 2024 03:50:52 -0000
-Message-Id: <172792745229.202530.10251700614881963521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 03 Oct 2024 03:51:02 -0000
+Message-Id: <172792746243.202728.10303267665280855453@gitolite.kernel.org>
 
---===============2204607159279045868==
+--===============0020965962468222768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: fe21733536749bb1b31c9c84e0b8d2ab8d82ce13
     new: c02d24a5af66a9806922391493205a344749f2c4
     log: revlist-fe2173353674-c02d24a5af66.txt
-  - ref: refs/heads/stable
-    old: e32cde8d2bd7d251a8f9b434143977ddf13dcec6
-    new: f23aa4c0761a70bfd046dd5755281667f0769a94
-    log: revlist-e32cde8d2bd7-f23aa4c0761a.txt
-  - ref: refs/tags/next-20240703
-    old: 32814a201f02fe326110ae12ec4b02cb3f08c133
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241003
     old: 0000000000000000000000000000000000000000
     new: a61ecc16845860cbcc6884431e7c054bdbf12322
 
---===============2204607159279045868==
+--===============0020965962468222768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -430,22 +423,4 @@ c7515165c12cc5400943cd485d62949e677e3fc4 Merge branch 'rust-next' of https://git
 2d400fab3c912660a19fbefb0bd8558c0019fbea Merge branch 'caps-next' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux.git
 c02d24a5af66a9806922391493205a344749f2c4 Add linux-next specific files for 20241003
 
---===============2204607159279045868==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e32cde8d2bd7-f23aa4c0761a.txt
-
-c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
-acd5f76fd5292c91628e04da83e8b78c986cfa2b HID: bpf: fix cfi stubs for hid_bpf_ops
-a3f9a74d210bf5b80046a840d3e9949b5fe0a67c Revert "Input: Add driver for PixArt PS/2 touchpad"
-fb5cc65f973661241e4a2b7390b429aa7b330c69 Input: adp5589-keys - fix NULL pointer dereference
-c684771630e64bc39bddffeb65dd8a6612a6b249 Input: adp5589-keys - fix adp5589_gpio_get_value()
-462763212dd71c41f092b48eaa352bc1f5ed5d66 Revert: "dm-verity: restart or panic on an I/O error"
-f811b83879fb6717cdb288e34253cf26d135b019 dm-verity: introduce the options restart_on_error and panic_on_error
-27af290f1636c9784dbbdd860677aaf57355ff90 Merge tag 'zonefs-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-359cdf5a328360fdc41e5ca979f22625f4aceb44 Merge tag 'for-6.12/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-0d2746a208ea5faaaccf9a5e97ad214cff0942f5 Merge tag 'input-for-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-f23aa4c0761a70bfd046dd5755281667f0769a94 Merge tag 'hid-for-linus-2024090201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-
---===============2204607159279045868==--
+--===============0020965962468222768==--
