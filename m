@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7911507110680872170=="
+Content-Type: multipart/mixed; boundary="===============4115209941790106214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 03 Oct 2024 11:16:37 -0000
-Message-Id: <172795419759.543629.375729517783589915@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 11:18:16 -0000
+Message-Id: <172795429649.544411.17984764714654969729@gitolite.kernel.org>
 
---===============7911507110680872170==
+--===============4115209941790106214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
+  - ref: refs/heads/ath12k-mlo-qcn9274
     old: e0e848205bfb7a6d7e31657aad4270896c2e8e07
     new: 33c38af74af3ae0e44985cdf2f45eb8fcd791a12
     log: revlist-e0e848205bfb-33c38af74af3.txt
-  - ref: refs/tags/ath12k-mlo-202410031116
+  - ref: refs/tags/ath12k-mlo-qcn9274-202410031118
     old: 0000000000000000000000000000000000000000
     new: 33c38af74af3ae0e44985cdf2f45eb8fcd791a12
 
---===============7911507110680872170==
+--===============4115209941790106214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -233,4 +233,4 @@ fb3a87cb8b6c1d8f79487ec5a30b032df1220479 wifi: ath12k: add no-op without debug p
 9b3af1441db8c2e40cfde7f43ac205b56b34d1ed wifi: ath12k: remove warning print in htt mlo offset event message
 33c38af74af3ae0e44985cdf2f45eb8fcd791a12 wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
 
---===============7911507110680872170==--
+--===============4115209941790106214==--
