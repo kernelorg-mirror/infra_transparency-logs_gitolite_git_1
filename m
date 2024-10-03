@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8144114941184361584=="
+Content-Type: multipart/mixed; boundary="===============5089939337566381829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 03 Oct 2024 09:49:00 -0000
-Message-Id: <172794894063.471354.16307024727898798334@gitolite.kernel.org>
+Date: Thu, 03 Oct 2024 09:50:17 -0000
+Message-Id: <172794901739.474170.6443897246549672093@gitolite.kernel.org>
 
---===============8144114941184361584==
+--===============5089939337566381829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,37 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.13/features
-    old: 7cb4d99a42c18620cdc261cc1bdda74ebf30e244
-    new: f0d66faffdb1635304649b5335069ac1da09ef9e
+  - ref: refs/heads/slab/for-next
+    old: 8bcb4e9205c83633c76f57e03307b9f3f26bb33a
+    new: 016a58c90fc06c4fb26f3beca85305a7de753c75
     log: |
          f0d66faffdb1635304649b5335069ac1da09ef9e SLUB: Add support for per object memory policies
+         79d844ceeb025510bfe8fc12598d138cb5cf56b3 Merge branch 'slab/for-6.13/fixes' into slab/for-next
+         016a58c90fc06c4fb26f3beca85305a7de753c75 Merge branch 'slab/for-6.13/features' into slab/for-next
          
 
---===============8144114941184361584==
+--===============5089939337566381829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1727948950 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1727949025 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1727948935-f618a177883353701e5ef56e279601ec8c11535e
+nonce 1727949010-81c0f55a1e2156d6503ac87042eab0741f17e913
 
-7cb4d99a42c18620cdc261cc1bdda74ebf30e244 f0d66faffdb1635304649b5335069ac1da09ef9e refs/heads/slab/for-6.13/features
+8bcb4e9205c83633c76f57e03307b9f3f26bb33a 016a58c90fc06c4fb26f3beca85305a7de753c75 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmb+aJYACgkQu+CwddJF
-iJrbxAf+IPlNjUwFRSnDVmKEIqLB9CHjSvS7uTDwkKYibnGY/AxPVmh2/yXZ/BYl
-sOX+Z9GSsgnYRrqJvmMZEqdEGePsm2YcDEVgRHI1XHm9xfSo8UfNRq0hDmGkoyAm
-+tCizXk3JR8wkhswjWxUt+1c7wDg21mhqeJkgJyOidTQjyeVIVItYl4jL3i64LYx
-AlJixZe1Di2rx5Cx32eh2zD751vZC2LREqOy0IC6FP3BCXTuYk8ZohlYSLZJF7uw
-lhO3c9Do2/nlXgG6Oog1FFwMv3/fbEbhJOpJKJ328fS+4rby/4n1O770dM1DQyYP
-TqxbJXQZ4AX3gsf4fmcs92+7wlLDMA==
-=mrel
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmb+aOEACgkQu+CwddJF
+iJo25Qf9FuvvO7hulcbD6PSfDgK+50PL2KPrSVx/RVh1JCA7+xV9vrdPvJ5DEMjt
+mQLbmSa1RAZyoreMO8lzSBh96bOXWvtTCoakiqfAQgdVXj6KMmlSd1rHam8fmOt0
+0WWBgxY7Yr0pgFTQ7N7mgbuHVSXuk7F3NruIp6xmwlNDp35GvreFyZ221FTJ5hHT
+Si2PpGh7IALTkPhtiK4MxTEBR43SxxFcBSRAkKEW+ZX9stQ7BHjZNe8w2pxKSqp9
+DXsj4eKZoZ7lR7K4dwSbARNU6+QXfmNtqQ+fckzQyJko8zcS3WJd0s1rWWeAu1Vh
+wKZM274loIYqyGs1TLzUhs9cF5pAVw==
+=pYJd
 -----END PGP SIGNATURE-----
 
---===============8144114941184361584==--
+--===============5089939337566381829==--
