@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Oct 2024 23:58:41 -0000
-Message-Id: <172799992128.1140025.13115046347042961318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 04 Oct 2024 00:03:04 -0000
+Message-Id: <172800018468.1143976.6461528637373749535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: d772cc25ccf772f4cbb81270970cbe1356c23d3e
-    new: b7074e4375b06604aacb743131fcde6f2f58c94e
+  - ref: refs/heads/master
+    old: 2d9ae422ad5123b614778b9af5a0dce85c357444
+    new: f2232e49f9b5d99a4650ec08396d7a8e5f009e35
     log: |
-         3017238b60d394d01f2596e07343ca494b6dd2c0 gve: Map IRQs to NAPI instances
-         021f9e671e4a7166e7a267531553b9e0b7d19681 gve: Map NAPI instances to queues
-         b7074e4375b06604aacb743131fcde6f2f58c94e Merge branch 'gve-link-irqs-queues-and-napi-instances'
+         f2232e49f9b5d99a4650ec08396d7a8e5f009e35 Thu Oct  3 08:02:10 PM EDT 2024
          
