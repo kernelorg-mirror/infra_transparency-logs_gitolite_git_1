@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6392564417750111935=="
+Content-Type: multipart/mixed; boundary="===============5224896934638345469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 04 Oct 2024 17:00:08 -0000
-Message-Id: <172806120851.2143244.12881698996444520096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 04 Oct 2024 17:00:10 -0000
+Message-Id: <172806121030.2143325.2425993834474734684@gitolite.kernel.org>
 
---===============6392564417750111935==
+--===============5224896934638345469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0c559323bbaabee7346c12e74b497e283aaafef5
     log: revlist-f23aa4c0761a-0c559323bbaa.txt
 
---===============6392564417750111935==
+--===============5224896934638345469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -110,4 +110,4 @@ c6929644c1e0d6108e57061d427eb966e1746351 dt-bindings: net: xlnx,axi-ethernet: Ad
 263a25de5b6002da3b27bc33a36c51ecfc086b35 Merge tag 'pull-fixes.ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0c559323bbaabee7346c12e74b497e283aaafef5 Merge tag 'rust-fixes-6.12' of https://github.com/Rust-for-Linux/linux
 
---===============6392564417750111935==--
+--===============5224896934638345469==--
