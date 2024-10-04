@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 04 Oct 2024 15:57:48 -0000
-Message-Id: <172805746883.2090780.11015894692365578834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Fri, 04 Oct 2024 16:04:06 -0000
+Message-Id: <172805784668.2095225.10536998460487512075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: b63c755cb65d43c8aba987c4f6b57c77c6f123f2
-    new: 59169e0a132ceb84c04e3e37782e0932c8a26990
+  - ref: refs/heads/b4/has_ioport
+    old: fbc967387a6d00a0ea517fb74094d95042f8d963
+    new: 9f6f797425376c6871767d046e41c6be27d96ed4
     log: |
-         ab4239c8a7247c22783ca516f8a8a1ef8fc17308 net: ag71xx: use devm_ioremap_resource
-         27dc497b7b7e535f8cec32efb8fc85fc5eefa211 net: ag71xx: use some dev_err_probe
-         94656823c1ac31b35549fc0d96cd7862254e7c3d net: ag71xx: remove platform_set_drvdata
-         8b4ed4d5ffb6eab077ed39954df2589b800027bd net: ag71xx: replace INIT_LIST_HEAD
-         d14fe43e0007c61df3a35f3d201bba1ba755117b net: ag71xx: move assignment into main loop
-         59169e0a132ceb84c04e3e37782e0932c8a26990 Merge branch 'net-ag71xx-small-cleanups'
+         0225ec7db77b271ea4d84b0747b8394668e85b80 treewide: Remove I/O port accessors for HAS_IOPORT=n
+         7abafb2e8ecc68da993ac8eaa4510087f2e1ee95 hexagon: Don't select GENERIC_IOMAP without HAS_IOPORT support
+         487a1a23e0ff7778340a270a7eea80ea05330199 Bluetooth: add HAS_IOPORT dependencies
+         7c34464fb67edca9c8af5b8e6e84f1407f87f109 drm: handle HAS_IOPORT dependencies
+         86dd76ce569fd012de0b16a89bec902ba777dc52 tty: serial: handle HAS_IOPORT dependencies
+         9f6f797425376c6871767d046e41c6be27d96ed4 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
          
