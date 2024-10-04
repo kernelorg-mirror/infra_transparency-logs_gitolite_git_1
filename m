@@ -1,56 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============7202032730378187245=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 04 Oct 2024 06:55:39 -0000
-Message-Id: <172802493978.1464603.11861090036525145310@gitolite.kernel.org>
-
---===============7202032730378187245==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 04 Oct 2024 07:13:26 -0000
+Message-Id: <172802600604.1476858.13853491093044367032@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 87af09ccc734ef207e413478299564cc784df884
-    new: 5625cd2e989b64569d53f451fec0ff88c91e6b46
+  - ref: refs/heads/for-linus
+    old: 740986edaf2dc8443eb612a60f37f2f46c6cc125
+    new: 703235a244e533652346844cfa42623afb36eed1
     log: |
-         5625cd2e989b64569d53f451fec0ff88c91e6b46 update cvelistV5
+         3e8800273c4b473342e2dbffa83a87f651d811c7 ALSA: hda: Add missing parameter description for snd_hdac_stream_timecounter_init()
+         9df39a872c462ea07a3767ebd0093c42b2ff78a2 ALSA: gus: Fix some error handling paths related to get_bpos() usage
+         703235a244e533652346844cfa42623afb36eed1 ALSA: line6: add hw monitor volume control to POD HD500X
          
-
---===============7202032730378187245==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728024954 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1728024939-48845646db87dc35c37bda642612e9b3fda63bcc
-
-87af09ccc734ef207e413478299564cc784df884 5625cd2e989b64569d53f451fec0ff88c91e6b46 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb/kXobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wkwP/0gM/zNKrc2zHQdK075y
-2SyHpnXqBqiwnBzeJwOnocphgiwrf3W4UdUovfWckzmSBDeKgFeFQMiynqWm00fz
-l2BOLWypQLHMGdmiQ7swGd4ONd2cdxDp5WfEfHCli95cAEmtjXzRFIgNxmA5jfDG
-I3OMQ59BbOGxZ3HG6rk5TnQsId4vOe0LrZdClFJ3DJr1oovl2Frq1nvtFWveD4zR
-rBH5XE5WIM8Ys/Dq8JYi6rnEGJNa33+5dq6j8rILHqfDSvpITFAnd7PKcFiXVExI
-J7zgsS9gLq31ufG1YmmAGqkrlvb4aFJhmVe6zQaaXNO7MVLueVFWpBe6HiZEi/el
-EUa0AvMO0Ssp09vyQrjgMd1iXUZYmiv07YoktVu0IItuNPctGe7hCkHW7YahTptu
-+yI24AUrfMEQKT0UX3wkWFGSCD1oyAc8PDAKYMsjS2HE0v/aGui9Nrkznu1eI3tY
-aTdokPbII+7nqd7LaGSX8bMBytNUJPfYs3wQ0Tgzl+VMoVrZhjPl0REksBFJI8nj
-Xh7ZmwC4RPQGS4nQ25ADSS/9qJ6fNrlAlLe+i3185WyL50Ryi9cWKqpPYducUBTW
-DxjFQ3L7Ztw6ZWZUOGO5K625l1Lihl5Xp+hYqnc1VVkr0FKa2n33czGCnvg6Srn3
-i7u8WOYP0o+25YREHlkV6Asz
-=N1AP
------END PGP SIGNATURE-----
-
---===============7202032730378187245==--
+  - ref: refs/heads/for-next
+    old: 3e8800273c4b473342e2dbffa83a87f651d811c7
+    new: 703235a244e533652346844cfa42623afb36eed1
+    log: |
+         9df39a872c462ea07a3767ebd0093c42b2ff78a2 ALSA: gus: Fix some error handling paths related to get_bpos() usage
+         703235a244e533652346844cfa42623afb36eed1 ALSA: line6: add hw monitor volume control to POD HD500X
+         
+  - ref: refs/heads/master
+    old: 40558c84be34b17781ca8b001132e2342086f742
+    new: 0963585517cdab0d6d10b6de17e9b2f2046b06db
+    log: |
+         3e8800273c4b473342e2dbffa83a87f651d811c7 ALSA: hda: Add missing parameter description for snd_hdac_stream_timecounter_init()
+         9df39a872c462ea07a3767ebd0093c42b2ff78a2 ALSA: gus: Fix some error handling paths related to get_bpos() usage
+         703235a244e533652346844cfa42623afb36eed1 ALSA: line6: add hw monitor volume control to POD HD500X
+         0963585517cdab0d6d10b6de17e9b2f2046b06db Merge branch 'for-linus'
+         
