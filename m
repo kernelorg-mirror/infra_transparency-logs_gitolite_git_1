@@ -1,27 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 04 Oct 2024 19:28:17 -0000
-Message-Id: <172807009792.2260511.285567069256398954@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1479017742117786455=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 04 Oct 2024 19:32:43 -0000
+Message-Id: <172807036392.2264450.1176605278292660807@gitolite.kernel.org>
+
+--===============1479017742117786455==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 5873de90315a13d211b1d50a1ba97f21a6f17516
-    new: 6bff76af9635411214ca44ea38fc2781e78064b6
-    log: |
-         d29d92df410e2fb523f640478b18f70c1823e55e perf trace: Keep exited threads for summary
-         f72751a73a6b6ad678d254335e031e4511282564 perf test: Restore sample rate for perf_event_attr
-         f7ef062fe154a4249663ba87d8ffab47519033cf perf list: update option desc in man page
-         0ca2c45404eed3b6bb80d3169bf672b09cf3a70d perf arm-spe: Define metadata header version 2
-         59715b1908b051fa3e4c0efb8a3724786d98bc48 perf arm-spe: Calculate meta data size
-         703f344d0c4a3a006d3e1466d38ee6d8791acd87 perf arm-spe: Save per CPU information in metadata
-         7842a4b6ff698768ccdb13324c3902a069b5d5dd perf arm-spe: Support metadata version 2
-         e52abceb4b6c2723c7e49388e67a32ffb47bd90c perf arm-spe: Dump metadata with version 2
-         6bff76af9635411214ca44ea38fc2781e78064b6 perf test attr: Add back missing topdown events
-         
+  - ref: refs/heads/main
+    old: a73f214e899832f2802952ae2bc5fab7ec3d2545
+    new: 00110c5eeb7c0a429e39dad2986753dd295e2568
+    log: revlist-a73f214e8998-00110c5eeb7c.txt
+
+--===============1479017742117786455==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a73f214e8998-00110c5eeb7c.txt
+
+26017cff689059ffea7318a36aa014ebca723628 ice: Implement ice_ptp_pin_desc
+1d86cca479d7e44ee260a85b8aa11080501a9d42 ice: Add SDPs support for E825C
+e4291b64e11889c73fa9c75e74115721758a3fb4 ice: Align E810T GPIO to other products
+d755a7e129a5f2b5cafa337f557c72336e900a00 ice: Cache perout/extts requests and check flags
+df0b394f1ca79e2f589c5f7ae7cb8095c67bf00c ice: Disable shared pin on E810 on setfunc
+ebb2693f8fbdb444e01ac6b6b50282aaabc96e77 ice: Read SDP section from NVM for pin definitions
+5a4f45c435fadecd09497a7b9931f668a93db3cf ice: Enable 1PPS out from CGU for E825C products
+5e0776451d89eefe66b19e010e48ece1cca07e58 ice: Introduce ice_get_phy_model() wrapper
+97ed20a01f5b96e8738b53f56ae84b06953a2853 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
+fdb7f54700b1c88e734323a62fea986d9ce5a9c6 ice: Initial support for E825C hardware in ice_adapter
+e800654e85b5b27966fc6493201f5f8cf658beb6 ice: Use ice_adapter for PTP shared data instead of auxdev
+0333c82fc6b70a3d3ed0390473cf83d1793bc43f ice: Drop auxbus use for PTP to finalize ice_adapter move
+00110c5eeb7c0a429e39dad2986753dd295e2568 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+
+--===============1479017742117786455==--
