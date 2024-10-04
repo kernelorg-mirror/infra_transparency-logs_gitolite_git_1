@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Fri, 04 Oct 2024 13:53:28 -0000
-Message-Id: <172805000828.1785825.2555533534409068373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Fri, 04 Oct 2024 13:55:41 -0000
+Message-Id: <172805014128.1788865.13888785911143615196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/dma-split-wip
-    old: e2b9a9fdd90ea6e9dddbfd032d726a243d9b9c18
-    new: f34f7476669cb7b5b7f88e3ea219362965e133f8
+  - ref: refs/heads/has_ioport
+    old: 12157dd4b79201de13c2d56a1a5b67533d65b7c3
+    new: 2d4f63f06a07c0470db8570a5b831c5ce9f91345
     log: |
-         f34f7476669cb7b5b7f88e3ea219362965e133f8 add debug prints
+         3d16e7b6cd15f9d8dbc0d9ea98a31c7255daec8f tty: serial: handle HAS_IOPORT dependencies
+         2d4f63f06a07c0470db8570a5b831c5ce9f91345 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
          
