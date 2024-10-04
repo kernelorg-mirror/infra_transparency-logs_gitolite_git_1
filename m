@@ -1,38 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5606991965006020066=="
+Content-Type: multipart/mixed; boundary="===============3452722938787966760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 04 Oct 2024 13:43:56 -0000
-Message-Id: <172804943626.1777407.12053111636849617382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 04 Oct 2024 13:45:50 -0000
+Message-Id: <172804955029.1780452.13050372040182424240@gitolite.kernel.org>
 
---===============5606991965006020066==
+--===============3452722938787966760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/core
-    old: 75078ba2b38a38d94017bd334f71aaed205e30a4
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-75078ba2b38a-9852d85ec9d4.txt
-  - ref: refs/heads/for-next/gcs
-    old: 0000000000000000000000000000000000000000
-    new: bb9ae1a66c85eeb626864efd812c62026e126ec0
+  - ref: refs/heads/slab/for-linus
+    old: ecc4d6af979b3bd4d239ff80bbba455c90d3f4f3
+    new: cac39b0706f186ce01b9dd1c3802846528d1bbca
+    log: revlist-ecc4d6af979b-cac39b0706f1.txt
 
---===============5606991965006020066==
+--===============3452722938787966760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75078ba2b38a-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1728049560 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1728049545-1c51c365b4b3fcb4337c967a602474c461ce16a7
+
+ecc4d6af979b3bd4d239ff80bbba455c90d3f4f3 cac39b0706f186ce01b9dd1c3802846528d1bbca refs/heads/slab/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmb/8ZgACgkQu+CwddJF
+iJqq4wf/euMpL4XjalNN1RIN9hd+unFO/HOWAfMOJuifmSF9Er3jqRrtp0GDqZ+r
+ScfUSlnyo4xD8E+54h9pwXmmDM+NhaWDphmL/pWxa8sSbVdjmqUlJOB9ZNAncHoO
+iQPM7k4i6FHnXoU9kCbYnWrOEzlTZJ6Fo2cfcPlTxxXWOhd7jPNdEBCfa0+RmGil
+ji1iPZ4z+2zC6Rkx2hgjdfkdGyjH4zTMRMSUDMDNFXoHEfmF8I6mfcbJw+bl/Z1z
+gr6Or27B4dnRKKMt0G9y3fCnimirtYYnSldCyakv+TDDua9//7xb11HUvdZFK06q
+pscMpi6GUh6JXxrABodiRXEgBMk7NQ==
+=yFaY
+-----END PGP SIGNATURE-----
+
+--===============3452722938787966760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ecc4d6af979b-cac39b0706f1.txt
+
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
@@ -1053,5 +1071,9 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+77ced98f0f03fdc196561d1afbe652899c318073 mm, slab: fix use of SLAB_SUPPORTS_SYSFS in kmem_cache_release()
+3c5d61ae919cc377c71118ccc76fa6e8518023f8 rcu/kvfree: Refactor kvfree_rcu_queue_batch()
+3f1dd33f99677e7025b45a2b8d2baa04985ff4dc mm, slab: suppress warnings in test_leak_destroy kunit test
+cac39b0706f186ce01b9dd1c3802846528d1bbca slub/kunit: skip test_kfree_rcu when the slub kunit test is built-in
 
---===============5606991965006020066==--
+--===============3452722938787966760==--
