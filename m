@@ -1,24 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 04 Oct 2024 08:23:36 -0000
-Message-Id: <172803021606.1530139.3816949582878603363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 04 Oct 2024 08:26:15 -0000
+Message-Id: <172803037548.1533373.11452113673346253131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 3ad81c83641b1fce1a2f82d67132dc2177113310
-    new: fb9530688ca844ead1aa329d08b656ed97c20a12
+  - ref: refs/heads/for-linus
+    old: 703235a244e533652346844cfa42623afb36eed1
+    new: b3ebb007060f89d5a45c9b99f06a55e36a1945b5
     log: |
-         0e08a9ae05eeb728aa22b7ade729ceb622b8a1ff Merge branch into tip/master: 'irq/urgent'
-         9d3874f4fbcc0c569406925cc73b70c21f1dfa39 Merge branch into tip/master: 'irq/core'
-         ac36537ceff8ac3c84a1e74d7ed96a8ac0b32f4c Merge branch into tip/master: 'timers/core'
-         2cc35276a79a8b9a82498d0b8d57432832072f83 Merge branch into tip/master: 'x86/cpu'
-         0cd4fd71bcae044e4981b02fab2eec4fc73971a2 Merge branch into tip/master: 'x86/misc'
-         fb9530688ca844ead1aa329d08b656ed97c20a12 Merge branch into tip/master: 'x86/splitlock'
+         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
+         
+  - ref: refs/heads/for-next
+    old: 703235a244e533652346844cfa42623afb36eed1
+    new: b3ebb007060f89d5a45c9b99f06a55e36a1945b5
+    log: |
+         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
+         
+  - ref: refs/heads/master
+    old: 0963585517cdab0d6d10b6de17e9b2f2046b06db
+    new: ebd7e3d04a1ef05e1834cdadaeb1ceb5d7a957c3
+    log: |
+         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
+         ebd7e3d04a1ef05e1834cdadaeb1ceb5d7a957c3 Merge branch 'for-linus'
          
