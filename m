@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1408614078490527805=="
+Content-Type: multipart/mixed; boundary="===============7032631979905124170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 04 Oct 2024 21:55:46 -0000
-Message-Id: <172807894602.2382530.1481855348103956663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 04 Oct 2024 21:55:49 -0000
+Message-Id: <172807894948.2382830.976675287163503226@gitolite.kernel.org>
 
---===============1408614078490527805==
+--===============7032631979905124170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ac308609567d31fe44be80ab757a5ddf062362ef
     log: revlist-0c559323bbaa-ac308609567d.txt
 
---===============1408614078490527805==
+--===============7032631979905124170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -198,4 +198,4 @@ f6785e0ccfdfc3d87aa8f1287a49cf8cae111d5f Merge tag 'slab-for-6.12-rc1' of git://
 7943f06cfc8693d861816dbe608f84d52dd4af52 Merge tag 'riscv-for-linus-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 ac308609567d31fe44be80ab757a5ddf062362ef Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============1408614078490527805==--
+--===============7032631979905124170==--
