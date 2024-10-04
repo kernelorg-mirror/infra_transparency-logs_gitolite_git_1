@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 04 Oct 2024 16:32:36 -0000
-Message-Id: <172805955632.2120338.14964156572295027364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Fri, 04 Oct 2024 16:32:46 -0000
+Message-Id: <172805956608.2120505.6520653543784375543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: 6443cf1bdf7909f055e2182138ff1f434a741517
-    new: 7d68b6f664a0a0f3f5afd3e6d9fda2a8bea05890
+  - ref: refs/heads/b4/has_ioport
+    old: 9f6f797425376c6871767d046e41c6be27d96ed4
+    new: 064dca0f7024f9494062a4b7b920214a30a86895
     log: |
-         1d39d02a1535658962f9370312be7b2d634946a5 net: mdio: thunder: switch to scoped device_for_each_child_node()
-         e97dccd3e976331cd2c9fa17fcb716af19bd5c68 net: hns: hisilicon: hns_dsaf_mac: switch to scoped device_for_each_child_node()
-         7d68b6f664a0a0f3f5afd3e6d9fda2a8bea05890 Merge branch 'net-switch-to-scoped-device_for_each_child_node'
+         e78297c03ee9dfa840afd40f979670c03b2e0c55 treewide: Remove I/O port accessors for HAS_IOPORT=n
+         ba03b202d065cf0532014ab32623f3dcdf9966cb hexagon: Don't select GENERIC_IOMAP without HAS_IOPORT support
+         f42e9dd2dff32edbfb9ed58d8e1035a8245c4c69 Bluetooth: add HAS_IOPORT dependencies
+         98f0f70492c3d55c678b3f7eaddea0477c2f6578 drm: handle HAS_IOPORT dependencies
+         613769df5514a443f17161b2b365d4a6cec79e89 tty: serial: handle HAS_IOPORT dependencies
+         c4ca334ac9257e9dd8ea226972a028577216b265 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
+         064dca0f7024f9494062a4b7b920214a30a86895 fixup! tty: serial: handle HAS_IOPORT dependencies
          
