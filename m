@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 04 Oct 2024 21:09:53 -0000
-Message-Id: <172807619399.2343282.4355125845938632398@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 21:14:54 -0000
+Message-Id: <172807649455.2348263.3472149203350625696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 95bfe086cd84966449dc0cba734bc582b988b8e8
-    new: c6a154f6869c97bf2ff480588fe0667f2025733c
+    old: c6a154f6869c97bf2ff480588fe0667f2025733c
+    new: 919f79f9fb5536c1928a15ac82a2e53183b213cf
     log: |
-         de6690f81da6f2e9b1da71eed53874e3ad7ca9f7 brcm: Link FriendlyElec NanoPi M4 to AP6356S nvram
-         19624c7141f66b0d8f0dc5b020c12c6a6e3849cf brcm: Add BCM4354 NVRAM for Jetson TX1
-         c6a154f6869c97bf2ff480588fe0667f2025733c Merge branch 'brcm-nvram-updates' into 'main'
+         bbb77872a8a7880373a9fe365a24daccaa759da9 amdgpu: DMCUB DCN35 update
+         919f79f9fb5536c1928a15ac82a2e53183b213cf Merge branch 'amd-staging' into 'main'
          
