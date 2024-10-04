@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0644326490998109540=="
+Content-Type: multipart/mixed; boundary="===============3468821414836681513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 04 Oct 2024 19:10:03 -0000
-Message-Id: <172806900397.2246119.12458078717014471805@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 19:10:16 -0000
+Message-Id: <172806901663.2246574.4493206525857762668@gitolite.kernel.org>
 
---===============0644326490998109540==
+--===============3468821414836681513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: dc947efe6ee68c80f116906b6997b27b55204f11
+  - ref: refs/heads/nfsd-testing
+    old: b0a9e12241f52d6c42688223369edccd9ef696a4
     new: 232f11b8876b5f71a7db945883be510884959a15
-    log: revlist-dc947efe6ee6-232f11b8876b.txt
+    log: revlist-b0a9e12241f5-232f11b8876b.txt
 
---===============0644326490998109540==
+--===============3468821414836681513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc947efe6ee6-232f11b8876b.txt
+Content-Disposition: attachment; filename=revlist-b0a9e12241f5-232f11b8876b.txt
 
-98c25336c971bee55dc481315178322f56908b2f NFSD: Remove unused function parameter
-d7655e79beb35c9f77302a7d3ebab9ef1fd9f836 xdrgen: Exit status should be zero on success
-24cb6e6ac1950dbab9609879a13b78988faee545 xdrgen: Clean up type_specifier
-964b716461cbb123aa2fb7fed7a92a6b916c8b0a xdrgen: Rename "variable-length strings"
-6ce1d0a79b9f5c1637f0e3f2ebe5437899d76677 xdrgen: Rename enum's declaration Jinja2 template
-1f93883063262206e372016eaf2472db6b0bbb74 xdrgen: Rename "enum yada" types as just "yada"
-b0a9e12241f52d6c42688223369edccd9ef696a4 xdrgen: Implement big-endian enums
 9db92a10a58e6a2115bd5882383476c1633a9db4 xdrgen: Refactor transformer arms
 c8fd9ab2404c4b408af39aff2a51cb8f21ae9f77 xdrgen: Track constant values
 0a5a4f8f8695cfc659ffaf0c7a2dbc948abe36a3 xdrgen: Keep track of on-the-wire data type widths
@@ -59,4 +52,4 @@ d24598fa0838f8b560349ca533a2d5b923ef01f8 nfs_common: make include/linux/nfs4.h i
 5da55864d8975361a733a3354fe1c21b4fcb8fef nfsd: add support for delegated timestamps
 232f11b8876b5f71a7db945883be510884959a15 nfsd: handle delegated timestamps in SETATTR
 
---===============0644326490998109540==--
+--===============3468821414836681513==--
