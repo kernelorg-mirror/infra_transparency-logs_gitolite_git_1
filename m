@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 04 Oct 2024 19:21:44 -0000
-Message-Id: <172806970461.2256013.9781895989621916126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 04 Oct 2024 19:28:17 -0000
+Message-Id: <172807009792.2260511.285567069256398954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 622a3ed1accbb8e008a7247317bf3e8bc1fd7665
-    new: ac308609567d31fe44be80ab757a5ddf062362ef
+  - ref: refs/heads/perf-tools-next
+    old: 5873de90315a13d211b1d50a1ba97f21a6f17516
+    new: 6bff76af9635411214ca44ea38fc2781e78064b6
     log: |
-         c625154993d0d24a962b1830cd5ed92adda2cf86 drivers/perf: riscv: Align errno for unsupported perf event
-         9abe390e689f4f5c23c5f507754f8678431b4f72 arm64: Force position-independent veneers
-         924725707d80bc2588cefafef76ff3f164d299bc arm64: cputype: Add Neoverse-N3 definitions
-         081eb7932c2b244f63317a982c5e3990e2c7fbdd arm64: errata: Expand speculative SSBS workaround once more
-         b3d6121eaeb22aee8a02f46706745b1968cc0292 arm64: fix selection of HAVE_DYNAMIC_FTRACE_WITH_ARGS
-         cfb10de18538e383dbc4f3ce7f477ce49287ff3d riscv: Fix kernel stack size when KASAN is enabled
-         3eddb108abe3de6723cc4b77e8558ce1b3047987 arm64: Subscribe Microsoft Azure Cobalt 100 to erratum 3194386
-         7943f06cfc8693d861816dbe608f84d52dd4af52 Merge tag 'riscv-for-linus-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-         ac308609567d31fe44be80ab757a5ddf062362ef Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         d29d92df410e2fb523f640478b18f70c1823e55e perf trace: Keep exited threads for summary
+         f72751a73a6b6ad678d254335e031e4511282564 perf test: Restore sample rate for perf_event_attr
+         f7ef062fe154a4249663ba87d8ffab47519033cf perf list: update option desc in man page
+         0ca2c45404eed3b6bb80d3169bf672b09cf3a70d perf arm-spe: Define metadata header version 2
+         59715b1908b051fa3e4c0efb8a3724786d98bc48 perf arm-spe: Calculate meta data size
+         703f344d0c4a3a006d3e1466d38ee6d8791acd87 perf arm-spe: Save per CPU information in metadata
+         7842a4b6ff698768ccdb13324c3902a069b5d5dd perf arm-spe: Support metadata version 2
+         e52abceb4b6c2723c7e49388e67a32ffb47bd90c perf arm-spe: Dump metadata with version 2
+         6bff76af9635411214ca44ea38fc2781e78064b6 perf test attr: Add back missing topdown events
          
