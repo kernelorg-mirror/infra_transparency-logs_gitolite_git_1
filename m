@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 04 Oct 2024 18:50:30 -0000
-Message-Id: <172806783089.2230118.10421051816203626810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 04 Oct 2024 19:00:46 -0000
+Message-Id: <172806844655.2237993.16992973793383425612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/main
-    old: 096c0fa42afa92b6ffa4e441c4c72a2f805c5a88
-    new: 1f9fc48fd302be3311186152225ef195e6139d7a
-    log: |
-         1f9fc48fd302be3311186152225ef195e6139d7a net: dsa: sja1105: fix reception from VLAN-unaware bridges
-         
+  - ref: refs/heads/kunit
+    old: 8511b46f4ffb0b6cf98155d40f5087e42c0edf1e
+    new: 26ce900949581150af9457a2914d9cf128d41b57
