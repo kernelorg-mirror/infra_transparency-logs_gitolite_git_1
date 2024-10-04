@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1645996139591421835=="
+Content-Type: multipart/mixed; boundary="===============2525898579888108368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Oct 2024 22:13:58 -0000
-Message-Id: <172808003895.2396943.11623066913940688979@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 22:24:53 -0000
+Message-Id: <172808069364.2405333.7005548084633313282@gitolite.kernel.org>
 
---===============1645996139591421835==
+--===============2525898579888108368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 67b41b1b985f7117d61bc2e8ab93267cec9514f5
-    new: 06e9036982bb7a11d7fcc90c2fa214c69b6f31dc
-    log: revlist-67b41b1b985f-06e9036982bb.txt
+  - ref: refs/heads/1GbE
+    old: c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7
+    new: 500257db81d067c1ad5a202501a085a8ffea10f1
+    log: revlist-c4a14f6d9d17-500257db81d0.txt
 
---===============1645996139591421835==
+--===============2525898579888108368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67b41b1b985f-06e9036982bb.txt
+Content-Disposition: attachment; filename=revlist-c4a14f6d9d17-500257db81d0.txt
 
 6e30a7c98a9fda2f894e970e9cd637657f39c59d locking/atomic/x86: Introduce the read64_nonatomic macro to x86_32 with cx8
 dce2a224763ce968445e14c43b49321936309c75 locking/atomic/x86: Redeclare x86_32 arch_atomic64_{add,sub}() as void
@@ -767,16 +767,5 @@ bc4d22b72a2d8d22b03b89083db4937dc427ddaa selftests: add regression test for br_n
 69ea1d4ac916cac21ad976dd9cdec69878abac81 Merge branch 'netfilter-br_netfilter-fix-panic-with-metadata_dst-skb'
 de390657b5d6f7deb9d1d36aaf45f02ba51ec9dc ibmvnic: Inspect header requirements before using scrq direct
 500257db81d067c1ad5a202501a085a8ffea10f1 Merge branch 'ibmvnic-fix-for-send-scrq-direct'
-14898f2f1f8aab811cf9fe370a3ad6d810d1ebf8 iavf: allow changing VLAN state without calling PF
-f1dbb9d31afe071773ad82d81627e7c58da20741 e1000e: change I219 (19) devices to ADP
-e4bb18513a3e3315b76fd1f53bf3a7d2530909af igb: Disable threaded IRQ for igb_msix_other
-aef0e8151f8ba1f65b709da65b440365038cee78 i40e: Fix macvlan leak by synchronizing access to mac_filter_hash
-014fca6a94c15de28f174b5038395232d26c6a8a ice: Fix entering Safe Mode
-eedb9b4c27dc9a9ebf560cac284ceee9f9882dfe ice: Fix netif_is_ice() in Safe Mode
-d90aa6775f88da5c32afe6b9adc4705b23e27e73 igb: Do not bring the device up after non-fatal error
-90b1dc2768c01b16978e3ecf308bbbebff00cae6 ice: Flush FDB entries before reset
-67d8e6569ba1b12354f2dc871fbd543869ca214e ice: Fix increasing MSI-X on VF
-b41f5e0715181f21eb3fd629ed55362323946b19 ice: fix PHY Clock Recovery availability check
-06e9036982bb7a11d7fcc90c2fa214c69b6f31dc e1000e: Remove Meteor Lake SMBUS workarounds
 
---===============1645996139591421835==--
+--===============2525898579888108368==--
