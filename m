@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 04 Oct 2024 21:58:06 -0000
-Message-Id: <172807908658.2384040.3382642407403665694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 04 Oct 2024 22:00:02 -0000
+Message-Id: <172807920224.2385813.4437179939495299277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/spi-fix-v6.12-rc1
+  - ref: refs/heads/pwrseq
     old: 0000000000000000000000000000000000000000
-    new: 39662c81344bdc3a7f6e260c1c8c0452f0077452
+    new: 98cb476c98e9fb3287aa69b05baf986b7126664b
