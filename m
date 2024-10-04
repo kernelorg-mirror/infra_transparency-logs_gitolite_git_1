@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2525898579888108368=="
+Content-Type: multipart/mixed; boundary="===============0642140030297650824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Oct 2024 22:24:53 -0000
-Message-Id: <172808069364.2405333.7005548084633313282@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 22:24:57 -0000
+Message-Id: <172808069747.2405442.16528127490317558975@gitolite.kernel.org>
 
---===============2525898579888108368==
+--===============0642140030297650824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7
     new: 500257db81d067c1ad5a202501a085a8ffea10f1
     log: revlist-c4a14f6d9d17-500257db81d0.txt
 
---===============2525898579888108368==
+--===============0642140030297650824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -768,4 +768,4 @@ bc4d22b72a2d8d22b03b89083db4937dc427ddaa selftests: add regression test for br_n
 de390657b5d6f7deb9d1d36aaf45f02ba51ec9dc ibmvnic: Inspect header requirements before using scrq direct
 500257db81d067c1ad5a202501a085a8ffea10f1 Merge branch 'ibmvnic-fix-for-send-scrq-direct'
 
---===============2525898579888108368==--
+--===============0642140030297650824==--
