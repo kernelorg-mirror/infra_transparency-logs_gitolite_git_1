@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6360168155876859764=="
+Content-Type: multipart/mixed; boundary="===============7323621027023298246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 04 Oct 2024 22:37:24 -0000
-Message-Id: <172808144450.2416571.4747276204142764724@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 22:37:28 -0000
+Message-Id: <172808144824.2416703.11992954028203155782@gitolite.kernel.org>
 
---===============6360168155876859764==
+--===============7323621027023298246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 44badc908f2c85711cb18e45e13119c10ad3a05f
     new: 5c2ab978f9c90384198000a032d10382f44c3530
     log: revlist-44badc908f2c-5c2ab978f9c9.txt
 
---===============6360168155876859764==
+--===============7323621027023298246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -848,4 +848,4 @@ a73f214e899832f2802952ae2bc5fab7ec3d2545 Merge branch 'add-option-to-provide-opt
 00110c5eeb7c0a429e39dad2986753dd295e2568 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 5c2ab978f9c90384198000a032d10382f44c3530 ethtool: rss: fix rss key initialization warning
 
---===============6360168155876859764==--
+--===============7323621027023298246==--
