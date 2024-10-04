@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 04 Oct 2024 15:45:22 -0000
-Message-Id: <172805672299.2064884.13163491642455944816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 04 Oct 2024 15:45:41 -0000
+Message-Id: <172805674135.2065433.6122968568183063404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/lsm-pr-20241004
-    old: 0000000000000000000000000000000000000000
-    new: 9edc97510a041c9e9e2b153b7f0e38b6aff7a3da
+  - ref: refs/heads/dev
+    old: 3ad89520895aa3a428fb41517e2f066167122d85
+    new: ee6e869477bccb4d4bd78ecb21e87ddf5fbd9a66
+    log: |
+         ee6e869477bccb4d4bd78ecb21e87ddf5fbd9a66 ARC: Use __force to suppress per-CPU cmpxchg complaints
+         
