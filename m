@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 04 Oct 2024 16:27:18 -0000
-Message-Id: <172805923851.2116151.13373738061047568439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 04 Oct 2024 16:32:36 -0000
+Message-Id: <172805955632.2120338.14964156572295027364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/main-pending
-    old: 7536faa61e194f5cfac0a9277b7cc3cfed766eb0
-    new: c8b4c8253a14f28f97dc7d6130d69632b7207e04
+  - ref: refs/heads/main
+    old: 6443cf1bdf7909f055e2182138ff1f434a741517
+    new: 7d68b6f664a0a0f3f5afd3e6d9fda2a8bea05890
     log: |
-         ef323af3a294a9566d844f47fe2e444d7bc33265 wifi: ath12k: Modify print_array_to_buf() to support arrays with 1-based semantics
-         d4555659b20d19f28813172c8fedece95dbee1f4 wifi: ath12k: fix one more memcpy size error
-         c8b4c8253a14f28f97dc7d6130d69632b7207e04 Merge branch 'pending' into main-pending
+         1d39d02a1535658962f9370312be7b2d634946a5 net: mdio: thunder: switch to scoped device_for_each_child_node()
+         e97dccd3e976331cd2c9fa17fcb716af19bd5c68 net: hns: hisilicon: hns_dsaf_mac: switch to scoped device_for_each_child_node()
+         7d68b6f664a0a0f3f5afd3e6d9fda2a8bea05890 Merge branch 'net-switch-to-scoped-device_for_each_child_node'
          
-  - ref: refs/tags/ath-pending-202410041554
-    old: 0000000000000000000000000000000000000000
-    new: c8b4c8253a14f28f97dc7d6130d69632b7207e04
