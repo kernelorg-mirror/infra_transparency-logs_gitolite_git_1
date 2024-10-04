@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8862406715122453757=="
+Content-Type: multipart/mixed; boundary="===============7295816729486632453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 04 Oct 2024 02:08:19 -0000
-Message-Id: <172800769943.1245218.10200170084180613549@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 02:08:40 -0000
+Message-Id: <172800772013.1245444.14827820789610890016@gitolite.kernel.org>
 
---===============8862406715122453757==
+--===============7295816729486632453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,50 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 0f9592ae26ffe044cfb2b2d071ccf4427be57ed4
-    new: d539a871ae47a1f27a609a62e06093fa69d7ce99
-    log: revlist-0f9592ae26ff-d539a871ae47.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 5b8fdfacbb513e30ed40eabfaef640e8d4a29436
+    new: a8ea4ead90d2ce935cd48acdeefb94b116bcc380
+    log: revlist-5b8fdfacbb51-a8ea4ead90d2.txt
 
---===============8862406715122453757==
+--===============7295816729486632453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1728007712 -0400
+pusher 75C5DE3D 1728007718 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1728007694-79bb0b2234554301a9ed71b7cf8e7bf75567c6ff
+nonce 1728007703-a2fb6d560796e9798b867414fd0ef252b0c9ae0f
 
-0f9592ae26ffe044cfb2b2d071ccf4427be57ed4 d539a871ae47a1f27a609a62e06093fa69d7ce99 refs/heads/fixes
+5b8fdfacbb513e30ed40eabfaef640e8d4a29436 a8ea4ead90d2ce935cd48acdeefb94b116bcc380 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmb/TiAACgkQ7ulgGnXF
-3j1SuA//Rj+pvdpMWuXJX/4E93uxduGg7OFz0gwuq78utIvkSAYOkJ0GkZElbXMU
-TadJffLCjcqhJCsINgrO/oBOKE0ERK1djjOdfE3b8Wn9RtiR7sYvWe7gblPBO7DR
-3mNSkYCBkv9YcxTRd2s3sDPLgTqpgE+pzReu97Fai1L4oNxsz6tpQJ5RDZBEK84g
-GJhvw1A1WS/jdqIU0u8VY7RU2S/n8X6l/mdgpqG5ZaBhV1BIHsMPWTVmmz3HHoVR
-7Iwdm9uzTm9YqOk4GvqDsPlIr8vAN/mDlbmd6hZfj0nmIjMAS4FUtiiUXHmmZSnT
-R1mRtpUYboi7X5JH3XUwhUddHDaAmWVfgBXtwxE2B7OTiHh6eOewVnaAc2fwEN8c
-zEwFBOTqmCiMiBl01UKMP0qnRYdMjIxGk9E6zgY9qeVfw/A124i2sWqZs9FSgX9U
-tCpV1y/0yFy29molDUBVKOSLyUI3+PJ5IdW9xMy9n9zi7GOntC6uGQsoLyd7jfYl
-B2+QFuLiZrl4PgKXYKOu6TV/bE2uBEH0M8uymtFeJp9XPKOLakJSq7TeADYcZZC6
-+ciI/SQneWtLYfBR6oV/Gmk/tJaumjrWoLoMT7SIN9VGEuzOXPS5KRkCbwz2AxIv
-nJ4xrfs/rNrkQWEbgTaxWWt4dYf0txZEDdfeclURpaJjaP1xkK4=
-=qKj3
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmb/TiYACgkQ7ulgGnXF
+3j1BCxAAsK17KrTvtuhDnyvAIzX5eSJj4B6Xf/dae1CVGTNxTe6Vnm2Xwa+IOgtl
+k8wiz1AS+AGeui14zTsXuZ2KjM3S88s+hixITfjVkOkGRxIx7SWjNrnQKY+4pmVG
+10SHpvx4ygpEeY3yJAsloOzElVbS4QX0hXTDaH9yW7fv1VxJYPmYIq4dvmfVhidX
+6W0LZeupaDsUvmdz3qrTZwRJ+r6NzmBBzkNCfGkqWPxQhzz2B0yB3pKiIU4/jDV5
+WiNwDLaTfDbAwi+jradVohest37wlT0VMEJysPkCZZHa6oHzW77LT35X8LXE7FBQ
+kaTZs7trVa2UnkKt2BMp2x16LFfpGl1N0JVXxnZzvUsbw+V5omkVzEAULArjN5uO
+w+elcNt/B6mQ+0Q6eG+fCXPOBkF3Y1hq2brygJLpo3RCLRVMVjHCw+k6VbwkrHZJ
+X2RCkkeeMNX+8RHqrGK9ojrecfRBfQjleIFl9qfdCiWyCiEEs4UQAu8evCjx+iHf
+2sAWc24bF3wmmw3ENpwemd98Uqtr2Y8iOsYQht0xDP5FNYCTMp3i6iz8s93pAnJ6
+zIeirMfWhiEzuFwCvIKh+Wdy10uzC4lQBpV9me4N874vS/n1Hlg8suE+IzCwbOPo
+dlTpJu/x3wKaj2+CIDxZwnq3hkesxXiZrlJLxKIsn09Z/iAn2Ak=
+=u/qv
 -----END PGP SIGNATURE-----
 
---===============8862406715122453757==
+--===============7295816729486632453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f9592ae26ff-d539a871ae47.txt
+Content-Disposition: attachment; filename=revlist-5b8fdfacbb51-a8ea4ead90d2.txt
 
+d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
+f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
+94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
+590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
@@ -1076,9 +1080,5 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
-f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
-9023ed8d91eb1fcc93e64dc4962f7412b1c4cbec scsi: wd33c93: Don't use stale scsi_pointer value
-d539a871ae47a1f27a609a62e06093fa69d7ce99 scsi: scsi_transport_fc: Allow setting rport state to current state
 
---===============8862406715122453757==--
+--===============7295816729486632453==--
