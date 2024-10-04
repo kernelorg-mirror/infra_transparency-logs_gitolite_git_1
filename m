@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3949578278348202164=="
+Content-Type: multipart/mixed; boundary="===============4676474915054729584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 04 Oct 2024 02:37:45 -0000
-Message-Id: <172800946516.1269839.12558771577523167937@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 02:38:03 -0000
+Message-Id: <172800948390.1270256.13468998457819206149@gitolite.kernel.org>
 
---===============3949578278348202164==
+--===============4676474915054729584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-8400291e289e-9852d85ec9d4.txt
+  - ref: refs/heads/for-next
+    old: 5fe9a493006d41bf72514f8fa0e96ee9083bc7c6
+    new: d539a871ae47a1f27a609a62e06093fa69d7ce99
+    log: revlist-5fe9a493006d-d539a871ae47.txt
 
---===============3949578278348202164==
+--===============4676474915054729584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-5fe9a493006d-d539a871ae47.txt
 
-d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
-590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
 cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
@@ -1050,5 +1046,9 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
+f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
+9023ed8d91eb1fcc93e64dc4962f7412b1c4cbec scsi: wd33c93: Don't use stale scsi_pointer value
+d539a871ae47a1f27a609a62e06093fa69d7ce99 scsi: scsi_transport_fc: Allow setting rport state to current state
 
---===============3949578278348202164==--
+--===============4676474915054729584==--
