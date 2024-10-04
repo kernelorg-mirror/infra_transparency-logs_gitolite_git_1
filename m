@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2187960228332083077=="
+Content-Type: multipart/mixed; boundary="===============1612087426918668168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 04 Oct 2024 13:33:41 -0000
-Message-Id: <172804882144.1768971.3223279998698831150@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 13:37:20 -0000
+Message-Id: <172804904048.1772514.8722062232624404722@gitolite.kernel.org>
 
---===============2187960228332083077==
+--===============1612087426918668168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: df9158826b00e53f42c67d62c887a84490d80a0a
-    new: 0d410e8913f5cffebcca79ffdd596009d4a13a28
+    old: 0d410e8913f5cffebcca79ffdd596009d4a13a28
+    new: 6c4e1ef46c9d565c71e9ff1a70ddbe24790694d5
     log: |
-         a6555cb1cb69db479d0760e392c175ba32426842 usb: storage: ignore bogus device raised by JieLi BR21 USB sound chip
-         897e13a8f9a23576eeacb95075fdded97b197cc3 usb: dwc3: re-enable runtime PM after failed resume
-         0d410e8913f5cffebcca79ffdd596009d4a13a28 usb: dwc3: core: Stop processing of pending events if controller is halted
+         6c4e1ef46c9d565c71e9ff1a70ddbe24790694d5 usb: misc: onboard_usb_dev: introduce new config symbol for usb5744 SMBus support
          
 
---===============2187960228332083077==
+--===============1612087426918668168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728048833 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728049052 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1728048817-6bb494302be6382e9c2a3bd0e06018e2cc71d457
+nonce 1728049037-3c33222baee210121841d89ece95a95eba923556
 
-df9158826b00e53f42c67d62c887a84490d80a0a 0d410e8913f5cffebcca79ffdd596009d4a13a28 refs/heads/usb-linus
+0d410e8913f5cffebcca79ffdd596009d4a13a28 6c4e1ef46c9d565c71e9ff1a70ddbe24790694d5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb/7sEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PwcP/2EZEKCNSJNqPv0/qt+R
-CzqwFL+QbnPkQu/G+n38tNVaG7EIG4udFQsremYUi4ngJ2PsQjtnwFuwsp0LzMr/
-gQ1dk/4dUwO/YNu2IeOLjS1lNOZ2DE0MxsLUcaQRcUoNAIennXTyC8wtdkIaT8KB
-c3QmaAM63J6VJjPTW3rjeH4G4WCsnLCdM1WOPkQhLZ2CTJqI18gRPOf+3arkhGpV
-yBtL7r4y0aMzFrdwfDsSjP5UdUfrcDcCghqlaOBj7ktkUupvCM/UVj8wLxk4ih+J
-FBJCJgBbxkaLbwGAMhLiP9APed74IH6a4eDsUp/ZeBgfF0GRQGB48jJZx4kndIVL
-IOiaQ9APjHAd/ce4fylmKUy/0SzoVGQcct21RuSYDECReqRxfOIl0/O+Yk6cV1h4
-MFU8CLZhJV4XmnjQPcVX4i8Q67gRk8CwBFOcyshggeCNTaGchIeAniKpMOJisBzc
-4xNu14Jd2We+PJSoBMTe2pjtNb0rpEhS1GiOfrJnXaxvt5uG9pd7Mxqu0V4VbzMz
-U/4JpwrylW+UEJ2fojfRfGJzTDPJv6T5jkfOIFVBabSOdqOWMO1vInfGai/hRVYR
-buILVWmSAelUZecWK/LQKy9PQd/vbL0WeBr5QwXRU0F9Cq5wgXGc1GSk9FybGOzg
-5kUaIeQylx5QqFMTpjETPH3p
-=Tqiw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmb/75wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s6wQAMEod1eXxvyHjydca/lo
+jge08R+4m6WE3ZQr6WSw6lAIrlu/LCOfohAHDbl89GP6gO+szmyQ/GwLp0JSHtJ3
+XKq04+ajwFuyBXGiHdpwGhOhIHIPhk8SROmd4aYPoA9R++ks5EW79MMWPF1WzlHv
+1+NaS02qjUkmS7plpQxRkcHhAjRlV+Df3fVHyLh8fj99gaRLItFYs1RuojdPmbne
+THKX7VKozAQWfhvv0YIi3hAtZ9fk9hu6UETsnRCoKZInO3ROHQUxk9tqC/Yl4QqG
+czXRu/YFpNoBcI4a7O39wJpKT9l8smyY0Och+FzkHp4QBhM8XXsl36KL3j2gSuuc
+MhwHWsjCn8kvJCR4uyWTH2B272o6OjohKr+0yGngqpvqxqJ/SUg6JNluOYashSiw
+iKdor4K9dbN7rE05tL/hQzvm7G6tbFV9cbUTT6vktdMbrE5LTW1PhCgBo3oBEKn8
+4NK+H/yT+6p6CZaKSdmVH6h9q0BmMRpZA71ln4Q24/kfsUIJIdhhB/Upt12N+Kt3
+rVhRn9FgmnQYXSFTSGtTM1SFHtMh/eZVMehtOSOzFf1/ImhRfi6paf2M75gCMY0Z
+T6WboSKfCZX07fJBuYjHxxucVq8uEvaKcnUy4Ha5uFm5NgDppTNP4zT9vCFxiB4t
+vXOWaAWcv43VhnlDVti6u6S9
+=OZZX
 -----END PGP SIGNATURE-----
 
---===============2187960228332083077==--
+--===============1612087426918668168==--
