@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 04 Oct 2024 08:26:15 -0000
-Message-Id: <172803037548.1533373.11452113673346253131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 04 Oct 2024 08:34:36 -0000
+Message-Id: <172803087611.1538525.6644059912046468044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/for-linus
-    old: 703235a244e533652346844cfa42623afb36eed1
-    new: b3ebb007060f89d5a45c9b99f06a55e36a1945b5
+  - ref: refs/heads/for-6.12/upstream-fixes
+    old: acd5f76fd5292c91628e04da83e8b78c986cfa2b
+    new: d41bff05a61fb539f21e9bf0d39fac77f457434e
     log: |
-         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
-         
-  - ref: refs/heads/for-next
-    old: 703235a244e533652346844cfa42623afb36eed1
-    new: b3ebb007060f89d5a45c9b99f06a55e36a1945b5
-    log: |
-         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
-         
-  - ref: refs/heads/master
-    old: 0963585517cdab0d6d10b6de17e9b2f2046b06db
-    new: ebd7e3d04a1ef05e1834cdadaeb1ceb5d7a957c3
-    log: |
-         b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
-         ebd7e3d04a1ef05e1834cdadaeb1ceb5d7a957c3 Merge branch 'for-linus'
+         d41bff05a61fb539f21e9bf0d39fac77f457434e hid: intel-ish-hid: Fix uninitialized variable 'rv' in ish_fw_xfer_direct_dma
          
