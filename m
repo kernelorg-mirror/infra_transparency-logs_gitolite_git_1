@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Fri, 04 Oct 2024 16:18:44 -0000
-Message-Id: <172805872446.2106918.17425214261301691886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 04 Oct 2024 16:20:16 -0000
+Message-Id: <172805881667.2109990.9122035447623396298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: sashal
 changes:
-  - ref: refs/heads/linus-next
-    old: 18c00c8f47adb0420dbd3374382fe2e88c9273c0
-    new: b556bd6e53878577c8ad2d9a9ba84972a8e4070d
+  - ref: refs/heads/master
+    old: 4c00c783b76f852de1dea5d84068b3a0a7117ed9
+    new: 5570a1d9e425d1a6c7ffcff69f107edc489b7193
     log: |
-         3a87e264290d71ec86a210ab3e8d23b715ad266d io_uring: fix memory leak when cache init fail
-         17ea56b752b6ba58fdd1fcfd24f0fd2fa2b0ade2 io_uring: fix casts to io_req_flags_t
-         c314094cb4cfa6fc5a17f4881ead2dfebfa717a7 io_uring/net: harden multishot termination case for recv
-         0ab42843003f27db509e42f2060bb3fa6ffad38d block: fix blk_rq_map_integrity_sg kernel-doc
-         14d57ec3b86369d0037567f12caae0c9e9eaad9e blk_iocost: remove some duplicate irq disable/enables
-         6d6e54fc71ad1ab0a87047fd9c211e75d86084a3 aoe: fix the potential use-after-free problem in more places
-         426351cd9d5c1abc3b0895609f81adadb7808d57 Merge tag 'io_uring-6.12-20241004' of git://git.kernel.dk/linux into linus-next
-         b556bd6e53878577c8ad2d9a9ba84972a8e4070d Merge tag 'block-6.12-20241004' of git://git.kernel.dk/linux into linus-next
+         a2592f94ad29c8b56e365a5d10730b1cc4920d32 Fixes for 6.11
+         3833e75b5acb33d03586bc8d4a82356255632b2d Fixes for 6.10
+         b5895a895ad911d2673335e3c8e1738daf95524c Fixes for 6.6
+         73a0b5cd286609cd9cce347afbd851c54805e402 Fixes for 6.1
+         485237b73e72b4c173133ba66667cf19547529f5 Fixes for 5.15
+         97aff10531589f8c317a989319a5e4ff543c5600 Fixes for 5.10
+         d5dfaccaa195db4c028e45f1248a46223168a59c Fixes for 5.4
+         5570a1d9e425d1a6c7ffcff69f107edc489b7193 Fixes for 4.19
          
