@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1400406176997257177=="
+Content-Type: multipart/mixed; boundary="===============5099342000106833346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 04 Oct 2024 22:37:32 -0000
-Message-Id: <172808145267.2416858.12268070000087032916@gitolite.kernel.org>
+Date: Fri, 04 Oct 2024 22:37:36 -0000
+Message-Id: <172808145664.2416992.6763084692017279910@gitolite.kernel.org>
 
---===============1400406176997257177==
+--===============5099342000106833346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 0333c82fc6b70a3d3ed0390473cf83d1793bc43f
+  - ref: refs/heads/200GbE
+    old: 44badc908f2c85711cb18e45e13119c10ad3a05f
     new: 5c2ab978f9c90384198000a032d10382f44c3530
-    log: revlist-0333c82fc6b7-5c2ab978f9c9.txt
+    log: revlist-44badc908f2c-5c2ab978f9c9.txt
 
---===============1400406176997257177==
+--===============5099342000106833346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0333c82fc6b7-5c2ab978f9c9.txt
+Content-Disposition: attachment; filename=revlist-44badc908f2c-5c2ab978f9c9.txt
 
 6e30a7c98a9fda2f894e970e9cd637657f39c59d locking/atomic/x86: Introduce the read64_nonatomic macro to x86_32 with cx8
 dce2a224763ce968445e14c43b49321936309c75 locking/atomic/x86: Redeclare x86_32 arch_atomic64_{add,sub}() as void
@@ -715,6 +715,18 @@ fb5cc65f973661241e4a2b7390b429aa7b330c69 Input: adp5589-keys - fix NULL pointer 
 c684771630e64bc39bddffeb65dd8a6612a6b249 Input: adp5589-keys - fix adp5589_gpio_get_value()
 f5c82730bedbc4a424cb94d2653bcb8be9dbd2ec folio_queue: fix documentation
 59d39b9259e4d15b6e4c6da758ab318a76a10ca4 Documentation: add missing folio_queue entry
+26017cff689059ffea7318a36aa014ebca723628 ice: Implement ice_ptp_pin_desc
+1d86cca479d7e44ee260a85b8aa11080501a9d42 ice: Add SDPs support for E825C
+e4291b64e11889c73fa9c75e74115721758a3fb4 ice: Align E810T GPIO to other products
+d755a7e129a5f2b5cafa337f557c72336e900a00 ice: Cache perout/extts requests and check flags
+df0b394f1ca79e2f589c5f7ae7cb8095c67bf00c ice: Disable shared pin on E810 on setfunc
+ebb2693f8fbdb444e01ac6b6b50282aaabc96e77 ice: Read SDP section from NVM for pin definitions
+5a4f45c435fadecd09497a7b9931f668a93db3cf ice: Enable 1PPS out from CGU for E825C products
+5e0776451d89eefe66b19e010e48ece1cca07e58 ice: Introduce ice_get_phy_model() wrapper
+97ed20a01f5b96e8738b53f56ae84b06953a2853 ice: Add ice_get_ctrl_ptp() wrapper to simplify the code
+fdb7f54700b1c88e734323a62fea986d9ce5a9c6 ice: Initial support for E825C hardware in ice_adapter
+e800654e85b5b27966fc6493201f5f8cf658beb6 ice: Use ice_adapter for PTP shared data instead of auxdev
+0333c82fc6b70a3d3ed0390473cf83d1793bc43f ice: Drop auxbus use for PTP to finalize ice_adapter move
 04afb0a3c30aeb5fbe890a92debbfc0cc4044b6f ksmbd: Use struct_size() to improve get_file_alternate_info()
 0801c1374ab1552bd7376370987142ff77912527 ksmbd: Annotate struct copychunk_ioctl_req with __counted_by_le()
 9c383396362a4d1db99ed5240f4708d443361ef3 ksmbd: Use struct_size() to improve smb_direct_rdma_xmit()
@@ -836,4 +848,4 @@ a73f214e899832f2802952ae2bc5fab7ec3d2545 Merge branch 'add-option-to-provide-opt
 00110c5eeb7c0a429e39dad2986753dd295e2568 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 5c2ab978f9c90384198000a032d10382f44c3530 ethtool: rss: fix rss key initialization warning
 
---===============1400406176997257177==--
+--===============5099342000106833346==--
