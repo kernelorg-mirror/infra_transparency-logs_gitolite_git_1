@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 04 Oct 2024 20:18:42 -0000
-Message-Id: <172807312235.2302594.6581661172314326418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 04 Oct 2024 20:19:16 -0000
+Message-Id: <172807315686.2303023.17011873704863880589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: c0652c53241ddc4dae2689f77ecab9b6749d3909
-    new: d60142834b495732109e9e0ed594cfac8691086a
+    old: 8146d8f7dd675d7b0f8e997f39add23b1cc4e578
+    new: 31e5b8f206791f0f96c20d9ea358208b88e44dfe
     log: |
-         d60142834b495732109e9e0ed594cfac8691086a Fri Oct  4 04:17:55 PM EDT 2024
+         098b94ed626244bdebed4243ee6415686dd70973 audio/player: Fix media_player_set_metadata item destination
+         671f370a8e34baa1f481ac62ea34f9ba6c45e31e audio/player: Clear playlist on Now Playing Changed AVRCP event
+         31e5b8f206791f0f96c20d9ea358208b88e44dfe audio/avrcp: Extend ListItems to get more metadata
          
