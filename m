@@ -1,20 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sat, 05 Oct 2024 00:28:12 -0000
-Message-Id: <172808809210.2506776.14643872271245196890@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0948149415381903632=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 05 Oct 2024 00:32:27 -0000
+Message-Id: <172808834779.2510595.15326851538689630413@gitolite.kernel.org>
+
+--===============0948149415381903632==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 92ef9555ee16e518656a1d079c55d82220e4ac2a
-    new: 93c7351ccd2d88b05bbc0c32da8963afd70b84bb
-    log: |
-         eb6c65049a274c37f9b6fdf632843b609a0b8fa8 spi: Provide defer reason if getting irq during probe fails
-         93c7351ccd2d88b05bbc0c32da8963afd70b84bb Merge remote-tracking branch 'spi/for-6.13' into spi-next
-         
+  - ref: refs/heads/master
+    old: ac308609567d31fe44be80ab757a5ddf062362ef
+    new: 27cc6fdf720183dce1dbd293483ec5a9cb6b595e
+    log: revlist-ac308609567d-27cc6fdf7201.txt
+
+--===============0948149415381903632==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac308609567d-27cc6fdf7201.txt
+
+1ad999870a86d58246b6a614a435d055a9edf269 selftest: rtc: Check if could access /dev/rtc0 before testing
+ba872972002bd1e9ae89c397307a079e04ee289a selftests:timers: posix_timers: Fix warn_unused_result in __fatal_error()
+74923546a0f5affe867a15e83e21c2f043f9298a clone3: clone3_cap_checkpoint_restore: remove unused MAX_PID_NS_LEVEL macro
+b79a038de6a6e826fc832223d5fea435c2a0fa17 selftests: core: add unshare_test to gitignore
+45a8897db67d43aad3a17a792fe06a6306f483d6 selftests: exec: update gitignore for load_address
+a18c835779e1a2ecf8e83c18f5af6a3b05699aaa selftests: vDSO: align getrandom states to cache line
+160c826b4dd0d570f0f51cf002cb49bda807e9f5 selftest: hid: add missing run-hid-tools-tests.sh
+a19008256d05e726f29f43c6a307e45482c082c3 kselftest/devices/probe: Fix SyntaxWarning in regex strings for Python3
+c66be905cda24fb782b91053b196bd2e966f95b7 selftests: breakpoints: use remaining time to check if suspend succeed
+27cc6fdf720183dce1dbd293483ec5a9cb6b595e Merge tag 'linux_kselftest-fixes-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+
+--===============0948149415381903632==--
