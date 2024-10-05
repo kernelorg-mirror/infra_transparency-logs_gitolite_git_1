@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 05 Oct 2024 00:16:00 -0000
-Message-Id: <172808736032.2496909.6276913669555728660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 05 Oct 2024 00:17:54 -0000
+Message-Id: <172808747440.2498058.15913483539618451977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/todo
-    old: d70646ea5fffe469bde4a8bbf0be20263239abb2
-    new: 672133c858b2939a29c32379e8e32f74d7512d1b
-    log: |
-         672133c858b2939a29c32379e8e32f74d7512d1b What's cooking (2024/10 #03)
-         
+  - ref: refs/tags/sent/20241004-arm64-gcs-test-flags-980a2ddfde6f-v1
+    old: 0000000000000000000000000000000000000000
+    new: d3409002c7bc81415d9c934bd9ff523a8042dffa
