@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Sat, 05 Oct 2024 15:02:47 -0000
-Message-Id: <172814056730.3249527.17185606200087013994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 05 Oct 2024 15:11:04 -0000
+Message-Id: <172814106427.3256658.17427248753097297012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/for-linus-6.12a-rc2-tag
+  - ref: refs/heads/kvm-arm64/asahi-base-6.12
     old: 0000000000000000000000000000000000000000
-    new: 26da925c5b5ef21cc7c6076a5116ef62739c7a21
+    new: 431a694c16002fcf88e017f28260bde9414a93c4
