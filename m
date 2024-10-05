@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5928362015234279282=="
+Content-Type: multipart/mixed; boundary="===============3920383962070579977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 05 Oct 2024 00:11:46 -0000
-Message-Id: <172808710656.2492487.12325180821139395188@gitolite.kernel.org>
+Date: Sat, 05 Oct 2024 00:13:16 -0000
+Message-Id: <172808719607.2493240.17190899358109473105@gitolite.kernel.org>
 
---===============5928362015234279282==
+--===============3920383962070579977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/core
-    old: 2fd814ad5713b6069912c4f1662fbc74de2c4741
-    new: 06e99583eefa1ff9fe050248353bb2c1b4dcce82
-    log: revlist-2fd814ad5713-06e99583eefa.txt
+  - ref: refs/heads/tools/core
+    old: a23c05fd76cf4ad27e0c74f7a93e7b089e94a55c
+    new: cfb1ea216c1656a4112becbc4bf757891933b902
+    log: revlist-a23c05fd76cf-cfb1ea216c16.txt
 
---===============5928362015234279282==
+--===============3920383962070579977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fd814ad5713-06e99583eefa.txt
+Content-Disposition: attachment; filename=revlist-a23c05fd76cf-cfb1ea216c16.txt
 
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
 1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
 9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
 cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
@@ -1035,20 +1045,10 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-50a3242d84ee1625b0bfef29b95f935958dccfbe tracing: Fix trace_check_vprintf() when tp_printk is used
-f771d5369f1dbfe32c93bcb4f5d7ca8322b15389 tools/rtla: Fix installation from out-of-tree build
-3d7b8ea7a8a20a45d019382c4dc6ed79e8bb95cf rtla: Fix the help text in osnoise and timerlat top tools
-ad686707ea16099a791bcdcd5372764c5059aecc x86/ftrace: Include <asm/ptrace.h>
-0bb0a5c12ecf36ad561542bbb95f96355e036a02 tracing/timerlat: Fix duplicated kthread creation due to CPU online/offline
-b484a02c9cedf8703eff8f0756f94618004bd165 tracing/timerlat: Drop interface_lock in stop_kthread()
-829e0c9f0855f26b3ae830d17b24aec103f7e915 tracing/timerlat: Fix a race during cpuhp processing
-2a13ca2e8abb12ee43ada8a107dadca83f140937 tracing/hwlat: Fix a race during cpuhp processing
-18311d21a0290c261698b7ac0ecfe5ca90e24ad6 ftrace: Use this_cpu_ptr() instead of per_cpu_ptr(smp_processor_id())
-c5b7024cbd31fc6abc2f7b5c99e4fbbcbce5dcbf tracing/branch-profiler: Replace deprecated strncpy with strscpy
-7e6be5aa74cf95f27210749640fac5aa65019d2e tracing: Remove TRACE_EVENT_FL_FILTERED logic
-01e7767a548532a6d9298d95b9866e85e4ddad19 tracing: Replace multiple deprecated strncpy with strscpy
-98d441f891fd0b0ddd2569508dce3820a72c315f tracepoints: Use new static branch API
-b88ee1d4f0d50f4b83afe5d1d8c41b5f3476415c tracing: Remove definition of trace_*_rcuidle()
-06e99583eefa1ff9fe050248353bb2c1b4dcce82 tracepoint: Remove SRCU protection
+3a546a67a4cc251b4ec2ba02d8f7aacf0bfc3148 rtla: use the definition for stdout fd when calling isatty()
+f88b8871c70f10d692cc2cfa1fb020c281dd7603 tools/rv: Correct the grammatical errors in the comments
+1c5e11b3ee9c1a583a6630148ed50346e5bbb59b tools/rv: Correct the grammatical errors in the comments
+ac1987f8f525379a0677f7f23c7a7ef2596a338d rv: Fix a typo
+cfb1ea216c1656a4112becbc4bf757891933b902 rtla: Fix consistency in getopt_long for timerlat_hist
 
---===============5928362015234279282==--
+--===============3920383962070579977==--
