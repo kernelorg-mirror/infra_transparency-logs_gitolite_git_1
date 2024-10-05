@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7246678990946994181=="
+Content-Type: multipart/mixed; boundary="===============5612439254831207080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 05 Oct 2024 16:57:30 -0000
-Message-Id: <172814745071.3337377.7708097526976773903@gitolite.kernel.org>
+Date: Sat, 05 Oct 2024 17:00:37 -0000
+Message-Id: <172814763766.3340671.4240037484112694528@gitolite.kernel.org>
 
---===============7246678990946994181==
+--===============5612439254831207080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/ls64
-    old: 3ba175e026c8708577a4f2e4c4abcb3fbb25fc24
-    new: dd7c7288c8344ca81b3a78ffc6e9f1b4a9fbac8c
-    log: revlist-3ba175e026c8-dd7c7288c834.txt
+  - ref: refs/heads/kvm-arm64/nv-next
+    old: b1c96e3a4ebc0fb230900bbf758e593a01ec22b4
+    new: 6553261895685f12c81f0f9d28520be3c7f07210
+    log: revlist-b1c96e3a4ebc-655326189568.txt
 
---===============7246678990946994181==
+--===============5612439254831207080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ba175e026c8-dd7c7288c834.txt
+Content-Disposition: attachment; filename=revlist-b1c96e3a4ebc-655326189568.txt
 
-3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
-5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
-f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
-1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
-9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
-cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
-1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
-7e340f4fad46b766705be96f5d1c764a397a7a36 Merge patch series "Svvptc extension to remove preventive sfence.vma"
-8f1534e7440382d118c3d655d3a6014128b2086d riscv: avoid Imbalance in RAS
-9410645520e9b820069761f3450ef6661418e279 Merge tag 'net-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-85ffc6e4ed3712f8b3fedb3fbe42afae644a699c Merge tag 'v6.12-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-79f1a6adef3718c295b2ffb403049f15d5a2797d Merge tag 'x86_microcode_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d0a63f0e1a9506c79df997e70f7fad95a8236b1c Merge tag 'ras_core_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b56dff267d1246a6cd4a6ae1f850e12893dadf94 Merge tag 'x86_sev_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d580d74ea2836edbbd49cd791eb5d0acad7b14aa Merge tag 'x86_cpu_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-963d0d60d690ce2525a8fbcc0a63c4ae22f4670c Merge tag 'x86_bugs_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a4ebad655b98c91c10cf0690e66c11b0891c76ee Merge tag 'x86_sgx_for_6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8617d7d6298f54dfef4038281863270b5864fe83 Merge tag 'mips_6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-114143a595895c03fbefccfd8346fc51fb4908ed Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-980bcd35ae0a21da9a22155e386c8ff17019d545 Merge tag 'cmpxchg.2024.09.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-64dd3b6a79f0907d36de481b0f15fab323a53e5a Merge tag 'for-linus-non-x86' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-11b3125073d16929403d3aa7b2ae6a482060a937 Merge tag 'acpi-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-02824a5fd11f99b4637668926a59aab3698b46a9 Merge tag 'pm-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d22300518d875f78203e9afacb5aa0b0316da523 Merge tag 'thermal-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-9498f2e24ee0133d486667c9fa4c27ecdaadc272 drm/i915/psr: Do not wait for PSR being idle on on Panel Replay
-fcd33d434d31a210bc9f209b5bfd92f3b91a2dda drm/i915/display: BMG supports UHBR13.5
-ec2231b8dd2dc515912ff7816c420153b4a95e92 drm/i915/dp: Fix AUX IO power enabling for eDP PSR
-8f72c31f45a575d156cfe964099b4cfcc02e03eb Merge tag 'vfs-6.12.misc' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-2775df6e5e324be9dc375f7db2c8d3042df72bbf Merge tag 'vfs-6.12.folio' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-3352633ce6b221d64bf40644d412d9670e7d56e3 Merge tag 'vfs-6.12.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-ee25861f26e7a2213b97ce21ee1ccd98331a75b1 Merge tag 'vfs-6.12.fallocate' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e8fc317dfca9021f0ea9ed77061d8df677e47a9f Merge tag 'vfs-6.12.procfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-39c047d4047a1242aeefa87513174b56a91080ab RDMA/hns: Fix ah error counter in sw stat not increasing
-5bab087507ae99250579f1d36071eb6c867065b1 selftests: kvm: s390: Add VM run test case
-f9b56b2c31e5733c04464da1b73bafb9eff6569f s390: Enable KVM_S390_UCONTROL config in debug_defconfig
-e766e6a92410ca269161de059fff0843b8ddd65f RDMA/cxgb4: Added NULL check for lookup_atid
-a09c17240bdf2e9fa6d0591afa9448b59785f7d4 io_uring/sqpoll: retain test for whether the CPU is valid
-9020d0d844ad58a051f90b1e5b82ba34123925b9 Merge tag 'vfs-6.12.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-35219bc5c71f4197c8bd10297597de797c1eece5 Merge tag 'vfs-6.12.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-effdcd5275ed645f6e0f8e8ce690b97795722197 Merge tag 'affs-for-6.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7a40974fd0efa3698de4c6d1d0ee0436bcc4445d Merge tag 'for-6.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7427c5b34fbe191451a48c69c392c85b648caa4f pinctrl: ep93xx: Fix raster pins typo
-69a3a0a45a2f72412c2ba31761cc9193bb746fef Merge tag 'erofs-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-f3eeba0645dcb48c90f64ae6193148bf881429a8 dmaengine: ep93xx: Fix a NULL vs IS_ERR() check in probe()
-d7333f9d33772ba93f0144b1e3969866f80fdb9a dmaengine: cirrus: use snprintf() to calm down gcc 13.3.0
-210860e7f7337e47e77577fa5bb168767e2d8a1e selftests: vDSO: check cpu caps before running chacha test
-3a4d319a8fb5a9bbdf5b31ef32841eb286b1dcc2 Merge tag 'for-6.12/io_uring-20240913' of git://git.kernel.dk/linux
-26bb0d3f38a764b743a3ad5c8b6e5b5044d7ceb4 Merge tag 'for-6.12/block-20240913' of git://git.kernel.dk/linux
-adfc3ded5c33d67e822525f95404ef0becb099b8 Merge tag 'for-6.12/io_uring-discard-20240913' of git://git.kernel.dk/linux
-e03ad65cea610b24c6991aebf432d5c6824cd002 Merge tag 'i2c-host-fixes-6.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-df40a23cc34c200cfde559eda7ca540f3ae7bd9e platform/x86: x86-android-tablets: Adjust Xiaomi Pad 2 bottom bezel touch buttons LED
-a550d6ae4d73dc4b9f1a2b3ad3d8d9e355b396be pwm: lp3943: Fix an incorrect type in lp3943_pwm_parse_dt()
-4c82005f17ec40863ee9bd5c82efcee1edd5282c Merge tag 'ib-mfd-gpio-pwm-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-59921a7397074e90030659bbb74aad372effdeee pwm: adp5585: Set OSC_EN bit to 1 when PWM state is enabled
-89deb4c8d09eb6d3548e18db76f03a782c3467ce pwm: omap-dmtimer: Use of_property_read_bool()
-433f1f79050d4d0a19fee6c0ddf1b7988bc04dd6 pwm: atmel-hlcdc: Enable module autoloading
-60cd67a40b74f99afeca91e73bee415341a43993 pwm: atmel-hlcdc: Drop trailing comma
-34d973c9c1850971c0ee27150ee33bd85cd7e2b7 pwm: axi-pwmgen: use shared macro for version reg
-edeedfaa0c3ab7a7468ba876b664ffb2f0f5e0d5 dt-bindings: pwm: allwinner,sun4i-a10-pwm: add top-level constraints
-8db7fdffaaf6cc9f21be5f601c7ef12b173074a5 pwm: Switch back to struct platform_driver::remove()
-6e50721426e48f63be53b4732bd08029633933d1 dt-bindings: pwm: amlogic: Add optional power-domains
-a4cf667d7791cd1fbb501f89a957d18797e6f111 dt-bindings: pwm: amlogic: Add new bindings for meson A1 PWM
 d242feaf81d63b25d8c1fb1a68738dc33966a376 pwm: stm32: Fix a typo
 7f44beadcc11adb98220556d2ddbe9c97aa6d42d io_uring/sqpoll: do not put cpumask on stack
 dc1a456dc1870942d19e8cea257554d9d8d1597a cifs: Fix cifs readv callback merge resolution issue
@@ -1039,6 +974,12 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
+78fee4198bb4d29cf82c457086d07e009955a682 KVM: arm64: Fix __pkvm_init_vcpu cptr_el2 error path
+a9f41588a902f386b48f021f56a4c14735cd9371 KVM: arm64: Constrain the host to the maximum shared SVE VL with pKVM
+64a1d716615ee234a743b2528e95d8c3a9bef95f KVM: arm64: Another reviewer reshuffle
+a1d402abf8e3ff1d821e88993fc5331784fac0da KVM: arm64: Fix kvm_has_feat*() handling of negative features
+5422fdb9cddb61cc891a03455221ca06680f7916 Merge branch kvm-arm64/idregs-6.12 into kvm-arm64/nv-next-WIP
+62b57f1fe489f88f6d2d2316325bd981805710b9 Merge branch 'kvmarm-master/fixes' into kvm-arm64/nv-next-WIP
 457cfcd048867e1ddcd944955fe02d97ddb232f6 arm64: Expose ID_AA64ISAR1_EL1.XS to sanitised feature consumers
 75c1108ef17c6551ddcf16048c78fa728c79322c arm64: Add syndrome information for trapped LD64B/ST64B{,V,V0}
 6a599e275a1fb5b53d357827a4450b676901ff0a KVM: arm64: Add ACCDATA_EL1 to the sysreg array
@@ -1050,5 +991,64 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 4bacf3e6da98bc931fe326a5bfdb2e25a12bb958 KVM: arm64: nv: Expose FEAT_LS64* to a nested guest
 86c7325bfb47344cbc813958d4af997d2f4ce43c arm64: Expose ID_AA64ISAR1_EL1.LS64 to sanitised feature consumers
 dd7c7288c8344ca81b3a78ffc6e9f1b4a9fbac8c KVM: arm64: Add documentation for KVM_EXIT_ARM_LDST64B
+a7b5244f0728f707b3e5e71377c6c3faa3685fc8 Merge branch 'kvm-arm64/ls64' into kvm-arm64/nv-next-WIP
+2a46d7fc4abd0f8481ee06c17a2e7bc140ae0ac7 arm64: cpufeature: Handle NV_frac as a synonym of NV2
+5bb3de029aca24fa9ed2129020ab157cc89dc03f KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
+e8a85dfaccc7d5b73ba95a7342d66305f27f7594 KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
+13fad8d8c606fcab8a2765bc88467a3c80a8d9b1 KVM: arm64: nv: Mark HCR.EL2.E2H as RES0 when ID_AA64MMFR1_EL1.VH is zero
+457265fcf3c7e73a1bdd9ba6397475a90d7c940e Merge branch 'kvm-arm64/nv-e2h-select' into kvm-arm64/nv-next-WIP
+a70394121d223b68aa8fa76019e780623c9f1f82 arm64: Drop SKL0/SKL1 from TCR2_EL2
+07b0cd31a96dad2946fae2cd68b88b2f67894c11 arm64: Remove VNCR definition for PIRE0_EL2
+0937c8d936ab4224e8419ffdd0f9686e90e58349 arm64: Add encoding for PIRE0_EL2
+34b00c402f40170749849225b19f45ccc18e5bc5 KVM: arm64: nv: Add missing EL2->EL1 mappings in get_el2_to_el1_mapping()
+0879728e37fd58ad48c34c3d6b40d37f6c692d15 KVM: arm64: nv: Handle CNTHCTL_EL2 specially
+343d89729040c1f61e07c6f495009946a6c9c7ec KVM: arm64: nv: Save/Restore vEL2 sysregs
+0997215405d09fc1f00056ab61a3351fa6b7c7a7 KVM: arm64: Correctly access TCR2_EL1, PIR_EL1, PIRE0_EL1 with VHE
+f593e1f5639cd03c10fe6d644beeb63e1ae74b76 KVM: arm64: Extend masking facility to arbitrary registers
+ef904847a9a57c5b8c8b0639ff2a65ced5c6765b arm64: Define ID_AA64MMFR1_EL1.HAFDBS advertising FEAT_HAFT
+c46ded1d41e694ab7f30a4837032bc2bec62d17f KVM: arm64: Add TCR2_EL2 to the sysreg arrays
+cd60fea04ccef939be93e6f92aa496d928ee68a8 KVM: arm64: Sanitise TCR2_EL2
+db4f991d39daa5a9119bee79602b568cb80d0167 KVM: arm64: Add save/restore for TCR2_EL2
+c0dddcb936e6c62dc806ae2b08f5e5634d2e58ce KVM: arm64: Add PIR{,E0}_EL2 to the sysreg arrays
+7924603612e22174f69994e1455d40940e2a8da5 KVM: arm64: Add save/restore for PIR{,E0}_EL2
+16dd59739af26d3171afd1d04c38c8dc167ae5df KVM: arm64: Handle PIR{,E0}_EL2 traps
+2c6eb424effe08be010d5d2a41542272f28ab97e KVM: arm64: Sanitise ID_AA64MMFR3_EL1
+a25ee33479242cdd84332f6fcebb1aab8e64837e KVM: arm64: Add AT fast-path support for S1PIE
+cf9d839f33de9bddfa2ea0d1136ce1d66da9c54d KVM: arm64: Split S1 permission evaluation into direct and hierarchical parts
+2ba9d7843a0dee5976e704fb2d3e7ab64a63e5f6 KVM: arm64: Disable hierarchical permissions when S1PIE is enabled
+fbaca2470c8ba7e447d8a4b2940a93e86610d3ca KVM: arm64: Implement AT S1PIE support
+9672d43cc8465a61db0b638df729e41c40301783 KVM: arm64: Define helper for EL2 registers with custom visibility
+302153a96695b89c0c6453886790317e9c5b63b2 KVM: arm64: Hide TCR2_EL1 from userspace when disabled for guests
+a28639223b5c706d448dff40e0ef75594d0ce2ca KVM: arm64: Hide S1PIE registers from userspace when disabled for guests
+66b4a123900ee06e3e68881792cb3d0542b88848 KVM: arm64: Rely on visibility to let PIR*_ELx/TCR2_ELx UNDEF
+3cc51bf2e51c51f89b14125c93eb3e89d4c4fffe arm64: Add encoding for POR_EL2
+f731193832b13b7ecde36ea76d00a626644fc2a9 KVM: arm64: Add a composite EL2 visibility helper
+677ff3059738ffab485f19c8be5602808be6f377 KVM: arm64: Drop bogus CPTR_EL2.E0POE trap routing
+6705ff38f7b56f411b3391a41b2f41142e8838e8 KVM: arm64: Subject S1PIE/S1POE registers to HCR_EL2.{TVM,TRVM}
+f8943fc029a6d3af8b24bf957504aff482cfaa6e KVM: arm64: Add basic support for POR_EL2
+3090f89354a9a870b6b5a7ab87f9f0fc5f5655f5 KVM: arm64: Add save/retore support for POR_EL2
+ab6a5237756edc1e39558f53abfa02135f594ef1 KVM: arm64: Add POE save/restore for AT emulation fast-path
+4ca5bed5383e79b84dda3fd043f3de111ceea55c KVM: arm64: Disable hierarchical permissions when POE is enabled
+a67c0578e3c796534aa654b158e73f1d50a50707 KVM: arm64: Make PAN conditions part of the S1 walk context
+164e0b4275994157a4af9f59cb4d2f238a8dc587 KVM: arm64: Handle stage-1 permission overlays
+e86d84a3f9dbe7c747d3ef363633e48eff9c850e KVM: arm64: Handle WXN attribute
+b188edb40c2b9a23565d992e40254f9d3463194e Merge branch 'kvm-arm64/nv-s1poe' into HEAD
+7c147b0b6630a593d527cd74c2052d53d8779b57 KVM: arm64: nv: Respect virtual HCR_EL2.TWx setting
+cf96e3218395ce9a4c48f8bd848ffdf68c35e03a KVM: arm64: nv: Add handling of EL2-specific timer registers
+036ad1ff20144bdcc6e1aafdf09789c1044f658c KVM: arm64: nv: Sync nested timer state with FEAT_NV2
+31af04e9034e3107d4d44d46fb23f5ec4ee85bf2 KVM: arm64: nv: Publish emulated timer interrupt state in the in-memory state
+c2ff8177a91ad143e7133951e2840ed764e6382b KVM: arm64: nv: Load timer before the GIC
+9c71b53fc19ddcd010a2128e3bde6db630d2f69b KVM: arm64: nv: Nested GICv3 Support
+727d327d2fe1c0b1ef8b928dcdad0954d4670dba KVM: arm64: nv: Don't block in WFI from nested state
+de201c86d4205ebd12850f0b5b47d83ad06ed26c KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
+d0d821a732f7ac90689a990742b9587e34492512 KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
+28506404a2b0bfffe098b3c8b73e3c60b3c86978 KVM: arm64: nv: Deal with broken VGIC on maintenance interrupt delivery
+206a1187801d11da2e56b928c0fec03f9aeaf0f9 KVM: arm64: nv: Allocate VNCR page when required
+7d604e7d24e4fcbcc88945d60b654b90b06f046a KVM: arm64: nv: Use FEAT_ECV to trap access to EL0 timers
+fb78608dd7a43d4f763157f34b45390d60426f76 KVM: arm64: nv: Accelerate EL0 timer read accesses when FEAT_ECV is on
+7fa2b5316ceab14806e8c192f5e57a417d5826b4 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
+7ad8a5c0f1d43eebe65fea2b4d87d5c6b3d9ac02 KVM: arm64: nv: Add nested GICv3 tracepoints
+3d010a59d6f08e5ebb063600e135b9862c66554c mailmap: Update address for Jintack Lim
+6553261895685f12c81f0f9d28520be3c7f07210 [HACK] disable EOI MI
 
---===============7246678990946994181==--
+--===============5612439254831207080==--
