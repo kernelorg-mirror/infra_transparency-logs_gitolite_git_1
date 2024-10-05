@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 05 Oct 2024 00:44:56 -0000
-Message-Id: <172808909606.2520640.12160827428601886758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Sat, 05 Oct 2024 00:48:04 -0000
+Message-Id: <172808928444.2523733.13546989966369344394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 872f9f74cbbf6fd28ab6b9437bb6dced4506d641
-    new: 3d16f1f869066f8f709efcf07c214427cf788274
+  - ref: refs/heads/dt/next
+    old: a6fa1f9e32f573faf53f9587ddbb70a0b9ab8c9f
+    new: fbe4ba6c5c7c6bb61321ea65721e3c937e8e82cb
     log: |
-         7f6c7c3505753b1ef3d233ce91977e215528b350 foo
-         3d16f1f869066f8f709efcf07c214427cf788274 foo
+         fbe4ba6c5c7c6bb61321ea65721e3c937e8e82cb dt-bindings: fpga: altr,fpga-passive-serial: Convert to yaml
          
