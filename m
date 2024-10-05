@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
-Date: Sat, 05 Oct 2024 02:01:24 -0000
-Message-Id: <172809368442.2581079.12605155396736471060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Sat, 05 Oct 2024 02:05:38 -0000
+Message-Id: <172809393884.2584675.18283337526282321791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hackermail
-user: sj
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 9591764c9beaaa69372c5fa6c42f7f13e2045adc
-    new: e9b8a1d1ddd88ab666b8f5723df8eb25ce3f661c
-    log: |
-         5dad78d9c70fbf2feb17c3d8043fdb7e2570bbd5 hkml_list: Support multiple keywords lists
-         e9b8a1d1ddd88ab666b8f5723df8eb25ce3f661c TODO/release_note: Update for recent changes
-         
+  - ref: refs/tags/ext4_for_linus-5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: d6d31032e7d8fed2c6cb3bae6a394230a70940b2
