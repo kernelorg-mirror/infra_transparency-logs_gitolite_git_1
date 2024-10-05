@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5612439254831207080=="
+Content-Type: multipart/mixed; boundary="===============6175865677276634398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 05 Oct 2024 17:00:37 -0000
-Message-Id: <172814763766.3340671.4240037484112694528@gitolite.kernel.org>
+Date: Sat, 05 Oct 2024 17:03:17 -0000
+Message-Id: <172814779711.3342056.4208534612789990208@gitolite.kernel.org>
 
---===============5612439254831207080==
+--===============6175865677276634398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,120 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/nv-next
-    old: b1c96e3a4ebc0fb230900bbf758e593a01ec22b4
-    new: 6553261895685f12c81f0f9d28520be3c7f07210
-    log: revlist-b1c96e3a4ebc-655326189568.txt
+  - ref: refs/heads/kvm-arm64/nv-next-fruit
+    old: 2c3584d8d4404f33f86ddce77f7378213f37d01e
+    new: b77bafbf581d2b3a47072976dca8055250e314d1
+    log: revlist-2c3584d8d440-b77bafbf581d.txt
 
---===============5612439254831207080==
+--===============6175865677276634398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1c96e3a4ebc-655326189568.txt
+Content-Disposition: attachment; filename=revlist-2c3584d8d440-b77bafbf581d.txt
 
-d242feaf81d63b25d8c1fb1a68738dc33966a376 pwm: stm32: Fix a typo
-7f44beadcc11adb98220556d2ddbe9c97aa6d42d io_uring/sqpoll: do not put cpumask on stack
-dc1a456dc1870942d19e8cea257554d9d8d1597a cifs: Fix cifs readv callback merge resolution issue
-43a64bd02f9369be02c4c9312fc0965f78f65ad5 cifs: Remove redundant setting of NETFS_SREQ_HIT_EOF
-dc644fba3cf837f22d14991cab3c4c65af37ae21 Merge tag 'audit-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-ad060dbbcfcfcba624ef1a75e1d71365a98b86d8 Merge tag 'selinux-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-26df39de93bb8763bb3088db6c76eb98d4cd7213 Merge tag 'amd-drm-next-6.12-2024-09-13' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-ca627e636551e74b528f150d744f67d9a63f0ae7 rust: cfi: add support for CFI_CLANG with Rust
-cc1d98f9fe30467a2224184336b3166ef4adbc25 kasan: simplify and clarify Makefile
-c42297438aee70e2d391225de3d35ffeb2bdbaf9 kbuild: rust: Define probing macros for rustc
-f64e2f3a66e30319023b7924d438d159ac742d63 rust: kasan: Rust does not support KHWASAN
-e3117404b41124c88a4d834fc3222669a880addc kbuild: rust: Enable KASAN support
-a2f11547052001bd448ccec81dd1e68409078fbb kasan: rust: Add KASAN smoke test via UAF
-a430d95c5efa2b545d26a094eb5f624e36732af0 Merge tag 'lsm-pr-20240911' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-9f0eafe86ea0a589676209d0cff1a1ed49a037d3 RDMA/irdma: fix error message in irdma_modify_qp_roce()
-7acad3c442df6d5158c5b732a7a0ccf3a01d9b30 RDMA/nldev: Add missing break in rdma_nl_notify_err_msg()
-2f6a55e4235f596b7dd9e8a7cf3e07f39ac5e9c2 io_uring: clean up a type in io_uring_register_get_file()
-9542130937e9dc707dd7c6b7af73326437da2d50 parisc: Fix itlb miss handler for 64-bit programs
-75f653f0c6318ae0acfd6277efba3f9bd7cf837c parisc: Use PRIV_USER instead of hardcoded value
-5d698966fa7b452035c44c937d704910bf3440dd parisc: Allow mmap(MAP_STACK) memory to automatically expand upwards
-21d52e295ad2afc76bbd105da82a003b96f6ac77 landlock: Add abstract UNIX socket scoping
-5b6b63cd64bbaf9894e799b198cb4562733cab03 selftests/landlock: Test handling of unknown scope
-fefcf0f7cf470845b3675286c298484a056a7b13 selftests/landlock: Test abstract UNIX socket scoping
-4f9a5b50d3b39027c5fdb44b33835209665fe069 selftests/landlock: Test UNIX sockets with any address formats
-d1cc0ef80f2377a6970737ed88d95014ca461993 selftests/landlock: Test connected and unconnected datagram UNIX socket
-644a728506c794e9e4f5fb9845ed4f7014cf46d9 selftests/landlock: Test inherited restriction of abstract UNIX socket
-369b48b43a09f995876bb2e88d78845eb2a80212 samples/landlock: Add support for abstract UNIX socket scoping
-dba40c77003861b1b435de43101aaa05b769dda9 landlock: Document LANDLOCK_SCOPE_ABSTRACT_UNIX_SOCKET
-54a6e6bbf3bef25c8eb65619edde70af49bd3db0 landlock: Add signal scoping
-ea292363c322d82663e021c5dc532894c30d4e59 selftests/landlock: Test signal scoping
-c8994965013ee62cfb0f3cec01aa447f9077a869 selftests/landlock: Test signal scoping for threads
-f34e9ce5f4794387121120b2d2ff5aa265ef6ce9 selftests/landlock: Test signal created by out-of-bound message
-f490e205bcbada6eb6dca8b75a2511685e6bd0f0 samples/landlock: Add support for signal scoping
-1ca980815e1f284dddcb5e678c91bbd3e3f3a6a6 landlock: Document LANDLOCK_SCOPE_SIGNAL
-41d3f256c6a5e41eb32b87168399c0facd512dc0 cifs: Add support for creating SFU symlinks
-37408843f2ae03b027777f2ffa460e2eb0f3b292 cifs: Update SFU comments about fifos and sockets
-5ac1f99fdd09d80223e8f47dffaea41a6563aace smb: client: fix compression heuristic functions
-53d69bdd5b19bb17602cb224e01aeed730ff3289 io_uring/sqpoll: do the napi busy poll outside the submission block
-aa3d8a36780ab568d528348dd8115560f63ea16b block: change wait on bd_claiming to use a var_waitqueue
-ae2c6d8b3b88c176dff92028941a4023f1b4cb91 Merge tag 'drm-xe-next-fixes-2024-09-12' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-97e17c08a428b17531894b59990d6b9ff3e95eab Merge tag 'smp-core-2024-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a64405b78be95d786e15b2fd0a12999240b28ea5 Merge tag 'timers-clocksource-2024-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4208c562a27899212e8046080555e0f204e0579a block: remove bogus union
-cb69d86550b3f47be50fa5751d31ebbdb71b18ee Merge tag 'irq-core-2024-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9ea925c806dbb8fee6797f59148daaf7f648832e Merge tag 'timers-core-2024-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fba27cf005038a5fedf001b49636594819dbb1d5 exfat: drop ->i_size_ondisk
-231eb762bbe8fa232e672e5a399eed16a0c0c45a exfat: do not fallback to buffered write
-daa394f0f9d3cb002c72e2d3db99972e2ee42862 Merge tag 'core-debugobjects-2024-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c903327d3295b135eb8c81ebe0b68c1837718eb8 Merge tag 'printk-for-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-9f40ec84a7976d95c34e7cc070939deb103652b0 xen/swiotlb: add alignment check for dma buffers
-c3dea3d54f4d399f8044547f0f1abdccbdfb0fee xen/swiotlb: fix allocated size
-6040f650c56862a4ac40b00c37ef6ab1ddfcebb5 zsmalloc: use unique zsmalloc caches names
-b4afe4183ec77f230851ea139d91e5cf2644c68b resource: fix region_intersects() vs add_memory_driver_managed()
-2a058ab3286d6475b2082b90c2d2182d2fea4b39 mm: change vmf_anon_prepare() to __vmf_anon_prepare()
-98b74bb4d7e96b4da5ef3126511febe55b76b807 mm/hugetlb.c: fix UAF of vma in hugetlb fault pathway
-2a1b8648d9be9f37f808a36c0f74adb8c53d06e6 mm/huge_memory: ensure huge_zero_folio won't have large_rmappable flag set
-22af8caff7d1ca22a1ff1a554180e53f7a6555af mm/madvise: process_madvise() drop capability check if same mm
-6857be5fecaebd9773ff27b6d29b6fff3b1abbce mm: introduce ARCH_SUPPORTS_HUGE_PFNMAP and special bits to pmd/pud
-ef713ec3a566d3e5e011c5d6201eb661ebf94c1f mm: drop is_huge_zero_pud()
-3c8e44c9b369b3d422516b3f2bf47a6e3c61d1ea mm: mark special bits for huge pfn mappings when inject
-5dd40721f147e83733ad34848330913cb633046e mm: allow THP orders for PFNMAPs
-ae3c99e650da4a8f4deb3670c29059de375a88be mm/gup: detect huge pfnmap entries in gup-fast
-10d83d7781a8a6ff02bafd172c1ab183b27f8d5a mm/pagewalk: check pfnmap for folio_walk_start()
-bc02afbd4d73c4424ea12a0c35fa96e27172e8cb mm/fork: accept huge pfnmap entries
-0515e022e167cfacf1fee092eb93aa9514e23c0a mm: always define pxx_pgprot()
-6da8e9634bb7e3fdad9ae0e4db873a05036c4343 mm: new follow_pfnmap API
-5731aacd54a883dd2c1a5e8c85e1fe78fc728dc7 KVM: use follow_pfnmap API
-bd8c2d18bf5cccd8842d00b17d6f222beb98b1b3 s390/pci_mmio: use follow_pfnmap API
-cbea8536d933d546ceb1005bf9c04f9d01da8092 mm/x86/pat: use the new follow_pfnmap API
-a77f9489f1d7873a56e1d6640cc0c4865f64176b vfio: use the new follow_pfnmap API
-e6bc784c24fdabdad923aaa45c1928b2cde8a0c9 acrn: use the new follow_pfnmap API
-b17269a51cc7f046a6f2cf9a6c314a0de885e5a5 mm/access_process_vm: use the new follow_pfnmap API
-b0a1c0d0edcd75a0f8ec5fd19dbd64b8d097f534 mm: remove follow_pte()
-75182022a0439788415b2dd1db3086e07aa506f7 mm/x86: support large pfn mappings
-3e509c9b03f9abc7804c80bed266a6cc4286a5a8 mm/arm64: support large pfn mappings
-f9e54c3a2f5b79ecc57c7bc7d0d3521e461a2101 vfio/pci: implement huge_fault support
-7a2369b74abf76cd3e54c45b30f6addb497f831b mm: z3fold: deprecate CONFIG_Z3FOLD
-bacf9c3cbb18f7e3f67521516d881892f46bbcef resource: make alloc_free_mem_region() works for iomem_resource
-99185c10d5d9214d0d0c8b7866660203e344ee3b resource, kunit: add test case for region_intersects()
-aa549f923f5e037a459dcd588932db9abfa8c158 mm: support poison recovery from do_cow_fault()
-658be46520ce480a44fe405730a1725166298f27 mm: support poison recovery from copy_present_page()
-fd00be9afa1d64c90ae20a1307da1bdb809b3d55 mm/show_mem.c: report alloc tags in human readable units
-f2c5101be43677c227974912a043da29a62743ef memcg: cleanup with !CONFIG_MEMCG_V1
-659c55ef981bb63355a65ffc3b3b5cad562b806a mm/vma: return the exact errno in vms_gather_munmap_vmas()
-82ce8e2f31a1eb05b1527c3d807bea40031df913 set_memory: add __must_check to generic stubs
-a0c9fd22e312caa5566d4f3924e37d8158b997cc mm/debug_vm_pgtable: Use pxdp_get() for accessing page table entries
-9d57090e73d5e00e946d7fdd6398c2c0bc3b5525 mm: fix swap_read_folio_zeromap() for large folios with partial zeromap
-325efb16da2c840e165d9b620fec8049d4d664cc mm: add nr argument in mem_cgroup_swapin_uncharge_swap() helper to support large folios
-242d12c98174584a18965cfab95778893872d650 mm: support large folios swap-in for sync io devices
-ed8d5b0ce1d738e13c60d6b1a901a56d832e5070 Revert "uprobes: use vm_special_mapping close() functionality"
-6d27a31ef195951c9b03098edfdf986549a213b7 uprobes: introduce the global struct vm_special_mapping xol_mapping
-2abbcc099ec60844ca7c15214ab12955d3c11e68 uprobes: turn xol_area->pages[2] into xol_area->page
-684826f8271ad97580b138b9ffd462005e470b99 zram: free secondary algorithms names
-13309764720624caf2c5afba99b198f3f9fcd9f0 proc: use __auto_type more
-e620799c414a035dea1208bcb51c869744931dbb list: test: fix tests for list_cut_position()
-5e06e08939df1cafef97a8e04f4b88c2806b538a list: test: increase coverage of list_test_list_replace*()
-9179b73aa72add1bd54d8fa15d7f47a1fa602248 Merge tag 'regmap-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-6df928086070b4db8cadc31a4424524f57c584ae Merge tag 'regulator-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-303ba85c60442ecdca77231f227126a83ba39bd3 Merge tag 'spi-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-7b17f5ebd5fc5e9275eaa5af3d0771f2a7b01bbf Merge tag 'soc-dt-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-b8979c6b4d0d1b36e94f5bc483fd86e38107e554 Merge tag 'soc-drivers-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-38ea77ab07480fa57a80bbdc2706ab2807ebc9e6 Merge tag 'soc-defconfig-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-d2d6422f8bd17c6bb205133e290625a564194496 x86: Allow to enable PREEMPT_RT.
 d8fccd9ca5f905533dc6c26cfd1f91beb8691c95 arm64: Allow to enable PREEMPT_RT.
 2638e4e6b18233d7ec54edb953f253ae9515bac2 riscv: Allow to enable PREEMPT_RT.
 a940d9a43e623d1ba1e5c499aa843516656c0ae4 Merge tag 'soc-arm-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -196,6 +93,7 @@ f168c000d27f8134160d4a52dfc474a948a3d7e9 tpm: export tpm2_sessions_init() to fix
 43d97b2ebd3066d0328bbc1c622341d59292ca48 Merge tag 'kvm-x86-pat_vmx_msrs-6.12' of https://github.com/kvm-x86/linux into HEAD
 55e6f8f29d6ac76126ad1c8000b4c3626cf4b176 Merge tag 'kvm-x86-svm-6.12' of https://github.com/kvm-x86/linux into HEAD
 3f8df6285271d9d8f17d733433e5213a63b83a0b Merge tag 'kvm-x86-vmx-6.12' of https://github.com/kvm-x86/linux into HEAD
+c24f6a9c03023a15361d83d33b7c8320b84adb2b squash! PCI: apple: Avoid PERST# deassertion through gpiod initialization
 21d98d658f9e5967dc30c321bc258b50740c6665 ACPI: RISCV: Make acpi_numa_get_nid() to be static
 f761fcdd289d07e8547fef7ac76c3760fc7803f2 exfat: Implement sops->shutdown and ioctl
 d2b537b3e533f28e0d97293fe9293161fe8cd137 exfat: fix memory leak in exfat_load_bitmap()
@@ -692,9 +590,17 @@ f2990f8630531a99cad4dc5c44cb2a11ded42492 i2c: synquacer: Deal with optional PCLK
 68898131d2df70d1a9ad5c2f93f0f54dd6d5c336 nfs: Fix `make htmldocs` warnings in the localio documentation
 5c36498d06b9b00393c2f35edbf16b28194375fa Merge tag 'lsm-pr-20240923' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 24f772dec31591f9268a9c9e4943dc5dc47eaf9b Merge tag 'keys-next-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+12e720e23c1c995487a277c73ac20742fdfca82f ALSA: Introduce 'snd_interval_rate_bits'
+654e07b1ecf19c1991a1576607f790779dc67863 ALSA: Support nonatomic dmaengine PCMs
+f1fa2542d8ab9ab0d223d8279f41a494171d1920 READ COMMIT MESSAGE! macaudio: Enable first round of models
+f8cddd86933bacda3a01e632a0b5f922e0b52d98 READ COMMIT MESSAGE! macaudio: Enable second round of models
 e1b061b444fb01c237838f0d8238653afe6a8094 Merge tag 'landlock-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 1cfb46051db9ddb68e297eaf17270e09874ec5f3 Merge tag 'v6.12-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+2812deafef2116f1967006ebb882d3782234deea fixup! ASoC: macaudio: Tune DT parsing error messages
 7108fff8848bc3bd958789f4db6beff94bdae521 Merge tag 'm68knommu-for-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+b59a10c55e6ccb2797f6712f50bd72317ae55e78 fixup! ASoC: apple: Add macaudio machine driver
+fca8dbbece94487c99eca8777789842962e4e1d9 fixup! macaudio: Fix missing kconfig requirement
+819ac8ed6c5777d4b18f0c88fc4a5e55a9ab9fdd fixup! WIP: phy: apple: Add Apple Type-C PHY
 97d8894b6f4c44762fd48f5d29e73358d6181dbb Merge tag 'riscv-for-linus-6.12-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 172d513936c707e991c3eca1b79cd8a153171862 Merge tag 'sysctl-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 3147a0689dd9793990ff954369ffcdf2de984b46 Merge tag 'for-6.12/io_uring-20240922' of git://git.kernel.dk/linux
@@ -977,7 +883,100 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 78fee4198bb4d29cf82c457086d07e009955a682 KVM: arm64: Fix __pkvm_init_vcpu cptr_el2 error path
 a9f41588a902f386b48f021f56a4c14735cd9371 KVM: arm64: Constrain the host to the maximum shared SVE VL with pKVM
 64a1d716615ee234a743b2528e95d8c3a9bef95f KVM: arm64: Another reviewer reshuffle
+bf41afa052f99b6a7b6d433203ad42dbd5b37a87 spi: apple: Add driver for Apple SPI controller
+f33b57d60744d0987fc2237a0a0741cc8381e90d spmi: add a first basic spmi driver for Apple SoC
+bd55a95f68dc2965cd91c9e63dbef972adf143df HID: transport: spi: Add suspend support
+5945bf3b60aa8d0957a0e34e6f5353da3af9d289 HID: Bump maximum report size to 16384
+0ba809f5c72124832801b75b5609263782c88fe1 HID: magicmouse: Handle touch controller resets on SPI devices
+3641fcba89e3282551210b6acbdd2efb6c2cb41c HID: transport: spi: Implement GET FEATURE
+258694d635adb08451fef42a8437ef139557ad0a HID: magicmouse: Query device dimensions via HID report
+fb24eb42511c684020d3c357f134ced72dcaed3d platform/apple: Add new Apple Mac SMC driver
+a042c8e621d6935ec4c7a8cd3e6ecc131c2ea805 gpio: Add new gpio-macsmc driver for Apple Macs
+9e561522d0cb5c542b53f6a24ac230b0ecbed05d power: supply: macsmc_power: Driver for Apple SMC power/battery stats
+687a74377917d693cab53f553725b2d9070da087 power: supply: macsmc_power: Add cycle count and health props
+ff6c2a89a941408411ea268102aca309fc7ada00 power: supply: macsmc_power: Add present prop
+a8503287aab912c8825a023276860c58578cb85b power: supply: macsmc_power: Add more props, rework others
+0f0368fbe4f70074cb6ca4978090eabae4fe7464 power: supply: macsmc_power: Use BUIC instead of BRSC for charge
+740d19b277d182937870fb9af6a9962188fb578a power: supply: macsmc_power: Turn off OBC flags if macOS left them on
+254c49f738c751196110cc94e5b9d2f9ea9b055f power: supply: macsmc_power: Add AC power supply
+5bbef0a2e6a7602d86da058c90cd97b29f016060 power: reset: macsmc-reboot: Add driver for rebooting via Apple SMC
+94ba2b4c08bd7cb5eee30c5fb65cb03f4425861e rtc: Add new rtc-macsmc driver for Apple Silicon Macs
+381db492495a03efeb0bade10dc035010694aac2 Input: macsmc-hid: New driver to handle the Apple Mac SMC buttons/lid
+e299ade407ac3e1267d6c7ce107be09eb604a161 Input: macsmc-hid: Support button/lid wakeups
+f88454ec4879a8f666c530cb2cf5c7326d5251ab gpio: macsmc: Add IRQ support
+e4c6d8705ffb69cb5eebbfc6ff343e2291c39d46 Input: macsmc-hid: Support the power button on desktops
+dbbf3cfa93729a2853db4e01fc75672e0ace80de power: supply: macsmc_power: Add critical level shutdown & misc events
+bd8aaf609e38cdaed4b1c698e97a6c59619f4f39 platform/apple: smc: Add apple_smc_read_f32_scaled
+b175f297cf7270a6f0cda7b224c4012cc87d3616 power: supply: macsmc_power: Add a debug mode to print power usage
+b2bb5b47da9e01600f264f29332dafe193759885 macsmc: Fix race between backend and core on notifications
+91dbd5ba32a341daf79289c73be20b9fd281a378 power: supply: macsmc_power: Log power data on button presses
+42228fb7491365ef08821e84e2073cd44d55666c power: supply: macsmc_power: Add CHWA charge thresholds
+f4517a1187f9ca26b77e346cbb52ed56114a59a9 power: supply: macsmc_power: Report available charge_behaviours
+c73f516f3882c2fa6c5a7e2309cb2ccaf32bb9da power: supply: macsmc_power: Add more properties
+06d2e7834e9a5d027fda9d82553d080894579951 platform/apple: smc: Add apple_smc_read_ioft_scaled
+4a31e83da1f9425d2c54740dcfcb2d7d083ce26f hwmon: add macsmc-hwmon driver
+c64dd8dbb3984dc3aaae13aaebfb9409a5e33651 hwmon: macsmc: Avoid global writable hwmon_chip_info
+f047162260b84703df5191862d00dd147b7af769 power: supply: macsmc_power: Add CHLS charge thresholds
+d6db0fa1d82cd71abe82519adda20b182a44ff3a power: supply: macsmc_power: Remove CSIL
+15147a8c81b653766bd2f1fb52d96931d04aec7d power: supply: macsmc_power: Report not charging for CHLS thresholds
+5205920da77ae6bbce7c87ee49ff3151be935242 platform/apple: smc: Add apple_smc_write_f32_scaled
+f9945046233a882ae96d2892640bb0c7cdd74bea hwmon: macsmc: wire up manual fan control support
+55ecc7c995efde6b742fd975508c204580bb92cc mfd: Add a simple-mfd-spmi driver
+a0ffbf97dd3c9f717081f1dd00101c8af9f960ae nvmem: Add spmi-mfd-nvmem driver
+10d9d1aa36c5c73f412672ddd70665dbb7a47e0e nvmem: spmi-mfd-nvmem: use legacy fixed layout
+38baa13adce4ad51eb53f0d18206d12db085daeb phy: apple: atc: Add missing mutex_unlock in error case
+960018148bf7ac93f6832e4363211b9499310871 ASoC: cs42l84: Double tip and ring sense debounce timings
+47958f976009fb210500887deb8830ae74397758 HID: transport: spi: apple: Increase receive buffer size
+2b88946db08db0a983057cd72b4d98d140817c40 fixup! WIP: HID: transport: spi: add Apple SPI transport
 a1d402abf8e3ff1d821e88993fc5331784fac0da KVM: arm64: Fix kvm_has_feat*() handling of negative features
+9dc324adc8a8c9a4db5fee307f75148043430d24 wifi: brcmfmac: Add missing shared area defines to pcie.c
+dc3887feeefe3e55f497cb507f7ee1af56b1dc48 wifi: brcmfmac: Handle PCIe MSI properly
+04a5157dcb0edbe7087990467ffc583200b04288 wifi: brcmfmac: Fix logic for deciding which doorbell registers to use
+086a7c592e76efc4375d6337aad225d71d64f5db wifi: brcmfmac: Support v6+ flags and set host_cap properly
+e5aa729ecbbbb94981bd3a88d760cc08cc4d0f01 wifi: brcmfmac: Add newer msgbuf packet types up to 0x2e
+b4b9e4a916edde15f5685f8b46ceb70ac9c91319 wifi: brcmfmac: Add a new bus op for D2H mailbox message handling
+e20113f6dbced43817b3381b6389e9217bdb85fb wifi: brcmfmac: Implement the H2D/D2H mailbox data commonring messages
+e3c1ceaa388854d27fe2aa7755d07d2ebf244457 wifi: brcmfmac: Support exchanging power mailbox messages via commonring
+9afbe39bd6c7766eaa53fcb9fedca957c4807931 wifi: brcmfmac: Shut up p2p unknown frame error
+37829e50987e9f8795f90df8ac9929ef303c13af wifi: brcmfmac: Do not service msgbuf IRQs until ready in MSI mode
+548b701f1585f33ead56d6955bdb01c894acfe1f wifi: brcmfmac: Add support for SYSMEM corerev >= 12 & fix < 12
+0517548cbc938eb7eb791be4fbde83bb9f41200f wifi: brcmfmac: Add support for firmware signatures
+5ae43115692789991fb49a8ad7fcb5d9837f0619 wifi: brcmfmac: msgbuf: Increase RX ring sizes to 2048
+46c2628d56baf9f1ba4f2cc829c70030f18265e9 wifi: brcmfmac: Increase bandlist size
+ae71796fa21e8f1f79a0da16551a86f920c69e21 wifi: brcmfmac: chip: ca7: Only disable D11 cores; handle an arbitrary number
+2dd06569fa5438c8d153f430377aa8a411fef1b4 wifi: brcmfmac: Handle watchdog properly in newer cores
+edf49ded186dd53b5dad58a745102e40ab274e57 wifi: brcmfmac: pcie: Access pcie core registers via dedicated window
+0b9e016f5a2eea2ef4bc27d02b6ac55148a160ca wifi: brcmfmac: pcie: Initialize IRQs before firmware boot
+fbddba71c269c393d29a83c561f73f7f640ad423 wifi: brcmfmac: Do not set reset vector when signatures are in use
+d98c8ff6e281cbcdfb7283896f06124f67a7733f wifi: brcmfmac: Mask all IRQs before starting firmware
+de0a6d493fe407112d5f912342b6b13be418a890 wifi: brcmfmac: Add support for SCAN_V3
+959811959575c6de716c719f53d591bf1b2dd9b4 wifi: brcmfmac: Implement event_msgs_ext
+1e25d35980ef9674e8f9edefaba5e7cfa82b5941 wifi: brcmfmac: Support bss_info up to v112
+41ceeea74d5585e04bcf03e6e9db0997978ada9d wifi: brcmfmac: Extend brcmf_wsec_pmk_le
+0eeacf3e1e167a90fe039f9f7a2f1a62058b1ba9 wifi: brcmfmac: Add BCM4388 support
+433b779d46746452ef41a56c16c5ec8451a4a124 fixup! wifi: brcmfmac: Add support for firmware signatures
+288d795db361aa31bf7daa6dcc8a146b97d2af9f brcmfmac: Fix AP mode
+11c6642c0e6d8d8108fb9b85f823f536dafa454d [brcmfmac] Finish firmware mem map, fix heap start calculation bug.
+494c468455c80b421e8e4567440a6a2075f56a83 [brcmfmac] Add support for encoding/decoding 6g chanspecs
+fe21be4224be56516ca73b1598eda9807a713b32 [brcmfmac] Dynamically configure VHT settings to match firmware
+caea1845f3fca1728a00a746bc79d858f161e615 [brcmfmac] Compute number of available antennas and set it in wiphy structure.
+ed6e04bf0a31885b484bd0cc1f72b3bd4821c56c Merge remote-tracking branch 'asahi/bits/005-maintainers' into kvm-arm64/asahi-base-6.12
+4ce185ab1d59c7aa7cb47ca56bcd9928ccfaec08 Merge remote-tracking branch 'asahi/bits/010-soc' into kvm-arm64/asahi-base-6.12
+010f9418ad7326eec603305bf4ff3770d02655fb Merge remote-tracking branch 'asahi/bits/020-dart' into kvm-arm64/asahi-base-6.12
+e1d5a6dc4dbaa724617868a4cac8800c67bd4265 Merge remote-tracking branch 'asahi/bits/040-dwc3' into kvm-arm64/asahi-base-6.12
+1599dc9cc77763ff43083cd44b4b8b6d66580663 Merge remote-tracking branch 'asahi/bits/050-nvme' into kvm-arm64/asahi-base-6.12
+83791f6c366f8359566f4445a88fc2abcd940022 Merge remote-tracking branch 'asahi/bits/060-spi' into kvm-arm64/asahi-base-6.12
+dd60ba1487b700ac9424c52c986097d40f749ef2 Merge remote-tracking branch 'asahi/bits/070-audio' into kvm-arm64/asahi-base-6.12
+29588f67c8a4599af55afd0c8690437f1094bf15 Merge branch 'kvm-arm64/asahi-base-6.12-wifi' into kvm-arm64/asahi-base-6.12
+7aaae4bab17ea592c19c99f3e3ecc9d3f116419b Merge remote-tracking branch 'asahi/bits/090-spi-hid' into kvm-arm64/asahi-base-6.12
+65465547527adcaf3bb882d8cae92099677759f7 Merge remote-tracking branch 'asahi/bits/110-smc' into kvm-arm64/asahi-base-6.12
+dce78387ad6d2495c2fde81bbbeafe7719f25bff Merge remote-tracking branch 'asahi/bits/120-spmi' into kvm-arm64/asahi-base-6.12
+8475777fbc1ed047a05626276bac00bec21cf8a1 Merge remote-tracking branch 'asahi/bits/130-cpufreq' into kvm-arm64/asahi-base-6.12
+35412df8022c4142a2e9a89b1efd8c0b21480d75 Merge remote-tracking branch 'asahi/bits/140-pci' into kvm-arm64/asahi-base-6.12
+f8fca2a4374113358ba1e9ab01e3422dcd091834 Merge remote-tracking branch 'asahi/bits/150-xhci-firmware' into kvm-arm64/asahi-base-6.12
+5250864fd5d36f914301c92ad3ce4c972b687575 Merge remote-tracking branch 'asahi/bits/170-atcphy' into kvm-arm64/asahi-base-6.12
+0dfbc5d75571691c8e93799d766c877cc2946d35 Merge remote-tracking branch 'asahi/bits/180-sio' into kvm-arm64/asahi-base-6.12
+431a694c16002fcf88e017f28260bde9414a93c4 Merge remote-tracking branch 'asahi/bits/200-dcp' into kvm-arm64/asahi-base-6.12
 5422fdb9cddb61cc891a03455221ca06680f7916 Merge branch kvm-arm64/idregs-6.12 into kvm-arm64/nv-next-WIP
 62b57f1fe489f88f6d2d2316325bd981805710b9 Merge branch 'kvmarm-master/fixes' into kvm-arm64/nv-next-WIP
 457cfcd048867e1ddcd944955fe02d97ddb232f6 arm64: Expose ID_AA64ISAR1_EL1.XS to sanitised feature consumers
@@ -1050,5 +1049,6 @@ fb78608dd7a43d4f763157f34b45390d60426f76 KVM: arm64: nv: Accelerate EL0 timer re
 7ad8a5c0f1d43eebe65fea2b4d87d5c6b3d9ac02 KVM: arm64: nv: Add nested GICv3 tracepoints
 3d010a59d6f08e5ebb063600e135b9862c66554c mailmap: Update address for Jintack Lim
 6553261895685f12c81f0f9d28520be3c7f07210 [HACK] disable EOI MI
+b77bafbf581d2b3a47072976dca8055250e314d1 Merge branch 'kvm-arm64/nv-next' into kvm-arm64/nv-next-fruit
 
---===============5612439254831207080==--
+--===============6175865677276634398==--
