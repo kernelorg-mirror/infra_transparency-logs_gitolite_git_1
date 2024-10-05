@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6234182380839762922=="
+Content-Type: multipart/mixed; boundary="===============1282350957306729510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 05 Oct 2024 16:53:00 -0000
-Message-Id: <172814718013.3333287.211149120303976271@gitolite.kernel.org>
+Date: Sat, 05 Oct 2024 16:53:41 -0000
+Message-Id: <172814722192.3333620.10239684312417693691@gitolite.kernel.org>
 
---===============6234182380839762922==
+--===============1282350957306729510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/nv-s1poe
-    old: ee53ddb6642e6d2984604582137a3a196c2f76ce
-    new: e86d84a3f9dbe7c747d3ef363633e48eff9c850e
-    log: revlist-ee53ddb6642e-e86d84a3f9db.txt
+  - ref: refs/heads/kvm-arm64/nv-e2h-select
+    old: 3b5ea0ddb235cf9f51880ba40216d67a68344874
+    new: 13fad8d8c606fcab8a2765bc88467a3c80a8d9b1
+    log: revlist-3b5ea0ddb235-13fad8d8c606.txt
 
---===============6234182380839762922==
+--===============1282350957306729510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee53ddb6642e-e86d84a3f9db.txt
+Content-Disposition: attachment; filename=revlist-3b5ea0ddb235-13fad8d8c606.txt
 
+9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
+2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
+21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
+3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
+5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
+f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
+1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
+9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
+cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
+1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
+7e340f4fad46b766705be96f5d1c764a397a7a36 Merge patch series "Svvptc extension to remove preventive sfence.vma"
+8f1534e7440382d118c3d655d3a6014128b2086d riscv: avoid Imbalance in RAS
+9410645520e9b820069761f3450ef6661418e279 Merge tag 'net-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+85ffc6e4ed3712f8b3fedb3fbe42afae644a699c Merge tag 'v6.12-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+79f1a6adef3718c295b2ffb403049f15d5a2797d Merge tag 'x86_microcode_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d0a63f0e1a9506c79df997e70f7fad95a8236b1c Merge tag 'ras_core_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b56dff267d1246a6cd4a6ae1f850e12893dadf94 Merge tag 'x86_sev_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d580d74ea2836edbbd49cd791eb5d0acad7b14aa Merge tag 'x86_cpu_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+963d0d60d690ce2525a8fbcc0a63c4ae22f4670c Merge tag 'x86_bugs_for_v6.12_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a4ebad655b98c91c10cf0690e66c11b0891c76ee Merge tag 'x86_sgx_for_6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8617d7d6298f54dfef4038281863270b5864fe83 Merge tag 'mips_6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+114143a595895c03fbefccfd8346fc51fb4908ed Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+980bcd35ae0a21da9a22155e386c8ff17019d545 Merge tag 'cmpxchg.2024.09.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+64dd3b6a79f0907d36de481b0f15fab323a53e5a Merge tag 'for-linus-non-x86' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11b3125073d16929403d3aa7b2ae6a482060a937 Merge tag 'acpi-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 02824a5fd11f99b4637668926a59aab3698b46a9 Merge tag 'pm-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d22300518d875f78203e9afacb5aa0b0316da523 Merge tag 'thermal-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1015,40 +1046,9 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-a70394121d223b68aa8fa76019e780623c9f1f82 arm64: Drop SKL0/SKL1 from TCR2_EL2
-07b0cd31a96dad2946fae2cd68b88b2f67894c11 arm64: Remove VNCR definition for PIRE0_EL2
-0937c8d936ab4224e8419ffdd0f9686e90e58349 arm64: Add encoding for PIRE0_EL2
-34b00c402f40170749849225b19f45ccc18e5bc5 KVM: arm64: nv: Add missing EL2->EL1 mappings in get_el2_to_el1_mapping()
-0879728e37fd58ad48c34c3d6b40d37f6c692d15 KVM: arm64: nv: Handle CNTHCTL_EL2 specially
-343d89729040c1f61e07c6f495009946a6c9c7ec KVM: arm64: nv: Save/Restore vEL2 sysregs
-0997215405d09fc1f00056ab61a3351fa6b7c7a7 KVM: arm64: Correctly access TCR2_EL1, PIR_EL1, PIRE0_EL1 with VHE
-f593e1f5639cd03c10fe6d644beeb63e1ae74b76 KVM: arm64: Extend masking facility to arbitrary registers
-ef904847a9a57c5b8c8b0639ff2a65ced5c6765b arm64: Define ID_AA64MMFR1_EL1.HAFDBS advertising FEAT_HAFT
-c46ded1d41e694ab7f30a4837032bc2bec62d17f KVM: arm64: Add TCR2_EL2 to the sysreg arrays
-cd60fea04ccef939be93e6f92aa496d928ee68a8 KVM: arm64: Sanitise TCR2_EL2
-db4f991d39daa5a9119bee79602b568cb80d0167 KVM: arm64: Add save/restore for TCR2_EL2
-c0dddcb936e6c62dc806ae2b08f5e5634d2e58ce KVM: arm64: Add PIR{,E0}_EL2 to the sysreg arrays
-7924603612e22174f69994e1455d40940e2a8da5 KVM: arm64: Add save/restore for PIR{,E0}_EL2
-16dd59739af26d3171afd1d04c38c8dc167ae5df KVM: arm64: Handle PIR{,E0}_EL2 traps
-2c6eb424effe08be010d5d2a41542272f28ab97e KVM: arm64: Sanitise ID_AA64MMFR3_EL1
-a25ee33479242cdd84332f6fcebb1aab8e64837e KVM: arm64: Add AT fast-path support for S1PIE
-cf9d839f33de9bddfa2ea0d1136ce1d66da9c54d KVM: arm64: Split S1 permission evaluation into direct and hierarchical parts
-2ba9d7843a0dee5976e704fb2d3e7ab64a63e5f6 KVM: arm64: Disable hierarchical permissions when S1PIE is enabled
-fbaca2470c8ba7e447d8a4b2940a93e86610d3ca KVM: arm64: Implement AT S1PIE support
-9672d43cc8465a61db0b638df729e41c40301783 KVM: arm64: Define helper for EL2 registers with custom visibility
-302153a96695b89c0c6453886790317e9c5b63b2 KVM: arm64: Hide TCR2_EL1 from userspace when disabled for guests
-a28639223b5c706d448dff40e0ef75594d0ce2ca KVM: arm64: Hide S1PIE registers from userspace when disabled for guests
-66b4a123900ee06e3e68881792cb3d0542b88848 KVM: arm64: Rely on visibility to let PIR*_ELx/TCR2_ELx UNDEF
-3cc51bf2e51c51f89b14125c93eb3e89d4c4fffe arm64: Add encoding for POR_EL2
-f731193832b13b7ecde36ea76d00a626644fc2a9 KVM: arm64: Add a composite EL2 visibility helper
-677ff3059738ffab485f19c8be5602808be6f377 KVM: arm64: Drop bogus CPTR_EL2.E0POE trap routing
-6705ff38f7b56f411b3391a41b2f41142e8838e8 KVM: arm64: Subject S1PIE/S1POE registers to HCR_EL2.{TVM,TRVM}
-f8943fc029a6d3af8b24bf957504aff482cfaa6e KVM: arm64: Add basic support for POR_EL2
-3090f89354a9a870b6b5a7ab87f9f0fc5f5655f5 KVM: arm64: Add save/retore support for POR_EL2
-ab6a5237756edc1e39558f53abfa02135f594ef1 KVM: arm64: Add POE save/restore for AT emulation fast-path
-4ca5bed5383e79b84dda3fd043f3de111ceea55c KVM: arm64: Disable hierarchical permissions when POE is enabled
-a67c0578e3c796534aa654b158e73f1d50a50707 KVM: arm64: Make PAN conditions part of the S1 walk context
-164e0b4275994157a4af9f59cb4d2f238a8dc587 KVM: arm64: Handle stage-1 permission overlays
-e86d84a3f9dbe7c747d3ef363633e48eff9c850e KVM: arm64: Handle WXN attribute
+2a46d7fc4abd0f8481ee06c17a2e7bc140ae0ac7 arm64: cpufeature: Handle NV_frac as a synonym of NV2
+5bb3de029aca24fa9ed2129020ab157cc89dc03f KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
+e8a85dfaccc7d5b73ba95a7342d66305f27f7594 KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
+13fad8d8c606fcab8a2765bc88467a3c80a8d9b1 KVM: arm64: nv: Mark HCR.EL2.E2H as RES0 when ID_AA64MMFR1_EL1.VH is zero
 
---===============6234182380839762922==--
+--===============1282350957306729510==--
