@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/hinoko-rs
-Date: Sun, 06 Oct 2024 04:14:55 -0000
-Message-Id: <172818809599.3843354.10696253921900233394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 06 Oct 2024 05:28:09 -0000
+Message-Id: <172819248905.3897214.8844649787547170540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/hinoko-rs
-user: takaswie
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/tags/v0.7.0
-    old: 0000000000000000000000000000000000000000
-    new: cd36f98b04687df616951119e7a66b39181e7efb
+  - ref: refs/heads/master
+    old: dfb4d222152237569b2606eff56965e1942a267b
+    new: 812c046430e9df81726c057d837c6d4f9e898af3
+    log: |
+         812c046430e9df81726c057d837c6d4f9e898af3 sasha: review v6.11.2
+         
