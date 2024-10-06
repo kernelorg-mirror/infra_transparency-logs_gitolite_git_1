@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 06 Oct 2024 15:34:44 -0000
-Message-Id: <172822888457.206925.6384172410577191747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 06 Oct 2024 15:40:03 -0000
+Message-Id: <172822920312.213022.15016329331655462194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 0f72d921667b544877350a90c6940e80bb9011b9
-    new: a0e3a45ff02a8e6bcd7e650e25f247a9563af7c1
+  - ref: refs/heads/nfsd-5.10.y
+    old: 515eb04a8b0667cd6d18d68b08ef33afbd02845b
+    new: 5369a3b2930a10cef53914aedf06c57420e2e0fc
     log: |
-         a0e3a45ff02a8e6bcd7e650e25f247a9563af7c1 test/read-mshot*: cleanup up properly
+         9c52a9b7c5b29632a5cbf980062f04fa6e4f7e1c PCI: keystone: Fix if-statement expression in ks_pcie_quirk()
+         5369a3b2930a10cef53914aedf06c57420e2e0fc PCI: xilinx-nwl: Fix register misspelling
          
