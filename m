@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 06 Oct 2024 17:49:47 -0000
-Message-Id: <172823698741.309210.17259097426794393150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 06 Oct 2024 17:58:44 -0000
+Message-Id: <172823752480.316233.10066731220249021738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/io_uring-6.12
-    old: c9d952b9103b600ddafc5d1c0e2f2dbd30f0b805
-    new: 61d575916d7984db23b59805afae4b172889ae93
-    log: |
-         61d575916d7984db23b59805afae4b172889ae93 io_uring/rw: allow non-blocking attempts for !FMODE_NOWAIT if pollable
-         
+  - ref: refs/heads/nfsd-5.10.y
+    old: 2c48415596704079d28dac48424fd56d1343c8c8
+    new: f6dfa4873fe69346e752416d357db5d94d1cd2bd
