@@ -1,42 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1720746617006446700=="
+Content-Type: multipart/mixed; boundary="===============7863289599235099095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 06 Oct 2024 01:54:59 -0000
-Message-Id: <172817969925.3739174.17255344454313933048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Sun, 06 Oct 2024 02:55:11 -0000
+Message-Id: <172818331100.3784731.18313875973620750546@gitolite.kernel.org>
 
---===============1720746617006446700==
+--===============7863289599235099095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next
-    old: 2adcf3941db724e1750da7094c34431d9b6b7fcb
-    new: 5a5882e5c3214a49a41c32cec0ed9eee1ea9dd09
-    log: revlist-2adcf3941db7-5a5882e5c321.txt
+  - ref: refs/heads/topic/fprobe-on-fgraph
+    old: 57602abd7b7ad38e8a133c1d23bb5b4969a2daa4
+    new: fef5275d2516146def06ba7eec572a4fdbb9c914
+    log: revlist-57602abd7b7a-fef5275d2516.txt
 
---===============1720746617006446700==
+--===============7863289599235099095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2adcf3941db7-5a5882e5c321.txt
+Content-Disposition: attachment; filename=revlist-57602abd7b7a-fef5275d2516.txt
 
-3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-c8691cd0fc11197515ed148de0780d927bfca38b Revert "dm: requeue IO if mapping table not yet available"
-5c178472af247c7b50f962495bb7462ba453b9fb riscv: define ILLEGAL_POINTER_VALUE for 64bit
-f25170a05310b7715f9f06996548130570e704f6 Merge patch series "riscv: stacktrace: Add USER_STACKTRACE support"
-1e206fad765b293aa169ec08917761021f52399a drivers/perf: riscv: Remove redundant macro check
-9b2863e2cc46b8c0e2ce6700ecfe41c76b51904c Merge patch series "riscv: select ARCH_USE_SYM_ANNOTATIONS"
-cea9d27705d62984faf6137963c10bf26b967996 riscv: Remove unused _TIF_WORK_MASK
-1845d381f28063a3b68e9e148d5a7f01d6be8721 riscv: cacheinfo: Add back init_cache_level() function
-7e340f4fad46b766705be96f5d1c764a397a7a36 Merge patch series "Svvptc extension to remove preventive sfence.vma"
-8f1534e7440382d118c3d655d3a6014128b2086d riscv: avoid Imbalance in RAS
-9410645520e9b820069761f3450ef6661418e279 Merge tag 'net-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 85ffc6e4ed3712f8b3fedb3fbe42afae644a699c Merge tag 'v6.12-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 1636f57c7841101af8bd4872aafb79cfc74bf389 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 7dfc15c47372e8bf8a693ca3dfaaec33a68ee116 Merge tag 'edac_updates_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1039,16 +1028,27 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-20a0a05f40faf82f64f1c2ad3e9f5006b80ca0cb soc: qcom: llcc: Use designated initializers for LLC settings
-274e58cc226c54c849760d9a6ec7be23b221cb12 MAINTAINERS: Qualcomm SoC: Match reserved-memory bindings
-6317aad0e1525f3e3609d9a0fea762a37799943a arm64: dts: qcom: qcs6390-rb3gen2: use modem.mbn for modem DSP
-94d5ffab9d5ebc9caeab310f9d2eb36a65d7d3a9 arm64: dts: qcom: sc7280: don't enable GPU on unsupported devices
-afa11181fa506709857ebbdd17b4d76f2587e802 arm64: dts: qcom: qcm6490-idp: enable WiFi
-0f6c6ae2e9d1cfafe62fed9ca0a07d241d3d8b79 arm64: dts: qcom: qcm6490-rb3gen2: enable WiFi
-eea73fa08e69fec9cdc915592022bec6a9ac8ad7 soc: qcom: qmi: Reorganize kerneldoc parameter names
-e694d2b5c58ba2d1e995d068707c8d966e7f5f2a soc: qcom: Add check devm_kasprintf() returned value
-1b97f00d1b11ed6e349816ba7e60fa76e477fcbb arm64: dts: qcom: msm8998: add HDMI GPIOs
-2150c87db80cf7eed3939f32cbb18393055c58ce arm64: dts: qcom: msm8998: add HDMI nodes
-5a5882e5c3214a49a41c32cec0ed9eee1ea9dd09 Merge branches 'arm64-for-6.13', 'drivers-fixes-for-6.12' and 'drivers-for-6.13' into for-next
+c54a1a06daa78613519b4d24495b0d175b8af63f tracing: Fix function timing profiler to initialize hashtable
+a370b72ec7165ebe1230d0225cbe66f6526e68ef tracing: Add a comment about ftrace_regs definition
+a312a0f7834e605e7c41570f0e9525d0fc4a70a4 fgraph: Use fgraph data to store subtime for profiler
+3c9880f3ab52b52b5b4e1850a70e80dd7329cb4c ftrace: Use a running sleeptime instead of saving on shadow stack
+f1f36e22bee967db5e812a65e24389e54c46f3c2 ftrace: Have calltime be saved in the fgraph storage
+368a294488feb10c47313f3e36e11434a5da4fe2 tracing: Rename ftrace_regs_return_value to ftrace_regs_get_return_value
+23aeb19f0fd7b043d544f4f20e8545800a03f1e0 function_graph: Pass ftrace_regs to entryfunc
+059d2ff2184ee99856bf656e7c433195053f8b4a function_graph: Replace fgraph_ret_regs with ftrace_regs
+fe8cd6bf69759685d10ab090e9561da1a735fe89 function_graph: Pass ftrace_regs to retfunc
+a19f320447be14bf3ff9daba07fb0bc91759fe51 fprobe: Use ftrace_regs in fprobe entry handler
+e5d58813b71fa9f1ab354a98aac89f30293b9c37 fprobe: Use ftrace_regs in fprobe exit handler
+b7b777fd16bdcc618a77ab633a8098cab8a56a7a tracing: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
+8182bfd531b29b747f48fdea789eafea17e9e7d8 tracing: Add ftrace_fill_perf_regs() for perf event
+d7e35d45e73db7fea6eff3ab75278ff2d16eef81 tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
+199e1c51864ab76d8cb32661cb73c0bd27cdd7f6 bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
+66f90354c4c323699e98d00f24be87b717f1a8f2 ftrace: Add CONFIG_HAVE_FTRACE_GRAPH_FUNC
+f859a6d98e002c5e5582008f83732b0123caaa4b fprobe: Rewrite fprobe on function-graph tracer
+5142c75e47c51b72595ee4cba08b96812c8b1468 tracing/fprobe: Remove nr_maxactive from fprobe
+95ec60b6e9b7f63619cf5f5c6e1b58a3fcda440c selftests: ftrace: Remove obsolate maxactive syntax check
+014e36b1694c02fa8671926e713c0554a867e5b8 selftests/ftrace: Add a test case for repeating register/unregister fprobe
+e8e5b2edd796b69966653ce7d1267c3ac17da520 Documentation: probes: Update fprobe on function-graph tracer
+fef5275d2516146def06ba7eec572a4fdbb9c914 bpf: Add get_entry_ip() for arm64
 
---===============1720746617006446700==--
+--===============7863289599235099095==--
