@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
-Date: Sun, 06 Oct 2024 20:01:12 -0000
-Message-Id: <172824487288.409592.6851431753651481883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 06 Oct 2024 20:42:55 -0000
+Message-Id: <172824737545.439477.15667683668980903611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hackermail
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: e9b8a1d1ddd88ab666b8f5723df8eb25ce3f661c
-    new: 5d99974361b9ddc33fd3f4b6f4056503843e2d9c
-    log: |
-         96b26ec4acfa36ac1bb8b0b8b68e1d4d57d28efc _hkml: Decode UTF-8 encoded mail headers
-         5d99974361b9ddc33fd3f4b6f4056503843e2d9c TODO,release_note: Update for UTF-8 mail header decoding
-         
+  - ref: refs/heads/nfsd-5.10.y
+    old: af601718c1bd05620146dd181ff79eb0806b6193
+    new: 49876d7d371493d36fe1f28f6ce443af1b260fb6
