@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1355308719465164348=="
+Content-Type: multipart/mixed; boundary="===============0118352818249851036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Mon, 07 Oct 2024 19:58:36 -0000
-Message-Id: <172833111677.1612305.949743079307222518@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 19:58:41 -0000
+Message-Id: <172833112189.1612467.18359271420550078060@gitolite.kernel.org>
 
---===============1355308719465164348==
+--===============0118352818249851036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/fixes
-    old: 6ea2987c9a7b6c5f37d08a3eaa664c9ff7467670
-    new: 711b5875814b2a0e9a5aaf7a85ba7c80f5a389b1
-    log: revlist-6ea2987c9a7b-711b5875814b.txt
+  - ref: refs/heads/next
+    old: 6fc1d365c7394790cf7073a4acfcbf7fe4e8eff9
+    new: ad0558f3883130954ca724697f2d19aef93967b3
+    log: revlist-6fc1d365c739-ad0558f38831.txt
 
---===============1355308719465164348==
+--===============0118352818249851036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ea2987c9a7b-711b5875814b.txt
+Content-Disposition: attachment; filename=revlist-6fc1d365c739-ad0558f38831.txt
 
-f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
-94ae8c3fee94a87bdf982d5559f8037c6c562657 smb: client: compress: LZ77 code improvements cleanup
 590efcd3c75f0e1f7208cf1c8dff5452818b70f2 smb: client: compress: fix a potential issue of freeing an invalid pointer
 9b4af913465cc5f903227237d833b4911430fd97 smb: client: compress: fix an "illegal accesses" issue
 89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
@@ -1050,5 +1048,7 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 711b5875814b2a0e9a5aaf7a85ba7c80f5a389b1 tools/nolibc: s390: include std.h
+079ec6a3cf529d86c2895059eb8be1b36cc9fd72 tools/nolibc: compiler: add macro __nolibc_fallthrough
+ad0558f3883130954ca724697f2d19aef93967b3 selftests/nolibc: start qemu with 1 GiB of memory
 
---===============1355308719465164348==--
+--===============0118352818249851036==--
