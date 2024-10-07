@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 07 Oct 2024 23:36:26 -0000
-Message-Id: <172834418662.1784314.11628597777868630013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 07 Oct 2024 23:37:15 -0000
+Message-Id: <172834423591.1784751.12144742602193539479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main
-    old: 9234a2549cb6ac038bec36cc7c084218e9575513
-    new: 631083143315d1b192bd7d915b967b37819e88ea
-    log: |
-         631083143315d1b192bd7d915b967b37819e88ea net: explicitly clear the sk pointer, when pf->create fails
-         
+  - ref: refs/heads/for-jens
+    old: cae6158742b9972cfd468c49232549f7ea4f5728
+    new: 0000000000000000000000000000000000000000
