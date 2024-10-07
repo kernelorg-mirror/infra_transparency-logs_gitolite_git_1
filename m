@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3569858408426217546=="
+Content-Type: multipart/mixed; boundary="===============4492541310440077266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Oct 2024 09:49:37 -0000
-Message-Id: <172829457767.1098089.17575082862269965510@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 09:49:53 -0000
+Message-Id: <172829459370.1098846.1993686477149516807@gitolite.kernel.org>
 
---===============3569858408426217546==
+--===============4492541310440077266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f077472a6705df8b3101b5556f4be1fbd02f34ac
-    new: f49d5b760928861fdd3b8d19ae46aa2617b529b1
-    log: revlist-f077472a6705-f49d5b760928.txt
+  - ref: refs/heads/m68k-queue
+    old: 6d5d97c233fa2e0a834533ba26811994193c5f88
+    new: 114471fd98cc317fab9099ff7c3e083a08d61578
+    log: revlist-6d5d97c233fa-114471fd98cc.txt
 
---===============3569858408426217546==
+--===============4492541310440077266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f077472a6705-f49d5b760928.txt
+Content-Disposition: attachment; filename=revlist-6d5d97c233fa-114471fd98cc.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -408,6 +408,8 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-f49d5b760928861fdd3b8d19ae46aa2617b529b1 Merge tag 'v6.12-rc2'
+82ebd8b441e0ceee01b06de205d1c99d678fcee5 m68k: atari: usb: Add ISP1160 USB host controller support
+5c9edda97951c3c529734ef3aa97c385f0547eca m68k: atari: Update Kconfig.bus help text
+114471fd98cc317fab9099ff7c3e083a08d61578 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3569858408426217546==--
+--===============4492541310440077266==--
