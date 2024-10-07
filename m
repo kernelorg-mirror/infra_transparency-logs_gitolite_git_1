@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Mon, 07 Oct 2024 21:35:32 -0000
-Message-Id: <172833693238.1689443.7296253999214358655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 07 Oct 2024 21:42:11 -0000
+Message-Id: <172833733139.1694033.580793281101994729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: bea38362b46688a4e970856e1eee358540a40ee1
-    new: dad7655407b550d345663785097a341dd46488dc
+  - ref: refs/heads/pending
+    old: b35245095197fead99d81d7a78c2cf9e11e298c3
+    new: b037edd0c3304908bcddbb9765ba266b6b803ff9
     log: |
-         60d3d584e0ed7c09f544b753f764e493b940a6a8 [klibc] Remove unused no-MMU support
-         b0b8629919ddaa19149a4fae81fb459baf51eabb [klibc] syscalls: Define mlock() etc. on all architectures
-         ccfcaca5bb151e8c2ddc3cd99172dea98429278a [klibc] syscalls: Clean up the fork() and clone() definitions
-         b5150ef7380cfd613b3480b8e772840fc04e722b [klibc] syscalls: Make more system calls non-optional
-         dcc395811cec4050ab7210d50b722070b2280d4a [klibc] syscalls: Remove _KLIBC_SYS_SOCKETCALL config macro
-         bf11cb682b2c1e817feb69331f115bf40d9e92ea [klibc] syscalls: Remove support for socketcall()
-         dad7655407b550d345663785097a341dd46488dc [klibc] syscalls: Support for inotify_init1()
+         bdb281103373fd80eb5c91cede1e115ba270b4e9 wifi: ath12k: fix use-after-free in ath12k_dp_cc_cleanup()
+         e985dc55029707b7019819d570bae4225effd2e4 wifi: ath12k: Modify print_array_to_buf() to support arrays with 1-based semantics
+         19c23eb61fa4c802e6e0aaf74d6f7dcbe99f0ba3 wifi: ath12k: fix one more memcpy size error
+         b037edd0c3304908bcddbb9765ba266b6b803ff9 wifi: ath11k: Fix CE offset address calculation for WCN6750 in SSR
          
