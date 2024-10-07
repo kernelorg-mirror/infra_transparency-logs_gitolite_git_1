@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5210728639535921795=="
+Content-Type: multipart/mixed; boundary="===============1030195102267985930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Oct 2024 10:07:15 -0000
-Message-Id: <172829563537.1112806.6354826219197540751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 07 Oct 2024 10:08:35 -0000
+Message-Id: <172829571541.1113519.15733619339617234396@gitolite.kernel.org>
 
---===============5210728639535921795==
+--===============1030195102267985930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: d44238d8254a36249d576c96473269dbe500f5e4
-    new: 39845764a0ca01a89dca4ff5b4e9d896ee410054
+  - ref: refs/heads/master
+    old: dfe269a93e63cbf57fc25e0c4706759a8e783698
+    new: 685c2a21aad8d04c64696dcd88272631a1d97ec7
     log: |
-         71c717cd8a2e180126932cc6851ff21c1d04d69a Revert "usb: yurex: Replace snprintf() with the safer scnprintf() variant"
-         39845764a0ca01a89dca4ff5b4e9d896ee410054 USB: yurex: kill needless initialization in yurex_read
+         685c2a21aad8d04c64696dcd88272631a1d97ec7 4.19-stable patches
          
 
---===============5210728639535921795==
+--===============1030195102267985930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728295646 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1728295629-c61d01b0f8e6a7114fdab76f2c13846f19118763
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728295731 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728295713-c998b2974f734b02d186d12b0d7ee710db3c8ff5
 
-d44238d8254a36249d576c96473269dbe500f5e4 39845764a0ca01a89dca4ff5b4e9d896ee410054 refs/heads/usb-linus
+dfe269a93e63cbf57fc25e0c4706759a8e783698 685c2a21aad8d04c64696dcd88272631a1d97ec7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcDst4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3lMP/jby7IdkiQY0xiQI6wq5
-OPuPYGgz2pxRi321JVu8KLezabTgUNYIT24FK8py0H9tF2uujenGxaUG5+vmNXIh
-qxqeZNWubICzlItS8HuZZllos+OycD78VCbHk9+w/LSQkvwhSCWUoN92hG9SeMOu
-S+MkSfv9oocy1sUR5BKPOn5pwNJAZcTt7773CLPPqUhNFNn6xwAvLCJfQcZ+lfBI
-xQJG2Rk6dJHHFcg19hLy+bOxt2HGrpWSgv14VPKOsx4xxNAYqBDKJ9M9d4NnzoBK
-NA56jM3E0RnwH36t6SMdIBHh1loD8mcocSM6yNmS2sNZkLro2w4bt/o3ILnkQ7BR
-4MShwV4LWaJPJjfAkEbNDRCfxy0cPpv3DF81I6rdlIUgUE8tqhi8kXbYb1pqkeHX
-KflEHLzvmZkK6zPC3amBD/5okwNhGoVcb4A9lmMhOIFHHZi5x4kOILl+A57SRiyi
-qn68TEk3Jz/O3sPeHinIKTTk+7lV8ckgna/mzGaFUJiWMQ715EHtFcVj5jiCm1iF
-yi76vW1yFa+Ls923qgcptdBkdu+5FQmaxMgQPqIJ+bFrQTz8EiIhMEpwNk0nEvtV
-68tchzO7nop5b+1QD7JpwfTcO5LSRRn2vXBxgGjCZ0c7TktEMGCy77wwg2bc4saf
-vi+PSnc7J7yBuN1GUW5QYOX+
-=PIkW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcDszMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gtkQAMfprjTtgeJCNOoWVtNI
+ulHGihJnT9ICIJAeI8zbLCli/O+zYolXGmOnz/oiklqRv0bAbU4m46MA1/uAbbkI
+OzzmGtG/stUin6kahrsB1IKZ9WLJ+KC9tn3SWWMxzQ4gZ+DWPGM5gQtFSmhxwtL5
+sCUhYAhmmxr8qVRLv5vtVeMyxSSFdQ+4iBaFzNWCiiaj0OK7CEBaW+iBWznMQFIB
+xwHlsOQbnaSRv4ZGA/lfP/aeCCJTez9MidQPY8von5+o6c6+SM3JZea3MAhSptkJ
+7WH0z6J0/BwzoGsZZC/n5QzlLJd37fz0v3cuRn7lLKxyxowwRCxDd5h63v8ihq9A
+BpSTBg2A+gdctPosQYBV/QEzXoFYhDtKev57uhD3P0AvG7q7O9yTJECe+LRc22rN
+3j0ZKnXNd1wdhs4jzAWOPrCVmuKgCZcu0UXvmJNywUQzNfq5GqoWNhSx06M3G3Hd
+ArkWbaJccKRt8HnQRUTKmieVbvGz+StgedIAwH0TKDpJOeiIvurcgMcNN1jfXKGT
+uCYafce5T5xrQjVWz1F8Gp0f+SLF7IYYI1ogCwL8slgIdzpBkIXuj/Ir7k9s93fW
+K/pozpUy+b5ye0cwGzrTp5mRIYRIVx6Xw00YeozFJk8hWMWWm9DkRkpyI/ib3muk
+W/+ZkYyYhzc9Wg5lMDcH4eBr
+=GySj
 -----END PGP SIGNATURE-----
 
---===============5210728639535921795==--
+--===============1030195102267985930==--
