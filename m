@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0825377965110168096=="
+Content-Type: multipart/mixed; boundary="===============0475242496127399856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 07 Oct 2024 14:32:34 -0000
-Message-Id: <172831155489.1330038.11521386388978000677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 07 Oct 2024 14:34:04 -0000
+Message-Id: <172831164444.1330845.11090181092931075170@gitolite.kernel.org>
 
---===============0825377965110168096==
+--===============0475242496127399856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 21e9b6690b62e0532d8613faea219f08cdbd6a99
+    old: fdeb154f578e7283a00f1ec062dea4d610014971
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-21e9b6690b62-8cf0b93919e1.txt
+    log: revlist-fdeb154f578e-8cf0b93919e1.txt
   - ref: refs/heads/for-next
-    old: 097a933e70b78a57fbf3299528de67756cdad5f7
-    new: c2288599691c6057da34731606600ea04fc38d71
-    log: revlist-097a933e70b7-c2288599691c.txt
+    old: c74e58fd25e137997c789314bcdf805e05d57814
+    new: 85eadae61931f6268b49b5722039e5a248b9ee4c
+    log: revlist-c74e58fd25e1-85eadae61931.txt
 
---===============0825377965110168096==
+--===============0475242496127399856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21e9b6690b62-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-fdeb154f578e-8cf0b93919e1.txt
 
 3b577de206d52dbde9428664b6d823d35a803d75 spi: spi-fsl-lpspi: Undo runtime PM changes at driver exit time
 7f52bb9de57dc1851a83e20e53491ad8df321e4e Merge tag 'i2c-for-6.11-final-but-missed-it' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
@@ -1055,11 +1055,11 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============0825377965110168096==
+--===============0475242496127399856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-097a933e70b7-c2288599691c.txt
+Content-Disposition: attachment; filename=revlist-c74e58fd25e1-85eadae61931.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -1443,6 +1443,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-c2288599691c6057da34731606600ea04fc38d71 regmap: Merge up v6.12-rc2
+85eadae61931f6268b49b5722039e5a248b9ee4c regulator: Merge up v6.12-rc2
 
---===============0825377965110168096==--
+--===============0475242496127399856==--
