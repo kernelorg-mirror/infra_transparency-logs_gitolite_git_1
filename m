@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5308507092077421623=="
+Content-Type: multipart/mixed; boundary="===============5444861863976563648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 07 Oct 2024 16:07:00 -0000
-Message-Id: <172831722099.1412921.8936722479934072439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 07 Oct 2024 16:07:17 -0000
+Message-Id: <172831723799.1413269.12430145136372963995@gitolite.kernel.org>
 
---===============5308507092077421623==
+--===============5444861863976563648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: eb1df4bbf53c29babf68fcb36e80d9c62a345257
-    new: 8380dbf1b9ef66e3ce6c1d660fd7259637c2a929
-    log: revlist-eb1df4bbf53c-8380dbf1b9ef.txt
-  - ref: refs/heads/asoc-6.13
-    old: e4926ca0189dac2e780d6d3cca92052376fd7f0e
-    new: 344190e0347324d95393c561a4b8c8dfa8cd628b
-    log: revlist-e4926ca0189d-344190e03473.txt
+  - ref: refs/heads/for-6.12
+    old: 65fbec3121eb7a10a839784496357f5a833af69b
+    new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    log: revlist-65fbec3121eb-8cf0b93919e1.txt
+  - ref: refs/heads/for-6.13
+    old: eb6c65049a274c37f9b6fdf632843b609a0b8fa8
+    new: c2a59c892f20379a3e48124a83491a12374cd7e0
+    log: revlist-eb6c65049a27-c2a59c892f20.txt
 
---===============5308507092077421623==
+--===============5444861863976563648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728317235 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1728317217-fe688f51ee74bf1f22c681412f646d4367f2dceb
+pusher Mark Brown <broonie@kernel.org> 1728317251 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1728317234-4dc3c702ce4a84cbfe31f4c6d745d9862deb103a
 
-eb1df4bbf53c29babf68fcb36e80d9c62a345257 8380dbf1b9ef66e3ce6c1d660fd7259637c2a929 refs/heads/asoc-6.12
-e4926ca0189dac2e780d6d3cca92052376fd7f0e 344190e0347324d95393c561a4b8c8dfa8cd628b refs/heads/asoc-6.13
+65fbec3121eb7a10a839784496357f5a833af69b 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b refs/heads/for-6.12
+eb6c65049a274c37f9b6fdf632843b609a0b8fa8 c2a59c892f20379a3e48124a83491a12374cd7e0 refs/heads/for-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcEBzMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0E7dB/9xhZE5PWfX8z0PBiVpmbRPo3D441y/
-kaX9k3skN0e5rBcVrdhhnl5C3MJwp5IdJWVrEGF+g2dm0r6ZT2s8KJA1FqbdCU/5
-MNZzqY82jVzVpwZ8cydZoXhRKDnXPDT1u34bQOa3hitF5claov8QAREFA/DfaxT8
-WHw8WJa9UYCBqf86ZSEyGUMGXgL+YUKsFPFBAktL7+0zk+ME5kfbVk2bRb3Kgl1j
-8BGubevNCA97cucs4pPS0mPrdpOg1KR+aUdn2ezj3p0pCo9KrrjV00XG5OrRoiJy
-cz087beu7JylRO3SKMRkXABnTREhTElF2f3jP/0X0OsTgjiTUroMWacP
-=Ab/q
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcEB0MTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0JziB/9AoKyzlUJmQYWSe1bmKrvnP9dDu9JE
+u6TPy0U3sIgCdZ5oETTy1szNOLClycumCp8UWRM/OLXFkOMgxaefVdS0ubmHkbhx
+bK9/qx30VJU8VWXUKntPoHDK0BhhmsBhYfgCtn4eAA6WwvHwsiQRVeEwyW+186J2
+VnkiqDPWEunDixbqIXjh6uwKAaI0kBnPOaYC7PcuYEir57CYb7S2pe1YvqI25UYO
+8HoUponMX6bg+S6Ifl+IUTNu9eFLryDwvBLuHEUjvsIcA0uRIvthAiMoQiSAfdyA
+PClgKnHcG3dPsRTFLJzTJJ0egL7USIH6nfx45+vMIWAVNAqmfxS0soWM
+=ACK8
 -----END PGP SIGNATURE-----
 
---===============5308507092077421623==
+--===============5444861863976563648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb1df4bbf53c-8380dbf1b9ef.txt
+Content-Disposition: attachment; filename=revlist-65fbec3121eb-8cf0b93919e1.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -62,7 +62,11 @@ addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
 4a33aa34e4ac2c2bd746a305d4b39fb60dedc091 drm/display: fix kerneldocs references
 d92b90f9a54d9300a6e883258e79f36dab53bfae drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
 cb2deca056d579fe008c8d0a4ceb04d2b368fe42 ALSA: hda/realtek: fix mute/micmute LED for HP mt645 G8
+8451a3c7879d8883fd3fbd9dd7cbe7ecc31e89ce ASoC: amd: acp: don't set card long_name
+84e8d59651879b2ff8499bddbbc9549b7f1a646b ASoC: amd: yc: Add quirk for HP Dragonfly pro one
+85109780543b5100aba1d0842b6a7c3142be74d2 ASoC: topology: Fix incorrect addressing assignments
 49f5ee951f11f4d6a124f00f71b2590507811a55 ALSA: hda/tas2781: Add new quirk for Lenovo Y990 Laptop
+01e709aeaf913a4d0e04f9957d399cf6fc3b5455 ASoC: cs35l45: Corrects cs35l45_get_clk_freq_id function data type
 bf36793fa260cb68cc817f311f1f683788261796 ALSA: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 151ac45348afc5b56baa584c7cd4876addf461ff net: sparx5: Fix invalid timestamps
 886d518ca9a6b433736f74723813d8917e407f40 MAINTAINERS: Add unsafe_memcpy() to the FORTIFY review list
@@ -70,11 +74,13 @@ cac075706f298948898b1f63e81709df42afa75d drm/panthor: Fix race when converting g
 a3096328462b1e022c6294898c440708ea11509a MAINTAINERS: drm/sched: Add new maintainers
 440d52b370b03b366fd26ace36bab20552116145 drm/sched: Fix dynamic job-flow control race
 bff1709b3980bd7f80be6786f64cc9a9ee9e56da mac802154: Fix potential RCU dereference issue in mac802154_scan_worker
+09cfc6a532d249a51d3af5022d37ebbe9c3d31f6 ASoC: atmel: mchp-pdmc: Skip ALSA restoration if substream runtime is uninitialized
 f0fa69b5011a45394554fb8061d74fee4d7cd72c drm/connector: hdmi: Fix writing Dynamic Range Mastering infoframes
 3a87e264290d71ec86a210ab3e8d23b715ad266d io_uring: fix memory leak when cache init fail
 17ea56b752b6ba58fdd1fcfd24f0fd2fa2b0ade2 io_uring: fix casts to io_req_flags_t
 42268ad0eb4142245ea40ab01a5690a40e9c3b41 sched_ext: Build fix for !CONFIG_SMP
 8b0d2f61545545ab5eef923ed6e59fc3be2385e0 drm: Consistently use struct drm_mode_rect for FB_DAMAGE_CLIPS
+e249786b2188107a7c50e7174d35f955a60988a1 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
 2bcae12c795f32ddfbf8c80d1b5f1d3286341c32 net/mlx5: Fix error path in multi-packet WQE transmit
 ec793155894140df7421d25903de2e6bc12c695b net/mlx5: Added cond_resched() to crdump collection
 f25389e779500cf4a59ef9804534237841bce536 net/mlx5e: Fix NULL deref in mlx5e_tir_builder_alloc()
@@ -133,6 +139,7 @@ dd3a7ee91e0ce0b03d22e974a79e8247cc99959b hardening: Adjust dependencies in selec
 045244dd5d75c61ae37b7b96fe0a95805bd1842d MAINTAINERS: Add security/Kconfig.hardening to hardening section
 a9023656bcd28aaf184974a121d3c2f2ec1ded46 cifs: Check for UTF-16 null codepoint in SFU symlink target location
 dd0d7edb866db2b9d23dc50553cbdd3f6a159fba smb: Update comments about some reparse point tags
+46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 Merge existing fixes from asoc/for-6.12 into new branch
 34820304cc2cd1804ee1f8f3504ec77813d29c8e uprobes: fix kernel info leak via "[uprobes]" vma
 678379e1d4f7443b170939525d3312cfc37bf86b close_range(): fix the logics in descriptor table trimming
 2007d28ec0095c6db0a24fd8bb8fe280c65446cd bcachefs: rename version -> bversion for big endian builds
@@ -165,10 +172,9 @@ a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git:/
 2f80ce0b78c340e332f04a5801dee5e4ac8cfaeb ACPI: resource: Add Asus Vivobook X1704VAP to irq1_level_low_skip_override[]
 056301e7c7c886f96d799edd36f3406cc30e1822 ACPI: resource: Add Asus ExpertBook B2502CVA to irq1_level_low_skip_override[]
 e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-b6e05ba0844139dde138625906015c974c86aa93 spi: spi-imx: Fix pm_runtime_set_suspended() with runtime pm enabled
-67d4a70faa662df07451e83db1546d3ca0695e08 spi: spi-cadence: Fix pm_runtime_set_suspended() with runtime pm enabled
-3eae4a916fc0eb6f85b5d399e10335dbd24dd765 spi: spi-cadence: Fix missing spi_controller_is_target() check
+a36614bf88cd4b43984f24fd960c7aa0e43b5fb7 ASoC: dt-bindings: renesas,rsnd: correct reg-names for R-Car Gen1
 43102a2012c2e2f8424d7eef52aede8e73cf2fed Merge tag 'drm-misc-fixes-2024-09-26' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+72455e33173c1a00c0ce93d2b0198eb45d5f4195 ASoC: fsl_sai: Enable 'FIFO continue on error' FCONT bit
 1eecd880a3ffb42e8cfbc4895998bdb178449b8b Revert "smb: client: make SHA-512 TFM ephemeral"
 c9432ad5e32f066875b1bf95939c363bc46d6a45 cifs: Remove intermediate object of failed create reparse call
 394b52462020b6cceff1f7f47fdebd03589574f3 drm/i915/gem: fix bitwise and logical AND mixup
@@ -191,7 +197,8 @@ c625154993d0d24a962b1830cd5ed92adda2cf86 drivers/perf: riscv: Align errno for un
 4c1b56671b68ffcbe6b78308bfdda6bcce6491ae net: stmmac: dwmac4: extend timeout for VLAN Tag register busy bit check
 a3f9a74d210bf5b80046a840d3e9949b5fe0a67c Revert "Input: Add driver for PixArt PS/2 touchpad"
 c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7 ipv4: ip_gre: Fix drops of small packets in ipgre_xmit
-162d9b5d2308c7e48efbc97d36babbf4d73b2c61 spi: atmel-quadspi: Fix wrong register value written to MR
+5afc29ba44fdd1bcbad4e07246c395d946301580 ASoC: Intel: soc-acpi-intel-rpl-match: add missing empty item
+cccb586f513cd999b9dade82e5a25b711d90a76f ASoC: Intel: soc-acpi: arl: Fix some missing empty terminators
 9abe390e689f4f5c23c5f507754f8678431b4f72 arm64: Force position-independent veneers
 924725707d80bc2588cefafef76ff3f164d299bc arm64: cputype: Add Neoverse-N3 definitions
 081eb7932c2b244f63317a982c5e3990e2c7fbdd arm64: errata: Expand speculative SSBS workaround once more
@@ -225,7 +232,7 @@ fa630df665aa9ddce3a96ce7b54e10a38e4d2a2b btrfs: send: fix invalid clone operatio
 c3b47f49e83197e8dffd023ec568403bcdbb774b btrfs: fix a NULL pointer dereference when failed to start a new trasacntion
 41fd1e94066a815a7ab0a7025359e9b40e4b3576 btrfs: wait for fixup workers before stopping cleaner kthread during umount
 d6e7ac65d4c106149d08a0ffba39fc516ae3d21b btrfs: disable rate limiting when debug enabled
-68a16708d2503b6303d67abd43801e2ca40c208d spi: s3c64xx: fix timeout counters in flush_fifo
+aafbb9af7c370f3fe62f595842d7a0b798224adb ASoC: Intel: soc-acpi: Fix missing empty terminators
 8b4865cd904650cbed7f2407e653934c621b8127 cpufreq: intel_pstate: Make hwp_notify_lock a raw spinlock
 c0f02536fffbbec71aced36d52a765f8c4493dc2 cpufreq: Avoid a bad reference count on CPU node
 ac78288fe062b64e45a479eaae74aaaafcc8ecdd ACPI: video: Add backlight=native quirk for Dell OptiPlex 5480 AIO
@@ -241,7 +248,6 @@ c36df0f5f5e5acec5d78f23c4725cc500df28843 drm/amd/display: avoid set dispclk to 0
 05af800704ee7187d9edd461ec90f3679b1c4aba drm/amd/display: Add HDR workaround for specific eDP
 ef785ca7f7c80891580cafd36c8dd86375684310 drm/amd/display: Enable idle workqueue for more IPS modes
 52d4e3fb3d340447dcdac0e14ff21a764f326907 drm/amd/display: Fix system hang while resume with TBT monitor
-65fbec3121eb7a10a839784496357f5a833af69b spi: Fix pm_runtime_set_suspended() with runtime pm
 a421e3fe0e6abe27395078f4f0cec5daf466caea smb: client: use actual path when queryfs
 134d988208602ccae792e91475c05911c962798e parisc: get rid of private asm/unaligned.h
 0d0b8646a66de7f3bf345106f2034a2268799d67 ufs_rename(): fix bogus argument of folio_release_kmap()
@@ -255,6 +261,11 @@ df5215618fbe425875336d3a2d31bd599ae8c401 ALSA: hda: fix trigger_tstamp_latched
 b405c1e58b73981da0f8df03b00666b22b9397ae udf: refactor udf_next_aext() to handle error
 c226964ec786f3797ed389a16392ce4357697d24 udf: refactor inode_bmap() to handle error
 264db9d666ad9a35075cc9ed9ec09d021580fbb1 udf: fix uninit-value use in udf_get_fileshortad
+bbd1e5ea66f6ca88624faefe0a153637f53ad15d ASoC: dt-bindings: qcom,sm8250: add qrb4210-rb2-sndcard
+b97bc0656a66f89f78098d4d72dc04fa9518ab11 ASoC: qcom: sm8250: add qrb4210-rb2-sndcard compatible string
+17d8adc4cd5181c13c1041b197b76efc09eaf8a8 ASoC: dt-bindings: davinci-mcasp: Fix interrupts property
+47d7d3fd72afc7dcd548806291793ee6f3848215 ASoC: imx-card: Set card.owner to avoid a warning calltrace if SND=m
+2c0b2b484b164072ba6cf52af1bde85158fc75d4 ASoC: intel: sof_sdw: Add check devm_kasprintf() returned value
 35ceae44742e1101f9d20adadbbbd92c05d7d659 fsnotify: Avoid data race between fsnotify_recalc_mask() and fsnotify_object_watched()
 cad3f4a22cfa4081cc2d465d1118cf31708fd82b inotify: Fix possible deadlock in fsnotify_destroy_mark
 0ab42843003f27db509e42f2060bb3fa6ffad38d block: fix blk_rq_map_integrity_sg kernel-doc
@@ -267,6 +278,7 @@ f811b83879fb6717cdb288e34253cf26d135b019 dm-verity: introduce the options restar
 cac39b0706f186ce01b9dd1c3802846528d1bbca slub/kunit: skip test_kfree_rcu when the slub kunit test is built-in
 1ca4169c391c370e0f3a92938df2862900575096 netfs: Fix missing wakeup after issuing writes
 3f7f36a4559ef78a6418c5f0447fbfbdcf671956 Revert "ALSA: hda: Conditionally use snooping for AMD HDMI"
+eb1df4bbf53c29babf68fcb36e80d9c62a345257 qrb4210-rb2: add HDMI audio playback support
 86309cbed26139e1caae7629dcca1027d9a28e75 ACPI: battery: Simplify battery hook locking
 76959aff14a0012ad6b984ec7686d163deccdc16 ACPI: battery: Fix possible crash when unregistering a battery hook
 27af290f1636c9784dbbdd860677aaf57355ff90 Merge tag 'zonefs-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
@@ -420,14 +432,12 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-49da1463c9e3d2082276c3e0e2a8b65a88711cd2 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
-8380dbf1b9ef66e3ce6c1d660fd7259637c2a929 ASoC: dt-bindings: davinci-mcasp: Fix interrupt properties
 
---===============5308507092077421623==
+--===============5444861863976563648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4926ca0189d-344190e03473.txt
+Content-Disposition: attachment; filename=revlist-eb6c65049a27-c2a59c892f20.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -435,7 +445,11 @@ addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
 4a33aa34e4ac2c2bd746a305d4b39fb60dedc091 drm/display: fix kerneldocs references
 d92b90f9a54d9300a6e883258e79f36dab53bfae drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
 cb2deca056d579fe008c8d0a4ceb04d2b368fe42 ALSA: hda/realtek: fix mute/micmute LED for HP mt645 G8
+8451a3c7879d8883fd3fbd9dd7cbe7ecc31e89ce ASoC: amd: acp: don't set card long_name
+84e8d59651879b2ff8499bddbbc9549b7f1a646b ASoC: amd: yc: Add quirk for HP Dragonfly pro one
+85109780543b5100aba1d0842b6a7c3142be74d2 ASoC: topology: Fix incorrect addressing assignments
 49f5ee951f11f4d6a124f00f71b2590507811a55 ALSA: hda/tas2781: Add new quirk for Lenovo Y990 Laptop
+01e709aeaf913a4d0e04f9957d399cf6fc3b5455 ASoC: cs35l45: Corrects cs35l45_get_clk_freq_id function data type
 bf36793fa260cb68cc817f311f1f683788261796 ALSA: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 151ac45348afc5b56baa584c7cd4876addf461ff net: sparx5: Fix invalid timestamps
 886d518ca9a6b433736f74723813d8917e407f40 MAINTAINERS: Add unsafe_memcpy() to the FORTIFY review list
@@ -443,11 +457,13 @@ cac075706f298948898b1f63e81709df42afa75d drm/panthor: Fix race when converting g
 a3096328462b1e022c6294898c440708ea11509a MAINTAINERS: drm/sched: Add new maintainers
 440d52b370b03b366fd26ace36bab20552116145 drm/sched: Fix dynamic job-flow control race
 bff1709b3980bd7f80be6786f64cc9a9ee9e56da mac802154: Fix potential RCU dereference issue in mac802154_scan_worker
+09cfc6a532d249a51d3af5022d37ebbe9c3d31f6 ASoC: atmel: mchp-pdmc: Skip ALSA restoration if substream runtime is uninitialized
 f0fa69b5011a45394554fb8061d74fee4d7cd72c drm/connector: hdmi: Fix writing Dynamic Range Mastering infoframes
 3a87e264290d71ec86a210ab3e8d23b715ad266d io_uring: fix memory leak when cache init fail
 17ea56b752b6ba58fdd1fcfd24f0fd2fa2b0ade2 io_uring: fix casts to io_req_flags_t
 42268ad0eb4142245ea40ab01a5690a40e9c3b41 sched_ext: Build fix for !CONFIG_SMP
 8b0d2f61545545ab5eef923ed6e59fc3be2385e0 drm: Consistently use struct drm_mode_rect for FB_DAMAGE_CLIPS
+e249786b2188107a7c50e7174d35f955a60988a1 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
 2bcae12c795f32ddfbf8c80d1b5f1d3286341c32 net/mlx5: Fix error path in multi-packet WQE transmit
 ec793155894140df7421d25903de2e6bc12c695b net/mlx5: Added cond_resched() to crdump collection
 f25389e779500cf4a59ef9804534237841bce536 net/mlx5e: Fix NULL deref in mlx5e_tir_builder_alloc()
@@ -506,6 +522,7 @@ dd3a7ee91e0ce0b03d22e974a79e8247cc99959b hardening: Adjust dependencies in selec
 045244dd5d75c61ae37b7b96fe0a95805bd1842d MAINTAINERS: Add security/Kconfig.hardening to hardening section
 a9023656bcd28aaf184974a121d3c2f2ec1ded46 cifs: Check for UTF-16 null codepoint in SFU symlink target location
 dd0d7edb866db2b9d23dc50553cbdd3f6a159fba smb: Update comments about some reparse point tags
+46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 Merge existing fixes from asoc/for-6.12 into new branch
 34820304cc2cd1804ee1f8f3504ec77813d29c8e uprobes: fix kernel info leak via "[uprobes]" vma
 678379e1d4f7443b170939525d3312cfc37bf86b close_range(): fix the logics in descriptor table trimming
 2007d28ec0095c6db0a24fd8bb8fe280c65446cd bcachefs: rename version -> bversion for big endian builds
@@ -804,6 +821,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-344190e0347324d95393c561a4b8c8dfa8cd628b ASoC: Merge up v6.12
+c2a59c892f20379a3e48124a83491a12374cd7e0 spi: Merge up v6.12
 
---===============5308507092077421623==--
+--===============5444861863976563648==--
