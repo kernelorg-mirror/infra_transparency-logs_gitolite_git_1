@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7039631351904322661=="
+Content-Type: multipart/mixed; boundary="===============1570066659199243399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 07 Oct 2024 05:51:53 -0000
-Message-Id: <172828031346.909121.11935211566905992549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 07 Oct 2024 05:52:06 -0000
+Message-Id: <172828032674.909330.4452017593912180051@gitolite.kernel.org>
 
---===============7039631351904322661==
+--===============1570066659199243399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-rc
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     log: revlist-9852d85ec9d4-8cf0b93919e1.txt
 
---===============7039631351904322661==
+--===============1570066659199243399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -409,4 +409,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============7039631351904322661==--
+--===============1570066659199243399==--
