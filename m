@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 07 Oct 2024 16:47:19 -0000
-Message-Id: <172831963999.1449785.7201600606574004123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 07 Oct 2024 16:47:24 -0000
+Message-Id: <172831964456.1449920.322697656931606675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/tags/ath12k-mlo-qcn9274-202410071647
-    old: 0000000000000000000000000000000000000000
-    new: 4ad14f50820745f9c2f425ba07ca8431bf2409ed
+  - ref: refs/heads/dev-test
+    old: c2813eed077df0d715ae0185afaa865fe1d24ad8
+    new: 14abaac097f3c010da879a4802081dd961acdc67
+    log: |
+         14abaac097f3c010da879a4802081dd961acdc67 f2fs-toos: use getpagesize() to get default blocksize in Android
+         
