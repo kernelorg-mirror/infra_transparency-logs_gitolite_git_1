@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7086665484682379924=="
+Content-Type: multipart/mixed; boundary="===============5531643319160751118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 07 Oct 2024 16:20:14 -0000
-Message-Id: <172831801458.1425053.17680962310821213706@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 16:20:28 -0000
+Message-Id: <172831802867.1425254.13788022059139332516@gitolite.kernel.org>
 
---===============7086665484682379924==
+--===============5531643319160751118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 8c245fe7dde3bf776253550fc914a36293db4ff3
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     log: revlist-8c245fe7dde3-8cf0b93919e1.txt
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
 
---===============7086665484682379924==
+--===============5531643319160751118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -299,4 +296,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============7086665484682379924==--
+--===============5531643319160751118==--
