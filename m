@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5403509525229100375=="
+Content-Type: multipart/mixed; boundary="===============1684780793740345998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 07 Oct 2024 05:54:09 -0000
-Message-Id: <172828044921.910545.10545981552652559870@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 05:54:32 -0000
+Message-Id: <172828047246.910818.12892141488850565852@gitolite.kernel.org>
 
---===============5403509525229100375==
+--===============1684780793740345998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/hmm
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/wip/for-testing
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-6613476e225e-8cf0b93919e1.txt
+    log: revlist-8400291e289e-8cf0b93919e1.txt
 
---===============5403509525229100375==
+--===============1684780793740345998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-8cf0b93919e1.txt
 
 3b577de206d52dbde9428664b6d823d35a803d75 spi: spi-fsl-lpspi: Undo runtime PM changes at driver exit time
 7f52bb9de57dc1851a83e20e53491ad8df321e4e Merge tag 'i2c-for-6.11-final-but-missed-it' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
@@ -1051,4 +1051,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============5403509525229100375==--
+--===============1684780793740345998==--
