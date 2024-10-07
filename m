@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5717374282013727460=="
+Content-Type: multipart/mixed; boundary="===============2903599414182785780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 07 Oct 2024 05:52:53 -0000
-Message-Id: <172828037390.909877.13067811904058053859@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 05:53:15 -0000
+Message-Id: <172828039579.910084.18094302647402890436@gitolite.kernel.org>
 
---===============5717374282013727460==
+--===============2903599414182785780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-9852d85ec9d4-8cf0b93919e1.txt
+  - ref: refs/heads/wip/leon-for-next
+    old: 23ab1cdca331e10da25a5d1fac0884c9651106a7
+    new: 615b94746a54702af923b28bd8a629f4ac0ff0d8
+    log: revlist-23ab1cdca331-615b94746a54.txt
 
---===============5717374282013727460==
+--===============2903599414182785780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-23ab1cdca331-615b94746a54.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -408,5 +408,7 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
+51976c6cd786151b6a1bdf8b8b3334beac0ba99c RDMA/core: Provide rdma_user_mmap_disassociate() to disassociate mmap pages
+615b94746a54702af923b28bd8a629f4ac0ff0d8 RDMA/hns: Disassociate mmap pages for all uctx when HW is being reset
 
---===============5717374282013727460==--
+--===============2903599414182785780==--
