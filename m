@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3848866260873875209=="
+Content-Type: multipart/mixed; boundary="===============1637594248472543459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 07 Oct 2024 06:51:33 -0000
-Message-Id: <172828389313.957373.4251756375711818255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 07 Oct 2024 06:51:46 -0000
+Message-Id: <172828390632.957637.9313144810172392300@gitolite.kernel.org>
 
---===============3848866260873875209==
+--===============1637594248472543459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     log: revlist-9852d85ec9d4-8cf0b93919e1.txt
 
---===============3848866260873875209==
+--===============1637594248472543459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -409,4 +409,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============3848866260873875209==--
+--===============1637594248472543459==--
