@@ -1,30 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0329693198654541939=="
+Content-Type: multipart/mixed; boundary="===============6715627861634520172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Oct 2024 16:05:24 -0000
-Message-Id: <172831712416.1411934.668041913629685845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 07 Oct 2024 16:06:52 -0000
+Message-Id: <172831721289.1412756.5155455657148545428@gitolite.kernel.org>
 
---===============0329693198654541939==
+--===============6715627861634520172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: eb1df4bbf53c29babf68fcb36e80d9c62a345257
+  - ref: refs/heads/for-6.12
+    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     new: 8380dbf1b9ef66e3ce6c1d660fd7259637c2a929
-    log: revlist-eb1df4bbf53c-8380dbf1b9ef.txt
+    log: |
+         49da1463c9e3d2082276c3e0e2a8b65a88711cd2 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
+         8380dbf1b9ef66e3ce6c1d660fd7259637c2a929 ASoC: dt-bindings: davinci-mcasp: Fix interrupt properties
+         
+  - ref: refs/heads/for-6.13
+    old: e4926ca0189dac2e780d6d3cca92052376fd7f0e
+    new: 344190e0347324d95393c561a4b8c8dfa8cd628b
+    log: revlist-e4926ca0189d-344190e03473.txt
 
---===============0329693198654541939==
+--===============6715627861634520172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb1df4bbf53c-8380dbf1b9ef.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1728317227 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1728317210-43f159fccd530570dcbbba35f2791329a8169e82
+
+8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 8380dbf1b9ef66e3ce6c1d660fd7259637c2a929 refs/heads/for-6.12
+e4926ca0189dac2e780d6d3cca92052376fd7f0e 344190e0347324d95393c561a4b8c8dfa8cd628b refs/heads/for-6.13
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcEBysTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0FkhB/0fPv+RFDublejGm/M8LA05UGxSpwLE
+vyOvnqW3IyazYEFcVRtROfraCxDkj4pkHjNXm2htq6p5vFjjXRIURHrSvbJqTSkx
+9G4vPg/o+srMxV/jTPE8bH0X5i7cRdWjNVuSslopLJeJ52+8dGAK8F88kq6JO3zw
+1ovaAOsIz79RnglNlgrvHpPZOYHKbiiDPtZbmZkZeuxvS6d2koz90Y9BTzs2UHB3
+tY1i7QpWYGwUIDI8Cbq21VJ1TdclPfRaA0qwNlNMiI8ju1hxxDK+AuRj2dP2+Hls
+3zMK6XVjCylbnXxLUFGMZWLpJg+572KfZZ+Ab6KZqZlxW/LMqx2KSdJs
+=hZcs
+-----END PGP SIGNATURE-----
+
+--===============6715627861634520172==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e4926ca0189d-344190e03473.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -135,10 +168,12 @@ a5f24c795513ff098dc8e350e5733aec8796fbf8 Merge tag 'vfs-6.12-rc2.fixes' of git:/
 2f80ce0b78c340e332f04a5801dee5e4ac8cfaeb ACPI: resource: Add Asus Vivobook X1704VAP to irq1_level_low_skip_override[]
 056301e7c7c886f96d799edd36f3406cc30e1822 ACPI: resource: Add Asus ExpertBook B2502CVA to irq1_level_low_skip_override[]
 e32cde8d2bd7d251a8f9b434143977ddf13dcec6 Merge tag 'sched_ext-for-6.12-rc1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+a36614bf88cd4b43984f24fd960c7aa0e43b5fb7 ASoC: dt-bindings: renesas,rsnd: correct reg-names for R-Car Gen1
 b6e05ba0844139dde138625906015c974c86aa93 spi: spi-imx: Fix pm_runtime_set_suspended() with runtime pm enabled
 67d4a70faa662df07451e83db1546d3ca0695e08 spi: spi-cadence: Fix pm_runtime_set_suspended() with runtime pm enabled
 3eae4a916fc0eb6f85b5d399e10335dbd24dd765 spi: spi-cadence: Fix missing spi_controller_is_target() check
 43102a2012c2e2f8424d7eef52aede8e73cf2fed Merge tag 'drm-misc-fixes-2024-09-26' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+72455e33173c1a00c0ce93d2b0198eb45d5f4195 ASoC: fsl_sai: Enable 'FIFO continue on error' FCONT bit
 1eecd880a3ffb42e8cfbc4895998bdb178449b8b Revert "smb: client: make SHA-512 TFM ephemeral"
 c9432ad5e32f066875b1bf95939c363bc46d6a45 cifs: Remove intermediate object of failed create reparse call
 394b52462020b6cceff1f7f47fdebd03589574f3 drm/i915/gem: fix bitwise and logical AND mixup
@@ -161,6 +196,8 @@ c625154993d0d24a962b1830cd5ed92adda2cf86 drivers/perf: riscv: Align errno for un
 4c1b56671b68ffcbe6b78308bfdda6bcce6491ae net: stmmac: dwmac4: extend timeout for VLAN Tag register busy bit check
 a3f9a74d210bf5b80046a840d3e9949b5fe0a67c Revert "Input: Add driver for PixArt PS/2 touchpad"
 c4a14f6d9d17ad1e41a36182dd3b8a5fd91efbd7 ipv4: ip_gre: Fix drops of small packets in ipgre_xmit
+5afc29ba44fdd1bcbad4e07246c395d946301580 ASoC: Intel: soc-acpi-intel-rpl-match: add missing empty item
+cccb586f513cd999b9dade82e5a25b711d90a76f ASoC: Intel: soc-acpi: arl: Fix some missing empty terminators
 162d9b5d2308c7e48efbc97d36babbf4d73b2c61 spi: atmel-quadspi: Fix wrong register value written to MR
 9abe390e689f4f5c23c5f507754f8678431b4f72 arm64: Force position-independent veneers
 924725707d80bc2588cefafef76ff3f164d299bc arm64: cputype: Add Neoverse-N3 definitions
@@ -195,6 +232,7 @@ fa630df665aa9ddce3a96ce7b54e10a38e4d2a2b btrfs: send: fix invalid clone operatio
 c3b47f49e83197e8dffd023ec568403bcdbb774b btrfs: fix a NULL pointer dereference when failed to start a new trasacntion
 41fd1e94066a815a7ab0a7025359e9b40e4b3576 btrfs: wait for fixup workers before stopping cleaner kthread during umount
 d6e7ac65d4c106149d08a0ffba39fc516ae3d21b btrfs: disable rate limiting when debug enabled
+aafbb9af7c370f3fe62f595842d7a0b798224adb ASoC: Intel: soc-acpi: Fix missing empty terminators
 68a16708d2503b6303d67abd43801e2ca40c208d spi: s3c64xx: fix timeout counters in flush_fifo
 8b4865cd904650cbed7f2407e653934c621b8127 cpufreq: intel_pstate: Make hwp_notify_lock a raw spinlock
 c0f02536fffbbec71aced36d52a765f8c4493dc2 cpufreq: Avoid a bad reference count on CPU node
@@ -225,6 +263,11 @@ df5215618fbe425875336d3a2d31bd599ae8c401 ALSA: hda: fix trigger_tstamp_latched
 b405c1e58b73981da0f8df03b00666b22b9397ae udf: refactor udf_next_aext() to handle error
 c226964ec786f3797ed389a16392ce4357697d24 udf: refactor inode_bmap() to handle error
 264db9d666ad9a35075cc9ed9ec09d021580fbb1 udf: fix uninit-value use in udf_get_fileshortad
+bbd1e5ea66f6ca88624faefe0a153637f53ad15d ASoC: dt-bindings: qcom,sm8250: add qrb4210-rb2-sndcard
+b97bc0656a66f89f78098d4d72dc04fa9518ab11 ASoC: qcom: sm8250: add qrb4210-rb2-sndcard compatible string
+17d8adc4cd5181c13c1041b197b76efc09eaf8a8 ASoC: dt-bindings: davinci-mcasp: Fix interrupts property
+47d7d3fd72afc7dcd548806291793ee6f3848215 ASoC: imx-card: Set card.owner to avoid a warning calltrace if SND=m
+2c0b2b484b164072ba6cf52af1bde85158fc75d4 ASoC: intel: sof_sdw: Add check devm_kasprintf() returned value
 35ceae44742e1101f9d20adadbbbd92c05d7d659 fsnotify: Avoid data race between fsnotify_recalc_mask() and fsnotify_object_watched()
 cad3f4a22cfa4081cc2d465d1118cf31708fd82b inotify: Fix possible deadlock in fsnotify_destroy_mark
 0ab42843003f27db509e42f2060bb3fa6ffad38d block: fix blk_rq_map_integrity_sg kernel-doc
@@ -237,6 +280,7 @@ f811b83879fb6717cdb288e34253cf26d135b019 dm-verity: introduce the options restar
 cac39b0706f186ce01b9dd1c3802846528d1bbca slub/kunit: skip test_kfree_rcu when the slub kunit test is built-in
 1ca4169c391c370e0f3a92938df2862900575096 netfs: Fix missing wakeup after issuing writes
 3f7f36a4559ef78a6418c5f0447fbfbdcf671956 Revert "ALSA: hda: Conditionally use snooping for AMD HDMI"
+eb1df4bbf53c29babf68fcb36e80d9c62a345257 qrb4210-rb2: add HDMI audio playback support
 86309cbed26139e1caae7629dcca1027d9a28e75 ACPI: battery: Simplify battery hook locking
 76959aff14a0012ad6b984ec7686d163deccdc16 ACPI: battery: Fix possible crash when unregistering a battery hook
 27af290f1636c9784dbbdd860677aaf57355ff90 Merge tag 'zonefs-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
@@ -390,7 +434,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-49da1463c9e3d2082276c3e0e2a8b65a88711cd2 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
-8380dbf1b9ef66e3ce6c1d660fd7259637c2a929 ASoC: dt-bindings: davinci-mcasp: Fix interrupt properties
+344190e0347324d95393c561a4b8c8dfa8cd628b ASoC: Merge up v6.12
 
---===============0329693198654541939==--
+--===============6715627861634520172==--
