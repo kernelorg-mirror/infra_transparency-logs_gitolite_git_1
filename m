@@ -1,62 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5940065657254280687=="
+Content-Type: multipart/mixed; boundary="===============3569858408426217546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 07 Oct 2024 09:47:52 -0000
-Message-Id: <172829447284.1097302.883515769497845142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 07 Oct 2024 09:49:37 -0000
+Message-Id: <172829457767.1098089.17575082862269965510@gitolite.kernel.org>
 
---===============5940065657254280687==
+--===============3569858408426217546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: eb0172de09d7343c9af08a552bab35d33ba74e0c
-    new: fa2723ef2121a0b936695f30f5b37c846dfda313
-    log: revlist-eb0172de09d7-fa2723ef2121.txt
-  - ref: refs/heads/next
-    old: b5819d09a365e7c33a6d0198323bee7332c6cd76
-    new: d3e4a4cb9c36653a9994425f39ce3c8a262764da
-    log: |
-         625d8daaba43b2704e7f9cd5e5f2708a676e596b ARM: dts: renesas: Add proper node names to (L)BSC devices
-         a7190e21f3bf502118a4bbbfd774fd0e26dbfdee ARM: dts: renesas: r8a7778: Rename 'bsc' to 'lbsc'
-         70ccb46a0cb49186375ce89ba6fea0734193f36d ARM: dts: renesas: Use proper node names for keys
-         9faf2a34c2e6360c37e47deaa51110c4fd3e9f4d arm64: dts: renesas: beacon-renesom: Switch to mic-det-gpios
-         43a576ac8442b4c802d9228bf24b7f6388f978de ARM: dts: renesas: r7s72100: 'bus-width' is a board property
-         7201e6487cd3e5748439161cb271dcf1f491c110 ARM: dts: renesas: rcar-gen2: Switch HS-USB to renesas,enable-gpios
-         d3e4a4cb9c36653a9994425f39ce3c8a262764da Merge branch 'renesas-dts-for-v6.13' into renesas-next
-         
-  - ref: refs/heads/renesas-dts-for-v6.13
-    old: ddda5046e484d881563a6ad8da77f23f39f9e298
-    new: 7201e6487cd3e5748439161cb271dcf1f491c110
-    log: |
-         625d8daaba43b2704e7f9cd5e5f2708a676e596b ARM: dts: renesas: Add proper node names to (L)BSC devices
-         a7190e21f3bf502118a4bbbfd774fd0e26dbfdee ARM: dts: renesas: r8a7778: Rename 'bsc' to 'lbsc'
-         70ccb46a0cb49186375ce89ba6fea0734193f36d ARM: dts: renesas: Use proper node names for keys
-         9faf2a34c2e6360c37e47deaa51110c4fd3e9f4d arm64: dts: renesas: beacon-renesom: Switch to mic-det-gpios
-         43a576ac8442b4c802d9228bf24b7f6388f978de ARM: dts: renesas: r7s72100: 'bus-width' is a board property
-         7201e6487cd3e5748439161cb271dcf1f491c110 ARM: dts: renesas: rcar-gen2: Switch HS-USB to renesas,enable-gpios
-         
-  - ref: refs/tags/renesas-devel-2024-10-07-v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2db082deaf9a0c0ebdcbb27eafda58a8fbecf104
-  - ref: refs/tags/renesas-next-2024-10-07-v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: dfb80e7f6167e6798cc6c19aa2c91072a37779e6
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
+    old: f077472a6705df8b3101b5556f4be1fbd02f34ac
+    new: f49d5b760928861fdd3b8d19ae46aa2617b529b1
+    log: revlist-f077472a6705-f49d5b760928.txt
 
---===============5940065657254280687==
+--===============3569858408426217546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb0172de09d7-fa2723ef2121.txt
+Content-Disposition: attachment; filename=revlist-f077472a6705-f49d5b760928.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -440,13 +408,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-625d8daaba43b2704e7f9cd5e5f2708a676e596b ARM: dts: renesas: Add proper node names to (L)BSC devices
-a7190e21f3bf502118a4bbbfd774fd0e26dbfdee ARM: dts: renesas: r8a7778: Rename 'bsc' to 'lbsc'
-70ccb46a0cb49186375ce89ba6fea0734193f36d ARM: dts: renesas: Use proper node names for keys
-9faf2a34c2e6360c37e47deaa51110c4fd3e9f4d arm64: dts: renesas: beacon-renesom: Switch to mic-det-gpios
-43a576ac8442b4c802d9228bf24b7f6388f978de ARM: dts: renesas: r7s72100: 'bus-width' is a board property
-7201e6487cd3e5748439161cb271dcf1f491c110 ARM: dts: renesas: rcar-gen2: Switch HS-USB to renesas,enable-gpios
-d3e4a4cb9c36653a9994425f39ce3c8a262764da Merge branch 'renesas-dts-for-v6.13' into renesas-next
-fa2723ef2121a0b936695f30f5b37c846dfda313 Merge branch 'renesas-next', tag 'v6.12-rc2' into renesas-devel
+f49d5b760928861fdd3b8d19ae46aa2617b529b1 Merge tag 'v6.12-rc2'
 
---===============5940065657254280687==--
+--===============3569858408426217546==--
