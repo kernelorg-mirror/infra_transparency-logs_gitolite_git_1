@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1697457647253741745=="
+Content-Type: multipart/mixed; boundary="===============4299329058902807896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 07 Oct 2024 22:39:27 -0000
-Message-Id: <172834076750.1738633.1002677121076226152@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 22:56:44 -0000
+Message-Id: <172834180459.1752923.3647219886773420136@gitolite.kernel.org>
 
---===============1697457647253741745==
+--===============4299329058902807896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: e2306ff3c87697d93f1fad3cda6a5edd63ade0be
-    new: 857c0ad014a46dac9dbc4aa4bea26600b14f7454
-    log: revlist-e2306ff3c876-857c0ad014a4.txt
+  - ref: refs/heads/for-next
+    old: e7c10ac01f314fb1376315c85b8246fb714d0df4
+    new: d79b0f10eed92b29f1ee423462c95b7bb2c0d67a
+    log: revlist-e7c10ac01f31-d79b0f10eed9.txt
 
---===============1697457647253741745==
+--===============4299329058902807896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2306ff3c876-857c0ad014a4.txt
+Content-Disposition: attachment; filename=revlist-e7c10ac01f31-d79b0f10eed9.txt
 
-de848da12f752170c2ebe114804a985314fd5a6a Merge tag 'drm-next-2024-09-19' of https://gitlab.freedesktop.org/drm/kernel
-84e8d59651879b2ff8499bddbbc9549b7f1a646b ASoC: amd: yc: Add quirk for HP Dragonfly pro one
-726e2d0cf2bbc14e3bf38491cddda1a56fe18663 Merge tag 'dma-mapping-6.12-2024-09-19' of git://git.infradead.org/users/hch/dma-mapping
-a1d1eb2f57501b2e7e2076ce89b3f3a666ddbfdd Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-839c4f596f898edc424070dc8b517381572f8502 Merge tag 'mm-hotfixes-stable-2024-09-19-00-31' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-194ef9d0de9021df4a0ba8b112f91e56adaddd22 net: phy: aquantia: fix -ETIMEDOUT PHY probe failure when firmware not present
-438efb23f9581659495b85f1f6c7d5946200660c spi: atmel-quadspi: Undo runtime PM changes at driver exit time
-3b577de206d52dbde9428664b6d823d35a803d75 spi: spi-fsl-lpspi: Undo runtime PM changes at driver exit time
-7f52bb9de57dc1851a83e20e53491ad8df321e4e Merge tag 'i2c-for-6.11-final-but-missed-it' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-ba0da2dc934ec5ac32bbeecbd0670da16ba03565 net: xilinx: axienet: Schedule NAPI in two steps
-5a6caa2cfabb559309b5ce29ee7c8e9ce1a9a9df net: xilinx: axienet: Fix packet counting
-85109780543b5100aba1d0842b6a7c3142be74d2 ASoC: topology: Fix incorrect addressing assignments
-9c778fe48d20ef362047e3376dee56d77f8500d4 netfilter: nf_reject_ipv6: fix nf_reject_ip6_tcphdr_put()
-509d2cd12a10d057fdf72f565b930f9a81140d59 Merge tag 'Smack-for-6.12' of https://github.com/cschaufler/smack-next
-49f5ee951f11f4d6a124f00f71b2590507811a55 ALSA: hda/tas2781: Add new quirk for Lenovo Y990 Laptop
-b5109b60ee4fcb2f2bb24f589575e10cc5283ad4 net: seeq: Fix use after free vulnerability in ether3 Driver Due to Race Condition
-2004cef11ea072838f99bd95cefa5c8e45df0847 Merge tag 'sched-core-2024-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-01e709aeaf913a4d0e04f9957d399cf6fc3b5455 ASoC: cs35l45: Corrects cs35l45_get_clk_freq_id function data type
-04beb6e0e08c30c6f845f50afb7d7953603d7a6f io_uring: check for presence of task_work rather than TIF_NOTIFY_SIGNAL
-5c7bdac783be8dcba1427460e7971445f839a5e2 PCI: Fix typos
-1a3465598e7501aa51a4088cd9b77627b821b33b Merge branch 'pci/aer'
-59b748cd62e4b1af6fb4992ce9d07b4f4c2189b3 Merge branch 'pci/crs'
-dceed69701ac2ac357c062117a3f201096c4bdab Merge branch 'pci/devres'
-dffe4cca2e36e5a546fccf3f39a444731887ba9a Merge branch 'pci/enumeration'
-15a724aa435072b722749f55e65a787888466ee2 Merge branch 'pci/hotplug'
-e642aa6b38762a2af3a7e0c5e6dac5841c15dea0 Merge branch 'pci/iommu'
-9d4f1c0747e2937c830d135a460d727002caed3d Merge branch 'pci/npem'
-d774674f3492740503a3cd3f5da131d088202f1b Merge branch 'pci/pwrctl'
-f2a3ce1597b3e1aec96458f80c6cda31a3542b79 Merge branch 'pci/reset'
-ed072e447e112f6a6f84e7cc4fc9a1f6e1e653ac Merge branch 'pci/sysfs'
-207bcb73fb08841e242fa1d66e1d0381836da562 Merge branch 'pci/dt-bindings'
-94d6a3a0601f7e931a31cf67f2adf9a1c3312d19 Merge branch 'pci/controller/endpoint'
-f045bc60d5078a851edeca6db50eda65c0b034da Merge branch 'pci/controller/affinity'
-37b35d4d2ce228e650b338d5289425264c40f381 Merge branch 'pci/controller/altera'
-b893f8ea38c530c2c8a337c3429f9f37e6bf65e8 Merge branch 'pci/controller/brcmstb'
-da71957c8b8bab6e6c8b2f1c97846066f6a03f1b Merge branch 'pci/controller/cadence'
-5ec58799e8322639ee8686dd73f9668ead2d9e35 Merge branch 'pci/controller/dra7xx'
-f8ca62bff229d5afbbfe275d0931357a9ec04f55 Merge branch 'pci/controller/imx6'
-d1624da381cb1d9c877e631ec07ee10cb3664bbb Merge branch 'pci/controller/j721e'
-e5f8d1c75b29b65e29aed7599130fc709b93c84d Merge branch 'pci/controller/keystone'
-af6491944072755032c4b2f3a96bbced4148e9c9 Merge branch 'pci/controller/kirin'
-97b9d65e77e0381deab63a9004ddb2e1f792af48 Merge branch 'pci/controller/loongson'
-487ce3e500b0549b824deb86b48513ec23f23658 Merge branch 'pci/controller/mediatek'
-1bcf23315491a2e9e29fb6130cfc48bab0a4124e Merge branch 'pci/controller/mediatek-gen3'
-45e981b86df3fa04ac581b8a462be6f32453bf53 Merge branch 'pci/controller/qcom'
-187b811570db7476da902ac68f7c1e163e071db8 Merge branch 'pci/controller/rcar-gen4'
-11e32bbe785854f2d9911c65ee2377e6395a62ff Merge branch 'pci/controller/vmd'
-bb78146c18ac67f22cabb2448b501bcac30f8801 Merge branch 'pci/controller/xilinx'
-ca5c65687e3e0370623e9e5d4e1a2aab8ebe20fd Merge branch 'pci/quirks'
-5dc07a20ac1c6882e191f821f9c75edde958224d Merge branch 'pci/misc'
-81e53c0da8f8b153e049036e5ca5ca20e811c0c8 Merge branch 'pci/tools'
-8a23c9e1ba4642b60420e8caa75859883a509c24 selinux,smack: properly reference the LSM blob in security_watch_key()
-5f5e7344322f0b0676579af054c787ed57d1c1df kbuild: generate offset range data for builtin modules
-ac7bd0945e3db5253bd03bfc40e71afafb08d225 scripts: add verifier script for builtin module range data
 ae70d708c932e7bc08b6c1975e1a010ee0b4e272 kbuild: add install target for modules.builtin.ranges
 327df5bf540e1cde17ae35d5a043ece773c80ff6 kallsyms: squash output_address()
 9a418218dadf913fe78dbe6ad6b2e31e721b84ef kallsyms: change overflow variable to bool type
@@ -847,6 +793,14 @@ fa998a9eac8809da4f219aad49836fcad2a9bf5c drm/panthor: Lock the VM resv before ca
 282864cc5d3f144af0cdea1868ee2dc2c5110f0d drm/panthor: Fix access to uninitialized variable in tick_ctx_cleanup()
 7a1f30afe97294281a2ba05977688385744f9844 drm/panthor: Don't declare a queue blocked if deferred operations are pending
 f9e7ac6e2e9986c2ee63224992cb5c8276e46b2a drm/panthor: Don't add write fences to the shared BOs
+96c6ca71572a3556ed0c37237305657ff47174b7 btrfs: send: fix buffer overflow detection when copying path to cache entry
+97f9782276fc9cb0de37a5eecb82204e48a5a612 btrfs: also add stripe entries for NOCOW writes
+db7e68b522c01eb666cfe1f31637775f18997811 btrfs: drop the backref cache during relocation if we commit
+50c6f6e6806c65e41a039f0edef0816974403253 btrfs: tracepoints: end assignment with semicolon at btrfs_qgroup_extent event class
+fa630df665aa9ddce3a96ce7b54e10a38e4d2a2b btrfs: send: fix invalid clone operation for file that got its size decreased
+c3b47f49e83197e8dffd023ec568403bcdbb774b btrfs: fix a NULL pointer dereference when failed to start a new trasacntion
+41fd1e94066a815a7ab0a7025359e9b40e4b3576 btrfs: wait for fixup workers before stopping cleaner kthread during umount
+d6e7ac65d4c106149d08a0ffba39fc516ae3d21b btrfs: disable rate limiting when debug enabled
 aafbb9af7c370f3fe62f595842d7a0b798224adb ASoC: Intel: soc-acpi: Fix missing empty terminators
 68a16708d2503b6303d67abd43801e2ca40c208d spi: s3c64xx: fix timeout counters in flush_fifo
 8b4865cd904650cbed7f2407e653934c621b8127 cpufreq: intel_pstate: Make hwp_notify_lock a raw spinlock
@@ -1049,6 +1003,52 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-857c0ad014a46dac9dbc4aa4bea26600b14f7454 Merge branch 'misc-6.12' into next-fixes
+1a80e902fe21e192a02270ef8af8ffb5c8ff6ced btrfs: don't take dev_replace rwsem on task already holding it
+b9731b48663f0651f8690bd5f6cec08056beef53 btrfs: make assert_rbio() to only check CONFIG_BTRFS_ASSERT
+7aab35059a4487dc7ba2cfaae8250023cfe68dc7 btrfs: split remaining space to discard in chunks
+6faacb2e1492ae23ccde1ea233c015fa4567f95f btrfs: add cancellation points to trim loops
+0f1443427ee81b44adf542b8a35d97a91f987c7c btrfs: split out CONFIG_BTRFS_EXPERIMENTAL from CONFIG_BTRFS_DEBUG
+de79de39526f56ebc5a6e096b986b8ffebb36312 btrfs: zlib: make the compression path to handle sector size < page size
+41927adf05aa353e012a339119eabd3c41ab69f3 btrfs: zstd: make the compression path to handle sector size < page size
+15d42822442b9d677ade790450160ca266370538 btrfs: compression: add an ASSERT() to ensure the read-in length is sane
+e09104e44009b96f27f783a4c857c098f4275939 btrfs: wait for writeback if sector size is smaller than page size
+36bdda2f6e1d54475e6dc9391cf0e3849c6d18fb btrfs: make extent_range_clear_dirty_for_io() to handle sector size < page size cases
+df353d2718e80e28f292a57a6c27f91718419d76 btrfs: do not assume the full page range is not dirty in extent_writepage_io()
+9525e365540de8167d1c0e40f3fe76e572233a92 btrfs: move the delalloc range bitmap search into extent_io.c
+8c38df1fda2302970058c4728596c99e2bbf6c6a btrfs: mark all dirty sectors as locked inside writepage_delalloc()
+018dfd38a3506e58e0e40cbd1208a170983f6add btrfs: allow compression even if the range is not page aligned
+94a5b169bf5c7c47d3b1af759cf70bf1ab236ddb btrfs: avoid unnecessary device path update for the same device
+b4b3fb6c00f37a9da91022adcd83555bc339e044 btrfs: canonicalize the device path before adding it
+b13db477b7c0a05fee7f3b2ae1e52a2d6cafab78 btrfs: remove code duplication in ordered extent finishing
+8b1cb2187d49d365f3a7cd006f94d9d642e0568c btrfs: fix missing error handling when adding delayed ref with qgroups enabled
+f488f1bbccc2b73709763ed63b91fa2189c14704 btrfs: use sector numbers as keys for the dirty extents xarray
+3014e2b9f1d6fd00c21861c51e8a32b987cfcf6d btrfs: qgroups: remove bytenr field from struct btrfs_qgroup_extent_record
+122d449e22d883636949847a34069da32f441f98 btrfs: store fs_info in a local variable at btrfs_qgroup_trace_extent_post()
+b25d2c2673be53ffc873ce068172ef8fbbb12e6f btrfs: remove unnecessary delayed refs locking at btrfs_qgroup_trace_extent()
+6c1b6d2b8dda4dd180ed71993a5809f299e2c07e btrfs: always use delayed_refs local variable at btrfs_qgroup_trace_extent()
+f5f6a98d2feca4bcfe81377fa9aae1fe9912a6eb btrfs: remove pointless initialization at btrfs_qgroup_trace_extent()
+d7c6f61996b37972a4ec2813bc86f8aecf9bf0ea btrfs: remove redundant stop_loop variable in scrub_stripe()
+8e622876371802baf69e3553f795780f762167f9 btrfs: remove unused page_to_inode and page_to_fs_info macros
+4f003f1963034fe6cabd5eff822da3d7a2d59dc1 btrfs: correct typos in multiple comments across various files
+48aea7cc3832920f58a74fb9d4a0a389165c73ef btrfs: tests: add selftests for raid-stripe-tree
+37eeeb72db3bbca362b41d1ec4c40fe3bf3449af btrfs: zoned: fix missing RCU locking in error message when loading zone info
+adb83ae66f64b333bd7a5bac64677cbc868b42e5 btrfs: remove unused btrfs_free_squota_rsv()
+f1ecab2b39bd7de729e7f740bee3f256a6c76642 btrfs: remove unused btrfs_is_parity_mirror()
+f6ac62033ba161557400fe8cd355076b7b2b2afd btrfs: remove unused btrfs_try_tree_write_lock()
+69e89e4d9db9dcc8f242bf38f5eae50217785a26 btrfs: fix clear_dirty and writeback ordering in submit_one_sector()
+bc5db36e8cd543cd1151d8e626638ba41de1a6dc btrfs: remove the dirty_page local variable
+0d0e2a852c027817e3d87b5fcd2560bf46897981 btrfs: simplify the page uptodate preparation for prepare_pages()
+6ad7aa45755c6742087aa5c57e327fc2c622e6c1 btrfs: handle empty list of NOCOW ordered extents with checksum list
+a99fcb0158978ed332009449b484e5f3ca2d7df4 btrfs: split remaining space to discard in chunks
+69313850dce33ce8c24b38576a279421f4c60996 btrfs: add cancellation points to trim loops
+6ef8fbce010421bf742b12b8f8f2b2d2ff154845 btrfs: fix missing error handling when adding delayed ref with qgroups enabled
+5c0ea18d992fffc948e087c0002560d747e6edd9 btrfs: use sector numbers as keys for the dirty extents xarray
+ec6d053e46be51a84aaf9a2d47dff27c70572fba btrfs: zoned: fix missing RCU locking in error message when loading zone info
+0f05c66081c84e6c73e09f79d9a577e00e97748f btrfs: fix clear_dirty and writeback ordering in submit_one_sector()
+0f0deae6bc32aa815d2129d18bc1efe51be0d903 Merge branch 'misc-6.12' into for-next-current-v6.11-20241008
+5108d92d138ce9f3094c268f68907f2f6a88e648 Merge branch 'misc-6.12' into for-next-next-v6.12-20241008
+d195c948f9d3b4fa82b59e1733bf7ede15dc5c87 Merge branch 'b-for-next' into for-next-next-v6.12-20241008
+774f649efae20961c7c6511641b4e16ddb17a073 Merge branch 'for-next-current-v6.11-20241008' into for-next-20241008
+d79b0f10eed92b29f1ee423462c95b7bb2c0d67a Merge branch 'for-next-next-v6.12-20241008' into for-next-20241008
 
---===============1697457647253741745==--
+--===============4299329058902807896==--
