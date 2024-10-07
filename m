@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4596651465614780002=="
+Content-Type: multipart/mixed; boundary="===============8018176262589330066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Oct 2024 13:01:45 -0000
-Message-Id: <172830610522.1255240.10927518749070542067@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 13:02:15 -0000
+Message-Id: <172830613559.1255654.9713262234243879802@gitolite.kernel.org>
 
---===============4596651465614780002==
+--===============8018176262589330066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regmap-6.13
-    old: 49a85851b14cf6630013d1b9bae2ac2345c9430b
-    new: c2288599691c6057da34731606600ea04fc38d71
-    log: revlist-49a85851b14c-c2288599691c.txt
+  - ref: refs/heads/regulator-6.13
+    old: dc16594d9967773ca891b3d9111f152e3c99d1cf
+    new: 85eadae61931f6268b49b5722039e5a248b9ee4c
+    log: revlist-dc16594d9967-85eadae61931.txt
 
---===============4596651465614780002==
+--===============8018176262589330066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49a85851b14c-c2288599691c.txt
+Content-Disposition: attachment; filename=revlist-dc16594d9967-85eadae61931.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -408,6 +408,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-c2288599691c6057da34731606600ea04fc38d71 regmap: Merge up v6.12-rc2
+85eadae61931f6268b49b5722039e5a248b9ee4c regulator: Merge up v6.12-rc2
 
---===============4596651465614780002==--
+--===============8018176262589330066==--
