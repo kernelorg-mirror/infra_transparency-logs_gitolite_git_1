@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0516238271091924355=="
+Content-Type: multipart/mixed; boundary="===============1806461314948010002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Oct 2024 14:30:40 -0000
-Message-Id: <172831144058.1328762.13097880442193883102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Oct 2024 14:32:09 -0000
+Message-Id: <172831152951.1329631.3978879834740340062@gitolite.kernel.org>
 
---===============0516238271091924355==
+--===============1806461314948010002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regulator-6.12
     old: 4591a2271f2e4c320eaa63c348169e4e6e6f2852
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     log: revlist-4591a2271f2e-8cf0b93919e1.txt
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: dc16594d9967773ca891b3d9111f152e3c99d1cf
     new: 85eadae61931f6268b49b5722039e5a248b9ee4c
     log: revlist-dc16594d9967-85eadae61931.txt
 
---===============0516238271091924355==
+--===============1806461314948010002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728311452 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1728311432-7444c309571728d55cf9bcb951931c4134c7afda
+pusher Mark Brown <broonie@kernel.org> 1728311543 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1728311510-2de5f18ee11f07df260b197b7998e32efd9598f0
 
-4591a2271f2e4c320eaa63c348169e4e6e6f2852 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b refs/heads/for-6.12
-dc16594d9967773ca891b3d9111f152e3c99d1cf 85eadae61931f6268b49b5722039e5a248b9ee4c refs/heads/for-6.13
+4591a2271f2e4c320eaa63c348169e4e6e6f2852 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b refs/heads/regulator-6.12
+dc16594d9967773ca891b3d9111f152e3c99d1cf 85eadae61931f6268b49b5722039e5a248b9ee4c refs/heads/regulator-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcD8JwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PM+B/4jJAjg4QFirL29vKPVrun3TDoDsslg
-Mc5jGyYumODSsi+2QSZNTyBUN7+qME8qpyGmDRbsvFNnV6s1myOTRaQRcAq3ea3G
-7KbOLp4sudjl3CgypeKSZcca687G8QxWbQUPo1ub9+z8pqAU3FzgmKEh6Zq+PutX
-MSJqjoAFFLGgsHQ5THPeAyHnoJCRmgBcGifa2EfkTsu/WPnQU+sqZLE39kut+VUe
-a/64h3/TxIWPyUtxWpkyJ9xwv794zK4s9zYCfjQ1o0/lPyMgL1fVETUqWzLWY3Le
-Y6qrmrh+1rqiYWntJAY7Dd8/OpZBL8HDQZGu2habmjmjC06E/cWCkKDD
-=ubj5
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcD8PcTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0P4OB/9UCyEmoWUGrChU9NfqBcYLcV5rj+VI
+a7xWFnVERUpMw0uX6KoaGP+vs/5QMnlWkZ6yZcHeJrk0vVqWQuxiGZTmoe8JS0GL
+hDfAPsT1vRgzJx5LHflQAqeFI2QaPd85ERT23dCzbx3L/F0+re43wfYvcegR/b/x
+sd45POGXwT04imfo51Tbas7/G7df95xVb8LBJzCVwofYUXFtZlN6aq2diC2WHoho
+QOxv7jsbLH99RY5XzbsLRJRW525Hgsuq9BhRsfuu3XyHFgq36I/dVM4HzhDyt/3O
+rx1m+yfy00qumj3gApiZ8T5U0n8X1a7v4ID/ANfNRzoxTW/zDcTiprH+
+=v8Ma
 -----END PGP SIGNATURE-----
 
---===============0516238271091924355==
+--===============1806461314948010002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,7 +1081,7 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============0516238271091924355==
+--===============1806461314948010002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1471,4 +1471,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 85eadae61931f6268b49b5722039e5a248b9ee4c regulator: Merge up v6.12-rc2
 
---===============0516238271091924355==--
+--===============1806461314948010002==--
