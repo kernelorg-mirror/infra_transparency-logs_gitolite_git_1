@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3979126036165405360=="
+Content-Type: multipart/mixed; boundary="===============7897379360250574795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 07 Oct 2024 02:22:20 -0000
-Message-Id: <172826774051.699703.17379323005506289615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 07 Oct 2024 02:22:39 -0000
+Message-Id: <172826775942.699931.11209937144353865052@gitolite.kernel.org>
 
---===============3979126036165405360==
+--===============7897379360250574795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/nfsd-next
-    old: dc947efe6ee68c80f116906b6997b27b55204f11
-    new: 5d063672154b3d2d3f9bc3426e0ee4e42ab0e811
-    log: revlist-dc947efe6ee6-5d063672154b.txt
+  - ref: refs/heads/fixes
+    old: 82cb44308951ad4ce7a8500b9e025d27d7fb3526
+    new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    log: revlist-82cb44308951-8cf0b93919e1.txt
 
---===============3979126036165405360==
+--===============7897379360250574795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc947efe6ee6-5d063672154b.txt
+Content-Disposition: attachment; filename=revlist-82cb44308951-8cf0b93919e1.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -119,8 +119,6 @@ dd0d7edb866db2b9d23dc50553cbdd3f6a159fba smb: Update comments about some reparse
 dee476950cbd83125655a3f49e00d63b79f6114e ALSA: hda/realtek: Add quirk for Huawei MateBook 13 KLV-WX9
 368e4663c557de4a33f321b44e7eeec0a21b2e4e ALSA: mixer_oss: Remove some incorrect kfree_const() usages
 4b058c9f281f5b100efbf665dd5a1a05e1654d6d powerpc/vdso: allow r30 in vDSO code generation of getrandom
-7fb1d1e0382c2841906fbc1bad7d902b21fe67de kbuild: move non-boot built-in DTBs to .rodata section
-4d46b5b623e0adee1153b1d80689211e5094ae44 kconfig: fix infinite loop in sym_calc_choice()
 3360d41f4ac490282fddc3ccc0b58679aa5c065d gpio: davinci: fix lazy disable
 28e8c5c095ec28edeedab5e976e62e0419a89fc1 netfs: Add folio_queue API documentation
 f801850bc263d7fa0a4e6d9a36cddf4966c79c14 netfs: Fix the netfs_folio tracepoint to handle NULL mapping
@@ -152,8 +150,6 @@ b6e05ba0844139dde138625906015c974c86aa93 spi: spi-imx: Fix pm_runtime_set_suspen
 c9432ad5e32f066875b1bf95939c363bc46d6a45 cifs: Remove intermediate object of failed create reparse call
 394b52462020b6cceff1f7f47fdebd03589574f3 drm/i915/gem: fix bitwise and logical AND mixup
 6c24a03a61a245fe34d47582898331fa034b6ccd net: dsa: improve shutdown sequence
-8d095547debdd26583171a6b589acbc9fd76aa9f kconfig: clear expr::val_is_valid when allocated
-da724c33b685463720b1c625ac440e894dc57ec0 kconfig: qconf: move conf_read() before drawing tree pain
 e8d4d34df715133c319fabcf63fdec684be75ff8 net: Add netif_get_gro_max_size helper for GRO
 e609c959a939660c7519895f853dfa5624c6827a net: Fix gso_features_check to check for both dev->gso_{ipv4_,}max_size
 45c0de18ff2dc9af01236380404bbd6a46502c69 net: ethernet: lantiq_etop: fix memory disclosure
@@ -230,7 +226,6 @@ a421e3fe0e6abe27395078f4f0cec5daf466caea smb: client: use actual path when query
 1c801e7f77445bc56e5e1fec6191fd4503534787 ALSA: hda/generic: Unconditionally prefer preferred_dacs pairs
 864773f9e7899f5ea72f92ebd75770e25e0b35be ALSA: hda/generic: Drop obsoleted obey_preferred_dacs flag
 d75dba49744478c32f6ce1c16b5f391c2d5cef5f ALSA: hda/realtek: Add a quirk for HP Pavilion 15z-ec200
-984ed20ece1c6c20789ece040cbff3eb1a388fa9 kconfig: qconf: fix buffer overflow in debug links
 5a431e50e9d4189800be1607eef9deaf95959fc3 gpio: davinci: Fix condition for irqchip registration
 ee703a7068f95764cfb62b57db1d36e465cb9b26 udf: refactor udf_current_aext() to handle error
 df5215618fbe425875336d3a2d31bd599ae8c401 ALSA: hda: fix trigger_tstamp_latched
@@ -400,49 +395,10 @@ a561509b4187a8908eb7fbb2d1bf35bbc20ec74b platform/x86: dell-sysman: add support 
 7b954b9ba007d03ba26135ac49b2c93208cf090e platform/x86: dell-ddv: Fix typo in documentation
 5984b40f5bcd41bfd08359cdb9c8cb7ca9d3cc60 platform/x86: wmi: Update WMI driver API documentation
 2fae3129c0c08e72b1fe93e61fd8fd203252094a platform/x86: x86-android-tablets: Fix use after free on platform_device_register() errors
-c14a30468230c608731f36569bfd9785bb486131 scripts: import more list macros
-d939881a15b13c028257471d8853d12d83686bcc kbuild: fix a typo dt_binding_schema -> dt_binding_schemas
-82cb44308951ad4ce7a8500b9e025d27d7fb3526 kbuild: deb-pkg: Remove blank first line from maint scripts
 b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 4563243edeeb3dc17355a80ec16bbfdc675702cb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-13f6ca249d709409b99b9c696ec180e2cd0db9c8 NFSD: Prevent a potential integer overflow
-c2e204b40050fd18c89691eade801ba3c4359d86 svcrdma: Address an integer overflow
-3b50aabe0da3027657c765996580b570de6558a5 NFSD: Remove unnecessary posix_acl_entry pointer initialization
-5c56205635cf8ad31b135b8ad4aad7010e921f9e NFSD: Remove unused function parameter
-664d6ce4f341a59c99431ef4b0c41635247ac4e5 xdrgen: Exit status should be zero on success
-4ef9cffc4589a3d445cca09fb063dfd3c23f49ac xdrgen: Clean up type_specifier
-d6460aebcd0b4d8e8edd43eca507ce27413aa7d3 xdrgen: Rename "variable-length strings"
-d72bd9f56b918b9bcbbb64687a907f96df882fd1 xdrgen: Rename enum's declaration Jinja2 template
-ac1c977501c1f0ed3e109f956cf80c3796513ec1 xdrgen: Rename "enum yada" types as just "yada"
-62226b18706ca4a29f0e2e171456e6088e22d525 xdrgen: Implement big-endian enums
-609d8577afd8c78bf0c7647d389fef8cdccc5215 xdrgen: Refactor transformer arms
-cad042c8933747899a8967839f736b90ca5509ae xdrgen: Track constant values
-695a055bf0e8abc9ab1f575c7d8811fb3ea3f9e2 xdrgen: Keep track of on-the-wire data type widths
-2d9506dbccdc574440eacb15470d53438375d9bc xdrgen: XDR widths for enum types
-3daddacb1be228b00438888a083c9b0b1d59dbdd xdrgen: XDR width for fixed-length opaque
-1f9ceb2732cf34ad3602aba00e6e36d5dfd96e35 xdrgen: XDR width for variable-length opaque
-e5c988170a79b6f45b516ae4db3f7cc5824b8c00 xdrgen: XDR width for a string
-c4f104cb83e7a13a70e8daeffa164a86916879a1 xdrgen: XDR width for fixed-length array
-2451febfde5c92d83c70186f4d958e1a70cbc252 xdrgen: XDR width for variable-length array
-a21a36a9cbf3c82958bd6d91e5b7c4c1498fde37 xdrgen: XDR width for optional_data type
-83e9c5343b80e508bda805cd091cc6606b6aa464 xdrgen: XDR width for typedef
-53da7eab0a1472116939471400555fe19223de1c xdrgen: XDR width for struct types
-d9d21b77ed23b95afeee00d1e6c64094f351db37 xdrgen: XDR width for pointer types
-8e47e69a3095a0783071dcf3fbb8a73b07c4d164 xdrgen: XDR width for union types
-e75473ea3edf33ff7c7ac8fece6a0ed5760399e4 xdrgen: Add generator code for XDR width macros
-1b562c0f04b400de493ae68abbd4d6f759a21560 xdrgen: emit maxsize macros
-be4c44221f4d066d3726a4712133f69690ac680b nfsd: drop the ncf_cb_bmap field
-43f2357392c457616b623ed9eb14ddfb009a37f8 nfsd: drop the nfsd4_fattr_args "size" field
-fcfcbf7764811c90226da385bec30800f29240cb nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
-99ce540b196c8ba7137cdb54d1f8dfdb2f8ebf0e nfsd: fix handling of delegated change attr in CB_GETATTR
-d1e2a01bdbf0cd1b3d0cf4b576a495b7bb2706b0 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
-bba1dc5b66342e54fcc0b710e6317a076b732bab nfsd: add support for FATTR4_OPEN_ARGUMENTS
-e816ca3f9ee0832a30c7947feb137142676d8673 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
-82ad9af82af79a49ea3b18df06008e8614f9c3e9 nfsd: add support for delegated timestamps
-ba47874bd44a65d23e67f9b6666eb2475ea1c077 nfsd: handle delegated timestamps in SETATTR
-5d063672154b3d2d3f9bc3426e0ee4e42ab0e811 nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
 
---===============3979126036165405360==--
+--===============7897379360250574795==--
