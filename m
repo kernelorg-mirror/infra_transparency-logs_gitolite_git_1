@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 07 Oct 2024 09:16:46 -0000
-Message-Id: <172829260694.1070112.1726579288057842008@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 09:19:08 -0000
+Message-Id: <172829274882.1071089.12452374585763433946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 5ac5933d4e06647b83f6b971b18bc894903a83f2
+    old: 5ac5933d4e06647b83f6b971b18bc894903a83f2
+    new: 3e93f43ae64b247516176ced713888775167ae8a
     log: |
-         149e83f1b385661cae3a60cf27271e6ee53ea6e3 dt-bindings: fuse: Move renesas,rcar-{efuse,otp} to nvmem
-         5ac5933d4e06647b83f6b971b18bc894903a83f2 nvmem: Add R-Car E-FUSE driver
+         3e93f43ae64b247516176ced713888775167ae8a nvmem: Correct some typos in comments
          
