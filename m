@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5869225191600603721=="
+Content-Type: multipart/mixed; boundary="===============4596651465614780002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Oct 2024 13:01:33 -0000
-Message-Id: <172830609300.1254889.17425607898646391743@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 13:01:45 -0000
+Message-Id: <172830610522.1255240.10927518749070542067@gitolite.kernel.org>
 
---===============5869225191600603721==
+--===============4596651465614780002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.13
-    old: e4926ca0189dac2e780d6d3cca92052376fd7f0e
-    new: 3adf8d2d739a91f98a34bb1a0a5f97ce67c2a551
-    log: revlist-e4926ca0189d-3adf8d2d739a.txt
+  - ref: refs/heads/regmap-6.13
+    old: 49a85851b14cf6630013d1b9bae2ac2345c9430b
+    new: c2288599691c6057da34731606600ea04fc38d71
+    log: revlist-49a85851b14c-c2288599691c.txt
 
---===============5869225191600603721==
+--===============4596651465614780002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4926ca0189d-3adf8d2d739a.txt
+Content-Disposition: attachment; filename=revlist-49a85851b14c-c2288599691c.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -32,7 +32,11 @@ addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
 4a33aa34e4ac2c2bd746a305d4b39fb60dedc091 drm/display: fix kerneldocs references
 d92b90f9a54d9300a6e883258e79f36dab53bfae drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
 cb2deca056d579fe008c8d0a4ceb04d2b368fe42 ALSA: hda/realtek: fix mute/micmute LED for HP mt645 G8
+8451a3c7879d8883fd3fbd9dd7cbe7ecc31e89ce ASoC: amd: acp: don't set card long_name
+84e8d59651879b2ff8499bddbbc9549b7f1a646b ASoC: amd: yc: Add quirk for HP Dragonfly pro one
+85109780543b5100aba1d0842b6a7c3142be74d2 ASoC: topology: Fix incorrect addressing assignments
 49f5ee951f11f4d6a124f00f71b2590507811a55 ALSA: hda/tas2781: Add new quirk for Lenovo Y990 Laptop
+01e709aeaf913a4d0e04f9957d399cf6fc3b5455 ASoC: cs35l45: Corrects cs35l45_get_clk_freq_id function data type
 bf36793fa260cb68cc817f311f1f683788261796 ALSA: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 151ac45348afc5b56baa584c7cd4876addf461ff net: sparx5: Fix invalid timestamps
 886d518ca9a6b433736f74723813d8917e407f40 MAINTAINERS: Add unsafe_memcpy() to the FORTIFY review list
@@ -40,11 +44,13 @@ cac075706f298948898b1f63e81709df42afa75d drm/panthor: Fix race when converting g
 a3096328462b1e022c6294898c440708ea11509a MAINTAINERS: drm/sched: Add new maintainers
 440d52b370b03b366fd26ace36bab20552116145 drm/sched: Fix dynamic job-flow control race
 bff1709b3980bd7f80be6786f64cc9a9ee9e56da mac802154: Fix potential RCU dereference issue in mac802154_scan_worker
+09cfc6a532d249a51d3af5022d37ebbe9c3d31f6 ASoC: atmel: mchp-pdmc: Skip ALSA restoration if substream runtime is uninitialized
 f0fa69b5011a45394554fb8061d74fee4d7cd72c drm/connector: hdmi: Fix writing Dynamic Range Mastering infoframes
 3a87e264290d71ec86a210ab3e8d23b715ad266d io_uring: fix memory leak when cache init fail
 17ea56b752b6ba58fdd1fcfd24f0fd2fa2b0ade2 io_uring: fix casts to io_req_flags_t
 42268ad0eb4142245ea40ab01a5690a40e9c3b41 sched_ext: Build fix for !CONFIG_SMP
 8b0d2f61545545ab5eef923ed6e59fc3be2385e0 drm: Consistently use struct drm_mode_rect for FB_DAMAGE_CLIPS
+e249786b2188107a7c50e7174d35f955a60988a1 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
 2bcae12c795f32ddfbf8c80d1b5f1d3286341c32 net/mlx5: Fix error path in multi-packet WQE transmit
 ec793155894140df7421d25903de2e6bc12c695b net/mlx5: Added cond_resched() to crdump collection
 f25389e779500cf4a59ef9804534237841bce536 net/mlx5e: Fix NULL deref in mlx5e_tir_builder_alloc()
@@ -103,6 +109,7 @@ dd3a7ee91e0ce0b03d22e974a79e8247cc99959b hardening: Adjust dependencies in selec
 045244dd5d75c61ae37b7b96fe0a95805bd1842d MAINTAINERS: Add security/Kconfig.hardening to hardening section
 a9023656bcd28aaf184974a121d3c2f2ec1ded46 cifs: Check for UTF-16 null codepoint in SFU symlink target location
 dd0d7edb866db2b9d23dc50553cbdd3f6a159fba smb: Update comments about some reparse point tags
+46f2dd5ce5723a2c07051d332f8f1c4c4ce548f3 Merge existing fixes from asoc/for-6.12 into new branch
 34820304cc2cd1804ee1f8f3504ec77813d29c8e uprobes: fix kernel info leak via "[uprobes]" vma
 678379e1d4f7443b170939525d3312cfc37bf86b close_range(): fix the logics in descriptor table trimming
 2007d28ec0095c6db0a24fd8bb8fe280c65446cd bcachefs: rename version -> bversion for big endian builds
@@ -401,6 +408,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-3adf8d2d739a91f98a34bb1a0a5f97ce67c2a551 ASoC: Merge up v6.12-rc2
+c2288599691c6057da34731606600ea04fc38d71 regmap: Merge up v6.12-rc2
 
---===============5869225191600603721==--
+--===============4596651465614780002==--
