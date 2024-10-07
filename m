@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2744987390921869356=="
+Content-Type: multipart/mixed; boundary="===============8440110679059793115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 07 Oct 2024 08:55:03 -0000
-Message-Id: <172829130302.1051847.1551079319591218316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Mon, 07 Oct 2024 08:55:29 -0000
+Message-Id: <172829132941.1052856.6673101968634352801@gitolite.kernel.org>
 
---===============2744987390921869356==
+--===============8440110679059793115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============2744987390921869356==
+--===============8440110679059793115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============2744987390921869356==--
+--===============8440110679059793115==--
