@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3469207694911959503=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 07 Oct 2024 10:29:35 -0000
-Message-Id: <172829697534.1133849.1597900895834548289@gitolite.kernel.org>
-
---===============3469207694911959503==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 07 Oct 2024 10:32:04 -0000
+Message-Id: <172829712462.1137236.11018411733036644620@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 2ead172c1d42fcd9f39e70674d3acc0680f48e00
-    new: f235e4fe2b14d14cd39e80ae1a583f0420defd5b
+  - ref: refs/heads/brauner.file.file_ref
+    old: 38ec02d2b089275a8cd1a3f78310c3d6e1c81c28
+    new: 4a664712bdd6f91e688020dc2c6e4eec38031086
     log: |
-         f235e4fe2b14d14cd39e80ae1a583f0420defd5b drop proc "fix" that broke the build
+         bc56162b663753de29f574b0a475cf483f5bf009 fs: add file_ref
+         aa855b6d024dc7123ce09b79b152de68a20d6624 fs: port files to file_ref
+         4a664712bdd6f91e688020dc2c6e4eec38031086 fs: introduce file_ref_t
          
-
---===============3469207694911959503==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728296990 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1728296973-466ebfa6c3452813aeef824e1cd02642b16eacfd
-
-2ead172c1d42fcd9f39e70674d3acc0680f48e00 f235e4fe2b14d14cd39e80ae1a583f0420defd5b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcDuB8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GYsP/0JR3GPsM2fvVU9AgZ3O
-f8rTyS3B9Xm2TSozvGKwK0Cy/XBtSRyRpcn5dWJu7uyWq/mtZwfqyxYSyFFSDrOP
-BsUrP01ouYZSO4zLHJUuyCyh4u2gdaUEibUBwl2Q2fqOQWmHI/Jay3g/95PyweY/
-NwdP1LNHRcpenM4J+1qX6z2ZAGUafZvQvypd1LdaCJYhu1y4KDkYyjpKQ263NAcj
-Y9R38SSpb+pVY/pfwi0V4ognsmWTYzCDSClSFkB0hMhYCnI5CyxT6fhKUjOv/0tH
-CAdmywJGJEsr1K8ZjYsrhpA86KNfmUZOupIcjoG62iFnIWXd+7IY0IEWEh81T2A0
-LkQJFYwofA7MIUt5xMAqK8R/OAbub+mZWiF2DSAQ42yc1dE4OohcI9Nw5uSslOs3
-RUScyd6VrmcSTeJYORux6ZSiN9qdRC3ydsdS4x3G6yQBciGm7OY+OaHeW3b/cyzq
-TOGHhF4uYBilMc5MvyWhEdQgUqZN1m/WDnJhvPDyjeItQlHZc3Zwe82Tz16w5e0P
-6icFhKgA3AgGCDQWWC1TAjgGazQTgztKClLYnktqbt6LeYRfnPSRudQmS/E59siA
-ShZjuj43X96EOwX9po+1yTfSq3smY5/PHcSjrnCWe/CP5gWjxmjKbY0QRszI58cB
-EmC9xkCO3Ty37hANNsds1T5/
-=gGAm
------END PGP SIGNATURE-----
-
---===============3469207694911959503==--
