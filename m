@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6906668003495049012=="
+Content-Type: multipart/mixed; boundary="===============7493771845349193347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 07 Oct 2024 06:38:36 -0000
-Message-Id: <172828311653.945510.17008879339254416987@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 06:39:08 -0000
+Message-Id: <172828314855.945835.16945322899205080197@gitolite.kernel.org>
 
---===============6906668003495049012==
+--===============7493771845349193347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e62d39332d4b9400a69ba902797aa17a1a0037e7
     new: 8b641b5e4c782464c8818a71b443eeef8984bf34
     log: revlist-e62d39332d4b-8b641b5e4c78.txt
 
---===============6906668003495049012==
+--===============7493771845349193347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b3411dbdaa55cffbcdfa1aaffa78f812132937fe sfc: add per-queue RX bytes stats
 cf95456862306bd467eb732b929d4bfbf946a1f6 Merge branch 'sfc-per-q-stats'
 8b641b5e4c782464c8818a71b443eeef8984bf34 hv_netvsc: Link queues to NAPIs
 
---===============6906668003495049012==--
+--===============7493771845349193347==--
