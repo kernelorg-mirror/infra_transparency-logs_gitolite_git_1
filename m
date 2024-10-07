@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4726260214148311531=="
+Content-Type: multipart/mixed; boundary="===============4589890048934527608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 07 Oct 2024 15:33:19 -0000
-Message-Id: <172831519936.1381075.9721972755658934029@gitolite.kernel.org>
+Date: Mon, 07 Oct 2024 15:33:51 -0000
+Message-Id: <172831523177.1381463.9392562730700721108@gitolite.kernel.org>
 
---===============4726260214148311531==
+--===============4589890048934527608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/amd-pstate-fixes
-    old: 9c68a3b03e8109f3917fd35f39043499897d4a79
+  - ref: refs/heads/linux-next
+    old: 93497752dfed196b41d2804503e80b9a04318adb
     new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-9c68a3b03e81-8cf0b93919e1.txt
+    log: revlist-93497752dfed-8cf0b93919e1.txt
 
---===============4726260214148311531==
+--===============4589890048934527608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c68a3b03e81-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-93497752dfed-8cf0b93919e1.txt
 
 3b577de206d52dbde9428664b6d823d35a803d75 spi: spi-fsl-lpspi: Undo runtime PM changes at driver exit time
 7f52bb9de57dc1851a83e20e53491ad8df321e4e Merge tag 'i2c-for-6.11-final-but-missed-it' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
@@ -1051,4 +1051,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
 
---===============4726260214148311531==--
+--===============4589890048934527608==--
