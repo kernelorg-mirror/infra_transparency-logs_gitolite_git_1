@@ -1,31 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 07 Oct 2024 20:45:51 -0000
-Message-Id: <172833395195.1650897.1751338589804709338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 07 Oct 2024 20:49:46 -0000
+Message-Id: <172833418654.1653016.1090106651336262321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev
-    old: 3b70b66e03b54428d45c3fe9b8693cffcde45bf6
-    new: d7b6918e22c74f2b354d8dc0ef31ab17ae334b93
+  - ref: refs/heads/block-6.12
+    old: 6d6e54fc71ad1ab0a87047fd9c211e75d86084a3
+    new: b402328a24ee7193a8ab84277c0c90ae16768126
     log: |
-         d1d991efaf34606d500dcbd28bedc0666eeec8e2 selinux: Add netlink xperm support
-         984366854190c56b17dcbbfbd5e2b90c02c6e05e selinux: streamline selinux_nlmsg_lookup()
-         9aba55b1fbefcbba48333db3f2b77b086172a1cb selinux: apply clang format to security/selinux/nlmsgtab.c
-         d7b6918e22c74f2b354d8dc0ef31ab17ae334b93 selinux: Deprecate /sys/fs/selinux/user
+         b402328a24ee7193a8ab84277c0c90ae16768126 block: Fix elevator_get_default() checking for NULL q->tag_set
          
-  - ref: refs/heads/next
-    old: 3b70b66e03b54428d45c3fe9b8693cffcde45bf6
-    new: d7b6918e22c74f2b354d8dc0ef31ab17ae334b93
+  - ref: refs/heads/for-6.13/block
+    old: 1edac35b81c25dc958d93fbd07b89256e5044f62
+    new: 74f4a8dc0dd8bf337edacb693383911b856f61e3
     log: |
-         d1d991efaf34606d500dcbd28bedc0666eeec8e2 selinux: Add netlink xperm support
-         984366854190c56b17dcbbfbd5e2b90c02c6e05e selinux: streamline selinux_nlmsg_lookup()
-         9aba55b1fbefcbba48333db3f2b77b086172a1cb selinux: apply clang format to security/selinux/nlmsgtab.c
-         d7b6918e22c74f2b354d8dc0ef31ab17ae334b93 selinux: Deprecate /sys/fs/selinux/user
+         74f4a8dc0dd8bf337edacb693383911b856f61e3 block: add partition uuid into uevent as "PARTUUID"
+         
+  - ref: refs/heads/for-next
+    old: 8faa82888e7109d91902260ecffd12291abb4bf6
+    new: cffcc54384ef6bfcfcc7a93017ecd8b7e4aeed2d
+    log: |
+         74f4a8dc0dd8bf337edacb693383911b856f61e3 block: add partition uuid into uevent as "PARTUUID"
+         cffcc54384ef6bfcfcc7a93017ecd8b7e4aeed2d Merge branch 'for-6.13/block' into for-next
          
