@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 07 Oct 2024 09:06:22 -0000
-Message-Id: <172829198219.1062287.4614106199229726756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Mon, 07 Oct 2024 09:16:46 -0000
+Message-Id: <172829260694.1070112.1726579288057842008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/master
-    old: c1e78f2fcd8bd551d32efd110e03018eaa491674
-    new: bb73df7a4f863b0d5c7cb9ca527977659a46c40a
+  - ref: refs/heads/for-next
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 5ac5933d4e06647b83f6b971b18bc894903a83f2
     log: |
-         c8e0d81396c6688077a491f9f92949c8aeea271a Merge branch into tip/master: 'irq/urgent'
-         40fdde3d2914435446108a6d2262e8c634d64f92 Merge branch into tip/master: 'sched/urgent'
-         b88a9e687167af763ecd584bc4751000bbf51d15 Merge branch into tip/master: 'irq/core'
-         bb0ad35d2a1f1053f4b6e1e2c5295ede1f1c6877 Merge branch into tip/master: 'timers/core'
-         ea6a98cf0ba4615f3b546ea34f1d7f0da8b3e506 Merge branch into tip/master: 'x86/cpu'
-         256bce9aa7b41a096de3bbbbc8c1be54dd7f694d Merge branch into tip/master: 'x86/misc'
-         bb73df7a4f863b0d5c7cb9ca527977659a46c40a Merge branch into tip/master: 'x86/splitlock'
+         149e83f1b385661cae3a60cf27271e6ee53ea6e3 dt-bindings: fuse: Move renesas,rcar-{efuse,otp} to nvmem
+         5ac5933d4e06647b83f6b971b18bc894903a83f2 nvmem: Add R-Car E-FUSE driver
          
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
