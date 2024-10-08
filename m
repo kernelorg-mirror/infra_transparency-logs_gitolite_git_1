@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3987226269592920919=="
+Content-Type: multipart/mixed; boundary="===============7919476939484392453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Oct 2024 20:57:49 -0000
-Message-Id: <172842106931.2911540.13413182690765513678@gitolite.kernel.org>
+Date: Tue, 08 Oct 2024 20:57:55 -0000
+Message-Id: <172842107559.2911716.9144288611165536836@gitolite.kernel.org>
 
---===============3987226269592920919==
+--===============7919476939484392453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9234a2549cb6ac038bec36cc7c084218e9575513
-    new: 1fd9e4f257827d939cc627541f12fc4bdd979eb1
-    log: revlist-9234a2549cb6-1fd9e4f25782.txt
+  - ref: refs/heads/dev-queue
+    old: e71810d8e70815f866d4e0f4caf445e40bad645e
+    new: af8cac359cecaab37a171039fc82cfd1f7aca501
+    log: revlist-e71810d8e708-af8cac359cec.txt
 
---===============3987226269592920919==
+--===============7919476939484392453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9234a2549cb6-1fd9e4f25782.txt
+Content-Disposition: attachment; filename=revlist-e71810d8e708-af8cac359cec.txt
 
 08d1914293dae38350b8088980e59fbc699a72fe Bluetooth: RFCOMM: FIX possible deadlock in rfcomm_sk_state_change
 18fd04ad856df07733f5bb07e7f7168e7443d393 Bluetooth: hci_conn: Fix UAF in hci_enhanced_setup_sync
@@ -50,5 +50,15 @@ f15b8d6eb63874230e36a45dd24239050a6f6250 Merge branch 'net-dsa-b53-assorted-jumb
 0e43a5a7b253ed3764929a43778d3c684092a277 selftests: net: rds: add gitignore file for include.sh
 c0a30936dbf2f5a143e4afed02a14cddccc2674e Merge branch 'selftests-net-add-missing-gitignore-and-extra_clean-entries'
 1fd9e4f257827d939cc627541f12fc4bdd979eb1 selftests: make kselftest-clean remove libynl outputs
+040608aa861f19057ae3d1721027c33512dddaaf iavf: allow changing VLAN state without calling PF
+0982cc287c6c4034c9cb70492ef0f57c9e06e291 e1000e: change I219 (19) devices to ADP
+ddfda427c36c04495d519e5771733087002c308c igb: Disable threaded IRQ for igb_msix_other
+ab8a2843a290e4c9d556aa419aafe4140f049e78 i40e: Fix macvlan leak by synchronizing access to mac_filter_hash
+85ff6a70333c2a7cb1de8e9eae17973c71d37e28 ice: Fix entering Safe Mode
+d1003b2a897133b3b6b1b112a2bf0e95ede7c37a ice: Fix netif_is_ice() in Safe Mode
+4634bf58ed506e2f2aae414d94c85acac16c6bc8 igb: Do not bring the device up after non-fatal error
+fbc1357501237a3404275524a8d89430d07cbf5d ice: Flush FDB entries before reset
+09bbc5f82d0fe6958e2b41afd0dd37dab7b9ee4b ice: Fix increasing MSI-X on VF
+af8cac359cecaab37a171039fc82cfd1f7aca501 e1000e: Remove Meteor Lake SMBUS workarounds
 
---===============3987226269592920919==--
+--===============7919476939484392453==--
