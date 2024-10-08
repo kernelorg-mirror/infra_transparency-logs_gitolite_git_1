@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 08 Oct 2024 00:03:43 -0000
-Message-Id: <172834582333.1805168.4883431404913289699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Oct 2024 00:05:23 -0000
+Message-Id: <172834592374.1807877.9169141577006575692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5546da79e6cc5bb3324bf25688ed05498fd3f86d
-    new: 83211ae1640516accae645de82f5a0a142676897
+    old: 7651f1149ace095eb24482b760b6dc411fc8afc8
+    new: 0458cbedfe35a2762fc82ddf38e004cc886b9ed4
     log: |
-         83211ae1640516accae645de82f5a0a142676897 net: ethernet: adi: adin1110: Fix some error handling path in adin1110_read_fifo()
+         0458cbedfe35a2762fc82ddf38e004cc886b9ed4 vmxnet3: support higher link speeds from vmxnet3 v9
          
