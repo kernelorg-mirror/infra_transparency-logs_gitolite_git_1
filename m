@@ -1,74 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============8340358996947400332=="
+Content-Type: multipart/mixed; boundary="===============6452245768122148025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 08 Oct 2024 18:31:05 -0000
-Message-Id: <172841226547.2792622.8467416206583509761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 08 Oct 2024 18:38:02 -0000
+Message-Id: <172841268244.2797462.16421150704877038570@gitolite.kernel.org>
 
---===============8340358996947400332==
+--===============6452245768122148025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd
-    new: 5b7c893ed5ed0fc1cbe28c0e3296a6fb45698486
-    log: revlist-87d6aab2389e-5b7c893ed5ed.txt
+  - ref: refs/heads/dev-queue
+    old: 85a30ab1a599eb2f21c044d935950311082db4c5
+    new: d311d8aaca2f8790f7e6901f4cb682cd7ed95e11
+    log: revlist-85a30ab1a599-d311d8aaca2f.txt
 
---===============8340358996947400332==
+--===============6452245768122148025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87d6aab2389e-5b7c893ed5ed.txt
+Content-Disposition: attachment; filename=revlist-85a30ab1a599-d311d8aaca2f.txt
 
-a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
-556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
-9931122d04c6d431b2c11b5bb7b10f28584067f0 fs/ntfs3: Check if more than chunk-size bytes are written
-2db86f7995fe6b62a4d6fee9f3cdeba3c6d27606 fs/ntfs3: Do not call file_modified if collapse range failed
-acdbd67bf939577d6f9e3cf796a005c31cec52d8 fs/ntfs3: Optimize large writes into sparse file
-e4a7d60a891b8493a1284053acdc496febe81e7c fs/ntfs3: Separete common code for file_read/write iter/splice
-ffe718c9924eb7e4ce062dd383cf5fea7f02f180 fs/ntfs3: Fix sparse warning for bigendian
-5b2db723455a89dc96743d34d8bdaa23a402db2f fs/ntfs3: Fix warning possible deadlock in ntfs_set_state
-62fea783f96ce825f0ac9e40ce9530ddc1ea2a29 fs/ntfs3: Fix sparse warning in ni_fiemap
-56c16d5459d5c050a97a138a00a82b105a8e0a66 fs/ntfs3: Refactor enum_rstbl to suppress static checker
-1fd21919de6de245b63066b8ee3cfba92e36f0e9 fs/ntfs3: Stale inode instead of bad
-c4a8ba334262e9a5c158d618a4820e1b9c12495c fs/ntfs3: Add rough attr alloc_size check
-70dd48ca3af3acb8548b876a84ac31460364cb03 fs/ntfs3: Make checks in run_unpack more clear
-9a2d6a40b8a1a6fa62eaf47ceee10a5eef62284c fs/ntfs3: Implement fallocate for compressed files
-6b39bfaeec440443037c38701204b92b106c953c fs/ntfs3: Add support for the compression attribute
-568f1140b9ca92def4ac581846c244294112bd42 fs/ntfs3: Replace fsparam_flag_no -> fsparam_flag
-689ecd06ef8dcd894a41c9787cf9da940bb6f24e fs/ntfs3: Rename ntfs3_setattr into ntfs_setattr
-5363c306787c88d41a41493f81b4308643696f6e perf symbol: Set binary_type of dso when loading
-52c996d3f40b40f87ef9dc80596903309682acc3 Merge remote-tracking branch 'torvalds/master' into perf-tools
-424aafb61a0b98d7d242f447fdb84bb8b323e8a8 perf vdso: Missed put on 32-bit dsos
-c850897b6cc275aea01c068732894b286bca44d1 tools include UAPI: Sync sound/asound.h copy with the kernel sources
-7ae76b32f9796449a5653c88847c6d784f38b7d3 tools include UAPI: Sync linux/sched.h copy with the kernel sources
-58f969b7a83e3680f1de5f1f0d382d783cc15f6c tools include UAPI: Sync linux/fcntl.h copy with the kernel sources
-744a6a1f2a8385a99803c3be08fae1921a746e15 tools arch x86: Sync the msr-index.h copy with the kernel sources
-c94cd9508b1335b949fd13ebd269313c65492df0 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources
-dc1e764b398e0548b1bb12fb234ed0b673cd60fb tools headers UAPI: Sync the linux/in.h with the kernel sources
-d1648688799dd14075c43e2d091be815c794f331 perf beauty: Update copy of linux/socket.h with the kernel sources
-bdd6baf7408c69d403365d156447a22982d45430 fs/ntfs3: Remove unused al_delete_le
-589996bf8c459deb5bbc9747d8f1c51658608103 ntfs3: Change to non-blocking allocation in ntfs_d_hash
-03b097099eef255fbf85ea6a786ae3c91b11f041 fs/ntfs3: Fix possible deadlock in mi_read
-d178944db36b3369b78a08ba520de109b89bf2a9 fs/ntfs3: Additional check in ni_clear()
-090f612756a9720ec18b0b130e28be49839d7cb5 fs/ntfs3: Sequential field availability check in mi_enum_attr()
-a33fb016e49e37aafab18dc3c8314d6399cb4727 fs/ntfs3: Fix general protection fault in run_is_mapped_full
-031d6f608290c847ba6378322d0986d08d1a645a fs/ntfs3: Additional check in ntfs_file_release
-48dbc127836a6f311414bc03eae386023d05ed30 fs/ntfs3: Format output messages like others fs in kernel
-cd46ea5ab48667e9522608533b9a24e3028fa368 tools check_headers.sh: Add check variant that excludes some hunks
-36110669ddf832e6c9ceba4dd203749d5be31d31 perf tools: Cope with differences for lib/list_sort.c copy from the kernel
-b9efb5960ce4634010fc6f9b6c7f803345e733fc tools headers arm64: Sync arm64's cputype.h with the kernel sources
-008979cc6911987152eb7485943c85b9c92c1e9b perf dwarf-aux: Fix build with !HAVE_DWARF_GETLOCATIONS_SUPPORT
-43f6564f18bf5b27e1675ef6f4baf68e786396b2 perf build: Fix static compilation error when libdw is not installed
-a530337ba9ef601c93ec378fd941be43f587d563 perf build: Fix build feature-dwarf_getlocations fail for old libdw
-e934a35e3cc1fe0bfb1bc771e64f3ba6e70c40e2 perf cs-etm: Fix the assert() to handle captured and unprocessed cpu trace
-b2760b839044132c29234b648aa4f6a2877de234 Merge tag 'perf-tools-fixes-for-v6.12-1-2024-10-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-5b7c893ed5ed0fc1cbe28c0e3296a6fb45698486 Merge tag 'ntfs3_for_6.12' of https://github.com/Paragon-Software-Group/linux-ntfs3
+bf9499db6b8bacf073ac8c799194c60372e32f72 ice: Implement ethtool reset support
+6f284fac22a32ecab7d4b316c7fdccc346d1e0f0 ice: set correct dst VSI in only LAN filters
+74c46bd0bb297054499362f8a74e097f49307fe5 ice: add E830 HW VF mailbox message limit support
+b049f4eb00a66f872f641c1570d0eeb0a356793c ice: fix BST key index in ice_bst_key_init()
+2f72472d9fd322686afa0b63ed2b57dc1d5b793a idpf: fix VF dynamic interrupt ctl register initialization
+3337ef235206d8ded2e4274b7d1c2fe8ce22aa21 ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+12e73b7523c5c4a5e82cf63d336235ff0d9bc167 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+b6770be1dc72b06664eada50ae69ecc41fdbcb51 ice: Make use of assign_bit() API
+46949cae7dd32c2f0b9c4bc8a752b4dcfd79b719 idpf: use actual mbx receive payload length
+056830a128a192ab8ee9fb631803b23b7c2a82d2 idpf: deinit virtchnl transaction manager after vport and vectors
+7e4491435c757b6cc8038763131b08545ee184e3 iavf: allow changing VLAN state without calling PF
+557e0ca4eb508f9d5bfdba0d3567cadb5bcddfdc iavf: Remove unused declarations
+6b55c93061983e93207c8bebe044bcd05f42e4b1 igb: Cleanup unused declarations
+ba954d371babb87d904016765695638c53f37488 ice: Cleanup unused declarations
+9d5508dfc7520cdf58e951cd25d2f4e132f2c329 ice: clear port vlan config during reset
+071f501ab1e92cf842b35f35bd394d7c3bad8fa7 e1000e: Remove duplicated writel() in e1000_configure_tx/rx()
+418774cb93394f3f55479dc658fa07ca8f89ee1d e1000e: change I219 (19) devices to ADP
+96e41941748d9807f82889e4227f444b144029d9 ice: initialize pf->supported_rxdids immediately after loading DDP
+290d5485acc072afe5c0293cd8a6881922eff74d ice: use stack variable for virtchnl_supported_rxdids
+02a72100c87188920d6c0ae5c7db125d5a4ede43 ice: consistently use q_idx in ice_vc_cfg_qs_msg()
+14a0b525a751885e3551fe8dbebb9a418c3550df ice: store max_frame and rx_buf_len only in ice_rx_ring
+b28221809f79b773f941d94131ec96700a3d26f7 ice: fix memleak in ice_init_tx_topology()
+f8ab9c68b4d0b2b72100e7f92a9cfa441a0cf5ef ice: disallow DPLL_PIN_STATE_SELECTABLE for dpll output pins
+44cd707897d70aec4932b3047b0336971ed4cb3f ice: fix VLAN replay after reset
+fd35bb12d15a6c5d99c317b109470f0a25f33014 igb: Disable threaded IRQ for igb_msix_other
+9c0289ca2f724e4d90c9e6dc822a225c48d5de31 ice: Add E830 checksum offload support
+fde6cc727286206f73bef6edcce2e5f594165eda ice: Use common error handling code in two functions
+714b9e47d2c8cdbe6dfbf96294c4c19b99864099 igbvf: remove unused spinlock
+aacd3280ae0e0f9f1ac334336441bd2e8d134097 i40e: Fix macvlan leak by synchronizing access to mac_filter_hash
+e4c2dee4c8d3ed36869b6a4887cd2a6490111929 ice: Fix entering Safe Mode
+558d32d091da02de1b503a033841f202d2de7def ice: Fix netif_is_ice() in Safe Mode
+80ef642e600d5bd396825451fbb60d43db8a8c38 igb: Do not bring the device up after non-fatal error
+a12edc6a964c0f97f6df1d3b054f8ff4714551f4 ice: Flush FDB entries before reset
+b6a1c271273d62cf9b0f97d0c95568ee9200b808 ice: Fix increasing MSI-X on VF
+c4b49f87cafd7a218b60d4ee0d3c014dc580fbcf ice: Don't check device type when checking GNSS presence
+6e22d220ee774a57bbd776e5c79a239114f197e0 ice: Remove unncecessary ice_is_e8xx() functions
+de4b9fbffe987a2253603f12df8cf32758cef4ce ice: Use FIELD_PREP for timestamp values
+8668d103c25d52e66adb5545b7c7e5f133a2d3d1 ice: Process TSYN IRQ in a separate function
+0bd372e8709203b9c88bc45d83ddb139850657b7 ice: Add unified ice_capture_crosststamp
+c3577b5f27a5191b91343a12625591fa1662b546 ice: Refactor ice_ptp_init_tx_*
+d16a726df9cc25cd378cd7f6492ee09c4098c432 ice: Implement PTP support for E830 devices
+696b58d1eadd7e17931df44625a6bf2ebca4e8b1 checkpatch: don't complain on _Generic() use
+96c9266bddf387846010bd4c845ac256c2a64609 devlink: add devlink_fmsg_put() macro
+934cc93525772c4909215dbeb5624c62cc44e814 devlink: add devlink_fmsg_dump_skb() function
+47d6276465d0325e4f96fdb1db6bb760e0d1f168 ice: rename devlink_port.[ch] to port.[ch]
+53f764e46c55877946e82b45d7aeee682df78286 ice: add Tx hang devlink health reporter
+23e80a590c51d33b373ba11d301d6d4461876d32 ice: dump ethtool stats and skb by Tx hang devlink health reporter
+0f773dc41ff45159c4a8ea625e09685ec07f1a92 ice: Add MDD logging via devlink health
+0c3bf6b15c609e4000d50e92825777e1a42d1664 e1000e: Link NAPI instances to queues and IRQs
+e6700863704d19fcc672c94bb566ab2682ddad1b e1000: Link NAPI instances to queues and IRQs
+f7f69049f66cd665e29c923f3aebc167960bb274 e1000e: Remove Meteor Lake SMBUS workarounds
+4da8ab0970bc7e8892928c19982a9586fbd9d589 ice: rework of dump serdes equalizer values feature
+cd2df683b86fc73def95b6c95f4832a953b51e6c ice: extend dump serdes equalizer values feature
+63e96cc621a5f1c769587ca4887e2279b315ddf5 igc: remove autoneg parameter from igc_mac_info
+303503e5d8418729eb3d5ec943a46ab679745374 ice: c827: move wait for FW to ice_init_hw()
+9125c5e3cf4789afefefa7ba0c333d6e96269d11 ice: split ice_init_hw() out from ice_init_dev()
+74802682e5ddce8f06eed16d85e1a84b21dc0728 ice: minor: rename goto labels from err to unroll
+a8537a3e38ab6db81cd24a4d7b72c350bcc9a005 ice: ice_probe: init ice_adapter after HW init
+bb16746fd2fa0339b4f1ef3a3f493653ca848c75 ice: refactor "last" segment of DDP pkg
+d311d8aaca2f8790f7e6901f4cb682cd7ed95e11 ice: support optional flags in signature segment header
 
---===============8340358996947400332==--
+--===============6452245768122148025==--
