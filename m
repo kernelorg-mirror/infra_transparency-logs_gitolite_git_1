@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6318953320042857605=="
+Content-Type: multipart/mixed; boundary="===============9137017601979559977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Oct 2024 20:59:53 -0000
-Message-Id: <172842119383.2913163.12120632759305826119@gitolite.kernel.org>
+Date: Tue, 08 Oct 2024 20:59:56 -0000
+Message-Id: <172842119608.2913313.13403135493011852546@gitolite.kernel.org>
 
---===============6318953320042857605==
+--===============9137017601979559977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9234a2549cb6ac038bec36cc7c084218e9575513
     new: 1fd9e4f257827d939cc627541f12fc4bdd979eb1
     log: revlist-9234a2549cb6-1fd9e4f25782.txt
 
---===============6318953320042857605==
+--===============9137017601979559977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ f15b8d6eb63874230e36a45dd24239050a6f6250 Merge branch 'net-dsa-b53-assorted-jumb
 c0a30936dbf2f5a143e4afed02a14cddccc2674e Merge branch 'selftests-net-add-missing-gitignore-and-extra_clean-entries'
 1fd9e4f257827d939cc627541f12fc4bdd979eb1 selftests: make kselftest-clean remove libynl outputs
 
---===============6318953320042857605==--
+--===============9137017601979559977==--
