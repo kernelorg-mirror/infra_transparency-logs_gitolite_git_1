@@ -1,24 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 08 Oct 2024 12:02:06 -0000
-Message-Id: <172838892639.2387980.11737237143577086649@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8909358571150346415=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 08 Oct 2024 12:06:29 -0000
+Message-Id: <172838918977.2391639.6789484039567514581@gitolite.kernel.org>
+
+--===============8909358571150346415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/linus
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    new: 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd
-    log: |
-         bc0dcbc5c2c539f37004f2cce0e6e245b2e50b6c vdpa/octeon_ep: Fix format specifier for pointers in debug messages
-         83c334ed521638c8dffe545ddf49d61430680308 virtio_ring: tag event_triggered as racy for KCSAN
-         b9efbe2b8f0177fa97bfab290d60858900aa196b virtio_console: fix misc probe bugs
-         a194c985973276b2f280428c848f20369bb83734 vsock/virtio: use GFP_ATOMIC under RCU read lock
-         221af82f606d928ccef19a16d35633c63026f1be vhost/scsi: null-ptr-dereference in vhost_scsi_get_req()
-         87d6aab2389e5ce0197d8257d5f8ee965a67c4cd Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-         
+  - ref: refs/heads/syscon-rework
+    old: 25f5a04cab0d7c36e1fb41e900f9eda4ff980315
+    new: 28ee1d1ff03aedd74eca7e93b309178e0c8a59a6
+    log: revlist-25f5a04cab0d-28ee1d1ff03a.txt
+
+--===============8909358571150346415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-25f5a04cab0d-28ee1d1ff03a.txt
+
+6d1cd8c544dbbe032d74c5758fc37be5c83d7bf4 dt-bindings: mailbox: mpfs: fix reg properties
+745d1ea5c2cf0899a22e5ee3e80161b3aecb4c0c mailbox: mpfs: support new, syscon based, devicetree configuration
+3fd6df8a47ea93805fd7a58f2fb221294913b6fd dt-bindings: mfd: syscon document the non simple-mfd syscons on PolarFire SoC
+8a71cbd8d111392fda39341c94074a8a0ba2315b dt-bindings: soc: microchip: document the simple-mfd syscon on PolarFire SoC
+b738107acb486513869d8ef2ab8da5027b6c6679 soc: microchip: add mfd drivers for two syscon regions on PolarFire SoC
+66b22ac26381e577183eaf28bac3e15e19eb323b reset: mpfs: add non-auxiliary bus probing
+33dfa3080bdd87891ae86fdf7d1ec6c941007637 dt-bindings: clk: microchip: mpfs: remove first reg region
+03bfa6ea272a39eddc222521d04350503863d78c clk: move meson clk-regmap implementation to common code
+ab779f22bc5e60371bc7796de2cfd1284ee58b91 clk: microchip: mpfs: use regmap clock types
+d0e4b8a10b5436e6214b1796891720b5c40178dd riscv: dts: microchip: fix mailbox description
+28ee1d1ff03aedd74eca7e93b309178e0c8a59a6 riscv: dts: microchip: convert clock and reset to use syscon
+
+--===============8909358571150346415==--
