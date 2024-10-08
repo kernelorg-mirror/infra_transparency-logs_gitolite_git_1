@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7440365149907847994=="
+Content-Type: multipart/mixed; boundary="===============7384940309448974089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 08 Oct 2024 21:00:14 -0000
-Message-Id: <172842121421.2915376.5103064858829566576@gitolite.kernel.org>
+Date: Tue, 08 Oct 2024 21:00:28 -0000
+Message-Id: <172842122827.2915605.9772967650071376706@gitolite.kernel.org>
 
---===============7440365149907847994==
+--===============7384940309448974089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8b641b5e4c782464c8818a71b443eeef8984bf34
-    new: 42b2331081178785d50d116c85ca40d728b48291
-    log: revlist-8b641b5e4c78-42b233108117.txt
+  - ref: refs/heads/dev-queue
+    old: d311d8aaca2f8790f7e6901f4cb682cd7ed95e11
+    new: 3dc8069cc96eb5ad8d60a2fe0bae0eaa922f1848
+    log: revlist-d311d8aaca2f-3dc8069cc96e.txt
 
---===============7440365149907847994==
+--===============7384940309448974089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b641b5e4c78-42b233108117.txt
+Content-Disposition: attachment; filename=revlist-d311d8aaca2f-3dc8069cc96e.txt
 
 269084f748524fa1a3fb8eb530eb70f77e7c3e4a net: tcp: refresh tcp_mstamp for compressed ack in timer
 539770616521e5b046ca7612eb79ba11b53edb1d net: dsa: remove obsolete phylink dsa_switch operations
@@ -70,5 +70,65 @@ ec763c234d7f60c5bce0fa2611ba79f5be1af76b Revert "rtnetlink: add guard for RTNL"
 489cee4caeba4f70a29b7215cfd18152dcadab7f Merge branch 'rtnetlink-per-netns-rtnl'
 49717ef01ce1b6dbe4cd12bee0fc25e086c555df idpf: Don't hard code napi_struct size
 42b2331081178785d50d116c85ca40d728b48291 tools: ynl-gen: refactor check validation for TypeBinary
+9aceb1787ee75090d2e99150997d855c1a68ac2b ice: Implement ethtool reset support
+dde729324aeebf54a45b13641bdf46a0441c1d28 ice: set correct dst VSI in only LAN filters
+50bea22e226d4dad4fc61c94e7cfe31fdb6463cc ice: add E830 HW VF mailbox message limit support
+9a36a3acbd05f6b43f28d62ced409620b0a19bd6 ice: fix BST key index in ice_bst_key_init()
+eece925491f3db4ff19d8dda63c511149c951cd4 idpf: fix VF dynamic interrupt ctl register initialization
+a53c7dc395321962a6b0cbb2fbda986fcaffff1a ice: Fix improper handling of refcount in ice_dpll_init_rclk_pins()
+a3759a9b0fa2425820f40e89308b8f8818f13086 ice: Fix improper handling of refcount in ice_sriov_set_msix_vec_count()
+3400997958e0611ee94a9bfb2ad11f58687e0490 ice: Make use of assign_bit() API
+86a63b5925d7cac5b32ff55af39aed87c66817b5 idpf: use actual mbx receive payload length
+29224016c42594d8b7d8cc58e68a4036ec2352f3 idpf: deinit virtchnl transaction manager after vport and vectors
+10dd721c64bd872284b14b9262cdc98df3781096 iavf: allow changing VLAN state without calling PF
+ea4a6b3234ae9420bb14a81edc60a9f89e037e8a iavf: Remove unused declarations
+b534efa40d94320d91b3ef099eecb783f0d48677 igb: Cleanup unused declarations
+0db2d877e79555ef61131936ef2860315c3535e0 ice: Cleanup unused declarations
+c2e6bfccda75638a9148155bd315469b1dadb43c ice: clear port vlan config during reset
+4a48ec86648a295b49e02e9bfaf17158064fdf7d e1000e: Remove duplicated writel() in e1000_configure_tx/rx()
+0b3b2163405372f7c151fc9e649522ed004cd113 e1000e: change I219 (19) devices to ADP
+668ad3ae4af2f957354f19b5d30260feecb943a0 ice: initialize pf->supported_rxdids immediately after loading DDP
+0c64ad68fe3f15db55497355066378ea29ed49af ice: use stack variable for virtchnl_supported_rxdids
+8a804af0b669fa1a9ee3a3fdbe9e5a2c115ff975 ice: consistently use q_idx in ice_vc_cfg_qs_msg()
+728a9575f59048cf568d1d6f94eb1d1ea0fbab2a ice: store max_frame and rx_buf_len only in ice_rx_ring
+9d61e5084b12731f6f640b31df91a635b93486ad ice: fix memleak in ice_init_tx_topology()
+d3529214dc8960dde7236832275db57196cf3828 ice: disallow DPLL_PIN_STATE_SELECTABLE for dpll output pins
+a13172b2cbac87ee4a2aabc08497063e24432780 ice: fix VLAN replay after reset
+4a96822ac7a847489bc3f54043367c23df61378e igb: Disable threaded IRQ for igb_msix_other
+7b828abaa9ce04e39072ee93869792a9d9fee53c ice: Add E830 checksum offload support
+87b1e2d6c299f322e56c29e95a4ee0e03e137137 ice: Use common error handling code in two functions
+2ddc4b73a2802bae6e41a05290b52c6c7a29ba0e igbvf: remove unused spinlock
+a229d4f73cceace2a83b8150e21a23f6bc519be5 i40e: Fix macvlan leak by synchronizing access to mac_filter_hash
+d6382c6c355cbedb4540d40ef44a94faecc493d3 ice: Fix entering Safe Mode
+a91b7aebdb34f274a7c3820a246219dbf9011d33 ice: Fix netif_is_ice() in Safe Mode
+ca0f6b9bc7c48872104b16b552aa479da87092d7 igb: Do not bring the device up after non-fatal error
+0cdbcdbb748cb97e746f916baaf2e45d5a713d82 ice: Flush FDB entries before reset
+652f57acbf34c8e6c831e143900bf12d38dcf4e6 ice: Fix increasing MSI-X on VF
+d605f33cd585df1e1c323b9ffc4b4cd45268b324 ice: Don't check device type when checking GNSS presence
+6a353a041dbc6c4aff7edecadbb03c2d1eef9bee ice: Remove unncecessary ice_is_e8xx() functions
+507acd41b9921fe56e73213941b0eb027c3c1a52 ice: Use FIELD_PREP for timestamp values
+27e5e26781d62420ccdf5a6e191fa6d5f8060204 ice: Process TSYN IRQ in a separate function
+0be5380a7d589422c8d20762495351c693b35325 ice: Add unified ice_capture_crosststamp
+bc5177a362a127bb1ccddd78c1594344a8e7bfbc ice: Refactor ice_ptp_init_tx_*
+0fa508752d1244fbbd03595f6e7ef9c15f6923ba ice: Implement PTP support for E830 devices
+26f490345fe085ba051697eab2456e1e7dec1632 checkpatch: don't complain on _Generic() use
+fa9a55e5753263c21291a736d490b22b91d30ff1 devlink: add devlink_fmsg_put() macro
+91b25c3431ba636cc7830f787c9da97f736c7df4 devlink: add devlink_fmsg_dump_skb() function
+0432a6654423342e12807c9279bbaea410dc0b9f ice: rename devlink_port.[ch] to port.[ch]
+0801c36caef6402a61c3fa012a7b0deb5c4e95ed ice: add Tx hang devlink health reporter
+dfdb5983b42dc2ff3e34dd430cd57382a36fe6eb ice: dump ethtool stats and skb by Tx hang devlink health reporter
+d7a94828c9765e57e4c672b447575964f38cce34 ice: Add MDD logging via devlink health
+785b7a1d16d2c2ba38eb9a264bcbfb7e64a17db5 e1000e: Link NAPI instances to queues and IRQs
+427bedad37daa28ba8d9960154655d2a55ecb8ba e1000: Link NAPI instances to queues and IRQs
+c35762762cbb0e70c471a57909fe9d920fbf15de e1000e: Remove Meteor Lake SMBUS workarounds
+c91ef4aec5460f7a8f2feb924d0e67ba88978f41 ice: rework of dump serdes equalizer values feature
+963dad24ba4424d6cf218543e7753da86f88f624 ice: extend dump serdes equalizer values feature
+3dac71732a3f866f68504c29474b062975ec73be igc: remove autoneg parameter from igc_mac_info
+32312cd20bcc78a089ba50591ea6c7fb81f730f0 ice: c827: move wait for FW to ice_init_hw()
+88da3fd5d0325f04e6227ebc7cf3a59c26541be9 ice: split ice_init_hw() out from ice_init_dev()
+0553d57be3120cfe99f690b6487a42eb48cb97c4 ice: minor: rename goto labels from err to unroll
+2caa09060646b287c56a202343a68bdf57e00035 ice: ice_probe: init ice_adapter after HW init
+a183cb9678409a44199761eafb6d9679fd1b8a6f ice: refactor "last" segment of DDP pkg
+3dc8069cc96eb5ad8d60a2fe0bae0eaa922f1848 ice: support optional flags in signature segment header
 
---===============7440365149907847994==--
+--===============7384940309448974089==--
