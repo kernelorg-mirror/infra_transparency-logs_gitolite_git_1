@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 08 Oct 2024 07:26:34 -0000
-Message-Id: <172837239492.2150596.2201106010529048661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 08 Oct 2024 07:42:43 -0000
+Message-Id: <172837336360.2162179.10455466393694394045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-rc
-    old: 3630aae47658eaef3c5b31dd738ab97cb395411b
-    new: 6ff57a2ea7c2911f80457a5a3a5b4370756ad475
+  - ref: refs/heads/master
+    old: bb73df7a4f863b0d5c7cb9ca527977659a46c40a
+    new: 557b72618e82bb27b9988c5909e20b32bf6eddc5
     log: |
-         3fc5410f225d1651580a4aeb7c72f55e28673b53 RDMA/bnxt_re: Fix a possible memory leak
-         9ab20f76ae9fad55ebaf36bdff04aea1c2552374 RDMA/bnxt_re: Fix incorrect AVID type in WQE structure
-         c5c1ae73b7741fa3b58e6e001b407825bb971225 RDMA/bnxt_re: Add a check for memory allocation
-         8e65abacbce22fc8dcf6d58f7937e721d8a13fdd RDMA/bnxt_re: Fix the max WQEs used in Static WQE mode
-         6ff57a2ea7c2911f80457a5a3a5b4370756ad475 RDMA/nldev: Fix NULL pointer dereferences issue in rdma_nl_notify_event
+         f8bc84b6096f1ffa67252f0f88d86e77f6bbe348 x86/amd_nb: Add new PCI ID for AMD family 1Ah model 20h
+         557b72618e82bb27b9988c5909e20b32bf6eddc5 Merge branch into tip/master: 'x86/urgent'
          
