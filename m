@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 08 Oct 2024 15:50:55 -0000
-Message-Id: <172840265573.2574753.2963249237062421401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 08 Oct 2024 16:08:52 -0000
+Message-Id: <172840373215.2587042.18005067317625122661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/arm64/probes/fixes
-    old: d7e88e1cae99daf9cdbf4580f2470e7962fc9883
-    new: ab0321c7a245a5fa48be33bc5928c9328137daba
+  - ref: refs/heads/master
+    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    new: 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd
     log: |
-         0fc02d688eaa17361120a6f7f8a20b52723f1ed8 arm64: probes: Fix uprobes for big-endian kernels
-         efff14a5861fc3ca34b207a0985b93eadf6d987a arm64: probes: Move kprobes-specific fields
-         68c47c7a6a544ab84acbe7926009a5b120670a26 arm64: probes: Cleanup kprobes endianness conversions
-         ab0321c7a245a5fa48be33bc5928c9328137daba arm64: probes: Remove probe_opcode_t
+         bc0dcbc5c2c539f37004f2cce0e6e245b2e50b6c vdpa/octeon_ep: Fix format specifier for pointers in debug messages
+         83c334ed521638c8dffe545ddf49d61430680308 virtio_ring: tag event_triggered as racy for KCSAN
+         b9efbe2b8f0177fa97bfab290d60858900aa196b virtio_console: fix misc probe bugs
+         a194c985973276b2f280428c848f20369bb83734 vsock/virtio: use GFP_ATOMIC under RCU read lock
+         221af82f606d928ccef19a16d35633c63026f1be vhost/scsi: null-ptr-dereference in vhost_scsi_get_req()
+         87d6aab2389e5ce0197d8257d5f8ee965a67c4cd Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
          
