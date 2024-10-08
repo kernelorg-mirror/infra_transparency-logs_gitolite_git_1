@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4432016178420748400=="
+Content-Type: multipart/mixed; boundary="===============0894894750816998726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 08 Oct 2024 07:48:29 -0000
-Message-Id: <172837370926.2166859.719251696402515379@gitolite.kernel.org>
+Date: Tue, 08 Oct 2024 07:49:49 -0000
+Message-Id: <172837378939.2168099.5442505689543236302@gitolite.kernel.org>
 
---===============4432016178420748400==
+--===============0894894750816998726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: d00b83d416e73bc3fa4d21b14bec920e88b70ce6
-    new: 59f812dd6d95bed605c7265bf193ec8155cf6bcc
-    log: revlist-d00b83d416e7-59f812dd6d95.txt
+  - ref: refs/heads/sched/core
+    old: bc9057da1a220ff2cb6c8885fd5352558aceba2c
+    new: 0ac8f14ef22a1592b44dc90272aab35e43b0106a
+    log: revlist-bc9057da1a22-0ac8f14ef22a.txt
 
---===============4432016178420748400==
+--===============0894894750816998726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d00b83d416e7-59f812dd6d95.txt
+Content-Disposition: attachment; filename=revlist-bc9057da1a22-0ac8f14ef22a.txt
 
-ba0da2dc934ec5ac32bbeecbd0670da16ba03565 net: xilinx: axienet: Schedule NAPI in two steps
-5a6caa2cfabb559309b5ce29ee7c8e9ce1a9a9df net: xilinx: axienet: Fix packet counting
-85109780543b5100aba1d0842b6a7c3142be74d2 ASoC: topology: Fix incorrect addressing assignments
-9c778fe48d20ef362047e3376dee56d77f8500d4 netfilter: nf_reject_ipv6: fix nf_reject_ip6_tcphdr_put()
-509d2cd12a10d057fdf72f565b930f9a81140d59 Merge tag 'Smack-for-6.12' of https://github.com/cschaufler/smack-next
-49f5ee951f11f4d6a124f00f71b2590507811a55 ALSA: hda/tas2781: Add new quirk for Lenovo Y990 Laptop
-b5109b60ee4fcb2f2bb24f589575e10cc5283ad4 net: seeq: Fix use after free vulnerability in ether3 Driver Due to Race Condition
-2004cef11ea072838f99bd95cefa5c8e45df0847 Merge tag 'sched-core-2024-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-01e709aeaf913a4d0e04f9957d399cf6fc3b5455 ASoC: cs35l45: Corrects cs35l45_get_clk_freq_id function data type
-04beb6e0e08c30c6f845f50afb7d7953603d7a6f io_uring: check for presence of task_work rather than TIF_NOTIFY_SIGNAL
 5c7bdac783be8dcba1427460e7971445f839a5e2 PCI: Fix typos
 1a3465598e7501aa51a4088cd9b77627b821b33b Merge branch 'pci/aer'
 59b748cd62e4b1af6fb4992ce9d07b4f4c2189b3 Merge branch 'pci/crs'
@@ -1048,7 +1038,17 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-afc256e131bb0e1ecb5e2b1df310b20fa7bd714d locking/spinlocks: Make __raw_* lock ops static
-59f812dd6d95bed605c7265bf193ec8155cf6bcc locking/ww_mutex: Adjust to lockdep nest_lock requirements
+2382d68d7d43873ba856baf567cab0d5c523f23b sched: change wake_up_bit() and related function to expect unsigned long *
+3cdee6b359f134da22f7fd4606e0338413cfd79e sched: Improve documentation for wake_up_bit/wait_on_bit family of functions
+bf39882edc798279765ca31751f6e679b50b97ef sched: Document wait_var_event() family of functions and wake_up_var()
+52d633def56c10fe3e82a2c5d88c3ecb3f4e4852 sched: Add test_and_clear_wake_up_bit() and atomic_dec_and_wake_up()
+cc2e1c82d7e474753681a38b07b63034e107e369 sched: Add wait/wake interface for variable updated under a lock.
+80681c04c5e8e4297b9ebf201ca3ce6242aa16c3 sched: add wait_var_event_io()
+49994911b401c5f6b979060ffbc834949a024d8a softirq: use bit waits instead of var waits.
+5e9f0c4819deb9459f32f12c4fd2b47993b8c395 sched: remove unused __HAVE_THREAD_FUNCTIONS hook support
+e31488c9df27aaea2cdffba688129fdeb3869650 sched/fair: remove the DOUBLE_TICK feature
+4423af84b29794a9bd2bd07188d8e71083e54c61 sched/fair: optimize the PLACE_LAG when se->vlag is zero
+b15148ce21c11373ade7389202c12cabf4eba6cf sched/fair: fix the comment for PREEMPT_SHORT
+0ac8f14ef22a1592b44dc90272aab35e43b0106a sched/wait: Remove unused bit_wait_io_timeout
 
---===============4432016178420748400==--
+--===============0894894750816998726==--
