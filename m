@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 08 Oct 2024 01:42:11 -0000
-Message-Id: <172835173146.1886548.708906752191951403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 08 Oct 2024 01:45:57 -0000
+Message-Id: <172835195742.1890211.16705582044509040453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 28f0908453d694c4189a38e8b602877f46f3fdee
-    new: 536b338f1cbf149a91ef5f0923b317140ac25e2b
+  - ref: refs/heads/damon/next
+    old: 830b562baf9fe4d2dab5494b5dce877878d8d62f
+    new: e1bfeff07cb20591a967a3f4aa4195c844d743d7
     log: |
-         536b338f1cbf149a91ef5f0923b317140ac25e2b patches/next: update documents for DAMON debugfs interface removal
+         6eb59719c60a0616b741977ab676a43fc0f532d9 Docs/admin-guide/mm/damon/usage: remove DAMON debugfs interface documentation
+         e1bfeff07cb20591a967a3f4aa4195c844d743d7 Docs/mm/damon/design: update for removal of DAMON debugfs interface
          
