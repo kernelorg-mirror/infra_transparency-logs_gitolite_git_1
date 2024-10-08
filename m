@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Oct 2024 21:25:09 -0000
-Message-Id: <172842270972.2935687.13347306517770348500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 08 Oct 2024 21:31:06 -0000
+Message-Id: <172842306682.2940250.16397838762652439155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/fixes
-    old: c66be905cda24fb782b91053b196bd2e966f95b7
-    new: 3953a1d1375247eafeeee24e69abb622f6acbd79
+  - ref: refs/heads/net
+    old: bc9b3fb827fceec4e05564d6e668280f4470ab5b
+    new: 693fe954d61d4696aa06f631fd0bce0b3b3e8027
     log: |
-         3b5992eaf730bf6c48e2dc8b4ebf360c43e973a7 selftests: vDSO: unconditionally build chacha test
-         fe6305cbc753766191da33b819f82f88986d3ca1 selftests: vDSO: unconditionally build getrandom test
-         3953a1d1375247eafeeee24e69abb622f6acbd79 selftests: vDSO: improve getrandom and chacha error messages
+         eb62f49de7eca5917be8cebb3ad8aa3710af7021 bpf: add get_netns_cookie helper to tc programs
+         693fe954d61d4696aa06f631fd0bce0b3b3e8027 selftests/bpf: add tcx netns cookie tests
          
