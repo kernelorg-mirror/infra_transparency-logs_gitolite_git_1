@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2270366152709998150=="
+Content-Type: multipart/mixed; boundary="===============0475806308483643393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 08 Oct 2024 09:50:26 -0000
-Message-Id: <172838102671.2268323.1101580222956879906@gitolite.kernel.org>
+Date: Tue, 08 Oct 2024 09:50:39 -0000
+Message-Id: <172838103958.2268524.6687573788943250169@gitolite.kernel.org>
 
---===============2270366152709998150==
+--===============0475806308483643393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.13/fixes
-    old: 52aa2296a968f2513c56f20e9f97b85771f2573c
-    new: b5bf352464d0192d2a8509ee64538b91131b5e9d
-    log: revlist-52aa2296a968-b5bf352464d0.txt
+  - ref: refs/heads/slab/for-6.13/features
+    old: f0d66faffdb1635304649b5335069ac1da09ef9e
+    new: 6a7e57f6fe6edccc91894dfc6b8eb82890ad2d7b
+    log: revlist-f0d66faffdb1-6a7e57f6fe6e.txt
 
---===============2270366152709998150==
+--===============0475806308483643393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1728381039 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1728381053 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1728381021-f3d7193b0c876cfa309373e579374f42c71ee5ac
+nonce 1728381035-674265af6effb6ce794aaa9300915201e3655db6
 
-52aa2296a968f2513c56f20e9f97b85771f2573c b5bf352464d0192d2a8509ee64538b91131b5e9d refs/heads/slab/for-6.13/fixes
+f0d66faffdb1635304649b5335069ac1da09ef9e 6a7e57f6fe6edccc91894dfc6b8eb82890ad2d7b refs/heads/slab/for-6.13/features
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcFAG8ACgkQu+CwddJF
-iJritAf/YAVWLF6O9w5slOav9EGFFHZEvrkdVtp2vB6h5NBqyEpJ4Jj+J0iGrB5q
-QuvtM4632ExWpQGBxS3TOpIu6fY10QgVf8z86Bty32KCMNxwxta6qfDzfMdsWpt/
-2KLIFS5Wd3uJsyHd571ugC2m3H4aaSErFJTGp8vlM5EoaNOPLoxWjjeHVYe8z5iz
-S1N5CtrypUq5QLDvbrnf6I6LnCz4Yhx6j8gLeP0PMCoHn3AX0GRSUHyS6nqy0EG5
-TE5k5JEea1nNxMAWi6bsMWf977UpjPdJfsDJ1jPsBSip2l4w2ti2GG/+8cRX3iFx
-cA8rXHrQMxsXTycT/2TlLBfSOYFG3A==
-=wvYq
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcFAH0ACgkQu+CwddJF
+iJopywf+Ns45IlA/uk6fK6COfdEI7qYlNEFh4FxBWPhdAloZbGFRY/9bMqBPtyxa
+yRnHLfZ/661NO726reSNzvri/EIsj3fyzOV9weNhBLxPqRlSMfQq1DEY6MnvLYi9
+LFj3Qe3b8l21r7Hdf2AUkapcJkLPzrAvLpFvjnbyhEqvU3rtdC5bZDs2zzQ8asnP
+Zpsje//41B9DTXPLbHFIU8CHjn8mm8BN9likXBH+ZKWTCHEvtTssc2d0cip4efmw
+vwVYx2l8quvHi+PdbaqG7ztTgpxu90l5oVuHmBqVHL47HUfyOyiADpgsBOFAO9Vk
+S3tTtZcpwdwo/MF1BVZrm8YM3+x7Iw==
+=SpzM
 -----END PGP SIGNATURE-----
 
---===============2270366152709998150==
+--===============0475806308483643393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52aa2296a968-b5bf352464d0.txt
+Content-Disposition: attachment; filename=revlist-f0d66faffdb1-6a7e57f6fe6e.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -433,7 +433,6 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
-5bca9913247996b5e3e03d5344541f71b18fd7ed mm/kasan: Don't store metadata inside kmalloc object when slub_debug_orig_size is on
-b5bf352464d0192d2a8509ee64538b91131b5e9d mm/slub: Move krealloc() and related code to slub.c
+6a7e57f6fe6edccc91894dfc6b8eb82890ad2d7b SLUB: Add support for per object memory policies
 
---===============2270366152709998150==--
+--===============0475806308483643393==--
