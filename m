@@ -1,182 +1,82 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 09 Oct 2024 13:11:09 -0000
-Message-Id: <172847946949.3773753.12436675743832541249@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0129197795533423731=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 09 Oct 2024 13:11:18 -0000
+Message-Id: <172847947821.3773973.8895729441156715924@gitolite.kernel.org>
+
+--===============0129197795533423731==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/fix-get_hdr-segfault
-    old: 9845a7adabe0417f74b3ae88da93a0878a21db2a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: d35fb1e671f5270166b9e0c74bda29137470716e
-    new: e19030915bf8f09b29ef093220c14fa4cba9ad54
-    log: |
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         7c83d4e639d32f8f07e1fd2c3d09f9bf2e02b009 Simplify internal crypt_get_hdr for LUKS2 type.
-         e4bf1f91b9ef2256b7fb4b1ab16f7be470595fdd Properly block opal devices from deferred deactivation.
-         e19030915bf8f09b29ef093220c14fa4cba9ad54 Unify integer format parameter in prompt.
-         
   - ref: refs/heads/master
-    old: d35fb1e671f5270166b9e0c74bda29137470716e
-    new: e19030915bf8f09b29ef093220c14fa4cba9ad54
-    log: |
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         7c83d4e639d32f8f07e1fd2c3d09f9bf2e02b009 Simplify internal crypt_get_hdr for LUKS2 type.
-         e4bf1f91b9ef2256b7fb4b1ab16f7be470595fdd Properly block opal devices from deferred deactivation.
-         e19030915bf8f09b29ef093220c14fa4cba9ad54 Unify integer format parameter in prompt.
-         
-  - ref: refs/heads/wip-luks2
-    old: d35fb1e671f5270166b9e0c74bda29137470716e
-    new: 94dabe5973389b0496f26deaaf1403bd84f702e1
-    log: |
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         94dabe5973389b0496f26deaaf1403bd84f702e1 CI: run OPAL test on another NVMe.
-         
-  - ref: refs/merge-requests/234/head
-    old: 1c36ddfe731408aab3977657801dd5696edaa899
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/234/merge
-    old: a25ed815a97ce803edfc0879551b8129423ddddb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/236/head
-    old: 98cd52c8d7bddf5b4c1ff775158a48bbb522acb2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/236/merge
-    old: 5820199394fa8cc36aa91fe036c5ded045e2ef2b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/243/head
-    old: a9bf78adc39a0a6643c8ae1be31144c87e1dcdac
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/243/merge
-    old: b0c081cd0cf40c2213b48aa0ac520f89478a57c6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/244/head
-    old: a9383a1aadc974b44a7610549d2d288e141ffb6d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/244/merge
-    old: 206c877451fba9ff8fb193d36ce34d69141b9e0e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/245/head
-    old: 6eae9f6e91504941e6707bcf261fdb55777a3f5b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/245/merge
-    old: 8674a632e44de2462f7c82939afc85b6380d1fd1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/246/head
-    old: feb4d24327b89fb0bc6afa9eaf05d2503707fcb0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/246/merge
-    old: 5529f191142e3e0ff726ecd8058f1bc5a72d1a55
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/247/head
-    old: f996b9b9e8fa5edfa53eb059bbe124c5d45c9b21
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/247/merge
-    old: b8851f168bfe70b54cba9466b3e1e5ea29a1c881
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/420/merge
-    old: c9992b2f75fe7b30def2bb2a5cfa9f9025ea8bc0
-    new: 0baaf076e82ea13bc04d134d5e1856118565bc5a
-    log: |
-         d35fb1e671f5270166b9e0c74bda29137470716e ci: run vectors test when compiling crypto backends.
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         7c83d4e639d32f8f07e1fd2c3d09f9bf2e02b009 Simplify internal crypt_get_hdr for LUKS2 type.
-         e4bf1f91b9ef2256b7fb4b1ab16f7be470595fdd Properly block opal devices from deferred deactivation.
-         0baaf076e82ea13bc04d134d5e1856118565bc5a Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/693/merge
-    old: 63ee3db79a567528df0bc7494d1fbed091e01965
-    new: 28b80609020bdd909742eea566467cec1a484f37
-    log: |
-         d35fb1e671f5270166b9e0c74bda29137470716e ci: run vectors test when compiling crypto backends.
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         7c83d4e639d32f8f07e1fd2c3d09f9bf2e02b009 Simplify internal crypt_get_hdr for LUKS2 type.
-         e4bf1f91b9ef2256b7fb4b1ab16f7be470595fdd Properly block opal devices from deferred deactivation.
-         28b80609020bdd909742eea566467cec1a484f37 Merge branch 'integrity-phmac' into 'main'
-         
-  - ref: refs/merge-requests/700/head
-    old: 9845a7adabe0417f74b3ae88da93a0878a21db2a
-    new: faeb0c3483a3de1541474d312fa3f97bd90a63e9
-    log: |
-         d35fb1e671f5270166b9e0c74bda29137470716e ci: run vectors test when compiling crypto backends.
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         
-  - ref: refs/merge-requests/700/merge
-    old: 78fdc244b62393113fce2d9464397b5ac147ce2e
-    new: 2b7f9402903f58575b09a8ddc2e3a93bf58e35c9
-    log: |
-         d35fb1e671f5270166b9e0c74bda29137470716e ci: run vectors test when compiling crypto backends.
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         2b7f9402903f58575b09a8ddc2e3a93bf58e35c9 Merge branch 'fix-get_hdr-segfault' into 'main'
-         
-  - ref: refs/merge-requests/701/head
-    old: b370aeee835244038db22b65cc3aabf9df87766f
-    new: 939b7c0a9e7c0c0f844e0056af96432c83127b1a
-    log: |
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         
-  - ref: refs/merge-requests/701/merge
-    old: fac976f4fe951b76f0808ab439d6edf89354fe30
-    new: c312eb6ef8986c5ff0011ed4995a8e60b22c5deb
-    log: |
-         faeb0c3483a3de1541474d312fa3f97bd90a63e9 Fix a possible segfault in deferred deactivation.
-         cd818156f611fb287dd0bbe0009216fff1042bd0 Do not print debug message if device read check fails.
-         79ef5bee8693f82953f64df90ff4c97d956c675c Do not run direct-io read check on block devices.
-         443a555559a35bd420e1c8439e372edd97015c6e integrity: print debug message if superblock metadata read fails.
-         939b7c0a9e7c0c0f844e0056af96432c83127b1a Mbed-TLS: implement PBKDF2
-         c312eb6ef8986c5ff0011ed4995a8e60b22c5deb Merge branch 'main' into 'main'
-         
-  - ref: refs/merge-requests/703/head
-    old: 0000000000000000000000000000000000000000
-    new: 443a555559a35bd420e1c8439e372edd97015c6e
-  - ref: refs/merge-requests/703/merge
-    old: 0000000000000000000000000000000000000000
-    new: 751b6f3f6672e234f153fa5a4c90301cd2e807bb
-  - ref: refs/merge-requests/704/head
-    old: 0000000000000000000000000000000000000000
-    new: 7c83d4e639d32f8f07e1fd2c3d09f9bf2e02b009
-  - ref: refs/merge-requests/704/merge
-    old: 0000000000000000000000000000000000000000
-    new: 505760e2d10ab148aaa92f353a3b3ffaf9bbe586
-  - ref: refs/merge-requests/705/head
-    old: 0000000000000000000000000000000000000000
-    new: e4bf1f91b9ef2256b7fb4b1ab16f7be470595fdd
-  - ref: refs/merge-requests/705/merge
-    old: 0000000000000000000000000000000000000000
-    new: dc4086cf8d98ff8d6c2691309339ed415b0396f8
-  - ref: refs/merge-requests/706/head
-    old: 0000000000000000000000000000000000000000
-    new: e19030915bf8f09b29ef093220c14fa4cba9ad54
-  - ref: refs/merge-requests/706/merge
-    old: 0000000000000000000000000000000000000000
-    new: 7aae546f2db5a9a01e28e01635e60c648430c1b4
+    old: 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd
+    new: 75b607fab38d149f232f01eae5e6392b394dd659
+    log: revlist-87d6aab2389e-75b607fab38d.txt
+
+--===============0129197795533423731==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87d6aab2389e-75b607fab38d.txt
+
+a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
+556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
+9931122d04c6d431b2c11b5bb7b10f28584067f0 fs/ntfs3: Check if more than chunk-size bytes are written
+2db86f7995fe6b62a4d6fee9f3cdeba3c6d27606 fs/ntfs3: Do not call file_modified if collapse range failed
+acdbd67bf939577d6f9e3cf796a005c31cec52d8 fs/ntfs3: Optimize large writes into sparse file
+e4a7d60a891b8493a1284053acdc496febe81e7c fs/ntfs3: Separete common code for file_read/write iter/splice
+ffe718c9924eb7e4ce062dd383cf5fea7f02f180 fs/ntfs3: Fix sparse warning for bigendian
+5b2db723455a89dc96743d34d8bdaa23a402db2f fs/ntfs3: Fix warning possible deadlock in ntfs_set_state
+62fea783f96ce825f0ac9e40ce9530ddc1ea2a29 fs/ntfs3: Fix sparse warning in ni_fiemap
+56c16d5459d5c050a97a138a00a82b105a8e0a66 fs/ntfs3: Refactor enum_rstbl to suppress static checker
+1fd21919de6de245b63066b8ee3cfba92e36f0e9 fs/ntfs3: Stale inode instead of bad
+c4a8ba334262e9a5c158d618a4820e1b9c12495c fs/ntfs3: Add rough attr alloc_size check
+70dd48ca3af3acb8548b876a84ac31460364cb03 fs/ntfs3: Make checks in run_unpack more clear
+9a2d6a40b8a1a6fa62eaf47ceee10a5eef62284c fs/ntfs3: Implement fallocate for compressed files
+6b39bfaeec440443037c38701204b92b106c953c fs/ntfs3: Add support for the compression attribute
+568f1140b9ca92def4ac581846c244294112bd42 fs/ntfs3: Replace fsparam_flag_no -> fsparam_flag
+689ecd06ef8dcd894a41c9787cf9da940bb6f24e fs/ntfs3: Rename ntfs3_setattr into ntfs_setattr
+5363c306787c88d41a41493f81b4308643696f6e perf symbol: Set binary_type of dso when loading
+52c996d3f40b40f87ef9dc80596903309682acc3 Merge remote-tracking branch 'torvalds/master' into perf-tools
+424aafb61a0b98d7d242f447fdb84bb8b323e8a8 perf vdso: Missed put on 32-bit dsos
+c850897b6cc275aea01c068732894b286bca44d1 tools include UAPI: Sync sound/asound.h copy with the kernel sources
+7ae76b32f9796449a5653c88847c6d784f38b7d3 tools include UAPI: Sync linux/sched.h copy with the kernel sources
+58f969b7a83e3680f1de5f1f0d382d783cc15f6c tools include UAPI: Sync linux/fcntl.h copy with the kernel sources
+744a6a1f2a8385a99803c3be08fae1921a746e15 tools arch x86: Sync the msr-index.h copy with the kernel sources
+c94cd9508b1335b949fd13ebd269313c65492df0 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources
+dc1e764b398e0548b1bb12fb234ed0b673cd60fb tools headers UAPI: Sync the linux/in.h with the kernel sources
+d1648688799dd14075c43e2d091be815c794f331 perf beauty: Update copy of linux/socket.h with the kernel sources
+bdd6baf7408c69d403365d156447a22982d45430 fs/ntfs3: Remove unused al_delete_le
+589996bf8c459deb5bbc9747d8f1c51658608103 ntfs3: Change to non-blocking allocation in ntfs_d_hash
+03b097099eef255fbf85ea6a786ae3c91b11f041 fs/ntfs3: Fix possible deadlock in mi_read
+d178944db36b3369b78a08ba520de109b89bf2a9 fs/ntfs3: Additional check in ni_clear()
+090f612756a9720ec18b0b130e28be49839d7cb5 fs/ntfs3: Sequential field availability check in mi_enum_attr()
+a33fb016e49e37aafab18dc3c8314d6399cb4727 fs/ntfs3: Fix general protection fault in run_is_mapped_full
+031d6f608290c847ba6378322d0986d08d1a645a fs/ntfs3: Additional check in ntfs_file_release
+48dbc127836a6f311414bc03eae386023d05ed30 fs/ntfs3: Format output messages like others fs in kernel
+fcbc423577ce28b5e470a2a47fed6724430cccdb sched_ext: Add __weak markers to BPF helper function decalarations
+cd46ea5ab48667e9522608533b9a24e3028fa368 tools check_headers.sh: Add check variant that excludes some hunks
+36110669ddf832e6c9ceba4dd203749d5be31d31 perf tools: Cope with differences for lib/list_sort.c copy from the kernel
+b9efb5960ce4634010fc6f9b6c7f803345e733fc tools headers arm64: Sync arm64's cputype.h with the kernel sources
+008979cc6911987152eb7485943c85b9c92c1e9b perf dwarf-aux: Fix build with !HAVE_DWARF_GETLOCATIONS_SUPPORT
+43f6564f18bf5b27e1675ef6f4baf68e786396b2 perf build: Fix static compilation error when libdw is not installed
+a530337ba9ef601c93ec378fd941be43f587d563 perf build: Fix build feature-dwarf_getlocations fail for old libdw
+e934a35e3cc1fe0bfb1bc771e64f3ba6e70c40e2 perf cs-etm: Fix the assert() to handle captured and unprocessed cpu trace
+cc9877fb76771b7cbce6c9ec239f13a1d7759876 sched_ext: Improve error reporting during loading
+ec010333ce7cf3270ae7193a6724794d5a179625 sched_ext: scx_cgroup_exit() may be called without successful scx_cgroup_init()
+b62933eee41e2909422c2c3d7fdb56217913faf9 sched/core: Make select_task_rq() take the pointer to wake_flags instead of value
+f207dc2dcdcf0e1e7d260b392784855ce8d84147 sched/core: Add ENQUEUE_RQ_SELECTED to indicate whether ->select_task_rq() was called
+9b671793c7d95f020791415cbbcc82b9c007d19c sched_ext, scx_qmap: Add and use SCX_ENQ_CPU_SELECTED
+b2760b839044132c29234b648aa4f6a2877de234 Merge tag 'perf-tools-fixes-for-v6.12-1-2024-10-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+5b7c893ed5ed0fc1cbe28c0e3296a6fb45698486 Merge tag 'ntfs3_for_6.12' of https://github.com/Paragon-Software-Group/linux-ntfs3
+e0ed52154e866a1e9e9b97ded50b164698f0a222 sched_ext: Documentation: Update instructions for running example schedulers
+75b607fab38d149f232f01eae5e6392b394dd659 Merge tag 'sched_ext-for-6.12-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+
+--===============0129197795533423731==--
