@@ -1,64 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4029255404839123543=="
+Content-Type: multipart/mixed; boundary="===============1879972015123132013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Oct 2024 09:59:17 -0000
-Message-Id: <172846795701.3618827.3041722050863791772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 09 Oct 2024 10:19:10 -0000
+Message-Id: <172846915031.3634703.2391022642432208964@gitolite.kernel.org>
 
---===============4029255404839123543==
+--===============1879972015123132013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 00ea2b0dc6ff47e3d3d976fd788aa22373d042b8
-    new: 31d2ad610cbd7a4f867a61900139639de1661a7c
+  - ref: refs/heads/char-misc-testing
+    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    new: f893691e742688ae21ad597c5bba13bef54706cd
     log: |
-         36022f3ee8c2d7c1442dc6453489b2e5f5a6d393 staging: vchiq_core: Use killable wait completions for bulk transfers
-         fbd06c751a5c2092484f6a43fed0120ee8844d6a staging: vchiq_core: Return on all errors from queue_message()
-         72925dec88342c50ca3a39c91f6614d6921bb46f staging: vchiq_core: Return -EINTR in queue_message() on interrupt
-         80f8ea98e43e2b3e62c576af0a60efba9608d8f1 staging: vchiq_core: Return -EINTR when bulk transfers are interrupted
-         ec5d292db3bd669ea595f07cb59c500bae8ff7a4 staging: vchiq_arm: Do not retry bulk transfers on -EINTR
-         f813dac50f32d1457da72790ceb4778fe259d687 staging: vchiq_core: Drop retry loop on -EINTR
-         ce64433cd42247fecf4d039dbcebeab12a3b2fa4 staging: vchiq_core: Move remote_event_signal() vchiq_core
-         72d092f121eb634ade3572859cc9110858c77467 staging: vchiq_core: Move bulk data functions in vchiq_core
-         31d2ad610cbd7a4f867a61900139639de1661a7c staging: vchiq_core: Drop vchiq_pagelist.h
+         a69dc41a4211b0da311ae3a3b79dd4497c9dfb60 rust: types: add Opaque::try_ffi_init
+         f893691e742688ae21ad597c5bba13bef54706cd rust: miscdevice: add base miscdevice abstraction
          
 
---===============4029255404839123543==
+--===============1879972015123132013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467971 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728467953-904b453818f844f6030e00cb5eadff43667a86aa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728469164 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1728469146-af42e9ed4c37b6a2e7ad2eeb018d5d5e7f48da82
 
-00ea2b0dc6ff47e3d3d976fd788aa22373d042b8 31d2ad610cbd7a4f867a61900139639de1661a7c refs/heads/staging-testing
+8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b f893691e742688ae21ad597c5bba13bef54706cd refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGVAMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mj0QAM1RUZzODB27yz0r5Xi2
-qqy6m3gtYBBwjLTVlHUKlB9jlHiG8KlR/RQYOOG/V/eYyXo+2lMV3qgxIwya2BgK
-zKAvONbj8+ESiLwg0WD9ZIMU0pYBYsS34gF/XooLSaNtJfScogEfGe8gjtt/DyFV
-762ITfP/cw1221MQEW20HwWFVy/MH7aQgihP1kxOsA414MCfxu4MUmgjXhKyVQVf
-ajwv3M67J8U6HIvHbHrKaXmGtOIrmLD6bt5L94GO48DOztl95ezxpEMjoXCms475
-mYjV9ZlZKU6OsNzsWR8//DEiX4wlKhaH7a8uSJny2rBe1eWubNVm8Dp5ONHsFHKx
-VLuN6Se67PByvld3VIVe7gaK+J5geN7Yz0wDXsVU960mqkuapS2M+/7txuq/XQnE
-aqfBW6r8YvODB9a0uN9oTUULhhxBLuJEm0HTK2rGsYhfVT/daHsqTf3Hiroyc0ax
-ei4fS5TJiyQvf92sQwSHYVTupi9MiqkfFyeFvmv5z7jKLj6EHWW0TK6nDtrZs4r6
-zvapOTE4DYAzSVyq9CW7ZVp1jZwqvJE1tYnnNfejJYqLs5CDqXg9QyJktSy4c5rB
-XDbDmL+K5N28ASOzgf7xk+BGdZziwU5od3jTR3H2XLmY/32KDe+Y67aUU7g+sNVm
-8JUQnbXGNT56Srpr9EQUt0fa
-=/JwE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGWKwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qCIP+gLCxO072RRhtVRGipAE
+wruTH0LSS8r53chjJ6TMD+qjJGpoUCoawTfHdtuvtxKhBpx6XoO7K/7WCt1yMREu
+8cZe9ETi5G0FbtMvFHJsnildwH4eDwVk1S9fYe43m931/e2r8z9xBICap/z3Y/6M
+1nLBIeOMVrX1P4+IKBYULk7CBEW04FU+mOoOLWzfBEUcP4vj2sVDKTf4ZAMg1cSp
+6/7v3GrXxbO6Rae/py3Q4gRO3pz30Pz5spKRrvuM/DyqA2kr5aW7MZGfY2/NUoiz
+8YI2dZVLvvJqqTfX4xyjSfhg7cILGVconK4P0tRpIjrVgjW3Se8G4nTBifQm5S3E
+T4sJTQxr0L03ASq0QHfTZzYvi4E/q9P4lt7dj205cEGRoCn3eFpK2by9Tt/krNPh
+P6CSqzELN4C2qleh5he6I5JTc/IYYMrLk0TTtwF3AN58vhlWwBuXGS0s63dJ6DXW
+9wCkb1uEtZSVQkxY1gk/G2WOuvBqx7+uQSBCY0uaRA3ATPlz3/caxgz84XZ6JU2L
+YFseuDfS5t9x7zIM3WB95thqsjICrllsvSR0ujsZeMupKIvgQKl0/U2Thy65fXJX
+URK/5NUrASSqy7yV8TiXlpX9iRsTr1GYjtLXuCk+xh2YukivBDiv12a6ZB2wN/eu
+pM7wcEYMVntyiRntS8nJS8Sw
+=ZuUF
 -----END PGP SIGNATURE-----
 
---===============4029255404839123543==--
+--===============1879972015123132013==--
