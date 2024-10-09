@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0399251400132475681=="
+Content-Type: multipart/mixed; boundary="===============7519659078179025902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 09 Oct 2024 14:07:23 -0000
-Message-Id: <172848284351.3819874.2888463524634429514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 09 Oct 2024 14:14:06 -0000
+Message-Id: <172848324645.3824488.11994583865956376425@gitolite.kernel.org>
 
---===============0399251400132475681==
+--===============7519659078179025902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs.file
-    old: a9fcbdac8eaed571c4d8a88a4114f575106da295
-    new: 4197ce2951e5f4b0b4d376aa8b01e40e8df62bc2
-    log: revlist-a9fcbdac8eae-4197ce2951e5.txt
+  - ref: refs/heads/master
+    old: 80a80c5dd1aec1770563bd0ca63e43febe5d4c41
+    new: fc040de9b932fe7ea1e17b1f8b37079cb24a0db6
+    log: |
+         040412c85bd5c185ff8c1cd5ec04f2d11faa5f47 update the 6.10.10 review from greg
+         fc040de9b932fe7ea1e17b1f8b37079cb24a0db6 assign some 6.10.10 cve ids
+         
 
---===============0399251400132475681==
+--===============7519659078179025902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9fcbdac8eae-4197ce2951e5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bef236c3c0fea5fc0dce2e729c1482ca9df4d82e fs: add file_ref
-d91ea8195ed416365007d83d2967985dc6d8f882 fs: port files to file_ref
-1f2dd712611df0a60115098f18b4aa0a1659f130 Merge patch series "fs: introduce file_ref_t"
-90a013e660aed8005bfcf8d860db2e118e163033 get rid of ...lookup...fdget_rcu() family
-2a9dc81d30e929da712b68de9e1bbabe6cbccfe1 remove pointless includes of <linux/fdtable.h>
-3dde7ef581be7ef966b5687b4a9754bea6022246 close_files(): don't bother with xchg()
-80ca353d0bb1421a9a3d228dcbd623690d4bdc01 move close_range(2) into fs/file.c, fold __close_range() into it
-d7b07895e383ba73b742b884579c83df579fe2b3 fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
-a3cc398d2fefa1617a6e12e4eb1440cfd1c4078e fs/file.c: conditionally clear full_fds
-421c53685ea3061307adb17fa0978210f746498f fs/file.c: add fast path in find_next_fd()
-ba773a59f0f4dec3b4866c7bc07e3d4165818b4c alloc_fdtable(): change calling conventions.
-c4147d51acc6d2894e514978dbcbda8a0d504e15 file.c: merge __{set,clear}_close_on_exec()
-8d98a7c9884ed13f8b03b7bce6ade477410cce1e make __set_open_fd() set cloexec state as well
-4197ce2951e5f4b0b4d376aa8b01e40e8df62bc2 expand_files(): simplify calling conventions
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728483263 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1728483245-d1cc3bc7ebe594b53f7ae61f6376a86aa52f11d1
 
---===============0399251400132475681==--
+80a80c5dd1aec1770563bd0ca63e43febe5d4c41 fc040de9b932fe7ea1e17b1f8b37079cb24a0db6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGj78bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wHkP/Ree4JYV2Wk3VivrcUYQ
+o0jxHUSeV4NFH/uPMCouIDXiT4DmOON36T7fARa5p9CgVAJfu3k6s976WBb5o6WK
+l7c6hyUjXwWDcl/UAh3RDkv1Knm3l/QVvGR0B7cmu0PMonFmZROHmQbK/RL/QSnZ
+hJYAgt2KxL+rc2FTJrTJms2c2Kjg9VfBdcXpv/WYGzeAd3oHsolX64IxeT5J0KT4
+fPgUYDecp60pITVsQM2C6BV169BT+qsWZEZxRg/Fh/DqxC5DZAFqv9ok28oQB62q
+cOGfXenyYyo6yvPfJzzDtPeNN2FTp4VTWGDgjpEsuHWM+09q7pmpUdMhUQjbZXqo
+YQIYsWzu4Mc3EMH5EtQhkHkRjrnAmzYFV/E1HBepgEGDhodAEAv93ZVkD2vkOdZ0
+h6Xk/GPwblvhXFIoxQP9iL3qqPZCtlrZQN/Hdel4r62uMgJ/Tk+UzqlnNKEw5mTF
+ShxYEQFjXXmnBL44DZni4cJNiUWMYqkcb2pIZU/gT0BlTnrZe+PnHUihjF4kccOF
+CeIIkn6R9n9Pq/Cjfa5bhle5/QF6mIph720CFC5LgHhh7IScHXabSREj+oDRr9tG
+4g9gpkmLxoetT/4mEkiLd0QRYMMTNuUaucJC/jL+fEPsO2QXE6UiSIdMVkH8U1Hx
+0ZsuF/tAYdGdjYCN3SjODj0G
+=8zEN
+-----END PGP SIGNATURE-----
+
+--===============7519659078179025902==--
