@@ -1,93 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5770293706449134021=="
+Content-Type: multipart/mixed; boundary="===============6207311036823533373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 09 Oct 2024 06:34:52 -0000
-Message-Id: <172845569279.3360466.14810367100794406225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 09 Oct 2024 06:56:51 -0000
+Message-Id: <172845701162.3377778.9575582198499079413@gitolite.kernel.org>
 
---===============5770293706449134021==
+--===============6207311036823533373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 8b641b5e4c782464c8818a71b443eeef8984bf34
-    new: 36efaca9cb28a893cad98f0448c39a8b698859e2
-    log: revlist-8b641b5e4c78-36efaca9cb28.txt
+  - ref: refs/heads/main
+    old: ff919efb5fe8256fba132b5f2c58df3c38bdd0b3
+    new: db03488897a70367aeafe82d07a78943d2a6068e
+    log: |
+         db03488897a70367aeafe82d07a78943d2a6068e Revert "wifi: cfg80211: unexport wireless_nlevent_flush()"
+         
 
---===============5770293706449134021==
+--===============6207311036823533373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b641b5e4c78-36efaca9cb28.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-269084f748524fa1a3fb8eb530eb70f77e7c3e4a net: tcp: refresh tcp_mstamp for compressed ack in timer
-539770616521e5b046ca7612eb79ba11b53edb1d net: dsa: remove obsolete phylink dsa_switch operations
-bec2a32145d5cc066df29182fa0e5b0d4329b1a1 mlxsw: spectrum_acl_flex_keys: Constify struct mlxsw_afk_element_inst
-1405981bbba0796530311d07a67bf58228cc0fcc lib: packing: catch kunit_kzalloc() failure in the pack() test
-8a0f62fdeb9ea66ad3d0e959c7c4addbabeac1be ipv4: remove fib_devindex_hashfn()
-fc38b28365e5f1396209d2878a34065468765087 ipv4: use rcu in ip_fib_check_default()
-143ca845ec0c625c410768c36e1a949ef4ed1915 ipv4: remove fib_info_lock
-a3f5f4c2f9b6bc2aa6f5a3e8e23b7519e4f2e3e3 ipv4: remove fib_info_devhash[]
-58ec6857d57666cc7d1efed5d5b75e8c0804a32e Merge branch 'ipv4-preliminary-work-for-per-netns-rtnl'
-7651f1149ace095eb24482b760b6dc411fc8afc8 dt-bindings: net: realtek: Use proper node names
-0458cbedfe35a2762fc82ddf38e004cc886b9ed4 vmxnet3: support higher link speeds from vmxnet3 v9
-f95b4725e796b12e5f347a0d161e1d3843142aa8 net: phy: mxl-gpy: add missing support for TRIGGER_NETDEV_LINK_10
-138d21b68b71af6d9ad114774008b36a149c2c80 net: qcom/emac: Find sgmii_ops by device_for_each_child()
-31a9ce20fa8de604d61c3c341532717cdaf297a0 dt-bindings: net: ethernet-phy: Add timing-role role property for ethernet PHYs
-20a4da20e0bd0297bf1ce083362e78b6702f991e net: phy: Add support for PHY timing-role configuration via device tree
-a17b9b3a6767bd342beef9be7b17f9a6d8c49df4 Merge branch 'net-phy-support-master-slave-config-via-device-tree'
-e793b86ae44e114ba043e97469a008d480911975 Documentation: networking: add Twisted Pair Ethernet diagnostics at OSI Layer 1
-1d00c08048529b36e4d039aee8d60f8258797ed7 net: sparx5: add support for private match data
-5ba3f8460393aab8debdc961a8364527252c2b1e net: sparx5: add indirection layer to register macros
-7a03df01457bb92416be029ed74ea1403783ca3c net: sparx5: modify SPX5_PORTS_ALL macro
-f68f71f33f62a4646b64776bc3fab02c59e10027 net: sparx5: add *sparx5 argument to a few functions
-d5a1eb484594474f10fa277e41f6265d853c5805 net: sparx5: add constants to match data
-3f9e46347a466a70c422a5790e209d5c7167be48 net: sparx5: use SPX5_CONST for constants which already have a symbol
-559fb423d5f2d64b6cd74f4ad7bdc09795c67a06 net: sparx5: use SPX5_CONST for constants which do not have a symbol
-048c96907ca150c487da66ce0cc3528ab68a1661 net: sparx5: add ops to match data
-20f8bc8755a718fd8358e29ae1e6601a1026e2da net: sparx5: ops out chip port to device index/bit functions
-beb36b507170c1337fa25c1c3a44f533b7374cc7 net: sparx5: ops out functions for getting certain array values
-b7e09ddb673f4573fb4c6ac7729725c685ae6af8 net: sparx5: ops out function for setting the port mux
-8c274d69093fcf5cc0d00a41994ce0a1523417ae net: sparx5: ops out PTP IRQ handler
-a0dd8906824b1131ad21d2d689d54628917ce8d1 net: sparx5: ops out function for DSM calendar calculation
-4b67bcb9094e74890483e55ea2aaf2d57c4df843 net: sparx5: add is_sparx5 macro and use it throughout
-8cc4102363c76ed734cf030e6389d423e884edf1 net: sparx5: redefine internal ports and PGID's as offsets
-5d6a8aeabd5b6153022248e1876e35b1d6dbbbe2 Merge branch 'net-sparx5-prepare-for-lan969x-switch-driver'
-1aa772be0444a2bd06957f6d31865e80e6ae4244 dt-bindings: net: fec: add pps channel property
-bf8ca67e21671e7a56e31da45360480b28f185f1 net: fec: refactor PPS channel configuration
-566c2d83887f0570056833102adc5b88e681b0c7 net: fec: make PPS channel configurable
-f178812d74d3caf5c1d4457b8e82cd943c13e874 Merge branch 'net-fec-add-pps-channel-configuration'
-ec763c234d7f60c5bce0fa2611ba79f5be1af76b Revert "rtnetlink: add guard for RTNL"
-76aed95319da25d6884dff01d5f0149e4b542f96 rtnetlink: Add per-netns RTNL.
-844e5e7e656d3a7a904fd5607f8491d6fd01db8e rtnetlink: Add assertion helpers for per-netns RTNL.
-03fa534856593bb4edf4935451fa55863e34a108 rtnetlink: Add ASSERT_RTNL_NET() placeholder for netdev notifier.
-489cee4caeba4f70a29b7215cfd18152dcadab7f Merge branch 'rtnetlink-per-netns-rtnl'
-49717ef01ce1b6dbe4cd12bee0fc25e086c555df idpf: Don't hard code napi_struct size
-42b2331081178785d50d116c85ca40d728b48291 tools: ynl-gen: refactor check validation for TypeBinary
-ada5c3229b32e48f4c8e09b6937e5ad98cc3675f net: dsa: mv88e6xxx: Add FID map cache
-da5e06dee58ad153a4933fd40fc53d571bfef373 net-timestamp: namespacify the sysctl_tstamp_allow_data
-3fe3dbaf26723c473d42a58b636a2500586b821e caif: Remove unused cfsrvl_getphyid
-35213cfeefa573788a75b623cbd9d0e3712cfa96 chelsio/chtls: Remove unused chtls_set_tcb_tflag
-881c98f44fdf3b6643ebf74a56d56fccf6b2ce03 net: phy: smsc: use devm_clk_get_optional_enabled_with_rate()
-870dd51117cb901f560ea5a85b9876956e6f35b8 selftests: mlxsw: sch_red_ets: Increase required backlog
-8fb5b60734564473c72ca85d617cd685738948f0 selftests: mlxsw: sch_red_core: Increase backlog size tolerance
-787f148cec340114dc22c49d8b045ff3ff0adad6 selftests: mlxsw: sch_red_core: Sleep before querying queue depth
-7049166e51bc2b854935eda72f7fb8c3f4492f6f selftests: mlxsw: sch_red_core: Send more packets for drop tests
-501fa2426b5ffbe08c2571b6f5c3f3afa1970aa2 selftests: mlxsw: sch_red_core: Lower TBF rate
-33019c70ae4d394cb711991acc9316e83363b7ed Merge branch 'selftests-mlxsw-stabilize-red-tests'
-1432965bf5ce0c866924a66be391e478a98e69ee dt-bindings: net: marvell,aquantia: add property to override MDI_CFG
-a2e1ba275eae96a8171deb19e9c7c2f5978fee7b net: phy: aquantia: allow forcing order of MDI pairs
-ed1f3b7f1572edd36a4bca86a52adffc76b0ab18 fsl/fman: Fix a typo
-21185019aa9c52d5273eea827f07b3feac811546 net: phy: marvell-88q2xxx: Align soft reset for mv88q2110 and mv88q2220
-0e58c188711d41bd6d3b3db3e57e609f3296e731 net: phy: marvell-88q2xxx: Make register writer function generic
-20c7722a7aa33e5b9de0c0d62b7ec0a2455e6725 net: phy: marvell-88q2xxx: Enable auto negotiation for mv88q2110
-3a04f87127f86b3d0ecc88b782d0c59a43b5bb74 Merge branch 'net-phy-marvell-88q2xxx-enable-auto-negotiation-for-mv88q2110'
-36efaca9cb28a893cad98f0448c39a8b698859e2 net: phy: microchip_t1: SQI support for LAN887x
+certificate version 0.1
+pusher 7BF9099A 1728457005 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1728456987-ec95413f1c44cca972b7b9971fad9711b7fa7703
 
---===============5770293706449134021==--
+ff919efb5fe8256fba132b5f2c58df3c38bdd0b3 db03488897a70367aeafe82d07a78943d2a6068e refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmcGKS0ACgkQ10qiO8sP
+aAAukg//S6GiQHUKlv6c/5DbO0If2drGenbw0IBY1LjchxNIslSxEhBtsK/UPSF/
+GjvRT8hQu8yAjc5Kb2h83cXk8+lOf4kmeV7lHhLZ+GWnmKB4jWrjL7fkj/05oK3v
+TQyaE7jMK8kJttgbBoQzq+vuYd/TKpdBG1Npm8DyXZiqncNHMBoOVn8pkyHevXoQ
+17l5ET1EE4hzYishOlL3LbB6ejvotIMYqQ4pybyuD0Q/eaqA2ethBNv6PhdkAjiA
+9A3RFshwxJWKHxZMq/o4tvubDYpuyyssg6oonGLL3Sa/jFYSABV/vQN7n/AGJ2va
+bW1EtOPic5e7wrHf5J8Cb+Gd0GoRVuw4azEf9EoZMJ7kHh9fjMPvl5hR6K4XcULw
+aEV/+VPD/A3yuEhT8xUEFNry8LcENdIl5t/giXwv5WdDf6UhKIasjsxcYGPzjfkp
+R8xYHtiRoipnjE+BtRM9GSy+5lBf+F7cFtT9b6x9M3O7RVP6j14ViG0bT9PpkBhx
++DuiyYXduUdWrbTZuliD/SlCBJZEXvonL6vtO7A58HcN2GDzgoBNWCj4p7ukydPI
+Dw7IwBhJz3zK6XRnvkf0wv/tH01bFXEm5SgIRz81oIpt8OvBfvkqegT7/hVVEQQN
+1tQMuUZ/8dbR17VH3fR2NaSAJIWTFbnmZX7foh9td+aBxgOLNVk=
+=227w
+-----END PGP SIGNATURE-----
+
+--===============6207311036823533373==--
