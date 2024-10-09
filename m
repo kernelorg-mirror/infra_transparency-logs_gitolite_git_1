@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2513340476998410075=="
+Content-Type: multipart/mixed; boundary="===============8336931406437376422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 09 Oct 2024 01:12:46 -0000
-Message-Id: <172843636636.3115895.15929468309070345299@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 01:12:49 -0000
+Message-Id: <172843636965.3116059.16807223177180557230@gitolite.kernel.org>
 
---===============2513340476998410075==
+--===============8336931406437376422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,70 +15,68 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 90fe78346099a2dbecabc5778bb806e9c96c28a4
-    new: abf0818be8a66f15e9dcdb0da96bae6dd2fd2362
-    log: revlist-90fe78346099-abf0818be8a6.txt
+  - ref: refs/heads/master
+    old: 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd
+    new: 75b607fab38d149f232f01eae5e6392b394dd659
+    log: revlist-87d6aab2389e-75b607fab38d.txt
 
---===============2513340476998410075==
+--===============8336931406437376422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90fe78346099-abf0818be8a6.txt
+Content-Disposition: attachment; filename=revlist-87d6aab2389e-75b607fab38d.txt
 
-eac21d46e9caac3dbb9f64c0f8a55972f5ba9940 Add -damon suffix to the version name
-e5add2503c2224eab1c5a993311e65bf38889656 === temporal fixes ===
-f33849a56f7f48732d0574bfaf4f2ecd4c1c35d6 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-371f77849c287024d581175b2070334af30979ef === patches written or reviewed by SJ but not merged in -mm ===
-65119fd2db7aa59e3645df3c865631a9ac2b749e ==== docs fixup for non-mm ====
-7d4d5157b029d677036dc76f5e8099e35c22367b ==== Docs/damon: update GitHub repo URLs and maintainer-profile ====
-204c9563406e895d8d51855df7657e388aa7a7f3 ==== per-ctx regions prioritization histogram ====
-a9407059cb37c60139fe01664cf10dcc596f72b1 ==== DAMON tests fixup ====
-807e688022ba08d38847f15ac902d7aafccc7d42 === commits aiming not to be posted ===
-b6533f585991f397df421e94c47cf8c1079fb6e4 mm/damon: Add debug code
-c3f56fc503113dfa0ba080e585b8cec37fa0c514 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-4cfc643526826284c3db61ed8a4ba66e30547a75 mm/damon/core: add todo for DAMOS interval validation
-690b369a266156d052ea6283bb04be36ceeef6bb mm/damon/core: add debugging-purpose log of tuned esz
-4c50e0daa6c4eb1e9297eb431b3ff63cf9f399b2 Add debug log for PSI
-43016852faa20efacefcd391e8c8128bdeaced37 === hacks in progress ===
-3197effe5c1952e5131bc3dff6c5571ac09f8ac2 ==== ACMA ====
-5ab6dde8dfd27a632560c0da4e5f8ce893dfe8b0 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-a4ed047a286ac7530af8fb8e170afff26dd1b3b8 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-fc9546afcd1e675cdedcbd269a005df64bfc95f9 mm/page_reporting: implement a function for reporting specific pfn range
-542c332de54855438dd0eb86a957375b809cb37c mm/damon/acma: implement scale down feature
-7040ae72a2d66a7b13a62adf121dbb00c47773eb mm/damon/acma: implement scale up feature
-6cf18c0ce9eaae0c541684e44772c8505c6b70e9 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-d05f4e0b5da0606797e5b166cc843714c0247ae3 ==== write-only monitoring ====
-9b64471da7fc40d0b8450dde31ee87fdeb90c4ca ==== docs for DAMON and mm ====
-efff861019a5507e367c376388e0b4fb93035475 Docs/mm/damon/design: add API link to damon_ctx
-218d7bf26d34a9934bcf9b3947a46c4040d007fe MAINTAINERS/MEMORY MANAGEMENT: add mm document files as managed files
-b6ce1f0a839f553e8529dfdea613408b330ff1ef Docs/process/2.Process: Update mm tree URL
-bc260a81b736edac80b36f474e452677de55ede4 ==== unsorted ====
-2b6baf0deacdf2b414c113e71a3e6366c7c1b195 mm/damon/core: support zero intervals
-8c56fa7708544540104768ac263d95b2d575354e mm/damon/core: avoid overflow in damon_feed_loop_next_input()
-9c4ed554b91514436b3a2256022ebbb376dcbe4d Docs/mm/damon: add links to DAMON academic papers
-e1bd8752d5b2c7904e655bc4f5905ef1160cd5a4 tools/testing/selftests/kselftest/runner: warn non-executable tests only when really cannot execute
-af7f933242da74e209f916922e9d053613687267 selftests/damon/_debugfs_common: hide error message from test_write_result()
-c7d011fcaad586faa51d806ef5fe13f5584a4bd2 selftests/damon/debugfs_duplicate_context_creation: hide error from expected file io failure
-d89d11f0fff7c741c948f63d51f866ed4488c3bd selftests/damon/huge_count_read_write: provide sufficiently large buffer for DEPRECATED file read
-2282b81d8078072424016942685b7f3694aea18d selftests/damon/huge_count_read_write: remove unnecessary debugging message
-6c12ce2f5c0d8be9e20f265f00f199576408d36b mm/damon/tests/dbgfs-kunit: fix the header double inclusion guarding ifdef
-146086fc23fc8653dcf7d5ddee86a4bae4855404 mm/damon/Kconfig: fix wrong DAMON_SYSFS_KUNIT_TEST prompt
-06fd820bf7e2ad0b04301d96d1e2300381c82931 ==== remove DAMON debugfs interface ====
-2a00fcd6229448def4af32783250b59c92e69f0d Docs/admin-guide/mm/damon/usage: remove DAMON debugfs interface documentation
-5145e30e463a3e296c18b1f31244660020bda63b Docs/mm/damon/design: update for removal of DAMON debugfs interface
-42864236e9cf0366e3c33eaff763d6c7b4d0e85a selftests/damon/config: remove configs for DAMON debugfs interface selftests
-1017ce73f4a39e7366c48fa1b4cde23b7091b8ed selftests/damon: remove tests for DAMON debugfs interface
-876bef7bd1750dd4218a71ae8e948388a1503b79 kunit: configs: remove configs for DAMON debugfs interface tests
-627e81b8f3102fd59d77e73c4601012920167fae mm/damon: remove DAMON debugfs interface kunit tests
-5fb39d569be5709fc23d221d7cdc02c25c6546bf mm/damon: remove DAMON debugfs interface
-daa9be4938c8462c58673c0807b3176bfb3b267d ===== revert debugfs interface removal =====
-db5789f890dcda7417e9f0c220910953b41d9d6a Revert "mm/damon: remove DAMON debugfs interface"
-f5f65782b4b2ea98814ef93b1c986e6e8ed4599e Revert "mm/damon: remove DAMON debugfs interface kunit tests"
-4fdfb4868c05cf6b48c8c70f7a8e98d85f687f02 Revert "kunit: configs: remove configs for DAMON debugfs interface tests"
-fbc2549b35e1211e4ee073409479e095356c8c0d Revert "selftests/damon: remove tests for DAMON debugfs interface"
-06df6f3045e0d3e1d46c01d54908aae4fe074e06 Revert "selftests/damon/config: remove configs for DAMON debugfs interface selftests"
-d5e04b166f3e09466cb13191fdb374f3fca22e10 Revert "Docs/mm/damon/design: update for removal of DAMON debugfs interface"
-abf0818be8a66f15e9dcdb0da96bae6dd2fd2362 Revert "Docs/admin-guide/mm/damon/usage: remove DAMON debugfs interface documentation"
+a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
+556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
+9931122d04c6d431b2c11b5bb7b10f28584067f0 fs/ntfs3: Check if more than chunk-size bytes are written
+2db86f7995fe6b62a4d6fee9f3cdeba3c6d27606 fs/ntfs3: Do not call file_modified if collapse range failed
+acdbd67bf939577d6f9e3cf796a005c31cec52d8 fs/ntfs3: Optimize large writes into sparse file
+e4a7d60a891b8493a1284053acdc496febe81e7c fs/ntfs3: Separete common code for file_read/write iter/splice
+ffe718c9924eb7e4ce062dd383cf5fea7f02f180 fs/ntfs3: Fix sparse warning for bigendian
+5b2db723455a89dc96743d34d8bdaa23a402db2f fs/ntfs3: Fix warning possible deadlock in ntfs_set_state
+62fea783f96ce825f0ac9e40ce9530ddc1ea2a29 fs/ntfs3: Fix sparse warning in ni_fiemap
+56c16d5459d5c050a97a138a00a82b105a8e0a66 fs/ntfs3: Refactor enum_rstbl to suppress static checker
+1fd21919de6de245b63066b8ee3cfba92e36f0e9 fs/ntfs3: Stale inode instead of bad
+c4a8ba334262e9a5c158d618a4820e1b9c12495c fs/ntfs3: Add rough attr alloc_size check
+70dd48ca3af3acb8548b876a84ac31460364cb03 fs/ntfs3: Make checks in run_unpack more clear
+9a2d6a40b8a1a6fa62eaf47ceee10a5eef62284c fs/ntfs3: Implement fallocate for compressed files
+6b39bfaeec440443037c38701204b92b106c953c fs/ntfs3: Add support for the compression attribute
+568f1140b9ca92def4ac581846c244294112bd42 fs/ntfs3: Replace fsparam_flag_no -> fsparam_flag
+689ecd06ef8dcd894a41c9787cf9da940bb6f24e fs/ntfs3: Rename ntfs3_setattr into ntfs_setattr
+5363c306787c88d41a41493f81b4308643696f6e perf symbol: Set binary_type of dso when loading
+52c996d3f40b40f87ef9dc80596903309682acc3 Merge remote-tracking branch 'torvalds/master' into perf-tools
+424aafb61a0b98d7d242f447fdb84bb8b323e8a8 perf vdso: Missed put on 32-bit dsos
+c850897b6cc275aea01c068732894b286bca44d1 tools include UAPI: Sync sound/asound.h copy with the kernel sources
+7ae76b32f9796449a5653c88847c6d784f38b7d3 tools include UAPI: Sync linux/sched.h copy with the kernel sources
+58f969b7a83e3680f1de5f1f0d382d783cc15f6c tools include UAPI: Sync linux/fcntl.h copy with the kernel sources
+744a6a1f2a8385a99803c3be08fae1921a746e15 tools arch x86: Sync the msr-index.h copy with the kernel sources
+c94cd9508b1335b949fd13ebd269313c65492df0 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources
+dc1e764b398e0548b1bb12fb234ed0b673cd60fb tools headers UAPI: Sync the linux/in.h with the kernel sources
+d1648688799dd14075c43e2d091be815c794f331 perf beauty: Update copy of linux/socket.h with the kernel sources
+bdd6baf7408c69d403365d156447a22982d45430 fs/ntfs3: Remove unused al_delete_le
+589996bf8c459deb5bbc9747d8f1c51658608103 ntfs3: Change to non-blocking allocation in ntfs_d_hash
+03b097099eef255fbf85ea6a786ae3c91b11f041 fs/ntfs3: Fix possible deadlock in mi_read
+d178944db36b3369b78a08ba520de109b89bf2a9 fs/ntfs3: Additional check in ni_clear()
+090f612756a9720ec18b0b130e28be49839d7cb5 fs/ntfs3: Sequential field availability check in mi_enum_attr()
+a33fb016e49e37aafab18dc3c8314d6399cb4727 fs/ntfs3: Fix general protection fault in run_is_mapped_full
+031d6f608290c847ba6378322d0986d08d1a645a fs/ntfs3: Additional check in ntfs_file_release
+48dbc127836a6f311414bc03eae386023d05ed30 fs/ntfs3: Format output messages like others fs in kernel
+fcbc423577ce28b5e470a2a47fed6724430cccdb sched_ext: Add __weak markers to BPF helper function decalarations
+cd46ea5ab48667e9522608533b9a24e3028fa368 tools check_headers.sh: Add check variant that excludes some hunks
+36110669ddf832e6c9ceba4dd203749d5be31d31 perf tools: Cope with differences for lib/list_sort.c copy from the kernel
+b9efb5960ce4634010fc6f9b6c7f803345e733fc tools headers arm64: Sync arm64's cputype.h with the kernel sources
+008979cc6911987152eb7485943c85b9c92c1e9b perf dwarf-aux: Fix build with !HAVE_DWARF_GETLOCATIONS_SUPPORT
+43f6564f18bf5b27e1675ef6f4baf68e786396b2 perf build: Fix static compilation error when libdw is not installed
+a530337ba9ef601c93ec378fd941be43f587d563 perf build: Fix build feature-dwarf_getlocations fail for old libdw
+e934a35e3cc1fe0bfb1bc771e64f3ba6e70c40e2 perf cs-etm: Fix the assert() to handle captured and unprocessed cpu trace
+cc9877fb76771b7cbce6c9ec239f13a1d7759876 sched_ext: Improve error reporting during loading
+ec010333ce7cf3270ae7193a6724794d5a179625 sched_ext: scx_cgroup_exit() may be called without successful scx_cgroup_init()
+b62933eee41e2909422c2c3d7fdb56217913faf9 sched/core: Make select_task_rq() take the pointer to wake_flags instead of value
+f207dc2dcdcf0e1e7d260b392784855ce8d84147 sched/core: Add ENQUEUE_RQ_SELECTED to indicate whether ->select_task_rq() was called
+9b671793c7d95f020791415cbbcc82b9c007d19c sched_ext, scx_qmap: Add and use SCX_ENQ_CPU_SELECTED
+b2760b839044132c29234b648aa4f6a2877de234 Merge tag 'perf-tools-fixes-for-v6.12-1-2024-10-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+5b7c893ed5ed0fc1cbe28c0e3296a6fb45698486 Merge tag 'ntfs3_for_6.12' of https://github.com/Paragon-Software-Group/linux-ntfs3
+e0ed52154e866a1e9e9b97ded50b164698f0a222 sched_ext: Documentation: Update instructions for running example schedulers
+75b607fab38d149f232f01eae5e6392b394dd659 Merge tag 'sched_ext-for-6.12-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============2513340476998410075==--
+--===============8336931406437376422==--
