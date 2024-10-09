@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 09 Oct 2024 07:33:49 -0000
-Message-Id: <172845922909.3452868.14258044306814833483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 09 Oct 2024 07:40:11 -0000
+Message-Id: <172845961198.3459351.12138205608446671194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 0e4198b9eef1eeedf8cf12e970b36d4e50a1da48
-    new: 392cae9e4233040e1d1a171552490fa9be7fd6dd
+  - ref: refs/heads/pwm/for-next
+    old: abe9db96e852df7b54300a17d1b98d844b9bc989
+    new: ff25451372ee1aa4c4f4401dc96516782a00dd4d
     log: |
-         c87847b23b398d0b62185cd8191aaa09113debdb dbus: client: notify: fix reference counting
-         85471d394bab3c95e7b968c8a3df9a7ff894fce4 dbus: client: notify: free chip and line lists at exit
-         392cae9e4233040e1d1a171552490fa9be7fd6dd dbus: client: monitor: free the line list at exit
+         ff25451372ee1aa4c4f4401dc96516782a00dd4d dt-bindings: pwm: amlogic: Document C3 PWM
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: abe9db96e852df7b54300a17d1b98d844b9bc989
+    new: ff25451372ee1aa4c4f4401dc96516782a00dd4d
+    log: |
+         ff25451372ee1aa4c4f4401dc96516782a00dd4d dt-bindings: pwm: amlogic: Document C3 PWM
          
