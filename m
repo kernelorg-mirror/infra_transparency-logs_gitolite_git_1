@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Oct 2024 12:36:26 -0000
-Message-Id: <172847738639.3745960.14488962924092956488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Oct 2024 12:38:14 -0000
+Message-Id: <172847749454.3746930.1335280794784562433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 82c5b53140faf89c31ea2b3a0985a2f291694169
-    new: 4d5c70e6155d5eae198bade4afeab3c1b15073b6
+    old: 2a80d89256dfd6af7d07a38dd4002f9e9fd782a1
+    new: 1ffcc8d41306fd2e5f140b276820714a26a11cc4
     log: |
-         4d5c70e6155d5eae198bade4afeab3c1b15073b6 sctp: ensure sk_state is set to CLOSED if hashing fails in sctp_listen_start
+         1ffcc8d41306fd2e5f140b276820714a26a11cc4 r8169: add support for the temperature sensor being available from RTL8125B
          
