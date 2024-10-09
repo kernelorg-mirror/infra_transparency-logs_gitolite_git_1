@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 09 Oct 2024 21:35:27 -0000
-Message-Id: <172850972729.4172833.15374217712154848019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 09 Oct 2024 21:42:24 -0000
+Message-Id: <172851014477.4177562.11143562506016050232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/scx-fix-task_iter-stalls
-    old: 0000000000000000000000000000000000000000
-    new: 9972560f71a85666171054376203e8fe02cc19f2
+  - ref: refs/heads/master
+    old: e68bc1e92314fecb2aaf2eb59d6bff03bdd21fcd
+    new: 0a60c600c1bb47d6873beef8883c5bcf708c22a4
+    log: |
+         0a60c600c1bb47d6873beef8883c5bcf708c22a4 foo
+         
