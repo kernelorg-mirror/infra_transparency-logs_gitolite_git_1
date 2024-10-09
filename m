@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7955385681652833518=="
+Content-Type: multipart/mixed; boundary="===============5770293706449134021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 09 Oct 2024 06:34:12 -0000
-Message-Id: <172845565212.3359688.6631942054795932203@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 06:34:52 -0000
+Message-Id: <172845569279.3360466.14810367100794406225@gitolite.kernel.org>
 
---===============7955385681652833518==
+--===============5770293706449134021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 8b641b5e4c782464c8818a71b443eeef8984bf34
     new: 36efaca9cb28a893cad98f0448c39a8b698859e2
     log: revlist-8b641b5e4c78-36efaca9cb28.txt
 
---===============7955385681652833518==
+--===============5770293706449134021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ ed1f3b7f1572edd36a4bca86a52adffc76b0ab18 fsl/fman: Fix a typo
 3a04f87127f86b3d0ecc88b782d0c59a43b5bb74 Merge branch 'net-phy-marvell-88q2xxx-enable-auto-negotiation-for-mv88q2110'
 36efaca9cb28a893cad98f0448c39a8b698859e2 net: phy: microchip_t1: SQI support for LAN887x
 
---===============7955385681652833518==--
+--===============5770293706449134021==--
