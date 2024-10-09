@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5519729237441104784=="
+Content-Type: multipart/mixed; boundary="===============7308277835095773124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Oct 2024 09:50:55 -0000
-Message-Id: <172846745596.3613142.9305084737363606277@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 09:55:28 -0000
+Message-Id: <172846772834.3617006.6152743571139431610@gitolite.kernel.org>
 
---===============5519729237441104784==
+--===============7308277835095773124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,61 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d
-    new: 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01
-    log: revlist-41ffdb8faa1c-302b4a0f5f9a.txt
+    old: 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01
+    new: c1a5060ec80020ce879fa5b2a16875bd9a5ab930
+    log: |
+         b5b7a2c92332b6f799e81f256aed6a93a0e037fd staging: most: i2c: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         d09d3485969fbb38f8882dac830ba1b7ddbfbbab staging: olpc_dcon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         c1a5060ec80020ce879fa5b2a16875bd9a5ab930 staging: Switch back to struct platform_driver::remove()
+         
 
---===============5519729237441104784==
+--===============7308277835095773124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467470 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467741 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728467452-fee88126b1254d10e456a913aaed630e19eaa683
+nonce 1728467723-b48f7ec461cd72b83585959fb7fb5ccfd38b8364
 
-41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 refs/heads/staging-testing
+302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 c1a5060ec80020ce879fa5b2a16875bd9a5ab930 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGUg4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w/sP/0rLxfSc2m0vdDbxQ5hq
-kU8WtCh4/RHlvME1mzMVJoett6LwqBngf90abSjRHqNDl6Kmer9XxAr8LQ95Bzvo
-SVivbUCwKCWIjE738Qd9qMpxXFofqMaotdVxJGXDh0HHd9Bbx+Pg2tG6P6BdwsOX
-LCvt5upksD4PmnwpkJW/3Pe4qrzKgkWCqcarNonESZmRtXnlJ0JHqApVWGO6qQDM
-nAlfmT4aVH2SCsk1BvOPVyxdS6sKxKwlDtvR5NhGiWa/vo1FJMayOC6FB68BoSZ9
-U9DCpneRIrastz0GvUZDOdAx9qzoElhl7uNV64yD7pxvo4k+04HR3C6TsM/59krL
-24NCd3ufWrZ1AJZtfC263KVEegres1tXfmz8Ro3TGIG22FiBtEAw3QfstT1Y87PX
-iAsM/kJffsnfm7Xf6jtuqUmBuESMbAwuQNgHIYhbiqKi65YGf6JHFG7yRus6UvRo
-rxiB+E1YFbNdZo6DkC/S3kexkeYy3NFws0rmfORE9w5pk5cZB8HdAQ4gTn/0URbg
-OMhP7Ei/ki3seku9U6kjkYJQTecMSzI1AsSUq1vPe0et++IfXf3mwZK8w48n2HrQ
-qBbQcboiq/XyGsda0BdRqXEHvT1sa4DjOib0C21UKnDJbIFy67IHRX6Y3FL9vKS+
-j+TEOegulnEJQQcCHckAyx/5
-=z6HL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGUx0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2+cQAKCSirHGtrF0TxfmmvNf
+gG7LdpoUuhhyH2A3Mg4FI3NStM//GRovJifJAHQoI+3Aex++HUjAWufo9d+KUacu
+5JBWkIiMzKYg8HEUiUSnftSxNMbWztEcTWWVSkCfHmfGJlGJ3Dc8ad5m7wlF7CSV
+CAzibDptzyd6jIqz9W2OAShwmwcjaPxgDbOcifvTyC/1YG9SD2hZuU27S46bnhTA
+70sLXI/5QIewTJKRKpOrwFg6glMfX8OQYgHlBQoS170xBnAcKnMnYTVeXn6iWa1E
+ajtF22jrmifpLoJCS8u++4wt9sbsHVxF9eWGpf8srLAnRNhg/qofuFB+PqtEDYqp
+sPm43i7QD7mx5Fmmv7CNW2cc/Ub+rCUxFCOgP375UWBbVi8JETx8SFwfdZsrqseV
+33BmAuALFe37+5QNdey6jpw/EfKzssgepmO+x6dkh6HUFWHUoRf2CnnaGYneLtil
+VbKqz8yPZ7WkVjVATizT+JD8LR/MnOY/eZVVWh7FhBO/WztfVgs9k/SMt92sE6IA
+7W6k4vrEcXd/hhtfuJ88ID3hwLpg6GgNjQL7XYy/s/tU564EfRz4I8Q3quiruqFS
+4iqpZWPQeOiuA3Ap/L9dXVJnVlDle1ma+BgP9sKJxwwp19+NOVRAgyP0oDDYnjJV
+rNGl//ioYV42e5ZaONfInU6I
+=8b5S
 -----END PGP SIGNATURE-----
 
---===============5519729237441104784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41ffdb8faa1c-302b4a0f5f9a.txt
-
-95a85744bf2c32d45bd3e7666447e240480c79be staging: vt6656: Update maintainer in TODO
-09b869177b44557e0e44a4c30ad41206e7fa1306 staging: vt6655: rxtx.c: Fix too long lines in get_rtscts_time
-ad43c5c60cf8b0b847e039fb4aeef86396f87882 staging: vt6655: s_uGetDataDuration: Rename pDevice parameter
-0d90f4f7927b3fecc8ca233bdba94139be1bb810 staging: vt6655: s_uGetDataDuration: Rename byDurType parameter
-d56397f1eb5ddb4c026f749303f372194f98d7ea staging: vt6655: s_uGetDataDuration: Rename cbFrameLength parameter
-3bea8179a59d25faaec12d0885478aa1e47b8c66 staging: vt6655: s_uGetDataDuration: Rename byPktType parameter
-f47fff8b559902117825845de7e97b0777590540 staging: vt6655: s_uGetDataDuration: Rename wRate parameter
-b15914b71347ff7a94cf87885dd9f1db4710afee staging: vt6655: s_uGetDataDuration: Rename bNeedAck parameter
-2ecc3fe8636978894ab91b8d48c4fc30cabea01c staging: vt6655: s_uGetDataDuration: Rename uFragIdx parameter
-b8ba62bfc50d6c9be4106e8466f8dd4e240c40ac staging: vt6655: s_uGetDataDuration: Rename cbLastFragmentSize parameter
-71a63719eabbf11696ad02700a13d6e19cb1c323 staging: vt6655: s_uGetDataDuration: Rename uMACfragNum parameter
-99084e9936f6c5a5789145345818f20775d758de staging: vt6655: s_uGetDataDuration: Rename byFBOption parameter
-90005d8525fde88b5725319071ebe0a8ee345273 staging: vt6655: s_uGetDataDuration: Rename bLastFrag variable
-1b0ab3e5b446cb167a7a1d2dbac72222edc17089 staging: vt6655: s_uGetDataDuration: Rename uAckTime variable
-7e471ddddac024403e9de486176d5dbec24651cb staging: vt6655: s_uGetDataDuration: Rename uNextPktTime variable
-302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 staging: vt6655: s_uGetDataDuration: Fix declaration formatting
-
---===============5519729237441104784==--
+--===============7308277835095773124==--
