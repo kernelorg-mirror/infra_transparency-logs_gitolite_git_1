@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7308277835095773124=="
+Content-Type: multipart/mixed; boundary="===============1580986776412235090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Oct 2024 09:55:28 -0000
-Message-Id: <172846772834.3617006.6152743571139431610@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 09:57:54 -0000
+Message-Id: <172846787439.3618152.856126645937359403@gitolite.kernel.org>
 
---===============7308277835095773124==
+--===============1580986776412235090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01
-    new: c1a5060ec80020ce879fa5b2a16875bd9a5ab930
+    old: c1a5060ec80020ce879fa5b2a16875bd9a5ab930
+    new: 00ea2b0dc6ff47e3d3d976fd788aa22373d042b8
     log: |
-         b5b7a2c92332b6f799e81f256aed6a93a0e037fd staging: most: i2c: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-         d09d3485969fbb38f8882dac830ba1b7ddbfbbab staging: olpc_dcon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-         c1a5060ec80020ce879fa5b2a16875bd9a5ab930 staging: Switch back to struct platform_driver::remove()
+         064894731cb4f905325e4c8356bca88fb41039d3 staging: rtl8712: use kmalloc_array
+         b87e5fd558976c9fa8be89efdd72dbabd10c16f3 staging: rtl8712: remove parentheses after &
+         00ea2b0dc6ff47e3d3d976fd788aa22373d042b8 staging: gdm724x: fix returning -1 with return equivalent errors
          
 
---===============7308277835095773124==
+--===============1580986776412235090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467741 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467888 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728467723-b48f7ec461cd72b83585959fb7fb5ccfd38b8364
+nonce 1728467870-97f6a5d618dbb1f89fac89ee212d68c7d3095861
 
-302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 c1a5060ec80020ce879fa5b2a16875bd9a5ab930 refs/heads/staging-testing
+c1a5060ec80020ce879fa5b2a16875bd9a5ab930 00ea2b0dc6ff47e3d3d976fd788aa22373d042b8 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGUx0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2+cQAKCSirHGtrF0TxfmmvNf
-gG7LdpoUuhhyH2A3Mg4FI3NStM//GRovJifJAHQoI+3Aex++HUjAWufo9d+KUacu
-5JBWkIiMzKYg8HEUiUSnftSxNMbWztEcTWWVSkCfHmfGJlGJ3Dc8ad5m7wlF7CSV
-CAzibDptzyd6jIqz9W2OAShwmwcjaPxgDbOcifvTyC/1YG9SD2hZuU27S46bnhTA
-70sLXI/5QIewTJKRKpOrwFg6glMfX8OQYgHlBQoS170xBnAcKnMnYTVeXn6iWa1E
-ajtF22jrmifpLoJCS8u++4wt9sbsHVxF9eWGpf8srLAnRNhg/qofuFB+PqtEDYqp
-sPm43i7QD7mx5Fmmv7CNW2cc/Ub+rCUxFCOgP375UWBbVi8JETx8SFwfdZsrqseV
-33BmAuALFe37+5QNdey6jpw/EfKzssgepmO+x6dkh6HUFWHUoRf2CnnaGYneLtil
-VbKqz8yPZ7WkVjVATizT+JD8LR/MnOY/eZVVWh7FhBO/WztfVgs9k/SMt92sE6IA
-7W6k4vrEcXd/hhtfuJ88ID3hwLpg6GgNjQL7XYy/s/tU564EfRz4I8Q3quiruqFS
-4iqpZWPQeOiuA3Ap/L9dXVJnVlDle1ma+BgP9sKJxwwp19+NOVRAgyP0oDDYnjJV
-rNGl//ioYV42e5ZaONfInU6I
-=8b5S
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGU7AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QO8P/jzcmSdTDOIkRZ8/z/cm
+04/fQuxrksCpL/YhR6YGoxtmHk4nguqq44kzA3Tv9Fh0HrQ4pFgoLKII59JK/RB2
+6WJ1m9Mjz4XlF/m5R6mh9jU1nosFY8TTULner+o41ue3DTrEfKMVow6oYoUzj4Av
+3lsHGvyik4ihkyx3QWmZDH2MDqyv6n+buOnC6NKiFxQ2Lcm8aSkoLZa/6Ir02PUd
+nCBmkbWKIMZSg9/qF74elHwiZ1LDGAmWjjOQLbGq76Op6sBiUtDqFEJh4mK+rWZS
+UpJppJwS5j1c5xC+7gK8IobMHj+LtsUneSkWf8FYSx5cayHMCCxNRJAUIlTBY4B4
+3aBig6/CwfM14r5EB+n+KfaDDg04zQyi1TZsCt4kc/Ax2MgyIfUdJSqu+iv0zOHQ
+s1sXtimvheAuZMeaWU0k66ZQ3BgNp+oh+Vrynjo6DxbJL4S/jjjBv9gGIkYwn/0v
+Q0B/y3ioEcnn453lezF4VtG03caxw052BJQEHbzbJyGGFs1jS+Xc2AbOuaOr7wF3
+qor5TFDlPI70DfUl4xDcbaytQUpfWhkAGor/x8RfYl579yNRVlE2dJGyfYdGlICY
+wOFMhMFXf/t6Vzr6uaj2b1paOqb2tfMVpdIVQ8t5DeW/5uN/YT7bsaYtsc2HLerk
+MCxhVmv81Xf/kJSBm+gJmeZQ
+=WqTI
 -----END PGP SIGNATURE-----
 
---===============7308277835095773124==--
+--===============1580986776412235090==--
