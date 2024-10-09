@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2270426054528644598=="
+Content-Type: multipart/mixed; boundary="===============0245417085001444540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 09 Oct 2024 13:24:13 -0000
-Message-Id: <172848025312.3783171.16443598494038310296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 09 Oct 2024 13:36:11 -0000
+Message-Id: <172848097161.3793577.3793717263780710520@gitolite.kernel.org>
 
---===============2270426054528644598==
+--===============0245417085001444540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-9852d85ec9d4-8cf0b93919e1.txt
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
+  - ref: refs/heads/for-next
+    old: f8a50cc19bec1c172d5077fa7cd8a76a4e88be8f
+    new: 21c2f8341b30e3100ee473d780c41c2d4c3b7d53
+    log: revlist-f8a50cc19bec-21c2f8341b30.txt
 
---===============2270426054528644598==
+--===============0245417085001444540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-f8a50cc19bec-21c2f8341b30.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -383,6 +380,8 @@ c9306a91c3fdc9915f5408561ea432c70b03383b bcachefs: Check for unlinked, non-empty
 0f25eb4b60771f08fbcca878a8f7f88086d0c885 bcachefs: Rework logged op error handling
 27cc6fdf720183dce1dbd293483ec5a9cb6b595e Merge tag 'linux_kselftest-fixes-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 7d59ac07ccb58f8f604f8057db63b8efcebeb3de platform/x86: ISST: Fix the KASAN report slab-out-of-bounds bug
+21e92806d39c68af2accd1fb238c2daecfcf9fbd function_graph: Support recording and printing the function return address
+474ec3e849686a02d00c5bd7a80c3042505b66bb function_graph: Remove unnecessary initialization in ftrace_graph_ret_addr()
 fb9b76749adb28d4cee88b296a9b21d834484541 Merge tag 'lsm-pr-20241004' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 9ec2236a0260f88362ab00510d19397c0e396587 Merge tag 'hardening-v6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 60b9f47eb3b01f829a94f7fea81bc8d59ff93dc2 Merge tag 'spi-fix-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -411,5 +410,12 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
+e32540b1e4b37fd720b59f8a504d7592fc3483bf ftrace: Use this_cpu_ptr() instead of per_cpu_ptr(smp_processor_id())
+2aa746ec0240dcbe70aef10f40fb1518f6dfb137 tracing/branch-profiler: Replace deprecated strncpy with strscpy
+49e4154f4b16345da5e219b23ed9737a6e735bc1 tracing: Remove TRACE_EVENT_FL_FILTERED logic
+4a8840af5f53f2902eba91130fae650879f18e7a tracepoints: Use new static branch API
+48bcda6848232667f13b4e97588de488c83c37d4 tracing: Remove definition of trace_*_rcuidle()
+e53244e2c8931f9e80c1841293aea86ef8ad32a3 tracepoint: Remove SRCU protection
+21c2f8341b30e3100ee473d780c41c2d4c3b7d53 Merge ftrace/for-next
 
---===============2270426054528644598==--
+--===============0245417085001444540==--
