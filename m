@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 09 Oct 2024 03:41:43 -0000
-Message-Id: <172844530340.3230889.1947962517570846949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 09 Oct 2024 03:51:10 -0000
+Message-Id: <172844587060.3238333.7362839769171259947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/dev
-    old: 8bedd862edfbb9a5e54dd37abede29020dd8fdfb
-    new: 9f5bcf3cb912fb153ec41a4b7c2a01a0eba38269
+  - ref: refs/heads/objtool/core
+    old: e542ea4fa6d4f8c0d7c3b0bb6c25d2a546837af9
+    new: 5308a61bd3ec34b863a4ec89d3b61cb429ebfac2
     log: |
-         9f5bcf3cb912fb153ec41a4b7c2a01a0eba38269 erofs-utils: lib: Explicitly include <pthread.h> where used
+         5308a61bd3ec34b863a4ec89d3b61cb429ebfac2 objtool: Also include tools/include/uapi
          
