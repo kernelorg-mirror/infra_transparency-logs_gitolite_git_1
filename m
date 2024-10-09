@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8522771477090876429=="
+Content-Type: multipart/mixed; boundary="===============2222442891700465368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Wed, 09 Oct 2024 17:18:36 -0000
-Message-Id: <172849431676.3971419.17842247325355290876@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 17:18:48 -0000
+Message-Id: <172849432831.3971642.685023382604937266@gitolite.kernel.org>
 
---===============8522771477090876429==
+--===============2222442891700465368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/main
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-1613e604df0c-9852d85ec9d4.txt
 
---===============8522771477090876429==
+--===============2222442891700465368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============8522771477090876429==--
+--===============2222442891700465368==--
