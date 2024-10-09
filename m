@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0783170342986671662=="
+Content-Type: multipart/mixed; boundary="===============2883749019734525530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 09 Oct 2024 20:45:47 -0000
-Message-Id: <172850674774.4133413.13052884144063515534@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 20:45:52 -0000
+Message-Id: <172850675251.4133571.6527965712590068544@gitolite.kernel.org>
 
---===============0783170342986671662==
+--===============2883749019734525530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 048bbbdbf85e5e00258dfb12f5e368f908801d7b
-    new: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    log: revlist-048bbbdbf85e-8cf0b93919e1.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: e8179a9cf163d240767fb82686122455cbc33ac2
+    new: c2d449ce0fbd658b1064ff8b41a0aec99740acf7
+    log: revlist-e8179a9cf163-c2d449ce0fbd.txt
 
---===============0783170342986671662==
+--===============2883749019734525530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1728506764 +0200
+pusher andi.shyti@kernel.org 1728506769 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1728506745-eaf138497bf7c253b654d478b859d5bd2672f5f4
+nonce 1728506750-4c90763898c04599e8a07020beaad1f03a0d8f4f
 
-048bbbdbf85e5e00258dfb12f5e368f908801d7b 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b refs/heads/i2c/i2c-host-fixes
+e8179a9cf163d240767fb82686122455cbc33ac2 c2d449ce0fbd658b1064ff8b41a0aec99740acf7 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZwbrjBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4m4A/jtgiBTWWBoKnXPZeNvkJWI3pdbf
-9dni3r10UbFdiOE/AQDCuXlu4Io2rUbPXoqOeVTXZjEiUWf5gdFNlt3tsNJQBQ==
-=CAq4
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZwbrkRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u0AwA/2dUFw6E7e/bj7MpX1okVjoUoWw1
+o/yZqZ3F3UXlwDE4AP0Vo1Nxx0PCBGatyQy5XL7vptHY216Eu6W5RG/mKlg1Bw==
+=Qiu0
 -----END PGP SIGNATURE-----
 
---===============0783170342986671662==
+--===============2883749019734525530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-048bbbdbf85e-8cf0b93919e1.txt
+Content-Disposition: attachment; filename=revlist-e8179a9cf163-c2d449ce0fbd.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -428,5 +428,45 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
+95b284dd7db8f913f8e00ad333f9a13b822550f7 i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
+28baf54220fdd09d36f32b68a04619706758bfa2 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
+4958d6225ff8043d150cd411b5bf47a77775b7b1 i2c: cadence: Add atomic transfer support for controller version 1.4
+02f87f141eca316ce03c4fa275c25bc092706b33 i2c: isch: Pass pointer to struct i2c_adapter down
+e6f0de4f4f33d9d582c7e027ef3cc2859dc99eb8 i2c: isch: Use string_choices API instead of ternary operator
+bab6f223c29740500e6d5d50bba587075e871ebd i2c: isch: Switch to memory mapped IO accessors
+8c6c07b665008d595612994f14ebe3072a2db9bf i2c: isch: Use custom private data structure
+e19676cad89aa2916d8408fc6e712d91ba54189d i2c: isch: switch i2c registration to devm functions
+f61940899458823943f21decf8c8637c7d788133 i2c: isch: Utilize temporary variable to hold device pointer
+47a50ed986c450feded5793c533682791b0cfec5 i2c: isch: Use read_poll_timeout()
+a643c8bb92d0e8b27001d2ae75ca44b13c23ebf2 i2c: isch: Unify the name of the variable to hold an error code
+74413a869eebd025ec4f6fdf4e0f35d44794cf3a i2c: isch: Don't use "proxy" headers
+9241e1e5fcd579035a9add248520bad902e51213 i2c: isch: Prefer to use octal permission
+cf6bc940b708f9ebd7334d278df5ce33f76b9e14 i2c: isch: Convert to kernel-doc
+fa689a6d51a949bf5640035a44ce2ee8c80b4ef2 i2c: i801: Add support for Intel Panther Lake
+6840313ff62e242f09250deac34ef201a9449ef8 i2c: piix4: Change the parameter list of piix4_transaction function
+f69961053073e96b0fbbcd73f8355ab330614ecc i2c: piix4: Move i2c_piix4 macros and structures to common header
+c9c692fc9fd113780bc1cf898451fcc5018fd7a1 i2c: piix4: Export i2c_piix4 driver functions as library
+b4010a8146041bef4a3aaf51c8ceaac633382401 i2c: amd-asf: Add ACPI support for AMD ASF Controller
+dbdb7072801d400c852a751bc09326ad64642b33 i2c: amd-asf: Add i2c_algorithm operations to support AMD ASF with SMBus
+b06a61e36532244b29a3dde12688a976866b4984 i2c: amd-asf: Add routine to handle the ASF slave process
+a2fb3ba9b975658d1c014f8310d072f9b6d42c37 i2c: amd-asf: Clear remote IRR bit to get successive interrupt
+6fc2c710d7227593b632ced0c0310d0e5d504bd2 MAINTAINERS: Add AMD ASF driver entry
+4dc25166b79f19327318204bde242c13093bf56f i2c: designware: Use temporary variable for struct device
+eda23552d68b8eac505f1a0b5ce46eef440cbcdd i2c: designware: Get rid of redundant 'else'
+b9cd779e4093d88eea2f0ebb2f10f8911cf7490d i2c: designware: Remove 'cond' from i2c_dw_scl_hcnt()
+375a545f8b98e9b0b8ecc0ebfa8b3b0269b19a8d i2c: designware: Use sda_hold_time variable name everywhere
+1f5a39582ce5616fd384362a016d3dbdacc2fd59 i2c: designware: Fix spelling and other issues in the comments
+4f7bd951da0bc55bc3b6947c699945f4128102c0 i2c: amd-asf: Fix uninitialized variables issue in amd_asf_process_target
+95a7e29e4cd40176157ba7a952917b22a26e2228 i2c: npcm: correct the read/write operation procedure
+3d542dbc47bf91f33862d2383243078a6cb20cd6 i2c: npcm: use a software flag to indicate a BER condition
+2addf71290581dd2d208362410efa4d7465a905e dt-bindings: i2c: qcom-cci: Document SDM670 compatible
+527c36abf236557d2fd898efb7b5552cb4201ab5 i2c: qcom-cci: Stop complaining about DT set clock rate
+acf3242ec0150b59a2326c3b90b3f1d1a7d02fd8 i2c: qcom-geni: Support systems with 32MHz serial engine clock
+e6be2197ec38fba2027f381e1cde1f49e4b43d21 i2c: Switch back to struct platform_driver::remove()
+6294823036c7a415a0eb79d72d8ecdac5a6f2471 i2c: designware: constify abort_sources
+59aa4b7d5c097ff21801aa8ed7bbd12287cd2e8a dt-bindings: i2c: microchip: corei2c: Add PIC64GX as compatible with driver
+0ddf2edda1104784055f6afe3832ce8d08d86747 i2c: qcom-geni: Keep comment why interrupts start disabled
+bfc2d0dd0230c93361bfd7da603489114d329f66 ACPI: APD: Add clock frequency for HJMC01 I2C controller
+c2d449ce0fbd658b1064ff8b41a0aec99740acf7 i2c: designware: Add a new ACPI HID for HJMC01 I2C controller
 
---===============0783170342986671662==--
+--===============2883749019734525530==--
