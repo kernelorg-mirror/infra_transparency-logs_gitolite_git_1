@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 09 Oct 2024 21:31:17 -0000
-Message-Id: <172850947706.4168855.9110692657252061810@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 21:33:26 -0000
+Message-Id: <172850960661.4169929.14894247782883163876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: pablo
 changes:
-  - ref: refs/heads/main
-    old: ce00c02c08bd84de74c68b7a7df1e6eff72d4537
-    new: c6a0862bee696cfb236a4e160a7f376c0ecdcf0c
-    log: |
-         05ef7055debc804e8083737402127975e7244fc4 netfilter: fib: check correct rtable in vrf setups
-         c6a0862bee696cfb236a4e160a7f376c0ecdcf0c selftests: netfilter: conntrack_vrf.sh: add fib test case
-         
+  - ref: refs/tags/nf-24-10-09
+    old: 0000000000000000000000000000000000000000
+    new: 2e3c1c9da98cb04b9741b02c28fa34477bd2b4be
+  - ref: refs/tags/v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
