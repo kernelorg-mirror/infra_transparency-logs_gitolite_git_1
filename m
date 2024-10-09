@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 09 Oct 2024 08:31:46 -0000
-Message-Id: <172846270614.3501469.3252930143671964083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Wed, 09 Oct 2024 08:31:59 -0000
+Message-Id: <172846271959.3501721.7903013271178028311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/v4.4-st57
-    old: 0000000000000000000000000000000000000000
-    new: b5f5caba9e17aa617f5764a9888662c3d0a90540
+  - ref: refs/heads/for-next
+    old: 794007a8c848dab99dfdfbaa2c7e143481026f32
+    new: f7a870d0be12e3ae38cbe899d858994c5b51f22b
+    log: |
+         f7a870d0be12e3ae38cbe899d858994c5b51f22b ata: libata: Remove unused macro definitions
+         
