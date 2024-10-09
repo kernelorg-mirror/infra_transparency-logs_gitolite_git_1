@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 09 Oct 2024 09:25:22 -0000
-Message-Id: <172846592274.3575803.1253894949055031816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 09 Oct 2024 09:31:30 -0000
+Message-Id: <172846629001.3596741.16102211703543787791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/next
-    old: e02af6e42126853215b54b39fcf184357da4233d
-    new: 0d3bf2a3c1aac8b4dd62a21b94fb4c1da18a6065
+  - ref: refs/heads/sched/lazy
+    old: 92779c9ce182aa5809ae6b482a07473088cb4bc9
+    new: 9f387646e0a457f96d6bbcbae9437f1413db70cf
     log: |
-         2d451b165afaafa045f824878813f3420a9f232a ethtool: pse-pd: Expand C33 PSE with several new features
-         f64d352479fd8bb0f6d067447f63a8506a459620 ethtool.8: Add documentation for new C33 PSE features
-         0d3bf2a3c1aac8b4dd62a21b94fb4c1da18a6065 Merge branch 'review/pse-pd-features-v2'
+         f93c7b1b8b25f04b3a6c47139ff4d8c1cb5db5c4 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
+         41396015c55adb50c57411ed66d0f0f9946e8bdc sched: Add Lazy preemption model
+         4ad923c8e486a8eefece417bbf6fcc7d57b83821 sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
+         9f387646e0a457f96d6bbcbae9437f1413db70cf sched, x86: Enable Lazy preemption
          
