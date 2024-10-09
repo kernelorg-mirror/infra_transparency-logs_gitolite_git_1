@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2557479878946556440=="
+Content-Type: multipart/mixed; boundary="===============5519729237441104784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Oct 2024 09:49:31 -0000
-Message-Id: <172846737122.3610389.1798374016742065596@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 09:50:55 -0000
+Message-Id: <172846745596.3613142.9305084737363606277@gitolite.kernel.org>
 
---===============2557479878946556440==
+--===============5519729237441104784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,80 +17,61 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: c2d2547783444a8c18d8c35a7ceffea85b02b0f6
-    new: 41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d
-    log: revlist-c2d254778344-41ffdb8faa1c.txt
+    old: 41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d
+    new: 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01
+    log: revlist-41ffdb8faa1c-302b4a0f5f9a.txt
 
---===============2557479878946556440==
+--===============5519729237441104784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467382 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728467470 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728467364-dd60ad23f4f7a2f9d85b31249ef07c9bc00de352
+nonce 1728467452-fee88126b1254d10e456a913aaed630e19eaa683
 
-c2d2547783444a8c18d8c35a7ceffea85b02b0f6 41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d refs/heads/staging-testing
+41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d 302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGUbYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JxQP/1/d68oejFBVNhtRdHmh
-Yl5doSkyyYpau6ma45jX/w+Ef96vUe4IeGlJ+RQJP9B3V1yzXVlWxEeM6WvPb9sy
-Msvx2oGbZObBJ9SQlDA9ocpHrA+mc6IvuNYjgDxmJWcED0Esn/YZmY2Ew0Cm5MhJ
-BYS16vPPUX9tbZNtdtY7liZ1JNlfW20o3DvvDA0uinL1VJtO41DFXt8220Q+eUVc
-BOC9MnW14p1ef9jxy0+dqTc3KFQLTVdwJGW5WtrJCifXFIK19yZpS8wOWBuDbxYo
-f7gzIopkmRUCCy6uLuJY75kRN6sP4eh2GAvGIA7wP4EgAkbjJUu/Hgpr32AU0BcO
-J/hiMEIIe5IjOeCJGSg0EvC4la4zJdzGcqsV3PF1QikcckSKoNOuszKtfZkziyxU
-yx+D0X3hR8LVWCcD3oLXz9scAzdnP3bHDjmYYs11Qev9DGDYsTl5f7ZBmBTDq9+g
-3ZwPt2IwFjnAugdwJt3MvNeCoU20y0NLX+L7IXAGGtQ+lYanZJ0++smW6sSB9hjj
-ZNJ+xnXbYeULXLU3Cj+L4WI7Kv94joV/sM/t6FIOiOE9x47OU80EGK1Mw/dm3bg+
-iTIHa1uPj0klZ3gzgJx7xGARsMAcpaeoZg+FaY2tqEo0tIt95V2paCni0u8QvEPP
-lIzXg/8eP/U8hGySRrvHylpG
-=78MA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGUg4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w/sP/0rLxfSc2m0vdDbxQ5hq
+kU8WtCh4/RHlvME1mzMVJoett6LwqBngf90abSjRHqNDl6Kmer9XxAr8LQ95Bzvo
+SVivbUCwKCWIjE738Qd9qMpxXFofqMaotdVxJGXDh0HHd9Bbx+Pg2tG6P6BdwsOX
+LCvt5upksD4PmnwpkJW/3Pe4qrzKgkWCqcarNonESZmRtXnlJ0JHqApVWGO6qQDM
+nAlfmT4aVH2SCsk1BvOPVyxdS6sKxKwlDtvR5NhGiWa/vo1FJMayOC6FB68BoSZ9
+U9DCpneRIrastz0GvUZDOdAx9qzoElhl7uNV64yD7pxvo4k+04HR3C6TsM/59krL
+24NCd3ufWrZ1AJZtfC263KVEegres1tXfmz8Ro3TGIG22FiBtEAw3QfstT1Y87PX
+iAsM/kJffsnfm7Xf6jtuqUmBuESMbAwuQNgHIYhbiqKi65YGf6JHFG7yRus6UvRo
+rxiB+E1YFbNdZo6DkC/S3kexkeYy3NFws0rmfORE9w5pk5cZB8HdAQ4gTn/0URbg
+OMhP7Ei/ki3seku9U6kjkYJQTecMSzI1AsSUq1vPe0et++IfXf3mwZK8w48n2HrQ
+qBbQcboiq/XyGsda0BdRqXEHvT1sa4DjOib0C21UKnDJbIFy67IHRX6Y3FL9vKS+
+j+TEOegulnEJQQcCHckAyx/5
+=z6HL
 -----END PGP SIGNATURE-----
 
---===============2557479878946556440==
+--===============5519729237441104784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2d254778344-41ffdb8faa1c.txt
+Content-Disposition: attachment; filename=revlist-41ffdb8faa1c-302b4a0f5f9a.txt
 
-03f11cc23ba8d26992e9917d4a49b5991992c946 staging: octeon: Use new initialization api for tasklet
-dbe78c2d92e8b1a3f55886ebd279ed8a13dcd457 staging: rtl8723bs: Remove unused function dvobj_get_port0_adapter
-62bbcb41d90727f35577980c7ab1088ed78241b3 staging: rtl8723bs: Remove unused function rtw_search_max_mac_id
-8f30688aa54ff4830a829562e7354377f3666be4 staging: rtl8723bs: Remove unused function read_cam
-da6f0393dade18ec1dd851c24f73a08090d6e2e2 staging: rtl8723bs: Remove unused function rtw_get_oper_choffset
-83ab7e15131467cbd73d7ea88379053729def1f0 staging: rtl8723bs: Remove unused function rtw_get_oper_bw
-a9992f31e8d972fdd4f66eefd90c73906da7b200 staging: rtl8723bs: Remove unused function _ReadCAM
-1e79c807c1b1b2f247596aa5cc5561ffbe297179 staging: rtl8723bs: Remove unused entries from struct hal_ops
-95d8d2fe2b09d0b3c582de0d6cc7399a696ba2c1 staging: rtl8723bs: Remove unused function PHY_SetBWMode8723B
-e0d9e93e205066450aceeb4b6f32a50fab21bf40 staging: rtl8723bs: Remove unused function PHY_GetTxPowerLevel8723B
-4e0fd2886a589fb58984ca8d88fd017c584a3bb8 staging: rtl8723bs: Remove unused function Hal_BT_EfusePowerSwitch
-ed89892e389626140af7725c4934b3e5c1f646af staging: rtl8723bs: Remove unused function rtl8723b_GetHalODMVar
-ffac46b81f7156a23e7f6285d5c418e3935460e8 staging: rtl8723bs: Remove unused function GetHalODMVar
-8d8d7dd53b5b5a34a9a4c723d34eea59246d7baa staging: rtl8723bs: Remove unused function rtl8723bs_inirp_init
-1101343355ca8b6bf2b517a1b059366a1f2da00f staging: rtl8723bs: Remove unused function rtl8723bs_inirp_deinit
-862f4fb8269f57cf41a4b10e3444440d5dcad0c3 staging: rtl8723bs: Remove constant result macro is_primary_adapter
-0436a4541a3027acbe798eefd08fbaeb66050d1c staging: rtl8723bs: Remove constant result macro get_iface_type
-764ddf185572d842d6680d1d9f28638f698e2a19 staging: rtl8723bs: Remove unused enum with first entry IFACE_PORT0
-acc5515c7e4f429fbfdfefdc32afc28d706715cb Staging: rtl8723bs: hal: odm: removed unnecessary braces
-5e0cadea408f4f252981a29b71646a7c934620da staging: rtl8723bs: Remove function pointer hal_init
-1ce42b5fe474d8ded8405175206ec2f92a4a6483 staging: rtl8723bs: Remove function pointer hal_deinit
-ac1b9999bfe2127f428c79682c3441547b508c1c staging: rtl8723bs: Remove function pointer free_hal_data
-03afcc9d52f46b01766507b87faec69e40024d02 staging: rtl8723bs: Remove function pointer init_xmit_priv
-d6a5fe6a2f4c74b98aa784a7f0b500f97995d663 staging: rtl8723bs: Remove function pointer free_xmit_priv
-4d54a33e7affe7afb52490ad5d856b21eaaef8ba staging: rtl8723bs: Remove function pointer init_recv_priv
-274c26e7531a0eb66a0a4c06f3da7cd701fa5820 staging: rtl8723bs: Remove function pointer free_recv_priv
-41dc2191962ad68de2355a91ad3f2d4d719c7b35 staging: rtl8723bs: Remove function pointer dm_init
-1bc38f006101f5a4627949b0ce4ec512f1a15878 staging: rtl8723bs: Remove function pointer dm_deinit
-484b521f100a988743ec9341ef12d969b16dc32b staging: rtl8723bs: Remove function pointer read_chip_version
-218fcc250b994330aaa18f26bfe0bbb8f1d5d703 staging: rtl8723bs: Remove function pointer init_default_value
-f6faa9db0fa2f5b707d27e0e5ef7b9689d22475c staging: rtl8723bs: Remove function pointer intf_chip_configure
-babb045cc3d7444e1f901955a0ecef8478da28c6 staging: rtl8723bs: Remove function pointer read_adapter_info
-4178941300fa8040ced3a1fe57412225f03f1331 staging: rtl8723bs: Remove function pointer enable_interrupt
-d8aa437cb808d1c24d27fa02ca9da4581bd7d349 staging: rtl8723bs: Remove function pointer disable_interrupt
-41ffdb8faa1cfc3b5b51e6664ee559c5e5a6390d staging: rtl8723bs: core: rtw_cmd: Missing a blank line after declarations
+95a85744bf2c32d45bd3e7666447e240480c79be staging: vt6656: Update maintainer in TODO
+09b869177b44557e0e44a4c30ad41206e7fa1306 staging: vt6655: rxtx.c: Fix too long lines in get_rtscts_time
+ad43c5c60cf8b0b847e039fb4aeef86396f87882 staging: vt6655: s_uGetDataDuration: Rename pDevice parameter
+0d90f4f7927b3fecc8ca233bdba94139be1bb810 staging: vt6655: s_uGetDataDuration: Rename byDurType parameter
+d56397f1eb5ddb4c026f749303f372194f98d7ea staging: vt6655: s_uGetDataDuration: Rename cbFrameLength parameter
+3bea8179a59d25faaec12d0885478aa1e47b8c66 staging: vt6655: s_uGetDataDuration: Rename byPktType parameter
+f47fff8b559902117825845de7e97b0777590540 staging: vt6655: s_uGetDataDuration: Rename wRate parameter
+b15914b71347ff7a94cf87885dd9f1db4710afee staging: vt6655: s_uGetDataDuration: Rename bNeedAck parameter
+2ecc3fe8636978894ab91b8d48c4fc30cabea01c staging: vt6655: s_uGetDataDuration: Rename uFragIdx parameter
+b8ba62bfc50d6c9be4106e8466f8dd4e240c40ac staging: vt6655: s_uGetDataDuration: Rename cbLastFragmentSize parameter
+71a63719eabbf11696ad02700a13d6e19cb1c323 staging: vt6655: s_uGetDataDuration: Rename uMACfragNum parameter
+99084e9936f6c5a5789145345818f20775d758de staging: vt6655: s_uGetDataDuration: Rename byFBOption parameter
+90005d8525fde88b5725319071ebe0a8ee345273 staging: vt6655: s_uGetDataDuration: Rename bLastFrag variable
+1b0ab3e5b446cb167a7a1d2dbac72222edc17089 staging: vt6655: s_uGetDataDuration: Rename uAckTime variable
+7e471ddddac024403e9de486176d5dbec24651cb staging: vt6655: s_uGetDataDuration: Rename uNextPktTime variable
+302b4a0f5f9a2f8fe0f9aafe990975f3667dae01 staging: vt6655: s_uGetDataDuration: Fix declaration formatting
 
---===============2557479878946556440==--
+--===============5519729237441104784==--
