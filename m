@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Oct 2024 01:26:25 -0000
-Message-Id: <172843718516.3127924.2711078243404527575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Oct 2024 01:26:47 -0000
+Message-Id: <172843720763.3128386.4405308197374891887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 3cb7cf1540ddff5473d6baeb530228d19bc97b8a
-    new: 08c8acc9d8f3f70d62dd928571368d5018206490
+    old: 3a04f87127f86b3d0ecc88b782d0c59a43b5bb74
+    new: 36efaca9cb28a893cad98f0448c39a8b698859e2
     log: |
-         08c8acc9d8f3f70d62dd928571368d5018206490 net: ibm: emac: mal: fix wrong goto
+         36efaca9cb28a893cad98f0448c39a8b698859e2 net: phy: microchip_t1: SQI support for LAN887x
          
