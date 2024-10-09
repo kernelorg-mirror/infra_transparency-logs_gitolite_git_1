@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2702908739190449818=="
+Content-Type: multipart/mixed; boundary="===============6193343259074466433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 09 Oct 2024 09:38:06 -0000
-Message-Id: <172846668607.3601607.9214466782727498768@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 09:38:16 -0000
+Message-Id: <172846669617.3601862.11195003556352290822@gitolite.kernel.org>
 
---===============2702908739190449818==
+--===============6193343259074466433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     new: c2d2547783444a8c18d8c35a7ceffea85b02b0f6
     log: revlist-8cf0b93919e1-c2d254778344.txt
 
---===============2702908739190449818==
+--===============6193343259074466433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728466689 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728466713 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728466671-3e6fa5ee9f618571df5205a341c39a81ac877be5
+nonce 1728466694-1667d773fa51083cb1e5395b39bde0d7be8bdb3b
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b c2d2547783444a8c18d8c35a7ceffea85b02b0f6 refs/heads/staging-next
+8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b c2d2547783444a8c18d8c35a7ceffea85b02b0f6 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGTwEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GUgQALA+T2IZU2hyZ3Z74ymA
-LvRvpkJS1jbz52YR1fK/EASU8cc/mZCh8Agbi6Eu844XKjhLn9cz2izJCNaXjVfS
-prU+RnpG9vmKmzS5BJvG8WJ6KM6rFQWBh/3VBqOlZYmfyya/5tuVNgC457mbP1bQ
-jR0DiziNxxy8XWMkqTH9/miohjRqbkykHruNG0J2a8YgZE9/eR6A9wSVGrndUOL8
-pb7joCctosQUOFsmhSv0ADIcI+L5bIIM7b90w3xTFcdabLQa9dDF0Dj6xWXgPLWi
-LIG9lP76OfY75eAlfChtnAbWOl6tUsGeottWf0nwOM9XdFqYb9PmWXvshOZAXiO3
-sK41x8yfotc1B8t56yOh8NSGxJDPHpVX/C9Vmy1+q0AMrslQJI8c2CESDvtxjpfi
-jRMGFt+Pg4y7GaUQvnNJRGdAc+ZFSzOLTJocrO59lHl9UuLsXrrFWojzcILB1Ad1
-Pj145vggtYBOwF9ALYGzWSLqFjecXIt7NhHAoYtuRT/vh7sEiFcJf4/uOMrOlmZ4
-81Yemsq5x2DCE8r9vDLM5BrdKwcRCgVysb80y8NhJXCiW1KrESA4Akqfp4anQ/ny
-0dzIVqVa5cGf8ETkj9KEUWRTrdD4MdWgvX3dPjAUjIbcQmB2uMGLQ+7aEJJ1UiNw
-ZQ3DWmMOvsrrfoNKa/KDt7xe
-=+cNd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGTxkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jywP/A2vGfe62J8HDSaG49VA
+PxAgR1vawW0k2LsHk5/qWnjjy/fA2AjcFX9zcFqRWM6UWuKXl+fPX1zycHeSB15u
+6Cyn5+1su/3xii+TdOY6EAysZPlMhtgYqR9u7zwkI3WQshxttq6fdTuIXP5fFuIe
+K+LxCWfdLU0HT77VGx+wSSv7J03eYyAzuqLkyzyJIQ1X+8kQpTO0wpH8K8tX78DV
+6Kf0xhXzEZhMjIpD2oxW1qsE7GpeA8ns7UaxjkaX+PyLnIJxsjPWLs8anqLciQgC
+sjOG2l2NoUZP00d78JZsakqgZqN9nzKnICHPt19b/qWBmek/eRfhIO0LsJhELkpo
+BUBaexYbNldundLMVhvL42IN1Diog8Mvao5j8JHPCJDKPMUBAuMnSmGQM4Xtp19d
+YnIAp3SC24BtEEeby2kyXCJnaSaGOUzMRKfFCD6BBBtQBakULgJkAShUmg/lIMmE
+8GA+SsuC/eF+/roFkVJNhn/yh/ClO/ZTpD0NK+W9rbtEdtzsbSeTEMnygfjJbmm1
+rjFosj7MElRqHszkwGaHwpnjFOkuMWmSLJ8XCWEYMoLaP83Q+Iu0EiD1cOxdB5+j
+Gc40tNlNMjJAnqcHpaqe4h8byRVbdychlZv1djBWpjOiDtY4E0e+3kqwQY9sRWUj
+aJXyhLwsn9ZwiCf9fVtDO2LL
+=qNkS
 -----END PGP SIGNATURE-----
 
---===============2702908739190449818==
+--===============6193343259074466433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -276,4 +276,4 @@ db03488897a70367aeafe82d07a78943d2a6068e Revert "wifi: cfg80211: unexport wirele
 a0efa2f362a69e47b9d8b48f770ef3a0249a7911 Merge net-next/main to resolve conflicts
 c2d2547783444a8c18d8c35a7ceffea85b02b0f6 Merge wireless-next into staging-next
 
---===============2702908739190449818==--
+--===============6193343259074466433==--
