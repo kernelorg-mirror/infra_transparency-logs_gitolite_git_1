@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0046678959002241345=="
+Content-Type: multipart/mixed; boundary="===============2877385784709030315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Oct 2024 20:36:15 -0000
-Message-Id: <172850617568.4125208.6836817830155974158@gitolite.kernel.org>
+Date: Wed, 09 Oct 2024 20:36:17 -0000
+Message-Id: <172850617796.4125289.415682260922466307@gitolite.kernel.org>
 
---===============0046678959002241345==
+--===============2877385784709030315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 42b2331081178785d50d116c85ca40d728b48291
     new: 6607c17c6c5e029da03a90085db22daf518232bf
     log: revlist-42b233108117-6607c17c6c5e.txt
 
---===============0046678959002241345==
+--===============2877385784709030315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ f31fd0b3b21c38fefae414188850b87ce404571d Merge branch 'pcs-xpcs-cleanups-batch-2
 1ffcc8d41306fd2e5f140b276820714a26a11cc4 r8169: add support for the temperature sensor being available from RTL8125B
 6607c17c6c5e029da03a90085db22daf518232bf net: mana: Enable debugfs files for MANA device
 
---===============0046678959002241345==--
+--===============2877385784709030315==--
