@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0374358063971306320=="
+Content-Type: multipart/mixed; boundary="===============9130877225387354032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 09 Oct 2024 07:56:02 -0000
-Message-Id: <172846056252.3471837.8260764487556095184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 09 Oct 2024 07:56:50 -0000
+Message-Id: <172846061034.3472415.3458601815945615323@gitolite.kernel.org>
 
---===============0374358063971306320==
+--===============9130877225387354032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v6.12-next/dts64
-    old: 8f8d13c8e3e022329cfd0a520238e76eac6edd35
-    new: c91b68e08ce0165f85ba971f51d8c936039ba897
-    log: revlist-8f8d13c8e3e0-c91b68e08ce0.txt
+  - ref: refs/heads/usb-linus
+    old: 39845764a0ca01a89dca4ff5b4e9d896ee410054
+    new: faa34159d08089036b6119c85e279fb36abb8bb5
+    log: |
+         faa34159d08089036b6119c85e279fb36abb8bb5 net/9p/usbg: Fix build error
+         
 
---===============0374358063971306320==
+--===============9130877225387354032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f8d13c8e3e0-c91b68e08ce0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-242372c0a2367f9f7c93ebd968e248ec0d281959 arm64: dts: mediatek: mt7988: add UART controllers
-8e7a6a0b622a1a5901deb2ab422ca1b991c7a971 arm64: dts: mediatek: mt7988: add efuse block
-3e490a814c9ad150ab96d29c4eb6f47ace9592c0 arm64: dts: mt8183: krane: Fix the address of eeprom at i2c4
-e9d6f9710c49ee98b91ad711090f39ca08c06d8d arm64: dts: mt8183: kukui: Fix the address of eeprom at i2c4
-a9ddba38088879fe28341e7736f36544cf2e1737 arm64: dts: mediatek: mt8188: Assign GCE aliases
-b0635a3b7afa3d68f2375579337275a74ffb1bc5 arm64: dts: mediatek: mt8188: Add PCIe nodes
-8d52d6154c9daab7d12ec23efba0e01d584d74d8 arm64: dts: mediatek: mt8188: Add MIPI DSI nodes
-43df40c2ac6bf281a87a1be48ff3f04a9ec07ce0 arm64: dts: mediatek: mt8188: Add video decoder and encoder nodes
-0b4dd70aab1ba3d0bc07d712450bd137bf91d794 arm64: dts: mediatek: mt8188: Add JPEG decoder and encoder nodes
-09a53216fb57009c008ad4c3c810f6f8fc868067 arm64: dts: mediatek: mt8188: Add display nodes for vdosys0
-143fef94317508f0c6b14adb734315964af2d85e arm64: dts: mediatek: mt8188: Add display nodes for vdosys1
-a106a271362f67aacc827f48dac83dc6f00682fe arm64: dts: mediatek: mt8188: Add DP-INTF nodes
-c91b68e08ce0165f85ba971f51d8c936039ba897 arm64: dts: mediatek: mt8188: Add eDP and DP TX nodes
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728460625 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1728460607-87b77f5486ac72efe77b01c3b3c9b540bc4ae9e0
 
---===============0374358063971306320==--
+39845764a0ca01a89dca4ff5b4e9d896ee410054 faa34159d08089036b6119c85e279fb36abb8bb5 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcGN1EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KS0P/iHZio/K5QDC4i4AV8MF
+K4skdCaxrDJi4x9dD6g3sbP8I6fGVZU8thT1pRskV9xiGjaSlL2prd8n5+zOtfuj
+XQCARtOmJZBZxa4Hzt6xpASfscdgDWoaLl+qSm6tdn7Ye0z1BKsti0ZedNoc4Dqz
+CY1jR3hcJa52ApsWsmp3O1OQ8LUo+RPIeSc5bFhJ8aRTxoSZb5bZvCxFwgdjSNob
+Drufj4BUjHvTqNywCv/bIkdbTzt2fogZMyRxgKsA+mZy7VeX/FLv9xFbeXSMoBva
+pN+rbSZJg69V4iYmIkhcCFPGqfY0AxIrFHbmgAcrFoO00BACzmzmozDM1Ce/adoB
+1LEnibmSM9/Vp6cRKfackjEe5p25EsFDPY/63Y3PZJkuBgHlFlw2pdC9Qs9ed+BD
++dY9gQOf0+O16k+RM15pLMSLzQfBxvi79I3cF0SbDWcHet6m73H9X0RlxGOwWCQR
+FkyJNht2YLNdaO29UO71/JLAi1GebF4IeQKOmuiDiI+uhApzE8xWQLfcEcXw1jE8
+GuEqdX6gYTpZYrXneDcJ0uIxeVKMww6NG7ymdcpmt72gEt04KmXnLTncJRbV9N+8
+iT0lVsnn+eFcXHTm3DvismREI+OYDbPk64layYyqR/l581xczkRHJ0aPDpyI19IV
+VOOq/ylSsRFhrHvZx44ROzul
+=FQ7j
+-----END PGP SIGNATURE-----
+
+--===============9130877225387354032==--
