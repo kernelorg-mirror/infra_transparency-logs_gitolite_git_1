@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4058789482434365347=="
+Content-Type: multipart/mixed; boundary="===============2942979492683755861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 10 Oct 2024 13:13:38 -0000
-Message-Id: <172856601833.1135390.3177880718233039283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 10 Oct 2024 13:13:40 -0000
+Message-Id: <172856602015.1135465.817741517600934531@gitolite.kernel.org>
 
---===============4058789482434365347==
+--===============2942979492683755861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: d3d1556696c1a993eec54ac585fe5bf677e07474
     log: revlist-87d6aab2389e-d3d1556696c1.txt
 
---===============4058789482434365347==
+--===============2942979492683755861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ b1815690289449c2973b7ca77aea0e155677176f CREDITS: sort alphabetically by name
 aa5f0fa6af38d96bc6f1b7e1534f5b5c025930a6 mm: zswap: delete comments for "value" member of 'struct zswap_entry'.
 d3d1556696c1a993eec54ac585fe5bf677e07474 Merge tag 'mm-hotfixes-stable-2024-10-09-15-46' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============4058789482434365347==--
+--===============2942979492683755861==--
