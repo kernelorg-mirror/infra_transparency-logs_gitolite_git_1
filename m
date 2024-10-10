@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4460374432457829668=="
+Content-Type: multipart/mixed; boundary="===============0406919948990734252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 10 Oct 2024 09:59:42 -0000
-Message-Id: <172855438277.661297.1814091233488810907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 10 Oct 2024 10:00:06 -0000
+Message-Id: <172855440642.665834.7864883225578094492@gitolite.kernel.org>
 
---===============4460374432457829668==
+--===============0406919948990734252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/notes/signatures/tar
-    old: d1cc0db453f1fd2b81310c71fb0e6a2de6d49b4a
-    new: aff6bf1c3b946d6aa06790f6c30e878433143fb4
-    log: |
-         aff6bf1c3b946d6aa06790f6c30e878433143fb4 Notes added by 'git notes add'
-         
+  - ref: refs/heads/vfs.file
+    old: e30211f27924d3107bd275cbc373c229d98397d3
+    new: 758d25594e09696e7aae0985cc8494405f2af2ae
+    log: revlist-e30211f27924-758d25594e09.txt
 
---===============4460374432457829668==
+--===============0406919948990734252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e30211f27924-758d25594e09.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728554400 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1728554379-ff658d62497f4217a595a3f22dc602de6a895418
+8fd3395ec9051a52828fcca2328cb50a69dea8ef get rid of ...lookup...fdget_rcu() family
+be5498cac2ddb112c5bd7433d5e834a1a2493427 remove pointless includes of <linux/fdtable.h>
+1fa4ffd8e6f6d001da27f00382af79bad0336091 close_files(): don't bother with xchg()
+cab0515211f483e392d6862021ed008f49058561 move close_range(2) into fs/file.c, fold __close_range() into it
+52732bb9abc9ee5b82ed62edef51be4a255fc78a fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
+c9a3019603b8a8519f1b6d8ae0059bcb2965f8fe fs/file.c: conditionally clear full_fds
+0c40bf47cf2d9e1413b1e62826c89c2341e66e40 fs/file.c: add fast path in find_next_fd()
+1d3b4bec3ce55e0c46cdce7d0402dbd6b4af3a3d alloc_fdtable(): change calling conventions.
+e880d33b49e62a76a23d2dcdb32e088a6553d299 file.c: merge __{set,clear}_close_on_exec()
+b8ea429d7249253ec1fe90dffc648f0668d12385 make __set_open_fd() set cloexec state as well
+6a8126f077f9d1f33613c9fa3dbd9a6774c6c4dd expand_files(): simplify calling conventions
+758d25594e09696e7aae0985cc8494405f2af2ae Merge branch 'work.fdtable' into vfs.file
 
-d1cc0db453f1fd2b81310c71fb0e6a2de6d49b4a aff6bf1c3b946d6aa06790f6c30e878433143fb4 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcHpaAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NaMP/j9iNFS6hnFeXD7llkA6
-uudWeBmAvRDMKU9GGHF0bw7YrLfCZYeFrtkcdm+9Z23FJe1QBxwpYn6Bb2ruM920
-Fm7+GLKFaTn6m1sViC7/UAf/ik4GHVBqUf9dkdgrHO0OESMVeJPkjkjUINPwMO/n
-XGFJqySk+OAf7s22cneZX1QymwbZGo4ECQDxMVo38bI26xFVLVAZw7RxX/whdx9t
-iXm1OwLmEFCSNGwJbnNESI8ZMphTPJ7mEU5GzcNCOlIdICJEcgDfs+igSSq6ZqJL
-lbJooP/xcC3vrPRdsL1vBW8CAwX0qWfY83m2SUVpg8PVPgVYFonF7Evv8mdXrsoZ
-W5edVEgQF8OeO559sf5LfWwVCvmCnJLUiXG/o4//3H48PiTU/f6QcHSE0P5NBnjl
-/3dtSLKga03bVaaPr82jJe3WwlB+sjXvsvQA/4XryzoZPEA8R/LzDdLD9ktjVh3g
-5q9jidrnB2TyU6otZvKfK4tOMl2N5DgAVMQLtlWERiFI3bJlbOy+QcGDUwz4d6ut
-KpjvLHfr356hQMEdybCIYs9NksWDjSVdAe9T/mFK9JhjlVfCIFBmIw+Sc5Mji4NY
-ofzimVzJ1eYXfzHIHoqf5rlJae2qLc/bAM8SntRaorzzZtN6aeLm2rGP8nvaTDZr
-LUYJ8uEzAGLD3YRp9L9be7rv
-=1i0J
------END PGP SIGNATURE-----
-
---===============4460374432457829668==--
+--===============0406919948990734252==--
