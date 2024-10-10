@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 10 Oct 2024 15:08:10 -0000
-Message-Id: <172857289027.1234770.8500021188953894671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Thu, 10 Oct 2024 15:09:52 -0000
+Message-Id: <172857299269.1235984.1190718023823599482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: frederic
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/rcu/fixes
+  - ref: refs/heads/uprobe_session_26
     old: 0000000000000000000000000000000000000000
-    new: e3f7a9e1bbb06b2112d58970110e51efa7b4fc0e
+    new: 12c895e6c6b63c258ddf89e62c55f276a7b80522
