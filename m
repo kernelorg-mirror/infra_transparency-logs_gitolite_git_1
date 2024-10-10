@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 10 Oct 2024 18:46:48 -0000
-Message-Id: <172858600820.1423474.12184579159242172169@gitolite.kernel.org>
+Date: Thu, 10 Oct 2024 18:51:55 -0000
+Message-Id: <172858631502.1427622.14018669693484685892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/dev.2024.10.08a
-    old: 0000000000000000000000000000000000000000
-    new: 6f59a3af66d110115e2a7a2c55e781988b6c009a
-  - ref: refs/tags/nolibc.2024.07.12a
-    old: 0000000000000000000000000000000000000000
-    new: 5e677ae478d041b0dad31a57c003ed9529fce6f4
-  - ref: refs/tags/rcu.fixes.6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0cdeb0b080818eaf837e7f779497ace35623e76d
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
+  - ref: refs/heads/dev
+    old: a43a062318ec04060e59bfc24c6c789095561175
+    new: b09bcf8e1406d5cad519b7b43a974fea20abc7f4
+    log: |
+         58b143bf6b9b978e7433b68a704997a9eb3dc770 srcu: Improve srcu_read_lock_lite() kernel-doc comment
+         d1b99fa42af7b5e09a744e5485263bfd357dba6f torture: Add dowarn argument to torture_sched_setaffinity()
+         aed555adc22a7861cd9ec310a15a280d9d49aa70 rcutorture: Add random real-time preemption
+         b09bcf8e1406d5cad519b7b43a974fea20abc7f4 rcutorture: Make the TREE03 scenario do preemption
+         
