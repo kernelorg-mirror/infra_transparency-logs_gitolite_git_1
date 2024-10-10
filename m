@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Oct 2024 16:18:34 -0000
-Message-Id: <172857711488.1300381.7192719791425991707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 10 Oct 2024 16:18:47 -0000
+Message-Id: <172857712716.1300586.5938769980220888859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: bdb5d2481a53a5d900a9fdb9aea9dbe75fb05773
-    new: cd959bf7c3bbaf64a29750c5e36776078a18a8fe
-    log: |
-         cd959bf7c3bbaf64a29750c5e36776078a18a8fe net/smc: Address spelling errors
-         
+  - ref: refs/heads/arm64-aa64mmfr1-2024-09
+    old: 0000000000000000000000000000000000000000
+    new: 0d5957117280c97b26a9a67177f956be4e2a80db
