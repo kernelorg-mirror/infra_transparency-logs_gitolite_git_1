@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8260029005299774392=="
+Content-Type: multipart/mixed; boundary="===============1722956387956752776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Oct 2024 15:33:45 -0000
-Message-Id: <172857442507.1257329.10514808075558684547@gitolite.kernel.org>
+Date: Thu, 10 Oct 2024 15:33:47 -0000
+Message-Id: <172857442728.1257426.4193560606687926641@gitolite.kernel.org>
 
---===============8260029005299774392==
+--===============1722956387956752776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 983e35ce2e1ee4037f6f5d5398dfc107b22ad569
     new: ffc8fa91bef547ed419fb093e5e1703567552d2a
     log: revlist-983e35ce2e1e-ffc8fa91bef5.txt
 
---===============8260029005299774392==
+--===============1722956387956752776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ d51705614f668254cc5def7490df76f9680b4659 mctp: Handle error of rtnl_register_mod
 b5e837c86041bef60f36cf9f20a641a30764379a phonet: Handle error of rtnl_register_module().
 ffc8fa91bef547ed419fb093e5e1703567552d2a Merge branch 'rtnetlink-handle-error-of-rtnl_register_module'
 
---===============8260029005299774392==--
+--===============1722956387956752776==--
