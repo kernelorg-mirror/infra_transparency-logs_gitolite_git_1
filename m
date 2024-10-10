@@ -1,57 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1772273674938204515=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 10 Oct 2024 09:08:41 -0000
-Message-Id: <172855132159.616566.1912161537270141316@gitolite.kernel.org>
-
---===============1772273674938204515==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 10 Oct 2024 09:13:04 -0000
+Message-Id: <172855158494.620491.13532103418213948615@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    new: f893691e742688ae21ad597c5bba13bef54706cd
+  - ref: refs/heads/gpio/for-next
+    old: b7adfb6076ff0c1ebbde56d1903daa3d07db92c5
+    new: ea7f2dfd13e096dce3198e5ffdb00d21bf7c8fe5
     log: |
-         a69dc41a4211b0da311ae3a3b79dd4497c9dfb60 rust: types: add Opaque::try_ffi_init
-         f893691e742688ae21ad597c5bba13bef54706cd rust: miscdevice: add base miscdevice abstraction
+         6f1067cfbee72b04fc42234f7f1588f838cec0b6 mfd: Add Congatec Board Controller driver
+         4342bf63b64b09561f4ad1537de2e1a971cfb197 gpio: Congatec Board Controller gpio driver
+         6894f640b8f3f48700ccc828419ba60704f5a405 i2c: Congatec Board Controller i2c bus driver
+         6f264047869e9683520ff8f7c235c07c1ca989d6 watchdog: Congatec Board Controller watchdog timer driver
+         590bcce85e014a2e16afe910bc6a20b4c1b2b374 MAINTAINERS: Add entry for Congatec Board Controller
+         ea7f2dfd13e096dce3198e5ffdb00d21bf7c8fe5 Merge tag 'ib-mfd-gpio-i2c-watchdog-v6.13' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/lee/mfd into gpio/for-next
          
-
---===============1772273674938204515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728551336 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1728551317-502c1344e4f2f9d44e2c640efd29b860e6f1b85a
-
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b f893691e742688ae21ad597c5bba13bef54706cd refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcHmagbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F1YQAM6SDr90EzX7FykL60Hf
-nBfi0KwLEWdwAwcpDpfOvsBDq97zMNsfvcPda65o8P97EDBGy+Gie36YVQYtaYBa
-gJNbFKqc+spm/XS5A0yXBlXiHNkKpheAq2eHOm9iR1S91bg7eWaXI536s4yLurlh
-2mP3XKQyTjESYZvvro4z+YhtufwZsjO6HzdXSSYJLQVGAa44S/r8W6VRuPR6YhS7
-1P51GIlF+zGFp3kXpb+sos9e/hF7UG3SCQqO/CJW8d6Wpatb3j7oEZg3T8CzRXA8
-Y+b7msA6pMI4Xeu6AtpPv9scWW3zs7UvAASWPJSHe8R8jvudyGXJqWB6xASsJqnJ
-eceMDhCmZzxYUBzA3L/OcGyJ8hHEQJcgZzl/YxvdzmiAIYrwxUW8+2fI24ddhlXP
-NchjMvV4J0OgMV4/RMEDp/oKZepKgNZg7RZVcPRD2V0+8ciIlh2fr69y2RMoukQj
-+4P1Y11GwZHDa1qTHphDJCeKuw4CjUdAqwJhnpUAu0Qu8xXyhLanzoLdrCb7yr2m
-30d64Ry9VqIatm1QHgyh0onKr6Vg/oJzmYH8YRhqOmg8ApcYEbrUTKLtZeLcq/kX
-xwtGrW3xzMcAOoxDNIVik2Q82Vj4kefQHKYB0Xk3XbsVGLGBfrOtTWQBsfcpEIzq
-xEWNI2Nf8c1bE9gcvw3n+fw0
-=qNWE
------END PGP SIGNATURE-----
-
---===============1772273674938204515==--
