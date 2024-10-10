@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1608686374167782187=="
+Content-Type: multipart/mixed; boundary="===============7857780498662444212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Oct 2024 16:27:25 -0000
-Message-Id: <172857764591.1310495.39170360427741118@gitolite.kernel.org>
+Date: Thu, 10 Oct 2024 16:27:28 -0000
+Message-Id: <172857764814.1310593.11367416896475325709@gitolite.kernel.org>
 
---===============1608686374167782187==
+--===============7857780498662444212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 16aef66643a2f92275351caaaa4640bbaf84040c
     new: cd959bf7c3bbaf64a29750c5e36776078a18a8fe
     log: revlist-16aef66643a2-cd959bf7c3bb.txt
 
---===============1608686374167782187==
+--===============7857780498662444212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ ef490bbb2267023f3ce60aaf07df10b3a031fb59 iavf: Add net_shaper_ops support
 bdb5d2481a53a5d900a9fdb9aea9dbe75fb05773 Merge branch 'net-introduce-tx-h-w-shaping-api'
 cd959bf7c3bbaf64a29750c5e36776078a18a8fe net/smc: Address spelling errors
 
---===============1608686374167782187==--
+--===============7857780498662444212==--
