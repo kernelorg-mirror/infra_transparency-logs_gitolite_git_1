@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8796586436114832646=="
+Content-Type: multipart/mixed; boundary="===============1617226398636507664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Oct 2024 10:36:07 -0000
-Message-Id: <172855656793.834625.18076845797603315144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Oct 2024 10:36:14 -0000
+Message-Id: <172855657481.834802.17678335713377915290@gitolite.kernel.org>
 
---===============8796586436114832646==
+--===============1617226398636507664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 9814c1447f9cc67c9e88e0a4423de3a496078360
     new: 3fe9f5882cf71573516749b0bb687ef88f470d1d
     log: |
          3fe9f5882cf71573516749b0bb687ef88f470d1d ASoC: dapm: avoid container_of() to get component
          
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 5cd575a87f141e438b3e062533bf0c6cc9eba99a
     new: 7d04763cae9947464e30886a6c42e22ffed5caf8
     log: revlist-5cd575a87f14-7d04763cae99.txt
 
---===============8796586436114832646==
+--===============1617226398636507664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728556584 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1728556565-cd986980f08a95bc28dca5dd8a9e62a5f9ef1d9a
+pusher Mark Brown <broonie@kernel.org> 1728556591 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1728556571-8a7e231832fa6f46c5fb8a2a97bcd553f9c7bbf4
 
-9814c1447f9cc67c9e88e0a4423de3a496078360 3fe9f5882cf71573516749b0bb687ef88f470d1d refs/heads/for-6.12
-5cd575a87f141e438b3e062533bf0c6cc9eba99a 7d04763cae9947464e30886a6c42e22ffed5caf8 refs/heads/for-6.13
+9814c1447f9cc67c9e88e0a4423de3a496078360 3fe9f5882cf71573516749b0bb687ef88f470d1d refs/heads/asoc-6.12
+5cd575a87f141e438b3e062533bf0c6cc9eba99a 7d04763cae9947464e30886a6c42e22ffed5caf8 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcHrigTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0OFkB/9uxaB74IkuoFARdNHGtnQNWt1znd+8
-UCYVS7KRMray1ZaYbQDNxfPzUv3X7yaBOYv+yt+9iXqCtb0BrIhGI6nwHk9hmkvq
-dRmRJ8gxRg56RgZg/TkSPaw90Wb6F75DFNm+sky/YZ2noZQQxqQxCQBPo4/q+OLO
-NW9FKfm2zlIPH6P/g2ChPC9kCWzAJtEs3Nm+CjvuceCz2f8KAmiUZ9KgBtv1zxgL
-6TmG2/jjf2s25p8fAV3X80/HjRX2B2JLdphL6sKECL98F8YKXwPrdUTwksFltAKB
-Iom6u6Jn7mYeocAxJuS6q1ofVaTJLsJpA0DE3uT5MpJnifqCIB9pOwY6
-=Quwn
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcHri8THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Dl9B/9QTDgKfX5to0JICGyeUimgBFYp5Zoy
+gw/yk/ZTZHpdZzOykwfzKqomvJCTdNfe5a4gybyiid/WGNOUdXC5F342eYcxnr10
+mxEA5b/tulERLc+mHE2d7DEu2sRjOYe+0UZ07qARTeYa4vHrBH3jTIxnByCGF5mq
+IOh2iTC3lXCupDRD50zoH5Nd1U1/2CjA7NpjpiqzCj89RN/5zM/3QEFWIPSGAKH1
+78WOiW3Eq98SEkEJNYehZtDTfM64vQhWqXNeVUDzAcobXGb+q9C0yvh2RzdmkxBS
+82V8SZ/CO5mlF3GTwFC+FyI6fNlkQNoGcQztacjIqfxToApJ1wK8Vc7u
+=e8kg
 -----END PGP SIGNATURE-----
 
---===============8796586436114832646==
+--===============1617226398636507664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ ba4c5fad598c07492844e514add3ccda467063b2 ASoC: loongson: Add I2S controller driv
 721c55be2d9fab4b5c7469fa8045fb00c037a21e ASoC: SOF: ipc4-topology: Rework the module audio
 7d04763cae9947464e30886a6c42e22ffed5caf8 ASoC: Some issues about loongson i2s
 
---===============8796586436114832646==--
+--===============1617226398636507664==--
