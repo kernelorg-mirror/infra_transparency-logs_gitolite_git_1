@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 10 Oct 2024 09:49:55 -0000
-Message-Id: <172855379598.653129.11356610890547653922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 10 Oct 2024 09:56:49 -0000
+Message-Id: <172855420908.659343.14846399307360961499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/spi-6.13
-    old: c2a59c892f20379a3e48124a83491a12374cd7e0
-    new: e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d
+  - ref: refs/heads/arm64/stacktrace/metadata
+    old: 2c4fc335f7f8caf89f1addf6e82aa44cdc37783c
+    new: 196d5a7add6ffd9ec3b0b0d55f554dd17e47a379
     log: |
-         66c1c4175bbdfcf1cb1411b1ea62e7e0b5571594 spi: spi-fsl-dspi: Fix casting warnings
-         f3a59ab98cfc18c7b2fb1d8164bedbb1569a7e76 spi: spi-imx: Fix casting warnings
-         f7bc15211fc6946203dd7e57c123f1e387d7225b spi: rockchip: Perform trivial code cleanups
-         cb91287b3b6d42e66f948fbc304f771792c2852f spi: rockchip-sfc: Perform trivial code cleanups
-         7d46b8d8d78338a2ad986eec0790ddb22fad23a8 spi: rockchip-sfc: Use dev_err_probe() in the probe path
-         36e69b160705b65bf136c2fb6a1194447eeb8478 driver core: Add device probe log helper dev_warn_probe()
-         e2fc05873905f2ee96b38a116ae86f45fe7d8e49 spi: rockchip: Use dev_{err,warn}_probe() in the probe path
-         b1258105f9ce5203f48a47fd2f2cec8c38c41841 spi: intel: Add protected and locked attributes
-         eaa59db7e96bbd8ca85546aa09381fa78ca1f1bd Add dev_warn_probe() and improve error handling in
-         e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d Fix Sparse warnings
+         8558bf16047f94409e29e0f88977c0c9a333d27c arm64: pt_regs: assert pt_regs is a multiple of 16 bytes
+         ae2b7bef42e8e9f68aacfbe92864832e45aea7bb arm64: pt_regs: remove stale big-endian layout
+         944039a2a94a9d23e50931512aebb3a4685465ef arm64: pt_regs: rename "pmr_save" -> "pmr"
+         e1fa90d2c8ad380fa1cc79c1f83a4ecaf78fa6f6 arm64: pt_regs: swap 'unused' and 'pmr' fields
+         8eb4e8cee64377e00a2e66ba1460a2a412c20879 arm64: use a common struct frame_record
+         675f28b85da2b8c3069a168300a76780b997db1f arm64: stacktrace: move dump_backtrace() to kunwind_stack_walk()
+         e01cfe916dc5c9a58f5e025eccfba838911aec12 arm64: stacktrace: report source of unwind data
+         e721e5e0a80546b310983cd2b5e944ac1a354f70 arm64: stacktrace: report recovered PCs
+         fa68e11ac65d200041048e111dd132e1b5a96734 arm64: stacktrace: split unwind_consume_stack()
+         196d5a7add6ffd9ec3b0b0d55f554dd17e47a379 arm64: stacktrace: unwind exception boundaries
          
