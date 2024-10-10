@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 10 Oct 2024 01:17:57 -0000
-Message-Id: <172852307714.205318.15050946441769826523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 10 Oct 2024 01:21:57 -0000
+Message-Id: <172852331742.208959.14993226563438184048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 434247637c66e1be2bc71a9987d4c3f0d8672387
-    new: 4538a38f654a1c292fe489a9b66179262bfed088
+    old: 5bf1557e3d6a69113649d831276ea2f97585fc33
+    new: 965fdf95a3272e78c2175231351b3a7d42490a14
     log: |
-         4deecdd29cf29844c7bd164d72dc38d2e672f64e bpf: fix unpopulated name_len field in perf_event link info
-         4538a38f654a1c292fe489a9b66179262bfed088 selftests/bpf: fix perf_event link info name_len assertion
+         965fdf95a3272e78c2175231351b3a7d42490a14 samples/bpf: Remove unused variables
          
