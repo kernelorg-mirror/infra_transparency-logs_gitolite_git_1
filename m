@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0545605953716279747=="
+Content-Type: multipart/mixed; boundary="===============9010793909798496880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 10 Oct 2024 11:11:38 -0000
-Message-Id: <172855869850.1036413.495762491619195277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Oct 2024 11:11:44 -0000
+Message-Id: <172855870489.1036547.2925858960257611402@gitolite.kernel.org>
 
---===============0545605953716279747==
+--===============9010793909798496880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: c2a59c892f20379a3e48124a83491a12374cd7e0
     new: e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d
     log: |
@@ -32,28 +32,28 @@ changes:
          e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d Fix Sparse warnings
          
 
---===============0545605953716279747==
+--===============9010793909798496880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728558714 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1728558696-3738c3ba24b3f2bc533266e828036bebd41b1695
+pusher Mark Brown <broonie@kernel.org> 1728558721 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1728558702-d4e469b237ff3f27084da510b717167e33d2ecfd
 
-c2a59c892f20379a3e48124a83491a12374cd7e0 e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d refs/heads/for-6.13
+c2a59c892f20379a3e48124a83491a12374cd7e0 e7ccaaadebaebbf71ba9fcdbf38a93a9405c093d refs/heads/spi-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcHtnoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Li/B/94AwLHS4U7fYsMMmBg1LdbbQ28ZcOj
-uQK1QyMm34UxERLaFDcYmbTafYHsd1S82U/W3yz1Yp55z0mLtRvRiiy1SRH3wvYb
-eku6sYtREEHVtjsDrwB3uYKqwcVVz+q33gzAJq31VJQ36JZsIvc6Sh5bhF2cpPrj
-pwdTW4XyVO3+W4W4KHo5E8KTJ9Q8Tjx/TetwQA8MtVGpaSIfv9tBEJHFFGeZr8A7
-lbvToSxdYtrwHr5sUyqtffTdjXPdFG8w3bajocvKy4oi52/6WXTleFuSx3FV2E/g
-FFDVgGZ/zV0qrr9daOx1rdxLIc3rHqCIN+LV7INnwRQWcSS+z57QSb09
-=MXM4
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcHtoETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0CARB/9BbBgFVoKQD/QfwAkwa1+Jkd+0EVWM
+W/lRLcWAJx8CiAzQwWv70SAeJKHwuuqHUIuOGCweLw7uDBBS4ZU5o/LFb3sZewzk
+zQaiFzWnWlEOlJlC4Ef9P4BXURf8gfTCiejSLOPJtWYYxdIFyaVV7NCfDPosY3z2
+ZwUCX9bdFb7lXr63bO4koXzRQRNjPqHRP4RI1a7HQSuBE+A0vPoBjbtpN7YM8uPI
+AJGM1JdokGAlAo+xEnpQSnCYAlSaiS+tpE+xleUvN26JgG7kcTOetC3ghguoCgkG
+2y4wD5fc//AZQv/WtA4JU1eiPos/zKg1VItWnQss9YzfhFexrt95/2k3
+=OW8s
 -----END PGP SIGNATURE-----
 
---===============0545605953716279747==--
+--===============9010793909798496880==--
