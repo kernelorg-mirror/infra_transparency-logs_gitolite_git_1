@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7978531957744869630=="
+Content-Type: multipart/mixed; boundary="===============3821074080027395973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 10 Oct 2024 11:37:26 -0000
-Message-Id: <172856024618.1057955.16901514366888083498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 10 Oct 2024 11:39:14 -0000
+Message-Id: <172856035424.1058979.9432357835056976623@gitolite.kernel.org>
 
---===============7978531957744869630==
+--===============3821074080027395973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 2c0eaff3bfe1a3ed70ebddf2445fae185a91e9ba
-    new: f46fcfd0947359db9481c4170a1f99e0d67ab8bc
-    log: revlist-2c0eaff3bfe1-f46fcfd09473.txt
+  - ref: refs/heads/master
+    old: 11e9b28e1da95fed4a5201449d0657a428fed9f8
+    new: 5688cb85d985d84cfb89705108e9b3c64e4dd07c
+    log: |
+         5688cb85d985d84cfb89705108e9b3c64e4dd07c 5.4-stable patches
+         
 
---===============7978531957744869630==
+--===============3821074080027395973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c0eaff3bfe1-f46fcfd09473.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-aafc93d6badb93b41d7032fd5a6477e1435afaa1 mmc: sh_mmcif: correctly report success when obtaining DMA channels
-ac44bdbeb42d411cd8089ad5f59dc90a9e00af1a memstick: Constify struct memstick_device_id
-97eb8bea60ac41bfe68966f503005331f45cb738 mmc: host: Fix typos in comments across various files
-cf40a586d1d983395a473b18602295d32f9bb367 mmc: mtk-sd: Implement Host Software Queue for eMMC and SD Card
-15a5769b612b128a37f89bbd7fb0152f4e76554b dt-bindings: mmc: cdns: document Microchip PIC64GX MMC/SDHCI controller
-07243890dec3d489f4f4aa2d87b09b34376a0962 dt-bindings: mmc: cdns,sdhci: ref sdhci-common.yaml
-019fc70cdce5aa63af7a4e8fffc0dc6c920f24cd mmc: mtk-sd: use devm_mmc_alloc_host
-d3093d8eb1039d76d17899f58a8cef8889e9afad mmc: mtd-sd: use devm_platform_ioremap_resource
-aa7027b553a743c962d6a160e54ea2812b4feeb6 mmc: mtk-sd: fix devm_clk_get_optional usage
-757ec2d2fb8c68e078d0a2d8f2039f095c031e95 dt-bindings: mmc: sdhci-msm: add IPQ5424 compatible
-162341263ee7352cda0dfcfa6f165f721e23a8e8 mmc: sdhci-of-arasan: Support for emmc hardware reset
-482e76bf1d11a675aa5f19122e9ed4c8696cb3df mmc: davinci: order includes alphabetically
-783ed3573e5e08d8562cc2c0f74435ea37b81994 mmc: davinci: use generic device_get_match_data()
-e86ae0ee822c99d907c9f7126f01f8019acdd7a9 dt-bindings: mmc: sdhci-msm: Document the X1E80100 SDHCI Controller
-cc54176772d0e737c9ed7caadbaf6eb2ce8301b1 mmc: mmc_spi: drop buggy snprintf()
-27e8fe0da3b75520edfba9cee0030aeb5aef1505 mmc: sdhci-of-dwcmshc: Prevent stale command interrupt handling
-f46fcfd0947359db9481c4170a1f99e0d67ab8bc mmc: Merge branch fixes into next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728560370 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728560350-fcd3ef749ccb905d0eab3a9a8964b2c0d0c7ddea
 
---===============7978531957744869630==--
+11e9b28e1da95fed4a5201449d0657a428fed9f8 5688cb85d985d84cfb89705108e9b3c64e4dd07c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcHvPIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/bYQAICsnM2J1qDUIaAg/IXe
+xGA9yhgJGalI6HJ8HZPEhFag3BKJvDloh7HpjIOT8KBskRmncEQZBKav7jh9IVqv
+5OzFTunzzgFKXGyE6SgsSqeLaQg6gVG1EqSaKAfWDRlZ9Hk2Fv6Tam6ccKNoPMMH
+CgJKT/YkrUhiqePEVsVNZyIhEkVKU1AAZfaRHwS+TIB1Gm+c1AG2csWyCIsuE5ys
+BN1OxCC+Vvgb3IaliOkhulzH2F4gugESmgJq1185N1R5YJOXXftYKtHWN+qd4iki
+V2SGO14XfMHcQ/ZgkgPzS3cGt/68EU0vEOfPh7JdHjIVhrLT1dZST7WPmBcEKJC6
+dK919810CGtBbcCfIhH0a9tHv2g666Pv0PkJuPtTVBSSwctXzRjvwVSoCK0blg+a
+tgpGnEeDCuGxY5MudPjTw3Ua26ZCCU0JkrVnXlGbgPOcVjWx+vct0uhiRu/IUbxw
+x27tQjkUp66cTqn8Me4hlqVyV+PAK287307XsUVIEhv9QluGcBIXxaIRblnkQP+R
+0Eoz+r7vCnyfq55ZHx+bXD1r67doan/Alf3f3CGnp+bpQ6n5dJL1Ea/zR03+tXxs
+apXd7fYasD3QhyNKYwIQMsh75Nmb/GXBLvYs4p1xTcrzx95XuZ6Wvb5DXZrJ7j6w
+iYGDkQDwExpDX8TGuAjEVcJ9
+=/DJ3
+-----END PGP SIGNATURE-----
+
+--===============3821074080027395973==--
