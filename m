@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6197886242222918995=="
+Content-Type: multipart/mixed; boundary="===============6473077579798474094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 10 Oct 2024 16:01:23 -0000
-Message-Id: <172857608391.1283397.2249070759868220297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 10 Oct 2024 16:01:32 -0000
+Message-Id: <172857609284.1283579.5278187484647716582@gitolite.kernel.org>
 
---===============6197886242222918995==
+--===============6473077579798474094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 3fe9f5882cf71573516749b0bb687ef88f470d1d
-    new: 9eb2142a2ae8c8fdfce2aaa4c110f5a6f6b0b56e
+  - ref: refs/heads/for-6.13
+    old: 4e9a2c91bff44336157eefd8d80b8ceb27918737
+    new: fceffbfe57af7d9941d08e1a995cccf558d08451
     log: |
-         a6134e7b4d4a14e0942f113a6df1d518baa2a0a4 ASoC: loongson: Fix component check failed on FDT systems
-         d0e806b0cc6260b59c65e606034a63145169c04c ASoC: qcom: sdm845: add missing soundwire runtime stream alloc
-         251ce34a446ef0e1d6acd65cf5947abd5d10b8b6 ASoC: codecs: Fix error handling in aw_dev_get_dsp_status function
-         9eb2142a2ae8c8fdfce2aaa4c110f5a6f6b0b56e ASoC: topology: Bump minimal topology ABI version
+         fceffbfe57af7d9941d08e1a995cccf558d08451 regulator: max5970: Drop unused structs
          
 
---===============6197886242222918995==
+--===============6473077579798474094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728576100 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1728576081-d531fc01e5e056277778a266c586e0d30b052e66
+pusher Mark Brown <broonie@kernel.org> 1728576109 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1728576090-0cff7d04c4f6633217480671b8d87d24098ba15e
 
-3fe9f5882cf71573516749b0bb687ef88f470d1d 9eb2142a2ae8c8fdfce2aaa4c110f5a6f6b0b56e refs/heads/asoc-6.12
+4e9a2c91bff44336157eefd8d80b8ceb27918737 fceffbfe57af7d9941d08e1a995cccf558d08451 refs/heads/for-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcH+mQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HuaB/0VCq82GXvUmNvSWAz8MwlxIZtj37kc
-JJY503+8GZRhiSd72MZUj3sPxuBpM+r6vW1ARVOkVY0RJiSSd5WAUGUwOqS0j6V8
-bHWA9ffrQcryOp7mQJa/JL6+h+78/bKkFdRMX0LyUqQctUiy8urEKaU6lvwJUg5y
-w3ribgtOH+Dh58iZvsZgAT42RoYSxUG/PT8vvmDwi88pPuVozxc2iTDZrxOxfWEK
-u5W34VIOSGoBZpJ6yBCvwm1hFnHgC8fcIiGMbB6792HhyHJgqHypaUBd/TOrvzyT
-sGb/SRyFz71BKUqWO+aHjzu09rxdc3zbR7Kin6halZBWo08o2FGEwvIO
-=lqn4
+iQFGBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcH+m0THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0F5SB/dqUTzzddXTIukQZlfzliHIu8YA4Bib
+HKTOqs4mQFajtxGK3IvVOcYdxZMc6mFeMx/2WpjrbKVsKgj5UYec5NbG4h8Y35JA
+Pmh99sRTb/fiG7iFnAXrPNAVKNpqjDEarqJ5v20jbFr477mrBzfkOTb1pPTgEUjg
+C3j74kEERFM1/GD53nuDECtGko9Y08tiEGNcgmV1W/5ILJpxADlv0HwfOggjVynO
+Xe9hijQgI4HaM3N2ZgBoFDi22LDCjtavOujwu8aw7ekCek9YpRFz3tUT0L3Jnhho
+DZRtGlp+5PdMcc7cDuX2Vb8e24MHiP2T5mNaFlHqi4vqglCcTAfhIqM=
+=lKE6
 -----END PGP SIGNATURE-----
 
---===============6197886242222918995==--
+--===============6473077579798474094==--
