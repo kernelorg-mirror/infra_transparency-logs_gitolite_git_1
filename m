@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/i2c-tools/i2c-tools
-Date: Thu, 10 Oct 2024 14:00:14 -0000
-Message-Id: <172856881480.1177753.12516470838835326582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 10 Oct 2024 14:00:31 -0000
+Message-Id: <172856883168.1177972.16627912588376116564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/i2c-tools/i2c-tools
-user: jdelvare
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/v4.4
-    old: 0000000000000000000000000000000000000000
-    new: c20cd0b4be78e7b84104452b7fc9c570f00f92bf
+  - ref: refs/heads/nfsd-next
+    old: 854ec32695f965ea6b69b896e0af51ea406570d5
+    new: 677b0971e6ddea2e49faf9235d275e3ab68b41b1
+    log: |
+         677b0971e6ddea2e49faf9235d275e3ab68b41b1 nfsd: add a switch to disable OPEN_XOR_DELEGATION support
+         
