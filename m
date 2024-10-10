@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5460492455438082197=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Thu, 10 Oct 2024 14:03:29 -0000
-Message-Id: <172856900915.1179526.4090837985401568486@gitolite.kernel.org>
-
---===============5460492455438082197==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 10 Oct 2024 14:05:57 -0000
+Message-Id: <172856915793.1182645.7166097252768370938@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/linux-6.12.y-rt-patches
-    old: f7994cefc717102c42901faff35b12a3ba2d7e37
-    new: a7c7b2f17d2ca19d16f0adc3e684e44d0528daa9
+  - ref: refs/heads/testing
+    old: 3e4094c00c23da3819a99a69ce7772290e74749b
+    new: 269e1735e3a39053e72bec1eac569c8556bd59af
     log: |
-         a7c7b2f17d2ca19d16f0adc3e684e44d0528daa9 [ANNOUNCE] v6.12-rc2-rt4
+         60b520c5818a4ebe366824f36f055a686a608a0b resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+         d568802fddbdde731058e908169ef944866f0c30 Merge branch 'hwmon-next' into hwmon-staging
+         26d7ab54c8aabc9932743923c7ca20bbb852fb1f Merge branch 'hwmon' into hwmon-staging
+         1486caf344fbe04c654364f638721272245960dd Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+         dc3e8122f7ffec4f00201344d5c7a4662fe92878 Merge branch 'hwmon-g762' into hwmon-staging
+         601f96057b08d815013a59214e1f6a77f43c23f0 Merge branch 'hwmon-emc2103' into hwmon-staging
+         3488f8f64ee0e5c31a19811a9de4c22cad1860e8 Merge branch 'hwmon-max16065' into hwmon-staging
+         979b8db6d5ae0c727fd5b3bb48b30c79055fab4c Merge branch 'hwmon-staging' into testing
+         269e1735e3a39053e72bec1eac569c8556bd59af Merge branch 'fixes-v6.12' into testing
          
-  - ref: refs/tags/v6.12-rc2-rt4-patches
-    old: 0000000000000000000000000000000000000000
-    new: 63d64ee95813276d8f886a2fed147ac1ed5f47bb
-
---===============5460492455438082197==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1728569000 +0200
-pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1728568981-41bccfb3053a13979d0f2897ba08a6f139ab0d58
-
-f7994cefc717102c42901faff35b12a3ba2d7e37 a7c7b2f17d2ca19d16f0adc3e684e44d0528daa9 refs/heads/linux-6.12.y-rt-patches
-0000000000000000000000000000000000000000 63d64ee95813276d8f886a2fed147ac1ed5f47bb refs/tags/v6.12-rc2-rt4-patches
------BEGIN PGP SIGNATURE-----
-
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmcH3qgWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6Ww2TDACddYzJs5Pr2fgiRCfp4SvkGJ4/
-K+luRl5AQdAUs7jWYWPaS66C2n7ep0HtdCzSAyEqoj0ql+ob0LPb5tGgWqO2bxT3
-eUgkcNP4LtoSkIKVC4kjNIU0DFshowwGFZD9C4Sgot/dvldDfwM3ACf2QxTtPIMC
-c9IAMkGJJTGMla8jSnaQDHn0Bc2J/JStTVMip+aU7uSlU5V/HgPlqhVmJORuUVj3
-j1gn2BYDmkqYEW5izQSgAonrwW/g80YP/iU8EkZBvqW4lvrOUzn88MjJBLyVaOWU
-GdPzWpYsix/Kq1CclLriowmuKJD4dHSAnxDCdy02npMF42qPQPi1DB0OjJWdV/8w
-y3NWm46zi88pKKfTETJ34nsjPxnGbc656jrBO5J9sMNhseoEYcQvvCZp1OmGjkLO
-IjYEXfSfZt/LwDRCVCD2s04DjkSqaXyWNggnsawVB1dld41MQl8+ruaw2rlwN31t
-D2yjkORswET1L3TMqj6wZ3rbGd9xgQ7rU7zEJzc=
-=MOAB
------END PGP SIGNATURE-----
-
---===============5460492455438082197==--
