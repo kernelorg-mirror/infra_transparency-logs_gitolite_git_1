@@ -1,83 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4210608736199267462=="
+Content-Type: multipart/mixed; boundary="===============0458117424985596910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 10 Oct 2024 13:31:49 -0000
-Message-Id: <172856710991.1151315.15397437438497460024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 10 Oct 2024 13:33:25 -0000
+Message-Id: <172856720500.1152175.3287840820486626974@gitolite.kernel.org>
 
---===============4210608736199267462==
+--===============0458117424985596910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/staging-testing
-    old: f11192a246f2b41703b3b760d1ba27e2f6cb1aa7
-    new: ac58041210cb96802c85aa7803e9d768086f043d
-    log: revlist-f11192a246f2-ac58041210cb.txt
+  - ref: refs/heads/dma-split-wip
+    old: 7bf693fad2dd1094e2dd6d3848051a1a7f78149f
+    new: 80b55c691bd857259d981c6d59a48af24a36afd2
+    log: revlist-7bf693fad2dd-80b55c691bd8.txt
 
---===============4210608736199267462==
+--===============0458117424985596910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7bf693fad2dd-80b55c691bd8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728567119 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728567099-8793fd5d5fef074bd6c6e96206fea66b6bb389fb
+e0db1e975c1891cdf658b4d604848009d030c755 iommu/dma: Implement link/unlink ranges callbacks
+086cc3c8b7cdb73894ee7ee2e8bd3258295fe9b7 iommu/dma: Add check if IOVA can be used
+cd92efca7e2e50f38574e00a787d4737c0bd30f0 dma-mapping: provide an interface to allocate IOVA
+94d8cfaa42c3f11c320f182a926f29a3db44d4d2 dma-mapping: set and query DMA IOVA state
+94cedf940b3c06c647016133a3f73f94ec088cd6 dma-mapping: implement link range API
+f45ff18e24513ebf8e5f247f5f9ceced3e5f4dc6 mm/hmm: let users to tag specific PFN with DMA mapped bit
+4b6b1ea108a9fdc238c3df139df32bab9a163e0a dma-mapping: provide callbacks to link/unlink HMM PFNs to specific IOVA
+563ff04384a62d3bce6f4d03d95beb1f0db2472f RDMA/umem: Preallocate and cache IOVA for UMEM ODP
+efbbad16434173d1a81e2ebec8552090556f158f RDMA/umem: Store ODP access mask information in PFN
+ea3bcfa2a656b1977fe041533fd89980cd28612c RDMA/core: Separate DMA mapping to caching IOVA and page linkage
+476e714b2173c0115f3b3ade2f77c36d58d2df46 RDMA/umem: Prevent UMEM ODP creation with SWIOTLB
+fb9882bad7d03f6e933698112025a1eeaf224b76 vfio/mlx5: Explicitly use number of pages instead of allocated length
+449a34c73c14fb1ef467c5961630b1ab42ec09bc vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+269dfce97c770e5f16a4fe641c3ef7f30767d8de vfio/mlx5: Explicitly store page list
+d5d200a44a97245638b14fe28222c254e2197a6e vfio/mlx5: Convert vfio to use DMA link API
+0c068841a589770db8f12d8959f5c4aaf24482ce blk-mq: add a dma mapping iterator
+bcc5b7ed4776860d265d0a69c2a4e297fa659a3c blk-mq: add scatterlist-less DMA mapping helpers
+91403df5d92d81fa85b597b7d0e866cf8d6e8d9f nvme-pci: remove struct nvme_descriptor
+3068f32ed54307672f0f3a07b5644f5d9d701b33 nvme-pci: use a smarter encoding for small prp pool allocations
+80b55c691bd857259d981c6d59a48af24a36afd2 nvme-pci: convert to blk_rq_dma_map
 
-f11192a246f2b41703b3b760d1ba27e2f6cb1aa7 ac58041210cb96802c85aa7803e9d768086f043d refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcH108bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+edAP/i5JGcqNbx13iW2X3vyp
-dodFEhVR2p40VYX+4HdXXKxSF7tdG1HqCzvqA1U8K+198p0UFH4KKNqJ8gKCEPdG
-O9ECbQZwBFjM0Zgr9w0XkV/DdbvoyF79M4os4fI46XtNSYRRx/Ld6XaW/Jf5lxMk
-j4Lj7NwC5ZAhLG+hDZwa4EIUP9B4iQO2DqkYYhbc4BRREyWe/VEOxptP7CF+a6MS
-j8rXZ9BurKMlhnZDXSQzlHRjduFp8cNpUaWSGrJqq6fPrVbCm6I1cubOF0EZk5xh
-GGsNejhcl1dP8VYE+0MaB9C12nZZy1DvDz1zM3LAQn70Lxyh2PhRSIDGr9kJYzNQ
-CYtTqqwlEyC+J3TG/EaESbmsaTPhqCPPuH5oA7HNqovb4s6VrueQ2cP/j7yydoLp
-iox+9sqxsCVCo+GNYy1bj4ABGVC2I3FXw8LKqDRBbSdXWnRRDeyQcCGxV3WAJeeX
-tO7YQDuy+hDv0EtYc+BsKJfNHDLWS8GZqhE5G0zbsa07gdfn3Gv/8082aK9cU7IZ
-NdgToIHcuGBRXlDcldejtsUWkZKlxKj4Sg+V/JDihdFrdUlmK82QzXFsvg9T+oFv
-xTtzQckCbFGhFb+SCVnPasaApQyy9Fzl21JxWUHHaJf9alPPDE3/aP06vG9RbPP4
-SGxq/zpNs2k1zWVO17pD6kGc
-=2F+n
------END PGP SIGNATURE-----
-
---===============4210608736199267462==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f11192a246f2-ac58041210cb.txt
-
-6c52d5e3cde2c1ca9b63ca2255c2d7c6f95e7afc staging: gpib: Add common include files for GPIB drivers
-2da03e7e31aa1bc234fdce1e3414574e302f91a0 staging: gpib: Add user api include files
-9dde4559e93955ccc47d588f7fd051684d55c4e7 staging: gpib: Add GPIB common core driver
-add452d09a38c7a7c44aea55c1015392cebf9fa7 staging: gpib: Add tms9914 GPIB chip driver
-3ba84ac69b53e6ee07c31d54554e00793d7b144f staging: gpib: Add nec7210 GPIB chip driver
-09a4655ee1ebdf64d1ffae063c1e13c4cc17bf04 staging: gpib: Add HP/Agilent/Keysight 8235xx PCI GPIB driver
-4c41fe886a56c5b4ef9695243b0ddb9d7d2c432c staging: gpib: Add Agilent/Keysight 82357x USB GPIB driver
-e9dc69956d4d9bf4a81d35995ce9229ff5e4cad5 staging: gpib: Add Computer Boards GPIB driver
-e1339245eba3bdd6fd511b10aab7a12cc1af6b1e staging: gpib: Add Computer Equipment Corporation GPIB driver
-55936779f4961299efa99a6843c8ff3b019d3858 staging: gpib: Add Fluke cda based cards GPIB driver
-8e4841a0888c74bdcb6ba115d6405206f0c2e8b4 staging: gpib: Add Frank Mori Hess FPGA PCI GPIB driver
-4cd654f847693c2c60312acfcab25936bb31aa1c staging: gpib: Add gpio bitbang GPIB driver
-76319a9d234f6e978b94716885051e5725cb90f6 staging: gpib: Add hp82335x GPIB driver
-6d4f8749cd5da8fd43bb1e25b3612d8eba09e07a staging: gpib: Add hp82341x GPIB driver
-bb1bd92fa0f2c9c39c5766e3ea81f26d7e8355a4 staging: gpib: Add ines GPIB driver
-fce79512a96afacbe297ba3c5c2f7ed34944540d staging: gpib: Add LPVO DIY USB GPIB driver
-4e127de14fa78bcd98c6459b0b984b8266cd0203 staging: gpib: Add National Instruments USB GPIB driver
-0dc1ad1c0051c29eaca6202e08d0d5787d296649 staging: gpib: Add pc2 GPIB driver
-0cd5b05551e02242f9fa15f1e87cefff9efa3080 staging: gpib: Add TNT4882 chip based GPIB driver
-165e8cc3cfec9ef51f3376b0d49b115294f34f3b staging: gpib: Add KBUILD files for GPIB drivers
-b06f824945644a44c6c9cfd6ca61d558f7981611 staging: gpib: disable CONFIG_GPIB_KERNEL_DEBUG
-ac58041210cb96802c85aa7803e9d768086f043d staging: gpib: Add GPIB driver maintainer
-
---===============4210608736199267462==--
+--===============0458117424985596910==--
