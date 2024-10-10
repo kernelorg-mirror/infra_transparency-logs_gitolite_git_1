@@ -1,115 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1506309772746278715=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Thu, 10 Oct 2024 18:59:27 -0000
-Message-Id: <172858676797.1432469.16500482319515279048@gitolite.kernel.org>
-
---===============1506309772746278715==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 10 Oct 2024 19:14:53 -0000
+Message-Id: <172858769338.1444594.11842681238385005512@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: 19dde7fac0f38af2990e367ef4dd8ec512920c12
-    new: 42523142959ddebd127a87e98879f9110da0cc7d
-    log: revlist-19dde7fac0f3-42523142959d.txt
-
---===============1506309772746278715==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19dde7fac0f3-42523142959d.txt
-
-bb7c05552ac9ab77bd9910966eacd8ed4025ac34 debian: Update debhelper-compat level
-5c68dee37faf5c7d41223b35db0d331ff1cc456b debian: Update public release key
-b3e43b35c29802b93a87e0b50c52d7b9a7a8f25c debian: Prevent recreating the orig tarball
-ea75ca724ac8a53523832fd4b3990b71d991070a debian: Add Build-Depends on pkg with systemd.pc
-1a608469c13fee9df899d06aaa2d27e86c16c929 debian: Modernize build script
-b92bf9bc2da75f3709f5f3a6c09d6c62d0d799ef debian: Correct the day-of-week on 2024-09-04
-8554a59c85282fbbd460a3de7e64dd38508c2364 misc: clean up code around attr_list_by_handle calls
-2ed5318f360d2734265c2dbf630e93ff3e5e5791 libfrog: emulate deprecated attrlist functionality in libattr
-ee6c5941352a15306d15ac2492ba454e44ab0415 xfs_io: add RWF_ATOMIC support to pwrite
-643778e608498570962823b7fdaeee1f946cbcbc xfs: avoid redundant AGFL buffer invalidation
-6540c8ae34851d447f63e9db29b48ddc25507965 xfs: don't walk off the end of a directory data block
-06b712627e0c98b30be62fb5aea0199b3d0a5f0b xfs: Remove header files which are included more than once
-8a8799bba2d25d428ee804289813afcf9f030894 xfs: hoist extent size helpers to libxfs
-fadb819b464ca51d0a82e9493af1e1cdf108b9ca xfs: hoist inode flag conversion functions to libxfs
-0687669c9afc52e22a33ea98eaed430f059557cb xfs: hoist project id get/set functions to libxfs
-d490a1d34ef119ca24ccdb191eeaf7b469c327b9 libxfs: put all the inode functions in a single file
-4c300905db8d424996ec5f9890fa93e67ef40112 libxfs: pass IGET flags through to xfs_iread
-7ff05ce00ebb0af67fd971ffedcb2ec46b51850a xfs: pack icreate initialization parameters into a separate structure
-04fd15692ac8ffc066c0a8536a8926d75fed8f67 libxfs: pack icreate initialization parameters into a separate structure
-f3c648be19efc50fbcbbaea2368d8dd55aebb193 xfs: implement atime updates in xfs_trans_ichgtime
-3af8c427dc20bcce07c6c0e7da183e93c2ace657 libxfs: rearrange libxfs_trans_ichgtime call when creating inodes
-5d1e5c013750d781efa1f793a5bd1b6fd179df04 libxfs: set access time when creating files
-ff9ad30a71493408cbdba36727ad9d998ed03238 libxfs: when creating a file in a directory, set the project id based on the parent
-66ecea3e41d2c0a7ec3ad8ff3e7b7f20e4c48b4c libxfs: pass flags2 from parent to child when creating files
-02df725889c09d1a576f440a6d3819996b8def6c xfs: split new inode creation into two pieces
-62c2477deae9e24e051f9f1ded74687b343f2b7f libxfs: split new inode creation into two pieces
-fdf7f98794ac856930f26bb6bd10dacf5ad3935e libxfs: backport inode init code from the kernel
-b47055a465deceb27224e841dafe0d487bfce095 libxfs: remove libxfs_dir_ialloc
-2e85cabb0ee996f47dd013e63bf3e6610bbc7b8e libxfs: implement get_random_u32
-fa2f7708223e7654f8c3b07d8cada0be8d8f7996 xfs: hoist new inode initialization functions to libxfs
-0f1f674259e7d610d3591f97f160b8ae7b0a7c04 xfs: hoist xfs_iunlink to libxfs
-c8fa782f3856ba624e26d318a4738a66c90a7e77 xfs: hoist xfs_{bump,drop}link to libxfs
-a8d4daf12f589b641b542aee5aa42c5f6932aa85 xfs: separate the icreate logic around INIT_XATTRS
-7ce57cdc9ce7a0d7d159ddcf90894a3c56f6a6e6 xfs: create libxfs helper to link a new inode into a directory
-926504400091d45a3a59bebeeb77d1eb18a843e2 xfs: create libxfs helper to link an existing inode into a directory
-45555b3d8f30d85bcd54b781ac7f64036372cbdf xfs: hoist inode free function to libxfs
-ffed33c5cf10362e052d52e5afad5c396da60af7 xfs: create libxfs helper to remove an existing inode/name from a directory
-273c0ead0234137a7f4ee628b1f5e8c9038a49e4 xfs: create libxfs helper to exchange two directory entries
-706961634f6b08c6b1ab38a709e4b903a1b10c02 xfs: create libxfs helper to rename two directory entries
-2ab755da0ddd3f8595d2ed756c47111abe0013c0 xfs: move dirent update hooks to xfs_dir2.c
-6a692a500894449bc1fc6d48b1bf40fa08aed50a xfs: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-9cebfe7aacb37c8b4f655578dcc4d3c83f02897e xfs: clean up extent free log intent item tracepoint callsites
-ad2fb6bca5168113d4d21cb6c29eea597ad52cf2 xfs: convert "skip_discard" to a proper flags bitset
-c4bef0ef27b413df37e75916f8e741c2cd587c2b xfs: pass the fsbno to xfs_perag_intent_get
-611d0eaeb29eeb6c6967bca35f689b529473a272 xfs: add a xefi_entry helper
-328b29c975ccc89eb141ee967baec3a22629768d xfs: reuse xfs_extent_free_cancel_item
-b52eaa2f6ee167512fa7f3041912f4f83fdf295d xfs: remove duplicate asserts in xfs_defer_extent_free
-02a830d4f89f0f77973d2314a61140bb47dc3cf2 xfs: remove xfs_defer_agfl_block
-fea60f70c810e93dce85470d94432afb65e7234f xfs: move xfs_extent_free_defer_add to xfs_extfree_item.c
-ff6e47b3510214ef7de0e8f5f6e3268f99e3788c xfs: give rmap btree cursor error tracepoints their own class
-18c3bc7f60594770db8076aeecbf59f0831d6763 xfs: pass btree cursors to rmap btree tracepoints
-0e95442e45f015db97f258509f6353d40647f0ab xfs: clean up rmap log intent item tracepoint callsites
-8c775051ce9cc34069a0cf75c4744adbb7c4540d xfs: add a ri_entry helper
-4b7979f5f4b9bd7a8c975f4d8857d12388efe855 xfs: reuse xfs_rmap_update_cancel_item
-1d056f92e5a04f82814521dd6b266b2a776babb4 xfs: don't bother calling xfs_rmap_finish_one_cleanup in xfs_rmap_finish_one
-b8c3f60e7c3d545904ea1ba7ed1413f3a3eef7af xfs: simplify usage of the rcur local variable in xfs_rmap_finish_one
-f8a9e37d48d3b03c107127acc94e113c717e1dc1 xfs: move xfs_rmap_update_defer_add to xfs_rmap_item.c
-7cc6344b44149ca802051a83439fce28d0f334fd xfs: give refcount btree cursor error tracepoints their own class
-27bc4731311b128138e6857d8008289558eb54b2 xfs: create specialized classes for refcount tracepoints
-eea5f0e26bc8f4c949e7f3d5ce093781c5081024 xfs: pass btree cursors to refcount btree tracepoints
-efee29abb3e87bc589998285584b3e37ecf96d22 xfs: clean up refcount log intent item tracepoint callsites
-62ae47e4ae8b680286bb580762515f6b32389001 xfs: add a ci_entry helper
-8c9f8f6c8c43488327ad8b3111fd912821c5ddb2 xfs: reuse xfs_refcount_update_cancel_item
-a344868860be20633e27c1a8d0034bd6ab935330 xfs: don't bother calling xfs_refcount_finish_one_cleanup in xfs_refcount_finish_one
-21f95f3ac61f764a57a75c61cf6a34301cfc9212 xfs: simplify usage of the rcur local variable in xfs_refcount_finish_one
-11a046c0550871eb905fb949d4569e32484c3864 xfs: move xfs_refcount_update_defer_add to xfs_refcount_item.c
-6211801f306c937f49c251bcfc96bc247ac9a391 xfs: Avoid races with cnt_btree lastrec updates
-153e35fef6800f50b7edf2e9267d9e8d2d05e99c xfs: AIL doesn't need manual pushing
-922a67a8e95771af5ca43288e72e20654d3e27a6 xfs: background AIL push should target physical space
-9ba014e2e6502b8fa0558e3d6d2532c2eff9e896 xfs: get rid of xfs_ag_resv_rmapbt_alloc
-d488f8152f47012dcfc276516ee146458a2d9ad4 xfs: remove unused parameter in macro XFS_DQUOT_LOGRES
-7392aa2f68813bd1aa74c22ea8c16d30a0367405 xfs: fix di_onlink checking for V1/V2 inodes
-b2f56fe57fe8ee09e53c2317b9fae3a5fa79d24e xfs: xfs_finobt_count_blocks() walks the wrong btree
-6431fe69edb6d5ba80323b6417c7742b47b7bd1d xfs_db: port the unlink command to use libxfs_droplink
-cca845516ea667f8f6bfdcf955764305dea7306b xfs_db/mkfs/xfs_repair: port to use XFS_ICREATE_UNLINKABLE
-34f035799f3013975cf670a4d741bbcbfb8d1971 xfs_db/mdrestore/repair: don't use the incore struct xfs_sb for offsets into struct xfs_dsb
-a14190323836dd0439732d7229c5387d52552398 xfs_db: port the iunlink command to use the libxfs iunlink function
-a91ec6679c52fe80cc390a34060917087f767cee xfs_repair: fix exchrange upgrade
-cb62b887de3ece222933c4b6033c8fac87702501 xfs_repair: don't crash in get_inode_parent
-6dc93b8b56dbb81633315d7cb0d21f4da7998357 xfs_repair: use library functions to reset root/rbm/rsum inodes
-171c8eec8da3a50ee0fc5183d35038787defe03d xfs_repair: use library functions for orphanage creation
-968cbaf5ae9a6ee44a6e74c52f461af52387c428 mkfs: clean up the rtinit() function
-4727b4ff8e09cff901b5f58da636982f8d77e927 mkfs: break up the rest of the rtinit() function
-6b32423addd2f28797a149101622a9b9ec4929d3 xfsprogs: fix permissions on files installed by libtoolize
-42523142959ddebd127a87e98879f9110da0cc7d xfsprogs: update gitignore
-
---===============1506309772746278715==--
+  - ref: refs/heads/main
+    old: c410e4c9fa6b55a32b8ac9a90f83727b09273a91
+    new: d55315295cccf8ce5dc288a74d75cf09b8063cfc
+    log: |
+         2cdc4f42ce7a9066f30a5531d8297a5ead3c8772 ath12k: QCN9274 hw2.0: add board-2.bin
+         a2d650c9cbad5faede89a44bfc5eea32483a0f83 ath12k: QCN9274 hw2.0: add to WLAN.WBE.1.3.1-00162-QCAHKSWPL_SILICONZ-1
+         34d181d737527d903ebb363de6b2e3b1dcd42683 ath12k: WCN7850 hw2.0: update board-2.bin
+         d55315295cccf8ce5dc288a74d75cf09b8063cfc Merge branch 'superm1/qci-patches' into 'main'
+         
