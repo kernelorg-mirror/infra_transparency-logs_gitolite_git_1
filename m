@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 10 Oct 2024 20:15:35 -0000
-Message-Id: <172859133505.1494952.18049618992697374156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 10 Oct 2024 20:16:01 -0000
+Message-Id: <172859136162.1495285.10867254984134537698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 5b46a7e5621d0431407b5c93a822246c118465b2
-    new: 5f6617eb330b851b3b4779d44efaf06e1f9048eb
-    log: |
-         5f6617eb330b851b3b4779d44efaf06e1f9048eb man: add man page for io_uring_peek_batch_cqe()
-         
+  - ref: refs/tags/dma-split-oct-10-rebased
+    old: 0000000000000000000000000000000000000000
+    new: 9e0265318bae4d726bdbb5ec8c2d8e3bdf5d57e1
