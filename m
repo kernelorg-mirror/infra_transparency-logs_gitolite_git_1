@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2008048530358953102=="
+Content-Type: multipart/mixed; boundary="===============6649368316649548713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Oct 2024 15:30:54 -0000
-Message-Id: <172857425460.1255087.11133584172590106952@gitolite.kernel.org>
+Date: Thu, 10 Oct 2024 15:30:56 -0000
+Message-Id: <172857425690.1255221.11646673823208254097@gitolite.kernel.org>
 
---===============2008048530358953102==
+--===============6649368316649548713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 6607c17c6c5e029da03a90085db22daf518232bf
     new: 16aef66643a2f92275351caaaa4640bbaf84040c
     log: revlist-6607c17c6c5e-16aef66643a2.txt
 
---===============2008048530358953102==
+--===============6649368316649548713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -89,4 +89,4 @@ e1013c792960324d9780f11acd88c5b2ed7747c5 net/mlx5: Add support check for TSAR ty
 88dc9aebd04cbc319e96a3a416109faf7e45b61c Merge branch 'net-mlx5-qos-refactor-esw-qos-to-support-new-features'
 16aef66643a2f92275351caaaa4640bbaf84040c net: phy: Validate PHY LED OPs presence before registering
 
---===============2008048530358953102==--
+--===============6649368316649548713==--
