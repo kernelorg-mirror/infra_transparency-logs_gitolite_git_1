@@ -1,36 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 10 Oct 2024 12:22:39 -0000
-Message-Id: <172856295918.1095990.13129213076032843352@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3194623420281637856=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 10 Oct 2024 12:25:18 -0000
+Message-Id: <172856311863.1098966.1020971668878142698@gitolite.kernel.org>
+
+--===============3194623420281637856==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 1ceb43eb60355eed600951248d962c107cd9ba49
-    new: 0845b3e0d5c1a8ddf2056a0f2672ddf769dc446c
+  - ref: refs/heads/review-ilpo
+    old: d12586e1072d92070783c854819a0ca8c82c5439
+    new: 8150408bfdb2f9c17970295427cf91470189e6d0
     log: |
-         5b1913a79c3e0518d9c5db343fa9fc4edcea041f ALSA: hda: Use own quirk lookup helper
-         1f55e3699fc9ced72400cdca39fe248bf2b288a2 ALSA: hda/conexant: Use the new codec SSID matching
-         504f052aa3435ab2f15af8b20bc4f4de8ff259c7 ALSA: hda/realtek: Use codec SSID matching for Lenovo devices
-         1e280053dd4d8fb63eba7cff23105d76cc338f7d ALSA: firewire: Remove unused cmp_connection_update
-         0498a04e399c6e720bb991db992174e19b2fe980 ALSA: ice1712: Remove redundant code in stac9460_dac_vol_put
-         0845b3e0d5c1a8ddf2056a0f2672ddf769dc446c ALSA: usb-audio: Use snprintf instead of sprintf in build_mixer_unit_ctl
+         8150408bfdb2f9c17970295427cf91470189e6d0 asus-laptop: prefer strscpy() over strcpy()
          
-  - ref: refs/heads/master
-    old: c0c538692e03c12c21d1869f1b31ddd11cb7907c
-    new: 30d993f001a5ea735b35c02218992b2132a79de4
-    log: |
-         5b1913a79c3e0518d9c5db343fa9fc4edcea041f ALSA: hda: Use own quirk lookup helper
-         1f55e3699fc9ced72400cdca39fe248bf2b288a2 ALSA: hda/conexant: Use the new codec SSID matching
-         504f052aa3435ab2f15af8b20bc4f4de8ff259c7 ALSA: hda/realtek: Use codec SSID matching for Lenovo devices
-         1e280053dd4d8fb63eba7cff23105d76cc338f7d ALSA: firewire: Remove unused cmp_connection_update
-         0498a04e399c6e720bb991db992174e19b2fe980 ALSA: ice1712: Remove redundant code in stac9460_dac_vol_put
-         0845b3e0d5c1a8ddf2056a0f2672ddf769dc446c ALSA: usb-audio: Use snprintf instead of sprintf in build_mixer_unit_ctl
-         30d993f001a5ea735b35c02218992b2132a79de4 Merge branch 'for-next'
-         
+
+--===============3194623420281637856==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1728563124 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1728563105-f9bd15ed2279393bfa2b3ef64da8c09356fdf541
+
+d12586e1072d92070783c854819a0ca8c82c5439 8150408bfdb2f9c17970295427cf91470189e6d0 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZwfHwAAKCRBZrE9hU+XO
+MYJRAP9kTR07QBcEPqT0+SAKxtH/5oa1mHp572WZTZMwsvC6XAD9Gr8+LW55l3fu
+IAui1+lJ2oTHKIxpwklAvo9P8oBzjAw=
+=Ys16
+-----END PGP SIGNATURE-----
+
+--===============3194623420281637856==--
