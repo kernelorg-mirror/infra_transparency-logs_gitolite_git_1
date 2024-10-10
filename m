@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2251867690249673292=="
+Content-Type: multipart/mixed; boundary="===============2604155927803524342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Oct 2024 15:31:15 -0000
-Message-Id: <172857427535.1255792.15583803433022582732@gitolite.kernel.org>
+Date: Thu, 10 Oct 2024 15:31:23 -0000
+Message-Id: <172857428302.1256011.17809396025018600317@gitolite.kernel.org>
 
---===============2251867690249673292==
+--===============2604155927803524342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 983e35ce2e1ee4037f6f5d5398dfc107b22ad569
-    new: ffc8fa91bef547ed419fb093e5e1703567552d2a
-    log: revlist-983e35ce2e1e-ffc8fa91bef5.txt
+  - ref: refs/heads/dev-queue
+    old: ab8024f0207eec0f376591c958b5bd30a03ae370
+    new: 27e66db70a9c3c1d94e4678774e18cce0cdf3547
+    log: revlist-ab8024f0207e-27e66db70a9c.txt
 
---===============2251867690249673292==
+--===============2604155927803524342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-983e35ce2e1e-ffc8fa91bef5.txt
+Content-Disposition: attachment; filename=revlist-ab8024f0207e-27e66db70a9c.txt
 
 b972060a47780aa2d46441e06b354156455cc877 ice: Fix entering Safe Mode
 8e60dbcbaaa177dacef55a61501790e201bf8c88 ice: Fix netif_is_ice() in Safe Mode
@@ -56,5 +56,10 @@ d51705614f668254cc5def7490df76f9680b4659 mctp: Handle error of rtnl_register_mod
 5be2062e3080e3ff6707816caa445ec0c6eaacf7 mpls: Handle error of rtnl_register_module().
 b5e837c86041bef60f36cf9f20a641a30764379a phonet: Handle error of rtnl_register_module().
 ffc8fa91bef547ed419fb093e5e1703567552d2a Merge branch 'rtnetlink-handle-error-of-rtnl_register_module'
+a5474ecf5fd04ae4ae91c0855d8ee7619b0b9f5f iavf: allow changing VLAN state without calling PF
+aea5d81c3e016683fa368947e66d68a5c269e879 igb: Disable threaded IRQ for igb_msix_other
+15978b8bad0e85d5762c612d0a43d6e3c22013d6 e1000e: Remove Meteor Lake SMBUS workarounds
+539575f947a0151f2ee161dc62181a3c1f206723 ice: block SF port creation in legacy mode
+27e66db70a9c3c1d94e4678774e18cce0cdf3547 idpf: set completion tag for "empty" bufs associated with a packet
 
---===============2251867690249673292==--
+--===============2604155927803524342==--
