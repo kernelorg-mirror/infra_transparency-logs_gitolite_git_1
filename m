@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Oct 2024 02:50:09 -0000
-Message-Id: <172852860903.281262.4764335963671065863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 10 Oct 2024 02:52:20 -0000
+Message-Id: <172852874025.282467.8736133483361638226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main
-    old: 3a1beabe115910d848c959268ae6d68b4da77fd7
-    new: 0a316b16a6c8d32098ae5c1b18f343ba52e8f4bc
+  - ref: refs/heads/base.getname
+    old: 8b3d898afb729019f0627a61f34622d115f54581
+    new: efcbc68f0f46715397a735caf665815edeaab5df
     log: |
-         0a316b16a6c8d32098ae5c1b18f343ba52e8f4bc net: stmmac: Add DW QoS Eth v4/v5 ip payload error statistics
+         efcbc68f0f46715397a735caf665815edeaab5df getname_maybe_null() - the third variant of pathname copy-in
          
