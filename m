@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 10 Oct 2024 18:24:00 -0000
-Message-Id: <172858464029.1404323.4074760539525248387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 10 Oct 2024 18:29:45 -0000
+Message-Id: <172858498529.1409027.9800598031818281007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/pending
-    old: fd79fbbba5c7e309d3a53cbe88c5e5b348b7eaca
-    new: d7456825c4190112208339e4124f106dbb421849
+  - ref: refs/heads/fixes-togreg
+    old: 66cf4455f3aba1d7dab4be7f4d8f95dc334ae46e
+    new: 6b8e9dbfaed471627f7b863633b9937717df1d4d
     log: |
-         d5173381650b836442ab1db2535b4397fd86b955 wifi: ath12k: fix atomic calls in ath12k_mac_op_set_bitrate_mask()
-         9138af2f53f3728308adce4e077eab34e2a780bc wifi: ath12k: convert struct ath12k_sta::update_wk to use struct wiphy_work
-         2d079ad0ccc0759c02d7ddc633ac834c58ac2cf6 wifi: ath12k: switch to using wiphy_lock() and remove ar->conf_mutex
-         4964205f97df378a8c12c1b3841ed7dce5d7db6e wifi: ath12k: cleanup unneeded labels
-         871980569a35227f7ab95ce3c793071d252be6b0 wifi: ath12k: ath12k_mac_set_key(): remove exit label
-         d7456825c4190112208339e4124f106dbb421849 wifi: ath12k: ath12k_mac_op_sta_state(): clean up update_wk cancellation
+         5c9644a683e1690387a476a4f5f6bd5cf9a1d695 iio: frequency: {admv4420,adrf6780}: format Kconfig entries
+         6b8e9dbfaed471627f7b863633b9937717df1d4d iio: frequency: admv4420: fix missing select REMAP_SPI in Kconfig
          
