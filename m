@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 10 Oct 2024 16:35:58 -0000
-Message-Id: <172857815850.1318449.3379030001004493479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Oct 2024 16:36:11 -0000
+Message-Id: <172857817109.1318666.15449410771717743273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-6.12-fixes
-    old: 6f682a605024d7ff45297c8fc90d49db875cdf91
-    new: c425180d888e7d346d3b574a62a91932bca8797f
+  - ref: refs/heads/main
+    old: 7d3fce8cbe3a70a1c7c06c9b53696be5d5d8dd5c
+    new: 7b43ba65019e83b55cfacfcfc0c3a08330af54c1
     log: |
-         c425180d888e7d346d3b574a62a91932bca8797f sched_ext: use correct function name in pick_task_scx() warning message
-         
-  - ref: refs/heads/for-next
-    old: 0689085d098ad544440d274d25fefd3e14c703ff
-    new: f4b9a96ac0e2d5c537efbac2fdd3d970f873a034
-    log: |
-         c425180d888e7d346d3b574a62a91932bca8797f sched_ext: use correct function name in pick_task_scx() warning message
-         f4b9a96ac0e2d5c537efbac2fdd3d970f873a034 Merge branch 'for-6.12-fixes' into for-next
+         9937aae39bc09645cd67d53e0320926cd91570de MAINTAINERS: consistently exclude wireless files from NETWORKING [GENERAL]
+         5404b5a2fea9831a1f5be4ab9a94de07d976b177 MAINTAINERS: Add headers and mailing list to UDP section
+         7b43ba65019e83b55cfacfcfc0c3a08330af54c1 Merge branch 'maintainers-networking-file-coverage-updates'
          
