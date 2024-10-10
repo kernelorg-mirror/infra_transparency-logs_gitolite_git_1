@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8890356452350767156=="
+Content-Type: multipart/mixed; boundary="===============9137840016283922960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 10 Oct 2024 05:38:55 -0000
-Message-Id: <172853873531.409665.16408836837366565748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 10 Oct 2024 05:39:03 -0000
+Message-Id: <172853874310.409884.11585348051893127787@gitolite.kernel.org>
 
---===============8890356452350767156==
+--===============9137840016283922960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b6270c3bca987530eafc6a15f9d54ecd0033e0e3
     new: 0cca97bf23640ff68a6e8a74e9b6659fdc27f48c
     log: revlist-b6270c3bca98-0cca97bf2364.txt
-  - ref: refs/heads/stable
-    old: 75b607fab38d149f232f01eae5e6392b394dd659
-    new: b983b271662bd6104d429b0fd97af3333ba760bf
-    log: |
-         5c26d2f1d3f5e4be3e196526bead29ecb139cf91 unicode: Don't special case ignorable code points
-         ff9d4099e6abe7062b1d81f003b1efce72da2fb3 Merge tag 'unicode-fixes-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/krisman/unicode
-         b983b271662bd6104d429b0fd97af3333ba760bf misc: sgi-gru: Don't disable preemption in GRU driver
-         
-  - ref: refs/tags/next-20240710
-    old: faa42c8b467826e34008d5bd6f0818eb52070558
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241010
     old: 0000000000000000000000000000000000000000
     new: 9d0d85c67052fbd99885d7e94c8fd3c012d47cdf
 
---===============8890356452350767156==
+--===============9137840016283922960==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -767,4 +756,4 @@ ecfa82b0178270bdcd20ba524a3433d7fd4c47c2 Merge branch 'for-next' of git://git.ke
 a7d32df9fa55547ec2144d248c350d76a9698b64 Merge branch 'next' of https://github.com/microsoft/ipe
 0cca97bf23640ff68a6e8a74e9b6659fdc27f48c Add linux-next specific files for 20241010
 
---===============8890356452350767156==--
+--===============9137840016283922960==--
