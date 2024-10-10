@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Oct 2024 09:32:54 -0000
-Message-Id: <172855277451.637357.291720650253489765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 10 Oct 2024 09:37:33 -0000
+Message-Id: <172855305324.641404.12313407754761835223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: a354733c738d905eb8c446fca43b872d2a985f8b
-    new: ac888d58869bb99753e7652be19a151df9ecb35d
+  - ref: refs/heads/for-next/scmi/fixes
+    old: ce02cbc803b888feda6b2a5340aea15e1b7a7eb0
+    new: d7205d76b8324b992add4a3f97fd8df229cb081a
     log: |
-         ac888d58869bb99753e7652be19a151df9ecb35d net: do not delay dst_entries_add() in dst_release()
+         d7205d76b8324b992add4a3f97fd8df229cb081a firmware: arm_scmi: Queue in scmi layer for mailbox implementation
          
