@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Oct 2024 20:29:39 -0000
-Message-Id: <172867857975.2690682.9269460885926543212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Fri, 11 Oct 2024 20:32:37 -0000
+Message-Id: <172867875731.2694021.14342121212052255838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/dev-queue
-    old: f949c0c8f06654eb555cf485c8321a2491594726
-    new: acf375d055c40541a93750688b893db939eddfd6
-    log: |
-         acf375d055c40541a93750688b893db939eddfd6 ice: Fix use after free during unload with ports in bridge
-         
+  - ref: refs/tags/fbdev-for-6.12-rc3
+    old: da297f9b70311dc4e54d1d540562b8224510b865
+    new: 0000000000000000000000000000000000000000
