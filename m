@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 11 Oct 2024 12:36:40 -0000
-Message-Id: <172865020018.2309303.3324862452167351223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 11 Oct 2024 12:42:00 -0000
+Message-Id: <172865052086.2313517.8625784244030168614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/rtc-next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 0fb155d499f8d24b1943d0584a2b0fe1fc304f6b
+  - ref: refs/heads/fixes
+    old: d4a89e5aee23eaebdc45f63cb3d6d5917ff6acf4
+    new: df5fd75ee305cb5927e0b1a0b46cc988ad8db2b1
     log: |
-         870b8e3d1da957e26e6b91e9a43d5773d34ad396 dt-bindings: rtc: mpfs-rtc: Add PIC64GX compatibility
-         0fb155d499f8d24b1943d0584a2b0fe1fc304f6b dt-bindings: rtc: mpfs-rtc: Properly name file
+         df5fd75ee305cb5927e0b1a0b46cc988ad8db2b1 KVM: arm64: Don't eagerly teardown the vgic on init error
          
