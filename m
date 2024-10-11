@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 11 Oct 2024 10:11:02 -0000
-Message-Id: <172864146250.2192359.1084939846189823770@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 10:11:29 -0000
+Message-Id: <172864148918.2192636.412589568442206074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/auto-update-v2
-    old: 42458a3a65031fc659cae0be7bd2a0a630b05917
+  - ref: refs/heads/pwm-dev-v13
+    old: 98ff5da825f113dbc1515dc1b8ea14bde0246fab
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/borked-acpi-surface
-    old: f92feaae1475e0dd7efc1ef3325106da3f926614
+  - ref: refs/heads/pwm-dev-v14
+    old: 79a9eddbcdf2d978f4517d38e56566e7d91f6983
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mchp-soc2arch
-    old: 9d432b69a3a91f0605a6e06dcc3d97ec8b2e3a91
+  - ref: refs/heads/pwm-dev-v15
+    old: 78e3eb1676745b935cf29a105caf6823c4c3d81e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-jh7110_clk_reset
-    old: 63a30e1f44d5e3afbb47efe8a15fd86feeb62b4b
+  - ref: refs/heads/pwm-dev-v16
+    old: 267cd2caa96dee154db4345083754ea481020ef9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-jh7110_initial_dts
-    old: 54baba33392d428a8be4942441a92a9b05cf537e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sifive-soc2arch
-    old: 3dd16c35eee74e4d6ad30c5c3a4a1d5d12317507
+  - ref: refs/heads/pwm-dev-v17
+    old: ff4788684679b86f3385a089af46e74b8d37529d
     new: 0000000000000000000000000000000000000000
