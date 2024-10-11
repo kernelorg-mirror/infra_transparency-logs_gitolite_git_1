@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Fri, 11 Oct 2024 23:40:16 -0000
-Message-Id: <172869001601.2849443.16486367396916708931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 11 Oct 2024 23:44:07 -0000
+Message-Id: <172869024790.2851151.5734589177168453977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/tags/libtraceevent-1.8.4
-    old: 0000000000000000000000000000000000000000
-    new: 02325e4f9b1f72ed71ee7051197a4397c358850f
+  - ref: refs/heads/wip/jgg-for-rc
+    old: c659b405b82ead335bee6eb33f9691bf718e21e8
+    new: 4d784c042d164f10fc809e2338457036cd7c653d
+    log: |
+         8cddfa535c931b8d8110c73bfed7354a94cbf891 RDMA/irdma: Fix misspelling of "accept*"
+         4d784c042d164f10fc809e2338457036cd7c653d RDMA/srpt: Make slab cache names unique
+         
