@@ -1,28 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Fri, 11 Oct 2024 10:01:05 -0000
-Message-Id: <172864086555.2182753.3380877118481651040@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2303235395355680727=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 11 Oct 2024 10:06:05 -0000
+Message-Id: <172864116555.2187121.5080939614062865997@gitolite.kernel.org>
+
+--===============2303235395355680727==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/cifs
-    old: 2b0da3456d145b506e29f872d257062b4e61c2f8
-    new: 33db76a4c0e39fa16efc6905b6fdbae26ee8a1e2
+  - ref: refs/heads/for-next
+    old: d12586e1072d92070783c854819a0ca8c82c5439
+    new: 8150408bfdb2f9c17970295427cf91470189e6d0
     log: |
-         bcb394ad5800ecf908e310e68e5b1d37da7c041c cifs: Add mount option -o symlink= for choosing symlink create type
-         de777cea0be1a14aec02d8f36fc6d8690c41fdfa cifs: Add mount option -o reparse=none
-         1551dedce7bdc9d17031c862793105a3f0fd5c0a cifs: Add support for creating native Windows sockets
-         0fb9e715cc7f5a52c67492ad347dfa9ebde65825 cifs: Add support for creating NFS-style symlinks
-         ec0db67e5a5442c88342bebb998b6e53624d5b3c cifs: Improve guard for excluding $LXDEV xattr
-         0b6df417a7c10a4fc456bce6e01d7ad612dd734f cifs: Add support for creating WSL-style symlinks
-         315d5c8713a6d6b5edafa78ef140cb0f04ed26e4 cifs: Validate content of WSL reparse point buffers
-         9ba9afe4468db68b7a6491aa1aa53f3e96ecd7c7 cifs: Do not issue SMB2 CREATE always with FILE_READ_ATTRIBUTES
-         5e6cdc6a3a8af8de0a805e735f5673a57230055f cifs: Improve stat() to work also without FILE_READ_ATTRIBUTES
-         33db76a4c0e39fa16efc6905b6fdbae26ee8a1e2 cifs: Change translation of STATUS_DELETE_PENDING to -EBUSY
+         8150408bfdb2f9c17970295427cf91470189e6d0 asus-laptop: prefer strscpy() over strcpy()
          
+
+--===============2303235395355680727==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1728641179 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1728641159-260b71326246dde346e0218d422f4307e13b5793
+
+d12586e1072d92070783c854819a0ca8c82c5439 8150408bfdb2f9c17970295427cf91470189e6d0 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZwj4oAAKCRBZrE9hU+XO
+Mav+AQCUPj2A2omfhuqdhGIlSrMs/nNPVX6CvY8mSfYi44A1vgEAm3f4AUhXsTiX
+soxCyoNIdiN/hOU1/RP0LtUZDng3aAQ=
+=aZ7A
+-----END PGP SIGNATURE-----
+
+--===============2303235395355680727==--
