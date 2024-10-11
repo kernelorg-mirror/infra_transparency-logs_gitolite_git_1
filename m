@@ -1,40 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9138557208382282632=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Oct 2024 23:00:09 -0000
-Message-Id: <172868760930.2817689.6089125273576839066@gitolite.kernel.org>
-
---===============9138557208382282632==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 11 Oct 2024 23:03:31 -0000
+Message-Id: <172868781114.2819263.14723485817403100504@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c4708bf3cb29e57d98553748ece74ad8f4d0b41d
-    new: ea22f8eabb5637450bdf1e668762087437b162a6
-    log: revlist-c4708bf3cb29-ea22f8eabb56.txt
-
---===============9138557208382282632==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4708bf3cb29-ea22f8eabb56.txt
-
-ec35b0c53cc7398143315d42342a9798094dada7 selftests: drv-net: add missing trailing backslash
-9826b9a08b9cac9c664154a5ccc2768195c80dc1 net: phy: microchip_t1s: restructure cfg read/write functions arguments
-d793beee2d801bdda59363ea87f60a31ff097cb9 net: phy: microchip_t1s: update new initial settings for LAN865X Rev.B0
-7a0414fdccf303dc306d621a710e4c5e67388075 net: phy: microchip_t1s: add support for Microchip's LAN865X Rev.B1
-117b70e4c67ba6fa64492b8fcda0826fc3928def net: phy: microchip_t1s: move LAN867X reset handling to a new function
-662d9c5fe19d957f58c1d9c95d60773157d759be net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C1
-6b079d8f7b959277e92eb66eba8dd4d03c25bb1a net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C2
-78341049fbcde04f45738e9d06cb0fa75207e0f1 net: phy: microchip_t1s: configure collision detection based on PLCA mode
-44f90d7cf58f50374fc6ba9dc7a9fbde30ce51c2 Merge branch 'microchip_t1s-update-on-microchip-10base-t1s-phy-driver'
-ea22f8eabb5637450bdf1e668762087437b162a6 net: broadcom: remove select MII from brcmstb Ethernet drivers
-
---===============9138557208382282632==--
+    old: 8a6be4bd6fb319cee63d228e37c8dda5fd1eb74a
+    new: 174714f0e505070a16be6fbede30d32b81df789f
+    log: |
+         412950d5746f7aa139e14fe95338694c1f09b595 net: enetc: remove xdp_drops statistic from enetc_xdp_drop()
+         c728a95ccf2a8ba544facfc30a4418d4c68c39f0 net: enetc: block concurrent XDP transmissions during ring reconfiguration
+         0a93f2ca4be6c4616d371f18a3fabad2df7f8d55 net: enetc: disable Tx BD rings after they are empty
+         6b58fadd44aafbbd6af5f0b965063e1fd2063992 net: enetc: disable NAPI after all rings are disabled
+         0af8c8ae3484200c7ea85f6b544a73e530c0e969 Merge branch 'net-enetc-fix-some-issues-of-xdp'
+         1d7b2ce43d2c22a21dadaf689cb36a69570346a6 net: enetc: add missing static descriptor and inline keyword
+         6ea8a1c28fd36179fc66e088060b11515c8508b7 selftests: net/rds: add module not found
+         174714f0e505070a16be6fbede30d32b81df789f selftests: drivers: net: fix name not defined
+         
