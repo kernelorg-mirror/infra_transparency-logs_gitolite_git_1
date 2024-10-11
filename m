@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 11 Oct 2024 10:24:56 -0000
-Message-Id: <172864229619.2205199.4352096824669286357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Fri, 11 Oct 2024 10:26:00 -0000
+Message-Id: <172864236043.2207373.2799268491275212901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: db5cdc51fdcbc499e3a10c7f167ddbe67086e6ab
-    new: f2213b1e5942b9b6c7893b98750d97cf68fedfe5
-    log: |
-         941584e2f3ddde26e4d71941ebc0836ece181594 spi: stm32: fix missing device mode capability in stm32mp25
-         f2213b1e5942b9b6c7893b98750d97cf68fedfe5 Merge remote-tracking branch 'spi/for-6.13' into spi-next
-         
+  - ref: refs/tags/pmdomain-v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3b3f94d5900ffc872a95c5b0747d845c9f3de56f
+  - ref: refs/tags/v6.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
