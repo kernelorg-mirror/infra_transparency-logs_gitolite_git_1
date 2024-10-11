@@ -1,46 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2303235395355680727=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 11 Oct 2024 10:06:05 -0000
-Message-Id: <172864116555.2187121.5080939614062865997@gitolite.kernel.org>
-
---===============2303235395355680727==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 11 Oct 2024 10:06:55 -0000
+Message-Id: <172864121514.2187482.7993761884870331652@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: d12586e1072d92070783c854819a0ca8c82c5439
-    new: 8150408bfdb2f9c17970295427cf91470189e6d0
+  - ref: refs/heads/devel
+    old: 573cba282788c90b4ed01e21b9d3ba522fdcda17
+    new: 2a85fc7044987d751f27d7f1e4423eebbcecc2c6
     log: |
-         8150408bfdb2f9c17970295427cf91470189e6d0 asus-laptop: prefer strscpy() over strcpy()
+         07963c02067ffc04105a37ebc889392faee90164 pinctrl: s32: add missing pins definitions
+         07d944b99c13c3e8bfbd7ee5d826cad722cc3591 pinctrl: aw9523: fix kerneldoc for _aw9523_gpio_get_multiple()
+         2a85fc7044987d751f27d7f1e4423eebbcecc2c6 pinctrl: zynqmp: drop excess struct member description
          
-
---===============2303235395355680727==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1728641179 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1728641159-260b71326246dde346e0218d422f4307e13b5793
-
-d12586e1072d92070783c854819a0ca8c82c5439 8150408bfdb2f9c17970295427cf91470189e6d0 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZwj4oAAKCRBZrE9hU+XO
-Mav+AQCUPj2A2omfhuqdhGIlSrMs/nNPVX6CvY8mSfYi44A1vgEAm3f4AUhXsTiX
-soxCyoNIdiN/hOU1/RP0LtUZDng3aAQ=
-=aZ7A
------END PGP SIGNATURE-----
-
---===============2303235395355680727==--
+  - ref: refs/heads/fixes
+    old: c9560baef0fa95aa676b7c7a7532543a4c6ff80c
+    new: 4575962aeed63aca975756852ab0c550164f849f
+    log: |
+         4575962aeed63aca975756852ab0c550164f849f pinctrl: sophgo: fix double free in cv1800_pctrl_dt_node_to_map()
+         
+  - ref: refs/heads/for-next
+    old: 343dc93c233b1047565e85124272417cd214eb80
+    new: 6dbd1577b7dc10263d515045ef6460e80d6c9afa
+    log: |
+         07963c02067ffc04105a37ebc889392faee90164 pinctrl: s32: add missing pins definitions
+         4575962aeed63aca975756852ab0c550164f849f pinctrl: sophgo: fix double free in cv1800_pctrl_dt_node_to_map()
+         07d944b99c13c3e8bfbd7ee5d826cad722cc3591 pinctrl: aw9523: fix kerneldoc for _aw9523_gpio_get_multiple()
+         2a85fc7044987d751f27d7f1e4423eebbcecc2c6 pinctrl: zynqmp: drop excess struct member description
+         6dbd1577b7dc10263d515045ef6460e80d6c9afa Merge branch 'devel' into for-next
+         
