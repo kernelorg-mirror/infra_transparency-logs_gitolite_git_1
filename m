@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7439320422171824653=="
+Content-Type: multipart/mixed; boundary="===============2480478598385353013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 11 Oct 2024 15:48:01 -0000
-Message-Id: <172866168159.2466685.1244888484768461052@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 15:48:04 -0000
+Message-Id: <172866168438.2466901.13702275551471388890@gitolite.kernel.org>
 
---===============7439320422171824653==
+--===============2480478598385353013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: cd959bf7c3bbaf64a29750c5e36776078a18a8fe
     new: 8401a108a63302a5a198c7075d857895ca624851
     log: revlist-cd959bf7c3bb-8401a108a633.txt
 
---===============7439320422171824653==
+--===============2480478598385353013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -508,4 +508,4 @@ aec5514d739fad575069a43832cb11c066992057 tg3: Link queues to NAPIs
 59ae83dcf102710f097aa14de88ea5cb1396b866 Merge branch 'tg3-link-irqs-napis-and-queues'
 8401a108a63302a5a198c7075d857895ca624851 eth: remove the DLink/Sundance (ST201) driver
 
---===============7439320422171824653==--
+--===============2480478598385353013==--
