@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6165336653308317019=="
+Content-Type: multipart/mixed; boundary="===============1884008219820765969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 11 Oct 2024 20:18:15 -0000
-Message-Id: <172867789536.2680431.764443100694264718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 11 Oct 2024 20:18:18 -0000
+Message-Id: <172867789860.2680628.11339632972812921076@gitolite.kernel.org>
 
---===============6165336653308317019==
+--===============1884008219820765969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
 
---===============6165336653308317019==
+--===============1884008219820765969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -376,4 +376,4 @@ f8fafb690b7c2dfd6e388248a817fd7d1fd2420f Merge tag 'thermal-6.12-rc3' of git://g
 e643edac700637dbfb13d8cafd5754898486e666 Merge tag 'pm-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 9e4c6c1ad9a195f28ec3d3d5054e25f6bdde87bd Merge tag 'io_uring-6.12-20241011' of git://git.kernel.dk/linux
 
---===============6165336653308317019==--
+--===============1884008219820765969==--
