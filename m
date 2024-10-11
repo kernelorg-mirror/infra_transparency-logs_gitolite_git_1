@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 11 Oct 2024 20:18:46 -0000
-Message-Id: <172867792611.2680956.6679683740860753179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 11 Oct 2024 20:20:55 -0000
+Message-Id: <172867805582.2684074.1195599783877742908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/fbdev-6.12-3
-    old: 0000000000000000000000000000000000000000
-    new: 01ecc142ef7c8c5081a39be81c1d8ab7c10dd7b8
+  - ref: refs/heads/main
+    old: 8401a108a63302a5a198c7075d857895ca624851
+    new: d677aebd663ddc287f2b2bda098474694a0ca875
+    log: |
+         7e5b547cac7a56515b2838b496923e52ec4eeddd net: phy: aquantia: poll status register
+         d677aebd663ddc287f2b2bda098474694a0ca875 tcp: move sysctl_tcp_l3mdev_accept to netns_ipv4_read_rx
+         
