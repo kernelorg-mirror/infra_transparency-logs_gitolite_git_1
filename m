@@ -1,43 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 11 Oct 2024 10:52:59 -0000
-Message-Id: <172864397995.2227599.12194399723531684367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/linux-stk
+Date: Fri, 11 Oct 2024 10:56:42 -0000
+Message-Id: <172864420280.2230939.760953138864643542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/klassert/linux-stk
+user: klassert
 changes:
-  - ref: refs/heads/cache-subsystem
-    old: 7edd7fe4dcc592338451dfe25271fe9a5f7b00f4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt-for-next
-    old: 83fd23ba1618e1192e403200ece1bc499bd3d76d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/fixes
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mpfs-reset
-    old: 5a6d231662ab5d115f1b149216579369a3e41b1b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-kconfig_socs
-    old: 3af577f9826fdddefac42b35fc5eb3912c5b7d85
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-remove_plic_selects
-    old: b520597676a1434e2b7b4dec347603e5a8a07f22
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-thead_c9xx
-    old: 41adc2fbad8bc42ed5fdf480e5318133a4941bbb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-uabi_docs
-    old: c676466b63997ce058e91593fb0aa9bd506a96b3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-visionfive_v1
-    old: ab8ec07922541d675db7105fd8174bc18f8bec64
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/xfrm-pcpu-v14
+    old: b03e0a0bc7310728e1f693a1a4a4e5fc3e0d2528
+    new: 2045ef3332ee63eb582f01aaa6f48d55feffc96f
+    log: |
+         ebdaa86e7acc1eda7b113cc3d262f85a73aad5a0 xfrm: Add support for per cpu xfrm state handling.
+         2f1051f1395bf4c1b3a956a573cfad1dbbda0453 xfrm: Cache used outbound xfrm states at the policy.
+         46464f296366cb69aeab0f8e03cdd650970609c9 xfrm: Add an inbound percpu state cache.
+         2045ef3332ee63eb582f01aaa6f48d55feffc96f xfrm: Restrict percpu SA attribute to specific netlink message types
+         
