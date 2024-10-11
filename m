@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 11 Oct 2024 17:00:32 -0000
-Message-Id: <172866603205.2525997.17203595748428473097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 11 Oct 2024 17:04:50 -0000
+Message-Id: <172866629071.2528343.9476125522891349947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 6ff57a2ea7c2911f80457a5a3a5b4370756ad475
-    new: c659b405b82ead335bee6eb33f9691bf718e21e8
+  - ref: refs/heads/main
+    old: d55315295cccf8ce5dc288a74d75cf09b8063cfc
+    new: 06bad2f17030ea91ca4c9b965c2131e468af9ddc
     log: |
-         5069d7e202f640a36cf213a432296c85113a52f7 RDMA/core: Fix ENODEV error for iWARP test over vlan
-         4e1e3dd88a4cedd5ccc1a3fc3d71e03b70a7a791 RDMA/siw: Add sendpage_ok() check to disable MSG_SPLICE_PAGES
-         c659b405b82ead335bee6eb33f9691bf718e21e8 RDMA/cxgb4: Fix RDMA_CM_EVENT_UNREACHABLE error for iWARP
+         808cba847c70a91eb5a1d502a5e1a63379bb328b mtk_wed: add firmware for mt7988 Wireless Ethernet Dispatcher
+         06bad2f17030ea91ca4c9b965c2131e468af9ddc Merge branch 'robot/pr-0-1728664917' into 'main'
          
