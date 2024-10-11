@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Fri, 11 Oct 2024 07:39:37 -0000
-Message-Id: <172863237770.2070455.7948140057254874834@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 07:40:09 -0000
+Message-Id: <172863240968.2072933.13406799819328499452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/rcu/linux
 user: neeraj.upadhyay
 changes:
   - ref: refs/tags/rcu.fixes.6.12-rc3
-    old: 506b459b248d7f7133ba02bd4b905b7cc0ddc1c3
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: bc192e3ff0f62f100bc402d8458be802009aa9f5
