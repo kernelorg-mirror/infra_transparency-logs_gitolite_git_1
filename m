@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 11 Oct 2024 13:30:46 -0000
-Message-Id: <172865344656.2353678.16339048922176885947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 11 Oct 2024 13:30:47 -0000
+Message-Id: <172865344790.2353732.15165119602620907302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-linus
-    old: 182fff3a2aafe4e7f3717a0be9df2fe2ed1a77de
-    new: 54c805c1eb264c839fa3027d0073bb7f323b0722
+  - ref: refs/heads/ftrace/for-next
+    old: 474ec3e849686a02d00c5bd7a80c3042505b66bb
+    new: 3e7814207b41eafafd49e6d8010c07f2d5831891
     log: |
-         ca2803fadfd239abf155ef4a563b22a9507ee4b2 ASoC: max98388: Fix missing increment of variable slot_found
-         9b064d200aa8fee9d1d7ced05d8a617e45966715 ASoC: rsnd: Fix probe failure on HiHope boards due to endpoint parsing
-         54c805c1eb264c839fa3027d0073bb7f323b0722 ASoC: fsl_esai: change dev_warn to dev_dbg in irq handler
-         
-  - ref: refs/heads/for-next
-    old: b3c05116eee3c486503de3a8c3591df9710adfde
-    new: a98e073dd79e5e0f43e9ade64f591cf37d6653a0
-    log: |
-         ca2803fadfd239abf155ef4a563b22a9507ee4b2 ASoC: max98388: Fix missing increment of variable slot_found
-         9b064d200aa8fee9d1d7ced05d8a617e45966715 ASoC: rsnd: Fix probe failure on HiHope boards due to endpoint parsing
-         54c805c1eb264c839fa3027d0073bb7f323b0722 ASoC: fsl_esai: change dev_warn to dev_dbg in irq handler
-         a98e073dd79e5e0f43e9ade64f591cf37d6653a0 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
+         0a6c61bc9c636e9a32d9f5a4d6d3b031d08763ab fgraph: Simplify return address printing in function graph tracer
+         c73eb02a4781aee53ee4122132967356361e4f1a fgragh: No need to invoke the function call_filter_check_discard()
+         7888af4166d4ab07ba51234be6ba332b7807e901 ftrace: Make ftrace_regs abstract from direct use
+         3e7814207b41eafafd49e6d8010c07f2d5831891 ftrace: Consolidate ftrace_regs accessor functions for archs using pt_regs
          
