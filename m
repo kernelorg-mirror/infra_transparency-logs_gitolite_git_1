@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1825245943562527554=="
+Content-Type: multipart/mixed; boundary="===============0441523458903856572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Oct 2024 15:27:31 -0000
-Message-Id: <172866045140.2449371.14324348689241658180@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 15:37:13 -0000
+Message-Id: <172866103358.2456873.4211422490685687657@gitolite.kernel.org>
 
---===============1825245943562527554==
+--===============0441523458903856572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 27e66db70a9c3c1d94e4678774e18cce0cdf3547
-    new: f949c0c8f06654eb555cf485c8321a2491594726
-    log: revlist-27e66db70a9c-f949c0c8f066.txt
+  - ref: refs/heads/1GbE
+    old: ffc8fa91bef547ed419fb093e5e1703567552d2a
+    new: 1d227fcc72223cbdd34d0ce13541cbaab5e0d72f
+    log: revlist-ffc8fa91bef5-1d227fcc7222.txt
 
---===============1825245943562527554==
+--===============0441523458903856572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27e66db70a9c-f949c0c8f066.txt
+Content-Disposition: attachment; filename=revlist-ffc8fa91bef5-1d227fcc7222.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -405,10 +405,5 @@ aeb218d900e3ea2cc3878ba92cb4758227075358 docs: netdev: document guidance on clea
 eb952c47d154ba2aac794b99c66c3c45eb4cc4ec Merge tag 'for-6.12-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 0edab8d1324dfeee52aad763236c9015e413c4c2 Merge tag 'trace-ringbuffer-v6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 1d227fcc72223cbdd34d0ce13541cbaab5e0d72f Merge tag 'net-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2e78c146b6047ce84f95fd6676705eb2ab24d1b8 iavf: allow changing VLAN state without calling PF
-a46ea1effd62104b1e952bfd94b079138dc9bf42 igb: Disable threaded IRQ for igb_msix_other
-25a5c9b43c5926e6d442a922f9b7b4c87ad0d78f e1000e: Remove Meteor Lake SMBUS workarounds
-cb7208aba7f7302e7c2270bcbbc4aae8835d9fcb ice: block SF port creation in legacy mode
-f949c0c8f06654eb555cf485c8321a2491594726 idpf: set completion tag for "empty" bufs associated with a packet
 
---===============1825245943562527554==--
+--===============0441523458903856572==--
