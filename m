@@ -1,64 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3058709845913837596=="
+Content-Type: multipart/mixed; boundary="===============0662380143301793829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Oct 2024 06:39:48 -0000
-Message-Id: <172862878897.2024261.14665618297933457670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 11 Oct 2024 06:42:08 -0000
+Message-Id: <172862892809.2026758.1897196135026554684@gitolite.kernel.org>
 
---===============3058709845913837596==
+--===============0662380143301793829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/tty-linus
-    old: 40d7903386df4d18f04d90510ba90eedee260085
-    new: be847a3a8d4ec4bf270c2455376d11f2de61bfb3
-    log: |
-         4bef7c6f299910f19876ad8e7f5897514855f1d2 serial: qcom-geni: fix polled console initialisation
-         19df76662a33d2f2fc41a66607cb8285fc02d6ec serial: qcom-geni: revert broken hibernation support
-         23f5f5debcaac1399cfeacec215278bf6dbc1d11 serial: qcom-geni: fix shutdown race
-         23ee4a25661c33e6381d41e848a9060ed6d72845 serial: qcom-geni: fix dma rx cancellation
-         fa103d2599e11e802c818684cff821baefe7f206 serial: qcom-geni: fix receiver enable
-         c657243ae12000dc57e3648b0ddd30da9ffd1f14 serial: qcom-geni: fix rx cancel dma status bit
-         8173d74ac12bf231fa3a22ae0ad9d56c2abc4618 serial: qcom-geni: drop flip buffer WARN()
-         4cf4b344c1e1a0682d76f3ec9da90a714e986e90 serial: qcom-geni: drop unused receive parameter
-         be847a3a8d4ec4bf270c2455376d11f2de61bfb3 serial: qcom-geni: rename suspend functions
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b86c68df883ba59f84bd5319a7c8cebfe85359f8
+    new: 48966a5a48cd48a499e7c431e09465ce0c092e38
+    log: revlist-b86c68df883b-48966a5a48cd.txt
 
---===============3058709845913837596==
+--===============0662380143301793829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b86c68df883b-48966a5a48cd.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728628804 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1728628784-7f86db087f070174ff07def66774936469c4b5c5
+c7c1bb78f3eec716bc35f58d74592331cc3281b2 perf tools: Remove unused color_fwrite_lines
+c051220d38463cfe8a248d204461beb3ed52b4ea perf pmu: Simplify an asprintf error message
+c798f72c7a67a4c089142d4b16c8b9587e6db5e6 perf pmu: Allow hardcoded terms to be applied to attributes
+d2f3ecb0ca2099d13bf8bf69219214c1425dc453 perf parse-events: Expose/rename config_term_name
+240505b2d0adcdc8fd018117e88dc27b09734735 perf tool_pmu: Factor tool events into their own PMU
+0709a82c10bb98d0426dd289a6b8c143f61a8786 perf tool_pmu: Rename enum perf_tool_event to tool_pmu_event
+b8f1a1b0680c055bbe9f99e82e2e5b474621a1d6 perf tool_pmu: Rename perf_tool_event__* to tool_pmu__*
+069057239a676a82cce9330a81994129179dc817 perf tool_pmu: Move expr literals to tool_pmu
+c9b121b7fa5d99e87184d69d0852bf7f6a61179d perf jevents: Add tool event json under a common architecture
+609aa2667f67c1588d4e741110265f74b7713177 perf tool_pmu: Switch to standard pmu functions and json descriptions
+8c25df7af322040fdf5041e912af7cc810b0f86d perf tests: Add tool PMU test
+48966a5a48cd48a499e7c431e09465ce0c092e38 perf report: Display columns Predicted/Abort/Cycles in --branch-history
 
-40d7903386df4d18f04d90510ba90eedee260085 be847a3a8d4ec4bf270c2455376d11f2de61bfb3 refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcIyEQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sx0P/1HFftAQXHPvIADdB91C
-/dclswZuOvcEWCdbCuYpxDOMUmhOYEh4ic9dTw5n+DoCSc3HsMavistsaAaLpbc0
-XUsm/mS2tWS3EwhzQhNO2xyuY13SM4MxbIeShSiTtSH+BtZSD86gsyK0+VfsDF/j
-SGz1FPe1WQ7PsePsIKWjKm+5MKMAdisrTqsmhPtEUhxaHcImq34qVeUY9ih0LppZ
-8h1rKq478bgvuhaoiqSPma12BO1TnCP3XEU9xtRdbNBIMdTLFl8vnhj7jWXZtN7L
-pOfA908GX8bjvenELVpVo+LhbunCBnnYqROBfAAVo/C/r5Cvf5mrqyqe2vIe3PMh
-2MIONr6Uks/RA1AsY98pWZ8OdOYIWgQ0Rowp8xIZ7WZxxVd2bKuSz0kBUiVaEsKw
-2IpD9imbGsb99ekIXj8TNbVZyQCkST90hlgrxsN2gJfs3wpx9/2xu1L3D3+PjuPb
-CgrIrlLCHMKyPv7FQWjhEbgCHzDGlWw7NUC2m+/tzedgoQstntavwvxZLe+gUyiW
-KIJjgSqcGVbns5pCsWoIL9WLKRl/GzUjQxFFLx7vgt3BZa45CGFsXoZ/Gw7gD0gt
-Pb8FJEV642lQxA0t0dGVzrVfxuHI9YLaTWmZWMnzskG/AeWdAumzl9S/fEFdrGZy
-sRGmeIKnFSwCTjiUVbh9y/sE
-=BaDY
------END PGP SIGNATURE-----
-
---===============3058709845913837596==--
+--===============0662380143301793829==--
