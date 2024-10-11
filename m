@@ -1,29 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 11 Oct 2024 22:49:41 -0000
-Message-Id: <172868698171.2807685.17652401811358561540@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9138557208382282632=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Oct 2024 23:00:09 -0000
+Message-Id: <172868760930.2817689.6089125273576839066@gitolite.kernel.org>
+
+--===============9138557208382282632==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: a980206d6386edf7772dcb1873a4f1b198149588
-    new: 0255c5cbaa6dfa8305a7a2b33d80fb0837bdbf0e
-    log: |
-         9ad0ad3a7ff9e1bdb6aa604ea5fdfb5853438785 inject.f2fs: add dentry injection
-         662e619cfaee04ef123e43b29df865aa1d903b0f mkfs.f2fs: use correct endian conversion for writing lpf inode
-         82b59c71a76e00108778dcb720f34b629e45bbc8 fsck.f2fs: fix to detect double '.' or '..'
-         4ce6d22c2085df24cdd7c38fb9215a40abce1d87 fsck.f2fs: support to add missing '.' or '..' dirent
-         48fb9473ce8d7a470911903a3bab520468aa1a0e fsck.f2fs: remove redundant i_ext.len set to zero
-         5c06793f804af6c01483134aebd4dfe3350794a1 f2fs-tools: add write hint support
-         c35fa8cd75ac98238f9e6d8f7a23f74b4897aa1b mkfs.f2fs: change -c option description
-         8cc4e257ec20bee207bb034d5ac406e1ab31eaea mkfs.f2fs: add device aliasing feature
-         2f609c86802d359c066d6b47638763e125b0d471 f2fs-tools:provide a more reasonable ovp rate for manually setting rsvd
-         2c133335ecd4d72f8d67fd13aaa4d9d3c8e15c11 f2fs_io: add fdatasync
-         0255c5cbaa6dfa8305a7a2b33d80fb0837bdbf0e f2fs_io: support fadvice for read
-         
+  - ref: refs/heads/main
+    old: c4708bf3cb29e57d98553748ece74ad8f4d0b41d
+    new: ea22f8eabb5637450bdf1e668762087437b162a6
+    log: revlist-c4708bf3cb29-ea22f8eabb56.txt
+
+--===============9138557208382282632==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c4708bf3cb29-ea22f8eabb56.txt
+
+ec35b0c53cc7398143315d42342a9798094dada7 selftests: drv-net: add missing trailing backslash
+9826b9a08b9cac9c664154a5ccc2768195c80dc1 net: phy: microchip_t1s: restructure cfg read/write functions arguments
+d793beee2d801bdda59363ea87f60a31ff097cb9 net: phy: microchip_t1s: update new initial settings for LAN865X Rev.B0
+7a0414fdccf303dc306d621a710e4c5e67388075 net: phy: microchip_t1s: add support for Microchip's LAN865X Rev.B1
+117b70e4c67ba6fa64492b8fcda0826fc3928def net: phy: microchip_t1s: move LAN867X reset handling to a new function
+662d9c5fe19d957f58c1d9c95d60773157d759be net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C1
+6b079d8f7b959277e92eb66eba8dd4d03c25bb1a net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C2
+78341049fbcde04f45738e9d06cb0fa75207e0f1 net: phy: microchip_t1s: configure collision detection based on PLCA mode
+44f90d7cf58f50374fc6ba9dc7a9fbde30ce51c2 Merge branch 'microchip_t1s-update-on-microchip-10base-t1s-phy-driver'
+ea22f8eabb5637450bdf1e668762087437b162a6 net: broadcom: remove select MII from brcmstb Ethernet drivers
+
+--===============9138557208382282632==--
