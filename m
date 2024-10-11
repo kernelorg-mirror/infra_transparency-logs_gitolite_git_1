@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7961338257347707240=="
+Content-Type: multipart/mixed; boundary="===============1247117180308330196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Fri, 11 Oct 2024 16:28:26 -0000
-Message-Id: <172866410651.2499005.7484677778746903028@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 16:28:33 -0000
+Message-Id: <172866411379.2499220.7870555834612263711@gitolite.kernel.org>
 
---===============7961338257347707240==
+--===============1247117180308330196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: vishal
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/pending
     old: 16f45755f991f4fb6d76fec70a42992426c84234
     new: 04815e5f8b87e02a4fb5a61aeebaa5cad25a15c3
     log: revlist-16f45755f991-04815e5f8b87.txt
 
---===============7961338257347707240==
+--===============1247117180308330196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ dfa937e2eb261f1142e64996a643b516c63d9bbc test/daxctl-create.sh: use CXL DAX regi
 ed9c3c0b1fa5124e2a66346ce5b4e329d42e0035 test/rescan-partitions.sh: refine search for created partition
 04815e5f8b87e02a4fb5a61aeebaa5cad25a15c3 ndctl: release v80
 
---===============7961338257347707240==--
+--===============1247117180308330196==--
