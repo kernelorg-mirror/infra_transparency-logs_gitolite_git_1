@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
-Date: Fri, 11 Oct 2024 01:26:27 -0000
-Message-Id: <172860998783.1740943.17804437333864708761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Fri, 11 Oct 2024 01:34:11 -0000
+Message-Id: <172861045198.1747424.17589980532032955805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hackermail
-user: sj
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/master
-    old: f9cae3e80d74ff2a471ed5c8be706bf658c79467
-    new: b75e5044c962da38be96c470faa63555e444ee1b
-    log: |
-         b75e5044c962da38be96c470faa63555e444ee1b _hkml/Mail/add_tag(): avoid duplicated tags
-         
+  - ref: refs/tags/amd-pstate-v6.12-2024-10-10
+    old: 0000000000000000000000000000000000000000
+    new: 5f7405ecf427bcb672ab14fb3576443099c7ef59
