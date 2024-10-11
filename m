@@ -1,41 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============6234769316839104546=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 11 Oct 2024 14:33:30 -0000
-Message-Id: <172865721028.2402640.16995264056803322820@gitolite.kernel.org>
-
---===============6234769316839104546==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Fri, 11 Oct 2024 14:35:38 -0000
+Message-Id: <172865733810.2405671.15923984544176123077@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/pending
-    old: d7456825c4190112208339e4124f106dbb421849
-    new: e805272f8c2dee280e2fa1c1a454517df17f1261
-    log: revlist-d7456825c419-e805272f8c2d.txt
-
---===============6234769316839104546==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7456825c419-e805272f8c2d.txt
-
-44cfb7c58eb84e5f721a8950a4fbe3e5b3b28c27 wifi: ath12k: Support Self-Generated Transmit stats
-7e4eed987d5d5a988056496eebdf55202511f270 wifi: ath12k: Support Ring and SFM stats
-6f27b59af173ca03961d33970cfd2635f0ddb3d3 wifi: ath12k: Support pdev Transmit Multi-user stats
-3f5ecfc4503a9eb0e3cecbc580bd0f10332214bb wifi: ath12k: Support pdev CCA Stats
-15d91424ea822ddfb28ed18564343b3ff9d382fe wifi: ath12k: Support Pdev OBSS Stats
-8fac3266c68a8e647240b8ac8d0b82f1821edf85 wifi: ath12k: fix atomic calls in ath12k_mac_op_set_bitrate_mask()
-58550cdda961dedad8ed08c5abf8367d5c020fb6 wifi: ath12k: convert struct ath12k_sta::update_wk to use struct wiphy_work
-b8c67509b91ec23fcacbb99d40c960ab479e1299 wifi: ath12k: switch to using wiphy_lock() and remove ar->conf_mutex
-31489439e6481cd0c21c8c7096d2ec44dc56b6a6 wifi: ath12k: cleanup unneeded labels
-37d06d71e69c16d24ccc276cb86489fd2fcd00c4 wifi: ath12k: ath12k_mac_set_key(): remove exit label
-e805272f8c2dee280e2fa1c1a454517df17f1261 wifi: ath12k: ath12k_mac_op_sta_state(): clean up update_wk cancellation
-
---===============6234769316839104546==--
+  - ref: refs/heads/main
+    old: e19030915bf8f09b29ef093220c14fa4cba9ad54
+    new: b7cf60f2298e442ea3a0241ec8a27662d9422b8f
+    log: |
+         81d8c12cbe721cbbc4344a5e3e05e89bfefccc85 Fix LUKS2 decryption when volume key digest id not zero.
+         b7cf60f2298e442ea3a0241ec8a27662d9422b8f Add regression test for decryption with datashift.
+         
+  - ref: refs/heads/master
+    old: e19030915bf8f09b29ef093220c14fa4cba9ad54
+    new: b7cf60f2298e442ea3a0241ec8a27662d9422b8f
+    log: |
+         81d8c12cbe721cbbc4344a5e3e05e89bfefccc85 Fix LUKS2 decryption when volume key digest id not zero.
+         b7cf60f2298e442ea3a0241ec8a27662d9422b8f Add regression test for decryption with datashift.
+         
+  - ref: refs/merge-requests/238/head
+    old: afb01ae52e6ba2c4fc50cc6e3ffc5f058f01ed23
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/238/merge
+    old: 4667de9c22b28869921480aefa3905d36dcf6d2c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/239/head
+    old: 7086c414bce83b5477be39a4ec1a77d2622081b7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/239/merge
+    old: 2efbf2d0f0d397f95af6b8a8ed450e350edc1f8d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/240/head
+    old: 0cc5f2fdf97a919110f3179b8f059c5d0f541e5d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/240/merge
+    old: 928693710771904c79cf12b71bf0b609f40a13c3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/241/head
+    old: a364355c16e4acf497e02505eb7adfdcf4da751e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/241/merge
+    old: 8b020a302363971a5ed8f274f21e2ee026429f21
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/242/head
+    old: 31698f8388d3afc3267d9e07fbaba3698da3a669
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/242/merge
+    old: cd6416be558600fe86b0c24789e3648f5076b780
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/420/merge
+    old: 0baaf076e82ea13bc04d134d5e1856118565bc5a
+    new: 1b6b988a8c433995608b79c2ccbcc9c4368b5c5c
+    log: |
+         e19030915bf8f09b29ef093220c14fa4cba9ad54 Unify integer format parameter in prompt.
+         1b6b988a8c433995608b79c2ccbcc9c4368b5c5c Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/693/merge
+    old: 28b80609020bdd909742eea566467cec1a484f37
+    new: 18e27059827994dcc88810fc10a51ad7c812682b
+    log: |
+         e19030915bf8f09b29ef093220c14fa4cba9ad54 Unify integer format parameter in prompt.
+         18e27059827994dcc88810fc10a51ad7c812682b Merge branch 'integrity-phmac' into 'main'
+         
+  - ref: refs/merge-requests/707/head
+    old: 0000000000000000000000000000000000000000
+    new: 122e7998f02ea930de6510c8f12dc4b89e8d3bdf
+  - ref: refs/merge-requests/707/merge
+    old: 0000000000000000000000000000000000000000
+    new: e59c59066b5342a6f6efa5a5560919e6a433c8b8
+  - ref: refs/merge-requests/708/head
+    old: 0000000000000000000000000000000000000000
+    new: b7cf60f2298e442ea3a0241ec8a27662d9422b8f
+  - ref: refs/merge-requests/708/merge
+    old: 0000000000000000000000000000000000000000
+    new: 75eb9c793d0be531eeb757c651069037af273941
