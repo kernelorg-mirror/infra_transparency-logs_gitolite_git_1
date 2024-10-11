@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 11 Oct 2024 07:00:59 -0000
-Message-Id: <172863005951.2042289.14866661820266350844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Fri, 11 Oct 2024 07:19:39 -0000
+Message-Id: <172863117951.2054814.2439604948818684349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/testing
-    old: 3f0ab59e6537c6a8f9e1b355b48f9c05a76e8563
-    new: 6889cd2a93e1e3606b3f6e958aa0924e836de4d2
-    log: |
-         6889cd2a93e1e3606b3f6e958aa0924e836de4d2 xfrm: fix one more kernel-infoleak in algo dumping
-         
+  - ref: refs/tags/rcu.fixes.6.12-rc3
+    old: 0cdeb0b080818eaf837e7f779497ace35623e76d
+    new: 0000000000000000000000000000000000000000
