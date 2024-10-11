@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1459902471347170218=="
+Content-Type: multipart/mixed; boundary="===============2346886928286141956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Oct 2024 06:17:44 -0000
-Message-Id: <172862746464.2006948.18138453543294082115@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 06:28:54 -0000
+Message-Id: <172862813423.2014892.6229366038429809837@gitolite.kernel.org>
 
---===============1459902471347170218==
+--===============2346886928286141956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: fd29e1e4e6e6019a8e10a215280cab53590c8033
-    new: 70acca67bdd3afeadafb522b543db23a1b9cb9a4
+  - ref: refs/heads/tty-linus
+    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    new: 40d7903386df4d18f04d90510ba90eedee260085
     log: |
-         70acca67bdd3afeadafb522b543db23a1b9cb9a4 serial: imx: Switch to nbcon console
+         f956052e00de211b5c9ebaa1958366c23f82ee9e vt: prevent kernel-infoleak in con_font_get()
+         9462f4ca56e7d2430fdb6dcc8498244acbfc4489 tty: n_gsm: Fix use-after-free in gsm_cleanup_mux
+         40d7903386df4d18f04d90510ba90eedee260085 serial: imx: Update mctrl old_status on RTSD interrupt
          
 
---===============1459902471347170218==
+--===============2346886928286141956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728627480 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728628149 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1728627460-5185fe50b6dfe8f050da5864cc9e3d7cd381623a
+nonce 1728628129-9e7f5a692200601cadba01ba2548d44cc0c56323
 
-fd29e1e4e6e6019a8e10a215280cab53590c8033 70acca67bdd3afeadafb522b543db23a1b9cb9a4 refs/heads/tty-testing
+8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 40d7903386df4d18f04d90510ba90eedee260085 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcIwxgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZI4P/1u8P3qNy+AuvHIU5LUW
-Th1BW2oysMhnlKERjSzBO8K45edNAh1Alk6+jqcddGgnmTn1RAVldqGWZYtZKwis
-zTtp2OOR2soNp8JGxmMnhPkMG1eUqrbCIzItHjpwn17iyhx1+iXZVY3DPx4matHx
-thwtDFjgs129pcY6RjXDzR+W9xDuDo6oVImbmfTQknscCgPwVtrFVGZhDVEgluWD
-MrL7dkkSKygvHFLDltuB6gaowsVL+kBUjKaY9LY393OIKFBpsS+RR9v7BZnA0/Pw
-xOROHLJ3R52j0O0QO/iOB6EEe8CGDu4pU8zPUMmxkcuIMtC+9L04LgLrozZF2wuJ
-SFv9GuwMpaKMoWgHBziZPPw68webfBHE09imW3Uf0LA6rFD2URdIptqB4fIF5epd
-kMKF5y+VFheW/6gp3f9vhK3R3I0yNN20fLz+aQ3ZiQ+Oof/PBzJb1Lc32PwcRkM0
-redmkMuEj1g2Fr8n4tclFOprxUrS4IPPSzfStOFMT+/T+dnLi1VxXTE7PPIgDDdz
-jRilcZz96kxRwED3MgJyRf3lzeJ3XSLHQUBKv0XZkbcOew/70F9uzbsT9XLhUxOT
-2usZ//SEQG2eR4FhbrgkCkJ0vGoYDRmgxQ1SGng/W9EHAZpDEpWMiAax9k/Auhhm
-qZ9Uk75sMjZ2yjENB8TAaMT1
-=gRAJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcIxbUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W4cP/jylU4GrOxCSPNS9LMv+
+5v+vwQCBbeddrPNKu9fC6NWJqE4DNI9Fh/032zmHavp0/33VJzUL9+ltz5xR9JHR
+xlJqiZFejNMUYVqbTw3y6HxipwKB7LFdLyyJIe7IKK9PEtv7A9Xhv4sxHoOnNXNm
+rplr4ug5elwKsbEvxwLm7OnmWleYXFvda1JoQHIdAwbo9QR8uVdBeeetwSZmcuJF
+HfpCFsLvK3fT1AMW+RBrvPYQDBZ7deP1i1c6GE2gwxwf8IiGx21cwHKHD68ignDB
+ELpBhRChI7vP8jLx3gr6vtmtSokIGfDtv1UmNWJiHzRPndUPTEqAo2yFbQIdonCF
+8iJ1Kx1833/y2utGU/Lzio62vl66EoAqBwOdOQ++/tRtOADHvRN3gztUyECopVVX
+knVPrAE5j8wgPuQJh9ymZfThGxtESp5gNTM+7kvUDSqFdaoAFguuEC23RDEIGjnm
+aeEkj9Zf3WOrKkLUHYZHThmKl2/ZfYoNVMZehBzre8G1Fy991vVL1y3xGANNX69i
+yAqdYfKovDHs/CCdWu/xAd0GDXlJyX/2Zwqref9kjNbvHG4ml9o4xnAry65ZmvOc
+2kwjMD/el+Oddcw3LCQJObQGCoWZfKFQKtbhKfo7sG/L5wpZSvWmLNZASEUrCKtz
+rnISGSK1Acp9mmjfkCqlvHHL
+=cCEq
 -----END PGP SIGNATURE-----
 
---===============1459902471347170218==--
+--===============2346886928286141956==--
