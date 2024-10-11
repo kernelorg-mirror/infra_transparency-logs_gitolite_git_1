@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Fri, 11 Oct 2024 00:27:42 -0000
-Message-Id: <172860646288.1689773.18198068067597109414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 11 Oct 2024 01:08:13 -0000
+Message-Id: <172860889352.1725408.7377401711616344780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/main
-    old: 0fb4ef8bbbf536bd972cb92829730a64f6e4c5ae
-    new: 75e760026c4d930058d9845fcd149019804393a5
+  - ref: refs/heads/net
+    old: 693fe954d61d4696aa06f631fd0bce0b3b3e8027
+    new: a8057ed23a368abad2e8b8f53438b98170a82ebc
     log: |
-         8ef80bcbbd21c01719681b95d3d17d2c827d2699 man: Add ip-rule(8) as generation target
-         75e760026c4d930058d9845fcd149019804393a5 iprule: Add DSCP support
-         
-  - ref: refs/heads/master
-    old: 0fb4ef8bbbf536bd972cb92829730a64f6e4c5ae
-    new: 75e760026c4d930058d9845fcd149019804393a5
-    log: |
-         8ef80bcbbd21c01719681b95d3d17d2c827d2699 man: Add ip-rule(8) as generation target
-         75e760026c4d930058d9845fcd149019804393a5 iprule: Add DSCP support
+         ac8d16b2d3772934f4cba44cb01bad05b4b2864c selftests/bpf: fix bpf_map_redirect call for cpu map test
+         d5fbcf46ee82574aee443423f3e4132d1154372b selftests/bpf: make xdp_cpumap_attach keep redirect prog attached
+         d124d984c8a2d677e1cea6740a01ccdd0371a38d selftests/bpf: check program redirect in xdp_cpumap_attach
+         a8057ed23a368abad2e8b8f53438b98170a82ebc Merge branch 'selftests/bpf: add coverage for xdp_features in test_progs'
          
