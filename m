@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2571620498463737837=="
+Content-Type: multipart/mixed; boundary="===============6234769316839104546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 11 Oct 2024 14:33:20 -0000
-Message-Id: <172865720019.2402485.4786266683212962545@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 14:33:30 -0000
+Message-Id: <172865721028.2402640.16995264056803322820@gitolite.kernel.org>
 
---===============2571620498463737837==
+--===============6234769316839104546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 4c57ec6c4bb9979b42ae7fa7273fc2d4a361d576
+  - ref: refs/heads/pending
+    old: d7456825c4190112208339e4124f106dbb421849
     new: e805272f8c2dee280e2fa1c1a454517df17f1261
-    log: revlist-4c57ec6c4bb9-e805272f8c2d.txt
+    log: revlist-d7456825c419-e805272f8c2d.txt
 
---===============2571620498463737837==
+--===============6234769316839104546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c57ec6c4bb9-e805272f8c2d.txt
+Content-Disposition: attachment; filename=revlist-d7456825c419-e805272f8c2d.txt
 
 44cfb7c58eb84e5f721a8950a4fbe3e5b3b28c27 wifi: ath12k: Support Self-Generated Transmit stats
 7e4eed987d5d5a988056496eebdf55202511f270 wifi: ath12k: Support Ring and SFM stats
@@ -38,4 +38,4 @@ b8c67509b91ec23fcacbb99d40c960ab479e1299 wifi: ath12k: switch to using wiphy_loc
 37d06d71e69c16d24ccc276cb86489fd2fcd00c4 wifi: ath12k: ath12k_mac_set_key(): remove exit label
 e805272f8c2dee280e2fa1c1a454517df17f1261 wifi: ath12k: ath12k_mac_op_sta_state(): clean up update_wk cancellation
 
---===============2571620498463737837==--
+--===============6234769316839104546==--
