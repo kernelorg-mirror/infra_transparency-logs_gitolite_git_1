@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0441523458903856572=="
+Content-Type: multipart/mixed; boundary="===============2261226964068776138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Oct 2024 15:37:13 -0000
-Message-Id: <172866103358.2456873.4211422490685687657@gitolite.kernel.org>
+Date: Fri, 11 Oct 2024 15:37:16 -0000
+Message-Id: <172866103679.2456973.2421676758316430656@gitolite.kernel.org>
 
---===============0441523458903856572==
+--===============2261226964068776138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ffc8fa91bef547ed419fb093e5e1703567552d2a
     new: 1d227fcc72223cbdd34d0ce13541cbaab5e0d72f
     log: revlist-ffc8fa91bef5-1d227fcc7222.txt
 
---===============0441523458903856572==
+--===============2261226964068776138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -406,4 +406,4 @@ eb952c47d154ba2aac794b99c66c3c45eb4cc4ec Merge tag 'for-6.12-rc2-tag' of git://g
 0edab8d1324dfeee52aad763236c9015e413c4c2 Merge tag 'trace-ringbuffer-v6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 1d227fcc72223cbdd34d0ce13541cbaab5e0d72f Merge tag 'net-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0441523458903856572==--
+--===============2261226964068776138==--
