@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Oct 2024 23:05:01 -0000
-Message-Id: <172868790103.2820423.15616631044349060190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Fri, 11 Oct 2024 23:05:05 -0000
+Message-Id: <172868790502.2822043.401888765203321714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/main
-    old: ea22f8eabb5637450bdf1e668762087437b162a6
-    new: c531f2269a53db5cf64b24baf785ccbcda52970f
+  - ref: refs/heads/master
+    old: 715e628ad9e3e820895115c0d3eb47a75a23c11d
+    new: 5f20c4770b6ca280999e553c54afb58f03bd9c4f
     log: |
-         c531f2269a53db5cf64b24baf785ccbcda52970f net: bcmasp: enable SW timestamping
+         d1fac9ecd3b581e08c86fc625e577fcb586f24f7 trace-cmd record: Always disable func_stack_trace in tracecmd_disable_all_tracing()
+         75e3b8681d6eff381879831a147cde9f8e817665 trace-cmd: utest: include libgen.h for POSIX basename()
+         176bc1f14419b0b5ad0d540fe7992de952d9f95d trace-cmd record: Fix compression when files are greater than 2GB
+         9da3427e1cc16231c0d5a025797dd4d268983036 trace-cmd lib: Use proper printf format specifiers
+         5f20c4770b6ca280999e553c54afb58f03bd9c4f trace-cmd: Version 3.3.1
          
