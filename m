@@ -1,31 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============8014232492250957558=="
+Content-Type: multipart/mixed; boundary="===============4916224479136619090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 11 Oct 2024 17:30:37 -0000
-Message-Id: <172866783734.2549775.9499724538053032194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 11 Oct 2024 17:32:14 -0000
+Message-Id: <172866793496.2550496.749214477876956820@gitolite.kernel.org>
 
---===============8014232492250957558==
+--===============4916224479136619090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/tools/for-next
-    old: 28beb730ee167e505c86d1a8ae239e97d0136b13
-    new: 76b3102148135945b013797fac9b206273f0f777
-    log: revlist-28beb730ee16-76b310214813.txt
+  - ref: refs/heads/dev
+    old: b09bcf8e1406d5cad519b7b43a974fea20abc7f4
+    new: 8df7f1a1be6c7fa0db5e787c08921fab69203b7c
+    log: revlist-b09bcf8e1406-8df7f1a1be6c.txt
+  - ref: refs/heads/non-rcu/next
+    old: 3b27dde7b75dd0e051369456bd6d6b4c42195ee7
+    new: c87bf8b027379bc727e5d14771918bb48451e8fb
+    log: revlist-3b27dde7b75d-c87bf8b02737.txt
+  - ref: refs/heads/dev.2024.10.09a
+    old: 0000000000000000000000000000000000000000
+    new: b09bcf8e1406d5cad519b7b43a974fea20abc7f4
 
---===============8014232492250957558==
+--===============4916224479136619090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28beb730ee16-76b310214813.txt
+Content-Disposition: attachment; filename=revlist-b09bcf8e1406-8df7f1a1be6c.txt
 
+f210ce2642018e23d232a52ea15003d15ba8bee0 tools/memory-model: Add atomic_and()/or()/xor() and add_negative
+3163f74a3a666d5bb3337d2cc6f84ea4808cd656 tools/memory-model: Add atomic_andnot() with its variants
+9861f7f66f98a6358c944c17a5d4acd07abcb1a7 locking/csd-lock: Switch from sched_clock() to ktime_get_mono_fast_ns()
+c87bf8b027379bc727e5d14771918bb48451e8fb Merge branches 'cmpxchg.2024.10.11a', 'csd-lock.2024.10.11a' and 'lkmm.2024.10.11a' into HEAD
+99fecdbf5dd84e185df691f63f56a9f323e65728 rcu: Add rcuog kthreads to RCU_NOCB_CPU help text
+35c78953414a8bc3ecffda0456ed42f8579419b2 doc: Add rcuog kthreads to kernel-per-CPU-kthreads.rst
+0e5fba62260b7f4f55c51e838c0d882ce24fae7f rcu: Allow short-circuiting of synchronize_rcu_tasks_rude()
+91a8aa4d911d00fe9dfdf43c63ae8fbfa226cda5 rcu: Permit start_poll_synchronize_rcu*() with interrupts disabled
+810429da7b8b3f6362c1ebc09357796fdfe0aeb6 rcutorture: Test start-poll primitives with interrupts disabled
+83fc45aad1c12b1d2ff6e86f1ac5bdc7011a39c1 doc: Remove kernel-parameters.txt entry for rcutorture.read_exit
+7b603855350d1bd06751b8ba59fd4cbb00520bc2 rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
+71ef75adb5a9663cf35df050f96bd6fbbf3f09bf refscale: Add test for sched_clock()
+a050cc0136e06909da6280f43d0e3549ec194fce torture: Add --no-affinity parameter to kvm.sh
+5211e986abfdd5b524dff7c4cfdd8e6ade469f5b refscale: Correct affinity check
+b924be1a610a87c5da1ba560117366022c3ac09a rcuscale: Add guest_os_delay module parameter
+dd02f96e5cf61ef4e0000261610c60002fc8d162 rcutorture: Avoid printing cpu=-1 for no-fault RCU boost failure
+84c490ef36f7947949db1d030a2c468ac67deceb rcu: Delete unused rcu_gp_might_be_stalled() function
+a723c46d4cc1fbb6052ac78881a587d3c35ab485 rcu: Stop stall warning from dumping stacks if grace period ends
+a969292d9f9278b042ec5e3ecb0e7e70e8bd8fc9 rcu: Finer-grained grace-period-end checks in rcu_dump_cpu_stacks()
+f5ea31c5b99895bd2cd56d4524c7790123888c95 srcu: Rename srcu_might_be_idle() to srcu_should_expedite()
+d5b69ffa12206f7ddcc468326bd8f52263bddcff srcu: Introduce srcu_gp_is_expedited() helper function
+945577fe6a816214fff2084921aeae800ffc1287 srcu: Renaming in preparation for additional reader flavor
+3906dec63753e137121bc0cf19c544bfa7c0ebcb srcu: Bit manipulation changes for additional reader flavor
+3a3bfc38801ede52fb14cc72cfe65d1f19a75664 srcu: Standardize srcu_data pointers to "sdp" and similar
+41d09154f21863e8aa524a06f1b4a6138f8ef426 srcu: Add srcu_read_lock_lite() and srcu_read_unlock_lite()
+cfcc8aad505dd49b53b700f2ee33e118c3e795c9 srcu: Allow inlining of __srcu_read_{,un}lock_lite()
+30de948998405d990a99b4e32b3adc1ea6dcd6dc rcutorture: Expand RCUTORTURE_RDR_MASK_[12] to eight bits
+23255cd137a47f10a347a863b4fb520de659b137 rcutorture: Add reader_flavor parameter for SRCU readers
+360affe55055739ca193233e96742b8539f002fc rcutorture: Add srcu_read_lock_lite() support to rcutorture.reader_flavor
+29356ad5fd52957739bdfc948ad4855804828752 rcutorture: Add light-weight SRCU scenario
+e418f5b4988c867e5ce7c84ec40f2fae39f44107 refscale: Add srcu_read_lock_lite() support using "srcu-lite"
+c4dd18a590155213f9fe89f8d5bbd50154f28791 srcu: Improve srcu_read_lock_lite() kernel-doc comment
+a2f1865e1f4176b790e9ad677b54e5b7714e1d58 Merge branches 'misc.2024.10.11a', 'torture.2024.10.11a', 'stall.2024.10.11a' and 'srcu.2024.10.11a' into HEAD
+7a64bed62a832b1f4b99f556b49988f450d0a856 Merge branches 'non-rcu.2024.10.11a' and 'rcu.2024.10.11a' into HEAD
+aced8c339ead7d7bf4766b43785762df1ac12376 EXP srcu: Make Tiny SRCU able to operate in preemptible kernels
+eba6a534e5060d87da4bdf152c42254f59015471 srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
+2f4004ca545084620ba28786e134a9b05601a6f3 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
+28c564dc6f3d0fb1d8a4335ab28f9cf67f31fb5d EXP rcu Move wakeup out from under lock
+74596f6ff12429f0017cad1114b8ad2f36775e74 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
+dafbe076c637e3164bfafd2f714bfe0d5b28ca1b rcu/nocb: Use switch/case on NOCB timer state machine
+6c3bad1b0c9c04a8a666ccee70ace1f7a2e4c92f rcu/nocb: Fix rcuog wake-up from offline softirq
+c753d84fe6b1534f63512e2ca76356d30cdc158c rcu: Report callbacks enqueued on offline CPU blind spot
+acb71168f6939bc1d9addc354391acbd3a3a559b perf: Fix missing RCU reader protection in perf_event_clear_cpumask()
+c78a07aa3ffbcea533997dc4a18cc71bedb88b14 torture: Make kvm-remote.sh give up on unresponsive system
+6644e09fe4b66f5a0ad1ee5818cc9cde79defdaa torture: Add dowarn argument to torture_sched_setaffinity()
+1790df1668f7120659ac8438b6fb6c16f8c72243 rcutorture: Add random real-time preemption
+8df7f1a1be6c7fa0db5e787c08921fab69203b7c rcutorture: Make the TREE03 scenario do preemption
+
+--===============4916224479136619090==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3b27dde7b75d-c87bf8b02737.txt
+
+89c601ab7cb3f520d59a653ddde2dfddd50986fb cifs: Fix recognizing SFU symlinks
+cf2ce67345d6a1af0853d8a7aef9ab8e6ea597d5 cifs: Add support for reading SFU symlink location
+bb68327053a24734d5a146620f8a29219361dd3e cifs: Put explicit zero byte into SFU block/char types
+25f6bd0fb016d4746025a02ed2eb9e7ce642c348 cifs: Show debug message when SFU Fifo type was detected
 2ba0d8947efd49d44babe7a2e72637c630fcfc42 cifs: Recognize SFU socket type
 21dcbc17eba3cc8283747bc77e864ac7596b95ff smb: use LIST_HEAD() to simplify code
 3561373114c8b3359114e2da27259317dc51145a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -1041,14 +1106,10 @@ b81b78dacc44b30b32c8137b29f36712cc1ea980 Merge tag 'dma-mapping-6.12-2024-09-29'
 e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
-3a546a67a4cc251b4ec2ba02d8f7aacf0bfc3148 rtla: use the definition for stdout fd when calling isatty()
-f88b8871c70f10d692cc2cfa1fb020c281dd7603 tools/rv: Correct the grammatical errors in the comments
-1c5e11b3ee9c1a583a6630148ed50346e5bbb59b tools/rv: Correct the grammatical errors in the comments
-ac1987f8f525379a0677f7f23c7a7ef2596a338d rv: Fix a typo
-cfb1ea216c1656a4112becbc4bf757891933b902 rtla: Fix consistency in getopt_long for timerlat_hist
-099a84019b64406a83b8d4f9f63235dbc16ed5b8 tools/rtla: drop __NR_sched_getattr
-0eecee340672c4b512f6f4a8c6add26df05d130c tools/rtla: fix collision with glibc sched_attr/sched_set_attr
-4eba4723c5254ba8251ecb7094a5078d5c300646 rtla/timerlat: Make timerlat_top_cpu->*_count unsigned long long
-76b3102148135945b013797fac9b206273f0f777 rtla/timerlat: Make timerlat_hist_cpu->*_count unsigned long long
+8b5e6986360fa2cf62c48fa9dcedaeb5f607dde0 ARC: Use __force to suppress per-CPU cmpxchg complaints
+f210ce2642018e23d232a52ea15003d15ba8bee0 tools/memory-model: Add atomic_and()/or()/xor() and add_negative
+3163f74a3a666d5bb3337d2cc6f84ea4808cd656 tools/memory-model: Add atomic_andnot() with its variants
+9861f7f66f98a6358c944c17a5d4acd07abcb1a7 locking/csd-lock: Switch from sched_clock() to ktime_get_mono_fast_ns()
+c87bf8b027379bc727e5d14771918bb48451e8fb Merge branches 'cmpxchg.2024.10.11a', 'csd-lock.2024.10.11a' and 'lkmm.2024.10.11a' into HEAD
 
---===============8014232492250957558==--
+--===============4916224479136619090==--
