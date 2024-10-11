@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Fri, 11 Oct 2024 22:30:17 -0000
-Message-Id: <172868581732.2793862.6252182091707380728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 11 Oct 2024 22:44:44 -0000
+Message-Id: <172868668412.2803853.12606439509192635019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/linux-cpupower-6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 871ed6b4ac3a2427eda9b6c310a1ac1958ef76c5
+  - ref: refs/heads/main
+    old: 1d227fcc72223cbdd34d0ce13541cbaab5e0d72f
+    new: 8a6be4bd6fb319cee63d228e37c8dda5fd1eb74a
+    log: |
+         22600596b6756b166fd052d5facb66287e6f0bad ipv4: give an IPv4 dev to blackhole_netdev
+         8a6be4bd6fb319cee63d228e37c8dda5fd1eb74a net: sparx5: fix source port register when mirroring
+         
