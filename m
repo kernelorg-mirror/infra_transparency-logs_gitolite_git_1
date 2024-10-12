@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
-Date: Sat, 12 Oct 2024 00:30:09 -0000
-Message-Id: <172869300952.2888314.6900787137322178056@gitolite.kernel.org>
+Date: Sat, 12 Oct 2024 00:52:31 -0000
+Message-Id: <172869435194.2904381.9473037674458940688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/sj/hackermail
 user: sj
 changes:
   - ref: refs/heads/master
-    old: b75e5044c962da38be96c470faa63555e444ee1b
-    new: 6d2ee7af9c91a4abb7bf18c2ae6228fe7772a6b5
+    old: 6d2ee7af9c91a4abb7bf18c2ae6228fe7772a6b5
+    new: e780894e479198ba4d2ef3429ff92a851a87d4de
     log: |
-         6d2ee7af9c91a4abb7bf18c2ae6228fe7772a6b5 release_note: Wordsmith
+         3f722805051edc6be00141d0751d177bd71be3dd _hkml/read_mbox_file(): support initial from line omitted mbox files
+         079f34ca0e8fce4882f586820b97302ef2726ecc hkml_open/mail_display_str(): Add valid_mbox argument
+         e780894e479198ba4d2ef3429ff92a851a87d4de hkml_patch: export patch files as valid mbox files
          
-  - ref: refs/tags/v1.1.5
-    old: 0000000000000000000000000000000000000000
-    new: 0ef187b912b31b06c777968f6d29087be2b1d5e5
