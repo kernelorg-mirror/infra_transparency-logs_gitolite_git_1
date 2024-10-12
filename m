@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 11 Oct 2024 23:56:11 -0000
-Message-Id: <172869097145.2861993.2130907241954212943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 12 Oct 2024 00:02:04 -0000
+Message-Id: <172869132496.2866392.38127685054763050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 0abfe297683ed034322dc789a4e6a33e0a6bca37
-    new: 32ccdba3a3decf0a695d7105175bd41a1ddc21e4
+  - ref: refs/heads/dev
+    old: 8df7f1a1be6c7fa0db5e787c08921fab69203b7c
+    new: 2377b42016641d2efcf4188851fd0ec243d8c5f4
     log: |
-         32ccdba3a3decf0a695d7105175bd41a1ddc21e4 Fri Oct 11 07:55:42 PM EDT 2024
+         3f74cd2ceb5ca8b441da8d26a55653a1918f59ad fixup! torture: Make kvm-remote.sh give up on unresponsive system
+         2377b42016641d2efcf4188851fd0ec243d8c5f4 fixup! torture: Make kvm-remote.sh give up on unresponsive system
          
