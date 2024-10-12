@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1233375684743612614=="
+Content-Type: multipart/mixed; boundary="===============4875500951974509087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 12 Oct 2024 11:42:07 -0000
-Message-Id: <172873332727.3802872.15218150923347192322@gitolite.kernel.org>
+Date: Sat, 12 Oct 2024 11:42:21 -0000
+Message-Id: <172873334147.3803598.6372862640458710168@gitolite.kernel.org>
 
---===============1233375684743612614==
+--===============4875500951974509087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 6a9262edff8ea44e9968b6b271c36d81c6a1f841
+  - ref: refs/heads/togreg
+    old: c4f9679c92dc8f5a16cd3ad1c9a4a23c6d3f52d7
     new: 8fa714ca334e0880665a14fed13b16e3e01a67b2
-    log: revlist-6a9262edff8e-8fa714ca334e.txt
+    log: revlist-c4f9679c92dc-8fa714ca334e.txt
 
---===============1233375684743612614==
+--===============4875500951974509087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a9262edff8e-8fa714ca334e.txt
+Content-Disposition: attachment; filename=revlist-c4f9679c92dc-8fa714ca334e.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 addf89774e48c992316449ffab4f29c2309ebefb ieee802154: Fix build error
@@ -408,8 +408,15 @@ b3ce5c30a0e05ee3600c82925bebaa4dc1b29cfd Merge tag 'powerpc-6.12-3' of git://git
 c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 2a130b7e1fcdd83633c4aa70998c314d7c38b476 Merge tag 'kbuild-fixes-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b Linux 6.12-rc2
+3eb27cf141365f32046168c9bc5da4076c400e35 iio: adc: ad7944: add namespace to T_QUIET_NS
+f1a5d7795fb0dea2ce547d8a5edbc7f595795974 iio: frequency: adf4371: make use of spi_get_device_match_data()
+17f3d6cef3b7553b8b67ac7a73100fca2d8284cf iio: frequency: adf4371: drop spi_set_drvdata()
+eec91fc8aa324428bb9465abca5156628ac7061a iio: frequency: adf4371: drop clkin from struct adf4371_state
+3681313a1c509f7a23f3b48a42c1c28a6ab3f340 iio: frequency: adf4371: make use of dev_err_probe()
+92accba97685064fe8c3c2406e18fc4d5294f397 iio: imu: bmi323: remove redundant register definition
+6a9262edff8ea44e9968b6b271c36d81c6a1f841 iio: Switch back to struct platform_driver::remove()
 220c71dafaa28cbb75fd785670cf68a758347026 Merge tag 'v6.12-rc2' into test2
 f32ea7aab378d99414a36e448f5f030e32aa9601 iio: pressure: bmp280: Fix uninitialized variable
 8fa714ca334e0880665a14fed13b16e3e01a67b2 iio: Convert unsigned to unsigned int
 
---===============1233375684743612614==--
+--===============4875500951974509087==--
