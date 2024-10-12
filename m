@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Oct 2024 14:12:04 -0000
-Message-Id: <172874232469.4141563.7287251512224880767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 12 Oct 2024 14:13:05 -0000
+Message-Id: <172874238555.4144001.12425140734019541954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/sched/urgent
-    old: d4ac164bde7a12ec0a238a7ead5aa26819bbb1c1
-    new: 1cc2f68c016ad3ac8b3a0495797dd61e19a10025
+  - ref: refs/heads/testing
+    old: 5d210af7b1f0affce45f77c8e3033550b7de85a9
+    new: acd53e5bad1551d0fc325d956dc239f62c554d86
     log: |
-         d16b7eb6f523eeac3cff13001ef2a59cd462aa73 sched/deadline: Use hrtick_enabled_dl() before start_hrtick_dl()
-         73ab05aa46b02d96509cb029a8d04fca7bbde8c7 sched/core: Disable page allocation in task_tick_mm_cid()
-         98442f0ccd828ac42e89281a815e9e7a97533822 sched: Fix delayed_dequeue vs switched_from_fair()
-         f5aaff7bfa11fb0b2ee6b8fd7bbc16cfceea2ad3 sched/core: Dequeue PSI signals for blocked tasks that are delayed
-         f2c9767170bead8d0ceb9c01d074c6916350310d Since sched_delayed tasks remain queued even after blocking, the load balancer can migrate them between runqueues while PSI considers them to be asleep. As a result, it misreads the migration requeue followed by a wakeup as a double queue:
-         1cc2f68c016ad3ac8b3a0495797dd61e19a10025 sched: Fix external p->on_rq users
+         65aeace84c5d97223289c08afcc65f14499e3ca1 iio: dac: adi-axi-dac: fix wrong register bitfield
+         d50c0b627ed1d469332c367dd4816fb4e8846b20 iio: dac: adi-axi-dac: update register names
+         60911098146b62e800366b5e0bb4e5e914c36856 iio: light: veml6035: fix read_avail in no_irq case for veml6035
+         9791837a569eda1cf017fbd614ff55ca7e54d728 dt-bindings: iio: light: veml6030: add veml7700
+         e560bbf235900cc1f2e008eca22b58d8ed9eb47c iio: light: veml6030: add support for veml7700
+         acd53e5bad1551d0fc325d956dc239f62c554d86 MAINTAINERS: add entry for VEML6030 ambient light sensor driver
          
