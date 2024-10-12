@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7900768226054849193=="
+Content-Type: multipart/mixed; boundary="===============7787392116590163304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 12 Oct 2024 16:35:31 -0000
-Message-Id: <172875093102.375182.5743426184106807542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 12 Oct 2024 17:14:56 -0000
+Message-Id: <172875329616.488084.4543622155916084893@gitolite.kernel.org>
 
---===============7900768226054849193==
+--===============7787392116590163304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 09f6b0c8904bfaa1e0601bc102e1b6aa6de8c98f
-    new: 7234e2ea0edd00bfb6bb2159e55878c19885ce68
-    log: revlist-09f6b0c8904b-7234e2ea0edd.txt
+    old: 90fd00ec9671038a0d9e3cb76d90c7810d3c7eab
+    new: 238fc66749b6398da67944fd96e8248719512758
+    log: |
+         5cd4465171f75bee868e7717cc21ba32d3f801a2 5.15-stable patches
+         238fc66749b6398da67944fd96e8248719512758 5.4-stable patches
+         
 
---===============7900768226054849193==
+--===============7787392116590163304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09f6b0c8904b-7234e2ea0edd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
-f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
-9023ed8d91eb1fcc93e64dc4962f7412b1c4cbec scsi: wd33c93: Don't use stale scsi_pointer value
-d539a871ae47a1f27a609a62e06093fa69d7ce99 scsi: scsi_transport_fc: Allow setting rport state to current state
-a017616fafc6b2a6b3043bf46f6381ef2611c188 hwmon: intel-m10-bmc-hwmon: relabel Columbiaville to CVL Die Temperature
-0fb09bf715736acfa7419d52f966aea2c0d57e7a hwmon: (adt7475) Fix memory leak in adt7475_fan_pwm_config()
-193bc02c664999581a1f38c152f379fce91afc0c hwmon: (tmp513) Add missing dependency on REGMAP_I2C
-56c77c0f4a7c9043e7d1d94e0aace264361e6717 hwmon: (mc34vr500) Add missing dependency on REGMAP_I2C
-14849a2ec175bb8a2280ce20efe002bb19f1e274 hwmon: (adm9240) Add missing dependency on REGMAP_I2C
-b6abcc19566509ab4812bd5ae5df46515d0c1d70 hwmon: (adt7470) Add missing dependency on REGMAP_I2C
-7d4cc7fdc6c889608fff051530e6f0c617f71995 hwmon: (ltc2991) Add missing dependency on REGMAP_I2C
-2d6c668902e5834f54d7eb673318455492730cbf hwmon: (max1668) Add missing dependency on REGMAP_I2C
-05749ecf5d52e28a1eeb494498e2d51ebbbec11a Merge tag 'hwmon-for-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-7234e2ea0edd00bfb6bb2159e55878c19885ce68 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728753313 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728753294-d89cba792f1fc9548264dcc1f16b6d1a75673e67
 
---===============7900768226054849193==--
+90fd00ec9671038a0d9e3cb76d90c7810d3c7eab 238fc66749b6398da67944fd96e8248719512758 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcKrqEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pDIP/RDE6iTsLl60vn27k9KM
+GnxwDD9DMHL6KTswuE4IbC656CwtmUz8+EoBxDdmP+TspGzSLj5X9Hg43jnA5OiJ
+vLeXgN9iuUAnIUlERTCg2QSe54IAWmT2vwESVfPyCoeMJrDlWXpmW664xPEr+UZn
+CkmbV/FSIrK5C7Hkj0O924/PdYIrwKX0T0e7pfcdn6UfTpYXj7LYL6JqLv8DUIXu
+qWRmkRfupOVbjKjzj9bNtJ7KgjCiLmGj1SNh+iEHjTP6MAxW6z9Nd5QDQF4uLbbb
+pdgOz817DcCCdUNl3hYAdv2JohhZbB7Ea8uG8NqoAjSb7sfpJSiisKuq1LN6n5Mh
+A1N40Z+neRgWjf5yQPDVEW25Gn2fT/lyjoSY8kWFOp3gvQjWCWsjTLFP42kEC8k4
+T9JsouXTzQ5/DHsvVHOrntzJM1oNXOe0PMLDs7itnKVR4I7ZrK0LOUhKVkMx0Tfy
+UuHj9n15F4bI3fwdaeOteqmkhtP91xHQ181BjihW8JLTabojH/sRCaokoH+p5IWE
+kZhMhe9d/sfJhOohGJxb+9s3b9wxkE0/X6Gr6kCFiM4HcQ2diFSXeuFZMhDFwe1U
+RBbv0oL8D3UBTTosIhAhlk4w6/DZnmKteNhNzGDXKZDiPgyfLpvc2/WvOx0naRMv
+KDgWSg4gGnM/lMhDtvJYF7O2
+=EDCr
+-----END PGP SIGNATURE-----
+
+--===============7787392116590163304==--
