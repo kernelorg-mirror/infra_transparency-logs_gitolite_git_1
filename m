@@ -1,26 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sat, 12 Oct 2024 17:24:16 -0000
-Message-Id: <172875385605.517175.8095314218749938129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 12 Oct 2024 17:30:07 -0000
+Message-Id: <172875420773.536819.17463607660129327021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/main
-    old: f66ebf37d69cc700ca884c6a18c2258caf8b151b
-    new: cb3d289366b0320fdec1f35bc823cfdf4edc6a0e
+  - ref: refs/heads/for-next
+    old: e65f7611c248fce440d41d09a50f2e8618bac420
+    new: daa16e39b9514a0e7b5c02340a7d0b7353c15216
     log: |
-         0398cffb745984f0710c45f73b263530a57494c6 netfilter: nf_tables: Fix percpu address space issues in nf_tables_api.c
-         73e467915aab6157e472b8b0699c08c29c9e629b netfilter: nf_tables: replace deprecated strncpy with strscpy_pad
-         3478b99fc515001d5f3d86d06af662a083fb5815 netfilter: nf_tables: prefer nft_trans_elem_alloc helper
-         72caa79bdbe265b64d93f11b10f0d5635c8aaa12 netfilter: nf_tables: add nft_trans_commit_list_add_elem helper
-         9a004e2068a27633530de56fc3747f8b89337018 netfilter: nf_tables: prepare for multiple elements in nft_trans_elem structure
-         a1fcf1c811b0b1a29b38695212ce6bd492275226 netfilter: nf_tables: switch trans_elem to real flex array
-         6834af2ce13df32eace33cb8ca09fad82c4432c2 netfilter: nf_tables: allocate element update information dynamically
-         cb3d289366b0320fdec1f35bc823cfdf4edc6a0e netfilter: Make legacy configs user selectable
+         78dee7b6ef085c6a1becad536035bdd39557c9b0 dt-bindings: arm: rockchip: Add ArmSoM Sige 5
+         4b9dc5d536b988fbd84e68e8d8ac420752b185b6 arm64: dts: rockchip: Add rk3576 SoC base DT
+         54a18f63eb1aaf50cad17dd64076293f2817e1d5 arm64: dts: rockchip: Add rk3576-armsom-sige5 board
+         daa16e39b9514a0e7b5c02340a7d0b7353c15216 Merge branch 'v6.13-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.13-armsoc/dts64
+    old: 2f0f7602dbdf4aa2ee50446f8f488445b37bb04c
+    new: 54a18f63eb1aaf50cad17dd64076293f2817e1d5
+    log: |
+         78dee7b6ef085c6a1becad536035bdd39557c9b0 dt-bindings: arm: rockchip: Add ArmSoM Sige 5
+         4b9dc5d536b988fbd84e68e8d8ac420752b185b6 arm64: dts: rockchip: Add rk3576 SoC base DT
+         54a18f63eb1aaf50cad17dd64076293f2817e1d5 arm64: dts: rockchip: Add rk3576-armsom-sige5 board
          
