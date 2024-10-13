@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1748864984635487297=="
+Content-Type: multipart/mixed; boundary="===============5871966593634729291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 13 Oct 2024 16:21:41 -0000
-Message-Id: <172883650182.3842808.10404918346443365935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 13 Oct 2024 16:23:08 -0000
+Message-Id: <172883658852.3843515.17626520363208870594@gitolite.kernel.org>
 
---===============1748864984635487297==
+--===============5871966593634729291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7528cb0f65d7472c1d6b96956f86b408c5ab6b11
-    new: 2471787c1f0dae6721f60ab44be37460635d3732
+  - ref: refs/heads/driver-core-testing
+    old: 0508a04a29519cb605e3cdd66ff83c2331894a21
+    new: fecea25d436b71d84329d6621d766fbc6eceb8b4
     log: |
-         02ac3a9ef3a18b58d8f3ea2b6e46de657bf6c4f9 parport: Proper fix for array out-of-bounds access
-         3c2d73de49be528276474c1a53f78b38ee11c1fa misc: microchip: pci1xxxx: add support for NVMEM_DEVID_AUTO for EEPROM device
-         2471787c1f0dae6721f60ab44be37460635d3732 misc: microchip: pci1xxxx: add support for NVMEM_DEVID_AUTO for OTP device
+         fecea25d436b71d84329d6621d766fbc6eceb8b4 list: Remove duplicated and unused macro list_for_each_reverse
          
 
---===============1748864984635487297==
+--===============5871966593634729291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728836518 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1728836499-bf729f148ef8e3b9f1c7cf7b45a99d66210a25be
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728836604 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1728836586-cb93f83b72ba48a8983a9de31d9f27dbfee2d7b2
 
-7528cb0f65d7472c1d6b96956f86b408c5ab6b11 2471787c1f0dae6721f60ab44be37460635d3732 refs/heads/char-misc-linus
+0508a04a29519cb605e3cdd66ff83c2331894a21 fecea25d436b71d84329d6621d766fbc6eceb8b4 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL86YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55YQAIRRvxdWTqRUhLcmbHf4
-8jJoaR3JZgQWnbYaRRttuRCuohgruHyZDrqUtmI0P7mvEQ1m9yanv6Yqd/QZmaRX
-vcCc9jYdFAQyOEPQggFuMc5n8a/0CTYFSb3RGQC4HvKwnMsXae7mMybLajy+eosI
-iY+ykyoj+7JhwwKTDx5VRcbBWzquPMLLgXAd5/LNMa7LkAAHvfI1QALnx9x6jLYW
-xRTNQT8TklsGz8fSI5vt94cyQIjqHROpwoQ5ZxDD5x3H90knfCDe0LFCjbEe3Fb8
-VAIWRc8THUQXCcfLsxKPVl8DSkP0Kmz0Q6uU+GOzRPmpkhIAJ3/DedwzdMJBN8CC
-jclN8cjYhZV4SfRYENIbC1mijTpqoegFgBJdtTLMVuTuMDMJd9WAd05auPplvb9i
-sJpqvrBeM2lGEHAd/4orRa6QO9UGMUMGtwGhDgs/4Z6y7v2RfwiKyJL2Oa9PkRtx
-LW73Y2COl4rrGGpzufVfAMQh7S/kTikLHNVfl1bN2pXgSk19HnwA1hm+J7fa/oE3
-iQ52hQ5d0gH3nPFL+kDYgB/Ttv404+GOwr2QnEQcbj7tvXkYZ5JCMKDjlEBPQbsZ
-GgKK/hprCYbTM9EnMDgV5gOafHcUZuAFYE2R9inYXhsiElBoApIi4RbIgrYfpkxw
-81MdE4eziE+1I5I5BKAacWUu
-=JTTD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL8/wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kpQP/0LvNW9Kg2gTQgv6EiYd
+lV5I4hAJ7+7vdnuQUKvfibIaHKxyIBqf8DBEtU8NqX68hpM3xGOfrA/c94SwtWsf
+C/Cdtxz47fTQvmwIUoh6OstE9dSSSxEcWEqyUriLPljA5tZUVIrfLe39WnJsRHTd
+HNgAJNrkECTCVn3J0yin6+ABHXJ9SewhzrUZzGaF3n8TDFqVg4UIvl2NWBDZYm0c
+XqdyY5DB/haLL+iBNc8Gn0eo4ecfWcaAac/HY/obD39egDgEeTa9QubGhLlCOhYH
+TmqczBy8HTbjFS9m7IUbGN12lAhlPkN5XQZwRcUxSJo8jpY48nik3pb9/3HBKOEk
+e4oRNEfLNMl8NqNr6MhsNRLdZ5cSbtL4WNAPJnu0fAXBM4PrlcqCqN08gQ2jyI9v
+rrAftpoO12mU054rKOSScxUl9A+BRWoQXPQ4idOb2xRpV5YeKjJp/t/dyHx3k4Jr
+jkpex3lON42ESpGm7M/VyZOvT8ygiokPN35opHFiQ76MwZkRKfbZnCFhOiIPfk37
+cdm2vYdWQtKj8t8kGfja/EnjtNrLeKyztBoIn1n+bJ2eTepnM6f7hurVrx+mqf0c
+Tt+QKA0ohkogEACV5jkhwSNcaMxeqB3GrEP+UvpkTkO2WVZwey0UugJiCB15uV9h
+CWrFJhAKl3gi6zxm9cbxW96N
+=PSaS
 -----END PGP SIGNATURE-----
 
---===============1748864984635487297==--
+--===============5871966593634729291==--
