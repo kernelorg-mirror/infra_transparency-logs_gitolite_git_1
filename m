@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2352091288656436034=="
+Content-Type: multipart/mixed; boundary="===============4306718598514753513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 13 Oct 2024 13:50:14 -0000
-Message-Id: <172882741482.3729327.6579945649930011835@gitolite.kernel.org>
+Date: Sun, 13 Oct 2024 13:51:46 -0000
+Message-Id: <172882750609.3729880.2702394854517582553@gitolite.kernel.org>
 
---===============2352091288656436034==
+--===============4306718598514753513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 67283a5ca746415ad028ae2bff16ce1914c3ce2b
-    new: 90003c7825c0d07d600586e36e9c0dfb1bf635f7
+    old: 90003c7825c0d07d600586e36e9c0dfb1bf635f7
+    new: f6670baee56edb1f8cb918db61cd89e823b0a4d3
     log: |
-         974f29f26d3d0c553420777a7d8c2156a3e9c605 staging: rtl8712: Rename AuthAlgrthm variable
-         dcf8c7f335e44aba78900d4f52dd6934a85a5786 staging: rtl8712: Rename PrivacyAlgrthm variable
-         90003c7825c0d07d600586e36e9c0dfb1bf635f7 staging: rtl8712: Introduce auth_algorithm macros
+         f6670baee56edb1f8cb918db61cd89e823b0a4d3 staging: vt6656: Remove unused driver
          
 
---===============2352091288656436034==
+--===============4306718598514753513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728827428 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728827519 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1728827408-2ebf2eb6d63bee91a87789f207fc045a4438a2af
+nonce 1728827500-cb980313a53c95c8742e0de1646747b270a4644b
 
-67283a5ca746415ad028ae2bff16ce1914c3ce2b 90003c7825c0d07d600586e36e9c0dfb1bf635f7 refs/heads/staging-testing
+90003c7825c0d07d600586e36e9c0dfb1bf635f7 f6670baee56edb1f8cb918db61cd89e823b0a4d3 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL0CQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0WQP/3ULiMTRRof6kGysDJys
-WHLBuHiy3T0PDEOAMonEYy/p0HPLVIfoBsX5FbX67VeZp6OOEoWGYOAeEBtlXWrq
-oROSTMJ/O+y3vtza+eNB/R1IEWgX0cQIbNIf08ax47+3kD7eAWfhSBXjZNfaEyNy
-iUgVar2mfttj0ECQlnr6NgGUOxAEhb6m3DMr6964WseFp9k0giSrzy84ESdpSG7Q
-NR2Gl2trhOovpyKthLnpeoxt0L3Fn2LyQRdsFwEcn1J27pd2OLrdoWMJsH/IzpAM
-X5u5ZrTdrduhAT1T1OHxroMpKTEtkgHo7v5pV/ex5jyrdY3VDU+WRCgrpeu8fg51
-DBTpj69R5Ygr1k8qooqs0nf6e6NnUUWCL5EeBjAWwtm7wOnT32QPYzrovcvhsKeT
-rCu50Rq6orMKHvZTr9qQ45slu3uds0+xOrdOw39snrLsQwmAO2i8wf93s8hNrzVo
-oiSrwUssXPPDs6lhTa4uRHI17v5oETCN+u0OfDRzLxDVVJa9Z6LXUWPfSt62oubo
-nDBPehMKw8BI0F/1v+x5N9o42UfVKncl0CRShysSMxVsx+wr7IO5NkNFN8OkEeYJ
-tG8T6DG5DuXMYEP3y0QLeHri4G3Z+k9HSRr+QpXIOIS+qdM072c1919pXYPnpmFX
-QPY/yrFC14AAX0Al1Xn+cQ3b
-=HL9C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL0H8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e68P/iOJ8Vs3Jqb/CH4ePCNS
+LY6ovxYkIicCrX/sjbmrVWf8CsEV6KicZWW8a6sWFXFqO7cAN02pvA0dJPBg1BFi
+GuSYml4W7BPowyoXkYf9uUQcO/dd8+8fkBUWKybuHGGwzTNdZFG7cj7gkwYxPEmY
+M9iHyAY9Vnrwi1ZhoJSvFXhS7bR/4I+Xgx3+1oLbYkqeVst2qMTlrByeRnlOsAwp
+ORDvvQRjW2PgTN6Xl5ZZaa4OkY7RUafDwbQlNKBimoDG8PW+K1usZmuiRb3MNj+E
+f0NHgutA6Z+eKu4iGuIl1ix6CBRI5gbP+QvEZPXCBXpyQs7H0iqVSAb6NRvkZNBo
+2GJIB+SsrN8c83SZv5Tink1xcZ1KFq6eviSjilCEdczQmqa4BQeXbgykBgkglu6P
+46S8WnmcqrnoDQQvGswjxzTLjuM3RZ04ywp5wr4UxjfSiRSYmfh+Hs0+ue2klhlT
+3Wi3XqGdAcM0g6q3DBKbhUxTYeOg9mhvyN+jZfGjOAfhU/N3okeoekCZRCh1Y8zE
+48KdtBmrl7FgU1W5vsMUUBkwxbzx6knxfWDlgBT94fKTPBYvzbPiRoFw/EYY2Djy
+FzKLJFMOUD5fvZMK2poX+hms1TknLVe42lQ4gWhKO9G8cg52c6GvpBktF55lenhF
+X/ARgQdWsfIcEjPREFbwXYAI
+=hCXv
 -----END PGP SIGNATURE-----
 
---===============2352091288656436034==--
+--===============4306718598514753513==--
