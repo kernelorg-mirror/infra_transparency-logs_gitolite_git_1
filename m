@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3185467760882586647=="
+Content-Type: multipart/mixed; boundary="===============8537419626859682401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 13 Oct 2024 23:09:26 -0000
-Message-Id: <172886096630.4139639.15032394194133883027@gitolite.kernel.org>
+Date: Sun, 13 Oct 2024 23:11:44 -0000
+Message-Id: <172886110415.4142643.13141477448613669370@gitolite.kernel.org>
 
---===============3185467760882586647==
+--===============8537419626859682401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    new: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    log: revlist-8cf0b93919e1-8e929cb546ee.txt
+  - ref: refs/heads/nfsd-next
+    old: a8c3e76fe94c869f2aa3e3f00cdbe13881fcd4ce
+    new: 68bbb3e85edc874b4daf95bb532c11a7b5837c05
+    log: revlist-a8c3e76fe94c-68bbb3e85edc.txt
 
---===============3185467760882586647==
+--===============8537419626859682401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cf0b93919e1-8e929cb546ee.txt
+Content-Disposition: attachment; filename=revlist-a8c3e76fe94c-68bbb3e85edc.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -350,5 +350,45 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
+23f3ec8961008d94556bbd1108cf3b58baa230a0 NFSD: Prevent a potential integer overflow
+2a4250e47cfb9285e41651197b33dfeb184d4b4f svcrdma: Address an integer overflow
+342ca4a18946889c37d6027a8b46f0188e1dc967 NFSD: Remove unnecessary posix_acl_entry pointer initialization
+d918832bd3d75f6dc71ac4b224975c00016b9e82 NFSD: Remove unused function parameter
+00bc5c354fcc70bdc8840acc254dc16cfd82ec1d xdrgen: Exit status should be zero on success
+caea08055f02150e3f3f7f3cb4ee18a43417d095 xdrgen: Clean up type_specifier
+42fa1c3dffcdc6486fa81130f7471f5bde63ae0f xdrgen: Rename "variable-length strings"
+b3748daaa2a05a5d9094f47ab5ba25ad991f487f xdrgen: Rename enum's declaration Jinja2 template
+c9560fe7ed6fd285f7526d4aa8b47670dcf69395 xdrgen: Rename "enum yada" types as just "yada"
+08adac265d7b84bdcf7c30b15a06f7e8513f766c xdrgen: Implement big-endian enums
+7719924d2c1740603b8f6f85f672ac8ca2bcfe55 xdrgen: Refactor transformer arms
+e54f9390cec5b18dda5a6e7ac56ed9959789961a xdrgen: Track constant values
+d79e23722501389883399bf4dabcd745be6f0605 xdrgen: Keep track of on-the-wire data type widths
+bb3f0c9f987b9b924fa6c641fa59f9945aa2e2e3 xdrgen: XDR widths for enum types
+2aecf0d324ba50fa6d0d6f3974755996123a5630 xdrgen: XDR width for fixed-length opaque
+ade9b97f457bd875c4a81550601c8ef6fafc347f xdrgen: XDR width for variable-length opaque
+27bb6679cb78626ac479005c0dd0867710af803f xdrgen: XDR width for a string
+4c83a457eb2c79923238ba9d94cbb6b462f23a0a xdrgen: XDR width for fixed-length array
+b3097bc8df72562fd0f00ff889cd5bfb8f343703 xdrgen: XDR width for variable-length array
+e530fb23aa8597573391f2bfb234402835723599 xdrgen: XDR width for optional_data type
+abe27ff4dcf86cbf1c64629a41a0f9c4e9de92b2 xdrgen: XDR width for typedef
+8daa84ded433a6fd25bb32d1f31504721633ca18 xdrgen: XDR width for struct types
+e74e4ad00e2c4c8468abbf80a419d63c3d85dd88 xdrgen: XDR width for pointer types
+f95c4238bee9c2e20f0f81fc7d155e1637784def xdrgen: XDR width for union types
+d4df12a841aaf6088550a59f3a2b11753c32e17b xdrgen: Add generator code for XDR width macros
+5b86b8a4d586875fa42d49bcc5c172513a133f27 xdrgen: emit maxsize macros
+9f01540048d9b58b20373deecca1e91d545062ff nfsd: drop the ncf_cb_bmap field
+386b2038b2832849ddb390484d9a694e87430bc3 nfsd: drop the nfsd4_fattr_args "size" field
+bd9cde80dbfb8487fc7040aafee7d825e6b64c26 nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
+2d504f1042f9221cc0f54a59096f6827e01120df nfsd: fix handling of delegated change attr in CB_GETATTR
+d715b8eec1f377ba2027bdd98c85665a8bdf77f2 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+e84c90883d9e4941bafa3520a70f29143518ded9 nfsd: add support for FATTR4_OPEN_ARGUMENTS
+1ff7092dbef295e2dade6937ae0f237dd7c7c67e nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+eee2c04ca5c160ca9e5b3a114dd72ff472697acf nfsd: add support for delegated timestamps
+544c67cc0f260a80f252a4152069772078ef0333 nfsd: handle delegated timestamps in SETATTR
+fc8a60ecd56e5c014613559052ba07fce4f39c7c nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
+a88fd922e0bb50e937700ab07c15a01f3b016e0e nfsd: Fix NFSD_MAY_BYPASS_GSS and NFSD_MAY_BYPASS_GSS_ON_ROOT
+c1c188ea8176f47c9f2eecd0a22f589b14e17eeb xdrgen: Add a utility for extracting XDR from RFCs
+626baba3e6b55d5f62b77ad14450d46cc0793d4e nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+68bbb3e85edc874b4daf95bb532c11a7b5837c05 NFSD: Replace use of NFSD_MAY_LOCK in nfsd4_lock()
 
---===============3185467760882586647==--
+--===============8537419626859682401==--
