@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6426231245590668779=="
+Content-Type: multipart/mixed; boundary="===============8660286891966999953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 13 Oct 2024 12:17:54 -0000
-Message-Id: <172882187496.3614611.9384199722158895324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 13 Oct 2024 13:06:07 -0000
+Message-Id: <172882476767.3696579.2751767347562267161@gitolite.kernel.org>
 
---===============6426231245590668779==
+--===============8660286891966999953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/usb-6.12-rc3
+  - ref: refs/tags/driver-core-6.12-rc3
     old: 0000000000000000000000000000000000000000
-    new: cdd93eef2a85748b356f358a3e7cc99dde20d84b
+    new: 4f2d82f8473451b62169c1dee57a73804e6c440f
 
---===============6426231245590668779==
+--===============8660286891966999953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728821892 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1728821873-c6a7210fe3bc28f95832bf32803ee83813d37f88
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728824781 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1728824762-bc59e016d4f95d880237dd0d7582f54e49b90b04
 
-0000000000000000000000000000000000000000 cdd93eef2a85748b356f358a3e7cc99dde20d84b refs/tags/usb-6.12-rc3
+0000000000000000000000000000000000000000 4f2d82f8473451b62169c1dee57a73804e6c440f refs/tags/driver-core-6.12-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcLuoQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XHoQAKie1cbD82uS87zSeP5z
-CLbwbmWJCEQC5cr0m2wEquCGfoa4bm7tnVvcQx1zRQEHqTPemfsBzXd+GTpB7bOD
-vImEQAxX8pQkfhpxiZmy1Nx9LQ0EoZxNnHY0qljI9LFmNVkcU12suvQbeVLqwRwY
-cMxwyzGt9XHFSEdMjEd2/zK6YVU6FEtdJC+GTWmqNZsZmPeuxqyv3rIgv8EoFpJY
-yv1lKzJqQQSKDOr5kkuMkd948qF8QsoXDpibjSEtLJQgVZlv8xJN54Lg/2XSgmy/
-rWOFqgCr4eJ/GsOK2KRICVYRWSmZOorshtlWpjXc2J/9tXeIz/g4l4EgZ6tZZfcF
-/LvaCv7AyYYIk3JrXn6QCKtHGVl5l5kTvYbaLH0Znle3VaZWYom+4ggtHa93FqTe
-sKpgb8kJ2BXcKP0zcCfD7hprPgUpiKTpU/r9UqVxypMcqIM1wCOXC3eaVfZhF5e+
-48TVX4K0dxsW56aCFe5/4g22CvMNs62zlodqBbAK/bIgMJ9d9cT9NHwp2MeKoH/k
-u0w0FoW2S3QJp9gLx619n0t+X7ytXYxZWBKRtI8SJROqf+Uu4M1CO9lNVMx3uJNS
-85krpnQ2wEA/3Jo1hOwwY6lnJz3SpK9j0ATBRrAqLgRvROd10fEHdOjuzc+9MpO3
-P0XpLECOEsocs8rz/v1Bj9E6
-=KJIh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcLxc0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hpUQALtvReEl4qhzzrdZL334
+hnbz9eGzLt6lwpxNXY9t6v6Fg3AwRoDGlKposCNTpY9Ielpa8Ro3uLJtkM1G7H05
+1ZYVuGpnLMVnXvZ/FxnDqFovCdNlyUbJR8q0ixiPrDUmeTSlgD++nElSZK0W8Lwi
+wdqvQkEitNMQcBU1ABNRf4/Im4EKNDq3DswXt4j4dxKl1b9DPx8WRKIU7Z81+eGY
+BIhvxCFSggauGV9Cc2K/knowK0ysGg/DK1vwlu6cSF79aGgrDI2xDNuxj93zJkBr
+lXv8rmTTB0TGidbJZdZ/JVRyM8x7dwAj08UhacIpSw4OttKZhJrxgXgjwWjwTJfa
+AOF1c3/3AET7KZXf4lP9nTgeX8OleTLfsxX54XWUWBdf6XfkR/PnyeqbxzQwFQYK
+OyeTdJlA+lqH1vNEHXTsWdOCzhhqN2yqulz8UlSwLCFasz/QRZaWX2KVsO7bnYph
+Vl/tid4D432vaCYjZg5H6XpwtI1jZk13KemHXvmx/onYMXTsZdGXXRINPYnRbbht
+qV/UjBmQ3gphDI0uVFvwwouYqrzDb6Kb9FQGBdDz9v2GDVlY5OGi1CVushotjHae
+Xz/NP7w7AQF+eE4PpXcgLK0G7mvwPkq4E/uZtfJ8EcBGdKtmaF2IDMSUYbmvw9U+
+OkGCtK+Lrb1Gc2HcFHsLC+Pj
+=Pz6F
 -----END PGP SIGNATURE-----
 
---===============6426231245590668779==--
+--===============8660286891966999953==--
