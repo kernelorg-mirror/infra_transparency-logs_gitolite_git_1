@@ -1,43 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0291906215036261653=="
+Content-Type: multipart/mixed; boundary="===============0875417070210796207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 13 Oct 2024 16:28:13 -0000
-Message-Id: <172883689310.3847557.2982710517470082770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 13 Oct 2024 16:30:32 -0000
+Message-Id: <172883703257.3850506.13076738964013591027@gitolite.kernel.org>
 
---===============0291906215036261653==
+--===============0875417070210796207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 36c254515dc6592c44db77b84908358979dd6b50
-    new: ba01565ced22c04749a6f71aa8a658d3a64734bc
-    log: revlist-36c254515dc6-ba01565ced22.txt
+  - ref: refs/heads/for-next
+    old: 790f4d8444fa4bed79d2b441212eec2167414c65
+    new: 891f4995ab07ee0a07eca156915ed87ab5f479f6
+    log: revlist-790f4d8444fa-891f4995ab07.txt
 
---===============0291906215036261653==
+--===============0875417070210796207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36c254515dc6-ba01565ced22.txt
+Content-Disposition: attachment; filename=revlist-790f4d8444fa-891f4995ab07.txt
 
-cc4332afb5631b0e9d2ce5699b7f4b7caf743526 rust: device: change the from_raw() function
-df9158826b00e53f42c67d62c887a84490d80a0a usb: gadget: core: force synchronous registration
-a6555cb1cb69db479d0760e392c175ba32426842 usb: storage: ignore bogus device raised by JieLi BR21 USB sound chip
-897e13a8f9a23576eeacb95075fdded97b197cc3 usb: dwc3: re-enable runtime PM after failed resume
-0d410e8913f5cffebcca79ffdd596009d4a13a28 usb: dwc3: core: Stop processing of pending events if controller is halted
-6c4e1ef46c9d565c71e9ff1a70ddbe24790694d5 usb: misc: onboard_usb_dev: introduce new config symbol for usb5744 SMBus support
-d44238d8254a36249d576c96473269dbe500f5e4 usb: xhci: Fix problem with xhci resume from suspend
-bd2b7f62a0d5feda8b21c7371058e8cd2956151a mailmap: update mail for Fiona Behrens
-71c717cd8a2e180126932cc6851ff21c1d04d69a Revert "usb: yurex: Replace snprintf() with the safer scnprintf() variant"
-39845764a0ca01a89dca4ff5b4e9d896ee410054 USB: yurex: kill needless initialization in yurex_read
-faa34159d08089036b6119c85e279fb36abb8bb5 net/9p/usbg: Fix build error
-f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+4c9c08ec05c66766fbbc1e352d1dc62933fbc85c src/min_dio_alignment: don't return invalid dio_offset_align
+e0c84186bfdaa7c48f144d60ff1c8d03a416b113 src/Makefile: install two necessary files
+034e5655933729ef334b6355c94607d115414282 fstests: generic/563: use fs blocksize to do the writes
+0ffcda29e8a05a139593a46dea6ef75efdc6e805 common: make rt_ops local in _try_scratch_mkfs_sized
+2f7e1b8a6f09b6e9f7fcfc69618e05bb76ac10c0 xfs/157,xfs/547,xfs/548: switch to using _scratch_mkfs_sized
+74777e97c56b516e8dd8b0b40d64ffd00d9216fc generic/694: sync before sampling i_blocks
+c9a2881aa6f890211cb0b816cd8f0f202a00cde5 common/fail_make_request: fix error message
+f4b00fafa4ef091c9d73818f7843e0881ca773ca btrfs/318: add _require_loop
+b37aa9c8b0f9a648b2b1d508a952c1c4047683a8 btrfs: update some tests to be able to run with btrfs-progs v6.11
+8babf87596c84f3c342e3f0d47c7d6a31e3e0602 btrfs/322: add git commit ID
+37f61a8fd323669fb39c4191ebd78d6d91e6826f btrfs/315: update filter to match mount cmd
+cf838edbaec793c0172686f942b8025418ab33cc common/populate: fix bash syntax error in _fill_fs
+dd0eeae9ead0706fa1102d87ad02e822f2f02133 common/config: fix RECREATE_TEST_DEV initialization
+ff07e0a329361c752d77d0f446d247f0ebdb5418 fsstress: add support for FALLOC_FL_UNSHARE_RANGE
+891f4995ab07ee0a07eca156915ed87ab5f479f6 src/fiexchange.h: add the start-commit/commit-range ioctls
 
---===============0291906215036261653==--
+--===============0875417070210796207==--
