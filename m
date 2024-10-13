@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sun, 13 Oct 2024 08:37:54 -0000
-Message-Id: <172880867471.3175332.5963831637216147093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 13 Oct 2024 10:11:33 -0000
+Message-Id: <172881429356.3461542.1108007777910485047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 6bad68325f25227bc63d7fca2b1afa53f3efc0e3
-    new: cb3d289366b0320fdec1f35bc823cfdf4edc6a0e
+  - ref: refs/heads/dev
+    old: 9f5bcf3cb912fb153ec41a4b7c2a01a0eba38269
+    new: 882ad1c3157f7544bd4d004e3b6d744f0cbe3ffc
+    log: |
+         882ad1c3157f7544bd4d004e3b6d744f0cbe3ffc erofs-utils: mkfs: fix `-Eall-fragments` for multi-threaded compression
+         
