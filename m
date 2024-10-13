@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3440089925817596845=="
+Content-Type: multipart/mixed; boundary="===============5767237612538007216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sun, 13 Oct 2024 15:32:01 -0000
-Message-Id: <172883352120.3805025.5359889495319743234@gitolite.kernel.org>
+Date: Sun, 13 Oct 2024 15:32:03 -0000
+Message-Id: <172883352363.3805173.12497947065061216364@gitolite.kernel.org>
 
---===============3440089925817596845==
+--===============5767237612538007216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip-fixes
+  - ref: refs/heads/microchip-defconfig
     old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
     log: revlist-8400291e289e-9852d85ec9d4.txt
 
---===============3440089925817596845==
+--===============5767237612538007216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============3440089925817596845==--
+--===============5767237612538007216==--
