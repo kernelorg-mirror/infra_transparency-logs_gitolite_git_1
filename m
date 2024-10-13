@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607391553089990217=="
+Content-Type: multipart/mixed; boundary="===============2551657138747331091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 13 Oct 2024 15:14:24 -0000
-Message-Id: <172883246453.3788916.4026474946438784954@gitolite.kernel.org>
+Date: Sun, 13 Oct 2024 15:17:10 -0000
+Message-Id: <172883263002.3791947.14555052757071244105@gitolite.kernel.org>
 
---===============5607391553089990217==
+--===============2551657138747331091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,61 +17,49 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: f893691e742688ae21ad597c5bba13bef54706cd
-    new: 1bca6ee0d077abbaafa4ab1167d6d31659c1edbb
-    log: revlist-f893691e7426-1bca6ee0d077.txt
+    old: 1bca6ee0d077abbaafa4ab1167d6d31659c1edbb
+    new: a27b406a49225a17849c86221a32f2d598702719
+    log: |
+         2d23bc3c14fb6b08232f267bf15cf40cfce783b5 uio: uio_dmem_genirq: Make use of irq_get_trigger_type()
+         dcf6e7cf531ab8ea4a42abb30906ef414043b655 uio: uio_pdrv_genirq: Make use of irq_get_trigger_type()
+         d9996de40b121d976a17515aada54c54350e3f21 misc: keba: Use variable ret for return values
+         14afb749692bbdf87a87793fda636395ac938c9f misc: keba: Use capital letters for I2C error message
+         7948483001039c00dcff4b94c181d7e14693a38c misc: keba: Add SPI controller device
+         366898e7a188116af2af9b43cb10e9a48dbab2cf misc: keba: Add LAN9252 driver
+         c6576d91955f59450e168096d61b9d1a608ce57a misc: keba: Support EEPROM sections as separate devices
+         f965d315bcbd65adfe5e3c161e46b5dc0a463f68 misc: keba: Add fan device
+         ca7b844b91920573835ad11daaa30630ce112fe1 misc: keba: Add battery device
+         a27b406a49225a17849c86221a32f2d598702719 misc: keba: Add UART devices
+         
 
---===============5607391553089990217==
+--===============2551657138747331091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728832480 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728832646 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1728832461-af643966109535f733a32ba4bd2a58e71e83e35e
+nonce 1728832627-468747089f40c06b1a654eacfefc957f6fd50d2b
 
-f893691e742688ae21ad597c5bba13bef54706cd 1bca6ee0d077abbaafa4ab1167d6d31659c1edbb refs/heads/char-misc-testing
+1bca6ee0d077abbaafa4ab1167d6d31659c1edbb a27b406a49225a17849c86221a32f2d598702719 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL4+EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sjgP/R10Qlv/O0ofzZcDzCVB
-iX4+SjqYvIRMuMTQ3PW2HOxMpW7SwXobewg6906XEKcb621yecvgV6ZlhivsgRbn
-Ebg3CpEOnFLTztecKpKoMT5yitanviU4HIqFaMvr/sx54aMJXy5/YoP2ujdCzqri
-ft1xJDgH5BEea3QLSMpWbujdtvb8VGR9P4K2TffzGePfJ8geHcVgwdxMwdCWabj1
-rurzOjN/m66AkPR7IJADqPrtWbkic1eDfjS6ccyT3CEL1uZGNCHWVVS9fHeLQm10
-WFA2hSCD3GMJehXe46RO3qb1Er56zf1W+6/uuln0/OTpLW7FeVOmtmY+rWm5jfqR
-PEWz5UdntXUVEdruQN8SClsJAgg8ilhSoVaq77vHlJzrcRRKMs5gQezlDX2b8asa
-KU+B6UFnrNMh40/sCszZL++UXgErKRW5nqs5G3ZpGFTnopZ7fDd7AhV23rpMKbxE
-2ADv95en+XetxF1Pvdt+9RFtaWYh41A2cm/TV+zD+NRQUNBdmZXFRRUsOiYYMm8D
-uUPKqH2PITXwSOJKHvDo0gzus3iSCi03L1RsdWEzIaP7YqWQRe3zQE4c5p9h4O9E
-ktxmsg1xKc50cFPyJ08Jix5fgQo7RLpMiNy45jjFzQMRntm4xvyCQmh3m+VRVUEW
-pGdpwjGyY5hX5fzF+p1fZWWV
-=yf7e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcL5IYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4J4QAIRl7PJAB2QbjYwLV3w1
+BEIc9lMagrLt8n6QYJ0xj45aL2eJZwKrMj4uTVC8TBJpollOySkY7CkI1VIfaG0j
+Ccmu5TDXqFUhppb6QkU/BrI6qkm0Op/w+0Ko7CXpyhNG1CrXV7ulHmHHHrPuZniU
+jmtGpb7+TaibRtvoKdKbZ9KhSy5EPGn2S7xe8sRSgMs0rz7RS25gYaMFLi91pBJN
+o8WueIiMSEPAEoOO9ZI2gTiaVRceZuWHKiLK21flt1ELnOoS/0ssWKcmkuerGeZ1
+jI5Ueli+cEUazZxWJ+nttD9z+1E5JDDHq1fXmioUx+vHli3Uzbxh9a46kPSFHbxx
+/OVx4gPJ3MCwzfehe3hNA5i+dNSBrPEgoOcincDjtMKmshDuEKrVp/P/iePtSN42
+sey1vjxFoogucMuxODeAFWknj+YHtFi0OsmALylAXS+d/Sx/DdjoBPib406Sj2oc
+4EbYdaImzaOyDBHFhrBhniaChWCHmyucS8zt9Mr5AeptpS36dWD46FoJleXF5G0f
+Q2hz6TQruOMEJp6iyvXZw5oe9LK4yheY7uaRFw0WjhYP8d8AvajyzgznSnBcihxt
+EO1AJDUvzNuqMU3BznLnkcLCHhIF7wZfNhFpVZ+QZWTYcZmmZ0zx4eyWCXiyjd1w
+wQ6s8bagOJKCE/YOGDozkEpa
+=G4lo
 -----END PGP SIGNATURE-----
 
---===============5607391553089990217==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f893691e7426-1bca6ee0d077.txt
-
-c975743da27b279e0330159202975b46863f13a0 MAINTAINERS: change mei driver maintainer
-88d81a0ce16988d9568fa47ca9c3802e1178e225 mei: bus: Reorganize kerneldoc parameter names
-9b85df5d3fe7361ad66b97a5c7bf1cdfec8fb184 misc: eeprom_93xx46: Changing 'unsigned' to 'unsigned int'
-3c5d8b819d27012264edd17e6ae7fffda382fe44 misc: apds990x: Fix missing pm_runtime_disable()
-96ea65295337fed271ce9f136edf6f7eaf3b657c binderfs: binderfs_test: remove unused variable
-dfc881abca4247dcf453ce206f05fe09b51be158 rpmb: Remove usage of the deprecated ida_simple_xx() API
-3b0889f95789aa90b0f1a6921d5d6b151f2e53ae rpmb: Remove some useless locking
-dc8aea47b928cc153b591b3558829ce42f685074 binder: fix node UAF in binder_add_freeze_work()
-011e69a1b23011c0db3af4b8293fdd4522cc97b0 binder: fix OOB in binder_add_freeze_work()
-7e20434cbca814cb91a0a261ca0106815ef48e5f binder: fix freeze UAF in binder_release_work()
-830d7db744b42c693bf1db7e94db86d7efd91f0e binder: fix BINDER_WORK_FROZEN_BINDER debug logs
-595ea72efff9fa65bc52b6406e0822f90841f266 binder: fix BINDER_WORK_CLEAR_FREEZE_NOTIFICATION debug logs
-ca63c66935b978441055e3d87d30225267f99329 binder: allow freeze notification for dead nodes
-1db76ec2b4b206ff943e292a0b55e68ff3443598 binder: fix memleak of proc->delivered_freeze
-cb2aeb2ec25884133110ffe5a67ff3cf7dee5ceb binder: add delivered_freeze to debugfs output
-1bca6ee0d077abbaafa4ab1167d6d31659c1edbb firmware: mtk-adsp-ipc: Switch to using dev_err_probe()
-
---===============5607391553089990217==--
+--===============2551657138747331091==--
