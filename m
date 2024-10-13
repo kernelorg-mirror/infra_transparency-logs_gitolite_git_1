@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1376477170684180547=="
+Content-Type: multipart/mixed; boundary="===============6632675791545244928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 13 Oct 2024 10:33:14 -0000
-Message-Id: <172881559433.3526627.12254100700388983189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 13 Oct 2024 12:11:20 -0000
+Message-Id: <172882148079.3609611.12873463123491692014@gitolite.kernel.org>
 
---===============1376477170684180547==
+--===============6632675791545244928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c531f2269a53db5cf64b24baf785ccbcda52970f
-    new: eae38f09cc0eef6e5d5ff0217a1867431edde09b
-    log: revlist-c531f2269a53-eae38f09cc0e.txt
+  - ref: refs/heads/usb-testing
+    old: 4a9fe2a8ac53cc06e53b6e6aff2ca25991d378af
+    new: d73dc7b182be4238b75278bfae16afb4c5564a58
+    log: |
+         d73dc7b182be4238b75278bfae16afb4c5564a58 USB: chaoskey: Fix possible deadlock chaoskey_list_lock
+         
 
---===============1376477170684180547==
+--===============6632675791545244928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c531f2269a53-eae38f09cc0e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-454bbde8f0d465e93e5a3a4003ac6c7e62fa4473 net: skb: add pskb_network_may_pull_reason() helper
-7f20dbd7de7b9b2804e6bf54b0c22f2bc447cd64 net: tunnel: add pskb_inet_may_pull_reason() helper
-9990ddf47d4168088e2246c3d418bf526e40830d net: tunnel: make skb_vlan_inet_prepare() return drop reasons
-4c06d9daf8e6215447ca8a2ddd59fa09862c9bae net: vxlan: add skb drop reasons to vxlan_rcv()
-7b3e018f3eefc6144638800d9f92b3a5e120c537 net: vxlan: make vxlan_remcsum() return drop reasons
-289fd4e75219a96f77c5d679166035cd5118d139 net: vxlan: make vxlan_snoop() return drop reasons
-d209706f562ee4fa81bdf24cf6b679c3222aa06c net: vxlan: make vxlan_set_mac() return drop reasons
-b71a576e452b800efeac49ecca116d954601d911 net: vxlan: use kfree_skb_reason() in vxlan_xmit()
-e7c700aaa67a59c28da07072fbaae207b5f27519 net: vxlan: add drop reasons support to vxlan_xmit_one()
-03483dbde80d102146a61ec09b9e90cfc4bb8be0 net: vxlan: use kfree_skb_reason() in vxlan_mdb_xmit()
-c106479b612d34739c9337a18ce5332ca613f993 net: vxlan: use kfree_skb_reason() in vxlan_encap_bypass()
-790961d88b0e63d993e112b747746dfd94a7c823 net: vxlan: use kfree_skb_reason() in encap_bypass_if_local()
-eae38f09cc0eef6e5d5ff0217a1867431edde09b Merge branch 'vxlan-skb-drop-reasons'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728821497 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1728821478-c471aec7d0ed428cc12b2ccc1fc7ea57f994c788
 
---===============1376477170684180547==--
+4a9fe2a8ac53cc06e53b6e6aff2ca25991d378af d73dc7b182be4238b75278bfae16afb4c5564a58 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcLuPkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WE8P/imxRKIeDp6iSTCSPa+G
+AwZhckOhtvogivbeK+YZS2TltsEiwnxipgrICv6WIONiXuc4QewUup7b7vXsAzih
+5UAj1wXV0FvpqAXI9qPRk4FfW3mJyZ1qIj960eCSFTbgNVjKCOUF20tTPnhI6jYz
+tVpBwO/UaiSG+4O4wEofs6/Pq4Gs18FvQP4LInRnZhCtTEkHZ6rH/7GnugIGgfaD
+QT31/51ztHyhwNPWGqqEaVTBfP3OxLewYsk1UJ1phNSimF9Ckc6Si+R58Z8wk7TH
+GkSTd6W3zzPS/CYh2maTY1ObBE9FIM2/ALVJhUOzlbinV6GmL0A6roRghYXXQAJA
+l3LYn9qLJTv8vd9Ol/TiXscuLv0+Dx93lM9qF9E0wNqekYNTf92FxIv2G5TpKIc4
+/2Ng5ipy+INerMqEHtqcupums3NYndVLtCiwypS0Vxw3h+6nf4+TIrVgNLAhA9rU
+YVmthgurmRoKYtl1VwY/Owd6zuhSn0ZjyxAGZAMxT8s4eCn1Ume/l+cRhxVQYs86
+YVlXdof0/MNwj4IEQpxejhvcrv1j6UCxkzB1avtpqtMoTHvFWV5juo6WTnGT0u9j
+eZL4rpHswdSzMdHWk7T8UdH7fkw7k9dsXJOHtL2KjrtA9AMyvQLjZFXtJ57kXjcQ
+jUybLeimi5al40VbHEU8OTlv
+=Zs1f
+-----END PGP SIGNATURE-----
+
+--===============6632675791545244928==--
