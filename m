@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0618868944832037257=="
+Content-Type: multipart/mixed; boundary="===============3028219327741452654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 14 Oct 2024 13:10:33 -0000
-Message-Id: <172891143347.649643.10067015522761726027@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 13:11:55 -0000
+Message-Id: <172891151545.650247.4762731003507576376@gitolite.kernel.org>
 
---===============0618868944832037257==
+--===============3028219327741452654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 998d8b4ba5b41f550ee60d9c6caba23d40ff1c7b
-    new: 08a65fc75a20395e597b6d32cf248a556ad758aa
+    old: 08a65fc75a20395e597b6d32cf248a556ad758aa
+    new: de7ed35e016394f6fa0be62a14312217cec62a12
     log: |
-         08a65fc75a20395e597b6d32cf248a556ad758aa 6.1-stable patches
+         de7ed35e016394f6fa0be62a14312217cec62a12 drop queue-6.1/rcu-nocb-fix-rcuog-wake-up-from-offline-softirq.patch
          
 
---===============0618868944832037257==
+--===============3028219327741452654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728911453 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728911535 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1728911425-7446bb18a7114efcf21f0e287b11021d55eeb9e4
+nonce 1728911512-56be37290b8818a6fd3808e97ad896842955e0db
 
-998d8b4ba5b41f550ee60d9c6caba23d40ff1c7b 08a65fc75a20395e597b6d32cf248a556ad758aa refs/heads/master
+08a65fc75a20395e597b6d32cf248a556ad758aa de7ed35e016394f6fa0be62a14312217cec62a12 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcNGF0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JUcP/RRph3I5GMTU3dNqMoiy
-VloKg1TrcXvmimh7YBTbTg6MRemG7Tpxreo37N9Ue9cQFhL9Y4wmX7jxtJJBohme
-pAW1kxz4Qkfe1vigx54YTs/lhRL3aokqg2qv50mhyCPgOnUpVTN1r8k3aA8IqaP9
-2+Dp7j6k2B3z1EVwXV2EsyFvorRmFPYYMRxr+J+1PGL9xm1DzvY89Vn+NycnxNLO
-ym7M7tN5AFo99iQasvPsMnSpkZP/AS/0r6FuXRyNbTvO2u6YNkF218d5/9Fem/CZ
-SPHd+dhSlyKwKHRFXxIpi4cso/d454aiD3E3jCFKCmMBs2qiYXZhyL6HoaFm56vG
-ZsyUVUD1zxX830c4I7P9YLNHTH7qyQyG2yF66RCSsEl49xatpYV7sT1KPG9LYAJg
-nsm7iD/uM/9zt8kOEAgccWZnOzYDAH8kZl2XbgxmBvkoTSvhOMFpYww6z3qKzsid
-8e/FpSM423K33ZsyUDSk6Ek2mStBVLzvJO+O6AYAQTcX+R/+NWDqrBumxOclAmWO
-RxMzxAAjfr2hTsBdB5pkxcIdujiERPOil5TExL5vncqTIepQ853OdxCiMi7inOpy
-GZdUvxUXrj5o/IOWZVHGJ1xIbN9mmDS3C95P1fMoPmH7YxmGVtqFJI9mq7TX0PI7
-xDWfk7dhTDvu/Phl4HLve2G/
-=7UXJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcNGK8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LngP/jiphRUE207b+a9SqSmB
+a8IY8lhdrxfSYUPkMzXwq1bFCcDZo7KHsSamlU7WcDWPrVqrp0F6RkSFUkoE9PqM
+3+sFtHM4GvvfM/Nk0cXZZymd2pN/2M77H4keLVIOrzDQEOMUMFIrdyx6u74ZhDo2
+5XSWcCPgIq4/4inaGXCRpLwcDCutcKmtXRx+QjJDliVs67er3hg9+SOtJRIobC/N
+BJ0jzPgSjNDhxdF7PK5r92XYo7nyf6u/isKFk3jCXZOXmdV3aE+HVNOaDTWlq/C2
+Rtze8jn4KA7QWbuwexRnxVQEIi8vmILbAbIuqBUCm4ay/qzSgjo3/buse8iaMWeZ
+LGu4L1FNI8u+CA6U5H4KMhEf9FeckGreZ2XJlyqDSM62wJo99rkaKhKRZOXsTadE
+2id9QTDKpKmy2Yo298cDX8Lufvr/TpnfRqgKSRYu21avQ1ja4MqHl6iEVd1w1Zfo
+CxcW5Ivfnmo3R561+bZsYJLOStaOCJBZftW6/tJqH2yRlW2FdHMkuijrbUEAGeV/
+rjwnsMEjo8yxJ2LeiywX39qMMDjJuCmOFGIbybapvq0RIPDhUQg6fzvZiuqG7N9o
+/8sKWw89xEl5M3WOqsZ3W3Hm3WmB0BNRYLQZEDz/G0fgvUTUvbLOKH0FN4rG3mQt
+Ml2hhvVX50PivqtakmCsvM1n
+=VxN9
 -----END PGP SIGNATURE-----
 
---===============0618868944832037257==--
+--===============3028219327741452654==--
