@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Mon, 14 Oct 2024 14:44:46 -0000
-Message-Id: <172891708613.731550.16859981205975762747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 14 Oct 2024 14:44:51 -0000
+Message-Id: <172891709189.731900.16654520336236911920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: c63d540aa41b43082c5f28d84e1a9ec7cab9da7e
-    new: b86f7c9fad06b960f3ac5594cb3838a7eaeb1892
+  - ref: refs/heads/python-v2.2.x
+    old: f496cb942e8f3c579d0528aae5deb123e3dbdc7d
+    new: 9e2795b90ba56c10e0a7553e26bf90edc039f195
     log: |
-         59458fa4ddb47e7891c61b4a928d13d5f5b00aa0 kcsan: Turn report_filterlist_lock into a raw_spinlock
-         b86f7c9fad06b960f3ac5594cb3838a7eaeb1892 kcsan: Remove redundant call of kallsyms_lookup_name()
+         9e2795b90ba56c10e0a7553e26bf90edc039f195 bindings: python: import gpiod attributes in external module
          
