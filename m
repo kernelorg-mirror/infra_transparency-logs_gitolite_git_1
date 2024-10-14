@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1384326173205302860=="
+Content-Type: multipart/mixed; boundary="===============5801807341655221660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 14 Oct 2024 11:19:07 -0000
-Message-Id: <172890474723.557268.7143239953496326561@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 11:20:07 -0000
+Message-Id: <172890480718.559802.3342875587218099700@gitolite.kernel.org>
 
---===============1384326173205302860==
+--===============5801807341655221660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.12-next/dts64
-    old: 13799dcd86813793349bf2136937bca91ae73253
-    new: 05c2e1902c73d6bbd93d77611b4495c587664029
-    log: revlist-13799dcd8681-05c2e1902c73.txt
+  - ref: refs/heads/for-next
+    old: 5dbf1aac7867a9c68223991af543800ca9cb4b6b
+    new: b5ae2d0590f72bdd0c4638c50882bf58a1fc78e2
+    log: revlist-5dbf1aac7867-b5ae2d0590f7.txt
 
---===============1384326173205302860==
+--===============5801807341655221660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13799dcd8681-05c2e1902c73.txt
+Content-Disposition: attachment; filename=revlist-5dbf1aac7867-b5ae2d0590f7.txt
 
 9351b032c2b2941cdafad5120ac8c2122c1dcc4f arm64: dts: mediatek: mt8390-genio-700-evk: enable pcie
 2dd8c8794d55d86076d1fdca347e53e6f7ac97d7 arm64: dts: mediatek: mt8390-genio-700-evk: update regulator names
@@ -38,5 +38,6 @@ Content-Disposition: attachment; filename=revlist-13799dcd8681-05c2e1902c73.txt
 6a6ebbeea64256d2b69ce660dc2a510714be537d arm64: dts: mediatek: mt8188: Add display nodes for vdosys1
 42bf3bbd6237a816ef3d5d66c9734618838e81d3 arm64: dts: mediatek: mt8188: Add DP-INTF nodes
 05c2e1902c73d6bbd93d77611b4495c587664029 arm64: dts: mediatek: mt8188: Add eDP and DP TX nodes
+b5ae2d0590f72bdd0c4638c50882bf58a1fc78e2 Merge branches 'v6.12-next/dts32', 'v6.12-next/soc' and 'v6.12-next/dts64' into for-next
 
---===============1384326173205302860==--
+--===============5801807341655221660==--
