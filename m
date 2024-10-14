@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Mon, 14 Oct 2024 23:14:27 -0000
-Message-Id: <172894766774.1139366.13469896618070461609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 14 Oct 2024 23:24:24 -0000
+Message-Id: <172894826449.1147034.13199517437210232214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 5f20c4770b6ca280999e553c54afb58f03bd9c4f
-    new: bbea061f69dab3a55dc5c077bf89a02f8f08cb6a
+  - ref: refs/heads/for-6.12-fixes
+    old: b07996c7abac0fe3f70bf74b0b3f76eb7852ef5a
+    new: 60e339be100d7d49e13616bd8b4b1b864f0a64a0
     log: |
-         39acb4cc1b16dbdbd3903c3ce588826391171023 trace-cmd list: Use tracefs_filter_functions()
-         4eef18ff0466895302aadefbe09438ec752a3803 trace-cmd show: Add --max_latency
-         e45400794a7b1b344aff0065dd3a4e2b2c16cd6a trace-cmd list: Use tracefs_instances() to list instances
-         908d122e3682146b135d77852fc263d10a960c95 trace-cmd stat: Use tracefs_instances() instead of walking them
-         cc6de7360c24229080a5f62d1beb8882c20ebbea trace-cmd reset: Bail out immediately if user provides an invalid option
-         3c4fd59b0c09100ca40c84d46e09eb7ea646dd8a trace-cmd reset: Add option to preserve specific dynamic events
-         19ceba140bbc5eb93c9f45ca8273f1f8d4bd0214 trace-cmd reset: Update man page for -k option
-         bbea061f69dab3a55dc5c077bf89a02f8f08cb6a trace-cmd reset: Add bash tab completion for -B and -k
+         60e339be100d7d49e13616bd8b4b1b864f0a64a0 sched_ext: Remove unnecessary cpu_relax()
+         
+  - ref: refs/heads/for-next
+    old: 750832ae55fa9c907968de28b6636904fc3b2cac
+    new: 330db9b638b2540c14f455462652f949fe16e8c7
+    log: |
+         60e339be100d7d49e13616bd8b4b1b864f0a64a0 sched_ext: Remove unnecessary cpu_relax()
+         330db9b638b2540c14f455462652f949fe16e8c7 Merge branch 'for-6.12-fixes' into for-next
          
