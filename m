@@ -1,36 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Mon, 14 Oct 2024 13:59:02 -0000
-Message-Id: <172891434228.689767.7629141829697433168@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2184061810184499259=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 14 Oct 2024 14:03:14 -0000
+Message-Id: <172891459478.693646.12069775039059168574@gitolite.kernel.org>
+
+--===============2184061810184499259==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linus-next
-    old: 77f03435760d771bfa3df0d9673a470ac51d4894
-    new: d4e952af3ecc2439390c911177bc2224aabd4196
-    log: |
-         416a8b2c02fe2a5a9fbdf2a35ea294b78d939f84 erofs: ensure regular inodes for file-backed mounts
-         2402082e5332a2d27be82b4a2bb42490f9c5134b erofs: get rid of z_erofs_try_to_claim_pcluster()
-         ae54567eaa87fd863ab61084a3828e1c36b0ffb0 erofs: get rid of kaddr in `struct z_erofs_maprecorder`
-         6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-         f29364f5144165023dff46fb7ed1897036af1892 Merge remote-tracking branch 'origin/master' into linus-next
-         d4e952af3ecc2439390c911177bc2224aabd4196 Merge tag 'erofs-for-6.12-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs into linus-next
-         
   - ref: refs/heads/master
-    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    new: 6485cf5ea253d40d507cd71253c9568c5470cd27
+    old: 94d1e4f0510d3901e4bdc7be7792eea171b2a874
+    new: 5e367bdf852fc837c9e6a6c39071c23d42f1be7c
     log: |
-         d41bff05a61fb539f21e9bf0d39fac77f457434e hid: intel-ish-hid: Fix uninitialized variable 'rv' in ish_fw_xfer_direct_dma
-         87b696209007b7c4ef7bdfe39ea0253404a43770 HID: plantronics: Workaround for an unexcepted opposite volume key
-         1a5cbb526ec4b885177d06a8bc04f38da7dbb1d9 HID: multitouch: Add support for B2402FVA track point
-         7a5ab8071114344f62a8b1e64ed3452a77257d76 HID: multitouch: Add quirk for HONOR MagicBook Art 14 touchpad
-         c56f9ecb7fb6a3a90079c19eb4c8daf3bbf514b3 HID: amd_sfh: Switch to device-managed dmam_alloc_coherent()
-         2934b12281abf4eb5f915086fd5699de5c497ccd HID: wacom: Hardcode (non-inverted) AES pens as BTN_TOOL_PEN
-         6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+         5e367bdf852fc837c9e6a6c39071c23d42f1be7c 5.10-stable patches
          
+
+--===============2184061810184499259==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728914614 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728914591-7558b3180b48fff7f4d32a4efb601993f6d7fafd
+
+94d1e4f0510d3901e4bdc7be7792eea171b2a874 5e367bdf852fc837c9e6a6c39071c23d42f1be7c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcNJLYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KLkP/Rp75aDFNr0VK7MmHDMU
+8PJ2cRfqIrAFQEbHUuj8CXNmYj9xlifNFyjKWg8x3xioVHT2eEAwZBxicTkFwLcn
+sVOfVUP0X5sQ0a/lXO0tzFeWpGz1Afo8xfgVFs62ZNBsEsfDos9XNzs3ymyl0hfS
+sUur5sYiOn1Nc+z49pi7GrYaj//kpHbJIQ0oxAbefdELYgG+JAea3PXx8Ls9rgK1
+SWspS33QB/VVbSnnN8JeUWLHcJ6O/ZRCxOlujEwO/93EmJ/dKhK2D1ad/G8g4kd+
+Y3aMygrfaEecG2iJQGiO2T9jlGicd+PbV+IJJui9FBebxw2NOTCbaTKhmzQIbBBH
+7kBmgXKRkSnuQJ7xor6B7i5uAQ+1P0JGRhWRhdHy71juBxBS8ejN+IovBOrHPRS1
+IIQiUOSd6zYldHYHukr3mZdWyC4Jm4zl9yD4PbvEUkoBMmD8Suz2p1bhT6vhhP0n
+JYoiqPx6M/hoa56XRYXMJzdk3auwBFBowp0I84lzwic7fnp02jb4HTiS0keN3cmx
+aTfNWU5ckbmwzE8BU9Q6QnogxelNz/QGVNeQezRSZ8dvMvvh1uFeoguH48phartd
+cJZtPwU7KY7snSmPOwqyf84IsMhlpbY1seu9v/4o5ZWcQcoJkpKSI2OEhzsdoxXZ
+PHv1mvvgNxg8bySVnTQCk2fI
+=/Yzz
+-----END PGP SIGNATURE-----
+
+--===============2184061810184499259==--
