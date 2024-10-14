@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8832120294393693135=="
+Content-Type: multipart/mixed; boundary="===============6873890601603767004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Oct 2024 16:08:30 -0000
-Message-Id: <172892211063.801016.2834287551259099219@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 16:08:32 -0000
+Message-Id: <172892211283.801095.18402960783738867762@gitolite.kernel.org>
 
---===============8832120294393693135==
+--===============6873890601603767004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d677aebd663ddc287f2b2bda098474694a0ca875
     new: 01b6b9315f15f199a206c8b3bd3e051584237d7e
     log: revlist-d677aebd663d-01b6b9315f15.txt
 
---===============8832120294393693135==
+--===============6873890601603767004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ b8bf38440ba94e8ed8e2ae55c5dfb0276d30e843 r8169: enable SG/TSO on selected chip v
 2c9eacbb56de00591e2e4f9484e286c86c3c10b4 net: ethernet: ti: cpsw_ale: Remove unused accessor functions
 01b6b9315f15f199a206c8b3bd3e051584237d7e Merge branch 'net-ti-ethernet-warnings'
 
---===============8832120294393693135==--
+--===============6873890601603767004==--
