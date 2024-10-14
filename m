@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2894825740095400047=="
+Content-Type: multipart/mixed; boundary="===============2529358727394237883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 14 Oct 2024 14:38:58 -0000
-Message-Id: <172891673886.726293.15282128592737561887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 14 Oct 2024 14:39:12 -0000
+Message-Id: <172891675202.726485.12387896404426416741@gitolite.kernel.org>
 
---===============2894825740095400047==
+--===============2529358727394237883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6801a93b4309318c0a7341338184fcd4ce865936
 
---===============2894825740095400047==
+--===============2529358727394237883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -287,4 +287,4 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============2894825740095400047==--
+--===============2529358727394237883==--
