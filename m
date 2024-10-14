@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2965744449955689916=="
+Content-Type: multipart/mixed; boundary="===============5830755329088877823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Mon, 14 Oct 2024 15:43:25 -0000
-Message-Id: <172892060591.778855.14041290892824177571@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 15:44:55 -0000
+Message-Id: <172892069549.779838.16223928368116720366@gitolite.kernel.org>
 
---===============2965744449955689916==
+--===============5830755329088877823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify
-    old: cad3f4a22cfa4081cc2d465d1118cf31708fd82b
+  - ref: refs/heads/for_next
+    old: 282f03136b0628971baba245b81d3f8ab30ab11f
     new: 1cda52f1b4611f4daa9d89e69d9428fb4137dc3f
-    log: revlist-cad3f4a22cfa-1cda52f1b461.txt
+    log: revlist-282f03136b06-1cda52f1b461.txt
 
---===============2965744449955689916==
+--===============5830755329088877823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cad3f4a22cfa-1cda52f1b461.txt
+Content-Disposition: attachment; filename=revlist-282f03136b06-1cda52f1b461.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
@@ -286,12 +286,8 @@ a421e3fe0e6abe27395078f4f0cec5daf466caea smb: client: use actual path when query
 d75dba49744478c32f6ce1c16b5f391c2d5cef5f ALSA: hda/realtek: Add a quirk for HP Pavilion 15z-ec200
 984ed20ece1c6c20789ece040cbff3eb1a388fa9 kconfig: qconf: fix buffer overflow in debug links
 5a431e50e9d4189800be1607eef9deaf95959fc3 gpio: davinci: Fix condition for irqchip registration
-ee703a7068f95764cfb62b57db1d36e465cb9b26 udf: refactor udf_current_aext() to handle error
 500580c7ae7bbd38c7641102059fa9308f35d26c pmdomain: qcom-cpr: Fix the return of uninitialized variable
 df5215618fbe425875336d3a2d31bd599ae8c401 ALSA: hda: fix trigger_tstamp_latched
-b405c1e58b73981da0f8df03b00666b22b9397ae udf: refactor udf_next_aext() to handle error
-c226964ec786f3797ed389a16392ce4357697d24 udf: refactor inode_bmap() to handle error
-264db9d666ad9a35075cc9ed9ec09d021580fbb1 udf: fix uninit-value use in udf_get_fileshortad
 bbd1e5ea66f6ca88624faefe0a153637f53ad15d ASoC: dt-bindings: qcom,sm8250: add qrb4210-rb2-sndcard
 b97bc0656a66f89f78098d4d72dc04fa9518ab11 ASoC: qcom: sm8250: add qrb4210-rb2-sndcard compatible string
 17d8adc4cd5181c13c1041b197b76efc09eaf8a8 ASoC: dt-bindings: davinci-mcasp: Fix interrupts property
@@ -739,4 +735,4 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 1cda52f1b4611f4daa9d89e69d9428fb4137dc3f fsnotify, lsm: Decouple fsnotify from lsm
 
---===============2965744449955689916==--
+--===============5830755329088877823==--
