@@ -1,56 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0630125008879260869=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 14 Oct 2024 14:06:52 -0000
-Message-Id: <172891481244.697718.11529444039882934082@gitolite.kernel.org>
-
---===============0630125008879260869==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 14 Oct 2024 14:09:30 -0000
+Message-Id: <172891497063.698867.8774428801991623986@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: a7848a1be57e99b5d3ed16281a54cdb6a1ef6504
-    new: 11272a0fbc9457d483a35bb82e77a6326543cf88
-    log: |
-         11272a0fbc9457d483a35bb82e77a6326543cf88 drop regmap patches from older trees
-         
-
---===============0630125008879260869==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728914832 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1728914810-84a71a80f7dd78f7a410d88d1f65f7969d38d6c7
-
-a7848a1be57e99b5d3ed16281a54cdb6a1ef6504 11272a0fbc9457d483a35bb82e77a6326543cf88 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcNJZAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DKUQALdkuqCzn7eT/IKsLgls
-TE9DueowFPAq9HmTCoKsyV3ulchoIhJ8u1Yw1p2NnUxNtYs9b7LppC1EouofmKFg
-Vl/BC4cy0DMtI768I5uSn4YpMmNxec3FrlHyb8S6/qFyYJ3/bbLJUtWu33xydkK9
-A2dXerCmpTNYJAZEwtF85DlKqffPdQWDhN1CGIFAHfTEh0amobw5bAuXlbOY1OJv
-n3aKNjUwjqtM6Q/0ya7wxiw5XXnW2J1PBFpN7rASorSSBA3qbwsp2Fai2imjqGMx
-7eLdfyG2RSaZlsUnHbJVOedD8Y3DTaigzDVj6zbjYP7+M+kRrLsKbbMaVISmG85H
-4H634J7cgN55mbucfn23IbQjqc2eg89mVWGC+ClIM1Lv1zTV1ei0TdKv+xL3YWZk
-Hp6/urbRWCcQ0aCyV+y/xwCM0YB6n5wySl2ZEFJ5J00ljpU9/VxSrenxFnMpni+/
-yin7BSyEZcsLpDe5LUhAKbEF+ALNerqa10Z86eoMYe/nAR1lxcT9Yl1A2qYkHXrf
-fRlRLMzg7CwdoJSaNBBpXwo/lpLstZaVm3yNvhm/HBQAxWAIfBR55uzJlxp1e/Xj
-CuhEsDSGPKGenDz60lX5412eyl2hE7ueJ39CoNnQrH3rtgmet20ssriWtuQT8ls3
-9zWZFS5e6wX+tmT7AGHoOCwX
-=0zOz
------END PGP SIGNATURE-----
-
---===============0630125008879260869==--
+  - ref: refs/heads/for-next/acpi
+    old: f3b78b470f28bb2a3a40e88bdf5c6de6a35a9b76
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/errata
+    old: db0d8a84348b876df7c4276f0cbce5df3b769f5f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/misc
+    old: ecdd16df45649e344e38ec59a3022e13419a695a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/mm
+    old: c02e7c5c6da8c637fec60158b0d4b330841de5ce
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/pkvm-guest
+    old: 21be9f7110d4c044c2b49bafbd7246335f236221
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/poe
+    old: 10166c23f41367b6aaebd403af86caab22466c22
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/selftests
+    old: d736d4fc763090f9a02dc5556174de9768093f43
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/timers
+    old: 3e9e67e129434fdeae905a5b60648d10126c4a8d
+    new: 0000000000000000000000000000000000000000
