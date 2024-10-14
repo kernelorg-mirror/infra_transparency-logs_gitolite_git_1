@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8463283067579235389=="
+Content-Type: multipart/mixed; boundary="===============7011202723803627349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 14 Oct 2024 09:29:28 -0000
-Message-Id: <172889816867.468072.5101026471289166408@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 09:31:54 -0000
+Message-Id: <172889831409.471172.17903725380806637536@gitolite.kernel.org>
 
---===============8463283067579235389==
+--===============7011202723803627349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 88f46ba9d13873accb284676d270557b0d24a86d
-    new: 1c34cf14fe1f66b17972192465b8825ccfe0c58f
+    old: 1c34cf14fe1f66b17972192465b8825ccfe0c58f
+    new: 4d7da6237e8b73a6be6afd27277281fd041af7b3
     log: |
-         1c34cf14fe1f66b17972192465b8825ccfe0c58f drop wifi-mac80211-sdata-can-be-null-during-ampdu-start.patch
+         4d7da6237e8b73a6be6afd27277281fd041af7b3 drop cpufreq-amd-pstate-ut-convert-nominal_freq-to-khz-du.patch
          
 
---===============8463283067579235389==
+--===============7011202723803627349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728898185 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728898333 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1728898163-46cf067618fbf39bfe135824cb550c78fb798be1
+nonce 1728898311-c58c701daa4fa090db8a6cebdf48aa182d89c1bb
 
-88f46ba9d13873accb284676d270557b0d24a86d 1c34cf14fe1f66b17972192465b8825ccfe0c58f refs/heads/master
+1c34cf14fe1f66b17972192465b8825ccfe0c58f 4d7da6237e8b73a6be6afd27277281fd041af7b3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcM5IkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GJcP/RmiK0Zj6jAFXP+pMaMM
-id7ln4cePJ3fY2KIIPXcR8UAu2RznHtXjVZRO0DZkhINWISVAA990fzQZNVdm+01
-7ehHo7RVDxwfQOViUiYRy5rM6/rbTcmq3uJLyzVd+FkKmRPCN4zMB5I8XAYs2emO
-zxIkK21SgsJy0bu5fws56xCr//OQN9wGkb3f+cqZlObX4sRb3rHVPlxCtzaYEa3V
-hEhVPJIaimIOGyt/TXatXhyIlwQSa8aqFcP6uKB2AhAhsAJArUKipBM3VMFBXpgv
-IVJxmVgppUx7QcI9TPibR1E6ImOtWB+rzP3/yDDKB4sEQTqg7Q3UZWt/LkTAnTDg
-7Cy9xmgr0GfQUh/xbtVDEFeC94wBr4NXTG3PPSYhVq1q4cFPx769COjMNAm6oxod
-RmdqQdSn0JESDWyUwYZcmzPWhvqAdThIdsWxfYRoDHgy1Atthoo6pxS2zzYxAZ1s
-sE54qFLbbxXXeJSknVrnGHUvF6vrHubzQfsNM8iGgcwuwjZhva3IZWOWDu64rS7e
-VUHOBSU9XTjO3pWdg2hsYIgfewoXVTBz0xqqK/mgpZ5RjTt3CN9pInKZ8TY5Mv1+
-v6f+zm75m5iYVY79K3jBcxTasKlfc23Iop308ts+E6SwGDeea+55wabrXGPn8cPr
-r6/xZ8l3IdrQ/xP1Qx0aczJ4
-=TTyD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcM5R0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SVIQAKxMqMfvOaWcrN8slMtz
++NgoHwThH5zSfBEMT887KAe9ptcrCrXmO/ilYBuw0JT3Dhbj3EwCKtp3NerAVpoo
+UdFov/0KX0M9sTmI2+2vbpUv+3lZ5BWMhRgi5URLXDzflLfVg99b0oAQjI2s1nvK
+nf69Aj4peyv++sHaraY60BCwedbz1OcB4FyTbIYHNlgr75HA9aY1QQWOHVWRj1DM
+95WATma1V7k+vu04gNbgMLpQZvuY8BkkXlh/B0oShtxviRZ48O8aBL+at36pSqmr
++9AGDspABrNV8IowqGhlMDUYFh5nMHINdvM27Lcr/ULUnj5F1c4/qpN8ZNIJmBaB
++A4yXo40RqHa93ATr9UXpzRCGqjFUvtLq1UmDgypyC0FmSjuI/ERRX97m2y3n6Vw
+61GZ0sbA1MZfXKqBk2qZRYzRBVLleirFIdPOg8YAaUf1ie6LLCji9THKVvHiZWVy
+xrGWRh0wqX1aCrkffxq2ojivhPyvA6QySUg2vvG6N9zMMs4HJ8YnTdUVSg0gfcjY
+6xXsM6G7Fu5ZUgBbPNdBqX1szqtzoOi1vSYGgr4oWXrcKUmkHSYOcQoN0uVpHjpk
+6OLmTBXRIqhmAGUPqdSXXgIz9dazWsuZkUDv4zuzfjdCYaifWqyKYjcVDte23iIE
+q3q63MDpzEA0IjIdcOMn1Yc3
+=zCZt
 -----END PGP SIGNATURE-----
 
---===============8463283067579235389==--
+--===============7011202723803627349==--
