@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 14 Oct 2024 08:08:49 -0000
-Message-Id: <172889332929.403888.8541291669791710544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 14 Oct 2024 08:11:29 -0000
+Message-Id: <172889348904.406989.10396364342394303895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/for-next
-    old: 0246ff57b1eae63bb0b94330d51c1862642636b2
-    new: 9d8646b270fff3e855971cdba5088dfabfb59a90
+  - ref: refs/heads/b4/has_ioport
+    old: 1bc3b9921585a26c1bb19e386a7117e94df81025
+    new: c5eb07fef09e3096fd94ae22fbc6667cca77d0a7
     log: |
-         4a1150604cd59abb265df8fef9d8d8481a473375 dt-bindings: soc: mediatek: Add DVFSRC bindings for MT8183 and MT8195
-         9d8646b270fff3e855971cdba5088dfabfb59a90 Merge branch 'v6.12-next/soc' into for-next
+         77742bf2fed505d0a2506b47e6ca91862c5d231d treewide: Remove I/O port accessors for HAS_IOPORT=n
+         76c8134462ec3e3723bfa36168e55bfe776ee588 hexagon: Don't select GENERIC_IOMAP without HAS_IOPORT support
+         1234b9ad00305fee7c6569fa540724fcd069bd60 Bluetooth: add HAS_IOPORT dependencies
+         c4c98effd23573064a808fb8d1e93f77208fe0e9 drm: handle HAS_IOPORT dependencies
+         4d29b007373f6de098007d6dc7e90f645b37e4b8 tty: serial: handle HAS_IOPORT dependencies
+         c5eb07fef09e3096fd94ae22fbc6667cca77d0a7 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
          
