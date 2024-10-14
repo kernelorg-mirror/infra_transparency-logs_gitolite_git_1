@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 14 Oct 2024 15:50:26 -0000
-Message-Id: <172892102630.786324.16772705184447106228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 14 Oct 2024 15:56:03 -0000
+Message-Id: <172892136348.790621.8733451324350606566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/syscon-rework
-    old: 28ee1d1ff03aedd74eca7e93b309178e0c8a59a6
-    new: 8a3f918dcf16d0e87d5b30a4ba23334363de8ec7
+  - ref: refs/heads/master
+    old: 8a61a0c4411079da034d3f17efc51dfd77a6b082
+    new: 8869b39c1e3a1b76637ffb13fc5de800d7f88c2c
     log: |
-         23971aff4c9b518d19bf5693a993cd4c237d0994 riscv: dts: microchip: fix mailbox description
-         8a3f918dcf16d0e87d5b30a4ba23334363de8ec7 riscv: dts: microchip: convert clock and reset to use syscon
+         fbd6743d14786cc65a7c37461c27fa8f5fe77d97 drivers: simcommodem: create rat to radio_access_mode function
+         307d14fd6ab32fbaac4dae3cf4e39a7aef6bf8c7 drivers: simcommodem: query modem for available rat modes
+         8869b39c1e3a1b76637ffb13fc5de800d7f88c2c sim7100: create lte atom in post_sim()
          
