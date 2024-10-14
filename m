@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7931463845446950604=="
+Content-Type: multipart/mixed; boundary="===============5579917912072977094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 14 Oct 2024 06:04:40 -0000
-Message-Id: <172888588062.258544.15391196072970256659@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 06:04:58 -0000
+Message-Id: <172888589831.259271.18107900215143530332@gitolite.kernel.org>
 
---===============7931463845446950604==
+--===============5579917912072977094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: faa34159d08089036b6119c85e279fb36abb8bb5
-    new: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    log: revlist-faa34159d080-8e929cb546ee.txt
+  - ref: refs/heads/usb-next
+    old: d73dc7b182be4238b75278bfae16afb4c5564a58
+    new: 64f3b5a6bc49adf77d58eddd72a4bfccd492fa24
+    log: revlist-d73dc7b182be-64f3b5a6bc49.txt
 
---===============7931463845446950604==
+--===============5579917912072977094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728885901 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728885908 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1728885878-4a4851a7aed5a35093c02e5594d95b461f17513c
+nonce 1728885885-a85aee17a19a9f797ab64f096226217050cc5aa0
 
-faa34159d08089036b6119c85e279fb36abb8bb5 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/usb-linus
+d73dc7b182be4238b75278bfae16afb4c5564a58 64f3b5a6bc49adf77d58eddd72a4bfccd492fa24 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMtI0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aUYP/jht234KSBXWqa1uKQP9
-vEWUMj2/MRHyE1tgwPdHP1D66QcPXcsQgi4g7Q7fcBo0epM2tfcfcawj6uluxm9m
-KjtI3mRZZ2mlIoQIOcmEZ+BYnrvqCE1WUxiW+6aFDbrr+2e5AVSkrNtwrF90x07H
-xXqf8Povw16a8VA8svAFm8lM0De+q14ChS2XrnZLisxqvz7vLBDn4sSSbOW2fDmc
-0Jlt0UYoMp8xDHgpcgFTKT49edBWdqzFXBy+jaU3XPci2gxy1tfATyyoUI3r7xAL
-dybm1d34UxutklNj8W4v+4kSABmx2aov03icdMEClGgeJIC3aKKQx6gKcdXcrhRf
-ymsMoZRWZnZFPoLazoXsj1dOIy4EO41L3dFTcEwzGDv3wGmYU8BeQPgkId7ti+B1
-i2ZNg3MNNoHtb6W9SqOUC2FfOMwmpwX2a+CI57W762l4WPrE0kYdNiQgPNvk9PYb
-3bNy/8aYHbF6RfMDA0OIkDDhZykxLG6/2ll+Q879mCrwDI/fBPimWQqSDG6oLael
-xY8wkfaCoqqoj7lEsf4znA7mF/4Q4pNYLUp6C2xCZdzQe3+R6Bu4gS8sk1++K9+D
-UcinR/gouXi/lxArh3z6y89EkTLbqhZ14f3qkjO3du0xWmFeHduuGl1CaWWc9lMs
-4AVmisG5OHexZXzht/ri/Qeq
-=i2dI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMtJQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jM4P/09pCvg0Ko09FiLa2H3l
+lubfXtqVNt/7ir+Zbaxyuv+wmUuWZTWtmlTVhSRg67kLjSlzK/isw+oXBS0KVg2u
++MNmpzN6QvFsS4uT6lRKgcq2oq1rgQ4FnXbZ7TAuqXtp4lurtvyxqUgFlUHYqHnb
+tQ9qs9NJI0is6mn2g2N/AXJ1U86wA9vUbVJhnYPYW0zs2AV61EhUPu0f3CNIlev6
+BYmVhjNUKGIJ/3VifGO7uI1As0eGwXcY+js1MzJTLmdVBvMnayLsXdGYHS0DlOF+
+8XP17ovmKEOef6uPGoMqL0OsS2Lblw6pm/VcBV5+FamILPA4/rkq78/xPoCBn7XR
+GKgtgVS8BAN6oTklis2yBqU3ylD7BWXsJWTK2UxkoovIk4Af62U/CBCPIvE5VQgC
+Tk+6NFVqwghO5D0wc62F5Qh/4jr7pNZDCGTVtWXt7K9rqN6F8ROolgluPdA+uMit
+9pS3SohxV9Tt1zlA/+C7cMon8PXz7DaG7BVtxH9x4QY6Sh6E0g+5JCbSaJz/HEiJ
+hMDWZYWWoVHcrunPm2e4/rD2BBge7owQPX/FGg5PyHofsEYHQnd6y78isPGVWcrc
+w7zu+BWz5SeU5mmAtM4VUuRsZBbTmclyVxTkd02jobf8FKUVcXmq787tfBiAK/KP
+2P7Y611dQd1/ROioI/XboUN6
+=qPXe
 -----END PGP SIGNATURE-----
 
---===============7931463845446950604==
+--===============5579917912072977094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faa34159d080-8e929cb546ee.txt
+Content-Disposition: attachment; filename=revlist-d73dc7b182be-64f3b5a6bc49.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
@@ -463,6 +463,12 @@ d539a871ae47a1f27a609a62e06093fa69d7ce99 scsi: scsi_transport_fc: Allow setting 
 703235a244e533652346844cfa42623afb36eed1 ALSA: line6: add hw monitor volume control to POD HD500X
 b3ebb007060f89d5a45c9b99f06a55e36a1945b5 ALSA: hda/conexant: Fix conflicting quirk for System76 Pangolin
 3eddb108abe3de6723cc4b77e8558ce1b3047987 arm64: Subscribe Microsoft Azure Cobalt 100 to erratum 3194386
+df9158826b00e53f42c67d62c887a84490d80a0a usb: gadget: core: force synchronous registration
+a6555cb1cb69db479d0760e392c175ba32426842 usb: storage: ignore bogus device raised by JieLi BR21 USB sound chip
+897e13a8f9a23576eeacb95075fdded97b197cc3 usb: dwc3: re-enable runtime PM after failed resume
+0d410e8913f5cffebcca79ffdd596009d4a13a28 usb: dwc3: core: Stop processing of pending events if controller is halted
+6c4e1ef46c9d565c71e9ff1a70ddbe24790694d5 usb: misc: onboard_usb_dev: introduce new config symbol for usb5744 SMBus support
+d44238d8254a36249d576c96473269dbe500f5e4 usb: xhci: Fix problem with xhci resume from suspend
 c5e3cdbf2afedef77b64229fd0aed693abf0a0c4 tomoyo: revert CONFIG_SECURITY_TOMOYO_LKM support
 3689245dedfd6157bb6060b62e523a68f1d674b2 Merge tag 'i2c-host-fixes-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 6cca11958870b9b1d64933ffe1a4c11b0e6e6bbb Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -568,6 +574,8 @@ b611fddc0435738e64453bbf1dadd4b12a801858 xfs: don't ifdef around the exact minle
 405ee87c6938f67e6ab62a3f8f85b3c60a093886 xfs: call xfs_bmap_exact_minlen_extent_alloc from xfs_bmap_btalloc
 6aac77059881e4419df499392c995bf02fb9630b xfs: support lowmode allocations in xfs_bmap_exact_minlen_extent_alloc
 90a71daaf73f5d39bb0cbb3c7ab6af942fe6233e xfs: skip background cowblock trims on inodes open for write
+71c717cd8a2e180126932cc6851ff21c1d04d69a Revert "usb: yurex: Replace snprintf() with the safer scnprintf() variant"
+39845764a0ca01a89dca4ff5b4e9d896ee410054 USB: yurex: kill needless initialization in yurex_read
 7d1fd3638ee3a9f9bca4785fffb638ca19120718 drm/v3d: Stop the active perfmon before being destroyed
 0b2ad4f6f2bec74a5287d96cb2325a5e11706f22 drm/vc4: Stop the active perfmon before being destroyed
 a017616fafc6b2a6b3043bf46f6381ef2611c188 hwmon: intel-m10-bmc-hwmon: relabel Columbiaville to CVL Die Temperature
@@ -655,6 +663,7 @@ e863781abe4fe430406dd075ca0cab99165b4e63 drm/xe/ct: fix xa_store() error checkin
 1badf482816417dca71f8120b4c540cdc82aa03c drm/xe: Make wedged_mode debugfs writable
 08c8acc9d8f3f70d62dd928571368d5018206490 net: ibm: emac: mal: fix wrong goto
 fc4d262721705f2a7b860946504e7b8a313f06e1 Merge tag 'amd-drm-fixes-6.12-2024-10-08' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+faa34159d08089036b6119c85e279fb36abb8bb5 net/9p/usbg: Fix build error
 4390f019ad7866c3791c3d768d2ff185d89e8ebe xfs: don't free cowblocks from under dirty pagecache on unshare
 77bfe1b11ea0c0c4b0ce19b742cd1aa82f60e45d xfs: fix a typo
 ff8ee11e778520c5716b7f165d2c7ce14d6a068b net: ti: icssg-prueth: Fix race condition for VLAN table access
@@ -754,5 +763,6 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
+64f3b5a6bc49adf77d58eddd72a4bfccd492fa24 Merge 6.12-rc3 into usb-next
 
---===============7931463845446950604==--
+--===============5579917912072977094==--
