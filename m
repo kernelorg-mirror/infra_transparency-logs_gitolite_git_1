@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 14 Oct 2024 14:20:43 -0000
-Message-Id: <172891564307.710719.7465240071125812115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 14 Oct 2024 14:24:48 -0000
+Message-Id: <172891588854.712830.2991993679355657347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 0567efc790d4426df3001c6f8a19e276f114a450
-    new: fda5dc760a0501554f079558ebd95a4f91fba7cd
+  - ref: refs/heads/main
+    old: 06bad2f17030ea91ca4c9b965c2131e468af9ddc
+    new: 1292f4f7301e25fc16305e60d49282fe4bdd0df5
     log: |
-         8f15d94a21cbc6886bdf2474e6e1bb507cab1149 sys-utils: (setpriv): fix potential memory leak
-         fda5dc760a0501554f079558ebd95a4f91fba7cd Merge branch 'setpriv-parse-securebits' of https://github.com/maks-mishin/util-linux
+         d3480463fc6888c0a1048d7ee283a25db51625d2 linux-firmware: update firmware for en8811h 2.5G ethernet phy
+         1292f4f7301e25fc16305e60d49282fe4bdd0df5 Merge branch 'en8811h' into 'main'
          
