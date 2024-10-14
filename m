@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1334309808191271495=="
+Content-Type: multipart/mixed; boundary="===============3490474410181357747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 14 Oct 2024 04:48:33 -0000
-Message-Id: <172888131347.202219.8245550154839315885@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 04:48:55 -0000
+Message-Id: <172888133582.202540.3964552616838231917@gitolite.kernel.org>
 
---===============1334309808191271495==
+--===============3490474410181357747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 36efaca9cb28a893cad98f0448c39a8b698859e2
     new: 6aac56631831e1386b6edd3c583c8afb2abfd267
     log: revlist-36efaca9cb28-6aac56631831.txt
 
---===============1334309808191271495==
+--===============3490474410181357747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -651,4 +651,4 @@ edc344568922eb9588e77ba49de1ef0cb9a2ff1c net: ethtool: Add new parameters and a 
 9a3b0d078bd825613c0821bf7bf5a2e1d8d60057 net: ethtool: Add support for writing firmware blocks using EPL payload
 6aac56631831e1386b6edd3c583c8afb2abfd267 Merge branch 'ethtool-write-firmware'
 
---===============1334309808191271495==--
+--===============3490474410181357747==--
