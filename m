@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 14 Oct 2024 17:42:12 -0000
-Message-Id: <172892773219.880584.12819552735422775418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 14 Oct 2024 18:07:10 -0000
+Message-Id: <172892923018.899379.7462650360578316084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 48966a5a48cd48a499e7c431e09465ce0c092e38
-    new: 1a3d6a9723d4dbdad41dad67b66a64d4a84c5f5c
+  - ref: refs/heads/dev-queue
+    old: b24de0aa1b52a1b83818cf91034be1888da32f2e
+    new: addac81a286c31688291d8b78af6f8a71d676b63
     log: |
-         d94d86cee1032bbf429d5bd0914b064e03b56f0e tools/perf/tests: Fix compilation error with strncpy in tests/tool_pmu
-         9ea671d1b2d5962368b94b28507ae65f94c86fb3 tools/perf/tests: Remove duplicate evlist__delete in tests/tool_pmu.c
-         1a3d6a9723d4dbdad41dad67b66a64d4a84c5f5c perf tools: Fix compiler error in util/tool_pmu.c
+         3cbb25095c907d4e2d1f7ac247a62b2ee8cd484e ice: fix PHY Clock Recovery availability check
+         d5c751d6563f4a7118db53c9b195758edec13677 ice: fix crash on probe for DPLL enabled E810 LOM
+         addac81a286c31688291d8b78af6f8a71d676b63 ice: add recipe priority check in search
          
