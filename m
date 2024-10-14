@@ -1,33 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 14 Oct 2024 18:32:54 -0000
-Message-Id: <172893077413.920129.12417948905687113576@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1794394664520694263=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 14 Oct 2024 18:46:18 -0000
+Message-Id: <172893157804.930877.590091201647543923@gitolite.kernel.org>
+
+--===============1794394664520694263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/fixes
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: d35f40642904b017d1301340734b91aef69d1c0c
-    log: |
-         6e9c5c8ef2820d18492d07172ac52f23ea8a54d9 dmaengine: sh: rz-dmac: handle configs where one address is zero
-         d35f40642904b017d1301340734b91aef69d1c0c dmaengine: ti: k3-udma: Set EOP for all TRs in cyclic BCDMA transfer
-         
-  - ref: refs/heads/next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 76355c25e4f71ee4667ebaadd9faf8ec29d18f23
-    log: |
-         6e9c5c8ef2820d18492d07172ac52f23ea8a54d9 dmaengine: sh: rz-dmac: handle configs where one address is zero
-         209efec19c4c0cea17ff01d67c8fbd75a90fb854 dt-bindings: dma: rz-dmac: Document RZ/A1H SoC
-         32172b3e3265833a367e41842fa8b7eaa0acae96 dmaengine: sh: rz-dmac: add r7s72100 support
-         6e3ea06240adfef7b46e2338dd824541c31de06d dmaengine: acpi: Drop unused devm_acpi_dma_controller_free()
-         c0fecce865535f77e7a8220175b126392dfe99dc dmaengine: acpi: Simplify devm_acpi_dma_controller_register()
-         662f045332addc961940e48eb920caa954abbf09 dmaengine: acpi: Clean up headers
-         0aa4523cdb9683e35af91ebdfae8d2fb4e6c3b8b dmaengine: ep93xx: Fix unsigned compared against 0
-         76355c25e4f71ee4667ebaadd9faf8ec29d18f23 dmaengine: Switch back to struct platform_driver::remove()
-         
+  - ref: refs/heads/testing
+    old: 465644ac29536d10178b5ca4684d0b84765b9fa4
+    new: c3e9df514041ec6c46be83801b1891392f4522f7
+    log: revlist-465644ac2953-c3e9df514041.txt
+
+--===============1794394664520694263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-465644ac2953-c3e9df514041.txt
+
+b7ffd0fa65e96283ab4cced9195b67bf9e7a2f2a iio: adc: ad7625: add driver
+b4a35432dbd0a0427d5bfee24fc6eaeef7ebeea7 docs: iio: new docs for ad7625 driver
+e99c90cce898a09966f89436b02e2768ecdb16fa iio: dac: adi-axi-dac: fix wrong register bitfield
+0c29cded4c78bc82d96085103adfb68074b742e9 iio: dac: adi-axi-dac: update register names
+de0243183c56a2da0be10533afe62f0ddd0df338 iio: light: veml6035: fix read_avail in no_irq case for veml6035
+34b41ba97ed8931fac594fd4ef63c0d27f1e4e08 dt-bindings: iio: light: veml6030: add veml7700
+6ec794bf50027bba41039a7bd603279b20ce4b82 iio: light: veml6030: add support for veml7700
+57035e3902384e2a42271b26bb74d87ec6a0c5dd MAINTAINERS: add entry for VEML6030 ambient light sensor driver
+17d2f48f38dc87d277f4c2f960984f44975b1151 iio: light: vl6180: Add configurable inter-measurement period support
+8e3789355651f7aa7c0669ac9f6042e24abb3be4 iio: light: vl6180: Added Interrupt support for single shot access
+ff8159eab4cc422cc60beeab27ed117f312321c7 iio: light: vl6180: Add support for Continuous Mode
+c3e9df514041ec6c46be83801b1891392f4522f7 iio: light: rpr0521: Use generic iio_pollfunc_store_time()
+
+--===============1794394664520694263==--
