@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3151183132197574095=="
+Content-Type: multipart/mixed; boundary="===============0523153070210352080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Oct 2024 20:04:15 -0000
-Message-Id: <172893625505.992312.16254240448722486695@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 20:04:32 -0000
+Message-Id: <172893627268.992577.13383687298832224844@gitolite.kernel.org>
 
---===============3151183132197574095==
+--===============0523153070210352080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+  - ref: refs/heads/dev
+    old: 332fade75d0ecd88cd19556fce0f9cc8322de434
     new: eca631b8fe808748d7585059c4307005ca5c5820
-    log: revlist-8cf0b93919e1-eca631b8fe80.txt
+    log: revlist-332fade75d0e-eca631b8fe80.txt
 
---===============3151183132197574095==
+--===============0523153070210352080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cf0b93919e1-eca631b8fe80.txt
+Content-Disposition: attachment; filename=revlist-332fade75d0e-eca631b8fe80.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -335,7 +335,6 @@ ac44ff7cec33d5c2d4b72d52603552ec64c1a8bf Merge tag 'drm-xe-fixes-2024-10-10' of 
 2402082e5332a2d27be82b4a2bb42490f9c5134b erofs: get rid of z_erofs_try_to_claim_pcluster()
 ae54567eaa87fd863ab61084a3828e1c36b0ffb0 erofs: get rid of kaddr in `struct z_erofs_maprecorder`
 2934b12281abf4eb5f915086fd5699de5c497ccd HID: wacom: Hardcode (non-inverted) AES pens as BTN_TOOL_PEN
-332fade75d0ecd88cd19556fce0f9cc8322de434 f2fs: allow parallel DIO reads
 befcc89362383208f62b15887592758165459e3d Merge tag 'drm-fixes-2024-10-11' of https://gitlab.freedesktop.org/drm/kernel
 3700dc91b39aa9675047f7aae232b9d4a1b70e20 Merge tag 'ata-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 7351a8793d8dc7e3aca09f2d9ec624ce46c42a0f Merge tag 'mmc-v6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
@@ -364,4 +363,4 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 63fa605041843b50ebc8dca6483dbfa6e835c61a Merge tag 'erofs-for-6.12-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============3151183132197574095==--
+--===============0523153070210352080==--
