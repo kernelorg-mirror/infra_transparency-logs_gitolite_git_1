@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Mon, 14 Oct 2024 12:46:22 -0000
-Message-Id: <172890998229.629128.962485999872114500@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7310267322160405999=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 14 Oct 2024 12:56:52 -0000
+Message-Id: <172891061245.637067.12953505970493864028@gitolite.kernel.org>
+
+--===============7310267322160405999==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
-user: horms
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f66ebf37d69cc700ca884c6a18c2258caf8b151b
-    new: 9539446cc659e390942b46df871f8abdd4750999
+  - ref: refs/heads/master
+    old: 6dc9d71880a8ebc89a3ebddaf04c5e282fb40678
+    new: 5def9938a8dfada2fbe2cc5e857bcf4ef82317da
     log: |
-         0398cffb745984f0710c45f73b263530a57494c6 netfilter: nf_tables: Fix percpu address space issues in nf_tables_api.c
-         73e467915aab6157e472b8b0699c08c29c9e629b netfilter: nf_tables: replace deprecated strncpy with strscpy_pad
-         3478b99fc515001d5f3d86d06af662a083fb5815 netfilter: nf_tables: prefer nft_trans_elem_alloc helper
-         72caa79bdbe265b64d93f11b10f0d5635c8aaa12 netfilter: nf_tables: add nft_trans_commit_list_add_elem helper
-         9a004e2068a27633530de56fc3747f8b89337018 netfilter: nf_tables: prepare for multiple elements in nft_trans_elem structure
-         a1fcf1c811b0b1a29b38695212ce6bd492275226 netfilter: nf_tables: switch trans_elem to real flex array
-         6834af2ce13df32eace33cb8ca09fad82c4432c2 netfilter: nf_tables: allocate element update information dynamically
-         cb3d289366b0320fdec1f35bc823cfdf4edc6a0e netfilter: Make legacy configs user selectable
-         9539446cc659e390942b46df871f8abdd4750999 netfilter: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+         5def9938a8dfada2fbe2cc5e857bcf4ef82317da 4.19-stable patches
          
+
+--===============7310267322160405999==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728910631 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728910609-bf1d90ad36f78d6ef3ff2451fd6a09182a26d2d4
+
+6dc9d71880a8ebc89a3ebddaf04c5e282fb40678 5def9938a8dfada2fbe2cc5e857bcf4ef82317da refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcNFScbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLYP/1oyVYxIl0VpTVHXm0NN
+sQt8WskqZEbcW9+SCWlKSTxGvhQkpyvGx4c9aS/GB4Ca+DkU3CLbHIWGNF+rmYM3
+zZBz6BGrDwyk0DDNbrP4kziLMI3aMeUHEydFNvbHK3NHovQGWA4cpRT6Ckdxzeev
+frWRGbtvcNbUbuIA5yW51dEHtcliWZSpcdHinzMkdS34pbhMACYxkTY+k1r5fpjg
+9+8vQaZa7pBM+7OC8F+7/kBQ4vwO1lXJieSi7TBVGeGFVUf2eBxcs3swRRZLtEWx
+IO6TxRocGg69k/7Wpoa5rBbcaLAlSUdBq27dybZzmuFvMNw/llJI1tSDoHbuxF6x
+hjEtyQKgb3ScOiiRFnshONX1ssrmC9VvAPg7hXgycSKtptaLXjyRmfD34BSg3xF9
+V3BDNdf7YTSscVjqsMyFYPmo81RMOE2mbRN/gwUazoSIOeCggouPeWeSAA/CVHht
+raa/+3vLElVrupGJZawC+GtmqZOea3CN6A+kAkHtJAV7GkHYgQrtxWaTpxMv9TOw
+3dHq+aLyAnBuL5FJ72oAmcLTkLqXF1qPNwfP0CajzgyVUN7PvTb6IW7WaWNmnAoB
+7XFVAKGEGxZnoNDHiTFSFbJ4y76dgCTB0Ud+Y5EkjYPCouoPKaEdO/3TBTPz1ej0
+V8taepFa3elIMFppHx9QYMHf
+=/K0R
+-----END PGP SIGNATURE-----
+
+--===============7310267322160405999==--
