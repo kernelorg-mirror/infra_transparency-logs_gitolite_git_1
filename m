@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Mon, 14 Oct 2024 10:52:36 -0000
-Message-Id: <172890315699.536494.12366394380359248757@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 10:53:11 -0000
+Message-Id: <172890319196.537050.15233058190011473515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: pablo
 changes:
-  - ref: refs/heads/main
-    old: cb3d289366b0320fdec1f35bc823cfdf4edc6a0e
-    new: 9539446cc659e390942b46df871f8abdd4750999
-    log: |
-         9539446cc659e390942b46df871f8abdd4750999 netfilter: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
-         
+  - ref: refs/tags/5.17-net-next
+    old: 0000000000000000000000000000000000000000
+    new: d666e233d27daffa670e5bbd904993fa39bac573
+  - ref: refs/tags/net-5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
+  - ref: refs/tags/net-5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
+  - ref: refs/tags/net-5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 59ecbe92433a2bbb9168e356be21a80c9f640c19
+  - ref: refs/tags/net-next-5.10
+    old: 0000000000000000000000000000000000000000
+    new: f52243d1bec2744f94775fe17240444710041ed8
+  - ref: refs/tags/net-next-5.11
+    old: 0000000000000000000000000000000000000000
+    new: d036668bb92786751142520b6e2f50f9256ef9c9
+  - ref: refs/tags/nf-next-24-10-14
+    old: 0000000000000000000000000000000000000000
+    new: 2280d42a01671e06d3ba630bb797a481b4b2206e
+  - ref: refs/tags/v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v6.11
+    old: 0000000000000000000000000000000000000000
+    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
+  - ref: refs/tags/v6.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
+  - ref: refs/tags/v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
+  - ref: refs/tags/v6.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
