@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3078107779221767758=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 14 Oct 2024 16:55:24 -0000
-Message-Id: <172892492474.843846.8822054750020095754@gitolite.kernel.org>
-
---===============3078107779221767758==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 14 Oct 2024 16:57:40 -0000
+Message-Id: <172892506013.844826.3241903455321814960@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: c7c1bb78f3eec716bc35f58d74592331cc3281b2
-    new: 48966a5a48cd48a499e7c431e09465ce0c092e38
-    log: revlist-c7c1bb78f3ee-48966a5a48cd.txt
-
---===============3078107779221767758==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7c1bb78f3ee-48966a5a48cd.txt
-
-c051220d38463cfe8a248d204461beb3ed52b4ea perf pmu: Simplify an asprintf error message
-c798f72c7a67a4c089142d4b16c8b9587e6db5e6 perf pmu: Allow hardcoded terms to be applied to attributes
-d2f3ecb0ca2099d13bf8bf69219214c1425dc453 perf parse-events: Expose/rename config_term_name
-240505b2d0adcdc8fd018117e88dc27b09734735 perf tool_pmu: Factor tool events into their own PMU
-0709a82c10bb98d0426dd289a6b8c143f61a8786 perf tool_pmu: Rename enum perf_tool_event to tool_pmu_event
-b8f1a1b0680c055bbe9f99e82e2e5b474621a1d6 perf tool_pmu: Rename perf_tool_event__* to tool_pmu__*
-069057239a676a82cce9330a81994129179dc817 perf tool_pmu: Move expr literals to tool_pmu
-c9b121b7fa5d99e87184d69d0852bf7f6a61179d perf jevents: Add tool event json under a common architecture
-609aa2667f67c1588d4e741110265f74b7713177 perf tool_pmu: Switch to standard pmu functions and json descriptions
-8c25df7af322040fdf5041e912af7cc810b0f86d perf tests: Add tool PMU test
-48966a5a48cd48a499e7c431e09465ce0c092e38 perf report: Display columns Predicted/Abort/Cycles in --branch-history
-
---===============3078107779221767758==--
+  - ref: refs/heads/dev
+    old: b9a68f381b3447b8df10102757a34431cc2b2eb6
+    new: 312de6fd6d486c7290855735e3918cf93e4a9462
+    log: |
+         9ad0ad3a7ff9e1bdb6aa604ea5fdfb5853438785 inject.f2fs: add dentry injection
+         662e619cfaee04ef123e43b29df865aa1d903b0f mkfs.f2fs: use correct endian conversion for writing lpf inode
+         82b59c71a76e00108778dcb720f34b629e45bbc8 fsck.f2fs: fix to detect double '.' or '..'
+         4ce6d22c2085df24cdd7c38fb9215a40abce1d87 fsck.f2fs: support to add missing '.' or '..' dirent
+         48fb9473ce8d7a470911903a3bab520468aa1a0e fsck.f2fs: remove redundant i_ext.len set to zero
+         5c06793f804af6c01483134aebd4dfe3350794a1 f2fs-tools: add write hint support
+         c35fa8cd75ac98238f9e6d8f7a23f74b4897aa1b mkfs.f2fs: change -c option description
+         8cc4e257ec20bee207bb034d5ac406e1ab31eaea mkfs.f2fs: add device aliasing feature
+         0cd64a71efb06a5a0e0e8a5d78bb262f72f80982 f2fs_io: add fdatasync
+         312de6fd6d486c7290855735e3918cf93e4a9462 f2fs_io: support fadvice for read
+         
