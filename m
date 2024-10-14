@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5555010911329366158=="
+Content-Type: multipart/mixed; boundary="===============2258458436904027673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 14 Oct 2024 06:21:54 -0000
-Message-Id: <172888691453.320309.2801186782812996797@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 06:22:26 -0000
+Message-Id: <172888694679.320661.5278233615195360644@gitolite.kernel.org>
 
---===============5555010911329366158==
+--===============2258458436904027673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 231ec571809ca7d98b43b6ec836d211b67240dde
-    new: 9bd133f05b1dca5ca4399a76d04d0f6f4d454e44
-    log: revlist-231ec571809c-9bd133f05b1d.txt
+  - ref: refs/heads/main
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    log: revlist-9852d85ec9d4-8e929cb546ee.txt
 
---===============5555010911329366158==
+--===============2258458436904027673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728886932 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728886964 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1728886909-805075dbdd63f753c0fe13564f4b65de61823cc7
+nonce 1728886943-cbeb9c0122c2d1ed14dbe5e223587ef08804622e
 
-231ec571809ca7d98b43b6ec836d211b67240dde 9bd133f05b1dca5ca4399a76d04d0f6f4d454e44 refs/heads/driver-core-testing
+9852d85ec9d492ebef56dc5f229416c925758edc 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMuJQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+79cP/2u/GOCufSoPnqX2/R1X
-K6KNLBcgtNQ9+aD0LuqOMTtWyYAv3swsOMe+PWG7mTp2qW+g1wY/Z3hVenXW88RY
-lEHRSmV7VbtBKucXJa02YjWTSeGbIYm2CqRVFuEZ68T7mlIp4YocTEj+bgicWnyy
-sA3i7dwnofGOCDB5RH/2kvvRg3AX5FPMQVikae2wU5ws/4Zo05giXUpQJwzsEBVu
-cCGqiWXkBAMA6kQnxuYWlZLIsab8KTKYWp6MjjVrxZXDV3RI4I12kKfc64csrhvM
-377BK9RCqVXmPAZcTtwv/e+hGkeMpWlnurFs2zoeep+OL3Pa62OaTRQWd/a3fLGD
-uOSrEUbZAMOJF29QLw4m5YJGxBSKM+4pneET/UmC0bwzwTWrLBOg0ApFO6axJ08+
-RbrZV12bNsCkdfmTHoopJbx7iD9zPxjKPu8l09ByM28fyfhi2/U0K4xEZMiCoI/x
-8fKeb9w8jEg5QZItPj/QkHaGE4LlJRp6HS4jzpaFA+U4X4suz8+qvbA3rBOS5DDV
-r+Dwvi6WN5Iv1ttYBAtcUXb8ryBnWL3y9a1GAt4UdNuFWWB0tL/UFGcX7zzvKY1W
-n8BsB/s7QCHP+7NTwa+s8tbJ7dySLDG0np/ruIuPhh8LCEmn0YXsbyYE5e7f7Bve
-RJbxu/WpYKV7LgLbAMR9mP/h
-=44cG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMuLQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++ocQALNzdcZlk9t3nA39+c0E
+13ClD2YEIR6hep8DJMK7Jm83hgSwQsAlU/VeKpxhlufXgGaA+goaRnVS8C1GoLrU
+h0hjAzG29YD+dNyshR6J0rSNbPz/wkMntO+pzbBhr+q6OforhiCL/mz7yCgxyEdu
+w2Rn0xQk05dOlIzjXdRDrKR94Njl8Quh3XwvEswmWMMeFHGWr6juchTUbsLFI2Se
+SYMKuF5Vni5Urf8NV921UXXXwDlZ6RCNbUP5bmZ1vZSaZU8oAw/vaEa+hB7IONSf
+/c0QMctdW4bS6htXb6pkx4SBvtzGrqPJLt0fl+xZTZ0ozaSC8aSFnxEhg1ISPnfY
+5dbMglGr56+7VRW660Xn1f9XkFrNuu/X1Xx1esbI9dGEoQIkmj4tNWuwhT2+PtSu
+FqRlucmEFrJDu2fcN5q9t6BR7YAOGxFvQ82OwvDMaBZ/j+cFSIwFVg7jPD7QKw+6
+fhnjx8BeztGwivwyHBfw4FtwxGH3KeqPkojzDvBs316v0ffLvx/i3F7MoYZU0IFb
+2vmeEB4Hu8GEs3YmIyes3VfqwZv18TMOeYyhvZ2FNGgi3ecSV7SVWB1zNQGyt5wy
+zlZQCzziO1iJGrSGQeic5PqtultYhhb9+eGHopw4iSSVuynZf+LSxW1AgPUrBq2S
+EX3Eepg6XnXl8P5Lu799V78T
+=/zqF
 -----END PGP SIGNATURE-----
 
---===============5555010911329366158==
+--===============2258458436904027673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-231ec571809c-9bd133f05b1d.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-8e929cb546ee.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
@@ -763,11 +763,5 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
-dbd45eef54865d966b8008cac329d05710a6310e firmware_loader: Reorganize kerneldoc parameter names
-cec78a59abc9b1a06f742cb96479fc0bb1fe4e90 list: Remove duplicated and unused macro list_for_each_reverse
-0ebe74c53b8b62bde7b02415d28e75aa25d6c2e6 drivers/base: Remove unused auxiliary_find_device
-765399553714e934a219d698953d435f4f99caa7 devres: Fix page faults when tracing devres from unloaded modules
-0ee4dcafda9576910559f0471a3d6891daf9ab92 lib: devres: Simplify API devm_iounmap() implementation
-9bd133f05b1dca5ca4399a76d04d0f6f4d454e44 lib: devres: Simplify API devm_ioport_unmap() implementation
 
---===============5555010911329366158==--
+--===============2258458436904027673==--
