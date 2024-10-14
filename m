@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6320294518010910828=="
+Content-Type: multipart/mixed; boundary="===============1252201570861364410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 14 Oct 2024 16:21:27 -0000
-Message-Id: <172892288754.814893.6352619525675497086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Oct 2024 16:21:35 -0000
+Message-Id: <172892289549.815095.15765481604842844632@gitolite.kernel.org>
 
---===============6320294518010910828==
+--===============1252201570861364410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/regulator-6.12
     old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
     log: revlist-8cf0b93919e1-8e929cb546ee.txt
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: e1037106b691a8336b57247562ffa6c2c4f8de0f
     new: f20669fbcf99d0e15e94fb50929bb1c41618e197
     log: |
          f20669fbcf99d0e15e94fb50929bb1c41618e197 regulator: core: Use fsleep() to get best sleep mechanism
          
 
---===============6320294518010910828==
+--===============1252201570861364410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1728922906 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1728922884-6d0066e035295918fb66a31f41da1ce34a2b2889
+pusher Mark Brown <broonie@kernel.org> 1728922914 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1728922892-8733b193aa71cbfb9f17588d9e5a28bfaf1eefa4
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/for-6.12
-e1037106b691a8336b57247562ffa6c2c4f8de0f f20669fbcf99d0e15e94fb50929bb1c41618e197 refs/heads/for-6.13
+8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/regulator-6.12
+e1037106b691a8336b57247562ffa6c2c4f8de0f f20669fbcf99d0e15e94fb50929bb1c41618e197 refs/heads/regulator-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcNRRoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JqPB/9RizcSk7cL/SOniUPuzliTGS9te/lZ
-quicldGenK8Schkw8DHMJgt4yCEuR9b5Tbmxbsa7+sHkJfYFkXJcJHhCydFP6fQO
-FBQc6sWJn/0RVXOkfnTIByjxqUmW6DwIhCl3lRpEBNXDsIEC00jELKC0TxOh/5ho
-fw4kXL1G2o53uKAKlK/FWCujPeH55uHwr0eK+wKt5cGB3YbkkjMMPUjHhD51PLMV
-LlbqfxELBPbLIG1dxo4o00pRGkG6gq4g1UzYohlbwCTBQxogGg/qYDMC1bBplONJ
-mEWfsM0o0dtfj38+E07kYOZ/vs8UmhTtnKZm1OfBQuwBnbAYWWvTVYUB
-=gAsZ
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcNRSITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0AOqB/4wG+AYNtlyCNDlNxXaOR3z+tK96NnM
+oLVOcVguSftneBiarvMYkMuf9Qhon43CK3IPJIj/E2dU2t5L+BlfLYSobdJ7fJ7F
+8GuZ5dBstenGqvN0bAlAWu6Acg1Vo/Iyw7CQn84p8yEZP7vlY5ciGEP8lZTsvnW1
+vwT+90oXeizBCmwJ8LaEtui0+VRgkoManydfkcyYT+NuaDfjUVrkqgK6ZEvO24uN
+hiwAKb3ukJrZO/m4tY8Xuqr+aHg2kgHxmmUi4F79xjczUI+KApy0pKoGEbanrMlJ
+r/FHkRhy4YO8v89JfHI+vuuk1c9zbL2N0GCUD13b/2iscajIcbXWDhWQ
+=A1Jy
 -----END PGP SIGNATURE-----
 
---===============6320294518010910828==
+--===============1252201570861364410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -383,4 +383,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============6320294518010910828==--
+--===============1252201570861364410==--
