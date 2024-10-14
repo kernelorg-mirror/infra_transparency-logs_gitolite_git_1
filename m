@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2230603898114275911=="
+Content-Type: multipart/mixed; boundary="===============1216734851591323980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 14 Oct 2024 06:22:31 -0000
-Message-Id: <172888695112.320792.9311995916656515410@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 06:22:34 -0000
+Message-Id: <172888695493.320945.5538795720900241768@gitolite.kernel.org>
 
---===============2230603898114275911==
+--===============1216734851591323980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: bd2b7f62a0d5feda8b21c7371058e8cd2956151a
+  - ref: refs/heads/driver-core-next
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    log: revlist-bd2b7f62a0d5-8e929cb546ee.txt
+    log: revlist-9852d85ec9d4-8e929cb546ee.txt
 
---===============2230603898114275911==
+--===============1216734851591323980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728886970 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728886974 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1728886949-438528c3b4935947f3fb04641def765d021cd590
+nonce 1728886953-5ed4a8413c501bd937a43dda57f1fd59fcd7d4f7
 
-bd2b7f62a0d5feda8b21c7371058e8cd2956151a 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/driver-core-linus
+9852d85ec9d492ebef56dc5f229416c925758edc 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMuLsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h3QQAIsTD/4/JxI83GTQ2s8r
-AzWHnb71SSHGUVOr6anRSksJGrU/T6WgdNxSQIFEG6CLccbmARZhYZU+WXANx5Tp
-dM4yM4MuYkkYbz/9JK9VE7Ogih268C71nxZcWDFBRaBtdM3meinUtL60Lq8H60nC
-/ayVikpgCWvqFZoobwkMiZpw7LLuxMI3p+ZvPi6QR0g72lC/Vflh7jnCd2+zXNCU
-mLQ4d5EAEtccktHvXPsnqouh44PypjXXx8nzG56B3LjeWF8/o2T251Kf8NJNscPj
-/7c/lZBsONcUe6WqqQooJx6KJ8Pd22DY5yinNeb1Ldbi5TBm+rESZ4tbDmWzFmpf
-WZRKXZPU6tVm/+HRGFIKXC8bvZEJpbqt1dB8xoMWiKWFkOfH9Ex4buvGz3P3AyXm
-Iswqg92EEdhPHZ1lM/7674pp3qdf3uSSphSMDXwvSABQ4Qd2ACHKJ+zjDksAr0TQ
-9/efNKW7yg+VFbSdSLNhuLP6nfFee8dMcgQyS9ULPv4LJ9fqGEpXueGMe2LjO4PK
-+gOmQiRQhdY4EuDZEPURbkLHImIKcesSIpaXCrjlz+ecHBx6SZD92vwkTPtPYfDG
-MbKyfchwsrQfAUWuAbkl7PJkGqjedq99dyAmltHUx1COXQE6Zi0fOqKm0qEdoBPB
-KtknAwNOYlvjSvrJ6LOaDa76
-=GiB3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMuL4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RokP/3CMj0OdBwCNmspmCWaX
+aPYPo8C6WvA4Gh1uBGpvILVLAw0fE+2pNJXz2VH+JFaOqmgtP3vi0ZBi5xTn7uGx
+zdUWyy1C15EgDdYbSum9DuHfUGjgoF6L8j1X5kF+t8AvCnWfAcKjV9ohz1SBnqfR
+gjeCHjRVk8BUkfBs3q93eLDFKl/wKPkTCucg9ARFSPFpRH2FH6ukDGrhrhdO3H/E
+Z/3KDsq7kA/Jj9ydRCo8g1S9DOiCdzvSA4E+gZMp4Pxd02ht3OgALwvq7I8sfzdK
+7ORg+oYpI33qJZBOXXQcb3dWW4IUeZTRPtzn/y3XLYIDctxhYMnRCQMd76+Q4ygV
+9Tpt6E8IgJw7Ns36rdZo4LUA4yFTA3Omrnwv1/EyqFx6brNvO5/WclBAWZkVCcEr
+2bwLV3sOIrimHxjWMQdUOeZ1IA6ITwCBGj9GYgqPWWtu6K4F0X15RHdkNOnQ+Dvo
+I9j/oF3uMwaIiqwM2QcMnRbfMLdGCi3HTfLZY5UIHgD2Zk23eAomTNf0lZJUQ8gb
+eQc0vXXDJEHsM4Mn+mwUGYYuZVHESzTzYFpmWn1rDPCE2Dx/kf6+g4JbtSQvuKrA
+fvHsN8CG6BXxLkYLpHm5CF8/krKWripJYhgK+UMH6dSNk5PNwBIIfPKWMobCi2oJ
+aTQ3MIfpgOrDf2dN2RFjd5Qf
+=4ZUT
 -----END PGP SIGNATURE-----
 
---===============2230603898114275911==
+--===============1216734851591323980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd2b7f62a0d5-8e929cb546ee.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-8e929cb546ee.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
@@ -414,6 +414,7 @@ a311a08a4237241fb5b9d219d3e33346de6e83e0 iomap: constrain the file range passed 
 b63ad06ddddfe792f93df0c24adb66622bd7b8c9 doc: net: napi: Update documentation for napi_schedule_irqoff
 c6929644c1e0d6108e57061d427eb966e1746351 dt-bindings: net: xlnx,axi-ethernet: Add missing reg minItems
 8beee4d8dee76b67c75dc91fd8185d91e845c160 sctp: set sk_state back to CLOSED if autobind fails in sctp_listen_start
+cc4332afb5631b0e9d2ce5699b7f4b7caf743526 rust: device: change the from_raw() function
 20c2474fa515ea3ce39b92a37fc5d03cdfc509b8 Merge tag 'vfs-6.12-rc2.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 9c02404b52f56b2c8acc8c0ac16d525b1226dfe5 Merge tag 'v6.12-rc1-ksmbd-fixes' of git://git.samba.org/ksmbd
 8c245fe7dde3bf776253550fc914a36293db4ff3 Merge tag 'net-6.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -559,6 +560,7 @@ f7c9134385331c5ef36252895130aa01a92de907 io_uring/rw: allow pollable non-blockin
 4cc2718f621a6a57a02581125bb6d914ce74d23b drm/i915/hdcp: fix connector refcounting
 3eb40512530e4f64f819d8e723b6f41695dace5a cifs: Improve creating native symlinks pointing to directory
 63271b7d569fbe924bccc7dadc17d3d07a4e5f7a cifs: Fix creating native symlinks pointing to current or parent directory
+bd2b7f62a0d5feda8b21c7371058e8cd2956151a mailmap: update mail for Fiona Behrens
 ae6f70c66748640739356bb1938dbdbc9e42eb44 MAINTAINERS: add Carlos Maiolino as XFS release manager
 f6225eebd76f371dab98b4d1c1a7c1e255190aef xfs: Remove empty declartion in header file
 6148b77960cc43547e4b819bfa5f064fb83dc2ae xfs: scrub: convert comma to semicolon
@@ -762,4 +764,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============2230603898114275911==--
+--===============1216734851591323980==--
