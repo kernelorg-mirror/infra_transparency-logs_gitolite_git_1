@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Mon, 14 Oct 2024 16:28:06 -0000
-Message-Id: <172892328693.820571.7928178088904393388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 14 Oct 2024 16:34:09 -0000
+Message-Id: <172892364981.825026.2278080993348534312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 0255c5cbaa6dfa8305a7a2b33d80fb0837bdbf0e
-    new: 312de6fd6d486c7290855735e3918cf93e4a9462
+    old: 6736787e5262a54e379147d7704e609ba53b895d
+    new: 2da870269f52bd07301ccbb21c94305f50eec7ca
     log: |
-         0cd64a71efb06a5a0e0e8a5d78bb262f72f80982 f2fs_io: add fdatasync
-         312de6fd6d486c7290855735e3918cf93e4a9462 f2fs_io: support fadvice for read
+         2da870269f52bd07301ccbb21c94305f50eec7ca f2fs: fix null-ptr-deref in f2fs_submit_page_bio()
          
