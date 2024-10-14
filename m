@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 14 Oct 2024 14:44:51 -0000
-Message-Id: <172891709189.731900.16654520336236911920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Mon, 14 Oct 2024 14:45:43 -0000
+Message-Id: <172891714395.733956.6159385733242700844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/python-v2.2.x
-    old: f496cb942e8f3c579d0528aae5deb123e3dbdc7d
-    new: 9e2795b90ba56c10e0a7553e26bf90edc039f195
-    log: |
-         9e2795b90ba56c10e0a7553e26bf90edc039f195 bindings: python: import gpiod attributes in external module
-         
+  - ref: refs/heads/for-next
+    old: 0000000000000000000000000000000000000000
+    new: b86f7c9fad06b960f3ac5594cb3838a7eaeb1892
