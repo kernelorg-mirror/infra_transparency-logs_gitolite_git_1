@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 14 Oct 2024 16:21:17 -0000
-Message-Id: <172892287704.814402.13966536302602891965@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 16:21:20 -0000
+Message-Id: <172892288053.814658.15720688834713831572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: dab79cb72e33e311e6617918baa1ad8ae19b765e
+  - ref: refs/heads/delstid
+    old: 71595bcb64ac9ba50de4126f57723fc766836091
     new: b75cb1ab045adbff9fa7fe1c5acb6b387a26c38c
     log: |
          4077014aff51d7f23e8319f10d034fdb48aa8b0e nfsd: drop inode parameter from nfsd4_change_attribute()
