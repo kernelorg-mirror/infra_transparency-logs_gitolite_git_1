@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6785085651309807718=="
+Content-Type: multipart/mixed; boundary="===============6397126555552674442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 14 Oct 2024 06:04:18 -0000
-Message-Id: <172888585891.258193.7296982160184835137@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 06:04:35 -0000
+Message-Id: <172888587594.258397.12303297384151961440@gitolite.kernel.org>
 
---===============6785085651309807718==
+--===============6397126555552674442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: 1c8a324d7f6edf32b24f9a9c23b5409a5c1879fc
-    new: 27397d630d380ea4a328794cfd63a82275f4c2d6
-    log: revlist-1c8a324d7f6e-27397d630d38.txt
+  - ref: refs/heads/main
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    log: revlist-9852d85ec9d4-8e929cb546ee.txt
 
---===============6785085651309807718==
+--===============6397126555552674442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728885877 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728885895 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1728885854-fb33f0679f77d45f910433d341c5424ba2d8cf78
+nonce 1728885872-cc87c7d43e6fad24aba1d32dfbe13ab5b3f854e8
 
-1c8a324d7f6edf32b24f9a9c23b5409a5c1879fc 27397d630d380ea4a328794cfd63a82275f4c2d6 refs/heads/rndis-removal
+9852d85ec9d492ebef56dc5f229416c925758edc 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMtHUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vWwP/2+24FmYOuwyCd8bMhb8
-xVVajq9lYh9xd5o2EW8Hs8dvTMqgYG3tMb6gbdziPzF/7snx90CsnGsSXAkY7aJV
-Jjai022FG/UCIDhgJKLSgRoJudFU76LR9qqv/BobJMVFpi3LworzWNrdBPS0EKez
-g75+6qROgNo9g+9Mg4wcEOSpB70dvalmBAbZua6UxBjjnvitj7LU3Y3ACoYfS4aq
-sUma3rJWXxsmlDkPDOcgJi+CFiHQ+RKr48dRdddQCfbXL243ueVgCV2aHaZCyEC8
-xQMFkRAnyD7o7BoUCBI7at1CjqS1oz/naddSpRi8j+pvHZaL3Xk4xH1wM+vdoox9
-zf0XCgiMK+lTgQnkQykRBu1C2QiIvU2IppN0cS4eCwS2bhjIFD3knzWdXUYz+Tsk
-Id8XtJ/RKzJ3OhvSeolBXNDtqjOR8xAHYQroMat8mEwl807SI5zvnqdw3aD5CTn2
-n/LBHiHpIPnLRJ61/1ybw5bUWuD1o+VnIQuoEqttkr6VpARac5f/PQkJpO4fL2qc
-w4q6dQ4cYylQct+ZH6R4r8rbUz/sxFeikwWEUKn19D87W/v3BQU9LvMeNjC8K3ay
-Zk8oULpEvfuCh7XyJeYQzl6icsek2YGfjhcB1tYWAA71Ry6A8xLeFNkbI3+Ep8jw
-vvFTqxAnSlpId79VVkLc6hTj
-=NZEe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcMtIcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8GsP/21y42RDt0WRR7yiOWkU
+6Bv8xEzkjqWmXKfDJackUzMOfMY/U2Xa6HwkUhUIMMBRX/HX0y+mbZFDgSslhWM8
+vVuNQrMkr6ArV1HVXcpQY9RKMbsf5NpL+DOl/A/en9RbCgnXxG6DWkvAqgMiCW56
+5feG/8NdCrHBXnrWK/8qn0vaHDjikvevY+Wd9JRLEo91NkOUUI0nTzWFDzcJmOY7
+9LNGbcSyRyysaihIG/G+ssumeHENsniRJNVe4lv+CNZz6mrwURmrHEqsFm1c/xQc
+FMR9TgV+x9ZS/PrHlbqbcOwvW9/kvidkHXVb6HZyxu1Bu4LMeEP6+KXlT2CSQm1b
+0bEaApJihnkOicGAvpBZl2aC1CMY0HLosuwbe70nWEDBNnEijCtdIv/1PKcB161O
+i76+hp0aVVkunQDO2/KbUkWe/FodAYjV8qAziiij138GlHIJNo9MXcj7fJnlMxgW
+YZt/p9lxkc47+t+N972VxFeUZiQbD5ILzY0ZDE2uLD8o1z5dLSj0CJRnDe3dZbca
+brMt9LP7hBZihRwTHNl4aEJh0JbUmv24AtwULjTISxSz2O1gBez6mbitPQW4JI+3
+RgG+lZHpduy/h4cQK8WmBxQs9qYoH4QyE+TCJ/ycHubJkExuGAqOMyY0kcJISCmW
+YJcj3JTWAYZv2y3hOYaf7wu2
+=k6Ni
 -----END PGP SIGNATURE-----
 
---===============6785085651309807718==
+--===============6397126555552674442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c8a324d7f6e-27397d630d38.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-8e929cb546ee.txt
 
 c4b3c1332f55c48785e6661cebeb7269a92a45fd zonefs: add support for FS_IOC_GETFSSYSFSPATH
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
@@ -763,6 +763,5 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
-27397d630d380ea4a328794cfd63a82275f4c2d6 USB: disable all RNDIS protocol drivers
 
---===============6785085651309807718==--
+--===============6397126555552674442==--
