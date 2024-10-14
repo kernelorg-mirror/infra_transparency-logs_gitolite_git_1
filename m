@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0523153070210352080=="
+Content-Type: multipart/mixed; boundary="===============7611661386397015260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Oct 2024 20:04:32 -0000
-Message-Id: <172893627268.992577.13383687298832224844@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 20:04:44 -0000
+Message-Id: <172893628496.993268.12660051677764207405@gitolite.kernel.org>
 
---===============0523153070210352080==
+--===============7611661386397015260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 332fade75d0ecd88cd19556fce0f9cc8322de434
-    new: eca631b8fe808748d7585059c4307005ca5c5820
-    log: revlist-332fade75d0e-eca631b8fe80.txt
+  - ref: refs/heads/dev-test
+    old: e76184a2bdc4c4d69c59bf707710817c28d4a417
+    new: 067629ac30ead53bd337c6a69cec041f91bc2c52
+    log: revlist-e76184a2bdc4-067629ac30ea.txt
 
---===============0523153070210352080==
+--===============7611661386397015260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-332fade75d0e-eca631b8fe80.txt
+Content-Disposition: attachment; filename=revlist-e76184a2bdc4-067629ac30ea.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -362,5 +362,11 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 63fa605041843b50ebc8dca6483dbfa6e835c61a Merge tag 'erofs-for-6.12-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+b19ee72722087c1d441193ce3b6b3d937ae16bf2 f2fs: introduce f2fs_get_section_mtime
+527a4ded09b9266a5fb100e80e05b101b53053fd f2fs: Use struct_size() to improve f2fs_acl_clone()
+26413ce18e85de3dda2cd3d72c3c3e8ab8f4f996 f2fs: compress: fix inconsistent update of i_blocks in release_compress_blocks and reserve_compress_blocks
+d5c367ef8287fb4d235c46a2f8c8d68715f3a0ca f2fs: fix f2fs_bug_on when uninstalling filesystem call f2fs_evict_inode.
+b7d0a97b28083084ebdd8e5c6bccd12e6ec18faa f2fs: fix null-ptr-deref in f2fs_submit_page_bio()
+067629ac30ead53bd337c6a69cec041f91bc2c52 f2fs: introduce device aliasing file
 
---===============0523153070210352080==--
+--===============7611661386397015260==--
