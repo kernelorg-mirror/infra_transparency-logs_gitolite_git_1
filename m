@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9168931249833197346=="
+Content-Type: multipart/mixed; boundary="===============9088761681163534025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 14 Oct 2024 14:12:06 -0000
-Message-Id: <172891512642.703029.1364693309948175268@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 14:12:10 -0000
+Message-Id: <172891513048.703142.3864255581733714864@gitolite.kernel.org>
 
---===============9168931249833197346==
+--===============9088761681163534025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/delstid
-    old: a9dcc9dde512d99cb68d27403bc81ecf08e6ab02
+  - ref: refs/heads/kdevops
+    old: 1886ffd2c50192221a5a4ae5a05777c0ae19fa1c
     new: 71595bcb64ac9ba50de4126f57723fc766836091
-    log: revlist-a9dcc9dde512-71595bcb64ac.txt
+    log: revlist-1886ffd2c501-71595bcb64ac.txt
 
---===============9168931249833197346==
+--===============9088761681163534025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9dcc9dde512-71595bcb64ac.txt
+Content-Disposition: attachment; filename=revlist-1886ffd2c501-71595bcb64ac.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -44,8 +44,6 @@ c4a8ba334262e9a5c158d618a4820e1b9c12495c fs/ntfs3: Add rough attr alloc_size che
 568f1140b9ca92def4ac581846c244294112bd42 fs/ntfs3: Replace fsparam_flag_no -> fsparam_flag
 689ecd06ef8dcd894a41c9787cf9da940bb6f24e fs/ntfs3: Rename ntfs3_setattr into ntfs_setattr
 5363c306787c88d41a41493f81b4308643696f6e perf symbol: Set binary_type of dso when loading
-dc0d0f885aa422f621bc1c2124133eff566b0bc8 NFSD: Mark filecache "down" if init fails
-53e4e17557049d7688ca9dadeae80864d40cf0b7 nfsd: nfsd_destroy_serv() must call svc_destroy() even if nfsd_startup_net() failed
 bc0dcbc5c2c539f37004f2cce0e6e245b2e50b6c vdpa/octeon_ep: Fix format specifier for pointers in debug messages
 83c334ed521638c8dffe545ddf49d61430680308 virtio_ring: tag event_triggered as racy for KCSAN
 b9efbe2b8f0177fa97bfab290d60858900aa196b virtio_console: fix misc probe bugs
@@ -141,7 +139,6 @@ dda3529d2e84e2ee7b97158c9cdf5e10308f37bc net: pse-pd: Fix enabled status mismatc
 610712298b11b2914be00b35abe9326b5dbb62c8 Bluetooth: btusb: Don't fail external suspend requests
 1dae9f1187189bc09ff6d25ca97ead711f7e26f9 net: Fix an unsafe loop on the list
 9234a2549cb6ac038bec36cc7c084218e9575513 net: phy: bcm84881: Fix some error handling paths
-c88c150a467fcb670a1608e2272beeee3e86df6e nfsd: fix possible badness in FREE_STATEID
 c9d952b9103b600ddafc5d1c0e2f2dbd30f0b805 io_uring/rw: fix cflags posting for single issue multishot read
 f7c9134385331c5ef36252895130aa01a92de907 io_uring/rw: allow pollable non-blocking attempts for !FMODE_NOWAIT
 4cc2718f621a6a57a02581125bb6d914ce74d23b drm/i915/hdcp: fix connector refcounting
@@ -394,4 +391,4 @@ e84c90883d9e4941bafa3520a70f29143518ded9 nfsd: add support for FATTR4_OPEN_ARGUM
 b3f09b9ca927775ba866395fd4047e1498d4e310 nfsd: add support for delegated timestamps
 71595bcb64ac9ba50de4126f57723fc766836091 nfsd: handle delegated timestamps in SETATTR
 
---===============9168931249833197346==--
+--===============9088761681163534025==--
