@@ -1,45 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7027971868420282291=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 14 Oct 2024 14:39:48 -0000
-Message-Id: <172891678866.727383.18124002515056270961@gitolite.kernel.org>
-
---===============7027971868420282291==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 14 Oct 2024 14:43:59 -0000
+Message-Id: <172891703973.730749.16939359190381905294@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-rc
-    old: 6ff57a2ea7c2911f80457a5a3a5b4370756ad475
-    new: dc5006cfcf62bea88076a587344ba5e00e66d1c6
-    log: revlist-6ff57a2ea7c2-dc5006cfcf62.txt
-
---===============7027971868420282291==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ff57a2ea7c2-dc5006cfcf62.txt
-
-5069d7e202f640a36cf213a432296c85113a52f7 RDMA/core: Fix ENODEV error for iWARP test over vlan
-4e1e3dd88a4cedd5ccc1a3fc3d71e03b70a7a791 RDMA/siw: Add sendpage_ok() check to disable MSG_SPLICE_PAGES
-c659b405b82ead335bee6eb33f9691bf718e21e8 RDMA/cxgb4: Fix RDMA_CM_EVENT_UNREACHABLE error for iWARP
-8cddfa535c931b8d8110c73bfed7354a94cbf891 RDMA/irdma: Fix misspelling of "accept*"
-4d784c042d164f10fc809e2338457036cd7c653d RDMA/srpt: Make slab cache names unique
-ac6df53738b465053d38d491fff87bd7d37fdc07 RDMA/bnxt_re: Fix the max CQ WQEs for older adapters
-a9e6e7443922ac0a48243c35d03834c96926bff1 RDMA/bnxt_re: Fix out of bound check
-87b4d8d28f6af8fc62766a8af7a5467b37053dfa RDMA/bnxt_re: Fix incorrect dereference of srq in async event
-98647df0178df215b8239c5c365537283b2852a6 RDMA/bnxt_re: Return more meaningful error
-0ba9294da081ba4a16699cfcfc3836600ec9e403 RDMA/bnxt_re: Fix a possible NULL pointer dereference
-8be3e5b0c96beeefe9d5486b96575d104d3e7d17 RDMA/bnxt_re: Avoid CPU lockups due fifo occupancy check loop
-a5e099e0c464ac3d077339f481981e0d859b8545 RDMA/bnxt_re: Fix an error path in bnxt_re_add_device
-2df411353dacc4b0c911f8c4944f8ffab955391c RDMA/bnxt_re: Change the sequence of updating the CQ toggle value
-7988bdbbb85ac85a847baf09879edcd0f70521dc RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
-dc5006cfcf62bea88076a587344ba5e00e66d1c6 RDMA/bnxt_re: Fix the GID table length
-
---===============7027971868420282291==--
+  - ref: refs/heads/master
+    old: cfbaa54427ba9b8e9e1bf30f5a28a33e90d99d2f
+    new: 035ad74fdd69bc3cc3650d3db113ec2563805104
+    log: |
+         035ad74fdd69bc3cc3650d3db113ec2563805104 bindings: python: import gpiod attributes in external module
+         
