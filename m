@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7934922366597467722=="
+Content-Type: multipart/mixed; boundary="===============2870628976713167023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 14 Oct 2024 18:31:57 -0000
-Message-Id: <172893071799.919442.410677373497221466@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 18:32:21 -0000
+Message-Id: <172893074132.919751.473276790336007479@gitolite.kernel.org>
 
---===============7934922366597467722==
+--===============2870628976713167023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 61124f42dcaa30f58a8b47a2b69ddb80260677c7
+  - ref: refs/heads/edac-misc
+    old: 35e6dbfe1846caeafabb49b7575adb36b0aa2269
     new: 0be9f1af39022beac76771eeac08256076f6b221
-    log: revlist-61124f42dcaa-0be9f1af3902.txt
+    log: revlist-35e6dbfe1846-0be9f1af3902.txt
 
---===============7934922366597467722==
+--===============2870628976713167023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61124f42dcaa-0be9f1af3902.txt
+Content-Disposition: attachment; filename=revlist-35e6dbfe1846-0be9f1af3902.txt
 
 7c0b07b49b2da108438e2504452effe0e6cbb764 NFSD: Avoid using rqstp->rq_vers in nfsd_set_fh_dentry()
 71c61a0077eb11e8bcc4d03e92ebc0c16df46abe NFSD: Short-circuit fh_verify tracepoints for LOCALIO
@@ -1051,4 +1051,4 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 0be9f1af39022beac76771eeac08256076f6b221 EDAC/igen6: Add Intel Panther Lake-H SoCs support
 
---===============7934922366597467722==--
+--===============2870628976713167023==--
