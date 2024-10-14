@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 14 Oct 2024 17:22:38 -0000
-Message-Id: <172892655823.865819.17711212050198524502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 14 Oct 2024 17:42:03 -0000
+Message-Id: <172892772383.880411.7422486724724054807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/pending
-    old: e805272f8c2dee280e2fa1c1a454517df17f1261
-    new: 15f2f07705dcd0ecbe8e009498cda430c7de57f3
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 48966a5a48cd48a499e7c431e09465ce0c092e38
+    new: 1a3d6a9723d4dbdad41dad67b66a64d4a84c5f5c
     log: |
-         a9e1a95d4a7593c35615fd281b599630a877a2a3 wifi: ath10k: avoid NULL pointer error during sdio remove
-         bbafebf01c8f3aefe8173f8f279875f368992725 wifi: ath5k: add PCI ID for SX76X
-         f75e4423b1f3a4cd4115dd78e5d7039962abe5fb wifi: ath5k: add PCI ID for Arcadyan devices
-         15f2f07705dcd0ecbe8e009498cda430c7de57f3 wifi: ath12k: add missing lockdep_assert_wiphy() for ath12k_mac_op_ functions
+         d94d86cee1032bbf429d5bd0914b064e03b56f0e tools/perf/tests: Fix compilation error with strncpy in tests/tool_pmu
+         9ea671d1b2d5962368b94b28507ae65f94c86fb3 tools/perf/tests: Remove duplicate evlist__delete in tests/tool_pmu.c
+         1a3d6a9723d4dbdad41dad67b66a64d4a84c5f5c perf tools: Fix compiler error in util/tool_pmu.c
          
