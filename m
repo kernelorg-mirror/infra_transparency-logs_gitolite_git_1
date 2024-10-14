@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7881567729624390240=="
+Content-Type: multipart/mixed; boundary="===============8886625894179459741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 14 Oct 2024 04:27:04 -0000
-Message-Id: <172888002459.186238.14457162662961458982@gitolite.kernel.org>
+Date: Mon, 14 Oct 2024 04:27:38 -0000
+Message-Id: <172888005813.186595.11974899955013039559@gitolite.kernel.org>
 
---===============7881567729624390240==
+--===============8886625894179459741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 36c254515dc6592c44db77b84908358979dd6b50
-    new: 6485cf5ea253d40d507cd71253c9568c5470cd27
-    log: revlist-36c254515dc6-6485cf5ea253.txt
-  - ref: refs/tags/v6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6801a93b4309318c0a7341338184fcd4ce865936
+  - ref: refs/heads/testing
+    old: 30c657d3f97812054770dacd5d78571dc58966eb
+    new: ab04fcd57e17c05c8e7464f02022d81c6e027333
+    log: revlist-30c657d3f978-ab04fcd57e17.txt
 
---===============7881567729624390240==
+--===============8886625894179459741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36c254515dc6-6485cf5ea253.txt
+Content-Disposition: attachment; filename=revlist-30c657d3f978-ab04fcd57e17.txt
 
 cc4332afb5631b0e9d2ce5699b7f4b7caf743526 rust: device: change the from_raw() function
 d41bff05a61fb539f21e9bf0d39fac77f457434e hid: intel-ish-hid: Fix uninitialized variable 'rv' in ish_fw_xfer_direct_dma
@@ -53,5 +50,17 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 6485cf5ea253d40d507cd71253c9568c5470cd27 Merge tag 'hid-for-linus-2024101301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+8ac2cd2418d5b19189211e90e25082a58b05255f hwmon: (max16065) Reorder include files to alphabetic order
+0ebd945f9d3f8cdd60322c36a2c21394c0315919 hwmon: (max16065) Use bit operations
+bfeee9a19a00c8b960d3a35249b05cf3ec31a371 Merge branch 'hwmon-next' into hwmon-staging
+d0ab8a37c6067d45fa79824fc54b7cf3dfe3606f hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+549dcea7e344f8621ed85cb53c03533b18ab0212 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+8b49fc9f5971808d0f9cc5bff3f39f877ab1609f Merge branch 'hwmon-g762' into hwmon-staging
+6eec3a38eb8e076d39524306b8b1d32f5e62b8da Merge branch 'hwmon-emc2103' into hwmon-staging
+f425d74c8417b937ac533e165af5c523c22ba348 Merge branch 'hwmon-max16065' into hwmon-staging
+404b1cf2543f8603d83bb702816a8a4bcf52af5a mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+c0fa9a6d7b9ca40e649bb3c46d8a24be60575497 resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+fb197cdadc7273abcd9316c713f46ef7fec930d1 Merge branch 'hwmon-staging' into testing
+ab04fcd57e17c05c8e7464f02022d81c6e027333 Merge branch 'fixes-v6.12' into testing
 
---===============7881567729624390240==--
+--===============8886625894179459741==--
