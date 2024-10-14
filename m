@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Mon, 14 Oct 2024 10:59:15 -0000
-Message-Id: <172890355527.541480.576369463196139203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Mon, 14 Oct 2024 11:05:15 -0000
+Message-Id: <172890391524.548064.10898376582646408362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/release/core91
-    old: 0000000000000000000000000000000000000000
-    new: e112ecce3292e829c4464271ac480fe1b7209139
+  - ref: refs/tags/nf-next-24-10-14
+    old: 2280d42a01671e06d3ba630bb797a481b4b2206e
+    new: 0000000000000000000000000000000000000000
