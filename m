@@ -1,29 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 14 Oct 2024 15:05:05 -0000
-Message-Id: <172891830514.749024.10528749180318317519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 14 Oct 2024 15:24:41 -0000
+Message-Id: <172891948110.762923.12265845137280971481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: bc81cc8ea68b531bebddeef817fcbf33cf4f9f7e
-    new: 80f0fe47f3a191637c61b2a6e18f642bb25deb1c
+  - ref: refs/heads/net
+    old: a8057ed23a368abad2e8b8f53438b98170a82ebc
+    new: e6c4047f5122803f2fe4ab9b1ab7038626e51ec1
     log: |
-         3a546a67a4cc251b4ec2ba02d8f7aacf0bfc3148 rtla: use the definition for stdout fd when calling isatty()
-         f88b8871c70f10d692cc2cfa1fb020c281dd7603 tools/rv: Correct the grammatical errors in the comments
-         1c5e11b3ee9c1a583a6630148ed50346e5bbb59b tools/rv: Correct the grammatical errors in the comments
-         ac1987f8f525379a0677f7f23c7a7ef2596a338d rv: Fix a typo
-         cfb1ea216c1656a4112becbc4bf757891933b902 rtla: Fix consistency in getopt_long for timerlat_hist
-         099a84019b64406a83b8d4f9f63235dbc16ed5b8 tools/rtla: drop __NR_sched_getattr
-         0eecee340672c4b512f6f4a8c6add26df05d130c tools/rtla: fix collision with glibc sched_attr/sched_set_attr
-         4eba4723c5254ba8251ecb7094a5078d5c300646 rtla/timerlat: Make timerlat_top_cpu->*_count unsigned long long
-         76b3102148135945b013797fac9b206273f0f777 rtla/timerlat: Make timerlat_hist_cpu->*_count unsigned long long
-         d915a10d22dd47a1e7f8d079016a883b9126b8aa Merge ftrace/for-next
-         80f0fe47f3a191637c61b2a6e18f642bb25deb1c Merge tools/for-next
+         b692bf9a7543af7ad11a59d182a3757578f0ba53 xsk: Get rid of xdp_buff_xsk::xskb_list_node
+         30ec2c1baaead43903ad63ff8e3083949059083c xsk: s/free_list_node/list_node/
+         bea14124bacbe5c9366381e62635eed28ac892ae xsk: Get rid of xdp_buff_xsk::orig_addr
+         6e126872191df946a6fe01b79273119d32d96711 xsk: Carry a copy of xdp_zc_max_segs within xsk_buff_pool
+         1d10b2bed2d4b2003f174da739d8163b7f7957cf xsk: Wrap duplicated code to function
+         e6c4047f5122803f2fe4ab9b1ab7038626e51ec1 xsk: Use xsk_buff_pool directly for cq functions
          
