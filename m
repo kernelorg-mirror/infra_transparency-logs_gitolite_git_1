@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7369357318997618609=="
+Content-Type: multipart/mixed; boundary="===============7158452561096846010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 15 Oct 2024 11:41:14 -0000
-Message-Id: <172899247431.1774299.9535071593889908990@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 11:41:30 -0000
+Message-Id: <172899249096.1774809.7457496773728305332@gitolite.kernel.org>
 
---===============7369357318997618609==
+--===============7158452561096846010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f49d5b760928861fdd3b8d19ae46aa2617b529b1
-    new: 057f664fb794e8d2a32fbbfb22856f05c1ce59c6
-    log: revlist-f49d5b760928-057f664fb794.txt
+  - ref: refs/heads/m68k-queue
+    old: 114471fd98cc317fab9099ff7c3e083a08d61578
+    new: 6ab99220f993fe9cbc80fb1c9eb46d7cf01c6cdb
+    log: revlist-114471fd98cc-6ab99220f993.txt
 
---===============7369357318997618609==
+--===============7158452561096846010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f49d5b760928-057f664fb794.txt
+Content-Disposition: attachment; filename=revlist-114471fd98cc-6ab99220f993.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -350,6 +350,8 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
-057f664fb794e8d2a32fbbfb22856f05c1ce59c6 Merge tag 'v6.12-rc3'
+634556d536247e0a6ca3870a8c53b3f206762ff2 m68k: atari: usb: Add ISP1160 USB host controller support
+c4e1cf7c5a764eb5043051b8685057a61cc4b99b m68k: atari: Update Kconfig.bus help text
+6ab99220f993fe9cbc80fb1c9eb46d7cf01c6cdb m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7369357318997618609==--
+--===============7158452561096846010==--
