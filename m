@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 15 Oct 2024 20:23:27 -0000
-Message-Id: <172902380732.2207510.10446435377759978605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 15 Oct 2024 20:36:31 -0000
+Message-Id: <172902459159.2218288.16569897601793519604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: acme
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 291cf062b932ee7f0050e56f5f022251e39d38a2
-    new: ff14baa7a290bf42e08ee0beebb6be11cc6c2670
-    log: |
-         46180bec048aad85f21d4614affaa2b1271c5fcb perf trace augmented_raw_syscalls: Add extra array index bounds checking to satisfy some BPF verifiers
-         ff14baa7a290bf42e08ee0beebb6be11cc6c2670 perf trace augmented_raw_syscalls: Add more checks to pass the verifier
-         
+  - ref: refs/tags/sched_ext-for-6.12-rc3-fixes
+    old: 0000000000000000000000000000000000000000
+    new: cc3a96a49ec17f7f1aa21ed83f5293b6638dc195
