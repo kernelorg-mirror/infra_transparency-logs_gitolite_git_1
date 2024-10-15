@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 15 Oct 2024 09:29:11 -0000
-Message-Id: <172898455181.1616534.7627324759020570888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 15 Oct 2024 09:36:43 -0000
+Message-Id: <172898500334.1623610.17330412513887314781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/next-rc
+  - ref: refs/heads/next
     old: 0000000000000000000000000000000000000000
-    new: e7da8a1c2b09f2e8766ecc0d4db3bb960df879c5
+    new: b86f7c9fad06b960f3ac5594cb3838a7eaeb1892
