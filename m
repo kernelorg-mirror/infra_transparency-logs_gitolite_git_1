@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Tue, 15 Oct 2024 17:34:09 -0000
-Message-Id: <172901364933.2064557.49128563999210145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 15 Oct 2024 17:34:18 -0000
+Message-Id: <172901365821.2064726.5264128282158478517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 8456529ba7882a95bb661b45015841fa9fbaf9de
-    new: 71bcf39c2b0e8c8503e587e5875109d95a85e6a3
+    old: 3570a80d71ebf7c7ad5147a215c64f006d5326fd
+    new: ba55b9885064aed324ef239bc42733b9a136590c
     log: |
-         972c8bfc846fc6f13262ec7be9db614593e205b1 kernel-configs: add configs for v6.6 kernel
-         71bcf39c2b0e8c8503e587e5875109d95a85e6a3 config.gce: add additional git repository aliases
+         fa9cd815b6ef11b04056a064d4f618d29c5b6675 patches/next: wordsmith debugfs interface removal patches
+         8f77a22c8762d7c99005e8d3f9e1b25d03fa52ea patches/next: rearrange debugfs removal patches in the queue for posting
+         ba55b9885064aed324ef239bc42733b9a136590c patches/next: rebase to latest mm-unstable
          
