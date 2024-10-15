@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 15 Oct 2024 15:43:36 -0000
-Message-Id: <172900701619.1971621.7891247272735769108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 15 Oct 2024 15:49:10 -0000
+Message-Id: <172900735040.1975887.6720039210996035266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: cd87073d904eceacb233b61ee2d58c63121cc642
-    new: a8181ce7a804096bcf45de1eb343edd4e143c9bd
+  - ref: refs/heads/next-fixes
+    old: b2399f21633c3720550c81d65811653d5206114a
+    new: 540df421f71898da5ae347189dd05a496d39ce32
     log: |
-         a8181ce7a804096bcf45de1eb343edd4e143c9bd test/sqwait: test retrieving an SQE post io_uring_sqring_wait()
+         540df421f71898da5ae347189dd05a496d39ce32 Merge branch 'misc-6.12' into next-fixes
          
