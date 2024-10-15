@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607022581882918199=="
+Content-Type: multipart/mixed; boundary="===============7641060185643060301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 15 Oct 2024 16:35:26 -0000
-Message-Id: <172901012663.2016256.14649138397776769866@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 16:35:58 -0000
+Message-Id: <172901015800.2016679.17031384290105193939@gitolite.kernel.org>
 
---===============5607022581882918199==
+--===============7641060185643060301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
-    old: 829df6ff2c3cd9bdd352a1f7bc4f33cc2a53b8bd
-    new: 605f9d67e83bbecaf3aecddd5550163dc6443e56
-    log: revlist-829df6ff2c3c-605f9d67e83b.txt
-  - ref: refs/tags/ath12k-mlo-202410151633
+  - ref: refs/heads/ath12k-mlo-qcn9274
+    old: 7435d14d41d5d479a5e6a8a2cd4efdac9d928823
+    new: b65c3fb0a74d225194a3a613d9381d23d9f6232f
+    log: revlist-7435d14d41d5-b65c3fb0a74d.txt
+  - ref: refs/tags/ath12k-mlo-qcn9274-202410151636
     old: 0000000000000000000000000000000000000000
-    new: 605f9d67e83bbecaf3aecddd5550163dc6443e56
+    new: b65c3fb0a74d225194a3a613d9381d23d9f6232f
 
---===============5607022581882918199==
+--===============7641060185643060301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-829df6ff2c3c-605f9d67e83b.txt
+Content-Disposition: attachment; filename=revlist-7435d14d41d5-b65c3fb0a74d.txt
 
-9ba5dcc722de4390a1d3211b2ee3c864f84f5461 block: Remove unused blk_limits_io_{min,opt}
-65f666c6203600053478ce8e34a1db269a8701c9 lib/sbitmap: define swap_lock as raw_spinlock_t
-fffca269e4f31c3633c6d810833ba1b184407915 spi: airoha: remove read cache in airoha_snand_dirmap_read()
-eb017f4ea13b1a5ad7f4332279f2e4c67b44bdea Input: adp5588-keys - fix check on return code
-36ec807b627b4c0a0a382f0ae48eac7187d14b2b Merge branch 'next' into for-linus
-732b177663e1757950d73e7763fa0de26272439f ACPI: NUMA: initialize all values of acpi_early_node_map to NUMA_NO_NODE
-ad380f6a0a5e82e794b45bb2eaec24ed51a56846 RISC-V: Don't have MAX_PHYSMEM_BITS exceed phys_addr_t
-6d74d178fe6eaf61e384f3be6ba64150bddce8a6 tools: Add riscv barrier implementation
-aa5736dc7aa4d6f0e5e4e4147d9aef42bb82deab tools: Optimize ring buffer for riscv
-eac2ca2d682f94f46b1973bdf5e77d85d77b8e53 io_uring: check if we need to reschedule during overflow flush
-699d53f04829d6b8855ff458f86e4b75ef3e5f0c powerpc/vdso32: Fix use of crtsavres for PPC64
-3af2e2f68cc6baf0a11f662d30b0bf981f77bfea powerpc/pseries/eeh: move pseries_eeh_err_inject() outside CONFIG_DEBUG_FS block
-329ca3eed4a9a161515a8714be6ba182321385c7 spi: atmel-quadspi: Avoid overwriting delay register settings
-732b47db1d6c26985faca1ae5820bcfa10f6335d MAINTAINERS: update email for Joel Granados
-47b9533ccd1a5e9c2e7944686ccf491b27a892f3 Merge patch series "tools: Add barrier implementations for riscv"
-f0c9363db2ddfb07723c00cb153c84c8179e92d4 perf/riscv-sbi: Add platform specific firmware event handling
-b3f835cd7339919561866252a11831ead72e7073 crash: Fix riscv64 crash memory reserve dead loop
-e229897d373a87ee09ec5cc4ecd4bb2f895fc16b ntb: intel: Fix the NULL vs IS_ERR() bug for debugfs_create_dir()
-1501ae7479c8d0f66efdbfdc9ae8d6136cefbd37 ntb_perf: Fix printk format
-35c87cb80d65859342611cbb7bd501d490452120 ntb: Constify struct bus_type
-f407048235a3ac626078139b0c5cf313b946eba2 NTB: ntb_transport: fix all kernel-doc warnings
-b669fafd51b454f45fde5b0c6ba228ffa19e859d NTB: epf: don't misuse kernel-doc marker
-87a7d7150589f68cd7938b208310c93d1e4c3773 ntb: idt: Fix the cacography in ntb_hw_idt.c
-e51aded92d42784313ba16c12f4f88cc4f973bbb ntb: ntb_hw_switchtec: Fix use after free vulnerability in switchtec_ntb_remove due to race condition
-061a785a114f159e990ea8ed8d1b7dca4b41120f ntb: Force physically contiguous allocation of rx ring buffers
-652bfcb76fe689f4d85b6f3688025a87fb94f9a1 KEYS: Remove unused declarations
-bf36793fa260cb68cc817f311f1f683788261796 ALSA: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-70fd1966c93bf3bfe3fe6d753eb3d83a76597eef KEYS: prevent NULL pointer dereference in find_asymmetric_key()
-300e6d4116f956b035281ec94297dc4dc8d4e1d3 sign-file,extract-cert: move common SSL helper functions to a header
-467d60eddf55588add232feda325da7215ddaf30 sign-file,extract-cert: avoid using deprecated ERR_get_error_line()
-558bdc45dfb2669e1741384a0c80be9c82fa052c sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3
-73598a0cfb21fb21928e638f7f21be6021ac2a16 nfsd: don't allocate the versions array.
-16ef80eedcd34799db69990e13f69b812d2690f1 sunrpc: document locking rules for svc_exit_thread()
-60749cbe3d8ae572a6c7dda675de3e8b25797a18 sunrpc: change sp_nrthreads from atomic_t to unsigned int.
-9dcbc4e07087f750010c32b1c56fe1af8792a0ca sunrpc: don't take ->sv_lock when updating ->sv_nrthreads.
-59f3b138160d37435b353e95c62d9ebf7f80b117 sunrpc: merge svc_rqst_alloc() into svc_prepare_thread()
-3391fc92db8e761f1a2df5612fcb999dac6bc00a sunrpc: allow svc threads to fail initialisation cleanly
 11673b2a917d2351d8e29d4788a129c973852215 nfsd: don't assume copy notify when preprocessing the stateid
 c55aeef7766cdc52847d03dd1326859c55811a52 nfsd: Don't pass all of rqst into rqst_exp_find()
 9fd45c16f3e3b95b458e049c77f4d7dfef673a52 nfsd: Pass 'cred' instead of 'rqstp' to some functions.
@@ -1053,5 +1016,42 @@ c255aff727397260561115ced3a3b7264acd9357 wifi: ath12k: handle ath12k_mac_op_ampd
 ea062c9d3540e087756e3822e63abb6cda82d8b5 wifi: ath12k: fix potential leak of rx stats memory
 f69b6105b74cbfbb4095ea9cab873a97fb6d3213 wifi: ath12k: do not return invalid link id for scan link
 605f9d67e83bbecaf3aecddd5550163dc6443e56 wifi: ath12k: convert struct ath12k::wmi_mgmt_tx_work to struct wiphy_work
+95c01e649312851cfde2bd09af6b3da77b23531d wifi: ath12k: Add common log support
+14bac6f5a9e075b8ae31fd231de09f9aebfb6d07 wifi: ath12k: Refactor core start api
+7608559ec4cf5b58270e11f86e8b098e0483e00e wifi: ath12k: Add helpers to get or set ath12k_hw
+1f5c0613ada64be13c61d0153cc31db84babec6e wifi: ath12k: Add ath12k_get_num_hw api
+ec7516b7305f5a1d42600c5eec6f38a8ba4376fd wifi: ath12k: Introduce QMI firmware ready flag
+0be4a6db209a487b1171736ec5b228576abd2ead wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
+46e1904ed9000f25237dc90b28ebb95da25788a5 wifi: ath12k: rename mlo_capable_flags to single_chip_mlo_supp
+9b9fa827fd6a17a4c01b8be6931874e5acff0ecf wifi: ath12k: Introduce device group abstraction
+8b0573e706d284d33770d4d91da6abe32b854b21 wifi: ath12k: refactor core start based on hardware group
+4d50c2ea2941359bb30ac3befc4576109fa32376 wifi: ath12k: move ath12k_hw from per device to group
+6f1eedb351fe9e2dba1d39440e3369b38c38d532 wifi: ath12k: Send QMI host capability after device group is ready
+aebc949551d919f536d067e5c33cff727920bb1d wifi: ath12k: Introduce mlo_capable flag for device group
+8e36d7be44210dbe9b7864442e79feef18708504 wifi: ath12k: parse multiple device information from device tree
+c3912aeae52ff0296c12293584fba49faf8b6bb9 wifi: ath12k: Send partner device details in QMI MLO capability
+b44c1e32759cea9126f4ad631db413a40b549e7b wifi: ath12k: Refactor ath12k_qmi_alloc_target_mem_chunk function
+35c732977ff2207287d8cfc58044ad51df03ca6b wifi: ath12k: Add support to allocate MLO global memory region
+0c5d594c855ba0d377ce74216cb983608d731dd5 wifi: ath12k: Add MLO WMI setup and teardown helper APIs
+64b45d3b35457b1b18ce98a0d0dd385b6f291f52 wifi: ath12k: Add MLO setup and teardown from core start
+e7e750dcc16cf8aa6f5a7cea3a0a53841406a08a wifi: ath12k: avoid redundant code in DP Rx error process
+1e314e3977bbea830054c2f315ff9ddba39474d8 wifi: ath12k: Move to hw link id based Rx process
+176d97d0b3895d007af641ebe1f6d11ad6071c21 wifi: ath12k: Add partner device buffer support in data path Rx process
+bf21061572dbf0b128914edcbf257d0a4d98171c wifi: ath12k: Add helper function to init partner cmem configuration
+ba6b743bae666f4f0828f9f744a0e052290f2ff0 wifi: ath12k: Introduce iface combination cleanup helper
+80e9a123fb3898a8a5d8106c8db2377bb5e41036 wifi: ath12k: Refactor radio freq low and high information
+4847a2f54b66aa87f1865e57bc6de39183215bc3 wifi: ath12k: Advertise multi device iface combination
+fd51ca1d7d632953a4d9965c018e439453f8d8e7 wifi: ath12k: fix ath12k_qmi_alloc_chunk()
+1a21a892ba889302118baf7048e9889b25e58f16 wifi: ath12k: fix ar->supports_6ghz usage during hw register
+04fd1a0c5ed6291cfe4cdec004c711d972e83a8d wifi: ath12k: pass link ID during MLO while delivering skb
+f179182d6a00d382086669f6c1f84d7e6723c981 wifi: ath12k: handle ath12k_bss_assoc for MLO
+ff5120d9f3aeb5998d13ce62ef6f9f5e537fa136 wifi: ath12k: symmetrize scan vdev creation and deletion during HW scan
+8fae15333dab9b47a62ea9a29ef3ffd65af3d4c6 wifi: ath12k: add can_activate_links mac ops
+0e4fc9b31c9044c172e0d7573e5cd0b1c854dd1f wifi: ath12k: add no-op without debug print in WMI Rx event
+d0a045236d09bf2cc7aff57b9a93cab8fa6d5a73 wifi: ath12k: remove warning print in htt mlo offset event message
+5f0c36d12e2d6d45e2e8cccee885736369e922e5 wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
+054571ea6a795a7395a826e73184b00cf7547766 wifi: mac80211: fix assigning channel in activate links
+e0e7fea07ad7b2ec8ad317cf78926da7658589e7 wifi: cfg80211: check radio iface combination for multi radio per wiphy
+b65c3fb0a74d225194a3a613d9381d23d9f6232f wifi: ath12k: advertise MLO support and capabilities
 
---===============5607022581882918199==--
+--===============7641060185643060301==--
