@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 15 Oct 2024 06:25:23 -0000
-Message-Id: <172897352333.1476228.410811339839568013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 15 Oct 2024 06:26:38 -0000
+Message-Id: <172897359820.1476762.7086273813328039435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-linus
-    old: 1e9c708dc3ae7226d5f9461540e3d583736af5f1
-    new: 71dce222d5865ccb19b231a84d26ca316a65e255
-    log: |
-         9d94c58316bc1c40c21d284dfbe9358b223eadd1 ALSA/hda: intel-sdw-acpi: cleanup sdw_intel_scan_controller
-         5b1b5631d8b68a5d7d4ef2c489377696596e89a1 ALSA/hda: intel-sdw-acpi: fetch fwnode once in sdw_intel_scan_controller()
-         8782ba96851c137388fd2af1cca5d5d537788aad ALSA/hda: intel-sdw-acpi: simplify sdw-master-count property read
-         71dce222d5865ccb19b231a84d26ca316a65e255 ALSA/hda: intel-sdw-acpi: add support for sdw-manager-list property read
-         
   - ref: refs/heads/master
-    old: 4fed931be48b139585a443282213b175227cb3bf
-    new: ba7af55b74713e09735f40d53b5536c9168391b6
+    old: 3f0ab59e6537c6a8f9e1b355b48f9c05a76e8563
+    new: 6889cd2a93e1e3606b3f6e958aa0924e836de4d2
     log: |
-         9d94c58316bc1c40c21d284dfbe9358b223eadd1 ALSA/hda: intel-sdw-acpi: cleanup sdw_intel_scan_controller
-         5b1b5631d8b68a5d7d4ef2c489377696596e89a1 ALSA/hda: intel-sdw-acpi: fetch fwnode once in sdw_intel_scan_controller()
-         8782ba96851c137388fd2af1cca5d5d537788aad ALSA/hda: intel-sdw-acpi: simplify sdw-master-count property read
-         71dce222d5865ccb19b231a84d26ca316a65e255 ALSA/hda: intel-sdw-acpi: add support for sdw-manager-list property read
-         ba7af55b74713e09735f40d53b5536c9168391b6 Merge branch 'for-linus'
+         6889cd2a93e1e3606b3f6e958aa0924e836de4d2 xfrm: fix one more kernel-infoleak in algo dumping
          
