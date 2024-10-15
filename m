@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 15 Oct 2024 09:10:50 -0000
-Message-Id: <172898345057.1603025.5700235599490767880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Oct 2024 09:16:54 -0000
+Message-Id: <172898381474.1607512.4961572181915143123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: b33cf4f25b22aff9c86c6f2dfb72d1c5ee285e7b
-    new: 04a6116a36dfb86c80c930aaa03c66c2deb8e434
+  - ref: refs/heads/main
+    old: 60b4d49b9621db4b000c9065dd6457c9a0eda80b
+    new: 9c5ad7bf8aff6b05fe875722f3bd4a1e9dcccea3
     log: |
-         04a6116a36dfb86c80c930aaa03c66c2deb8e434 platform/chrome: Update EC feature flags
+         09277e4fc9a62992839bf59684ef86910e1f4557 dt-bindings: net: tja11xx: add "nxp,rmii-refclk-out" property
+         6d8d89873ae075bf73f17af2bad109da90fd017f net: phy: c45-tja11xx: add support for outputting RMII reference clock
+         9c5ad7bf8aff6b05fe875722f3bd4a1e9dcccea3 Merge branch 'make-phy-output-rmii-reference-clock'
          
