@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 15 Oct 2024 04:47:01 -0000
-Message-Id: <172896762119.1402402.6140119838171799663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
+Date: Tue, 15 Oct 2024 05:30:37 -0000
+Message-Id: <172897023700.1435304.15887877223133946648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/sj/hackermail
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 84c47e2b7c5fdcc26eab56f56ce1fdabd916a659
-    new: b1e0b1ca25a74bfc867bc8022992c2b09df9f098
+    old: 5ca61d5be8e4b54e39cec20a6208444a11ffcdfb
+    new: 87baba4164427d87530fc48a0d247f2dfc247aab
     log: |
-         b1e0b1ca25a74bfc867bc8022992c2b09df9f098 foo
+         87baba4164427d87530fc48a0d247f2dfc247aab hkml_view: Support Python not having curses.A_ITALIC
          
