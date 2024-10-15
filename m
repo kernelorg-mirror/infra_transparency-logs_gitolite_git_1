@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 15 Oct 2024 08:08:19 -0000
-Message-Id: <172897969928.1554599.14653910943809724804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Tue, 15 Oct 2024 08:58:41 -0000
+Message-Id: <172898272158.1592125.4532597423994058240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/lee/leds
+user: lee
 changes:
-  - ref: refs/heads/for-next
-    old: 161e95b899a624b877c13a83e4cc720aa56514b4
-    new: bb94f56b9cfa4a946a43492b2a13ecb5b9b571bc
+  - ref: refs/heads/for-leds-next
+    old: 0791e9106c22c6909124c8199b783b60ea0933b0
+    new: c161656b48ee22e51804d26fcc11bbcd2486d697
     log: |
-         bb94f56b9cfa4a946a43492b2a13ecb5b9b571bc fbdev: da8xx: remove the driver
+         6bdc6d4a374fa5a4fbed7d913f0c6d11d08bb867 leds: Switch back to struct platform_driver::remove()
+         c161656b48ee22e51804d26fcc11bbcd2486d697 dt-bindings: leds: Add 'active-high' property
          
