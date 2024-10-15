@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 15 Oct 2024 17:46:59 -0000
-Message-Id: <172901441997.2076026.12960718402892333777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 15 Oct 2024 17:50:25 -0000
+Message-Id: <172901462550.2079566.6820612730420745657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: e79bba6b4af86216072b56382198da645a0906f4
-    new: 88c11d28d891236df51229ff017dce26e8c5a479
+  - ref: refs/heads/rproc-next
+    old: 8a8622b7c20658bf24b4d48dc53aaa893c37f482
+    new: f5964cecd91fad55e732ded94bb7b9168ee0c294
     log: |
-         8fa87bf4aa4e0f38426fb233e3dc5b22f8b3bb1d shared: tweak addu64_overflow() #if/else chain
-         b9019723bdfdfa8f34a4a2fe29ea5f2e72f91cde shared: s/addu64_overflow/uadd64_overflow/g
-         8808f0eeaaafee0e0e9e59671829c7fec55108a8 shared: introduce uadd32_overflow() helper
-         7eba0cd2cb79d27d93917d85300c27da23c3f54e shared: introduce umul{32,64}_overflow() helpers
-         88c11d28d891236df51229ff017dce26e8c5a479 Introduce and use u{add,mul}sz_overflow() helpers
+         fe03acd4b165340d3ffe31d98b137c6f840a9bcf remoteproc: da8xx: Handle deferred probe
+         e1433706f3dea1adec9dcc91279fcbda9079bfb6 remoteproc: da8xx: Simplify with dev_err_probe()
+         fa9f7efe9ea9f6cb226fce315f241dd0ff670c92 remoteproc: ti_k3_r5: Simplify with dev_err_probe()
+         f5964cecd91fad55e732ded94bb7b9168ee0c294 remoteproc: ti_k3_r5: Simplify with scoped for each OF child loop
          
