@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2763044571717988283=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 15 Oct 2024 09:18:04 -0000
-Message-Id: <172898388490.1608208.2165070521367117961@gitolite.kernel.org>
-
---===============2763044571717988283==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Oct 2024 09:29:04 -0000
+Message-Id: <172898454404.1616361.2856660975161619923@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 2976584dd1bc07e028b1cff80541c68fa5e5e01d
-    new: 7fee1d5f11bed527e4ad3e4d96359193ced20a6a
+  - ref: refs/heads/main
+    old: 9c5ad7bf8aff6b05fe875722f3bd4a1e9dcccea3
+    new: 1758af47b98c17da464cb45f476875150955dd48
     log: |
-         9848f721bf1d7ca92892a9e4e2c7215759b94e3f mm, slab: add kerneldocs for common SLAB_ flags
-         7fee1d5f11bed527e4ad3e4d96359193ced20a6a Merge branch 'slab/for-6.13/features' into slab/for-next
+         a274465cc3bef2dfd9c9ea5100848dda0a8641e1 net: phy: support 'active-high' property for PHY LEDs
+         9d55e68b19f222e6334ef4021c5527998f5ab537 net: phy: aquantia: correctly describe LED polarity override
+         eb89c79c1b8f17fc1611540768678e60df89ac42 net: phy: mxl-gpy: correctly describe LED polarity
+         1758af47b98c17da464cb45f476875150955dd48 net: phy: intel-xway: add support for PHY LEDs
          
-
---===============2763044571717988283==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1728983898 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1728983876-2bc5252ceaf713d2493cca34baf41abbc8517481
-
-2976584dd1bc07e028b1cff80541c68fa5e5e01d 7fee1d5f11bed527e4ad3e4d96359193ced20a6a refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcOM1oACgkQu+CwddJF
-iJqEEwf+NyJ90bVP6gqvfDU5XY6b2DFKIVqVxrN7DWDwiAMdOLndmXdBUzhlej7k
-8q7OPrUtTxNRBkevl2WEcj8DgyEnuIkK4zrjcEP/ky4PE7NoJF8yfnkR/S6M+wO+
-zSP8MPgi8rHYj6KK0U90BQ9OxjxPHebjjLuOkLsjLdaTwum9nBWARcV5Zy1qpFwe
-Srl9iARcSP2iQncOauRuhu25Qg3X/9c/Rb/kDAwPcFpy2ZehXoG6TlAnPmMQdV3c
-yxRLw8NGURucyA/YFW36JvsOHlOvRrEdIbXXnZoViU3iHN5bf9Mr/bitq6pIXyBv
-eimiizZ4yAdeQhCNjs01DQThpWW/6A==
-=sr6A
------END PGP SIGNATURE-----
-
---===============2763044571717988283==--
