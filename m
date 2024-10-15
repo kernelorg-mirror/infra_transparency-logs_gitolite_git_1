@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8723523622552961792=="
+Content-Type: multipart/mixed; boundary="===============4808904847695242191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 15 Oct 2024 18:40:24 -0000
-Message-Id: <172901762434.2123669.1988187979910324637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 15 Oct 2024 18:40:29 -0000
+Message-Id: <172901762975.2123817.7442052913025380418@gitolite.kernel.org>
 
---===============8723523622552961792==
+--===============4808904847695242191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
     log: revlist-8cf0b93919e1-8e929cb546ee.txt
 
---===============8723523622552961792==
+--===============4808904847695242191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -351,4 +351,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============8723523622552961792==--
+--===============4808904847695242191==--
