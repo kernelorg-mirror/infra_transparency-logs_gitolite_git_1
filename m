@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Oct 2024 22:13:00 -0000
-Message-Id: <172903038049.2295790.8379456590767324108@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 22:30:25 -0000
+Message-Id: <172903142503.2310121.1714858573381478677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/vdso
-    old: c0fba50a1e672629588c28ed70f01d516c1e1b27
-    new: 6febe0efb2df49105b839d6a3a45ab63d40f315a
+  - ref: refs/heads/timers/core
+    old: bafffd56c608106d11e7aec851f114dcd66b2091
+    new: a849881a9e5426cb4fa00660529bc501718ef85b
     log: |
-         8fd236b00fc1bc40e2f9205d0121a2de5ea506d0 drm: i915: Change fault type to unsigned long
-         efe8419ae78d65e83edc31aad74b605c12e7d60c vdso: Introduce vdso/page.h
-         6febe0efb2df49105b839d6a3a45ab63d40f315a s390: Remove remaining _PAGE_* macros
+         a849881a9e5426cb4fa00660529bc501718ef85b time: Remove '%' from numeric constant in kernel-doc comment
          
