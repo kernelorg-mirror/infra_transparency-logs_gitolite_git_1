@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Oct 2024 23:10:51 -0000
-Message-Id: <172903385199.2342240.15646357360014996251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Tue, 15 Oct 2024 23:20:14 -0000
+Message-Id: <172903441466.2349757.9789488480674121356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/x86/urgent
-    old: ee4d4e8d2c3bec6ee652599ab31991055a72c322
-    new: ffd95846c6ec6cf1f93da411ea10d504036cab42
+  - ref: refs/heads/cpupower
+    old: b6a2dbf88aa793a288f77e0eddb395f79594908f
+    new: b78abc21b263ed412f4ba2e02ef8b94571865fce
     log: |
-         ffd95846c6ec6cf1f93da411ea10d504036cab42 x86/apic: Always explicitly disarm TSC-deadline timer
+         b78abc21b263ed412f4ba2e02ef8b94571865fce cpupower: Add Chinese Simplified translation
          
