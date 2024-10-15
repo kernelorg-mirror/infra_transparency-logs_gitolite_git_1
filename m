@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 15 Oct 2024 18:37:55 -0000
-Message-Id: <172901747519.2120118.11394715567224977309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 15 Oct 2024 18:37:58 -0000
+Message-Id: <172901747839.2120233.1087818450229629746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: 615b94746a54702af923b28bd8a629f4ac0ff0d8
-    new: 89e9ae55dc56f322f1a123224ad9d3e52bcc3b50
+  - ref: refs/heads/master
+    old: ad5ac6e67288e3606704f608cf2c98939392f5b4
+    new: 1104af11eabbd8612cacafbfc5643690569fc849
     log: |
-         89e9ae55dc56f322f1a123224ad9d3e52bcc3b50 IB/hfi1: make clear_all_interrupts static
+         8feccfc21ddccd507daf45c899eefe55f0148190 man/rmmod: document (how) we handle list of modules
+         c13f9d95abb7b097aed92f821b85167f1251779d man: remove erroneous " in BUGS section
+         1104af11eabbd8612cacafbfc5643690569fc849 man/insmod: minor cosmetic changes
          
