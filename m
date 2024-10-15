@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6676890601863556030=="
+Content-Type: multipart/mixed; boundary="===============8181428477970397258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 15 Oct 2024 19:49:09 -0000
-Message-Id: <172902174907.2178678.3879325869013262372@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 19:49:27 -0000
+Message-Id: <172902176783.2179012.441869774628609316@gitolite.kernel.org>
 
---===============6676890601863556030==
+--===============8181428477970397258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 558bdc45dfb2669e1741384a0c80be9c82fa052c
     new: 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2
     log: revlist-558bdc45dfb2-2f87d0916ce0.txt
 
---===============6676890601863556030==
+--===============8181428477970397258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.
 bdc72765122356796aa72f6e99142cdf24254ce5 Merge tag 'bcachefs-2024-10-14' of git://evilpiepirate.org/bcachefs
 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2 Merge tag 'trace-ringbuffer-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============6676890601863556030==--
+--===============8181428477970397258==--
