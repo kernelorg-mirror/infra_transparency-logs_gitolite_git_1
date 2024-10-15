@@ -1,66 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2676120955147683057=="
+Content-Type: multipart/mixed; boundary="===============4686219548872644914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 15 Oct 2024 18:07:24 -0000
-Message-Id: <172901564445.2094103.6413995595466525544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 15 Oct 2024 18:11:07 -0000
+Message-Id: <172901586733.2097749.14252751009752149331@gitolite.kernel.org>
 
---===============2676120955147683057==
+--===============4686219548872644914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/clk-fixes
-    old: ad1081a0da2744141d12e94ff816ac91feb871ca
-    new: 23dbbe8889250bed10cdd8a328d97efd15f808a7
-    log: |
-         a03c246d4ec836ae5827a4a16f6b9e730ec5ee8c clk: samsung: Fix out-of-bound access of of_match_node()
-         23dbbe8889250bed10cdd8a328d97efd15f808a7 Merge tag 'samsung-clk-fixes-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-fixes
-         
-  - ref: refs/heads/clk-next
-    old: 206cf5697410baec0afa5adfd149cc2b94a06e18
-    new: 79d8a06a6f3cee66bfa6f14c54020ecaf8638f79
-    log: |
-         a03c246d4ec836ae5827a4a16f6b9e730ec5ee8c clk: samsung: Fix out-of-bound access of of_match_node()
-         23dbbe8889250bed10cdd8a328d97efd15f808a7 Merge tag 'samsung-clk-fixes-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-fixes
-         79d8a06a6f3cee66bfa6f14c54020ecaf8638f79 Merge branch 'clk-fixes' into clk-next
-         
+  - ref: refs/heads/dma-split-wip
+    old: c6308df7538f75b901277d61d13786ef0b777a8a
+    new: 2af0c682a2dff94b01b708478824a1ac7839d32e
+    log: revlist-c6308df7538f-2af0c682a2df.txt
 
---===============2676120955147683057==
+--===============4686219548872644914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c6308df7538f-2af0c682a2df.txt
 
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1729015663 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1729015642-a35253bdebf25fb8162650baa999a4821ad8f764
+e9830987494bb5f4fd9b092a949b39002d44ad98 mm/hmm: let users to tag specific PFN with DMA mapped bit
+34c04f93e64dc5a0ff01b232c1d9867c94f003a4 mm/hmm: provide callbacks to map/unmap HMM PFNs
+e2f14be4ab7d73a42a719eec321a5de821c1154d RDMA/umem: Preallocate and cache IOVA for UMEM ODP
+b2c87182bd69ba02ee5d5c130235e9a20e58be43 RDMA/umem: Store ODP access mask information in PFN
+99871ce593c6169e53ce5a9aed793895d132f33d RDMA/core: Separate DMA mapping to caching IOVA and page linkage
+28de9fd975374d24931962d52083a76c74651233 RDMA/umem: Separate implicit ODP initialization from explicit ODP
+77f454877caca9f14745ffedc536c391dc82e985 vfio/mlx5: Explicitly use number of pages instead of allocated length
+6d087cdcde76e324dc80b820617e543cdd96f2da vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+432831f1905ce39bf71495f024919d70c95ee4e3 vfio/mlx5: Explicitly store page list
+e3651a9fe774428ac37a51cf4ccb9922581c4842 vfio/mlx5: Convert vfio to use DMA link API
+d09a9454b9504f1642947d5f9ec99938af469f27 blk-mq: add a dma mapping iterator
+24f3eeabc4030fc44413b9f3c4b7f5f73ff12358 blk-mq: add scatterlist-less DMA mapping helpers
+30d83f2461161c51a103dbfe289b6556a5854841 nvme-pci: remove struct nvme_descriptor
+1c5483401ab7477e6d17e65af2b75eec04085c1f nvme-pci: use a better encoding for small prp pool allocations
+2af0c682a2dff94b01b708478824a1ac7839d32e nvme-pci: convert to blk_rq_dma_map
 
-ad1081a0da2744141d12e94ff816ac91feb871ca 23dbbe8889250bed10cdd8a328d97efd15f808a7 refs/heads/clk-fixes
-206cf5697410baec0afa5adfd149cc2b94a06e18 79d8a06a6f3cee66bfa6f14c54020ecaf8638f79 refs/heads/clk-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmcOr28RHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSUKEQ//SygkYnOeMXunFJykXAjpDl+m0khDQPNZ
-ynDDjbImYqml7neh/jkOlft1npdVFpU1LfUOynscHw1wabCkn49aUTXHgRAh1oKV
-5ueRras9aveySNfBJC6weBv3sJIN11mVUkFNhkiETrbjWpP7l5Wi5Q5+knbEgTFS
-q83ajx/3VwR0s+6CtDn7R8aM2wP3IgWoikBVH0nlh5FbLbOtNyzMd7ZFsTg52NDS
-Z05XjiS3gsJpyqvDo7JG6ileqRG1HHEgTA5TtDHWvm/fE60nWAjmwJPqRCPXM38N
-so/w3UNCTUSy0dMM/Q7AyNEhtoCXEZXWmyTG+2T4okJu3NdV2nOWotVLoxWnkp0z
-Mpv0scp+N6YR7cZmkQHkmNAx1fK71CQud0i93xfHGX1rbxnYC3S32l5Fjif4WXtd
-Sy7Bk5trkRoaP5tCyJYaf8baH3oLIb8XVo6O9BZQpuziPOcrR/0ZwXjnJjwqw3PO
-3DT1+tNk25W/kzo5dqFrySNrrAKMg9W/0UcCqwK4bu6izniSDvj3HHIkJ+wZ1v59
-skS3KqQvWz0flu71kssfVRqh2qjGDLJMq0ltH6DkD7hv1YqOq5e/di9Cq1d+0FNs
-i6WD80eJ3H7OW47v6t9M0cnaNGRld4Gi6KDSQWKsg4u+VB534ghQngDlEA5FLqZp
-nLALdYipjh8=
-=Hxk+
------END PGP SIGNATURE-----
-
---===============2676120955147683057==--
+--===============4686219548872644914==--
