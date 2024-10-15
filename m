@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5597580918424129528=="
+Content-Type: multipart/mixed; boundary="===============7661156423054074226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 15 Oct 2024 11:04:23 -0000
-Message-Id: <172899026392.1738499.7714430816333500401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 15 Oct 2024 11:14:55 -0000
+Message-Id: <172899089590.1747459.4567771981830158443@gitolite.kernel.org>
 
---===============5597580918424129528==
+--===============7661156423054074226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 77bfe1b11ea0c0c4b0ce19b742cd1aa82f60e45d
-    new: f6f91d290c8b9da6e671bd15f306ad2d0e635a04
-    log: revlist-77bfe1b11ea0-f6f91d290c8b.txt
+  - ref: refs/heads/master
+    old: 11272a0fbc9457d483a35bb82e77a6326543cf88
+    new: a5212149f95249fad2954f4136d9c999f1b09b10
+    log: |
+         a5212149f95249fad2954f4136d9c999f1b09b10 drop some s390 patches that broke the build
+         
 
---===============5597580918424129528==
+--===============7661156423054074226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77bfe1b11ea0-f6f91d290c8b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0fb823f1cf3417e06846d1ffe2c97e10a65a847e xfs: fix integer overflow in xrep_bmap
-c0adf8c3a9bf33f1dd1bf950601380f46a3fcec3 iomap: factor out a iomap_last_written_block helper
-caf0ea451d97c33c5bbaa0074dad33b0b2a4e649 iomap: remove iomap_file_buffered_write_punch_delalloc
-b78495166264fee1ed7ac44627e1dd080bbdf283 iomap: move locking out of iomap_write_delalloc_release
-3c399374af28b158854701da324a7bff576f5a97 xfs: factor out a xfs_file_write_zero_eof helper
-acfbac776496f2093e9facf7876b4015ef8c3d1d xfs: take XFS_MMAPLOCK_EXCL xfs_file_write_zero_eof
-abd7d651ad2cd2ab1b8cd4dd31e80a8255196db3 xfs: IOMAP_ZERO and IOMAP_UNSHARE already hold invalidate_lock
-8fe3b21efa075f29d64a34000e84f89cfaa6cd80 xfs: support the COW fork in xfs_bmap_punch_delalloc_range
-c29440ff66d6f24be5e9e313c1c0eca7212faf9e xfs: share more code in xfs_buffered_write_iomap_begin
-7d6fe5c586e6a866f9e69a5bdd72a72b977bab8e xfs: set IOMAP_F_SHARED for all COW fork allocations
-f6f91d290c8b9da6e671bd15f306ad2d0e635a04 xfs: punch delalloc extents from the COW fork for COW writes
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1728990912 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1728990890-8fdda65ce6605e4830a95c08d78ab4852ea9a8af
 
---===============5597580918424129528==--
+11272a0fbc9457d483a35bb82e77a6326543cf88 a5212149f95249fad2954f4136d9c999f1b09b10 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcOTsEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eEYP9Ret2ptaejaPV9giHE06
+sLx8g9bvcPvQwum0iRTd1gyRikP6Bn9JZ3dp8qh1voI1UDEsKkDWtilxF/cxWrbk
+4/sIav/Yvxm5237JdIuaIDUYmEi94NOCbuwPBRGRg2NEtvzNZxdRnTTDMT91xOA1
+0IVpbttCCGSr3bWWlD3Xlfj+O6R9V/OznY9eNTINhehkPfwOd+iKmMo4iSlqaUuf
+OEm+iZ40RGc1zZjZRnh5ErBaFnqiQRvhs4nT7WJsqPlaQ9guAY8Tr23zLl41gjXU
+AEiHxPZQ4UA97sfeA1AFAxsltAW/2cvd74pOjq/A7fYpfnfbvaEr7PyjITf9lkci
+9M1vJptMrGv2ILJ88+L0QP9CPTYXt1i4zXkW18GT/nS1M46jaORbLGVSjw4P4NMR
+kgrO4dzaUQHfkLUYelXtiGJ3et+LjKKl0ZuSpBUmiKxYmm/MqAxHy1hs0wE2Ouwt
+s7Z62vYWWamNErKVLcwjXXMFoOUIdv0gonlMp+uW/vb6S77XcQc71aKgJVPyU3T7
+pdogrEADuHCwrfwdmLIU3AVTwJYB60NMKgD94hgl26Cz+U+sF8Yb8d3N5pDjdKNK
+5XYWAzPj+HqAiG1MnVH0fnEaesVE5QmGYXf092nbKIm7cIkjRnPoB5kR6188Q788
+k15mu0CHdgG+uzWm7YZ26+k=
+=fbMy
+-----END PGP SIGNATURE-----
+
+--===============7661156423054074226==--
