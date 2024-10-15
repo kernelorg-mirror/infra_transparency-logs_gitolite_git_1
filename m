@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3375065541703134082=="
+Content-Type: multipart/mixed; boundary="===============5607022581882918199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 15 Oct 2024 16:33:51 -0000
-Message-Id: <172901003159.2013471.6492638838940031982@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 16:35:26 -0000
+Message-Id: <172901012663.2016256.14649138397776769866@gitolite.kernel.org>
 
---===============3375065541703134082==
+--===============5607022581882918199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo-preparation
-    old: 33d69326329ca2646b5d2d9e990b9e536149d789
-    new: c36aa7d96cfe118d7f95b4c49ef8221de9cc5379
-    log: revlist-33d69326329c-c36aa7d96cfe.txt
-  - ref: refs/tags/ath12k-mlo-preparation-202410151634
+  - ref: refs/heads/ath12k-mlo
+    old: 829df6ff2c3cd9bdd352a1f7bc4f33cc2a53b8bd
+    new: 605f9d67e83bbecaf3aecddd5550163dc6443e56
+    log: revlist-829df6ff2c3c-605f9d67e83b.txt
+  - ref: refs/tags/ath12k-mlo-202410151633
     old: 0000000000000000000000000000000000000000
-    new: c36aa7d96cfe118d7f95b4c49ef8221de9cc5379
+    new: 605f9d67e83bbecaf3aecddd5550163dc6443e56
 
---===============3375065541703134082==
+--===============5607022581882918199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33d69326329c-c36aa7d96cfe.txt
+Content-Disposition: attachment; filename=revlist-829df6ff2c3c-605f9d67e83b.txt
 
-37b35d4d2ce228e650b338d5289425264c40f381 Merge branch 'pci/controller/altera'
-b893f8ea38c530c2c8a337c3429f9f37e6bf65e8 Merge branch 'pci/controller/brcmstb'
-da71957c8b8bab6e6c8b2f1c97846066f6a03f1b Merge branch 'pci/controller/cadence'
-5ec58799e8322639ee8686dd73f9668ead2d9e35 Merge branch 'pci/controller/dra7xx'
-f8ca62bff229d5afbbfe275d0931357a9ec04f55 Merge branch 'pci/controller/imx6'
-d1624da381cb1d9c877e631ec07ee10cb3664bbb Merge branch 'pci/controller/j721e'
-e5f8d1c75b29b65e29aed7599130fc709b93c84d Merge branch 'pci/controller/keystone'
-af6491944072755032c4b2f3a96bbced4148e9c9 Merge branch 'pci/controller/kirin'
-97b9d65e77e0381deab63a9004ddb2e1f792af48 Merge branch 'pci/controller/loongson'
-487ce3e500b0549b824deb86b48513ec23f23658 Merge branch 'pci/controller/mediatek'
-1bcf23315491a2e9e29fb6130cfc48bab0a4124e Merge branch 'pci/controller/mediatek-gen3'
-45e981b86df3fa04ac581b8a462be6f32453bf53 Merge branch 'pci/controller/qcom'
-187b811570db7476da902ac68f7c1e163e071db8 Merge branch 'pci/controller/rcar-gen4'
-11e32bbe785854f2d9911c65ee2377e6395a62ff Merge branch 'pci/controller/vmd'
-bb78146c18ac67f22cabb2448b501bcac30f8801 Merge branch 'pci/controller/xilinx'
-ca5c65687e3e0370623e9e5d4e1a2aab8ebe20fd Merge branch 'pci/quirks'
-5dc07a20ac1c6882e191f821f9c75edde958224d Merge branch 'pci/misc'
-81e53c0da8f8b153e049036e5ca5ca20e811c0c8 Merge branch 'pci/tools'
-8a23c9e1ba4642b60420e8caa75859883a509c24 selinux,smack: properly reference the LSM blob in security_watch_key()
-5f5e7344322f0b0676579af054c787ed57d1c1df kbuild: generate offset range data for builtin modules
-ac7bd0945e3db5253bd03bfc40e71afafb08d225 scripts: add verifier script for builtin module range data
-ae70d708c932e7bc08b6c1975e1a010ee0b4e272 kbuild: add install target for modules.builtin.ranges
-327df5bf540e1cde17ae35d5a043ece773c80ff6 kallsyms: squash output_address()
-9a418218dadf913fe78dbe6ad6b2e31e721b84ef kallsyms: change overflow variable to bool type
-a16219bdd34777cce35b9b6a704bfbaad28adb72 scripts: move hash function from scripts/kconfig/ to scripts/include/
-d607e0e7a8d2ea6565f11064d28b0825a95748aa kconfig: change some expr_*() functions to bool
-4fa146eaecaee6301e8f5b104fe63b41afdf83e6 kconfig: add comments to expression transformations
-440f67ccdcd31ca33d8d0439b16e4b6d4d7aba17 kconfig: refactor expr_eliminate_dups()
-f93d6bfbd2f74d79041c153a59df5336f6e9a14a kconfig: use hash table to reuse expressions
-95573cac25c6b11f02d599d18e9a1c778706e838 kconfig: cache expression values
-cc6d281fcc7319babc6dde8f95a8b7feb1eeffd0 kbuild: remove append operation on cmd_ld_ko_o
-baeb9a7d8b60b021d907127509c44507539c15e5 Merge tag 'sched-rt-2024-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-eed138d67d99312f07ed3bc326903b6808885571 io_uring: improve request linking trace
 9ba5dcc722de4390a1d3211b2ee3c864f84f5461 block: Remove unused blk_limits_io_{min,opt}
 65f666c6203600053478ce8e34a1db269a8701c9 lib/sbitmap: define swap_lock as raw_spinlock_t
 fffca269e4f31c3633c6d810833ba1b184407915 spi: airoha: remove read cache in airoha_snand_dirmap_read()
@@ -1053,5 +1020,38 @@ e805272f8c2dee280e2fa1c1a454517df17f1261 wifi: ath12k: ath12k_mac_op_sta_state()
 8a82f7e62b4686be34176373d01c4fe7cd0b8c12 Merge remote-tracking branch 'mhi/mhi-next'
 69eabe24843f238e79a6dbbd2b3fcc8eef39d6b8 Add localversion-wireless-testing-ath
 c36aa7d96cfe118d7f95b4c49ef8221de9cc5379 wifi: ath12k: add missing lockdep_assert_wiphy() for ath12k_mac_op_ functions
+9cd2ffe12ee8168a67cfeb403eaac8bae13adb29 wifi: ath12k: prepare vif data structure for MLO handling
+c4f046994a6265af8682171fd7e4815f217d1154 wifi: ath12k: pass ath12k_link_vif instead of vif/ahvif
+1e2c92f1a8987e11ba6b7e71829060632e04fa35 wifi: ath12k: prepare sta data structure for MLO handling
+79a40a2beede6e8cd527316983ea211a40a327c5 wifi: ath12k: prepare vif config caching for MLO
+d3b9947a188167528090be4392fbe9b963283286 wifi: ath12k: modify ath12k_mac_vif_chan() for MLO
+5470f7fe2c64ec1073c6f8ea4d5a6334a7b95972 wifi: ath12k: modify ath12k_get_arvif_iter() for MLO
+d930edc4a447c64bd205b1f878f7b291802e50b5 wifi: ath12k: modify ath12k_mac_op_bss_info_changed() for MLO
+01a4e74b0f5f3cbceea03cf714ba6fc993f4feda wifi: ath12k: modify ath12k_mac_op_set_key() for MLO
+9b9e039f7473beb72106d3c48652dc738aa6c73b wifi: ath12k: update ath12k_mac_op_conf_tx() for MLO
+94febd47550bf062c88bbe2e5e18da14912ce04a wifi: ath12k: update ath12k_mac_op_update_vif_offload() for MLO
+a952ec4a9f62889d5a22570f2fe5ae57eae7ef36 wifi: ath12k: modify link arvif creation and removal for MLO
+ed3a9583201229937356d9929a23e1115a31e383 wifi: ath12k: MLO vdev bringup changes
+349f0e4126e0c5c961d73956e734def523efd342 wifi: ath12k: Refactor sta state machine
+ffd59e89f9f2b62ec0febf0477aec82ebf9012cb wifi: ath12k: Add helpers for multi link peer creation and deletion
+a58d95c2f7ba687b2aac2e27a449e907a1a5d2f3 wifi: ath12k: add multi-link flag in peer create command
+786f1ce4f5914390154c5c645f74434de6002f6d wifi: ath12k: add helper to find multi-link station
+29ac7a4181304b610b2cccd2eabf5756c75034ee wifi: ath12k: Add MLO peer assoc command support
+39d739bcb991f64be769dd01a45bd3b95d61076a wifi: ath12k: Add MLO station state change handling
+0fce1ce82b95dea71fa4847107af7a1eb218f7b4 wifi: ath12k: Support for ath12k_mac_op_change_sta_links
+d273f1f0ed0c2b155d72b2d4263ad8cee5b3f691 wifi: ath12k: htt: remove value field from struct htt_tlv
+c40e3fe33820298b56734b505dade870b65cbf09 wifi: ath12k: Add support for HTT MLO peer map and unmap event
+488b4fe349c701443b62cd52c2a7c86dbe41c621 wifi: ath12k: add primary link for data path operations
+b4bc16b4ee5d47ae19af14bbb43e01c2f619e4f7 wifi: ath12k: use arsta instead of sta
+ccd52c9aec54ccb8976056120300b1682e8082ab wifi: ath12k: add reo queue lookup table for ML Peers
+ab31c90252c501fc8c6761a708a8dde3b7776ead wifi: ath12k: modify chanctx iterators for MLO
+5640a602c542a5c9cd26453ec304d2dffff312c4 wifi: ath12k: Use mac80211 vif's link conf instead of bss_conf
+ac97ff02d7c348365a703048b607f32b1ff4798b wifi: ath12k: Use mac80211 sta's link_sta instead of deflink
+9aa2a3eabfcfed029130edaa2335a4c42ea4c3f8 wifi: ath12k: handle mac_op_tx and perform address translation for MLO
+fd026595e855498c41dc9b4059ece68f4ab7d3b1 wifi: ath12k: handle mac_op_flush for MLO
+c255aff727397260561115ced3a3b7264acd9357 wifi: ath12k: handle ath12k_mac_op_ampdu_action for MLO
+ea062c9d3540e087756e3822e63abb6cda82d8b5 wifi: ath12k: fix potential leak of rx stats memory
+f69b6105b74cbfbb4095ea9cab873a97fb6d3213 wifi: ath12k: do not return invalid link id for scan link
+605f9d67e83bbecaf3aecddd5550163dc6443e56 wifi: ath12k: convert struct ath12k::wmi_mgmt_tx_work to struct wiphy_work
 
---===============3375065541703134082==--
+--===============5607022581882918199==--
