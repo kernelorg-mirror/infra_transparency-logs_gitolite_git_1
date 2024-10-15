@@ -1,44 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8848825377180501882=="
+Content-Type: multipart/mixed; boundary="===============8308636821361906631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 15 Oct 2024 18:33:06 -0000
-Message-Id: <172901718603.2115793.14326161061699607982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 15 Oct 2024 18:36:18 -0000
+Message-Id: <172901737881.2119277.16913239697727614861@gitolite.kernel.org>
 
---===============8848825377180501882==
+--===============8308636821361906631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 77b679453d3364688ff3e5153c0be5b2b52672b7
-    new: 68db61e02e5353d080645472cb2633af46a71187
-    log: revlist-77b679453d33-68db61e02e53.txt
+  - ref: refs/heads/wip/leon-for-rc
+    old: 5069d7e202f640a36cf213a432296c85113a52f7
+    new: dc5006cfcf62bea88076a587344ba5e00e66d1c6
+    log: revlist-5069d7e202f6-dc5006cfcf62.txt
 
---===============8848825377180501882==
+--===============8308636821361906631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77b679453d33-68db61e02e53.txt
+Content-Disposition: attachment; filename=revlist-5069d7e202f6-dc5006cfcf62.txt
 
-04042674b21a8dfa143abacf7b1ef5b25a58d86e perf tools: Fix possible compiler warnings in hashmap
-af3902bfc1b60941681a0db9db95d8fe3d5c785d perf tools: Remove unnecessary parentheses
-cd912ab3b65445df7b95bbdd06ac29f823d4df98 perf sched timehist: Add pre-migration wait time option
-1afe05b0cf183035a77fdda1bc633aa5fb9daa43 perf evsel: Fix missing inherit + sample read check
-0c383c0827ec73c0c349a2f1eef3e7b9c189fc52 perf test: Delete unused Intel CQM test
-fb98fa3bf86893e53fac7bc951f503caf4a6eb23 perf arm-spe: Rename arm_spe__synth_data_source_generic()
-50b8f1d5bf4ad7f09ef8012ccf5f94f741df827b perf arm-spe: Rename the common data source encoding
-56ae663e7636f2ce180201f0f18d7736c319a43f perf arm-spe: Introduce arm_spe__is_homogeneous()
-ba5e7169e5483a61899497e23fa18f7ef33aa827 perf arm-spe: Use metadata to decide the data source feature
-6bcf54c89b3d8406433839f0e3b72c08b4a1caf3 perf arm-spe: Remove the unused 'midr' field
-041c0e5715a65a1b653283b853b4ca973780607a perf arm-spe: Add Neoverse-V2 to common data source encoding list
-ea2ead4224fd3899f6dadd4c1fc526f32ec2246c perf arm-spe: Add Cortex CPUs to common data source encoding list
-bf00785d24e74015879635f112dff21c478edfe5 perf trace: Rewrite BPF code to pass the verifier
-68db61e02e5353d080645472cb2633af46a71187 perf build: Change the minimal clang version back to 12.0.1
+4e1e3dd88a4cedd5ccc1a3fc3d71e03b70a7a791 RDMA/siw: Add sendpage_ok() check to disable MSG_SPLICE_PAGES
+c659b405b82ead335bee6eb33f9691bf718e21e8 RDMA/cxgb4: Fix RDMA_CM_EVENT_UNREACHABLE error for iWARP
+8cddfa535c931b8d8110c73bfed7354a94cbf891 RDMA/irdma: Fix misspelling of "accept*"
+4d784c042d164f10fc809e2338457036cd7c653d RDMA/srpt: Make slab cache names unique
+ac6df53738b465053d38d491fff87bd7d37fdc07 RDMA/bnxt_re: Fix the max CQ WQEs for older adapters
+a9e6e7443922ac0a48243c35d03834c96926bff1 RDMA/bnxt_re: Fix out of bound check
+87b4d8d28f6af8fc62766a8af7a5467b37053dfa RDMA/bnxt_re: Fix incorrect dereference of srq in async event
+98647df0178df215b8239c5c365537283b2852a6 RDMA/bnxt_re: Return more meaningful error
+0ba9294da081ba4a16699cfcfc3836600ec9e403 RDMA/bnxt_re: Fix a possible NULL pointer dereference
+8be3e5b0c96beeefe9d5486b96575d104d3e7d17 RDMA/bnxt_re: Avoid CPU lockups due fifo occupancy check loop
+a5e099e0c464ac3d077339f481981e0d859b8545 RDMA/bnxt_re: Fix an error path in bnxt_re_add_device
+2df411353dacc4b0c911f8c4944f8ffab955391c RDMA/bnxt_re: Change the sequence of updating the CQ toggle value
+7988bdbbb85ac85a847baf09879edcd0f70521dc RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
+dc5006cfcf62bea88076a587344ba5e00e66d1c6 RDMA/bnxt_re: Fix the GID table length
 
---===============8848825377180501882==--
+--===============8308636821361906631==--
