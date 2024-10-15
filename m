@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 14 Oct 2024 23:48:43 -0000
-Message-Id: <172894972301.1166017.13525711722203128533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 15 Oct 2024 00:15:05 -0000
+Message-Id: <172895130538.1187272.14693889640593924463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/pending
-    old: 15f2f07705dcd0ecbe8e009498cda430c7de57f3
-    new: e29742cc031c35c37d505b191c662d3e763c5c1f
+  - ref: refs/heads/master
+    old: 486108c06719d9038bcac3c0674240c523ae8499
+    new: 61cdd7b7d562d12ec9f218c14276e00ba5c2df73
     log: |
-         18d1e9474061c179a685d6775d44f52bb49784fb wifi: ath12k: Add firmware coredump collection support
-         fc3f3f650680dc648a952bc1958b6ac8d34cc26b wifi: ath12k: Support DMAC Reset Stats
-         20cc07124a59788da617cf31a6e4b76698395870 wifi: ath12k: Support Pdev Scheduled Algorithm Stats
-         e29742cc031c35c37d505b191c662d3e763c5c1f wifi: ath12k: Support BE OFDMA Pdev Rate Stats
+         342fe7f533c78ee9710404c61361111bad83b62d foo
+         61cdd7b7d562d12ec9f218c14276e00ba5c2df73 foo
          
