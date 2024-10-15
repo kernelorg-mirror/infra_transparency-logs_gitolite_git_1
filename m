@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 15 Oct 2024 12:52:48 -0000
-Message-Id: <172899676884.1831333.292223185816167802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 15 Oct 2024 12:54:28 -0000
+Message-Id: <172899686871.1832374.6507229174280933138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/arm64-crc32-pmull
+  - ref: refs/heads/gpio-no-irq
     old: 0000000000000000000000000000000000000000
-    new: 26422f5486414568b84ef741ca0052534caf408c
+    new: 1e7f70bc6459f6bf191e0688be9bc3121d7ef047
