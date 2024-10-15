@@ -1,44 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7969017133719806092=="
+Content-Type: multipart/mixed; boundary="===============8284183105146456353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Oct 2024 01:06:57 -0000
-Message-Id: <172895441714.1232273.9636476903702727356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Tue, 15 Oct 2024 01:24:07 -0000
+Message-Id: <172895544720.1244720.164137167847040525@gitolite.kernel.org>
 
---===============7969017133719806092==
+--===============8284183105146456353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/main
-    old: ff1585e971392e70ba47433413ad28d7417debb8
-    new: 60b4d49b9621db4b000c9065dd6457c9a0eda80b
-    log: revlist-ff1585e97139-60b4d49b9621.txt
+  - ref: refs/heads/topic/fprobe-on-fgraph
+    old: c55b4180611df757cf1e928b337d48730d5afb2e
+    new: 495af23df8f45fa96bb56ed2845941a8125b2fff
+    log: revlist-c55b4180611d-495af23df8f4.txt
 
---===============7969017133719806092==
+--===============8284183105146456353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1585e97139-60b4d49b9621.txt
+Content-Disposition: attachment; filename=revlist-c55b4180611d-495af23df8f4.txt
 
-f15e3b3ddb9fab1c1731b6154e2cd6573fb54c4d net: napi: Make napi_defer_hard_irqs per-NAPI
-516010460011ae74ac3b7383cf90ed27e2711cd6 netdev-genl: Dump napi_defer_hard_irqs
-acb8d4ed5661d05f794ef2ce34fd11e699e9ca32 net: napi: Make gro_flush_timeout per-NAPI
-0137891e74576f77a7901718dc0ce08ca074ae74 netdev-genl: Dump gro_flush_timeout
-86e25f40aa1e9e54e081e55016f65b5c92523989 net: napi: Add napi_config
-1287c1ae0fc227e5acef11a539eb4e75646e31c7 netdev-genl: Support setting per-NAPI config values
-41936522749654e64531121bbd6a95bab5d56d76 bnxt: Add support for persistent NAPI config
-2a3372cafe02ff3510f3dd96ce280214a167c109 mlx5: Add support for persistent NAPI config
-c9191eaa728510dab391d384359b8dbf14c25c9e mlx4: Add support for persistent NAPI config to RX CQs
-5bedbfc16552b2284863c7e06bc0846554743152 Merge branch 'add-support-for-per-napi-config-via-netlink'
-9de722c144d2ee67fb227fc527effbe77cf3ce30 net: mvneta: use ethtool_puts
-2a22bead433e2f6b4340bbd5c8e992fbb17cbb52 net: mtk_eth_soc: use ethtool_puts
-0cb06dc6c42b1b2940e01f207ddf980f2d637545 selftests: net: rebuild YNL if dependencies changed
-60b4d49b9621db4b000c9065dd6457c9a0eda80b selftests: net: move EXTRA_CLEAN of libynl.a into ynl.mk
+ac01068fc07f232d94fea7989c95dac39e00e4ef tracing: Use arch_ftrace_regs() for ftrace_regs_*() macros
+8a92882859b7b5423f5972e8feaf3f306745afc8 tracing: Rename ftrace_regs_return_value to ftrace_regs_get_return_value
+4c1d7aab5fb2f07839adc31c0037b52d1e53036e function_graph: Pass ftrace_regs to entryfunc
+f9f9cb56653c80e77d88a8269f6df90e456e5a7d function_graph: Replace fgraph_ret_regs with ftrace_regs
+0389f09b63f8e12144edc07c7cce8de5be132ded function_graph: Pass ftrace_regs to retfunc
+cf67d1d95e1f1d45addfb28134516bbaa52bd0f6 fprobe: Use ftrace_regs in fprobe entry handler
+34a01e4da309abcb39001b9f6a5115286a74c5cb fprobe: Use ftrace_regs in fprobe exit handler
+b92cd1e5e53d66e301989c5729114196a42e9c6f tracing: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
+f80360e8cc158f7f637a01c4cc3e252cf2a2bb7c tracing: Add ftrace_fill_perf_regs() for perf event
+d384904ea03fca21070936b2dda0cdeef054634e tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
+48651c3a774d4e97870a203d428c10bd25ec86c1 bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
+4ef167ad24cc64a79c6ed215fe358d0ec37f811b ftrace: Add CONFIG_HAVE_FTRACE_GRAPH_FUNC
+62e17bd6235d7c5f320cf2558e6392b1b9aa30f1 fprobe: Rewrite fprobe on function-graph tracer
+d3372e31336510ea5a87c6eb607728be787507e0 tracing/fprobe: Remove nr_maxactive from fprobe
+0533c76339c0013f9e54ec08df9a7e75bdaa6c88 selftests: ftrace: Remove obsolate maxactive syntax check
+c566e340b6ced3ed0a9b46d757807a58133ea515 selftests/ftrace: Add a test case for repeating register/unregister fprobe
+4b1be48808e604a58b3848f1f7b1a824799ae8f7 Documentation: probes: Update fprobe on function-graph tracer
+495af23df8f45fa96bb56ed2845941a8125b2fff bpf: Add get_entry_ip() for arm64
 
---===============7969017133719806092==--
+--===============8284183105146456353==--
