@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 15 Oct 2024 15:49:10 -0000
-Message-Id: <172900735040.1975887.6720039210996035266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 15 Oct 2024 15:49:41 -0000
+Message-Id: <172900738172.1976708.16218081098122898659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next-fixes
-    old: b2399f21633c3720550c81d65811653d5206114a
-    new: 540df421f71898da5ae347189dd05a496d39ce32
+  - ref: refs/heads/io_uring-6.12
+    old: f7c9134385331c5ef36252895130aa01a92de907
+    new: 28aabffae6be54284869a91cd8bccd3720041129
     log: |
-         540df421f71898da5ae347189dd05a496d39ce32 Merge branch 'misc-6.12' into next-fixes
+         28aabffae6be54284869a91cd8bccd3720041129 io_uring/sqpoll: close race on waiting for sqring entries
          
