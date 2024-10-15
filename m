@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2503229119570236189=="
+Content-Type: multipart/mixed; boundary="===============3591623893511080612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Oct 2024 23:35:12 -0000
-Message-Id: <172903531249.2361763.16563596487554851359@gitolite.kernel.org>
+Date: Tue, 15 Oct 2024 23:36:00 -0000
+Message-Id: <172903536060.2362446.15397660856654315702@gitolite.kernel.org>
 
---===============2503229119570236189==
+--===============3591623893511080612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: addac81a286c31688291d8b78af6f8a71d676b63
-    new: f5a094620f393ba50263f94bb6e447b3f5a7f4c2
-    log: revlist-addac81a286c-f5a094620f39.txt
+  - ref: refs/heads/1GbE
+    old: 01b6b9315f15f199a206c8b3bd3e051584237d7e
+    new: 6d858708d465669ba7de17e9c5691eb4019166e8
+    log: revlist-01b6b9315f15-6d858708d465.txt
 
---===============2503229119570236189==
+--===============3591623893511080612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-addac81a286c-f5a094620f39.txt
+Content-Disposition: attachment; filename=revlist-01b6b9315f15-6d858708d465.txt
 
 83752e12896a72b24845c94f000e4c51b2bc5b50 selftests/bpf: Add mptcp subflow example
 cd19b885106e0a24c28ef72fccc4c020782e6e7e selftests/bpf: Add getsockopt to inspect mptcp subflow
@@ -108,50 +108,5 @@ b1a39cd855bae5d9f43a04746f69564170892482 Merge branch 'net-string-format-safety-
 020bfdc4ed94be472138c891bde4d14241cf00fd net: fec_mpc52xx_phy: Use %pa to format resource_size_t
 45fe45fada261e1e83fce2a07fa22835aec1cf0a net: ethernet: fs_enet: Use %pa to format resource_size_t
 6d858708d465669ba7de17e9c5691eb4019166e8 Merge branch 'net-ethernet-freescale-use-pa-to-format-resource_size_t'
-fcb730da9571eb583039911eff7d928c213e9b59 ice: block SF port creation in legacy mode
-c1d96e7d559cb686ced7811aad3818a77975af7f ice: fix BST key index in ice_bst_key_init()
-82fd1e842247fb283a87ae3d60043926781dfbff iavf: allow changing VLAN state without calling PF
-1e6bae699be195986cb4d5ead04b203b0da076dd ice: initialize pf->supported_rxdids immediately after loading DDP
-4879bef0b8488c7275ccfe2f1bed9f5eae1afa0c ice: use stack variable for virtchnl_supported_rxdids
-52437008121292d638afcf1acbebd092684e7e37 igb: Disable threaded IRQ for igb_msix_other
-13b7aeb25f2943a5c456631e2803c15b44f46dcb ice: Add E830 checksum offload support
-4e6196b7e12135999083b5ac39e0db96c7a926a5 igbvf: remove unused spinlock
-bef203b4f68c2cf238b502617516ff0edaf21600 ice: Don't check device type when checking GNSS presence
-c97dcfea8b81d63fd7da0dab395eab53c40dec66 ice: Remove unncecessary ice_is_e8xx() functions
-0f83ca4e7f8b43472f8a1146f5c1a356af71cd83 ice: Use FIELD_PREP for timestamp values
-2c8c733e00e6baa1059604d618638021345d9ae4 ice: Process TSYN IRQ in a separate function
-a4ea74430e9e1d8ab644acb2eb6196743da080df ice: Add unified ice_capture_crosststamp
-aa1efc678ccd33299bca9857e29baf3134153f11 ice: Refactor ice_ptp_init_tx_*
-b78ed64ca387bac6f545f9e577c85f526a5d4ec0 ice: Implement PTP support for E830 devices
-9d79f48c6d9567c4a45913c6148b2635ef94e5c6 checkpatch: don't complain on _Generic() use
-fe0c65f4db1a660cacae05389bcf147ddd37d5f7 devlink: add devlink_fmsg_put() macro
-3794236bb12e538bb3e160988c103419161fa58d devlink: add devlink_fmsg_dump_skb() function
-e58df6e81e6e029148a20dac32f618cc16ae0b00 ice: rename devlink_port.[ch] to port.[ch]
-2c1b2022d4f455c63ae2280da66175e033ff6e69 ice: add Tx hang devlink health reporter
-202253b9d061f746c6a9a9772374981206aae4a0 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-889cf71c2bc36767378fcb1e838137bd910a859f ice: Add MDD logging via devlink health
-c20f1e29a612738d478795dd9302bc8cf60f99b0 e1000e: Remove Meteor Lake SMBUS workarounds
-b721a392ea874f5fa73d811f6dae4a49bc9dec4c ice: rework of dump serdes equalizer values feature
-5b9cebbbc34733d92020dad12b9059dde3127e3b ice: extend dump serdes equalizer values feature
-b9333eace3d1559b28d114d62c6312b9625095fe igc: remove autoneg parameter from igc_mac_info
-438a8d45a94071940e946808612a4ff94eea394e ice: c827: move wait for FW to ice_init_hw()
-0d9ad5dcff3b8e8f2680056dbffe7a0746df2c50 ice: split ice_init_hw() out from ice_init_dev()
-d2833fbee835a3f281d5a3a0c08e7df102225609 ice: minor: rename goto labels from err to unroll
-6e973b252d63eb59d9d945d669306a26153fdea4 ice: ice_probe: init ice_adapter after HW init
-dcf9e7e4e6c5071d6dc59a144adec6aa3f4b42fb ice: refactor "last" segment of DDP pkg
-7c162c20efecdab035cb99ea1b5c0fc34f0614e1 ice: support optional flags in signature segment header
-66dc70640a3e5e2df6f9dbb2eaeb9d7249d083be idpf: set completion tag for "empty" bufs associated with a packet
-ae8abeefd3f245b400dc1e7ae09f89bb304ef2d7 ixgbe: Add support for E610 FW Admin Command Interface
-c7c867e033dad08e22931f94d1f5a29c1e0e03f4 ixgbe: Add support for E610 device capabilities detection
-6a22c3b5fcebf296ab63ae03ac2914efb84f6a92 ixgbe: Add link management support for E610 device
-e9297755b6b32b6ca199a3a932201af2489e41a5 ixgbe: Add support for NVM handling in E610 device
-7cfe4bd0615478ad24984478df9d4a0e0acdc5bd ixgbe: Add ixgbe_x540 multiple header inclusion protection
-27ae11773a5b6eac80ec6a832b01a1a4ab4532fb ixgbe: Clean up the E610 link management related code
-2a1d539c562b848685ebc57f16031987347bf7c2 ixgbe: Enable link management in E610 device
-4e75d20ae27821bc16c202894ed6a2028d590c6e ice: Unbind the workqueue
-69c3178cf07b96d3c598f0b4ef525d15b0a5770a ice: Fix use after free during unload with ports in bridge
-ff3da2829f1a17904f49a1310908402218f763ed ice: fix PHY Clock Recovery availability check
-4666bbed7e7b2cd390a965e3b6e92642c578a8c8 ice: fix crash on probe for DPLL enabled E810 LOM
-f5a094620f393ba50263f94bb6e447b3f5a7f4c2 ice: add recipe priority check in search
 
---===============2503229119570236189==--
+--===============3591623893511080612==--
