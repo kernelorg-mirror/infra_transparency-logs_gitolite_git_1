@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2315299731190995979=="
+Content-Type: multipart/mixed; boundary="===============8910955257840351135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 15 Oct 2024 19:30:30 -0000
-Message-Id: <172902063005.2165428.2478238752449362915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Tue, 15 Oct 2024 19:30:37 -0000
+Message-Id: <172902063778.2165639.7011272340108224530@gitolite.kernel.org>
 
---===============2315299731190995979==
+--===============8910955257840351135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
   - ref: refs/heads/for-next
-    old: e50a57d16f897e45de1112eb6478577b197fab52
+    old: c3eddf5e8c30adb6f43fc0b149e88b9feb76f381
     new: 9852d85ec9d492ebef56dc5f229416c925758edc
-    log: revlist-e50a57d16f89-9852d85ec9d4.txt
+    log: revlist-c3eddf5e8c30-9852d85ec9d4.txt
 
---===============2315299731190995979==
+--===============8910955257840351135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e50a57d16f89-9852d85ec9d4.txt
+Content-Disposition: attachment; filename=revlist-c3eddf5e8c30-9852d85ec9d4.txt
 
 d14bbfff259cadb5af84413658699159556da156 smb3: mark compression as CONFIG_EXPERIMENTAL and fix missing compression operation
 f046d71e84e1e94cf23335129a27f5cfe3e8b75f smb: client: insert compression check/call on write requests
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 3f749befb0998472470d850b11b430477c0718cc x86: kvm: fix build error
 9852d85ec9d492ebef56dc5f229416c925758edc Linux 6.12-rc1
 
---===============2315299731190995979==--
+--===============8910955257840351135==--
