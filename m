@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 16 Oct 2024 20:42:06 -0000
-Message-Id: <172911132625.3380118.426238167044221055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 16 Oct 2024 20:44:21 -0000
+Message-Id: <172911146111.3381181.1208000820368377734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/for-next
-    old: 8d59eadeb1b05660e84fe8d2aefc199fd4712da5
-    new: 7ad566b677b194897dfb8533cac37915d84da57c
+  - ref: refs/heads/net
+    old: 4a6f05d9fe8adb25dff35ca6cbd707efeda4d527
+    new: 91158257bc33aefe0b71573cc9a6e0beac520348
     log: |
-         87c1870b5aea744d73f0e4442a285056c64d1239 arm64: dts: qcom: x1e80100: rename vph-pwr regulator nodes
-         bf0a800415a7397617765fe5f5278a645195c75a clk: qcom: gcc-x1e80100: Fix halt_check for pipediv2 clocks
-         837c333f46df8ce6755ba82c53acb91948ec0072 arm64: dts: qcom: x1e80100: Fix PCIe 6a lanes description
-         9ed1a2b8784262e85ec300792a1a37ebd8473be2 arm64: dts: qcom: x1e80100: Resize GIC Redistributor register region
-         7ad566b677b194897dfb8533cac37915d84da57c Merge branches 'arm32-for-6.13', 'arm64-defconfig-for-6.13', 'arm64-fixes-for-6.12', 'arm64-for-6.13', 'clk-fixes-for-6.12', 'clk-for-6.13', 'drivers-fixes-for-6.12' and 'drivers-for-6.13' into for-next
+         ee9b352ce4650ffc0d8ca0ac373d7c009c7e561e selftests/bpf: Fix msg_verify_data in test_sockmap
+         b29e231d66303c12b7b8ac3ac2a057df06b161e8 selftests/bpf: Fix txmsg_redir of test_txmsg_pull in test_sockmap
+         91158257bc33aefe0b71573cc9a6e0beac520348 Merge branch 'Two fixes for test_sockmap'
          
