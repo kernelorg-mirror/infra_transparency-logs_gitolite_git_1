@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Oct 2024 00:52:31 -0000
-Message-Id: <172903995146.2424066.13178073932328450400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Oct 2024 00:55:50 -0000
+Message-Id: <172904015064.2427636.16872167669969451601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fed07d3eb8a8d9fcc0e455175a89bc6445d6faed
-    new: 1833d8a26f057128fd63e126b4428203ece84684
+    old: 068f3b34c5c2be5fe7923a9966c1c16f992a2f9c
+    new: 95b3120a485f77a9bb8060bf3398311e3dcb6c65
     log: |
-         e8c526f2bdf1845bedaf6a478816a3d06fa78b8f tcp/dccp: Don't use timer_pending() in reqsk_queue_unlink().
-         1833d8a26f057128fd63e126b4428203ece84684 net: dsa: mv88e6xxx: Fix the max_vid definition for the MV88E6361
+         95b3120a485f77a9bb8060bf3398311e3dcb6c65 neighbour: Remove NEIGH_DN_TABLE.
          
