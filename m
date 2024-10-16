@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5233976086778098316=="
+Content-Type: multipart/mixed; boundary="===============1516474308527280819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Oct 2024 08:28:19 -0000
-Message-Id: <172906729917.2791215.14746935607093268134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 16 Oct 2024 08:28:26 -0000
+Message-Id: <172906730611.2791424.10363643818408932158@gitolite.kernel.org>
 
---===============5233976086778098316==
+--===============1516474308527280819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 205644ce8b0fae5f055e831cad7df7c46a8d9cc3
-    new: feff0dba7c8a1d358ad2f68863b0c81fdc1018ee
-    log: revlist-205644ce8b0f-feff0dba7c8a.txt
+  - ref: refs/heads/usb-linus
+    old: 705e3ce37bccdf2ed6f848356ff355f480d51a91
+    new: 9499327714de7bc5cf6c792112c1474932d8ad31
+    log: |
+         9499327714de7bc5cf6c792112c1474932d8ad31 usb: gadget: f_uac2: fix return value for UAC2_ATTRIBUTE_STRING store
+         
 
---===============5233976086778098316==
+--===============1516474308527280819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-205644ce8b0f-feff0dba7c8a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e776215c7d288ef581ddc82e50759505bc61f81b Merge branch into tip/master: 'core/merge'
-969b28c419330ad925c75f7ef82a84f907f8fc37 Merge branch into tip/master: 'irq/urgent'
-a5c293bb01ed68ab595c8ae65f18536acbaa9723 Merge branch into tip/master: 'sched/urgent'
-89eb8ad8f228d60c77e26fb92a5761dfd814f801 Merge branch into tip/master: 'x86/urgent'
-bb40238e72472b7e9be43d12fc1dab5fe03554a5 Merge branch into tip/master: 'core/debugobjects'
-14832290a2476e7acdaf796c7a503443b861c005 Merge branch into tip/master: 'irq/core'
-d6e2b7bdd15f43a8513ba7dae68608b788860d6b Merge branch into tip/master: 'locking/core'
-850503bd530e2c021c4678563a56a8f25227c7df Merge branch into tip/master: 'sched/core'
-4cf892183c0f79cc530be55f8bc6c09b870618dd Merge branch into tip/master: 'timers/core'
-217484c6be27b26aa6300c72d2d95f80fcbd98c2 Merge branch into tip/master: 'timers/vdso'
-204247873c5688740d50394b02f4727d00811f5d Merge branch into tip/master: 'x86/cache'
-f1820071f75d490605c62cf1a5b8dd2fe44d169d Merge branch into tip/master: 'x86/cpu'
-4335a5e1313e005929b74893a406f5cba8fcd367 Merge branch into tip/master: 'x86/misc'
-feff0dba7c8a1d358ad2f68863b0c81fdc1018ee Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729067324 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1729067302-6921ab60914b22561c3eacd45d6007d9ee06caab
 
---===============5233976086778098316==--
+705e3ce37bccdf2ed6f848356ff355f480d51a91 9499327714de7bc5cf6c792112c1474932d8ad31 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPeT0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MBAP/1fnz9ebVOqI19Qc+gRs
+A79ZBZTglWIIbJLiigmlIpvYIb0hfq3smWfXAzo6hRPcOCMWiplb7/66YDcfgQEi
+ix7TV/peQ9bhQqnxE0t/igxtyVKCytBmF3WtXnKAkhhWTnseRrAmbTZ+jhFGWL26
+b4X1UnErYVzUoHJ/8ddWdnm0V1g/0mi1l4FIXsY+f3xzOhh2CMNRuB1tcrqaUzvQ
+SQslftUQRmjtNtdJYMdMECGfEvjYkpzdy61in/zF2gmt4f2m61dMvJjGqtqxkW24
+t6a/vVcG+fqoaGMzHXfZ5BqZi40wYKWDwUVKUt8daFcY+IIEcaKHWR069TRK0j/Z
+oZiELDmDTBAYiJmPuQybcR836UU6ZnnRqd4dTCUkxER0QMbrGOAXN/Wq+VcuSR7g
+pT5bZQkMcQyZQD876yu5ejuv5dT6vsVA5bBrwAD8FJnyxZJbC0kaHWTXY5z8H5ZT
+2+UwS9QQZpWklLvj3TftduKa9btdCc+LVbjd2dOwCTNy3jOpb9Qk7k/07PPVI/FK
+UC5S/mORUTe6B8luPqnkTMpQfqZmpnOGRM0iOre+OgusP6nAfreWvmrdRqryLGMH
+P+As0Sv1N+THCNcTORuwUUVrxmi0tjjJAu4A4GAspTK8APpYWmbZTGKqOViIUbcO
+qtZGFitIJEawBjIMPdnkiWpx
+=HoF6
+-----END PGP SIGNATURE-----
+
+--===============1516474308527280819==--
