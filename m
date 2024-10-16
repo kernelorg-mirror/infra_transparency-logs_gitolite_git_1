@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8283213185884094778=="
+Content-Type: multipart/mixed; boundary="===============7972124382090085886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Oct 2024 08:17:04 -0000
-Message-Id: <172906662487.2781507.284313993601525510@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 08:17:49 -0000
+Message-Id: <172906666958.2781914.13798170378186309551@gitolite.kernel.org>
 
---===============8283213185884094778==
+--===============7972124382090085886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 64f3b5a6bc49adf77d58eddd72a4bfccd492fa24
-    new: fa48d7e81624efdf398b990a9049e9cd75a5aead
+    old: fa48d7e81624efdf398b990a9049e9cd75a5aead
+    new: f47333c690e49a9042d721f9c493ad78bbff11ac
     log: |
-         fa48d7e81624efdf398b990a9049e9cd75a5aead usb: typec: ucsi: Do not call ACPI _DSM method for UCSI read operations
+         ed830af1846b60d7361968d8a58ae5c390a3df24 usb: typec: ucsi: UCSI2.0 Set Sink Path command support
+         f47333c690e49a9042d721f9c493ad78bbff11ac usb: gadget: uvc: Remove extra semicolon from the macro
          
 
---===============8283213185884094778==
+--===============7972124382090085886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729066643 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729066687 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729066620-29383f9c36a62715e2269627b4c050755603208e
+nonce 1729066665-1aa3df7788e41673b3d5240c156f58b39efff71f
 
-64f3b5a6bc49adf77d58eddd72a4bfccd492fa24 fa48d7e81624efdf398b990a9049e9cd75a5aead refs/heads/usb-testing
+fa48d7e81624efdf398b990a9049e9cd75a5aead f47333c690e49a9042d721f9c493ad78bbff11ac refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPdpMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YjgP/ifRls1vgGp33TrGF9nF
-N0SHNq6obTR6+VVqlBrMpIeMk8PF0tNM5tf0pTh8OxIdmQqHDUHzYkxAVq77vj2I
-Cn6nSnxlEQrjhMP3sfI7hiOzOrKgpfGr56AGWj9f7z8XsU02OQIgXWTt+KfndXnR
-fjEGisObFgHz5zUbpXg4jA6Xz0Yj6gmCG28LpZlBK8Sc9t2pqKRiwZCy3WbRB0pY
-8bUL46Fnw4E5rqUv7i7x1mGXDQP3OTh78BIyNY6f7KQ4S+kFK5I1THmZGR+/j9xD
-cnuOJ9Tu+Q7kBpJ/oD6oXigycT5b5dRdC5uzrwQSBvD3HyOgor5wj4RMYQ55bum2
-yJaeQW7YjKAxXOYf6M70Zaz1X96kOolAFro0qI0VAcUac1j0Q1ZnuhCv3Um34jKd
-uNaXZZzbW9EVNdQG88R91l5K7zxzIsiWS8rDY6WNP8raTaFOCEQYP35jbKtEp8Bo
-TO319R61TqY5Y++9bzTIXTdGely7KR5mRdjLcKYGYN5pp+JS5QWbolOwTWWLYvou
-IdKBVQIxQ7R70TTmWsar14XsFo1reJ0ZDczEHYw2cKkhr1utxlY/acLc+LAMfpbB
-Tbfxgv0iGO0XalR/CgBY62mheMYanYA9TN6rGO65YCRukxJagIgpJaWz2+Ld7OP2
-4kXn3AuORqJC39+W1Rwze5+4
-=JVty
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPdr8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wj8P/3cugSeSD/CnSymub/rQ
+dE1sLTe9VYDaid6w6qF8/xstwtsAqU6t5uGRoT9jYs1T/I+PO47CYYJSxIvKmfOZ
+dvvACngZdPEeBhM8PUnntLL98fVc8f+fS3K03nGUsffLSNRoXh20TEg2X/LktAWl
+dbZi5fOMzre/ITp4NLZIVU3xsjbxn4mC9Go964bht/ZQ3X7lvQWRj2M4P6ttdZPo
+KDSE/StfONLJD7oI5paRBdxMWhpu4OS5vKPTReioAQ6MPc4Af11znUfjOb4fH1MQ
+fLvDkXLBpNjquVVh9cHY7CNKvf5ZpkoKyozU2P8gzQ7i5z69+GycJWsFrA1gsCoJ
+Gg7htxyk/5PLJIQJXWy5BzAQv91N6R4Ms5lsNCps1WILIREQpO8e00Ks++dxLAov
+zqQvAidA4kb7Cue5NcWkgoBjOHq7aIvist+iD690eyxXYICatWuoVCaCvmq3le7n
+uGm1njr3hJfoPDO9/8HLpiJWm0H28THZsngZKzwFknxazIl0VgI9FpO8a6QwUtTi
+ZVALjD/sktCchWVBXAzN9tDCcmx8OkxljAqqiU8pETpaPwwMRI4KiBCW5enOiCZ5
+wTxNulA4WN2791o/3gebgUAlKDT/ijt3nAT3hCjm8VAk67/YC0dfDwE/iDCqQkqI
+x9F1/s36IlgHpzuX29lGaNTI
+=82kS
 -----END PGP SIGNATURE-----
 
---===============8283213185884094778==--
+--===============7972124382090085886==--
