@@ -1,55 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 16 Oct 2024 20:36:25 -0000
-Message-Id: <172911098541.3375389.6954085572693470120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 16 Oct 2024 20:37:03 -0000
+Message-Id: <172911102330.3375739.17107300014696814409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 9196c82b37e59915056fcfb453fb7738161b9280
-    new: ad6ccd402c4040dee31dbfacd05f662adcaaec68
+  - ref: refs/heads/arm64-fixes-for-6.12
+    old: 5d3d966400d0a094359009147d742b3926a2ea53
+    new: 837c333f46df8ce6755ba82c53acb91948ec0072
     log: |
-         18d9b52271213890da295a7c63ef8880ed570cd8 cpufreq/amd-pstate: Use nominal perf for limits when boost is disabled
-         702dedf75891f10fe8adddf1e2858aa5b96fae2f Merge tag 'amd-pstate-v6.12-2024-10-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-         3ebe9c12559c656dd16d05c97dcc77dcdac8d995 powercap: intel_rapl_msr: Add PL4 support for ArrowLake-H
-         8e487bb344184a8787ecab77eb2539ac74a1dbdc Merge branches 'pm-cpufreq-fixes' and 'pm-powercap' into fixes
-         c1d51d7b38257b47ff1a6f95962f38b22607cd02 Merge branch 'fixes' into linux-next
-         aac50bfd11b1b917898ddf265c18124c26eb9b04 Merge branch 'thermal-core-testing' into testing
-         ad6ccd402c4040dee31dbfacd05f662adcaaec68 Merge branch 'thermal-core-experimental' into bleeding-edge
+         837c333f46df8ce6755ba82c53acb91948ec0072 arm64: dts: qcom: x1e80100: Fix PCIe 6a lanes description
          
-  - ref: refs/heads/fixes
-    old: 60d41baaa78298f913a92dc35a78ce3b7c12e45f
-    new: 8e487bb344184a8787ecab77eb2539ac74a1dbdc
+  - ref: refs/heads/arm64-for-6.13
+    old: 87c1870b5aea744d73f0e4442a285056c64d1239
+    new: 9ed1a2b8784262e85ec300792a1a37ebd8473be2
     log: |
-         18d9b52271213890da295a7c63ef8880ed570cd8 cpufreq/amd-pstate: Use nominal perf for limits when boost is disabled
-         702dedf75891f10fe8adddf1e2858aa5b96fae2f Merge tag 'amd-pstate-v6.12-2024-10-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-         3ebe9c12559c656dd16d05c97dcc77dcdac8d995 powercap: intel_rapl_msr: Add PL4 support for ArrowLake-H
-         8e487bb344184a8787ecab77eb2539ac74a1dbdc Merge branches 'pm-cpufreq-fixes' and 'pm-powercap' into fixes
+         9ed1a2b8784262e85ec300792a1a37ebd8473be2 arm64: dts: qcom: x1e80100: Resize GIC Redistributor register region
          
-  - ref: refs/heads/linux-next
-    old: 02732c5917cb983aa04e6ff3a26e954b00fdcdf6
-    new: c1d51d7b38257b47ff1a6f95962f38b22607cd02
+  - ref: refs/heads/clk-fixes-for-6.12
+    old: e02bfea4d7ef587bb285ad5825da4e1973ac8263
+    new: bf0a800415a7397617765fe5f5278a645195c75a
     log: |
-         18d9b52271213890da295a7c63ef8880ed570cd8 cpufreq/amd-pstate: Use nominal perf for limits when boost is disabled
-         702dedf75891f10fe8adddf1e2858aa5b96fae2f Merge tag 'amd-pstate-v6.12-2024-10-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-         3ebe9c12559c656dd16d05c97dcc77dcdac8d995 powercap: intel_rapl_msr: Add PL4 support for ArrowLake-H
-         8e487bb344184a8787ecab77eb2539ac74a1dbdc Merge branches 'pm-cpufreq-fixes' and 'pm-powercap' into fixes
-         c1d51d7b38257b47ff1a6f95962f38b22607cd02 Merge branch 'fixes' into linux-next
-         
-  - ref: refs/heads/testing
-    old: eb5266192bbbc285a8e8d1239814d89a77c5a3bc
-    new: aac50bfd11b1b917898ddf265c18124c26eb9b04
-    log: |
-         18d9b52271213890da295a7c63ef8880ed570cd8 cpufreq/amd-pstate: Use nominal perf for limits when boost is disabled
-         702dedf75891f10fe8adddf1e2858aa5b96fae2f Merge tag 'amd-pstate-v6.12-2024-10-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-         3ebe9c12559c656dd16d05c97dcc77dcdac8d995 powercap: intel_rapl_msr: Add PL4 support for ArrowLake-H
-         8e487bb344184a8787ecab77eb2539ac74a1dbdc Merge branches 'pm-cpufreq-fixes' and 'pm-powercap' into fixes
-         c1d51d7b38257b47ff1a6f95962f38b22607cd02 Merge branch 'fixes' into linux-next
-         aac50bfd11b1b917898ddf265c18124c26eb9b04 Merge branch 'thermal-core-testing' into testing
+         bf0a800415a7397617765fe5f5278a645195c75a clk: qcom: gcc-x1e80100: Fix halt_check for pipediv2 clocks
          
