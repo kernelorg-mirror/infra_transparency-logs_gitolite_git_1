@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0533438501154035198=="
+Content-Type: multipart/mixed; boundary="===============2390463673845315445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 16 Oct 2024 19:50:11 -0000
-Message-Id: <172910821164.3339689.9461918322585606244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 16 Oct 2024 19:50:13 -0000
+Message-Id: <172910821347.3339772.8858602157034414691@gitolite.kernel.org>
 
---===============0533438501154035198==
+--===============2390463673845315445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6801a93b4309318c0a7341338184fcd4ce865936
 
---===============0533438501154035198==
+--===============2390463673845315445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.
 bdc72765122356796aa72f6e99142cdf24254ce5 Merge tag 'bcachefs-2024-10-14' of git://evilpiepirate.org/bcachefs
 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2 Merge tag 'trace-ringbuffer-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============0533438501154035198==--
+--===============2390463673845315445==--
