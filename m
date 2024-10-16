@@ -1,93 +1,110 @@
-Content-Type: multipart/mixed; boundary="===============0375935615595000801=="
+Content-Type: multipart/mixed; boundary="===============0366185543216128075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 16 Oct 2024 19:06:26 -0000
-Message-Id: <172910558661.3304527.15608835884637208959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 16 Oct 2024 19:28:31 -0000
+Message-Id: <172910691102.3320424.15293416238362559958@gitolite.kernel.org>
 
---===============0375935615595000801==
+--===============0366185543216128075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/vfs.all
-    old: 2232c1874e5c400d4666ac296258e37828c1bd70
-    new: e74eea10f512948eff1e944ddc4492e2c0491a0f
-    log: revlist-2232c1874e5c-e74eea10f512.txt
-  - ref: refs/heads/vfs.file
-    old: 758d25594e09696e7aae0985cc8494405f2af2ae
-    new: 51b75c2e26e2f265788b5408290b015413ab2ff7
-    log: |
-         51b75c2e26e2f265788b5408290b015413ab2ff7 file_ref_t: allow for valid race
-         
-  - ref: refs/heads/vfs.fixes
-    old: f92f0a1b05698340836229d791b3ffecc71b265a
-    new: 17e3b9b5cb3c98bf449d201c7dd2d5ee53e26789
-    log: |
-         6ed469df0bfbef3e4b44fca954a781919db9f7ab nilfs2: fix kernel bug due to missing clearing of buffer delay flag
-         dabae7218d1c5a658029cb9fb7c099bd39b2e48c afs: Fix lock recursion
-         f7614a40ab5a56243b091cab8c3e7c3320c5caf1 fs: don't try and remove empty rbtree node
-         17e3b9b5cb3c98bf449d201c7dd2d5ee53e26789 netfs: Downgrade i_rwsem for a buffered write
-         
-  - ref: refs/heads/vfs.iomap
-    old: 3f473f07ab33fc70f372c3b1cb024e0110f42262
-    new: 13586180450aefbb255e812599f45f2d8faf2061
-    log: |
-         13586180450aefbb255e812599f45f2d8faf2061 iomap: turn iomap_want_unshare_iter into an inline function
-         
-  - ref: refs/heads/vfs.misc
-    old: 89be051f0724542bb4c76c23d20302efb224ebc1
-    new: 2ce0e17660a79a6a957497b0154c7e20ebaf2c45
-    log: |
-         2ce0e17660a79a6a957497b0154c7e20ebaf2c45 epoll: Add synchronous wakeup support for ep_poll_callback
-         
-  - ref: refs/heads/vfs.mount.api
-    old: c1a6b0fc0400f220d110ae17b63a0de5fe82f3b3
-    new: 51ceeb1a8142537b9f65aeaac6c301560a948197
-    log: |
-         51ceeb1a8142537b9f65aeaac6c301560a948197 efs: fix the efs new mount api implementation
-         
-  - ref: refs/heads/vfs.ovl
-    old: 58439f6c48a9dc7a12765a6b37a5c43a542ea90f
-    new: d59dfd625a8bae3bfc527dd61f24750c4f87266c
-    log: |
-         d59dfd625a8bae3bfc527dd61f24750c4f87266c selftests: add test for specifying 500 lower layers
-         
-  - ref: refs/heads/vfs.rust.file
-    old: 22018a5a54a3d353bf0fee7364b2b8018ed4c5a6
-    new: fe95f58320e6c8dcea3bcb01336b9a7fdd7f684b
-    log: |
-         fe95f58320e6c8dcea3bcb01336b9a7fdd7f684b rust: task: adjust safety comments in Task methods
-         
+  - ref: refs/heads/dir-deleg
+    old: cacdcf826c26c231b638a82b3a70e83e254c1087
+    new: d22ddee8873ebcf7f2b11f4031915c6c4880f06d
+    log: revlist-cacdcf826c26-d22ddee8873e.txt
 
---===============0375935615595000801==
+--===============0366185543216128075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2232c1874e5c-e74eea10f512.txt
+Content-Disposition: attachment; filename=revlist-cacdcf826c26-d22ddee8873e.txt
 
-6ed469df0bfbef3e4b44fca954a781919db9f7ab nilfs2: fix kernel bug due to missing clearing of buffer delay flag
-2ce0e17660a79a6a957497b0154c7e20ebaf2c45 epoll: Add synchronous wakeup support for ep_poll_callback
-dabae7218d1c5a658029cb9fb7c099bd39b2e48c afs: Fix lock recursion
-f7614a40ab5a56243b091cab8c3e7c3320c5caf1 fs: don't try and remove empty rbtree node
-17e3b9b5cb3c98bf449d201c7dd2d5ee53e26789 netfs: Downgrade i_rwsem for a buffered write
-51b75c2e26e2f265788b5408290b015413ab2ff7 file_ref_t: allow for valid race
-cf3c8badca57d802ae35fc796c828d354f3c0799 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-cfd430982acf5d39195334fe81f80e8667aaae8c Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-94bb64ff8b71b44ff2d1ccb3461ffc061353f509 Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-63ea6f803685c222b62ad4b3ba11250259401f15 Merge branch 'vfs.iomap' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-57446e02503e0e0015e0f9d053032519dfe232cc Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-0f6132cc86d44f67f3b7676bc0f8a4c37fcafddf Merge branch 'vfs.rust.file' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-86a094a078c2d64a051e94092d599ab302882408 Merge branch 'vfs.pagecache' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-e9eb6e05c1c2709df385da487bc2d190e412cab5 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-7ca0b5cb2e6def7ceda81ff5b656dd73f9c02dfa Merge branch 'vfs.rust.pid_namespace' into vfs.all
-3a25d9ec347b708221e75c8cc86e96e3ab8ebcca Merge branch 'vfs.file' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-08b4a763254b5915821e08b2c35aabbaace5a46e Merge branch 'vfs.ovl' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
-e74eea10f512948eff1e944ddc4492e2c0491a0f Merge branch 'vfs.exportfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+bf4baaa087e2be0279991f1dbf9acaa7a4c9148c bcachefs: Fix lockdep splat in bch2_accounting_read
+bade9711e0905eaa99e2ed98fc9642acaf9ba2b5 bcachefs: Split out check_unreachable_inodes() pass
+38864eccf78b4e8ab9e2b7a4320943b1feb6872a bcachefs: reattach_inode() now correctly handles interior snapshot nodes
+12f286085bf592346cffa93d8e21b0cc2c01f9fe bcachefs: btree_iter_peek_upto() now handles BTREE_ITER_all_snapshots
+cba31b7eee41eb34941d040bddaed3628f160cae bcachefs: Delete vestigal check_inode() checks
+9b23fdbd5d29beb5bd272c304e0d978edd32f513 bcachefs: bcachefs_metadata_version_inode_has_child_snapshots
+84878e82457f2d7900cc70041bd7c05684a6726e bcachefs: Kill bch2_propagate_key_to_snapshot_leaves()
+9d86178782a25fac105e550e1c29c7d3f8470116 bcachefs: bch2_inode_or_descendents_is_open()
+19773ec997201a45b3a1b5f1171897cba0f30bab bcachefs: Disk accounting device validation fixes
+0151d10a480da22d0c137f859645fdc79e10b551 bcachefs: add check for btree id against max in try read node
+a1541541480073365ac701a1125d750a86bfd644 bcachefs: Release transaction before wake up
+a30f32222df2a3777f8c09ef460ae8ad278021e6 bcachefs: Fix NULL pointer dereference in bch2_opt_to_text
+9205d24cf7714dd2b5fa09a22964dbcdeed6c430 bcachefs: Fix state lock involved deadlock
+04b670de2859a8a8b0830779f9c9bda5d39662ab closures: Add closure_wait_event_timeout()
+a7e2dd58fbbd8882557135b9433192e038fdb88e bcachefs: Check if stuck in journal_res_get()
+3b80552e70573764bbf38b89c58749aef9dd8753 bcachefs: __wait_for_freeing_inode: Switch to wait_bit_queue_entry
+7d84d9f449f929a3b010cab04a0adc97c7853ab7 bcachefs: Fix bch2_have_enough_devs() for BCH_SB_MEMBER_INVALID
+c1bd21bb65182afca490db4031890802a1a546b7 bcachefs: Fix invalid shift in member_to_text()
+672f75238e54a642d3ccbcb62d3977383ab50bb0 bcachefs: Fix accounting replay flags
+9183c2b11e93f16dfd89a7fa09ec50c0be71f15a bcachefs: Fix bkey_nocow_lock()
+c986dd7ecba185ad2a36b0815940f34deb2a8170 bcachefs: Improve check_snapshot_exists()
+573ddcdc56077615f8db045cd06b44dd8fc01f4b bcachefs: fix uaf in bch2_dio_write_done()
+a319aeaebb6c7d8e68125943d454031b27d6b3ef bcachefs: Fix missing bounds checks in bch2_alloc_read()
+9f25dbe0bf91108be38c690628910c3ee85f6c1c bcachefs: Add missing validation for bch_stripe.csum_granularity_bits
+b1e562265ed801c36e8817c67c97a47137870ece bcachefs: Fix kasan splat in new_stripe_alloc_buckets()
+cb6055e66faa0d4c15587ef67be18bc199aef085 bcachefs: Handle race between stripe reuse, invalidate_stripe_to_dev
+5e3b72324d32629fa013f86657308f3dbc1115e1 bcachefs: Fix sysfs warning in fstests generic/730,731
+2cf9733891a460a16a209fcc20fbd138605b13b8 ring-buffer: Fix refcount setting of boot mapped buffers
+09661f75e75cb6c1d2d8326a70c311d46729235f ring-buffer: Fix reader locking when changing the sub buffer order
+bdc72765122356796aa72f6e99142cdf24254ce5 Merge tag 'bcachefs-2024-10-14' of git://evilpiepirate.org/bcachefs
+2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2 Merge tag 'trace-ringbuffer-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+aacaab97e76307be16bf147b64dc45c0c9013a8a nfsd: drop inode parameter from nfsd4_change_attribute()
+c1be156cbb5960cf760409416fddbf300b2500c3 nfsd: switch to autogenerated definitions for open_delegation_type4
+466247e4e33b7e43589e5fa00bcd721a67463935 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
+6dd23bce4068b7ecb26390c81713ab6b617990a3 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
+3d342dc5ffe941fed1f6b32ecf59b9b5769f38be nfsd: add support for delegated timestamps
+f6b1cfab609da048eba93210f47bf8ef43068119 nfsd: handle delegated timestamps in SETATTR
+f68c8f0d44b4133b663777a836f2c4bb408a6661 nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
+b270dee48b955347568a1335c002ced0a85b5e3e nfsd: Fix NFSD_MAY_BYPASS_GSS and NFSD_MAY_BYPASS_GSS_ON_ROOT
+51929bb7e15e72cdcfde99f7529c75c2a2a2001c xdrgen: Add a utility for extracting XDR from RFCs
+63dc9f8cf1b1ed189f9b3b85ce10b0d54f8e30d1 nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+a6c8f091e362d79ff105bfa395a5c24b08162f93 NFSD: Replace use of NFSD_MAY_LOCK in nfsd4_lock()
+785c04cefa2b852311c261c9089c8d01684d6bca Merge branch 'brauner/vfs.mgtime'
+088632be6ab0eed68cc5e7ea2f5677d06d68d5b6 Merge branch 'mrchuck/nfsd-next'
+3154f5bb9884076f16cd9aec0227ba33694dbec5 vfs, nfsd, nfs: implement directory delegations
+236ffd647b29b2c64862c6efabbd4f305873e373 filelock: push the S_ISREG check down to ->setlease handlers
+c85544d2d9200a6653e97bf51660c3b9aca76f1b filelock: add a lm_set_conflict lease_manager callback
+344e1e14cb6f42e7941e1749119960c85342a424 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
+8b2ff566d3ccfedd6bf99ae239b1b4aa2948c5f3 vfs: allow mkdir to wait for delegation break on parent
+15993c6362d0d0853d339fa7dd30e62619374b0c vfs: allow rmdir to wait for delegation break on parent
+22be720a6058174f7446a04d84764dca33ebb4c1 vfs: break parent dir delegations in open(..., O_CREAT) codepath
+154581a52d2c7a0988075afb5b3c5fa3e85fdeaf vfs: make vfs_create break delegations on parent directory
+de3cf6abb908e9210293f1f4baed84cd42f3c44c vfs: make vfs_mknod break delegations on parent directory
+74be1b1ca7eac8de24daf34b624316b95c681375 filelock: lift the ban on directory leases in generic_setlease
+e5f27cce587d08c69ca31e65e1c6207576deab17 nfsd: reorganize struct nfs4_delegation for better packing
+0c4d534dd510d7e2fc5d442dc9b47be766cb127c nfsd: allow filecache to hold S_IFDIR files
+802b5c6a01402310ac8fda1104261338b0e0aad9 nfsd: allow DELEGRETURN on directories
+b1d596bb9fbde71d0ac21001dcb2f78b3a9a5b26 nfsd: check for delegation conflicts vs. the same client
+1d58ce52edff2e937a39a1987ea091f4aed0187a nfsd: wire up GET_DIR_DELEGATION handling
+eb339559ddd65d5b35a7880755fd586b9c3ddaae nfs: fix nfs_stateid_hash prototype when CONFIG_CRC32 isn't set
+22d92fb26d5c51807b83d6a692fbbac52bedbaa0 nfs: add cache_validity to the nfs_inode_event tracepoints
+8669d14d602e9c8a083189d650e202b6f1e44422 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
+a495572cb82292d152db7b39d97712675b798100 nfs: new tracepoint in nfs_delegation_need_return
+66de28afdef8942bfb62451227cbe21caf0dcfcd nfs: new tracepoint in match_stateid operation
+5191c2f4ac4b68a5981b8995c0e708d284ac6314 nfs: add a GDD_GETATTR rpc operation
+2853b9a1f9064086ba328cb7d5aeb68edf84b76b nfs: skip dentry revalidation when parent dir has a delegation
+96f93bc05cab3033ed2adac877695f52d019746c nfs: optionally request a delegation on GETATTR
+2e5d9668be5e2ad823d55aab99f6a03de35b2cab nfs: add a module parameter to disable directory delegations
+77e18e2dda4ff009e7d330a9707877a8af1f700a filelock: rework the __break_lease API to use flags
+8dd81587c3860cff2615ae2a741e414720c5b328 fs: add dir delegation break flag support
+fbd518b21f9b5a5461a1f34e7f183c4c9a0e8dd5 fs: make break_deleg take LEASE_BREAK_* flags
+f9a058b1177c6d0da81384bcf9eb3b14abd472d0 fs: add struct delegated_inode
+cd393ce9a2f85e837c243a18104a9af415722fb2 fs: add a "reason" parameter to try_break_deleg
+d11f67fcfcba715b4baed7815c19e986f4b3755b fs: add support for ignoring deleg breaks for dir change events
+922dab76764b807a29a12fdf37bfb8af4c15446c nfsd: always regenerate the xdrgen targets
+3ce56ac99e97f6c1e04614f81490df06ea332893 nfsd: add protocol support for CB_NOTIFY
+1a41e33f5282646cdc23819658da8eb688341527 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+9e93127507559d494235e829a4efb58537d0758b nfsd: add directory deleg fields to struct nfs4_delegation
+bdab2e34efb1a1c7d8cfdc78093b39ec4c607cb0 filelock: add an inode_lease_ignore_mask helper
+d22ddee8873ebcf7f2b11f4031915c6c4880f06d nfsd: update the fsnotify mark when setting a new dir delegation
 
---===============0375935615595000801==--
+--===============0366185543216128075==--
