@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6353074633265626440=="
+Content-Type: multipart/mixed; boundary="===============0520700148781085184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 16 Oct 2024 15:47:17 -0000
-Message-Id: <172909363792.3143375.13190101736363369280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 16 Oct 2024 15:47:19 -0000
+Message-Id: <172909363958.3143487.14108707462569991700@gitolite.kernel.org>
 
---===============6353074633265626440==
+--===============0520700148781085184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2
     log: revlist-6485cf5ea253-2f87d0916ce0.txt
 
---===============6353074633265626440==
+--===============0520700148781085184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.
 bdc72765122356796aa72f6e99142cdf24254ce5 Merge tag 'bcachefs-2024-10-14' of git://evilpiepirate.org/bcachefs
 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2 Merge tag 'trace-ringbuffer-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============6353074633265626440==--
+--===============0520700148781085184==--
