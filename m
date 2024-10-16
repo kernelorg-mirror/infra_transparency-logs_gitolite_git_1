@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8852009545606667855=="
+Content-Type: multipart/mixed; boundary="===============7680620822679566051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Oct 2024 08:43:19 -0000
-Message-Id: <172906819995.2803787.15844878210946051222@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 08:45:51 -0000
+Message-Id: <172906835121.2807195.11593658027711183384@gitolite.kernel.org>
 
---===============8852009545606667855==
+--===============7680620822679566051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f47333c690e49a9042d721f9c493ad78bbff11ac
-    new: e1b2772ea957c91694aa91b90e4c0a1d7b0fb144
+    old: e1b2772ea957c91694aa91b90e4c0a1d7b0fb144
+    new: 7b5a58952fc3b51905c2963647485565df1e5e26
     log: |
-         d146d384222e6879d477fa95cefb576bdaf883af dt-bindings: phy: qcom,qusb2: Add bindings for QCS615
-         e1b2772ea957c91694aa91b90e4c0a1d7b0fb144 dt-bindings: phy: qcom,msm8998-qmp-usb3-phy: Add support for QCS615
+         7b5a58952fc3b51905c2963647485565df1e5e26 usb: gadget: uvc: configfs: Add frame-based frame format support
          
 
---===============8852009545606667855==
+--===============7680620822679566051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729068218 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729068369 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729068196-7f02e3d3921ce2fd223049eb02d380971c3ea5ae
+nonce 1729068347-60cc4c14d0e13d9016d9381ee4b26d6e906e00d9
 
-f47333c690e49a9042d721f9c493ad78bbff11ac e1b2772ea957c91694aa91b90e4c0a1d7b0fb144 refs/heads/usb-testing
+e1b2772ea957c91694aa91b90e4c0a1d7b0fb144 7b5a58952fc3b51905c2963647485565df1e5e26 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPfLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UOIQAJMoLNGWyTr9LpkCYz7z
-Xf+FsITmctHkI9oSA69EQ6IuT7CAgNGNSKaD5yZXii/28vnO13Eps0BrfiwMJgRY
-1zFNqhHJSvmEpZnpWPlqwRDZROqF9d6UBlpAmJbmbDsbPDxSwm92DnsJOYLu4ykM
-CCA+sB6ZyQRvM6MAxYjoCbuDw0PliEuCRnUNKo9isZKIgluxSt/ufMIHJk6w2j0W
-JAq5R1hXOet0eU5KQLi1VG0nUt4smLtJe4TUFQ5FyhLgsK1Mjh4JeawO9DQkGCI4
-j3GBNIHFEEkoFuMy56zEPpMNKM3l4PIqrodnQeRLjAU3UT1WIYpYwcE39hI3uWS3
-9yf8dWjBDi6NJoL3YDA0XE/Zg+EzNOoj3CgG7G3HCOCUanvqAJ2HRk8aS5wTEj4y
-cfFWrdr89pkOBhFE7R0nYooXBA3geWSdjliH51+XVjGfyQBIz6DWdmuyWIFlNI1o
-VCJZJnDz9Bqu8flQFknhaomVyvb7ZDHkEf+4sBSIKiznJIfBEfmpEAMkWatnNzvP
-/oRr2zmopp1UrvkJKOvfE0n05Z0b34Ej3ayH1Uf/Y5ywoQkniwNiqr0xzDKY/Qgv
-53GcAa3P3p9ew2vlHddEX71wjJ+LTPqtJM2QgZLO0rs87d5YH6gbeKp+nZ7ZNCYd
-DE0utcwpTwqBcS3k3fGBTA/A
-=Yxm4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPfVEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mJoQAJJ9kxDUzXUonECbB63O
+/b4eWPnelLDHDtLWhYy80sNIznTIX3i6XG/8zwpTzWWU6xKQFLuq0+ng3A0oM4Pt
+U9yXY9wrvWvg9NfrJb+D4sC+ulBOz9PdRmZqJcsP70FGZDZRcxOvKfrdeV0pKUt6
++Qy7SLXZyLsoDGhlEIpz8IH8hUYGTGNIkZFu3zLHVIA8dECOdAhbOEV21GpYGJJq
+6tNAKKrehVN0n36jg0HpYXHnLSGnelxan1xZsUfecFIYxIO8Y4sFW1iYEDhghEaN
+9fjT2ll+2OP+aHed4kobjgFQTjZdi3AWI5PNeh5n9rTYBz6IajvxkYrrStnpZGP9
+kgNcJ7T2yE435B/4s7r/Y08kGg8gQVMd+wtd8nVPB0I5vG82sHB9Vnun2AvkOR8X
+TuhTN9+F/Iig/pfqiEPL2QL1ZbfMM3OnI22CALQ2BziJZ0d883qS2ZOJvmhbTGEi
+dx2wh6jl1qNGUOEU7nlknObjNbuyQLXxWJEqM+Ul+u+y9gNvTnEjbrYw16NgmIzu
+JkTw/7m3Qug851JLn1faZ75tDCM1OOg2tevOPJn+MKiYYvScm46zeCvCrWJTsVki
+IhJRdLre3nPmsO+vTLyPj4MuGuFdqklHE3gORkt1lFBoxgsOsEw2YbJxJ3Zx/VWL
+KZNCc0Zwe33XGY4g4U4YfCkl
+=+hV8
 -----END PGP SIGNATURE-----
 
---===============8852009545606667855==--
+--===============7680620822679566051==--
