@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2579464312247230117=="
+Content-Type: multipart/mixed; boundary="===============2147043545324991588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 16 Oct 2024 15:38:28 -0000
-Message-Id: <172909310838.3135033.12159238827793958085@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 15:38:29 -0000
+Message-Id: <172909310951.3135105.5066661530186531698@gitolite.kernel.org>
 
---===============2579464312247230117==
+--===============2147043545324991588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
+  - ref: refs/heads/pending
     old: 25ff1ae52139b53c1a69f55ce235077528245b55
     new: 477cabfdb776b571fab425813c074f30c02a5cf6
     log: revlist-25ff1ae52139-477cabfdb776.txt
 
---===============2579464312247230117==
+--===============2147043545324991588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ af41f908c9e4d3358b5753648e669114d9109004 wifi: ath12k: update ath12k_mac_op_conf
 f4adb07e0a524a35b34397ad08d0199cfe2c450f wifi: ath12k: update ath12k_mac_op_update_vif_offload() for MLO
 477cabfdb776b571fab425813c074f30c02a5cf6 wifi: ath12k: modify link arvif creation and removal for MLO
 
---===============2579464312247230117==--
+--===============2147043545324991588==--
