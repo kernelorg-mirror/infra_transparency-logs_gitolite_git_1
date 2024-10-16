@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 16 Oct 2024 05:11:49 -0000
-Message-Id: <172905550920.2635135.5447078020915869014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Wed, 16 Oct 2024 05:28:12 -0000
+Message-Id: <172905649274.2646956.5941053151059063716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: egrumbach
 changes:
-  - ref: refs/heads/master
-    old: 2315a3b5d324387c86bcd0af3f5ed03523d47fef
-    new: 9bb3ba75c1c8fd8c9f6a0b1fd6409b725583a3e0
-    log: |
-         9bb3ba75c1c8fd8c9f6a0b1fd6409b725583a3e0 security/keys: fix slab-out-of-bounds in key_task_permission
-         
+  - ref: refs/heads/chromeos-6.6__release/core91-69-2
+    old: 0000000000000000000000000000000000000000
+    new: a1bebb1e910cdb1427ae156a2bcf7a1bb7484ddc
