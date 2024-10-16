@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6703183507412377934=="
+Content-Type: multipart/mixed; boundary="===============0140423794640785817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 16 Oct 2024 02:39:53 -0000
-Message-Id: <172904639313.2514961.3892623769262232587@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 02:40:13 -0000
+Message-Id: <172904641347.2516684.14553412185657572559@gitolite.kernel.org>
 
---===============6703183507412377934==
+--===============0140423794640785817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,65 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699
-    log: revlist-9852d85ec9d4-94c4c5d78b0f.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7954229fb1d919b6a6fd589f95f3c6ef690e9b55
+    new: 043d4fa26b4991e2065d71963fc9aed1390fb0a6
+    log: revlist-7954229fb1d9-043d4fa26b49.txt
 
---===============6703183507412377934==
+--===============0140423794640785817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729046413 -0400
+pusher 75C5DE3D 1729046418 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729046391-15df84ecef13b71811ba1373b7a138d0a5ad43d8
+nonce 1729046397-71eddfbd1b367c3d55849c4cf89f41ab92b09d97
 
-9852d85ec9d492ebef56dc5f229416c925758edc 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 refs/heads/queue
+7954229fb1d919b6a6fd589f95f3c6ef690e9b55 043d4fa26b4991e2065d71963fc9aed1390fb0a6 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJ40ACgkQ7ulgGnXF
-3j1Ycw/+JoBwMOkVHIP78r4lxYX4MHfK6mn5tMt6U//HZaRZ0RP02d2pL9KeiO60
-vUwX10aqqFBtylvackZxJHKuilFssjbmZZb9V9UdD9wYIkpyrE9yh2+f0jMvazmy
-E81nI59vxLOnBQld86+j0RhIUTyZl9DWphreUcEaXmV3KcMCqAHnnJr0XLyvIDQo
-bmQcRogedPE7VOKUqWT7uxUegNgaY6vxddZuz/ciJNERiiQeNWN4OiaKw08VkKJ+
-9XUBpWinQUVY0MUqmmtN4GwfOIBFrrR9p7N+93MFUKOqe0d+iyO3PlnHCcKb22g8
-Z6VveVtA9fIp8q/puHjVQYYhddD4fz64NXlLBSeTxr8vYxG4QyINLphnUK+XI4wx
-B2YK29azLVHDjxqZhQMoNwYd/41KnmoVIjRRSnIzZ5hRS0+oYO8/6mFPAelkh8AW
-u5W999T871jzCgogGQtJm2PxcCOGn7MkksvJzFxRYQNAi8/9SGujok3TSGfgK+mn
-YbGd/MrIYDBo/z78BmcqjJ9NRD5F9pXiQGU2ipiKDibVJu+/AMOe4A2/H68Jz4Js
-CPHoKXdB5KBXG9qEquZvU+YUnFA8ZOsJ9whnAvw1JsDWoWgIK5MerOYfVTkSw9Uu
-GyIWz0R1xEYpvfVv3clF3/5SvoRZXnHL8CIJbvrwGTRDdUc84Bw=
-=csTP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJ5IACgkQ7ulgGnXF
+3j04pA/8C+yHNiSo36tp23kxA58yfkB5LlyzEQqDsJLqYV/TggxbMAB+SzZ8fKaN
+n2ula69S29SbYLNgb6Vd27QgnYz4CgerzD8ezdtPvo31oaxUbehwvbOUnbMVUO+x
+cxVzty/cCdasfvnWL2Vlvosxpb0iGqG4AXY/uHJsYNfhb/L8Fn2YRF0Ed+82rV0G
+oJ/JGWFzU9kBPiUyCRHtY/gXDt39ePiR9qupkXDhVpsqSEi8WLxs76rKwtGj6avF
+1t7tIwN6SEkEWHaz8dg9JBau1r9jQT19h5S56oTMYQt8ms/XLSeYsfr/S/f9NuKC
+9cktaIvjPYVsJ1ozzSWBje+kjdYQeO5VEcikN7zfcCUurJOejc7qnRgBrLarorxB
+lOA+esNhuHBsfvsoZME0VyuhsmH/l+bJzXx/xgHxLABY/mAaGtu1YoH8I2JRsmsa
+/VYPDaDR/Dpd2wPsgfkzCDXZ8MQ18UfsM9/4ObP0x5Fq7W/KehVNpdD8xLvyW5Yl
+QOKEakShymERD/F679zcrpjJmIxaGC6yYAFQV092HjguwXn351PBiQN7DfYERORz
+BQvP9laVi+WROrdbJPwo+zm9VfpiuQ7RCzk6HiJWCHUFNhiglYi9DvEtLDL2O1Ad
+R9JYCL8Q1o04eu9Gp578RivGGs4CXtgBNcV/ZrJH7wY9rDU+1DU=
+=uTuu
 -----END PGP SIGNATURE-----
 
---===============6703183507412377934==
+--===============0140423794640785817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-94c4c5d78b0f.txt
+Content-Disposition: attachment; filename=revlist-7954229fb1d9-043d4fa26b49.txt
 
-c602a04b27ec80ada4b288967a09f213d5e05722 scsi: ufs: ufs: qcom: dt-bindings: Document the QCS8300 UFS Controller
-22fbabe82cea7af4127f089b7f3553cd75571d9a scsi: ufs: core: Improve the struct ufs_hba documentation
-e31931d646d3bc2223d9a275bac9cdc4963c5bc1 scsi: ufs: core: Make ufshcd_uic_cmd_compl() easier to read
-fcd8b0450a9acbf3f0e88d749a72ef932df97663 scsi: ufs: core: Make ufshcd_uic_cmd_compl() easier to analyze
-b1e8c53749adb795bfb0bf4e2f7836e26684bb90 scsi: ufs: core: Always initialize the UIC done completion
-b1ab5e28c8378d69a8152e24263eb1a8bc79953b Merge patch series "Clean up the UFS driver UIC code"
-ab19e3154cc12fdf6c39b6e0a2ed518e45d9f876 scsi: qedf: Remove dead code
-aa948b39ddc703ca6a0d0e1b1ab593767d67363c scsi: bfa: Fix cacography in bfi.h file
-5a66581a1af50b45bd4ced096201dfaac4d1ca83 scsi: aacraid: Remove unused aac_check_health()
-0b1e535598d576e0727b2028a4e4e69f3e46596a scsi: aic7xxx: Remove unused aic7770_find_device()
-09822c231ae69e4ebc686ebe8b8cad02bcafea54 scsi: mptfusion: Remove #ifndef __GENKSYMS__ / #endif
-71ef4e6b05ae0a1b6bd8ba864815b01e041dfd10 scsi: ufs: core: Do not open code read_poll_timeout
-43abe48d95fee8816f79e085ea9c86e4f65607e7 scsi: ufs: core: Zero utp_upiu_req at the beginning of each command
-94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 scsi: ufs: ufs-qcom: Add fixup_dev_quirks vops
+f3845d7d7145e325cf6512d2b7e805acd08ea291 scsi: bfa: Remove unused bfa_core code
+0604cf11cd56179fa86baeb030d8862489d341e1 scsi: bfa: Remove unused bfa_svc code
+b74448006a67debcd5299c9ab16b2e8ca748bee6 scsi: bfa: Remove unused bfa_ioc code
+372dcc01616e41e06016044c330caed7117689cf scsi: bfa: Remove unused bfa_fcs code
+8d7cfe95217cae5ce8e0f6e35eef43a11dd33c48 scsi: bfa: Remove unused misc code
+a0113b46a1230e2ce746fba179d6e347f2f00e76 Merge patch series "scsi: bfa: Remove deadcode"
+e6702e3919328b24757872cbf7f02c51894624d7 scsi: hisi_sas: Adjust priority of registering and exiting debugfs for security
+436a97c5d2882c09f44d3255ac47f641860faeea scsi: hisi_sas: Create trigger_dump at the end of the debugfs initialization
+2c335fa7e69c06d8932ae8bc0ec7145de2973cf5 scsi: hisi_sas: Add firmware information check
+08a07dc71d7fc6f58c35c4fc0bcede2811c5aa4c scsi: hisi_sas: Enable all PHYs that are not disabled by user during controller reset
+64359afb7068e9fd1b3ffcf7b0fefb63d1a2ccdf scsi: hisi_sas: Reset PHY again if phyup timeout
+4ca4ce000610d51c741ad81bffc79434421a0101 scsi: hisi_sas: Check usage count only when the runtime PM status is RPM_SUSPENDING
+2233c4a0b948211743659b24c13d6bd059fa75fc scsi: hisi_sas: Add cond_resched() for no forced preemption model
+a220bffebabe7227b4dbb8f811bc64ecf25e017e scsi: hisi_sas: Default enable interrupt coalescing
+90b24856b311e7e2f4f1629fb315ee50a4914aa5 scsi: hisi_sas: Update disk locked timeout to 7 seconds
+3c62791322e42d1afd65acfdb5b3a371bde21ede scsi: hisi_sas: Add time interval between two H2D FIS following soft reset spec
+90f17e3431d9c643558c3c343407ee37783d5e43 scsi: hisi_sas: Update v3 hw STP_LINK_TIMER setting
+9f564f15f88490b484e02442dc4c4b11640ea172 scsi: hisi_sas: Create all dump files during debugfs initialization
+cae668130c07f6873718b6f5b415d22e1008f2c9 scsi: hisi_sas: Add latest_dump for the debugfs dump
+a3517717c3c0dbad771f5e491191b4b7b69808fb Merge patch series "scsi: hisi_sas: Some fixes for hisi_sas"
 
---===============6703183507412377934==--
+--===============0140423794640785817==--
