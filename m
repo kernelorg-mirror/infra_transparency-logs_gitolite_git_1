@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 16 Oct 2024 12:19:18 -0000
-Message-Id: <172908115852.2974468.15490545557662549011@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8501627950043905772=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 16 Oct 2024 12:22:37 -0000
+Message-Id: <172908135737.2977869.9324250722998350622@gitolite.kernel.org>
+
+--===============8501627950043905772==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: 2b57572c9b36d0655e0bdde94614f681f3c69d56
-    new: bdffc5903cce1f67056b7b8373d00dbe795a92fb
+  - ref: refs/heads/review-ilpo
+    old: 8150408bfdb2f9c17970295427cf91470189e6d0
+    new: 7dd1233931271f4c7efd5456aaa6e8bb8f77b5e8
     log: |
-         acc450aa07099d071b18174c22a1119c57da8227 arm64: probes: Remove broken LDR (literal) uprobe support
-         50f813e57601c22b6f26ced3193b9b94d70a2640 arm64: probes: Fix simulate_ldr*_literal()
-         13f8f1e05f1dc36dbba6cba0ae03354c0dafcde7 arm64: probes: Fix uprobes for big-endian kernels
-         e3e85271330b18f487ab3032ea9ca0601efeafaf arm64: set POR_EL0 for kernel threads
-         f56d8d2389ba2a0cab0512637bd264611eab1b9a Documentation/protection-keys: add AArch64 to documentation
-         7aed6a2c51ffc97a126e0ea0c270fab7af97ae18 kasan: Disable Software Tag-Based KASAN with GCC
+         7dd1233931271f4c7efd5456aaa6e8bb8f77b5e8 x86: acer-wmi: remove unused macros
          
+
+--===============8501627950043905772==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1729081375 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1729081352-85fd127d6c5d06df9e21c6f64f44155502c41ce9
+
+8150408bfdb2f9c17970295427cf91470189e6d0 7dd1233931271f4c7efd5456aaa6e8bb8f77b5e8 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZw+wIQAKCRBZrE9hU+XO
+MRqIAP9n0nmJSyQMrDzfHa9MLGcrWIqq3HNXO4l2JIDvVP+qNAD/ZCs/scrBdwDF
+gJyhFS+FiiRLTT9Fidjcv6ZqRksxtQE=
+=spCR
+-----END PGP SIGNATURE-----
+
+--===============8501627950043905772==--
