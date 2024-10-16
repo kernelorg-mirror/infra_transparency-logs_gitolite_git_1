@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0493254893180546150=="
+Content-Type: multipart/mixed; boundary="===============1929738052635000035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Oct 2024 08:22:19 -0000
-Message-Id: <172906693905.2785857.13948029177779298927@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 08:22:59 -0000
+Message-Id: <172906697956.2786229.11624986335637060949@gitolite.kernel.org>
 
---===============0493254893180546150==
+--===============1929738052635000035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    new: 92682f3460071733f16cebd7cf8e33e776bc9aaf
+    old: 92682f3460071733f16cebd7cf8e33e776bc9aaf
+    new: befab3a278c59db0cc88c8799638064f6d3fd6f8
     log: |
-         0240b293ec0fd90b92ac938dc28134244e9142d2 MAINTAINERS: Add an entry for the LJCA drivers
-         92682f3460071733f16cebd7cf8e33e776bc9aaf MAINTAINERS: usb: raw-gadget: add bug tracker link
+         befab3a278c59db0cc88c8799638064f6d3fd6f8 usb: typec: altmode should keep reference to parent
          
 
---===============0493254893180546150==
+--===============1929738052635000035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729066954 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729066998 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729066932-30979794aceac7497965b0074ec5a9721ffc1813
+nonce 1729066976-b1536c4ab9089c333beaa504cac3eb74fdac9e65
 
-8e929cb546ee42c9a61d24fae60605e9e3192354 92682f3460071733f16cebd7cf8e33e776bc9aaf refs/heads/usb-linus
+92682f3460071733f16cebd7cf8e33e776bc9aaf befab3a278c59db0cc88c8799638064f6d3fd6f8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPd8sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m1wP/A7RBEFA1A62qJSjhNAR
-I31Q2xvk/rUAX019BEKIT4i6UXgKZD1fjV18RAVIPl/jK79K4TYahgfiB8n6SgAd
-Upu4dS9g7KGsYvvO5jN9hOkKVn7iOZBm3ANbWHFKHD2UZ6To5gDQBGBp9NGLd+cp
-dotBUrVXjiqot1wl2do44HTk12nH1DGqZEU5n6f/MlRniiEC8aZX+jFKpk2/CMzL
-z3ASpJ8nUqWh8npx4atTaMOl0ppzzl/MYyS0GracygkXD1Uv6y21pahY6kQZOcSa
-GL1Pq/LeUKMP1RuiF7tUkuB6MwJxPZap1yeMXkWPrR5Bq1nQ5OPOPUeUES4yiW4g
-VPWyuOj5GFcMXCRM5BqPTNGt3ce/T5lKzlLYidicMvmjVr5yXj3Jp0baCFt7Lp8o
-8RW51MJq9i0sw4t1vG3UxNuiQzlS80+FS0LpXgcPECoOxlRg5TbdwyYmiVxbMnb3
-/PrLeYdiB17jCk3GhhQF/ZzRMuHXtNVmwQpWV+WiDZ1iO+a/+tuhv3Ixmjx6cyIY
-pUWwDDsmu19iEXoHJMF7A4w2+zx1idpjdEZCVRynMLAJqQqIqrVsUhsxuUFV3KKA
-Z0kKXMReXbP5hsJsbljpfRoIpcj5p757IYqNjytlshhxe8VW9Cox77KtCV24umrD
-lwNQ/l6BUi8mxMRoZNBnpTnJ
-=D/s4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPd/YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zy8P/idc0SHSTej2swDbRKJd
+PUYdKgyDqq1lfhjVqLbOYL8VAgvsrU+tW/u7dsT/G8KUTctq+rkBdwrDHajAWlgE
+3eTpd9g+TAebZK4lK4bYFyN5cjtf2PSPXpHrZV8rIlc6D/WdjCBOryAyi2isFb6a
+IyAAa6wRoLt8cUkRyczTDXj+RV8yZ7EfZOXGhc8AI6yLFi72em6/94UV2ijfDwxX
+KrMV0z/e1oZHvibWd+GDUG8z5isfKiEh4PuCxeG7nnyaZ33ZggFSJJpSh7qm+sCE
+ihnMogMTu6SDCStYmzgu504DrSpI+dwHmrWW2MWbUaNeF1QxOIU+zOyvkTtF9rG0
+4Ad8+Z5CdY3OlrxcGMRp4/z+xe/WgqRTbbgzT9e7KlgThZJlpgLpAiszsc67s5+L
++6ZVY+r7ZUXzJt9yEcCGBkca2gnWQ04V69LwP/oAFeDkoTNgHV2yA/OZeHw9psxJ
+5vT2V6JvTX+CDGcMBpSJz+dD6wKOvxDj8LkiMXbEf40UP8MjEgku6JFeWOMywHLh
+nz9tG52+ugWjY3VCn1kiGJNos6bV4WGGajMW8iJUclhe1FvDzUy6jpE7WWc+siZc
+wDWFzTNDuStpt06nwJPDfx+AWeW/QRYBNJ9jCD2KxkqTv7ceB9qDVGSt5FQLIyrP
+XfBe8CGgih7gAKSCZVGQl0g7
+=oW0x
 -----END PGP SIGNATURE-----
 
---===============0493254893180546150==--
+--===============1929738052635000035==--
