@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2878228197961266732=="
+Content-Type: multipart/mixed; boundary="===============5520092872200170697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Oct 2024 08:36:42 -0000
-Message-Id: <172906780265.2798946.8034474830226056152@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 08:42:00 -0000
+Message-Id: <172906812024.2803174.2022826140224223524@gitolite.kernel.org>
 
---===============2878228197961266732==
+--===============5520092872200170697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,37 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 9499327714de7bc5cf6c792112c1474932d8ad31
-    new: e41eb35f259712a853d2dcfcb7515d421947e683
-    log: |
-         855b665204a31d4191238e6bf35253a210902874 dt-bindings: phy: qcom,qusb2: Add bindings for QCS615
-         e41eb35f259712a853d2dcfcb7515d421947e683 dt-bindings: phy: qcom,msm8998-qmp-usb3-phy: Add support for QCS615
-         
+    old: e41eb35f259712a853d2dcfcb7515d421947e683
+    new: 9499327714de7bc5cf6c792112c1474932d8ad31
 
---===============2878228197961266732==
+--===============5520092872200170697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729067821 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729068139 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729067799-10654f6fe3537bc16b8b6b391442f6c93dc759aa
+nonce 1729068117-76a38d8f6fa4882cecd5f179ddffc24f51ddaee7
 
-9499327714de7bc5cf6c792112c1474932d8ad31 e41eb35f259712a853d2dcfcb7515d421947e683 refs/heads/usb-linus
+e41eb35f259712a853d2dcfcb7515d421947e683 9499327714de7bc5cf6c792112c1474932d8ad31 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPey0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jd4P/j+owH6RvTO0EfEmIl+g
-uXVMKTLQwOpnrId00e91SGn4V3seExPPVAlxOccFxLSRiDVooHdq8t7gsTHNhm3h
-+KKOB7k7TAitTFwN4JekJY20XJIjMeyqMZGljEzZkHJrQRCcvXbEgch2DuLBUsBF
-ulYPflAoUg27+wXM56eDLh3hfvRb5R62NHRFVdpsNgvy1V3qWe20QJMajiri0wCk
-PT++uKQ2aZaMlgiUlWvLVhmD7YMZ+wWVnwX8WBEqAECn1J183wdwHFmqcdY8QPQV
-ZJwQw6X9xWMJG0kwyvITkz2LbB11tdTB4Lsdwm0C8XQ3pwWsAxNSostXA5kw0tWv
-jwlYIP/5TOwraj+cXGRBtJHVnjMkKjV3vSA1HGOGhMhQ/4ph/UFg9o89vO8xE5fH
-10ka/fG1LKRyXfwHTHd9fyFfOfElOSeAqosPCF6MDDNtgRxT33E8b4edsjz9o6h8
-skcS9lNz9yphsiVNN16QPNHaOS1A4PpFw9ykIyHtDGUptcbNJNyUPOiTFl1vxyFS
-hRiEwEh2xFzMvgzY/inVIcF2Opo94oVdYKQJz4QY/ImbNPj6ngeua9qBDcyroEAP
-9EgZMiPLhiMbSkgGBfADjxoYQf6MyMGGRypwCcYw9XJVs19D2nXqoHprPr84Mabh
-OIGh5Da64kMTdh5UsRH+i1kU
-=amUp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcPfGsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MDsP/3t/1NutaG2tsx3B39zx
+melRDtJ0cboBn9xwgxzcpJ4fKEP35I5/FJ5xQkv1QsfHD1gN7HDlHvC8PKgqm43r
+JnX967FDnnDfFrhNl1sTOpCzo26IK4JpI3l7LzBiokDrAPAAuBSlg/ZV8K2Aum7T
+Cgfq0TGtl2L0RAD5n1nf+VCQ3yEldxX0UG/jvnLJAH3uqcOQJmiJZPJ4CTMs4+b9
+G275phgi6T2jFs6fuOgL9OxZuAZVSOC6AFOxHjGkO2KivY0gjc80HVfMTq5unWHB
+eQQyXbOw3hUs1lIj6Wd5sYQknBxnRbuPp8dh8EC6lufBV3tRWCzWY+wywHPr+Mxb
+PcmnRn58O534dP0MJn9x80xl8MXpOkDrsLPRVHWjaaw2J7FyIUd8LQaYnuDyOEJu
+crXV05zD5S4hHJXUIGOdjHJswWfyEES0pH2KxR5VYsTsoX3lmS114rKtlxqLrAkl
+HFuM/G1CtYCSQThfZ41MeVzrTmYHYUE1mR2KSoZfBWJVlM+0ZCtsQmOrqw+ga0VU
+DnSkWw3i6zb3UjhMdZ6v6YmKT9l810Tqbt24NEsoKJJd/6Efie9zwp6IrWPfP9dt
+hz4b9FZQAz35bAFOzCZoQQ1ImN0cA0tqYDl8aCKG5XFk6fdOY+Fi94XE6Z7t61qr
+Jc4ye+LWtD+1WleWhdlRNMCf
+=9wEx
 -----END PGP SIGNATURE-----
 
---===============2878228197961266732==--
+--===============5520092872200170697==--
