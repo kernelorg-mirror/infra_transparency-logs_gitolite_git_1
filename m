@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5992851492119473223=="
+Content-Type: multipart/mixed; boundary="===============7212352083878900547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Wed, 16 Oct 2024 23:30:04 -0000
-Message-Id: <172912140482.3534240.15517588706927856594@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 23:30:16 -0000
+Message-Id: <172912141635.3534541.15141408845094383618@gitolite.kernel.org>
 
---===============5992851492119473223==
+--===============7212352083878900547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-current
     old: 256abd8e550ce977b728be79a74e1729438b4948
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
     log: revlist-256abd8e550c-8e929cb546ee.txt
 
---===============5992851492119473223==
+--===============7212352083878900547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============5992851492119473223==--
+--===============7212352083878900547==--
