@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 16 Oct 2024 15:58:19 -0000
-Message-Id: <172909429934.3153610.14099961762953464486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 16 Oct 2024 15:58:36 -0000
+Message-Id: <172909431694.3153915.6033389373898897250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 1608d6243da9d479910919e7bc0195050b43aa2e
-    new: c3d1fd9e646d5bf95d74d613bb2d9803d0ec8eca
+  - ref: refs/heads/rproc-next
+    old: f5964cecd91fad55e732ded94bb7b9168ee0c294
+    new: 9c12b96ee244b9679629ac430c375a720bfec04b
     log: |
-         7902a76b54e32fba7b300426e7dee0a61dd7b4c2 Bluetooth: bnep: fix wild-memory-access in proto_unregister
-         c3d1fd9e646d5bf95d74d613bb2d9803d0ec8eca Bluetooth: btintel: Add DSBR support for BlazarIW, BlazarU and GaP
+         9c12b96ee244b9679629ac430c375a720bfec04b mailbox, remoteproc: k3-m4+: fix compile testing
          
