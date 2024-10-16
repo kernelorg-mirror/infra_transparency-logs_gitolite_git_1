@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2693206852629401017=="
+Content-Type: multipart/mixed; boundary="===============0847255225816203614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 16 Oct 2024 02:39:44 -0000
-Message-Id: <172904638412.2514681.8166363460652950250@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 02:39:48 -0000
+Message-Id: <172904638864.2514857.14868411228668894472@gitolite.kernel.org>
 
---===============2693206852629401017==
+--===============0847255225816203614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: a8ea4ead90d2ce935cd48acdeefb94b116bcc380
-    new: b33b4e85f3919fae4dc0550eb32aeccc1238b484
-    log: revlist-a8ea4ead90d2-b33b4e85f391.txt
+  - ref: refs/heads/6.13/scsi-queue
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699
+    log: revlist-9852d85ec9d4-94c4c5d78b0f.txt
 
---===============2693206852629401017==
+--===============0847255225816203614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729046389 -0400
+pusher 75C5DE3D 1729046408 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729046368-19f4d5ea8a03c66abb830fbf02373f832bfa49a2
+nonce 1729046386-2f95f25da5ed2764672facb957bd6f4f713f3305
 
-a8ea4ead90d2ce935cd48acdeefb94b116bcc380 b33b4e85f3919fae4dc0550eb32aeccc1238b484 refs/tags/mkp-scsi-queue
+9852d85ec9d492ebef56dc5f229416c925758edc 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 refs/heads/6.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJ3UACgkQ7ulgGnXF
-3j2kMRAAhFGnGls/SWnLblPF4ZoNSODdlpgP9Ew6EnV8KfyKsA05HlxJdW+jQ0OP
-IPJ5PM86kdrR+MU00dnQN37nHaz/y7Lxpq3tOaN6f9VUrNvW5UnJ/UeKH3RP+EHx
-pI+U0Gv2CqJaFdzRJoy74f5LEzT5D3DgyhbmWtPlartGJ1A1xY1fIwSAHSLb77Jp
-O3LfZPxrhor2dyRX6HAvhwqXvvCPnJC6BP0kBA+ue/b7y6Lkpk9ov9+FStVzRQ9i
-85XXMYPajAgw2sf1x8V0aoaQAQYyWkyKTh914qgcl11dJ3RI3Dn6tkPG68TAa8nr
-4uMrANcmsKZGW/f4+4y0ch1p5bk7diIyUTkijyipbhXhbglfsMBUjMzhvVkLoMzR
-Xznc1nwZeCPxHefky7iSIekrzWb+JzeNMyaCSLcuNxSZnlNnAV+4hHPT2eZhhsj7
-/cV1Bgft2QwWbVUo1SH8DmTj8/CEq/hCpjMuWcBxBm+7ftssmpNFMyZzFBVJjbbq
-Ecs3ZKuUeRL5Weex2iCoMk7beIonY6wkV134M6/Yg7VEPHiAL3CjUMDvdnUDKKln
-Oa+Z+iRimWmCN4Pp52iePEThEU2UUHVD3fnSH99YkVjzljfhuTCAfloFHG8RcAgh
-XcknxWFgczco2WUc+yM02QyQ2gKXaF1hQ3dZ3bfZyK6ZuprDkeY=
-=RG9o
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJ4gACgkQ7ulgGnXF
+3j1zbw//Rxg/9mD9f/y+KtgW4JIEl9RB+6ZvZG5p5sQsd2YYdT3jDmcteuCLLWOf
+fjMXh9utWGWMKYSxRMawnOZsbAOFKiTf1xvvetNIy1rI1AZqhfZFwNHpCWyCAQmc
+4lVtsYnvHoVblmS1QUxFG6FEirGnoLiWHQbFRDEL0I6xL9xcfThdxjT4vCAcslEq
+6Hih5jH0I3OwaDsPZgisMRVZwHnAoE6ndTY31ljLwzx2tWh2oOPrC4KyOj4+R++J
+af5kQX/lne8YpUhG0e0C1dw9+IqPxVteWhiPcDgizoAokMauliFdpiqiHyCzJDtR
+zPVA75lFdJ4V8L+vIx0Fa8BFpO8rF02uno5jjf3ViYnCA2/Bo2Ylfm8NpUAxGcwB
+yTYszFYjAczEal75htlkZoBNpuL2zNb0VkgGKcFyjK+gpILcxtZ+zd+QEReqBQO1
+8xqHA1vS7hYpJp8o/oxHxhFQAz88K0kVTW0OFAlGnHahuIse80bxdVNCJY2/ybo3
+FHiy+VkQM2oHSs51NvjedmyftS8244ze+8/mp8U+chK4SkuJLnE7GTvlbRwdf/T8
+TiCW1NjHW9uzlsc9VQIevOcsiUX+L7BpbfDvPU/g924382P/o2paMYWRdZcyUSC6
+vKxlsxWWC7KnHGje433EfmsyHi/1T0QSot0nyzHFLcHhSsLN994=
+=j58L
 -----END PGP SIGNATURE-----
 
---===============2693206852629401017==
+--===============0847255225816203614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8ea4ead90d2-b33b4e85f391.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-94c4c5d78b0f.txt
 
 c602a04b27ec80ada4b288967a09f213d5e05722 scsi: ufs: ufs: qcom: dt-bindings: Document the QCS8300 UFS Controller
 22fbabe82cea7af4127f089b7f3553cd75571d9a scsi: ufs: core: Improve the struct ufs_hba documentation
@@ -71,4 +71,4 @@ aa948b39ddc703ca6a0d0e1b1ab593767d67363c scsi: bfa: Fix cacography in bfi.h file
 43abe48d95fee8816f79e085ea9c86e4f65607e7 scsi: ufs: core: Zero utp_upiu_req at the beginning of each command
 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 scsi: ufs: ufs-qcom: Add fixup_dev_quirks vops
 
---===============2693206852629401017==--
+--===============0847255225816203614==--
