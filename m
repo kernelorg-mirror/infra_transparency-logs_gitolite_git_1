@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 16 Oct 2024 17:29:34 -0000
-Message-Id: <172909977443.3227859.14831511358320152205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Wed, 16 Oct 2024 17:45:29 -0000
+Message-Id: <172910072928.3241846.9055268217133867288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/dev
-    old: 9b7eac1345e2b00c3d0c43529405ebc4edf54646
-    new: bb630483eb07835c125d154f05c8d0faece7c8c9
-    log: |
-         bb630483eb07835c125d154f05c8d0faece7c8c9 rcutorture: Decorate failing reader segments with CPU ID
-         
+  - ref: refs/tags/amd-pstate-v6.12-2024-10-16
+    old: 0000000000000000000000000000000000000000
+    new: 47cf7b99c6053ade72b81e37df38c1872f1cbefc
