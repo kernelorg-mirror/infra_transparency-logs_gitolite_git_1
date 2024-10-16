@@ -1,48 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============0473849624423467471=="
+Content-Type: multipart/mixed; boundary="===============2046159515212926579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 16 Oct 2024 16:28:56 -0000
-Message-Id: <172909613617.3180004.11655551319377541066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 16 Oct 2024 16:29:38 -0000
+Message-Id: <172909617829.3180454.11261501069271704366@gitolite.kernel.org>
 
---===============0473849624423467471==
+--===============2046159515212926579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/dma-split-wip
-    old: b470190270ecb12806f98568e69e6882aa02c0d7
-    new: 116c076b883e97550357133094e1de2c83d52a75
-    log: revlist-b470190270ec-116c076b883e.txt
-  - ref: refs/tags/dma-split-oct-16
-    old: b470190270ecb12806f98568e69e6882aa02c0d7
-    new: 116c076b883e97550357133094e1de2c83d52a75
-    log: revlist-b470190270ec-116c076b883e.txt
+  - ref: refs/heads/for-kernelci
+    old: 3d363ba041e1a2e691940afc6045206070822605
+    new: b9e20acb61ba6342ea4c89b587883209defc755f
+    log: revlist-3d363ba041e1-b9e20acb61ba.txt
+  - ref: refs/heads/for-next/core
+    old: 45d27a4d06276ba85a50245d68fad29fd24145b2
+    new: c10019c2a1840f9cecb9d25cf2454ecdc72c24cc
+    log: revlist-45d27a4d0627-c10019c2a184.txt
+  - ref: refs/heads/for-next/gcs
+    old: bb9ae1a66c85eeb626864efd812c62026e126ec0
+    new: 9b9be78258511e67767e4aa51f587cf22feb5065
+    log: |
+         48f8d9cef766f8ed4bbccc0d759710262d34f40b kselftest/arm64: Validate that GCS push and write permissions work
+         9b9be78258511e67767e4aa51f587cf22feb5065 kselftest/arm64: Ensure stable names for GCS stress test results
+         
+  - ref: refs/heads/for-next/tlb
+    old: 0000000000000000000000000000000000000000
+    new: a923705c69f7f4ebe6a5488c1f556bed12d28031
+  - ref: refs/heads/for-next/misc
+    old: 0000000000000000000000000000000000000000
+    new: 0f612c6eb13ad85a60e00c751c83e24f4a32cd0a
+  - ref: refs/heads/for-next/mte
+    old: 0000000000000000000000000000000000000000
+    new: 27879e8cb6b0fdb5cdcd76685f290729309711c6
+  - ref: refs/heads/for-next/sysreg
+    old: 0000000000000000000000000000000000000000
+    new: 0349934618907a0bfc9088282c526c2852d4ccaa
 
---===============0473849624423467471==
+--===============2046159515212926579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b470190270ec-116c076b883e.txt
+Content-Disposition: attachment; filename=revlist-3d363ba041e1-b9e20acb61ba.txt
 
-5d39d540d9e13ac151cde0919de3be7f015a25fc mm/hmm: provide callbacks to map/unmap HMM PFNs
-fa5983d12d36147cf2f1eef710d17cebf62d94d2 RDMA/umem: Preallocate and cache IOVA for UMEM ODP
-31f238495ae10eda80b534144f1149f0608d3055 RDMA/umem: Store ODP access mask information in PFN
-94d1c217f8e63da91f0c3566826afb36ecaf03d4 RDMA/core: Separate DMA mapping to caching IOVA and page linkage
-32885f632a707bc23d2f70e08c3e2edeb5e24aa0 RDMA/umem: Separate implicit ODP initialization from explicit ODP
-2a6b658a179b962a3c8a055188b740c3e0c318b9 vfio/mlx5: Explicitly use number of pages instead of allocated length
-0593c7bfd6fc4fc5b60d4f8dda3c62514976ae52 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
-8d9f65c11a4971291ea49d3871b4a459d2c599f8 vfio/mlx5: Explicitly store page list
-2e59d154f59cd5376b993de1eba07157a10e2596 vfio/mlx5: Convert vfio to use DMA link API
-78115ba5dee1d5c9af40df5c39407a4c8595e7a7 blk-mq: add a dma mapping iterator
-bee989c0b0bd9475b9b2cfacd871c0b98e3655e9 blk-mq: add scatterlist-less DMA mapping helpers
-50d4720274bd5cf7dd918b0d0d99edbe9161ff1a nvme-pci: remove struct nvme_descriptor
-5da1b306e726cd35958b217f04b86c424e21402d nvme-pci: use a better encoding for small prp pool allocations
-116c076b883e97550357133094e1de2c83d52a75 nvme-pci: convert to blk_rq_dma_map
+7ffc13e233951f15728c9d09db3cc8d9f6cf81f2 arm64: tlbflush: add __flush_tlb_range_limit_excess()
+a923705c69f7f4ebe6a5488c1f556bed12d28031 arm64: optimize flush tlb kernel range
+8ef41786d88fd429829bd143323168a9468e3be0 arm64/mm: Change pgattr_change_is_safe() arguments as pteval_t
+25c17c4b55def92a01e3eecc9c775a6ee25ca20f hugetlb: arm64: add mte support
+27879e8cb6b0fdb5cdcd76685f290729309711c6 selftests: arm64: add hugetlb mte tests
+48f8d9cef766f8ed4bbccc0d759710262d34f40b kselftest/arm64: Validate that GCS push and write permissions work
+9c4a25140dee5356254ddb921086c49fb93ba952 arm64: cpufeature: add POE to cpucap_is_possible()
+9b9be78258511e67767e4aa51f587cf22feb5065 kselftest/arm64: Ensure stable names for GCS stress test results
+0349934618907a0bfc9088282c526c2852d4ccaa arm64/sysreg: Update ID_AA64MMFR1_EL1 to DDI0601 2024-09
+0f612c6eb13ad85a60e00c751c83e24f4a32cd0a arm64: head: Drop SWAPPER_TABLE_SHIFT
+c10019c2a1840f9cecb9d25cf2454ecdc72c24cc Merge branches 'for-next/gcs', 'for-next/probes', 'for-next/asm-offsets', 'for-next/tlb', 'for-next/misc', 'for-next/mte' and 'for-next/sysreg' into for-next/core
+b9e20acb61ba6342ea4c89b587883209defc755f Merge branch 'for-next/core', remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
 
---===============0473849624423467471==--
+--===============2046159515212926579==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-45d27a4d0627-c10019c2a184.txt
+
+7ffc13e233951f15728c9d09db3cc8d9f6cf81f2 arm64: tlbflush: add __flush_tlb_range_limit_excess()
+a923705c69f7f4ebe6a5488c1f556bed12d28031 arm64: optimize flush tlb kernel range
+8ef41786d88fd429829bd143323168a9468e3be0 arm64/mm: Change pgattr_change_is_safe() arguments as pteval_t
+25c17c4b55def92a01e3eecc9c775a6ee25ca20f hugetlb: arm64: add mte support
+27879e8cb6b0fdb5cdcd76685f290729309711c6 selftests: arm64: add hugetlb mte tests
+48f8d9cef766f8ed4bbccc0d759710262d34f40b kselftest/arm64: Validate that GCS push and write permissions work
+9c4a25140dee5356254ddb921086c49fb93ba952 arm64: cpufeature: add POE to cpucap_is_possible()
+9b9be78258511e67767e4aa51f587cf22feb5065 kselftest/arm64: Ensure stable names for GCS stress test results
+0349934618907a0bfc9088282c526c2852d4ccaa arm64/sysreg: Update ID_AA64MMFR1_EL1 to DDI0601 2024-09
+0f612c6eb13ad85a60e00c751c83e24f4a32cd0a arm64: head: Drop SWAPPER_TABLE_SHIFT
+c10019c2a1840f9cecb9d25cf2454ecdc72c24cc Merge branches 'for-next/gcs', 'for-next/probes', 'for-next/asm-offsets', 'for-next/tlb', 'for-next/misc', 'for-next/mte' and 'for-next/sysreg' into for-next/core
+
+--===============2046159515212926579==--
