@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0030406063908942410=="
+Content-Type: multipart/mixed; boundary="===============8409623125355284536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 16 Oct 2024 02:39:00 -0000
-Message-Id: <172904634069.2513433.11734290836033012479@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 02:39:19 -0000
+Message-Id: <172904635968.2513732.809760860510281989@gitolite.kernel.org>
 
---===============0030406063908942410==
+--===============8409623125355284536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: f9b9dd9cf451d51052518313d0046281e57f0e07
-    new: c300d50a5c87523969de3b6aefbd98c9d21376f4
+  - ref: refs/heads/6.12/scsi-fixes
+    old: d539a871ae47a1f27a609a62e06093fa69d7ce99
+    new: fca6caeb4a61d240f031914413fcc69534f6dc03
     log: |
          bf0c6cc73f7f91ec70307f7c72343f6cb7d65d01 scsi: ufs: core: Fix the issue of ICU failure
          8fa075804cb3b00960dd5c06554308175c834530 scsi: ufs: core: Requeue aborted request
@@ -27,33 +27,33 @@ changes:
          fca6caeb4a61d240f031914413fcc69534f6dc03 scsi: target: core: Fix null-ptr-deref in target_alloc_device()
          
 
---===============0030406063908942410==
+--===============8409623125355284536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729046312 -0400
+pusher 75C5DE3D 1729046365 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729046290-9a1886d32bf8f6b038cda2d46b6714b0795d4d33
+nonce 1729046343-989ba7823e1f93d1d25cb6e840e6ce35f854b3d6
 
-f9b9dd9cf451d51052518313d0046281e57f0e07 c300d50a5c87523969de3b6aefbd98c9d21376f4 refs/tags/mkp-scsi-fixes
+d539a871ae47a1f27a609a62e06093fa69d7ce99 fca6caeb4a61d240f031914413fcc69534f6dc03 refs/heads/6.12/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJygACgkQ7ulgGnXF
-3j2jlBAAgXsJWkr6pvQwvQuG3ORthNAVwy4RoKsuDb0jQ2Xn0utGHcxAyXrlChRq
-MocPOFPFSeAqcQS6zd6WdfjevaWpqF7Xu2m9i12OqH+/90RXFZikJsV0OSffpzNk
-Bw5EgRqDaLbsXOVnPug4wwsRRQDnRYj16QfsBytuNj2hbOIzmOeneTKnwJwIaxlz
-7x5YkP5X1TCazhhIBDvG7GLHcY6bwmElOHJcoXiwdCaOzhu04ywOPiRogGmuNkWu
-Gt7ZCwX1pHL3CznXWEzJLXs5uTmNt7rtK5AAY9uaSaLK82gEhp3UhuoaZUwSId/S
-vGpXCJluheo8W37RwrH5uBtQ9zOxeGyw74DoAdhP/PpmP3+Dz01JsYFXBwPVYAS7
-ni566LomQptqQTCJu0ST5Xkl4bW4itqvYRgSsZXlQjbEvs7X3OIVb5KkJ/isRDp6
-xUcgl4qF2U1C1SZbeNH2tIk/yGpsQc9282KCBwor4SRQqRQS1PHc+97QPKAg1qRz
-PwxQGvc9mGzXQvM6DuiUvF+jhdIkC8rpzPxVtVaBJo6zfuATNPy8MU2f9iaH7Hhm
-IWJqQJJwI7QIuk56x6rDG7wQ7S3vN3HLSP4YnOdQgsH7WGplImmDBBHiHrnEe1KC
-SERY04DYSOSBVDDZl9nGISaBJUqFKKOopkwko3Sph8/F/C94SfA=
-=yHu7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcPJ10ACgkQ7ulgGnXF
+3j1JGg//WPKGYKRHwxgNoP34t1Zx0ibnhY61nrUA5UJZwGMYjCx8l2XIDuuWAoTS
+bF3R8yxOIbPBqCyoWkvpt4NeyhXUt+6MzTdZWl2j75wahKUb5b+Api0Jj2drVR/c
+/2Ro2HIWYmg8Oeasb4nG1r2iGIv7BOEfVpPWi3x0PiNxJZucoylolkp1ElZfrGKi
+RECIfmgnleOKeEPcu+gOsf+fzsnBvB7IZKg4tfV22ZySF5YFqcbGjHyCKccJkeCT
+bY+gy1dg4fYwtdz7qAFo9kw561afyDKA2simk44RJ/N3zuGEsNuZDPbNdHGopYpH
+5DcFFdDLgRHtPATJbMRxOUYByjTKlFJr5VTW1TU4JhPCQlwVwZ+74FWApQ+r95sp
+VjSL2i7oY88Om5xw1jEbl7VmrY4t8TPCGVRdW+TXQSBJ1ZMdXamGsRBGSX5jMBjU
+mfxNCF+HOZR+LJknid7SuPl2lwj3lDnO+eQQe4nFQhC7cji/8+F6sfJuua7snzh9
+4DThxFomTWmGzn//ML22qEZ4/TvHVWm7klRe69+ebRjr+9H1/d+JoEnxB/KacEaR
+bZWBjELjAoqA6m2q9uFVhDPKv/m7EwwQ9HpZH/wZ4EoQtCfVZ2U0rtcem3lPJGUi
+TF64l/ditulbTLxF8P97ns6Nsj5rNSFWoahVeKnwwHDhDfHzSFk=
+=6wZq
 -----END PGP SIGNATURE-----
 
---===============0030406063908942410==--
+--===============8409623125355284536==--
