@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 16 Oct 2024 15:53:59 -0000
-Message-Id: <172909403975.3148648.14976442984780510478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 16 Oct 2024 15:54:52 -0000
+Message-Id: <172909409222.3149660.2487783708009261677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dev-test
-    old: 4bc67d22582139b4f6000228618d263d5e94ecfa
-    new: 29223df8dcba49ba907bf4df0390e80a025fd166
+  - ref: refs/heads/main
+    old: a296fe324cdb1ce674ac398a75dda4ca2f41f1af
+    new: ab2a7d892e7af804999a2d076cea8ff785c5b021
     log: |
-         1acd73edbbfef2c3c5b43cba4006a7797eca7050 f2fs: fix to account dirty data in __get_secs_required()
-         35ec1a20c6ccad73adbf93e5e33ab69be10e4415 f2fs: introduce device aliasing file
-         aef333320a33d5e91b8b26666fb2bcdc48a77d3b f2fs: introduce update_sit_entry_for_release()
-         d21912ba957f01b9b23a28d063807d518e12c1e1 f2fs: introduce f2fs_invalidate_consecutive_blocks()
-         f1bf204cd6972a5d984e39badd3c1b0ab2b286a8 f2fs: fix to do sanity check on node blkaddr in truncate_node()
-         ee698b47589746dd188e68204eda00608920282c f2fs: fix to parse temperature correctly in f2fs_get_segment_temp()
-         0171091af7206c520507859eaea1f52751558b60 f2fs: multidevice: add stats in debugfs
-         29223df8dcba49ba907bf4df0390e80a025fd166 f2fs: decrease spare area for pinned files for zoned devices
+         d2fd241fe00199a04fb7a15dcbb2a166e6d44ad6 configure: remove unused file
+         5ddb886bef89173979c3e4fc5f4f74a7c1e4372c Remove execute bit from firmware files
+         8c232721a5d1e9b108e38887d9231a9b08ea62a6 check_whence.py: check the permissions
+         515022675f815d454ac95e60fd0587887f5ad1a6 make: separate installation and de-duplication targets
+         ab2a7d892e7af804999a2d076cea8ff785c5b021 Merge branch 'split-dedup' into 'main'
          
