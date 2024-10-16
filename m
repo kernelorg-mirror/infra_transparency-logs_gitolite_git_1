@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 16 Oct 2024 19:37:24 -0000
-Message-Id: <172910744453.3327861.17090346842970966227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 16 Oct 2024 19:41:46 -0000
+Message-Id: <172910770674.3331794.6854626789331792702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/md-6.13
+  - ref: refs/heads/hotplug
     old: 0000000000000000000000000000000000000000
-    new: 1936f2e6981297621deed9afcdc9063c1964fc5b
+    new: b8cf71933e1ec007aa2df757f933180c7f2a2ffe
