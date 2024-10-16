@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 16 Oct 2024 15:10:25 -0000
-Message-Id: <172909142522.3111782.13302079750661462349@gitolite.kernel.org>
+Date: Wed, 16 Oct 2024 15:10:37 -0000
+Message-Id: <172909143781.3112162.13768931651453981828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: e805272f8c2dee280e2fa1c1a454517df17f1261
+  - ref: refs/heads/pending
+    old: 6aff63c68513dc930682b99759ce010878a52a7e
     new: 25ff1ae52139b53c1a69f55ce235077528245b55
     log: |
          95c38953cb1ecf40399a676a1f85dfe2b5780a9a wifi: ath10k: avoid NULL pointer error during sdio remove
