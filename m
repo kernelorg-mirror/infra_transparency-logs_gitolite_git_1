@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2308293513996438618=="
+Content-Type: multipart/mixed; boundary="===============4104200123834076392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 17 Oct 2024 09:50:34 -0000
-Message-Id: <172915863477.4039789.17325831940631727382@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 09:50:52 -0000
+Message-Id: <172915865201.4040065.8057860129847368795@gitolite.kernel.org>
 
---===============2308293513996438618==
+--===============4104200123834076392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6aac56631831e1386b6edd3c583c8afb2abfd267
     new: e60fa8ebc2af54c2f62cc4ed63b85894dabf9101
     log: revlist-6aac56631831-e60fa8ebc2af.txt
 
---===============2308293513996438618==
+--===============4104200123834076392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -157,4 +157,4 @@ e1c6c383123ab1caadbfe39b3362ce0cc09dd766 rtnetlink: Remove rtnl_register() and r
 1ec43493c94f1661e5db79743bc720e1fe5ddb7f selftests: drv-net: rss_ctx: add rss ctx busy testcase
 e60fa8ebc2af54c2f62cc4ed63b85894dabf9101 Merge branch 'ethtool-rss-track-rss-ctx-busy-from-core'
 
---===============2308293513996438618==--
+--===============4104200123834076392==--
