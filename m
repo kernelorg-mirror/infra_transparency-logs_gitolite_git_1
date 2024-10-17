@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 17 Oct 2024 14:16:33 -0000
-Message-Id: <172917459359.345000.6698244124345172533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 17 Oct 2024 14:17:27 -0000
+Message-Id: <172917464770.345512.5613723896568545357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: 944d970f0fa9e024810fc395f45a33c8e02dd6e6
-    new: b81b4d62d53fd74f3849bbb621f2f06324ae90ab
+  - ref: refs/heads/next-fixes
+    old: 540df421f71898da5ae347189dd05a496d39ce32
+    new: 7ff4c4c9ae6553e3c5b95d615476761eb1ac3f9a
     log: |
-         bb326abe839d8bcaf6220c189f11ca7b86fe58ad meson: remove no longer used HAVE_DECL___GLIBC__
-         694a60a14747a9f8d254b8670a28b6ca99631256 ci: re-run the test verbosely when on failure
-         01a48d2cdf214f6552f106365529eff713d9d159 ci: disable sanitizers for ubuntu 22.04
-         5798e1884494fd37cebe8d5a1ba42f8283d6504f Move sanitizer details into a test wrapper
-         b07527e85f3616f5825b2a396b4193b82c8000d5 testsuite: preserve the existing LD_PRELOAD
-         b81b4d62d53fd74f3849bbb621f2f06324ae90ab testsuite: fix gcc/libasan.so load order
+         bf9821ba4792a0d9a2e72803ae7b4341faf3d532 btrfs: zoned: fix zone unusable accounting for freed reserved extent
+         dc094af9105bd91acabd83429907df5541fc2caa btrfs: fix error propagation of split bios
+         da15f58ae3baacc61f848d9cf71910545d25b8bd btrfs: clear force-compress on remount when compress mount option is given
+         7ff4c4c9ae6553e3c5b95d615476761eb1ac3f9a Merge branch 'misc-6.12' into next-fixes
          
