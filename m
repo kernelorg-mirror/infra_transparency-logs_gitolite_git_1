@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1392910627104571826=="
+Content-Type: multipart/mixed; boundary="===============4278463655651028146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 17 Oct 2024 06:42:31 -0000
-Message-Id: <172914735109.3869811.1087067653522366201@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 06:43:24 -0000
+Message-Id: <172914740462.3870339.18314705148560530917@gitolite.kernel.org>
 
---===============1392910627104571826==
+--===============4278463655651028146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a79f16efcd00045ef807171d9466af70317228c0
-    new: e723ebc3a9aa172ab8042382afcae310c953104d
+    old: e723ebc3a9aa172ab8042382afcae310c953104d
+    new: 07b887f8236eb3ed52f1fe83e385e6436dc4b052
     log: |
-         adc292d54de9db2e6b8ecb7f81f278bbbaf713e9 usb: gadget: uvc: wake pump everytime we update the free list
-         dc97c956a4703de61cfa8ebe6285d5c7274ef8fd usb: gadget: uvc: only enqueue zero length requests in potential underrun
-         f0bbfbd16b3b67106535299d6a9ca3a5565494a6 usb: gadget: uvc: rework to enqueue in pump worker from encoded queue
-         2fe7c94dcd0903160e00045f420181351c6ccd80 usb: gadget: uvc: add g_parm and s_parm for frame interval
-         48dbe731171e425611290f5b6d3058f86efb16bd usb: gadget: uvc: set req_size and n_requests based on the frame interval
-         98ad0329156094a63c5191bb0f57b7bae9659f18 usb: gadget: uvc: set req_length based on payload by nreqs instead of req_size
-         1dc2527ce89273b56b43dbe1193c679f00cfc153 usb: gadget: uvc: set nbuffers to minimum STREAMING_MIN_BUFFERS in uvc_queue_setup
-         757f5d0b61dea4d16eaf2c3fa860bd458a4d3ec6 usb: gadget: uvc: add trace of enqueued and completed requests
-         e723ebc3a9aa172ab8042382afcae310c953104d usb: gadget: uvc: dont call usb_composite_setup_continue when not streaming
+         07b887f8236eb3ed52f1fe83e385e6436dc4b052 xhci: add helper to stop endpoint and wait for completion
          
 
---===============1392910627104571826==
+--===============4278463655651028146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729147370 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729147423 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729147347-5d0048a472fc7b56cb74084ec8278fcc109b6b85
+nonce 1729147400-5dffbfaf8a9054de16264174954866a810b523f3
 
-a79f16efcd00045ef807171d9466af70317228c0 e723ebc3a9aa172ab8042382afcae310c953104d refs/heads/usb-testing
+e723ebc3a9aa172ab8042382afcae310c953104d 07b887f8236eb3ed52f1fe83e385e6436dc4b052 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcQseobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pQoP/2zfjta6Dh59bH+nhdoh
-rCtbbuCiiCB3Rwh5Y2eLGsIUdHjVAzOOFkBafDn6WaEvot6oFjuQOtkx8VopvkzB
-YU1vZmMtcjg7y0Cvt51chclWelEvyvgltdD9ki2wDoleYAe/fhMs1lDTONY5Tbmp
-Wa4Gw+FTG/4GQOboA+90vzKN+PeGTdNTS6il1ntEUgs0D0uRv1u5QUNeahZHsra6
-cVdLnTndR1vJ9FDIw2oZ+5bHLlpp8GgTxCBaWssNB8dnqSA0rcqz+xHUd/1WypBZ
-sBPMQSH/UnX5PxvsqLkx4oUiOlIuoC9yNuQeyy+mX7Iy7U0ywjgFQrvSj1nteM3I
-7sG24oJRWZ/eKTZSUwkewpMdUlbbRD+sMyfGYOXjMtPgya/Wvbka5+BRCn3q8mgi
-GyF8bYZxKiy82Bt0mc0iatvFa+KDaErJYtPl6Af6HeBs2Hbwj9KuZjEejolf4naZ
-bYDSPFyHsoZ8agDQG4p/yVwHjRCFWuSOWWn+EQs5uUzE96iOXe2wkQUTQ7E+nMYd
-jpZwOmiKqqQGraK7CIGXeFQIv9+AEHRHweOs63KSx7AzYnVngCHD+AMsa5MsPGZS
-GHatfbRZGOMwkmjUZLdVp3UsASW9Wz+2iWWY5ZU5+bCoMWjruHccIhqfPE93rQKz
-wTo656ReElRpHWm8tf5poshZ
-=2sKU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcQsh8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sqcQAIRUJILzYTGGtfAtclCf
+wvZ+wo15TptGeINQEcNUBr4oBKIU4ggFYOb7TMGc5+cM40Ffh53W9aWC0bKmBdOO
+n/aJgzOanNi7F2J/+nJH5t0PKP1eFrhU63V731klVaQTfL/Ce6BHsfQrA2UdI33S
+KQ+iLkaiJu6pwcNLDhQ+TgJ6SCXX7BoPisCpUwH1O4Zvmlj8Jh2dQ38+UpTXWsVD
+HEm5gVGfrS8LmzNd2jpp907k5DtZYHO1g2JXbBm4LONRxx9WLM571yvdt95VnQYM
+YHcRPev/VyLCmsuaKpNji4+53sJlRg67YKVWWNd5EfT7ZEz4ATIh6FieSh/0KuDJ
+KeGAY2XYB1Ah0NoEr6+mdgEKIkL1LsdMmdJU3c+4G3gvyJT+/KklnexgkeHnYHg8
+4KFcHt0rhc6xzwJKDfo+lCcVt5QZ3F5rROyzkuAAfFV6M4fQUIhe/+DWziA66WLG
+0MVoh6Lg+zjOJ7nvu5UHxItX07z2ko+c5S88jbOJmL0Qplw79+Sm4WJsyTScbpdk
+S69ZBJNtHC60WcRR4T1L/wJL2QVYmuSHXpZcSwFzLFfykjlOrkiV8t+1QoteGhWx
+sdslODHLktNBg6UmKsPAe9WLLWaqrbiCSBsuU5ehszDwi2WoeF8HjNHE+146IcPI
+V/NxOI2S+1nIU+YXAf/3thHk
+=2yvD
 -----END PGP SIGNATURE-----
 
---===============1392910627104571826==--
+--===============4278463655651028146==--
