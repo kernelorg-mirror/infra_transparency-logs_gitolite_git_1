@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 17 Oct 2024 15:44:45 -0000
-Message-Id: <172917988569.422680.2002755381410039950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 17 Oct 2024 15:45:08 -0000
+Message-Id: <172917990826.425578.15756425797894140737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 22a6c7dcc1d90b6026c56e168aad2d812e3bf54b
-    new: 8dbcf94bfc68bdb1c6df3a42762b275557095558
+  - ref: refs/heads/master
+    old: b29d4ac729754fa1b515a024386f50dadcaa8c7b
+    new: 8f66f649846348871148413dcb6af69d9adf760a
     log: |
-         c569ca455c36119f88cdc3d1679be0daffae5924 brcm: replace NVRAM for Jetson TX1
-         8dbcf94bfc68bdb1c6df3a42762b275557095558 Merge branch 'robot/patch-0-1729102102' into 'main'
+         8f66f649846348871148413dcb6af69d9adf760a Bluetooth: btintel_pcie: Remove deadcode
          
