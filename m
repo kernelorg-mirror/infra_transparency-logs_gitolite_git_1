@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7626501712780860734=="
+Content-Type: multipart/mixed; boundary="===============3988695315687162322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 17 Oct 2024 22:28:51 -0000
-Message-Id: <172920413136.798349.5072156980397838574@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 22:29:01 -0000
+Message-Id: <172920414197.798593.2031462360305511157@gitolite.kernel.org>
 
---===============7626501712780860734==
+--===============3988695315687162322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 6485cf5ea253d40d507cd71253c9568c5470cd27
-    new: 6efbea77b390604a7be7364583e19cd2d6a1291b
-    log: revlist-6485cf5ea253-6efbea77b390.txt
+  - ref: refs/heads/testing
+    old: ab04fcd57e17c05c8e7464f02022d81c6e027333
+    new: 7b54fd2d69e13e2a0302e77d05f8fb61efe450b9
+    log: revlist-ab04fcd57e17-7b54fd2d69e1.txt
 
---===============7626501712780860734==
+--===============3988695315687162322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6485cf5ea253-6efbea77b390.txt
+Content-Disposition: attachment; filename=revlist-ab04fcd57e17-7b54fd2d69e1.txt
 
 e7b71bf181d03b4835e2d424fa587f4db2438fb2 reset: npcm: convert comma to semicolon
 2cf59663660799ce16f4dfbed97cdceac7a7fa11 reset: starfive: jh71x0: Fix accessing the empty member on JH7110 SoC
@@ -142,6 +142,7 @@ d8794ac20a299b647ba9958f6d657051fc51a540 posix-clock: Fix missing timespec64 che
 ea531dc66e27dcc5216bee1a76d1c052ab9eb5b6 net: lan743x: Remove duplicate check
 e3e4e5667d134e37cad83049071545b7475dd23a Merge branch 'posix-clock-fix-missing-timespec64-check-for-ptp-clock'
 25c12b459db8365fee84b63f3dd7910f70627f29 net/smc: Fix memory leak when using percpu refs
+eabb03810194b75417b09cff8a526d26939736ac [PATCH} hwmon: (jc42) Properly detect TSE2004-compliant devices again
 9d94c58316bc1c40c21d284dfbe9358b223eadd1 ALSA/hda: intel-sdw-acpi: cleanup sdw_intel_scan_controller
 5b1b5631d8b68a5d7d4ef2c489377696596e89a1 ALSA/hda: intel-sdw-acpi: fetch fwnode once in sdw_intel_scan_controller()
 8782ba96851c137388fd2af1cca5d5d537788aad ALSA/hda: intel-sdw-acpi: simplify sdw-master-count property read
@@ -202,5 +203,25 @@ cb560795c8c2ceca1d36a95f0d1b2eafc4074e37 Merge branch 'mlx5-misc-fixes-2024-10-1
 5c94bdab3a32e6225b30df6650337ad21ac42551 Merge tag 'sound-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 c16e5c94c8c2f0c20f5ce594188f84fd00040378 Merge tag 'arm-fixes-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 6efbea77b390604a7be7364583e19cd2d6a1291b Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+014bb8102bad442eb25a784ffd995db6b0a45629 hwmon: Switch back to struct platform_driver::remove()
+438eb9443567e3fce67bd582bde8c00d9275077c dt-bindings: hwmon: add renesas,isl28022
+51da05bd349235e70b084af13a9889b5813c5d14 hwmon: (isl28022) new driver for ISL28022 power monitor
+a3e9e20af7fb61e2fe6d0248392cdf675565e482 hwmon: (spd5118) Split into core and i2c specific code
+40768c46ca7c1f970644fea99144e9ce16f777de hwmon: (spd5118-core) Add support for 16-bit addressing
+3e5b4be71b005395a414a6acc4d9c7ec902ecd11 hwmon: (spd5118) Add I3C support
+b2e52db7fac6e96ecb25f22f4623aa2cefe83622 Detect and support 16-bit register addressing
+fee572a2e26d7005ce0c7309900ebf944c6b7bec hwmon: (max16065) Reorder include files to alphabetic order
+1cc0ac4c95faa544a1e4fe2e8be2ffb45e3d326c hwmon: (max16065) Use bit operations
+0bf97280c7b3fd74561f004f91e70f6f7ca163c3 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+c3e484d1ff088534c0249001c0c507331887b184 Merge branch 'hwmon-next' into hwmon-staging
+dc8266cf5eccd1ee6763ea02c3b92d6711e9fcc4 Merge branch 'hwmon' into hwmon-staging
+ee7d59586068ff42b92d3f08728ce96a1dd15914 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+125e1fd7fd06a696f41e1bfb2f4c507022add491 Merge branch 'hwmon-g762' into hwmon-staging
+04c501ea71d5e41f978c27d6e596b0068f1186f4 Merge branch 'hwmon-emc2103' into hwmon-staging
+d7c5b1e0ace0091fa803e328d2f32d5e7294e903 Merge branch 'hwmon-max16065' into hwmon-staging
+765657a1e9ff68bae85e5c1f17d8bf302ba1b394 mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+e77cce6def4d7dfd20e5bcd73fd46a1170274f8d resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+17bed5beefbe43a235aeb760b825fa1a864d7eb9 Merge branch 'hwmon-staging' into testing
+7b54fd2d69e13e2a0302e77d05f8fb61efe450b9 Merge branch 'fixes-v6.12' into testing
 
---===============7626501712780860734==--
+--===============3988695315687162322==--
