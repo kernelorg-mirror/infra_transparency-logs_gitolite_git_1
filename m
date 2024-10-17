@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4278463655651028146=="
+Content-Type: multipart/mixed; boundary="===============4423146599202086054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 17 Oct 2024 06:43:24 -0000
-Message-Id: <172914740462.3870339.18314705148560530917@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 06:45:46 -0000
+Message-Id: <172914754616.3873617.11186248188148455614@gitolite.kernel.org>
 
---===============4278463655651028146==
+--===============4423146599202086054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: e723ebc3a9aa172ab8042382afcae310c953104d
-    new: 07b887f8236eb3ed52f1fe83e385e6436dc4b052
+  - ref: refs/heads/usb-linus
+    old: 9499327714de7bc5cf6c792112c1474932d8ad31
+    new: 30c9ae5ece8ecd69d36e6912c2c0896418f2468c
     log: |
-         07b887f8236eb3ed52f1fe83e385e6436dc4b052 xhci: add helper to stop endpoint and wait for completion
+         5189df7b8088268012882c220d6aca4e64981348 USB: gadget: dummy-hcd: Fix "task hung" problem
+         6599b6a6fa8060145046d0744456b6abdb3122a7 xhci: Fix incorrect stream context type macro
+         fe49df60cdb7c2975aa743dc295f8786e4b7db10 xhci: Mitigate failed set dequeue pointer commands
+         f42a36bae0645f85c0290abc1d1385efd8ec9b13 usb: xhci: Fix handling errors mid TD followed by other errors
+         30c9ae5ece8ecd69d36e6912c2c0896418f2468c xhci: dbc: honor usb transfer size boundaries.
          
 
---===============4278463655651028146==
+--===============4423146599202086054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729147423 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729147564 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729147400-5dffbfaf8a9054de16264174954866a810b523f3
+nonce 1729147540-62ea886530c9b29c74910d98f4037f84a9923478
 
-e723ebc3a9aa172ab8042382afcae310c953104d 07b887f8236eb3ed52f1fe83e385e6436dc4b052 refs/heads/usb-testing
+9499327714de7bc5cf6c792112c1474932d8ad31 30c9ae5ece8ecd69d36e6912c2c0896418f2468c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcQsh8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sqcQAIRUJILzYTGGtfAtclCf
-wvZ+wo15TptGeINQEcNUBr4oBKIU4ggFYOb7TMGc5+cM40Ffh53W9aWC0bKmBdOO
-n/aJgzOanNi7F2J/+nJH5t0PKP1eFrhU63V731klVaQTfL/Ce6BHsfQrA2UdI33S
-KQ+iLkaiJu6pwcNLDhQ+TgJ6SCXX7BoPisCpUwH1O4Zvmlj8Jh2dQ38+UpTXWsVD
-HEm5gVGfrS8LmzNd2jpp907k5DtZYHO1g2JXbBm4LONRxx9WLM571yvdt95VnQYM
-YHcRPev/VyLCmsuaKpNji4+53sJlRg67YKVWWNd5EfT7ZEz4ATIh6FieSh/0KuDJ
-KeGAY2XYB1Ah0NoEr6+mdgEKIkL1LsdMmdJU3c+4G3gvyJT+/KklnexgkeHnYHg8
-4KFcHt0rhc6xzwJKDfo+lCcVt5QZ3F5rROyzkuAAfFV6M4fQUIhe/+DWziA66WLG
-0MVoh6Lg+zjOJ7nvu5UHxItX07z2ko+c5S88jbOJmL0Qplw79+Sm4WJsyTScbpdk
-S69ZBJNtHC60WcRR4T1L/wJL2QVYmuSHXpZcSwFzLFfykjlOrkiV8t+1QoteGhWx
-sdslODHLktNBg6UmKsPAe9WLLWaqrbiCSBsuU5ehszDwi2WoeF8HjNHE+146IcPI
-V/NxOI2S+1nIU+YXAf/3thHk
-=2yvD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcQsqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6xgP/iYqhEOIeQ6NRQHn2tYV
+r/ZiNgBTnzqHD6mSCbsdmLXH9YMqWy+JRHjqlE4Zz0ArNFSaY5LdSYFpJd0vzwKT
+K6DfUr7lxw6UDxYHLN7gruFqAZzANgmyXriCJg31LFhgFsQLdj9RpEUC4VO43XPJ
+oYK3iouA/ERtEYe1yX9YlKROcsDZJoP5VQVFDf7786olgFVGsNjVZqdDqjdSQLLz
+aVUAF7qf2jrzTjirjRh59wbNT765/7fSuPSuMBSq7jUlODMrzf3IKlZa0A9+MYJP
+CYmtKoPcw+/HYYQwuhi8uXFb+Z71LgeHR9g5fZOiRXkHF3T2C7AuauO3V0V6khWq
+9mjlNn9BfZNYZ0MuFxFgsD3of7ePSHtdpHi5e3+1aKmJCMy2zxvsnPoT/ZZe0pan
++BflIG/WRhPN/bay1LS33lWLUOrMmfbEAlVRYNOjUw0PfvoIQCgxmZyL5UwVWcC+
+k7aImzSf3JYvFF1bRtZqaT15VeErnsx51sPlJh9Ja3YpCC7uPH/WiqtKJDk5I0gT
+8ciLr7+8m9NUU23nG1THDeiEkLYWNE9uElya8JKcTTDHARFUFSnm7BsUEeBnt9Ia
+Xypc3Nao6SmaCefXFT1XD6XWWZWFQ3eMRRQPt/cHGWnoTT7p8B7sRMk/SO8FkNHN
+W1vFha6sNTtSWcr1EKoxrnyh
+=BNTe
 -----END PGP SIGNATURE-----
 
---===============4278463655651028146==--
+--===============4423146599202086054==--
