@@ -1,43 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6393768697388025633=="
+Content-Type: multipart/mixed; boundary="===============8829301314449444458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 17 Oct 2024 14:12:03 -0000
-Message-Id: <172917432373.340760.3456604472402325826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Thu, 17 Oct 2024 14:13:55 -0000
+Message-Id: <172917443518.341626.6794823206084875980@gitolite.kernel.org>
 
---===============6393768697388025633==
+--===============8829301314449444458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: fe9e6ddff35df9fc686e42cda2521dd430192fe2
-    new: 7900ba0b90ac419e8aef1948272a56d5b366ba0c
-    log: revlist-fe9e6ddff35d-7900ba0b90ac.txt
+  - ref: refs/heads/rpi/v6.11/imx219
+    old: 0000000000000000000000000000000000000000
+    new: 87a47e02609b8a77fe4d002975b70917abfcde48
+  - ref: refs/heads/rpi/v6.11/metadata/v10/sensors
+    old: 0000000000000000000000000000000000000000
+    new: 13c194201494e47efbedfc468c0aac8596ccbb48
 
---===============6393768697388025633==
+--===============8829301314449444458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe9e6ddff35d-7900ba0b90ac.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-734bf13e0c853de4fe2c05d5c0255e9247ad634c arm64: dts: imx8mp-skov-revb-mi1010ait-1cp1: Assign "media_isp" clock rate
-194a741645a4f1cbcd8e5acd9e93664141c97aca arm64: dts: imx8mp-phyboard-pollux-rdk: add gpio-fan
-0852cba2c39fd20c6e7d7a003995e7704128faf2 arm64: dts: freescale: imx8mm-verdin: add label to som adc node
-adca46171ff7b3613cd7975f81870ae9025a34cf arm64: dts: freescale: imx8mm-verdin: Add Ivy carrier board
-1dfd35cb122055679763119284c664d9158e3d89 dt-bindings: arm: freescale: Add verdin imx8mm ivy board
-82d8bf0fec74105ef6bcc44f3eae003f6e4d4b51 dt-bindings: arm: freescale: Add verdin imx8mp ivy board
-56ba6fd50e8436b2168c8add256f370d4c215f65 arm64: dts: freescale: imx8mp-verdin: add labels to som nodes
-b98948b042954a602ccd5bd5c55030ac08821e20 arm64: dts: freescale: imx8mp-verdin: Add Ivy carrier board
-aa48df3ded1d7d34dd1c33870cce0b62af38c5be dt-bindings: arm: Add i.MX8MP IOTA2 Lumpy board
-49c2a67787f512a18e30a892d284086d9583b3cc arm64: dts: imx: Add imx8mp-iota2-lumpy board
-d626dfd3a8ff8e769c44976ce1572ca1748adf8a Merge branch 'imx/bindings' into for-next
-e7c4ae9814799fc70b0676b697539b21c5ef87e6 Merge branch 'imx/dt' into for-next
-7900ba0b90ac419e8aef1948272a56d5b366ba0c Merge branch 'imx/dt64' into for-next
+certificate version 0.1
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1729174443 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
+nonce 1729174423-375a844b4763abad5aaa5c92b32ef24ee7cf0a8a
 
---===============6393768697388025633==--
+0000000000000000000000000000000000000000 87a47e02609b8a77fe4d002975b70917abfcde48 refs/heads/rpi/v6.11/imx219
+0000000000000000000000000000000000000000 13c194201494e47efbedfc468c0aac8596ccbb48 refs/heads/rpi/v6.11/metadata/v10/sensors
+-----BEGIN PGP SIGNATURE-----
+
+iJgEABYKAEAWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCZxEbqyIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEIXxllBhQkvhXIwBAMfIlaRr/n31
+VX0X6vzxgHVrFd5cxqkN1xRAgnA5l8B+AP999LaFgsvh1x5biKKYtApznVhzazm3
+BVeBtQCqd2sVDw==
+=wJag
+-----END PGP SIGNATURE-----
+
+--===============8829301314449444458==--
