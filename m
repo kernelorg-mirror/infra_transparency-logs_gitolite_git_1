@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 17 Oct 2024 19:37:00 -0000
-Message-Id: <172919382010.663057.4696789527307780474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 17 Oct 2024 19:44:47 -0000
+Message-Id: <172919428750.668418.12283968181679298859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main-pending
-    old: 8c997e5b56f0b05a18a258bd9adbabf7a9c0f7c7
-    new: 8bce107c499f49e8ed2203662a596857c3b3ab1a
+  - ref: refs/heads/work.fderr
+    old: ff05470c8fbe4f539de53c8207f6b84ee6ac5b31
+    new: 460a06f06db5c1678110d4355d7c3fffb6f4eef0
     log: |
-         f0fc6208bde9bd2b68ba50c82bfa68bda0467d8d wifi: ath12k: fix crash when unbinding
-         e582a529cce18408e2eba37cfe75ac0600a9a6da wifi: ath12k: fix warning when unbinding
-         8bce107c499f49e8ed2203662a596857c3b3ab1a Merge branch 'pending' into main-pending
+         460a06f06db5c1678110d4355d7c3fffb6f4eef0 introduce struct fderr
          
-  - ref: refs/tags/ath-pending-202410171926
-    old: 0000000000000000000000000000000000000000
-    new: 8bce107c499f49e8ed2203662a596857c3b3ab1a
