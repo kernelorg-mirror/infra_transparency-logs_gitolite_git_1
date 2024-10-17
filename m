@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7040437490418235503=="
+Content-Type: multipart/mixed; boundary="===============7898134200049156962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Thu, 17 Oct 2024 12:32:50 -0000
-Message-Id: <172916837041.4166567.7016777092339916835@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 12:33:04 -0000
+Message-Id: <172916838427.4166854.2223820153150486570@gitolite.kernel.org>
 
---===============7040437490418235503==
+--===============7898134200049156962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/gnss-next
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
     log: revlist-9852d85ec9d4-8e929cb546ee.txt
 
---===============7040437490418235503==
+--===============7898134200049156962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -733,4 +733,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============7040437490418235503==--
+--===============7898134200049156962==--
