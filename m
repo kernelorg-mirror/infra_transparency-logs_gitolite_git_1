@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8198504002048948381=="
+Content-Type: multipart/mixed; boundary="===============3984216585749730822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Oct 2024 14:18:53 -0000
-Message-Id: <172917473321.346259.8341628692728226496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 17 Oct 2024 14:18:59 -0000
+Message-Id: <172917473955.346412.34221079296749909@gitolite.kernel.org>
 
---===============8198504002048948381==
+--===============3984216585749730822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: c6631ceea573ae364e4fe913045f2aad10a10784
     new: cab655772416379a925af9ea85769a9d3eecdba0
     log: revlist-c6631ceea573-cab655772416.txt
 
---===============8198504002048948381==
+--===============3984216585749730822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1729174754 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1729174731-b60e8ea0863dcc8f006c78406414fbd3d8727eb0
+pusher C3F436CA30F5D8EB 1729174760 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1729174736-dd2ba8406cb39afdbc3c9643b16248d1b7f1a2cd
 
-c6631ceea573ae364e4fe913045f2aad10a10784 cab655772416379a925af9ea85769a9d3eecdba0 refs/heads/for-6.13
+c6631ceea573ae364e4fe913045f2aad10a10784 cab655772416379a925af9ea85769a9d3eecdba0 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcRHOIACgkQJNaLcl1U
-h9Bb7Af/UOxWjgSS9E153E2ZlNW1bcgPcQ+El21yfhq14nMd07IPJCBwAQx9wlHC
-5Py5LLqZOlXWKfwTgrMOSUnOh1U2McagUkES75xYhourWQ1+hNkB1tq3f33KAr6k
-s9F0uayE7aDNxTvMKW87MRFRcRMGjZOsc+3ZtmJwq+5ykWLFQ9d2r6pQKkVIGdwL
-qRPATzKlknHKC5YyeycNl0knnFx9MaKhRgU7NZqbp+YJ/bKhk69qGA+zQ2NPt7Z/
-1hTlhZ8f9CkI5liyPMsxV5/t9ycUPrZLcxBSOA1/lTQom47m64dDE2o6GBhplwCo
-pYKlRdXSorwiSIt3eT6qWd7k0Dn71A==
-=wvu+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcRHOgACgkQJNaLcl1U
+h9AQawf/VGIoKlUw2tQMjNuzFCwU0UThPam3dtDUVAdtVZ0VUfqoacMeAD9whfRN
+4v3nTOKaVyqMPPKoE1YTHnWSBLPU6ZFfREpNu9zvETuT0F6rd11mN2mfkFqT7Jun
+XF4OrTNeI2YH7u3HMKtmBBMyXKpncwDI2ULEC9RkYDQ5k/phFspml5sOzCZ8fyV4
+vII1i0iPytRcaXuLD9CM+FWnVFVeCQ4YFPtF2TQxJOGCW+I7UbMMKSTL0YL5hWpL
+5lJ0a47m/bBziW45zazV9PCnbVBdwTSBIH6PstmV/Ev0kGtNdmBpNN4UrEur0f5r
+hCxckmoELdXiTTLip5qIyIzQANN0Pw==
+=lb7+
 -----END PGP SIGNATURE-----
 
---===============8198504002048948381==
+--===============3984216585749730822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ b930d8647869802a0d430aae6b1b05c3acb24a41 ASoC: qcom: Select missing common Sound
 3692a4ccacf3c44249e584aea3ae8568f953e7e4 MAINTAINERS: Update maintainer list for MICROCHIP ASOC, SSC and MCP16502 drivers
 cab655772416379a925af9ea85769a9d3eecdba0 ASoC: Merge up fixes
 
---===============8198504002048948381==--
+--===============3984216585749730822==--
