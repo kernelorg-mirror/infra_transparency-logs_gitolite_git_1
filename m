@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 17 Oct 2024 08:39:35 -0000
-Message-Id: <172915437504.3963862.7471302702117426531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 17 Oct 2024 08:41:04 -0000
+Message-Id: <172915446440.3966765.12727888068930932413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/vfs.file
-    old: 90f2e5ff38945372a1ae9990e0e753a7a0dc945a
-    new: b74523a30f61c3daa895dbe4e765a4b26244ce98
+  - ref: refs/heads/arm64-crc32-pmull
+    old: 9b267d3a57857dfef20b690a7880f21412b5c593
+    new: 51124a73d08ad568426c9878cce0b866871d08cf
     log: |
-         b74523a30f61c3daa895dbe4e765a4b26244ce98 file_ref_t: allow for valid race
+         7e1f152e5ab3b0cb8f93942ef86fc12eeeba31e9 arm64/lib: Handle CRC-32 alternative in C code
+         51124a73d08ad568426c9878cce0b866871d08cf arm64/crc32: Implement 4-way interleave using PMULL
          
