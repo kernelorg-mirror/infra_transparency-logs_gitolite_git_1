@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 17 Oct 2024 14:21:17 -0000
-Message-Id: <172917487755.349610.2953169932889538579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 17 Oct 2024 14:23:21 -0000
+Message-Id: <172917500114.350442.8411104306139304490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/next-fixes
-    old: 7ff4c4c9ae6553e3c5b95d615476761eb1ac3f9a
-    new: 540bc5fc6460f534656415626ef24dd49a5e07c7
+  - ref: refs/heads/master
+    old: b81b4d62d53fd74f3849bbb621f2f06324ae90ab
+    new: 226d7af2b02e6988396f2a8d02a4fcccbc229fcf
     log: |
-         540bc5fc6460f534656415626ef24dd49a5e07c7 Merge branch 'misc-6.12' into next-fixes
+         5948b97a05ea492660b246bc2873c541ccb1cae1 libkmod: Remove elf->changed
+         226d7af2b02e6988396f2a8d02a4fcccbc229fcf libkmod: Simplify elf_strip_section
          
