@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 17 Oct 2024 18:07:27 -0000
-Message-Id: <172918844799.541902.5770006980856852826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Thu, 17 Oct 2024 18:07:56 -0000
+Message-Id: <172918847695.542257.8165076537874668033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/master
-    old: ee8c7c6c3f8c7105b1f2e0ba321c193e9f0158d9
-    new: db123e42304d5bba9a1e04341db0cafaa7a52f35
+  - ref: refs/heads/linux-next
+    old: ab52d18e634958d90e43eb2511cc0ae261e816ac
+    new: 4e3190de824772fd7b985de5b9207cfc10050ddd
     log: |
-         3878ae04e9fc24dacb77a1d32bd87e7d8108599e bpf: Fix incorrect delta propagation between linked registers
-         3e9e708757ca3b7eb65a820031d62fea1a265709 bpf: Fix print_reg_state's constant scalar dump
-         db123e42304d5bba9a1e04341db0cafaa7a52f35 selftests/bpf: Add test case for delta propagation
+         2fed7747c0a72ed682486d7d5cfd575ac0b70e84 cpufreq/amd-pstate: Remove the redundant verify() function
+         642aff3964b0f573a3d25738113f0557257b42ab cpufreq/amd-pstate: Set the initial min_freq to lowest_nonlinear_freq
+         27383e7b620255abd8b29d86f0092ad308702ce3 cpufreq/amd-pstate: Call amd_pstate_register() in amd_pstate_init()
+         898718db85096524c22e87b25f68eb2be6a67339 cpufreq/amd-pstate: Call amd_pstate_set_driver() in amd_pstate_register_driver()
+         b3f06e3a458b6cee4bc7f0571c3bacd33371df84 cpufreq/amd-pstate: Remove the switch case in amd_pstate_init()
+         4e3190de824772fd7b985de5b9207cfc10050ddd cpufreq/amd-pstate: Remove the redundant amd_pstate_set_driver() call
          
