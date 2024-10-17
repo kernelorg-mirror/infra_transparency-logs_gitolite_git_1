@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7053684822897011371=="
+Content-Type: multipart/mixed; boundary="===============0358811747880666474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 17 Oct 2024 12:31:11 -0000
-Message-Id: <172916827137.4165106.3837818611961561912@gitolite.kernel.org>
+Date: Thu, 17 Oct 2024 12:31:27 -0000
+Message-Id: <172916828735.4165335.1111597730455866848@gitolite.kernel.org>
 
---===============7053684822897011371==
+--===============0358811747880666474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 8e929cb546ee42c9a61d24fae60605e9e3192354
     log: revlist-9852d85ec9d4-8e929cb546ee.txt
 
---===============7053684822897011371==
+--===============0358811747880666474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -733,4 +733,4 @@ ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.k
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 
---===============7053684822897011371==--
+--===============0358811747880666474==--
