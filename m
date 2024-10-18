@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1199144165095603997=="
+Content-Type: multipart/mixed; boundary="===============5296763527388206268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 18 Oct 2024 21:29:33 -0000
-Message-Id: <172928697336.1900790.3166180301713173950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 18 Oct 2024 21:29:40 -0000
+Message-Id: <172928698009.1901384.11192867824594859110@gitolite.kernel.org>
 
---===============1199144165095603997==
+--===============5296763527388206268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 740883fa6c7262036769aa54b50609c8043977e0
     new: d641c164f8de5b5e19e66a27d9b5feedc8f2e84c
     log: |
@@ -28,37 +28,37 @@ changes:
          da95e891dd5d5de6c5ebc010bd028a2e028de093 ASoC: fsl_micfil: Add a flag to distinguish with different volume control types
          d641c164f8de5b5e19e66a27d9b5feedc8f2e84c ASoC/SoundWire: clean up link DMA during stop for IPC4
          
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 1b9971a4e01b80afbf061ad7cdf84ac6fbbbde8d
     new: 478fc2f4212e1dc1c247f3bff6856146305850df
     log: revlist-1b9971a4e01b-478fc2f4212e.txt
 
---===============1199144165095603997==
+--===============5296763527388206268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1729286994 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1729286970-51ba34024c88f9e834b034f12797bd925bd3131f
+pusher C3F436CA30F5D8EB 1729287000 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1729286977-9637191c6d5e4351644380a63defebf3ea2df909
 
-740883fa6c7262036769aa54b50609c8043977e0 d641c164f8de5b5e19e66a27d9b5feedc8f2e84c refs/heads/for-6.12
-1b9971a4e01b80afbf061ad7cdf84ac6fbbbde8d 478fc2f4212e1dc1c247f3bff6856146305850df refs/heads/for-6.13
+740883fa6c7262036769aa54b50609c8043977e0 d641c164f8de5b5e19e66a27d9b5feedc8f2e84c refs/heads/asoc-6.12
+1b9971a4e01b80afbf061ad7cdf84ac6fbbbde8d 478fc2f4212e1dc1c247f3bff6856146305850df refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcS01IACgkQJNaLcl1U
-h9DTPAf/dAevJDzNtqsyNtg3Wsh3QlHg7dOT+wko4zBu75YHUCVV/yvHBJ5Lorus
-GHRE1akbIB9sA7M9hWmUzcwDY4si5nh9EY+PcG2ydoUYzFglPKWqx7+mu4Km+3pD
-grCoMiSnY9l3q4TezQi3c7Tqph33LaAOH1q8YlxENFHOKY2J0mQ6X2YOIZR2PsdW
-NX0QoAiIrqtEGe3tgJr+ZEfveiLgGbfTFGszKannzAovpeYaTVDPgejLwVTJdgJ8
-U8a7gOKuxaslSXWHlOcMTvf6LjbHefOZbt4WWztFU3JkSgs81TDvMMVficUj9MjC
-xyZZtymCFvNWROUxZMpvcwj+zSk+0w==
-=B3qM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcS01kACgkQJNaLcl1U
+h9DDxwf/VW/rLIS0dh7+nF5Vnp5WH5peGgN9q1q+1mKNDB3o6tsCPc7kprEHYsa6
+Tkn84+B9GmXU7VhqHV93xeTn4rKXamaJQBsoJeg3J4i6GHIW0Vaf2pJQ/wOyFYYC
+Hx5o8flGFl8FaSp5waY5Boz5gBqZ9MKJenSIhX8ZUH/M1b3hALTuye3yy/GlvNn0
+izlIyW/kh9mHWVFwLh2jXib+wgRgPyMqVA2FhHn4NVADNBL2s4msSPm7uVdvzJdz
+sQ+trkX+1riSs37xFkA9WAOe4yYDJcNDqhA14sUwThrXDtPYFJmk3Uz2exgGSnvS
+1JNayd08WuXzim1P8WUIpku6oF4g3w==
+=Z0dv
 -----END PGP SIGNATURE-----
 
---===============1199144165095603997==
+--===============5296763527388206268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ e92edcf8023d425c7abcf1d7abb5dcac53d106f5 ASoC: SOF: Intel: hda: use machine_chec
 42fb51612f8298d24232b1ac2cf7ce303d4cfc7e ASoC: add support for some new Lenovo laptops with
 478fc2f4212e1dc1c247f3bff6856146305850df ASoC/soundwire: add initial support for SDCA
 
---===============1199144165095603997==--
+--===============5296763527388206268==--
