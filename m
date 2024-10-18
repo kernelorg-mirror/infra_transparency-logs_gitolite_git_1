@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 18 Oct 2024 20:35:16 -0000
-Message-Id: <172928371607.1859896.9733662892570385058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 18 Oct 2024 20:40:22 -0000
+Message-Id: <172928402241.1863946.10279556946557939409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 496b448c0ce4537ab5d7142d5dcfe6b7e19009db
-    new: 6bb46c4050627325e709fa3bad61fc73873eff9f
+  - ref: refs/heads/nfsd-fixes
+    old: c88c150a467fcb670a1608e2272beeee3e86df6e
+    new: 8dd91e8d31febf4d9cca3ae1bb4771d33ae7ee5a
     log: |
-         36dbe4521a381fd4d2561a90200ae4a2a3efb222 spi: make class structs const
-         6bb46c4050627325e709fa3bad61fc73873eff9f Merge remote-tracking branch 'spi/for-6.13' into spi-next
+         8dd91e8d31febf4d9cca3ae1bb4771d33ae7ee5a nfsd: fix race between laundromat and free_stateid
          
