@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 18 Oct 2024 10:32:15 -0000
-Message-Id: <172924753566.1364601.8509642527611261571@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 10:33:57 -0000
+Message-Id: <172924763753.1365430.1947849388904927282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-6.12/upstream-fixes
-    old: 2934b12281abf4eb5f915086fd5699de5c497ccd
-    new: 293c485cbac2607595fdaae2b1fb390fc7b2d014
+    old: 293c485cbac2607595fdaae2b1fb390fc7b2d014
+    new: 526748b925185e95f1415900ee13c2469d4b64cc
     log: |
-         293c485cbac2607595fdaae2b1fb390fc7b2d014 HID: i2c-hid: Delayed i2c resume wakeup for 0x0d42 Goodix touchpad
+         526748b925185e95f1415900ee13c2469d4b64cc HID: multitouch: Add quirk for Logitech Bolt receiver w/ Casa touchpad
          
   - ref: refs/heads/for-next
-    old: 26001875f587a7cf4a43ea58feff3d3c9ece2550
-    new: 746b366e84bb5d876c594ff701d7dd8f6f411039
+    old: 746b366e84bb5d876c594ff701d7dd8f6f411039
+    new: 550b94734233201e4a9d12fc6c4ca3c8cb0ead28
     log: |
-         293c485cbac2607595fdaae2b1fb390fc7b2d014 HID: i2c-hid: Delayed i2c resume wakeup for 0x0d42 Goodix touchpad
-         746b366e84bb5d876c594ff701d7dd8f6f411039 Merge branch 'for-6.12/upstream-fixes' into for-next
+         526748b925185e95f1415900ee13c2469d4b64cc HID: multitouch: Add quirk for Logitech Bolt receiver w/ Casa touchpad
+         550b94734233201e4a9d12fc6c4ca3c8cb0ead28 Merge branch 'for-6.12/upstream-fixes' into for-next
          
