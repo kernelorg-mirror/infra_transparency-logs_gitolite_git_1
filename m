@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Fri, 18 Oct 2024 23:13:41 -0000
-Message-Id: <172929322132.1984251.7631309538270005796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 18 Oct 2024 23:30:21 -0000
+Message-Id: <172929422163.1998465.20631807249568616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-linus
-    old: ea330429a04b383bd319c66261a5eca4798801e4
-    new: 2de01e0e57f3ebe7f90b08f6bca5ce0f3da3829f
+  - ref: refs/heads/dev
+    old: 202c6fa4204a77c7de0083c7cb5a82a83adb4711
+    new: d6db4c7d44b0489ea094a5c11fbd21d7e0f81d88
     log: |
-         22a18935d7d96bbb1a28076f843c1926d0ba189e Input: xpad - add support for MSI Claw A1M
-         2de01e0e57f3ebe7f90b08f6bca5ce0f3da3829f Input: zinitix - don't fail if linux,keycodes prop is absent
+         d6db4c7d44b0489ea094a5c11fbd21d7e0f81d88 rcutorture: Decorate failing reader segments with CPU ID
          
+  - ref: refs/heads/dev.2024.10.17a
+    old: 0000000000000000000000000000000000000000
+    new: 202c6fa4204a77c7de0083c7cb5a82a83adb4711
