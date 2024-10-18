@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 18 Oct 2024 11:20:46 -0000
-Message-Id: <172925044602.1406877.4689503351478383760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 18 Oct 2024 11:21:57 -0000
+Message-Id: <172925051765.1407509.17681221847258124770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 0ffdefce40ee8699ab5003df15da10978a602506
-    new: 087414af579a53d448c1a3f74eeaef61c197c504
+  - ref: refs/heads/locking/core
+    old: 79a087ee20c6d231bc35a441e7db9acc27ee913a
+    new: f66f13cf4d391d1547338b9112bd5baab84e2eec
     log: |
-         087414af579a53d448c1a3f74eeaef61c197c504 virtio: Add support for FFA based channel bus
+         fb7008c0ba44f11a2539d3ae256b8e670ce9ffe0 cleanup: Adjust scoped_guard() macros to avoid potential warning
+         613c8ccb596dc877b1892e8330bbe3dcecab52b8 cleanup: Add conditional guard helper
+         f66f13cf4d391d1547338b9112bd5baab84e2eec cleanup: Remove address space of returned pointer
          
