@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Fri, 18 Oct 2024 00:42:44 -0000
-Message-Id: <172921216489.901401.7863712896654964360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Fri, 18 Oct 2024 01:34:24 -0000
+Message-Id: <172921526480.945496.7474993831760711863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/bcain/boot_qemu_v6.11
+  - ref: refs/tags/damon/next-2024-10-17-18-34-on-v6.12-rc3
     old: 0000000000000000000000000000000000000000
-    new: f4e654f35955d2ce19deaf8f74d0f51aae8736ad
+    new: 1058e81041c35c94a149c377b1076d401f6ad439
