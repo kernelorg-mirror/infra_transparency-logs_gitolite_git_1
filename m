@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7174664615674408873=="
+Content-Type: multipart/mixed; boundary="===============3577491237142735247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 18 Oct 2024 06:16:15 -0000
-Message-Id: <172923217584.1161351.8785549482345479483@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 06:16:44 -0000
+Message-Id: <172923220400.1161774.14170375610044127452@gitolite.kernel.org>
 
---===============7174664615674408873==
+--===============3577491237142735247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e60fa8ebc2af54c2f62cc4ed63b85894dabf9101
     new: 30d9d8f6a2d7e44a9f91737dd409dbc87ac6f6b7
     log: revlist-e60fa8ebc2af-30d9d8f6a2d7.txt
 
---===============7174664615674408873==
+--===============3577491237142735247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ e63b5fd02a00aab8e79691359e931dafcd9dfd05 net: ravb: Simplify UDP TX checksum off
 546875ccba938ba4f7b5c616a1a1e334c5f2903f net: ravb: Add VLAN checksum support
 30d9d8f6a2d7e44a9f91737dd409dbc87ac6f6b7 net: airoha: Fix typo in REG_CDM2_FWD_CFG configuration
 
---===============7174664615674408873==--
+--===============3577491237142735247==--
