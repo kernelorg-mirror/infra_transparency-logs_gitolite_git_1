@@ -1,22 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5296763527388206268=="
+Content-Type: multipart/mixed; boundary="===============7571956758640022989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Oct 2024 21:29:40 -0000
-Message-Id: <172928698009.1901384.11192867824594859110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 18 Oct 2024 21:29:55 -0000
+Message-Id: <172928699557.1901697.12760275102103292361@gitolite.kernel.org>
 
---===============5296763527388206268==
+--===============7571956758640022989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
+  - ref: refs/heads/for-linus
     old: 740883fa6c7262036769aa54b50609c8043977e0
     new: d641c164f8de5b5e19e66a27d9b5feedc8f2e84c
     log: |
@@ -28,42 +27,21 @@ changes:
          da95e891dd5d5de6c5ebc010bd028a2e028de093 ASoC: fsl_micfil: Add a flag to distinguish with different volume control types
          d641c164f8de5b5e19e66a27d9b5feedc8f2e84c ASoC/SoundWire: clean up link DMA during stop for IPC4
          
-  - ref: refs/heads/asoc-6.13
-    old: 1b9971a4e01b80afbf061ad7cdf84ac6fbbbde8d
-    new: 478fc2f4212e1dc1c247f3bff6856146305850df
-    log: revlist-1b9971a4e01b-478fc2f4212e.txt
+  - ref: refs/heads/for-next
+    old: 080e9965ed4f6d188e7b4e44a92dc5280639b4fb
+    new: 626297009d7d0dbda64528099822f9ff21b26a24
+    log: revlist-080e9965ed4f-626297009d7d.txt
 
---===============5296763527388206268==
+--===============7571956758640022989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-080e9965ed4f-626297009d7d.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1729287000 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1729286977-9637191c6d5e4351644380a63defebf3ea2df909
-
-740883fa6c7262036769aa54b50609c8043977e0 d641c164f8de5b5e19e66a27d9b5feedc8f2e84c refs/heads/asoc-6.12
-1b9971a4e01b80afbf061ad7cdf84ac6fbbbde8d 478fc2f4212e1dc1c247f3bff6856146305850df refs/heads/asoc-6.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcS01kACgkQJNaLcl1U
-h9DDxwf/VW/rLIS0dh7+nF5Vnp5WH5peGgN9q1q+1mKNDB3o6tsCPc7kprEHYsa6
-Tkn84+B9GmXU7VhqHV93xeTn4rKXamaJQBsoJeg3J4i6GHIW0Vaf2pJQ/wOyFYYC
-Hx5o8flGFl8FaSp5waY5Boz5gBqZ9MKJenSIhX8ZUH/M1b3hALTuye3yy/GlvNn0
-izlIyW/kh9mHWVFwLh2jXib+wgRgPyMqVA2FhHn4NVADNBL2s4msSPm7uVdvzJdz
-sQ+trkX+1riSs37xFkA9WAOe4yYDJcNDqhA14sUwThrXDtPYFJmk3Uz2exgGSnvS
-1JNayd08WuXzim1P8WUIpku6oF4g3w==
-=Z0dv
------END PGP SIGNATURE-----
-
---===============5296763527388206268==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b9971a4e01b-478fc2f4212e.txt
-
+9822b4c90d77e3c6555fb21c459c4a61c6a8619f ASoC: SOF: ipc4-topology: Do not set ALH node_id for aggregated DAIs
+6e38a7e098d32d128b00b42a536151de9ea1340b ASoC: SOF: Intel: hda: Handle prepare without close for non-HDA DAI's
+c78f1e15e46ac82607eed593b22992fd08644d96 soundwire: intel_ace2x: Send PDI stream number during prepare
+ab5593793e9088abcddce30ba8e376e31b7285fd ASoC: SOF: Intel: hda: Always clean up link DMA during stop
 3d9b44d0972be1298400e449cfbcc436df2e988e ASoC: sdw_utils: Add support for exclusion DAI quirks
 a6f7afb39362ef70d08d23e5bfc0a14d69fafea1 ASoC: sdw_utils: Add a quirk to allow the cs42l43 mic DAI to be ignored
 ea657f6b24e11651a39292082be84ad81a89e525 ASoC: Intel: sof_sdw: Add quirk for cs42l43 system using host DMICs
@@ -79,7 +57,11 @@ dcf4694f200a67784e053eb5d1d70a191761ff4f ASoC: soc-acpi: introduce new 'machine 
 7d6f2d5254b1786c8b3bd64c6295b14e1607965d ASoC: sdw_utils: add SmartMic DAI for RT713 VB
 5703ab86ff7bf079aa1ddf7a65b9727d0249383a ASoC: Intel: soc-acpi: add is_device_rt712_vb() helper
 e92edcf8023d425c7abcf1d7abb5dcac53d106f5 ASoC: SOF: Intel: hda: use machine_check() for SoundWire
+9fc9ef05727ccb45fd881770f2aa5c3774b2e8e2 ASoC: codecs: lpass-rx-macro: fix RXn(rx,n) macro for DSM_CTL and SEC7 regs
+da95e891dd5d5de6c5ebc010bd028a2e028de093 ASoC: fsl_micfil: Add a flag to distinguish with different volume control types
 42fb51612f8298d24232b1ac2cf7ce303d4cfc7e ASoC: add support for some new Lenovo laptops with
 478fc2f4212e1dc1c247f3bff6856146305850df ASoC/soundwire: add initial support for SDCA
+d641c164f8de5b5e19e66a27d9b5feedc8f2e84c ASoC/SoundWire: clean up link DMA during stop for IPC4
+626297009d7d0dbda64528099822f9ff21b26a24 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
 
---===============5296763527388206268==--
+--===============7571956758640022989==--
