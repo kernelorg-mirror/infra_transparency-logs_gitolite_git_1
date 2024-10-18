@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 18 Oct 2024 16:50:59 -0000
-Message-Id: <172927025920.1674676.15122335845789622999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 18 Oct 2024 16:58:28 -0000
+Message-Id: <172927070815.1679560.13166435913774775141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/uaccess-hardening
-    old: 063bd16704b5ced9859fabe59ed680efc5fd1f08
-    new: 044a91a40da7ac79c7dd3e405ae87d106fbc2ecd
+  - ref: refs/heads/nfs-localio-for-next
+    old: 4f39f48ca5be016d6b118d1cf958cb21124f477d
+    new: 8659a98fec415e8eac9ff11772c5ca1d3c0ba8ab
     log: |
-         e3e3698c7b891811bb1133cc7fde9a30c8b0e00a x86/uaccess: Avoid barrier_nospec() in copy_from_user()
-         0777ac8e8c8d669fa56971dcba68b6f1c1980d39 x86/uaccess: Avoid barrier_nospec() in __get_user()
-         2e3097acf904c235fbe1682ee81978fd5fc18dd5 x86/uaccess: Simplify putuser.S exception handling code
-         604a3d689e00d16560c5a242085864ffa39bffe4 x86/uaccess: Add user pointer masking to __put_user()
-         622513640b25bdaad0fb321e87b9d0f88784230f x86/uaccess: Add user pointer masking to copy_to_user()
-         044a91a40da7ac79c7dd3e405ae87d106fbc2ecd x86/uaccess: Add user pointer masking to clear_user()
+         8659a98fec415e8eac9ff11772c5ca1d3c0ba8ab nfsd/filecache: add nfsd_file_acquire_local_cached
          
