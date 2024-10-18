@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 18 Oct 2024 01:49:40 -0000
-Message-Id: <172921618071.957399.9500350121199996507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 18 Oct 2024 01:49:41 -0000
+Message-Id: <172921618164.957500.2293413444341400906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/block-6.12
-    old: de7007e9e6fe08dc7b45693d7e8cef41f9499854
-    new: b0bf1afde7c34698cf61422fa8ee60e690dc25c3
+  - ref: refs/heads/nfs-localio-for-next
+    old: 4f617f63c57bceec6133c7316ccb303e74877d36
+    new: 87d7925e852ba63281fdf85d386c11b05a2f66bf
     log: |
-         b0bf1afde7c34698cf61422fa8ee60e690dc25c3 cdrom: Avoid barrier_nospec() in cdrom_ioctl_media_changed()
-         
-  - ref: refs/heads/io_uring-sendzc-provided
-    old: 99248c4ff2113bb8a44bc4d5d96a00405773be14
-    new: 1de1ebe014ddb7f2c525a2048758606aa9799a4e
-    log: |
-         c057e32a425aef9ce591539f6f4503f270b24a67 io_uring/kbuf: add support for mapping type KBUF_MODE_BVEC
-         1de1ebe014ddb7f2c525a2048758606aa9799a4e io_uring/net: add provided buffer and bundle support to send zc
+         87d7925e852ba63281fdf85d386c11b05a2f66bf nfs: avoid i_lock contention in nfs_clear_invalid_mapping
          
