@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3692889991602639746=="
+Content-Type: multipart/mixed; boundary="===============7746160678798708582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 18 Oct 2024 17:41:47 -0000
-Message-Id: <172927330726.1717332.3589422319472838140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 18 Oct 2024 17:41:54 -0000
+Message-Id: <172927331482.1717530.6145929963173215654@gitolite.kernel.org>
 
---===============3692889991602639746==
+--===============7746160678798708582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 3692a4ccacf3c44249e584aea3ae8568f953e7e4
     new: 740883fa6c7262036769aa54b50609c8043977e0
     log: |
@@ -24,7 +24,7 @@ changes:
          6924565a04e5f424c95e6d894584e3059f257373 ASoC: Intel: soc-acpi: lnl: Add match entry for TM2 laptops
          740883fa6c7262036769aa54b50609c8043977e0 ASoC: Change my e-mail to gmail
          
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: cab655772416379a925af9ea85769a9d3eecdba0
     new: 9cb86a9cf12504c8dd60b40a6a200856852c1813
     log: |
@@ -36,29 +36,29 @@ changes:
          9cb86a9cf12504c8dd60b40a6a200856852c1813 ASoC: SOF: sof-of-dev: add parameter to override tplg/fw_filename
          
 
---===============3692889991602639746==
+--===============7746160678798708582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1729273328 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1729273304-1096e9de41456020992a9e2caa1d01eae9f01783
+pusher C3F436CA30F5D8EB 1729273335 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1729273311-06d44156d43d8a2ce1b5be0a1b43e682c0702deb
 
-3692a4ccacf3c44249e584aea3ae8568f953e7e4 740883fa6c7262036769aa54b50609c8043977e0 refs/heads/for-6.12
-cab655772416379a925af9ea85769a9d3eecdba0 9cb86a9cf12504c8dd60b40a6a200856852c1813 refs/heads/for-6.13
+3692a4ccacf3c44249e584aea3ae8568f953e7e4 740883fa6c7262036769aa54b50609c8043977e0 refs/heads/asoc-6.12
+cab655772416379a925af9ea85769a9d3eecdba0 9cb86a9cf12504c8dd60b40a6a200856852c1813 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcSnfAACgkQJNaLcl1U
-h9BPMAf/R6LTi/Z59LsW6eQDgeN+cX9ZmjimCuwRS1cyrQ+vIRUmB4QyQwM3MNVs
-mme032yZE6+Z/RvQBbSmDU7wR/SrOM+QDzq71EYpgG/Ku/ztilcLdjrcHg6Pnk3I
-yfvycFRFFRyrrPZcsoXQOBcBi+IWqHrSGDwHrvOuVa/rq4AcGhguKdrwS9XUf7Jw
-MYMOqKg71Zae2kIgEWudkeypK8xSQ6ckic0q3pYsNNBQQDwlFLi83UZVuTErsAEC
-T5EZKLEOxHLKr2nTy1+b5ZTuwzDHwxSfknfTbV8J1jkol3SF3enAKR5oe2/bVG8F
-kaAlQW+kQ1DH4gTHm5d5rRLG2PM2xg==
-=x8C4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcSnfcACgkQJNaLcl1U
+h9AjLgf+LfeCNTm9N4BrR5bvMMW1svaXfCv0XTnYydOya3c2867KYYk7RVcUQa1z
+JO1IG4bsRjqMscz/8lMZ0kxCp+cHcGoOTQbhlAbWpw0G68OGpOL7/yjRUWfikVxW
+welAyvik6/tAzQC1TtUFHOgtQBGQDBfu97ahkuhiETI/bpLpz61ix5345LryEtFC
+t9HMCDEnvcDLgL86xikmesvrVite2ZqLn3mKJKzZPf8hWOXTx3ECQUafI1QgYoMH
+ibt32mi8SAZgVtIwv7yx3emEbImbbArJQtNPmh0vueOkvCwNjck5sFVpA14DHIcm
+aQVXld1gavT620VzJConS2VabGoD2w==
+=ETaN
 -----END PGP SIGNATURE-----
 
---===============3692889991602639746==--
+--===============7746160678798708582==--
