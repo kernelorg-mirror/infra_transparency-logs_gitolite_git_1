@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Oct 2024 22:15:30 -0000
-Message-Id: <172928973081.1940877.3238386847188081523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 18 Oct 2024 22:18:08 -0000
+Message-Id: <172928988828.1942094.4748208744718093400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/dev-queue
-    old: 79fe7a5d1508465c586a95c327c4e374196d8549
-    new: 02a4f6b6bf8145719b1318ef112758c889660044
+  - ref: refs/heads/arm64-crc32-pmull
+    old: 99e370a4ec97dd462b5792d9674d9b589d614d7e
+    new: fa0f81e65009a1d05b55acd4e56c5a16ae61ad0e
     log: |
-         29ea08035545bf395a9c00ddfce61ecb32d15e27 i40e: fix race condition by adding filter's intermediate sync state
-         2849807de248b85bf7bc9f24819c49f625468d2f igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
-         866fa740bbed59a2ba77ecc4f497490eda659afb igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
-         25892a448d275daf1dd6714aa5ffa51ad78e9dda ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
-         02a4f6b6bf8145719b1318ef112758c889660044 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
+         fa0f81e65009a1d05b55acd4e56c5a16ae61ad0e arm64/crc32: Fall back to 8x8 PMULL if 64x64 PMULL is not available
          
