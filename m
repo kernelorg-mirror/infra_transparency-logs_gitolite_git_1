@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 18 Oct 2024 17:41:14 -0000
-Message-Id: <172927327432.1716744.4234909187286145672@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 17:41:24 -0000
+Message-Id: <172927328415.1716978.9565579951105176886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.13
-    old: f20669fbcf99d0e15e94fb50929bb1c41618e197
-    new: eab92ea3c1c31b6917fa1665ac8a30c21d9eabfa
+  - ref: refs/heads/spi-6.13
+    old: 941584e2f3ddde26e4d71941ebc0836ece181594
+    new: 4de1cdb3c299bb98d70198c1fa20c71f0893835c
     log: |
-         eab92ea3c1c31b6917fa1665ac8a30c21d9eabfa dt-bindings: regulator: lltc,ltc3676: convert to YAML
+         4de1cdb3c299bb98d70198c1fa20c71f0893835c spi: dt-bindings: brcm,bcm2835-aux-spi: Convert to dtschema
          
