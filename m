@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0092735587298132311=="
+Content-Type: multipart/mixed; boundary="===============7129416101167194053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 18 Oct 2024 10:37:58 -0000
-Message-Id: <172924787855.1369263.15067616629515019450@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 10:38:26 -0000
+Message-Id: <172924790670.1369608.10773276568016593968@gitolite.kernel.org>
 
---===============0092735587298132311==
+--===============7129416101167194053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.13/fixes
-    old: a286da3234186ff2353fe9988a10c593b36babbe
-    new: 314e2ab8fea60065ab05577bc02fb345f3ff63e9
+  - ref: refs/heads/slab/for-next
+    old: edd8f166dd21427711f41d1dabf892afc5e0697a
+    new: 0e04d19e52e3b70574b9f0da1282775ed92e88dc
     log: |
          314e2ab8fea60065ab05577bc02fb345f3ff63e9 mm/slub: Avoid list corruption when removing a slab from the full list
+         0e04d19e52e3b70574b9f0da1282775ed92e88dc Merge branch 'slab/for-6.13/features' into slab/for-next
          
 
---===============0092735587298132311==
+--===============7129416101167194053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1729247897 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1729247926 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1729247874-73acfe7cd9636a86047e3557cdefcee672b13e88
+nonce 1729247902-abd1b762303c32333a6bda746bed7edcdcb81274
 
-a286da3234186ff2353fe9988a10c593b36babbe 314e2ab8fea60065ab05577bc02fb345f3ff63e9 refs/heads/slab/for-6.13/fixes
+edd8f166dd21427711f41d1dabf892afc5e0697a 0e04d19e52e3b70574b9f0da1282775ed92e88dc refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcSOpkACgkQu+CwddJF
-iJp9iggAm2bW5Wo7d7yb/ytGEbO1HctVMOj05zvtoQDNnh1JbjHgYZLM63RdoFxz
-QlPYy16OeE3Cf+qbERtb5sJ6NsAMgOciL2D3K2SlNvsr0JqK4AxKvqKoPK+JOEmu
-jHP1D/MgnqyWHu/Ezz77NPZSNaAzISN5cRiSopYamD2U+Nr50aF5R6rWNilUNzOd
-m/HrxCcT81Negp+ihD5XK+4njCJUdkB1zDYj/eJ0jrp8PnkiQTsADNi+kluxGheA
-+8bFcFBfzB586n1tFc2IKu27fXYZj2j3/qtnUwPwEe+YlrEbdBwuCCYsa5twbAfD
-cFfEZS4Af09TyG7pRk67lP83sVPP/w==
-=06V5
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcSOrYACgkQu+CwddJF
+iJqGAgf+PecsVJTa0mo5E9JETg5kF6si3jhFghv7nCiRcUDgA/RrEpj8hT1rpbQW
+dIJLO5Aqd2z9aqcrziQprP6Ya/NSyQ/C+slrAIut0LEbiQDDbWVIa9DFb4HUEKTV
+RZfUrkGi8cioaeH+NlEqdzDqRJ+2llu8eMTXL+3DysqZ3WskXywnOG8uvTXAk7oO
+mNdzqSNcyB9MQuX6GG3/yClEjkJhh+R9EUpdc1gG2WHcZMk2eGZSHKCb0M08XptB
+JpWAwTyfqx8cGSMqmZnWC5Ld/nL51xKomhelfllUkvlfvI1rtAueUSh5SABWiVTz
+BZ+3heXJAGgTgEW9V7DJPcQlJ3qyDg==
+=0D+u
 -----END PGP SIGNATURE-----
 
---===============0092735587298132311==--
+--===============7129416101167194053==--
