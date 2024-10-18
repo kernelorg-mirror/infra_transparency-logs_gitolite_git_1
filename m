@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3631890617532618261=="
+Content-Type: multipart/mixed; boundary="===============7164853190844074704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 18 Oct 2024 03:07:42 -0000
-Message-Id: <172922086296.1018756.1773999466001524334@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 03:07:51 -0000
+Message-Id: <172922087103.1018982.8140864167389435703@gitolite.kernel.org>
 
---===============3631890617532618261==
+--===============7164853190844074704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 4956e07f05e239b274d042618a250c9fa3e92629
+  - ref: refs/heads/loongarch-next
+    old: f339bd3b51dac675fbbc08b861d2371ae3df0c0b
     new: 5aecc4c8de12bfc06379fb10a929da0a1448bfc3
-    log: revlist-4956e07f05e2-5aecc4c8de12.txt
+    log: revlist-f339bd3b51da-5aecc4c8de12.txt
 
---===============3631890617532618261==
+--===============7164853190844074704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4956e07f05e2-5aecc4c8de12.txt
+Content-Disposition: attachment; filename=revlist-f339bd3b51da-5aecc4c8de12.txt
 
+1fcb16674e37e434efe68ec3e142229f35b6b9e1 nfs_common: factor out nfs4_errtbl and nfs4_stat_to_errno
+1545e488b1f908b10f6dff0c278c6b7a37122de8 nfs: factor out {encode,decode}_opaque_fixed to nfs_xdr.h
+0a183f24a7ae48b7c0f2327989754b5db5de02b8 NFSD: Handle @rqstp == NULL in check_nfsd_access()
+b0d87dbd8bd311d4126f5b34a8494043c487695f NFSD: Refactor nfsd_setuser_and_check_port()
+7c0b07b49b2da108438e2504452effe0e6cbb764 NFSD: Avoid using rqstp->rq_vers in nfsd_set_fh_dentry()
+71c61a0077eb11e8bcc4d03e92ebc0c16df46abe NFSD: Short-circuit fh_verify tracepoints for LOCALIO
+5e66d2d92a1c331ed86d943ce3703c654876b20a nfsd: factor out __fh_verify to allow NULL rqstp to be passed
+c63f0e48febfaea8a3cd4146abda9cc7a329b0e3 nfsd: add nfsd_file_acquire_local()
+47e988147f409f70e0f01a5e6dc5940375e02343 nfsd: add nfsd_serv_try_get and nfsd_serv_put
+2c8919848de1e5c881fe3473645c26a1c2a927f2 SUNRPC: remove call_allocate() BUG_ONs
 199f2128741077087a2ab33889a6868830465033 SUNRPC: add svcauth_map_clnt_to_svc_cred_local
 86ab08beb3f07f6e51922a8b8f662a5ec7012d35 SUNRPC: replace program list with program array
 2a33a85be45178198245e1f656e6224c899895e4 nfs_common: add NFS LOCALIO auxiliary protocol enablement
@@ -61,16 +71,6 @@ abf2050f51fdca0fd146388f83cddd95a57a008d Merge tag 'media/v6.12-1' of git://git.
 7eb4a319db65566005989121563ead344ca79140 bcachefs: Fix infinite loop in propagate_key_to_snapshot_leaves()
 a3096328462b1e022c6294898c440708ea11509a MAINTAINERS: drm/sched: Add new maintainers
 440d52b370b03b366fd26ace36bab20552116145 drm/sched: Fix dynamic job-flow control race
-e8dd556c74325f29597665c2c557a8ea699a0686 LoongArch: Enable generic CPU vulnerabilites support
-d0bb0b600081bc7c246b97b2901abbb6c357ff7b LoongArch: Enable ACPI BGRT handling
-34e3c4500cdc06094b37a41b622598098308ba8f LoongArch: Rework CPU feature probe from CPUCFG/IOCSR
-e86935f705fa732d8c7c3ecf0c50ea461ffab76f LoongArch: Add ARCH_HAS_SET_MEMORY support
-f04de6d8f252ec6434b846895474cc205527b8b8 LoongArch: Add ARCH_HAS_SET_DIRECT_MAP support
-f93f67d06b1023313ef1662eac490e29c025c030 LoongArch: Improve hardware page table walker
-d4f31acf1302088a5b16d1e4de890729acfa9638 LoongArch: Simplify _percpu_read() and _percpu_write()
-5016c3a31a6d74eaf2fdfdec673eae8fcf90379e LoongArch: Fix memleak in pci_acpi_scan_root()
-64c35d6c0ff95e9507f5fb3cce4936c7c62f3d3a LoongArch: Remove posix_types.h include from sigcontext.h
-f339bd3b51dac675fbbc08b861d2371ae3df0c0b Docs/LoongArch: Add advanced extended IRQ model description
 03a9cfc1314bf75cc7a83995f3a029a7ebf49c05 ata: libata-scsi: Fix ata_msense_control_spgt2()
 0e9a2990a93f27daa643b6fa73cfa47b128947a7 ata: libata-scsi: Fix ata_msense_control() CDL page reporting
 f011b313e8ebd5b7abd8521b5119aecef403de45 net: qrtr: Update packets cloning when broadcasting
@@ -1051,4 +1051,4 @@ f5dd196bcd11809df60d5a652bee9c7fa92df383 LoongArch: Set correct size for vDSO co
 c55a415e1f074cfe4c2a7337002c5badb7d53b7f LoongArch: Make KASAN usable for variable cpu_vabits
 5aecc4c8de12bfc06379fb10a929da0a1448bfc3 LoongArch: KVM: Mark hrtimer to expire in hard interrupt context
 
---===============3631890617532618261==--
+--===============7164853190844074704==--
