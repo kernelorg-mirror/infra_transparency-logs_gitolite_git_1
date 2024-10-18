@@ -1,50 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3746023980253656874=="
+Content-Type: multipart/mixed; boundary="===============3047227408104007381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Oct 2024 17:42:26 -0000
-Message-Id: <172927334601.1718394.14120670547358348501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 18 Oct 2024 17:42:40 -0000
+Message-Id: <172927336026.1718607.11196612985350293596@gitolite.kernel.org>
 
---===============3746023980253656874==
+--===============3047227408104007381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.13
-    old: 941584e2f3ddde26e4d71941ebc0836ece181594
-    new: 4de1cdb3c299bb98d70198c1fa20c71f0893835c
+  - ref: refs/heads/for-linus
+    old: 3692a4ccacf3c44249e584aea3ae8568f953e7e4
+    new: 740883fa6c7262036769aa54b50609c8043977e0
     log: |
-         4de1cdb3c299bb98d70198c1fa20c71f0893835c spi: dt-bindings: brcm,bcm2835-aux-spi: Convert to dtschema
+         b0867999e3282378a0b26a7ad200233044d31eca ASoC: amd: yc: Fix non-functional mic on ASUS E1404FA
+         6924565a04e5f424c95e6d894584e3059f257373 ASoC: Intel: soc-acpi: lnl: Add match entry for TM2 laptops
+         740883fa6c7262036769aa54b50609c8043977e0 ASoC: Change my e-mail to gmail
          
+  - ref: refs/heads/for-next
+    old: 469819cc17368702a6f68cec2148f518d3f3679b
+    new: f97206728e8b5342710812536dbe23b8fc7d4dd8
+    log: revlist-469819cc1736-f97206728e8b.txt
 
---===============3746023980253656874==
+--===============3047227408104007381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-469819cc1736-f97206728e8b.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1729273367 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1729273343-0c2eafd389fe5ddbf007f48c2eee206ab8210bbc
+b0867999e3282378a0b26a7ad200233044d31eca ASoC: amd: yc: Fix non-functional mic on ASUS E1404FA
+6924565a04e5f424c95e6d894584e3059f257373 ASoC: Intel: soc-acpi: lnl: Add match entry for TM2 laptops
+740883fa6c7262036769aa54b50609c8043977e0 ASoC: Change my e-mail to gmail
+cab655772416379a925af9ea85769a9d3eecdba0 ASoC: Merge up fixes
+0d3039f4d2f4a79798d97f2ac1a9656b055b561f ASoC: makes snd_soc_set_runtime_hwparams() inline
+7bc18a78157997575d8260bd922fff11fb5f21df ASoC: codecs: Remove unneeded semicolon
+43916d9288460bd76d47128898fdf5972dfdb87f ASoC: loongson: make loongson-i2s.o a separate module
+daf5e3c68144bdb7e605f46853febc7bb257d44d ASoC: rsnd: Refactor port handling with helper for endpoint node selection
+d3170359c96082302e7b6de624cb8592d8954e7d ASoC: mediatek: mt8188: remove unnecessary variable assignment
+9cb86a9cf12504c8dd60b40a6a200856852c1813 ASoC: SOF: sof-of-dev: add parameter to override tplg/fw_filename
+f97206728e8b5342710812536dbe23b8fc7d4dd8 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
 
-941584e2f3ddde26e4d71941ebc0836ece181594 4de1cdb3c299bb98d70198c1fa20c71f0893835c refs/heads/spi-6.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcSnhcACgkQJNaLcl1U
-h9AXVwf/ev5Rj9X3hkQdhf0Wy7cEjyiP2JBB62rfrYSF4UnfcHvVlcVm6vflcmhp
-WtivspXfDTCCzt+Z6kr8u5EcU0Ce09tRkDWfmkocHLr/ZW4FB3TRp+jsMExlr4X6
-TAoG9TDI9XlH0hFxJZM/j4gl7YESQKyAlMfw82NGszYxxRo42QTRSceNxzfXyi01
-IwlUZrmZrRI7LCoKYMfs1SaMPzGguo325fP37RaC4x9hHnuUQAUL/RlSe8m1M9Du
-oa87ec8yeZU6oR5MRavsuC2SWdya746avA6GWd8w7EZ3jIuXiEIODqYqLUGh1SP+
-gLiqQXRSn4JetNEgMyr5dKyCdsLU3Q==
-=uYP/
------END PGP SIGNATURE-----
-
---===============3746023980253656874==--
+--===============3047227408104007381==--
