@@ -1,75 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8077452563702445466=="
+Content-Type: multipart/mixed; boundary="===============0474258256431198146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 18 Oct 2024 18:49:40 -0000
-Message-Id: <172927738071.1772798.12668173350418652002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 18 Oct 2024 18:58:50 -0000
+Message-Id: <172927793079.1779806.12376495893758870774@gitolite.kernel.org>
 
---===============8077452563702445466==
+--===============0474258256431198146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-6.13/io_uring
-    old: 7ee4d05790e5a6eb4826e8825956706ca7aac877
-    new: 080b8ce03bbb1d684a1fcd1192795f879b76cea7
-    log: |
-         cb943835067450aebf6f1171e81ea5958ce34b03 io_uring: kill io_llist_xchg
-         9812732ce65b9690720f772c07afadf38dd7d8ef io_uring: static_key for !IORING_SETUP_NO_SQARRAY
-         525b26d3647037195dae188b6d706eed1fa9e5fb io_uring: clean up cqe trace points
-         a047fce775cfd2ee395fcfb29a5e8fd4cc6638a8 io_uring/rsrc: don't assign bvec twice in io_import_fixed()
-         db37b23d05df039156ee466e0739c36c7f7b3908 io_uring/uring_cmd: get rid of using req->imu
-         e24c3afd306384e1f916b6368b25276a42571a53 io_uring/rw: get rid of using req->imu
-         9c9f710916daa2e27abeb93a41737f324c7974c8 io_uring/net: move send zc fixed buffer import to issue path
-         080b8ce03bbb1d684a1fcd1192795f879b76cea7 io_uring: kill 'imu' from struct io_kiocb
-         
-  - ref: refs/heads/for-next
-    old: f82eab067eb81484688e7385d1dc201daa57f469
-    new: 4280ce7f59f66dfcacb1c340b6657fad431d3391
-    log: |
-         cb943835067450aebf6f1171e81ea5958ce34b03 io_uring: kill io_llist_xchg
-         9812732ce65b9690720f772c07afadf38dd7d8ef io_uring: static_key for !IORING_SETUP_NO_SQARRAY
-         525b26d3647037195dae188b6d706eed1fa9e5fb io_uring: clean up cqe trace points
-         b18d3823df6daabcecf2eb20c3a2082c01551a04 Merge branch 'for-6.13/io_uring' into for-next
-         a047fce775cfd2ee395fcfb29a5e8fd4cc6638a8 io_uring/rsrc: don't assign bvec twice in io_import_fixed()
-         db37b23d05df039156ee466e0739c36c7f7b3908 io_uring/uring_cmd: get rid of using req->imu
-         e24c3afd306384e1f916b6368b25276a42571a53 io_uring/rw: get rid of using req->imu
-         9c9f710916daa2e27abeb93a41737f324c7974c8 io_uring/net: move send zc fixed buffer import to issue path
-         080b8ce03bbb1d684a1fcd1192795f879b76cea7 io_uring: kill 'imu' from struct io_kiocb
-         4280ce7f59f66dfcacb1c340b6657fad431d3391 Merge branch 'for-6.13/io_uring' into for-next
-         
-  - ref: refs/heads/io_uring-sendzc-provided
-    old: a34aca645bb22e5bdc1abf2b2dbb6d850e0385b4
-    new: ec3a8adfb4f496a79901d9ad40b2496b55202e34
-    log: revlist-a34aca645bb2-ec3a8adfb4f4.txt
+  - ref: refs/heads/master
+    old: 5e9ab267bec1cf6d1127a7fabd7d7108865bb0fb
+    new: b04ae0f45168973edb658ac2385045ac13c5aca7
+    log: revlist-5e9ab267bec1-b04ae0f45168.txt
 
---===============8077452563702445466==
+--===============0474258256431198146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a34aca645bb2-ec3a8adfb4f4.txt
+Content-Disposition: attachment; filename=revlist-5e9ab267bec1-b04ae0f45168.txt
 
-cb943835067450aebf6f1171e81ea5958ce34b03 io_uring: kill io_llist_xchg
-9812732ce65b9690720f772c07afadf38dd7d8ef io_uring: static_key for !IORING_SETUP_NO_SQARRAY
-525b26d3647037195dae188b6d706eed1fa9e5fb io_uring: clean up cqe trace points
-a047fce775cfd2ee395fcfb29a5e8fd4cc6638a8 io_uring/rsrc: don't assign bvec twice in io_import_fixed()
-db37b23d05df039156ee466e0739c36c7f7b3908 io_uring/uring_cmd: get rid of using req->imu
-e24c3afd306384e1f916b6368b25276a42571a53 io_uring/rw: get rid of using req->imu
-9c9f710916daa2e27abeb93a41737f324c7974c8 io_uring/net: move send zc fixed buffer import to issue path
-080b8ce03bbb1d684a1fcd1192795f879b76cea7 io_uring: kill 'imu' from struct io_kiocb
-4531e91735231e8b335d8a25df364f9aa80db9a3 Merge branch 'io_uring-6.12' into io_uring-sendzc-provided
-5df476f3e92ea9d2fbd075df27ec8b4d39302563 Merge branch 'for-6.13/io_uring' into io_uring-sendzc-provided
-ea465a961206f47a1a5aeb2d810d8603f6506fc1 io_uring/kbuf: mark buf_sel_arg mode as KBUF_MODE_FREE once allocated
-847b3bcebd4cc1de965d2b6f8d198e417915a21c io_uring/kbuf: change io_provided_buffers_select() calling convention
-03482388644abdc2de61c757af5e31ac6044a6b4 io_uring/net: abstract out io_send_import() helper
-5fd42e15b6c4a4bbc83a48713f3357ed434d462a io_uring/net: move send zc fixed buffer import into helper
-ec30b2277e29e50eb0189d3e0f6f4ed9b9d79f71 io_uring: add ability for provided buffer to index registered buffers
-039b12689ce185bdd0f681f4595624278ef10778 io_uring/kbuf: add support for mapping type KBUF_MODE_BVEC
-ec3a8adfb4f496a79901d9ad40b2496b55202e34 io_uring/net: add provided buffer and bundle support to send zc
+0fb823f1cf3417e06846d1ffe2c97e10a65a847e xfs: fix integer overflow in xrep_bmap
+c0adf8c3a9bf33f1dd1bf950601380f46a3fcec3 iomap: factor out a iomap_last_written_block helper
+caf0ea451d97c33c5bbaa0074dad33b0b2a4e649 iomap: remove iomap_file_buffered_write_punch_delalloc
+b78495166264fee1ed7ac44627e1dd080bbdf283 iomap: move locking out of iomap_write_delalloc_release
+3c399374af28b158854701da324a7bff576f5a97 xfs: factor out a xfs_file_write_zero_eof helper
+acfbac776496f2093e9facf7876b4015ef8c3d1d xfs: take XFS_MMAPLOCK_EXCL xfs_file_write_zero_eof
+abd7d651ad2cd2ab1b8cd4dd31e80a8255196db3 xfs: IOMAP_ZERO and IOMAP_UNSHARE already hold invalidate_lock
+8fe3b21efa075f29d64a34000e84f89cfaa6cd80 xfs: support the COW fork in xfs_bmap_punch_delalloc_range
+c29440ff66d6f24be5e9e313c1c0eca7212faf9e xfs: share more code in xfs_buffered_write_iomap_begin
+7d6fe5c586e6a866f9e69a5bdd72a72b977bab8e xfs: set IOMAP_F_SHARED for all COW fork allocations
+f6f91d290c8b9da6e671bd15f306ad2d0e635a04 xfs: punch delalloc extents from the COW fork for COW writes
+19ebc1e6cab334a8193398d4152deb76019b5d34 smb: client: fix possible double free in smb2_set_ea()
+1ab60323c5201bef25f2a3dc0ccc404d9aca77f1 smb: client: fix OOBs when building SMB2_IOCTL request
+3dfea293f4279b3021cb0ecf3807e763bddb63b9 smb/client: Fix logically dead code
+6aca91c416f626fc0c5146cc4450ea86b831f3dd cifs: Remove unused functions
+568570fdf2b941115f0b1cf8d539255a1c707d9e Merge tag 'xfs-6.12-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+b04ae0f45168973edb658ac2385045ac13c5aca7 Merge tag 'v6.12-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============8077452563702445466==--
+--===============0474258256431198146==--
