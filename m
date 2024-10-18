@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 18 Oct 2024 23:13:33 -0000
-Message-Id: <172929321328.1984001.3894468896378682826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 18 Oct 2024 23:13:41 -0000
+Message-Id: <172929322132.1984251.7631309538270005796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: f8eacd8ad7a658b805c635f8ffad7913981f863c
-    new: dbafeddb9524bd459592f92432b90dd7c0b79568
+  - ref: refs/heads/for-linus
+    old: ea330429a04b383bd319c66261a5eca4798801e4
+    new: 2de01e0e57f3ebe7f90b08f6bca5ce0f3da3829f
     log: |
-         fe05c40ca9c18cfdb003f639a30fc78a7ab49519 selftest: hid: add the missing tests directory
-         dbafeddb9524bd459592f92432b90dd7c0b79568 Merge tag 'linux_kselftest-fixes-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+         22a18935d7d96bbb1a28076f843c1926d0ba189e Input: xpad - add support for MSI Claw A1M
+         2de01e0e57f3ebe7f90b08f6bca5ce0f3da3829f Input: zinitix - don't fail if linux,keycodes prop is absent
          
