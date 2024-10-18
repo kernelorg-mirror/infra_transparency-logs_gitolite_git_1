@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 18 Oct 2024 15:21:44 -0000
-Message-Id: <172926490477.1602904.18108779912682791445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 18 Oct 2024 15:40:16 -0000
+Message-Id: <172926601682.1617057.17817891336500816325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: bb94f56b9cfa4a946a43492b2a13ecb5b9b571bc
-    new: 3805505f8137dc63c83b7ca7dda619c23fc7a2ad
+  - ref: refs/heads/kdevops
+    old: d536fb1b4e7bfcf11b7d7c2ab0f3dc9926581549
+    new: c6bb1013f9c26fd45e664b5b42e4ff85aa650b36
     log: |
-         3805505f8137dc63c83b7ca7dda619c23fc7a2ad fbdev: wm8505fb: select CONFIG_FB_IOMEM_FOPS
+         c6bb1013f9c26fd45e664b5b42e4ff85aa650b36 DEBUG: invasive nfsd4_setattr debugging
          
