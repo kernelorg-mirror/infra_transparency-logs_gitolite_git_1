@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5907057401855005259=="
+Content-Type: multipart/mixed; boundary="===============5612427155550862367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Oct 2024 21:56:31 -0000
-Message-Id: <172928859153.1925484.10394697771851529659@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 21:56:33 -0000
+Message-Id: <172928859375.1925599.502033491379535338@gitolite.kernel.org>
 
---===============5907057401855005259==
+--===============5612427155550862367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 53bac8330865417332d4cf80cb671b15956b049d
     new: 160a810b2a8588187ec2b1536d0355c0aab8981c
     log: revlist-53bac8330865-160a810b2a85.txt
 
---===============5907057401855005259==
+--===============5612427155550862367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ e63b5fd02a00aab8e79691359e931dafcd9dfd05 net: ravb: Simplify UDP TX checksum off
 eb4f99c56ad30cb0f8c8e93a78b1200f5987e41e net: vxlan: replace VXLAN_INVALID_HDR with VNI_NOT_FOUND
 160a810b2a8588187ec2b1536d0355c0aab8981c net: vxlan: update the document for vxlan_snoop()
 
---===============5907057401855005259==--
+--===============5612427155550862367==--
