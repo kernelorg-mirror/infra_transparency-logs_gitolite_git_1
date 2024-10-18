@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3244856070680837019=="
+Content-Type: multipart/mixed; boundary="===============1449963645643477279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 18 Oct 2024 21:55:19 -0000
-Message-Id: <172928851993.1923668.15770470986355670708@gitolite.kernel.org>
+Date: Fri, 18 Oct 2024 21:55:30 -0000
+Message-Id: <172928853093.1924016.10162949602548783318@gitolite.kernel.org>
 
---===============3244856070680837019==
+--===============1449963645643477279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6fd9db7695a9172a0aac9d8f3af5dbc92dff32bf
-    new: fbb78b7986de80360c71b0bdf511e889f027d0a7
-    log: revlist-6fd9db7695a9-fbb78b7986de.txt
+  - ref: refs/heads/1GbE
+    old: c186b7a7f2387d9e09ad408420570be025b187c5
+    new: 07d6bf634bc8f93caf8920c9d61df761645336e2
+    log: revlist-c186b7a7f238-07d6bf634bc8.txt
 
---===============3244856070680837019==
+--===============1449963645643477279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fd9db7695a9-fbb78b7986de.txt
+Content-Disposition: attachment; filename=revlist-c186b7a7f238-07d6bf634bc8.txt
 
 37578c682cf47bafe29fef29d177b1f38b021db9 nfs: Remove duplicated include in localio.c
 1d498df44e709d9708c0bf666012933bbc7ef1d6 sunrpc: fix prog selection loop in svc_process_common
@@ -227,19 +227,35 @@ eca631b8fe808748d7585059c4307005ca5c5820 Merge tag 'f2fs-6.12-rc4' of git://git.
 09661f75e75cb6c1d2d8326a70c311d46729235f ring-buffer: Fix reader locking when changing the sub buffer order
 bdc72765122356796aa72f6e99142cdf24254ce5 Merge tag 'bcachefs-2024-10-14' of git://evilpiepirate.org/bcachefs
 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2 Merge tag 'trace-ringbuffer-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+c401ed1c709948e57945485088413e1bb5e94bd1 net: systemport: fix potential memory leak in bcm_sysport_xmit()
+fed07d3eb8a8d9fcc0e455175a89bc6445d6faed net: bcmasp: fix potential memory leak in bcmasp_xmit()
+e8c526f2bdf1845bedaf6a478816a3d06fa78b8f tcp/dccp: Don't use timer_pending() in reqsk_queue_unlink().
+1833d8a26f057128fd63e126b4428203ece84684 net: dsa: mv88e6xxx: Fix the max_vid definition for the MV88E6361
+56440d7ec28d60f8da3bfa09062b3368ff9b16db genetlink: hold RCU in genlmsg_mcast()
+d96016a764f6aa5c7528c3d3f9cb472ef7266951 udp: Compute L4 checksum as usual when not segmenting the skb
+6ed97afd75cc5cac34b1c15a930ab2a6b7c6ff0f dt-bindings: net: brcm,unimac-mdio: Add bcm6846-mdio
+906b77ca91c7e9833b4e47bedb6bec76be71d497 net: phy: mdio-bcm-unimac: Add BCM6846 support
+9626c182096f625278ce517d9416c1de90dba173 Merge branch 'net-phy-mdio-bcm-unimac-add-bcm6846-variant'
+217a3d98d1e9891a8b1438a27dfbc64ddf01f691 net: microchip: vcap api: Fix memory leaks in vcap_api_encode_rule_test()
+126e799602f45e9ce1ded03ee9eadda68bf470e0 net: ravb: Only advertise Rx/Tx timestamps if hardware supports it
+11d06f0aaef89f4cad68b92510bd9decff2d7b87 net: dsa: vsc73xx: fix reception from VLAN-unaware bridges
 dff6584301ddeb147ae306b140ccf2e128e29030 Merge tag 'sched_ext-for-6.12-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 6f6fc393f4dbaa149962a4662f5dd08513c28905 Merge tag 'v6.12-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 9f635d44d766b10b6fa5cc08b09a18de7de9ff42 Merge tag 'v6.12-rc3-ksmbd-fixes' of git://git.samba.org/ksmbd
 667b1d41b25b9b6b19c8af9d673ccb93b451b527 Merge tag 'for-6.12-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 c964ced7726294d40913f2127c3f185a92cb4a41 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+4678adf94da4a9e9683817b246b58ce15fb81782 vmxnet3: Fix packet corruption in vmxnet3_xdp_xmit_frame
+88806efc034a9830f483963326b99930ad519af1 net: ethernet: mtk_eth_soc: fix memory corruption during fq dma init
+7decd1f5904a489d3ccdcf131972f94645681689 mptcp: pm: fix UaF read in mptcp_pm_nl_rm_addr_or_subflow
+65b4eb9f3d1e037100b157e023f4d3d988aafd29 net/mlx5: HWS, removed wrong access to a number of rules variable
+5aa2184e29081665f915594bc6de9b7fee6e4883 net/mlx5: HWS, fixed double free in error flow of definer layout
+45bcbd49224ac5aec5e1239de9060e431ca2acd9 net/mlx5: HWS, don't destroy more bwc queue locks than allocated
+9addffa3435973e016f066e13f950be5eed73c06 net/mlx5: HWS, use lock classes for bwc locks
+d4f25be27e3ef7e23998fbd3dd4bff0602de7ae5 net/mlx5: Check for invalid vector index on EQ creation
+d62b14045c6511a7b2d4948d1a83a4e592deeb05 net/mlx5: Fix command bitmask initialization
+1da9cfd6c41c2e6bbe624d0568644e1521c33e12 net/mlx5: Unregister notifier on eswitch init failure
+4dbc1d1a9f39c3711ad2a40addca04d07d9ab5d0 net/mlx5e: Don't call cleanup on profile rollback failure
+cb560795c8c2ceca1d36a95f0d1b2eafc4074e37 Merge branch 'mlx5-misc-fixes-2024-10-15'
 07d6bf634bc8f93caf8920c9d61df761645336e2 Merge tag 'net-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b95dc1d7fe63dd8b73b96a28596d96d8e16eafd0 iavf: allow changing VLAN state without calling PF
-55486d7f4b197c1ee20f57a8e1ac1e225f2293ca igb: Disable threaded IRQ for igb_msix_other
-cc80eb52c1d2e49920ca888b0a15368c5bef6763 e1000e: Remove Meteor Lake SMBUS workarounds
-5646a6fe917656f9520404088a29c41a6b8d8dbe ice: block SF port creation in legacy mode
-294c6ba8b4ac1bbd86d6294502dfad1461a768b3 idpf: set completion tag for "empty" bufs associated with a packet
-3489c68b9aed4286e4363677354dc79d5d8e0f7e ice: Fix use after free during unload with ports in bridge
-125f837e0eed9b2caf8b63648eb25b230fed1105 ice: fix PHY Clock Recovery availability check
-fbb78b7986de80360c71b0bdf511e889f027d0a7 ice: fix crash on probe for DPLL enabled E810 LOM
 
---===============3244856070680837019==--
+--===============1449963645643477279==--
