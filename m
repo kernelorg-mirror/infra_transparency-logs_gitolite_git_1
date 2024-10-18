@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 18 Oct 2024 17:33:44 -0000
-Message-Id: <172927282437.1708594.7991458536993907532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 18 Oct 2024 17:40:27 -0000
+Message-Id: <172927322740.1715500.14919227463463222224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 75aa74d52f43e75d0beb20572f98529071b700e5
-    new: b1b46751671be5a426982f037a47ae05f37ff80b
-    log: |
-         b1b46751671be5a426982f037a47ae05f37ff80b mm: fix follow_pfnmap API lockdep assert
-         
+  - ref: refs/heads/filexZjuyx
+    old: 740883fa6c7262036769aa54b50609c8043977e0
+    new: 0000000000000000000000000000000000000000
