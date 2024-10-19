@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7773771149534677854=="
+Content-Type: multipart/mixed; boundary="===============2702678137000469367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 19 Oct 2024 08:05:59 -0000
-Message-Id: <172932515947.2436780.3578985179512957072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 19 Oct 2024 08:20:00 -0000
+Message-Id: <172932600090.2446166.3670122283356435541@gitolite.kernel.org>
 
---===============7773771149534677854==
+--===============2702678137000469367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/staging-linus
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
-    new: 807babf69027b4f1c55e72b06879658e83830880
+  - ref: refs/heads/vfs.all
+    old: 78fd7ab254f7f1c4604b1ff933cd29bc6f563238
+    new: 424eb5f7e6637d8f47fea75f7ce118038b279b1a
+    log: revlist-78fd7ab254f7-424eb5f7e663.txt
+  - ref: refs/heads/vfs.file
+    old: ac4b1a2efc846497cd1b3beaa0eb667a4412ebb5
+    new: 025086d5061bb8570ca4fb5039fae78a492b0adf
     log: |
-         404b739e895522838f1abdc340c554654d671dde staging: vchiq_arm: Use devm_kzalloc() for vchiq_arm_state allocation
-         807babf69027b4f1c55e72b06879658e83830880 staging: vchiq_arm: Use devm_kzalloc() for drv_mgmt allocation
+         06fa1b2cb8833e2ce7133e37fe01553eed05b220 fs: add file_ref
+         de1d0d7401546813d3a6b3af8e59f84463ee92a4 fs: port files to file_ref
+         5f4656be7f250ab152bfccdb2db8c994a93d518e Merge patch series "fs: introduce file_ref_t"
+         025086d5061bb8570ca4fb5039fae78a492b0adf Merge branch 'work.fdtable' into vfs.file
          
 
---===============7773771149534677854==
+--===============2702678137000469367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-78fd7ab254f7-424eb5f7e663.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729325175 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1729325156-1366ac585326fbc7ad864d1657ca306ffb6ffb80
+06fa1b2cb8833e2ce7133e37fe01553eed05b220 fs: add file_ref
+de1d0d7401546813d3a6b3af8e59f84463ee92a4 fs: port files to file_ref
+5f4656be7f250ab152bfccdb2db8c994a93d518e Merge patch series "fs: introduce file_ref_t"
+025086d5061bb8570ca4fb5039fae78a492b0adf Merge branch 'work.fdtable' into vfs.file
+e5da90de61c46974bb8ad893200ee20a9acae697 Merge branch 'vfs.fixes' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+ad4b954d053c7333ae3e0f58dcfd219e778e04fb Merge branch 'vfs.mgtime' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+a500d47c983ed43228c67d51c6c8b163f0085c95 Merge branch 'vfs.mount.api' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+c0ccc83120cf01f4a62f64279c2334838c2fdfdd Merge branch 'vfs.iomap' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+ec92815456d85e3224fa317e8fa2a3130e1e1c5c Merge branch 'vfs.misc' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+e7e28515116e3c80a451131fa6842e0aaece8ad5 Merge branch 'vfs.rust.file' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+b681dd55d545896ad806cc7310dc01eb67194003 Merge branch 'vfs.pagecache' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+535b60c406a18eb0dc145cb431e6112240ef3d73 Merge branch 'vfs.netfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+69cf08dc29086d12a279d7f71c15f43202531d39 Merge branch 'vfs.rust.pid_namespace' into vfs.all
+e38900bb20ba5bb26111a559b1be27cede2b7ce4 Merge branch 'vfs.file' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+9e96dfc57fe896b72c6448b0ac4c25f21e06a8ac Merge branch 'vfs.ovl' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
+424eb5f7e6637d8f47fea75f7ce118038b279b1a Merge branch 'vfs.exportfs' into vfs.all Signed-off-by: Christian Brauner <brauner@kernel.org>
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 807babf69027b4f1c55e72b06879658e83830880 refs/heads/staging-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcTaHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zFYQAMcnELDZ/ua0yFl2PJWN
-JkJxUvGNo0cTKSrxIBlbDEMIHDAdHy4jQb+9+Di1vIDpWJ7R7oy+lNQHhBu8SreG
-86tuz8gmhij1aG1zvUYmvhy2wIRX8D1Af6BQyJWVW0boubP6qkQfVcSeEIBaBHtq
-I0UK4SAQBYNzZlpvWqO3Vr8dpQe3zUAATqr2T8OEA1bX+Z7FwGQ0X61ieJGl8aYv
-bfmTkUxgIsLFN6afyFormcmdlbH4Pm5tr35uRKJciO098Xspb5toW3roSq1uDleN
-6J0TGRssZ8HnejWUh2bgNGtzPUm8SCpahy3j0XN2RhKTdU/Ueu6z9URM4SayzF8+
-/QgIFVR/LqAdMHkt3M2K/wK0X9K5fiwt2rrpOfcDMAPdtQjxvtxMdbFblWlgUC7T
-HLJ1xHLhukDzvYZxBJAYrXbKtjWbQNhLhENF9fa5Tt7eC9BJZbO26zea8vEfoHZU
-TPLCYTIFVQEo3+hHnuTmPwbAT3u47XiQFYOYBcPULY08r4oyP4Z89ekhbvZ9uu6C
-SWyHJ5Ktj0Zun5capklV4A/VgD/JIff8WDSfImwDnN0L/S2tC9gXAtIYi16mmU+h
-EHgpdOF57sGWTLnlq2Tlg5OusLgiKBmkwlhSuFItk+pDgDngOC3J1CyZqqBfsOYh
-G2gwQ/gEAsTAKMwO9hk76SVx
-=NC0z
------END PGP SIGNATURE-----
-
---===============7773771149534677854==--
+--===============2702678137000469367==--
