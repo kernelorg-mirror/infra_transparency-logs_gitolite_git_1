@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 19 Oct 2024 21:50:30 -0000
-Message-Id: <172937463014.3055241.1492969926736889627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 19 Oct 2024 21:53:37 -0000
+Message-Id: <172937481785.3056561.17952537300626769342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 1419174a6c483f731747811084cf7449769205a1
-    new: 01b9255806be89ca9001a268c6efbb179c80504e
+  - ref: refs/heads/arm64-crc32-pmull
+    old: fa0f81e65009a1d05b55acd4e56c5a16ae61ad0e
+    new: b709c2f36c7aa171d5441037e81c12428f6f3e88
     log: |
-         01b9255806be89ca9001a268c6efbb179c80504e test/fifo-nonblock-read: ensure that !FMODE_NOWAIT O_NONBLOCK works
+         b709c2f36c7aa171d5441037e81c12428f6f3e88 fewer PMULLs but likely slower
          
