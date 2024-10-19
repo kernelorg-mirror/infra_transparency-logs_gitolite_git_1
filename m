@@ -1,148 +1,79 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sat, 19 Oct 2024 22:46:42 -0000
-Message-Id: <172937800209.3103008.1409948114443155910@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1217033640319817080=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 19 Oct 2024 22:49:40 -0000
+Message-Id: <172937818065.3104824.17976326234223841351@gitolite.kernel.org>
+
+--===============1217033640319817080==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/sent/20241003-ux500-dts-updates-20d21cfb104b-v1
+  - ref: refs/heads/for-6.13/block
+    old: 1936f2e6981297621deed9afcdc9063c1964fc5b
+    new: 96b85f2e2ed895969a96ba066c47fbdfb0982a7a
+    log: |
+         9a8dbdadae509e5717ff6e5aa572ca0974d2101d block/fs: Pass an iocb to generic_atomic_write_valid()
+         c3be7ebbbce5201e151f17e28a6c807602f369c9 fs/block: Check for IOCB_DIRECT in generic_atomic_write_valid()
+         1eadb157947163ca72ba8963b915fdc099ce6cca block: Add bdev atomic write limits helpers
+         96b85f2e2ed895969a96ba066c47fbdfb0982a7a Merge branch 'for-6.13/block-atomic' into for-6.13/block
+         
+  - ref: refs/heads/for-6.13/io_uring
+    old: 080b8ce03bbb1d684a1fcd1192795f879b76cea7
+    new: 2254a6b7ebd1c1b44fad5b7a6423a0bd6912468b
+    log: |
+         418789b6bbfc37f0be82a45806e201cde31739a4 io_uring/uring_cmd: get rid of using req->imu
+         296561922b7fcba02fab989e9c82ca859659c979 io_uring/rw: get rid of using req->imu
+         4b847826afd6667d99257f54db9442d1f5005989 io_uring/net: move send zc fixed buffer import to issue path
+         2254a6b7ebd1c1b44fad5b7a6423a0bd6912468b io_uring: kill 'imu' from struct io_kiocb
+         
+  - ref: refs/heads/for-next
+    old: 4280ce7f59f66dfcacb1c340b6657fad431d3391
+    new: 7aa2a4c1b52bb215b392051558f8ab5bf94b0cba
+    log: |
+         418789b6bbfc37f0be82a45806e201cde31739a4 io_uring/uring_cmd: get rid of using req->imu
+         296561922b7fcba02fab989e9c82ca859659c979 io_uring/rw: get rid of using req->imu
+         4b847826afd6667d99257f54db9442d1f5005989 io_uring/net: move send zc fixed buffer import to issue path
+         2254a6b7ebd1c1b44fad5b7a6423a0bd6912468b io_uring: kill 'imu' from struct io_kiocb
+         4d458574ae57407b06d96abe5d54dc53dd5405f2 Merge branch 'for-6.13/io_uring' into for-next
+         9a8dbdadae509e5717ff6e5aa572ca0974d2101d block/fs: Pass an iocb to generic_atomic_write_valid()
+         c3be7ebbbce5201e151f17e28a6c807602f369c9 fs/block: Check for IOCB_DIRECT in generic_atomic_write_valid()
+         1eadb157947163ca72ba8963b915fdc099ce6cca block: Add bdev atomic write limits helpers
+         96b85f2e2ed895969a96ba066c47fbdfb0982a7a Merge branch 'for-6.13/block-atomic' into for-6.13/block
+         7aa2a4c1b52bb215b392051558f8ab5bf94b0cba Merge branch 'for-6.13/block' into for-next
+         
+  - ref: refs/heads/io_uring-sendzc-provided
+    old: 16ceecbc12b6a2170f4a0a83c41eb681a1ceef3a
+    new: 5867ef85190744b26e0a5f7b1ee19c4744a92f29
+    log: revlist-16ceecbc12b6-5867ef851907.txt
+  - ref: refs/heads/for-6.13/block-atomic
     old: 0000000000000000000000000000000000000000
-    new: 3ce58394f0d3c6ce50db1071249771cd2601e22c
-  - ref: refs/tags/sent/ixp4xx-gpio-clocks-v4
-    old: 0000000000000000000000000000000000000000
-    new: 9caa93bd3e145baac875a46e723afdbad1ce338a
-  - ref: refs/tags/sent/zinitix-tk-versions-v1
-    old: 0000000000000000000000000000000000000000
-    new: bcc1bb62b4ccb4db1a42217e4305bbe4d7e75bb4
-  - ref: refs/tags/sent/zinitix-tk-versions-v2
-    old: 0000000000000000000000000000000000000000
-    new: 6ef9c8f72c03fe51757cb3481cf94a5cbe86a136
-  - ref: refs/tags/v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d04e483db22823c13c0313b7c43a52529a2e2672
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
-  - ref: refs/tags/v6.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ac1064c236193fe48bded6f718ad47203870743b
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
-  - ref: refs/tags/v6.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
-  - ref: refs/tags/v6.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
-  - ref: refs/tags/v6.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
-  - ref: refs/tags/v6.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
-  - ref: refs/tags/v6.11
-    old: 0000000000000000000000000000000000000000
-    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
-  - ref: refs/tags/v6.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
-  - ref: refs/tags/v6.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
-  - ref: refs/tags/v6.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
-  - ref: refs/tags/v6.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
-  - ref: refs/tags/v6.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
-  - ref: refs/tags/v6.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
-  - ref: refs/tags/v6.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
-  - ref: refs/tags/v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
-  - ref: refs/tags/v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
-  - ref: refs/tags/v6.7-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
-  - ref: refs/tags/v6.7-rc5
-    old: 0000000000000000000000000000000000000000
-    new: be59bee58790f9d137cfc11973e856e4f8ab3888
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
-  - ref: refs/tags/v6.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: adab409b5eb1c5905c260f74c75725db3da46e38
-  - ref: refs/tags/v6.7-rc8
-    old: 0000000000000000000000000000000000000000
-    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
-  - ref: refs/tags/v6.8
-    old: 0000000000000000000000000000000000000000
-    new: 90d1f30371ae3337beb01666b226320728d35c70
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
-  - ref: refs/tags/v6.8-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
-  - ref: refs/tags/v6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
+    new: 1eadb157947163ca72ba8963b915fdc099ce6cca
+
+--===============1217033640319817080==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-16ceecbc12b6-5867ef851907.txt
+
+418789b6bbfc37f0be82a45806e201cde31739a4 io_uring/uring_cmd: get rid of using req->imu
+296561922b7fcba02fab989e9c82ca859659c979 io_uring/rw: get rid of using req->imu
+4b847826afd6667d99257f54db9442d1f5005989 io_uring/net: move send zc fixed buffer import to issue path
+2254a6b7ebd1c1b44fad5b7a6423a0bd6912468b io_uring: kill 'imu' from struct io_kiocb
+1ad1adac292aa65f0bdbb3a616592d058cbfb894 Merge branch 'io_uring-6.12' into io_uring-sendzc-provided
+a30dcd761164f8a87afe8dfb0b2982e002c1d671 Merge branch 'for-6.13/io_uring' into io_uring-sendzc-provided
+bc56eae8c4ac8720746d933c5e04cbdc1d4c09d8 io_uring/kbuf: mark buf_sel_arg mode as KBUF_MODE_FREE once allocated
+00a42ea828ad05d8f74f9a360c9248357fdce35d io_uring/kbuf: change io_provided_buffers_select() calling convention
+754242595a4f0ef11b9091559b0bbbcf189e2bd1 io_uring/net: abstract out io_send_import() helper
+724acc0caec7123f9c0e1944f935d1d2f3c6a117 io_uring/net: move send zc fixed buffer import into helper
+d8ef4a03f4d2e12bc20f25c6c5e5ae9e22a22f2c io_uring: add ability for provided buffer to index registered buffers
+f5b285713cba03be9c941661157659aa29facca9 io_uring/kbuf: add support for mapping type KBUF_MODE_BVEC
+5867ef85190744b26e0a5f7b1ee19c4744a92f29 io_uring/net: add provided buffer and bundle support to send zc
+
+--===============1217033640319817080==--
