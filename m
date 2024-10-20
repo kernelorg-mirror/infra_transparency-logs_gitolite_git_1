@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============1907823933068841024=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 20 Oct 2024 14:42:52 -0000
-Message-Id: <172943537260.3873065.12271923305025846167@gitolite.kernel.org>
-
---===============1907823933068841024==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Sun, 20 Oct 2024 15:26:05 -0000
+Message-Id: <172943796581.3907064.20947829501980411@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: asl
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/main
-    old: 07d6bf634bc8f93caf8920c9d61df761645336e2
-    new: 3b05b9c36ddd01338e1352588f2ec1ea23f97d43
-    log: revlist-07d6bf634bc8-3b05b9c36ddd.txt
-
---===============1907823933068841024==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07d6bf634bc8-3b05b9c36ddd.txt
-
-f2767a41959e60763949c73ee180e40c686e807e net: pse-pd: Fix out of bound for loop
-2cb3f56e827abb22c4168ad0c1bbbf401bb2f3b8 net/sun3_82586: fix potential memory leak in sun3_82586_send_packet()
-e4dd8bfe0f6a23acd305f9b892c00899089bd621 be2net: fix potential memory leak in be_xmit()
-f99cf996ba5a315f8b9f13cc21dff0604a0eb749 net: plip: fix break; causing plip to never transmit
-9f86df0e7537c31b901b7448cf1c30f4fc1afc41 MAINTAINERS: add Simon as an official reviewer
-de96f6a3003513c796bbe4e23210a446913f5c00 net: phy: dp83822: Fix reset pin definitions
-4ab3e4983bcc9d9b9dd9720253cb93f44e9e657c bnxt_en: replace ptp_lock with irqsave variant
-bd28df26197b2bd0913bf1b36770836481975143 octeon_ep: Implement helper for iterating packets in Rx queue
-eb592008f79be52ccef88cd9a5249b3fc0367278 octeon_ep: Add SKB allocation failures handling in __octep_oq_process_rx()
-12bc14949c4a7272b509af0f1022a0deeb215fd8 net: dsa: mv88e6xxx: Fix error when setting port policy on mv88e6393x
-3e14d8ebaa11e92325985c67cd147431a1116cd4 mailmap: update entry for Jesper Dangaard Brouer
-3b05b9c36ddd01338e1352588f2ec1ea23f97d43 MAINTAINERS: add samples/pktgen to NETWORKING [GENERAL]
-
---===============1907823933068841024==--
+  - ref: refs/heads/at91-defconfig
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 07891907687e3cc7e0659fdf5fbdc816c97ddb80
+    log: |
+         07891907687e3cc7e0659fdf5fbdc816c97ddb80 ARM: configs: at91: enable PAC1934 driver as module
+         
