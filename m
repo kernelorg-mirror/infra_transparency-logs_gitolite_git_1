@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1861354163998828497=="
+Content-Type: multipart/mixed; boundary="===============5720349295585529791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sun, 20 Oct 2024 17:24:00 -0000
-Message-Id: <172944504054.3995304.13698354744807031757@gitolite.kernel.org>
+Date: Sun, 20 Oct 2024 17:24:52 -0000
+Message-Id: <172944509292.3996311.7305572605966936297@gitolite.kernel.org>
 
---===============1861354163998828497==
+--===============5720349295585529791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 30a9a1a26b9568f49aee24a888767105cb0855b2
     log: revlist-9852d85ec9d4-30a9a1a26b95.txt
 
---===============1861354163998828497==
+--===============5720349295585529791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ aef4959ee000069d13461166eefe0de86a0bda8c arm64: dts: ti: k3-am65-main: Add ti,pr
 007f3e72c9138d5951aac58b993db0114eddfca7 arm64: dts: ti: k3-am64-main: Add ti,pruss-pa-st node
 30a9a1a26b9568f49aee24a888767105cb0855b2 arm64: dts: ti: k3-am64: Add ti,pa-stats property
 
---===============1861354163998828497==--
+--===============5720349295585529791==--
