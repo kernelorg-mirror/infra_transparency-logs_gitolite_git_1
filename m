@@ -1,79 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7143005787248517101=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 20 Oct 2024 13:41:21 -0000
-Message-Id: <172943168187.3827558.17432206736435860255@gitolite.kernel.org>
-
---===============7143005787248517101==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Sun, 20 Oct 2024 13:56:59 -0000
+Message-Id: <172943261906.3839079.14210938732864491574@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
-  - ref: refs/heads/staging-next
-    old: c47adc2dfc2da2b028d60c990ea2fa656bc56c49
-    new: 0ef2fbdf7d4f64b4f3436b25f9979927b9ff8cc5
-    log: revlist-c47adc2dfc2d-0ef2fbdf7d4f.txt
-
---===============7143005787248517101==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729431705 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1729431680-202439ba550b203a998b469454cccd3a9feeac79
-
-c47adc2dfc2da2b028d60c990ea2fa656bc56c49 0ef2fbdf7d4f64b4f3436b25f9979927b9ff8cc5 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcVCJkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dUcQAK6MGo8Zrj2UZK76L1Rj
-3GkkcAeF5ae2+XRqPHS9QE3JDwQvZpQvecKkB/3SD4GozJU0N6gFDgQctisEL8+s
-bD9Xra11zvsXpVIDCdNUJkIDxpNIn5tVBCyV2ZfmRPVRamK8mdfI9+8mD0gKZKko
-dal7u8KdKd5HvJAZgULDmJfiA0iaD10lG5JeXXsmUXIcvTjX2CyOHStP4awpGb0e
-cSMI1n1L3fa6FwnCxNWy1KXU71RhabROahca9J0UDYSnw7wK7nZ67UhBxgGw1xKS
-xLlK2JCQxD6ojMCOEoqUAu97G1pW3v+G1BlaSgPBkxLn5WZkr766M1RYEI2KCGY7
-r2pM9dwtkIXokt7PMiLszTjxXYjs8Po68747pKTxbwNxxeTs2zio0kZXX1iO6k5n
-qicZcey2tflNrStkW9yn4ijfgAPg6Q14VwqoGIvxeRG4LQWcHRf5T6mUq657zqfq
-JGKnRZjWaNSyPMn0a0zPcc5oHMN3IHyqeow3KsIVwmivJJY55/krf3y1X8IC3kjv
-zreLJvQs9zLM7jxXFVOTgYu3enu8eQhRfxT4d3dkSsdi49lFaMEs8xiIbRsYHGTx
-hTpY5+2k5R+Purr03/UrfAUTnjZP6nXY1Yr3/ukJ/IyXqaRGPfHgftSdBiS5PCri
-kOK1W+ykJtuEvfdNFkSXiH7N
-=WNtK
------END PGP SIGNATURE-----
-
---===============7143005787248517101==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c47adc2dfc2d-0ef2fbdf7d4f.txt
-
-ad59cf382cd5c0548b3aeb80cb1e34ebac40ade6 staging: gpib: add module descriptions
-b8989f45d1ec0b5e1aac5da2a915f8002015eb39 staging: gpib: avoid unused const variables
-e282c89beab6ed0d77c96e85c50b470091e26e7e staging: gpib: pc2: avoid calling undefined dma_free()
-78ecb0375685bc9276638a5e2b6ec3b10d2810bf staging: gpib: make port I/O code conditional
-2c9f5d8c6ece91ecd33350749230494d224550f1 staging: gpib: add bus specific Kconfig dependencies
-d76e1402ec453cfbface5240f74c783ef0aa1985 staging: gpib: use proper format string in request_module
-0ed8194ae410495d18df016509030a82f01af9be staging: gpib: cb7210: select NEC7210 library
-14bcf831f0d79e666e2137ecc1c79b09cfddb9d9 staging: gpib: Change return type and error code of fluke_get_dma_residue
-0edaa545afbbcd7e8ff162f9fd8852c3589d2fa6 staging: gpib: fmh_gpib: Fix typo
-cbf821e689916ef0c60b0bd8e69daa13a45f2016 staging: gpib: replace dump function by print_hex_dump
-1f6bfe18d0fc1c4f22720ed163c85f692ea65c6a staging: gpib: fix uninitialized variable in usb_gpib_command()
-039beaa5ace1e2cf9f0f3fa542f3057f9ededa61 staging: gpib: Change return type and error code of fmh_gpib_get_dma_residue()
-0d2df8b10b54578d052daa520fac64e0e0ce74e2 staging: vchiq_core: Subsume 'offset' in struct vchiq_bulk
-53cc1e2549d4a49ae18389e591b2ab6af253bd49 staging: vchiq_core: Simplify bulk data preparatory functions
-72406c8a7acb73aa62d0279f9c3621c8d3cbb213 staging: vc04_services: Simplify block bulk transfer code paths
-b7a0b11170f145f6a20670d8d0cd4551d30d1bcf staging: vc04_services: Simplify (no)callback bulk transfer code paths
-643f2e8a6aa1885efd23d15f8b2b6446cb8052f8 staging: vchiq_core: Simplify bulk transfer queue message function
-0ef2fbdf7d4f64b4f3436b25f9979927b9ff8cc5 staging: vchiq_dev: Drop userdata local pointer
-
---===============7143005787248517101==--
+  - ref: refs/heads/master
+    old: 8869b39c1e3a1b76637ffb13fc5de800d7f88c2c
+    new: a3ff7242cba5fb98d695b9aa69585fe4bc289f0c
+    log: |
+         a3ff7242cba5fb98d695b9aa69585fe4bc289f0c build: Require at least version 0.69 when building with external ELL
+         
