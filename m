@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2523629401957305803=="
+Content-Type: multipart/mixed; boundary="===============0614862879363135620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 21 Oct 2024 02:46:37 -0000
-Message-Id: <172947879760.228974.3243737596933235803@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 02:46:45 -0000
+Message-Id: <172947880547.229208.6226349924298249009@gitolite.kernel.org>
 
---===============2523629401957305803==
+--===============0614862879363135620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 5aecc4c8de12bfc06379fb10a929da0a1448bfc3
     new: 602d954173d02f7321e5d19b0421565acffb0c08
     log: revlist-5aecc4c8de12-602d954173d0.txt
 
---===============2523629401957305803==
+--===============0614862879363135620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -579,4 +579,4 @@ bc542de96948ebae316b39c5c8f29a97f3ac480e LoongArch: Set initial pte entry with P
 1babb4dee5c0603a26e23fd0613d6101b519314b LoongArch: Make KASAN usable for variable cpu_vabits
 602d954173d02f7321e5d19b0421565acffb0c08 LoongArch: KVM: Mark hrtimer to expire in hard interrupt context
 
---===============2523629401957305803==--
+--===============0614862879363135620==--
