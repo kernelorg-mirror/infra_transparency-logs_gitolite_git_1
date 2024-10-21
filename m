@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6078095191256556974=="
+Content-Type: multipart/mixed; boundary="===============8826365014469612826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 21 Oct 2024 05:38:43 -0000
-Message-Id: <172948912389.358331.2061161916711638181@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 05:39:25 -0000
+Message-Id: <172948916568.359000.15325697868985504914@gitolite.kernel.org>
 
---===============6078095191256556974==
+--===============8826365014469612826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 2c22f0bdfa448f86a7092985587e994b3c0e95a8
-    new: 2f831c82ddc2b31359209953dfa7ce0f386b6fdb
-    log: revlist-2c22f0bdfa44-2f831c82ddc2.txt
+  - ref: refs/heads/dev
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 0632723b5978332ca7ab9a0ba07091265ffa2c8f
+    log: revlist-9852d85ec9d4-0632723b5978.txt
 
---===============6078095191256556974==
+--===============8826365014469612826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c22f0bdfa44-2f831c82ddc2.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-0632723b5978.txt
 
 a9f41588a902f386b48f021f56a4c14735cd9371 KVM: arm64: Constrain the host to the maximum shared SVE VL with pKVM
 64a1d716615ee234a743b2528e95d8c3a9bef95f KVM: arm64: Another reviewer reshuffle
@@ -650,6 +650,9 @@ b836cbdf3b81a4a22b3452186efa2e5105a77e10 selftests/bpf: Assert link info uprobe_
 f07fd958a49264eebc1db9c946eb5d2e91c470fd drm/vmwgfx: Remove unnecessary NULL checks before kvfree()
 ac44ff7cec33d5c2d4b72d52603552ec64c1a8bf Merge tag 'drm-xe-fixes-2024-10-10' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 8956c582ac6b1693a351230179f898979dd00bdf powerpc/8xx: Fix kernel DTLB miss on dcbz
+416a8b2c02fe2a5a9fbdf2a35ea294b78d939f84 erofs: ensure regular inodes for file-backed mounts
+2402082e5332a2d27be82b4a2bb42490f9c5134b erofs: get rid of z_erofs_try_to_claim_pcluster()
+ae54567eaa87fd863ab61084a3828e1c36b0ffb0 erofs: get rid of kaddr in `struct z_erofs_maprecorder`
 f956052e00de211b5c9ebaa1958366c23f82ee9e vt: prevent kernel-infoleak in con_font_get()
 9462f4ca56e7d2430fdb6dcc8498244acbfc4489 tty: n_gsm: Fix use-after-free in gsm_cleanup_mux
 40d7903386df4d18f04d90510ba90eedee260085 serial: imx: Update mctrl old_status on RTSD interrupt
@@ -1047,8 +1050,5 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 0632723b5978332ca7ab9a0ba07091265ffa2c8f erofs: add SEEK_{DATA,HOLE} support
-4cbf7bb78931edcfaf7dae604e643e9c0e1bac80 erofs: get rid of erofs_{find,insert}_workgroup
-15fc08d6fbfd5a8dcfceaa4d1674e7ed53a66747 erofs: move erofs_workgroup operations into zdata.c
-2f831c82ddc2b31359209953dfa7ce0f386b6fdb erofs: sunset `struct erofs_workgroup`
 
---===============6078095191256556974==--
+--===============8826365014469612826==--
