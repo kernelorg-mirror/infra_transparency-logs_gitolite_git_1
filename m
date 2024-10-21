@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0007450261853563095=="
+Content-Type: multipart/mixed; boundary="===============2629211956942240751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 21 Oct 2024 06:42:43 -0000
-Message-Id: <172949296355.457562.14251485744057919760@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 06:42:47 -0000
+Message-Id: <172949296799.457691.6582115507995553231@gitolite.kernel.org>
 
---===============0007450261853563095==
+--===============2629211956942240751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+  - ref: refs/heads/char-misc-linus
+    old: 9b673c7551e6881ee0946be95e21ba290c8ac45e
     new: 42f7652d3eb527d03665b09edac47f85fb600924
-    log: revlist-8cf0b93919e1-42f7652d3eb5.txt
+    log: revlist-9b673c7551e6-42f7652d3eb5.txt
 
---===============0007450261853563095==
+--===============2629211956942240751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729492987 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729492991 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1729492962-d0f426542b4351743e6a9c36dd081bd633801155
+nonce 1729492966-daf348433d64c008b4f691bae1df083d35beeade
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/main
+9b673c7551e6881ee0946be95e21ba290c8ac45e 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV9/sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UEQQALVGGgBQlMExwQKe6CWK
-LmBR2Nl6FbI5ePYd5A1BJvFyy7BakchHwhd6GWrhAA7QPLYSrbxnKYAfzFXL1oUY
-Xtqnb7VK0CtU+m7omfg+dFDJ7R8MBaPLGHJLTUo8+hk3OnYTW35EBTs9oqxsDC7P
-FM4hULCrau3YW8s+watmvwDLFSGau6EODlNH0+OHNZFLEwip8apKpPyOZB7dcycU
-jFV3GDSYvNRf6BXefv4JZBNTvRTlATwr5z9kzTVZBvh6ErthesHdgKPjHeujReu4
-WhQAXUaGo8MSYHVPpkp132dy0YzAhShxe1IX4SwgCUIfk4tEPDJDMaGUiCdSX6H4
-g5Ti2tM++FqlbD1oEp1dZAIx3Nm/8oaigsZ1OTbhQFGvr0JpjpvEkPQOMFRQN/v8
-hB0uxGLY01SGQR8bad2vv9TzB6EWUWmWUL8q2JZUB4FnEC5QhZfD8cVk+rsxy1dS
-9XLG7LpqZj1zUj+YOWllxGm+oKh1kqA0wot7SBzGEPPbhbGhqDV8W9Sb1A8dL7Iu
-eWluc3xGlyLpePDeeXQxbb2ZgcMRV31f3qXF97j912oGvLfKhJGX6Smc8Jc74Neb
-JRBvRJVhpkJr2IFD3zC0Pz9Gk0kXtifE2jXZ/nCDj2ko3w8bHCg0iNrSJE2f6LPH
-WVOL+dSlcsIQz+kXTnlQE+OZ
-=7MuO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV9/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qNgP/3IEQSYB5gv6BSpC9WLx
+Y8zLG9+kk/l2fJ80bOWE2oLRpDNLH7RRQ7dAKXvuHlH7cIaaAsXgeveqH0PXV63H
+YCZKzYfEyjeWluU/fqSaV55xRDvuskB+hahFjWEmZCzJgqcYSnRNdGEM/07pCt+6
+lA8wWH9yCadPB/PzELq8RJB3D1MdNLv3ZbdNYIdyDYNFFpA8Qq4siSFmAE1NBuYd
+iZHfaKfqpamodQa/vanUs/fj5W+q07fVKAVeIqsXG4NNQeL7OQb9EyjSIz3Za6VF
+pHpQGv+o2K+ovL7FTaSCj7gg0GALnGx96+adTHW3zH2QepGHN3r9qhFoV1DvFE/K
+k0VFXohL2gUFeWbDQI1Uwd1k+MRmR6HHiwtPTxF9mquP2nzotTYw2DGjPEJLi7oK
+fqkhUV3Z+pgyP4dRiT98kg33xbt4fGRAXCkkx0RYOM1yYPK1zL/S4Vd4Ie1HbSNu
+L9uHlA/33PxH5aeImtTgoLOHg89z8SDhqKiYv4bf+UkylBOEBc9CujtFNmjgSn0o
+2XIUKuI60BjWJrIIqZUmGBAqKBiqUdAiH0cDcSRoO9+BApmetLnU6wZd2WIsJKwj
+K21lgyn84uJgaVckCC8JZtXAEDkkOIpigD/fJrG0DenllOrtfuEqYe1BaxyFex0+
+xpEp6SiWSStIYaZD53onAlo3
+=+PK/
 -----END PGP SIGNATURE-----
 
---===============0007450261853563095==
+--===============2629211956942240751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cf0b93919e1-42f7652d3eb5.txt
+Content-Disposition: attachment; filename=revlist-9b673c7551e6-42f7652d3eb5.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -87,15 +87,6 @@ b9efbe2b8f0177fa97bfab290d60858900aa196b virtio_console: fix misc probe bugs
 8be007c8e0911d0450b402ca8cbb1a8cbd00e8f2 block: fix blk_rq_map_integrity_sg kernel-doc
 52c996d3f40b40f87ef9dc80596903309682acc3 Merge remote-tracking branch 'torvalds/master' into perf-tools
 424aafb61a0b98d7d242f447fdb84bb8b323e8a8 perf vdso: Missed put on 32-bit dsos
-db9795a43dc944f048a37b65e06707f60f713e34 iio: accel: bma400: Fix uninitialized variable field_value in tap event handling.
-c7c44e57750c31de43906d97813273fdffcf7d02 iio: light: veml6030: fix IIO device retrieval from embedded device
-530688e39c644543b71bdd9cb45fdfb458a28eaa iio: light: opt3001: add missing full-scale range value
-9de32f48c5896e033b78a31da59a6594a805753f dt-bindings: iio: dac: adi,ad56xx: Fix duplicate compatible strings
-cd8247cd41bc983398f5eb572f660752adfe7a1a iio: bmi323: Drop CONFIG_PM guards around runtime functions
-506a1ac4c4464a61e4336e135841067dbc040aaa iio: bmi323: fix copy and paste bugs in suspend resume
-50161b2768d0f5381e095c04a3048fba9e19900e iio: bmi323: fix reversed if statement in bmi323_core_runtime_resume()
-c9e9746f275c45108f2b0633a4855d65d9ae0736 iio: light: veml6030: fix ALS sensor resolution
-d6bf6983b3949baab4b791b80a2aa0a077b00ced iio: pressure: sdp500: Add missing select CRC8
 a03c246d4ec836ae5827a4a16f6b9e730ec5ee8c clk: samsung: Fix out-of-bound access of of_match_node()
 16a6d2e685e8f9a2f51dd5a363d3f97fcad35e22 pinctrl: intel: platform: fix error path in device_for_each_child_node()
 d594de8956883f233f30b2559a10266dc0fc446a pinctrl: intel: platform: use semicolon instead of comma in ncommunities assignment
@@ -223,26 +214,6 @@ bade9711e0905eaa99e2ed98fc9642acaf9ba2b5 bcachefs: Split out check_unreachable_i
 12f286085bf592346cffa93d8e21b0cc2c01f9fe bcachefs: btree_iter_peek_upto() now handles BTREE_ITER_all_snapshots
 cba31b7eee41eb34941d040bddaed3628f160cae bcachefs: Delete vestigal check_inode() checks
 c9d952b9103b600ddafc5d1c0e2f2dbd30f0b805 io_uring/rw: fix cflags posting for single issue multishot read
-96666f05d11acf0370cedca17a4c3ab6f9554b35 iio: accel: kx022a: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-f4dc96f05149d5e14d7a03c3b16171098847fee9 iio: adc: ad7944: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-eb143d05def52bc6d193e813018e5fa1a0e47c77 iio: adc: ti-ads124s08: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-f3fe8c52c580e99c6dc0c7859472ec48176af32d iio: adc: ti-lmp92064: add missing select REGMAP_SPI in Kconfig
-a985576af824426e33100554a5958a6beda60a13 iio: adc: ti-lmp92064: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-5bede948670f447154df401458aef4e2fd446ba8 iio: dac: ad3552r: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-62ec3df342cca6a8eb7ed33fd4ac8d0fbfcb9391 iio: dac: ad5766: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-3fd8bbf93926162eb59153a5bcd2a53b0cc04cf0 iio: chemical: ens160: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-aa99ef68eff5bc6df4959a372ae355b3b73f9930 iio: light: bu27008: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-fbb913895e3da36cb42e1e7a5a3cae1c6d150cf6 iio: magnetometer: af8133j: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-3f7b25f6ad0925b9ae9b70656a49abb5af111483 iio: pressure: bm1390: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-75461a0b15d7c026924d0001abce0476bbc7eda8 iio: proximity: mb1232: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-17a99360184cf02b2b3bc3c1972e777326bfa63b iio: resolver: ad2s1210 add missing select REGMAP in Kconfig
-2caa67b6251c802e0c2257920b225c765e86bf4a iio: resolver: ad2s1210: add missing select (TRIGGERED_)BUFFER in Kconfig
-c64643ed4eaa5dfd0b3bab7ef1c50b84f3dbaba4 iio: frequency: adf4377: add missing select REMAP_SPI in Kconfig
-b7983033a10baa0d98784bb411b2679bfb207d9a iio: amplifiers: ada4250: add missing select REGMAP_SPI in Kconfig
-bcdab6f74c91cda19714354fd4e9e3ef3c9a78b3 iio: dac: ad5770r: add missing select REGMAP_SPI in Kconfig
-252ff06a4cb4e572cb3c7fcfa697db96b08a7781 iio: dac: ltc1660: add missing select REGMAP_SPI in Kconfig
-27b6aa68a68105086aef9f0cb541cd688e5edea8 iio: dac: stm32-dac-core: add missing select REGMAP_MMIO in Kconfig
-ccf9af8b0dadd0aecc24503ef289cbc178208418 iioc: dac: ltc2664: Fix span variable usage in ltc2664_channel_config()
 f7c9134385331c5ef36252895130aa01a92de907 io_uring/rw: allow pollable non-blocking attempts for !FMODE_NOWAIT
 4cc2718f621a6a57a02581125bb6d914ce74d23b drm/i915/hdcp: fix connector refcounting
 3eb40512530e4f64f819d8e723b6f41695dace5a cifs: Improve creating native symlinks pointing to directory
@@ -499,12 +470,7 @@ eb952c47d154ba2aac794b99c66c3c45eb4cc4ec Merge tag 'for-6.12-rc2-tag' of git://g
 4192bb294f80928bc2257c7a2ff6c86a27de6807 selftests/bpf: Provide a generic [un]load_module helper
 f91b256644ea6f7628580029c5a223573f55d98c selftests/bpf: Add test for kfunc module order
 3f2ac59c0d7b4d9f0e87371662a6ba8273b07818 Merge branch 'fix-caching-of-btf-for-kfuncs-in-the-verifier'
-3a29b84cf7fbf912a6ab1b9c886746f02b74ea25 iio: hid-sensors: Fix an error handling path in _hid_sensor_set_report_latency()
-4c4834fd8696a949d1b1f1c2c5b96e1ad2083b02 iio: adc: ti-ads8688: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-66cf4455f3aba1d7dab4be7f4d8f95dc334ae46e iio: adc: ad4695: Add missing Kconfig select
 28a5dfd4f615539fb22fb6d5c219c199c14e6eb6 drm/vmwgfx: Limit display layout ioctl array size to VMWGFX_NUM_DISPLAY_UNITS
-5c9644a683e1690387a476a4f5f6bd5cf9a1d695 iio: frequency: {admv4420,adrf6780}: format Kconfig entries
-6b8e9dbfaed471627f7b863633b9937717df1d4d iio: frequency: admv4420: fix missing select REMAP_SPI in Kconfig
 4809a017a2bc42ff239d53ade4b2e70f2fe81348 drm/vmwgfx: Handle possible ENOMEM in vmw_stdu_connector_atomic_check
 512a9721cae0d88d34ff441f2f5917cd149af8af drm/vmwgfx: Cleanup kms setup without 3d
 26498b8d54373d31a621d7dec95c4bd842563b3b drm/vmwgfx: Handle surface check failure correctly
@@ -621,11 +587,7 @@ c986dd7ecba185ad2a36b0815940f34deb2a8170 bcachefs: Improve check_snapshot_exists
 93b8ddc54507a227087c60a0013ed833b6ae7d3c pinctrl: ocelot: fix system hang on level based interrupts
 c5e8e93897b7bb0a336bf3332f82f8d9f2b33f14 accel/qaic: Fix the for loop used to walk SG table
 36c254515dc6592c44db77b84908358979dd6b50 Merge tag 'powerpc-6.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-7528cb0f65d7472c1d6b96956f86b408c5ab6b11 Merge tag 'iio-fixes-for-6.12a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-02ac3a9ef3a18b58d8f3ea2b6e46de657bf6c4f9 parport: Proper fix for array out-of-bounds access
-3c2d73de49be528276474c1a53f78b38ee11c1fa misc: microchip: pci1xxxx: add support for NVMEM_DEVID_AUTO for EEPROM device
-2471787c1f0dae6721f60ab44be37460635d3732 misc: microchip: pci1xxxx: add support for NVMEM_DEVID_AUTO for OTP device
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 af0121c2d303111d363c62e40413ffb39d5dc0f1 kbuild: rust: add `CONFIG_RUSTC_LLVM_VERSION`
@@ -885,8 +847,6 @@ ade8ff3b6aca47c234e5353b1e9dc1e5a8f21ffe Merge tag 'x86_bugs_post_ibpb' of git:/
 83f000784844cb9d4669ef1a3366479db3197b33 Merge tag 'drm-xe-fixes-2024-10-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 0fd2a743301b6b5eec0f407080f89bed98384836 xen: Remove dependency between pciback and privcmd
 1154a599214c655c8138b540f13845257f1952fd Merge tag 'usb-serial-6.12-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-6e90b675cf942e50c70e8394dfb5862975c3b3b2 MAINTAINERS: Remove some entries due to various compliance requirements.
-9b673c7551e6881ee0946be95e21ba290c8ac45e misc: rtsx: list supported models in Kconfig help
 c91c14618fcf4ae3cf3475e5461ea8b41bf76f6d Merge tag 's390-6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 ef444a0aba6d128e5ecd1c8df0f989c356f76b5d Merge tag 'powerpc-6.12-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 75aa74d52f43e75d0beb20572f98529071b700e5 Merge tag 'iommu-fixes-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
@@ -927,4 +887,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============0007450261853563095==--
+--===============2629211956942240751==--
