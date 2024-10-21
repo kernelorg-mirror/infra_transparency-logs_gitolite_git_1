@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 21 Oct 2024 23:56:21 -0000
-Message-Id: <172955498186.1313691.16965624381209563672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 21 Oct 2024 23:56:33 -0000
+Message-Id: <172955499326.1313867.8813541050829550120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev-test
-    old: 1857d33199f4a851bea14e6eb9fba3e9a5a515a6
-    new: f2bbbe277c22925ad29b19c190892d19dad610a7
+  - ref: refs/heads/master
+    old: d39100d01ce1ba1bffe0447a0550f592aa6e1e9b
+    new: a0c3c5de6bef8f8a0bfaf7ede40c516c50f833d1
     log: |
-         495494c3037e439c5bdb7b3514924bc35a47494e f2fs: introduce device aliasing file
-         08060c0b1414b4a14ef43f0d77490836a0594083 f2fs: zone: introduce first_zoned_segno in f2fs_sb_info
-         522e5de97dc1b1c362604ed39482737c072ff982 f2fs: fix the wrong f2fs_bug_on condition in f2fs_do_replace_block
-         f2bbbe277c22925ad29b19c190892d19dad610a7 f2fs: check curseg->inited before write_sum_page in change_curseg
+         7b164c648ee2fceba910c1d2b4ad9e96cfdfd8e1 selftests/bpf: Allow building with extra flags
+         a89cf33e4e30575d3d1aca5c12ca09a615187076 bpftool: Prevent setting duplicate _GNU_SOURCE in Makefile
+         832c03d644ba79a6df025cececba43a411c41bf6 selftests/bpf: Disable warnings on unused flags for Clang builds
+         a0c3c5de6bef8f8a0bfaf7ede40c516c50f833d1 Merge branch 'selftests-bpf-improve-building-with-extra'
          
