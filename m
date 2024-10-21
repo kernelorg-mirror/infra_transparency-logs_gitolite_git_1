@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4819065190840128266=="
+Content-Type: multipart/mixed; boundary="===============3582988245988646726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 21 Oct 2024 10:56:29 -0000
-Message-Id: <172950818994.673501.13333679924954038253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 21 Oct 2024 10:58:55 -0000
+Message-Id: <172950833596.674536.9069604313717058100@gitolite.kernel.org>
 
---===============4819065190840128266==
+--===============3582988245988646726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: f7ade89157619511a321c04fbf82455db3322a71
-    new: 58283477946cba58fdd43f99ea726017bd75d897
+  - ref: refs/heads/review-ilpo
+    old: 3ea5eb68b9d624935108b5e696859304edfac202
+    new: 90a7d74860044f12a359aa3611b5172b44b202dd
     log: |
-         58283477946cba58fdd43f99ea726017bd75d897 mark 6.11.1 as reviewed
+         90a7d74860044f12a359aa3611b5172b44b202dd platform/x86: classmate-laptop: Replace snprintf in show functions with sysfs_emit
          
 
---===============4819065190840128266==
+--===============3582988245988646726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729508212 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1729508187-5452c83ec3ee7920a393603ee5eb02a6e1f7b7d3
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1729508356 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1729508331-b980af309fef699175f0a9e843cb6fc965b9b9e0
 
-f7ade89157619511a321c04fbf82455db3322a71 58283477946cba58fdd43f99ea726017bd75d897 refs/heads/master
+3ea5eb68b9d624935108b5e696859304edfac202 90a7d74860044f12a359aa3611b5172b44b202dd refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcWM3QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7v0P/0MpaL23+mGsmkDaWSI9
-qE/hf7DaHecPrExm+TTTVKE8ljgtG6iBOdxguRRliiCcr8V5wMGb5U1a1hIcrdBh
-pheb6NfSmkpOkzGNMHOSYip2b3C6e68orOSmv8ClPI0vzrZAadUNf6D8y4IKMQeC
-BHgJoLNrpyHbBt6Ox9FBS66ouDBUXC/HGIovMytzu/260DAiyAMUsJ5zF/HtOQN3
-zfj6tl64LPYjfOmCYwdh4y/zy9LG++ztQ82Gy6VaXyuVFzqC4Bk/Wr6Q9OaYZtqO
-vlAMh3HOwX92o5x6g6z7F0fSqEx89tcS04oRq1R56uBB5hF8ZMTvnD2hl1rVofRP
-00nrVO3qY7emmzr2c+KdpxqD8lE1EVDr+z2v8ZedeJ51RcAG3om6Ge31133Q0Jz8
-HyFO6oYBUlfeZMAu0im6WyaFAtvy8L8H6Af3wYr/gi8GN3xGkggyY6OxlPllSaXN
-0r5Jv+ps+l09/X1p2RrVLX9Nt7ODY1NuPX+0RCG/DADN3heLy/R2ik5Paa3t8KpH
-TvYtLdQawe1fj896DTkPdwJfYZmk5bBvicpjWFMwMgCLQFwsK8untH3pj7wyARwV
-topN/ztQh7tzA6bOpU8icpHAHH7DaupXcVNvcvLQqmJbGpxEz7hJlhOB5ey0Ur1X
-lHcDkBgkK6L8gCyejQSzhaZ2
-=uuZH
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZxY0CgAKCRBZrE9hU+XO
+MSy8AQCpj/iEpfiReHWg2x+CQe5+eMAgJUGOtm+yIuOF/GpOyAD9HL90O6lejRS3
+xPewKOSAI4tMpzilTQ84D9sE2Gq7AA0=
+=uz89
 -----END PGP SIGNATURE-----
 
---===============4819065190840128266==--
+--===============3582988245988646726==--
