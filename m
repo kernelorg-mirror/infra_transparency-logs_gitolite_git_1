@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 21 Oct 2024 14:28:49 -0000
-Message-Id: <172952092904.850463.7400146930592649812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 21 Oct 2024 14:29:55 -0000
+Message-Id: <172952099544.851984.14752038783018467721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 5df6137df078ee5f4f1175daea159d45679070a9
-    new: 991d4208e6135af28e947a555550a2e803da9e3a
+  - ref: refs/heads/dev
+    old: d6db4c7d44b0489ea094a5c11fbd21d7e0f81d88
+    new: 6f7c83844aaf59ef41dce3a16a6f41240e5443ee
     log: |
-         991d4208e6135af28e947a555550a2e803da9e3a sasha: review v6.11.4
+         6f7c83844aaf59ef41dce3a16a6f41240e5443ee rcutorture: Use finer-grained timeouts for rcu_torture_writer() polling
          
