@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2577005375887350297=="
+Content-Type: multipart/mixed; boundary="===============0427379071527879070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 21 Oct 2024 12:41:55 -0000
-Message-Id: <172951451586.761108.7513878531170586326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 21 Oct 2024 12:42:04 -0000
+Message-Id: <172951452467.761312.13704159034176636338@gitolite.kernel.org>
 
---===============2577005375887350297==
+--===============0427379071527879070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 42f7652d3eb527d03665b09edac47f85fb600924
     log: revlist-8e929cb546ee-42f7652d3eb5.txt
 
---===============2577005375887350297==
+--===============0427379071527879070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -572,4 +572,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============2577005375887350297==--
+--===============0427379071527879070==--
