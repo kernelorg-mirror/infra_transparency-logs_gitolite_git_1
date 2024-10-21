@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8720100784737980998=="
+Content-Type: multipart/mixed; boundary="===============0549408933563285442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 21 Oct 2024 06:53:53 -0000
-Message-Id: <172949363365.468121.7788192115282885710@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 06:54:04 -0000
+Message-Id: <172949364411.468338.10840866387906993737@gitolite.kernel.org>
 
---===============8720100784737980998==
+--===============0549408933563285442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: 27397d630d380ea4a328794cfd63a82275f4c2d6
-    new: 8ebaf63c8fdb2d3adc2789ff739b25669ffeea68
-    log: revlist-27397d630d38-8ebaf63c8fdb.txt
+  - ref: refs/heads/main
+    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    new: 42f7652d3eb527d03665b09edac47f85fb600924
+    log: revlist-8e929cb546ee-42f7652d3eb5.txt
 
---===============8720100784737980998==
+--===============0549408933563285442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493656 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493668 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729493631-59a38daceda02677959ea3539adb7015a20ae7d4
+nonce 1729493642-503549f5a5bc99da51d2283bd9a63feeb0eb0185
 
-27397d630d380ea4a328794cfd63a82275f4c2d6 8ebaf63c8fdb2d3adc2789ff739b25669ffeea68 refs/heads/rndis-removal
+8e929cb546ee42c9a61d24fae60605e9e3192354 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+pgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iasQALiYAcDQf24dSVTSdLpP
-F7qkh93ho4UjxV24/LzCy2tae8q3lkyeiNUo7GOaUUuzD3xTWsU7U/QzxqxOs0ph
-FzEIhMl4Bqh/UkY1lsKqAdesBX5u9FgXmTeNZ1sFIMZssRrQM6qLSxcoeqUURd3g
-oaqsxshWNFu57k2hVMf8izfIcP6JSmmmY22zb/+Kfok1BFlr0ZkombYX2HUEG1zg
-x2UEUS99/Eo6GcfLWsJZLAgOmipkdDMcvQ7xBoyve8QP/t7D1ezGkMENkGHq22Za
-7us6ywXMC/UVbk7Uc/VoHKPQ7jdUpQo3350zGW2c9d7LgqFzuNmCCP6prPSghG5R
-hoiimfRRPkvqHgwjTkrenK4qdxiF/XHb130cjegXFIm2b1Z9qjO5IGrTaKR2q9Qo
-nURdZD0UzZ2EQf867r9R/CUjHm1qKTqqQ0rsvkrJW1yca3yD4mUTZHZpLZCoFd6h
-xiK0Oe+ORrSfGjQS+Kq1GuJwHp+YVCu18E3lwMvuM29H62H38QcdOSPVtwjlDTfN
-dQv3LMRwgPo4oF8P6nO4pvhz0No4+kgiXJYmjCrY2VGmbKhcLBs4tpnmNgoiw89N
-bQfh7xmi5ABIwm2JLi1ZsX8EtzKN85qdtOX1YMz1DaG7nYfsxpDsVauWYlPUnogZ
-pZuNihNRpP1TqpY6LRGF24c7
-=72QG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+qQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vpwP/1Yed14CwEiN/c9/eNFX
+N+23ujoRnlZffaOMNFok3RMVzHaG7xoOefRgBbn0ZLyf42nQaBreT1/4JgwMVmls
+ft+kZcC3A++tKPJlhR76sl/VkqBqAwtgebWm48a83a+KxnCWtteHPh6Md2b5vvpZ
+/T46HAHHvU5j3xAoBzZ1BfskntdiiQMFr2nI32aCQN9JtoZA8un6vPfLY5h0oBqe
+7zN87lkRRbDDeAM38B0nwiTX8S2hoSsGlLlInvC3FvUrh3/b/+InfWHaaRrmaWxt
+Q4J+GHEkJW13CKlwYX4QcAjTQrg7r9pAFmCAtHjTpzHZFhzMP32mY6IdHI+bbKnG
+9N3PwVxyvRIViKSHPY3Hm8Fscb6QO212HaECQnem0AKq/lrLHkEEHJftUBVoUfyX
+6wu7GqJ1jvD6I8vzTaqotFLdOPUYRFaRbMX8S4kEx09OUG6ZUVKbmUH8hkjrRdKK
+dk7QLDy9DyRbuxPYzz4dLCMarnwzvcWDYbnrew+7k7Wdr5w/r45PYDq/iizEZTT7
+vbJj5Lsm8ZO0vLgMsyxCzwqiLKVWwj6Yd7wnbrC0P/ZraX+Luvh2HCtvo9T9sLwv
+uvKsmZA8yMPtTtOkDpzjliqM946/MnHEZLZGcVJlpTnEBscOi/DPzYBrvEGsew4a
+sNOw7ot8Fzoy7PkWOy6PjEWE
+=FqbJ
 -----END PGP SIGNATURE-----
 
---===============8720100784737980998==
+--===============0549408933563285442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27397d630d38-8ebaf63c8fdb.txt
+Content-Disposition: attachment; filename=revlist-8e929cb546ee-42f7652d3eb5.txt
 
 38d222b3163f7b7d737e5d999ffc890a12870e36 9p: v9fs_fid_find: also lookup by inode if not found dentry
 1325e4a91a405f88f1b18626904d37860a4f9069 9p: Enable multipage folios
@@ -602,6 +602,5 @@ c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git:/
 dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
-8ebaf63c8fdb2d3adc2789ff739b25669ffeea68 USB: disable all RNDIS protocol drivers
 
---===============8720100784737980998==--
+--===============0549408933563285442==--
