@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4927265202592867705=="
+Content-Type: multipart/mixed; boundary="===============0341818276542946621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 21 Oct 2024 06:52:34 -0000
-Message-Id: <172949355465.466823.2249564327893961514@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 06:52:39 -0000
+Message-Id: <172949355931.467061.14732958889442703285@gitolite.kernel.org>
 
---===============4927265202592867705==
+--===============0341818276542946621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+  - ref: refs/heads/tty-linus
+    old: be847a3a8d4ec4bf270c2455376d11f2de61bfb3
     new: 42f7652d3eb527d03665b09edac47f85fb600924
-    log: revlist-8cf0b93919e1-42f7652d3eb5.txt
+    log: revlist-be847a3a8d4e-42f7652d3eb5.txt
 
---===============4927265202592867705==
+--===============0341818276542946621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493578 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493583 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1729493553-78284b1fa1484bb9dd35ae2c27e072cf840198c3
+nonce 1729493557-68b6ec55ae90c9684c31f16df59fea82d0b99d19
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/main
+be847a3a8d4ec4bf270c2455376d11f2de61bfb3 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+kobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8eoP/RgZN0oe0IJQFmnijLm/
-7MXo3mnfVRLk0rFXTpnocBI4dLsohuC/DxXYIV3+tEP+DWqG/z2Nik6Ukq23KBxJ
-ruenwLJzkL6FAq+kGbJFzOobBR2vw2D4eSDF/ECX86KU26DOgNum3aGXKN1sgRLr
-UYgr8UIGu5eIYyvt6mepjE5raD/JSmKrKx2wB5NjZ7Cf+uT3fLMQ/GGXLPoNH9FX
-IVpqEQzmIIunqM6LutT/8eM9O1CKUuJKqb6lnN359tGFgF5G+uwHS8BKVz1q2mMC
-DsYmKz347fxuVuiY5A/prJxu81DTFYBPnCt2c1b2GJLz8ElestLknu/3jnx71Rbh
-r4gdj9E7e8xSlaehDbya9z8DAVB4dHOeJYHwco0y0RE1winMJ05dgh+fWmJSgmeU
-p4+t7UnHiNjtlL2AX126kMfZ5ktLJlBqpzTcfw/AeZ/NbaeW8P5jbpo3maCW4AcJ
-RUE+D3pa0zPhCbhY94vnkwPIoVcji7oMkoHsEr0VUrZzD1JXmof3M7TKE3OAlNRY
-2dqnxP3Xyg3569xIFaBOeUwerJ7UuKShqvYQt4oaHLgjBaP66duZt/oS3F5pVltS
-dETpZMJEPatSoonO42uZyBQEW+rCeixZjS0B5uA8QP7stsawHg6j1S7lqtNaQeC2
-Mln9URIA6vsot5gVulVA14QI
-=nV/H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+k8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mNQQAKT7wZN9RdTWMDFVMlar
+dqV2pXJCOK85O5CpimmRsEgCRYOUED2iotNgFqxAfKLntHedEVflfmvu0QtDNd33
+7Q+IVQdQFfmFpdB+2jT+Sg0HX7yi6pUoiAings+vTSjQ7Hg7ohNMrEL2dVwmizPw
+MgG05Wgkf0Di77XkqDok5GDnc96S5BFg2lZ6R2ehhs0G53Jb29M2zY0lPr0qltHX
+yCIYIS77TqJm5sJpdro0hBEdH4XAYvRkTsjP0mwx6+GSOqP3bfSk4J4X03pHtEd7
+fgJyA2Y1t4HtArtlDAjJcGEMWTi/fTGc9WX/4ddcJfLtwXVDKGuzig5UOw8LEXRu
+Y/r8KEg3uuSXKLLKHtnbWZHAwpMpp0/J4vbjPh8m0TDqVthVifHycCjBC9rbvotq
+U0rRMExUOOij58tc/8JBWF9UkkSkTny0tImRo/wue+dAgzqXop861voZbHL4p7CP
+t11UuAkL+smSdDDSK0ZookE/3mmwWnDH3QLMfHUNISYJJjVFIcDRHIb6d8WYpb32
+dCQEMoNtRAm4RzS9IRWIWqovw7XouTpdlq2Tq32wDhT+cTkT1G0F0dMIsoPy3Oc4
+/JC2+zgVj+SE1bR8N/YP3qDUplFvIzOubVGTNUJjmjhsV51L3PjFkdyCuR20v5oE
+CNYSAs/ieaVL22XGv+jf0WL9
+=yXHu
 -----END PGP SIGNATURE-----
 
---===============4927265202592867705==
+--===============0341818276542946621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cf0b93919e1-42f7652d3eb5.txt
+Content-Disposition: attachment; filename=revlist-be847a3a8d4e-42f7652d3eb5.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -530,18 +530,6 @@ ac44ff7cec33d5c2d4b72d52603552ec64c1a8bf Merge tag 'drm-xe-fixes-2024-10-10' of 
 416a8b2c02fe2a5a9fbdf2a35ea294b78d939f84 erofs: ensure regular inodes for file-backed mounts
 2402082e5332a2d27be82b4a2bb42490f9c5134b erofs: get rid of z_erofs_try_to_claim_pcluster()
 ae54567eaa87fd863ab61084a3828e1c36b0ffb0 erofs: get rid of kaddr in `struct z_erofs_maprecorder`
-f956052e00de211b5c9ebaa1958366c23f82ee9e vt: prevent kernel-infoleak in con_font_get()
-9462f4ca56e7d2430fdb6dcc8498244acbfc4489 tty: n_gsm: Fix use-after-free in gsm_cleanup_mux
-40d7903386df4d18f04d90510ba90eedee260085 serial: imx: Update mctrl old_status on RTSD interrupt
-4bef7c6f299910f19876ad8e7f5897514855f1d2 serial: qcom-geni: fix polled console initialisation
-19df76662a33d2f2fc41a66607cb8285fc02d6ec serial: qcom-geni: revert broken hibernation support
-23f5f5debcaac1399cfeacec215278bf6dbc1d11 serial: qcom-geni: fix shutdown race
-23ee4a25661c33e6381d41e848a9060ed6d72845 serial: qcom-geni: fix dma rx cancellation
-fa103d2599e11e802c818684cff821baefe7f206 serial: qcom-geni: fix receiver enable
-c657243ae12000dc57e3648b0ddd30da9ffd1f14 serial: qcom-geni: fix rx cancel dma status bit
-8173d74ac12bf231fa3a22ae0ad9d56c2abc4618 serial: qcom-geni: drop flip buffer WARN()
-4cf4b344c1e1a0682d76f3ec9da90a714e986e90 serial: qcom-geni: drop unused receive parameter
-be847a3a8d4ec4bf270c2455376d11f2de61bfb3 serial: qcom-geni: rename suspend functions
 d16b7eb6f523eeac3cff13001ef2a59cd462aa73 sched/deadline: Use hrtick_enabled_dl() before start_hrtick_dl()
 73ab05aa46b02d96509cb029a8d04fca7bbde8c7 sched/core: Disable page allocation in task_tick_mm_cid()
 98442f0ccd828ac42e89281a815e9e7a97533822 sched: Fix delayed_dequeue vs switched_from_fair()
@@ -927,4 +915,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============4927265202592867705==--
+--===============0341818276542946621==--
