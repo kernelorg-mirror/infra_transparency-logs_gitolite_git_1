@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2433619456456520669=="
+Content-Type: multipart/mixed; boundary="===============6153111722523870137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 21 Oct 2024 07:01:23 -0000
-Message-Id: <172949408328.475966.5973324294087825896@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 07:01:58 -0000
+Message-Id: <172949411896.476443.3843769121150835899@gitolite.kernel.org>
 
---===============2433619456456520669==
+--===============6153111722523870137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,87 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
-    new: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    log: revlist-8400291e289e-8e929cb546ee.txt
+  - ref: refs/heads/const_work
+    old: 4190b1e1d8f862abbf9683e88e77d60b0dd7333b
+    new: b7bbe168fc896538357a88d4b7de1a4d41958bfe
+    log: revlist-4190b1e1d8f8-b7bbe168fc89.txt
 
---===============2433619456456520669==
+--===============6153111722523870137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729494107 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729494140 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1729494082-655d9e6c4612bb790eef3df441ff6cc83e0a3e7d
+nonce 1729494115-673370e077a54f308d00a787f86c84526d47977d
 
-8400291e289ee6b2bf9779ff1c83a291501f017b 8e929cb546ee42c9a61d24fae60605e9e3192354 refs/heads/debugfs_cleanup
+4190b1e1d8f862abbf9683e88e77d60b0dd7333b b7bbe168fc896538357a88d4b7de1a4d41958bfe refs/heads/const_work
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV/FsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BH4QAMzCRDW79zY5dOm5iZpK
-aRghYZYscu5Izlo7QIF+9yHnonFZE/HLhhIcsGZJJWVIXYf2nR8ZQMxHzUQeyq79
-wlAH614IVeYqYDF9mxaMre90idt0jGM/p1dClR3zVjj7l0MMBrvPKqoE58+wyYf1
-ajLrJf3wgCDil/BrGvQ9w2+DeMjcV9RZuMBNAq78KyTYyj0xZHdTymZjP4byp7TY
-DrJg3fr7F8ULnCT7JV/rbNfGc0f5X4JgNgJBkae1rmMre6mJEs0szr01zmYjErRy
-HE5attvreoEV4HyJQvaffLzPvC4jmm6r50e8nl0NT9JKD5TaQdSFKHKv1LsYkK/N
-9+KiqqfpZJA71frVIyHc6tBjnEDXzmjgw56w9cY4GU6QGw+s7hPojQHErePh8xiw
-ROBuyHoudanyqLM1vKylHDt6ZYxaZWh2JL034Z8fsdrYr7nmTnGntsJ1rcn8JqnV
-ilcT200RM500AupCGO/qiYQ/UDBLR4dGgw0zGaSAAAOXncJRvXmBmhOIXJds7CpE
-5QRe/gNsCMMkn5OomhwGxTG0jSordwml+KAWV37rH6YKdsNwrsdZvvdemKtICz/w
-N627SCkIa8ijaRgbne+d9Nt7kEi4e0wodRM83qTIEsU9siG5dqinrFDttPmnkjdR
-9dwY25DlXH2WykoN6sRdUv0T
-=ztjV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV/HwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SIoP/3SQ9BQ00l+vX/YIoGJV
+AQ/paatUMs30uO0n7sFZ6O4IbzXQAMfFxIGN5+BgkQibms61aH4q2MLGBiTnRGot
+XCmX6EoaINpitlH+5WZR4oc2d1a3JsAtIGuAStjp0GgtI3haHPd+1UHw2N+aNuAW
+/4iPuOauUVbZ4qpIOhstnasaP4MuGyhpotEkH1gdi0vNyI2vBEaBVTpzvltCBBFD
+Jp1165FJUyNRFYYccc5XEYzXjejMWAYYDOj2fKB7u0djlXffBj4fnGV7DRqZ3z10
+8YIvNGOHweYHfs0rDOWU4Oywa1U3oGz4UA2U9JUEDLopvyD+wQU7DJoHNmJwy7Tw
+pUE0tjX8qkjc0bCO6eWHnY7a5AxmtHTv284ps70MGrAmgni+h88vhgNgzZFxwv/l
+E6pKtOB+m6hVPZ13AgPJl/bm2fYJbCvqgxJ2lyD6rgC0obGnKiQKJAocKnJluoS2
+uJp27osD2VsX9AJxGD4Rl2rCeQGQKGLMN7TVyEDsN3PnGAxh8DSL1rB4ErqbowwD
+NS+QGqjOZezF1BMbW7u4wHROy1BIW5MQg5+V519Q+m9/+5VkplB420bfnZwHev0c
+DfOkOIoGOv00QUwWR3SMm3Df0C4Rc/0u5ezdHMO9KyYMV0Jwp++7Vbc+4aSCeDIz
+jQLeuj5wTVH6eDp2IQCVdx0M
+=4k4E
 -----END PGP SIGNATURE-----
 
---===============2433619456456520669==
+--===============6153111722523870137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8400291e289e-8e929cb546ee.txt
+Content-Disposition: attachment; filename=revlist-4190b1e1d8f8-b7bbe168fc89.txt
 
-b0d87dbd8bd311d4126f5b34a8494043c487695f NFSD: Refactor nfsd_setuser_and_check_port()
-7c0b07b49b2da108438e2504452effe0e6cbb764 NFSD: Avoid using rqstp->rq_vers in nfsd_set_fh_dentry()
-71c61a0077eb11e8bcc4d03e92ebc0c16df46abe NFSD: Short-circuit fh_verify tracepoints for LOCALIO
-5e66d2d92a1c331ed86d943ce3703c654876b20a nfsd: factor out __fh_verify to allow NULL rqstp to be passed
-c63f0e48febfaea8a3cd4146abda9cc7a329b0e3 nfsd: add nfsd_file_acquire_local()
-47e988147f409f70e0f01a5e6dc5940375e02343 nfsd: add nfsd_serv_try_get and nfsd_serv_put
-2c8919848de1e5c881fe3473645c26a1c2a927f2 SUNRPC: remove call_allocate() BUG_ONs
-199f2128741077087a2ab33889a6868830465033 SUNRPC: add svcauth_map_clnt_to_svc_cred_local
-86ab08beb3f07f6e51922a8b8f662a5ec7012d35 SUNRPC: replace program list with program array
-2a33a85be45178198245e1f656e6224c899895e4 nfs_common: add NFS LOCALIO auxiliary protocol enablement
-a61e147e6be6e763d9c6dec8061d2893c0bb3423 nfs_common: prepare for the NFS client to use nfsd_file for LOCALIO
-fa4983862e506d395acc1b8d14dbebf63acc2e82 nfsd: add LOCALIO support
-946af9b3a0e7571c01447107d5e8968401e659ba nfsd: implement server support for NFS_LOCALIO_PROGRAM
-df24c483e28f7f9a421afde15d0497e61bc2d3ea nfs: pass struct nfsd_file to nfs_init_pgio and nfs_init_commit
-70ba381e1a431245c137ed597ec6a05991c79bd9 nfs: add LOCALIO support
-fa88a7d6ae089c07aba872fff30a1342d3503e80 nfs: enable localio for non-pNFS IO
-d488b9d01fbc2ff5ccf15bcd47422eb156726c0d pnfs/flexfiles: enable localio support
-b9f5dd57f4a52990963eeb1f1b58d00f717ece69 nfs/localio: use dedicated workqueues for filesystem read and write
-56bcd0f07fdbf9770284bedb982236ab881ef909 nfs: implement client support for NFS_LOCALIO_PROGRAM
-92945bd81ca418ace7995bf5234ac311f6197d5d nfs: add Documentation/filesystems/nfs/localio.rst
-f7128262b15287e4be501e30f9e1f0258606a593 nfs: add FAQ section to Documentation/filesystems/nfs/localio.rst
-736cd2c1ae7f911df9aae0e647899b49bdbccdb8 nfs: add "NFS Client and Server Interlock" section to localio.rst
-3a37872316c2e3288e09a1322221c83e5929768d Merge tag 'pci-v6.12-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-f89722faa31466ff41aed21bdeb9cf34c2312858 ipe: Add missing terminator to list of unit tests
-d7dfb07d4dacfc3d8fa553fe76f055724e2c7210 Merge tag 'firewire-updates-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-5f153b63302af24e7f807b0208f380f5c8654df4 Merge tag 'ntb-6.12' of https://github.com/jonmason/ntb
-962ad08780a5bfb3240bc793e565181eacfceafb Merge tag 'pinctrl-v6.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-f34c51252189e6f18f3983f7cb7cc46f2e54ffe9 Merge tag 'linux-watchdog-6.12-rc1' of git://www.linux-watchdog.org/linux-watchdog
-7116747a686e3d5decc354e6812f078dd0c44c6e Merge tag 'soundwire-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-fbb86b0d5f38184873772a84ae50d5edd6a8b046 Merge tag 'phy-for-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-8874d92b579bf86f61f044ab43a4cd961d112269 Merge tag 'dmaengine-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-b0a53b4f3f3df6b9da31f2e406da8a490122c807 Merge tag 'mfd-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-f2debe057fcc962e865d57800e39e029887812b4 Merge tag 'leds-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
-20d9ba738b9696ee882c6ecf55cfae8fb8b64040 Merge tag 'backlight-next-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-00b43f85f287f4b661f1a2485bed1a476d308427 Merge tag 'libnvdimm-for-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-4e2c9cd7dce6c7480f236c3ead196ff4e92ed597 Merge tag 'i2c-for-6.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-9ab27b018649c9504e894496cb4d7d8afcffd897 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-abf2050f51fdca0fd146388f83cddd95a57a008d Merge tag 'media/v6.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-6d12d7ace99ec74cb1f479bb851b5ed65b3bc105 bcachefs: Ensure BCH_FS_accounting_replay_done is always set
-7eb4a319db65566005989121563ead344ca79140 bcachefs: Fix infinite loop in propagate_key_to_snapshot_leaves()
 a3096328462b1e022c6294898c440708ea11509a MAINTAINERS: drm/sched: Add new maintainers
 440d52b370b03b366fd26ace36bab20552116145 drm/sched: Fix dynamic job-flow control race
 e8dd556c74325f29597665c2c557a8ea699a0686 LoongArch: Enable generic CPU vulnerabilites support
@@ -1081,5 +1041,45 @@ f683c9b134f2b0cb5d917296a142db1211468a78 Merge tag 'driver-core-6.12-rc3' of git
 ba01565ced22c04749a6f71aa8a658d3a64734bc Merge tag 'usb-6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
+dbd45eef54865d966b8008cac329d05710a6310e firmware_loader: Reorganize kerneldoc parameter names
+cec78a59abc9b1a06f742cb96479fc0bb1fe4e90 list: Remove duplicated and unused macro list_for_each_reverse
+0ebe74c53b8b62bde7b02415d28e75aa25d6c2e6 drivers/base: Remove unused auxiliary_find_device
+765399553714e934a219d698953d435f4f99caa7 devres: Fix page faults when tracing devres from unloaded modules
+0ee4dcafda9576910559f0471a3d6891daf9ab92 lib: devres: Simplify API devm_iounmap() implementation
+9bd133f05b1dca5ca4399a76d04d0f6f4d454e44 lib: devres: Simplify API devm_ioport_unmap() implementation
+fde2bc530f8334133920d9c8012fa57ba3583f04 powerpc: cell: make spu_subsys const
+49ca753a5cb7fcd5f14bc53a8c50a2856a239cea powerpc: ps3: make ps3_system_bus_type const
+2f29635175346ad33efee6949dbe21b40f432059 powerpc: pseries: make cmm_subsys const
+d6b1c2f2c86b9550779c7c03e45e71fdc5a6f343 powerpc: pseries: make suspend_subsys const
+06e18a0c90536ff19e13931d186421bdaa9ba715 perf: make pmu_bus const
+8fc7d3b6b2890591b4d8b042c3119907150cfab9 drm/dp: make drm_dp_aux_dev_class constant
+ab2ca488535dbaa83c7142d8391e38ef8630a756 drm/sysfs: make drm_class constant
+7a384660661317f4e895866a84755ee889e5ad0e drm/fbdev/core: make fb_class constant
+8c6b008ec5765c5f8f03b009f93a5f65456bbdd2 dma-buf: heaps: make dma_heap_class constant
+4775af9911258d479ec345f7ba41f808850b0a13 media: dvbdev: make dvb_class constant
+9cc974474dc436ef0bffd5760acd7c7c5f0dfc30 drm/dp: constify the struct device_type usage
+9b154fe88aea2b7b6ee6b15b2364d2c7f377c72a drm/privacy_screen: constify the struct device_type usage
+5cb295e55369ea72ed737045c9047963207825a9 drm/sysfs: constify the struct device_type usage
+05bfccb21d8a3836677650e63f1f12f34961a7c4 cxl/port: make cxl_bus_type const
+3dd5f789965f17e42da79d40e42c4127dba85eb9 ARM: sa1111: make sa1111_bus_type const
+2df0b5340bd9b30425a3d5bdb266925b3ee13dc1 ARM: ecard: make ecard_bus_type const
+b695e5faf83694fb2e4e80dcb3d50cfc6370321d fsi: core: make fsi_bus_type const
+95500850538e06832332b54b57f48e5ad9f2a7e6 bus: mhi: ep: make mhi_ep_bus_type const
+a5810000920ebe7cce5f50767612b8de168c4ac4 rapidio: make rio_mport_class constant
+be47d085ebe8bc0aaa47e01b0267aa6e1e39a646 pps: make pps_class constant
+b905e712a2c4f5a45c59938a80e1e3ff38cd0fd2 nvmem: core: make nvmem_bus_type const
+c33e2227fed7cf97f52d29cba3274691fa0e6a27 intel_th: make intel_th_bus const
+68cd110a2452ad3d7e168053785f5147e2b50d60 EISA: make eisa_bus_type const
+d5400f5c9250807d250482b8b7bfc6303eb1e16f parport: constify the struct device_type usage
+cfd1974cbf0023d6d6de9e410aa1860d5a34c132 bus: fsl-mc: constify the struct device_type usage
+0163986d1e170d05bf3141eaea21ebefb032cf91 coda: psdev: make coda_psdev_class a static const structure
+a390411b45aebe4a141edb2caec2e4ac05b74a1c cuse: make cuse_class a static const structure
+5b4b355f52f962c5fa95d06308f59b70a85a9ee2 pstore: pmsg: make pmsg_class a static const structure
+1e456e6acdb76f2a017da1f9d30cfa1743924280 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+7831a9274d2f7d8f356296fa9cefd1609bde5ed5 PM: wakeup: make wakeup_class a static const structure
+fbeb92f9b6407fa080ed2a75bc26e18f6cc531b0 PM / devfreq: make all 'class' structures const
+e7ee1017b4bcdb121c580c43df7f858752a7d10a gnss: make gnss_class a static const structure
+0b339cc8ea6b521ae16f5ecde482a93bcaa48292 extcon: make extcon_class a static const structure
+b7bbe168fc896538357a88d4b7de1a4d41958bfe misc: c2port: core: make c2port_class a static const structure
 
---===============2433619456456520669==--
+--===============6153111722523870137==--
