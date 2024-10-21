@@ -1,33 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============0931641399639600727=="
+Content-Type: multipart/mixed; boundary="===============7094198864076200948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 21 Oct 2024 17:42:55 -0000
-Message-Id: <172953257526.1008432.7515384777181197740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 21 Oct 2024 17:42:58 -0000
+Message-Id: <172953257877.1008524.865997184619086907@gitolite.kernel.org>
 
---===============0931641399639600727==
+--===============7094198864076200948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 89e9ae55dc56f322f1a123224ad9d3e52bcc3b50
-    new: 48931f65e9f785b65244550cc8f0c8bf9eab7acd
-    log: |
-         1e7b86f1b26ba5737481a403a26bb6182792a931 RDMA/efa: Update device interface
-         48931f65e9f785b65244550cc8f0c8bf9eab7acd RDMA/efa: Add option to set QP service level on create
-         
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/rdma-next
+    old: 31d0bbd8b23c4e9ce72252f47a01d5266fc78152
+    new: 859f601251f808a6c69644e46160abb68d436aa0
+    log: revlist-31d0bbd8b23c-859f601251f8.txt
+  - ref: refs/heads/rdma-rc
     old: dc5006cfcf62bea88076a587344ba5e00e66d1c6
     new: 76d3ddff7153cc0bcc14a63798d19f5d0693ea71
     log: revlist-dc5006cfcf62-76d3ddff7153.txt
 
---===============0931641399639600727==
+--===============7094198864076200948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-31d0bbd8b23c-859f601251f8.txt
+
+1e7b86f1b26ba5737481a403a26bb6182792a931 RDMA/efa: Update device interface
+48931f65e9f785b65244550cc8f0c8bf9eab7acd RDMA/efa: Add option to set QP service level on create
+7fac99e2902bb735c0ee5a685408fc24c91b88d9 net/sched: Don't print dump stack in event of transmission timeout
+7602a6e34ebe2ac61e2c6e6adb5c621e1febf8b0 net/mlx5: Introduce data placement ordering bits
+f75c32c96383bc7bc5c16b6922a2a266bbf53729 RDMA/mlx5: Support OOO RX WQE consumption
+627b8093cc33674ecb66cf7b299c718335090e48 RDMA/mlx5: Add debugfs to dump MR cache state
+08794eade6298ced6fde1190a770ae0ddc6da845 RDMA/core: Introduce peer memory interface
+4b882032507c8c1c653e1cbae35d6d308e7bcf3c TEMP: Increase lockdep depth
+11e34e2cc052dd44e838781842dd7ba1c8e36590 fwctl: Add basic structure for a class subsystem with a cdev
+c56427ff676b2144714adde77edd2a06913a43c9 fwctl: Basic ioctl dispatch for the character device
+84dcdc098e317cd619c07e2f49f17694f7083288 fwctl: FWCTL_INFO to return basic information about the device
+4922288497285bf07bb11bead28a208522d2e1e6 taint: Add TAINT_FWCTL
+6a624429be8e2a26a0cd42396155e22a195e655b fwctl: FWCTL_RPC to execute a Remote Procedure Call to device firmware
+47ff8f406582afff3d0a006d5eacc1cf72adc1c1 fwctl: Add documentation
+f7817eeb04260906e7e77109538c3bfc39949ad1 fwctl/mlx5: Support for communicating with mlx5 fw
+65b5bcdc74550ebf3788ab10324c88743eac98ef mlx5: Create an auxiliary device for fwctl_mlx5
+33e6817cbe8da2020aaea65ebd2a4175c49fe0d0 !! DO NOT SUBMIT !! fwctl/mlx5: Add INTERNAL_DEV_RES uctx capability
+6680ea77d69c7d104a0d9f74ec27b1ee3329cdb7 RDMA/ipoib: Use the networking stack default for txqueuelen
+c411841dd8c92526d7418ee415d3ea02541ad945 TEMP: Increase MAX_LOCKDEP_ENTRIES size
+c4fb79152ba18ea26d8f8a70508bc4be02d47533 RDMA/mlx5: Call dev_put() after the blocking notifier
+284261d28cb8eafdaef8bbd46d1644dc03d41ab8 RDMA/core: Implement RoCE GID port rescan and export delete function
+a816ced0a2fc08dff293c7442e19a569b994af5d RDMA/mlx5: Ensure active slave attachment to the bond IB device
+c3dd18580ce2db6b164565da6107affc7662e564 RDMA/nldev: Add IB device and net device rename events
+dde367811d4840b18853ce93665e2823665ad5f7 RDMA/core: Add device ufile cleanup operation
+e34b636a131754907ab1457feddf33d29c2a56ef RDMA/core: Move ib_uverbs_file struct to uverbs_types.h
+1dd9d206720e647a4c9f2e37faa8757b6bd18afb RDMA/mlx5: Add implementation for ufile_hw_cleanup device operation
+c42fed71280515996a83a71de16aafa73f7d2f53 net/mlx5: Reset lag definers when they are destroyed
+01f3e5f438d9b7b1611d85bfcc3f032df80b498c RDMA/mlx5: Support querying per-plane IB PortCounters
+3dfb64414241631c82db4b7bfb0814a5c4b75ca1 iommu/dma: Add check if IOVA can be used
+514ad394a11713421674d752a336ed2bdd23b443 dma-mapping: initialize IOVA state struct
+b927a5e740c36f8bd28b2d0671ab2392e81137cb iommu/dma: Provide an interface to allow preallocate IOVA
+659c8bdd84e214329f161bcbb0e45b5c67b84f5f iommu/dma: Implement link/unlink ranges callbacks
+9e1b67fe5249f064f041037a32dce9b1f46ca4ba dma-mapping: provide an interface to allocate IOVA
+270ffdcc585bed4dde1aed0ac5b3a5dd12e43b4b dma-mapping: implement link range API
+aecf0cab07d2d2bc571c24cb61d2bf815fc8f0d8 dma-mapping: add a dma_need_unmap helper
+0493658ccb00d517839f191d4c42a9356551cb0e mm/hmm: let users to tag specific PFN with DMA mapped bit
+fba365ff43629dcda22c75471c9ddc50d938c846 mm/hmm: provide callbacks to map/unmap HMM PFNs
+2ddc22327d5cd0ebccf7fdacfbea566a88cfa97e RDMA/umem: Preallocate and cache IOVA for UMEM ODP
+92957900ee16f755e7dc5e533995605b8b69e66e RDMA/umem: Store ODP access mask information in PFN
+ed9a9ad31d2cc8a4545209c3ac7d23a198ce6cc0 RDMA/core: Separate DMA mapping to caching IOVA and page linkage
+bbe5b51544e4b265a2ec4fbc35999349cab139cc RDMA/umem: Separate implicit ODP initialization from explicit ODP
+d58149a810b0d5d9a6a7427723c54bf1d9616df7 vfio/mlx5: Explicitly use number of pages instead of allocated length
+7805d6ba2260747986f499265b1e5d2fadd72a2d vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+2ae576bec166b87b9eada0279a50b1b946ed4178 vfio/mlx5: Explicitly store page list
+959158d659a1d2b19995155c51e712beb7af1a1c vfio/mlx5: Convert vfio to use DMA link API
+1a72589f5ac0a279fa48773755c20580f2809c01 blk-mq: add a dma mapping iterator
+b9ec91eb82854ed342ad43f852e6eff7f1d38667 blk-mq: add scatterlist-less DMA mapping helpers
+dca39454ddea7c97562260ada1dd867e566a30e5 nvme-pci: remove struct nvme_descriptor
+9c2839d8c53acd03aaf043cded3c792c3c3a1cc6 nvme-pci: use a better encoding for small prp pool allocations
+859f601251f808a6c69644e46160abb68d436aa0 nvme-pci: convert to blk_rq_dma_map
+
+--===============7094198864076200948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -887,4 +941,4 @@ d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git:/
 d71f4acd584cc861f54b3cb3ac07875f06550a05 RDMA/bnxt_re: Fix the usage of control path spin locks
 76d3ddff7153cc0bcc14a63798d19f5d0693ea71 RDMA/bnxt_re: synchronize the qp-handle table array
 
---===============0931641399639600727==--
+--===============7094198864076200948==--
