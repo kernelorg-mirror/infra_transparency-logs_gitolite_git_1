@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7505034555636347721=="
+Content-Type: multipart/mixed; boundary="===============9152865156612412003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 21 Oct 2024 22:22:27 -0000
-Message-Id: <172954934734.1237539.4983997953668065186@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 22:22:40 -0000
+Message-Id: <172954936036.1237870.18350142315438229766@gitolite.kernel.org>
 
---===============7505034555636347721==
+--===============9152865156612412003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 160a810b2a8588187ec2b1536d0355c0aab8981c
-    new: 6f07cd8301706b661776074ddc97c991d107cc91
-    log: revlist-160a810b2a85-6f07cd830170.txt
+  - ref: refs/heads/dev-queue
+    old: 02a4f6b6bf8145719b1318ef112758c889660044
+    new: 39258ce5b07b0a503c18ff930ec7ac29cc3cf907
+    log: revlist-02a4f6b6bf81-39258ce5b07b.txt
 
---===============7505034555636347721==
+--===============9152865156612412003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-160a810b2a85-6f07cd830170.txt
+Content-Disposition: attachment; filename=revlist-02a4f6b6bf81-39258ce5b07b.txt
 
 37578c682cf47bafe29fef29d177b1f38b021db9 nfs: Remove duplicated include in localio.c
 1d498df44e709d9708c0bf666012933bbc7ef1d6 sunrpc: fix prog selection loop in svc_process_common
@@ -327,5 +327,56 @@ f0ac6209460e8cc9bddf161d7210da5b72aa4846 net/mlx5: Only create VEPA flow table w
 1715f0a7323377835a4d079cd6168ea50b13b727 net/mlx5: fs, rename packet reformat struct member action
 7b919caaeb18f6d44133cd6f948a137af30daa4f net/mlx5: fs, rename modify header struct member action
 6f07cd8301706b661776074ddc97c991d107cc91 Merge branch 'net-mlx5-refactor-esw-qos-to-support-generalized-operations'
+aea1bfdbaa2705893ae5cb40f843c7b33ecb9bcb ice: block SF port creation in legacy mode
+b96549e80d1162896d213c2bb0fa20bf75ec6fa6 ice: fix BST key index in ice_bst_key_init()
+12ee509c26c8867fb2001ffb8216099b48e5ac23 iavf: allow changing VLAN state without calling PF
+a246a6560583e504e2e600905435a2184744f27d ice: initialize pf->supported_rxdids immediately after loading DDP
+ff1be5ca88bf221c3acd8517d64cd4efb1e3fee7 ice: use stack variable for virtchnl_supported_rxdids
+0f3df7d86b75d19d2a44006651b3ccbdf3563bff igb: Disable threaded IRQ for igb_msix_other
+ef1101e6dea257fd7337cb844e4675800fac7a90 ice: Add E830 checksum offload support
+99c8fbff902c768126eefb184f4505eb495b5205 igbvf: remove unused spinlock
+f316a1007853f73c92511ac32739df2709cad81d ice: Don't check device type when checking GNSS presence
+a05dd412594abcca500efd25e7afe4e8e5415f65 ice: Remove unncecessary ice_is_e8xx() functions
+73f87ce3eba804aa5ce8890ddaed67c91dcc00ba ice: Use FIELD_PREP for timestamp values
+843007ac734b0dbe7225b3b0fbfae16a1bc56710 ice: Process TSYN IRQ in a separate function
+1dc5835abda57f5c08490046c6f089503412b9d8 ice: Add unified ice_capture_crosststamp
+bc8a148476a12b7acf1912270ef7164dcf37d2c1 ice: Refactor ice_ptp_init_tx_*
+81e5d2738c83db5fc22a20c68c0ef9b1a918e36f ice: Implement PTP support for E830 devices
+e81a129494967ba992fbce3623b1b7bbbc3e10e4 checkpatch: don't complain on _Generic() use
+29b295337b97d02a0eab668a7ab618347bc6a316 devlink: add devlink_fmsg_put() macro
+bfb851a26828ac10db765068c078ca9df948c847 devlink: add devlink_fmsg_dump_skb() function
+b828bdd25663af030b9342c3b7667cb9132c2ea6 ice: rename devlink_port.[ch] to port.[ch]
+3b0fba0898c6d1063ec95b1b062160ecf9b50e29 ice: add Tx hang devlink health reporter
+75038b05ef767bf76eb2707ffbfa814879a6eafc ice: dump ethtool stats and skb by Tx hang devlink health reporter
+81205a60f51280fbb1a5b6317e298eb827c029c5 ice: Add MDD logging via devlink health
+f48b42f6b599478948cee3f133b1470ad9d8101d e1000e: Remove Meteor Lake SMBUS workarounds
+f2ac20fd91382b94629c169589beb6c52f861b2b ice: rework of dump serdes equalizer values feature
+a69f4f6d8a2e6cd5094d39fabdb7eb00280ca8de ice: extend dump serdes equalizer values feature
+5d4c17670cbcb50977363216eada46ab405122ad igc: remove autoneg parameter from igc_mac_info
+ee0212109e3a8fa5d53c1382a290e798df17e5e2 ice: c827: move wait for FW to ice_init_hw()
+103cdc6c584120abf8018cc96308cde332b55f7d ice: split ice_init_hw() out from ice_init_dev()
+b792daf74bb6edd24c12051ae60cf4607afe4262 ice: minor: rename goto labels from err to unroll
+6c7534bb927d9b4909608d85ef2b1cfe3df04c37 ice: ice_probe: init ice_adapter after HW init
+b7295b478dcb9b9da9f2047017709b4d15afae65 ice: refactor "last" segment of DDP pkg
+6064f3f721c10910fd3d2bea711fc6c4dd2e1550 ice: support optional flags in signature segment header
+60c16a4b3491011d6092f8c7f94b2db70da33674 idpf: set completion tag for "empty" bufs associated with a packet
+cb367be62ddee3d322df2724064ac60ddb24da62 ixgbe: Add support for E610 FW Admin Command Interface
+8d28ac098d3f9361d180301ae946d7c4fb378c34 ixgbe: Add support for E610 device capabilities detection
+1c550ead9710610b2754b0a02cbbea699fefd86b ixgbe: Add link management support for E610 device
+f47801d251fc94aed0eadc57ca2192c8f79bc8df ixgbe: Add support for NVM handling in E610 device
+2cc0bc2d78977c3f7463a1557092cc49fb58da1e ixgbe: Add ixgbe_x540 multiple header inclusion protection
+660be15fc633448737f872dbbe539a78810c40fd ixgbe: Clean up the E610 link management related code
+33489a517b71b300f703846bdc9ba0b32267e6b6 ixgbe: Enable link management in E610 device
+f557b7754c2c4d711012b8a5dbfd1721db009a5c ice: Unbind the workqueue
+5a10ff5bfc7713838ae654487be3aa4b33e99f12 ice: Fix use after free during unload with ports in bridge
+46eb5fbcaf0ff191219f1c57bf81af74ec590136 ice: fix PHY Clock Recovery availability check
+7f0ebd163c3cda931111bf8958c5544c97199a01 ice: fix crash on probe for DPLL enabled E810 LOM
+b12d573b6b392ee63bfbed0a4f028bb7751e3670 ice: add recipe priority check in search
+552607cf41245519181dc228b3a360c8e847ec1d virtchnl: fix m68k build.
+18f38938a8028b089e9bb890b614dca8d80faaa7 i40e: fix race condition by adding filter's intermediate sync state
+3bf54fa5abbfbd6dde1da3477893bef11ff8a34e igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
+74845bc4d2703b522e2f96879baf45e33f783c3e igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
+4388616e2947b45e815e9dc108576574ec816382 ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
+39258ce5b07b0a503c18ff930ec7ac29cc3cf907 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
 
---===============7505034555636347721==--
+--===============9152865156612412003==--
