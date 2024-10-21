@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6940438541144635779=="
+Content-Type: multipart/mixed; boundary="===============1906708631399677206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 21 Oct 2024 11:31:30 -0000
-Message-Id: <172951029060.703392.15942541979129102082@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 11:31:36 -0000
+Message-Id: <172951029648.703647.5173924305819704456@gitolite.kernel.org>
 
---===============6940438541144635779==
+--===============1906708631399677206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 057f664fb794e8d2a32fbbfb22856f05c1ce59c6
-    new: df25f67c11f7a4efb342380ebb0d069164bea11f
-    log: revlist-057f664fb794-df25f67c11f7.txt
+  - ref: refs/heads/m68k-queue
+    old: 6ab99220f993fe9cbc80fb1c9eb46d7cf01c6cdb
+    new: bf2f140a0c7c0b8f4f1691f98abef8f176f5af20
+    log: revlist-6ab99220f993-bf2f140a0c7c.txt
 
---===============6940438541144635779==
+--===============1906708631399677206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-057f664fb794-df25f67c11f7.txt
+Content-Disposition: attachment; filename=revlist-6ab99220f993-bf2f140a0c7c.txt
 
 38d222b3163f7b7d737e5d999ffc890a12870e36 9p: v9fs_fid_find: also lookup by inode if not found dentry
 1325e4a91a405f88f1b18626904d37860a4f9069 9p: Enable multipage folios
@@ -571,6 +571,8 @@ c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git:/
 dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
-df25f67c11f7a4efb342380ebb0d069164bea11f Merge tag 'v6.12-rc4'
+a6b3e728786af8ec981d9d02111f623df2b7d858 m68k: atari: usb: Add ISP1160 USB host controller support
+05d847945edb1f48a05861930ff833aa0ee8038c m68k: atari: Update Kconfig.bus help text
+bf2f140a0c7c0b8f4f1691f98abef8f176f5af20 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6940438541144635779==--
+--===============1906708631399677206==--
