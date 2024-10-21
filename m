@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 21 Oct 2024 11:01:10 -0000
-Message-Id: <172950847033.677777.9029946466442092013@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 11:10:41 -0000
+Message-Id: <172950904142.685435.4549651852554242498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 47dd5447cab8ce30a847a0337d5341ae4c7476a7
-    new: 95ecba62e2fd201bcdcca636f5d774f1cd4f1458
+    old: 95ecba62e2fd201bcdcca636f5d774f1cd4f1458
+    new: d95d9a31aceb2021084bc9b94647bc5b175e05e7
     log: |
-         95ecba62e2fd201bcdcca636f5d774f1cd4f1458 net: fix races in netdev_tx_sent_queue()/dev_watchdog()
+         d95d9a31aceb2021084bc9b94647bc5b175e05e7 virtio_net: fix integer overflow in stats
          
