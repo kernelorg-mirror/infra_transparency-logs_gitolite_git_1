@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1321912681697969403=="
+Content-Type: multipart/mixed; boundary="===============1257307133061655807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 21 Oct 2024 09:48:37 -0000
-Message-Id: <172950411724.614172.2549306798313186896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 21 Oct 2024 09:50:07 -0000
+Message-Id: <172950420729.616927.18391899335903760298@gitolite.kernel.org>
 
---===============1321912681697969403==
+--===============1257307133061655807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9490ef507344568e7a20577986cf5328b5619f63
-    new: 9bb31db10558d141239b9629ae96a6c166b7dc96
+  - ref: refs/heads/master
+    old: 8d4300b30cb28cba092f99306845a78f2e0f9657
+    new: b9da89de46ec981485d9cd3ef26c9317908eeb52
     log: |
-         6aff357efc2bb060e5b400774becfd3d37644b44 clk: samsung: gs101: make all ufs related clocks critical
-         9bb31db10558d141239b9629ae96a6c166b7dc96 Merge branch 'next/clk' into for-next
+         b9da89de46ec981485d9cd3ef26c9317908eeb52 4.19-stable patches
          
 
---===============1321912681697969403==
+--===============1257307133061655807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1729504139 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1729504115-3272446fd456fa66cda0e7153b221d54b059f295
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729504231 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1729504205-2ac5c3cab3df803e715eca334aaa0473e600837b
 
-9490ef507344568e7a20577986cf5328b5619f63 9bb31db10558d141239b9629ae96a6c166b7dc96 refs/heads/for-next
+8d4300b30cb28cba092f99306845a78f2e0f9657 b9da89de46ec981485d9cd3ef26c9317908eeb52 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmcWI4sQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1w/0D/4t0FBNYhB8emwxXNftdzY7/cLw24mNpD2N
-5QH9S47ebZKd0PEMehEEcxrbh2HzQdcjcVIWFDYwya/9n/J3J5TW1vc9E0vSvjYZ
-KGVHuGETW4D2PIBK9HpqVM4Yl0Emc/Sl+qHOkBt696KCqEHyrdZIo4b2isndYUzC
-sl+cOV7CkeRSROfrpsMv+M46u9xtr0tk0zh5u1nBhWrqAXcptuaFDVHmTW0kFvSV
-GC9H/vLWSdv2OMKNstCOm/MidBuTLGoY2ji3+fdw6BMxnUX+pnSnmm+zHUVWcE8Q
-oZxKmv0dyAmGwTpLiTQVZNCgLdXzE4GIIKz/Y5av+SG+ocU+mbQTkVDyK3DiIYCO
-RcJPVNuljKS3WhrsRc3ks3/Zco6RC4j961Wuzl6z/Xg0AiLETRgM2pFSWG4YkPQL
-9LYGpuo7gFctXvvEvVC5s1tJ/tbwiiwQTXdI7s9XRwBEpBP9LjD4IjCysnxm05bF
-RiWVhSlOhEhCNfnZuXkaQe9hIWVVS1Y11a8y/UxxInVqZrd7oBrdJm48t3iesKUP
-Y3MDuInVv3DJO8BpNzeOdRAm1ikcu5zaqg3EM19/eHRt5GepgWUZdXfUTffc1Nzw
-P9i019jGS26ah9RS1B5VhUAMUHnDCkoM97/xbsfEpvUttwaXaNkI/MXvDV2r+37X
-+NIrmaczDg==
-=/CMk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcWI+cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TSMQALd/kKDHFJ4SfvMCOPv+
+9g7pXIqQH2ZzxQWOb4k1M0FZ7zJG/QnOzFh9rg9poe3IxECft7ny3fPlEmWNXstD
+hCRwTxeAxQ64wYwSKosFw4dGucZfiZ5Sa5F9/E1Fw03xH5DCLZOKJSReOmfdi4Rf
+X71yFzuz4eH2XL+AZ1vR7L9RGj6CXwviAE7Nux9B4WG2KJLK2kzNsAYnp3FbkeS3
+kh6QNnNQYzQc6y5O6P8ZosIab086MgJ90S1654FT7X3WCZ9PQ+gx5hOb/eMi7nPf
+6GSxAr2DA8EtCrM998s4g9bi+KEqVZexbqT/sFAdEwiJHRVqBeovxly6P0Z1jFEs
+24U2Dp5M6cQx4+g7xnI/ZBS4+xS7xVcNHeQpa/DHWgt9gapg7beh0PCp/+ndfC0t
+m6AhBBGTORuM3t/32VEfwtmnQgvi5MppneYsweU7EE5NlpkyUCJ9MyEWy3YSxalC
+gCh/GBfz1bLMwxhWnmI95eFi03CHYOkaSvN1DMJGkEUYoj2s3zS+TT//F97hYGjL
+1zhLbEu7yG9D/cJkYdyYNAKQAzZHfW2OZRMuNkGaB1Sc6cVqUBA1Zop6SEejxqkf
+zi0vTTn+fHo4Z6xVF0smRolwTXYO3b9wI8OiDXBCKmqJZQZ+Zs5lhBvOaIA+J2CF
+mpFqFOW/n9fg5+D+RT8rTZsy
+=XRAh
 -----END PGP SIGNATURE-----
 
---===============1321912681697969403==--
+--===============1257307133061655807==--
