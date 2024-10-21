@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6200335338265390461=="
+Content-Type: multipart/mixed; boundary="===============4140775485262053891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 21 Oct 2024 22:22:51 -0000
-Message-Id: <172954937170.1238106.14454363365396336488@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 22:22:54 -0000
+Message-Id: <172954937440.1238220.18170410367223695235@gitolite.kernel.org>
 
---===============6200335338265390461==
+--===============4140775485262053891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 160a810b2a8588187ec2b1536d0355c0aab8981c
     new: 6f07cd8301706b661776074ddc97c991d107cc91
     log: revlist-160a810b2a85-6f07cd830170.txt
 
---===============6200335338265390461==
+--===============4140775485262053891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -328,4 +328,4 @@ f0ac6209460e8cc9bddf161d7210da5b72aa4846 net/mlx5: Only create VEPA flow table w
 7b919caaeb18f6d44133cd6f948a137af30daa4f net/mlx5: fs, rename modify header struct member action
 6f07cd8301706b661776074ddc97c991d107cc91 Merge branch 'net-mlx5-refactor-esw-qos-to-support-generalized-operations'
 
---===============6200335338265390461==--
+--===============4140775485262053891==--
