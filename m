@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============9048871570046784659=="
+Content-Type: multipart/mixed; boundary="===============1275080663409962566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 21 Oct 2024 21:37:55 -0000
-Message-Id: <172954667502.1200419.10313819070976196372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Oct 2024 21:38:00 -0000
+Message-Id: <172954668086.1200591.9335348524857060762@gitolite.kernel.org>
 
---===============9048871570046784659==
+--===============1275080663409962566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: d641c164f8de5b5e19e66a27d9b5feedc8f2e84c
     new: 038fa6ddf5d22694f61ff7a7a53c8887c6b08c45
     log: |
          038fa6ddf5d22694f61ff7a7a53c8887c6b08c45 ASoC: rt722-sdca: increase clk_stop_timeout to fix clock stop issue
          
 
---===============9048871570046784659==
+--===============1275080663409962566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1729546698 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1729546672-5852f123f301141286bf1098836043177f26df62
+pusher C3F436CA30F5D8EB 1729546704 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1729546678-e17c7e72249f18fb9034512bb0b6a0aa3c1aad05
 
-d641c164f8de5b5e19e66a27d9b5feedc8f2e84c 038fa6ddf5d22694f61ff7a7a53c8887c6b08c45 refs/heads/for-6.12
+d641c164f8de5b5e19e66a27d9b5feedc8f2e84c 038fa6ddf5d22694f61ff7a7a53c8887c6b08c45 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcWycoACgkQJNaLcl1U
-h9DG1gf9Ftvbab8vxMYzukiLZKGh80BWijEOAcqQmoN+fKV+2ZG5+gJwMJj6wRGu
-ViUwRPTm/wQH36HN0d6RhnBzNJML1uK9a/RStTwB4XdugB/s0KqvOHBKtGqvkH/+
-Jkc++yBiO9JpVdfDUgiQ+YNmpfGp0h9LTsQTqWKfFxWStSJcAXEZTsGj8RuFJUAE
-QoAGPWHQdY5AuPzNjookTXgWL8Iz6SMBLumP1C1EF2XnXmTSEzG76I3IoFXWcMOI
-bAREbDTcP9zm9rOUDcSboEwxycHr2TtzNM5SfBaV8i2tD2SaB9WVChB00KkW7+WH
-EIIsFSqTAHt6w7PFs1ceCgTkt2+ZGg==
-=bWKB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcWydAACgkQJNaLcl1U
+h9CxoAf/To9xg/47JZ340gn99EX0c5HaXaqyIrERsFl0KjfUH8eUdc1TEXuxByZK
+VRfw8b13d/OTCFka+hXPiVU+xKipVGXe6EGptzSpNpbzSW/tPP4RjfMF+qObmVCx
+7F89EylYRa5XO/3E93J1VNYFdN48zxt7/GVZvASEh7n0Hmqi9+Ji9Hkzw1nMQy1O
+EEs1lHuWKdNNfcpi8pTGBFiWgM4rxYOdoSdU6HzzVROy5ril5Jm6lao4RiWhoaUY
+n8oqf8AwF+VfX/WSLyi086gYSrF6/YVm2dAsuf/gh+SVetCqL5YreVJzy1tCGD4Y
+UWwi2Gi44946e+mpEzcsElxtAU131A==
+=4pZ9
 -----END PGP SIGNATURE-----
 
---===============9048871570046784659==--
+--===============1275080663409962566==--
