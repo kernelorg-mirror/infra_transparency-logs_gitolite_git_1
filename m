@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0341818276542946621=="
+Content-Type: multipart/mixed; boundary="===============8883605008506942171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 21 Oct 2024 06:52:39 -0000
-Message-Id: <172949355931.467061.14732958889442703285@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 06:52:44 -0000
+Message-Id: <172949356423.467149.6254544547028182520@gitolite.kernel.org>
 
---===============0341818276542946621==
+--===============8883605008506942171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: be847a3a8d4ec4bf270c2455376d11f2de61bfb3
-    new: 42f7652d3eb527d03665b09edac47f85fb600924
-    log: revlist-be847a3a8d4e-42f7652d3eb5.txt
+  - ref: refs/heads/tty-next
+    old: f5927d832bb823dbe827603a083f225911208cb6
+    new: ec8c17e5ecb4a5a74069687ccb6d2cfe1851302e
+    log: revlist-f5927d832bb8-ec8c17e5ecb4.txt
 
---===============0341818276542946621==
+--===============8883605008506942171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493583 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493587 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1729493557-68b6ec55ae90c9684c31f16df59fea82d0b99d19
+nonce 1729493562-e594728d80d52658275f7c09e8c8ac2527b9ed49
 
-be847a3a8d4ec4bf270c2455376d11f2de61bfb3 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/tty-linus
+f5927d832bb823dbe827603a083f225911208cb6 ec8c17e5ecb4a5a74069687ccb6d2cfe1851302e refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+k8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mNQQAKT7wZN9RdTWMDFVMlar
-dqV2pXJCOK85O5CpimmRsEgCRYOUED2iotNgFqxAfKLntHedEVflfmvu0QtDNd33
-7Q+IVQdQFfmFpdB+2jT+Sg0HX7yi6pUoiAings+vTSjQ7Hg7ohNMrEL2dVwmizPw
-MgG05Wgkf0Di77XkqDok5GDnc96S5BFg2lZ6R2ehhs0G53Jb29M2zY0lPr0qltHX
-yCIYIS77TqJm5sJpdro0hBEdH4XAYvRkTsjP0mwx6+GSOqP3bfSk4J4X03pHtEd7
-fgJyA2Y1t4HtArtlDAjJcGEMWTi/fTGc9WX/4ddcJfLtwXVDKGuzig5UOw8LEXRu
-Y/r8KEg3uuSXKLLKHtnbWZHAwpMpp0/J4vbjPh8m0TDqVthVifHycCjBC9rbvotq
-U0rRMExUOOij58tc/8JBWF9UkkSkTny0tImRo/wue+dAgzqXop861voZbHL4p7CP
-t11UuAkL+smSdDDSK0ZookE/3mmwWnDH3QLMfHUNISYJJjVFIcDRHIb6d8WYpb32
-dCQEMoNtRAm4RzS9IRWIWqovw7XouTpdlq2Tq32wDhT+cTkT1G0F0dMIsoPy3Oc4
-/JC2+zgVj+SE1bR8N/YP3qDUplFvIzOubVGTNUJjmjhsV51L3PjFkdyCuR20v5oE
-CNYSAs/ieaVL22XGv+jf0WL9
-=yXHu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+lMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o58QAJPjG5R5m4qPd8uRvrgF
+PqK2oYJCxSrvGvkFWNQ8Cq+oOmZngFJoeM1NObWlM2jA77X3QjBYgWZEFlxdbBlx
+aQSEy/eb1T2kB3fpIDuyHilberEgs3TSxvQl03ZlHgAL7cfKdH4+4fkAtSXrzXno
+3BDfqP1Xv3UVdMoFnaLfIUAeu5D/MhwEddJvLBaKYxViHbMow4xJDu9LXrm9bkxr
+s++cB+EgNgp6MgBzAapWzCmjmQfdczEa89p0ZDhb/Tz6eFnMBXEXzWx/xtYOXj1R
+smfwJQrjS60SSPVm9Pj55pRIShpXXd8CXLHJipuvau76aympxJ5rYym7M8Tuumkl
+4ScYdjxp1UdFTRcwAbsAyQF2Lch3ewkkLXfeXU2N3SuYkDORQkyZ+lEpkSkWDkHm
+Cc2I3y7o/vJl5iEN39UW+NSjFBLmQBTY7HvNlM5E4etgnshxZKM4YVePqmm4+kQk
+H0k/cz2rswHyx1mwPDUE+iIDpyZnVPuouMFbotnqMFmnpYIZYOCz7cmni9qdh2cj
+BhvzTYZcT/Lz1zXIkWxUMeRtOi9MRHftTiXFxzS0Ez5Gjj47o1kMgRKwUHP+Sp6T
+OsCfg4OU9f3u0k2KJKnVWwonAoBCnmDI865Cz/5rXyGASNfiB5ZWbfldu8amfJcc
+6+LAaXQsi/rBGDHG/FXRNZl1
+=1wE0
 -----END PGP SIGNATURE-----
 
---===============0341818276542946621==
+--===============8883605008506942171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be847a3a8d4e-42f7652d3eb5.txt
+Content-Disposition: attachment; filename=revlist-f5927d832bb8-ec8c17e5ecb4.txt
 
 a4f2b9a787679697e6792676298cac5c6b9b0ccb fs/ntfs3: Use swap() to improve code
 556bdf27c2dd5c74a9caacbe524b943a6cd42d99 ntfs3: Add bounds checking to mi_enum_attr()
@@ -530,6 +530,18 @@ ac44ff7cec33d5c2d4b72d52603552ec64c1a8bf Merge tag 'drm-xe-fixes-2024-10-10' of 
 416a8b2c02fe2a5a9fbdf2a35ea294b78d939f84 erofs: ensure regular inodes for file-backed mounts
 2402082e5332a2d27be82b4a2bb42490f9c5134b erofs: get rid of z_erofs_try_to_claim_pcluster()
 ae54567eaa87fd863ab61084a3828e1c36b0ffb0 erofs: get rid of kaddr in `struct z_erofs_maprecorder`
+f956052e00de211b5c9ebaa1958366c23f82ee9e vt: prevent kernel-infoleak in con_font_get()
+9462f4ca56e7d2430fdb6dcc8498244acbfc4489 tty: n_gsm: Fix use-after-free in gsm_cleanup_mux
+40d7903386df4d18f04d90510ba90eedee260085 serial: imx: Update mctrl old_status on RTSD interrupt
+4bef7c6f299910f19876ad8e7f5897514855f1d2 serial: qcom-geni: fix polled console initialisation
+19df76662a33d2f2fc41a66607cb8285fc02d6ec serial: qcom-geni: revert broken hibernation support
+23f5f5debcaac1399cfeacec215278bf6dbc1d11 serial: qcom-geni: fix shutdown race
+23ee4a25661c33e6381d41e848a9060ed6d72845 serial: qcom-geni: fix dma rx cancellation
+fa103d2599e11e802c818684cff821baefe7f206 serial: qcom-geni: fix receiver enable
+c657243ae12000dc57e3648b0ddd30da9ffd1f14 serial: qcom-geni: fix rx cancel dma status bit
+8173d74ac12bf231fa3a22ae0ad9d56c2abc4618 serial: qcom-geni: drop flip buffer WARN()
+4cf4b344c1e1a0682d76f3ec9da90a714e986e90 serial: qcom-geni: drop unused receive parameter
+be847a3a8d4ec4bf270c2455376d11f2de61bfb3 serial: qcom-geni: rename suspend functions
 d16b7eb6f523eeac3cff13001ef2a59cd462aa73 sched/deadline: Use hrtick_enabled_dl() before start_hrtick_dl()
 73ab05aa46b02d96509cb029a8d04fca7bbde8c7 sched/core: Disable page allocation in task_tick_mm_cid()
 98442f0ccd828ac42e89281a815e9e7a97533822 sched: Fix delayed_dequeue vs switched_from_fair()
@@ -914,5 +926,6 @@ c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git:/
 dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
+ec8c17e5ecb4a5a74069687ccb6d2cfe1851302e Merge 6.12-rc4 into tty-next
 
---===============0341818276542946621==--
+--===============8883605008506942171==--
