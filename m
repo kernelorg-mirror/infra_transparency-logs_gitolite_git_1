@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 21 Oct 2024 19:49:15 -0000
-Message-Id: <172954015558.1111038.10260956945883923949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 21 Oct 2024 19:49:37 -0000
+Message-Id: <172954017782.1111594.14051230227112485721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/resize-rings
+  - ref: refs/heads/io_uring-ring-resize
     old: 0000000000000000000000000000000000000000
-    new: 37dd533326522555e6eabf09994b7f7978847495
+    new: 9e4127dfb0aa7cc3debb723f059981261cc76458
