@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2053532393488377287=="
+Content-Type: multipart/mixed; boundary="===============9085787861632950833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 21 Oct 2024 22:23:35 -0000
-Message-Id: <172954941515.1239353.5463146523893081952@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 22:23:37 -0000
+Message-Id: <172954941738.1239563.16886527646318973109@gitolite.kernel.org>
 
---===============2053532393488377287==
+--===============9085787861632950833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 07d6bf634bc8f93caf8920c9d61df761645336e2
     new: d95d9a31aceb2021084bc9b94647bc5b175e05e7
     log: revlist-07d6bf634bc8-d95d9a31aceb.txt
 
---===============2053532393488377287==
+--===============9085787861632950833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ efeddd552ec6767e4c8884caa516ac80b65f8823 fsl/fman: Save device references taken 
 95ecba62e2fd201bcdcca636f5d774f1cd4f1458 net: fix races in netdev_tx_sent_queue()/dev_watchdog()
 d95d9a31aceb2021084bc9b94647bc5b175e05e7 virtio_net: fix integer overflow in stats
 
---===============2053532393488377287==--
+--===============9085787861632950833==--
