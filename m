@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 21 Oct 2024 14:29:55 -0000
-Message-Id: <172952099544.851984.14752038783018467721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 21 Oct 2024 14:30:30 -0000
+Message-Id: <172952103040.853756.6499130902216815890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/dev
-    old: d6db4c7d44b0489ea094a5c11fbd21d7e0f81d88
-    new: 6f7c83844aaf59ef41dce3a16a6f41240e5443ee
+  - ref: refs/heads/for_next
+    old: 230bb87c58ea37b37371e0701243a716b9aaab4d
+    new: 6cb3f5ca9e44877fcecee13057d8d50b01d463b1
     log: |
-         6f7c83844aaf59ef41dce3a16a6f41240e5443ee rcutorture: Use finer-grained timeouts for rcu_torture_writer() polling
+         fb6f20ecb121cef4d7946f834a6ee867c4e21b4a reiserfs: The last commit
+         6cb3f5ca9e44877fcecee13057d8d50b01d463b1 Merge dropping of reiserfs
          
