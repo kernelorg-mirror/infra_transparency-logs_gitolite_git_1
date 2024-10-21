@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4056080302011012687=="
+Content-Type: multipart/mixed; boundary="===============1837103541007125425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 21 Oct 2024 06:54:08 -0000
-Message-Id: <172949364803.468449.11737857149677373046@gitolite.kernel.org>
+Date: Mon, 21 Oct 2024 06:54:15 -0000
+Message-Id: <172949365541.468643.12022627513278260413@gitolite.kernel.org>
 
---===============4056080302011012687==
+--===============1837103541007125425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 1154a599214c655c8138b540f13845257f1952fd
-    new: 42f7652d3eb527d03665b09edac47f85fb600924
-    log: revlist-1154a599214c-42f7652d3eb5.txt
+  - ref: refs/heads/usb-next
+    old: 07b887f8236eb3ed52f1fe83e385e6436dc4b052
+    new: c6d9e43954bfa7415a1e9efdb2806ec1d8a8afc8
+    log: revlist-07b887f8236e-c6d9e43954bf.txt
 
---===============4056080302011012687==
+--===============1837103541007125425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493671 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729493676 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1729493646-f2679f24271a4afacfa7f4f6b34b330629db77b1
+nonce 1729493651-ec78e727838d841485fbf1e9729c157207bf7fb8
 
-1154a599214c655c8138b540f13845257f1952fd 42f7652d3eb527d03665b09edac47f85fb600924 refs/heads/usb-linus
+07b887f8236eb3ed52f1fe83e385e6436dc4b052 c6d9e43954bfa7415a1e9efdb2806ec1d8a8afc8 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+qgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/CkQAMkl1b9gypwtuE9Ck3qs
-L3Jplholo2NxudEJMtOq8wczLRscFyMQnV7ZJ2QExPT3SBJW3mdzVyGr2vkqlQM+
-0Xhke6z0O/N771/kTdDeecHO6nDmn2PQuW+HZuVm0mfgNjamfuk4ssBTz7cgdoLy
-4K/htVxK9JlF9rG6fXEYwniUfu+xd/VUiimICPGhuWR/ZCroWZNDsJ3IJsjljJLi
-GaWVvAAu3dX3RwzhHI0qpSjsMbwPrGH401y1uoa5AW209VzVXFEa73QIBvO5SjkA
-8DDjSRABynIB8J6QewgxpcGI/kDS8JMriMGDh05af1DeLUNpYJYNqm44CzLKWKVn
-wWna9vmKEefG8FBZdWf7kMniTATL4PISk3/9adgrsCeTjDkUTDeSWkagCf2R6She
-DV/OnEGnX6yU35ixNzzLwAgtm/Uura8xgjKfeWnE7xlJYftj9PteMoS3o1ID9mhY
-MBpjQ7wDOgNMkDwnwmI8k886mCVFn9pps8p5Um+Cr0Q9nRUA7hnYb5Bq1jsqZkDK
-jba65s71r+e1q7GCDWSGS1UfasBn/Y/DrZPjgaG07KqYxw32E8ANbQSg+SODtB9E
-DFR1BjXqN4IzLOyaTfWnzWxSU+EWK1x8ttYrEqUmQZcTjlSLUYmibFq0U926Aer2
-jBS41OqM6j1291OPiac5OW7i
-=1KoB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcV+qwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6SMP/1QnO8yLChFzsZ1GIiER
+VBntyJ/1mKu7+w+/7000fu4Emeta8W8yLtLbAm+mioTwLylioMLbq5suBcJ0nzxq
+SFHf4f3ibJ9xaSKBFGlQKK9zIlAvHF4JxRtNRvlyoHyjGCjJRqDiV91Q2p2V7fej
+hERufHI+1I1jqS0oVN6Pz9uz8Qm65VcTpDYW8oVGCK2qArAqUFiFIr19F8xCmnY4
+dEOHd79F3WuqjySnSY1C7FcWjJvOAeW8YbPajkd7SfLClx3KV1SYe5CBKjHwLy8j
+0u6Rf48Z9K2FKNfPDEQggoNP79niaL0qdKg5gMbpAV0eGCZcigwNTG+8JflcH9v2
+Cj3GkzRdQnjtkOQR4j1dLtPb/FsaizteQ8oKV8z29v+BrcyKiFrTDs7oPdGZdkpI
+8sae5XQy7xgliiNw9AXcrio7jHJjA/tDka8yOrgCqA54jO+cLqwYHFRHKtjumVo/
+ISbUYcWpXst7vh+3P9O+32LollDlE6FgE6pBtGweiQa5DHE07G7/PZf+gOu3WUVe
+eWeMOrdKNQdN0keMqzux6I7DULSO6NNA3oN3V5ge2mlQoWYx0sjMSNPTDAjbgIw8
+McOkjb4Vdo3et1019H45tzomEqKbvU0UCxBmh3A6S58aSUlZ+bUjSLg6UuwmtQD7
+vTxN8h5Jt29PhV31Z8HNfEKU
+=xr9I
 -----END PGP SIGNATURE-----
 
---===============4056080302011012687==
+--===============1837103541007125425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1154a599214c-42f7652d3eb5.txt
+Content-Disposition: attachment; filename=revlist-07b887f8236e-c6d9e43954bf.txt
 
 38d222b3163f7b7d737e5d999ffc890a12870e36 9p: v9fs_fid_find: also lookup by inode if not found dentry
 1325e4a91a405f88f1b18626904d37860a4f9069 9p: Enable multipage folios
@@ -425,6 +425,14 @@ dff6584301ddeb147ae306b140ccf2e128e29030 Merge tag 'sched_ext-for-6.12-rc3-fixes
 1ab60323c5201bef25f2a3dc0ccc404d9aca77f1 smb: client: fix OOBs when building SMB2_IOCTL request
 3dfea293f4279b3021cb0ecf3807e763bddb63b9 smb/client: Fix logically dead code
 6aca91c416f626fc0c5146cc4450ea86b831f3dd cifs: Remove unused functions
+0240b293ec0fd90b92ac938dc28134244e9142d2 MAINTAINERS: Add an entry for the LJCA drivers
+92682f3460071733f16cebd7cf8e33e776bc9aaf MAINTAINERS: usb: raw-gadget: add bug tracker link
+befab3a278c59db0cc88c8799638064f6d3fd6f8 usb: typec: altmode should keep reference to parent
+ffe85c24d7ca5de7d57690c0ab194b3838674935 usb: typec: qcom-pmic-typec: fix sink status being overwritten with RP_DEF
+c96e31252110a84dcc44412e8a7b456b33c3e298 usb: dwc3: Wait for EndXfer completion before restoring GUSB2PHYCFG
+7d381137cb6ecf558ef6698c7730ddd482d4c8f2 xhci: tegra: fix checked USB2 port number
+705e3ce37bccdf2ed6f848356ff355f480d51a91 usb: dwc3: core: Fix system suspend on TI AM62 platforms
+9499327714de7bc5cf6c792112c1474932d8ad31 usb: gadget: f_uac2: fix return value for UAC2_ATTRIBUTE_STRING store
 164cd0e077a18d6208523c82b102c98c77fdd51f ALSA: hda/conexant - Use cached pin control for Node 0x1d on HP EliteOne 1000 G2
 9b52ddeb468c74db7f652f7ac5a390591bb47dc7 s390/pkey_pckmo: Return with success for valid protected key types
 0d9dc27df22d9b5c8dc7185c8dddbc14f5468518 s390/sclp: Deactivate sclp after all its users
@@ -465,6 +473,11 @@ d458cd1221e9e56da3b2cc5518ad3225caa91f20 Bluetooth: Call iso_exit() on module un
 c964ced7726294d40913f2127c3f185a92cb4a41 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 6b5cca7868fdd2499384e21279fdab86bfa04997 clk: test: Fix some memory leaks
 fe05c40ca9c18cfdb003f639a30fc78a7ab49519 selftest: hid: add the missing tests directory
+5189df7b8088268012882c220d6aca4e64981348 USB: gadget: dummy-hcd: Fix "task hung" problem
+6599b6a6fa8060145046d0744456b6abdb3122a7 xhci: Fix incorrect stream context type macro
+fe49df60cdb7c2975aa743dc295f8786e4b7db10 xhci: Mitigate failed set dequeue pointer commands
+f42a36bae0645f85c0290abc1d1385efd8ec9b13 usb: xhci: Fix handling errors mid TD followed by other errors
+30c9ae5ece8ecd69d36e6912c2c0896418f2468c xhci: dbc: honor usb transfer size boundaries.
 e5a3c24bcaf7bc1c3c2647395aae5de4660c1c64 Revert "drm/mgag200: Add vblank support"
 5b3c0209e88a67a8d029ed8b6e30bca383cbdc55 drm/ast: sil164: Clear EDID if no display is connected
 c09c4f2a972ca7cd9c8926594aa2099bcbcd3b79 drm/ast: vga: Clear EDID if no display is connected
@@ -512,6 +525,8 @@ cb560795c8c2ceca1d36a95f0d1b2eafc4074e37 Merge branch 'mlx5-misc-fixes-2024-10-1
 3543152f2d330141d9394d28855cb90b860091d2 vsock: Update rx_bytes on read_skb()
 6dafde852df8de3617d4b9f835b629aaeaccd01d vsock: Update msg_count on read_skb()
 19039f279797efbe044cae41ee216c5fe481fc33 bpf, vsock: Drop static vsock_bpf_prot initialization
+540eff5d7faf0c9330ec762da49df453263f7676 USB: serial: option: add support for Quectel EG916Q-GL
+6d951576ee16430822a8dee1e5c54d160e1de87d USB: serial: option: add Telit FN920C04 MBIM compositions
 8f7033aa4089fbaf7a33995f0f2ee6c9d7b9ca1b io_uring/sqpoll: ensure task state is TASK_RUNNING when running task_work
 e59db0623f6955986d1be0880b351a1f56e7fd6d riscv, bpf: Make BPF_CMPXCHG fully ordered
 bea07fd63192b61209d48cbb81ef474cc3ee4c62 maple_tree: correct tree corruption on spanning store
@@ -545,6 +560,7 @@ b0bf1afde7c34698cf61422fa8ee60e690dc25c3 cdrom: Avoid barrier_nospec() in cdrom_
 ade8ff3b6aca47c234e5353b1e9dc1e5a8f21ffe Merge tag 'x86_bugs_post_ibpb' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 83f000784844cb9d4669ef1a3366479db3197b33 Merge tag 'drm-xe-fixes-2024-10-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 0fd2a743301b6b5eec0f407080f89bed98384836 xen: Remove dependency between pciback and privcmd
+1154a599214c655c8138b540f13845257f1952fd Merge tag 'usb-serial-6.12-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 6e90b675cf942e50c70e8394dfb5862975c3b3b2 MAINTAINERS: Remove some entries due to various compliance requirements.
 9b673c7551e6881ee0946be95e21ba290c8ac45e misc: rtsx: list supported models in Kconfig help
 c91c14618fcf4ae3cf3475e5461ea8b41bf76f6d Merge tag 's390-6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -586,5 +602,6 @@ c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git:/
 dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
+c6d9e43954bfa7415a1e9efdb2806ec1d8a8afc8 Merge 6.12-rc4 into usb-next
 
---===============4056080302011012687==--
+--===============1837103541007125425==--
