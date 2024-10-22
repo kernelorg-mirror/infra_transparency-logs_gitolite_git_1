@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0219604545847054799=="
+Content-Type: multipart/mixed; boundary="===============3723373170575872666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 22 Oct 2024 10:08:39 -0000
-Message-Id: <172959171991.1792281.15213564444672827755@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 10:10:01 -0000
+Message-Id: <172959180166.1793560.1600610765395044091@gitolite.kernel.org>
 
---===============0219604545847054799==
+--===============3723373170575872666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 21f0d4005e7eb71b95cf6b55041fd525bdb11c1f
-    new: d857519bd5586311432b4411b70489e8c12e2ab2
-    log: revlist-21f0d4005e7e-d857519bd558.txt
+    old: d857519bd5586311432b4411b70489e8c12e2ab2
+    new: 7d830abdd8a950f1ff93db3efac28571174407b3
+    log: revlist-d857519bd558-7d830abdd8a9.txt
 
---===============0219604545847054799==
+--===============3723373170575872666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21f0d4005e7e-d857519bd558.txt
+Content-Disposition: attachment; filename=revlist-d857519bd558-7d830abdd8a9.txt
 
-980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
-ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
-e8d164974cfa46fe5ec87869c8a7113641f322d5 KVM: arm64: Use kvm_has_feat() to check if FEAT_SSBS is advertised to the guest
-78c4446b5f957fb14737582e503b1b25f66edc45 KVM: arm64: Allow userspace to change ID_AA64PFR1_EL1
-dc9b5d7e0bd40e68a94013766b27be3dda10c006 KVM: selftests: aarch64: Add writable test for ID_AA64PFR1_EL1
-796a4049640b54cb1daf9e7fe543292c5ca02c74 netfs: In readahead, put the folio refs as soon extracted
-368196e5019464c7bf81c797a415d09e53f5792a netfs: fix documentation build error
-9b7c3dd5964b252f187f1982996fb9c0c2159da9 Merge branch kvm-arm64/idregs-6.12 into kvmarm/fixes
-ae8f8b37610269009326f4318df161206c59843e KVM: arm64: Unregister redistributor for failed vCPU creation
-6ded46b5a4fd7fc9c6104b770627043aaf996abf KVM: arm64: nv: Keep reference on stage-2 MMU when scheduled out
-3c164eb9464d39ba339c1487dcac0dc9508e03f0 KVM: arm64: nv: Do not block when unmapping stage-2 if disallowed
-c268f204f7c5784e84583c1c44d427bac09f517a KVM: arm64: nv: Punt stage-2 recycling to a vCPU request
-79cc6cdb932a5cf1a1ee05f6de12a7d102818d21 KVM: arm64: nv: Clarify safety of allowing TLBI unmaps to reschedule
-d4a89e5aee23eaebdc45f63cb3d6d5917ff6acf4 KVM: arm64: Expose S1PIE to guests
-f92f0a1b05698340836229d791b3ffecc71b265a openat2: explicitly return -E2BIG for (usize > PAGE_SIZE)
-df5fd75ee305cb5927e0b1a0b46cc988ad8db2b1 KVM: arm64: Don't eagerly teardown the vgic on init error
-cd843399d706411ff80520fb7883afeeefa76e98 crypto: lib/mpi - Fix an "Uninitialized scalar variable" issue
-6ed469df0bfbef3e4b44fca954a781919db9f7ab nilfs2: fix kernel bug due to missing clearing of buffer delay flag
-afa9b48f327c9ef36bfba4c643a29385a633252b KVM: arm64: Shave a few bytes from the EL2 idmap code
-c6c167afa090ea0451f91814e1318755a8fb8bb9 KVM: arm64: Fix shift-out-of-bounds bug
-5978d4ec7e82ffc472ac2645601dd10b09e61b0f KVM: arm64: vgic: Don't check for vgic_ready() when setting NR_IRQS
-78a00555550042ed77b33ace7423aced228b3b4e KVM: arm64: Ensure vgic_ready() is ordered against MMIO registration
-d6a77668a708f0b5ca6713b39c178c9d9563c35b netfs: Downgrade i_rwsem for a buffered write
-229fd15908fe1f99b1de4cde3326e62d1e892611 fs: don't try and remove empty rbtree node
-15f34347481648a567db67fb473c23befb796af5 fs: Fix uninitialized value issue in from_kuid and from_kgid
-610a79ffea02102899a1373fe226d949944a7ed6 afs: Fix lock recursion
-197231da7f6a2e9884f84a4a463f53f9f491d920 proc: Fix W=1 build kernel-doc warning
-88a387cf9e5f7f7665e6dde8c6610f0ea65c5a6b KVM: Remove unused kvm_vcpu_gfn_to_pfn
-bc07eea2f3b330127242df2e0ec2d6cd16b4f2e8 KVM: Remove unused kvm_vcpu_gfn_to_pfn_atomic
-8e690b817e38769dc2fa0e7473e5a5dc1fc25795 x86/kvm: Override default caching mode for SEV-SNP and TDX
-58a20a9435aaf696d4ae778a5c727be55ff8544d KVM: x86/mmu: Zap only SPs that shadow gPTEs when deleting memslot
-28cf4978810791bf30288e59f1b9dc31eeeb68e6 KVM: x86/mmu: Add lockdep assert to enforce safe usage of kvm_unmap_gfn_range()
-5a279842441b68727d53b6333d0c3af90dd5a2f8 KVM: x86: Clean up documentation for KVM_X86_QUIRK_SLOT_ZAP_ALL
-731285fbb6f5bea357d79059db865f351626e689 KVM: VMX: reset the segment cache after segment init in vmx_vcpu_reset()
-f559b2e9c5c5308850544ab59396b7d53cfc67bd KVM: nSVM: Ignore nCR3[4:0] when loading PDPTEs from memory
-9a400068a1586bc4f10ee8b0443527de27d8834c KVM: selftests: x86: Avoid using SSE/AVX instructions
-773cca183440e74690dbb4f3f54bc7748f255821 KVM: selftests: Fix out-of-bounds reads in CPUID test's array lookups
-3ec4350d4efb5ccb6bd0e11d9cf7f2be4f47297d RISCV: KVM: use raw_spinlock for critical section in imsic
-ddd5c5820116a04b5f95711518d3be922990b5ec Merge tag 'kvmarm-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-e9001a382fa2c256229adc68d55212028b01d515 Merge tag 'kvmarm-fixes-6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-373b9338c9722a368925d83bc622c596896b328e uprobe: avoid out-of-bounds memory access of fetching args
-bc88d44bd7e45b992cf8c2c2ffbc7bb3e24db4a7 irqchip/gic-v3-its: Fix over allocation in itt_alloc_pool()
-cdccaab0631812e911553ff56683e9005cd3a51e x86/platform: Switch back to struct platform_driver::remove()
-a777c32ca42b9a8a5e5abd915883a73620d9044b Merge tag 'v6.12-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-7166c32651fa2a5712215980d1b54d4b9ccca6b5 Merge tag 'vfs-6.12-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-c1bc09d7bfcbe90c6df3a630ec1fb0fcd4799236 Merge tag 'probes-fixes-v6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-d129377639907fce7e0a27990e590e4661d3ee02 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-3267cb6d3a174ff83d6287dcd5b0047bbd912452 x86/lam: Disable ADDRESS_MASKING in most cases
-a360f311f57a36e96d88fa8086b749159714dcd2 9p: fix slab cache name creation for real
-c2ee9f594da826bea183ed14f2cc029c719bf4da KVM: selftests: Fix build on on non-x86 architectures
-c7112114fd821f62701c0405b472fbc71c664bb2 Merge branch into tip/master: 'x86/urgent'
-d712711735801fe6d7afec1e63b178363b48d1ad Merge branch into tip/master: 'irq/core'
-456b9f17d94547d10b16f088259806133d352048 Merge branch into tip/master: 'x86/cleanups'
-d857519bd5586311432b4411b70489e8c12e2ab2 Merge branch 'linus'
+50ba358a4711ba19e66fa7b9ab41d7f3cd82d209 Merge branch into tip/master: 'core/merge'
+2f88234e1e70de34410f9a275bd6d6177a68219f Merge branch into tip/master: 'x86/urgent'
+a843700601d5406d1e89836208cf12231d4c9b29 Merge branch into tip/master: 'core/debugobjects'
+4681cac9d83fd26155e8e85fb0722342997876d3 Merge branch into tip/master: 'irq/core'
+5eacbb3ce961a41e03407810464b2f9d83fb2577 Merge branch into tip/master: 'locking/core'
+1025c121a2406904e6bf4c769e93a7995cb8e6e7 Merge branch into tip/master: 'sched/core'
+c959cb714bf3ddbc74400b7e7e9a583c24d61709 Merge branch into tip/master: 'timers/core'
+28c17a762889fa84d4e275bfd25c18d6838e7deb Merge branch into tip/master: 'timers/vdso'
+cf0c223a2e41167012e1ae2254708ce44aadb828 Merge branch into tip/master: 'x86/cache'
+dd95e86666952a5725942b2bc3dae62c24cb4e5b Merge branch into tip/master: 'x86/cleanups'
+828057dc97c98560487a820a275b5f50837534b9 Merge branch into tip/master: 'x86/cpu'
+b0eaa72ac8dd5cfbf824de11a660ea4bd65683af Merge branch into tip/master: 'x86/misc'
+7d830abdd8a950f1ff93db3efac28571174407b3 Merge branch into tip/master: 'x86/sev'
 
---===============0219604545847054799==--
+--===============3723373170575872666==--
