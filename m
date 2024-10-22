@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 22 Oct 2024 03:09:15 -0000
-Message-Id: <172956655575.1465005.13887770263015928611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 22 Oct 2024 03:28:55 -0000
+Message-Id: <172956773506.1480007.13042044923168456055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 5564215fd413f2c00b79628a3c68ba74eeeae714
-    new: 1aab08082c32a9d618f5dbb2eca0d6ac112e75a4
+  - ref: refs/heads/dev
+    old: 6f7c83844aaf59ef41dce3a16a6f41240e5443ee
+    new: 4433b7d3785d8d2a700f5ed5ca234c64bc63180e
     log: |
-         1aab08082c32a9d618f5dbb2eca0d6ac112e75a4 Merge branch 'bpf-next/master' into for-next
+         4433b7d3785d8d2a700f5ed5ca234c64bc63180e srcu: Guarantee non-negative return value from srcu_read_lock()
          
+  - ref: refs/heads/dev.2024.10.18a
+    old: 0000000000000000000000000000000000000000
+    new: 700b467da6b274feac4aeaaea9368db353db1083
