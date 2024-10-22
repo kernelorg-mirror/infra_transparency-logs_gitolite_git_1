@@ -1,26 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 22 Oct 2024 09:16:09 -0000
-Message-Id: <172958856931.1750173.5997512161252256115@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3955806460327348914=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Tue, 22 Oct 2024 09:21:12 -0000
+Message-Id: <172958887247.1754401.4271707359660695552@gitolite.kernel.org>
+
+--===============3955806460327348914==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v6.12-next/dts64
-    old: d279c73576a7ce87f2f7ba510311c3c53ded11ea
-    new: 713a20e598f8f8fb6660b6c38eb5071aa3fc85c6
+  - ref: refs/heads/master
+    old: a73e7ce5b8b755a2b2c6c47bc556d67917acfab9
+    new: 59f1fe166f1141a016f068bacc224d9cc848afb2
     log: |
-         b666eb393d757090d5bfca86cda3126a93614ccb arm64: dts: mediatek: mt8188: Add ethernet node
-         155f9e32409ac7306ec888844f4b81d2c1625340 arm64: dts: mediatek: mt8390-genio-700-evk: Enable ethernet
-         26ea2459d1724406bf0b342df6b4b1f002d7f8e3 arm64: dts: mediatek: mt8186-corsola-voltorb: Merge speaker codec nodes
-         f766fae08f6a2eaeb45d8d2c053724c91526835c arm64: dts: mediatek: mt8173-elm-hana: Add vdd-supply to second source trackpad
-         6bb64877a41561bc78e0f4e9e04d524a0155d6aa arm64: dts: mediatek: mt8188: Fix USB3 PHY port default status
-         7d5794e6d964940e46286fadbe69a3245fa51e44 arm64: dts: mediatek: mt8195-cherry: Use correct audio codec DAI
-         2f1aab0cb0661d533f008e4975325080351cdfc8 arm64: dts: mediatek: mt8186-corsola: Fix GPU supply coupling max-spread
-         713a20e598f8f8fb6660b6c38eb5071aa3fc85c6 dt-bindings: arm: mediatek: mmsys: Add OF graph support for board path
+         bb1e4b7dce602c03fd3729e82db07a651e859de6 usbreset: replace some unbounded strcpy() calls
+         59f1fe166f1141a016f068bacc224d9cc848afb2 sysfs.c: fix an theoretical issue with snprintf()
          
+
+--===============3955806460327348914==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729588893 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1729588868-b90d0331f13af5576b02113ab246244bfa53b57e
+
+a73e7ce5b8b755a2b2c6c47bc556d67917acfab9 59f1fe166f1141a016f068bacc224d9cc848afb2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcXbp0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TK0QAMb8zs0QsmumwyKL9Ued
+xVhDq8goUuSEXmxASrmoN89+CsLQES9Fnhvy2HdzVYghp+gA3JLd6cuf+y6HtP56
+gzlZB5I9ng2148HVUjjRgMtTDAVYUGROIj1PBH6gehV7ybj/L168ciHSzyKTYQF1
+SJg/tgpgUsvI/7HpMOBthNA5KypaONYC/cHGCW1OKKFIps8UMtwLH6AdRn/yH8Ed
+WtJqRc74Ngc35gZQEbdI9Ja0CNu2TeyZ66pa2kh/z1IEnUHgYgbvS0oxhaAK0j5v
+HfW9pf4LcpWRbj+FYKgAlAjm7YOkNETXCo+loUiQK+l7dUPjS02NvIlZBlS/N+LW
+4FyfgTiLCD+QE204z4RneLVA9bu97qUte88o3ghbxjQgfwCmaYQBcby7K5smF2Kp
+gBZwqJfQA1q37DXuvF2M8KvzBnZPCWhq+6bp79UktDpCsLMZ3QGAhRo/NNnkw2YF
+JBNm12NnfkRCgTqaSoh9Rcfjhi0fUCEeFvqcg/4nvxRgEC8ecTPdYo12KKsPKDaJ
+Bs4eHhFZj3NPfGMT8QPbCUN1q1doGc5PCuVqLEizKq6ys8HD/rfK2eWPfXoxMVGQ
+7JqzV7qSNdEk1f6nXX4Sjf2ED97/T9zvMV2EW0wC0mIWeEwv491Dyabm1ucsKqIn
+OmMNkUhWcRuk1+Re9xfnZq2X
+=W35f
+-----END PGP SIGNATURE-----
+
+--===============3955806460327348914==--
