@@ -1,66 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6072528838638632211=="
+Content-Type: multipart/mixed; boundary="===============4094379414084355958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
-Date: Tue, 22 Oct 2024 09:02:35 -0000
-Message-Id: <172958775595.1738250.6270956928027362902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 22 Oct 2024 09:06:18 -0000
+Message-Id: <172958797895.1742001.1339713429240714260@gitolite.kernel.org>
 
---===============6072528838638632211==
+--===============4094379414084355958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usbutils
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 140ba952fa0441761498683f4ebcdb21480ef83b
-    new: a73e7ce5b8b755a2b2c6c47bc556d67917acfab9
-    log: |
-         9f96a67c0f8f9cc383c6d77a4b2167677df1b06e lsusb: add VideoControl Endpoint Descriptor
-         33b083c9f7e38057367f00ded44683c32b318d0a Merge pull request #205 from tsundre/add-videocontrol-endpoint-descr
-         595d3785fa392474820fe5def23011779a96333d clang-format: bump column limit to 120
-         5827abb784cb1c8c682efb24bd3dfdf7c06dc853 ci: directly use archlinux:multilib-devel
-         da218a4b4ea1fbd697616326027fb8e15883f6c6 ci: drop the mkdir && cd dance
-         d4b78d735fb7952e1503b07b1577e4b0187eab76 ci: add clang permutation, for 64bit only
-         f41d657dd61434edc54156075818ef2f6d15e264 lsusb: reformat and add trailing commas for multi-line arrays
-         425f92c00958a1824ff390d02bd28b26cb02ef97 usb-spec: move the opening curly brackets to end of line
-         52f333ae042cbd88276f197fe1f7d7f53db76430 ci: add codespell action, fix all typos
-         7f9c48a6fcc326ac3aaabd449480fdd94a9fb369 Merge pull request #206 from evelikov/moar-ci
-         a73e7ce5b8b755a2b2c6c47bc556d67917acfab9 usbutils.spdx: update due to new file and checksums
-         
+  - ref: refs/heads/main
+    old: 6f07cd8301706b661776074ddc97c991d107cc91
+    new: d89fa27395839ef81b98ff17497f2c2a5f16cca3
+    log: revlist-6f07cd830170-d89fa2739583.txt
 
---===============6072528838638632211==
+--===============4094379414084355958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6f07cd830170-d89fa2739583.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729587780 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
-nonce 1729587754-dfe808db05bc65be42e2cb3717cff9f3e9324dbb
+fa8ef258da2b05a673eb8dc0160a514c80b6ab8c rtnetlink: Allocate linkinfo[] as struct rtnl_newlink_tbs.
+a5838cf9b2ee59f2a55b1e486f2250a18a43ee14 rtnetlink: Call validate_linkmsg() in do_setlink().
+cc47bcdf0d2ea6a2f7b10566d9b6776bf61b2d4b rtnetlink: Factorise do_setlink() path from __rtnl_newlink().
+7fea1a8cb4dfab059547f801ebbe7e79c60bd75a rtnetlink: Move simple validation from __rtnl_newlink() to rtnl_newlink().
+331fe31c50ef5ec1d9161986fd06b934f94176a3 rtnetlink: Move rtnl_link_ops_get() and retry to rtnl_newlink().
+0d3008d1a9aefb89e09e8dd39134512d678e3461 rtnetlink: Move ops->validate to rtnl_newlink().
+43c7ce69d28e185f62fe2b8be2c681c5cac0bc6b rtnetlink: Protect struct rtnl_link_ops with SRCU.
+0fef2a1212f1ff68fc3834abd41928b4353f8af6 rtnetlink: Call rtnl_link_get_net_capable() in rtnl_newlink().
+f7774eec20b41fae36a58e8ab04ff4dd48bb1845 rtnetlink: Fetch IFLA_LINK_NETNSID in rtnl_newlink().
+175cfc5cd373b6665ec145cafe742252453a7c0e rtnetlink: Clean up rtnl_dellink().
+6e495fad88ef7bdea70b0e4a1a714f6eccab2a5a rtnetlink: Clean up rtnl_setlink().
+a0b63c6457e100b84b1ff9179bc328c0924de75c rtnetlink: Call rtnl_link_get_net_capable() in do_setlink().
+26eebdc4b005ccd4cf63f4fef4c9c0adf9bfa380 rtnetlink: Return int from rtnl_af_register().
+6ab0f866948323724e95cf14d9e47fd77703c192 rtnetlink: Protect struct rtnl_af_ops with SRCU.
+d89fa27395839ef81b98ff17497f2c2a5f16cca3 Merge branch 'rtnetlink-refactor-rtnl_-new-del-set-link-for-per-netns-rtnl'
 
-140ba952fa0441761498683f4ebcdb21480ef83b a73e7ce5b8b755a2b2c6c47bc556d67917acfab9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcXakQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CeMP/28iyfER0fFZ6d19PnE5
-vvjAV2Rt0kvL6jTX7oGdEUyn51VCM1xFmofLL+8HhrpSapi0e6QN1cR/QxWoloiX
-kWkksCRpWzEx6dMiVzi07Gxt19NJmy4+/ktocWt4J/cJAy/DgZOLR9R5d/2E9GhG
-KQfYkdtNwYd2aszYzwM/SsMtgrLvhM+z8D9xoFNoVFzEjyuQjJc3hK9RtD8dstRs
-SbUwqJzhulEFS5Ob2gU8EAVILrKqMMaSfz94CeiVsM0n0X9TVIq8ujPobtUJyiyO
-wLZRrI1ZBBZuOsaDgjmL9DTIFN4jffYhgVxc/Ppt9K56mAa9mvq/8Fbq/c0E3LTR
-OXR2cK02pWiPiKR3QRQw5wbyfxRzl8sR9QQMLnhREJQxvRBHETo5fld3QAW76jSa
-f6ZaguacgDlbwxcCKXfiU6PoSI2doRNGcaJ2gB7jo4IkkmXJvyMSv4GdJKMwJKD3
-msoZ8vVV5UxYFHiQqOmVrMnQX5wuBzZvAOjFg6j/kD8NYrNQu5iGKSM9Z+2NgWhn
-LoDIQ3c3eGMO4aleQJlDS45Rps9zDuxnVxDAn6MdQB2nvcKCSlyKRIq2o446uT0j
-u/0x8qPqnzvPbB5GSBvTms5VOf8Fk9IlhNdnxcw9SCrrpjZSrgHlgCoePeXgfi5Z
-g6+YblcCUgpwHDkqZ5hsvz0P
-=a37k
------END PGP SIGNATURE-----
-
---===============6072528838638632211==--
+--===============4094379414084355958==--
