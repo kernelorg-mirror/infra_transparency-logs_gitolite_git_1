@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 22 Oct 2024 03:43:16 -0000
-Message-Id: <172956859623.1491288.5880255732877124988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Oct 2024 03:49:38 -0000
+Message-Id: <172956897887.1496449.899991128459171263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: f3cc5c965a2e0b65049b078e6a1ba051d13e961c
-    new: ccc70f5478708c0c1cba29388acf7a563e7141a2
+  - ref: refs/heads/for-6.13/block
+    old: 96b85f2e2ed895969a96ba066c47fbdfb0982a7a
+    new: c97f91b1807a7966077b69b24f28c2dbcde664e9
     log: |
-         ccc70f5478708c0c1cba29388acf7a563e7141a2 foo
+         c97f91b1807a7966077b69b24f28c2dbcde664e9 block: flush all throttled bios when deleting the cgroup
+         
+  - ref: refs/heads/for-next
+    old: df3f94f32f5603f4372ca02de15353feb2c10264
+    new: 17d381a3b1264704c767007148a26071a3a6319f
+    log: |
+         c97f91b1807a7966077b69b24f28c2dbcde664e9 block: flush all throttled bios when deleting the cgroup
+         17d381a3b1264704c767007148a26071a3a6319f Merge branch 'for-6.13/block' into for-next
          
