@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4906381772893520460=="
+Content-Type: multipart/mixed; boundary="===============2420075973018671832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 22 Oct 2024 15:21:43 -0000
-Message-Id: <172961050366.2385925.156957811722010521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 22 Oct 2024 15:22:16 -0000
+Message-Id: <172961053660.2386363.8520011673220436319@gitolite.kernel.org>
 
---===============4906381772893520460==
+--===============2420075973018671832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
-    old: ca0192b0a1c0fe11323a89cf2dc717e06746e879
+    old: ff14baa7a290bf42e08ee0beebb6be11cc6c2670
     new: 0f709a2d7be10476f5884eaebb35890535019495
-    log: revlist-ca0192b0a1c0-0f709a2d7be1.txt
+    log: revlist-ff14baa7a290-0f709a2d7be1.txt
 
---===============4906381772893520460==
+--===============2420075973018671832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca0192b0a1c0-0f709a2d7be1.txt
+Content-Disposition: attachment; filename=revlist-ff14baa7a290-0f709a2d7be1.txt
 
 37578c682cf47bafe29fef29d177b1f38b021db9 nfs: Remove duplicated include in localio.c
 1d498df44e709d9708c0bf666012933bbc7ef1d6 sunrpc: fix prog selection loop in svc_process_common
@@ -239,4 +239,4 @@ ab8aaab874c4aa378e76d0a55ce6e0fad6e042a2 tools headers UAPI: Sync linux/const.h 
 2c881b3121171b8e92f3356ba5a6771a0f3c0886 perf trace augmented_raw_syscalls: Add more checks to pass the verifier
 0f709a2d7be10476f5884eaebb35890535019495 perf trace arm32: Fix iteration of syscall ids in syscalltbl->entries
 
---===============4906381772893520460==--
+--===============2420075973018671832==--
