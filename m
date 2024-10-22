@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 22 Oct 2024 14:37:43 -0000
-Message-Id: <172960786301.2347863.16792054997114033233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
+Date: Tue, 22 Oct 2024 14:38:23 -0000
+Message-Id: <172960790371.2348197.15766302365633794670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/sashal/next-analysis
+user: sashal
 changes:
-  - ref: refs/heads/main-pending
-    old: b22c14547951792c3a849c1e2a95965d657eed48
-    new: ad168d28d0dfaa7ba9651f4aa2517ec3dc59a600
-    log: |
-         ad168d28d0dfaa7ba9651f4aa2517ec3dc59a600 Merge branch 'pending' into main-pending
-         
-  - ref: refs/heads/pending
-    old: 82a28629b8c64b2000be649c1ebd242054d839e9
-    new: e582a529cce18408e2eba37cfe75ac0600a9a6da
-  - ref: refs/tags/ath-pending-202410221423
+  - ref: refs/heads/master
     old: 0000000000000000000000000000000000000000
-    new: ad168d28d0dfaa7ba9651f4aa2517ec3dc59a600
+    new: cadaf76e6f42a1697785ea53e4cced16161deda4
