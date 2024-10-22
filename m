@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 22 Oct 2024 13:12:26 -0000
-Message-Id: <172960274618.1991108.9056840094838836263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 22 Oct 2024 13:17:23 -0000
+Message-Id: <172960304398.1995250.4193951934236322304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/tmp.master
-    old: 2eca93b8ba948b1780fd338d5a9227917de78cb5
-    new: b5a4b149eb7b611af6db42eb5354c60997431990
+  - ref: refs/heads/master
+    old: d129377639907fce7e0a27990e590e4661d3ee02
+    new: c2ee9f594da826bea183ed14f2cc029c719bf4da
     log: |
-         de5074fc86657c42854770e427830625598022de tests: Exclude rust CUs when encoding BTF
-         b5a4b149eb7b611af6db42eb5354c60997431990 dwarf_loader: Print the CU's language when a tag isn't supported
+         a360f311f57a36e96d88fa8086b749159714dcd2 9p: fix slab cache name creation for real
+         c2ee9f594da826bea183ed14f2cc029c719bf4da KVM: selftests: Fix build on on non-x86 architectures
          
