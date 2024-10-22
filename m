@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6425111575103301393=="
+Content-Type: multipart/mixed; boundary="===============8319174946358904550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 22 Oct 2024 18:40:35 -0000
-Message-Id: <172962243575.2545293.17206245807619914353@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 18:40:40 -0000
+Message-Id: <172962244075.2545519.3786034520789224124@gitolite.kernel.org>
 
---===============6425111575103301393==
+--===============8319174946358904550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.master
     old: f6d5ba8589204043f527156d7842d5bda6867567
     new: 3848868b73458baa64d29f4e9c124afb51ab94b6
     log: revlist-f6d5ba858920-3848868b7345.txt
 
---===============6425111575103301393==
+--===============8319174946358904550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ aa3197470d5c53625b7bd497c34f5356296b59f0 dwarf_loader: Print the CU's language w
 7905b878f77955b9c4a8d2c86440d3b621098331 pfunct: Use languages__init() to honour PAHOLE_LANG_EXCLUDE
 3848868b73458baa64d29f4e9c124afb51ab94b6 tests: Use PAHOLE_LANG_EXCLUDE=rust to skip Rust CUs
 
---===============6425111575103301393==--
+--===============8319174946358904550==--
