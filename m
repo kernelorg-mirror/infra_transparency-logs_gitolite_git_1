@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
-Date: Tue, 22 Oct 2024 17:16:47 -0000
-Message-Id: <172961740762.2479096.11646817292750792260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 22 Oct 2024 17:18:09 -0000
+Message-Id: <172961748947.2479799.11079674677175096227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/next-analysis
-user: sashal
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: cadaf76e6f42a1697785ea53e4cced16161deda4
-    new: db11adc1df1eb52d88f5323de4388a316b2564e6
+    old: 5ebbde938099aaf931878ebbed3c48fc85c6f248
+    new: 823849a05aa611cbf82fce1587c97129c4e20a2c
     log: |
-         db11adc1df1eb52d88f5323de4388a316b2564e6 Add a license
+         823849a05aa611cbf82fce1587c97129c4e20a2c tools/depmod: use separate arrays for alias,xxxdep values
          
