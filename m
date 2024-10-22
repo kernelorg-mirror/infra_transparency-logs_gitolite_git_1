@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Oct 2024 10:57:37 -0000
-Message-Id: <172959465789.1831067.13754207825621965563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 22 Oct 2024 10:58:08 -0000
+Message-Id: <172959468833.1831359.1140611154455069022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: d89fa27395839ef81b98ff17497f2c2a5f16cca3
-    new: d10f1a4e44c3bf874701f86f8cc43490e1956acf
-    log: |
-         d10f1a4e44c3bf874701f86f8cc43490e1956acf net: stmmac: Programming sequence for VLAN packets with split header
-         
+  - ref: refs/heads/v2.2.x
+    old: 0000000000000000000000000000000000000000
+    new: daed8f8a498bd928cc63ceab83e9c4be0a1628f6
