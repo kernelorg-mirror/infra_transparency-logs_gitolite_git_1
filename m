@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3088546711318762818=="
+Content-Type: multipart/mixed; boundary="===============2522666354242186978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 22 Oct 2024 18:58:06 -0000
-Message-Id: <172962348600.2559868.7253634788430423091@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 18:58:08 -0000
+Message-Id: <172962348831.2559964.2249791617873660580@gitolite.kernel.org>
 
---===============3088546711318762818==
+--===============2522666354242186978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 6f07cd8301706b661776074ddc97c991d107cc91
     new: d811ac148f0afd2f3f7e1cd7f54de8da973ec5e3
     log: revlist-6f07cd830170-d811ac148f0a.txt
 
---===============3088546711318762818==
+--===============2522666354242186978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ b8dee8ed13b83b701b715dac993582d57c76e31a net: netconsole: track explicitly if ms
 06acd45e244dcc8191bc8df0983e29b284af1365 Merge branch 'net-netconsole-refactoring-and-warning-fix'
 d811ac148f0afd2f3f7e1cd7f54de8da973ec5e3 virtchnl: fix m68k build.
 
---===============3088546711318762818==--
+--===============2522666354242186978==--
