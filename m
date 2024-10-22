@@ -1,67 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============7521031079345293579=="
+Content-Type: multipart/mixed; boundary="===============7699047560474193960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Tue, 22 Oct 2024 19:06:07 -0000
-Message-Id: <172962396760.2569006.5865494636772760925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 22 Oct 2024 19:10:22 -0000
+Message-Id: <172962422266.2573461.3813689141836976998@gitolite.kernel.org>
 
---===============7521031079345293579==
+--===============7699047560474193960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linus-next
-    old: 3ad59b8d10eadbd9f5866d4b3e5b5d691e44a102
-    new: 764a5732f1b41f61fd26e9a43bb40bf79aae6c0b
-    log: revlist-3ad59b8d10ea-764a5732f1b4.txt
-  - ref: refs/heads/master
-    old: d129377639907fce7e0a27990e590e4661d3ee02
-    new: c2ee9f594da826bea183ed14f2cc029c719bf4da
+  - ref: refs/heads/clk-next
+    old: 94be1620fb60ea542170779915917443cda9bba7
+    new: 019caf7b5cc70abaa33d423a19c845c74848f55e
     log: |
-         a360f311f57a36e96d88fa8086b749159714dcd2 9p: fix slab cache name creation for real
-         c2ee9f594da826bea183ed14f2cc029c719bf4da KVM: selftests: Fix build on on non-x86 architectures
+         29cb4974a79bd8e380f2044811698aa2f4fc4e6d clk: renesas: Remove duplicate and trailing empty lines
+         8cce33aed0b6383e91bb9d26dae11b1293101381 clk: renesas: r9a09g057: Add CA55 core clocks
+         44d13e198cbf031fdb8cb20b6bbbe82adcb951ca clk: renesas: r9a09g057: Add clock and reset entries for ICU
+         92850bed9d4d334ee502a035ed5750285faccbea clk: renesas: r8a779h0: Drop CLK_PLL2_DIV2 to clarify ZCn clocks
+         31ba299387f32b6994c7a87a79ceef83d411c0ab Merge tag 'renesas-clk-for-v6.13-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
+         a2f0990618ed098fcb8c38e0626afa8a3f57dd37 Merge branch 'clk-renesas' into clk-next
+         beec58479cfb33c090572e0237ce9d670a7ce410 dt-bindings: clock: ti: Convert interface.txt to json-schema
+         0fcd58492f066ad0b0d2a82ce0e3466dd3d1f981 dt-bindings: clock: ti: Convert divider.txt to json-schema
+         019caf7b5cc70abaa33d423a19c845c74848f55e Merge branch 'clk-bindings' into clk-next
          
+  - ref: refs/heads/clk-bindings
+    old: 0000000000000000000000000000000000000000
+    new: 0fcd58492f066ad0b0d2a82ce0e3466dd3d1f981
+  - ref: refs/heads/clk-renesas
+    old: 0000000000000000000000000000000000000000
+    new: 31ba299387f32b6994c7a87a79ceef83d411c0ab
 
---===============7521031079345293579==
+--===============7699047560474193960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ad59b8d10ea-764a5732f1b4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-74ec2f302402c4cfd172f7254ae0e5b851e31b0a bcachefs: fix restart handling in bch2_rename2()
-94bdeec8f5303a8e445c9a7b9b2b2d69a29d7f38 bcachefs: fix bch2_hash_delete() error path
-e1c4d2f0826d6815a268f42395b61962a05d3c51 bcachefs: fix restart handling in bch2_fiemap()
-028f3c1d9b3cddfbe327a3e6f09c3229aefc366c bcachefs: fix missing restart handling in bch2_read_retry_nodecode()
-7ee4be9c621e4cd6a87d134a46d7c56debdf6664 bcachefs: fix restart handling in bch2_do_invalidates_work()
-d8b50597748d6d960c936c89b972516c5e39ee96 bcachefs: fix restart handling in bch2_alloc_write_key()
-29fd10a36a6326aba134cc0ea9def8d4601279d0 bcachefs: fix restart handling in __bch2_resume_logged_op_finsert()
-6bee2a04c5473d6d463c64e9a1f77c875b83401d bcachefs: handle restarts in bch2_bucket_io_time_reset()
-a0d11feefb1998204f095fa0400024403d233108 bcachefs: Don't use commit_do() unnecessarily
-4007bbb203a0c36e66bb2e785e1b2cb7266179d5 bcachefS: ec: fix data type on stripe deletion
-81e0b6c7c1f75c914dede330121391f57f216a6e bcachefs: fix disk reservation accounting in bch2_folio_reservation_get()
-335d318ef5329e0b500e0f3394bbe0a14cd7f99b bcachefs: bch2_folio_reservation_get_partial() is now better behaved
-97535cd84f189248ea0fe14544628d480908e99b bcachefs: Fix data corruption on -ENOSPC in buffered write path
-07cf8bac2d3efa8d3fb62cd4d98c00087efd7fe8 bcachefs: fix incorrect show_options results
-489ecc4cfddada303bd9c2b287a3c8744c324ed3 bcachefs: skip mount option handle for empty string.
-b96f8cd3870a140524fb8cec58790a4be04f41d9 bcachefs: Run in-kernel offline fsck without ratelimit errors
-78cf0ae636a55e0bef99308d305d4e1f8a6c4147 bcachefs: INODE_STR_HASH() for bch_inode_unpacked
-d8e879377ffb37ba0d3afa0c92bd3b88b849a0a9 bcachefs: Add hash seed, type to inode_to_text()
-15a3836c8ed7bf102159e70ed380b8158651df8e bcachefs: Repair mismatches in inode hash seed, type
-dc96656b20eb6f7dea0ccd220541b4af49cf5789 bcachefs: bch2_hash_set_or_get_in_snapshot()
-bc6d2d10418e1bfdb95b16f5dd4cca42d5dec766 bcachefs: fsck: Improve hash_check_key()
-eb5db64c4570948e6ee0b0f53d658e136e06cd04 bcachefs: Fix __bch2_fsck_err() warning
-3956ff8bc2f39a7e77d7a6da8d95c7ffc4928d64 bcachefs: Don't use wait_event_interruptible() in recovery
-f0d3302073e60b55318c941cd10b225a3cde9d32 bcachefs: Workaround for kvmalloc() not supporting > INT_MAX allocations
-e04ee8608914d00812e4a10288cf8d8905ced849 bcachefs: Mark more errors as AUTOFIX
-a069f014797fdef8757f3adebc1c16416271a599 bcachefs: Set bch_inode_unpacked.bi_snapshot in old inode path
-a360f311f57a36e96d88fa8086b749159714dcd2 9p: fix slab cache name creation for real
-c2ee9f594da826bea183ed14f2cc029c719bf4da KVM: selftests: Fix build on on non-x86 architectures
-e4b9fa34d1341ed96607a49f114c0265ec128701 Merge remote-tracking branch 'origin/master' into linus-next
-764a5732f1b41f61fd26e9a43bb40bf79aae6c0b Merge tag 'bcachefs-2024-10-22' of https://github.com/koverstreet/bcachefs into linus-next
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1729624246 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1729624220-73a390a54c4bb22b76e0ac20d91112ebf4cdf965
 
---===============7521031079345293579==--
+94be1620fb60ea542170779915917443cda9bba7 019caf7b5cc70abaa33d423a19c845c74848f55e refs/heads/clk-next
+0000000000000000000000000000000000000000 0fcd58492f066ad0b0d2a82ce0e3466dd3d1f981 refs/heads/clk-bindings
+0000000000000000000000000000000000000000 31ba299387f32b6994c7a87a79ceef83d411c0ab refs/heads/clk-renesas
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmcX+LYRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSUiFw/8DL3LAWvEndvZ76g+a/AmQ76ls6ub3fey
+R8Pc3Ed5rY+JrA0HrPW1+6jB8X0AYz1CJg176vBsstQYmO3kUPDNOtq/Cdz2r8WS
+FNd4pHQFDjPxdP4oaPuDw7538ra8M6I4OU0qt9RDJiRni3ANs0NsebJbfdfrTguL
+oE1YZ0TgkJquC+/v7VcItZt2szA1FuGEFJn4x/lZSaJXfD/wVGPSBdYl0mIEYfxC
+HNrxBlffyTt0zLi/0W6hjMNUb/X4d7KOdIs1fM6+xFXRLAH3hxNWw0Eu3Py66fIX
+9wgapKrGAN5xaOqpPSWHNdpWcHiTH+ea62kU0kJn51DDBa3eX0Wjn5fCJrFdQdGc
+0CKcEY9sHKJoitbs5WXIwmOsbxvpkI2S1ddR7C2F0fECCtW98V2KUCYUMdVx7iK9
+v7XZk86NEI9eQE39EqGSR5dB+GLHPkf02OoTUQkhUw1JYSWXv1m/e4z1pOj7iTzM
+ezC7dd+dkVxjLga7wBfWzVqAU9eYLYp6k+F9gMjzUJ1yM/ZOxq6FiCIzBA8dPahG
+4dS+D6YU6LP4p3K69/XLEXyVvdsMPyZckFl+u5ERcTd9D1BuaPSxTduinKnJHOWU
+KdUPqB5fcNq7m7mOkYOuAXou0UvkP0h15WCK7nUoTg7UbucPxK2OzafMjb7wjwzz
+cEy+Npb+hgw=
+=wCWJ
+-----END PGP SIGNATURE-----
+
+--===============7699047560474193960==--
