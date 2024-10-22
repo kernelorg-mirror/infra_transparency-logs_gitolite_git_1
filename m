@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Oct 2024 13:46:44 -0000
-Message-Id: <172960480418.2113779.11697323267013871527@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6211063936531762336=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 22 Oct 2024 13:48:24 -0000
+Message-Id: <172960490422.2114584.16552346401901091894@gitolite.kernel.org>
+
+--===============6211063936531762336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 867d13a75488d5c20256e93186d9cb6361fb75a4
-    new: 06acd45e244dcc8191bc8df0983e29b284af1365
+  - ref: refs/heads/master
+    old: b471e3a1fe9c8b2be2c1572bcfa392f39b69b967
+    new: 50c67997a3c0c4aea5491fa68dd14b39f82ebf90
     log: |
-         ab49de0f7a08c442ebdc097f6701e8bc4db6b432 net: netconsole: remove msg_ready variable
-         e7650d8d475c4706a1841fbaab652e1fc8a7313c net: netconsole: split send_ext_msg_udp() function
-         e1e1ea2e78e8a7f326866b136b820d3ba73a8ba2 net: netconsole: separate fragmented message handling in send_ext_msg
-         e1fa5d23b2c02f265f3111f4aa0a6b6b47da80a0 net: netconsole: rename body to msg_body
-         606994ad2695ca3ffcab3494d7782c45d964c6f7 net: netconsole: introduce variable to track body length
-         b8dee8ed13b83b701b715dac993582d57c76e31a net: netconsole: track explicitly if msgbody was written to buffer
-         684dce1f9984f749f109407fb24e4d435b6de829 net: netconsole: extract release appending into separate function
-         144d57360f5e9af7a836dcc33d12560de90a7d9d net: netconsole: do not pass userdata up to the tail
-         60be416c6380c2098126b126ef918237b40815f7 net: netconsole: split send_msg_fragmented
-         06acd45e244dcc8191bc8df0983e29b284af1365 Merge branch 'net-netconsole-refactoring-and-warning-fix'
+         50c67997a3c0c4aea5491fa68dd14b39f82ebf90 Linux 6.6.58
          
+
+--===============6211063936531762336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729604928 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1729604901-bbd829bcc5e9d47c407ea1bc453933da1515e4be
+
+b471e3a1fe9c8b2be2c1572bcfa392f39b69b967 50c67997a3c0c4aea5491fa68dd14b39f82ebf90 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcXrUAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ltEQAKuRBe/GUHKDv1Mi5uP9
+ec5j05U8o7X2bp6J3giFTvGXk+s3VRU96j3IR4Rzoewii0iUUbv2fHnX1qLYhBek
+VnjvkQUAVe1HHf41UnJna7NQOChFAglbxG2SE7QOUBTRgPsmi2RnYdHARqg7nUYs
+rgSPF4Ea/ituyxOAR5YByvdp8cJTjVidUEcTz8f3k5qBtFMzKE/MZsmiXSlSDJQA
+HCY4FDZQ+ICalXYKtMRp4o/iKUlxJu+EhP6rVbCkv4RLwDyFyDV1nwubyS8O+FOP
+bd0ekyQ9fACcwUPKvaAHmCb6s5TkNzmJXf6aa8jFAg/wpo8+RZYT/lIagSP2GB+z
+L1BgtAbtjDeBjiJQQmnxp1/xXqtFcwE5rcd5wxykzCCBK3vzfjqOwurtzuUaxBdz
+aQSxGIXN4nP//sne+wOE6koLDQWG4QO8dacV6ymeAd1nsj/BlNG8rzgzCLk6KIWk
+mmB0uAVxojHdR5nEFDB22GntVCdJ7P2iYJG1EAMiR+4OM1QqYjDLePF2R+NUuHeG
+yUOAHe+X8rd7+oFD4k+o7KfzPOQ16Tfcqbu1kjuQAU9pVBtaHQjFbYocggcgqrAe
+PYow9bVYOu398bxWBdgyV5a1U55+BsuwdymPBWTzYY6Vn93h65F4XQdFPEvWHSMh
+kbUo8Uqh2Gn70mV7jFoWM3jC
+=29oC
+-----END PGP SIGNATURE-----
+
+--===============6211063936531762336==--
