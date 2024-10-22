@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 22 Oct 2024 16:02:23 -0000
-Message-Id: <172961294393.2418561.2122741689979879986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 22 Oct 2024 16:04:14 -0000
+Message-Id: <172961305433.2419310.5360799639561034784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 46610ba41ef10b9570c5f5b12bde2f2eabb25bb5
-    new: 3e2d4df574fc6bbd00b422f2f1ce5c1ac251feae
+  - ref: refs/heads/x86/urgent
+    old: 3267cb6d3a174ff83d6287dcd5b0047bbd912452
+    new: 1d81d85d1a19e50d5237dc67d6b825c34ae13de8
     log: |
-         18b63d63cd0148fef02c6c3f33a596ad7ee97a9a perf test: Introduce workloads__for_each()
-         13c138308d15cb194db53d0f24a4dd9de37193f3 perf test: Introduce --list-workloads to list the available workloads
-         915a377627f7ad91983377f68c3096b3594961a4 perf test: Document the -w/--workload option
-         3e2d4df574fc6bbd00b422f2f1ce5c1ac251feae perf tools: sched-pipe bench: add (-n) nonblocking benchmark
+         d1744a4c975b1acbe8b498356d28afbc46c88428 x86/microcode/AMD: Pay attention to the stepping dynamically
+         1d81d85d1a19e50d5237dc67d6b825c34ae13de8 x86/microcode/AMD: Split load_microcode_amd()
          
