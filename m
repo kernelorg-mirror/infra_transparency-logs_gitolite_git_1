@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 22 Oct 2024 11:04:15 -0000
-Message-Id: <172959505575.1836363.288755750894277066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 22 Oct 2024 11:05:03 -0000
+Message-Id: <172959510372.1838925.4104212063370302287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/dt
-    old: 6c8ea090aede45fa904d9e5e84ad012550e70b87
-    new: c16a7d3ef029494a6f5b5cd20606dd08aeaa2b0f
+  - ref: refs/heads/main
+    old: fa287557e6d41ee224ab82baa73b538e6031b0ed
+    new: f7b4cf0306bbea500a613e4b618576452c1df4ba
     log: |
-         f9eb07ea696eb200093c4f5a288acec49d823280 dt-bindings: power: rpmpd: Add SAR2130P compatible
-         c16a7d3ef029494a6f5b5cd20606dd08aeaa2b0f dt-bindings: power: Add binding for MediaTek MT6735 power controller
+         f7b4cf0306bbea500a613e4b618576452c1df4ba mlxsw: spectrum_router: fix xa_store() error checking
          
