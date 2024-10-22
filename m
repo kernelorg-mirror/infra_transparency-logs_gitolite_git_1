@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 22 Oct 2024 03:07:52 -0000
-Message-Id: <172956647213.1464435.16519721721436202948@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 03:09:15 -0000
+Message-Id: <172956655575.1465005.13887770263015928611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
-    old: a0c3c5de6bef8f8a0bfaf7ede40c516c50f833d1
-    new: d39100d01ce1ba1bffe0447a0550f592aa6e1e9b
+  - ref: refs/heads/for-next
+    old: 5564215fd413f2c00b79628a3c68ba74eeeae714
+    new: 1aab08082c32a9d618f5dbb2eca0d6ac112e75a4
+    log: |
+         1aab08082c32a9d618f5dbb2eca0d6ac112e75a4 Merge branch 'bpf-next/master' into for-next
+         
