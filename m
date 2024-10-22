@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 22 Oct 2024 16:48:06 -0000
-Message-Id: <172961568608.2455009.4414676248046538475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 22 Oct 2024 16:53:39 -0000
+Message-Id: <172961601915.2459325.11525037412810178307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 1fe774a93b46bb029b8f6fa9d1f25affa53f06c6
-    new: e4196757547444f7c4c156e56ea9d44612e97cbf
+  - ref: refs/heads/master
+    old: 1b459ab9a5d8f8a22d5b2cd8d3f6317d3f35813d
+    new: d056ac221b2b944307b561bbfc35e5fb3f782e1d
     log: |
-         e4196757547444f7c4c156e56ea9d44612e97cbf EDAC/bluefield: Use Arm SMC for EMI access on BlueField-2
+         191459b9ce683b9c9b3f2375b4687758c78251e8 depmod: use array for dependency output
+         10c8bb097622f434274bdef4aeb54a77d3176aab depmod: Use strbuf for dependency output
+         d056ac221b2b944307b561bbfc35e5fb3f782e1d depmod: Prevent undefined behavior
          
