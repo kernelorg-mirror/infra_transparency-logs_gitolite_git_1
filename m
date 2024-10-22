@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 22 Oct 2024 15:07:30 -0000
-Message-Id: <172960965023.2372745.2188230846639889805@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4344842907320889026=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 22 Oct 2024 15:13:31 -0000
+Message-Id: <172961001116.2377084.1716435806253723730@gitolite.kernel.org>
+
+--===============4344842907320889026==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/hotplug
-    old: 91a6296793591983f27db40f41daab53500ffc6e
-    new: 5a02413a4586a7cfa10b7380377138e66db9df4b
+  - ref: refs/heads/slab/for-6.13/fixes
+    old: 4a0dfa3c2ebb696306e2b988651a564dcb4ccecc
+    new: 5e93635837fb586a9b37e58f6c80c8721e2195c3
     log: |
-         e2226dbc4a4919d9c8bd9293299b532090bdf020 PCI: cpqphp: Fix PCIBIOS_* return value confusion
-         752430d1d33ed69653a6e8dbdf01f83cdf5be574 PCI: cpqphp: Use pci_bus_read_dev_vendor_id() to detect presence
-         de2cdf110a39a660e810979e480761fed9842436 PCI: cpqphp: Use define to read class/revision dword
-         5a02413a4586a7cfa10b7380377138e66db9df4b PCI: cpqphp: Simplify PCI_ScanBusForNonBridge()
+         5e93635837fb586a9b37e58f6c80c8721e2195c3 mm/slub: Avoid list corruption when removing a slab from the full list
          
+
+--===============4344842907320889026==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1729610032 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1729610006-4d0619274d3141f1b9306947a8fcb7c8f5d618b5
+
+4a0dfa3c2ebb696306e2b988651a564dcb4ccecc 5e93635837fb586a9b37e58f6c80c8721e2195c3 refs/heads/slab/for-6.13/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmcXwTAACgkQu+CwddJF
+iJo1jwgAkr3ZkiuXckh1aWig3kFWVNll4bDFEUnRSquTW79Ar3/kwjzGuxosFvQ6
+Yn2mbQ5Q2IatkNWmvi2dQAOkekkiNwVS5JXlBpsdKT0VmvMeQSrkH0YEHNLlQCXa
+YRIoJMCBEXz/seLCUuRNmCb/prb3aVMwPlXSgXgVC20GcrqCrZPeUpd2yqDkcn2M
+YEfximR5ZKUivUtgzksRfewySFMDNKBcpYRMofcd4UkSVkvxBZEYL/YIiim/m0MT
+9kuIe8qwEgTw9y8j+gZtWdB7Q+Y0mgx9rffBgF3h5HVDppO57nM22U5kn5B7YmYt
+PlPabctON8MYERYGm/NMUmeD+Ot7pA==
+=jefp
+-----END PGP SIGNATURE-----
+
+--===============4344842907320889026==--
