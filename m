@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5126495117827289806=="
+Content-Type: multipart/mixed; boundary="===============7628000929432853108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 22 Oct 2024 14:10:34 -0000
-Message-Id: <172960623474.2307204.1278041709344380158@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 14:11:13 -0000
+Message-Id: <172960627330.2325029.15459192733642480941@gitolite.kernel.org>
 
---===============5126495117827289806==
+--===============7628000929432853108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/v6.13-armsoc/dts64
-    old: 0cdb6e46432df9075966fff6743324cb178fea4f
-    new: ae46756faff88f26aca8aba28397a6ab30d229c2
-    log: revlist-0cdb6e46432d-ae46756faff8.txt
+  - ref: refs/heads/for-next
+    old: 819d509b17491c2f869958361d711e1de86f7ab0
+    new: fcd12287f77248791a0140018d9dd064cc265cfa
+    log: revlist-819d509b1749-fcd12287f772.txt
 
---===============5126495117827289806==
+--===============7628000929432853108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cdb6e46432d-ae46756faff8.txt
+Content-Disposition: attachment; filename=revlist-819d509b1749-fcd12287f772.txt
 
 c84fe61583d77cafa9a59fb0825bfd71692e6a1f arm64: dts: rockchip: Drop rockchip prefix of s-p-c PMIC prop from px30
 cdb98af8c23cf525f08375365e6eb743866586a8 arm64: dts: rockchip: Drop rockchip prefix of s-p-c PMIC prop from rk3328
@@ -49,5 +49,10 @@ e684f02492f99d6f6f037a35a613607339cf8e8f arm64: dts: rockchip: fix the pcie refc
 f3c6526d6fb25b9627cb39cc63fec8f88ecf17b5 arm64: dts: rockchip: Convert dts files used as parents to dtsi files
 f7f8ec7d8cef4cf62ee13b526d59438c23bbb34f arm64: dts: rockchip: Add dtsi file for RK3399S SoC variant
 ae46756faff88f26aca8aba28397a6ab30d229c2 arm64: dts: rockchip: analog audio on Orange Pi 5
+393822f560ed8130aaacf350aff19580fb90421a Merge branch 'v6.13-armsoc/drivers' into for-next
+afda04722213b15521204a9e71a53cd5fb16b680 Merge branch 'v6.13-armsoc/dts32' into for-next
+8454766de1443296f8394864e30a3c4eab1e2312 Merge branch 'v6.13-armsoc/dts64' into for-next
+7f650d76fef9044111d180ee59fd6b2d00ba1de6 Merge branch 'v6.13-clk/next' into for-next
+fcd12287f77248791a0140018d9dd064cc265cfa Merge branch 'v6.12-armsoc/dtsfixes' into for-next
 
---===============5126495117827289806==--
+--===============7628000929432853108==--
