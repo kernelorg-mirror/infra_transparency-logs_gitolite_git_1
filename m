@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8231560397195241412=="
+Content-Type: multipart/mixed; boundary="===============2055201497220136455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 22 Oct 2024 14:35:12 -0000
-Message-Id: <172960771228.2346437.11161088294106737385@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 14:35:19 -0000
+Message-Id: <172960771913.2346632.2363519587205231459@gitolite.kernel.org>
 
---===============8231560397195241412==
+--===============2055201497220136455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 32c055ef563c3a4a73a477839f591b1b170bde8e
     new: cf295252f0d88410d5793fa6db56a7192a65d66f
     log: revlist-32c055ef563c-cf295252f0d8.txt
 
---===============8231560397195241412==
+--===============2055201497220136455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7ed343658792771cf1b868df061661b7bcc5cef Merge tag 'mailbox-v6.12' of git://git.
 731237359d83bfb4f27eea5b7a8935af5c72a5ac dt-bindings: clock: nxp,imx95-blk-ctl: Add compatible string for i.MX95 HSIO BLK CTRL
 cf295252f0d88410d5793fa6db56a7192a65d66f clk: imx95-blk-ctl: Add one clock gate for HSIO block
 
---===============8231560397195241412==--
+--===============2055201497220136455==--
