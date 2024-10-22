@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8872685602863913968=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 22 Oct 2024 20:50:42 -0000
-Message-Id: <172963024202.2656710.14962432543956621743@gitolite.kernel.org>
-
---===============8872685602863913968==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 22 Oct 2024 20:53:37 -0000
+Message-Id: <172963041737.2657976.16131130092599099999@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: a34ec1c02b589ab73fddec713f9276e4dfc7f797
-    new: baa8e432a903bdc81d3c14057b6e58f49537dad3
+    old: d39100d01ce1ba1bffe0447a0550f592aa6e1e9b
+    new: efe7921927dc01cffdaff623ef51609e1be5058a
     log: |
-         baa8e432a903bdc81d3c14057b6e58f49537dad3 Add new remail lists
+         94682d6ad9692855b2ae16bb93c408ad0a5bc9ba selftests/bpf: Migrate *_POST_BIND test cases to prog_tests
+         c17f9734e35b4ca86c67d0a49780978a16effa94 selftests/bpf: Migrate LOAD_REJECT test cases to prog_tests
+         af522f13e9177eca0111562a38cc8ebb6d55f820 selftests/bpf: Migrate BPF_CGROUP_INET_SOCK_CREATE test cases to prog_tests
+         eea6c14c10ce208e5f6ab309fb1c141a39446a1b selftests/bpf: Retire test_sock.c
+         efe7921927dc01cffdaff623ef51609e1be5058a Merge branch 'Retire test_sock.c'
          
-
---===============8872685602863913968==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1729630266 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1729630241-71cdb7cb0c2e844a17725e73b9efd13f75661982
-
-a34ec1c02b589ab73fddec713f9276e4dfc7f797 baa8e432a903bdc81d3c14057b6e58f49537dad3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZxgQOgAKCRC2xBzjVmSZ
-bKNWAP9yVkaLjNTXYl83p5jGk0/E6LwC6qRacWFQcdaHL5jN0gEA/YEVHBJUc8Rc
-IEsfD+J/Cp0W3LrdkFvTL5g78TEJmQI=
-=mFVN
------END PGP SIGNATURE-----
-
---===============8872685602863913968==--
