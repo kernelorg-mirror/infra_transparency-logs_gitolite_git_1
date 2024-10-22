@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1466890046121054071=="
+Content-Type: multipart/mixed; boundary="===============8260924512972896567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 22 Oct 2024 18:26:00 -0000
-Message-Id: <172962156064.2533242.9713126233413388401@gitolite.kernel.org>
+Date: Tue, 22 Oct 2024 18:26:11 -0000
+Message-Id: <172962157143.2533435.8209697171737960401@gitolite.kernel.org>
 
---===============1466890046121054071==
+--===============8260924512972896567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
     new: 42f7652d3eb527d03665b09edac47f85fb600924
     log: revlist-8cf0b93919e1-42f7652d3eb5.txt
 
---===============1466890046121054071==
+--===============8260924512972896567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -896,4 +896,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============1466890046121054071==--
+--===============8260924512972896567==--
