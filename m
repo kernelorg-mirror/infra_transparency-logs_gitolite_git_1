@@ -1,46 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 22 Oct 2024 20:01:39 -0000
-Message-Id: <172962729987.2615331.14564612284222430717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 22 Oct 2024 20:02:31 -0000
+Message-Id: <172962735153.2615802.13305347697055732013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f2bb74e8f862f9819d2435b5e00f6a879e20ccd9
-    new: fd79fc1017cfb7ff4d28d9abbfd644eecfdd3e12
+  - ref: refs/heads/regulator-6.13
+    old: 33a846e88481cc4659c6d670759b6295903e43b9
+    new: 0d214f27c0e3d9694284c95bac1502c2d247355b
     log: |
-         e87b0e69a88b1e475ee2ab6d2db7774768f72148 cpufreq: use proper units for frequency
-         ef6bb7e23cda5618c5673ca799c2648908db71a4 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-tools' into linux-next
-         138e7effe3499192c2cfcf3fea4586a040602375 Merge branch 'fixes' into linux-next
-         3ba8c693cdc680475d4de69af0c779b3bb704457 Merge branch 'thermal-core' into linux-next
-         7f31183fa1d5c043864b4bd5632930f40d3c7002 Merge branch 'acpi-battery' into linux-next
-         d7178df50b77df390859a4b7fe02e80b059ab83f Merge branch 'thermal-core-testing' into testing
-         fd79fc1017cfb7ff4d28d9abbfd644eecfdd3e12 Merge branch 'thermal-core-experimental' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: cabb03eb5feffd3e714d262482bdc0d5af707b9b
-    new: 7f31183fa1d5c043864b4bd5632930f40d3c7002
-    log: |
-         e87b0e69a88b1e475ee2ab6d2db7774768f72148 cpufreq: use proper units for frequency
-         ef6bb7e23cda5618c5673ca799c2648908db71a4 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-tools' into linux-next
-         138e7effe3499192c2cfcf3fea4586a040602375 Merge branch 'fixes' into linux-next
-         3ba8c693cdc680475d4de69af0c779b3bb704457 Merge branch 'thermal-core' into linux-next
-         7f31183fa1d5c043864b4bd5632930f40d3c7002 Merge branch 'acpi-battery' into linux-next
-         
-  - ref: refs/heads/testing
-    old: e51783a369e807415a481d6d67cb4414d85853bb
-    new: d7178df50b77df390859a4b7fe02e80b059ab83f
-    log: |
-         e87b0e69a88b1e475ee2ab6d2db7774768f72148 cpufreq: use proper units for frequency
-         ef6bb7e23cda5618c5673ca799c2648908db71a4 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-tools' into linux-next
-         138e7effe3499192c2cfcf3fea4586a040602375 Merge branch 'fixes' into linux-next
-         3ba8c693cdc680475d4de69af0c779b3bb704457 Merge branch 'thermal-core' into linux-next
-         7f31183fa1d5c043864b4bd5632930f40d3c7002 Merge branch 'acpi-battery' into linux-next
-         d7178df50b77df390859a4b7fe02e80b059ab83f Merge branch 'thermal-core-testing' into testing
+         59a06dce787851b3df3b7e5f61fbd90ce2144577 regulator: core: Use fsleep() to get best sleep mechanism
+         b9ca26482dd5dc219792afccfc8a93538707178b regulator: dt-bindings: lltc,ltc3676: convert to YAML
+         3e7a84b347092f7d316eef1627090b2b6c768146 regulator: dt-bindings: qcom,qca6390-pmu: add more properties for wcn6855
+         a2f899691d6dcdbc92b109ba26ada65d59f5a752 regulator: rk808: Perform trivial code cleanups
+         bbc1baaec0a7366ca2a4e545294eb039977d5edf regulator: rk808: Use dev_err_probe() in the probe path
+         0d214f27c0e3d9694284c95bac1502c2d247355b regulator: rk808: Restrict DVS GPIOs to the RK808 variant only
          
