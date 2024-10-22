@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 22 Oct 2024 14:15:23 -0000
-Message-Id: <172960652318.2330000.1243255160934792997@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0341944779576875778=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 22 Oct 2024 14:16:28 -0000
+Message-Id: <172960658892.2330684.1711040474483124798@gitolite.kernel.org>
+
+--===============0341944779576875778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-fixes
-    old: 2e40f67ef4c274c0226371b305f27e14f8325b1b
-    new: 9982c1421e6b7eaec77d602926bebf79b9ffe780
+  - ref: refs/heads/master
+    old: 08f8da324151725eb6d745e6070c6dc333637f85
+    new: d72aaa486a52b9dde0eb6613aed3e4ee5cf7a971
     log: |
-         3510e684b8f6a569c2f8b86870da116e2ffeec2d btrfs: clear force-compress on remount when compress mount option is given
-         5f9062a48db260fd6b53d86ecfb4d5dc59266316 btrfs: qgroup: set a more sane default value for subtree drop threshold
-         f10f59f91a6278e9637327d1206140d28e2d5004 btrfs: fix the delalloc range locking if sector size < page size
-         7a2339058ed71f54c1e12e1b3c25aab1b1ba7943 btrfs: fix read corruption due to race with extent map merging
-         3c36a72c1d27de6618c1c480c793d9924640f5bb btrfs: reject ro->rw reconfiguration if there are hard ro requirements
-         75f49c3dc7b7423d3734f2e4dabe3dac8d064338 btrfs: fix passing 0 to ERR_PTR in btrfs_search_dir_index_item()
-         9982c1421e6b7eaec77d602926bebf79b9ffe780 Merge branch 'misc-6.12' into next-fixes
+         d72aaa486a52b9dde0eb6613aed3e4ee5cf7a971 empty series files
          
+
+--===============0341944779576875778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729606604 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1729606585-9f40d253caf407eed1fb21a045e473b97711b5de
+
+08f8da324151725eb6d745e6070c6dc333637f85 d72aaa486a52b9dde0eb6613aed3e4ee5cf7a971 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcXs8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cRwP/jGqTipYvrWeE1XvVzxI
+q1b7Q9Vncb2/RfIvHTT6pN/rJEz2UzFCPhTzEeOgNwJVFQWDTSEemqaPYBgHmMjB
+q+QJiOLlqrRSgMLy84oFtXq34lU5V/Sfw0uuYQrfERzLXpITjjrI8g2BK8UHMJwx
+053GRZ/tujg9GUtfL5m3MoaM22ajo1DyYKs+G6wU9vYaO2waWYayT3bvB8dd5dqB
+dvACaGBpraX42no2J9EPrDEIFXQOuU0Pnx/xmicDZrgdzYBQUzNZSwF2Q4LL7sfp
+5FEt8OxJUkP3ATRHz+RgWO+3+nWD3IWHvW/V4wOxtlL7OVn233C64rv+QxYg5YTt
+9FQHpJGIsrI/was3eAIt9O6yB3SqYEBnn/NTr/Q3i5D5LXAxkIz8jxy9m3FeeYoS
+g4V36G3SQQ+2wlOgiYkxaN4kTsCmaM2hxfbdvkAvsgXBxTkCEPZMd1YUhk333DDU
+ndYlLOUfhy1K8ldMUHoxIA7BPxEN/jy8HwdeMxiJvI1vp5n5a0rSQaxNdyi3qf0c
+5BSbzQWWLfyRQfCH/l9rMtDIiWOQ3clIbrnYDGREP/GAkKJEtOjlmbR4mcH+eRbG
+8WgoEy2TDAGmP9GDv9PZWX1qhtvFTQBYBAnDgAKYAu6NujI71RO8agdfDrTgb0TM
+x0GqUP+zGWWroL0+5KFLj0uJ
+=Jq1C
+-----END PGP SIGNATURE-----
+
+--===============0341944779576875778==--
