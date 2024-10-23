@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 23 Oct 2024 17:30:51 -0000
-Message-Id: <172970465135.3649026.14133235817001490433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 23 Oct 2024 17:33:21 -0000
+Message-Id: <172970480181.3650126.4215903228719443096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/arm64-fp-sme-sigentry
-    old: b27cbb2ffdf58992aa1b5268b4d4e9c128d86f4e
-    new: bc04cfca04615b259d4e40bb5dbbe7647c8a56fb
+  - ref: refs/heads/arm64-crc32-pmull
+    old: 3c94610b3bc78d156ff7b802d722e27fe48eb1d8
+    new: 0dbe5035748a0b22fba6ae51550d3df999f47c0b
     log: |
-         bc04cfca04615b259d4e40bb5dbbe7647c8a56fb arm64/signal: Avoid corruption of SME state when entering signal handler
+         0dbe5035748a0b22fba6ae51550d3df999f47c0b arm64/crc32: Fall back to 8x8 PMULL if 64x64 PMULL is not available
          
