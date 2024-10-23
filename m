@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2161100847800328532=="
+Content-Type: multipart/mixed; boundary="===============6909892890931560825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 23 Oct 2024 05:50:12 -0000
-Message-Id: <172966261260.3078490.10693756671307276501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 23 Oct 2024 05:50:23 -0000
+Message-Id: <172966262338.3078728.3921168762343258143@gitolite.kernel.org>
 
---===============2161100847800328532==
+--===============6909892890931560825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 7436324ebd147598f940dde1335b7979dbccc339
     new: ceab669fdf7b7510b4e4997b33d6f66e433a96db
     log: revlist-7436324ebd14-ceab669fdf7b.txt
-  - ref: refs/heads/stable
-    old: d129377639907fce7e0a27990e590e4661d3ee02
-    new: c2ee9f594da826bea183ed14f2cc029c719bf4da
-    log: |
-         a360f311f57a36e96d88fa8086b749159714dcd2 9p: fix slab cache name creation for real
-         c2ee9f594da826bea183ed14f2cc029c719bf4da KVM: selftests: Fix build on on non-x86 architectures
-         
-  - ref: refs/tags/next-20240723
-    old: 703e480095d05468c7c503e8d20ffbb030c8e55f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241023
     old: 0000000000000000000000000000000000000000
     new: 502c68736d0c4b3203d880cc1d3df1558d422bec
 
---===============2161100847800328532==
+--===============6909892890931560825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -749,4 +739,4 @@ a0f0271f47a410298e1f806bde5d19b55ea181d5 Merge branch 'next' of git://git.kernel
 a692d2b79cdb41d9d501c3adae69ea6e6f4a2cfd Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 ceab669fdf7b7510b4e4997b33d6f66e433a96db Add linux-next specific files for 20241023
 
---===============2161100847800328532==--
+--===============6909892890931560825==--
