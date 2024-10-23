@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 23 Oct 2024 18:55:38 -0000
-Message-Id: <172970973814.3718355.10343497966089543976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 23 Oct 2024 18:55:56 -0000
+Message-Id: <172970975611.3718681.4213008061770682945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/resize-rings
-    old: e8ab76983130ae0061baa6bf4193d09b605add70
-    new: a50745f3b4f2625009a6e4aeea53e2d3b896b34d
+  - ref: refs/heads/bleeding-edge
+    old: 113a6feb4286de1f92b70b2f4c83911b9eac4010
+    new: 5c0d70fefdb0db800365462192b40c23c98bb7d2
     log: |
-         d8a0366f07586eab73dc6859daecf66e5ab4de1b src/register: sanitize old ring state for resize
-         a50745f3b4f2625009a6e4aeea53e2d3b896b34d test/resize-rings: don't clear p.flags
+         7c4c18108f133f8fa5c6931c418ca7579e29a7bf cpufreq: Switch back to struct platform_driver::remove()
+         5c0d70fefdb0db800365462192b40c23c98bb7d2 Merge branch 'pm-cpufreq' into bleeding-edge
          
