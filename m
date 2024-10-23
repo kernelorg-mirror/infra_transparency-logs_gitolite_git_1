@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7557974658743926609=="
+Content-Type: multipart/mixed; boundary="===============7717030694262454038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 23 Oct 2024 23:02:16 -0000
-Message-Id: <172972453681.3919902.4182186345011404853@gitolite.kernel.org>
+Date: Wed, 23 Oct 2024 23:02:19 -0000
+Message-Id: <172972453904.3920073.295989218661541116@gitolite.kernel.org>
 
---===============7557974658743926609==
+--===============7717030694262454038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d811ac148f0afd2f3f7e1cd7f54de8da973ec5e3
     new: d05596f248578be943015c1237120574a8d845dd
     log: revlist-d811ac148f0a-d05596f24857.txt
 
---===============7557974658743926609==
+--===============7717030694262454038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ b61a465a761921d11f99492ce41b85cfba7d6161 net: pcs: xpcs: rearrange xpcs_link_up_
 fd4056db7aee901677a3c62534b2d31b38678cb4 net: pcs: xpcs: remove return statements in void function
 d05596f248578be943015c1237120574a8d845dd Merge branch 'net-pcs-xpcs-yet-more-cleanups'
 
---===============7557974658743926609==--
+--===============7717030694262454038==--
