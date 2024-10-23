@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6567615337251199512=="
+Content-Type: multipart/mixed; boundary="===============4913922245208788709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 23 Oct 2024 10:00:36 -0000
-Message-Id: <172967763612.3271717.4033960163188075626@gitolite.kernel.org>
+Date: Wed, 23 Oct 2024 10:00:58 -0000
+Message-Id: <172967765858.3272070.3496804072100090903@gitolite.kernel.org>
 
---===============6567615337251199512==
+--===============4913922245208788709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 30d9d8f6a2d7e44a9f91737dd409dbc87ac6f6b7
     new: 83c289e81e88d01e55d6d56531502ed7b4886a05
     log: revlist-30d9d8f6a2d7-83c289e81e88.txt
 
---===============6567615337251199512==
+--===============4913922245208788709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -385,4 +385,4 @@ a8cc8fa14541d6f8f1fbe78607a096e97c80179e net: sysctl: do not reserve an extra ch
 94fa523e20c3d6659fd0d3090a28f1c43582299e Merge branch 'net-sysctl-allow-dump_cpumask-to-handle-higher-numbers-of-cpus'
 83c289e81e88d01e55d6d56531502ed7b4886a05 net/sched: act_api: unexport tcf_action_dump_1()
 
---===============6567615337251199512==--
+--===============4913922245208788709==--
