@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0010856298050247901=="
+Content-Type: multipart/mixed; boundary="===============3309141148362184797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 23 Oct 2024 23:03:57 -0000
-Message-Id: <172972463717.3921266.3243895166972471817@gitolite.kernel.org>
+Date: Wed, 23 Oct 2024 23:03:59 -0000
+Message-Id: <172972463937.3921376.16690056417556963142@gitolite.kernel.org>
 
---===============0010856298050247901==
+--===============3309141148362184797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d95d9a31aceb2021084bc9b94647bc5b175e05e7
     new: 6e62807c7fbb3c758d233018caf94dfea9c65dbd
     log: revlist-d95d9a31aceb-6e62807c7fbb.txt
 
---===============0010856298050247901==
+--===============3309141148362184797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ b22db8b8befe90b61c98626ca1a2fbb0505e9fe3 net: sched: use RCU read-side critical 
 10ce0db787004875f4dba068ea952207d1d8abeb r8169: avoid unsolicited interrupts
 6e62807c7fbb3c758d233018caf94dfea9c65dbd posix-clock: posix-clock: Fix unbalanced locking in pc_clock_settime()
 
---===============0010856298050247901==--
+--===============3309141148362184797==--
