@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 23 Oct 2024 13:19:19 -0000
-Message-Id: <172968955976.3432576.9577036546114456388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Wed, 23 Oct 2024 13:32:52 -0000
+Message-Id: <172969037249.3443955.12685043683705276199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/heads/for-next
-    old: 89e9ae55dc56f322f1a123224ad9d3e52bcc3b50
-    new: 48931f65e9f785b65244550cc8f0c8bf9eab7acd
+  - ref: refs/heads/sysctl-next
+    old: 427568a3f6ce058c520c44fe9a13a867f7a8c996
+    new: a883f2efa625e05305aa9f6fc7ca3fae99105412
     log: |
-         1e7b86f1b26ba5737481a403a26bb6182792a931 RDMA/efa: Update device interface
-         48931f65e9f785b65244550cc8f0c8bf9eab7acd RDMA/efa: Add option to set QP service level on create
-         
-  - ref: refs/heads/for-rc
-    old: 42f7652d3eb527d03665b09edac47f85fb600924
-    new: 76d3ddff7153cc0bcc14a63798d19f5d0693ea71
-    log: |
-         89f8c6f197f480fe05edf91eb9359d5425869d04 RDMA/cxgb4: Dump vendor specific QP details
-         78ed28e08e74da6265e49e19206e1bcb8b9a7f0d RDMA/mlx5: Round max_rd_atomic/max_dest_rd_atomic up instead of down
-         d71f4acd584cc861f54b3cb3ac07875f06550a05 RDMA/bnxt_re: Fix the usage of control path spin locks
-         76d3ddff7153cc0bcc14a63798d19f5d0693ea71 RDMA/bnxt_re: synchronize the qp-handle table array
+         50a191a8a12b33dfad3b27c6ba4e76c5ba39db73 sysctl: update comments to new registration APIs
+         ad45af930449426ae94bb00d0ca42f4cf4d92a66 ucounts: constify sysctl table user_table
+         a883f2efa625e05305aa9f6fc7ca3fae99105412 sysctl: Reorganize kerneldoc parameter names
          
