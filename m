@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 23 Oct 2024 10:28:07 -0000
-Message-Id: <172967928770.3293513.2903136720554514827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 23 Oct 2024 10:29:06 -0000
+Message-Id: <172967934610.3294046.13424120907988281414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: ccc70f5478708c0c1cba29388acf7a563e7141a2
-    new: 7f8e0209a88efad9023e9fea7777444c8ec4f2a9
+  - ref: refs/heads/riscv-soc-fixes
+    old: 2e11e78667db90a9e732fbe42820e734d0658fc7
+    new: 825bb69228c8ab85637d21cdf4d44207937130b6
     log: |
-         7f8e0209a88efad9023e9fea7777444c8ec4f2a9 foo
+         825bb69228c8ab85637d21cdf4d44207937130b6 riscv: dts: starfive: Update ethernet phy0 delay parameter values for Star64
          
