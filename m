@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 23 Oct 2024 21:50:23 -0000
-Message-Id: <172972022303.3860872.6900387777579231581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 23 Oct 2024 21:57:09 -0000
+Message-Id: <172972062902.3865688.12238763516089673619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 42f7652d3eb527d03665b09edac47f85fb600924
-    new: 0a1421e30039065373aabe3bcd500303e927640f
+    old: 8bb22a722b27ad65fd435079aaec399eb03aa2d9
+    new: 4a04d4140943d948bea25afff9da183870e6bddb
     log: |
-         4f99692d8fc494f14248257adf67846fe7f14de8 foo
-         0a1421e30039065373aabe3bcd500303e927640f foo
+         4a04d4140943d948bea25afff9da183870e6bddb treewide: Comply with doc/coding-style.txt M13
          
