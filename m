@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 23 Oct 2024 17:11:20 -0000
-Message-Id: <172970348015.3632889.6252060618478221860@gitolite.kernel.org>
+Date: Wed, 23 Oct 2024 17:13:54 -0000
+Message-Id: <172970363480.3634041.15627174105441189130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/reg-wait
-    old: 1018ac1283de697c8bcc1c34eaf86c575f46fda9
-    new: b63aec483b76cd3a35d4003c6eb432925655d1a5
+  - ref: refs/heads/master
+    old: cb14306085fb82bd2a9365677b7f7f1d63eadf46
+    new: 80272cbeb42bcd0b39a75685a50b0009b77cd380
     log: |
-         b63aec483b76cd3a35d4003c6eb432925655d1a5 Add helpers for setting up registered waits
+         80272cbeb42bcd0b39a75685a50b0009b77cd380 Rename '*ret' to '*err' for io_uring_setup_buf_ring()
          
