@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 23 Oct 2024 18:55:56 -0000
-Message-Id: <172970975611.3718681.4213008061770682945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 23 Oct 2024 18:56:47 -0000
+Message-Id: <172970980701.3719111.2286825332179541416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 113a6feb4286de1f92b70b2f4c83911b9eac4010
-    new: 5c0d70fefdb0db800365462192b40c23c98bb7d2
+  - ref: refs/heads/for-6.12-fixes
+    old: 192a3cacf129cc345e1d4ef9316f8556b0c1d2da
+    new: 9b3c11a867a82ebee4e096008014417918b82801
     log: |
-         7c4c18108f133f8fa5c6931c418ca7579e29a7bf cpufreq: Switch back to struct platform_driver::remove()
-         5c0d70fefdb0db800365462192b40c23c98bb7d2 Merge branch 'pm-cpufreq' into bleeding-edge
+         9b3c11a867a82ebee4e096008014417918b82801 selftests/sched_ext: add order-only dependency of runner.o on BPFOBJ
+         
+  - ref: refs/heads/for-next
+    old: 2a5ae982885085a26f29b8374774224c398c2ba8
+    new: 1f3286bd3a30e409fb1698bbf3ad4c94b5a5f049
+    log: |
+         9b3c11a867a82ebee4e096008014417918b82801 selftests/sched_ext: add order-only dependency of runner.o on BPFOBJ
+         1f3286bd3a30e409fb1698bbf3ad4c94b5a5f049 Merge branch 'for-6.12-fixes' into for-next
          
