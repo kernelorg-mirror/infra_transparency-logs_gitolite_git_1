@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 23 Oct 2024 21:33:34 -0000
-Message-Id: <172971921494.3844858.17697925559991981000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 23 Oct 2024 21:34:11 -0000
+Message-Id: <172971925179.3845418.807455331680238720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/arm64-fp-sme-sigentry
-    old: 0000000000000000000000000000000000000000
-    new: 547cfd5a8fbd15537364eba83f2e8547f8ba54af
+  - ref: refs/heads/tmp.perf-tools
+    old: d822ca29a4fc5278fb511790dace44836e8cc40d
+    new: 5116c935ce5b0200fb72ac91ff9b10ab453ffaad
+    log: |
+         06a130e42a5bfc84795464bff023bff4c16f58c5 perf test: Handle perftool-testsuite_probe failure due to broken DWARF
+         5116c935ce5b0200fb72ac91ff9b10ab453ffaad perf python: Fix up the build on architectures without HAVE_KVM_STAT_SUPPORT
+         
