@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 23 Oct 2024 12:02:29 -0000
-Message-Id: <172968494909.3371508.7569747014046289718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 23 Oct 2024 12:05:49 -0000
+Message-Id: <172968514999.3374994.6086266058954760215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/v5_20241020_kuninori_morimoto_gx_asoc_remove_dpcm_xxx_flags
-    old: 0000000000000000000000000000000000000000
-    new: a6ff8572fd3fafe3f0f39e94ad8d4b6c88de7e03
+  - ref: refs/heads/gpio-no-irq
+    old: c8933e1e3600e3fa29efe28fbb2e343e133f9d67
+    new: 14d055cfeeac6f9d45d039b6a88bf975620b7e79
+    log: |
+         14d055cfeeac6f9d45d039b6a88bf975620b7e79 gpio: mpfs: add polarfire soc gpio support
+         
