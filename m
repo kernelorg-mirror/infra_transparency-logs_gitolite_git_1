@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 23 Oct 2024 14:49:20 -0000
-Message-Id: <172969496075.3507877.17283779956908423626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 23 Oct 2024 14:49:38 -0000
+Message-Id: <172969497818.3508599.14679709201196772024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: af6ab107ce2c338790c6629fe0edc0333e708be8
-    new: 3ad0edc46fb7668e75583ee6ebcce684f62ec4dc
+  - ref: refs/heads/io_uring-ring-resize
+    old: 9066ee36da3020e83fb6068d5c6e76a0a531b4d4
+    new: 3cac1c87af861a84c76d8164690157b66d57ab7a
     log: |
-         3ad0edc46fb7668e75583ee6ebcce684f62ec4dc dt-bindings: display: mediatek: split: add subschema property constraints
+         3cac1c87af861a84c76d8164690157b66d57ab7a io_uring/register: add IORING_REGISTER_RESIZE_RINGS
          
