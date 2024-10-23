@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6174866026635272522=="
+Content-Type: multipart/mixed; boundary="===============4918338457871985779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 23 Oct 2024 22:39:42 -0000
-Message-Id: <172972318248.3899120.9293763903938962803@gitolite.kernel.org>
+Date: Wed, 23 Oct 2024 22:39:44 -0000
+Message-Id: <172972318425.3899193.2885458821106750722@gitolite.kernel.org>
 
---===============6174866026635272522==
+--===============4918338457871985779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: dc3dbfa4231c4d4299f480101450a9aa517d489f
-    new: d1c1ef8198e420b41e40f6ac9b542f7e79ed6909
-    log: revlist-dc3dbfa4231c-d1c1ef8198e4.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    new: 42f7652d3eb527d03665b09edac47f85fb600924
+    log: revlist-8e929cb546ee-42f7652d3eb5.txt
 
---===============6174866026635272522==
+--===============4918338457871985779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc3dbfa4231c-d1c1ef8198e4.txt
+Content-Disposition: attachment; filename=revlist-8e929cb546ee-42f7652d3eb5.txt
 
 38d222b3163f7b7d737e5d999ffc890a12870e36 9p: v9fs_fid_find: also lookup by inode if not found dentry
 1325e4a91a405f88f1b18626904d37860a4f9069 9p: Enable multipage folios
@@ -571,45 +571,5 @@ c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git:/
 dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
-a953e9a5e31d93cb1b9aaf6985c2941cadfd2809 i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
-534cce244621867a933b82e3376759c9b7364a28 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
-c8728e61183c073b20e7c027cc0023dc9b97bdd1 i2c: cadence: Add atomic transfer support for controller version 1.4
-a945cc8fac7aab2a073c18b30a754b6d6d85d5be i2c: isch: Pass pointer to struct i2c_adapter down
-b1d59a98cf1530c1b3408a5d9550962a97d7e5b3 i2c: isch: Use string_choices API instead of ternary operator
-178caf76de1e460500287e8a1098678595f07043 i2c: isch: Switch to memory mapped IO accessors
-c7bd059c831ffd091a2d830ea9a9c1ad603e692b i2c: isch: Use custom private data structure
-086c52ac6df3d899656e43cb00118d919c39fef4 i2c: isch: switch i2c registration to devm functions
-4d3b52af5e4d367fb662bf9087c718a43636ea98 i2c: isch: Utilize temporary variable to hold device pointer
-94207566f9ffe7a0b80fe6466920541a6d315b84 i2c: isch: Use read_poll_timeout()
-8468ce00c4c3d68fc3355898b8f1c78faad13395 i2c: isch: Unify the name of the variable to hold an error code
-e5a86184a040d39d716173d523b7249af40e8209 i2c: isch: Don't use "proxy" headers
-48f7e5fb9f41f24b27e478dbfd00e51aa7756705 i2c: isch: Prefer to use octal permission
-13491b2adcc053174b7d044517eb550803fd3a3b i2c: isch: Convert to kernel-doc
-a7010088ff7cced10196bc8f96800fdcd90a38d1 i2c: i801: Add support for Intel Panther Lake
-fbe4657189f65dfb521d141ce586e553e93bbf74 i2c: piix4: Change the parameter list of piix4_transaction function
-6ce874c57eb3e2923d7797932fced256eb42c551 i2c: piix4: Move i2c_piix4 macros and structures to common header
-0093e0cb89b5b8cd663c036958ee79765a122adf i2c: piix4: Export i2c_piix4 driver functions as library
-9d53770577d0825aa2a41659a165c013b0d3bea8 i2c: amd-asf: Add ACPI support for AMD ASF Controller
-dcfec67642ad1cdfc4028c05557c9f590e19377c i2c: amd-asf: Add i2c_algorithm operations to support AMD ASF with SMBus
-dd65a510647e22f88b0577a758dfc513fe007284 i2c: amd-asf: Add routine to handle the ASF slave process
-c9fee6be0f9bedebd1922bf21b8768d4448d8b0b i2c: amd-asf: Clear remote IRR bit to get successive interrupt
-8687c5a5f34579e66c46d4b00ac803b59a09366d MAINTAINERS: Add AMD ASF driver entry
-89332471114370d6ada33fedf44bb571a73fa795 i2c: designware: Use temporary variable for struct device
-4f9563ea666373fa94a9a46b175dce2660679f63 i2c: designware: Get rid of redundant 'else'
-67dc4b14d0e95db209d03d58fe64f2560133a17b i2c: designware: Remove 'cond' from i2c_dw_scl_hcnt()
-40c7a9c880712b64e72c053a930175c314cf70b2 i2c: designware: Use sda_hold_time variable name everywhere
-3a86e71fa6bc539957d092fecd2bdb498dd5ece8 i2c: designware: Fix spelling and other issues in the comments
-5dfd5eeba242b2f9605fe37dcc4230441fa8ba00 i2c: amd-asf: Fix uninitialized variables issue in amd_asf_process_target
-47c5e1052da5e291666a001063b564c297666934 i2c: npcm: correct the read/write operation procedure
-b985f5e9ffd5b749e3c2b3a041048130b00d6c57 i2c: npcm: use a software flag to indicate a BER condition
-c00452a7df060841f2b9c0c2ea6623cb743a1f80 dt-bindings: i2c: qcom-cci: Document SDM670 compatible
-823dfb7bdb21f842a4df062b0c15acaaf1ef4fe7 i2c: qcom-cci: Stop complaining about DT set clock rate
-41bb894dcf629482c68fc74f0ee0a469504aae90 i2c: qcom-geni: Support systems with 32MHz serial engine clock
-b0969b648d01783f14efa6be97e8825530a318ec i2c: Switch back to struct platform_driver::remove()
-c8b304173cd4eaac5c3e2079e40f45a521875a1d i2c: designware: constify abort_sources
-21291df3e96eb94ce1800029bb4c97fbc0abd8ff dt-bindings: i2c: microchip: corei2c: Add PIC64GX as compatible with driver
-d5867c5b69e6f917e1a55d0e780119d1f300b172 i2c: qcom-geni: Keep comment why interrupts start disabled
-c1a4bda4ad4ea696634e8e19b0fb8ffcda823519 ACPI: APD: Add clock frequency for HJMC01 I2C controller
-d1c1ef8198e420b41e40f6ac9b542f7e79ed6909 i2c: designware: Add a new ACPI HID for HJMC01 I2C controller
 
---===============6174866026635272522==--
+--===============4918338457871985779==--
