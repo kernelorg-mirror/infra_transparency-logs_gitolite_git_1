@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Oct 2024 09:41:28 -0000
-Message-Id: <172967648819.3255654.11077903280519997391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Oct 2024 09:51:17 -0000
+Message-Id: <172967707745.3263418.16852835719344789567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 8a7d12d674ac6f2147c18f36d1e15f1a48060edf
-    new: 34d35b4edbbe890a91bec939bfd29ad92517a52b
+    old: 94fa523e20c3d6659fd0d3090a28f1c43582299e
+    new: 83c289e81e88d01e55d6d56531502ed7b4886a05
     log: |
-         34d35b4edbbe890a91bec939bfd29ad92517a52b net/sched: act_api: deny mismatched skip_sw/skip_hw flags for actions created by classifiers
+         83c289e81e88d01e55d6d56531502ed7b4886a05 net/sched: act_api: unexport tcf_action_dump_1()
          
