@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
-Date: Wed, 23 Oct 2024 11:36:55 -0000
-Message-Id: <172968341595.3350133.9409262876498157520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Oct 2024 11:37:22 -0000
+Message-Id: <172968344275.3350493.14180705070956256566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/next-analysis
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: db11adc1df1eb52d88f5323de4388a316b2564e6
-    new: aa55236dae0205f1022b5c98ee5ce58109ea037c
+  - ref: refs/heads/main
+    old: c972c1c41d9b20fb38b54e77dcee763e27e715a9
+    new: 7cfc1b1fa8673fe386304194d4cc2c8fe555bbf9
     log: |
-         fd3aed2937984ccebaf9a8531e3d896b740a3d2a Improvements to histo generation
-         ae43f3c81aefb496087114d153801938d5b21675 Update DB
-         aa55236dae0205f1022b5c98ee5ce58109ea037c Add a count to ML lookups too
+         e44ef3f66c5472c2cbc6957c684d7279c26b0db1 netpoll: remove ndo_netpoll_setup() second argument
+         7cfc1b1fa8673fe386304194d4cc2c8fe555bbf9 net: netdev_tx_sent_queue() small optimization
          
