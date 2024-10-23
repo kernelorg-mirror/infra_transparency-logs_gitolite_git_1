@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 23 Oct 2024 14:46:38 -0000
-Message-Id: <172969479867.3506345.2575684235004661821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 23 Oct 2024 14:48:40 -0000
+Message-Id: <172969492010.3507275.3012683561701280201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 18c8c4eb6e83f7d1210a49433d6bfd02862ddd21
-    new: d822ca29a4fc5278fb511790dace44836e8cc40d
+  - ref: refs/heads/resize-rings
+    old: c4293a2aa484a522a91cefad9f05571e4740bb67
+    new: 91f20c62b615eea1df51024df32459fd2d541b6b
     log: |
-         ecabac70ff919580324b407818ee3e6c0004dcf8 perf trace augmented_raw_syscalls: Add extra array index bounds checking to satisfy some BPF verifiers
-         395d38419f1853decab84acc16176b3fa5c96690 perf trace augmented_raw_syscalls: Add more checks to pass the verifier
-         7fbff3c0e085745b99f220ad56fcee3ea9643d87 perf build: Change the clang check back to 12.0.1
-         5d35634ecc2d2c3938bd7dc23df0ad046da1b303 perf trace: Fix non-listed archs in the syscalltbl routines
-         d822ca29a4fc5278fb511790dace44836e8cc40d tools headers UAPI: Sync kvm headers with the kernel sources
+         91f20c62b615eea1df51024df32459fd2d541b6b test/resize-rings: add overflow and copy test case
          
