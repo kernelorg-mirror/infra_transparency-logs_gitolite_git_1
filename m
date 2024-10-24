@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 24 Oct 2024 21:00:40 -0000
-Message-Id: <172980364046.794371.11978159216445187840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 24 Oct 2024 21:03:19 -0000
+Message-Id: <172980379938.795487.10942970408827646623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 65073ffcfa1ef67c4c69d0b697bbcc0e96c138e7
-    new: d81de65533dad020aec271883f8c9429980a2b04
+  - ref: refs/heads/locking/core
+    old: 77abd3b7d9bf384306872b6201b1dfeb1e899892
+    new: d12b802f183667d4c28589314c99c380a458d57e
     log: |
-         d81de65533dad020aec271883f8c9429980a2b04 unit: add test with list of known unsupported frequencies
+         d12b802f183667d4c28589314c99c380a458d57e locking/rtmutex: Fix misleading comment
          
