@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 24 Oct 2024 15:07:37 -0000
-Message-Id: <172978245775.497523.2007749411889681813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 24 Oct 2024 15:08:38 -0000
+Message-Id: <172978251818.498011.4426194202155470886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 2cf81c33a02bcb9f39fd385f4bbab65e8416fe77
-    new: af384b24980f03e10149a8da78bcda1ba2d6aade
+    old: 1fa0b27acbc58eaacea48ab7edf295db463291b6
+    new: cb9a656f83a705e195a25cba9f4ca25f8c9838e0
     log: |
-         af384b24980f03e10149a8da78bcda1ba2d6aade treewide: Remove stray ';' characters
+         cb9a656f83a705e195a25cba9f4ca25f8c9838e0 Revert "libkmod: call fnmatch() only as needed"
          
