@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0965875707501784083=="
+Content-Type: multipart/mixed; boundary="===============7400539714265881932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 24 Oct 2024 06:06:03 -0000
-Message-Id: <172974996369.64669.16069056215080390315@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 06:06:15 -0000
+Message-Id: <172974997549.64855.5506319561840666548@gitolite.kernel.org>
 
---===============0965875707501784083==
+--===============7400539714265881932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 6d951576ee16430822a8dee1e5c54d160e1de87d
+  - ref: refs/heads/master
+    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
     new: 42f7652d3eb527d03665b09edac47f85fb600924
-    log: revlist-6d951576ee16-42f7652d3eb5.txt
+    log: revlist-8e929cb546ee-42f7652d3eb5.txt
 
---===============0965875707501784083==
+--===============7400539714265881932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d951576ee16-42f7652d3eb5.txt
+Content-Disposition: attachment; filename=revlist-8e929cb546ee-42f7652d3eb5.txt
 
 38d222b3163f7b7d737e5d999ffc890a12870e36 9p: v9fs_fid_find: also lookup by inode if not found dentry
 1325e4a91a405f88f1b18626904d37860a4f9069 9p: Enable multipage folios
@@ -494,6 +494,8 @@ cb560795c8c2ceca1d36a95f0d1b2eafc4074e37 Merge branch 'mlx5-misc-fixes-2024-10-1
 3543152f2d330141d9394d28855cb90b860091d2 vsock: Update rx_bytes on read_skb()
 6dafde852df8de3617d4b9f835b629aaeaccd01d vsock: Update msg_count on read_skb()
 19039f279797efbe044cae41ee216c5fe481fc33 bpf, vsock: Drop static vsock_bpf_prot initialization
+540eff5d7faf0c9330ec762da49df453263f7676 USB: serial: option: add support for Quectel EG916Q-GL
+6d951576ee16430822a8dee1e5c54d160e1de87d USB: serial: option: add Telit FN920C04 MBIM compositions
 8f7033aa4089fbaf7a33995f0f2ee6c9d7b9ca1b io_uring/sqpoll: ensure task state is TASK_RUNNING when running task_work
 e59db0623f6955986d1be0880b351a1f56e7fd6d riscv, bpf: Make BPF_CMPXCHG fully ordered
 bea07fd63192b61209d48cbb81ef474cc3ee4c62 maple_tree: correct tree corruption on spanning store
@@ -570,4 +572,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============0965875707501784083==--
+--===============7400539714265881932==--
