@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7481015336147943760=="
+Content-Type: multipart/mixed; boundary="===============1311738239267054420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 24 Oct 2024 15:48:41 -0000
-Message-Id: <172978492123.532167.6785010987571050959@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 15:48:50 -0000
+Message-Id: <172978493018.532361.263428006781914230@gitolite.kernel.org>
 
---===============7481015336147943760==
+--===============1311738239267054420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 37756257093bf1bda0bb034f4f1bd3219c7b2a40
     new: 3d4050fbebe0a068b3687d758e940f7ddc5e60c2
     log: revlist-37756257093b-3d4050fbebe0.txt
 
---===============7481015336147943760==
+--===============1311738239267054420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git:/
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 3d4050fbebe0a068b3687d758e940f7ddc5e60c2 pinctrl: intel: Add a human readable decoder for pull bias values
 
---===============7481015336147943760==--
+--===============1311738239267054420==--
