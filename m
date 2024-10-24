@@ -1,36 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 24 Oct 2024 16:58:20 -0000
-Message-Id: <172978910069.593772.17651932218469629989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 24 Oct 2024 17:12:23 -0000
+Message-Id: <172978994362.605013.14544889459088774872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-6.12-fixes
-    old: 9b3c11a867a82ebee4e096008014417918b82801
-    new: 4f7f417042b242c1e5a9ed03741acb5d900e0871
+  - ref: refs/heads/master
+    old: a2b2f66c4c857298ec71b1b1de653f334b249e29
+    new: 65073ffcfa1ef67c4c69d0b697bbcc0e96c138e7
     log: |
-         4f7f417042b242c1e5a9ed03741acb5d900e0871 sched_ext: Fix function pointer type mismatches in BPF selftests
-         
-  - ref: refs/heads/for-6.13
-    old: dfa4ed29b18c5f26cd311b0da7f049dbb2a2b33b
-    new: b7d0bbcf0c9828dd6974f8c1ccbdf2e13f3ad73f
-    log: |
-         cf583264d025d5c895bd9a364ae33622adececd7 sched_ext: Rename CFI stubs to names that are recognized by BPF
-         b7d0bbcf0c9828dd6974f8c1ccbdf2e13f3ad73f sched_ext: Replace set_arg_maybe_null() with __nullable CFI stub tags
-         
-  - ref: refs/heads/for-next
-    old: 8814268f6f1f77228043baa41862be4528c1d0d1
-    new: 42298f757a9b144d500942abe88b8552f4b9eeff
-    log: |
-         4f7f417042b242c1e5a9ed03741acb5d900e0871 sched_ext: Fix function pointer type mismatches in BPF selftests
-         cf583264d025d5c895bd9a364ae33622adececd7 sched_ext: Rename CFI stubs to names that are recognized by BPF
-         b7d0bbcf0c9828dd6974f8c1ccbdf2e13f3ad73f sched_ext: Replace set_arg_maybe_null() with __nullable CFI stub tags
-         0b8aa8a2ce01cdf053f5313325106d05b313856b Merge branch 'for-6.12-fixes' into for-next
-         42298f757a9b144d500942abe88b8552f4b9eeff Merge branch 'for-6.13' into for-next
+         8e10e0090466af30570006a7c20dc515212de9e0 band: correct oper class 136 starting frequency
+         e0727bfeb64f2bd33f9e1a28bd59cf2706f9961d nl80211util: check band when parsing supported frequencies
+         d0b9fc84b561b7c7116987ef1871de1f1a5d20de band: check the operating class band before checking e4
+         65073ffcfa1ef67c4c69d0b697bbcc0e96c138e7 util: warn on invalid channels when iterating a frequency set
          
