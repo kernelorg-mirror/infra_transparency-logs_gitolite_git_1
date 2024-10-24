@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 24 Oct 2024 16:45:20 -0000
-Message-Id: <172978832058.584220.13881338893847490834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 24 Oct 2024 16:50:18 -0000
+Message-Id: <172978861875.588678.18045341023318799230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b77d88003eb53fa18dc502d2ccec6c7b576a5630
-    new: 58ba3891baf6285cb0085a9d026844905de3821a
+    old: 00fd776fc2568a69e23b9bb284ca0e95f27e47da
+    new: 80f8dc9399f57217581fe65ae2eb4d64a8e8257b
     log: |
-         58ba3891baf6285cb0085a9d026844905de3821a tests/flexible_arrays: Print flex array struct from same vmlinux
+         80f8dc9399f57217581fe65ae2eb4d64a8e8257b treewide: Remove commented out code
          
