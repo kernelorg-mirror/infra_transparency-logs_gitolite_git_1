@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7617501442667116995=="
+Content-Type: multipart/mixed; boundary="===============2606882890299093009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 24 Oct 2024 00:56:55 -0000
-Message-Id: <172973141596.4009400.4409526468612669915@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 00:57:00 -0000
+Message-Id: <172973142055.4009551.3647551831061943358@gitolite.kernel.org>
 
---===============7617501442667116995==
+--===============2606882890299093009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
+  - ref: refs/heads/next
     old: 3848868b73458baa64d29f4e9c124afb51ab94b6
     new: b77d88003eb53fa18dc502d2ccec6c7b576a5630
     log: revlist-3848868b7345-b77d88003eb5.txt
 
---===============7617501442667116995==
+--===============2606882890299093009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e91433cb3bb5bf58661ca3079fd1887b4b310ec0 tests: Use PAHOLE_LANG_EXCLUDE=rust to 
 11b59c00770dbe26eac50b67b901c96c33819e4a tests/btf_functions: Redirect stderr for pfunct --format_path=btf
 b77d88003eb53fa18dc502d2ccec6c7b576a5630 btf_encoder: Use the ELF_C_READ_MMAP mode with elf_begin()
 
---===============7617501442667116995==--
+--===============2606882890299093009==--
