@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 24 Oct 2024 08:23:33 -0000
-Message-Id: <172975821332.171062.3748406471637264011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 24 Oct 2024 08:29:34 -0000
+Message-Id: <172975857443.175529.8239401116010326057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 99d4f2f252dbbc665faa28713c248737288dcead
-    new: 6bd975925b22ca6dca27b6eeac652ddc9f1165a1
-    log: |
-         6bd975925b22ca6dca27b6eeac652ddc9f1165a1 gsupplicant: fix ASAN issue
-         
+  - ref: refs/heads/gpio-no-irq-core
+    old: 56933542ce1c4bc98ea9e701609ac91333414944
+    new: 2c03ad1dfd8418ab768c325b93217bb7ef70d7ce
