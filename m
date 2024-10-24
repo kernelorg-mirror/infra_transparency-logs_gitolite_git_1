@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 24 Oct 2024 18:56:19 -0000
-Message-Id: <172979617995.695252.8831581992851321695@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 18:56:21 -0000
+Message-Id: <172979618166.695328.10680878246721449967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.12
-    old: 7af1418500124150f9fd24e1a5b9c288771df271
-    new: 54376fe116ef69c9e58794589c044abb2555169e
+  - ref: refs/heads/for-next
+    old: 099d5e9b567b8cfdca80c0bf2e550be578ba9575
+    new: dd73c2085647a1e10ba394f278fb6540159ae815
     log: |
          f3bba5eb46ddb8f460fc808a65050a9bf2f7ef23 arm64: dts: qcom: x1e80100: fix PCIe4 interconnect
          54376fe116ef69c9e58794589c044abb2555169e arm64: dts: qcom: x1e80100: fix PCIe5 interconnect
-         
-  - ref: refs/heads/drivers-fixes-for-6.12
-    old: 128fdbf36cddc2a901c4889ba1c89fa9f2643f2c
-    new: f8c879192465d9f328cb0df07208ef077c560bb1
-    log: |
          a387e73fedd6307c0e194deaa53c42b153ff0bd6 rpmsg: glink: Handle rejected intent request better
          f8c879192465d9f328cb0df07208ef077c560bb1 soc: qcom: pmic_glink: Handle GLINK intent allocation rejections
+         dd73c2085647a1e10ba394f278fb6540159ae815 Merge branches 'arm32-for-6.13', 'arm64-defconfig-for-6.13', 'arm64-fixes-for-6.12', 'arm64-for-6.13', 'clk-fixes-for-6.12', 'clk-for-6.13', 'drivers-fixes-for-6.12' and 'drivers-for-6.13' into for-next
          
