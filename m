@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6545965096569123733=="
+Content-Type: multipart/mixed; boundary="===============8753193625110064946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 24 Oct 2024 19:41:01 -0000
-Message-Id: <172979886195.731039.17348519122801316196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 24 Oct 2024 20:11:40 -0000
+Message-Id: <172980070005.754089.5545271027705680010@gitolite.kernel.org>
 
---===============6545965096569123733==
+--===============8753193625110064946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 912bf26eced767b39b2e55691f56f2a3e5884e55
-    new: 759a3ceba34a59e36d2396f5e16fc260fffa22ca
-    log: revlist-912bf26eced7-759a3ceba34a.txt
+  - ref: refs/heads/dev-queue
+    old: 3be3795a072e35edd21bbaa33b76f0e71f57491d
+    new: d285d591b911627efa2d7ac91bbe91f606ab263c
+    log: revlist-3be3795a072e-d285d591b911.txt
 
---===============6545965096569123733==
+--===============8753193625110064946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-912bf26eced7-759a3ceba34a.txt
+Content-Disposition: attachment; filename=revlist-3be3795a072e-d285d591b911.txt
 
-e2226dbc4a4919d9c8bd9293299b532090bdf020 PCI: cpqphp: Fix PCIBIOS_* return value confusion
-752430d1d33ed69653a6e8dbdf01f83cdf5be574 PCI: cpqphp: Use pci_bus_read_dev_vendor_id() to detect presence
-de2cdf110a39a660e810979e480761fed9842436 PCI: cpqphp: Use define to read class/revision dword
-5a02413a4586a7cfa10b7380377138e66db9df4b PCI: cpqphp: Simplify PCI_ScanBusForNonBridge()
-7447990137bf06b2aeecad9c6081e01a9f47f2aa PCI/ASPM: Disable L1 before disabling L1 PM Substates
-6d6d962a8dc237df3681a8c0aa130963e2da8976 PCI: Make pci_stop_dev() concurrent safe
-7c04727fe56b72591610340f44cf99f4876bf0bc PCI: Make pci_destroy_dev() concurrent safe
-1e5856bba91bfc1d5ab404c0da4eee0e3c3d966c PCI: Move __pci_walk_bus() mutex to where we need it
-e24eafdda2716010c9438786d00f6dac2989da61 PCI: Convert __pci_walk_bus() to be recursive
-fad610b987132868e3410c530871086552ce6155 Documentation PCI: Reformat RMW ops documentation
-04af8a399fa40310f831b4f1dc9f757085f41983 PCI: Protect Link Control 2 Register with RMW locking
-73ee11953294ef282010d09b0dc26eccfc80360b PCI: Store all PCIe Supported Link Speeds
-23bf2d29de0005c2eea751b83ec66f96a34456a3 PCI: Refactor pcie_update_link_speed()
-b7d593cb31997b6feb4ebcdb2ac864aabaa27f1f PCI: Abstract LBMS seen check into pcie_lbms_seen()
-ab679834c47572542b8f9f42dd0839aace152fae PCI: Unexport pci_walk_bus_locked()
-33388e8412a9f4d628bf84f03018bcdef446203e PCI/bwctrl: Re-add BW notification portdrv as PCIe BW controller
-9b3da6e19e4df7ead28c46daf1792856234657f3 PCI/bwctrl: Add pcie_set_target_speed() to set PCIe Link Speed
-5332163909b5218aad30e7b162e7c154cf24675b thermal: Add PCIe cooling driver
-18956ececba637e45fa1f2a91126d0421b3e05a5 selftests/pcie_bwctrl: Create selftests
-1064ee85087910eb0f6ed45558194ae0d350969a Merge branch 'pci/aspm'
-e821aacb26a360c1d3352641a2fed10a21436681 Merge branch 'pci/bwctrl'
-6159925710544f0808efa02dd48f3c5cf9b3fd0c Merge branch 'pci/doe'
-6ab763955106a8e48686c8f3167b301fa2e69112 Merge branch 'pci/driver-remove'
-db5af7efa7523d18e98449217022846c0f984e5c Merge branch 'pci/enumeration'
-fa0529485e0dfe0f8b7f0bc21e902e63d581902c Merge branch 'pci/hotplug'
-3acd86c3caf0209ae8fbf7f8c9ca7632f556e63b Merge branch 'pci/locking'
-7a5e330764b2372dcf914b23c101172b9c1636a2 Merge branch 'pci/resource'
-0028aca5d897f37ec0be680d6094155dc6b76a21 Merge branch 'pci/tph'
-d07d8bfa8a5be938c0b1ec3f3bab091487d3fa67 Merge branch 'pci/dt-bindings'
-c425f8e0b5015a6b24d53535936fd41c7df92a05 Merge branch 'pci/endpoint'
-759a3ceba34a59e36d2396f5e16fc260fffa22ca Merge branch 'pci/misc'
+17feffdc642533bdbb6f6f2f7de9f6fa670ccae9 idpf: set completion tag for "empty" bufs associated with a packet
+208d8991ad1315a2e630d41e2bb5572bbdba7c29 ice: Unbind the workqueue
+bdfe97997ee83f9e5f0e2750d05d253c6ed44264 ice: Fix use after free during unload with ports in bridge
+2fcf217be1a74c1552bae2a960eb72a1a77385f8 ice: fix PHY Clock Recovery availability check
+be1c5d84ee11606ec0d5f0c5e61043fdc03021c7 ice: fix crash on probe for DPLL enabled E810 LOM
+f9fbab3892647ce248f3eccb4d8f473d84bfb79d ice: add recipe priority check in search
+30371c4543ae1bec6242b51cebe2faf756a780ae i40e: fix race condition by adding filter's intermediate sync state
+d3b9651502a26bd7702ca45a19ee14bcf8d8498f ice: only allow Tx promiscuous for multicast
+5b601993f4414773eae21fb9b781ff191e3a35dc igc: Link IRQs to NAPI instances
+dadc1bf9e7cf3564a1568d62e19708a2372d84da igc: Link queues to NAPI instances
+71962238d5a5c288ddc0e57c7de9943b65f78b57 ixgbe: Add support for E610 FW Admin Command Interface
+90a52fe1913e8b1478ef739d21bf81fcdd195d79 ixgbe: Add support for E610 device capabilities detection
+b0ba9de3fba137f2a100890d697180e7682d671a ixgbe: Add link management support for E610 device
+fee95ecc739a82c981ec535946a6bbfdc7d8e3b1 ixgbe: Add support for NVM handling in E610 device
+351de6b3164008c03fc9509e1fc7bab5ae982fe5 ixgbe: Add ixgbe_x540 multiple header inclusion protection
+60ec21fdcbfcd5c15bf9bdeafb6156e3f41d47cf ixgbe: Clean up the E610 link management related code
+7cf24e015b0278b66233c8638846972a9eecfeed ixgbe: Enable link management in E610 device
+9518dcebb0c44fe0d6e6987a0b942af6b35c98df ixgbe: Break include dependency cycle
+924a5b37134b7be87ce56c02b8092f790dcfdcce PCI: Add PCI_VDEVICE_SUB helper macro
+3ad7b357a7960fcde7b3ac13a08c989a2140e8af ixgbevf: Add support for Intel(R) E610 device
+d0fe561a94ba8bc7fc8752fc5592c9c7bfe1f908 igb: Remove static qualifiers
+7ca47684423a5c0ba4fe787f14db2a1ad0b6f925 igb: Introduce igb_xdp_is_enabled()
+95d9d9cad8905ae767a514581faa0c44bfa66569 igb: Introduce XSK data structures and helpers
+13d604104f146354f6512826f53bc9803344c1b6 igb: Add XDP finalize and stats update functions
+cf083ec6ca35d7e99114eda35dc9d0c414481e52 igb: Add AF_XDP zero-copy Rx support
+f2493075a27377364525ed624df1172e3bdfc3e8 igb: Add AF_XDP zero-copy Tx support
+a4c7b34628183a597258ba612680db3157b085a7 ice: refactor "last" segment of DDP pkg
+d285d591b911627efa2d7ac91bbe91f606ab263c ice: support optional flags in signature segment header
 
---===============6545965096569123733==--
+--===============8753193625110064946==--
