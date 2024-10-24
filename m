@@ -1,58 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8753193625110064946=="
+Content-Type: multipart/mixed; boundary="===============8685764020658843090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 24 Oct 2024 20:11:40 -0000
-Message-Id: <172980070005.754089.5545271027705680010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 24 Oct 2024 20:13:02 -0000
+Message-Id: <172980078293.754816.10997211790021471082@gitolite.kernel.org>
 
---===============8753193625110064946==
+--===============8685764020658843090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3be3795a072e35edd21bbaa33b76f0e71f57491d
-    new: d285d591b911627efa2d7ac91bbe91f606ab263c
-    log: revlist-3be3795a072e-d285d591b911.txt
+  - ref: refs/heads/fix-async-copy
+    old: 0c24a420523538199c1e29445b7163890e7f9a7f
+    new: 6a5eeb52d3e034c467ab60e9870c38714c561c44
+    log: revlist-0c24a4205235-6a5eeb52d3e0.txt
 
---===============8753193625110064946==
+--===============8685764020658843090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3be3795a072e-d285d591b911.txt
+Content-Disposition: attachment; filename=revlist-0c24a4205235-6a5eeb52d3e0.txt
 
-17feffdc642533bdbb6f6f2f7de9f6fa670ccae9 idpf: set completion tag for "empty" bufs associated with a packet
-208d8991ad1315a2e630d41e2bb5572bbdba7c29 ice: Unbind the workqueue
-bdfe97997ee83f9e5f0e2750d05d253c6ed44264 ice: Fix use after free during unload with ports in bridge
-2fcf217be1a74c1552bae2a960eb72a1a77385f8 ice: fix PHY Clock Recovery availability check
-be1c5d84ee11606ec0d5f0c5e61043fdc03021c7 ice: fix crash on probe for DPLL enabled E810 LOM
-f9fbab3892647ce248f3eccb4d8f473d84bfb79d ice: add recipe priority check in search
-30371c4543ae1bec6242b51cebe2faf756a780ae i40e: fix race condition by adding filter's intermediate sync state
-d3b9651502a26bd7702ca45a19ee14bcf8d8498f ice: only allow Tx promiscuous for multicast
-5b601993f4414773eae21fb9b781ff191e3a35dc igc: Link IRQs to NAPI instances
-dadc1bf9e7cf3564a1568d62e19708a2372d84da igc: Link queues to NAPI instances
-71962238d5a5c288ddc0e57c7de9943b65f78b57 ixgbe: Add support for E610 FW Admin Command Interface
-90a52fe1913e8b1478ef739d21bf81fcdd195d79 ixgbe: Add support for E610 device capabilities detection
-b0ba9de3fba137f2a100890d697180e7682d671a ixgbe: Add link management support for E610 device
-fee95ecc739a82c981ec535946a6bbfdc7d8e3b1 ixgbe: Add support for NVM handling in E610 device
-351de6b3164008c03fc9509e1fc7bab5ae982fe5 ixgbe: Add ixgbe_x540 multiple header inclusion protection
-60ec21fdcbfcd5c15bf9bdeafb6156e3f41d47cf ixgbe: Clean up the E610 link management related code
-7cf24e015b0278b66233c8638846972a9eecfeed ixgbe: Enable link management in E610 device
-9518dcebb0c44fe0d6e6987a0b942af6b35c98df ixgbe: Break include dependency cycle
-924a5b37134b7be87ce56c02b8092f790dcfdcce PCI: Add PCI_VDEVICE_SUB helper macro
-3ad7b357a7960fcde7b3ac13a08c989a2140e8af ixgbevf: Add support for Intel(R) E610 device
-d0fe561a94ba8bc7fc8752fc5592c9c7bfe1f908 igb: Remove static qualifiers
-7ca47684423a5c0ba4fe787f14db2a1ad0b6f925 igb: Introduce igb_xdp_is_enabled()
-95d9d9cad8905ae767a514581faa0c44bfa66569 igb: Introduce XSK data structures and helpers
-13d604104f146354f6512826f53bc9803344c1b6 igb: Add XDP finalize and stats update functions
-cf083ec6ca35d7e99114eda35dc9d0c414481e52 igb: Add AF_XDP zero-copy Rx support
-f2493075a27377364525ed624df1172e3bdfc3e8 igb: Add AF_XDP zero-copy Tx support
-a4c7b34628183a597258ba612680db3157b085a7 ice: refactor "last" segment of DDP pkg
-d285d591b911627efa2d7ac91bbe91f606ab263c ice: support optional flags in signature segment header
+7029bee00a7a75ba43c2c832f8040d5971a04458 NFS: CB_OFFLOAD can return NFS4ERR_DELAY
+b3c615a5b7736536d8d30c1ca030914de36cbea1 NFS: Fix typo in OFFLOAD_CANCEL comment
+8bef690171db01afb43a62c7d51ce64010695142 NFSD: Add a tracepoint to record canceled async COPY operations
+38b172292b243420bd5c41d67dbb9f0169ef1f2e NFSD: Fix nfsd4_shutdown_copy()
+95cceabcbbca9e4654059713db3490a3eb35b174 NFSD: Free async copy information in nfsd4_cb_offload_release()
+800aa58136d14a891f00882b6270aa162fbf5071 NFSD: Handle an NFS4ERR_DELAY response to CB_OFFLOAD
+d9aa241a48bbe052a5613731bc6cfd493bc57d9d NFSD: Make cleanup_async_copy() globally visible
+c2de3ce8478b7f44e7601eddddbd739d67390c72 NFSD: Add a laundromat reaper for async copy state
+be0adad6d90a0aba9e6f4074a5b80b53cb0bd438 NFSD: Add nfsd4_copy time-to-live
+acd438a85554cb9dd81ac383d4ccd664f1cb6a18 NFS: Rename struct nfs4_offloadcancel_data
+2ec3c49a2d78b907fb55fae511e3c3b83637c5b5 NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
+7225e8910a5f7bc9fdde4005b5b8f8b2e51ad462 NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
+02a23ee3c454e4a74ceb03e3c5e3f7e4762bfbfe NFS: Use NFSv4.2's OFFLOAD_STATUS operation
+6a5eeb52d3e034c467ab60e9870c38714c561c44 NFS: Refactor trace_nfs4_offload_cancel
 
---===============8753193625110064946==--
+--===============8685764020658843090==--
