@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 24 Oct 2024 02:57:01 -0000
-Message-Id: <172973862168.4108402.15739787359571129651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 24 Oct 2024 03:59:35 -0000
+Message-Id: <172974237596.4156206.12769301265795771784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 2d5a22cca9196849709a348b8504d160eae72922
-    new: 55198280f2ee7732f3755fe10ff268f069bdac10
+  - ref: refs/heads/master
+    old: c1deab2be36f4ca7e04a0fd1ef2188fed6cfbbda
+    new: 7155cf1db5a7879ffa9b2710e50628da3c32627a
     log: |
-         55198280f2ee7732f3755fe10ff268f069bdac10 nfsd/filecache: add nfsd_file_acquire_gc_cached
+         a3787fb134aa9a96db3c97891715108db882c80d tools: Extract options_from_array into opt.c
+         7155cf1db5a7879ffa9b2710e50628da3c32627a tools: Use options_from_array in insmod
          
