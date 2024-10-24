@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8060061485393885892=="
+Content-Type: multipart/mixed; boundary="===============0256797955874879804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 24 Oct 2024 09:54:12 -0000
-Message-Id: <172976365238.242727.7328280084986136634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 24 Oct 2024 09:55:47 -0000
+Message-Id: <172976374725.245708.8943840024858559641@gitolite.kernel.org>
 
---===============8060061485393885892==
+--===============0256797955874879804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b74a87248eece69224758c35f8d69f9bccee891e
-    new: 7cf90d204f50f8425d9e45a096ed5942f805e304
+  - ref: refs/heads/tty-next
+    old: ec8c17e5ecb4a5a74069687ccb6d2cfe1851302e
+    new: 44059790a5cb9258ae6137387e4c39b717fd2ced
     log: |
-         b7fc58ca77c78a6a7e74a506878ea350b9c84278 proposed: Add Ruiqi's CVE review of v6.10.14 & v6.11.3
-         7cf90d204f50f8425d9e45a096ed5942f805e304 move ruiqi's 6.10.14 review to "done"
+         44059790a5cb9258ae6137387e4c39b717fd2ced kfifo: don't include dma-mapping.h in kfifo.h
          
 
---===============8060061485393885892==
+--===============0256797955874879804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729763668 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1729763649-5b556f4dc3b54e1b9526dc447c104466bb7b4eb3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1729763764 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1729763746-3be9ff538d0185796aa58d3698cd3567075c9311
 
-b74a87248eece69224758c35f8d69f9bccee891e 7cf90d204f50f8425d9e45a096ed5942f805e304 refs/heads/master
+ec8c17e5ecb4a5a74069687ccb6d2cfe1851302e 44059790a5cb9258ae6137387e4c39b717fd2ced refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcaGVQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cQoQAJ841kzvcfQklXvEEsSK
-UZ2XYIv+0rgzlXj2YF0jTH4FYt1uU1kIUn5SB+j0EdyxR4C/5XhLX5OBJ/9DdMPB
-pnGhwip2woNJLC+GU42LTt0Ooryb2lWR+Reb8Tn2Cnj6mQjIvfWmspgUKzzGgqcN
-gBnRaxjxJ03bT3qlXP8SZDj4wbxPUof6haJYxyCzMn50GPdOHztfDJaifj3wzS7y
-bDMUmHS7t6l41/2jffyUcHvArmd7TOHb0muEiwlhnvgl0mKO8SlvWZVdVzQtX8SU
-/ZCb7UPWSOgvmVLYJgSQHAa1wN0iDliDQqEa8hxLDxg3RKMCMRZ0tXxmUQ+jernj
-G7t53fef9x6ByOLK32N8TtzPsPW+db8MrE5cCUQqVIGBJy88usrFMk7jwnov8faW
-HKlGr/sw9G/r0fisto7wkPcvakl4XOgJ9adg5AhyG2L9VwnTSE+W+MnvG71x57s9
-jR/D4rHoqpJZce2yZtyATWFiVnRXsgSLru3wMZdubyW+t6P0aEK3Q4SzybCEykgu
-LlDxh+NWbld9uD/L8vMQDIPOShDxo1poBvRksqTq/iDkfvHIK21u2e3HsgN+i4nK
-BSKK2Jibt9TmbWr+qJgeLGuKpLz6XrSbgx8Q5xxfa2e6vBK+YVKKj565yJLHO7l+
-ZAVLiKEpSESFVdMtNWBJvIHR
-=t3f0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcaGbQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zYcQAIwvF/sychMaYST0TDUs
+W10AM1qDyL2AYGy5YYWUT0zlsV9vBapEuPygXsHP5xogQqNl5TVLfcAsgLBgWMlu
+/ehGIhCmf7qtLAvcKqfxuMNq3RKawVeoRyxYwZdW0jKOa2uWiS5fK7XKwWWVAblH
+zVWxhnmiNtvE7x525WEFulxwhPnUvPFVJMfwdNVmUs8IrzYmFAF+emElMBk+waN2
+kQYHZmbBaQRmLvMS6L96pdgGPQpS7MBVTOGY8ziqm3JBCW4ny3a9ij4TcKJNJGKn
+6kg9EdznvaCbYMGLHZLsYc8Lox3mjDURfhT/uE6yFCSWmiKan+AEEU52KW+zPhZ+
+s5W/Io16wP06Wzkq/UJYCg42ow1FFm7iWgIPgsHBK8qbP+lhucqZrszDJYT49DCb
+OsZiTXPp/xpehwMbmPrbNhPIBhDncprDfO8rECDNJZAXah1KFqb0y+E4g5wR4rH+
+mmDeUDS6kNUf5co/NV3+lYAhUiGfSArLigx8fUITfPWVizEOynwPz1QH++r009kf
+y3xuNrwldZyxx197bVNkDqrvMm3qBiLohRbM7n0MLVZ2iEYiueGWqh5X5PvT9CEf
+Ia+GMHkMJbMLkp43bCrphTMAJ48P41dl/VmkdUhUOAGgcC9e6ixH9GjCc5gVeuRn
+pz3FP/b7zGQg734EZvf+JgED
+=6aGc
 -----END PGP SIGNATURE-----
 
---===============8060061485393885892==--
+--===============0256797955874879804==--
