@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 24 Oct 2024 22:09:45 -0000
-Message-Id: <172980778575.849226.1667512375904970750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 24 Oct 2024 22:14:57 -0000
+Message-Id: <172980809709.853594.5643277725998411868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/resize-rings
-    old: f360cc0441bf9dc3c6d81ce614532d68e7646bb9
-    new: 1462d41347a0390a5b78cab4404cabf27ce42c1a
+  - ref: refs/heads/netfs-writeback
+    old: de5e0c33c410ec04a3b0bbe83bce6dd063dcbda4
+    new: d206dc1726472ebe2d929cc1ee51e4c272707977
     log: |
-         1462d41347a0390a5b78cab4404cabf27ce42c1a test/resize-rings: add test case for mmap vs resize race
+         d206dc1726472ebe2d929cc1ee51e4c272707977 afs: fixes
          
