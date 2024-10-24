@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 24 Oct 2024 05:16:32 -0000
-Message-Id: <172974699248.24164.11883612828925143397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 24 Oct 2024 05:35:17 -0000
+Message-Id: <172974811784.39460.2431731557716668481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 0ee288e69d033850bc87abe0f9cc3ada24763d7f
-    new: 9806f283140ef3e4d259b7646bd8c66026bbaac5
+    old: 1e48f8a37add79ff0bc3080d71f3c31313cfe406
+    new: 1fa0b27acbc58eaacea48ab7edf295db463291b6
     log: |
-         9806f283140ef3e4d259b7646bd8c66026bbaac5 bpf: fix do_misc_fixups() for bpf_get_branch_snapshot()
+         33248df9eac7cba27e5a7b73f8e1fb4350adf399 libkmod: Const annotate read_*_mm API
+         b3a7664fea8ac352d626a6b4712232ab528b3c1e libkmod: Fix typos
+         cab7ddd5ddeb597acfcfa229c0ca7152a21ed034 libkmod: Simplify index search functions
+         1fa0b27acbc58eaacea48ab7edf295db463291b6 libkmod: Read mm index node content on demand
          
