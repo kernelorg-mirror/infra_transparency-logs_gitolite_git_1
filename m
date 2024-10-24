@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 24 Oct 2024 14:25:03 -0000
-Message-Id: <172977990342.462957.16883170980100119969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 24 Oct 2024 14:26:50 -0000
+Message-Id: <172978001013.464303.15891531516592815952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: ba98be0356215dd3fdfb0cd40d7bf4cde4d7359a
-    new: d35bae15152bb61008f4ca5643184377ef31c7ff
+    old: c3ce9611611f65f2115b158132002cb3cc3f8cd6
+    new: 2cf81c33a02bcb9f39fd385f4bbab65e8416fe77
     log: |
-         f93a73b2a54c8b742f601bd3e15b6fb8407e4f44 shared/bap: Fix crash on bt_bap_stream_disable
-         d35bae15152bb61008f4ca5643184377ef31c7ff obex: Resolve SRM issue for PTS testcases
+         a2adfca2cb0a5b0857ed7843fe66d21fe1fccb86 atmodem: let +COPS: report access technology for SIMCom
+         8d1c9dfcb161e9dc8d529d409ba558c19e61fe9e network: allow status' and notifications on eutran networks
+         2cf81c33a02bcb9f39fd385f4bbab65e8416fe77 gprs: allow attached updates and status' on eutran networks
          
