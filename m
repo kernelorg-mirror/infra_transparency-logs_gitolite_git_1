@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2661674023171673771=="
+Content-Type: multipart/mixed; boundary="===============5705106364257170149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 24 Oct 2024 21:13:01 -0000
-Message-Id: <172980438168.803515.16286722366279329087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 24 Oct 2024 21:13:08 -0000
+Message-Id: <172980438847.803781.14523221813466770476@gitolite.kernel.org>
 
---===============2661674023171673771==
+--===============5705106364257170149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 075fde581896bde171d43a994df8617b9728eae7
     log: revlist-6c475de36f92-075fde581896.txt
 
---===============2661674023171673771==
+--===============5705106364257170149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ce16531d48e34c8d2bed09c6d14abca74bc0830a Merge patch series "Prevent dynamic rel
 036a1407b4d49790ca5b35436d02de62212bc790 KVM: riscv: selftests: Add Smnpm and Ssnpm to get-reg-list test
 075fde581896bde171d43a994df8617b9728eae7 Merge patch series "riscv: Userspace pointer masking and tagged address ABI"
 
---===============2661674023171673771==--
+--===============5705106364257170149==--
