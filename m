@@ -1,64 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6383311756368503371=="
+Content-Type: multipart/mixed; boundary="===============8641692489697256563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 24 Oct 2024 17:31:49 -0000
-Message-Id: <172979110932.622901.7458522546409160919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Oct 2024 17:32:39 -0000
+Message-Id: <172979115940.623431.14400293446041418470@gitolite.kernel.org>
 
---===============6383311756368503371==
+--===============8641692489697256563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-6.13/arm64/dt
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 2433e22233f07b2e03034fffcbaf6c26b5838bb6
-    log: |
-         b8b248de004251625fa0b285cea007eff3441e6d arm64: tegra: Create SKU8 AGX Orin board file
-         2e57d3dc7bff60b9fb05eaaf4ebad87cd3651068 arm64: tegra: p2180: Add mandatory compatible for WiFi node
-         c8d63aa0f14adce3d01a3b776b5ea6a33620891d arm64: dts: nvidia: tegra210-smaug: Add touchscreen node
-         b219fe91d3140cddb53538c169f7cb2f6f05e75a arm64: dts: nvidia: tegra210-smaug: Add TMP451 temperature sensor node
-         87b90082179daf87969ad9ff44032acc59d9086a arm64: tegra: Add SDMMC sdr104-offsets for Tegra X1
-         2433e22233f07b2e03034fffcbaf6c26b5838bb6 arm64: tegra: smaug: Declare cros-ec extcon
-         
-  - ref: refs/heads/for-6.13/dt-bindings
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 1f451e2493a66345aefd13490d058e46dc25b459
-    log: |
-         1f451e2493a66345aefd13490d058e46dc25b459 dt-bindings: arm: Tegra234 Industrial Module
-         
-  - ref: refs/heads/for-6.13/firmware
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 61c6fe3d6f0e1606a2219ff8afbac7e5068a5795
-    log: |
-         61c6fe3d6f0e1606a2219ff8afbac7e5068a5795 Revert "firmware: tegra: bpmp: Use scoped device node handling to simplify error paths"
-         
-  - ref: refs/heads/for-next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 2a4425682b6f01969de601a71775f8865e80e763
-    log: revlist-9852d85ec9d4-2a4425682b6f.txt
+  - ref: refs/heads/master
+    old: 39b8ab1519687054769bc07feb97821fc40f56e2
+    new: c6fb8030b4baa01c850f99fc6da051b1017edc46
+    log: revlist-39b8ab151968-c6fb8030b4ba.txt
 
---===============6383311756368503371==
+--===============8641692489697256563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-2a4425682b6f.txt
+Content-Disposition: attachment; filename=revlist-39b8ab151968-c6fb8030b4ba.txt
 
-1f451e2493a66345aefd13490d058e46dc25b459 dt-bindings: arm: Tegra234 Industrial Module
-b8b248de004251625fa0b285cea007eff3441e6d arm64: tegra: Create SKU8 AGX Orin board file
-61c6fe3d6f0e1606a2219ff8afbac7e5068a5795 Revert "firmware: tegra: bpmp: Use scoped device node handling to simplify error paths"
-2e57d3dc7bff60b9fb05eaaf4ebad87cd3651068 arm64: tegra: p2180: Add mandatory compatible for WiFi node
-c8d63aa0f14adce3d01a3b776b5ea6a33620891d arm64: dts: nvidia: tegra210-smaug: Add touchscreen node
-b219fe91d3140cddb53538c169f7cb2f6f05e75a arm64: dts: nvidia: tegra210-smaug: Add TMP451 temperature sensor node
-87b90082179daf87969ad9ff44032acc59d9086a arm64: tegra: Add SDMMC sdr104-offsets for Tegra X1
-2433e22233f07b2e03034fffcbaf6c26b5838bb6 arm64: tegra: smaug: Declare cros-ec extcon
-8b87e0eacef1002ffe461a486d4a428b7513fc62 Merge branch for-6.13/firmware into for-next
-fd0fa0f3dc51a51b5295a050664d5692a793fd57 Merge branch for-6.13/dt-bindings into for-next
-2a4425682b6f01969de601a71775f8865e80e763 Merge branch for-6.13/arm64/dt into for-next
+1cb80d9e93f861018fabe81a69ea0ded20f5a2d0 bpf: Support __uptr type tag in BTF
+99dde42e37497b3062516b1db7231f9dec744a00 bpf: Handle BPF_UPTR in verifier
+b9a5a07aeaa2a903fb1306eb422880b2fa5f937f bpf: Add "bool swap_uptrs" arg to bpf_local_storage_update() and bpf_selem_alloc()
+5bd5bab76669b1e1551f03f5fcbc165f3fa8d269 bpf: Postpone bpf_selem_free() in bpf_selem_unlink_storage_nolock()
+9bac675e6368b96f448289010caba4ee3320ab24 bpf: Postpone bpf_obj_free_fields to the rcu callback
+ba512b00e5efbf7e19cfb7fa9f66ce82669b7077 bpf: Add uptr support in the map_value of the task local storage.
+7aa12b8d9f24e9623effa12a3fc330de056d572e libbpf: define __uptr.
+4579b4a4279ec7df9499943f764da03ae837021c selftests/bpf: Some basic __uptr tests
+51fff4083372381e680724dde7ac3e859f9e3a0a selftests/bpf: Test a uptr struct spanning across pages.
+cbf9f849a3e86f1b7c041dfbeeae1c1fff0ddc8d selftests/bpf: Add update_elem failure test for task storage uptr
+898cbca4a7579bea3ab746cd8dc33027bff80dac selftests/bpf: Add uptr failure verifier tests
+bd5879a6fe4be407bf36c212cd91ed1e4485a6f9 selftests/bpf: Create task_local_storage map with invalid uptr's struct
+c6fb8030b4baa01c850f99fc6da051b1017edc46 Merge branch 'share-user-memory-to-bpf-program-through-task-storage-map'
 
---===============6383311756368503371==--
+--===============8641692489697256563==--
