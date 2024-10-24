@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5748932501672459899=="
+Content-Type: multipart/mixed; boundary="===============7987442332348802787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Thu, 24 Oct 2024 00:53:51 -0000
-Message-Id: <172973123121.4005497.11990737322410091585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 24 Oct 2024 00:54:24 -0000
+Message-Id: <172973126416.4005936.9744185913840518310@gitolite.kernel.org>
 
---===============5748932501672459899==
+--===============7987442332348802787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 758f18158952a6287ac23679ec04c32d44ca5368
     log: revlist-e934a35e3cc1-758f18158952.txt
 
---===============5748932501672459899==
+--===============7987442332348802787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d822ca29a4fc5278fb511790dace44836e8cc40d tools headers UAPI: Sync kvm headers wi
 06a130e42a5bfc84795464bff023bff4c16f58c5 perf test: Handle perftool-testsuite_probe failure due to broken DWARF
 758f18158952a6287ac23679ec04c32d44ca5368 perf python: Fix up the build on architectures without HAVE_KVM_STAT_SUPPORT
 
---===============5748932501672459899==--
+--===============7987442332348802787==--
