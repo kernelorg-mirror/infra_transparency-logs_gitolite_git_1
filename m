@@ -1,30 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 24 Oct 2024 17:49:37 -0000
-Message-Id: <172979217761.638012.15182955187995843277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 24 Oct 2024 17:51:46 -0000
+Message-Id: <172979230609.640713.15734167526731922990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/io_uring-reg-wait
-    old: 65cebf27a2d71d26fe2b6bc116433a715e378c6c
-    new: 0935537ea92aac22b1829a27822f528187e23cfe
+  - ref: refs/heads/fixes
+    old: c05ad457ce8c91793de0535c3c86fc67732e70ef
+    new: c9099cb2fa3dce05a6ec8284adf48398c061ea85
     log: |
-         1658b341b9afa1f240521a74d6d8aef500ed9fd0 io_uring/memmap: explicitly return -EFAULT for mmap on NULL rings
-         c5f419b6e6592d52036e80bf365cb529327b699a io_uring/register: add IORING_REGISTER_RESIZE_RINGS
-         a1b6db9d0e873226a12f0013cc0dde7f3ac08320 io_uring: switch struct ext_arg from __kernel_timespec to timespec64
-         969a39c2b2723932b72eeb4f788f2f181617ba3c io_uring: change io_get_ext_arg() to use uaccess begin + end
-         0935537ea92aac22b1829a27822f528187e23cfe io_uring: add support for fixed wait regions
-         
-  - ref: refs/heads/io_uring-ring-resize
-    old: 2316fd110c0eeb64ab999cb1fc44a6ca05474ff9
-    new: c5f419b6e6592d52036e80bf365cb529327b699a
-    log: |
-         1658b341b9afa1f240521a74d6d8aef500ed9fd0 io_uring/memmap: explicitly return -EFAULT for mmap on NULL rings
-         c5f419b6e6592d52036e80bf365cb529327b699a io_uring/register: add IORING_REGISTER_RESIZE_RINGS
+         874f3c10a69641fb370a0367c76d23c5c53c7da9 riscv: vdso: Prevent the compiler from inserting calls to memset()
+         049f52b54de7c963d227d654e13165dada88afcb riscv: Check that vdso does not contain any dynamic relocations
+         edc3dafb89a302e8b0536190db5457c49f7b1241 RISC-V: ACPI: fix early_ioremap to early_memremap
+         f0f7f3ef2968dd277667e13e863cf3bf5c961457 riscv: Do not use fortify in early code
+         cd526edd1076309c6d1405104a3dc2ef8b3c1a51 RISC-V: disallow gcc + rust builds
+         d6df81b54e0f14de08c3d177ee72e5970f2ef930 riscv: efi: Set NX compat flag in PE/COFF header
+         952ba40fe90c05a82955d1fc8916b69ba7b5e0fe riscv: Prevent a bad reference count on CPU nodes
+         bccf4b05c03bca2363a84def87c7619862de737c riscv: Use '%u' to format the output of 'cpu'
+         bcab97d029426b06bee746357b3cbb72d1243e98 riscv: Remove unused GENERATING_ASM_OFFSETS
+         c9099cb2fa3dce05a6ec8284adf48398c061ea85 riscv: Remove duplicated GET_RM
          
