@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 24 Oct 2024 15:54:54 -0000
-Message-Id: <172978529497.538378.7960003156315934362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 24 Oct 2024 15:55:55 -0000
+Message-Id: <172978535553.540718.14803402298883001004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: aa7b5af5f5319feb40cc1f0b48b8d07c92c575b2
-    new: 099d5e9b567b8cfdca80c0bf2e550be578ba9575
+  - ref: refs/heads/master
+    old: af384b24980f03e10149a8da78bcda1ba2d6aade
+    new: 00fd776fc2568a69e23b9bb284ca0e95f27e47da
     log: |
-         7af1418500124150f9fd24e1a5b9c288771df271 arm64: dts: qcom: x1e80100: Fix up BAR spaces
-         099d5e9b567b8cfdca80c0bf2e550be578ba9575 Merge branches 'arm32-for-6.13', 'arm64-defconfig-for-6.13', 'arm64-fixes-for-6.12', 'arm64-for-6.13', 'clk-fixes-for-6.12', 'clk-for-6.13', 'drivers-fixes-for-6.12' and 'drivers-for-6.13' into for-next
+         5293cb56beef36fa352e6028e6bb7206bb50e907 treewide: Remove stray empty lines
+         00fd776fc2568a69e23b9bb284ca0e95f27e47da treewide: Remove / add spaces
          
