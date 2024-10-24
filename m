@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 24 Oct 2024 14:16:41 -0000
-Message-Id: <172977940165.455259.6081940290143865050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 24 Oct 2024 14:19:22 -0000
+Message-Id: <172977956274.456425.10268194215114106218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/bcwide
-    old: 0000000000000000000000000000000000000000
-    new: 6e4a392e9824cf662a0d293ada308958e607345b
+  - ref: refs/heads/main
+    old: 8b448f0dbcae0c18c3fb97caf8aeff5fec19a9a2
+    new: 81bc949f640f78b507c7523de7c750bcc87c1bb8
+    log: |
+         81bc949f640f78b507c7523de7c750bcc87c1bb8 selftests: tls: add a selftest for wrapping rec_seq
+         
