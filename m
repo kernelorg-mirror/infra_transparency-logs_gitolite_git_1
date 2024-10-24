@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7400539714265881932=="
+Content-Type: multipart/mixed; boundary="===============2007854512131103043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 24 Oct 2024 06:06:15 -0000
-Message-Id: <172974997549.64855.5506319561840666548@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 06:06:28 -0000
+Message-Id: <172974998809.65083.4988967613425496256@gitolite.kernel.org>
 
---===============7400539714265881932==
+--===============2007854512131103043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: 8e929cb546ee42c9a61d24fae60605e9e3192354
     new: 42f7652d3eb527d03665b09edac47f85fb600924
     log: revlist-8e929cb546ee-42f7652d3eb5.txt
 
---===============7400539714265881932==
+--===============2007854512131103043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -572,4 +572,4 @@ dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://gi
 d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
 
---===============7400539714265881932==--
+--===============2007854512131103043==--
