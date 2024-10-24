@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 24 Oct 2024 14:19:22 -0000
-Message-Id: <172977956274.456425.10268194215114106218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 24 Oct 2024 14:22:34 -0000
+Message-Id: <172977975475.460199.1902284453127167713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/main
-    old: 8b448f0dbcae0c18c3fb97caf8aeff5fec19a9a2
-    new: 81bc949f640f78b507c7523de7c750bcc87c1bb8
+  - ref: refs/heads/master
+    old: 1c5ffa846abd629147150ed7db8cde15282e96f4
+    new: 5a0cce0542dd12119309d1ca9289f27a5d517d57
     log: |
-         81bc949f640f78b507c7523de7c750bcc87c1bb8 selftests: tls: add a selftest for wrapping rec_seq
+         5a0cce0542dd12119309d1ca9289f27a5d517d57 atmodem: let +COPS: report access technology for SIMCom
          
