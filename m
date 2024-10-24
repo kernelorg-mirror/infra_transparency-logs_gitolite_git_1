@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 24 Oct 2024 19:07:28 -0000
-Message-Id: <172979684803.703570.17589235544778800176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 24 Oct 2024 19:09:38 -0000
+Message-Id: <172979697880.705122.4787995124554205122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 55198280f2ee7732f3755fe10ff268f069bdac10
-    new: aa417fcbfcd00f8a9c64b68c75af801cd5c587c2
+  - ref: refs/heads/bwctrl
+    old: 3df7d1bf0623ace4e77c3ee9395c0060157505ab
+    new: 18956ececba637e45fa1f2a91126d0421b3e05a5
     log: |
-         aa417fcbfcd00f8a9c64b68c75af801cd5c587c2 nfsd/filecache: add nfsd_file_acquire_gc_cached
+         33388e8412a9f4d628bf84f03018bcdef446203e PCI/bwctrl: Re-add BW notification portdrv as PCIe BW controller
+         9b3da6e19e4df7ead28c46daf1792856234657f3 PCI/bwctrl: Add pcie_set_target_speed() to set PCIe Link Speed
+         5332163909b5218aad30e7b162e7c154cf24675b thermal: Add PCIe cooling driver
+         18956ececba637e45fa1f2a91126d0421b3e05a5 selftests/pcie_bwctrl: Create selftests
          
