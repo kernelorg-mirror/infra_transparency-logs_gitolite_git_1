@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6706798415423775617=="
+Content-Type: multipart/mixed; boundary="===============8238717689366194692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 24 Oct 2024 16:39:49 -0000
-Message-Id: <172978798911.577646.14602275278378104372@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 16:39:51 -0000
+Message-Id: <172978799150.577760.2568509672605850071@gitolite.kernel.org>
 
---===============6706798415423775617==
+--===============8238717689366194692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d05596f248578be943015c1237120574a8d845dd
     new: 81bc949f640f78b507c7523de7c750bcc87c1bb8
     log: revlist-d05596f24857-81bc949f640f.txt
 
---===============6706798415423775617==
+--===============8238717689366194692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ de51ad08b1177bbbb8b60cb7dd4c3c5dd50d262f phonet: Pass net and ifindex to rtm_pho
 8b448f0dbcae0c18c3fb97caf8aeff5fec19a9a2 Merge branch 'phonet-convert-all-doit-and-dumpit-to-rcu'
 81bc949f640f78b507c7523de7c750bcc87c1bb8 selftests: tls: add a selftest for wrapping rec_seq
 
---===============6706798415423775617==--
+--===============8238717689366194692==--
