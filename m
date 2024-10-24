@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3918156008854120018=="
+Content-Type: multipart/mixed; boundary="===============4031398018358530675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 24 Oct 2024 16:33:24 -0000
-Message-Id: <172978760479.571322.1572165680262840862@gitolite.kernel.org>
+Date: Thu, 24 Oct 2024 16:33:27 -0000
+Message-Id: <172978760723.571418.4366284519509037814@gitolite.kernel.org>
 
---===============3918156008854120018==
+--===============4031398018358530675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 6e62807c7fbb3c758d233018caf94dfea9c65dbd
     new: 9efc44fb2dba6138b0575826319200049078679a
     log: revlist-6e62807c7fbb-9efc44fb2dba.txt
 
---===============3918156008854120018==
+--===============4031398018358530675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ ee76eb24343bdd5450eb87572865a4d7fffd335b net: dsa: microchip: disable EEE for KS
 3e65ede526cf4f95636dbc835598d100c7668ab3 net: dsa: mv88e6xxx: support 4000ps cycle counter period
 9efc44fb2dba6138b0575826319200049078679a Merge branch 'net-dsa-mv88e6xxx-fix-mv88e6393x-phc-frequency-on-internal-clock'
 
---===============3918156008854120018==--
+--===============4031398018358530675==--
