@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 24 Oct 2024 15:58:23 -0000
-Message-Id: <172978550325.541820.17056746486066151615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 24 Oct 2024 16:16:31 -0000
+Message-Id: <172978659145.556652.2077323369366969600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/bcwide
-    old: 4b3bac85a13fddf8bfe9b314ad161fe4b6828e33
-    new: 5bc2e0b577b35fdce4e46a780ef0a3087e7e8080
+  - ref: refs/heads/for-next
+    old: 29e11586b56a77265cc2542f04392cdcc22d243f
+    new: 82e4a81d8da22c6877503022b0949383280ec12c
     log: |
-         5bc2e0b577b35fdce4e46a780ef0a3087e7e8080 nfsd: allow for more callback session slots
+         1819ebcba049e4fe189eee127c51379a5131ee25 dm cache: correct the number of origin blocks to match the target length
+         dff787b515191adec9cb9742578cb7e7375afa41 dm cache: fix flushing uninitialized delayed_work on cache_ctr error
+         995735c0a77919c23718f0eff0010f606894fdbc dm cache: fix out-of-bounds access to the dirty bitset when resizing
+         8909094617114e31de5e419d7e73cbbec30ab7d9 dm cache: optimize dirty bit checking with find_next_bit when resizing
+         82e4a81d8da22c6877503022b0949383280ec12c dm cache: fix potential out-of-bounds access on the first resume
          
