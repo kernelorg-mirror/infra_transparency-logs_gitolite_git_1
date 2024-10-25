@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6300611857865315667=="
+Content-Type: multipart/mixed; boundary="===============2936124705284450423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Oct 2024 15:47:05 -0000
-Message-Id: <172987122528.1706173.7056623087422557790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Oct 2024 15:47:13 -0000
+Message-Id: <172987123363.1706334.16144978671850584843@gitolite.kernel.org>
 
---===============6300611857865315667==
+--===============2936124705284450423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: 0107f28f135231da22a9ad5756bb16bd5cada4d5
     new: 6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9
     log: |
          6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9 ASoC: Intel: sst: Support LPE0F28 ACPI HID
          
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: a2f4b8c86039099a685f316cc04a63823d2a9e37
     new: 20079dd9b364483db613186b289fe372bddf41b5
     log: |
          20079dd9b364483db613186b289fe372bddf41b5 ASoC: rt1320: add mic function
          
 
---===============6300611857865315667==
+--===============2936124705284450423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1729871250 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1729871222-03f21284fe765a125321078ca9e9633e84bd5a40
+pusher Mark Brown <broonie@kernel.org> 1729871258 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1729871230-76a3e489271e857d65a1045f63aacdd13f8e9f70
 
-0107f28f135231da22a9ad5756bb16bd5cada4d5 6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9 refs/heads/for-6.12
-a2f4b8c86039099a685f316cc04a63823d2a9e37 20079dd9b364483db613186b289fe372bddf41b5 refs/heads/for-6.13
+0107f28f135231da22a9ad5756bb16bd5cada4d5 6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9 refs/heads/asoc-6.12
+a2f4b8c86039099a685f316cc04a63823d2a9e37 20079dd9b364483db613186b289fe372bddf41b5 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbvZITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LVbB/9b/zwRyMNhKJ89CJYBFtF2DgkykmMk
-vcZNCNLYZvsi59bw1ndo7Ey8r64VsR04vRrw0AuQa/WEM7G/j1V2u4HCEeQtoXlc
-TADN17ucLaw8QuTt/TG03fTy90exQ5HlM/FiaG7peQpTJ2fDAGvL39jE+xGIDcKx
-q4YOr8yHQQGhUuSl1RyeXBqTC7fz2fFxwfofb1dxHy89zlX/teci+lJg7NQ13u1Y
-lW+rz8Ut1Ahd8VJucoN4mn4aGM9k03+ALMs5ixv4XmgvHJv5dZDF7x+QsPaKFPus
-XESpsEruN7xUqCFpEp+BiM+oyh2dgOlSkSf9J6/xhZHmw+OifeMkAQyQ
-=Fayw
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbvZoTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0KKCB/9YEFsyGl01M23zongzPHC0fkoNYZKu
+RNtqECRpz9PC54sj4J8CP56ioFpGrDzKuVpsH8f2AY/K8oz+13FGERFQf0/183RP
+YxWpXGdevM04iJ2JqZs/kbg59hLRlTj7gvNO1O3bMH2QaAXhU2UBnt8eMBECjYfh
+oTw6aycTC9UYJRH5ro51rhBe/CSbz8tS0pj8AWiirrejrD6sE0a6po8E33d7jG7/
+XdGAJF3vjvJX4nBT5tCBcb0nfikBU19rfOKHLfdFx/FKI2F7GaFsRQhzVF64HADN
+5l9JO6p8mLIMnqYYyE6mv7OXT0MrBpCM8N/kn1q2oCduGkKHnSLMb+FD
+=MUJI
 -----END PGP SIGNATURE-----
 
---===============6300611857865315667==--
+--===============2936124705284450423==--
