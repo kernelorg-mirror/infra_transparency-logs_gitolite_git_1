@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Fri, 25 Oct 2024 05:22:13 -0000
-Message-Id: <172983373302.1194248.16831323005859178338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Fri, 25 Oct 2024 05:25:34 -0000
+Message-Id: <172983393443.1197963.5684884346337499332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/superm1/multiple-platform-profile-handlers
+  - ref: refs/tags/thunderbolt-for-v6.12-rc5
     old: 0000000000000000000000000000000000000000
-    new: 62c1cae5457a90c6186f81f149390d8ef2b748dc
+    new: e6c32347ff3abb8d776cc7ed46c2d6dfddcc971c
