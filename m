@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2936124705284450423=="
+Content-Type: multipart/mixed; boundary="===============3562478891480278674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Oct 2024 15:47:13 -0000
-Message-Id: <172987123363.1706334.16144978671850584843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 25 Oct 2024 15:47:27 -0000
+Message-Id: <172987124786.1706592.6529087251225323393@gitolite.kernel.org>
 
---===============2936124705284450423==
+--===============3562478891480278674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 0107f28f135231da22a9ad5756bb16bd5cada4d5
-    new: 6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9
+  - ref: refs/heads/for-6.12
+    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    new: 2feb023110843acce790e9089e72e9a9503d9fa5
     log: |
-         6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9 ASoC: Intel: sst: Support LPE0F28 ACPI HID
-         
-  - ref: refs/heads/asoc-6.13
-    old: a2f4b8c86039099a685f316cc04a63823d2a9e37
-    new: 20079dd9b364483db613186b289fe372bddf41b5
-    log: |
-         20079dd9b364483db613186b289fe372bddf41b5 ASoC: rt1320: add mic function
+         2feb023110843acce790e9089e72e9a9503d9fa5 regulator: rtq2208: Fix uninitialized use of regulator_config
          
 
---===============2936124705284450423==
+--===============3562478891480278674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1729871258 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1729871230-76a3e489271e857d65a1045f63aacdd13f8e9f70
+pusher Mark Brown <broonie@kernel.org> 1729871273 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1729871245-dd29318dd69f0602ebb4ba6b5cb9649e58e6c258
 
-0107f28f135231da22a9ad5756bb16bd5cada4d5 6668610b4d8ce9a3ee3ed61a9471f62fb5f05bf9 refs/heads/asoc-6.12
-a2f4b8c86039099a685f316cc04a63823d2a9e37 20079dd9b364483db613186b289fe372bddf41b5 refs/heads/asoc-6.13
+8e929cb546ee42c9a61d24fae60605e9e3192354 2feb023110843acce790e9089e72e9a9503d9fa5 refs/heads/for-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbvZoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0KKCB/9YEFsyGl01M23zongzPHC0fkoNYZKu
-RNtqECRpz9PC54sj4J8CP56ioFpGrDzKuVpsH8f2AY/K8oz+13FGERFQf0/183RP
-YxWpXGdevM04iJ2JqZs/kbg59hLRlTj7gvNO1O3bMH2QaAXhU2UBnt8eMBECjYfh
-oTw6aycTC9UYJRH5ro51rhBe/CSbz8tS0pj8AWiirrejrD6sE0a6po8E33d7jG7/
-XdGAJF3vjvJX4nBT5tCBcb0nfikBU19rfOKHLfdFx/FKI2F7GaFsRQhzVF64HADN
-5l9JO6p8mLIMnqYYyE6mv7OXT0MrBpCM8N/kn1q2oCduGkKHnSLMb+FD
-=MUJI
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbvakTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0LtSB/9cZyJQYvaikXZmOJJT/IpLaHGewmZw
+novraHuNQVG0CiJtE2/wAckUhP6E/xRSa/KDLNd9xlqjTH4S4oLIfE8ZLfCaxBMD
+tHeYgJYAZBFFGeCKuWPFVULA7txRoo+49orGlsbPdDsCNmbvgFFvFKNKc2GUpeyV
+AdcG/i55L1neyeC4zyJGCJNzJ98nxfT0yW+H9JX4jTGdYuDabmQWAqiL5ZPTiec2
+FPBwH18IJl7aCuUnSIsDKAU+912uWrEHCAI5Z4lB6uClKuZNCN5U7/bIsG1P/AAV
+fc+kcdKS3vxy2b8rFj/FVLk6zMMKCLvII/2uCMHEdW/32kxpqcpMbier
+=5bPT
 -----END PGP SIGNATURE-----
 
---===============2936124705284450423==--
+--===============3562478891480278674==--
