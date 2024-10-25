@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 25 Oct 2024 23:33:03 -0000
-Message-Id: <172989918308.2085293.1921929580690267054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Fri, 25 Oct 2024 23:58:13 -0000
+Message-Id: <172990069399.2105314.2285390712642686362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/mm-hotfixes-stable
-    old: 7cdaaef4e1156ea44cd22cd75a0c5b45b878561e
-    new: 856e54fff773a49084d42f72cf419cc6984ee843
-    log: |
-         7674952a4a59b2614891de668a646577c0167eb8 mm/gup: stop leaking pinned pages in low memory conditions
-         856e54fff773a49084d42f72cf419cc6984ee843 mm/gup: memfd: stop leaking pinned pages in low memory conditions
-         
+  - ref: refs/tags/damon/next-2024-10-25-16-58-on-v6.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: b2b69d8a47e1fd4008942c2036ca7e11ffb75088
