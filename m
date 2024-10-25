@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 25 Oct 2024 14:21:34 -0000
-Message-Id: <172986609464.1630113.7961744648132556468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 25 Oct 2024 14:29:13 -0000
+Message-Id: <172986655323.1635046.8381397780018950014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 713f65695e1bd4ad95c4dbee04bd794810da04ef
+  - ref: refs/heads/bcwide
+    old: d470edeb4209817009c630d391e43a97e8154716
+    new: 425355c34e82c4f9bbd591107f928db1527d0d26
+    log: |
+         425355c34e82c4f9bbd591107f928db1527d0d26 nfsd: allow for more callback session slots
+         
