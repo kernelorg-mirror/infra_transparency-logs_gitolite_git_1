@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1766794407964115921=="
+Content-Type: multipart/mixed; boundary="===============0349971260434909207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 25 Oct 2024 13:19:14 -0000
-Message-Id: <172986235413.1579296.13772612572887381776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 25 Oct 2024 13:19:16 -0000
+Message-Id: <172986235605.1579388.9003416799480502303@gitolite.kernel.org>
 
---===============1766794407964115921==
+--===============0349971260434909207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: ae90f6a6170d7a7a1aa4fddf664fbd093e3023bc
     log: revlist-c2ee9f594da8-ae90f6a6170d.txt
 
---===============1766794407964115921==
+--===============0349971260434909207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -141,4 +141,4 @@ c9a50b90905a1dc79ca72d4a262da30d3572ca9e Merge tag 'hid-for-linus-20241024' of g
 d44cd8226449114780a8554fd253c7e3d171a0a6 Merge tag 'net-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 ae90f6a6170d7a7a1aa4fddf664fbd093e3023bc Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============1766794407964115921==--
+--===============0349971260434909207==--
