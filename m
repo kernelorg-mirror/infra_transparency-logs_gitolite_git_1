@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 25 Oct 2024 15:33:54 -0000
-Message-Id: <172987043421.1693304.6204484441931313592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Fri, 25 Oct 2024 15:36:20 -0000
+Message-Id: <172987058075.1696397.6629898966386608289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: fb4560832d4c91d73680538d6659ac2c024ec9d5
-    new: 2422d0e13858b7e14746045cb36b3fcd6d3bddb2
+  - ref: refs/heads/linus-next
+    old: 98d7c5d7610d9eca158f89b836cb3ff0ab8a2d27
+    new: 7679fd88eddfe032535ce5dc083300dc4de9e778
     log: |
-         1923b289c745ff83a1794b1fb8bb68938857dd50 Bluetooth: btintel_pcie: Replace deprecated PCI functions
-         b6379ce226a19f8b867af41e31ce3361ddb2d145 Bluetooth: fix use-after-free in device_for_each_child()
-         2422d0e13858b7e14746045cb36b3fcd6d3bddb2 Bluetooth: btmtk: adjust the position to init iso data anchor
+         f03b296e8b516dbd63f57fc9056c1b0da1b9a0ff fs: pass offset and result to backing_file end_write() callback
+         20121d3f58f06e977ca43eb6efe1fb23b1d2f6d9 fuse: update inode size after extending passthrough write
+         184429a17f8ffc9e188dee9a4459165014025e71 Revert "fuse: move initialization of fuse_file to fuse_writepages() instead of in callback"
+         d34a5575e6d2380cc375d2b4650d385a859e67bc fuse: remove stray debug line
+         7679fd88eddfe032535ce5dc083300dc4de9e778 Merge tag 'fuse-fixes-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse into linus-next
          
