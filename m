@@ -1,50 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2660748845882292275=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Oct 2024 12:40:33 -0000
-Message-Id: <172986003300.1549109.6492851684284010679@gitolite.kernel.org>
-
---===============2660748845882292275==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 25 Oct 2024 12:40:51 -0000
+Message-Id: <172986005184.1549487.11960649820480779251@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.13
-    old: 1d4347816a383be1ae5c92111d4bf4222fabf01b
-    new: a992197bfcbb14e5a027796e06f86226c4444955
+  - ref: refs/heads/for-linus
+    old: db7e59e6a39a4d3d54ca8197c796557e6d480b0d
+    new: 0107f28f135231da22a9ad5756bb16bd5cada4d5
     log: |
-         a992197bfcbb14e5a027796e06f86226c4444955 spi: Replace deprecated PCI functions
+         032532f91a1d06d0750f16c49a9698ef5374a68f ASoC: codecs: rt5640: Always disable IRQs from rt5640_cancel_work()
+         d48696b915527b5bcdd207a299aec03fb037eb17 ASoC: Intel: bytcr_rt5640: Add support for non ACPI instantiated codec
+         0107f28f135231da22a9ad5756bb16bd5cada4d5 ASoC: Intel: bytcr_rt5640: Add DMI quirk for Vexia Edu Atla 10 tablet
          
-
---===============2660748845882292275==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1729860058 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1729860027-7ad5708ded1d69721a9cb417000bbae0397570e8
-
-1d4347816a383be1ae5c92111d4bf4222fabf01b a992197bfcbb14e5a027796e06f86226c4444955 refs/heads/spi-6.13
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbkdoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0P3AB/0dWH4SqhHu/hFTPyMyJ79/bMjXvylq
-9oW90TpZmAItF6PyLgsuWMAGaMsVMMcDCvJAj3QoWFthZqYyG577jQt/5lLBGxh5
-sOwHIXxcAmZkiVUImRKlLB03q496W6Y6rPGM93duiYMV1mE0wapTv/skZ4lq8Nr+
-5NG+bNFxW02CXpK5dhKUM5WwU44OXSsXF4aCLjk3FNgAq9z7n2Cz5qOOfkWkIF08
-qUd8BKj/3xVILPY5kGRZpCyxykvQ9T/zeIDFmV5swGAur4EC7sDVaJpL2/A9s87/
-ymnAf6mHARSxtOjMJeyid6Rigp9Xs+ZE+N6d+ilPEaMmA+DM1T4ZsUnf
-=5Zqb
------END PGP SIGNATURE-----
-
---===============2660748845882292275==--
+  - ref: refs/heads/for-next
+    old: f44f32bba4219bdcf800c70160006cff69919d91
+    new: e89af4e780c68d874a9ea1ee1d1cde6907351897
+    log: |
+         032532f91a1d06d0750f16c49a9698ef5374a68f ASoC: codecs: rt5640: Always disable IRQs from rt5640_cancel_work()
+         d48696b915527b5bcdd207a299aec03fb037eb17 ASoC: Intel: bytcr_rt5640: Add support for non ACPI instantiated codec
+         0107f28f135231da22a9ad5756bb16bd5cada4d5 ASoC: Intel: bytcr_rt5640: Add DMI quirk for Vexia Edu Atla 10 tablet
+         e89af4e780c68d874a9ea1ee1d1cde6907351897 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
+         
