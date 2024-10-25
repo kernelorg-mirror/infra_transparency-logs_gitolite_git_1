@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6493056736146289138=="
+Content-Type: multipart/mixed; boundary="===============6658379764332686352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Oct 2024 12:39:55 -0000
-Message-Id: <172985999544.1546942.12237286281134237720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Oct 2024 12:40:20 -0000
+Message-Id: <172986002087.1548892.16174995681686950810@gitolite.kernel.org>
 
---===============6493056736146289138==
+--===============6658379764332686352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: db7e59e6a39a4d3d54ca8197c796557e6d480b0d
-    new: 0107f28f135231da22a9ad5756bb16bd5cada4d5
+  - ref: refs/heads/for-6.13
+    old: 1d4347816a383be1ae5c92111d4bf4222fabf01b
+    new: a992197bfcbb14e5a027796e06f86226c4444955
     log: |
-         032532f91a1d06d0750f16c49a9698ef5374a68f ASoC: codecs: rt5640: Always disable IRQs from rt5640_cancel_work()
-         d48696b915527b5bcdd207a299aec03fb037eb17 ASoC: Intel: bytcr_rt5640: Add support for non ACPI instantiated codec
-         0107f28f135231da22a9ad5756bb16bd5cada4d5 ASoC: Intel: bytcr_rt5640: Add DMI quirk for Vexia Edu Atla 10 tablet
+         a992197bfcbb14e5a027796e06f86226c4444955 spi: Replace deprecated PCI functions
          
 
---===============6493056736146289138==
+--===============6658379764332686352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1729860020 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1729859992-018b7413f34c9f8033a8ddae0a980fb28d113988
+pusher Mark Brown <broonie@kernel.org> 1729860046 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1729860009-4ba0b69fae25eb600ad175e4f0662a19e6c2167c
 
-db7e59e6a39a4d3d54ca8197c796557e6d480b0d 0107f28f135231da22a9ad5756bb16bd5cada4d5 refs/heads/asoc-6.12
+1d4347816a383be1ae5c92111d4bf4222fabf01b a992197bfcbb14e5a027796e06f86226c4444955 refs/heads/for-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbkbQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0KrfB/9NKP/IM6nVr0it+HnUNk8bntBnnKKn
-ArWr8z0iAmeMHtY8v1ygcn8R1sr5NfAfwhc3fNjs2ZKt5MifaY474GJB4yc8Tsy2
-ZQ8hzw1qzigcDUT4iSVtkxNO+3lhce+evwaLt4L4jzSnGSMxx2G8jWQvbr+tIjTx
-VXjek7E1RfvzKWC1Sbq3EsbrptQUNwoWOgq5kIEi0F+tAGyC6jgWrs2WQmorIIgt
-VLw7nk7yY1h6VU8tRWmlVo57tIdwziqnG9dfJJ/yDEIFpdYNT3XieXMF0j9SN8JH
-KjY+L026LdF685ebr2Sdgb07b0Ll8cnobNgHc2y4+wgysxUKkyWh8h5V
-=qseF
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcbkc4THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0C8VB/4zSaRuiE02jQl2HWmZ+WNdOgQCZA2y
+rUNPY4ygwtZXeluysEMYvvhz9a4HzTJ2JrdXmNfcifXH4vjhMkhFeLKgnoQvM6jb
+RVT+m2RHkVB2jQuqir9DSOhAa5R5dQ+rR52mW0TDRlJnPTiXZwFa4GHi6sF2QtLI
+7iGZNo2ByL9W9h6bGWWkLC8R9H7JvKSQfEhR1WwB7gzuLifMmiX0UVoLMGXLicBp
+yKiAabWpDD6UhzRYVznte5ctVzED8bzY6HyOOHQFRtyBAch3APJBZ8gNvfnlBJQU
+Z2XmntkqqskVoD6B9eQ2a1aZfGdgFotRBokF3pO9Cuv1juDd9n9rEQ8j
+=MiXx
 -----END PGP SIGNATURE-----
 
---===============6493056736146289138==--
+--===============6658379764332686352==--
