@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3822047864582414560=="
+Content-Type: multipart/mixed; boundary="===============1871753087989652176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 25 Oct 2024 20:59:36 -0000
-Message-Id: <172988997697.1962747.5907006162560813015@gitolite.kernel.org>
+Date: Fri, 25 Oct 2024 20:59:48 -0000
+Message-Id: <172988998876.1963053.8511073332922695050@gitolite.kernel.org>
 
---===============3822047864582414560==
+--===============1871753087989652176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d285d591b911627efa2d7ac91bbe91f606ab263c
-    new: d4b7999b329ef8a9a7e648fbba451a66a42a873d
-    log: revlist-d285d591b911-d4b7999b329e.txt
+  - ref: refs/heads/1GbE
+    old: 81bc949f640f78b507c7523de7c750bcc87c1bb8
+    new: 03fc07a24735e0be8646563913abf5f5cb71ad19
+    log: revlist-81bc949f640f-03fc07a24735.txt
 
---===============3822047864582414560==
+--===============1871753087989652176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d285d591b911-d4b7999b329e.txt
+Content-Disposition: attachment; filename=revlist-81bc949f640f-03fc07a24735.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -580,63 +580,5 @@ c2cd8e4592c04b6725611ccce60f2d0f85383f09 Merge tag 'probes-fixes-v6.12-rc4.2' of
 c9a50b90905a1dc79ca72d4a262da30d3572ca9e Merge tag 'hid-for-linus-20241024' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 d44cd8226449114780a8554fd253c7e3d171a0a6 Merge tag 'net-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 03fc07a24735e0be8646563913abf5f5cb71ad19 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-98f703e5b789b044dbe0a63e0cf705a5f90b945f ice: block SF port creation in legacy mode
-104546099fa2134be0df7495efbb08de7b821efb ice: fix BST key index in ice_bst_key_init()
-ffbf8526d47dd1b192048a1cb8a658c215e63402 iavf: allow changing VLAN state without calling PF
-b5c481e877bbcf34ff08b464d70af350d6626dc6 ice: initialize pf->supported_rxdids immediately after loading DDP
-e565dff457b9865cf6795816139b17361eaee34e ice: use stack variable for virtchnl_supported_rxdids
-057f2712dfb8f2bdf0d432e1c2f7305dab13d427 igb: Disable threaded IRQ for igb_msix_other
-c9f1bb5678d13f42c96d18185c470e5d8666be7e ice: Add E830 checksum offload support
-d668ee57c4662a30e68849a2194d98e905807dba igbvf: remove unused spinlock
-87bb67561f05a6434531f598e87391b3b75fcede ice: Don't check device type when checking GNSS presence
-a5e4355b0458abcd2d1be58bf445a4bb5fcac8ad ice: Remove unncecessary ice_is_e8xx() functions
-64ebf4e8f30ae9ff23d78cf82165eea2d631948d ice: Use FIELD_PREP for timestamp values
-cf86436f074bbadbc6174783cfe031221a44379a ice: Process TSYN IRQ in a separate function
-96ad3e92ee7ded8ffe2dc52e39212623dd0c8dd2 ice: Add unified ice_capture_crosststamp
-74c15c6c9d8ad01721821a10df3f08166b3af6f6 ice: Refactor ice_ptp_init_tx_*
-710cbff93dd176f3eefd2950fe561e5af27682c2 ice: Implement PTP support for E830 devices
-be64a2f66ae3dedb85e73854232d6c8df521c4c4 checkpatch: don't complain on _Generic() use
-d091cd837dc75cc4366caeaaf7a79f92763609bd devlink: add devlink_fmsg_put() macro
-ce275968d36871e4927e12c9a4c4ad4daf88a5d7 devlink: add devlink_fmsg_dump_skb() function
-aa785a19908c4966e4767f350da2f25b187a6497 ice: rename devlink_port.[ch] to port.[ch]
-64fe21454e3c72910be8356fd121767ce95f7def ice: add Tx hang devlink health reporter
-9d49093f3c180796c6af3c8bc2abe9ba1fe3d6ee ice: dump ethtool stats and skb by Tx hang devlink health reporter
-0382fa1d9e8f04b1f65c3913272fa94259b50e97 ice: Add MDD logging via devlink health
-dedda1de2d03fb210ca645f51c64d96b0b8aa6d4 e1000e: Remove Meteor Lake SMBUS workarounds
-01474057965371cce524da807891d0e8ab1a9771 ice: rework of dump serdes equalizer values feature
-0723e065406c97af2c5895823d927b77114f1df3 ice: extend dump serdes equalizer values feature
-d7fe7e1a5ebcda8a8a803ebceb8b553ca9ed4a21 igc: remove autoneg parameter from igc_mac_info
-b2fd9a6264f21b279f319cd81bf0601348effc3d ice: c827: move wait for FW to ice_init_hw()
-fa481d7d6b11e4cb8414f9c89a65d9c5b4eeb799 ice: split ice_init_hw() out from ice_init_dev()
-887161e96610787c0eaeb449873c502f05f39bde ice: minor: rename goto labels from err to unroll
-e30bbdf4ad4cb52847b4bcce4029bf4b50ab2ed8 ice: ice_probe: init ice_adapter after HW init
-e49e24b118f5837bdc31f956025a3ac5c1c69414 idpf: set completion tag for "empty" bufs associated with a packet
-cde5d5e7b73768b107087fd9c71e3f4024300db2 ice: Unbind the workqueue
-98346b5101b3ecb1ac67e5a3423a2b0ff7a8e4f3 ice: Fix use after free during unload with ports in bridge
-6879cdfbb01ab5037d511b2b736ad36a1789eadf ice: fix PHY Clock Recovery availability check
-105f27e6a0cbfdab74046cc01689f5816d2ec272 ice: fix crash on probe for DPLL enabled E810 LOM
-c60684985582cbdbbe7e7c0da594b5fed162c090 ice: add recipe priority check in search
-20befd191f87abbe3af927e119e7a060c3d4c8a9 i40e: fix race condition by adding filter's intermediate sync state
-380aa33dd08e9da38a63fc838107235171c9c485 ice: only allow Tx promiscuous for multicast
-c76c52aab758a6909017eba691e89fa50f2048b4 igc: Link IRQs to NAPI instances
-726e5856f3db501e7d2240c49a36aaced07deadc igc: Link queues to NAPI instances
-86d1cda42f7fd97d2b2e8e3492694c0c2c02f869 ixgbe: Add support for E610 FW Admin Command Interface
-940878ca99e5cf66c0c9fa4f2d3efceb168e82b4 ixgbe: Add support for E610 device capabilities detection
-4fd22ce896c82d0ae529c9c7c3a3249f52c7cb3c ixgbe: Add link management support for E610 device
-63e69c56b0b96f9cea48c4f8152837eb27fffef7 ixgbe: Add support for NVM handling in E610 device
-2ccde223cdd1dbf425cdfa94c92ce21a82868fa2 ixgbe: Add ixgbe_x540 multiple header inclusion protection
-18e088c7f7f3042733e93f346becdf2c16738b51 ixgbe: Clean up the E610 link management related code
-179baa9e4842e15893f707073346483ca8cbcc7b ixgbe: Enable link management in E610 device
-d3b004771e78e1d8a54b9b5e9b307b0b580fe367 ixgbe: Break include dependency cycle
-c615bb470202135fb8feb842ced3ec96c11e2735 PCI: Add PCI_VDEVICE_SUB helper macro
-3a6d58f4396aa6872deeff03f57749a726e0a5bf ixgbevf: Add support for Intel(R) E610 device
-d7803c781fdf1bf1b863a85ed4f421fe239099fa igb: Remove static qualifiers
-36dfda88fe23a2be2a1e0732bbdc3108c88b3c4c igb: Introduce igb_xdp_is_enabled()
-3d9134d9f705485f3ed6fa73e99866f5245669ec igb: Introduce XSK data structures and helpers
-7200ea949af25595c49ee95ef3705ac3b20afa9f igb: Add XDP finalize and stats update functions
-470b5e18147d39740108c6fe787ab906380cdbbe igb: Add AF_XDP zero-copy Rx support
-0bdb749e0f541417cd52f5a8a452e0be9c2a432a igb: Add AF_XDP zero-copy Tx support
-1fb3ca4987b6fc6729a671b5e3fd623ed6a4a3dc ice: refactor "last" segment of DDP pkg
-d4b7999b329ef8a9a7e648fbba451a66a42a873d ice: support optional flags in signature segment header
 
---===============3822047864582414560==--
+--===============1871753087989652176==--
