@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6243238491373793121=="
+Content-Type: multipart/mixed; boundary="===============2401788731849291688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 25 Oct 2024 20:58:30 -0000
-Message-Id: <172988991049.1960820.1013935182681695588@gitolite.kernel.org>
+Date: Fri, 25 Oct 2024 20:58:37 -0000
+Message-Id: <172988991773.1961054.17679276770184281278@gitolite.kernel.org>
 
---===============6243238491373793121==
+--===============2401788731849291688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: fedfff8c80e7707a2739df4100e54974292ae448
-    new: 19acd6818aa7404d96cd5d0e4373d4ebe71448c2
-    log: revlist-fedfff8c80e7-19acd6818aa7.txt
+  - ref: refs/heads/1GbE
+    old: 9efc44fb2dba6138b0575826319200049078679a
+    new: e31a8219fbfcf9dc65ba1e1c10cade12b6754e00
+    log: revlist-9efc44fb2dba-e31a8219fbfc.txt
 
---===============6243238491373793121==
+--===============2401788731849291688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fedfff8c80e7-19acd6818aa7.txt
+Content-Disposition: attachment; filename=revlist-9efc44fb2dba-e31a8219fbfc.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -554,18 +554,5 @@ c2cd8e4592c04b6725611ccce60f2d0f85383f09 Merge tag 'probes-fixes-v6.12-rc4.2' of
 c9a50b90905a1dc79ca72d4a262da30d3572ca9e Merge tag 'hid-for-linus-20241024' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 d44cd8226449114780a8554fd253c7e3d171a0a6 Merge tag 'net-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e31a8219fbfcf9dc65ba1e1c10cade12b6754e00 Merge tag 'wireless-2024-10-21' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-91cd4d1a3cb675b75600b98bcc74648fc385a535 iavf: allow changing VLAN state without calling PF
-5232bb1f1dab53a0d418d627e3e45efa1d94d159 igb: Disable threaded IRQ for igb_msix_other
-e5e785c81b989905c12a9ea3bb8cf4ce24ddc32b e1000e: Remove Meteor Lake SMBUS workarounds
-b6515d49ff122311227d240fb60c92b95c9102aa ice: block SF port creation in legacy mode
-ca8f5045e3a825ddb765d934c22ee07ad91cbf48 idpf: set completion tag for "empty" bufs associated with a packet
-eeeb34ca9ef18f749403b577686c2a2c6f5862c3 ice: Fix use after free during unload with ports in bridge
-6c0008dd9a026e697316d5c4af72245f7d3c1c18 ice: fix PHY Clock Recovery availability check
-bdb3600fd305f4e1d6d256fb89e0f673aaa7f433 ice: fix crash on probe for DPLL enabled E810 LOM
-187897249817d4f09c1078c4f0476d581c6b5356 i40e: fix race condition by adding filter's intermediate sync state
-bc714a9e6453d54ce46e6bc1da2375525d5a7ed8 igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
-d6d61cad5d55166a4b837e82e5f9acf850a6c6c8 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
-223e1b0ccdf9e54f1d8e122dafefd0cfe9e8b10f ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
-19acd6818aa7404d96cd5d0e4373d4ebe71448c2 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
 
---===============6243238491373793121==--
+--===============2401788731849291688==--
