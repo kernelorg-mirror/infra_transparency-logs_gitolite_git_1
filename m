@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Fri, 25 Oct 2024 04:38:02 -0000
-Message-Id: <172983108238.1159731.13345285977813496711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 25 Oct 2024 04:45:15 -0000
+Message-Id: <172983151506.1166729.6524869892603307267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 9e4b652f489bce688397447a08b70847c8b64a74
-    new: c73ae0df3173412eeb4e93cca7ea72eda8dde180
-    log: |
-         c73ae0df3173412eeb4e93cca7ea72eda8dde180 c89 compilation test fix.
-         
+  - ref: refs/heads/crc32-lib
+    old: 0000000000000000000000000000000000000000
+    new: 173b25426b0584097e1e1a772bc09bf8c0780837
