@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 25 Oct 2024 13:49:37 -0000
-Message-Id: <172986417745.1603824.8173607515072811537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 25 Oct 2024 14:00:42 -0000
+Message-Id: <172986484260.1613829.6988355528620595683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/io_uring-reg-wait
-    old: ae28cdd48aacf9ab68a47e0844423695183430da
-    new: c2e9729bd0a45ab8c33676107537683365635539
+  - ref: refs/heads/ti-drivers-soc-next
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 74280c3d73143dcb976491fc085ccb0437cb5f0e
     log: |
-         a1cf1b48515332bf860a414ff94197b3b3e530a1 io_uring/register: add IORING_REGISTER_RESIZE_RINGS
-         64de42f633d21975fad5ded76597b305c09e4b8d io_uring: switch struct ext_arg from __kernel_timespec to timespec64
-         3ce5b05db481c7eefbc0b013b09b1b4172833f11 io_uring: change io_get_ext_arg() to use uaccess begin + end
-         c2e9729bd0a45ab8c33676107537683365635539 io_uring: add support for fixed wait regions
+         10b8a0cc84d28decb75bfc91f4395e176228a4ff soc: ti: knav_qmss_queue: Use IRQF_NO_AUTOEN flag in request_irq()
+         74280c3d73143dcb976491fc085ccb0437cb5f0e soc: ti: knav_qmss_queue: Drop redundant continue statement
          
-  - ref: refs/heads/io_uring-ring-resize
-    old: a33a9152eb06cc15d20dc9d1def2a33b3ff88d81
-    new: a1cf1b48515332bf860a414ff94197b3b3e530a1
+  - ref: refs/heads/ti-next
+    old: 30a9a1a26b9568f49aee24a888767105cb0855b2
+    new: 9ca4eaf6cf2ef73f615c0973adc24de0eb3e3651
     log: |
-         a1cf1b48515332bf860a414ff94197b3b3e530a1 io_uring/register: add IORING_REGISTER_RESIZE_RINGS
+         10b8a0cc84d28decb75bfc91f4395e176228a4ff soc: ti: knav_qmss_queue: Use IRQF_NO_AUTOEN flag in request_irq()
+         74280c3d73143dcb976491fc085ccb0437cb5f0e soc: ti: knav_qmss_queue: Drop redundant continue statement
+         9ca4eaf6cf2ef73f615c0973adc24de0eb3e3651 Merge branch 'ti-drivers-soc-next' into ti-next
          
