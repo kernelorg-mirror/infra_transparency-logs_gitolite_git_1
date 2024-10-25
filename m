@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 25 Oct 2024 08:46:59 -0000
-Message-Id: <172984601988.1358750.1070008237529411789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 25 Oct 2024 08:49:51 -0000
+Message-Id: <172984619122.1360693.15151804384552569958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/for-linus
-    old: c9f7a144e7e3effd49303bfc58c07cc10ab2d573
-    new: 78e7be018784934081afec77f96d49a2483f9188
+  - ref: refs/heads/for-mfd-next
+    old: 38d09a34b422230dedc76abca578da370d5f03d4
+    new: f2be0c3a9584b1a28c06692d4fc52a8a3586c6ab
     log: |
-         78e7be018784934081afec77f96d49a2483f9188 ALSA: hda/realtek: Limit internal Mic boost on Dell platform
-         
-  - ref: refs/heads/master
-    old: 9c90dd654a12233dfb95386a38e75332bcfef434
-    new: 424c1b673aa4b86c38879c4536fe2eff0a158403
-    log: |
-         78e7be018784934081afec77f96d49a2483f9188 ALSA: hda/realtek: Limit internal Mic boost on Dell platform
-         424c1b673aa4b86c38879c4536fe2eff0a158403 Merge branch 'for-linus'
+         0a98b711db1345687df995495ee1d097bba5a958 dt-bindings: mfd: mediatek: mt6397: Add start-year property to RTC
+         5bcecfcaa6d1d4ea1b29082ed1fd077ba4cccb55 dt-bindings: mfd: mediatek: mt6397: Add ADC, CODEC and Regulators for MT6359
+         f2be0c3a9584b1a28c06692d4fc52a8a3586c6ab mfd: twl-core: Add a clock subdevice for the TWL6030
          
