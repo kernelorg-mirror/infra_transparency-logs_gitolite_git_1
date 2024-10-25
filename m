@@ -1,58 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8948421995612802780=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 25 Oct 2024 15:00:27 -0000
-Message-Id: <172986842793.1664813.8497002938479719643@gitolite.kernel.org>
-
---===============8948421995612802780==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 25 Oct 2024 15:04:15 -0000
+Message-Id: <172986865509.1666423.14841349015453113970@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
+  - ref: refs/heads/for-6.13/arm64/dt
+    old: 2433e22233f07b2e03034fffcbaf6c26b5838bb6
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/for-6.13/dt-bindings
+    old: 1f451e2493a66345aefd13490d058e46dc25b459
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/for-6.13/firmware
+    old: 61c6fe3d6f0e1606a2219ff8afbac7e5068a5795
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
   - ref: refs/heads/for-next
-    old: cde6d9d63b0670f4e5a656de7cdadf3fce4d3b49
-    new: d9641cb8a451c5bbbee0b486a36126ba0c14137a
-    log: revlist-cde6d9d63b06-d9641cb8a451.txt
-
---===============8948421995612802780==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cde6d9d63b06-d9641cb8a451.txt
-
-8c58a229688ce3a097b3b1a2efe1b4f5508c2123 s390/cio: Do not unregister the subchannel based on DNV
-e6ebf0d6514bd4438f43fe8926723cf807355b7e s390: Fix various typos
-2835f8bf5530750c3381166005934f996a83ad05 s390/pageattr: Implement missing kernel_page_present()
-82a0fcb1ad03e2268b5376d78107042d64119e3d s390/kdump: Provide is_kdump_kernel() implementation
-f94de4f17b5698b2bf011367b955ea7374b26ba4 s390/topology: Switch over to sysfs_emit()
-b4b920cdede4e5f38f52f556792dbf5c502a1af7 s390/time: Switch over to sysfs_emit()
-5b2a85a24b9914248f9648abc115672fa1e5b11c s390/smp: Switch over to sysfs_emit()
-d151f8f788a136a14e74ddd8654011d75f5b23b2 s390/perf_event: Switch over to sysfs_emit()
-c50262498dd16f5c1dae5f81f2132cb46f7c3f1b s390/nospec: Switch over to sysfs_emit()
-401721a54cbac2ae6a49be917258b969bb7be81d s390/ipl: Switch over to sysfs_emit()
-897a42dd011079f163fe4c7267052d399a2117bc s390/crypto: Switch over to sysfs_emit()
-0aa4daa70024c486bbcbccd904d0f9f66d764a7d scsi: zfcp: Switch over to sysfs_emit()
-04b190911d678f490f4fef1e84b45a1122263ac3 s390/cio/chp: Switch over to sysfs_emit()
-2707704baab3e3e6241bcf955337b86c42143f08 s390/cio/device: Switch over to sysfs_emit()
-48e0ab9a66f21c3a1fddeb90ef0aefd5e186add7 s390/cio/cmf: Switch over to sysfs_emit()
-eecab5428c168afe3f8ca21fb28c4162bf463bb0 s390/cio/ccwgroup: Switch over to sysfs_emit()
-ece8f29d69b4b56cb6e3fc2450cc15c0425925fb s390/cio/css: Switch over to sysfs_emit()
-2c798d583d079327953bf899cfd421faedc9024c s390/cio/scm: Switch over to sysfs_emit()
-9d20d350729fce27613acc0766d4755387427ba1 s390/dcssblk: Switch over to sysfs_emit()
-6a5ac284a8f2b639614366c2a821e41c518484ac s390/tape: Switch over to sysfs_emit()
-182d54671c304d5f81eee6a29b5ef03023826989 s390/vmlogrdr: Switch over to sysfs_emit()
-92a201b7648b7df9f2ada56a58c489811c51a6b2 s390/sclp_ocf: Switch over to sysfs_emit()
-95ea212082ef51d91c72a704c28652e335338ada s390/sclp_cpi: Switch over to sysfs_emit()
-a6a56aec4ac5147baf94907db65586e1072e2bba s390/vmur: Switch over to sysfs_emit()
-5c77c5d1e40f258d581dd75c56f4e5af696c5702 s390/vfio-ap: Switch over to sysfs_emit()
-c3a04f7e281d1066dfa4c7e84a98d5c41ae910cc s390/netiucv: Switch over to sysfs_emit()
-ae63e71c4897b7ebe40d4b6ad846d05c8774ecb9 Merge branch 'fixes' into for-next
-d9641cb8a451c5bbbee0b486a36126ba0c14137a Merge branch 'features' into for-next
-
---===============8948421995612802780==--
+    old: 2a4425682b6f01969de601a71775f8865e80e763
+    new: 9852d85ec9d492ebef56dc5f229416c925758edc
