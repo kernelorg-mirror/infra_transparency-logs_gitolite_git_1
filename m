@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1076998319830366178=="
+Content-Type: multipart/mixed; boundary="===============0821047210492375194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 25 Oct 2024 00:13:21 -0000
-Message-Id: <172981520128.947012.11670929057920100190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 25 Oct 2024 00:13:25 -0000
+Message-Id: <172981520525.947131.11320887233490614763@gitolite.kernel.org>
 
---===============1076998319830366178==
+--===============0821047210492375194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
 
---===============1076998319830366178==
+--===============0821047210492375194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -629,4 +629,4 @@ c1e822754cc7f28b98c6897d62e8b47b4001e422 Merge tag 'bcachefs-2024-10-22' of http
 c2cd8e4592c04b6725611ccce60f2d0f85383f09 Merge tag 'probes-fixes-v6.12-rc4.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 3964f82a4dfc7e4bd4055fdc2a42250f71449f54 Merge tag 'loongarch-fixes-6.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============1076998319830366178==--
+--===============0821047210492375194==--
