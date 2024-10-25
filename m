@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 25 Oct 2024 20:38:57 -0000
-Message-Id: <172988873777.1943674.2765897488838407145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 25 Oct 2024 20:53:11 -0000
+Message-Id: <172988959109.1956058.17834275142147876314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/pwrseq
-    old: 98cb476c98e9fb3287aa69b05baf986b7126664b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwm/for-next
+    old: 664b5e466f915ad7fce87215ccfb038c47ace4fb
+    new: fdb62922ae89c17963f80abdd14b4d9f053bc962
+    log: |
+         fdb62922ae89c17963f80abdd14b4d9f053bc962 pwm: core: use device_match_name() instead of strcmp(dev_name(...
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 664b5e466f915ad7fce87215ccfb038c47ace4fb
+    new: fdb62922ae89c17963f80abdd14b4d9f053bc962
+    log: |
+         fdb62922ae89c17963f80abdd14b4d9f053bc962 pwm: core: use device_match_name() instead of strcmp(dev_name(...
+         
