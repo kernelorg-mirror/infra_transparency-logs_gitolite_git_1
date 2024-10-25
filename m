@@ -1,28 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 25 Oct 2024 06:27:34 -0000
-Message-Id: <172983765440.1247024.13276252933981578079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+Date: Fri, 25 Oct 2024 06:28:05 -0000
+Message-Id: <172983768587.1247507.911706989626316858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+user: djwong
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 150dab31d5609f896fbfaa06b442ca314da79858
-    new: 008fd4620437bcc147fb17845808c3321d67b93e
-    log: |
-         7a1b95b54851756ce723e92269a17751053073f5 tools subcmd: Add non-waitpid check_if_command_finished()
-         a4d5e51dd284e43c936a8a7d58ffcf4dc8c76a9e perf test: Display number of active running tests
-         63d27fe42be58737532b9d2eb7718e04ec83a06d perf test: Reduce scope of parallel variable
-         cc3e3df81f089035b170da1c7b900cf4d6fdd37e perf test: Avoid list test blocking on writing to stdout
-         1ca632d2c7e7718a602761229d6cc2a98d71a40d perf test: Tag parallel failing shell tests with "(exclusive)"
-         281714c859be3530f3bb68f9703b9f7fa3571649 perf test: Add a signal handler around running a test
-         4fa58dcf3056bdcf8189f574ef0e2805c84f2c21 perf test: Run parallel tests in two passes
-         3a54376ab2dd43b4bb907bcd9222d7cb5e49ad23 perf test: Make parallel testing the default
-         3e26d0df4bf9464b61ab9198fd3454c7a3f95bc5 perf test: Add a signal handler to kill forked child processes
-         008fd4620437bcc147fb17845808c3321d67b93e perf test: Sort tests placing exclusive tests last
-         
+  - ref: refs/tags/atomic-file-commits-6.12_2024-10-24
+    old: 242665f665d0f625a6504b6e1a48121862b894c6
+    new: 5864af7981aeeab08711fcac40acf75e20df24a6
+  - ref: refs/tags/debug-realtime-geometry-6.12_2024-10-24
+    old: fe650539a9fd9ef492d787fe466363131be88e42
+    new: 7aef088bc5d7d81c429934b9c7e9a2d0d2e09ce3
+  - ref: refs/tags/libxfs-sync-6.12_2024-10-24
+    old: bfb7fcd2690d22e43db2b4417731383e9a47cbc9
+    new: 238a6923b0c6c36acbe6da8d5402c5e8c964b830
+  - ref: refs/tags/metadump-external-devices-6.12_2024-10-24
+    old: 59c1711b39ba67696457a9408ae2a3a68c4795b5
+    new: 0a62bf5577b77dd79c53e8238489e0717368ab33
+  - ref: refs/tags/misc-use-rtbitmap-helpers-6.12_2024-10-24
+    old: d2f70b1c49f11d243465d3e142163c79a2a5f4b3
+    new: 62ee43caff5d247440b3dbff69efb7a62b83f02c
+  - ref: refs/tags/scrub-fixes-6.12_2024-10-24
+    old: 2ed4d36e728baedd712ad51456450b3f4425acc0
+    new: 1b1462e2d26297e88fb60e443e8aac2b0e798986
