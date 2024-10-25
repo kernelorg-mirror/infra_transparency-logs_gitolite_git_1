@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5559973678912572940=="
+Content-Type: multipart/mixed; boundary="===============8948421995612802780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 25 Oct 2024 15:00:10 -0000
-Message-Id: <172986841097.1664511.15212706131907277679@gitolite.kernel.org>
+Date: Fri, 25 Oct 2024 15:00:27 -0000
+Message-Id: <172986842793.1664813.8497002938479719643@gitolite.kernel.org>
 
---===============5559973678912572940==
+--===============8948421995612802780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: d6e48a01bb4f51afa1d9bd4fd948364545915bde
-    new: c3a04f7e281d1066dfa4c7e84a98d5c41ae910cc
-    log: revlist-d6e48a01bb4f-c3a04f7e281d.txt
+  - ref: refs/heads/for-next
+    old: cde6d9d63b0670f4e5a656de7cdadf3fce4d3b49
+    new: d9641cb8a451c5bbbee0b486a36126ba0c14137a
+    log: revlist-cde6d9d63b06-d9641cb8a451.txt
 
---===============5559973678912572940==
+--===============8948421995612802780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6e48a01bb4f-c3a04f7e281d.txt
+Content-Disposition: attachment; filename=revlist-cde6d9d63b06-d9641cb8a451.txt
 
 8c58a229688ce3a097b3b1a2efe1b4f5508c2123 s390/cio: Do not unregister the subchannel based on DNV
 e6ebf0d6514bd4438f43fe8926723cf807355b7e s390: Fix various typos
@@ -52,5 +52,7 @@ ece8f29d69b4b56cb6e3fc2450cc15c0425925fb s390/cio/css: Switch over to sysfs_emit
 a6a56aec4ac5147baf94907db65586e1072e2bba s390/vmur: Switch over to sysfs_emit()
 5c77c5d1e40f258d581dd75c56f4e5af696c5702 s390/vfio-ap: Switch over to sysfs_emit()
 c3a04f7e281d1066dfa4c7e84a98d5c41ae910cc s390/netiucv: Switch over to sysfs_emit()
+ae63e71c4897b7ebe40d4b6ad846d05c8774ecb9 Merge branch 'fixes' into for-next
+d9641cb8a451c5bbbee0b486a36126ba0c14137a Merge branch 'features' into for-next
 
---===============5559973678912572940==--
+--===============8948421995612802780==--
