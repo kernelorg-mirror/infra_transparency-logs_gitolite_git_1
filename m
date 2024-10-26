@@ -1,23 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sat, 26 Oct 2024 12:34:17 -0000
-Message-Id: <172994605794.2701115.16494915695958528429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 26 Oct 2024 13:49:37 -0000
+Message-Id: <172995057770.2758601.7214586126636887938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/linus-next
-    old: 585f5c3c08fb6b77216c046658ef38aeca3681cf
-    new: ed4709f6c987ed28078ca805c4491fdcf4163e96
+  - ref: refs/heads/for-6.13/block
+    old: e203e20a8b2b67eb12f87aa3ee625cda5e686434
+    new: f1be1788a32e8fa63416ad4518bbd1a85a825c9d
     log: |
-         5fa607880168d991bdc819f493a11155e935abe6 platform/x86:intel/pmc: Revert "Enable the ACPI PM Timer to be turned off when suspended"
-         48771da48072823956b271dddd568492c13d8170 platform/x86/intel/pmc: Fix pmc_core_iounmap to call iounmap for valid addresses
-         a7990957fa53326fe9b47f0349373ed99bb69aaa platform/x86: dell-wmi: Ignore suspend notifications
-         b012170fed282151f7ba8988a347670c299f5ab3 platform/x86: asus-wmi: Fix thermal profile initialization
-         ed4709f6c987ed28078ca805c4491fdcf4163e96 Merge tag 'platform-drivers-x86-v6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into linus-next
+         8acdd0e7bfadda6b5103f2960d293581954454ed blk-mq: add non_owner variant of start_freeze/unfreeze queue APIs
+         6b6f6c41c8ac9b5ef758f16b793e1fd998cd25b4 nvme: core: switch to non_owner variant of start_freeze/unfreeze queue
+         f1be1788a32e8fa63416ad4518bbd1a85a825c9d block: model freeze & enter queue as lock for supporting lockdep
+         
+  - ref: refs/heads/for-next
+    old: a8f070c8aee5796e26cbed0717f128cb69f79086
+    new: 0ea4c5853e48ebb2521d96f8b4969f19dd8f5978
+    log: |
+         8acdd0e7bfadda6b5103f2960d293581954454ed blk-mq: add non_owner variant of start_freeze/unfreeze queue APIs
+         6b6f6c41c8ac9b5ef758f16b793e1fd998cd25b4 nvme: core: switch to non_owner variant of start_freeze/unfreeze queue
+         f1be1788a32e8fa63416ad4518bbd1a85a825c9d block: model freeze & enter queue as lock for supporting lockdep
+         0ea4c5853e48ebb2521d96f8b4969f19dd8f5978 Merge branch 'for-6.13/block' into for-next
+         
+  - ref: refs/heads/io_uring-rsrc
+    old: 4018e9c50ef63a2af0ba25754354dbe155a0ef07
+    new: dfa5034f58b2aefa95ebea2bda0a33944d177d77
+    log: |
+         d2171a9d667d3ebb8226c7d6ba2d6d8f872c5108 io_uring/rsrc: get rid of per-ring io_rsrc_node list
+         dfa5034f58b2aefa95ebea2bda0a33944d177d77 io_uring/rsrc: get rid of io_rsrc_node allocation cache
          
