@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6526844331321226699=="
+Content-Type: multipart/mixed; boundary="===============8124817378162369456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sandeen/linux
-Date: Sat, 26 Oct 2024 01:38:18 -0000
-Message-Id: <172990669847.2183717.10008513201748084524@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 01:38:56 -0000
+Message-Id: <172990673635.2184225.14855771546403873466@gitolite.kernel.org>
 
---===============6526844331321226699==
+--===============8124817378162369456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sandeen/linux
 user: sandeen
 changes:
-  - ref: refs/heads/master
-    old: 3d5ad2d4eca337e80f38df77de89614aa5aaceb9
-    new: 850925a8133c73c4a2453c360b2c3beb3bab67c9
-    log: revlist-3d5ad2d4eca3-850925a8133c.txt
+  - ref: refs/heads/mount-api
+    old: 9fe931276ff72a121bd31be985cd7f62811bd5fb
+    new: 3546170942bfd0acff265c33d6d127434b394412
+    log: revlist-9fe931276ff7-3546170942bf.txt
 
---===============6526844331321226699==
+--===============8124817378162369456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d5ad2d4eca3-850925a8133c.txt
+Content-Disposition: attachment; filename=revlist-9fe931276ff7-3546170942bf.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -443,5 +443,11 @@ f647053312ee1a01927a4ec2970c0fbbb31f983a Merge tag 'nfsd-6.12-2' of git://git.ke
 81dcc79758cd0c0cfddf539bbdb6e7307053fc0d Merge tag 'fuse-fixes-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 c71f8fb4dc911022748a378b16aad1cc9b43aad8 Merge tag 'v6.12-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 850925a8133c73c4a2453c360b2c3beb3bab67c9 Merge tag '9p-for-6.12-rc5' of https://github.com/martinetd/linux
+786d4c7733e6e668eb3209f8c6b13e98b915b228 fs: convert ufs to the new mount API
+76ddc1d4b6f08aad839625d1caf95b20b0b3caff ecryptfs: Factor out mount option validation
+df494173c5fd47569c513585eae3ecd649524b60 ecryptfs: Convert ecryptfs to use the new mount API
+e11b6091b43a43717e3fab5ed099d176bedfdea3 vfs: Convert pstore to use the new mount API
+e887aa928c0b328e9cb6c6d3d16e501e6232639e devtmpfs: replace ->mount with ->get_tree in public instance
+3546170942bfd0acff265c33d6d127434b394412 vfs: remove unused old mount api code
 
---===============6526844331321226699==--
+--===============8124817378162369456==--
