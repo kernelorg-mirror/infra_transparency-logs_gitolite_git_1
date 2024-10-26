@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1243655929935927859=="
+Content-Type: multipart/mixed; boundary="===============6568286326356727033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Oct 2024 01:36:06 -0000
-Message-Id: <172990656642.2182401.14884947773531078818@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 01:36:25 -0000
+Message-Id: <172990658545.2182634.18128340455609265653@gitolite.kernel.org>
 
---===============1243655929935927859==
+--===============6568286326356727033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 043d4fa26b4991e2065d71963fc9aed1390fb0a6
-    new: 33ad5b73efce01c84eee823ff70eb029bff6d32f
-    log: revlist-043d4fa26b49-33ad5b73efce.txt
+  - ref: refs/heads/6.13/scsi-staging
+    old: a3517717c3c0dbad771f5e491191b4b7b69808fb
+    new: b92e5937e3523b0b7d41373681256bec78d7e134
+    log: revlist-a3517717c3c0-b92e5937e352.txt
 
---===============1243655929935927859==
+--===============6568286326356727033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729906576 -0400
+pusher 75C5DE3D 1729906596 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729906549-c07184441b136f66b9905d5ff61154905c97787f
+nonce 1729906569-23e86a2d83ff0775f63a3d42b7ddf7ef54f7ab06
 
-043d4fa26b4991e2065d71963fc9aed1390fb0a6 33ad5b73efce01c84eee823ff70eb029bff6d32f refs/tags/mkp-scsi-staging
+a3517717c3c0dbad771f5e491191b4b7b69808fb b92e5937e3523b0b7d41373681256bec78d7e134 refs/heads/6.13/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR5EACgkQ7ulgGnXF
-3j31uxAAqGzrvXhC3PcupbI7AjXJ6B55aTNbACSVar88v4kk+F+hUz6z+Jyqb2TW
-LZ5VSGC65o0g07o0w7uT7pk72nR/vWKZINQ+lDM35cK61V5q9VxdVGLhsQyJS71Q
-I88rtPBqY+Yw6fBsyW8TLXGxvsbHQaGgn1piW5O6jbYFCs7bi0QGuiNBHGe1PZcU
-tqJHMe7RWUu9FtYcFBqbh7jb7rFndpyDXCjUin+/HobO64xUdIxZTVZwDaSoFOxM
-ovzncrkvG1R0IU4yPjbWX0SyB6emXZXM52JAoFpAlWnXh5lFwZzU4mSncjJI1lt6
-lylNQ01wAzQQFutv4C4igsr5x1e6b+NQg3kM3DHGGlmVOsqhhr25lDihBmRBFZZa
-lyrBGdKPas1a0mxv5hDdcUQgPczBRRHg/vX492e8UFZfqk4GwmM4coYAhkJsk58K
-/ZCmjCOVm8btIc1Aw2m8a2KSYxI++ivgm8PgWe6QhG2WETRiN4lveoik2qSyOe9O
-Wp3yMSPEzhjFCysnPrmE9ePi7+Os0MEXfQ9h7LdL2nSiPdierDre+rNlDodZttd3
-ax+IKo+CzcqK9e8P3s3f26lE/6P9wqb2CHowpt3DZqDB/30zxPNNmkns2HKfvLaZ
-Ecr/LM8ZtH4sNmeVg6dkB+QeLi/QH3LxfQEYjITqgkmHA4nygKM=
-=p6Z/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR6QACgkQ7ulgGnXF
+3j3pPA//bR27fKwUNgkBH77hUVgwLL0gl6jjbanHpqnIWJf12wKzvkPFB8tU3694
+t0wRgs7zgK9+bakA7sjvjGFmvkW93nmoWXdy91rMLGG9QPyYu3y2U5cluw9/f3Du
+MKP5Q9ew1aZDqaAVlKQDzOjbUe1EbFKHkL4azWIm21tkA9WUykaiwjDLa9N2+xFZ
+sUGYlAlqUtbP02bZL3tSu7WfiRIpQW/izFAVDcL95pckZrEtP5pW2uyPx+ZAL6pb
+ka0qHNOYZ6QjnEHJ1pu8KcbKTW218xxRzIglVJefuY1v/8EJ827qagrsMasxbUUj
+3CVt0zrbzfffdq+RRl7NmdsAWrQ3Up+VkWUsklHvXkkIISD3bpHH4dun6KKN3FF1
+x3HTsNzXDYku8OsyNYrZoRhTE9eVGyfNqUEIX6cFoAEQSdUY6ZQ9uaRskl0ZgjbF
+EA3PLBbJa5mcBhN63dj0G4W5QRDwCveer1TUtS/VBL/RThaXYaultvynnOkBNYOa
+VN3QbdsZ9hnzvVDtoZSff5Vi77X/QQemeKyPd3JhPVW1C5J4pjpOy2nZRmWJZ/B0
+slbgf7XV2NiL7QYYpmnNt0/QDeXxg3cUorgIDxRY6NsHc17dKJ3771iSs3JTsHOc
+4a/hxm3FWCxvJAckn+mklXr8S1/TZTGqIg1lGHXYV1Nqq1tPBmE=
+=omPj
 -----END PGP SIGNATURE-----
 
---===============1243655929935927859==
+--===============6568286326356727033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-043d4fa26b49-33ad5b73efce.txt
+Content-Disposition: attachment; filename=revlist-a3517717c3c0-b92e5937e352.txt
 
 10c58d7eea443c6961135a7f16f9fa03bf8e5823 scsi: ufs: core: check asymmetric connected lanes
 6c1143bb5d122ec542b10288bfca183788c547e8 scsi: ufs: core: Use ufshcd_wait_for_register() in HCE init
@@ -80,4 +80,4 @@ b6195d02b914ddfddb50e3ceb6b66928ebf0fdb8 scsi: ufs: core: Remove code that is no
 72e979225ed2e9427396e317d33050bcf50ad899 scsi: ufs: core: Move the MCQ scsi_add_host() call
 b92e5937e3523b0b7d41373681256bec78d7e134 scsi: ufs: core: Move code out of an if-statement
 
---===============1243655929935927859==--
+--===============6568286326356727033==--
