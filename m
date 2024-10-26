@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5153164231204088369=="
+Content-Type: multipart/mixed; boundary="===============2732215978899361276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 26 Oct 2024 18:22:20 -0000
-Message-Id: <172996694021.2971014.7026792886059043800@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 19:10:28 -0000
+Message-Id: <172996982813.3008658.16977236222043643217@gitolite.kernel.org>
 
---===============5153164231204088369==
+--===============2732215978899361276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: c2ee9f594da826bea183ed14f2cc029c719bf4da
-    new: 850925a8133c73c4a2453c360b2c3beb3bab67c9
-    log: revlist-c2ee9f594da8-850925a8133c.txt
+  - ref: refs/heads/testing
+    old: f866ccd8e3afb7d55070fbc8f1a16622b560a7bc
+    new: c76877ab8564cd9fb2981a919abb9858e199a851
+    log: revlist-f866ccd8e3af-c76877ab8564.txt
 
---===============5153164231204088369==
+--===============2732215978899361276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2ee9f594da8-850925a8133c.txt
+Content-Disposition: attachment; filename=revlist-f866ccd8e3af-c76877ab8564.txt
 
 e509996b16728e37d5a909a5c63c1bd64f23b306 xfrm: extract dst lookup parameters into a struct
 b8469721034300bbb6dec5b4bf32492c95e16a0c xfrm: respect ip protocols rules criteria when performing dst lookups
@@ -240,5 +240,17 @@ f647053312ee1a01927a4ec2970c0fbbb31f983a Merge tag 'nfsd-6.12-2' of git://git.ke
 81dcc79758cd0c0cfddf539bbdb6e7307053fc0d Merge tag 'fuse-fixes-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 c71f8fb4dc911022748a378b16aad1cc9b43aad8 Merge tag 'v6.12-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 850925a8133c73c4a2453c360b2c3beb3bab67c9 Merge tag '9p-for-6.12-rc5' of https://github.com/martinetd/linux
+0b911133949649a2a05d660a4c1be3b8447a326e hwmon: (max16065) Reorder include files to alphabetic order
+353862a8dc618e96698c2363400050b0a4e38c4b hwmon: (max16065) Use bit operations
+7b2bab6d7c043794b9f8158abd40ec7422577006 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+98ba01122420c8db9307d0fe80c645c89029dcb6 mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+f2060bf5ae2bc4bf2307f00495e25f2dba4b6bd3 resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+129e223b2a882d6ef7d562c33ff5628a5c74e307 Merge branch 'hwmon-next' into hwmon-staging
+906bc6ae4607746848950344aaade04e8e8121a0 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+27331a25e5a8ad2c888a6bf7074e316ad895c82b Merge branch 'hwmon-g762' into hwmon-staging
+96c06dd5a6f5286eac9a21229e4139dad86603e7 Merge branch 'hwmon-emc2103' into hwmon-staging
+2fc7140ca7f99fe096e939b7932cc51891763189 Merge branch 'hwmon-max16065' into hwmon-staging
+d92c6beb4487681edb15da4bb2ead9442795eb1a Merge branch 'hwmon-staging' into testing
+c76877ab8564cd9fb2981a919abb9858e199a851 Merge branch 'fixes-v6.12' into testing
 
---===============5153164231204088369==--
+--===============2732215978899361276==--
