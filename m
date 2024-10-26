@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 26 Oct 2024 17:49:36 -0000
-Message-Id: <172996497654.2945163.4174748293039174720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 26 Oct 2024 18:10:36 -0000
+Message-Id: <172996623669.2962614.538714169040984124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/io_uring-rsrc
-    old: dfa5034f58b2aefa95ebea2bda0a33944d177d77
-    new: 1de54fb35b35bfdf5f77f9f577e746c2f53a40a6
+  - ref: refs/heads/testing
+    old: 58575509cee1cf31a9d97775d6875e04e56271ef
+    new: ac24fc27b72b0683b66a9e02d622f898d9ed92cc
     log: |
-         68b870f874f590d69faab5a594ce308534839652 io_uring/rsrc: add an empty io_rsrc_node for sparse buffer entries
-         1de54fb35b35bfdf5f77f9f577e746c2f53a40a6 io_uring: only initialize io_kiocb rsrc_nodes when needed
+         3b15ee4dd01fe8940d66d656a62eec889dbcb30e dt-bindings: iio: light: veml6030: add veml3235
+         ac24fc27b72b0683b66a9e02d622f898d9ed92cc iio: light: add support for veml3235
          
