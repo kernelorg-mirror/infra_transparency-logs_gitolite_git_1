@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 26 Oct 2024 16:14:07 -0000
-Message-Id: <172995924795.2872040.8996196991899806642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 26 Oct 2024 17:26:51 -0000
+Message-Id: <172996361165.2928214.14390900018573723531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 794b185b6a2e90d09e5adcee07118e935b862bb6
-    new: 766527f2b914e2ee1c49e78ff31137dec29fd2d7
+  - ref: refs/heads/testing
+    old: 3ccc7bdc988207ac090e126e6471f860d66e3897
+    new: 58575509cee1cf31a9d97775d6875e04e56271ef
     log: |
-         766527f2b914e2ee1c49e78ff31137dec29fd2d7 Make make run_b219174 dependencies work.
+         71b91b3960f087a63980c7dda82481ff7de2bef2 dt-bindings: vendor-prefixes: Add Allegro MicroSystems, Inc
+         8f27119665d30108bc7513b59a0cc8555ca16f7a dt-bindings: iio: magnetometer: document the Allegro MicroSystems ALS31300 3-D Linear Hall Effect Sensor
+         58575509cee1cf31a9d97775d6875e04e56271ef iio: magnetometer: add Allegro MicroSystems ALS31300 3-D Linear Hall Effect driver
          
