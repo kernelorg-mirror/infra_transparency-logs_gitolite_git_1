@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 26 Oct 2024 09:21:59 -0000
-Message-Id: <172993451922.2551720.5860205211154825663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 26 Oct 2024 09:37:59 -0000
+Message-Id: <172993547963.2563488.15776313770885326489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/arm64-crc32-pmull
-    old: d5dd46d909b556002fb67502e8a6df38dde4e6eb
-    new: eb916e252a519e240998ca685849643f6d041002
+  - ref: refs/heads/master
+    old: c71f8fb4dc911022748a378b16aad1cc9b43aad8
+    new: 850925a8133c73c4a2453c360b2c3beb3bab67c9
     log: |
-         eb916e252a519e240998ca685849643f6d041002 arm64/crc32: Fall back to 8x8 PMULL if 64x64 PMULL is not available
+         f69999b5f9b444a2443ca2b9e5976e78bb5b7c69 Revert " fs/9p: mitigate inode collisions"
+         fedd06210b14febfa69e09d0721746749ea9ea20 Revert "fs/9p: remove redundant pointer v9ses"
+         26f8dd2dde6864558782d91542f89483bd59a3c2 Revert "fs/9p: fix uaf in in v9fs_stat2inode_dotl"
+         be2ca3825372085d669d322dccd0542a90e5b434 Revert "fs/9p: simplify iget to remove unnecessary paths"
+         850925a8133c73c4a2453c360b2c3beb3bab67c9 Merge tag '9p-for-6.12-rc5' of https://github.com/martinetd/linux
          
