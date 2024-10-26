@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6417819382830785458=="
+Content-Type: multipart/mixed; boundary="===============2105631893471762780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 26 Oct 2024 12:00:55 -0000
-Message-Id: <172994405509.2676854.3781655110552296044@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 12:10:38 -0000
+Message-Id: <172994463808.2684790.7634258052851736078@gitolite.kernel.org>
 
---===============6417819382830785458==
+--===============2105631893471762780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,61 +17,57 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 9bb31db10558d141239b9629ae96a6c166b7dc96
-    new: abbe1e3253d93932766191d5429d9979124e7b41
+    old: abbe1e3253d93932766191d5429d9979124e7b41
+    new: 018eb80b90840343105a526d3334de26a98ff97a
     log: |
-         a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
-         807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
-         a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
-         9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
-         abbe1e3253d93932766191d5429d9979124e7b41 Merge branch 'next/clk' into for-next
+         15c6bda43692971080db374e181737bd0c85edd3 Merge branch 'for-v6.13/clk-dt-bindings' into next/dt64
+         e54eb0465e548a7c6115e336ec5cfec04bbe8747 dt-bindings: timer: exynos4210-mct: Add samsung,exynos8895-mct compatible
+         fa986d1073805154888a788eda38d46a796346e8 arm64: dts: exynos8895: Add clock management unit nodes
+         9ad6c3bd1bcbb73e2a5723e13b9d06e2296b07e4 arm64: dts: exynos8895: Add Multi Core Timer (MCT) node
+         a5541d737c8de71948bcdaee912bcb6b0781af7e arm64: dts: exynos8895: Add spi_0/1 nodes
+         018eb80b90840343105a526d3334de26a98ff97a Merge branch 'next/dt64' into for-next
          
-  - ref: refs/heads/for-v6.13/clk-dt-bindings
-    old: 440e3dcd7c739ba5b256196a89e796fb7e59c755
-    new: a81dca057273c32b8554b3bc562480d4b3816155
+  - ref: refs/heads/next/dt64
+    old: 8354f854a90bcecd32dc1dc9646e805d60e96f0a
+    new: a5541d737c8de71948bcdaee912bcb6b0781af7e
     log: |
          a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
-         
-  - ref: refs/heads/next/clk
-    old: 6aff357efc2bb060e5b400774becfd3d37644b44
-    new: 9174fac3b302a853b78c78f2f5ad11462b0c54b0
-    log: |
-         a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
-         807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
-         a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
-         9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
+         15c6bda43692971080db374e181737bd0c85edd3 Merge branch 'for-v6.13/clk-dt-bindings' into next/dt64
+         e54eb0465e548a7c6115e336ec5cfec04bbe8747 dt-bindings: timer: exynos4210-mct: Add samsung,exynos8895-mct compatible
+         fa986d1073805154888a788eda38d46a796346e8 arm64: dts: exynos8895: Add clock management unit nodes
+         9ad6c3bd1bcbb73e2a5723e13b9d06e2296b07e4 arm64: dts: exynos8895: Add Multi Core Timer (MCT) node
+         a5541d737c8de71948bcdaee912bcb6b0781af7e arm64: dts: exynos8895: Add spi_0/1 nodes
          
 
---===============6417819382830785458==
+--===============2105631893471762780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1729944080 +0200
+pusher krzk@kernel.org 1729944663 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1729944051-dc25b4e875836a2d11e6e3788fd7dc857c73d8ca
+nonce 1729944635-8f91e0ffbe90150097c487753b5fb7201fa41215
 
-9bb31db10558d141239b9629ae96a6c166b7dc96 abbe1e3253d93932766191d5429d9979124e7b41 refs/heads/for-next
-440e3dcd7c739ba5b256196a89e796fb7e59c755 a81dca057273c32b8554b3bc562480d4b3816155 refs/heads/for-v6.13/clk-dt-bindings
-6aff357efc2bb060e5b400774becfd3d37644b44 9174fac3b302a853b78c78f2f5ad11462b0c54b0 refs/heads/next/clk
+abbe1e3253d93932766191d5429d9979124e7b41 018eb80b90840343105a526d3334de26a98ff97a refs/heads/for-next
+8354f854a90bcecd32dc1dc9646e805d60e96f0a a5541d737c8de71948bcdaee912bcb6b0781af7e refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmcc2hAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yKuD/49gs4GlHtLirqM43WIUA4flv6M23Rxsvy6
-wDmlMAPgCDJ0V8SsE4HDcquUevvgrxjvlhsAY4XR2b7EowdB4Y14w1abcJs0ODJT
-G0Wa0CD0hth2Z4bJgauMMjRWiVPtpxbBONr/43cjNq3oFR4OezNmyocMAbRVTbxh
-9kj3dUZzCQnHSMduh6g66tF2hb0iyOp9pmWCxy2BdGy/ioEglMx+D3UGnAV+LKRb
-+5gYLFwmWCdot5c/EfG72zsB6GAwdKc3WYYN33CAit5YwO20FbUr3Q8QeJdMGMST
-EXaSc0jZ2sCKuBoLDbb+OYuV89XtPeCyojuGik1+eFpWApmicy7ERUt3AM9N8YG/
-dujob9Q9wVXT4/iICKqLzPvOzIcF8D/bRQIy2lOUOhIHOP68Bv6W2Wyb9M/WtCqY
-jWZIyPAvEE9ZJHclRJAMIY++n5JgTQmKkTf7WpfvSkDt4NkFdYXwTGzpx1Z8tiaP
-dytrXnrXsZhxEnrNyRof/qKqrBEWHX9H5HIzud4N/h04ODyPaOtWog2zs5Lo0BUc
-jJ19DZSd9fG59eh+MWDY/I5RJMDXQOO34BoWIDRBnTXAqcoAkSX2+9+Rp7Xr5pne
-jDVJPwLSPS+4KvLIU9d1t/5LTmgmwS9iSi3OqDDTvUseA5JBbbf3tMjL3WqNc3GM
-Qi4WsbYU5g==
-=iR0g
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmcc3FcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16jtD/9t7Efj/oh+akI4sNJ554Gu9D5USvzuGNaM
+BKI+w3KKnoKqSh8YPLM22snSf3O1tWBd66D/N8p8/4UPmQFnyJIkQ8OSryQRYRIq
+phCh+0DW81D/QEs2A/PhD9Y+9sVteX6SdcnY/nJEfjJ2UwojdteeWdyT/Ht+rRjP
+L/xRNwcqpEo5vAefB7gcD+4RBTmnQkQVHvXl60kiPK8ePT30xRbIH/N37epYC9m+
+sHicuiWBka5uqV2GxtvDO0/0yKNCg0Rs8EEwbYGwR5DHIfhTQn8FnLXxDZqOEzcK
+ZsW5eIfA0fukv5ZZb1VGh2riGvU168vJPhu+s78X5OnQRAYMFnJiJQwZTkUU+b0x
+ptxdSHeLkEUkOSD5EWMRJ06pYu5uuDCP2D4Qk65VFclgZzPjGXKRBe+6MT/igFwD
+gPvuufbMeBHYeEqXUCCWQjREa7/d+0i36ToBKM4nDtBChuZS+m49q6mYLyvH9Cdl
+lz4JGv7HXw8o3krAyG3+RcFzsyQVqL5nSLmDdLii6E5cmeTB+ReMzTLRfLgmoJJV
+QOmkU/Y6EqKuTa8TS5TSxX0FZzfDGwaNmHHT1PAb9EV4L/qsyRIWIv9IEcnUToWF
+nHC5GtuCAwzBCZuXrd7IMw8lQngJawM69j78DW8epsGOO31eM/ADkVaFcdJ4wI1U
+rg/FnfSFpw==
+=itvb
 -----END PGP SIGNATURE-----
 
---===============6417819382830785458==--
+--===============2105631893471762780==--
