@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 26 Oct 2024 10:38:27 -0000
-Message-Id: <172993910775.2610101.5021951860656061603@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 10:44:25 -0000
+Message-Id: <172993946569.2614659.17081860282503893955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/tags/iio-fixes-for-6.12b
-    old: 24866bea37e8c9624a41ab0bc27fdef317ae548d
-    new: e4ae7e78dd75fbe3a61fca8eadf6ceb90547b124
+  - ref: refs/heads/togreg
+    old: 185a947e0ef928226f99c05fc973cde872806aa1
+    new: 9090ececac9ff1e22fb7e042f3c886990a8fb090
+    log: |
+         0e98b6003360ea774732da553e36628d457d3245 iio: light: Remove "default n" entries
+         51078254784dab96f63158e3402c4add5b5830d3 iio: adc: Remove "default n" entries
+         9daf7afaf5387bea3649d15c0667e30c0a72b0a4 iio: imu: bmi270: Remove unused FREQUENCY / SCALE attributes
+         9090ececac9ff1e22fb7e042f3c886990a8fb090 iio: imu: bmi270: Provide chip info as configuration structure
+         
