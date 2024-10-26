@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 25 Oct 2024 23:58:13 -0000
-Message-Id: <172990069399.2105314.2285390712642686362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
+Date: Sat, 26 Oct 2024 00:00:00 -0000
+Message-Id: <172990080071.2106985.3740041048812473679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/hackermail
 user: sj
 changes:
-  - ref: refs/tags/damon/next-2024-10-25-16-58-on-v6.12-rc4
+  - ref: refs/heads/master
+    old: 66d7a5cbd59ecd782c10da92d93547d2f9239886
+    new: 26db22afd9acd974e657a58e514686e45b90318e
+    log: |
+         26db22afd9acd974e657a58e514686e45b90318e hkml_monitor: fix wrong do_find_ancestors_from_cache argument name
+         
+  - ref: refs/tags/v1.1.6
     old: 0000000000000000000000000000000000000000
-    new: b2b69d8a47e1fd4008942c2036ca7e11ffb75088
+    new: 9a486394721a5b4dc470a390dffb75ceff7bf1d6
