@@ -1,54 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============5956461414635245063=="
+Content-Type: multipart/mixed; boundary="===============6417819382830785458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 26 Oct 2024 11:58:14 -0000
-Message-Id: <172994389432.2673339.12913641334825769455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 26 Oct 2024 12:00:55 -0000
+Message-Id: <172994405509.2676854.3781655110552296044@gitolite.kernel.org>
 
---===============5956461414635245063==
+--===============6417819382830785458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/testing
-    old: 4e3a515d5878557233fb93fe841e25ae8e11e558
-    new: 1365ddaf94c3893e4ec6edc8817eeba08c6ca239
-    log: revlist-4e3a515d5878-1365ddaf94c3.txt
+  - ref: refs/heads/for-next
+    old: 9bb31db10558d141239b9629ae96a6c166b7dc96
+    new: abbe1e3253d93932766191d5429d9979124e7b41
+    log: |
+         a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
+         807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
+         a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
+         9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
+         abbe1e3253d93932766191d5429d9979124e7b41 Merge branch 'next/clk' into for-next
+         
+  - ref: refs/heads/for-v6.13/clk-dt-bindings
+    old: 440e3dcd7c739ba5b256196a89e796fb7e59c755
+    new: a81dca057273c32b8554b3bc562480d4b3816155
+    log: |
+         a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
+         
+  - ref: refs/heads/next/clk
+    old: 6aff357efc2bb060e5b400774becfd3d37644b44
+    new: 9174fac3b302a853b78c78f2f5ad11462b0c54b0
+    log: |
+         a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
+         807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
+         a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
+         9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
+         
 
---===============5956461414635245063==
-Content-Type: text/plain; charset="utf-8"
+--===============6417819382830785458==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4e3a515d5878-1365ddaf94c3.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5660bb2bd39504b475cf4837fc12f90fd4629da iio: magnetometer: bmc150: Drop dead code from the driver
-251516c43e0add0e64bd6d8072f2e2fe32525d46 iio: adc: pac1934: Replace strange way of checking type of enumeration
-b7b41d417616cc91dab143acca65fbed641bfb90 iio: imu: inv_mpu6050: Replace strange way of checking type of enumeration
-7f4936f7bb624b00bc8d8b5b6855c1ffee745438 iio: acpi: Improve iio_read_acpi_mount_matrix()
-ce9c245836c9e185b9af893b37cacea1241b3588 iio: acpi: Add iio_get_acpi_device_name_and_data() helper function
-47b20cc62193f3350aa91f8baab08f5736af5da5 iio: accel: kxcjk-1013: Remove redundant I²C ID
-2c32794ccf5294e86c5d7ef7b562e7409c2c1aae iio: accel: kxcjk-1013: Revert "Add support for KX022-1020"
-a4182da0907856f74ffaa956a7ae5f5728fb0842 iio: accel: kxcjk-1013: Switch from CONFIG_PM guards to pm_ptr() etc
-358fb59fb4d8be2d8c319bbc75d9ead8ab8d822c iio: accel: kxcjk-1013: Use local variable for regs
-ab30889d691b7fc2ce77eda8fb3fe44494676520 iio: accel: kxcjk-1013: Rename kxcjk1013_info
-cd5cd10b77b0246e22dca77691039c6f2607a7c7 iio: accel: kxcjk-1013: Start using chip_info variables instead of enum
-db032420727023e0125e85684d8248fbb234c4c1 iio: accel: kxcjk-1013: Move odr_start_up_times up in the code
-d381089dda44759bbc46954d572b14a0ac5c90d9 iio: accel: kxcjk-1013: Convert ODR times array to variable in chip_info
-21ff5176b83d9b834909a694df9561e4a5d46dde iio: accel: kxcjk-1013: Get rid of enum kx_chipset
-613741caf6b0e205a0e147635f5a8666cfc2c990 iio: accel: kxcjk-1013: Replace a variant of iio_get_acpi_device_name_and_data()
-3ffaafc62addeec64c0e49e0fb34a495a4c8b78b iio: accel: kxcjk-1013: drop ACPI_PTR() and move ID out of CONFIG_ACPI guards
-a204747b8b12a63926e05e7351937bdc6f96a5de iio: accel: mma9551: Replace custom implementation of iio_get_acpi_device_name()
-8195ed05ba8068a53286e04ca11e76a91351f0d4 iio: accel: mma9553: Replace custom implementation of iio_get_acpi_device_name()
-3fa7982aa7bdf8a1cbe5262569cbdca3675650c2 iio: gyro: bmg160: Replace custom implementation of iio_get_acpi_device_name()
-f373cff8aa816080cb42408c7eaaf271ee6b3c88 iio: light: isl29018: Replace a variant of iio_get_acpi_device_name_and_data()
-955d102a407304ebb2f1c57139336ea326fec9fe iio: light: isl29018: drop ACPI_PTR() and CONFIG_ACPI guards
-0f4320b9f95be1cc34ab4ddacacf85e1835dbcaf iio: light: ltr501: Drop most likely fake ACPI IDs
-c3cb7de57811d258343282c228e84b40f1c0fdb0 iio: light: ltr501: Add LTER0303 to the supported devices
-1365ddaf94c3893e4ec6edc8817eeba08c6ca239 iio: light: ltr501: Replace a variant of iio_get_acpi_device_name_and_data()
+certificate version 0.1
+pusher krzk@kernel.org 1729944080 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1729944051-dc25b4e875836a2d11e6e3788fd7dc857c73d8ca
 
---===============5956461414635245063==--
+9bb31db10558d141239b9629ae96a6c166b7dc96 abbe1e3253d93932766191d5429d9979124e7b41 refs/heads/for-next
+440e3dcd7c739ba5b256196a89e796fb7e59c755 a81dca057273c32b8554b3bc562480d4b3816155 refs/heads/for-v6.13/clk-dt-bindings
+6aff357efc2bb060e5b400774becfd3d37644b44 9174fac3b302a853b78c78f2f5ad11462b0c54b0 refs/heads/next/clk
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmcc2hAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yKuD/49gs4GlHtLirqM43WIUA4flv6M23Rxsvy6
+wDmlMAPgCDJ0V8SsE4HDcquUevvgrxjvlhsAY4XR2b7EowdB4Y14w1abcJs0ODJT
+G0Wa0CD0hth2Z4bJgauMMjRWiVPtpxbBONr/43cjNq3oFR4OezNmyocMAbRVTbxh
+9kj3dUZzCQnHSMduh6g66tF2hb0iyOp9pmWCxy2BdGy/ioEglMx+D3UGnAV+LKRb
++5gYLFwmWCdot5c/EfG72zsB6GAwdKc3WYYN33CAit5YwO20FbUr3Q8QeJdMGMST
+EXaSc0jZ2sCKuBoLDbb+OYuV89XtPeCyojuGik1+eFpWApmicy7ERUt3AM9N8YG/
+dujob9Q9wVXT4/iICKqLzPvOzIcF8D/bRQIy2lOUOhIHOP68Bv6W2Wyb9M/WtCqY
+jWZIyPAvEE9ZJHclRJAMIY++n5JgTQmKkTf7WpfvSkDt4NkFdYXwTGzpx1Z8tiaP
+dytrXnrXsZhxEnrNyRof/qKqrBEWHX9H5HIzud4N/h04ODyPaOtWog2zs5Lo0BUc
+jJ19DZSd9fG59eh+MWDY/I5RJMDXQOO34BoWIDRBnTXAqcoAkSX2+9+Rp7Xr5pne
+jDVJPwLSPS+4KvLIU9d1t/5LTmgmwS9iSi3OqDDTvUseA5JBbbf3tMjL3WqNc3GM
+Qi4WsbYU5g==
+=iR0g
+-----END PGP SIGNATURE-----
+
+--===============6417819382830785458==--
