@@ -1,37 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 26 Oct 2024 13:49:37 -0000
-Message-Id: <172995057770.2758601.7214586126636887938@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5229973690901887554=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Sat, 26 Oct 2024 14:07:35 -0000
+Message-Id: <172995165596.2772870.3480344440782706106@gitolite.kernel.org>
+
+--===============5229973690901887554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/uml/linux
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.13/block
-    old: e203e20a8b2b67eb12f87aa3ee625cda5e686434
-    new: f1be1788a32e8fa63416ad4518bbd1a85a825c9d
+  - ref: refs/heads/next
+    old: 42b8b00c8ab1ac18fccde3f29ee589626a561ea7
+    new: d3b08e5f3f2829943342b88d3e2b44fb0ccdccab
     log: |
-         8acdd0e7bfadda6b5103f2960d293581954454ed blk-mq: add non_owner variant of start_freeze/unfreeze queue APIs
-         6b6f6c41c8ac9b5ef758f16b793e1fd998cd25b4 nvme: core: switch to non_owner variant of start_freeze/unfreeze queue
-         f1be1788a32e8fa63416ad4518bbd1a85a825c9d block: model freeze & enter queue as lock for supporting lockdep
+         d3b08e5f3f2829943342b88d3e2b44fb0ccdccab um: fix stub exe build with CONFIG_GCOV
          
-  - ref: refs/heads/for-next
-    old: a8f070c8aee5796e26cbed0717f128cb69f79086
-    new: 0ea4c5853e48ebb2521d96f8b4969f19dd8f5978
-    log: |
-         8acdd0e7bfadda6b5103f2960d293581954454ed blk-mq: add non_owner variant of start_freeze/unfreeze queue APIs
-         6b6f6c41c8ac9b5ef758f16b793e1fd998cd25b4 nvme: core: switch to non_owner variant of start_freeze/unfreeze queue
-         f1be1788a32e8fa63416ad4518bbd1a85a825c9d block: model freeze & enter queue as lock for supporting lockdep
-         0ea4c5853e48ebb2521d96f8b4969f19dd8f5978 Merge branch 'for-6.13/block' into for-next
-         
-  - ref: refs/heads/io_uring-rsrc
-    old: 4018e9c50ef63a2af0ba25754354dbe155a0ef07
-    new: dfa5034f58b2aefa95ebea2bda0a33944d177d77
-    log: |
-         d2171a9d667d3ebb8226c7d6ba2d6d8f872c5108 io_uring/rsrc: get rid of per-ring io_rsrc_node list
-         dfa5034f58b2aefa95ebea2bda0a33944d177d77 io_uring/rsrc: get rid of io_rsrc_node allocation cache
-         
+
+--===============5229973690901887554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1729951653 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/uml/linux.git
+nonce 1729951626-d640b624320b06d27c34715fc8e2887cf431fe3e
+
+42b8b00c8ab1ac18fccde3f29ee589626a561ea7 d3b08e5f3f2829943342b88d3e2b44fb0ccdccab refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmcc96UACgkQ10qiO8sP
+aADWgA/+IoJua4LsCeCAbfFKQOGsk8qKXhWEctMH49tbgLhFetJzmTDhR84KKCr1
+kPWqWFOBcNNkQJJqcUL/jqgOAdDhGsZS6J8rc7gbngYZuFjyWCSf6e/QrqKwv8NQ
+1p2QBiusZj7TQZRghwDFr8bItJ4CNWqLU32mnCYaodqr3DNjOxC6CNGULUqOJqC3
+hzXaw55p9iSf8A2pa7PjLRd2Z203gkpIxQP65/E+Y87Ksktar/uthBUYRiE4KFtv
+uRFNAufyYHlr+YISHDsOLrymQJ0PUX5+4cENqD9zsdip+CRmRdR7apMq/v4U+pko
+uIoTBdDD7ra2RUVCvvlk+i9Ei13tUZ48Tkh+JZFaan1wutyg9M+ffGS+8Ez71DJY
+FbdW9L2IUKmpBoq1StXa1oqmCyfkurIkOYh9f9UVyK2oDwpwTnVECUcPr9nweO+r
+aLNdj+qqdYPrG8kQilI03Gy+GzI+LNAUr1MFiNqFCYSnInnXNAJJqVwZZos0rAM5
+pPTDBR2CDYg6UaoyrDklOx2+Yve+IiKQQ8rg02VkxlrExQpEqtFNJb/LK3p5sgyQ
+xKR0Hmj+YkogI4hV9rTePksDbisz4zzK12jskC34t/HPP6N8sA3/z0fBQdMoYMjx
+N+p8DK7C69vx62Fo4G2E6MpCTKLKZqlgu06W/RJ9C6/VcGvXyOU=
+=gLEP
+-----END PGP SIGNATURE-----
+
+--===============5229973690901887554==--
