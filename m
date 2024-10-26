@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 26 Oct 2024 00:56:46 -0000
-Message-Id: <172990420640.2150893.11358802461975434708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sandeen/linux
+Date: Sat, 26 Oct 2024 01:06:06 -0000
+Message-Id: <172990476697.2158625.13871563990350453230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sandeen/linux
+user: sandeen
 changes:
-  - ref: refs/heads/dev
-    old: 0a40a17efabcc2d2bb1b9741aa4f0b55b828d9c8
-    new: a489ef720efa78763afa39fe88d09dbb4176a47d
+  - ref: refs/heads/mount-api
+    old: af0a8e5ab96dba92a0402ca56407a9e5f656403c
+    new: 9fe931276ff72a121bd31be985cd7f62811bd5fb
     log: |
-         17f8747d66f24b57f9e9f08dce78a9c1ceac2836 fixup! rcutorture: Make the TREE03 scenario do preemption
-         4fa20f17c97161ba6834e44e8f9cd2e5b75e58f7 clocksource-wdtest: Print time values for short udelay(1)
-         0ad98fb19b1bd9fc643c0554da2534dc7526c5aa rcu: Make rcu_report_exp_cpu_mult() caller acquire lock
-         d770670a42fdd703e829ee45519c0f5fd1b1ef54 rcu: Move rcu_report_exp_rdp() setting of ->cpu_no_qs.b.exp under lock
-         6875ee6d8e6b525730d336fe75422558172a554b rcu: Replace open-coded rcu_exp_need_qs() from rcu_exp_handler() with call
-         ebffe42326d915bfcc23d88cc9a6351e17534365 rcu: Make preemptible rcu_exp_handler() idempotent
-         b8886be01ba471fb4ad087a89507a8cb5916bc1d rcu: Add KCSAN exclusive-writer assertions for rdp->cpu_no_qs.b.exp
-         a489ef720efa78763afa39fe88d09dbb4176a47d refscale: Undo j/J vim mistake in ref_scale_init()
+         109e94c317d589415cd252de50ebb0161d125296 fs: convert ufs to the new mount API
+         4157734c2350504a34a43d9a7e407263af040913 ecryptfs: Factor out mount option validation
+         01861f5ef7f9ce59cd6e333786660a70b89322cc ecryptfs: Convert ecryptfs to use the new mount API
+         0ca65846308f4e2dbc69a37b397c5b72c32d7714 vfs: Convert pstore to use the new mount API
+         d2dc99d2a993f403872652aa6084978eaf458f30 devtmpfs: replace ->mount with ->get_tree in public instance
+         9fe931276ff72a121bd31be985cd7f62811bd5fb vfs: remove unused old mount api code
          
