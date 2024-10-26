@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 26 Oct 2024 10:44:25 -0000
-Message-Id: <172993946569.2614659.17081860282503893955@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 10:45:08 -0000
+Message-Id: <172993950824.2617149.1107382598115817992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 185a947e0ef928226f99c05fc973cde872806aa1
-    new: 9090ececac9ff1e22fb7e042f3c886990a8fb090
+  - ref: refs/heads/testing
+    old: 9090ececac9ff1e22fb7e042f3c886990a8fb090
+    new: 4e3a515d5878557233fb93fe841e25ae8e11e558
     log: |
-         0e98b6003360ea774732da553e36628d457d3245 iio: light: Remove "default n" entries
-         51078254784dab96f63158e3402c4add5b5830d3 iio: adc: Remove "default n" entries
-         9daf7afaf5387bea3649d15c0667e30c0a72b0a4 iio: imu: bmi270: Remove unused FREQUENCY / SCALE attributes
-         9090ececac9ff1e22fb7e042f3c886990a8fb090 iio: imu: bmi270: Provide chip info as configuration structure
+         26dec6c3ab77d625740651a9ecafe892c236ba3e iio: adc: ad7606: fix/persist oversampling_ratio setting
+         57be1df65ecd2eda26745868ffd101e7366d590c iio: adc: ad7606: use realbits for sign-extending in scan_direct
+         6a3187aa583351bb005fc229ae6dd322ddbd9241 iio: adc: ad7606: rework scale-available to be static
+         7b6385c8608ce3c5131605d0d3b1f314a0e2b603 dt-bindings: iio: adc: adi,ad7606: document AD760{7,8,9} parts
+         4e3a515d5878557233fb93fe841e25ae8e11e558 iio: adc: ad7606: add support for AD760{7,8,9} parts
          
