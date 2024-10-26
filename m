@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1068310880859808518=="
+Content-Type: multipart/mixed; boundary="===============5555903797095867521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Oct 2024 01:35:36 -0000
-Message-Id: <172990653648.2181810.9233674587794897350@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 01:35:41 -0000
+Message-Id: <172990654101.2181989.9893134337648641557@gitolite.kernel.org>
 
---===============1068310880859808518==
+--===============5555903797095867521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b33b4e85f3919fae4dc0550eb32aeccc1238b484
-    new: 715dd4fa76367ad8da3abd93e5eaef8280ebb4d5
-    log: revlist-b33b4e85f391-715dd4fa7636.txt
+  - ref: refs/heads/6.13/scsi-queue
+    old: 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699
+    new: a3517717c3c0dbad771f5e491191b4b7b69808fb
+    log: revlist-94c4c5d78b0f-a3517717c3c0.txt
 
---===============1068310880859808518==
+--===============5555903797095867521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729906547 -0400
+pusher 75C5DE3D 1729906566 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729906520-9edd3dea98fdf3822c35f5a1be6e6ca7f381f954
+nonce 1729906539-e834d32ed2d4d9bfb99893c174be318ae00f505e
 
-b33b4e85f3919fae4dc0550eb32aeccc1238b484 715dd4fa76367ad8da3abd93e5eaef8280ebb4d5 refs/tags/mkp-scsi-queue
+94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 a3517717c3c0dbad771f5e491191b4b7b69808fb refs/heads/6.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR3MACgkQ7ulgGnXF
-3j0r8xAAglXrPfcRsFMsH7X8PbjReoqOv5eA+ESWL6xrg/2wsSM7Z1F8ojhtigMp
-jsdtBY64lEf9lSeTV/D4dUAGvlwAy/SQBf8wSX0qv+K+/GJ3feE0ZO+1mCgZu3/Q
-ti/6LYtMOd2h3BpHo8yY4DOHyjBLxJJOMvF1NN+M8AmMBUpbRwdLIrSJd6Z42G+e
-qYasDtYQ6GItofaBwzyg5XenWQMJXOHpu7fiPsya+aqW+rH5CsvMgv05jKOkZOtT
-GQknz71aM0ntjT4aaFBR/Jtd/3tmqWul4ac2dureOHaRNciNvb8AOh0UwJroWbvn
-mUQOCwCp7LVqYjISgTzErjfKDmKcLxmwapR+gH9qUdYaUMRVX2deYV4Z3wzZ1mMW
-1mLLFb4Usz43h++BWANzAHOoh2xQ33ZC/jgTjClmjyKMW2xlqd5ZJZP69syF55Pz
-qc4pJnbpzv1xvgQtCSNhQsvpEkoolB6nO4I/l1a6YWZtjKuLyPr5gkMO8hbNZg2k
-a4pwQFfh9TnFo7W7uScACbvqpohWwZ/JW2KYCkqYNMv9hqo9WWJYU0qJDgXmlCXM
-dHF+MONtL1XqLR75FpSpkiUjlNIFW7qfbq9QbZ8ta9KYiBCVFdT1J6wC3ELeVHI9
-hEaMZ/89A5uD+wYFokR+BLgx7ZpoG0/VXbagsYArg9RTXfLewqA=
-=tJKJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR4YACgkQ7ulgGnXF
+3j2XVg/9G1raGzEB1ecNogMUhYOoMJmgudTDB9YV5HecuVSvXY8XTUn2Xz1y+D4C
+mFdaJdJ/cfQsMwgLkr0Yo4ZAMrreEd/cGCm2zTiWWBaXWEIhBJ3toQX0skMzTnnQ
+GNF7kgWCev4l6OF5t/43hCRxixCbolRcDr3bC9ieqNs5GlrZAZMVwFg/e14621fh
+29PrWnwF95HA2dOC0mT+8xAjzIlMqJqG0iMiWg/z4flj6H1uxy0S/QuA8elnNWsf
+0Eb/9Y3KXzT0Arwaq8OXnhf2hr9TKmPcGlJLTLmClkP9Aou1KEEPTZpV5bugInLd
+oWklOPk+Qm1r8m9kpdjtjs/3LYTCN+6u38/orAwoHgK3wrCd/j/0xw3N6+pt7cpB
+t2u7esZ2I8kMwCHjUohh7qsz6ZanoM7424PbyVG70OmjB+FwGUVecHYVy4fg+Bc6
+Wcnd/AvelP3qpbRT7+1XO7ptT3FAnGKLdu+YLlaUHKdQGz9qmrIOCIRe+Z5eAd4F
+sv5gqSpANxCMm9kyqIWvbc6SBbH8Fo8Mm54tbRvrnXt1MfymHMXwTjCKPw97uxVr
+W3u6haeTQiB3E/yc47LZniGjinirEL+u1zb0l9vTKbyjqDzevtvXTAB58YID9YGT
+W4FELdQtVvQWyib6umumBL2drCvIxCw6aKff6mq4UKFyBY1EJz8=
+=P3mR
 -----END PGP SIGNATURE-----
 
---===============1068310880859808518==
+--===============5555903797095867521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b33b4e85f391-715dd4fa7636.txt
+Content-Disposition: attachment; filename=revlist-94c4c5d78b0f-a3517717c3c0.txt
 
 f3845d7d7145e325cf6512d2b7e805acd08ea291 scsi: bfa: Remove unused bfa_core code
 0604cf11cd56179fa86baeb030d8862489d341e1 scsi: bfa: Remove unused bfa_svc code
@@ -77,4 +77,4 @@ a220bffebabe7227b4dbb8f811bc64ecf25e017e scsi: hisi_sas: Default enable interrup
 cae668130c07f6873718b6f5b415d22e1008f2c9 scsi: hisi_sas: Add latest_dump for the debugfs dump
 a3517717c3c0dbad771f5e491191b4b7b69808fb Merge patch series "scsi: hisi_sas: Some fixes for hisi_sas"
 
---===============1068310880859808518==--
+--===============5555903797095867521==--
