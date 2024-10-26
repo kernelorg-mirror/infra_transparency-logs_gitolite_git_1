@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5873771965616931596=="
+Content-Type: multipart/mixed; boundary="===============1243655929935927859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Oct 2024 01:35:45 -0000
-Message-Id: <172990654561.2182086.3774430942915087676@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 01:36:06 -0000
+Message-Id: <172990656642.2182401.14884947773531078818@gitolite.kernel.org>
 
---===============5873771965616931596==
+--===============1243655929935927859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,68 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699
-    new: a3517717c3c0dbad771f5e491191b4b7b69808fb
-    log: revlist-94c4c5d78b0f-a3517717c3c0.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 043d4fa26b4991e2065d71963fc9aed1390fb0a6
+    new: 33ad5b73efce01c84eee823ff70eb029bff6d32f
+    log: revlist-043d4fa26b49-33ad5b73efce.txt
 
---===============5873771965616931596==
+--===============1243655929935927859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729906571 -0400
+pusher 75C5DE3D 1729906576 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729906543-e83b5c2e3c5328e9903a37feb0809d4eaf86f451
+nonce 1729906549-c07184441b136f66b9905d5ff61154905c97787f
 
-94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699 a3517717c3c0dbad771f5e491191b4b7b69808fb refs/heads/queue
+043d4fa26b4991e2065d71963fc9aed1390fb0a6 33ad5b73efce01c84eee823ff70eb029bff6d32f refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR4sACgkQ7ulgGnXF
-3j0zdA//VvGMaeD1ZF10ELhaH5sycjmNrqpbEH6KfW2+MnRDIH/LwffROSs3xHfk
-snpN7ux/VbDGhme96jrnntZWXfVQgmQ4qHlwui3136igO6vgSKwvSDz+w2rnMfit
-zmSJ+LXV7hum9hhQBWqFC78rs8T/Ku/IxYTrYaHHTgqL6Ji2KucMM0Gggezs/Ts+
-t3H5t+P1WnVEaOLX6AXZftyDS6Cjfr7M/oc5fFJGRxrzayRvvJwIhlG1Cx9Xkrb2
-4bEYTnHKbd0L1KhR4i9hBsKLSfrUdMIyXwAyvMFhIK3ZYAqwdfSLGW1ej5Ttd2C9
-LO605IojXK1lD9pgwn8T9eBbyMXpI1vEs5Yn9wlPhLoawJKsiPXJVjtjpSKE06FJ
-+D5n4ruwud7ypzBQ/WSwmx4nQpx6FvwcKY3PGV9mdt/Eelu0N9m0lEk/LodKHS+5
-K7II50VgbCgzD6NyRyWBxTxmAoDCPq2eu1SyM0SySh7i9/jyCbkLIFPdsj2uQoeo
-/piPz+758DvT8bynBjZUEdn3YPa2r8MTuyENbq92SL9rZIxUzptCO5xkkDZDgqU7
-WoRCONyaT7Ez4VDUo84UNwNf/3aJPWCeopAfbhbSVQIuJB9dtm8UCyE3SYceMNi0
-+yDPJwfIm4sz0mBwU9gFaZZDIONvC9NOL9M3R551Lv9OjoAKFSA=
-=hO0L
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR5EACgkQ7ulgGnXF
+3j31uxAAqGzrvXhC3PcupbI7AjXJ6B55aTNbACSVar88v4kk+F+hUz6z+Jyqb2TW
+LZ5VSGC65o0g07o0w7uT7pk72nR/vWKZINQ+lDM35cK61V5q9VxdVGLhsQyJS71Q
+I88rtPBqY+Yw6fBsyW8TLXGxvsbHQaGgn1piW5O6jbYFCs7bi0QGuiNBHGe1PZcU
+tqJHMe7RWUu9FtYcFBqbh7jb7rFndpyDXCjUin+/HobO64xUdIxZTVZwDaSoFOxM
+ovzncrkvG1R0IU4yPjbWX0SyB6emXZXM52JAoFpAlWnXh5lFwZzU4mSncjJI1lt6
+lylNQ01wAzQQFutv4C4igsr5x1e6b+NQg3kM3DHGGlmVOsqhhr25lDihBmRBFZZa
+lyrBGdKPas1a0mxv5hDdcUQgPczBRRHg/vX492e8UFZfqk4GwmM4coYAhkJsk58K
+/ZCmjCOVm8btIc1Aw2m8a2KSYxI++ivgm8PgWe6QhG2WETRiN4lveoik2qSyOe9O
+Wp3yMSPEzhjFCysnPrmE9ePi7+Os0MEXfQ9h7LdL2nSiPdierDre+rNlDodZttd3
+ax+IKo+CzcqK9e8P3s3f26lE/6P9wqb2CHowpt3DZqDB/30zxPNNmkns2HKfvLaZ
+Ecr/LM8ZtH4sNmeVg6dkB+QeLi/QH3LxfQEYjITqgkmHA4nygKM=
+=p6Z/
 -----END PGP SIGNATURE-----
 
---===============5873771965616931596==
+--===============1243655929935927859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c4c5d78b0f-a3517717c3c0.txt
+Content-Disposition: attachment; filename=revlist-043d4fa26b49-33ad5b73efce.txt
 
-f3845d7d7145e325cf6512d2b7e805acd08ea291 scsi: bfa: Remove unused bfa_core code
-0604cf11cd56179fa86baeb030d8862489d341e1 scsi: bfa: Remove unused bfa_svc code
-b74448006a67debcd5299c9ab16b2e8ca748bee6 scsi: bfa: Remove unused bfa_ioc code
-372dcc01616e41e06016044c330caed7117689cf scsi: bfa: Remove unused bfa_fcs code
-8d7cfe95217cae5ce8e0f6e35eef43a11dd33c48 scsi: bfa: Remove unused misc code
-a0113b46a1230e2ce746fba179d6e347f2f00e76 Merge patch series "scsi: bfa: Remove deadcode"
-e6702e3919328b24757872cbf7f02c51894624d7 scsi: hisi_sas: Adjust priority of registering and exiting debugfs for security
-436a97c5d2882c09f44d3255ac47f641860faeea scsi: hisi_sas: Create trigger_dump at the end of the debugfs initialization
-2c335fa7e69c06d8932ae8bc0ec7145de2973cf5 scsi: hisi_sas: Add firmware information check
-08a07dc71d7fc6f58c35c4fc0bcede2811c5aa4c scsi: hisi_sas: Enable all PHYs that are not disabled by user during controller reset
-64359afb7068e9fd1b3ffcf7b0fefb63d1a2ccdf scsi: hisi_sas: Reset PHY again if phyup timeout
-4ca4ce000610d51c741ad81bffc79434421a0101 scsi: hisi_sas: Check usage count only when the runtime PM status is RPM_SUSPENDING
-2233c4a0b948211743659b24c13d6bd059fa75fc scsi: hisi_sas: Add cond_resched() for no forced preemption model
-a220bffebabe7227b4dbb8f811bc64ecf25e017e scsi: hisi_sas: Default enable interrupt coalescing
-90b24856b311e7e2f4f1629fb315ee50a4914aa5 scsi: hisi_sas: Update disk locked timeout to 7 seconds
-3c62791322e42d1afd65acfdb5b3a371bde21ede scsi: hisi_sas: Add time interval between two H2D FIS following soft reset spec
-90f17e3431d9c643558c3c343407ee37783d5e43 scsi: hisi_sas: Update v3 hw STP_LINK_TIMER setting
-9f564f15f88490b484e02442dc4c4b11640ea172 scsi: hisi_sas: Create all dump files during debugfs initialization
-cae668130c07f6873718b6f5b415d22e1008f2c9 scsi: hisi_sas: Add latest_dump for the debugfs dump
-a3517717c3c0dbad771f5e491191b4b7b69808fb Merge patch series "scsi: hisi_sas: Some fixes for hisi_sas"
+10c58d7eea443c6961135a7f16f9fa03bf8e5823 scsi: ufs: core: check asymmetric connected lanes
+6c1143bb5d122ec542b10288bfca183788c547e8 scsi: ufs: core: Use ufshcd_wait_for_register() in HCE init
+78bc671bd1501e2f6c571e063301a4fdc5db53b2 scsi: ufs: core: Make DMA mask configuration more flexible
+a085e03758b87ee5aea45de27c811576574d795b scsi: ufs: core: Move the ufshcd_mcq_enable_esi() definition
+7df89440d0ec47a4d91c5d664a6fa33931800913 scsi: ufs: core: Remove goto statements from ufshcd_try_to_abort_task()
+9a5f6c09d0fa5a7b2139a745368e0ef77dece34b scsi: ufs: core: Simplify ufshcd_try_to_abort_task()
+b5d9da58a05172ec08301e06932338ade6d55f82 scsi: ufs: core: Simplify ufshcd_exception_event_handler()
+2a36646012fc58e6262435ff5d2c8c97456c253f scsi: ufs: core: Simplify ufshcd_err_handling_prepare()
+2c73fb138da587597c2b02e72dcbeae18af60f4e scsi: ufs: core: Improve ufshcd_mcq_sq_cleanup()
+2b314e182caabd32f656ddba22432a7749572013 scsi: ufs: core: Remove redundant host_lock calls around UTMRLDBR
+5824e18b3db468e6eb5e9ef226eed80db26f581a scsi: ufs: core: Remove redundant host_lock calls around UTMRLCLR
+2a330f16ad305935c965dd84b727771c52701642 scsi: ufs: core: Remove redundant host_lock calls around UTRLCLR.
+17a973970397b3452fde2c93bc1ee051e7a8c79b scsi: ufs: core: Introduce ufshcd_add_scsi_host()
+3192d28ec6608ace67e85753da2504c11a4fdb16 scsi: ufs: core: Introduce ufshcd_post_device_init()
+7702c7f64f2df3e299ae26059e448bf4f08b867a scsi: ufs: core: Call ufshcd_add_scsi_host() later
+18ec23b60822fb52ae1f1f3a08df29289458b087 scsi: ufs: core: Introduce ufshcd_process_probe_result()
+0936001322646a15d7091f61232e5ded9bf1883f scsi: ufs: core: Convert a comment into an explicit check
+639e2043b58998b3950ab90413c1b726945058bf scsi: ufs: core: Move the ufshcd_device_init() calls
+69f5eb78d4b0cc978fe83dd2bfea1b67547290bf scsi: ufs: core: Move the ufshcd_device_init(hba, true) call
+a390e6677f4119e3b9e6364ac2c5cbe3ef1321a2 scsi: ufs: core: Expand the ufshcd_device_init(hba, true) call
+b6195d02b914ddfddb50e3ceb6b66928ebf0fdb8 scsi: ufs: core: Remove code that is no longer needed
+72e979225ed2e9427396e317d33050bcf50ad899 scsi: ufs: core: Move the MCQ scsi_add_host() call
+b92e5937e3523b0b7d41373681256bec78d7e134 scsi: ufs: core: Move code out of an if-statement
 
---===============5873771965616931596==--
+--===============1243655929935927859==--
