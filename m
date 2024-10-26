@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0998268190892995562=="
+Content-Type: multipart/mixed; boundary="===============3566557933487500921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 26 Oct 2024 01:34:52 -0000
-Message-Id: <172990649253.2179408.6601042905655306156@gitolite.kernel.org>
+Date: Sat, 26 Oct 2024 01:35:11 -0000
+Message-Id: <172990651176.2181094.10582950996955819750@gitolite.kernel.org>
 
---===============0998268190892995562==
+--===============3566557933487500921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: c300d50a5c87523969de3b6aefbd98c9d21376f4
-    new: ea19514ded451892aed88d11c70a526b8c34990a
+  - ref: refs/heads/6.12/scsi-fixes
+    old: fca6caeb4a61d240f031914413fcc69534f6dc03
+    new: cb7e509c4e0197f63717fee54fb41c4990ba8d3a
     log: |
          d28d17a845600dd9f7de241de9b1528a1b138716 scsi: scsi_debug: Fix do_device_access() handling of unexpected SG copy length
          cb7e509c4e0197f63717fee54fb41c4990ba8d3a scsi: ufs: core: Fix another deadlock during RTC update
          
 
---===============0998268190892995562==
+--===============3566557933487500921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1729906467 -0400
+pusher 75C5DE3D 1729906522 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1729906439-c34ad9cca3b3c72b07e49cc0f03fd1b00b957c2d
+nonce 1729906495-7214ef16e5bd21024849d3c8894f1bd7d2e0a9f9
 
-c300d50a5c87523969de3b6aefbd98c9d21376f4 ea19514ded451892aed88d11c70a526b8c34990a refs/tags/mkp-scsi-fixes
+fca6caeb4a61d240f031914413fcc69534f6dc03 cb7e509c4e0197f63717fee54fb41c4990ba8d3a refs/heads/6.12/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccRyMACgkQ7ulgGnXF
-3j0Djg/+L1rDo6AhRIMswbWnlSCOtCIzLLsQogZok3sjkCp4Iapq40ELP0vIh0DT
-60UR1h/7mWjLPChdYjamC6ExG+pBQhwjVzzqFOQOenZ7ineDGnLbvSQQ3ddDO3nz
-IRvc5czJSP0+hqowRNI/R9irvnPGU771o5/h0bExJM5AC6m6vfD/lTkHqEHdZ1JO
-l5vXeWSSHyaQZXdN86Vg3FtXPR+orfkqvsqrUYt+dRFRi9h4LDh1/Z+j7aCTJZ0R
-bZyD2kvB51q2E5bYkn+y4w3mibB0V4HACbZh07mhqvkxf21jI9loGPIvrXGtlj93
-ORUZIEQRsYEyzbS4pGaAic0/Y7ITL4RL4YgNz3X2pe0qXL5khA7SqQn9Si5ZRhB3
-u7hTOLMJQZBvJCqxXOwBLekbfMfBurZ0+06C5taR7X7P6+twDU9amyjXE+jX6Gng
-kaM8pwNocOXvG7p9P1xBE4kSrlE+HcEjmtuYDmSI+n5RkVOUY7bmw61/le8KbXtm
-0ys0VG9aiZ9C+gTDDbjgvdySdi7f8f+vmHQcGV4Q+M19etDBHa1z3qPu69ykUplc
-TpQVMYAxbzM25VFc0q0b0xNzFLYk90hYUDnq72xaVIH+4fc4Jw/uyylH4B+oCSrN
-DZz7y51mileFt6bMTfvUBsSrqaj8hN/3AqmKohIMpSVZ3BkDjcw=
-=xtM/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmccR1oACgkQ7ulgGnXF
+3j3khg/+KsRXej8vVfIzdb+uGktoc4YTuu0IaGlGayLRScLXM7WnIlazo0l13dyK
+EWSacVKFNlsq3Nq+11Yu/pllckssKUspJgGQYks9756Nh5wuh5L5bgxOVUM/6Zc1
+PPSYLWRQWtN89MXYUHMlIcNDK2q0zZpL+v1xJieKLrzM/4dwsz9Ji/0wzuNTYwTE
+yN0dRfkmGxoohKZdXBs7zbOn9JjEU/X53E+Fp0OS7SzwuoQ4JN58VzUWrbxjDNKX
+WDN5XMA3q6Ivc/G55tUjC1hBdr1mOEckf2FPlBIyyUw3iaCZNdRFIWrk2rhre++6
+QVDGeS9HsRS+hzoETJOd58XboD+ug7AK0mFUso3LZMilqavpityC8s4K9uTkYhaH
+a4fRY4WhSftp+J1YCZ0KSC2EZDCm73YDh6TgUHo7KAcvhhmbPkpg/U4EdNcuDm4J
+PCuNyc+H7cW/nSsqh+KaolHMA9+9wko8GplTSIxd8+0RktPmSQGq9hIkZvhc5TyS
+SWXuAB6TSs3XxAu+kb8WYQp26a4Q2xWa7gg099KXMgIFXHG3zr0K8GFQCEmdzaKf
+AGw1tEQCQQoztMld8zGADpA88pDvRODPTRKe7SCDoCHFeShioIqAEzFXWAT6aPUO
+HRiWrMmjvfNjhBSILCONRzcT8PPTi/O1OSD6MZLcaCu3LsvWGYY=
+=Ed+1
 -----END PGP SIGNATURE-----
 
---===============0998268190892995562==--
+--===============3566557933487500921==--
