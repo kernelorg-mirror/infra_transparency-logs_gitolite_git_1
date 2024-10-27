@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 27 Oct 2024 23:01:13 -0000
-Message-Id: <173007007386.105192.14862591088670804577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Sun, 27 Oct 2024 23:33:23 -0000
+Message-Id: <173007200389.128898.17699912776934277089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: ea1fda89f5b23734e10c62762990120d5ae23c43
-    new: 81983758430957d9a5cb3333fe324fd70cf63e7e
+  - ref: refs/heads/b4/w25q128-fix-backport
+    old: 07ca9174d974ea8a30d5224d0b6c3dfef2adb696
+    new: 5e866a6bc5870a60dbba79e2959eb0b210140edc
     log: |
-         81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
+         5e866a6bc5870a60dbba79e2959eb0b210140edc mtd: spi-nor: winbond: fix w25q128 regression
          
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
