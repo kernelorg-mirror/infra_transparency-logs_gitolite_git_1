@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 27 Oct 2024 13:06:22 -0000
-Message-Id: <173003438294.3835816.9472134265277850840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 27 Oct 2024 14:38:53 -0000
+Message-Id: <173003993331.3904604.12919697927053224553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev
-    old: b713c546ab7621f01c4eacfc56ff5955d4a63dab
-    new: f00c45080b27e6a836d346cc94492f8cd27b4d0f
+  - ref: refs/heads/nfsd-fixes
+    old: d5ff2fb2e7167e9483846e34148e60c0c016a1f6
+    new: 10bd5b848b03270bcafb5611ad0cc1425bd63660
     log: |
-         f00c45080b27e6a836d346cc94492f8cd27b4d0f fixup! rcu: Make expedited grace periods wait for initialization
+         10bd5b848b03270bcafb5611ad0cc1425bd63660 NFSD: Initialize struct nfsd4_copy earlier
          
