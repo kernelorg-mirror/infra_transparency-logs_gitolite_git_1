@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 27 Oct 2024 09:03:26 -0000
-Message-Id: <173001980681.3646686.10970657183436257843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sun, 27 Oct 2024 09:10:56 -0000
+Message-Id: <173002025666.3654028.15062589266144071019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 7bd4923940c8d67d9f3f3fde8d7c067e9e804fc6
-    new: 95c24e4853275f8ef888a94379cfa82dd1f6495b
+  - ref: refs/heads/linus-next
+    old: 11673489d06f9a03817c092a64b96a9fb2faf63e
+    new: 1b0a75d1e2e61e3c590fbb9f09c1a912fed2072b
     log: |
-         95c24e4853275f8ef888a94379cfa82dd1f6495b iio: invensense: fix multiple odr switch when FIFO is off
+         f6a6780e0b9bbcf311a727afed06fee533a5e957 firewire: core: fix invalid port index for parent device
+         1b0a75d1e2e61e3c590fbb9f09c1a912fed2072b Merge tag 'firewire-fixes-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394 into linus-next
          
