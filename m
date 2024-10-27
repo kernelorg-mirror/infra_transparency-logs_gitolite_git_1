@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3517867380084225132=="
+Content-Type: multipart/mixed; boundary="===============3773961626137167879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 27 Oct 2024 20:17:29 -0000
-Message-Id: <173006024973.4170421.5763444474521143216@gitolite.kernel.org>
+Date: Sun, 27 Oct 2024 20:23:52 -0000
+Message-Id: <173006063201.4175111.9263362348830590803@gitolite.kernel.org>
 
---===============3517867380084225132==
+--===============3773961626137167879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 850925a8133c73c4a2453c360b2c3beb3bab67c9
-    new: ea1fda89f5b23734e10c62762990120d5ae23c43
-    log: revlist-850925a8133c-ea1fda89f5b2.txt
+  - ref: refs/heads/testing
+    old: c76877ab8564cd9fb2981a919abb9858e199a851
+    new: a5b94a7500c9d45a64b921b757f32872a56a9003
+    log: revlist-c76877ab8564-a5b94a7500c9.txt
 
---===============3517867380084225132==
+--===============3773961626137167879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-850925a8133c-ea1fda89f5b2.txt
+Content-Disposition: attachment; filename=revlist-c76877ab8564-a5b94a7500c9.txt
 
 62ce0782bbacd32ec10292b9bdd127330e9b6968 md: ensure child flush IO does not affect origin bio->bi_status
 825711e00117fc686ab89ac36a9a7b252dc349c6 md/raid10: fix null ptr dereference in raid10_size()
@@ -54,5 +54,17 @@ a8b3be2617d677796e576cc64d4ad9de45dfaf14 Merge tag 'xfs-6.12-fixes-5' of git://g
 284a2f899676407b5bed8c1fb37eb9d636e5477d Merge tag 'platform-drivers-x86-v6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+837143fa390c5bc4726ef06f2c2a1589c945350e hwmon: (max16065) Reorder include files to alphabetic order
+663891db011bd0f05a8b7f5944e3e8f61453ec8c hwmon: (max16065) Use bit operations
+ae8ba3c2297dfae7cabc73ab13c10585132d20da Merge branch 'hwmon-next' into hwmon-staging
+b3d0030a66a8eeb3d638f6f8388086aa8de7a7bb hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+702959f1dc8e365165874e9c7412268dc3708955 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+c8cdba77e06f0db830a6aca340c2eeaa47c54fcb Merge branch 'hwmon-g762' into hwmon-staging
+ca1ff4b1be37fee9bde20a2be7db59ed77a4d4e8 Merge branch 'hwmon-emc2103' into hwmon-staging
+498538c5a5141ade65f7cd4a15fa8a58a225757f Merge branch 'hwmon-max16065' into hwmon-staging
+907a9722a8dc91a8d6f16a404d22ca16146d5f45 mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+d0f75a4af6713c7ecce237f163280f4aef5a492f resource: Remove dependency on SPARSEMEM from GET_FREE_REGION
+45d1717601e9736ebfc92deea348f5ef9137ffc8 Merge branch 'hwmon-staging' into testing
+a5b94a7500c9d45a64b921b757f32872a56a9003 Merge branch 'fixes-v6.12' into testing
 
---===============3517867380084225132==--
+--===============3773961626137167879==--
