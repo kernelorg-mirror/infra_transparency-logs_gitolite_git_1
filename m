@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 27 Oct 2024 21:44:12 -0000
-Message-Id: <173006545231.43935.14357673534104499047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 27 Oct 2024 21:44:21 -0000
+Message-Id: <173006546125.44152.15237439946183938960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 5db871b509631cc333a8a775cfe45b86aeab63f1
-    new: 5a9b7856e27af64d45a98425c2fb6d6dd8536896
+  - ref: refs/heads/master
+    old: 7775ae8b0018bce8ca287d5a18f1231bbb7f96c5
+    new: 687ea368262e8e2edc4dc9323e5aafd7c5b1a50e
     log: |
-         0dd58d01735725756dba6f18264f97f99f793a2a ==== sample DAMON modules ====
-         0911ce0121330f7b85723458e0da4544568c6cae samples: add working set size estimation DAMON sample module
-         5a9b7856e27af64d45a98425c2fb6d6dd8536896 samples: add proactive reclamation DAMON sample module
+         3c46a751fe2724ab1609a65da98720280939b5b6 todo: add an item for sample kernel static modules
+         687ea368262e8e2edc4dc9323e5aafd7c5b1a50e patches/next: add sample DAMON static modules
          
