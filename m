@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4053969811095516441=="
+Content-Type: multipart/mixed; boundary="===============4324914795826516093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 27 Oct 2024 18:55:32 -0000
-Message-Id: <173005533260.4105683.10369654641365080358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sun, 27 Oct 2024 19:00:23 -0000
+Message-Id: <173005562393.4109847.12659866170897112570@gitolite.kernel.org>
 
---===============4053969811095516441==
+--===============4324914795826516093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 850925a8133c73c4a2453c360b2c3beb3bab67c9
-    new: 284a2f899676407b5bed8c1fb37eb9d636e5477d
-    log: revlist-850925a8133c-284a2f899676.txt
+  - ref: refs/heads/sframe
+    old: a6a5b6724f859f25dbab8402cfe47a695bc719b3
+    new: d9cc902c8b7e6104ca6595ca4f8582366957dd2a
+    log: revlist-a6a5b6724f85-d9cc902c8b7e.txt
 
---===============4053969811095516441==
+--===============4324914795826516093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-850925a8133c-284a2f899676.txt
+Content-Disposition: attachment; filename=revlist-a6a5b6724f85-d9cc902c8b7e.txt
 
-62ce0782bbacd32ec10292b9bdd127330e9b6968 md: ensure child flush IO does not affect origin bio->bi_status
-825711e00117fc686ab89ac36a9a7b252dc349c6 md/raid10: fix null ptr dereference in raid10_size()
-49c234b50a437eb827832b61cd662e9aa382f31a Merge tag 'md-6.12-20241018' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.12
-5fa607880168d991bdc819f493a11155e935abe6 platform/x86:intel/pmc: Revert "Enable the ACPI PM Timer to be turned off when suspended"
-48771da48072823956b271dddd568492c13d8170 platform/x86/intel/pmc: Fix pmc_core_iounmap to call iounmap for valid addresses
-a7990957fa53326fe9b47f0349373ed99bb69aaa platform/x86: dell-wmi: Ignore suspend notifications
-af8512c5277d17aae09be5305daa9118d2fa8881 xfs: don't fail repairs on metadata files with no attr fork
-82742f8c3f1a93787a05a00aca50c2a565231f84 xfs: pass the exact range to initialize to xfs_initialize_perag
-aa67ec6a25617e36eba4fb28a88159f500a6cac6 xfs: merge the perag freeing helpers
-6a18765b54e2e52aebcdb84c3b4f4d1f7cb2c0ca xfs: update the file system geometry after recoverying superblock buffers
-b882b0f8138ffa935834e775953f1630f89bbb62 xfs: error out when a superblock buffer update reduces the agcount
-069cf5e32b700f94c6ac60f6171662bdfb04f325 xfs: don't use __GFP_RETRY_MAYFAIL in xfs_initialize_perag
-4a201dcfa1ff0dcfe4348c40f3ad8bd68b97eb6c xfs: update the pag for the last AG at recovery time
-2ff949441802a8d076d9013c7761f63e8ae5a9bd block: fix sanity checks in blk_rq_map_user_bvec
-b012170fed282151f7ba8988a347670c299f5ab3 platform/x86: asus-wmi: Fix thermal profile initialization
-f6a6780e0b9bbcf311a727afed06fee533a5e957 firewire: core: fix invalid port index for parent device
-a8b3be2617d677796e576cc64d4ad9de45dfaf14 Merge tag 'xfs-6.12-fixes-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-75f8b2f52632fbbbbabc5e9c3a6f820282ff8920 Merge tag 'block-6.12-20241026' of git://git.kernel.dk/linux
-7bec4657b0c9355f235a3dc60578bc200146aabd Merge tag 'firewire-fixes-6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-284a2f899676407b5bed8c1fb37eb9d636e5477d Merge tag 'platform-drivers-x86-v6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+889f2ff2088d6d4ee9b96f62a788fbb65e0604f3 unwind: Add userspace unwinding API
+c6b4f1ed99cc75b0d9a716238ea3732d74daf76d unwind/x86: Enable CONFIG_HAVE_UNWIND_USER_FP
+d8d217f0c2a154dffaa7ff07835947a5dc655b57 unwind: Introduce sframe userspace unwinding
+924ff6a4ac2d4f0e076313b25e68decbb2d5c98c unwind/x86: Enable CONFIG_HAVE_UNWIND_USER_SFRAME
+ded6ca60c8eac229ac0831d2de9e9de9b6d6b21b unwind: Add deferred userspace unwinding API
+4795b123cab8a91a127e3c188d929ede1552df51 perf: Remove get_perf_callchain() 'init_nr' argument
+44877f4d9f0fdb89532899bc39eb429c6bd00a0a perf: Remove get_perf_callchain() 'crosstask' argument
+6310eca6596262dbc8fc0114501f12207f93824d perf: Simplify get_perf_callchain() user logic
+1e6ba506e6f018614ebace2e8d101913e5d37d57 perf: Add deferred user callchains
+5d83a6b0462a2db78b071b62fcbd874e19f12d6c perf tools: Sync UAPI perf_event.h header
+455ae621cf62933c03a075ed1dcc557f71dd15b4 perf tools: Minimal DEFERRED_CALLCHAIN support
+e64e7630de053e07f3a8803c8d81d11d51190eb8 perf record: Enable defer_callchain for user callchains
+6ac56a3ed8ce6fe5300f2f592940cf7e07a87ee5 perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
+d9cc902c8b7e6104ca6595ca4f8582366957dd2a perf tools: Merge deferred user callchains
 
---===============4053969811095516441==--
+--===============4324914795826516093==--
