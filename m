@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8622274770540600111=="
+Content-Type: multipart/mixed; boundary="===============1216363985748375548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 28 Oct 2024 12:19:14 -0000
-Message-Id: <173011795498.841244.9622051537904385486@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 12:19:36 -0000
+Message-Id: <173011797646.842060.15642900507757395756@gitolite.kernel.org>
 
---===============8622274770540600111==
+--===============1216363985748375548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: ae0c17946325f0ac68ca448d58709d64c12cdfbc
+  - ref: refs/heads/next
+    old: 2f87d0916ce0d2925cedbc9e8f5d6291ba2ac7b2
     new: 52ffc2b9bd5d8083f05998242823e8eee4c6856d
-    log: revlist-ae0c17946325-52ffc2b9bd5d.txt
+    log: revlist-2f87d0916ce0-52ffc2b9bd5d.txt
 
---===============8622274770540600111==
+--===============1216363985748375548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae0c17946325-52ffc2b9bd5d.txt
+Content-Disposition: attachment; filename=revlist-2f87d0916ce0-52ffc2b9bd5d.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -823,4 +823,4 @@ b94ba421a0b6a4c2d8c8e321369de473f917cb0c char: tpm: cr50: Use generic request/re
 ad40844ec6270e3bb134a8941c502ab05839bbb8 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
 52ffc2b9bd5d8083f05998242823e8eee4c6856d crypto: Remove unused asymmetric_keys functions
 
---===============8622274770540600111==--
+--===============1216363985748375548==--
