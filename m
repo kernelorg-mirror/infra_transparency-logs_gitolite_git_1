@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
-Date: Mon, 28 Oct 2024 14:12:30 -0000
-Message-Id: <173012475026.936078.5309509806091954732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 28 Oct 2024 14:15:16 -0000
+Message-Id: <173012491686.939406.17002010844794645593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/next-analysis
-user: sashal
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 116b9550ccd6fb5e7f2ba9375af59392e03abb57
-    new: a05484d6edd241965b4369fb01dc130b5ff68167
+  - ref: refs/heads/dma-split-wip
+    old: 545339dbbeb002bacdc55b4fe3862dbac9c4c189
+    new: 8f28a503418bb8260916c654b8551401d9e5658d
     log: |
-         a05484d6edd241965b4369fb01dc130b5ff68167 Update DB
+         5d7f488b5d3f1882cb432732e2e7652e0a53e78e FOLD: Remove extra check for missing page
+         8f28a503418bb8260916c654b8551401d9e5658d FOLD: Allocate enough space for the page list
          
