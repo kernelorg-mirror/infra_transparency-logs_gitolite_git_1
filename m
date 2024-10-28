@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Oct 2024 17:05:44 -0000
-Message-Id: <173013514470.1086754.323616459666124266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 28 Oct 2024 17:07:31 -0000
+Message-Id: <173013525179.1087704.9340926249628507249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/timers/vdso
-    old: 6febe0efb2df49105b839d6a3a45ab63d40f315a
-    new: d4a65302dd849fade9e2ca712826c35b8d068ecb
+  - ref: refs/heads/for-next
+    old: 3d4050fbebe0a068b3687d758e940f7ddc5e60c2
+    new: ffe624c4130f902bc519b8201a1cb4ef1e6bb05c
     log: |
-         d4a65302dd849fade9e2ca712826c35b8d068ecb vdso: Change PAGE_MASK to signed on all 32-bit architectures
+         ffe624c4130f902bc519b8201a1cb4ef1e6bb05c pinctrl: elkhartlake: Add support for DSW community
          
