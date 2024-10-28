@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6222736691333511415=="
+Content-Type: multipart/mixed; boundary="===============9146831536318364051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 28 Oct 2024 06:22:36 -0000
-Message-Id: <173009655664.559073.12978142214236291375@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 06:22:40 -0000
+Message-Id: <173009656004.559215.15402938420526328651@gitolite.kernel.org>
 
---===============6222736691333511415==
+--===============9146831536318364051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,102 +16,127 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 9c9e462261a3dab47a5441ad0a78aed539053067
-    new: ef8d37283cbe8d82c44a73b70a328ea0568e5db3
-    log: revlist-9c9e462261a3-ef8d37283cbe.txt
+  - ref: refs/heads/linux-5.15.y
+    old: be79a1947245f8c2ca70b876a85696df6d9f1b94
+    new: cebe213d2a87dfac79e970b8902e0c80cfffae9b
+    log: revlist-be79a1947245-cebe213d2a87.txt
 
---===============6222736691333511415==
+--===============9146831536318364051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730096573 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730096576 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1730096554-940637da71ac0cd436ed6c2b0f16a3e6b7f74191
+nonce 1730096557-ba831b69c91e27c3d3d37aa12970b866810a9ab4
 
-9c9e462261a3dab47a5441ad0a78aed539053067 ef8d37283cbe8d82c44a73b70a328ea0568e5db3 refs/heads/linux-5.10.y
+be79a1947245f8c2ca70b876a85696df6d9f1b94 cebe213d2a87dfac79e970b8902e0c80cfffae9b refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcfLb0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rP4P/3FGOdyBfq8aAjHcySIf
-krxMIPQlhT1TDDqjab1krBC5VAENiz6VGn5B0yFs29l2kNP1yb7DMEIQGpvd98+l
-sr9FIAAPPE7jmMF09xy3I7+kHkYEOFWx5HQxPRm2vOA3YVCLtEOIiinZ3+Vks0G+
-Zz9f+RaamphFp58RVq41RTZccr5VeUpH94lz3ZGeMeiOMLhvuEE7Dw4wz8hi4uUF
-HDknvzBrcS6aHalOY6hGbfJ/USpIMRGbFsAY6c6oBkxuEQl+FwRA66ZueYkpHTa/
-F92JcTOw6tW7rTwqT3/x6WfQ+op6aH1ArFh13OaqPtHgKx2cMvfguH+bTkBDy2wf
-nMC/Mkj2g7blssaVtcfNsjuyxiww8PZO2zCijXAdXRYJlALfCadLv8/5nfkSNcQT
-MUgxYCxm+nnM5QAs1BIF+LyNa9zOABi7f7W+Td35ScmV9J2jUEqLYmCPxKNMKbmh
-LS38BlxCSmQMETIQbbdbg5NppcF2Nh8M253Wii/01U7ngCLUM2a4FummEult9p1N
-dTKnmYMdzQainmjgoA4Vv69Zj0pqPkr9X7dLlO8lDbAc4ywQOtO9NPpAznG2RJZ2
-KbROrn4k2M9NDffasw+rrF97R9haZ2B78sJuhJyFxQjAZjVboKTVEg+pXUd1O4P3
-yACjv7EhbQqdrzXIMajmAo/y
-=jBbv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcfLcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UMkP/jmM5+0G+gmzT8ecSSxX
+Mep6mHB07o0CLeZhaUhghlx93w8x+DtrX4FBV8mm3LLGot468qFhQzmwGurWntnr
+x5xGR6xLzDWksl5y7rTpRrrnbjcDvGkhwkQzsVuKaqwjUova/HVI0c6WLPMdbPDa
+exGTRSSipvlUaOTxHZWVjj2xi8vCOk03dyMXYIMHbxqXSkjmNYCtrL8PzRJ6cf48
+rYZNeh2dzfv358WLP9aZSYH5yqpUw5S0Ti1jxdPfOQ6cvpRc/W8RWIC/o7KJ77Nw
+o9ISKWW0xckbsp/4MxyiexPtK8WWfrzqc7WHHXCk29pyh+Tl7MUeeZT+7wLJVAB8
+LxneMCsK99BBqX7OZBvXvhfxGoDS7B1KLfmfJjqhZh25sx8D0T57oB9sGIbIqi/e
+kIr/7cn1G59i8m97m5fg5ieAdYf0rIy8qq2NSHMPY/fm2mDmOUzCKtOebz/3Dow+
+COS2go74ntFJQnpnGTEhl1R5fLHCM5z9BxWrXWQnqkyUb8bhPuYwjJc9c9ExtRx3
+yVe4G7vcfZ+LxQNnQSh5m9Ng576EHYKDotWErKZXDtbTPR74QEaNDTXRAg7U99Sd
+tyPldAAkKocBNXcKZRjsSKAvqzq8vA557CykV8LrjUKPpNv8GkNGT9KRgPZJuwAy
+B0bgDHx7SXlR+c72cz78SgKC
+=FCxg
 -----END PGP SIGNATURE-----
 
---===============6222736691333511415==
+--===============9146831536318364051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c9e462261a3-ef8d37283cbe.txt
+Content-Disposition: attachment; filename=revlist-be79a1947245-cebe213d2a87.txt
 
-213bffa82980e120a16b18769f5bd5df38750c8c RDMA/bnxt_re: Fix incorrect AVID type in WQE structure
-3177089b184d47bcb6f61f36363d54136a1f8b4e RDMA/bnxt_re: Add a check for memory allocation
-a03626b495a6d7be23b9e07cbe808214c0bdadec ARM: dts: bcm2837-rpi-cm3-io3: Fix HDMI hpd-gpio pin
-4ab3088702e3c2446fe9382a733ae25e65158a99 RDMA/cxgb4: Fix RDMA_CM_EVENT_UNREACHABLE error for iWARP
-33b2de9e715d9a2efe1c3c7603227c98fcf4dc31 ipv4: give an IPv4 dev to blackhole_netdev
-eb555452c173559d7aa9d7dd79bdb003021ddde1 RDMA/bnxt_re: Return more meaningful error
-97d9385eaa529ff2e3d0dcb2f1f4df025122b297 RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
-080809c5f152a5cdc86a981fb7c840ac92dcb227 drm/msm/dsi: fix 32-bit signed integer extension in pclk_rate calculation
-d26bb5fc0b30c5af258fc14107d26c4a08c1d8ff macsec: don't increment counters for an unrelated SA
-7d8cb8f2fa0f1740e489332ee0c6c3ec6c7a09ef net: ethernet: aeroflex: fix potential memory leak in greth_start_xmit_gbit()
-2236cfa80e2ec76fc26bba918efece22203cf79f net/smc: Fix searching in list of known pnetids in smc_pnet_add_pnetid
-c7bdfd227cf1e9a33b9e42318585dfee0999400a net: systemport: fix potential memory leak in bcm_sysport_xmit()
-0cd6936f528c7cdcdc3d1fbbcdd4f442baa7812a genetlink: hold RCU in genlmsg_mcast()
-a38ae5c01ca596ea1851892ec6ea4651ac202ccd scsi: target: core: Fix null-ptr-deref in target_alloc_device()
-337979c189a1419bd6e5fa35416ecfa9cf274fb6 smb: client: fix OOBs when building SMB2_IOCTL request
-b6fe7517908fe754e29955b1a16a07a004420be4 usb: typec: altmode should keep reference to parent
-14c53d53f4605a9d67055557c511fdb97b780e11 s390: Initialize psw mask in perf_arch_fetch_caller_regs()
-147ef0adbae5b7c9bb5c47f53307eb740ee0492f Bluetooth: bnep: fix wild-memory-access in proto_unregister
-900a124c7f43d846c9223967c6ddd01e97fc7b96 arm64:uprobe fix the uprobe SWBP_INSN in big-endian
-79a55ef3e69dad0468172a359ad6728b2daa306c arm64: probes: Fix uprobes for big-endian kernels
-c28ee0610425674d8286001cf41cdbac3c50f869 KVM: s390: gaccess: Refactor gpa and length calculation
-8e6bdbb08d506f9f9a9c16981f33c6340bf56a6a KVM: s390: gaccess: Refactor access address range check
-af28bb37c5450d13a48d0b91e5d46cf6386b73a4 KVM: s390: gaccess: Cleanup access to guest pages
-65dd60ad63311b8c660fec4b604d5e8c9238d96f KVM: s390: gaccess: Check if guest address is in memslot
-749e756871d017d1c926172684d11d938d643a1f block, bfq: fix procress reference leakage for bfqq in merge chain
-c28ce1a42385fc131da905aeb36207f0f7a2fd74 exec: don't WARN for racy path_noexec check
-a2c04bcd6acba9afa0a2d85cfd0470d909c5ea1a iomap: update ki_pos a little later in iomap_dio_complete
-6471a7a53a8ff725fe662fbf4e35228a882dc36c drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
-82a6a0ef746c56f0acee1968b117470ec64cb11a ASoC: fsl_sai: Enable 'FIFO continue on error' FCONT bit
-5384e2aaf4784e45e61268d3bef08f63f4422b90 arm64: Force position-independent veneers
-6fbc4c480ec646477eae3a2a686a600895bf28a4 jfs: Fix sanity check in dbMount
-e8ca7d087c8d09b21deb72ea56181463b0e55f5d tracing: Consider the NULL character when validating the event length
-480bbe76b8ec11caf8d53029492aec8e857e9cf5 xfrm: extract dst lookup parameters into a struct
-0ad303fa1a0997d326f6bf4f258c59c88cf84c9b xfrm: respect ip protocols rules criteria when performing dst lookups
-4f40fe5c4a0e4e1a0d873530653296b2223ffe12 net/sun3_82586: fix potential memory leak in sun3_82586_send_packet()
-24af7840369b6430795d5793c0abcd8aa7ebfaa8 be2net: fix potential memory leak in be_xmit()
-bd6d5427310f018a9686d0208b8ca23820fd54a2 net: usb: usbnet: fix name regression
-5023e3286122c280e4f06f0b4c5f3bcd51f3793b net: sched: fix use-after-free in taprio_change()
-39f021355eff342e5007aef99c6769f8a994a7df r8169: avoid unsolicited interrupts
-7ff6b335aa980a7024739a13571b6a34a4956b30 posix-clock: posix-clock: Fix unbalanced locking in pc_clock_settime()
-b64e17e471aa13eff361029766553749d22582ff ALSA: firewire-lib: Avoid division by zero in apply_constraint_to_size()
-1d6257c088bb3e203d557e7598f581ec82820bef ALSA: hda/realtek: Update default depop procedure
-a9c7cbc2a958c73c33057e2f21c3e1f0555679f1 drm/amd: Guard against bad data for ATIF ACPI method
-fb6fc9e8dd7dc55bcc3684d6fdf41b87f9de7482 ACPI: resource: Add LG 16T90SP to irq1_level_low_skip_override[]
-d816317a263ad6bc4783209519bf12765e65acbc ACPI: button: Add DMI quirk for Samsung Galaxy Book2 to fix initial lid detection issue
-079a58cd14b9527a2eab3385fca5aa0ffbc04414 nilfs2: fix kernel bug due to missing clearing of buffer delay flag
-5af6ae2ed1f546c0a8263eba1dd6aad91ac2e43a openat2: explicitly return -E2BIG for (usize > PAGE_SIZE)
-4f776fc45329010811f35be2b239de3790ea97bd KVM: nSVM: Ignore nCR3[4:0] when loading PDPTEs from memory
-80a2a5d222a79242e28329119c1104a2f49d323b ALSA: hda/realtek: Add subwoofer quirk for Acer Predator G9-593
-087087778de5d888ef4f437fadac2c96e65aef5d hv_netvsc: Fix VF namespace also in synthetic NIC NETDEV_REGISTER event
-108fa6c46726dc4ad13552ac8fb3e6fe8ea45d01 selinux: improve error checking in sel_write_load()
-d61c03d5506407468cad9d18d3430ede12377632 serial: protect uart_port_dtr_rts() in uart_shutdown() too
-de7edb0ba7f2ae015a4b7d3f8d1beed4cde8aec2 net: phy: dp83822: Fix reset pin definitions
-d3680f3888c95c71f5a249f4f9efc0c2ba75d893 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
-e71a0953a40e6c05466691b3d168d465b380bc3e arm64/uprobes: change the uprobe_opcode_t typedef to fix the sparse warning
-ef8d37283cbe8d82c44a73b70a328ea0568e5db3 Linux 5.10.229-rc1
+5bc69e450b23537adca8e4edc49bba840349209f bpf: Make sure internal and UAPI bpf_redirect flags don't overlap
+5bb7f9a16905736b564ac78e0234e2dea692f37d bpf: devmap: provide rxq after redirect
+46295d07b42448a47d747c7e9d3dc0cb79432943 RDMA/bnxt_re: Fix incorrect AVID type in WQE structure
+f7f7e2ba3d53822f2cf52f7b31e23c3119068703 RDMA/bnxt_re: Add a check for memory allocation
+1e5c5929de91727586c47872ca9ef15ced086e12 x86/resctrl: Avoid overflow in MB settings in bw_validate()
+20dd30091dc52463b3cd23a874a405c7f01eb0a3 ARM: dts: bcm2837-rpi-cm3-io3: Fix HDMI hpd-gpio pin
+f45ada01903ca212a8a64585161d84971da3d11c ALSA: hda/cs8409: Fix possible NULL dereference
+2d3d5e845c03b24a9b2a53fafa17f1f54bc90f4d RDMA/cxgb4: Fix RDMA_CM_EVENT_UNREACHABLE error for iWARP
+dea8e94eb17b6ddbacdaa815ebcec26c08a34747 RDMA/irdma: Fix misspelling of "accept*"
+2a06b0bc2caa4a87cf397baf9ae3321e1ad32702 ipv4: give an IPv4 dev to blackhole_netdev
+66274c89ea92dda3b9314567a9033b3e4e33a0ab RDMA/bnxt_re: Return more meaningful error
+5153156a85d24f11283039f9da47c96193478cf1 RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
+c043045f1d88821db710596441f7fef689963f10 drm/msm/dsi: fix 32-bit signed integer extension in pclk_rate calculation
+0f3c29ca318affd2cfb30823935ef90d40157071 drm/msm: Avoid NULL dereference in msm_disp_state_print_regs()
+513f5735aaa2d133a738318b86d9ef0c9eec7b79 drm/msm: Allocate memory for disp snapshot with kvzalloc()
+c7ca7dc497f518a2c4ffb5b3e9f03f442350b6c3 net: usb: usbnet: fix race in probe failure
+20268ed70de24ae348123708dd65dbd688f1d871 octeontx2-af: Fix potential integer overflows on integer shifts
+0832b51e5b33bf196f809f0b15473adb24f6db8f macsec: don't increment counters for an unrelated SA
+3c0aeeaf71c721b6871a0c384d1b65db47e99bc3 net: ethernet: aeroflex: fix potential memory leak in greth_start_xmit_gbit()
+eac0d67e358f240c16fc07b9877cb4dfd2fc4117 net/smc: Fix searching in list of known pnetids in smc_pnet_add_pnetid
+aa1b04e64a0e0d6a5e77cbb22b406de61bc57fa7 net: xilinx: axienet: fix potential memory leak in axienet_start_xmit()
+9504f4e6f73e0429f9a9a0a48701ac915b892b91 net: systemport: fix potential memory leak in bcm_sysport_xmit()
+504174edbb6c2bf76da59fc2c214d9b1df70eec1 tcp/dccp: Don't use timer_pending() in reqsk_queue_unlink().
+66886934f66ab88963485a5ab33693e972c2458c genetlink: hold RCU in genlmsg_mcast()
+5a9eaf804689aee060d1d61c690aa46853b09ef2 scsi: target: core: Fix null-ptr-deref in target_alloc_device()
+6f69b9442dec7510d3224b290f250b6b799f5002 smb: client: fix OOBs when building SMB2_IOCTL request
+716e2dcb73aea113c8847b61dda220b4ed57d04b usb: typec: altmode should keep reference to parent
+b5850e9e04185d0c8eeb1b68d121c1c210ecc9c4 s390: Initialize psw mask in perf_arch_fetch_caller_regs()
+7345285f0e2b82d6894a0226bdc23a171aaacefc Bluetooth: bnep: fix wild-memory-access in proto_unregister
+b083aa56123d320897fd41c20d1597249ca146eb arm64:uprobe fix the uprobe SWBP_INSN in big-endian
+186108dbd313c6ff4dc0586c59e997302748d650 arm64: probes: Fix uprobes for big-endian kernels
+9f0c413c4e48ffa8edfffa8969be4c5ca242e032 KVM: s390: gaccess: Refactor gpa and length calculation
+f241dcf4c3360f40c11acee64f25dd015f48522d KVM: s390: gaccess: Refactor access address range check
+5cc1840dd636d08d1e7c7043e413d19d16a91f18 KVM: s390: gaccess: Cleanup access to guest pages
+4657454056b1991f5a7445c57b77fbc7287aacd5 KVM: s390: gaccess: Check if guest address is in memslot
+31344504775532631367e21234e699229bfcb533 usb: gadget: Add function wakeup support
+ff0bcd23a3fb23c512536712aeefba7f46a48c95 XHCI: Separate PORT and CAPs macros into dedicated file
+cf4351c35f8833fea8cfc18889eabbb04ada458d usb: dwc3: core: Fix system suspend on TI AM62 platforms
+6830a5eec43cfd75bb5b9b6f34ba87ca9b4afe4b block, bfq: fix procress reference leakage for bfqq in merge chain
+a2966875d70ac0181e10d13022b606b601214167 exec: don't WARN for racy path_noexec check
+79c07f6d4244be6ab473dc037c2ac0acfd6ff8e8 drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
+18f2dfb0c65765ff44c37c59114fc439a5f7e2d7 ASoC: codecs: lpass-rx-macro: add missing CDC_RX_BCL_VBAT_RF_PROC2 to default regs values
+44dab32c120197f86686344fee10fc9d070e5168 ASoC: fsl_sai: Enable 'FIFO continue on error' FCONT bit
+4a36ea8559fa084e98afa46b6ad00f54f560a88b arm64: Force position-independent veneers
+670e096d175243b936c84806e76b3eb5b139c09f udf: fix uninit-value use in udf_get_fileshortad
+0e0b18d01aa2239f5e3314a019aa551353347262 platform/x86: dell-wmi: Ignore suspend notifications
+acd702a4e43e8caf826f204b1a46294fa5040d4a arm64/uprobes: change the uprobe_opcode_t typedef to fix the sparse warning
+60a67f41b64e8bc8023f88d87d802c7272e1d766 ASoC: qcom: sm8250: add qrb4210-rb2-sndcard compatible string
+d49d719fb1fc0aaa5335e6e0c665c718733f23f9 platform/x86: dell-sysman: add support for alienware products
+c863823f96367efd197497bb7047d4db4f9aaa53 jfs: Fix sanity check in dbMount
+be78d2787c92168fd893ae5a1e120bc683b79c57 tracing: Consider the NULL character when validating the event length
+afbdbd2f0b3d215cafac60d69d8aef3971488137 xfrm: extract dst lookup parameters into a struct
+484d594f1ce5affc642b9a8328e245f00441e4dd xfrm: respect ip protocols rules criteria when performing dst lookups
+ae0acccae44eb5cf43a20c1843be4e9aaef1e074 net/sun3_82586: fix potential memory leak in sun3_82586_send_packet()
+cdea05e73028970b07ccfc5ded2f2f972546d006 be2net: fix potential memory leak in be_xmit()
+5b82c5a169eae068b07d26ba537a57a01c68e08b net: plip: fix break; causing plip to never transmit
+ac234a54cb0f9302fb2a2f1bdd9779fc260bf6a2 net: dsa: mv88e6xxx: Fix error when setting port policy on mv88e6393x
+cedc670739542340bcb2dc8be2de0bb5c2e1f353 netfilter: xtables: fix typo causing some targets not to load on IPv6
+527a86778ccdedc2a261ff9ccf58888944b89220 net: wwan: fix global oob in wwan_rtnl_policy
+c3e891151eca398ce4abfe15af6a419c21b51022 net: usb: usbnet: fix name regression
+8ba8450c64e06256e82c5826d52ebaf67de974d1 net: sched: fix use-after-free in taprio_change()
+4a0c55403e165f78aa4ae5f76f869bb34bc55b6b r8169: avoid unsolicited interrupts
+d418e5e5a6a9fcd5cd849150e4083cd4f7216816 posix-clock: posix-clock: Fix unbalanced locking in pc_clock_settime()
+6f859ff8830dda504f89dfa11eed47595bab7759 bpf,perf: Fix perf_event_detach_bpf_prog error handling
+c3ba8cf90f221512fdd743e32883a77b2e6de734 ALSA: firewire-lib: Avoid division by zero in apply_constraint_to_size()
+dc426c7b7197ec340e1abbcc89327bef7e5956df ALSA: hda/realtek: Update default depop procedure
+92be65ae7d55a75aab0f5b88d7aacce6fe43e587 btrfs: zoned: fix zone unusable accounting for freed reserved extent
+0f39a5f3a5619405f17868b9636ff237527c7243 drm/amd: Guard against bad data for ATIF ACPI method
+cf9533a844c227ddeee2888bfeeba687ab23fd9d ACPI: resource: Add LG 16T90SP to irq1_level_low_skip_override[]
+bcb99233b209b7b0af4959bcf348b189cee335ec ACPI: button: Add DMI quirk for Samsung Galaxy Book2 to fix initial lid detection issue
+a684bdb4f0ec14dbd7b87ff20e7b64985240e4ec nilfs2: fix kernel bug due to missing clearing of buffer delay flag
+c62a697d66074bf9943470dd058311fe90b7df93 openat2: explicitly return -E2BIG for (usize > PAGE_SIZE)
+78f5e0ccf3f222de4773c6db7e8fc42dd413182f KVM: nSVM: Ignore nCR3[4:0] when loading PDPTEs from memory
+68ee46f86d46eb0ebe77615e1afe793c6dfeb7a8 ALSA: hda/realtek: Add subwoofer quirk for Acer Predator G9-593
+221368b1236a33990ce61a313c99ae40b147f00b xfrm: fix one more kernel-infoleak in algo dumping
+a3eafb340291c43d70690a785881d2c2ee433396 hv_netvsc: Fix VF namespace also in synthetic NIC NETDEV_REGISTER event
+9cbd78b00f859ee0644735b23f3a8a108b64a4fc selinux: improve error checking in sel_write_load()
+a81446d8afd0c8a13ec78a3fe1a8a717a37234ac serial: protect uart_port_dtr_rts() in uart_shutdown() too
+8f49ba77d4dabf0c4db65f3157f6e121e162e01e net: phy: dp83822: Fix reset pin definitions
+ecc4da8542edfa512697b90fe245fc580a092aa6 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
+cebe213d2a87dfac79e970b8902e0c80cfffae9b Linux 5.15.170-rc1
 
---===============6222736691333511415==--
+--===============9146831536318364051==--
