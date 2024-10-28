@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 28 Oct 2024 16:49:36 -0000
-Message-Id: <173013417669.1072475.7538394111753630518@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3134507939306267659=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 28 Oct 2024 17:02:02 -0000
+Message-Id: <173013492254.1082867.11118624683723355673@gitolite.kernel.org>
+
+--===============3134507939306267659==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 86fc77aa2745882398619cf4d5b5b2d208f69ec4
-    new: a191635ad42893a60d0a917b27e97e3fc73f7fee
+  - ref: refs/heads/for-next
+    old: 1349dd7dc21c63c9bad0e91fd1bf5f1ada34b0e2
+    new: a7d30cb75b0b3b243f57fd8dab4992a6a40f917e
     log: |
-         dfc79b17111251d27f7f5e666242e7a96d8a2835 engines/io_uring_cmd: add option to set DEAC bit for write zeroes
-         a191635ad42893a60d0a917b27e97e3fc73f7fee engines/io_uring_cmd: do not send data buffer for write zeroes
+         a7d30cb75b0b3b243f57fd8dab4992a6a40f917e platform/x86: eeepc-laptop: use sysfs_emit() instead of sprintf()
          
+
+--===============3134507939306267659==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1730134947 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1730134918-d47c82450a5eb1e2fe5237b0c31e9d62e81c71ad
+
+1349dd7dc21c63c9bad0e91fd1bf5f1ada34b0e2 a7d30cb75b0b3b243f57fd8dab4992a6a40f917e refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZx/DpgAKCRBZrE9hU+XO
+MeEqAPwO7QrqwhHillBsDVkewoe2Y4RDu6anrEMU259NVXVeUQD/RJ//HMGV97SN
+D2aM2hKUB5QCQeE17gadtnOW5cQxBw8=
+=iZh9
+-----END PGP SIGNATURE-----
+
+--===============3134507939306267659==--
