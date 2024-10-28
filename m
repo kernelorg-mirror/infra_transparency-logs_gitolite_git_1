@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1818736061198353157=="
+Content-Type: multipart/mixed; boundary="===============2254942364333621646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 28 Oct 2024 20:04:33 -0000
-Message-Id: <173014587314.1235896.6946749214577355180@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 20:04:50 -0000
+Message-Id: <173014589028.1236587.12313316558856712099@gitolite.kernel.org>
 
---===============1818736061198353157==
+--===============2254942364333621646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 9090ececac9ff1e22fb7e042f3c886990a8fb090
+  - ref: refs/heads/testing
+    old: 4772c58bc7a145c96c506a704107f180ec9039d2
     new: 9b4071ab8cbe28bd1bc4c533ab944771731fe5f8
-    log: revlist-9090ececac9f-9b4071ab8cbe.txt
+    log: revlist-4772c58bc7a1-9b4071ab8cbe.txt
 
---===============1818736061198353157==
+--===============2254942364333621646==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9090ececac9f-9b4071ab8cbe.txt
+Content-Disposition: attachment; filename=revlist-4772c58bc7a1-9b4071ab8cbe.txt
 
 c9a3f8c7bfcb4e7fd2d298aa1748116f9cc6b1de drivers: iio: adc: add support for ad777x family
 0d7fd2d6aa410371ce66ac4fc4b03ca91233bff4 dt-bindings: iio: light: opt3001: add compatible for opt3002
@@ -94,4 +94,4 @@ fd597e884068a884944dc0ccc23d7994caac92fb iio: chemical: bme680: move to fsleep()
 2ca996b58243d689c736581a3589c8adbe4f1056 iio: chemical: bme680: Fix indentation and unnecessary spaces
 9b4071ab8cbe28bd1bc4c533ab944771731fe5f8 iio: chemical: bme680: generalize read_*() functions
 
---===============1818736061198353157==--
+--===============2254942364333621646==--
