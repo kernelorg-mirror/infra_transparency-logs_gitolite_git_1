@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6820704735306552052=="
+Content-Type: multipart/mixed; boundary="===============5663376610170950138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 28 Oct 2024 06:33:59 -0000
-Message-Id: <173009723947.569647.13859760498362662784@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 06:34:28 -0000
+Message-Id: <173009726896.569906.14204480235362135054@gitolite.kernel.org>
 
---===============6820704735306552052==
+--===============5663376610170950138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-mika
     old: 42f7652d3eb527d03665b09edac47f85fb600924
     new: 81983758430957d9a5cb3333fe324fd70cf63e7e
     log: revlist-42f7652d3eb5-819837584309.txt
 
---===============6820704735306552052==
+--===============5663376610170950138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -317,4 +317,4 @@ f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://g
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
 
---===============6820704735306552052==--
+--===============5663376610170950138==--
