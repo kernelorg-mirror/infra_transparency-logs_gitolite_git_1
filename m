@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3060868672916073130=="
+Content-Type: multipart/mixed; boundary="===============4847799256464486357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 28 Oct 2024 14:54:56 -0000
-Message-Id: <173012729660.971212.12287988180945753870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 28 Oct 2024 14:57:22 -0000
+Message-Id: <173012744231.974130.3908355570796490243@gitolite.kernel.org>
 
---===============3060868672916073130==
+--===============4847799256464486357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/for-linux-next
-    old: a7e883b61d8d9f8dde0a1dd0e79f36529e122971
-    new: e8f36daa92b11346359cd32977c09af7ecc6022b
-    log: revlist-a7e883b61d8d-e8f36daa92b1.txt
+  - ref: refs/heads/master
+    old: df25f67c11f7a4efb342380ebb0d069164bea11f
+    new: 9fce3672402616746dcc6007838c87bfe4c4f391
+    log: revlist-df25f67c11f7-9fce36724026.txt
 
---===============3060868672916073130==
+--===============4847799256464486357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7e883b61d8d-e8f36daa92b1.txt
+Content-Disposition: attachment; filename=revlist-df25f67c11f7-9fce36724026.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -316,15 +316,6 @@ a8b3be2617d677796e576cc64d4ad9de45dfaf14 Merge tag 'xfs-6.12-fixes-5' of git://g
 f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
-7bf46ec090b9e6c9ab08d8006b4eefba2cd5a7f5 dt-bindings: firmware: arm,scmi: Add missing vendor string
-54962707f8b8b53812d3d7fca279a68c6e18faae firmware: arm_scmi: Use vendor string in max-rx-timeout-ms
-14b2157a9c14481c3b967d8d1a95972bf885fb88 dt-bindings: sram: Document reg-io-width property
-2cd7f3db25feeb7c204e36df9f1bb13bea3a3a20 firmware: arm_scmi: Support 'reg-io-width' property for shared memory
-5c14f38893d0b9daefc2c53b8ccd1692c7ced07c firmware: arm_scmi: Account for SHMEM memory overhead
-3229e33311f86c3cbf3b0453ce242e74a5f11133 firmware: arm_scmi: Calculate virtio PDU max size dynamically
-5654d37268bcbae4727d693e35d8e55e13d96fee dt-bindings: firmware: arm,scmi: Introduce more transport properties
-c091de2d383a079bc996b8ebbc1d193732fa4897 firmware: arm_scmi: Use max_msg and max_msg_size devicetree properties
-112ffc78dc8f4519b36853a415bd60fdf77edd1a firmware: arm_scmi: Relocate atomic_threshold to scmi_desc
-e8f36daa92b11346359cd32977c09af7ecc6022b Merge branch 'for-next/scmi/updates' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+9fce3672402616746dcc6007838c87bfe4c4f391 Merge tag 'v6.12-rc5'
 
---===============3060868672916073130==--
+--===============4847799256464486357==--
