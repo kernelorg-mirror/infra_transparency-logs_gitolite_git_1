@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4715337597326025985=="
+Content-Type: multipart/mixed; boundary="===============3051500846907978370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 28 Oct 2024 06:12:12 -0000
-Message-Id: <173009593284.548579.3418812668543882046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 28 Oct 2024 06:13:19 -0000
+Message-Id: <173009599952.549249.9545616083219803211@gitolite.kernel.org>
 
---===============4715337597326025985==
+--===============3051500846907978370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sframe
-    old: 1353e9393dce4e421b140f89a50d413f285fbf6b
-    new: 6af2e725c3858f7111e94e24d91030a1bbef81a7
-    log: revlist-1353e9393dce-6af2e725c385.txt
+  - ref: refs/heads/master
+    old: b177c8fdb19f2a2784bc541e2d50c6bb1a5483fd
+    new: fb48f952d4b59f14aa61b63d9c98249281055132
+    log: |
+         fb48f952d4b59f14aa61b63d9c98249281055132 6.6-stable patches
+         
 
---===============4715337597326025985==
+--===============3051500846907978370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1353e9393dce-6af2e725c385.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b9457a84d9346c7d9c1c060ac469d91dae74c6c8 unwind: Introduce sframe userspace unwinding
-cbe87c8b21e9a4bbd2f60eea794d906dd99a50dd unwind/x86: Enable CONFIG_HAVE_UNWIND_USER_SFRAME
-c9dacbad7985ccb773b228f890bb09e04292b631 unwind: Add deferred userspace unwinding API
-ee1cde7c74eaaffacf5579e1fde461ee77dc20a6 perf: Remove get_perf_callchain() 'init_nr' argument
-cb26eb35c7d93270b9973e9b8f87d695da743f17 perf: Remove get_perf_callchain() 'crosstask' argument
-061bffa178dc2ee5b9773f25f6baf91d74492389 perf: Simplify get_perf_callchain() user logic
-6d00ac403ee5baba0dc0e83dabaabcc78b884e49 perf: Add deferred user callchains
-990afea2fcb0e083953bebd15959e3e95251cc8d perf tools: Sync UAPI perf_event.h header
-dbd738c3fd4c81204191d10ab4ce954e800a2499 perf tools: Minimal DEFERRED_CALLCHAIN support
-c8f3f011e2d18a86bf37811e28908e2a4e6a556f perf record: Enable defer_callchain for user callchains
-e07520fe01a2f1344e7e4c93b31694f5c48ceb9d perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
-6af2e725c3858f7111e94e24d91030a1bbef81a7 perf tools: Merge deferred user callchains
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730096016 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1730095997-6852dc0c0bdbb7ef71451383509cb8a799f77282
 
---===============4715337597326025985==--
+b177c8fdb19f2a2784bc541e2d50c6bb1a5483fd fb48f952d4b59f14aa61b63d9c98249281055132 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcfK5AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SRQP/iESahpwqE4nnissG6c5
+oVTiq6JNt/1SndFO1gewCXX1MWRV+0RoBcWaAd9IQ3DX78XRDqaUNrRnCBmMPvQ2
+ywutU1evCJtiKeFjyAH5bYa1vWijtxQ4nDexeOmE8on42QZ0hYCCinKb7JYAXQJh
+lYd1pU1jLDu8LOFxMr3coMufu/CYXrurU+UaSzL7kniIcqq+K+HI8LwFDL0YSePS
+i8Z7BCdMy0iuTA7DAeqDjw9Ax4VvOK5NkUBEajEzy8Gvpxg/3tK8z7cEyLnUgxbj
+1qtVaCCtJmWxI8vETlkpukD571EewLzc9JpHP7JO5sU7V4bWN9b7agsGMJkq9TvH
+cZo2Xj27Un9sNEczebgYsrZPac8LsaYHVuqSzPal3r3zpmGNYKHDBKcIYqVcLHYZ
+icqjlMjFBsqTWhKEL/22yfRw9NLs3Rv/EC7c0bou1Q2qIvcuMgG016ADjcd0cRYv
+KfVgJgN4cmxQX6UJfuYm8Qw3z9w0WdatSIvQq3HMrNQgFmL6tXmeqy7Cb1o09KhA
+D8McsaD4mnHPDmqwgCGRLHGQDQchndDvgyBfIVAA3XWTYcqanXIqRFt3+t7Fb3Sk
+x0LBUXmtcnw68Itv5e9aTO6VKe+wdo1Ms8d15nrz9L24UoQ8whovmSDsG4bNzjs2
+odWTcO/9LFwXZiP6uq6FFz5o
+=lc6f
+-----END PGP SIGNATURE-----
+
+--===============3051500846907978370==--
