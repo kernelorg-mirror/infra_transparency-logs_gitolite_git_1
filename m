@@ -1,43 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3693018709873777658=="
+Content-Type: multipart/mixed; boundary="===============2172541734299461187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 28 Oct 2024 17:31:13 -0000
-Message-Id: <173013667348.1107987.12056235641181127789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 28 Oct 2024 17:36:14 -0000
+Message-Id: <173013697490.1112088.18152803071431857113@gitolite.kernel.org>
 
---===============3693018709873777658==
+--===============2172541734299461187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/lockdep-for-tip
-    old: 2628cbd03924b91a360f72117a9b9c78cfd050e7
-    new: 87a5a5d70127c222d7cca1ae7018955794871a1c
-    log: revlist-2628cbd03924-87a5a5d70127.txt
+  - ref: refs/heads/dev
+    old: eca631b8fe808748d7585059c4307005ca5c5820
+    new: f2bbbe277c22925ad29b19c190892d19dad610a7
+    log: revlist-eca631b8fe80-f2bbbe277c22.txt
 
---===============3693018709873777658==
+--===============2172541734299461187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2628cbd03924-87a5a5d70127.txt
+Content-Disposition: attachment; filename=revlist-eca631b8fe80-f2bbbe277c22.txt
 
-52e0874fc16bd26e9ea1871e30ffb2c6dff187cf locking/rt: Add sparse annotation PREEMPT_RT's sleeping locks.
-b1f01f9e54b1aaadb6740f86017e8fabdee77fe2 locking/rt: Remove one __cond_lock() in RT's spin_trylock_irqsave()
-168660b826a77fda28235e0b0b3027041d6a5240 locking/rt: Add sparse annotation for RCU.
-77abd3b7d9bf384306872b6201b1dfeb1e899892 locking/rt: Annotate unlock followed by lock for sparse.
-d12b802f183667d4c28589314c99c380a458d57e locking/rtmutex: Fix misleading comment
-f730fd535fc51573f982fad629f2fc6b4a0cde2f cleanup: Remove address space of returned pointer
-0d75e0c420e52b4057a2de274054a5274209a2ae locking/osq_lock: Use atomic_try_cmpxchg_release() in osq_unlock()
-fcc22ac5baf06dd17193de44b60dbceea6461983 cleanup: Adjust scoped_guard() macros to avoid potential warning
-36c2cf88808d47e926d11b98734f154fe4a9f50f cleanup: Add conditional guard helper
-83a8b330be0aa03d6e36f470c16114d1a555b5c9 locking/ww_mutex/test: Use swap() macro
-47053849a965a7cbbf3c081b21482655de17c2df lockdep: Fix upper limit for LOCKDEP_*_BITS configs
-301880761d2c8f47a69489aeaafb5bd06f86ce50 lockdep: Clarify size for LOCKDEP_*_BITS configs
-87a5a5d70127c222d7cca1ae7018955794871a1c lockdep: Document MAX_LOCKDEP_CHAIN_HLOCKS calculation
+b19ee72722087c1d441193ce3b6b3d937ae16bf2 f2fs: introduce f2fs_get_section_mtime
+527a4ded09b9266a5fb100e80e05b101b53053fd f2fs: Use struct_size() to improve f2fs_acl_clone()
+26413ce18e85de3dda2cd3d72c3c3e8ab8f4f996 f2fs: compress: fix inconsistent update of i_blocks in release_compress_blocks and reserve_compress_blocks
+d5c367ef8287fb4d235c46a2f8c8d68715f3a0ca f2fs: fix f2fs_bug_on when uninstalling filesystem call f2fs_evict_inode.
+b7d0a97b28083084ebdd8e5c6bccd12e6ec18faa f2fs: fix null-ptr-deref in f2fs_submit_page_bio()
+1acd73edbbfef2c3c5b43cba4006a7797eca7050 f2fs: fix to account dirty data in __get_secs_required()
+af68d9b481ac6eb1290c16d4da5689eb2352a50d f2fs: introduce update_sit_entry_for_release()
+e767ae13e67dffbcd335cab529aa67a3058c3b4c f2fs: fix to do sanity check on node blkaddr in truncate_node()
+4d11e609f4c0a56386f6739059f395cde74eb164 f2fs: multidevice: add stats in debugfs
+b715716ee839a938b3aced34cfb3a967eb9df8e6 f2fs: decrease spare area for pinned files for zoned devices
+495494c3037e439c5bdb7b3514924bc35a47494e f2fs: introduce device aliasing file
+08060c0b1414b4a14ef43f0d77490836a0594083 f2fs: zone: introduce first_zoned_segno in f2fs_sb_info
+522e5de97dc1b1c362604ed39482737c072ff982 f2fs: fix the wrong f2fs_bug_on condition in f2fs_do_replace_block
+f2bbbe277c22925ad29b19c190892d19dad610a7 f2fs: check curseg->inited before write_sum_page in change_curseg
 
---===============3693018709873777658==--
+--===============2172541734299461187==--
