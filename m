@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 28 Oct 2024 20:49:35 -0000
-Message-Id: <173014857577.1275019.10143656216130050037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 28 Oct 2024 20:51:07 -0000
+Message-Id: <173014866794.1277394.952196649184460547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 58ba3891baf6285cb0085a9d026844905de3821a
-    new: 729fd9963df576a04f2ba371b033c5300ebf0a91
-    log: |
-         729fd9963df576a04f2ba371b033c5300ebf0a91 pahole: Distilled_base btf_feature should be reported for libbpf > 1.5
-         
+  - ref: refs/heads/arm64-mte-test-logging
+    old: 0000000000000000000000000000000000000000
+    new: 4429aff4407e98524b3fd0bb2072e07a624e475a
