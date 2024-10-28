@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7648083147369700008=="
+Content-Type: multipart/mixed; boundary="===============5427058371179848817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 28 Oct 2024 15:57:50 -0000
-Message-Id: <173013107041.1025848.17954893497188080606@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 16:00:44 -0000
+Message-Id: <173013124478.1029371.2596988131393856066@gitolite.kernel.org>
 
---===============7648083147369700008==
+--===============5427058371179848817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: frederic
 changes:
-  - ref: refs/heads/rcu/srcu
-    old: 4d2bc2f2841dd6543de7f348d6a4392b4aa4d838
-    new: 8bfd1991db78b671c9d552c966d198fbfe399658
-    log: revlist-4d2bc2f2841d-8bfd1991db78.txt
+  - ref: refs/heads/rcu/dev
+    old: 6f1ab7588b4c400b5eb273ba01a99a2389ea26e4
+    new: 827e290c517f23dda5496144fc35c311eb9ec162
+    log: revlist-6f1ab7588b4c-827e290c517f.txt
 
---===============7648083147369700008==
+--===============5427058371179848817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d2bc2f2841d-8bfd1991db78.txt
+Content-Disposition: attachment; filename=revlist-6f1ab7588b4c-827e290c517f.txt
 
+bf73bafd6f28e4abb7992796e783133fb3eb885c rcuscale: Do a proper cleanup if kfree_scale_init() fails
+1715e13f68c8e5034ac116b0cf75cf1d3be23dec rcuscale: Remove redundant WARN_ON_ONCE() splat
 5bc455ff25762b1ac0463a005ccb3baf9f1fe7b8 srcu: Rename srcu_might_be_idle() to srcu_should_expedite()
 e3d6718677628680ae75a42bdb2cdc27d28e8ce8 srcu: Introduce srcu_gp_is_expedited() helper function
 d5879bd5928e7f7956b2730a5d377415b9614345 srcu: Renaming in preparation for additional reader flavor
@@ -41,5 +43,7 @@ af8d03bae842195d964d07948220157809da7623 rcutorture: Add srcu_read_lock_lite() s
 9f74e70342f019915f63daf2463a038da8999558 rcutorture: Add light-weight SRCU scenario
 d14a268a513956db89cb69079c45d480267718da refscale: Add srcu_read_lock_lite() support using "srcu-lite"
 8bfd1991db78b671c9d552c966d198fbfe399658 srcu: Improve srcu_read_lock_lite() kernel-doc comment
+596810675feb8276ed4666807514619434f656f9 Merge branches 'rcu/fixes', 'rcu/nocb', 'rcu/torture', 'rcu/stall' and 'rcu/srcu' into rcu/dev
+827e290c517f23dda5496144fc35c311eb9ec162 refscale: Add test for sched_clock()
 
---===============7648083147369700008==--
+--===============5427058371179848817==--
