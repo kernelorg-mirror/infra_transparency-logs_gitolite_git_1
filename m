@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
-Date: Mon, 28 Oct 2024 17:39:56 -0000
-Message-Id: <173013719657.1114437.3513264998897722765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Mon, 28 Oct 2024 17:40:56 -0000
+Message-Id: <173013725695.1117724.10586831001872884655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/next-analysis
-user: sashal
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: a05484d6edd241965b4369fb01dc130b5ff68167
-    new: c6d3a87bae408a76105a73c7f5d5fa13cc868b09
+  - ref: refs/heads/lockdep-for-tip
+    old: 87a5a5d70127c222d7cca1ae7018955794871a1c
+    new: 0070c072c1b278f99047ab720e93406ad1359e73
     log: |
-         c6d3a87bae408a76105a73c7f5d5fa13cc868b09 Switch to using '+' instead of blocks
+         0070c072c1b278f99047ab720e93406ad1359e73 rust: sync: Add global lock support
          
