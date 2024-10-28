@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 28 Oct 2024 23:30:19 -0000
-Message-Id: <173015821982.1410123.14439564345129324037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 28 Oct 2024 23:41:01 -0000
+Message-Id: <173015886166.1418741.16570792490825082914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/filez25MVl
+  - ref: refs/tags/tpmdd-next-6.12-rc6
     old: 0000000000000000000000000000000000000000
-    new: 2ef9439f7a19fd3d43b288d38b1c6e55b668a4fe
+    new: ad271be2034ed75a7b7fda3e6a6b922e99b55e77
