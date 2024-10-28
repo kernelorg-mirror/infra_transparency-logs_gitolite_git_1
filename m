@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4854920066790358560=="
+Content-Type: multipart/mixed; boundary="===============4190226240185586584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 28 Oct 2024 19:54:39 -0000
-Message-Id: <173014527905.1227105.8390762885433436302@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 19:54:55 -0000
+Message-Id: <173014529548.1227488.4512726577765853785@gitolite.kernel.org>
 
---===============4854920066790358560==
+--===============4190226240185586584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/linux-next
-    old: 69b6f257c4948daa05727d4ae745c9bf17fd7e56
-    new: a6960e6b1b0e2cb268f427a99040c408a8d10665
-    log: revlist-69b6f257c494-a6960e6b1b0e.txt
+  - ref: refs/heads/bleeding-edge
+    old: 04b62d25c211bfeb9def1e984ef370b8d58419ef
+    new: e3cea20c2735c3c7d0373ec201d0bfb584617cf1
+    log: revlist-04b62d25c211-e3cea20c2735.txt
 
---===============4854920066790358560==
+--===============4190226240185586584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69b6f257c494-a6960e6b1b0e.txt
+Content-Disposition: attachment; filename=revlist-04b62d25c211-e3cea20c2735.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -331,5 +331,7 @@ b427ac4084753d7c62ef797bed7f30203f0ef5fb cpufreq/amd-pstate: Remove the redundan
 73070a9169b16e08b191066e513bce6c237c9221 cpufreq/amd-pstate: Do not attempt to clear MSR_AMD_CPPC_ENABLE
 796ff50e127af8362035f87ba29b6b84e2dd9742 cpufreq/amd-pstate: Call cppc_set_epp_perf in the reenable function
 a6960e6b1b0e2cb268f427a99040c408a8d10665 cpufreq/amd-pstate: Align offline flow of shared memory and MSR based systems
+a336011ecbf66de86ca32d8606945723c7f6872b cpufreq/amd-pstate: Push adjust_perf vfunc init into cpu_init
+e3cea20c2735c3c7d0373ec201d0bfb584617cf1 cpufreq/amd-pstate: Move registration after static function call update
 
---===============4854920066790358560==--
+--===============4190226240185586584==--
