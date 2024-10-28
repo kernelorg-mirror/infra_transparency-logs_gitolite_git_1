@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4847799256464486357=="
+Content-Type: multipart/mixed; boundary="===============5422822252782392086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Oct 2024 14:57:22 -0000
-Message-Id: <173012744231.974130.3908355570796490243@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 14:57:41 -0000
+Message-Id: <173012746114.974410.16824719840863061328@gitolite.kernel.org>
 
---===============4847799256464486357==
+--===============5422822252782392086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: df25f67c11f7a4efb342380ebb0d069164bea11f
-    new: 9fce3672402616746dcc6007838c87bfe4c4f391
-    log: revlist-df25f67c11f7-9fce36724026.txt
+  - ref: refs/heads/m68k-queue
+    old: bf2f140a0c7c0b8f4f1691f98abef8f176f5af20
+    new: 564fe8d968a4353c6d4a3773e3f6d951cb8b6ffc
+    log: revlist-bf2f140a0c7c-564fe8d968a4.txt
 
---===============4847799256464486357==
+--===============5422822252782392086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df25f67c11f7-9fce36724026.txt
+Content-Disposition: attachment; filename=revlist-bf2f140a0c7c-564fe8d968a4.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -316,6 +316,8 @@ a8b3be2617d677796e576cc64d4ad9de45dfaf14 Merge tag 'xfs-6.12-fixes-5' of git://g
 f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
-9fce3672402616746dcc6007838c87bfe4c4f391 Merge tag 'v6.12-rc5'
+682e684d78665d051a9a8128f51ebcc977c244c4 m68k: atari: usb: Add ISP1160 USB host controller support
+f860d95b1a7d6800fe9fcf3e485f9dd8de3177be m68k: atari: Update Kconfig.bus help text
+564fe8d968a4353c6d4a3773e3f6d951cb8b6ffc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4847799256464486357==--
+--===============5422822252782392086==--
