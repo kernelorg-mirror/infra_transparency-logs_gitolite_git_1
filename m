@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7035764218599469454=="
+Content-Type: multipart/mixed; boundary="===============7234993368724016354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 28 Oct 2024 19:05:11 -0000
-Message-Id: <173014231120.1189129.1927441152837088645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 28 Oct 2024 19:05:20 -0000
+Message-Id: <173014232007.1189333.17020626218204315557@gitolite.kernel.org>
 
---===============7035764218599469454==
+--===============7234993368724016354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 81983758430957d9a5cb3333fe324fd70cf63e7e
     log: revlist-42f7652d3eb5-819837584309.txt
 
---===============7035764218599469454==
+--===============7234993368724016354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -317,4 +317,4 @@ f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://g
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
 
---===============7035764218599469454==--
+--===============7234993368724016354==--
