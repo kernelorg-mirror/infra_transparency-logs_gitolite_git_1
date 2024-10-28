@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6206892227619012523=="
+Content-Type: multipart/mixed; boundary="===============8934025535489021250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Mon, 28 Oct 2024 15:55:01 -0000
-Message-Id: <173013090158.1022702.17749405011306845769@gitolite.kernel.org>
+Date: Mon, 28 Oct 2024 15:55:05 -0000
+Message-Id: <173013090588.1024389.7314664392298129661@gitolite.kernel.org>
 
---===============6206892227619012523==
+--===============8934025535489021250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: ac49b950bea9e76ae435b9f9c340a4da7261364b
     new: 2998752565714ec503d2121b27b362c5a2f94ca8
     log: revlist-ac49b950bea9-299875256571.txt
 
---===============6206892227619012523==
+--===============8934025535489021250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d44cd8226449114780a8554fd253c7e3d171a0a6 Merge tag 'net-6.12-rc5' of git://git.k
 b8ee7a11c75436b85fa1641aa5f970de0f8a575c net: dsa: mv88e6xxx: fix unreleased fwnode_handle in setup_port()
 2998752565714ec503d2121b27b362c5a2f94ca8 ieee802154: Replace BOOL_TO_STR() with str_true_false()
 
---===============6206892227619012523==--
+--===============8934025535489021250==--
