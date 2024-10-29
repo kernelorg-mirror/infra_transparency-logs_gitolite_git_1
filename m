@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 29 Oct 2024 22:11:44 -0000
-Message-Id: <173023990420.2540972.7670973980016302985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 29 Oct 2024 22:39:18 -0000
+Message-Id: <173024155817.2561932.1039828267232234863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/perf-ftrace-latency
-    old: 0000000000000000000000000000000000000000
-    new: 9174d10ae9591fd9cba0a76be166050a0cd5e57e
+  - ref: refs/heads/master
+    old: 09b11a57b325a97ca28d8c29bf8030b91952b5d4
+    new: 34b2baf3c4b0a0245db1b9d0c85f48f808e518f3
+    log: |
+         cd0b71f38b7c00c98d12677c5decebf1825d5d7b tpm: set TPM_CHIP_FLAG_SUSPENDED early
+         34b2baf3c4b0a0245db1b9d0c85f48f808e518f3 KEYS: trusted: dcp: fix NULL dereference in AEAD crypto operation
+         
