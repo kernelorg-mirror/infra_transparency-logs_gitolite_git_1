@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Oct 2024 18:47:58 -0000
-Message-Id: <173022767855.2368660.6491643260809805308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 29 Oct 2024 18:49:11 -0000
+Message-Id: <173022775144.2369381.17747156736445584686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 4ce1f56a1eaced2523329bef800d004e30f2f76c
-    new: a13e690191eafc154b3f60afe9ce35aa9b9128b4
+  - ref: refs/heads/master
+    old: a32aee8f0d987a7cba7fcc28002553361a392048
+    new: 1fb315892d8395cec2dae04b0cb5558731aefb37
     log: |
-         a13e690191eafc154b3f60afe9ce35aa9b9128b4 net/sched: sch_api: fix xa_insert() error path in tcf_block_get_ext()
+         aa30eb3260b2dea3a68d3c42a39f9a09c5e99cee bpf: Force checkpoint when jmp history is too long
+         1fb315892d8395cec2dae04b0cb5558731aefb37 selftests/bpf: Test with a very short loop
          
