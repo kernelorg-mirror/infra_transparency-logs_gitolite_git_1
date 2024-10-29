@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6703208821499557675=="
+Content-Type: multipart/mixed; boundary="===============3439624211556908153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 29 Oct 2024 20:34:28 -0000
-Message-Id: <173023406869.2458704.8725584954148223594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 29 Oct 2024 20:34:35 -0000
+Message-Id: <173023407511.2459337.14191114192579287092@gitolite.kernel.org>
 
---===============6703208821499557675==
+--===============3439624211556908153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: cc8475a07cf34891bf11a63025659d3537b638ef
     new: 2db63e92186d7201ee1cb2f5af11757c5e5a1020
     log: |
@@ -24,7 +24,7 @@ changes:
          107a5c853eef5336a9846e7dd2f9184b6e3c07c7 ASoC: codecs: wcd937x: relax the AUX PDM watchdog
          2db63e92186d7201ee1cb2f5af11757c5e5a1020 wcd937x codec fixes
          
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 0d4f74febc9d92d88099aff01f121b7f5f942c8f
     new: 3f58985e437fbc1b4d5f7967dd83f118abd2a6a1
     log: |
@@ -35,29 +35,29 @@ changes:
          3f58985e437fbc1b4d5f7967dd83f118abd2a6a1 ASoC: codecs: adau1373: drop platform data
          
 
---===============6703208821499557675==
+--===============3439624211556908153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1730234095 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1730234066-e63086a7141232154b0248d9c84009092d9f4cff
+pusher C3F436CA30F5D8EB 1730234102 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1730234072-ca9c10afa7c876a827dd847740672af12772eb89
 
-cc8475a07cf34891bf11a63025659d3537b638ef 2db63e92186d7201ee1cb2f5af11757c5e5a1020 refs/heads/for-6.12
-0d4f74febc9d92d88099aff01f121b7f5f942c8f 3f58985e437fbc1b4d5f7967dd83f118abd2a6a1 refs/heads/for-6.13
+cc8475a07cf34891bf11a63025659d3537b638ef 2db63e92186d7201ee1cb2f5af11757c5e5a1020 refs/heads/asoc-6.12
+0d4f74febc9d92d88099aff01f121b7f5f942c8f 3f58985e437fbc1b4d5f7967dd83f118abd2a6a1 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmchRu8ACgkQJNaLcl1U
-h9CwlQgAhYgg8jrc4Xzmyab6QQYdDvcfonKdFmkAnlhy1ZOrB29B7UnZGg+hrheo
-F7YW7qwsu8Kj0eA9vdstFvPr019zv9eJ8td/1je/v3uA5RRiLSczFefMxg9QIiS/
-bgdWhRKpNo5ffAvkCDKec57vXZNSJDMGUVW/i8eU2yUeGG3KfEunEPiFwbv5g41p
-A9CjASbnhXJa8XnB+p3sOzrsRbYDkyY65bAkMp/C9VyRi8Exo/CdY8URB7tJwLsj
-waegJmD9+qezTxIpSVtb+CnM23/+947ZtReR+XjXSWzOndQsxoVAo3VcvoYyEqpS
-3oomPSmJ0rGhsmZdTZ+3M/hgc0Kwag==
-=sGMz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmchRvYACgkQJNaLcl1U
+h9B1Lwf/TnkldILnyjNApF6R872a6vttYcPhs1Pjl0eQ1CC3z4nCDFVq35WV0zRK
+efr2IqC+BQtg66n0ZDXjv0RPJtQKXuUBU5eWn5gnw/2VU1j6ejX4M2yV3qQUpoFF
+IyGF+XTYEErI6cZeY7AV8xBiO1mAgMIeGNCk9w8cZH/yKXjfLORFd1rIvXnf+h50
+lDXg5vPnwV+OaYRqVzo8zmp8waJMFIdAgyvu1CCnFtUoJ+TOh07cG2BHy96Xy1gL
+1yAORr+j66NpeH8D4VnIi/lTnlhZPRYoxlNhbTKheASZdzB0autRmbh5RHnkrdSV
+8qVvj3mCe4ZUdp7eFRCB/w0wF/sZ7A==
+=sgnv
 -----END PGP SIGNATURE-----
 
---===============6703208821499557675==--
+--===============3439624211556908153==--
