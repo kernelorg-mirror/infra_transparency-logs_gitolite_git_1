@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8940606276752272839=="
+Content-Type: multipart/mixed; boundary="===============6740712741963321880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 29 Oct 2024 17:17:08 -0000
-Message-Id: <173022222870.2289744.18116362217677851149@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 17:17:11 -0000
+Message-Id: <173022223128.2289857.4590801190542511890@gitolite.kernel.org>
 
---===============8940606276752272839==
+--===============6740712741963321880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: e31a8219fbfcf9dc65ba1e1c10cade12b6754e00
     new: bacccddbbcc3c853828745be325b24f85c8714c6
     log: revlist-e31a8219fbfc-bacccddbbcc3.txt
 
---===============8940606276752272839==
+--===============6740712741963321880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ f84ef58e553206b02d06e02158c98fbccba25d19 net: stmmac: dwmac4: Fix high address d
 6e58c33106220c6c0c8fbee9ab63eae76ad8f260 ice: fix crash on probe for DPLL enabled E810 LOM
 bacccddbbcc3c853828745be325b24f85c8714c6 Merge branch 'intel-wired-lan-driver-fixes-2024-10-21-igb-ice'
 
---===============8940606276752272839==--
+--===============6740712741963321880==--
