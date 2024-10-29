@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 29 Oct 2024 08:39:45 -0000
-Message-Id: <173019118571.1857592.1628075431186142111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Tue, 29 Oct 2024 08:47:41 -0000
+Message-Id: <173019166129.1864335.9132065903359593362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/timers/core
-    old: 92b043fd995a63a57aae29ff85a39b6f30cd440c
-    new: 529ba40ce59f9bf55d7e1b14419271463e494a57
+  - ref: refs/heads/virtio/msg
+    old: 1ee7d4424b5fb877c9020b7426879470c2d47125
+    new: 4cdd999c9cdc0ddc577311c6fd904523176a1832
     log: |
-         2625b7efcee09ab43c108dfca6ea0b918897a1e8 signal: Confine POSIX_TIMERS properly
-         e19b317fbac41c8901f0d3e71fc90bfebbe47880 signal: Cleanup flush_sigqueue_mask()
-         ae64337582095668ef277cc5797ac03dc7147491 _patch_V5_03_26_posix_timers_Cure_si_sys_private_race
-         c22f9833a366f12ffe5a9889192b211f96a4610e signal: Allow POSIX timer signals to be dropped
-         4d5b2b89b90da486be0f393a1e86232d14228091 posix-timers: Drop signal if timer has been deleted or reprogrammed
-         e40a4f012df93c61519d27ba1cea93851961b760 posix-timers: Rename k_itimer::it_requeue_pending
-         7fbc9b6c4f34249afa788eac24abdff5ca93f0aa posix-timers: Add proper state tracking
-         529ba40ce59f9bf55d7e1b14419271463e494a57 posix-timers: Make signal delivery consistent
+         9a48595868cd0b9083f46ba68e1370d0a07641b7 virtio: msg: Add DMA OPs support
+         219568b45496b5eb82fcecfec30a6154fe3cb9af TEMP: Reset defconfig
+         dba1eb823e9e74147dd80563e3aee16a5b6f839f TEMP: Enable virtio-msg in defconfig
+         1d4d4bad954bb204d60c44b4bd03744bfce850dd TEMP: defconfig: Enable qemu/xen options
+         4cdd999c9cdc0ddc577311c6fd904523176a1832 TEMP: Disable buildroot for host machine
          
