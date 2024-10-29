@@ -1,34 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 29 Oct 2024 09:05:17 -0000
-Message-Id: <173019271798.1880468.13552511338994602990@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1180852186653162771=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 29 Oct 2024 09:05:42 -0000
+Message-Id: <173019274232.1881054.7928756356664621630@gitolite.kernel.org>
+
+--===============1180852186653162771==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus
-    old: 78e7be018784934081afec77f96d49a2483f9188
-    new: ef5fbdf732a158ec27eeba69d8be851351f29f73
-    log: |
-         ef5fbdf732a158ec27eeba69d8be851351f29f73 ALSA: hda/realtek: Add subwoofer quirk for Infinix ZERO BOOK 13
-         
-  - ref: refs/heads/for-next
-    old: 7153501351f06bfa4d1b3495694063d44ae275ca
-    new: 5289d00696396224507ee083f5aee6119569c8d3
-    log: |
-         5289d00696396224507ee083f5aee6119569c8d3 ALSA: usb-audio: Add Pioneer DJ/AlphaTheta DJM-A9 Mixer
-         
-  - ref: refs/heads/master
-    old: 583e8f76410a5b7e0238426d8e6e1e1d2f4994b0
-    new: 1f87b9ac1321793086fe093c6cedec3fd5478b22
-    log: |
-         ef5fbdf732a158ec27eeba69d8be851351f29f73 ALSA: hda/realtek: Add subwoofer quirk for Infinix ZERO BOOK 13
-         0db6fd3bf55c4690c84238cc0bec671cfed0dd61 Merge branch 'for-linus'
-         5289d00696396224507ee083f5aee6119569c8d3 ALSA: usb-audio: Add Pioneer DJ/AlphaTheta DJM-A9 Mixer
-         1f87b9ac1321793086fe093c6cedec3fd5478b22 Merge branch 'for-next'
-         
+  - ref: refs/tags/wireless-2024-10-29
+    old: 0000000000000000000000000000000000000000
+    new: 11d966397d98ce79940b9a146fb74c860c668657
+
+--===============1180852186653162771==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1730192747 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1730192718-2fcb5bbeff285f78b372b8259dcc6788576bcf32
+
+0000000000000000000000000000000000000000 11d966397d98ce79940b9a146fb74c860c668657 refs/tags/wireless-2024-10-29
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmcgpWsACgkQ10qiO8sP
+aABH+Q//VhJp76GNPWIegVgHXJkTJDDxyeTK15K6HNu9D6km8WfgGwGGXQ9kfVe0
+MxO8NEGoqsdlEIiygn08btnS4jl+lii7LbKDDe/wIoMzsTTxrI5/hxhhVyT5+sTM
+U34rX55AVormgawhhrGMLb0fbekxfXQEIPYZf3beKjZTfizOaKL/djCtzbM4oAcj
+s24Lkr52o926mGi764XEAH4vQdaNUkZwwjCZqFfaNBqQ8rqnMta2dMVgLtR5dwUt
+rbyLlvR/Hzpd2/HHCT9JBnLcESXW0wiVV/SUquCAYgszrDTNHBnul0irp2l+xWuw
+6HHSVd9XCRHmEcMRFdZzOJSIIfr5f35jzYeYiFsyYHT9ogxhPMOcHVqX0NtAosJF
++/yG70x5bbk8rc0ZHvdwFKNCdfVjnKIewQxpOVkMosSGJZpBUXfIasgWuta0jRy4
+06LO4+atzNdKWkc9jMhd/x/C4mmhyfZT03/0MK/L8/D2OGLyTysU/ck+wktONe/o
+jFLeUV9ZouB7bltVZGoyqiXdyb7SJa8fW8N0zEzYOdi36rwY2ClYVfJzaLDXVIIl
+ZrBC8IvrXkhfd+iG6iItwJepJ+LjP9hLGGu5PJc9PPUI0QA72dZRZVQjrJnzlwY1
+LzlMUobgHpeqBnilzF7T+CD1ZYKmtuhmDAOV68DxkwKpBJTfrow=
+=8xRY
+-----END PGP SIGNATURE-----
+
+--===============1180852186653162771==--
