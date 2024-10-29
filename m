@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 29 Oct 2024 17:37:11 -0000
-Message-Id: <173022343184.2307104.17735284039342110328@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 17:37:19 -0000
+Message-Id: <173022343966.2307311.8345500895496992760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
+  - ref: refs/heads/for-next
     old: be3e6529a8b90b1284a55117a4e23095ccbeaeaf
     new: ad64a7c4a49d30c5d909a35e2c7882d3870ddafc
     log: |
