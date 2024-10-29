@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2072902206285463368=="
+Content-Type: multipart/mixed; boundary="===============5958374796685443319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 29 Oct 2024 18:35:06 -0000
-Message-Id: <173022690621.2358616.5036749318130681918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 29 Oct 2024 18:35:17 -0000
+Message-Id: <173022691779.2358791.466868955517338514@gitolite.kernel.org>
 
---===============2072902206285463368==
+--===============5958374796685443319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regmap-6.13
     old: c2288599691c6057da34731606600ea04fc38d71
     new: 336f0fbf510880f7b2f9ea7e473fefc02222070c
     log: revlist-c2288599691c-336f0fbf5108.txt
 
---===============2072902206285463368==
+--===============5958374796685443319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -352,4 +352,4 @@ cfea70e835b9180029257d8b772c9e99c3305a9a Merge tag '6.12-rc2-cifs-fixes' of git:
 8e929cb546ee42c9a61d24fae60605e9e3192354 Linux 6.12-rc3
 336f0fbf510880f7b2f9ea7e473fefc02222070c regmap: Merge up fixes from v6.12-rc3
 
---===============2072902206285463368==--
+--===============5958374796685443319==--
