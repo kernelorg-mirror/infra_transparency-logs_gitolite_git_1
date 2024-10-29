@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 29 Oct 2024 21:07:00 -0000
-Message-Id: <173023602020.2488872.16448371092981986724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 29 Oct 2024 21:14:48 -0000
+Message-Id: <173023648897.2494395.13788904495931164124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 336f0fbf510880f7b2f9ea7e473fefc02222070c
-    new: 96a54082424dc9d430076563031d9b576176674e
+  - ref: refs/heads/master
+    old: 4712bca0b7e2b923feeead79e2cdb3bd77d86629
+    new: 6fb72ccb24e8e9035f6e15ce8503e90f381e6ddf
     log: |
-         96a54082424dc9d430076563031d9b576176674e regmap: kunit: Fix repeated test param
+         6fb72ccb24e8e9035f6e15ce8503e90f381e6ddf Base commit
          
