@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 29 Oct 2024 06:39:16 -0000
-Message-Id: <173018395692.1761139.6666427286954139352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 29 Oct 2024 07:03:09 -0000
+Message-Id: <173018538925.1779960.2064343202711326886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 4fd06a5358e0d888d1bf23d274971ea7d1f45aad
-    new: 00dd2b2869cf1fea18b6839f22c51f8823e50757
+  - ref: refs/heads/next
+    old: 2a027d6bb66002c8e50e974676f932b33c5fce10
+    new: cecc795329fc3e0ea2e84567ee57570cc050cf6b
     log: |
-         00dd2b2869cf1fea18b6839f22c51f8823e50757 dt-bindings: cpufreq: cpufreq-qcom-hw: Add SAR2130P compatible
+         11f0c8e0468a8bc625164f68dd5ff2a9436658db selftests: Rename sigaltstack to generic signal
+         cecc795329fc3e0ea2e84567ee57570cc050cf6b selftests: Add a test mangling with uc_sigmask
          
