@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Oct 2024 20:16:39 -0000
-Message-Id: <173023299927.2445582.14935516554506569375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 29 Oct 2024 20:32:31 -0000
+Message-Id: <173023395174.2457579.3000190408280698375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/arm64-2024-dpisa
-    old: 223dd2e7e9d64f5d620252dd7e974bdd4b6451d9
-    new: 1dbdd0b9b959d65a3d0e1cda18164e159dbefe29
+  - ref: refs/heads/for-next
+    old: b213f06da235da689d4e8df2d43e17ea1e9c2207
+    new: f9759e2b57049f9c4ea8d7254ba6afcf6eb10cd6
     log: |
-         442c1ddaa83c6a9c72ad4c8a8c4fa8daf3a24e04 KVM: arm64: Allow control of dpISA extensions in ID_AA64ISAR3_EL1
-         1dbdd0b9b959d65a3d0e1cda18164e159dbefe29 kselftest/arm64: Add 2024 dpISA extensions to hwcap test
+         f9759e2b57049f9c4ea8d7254ba6afcf6eb10cd6 dt-bindings: cache: qcom,llcc: Fix X1E80100 reg entries
          
