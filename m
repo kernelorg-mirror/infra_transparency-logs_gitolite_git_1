@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 29 Oct 2024 11:00:26 -0000
-Message-Id: <173019962693.1973756.3436484476646884894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 29 Oct 2024 11:01:01 -0000
+Message-Id: <173019966112.1974178.6715201251475035380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/timers/core
-    old: 92b043fd995a63a57aae29ff85a39b6f30cd440c
-    new: 1550dde8a537b35dbf066c7f9cfe5f9b360bce0d
+  - ref: refs/heads/testing
+    old: ab101c553bc1f76a839163d1dc0d1e715ad6bb4e
+    new: 83dfce38c49f3242c7edf5baab5c79c9ec360ecc
     log: |
-         68f99be287a59d50a9ad231d523f7e578f8bd28a signal: Confine POSIX_TIMERS properly
-         a76e1bbe879cf39952ec4b43ed653b0905635f24 signal: Cleanup flush_sigqueue_mask()
-         4febce44cfebcb490b196d5d10ae9f403ca4c956 posix-timers: Cure si_sys_private race
-         c775ea28d4e23f5e58b6953645ef90c1b27a8e83 signal: Allow POSIX timer signals to be dropped
-         2860d4d315dc01f001dfd328adaf2ab440c47dd3 posix-timers: Drop signal if timer has been deleted or reprogrammed
-         cd1e93aedab7f749760a33e9e094381973b1120e posix-timers: Rename k_itimer:: It_requeue_pending
-         1550dde8a537b35dbf066c7f9cfe5f9b360bce0d posix-timers: Add proper state tracking
+         1ddf9916ac09313128e40d6581cef889c0b4ce84 xfrm: Add support for per cpu xfrm state handling.
+         0045e3d80613cc7174dc15f189ee6fc4e73b9365 xfrm: Cache used outbound xfrm states at the policy.
+         81a331a0e72ddc2f75092603d9577bd1a0ca23ad xfrm: Add an inbound percpu state cache.
+         83dfce38c49f3242c7edf5baab5c79c9ec360ecc xfrm: Restrict percpu SA attribute to specific netlink message types
          
