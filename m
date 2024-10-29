@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7915123652331434842=="
+Content-Type: multipart/mixed; boundary="===============0325172441419288294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 29 Oct 2024 01:28:01 -0000
-Message-Id: <173016528108.1513964.1904996219077343906@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 01:28:19 -0000
+Message-Id: <173016529911.1514341.12708869293649940035@gitolite.kernel.org>
 
---===============7915123652331434842==
+--===============0325172441419288294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 94c4c5d78b0f7537354b2f1c0fd6e9dc18fe0699
-    new: a3517717c3c0dbad771f5e491191b4b7b69808fb
-    log: revlist-94c4c5d78b0f-a3517717c3c0.txt
+  - ref: refs/heads/for-next
+    old: c352c52452ab285a29ae77ac3d5ac07af2139113
+    new: e5432f520915f1a9608db38fa71f436c56808479
+    log: revlist-c352c52452ab-e5432f520915.txt
 
---===============7915123652331434842==
+--===============0325172441419288294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c4c5d78b0f-a3517717c3c0.txt
+Content-Disposition: attachment; filename=revlist-c352c52452ab-e5432f520915.txt
 
 f3845d7d7145e325cf6512d2b7e805acd08ea291 scsi: bfa: Remove unused bfa_core code
 0604cf11cd56179fa86baeb030d8862489d341e1 scsi: bfa: Remove unused bfa_svc code
@@ -46,5 +46,9 @@ a220bffebabe7227b4dbb8f811bc64ecf25e017e scsi: hisi_sas: Default enable interrup
 9f564f15f88490b484e02442dc4c4b11640ea172 scsi: hisi_sas: Create all dump files during debugfs initialization
 cae668130c07f6873718b6f5b415d22e1008f2c9 scsi: hisi_sas: Add latest_dump for the debugfs dump
 a3517717c3c0dbad771f5e491191b4b7b69808fb Merge patch series "scsi: hisi_sas: Some fixes for hisi_sas"
+d28d17a845600dd9f7de241de9b1528a1b138716 scsi: scsi_debug: Fix do_device_access() handling of unexpected SG copy length
+cb7e509c4e0197f63717fee54fb41c4990ba8d3a scsi: ufs: core: Fix another deadlock during RTC update
+6a31999ab3c967dea67e7697a0536edf8aea6ff9 Merge branch 'misc' into for-next
+e5432f520915f1a9608db38fa71f436c56808479 Merge branch 'fixes' into for-next
 
---===============7915123652331434842==--
+--===============0325172441419288294==--
