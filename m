@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8900981934075549404=="
+Content-Type: multipart/mixed; boundary="===============3443940482588070212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 29 Oct 2024 03:23:59 -0000
-Message-Id: <173017223976.1610523.13982256870343820723@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 03:26:33 -0000
+Message-Id: <173017239353.1613839.9063282152318408482@gitolite.kernel.org>
 
---===============8900981934075549404==
+--===============3443940482588070212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 5963e0786a3f28cd87c950dec18574bfcceb8335
-    new: 075919f6df5dd82ad0b1894898b315fbb3c29b84
+    old: 075919f6df5dd82ad0b1894898b315fbb3c29b84
+    new: 623dae3e7084a9504e6dc4cf0cb83f305f413b4d
     log: |
-         e7cd4b811c9e019f5acbce85699c622b30194c24 usbip: tools: Fix detach_port() invalid port error path
-         31004740e42846a6f0bb255e6348281df3eb8032 xhci: Use pm_runtime_get to prevent RPM on unsupported systems
-         075919f6df5dd82ad0b1894898b315fbb3c29b84 xhci: Fix Link TRB DMA in command ring stopped completion event
+         f3b311325fa20023fd1e322538388dca2ddb8dc0 Revert "usb: dwc2: Skip clock gating on Broadcom SoCs"
+         623dae3e7084a9504e6dc4cf0cb83f305f413b4d usb: acpi: fix boot hang due to early incorrect 'tunneled' USB3 device links
          
 
---===============8900981934075549404==
+--===============3443940482588070212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730172255 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730172409 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1730172237-b44adc3817cb772737b0422f35d23bf91c777d05
+nonce 1730172391-30312518b31f1dc324575ef6bf29f22c7aec605f
 
-5963e0786a3f28cd87c950dec18574bfcceb8335 075919f6df5dd82ad0b1894898b315fbb3c29b84 refs/heads/usb-linus
+075919f6df5dd82ad0b1894898b315fbb3c29b84 623dae3e7084a9504e6dc4cf0cb83f305f413b4d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgVV8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5uIQAKPI9lvE2M3KVDP+2qB+
-CEjH9xjFtQ44ztC17RAXSW1r54I5nlAvUhOEaZjDjro4dFcuFTwCCSebW0Sg9dA1
-RmLcTisrKnuSZKxqpZs2jNG2hW/ZBu7sxAOnW9AJ8uY7i1ikDzGtz5i5ovGGLm7P
-pdgAY+l5u3d0tcTsuBrmy26IU+cPbjTxeKw6vYRhT3LBQkTC14JD3NZmlVuREtF0
-9dV/m0Dp6/lzWr+25/GhyQoSIw5TYes6GsqPcJ/T4qHrJTY9zDDN/7uswrqzPr3O
-uYqj/u6LfpbN3JdE4pr4eIXFQ7ZABB6L8GxCpZGop2U7G90SbBqiAJrxM8l7Bm+g
-5cPvfqTvblsAJqPm9ZtLHZmTgzlaAVxIth7eIwU2Ec6qUr0XPpy0eNycGiUnurKl
-7Ekg9Ep/Gc/CRCqKHHzEvEPcdBq9OfY8VRdPbqfAESJVmHVUKZMMN9nujiEYP4ef
-1LoJAqgnCh272UcnM9AZO0AdEKBYRs+UJo0n/TMEfDZqjNPI5qeD2dh4gCwQc6tu
-1GQ5oRqxv6gbAOtGLxN190AJZi95XHqlElb8fSoUBvAv+v5fYu9hkEOG0mIMOtKb
-jWfIh92f8V29ZblIXZQsFzzbYQ8qa/cerWJvds/+zWkHa5KWQcatxV/ocJlvi3PQ
-Eqse2vHgKwOJQKQc8MYxaKf0
-=iYHj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgVfkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3gYP/3SqxPwFvKoLsnEYg/mh
+XPDVt0UryYXP/EfZt2Olfdua7PE5GsjDP5Y6dItinJ9VNfeuxbxMQDlPs7VDgnZK
+XHY2TeDmmU8WsBRHXkJO3BXkOkQBB+VP6ySZTtdJt5SPYqKp/+1BAprM5WzzbnPe
+YpisWfrT3uFJ+ZqwydFV5yuCw3onVJN+vUpRpupQwtcPYFHV/Cc2gMUqSGaPiKDQ
+nFrVVNyAXpWqDuPm8MB1e700eu0FVXzFX7Pilyc8ykwjA4Ar40P4FFAmd5KEHVEa
+5Xe/oRFvDuZJxdpabOTLqN6rJG5zTy12mPXi/d9SRJlcVIpNL7lu9wdBfEr+SwpO
+ye/cDAFcp4U1JexFgSgob+7rXm+6ppEpZKnSndGqdb5OJMijdcWyHt7QFzMD3p2a
+IFivueA34RMIBPkwTIDpuD/a+EA98Lr2GMUtD0BVzvNF9h0P761NZYiGxHDVl9Cn
+0xU6CEXvFMGWRNzKDdDGVZ6NfjITE8Xkgjxtc48RNm8VqLSRFhR/7yU4NBbRwQk5
+hiXrHMD26deIysBYf4H/r1BuQsNv8XxfmR8fO3k5zT61Ta7CWY6CQYEuTSX34qiR
+v1Z1K9KhjaSzH0rLDwpKUZquJbARCT/+eOgT37ts0e2rrSgQtdhHP9wmD3JHjn1V
+1xes4LrfuKfrLn1QnvOLx12a
+=e0PH
 -----END PGP SIGNATURE-----
 
---===============8900981934075549404==--
+--===============3443940482588070212==--
