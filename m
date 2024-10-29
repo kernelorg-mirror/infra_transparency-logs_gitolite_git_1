@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 29 Oct 2024 00:49:35 -0000
-Message-Id: <173016297524.1476188.2812468967846904750@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4139778246638463930=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 29 Oct 2024 00:50:46 -0000
+Message-Id: <173016304656.1478577.8662237815895276071@gitolite.kernel.org>
+
+--===============4139778246638463930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-rsrc
-    old: e0f9fad516c367c4c780f246768dd3627dcb8742
-    new: 3e9a952e6a5cad19c015b3f7f77ce9973e44c0ac
+  - ref: refs/heads/master
+    old: cfc23ef2b4f8251697693186850aff70c509e16e
+    new: 94fb38726dfdd5dec1a93aa32a2bc99c63c2d44a
     log: |
-         e98514ac4adba8ea14a7686f9dfb1b70f14d4557 io_uring/rsrc: get rid of per-ring io_rsrc_node list
-         1942373a664da98591f7205e070afb37fd59d7b8 io_uring/rsrc: get rid of io_rsrc_node allocation cache
-         c9287fbcf4eb3db7a9693b5d034810f34cd936ca io_uring/rsrc: add an empty io_rsrc_node for sparse buffer entries
-         1f49525d61d9ddebf07e7d84975ff1cf92a7944b io_uring: only initialize io_kiocb rsrc_nodes when needed
-         a8d6f13803685895573bffc517e3b6fdb4bf59b6 io_uring/rsrc: unify file and buffer resource tables
-         5ea0d7aab4351ffe8f2a60d8764c0bfd79ce9324 io_uring/rsrc: add io_rsrc_node_lookup() helper
-         01c6ba9c2d2d81a68aa92bae7a1d4b46a060c4d6 io_uring/filetable: remove io_file_from_index() helper
-         3e9a952e6a5cad19c015b3f7f77ce9973e44c0ac io_uring/filetable: kill io_reset_alloc_hint() helper
+         94fb38726dfdd5dec1a93aa32a2bc99c63c2d44a allocate some CVE ids for 6.11.5
          
+
+--===============4139778246638463930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730163063 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1730163045-dc47024382ad26cb0aa63fe65ac10c8cd9f9abad
+
+cfc23ef2b4f8251697693186850aff70c509e16e 94fb38726dfdd5dec1a93aa32a2bc99c63c2d44a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgMXcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYoQAKwlSKSqljwd6Rnqeoe8
+kGZ2IYzxeBMBjv2vn1ZsJ33he02ka/lkv/m09pCEpQftD0VKEKRBJekeyCTKcUgE
+G8qLz1WoopuFUhWamLu2Xfs8X3i/mf1VlmmndJSTdcVpKXMScQYKy91xend05tpz
+EP7PRn9YBWuj1no8fML7gKDeTvW56Q/QnRvX9pZfVqwtZ+H51wboiAuSOiSE3grt
+t4oLmbxtiSQafj3J0ItXd9gRKoFJUpQfapq46tYnLgCXZRkZlb7EZbst/zAIN17P
+q9KFEOmWURib8rDFet1y4V3slp4O8WxIqsbakdNCHbkhtk8tfX0tK8mDflhlQW+/
+feyG8qT1e/r7lekJp4CF0TpEtY5TQP1sL7Z7QR40msj2WJ2cRjHsNAvyVMmAtv7Z
+6flfHfVSeZvwQnWALLN5WlkB1L1PauxVeEB5d0OEtflbhdLqB2LgiBqXsleXgdF7
+wEDfCmheoZdhkEauZsNrFl9iQOSDtPjDxPzFBMPbutfVbFUZ7X3T72fQEGX8E8uA
+8gRNi/WIbIA5g6Z6eBP9kLTbV803W3B9/CaGQdizLwmxdfYY2dp8xrBExXrX9RWw
+38Dynf9FZrK1egR2kY6IB1voRPy0ibI5gD922Kz6J8lE1Gi19j+HoH64kySBCHHU
+DiId1y9OoJ+4nfYaKFDDxliD
+=LSbL
+-----END PGP SIGNATURE-----
+
+--===============4139778246638463930==--
