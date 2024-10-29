@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 29 Oct 2024 15:17:44 -0000
-Message-Id: <173021506468.2185816.342541773224182473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 29 Oct 2024 15:18:02 -0000
+Message-Id: <173021508228.2186065.10692051531306757372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: ea1fda89f5b23734e10c62762990120d5ae23c43
-    new: e42b1a9a2557aa94fee47f078633677198386a52
+    old: 77d063203071608eb1c72e9befb4d1063a323181
+    new: 86597bfbf3c3f430241320e8a116e1f62499ec93
     log: |
-         b5a468199b995bd8ee3c26f169a416a181210c9e spi: stm32: fix missing device mode capability in stm32mp25
-         f2b5b8201b1545ef92e050735e9c768010d497aa spi: mtk-snfi: fix kerneldoc for mtk_snand_is_page_ops()
-         d0ccf760a405d243a49485be0a43bd5b66ed17e2 spi: geni-qcom: Fix boot warning related to pm_runtime and devres
-         25f00a13dccf8e45441265768de46c8bf58e08f6 spi: spi-fsl-dspi: Fix crash when not using GPIO chip select
-         81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
-         e42b1a9a2557aa94fee47f078633677198386a52 Merge tag 'spi-fix-v6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         a7b0c305ad0171599a805b0c600a946610c757e0 patches/next: wordsmith sample modules config message
+         a9315e0b407c2aaced718ffe1efe16e801875eba patches/next: wordsmith test fixups
+         d22d7d02443ce641c0fb60cb2841467a8307e198 patches/next: put tests fixup at the beginning of the queue
+         0aac13e0a608ac49e88625e71044449b0126af9a patches/posted: add posted patches for minor fixups of DAMON debugfs {self,kunit} tests
+         00943d5a8d596f8859881cad7eef1683407f77ff patches/posted: update debugfs {self,kunit} tests fixup patches for msgids
+         c542898e54081ec5ebbd04c15594d5b51ddeadda patches/next: put temporal build fix at the end of the queue
+         86597bfbf3c3f430241320e8a116e1f62499ec93 patches/next: rebase to latest mm-unstable
          
