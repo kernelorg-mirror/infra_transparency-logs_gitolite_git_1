@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2681750988890168459=="
+Content-Type: multipart/mixed; boundary="===============5973509442208880603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 29 Oct 2024 15:25:50 -0000
-Message-Id: <173021555001.2195218.5025867156748440820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 29 Oct 2024 15:25:51 -0000
+Message-Id: <173021555192.2195315.15199694386227371009@gitolite.kernel.org>
 
---===============2681750988890168459==
+--===============5973509442208880603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
 
---===============2681750988890168459==
+--===============5973509442208880603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -227,4 +227,4 @@ ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
 e42b1a9a2557aa94fee47f078633677198386a52 Merge tag 'spi-fix-v6.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============2681750988890168459==--
+--===============5973509442208880603==--
