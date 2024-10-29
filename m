@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 29 Oct 2024 23:26:14 -0000
-Message-Id: <173024437460.2602689.4551960990228466429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Oct 2024 23:29:35 -0000
+Message-Id: <173024457555.2604776.8141443930379593653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2d35b775a45c1f0cb75f82d91a272be65e98115e
-    new: 9fe68807db20d20c0bbde2c5a3ac869e8d68c63b
+    old: 2d7dfe2d0ba70d793bf0c1038732319be77c9788
+    new: a27646c42ec9c8bbcb7f11548864839a7b70ee62
     log: |
-         9fe68807db20d20c0bbde2c5a3ac869e8d68c63b vdpa: Add support for setting the MAC address in vDPA tool.
-         
-  - ref: refs/heads/master
-    old: 2d35b775a45c1f0cb75f82d91a272be65e98115e
-    new: 9fe68807db20d20c0bbde2c5a3ac869e8d68c63b
-    log: |
-         9fe68807db20d20c0bbde2c5a3ac869e8d68c63b vdpa: Add support for setting the MAC address in vDPA tool.
+         a27646c42ec9c8bbcb7f11548864839a7b70ee62 net: qlogic: use ethtool string helpers
          
