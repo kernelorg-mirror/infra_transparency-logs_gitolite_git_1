@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Oct 2024 19:02:47 -0000
-Message-Id: <173022856759.2383934.16131316009678377978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 29 Oct 2024 19:08:36 -0000
+Message-Id: <173022891697.2388456.5558647516422987473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/arm64-fp-stress-interval
-    old: fe605cee56f66f3c4a387631989511217841f921
-    new: 29ad91880c3f4bbae10a0f5282c365591e904d6a
+  - ref: refs/heads/kdevops
+    old: 4ec2d49dc19fb597238e9901a91ac6a67fa1432a
+    new: 97bd4cfba8006681ccd60247e416477d5606fa7e
     log: |
-         b96683ff6a8deea22040c8b697c26fd2affc77e6 kselftest/arm64: fp-stress signal delivery interval improvements
-         4bab4ef1359e6a081bcfe82f91fe6611ea8233e6 kselftest/arm64: Increase frequency of signal delivery in fp-stress
-         29ad91880c3f4bbae10a0f5282c365591e904d6a kselftest/arm64: Poll less often while waiting for fp-stress children
+         a04abe4319e2485aed4b8d01f9808eeadb819a05 sunrpc: remove newlines from tracepoints
+         97bd4cfba8006681ccd60247e416477d5606fa7e SQUASH: fix held slot comparison
          
