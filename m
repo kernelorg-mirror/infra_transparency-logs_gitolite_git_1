@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Oct 2024 18:26:14 -0000
-Message-Id: <173022637411.2350113.16493820739792274786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 29 Oct 2024 18:26:21 -0000
+Message-Id: <173022638125.2350314.5553936239357995911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/main
-    old: 01e215975fd80af81b5b79f009d49ddd35976c13
-    new: c59d72d0a4fbaa5fd7a04b2d13cfc101d01310db
+  - ref: refs/heads/master
+    old: 87cb58aebdf7005661a07e9fd5a900f924d48c75
+    new: 42602e3a06f8e5b9a059344e305c9bee2dcc87c8
     log: |
-         7515e37bce5c428a56a9b04ea7e96b3f53f17150 gtp: allow -1 to be specified as file description from userspace
-         c59d72d0a4fbaa5fd7a04b2d13cfc101d01310db selftests: netfilter: nft_flowtable.sh: make first pass deterministic
+         42602e3a06f8e5b9a059344e305c9bee2dcc87c8 bpf: handle implicit declaration of function gettid in bpf_iter.c
          
