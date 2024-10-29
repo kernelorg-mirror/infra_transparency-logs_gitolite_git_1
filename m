@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Oct 2024 10:38:09 -0000
-Message-Id: <173019828991.1953243.8709606678659529352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 29 Oct 2024 10:50:19 -0000
+Message-Id: <173019901997.1964643.7165627166582129908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: f84ef58e553206b02d06e02158c98fbccba25d19
-    new: 66600fac7a984dea4ae095411f644770b2561ede
+  - ref: refs/heads/x86/sev
+    old: 0a895c0d9b73d934de95aa0dd4e631c394bdd25d
+    new: 3074152e56c9b0f9b9c67edfbc08b371db050b6d
     log: |
-         66600fac7a984dea4ae095411f644770b2561ede net: stmmac: TSO: Fix unbalanced DMA map/unmap for non-paged SKB data
+         f30470c190c2f4776e0baeba1f53fd8dd3820394 x86/boot: Skip video memory access in the decompressor for SEV-ES/SNP
+         2a783066b6f5f5250b838d2acfc716561d2a66e0 x86/mm: Refactor __set_clr_pte_enc()
+         3074152e56c9b0f9b9c67edfbc08b371db050b6d x86/sev: Convert shared memory back to private on kexec
          
