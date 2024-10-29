@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Oct 2024 10:32:14 -0000
-Message-Id: <173019793458.1948653.17758637816408097442@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 10:38:09 -0000
+Message-Id: <173019828991.1953243.8709606678659529352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 94c11e852955b2eef5c4f0b36cfeae7dcf11a759
-    new: f84ef58e553206b02d06e02158c98fbccba25d19
+    old: f84ef58e553206b02d06e02158c98fbccba25d19
+    new: 66600fac7a984dea4ae095411f644770b2561ede
     log: |
-         f84ef58e553206b02d06e02158c98fbccba25d19 net: stmmac: dwmac4: Fix high address display by updating reg_space[] from register values
+         66600fac7a984dea4ae095411f644770b2561ede net: stmmac: TSO: Fix unbalanced DMA map/unmap for non-paged SKB data
          
