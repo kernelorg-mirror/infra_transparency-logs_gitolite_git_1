@@ -1,33 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6278278011317916727=="
+Content-Type: multipart/mixed; boundary="===============0985597029373479941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 29 Oct 2024 05:52:51 -0000
-Message-Id: <173018117131.1725966.16082273045958197267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 29 Oct 2024 05:53:03 -0000
+Message-Id: <173018118321.1726189.14889074452250128566@gitolite.kernel.org>
 
---===============6278278011317916727==
+--===============0985597029373479941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: dec9255a128e19c5fcc3bdb18175d78094cc624d
     new: 6fb2fa9805c501d9ade047fc511961f3273cdcb5
     log: revlist-dec9255a128e-6fb2fa9805c5.txt
-  - ref: refs/heads/stable
-    old: ea1fda89f5b23734e10c62762990120d5ae23c43
-    new: 81983758430957d9a5cb3333fe324fd70cf63e7e
-    log: |
-         81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
-         
-  - ref: refs/tags/next-20240729
-    old: d3159bf7a832baf423b220480af91c87d1eb0a30
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241029
     old: 0000000000000000000000000000000000000000
     new: 534e0b450001fbc02f278164c33d17fd67f80cdd
@@ -35,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
 
---===============6278278011317916727==
+--===============0985597029373479941==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -771,4 +762,4 @@ e3bc5bd6ab66bbd5a4faa41f3cd5f659a408521d Merge branch 'caps-next' of git://git.k
 b982f8b77fd3f1cd67e51a8f670d18f3db9c1c89 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 6fb2fa9805c501d9ade047fc511961f3273cdcb5 Add linux-next specific files for 20241029
 
---===============6278278011317916727==--
+--===============0985597029373479941==--
