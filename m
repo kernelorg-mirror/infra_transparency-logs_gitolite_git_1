@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 29 Oct 2024 12:34:56 -0000
-Message-Id: <173020529625.2049146.3745414791964693400@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 12:35:01 -0000
+Message-Id: <173020530164.2049296.3715448569663535345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20241028-arm64-mte-test-logging-6c6e737b1c62-v1
+  - ref: refs/heads/arm64-mte-test-logging
     old: 0000000000000000000000000000000000000000
-    new: 9509af21e1bdf5eac6b23962b5dfb8cb54de4789
+    new: f594d454194da48bd9b717ce5be3a2b988370a17
