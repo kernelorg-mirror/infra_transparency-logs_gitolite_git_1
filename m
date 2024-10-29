@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Oct 2024 18:54:46 -0000
-Message-Id: <173022808675.2374798.17717000400258014808@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 18:54:56 -0000
+Message-Id: <173022809664.2375030.6376001705622321223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 2ef9439f7a19fd3d43b288d38b1c6e55b668a4fe
-    new: cc8475a07cf34891bf11a63025659d3537b638ef
+  - ref: refs/heads/asoc-6.13
+    old: d3119688903fc9cad848946dbd2291a5ca8016a4
+    new: 0d4f74febc9d92d88099aff01f121b7f5f942c8f
     log: |
-         cc8475a07cf34891bf11a63025659d3537b638ef ASoC: dt-bindings: rockchip,rk3308-codec: add port property
+         0d4f74febc9d92d88099aff01f121b7f5f942c8f ASoC: cs42l84: remove incorrect of_match_ptr()
          
