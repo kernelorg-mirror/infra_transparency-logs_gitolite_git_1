@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0659261103207027345=="
+Content-Type: multipart/mixed; boundary="===============5465761631778733094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 29 Oct 2024 01:00:27 -0000
-Message-Id: <173016362794.1488558.1024608819665984982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 29 Oct 2024 01:04:24 -0000
+Message-Id: <173016386421.1492492.8001734470601267668@gitolite.kernel.org>
 
---===============0659261103207027345==
+--===============5465761631778733094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 94fb38726dfdd5dec1a93aa32a2bc99c63c2d44a
-    new: 10ce345859019bc2a82557ef67c7e3efcb7d1b59
+  - ref: refs/heads/driver-core-linus
+    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
+    new: 9a71892cbcdb9d1459c84f5a4c722b14354158a5
     log: |
-         10ce345859019bc2a82557ef67c7e3efcb7d1b59 scripts/update_dyad: add count to output
+         9a71892cbcdb9d1459c84f5a4c722b14354158a5 Revert "driver core: Fix uevent_show() vs driver detach race"
          
 
---===============0659261103207027345==
+--===============5465761631778733094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730163645 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1730163627-61dd32869eca911745124c12774bdbbae0e7630e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730163874 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1730163856-7a3ad8d18a84417cf9b30faa90563524d5155af4
 
-94fb38726dfdd5dec1a93aa32a2bc99c63c2d44a 10ce345859019bc2a82557ef67c7e3efcb7d1b59 refs/heads/master
+8e929cb546ee42c9a61d24fae60605e9e3192354 9a71892cbcdb9d1459c84f5a4c722b14354158a5 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgM70bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pQ8P/jN6H0CvipZy6OdcZ1zO
-tySh5hprqdpVNTvDukIqvl9oWm7fB1mRKrp3cGmzepC4HLfEGNx4r/jQf4xRn+P7
-aABqb/N9FVYhwqbwr1uFrLFsv7/NbCqGaDh0dk+SK7YTbeISOHUB8LptB4NiCbAN
-IWm/EBzQAfA7br+nOkmzeTFRayqAy9JLTgZf+uyMk4V3HbygAFIIBejaEo9VnKek
-x1hF/z2bpEcaXOQM9TOf5hIgeFzGDyANZ8oMmdkMxfKZ7hOp8beULuq59mPsM4sT
-Xi63XLPuv7JpocWA1ml9CYCm8WPXDfa9+tDqIL8hO0L8t3nKE9IG631hydlUk9q3
-YM5u9vLjzDVAOQk/wD5xIC169vCQ6mbttxIa8T6qBFa+ce7qhmkLIa7Dp4ZC5rON
-JAzb0pgpR+EM9qriO+TD1XuyXnbO7PrD6H5JgrwB3GYAwTo7HL3OKU7Gevt0Kn3h
-YbEyse/dZhb2bn+BJhwUB79kcOpvDcxN0qfRHGJR7gDm5XTz38DfiZmkLd7ZkqpM
-peye5uwJT49lfxlSCQYrTyHkvqk4xXE+FGmZG13fNbfAd/rnGdny9K0BLbFRP6R2
-xq3eGIrcZHysp46DVhsoaEiERgL0pq7SuODirlPT8YsPZjwLZmVk1Mbq4/YVa3al
-J10sjbk5eOBd83WZI80W+28R
-=b3AX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgNKMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CygP/jcesAUpmKQ2qF69+5Co
+dB6wvhzVJpT5SZbeSxWlXl1orNIHiCF3WBiQtDzcfl7Ezve+4YDAQOAKcEZQHmin
+BqVqKz+Qb61c08XOTEuWGARKulCZXONiCVD9OxaScZQ1CUF1twgw+oQzti4M/pPh
+hEBqzX9un2liXNzIWTbriFvKtuIcd2eEIIiWdUNciVJ9ucvnvVpBpHpMMZV65+97
+FHF+ov9EX4t8c1uwnHzR0rF3kbkE/FluxJc0qQ2J5KUHgNBFbziuOUl0tgvRWBNT
+m0TqS4OVKdPAeOEDkQknWH3yp3FsYs1Z6aryAIeK+Ht8XPAGNItTyq4nwb4hlJo0
+pRp9Pnbg+KB6a+SsO2Csi0iCbpVqZ6wjEQUzKmehcI657pacXxABmBDZrUcPbGvI
+5tgls39qLjsY6aaZ4e38CxbApmGi4nAImikCNfdiZFeGkCcG7HBIJhD8Bc3GrsQG
+lBbQK6Rq5/tU8Y1jx+RI4zXgGyt4pLuWYzZbvptNw7l2OjTJ3ajSNh0B2pmcjpHs
+3GYW7h0eHpb4cZ+uYD42YE7u4U7IlngFr+yfKLmd94z9+4HjX9GR2iZ/kFsWwlAv
+7uLjuFBkaKmKLGBNPzw3RIqdiJONw8qzmtZlOwzoJkFD7mCeQho1ufFUIt3D42tc
+Yg7VcGQOS2S6Elr+DPhFH2GH
+=ASPK
 -----END PGP SIGNATURE-----
 
---===============0659261103207027345==--
+--===============5465761631778733094==--
