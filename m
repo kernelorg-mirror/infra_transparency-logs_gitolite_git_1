@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2821070639685257037=="
+Content-Type: multipart/mixed; boundary="===============2822241046234759820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 29 Oct 2024 21:01:58 -0000
-Message-Id: <173023571839.2483746.15022787430927513217@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 21:02:19 -0000
+Message-Id: <173023573917.2484074.4442673208708886078@gitolite.kernel.org>
 
---===============2821070639685257037==
+--===============2822241046234759820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/togreg
     old: 9b4071ab8cbe28bd1bc4c533ab944771731fe5f8
     new: b67a9112502159c8d59e0463d5b312e9bf5160b3
     log: revlist-9b4071ab8cbe-b67a91125021.txt
 
---===============2821070639685257037==
+--===============2822241046234759820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e66d8d971efc9a955f1c8d12bbc133ff1749d449 iio: imu: bmi270: Add scale and samplin
 893c4fe4ea122723429cab4e1ae4335ad7601e79 dt-bindings: iio: imu: bmi270: Add Bosch BMI260
 b67a9112502159c8d59e0463d5b312e9bf5160b3 iio: imu: bmi270: Add support for BMI260
 
---===============2821070639685257037==--
+--===============2822241046234759820==--
