@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 29 Oct 2024 02:37:36 -0000
-Message-Id: <173016945671.1572178.12240212004740556032@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 02:39:47 -0000
+Message-Id: <173016958755.1573754.13727914777314435593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
   - ref: refs/heads/fixes
-    old: fe05c40ca9c18cfdb003f639a30fc78a7ab49519
-    new: 8b2f61251f3439cca40a41e6dc73ef7e0a5d3273
+    old: 8b2f61251f3439cca40a41e6dc73ef7e0a5d3273
+    new: c9458cff642bc096a55cec18dcb3f9b1316eb309
     log: |
-         8b2f61251f3439cca40a41e6dc73ef7e0a5d3273 selftests/mount_setattr: fix idmap_mount_tree_invalid failed to run
+         c9458cff642bc096a55cec18dcb3f9b1316eb309 selftests/mount_setattr: fix idmap_mount_tree_invalid failed to run
          
