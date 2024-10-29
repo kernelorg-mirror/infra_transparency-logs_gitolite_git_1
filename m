@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2680328651355088843=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Oct 2024 00:47:16 -0000
-Message-Id: <173016283660.1474386.16684442710410865863@gitolite.kernel.org>
-
---===============2680328651355088843==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 29 Oct 2024 00:49:35 -0000
+Message-Id: <173016297524.1476188.2812468967846904750@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 9c6aab053a914af6e912fa2c6e68f27addf99b0e
-    new: 84a000290363fed9f8c55b422285e65fc017ba12
+  - ref: refs/heads/io_uring-rsrc
+    old: e0f9fad516c367c4c780f246768dd3627dcb8742
+    new: 3e9a952e6a5cad19c015b3f7f77ce9973e44c0ac
     log: |
-         84a000290363fed9f8c55b422285e65fc017ba12 drop block-fix-sanity-checks-in-blk_rq_map_user_bvec.patch
+         e98514ac4adba8ea14a7686f9dfb1b70f14d4557 io_uring/rsrc: get rid of per-ring io_rsrc_node list
+         1942373a664da98591f7205e070afb37fd59d7b8 io_uring/rsrc: get rid of io_rsrc_node allocation cache
+         c9287fbcf4eb3db7a9693b5d034810f34cd936ca io_uring/rsrc: add an empty io_rsrc_node for sparse buffer entries
+         1f49525d61d9ddebf07e7d84975ff1cf92a7944b io_uring: only initialize io_kiocb rsrc_nodes when needed
+         a8d6f13803685895573bffc517e3b6fdb4bf59b6 io_uring/rsrc: unify file and buffer resource tables
+         5ea0d7aab4351ffe8f2a60d8764c0bfd79ce9324 io_uring/rsrc: add io_rsrc_node_lookup() helper
+         01c6ba9c2d2d81a68aa92bae7a1d4b46a060c4d6 io_uring/filetable: remove io_file_from_index() helper
+         3e9a952e6a5cad19c015b3f7f77ce9973e44c0ac io_uring/filetable: kill io_reset_alloc_hint() helper
          
-
---===============2680328651355088843==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730162853 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1730162835-592e65f7c6561be13805f935a56dcf6c36d88ab7
-
-9c6aab053a914af6e912fa2c6e68f27addf99b0e 84a000290363fed9f8c55b422285e65fc017ba12 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcgMKUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4ccP/RMvF8MgZZypuUHQoJWK
-NgFS5d9i1Oy3z2+L+hPgOr8X7gzRmr4sM7mo5QD4XhAJxRvYNXUOmqCltLiVqb9j
-VC2aPxCijsLWkcrKKYrm7imBTz5eO/CILj824Z0pUn5AtC0IYwnmmOsTTHXj25Yi
-6DhOeS/TwGsfye92vhHre6aJdJrNrbh9SSOlquzG4PY34cr5wBz17Aga74M94QZ6
-remBb9/lV6jaXb4LW8pWrhxLl1NTSMbNXnV4IHUaAyAKJ7yX4Rsqs61zG3j88r58
-Z5c8oBn0fxtud+/jg55mHEW7a9Gt3/fluTztveRX04iX/t9F3hUQ024ydi6Atl2U
-ICpab6ZYTPMx2wSNPvHkpow+Mypt1ZQcHP/oKj0mYNTyBDtVDvlg5FsgB7Q5qRyX
-frmXdpGVmI2dj+Gang1NWfpfGU8kjbUHs7KEXIwJXPuHHPMO7hxN4xnrXYf5IGob
-zJBUgYDqqwCdBXNVWVlZ0vllm41fSYp+NC4UAUo8VAcnCKYbl3C2VkAWYxTzNrVo
-0Swg2AdKfwtzZviRcDpakTUY1m2GhwplMAozpjbVufR3UtEJqUcJ63A7BJi812k5
-hV4OoFExxhAjooPtaZwrkJBHjmNOG/qlPLeyLmRfYstznrY0WmOUgw0TFkqBhB8K
-9Rlaql74YCTRoCsPPI1lwLPy
-=SbVU
------END PGP SIGNATURE-----
-
---===============2680328651355088843==--
