@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 29 Oct 2024 17:49:21 -0000
-Message-Id: <173022416136.2316202.11834576166873134056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 29 Oct 2024 17:53:37 -0000
+Message-Id: <173022441746.2320266.12669234282230658925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/dev-test
-    old: b7b6cacc347d567a7d60767af470e33a30f0b91c
-    new: 2893f7c6c5e47f96db2158fa93914316d88fdb85
+  - ref: refs/heads/testing/wfamnae-next20241028
+    old: f6dabbb04b4e3b978f003bdeb9f6afe9f55ff326
+    new: 351a24882da38f9fcb2f82dcb8ab98dd923db340
     log: |
-         2893f7c6c5e47f96db2158fa93914316d88fdb85 mkfs.f2fs: adjust zone alignment when using convention partition with zoned one
+         351a24882da38f9fcb2f82dcb8ab98dd923db340 net: ethtool: Avoid thousands of -Wflex-array-member-not-at-end warnings
          
