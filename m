@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 29 Oct 2024 22:51:52 -0000
-Message-Id: <173024231226.2574646.4763194616192062947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Oct 2024 22:53:00 -0000
+Message-Id: <173024238098.2575143.16744457900229622823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 481376d1eada6aee264d11fc6d5d1d06fc469bfe
-    new: 77fdd45414fa2dc38dfc26a09e549aeaed29b53a
+  - ref: refs/heads/main
+    old: 89abb6b3bd7b01f2ce5221189d84e938734f7f6e
+    new: ae2930b0b3116537e4335c4d9c1f99fa01259ac7
     log: |
-         f69b9cebc6be0797de03061704dcf5d09140729b defer/whichtochoose: Adjust reclaim immediacy wording
-         77fdd45414fa2dc38dfc26a09e549aeaed29b53a defer/whichtochoose: Make immediacy text match table
+         ae2930b0b3116537e4335c4d9c1f99fa01259ac7 net: mana: use ethtool string helpers
          
