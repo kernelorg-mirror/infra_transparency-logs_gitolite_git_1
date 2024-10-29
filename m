@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 29 Oct 2024 02:23:03 -0000
-Message-Id: <173016858352.1559865.3425223887820167940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Oct 2024 02:30:09 -0000
+Message-Id: <173016900948.1566933.17957625788444534894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/testing/wfamnae-next20241028
-    old: 0f220b3b726dd7b5f2d8b0d3a5009b392ee69b08
-    new: f6dabbb04b4e3b978f003bdeb9f6afe9f55ff326
+  - ref: refs/heads/main
+    old: 25872a079bbbe952eb660249cc9f40fa75623e68
+    new: ab101c553bc1f76a839163d1dc0d1e715ad6bb4e
     log: |
-         f6dabbb04b4e3b978f003bdeb9f6afe9f55ff326 net: ethtool: Avoid thousands of -Wflex-array-member-not-at-end warnings
+         ba4e469e42fe1a771b5653d179eb12dc4be6b6a8 vsock: do not leave dangling sk pointer in vsock_create()
+         63afe0c217dc21457dbccca1da61266c47886e61 netlink: specs: Add missing phy-ntf command to ethtool spec
+         ab101c553bc1f76a839163d1dc0d1e715ad6bb4e neighbour: use kvzalloc()/kvfree()
          
