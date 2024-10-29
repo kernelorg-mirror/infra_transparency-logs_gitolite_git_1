@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0651348895493078469=="
+Content-Type: multipart/mixed; boundary="===============4031133077214700026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 29 Oct 2024 11:16:29 -0000
-Message-Id: <173020058904.1987670.5327384454694074733@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 11:16:45 -0000
+Message-Id: <173020060585.1987943.16032596660252102893@gitolite.kernel.org>
 
---===============0651348895493078469==
+--===============4031133077214700026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: c3a04f7e281d1066dfa4c7e84a98d5c41ae910cc
-    new: a5600f05d3d7a80be23a8905fdc128abd586c786
-    log: revlist-c3a04f7e281d-a5600f05d3d7.txt
+  - ref: refs/heads/for-next
+    old: d9641cb8a451c5bbbee0b486a36126ba0c14137a
+    new: 28d855fe681d266a05a8fd8a05eb23602ff2d41d
+    log: revlist-d9641cb8a451-28d855fe681d.txt
 
---===============0651348895493078469==
+--===============4031133077214700026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3a04f7e281d-a5600f05d3d7.txt
+Content-Disposition: attachment; filename=revlist-d9641cb8a451-28d855fe681d.txt
 
 bb4ad73a2893353634ba1844cba026b4546eeb03 s390/uv: Refactor uv-sysfs creation
 28a51ee8eb8326502d7f8a9c408d14a4cba5a5cf s390/uv: Provide host-key hashes in sysfs
@@ -65,5 +65,7 @@ f76901d16008862035265037905fd84364c3d0ac s390/mm: Simplify get_fault_type()
 a12d622ad541b5db0cda36cc7f3ac89b4f9e5a2c s390/mm: Get rid of fault type switch statements
 57d1da4fd87031de8e8f02a707e961014c4d983e s390/mm: Convert to LOCK_MM_AND_FIND_VMA
 a5600f05d3d7a80be23a8905fdc128abd586c786 s390/mm: Cleanup fault error handling
+76f418c9d150aa4101960658fe815da6c4e2d7bf Merge branch 'fixes' into for-next
+28d855fe681d266a05a8fd8a05eb23602ff2d41d Merge branch 'features' into for-next
 
---===============0651348895493078469==--
+--===============4031133077214700026==--
