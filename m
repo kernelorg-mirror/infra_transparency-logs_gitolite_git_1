@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Oct 2024 19:18:32 -0000
-Message-Id: <173022951280.2397046.9770312074936084610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 29 Oct 2024 19:28:21 -0000
+Message-Id: <173023010115.2405072.1835394998280647049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: cc8475a07cf34891bf11a63025659d3537b638ef
-    new: 2db63e92186d7201ee1cb2f5af11757c5e5a1020
+  - ref: refs/heads/net
+    old: 97e90539983ec466e663c04b83908b01f601d451
+    new: 0ab7cd1f18648ab50c4685553ca92e8cdc4a42da
     log: |
-         041db4bbe04e8e0b48350b3bbbd9a799794d5c1e ASoC: codecs: wcd937x: add missing LO Switch control
-         107a5c853eef5336a9846e7dd2f9184b6e3c07c7 ASoC: codecs: wcd937x: relax the AUX PDM watchdog
-         2db63e92186d7201ee1cb2f5af11757c5e5a1020 wcd937x codec fixes
+         0ab7cd1f18648ab50c4685553ca92e8cdc4a42da selftests/bpf: remove xdp_synproxy IP_DF check
          
