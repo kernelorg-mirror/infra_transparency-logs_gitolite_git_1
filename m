@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0367760328196361472=="
+Content-Type: multipart/mixed; boundary="===============8048552962063575293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 29 Oct 2024 10:50:45 -0000
-Message-Id: <173019904584.1964964.3007798344142433027@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 10:51:14 -0000
+Message-Id: <173019907488.1965326.16632256216290366457@gitolite.kernel.org>
 
---===============0367760328196361472==
+--===============8048552962063575293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6889cd2a93e1e3606b3f6e958aa0924e836de4d2
     new: 94c11e852955b2eef5c4f0b36cfeae7dcf11a759
     log: revlist-6889cd2a93e1-94c11e852955.txt
 
---===============0367760328196361472==
+--===============8048552962063575293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5abbf612092ebb3e026c0c4756a109d8750f5a5 Merge branch 'mptcp-sched-fix-some-lock
 f1e54d11b210b53d418ff1476c6b58a2f434dfc0 macsec: Fix use-after-free while sending the offloading packet
 94c11e852955b2eef5c4f0b36cfeae7dcf11a759 usb: add support for new USB device ID 0x17EF:0x3098 for the r8152 driver
 
---===============0367760328196361472==--
+--===============8048552962063575293==--
