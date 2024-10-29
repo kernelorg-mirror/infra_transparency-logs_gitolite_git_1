@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 29 Oct 2024 21:35:11 -0000
-Message-Id: <173023771189.2511738.16727349975307756896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 29 Oct 2024 21:39:01 -0000
+Message-Id: <173023794145.2513498.10281466381724773720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/testing/wfamnae-next20241028
-    old: 351a24882da38f9fcb2f82dcb8ab98dd923db340
-    new: 0bc2809fe2a6c11dd4c8a9a10d9bd65cccdb559b
-    log: |
-         0bc2809fe2a6c11dd4c8a9a10d9bd65cccdb559b net: ethtool: Avoid thousands of -Wflex-array-member-not-at-end warnings
-         
+  - ref: refs/heads/dev-rust
+    old: 0000000000000000000000000000000000000000
+    new: 3888e2caff5937c0130b6bd300cf36bfab30fe57
