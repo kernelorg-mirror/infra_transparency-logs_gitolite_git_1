@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 29 Oct 2024 14:00:55 -0000
-Message-Id: <173021045569.2122308.12282638183841482833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 29 Oct 2024 14:15:17 -0000
+Message-Id: <173021131773.2133816.8465595735204221266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/linux-next
-    old: a6960e6b1b0e2cb268f427a99040c408a8d10665
-    new: ff2653ded4d99b709f62f35656d976c47a7aa476
-    log: |
-         3ac757e8db3deacc8058912d55efd1390f985d80 cpufreq/amd-pstate: Push adjust_perf vfunc init into cpu_init
-         ff2653ded4d99b709f62f35656d976c47a7aa476 cpufreq/amd-pstate: Move registration after static function call update
-         
-  - ref: refs/tags/amd-pstate-v6.13-2024-10-29
+  - ref: refs/heads/20241022_alexey_klimov_wcd937x_codec_fixes
     old: 0000000000000000000000000000000000000000
-    new: 582900b8e62629aff7b6bd8f784c349a5aa6c53f
+    new: 107a5c853eef5336a9846e7dd2f9184b6e3c07c7
+  - ref: refs/heads/v2_20241028_nuno_sa_asoc_codecs_adau1373_drop_platform_data
+    old: 0000000000000000000000000000000000000000
+    new: ba79bca407d3b7e6f5be209d9b3f73f81ee8d460
