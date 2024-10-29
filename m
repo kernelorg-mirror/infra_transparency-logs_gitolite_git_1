@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5176644626878328943=="
+Content-Type: multipart/mixed; boundary="===============6512468533601165695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 29 Oct 2024 10:52:40 -0000
-Message-Id: <173019916027.1966197.4867134582538996003@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 10:52:58 -0000
+Message-Id: <173019917811.1966433.4863877261607651235@gitolite.kernel.org>
 
---===============5176644626878328943==
+--===============6512468533601165695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 83c289e81e88d01e55d6d56531502ed7b4886a05
     new: ab101c553bc1f76a839163d1dc0d1e715ad6bb4e
     log: revlist-83c289e81e88-ab101c553bc1.txt
 
---===============5176644626878328943==
+--===============6512468533601165695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -627,4 +627,4 @@ ba4e469e42fe1a771b5653d179eb12dc4be6b6a8 vsock: do not leave dangling sk pointer
 63afe0c217dc21457dbccca1da61266c47886e61 netlink: specs: Add missing phy-ntf command to ethtool spec
 ab101c553bc1f76a839163d1dc0d1e715ad6bb4e neighbour: use kvzalloc()/kvfree()
 
---===============5176644626878328943==--
+--===============6512468533601165695==--
