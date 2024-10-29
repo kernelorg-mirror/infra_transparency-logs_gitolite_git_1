@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6674189909226534505=="
+Content-Type: multipart/mixed; boundary="===============0592502546797921493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 29 Oct 2024 17:22:10 -0000
-Message-Id: <173022253079.2294631.5844786904885967505@gitolite.kernel.org>
+Date: Tue, 29 Oct 2024 17:22:13 -0000
+Message-Id: <173022253322.2294709.13095166164014549581@gitolite.kernel.org>
 
---===============6674189909226534505==
+--===============0592502546797921493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 03fc07a24735e0be8646563913abf5f5cb71ad19
     new: c093e2b9768b3a5cd7a37ea654cd47094519f843
     log: revlist-03fc07a24735-c093e2b9768b.txt
 
---===============6674189909226534505==
+--===============0592502546797921493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ af4698be49e856589f559fee2054de5bc7d5b72f net: ibm: emac: use devm for mutex_init
 707f1c4b6a2cf0bd290a63b6f3701878bb15e05f net: ibm: emac: generate random MAC if not found
 c093e2b9768b3a5cd7a37ea654cd47094519f843 Merge branch 'ibm-emac-more-cleanups'
 
---===============6674189909226534505==--
+--===============0592502546797921493==--
