@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 30 Oct 2024 14:33:07 -0000
-Message-Id: <173029878704.3329452.10994895956464638404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 30 Oct 2024 14:33:34 -0000
+Message-Id: <173029881403.3329767.2925881003112082886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-next
-    old: 34419b2def886c7956d98ed9177adeedf5529f9f
-    new: fc570de110e2a373cdbf19206f5801293727218f
+  - ref: refs/heads/for-usb-next
+    old: a850d27b0a6335261e2a9a32ea257958720f73b9
+    new: 054c1428d8f96dfe798e059fb82755bbd69871d0
     log: |
-         0ab7cd1f18648ab50c4685553ca92e8cdc4a42da selftests/bpf: remove xdp_synproxy IP_DF check
-         db71aae70e3e646d8ba4cb50e4bd4c281a91c804 net: checksum: Move from32to16() to generic header
-         6a4794d5a3e2bf10233ce8a5e53f168e23715e8a bpf: bpf_csum_diff: Optimize and homogenize for all archs
-         b87f584024e1df289027cb7671de6af0d97b5de9 selftests/bpf: Don't mask result of bpf_csum_diff() in test_verifier
-         00c1f3dc66a38cf65c3cfd0cb4fe7acfc7f60e37 selftests/bpf: Add a selftest for bpf_csum_diff()
-         fc570de110e2a373cdbf19206f5801293727218f Merge branch 'bpf-next/net' into for-next
+         4d36a86baf9afd26813c54cc0092ccddecf69b3c usb: xhci: simplify TDs start and end naming scheme in struct 'xhci_td'
+         a78377c6a82995d2815a48c7f55c6c38deb884c2 usb: xhci: move link TRB quirk to xhci_gen_setup()
+         7cc90e2a08dda750f29efef95cce1952c08973d4 usb: xhci: request MSI/-X according to requested amount
+         0ee1ebc262898aebc9db2c28c06b7bc6e4c78066 usb: xhci: improve xhci_clear_command_ring()
+         5a73e2cca3e41184846d1076e7e7b1baf92e04fd usb: xhci: remove unused arguments from td_to_noop()
+         c0805422b61a25ca8d9b0013d9fe40c036aaa096 usb: xhci: refactor xhci_td_cleanup() to return void
+         aa1b08dda1916874c4c221abcf8e001a0eae4641 usb: xhci: add help function xhci_dequeue_td()
+         054c1428d8f96dfe798e059fb82755bbd69871d0 usb: xhci: remove irrelevant comment
          
