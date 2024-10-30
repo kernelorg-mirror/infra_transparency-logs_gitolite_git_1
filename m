@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Oct 2024 09:29:42 -0000
-Message-Id: <173028058260.3084978.9335924368634270540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 30 Oct 2024 09:31:37 -0000
+Message-Id: <173028069771.3087482.6088780445371168301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 52f70dea4201f12683236a0d02c03ca4f6145382
-    new: 427b1f3bba2aa9322561dc3448aacc15a1f68284
-    log: |
-         427b1f3bba2aa9322561dc3448aacc15a1f68284 RDMA: Use ethtool string helpers
-         
+  - ref: refs/heads/arm64-va-simplify
+    old: 0000000000000000000000000000000000000000
+    new: 5519640221fa67add0a15c81705774aef09764d2
