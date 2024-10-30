@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1699165141075320910=="
+Content-Type: multipart/mixed; boundary="===============1599109513693790377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 30 Oct 2024 22:10:19 -0000
-Message-Id: <173032621993.3704428.4526268591702718578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 30 Oct 2024 22:10:23 -0000
+Message-Id: <173032622326.3704553.5981271461742491765@gitolite.kernel.org>
 
---===============1699165141075320910==
+--===============1599109513693790377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 4236f913808cebef1b9e078726a4e5d56064f7ad
     log: revlist-e42b1a9a2557-4236f913808c.txt
 
---===============1699165141075320910==
+--===============1599109513693790377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ daa9f66fe194f672d2c94d879b6dad7035e03ebe Merge tag 'sched_ext-for-6.12-rc5-fixes
 c1e939a21eb111a6d6067b38e8e04b8809b64c4e Merge tag 'cgroup-for-6.12-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 4236f913808cebef1b9e078726a4e5d56064f7ad Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============1699165141075320910==--
+--===============1599109513693790377==--
