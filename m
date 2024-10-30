@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 30 Oct 2024 16:02:32 -0000
-Message-Id: <173030415234.3402408.11436893660600794356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 30 Oct 2024 16:06:04 -0000
+Message-Id: <173030436463.3406218.3694226120570487986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/asoc-6.13
-    old: 334d538e176ce0c70bea5321d067432df2299bca
-    new: c0aba02cdc1afde6c2349db95ad36b9532b42a37
+  - ref: refs/heads/nfs-localio-for-next
+    old: 8b4a4686c94322dfdf6931d83f35fe0020c47868
+    new: 2c421b3309713c924ef6ee323c7ceb21afba93e4
     log: |
-         c087a94bea49acf34d651f7308506fe462a937b3 ASoC: Rename "sh" to "renesas"
-         94c0a8a10f05782a4426a67343e3081601ad3f1a ASoC: renesas, rsnd: Update file path
-         1b3130e9e77e4286a2e495b4b3c3efcf54848633 ASoC: audio-graph-card2: Update comment with renamed file path
-         3dc2c89473a43b1ab83a7f0196e41eb3145844d6 MAINTAINERS: Add entry for Renesas R-Car and FSI ASoC drivers
-         8fc6907ee343336dc5ae75665883fdbf7e012d26 MAINTAINERS: Add entry for Renesas RZ ASoC driver
-         c0aba02cdc1afde6c2349db95ad36b9532b42a37 ASoC: Rename "sh" to "renesas"
+         173f1d2662eed5b224a83defb7be446badb9955d nfs: cache open nfsd_file(s) in client
+         2290a746aca887195ef021ed3be1208906767a94 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
+         d4c2b41de09c9fcedcee9d46caf02faa4a9076fc revert: 0bfcb7b71e73 netfilter: xtables: avoid NFPROTO_UNSPEC where needed
+         25c4da6e4a522007619d7f1fad0303c68d12a1b6 nfsd: update percpu_ref to manage references on nfsd_net
+         6ca14b644a097644679a564aa276c6e30bd18604 nfsd: rename nfsd_serv_ prefixed functions and variables to nfsd_net_
+         6359194e76c27b41975bd46793122fb7e293a560 nfs_common: rename functions that invalidate LOCALIO nfs_clients
+         bd6f3a530e9e956c559e5dea8778d68d166c3b03 nfs_common: reimplement nfs_localio_invalidate_{one_client,clients}
+         2c421b3309713c924ef6ee323c7ceb21afba93e4 nfs_common: track all open nfsd_files per nfs_client
          
