@@ -1,32 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 30 Oct 2024 18:19:02 -0000
-Message-Id: <173031234244.3513039.1491221320617216711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 30 Oct 2024 18:28:02 -0000
+Message-Id: <173031288270.3520816.127289556188030227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-6.13
-    old: b7d0bbcf0c9828dd6974f8c1ccbdf2e13f3ad73f
-    new: 860a45219bce09d9ebac883cfcf9b5b0b8a8a999
+  - ref: refs/heads/master
+    old: 2422d0e13858b7e14746045cb36b3fcd6d3bddb2
+    new: af524ed29eee9390eb1a60d7b7b56bc5afe68560
     log: |
-         860a45219bce09d9ebac883cfcf9b5b0b8a8a999 sched_ext: Introduce NUMA awareness to the default idle selection policy
+         afafaa6712895a9fae17e6aedb1e52ab48707ba1 Bluetooth: btmtk: adjust the position to init iso data anchor
+         af524ed29eee9390eb1a60d7b7b56bc5afe68560 Bluetooth: hci: fix null-ptr-deref in hci_read_supported_codecs
          
-  - ref: refs/heads/for-next
-    old: 9089691695f5aef576eb7b9f5da24c2337fc67d1
-    new: e7733c6642325e3db4f0f22ec8676e0daf6616cf
-    log: |
-         860a45219bce09d9ebac883cfcf9b5b0b8a8a999 sched_ext: Introduce NUMA awareness to the default idle selection policy
-         e7733c6642325e3db4f0f22ec8676e0daf6616cf Merge branch 'for-6.13' into for-next
-         
-  - ref: refs/heads/maste
-    old: 0000000000000000000000000000000000000000
-    new: e42b1a9a2557aa94fee47f078633677198386a52
-  - ref: refs/heads/test-merge
-    old: 0000000000000000000000000000000000000000
-    new: 1c7f8524e0f6c39d83edf9c0b7a87e1b740a331b
