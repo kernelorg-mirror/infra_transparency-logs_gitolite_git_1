@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 30 Oct 2024 17:33:57 -0000
-Message-Id: <173030963778.3473988.1805891529829752965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 30 Oct 2024 17:38:35 -0000
+Message-Id: <173030991547.3477998.16959000015947945899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9c9cb4242c49bbadd010e8f0a9e7daf4b392ff6b
-    new: 6c8910ac1cd360ea01136d707158690b5159a1d0
-    log: |
-         d10f8b7deb4e8a3a0c75855fdad7aae9c1943816 nfsd: make nfsd4_session->se_flags a bool
-         6c8910ac1cd360ea01136d707158690b5159a1d0 nfsd: allow for up to 32 callback session slots
-         
+  - ref: refs/heads/for-6.12-rc4
+    old: 75f49c3dc7b7423d3734f2e4dabe3dac8d064338
+    new: 0000000000000000000000000000000000000000
