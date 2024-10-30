@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 30 Oct 2024 00:47:30 -0000
-Message-Id: <173024925057.2669401.844565795044194521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 30 Oct 2024 00:48:20 -0000
+Message-Id: <173024930092.2669839.14795080636990063757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/cgroup-for-6.12-rc5-fixes
-    old: 63ce58accc630f034e8b007e0979be10d06faee4
-    new: af504c9fcf27abbc9644053069c7022b840097e0
+  - ref: refs/heads/master
+    old: 1900fcf69ccca6b62f6eadc0833203a071750c3c
+    new: 97e12bbfad18200ee5452ac3e2b6556c26992bcd
+    log: |
+         97e12bbfad18200ee5452ac3e2b6556c26992bcd man/io_uring_resize_rings: fix spelling error
+         
