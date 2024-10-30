@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 30 Oct 2024 11:02:43 -0000
-Message-Id: <173028616346.3159066.4630838576123097054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Wed, 30 Oct 2024 11:06:51 -0000
+Message-Id: <173028641117.3163130.12979120301399630256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 4cdd999c9cdc0ddc577311c6fd904523176a1832
-    new: 2257e8a12814ec70358a30a8cde64bc1338f384f
+  - ref: refs/heads/next
+    old: e6dc7d2eecd0c8e48b93f28552a1397c1b410083
+    new: 8a98e86a5a2cc220e65993b840a98819bc2e62bc
     log: |
-         f64f172be7742d83b9b30921616e561603a6d6f3 virtio: FFA: Updates
-         124493d3cf53602332a971ed1c18228e15bb5efa virtio: msg: Add DMA OPs support
-         d7e4d8cca698cfa10fabfe83b199a5baa13b1f4f TEMP: Reset defconfig
-         df37cf1741ebe0c0e64c9e06442c10af431b531f TEMP: Enable virtio-msg in defconfig
-         dda9ad7e359c409c18917596733dff46e2b5711a TEMP: defconfig: Enable qemu/xen options
-         2257e8a12814ec70358a30a8cde64bc1338f384f TEMP: Disable buildroot for host machine
+         767c2b21cb5855455aeff6bd7fb76585dcab5860 mmc: core: Simplify sd_uhs2_power_up()
+         7acbd2da48faee6ff856b2322c799d5c7b144d52 mmc: core: Add error handling of sd_uhs2_power_up()
+         88df25ad0c5afbafe42fab023fc9b0e688f4b4e1 mmc: core: Fix error paths for UHS-II card init and re-init
+         54ef4b393e0396a0c82bebb733e09c184c7ac943 mmc: sdhci-uhs2: Remove unnecessary NULL check
+         8a98e86a5a2cc220e65993b840a98819bc2e62bc mmc: sdhci: Make MMC_SDHCI_UHS2 config symbol invisible
          
