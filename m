@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 30 Oct 2024 03:17:33 -0000
-Message-Id: <173025825390.2797491.4478127911425567988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 30 Oct 2024 03:18:56 -0000
+Message-Id: <173025833692.2798210.14342314074265789687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: ba8f5f59a2c7a69e94090f346ba00643003bdfa4
-    new: 7d814f08a377041220eba39cd5e196fa1517e2ee
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 96b9764864893b472206a7a324037ee903acc815
+    new: a78e7207564258db6e373e86294a85f9d646d35a
     log: |
-         7d814f08a377041220eba39cd5e196fa1517e2ee Tue Oct 29 11:17:11 PM EDT 2024
+         a78e7207564258db6e373e86294a85f9d646d35a cpufreq: CPPC: Fix possible null-ptr-deref for cpufreq_cpu_get_raw()
          
