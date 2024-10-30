@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8354720909691844441=="
+Content-Type: multipart/mixed; boundary="===============4862758122297132509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Oct 2024 12:36:27 -0000
-Message-Id: <173029178795.3235036.16434454954990371502@gitolite.kernel.org>
+Date: Wed, 30 Oct 2024 12:36:47 -0000
+Message-Id: <173029180763.3235353.8664322897757771048@gitolite.kernel.org>
 
---===============8354720909691844441==
+--===============4862758122297132509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,35 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8b766b117ad0ef7311f0dec6f9b8c39e86393196
-    new: db3e5f3779e0c4439b7bde37f821a18485c660ca
-    log: revlist-8b766b117ad0-db3e5f3779e0.txt
+    old: db3e5f3779e0c4439b7bde37f821a18485c660ca
+    new: 0b9c113ad1c2cbf5855abcfa0e28cc711b1dc417
+    log: revlist-db3e5f3779e0-0b9c113ad1c2.txt
 
---===============8354720909691844441==
+--===============4862758122297132509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b766b117ad0-db3e5f3779e0.txt
+Content-Disposition: attachment; filename=revlist-db3e5f3779e0-0b9c113ad1c2.txt
 
-117932eea99b729ee5d12783601a4f7f5fd58a23 cgroup/bpf: use a dedicated workqueue for cgroup bpf destruction
-3cc4e13bb1617f6a13e5e6882465984148743cf4 cgroup: Fix potential overflow issue when checking max_depth
-2b059d0d1e624adc6e69a754bc48057f8bf459dc slub/kunit: fix a WARNING due to unwrapped __kmalloc_cache_noprof
-9b3c11a867a82ebee4e096008014417918b82801 selftests/sched_ext: add order-only dependency of runner.o on BPFOBJ
-4f7f417042b242c1e5a9ed03741acb5d900e0871 sched_ext: Fix function pointer type mismatches in BPF selftests
-895669fd0d8c816572ff779979a032d0395a0194 scx: Fix exit selftest to use custom DSQ
-0e7ffff1b8117b05635c87d3c9099f6aa9c9b689 scx: Fix raciness in scx_ops_bypass()
-7724abf0ca77460cb06ac3d5e4352a5c2289c3ae sched_ext: Make cast_mask() inline
-c31f2ee5cd7da3086eb4fbeef9f3afdc8e01d36b sched_ext: Fix enq_last_no_enq_fails selftest
-d658d59471ed80c4a8aaf082ccc3e83cdf5ae4c1 tpm: Return tpm2_sessions_init() when null key creation fails
-cc7d8594342a25693d40fe96f97e5c6c29ee609c tpm: Rollback tpm2_load_null()
-df745e25098dcb2f706399c0d06dd8d1bab6b6ec tpm: Lazily flush the auth session
-7c18d4811000945677a8531e89de3e17582e8a36 mm/pagewalk: fix usage of pmd_leaf()/pud_leaf() without present check
-f64e67e5d3a45a4a04286c47afade4b518acd47b fork: do not invoke uffd on fork if error occurs
-985da552a98e27096444508ce5d853244019111f fork: only invoke khugepaged, ksm hooks if no error
-281dd25c1a018261a04d1b8bf41a0674000bfe38 mm/page_alloc: let GFP_ATOMIC order-0 allocs access highatomic reserves
-79f3d123caedbac30a6fd75f9597b2a60a89d513 mm/mmap: fix race in mmap_region() with ftruncate()
-b7c5f9a1fb9b40491d8b564b7eb9df26128cda3f resource: remove dependency on SPARSEMEM from GET_FREE_REGION
-1db272864ff250b5e607283eaec819e1186c8e26 x86/traps: move kmsan check after instrumentation_begin
-14611508cb5bf031f85bae58704c9218681d8e07 mm: mark mas allocation in vms_abort_munmap_vmas as __GFP_NOFAIL
-d949d1d14fa281ace388b1de978e8f2cd52875cf mm: shmem: fix data-race in shmem_getattr()
-bc0a2f3a73fcdac651fca64df39306d1e5ebe3b0 ocfs2: pass u64 to ocfs2_truncate_inline maybe overflow
-d95fb348f0160f562ac07fa201dbbaf14524381f mm: numa_clear_kernel_node_hotplug: Add NUMA_NO_NODE check for node id
-41e192ad2779cae0102879612dfe46726e4396aa nilfs2: fix kernel bug due to missing clearing of checked flag
-b125a0def25a082ae944c9615208bf359abdb61c resource,kexec: walk_system_ram_res_rev must retain resource flags
-c4d91e225ff3c9821c85ac6efd8e02c0025c0190 mm/vma: add expand-only VMA merge mode and optimise do_brk_flags()
-e8133a77999f650495dca9669c49f143d70bb4f6 tools: testing: add expand-only mode VMA test
-5bb1f4c9340e01003b00b94d539eadb0da88f48e Revert "selftests/mm: fix deadlock for fork after pthread_create on ARM"
-3673167a3a07f25b3f06754d69f406edea65543a Revert "selftests/mm: replace atomic_bool with pthread_barrier_t"
-f2330b650e97a68c1afce66305f10651a9544037 selftests/mm: fix deadlock for fork after pthread_create with atomic_bool
-58a039e679fe72bd0efa8b2abe669a7914bb4429 mm: split critical region in remap_file_pages() and invoke LSMs in between
-183430079869fcb4b2967800d7659bbeb6052d07 mseal: update mseal.rst
-01626a18230246efdcea322aa8f067e60ffe5ccd mm: avoid unconditional one-tick sleep when swapcache_prepare fails
-704573851b51808b45dae2d62059d1d8189138a2 mm: krealloc: Fix MTE false alarm in __do_krealloc
-5db91545ef8150c45a526675ef99e8998b648a41 sched: Pass correct scheduling policy to __setscheduler_class
-fce9642c765a18abd1db0339a7d832c29b68456a x86/amd_nb: Fix compile-testing without CONFIG_AMD_NB
-d5b2ee0fe863519be5e1c277d22609b048b61a2a Merge tag 'tpmdd-next-6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-9251e3e93cf2892641539c184294838adedae415 Merge tag 'mm-hotfixes-stable-2024-10-28-21-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-7fbaacafbc55c56ca156a628a805f79a2cbe7103 Merge tag 'slab-for-6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-daa9f66fe194f672d2c94d879b6dad7035e03ebe Merge tag 'sched_ext-for-6.12-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-c1e939a21eb111a6d6067b38e8e04b8809b64c4e Merge tag 'cgroup-for-6.12-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-810f222ab82705b8c3dfd79cd62dfbf3854ec696 Merge branch 'linus'
-fc3df683dc98e446f1f4b9ba975fdef06cdcc5bd Merge branch into tip/master: 'sched/urgent'
-db3e5f3779e0c4439b7bde37f821a18485c660ca Merge branch into tip/master: 'x86/urgent'
+12f53ec6ce88f1494e78e9aebedb6df84945f40e Merge branch into tip/master: 'core/merge'
+605b5debee0eacc952fdbe9a57a16510d043dce5 Merge branch into tip/master: 'irq/urgent'
+953be62d7797378984f8b644e19623131a3b4bb2 Merge branch into tip/master: 'perf/urgent'
+ef2ea90f18a43150bca6133860f0d3c5e81633a6 Merge branch into tip/master: 'sched/urgent'
+6fc4df7ad7af26edcc56513c4573c83c2e176304 Merge branch into tip/master: 'timers/urgent'
+57fcafcfdb52697b86ee4deb27f3b8725dcbd240 Merge branch into tip/master: 'x86/urgent'
+7c3b018103c64b7e4ba9f5ca20e9fe33decf2301 Merge branch into tip/master: 'core/debugobjects'
+63a5ce45ef5167f2a2ee41863266845378b90ab7 Merge branch into tip/master: 'irq/core'
+7015fcfbd94564ccf88ee02d8642f2feb9b450c0 Merge branch into tip/master: 'locking/core'
+eb340fd8460fefd5b4cb742f2b9de6129880ec4b Merge branch into tip/master: 'perf/core'
+b77911c9fb3449d10cf0a318792ca2886dd00476 Merge branch into tip/master: 'ras/core'
+cabb822fc33e9ebeead71e41ca29e5a4904c789f Merge branch into tip/master: 'sched/core'
+6708cdf75ef13fcd07d9e8caf401fc1cd0b3a17d Merge branch into tip/master: 'timers/core'
+73617d144b934fe14af58b7653e0023134e223d3 Merge branch into tip/master: 'timers/vdso'
+5415493a97a26b489b62502b96dac9b6b68664e8 Merge branch into tip/master: 'x86/cache'
+c724f5eda3fb73b06ad059d0af73b39f7344483c Merge branch into tip/master: 'x86/cleanups'
+28716cb3c92fa639bbee62c596b011ab3002b75e Merge branch into tip/master: 'x86/cpu'
+c36182537e8534632a65edb0a9e3f648d4c1ef03 Merge branch into tip/master: 'x86/microcode'
+681f2be81574d84f7a6ba5c01f206949e34b0db5 Merge branch into tip/master: 'x86/misc'
+0b9c113ad1c2cbf5855abcfa0e28cc711b1dc417 Merge branch into tip/master: 'x86/sev'
 
---===============8354720909691844441==--
+--===============4862758122297132509==--
