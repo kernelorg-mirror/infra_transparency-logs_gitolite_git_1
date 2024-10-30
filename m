@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5582221342309077227=="
+Content-Type: multipart/mixed; boundary="===============2835015806851733477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 30 Oct 2024 16:01:08 -0000
-Message-Id: <173030406882.3401354.13409182507407282180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 30 Oct 2024 16:01:14 -0000
+Message-Id: <173030407479.3401507.14412575220301782236@gitolite.kernel.org>
 
---===============5582221342309077227==
+--===============2835015806851733477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 3f58985e437fbc1b4d5f7967dd83f118abd2a6a1
     new: 334d538e176ce0c70bea5321d067432df2299bca
     log: |
          334d538e176ce0c70bea5321d067432df2299bca ASoC: cs42l84: Remove unused including <linux/version.h>
          
 
---===============5582221342309077227==
+--===============2835015806851733477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1730304096 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1730304066-dd2045361d04d467d65ae053e0c550d0f2bf142a
+pusher C3F436CA30F5D8EB 1730304102 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1730304072-c0bdc1ebc6f88465af718b32c9f3ce2a1d9a8ee8
 
-3f58985e437fbc1b4d5f7967dd83f118abd2a6a1 334d538e176ce0c70bea5321d067432df2299bca refs/heads/for-6.13
+3f58985e437fbc1b4d5f7967dd83f118abd2a6a1 334d538e176ce0c70bea5321d067432df2299bca refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmciWGAACgkQJNaLcl1U
-h9AfxwgAgRmwx3dFzLryzXEmMRfFEgE1W/aBoA9LOliJqmQQRs1M9vskOkmC3HJZ
-40vivCLGd1yz4HD3ui7V/CQrQddrphqDGzba46Mf9htxUFsns6faommPSZwOrGAK
-MAq9RlDBvH+FQ5Lez+sUL8y1sZ3pvhmieuIoZIeBkEly2pI7AsRN0LROMZuUPz5K
-eP4ELygkyA5fqX7uaGl13Bvjyd3mUjaSL+Va/UDyUC8laRhwTq/5qB/Q6gTTCpNI
-k7JxlxPxPcRu2jyyHUswLlBhwWpdLjt5hmkyXFp3rxZ5ik8t77fHpvBBsj5CqBeY
-V0SWZQimbol0d0aIrWxCWqCPHKZ+LA==
-=4lCl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmciWGYACgkQJNaLcl1U
+h9Ar/gf/QZctN4n2yKVPCt/YB+R6YHbG9S4uGFGzbK4P8K7cKrKLZLfWx4jCgb6z
+3pPVcF9qAm8DDip+gxDr4lWM23Es2CYHwsEpRc7JG3IwEfazTFPxf4+nDAxMvx5g
+vO61GvKsbTrFQ9k9+I1o/T/k0sOPRPQjeYjpfPWVwDxMypeLMyL47iEIn59Yz1l6
+Am/UoW5zDj/iglZm9TEsW0KU+Q5qCeZoU/8KO1a9eVWW7qZEIWJpyyP1Ak0vlX/u
+n+O8n4FB2hRNC1n3GWUj/O21WhMezdwl9UT0FGHqpgtNaL8V6mDbRnGMDCAzrAAA
+0Is6On2H1NwybyM+FiS9btX939oYlg==
+=KHld
 -----END PGP SIGNATURE-----
 
---===============5582221342309077227==--
+--===============2835015806851733477==--
