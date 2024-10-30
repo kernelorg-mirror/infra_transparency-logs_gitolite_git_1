@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 30 Oct 2024 18:08:18 -0000
-Message-Id: <173031169892.3503945.13003474330073760263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 30 Oct 2024 18:11:02 -0000
+Message-Id: <173031186269.3507522.12673858095222075527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/bwctrl
-    old: 18956ececba637e45fa1f2a91126d0421b3e05a5
-    new: 93b71d7a3f4f473c6973383c57740447f6320db1
+  - ref: refs/heads/nfsd-fixes
+    old: 63fab04cbd0f96191b6e5beedc3b643b01c15889
+    new: d163d4b264944d1a3ec6a16e6d20c1492bccee45
     log: |
-         399ba413fa2319f9277b198114bd6f4a2ecd5267 PCI/bwctrl: Add pcie_set_target_speed() to set PCIe Link Speed
-         28dab2b6389a88552b10a49f4bfaaf989729bb4b thermal: Add PCIe cooling driver
-         93b71d7a3f4f473c6973383c57740447f6320db1 selftests/pcie_bwctrl: Create selftests
+         d163d4b264944d1a3ec6a16e6d20c1492bccee45 NFSD: Never decrement pending_async_copies on error
          
