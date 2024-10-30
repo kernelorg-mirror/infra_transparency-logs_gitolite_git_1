@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 30 Oct 2024 19:59:28 -0000
-Message-Id: <173031836835.3593773.1507479233943292426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 30 Oct 2024 20:04:13 -0000
+Message-Id: <173031865346.3597881.18263613681991937709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/arm64-fp-sme-sigentry
-    old: 547cfd5a8fbd15537364eba83f2e8547f8ba54af
-    new: 501d1a9345df24247d89f5a157730d804ba33c39
+  - ref: refs/heads/auto-pending-fixes
+    old: 5358f4e64abe490e846afbe5ae7c50796b97e9cf
+    new: 7ae05a8130f20b412809b6deb2862f2e25e81885
     log: |
-         3bf3bc50c25f9e149e3654048825d7a5ac337e9e EDITME: cover title for arm64-fp-sme-sigentry
-         501d1a9345df24247d89f5a157730d804ba33c39 arm64/signal: Avoid corruption of SME state when entering signal handler
+         8286f8b622990194207df9ab852e0f87c60d35e9 NFSD: Never decrement pending_async_copies on error
+         7ae05a8130f20b412809b6deb2862f2e25e81885 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux into HEAD
          
