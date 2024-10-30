@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Oct 2024 12:14:31 -0000
-Message-Id: <173029047197.3215453.10448569977798755808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 30 Oct 2024 12:19:41 -0000
+Message-Id: <173029078174.3220340.5646991592760875016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 427b1f3bba2aa9322561dc3448aacc15a1f68284
-    new: 323275ac2ff15b2b7b3eac391ae5d8c5a3c3a999
+  - ref: refs/heads/crypto-arm-crct10dif
+    old: cb8a4f57f918323a3554c1fb2d0155f559c94bec
+    new: 03d869b5e38b2b66824dc1ddd9b85f2da487448c
     log: |
-         571e4ab8a45e530623ab129803f090a844dd3fe9 RDMA/hns: Fix an AEQE overflow error caused by untimely update of eq_db_ci
-         377a2097705b915325a67e4d44f9f2844e567809 RDMA/hns: Fix flush cqe error when racing with destroy qp
-         370a9351bf84afc5a56a3f02ba3805bbfcb53c32 RDMA/hns: Modify debugfs name
-         d81fb6511abf18591befaa5f4a972ffc838690ec RDMA/hns: Use dev_* printings in hem code instead of ibdev_*
-         323275ac2ff15b2b7b3eac391ae5d8c5a3c3a999 RDMA/hns: Fix cpu stuck caused by printings during reset
+         7d750146912928855433ccecb8e440fbf1362a86 crypto: arm64/crct10dif - Remove obsolete chunking logic
+         e3c454bbc26770b439e912df38a60fa6edf4f5de crypto: arm64/crct10dif - Use faster 16x64 bit polynomial multiply
+         ded816f5b95bc2dfeb1d122c0dfd58e55acbeb9b crypto: arm64/crct10dif - Remove remaining 64x64 PMULL fallback code
+         b4c699d0d9150afc31e52c1c6a183b2b11490761 crypto: arm/crct10dif - Use existing mov_l macro instead of __adrl
+         4bfa2b1e93dbd1b4f2f0b3e72d45ce277c7593a4 crypto: arm/crct10dif - Macroify PMULL asm code
+         03d869b5e38b2b66824dc1ddd9b85f2da487448c crypto: arm/crct10dif - Implement plain NEON variant
          
