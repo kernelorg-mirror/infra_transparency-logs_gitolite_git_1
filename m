@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7015370904557003538=="
+Content-Type: multipart/mixed; boundary="===============5016633849442308796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Wed, 30 Oct 2024 09:49:25 -0000
-Message-Id: <173028176550.3101174.18037114347843141333@gitolite.kernel.org>
+Date: Wed, 30 Oct 2024 09:49:39 -0000
+Message-Id: <173028177907.3102018.9826837781976412647@gitolite.kernel.org>
 
---===============7015370904557003538==
+--===============5016633849442308796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
+  - ref: refs/heads/mips-next
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 81983758430957d9a5cb3333fe324fd70cf63e7e
     log: revlist-9852d85ec9d4-819837584309.txt
 
---===============7015370904557003538==
+--===============5016633849442308796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://g
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
 
---===============7015370904557003538==--
+--===============5016633849442308796==--
