@@ -1,50 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4862758122297132509=="
+Content-Type: multipart/mixed; boundary="===============0152516924992100584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Oct 2024 12:36:47 -0000
-Message-Id: <173029180763.3235353.8664322897757771048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 30 Oct 2024 12:43:48 -0000
+Message-Id: <173029222842.3240280.11336729314734353403@gitolite.kernel.org>
 
---===============4862758122297132509==
+--===============0152516924992100584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: db3e5f3779e0c4439b7bde37f821a18485c660ca
-    new: 0b9c113ad1c2cbf5855abcfa0e28cc711b1dc417
-    log: revlist-db3e5f3779e0-0b9c113ad1c2.txt
+    old: 162ae1a90ff558cb7449fce4331deb91bb96cd92
+    new: 7b5ef4045f98031df27e1e2f60855b40ac74a2df
+    log: |
+         7b5ef4045f98031df27e1e2f60855b40ac74a2df Update 3AB05486C7752FE1 (Jarkko Sakkinen)
+         
 
---===============4862758122297132509==
+--===============0152516924992100584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db3e5f3779e0-0b9c113ad1c2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-12f53ec6ce88f1494e78e9aebedb6df84945f40e Merge branch into tip/master: 'core/merge'
-605b5debee0eacc952fdbe9a57a16510d043dce5 Merge branch into tip/master: 'irq/urgent'
-953be62d7797378984f8b644e19623131a3b4bb2 Merge branch into tip/master: 'perf/urgent'
-ef2ea90f18a43150bca6133860f0d3c5e81633a6 Merge branch into tip/master: 'sched/urgent'
-6fc4df7ad7af26edcc56513c4573c83c2e176304 Merge branch into tip/master: 'timers/urgent'
-57fcafcfdb52697b86ee4deb27f3b8725dcbd240 Merge branch into tip/master: 'x86/urgent'
-7c3b018103c64b7e4ba9f5ca20e9fe33decf2301 Merge branch into tip/master: 'core/debugobjects'
-63a5ce45ef5167f2a2ee41863266845378b90ab7 Merge branch into tip/master: 'irq/core'
-7015fcfbd94564ccf88ee02d8642f2feb9b450c0 Merge branch into tip/master: 'locking/core'
-eb340fd8460fefd5b4cb742f2b9de6129880ec4b Merge branch into tip/master: 'perf/core'
-b77911c9fb3449d10cf0a318792ca2886dd00476 Merge branch into tip/master: 'ras/core'
-cabb822fc33e9ebeead71e41ca29e5a4904c789f Merge branch into tip/master: 'sched/core'
-6708cdf75ef13fcd07d9e8caf401fc1cd0b3a17d Merge branch into tip/master: 'timers/core'
-73617d144b934fe14af58b7653e0023134e223d3 Merge branch into tip/master: 'timers/vdso'
-5415493a97a26b489b62502b96dac9b6b68664e8 Merge branch into tip/master: 'x86/cache'
-c724f5eda3fb73b06ad059d0af73b39f7344483c Merge branch into tip/master: 'x86/cleanups'
-28716cb3c92fa639bbee62c596b011ab3002b75e Merge branch into tip/master: 'x86/cpu'
-c36182537e8534632a65edb0a9e3f648d4c1ef03 Merge branch into tip/master: 'x86/microcode'
-681f2be81574d84f7a6ba5c01f206949e34b0db5 Merge branch into tip/master: 'x86/misc'
-0b9c113ad1c2cbf5855abcfa0e28cc711b1dc417 Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher B6C41CE35664996C! 1730292256 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1730292227-b27620699838b8f953549f4f30a8b18e8d474547
 
---===============4862758122297132509==--
+162ae1a90ff558cb7449fce4331deb91bb96cd92 7b5ef4045f98031df27e1e2f60855b40ac74a2df refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZyIqIAAKCRC2xBzjVmSZ
+bLd9AQCiEe6BY1kKnW8UnjU4QIwkBZ3w2DdtVbMSWCfWUpd0+gD+I/HmpTIEv6Ia
+RidFhu1fNUccSNofTtUwWSeVoTVjbgo=
+=Ru1n
+-----END PGP SIGNATURE-----
+
+--===============0152516924992100584==--
