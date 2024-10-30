@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 30 Oct 2024 00:52:07 -0000
-Message-Id: <173024952763.2674048.11850336978601994460@gitolite.kernel.org>
+Date: Wed, 30 Oct 2024 00:53:15 -0000
+Message-Id: <173024959575.2674645.15279578502604283560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 09615a647fc1f0faf11dcb0ffa268f96bf5a65fc
-    new: b8e2018aea6930e6aa53e157721e0f5ef500c650
+    old: b8e2018aea6930e6aa53e157721e0f5ef500c650
+    new: 6e062fa8cc27046ed7c9686327d9a847f49c5efc
     log: |
-         b8e2018aea6930e6aa53e157721e0f5ef500c650 man/io_uring_resize_rings: mention kernel availability
+         6e062fa8cc27046ed7c9686327d9a847f49c5efc man/io_uring_resize_rings: mention that 'p' should be cleared
          
