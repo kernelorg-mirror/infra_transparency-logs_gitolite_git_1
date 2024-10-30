@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 30 Oct 2024 02:43:49 -0000
-Message-Id: <173025622925.2769692.17323792488670002937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 30 Oct 2024 02:45:42 -0000
+Message-Id: <173025634268.2772871.119597910833246154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: d7f214aeacb984b9d42da0146e789f595eb09068
-    new: d0b98f6a17a5cb336121302bce0c97eb5fe32d16
+  - ref: refs/heads/b4/sysfs-const-bin_attr
+    old: 2f5fbde6b6784077241805f2ac412007b74d2877
+    new: 6d3e00dd8a6021f4eb4833559edecc66036b4391
     log: |
-         d0b98f6a17a5cb336121302bce0c97eb5fe32d16 bpf: disallow 40-bytes extra stack for bpf_fastcall patterns
+         6a911ccb46a24517dc66b2a233ee21f27b46d211 sysfs: treewide: constify attribute callback of bin_attribute::mmap()
+         3f4fdc82d70d7693bd5026bc939ba3f533e7e34e sysfs: drop callback bin_attribute::llseek
+         084632b82ccd0e550ae7c1835e5fe86ef2aeb36c sysfs: implement all BIN_ATTR_* macros in terms of __BIN_ATTR()
+         e6b3786f140e0c01a5673125cd1e38fba803623c read_new
+         6d3e00dd8a6021f4eb4833559edecc66036b4391 driver core: Constify attribute arguments of binary attributes
          
