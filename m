@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5088120723819925625=="
+Content-Type: multipart/mixed; boundary="===============2791162570153030948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 31 Oct 2024 09:52:47 -0000
-Message-Id: <173036836717.68920.6817694134274406795@gitolite.kernel.org>
+Date: Thu, 31 Oct 2024 09:52:50 -0000
+Message-Id: <173036837072.69132.3302799172167213942@gitolite.kernel.org>
 
---===============5088120723819925625==
+--===============2791162570153030948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 42f7652d3eb527d03665b09edac47f85fb600924
-    new: 81983758430957d9a5cb3333fe324fd70cf63e7e
-    log: revlist-42f7652d3eb5-819837584309.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: d94f6dd6a28e75e5e9a084c28d8c56c39862c1be
+    new: 90f16c0b4c4673ce12579c7bf2f7d0f5c93f523f
+    log: revlist-d94f6dd6a28e-90f16c0b4c46.txt
 
---===============5088120723819925625==
+--===============2791162570153030948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42f7652d3eb5-819837584309.txt
+Content-Disposition: attachment; filename=revlist-d94f6dd6a28e-90f16c0b4c46.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -316,5 +316,49 @@ a8b3be2617d677796e576cc64d4ad9de45dfaf14 Merge tag 'xfs-6.12-fixes-5' of git://g
 f69a1accfe2e2ee2c43096abd9080b1fdb0c894d Merge tag 'ftrace-v6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ea1fda89f5b23734e10c62762990120d5ae23c43 Merge tag 'x86_urgent_for_v6.12_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
+6c876f0abbbe33917bea53ba243652e16870e689 i2c: cadence: Relocate cdns_i2c_runtime_suspend and cdns_i2c_runtime_resume to facilitate atomic mode
+a87739e24a53a67ac3dd50c22dcd9a2120f934a8 i2c: cadence: Split cdns_i2c_master_xfer for Atomic Mode
+f4b1eb756aacdc16f1945cd6988ea6475ebce3a0 i2c: cadence: Add atomic transfer support for controller version 1.4
+eb16c5e793844f51c78c2dc9edafb3cfcb19cd21 i2c: isch: Pass pointer to struct i2c_adapter down
+eb87d25a0a518a50b2d559aff7f6cf6e6e55df50 i2c: isch: Use string_choices API instead of ternary operator
+3dec924d9a42ef7a8dee7442abaa125be1d0d14d i2c: isch: Switch to memory mapped IO accessors
+881e199b4600c6e67e40a7ec60cd54b8111935c5 i2c: isch: Use custom private data structure
+3d1a79193091cc5a29ec586ea3dafb6181f3ddd8 i2c: isch: switch i2c registration to devm functions
+fd0541bee408d28eff5b2b8bcbeebf2aaac8926f i2c: isch: Utilize temporary variable to hold device pointer
+72c3448e7b29c493fbde88b5c6f2d8393f64993a i2c: isch: Use read_poll_timeout()
+e44bba0a7632d3d2f7c0e256620936d2c549832c i2c: isch: Unify the name of the variable to hold an error code
+5372188309d3f8de0bc0f6f580b2ba1ecbbc2901 i2c: isch: Don't use "proxy" headers
+4b1bef67bcd4e9f87e1163be3907bb5fab59d85f i2c: isch: Prefer to use octal permission
+265a47a712dd57071189b81c21eb00e054ec378c i2c: isch: Convert to kernel-doc
+b193610c9d636db3b28e6e2c53e2194f16c2ecdc i2c: i801: Add support for Intel Panther Lake
+69cc229520369fb73de78dc69233f5ab962be796 i2c: piix4: Change the parameter list of piix4_transaction function
+15f5534bee579f1bd162cbc9b0993102f36808d6 i2c: piix4: Move i2c_piix4 macros and structures to common header
+e31dc0a1f78f0978296f02b91d5505a9a1130e8e i2c: piix4: Export i2c_piix4 driver functions as library
+7fddedb2f26dadf2c4ff11a6b0598e3e612af683 i2c: amd-asf: Add ACPI support for AMD ASF Controller
+ac4c730967b7e9e4cafa36d7d284b4ca071a189c i2c: amd-asf: Add i2c_algorithm operations to support AMD ASF with SMBus
+f2648dc906065e67d31391a66be7f20d9c4d739a i2c: amd-asf: Add routine to handle the ASF slave process
+cbbd47cc8016bc8bee192f975b547e801310a671 i2c: amd-asf: Clear remote IRR bit to get successive interrupt
+b41e599cb4ba193f1f51533e65751e7597ddcbd7 MAINTAINERS: Add AMD ASF driver entry
+c9916865a630cf04f1f36f0ccf093da43b69ffae i2c: designware: Use temporary variable for struct device
+3359dbf733b7764843699fb4051b8f37542969b3 i2c: designware: Get rid of redundant 'else'
+fa615355d052588a9d543dd0ee162c7842eb5308 i2c: designware: Remove 'cond' from i2c_dw_scl_hcnt()
+5bf0db897450c771a9750680c5b3016211bca448 i2c: designware: Use sda_hold_time variable name everywhere
+3a3e11910fbe77bf429a1b4150819e8cca4e5389 i2c: designware: Fix spelling and other issues in the comments
+cfe6fe4c48522e2d0fc516575842720256a9af74 i2c: amd-asf: Fix uninitialized variables issue in amd_asf_process_target
+1e09a12fc670bc6c245fc0e7b5bdb14c7fd5bde1 i2c: npcm: correct the read/write operation procedure
+db3467f4ed3db35627de3b7df93e1d4e65e48a1f i2c: npcm: use a software flag to indicate a BER condition
+6a11464f8c9751a81907df9d6bb656924f6b4ad0 dt-bindings: i2c: qcom-cci: Document SDM670 compatible
+1d0f3e980ede55a7162939abdbb868be4f2a28e3 i2c: qcom-cci: Stop complaining about DT set clock rate
+448c65dcfd3c0e6272d53897418734fc0bcb4612 i2c: qcom-geni: Support systems with 32MHz serial engine clock
+01ee016c96ba41bd08ed4b32e4d72f7ac3466da8 i2c: Switch back to struct platform_driver::remove()
+6000fec6142b69f2d3d7c1454b73c362e189c8b2 i2c: designware: constify abort_sources
+d9d4c065c501e1ca72bc5db3e22ecbfe3b20c046 dt-bindings: i2c: microchip: corei2c: Add PIC64GX as compatible with driver
+a3d416afa78c9e76bc89f2b516504b032da3e8db i2c: qcom-geni: Keep comment why interrupts start disabled
+3bfd945b1b2769ec6a7c27fc9d471ae3bf6555ad ACPI: APD: Add clock frequency for HJMC01 I2C controller
+ef1e361d9f9aa995c35151afe356ae9681f36ca1 i2c: designware: Add a new ACPI HID for HJMC01 I2C controller
+2b74f4a1ccc3860988b130a5e210dc71a5960b41 i2c: imx: do not poll for bus busy in single master mode
+d4f6fa7b7b218a64e532b649b1ae70e5c7251058 i2c: imx: separate atomic, dma and non-dma use case
+72688de47ce338f74f2cba45824f9e0062675ad8 i2c: imx: prevent rescheduling in non dma mode
+90f16c0b4c4673ce12579c7bf2f7d0f5c93f523f i2c: Drop legacy muxing pseudo-drivers
 
---===============5088120723819925625==--
+--===============2791162570153030948==--
