@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 31 Oct 2024 13:49:34 -0000
-Message-Id: <173038257466.281193.5173726890431419992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
+Date: Thu, 31 Oct 2024 13:50:37 -0000
+Message-Id: <173038263776.283530.3058289076914928264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/next-analysis
+user: sashal
 changes:
-  - ref: refs/heads/for-6.13/block
-    old: 133008e84b99e4f5f8cf3d8b768c995732df9406
-    new: 496a51b37143c690a06612a6bd58827ef2341761
+  - ref: refs/heads/master
+    old: c7ab3333a6aef97c8c9185926f976914f550e532
+    new: 7a35b557973d4bf1fd9e35ac9b7227119aff0628
     log: |
-         496a51b37143c690a06612a6bd58827ef2341761 lib/iov_iter.c: initialize bi.bi_idx before iterating over bvec
-         
-  - ref: refs/heads/for-next
-    old: be856e188156cb5eed779f5b1b1123efab8f6d07
-    new: d4b9721e53b5de1588e7103d3bf75402c4bffa56
-    log: |
-         496a51b37143c690a06612a6bd58827ef2341761 lib/iov_iter.c: initialize bi.bi_idx before iterating over bvec
-         d4b9721e53b5de1588e7103d3bf75402c4bffa56 Merge branch 'for-6.13/block' into for-next
+         7a35b557973d4bf1fd9e35ac9b7227119aff0628 Update DB
          
