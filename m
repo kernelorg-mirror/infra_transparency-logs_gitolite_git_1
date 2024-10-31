@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 31 Oct 2024 13:07:21 -0000
-Message-Id: <173038004141.240275.3574769994524498163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 31 Oct 2024 13:19:02 -0000
+Message-Id: <173038074205.250598.9765475826448017744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/perf-ftrace-latency
-    old: 4a6ea52134f116260828c0bb64b81a163de5591d
-    new: c1e5924d458a9aa580eba72491eecf66433435f4
+  - ref: refs/heads/usb-linus
+    old: 3b05949ba39f305b585452d0e177470607842165
+    new: 37bb5628379295c1254c113a407cab03a0f4d0b4
     log: |
-         c1e5924d458a9aa580eba72491eecf66433435f4 perf ftrace latency: Introduce --min_latency to narrow into a latency range
+         37bb5628379295c1254c113a407cab03a0f4d0b4 USB: serial: io_edgeport: fix use after free in debug printk
          
