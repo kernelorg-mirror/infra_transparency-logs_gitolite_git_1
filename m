@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5320639951924741303=="
+Content-Type: multipart/mixed; boundary="===============6946501809494272083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 31 Oct 2024 17:04:46 -0000
-Message-Id: <173039428698.523752.11615453243494497786@gitolite.kernel.org>
+Date: Thu, 31 Oct 2024 17:04:55 -0000
+Message-Id: <173039429573.523970.2410859045889922693@gitolite.kernel.org>
 
---===============5320639951924741303==
+--===============6946501809494272083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-arm-ci
+  - ref: refs/heads/for-kernelci
     old: adf5063ed0f406c78322f9740dcdea3036248282
     new: 507503e336db5bc3e47ee6a4d79e9d883f3fc824
     log: revlist-adf5063ed0f4-507503e336db.txt
 
---===============5320639951924741303==
+--===============6946501809494272083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f2a4fb7ee8a898f909228b294edaae590e9f80c9 iio: dac: Use of_property_present() for
 a2adc325c8c865ff12f3f3acc3354d9a6881e4bf irqchip: Use of_property_present() for non-boolean properties
 507503e336db5bc3e47ee6a4d79e9d883f3fc824 more of_property_present fixes
 
---===============5320639951924741303==--
+--===============6946501809494272083==--
