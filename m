@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 31 Oct 2024 01:49:34 -0000
-Message-Id: <173033937475.3889780.12562712170693724129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 31 Oct 2024 01:54:35 -0000
+Message-Id: <173033967548.3893891.8055997159088565553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/io_uring-rsrc
-    old: 5d99a85fda38e5c59ecad008ca46e81d6d3a0e29
-    new: 76aaf945701ce736d39447ea0ce5924ef68bc186
+  - ref: refs/heads/main
+    old: bd03e7627c377c69508b56ab63d1339bf45a4552
+    new: a3c1185e931929255003c094a9bd4b7516238d71
     log: |
-         0ecda46309065d9d6a255f21d16756f0ef39c684 io_uring/rsrc: allow cloning with node replacements
-         4f19dd95a622387397699c910127e8dc5e2f2ea6 io_uring: add support for an ephemeral per-submit buffer
-         76aaf945701ce736d39447ea0ce5924ef68bc186 io_uring/rsrc: add request -> io_rsrc_node mapper
+         bf8207ec8c3092555365036e28d227e997864799 bna: Remove error checking for debugfs create APIs
+         67826db318dd6d105b60d4e380e97e36280b9681 bna: Remove field bnad_dentry_files[] in struct bnad
+         a3c1185e931929255003c094a9bd4b7516238d71 Merge branch 'bna-remove-error-checking-for-debugfs-create-apis'
          
