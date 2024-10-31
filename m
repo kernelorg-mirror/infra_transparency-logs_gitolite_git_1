@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/next-analysis
-Date: Thu, 31 Oct 2024 13:50:37 -0000
-Message-Id: <173038263776.283530.3058289076914928264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 31 Oct 2024 14:04:27 -0000
+Message-Id: <173038346779.295909.1912473008817502289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/next-analysis
-user: sashal
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: c7ab3333a6aef97c8c9185926f976914f550e532
-    new: 7a35b557973d4bf1fd9e35ac9b7227119aff0628
+  - ref: refs/heads/i2c/i2c-host
+    old: f3db42cfcee45bffb6a463bec2f1c9d931148049
+    new: cbe0f70d06dd723e4bb64abd460129f8a316d282
     log: |
-         7a35b557973d4bf1fd9e35ac9b7227119aff0628 Update DB
+         cbe0f70d06dd723e4bb64abd460129f8a316d282 i2c: qcom-cci: Remove the unused variable cci_clk_rate
          
