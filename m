@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 31 Oct 2024 01:26:59 -0000
-Message-Id: <173033801923.3872969.11766859453199202743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 31 Oct 2024 01:27:00 -0000
+Message-Id: <173033802023.3873055.1847344696911592816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 59c0cb35771036db10a6d8c1ab8574135e0f4161
-    new: 5123e95e8673dd3e91ca1771d006ee3b92e711e5
+  - ref: refs/heads/main
+    old: b919f1e54e11662d5aa9582b514431c168c0bed8
+    new: 637f41476384c76d3cd7dcf5947caf2c8b8d7a9b
     log: |
-         5123e95e8673dd3e91ca1771d006ee3b92e711e5 test/no-mmap-inval: skip for -ENOENT mmap return
+         637f41476384c76d3cd7dcf5947caf2c8b8d7a9b net: ethernet: mtk_wed: fix path of MT7988 WO firmware
          
