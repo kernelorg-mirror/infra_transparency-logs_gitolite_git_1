@@ -1,50 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0905306252322240333=="
+Content-Type: multipart/mixed; boundary="===============8606275099240694841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 31 Oct 2024 20:33:00 -0000
-Message-Id: <173040678071.695233.16193955557694661775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
+Date: Thu, 31 Oct 2024 20:36:00 -0000
+Message-Id: <173040696037.699220.11335507317363840062@gitolite.kernel.org>
 
---===============0905306252322240333==
+--===============8606275099240694841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/khilman/linux
+user: khilman
 changes:
-  - ref: refs/heads/sframe
-    old: bf761da86e91c09e3d916a3f004101f4d4544407
-    new: cb2ff9eae7704d098bac69425544bb55c6e3f548
-    log: revlist-bf761da86e91-cb2ff9eae770.txt
+  - ref: refs/heads/master
+    old: 4236f913808cebef1b9e078726a4e5d56064f7ad
+    new: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
+    log: revlist-4236f913808c-0fc810ae3ae1.txt
 
---===============0905306252322240333==
+--===============8606275099240694841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf761da86e91-cb2ff9eae770.txt
+Content-Disposition: attachment; filename=revlist-4236f913808c-0fc810ae3ae1.txt
 
-c2b9e7a3fb9ba5854b7ac19095670cbd586b649a x86/vdso: Fix DWARF generation for getrandom()
-82f1c4b6a94ebc4a7de09b18e7dd8d193393f459 x86/asm: Avoid emitting DWARF CFI for non-VDSO
-e63694ace101db41e09d357394486bc8d3ddc8fd x86/asm: Fix VDSO DWARF generation with kernel IBT enabled
-d1be0c26dc1dfaf0a92f5fa88d888da1c9fba0c7 x86/vdso: Use SYM_FUNC_{START,END} in __kernel_vsyscall()
-6ff7c70d3bcac5fb70e20769b33263f62d806740 x86/vdso: Use CFI macros in __vdso_sgx_enter_enclave()
-96edf128c02b3935bb364c2342113023adced6cb x86/vdso: Enable sframe generation in VDSO
-11af01352e2a4535fca3f3a1f3ca40e6d6605f84 unwind: Add user space unwinding API
-93dcdc086633fbf72bd723c4ccf6803d72651014 unwind/x86: Enable CONFIG_HAVE_UNWIND_USER_FP
-5f3918d62fc0dc481619953c597aafa2f066482d unwind: Introduce sframe user space unwinding
-c5d021e20d7b86eb943fdaea38a5f9be9ec1b274 unwind/x86: Enable CONFIG_HAVE_UNWIND_USER_SFRAME
-876c107b5d51914070cb108cd47b9da80ed1bc90 unwind: Add deferred user space unwinding API
-951d7a47c621c94dd7344e99babc4f2932903357 perf: Remove get_perf_callchain() 'init_nr' argument
-0be1c043812c8af85d6f7a870f4adde4a3931355 perf: Remove get_perf_callchain() 'crosstask' argument
-15eabd81da7798dffeb34b4dbec793a9f01ef986 perf: Simplify get_perf_callchain() user logic
-6f914648049feb9ae9322a15923558f8190ad417 perf: Add deferred user callchains
-935afab321692179605c8453da8e0d64883e7f7f perf tools: Minimal CALLCHAIN_DEFERRED support
-86010059482fe49e4cbc6f47e23911120dd55064 perf record: Enable defer_callchain for user callchains
-68f97fc3cb587676862e4904c9227bbfc2729c56 perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
-8df4208d3e1007b556889045e195a94b9a9544f7 perf tools: Merge deferred user callchains
-cb2ff9eae7704d098bac69425544bb55c6e3f548 todo
+ab8aaab874c4aa378e76d0a55ce6e0fad6e042a2 tools headers UAPI: Sync linux/const.h with the kernel headers
+39c6a356201ebbd7e1db5be53fbb46ef4bfc70a4 perf trace: The return from 'write' isn't a pid
+ecabac70ff919580324b407818ee3e6c0004dcf8 perf trace augmented_raw_syscalls: Add extra array index bounds checking to satisfy some BPF verifiers
+395d38419f1853decab84acc16176b3fa5c96690 perf trace augmented_raw_syscalls: Add more checks to pass the verifier
+7fbff3c0e085745b99f220ad56fcee3ea9643d87 perf build: Change the clang check back to 12.0.1
+5d35634ecc2d2c3938bd7dc23df0ad046da1b303 perf trace: Fix non-listed archs in the syscalltbl routines
+d822ca29a4fc5278fb511790dace44836e8cc40d tools headers UAPI: Sync kvm headers with the kernel sources
+06a130e42a5bfc84795464bff023bff4c16f58c5 perf test: Handle perftool-testsuite_probe failure due to broken DWARF
+758f18158952a6287ac23679ec04c32d44ca5368 perf python: Fix up the build on architectures without HAVE_KVM_STAT_SUPPORT
+08a7d2525511ba07b8ab3dfb472a9d3df4c40f79 tools arch x86: Sync the msr-index.h copy with the kernel sources
+21a3a3d015aeee2402d14b425197d70aa3bd0d91 tools headers: Synchronize {uapi/}linux/bits.h with the kernel sources
+93e4b86b3e74e19c95b762cfeb42baa0a94f212f tools headers arm64: Sync arm64's cputype.h with the kernel sources
+55f1b540d893da740a81200450014c45a8103f54 tools headers: Update the linux/unaligned.h copy with the kernel sources
+a5384c426744ebe41dafc6e5fa3acecc05e43462 perf cap: Add __NR_capget to arch/x86 unistd
+14b7d43c5c068cb9688a9fe68883f4340effb053 Merge tag 'perf-tools-fixes-for-v6.12-2-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+0fc810ae3ae110f9e2fcccce80fc8c8d62f97907 x86/uaccess: Avoid barrier_nospec() in 64-bit copy_from_user()
 
---===============0905306252322240333==--
+--===============8606275099240694841==--
