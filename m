@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 31 Oct 2024 02:27:07 -0000
-Message-Id: <173034162765.3919533.8385326826432056420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Thu, 31 Oct 2024 02:48:22 -0000
+Message-Id: <173034290223.3935180.9356498837560655612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/probes/for-next
-    old: b5f348cbce367d5dcd34bf2b6c02c39a5be3fb97
-    new: 3fbff988892993a144d0f47db0348c18b4621393
+  - ref: refs/heads/auto-pending-fixes
+    old: 12d8ecbe357ef14ba2c5c28373cca04c3c49c906
+    new: 54d2c1d21739205941f8f0446fc0dd5f616df719
     log: |
-         ce7f27dcd7e7721527648e27908e5200d1a3e3b0 kprobes: Cleanup the config comment
-         da93dd931baa921ee31796e0cd6402d995e1e4fc kprobes: Cleanup collect_one_slot() and __disable_kprobe()
-         3fbff988892993a144d0f47db0348c18b4621393 kprobes: Use struct_size() in __get_insn_slot()
+         2313ab74c3004089ecac5f0f91f7274829f3825b cfi: tweak llvm version for HAVE_CFI_ICALL_NORMALIZE_INTEGERS
+         6993cb7de0f0bc28ec53ab45197a4f5a101ef2dc Merge branch 'misc-6.12' into next-fixes
+         6191fb18d5c087d93525ca41b19bb3a0fe813e44 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux into HEAD
+         54d2c1d21739205941f8f0446fc0dd5f616df719 Merge branch 'rust-fixes' of https://github.com/Rust-for-Linux/linux into HEAD
          
