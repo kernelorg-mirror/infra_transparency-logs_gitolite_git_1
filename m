@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 31 Oct 2024 21:10:58 -0000
-Message-Id: <173040905869.728420.16083607224309835239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Thu, 31 Oct 2024 21:12:32 -0000
+Message-Id: <173040915299.729236.700272951705970994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: 5123e95e8673dd3e91ca1771d006ee3b92e711e5
-    new: d7e04e1ebbcd13c08c1f543394b4255daa30e3d4
+  - ref: refs/heads/cxl/extended-linear
+    old: c4724382d8850a1fd8ea8b7777e1ef783c31f480
+    new: 82adadebb1e8f20174c708e13571db27b13c64c7
     log: |
-         d7e04e1ebbcd13c08c1f543394b4255daa30e3d4 test/regbuf-clone: use buffers and verify result
+         fa842a3b4d7fccddabb554c93d3d16bc1fa0865d cxl: Add extended linear cache address alias emission for cxl events
+         82adadebb1e8f20174c708e13571db27b13c64c7 cxl: Add mce notifier to emit aliased address for extended linear cache
          
