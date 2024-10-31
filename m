@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 31 Oct 2024 12:24:33 -0000
-Message-Id: <173037747360.195401.18110771774481605355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 31 Oct 2024 12:32:38 -0000
+Message-Id: <173037795882.203401.10438891294600975505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/fileIKxJWH
-    old: 0000000000000000000000000000000000000000
-    new: 8a9c132389bbd162336fcbe6725692455151bd7e
-  - ref: refs/heads/filetuSEZ1
-    old: 0000000000000000000000000000000000000000
-    new: 019610566757a749dde7e0c92777d2c1613afef8
+  - ref: refs/heads/gpio/for-next
+    old: 1f4a640e9ac7f450752365541ad9c064b13ef8bf
+    new: 01aab9fd0a838a6195863b0b019eed648f41edb2
+    log: |
+         01aab9fd0a838a6195863b0b019eed648f41edb2 gpiolib: remove leftover spinlock bits
+         
