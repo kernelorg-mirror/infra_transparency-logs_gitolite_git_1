@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============8455852496505992525=="
+Content-Type: multipart/mixed; boundary="===============3566277458772787330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 31 Oct 2024 10:29:12 -0000
-Message-Id: <173037055299.97658.18350916396357015341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 31 Oct 2024 10:29:14 -0000
+Message-Id: <173037055465.97716.17909555335513584353@gitolite.kernel.org>
 
---===============8455852496505992525==
+--===============3566277458772787330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 8dcf0d4538119ad963e17c7866a2bf20583f2409
-    new: 56475f577e912b7d0082b588120f10cff0919fc5
-    log: revlist-8dcf0d453811-56475f577e91.txt
+  - ref: refs/heads/main
+    old: 637f41476384c76d3cd7dcf5947caf2c8b8d7a9b
+    new: d80a3091308491455b6501b1c4b68698c4a7cd24
+    log: revlist-637f41476384-d80a30913084.txt
 
---===============8455852496505992525==
+--===============3566277458772787330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dcf0d453811-56475f577e91.txt
+Content-Disposition: attachment; filename=revlist-637f41476384-d80a30913084.txt
 
-29abccdd23ddcb3b34f33779c5b9c0e4244f1aff gfs2: Faster gfs2_upgrade_iopen_glock wakeups
-f3228093475cbd7319510181166bc02dffadccfa gfs2: Rename GIF_{DEFERRED -> DEFER}_DELETE
-354b65de02994556690160b806ea5b3bea20f6f8 gfs2: Rename dinode_demise to evict_behavior
-488f6418f375743179265339bbb14acde4d16cc3 gfs2: Return enum evict_behavior from gfs2_upgrade_iopen_glock
-b28fafe88a7103eec6604dd10602e0161d8c1e34 gfs2: Minor delete_work_func cleanup
-59e70bdb704a92d5a897ef77a43166d84526930e gfs2: Clean up delete work processing
-30ca823bd876f5065e65ec24fdbae1c0fa51f568 gfs2: Call gfs2_queue_verify_delete from gfs2_evict_inode
-58dccc21fed73df45b1e54075196ca75ad25a39f gfs2: Update to the evict / remote delete documentation
-0f6a78ba848860166656e0268964b458ac7631ed gfs2: Use mod_delayed_work in gfs2_queue_try_to_evict
-dee445403adee9290579073d1f24442d9fcaf48f gfs2: Randomize GLF_VERIFY_DELETE work delay
-6c6249e0d6e2e899745dadfdb8262255d5d2f79e gfs2: Use get_random_u32 in gfs2_orlov_skip
-a2cddebc2661932d1320e603fe1726aaaaf9a856 gfs2: Make gfs2_inode_refresh static
-eb7ee8117acb11921362fe1db60941c3dafa47b5 gfs2: gfs2_evict_inode clarification
-56475f577e912b7d0082b588120f10cff0919fc5 gfs2: Simplify DLM_LKF_QUECVT use
+e6ab19443b36a45ebfb392775cb17d6a78dd07ea net: hns3: default enable tx bounce buffer when smmu enabled
+f2c14899caba76da93ff3fff46b4d5a8f43ce07e net: hns3: add sync command to sync io-pgtable
+3e0f7cc887b77603182dceca4d3a6e84f6a40d0a net: hns3: fixed reset failure issues caused by the incorrect reset type
+662ecfc46690e92cf630f51b5d4bbbcffe102980 net: hns3: fix missing features due to dev->features configuration too early
+2758f18a83ef283d50c0566d3f672621cc658a1a net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+5f62009ff10826fefa215da68831f42b0c36b6fb net: hns3: don't auto enable misc vector
+d1c2e2961ab460ac2433ff8ad46000582abc573c net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+3e22b7de34cbdb991a2c9c5413eeb8a6fb7da2a5 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
+2cf246143519ecc11dab754385ec42d78b6b6a05 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+d80a3091308491455b6501b1c4b68698c4a7cd24 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
 
---===============8455852496505992525==--
+--===============3566277458772787330==--
