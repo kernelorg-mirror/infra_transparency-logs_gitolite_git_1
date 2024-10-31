@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 31 Oct 2024 00:20:17 -0000
-Message-Id: <173033401759.3812800.2165518224193071902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 31 Oct 2024 00:33:09 -0000
+Message-Id: <173033478908.3821863.8545385972787280537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 41a32ecec8d8f48c97eef40fb68acc18e4895066
-    new: fb13d053bfdd5249bebdd1c253417f97cd41471e
+  - ref: refs/heads/main
+    old: 365836e010a131cce62e3e0bab0348d08ca08490
+    new: 427b064adcdeec4e41e4bc074d9a143cdfa280fa
     log: |
-         053d4694825cafeb442430bf2d95342619fad534 scripts/backup_patches: add damon/next git id on the commit message
-         322a9e1e9541f5a36738e27cf09982e0b8ae46a6 patches/next: wordsmith academic paper intro patch message
-         ce3d272af4d74e2103e0782f0212b9b67b4fa6a8 patches/next: wordsmith zero intervals fixes commit message
-         fb13d053bfdd5249bebdd1c253417f97cd41471e patches/next: rebase to latest mm-unstable
+         f247fd22e9f27d919d81861e4dcc438e0b6d179b s390/time: Add clocksource id to TOD clock
+         2d7de7a3010d713fb89b7ba99e6fdc14475ad106 s390/time: Add PtP driver
+         427b064adcdeec4e41e4bc074d9a143cdfa280fa Merge branch 'ptp-driver-for-s390-clocks'
          
