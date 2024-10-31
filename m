@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5815763779111206343=="
+Content-Type: multipart/mixed; boundary="===============2592412725266469288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 31 Oct 2024 15:39:30 -0000
-Message-Id: <173038917014.403824.9951965523825567506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 31 Oct 2024 15:39:31 -0000
+Message-Id: <173038917194.403897.13939165054187918399@gitolite.kernel.org>
 
---===============5815763779111206343==
+--===============2592412725266469288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
     log: revlist-819837584309-0fc810ae3ae1.txt
 
---===============5815763779111206343==
+--===============2592412725266469288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ c1e939a21eb111a6d6067b38e8e04b8809b64c4e Merge tag 'cgroup-for-6.12-rc5-fixes' o
 14b7d43c5c068cb9688a9fe68883f4340effb053 Merge tag 'perf-tools-fixes-for-v6.12-2-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907 x86/uaccess: Avoid barrier_nospec() in 64-bit copy_from_user()
 
---===============5815763779111206343==--
+--===============2592412725266469288==--
