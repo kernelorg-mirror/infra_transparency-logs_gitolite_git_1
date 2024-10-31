@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Thu, 31 Oct 2024 21:12:32 -0000
-Message-Id: <173040915299.729236.700272951705970994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Thu, 31 Oct 2024 21:16:28 -0000
+Message-Id: <173040938844.732852.1556466668291816809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/utils/cpu/mce/mcelog
+user: aegl
 changes:
-  - ref: refs/heads/cxl/extended-linear
-    old: c4724382d8850a1fd8ea8b7777e1ef783c31f480
-    new: 82adadebb1e8f20174c708e13571db27b13c64c7
+  - ref: refs/heads/master
+    old: cb52c8680cb5920cfede232286b798096d8b750d
+    new: 14de7661e74731ec900aa2744214503ae7f3ca7a
     log: |
-         fa842a3b4d7fccddabb554c93d3d16bc1fa0865d cxl: Add extended linear cache address alias emission for cxl events
-         82adadebb1e8f20174c708e13571db27b13c64c7 cxl: Add mce notifier to emit aliased address for extended linear cache
+         f54d45a0ed29bcb58bea61b8ee0fd85545df562c mcelog: Add support for other CPU families
+         14de7661e74731ec900aa2744214503ae7f3ca7a mcelog: Add basic support for Diamond Rapids
          
