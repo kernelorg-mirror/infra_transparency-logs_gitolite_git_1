@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 31 Oct 2024 13:01:28 -0000
-Message-Id: <173037968869.234974.14090077172827996032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 31 Oct 2024 13:07:21 -0000
+Message-Id: <173038004141.240275.3574769994524498163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: a22c9dc26d6fc522357b73858b13e29c58f49d64
-    new: 5e3eedf55f13ef20ff475eacac30d1e6f91641da
+  - ref: refs/heads/perf-ftrace-latency
+    old: 4a6ea52134f116260828c0bb64b81a163de5591d
+    new: c1e5924d458a9aa580eba72491eecf66433435f4
     log: |
-         5e3eedf55f13ef20ff475eacac30d1e6f91641da gpio: mpsse: Check for error code from devm_mutex_init() call
+         c1e5924d458a9aa580eba72491eecf66433435f4 perf ftrace latency: Introduce --min_latency to narrow into a latency range
          
