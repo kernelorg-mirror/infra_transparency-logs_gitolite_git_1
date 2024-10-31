@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 31 Oct 2024 01:54:35 -0000
-Message-Id: <173033967548.3893891.8055997159088565553@gitolite.kernel.org>
+Date: Thu, 31 Oct 2024 01:58:52 -0000
+Message-Id: <173033993290.3897140.8667082183438091260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bd03e7627c377c69508b56ab63d1339bf45a4552
-    new: a3c1185e931929255003c094a9bd4b7516238d71
+    old: a3c1185e931929255003c094a9bd4b7516238d71
+    new: 157a4881225bd0af5444aab9510e7b6da28f2469
     log: |
-         bf8207ec8c3092555365036e28d227e997864799 bna: Remove error checking for debugfs create APIs
-         67826db318dd6d105b60d4e380e97e36280b9681 bna: Remove field bnad_dentry_files[] in struct bnad
-         a3c1185e931929255003c094a9bd4b7516238d71 Merge branch 'bna-remove-error-checking-for-debugfs-create-apis'
+         32535b9410b80e656ee4169339666ed04d3dcdf6 dt-bindings: net: qcom,ethqos: add description for qcs615
+         0fb24836599372ff0489ea949afbbd3bc0e5ec6c dt-bindings: net: qcom,ethqos: add description for qcs8300
+         157a4881225bd0af5444aab9510e7b6da28f2469 Merge branch 'add-ethernet-dts-schema-for-qcs615-qcs8300'
          
