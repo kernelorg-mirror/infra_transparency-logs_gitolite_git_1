@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1749826791708006300=="
+Content-Type: multipart/mixed; boundary="===============9086777070792804098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 31 Oct 2024 21:47:39 -0000
-Message-Id: <173041125923.760980.8588356964974030473@gitolite.kernel.org>
+Date: Thu, 31 Oct 2024 21:47:41 -0000
+Message-Id: <173041126160.761129.3228712220611450617@gitolite.kernel.org>
 
---===============1749826791708006300==
+--===============9086777070792804098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bacccddbbcc3c853828745be325b24f85c8714c6
     new: 50ae879de107ca2fe2ca99180f6ba95770f32a62
     log: revlist-bacccddbbcc3-50ae879de107.txt
 
---===============1749826791708006300==
+--===============9086777070792804098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ d80a3091308491455b6501b1c4b68698c4a7cd24 Merge branch 'there-are-some-bugfix-for
 ee802a49545ac20d7021c24068badd2c280c2bf7 Merge tag 'for-net-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 50ae879de107ca2fe2ca99180f6ba95770f32a62 Merge tag 'nf-24-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============1749826791708006300==--
+--===============9086777070792804098==--
