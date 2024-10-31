@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8606275099240694841=="
+Content-Type: multipart/mixed; boundary="===============3611630692129996713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 31 Oct 2024 20:36:00 -0000
-Message-Id: <173040696037.699220.11335507317363840062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 31 Oct 2024 20:36:02 -0000
+Message-Id: <173040696227.699299.7740642135527779620@gitolite.kernel.org>
 
---===============8606275099240694841==
+--===============3611630692129996713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
     log: revlist-4236f913808c-0fc810ae3ae1.txt
 
---===============8606275099240694841==
+--===============3611630692129996713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a5384c426744ebe41dafc6e5fa3acecc05e43462 perf cap: Add __NR_capget to arch/x86 u
 14b7d43c5c068cb9688a9fe68883f4340effb053 Merge tag 'perf-tools-fixes-for-v6.12-2-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907 x86/uaccess: Avoid barrier_nospec() in 64-bit copy_from_user()
 
---===============8606275099240694841==--
+--===============3611630692129996713==--
