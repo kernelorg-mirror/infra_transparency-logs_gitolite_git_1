@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6988941147328758370=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 31 Oct 2024 19:09:49 -0000
-Message-Id: <173040178994.627910.8688412041497345942@gitolite.kernel.org>
-
---===============6988941147328758370==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 31 Oct 2024 19:21:49 -0000
+Message-Id: <173040250991.639007.16587452669263709862@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: 045a56f6b35d210b383a74bcccc5bc89a2a0d257
-    new: 86319ca634b424c39263c4b4faf117c5a42b362a
+  - ref: refs/heads/testing
+    old: e2687d0723257db5025a4cf8cefbd80bed1e2681
+    new: 812ebc6bb06580552b448cd74d80da5127316f33
     log: |
-         881b265db3902fe14005bd96c2dec054d32643c2 Don't strip trailing blank lines in patches
-         86319ca634b424c39263c4b4faf117c5a42b362a Bump the version to 0.14.3-dev
+         6ed39e8554f70aa8159d810875bba7ba8fbbe906 iio: adc: ad4000: Check for error code from devm_mutex_init() call
+         24454f35aacb5b4edb19d86ab8a63995425cb943 iio: adc: pac1921: Check for error code from devm_mutex_init() call
+         812ebc6bb06580552b448cd74d80da5127316f33 iio: chemical: bme680: use s16 variable for temp value to avoid casting
          
-
---===============6988941147328758370==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1730401818 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1730401789-30b792c6e67f0f91e74deb547e2f3bff87defae0
-
-045a56f6b35d210b383a74bcccc5bc89a2a0d257 86319ca634b424c39263c4b4faf117c5a42b362a refs/heads/stable-0.14.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZyPWGgAKCRC2xBzjVmSZ
-bDCLAP48A7VLKqA3WbrvXAzVE6gYL5iuZzOTbjuyTGeoNdfl7wEAhfmqX9CO4p++
-JdhJ2RYaEL/uSzpVENvWxOn3BYTr/AI=
-=ZN4a
------END PGP SIGNATURE-----
-
---===============6988941147328758370==--
