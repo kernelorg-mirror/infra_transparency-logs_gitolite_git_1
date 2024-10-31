@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Thu, 31 Oct 2024 10:40:05 -0000
-Message-Id: <173037120566.108505.6310536480592257564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Thu, 31 Oct 2024 10:41:24 -0000
+Message-Id: <173037128403.109146.4990117391840618588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/sysctl-next
-    old: a883f2efa625e05305aa9f6fc7ca3fae99105412
-    new: 9c738dae9534fbdf77c250132cba04e0822983b3
+  - ref: refs/heads/next
+    old: 88e98cd5d3b98df245e439345b139745e1174f57
+    new: da3d242cf169a6e8a4be6eea7411c65083e6ce75
     log: |
-         9c738dae9534fbdf77c250132cba04e0822983b3 sysctl: Reduce dput(child) calls in proc_sys_fill_cache()
+         da3d242cf169a6e8a4be6eea7411c65083e6ce75 pmdomain: imx: gpcv2: replace dev_err() with dev_err_probe()
          
