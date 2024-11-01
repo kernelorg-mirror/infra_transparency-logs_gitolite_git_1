@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 01 Nov 2024 18:01:48 -0000
-Message-Id: <173048410868.1946506.6006443091656185162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 01 Nov 2024 18:08:31 -0000
+Message-Id: <173048451127.1951218.8980274272598234268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/i2c-host-fixes-6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0b6a6ee11864fc47572dd1490995652850bb8483
+  - ref: refs/heads/master
+    old: e626a13f6fbb4697f8734333432dca577628d09a
+    new: e5e4799e2ac3619a10a9e6db7d2a51d7cc6a69ef
+    log: |
+         2e9a548009c2d804e55cdd5b0e9903756cf7d9b3 bpf: Add open coded version of kmem_cache iterator
+         e5e4799e2ac3619a10a9e6db7d2a51d7cc6a69ef selftests/bpf: Add a test for open coded kmem_cache iter
+         
