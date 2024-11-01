@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Fri, 01 Nov 2024 15:31:51 -0000
-Message-Id: <173047511186.1816401.16319405244239307405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 01 Nov 2024 15:34:16 -0000
+Message-Id: <173047525633.1817509.6506289297036312325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/drm_mm
-    old: c8004f35f9de5c195a8cab95bbdd62b7fbb1563d
-    new: 0f3c289b9bbc0a6f43e4a373a4ba0e368449e403
+  - ref: refs/heads/master
+    old: 6e10fd50dc02d25c0ca34c372f170a558f2e360a
+    new: d5c7452c29557a1718993ac7740d93326e83266e
     log: |
-         6b68f5a8086a67b6148e2ab4020764361cd67590 bpf, drm: move drm_mm to lib to be used by bpf arena
-         0f3c289b9bbc0a6f43e4a373a4ba0e368449e403 bpf: Switch bpf arena to drm_mm from maple_tree
+         d5c7452c29557a1718993ac7740d93326e83266e meson: align default distconfdir with autotools
          
