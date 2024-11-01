@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 01 Nov 2024 13:14:43 -0000
-Message-Id: <173046688374.1698418.14473009292618608954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 01 Nov 2024 13:15:05 -0000
+Message-Id: <173046690514.1700133.1814022703130834139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 96a54082424dc9d430076563031d9b576176674e
-    new: 1ed9b927e7dd8b8cff13052efe212a8ff72ec51d
+    old: b69ef01da0f2c000021d9c7241e6a275bdaae862
+    new: db526461c02cc6bd9111f98ee8ccc90cf3e08269
     log: |
-         1ed9b927e7dd8b8cff13052efe212a8ff72ec51d regmap: maple: Provide lockdep (sub)class for maple tree's internal lock
+         e36eba413b8e841e9e36e93188d82674ec7c79d1 spi: axi-spi-engine: Emit trace events for spi transfers
+         db526461c02cc6bd9111f98ee8ccc90cf3e08269 Merge remote-tracking branch 'spi/for-6.13' into spi-next
          
