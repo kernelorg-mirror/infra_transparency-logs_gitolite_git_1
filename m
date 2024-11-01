@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0309077991439617928=="
+Content-Type: multipart/mixed; boundary="===============7420999018939635143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 01 Nov 2024 06:20:14 -0000
-Message-Id: <173044201462.1372724.10217502629527181115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 01 Nov 2024 06:20:27 -0000
+Message-Id: <173044202769.1372936.5849411806012860497@gitolite.kernel.org>
 
---===============0309077991439617928==
+--===============7420999018939635143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f9f24ca362a4d84dd8aeb4b8f3ec28cb6c43dd06
     new: c88416ba074a8913cf6d61b789dd834bbca6681c
     log: revlist-f9f24ca362a4-c88416ba074a.txt
-  - ref: refs/heads/stable
-    old: 4236f913808cebef1b9e078726a4e5d56064f7ad
-    new: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
-    log: revlist-4236f913808c-0fc810ae3ae1.txt
-  - ref: refs/tags/next-20240801
-    old: 344c8e7743f55b3861bfed99f25b9d6f258b7f17
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241101
     old: 0000000000000000000000000000000000000000
     new: ec29543c01b3dbfcb9a2daa4e0cd33afb3c30c39
 
---===============0309077991439617928==
+--===============7420999018939635143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,27 +1054,4 @@ c5e93323c6ced09230835001f5bc254603d5a3c6 Merge branch 'caps-next' of git://git.k
 11423d1966e8c7864dbb463a3b270c67e1345d01 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 c88416ba074a8913cf6d61b789dd834bbca6681c Add linux-next specific files for 20241101
 
---===============0309077991439617928==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4236f913808c-0fc810ae3ae1.txt
-
-ab8aaab874c4aa378e76d0a55ce6e0fad6e042a2 tools headers UAPI: Sync linux/const.h with the kernel headers
-39c6a356201ebbd7e1db5be53fbb46ef4bfc70a4 perf trace: The return from 'write' isn't a pid
-ecabac70ff919580324b407818ee3e6c0004dcf8 perf trace augmented_raw_syscalls: Add extra array index bounds checking to satisfy some BPF verifiers
-395d38419f1853decab84acc16176b3fa5c96690 perf trace augmented_raw_syscalls: Add more checks to pass the verifier
-7fbff3c0e085745b99f220ad56fcee3ea9643d87 perf build: Change the clang check back to 12.0.1
-5d35634ecc2d2c3938bd7dc23df0ad046da1b303 perf trace: Fix non-listed archs in the syscalltbl routines
-d822ca29a4fc5278fb511790dace44836e8cc40d tools headers UAPI: Sync kvm headers with the kernel sources
-06a130e42a5bfc84795464bff023bff4c16f58c5 perf test: Handle perftool-testsuite_probe failure due to broken DWARF
-758f18158952a6287ac23679ec04c32d44ca5368 perf python: Fix up the build on architectures without HAVE_KVM_STAT_SUPPORT
-08a7d2525511ba07b8ab3dfb472a9d3df4c40f79 tools arch x86: Sync the msr-index.h copy with the kernel sources
-21a3a3d015aeee2402d14b425197d70aa3bd0d91 tools headers: Synchronize {uapi/}linux/bits.h with the kernel sources
-93e4b86b3e74e19c95b762cfeb42baa0a94f212f tools headers arm64: Sync arm64's cputype.h with the kernel sources
-55f1b540d893da740a81200450014c45a8103f54 tools headers: Update the linux/unaligned.h copy with the kernel sources
-a5384c426744ebe41dafc6e5fa3acecc05e43462 perf cap: Add __NR_capget to arch/x86 unistd
-14b7d43c5c068cb9688a9fe68883f4340effb053 Merge tag 'perf-tools-fixes-for-v6.12-2-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-0fc810ae3ae110f9e2fcccce80fc8c8d62f97907 x86/uaccess: Avoid barrier_nospec() in 64-bit copy_from_user()
-
---===============0309077991439617928==--
+--===============7420999018939635143==--
