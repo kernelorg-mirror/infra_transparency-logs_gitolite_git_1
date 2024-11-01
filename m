@@ -1,85 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============2370077220056161033=="
+Content-Type: multipart/mixed; boundary="===============0268754986436184279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 01 Nov 2024 19:08:43 -0000
-Message-Id: <173048812312.2002436.2405942572690630552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 01 Nov 2024 19:08:49 -0000
+Message-Id: <173048812959.2002635.11437013518549314483@gitolite.kernel.org>
 
---===============2370077220056161033==
+--===============0268754986436184279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/dev
-    old: a327e7ef1ed5356236a15e55be41800667238590
-    new: 622baf5d79169496973d50fc43636469e6af02b7
-    log: revlist-a327e7ef1ed5-622baf5d7916.txt
-  - ref: refs/heads/non-rcu/next
-    old: 644cbf77cbcc43cd26670d4f19ca3d3f8bfb2427
-    new: 7dc725efeb3031d69078f4630963a60fde0d7c4a
-    log: |
-         711b5875814b2a0e9a5aaf7a85ba7c80f5a389b1 tools/nolibc: s390: include std.h
-         079ec6a3cf529d86c2895059eb8be1b36cc9fd72 tools/nolibc: compiler: add macro __nolibc_fallthrough
-         ad0558f3883130954ca724697f2d19aef93967b3 selftests/nolibc: start qemu with 1 GiB of memory
-         7dc725efeb3031d69078f4630963a60fde0d7c4a Merge branches 'csd-lock.2024.10.11a' and 'lkmm.2024.10.11a', tag 'nolibc.2024.11.01a' into HEAD
-         
-  - ref: refs/heads/dev.2024.10.29a
-    old: 0000000000000000000000000000000000000000
-    new: a327e7ef1ed5356236a15e55be41800667238590
+  - ref: refs/heads/master
+    old: 6c52d4da1c742cd01a797a4d0a2d3c5a60dc9bfe
+    new: c426456857fa0957d4ef62cb1410b5e91a08aca4
+    log: revlist-6c52d4da1c74-c426456857fa.txt
 
---===============2370077220056161033==
+--===============0268754986436184279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a327e7ef1ed5-622baf5d7916.txt
+Content-Disposition: attachment; filename=revlist-6c52d4da1c74-c426456857fa.txt
 
-711b5875814b2a0e9a5aaf7a85ba7c80f5a389b1 tools/nolibc: s390: include std.h
-079ec6a3cf529d86c2895059eb8be1b36cc9fd72 tools/nolibc: compiler: add macro __nolibc_fallthrough
-ad0558f3883130954ca724697f2d19aef93967b3 selftests/nolibc: start qemu with 1 GiB of memory
-7dc725efeb3031d69078f4630963a60fde0d7c4a Merge branches 'csd-lock.2024.10.11a' and 'lkmm.2024.10.11a', tag 'nolibc.2024.11.01a' into HEAD
-11dc08e59395a9d45c0632dc3335741d283bcbf1 Merge branches 'non-rcu.2024.11.01a' and 'rcu.2024.10.28a' into HEAD
-9f5b2a5f6204dd75b965c062e6e8be96bdaddf6d rcu/nocb: Use switch/case on NOCB timer state machine
-5819a556cb7c84474a3749c5306addea22447986 rcu/nocb: Fix rcuog wake-up from offline softirq
-6022b7d821c12362716bd66b4534f38d961d788f rcu: Report callbacks enqueued on offline CPU blind spot
-b4e976c50b354de1f821d1b167acdaac0364504a perf: Fix missing RCU reader protection in perf_event_clear_cpumask()
-7868634b142ab7cdab301056ea4b2e53e7c45a94 torture: Make kvm-remote.sh give up on unresponsive system
-a0838b7e6ecf15aa5d851ec273224f8180db2448 torture: Add dowarn argument to torture_sched_setaffinity()
-12720c138a28dad2a7524fe85af76e29aa386964 rcutorture: Add random real-time preemption
-9dba24e0dc5111a0a5f537f1f2712ec4b859d075 rcutorture: Make the TREE03 scenario do preemption
-5924bae0989b5e6b7e6ffcd08b9393ca94e2f837 rcutorture: Decorate failing reader segments with CPU ID
-8ca3a2052f97997cdda74d31bcc1369771f39791 rcutorture: Use finer-grained timeouts for rcu_torture_writer() polling
-70896af704c3cf266578d8449fb8b77ad6064af8 srcu: Guarantee non-negative return value from srcu_read_lock()
-18cc42dad9fc4d8c5e6bc35ea445c89bbf5d8fa6 rcutorture: Add ->cond_sync_exp_full function to rcu_ops structure
-6910af1428278c13e455c024402b853d799663b7 EXP srcu: Make Tiny SRCU able to operate in preemptible kernels
-e65ca5f5b41663fa0dd0a611331fc93c10944d6c srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
-4a6961c83f5cadaf1bb39b7a9fbc40e2d4c61e56 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-0307405b7caa76b9d2296b62990c727d967ce725 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-747ee54fcb0f65109fddc937ea0020203726a0a9 EXP rcu Move wakeup out from under lock
-11f295cdae0f6f8bd780c5c2bede0b91fcf16f9b clocksource-wdtest: Print time values for short udelay(1)
-21caced2a09b463d77573a731db4b6384d3ffd20 rcu: Make rcu_report_exp_cpu_mult() caller acquire lock
-7ceee5175d4900471c8e7f9b672b5563a2ca3fc0 rcu: Move rcu_report_exp_rdp() setting of ->cpu_no_qs.b.exp under lock
-e002615b1ddc70fdbc16ae2eb33f66ed07cd4740 rcu: Replace open-coded rcu_exp_need_qs() from rcu_exp_handler() with call
-6c129e3f93297015956f9acbf8af8d210a60795d rcu: Make preemptible rcu_exp_handler() check idempotency
-91deb1e821eaadc28102ea3cc6f6f1fe5b673a33 rcu: Add KCSAN exclusive-writer assertions for rdp->cpu_no_qs.b.exp
-29e676e4820c73e733d065b02f798e5130b15989 rcu: Add lockdep_assert_irqs_disabled() to rcu_exp_need_qs()
-dcf05073281b39688b8d8ae9f41d3cd1a578040f rcu: Make expedited grace periods wait for initialization
-5cc8535fb0b30f4e745dc4df03c16245c058615c rcu: Split rcu_report_exp_cpu_mult() mask parameter and use for tracing
-5ef671781b15033de1527664f2e6934c35cf8c6b rcutorture: Check preemption for failing reader
-0ca08d2b212ab7b9adb31125deedbb6434dbec5e tools/memory-model: Legitimize current use of tags in LKMM macros
-92d7b857b8b27dca06c17fbab4fb503c1178d7d0 tools/memory-model: Define applicable tags on operation in tools/...
-fc34a090404394077a08c4227b707edce1b190dd tools/memory-model: Define effect of Mb tags on RMWs in tools/...
-d3e9e6ad1f0b1789ad965e171b148d53fb0bddb5 tools/memory-model: Switch to softcoded herd7 tags
-852e003ca2ce2347afe1261df6e8df159c65e3cf tools/memory-model: Distinguish between syntactic and semantic tags
-456f4d7e579ad190eb3a667e1f19171b526eeb0e rcutorture: Decorate failing reader segments with last CPU ID
-a5cf8e46fa1cb66458866f6985a37ee284c67b1b rcutorture: Add full read-side contexts to "busted" torture type
-c35e8ce605024ce0e800d0954fcedfdc80702dce rcutorture: Pretty-print rcutorture reader segments
-3940863017c1a21106ade134c81dfcb4764bb680 MAINTAINERS: Update RCU git tree
-d5e74d8e46e8e45c78ceeaa27a51413965bfd0bb EXP Test overlapping BH-disable code regions
-622baf5d79169496973d50fc43636469e6af02b7 rcutorture: Make rcutorture_one_extend() check reader state
+b8c4076db5fd24b3be047e033b1098a5366db2fc xfs: don't allocate COW extents when unsharing a hole
+6ef6a0e821d3dad6bf8a5d5508762dba9042c84b iomap: share iomap_unshare_iter predicate code with fsdax
+95472274b6fed8f2d30fbdda304e12174b3d4099 fsdax: remove zeroing code from dax_unshare_iter
+50793801fc7f6d08def48754fb0f0706b0cfc394 fsdax: dax_unshare_iter needs to copy entire blocks
+dad1b6c805692ceb7f3872bc70e6dfe12abceb91 Merge patch series "fsdax/xfs: unshare range fixes for 6.12"
+4021e685139d567b3fc862f54101ae9dbb15d8b5 fs/super.c: introduce get_tree_bdev_flags()
+14c2d97265ea5989000c428dbb7321cbd4a85f9b erofs: use get_tree_bdev_flags() to avoid misleading messages
+35100ae2dc33fc4b20c3648ed375a81e1f4b6e3a Merge patch series "fs/super.c: introduce get_tree_bdev_flags()"
+6db388585e486c0261aeef55f8bc63a9b45756c0 iomap: turn iomap_want_unshare_iter into an inline function
+894b00a3350c560990638bdf89bdf1f3d5491950 kasan: Fix Software Tag-Based KASAN with GCC
+237ab03e301d21cc8fed631a8cdb5076c92ac263 Revert "kasan: Disable Software Tag-Based KASAN with GCC"
+c83212d79be2c9886d3e6039759ecd388fd5fed1 firmware: arm_sdei: Fix the input parameter of cpuhp_remove_state()
+90a88784cdb7757feb8dd520255e6cb861f30943 MIPS: export __cmpxchg_small()
+d48e1dea3931de64c26717adc2b89743c7ab6594 btrfs: fix error propagation of split bios
+6b51b9f65cec2c5246b06eec0334ba465ba357a8 doc: correcting the debug path for cachefiles
+247d65fb122ad560be1c8c4d87d7374fb28b0770 afs: Fix missing subdir edit when renamed between parent dirs
+e65a0dc1cabe71b91ef5603e5814359451b74ca7 iov_iter: Fix iov_iter_get_pages*() for folio_queue
+bf40167d54d55d4b54d0103713d86a8638fb9290 riscv: vdso: Prevent the compiler from inserting calls to memset()
+2045fc4295c427d420aa1ff551b4de8179b6e5d5 bcachefs: Fix invalid shift in validate_sb_layout()
+5c41f75d1b921b9eaf79588cdd3b22b00fb4ec52 bcachefs: fix shift oob in alloc_lru_idx_fragmentation
+1966db682f064172891275cb951aa8c98a0a809b RISC-V: ACPI: fix early_ioremap to early_memremap
+afedc3126e11ff1404b32e538657b68022e933ca riscv: Do not use fortify in early code
+33549fcf37ec461f398f0a41e1c9948be2e5aca4 RISC-V: disallow gcc + rust builds
+d41373a4b910961df5a5e3527d7bde6ad45ca438 riscv: efi: Set NX compat flag in PE/COFF header
+37233169a6ea912020c572f870075a63293b786a riscv: Prevent a bad reference count on CPU nodes
+e0872ab72630dada3ae055bfa410bf463ff1d1e0 riscv: Use '%u' to format the output of 'cpu'
+46d4e5ac6f2f801f97bcd0ec82365969197dc9b1 riscv: Remove unused GENERATING_ASM_OFFSETS
+164f66de6bb6ef454893f193c898dc8f1da6d18b riscv: Remove duplicated GET_RM
+5f153a692bacc295f213e2c632ca557979fad7be Merge commit 'bf40167d54d5' into fixes
+a25a83de45b435cf89e55c7fb8733f83c7826004 bcachefs: fix null-ptr-deref in have_stripes()
+8e910ca20e112d7f06ba3bf631a06ddb5ce14657 bcachefs: Fix UAF in bch2_reconstruct_alloc()
+f19910006effbd08398de79ca0233ea7e480616a autofs: fix thinko in validate_dev_ioctl()
+c749d9b7ebbc5716af7a95f7768634b30d9446ec iov_iter: fix copy_page_from_iter_atomic() if KMAP_LOCAL_FORCE_MAP
+c1fa854acc72e783fa6a464d3e35766e06d18d83 bcachefs: Fix unhandled transaction restart in fallocate
+3fd27e9c57bf12c4eb1e41b87fc1aa579ec772da bcachefs: init freespace inited bits to 0 in bch2_fs_initialize
+a34eef6dd179463e70a97bbf8453b7ca21d1e666 bcachefs: Don't keep tons of cached pointers around
+e0fafac5c4b61501f60c3841649170424eda641f bcachefs: Don't filter partial list buckets in open_buckets_to_text()
+778ac324ccfad7b941bba604118e38a19800657b bcachefs: Fix deadlock on -ENOSPC w.r.t. partial open buckets
+ca959e328b2243687aa0b95de01414d13e4f3ade bcachefs: fix possible null-ptr-deref in __bch2_ec_stripe_head_get()
+3726a1970bd72419aa7a54f574635f855b98d67a bcachefs: Fix NULL ptr dereference in btree_node_iter_and_journal_peek
+1c10941e34c5fdc0357e46a25bd130d9cf40b925 ACPI: CPPC: Make rmw_lock a raw_spin_lock
+2e8a1acea8597ff42189ea94f0a63fa58640223d arm64: signal: Improve POR_EL0 handling to avoid uaccess failures
+aec8e6bf839101784f3ef037dcdb9432c3f32343 btrfs: fix use-after-free of block device file in __btrfs_free_extra_devids()
+a14968aea637bbe38a99e6089944e4ad8e6c49e5 gpio: fix uninit-value in swnode_find_gpio
+90bad749858cf88d80af7c2b23f86db4f7ad61c2 gpio: sloppy-logic-analyzer: Check for error code from devm_mutex_init() call
+a0f0625390858321525c2a8d04e174a546bd19b3 btrfs: fix extent map merging not happening for adjacent extents
+77b0d113eec49a7390ff1a08ca1923e89f5f86c6 btrfs: fix defrag not merging contiguous extents due to merged extent maps
+3e8b7238b427e05498034c240451af5f5495afda gpiolib: fix debugfs newline separators
+604888f8c3d01fddd9366161efc65cb3182831f1 gpiolib: fix debugfs dangling chip separator
+7b83601da470cfdb0a66eb9335fb6ec34d3dd876 Merge tag 'bcachefs-2024-10-31' of git://evilpiepirate.org/bcachefs
+6b4926494ed872803bb0b3c59440ac25c35c9869 Merge tag 'for-6.12-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d56239a82e3721d38ff5496f2411bf0cb57ece5c Merge tag 'vfs-6.12-rc6.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+17fa6a5f93fcd5dd936e07aee61c014d401df4ae Merge tag 'vfs-6.12-rc6.iomap' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+3dfffd506eff69e4246a0f1760e67dd90f9bbb32 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+a031e154043984cc5a073c1b7fe62abdbe25c0c6 Merge tag 'riscv-for-linus-6.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+edf0227abd7ffa3eff5510fd760123e2e15dc879 Merge tag 'gpio-fixes-for-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+c426456857fa0957d4ef62cb1410b5e91a08aca4 Merge tag 'acpi-6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============2370077220056161033==--
+--===============0268754986436184279==--
