@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1980564338051070543=="
+Content-Type: multipart/mixed; boundary="===============4531430648985196848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 01 Nov 2024 17:26:40 -0000
-Message-Id: <173048200034.1916541.5259539166862056638@gitolite.kernel.org>
+Date: Fri, 01 Nov 2024 17:26:43 -0000
+Message-Id: <173048200360.1916690.10326823839813577755@gitolite.kernel.org>
 
---===============1980564338051070543==
+--===============4531430648985196848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: c093e2b9768b3a5cd7a37ea654cd47094519f843
     new: dbb9a7ef347828870df3e5e6ddf19469a3277fc9
     log: revlist-c093e2b9768b-dbb9a7ef3478.txt
 
---===============1980564338051070543==
+--===============4531430648985196848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -567,4 +567,4 @@ d3774a4b21e98c336d71d67b7605d91f344524c9 selftests/net: Fix ./ns-XXXXXX not clea
 bc74d329ceba23f998ead4f716266da5afe319f7 netlink: Remove the dead code in netlink_proto_init()
 dbb9a7ef347828870df3e5e6ddf19469a3277fc9 net: fjes: use ethtool string helpers
 
---===============1980564338051070543==--
+--===============4531430648985196848==--
