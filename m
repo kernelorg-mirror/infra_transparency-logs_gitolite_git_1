@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4446635914510284681=="
+Content-Type: multipart/mixed; boundary="===============8180052346044184970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Nov 2024 01:09:07 -0000
-Message-Id: <173042334700.1122778.15032923054985367675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 01 Nov 2024 01:17:08 -0000
+Message-Id: <173042382875.1129743.9165706547552766197@gitolite.kernel.org>
 
---===============4446635914510284681==
+--===============8180052346044184970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 90602c251cda8a1e526efb250f28c1ea3f87cd78
-    new: 5635f189425e328097714c38341944fc40731f3d
-    log: revlist-90602c251cda-5635f189425e.txt
+  - ref: refs/heads/master
+    old: 7332df8199b8a2da56f527672ad15da3d5b4d646
+    new: 434c082e500eeec013e34c25becebe9abea3a90e
+    log: |
+         434c082e500eeec013e34c25becebe9abea3a90e change the microsoft contact for the -rc emails
+         
 
---===============4446635914510284681==
+--===============8180052346044184970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90602c251cda-5635f189425e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-740be3b9a6d73336f8c7d540842d0831dc7a808b sock_map: fix a NULL pointer dereference in sock_map_link_update_prog()
-a32aee8f0d987a7cba7fcc28002553361a392048 bpf: fix filed access without lock
-aa30eb3260b2dea3a68d3c42a39f9a09c5e99cee bpf: Force checkpoint when jmp history is too long
-1fb315892d8395cec2dae04b0cb5558731aefb37 selftests/bpf: Test with a very short loop
-13400ac8fb80c57c2bfb12ebd35ee121ce9b4d21 bpf: Fix out-of-bounds write in trie_get_next_key()
-d7f214aeacb984b9d42da0146e789f595eb09068 selftests/bpf: Add test for trie_get_next_key()
-d0b98f6a17a5cb336121302bce0c97eb5fe32d16 bpf: disallow 40-bytes extra stack for bpf_fastcall patterns
-101ccfbabf4738041273ce64e2b116cf440dea13 bpf: Free dynamically allocated bits in bpf_iter_bits_destroy()
-62a898b07b83f6f407003d8a70f0827a5af08a59 bpf: Add bpf_mem_alloc_check_size() helper
-393397fbdcad7396639d7077c33f86169184ba99 bpf: Check the validity of nr_words in bpf_iter_bits_new()
-e1339383675063ae4760d81ffe13a79981841b8d bpf: Use __u64 to save the bits in bits iterator
-ebafc1e535db19505aec3b94a4a641fe735a2eac selftests/bpf: Add three test cases for bits_iter
-053b212b3a356e47fe7772fbf19e07721393ba72 Merge branch 'fixes-for-bits-iterator'
-c40dd8c4732551605712985bc5b7045094c6458d bpf, test_run: Fix LIVE_FRAME frame update after a page has been recycled
-5635f189425e328097714c38341944fc40731f3d Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730423842 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1730423824-3d954b8bf2d25d167e45fcdc11c62a6bea04acf6
 
---===============4446635914510284681==--
+7332df8199b8a2da56f527672ad15da3d5b4d646 434c082e500eeec013e34c25becebe9abea3a90e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmckLCIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5XEP/3+HpbA4F/TdzRH73U9M
+dOiGau6q6bXNYDnsz7ebrxr3XBqky1N5gm3Rku8h2W5ae7gAYaAxHeu/WUWOJ/pJ
+9iNVgEwSB1Sjg8kkBMt+HxSgBPOwU6JIz7lInUOjgYuxocsSVfvO8ZpOGpVsCNkd
+nzZkz8VBzRwTMGuihIBrxwrVVHO9pdIOHs6oIMztjp/JTaUuWRsGiVjyEcBxnhrz
+st5Y0HiIsnJP8BASDANFXHEwPN+VvnUy5DM7KCvQM2+3tZXdd0FCm1Xv1m/oz921
+fzVHxnAfUK3yG3JcPltHQmhdg7F5LjH0XpE2Jd1n3DCln6O8/mQmSzBFLR9SjHud
+4ZYb/tmQ8o8Zxgp1gumCmOHHFrwJ1gY9apxK3UIBJ7xRomCLgCaImvLvHyprosxK
+/H2t/fLc4vV72wbHCEKia2YxE4KrqckmRMh61ZJEFlT5zNO54FWJR3x1BywAukQe
+xAPA/szbJJNiIBqMoRMVc7pnOSjgaLiuJ9AWy9rkXg/ngrib9fe8yZUrDOUV1X6e
+I0BNWKtcrSPwoYa4FvY18NRrAV610vWJZ4I5jUttP84XiOJ0HYk+Ll6noV9Aqfzh
+Gq1ICtNUmEyTzAltSVFMQhnopyjQe+EdzyKN6OKPQf+cTmFkfYJZRSC+WZncq/43
+HQtrwd4+UO1Oxojhy4m6qiHd
+=/DNJ
+-----END PGP SIGNATURE-----
+
+--===============8180052346044184970==--
