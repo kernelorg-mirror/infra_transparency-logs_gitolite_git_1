@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 01 Nov 2024 23:20:32 -0000
-Message-Id: <173050323250.2213747.45306711066503747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Fri, 01 Nov 2024 23:29:59 -0000
+Message-Id: <173050379991.2220050.7216256380716563009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 0700da8c1c9e1d55707b51bd6f0aa1a9c4aaaa6e
-    new: 038b0419fe9eaa625fe4b319ea176c50c89be131
+  - ref: refs/heads/next
+    old: 19846a672f2737300406f6af8bea00078f7656f2
+    new: 508060a88b6e928b534a53bc0363d1017babc94e
     log: |
-         038b0419fe9eaa625fe4b319ea176c50c89be131 foo
+         508060a88b6e928b534a53bc0363d1017babc94e Fix 32 bit errors
          
