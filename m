@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2097282870551957143=="
+Content-Type: multipart/mixed; boundary="===============8185521829173253750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 Nov 2024 01:03:15 -0000
-Message-Id: <173042299563.1069826.3483096411952542215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 01 Nov 2024 01:03:37 -0000
+Message-Id: <173042301771.1070121.445322113715269065@gitolite.kernel.org>
 
---===============2097282870551957143==
+--===============8185521829173253750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 90602c251cda8a1e526efb250f28c1ea3f87cd78
-    new: 5635f189425e328097714c38341944fc40731f3d
-    log: revlist-90602c251cda-5635f189425e.txt
+    old: 756eb85c6ee2b57e7b45a672deb5bd85b24da07b
+    new: 7332df8199b8a2da56f527672ad15da3d5b4d646
+    log: |
+         7332df8199b8a2da56f527672ad15da3d5b4d646 Linux 6.11.6
+         
 
---===============2097282870551957143==
+--===============8185521829173253750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90602c251cda-5635f189425e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-740be3b9a6d73336f8c7d540842d0831dc7a808b sock_map: fix a NULL pointer dereference in sock_map_link_update_prog()
-a32aee8f0d987a7cba7fcc28002553361a392048 bpf: fix filed access without lock
-aa30eb3260b2dea3a68d3c42a39f9a09c5e99cee bpf: Force checkpoint when jmp history is too long
-1fb315892d8395cec2dae04b0cb5558731aefb37 selftests/bpf: Test with a very short loop
-13400ac8fb80c57c2bfb12ebd35ee121ce9b4d21 bpf: Fix out-of-bounds write in trie_get_next_key()
-d7f214aeacb984b9d42da0146e789f595eb09068 selftests/bpf: Add test for trie_get_next_key()
-d0b98f6a17a5cb336121302bce0c97eb5fe32d16 bpf: disallow 40-bytes extra stack for bpf_fastcall patterns
-101ccfbabf4738041273ce64e2b116cf440dea13 bpf: Free dynamically allocated bits in bpf_iter_bits_destroy()
-62a898b07b83f6f407003d8a70f0827a5af08a59 bpf: Add bpf_mem_alloc_check_size() helper
-393397fbdcad7396639d7077c33f86169184ba99 bpf: Check the validity of nr_words in bpf_iter_bits_new()
-e1339383675063ae4760d81ffe13a79981841b8d bpf: Use __u64 to save the bits in bits iterator
-ebafc1e535db19505aec3b94a4a641fe735a2eac selftests/bpf: Add three test cases for bits_iter
-053b212b3a356e47fe7772fbf19e07721393ba72 Merge branch 'fixes-for-bits-iterator'
-c40dd8c4732551605712985bc5b7045094c6458d bpf, test_run: Fix LIVE_FRAME frame update after a page has been recycled
-5635f189425e328097714c38341944fc40731f3d Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730423033 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1730423015-d74e600a74cf167c491e1345b98840d714d59efa
 
---===============2097282870551957143==--
+756eb85c6ee2b57e7b45a672deb5bd85b24da07b 7332df8199b8a2da56f527672ad15da3d5b4d646 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmckKPkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p8cP/i0z+WTCoGgOcj6Y9Ffw
+dU+KznXesdM2vpEYWc/HONZh5zExN8ClO5RkztRy98eQ/1tKdOwA2SAoSy1yN82w
+D7chVS83RcVzv9l1sLRz8GG8ivl8riKtkTPfC2FMrjaDsbR7vxVC0+NzsqImyBEn
++cnPK9ZFOm5RJISNsQjEq6dBq/ljzCNQZ0+oxnZ9XBah2/2hWAjp6zqP5D4HtnE+
+zptyNHqShHS/ViF5ftff14bkylj9jxlmPry6vVodWNJTyL1kOkcgHtdKw8Cpmc4u
+3ewoJk1PAW4zzds9KSu/UOjU4Vmj6FDwyJx1il2Jf49hIVhYuL1iNAoLzE8T0qyi
+EG/DGKcYPM0sjOeZVn/gJES7k3ehU0ay+sYV2bBIDqoEZ9FCalq4ZedMMHxFNWwu
+0E2txOKRA9V15YOnT0/0sjQLDqua9VzbWKkzUmZiIMFEub02JQTnuINIzZ8p6K9Z
+ZVfV09Xp8rC06e4zRa3J/LnY2Vo0e/z/VUHAWbfj660+5GdiB+2Ot/xHsT1HypmV
+tV3Veuk6Zmq3k23UtNraYxpNjcIKCie7uYoORoWBzkOpMkYHKx+c/0WaW2Ucx8r6
+Y9qdl71zmgCiRVAJIaAIpNQXtynE5ZWEPU6OyVsucz1+k4nkZbQLkzBIatKrU36V
+o9SnnRyuhPukkWGLIf5gqRUY
+=sQqp
+-----END PGP SIGNATURE-----
+
+--===============8185521829173253750==--
