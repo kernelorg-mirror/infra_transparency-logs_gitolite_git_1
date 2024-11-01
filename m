@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 01 Nov 2024 13:33:18 -0000
-Message-Id: <173046799842.1714046.17367793689261312069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 01 Nov 2024 13:41:55 -0000
+Message-Id: <173046851574.1721432.864044501605087419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.12-rc6
+  - ref: refs/heads/tracefs/fixes
     old: 0000000000000000000000000000000000000000
-    new: 75d7c2ee34618f6f022a5ef6686b27d003c89fd0
+    new: 81983758430957d9a5cb3333fe324fd70cf63e7e
