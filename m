@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1358864373393254686=="
+Content-Type: multipart/mixed; boundary="===============2220974171201472159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 01 Nov 2024 14:17:53 -0000
-Message-Id: <173047067366.1751727.857232531778299141@gitolite.kernel.org>
+Date: Fri, 01 Nov 2024 14:18:06 -0000
+Message-Id: <173047068640.1751929.14706639299393299069@gitolite.kernel.org>
 
---===============1358864373393254686==
+--===============2220974171201472159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 81983758430957d9a5cb3333fe324fd70cf63e7e
-    new: 6c52d4da1c742cd01a797a4d0a2d3c5a60dc9bfe
-    log: revlist-819837584309-6c52d4da1c74.txt
+  - ref: refs/heads/testing
+    old: a5b94a7500c9d45a64b921b757f32872a56a9003
+    new: 3f8ebee5ea6e46b35c46dbe9836e22c6e68e1030
+    log: revlist-a5b94a7500c9-3f8ebee5ea6e.txt
 
---===============1358864373393254686==
+--===============2220974171201472159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-819837584309-6c52d4da1c74.txt
+Content-Disposition: attachment; filename=revlist-a5b94a7500c9-3f8ebee5ea6e.txt
 
 5575058ba95bb016243e54e5ca3371b9884ded56 wifi: rtw89: coex: add debug message of link counts on 2/5GHz bands for wl_info v7
 34b69548108480ebb36cb6a067974a88ec745897 wifi: mt76: do not increase mcu skb refcount if retry is not supported
@@ -91,6 +91,7 @@ cb7e509c4e0197f63717fee54fb41c4990ba8d3a scsi: ufs: core: Fix another deadlock d
 7724abf0ca77460cb06ac3d5e4352a5c2289c3ae sched_ext: Make cast_mask() inline
 c31f2ee5cd7da3086eb4fbeef9f3afdc8e01d36b sched_ext: Fix enq_last_no_enq_fails selftest
 cf44e745048df2c935cb37de16e0ca476003a3b1 wifi: mac80211: ieee80211_i: Fix memory corruption bug in struct ieee80211_chanctx
+81983758430957d9a5cb3333fe324fd70cf63e7e Linux 6.12-rc5
 d221b844ee79823ffc29b7badc4010bdb0960224 ASoC: cs42l51: Fix some error handling paths in cs42l51_probe()
 d658d59471ed80c4a8aaf082ccc3e83cdf5ae4c1 tpm: Return tpm2_sessions_init() when null key creation fails
 cc7d8594342a25693d40fe96f97e5c6c29ee609c tpm: Rollback tpm2_load_null()
@@ -207,5 +208,16 @@ c40dd8c4732551605712985bc5b7045094c6458d bpf, test_run: Fix LIVE_FRAME frame upd
 90602c251cda8a1e526efb250f28c1ea3f87cd78 Merge tag 'net-6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5635f189425e328097714c38341944fc40731f3d Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 6c52d4da1c742cd01a797a4d0a2d3c5a60dc9bfe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+3537e5eb4157d7c489f16a2c454ab67a5354561e mm/damon/core: avoid overflow in damon_feed_loop_next_input()
+130b1b8894adef77a34d765dc8b377787f034a32 hwmon: (max16065) Reorder include files to alphabetic order
+3df7b3796343b8d364a6086bc83e014442b79f46 hwmon: (max16065) Use bit operations
+05a6509a682972220362b8de2c029eb8572c78a9 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+e033b76bba661070e476baf898138e2b147927a0 Merge branch 'hwmon-next' into hwmon-staging
+821fa8a35cc9e19b8a5650d75f0839ea7ddd3f3e Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+de59dcd0f96b4b63ee746167314c688ff1b0a54e Merge branch 'hwmon-g762' into hwmon-staging
+df69e6a128380677583160cb0b2060cc91bb9e7a Merge branch 'hwmon-emc2103' into hwmon-staging
+fec080b8f756d8b82aad5c0c4c69dea6cddc556b Merge branch 'hwmon-max16065' into hwmon-staging
+01272bf22bd4b9e1921f6d6602db6ced6aa66796 Merge branch 'hwmon-staging' into testing
+3f8ebee5ea6e46b35c46dbe9836e22c6e68e1030 Merge branch 'fixes-v6.12' into testing
 
---===============1358864373393254686==--
+--===============2220974171201472159==--
