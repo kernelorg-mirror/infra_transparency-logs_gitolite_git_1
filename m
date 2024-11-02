@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 02 Nov 2024 02:17:03 -0000
-Message-Id: <173051382366.2357800.12493156263848900369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 02 Nov 2024 02:29:56 -0000
+Message-Id: <173051459605.2367184.6121351001095127323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 0144c06c5890d1ad0eea65df074cffaf4eea5a3c
-    new: b2183187c5fd30659b9caccb92f7e5e680301769
+  - ref: refs/heads/tpm_set_locality
+    old: 5d99ab3ceea27fbf2a79e6fe5c79731ea6e57b82
+    new: b1db393044bf3911b848ec84803ba8b153173949
     log: |
-         b2183187c5fd30659b9caccb92f7e5e680301769 dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
+         b1db393044bf3911b848ec84803ba8b153173949 tpm, tpm_tis: Introduce TPM_IOC_SET_LOCALITY
          
