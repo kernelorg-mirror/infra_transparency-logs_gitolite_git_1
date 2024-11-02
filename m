@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sat, 02 Nov 2024 21:56:33 -0000
-Message-Id: <173058459351.3291941.4744415066695807741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 02 Nov 2024 22:13:43 -0000
+Message-Id: <173058562302.3304314.17162354586042946297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/i3c/next
-    old: f6ca73063754950bf3fbad753e3a9557e3aa85e3
-    new: 25bc99be5fe53853053ceeaa328068c49dc1e799
+  - ref: refs/heads/master
+    old: e065fb887d9a5f8bb30fe2d3d394f8f3ee2b252b
+    new: abe992c561780704219178d648d3a89a02567b7b
     log: |
-         25bc99be5fe53853053ceeaa328068c49dc1e799 i3c: master: svc: Modify enabled_events bit 7:0 to act as IBI enable counter
+         abe992c561780704219178d648d3a89a02567b7b examples/reg-wait: add registered wait example
          
