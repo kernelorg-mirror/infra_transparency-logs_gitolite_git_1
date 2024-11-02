@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ez/bpf-next
-Date: Sat, 02 Nov 2024 10:45:28 -0000
-Message-Id: <173054432818.2759867.1633293842372257432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 02 Nov 2024 11:11:22 -0000
+Message-Id: <173054588254.2779335.11145234354679153133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ez/bpf-next
-user: ez
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/dual-compile
-    old: 1c21c6cade4884ca3275b1bcaa3a074fe90e0407
-    new: d5163a37a30b621d7f9b633bf6fc46db3410b7c4
+  - ref: refs/heads/master
+    old: c04b4977be52e734c14a898a287e9a872c73fe4b
+    new: f99eebfa2cf637ba5266139215880448e722fc69
     log: |
-         55c73dd4a3f4d6c0b8b96758e41ae1cef9c2c938 bpf: shared BPF/native kfuncs
-         954c0b7d66c5c8b425f9d1c2d411bacd5021dc15 bpf: dynamic allocation for bpf_verifier_env->subprog_info
-         bfa528110ab54e01cbeade4bdacca4af21776f65 bpf: KERNEL_VALUE register type
-         a6316d9a11b6b654828edc1a239784bbc6cbed1c bpf: inline shared helpers before verification
-         8b3cdb44cee0bccc70aa0fe63e1750332c82f85c bpf: special rules for kernel function calls inside shared helpers
-         74ada6193d23b1a74b409ec98eaa2dd5cb1bc91e bpf: allow specifying shared helpers in modules
-         55f24db1f5bd311485557aac510e4658e7d44f55 bpf: move selected dynptr kfuncs to shared_helpers.c
-         e44b14b2e96cc45c7f934942fe91ae8946ac9852 selftests/bpf: tests for shared BPF/native kfuncs
-         792f41f60217de147c2e6102915a31f28cec464e selftests/bpf: logging for tests
-         05f19a3e9a1fced056c488cace2dcb99c78bca15 selftests/bpf: {read,write}_with_timeout for send_signal
-         d5163a37a30b621d7f9b633bf6fc46db3410b7c4 selftests/bpf: trying to add simple inlining test
+         c9a1bf87b1cfe8dcc5181f2e4eec59d70bb5e471 Fixes for 6.11
+         1969c046ec3ad717253410bc2b029bdb6ad71caf Fixes for 6.6
+         79995984ef50dcd9af4573d0e316fe0f79906f93 Fixes for 6.1
+         9bf0dd1319d8f349413aaad3789dcd7329e942d4 Fixes for 5.15
+         e9976deeb1893bc26ac5886110d9c5e1b26cc0c4 Fixes for 5.10
+         23979f13aaf24db373f89e266424e4ac177a539e Fixes for 5.4
+         f99eebfa2cf637ba5266139215880448e722fc69 Fixes for 4.19
          
