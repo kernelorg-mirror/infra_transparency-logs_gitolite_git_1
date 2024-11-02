@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 02 Nov 2024 15:00:50 -0000
-Message-Id: <173055965080.2961463.1825890087952529329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 02 Nov 2024 15:02:08 -0000
+Message-Id: <173055972856.2962151.17239034805595187663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: c218214db564ca7d6885fa5859541a86197856c0
-    new: c16a8fbc0c19b381ed06ecb67ef148e0d7e5d9bb
+  - ref: refs/heads/tpm_set_locality
+    old: b1c7e63735e20095c3f0958dcbaf6b9980356665
+    new: 07658ba2f7dbb3253053932f3d3ed7793e5371d2
     log: |
-         d16081e735f5d8b8dc6b836cc215a004f3edfbab iio: dummy: use specialized event code macros
-         8fa1d9dae48a037836cd256c752402b867740789 iio: accel: mma9553: use specialized event code macros
-         c16a8fbc0c19b381ed06ecb67ef148e0d7e5d9bb iio: events: make IIO_EVENT_CODE macro private
+         07658ba2f7dbb3253053932f3d3ed7793e5371d2 tpm, tpm_tis: Allow to set locality once to a different value
          
