@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 02 Nov 2024 18:58:32 -0000
-Message-Id: <173057391296.3152304.9870556012944598872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 02 Nov 2024 19:12:50 -0000
+Message-Id: <173057477028.3163713.3546793320491034146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/crc32-lib
-    old: 6643ad6fcc45866ad2b9359eccbd019b00d396bf
-    new: 99dde97a5eadefe7c2122ed288d11b1dfa66de64
+  - ref: refs/heads/nfsd-testing
+    old: 4f67d24f723b27ed50962db32718d180d0e869da
+    new: ef7f6c4904d03ccd7478e1ac20ed75f79c4ac444
     log: |
-         99dde97a5eadefe7c2122ed288d11b1dfa66de64 RDMA/irdma: switch to using the crc32c library
+         c689bdd3bffad887207bc5b36abdc0efeb2e54d5 nfsd: further centralize protocol version checks.
+         ef7f6c4904d03ccd7478e1ac20ed75f79c4ac444 nfsd: move V4ROOT version check to nfsd_set_fh_dentry()
          
