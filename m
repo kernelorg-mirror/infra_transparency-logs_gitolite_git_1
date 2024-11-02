@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5000202008336361288=="
+Content-Type: multipart/mixed; boundary="===============8544647361584949039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 02 Nov 2024 20:08:46 -0000
-Message-Id: <173057812698.3207057.17522387767522389535@gitolite.kernel.org>
+Date: Sat, 02 Nov 2024 20:09:37 -0000
+Message-Id: <173057817704.3208205.596623078437600790@gitolite.kernel.org>
 
---===============5000202008336361288==
+--===============8544647361584949039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 0838c9ca0d76d432309dd6129cdb6c06f1660aac
     new: a508ef4b1dcc82227edc594ffae583874dd425d7
     log: revlist-0838c9ca0d76-a508ef4b1dcc.txt
 
---===============5000202008336361288==
+--===============8544647361584949039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1730578154 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1730578205 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1730578124-da02f677bb80beb758adc76fa253990d992fda57
+nonce 1730578175-95d7abca1f732405110252bda12ca1364a5b316b
 
-0838c9ca0d76d432309dd6129cdb6c06f1660aac a508ef4b1dcc82227edc594ffae583874dd425d7 refs/heads/for-next/hardening
+0838c9ca0d76d432309dd6129cdb6c06f1660aac a508ef4b1dcc82227edc594ffae583874dd425d7 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZyaG6gAKCRA2KwveOeQk
-u1TDAQD+XxKTLf2RCcrHsJPd/n85M4DX//vBfkuOaQ28amkifQD+L/fPqaVE9tsN
-3vQOHNoL03RU0q9r2eN6zkXEnjp2sQU=
-=N+ZI
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZyaHHQAKCRA2KwveOeQk
+u00+AP0btnRZ2aHoycFD/qtpq611rH0VzBkuVgTXj0Cv3Y7+xgD/d6RtGoXw3pn5
+lAH/yZOxw9H3x2k5BGRUCLPhm7Vkrgc=
+=KzJd
 -----END PGP SIGNATURE-----
 
---===============5000202008336361288==
+--===============8544647361584949039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ c8d9f2c7aa599dcebab63400f7eaa767629faf04 Merge tag 'platform-drivers-x86-v6.12-2
 6c06f6a6b48d7f1756860120d21d5ede72735bf6 MAINTAINERS: Add kernel hardening keywords __counted_by{_le|_be}
 a508ef4b1dcc82227edc594ffae583874dd425d7 lib: string_helpers: silence snprintf() output truncation warning
 
---===============5000202008336361288==--
+--===============8544647361584949039==--
