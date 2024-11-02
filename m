@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 02 Nov 2024 04:06:49 -0000
-Message-Id: <173052040938.2449913.13316305127326158153@gitolite.kernel.org>
+Date: Sat, 02 Nov 2024 05:58:39 -0000
+Message-Id: <173052711978.2536902.6153059283039647531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm_set_locality
-    old: 9987d947b3e2ad6b38e744bfc5eed3fb67a46755
-    new: 613d48a1afc169ad56b5bbdee085cf87eb18ca62
+    old: 613d48a1afc169ad56b5bbdee085cf87eb18ca62
+    new: b6f2bea42173504cd94028345b0e70b4ba50636e
     log: |
-         e609475a23a1589e0eab1e3f329860a9e0569e43 tpm, tpm_tis: Introduce TPM_IOC_SET_LOCALITY
-         613d48a1afc169ad56b5bbdee085cf87eb18ca62 tpm: show the default locality in sysfs
+         a37efe5b30a8d76f71ef4ee4a2baa685fc0e513b tpm, tpm_tis: Introduce TPM_IOC_SET_LOCALITY
+         b6f2bea42173504cd94028345b0e70b4ba50636e tpm: show the default locality in sysfs
          
