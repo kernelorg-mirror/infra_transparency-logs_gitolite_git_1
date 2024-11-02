@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1757362911946007931=="
+Content-Type: multipart/mixed; boundary="===============8423759537439413351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 02 Nov 2024 18:05:30 -0000
-Message-Id: <173057073060.3110725.10340794053250228372@gitolite.kernel.org>
+Date: Sat, 02 Nov 2024 18:09:19 -0000
+Message-Id: <173057095907.3112311.12646579817867993789@gitolite.kernel.org>
 
---===============1757362911946007931==
+--===============8423759537439413351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,37 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b02ee8fa7dbb1e4610d7d47c80eb090a9778ce4f
-    new: c5a6d3f5da3276d012eae7d333e042778000f5c2
-    log: revlist-b02ee8fa7dbb-c5a6d3f5da32.txt
+    old: c5a6d3f5da3276d012eae7d333e042778000f5c2
+    new: fd2a582169fe1fc6b5108f9c1b7df37d90b1fbcb
+    log: revlist-c5a6d3f5da32-fd2a582169fe.txt
 
---===============1757362911946007931==
+--===============8423759537439413351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b02ee8fa7dbb-c5a6d3f5da32.txt
+Content-Disposition: attachment; filename=revlist-c5a6d3f5da32-fd2a582169fe.txt
 
-2000f1e9573dbaf57ad0cbb09bd05eacb11bd0d7 Merge branch into tip/master: 'core/merge'
-c053891da97859f7f47a023e97f7755f7d4890b4 Merge branch into tip/master: 'irq/urgent'
-4ccc7a6690a6f6d47784886357220bd4a423aa10 Merge branch into tip/master: 'perf/urgent'
-5f9b9448a59d835a6946056fbcd586cd6285d781 Merge branch into tip/master: 'sched/urgent'
-6677ce7eff88e62ce731fbfdb2b36b580455c97a Merge branch into tip/master: 'timers/urgent'
-b7e992ee5c662297cab78f06d92129cec1e7a2b9 Merge branch into tip/master: 'x86/urgent'
-83da61f63a58bab63801c0a37a71c2ced94e4c0d Merge branch into tip/master: 'core/debugobjects'
-d373ffbada2134dacc86189c62e3b56759947426 Merge branch into tip/master: 'irq/core'
-88a78f41e27547f532fb8bab19f458a00f26d7cb Merge branch into tip/master: 'locking/core'
-321f821c0957d9a336628a0a1d3d5207ae31713a Merge branch into tip/master: 'objtool/core'
-c618be10880b73cc7b3d2ff737e87900ae0e3932 Merge branch into tip/master: 'perf/core'
-6de56ba0e1d6306ec1ec94d60684ed84f73d0bd4 Merge branch into tip/master: 'ras/core'
-45caf177ab7f8d5cabb2d66d2384c3ffbe3ee023 Merge branch into tip/master: 'sched/core'
-72de9e31d04c1540287a96f4e89341c5d358d369 Merge branch into tip/master: 'timers/core'
-95bfb1b773c8400da29476ea0917b353d54cbe3c Merge branch into tip/master: 'timers/vdso'
-4f9662c612f7bae9fa8cdf02d53bd4b3f2400444 Merge branch into tip/master: 'x86/cache'
-bebcc793dc4548a04df07e4a5af24f7be548730c Merge branch into tip/master: 'x86/cleanups'
-04a4bb473886500bebe720df49ebd9978f35c6fb Merge branch into tip/master: 'x86/cpu'
-ee640bdb294246c09d35e11e01864b0dde1aa753 Merge branch into tip/master: 'x86/microcode'
-b7c9d9e89652cd4c4a67bc56bf162dcee5bfb85e Merge branch into tip/master: 'x86/misc'
-bb576cc40aed569e2074081b3877be4107820254 Merge branch into tip/master: 'x86/mm'
-c5a6d3f5da3276d012eae7d333e042778000f5c2 Merge branch into tip/master: 'x86/sev'
+bc6531f2a7c370f3141f8d97f0862f6f96b8ab90 Merge branch into tip/master: 'irq/urgent'
+9a501f0d88f6713ba7920d4754d2775b73fa16f7 Merge branch into tip/master: 'perf/urgent'
+bcce29b51ab4c59ae103acd19130520c09af5b1e Merge branch into tip/master: 'sched/urgent'
+a993eb7ed462fcefc8ea71b727cbf7ac6bf673b6 Merge branch into tip/master: 'timers/urgent'
+91ee90495581a0c5956dfc473aca770272b0755d Merge branch into tip/master: 'x86/urgent'
+2619c0085721caa037666ba899028937ea999f37 Merge branch into tip/master: 'core/merge'
+15db986c81e6cd87e41ee51fe8e750cd350ea5a0 Merge branch into tip/master: 'core/debugobjects'
+dfa46e13009977139bf7e0d79c22fd000bbcdfb9 Merge branch into tip/master: 'irq/core'
+5f7376bf656cc9f49febb8b2e6af6004e1eee6f9 Merge branch into tip/master: 'locking/core'
+1713eb730f0bbf03f436c21fcf3d76e78269e101 Merge branch into tip/master: 'objtool/core'
+3594492a18a5babe81a8f65b8d8fb5f01f717017 Merge branch into tip/master: 'perf/core'
+09227d8a8ac6439f98bf99125fed4a008656c82f Merge branch into tip/master: 'ras/core'
+0e683c46b0bf53d72291faf4c2a87238bf334de5 Merge branch into tip/master: 'sched/core'
+cb7f1f69d2cf7813d91ad49843ffdc71d278afd6 Merge branch into tip/master: 'timers/core'
+bd682a3db8de67af93b3ef30c09820c6a2818e24 Merge branch into tip/master: 'timers/vdso'
+5a4dc5c1bbeddf2b3a4a058040e7f011028b663f Merge branch into tip/master: 'x86/cache'
+f134ab65faaffa52a367660feee0a152df10f0a2 Merge branch into tip/master: 'x86/cleanups'
+18d86961078ccab7eb941638dc884af179dd7d7f Merge branch into tip/master: 'x86/cpu'
+3498ba87b8533926d4cdaafe06a208ba339a41d1 Merge branch into tip/master: 'x86/microcode'
+e0db8753bd2af5d6e2ba7b4b9e81cbfb4560e7f2 Merge branch into tip/master: 'x86/misc'
+a4ba8c583f831e9042644a9bb3189146a894378f Merge branch into tip/master: 'x86/mm'
+fd2a582169fe1fc6b5108f9c1b7df37d90b1fbcb Merge branch into tip/master: 'x86/sev'
 
---===============1757362911946007931==--
+--===============8423759537439413351==--
