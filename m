@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2288236309202775021=="
+Content-Type: multipart/mixed; boundary="===============4328155241617555350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 02 Nov 2024 02:37:06 -0000
-Message-Id: <173051502674.2374822.14674670750286060715@gitolite.kernel.org>
+Date: Sat, 02 Nov 2024 02:37:34 -0000
+Message-Id: <173051505418.2375307.8088092718742353652@gitolite.kernel.org>
 
---===============2288236309202775021==
+--===============4328155241617555350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
-    new: 939ec3295629892333203b852520c7d11ae7cf4c
-    log: revlist-0fc810ae3ae1-939ec3295629.txt
+  - ref: refs/heads/tpm_set_locality
+    old: 5cd2196f1ec85e99feb2cd7c681e6201894d6e27
+    new: ddfc36aaf23a3c714bddc23442c0db5637bb409c
+    log: revlist-5cd2196f1ec8-ddfc36aaf23a.txt
 
---===============2288236309202775021==
+--===============4328155241617555350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fc810ae3ae1-939ec3295629.txt
+Content-Disposition: attachment; filename=revlist-5cd2196f1ec8-ddfc36aaf23a.txt
 
 5575058ba95bb016243e54e5ca3371b9884ded56 wifi: rtw89: coex: add debug message of link counts on 2/5GHz bands for wl_info v7
 34b69548108480ebb36cb6a067974a88ec745897 wifi: mt76: do not increase mcu skb refcount if retry is not supported
@@ -269,5 +269,6 @@ b8f2566318bc3d8e94fe0979771412bc0579743e tpm: ibmvtpm: Set TPM_OPS_AUTO_STARTUP 
 e6afc59702ab07b86b34397aa2f11e8b22717132 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
 2c3d4606f77c4dea766585526b2b0cf0c8ba576c char: tpm: cr50: Add new device/vendor ID 0x50666666
 939ec3295629892333203b852520c7d11ae7cf4c tpm: Lock TPM chip in tpm_pm_suspend() first
+ddfc36aaf23a3c714bddc23442c0db5637bb409c tpm, tpm_tis: Introduce TPM_IOC_SET_LOCALITY
 
---===============2288236309202775021==--
+--===============4328155241617555350==--
