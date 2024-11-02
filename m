@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 02 Nov 2024 15:45:09 -0000
-Message-Id: <173056230961.3000366.15036740046292910020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hackermail
+Date: Sat, 02 Nov 2024 15:53:00 -0000
+Message-Id: <173056278025.3005644.1222758009145289345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/hackermail
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: c16a8fbc0c19b381ed06ecb67ef148e0d7e5d9bb
-    new: 861c99a3cdaf02d836648c896a9db63cf9e93f8c
+  - ref: refs/heads/master
+    old: cd047c934eee86b9462ee03666657ddc0c846b10
+    new: 52d6b5e1d66bab3f5608cf32c25f374cb0232e9f
     log: |
-         1bb68fa5ee8694b6b07fdd6dad0e2ae210d135fd iio: chemical: bme680: refactorize set_mode() mode
-         fff611fe6a440aac425ed6b369daa2fed5d642a7 iio: chemical: bme680: Add SCALE and RAW channels
-         896d307f7195476261b9f0c81787338d5fb25601 iio: chemical: bme680: Add triggered buffer support
-         1cdc411cbbb7cad7affe3a80cd253ef47c67ecc0 iio: chemical: bme680: Add support for preheat current
-         861c99a3cdaf02d836648c896a9db63cf9e93f8c iio: adc: pac1921: Add ACPI support to Microchip pac1921
+         e698768d8e09ab093b5dac8d5ec1eff793f5a29e TODO: Add items
+         6a2176c6098074f1d2312f44f6cfd9aa2522a790 TODO: Add items
+         52d6b5e1d66bab3f5608cf32c25f374cb0232e9f hkml_list: check curl availability from get_mails_from_pisearch()
          
+  - ref: refs/tags/v1.1.7
+    old: 0000000000000000000000000000000000000000
+    new: 9179edf9fde61272a0fad3d15594d92f2222d35d
