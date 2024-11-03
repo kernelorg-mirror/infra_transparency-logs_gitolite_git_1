@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 03 Nov 2024 18:11:04 -0000
-Message-Id: <173065746493.52468.5598182044162426719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Sun, 03 Nov 2024 18:12:20 -0000
+Message-Id: <173065754041.53077.699992650761547940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
+repo: pub/scm/libs/liba2i/liba2i
 user: alx
 changes:
   - ref: refs/heads/master
-    old: c8c905e81098ec87506b480cbab238e79d7897d2
-    new: b3a1d0a2788aee0c6c107b659d38270598ab5ce4
+    old: b182f61b063cda2b25a321498e8e103f21893f03
+    new: 0842fece1713dbc63e6ab462a27fa847ec5da3b5
     log: |
-         b3a1d0a2788aee0c6c107b659d38270598ab5ce4 share/mk/: wsfix
+         f794840e2c6dc79be7e73c94b712c1ca2b0dffd4 share/mk/: wsfix
+         0842fece1713dbc63e6ab462a27fa847ec5da3b5 share/mk/: srcfix
          
