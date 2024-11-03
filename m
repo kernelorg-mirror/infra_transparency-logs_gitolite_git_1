@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 03 Nov 2024 17:23:50 -0000
-Message-Id: <173065463040.14265.14440636578242229267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 03 Nov 2024 17:31:18 -0000
+Message-Id: <173065507845.21277.12975509950524135280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 488a69b4078a548dfdb7b022091f39d07102e25f
-    new: df5090ea8b813e8d4fb2ee129553ddd27455f28e
+  - ref: refs/heads/master
+    old: d0356c3d4efb8f1fe7e5117de54bd3327b5acb90
+    new: c8c905e81098ec87506b480cbab238e79d7897d2
     log: |
-         df5090ea8b813e8d4fb2ee129553ddd27455f28e nfs: probe for LOCALIO when client reconnects to server
+         c8c905e81098ec87506b480cbab238e79d7897d2 LICENSES/GPL-3.0-or-later.txt: Add license text
          
