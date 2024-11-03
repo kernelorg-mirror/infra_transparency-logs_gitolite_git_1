@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 03 Nov 2024 16:41:38 -0000
-Message-Id: <173065209890.4173162.1626584119719584926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 03 Nov 2024 16:47:13 -0000
+Message-Id: <173065243327.4177566.2606325565468095194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: 4907cfc1c2b39c5710daffcec0414f2d03bb9a1e
-    new: 9040b2000cf9355d34e0762a63e3a88978f17c9e
+  - ref: refs/heads/main
+    old: dbb9a7ef347828870df3e5e6ddf19469a3277fc9
+    new: f07a6e6ceb054001888e101d74036633e2aa1020
     log: |
-         d1d61c444250bc8bbe1241b88a5934ff02e321dd KEYS: trusted: return -E2BIG instead of -EINVAL
-         458362fc5730187318e9f3826cad9963fa0b0654 crypto: tpm2_key: Introduce a TPM2 key type
-         57194c4612cfa7624eb23e270566669fdd4c3988 KEYS: asymmetric: Add tpm2_key_rsa
-         9040b2000cf9355d34e0762a63e3a88978f17c9e KEYS: asymmetric: Add tpm2_key_ecdsa signer
+         a1afb959add1fad43cb337448c244ed70bac3109 dpll: add clock quality level attribute and op
+         e2017f27b6f888fb4ebc5c9a6d984bbf2f8b99ff net/mlx5: DPLL, Add clock quality level op implementation
+         f07a6e6ceb054001888e101d74036633e2aa1020 Merge branch 'dpll-expose-clock-quality-level'
          
