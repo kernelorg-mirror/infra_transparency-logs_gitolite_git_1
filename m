@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 03 Nov 2024 23:59:02 -0000
-Message-Id: <173067834275.334049.5542074541898599955@gitolite.kernel.org>
+Date: Sun, 03 Nov 2024 23:59:26 -0000
+Message-Id: <173067836626.334420.4727348824727159051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: ef9d2c8c4dfaab313a5e2f1f1c7ff0618760d696
+  - ref: refs/heads/master
+    old: 939ec3295629892333203b852520c7d11ae7cf4c
     new: baa4d934d487f058e715afbe97b1589654965c64
     log: |
          9265fed6db601ee2ec47577815387458ef4f047a tpm: Lock TPM chip in tpm_pm_suspend() first
