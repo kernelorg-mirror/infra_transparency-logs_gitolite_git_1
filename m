@@ -1,28 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sun, 03 Nov 2024 18:27:32 -0000
-Message-Id: <173065845231.64698.14633833961510163858@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8796647880169249140=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 03 Nov 2024 18:28:00 -0000
+Message-Id: <173065848055.65010.9767983840673673730@gitolite.kernel.org>
+
+--===============8796647880169249140==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/work.xattr2
-    old: a41c7edebd5156c21d1411a35789ae15263c2a67
-    new: 0539efbe0010fab1bd9246797769c1a28798d368
-    log: |
-         b8cdd2530c7d7156413c5dfc1f4bc83c1d26b446 io_[gs]etxattr_prep(): just use getname()
-         a71874379ec8c6e788a61d71b3ad014a8d9a5c08 xattr: switch to CLASS(fd)
-         53e2885f31e517765a858a5aff3472bcf924c5a2 fs: rename struct xattr_ctx to kernel_xattr_ctx
-         2513ae822b34f6ffd32e73f79899e6a599060fb4 new helper: import_xattr_name()
-         3e8637b80cf1248ad1cafabb9ae234c76fbe6db1 replace do_setxattr() with saner helpers.
-         252f1e5c92e955489459c37f3b91995cd859edf0 replace do_getxattr() with saner helpers.
-         58ee4a81a5aae8166f085159cfbbd7ad4284a1bb new helpers: file_listxattr(), filename_listxattr()
-         c139b971efb25060545acf4dae2000cff25b6f35 new helpers: file_removexattr(), filename_removexattr()
-         d4c5555965ba6fe0ad1f94b927e29a0006091b29 fs/xattr: add *at family syscalls
-         0539efbe0010fab1bd9246797769c1a28798d368 xattr: remove redundant check on variable err
-         
+  - ref: refs/heads/master
+    old: 3e5e6c9900c3d71895e8bdeacfb579462e98eba1
+    new: b9021de3ec2f39074aae92ed69c3823e30cd8cdb
+    log: revlist-3e5e6c9900c3-b9021de3ec2f.txt
+
+--===============8796647880169249140==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3e5e6c9900c3-b9021de3ec2f.txt
+
+e3dfd64c1f344ebec9397719244c27b360255855 perf: Fix missing RCU reader protection in perf_event_clear_cpumask()
+b55945c500c5723992504aa03b362fab416863a6 sched: Fix pick_next_task_fair() vs try_to_wake_up() race
+9c70b2a33cd2aa6a5a59c5523ef053bd42265209 sched/numa: Fix the potential null pointer dereference in task_numa_work()
+b5413156bad91dc2995a5c4eab1b05e56914638a posix-cpu-timers: Clear TICK_DEP_BIT_POSIX_TIMER on clone
+5f994f534120f47432092fb36f5cb0c7a80ed2bf genirq/msi: Fix off-by-one error in msi_domain_alloc()
+e6c24e2d05bb05de96ffb9bdb0ee62d20ad526f8 irqchip/gic-v4: Correctly deal with set_affinity on lazily-mapped VPEs
+5db91545ef8150c45a526675ef99e8998b648a41 sched: Pass correct scheduling policy to __setscheduler_class
+fce9642c765a18abd1db0339a7d832c29b68456a x86/amd_nb: Fix compile-testing without CONFIG_AMD_NB
+69d5e722be949a1e2409c3f2865ba6020c279db6 sched/ext: Fix scx vs sched_delayed
+8f0b844adc096feee437c6271a1419ee81383fc6 Merge tag 'irq-urgent-2024-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+68f05b251b7156b10a6f6547f7f8672ffb94100f Merge tag 'perf-urgent-2024-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+33e83ffe4c57132c73b7d3fb7919006c5296c496 Merge tag 'sched-urgent-2024-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b019b4a6706f3ee133d68a29ae92cc6695e86d6e Merge tag 'timers-urgent-2024-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9021de3ec2f39074aae92ed69c3823e30cd8cdb Merge tag 'x86-urgent-2024-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+--===============8796647880169249140==--
