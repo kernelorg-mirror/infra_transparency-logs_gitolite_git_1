@@ -1,52 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3408873133892238065=="
+Content-Type: multipart/mixed; boundary="===============0350949388705770868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 03 Nov 2024 05:38:32 -0000
-Message-Id: <173061231203.3651716.7821076978499054221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 03 Nov 2024 05:48:09 -0000
+Message-Id: <173061288945.3659617.3239914620575320778@gitolite.kernel.org>
 
---===============3408873133892238065==
+--===============0350949388705770868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: b9cc4785d613e74cd2d55b93f74ba81b86f03212
-    new: 4b9984799820b5b32b0ae1f3d8074886895a44e1
-    log: revlist-b9cc4785d613-4b9984799820.txt
+  - ref: refs/heads/nfs-localio-for-next
+    old: 1a750ba15bb3f764f22fcc9731f8991cba0b084b
+    new: 488a69b4078a548dfdb7b022091f39d07102e25f
+    log: revlist-1a750ba15bb3-488a69b4078a.txt
 
---===============3408873133892238065==
+--===============0350949388705770868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9cc4785d613-4b9984799820.txt
+Content-Disposition: attachment; filename=revlist-1a750ba15bb3-488a69b4078a.txt
 
-c7f91f6f6549dc4214466242dbea6f4a74f6e641 Merge branch into tip/master: 'irq/urgent'
-bcc905d81fef185430018d28b2a11572b8d18a50 Merge branch into tip/master: 'perf/urgent'
-6cded0d4bfe44ed06d739611ab009a872a3845ae Merge branch into tip/master: 'sched/urgent'
-1a5d4d4585e0d88d4030177cbdb1d5edd56253e3 Merge branch into tip/master: 'timers/urgent'
-2f9f041b54ecf151184ad587132b7bde32e0dcfa Merge branch into tip/master: 'x86/urgent'
-819294a01f9bff32b63970cae3d0aa8f72147136 Merge branch into tip/master: 'core/merge'
-0b7ec604185674a43a3746232475a6e8b709edd7 Merge branch into tip/master: 'core/debugobjects'
-51fb3a0996fdbe7bdfa1b9a4ed4af0cec3833fea Merge branch into tip/master: 'irq/core'
-02dbc79f59fc4085855b53bbab76405b4178610c Merge branch into tip/master: 'locking/core'
-043dd809731a531d6136f00aaa5303a1a4b5198b Merge branch into tip/master: 'objtool/core'
-e80fdae389e25c2858cc3a9f07fd8fbf29f3a25a Merge branch into tip/master: 'perf/core'
-ce9e3da8102337293b845fa527d477b61c345b02 Merge branch into tip/master: 'ras/core'
-80c792c8b5d4bbc3023e9d7900c09488c4a69159 Merge branch into tip/master: 'sched/core'
-0661b99d26b4872f72bbd05576500bd3cb459529 Merge branch into tip/master: 'timers/core'
-dab651bbecca2aa01ed5eed235f83f8817bcfb78 Merge branch into tip/master: 'timers/vdso'
-f3732d43ad8a69a9e7c5373b99d8968fb46a8fa6 Merge branch into tip/master: 'x86/cache'
-efd84d185f522b2cf6b360d25591b19621ea97a2 Merge branch into tip/master: 'x86/cleanups'
-b01651c447913a86645b63a28ecfc9224a584126 Merge branch into tip/master: 'x86/cpu'
-975c8402bde934a9cbfffd575b4a599f1210e510 Merge branch into tip/master: 'x86/microcode'
-8122c86a3dfc68389427710b2b412f94dec58144 Merge branch into tip/master: 'x86/misc'
-6c57977e6b2df2416b6299efcfc144fd3723fd96 Merge branch into tip/master: 'x86/mm'
-4b9984799820b5b32b0ae1f3d8074886895a44e1 Merge branch into tip/master: 'x86/sev'
+b1aa73885d98090e2c25388a61245105405fde67 nfs_common: move localio_lock to new lock member of nfs_uuid_t
+d226326c0bc51d92d759df01caa37b2ebbb8aa7d nfs_common: reimplement nfs_localio_invalidate_clients
+0f8dfebcf5528b372c45197d25c1727597f0912a nfs: prepare to introduce 'struct nfs_fh_localio'
+766e02b1fe2d4aaac3507873cf84893a3ee134d8 nfs: cache open nfsd_file(s) in client
+e4a002b9929272a4f3b37c73f462c648411f5023 nfsd: update percpu_ref to manage references on nfsd_net
+46d08f366ad10a2804618adab8d9b2d6cea318f4 nfsd: rename nfsd_serv_ prefixed functions and variables to nfsd_net_
+4290c0be92b742a5d29ebb6e70e17df9c6e41650 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+bdbac2941d6695e984f7353fb942ad2c7c25e1d1 nfs_common: track all open nfsd_files per LOCALIO nfs_client
+99b3e03b2ef1ae62b762a2b3b2af2c18893b0d20 nfs_common: split localio global nfs_uuids_lock
+89aeb6cf191eafe572a26c30892e2070c6ae239b nfs_common: fix nfs_localio_disable_client to not use global nfs_uuids_lock
+488a69b4078a548dfdb7b022091f39d07102e25f nfs: probe for LOCALIO when client reconnects to server
 
---===============3408873133892238065==--
+--===============0350949388705770868==--
