@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5981369434829369445=="
+Content-Type: multipart/mixed; boundary="===============4340536048934207423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 03 Nov 2024 22:29:04 -0000
-Message-Id: <173067294486.261604.1718660999508587700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 03 Nov 2024 22:32:41 -0000
+Message-Id: <173067316143.265492.11123004156329511122@gitolite.kernel.org>
 
---===============5981369434829369445==
+--===============4340536048934207423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/crc32-lib
-    old: 730d88204ef7ac0562d2054135c030d1ffd37123
-    new: 863707615f3d0ff0a67ab8b36c87de0e7ea2ad72
-    log: revlist-730d88204ef7-863707615f3d.txt
+  - ref: refs/heads/nfs-localio-for-next
+    old: 8ab7ad9c493ab65612825327102ea9bf8c83450f
+    new: 787ff84b1fcfa733e9411e468560f20c3d091490
+    log: revlist-8ab7ad9c493a-787ff84b1fcf.txt
 
---===============5981369434829369445==
+--===============4340536048934207423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-730d88204ef7-863707615f3d.txt
+Content-Disposition: attachment; filename=revlist-8ab7ad9c493a-787ff84b1fcf.txt
 
-5df8633ed44a9b50f2221cff13d4a5a7077b58e4 scsi: target: iscsi: switch to using the crc32c library
-5b13487d026b4668bc319a253b4af8d9b717ee1f dm-crypt: switch to using the crc32 library
-ee339b3e9c18d421252418e4a274a96af0fffe57 RDMA/rxe: handle ICRC correctly on big endian systems
-d596ec1bb4ee128e5cde40cc3f24f1752a08ea34 RDMA/rxe: consolidate code for calculating ICRC of packets
-3981eb2cb9c11f1ea0538aca1f0f3d0fee63ebaa RDMA/rxe: switch to using the crc32 library
-41bb431263e6970a9b4e0d691cab41cdae7affa8 RDMA/irdma: switch to using the crc32c library
-62829a2f6fdac6963f0f17cfea6dcfbb673c7a0b RDMA/siw: fix type of CRC field
-c183433f108dcb50876214bc1befc41acd2746c2 RDMA/siw: switch to using the crc32c library
-62020177fd6d696f1289d9164c3039944692a297 scsi: iscsi_tcp: switch to using the crc32c library
-6e7f8487c554f1a78e854a8513726e1f3c9aefea net: export __skb_datagram_iter()
-73d3f76b829c1580c129c36a1a1cf9b510b93aec nvme-tcp: switch to using the crc32c library
-9b23b460417d21c66d3a47f8a6a4edadae4c501c net: remove skb_copy_and_hash_datagram_iter()
-863707615f3d0ff0a67ab8b36c87de0e7ea2ad72 nvmet-tcp: switch to using the crc32c library
+ff4b057582093d60391e50203ca2fe023b4c0b53 nfs_common: move localio_lock to new lock member of nfs_uuid_t
+6388dd4a0c8d915c886d04fbd3f75972c5391da4 nfs_common: reimplement nfs_localio_invalidate_clients
+4e141c763e4aa0ba3504dc501aca7e789d446df0 nfs: prepare to introduce 'struct nfs_fh_localio'
+ed5b930d19c03bbd1bb2637a2ec2d475122a06e9 nfs: cache open nfsd_file(s) in client
+0149e3e1fc69c4e314219e35a7d58669a6074172 nfsd: update percpu_ref to manage references on nfsd_net
+e5e3066e95f28c97924baa44fe477bfecd02c551 nfsd: rename nfsd_serv_ prefixed functions and variables to nfsd_net_
+382ac6567cfa3a103e33b3d9cf9d16c9f843890f nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+fa6aed5f043ba5abb5d9cb86933333bd3df8b35e nfs_common: track all open nfsd_files per LOCALIO nfs_client
+4fab4b3c6f192e07aebf6685b94c90c4b356f08f nfs_common: split localio global nfs_uuids_lock
+764cafb4a6290124e2dd9abefd076a963c2e7071 nfs_common: fix nfs_localio_disable_client to not use global nfs_uuids_lock
+8630ec7f0bbcefa2aebef0a75d4b05fdf786ed1f nfs: probe for LOCALIO when client reconnects to server
+787ff84b1fcfa733e9411e468560f20c3d091490 nfs_common: add nfs_localio trace events
 
---===============5981369434829369445==--
+--===============4340536048934207423==--
