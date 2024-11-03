@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4340536048934207423=="
+Content-Type: multipart/mixed; boundary="===============6124190042200402957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 03 Nov 2024 22:32:41 -0000
-Message-Id: <173067316143.265492.11123004156329511122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 03 Nov 2024 22:40:02 -0000
+Message-Id: <173067360214.271018.16070008646752949945@gitolite.kernel.org>
 
---===============4340536048934207423==
+--===============6124190042200402957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 8ab7ad9c493ab65612825327102ea9bf8c83450f
-    new: 787ff84b1fcfa733e9411e468560f20c3d091490
-    log: revlist-8ab7ad9c493a-787ff84b1fcf.txt
+  - ref: refs/heads/main
+    old: 5c87206cdb537f67c51f3f9a229258dce77d9a23
+    new: 45acedec3a5fb0b90026ff65713d44b23b8409c9
+    log: revlist-5c87206cdb53-45acedec3a5f.txt
 
---===============4340536048934207423==
+--===============6124190042200402957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ab7ad9c493a-787ff84b1fcf.txt
+Content-Disposition: attachment; filename=revlist-5c87206cdb53-45acedec3a5f.txt
 
-ff4b057582093d60391e50203ca2fe023b4c0b53 nfs_common: move localio_lock to new lock member of nfs_uuid_t
-6388dd4a0c8d915c886d04fbd3f75972c5391da4 nfs_common: reimplement nfs_localio_invalidate_clients
-4e141c763e4aa0ba3504dc501aca7e789d446df0 nfs: prepare to introduce 'struct nfs_fh_localio'
-ed5b930d19c03bbd1bb2637a2ec2d475122a06e9 nfs: cache open nfsd_file(s) in client
-0149e3e1fc69c4e314219e35a7d58669a6074172 nfsd: update percpu_ref to manage references on nfsd_net
-e5e3066e95f28c97924baa44fe477bfecd02c551 nfsd: rename nfsd_serv_ prefixed functions and variables to nfsd_net_
-382ac6567cfa3a103e33b3d9cf9d16c9f843890f nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
-fa6aed5f043ba5abb5d9cb86933333bd3df8b35e nfs_common: track all open nfsd_files per LOCALIO nfs_client
-4fab4b3c6f192e07aebf6685b94c90c4b356f08f nfs_common: split localio global nfs_uuids_lock
-764cafb4a6290124e2dd9abefd076a963c2e7071 nfs_common: fix nfs_localio_disable_client to not use global nfs_uuids_lock
-8630ec7f0bbcefa2aebef0a75d4b05fdf786ed1f nfs: probe for LOCALIO when client reconnects to server
-787ff84b1fcfa733e9411e468560f20c3d091490 nfs_common: add nfs_localio trace events
+d847548c7ef44ac01c1c102ed19744c8e26ada9b dt-bindings: net: snps,dwmac: Fix "snps,kbbe" type
+8a6631f1cece09047fa44608d21d520ca65ce7d8 net: macb: avoid redundant lookup for "mdio" child node in MDIO setup
+0c30d6eedd1ec0c1382bcab9576d26413cd278a3 ipvlan: Prepare ipvlan_process_v4_outbound() to future .flowi4_tos conversion.
+937677f481259b5291001ef7c68242d366e23b64 vrf: Prepare vrf_process_v4_outbound() to future .flowi4_tos conversion.
+96111f1ec6bf14b6367395bf4d36797155ae354e net: ibm: emac: tah: use devm for kzalloc
+18082a84a7f06e9a4029daaf5a927e1e3f34f7ad net: ibm: emac: tah: use devm for mutex_init
+9f3ea8d70d6c4bde8cabf0a57efafdc139d88217 net: ibm: emac: tah: devm_platform_get_resources
+070239c07ac1623c114a3f43fe37381a5ae3a9ce net: ibm: emac: rgmii: use devm for kzalloc
+01902fe2bdd75d028dd004fa2dfc95bc65f055bc net: ibm: emac: rgmii: use devm for mutex_init
+9fb40aeeb52171ace8bdceb5f8000ec56d0582a0 net: ibm: emac: rgmii: devm_platform_get_resource
+e2da0216e55ee25f8f4a582b6ef6a3a4e7867963 net: ibm: emac: zmii: use devm for kzalloc
+3fb5272de0347da9cc7f8ed8b38e253ca06d664e net: ibm: emac: zmii: use devm for mutex_init
+c2744ab3ce28c71d01c97ecf97299c61b0884bf1 net: ibm: emac: zmii: devm_platform_get_resource
+3f55d16555492f720f54af76d614bed4ea715c7f net: ibm: emac: mal: use devm for kzalloc
+14f59154ff0b279e989e19b000bf985a3a68bf9b net: ibm: emac: mal: use devm for request_irq
+c4f5d0454cab59fb07aafbf843d3b715eb786d6e net: ibm: emac: mal: move irq maps down
+45acedec3a5fb0b90026ff65713d44b23b8409c9 Merge branch 'ibm-emac-cleanup-modules-to-use-devm'
 
---===============4340536048934207423==--
+--===============6124190042200402957==--
