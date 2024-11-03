@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Sun, 03 Nov 2024 17:19:51 -0000
-Message-Id: <173065439144.10846.2450307645307787597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 03 Nov 2024 17:23:50 -0000
+Message-Id: <173065463040.14265.14440636578242229267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/next
-    old: 508060a88b6e928b534a53bc0363d1017babc94e
-    new: 4d0be221ffce01d69a938eb2fdb26ebe57028fe1
+  - ref: refs/heads/nfs-localio-for-next
+    old: 488a69b4078a548dfdb7b022091f39d07102e25f
+    new: df5090ea8b813e8d4fb2ee129553ddd27455f28e
     log: |
-         6ae7fe991123c2e7366d2a613db993957bd8577c Version 4.4.0
-         4d0be221ffce01d69a938eb2fdb26ebe57028fe1 Fix fail connect test for OpenSUSE Build Service
+         df5090ea8b813e8d4fb2ee129553ddd27455f28e nfs: probe for LOCALIO when client reconnects to server
          
