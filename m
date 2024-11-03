@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Sun, 03 Nov 2024 21:46:56 -0000
-Message-Id: <173067041650.229536.8078637965582428744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 03 Nov 2024 22:13:02 -0000
+Message-Id: <173067198240.249169.11710981197090072972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/testing/wfamnae-next20241028-sa-with-flex
-    old: 1152e5cd0243456bbb3be9a30988e19ec3888b64
-    new: 0e7c24c783de39e1f965e8c23e96a7de29dfbfca
+  - ref: refs/heads/master
+    old: b3a1d0a2788aee0c6c107b659d38270598ab5ce4
+    new: f278509791034b87951920377c8cf9d40870b895
     log: |
-         0e7c24c783de39e1f965e8c23e96a7de29dfbfca uapi: socket: Introduce struct sockaddr_legacy
+         54a1bceb066d17801cac0ae0e37edec0580d3c0a CONTRIBUTING.d/git: Sort alphabetically
+         f278509791034b87951920377c8cf9d40870b895 CONTRIBUTING.d/git: Recommend merge.verifySignatures=true
          
