@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1044542253047681857=="
+Content-Type: multipart/mixed; boundary="===============1384676601657409211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 04 Nov 2024 16:01:18 -0000
-Message-Id: <173073607867.1192582.16651629655958974871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 04 Nov 2024 16:01:25 -0000
+Message-Id: <173073608516.1192738.5051052507554372281@gitolite.kernel.org>
 
---===============1044542253047681857==
+--===============1384676601657409211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regmap-6.13
     old: 1ed9b927e7dd8b8cff13052efe212a8ff72ec51d
     new: 953e549471cabc9d4980f1da2e9fa79f4c23da06
     log: |
          953e549471cabc9d4980f1da2e9fa79f4c23da06 regmap: irq: Set lockdep class for hierarchical IRQ domains
          
 
---===============1044542253047681857==
+--===============1384676601657409211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1730736105 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1730736076-3781a0b7f972ae9ecb37e729b883981be4efd0fb
+pusher C3F436CA30F5D8EB 1730736112 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1730736082-06a8b2bede0df44d52f2feddd4b63d1e04a802ae
 
-1ed9b927e7dd8b8cff13052efe212a8ff72ec51d 953e549471cabc9d4980f1da2e9fa79f4c23da06 refs/heads/for-6.13
+1ed9b927e7dd8b8cff13052efe212a8ff72ec51d 953e549471cabc9d4980f1da2e9fa79f4c23da06 refs/heads/regmap-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmco7+oACgkQJNaLcl1U
-h9D6Bwf/b47AxQxiqb1W7xxkHYCoVvCV8CO1W5nD5aXa4z34qoyNo/JEmw5hipWb
-saMcHXvz0B36dHuNA6Nk75adijIW+73HLGDC3tTppnlNYtg6Xn9+JpB+c8V3zlW1
-OaTg5EyL5PqN5QJ/hZhzU6BXfeMJQ0N0QqoSeKsH9qpXTQo7wRTUCNTVmNxOZQjn
-5ahqBOmMd0IBizCfEmIHIsRwCYq/h/PwbCO4uRQxN1r2YGgG9KZ+TkN9PmQrNOnT
-byeHQg3dh6rwhXNjg0gLzckJam2ZQJOiIhCsLIE0F5P60V5WQ60+/LhQW3dov49F
-MwS9qYQZ8KbApT5vZYBKub7BUjhaAQ==
-=EuaD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmco7/AACgkQJNaLcl1U
+h9Aqngf9GYHNwAYjvGuzRfhlgQ+WnofAkPt1sUxEC71E2UnbnAgK2p6T1ZaVy56J
+0ABIJr6XczZ8MIn0I8UjbIpD3xWLGiF1UTS3F6+Dx7A9W9mS2ghT0hm0hZtjEM+Y
+DNVMI6PKug0gWJn10P58ruzq39026qJRMl0DJGpRP1w7DVbBoAsLlsoeNkJ0w7Fa
+HHLjcQ2CKJPfP7YmJZeC12ySeN49LoNihbXJUdg6q9r27rqYzJo6qxS55DayNIdg
+Rag8Go+9xAWNlxPiyhJ47MOGqnjNFjEdFTW52lrfnbZ0z0/2ZnscK1642k/xCgoV
+3C1RS/TpNuTtYzwJrEHddToEA9iMpg==
+=WEnv
 -----END PGP SIGNATURE-----
 
---===============1044542253047681857==--
+--===============1384676601657409211==--
