@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2062147880444625984=="
+Content-Type: multipart/mixed; boundary="===============1143916033266707329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 Nov 2024 11:13:11 -0000
-Message-Id: <173071879116.947353.7707280715554504935@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 11:13:18 -0000
+Message-Id: <173071879874.947538.9425115297491449259@gitolite.kernel.org>
 
---===============2062147880444625984==
+--===============1143916033266707329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 9fce3672402616746dcc6007838c87bfe4c4f391
-    new: 9ae3321a80321a191dfc444ce056c13b87d0d9d5
-    log: revlist-9fce36724026-9ae3321a8032.txt
+  - ref: refs/heads/m68k-queue
+    old: 564fe8d968a4353c6d4a3773e3f6d951cb8b6ffc
+    new: 491b666e2cd0a0e5bdd425cace6ff14463674ce0
+    log: revlist-564fe8d968a4-491b666e2cd0.txt
 
---===============2062147880444625984==
+--===============1143916033266707329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fce36724026-9ae3321a8032.txt
+Content-Disposition: attachment; filename=revlist-564fe8d968a4-491b666e2cd0.txt
 
 5575058ba95bb016243e54e5ca3371b9884ded56 wifi: rtw89: coex: add debug message of link counts on 2/5GHz bands for wl_info v7
 34b69548108480ebb36cb6a067974a88ec745897 wifi: mt76: do not increase mcu skb refcount if retry is not supported
@@ -430,6 +430,8 @@ e8529dcb1218ce176d5e84168568f69e1d9de109 Merge tag 'dmaengine-fix-6.12' of git:/
 d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
-9ae3321a80321a191dfc444ce056c13b87d0d9d5 Merge tag 'v6.12-rc6'
+91628c8d0db26a9c8f9a12a840c865b4f60f67c7 m68k: atari: usb: Add ISP1160 USB host controller support
+5b2cb6e71d8811ecb056f197e15babbc1f676c53 m68k: atari: Update Kconfig.bus help text
+491b666e2cd0a0e5bdd425cace6ff14463674ce0 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2062147880444625984==--
+--===============1143916033266707329==--
