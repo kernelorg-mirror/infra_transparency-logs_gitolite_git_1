@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6586158619429469962=="
+Content-Type: multipart/mixed; boundary="===============0488476010093040105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 04 Nov 2024 18:31:21 -0000
-Message-Id: <173074508173.1318899.10486083649011070772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 04 Nov 2024 18:31:23 -0000
+Message-Id: <173074508369.1319014.16452578212932423984@gitolite.kernel.org>
 
---===============6586158619429469962==
+--===============0488476010093040105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
 
---===============6586158619429469962==
+--===============0488476010093040105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -376,4 +376,4 @@ a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-0
 a0339404fd2753c042eb7ea11bd3288dbfc38107 Merge tag 'tpmdd-next-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 557329bcecc2f55e134db8974953b32b69db9d15 Merge tag 'mmc-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 
---===============6586158619429469962==--
+--===============0488476010093040105==--
