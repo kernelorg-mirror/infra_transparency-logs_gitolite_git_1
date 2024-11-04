@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3324265687896908414=="
+Content-Type: multipart/mixed; boundary="===============7394218220608177721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 04 Nov 2024 08:56:39 -0000
-Message-Id: <173071059993.836773.16701562159578575217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 04 Nov 2024 08:56:49 -0000
+Message-Id: <173071060957.836964.15462880718766636772@gitolite.kernel.org>
 
---===============3324265687896908414==
+--===============7394218220608177721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
     log: revlist-819837584309-59b723cd2adb.txt
 
---===============3324265687896908414==
+--===============7394218220608177721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -431,4 +431,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============3324265687896908414==--
+--===============7394218220608177721==--
