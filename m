@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6672739104590003341=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 04 Nov 2024 01:48:56 -0000
-Message-Id: <173068493687.432581.8425443894311390770@gitolite.kernel.org>
-
---===============6672739104590003341==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 04 Nov 2024 01:50:52 -0000
+Message-Id: <173068505204.435881.17078908889866606199@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/seen
-    old: ceb45a96138f4c63d78389405577c0813f60e686
-    new: b911ad1425a5cdf18ee9e087ea390cb96f298ccc
-    log: revlist-ceb45a96138f-b911ad1425a5.txt
-  - ref: refs/notes/amlog
-    old: e1fd3522b8394fdb73a250824fda499e3b683188
-    new: 109bd4ddcd41f37134f48c210f06afcc0a626e97
+  - ref: refs/heads/exynos-drm-next
+    old: ed75371f4af1dee8819f81730936e92e7a886a53
+    new: 53f4b30b05b2a9db6988cb71a785837ee64d2524
     log: |
-         109bd4ddcd41f37134f48c210f06afcc0a626e97 Notes added by 'git notes add'
+         d31bbacf783daf1e71fbe5c68df93550c446bf44 drm/exynos: exynos7_drm_decon: fix uninitialized crtc reference in functions
+         f3cb045e2603e80a1633883423b2621aad77989d drm/exynos: exynos7_drm_decon: fix ideal_clk by converting it to Hz
+         5f1a453974204175f20b3788824a0fe23cc36f79 drm/exynos: exynos7_drm_decon: properly clear channels during bind
+         53f4b30b05b2a9db6988cb71a785837ee64d2524 drm/exynos: exynos7_drm_decon: add driver data and support for Exynos7870
          
-
---===============6672739104590003341==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ceb45a96138f-b911ad1425a5.txt
-
-a1fb77fcb8865e3d878baa88227c1a6e9d1dc398 t1016: clean up style
-369a3235d095b6550ffc6bcdb9adff371cbb57fa Merge branch 'ak/t1016-style' into jch
-132463910126a50d040e9684e8d2106cb3bb7419 Merge branch 'sj/ref-contents-check' into seen
-c9388658ccc65c44555dab52a3ce5e959df36926 Merge branch 'jc/strbuf-commented-something' into seen
-d495ec127575fa3189328e0b324370dd61babbe1 Merge branch 'js/libgit-rust' into seen
-8206b9a9829acbd30c90a5862104b79436e052a5 Merge branch 'es/oss-fuzz' into seen
-84e9e75807610dadcd7b32956efcf143ff8dceb0 Merge branch 'wf/diff-highlight-install' into seen
-37ed6aaeea7fc5226583b009de1bc7f89845955d Merge branch 'am/git-blame-ignore-revs-by-default' into seen
-b9601ad1daaaf927833207abd7ffaeedda2b3830 Merge branch 'la/trailer-info' into seen
-44c5ab3a3e1dd7d53fb236b45cb6615c716cd363 Merge branch 'y5/diff-pager' into seen
-dd47aa464e1cc60986a54fbe34e22732e7fd136f Merge branch 'km/config-remote-by-name' into seen
-1f09e2dd7b2a285e64a2dc42d7704caa0b4d7901 Merge branch 'bf/set-head-symref' into seen
-ce58726a3f13e311c8c2af912fed6c0cbb3bc80a Merge branch 'ps/build' into seen
-b911ad1425a5cdf18ee9e087ea390cb96f298ccc Merge branch 'cw/worktree-extension' into seen
-
---===============6672739104590003341==--
