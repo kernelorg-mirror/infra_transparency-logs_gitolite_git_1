@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 04 Nov 2024 01:51:33 -0000
-Message-Id: <173068509364.436242.11486947240540959859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 04 Nov 2024 01:53:46 -0000
+Message-Id: <173068522634.437288.5075239285181131458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-linux-next
-    old: ed75371f4af1dee8819f81730936e92e7a886a53
-    new: 53f4b30b05b2a9db6988cb71a785837ee64d2524
+  - ref: refs/heads/nfs-localio-for-next
+    old: 787ff84b1fcfa733e9411e468560f20c3d091490
+    new: 011b3478732d0ccd6962aac6d9e01db32dce3748
     log: |
-         d31bbacf783daf1e71fbe5c68df93550c446bf44 drm/exynos: exynos7_drm_decon: fix uninitialized crtc reference in functions
-         f3cb045e2603e80a1633883423b2621aad77989d drm/exynos: exynos7_drm_decon: fix ideal_clk by converting it to Hz
-         5f1a453974204175f20b3788824a0fe23cc36f79 drm/exynos: exynos7_drm_decon: properly clear channels during bind
-         53f4b30b05b2a9db6988cb71a785837ee64d2524 drm/exynos: exynos7_drm_decon: add driver data and support for Exynos7870
+         011b3478732d0ccd6962aac6d9e01db32dce3748 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
          
