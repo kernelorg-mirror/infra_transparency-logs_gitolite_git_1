@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 04 Nov 2024 01:50:52 -0000
-Message-Id: <173068505204.435881.17078908889866606199@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 01:51:33 -0000
+Message-Id: <173068509364.436242.11486947240540959859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
+  - ref: refs/heads/for-linux-next
     old: ed75371f4af1dee8819f81730936e92e7a886a53
     new: 53f4b30b05b2a9db6988cb71a785837ee64d2524
     log: |
