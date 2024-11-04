@@ -1,62 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============3866228612348248138=="
+Content-Type: multipart/mixed; boundary="===============2059964718683797461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 04 Nov 2024 05:46:24 -0000
-Message-Id: <173069918451.618600.12183906828169220120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 04 Nov 2024 05:47:30 -0000
+Message-Id: <173069925032.619220.3163673812089173570@gitolite.kernel.org>
 
---===============3866228612348248138==
+--===============2059964718683797461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: c67e9601e29a636a14626707a7b2e5832ba71a75
-    new: bf373d2919d98f3d1fe1b19a0304f72fe74386d9
-    log: |
-         f80995b2229aac67b7aa560c4e35ff29c8806d72 USB: bcma: Remove unused of_gpio.h
-         d9649a7e4d7da846ae8dfb6098b8f7ce2921bf62 dt-bindings: usb: add TUSB73x0 PCIe
-         c74c2cc7b760905f069bfb35d8844d7ced85587a USB: xhci: add support for PWRON active high
-         81e45af3d1878c401e7e7d1e6854e93645d7f50b dt-bindings: usb: Describe TUSB1046 crosspoint switch
-         7c561b8c3e83687064c957c394ed9fe49e38fe00 usb: typec: mux: Add support for the TUSB1046 crosspoint switch
-         04e3e9188291a183b27306ddb833722c0d083d6a phy: realtek: usb: fix NULL deref in rtk_usb2phy_probe
-         bf373d2919d98f3d1fe1b19a0304f72fe74386d9 phy: realtek: usb: fix NULL deref in rtk_usb3phy_probe
-         
+  - ref: refs/heads/char-misc-testing
+    old: 77e83550465900ab8454eeb9183df5927f30c599
+    new: 357dbcf27483ab0263b6938d0a4a9b8674318417
+    log: revlist-77e835504659-357dbcf27483.txt
 
---===============3866228612348248138==
+--===============2059964718683797461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730699196 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1730699181-ba6e697aaab27b9466230832cb53bf266d2c51ef
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730699262 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1730699246-ccaad1bb87ba10662efdb29fbf679fafb2f077e8
 
-c67e9601e29a636a14626707a7b2e5832ba71a75 bf373d2919d98f3d1fe1b19a0304f72fe74386d9 refs/heads/usb-testing
+77e83550465900ab8454eeb9183df5927f30c599 357dbcf27483ab0263b6938d0a4a9b8674318417 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcoX7wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+snMQAMLon+QKy1g3/SI6knL1
-X5XdvxptF2QO5JtKGMKEJ1fb5bvaWdokixmzEcZDiDeJLJvJZUb3luG13GNS/VDF
-7WQIzf/UqeIV7p6Z3gMH444jvhC5evCsn3OfcKW4bNB/B/gVh38IDBtBVV8W8O6E
-Y1GubbNl5mta04esVeoDgRTLN0hxsB8AnB6xRKNBcTzDksUbkvgxfFen22bk0U2H
-AxAP1F6pAIdLZVVnyy3QeURXeDTl9EAT9fCqruvAjx7/2CzkLyd63+sirISlEMpT
-Cbysf4SzrTPh8xq46sRGM9urgyhuH9FL4Bz+Rd+AzCTI9ZS2bZDITtjTH8iN7BuA
-EcZi7OM64+tJcV54REwjFUYi5d1ml79aEq9jx/N+vXyRkUBIEIe9wnUZ/yHGPTlM
-SstrXSHDzI4kfekIm+EQl4Mk+KDGDmBFmYdXFuQUG0VH4oRWWZUawyzRYEZj/2F4
-LU4nQNbOZ+CdeCrZdxnUhWpU+rLACWEffrHyQcSGs2ugY3kyroyZPGs2daLkckJi
-9+4kXSemJp9zPfdkdBBm1h1rJjiEihJwVCebB2Zm78XmVqh+cBy+/Ll4DbAOhN5W
-hicRLLoRaXaBydPjBkTdfFr+r4U9N08vTYNJnvmJP9akuYkL27/w823VY2+uW7Jo
-sbO2aVsTratSCOtohXx6AbSi
-=R0bU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcoX/4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cVIQAJAk/4rn11Ujl2PBsTg/
+/qfVoonDO25fdYtwFLHRdS75/ekUJ68qFBGnUo0PTSA41kLNoPQRFt+tf5YHy0a2
+ZSBJmltKm4OLjFmzLl1Pn0MS7MvfC9TIVy3jIOPR7PSFspPL6OA5MR02TnjK1xH7
+DNYmPG+4GxzKiT3xywqZTePpbqh4cqFyF4vUJXIK8CimVDU+sGy15HoQjEGCc6wj
+S3v8poFK4e96BK4djsxPZGXfRL0fokRMR+WaPfVE1+1uj9Gg0vXq8vsbPRPVOuK8
+vWCm4vUEXQOiHd36ZSwLlKLW2HNltJJGRCgmwlZ1AvVBLl8wBSu6T6+PcsieGqPX
+MmWpcPCUHZsOytX7htidPR1oWSfyj064SXGp2jfDjB5Kc3s9ZbyoDJ51hSOK4Cod
+Bx4rh3AJevtdSuGswsae6hII9yvLlGic+WvC2BOof4K+w3M5ZVCcHs3lW0QuS0Dx
+P4u2nmm37Phkb6yhUOUrpmXwwK0VUS8ssEaII1PdPQVrxW7l/fnRF6uY1fWjN/Zy
+b+g4hvImZzhr7cRgxE1ZRCEMiwb9tCGRLXJs9u92h5Q+mwxOITmGisDPHAUnnbnQ
+LKGJ/tsAB0yyyNQT5PwvTqEiF+MJNWFDNvM74CCxgAAgApvskwHZ2z0wiU6pl2pI
+MpRWf5wde7VskMpty7IgBwAc
+=hYsA
 -----END PGP SIGNATURE-----
 
---===============3866228612348248138==--
+--===============2059964718683797461==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-77e835504659-357dbcf27483.txt
+
+b36c8455407dcdb44c8dbb0fbbaa0d433993d829 rust: introduce `InPlaceModule`
+8c7a78c8191a9e8a9852e6bfb1b0e3b82b3a638b rust: add `dev_*` print macros.
+09aacc98406dac614a23bd3646e37a73820e8274 greybus: Fix a typo
+ec665a4a76a5a88cb91b9b4326a767538e5abd48 misc: rtsx: Cleanup on DRV_NAME cardreader variables
+0300a57a5f77548cbda1bf91bd80c28db4cf0fee goldfish: Fix unused const variable 'goldfish_pipe_acpi_match'
+eb2d014619d7d3638daa26b090f8bbd55b773968 dt-bindings: fuse: Move renesas,rcar-{efuse,otp} to nvmem
+b1892b69e40d6647902e96b6f5107b3f34dd22f8 nvmem: Add R-Car E-FUSE driver
+d87020c56bd574ab814e9aa041b0c9e183bc5eb4 nvmem: Correct some typos in comments
+f05671c372ec3eaea3aa06cc1cea09bb7381a9c5 nvmem: imx-iim: Convert comma to semicolon
+5f5029c68c1e5666f83d5a8faa4c3e0143b29e89 dt-bindings: nvmem: convert zii,rave-sp-eeprom.txt to yaml format
+48a3aba04d3afd8aa2246815e9af68f56015422c dt-bindings: nvmem: sprd,ums312-efuse: convert to YAML
+925494031bf2246bf5fc817b3368ee477e3eb83b dt-bindings: nvmem: sprd,sc2731-efuse: convert to YAML
+1ac3a6da03483c2c3248705c4d3e0b7b068c364a scripts/tags.sh: add regex to map IDT entries
+08765a26a1ebb7bb67b58d8a626e59444b37689c scripts/tags.sh: use list of identifiers to ignore
+9734091fa4d06d01e0da8aff2d11dcbc5bcb5410 scripts/tags.sh: Fix warnings "null expansion of name pattern"
+c667d6440f0a1eed421f5e72324f6807aef2d13c eeprom: Fix the cacography in Kconfig
+357dbcf27483ab0263b6938d0a4a9b8674318417 char: Switch back to struct platform_driver::remove()
+
+--===============2059964718683797461==--
