@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1803987870285070546=="
+Content-Type: multipart/mixed; boundary="===============7617085632152837689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 04 Nov 2024 20:24:43 -0000
-Message-Id: <173075188330.1432560.1149345198868120352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 04 Nov 2024 20:29:01 -0000
+Message-Id: <173075214176.1435965.8829484034925736717@gitolite.kernel.org>
 
---===============1803987870285070546==
+--===============7617085632152837689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 1897b5d956cccd2987bf7ae656483ec454e3922d
-    new: 18196ebf1d6a6cfb609da987d072a3a6f6575ccc
-    log: revlist-1897b5d956cc-18196ebf1d6a.txt
+  - ref: refs/heads/x86/ibt
+    old: 98c287ce2a255007cac3fa62ac3791b25b79e0f8
+    new: 62e8598e1d31c62fc827b23173786c9a5a525fb0
+    log: revlist-98c287ce2a25-62e8598e1d31.txt
 
---===============1803987870285070546==
+--===============7617085632152837689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1897b5d956cc-18196ebf1d6a.txt
+Content-Disposition: attachment; filename=revlist-98c287ce2a25-62e8598e1d31.txt
 
-73ab05aa46b02d96509cb029a8d04fca7bbde8c7 sched/core: Disable page allocation in task_tick_mm_cid()
-98442f0ccd828ac42e89281a815e9e7a97533822 sched: Fix delayed_dequeue vs switched_from_fair()
-f5aaff7bfa11fb0b2ee6b8fd7bbc16cfceea2ad3 sched/core: Dequeue PSI signals for blocked tasks that are delayed
-2934b12281abf4eb5f915086fd5699de5c497ccd HID: wacom: Hardcode (non-inverted) AES pens as BTN_TOOL_PEN
-c9bd4a82b4ed32c6d1c90500a52063e6e341517f ALSA: hda/cs8409: Fix possible NULL dereference
-fd5f14c126a65f27ada3f192b982c6797cc302c7 ALSA: scarlett2: Add error check after retrieving PEQ filter values
-32af1c8af40c6b5abfb0e6d362ec9cc801e2bcbc MAINTAINERS: use the canonical soc mailing list address and mark it as L:
-5b484feb7a26615f09b398e3ac5cefd5c85e9b37 dmaengine: cirrus: ERR_CAST() ioremap error
-26d77ce57479f4aa960f0e446e3f27be725b2d70 dmaengine: cirrus: check that output may be truncated
-29ce0bca6d5fc0f14a0b7a2c6551128fc27cb8db Documentation/process: maintainer-soc: clarify submitting patches
 dec17c8b365ede2a6f9589f4f718af77c3ebfcfd Merge tag 'soc_fsl-6.12-3' of https://github.com/chleroy/linux into arm/fixes
 b72cd67a0300f3a38e1121a91849b556fc31fad2 Merge tag 'arm-soc/for-6.12/devicetree-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
 0fb823f1cf3417e06846d1ffe2c97e10a65a847e xfs: fix integer overflow in xrep_bmap
@@ -1049,6 +1039,16 @@ e8529dcb1218ce176d5e84168568f69e1d9de109 Merge tag 'dmaengine-fix-6.12' of git:/
 d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
-18196ebf1d6a6cfb609da987d072a3a6f6575ccc Revert "nfs: don't reuse partially completed requests in nfs_lock_and_join_requests"
+d1c853bc341134b5758b678d6c5915375a2d9533 x86,kcfi: Fix EXPORT_SYMBOL vs kCFI
+e3a270ae257a3a07e223ad06df581b87ebad655b x86/cfi: Clean up linkage
+7d21f22874481068b0434702b2a67c42cbf467fb x86/boot: Mark start_secondary() with __noendbr
+c2092f285c03914f701f5510fe6c7ca5b7f28eef x86/alternative: Simplify callthunk patching
+7cab6dffd1fdd3ae70f5eb1f9ee7b5c67275079a objtool/x86: Add .tail_call_sites
+1dfcf92b318f20ae2dc015f1de01f3fd7de01e6d objtool: Rename the skylake hack to --direct-call
+34affed8a09765349735a66c7e14ca932dc63a60 x86/traps: Prepare for ENDBR poison UD1 usage
+fffb27637ae291d79460998dd9158b7c08ccf970 x86/ibt: Clean up is_endbr()
+25961651809ec1458c341a5fcb2e39e8a209af64 x86/ibt: Clean up poison_endbr()
+f8c0cdd341a8c29884b35532fd9638a2b320b286 x86/ibt: Implement IBT+
+62e8598e1d31c62fc827b23173786c9a5a525fb0 x86/early_printk: Harden early_serial
 
---===============1803987870285070546==--
+--===============7617085632152837689==--
