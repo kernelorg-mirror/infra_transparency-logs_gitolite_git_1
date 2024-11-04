@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5786844280388770623=="
+Content-Type: multipart/mixed; boundary="===============7064741911235220174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 04 Nov 2024 08:46:18 -0000
-Message-Id: <173070997857.827017.14181606521801942948@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 08:46:39 -0000
+Message-Id: <173070999935.827376.15889570689044966482@gitolite.kernel.org>
 
---===============5786844280388770623==
+--===============7064741911235220174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 26b37dcc9526a88b3e601804d81ed6474aa07b7e
-    new: 6c5789c9d2c06968532243daa235f6ff809ad71e
-    log: revlist-26b37dcc9526-6c5789c9d2c0.txt
+  - ref: refs/heads/for-next
+    old: 38cdd1eb7fa7d981da9c7e6fbc5f7b297cf940db
+    new: 6451378c27355f929b7327465f17e9cfe8214f04
+    log: revlist-38cdd1eb7fa7-6451378c2735.txt
 
---===============5786844280388770623==
+--===============7064741911235220174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26b37dcc9526-6c5789c9d2c0.txt
+Content-Disposition: attachment; filename=revlist-38cdd1eb7fa7-6451378c2735.txt
 
 391a319c81f6d7e2ab3fc8e7d1d24bd761432f7e arm64: dts: imx8-ss-audio: configure dsp node for rproc usage
 f3e22e1d8171a384bc1c0cfefa8e1bb3b6d54363 arm64: dts: imx8qxp-mek: add dsp rproc-related mem regions
@@ -50,5 +50,11 @@ a6301790885dfbc665bde7c41f01c7db38d4d5a4 arm64: dts: imx8qm-ss-hsio: fix PCI and
 8328148ae495a8cfbd6e18fa19d439c8d73a5958 arm64: dts: imx8mp-verdin: add single-master property to all i2c nodes
 0ca7699c376743b633b6419a42888dba386d5351 arm64: dts: freescale: imx8mm-verdin: Fix SD regulator startup delay
 6c5789c9d2c06968532243daa235f6ff809ad71e arm64: dts: freescale: imx8mp-verdin: Fix SD regulator startup delay
+80234e37116389c5e6cd5c698c4667ecaa60169d Merge branch 'imx/drivers' into for-next
+4d6daad66bfb3b8eec9e2b449e1022e732d38fb9 Merge branch 'imx/soc' into for-next
+c2d777effe5674d63351df3348cf4ade5bf69702 Merge branch 'imx/bindings' into for-next
+f9507080faa4fa5f3f9ba2d9deb9a15119c105f4 Merge branch 'imx/dt' into for-next
+2d062758eb889bc8b9a49e20dadc577a9db4d95e Merge branch 'imx/dt64' into for-next
+6451378c27355f929b7327465f17e9cfe8214f04 Merge branch 'imx/defconfig' into for-next
 
---===============5786844280388770623==--
+--===============7064741911235220174==--
