@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Mon, 04 Nov 2024 11:50:45 -0000
-Message-Id: <173072104505.979910.14620960790927071740@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6252449127246038514=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 04 Nov 2024 11:51:54 -0000
+Message-Id: <173072111446.980505.7435744366296871415@gitolite.kernel.org>
+
+--===============6252449127246038514==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm/smmu
-    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    new: 5492f0c4085a8fb8820ff974f17b83a7d6dab5a5
+  - ref: refs/heads/master
+    old: a3758f859a4fc8f37aca7041e0c888fd8dce3047
+    new: 107a64be4272b560e325a37f0c763a44510e43ae
     log: |
-         89edbe88db2857880b08ce363a2695eec657f51b iommu/tegra241-cmdqv: Staticize cmdqv_debugfs_dir
-         d71fa842d33c48ac2809ae11d2379b5a788792cb iommu/io-pgtable-arm: Fix stage-2 map/unmap for concatenated tables
-         d64c8053378e0e9ab61331124798688043b0dbba iommu/io-pgtable-arm: Add self test for the last page in the IAS
-         229e6ee43d2a160a1592b83aad620d6027084aad iommu/arm-smmu: Defer probe of clients after smmu device bound
-         5492f0c4085a8fb8820ff974f17b83a7d6dab5a5 iommu/tegra241-cmdqv: Fix unused variable warning
+         107a64be4272b560e325a37f0c763a44510e43ae fix up 2019 and 2020 json cve entries with original_commit_for_fix
          
+
+--===============6252449127246038514==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730721128 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1730721114-8611b9075793eac06e8fe3f1d1dfbe4adb198d2c
+
+a3758f859a4fc8f37aca7041e0c888fd8dce3047 107a64be4272b560e325a37f0c763a44510e43ae refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcotWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FkYP/0TGjwgAPKLOCOe2wtPU
+qe0Y8s6igcRwnOq3F3aVA8CD7rJV93I/kTQJnuBnP9eBZLEL5yz/r9GO5pqj04dP
+yGvAKkTSEfzCYMu16NCRrFUGISbe94ESmt0Z7CHyIITZyJTnvRUJs3elECuTX7eK
+MMGHU+nI6md7Yhob3/NBMoQRA3K+7iAgr/qg9lfI4ZynsB+nju5X3fqKxd+wSJ6N
+55ykbImvhssSzbU+Y6CuzeHLugFaiiqvwxIpNbpmBfY/hNGVxp5tszb8ryxK5ZeK
+TCfvTUyMo+B20+MCG6EwAc1pNf+twLsA1+D/gUAQnhGcA0QIiNgdtTfd5XCDPafc
+NKGZqkKgzzCavDYFWv3zOEhBn2JNdFdxrEsfttPD7fz0vfhsmyK5/ZlD094pQCYv
+RrjLpi3KCuKhnBrf8L+xKQLh330htO9reTfpUeTBpI2rVD6dWc3Jn5M1eglaTjEM
+3RtFJmWTEBnMeBgrD7UmlaU+8bYBUA3OqWuYUVZN8oUMlCu0jSMYyD743dkyERxC
+CreMRR4xoONENwADhJzckVPrhqLJF2/C6NJ4hfWQVWH8NhiUp7j+SioEsjdf6Y4B
+Z+z7zTmoaF/yyZuLciO8D31krxK5bvKe4aYUWqgdoIhfwxa/H2EeVU/1Hy+tW/RM
+vGFV5voWOVm0iECs3pVHo415
+=luYr
+-----END PGP SIGNATURE-----
+
+--===============6252449127246038514==--
