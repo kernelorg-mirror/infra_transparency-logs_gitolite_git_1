@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
 Date: Mon, 04 Nov 2024 19:03:56 -0000
-Message-Id: <173074703628.1347388.3071202953583165253@gitolite.kernel.org>
+Message-Id: <173074703680.1347428.12140823796904131495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 11191e768f66acff530e944b15a92415f8a46386
-    new: 621dcc7cb0b9a45467339add75c6bc90d0ecc972
+  - ref: refs/heads/nfsd-testing
+    old: 8f26fb29dd48549434da0e5b0408965116a3096c
+    new: a5f3047c26ef1709ee99a24f08ae71b22a84b7f4
     log: |
-         64f9b38f579a7c604d992b87b8a38ec3c23013b6 media: rzg2l-cru: Remove unneeded semicolon
-         621dcc7cb0b9a45467339add75c6bc90d0ecc972 media: platform: rzg2l-cru: rzg2l-csi2: Enclose the macro in parentheses
+         e288590c29cbd8868b54b701fef437bbc5e63ed4 NFSD: Fix READDIR on NFSv3 mounts of ext4 exports
+         a5f3047c26ef1709ee99a24f08ae71b22a84b7f4 Revert "nfs: don't reuse partially completed requests in nfs_lock_and_join_requests"
          
