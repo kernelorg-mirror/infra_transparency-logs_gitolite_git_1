@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 04 Nov 2024 14:57:50 -0000
-Message-Id: <173073227051.1137975.17839187788156932820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 04 Nov 2024 15:04:43 -0000
+Message-Id: <173073268350.1143169.4233680551229736311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/controller/qcom
-    old: 277b9297257a8ba0a2614c3f8709e13f782bafe2
-    new: fba6045161d686adc102b6ef71b2fd1e5f90a616
+  - ref: refs/heads/main
+    old: 376de1f6d8d519901b6357e038495022a931be17
+    new: 4b478306a72a2dd563d2bf25903f8b53e3d5a51d
     log: |
-         1362af92bcf5f18cdb25c095e3ba5155b823f570 PCI: qcom: Remove BDF2SID mapping config for SC8280X family SoC
-         fba6045161d686adc102b6ef71b2fd1e5f90a616 PCI: qcom: Disable ASPM L0s for X1E80100
+         fe16af92ca833cf1dcb1020fd58a5bf5513f8ff7  linux-firmware: Update firmware file for Intel BlazarI core
+         4b478306a72a2dd563d2bf25903f8b53e3d5a51d Merge branch 'main' into 'main'
          
