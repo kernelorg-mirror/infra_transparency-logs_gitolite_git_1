@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3991316015626323501=="
+Content-Type: multipart/mixed; boundary="===============7275241907990491385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 04 Nov 2024 08:14:56 -0000
-Message-Id: <173070809647.786613.4599468166493217614@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 08:15:35 -0000
+Message-Id: <173070813510.788566.9592014969347047067@gitolite.kernel.org>
 
---===============3991316015626323501==
+--===============7275241907990491385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-mika
     old: 81983758430957d9a5cb3333fe324fd70cf63e7e
     new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
     log: revlist-819837584309-59b723cd2adb.txt
 
---===============3991316015626323501==
+--===============7275241907990491385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -431,4 +431,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============3991316015626323501==--
+--===============7275241907990491385==--
