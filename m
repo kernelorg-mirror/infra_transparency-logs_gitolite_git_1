@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7121362933092675569=="
+Content-Type: multipart/mixed; boundary="===============7222482709860467509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 Nov 2024 18:42:27 -0000
-Message-Id: <173074574776.1328602.6968714655797223942@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 18:42:30 -0000
+Message-Id: <173074575017.1328683.3533504271530289318@gitolite.kernel.org>
 
---===============7121362933092675569==
+--===============7222482709860467509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: dbb9a7ef347828870df3e5e6ddf19469a3277fc9
     new: ecf99864ea6b1843773589a935bb026951bf12dd
     log: revlist-dbb9a7ef3478-ecf99864ea6b.txt
 
---===============7121362933092675569==
+--===============7222482709860467509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -116,4 +116,4 @@ b4bfd0a904e9e4b584111374adea72cc5fd83cf4 net: enetc: extract enetc_int_vector_in
 f488649e40f8900d23b86afeab7d4b78c063d5d1 MAINTAINERS: update ENETC driver files and maintainers
 ecf99864ea6b1843773589a935bb026951bf12dd Merge branch 'mx95-netc-support'
 
---===============7121362933092675569==--
+--===============7222482709860467509==--
