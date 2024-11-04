@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Mon, 04 Nov 2024 15:41:25 -0000
-Message-Id: <173073488536.1175773.16529199489997732473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 04 Nov 2024 15:41:35 -0000
+Message-Id: <173073489553.1176047.944986938890310206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
+  - ref: refs/heads/controller/keystone
+    old: a46fae5a901e5dde5e51063276d8377d4f47f0a9
+    new: 22f9b4e8b41ef290247e2413b3d905d82a5862be
+    log: |
+         22f9b4e8b41ef290247e2413b3d905d82a5862be PCI: keystone: Add link up check to ks_pcie_other_map_bus()
+         
