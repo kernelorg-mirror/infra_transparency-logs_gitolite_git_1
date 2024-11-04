@@ -1,16 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 04 Nov 2024 08:18:55 -0000
-Message-Id: <173070833536.790778.3138000171578698897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 04 Nov 2024 08:19:59 -0000
+Message-Id: <173070839984.791981.2323444170049794234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/tags/imx-dt-6.13
+  - ref: refs/tags/v6.12-rc2
     old: 0000000000000000000000000000000000000000
-    new: 71003ab1dfb38a95f81cffc58083d2d139c91777
+    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
+  - ref: refs/tags/v6.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6801a93b4309318c0a7341338184fcd4ce865936
+  - ref: refs/tags/v6.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
+  - ref: refs/tags/v6.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
+  - ref: refs/tags/v6.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
