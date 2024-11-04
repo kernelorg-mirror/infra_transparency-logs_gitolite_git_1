@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 04 Nov 2024 08:15:38 -0000
-Message-Id: <173070813832.788681.2868605485762288276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 04 Nov 2024 08:16:05 -0000
+Message-Id: <173070816583.789043.3165193105206543190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: leon
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: dae01ec714fbbf3a71947668cb61cee4cc320647
-    new: 09db69a84eca80374045063bdc8db6a21fddd7fe
+  - ref: refs/heads/mlx5-next
+    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+    new: 8ab3138a9b2dcb0ddf281240cf8cba414eb1224a
     log: |
-         aeca17561dc32fcf8c105e2d6207fdf3356c7c94 gpio: pci-idio-16: Replace deprecated PCI functions
-         09db69a84eca80374045063bdc8db6a21fddd7fe gpio: pcie-idio-24: Replace deprecated PCI functions
+         8ab3138a9b2dcb0ddf281240cf8cba414eb1224a net/mlx5: Introduce data placement ordering bits
          
