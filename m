@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7636176440507516224=="
+Content-Type: multipart/mixed; boundary="===============0956736062429485709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 04 Nov 2024 18:06:03 -0000
-Message-Id: <173074356340.1297996.14223866358017175711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 04 Nov 2024 18:06:19 -0000
+Message-Id: <173074357928.1298247.14390982793552292665@gitolite.kernel.org>
 
---===============7636176440507516224==
+--===============0956736062429485709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
 
---===============7636176440507516224==
+--===============0956736062429485709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -371,4 +371,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============7636176440507516224==--
+--===============0956736062429485709==--
