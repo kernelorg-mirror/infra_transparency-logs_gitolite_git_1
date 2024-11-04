@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0204946454846637220=="
+Content-Type: multipart/mixed; boundary="===============0559107685660237886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 04 Nov 2024 20:09:04 -0000
-Message-Id: <173075094449.1419161.1203023385792500842@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 20:09:48 -0000
+Message-Id: <173075098859.1420092.15885616831133395077@gitolite.kernel.org>
 
---===============0204946454846637220==
+--===============0559107685660237886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
-    old: e9956f71084fffc25c9edf55300e52e879da1e25
-    new: 1ed8ae547f604b6c6176aeadd98bd192c9031066
-    log: revlist-e9956f71084f-1ed8ae547f60.txt
-  - ref: refs/tags/ath12k-mlo-202411042009
+  - ref: refs/heads/ath12k-mlo-qcn9274
+    old: b8ef20ee33a6d1cfd8b6da1ff51455a0ef95f10e
+    new: 1cc97a9adf8dc0b55be8894fbeaa5f52fe0ff3f5
+    log: revlist-b8ef20ee33a6-1cc97a9adf8d.txt
+  - ref: refs/tags/ath12k-mlo-qcn9274-202411042010
     old: 0000000000000000000000000000000000000000
-    new: 1ed8ae547f604b6c6176aeadd98bd192c9031066
+    new: 1cc97a9adf8dc0b55be8894fbeaa5f52fe0ff3f5
 
---===============0204946454846637220==
+--===============0559107685660237886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9956f71084f-1ed8ae547f60.txt
+Content-Disposition: attachment; filename=revlist-b8ef20ee33a6-1cc97a9adf8d.txt
 
-4d784c042d164f10fc809e2338457036cd7c653d RDMA/srpt: Make slab cache names unique
-b4ff6e93bfd0093ce3ffc7322e89fbaa8300488f elevator: do not request_module if elevator exists
-ee7ff15bf507d4cf9a2b11b00690dfe6046ad325 elevator: Remove argument from elevator_find_get
-66691c6e2f18d2aa4b22ffb624b9bdc97e9979e4 btrfs: fix uninitialized pointer free in add_inode_ref()
-a0af4936e4a89e0006c73d5f9e969a613c99a655 btrfs: send: cleanup unneeded return variable in changed_verity()
-2ab5e243c2266c841e0f6904fad1514b18eaf510 btrfs: fix uninitialized pointer free on read_alloc_one_name() error
-940efc9fc80a29c6d9320bc79e8d2e93e0dabfcc Merge tag 'amd-pstate-v6.12-2024-10-10' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-ee4d4e8d2c3bec6ee652599ab31991055a72c322 x86/CPU/AMD: Only apply Zenbleed fix for Zen2 during late microcode load
-3fd976afe9743110f20a23f93b7ff9693f2be4bf pinctrl: nuvoton: fix a double free in ma35_pinctrl_dt_node_to_map_func()
-a716ff52bebfe806fbcf5227cee4c7bda4e6724b fib: rules: use READ_ONCE()/WRITE_ONCE() on ops->fib_rules_seq
-16207384d29287a19f81436e1953b41946aa8258 ipv4: use READ_ONCE()/WRITE_ONCE() on net->ipv4.fib_seq
-e60ea45447768c48309b944596a8a34f6bae50e2 ipv6: use READ_ONCE()/WRITE_ONCE() on fib6_table->fib_seq
-055202b16c589cc82cc8ab9d4316701547fb8853 ipmr: use READ_ONCE() to read net->ipv[46].ipmr_seq
-2698acd6ea4770809af7e65bb8b3250e0a3a807e net: do not acquire rtnl in fib_seq_sum()
-356d568fa9c04aeb0b76d103c942561f29e20a53 Merge branch 'net-remove-rtnl-from-fib_seq_sum'
-22600596b6756b166fd052d5facb66287e6f0bad ipv4: give an IPv4 dev to blackhole_netdev
-60dbdc6e08d6fe66380598ef8bb857a4474e30d9 dt-bindings: net: emaclite: Add clock support
-130fbea551c5c87e19eb1f0895c027dd342a5ae0 net: emaclite: Replace alloc_etherdev() with devm_alloc_etherdev()
-76d46d766a45e205e59af511efbb24abe22d0b4c net: emaclite: Adopt clock support
-f7cb403e9a6929c13547dc6329716110edc8bfe7 Merge branch 'net-xilinx-emaclite-adopt-clock-support'
-8a6be4bd6fb319cee63d228e37c8dda5fd1eb74a net: sparx5: fix source port register when mirroring
-5e7e69baaded70256fbf22391e30d17c089fa5c9 net: dsa: mv88e6xxx: Fix uninitialised err value
-c71bc6da6198a6d88df86094f1052bb581951d65 netdevsim: print human readable IP address
-2cf567f421dbfe7e53b7e5ddee9400da10efb75d netdevsim: copy addresses for both in and out paths
-3ec920bb978ccdc68a7dfb304d303d598d038cb1 selftests: rtnetlink: update netdevsim ipsec output format
-c4708bf3cb29e57d98553748ece74ad8f4d0b41d Merge branch 'netdevsim-better-ipsec-output-format'
-412950d5746f7aa139e14fe95338694c1f09b595 net: enetc: remove xdp_drops statistic from enetc_xdp_drop()
-c728a95ccf2a8ba544facfc30a4418d4c68c39f0 net: enetc: block concurrent XDP transmissions during ring reconfiguration
-0a93f2ca4be6c4616d371f18a3fabad2df7f8d55 net: enetc: disable Tx BD rings after they are empty
-6b58fadd44aafbbd6af5f0b965063e1fd2063992 net: enetc: disable NAPI after all rings are disabled
-0af8c8ae3484200c7ea85f6b544a73e530c0e969 Merge branch 'net-enetc-fix-some-issues-of-xdp'
-ec35b0c53cc7398143315d42342a9798094dada7 selftests: drv-net: add missing trailing backslash
-9826b9a08b9cac9c664154a5ccc2768195c80dc1 net: phy: microchip_t1s: restructure cfg read/write functions arguments
-d793beee2d801bdda59363ea87f60a31ff097cb9 net: phy: microchip_t1s: update new initial settings for LAN865X Rev.B0
-7a0414fdccf303dc306d621a710e4c5e67388075 net: phy: microchip_t1s: add support for Microchip's LAN865X Rev.B1
 117b70e4c67ba6fa64492b8fcda0826fc3928def net: phy: microchip_t1s: move LAN867X reset handling to a new function
 662d9c5fe19d957f58c1d9c95d60773157d759be net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C1
 6b079d8f7b959277e92eb66eba8dd4d03c25bb1a net: phy: microchip_t1s: add support for Microchip's LAN867X Rev.C2
@@ -1053,5 +1018,40 @@ f601294c2e26753050cc62e8121715cf7f6873f2 wifi: ath12k: handle mac_op_tx and perf
 546c40d5144f0872022eafbd752bab6ccf17b74b wifi: ath12k: mac: use lockdep_assert_wiphy() more
 2ca5f31060d76a838dcc2bcab9e17c7d19692ae3 wifi: ath12k: Defer vdev creation for MLO
 1ed8ae547f604b6c6176aeadd98bd192c9031066 wifi: ath12k: ath12k_mac_op_set_key(): fix uninitialized symbol 'ret'
+3ca4ed530f69077c1164f23f50ea50243df48bb2 wifi: ath12k: Refactor core start api
+b4432895609e2665fd561712b96d4f13d6019318 wifi: ath12k: Add helpers to get or set ath12k_hw
+7ec9b623b1563523455ae6ccf168b3b1f25a3c73 wifi: ath12k: Add ath12k_get_num_hw api
+293ef0fb6462a0699c1a7a583a183631c12cbc8a wifi: ath12k: Introduce QMI firmware ready flag
+c5774e43ab2d6d3173abab7b3f76858bcd347d80 wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
+8a8b2ded69954f1a7ac2f432cbadb492aa725c2f wifi: ath12k: rename mlo_capable_flags to single_chip_mlo_supp
+e4749d5d06798eba1362b89fc073335a7ec21c3e wifi: ath12k: Introduce device group abstraction
+4ac7f88c929c46df1260436659d686de1d5def9d wifi: ath12k: refactor core start based on hardware group
+52755d1e6e4767cd1a709bec1fb90951eb4a9727 wifi: ath12k: move ath12k_hw from per device to group
+0be9b71326beda74c82ae5ed5a7585b8aeb391a0 wifi: ath12k: Send QMI host capability after device group is ready
+a952b4595e6747cb9039bbd218348831e7fc014c wifi: ath12k: Introduce mlo_capable flag for device group
+dec5e1dcf36ce447ff4b23ce89e095fc305b48cf wifi: ath12k: parse multiple device information from device tree
+eca45f7d88945f23423847f9d60f4e4bc95ed6cc wifi: ath12k: Send partner device details in QMI MLO capability
+d2db8541c48b844f6632cdc00bedcf63b31990bc wifi: ath12k: Refactor ath12k_qmi_alloc_target_mem_chunk function
+ff76f55eb06bcb1ecc63f838220f2cfdc8dc75c4 wifi: ath12k: Add support to allocate MLO global memory region
+19e8705c4146f7760579f9416dfc735ab902cdd3 wifi: ath12k: Add MLO WMI setup and teardown helper APIs
+2db369221fb249add4c2a50ef5f5e75e9bc399d1 wifi: ath12k: Add MLO setup and teardown from core start
+f9dc8150c263ab070132289bf9fd7a125c22870a wifi: ath12k: avoid redundant code in DP Rx error process
+f579e12d1c9305199c39276566178185d98adff5 wifi: ath12k: Move to hw link id based Rx process
+49b9442cd4d2a668c8bf6e65d0bc45c13e8d7b4a wifi: ath12k: Add partner device buffer support in data path Rx process
+ebcfdb708ba9511582c21d5826815167a20ab8b7 wifi: ath12k: Add helper function to init partner cmem configuration
+9cce5a9c309af72ffdc36a30bf4fce67ee32382e wifi: ath12k: Introduce iface combination cleanup helper
+8191f319cd840dd5dc664c51bb84e435c5d82d1c wifi: ath12k: Refactor radio freq low and high information
+3b4cdb5ccfd5f809df7a7c3547bf1df42bf07bb1 wifi: ath12k: Advertise multi device iface combination
+9951828f175ed5e2515325e908d5cb0c49962b12 wifi: ath12k: fix ath12k_qmi_alloc_chunk()
+c52fc26f35e491d397962ee77886535d6657c20b wifi: ath12k: fix ar->supports_6ghz usage during hw register
+57cca33e1e068e951a58e3bb276625b49f6d0387 wifi: ath12k: pass link ID during MLO while delivering skb
+b18d96171f0458f92e54031e820a48623ba74975 wifi: ath12k: symmetrize scan vdev creation and deletion during HW scan
+7ca9dda2cc25e3bbc3c6c5e8234779a753b420ce wifi: ath12k: add can_activate_links mac ops
+ac5f9efe58ff0b0d16207406465a020897ce2901 wifi: ath12k: add no-op without debug print in WMI Rx event
+05c98adf42d1165e2cb31fb55c4a55ecb5bd9995 wifi: ath12k: remove warning print in htt mlo offset event message
+524ca25d0a9e2c6a87adea4a4e74def2e09e5f50 wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
+ebe02865f06bd864006f1aa8abff31731de21d3c wifi: ath12k: assign unique hardware link IDs during QMI host cap
+bfd7f30963adf15516f5b3a99cc5872a263ded13 wifi: mac80211: fix assigning channel in activate links
+1cc97a9adf8dc0b55be8894fbeaa5f52fe0ff3f5 wifi: ath12k: advertise MLO support and capabilities
 
---===============0204946454846637220==--
+--===============0559107685660237886==--
