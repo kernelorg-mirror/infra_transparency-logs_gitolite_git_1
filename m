@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5432564832896516278=="
+Content-Type: multipart/mixed; boundary="===============7166000157178853811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 04 Nov 2024 19:24:13 -0000
-Message-Id: <173074825307.1381547.8593193693827712169@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 19:24:32 -0000
+Message-Id: <173074827200.1381806.5484014646522890742@gitolite.kernel.org>
 
---===============5432564832896516278==
+--===============7166000157178853811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: baa4d934d487f058e715afbe97b1589654965c64
     new: 53e0d5c627f31347c66c7bb2c392c972b3dadde9
     log: revlist-baa4d934d487-53e0d5c627f3.txt
 
---===============5432564832896516278==
+--===============7166000157178853811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -142,4 +142,4 @@ a0339404fd2753c042eb7ea11bd3288dbfc38107 Merge tag 'tpmdd-next-6.12-rc7' of git:
 6a03f5ef6ea4fb543103eb93a86d2d156105b6b8 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
 53e0d5c627f31347c66c7bb2c392c972b3dadde9 char: tpm: cr50: Add new device/vendor ID 0x50666666
 
---===============5432564832896516278==--
+--===============7166000157178853811==--
