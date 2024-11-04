@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 04 Nov 2024 10:45:55 -0000
-Message-Id: <173071715512.924160.17593709593471451675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 04 Nov 2024 10:46:00 -0000
+Message-Id: <173071716029.924313.104358422322973561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/review-hans
-    old: b012170fed282151f7ba8988a347670c299f5ab3
-    new: 8b6cae3bbb9702c569d1ff055dfccf9f452c192c
+  - ref: refs/heads/v6.12-next/dts64
+    old: 6ff2d45f2121c698a57c959ae21885a048615908
+    new: 436142058e5dec67df71c0a4b159338bdda24b6b
     log: |
-         8ca8d07857c698503b2b3bf615238c87c02f064e platform/x86/amd/pmf: Add SMU metrics table support for 1Ah family 60h model
-         bceec87a73804bb4c33b9a6c96e2d27cd893a801 platform/x86/amd/pmc: Detect when STB is not available
-         b29f0df9726cea987129c044e8dc121464ff9c93 dell-smbios-base: Extends support to Alienware products
-         d3761014fcabeb496373e95c18dd090e90075fa0 dell-wmi-base: Handle META key Lock/Unlock events
-         8b6cae3bbb9702c569d1ff055dfccf9f452c192c platform/x86: ideapad-laptop: add missing Ideapad Pro 5 fn keys
+         fbcc95fceb6d179dd150df2dc613dfd9b013052c arm64: dts: mediatek: mt8186-corsola: Fix IT6505 reset line polarity
+         76ab2ae0ab9ebb2d70e6ee8a9f59911621192c37 arm64: dts: mediatek: mt6358: fix dtbs_check error
+         c4e8cf13f1740037483565d5b802764e2426515b arm64: dts: mediatek: mt8183-kukui-jacuzzi: Fix DP bridge supply names
+         aaecb1da58a72bfbd2c35d4aadc43caa02f11862 arm64: dts: mediatek: mt8183-kukui-jacuzzi: Add supplies for fixed regulators
+         436142058e5dec67df71c0a4b159338bdda24b6b arm64: dts: mediatek: mt8183-kukui: Drop bogus fixed regulators
          
