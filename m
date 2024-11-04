@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 04 Nov 2024 04:02:09 -0000
-Message-Id: <173069292944.537148.7131117134654382158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 04 Nov 2024 04:12:58 -0000
+Message-Id: <173069357824.545425.3811013079696513527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/todo
-    old: 3961f440cc602cadc29c54b68b091758038d3a2a
-    new: ad5e110b92d089cdb4af0164cab962661ed6b7ae
+  - ref: refs/heads/drivers-for-6.13
+    old: d088afa7de3cbe689954dad49e7058d2c4b8944c
+    new: 584e936feedfcf678510a749f407115bdc811fbd
     log: |
-         f61f30d9dee753a1a95a46ed9181e2a56fd22744 What's cooking (2024/10 #08)
-         bb1b5a10468af33552d2ef2e4f11cc76ff5f8626 What's cooking (2024/10 #09)
-         d486550793c7af83fa7e0d24e1f4697f45bbc655 What's cooking (2024/10 #10)
-         2cb913ae1ddab053532c170dd75017c498df3e4d What's cooking (2024/10 #11)
-         6f4f63c36b3cd786f19aa6781aefd5c61b79dfaf What's cooking (2024/10 #12)
-         16a736931f27ff774fae28024618b19bc4fc2a80 What's cooking (2024/11 #01)
-         ad5e110b92d089cdb4af0164cab962661ed6b7ae What's cooking (2024/11 #02)
+         53b3e2e0c9a36263be6874203c68bd7bd104663f dt-bindings: cache: qcom,llcc: document SAR2130P and SAR1130P
+         6dd3f08c72d607372db9b96df95fc6f462981ee2 soc: qcom: llcc: use deciman integers for bit shift values
+         1685f685ff8036c74c3b5e9006ec7ceda5bafefa soc: qcom: llcc: add support for SAR2130P and SAR1130P
+         08e2d7c64edddbc0b0885be901b3f752ea245587 dt-bindings: cache: qcom,llcc: Document the QCS615 LLCC
+         9f85ed1976bc7882a300aedb556148dbbb245b96 soc: qcom: llcc: Add configuration data for QCS615
+         a83e18ca83583ce191848ee73975894d43093cde dt-bindings: cache: qcom,llcc: Document the QCS8300 LLCC
+         584e936feedfcf678510a749f407115bdc811fbd soc: qcom: llcc: Add LLCC configuration for the QCS8300 platform
          
