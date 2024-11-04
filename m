@@ -1,40 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 04 Nov 2024 16:18:32 -0000
-Message-Id: <173073711252.1206943.10207235949234020261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 04 Nov 2024 16:35:53 -0000
+Message-Id: <173073815376.1222237.8025769843555396275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: d9de9f55ca9181b1166f5d8aed483587d7a3c8b6
-    new: 6db936d4ac0fe281af48b4d1ebf69b1523bbac31
+  - ref: refs/heads/dm-6.12
+    old: 13f9c6da78c7f39041c2ae0b349b679150d07868
+    new: 7f6a77b04cf5d09bdf314a165fa939d68fbeb8ff
     log: |
-         b78abc21b263ed412f4ba2e02ef8b94571865fce cpupower: Add Chinese Simplified translation
-         47d7650b9cb10381e5472840cf180a803f61fb0e cpupower: add checks for xgettext and msgfmt
-         7954c4fd0de11cc60d4dce423da0fc6dec77c01d Merge tag 'linux-cpupower-6.13-rc1-update2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
-         6db936d4ac0fe281af48b4d1ebf69b1523bbac31 Merge branch 'pm-tools' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: d9de9f55ca9181b1166f5d8aed483587d7a3c8b6
-    new: 6db936d4ac0fe281af48b4d1ebf69b1523bbac31
-    log: |
-         b78abc21b263ed412f4ba2e02ef8b94571865fce cpupower: Add Chinese Simplified translation
-         47d7650b9cb10381e5472840cf180a803f61fb0e cpupower: add checks for xgettext and msgfmt
-         7954c4fd0de11cc60d4dce423da0fc6dec77c01d Merge tag 'linux-cpupower-6.13-rc1-update2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
-         6db936d4ac0fe281af48b4d1ebf69b1523bbac31 Merge branch 'pm-tools' into linux-next
-         
-  - ref: refs/heads/testing
-    old: d9de9f55ca9181b1166f5d8aed483587d7a3c8b6
-    new: 6db936d4ac0fe281af48b4d1ebf69b1523bbac31
-    log: |
-         b78abc21b263ed412f4ba2e02ef8b94571865fce cpupower: Add Chinese Simplified translation
-         47d7650b9cb10381e5472840cf180a803f61fb0e cpupower: add checks for xgettext and msgfmt
-         7954c4fd0de11cc60d4dce423da0fc6dec77c01d Merge tag 'linux-cpupower-6.13-rc1-update2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
-         6db936d4ac0fe281af48b4d1ebf69b1523bbac31 Merge branch 'pm-tools' into linux-next
+         5a4510c762fc04c74cff264cd4d9e9f5bf364bae dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
+         30333539d4308fb079faf12ee46034af8d1b88ca dm-verity: don't crash if panic_on_corruption is not selected
+         8ede74c50e7da8eb41e21be7eb6dda66a71e373b dm cache: correct the number of origin blocks to match the target length
+         975f71bfb027dedddf47023fe5c4e31b518def32 dm cache: fix flushing uninitialized delayed_work on cache_ctr error
+         127c83cebe464db8217983d4e68f0fafb66e5273 dm cache: fix out-of-bounds access to the dirty bitset when resizing
+         d909af19d564194733c3064160538cc8f0d240e4 dm cache: optimize dirty bit checking with find_next_bit when resizing
+         7f6a77b04cf5d09bdf314a165fa939d68fbeb8ff dm cache: fix potential out-of-bounds access on the first resume
          
