@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 04 Nov 2024 18:10:35 -0000
-Message-Id: <173074383532.1302602.2061034338593783920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 04 Nov 2024 18:26:20 -0000
+Message-Id: <173074478064.1314364.4441153745485118111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: f2daa5a577e95f4be4e9ffae17b5bbf1ffe7a852
-    new: 9a783139614fb837da4ccb2f8ec6f0ddc802b3d3
+    old: 0845b8f6ef2ac004b1c953cf4fe4ca3458cd8e36
+    new: 664a5d3785a1a57989d236b6fd649321a39451f5
     log: |
-         9a783139614fb837da4ccb2f8ec6f0ddc802b3d3 bpf: Move btf_type_is_struct_ptr() under CONFIG_BPF_SYSCALL
+         a14d59725ef35d91b8504770046c701d0a2efe07 transport: don't disconnect A2DP if canceling Acquire() with Release()
+         664a5d3785a1a57989d236b6fd649321a39451f5 a2dp: don't change setup sep when it is reconfiguring
          
