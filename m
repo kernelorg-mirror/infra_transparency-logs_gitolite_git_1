@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 04 Nov 2024 15:36:42 -0000
-Message-Id: <173073460211.1170791.2068722293057166715@gitolite.kernel.org>
+Date: Mon, 04 Nov 2024 15:36:52 -0000
+Message-Id: <173073461221.1170983.283346164759555589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: cdad737160571a98cc4933a62c9f2728e965ab27
+  - ref: refs/heads/pending
+    old: fff1e80a66d5e4cc6e689950a59219ea8185e498
     new: c33f9c2728d0ccc7472e6239346c0fb3de556e0f
     log: |
          b39f8deb8df9664f34aebd9c6c8e234a7417041b wifi: ath11k: Suspend hardware before firmware mode off for WCN6750
