@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 05 Nov 2024 13:50:41 -0000
-Message-Id: <173081464116.2348147.1335796373547204160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Tue, 05 Nov 2024 13:57:34 -0000
+Message-Id: <173081505491.2352807.8900751351801947154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/crypto-arm-crct10dif
-    old: 03d869b5e38b2b66824dc1ddd9b85f2da487448c
-    new: f1dbc2e4afe00dab1eace57677b96f4e80d79870
+  - ref: refs/heads/overlayfs-next
+    old: fe1c557bb73c85655ab49ecd62ea8fa878df1bfe
+    new: 6fe9070902003389d8e95bc08333e9484c1534e4
     log: |
-         d11c8b87a36267a2861b9010ce0393de8ff3d278 hwrng: drivers - Switch back to struct platform_driver::remove()
-         acb0ed843290f3b19ede1bd9328eb41dee58ce40 crypto: asymmetric_keys - Remove unused functions
-         2a69297eed87c1f3ad33b8a169025c06adde5dcf crypto: hisilicon - support querying the capability register
-         c418ba6baca3ae10ffaf47b0803d2a9e6bf1af96 crypto: hisilicon/qm - disable same error report before resetting
-         01bd150bf0d772b3337c861a281c6e268442da59 crypto: arm64/crct10dif - Remove obsolete chunking logic
-         6237d935ace3d91ba6e390dea342977a71c7b2e4 crypto: arm64/crct10dif - Use faster 16x64 bit polynomial multiply
-         82d1c2bbf7bd2bbc45a70330965975012252d3ec crypto: arm64/crct10dif - Remove remaining 64x64 PMULL fallback code
-         ba0a9e9f9828a102c02c35c30465513e9edb8a82 crypto: arm/crct10dif - Use existing mov_l macro instead of __adrl
-         85195a7bca7f8b43a659c5930149bf2177e7705c crypto: arm/crct10dif - Macroify PMULL asm code
-         f1dbc2e4afe00dab1eace57677b96f4e80d79870 crypto: arm/crct10dif - Implement plain NEON variant
+         24391a1b6f55e393f8e1084b9d7aae71f798e49f ovl: properly handle large files in ovl_security_fileattr
+         e6036583a75edcf1945f26667e64ec1b30398867 ovl: do not open non-data lower file for fsync
+         99ce80901cf3d98cda834d0e816b7cdcc99679dc ovl: allocate a container struct ovl_file for ovl private context
+         a144d6da6afeced9d09c0a21fa02dd5deaa4776a ovl: store upper real file in ovl_file struct
+         120f7cd8279c7322d539d51f26ee54e2a2833686 ovl: convert ovl_real_fdget_path() callers to ovl_real_file_path()
+         6fe9070902003389d8e95bc08333e9484c1534e4 ovl: convert ovl_real_fdget() callers to ovl_real_file()
          
