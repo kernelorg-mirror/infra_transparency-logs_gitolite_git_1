@@ -1,50 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============0951534421485887077=="
+Content-Type: multipart/mixed; boundary="===============6874265447800463616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 Nov 2024 13:00:15 -0000
-Message-Id: <173081161518.2304215.4317463687583363121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 05 Nov 2024 13:00:48 -0000
+Message-Id: <173081164870.2304594.9364347796447279561@gitolite.kernel.org>
 
---===============0951534421485887077==
+--===============6874265447800463616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.13
-    old: 2219576883e709737f3100aa9ded84976be49bd7
-    new: 270ddc23914ed79aa117373f4b3413c34cdabf12
-    log: |
-         270ddc23914ed79aa117373f4b3413c34cdabf12 spi: Use of_property_present() for non-boolean properties
-         
+  - ref: refs/heads/driver-core-testing
+    old: 09fbb82f9413641cbb6b3fc4970ed4ff6d2a2c2a
+    new: 562e932a077cb35173d8dc11e5005f9c5acd22f0
+    log: revlist-09fbb82f9413-562e932a077c.txt
 
---===============0951534421485887077==
+--===============6874265447800463616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1730811642 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1730811612-8976887e842e54b2bd23c0a5ae857e407a5112b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730811658 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1730811644-96bd6282f7a2668735defcf148139a7b3c3a592d
 
-2219576883e709737f3100aa9ded84976be49bd7 270ddc23914ed79aa117373f4b3413c34cdabf12 refs/heads/spi-6.13
+09fbb82f9413641cbb6b3fc4970ed4ff6d2a2c2a 562e932a077cb35173d8dc11e5005f9c5acd22f0 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcqFvoACgkQJNaLcl1U
-h9AdVAf+PAD8xTma6zhNw86rn7UJCIIcmW3TFJ3vtRaig/pd5ZIulZNq5dalaEF/
-klicjzJ5X28Wkf8MrIxqkKOYGJHgWAULR6ut2klRXFQXuc/efOah6Wdob0zEmqu2
-IEONMHnsxc7v1gM3CCPy961n9udoR+KdBxI1b9VdVREvWBf624WcEyoGbsji5eNK
-HoaIjneQcoUwuBzqqO2ozThO+7pRH+bxp+TTOCT8abynKAqhhkVB2PnWbk83p3wV
-YDyKC1jd5/IwNFkkowcr/2a3PzEgc3ztu9j7bdqWBwJGbIPehun+A1YhDxzAmPVh
-u4yBg+pw+bJR8pLdyqVqVrUvT09erw==
-=RT2w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcqFwobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yi4P/irBQwLUw+AVK7ysTklH
+LvQEiBmOHAg5GpPqs56er/WoMsWQmsl1JJf/sQ17y/39T1Fyfh8JjIbEAy3j0ehZ
+AeUNbDqWAbNrc6bE3pef3X5HDpZTRZ01lS/XgaoL61seP7cPjn/l4GU2JiTnOguo
+TxB2I5MmvcQOEHS/6KbfLP5bKGM4tFMXCVyscmkLEZn/ceDcUolo+YK07Uy6UU5P
+Tl/j+h+XZH51GUOW9bysp1hRfrVubkwhNin4cENF6INl4d0kIiDwCc3w3SDByGCo
+uJXebnyur2jbrhTDpeSCLbSET11dlUGVBMgNcAfWzxHN7rwsYuEYXZam1HLbHU4B
+Epb3GEUw2rL0nEtXtQp0mFPSpnxi7PDD2NLJVjvs/nbydn7YZ3rhTJdwR4OsqMr+
+GZURDlXrZkFBq+xBNkv+aO9osPrL/D2YPWFI6StJ96taX9Wmc/7RmG9lTxXUJYMD
+kLaxOiu0fNe9EfM0WBfytEEqlI40M0P6KH7CnIOEBvt//orb8xhCRDsyWzJaptxH
+0/PoMwJCpoAYOEV0dr/8QRel18hiCUpNhl83wMpAj9e066m4OgXDSYZEEh6VneDq
+2RYaHXY0uyRKhDMtPKa11GJ79hcwXokfFrnDnY5UEG8VaBWned4uUMRAXnr1vxQj
+wrNEvCkOb8bVmCBWDWLkDgDm
+=y6f1
 -----END PGP SIGNATURE-----
 
---===============0951534421485887077==--
+--===============6874265447800463616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09fbb82f9413-562e932a077c.txt
+
+0afcee132bbc9d7ef9c5bb4da9b6fe014a9afaa9 sysfs: explicitly pass size to sysfs_add_bin_file_mode_ns()
+bebf29b18f34620e25f7e2bd9e4e4d8e34a8977d sysfs: introduce callback attribute_group::bin_size
+a1ab720ee50686d9e9dcb6935995a75696ed2493 PCI/sysfs: Calculate bin_attribute size through bin_size()
+00ab6e97de0071b21a548e0a823348b3309970ba nvmem: core: calculate bin_attribute size through bin_size()
+b626816fdd7f9beb841856ba049396cff46e99aa sysfs: treewide: constify attribute callback of bin_is_visible()
+94a20fb9af16417ab5fd17bcde3d906926f15ef6 sysfs: treewide: constify attribute callback of bin_attribute::mmap()
+699e7b85afb5d94b99b0a3edca7e9e93ea320c8f sysfs: treewide: constify attribute callback of bin_attribute::llseek()
+ae587a509903cca138e910445d8c21fe73b45c80 sysfs: implement all BIN_ATTR_* macros in terms of __BIN_ATTR()
+eb2e6c3a8d66ff37b2ee26cd32334ae0e05fd596 sysfs: bin_attribute: add const read/write callback variants
+562e932a077cb35173d8dc11e5005f9c5acd22f0 driver core: Constify attribute arguments of binary attributes
+
+--===============6874265447800463616==--
