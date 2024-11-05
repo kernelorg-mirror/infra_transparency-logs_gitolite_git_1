@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5999562905899151552=="
+Content-Type: multipart/mixed; boundary="===============7750094731561684882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 05 Nov 2024 16:24:42 -0000
-Message-Id: <173082388248.2481629.9617732439337561821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Nov 2024 16:24:48 -0000
+Message-Id: <173082388834.2481811.2202957562619980427@gitolite.kernel.org>
 
---===============5999562905899151552==
+--===============7750094731561684882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: fe09de2db2365eed8b44b572cff7d421eaf1754a
     new: 08a3b241adfd90361c16c3e92f5275b816a73f04
     log: |
          08a3b241adfd90361c16c3e92f5275b816a73f04 MAINTAINERS: Generic Sound Card section
          
 
---===============5999562905899151552==
+--===============7750094731561684882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1730823909 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1730823880-898a9790450d7b63dbb0a8cb1db7e5840a83cbf1
+pusher C3F436CA30F5D8EB 1730823915 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1730823886-a7edab3ac95226f8e1f5144416288c81b72164d8
 
-fe09de2db2365eed8b44b572cff7d421eaf1754a 08a3b241adfd90361c16c3e92f5275b816a73f04 refs/heads/for-6.12
+fe09de2db2365eed8b44b572cff7d421eaf1754a 08a3b241adfd90361c16c3e92f5275b816a73f04 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcqRuUACgkQJNaLcl1U
-h9AhnQf/bEdC8oEqcLbMivH1D4m6OcvIg4CDM50uzgXSpM7mcCMJXVG1Zv/MFUvq
-DR+hHvjkx630ikR9ZqFsauppJ8xWHQDl8AV0lUmE9wUqLiDCx++ENWcjCIx3XfFh
-cegf8Go0o70t2UNd8E/W22ozmucyAiVW4ayXj070Y7aWHAGCgnP2Q+uICGzIwBxX
-z2EGNO5sXlbEQE88fdBxAUjkF3gxZFQRSUqxgfVrtZdIBRKz08y3Ijf0Dd52ARx7
-FSH8O69CA6RXgJX2PF6LqffVfVrHb9NPF2Bm0PKa+Y+HF2v5UPBozBSHtRe4kNJI
-05dsXvRZMVUL6zfhHGBhgfgJ49SrBg==
-=yIx4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcqRusACgkQJNaLcl1U
+h9ATNQgAgWbwChLhHgeZ69AhrNxKVmvBEuPO4bfUHUh+iSETD7baF/QfamRSPZfw
+nUHMkw8WH+KD0oSsgczSWeg9ZKi36M9dOmEtDhOL3EW2NZZUavRg6inZv8/rHjcE
+RQ4eOM5G5tFheZT8NB0EzJwGXjoA240oIGmmBFxiALiXvbwhxhVGpomhHy25hLat
+7wdFHziK3iqdiQrJWFd5kyV5fWuoQs6LW23Gtt78cqZNZ3zYuvv/lzaE2I7DRarc
+xSOQspRqt2nHheXykgJJEERHDQtQd5oY91w+APm4cOJh1rDs/xcuDbLyR2hX40k9
+ktLoPa/8kq2rqypN92rGd7rosKd6+g==
+=ksJ4
 -----END PGP SIGNATURE-----
 
---===============5999562905899151552==--
+--===============7750094731561684882==--
