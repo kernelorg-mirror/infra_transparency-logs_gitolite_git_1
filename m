@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 05 Nov 2024 11:55:12 -0000
-Message-Id: <173080771294.2249112.15571914618561908031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 05 Nov 2024 11:56:48 -0000
+Message-Id: <173080780812.2249982.2214309475710722776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/at91-next
-    old: 9415b23aa23648cfdadf6415ed9163957f215643
-    new: 44339d0de195eeb531e2e89815084f567c6cd5c4
+  - ref: refs/heads/sched/core
+    old: 207a0574fb089359f290224ddba6cb2b775c1a9f
+    new: 22aaec357c1ff85b72c105c90503e3b4187384b8
     log: |
-         41af45af8bc304e92e6a45890da751fc5ed5b7df ARM: dts: at91: sam9x7: add device tree for SoC
-         4157293c808f8691bec51da7badaab382849b01e dt-bindings: arm: add sam9x75 curiosity board
-         371a47c9a58a13e339fce2a3118c9ee6a8422258 ARM: dts: microchip: sam9x75_curiosity: add sam9x75 curiosity board
-         44339d0de195eeb531e2e89815084f567c6cd5c4 Merge branch 'at91-dt' into at91-next
+         b23decf8ac9102fc52c4de5196f4dc0a5f3eb80b sched: Initialize idle tasks only once
+         0f0d1b8e5010bfe1feeb4d78d137e41946a5370d sched/ext: Remove sched_fork() hack
+         26baa1f1c4bdc34b8d698c1900b407d863ad0e69 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
+         7c70cb94d29cd325fabe4a818c18613e3b9919a1 sched: Add Lazy preemption model
+         35772d627b55cc7fb4f33bae57c564a25b3121a9 sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
+         476e8583ca16eecec0a3a28b6ee7130f4e369389 sched, x86: Enable Lazy preemption
+         22aaec357c1ff85b72c105c90503e3b4187384b8 riscv: add PREEMPT_LAZY support
          
