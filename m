@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 05 Nov 2024 23:47:29 -0000
-Message-Id: <173085044941.2861202.13436124133081356208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 05 Nov 2024 23:48:33 -0000
+Message-Id: <173085051350.2861902.10843942364078820615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/tick/remove-last-tick-compare
-    old: 0000000000000000000000000000000000000000
-    new: e615c721a4296bfc7f22397e7391f10c224c7ba5
+  - ref: refs/heads/main
+    old: ccb35037c48a16dfa377e3af3be2c164e73d54f0
+    new: 0452a2d8b8b98a5b1a9139c1a9ed98bccee356cc
+    log: |
+         0452a2d8b8b98a5b1a9139c1a9ed98bccee356cc mlx5_en: use read sequence for gettimex64
+         
