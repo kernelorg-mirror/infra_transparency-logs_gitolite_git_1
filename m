@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 05 Nov 2024 19:48:40 -0000
-Message-Id: <173083612084.2666167.12632733719292777450@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 19:49:29 -0000
+Message-Id: <173083616971.2666592.7771794528444903624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-fpsimd-foreign-flush
-    old: b99ad74321e4f8587e6b06014a9274d230bd0f00
-    new: e0bf645c3e5a9d9fdda4f857e60e9ef02c851f98
+  - ref: refs/heads/arm64-fp-sme-sigentry
+    old: 99c46a04e7c576e12c2f7f09a72e6639cd571859
+    new: 3e4634ca9093562d49b79fa0892d6a3825e27a46
     log: |
-         8b17db4b007386e68c160d41bd3184553d7404ac arm64/fp: Fix missing invalidation when working with in memory FP state
-         b862ba934087f4834d910a8224fd283c54991092 arm64/sve: Flush foreign register state in sve_init_regs()
-         e0bf645c3e5a9d9fdda4f857e60e9ef02c851f98 arm64/sme: Flush foreign register state in do_sme_acc()
+         bb1d051dc230f35caa583b2651996201ea29f9fc EDITME: cover title for arm64-fp-sme-sigentry
+         3e4634ca9093562d49b79fa0892d6a3825e27a46 arm64/signal: Avoid corruption of SME state when entering signal handler
          
