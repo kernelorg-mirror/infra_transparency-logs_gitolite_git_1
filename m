@@ -1,26 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2560996401408309086=="
+Content-Type: multipart/mixed; boundary="===============3275772316730435684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 05 Nov 2024 17:06:52 -0000
-Message-Id: <173082641295.2527959.4089367406646561756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 05 Nov 2024 17:06:56 -0000
+Message-Id: <173082641631.2528115.7929656348849131666@gitolite.kernel.org>
 
---===============2560996401408309086==
+--===============3275772316730435684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
     old: 557329bcecc2f55e134db8974953b32b69db9d15
     new: 2e1b3cc9d7f790145a80cb705b168f05dab65df2
     log: revlist-557329bcecc2-2e1b3cc9d7f7.txt
+  - ref: refs/tags/omap-for-v6.13/drivers-signed
+    old: 0000000000000000000000000000000000000000
+    new: 4a6c7a8160ba74e052ee82924dfe6201835e31c0
+  - ref: refs/tags/omap-for-v6.13/dt-signed-1
+    old: 0000000000000000000000000000000000000000
+    new: 9f79d1e36dc4d6850958335bbfd1daa2388728b7
 
---===============2560996401408309086==
+--===============3275772316730435684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +105,4 @@ c3b56da655a6725e58c5c3cd1877a2f781e8b797 Merge tag 'scmi-fixes-6.12-2' of https:
 bbfbb57958635912ba472925622f2bb0bab5f06c Merge tag 'qcom-drivers-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
 2e1b3cc9d7f790145a80cb705b168f05dab65df2 Merge tag 'arm-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============2560996401408309086==--
+--===============3275772316730435684==--
