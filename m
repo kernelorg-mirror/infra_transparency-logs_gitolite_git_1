@@ -1,73 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Tue, 05 Nov 2024 21:38:42 -0000
-Message-Id: <173084272232.2755818.17801552718021898492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 05 Nov 2024 21:45:38 -0000
+Message-Id: <173084313803.2762727.9144042550117012076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/perag-xarray-6.13
-    old: 0000000000000000000000000000000000000000
-    new: d66496578b2a099ea453f56782f1cd2bf63a8029
-  - ref: refs/tags/perag-xarray-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: a6b56d8baabb3b7bddb5776cce5c6d10226c60d4
-  - ref: refs/heads/generic-groups-6.13
-    old: 0000000000000000000000000000000000000000
-    new: e5e5cae05b71aa5b5e291c0e74b4e4d98a0b05d4
-  - ref: refs/tags/generic-groups-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: f8c2df02a42b7c531bd120fdd7bd20b5788a3ae5
-  - ref: refs/heads/metadata-directory-tree-6.13
-    old: 0000000000000000000000000000000000000000
-    new: 0d2c636e489c115add86bd66952880f92b5edab7
-  - ref: refs/tags/metadata-directory-tree-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: 68fa46258d43b4f773f3cbc6023395cf1ac34c6a
-  - ref: refs/heads/incore-rtgroups-6.13
-    old: 0000000000000000000000000000000000000000
-    new: f220f6da5f4ad7da538c39075cf57e829d5202f7
-  - ref: refs/tags/incore-rtgroups-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: 66a19c7665a03dcc0d06523899748b0f106bfff4
-  - ref: refs/heads/rtgroups-prep-6.13
-    old: 0000000000000000000000000000000000000000
-    new: 64c58d7c99343a910edf995e15d8037e19ec5777
-  - ref: refs/tags/rtgroups-prep-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: fee604fee72564d6e9860318bf053b6013dd0db2
-  - ref: refs/heads/realtime-groups-6.13
-    old: 0000000000000000000000000000000000000000
-    new: a3315d11305f5c2d82fcb00e3df34775adff4084
-  - ref: refs/tags/realtime-groups-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: 68e56ddd68df7548f5a02d6de2063d0ab54d0032
-  - ref: refs/heads/metadir-quotas-6.13
-    old: 0000000000000000000000000000000000000000
-    new: d5d9dd5b3026a8bf58f21228b47df9e9942a9c42
-  - ref: refs/tags/metadir-quotas-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: 0b29d2bfe260de0750749ace72999274d08e028d
-  - ref: refs/heads/realtime-quotas-6.13
-    old: 0000000000000000000000000000000000000000
-    new: edc038f7f3860911d4fc2574e63cedfe56603f1b
-  - ref: refs/tags/realtime-quotas-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: f5ce7b62226f7142708209e8f764757d50d1583e
-  - ref: refs/heads/metadir-6.13
-    old: 0000000000000000000000000000000000000000
-    new: ea079efd365e60aa26efea24b57ced4c64640e75
-  - ref: refs/tags/metadir-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: f25ea1ae5fdf95757b05e35e019ac37f1d660d98
-  - ref: refs/heads/better-ondisk-6.13
-    old: 0000000000000000000000000000000000000000
-    new: 13877bc79d81354c53e91f3c86ac0f7bafe3ba7b
-  - ref: refs/tags/better-ondisk-6.13_2024-11-05
-    old: 0000000000000000000000000000000000000000
-    new: aec057de58a41047272e182841946543f135c652
+  - ref: refs/heads/for-6.12-fixes
+    old: c31f2ee5cd7da3086eb4fbeef9f3afdc8e01d36b
+    new: a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80
+    log: |
+         f7d1b585e1533e26801c13569b96b84b2ad2d3c1 sched_ext: Add a missing newline at the end of an error message
+         a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80 sched_ext: Update scx_show_state.py to match scx_ops_bypass_depth's new type
+         
+  - ref: refs/heads/for-next
+    old: e7733c6642325e3db4f0f22ec8676e0daf6616cf
+    new: b6b7a41d89d81b67cc89b9424c683c1545b33e74
+    log: |
+         f7d1b585e1533e26801c13569b96b84b2ad2d3c1 sched_ext: Add a missing newline at the end of an error message
+         a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80 sched_ext: Update scx_show_state.py to match scx_ops_bypass_depth's new type
+         b6b7a41d89d81b67cc89b9424c683c1545b33e74 Merge branch 'for-6.12-fixes' into for-next
+         
