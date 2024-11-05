@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4764510299554153065=="
+Content-Type: multipart/mixed; boundary="===============7110918660788517202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 05 Nov 2024 16:46:01 -0000
-Message-Id: <173082516122.2506559.9109007208564545183@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 16:47:39 -0000
+Message-Id: <173082525911.2507370.14659229596291526351@gitolite.kernel.org>
 
---===============4764510299554153065==
+--===============7110918660788517202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7d59054ee22a5a187868453c93bd065da6e3990c
-    new: db54a4bdff92d1dac3b3b11819ea430acafedbd8
+    old: db54a4bdff92d1dac3b3b11819ea430acafedbd8
+    new: 5aa9fe643870805498027df482eedc10d3a0cdff
     log: |
-         db54a4bdff92d1dac3b3b11819ea430acafedbd8 6.11-stable patches
+         5aa9fe643870805498027df482eedc10d3a0cdff drop alsa-usb-audio-add-quirks-for-dell-wd19-dock.patch from older kernels
          
 
---===============4764510299554153065==
+--===============7110918660788517202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730825174 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730825272 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1730825159-b64b0a7714e8bab297107a3eef7887dc97e59486
+nonce 1730825257-ee554ecc152d2e47d45aaccdf862f1ed5746a836
 
-7d59054ee22a5a187868453c93bd065da6e3990c db54a4bdff92d1dac3b3b11819ea430acafedbd8 refs/heads/master
+db54a4bdff92d1dac3b3b11819ea430acafedbd8 5aa9fe643870805498027df482eedc10d3a0cdff refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcqS9YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YfMQAKqFe1B/X/cC+AyJ9mQF
-ERdCelWOqhaDHsIJRnKX9Bvnk9IxunHiG8Zb15NTQeIkSG8ZIAJ337AaCH2ApTCi
-OYTsSb+AwfGnHvYopRumwg3rDvPNGVNc1GwrlEaWvZ4cgs8P9evIVjiLc38H5Glw
-tDNoAtw2qTkK38jnQtsxF00d74ardbDviFViMGZcEh3fpMKSrC5GHPKOsWUcIWMH
-2iSmTC67TR4jmd2vxZH9+fm1X3BLgawaPiTOPTY3Cm0gZcQpYEhHnb/CFQOw6Pzb
-Mr7ckkkmU/C3hwFb1KbJwl4Q2ykLhUchtmw5cuo01DvAgAg3XQ5iuAgAEVDxNC7N
-94tQ2yWHqPqINLZVqqD0hkLFw0w0snHLqDVw1FqwC7AC7uJryh5VNLOm7A1XtLzA
-qCmmKVkF9AlqgTkj1l5EjN+zE7q7m2/DYiz/99EPy8tkXkcToTTUjL2uVUPCoHSp
-y5ZMqQB+es9nWRIjMHX3txSn+EopoWddKWh/xysRkxgLXrECR3apWUxuRsOwUIy1
-GGt7kdhy+bnlpamGo7yC6/0eEz0a+HVmlqAyovjWGZ9i4IEgsq7m36qTl9+a9rNk
-wJdqtvruM4T4tjDHGPqWb36N4Q+6wT/idfaeoTmgb5xwOxT/wF9QOj/HEXQ86h/x
-3r3ByewE3x8D7ig1v8MT30O7
-=p0QE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcqTDgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jgYP/Axau05DpuqChOPK49c/
+IJH9JVJM19vyUaY+HwIXo/FjwHUeNxD/vP6MTfZ/8xTcvbDV+2kgKxfEhO3wWuYf
+Vf/Vd2I4sE1h2SrQH2ncW8+49BiLVVWpG+kcYiqVTYEYuwrCNO0/x7Lf4Yes2/3J
+H1O6bmZwaF3qNx0aZePSy0cnd1C3ggeAW04UztFv3V6uwLGK6iIDYPZz1dW0gNIz
+AsUAXdWyPLuvEA3UlzrXPfnSbdBYDwF1hhZhj2RY5YQDWXcd4qpgeA4L9kImQptC
+0N0uKB1cJkCfJPRW+5IEcPNzx6Nh9pRd2qPwKbBN32v8iZfi7uhV1DHvbf8KxOxk
+s76x/qSYNoDV1aRoh5CYIr2A7kKbyxNDLJ7Ez1VkLSd96lZuelupDDN/xecvCXyX
+naMwOMfVq7eySnr2NlgHF2jFHWWx9gY9v6o7vn9Sw4xkBlc0bCZqr+ReWNDt5QjS
+X+dkIwHRfL08m+iOKXRPztVQhnJLv5dcoT40wdBTV9bE6GVZWJAg++klUi3zmyt5
+V6I8VCDVOZMgPgViJLi+knemqRQvCNsiagNei08wp1733skARFQiG+zDmQss3DOX
+CfFtOynkmXwuSkedE9DIb7CSa99QgPkQWpIi4rPTkwNK7JkS4sMyRWbcq2SJg6+F
+fQRVfOOv5X4KooKGImiwjmwt
+=O4+f
 -----END PGP SIGNATURE-----
 
---===============4764510299554153065==--
+--===============7110918660788517202==--
