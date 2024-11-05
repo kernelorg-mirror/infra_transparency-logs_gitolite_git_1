@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8267783047642485991=="
+Content-Type: multipart/mixed; boundary="===============6423174267072633692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 05 Nov 2024 04:35:07 -0000
-Message-Id: <173078130786.1836062.13493287763995663228@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 04:35:40 -0000
+Message-Id: <173078134033.1836448.5718691943192366132@gitolite.kernel.org>
 
---===============8267783047642485991==
+--===============6423174267072633692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 357dbcf27483ab0263b6938d0a4a9b8674318417
+  - ref: refs/heads/char-misc-next
+    old: 77e83550465900ab8454eeb9183df5927f30c599
     new: f36ee841165b2234db8346eb8d5381626e5ab524
-    log: revlist-357dbcf27483-f36ee841165b.txt
+    log: revlist-77e835504659-f36ee841165b.txt
 
---===============8267783047642485991==
+--===============6423174267072633692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730781319 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730781354 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1730781305-b21e9535de7e723b70ec39acfff212efd2d0f119
+nonce 1730781339-abfe004b62be0d1713b659a9655bb7d7074fd740
 
-357dbcf27483ab0263b6938d0a4a9b8674318417 f36ee841165b2234db8346eb8d5381626e5ab524 refs/heads/char-misc-testing
+77e83550465900ab8454eeb9183df5927f30c599 f36ee841165b2234db8346eb8d5381626e5ab524 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcpoIgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BagP/1/X/TcAMmsBC1C51kDN
-PuqCQNPtK6LUZbQ9Ld8z9GfZIVDFZYzeusBvwh2tBJzM4I0WPyuPUfFD9ew3/x/h
-mjnXhWOboiwPysJmCgao6PvPygftQJxXQO9mb9FONKvXVTeDFwrElqyG/z+D/Pum
-3HBy0eVGcocuUYjujaEB3tcPEdgfHQFt/EXl/o5+LdIsqA1HGttV5LpgrHis4oBo
-BEBcCm3p8d2G9TAagIM+otfZbMANxZQtF5KGK0veDffvVNtwTtrY84mDQdNcww9L
-tHJuDns2cURBsZ95AWP+FmL2Of5rXWxCwJSFesDeDF6VHn8gr1GJrFOW0wgVGFwz
-jIHE0LKuZ0CwSD7GGu9sBpzI0wm8xxjVGGYvGxEhgkOKIWGYGzQ3ayn5sJLSptW5
-4nJpzpiqeyHSlXEy178BxK/12b5GukfM2o22Xzc6OcmBp1HDQ5CDWlShFGYQUR99
-LLkj+a1PxQ8NYzbpglBviIImnlxxbnM2v/yxmSkL6XQGgYniNQPZ2Hi22v/uReGc
-ftQ1Zp0karRhmXIFdeemNLiFmAXnQRJUUm3Cj1xZViyHn043xbwJbYM2/+9mrhqb
-5jlADkhqjEWkLmJ60WvAE8Whi5A/6aizUaUO3qBSSAb/ECbHzGrZ+jOcCzAMNxK+
-ZsGNCR3BlomEH9sKSLai8Ulk
-=BecL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcpoKobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t9kQAJGgAt7+pjLdjkotyklB
+mFhca2lmeKyPNlZtaRZid15QPoHxkcJF28F2pvkjLH18EfwktFDrJVEP7ss/t+9e
+8x32MxyX8dqPbVqAFl1GS+qCeOBJTdJK0JL3qVjOnZ+D+Rwtevso9UVULHM76EoW
+G2DorG2UDPozrXw+rOIuhnInua9+AGkPOgs4PqPIIXyBfimwWxQLqaxnJpjLavov
++dzjVv9dqwQePfzm/OgBAZnGx4hLBJCQn2VWUPnRoR09KHCT6Zhg0QQSsHq08YpX
+W/WRocLOtdVs2OeNd9yV0Um7o631y5yfAlimYbX04k3mDHob+TSopg2jnTW0FUjP
+TDse/Sb1721B8QIM+/3XxtWOWc+q5B0U26q6AUH7UCaMzlLoy98zfHQPovaGF9hd
+SAgRyZiYkN892TBu726lGxjdjsOArLRXmxsfJGlqVoDMVZxgwtSjKyS+8cP1TXhk
+oBCJd8ujKO0YjoJq1hKgH/y1LNZjIDbs35KjIoshtEqCI8U0njmcDWilXRF3XAVS
+SL4TtYXfF15IyNvX64wjuWdkRqt5+8rkzqGLUSR6P8lpXCfThGfZa6rBUQv9fHnZ
+iFxRKoLv3gixp8QktPFCaifpum+PHe9cMpltZ0CBX8hD46wt6zAIr6MiadfsO9A3
+WSI9NgasmuGVq6R9GzaY3KQ4
+=cn2V
 -----END PGP SIGNATURE-----
 
---===============8267783047642485991==
+--===============6423174267072633692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-357dbcf27483-f36ee841165b.txt
+Content-Disposition: attachment; filename=revlist-77e835504659-f36ee841165b.txt
 
 7f15c46a57c31956591f85b713d7e63cccb25556 rust: introduce `InPlaceModule`
 5c7ca6fa603fc669253b166649ba635a38a9d7ee rust: add `dev_*` print macros.
@@ -75,4 +75,4 @@ b03817512cb92a354c182808b55013f9886624d0 scripts/tags.sh: use list of identifier
 d8da4f1912ed43190f6d3ac6e05f3a1af07d07c1 eeprom: Fix the cacography in Kconfig
 f36ee841165b2234db8346eb8d5381626e5ab524 char: Switch back to struct platform_driver::remove()
 
---===============8267783047642485991==--
+--===============6423174267072633692==--
