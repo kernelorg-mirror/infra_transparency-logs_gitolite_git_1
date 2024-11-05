@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8186455056983007950=="
+Content-Type: multipart/mixed; boundary="===============5374784291889244002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 05 Nov 2024 16:04:00 -0000
-Message-Id: <173082264089.2458966.439142103106234616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 05 Nov 2024 16:08:14 -0000
+Message-Id: <173082289478.2462767.9273177258368833073@gitolite.kernel.org>
 
---===============8186455056983007950==
+--===============5374784291889244002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 60327faea8241afe7f5f767875c53d24b3f18898
-    new: aa154f9ac6ee4097550487ae75930d2db69a38d1
-    log: revlist-60327faea824-aa154f9ac6ee.txt
+  - ref: refs/heads/master
+    old: f68503c350347be735aabc4e6a9a0a92342661ca
+    new: b04d177bf5bc85c22ace15ac7326d95ca451fd28
+    log: |
+         b04d177bf5bc85c22ace15ac7326d95ca451fd28 4.19-stable patches
+         
 
---===============8186455056983007950==
+--===============5374784291889244002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60327faea824-aa154f9ac6ee.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-24a9df2e02d354dcdf3569dba5ead1bae7905efe nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
-51994934e5e51964a9d8b2bcf16bea541ca3984f nfs_common: rename functions that invalidate LOCALIO nfs_clients
-4b9a9ba397f378bc25ab3a2069552956658f4c23 nfs_common: move localio_lock to new lock member of nfs_uuid_t
-855ce73220ac09b51d209aadf534bca54e44a8bb nfs: cache all open LOCALIO nfsd_file(s) in client
-b77690b10f71c886b6813f10bad59eb603628f22 nfsd: update percpu_ref to manage references on nfsd_net
-46415972f8e735dc4bacb3c42f3b5e76a10ec29c nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
-3c3dc0cebeff29e4b6ee8b0d8a48237775128548 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
-c2ab1dcddcd92bf1e64a62e413b913e834c5aa34 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
-451281465860c96dec3432b078cf40f76e697e51 nfs_common: track all open nfsd_files per LOCALIO nfs_client
-b7f1a30016fb6b34ec438e96121ccc8d59039211 nfs_common: add nfs_localio trace events
-aa154f9ac6ee4097550487ae75930d2db69a38d1 nfs: probe for LOCALIO when client reconnects to server
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730822907 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1730822893-31678efd694b44ed5737ed2610f2b8ec4ff6d79d
 
---===============8186455056983007950==--
+f68503c350347be735aabc4e6a9a0a92342661ca b04d177bf5bc85c22ace15ac7326d95ca451fd28 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcqQvsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ISUQAL1hbajhYcc3Oas549N+
+EfkHVjQdZQRkViDtvHD1ShKMnWqy4rxoAVvvRluLiQmLRx6w1A4olzFE/+bvT2HF
+mgGwrtJ1LCfPoFArnOfVze/Ylqe1F3doloE/jQLVPm1wUpHnEueuxphwlLkd8R4v
+qvAskk6h9oGSb48PonbWhvrj4Xhben0N4+SS6sQ4pKAf6UsXcecVBl6JJxe1z/6w
+motSC9sfzAuC6Wamt80qtywFvaVKax44lQ1pbyBSeh9bXDfX98cOMRgDdQN+z9UY
+2HGEXSk8tjT5t423mBu/2rLcQ6YlOZoYn8hLCIaSfFRfsRPJPvdE9hlY1o5Muyf/
+yiXYttCwa0IRZNO53axoJYXZTnjfm09yhd/JZZ8s0QM/X70oG5Zlbe9mHOw1EPmh
+ePmcHIP07lLQoPMr83EIYYzxDkf8UPQZ2xQFrh1oDIOd+WfTtG4YXfv8jnKDCHrT
+MKJcdQiiTa9+6zUHFQ0WR52GIVR+X7mvTa6S/VG4mh84vcg9YbCk+MNKWm1qZLzo
+SeDtKyaBmFFIN5gEABdkO0c5tVfVJYlnbfLMhI5RtDivOwwCLPC07Yt4BFre7gMu
+KjPo5T7P3AVlVk4CYswA9pJspcJ8L0XfHU/mMaZ6zZCxW9Fdrlc/tkFV1obQP4av
+t6+MwPow5EZIh3Dj7dy1IH93
+=PxUu
+-----END PGP SIGNATURE-----
+
+--===============5374784291889244002==--
