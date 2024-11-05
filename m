@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 05 Nov 2024 15:00:09 -0000
-Message-Id: <173081880939.2407372.11716982078882636531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 05 Nov 2024 15:01:06 -0000
+Message-Id: <173081886621.2408176.1060584657886360223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/main
-    old: df3dff8ab6d79edc942464999d06fbaedf8cdd18
-    new: 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a
+  - ref: refs/heads/i2c/i2c-host
+    old: 19e0435554ffc24d4b0d5cb391eb406e9a0ba37f
+    new: fd36c19557de6dbcc8deb6c7c2273eeef357814e
     log: |
-         de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi queue Rx on J7
-         ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
-         9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
+         066a69e314d417fb2fe12508c92302698976f600 dt-bindings: i2c: imx: add SoC specific compatible strings for S32G
+         fd36c19557de6dbcc8deb6c7c2273eeef357814e i2c: imx: add support for S32G2/S32G3 SoCs
          
