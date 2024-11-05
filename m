@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 05 Nov 2024 00:36:51 -0000
-Message-Id: <173076701186.1641853.8949015271936368098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 05 Nov 2024 00:38:25 -0000
+Message-Id: <173076710539.1642631.6695193007421580196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: aa5c90601b531323f82ceb02b41a66974153b76f
-    new: ebea60f4eafb87653c180c9c1365608ffc04e0ea
-    log: |
-         13e17c9ff49119aa2826dbf1e130f34d4d7a55d9 perf build: Make libunwind opt-in rather than opt-out
-         ebea60f4eafb87653c180c9c1365608ffc04e0ea perf test stat_bpf_counters_cgrp: Remove cpu-list BPF counter test
-         
+  - ref: refs/heads/endpoint
+    old: d4c254bdb0e9adba67034438964d0eba896fc927
+    new: 7ea3b5003f6f289d2cc5a6ef43924670cc820d3b
