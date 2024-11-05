@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 05 Nov 2024 05:49:17 -0000
-Message-Id: <173078575711.1939117.13146028068281324741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 05 Nov 2024 06:14:35 -0000
+Message-Id: <173078727560.1958893.838694578576944317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: 1bedd6dc7f44b47e39912ee6195d5972d634cdcc
-    new: c6235c426d2ac78ab843a55cb1556b0f43175d9e
+  - ref: refs/heads/tmp.perf-tools-next
+    old: ebea60f4eafb87653c180c9c1365608ffc04e0ea
+    new: d5a0a4ab4af4c27de097b78d6f1b7e7f7e31908f
     log: |
-         4cbf2b660f46be45b71d4f67f71495d08bf04371 pinctrl: intel: Add a human readable decoder for pull bias values
-         c6235c426d2ac78ab843a55cb1556b0f43175d9e pinctrl: elkhartlake: Add support for DSW community
+         c741c7b5e98357e9f45e012f8c4295b5aed8d5c0 perf test: Remove cpu-list BPF cgroup counter test
+         d5a0a4ab4af4c27de097b78d6f1b7e7f7e31908f perf build: Add missing cflags when building with custom libtraceevent
          
