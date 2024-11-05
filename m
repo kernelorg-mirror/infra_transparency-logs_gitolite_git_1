@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Tue, 05 Nov 2024 00:27:53 -0000
-Message-Id: <173076647394.1634334.10567937173127606253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 05 Nov 2024 00:36:51 -0000
+Message-Id: <173076701186.1641853.8949015271936368098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/fs-atomic
-    old: 0000000000000000000000000000000000000000
-    new: 1b81d252f782a1670b4d9eb3c59db263c389e078
-  - ref: refs/tags/fs-atomic_2024-11-04
-    old: 0000000000000000000000000000000000000000
-    new: 90f26c63a167e392b51e601b687d8082c5e195e1
+  - ref: refs/heads/tmp.perf-tools-next
+    old: aa5c90601b531323f82ceb02b41a66974153b76f
+    new: ebea60f4eafb87653c180c9c1365608ffc04e0ea
+    log: |
+         13e17c9ff49119aa2826dbf1e130f34d4d7a55d9 perf build: Make libunwind opt-in rather than opt-out
+         ebea60f4eafb87653c180c9c1365608ffc04e0ea perf test stat_bpf_counters_cgrp: Remove cpu-list BPF counter test
+         
