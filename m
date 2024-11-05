@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2697583125226934876=="
+Content-Type: multipart/mixed; boundary="===============0319146788426668786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 05 Nov 2024 08:36:53 -0000
-Message-Id: <173079581364.2088606.3425389690182399247@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 08:36:56 -0000
+Message-Id: <173079581694.2088704.5375756632837075232@gitolite.kernel.org>
 
---===============2697583125226934876==
+--===============0319146788426668786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 42f7652d3eb527d03665b09edac47f85fb600924
+  - ref: refs/heads/char-misc-linus
+    old: d0bc3b92fb9b2c3c981984d52fffe8cca77165dc
     new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
-    log: revlist-42f7652d3eb5-59b723cd2adb.txt
+    log: revlist-d0bc3b92fb9b-59b723cd2adb.txt
 
---===============2697583125226934876==
+--===============0319146788426668786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730795827 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730795830 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1730795812-76e52e1bd5e1f290d0bef33d8e017a10d8b97309
+nonce 1730795815-8cb79045b8ad908592d3efc87c87d1c8b57ae97e
 
-42f7652d3eb527d03665b09edac47f85fb600924 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 refs/heads/main
+d0bc3b92fb9b2c3c981984d52fffe8cca77165dc 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp2TMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+buoP/3c50SJig4Y23/8YsZoP
-ft5Y4GIp3mFfFTxM5GCLEgJTZgdhsGJLqFQzzthk5ZcF9/r3GkYjWD50s9iy/WQb
-ckYbw9o8ijaIBQbvLuiOPhLYGgVQTh/jCyX2QVoXbiiQGn5ijibdUMbapS9R510x
-7T6I/ECvueLTvKd7DhvaATgwfpyvZt9jmdwHcoe2pWiiZcDOzjHVmWKR+nq4MMuC
-LjhS6M9eESBa5YlvJ285osfiXkdw4bA/OYzo2Bl0pVxhj0mf9KYO9YNw7mbVs9Dt
-FM2iOBhPKgoJNszvIDMtHDKiPN0FjBcQq7nOWskvIbVe+D9upAAz6NQyGycDLui7
-CQLb+0sAPBeMW3XLUUpHn0W8UxK6XaEOVtCnPOhw0AF1/JLYBpl73TWyZaL13bo0
-zt+5HqZIvAHyhboqWrhyiLlQUsjXlcctra+KjAs4dQzcw5uGKCrQM1VE+kwNSDqU
-Spkj/lji2WxscXc7Y5WXjFHLc0NnM6O28LPZ0jsmgHmHf8RE6Stg6WhIbguD6QY5
-StTUCGFQ5LxQfEA/XRyfDhBBE51FuVMwWLwhJeJ92vytHJXwiMJiKVJ70conbv1M
-h882syXqWEiDlov2wxyvz2mm9BAF0k5yjOkmLaD0OI8z3gt2ugcLTYhdvaS7ZKoh
-aSFWex9VrY8Tob2Ri0Iycd4x
-=vB3K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp2TYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hE0QAKp6K7jAw9yzQVo/7q9R
+tyI18ta6Yboa5ZPcIMbvRA5QsQU84rBsQLRByCZDwuLLP5BAhaxBM4Xg8Tnrd64/
+CFpJSvXFj3g17bD6N6Ij0avCR9RuFzMdYxOtSKawJFbUEQ2StujFAd3B1yjrjsgm
+Ixs0YXbxszBU+0+baWrwRFlpGAu5RU7SQwHCKnQwRMnHDheBzTUeHgj06QsrrXst
+JP+2A0XppCQ2ls1+TBGcW7/80E2jtYst8kZ3pJG6xIwE4eEl04oxJrx0Q8brm5gn
+Pd7iHmdb73Oohe5QTKP5YM+fN5skzFQbYfbTryhstVIw0j60FxDy98njgSgkCidj
+zrP1Oi3hkV5K5B9Y1NtmU1FloVy1mD/N38icJvN5s8zLMPDnjP523oqTWaCDMlqf
+QLmasCW9Eca3QOAdXZkJr9WlvM+r5s4waZRfINmT/W/uS9NxC85X78pWLQtYzMid
+mRD1IfYDLF6PciQk0lRlEYWOczmBxJf9chUxuzYo9lcfOxp/zk0BQd3NeonOv2SO
+1WQyeX5EZJJcOe2LeDW6pVP2oMUrBuk2tWqxlhrX4L/s/fXg+xPpaBEuq3gZeaey
+sbUwMCg0djsagg/03BvsDFm6phhpRdKdrBud6wHcUSshShPJqIM98IjBcALIyLCq
++VT801YvMi+NGrYs3Pwv9zV2
+=bQBc
 -----END PGP SIGNATURE-----
 
---===============2697583125226934876==
+--===============0319146788426668786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42f7652d3eb5-59b723cd2adb.txt
+Content-Disposition: attachment; filename=revlist-d0bc3b92fb9b-59b723cd2adb.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -197,8 +197,6 @@ bc6d2d10418e1bfdb95b16f5dd4cca42d5dec766 bcachefs: fsck: Improve hash_check_key(
 da95e891dd5d5de6c5ebc010bd028a2e028de093 ASoC: fsl_micfil: Add a flag to distinguish with different volume control types
 8dd91e8d31febf4d9cca3ae1bb4771d33ae7ee5a nfsd: fix race between laundromat and free_stateid
 d641c164f8de5b5e19e66a27d9b5feedc8f2e84c ASoC/SoundWire: clean up link DMA during stop for IPC4
-691e79ffc42154a9c91dc3b7e96a307037b4be74 iio: gts-helper: Fix memory leaks in iio_gts_build_avail_scale_table()
-369f05688911b05216cfcd6ca74473bec87948d7 iio: gts-helper: Fix memory leaks for the error path of iio_gts_build_avail_scale_table()
 f2767a41959e60763949c73ee180e40c686e807e net: pse-pd: Fix out of bound for loop
 2cb3f56e827abb22c4168ad0c1bbbf401bb2f3b8 net/sun3_82586: fix potential memory leak in sun3_82586_send_packet()
 e4dd8bfe0f6a23acd305f9b892c00899089bd621 be2net: fix potential memory leak in be_xmit()
@@ -392,20 +390,11 @@ a85df8c7b5ee2d3d4823befada42c5c41aff4cb0 drm/tegra: Fix NULL vs IS_ERR() check i
 c2f803052bc7a7feb2e03befccc8e49b6ff1f5f5 bpf: Add the missing BPF_LINK_TYPE invocation for sockmap
 8421d4c8762bd022cb491f2f0f7019ef51b4f0a7 bpf: Check validity of link->type in bpf_link_show_fdinfo()
 d5fb316e2af1d947f0f6c3666e373a54d9f27c6f Merge branch 'add-the-missing-bpf_link_type-invocation-for-sockmap'
-63dd163cd61dda6f38343776b42331cc6b7e56e0 iio: light: veml6030: fix microlux value calculation
-fbe5956e8809f04e9121923db0b6d1b94f2b93ba dt-bindings: iio: adc: ad7380: fix ad7380-4 reference supply
-2ac6b2e823b52f7f4abf1d3a97d11889e22d0d16 iio: adc: ad7380: use devm_regulator_get_enable_read_voltage()
-7ddbc2728728f9b832ade7b4c180efdc2f22e8b9 iio: adc: ad7380: add missing supplies
-05f9c67179c9a8d66dee175fb4b17f380908a26f iio: adc: ad7380: fix supplies for ad7380-4
-795114e849ddfd48150eb0135d04748a8c81cec5 docs: iio: ad7380: fix supply for ad7380-4
-6bd301819f8f69331a55ae2336c8b111fc933f3d staging: iio: frequency: ad9832: fix division by zero in ad9832_calc_freqreg()
-efa353ae1b0541981bc96dbf2e586387d0392baa iio: adc: ad7124: fix division by zero in ad7124_set_channel_odr()
 c8fb95e7a54315460b45090f0968167a332e1657 drm/xe: Enlarge the invalidation timeout from 150 to 500
 22ef43c78647dd37b0dafe2182b8650b99dbbe59 drm/xe/guc/ct: Flush g2h worker in case of g2h response timeout
 69418db678567bdf9a4992c83d448da462ffa78c drm/xe: Handle unreliable MMIO reads during forcewake
 9c1813b3253480b30604c680026c7dc721ce86d1 drm/xe/ufence: Prefetch ufence addr to catch bogus address
 cdc21021f0351226a4845715564afd5dc50ed44b drm/xe: Don't restart parallel queues multiple times on GT reset
-7bd4923940c8d67d9f3f3fde8d7c067e9e804fc6 iio: dac: Kconfig: Fix build error for ltc2664
 bf40167d54d55d4b54d0103713d86a8638fb9290 riscv: vdso: Prevent the compiler from inserting calls to memset()
 f009e946c15540cdff2974771fb979f40b794153 Revert "9p: Enable multipage folios"
 c1e822754cc7f28b98c6897d62e8b47b4001e422 Merge tag 'bcachefs-2024-10-22' of https://github.com/koverstreet/bcachefs
@@ -530,9 +519,6 @@ f1e54d11b210b53d418ff1476c6b58a2f434dfc0 macsec: Fix use-after-free while sendin
 2ef9439f7a19fd3d43b288d38b1c6e55b668a4fe ASoC: dapm: fix bounds checker error in dapm_widget_list_create
 9a71892cbcdb9d1459c84f5a4c722b14354158a5 Revert "driver core: Fix uevent_show() vs driver detach race"
 740be3b9a6d73336f8c7d540842d0831dc7a808b sock_map: fix a NULL pointer dereference in sock_map_link_update_prog()
-cb617e148bb3d50dfbbd44db81227edcee2cd4bc MAINTAINERS: add netup_unidvb maintainer
-4adf613e01bf99e1739f6ff3e162ad5b7d578d1a mei: use kvmalloc for read buffer
-d0bc3b92fb9b2c3c981984d52fffe8cca77165dc Merge tag 'iio-fixes-for-6.12b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 5963e0786a3f28cd87c950dec18574bfcceb8335 Merge tag 'thunderbolt-for-v6.12-rc5' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 fa0122eaca4f14272fbf76a70d51db78c69091f6 selftests/mount_setattr: fix idmap_mount_tree_invalid failed to run
 6553bfcb8499bf5e7e6d07d93f29459198dba798 selftests/intel_pstate: fix operand expected error
@@ -752,4 +738,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============2697583125226934876==--
+--===============0319146788426668786==--
