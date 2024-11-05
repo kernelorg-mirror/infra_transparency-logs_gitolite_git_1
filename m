@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 05 Nov 2024 11:41:23 -0000
-Message-Id: <173080688332.2237736.14103695619285337660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 05 Nov 2024 11:55:12 -0000
+Message-Id: <173080771294.2249112.15571914618561908031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/locking/core
-    old: 36c2cf88808d47e926d11b98734f154fe4a9f50f
-    new: eeb51c09abb7364119d55c9847306dd466e97406
+  - ref: refs/heads/at91-next
+    old: 9415b23aa23648cfdadf6415ed9163957f215643
+    new: 44339d0de195eeb531e2e89815084f567c6cd5c4
     log: |
-         2366404c7cfe6e20cfacdec0b79e29551c57a015 locking/atomic/x86: Use ALT_OUTPUT_SP() for __alternative_atomic64()
-         2caa13c952bf82aace16e05650aaf16e797890ae locking/atomic/x86: Use ALT_OUTPUT_SP() for __arch_{,try_}cmpxchg64_emu()
-         4251ae08977f46bf68745227edee7409bf8660f6 time/sched_clock: Swap update_clock_read_data() latch writes
-         43ae6e0ad6c424862e99d2ab107c152d7d77361c time/sched_clock: Broaden sched_clock()'s instrumentation coverage
-         f40f2911de6e143e70cb0f484ef68d1ca92ad495 kcsan, seqlock: Support seqcount_latch_t
-         cd44b401430f64b21c665edb222551af32089e2f seqlock, treewide: Switch to non-raw seqcount_latch interface
-         eeb51c09abb7364119d55c9847306dd466e97406 kcsan, seqlock: Fix incorrect assumption in read_seqbegin()
+         41af45af8bc304e92e6a45890da751fc5ed5b7df ARM: dts: at91: sam9x7: add device tree for SoC
+         4157293c808f8691bec51da7badaab382849b01e dt-bindings: arm: add sam9x75 curiosity board
+         371a47c9a58a13e339fce2a3118c9ee6a8422258 ARM: dts: microchip: sam9x75_curiosity: add sam9x75 curiosity board
+         44339d0de195eeb531e2e89815084f567c6cd5c4 Merge branch 'at91-dt' into at91-next
          
