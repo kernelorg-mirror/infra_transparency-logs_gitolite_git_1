@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 05 Nov 2024 03:39:39 -0000
-Message-Id: <173077797932.1792160.1812127154415077661@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 03:39:42 -0000
+Message-Id: <173077798276.1792357.16471850776464820071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: fca6caeb4a61d240f031914413fcc69534f6dc03
-    new: cb7e509c4e0197f63717fee54fb41c4990ba8d3a
+  - ref: refs/heads/fixes
+    old: cb7e509c4e0197f63717fee54fb41c4990ba8d3a
+    new: 54c814c8b23bc7617be3d46abdb896937695dbfa
     log: |
-         d28d17a845600dd9f7de241de9b1528a1b138716 scsi: scsi_debug: Fix do_device_access() handling of unexpected SG copy length
-         cb7e509c4e0197f63717fee54fb41c4990ba8d3a scsi: ufs: core: Fix another deadlock during RTC update
+         7ce3e6107103214d354a16729a472f588be60572 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+         54c814c8b23bc7617be3d46abdb896937695dbfa scsi: ufs: core: Start the RTC update work later
          
