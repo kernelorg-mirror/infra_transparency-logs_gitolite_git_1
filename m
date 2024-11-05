@@ -1,37 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 05 Nov 2024 22:25:17 -0000
-Message-Id: <173084551742.2795937.11285536336587897714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 05 Nov 2024 22:32:08 -0000
+Message-Id: <173084592853.2801096.10496855435486615861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: e1325e19d2256c4724fb465c547333af424e5de5
-    new: 57a063632df8db6cb20d64ee52a06d4e2049235a
+  - ref: refs/heads/work.vt_buffer
+    old: 2967bbc27a6ec9981a27a00f797d5f237bce8810
+    new: 73d2b6787feb4455c991b73f9d16ec98800718d4
     log: |
-         cca257f0f3fbaf30e07e8073cd374a06eead7b40 dt-bindings: input: rotary-encoder: Fix "rotary-encoder,rollover" type
-         7ec151f45730435b30aa75a98d22e39849cfb7f9 Input: synaptics - fix a typo
-         cbdc3f95cdf817e6adc5c783464658d30e9ccb61 Input: synaptics-rmi4 - switch to using cleanup functions in F34
-         dda8fdb033f48e759ff190c59aa266905ecba3dd Input: hilkbd - use guard notation when acquiring spinlock
-         229ba714e52f7f29f41c1aa2e9f49feef3629322 Input: locomokbd - use guard notation when acquiring spinlock
-         6b6b40ff05ab43b603abd7ae1821892307421d49 Input: maple_keyb - use guard notation when acquiring mutex
-         57a063632df8db6cb20d64ee52a06d4e2049235a Input: introduce notion of passive observers for input handlers
-         
-  - ref: refs/heads/next
-    old: e1325e19d2256c4724fb465c547333af424e5de5
-    new: 57a063632df8db6cb20d64ee52a06d4e2049235a
-    log: |
-         cca257f0f3fbaf30e07e8073cd374a06eead7b40 dt-bindings: input: rotary-encoder: Fix "rotary-encoder,rollover" type
-         7ec151f45730435b30aa75a98d22e39849cfb7f9 Input: synaptics - fix a typo
-         cbdc3f95cdf817e6adc5c783464658d30e9ccb61 Input: synaptics-rmi4 - switch to using cleanup functions in F34
-         dda8fdb033f48e759ff190c59aa266905ecba3dd Input: hilkbd - use guard notation when acquiring spinlock
-         229ba714e52f7f29f41c1aa2e9f49feef3629322 Input: locomokbd - use guard notation when acquiring spinlock
-         6b6b40ff05ab43b603abd7ae1821892307421d49 Input: maple_keyb - use guard notation when acquiring mutex
-         57a063632df8db6cb20d64ee52a06d4e2049235a Input: introduce notion of passive observers for input handlers
+         0a4a894f225d710ede72feee96fc51cd3509e935 vt_buffer.h: get rid of dead code in default scr_...() instances
+         3f407514ceba8b8821a5d2d0f5379f1ac1286642 asm/vga.h: don't bother with scr_mem{cpy,move}v() unless we need to
+         02e7e92709267ae26211041385d1e711e7c8991c sparc: get rid of asm/vga.h
+         73d2b6787feb4455c991b73f9d16ec98800718d4 empty include/asm-generic/vga.h
          
