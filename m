@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7068660327660574845=="
+Content-Type: multipart/mixed; boundary="===============6771356804693825086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 Nov 2024 16:45:22 -0000
-Message-Id: <173082512291.2505550.5674192716901228551@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 16:45:25 -0000
+Message-Id: <173082512508.2505629.14852444476078347818@gitolite.kernel.org>
 
---===============7068660327660574845==
+--===============6771356804693825086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5ccdcdf186aec6b9111845fd37e1757e9b413e2f
     new: 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a
     log: revlist-5ccdcdf186ae-9eaff63bfb59.txt
 
---===============7068660327660574845==
+--===============6771356804693825086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi
 ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
 
---===============7068660327660574845==--
+--===============6771356804693825086==--
