@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 05 Nov 2024 10:49:08 -0000
-Message-Id: <173080374832.2195834.3890244024382644843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 05 Nov 2024 10:54:41 -0000
+Message-Id: <173080408130.2200800.14750446536046978540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 06fe76d5f6277dd01033cbb37e1870774f5c6a84
-    new: 2be3f5ab0e4142763254889baf326943af65fed1
+  - ref: refs/heads/main
+    old: c688a96c432e172f08dbfa35cef5ec55de76473c
+    new: 7af3a6558cb415216f3d2199ea2cb99d8344835d
     log: |
-         41a0d7935f6d019dc02dd26cbb1c335a9bac7c56 usb: xhci: Limit Stop Endpoint retries
-         3eddfe7e2e31cc341e111d29f1d76d95e96817bc usb: xhci: Fix TD invalidation under pending Set TR Dequeue
-         2be3f5ab0e4142763254889baf326943af65fed1 usb: xhci: Avoid queuing redundant Stop Endpoint commands
+         6aacd1484468361d1d04badfe75f264fa5314864 virtio-net: fix overflow inside virtnet_rq_alloc
+         a33f3df850750216f432b637a5020ad6a740cac1 virtio_net: big mode skip the unmap check
+         47008bb51c3e11c187dacc17af334bdca97c2dca virtio_net: enable premapped mode for merge and small by default
+         fb22437c1ba37fc54eff949023923cc7887aaaa1 virtio_net: rx remove premapped failover code
+         7af3a6558cb415216f3d2199ea2cb99d8344835d Merge branch 'virtio_net-enable-premapped-mode-by-default'
          
