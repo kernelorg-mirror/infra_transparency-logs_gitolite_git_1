@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 05 Nov 2024 21:45:38 -0000
-Message-Id: <173084313803.2762727.9144042550117012076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Tue, 05 Nov 2024 21:51:42 -0000
+Message-Id: <173084350253.2767450.14123545992955161296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/for-6.12-fixes
-    old: c31f2ee5cd7da3086eb4fbeef9f3afdc8e01d36b
-    new: a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80
+  - ref: refs/heads/dev-staging
+    old: ec89c38d55df9c18700e25ad53d9970e7a0119e4
+    new: 0528f712f38e4dd6b2cf560993c14bfa48c27c99
     log: |
-         f7d1b585e1533e26801c13569b96b84b2ad2d3c1 sched_ext: Add a missing newline at the end of an error message
-         a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80 sched_ext: Update scx_show_state.py to match scx_ops_bypass_depth's new type
-         
-  - ref: refs/heads/for-next
-    old: e7733c6642325e3db4f0f22ec8676e0daf6616cf
-    new: b6b7a41d89d81b67cc89b9424c683c1545b33e74
-    log: |
-         f7d1b585e1533e26801c13569b96b84b2ad2d3c1 sched_ext: Add a missing newline at the end of an error message
-         a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80 sched_ext: Update scx_show_state.py to match scx_ops_bypass_depth's new type
-         b6b7a41d89d81b67cc89b9424c683c1545b33e74 Merge branch 'for-6.12-fixes' into for-next
+         51b3f3354676eaa0e57f87130f5f37f13fbbe474 smack: fix the smack_lsmprop_to_secctx() kdoc
+         8786f3b95ece89000df5e0d55953f78b64b5eb74 netfilter: Use correct length value in ctnetlink_secctx_size
+         ab976269385216d62f8d2298afed4ae774543fbf selinux: Fix pointer use in selinux_dentry_init_security
+         0528f712f38e4dd6b2cf560993c14bfa48c27c99 selinux: fix signedness bug in selinux_secid_to_secctx()
          
