@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 05 Nov 2024 22:32:08 -0000
-Message-Id: <173084592853.2801096.10496855435486615861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 05 Nov 2024 22:49:35 -0000
+Message-Id: <173084697523.2814079.17815155957727646816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/work.vt_buffer
-    old: 2967bbc27a6ec9981a27a00f797d5f237bce8810
-    new: 73d2b6787feb4455c991b73f9d16ec98800718d4
-    log: |
-         0a4a894f225d710ede72feee96fc51cd3509e935 vt_buffer.h: get rid of dead code in default scr_...() instances
-         3f407514ceba8b8821a5d2d0f5379f1ac1286642 asm/vga.h: don't bother with scr_mem{cpy,move}v() unless we need to
-         02e7e92709267ae26211041385d1e711e7c8991c sparc: get rid of asm/vga.h
-         73d2b6787feb4455c991b73f9d16ec98800718d4 empty include/asm-generic/vga.h
-         
+  - ref: refs/heads/buffered-uncached.2
+    old: 0000000000000000000000000000000000000000
+    new: 6bce64ef488b92807da5954cb067cd33b0ecdd3e
