@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5953914837609770364=="
+Content-Type: multipart/mixed; boundary="===============5952900302664839437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Nov 2024 02:27:31 -0000
-Message-Id: <173077365117.1736120.16939946248027469095@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 02:27:51 -0000
+Message-Id: <173077367121.1736542.13033727644015164267@gitolite.kernel.org>
 
---===============5953914837609770364==
+--===============5952900302664839437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,68 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: cb7e509c4e0197f63717fee54fb41c4990ba8d3a
-    new: 54c814c8b23bc7617be3d46abdb896937695dbfa
-    log: |
-         7ce3e6107103214d354a16729a472f588be60572 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-         54c814c8b23bc7617be3d46abdb896937695dbfa scsi: ufs: core: Start the RTC update work later
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 715dd4fa76367ad8da3abd93e5eaef8280ebb4d5
+    new: ad658b9e8e1a590546477eea589b02ff722a7295
+    log: revlist-715dd4fa7636-ad658b9e8e1a.txt
 
---===============5953914837609770364==
+--===============5952900302664839437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1730773678 -0500
+pusher 75C5DE3D 1730773684 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1730773649-35292defa62e3724d9ee73f71c77b51c7b841d7c
+nonce 1730773655-584ccb97806e6c384841bf0099f1b4fc13b979ba
 
-cb7e509c4e0197f63717fee54fb41c4990ba8d3a 54c814c8b23bc7617be3d46abdb896937695dbfa refs/heads/fixes
+715dd4fa76367ad8da3abd93e5eaef8280ebb4d5 ad658b9e8e1a590546477eea589b02ff722a7295 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgq4ACgkQ7ulgGnXF
-3j3fsw/+KMVosdlv6IDSAqBoFo+vaJWuUmRSfcrsiIYVRcXA10EeBH9JGAaHtucL
-jXiV/SZiqrIotSBtEv4+fGfip2X8jRp+9eDO315ZJA+jxdl0O6PODUtsqWOiLZ5q
-9/GCUHN0ZYhFiMz1vv9nie418Pr7UxO7dJWMZmZdcjbn+RvEMPlm7AMJCkqu4F1q
-BmUKeUOeXa/akeL+PUZwxr/mpasSEVOGsRedXXzkDhgK+48ZHXHirZnMSPAcXkZv
-vK6G25UqBq7pkvSdpgCGVPvdx7/WKdQ/LX427AjVeYLwxcQ+yvHEXNYLEgrux2SY
-43PTTCuT4mL8YOTaOvVg3NgMxdOo2PdaWWOEHCsnuVqS2Eh9W3s6yURxOH6xOb24
-zLVXMQIt6doWEW1RNoGin67z3reu2Vs1b8TblAB5ZeHaA/4i93PMAt/jhCvHSuRb
-5bn4C+uFLeVeEtk+DZdZ3ObmCEVr87nyqZzF9Bc8cH9M++m5RYW3mx6TkNj2Ts/5
-MsKzpeEkorL04FR/OxZa+dyvOBCfNeYsoQFRXtq1rupn16BK1zgUbcPY2BVGfj9v
-hPD504KP3Bru5nkdWvkSrbk9kAo4CMsFuR+4GWLKo8gaMgkgLbdD46tHzoQBl9hE
-a0ar++IEnPStMLCEH7XB3s6bOp9+50Sps7yuxIDejLec//rdCy8=
-=Rqu/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgrQACgkQ7ulgGnXF
+3j36qQ//Yyoi0qf4dDhyGrP1+9HpxUCuZR1abtC5Bqll/Y76gLQDpH13cm6qms8i
+kNsAioUWm+Nv7QgxP30rUP6HS34Tvk4moFarj72cVK7pa14aRvDs0iQmcwCZldFw
+WzmPGcoAU76bgfeEkjQUVgI9NypLnnwuLVA4UkMTInyvAAnN/aUqiZsQtZLR0Osk
+e6t5AZSePUHYmp5a+LXMzL0LUSdrMFROdjUnDC8xVsTtFd34Tvt58Wk0PJu8jN8C
+GfSA+1vJLvOfZ48SJgRXKb6iPwBLkBtyYeLnq9BgXHzTjDgsaKGaN3evGTJCKfTd
+OzZtMUwVDZU2Iog+xZ7vx6DWX47fzX4ARnKqTp5UW4cxQfwWNup3JI4r0Q9hUI1A
+UAxgJaFlhrAG8zjZhplJg8EKgue/zMqma7FdAAquWPE6vOx3ZGPzu5OML9j+Wivc
+S2jjedNUUeKXAqFyIWBVOGdJXjI9WSHOBUbWtcYjcxWXRneQ2wnTnwmIRMaC0ap9
+dAxYAKrGAfWq6MelCYjvhdMN54dcqwlhoEramQUvMVdjd4Vn6UYD1nA+Djp+d7l8
++juCec5nEeLe5/hglIOwJLG0ZiwDkz50L5d98tkAkBxaIXPb1/ohX7AbHegv+2Fa
+qC4gQ4xriSa21YRs2H/cwkckrJtcZ30+xENPSXKXTE9pKyrP7wo=
+=PbUW
 -----END PGP SIGNATURE-----
 
---===============5953914837609770364==--
+--===============5952900302664839437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-715dd4fa7636-ad658b9e8e1a.txt
+
+10c58d7eea443c6961135a7f16f9fa03bf8e5823 scsi: ufs: core: check asymmetric connected lanes
+6c1143bb5d122ec542b10288bfca183788c547e8 scsi: ufs: core: Use ufshcd_wait_for_register() in HCE init
+78bc671bd1501e2f6c571e063301a4fdc5db53b2 scsi: ufs: core: Make DMA mask configuration more flexible
+a085e03758b87ee5aea45de27c811576574d795b scsi: ufs: core: Move the ufshcd_mcq_enable_esi() definition
+7df89440d0ec47a4d91c5d664a6fa33931800913 scsi: ufs: core: Remove goto statements from ufshcd_try_to_abort_task()
+9a5f6c09d0fa5a7b2139a745368e0ef77dece34b scsi: ufs: core: Simplify ufshcd_try_to_abort_task()
+b5d9da58a05172ec08301e06932338ade6d55f82 scsi: ufs: core: Simplify ufshcd_exception_event_handler()
+2a36646012fc58e6262435ff5d2c8c97456c253f scsi: ufs: core: Simplify ufshcd_err_handling_prepare()
+2c73fb138da587597c2b02e72dcbeae18af60f4e scsi: ufs: core: Improve ufshcd_mcq_sq_cleanup()
+2b314e182caabd32f656ddba22432a7749572013 scsi: ufs: core: Remove redundant host_lock calls around UTMRLDBR
+5824e18b3db468e6eb5e9ef226eed80db26f581a scsi: ufs: core: Remove redundant host_lock calls around UTMRLCLR
+2a330f16ad305935c965dd84b727771c52701642 scsi: ufs: core: Remove redundant host_lock calls around UTRLCLR.
+17a973970397b3452fde2c93bc1ee051e7a8c79b scsi: ufs: core: Introduce ufshcd_add_scsi_host()
+3192d28ec6608ace67e85753da2504c11a4fdb16 scsi: ufs: core: Introduce ufshcd_post_device_init()
+7702c7f64f2df3e299ae26059e448bf4f08b867a scsi: ufs: core: Call ufshcd_add_scsi_host() later
+18ec23b60822fb52ae1f1f3a08df29289458b087 scsi: ufs: core: Introduce ufshcd_process_probe_result()
+0936001322646a15d7091f61232e5ded9bf1883f scsi: ufs: core: Convert a comment into an explicit check
+639e2043b58998b3950ab90413c1b726945058bf scsi: ufs: core: Move the ufshcd_device_init() calls
+69f5eb78d4b0cc978fe83dd2bfea1b67547290bf scsi: ufs: core: Move the ufshcd_device_init(hba, true) call
+a390e6677f4119e3b9e6364ac2c5cbe3ef1321a2 scsi: ufs: core: Expand the ufshcd_device_init(hba, true) call
+b6195d02b914ddfddb50e3ceb6b66928ebf0fdb8 scsi: ufs: core: Remove code that is no longer needed
+72e979225ed2e9427396e317d33050bcf50ad899 scsi: ufs: core: Move the MCQ scsi_add_host() call
+b92e5937e3523b0b7d41373681256bec78d7e134 scsi: ufs: core: Move code out of an if-statement
+
+--===============5952900302664839437==--
