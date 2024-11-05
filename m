@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4498361458602018400=="
+Content-Type: multipart/mixed; boundary="===============9179210347673718525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 Nov 2024 16:45:32 -0000
-Message-Id: <173082513274.2505860.13295582372661016489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 05 Nov 2024 16:45:52 -0000
+Message-Id: <173082515249.2506276.14153327361707421925@gitolite.kernel.org>
 
---===============4498361458602018400==
+--===============9179210347673718525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/200GbE
-    old: 5ccdcdf186aec6b9111845fd37e1757e9b413e2f
-    new: 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a
-    log: revlist-5ccdcdf186ae-9eaff63bfb59.txt
+  - ref: refs/heads/master
+    old: bcaaefbd983dd48567a016581758d91078209911
+    new: 7d59054ee22a5a187868453c93bd065da6e3990c
+    log: |
+         7d59054ee22a5a187868453c93bd065da6e3990c 6.6-stable patches
+         
 
---===============4498361458602018400==
+--===============9179210347673718525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ccdcdf186ae-9eaff63bfb59.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b6ec62e01aa4229bc9d3861d1073806767ea7838 can: j1939: fix error in J1939 documentation.
-7b22846f8af5ab2f267de9eb209fb1835ee9978c can: {cc770,sja1000}_isa: allow building on x86_64
-e4de81f9e134c78ff7c75a00e43bd819643530d0 can: m_can: m_can_close(): don't call free_irq() for IRQ-less devices
-4d6d26537940f3b3e17138987ed9e4a334780bf7 can: c_can: fix {rx,tx}_errors statistics
-4384b8b6ec4643aa73487bd1dc458e236c320564 can: rockchip_canfd: CAN_ROCKCHIP_CANFD should depend on ARCH_ROCKCHIP
-51e102ec23b25e6ca45ed45c3b9be42cb48d63dd can: rockchip_canfd: Drop obsolete dependency on COMPILE_TEST
-eb9a839b3d8a989be5970035a5cf29bcd6ffd24d can: mcp251xfd: mcp251xfd_ring_alloc(): fix coalescing configuration when switching CAN modes
-3c1c18551e6ac1b988d0a05c5650e3f6c95a1b8a can: mcp251xfd: mcp251xfd_get_tef_len(): fix length calculation
-08d05cea028276669e44f9a145d55de10ae59547 Merge tag 'linux-can-fixes-for-6.12-20241104' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-249cfa318fb1b77eb726c2ff4f74c9685f04e568 Revert "Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'"
-df3dff8ab6d79edc942464999d06fbaedf8cdd18 net: hns3: fix kernel crash when uninstalling driver
-de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi queue Rx on J7
-ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
-9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730825165 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1730825150-78a86b13b42a2a52e2135913b0f5abe40da207f6
 
---===============4498361458602018400==--
+bcaaefbd983dd48567a016581758d91078209911 7d59054ee22a5a187868453c93bd065da6e3990c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcqS80bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OmgQAKqBKyFd2JjdSF1npmMl
+0Vxb/nzU81g+vhNJEAy5VjV4HJsdi5WmDwYxMmQ8/VRJZZ4dFoPZ1GrWCERPnD2s
+8xzlTNPVj5hDmVdInDtHy1DbNKOVfkjMN1y0mfOLLeQfcSGARxg91LkGcpPLOO1E
+tnJmKqxrwcHTvBPlxlD65c/1hGPfK2aBow9zudQ0PfsA4L1htfmUNDLQDMdjWnMw
+qvQU923ucr3bPH1qcKiEU9yYufTCUMw+e3NzClFxi9UcdGStn8y8SYmXm4zeiVJH
+M6F1HTMdZXM9wAA4Nha8Hy4trjYeVngj3fBfCr05NKxFDwbQys9HVz1iwdSWtEw+
+oPhfaacwfXMUf/hZs2yvDnZawr4wLbh2syQBmEtV3ELLXVN25kaMU3pxJouPFw2E
+ccLOJvLVH6+sdG95g9o/uXhG2hTsrwJGuz2sjoOtqgb+VarUNJjYFA55bL3LMsbt
+HDl8deyF3CdPSPFrzRC7SCclr/uaBVqYb2xQ+sVN/ZqWD1mdgfppmqOdal5wDrh5
+BPDMoEEThTYcMQmeAyg1Sd3Zt4Q3DQFVFvYJ1Nrug4xeMNJ98dABOveWx7kX+0kO
+xQ+qW/X0Bqte9sAHfCmbgQCca5xC5Hly3mKp7AWXDRu7SFBohit4Ix6muM/o8atr
+Yg9iQBR4LOYt42OO3zSmbn9u
+=q83p
+-----END PGP SIGNATURE-----
+
+--===============9179210347673718525==--
