@@ -1,48 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1411636895606376060=="
+Content-Type: multipart/mixed; boundary="===============8186455056983007950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 05 Nov 2024 16:02:54 -0000
-Message-Id: <173082257436.2458294.13948923796716697406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 05 Nov 2024 16:04:00 -0000
+Message-Id: <173082264089.2458966.439142103106234616@gitolite.kernel.org>
 
---===============1411636895606376060==
+--===============8186455056983007950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/gpio-irq-regmap
-    old: 45bbcc5430f7ddc969253a078a04aeb6f9ee4d67
-    new: d1b7c5558fb6dded2dee2cfebe358de0d93f022e
-    log: revlist-45bbcc5430f7-d1b7c5558fb6.txt
+  - ref: refs/heads/nfs-localio-for-next
+    old: 60327faea8241afe7f5f767875c53d24b3f18898
+    new: aa154f9ac6ee4097550487ae75930d2db69a38d1
+    log: revlist-60327faea824-aa154f9ac6ee.txt
 
---===============1411636895606376060==
+--===============8186455056983007950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45bbcc5430f7-d1b7c5558fb6.txt
+Content-Disposition: attachment; filename=revlist-60327faea824-aa154f9ac6ee.txt
 
-fe1ff091a8361f7e55f7a3480ff43ae399924903 dt-bindings: mailbox: mpfs: fix reg properties
-6692ff5a8ee2df1c83af1c1d1a0dce7bc947d2a2 mailbox: mpfs: support new, syscon based, devicetree configuration
-a532758a3a6ded26bbce3e78347dde396326e33e dt-bindings: mfd: syscon document the non simple-mfd syscons on PolarFire SoC
-2c599a33844fcc3113dbe1433f79a7f26129a652 dt-bindings: soc: microchip: document the simple-mfd syscon on PolarFire SoC
-51511bb87b877ee52e59f4c7efb5c4039ca4e68e soc: microchip: add mfd drivers for two syscon regions on PolarFire SoC
-b9dff631477d9ca16b438650f69c26fcad6a3f5d reset: mpfs: add non-auxiliary bus probing
-a453ea980f737006c29b428180d9c166a2ef7596 dt-bindings: clk: microchip: mpfs: remove first reg region
-a38f62d49ed1154bdc246e07f488ebc40a712278 clk: divider, gate: trivially implement regmaps
-50e6f163c89e8d33c88e4713eee54b2468d75a24 clk: microchip: mpfs: use regmap clock types
-da8ba994ed598da26da996e5e5fca2df736c1b8c riscv: dts: microchip: fix mailbox description
-c6b50aa192fffd23b1f045bef03d55863ac04480 riscv: dts: microchip: convert clock and reset to use syscon
-af05583913c262ddcbf61fa6446360c79b755c7b gpio: mpfs: add polarfire soc gpio support
-5993f435f20efcad64f220b052e85740c231b8d3 gpio: mpfs: add CoreGPIO support
-2d3fcaaf86c69360cc8e0225829021a6b2fba568 dt-bindings: gpio: fix microchip,mpfs-gpio interrupt descriptions
-3b1ae857e376085ebdd0fde61840fad3803da1f1 dt-bindings: interrupt-controller: document PolarFire SoC's gpio interrupt mux
-d68a6385dd149aab0cbaa7e13181cc0c9a772887 irqchip: add mpfs gpio interrupt mux
-3166771fc5c026351f261c9332a04a63401a747a gpio: mpfs: Add interrupt support
-d1b7c5558fb6dded2dee2cfebe358de0d93f022e riscv: dts: microchip: update gpio interrupts to better match the SoC
+24a9df2e02d354dcdf3569dba5ead1bae7905efe nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
+51994934e5e51964a9d8b2bcf16bea541ca3984f nfs_common: rename functions that invalidate LOCALIO nfs_clients
+4b9a9ba397f378bc25ab3a2069552956658f4c23 nfs_common: move localio_lock to new lock member of nfs_uuid_t
+855ce73220ac09b51d209aadf534bca54e44a8bb nfs: cache all open LOCALIO nfsd_file(s) in client
+b77690b10f71c886b6813f10bad59eb603628f22 nfsd: update percpu_ref to manage references on nfsd_net
+46415972f8e735dc4bacb3c42f3b5e76a10ec29c nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
+3c3dc0cebeff29e4b6ee8b0d8a48237775128548 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
+c2ab1dcddcd92bf1e64a62e413b913e834c5aa34 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+451281465860c96dec3432b078cf40f76e697e51 nfs_common: track all open nfsd_files per LOCALIO nfs_client
+b7f1a30016fb6b34ec438e96121ccc8d59039211 nfs_common: add nfs_localio trace events
+aa154f9ac6ee4097550487ae75930d2db69a38d1 nfs: probe for LOCALIO when client reconnects to server
 
---===============1411636895606376060==--
+--===============8186455056983007950==--
