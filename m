@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2379938753287290831=="
+Content-Type: multipart/mixed; boundary="===============1407895966091407300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 05 Nov 2024 03:39:57 -0000
-Message-Id: <173077799770.1792696.4934438872574205381@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 03:40:12 -0000
+Message-Id: <173077801247.1794614.13596460105229218394@gitolite.kernel.org>
 
---===============2379938753287290831==
+--===============1407895966091407300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: a3517717c3c0dbad771f5e491191b4b7b69808fb
-    new: b92e5937e3523b0b7d41373681256bec78d7e134
-    log: revlist-a3517717c3c0-b92e5937e352.txt
+  - ref: refs/heads/for-next
+    old: e5432f520915f1a9608db38fa71f436c56808479
+    new: 6abc45870e048337e3b402cc55aba006aa032473
+    log: revlist-e5432f520915-6abc45870e04.txt
 
---===============2379938753287290831==
+--===============1407895966091407300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3517717c3c0-b92e5937e352.txt
+Content-Disposition: attachment; filename=revlist-e5432f520915-6abc45870e04.txt
 
 10c58d7eea443c6961135a7f16f9fa03bf8e5823 scsi: ufs: core: check asymmetric connected lanes
 6c1143bb5d122ec542b10288bfca183788c547e8 scsi: ufs: core: Use ufshcd_wait_for_register() in HCE init
@@ -49,5 +49,9 @@ a390e6677f4119e3b9e6364ac2c5cbe3ef1321a2 scsi: ufs: core: Expand the ufshcd_devi
 b6195d02b914ddfddb50e3ceb6b66928ebf0fdb8 scsi: ufs: core: Remove code that is no longer needed
 72e979225ed2e9427396e317d33050bcf50ad899 scsi: ufs: core: Move the MCQ scsi_add_host() call
 b92e5937e3523b0b7d41373681256bec78d7e134 scsi: ufs: core: Move code out of an if-statement
+7ce3e6107103214d354a16729a472f588be60572 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+54c814c8b23bc7617be3d46abdb896937695dbfa scsi: ufs: core: Start the RTC update work later
+468bc839df766cd7165a33f27ca70bf7856a192f Merge branch 'misc' into for-next
+6abc45870e048337e3b402cc55aba006aa032473 Merge branch 'fixes' into for-next
 
---===============2379938753287290831==--
+--===============1407895966091407300==--
