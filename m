@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 05 Nov 2024 23:37:43 -0000
-Message-Id: <173084986398.2853284.11773873081358258356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 05 Nov 2024 23:47:29 -0000
+Message-Id: <173085044941.2861202.13436124133081356208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/testing/wfamnae-next20241104-inet-sock
+  - ref: refs/heads/tick/remove-last-tick-compare
     old: 0000000000000000000000000000000000000000
-    new: 8007e9163f60628a5fc65e4465f8beefdc08b6bb
+    new: e615c721a4296bfc7f22397e7391f10c224c7ba5
