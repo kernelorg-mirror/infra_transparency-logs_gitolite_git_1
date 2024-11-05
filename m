@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Tue, 05 Nov 2024 14:15:54 -0000
-Message-Id: <173081615422.2369575.17790228157347922450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Tue, 05 Nov 2024 14:16:24 -0000
+Message-Id: <173081618416.2369985.6155759001931646361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/next
-    old: 98d8beff41f759394f71c27acae96fdf8b04705a
-    new: 84a25d89522de1efc234e195a18514e253feb061
+  - ref: refs/heads/sunxi/dt-for-6.13
+    old: fcfbb8d9ec584c256c0a6e1ae3174a21b007f399
+    new: bd4215c71992d89ab84339aab56bd8574134708f
     log: |
-         84a25d89522de1efc234e195a18514e253feb061 Version 4.4.1
+         bd4215c71992d89ab84339aab56bd8574134708f ARM: dts: allwinner: Remove accidental suniv duplicates
          
