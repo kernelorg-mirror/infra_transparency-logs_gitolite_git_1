@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6086356802845819979=="
+Content-Type: multipart/mixed; boundary="===============4916144392055176499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 Nov 2024 17:04:02 -0000
-Message-Id: <173082624256.2523742.1737364529988502796@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 17:04:04 -0000
+Message-Id: <173082624476.2523858.17185993497908694694@gitolite.kernel.org>
 
---===============6086356802845819979==
+--===============4916144392055176499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ecf99864ea6b1843773589a935bb026951bf12dd
     new: ccb35037c48a16dfa377e3af3be2c164e73d54f0
     log: revlist-ecf99864ea6b-ccb35037c48a.txt
 
---===============6086356802845819979==
+--===============4916144392055176499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ d4c97e39bf40fe02ee762c32d5dea73928ce6f0c net: sparx5: execute sparx5_vcap_init()
 1091487dc7435532a04210faeaaf1eb5ac0721d0 net: lan969x: add VCAP configuration data
 ccb35037c48a16dfa377e3af3be2c164e73d54f0 Merge branch 'net-lan969x-add-vcap-functionality'
 
---===============6086356802845819979==--
+--===============4916144392055176499==--
