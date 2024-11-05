@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7855510861472276169=="
+Content-Type: multipart/mixed; boundary="===============0661667254947552029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Nov 2024 02:28:00 -0000
-Message-Id: <173077368037.1736785.16046989365403227525@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 02:28:21 -0000
+Message-Id: <173077370182.1737140.7533845200679158536@gitolite.kernel.org>
 
---===============7855510861472276169==
+--===============0661667254947552029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,97 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: a3517717c3c0dbad771f5e491191b4b7b69808fb
-    new: b92e5937e3523b0b7d41373681256bec78d7e134
-    log: revlist-a3517717c3c0-b92e5937e352.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 33ad5b73efce01c84eee823ff70eb029bff6d32f
+    new: ab63c2f1115565ee7ee1f9494f58110a7ecb2a6a
+    log: revlist-33ad5b73efce-ab63c2f11155.txt
 
---===============7855510861472276169==
+--===============0661667254947552029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1730773707 -0500
+pusher 75C5DE3D 1730773713 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1730773678-cf7ae187ba5fb84beeb67856a3b675694d6a4f23
+nonce 1730773684-2bc661699edd5bda9a468839b6ffea1859e3858e
 
-a3517717c3c0dbad771f5e491191b4b7b69808fb b92e5937e3523b0b7d41373681256bec78d7e134 refs/heads/queue
+33ad5b73efce01c84eee823ff70eb029bff6d32f ab63c2f1115565ee7ee1f9494f58110a7ecb2a6a refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgssACgkQ7ulgGnXF
-3j040g/+Jqp7x4IZfu5ZQ28KYN3Ls+oKfzZUbXgLBTUuNH64/BPxcxdAuqER4muj
-VxxxdDxwa366mhk7Bcb6D7WxNnh2DB4xgfc4kY1PqvLMee973zAeXfz1MbwQAPcu
-eqSl5zLIEuX4SQM9AnlEVF2qOdmW4THSFiiEL6zc/V5iTG3rYMvkNh3gKgujPFvp
-5OBxthKelF/HrY51VeTVSnxo/e49ySHtvMHeYeuDX/VuRRzXM2MHa/9EgZAR8SqS
-gq5I+cR/MlxbQ9R8lrQ9BPTl9hhQBPUFhcfQr3MMdatoYhdlfimiUPL69AzYCRYJ
-3ebxa+2cDNm/PXTy2Ie4RLADM2K7CM0+gobivGIuUUnYZzBBIPAdTG+MoKgyltVn
-AtQhzaprJLzNQMPmoP4Q+W0UBRSU5/1g09VDOILpJudFN0MxU1ZtYAJbxncf1f7M
-RhdfOTy0fmqGooausa55KFXKXunHL4BPHVr2E7a1llOeud+FfvNDpPYMIBLiOiHn
-iuozZb8EQETc2tHMKzbIutDdBHKQb3ecKcuxeTex0xqBjP8KDZMtMfgyX7+hfush
-J/JhOHvN6n1KxpmcX3bb87RfowCuuWWilbGCbB9tvRo4ibk0lg9qSFpl8NAUepHf
-veML6W8YBhBQ1KVycqnxmf60K1pPh1qGSp5IC95bDC/RG+AN2wM=
-=kuIE
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgtEACgkQ7ulgGnXF
+3j0ogRAAn+V/S+/z+blakuZeIOt5q5XytoiIlVumwzzxMxPaTNkdYxpAYVmKfSOF
+Kwwwk+KizPzb205poWTa1H141MD4aOeFpkiR7XhCwYu0DDxtkS23Cds2A3lbhUbu
+op+w92GBiu32KTBiu2W1co2h7nL8Mj1uc784zE94fqfQTMHj4ZmZANB+1aOitQb3
++1GsW/HnpNp4b3X7UJf4Dt/dmObiCUF7UqGocGZ7M00xelTVqzZg2vvcuimyMwNZ
+VRtDykZB3i7hPvoIorzmHT00V7Ti+adSxJcqVN78Lt6ApjixOXqK1DCHdHpKhD2Z
+IkvA352sxE5OW25Yqrkp5uTWihyOmNVyizoE1HBI3Sz6158ybYlvQ4zyUJTohl/G
+wGLGCW1JZ0F5szCOGJzjUcChlhgayPbTjq9IFAf3zQ68kcaypLLLTD7ER+mH563f
+HdrGb+0/97wJFt7n8GZRW1o0MB4jbN0KEcd1Z8gvx9spXkVuByTQRErVCXRQ5OYU
+9GI12fvG/tXNe1JJuvCcaiR++4xTOZMm8QjvtmKuCA4cuM2Ivv+CDZ2h5IRdiTtq
+OB1TWMib2xbphdjIxDkIEbJk29uhjcg7Mke+V/KYcINtuvG2ep5QYm1PkPDkyZjJ
+ibdGT2TNSwSHqy9qkX4PadJ/cymclxBEQjDdKbPD2tkx7mLtXCg=
+=n02/
 -----END PGP SIGNATURE-----
 
---===============7855510861472276169==
+--===============0661667254947552029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3517717c3c0-b92e5937e352.txt
+Content-Disposition: attachment; filename=revlist-33ad5b73efce-ab63c2f11155.txt
 
-10c58d7eea443c6961135a7f16f9fa03bf8e5823 scsi: ufs: core: check asymmetric connected lanes
-6c1143bb5d122ec542b10288bfca183788c547e8 scsi: ufs: core: Use ufshcd_wait_for_register() in HCE init
-78bc671bd1501e2f6c571e063301a4fdc5db53b2 scsi: ufs: core: Make DMA mask configuration more flexible
-a085e03758b87ee5aea45de27c811576574d795b scsi: ufs: core: Move the ufshcd_mcq_enable_esi() definition
-7df89440d0ec47a4d91c5d664a6fa33931800913 scsi: ufs: core: Remove goto statements from ufshcd_try_to_abort_task()
-9a5f6c09d0fa5a7b2139a745368e0ef77dece34b scsi: ufs: core: Simplify ufshcd_try_to_abort_task()
-b5d9da58a05172ec08301e06932338ade6d55f82 scsi: ufs: core: Simplify ufshcd_exception_event_handler()
-2a36646012fc58e6262435ff5d2c8c97456c253f scsi: ufs: core: Simplify ufshcd_err_handling_prepare()
-2c73fb138da587597c2b02e72dcbeae18af60f4e scsi: ufs: core: Improve ufshcd_mcq_sq_cleanup()
-2b314e182caabd32f656ddba22432a7749572013 scsi: ufs: core: Remove redundant host_lock calls around UTMRLDBR
-5824e18b3db468e6eb5e9ef226eed80db26f581a scsi: ufs: core: Remove redundant host_lock calls around UTMRLCLR
-2a330f16ad305935c965dd84b727771c52701642 scsi: ufs: core: Remove redundant host_lock calls around UTRLCLR.
-17a973970397b3452fde2c93bc1ee051e7a8c79b scsi: ufs: core: Introduce ufshcd_add_scsi_host()
-3192d28ec6608ace67e85753da2504c11a4fdb16 scsi: ufs: core: Introduce ufshcd_post_device_init()
-7702c7f64f2df3e299ae26059e448bf4f08b867a scsi: ufs: core: Call ufshcd_add_scsi_host() later
-18ec23b60822fb52ae1f1f3a08df29289458b087 scsi: ufs: core: Introduce ufshcd_process_probe_result()
-0936001322646a15d7091f61232e5ded9bf1883f scsi: ufs: core: Convert a comment into an explicit check
-639e2043b58998b3950ab90413c1b726945058bf scsi: ufs: core: Move the ufshcd_device_init() calls
-69f5eb78d4b0cc978fe83dd2bfea1b67547290bf scsi: ufs: core: Move the ufshcd_device_init(hba, true) call
-a390e6677f4119e3b9e6364ac2c5cbe3ef1321a2 scsi: ufs: core: Expand the ufshcd_device_init(hba, true) call
-b6195d02b914ddfddb50e3ceb6b66928ebf0fdb8 scsi: ufs: core: Remove code that is no longer needed
-72e979225ed2e9427396e317d33050bcf50ad899 scsi: ufs: core: Move the MCQ scsi_add_host() call
-b92e5937e3523b0b7d41373681256bec78d7e134 scsi: ufs: core: Move code out of an if-statement
+d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
+f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
+9023ed8d91eb1fcc93e64dc4962f7412b1c4cbec scsi: wd33c93: Don't use stale scsi_pointer value
+d539a871ae47a1f27a609a62e06093fa69d7ce99 scsi: scsi_transport_fc: Allow setting rport state to current state
+bf0c6cc73f7f91ec70307f7c72343f6cb7d65d01 scsi: ufs: core: Fix the issue of ICU failure
+8fa075804cb3b00960dd5c06554308175c834530 scsi: ufs: core: Requeue aborted request
+19a198b67767d952c8f3d0cf24eb3100522a8223 scsi: ufs: core: Set SDEV_OFFLINE when UFS is shut down
+b9e63d6c7c0e94a99e1af7c9c0c7fad13a2f2453 scsi: mpi3mr: Validate SAS port assignments
+fca6caeb4a61d240f031914413fcc69534f6dc03 scsi: target: core: Fix null-ptr-deref in target_alloc_device()
+d28d17a845600dd9f7de241de9b1528a1b138716 scsi: scsi_debug: Fix do_device_access() handling of unexpected SG copy length
+cb7e509c4e0197f63717fee54fb41c4990ba8d3a scsi: ufs: core: Fix another deadlock during RTC update
+1b55fc24d50fc5c752b8d6b594998c6f96445d2c scsi: ufs: ufs-mediatek: Configure individual LU queue flags
+a900de637ac0944634f603396bb118a6b1d620fd scsi: pm8001: Use module param to set pcs event log severity
+8ec4017596c353e8f34aed33cfc82f5ae148b9e6 scsi: pm8001: Initialize devices in pm8001_alloc_dev()
+8545c20fcbe7b05fbbea23f4977b0c41253ee62d scsi: pm8001: Increase request sg length to support 4MiB requests
+7f629184122e2894efea4e28da451e4db92a68f9 scsi: Switch back to struct platform_driver::remove()
+4a14beb74422b44bbb15b7b184627d33d0bb5f2c scsi: ufs: Replace deprecated PCI functions
+2def33f799255da5ce8da7b1db9830759111f9f7 scsi: target: Fix incorrect function name in pscsi_create_type_disk()
+e0190c2d11e58f564f6ca88b977d7175427cf010 scsi: esas2r: Remove unused esas2r_build_cli_req()
+6c8cae2a35df86f888401acc658f67350a078fc9 scsi: bfa: Fix use-after-free in bfad_im_module_exit()
+364c7a22013a566f8555611832553ed980dedab2 scsi: fusion: Removed unused variable 'rc'
+07c2a737504457c41678c5c30abe9107cd28dce6 scsi: ufs: exynos: Remove empty drv_init method
+afd613ca2c60d0a970d434bc73e1ddcdb925c799 scsi: ufs: exynos: Remove superfluous function parameter
+516ceaaf539de83de3af04c46198f39180cc44a1 scsi: ufs: exynos: Allow UFS Gear 4
+c662cedea14efdcf373d8d886ec18019d50e0772 scsi: ufs: exynos: Add check inside exynos_ufs_config_smu()
+5278917250a58792b30a9f9b6e9b28dca9d30965 scsi: ufs: exynos: gs101: Remove EXYNOS_UFS_OPT_BROKEN_AUTO_CLK_CTRL
+96f3fd267fce2601d6a74689e4b4a5e4a04e10b0 scsi: ufs: exynos: Add EXYNOS_UFS_OPT_SKIP_CONFIG_PHY_ATTR check
+5ef3cb67f3da46cb9213aee8c92758af8683a4ef scsi: ufs: exynos: gs101: Remove unused phy attribute fields
+f8fe71a3fe89836e9b694f4a338157f5e36abae8 scsi: ufs: exynos: remove tx_dif_p_nsec from exynosauto_ufs_drv_init()
+9cc4a4a5767756b1ebe45a76c4673432545ea70e scsi: ufs: exynos: Add gs101_ufs_drv_init() hook and enable WriteBooster
+ef8bfb00e9f106434a43f42559a6bc42f850e2d0 scsi: ufs: exynos: Enable write line unique transactions on gs101
+36adb55631d0199b516a8b573fa886494d0e44a6 scsi: ufs: exynos: Set ACG to be controlled by UFS_ACG_DISABLE
+ceef938bbf8b93ba3a218b4adc244cde94b582aa scsi: ufs: exynos: Fix hibern8 notify callbacks
+cabc453ca6c3e7ff25b4f558b06ef1691a9535d3 scsi: ufs: exynos: gs101: Enable clock gating with hibern8
+858e50a84fa60db2f5ef6ed21a1ca2028b71f8ac scsi: MAINTAINERS: Update UFS Exynos entry
+adf90eb64b9092aa0b8654fd3afe77af0f7fe3e0 Merge patch series "UFS cleanups and enhancements to ufs-exynos for gs101"
+29a64210c76788cae589f31c1cda6c46c2364111 scsi: lpfc: Modify CGN warning signal calculation based on EDC response
+4c113ac05bb246813f0a3003307ad93b1c2d7d02 scsi: lpfc: Check devloss callbk done flag for potential stale NDLP ptrs
+d35f7672715d1ff3e3ad9bb4ae6ac6cb484200fe scsi: lpfc: Call lpfc_sli4_queue_unset() in restart and rmmod paths
+940ddac8961209a37fec13c1f8967ce93f31d2c0 scsi: lpfc: Update lpfc_els_flush_cmd() to check for SLI_ACTIVE before BSG flag
+98f8d3588097e321be70f83b844fa67d4828fe5c scsi: lpfc: Check SLI_ACTIVE flag in FDMI cmpl before submitting follow up FDMI
+eb038363d8e9ae0d9fa31a0600438d19b283dd41 scsi: lpfc: Add cleanup of nvmels_wq after HBA reset
+4281f44ea8bfedd25938a0031bebba1473ece9ad scsi: lpfc: Prevent NDLP reference count underflow in dev_loss_tmo callback
+32566a6f1ae558d0e79fed6e17a75c253367a57f scsi: lpfc: Remove NLP_RELEASE_RPI flag from nodelist structure
+92b99f1a73b7951f05590fd01640dcafdbc82c21 scsi: lpfc: Change lpfc_nodelist nlp_flag member into a bitmask
+3f8175c0a85900a3243530b93ec76207a9cc47cd scsi: lpfc: Update lpfc version to 14.4.0.6
+5c169625d89e4a80c132faba3c0b9206ca3c4156 scsi: lpfc: Copyright updates for 14.4.0.6 patches
+09f14fe039659418867e103b74a4db518a5f1be8 Merge patch series "Update lpfc to revision 14.4.0.6"
+0ce1affe24922b2f86ace0835a84fb7f58bdc167 scsi: qedf: Fix a possible memory leak in qedf_alloc_and_init_sb()
+01538573eeeb22f32f5748fad0e72e553fd17b46 scsi: qedi: Fix a possible memory leak in qedi_alloc_and_init_sb()
+be1f509abbf63a28b6a99f08a180525c489d902a scsi: sg: Enable runtime power management
+8829c890c19d01fa5b209a9179d00daa7bf7ea20 Merge branch '6.12/scsi-fixes' into 6.13/scsi-staging
 
---===============7855510861472276169==--
+--===============0661667254947552029==--
