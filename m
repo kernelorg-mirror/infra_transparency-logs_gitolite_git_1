@@ -1,138 +1,113 @@
-Content-Type: multipart/mixed; boundary="===============0772945796222761654=="
+Content-Type: multipart/mixed; boundary="===============8421174274610666561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 05 Nov 2024 04:40:35 -0000
-Message-Id: <173078163583.1841211.7896252749094406126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 05 Nov 2024 05:02:12 -0000
+Message-Id: <173078293219.1903956.10900791785836979400@gitolite.kernel.org>
 
---===============0772945796222761654==
+--===============8421174274610666561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
-    new: 2e1b3cc9d7f790145a80cb705b168f05dab65df2
-    log: revlist-59b723cd2adb-2e1b3cc9d7f7.txt
+  - ref: refs/heads/seen
+    old: 37bcbc262d57c510a62af2270db1f8935ec1d2f9
+    new: 95dcd58bb0a9457f0ec85a62aef87a347e4a8e60
+    log: revlist-37bcbc262d57-95dcd58bb0a9.txt
+  - ref: refs/notes/amlog
+    old: 109bd4ddcd41f37134f48c210f06afcc0a626e97
+    new: b7a029f0a53ecde058bf876d9f9abf4d95bdb484
+    log: revlist-109bd4ddcd41-b7a029f0a53e.txt
 
---===============0772945796222761654==
+--===============8421174274610666561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-37bcbc262d57-95dcd58bb0a9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730781647 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1730781632-f075eb7aa2d26d0634e30279e98ee4be6c5916bc
+dfe943f9f8c2b50f08fecef27362491ad567555b sequencer: comment checked-out branch properly
+7e3c24170012ed594adbe547809a5e9d0edc4da9 Revert "fetch-pack: add a deref_without_lazy_fetch_extended()"
+bd0c08ee4467d97ea2516087c83e3c35afb55d9b fetch-pack: warn if in commit graph but not obj db
+0a1b014ad0fc9f390a1939abe56b0336f06838db show-index: fix uninitialized hash function
+4a9eff9765ff6715c2700144fb71db0bb776b66b t5300: add test for 'show-index --object-format'
+5a875ff7fbd4b8edd99b339c7c9eaa0650b7b195 upload-pack: fix ambiguous error message
+d317b9f2de6d85d75028151e8fde86cefa3c5964 doc: correct misleading descriptions for --shallow-exclude
+c414b508647c3cc58ccae69a7c339cee2090abc1 Merge branch 'as/show-index-uninitialized-hash' into jch
+9fb6c374dc9226d7830154879bf0bd5aa161eb38 Merge branch 'kh/bundle-docs' into jch
+36139cc16a74bb9ae11973a64f8b6a174a01389d Merge branch 'ds/path-walk-1' into jch
+1fcac3dc46f067d1ba709815868903d3209ee921 Merge branch 'bc/ancient-ci' into jch
+6ac2209620c8abdb50348c7c43a8c11813919f31 Merge branch 'ak/t1016-style' into jch
+75d71b583841ed0e17610dbfff47a5022d663379 Merge branch 'en/shallow-exclude-takes-a-ref-fix' into jch
+5d5f2db2986a8fb2496ec9620e4fb229bb58a15f Merge branch 'sj/ref-contents-check' into seen
+39ee806bab383ad59a9c027ebc7f6a17875e7062 Merge branch 'js/libgit-rust' into seen
+edc21f808b259f780c34f9d6e261574c16436aeb Merge branch 'es/oss-fuzz' into seen
+fd6973d763a2e71287b7acd24519bdf127cb1d74 Merge branch 'la/trailer-info' into seen
+21c8eb896befacdcb14432c3795489ee609fa453 Merge branch 'y5/diff-pager' into seen
+3ab4eef8655afdc6226c961346ceba34cf89b24f Merge branch 'km/config-remote-by-name' into seen
+98e2dec7977c83a2ee477ee570fa7f14aedc90e3 Merge branch 'bf/set-head-symref' into seen
+1003408e1ba51ed712856c544d11d08bf63b744d Merge branch 'ps/build' into seen
+a89ec83d4267add161de34d871e1145233571457 Merge branch 'cw/worktree-extension' into seen
+0f626be3033af6be4735455ca0fa8b68c1e73408 Merge branch 'kh/sequencer-comment-char' into seen
+3684d9fe07e75e0a035551a9e660f97ff68d1927 Merge branch 'jt/repack-local-promisor' into seen
+9d1ff7f7c420b3e255b6e38beccd5d547cb07a8e packfile: add repository to struct `packed_git`
+7dae7a2ac329e99e83b74432da7b475145f8f766 packfile: use `repository` from `packed_git` directly
+6add0eedf485f411410f6b34aa8388f386a013ed packfile: pass `repository` to static function in the file
+4b4bbe23ee284e63a4f1925046a82937e1901afc packfile: pass down repository to `odb_pack_name`
+14ff854485681ac90238ba07d6ec47a1ac342a68 packfile: pass down repository to `has_object[_kept]_pack`
+483a39331f49816880b6d1edf8383d220f9298ea packfile: pass down repository to `for_each_packed_object`
+86cc20d28b6c000173ce3d6fa1b53dea26c8d65f config: make `delta_base_cache_limit` a non-global variable
+bd397885622418b3885981506e01813bdb7ec037 config: make `packed_git_(limit|window_size)` non-global variables
+762f8f2c6f0f4e3f3ed987ab0ef7678aae543b59 midx: add repository to `multi_pack_index` struct
+ec35a1d4fc9ae80d442b1cf39695a3562ccc5aa7 pack-objects: add --full-name-hash option
+57db8f0b5185656f14a925882f9edf052128d229 repack: add --full-name-hash option
+85b7b2daa9f5f3c62b800decdd7f6db49dbf0a82 pack-objects: add GIT_TEST_FULL_NAME_HASH
+45df457ae0ff129b7d30566235f072d5aa15eb12 git-repack: update usage to match docs
+cf296bf34d13751cc18885efe8495275e1c83dfd p5313: add size comparison test
+a4884b6466d4a2347ddfa9b3a4f33bda958ab7f4 pack-objects: disable --full-name-hash when shallow
+991ae1c134c93ad36661afa4476f4ec515437432 test-tool: add helper for name-hash values
+69f9065378a402b4b7e4e16c3b77e06533e5e224 SQUASH???
+a4c5ed7c263f48743e89e7489b50abf3dfaf5e23 Merge branch 'ds/full-name-hash' into seen
+a944b3df7b98389f83cc0ce40b7e88c51ebab0cd Merge branch 'jt/commit-graph-missing' into seen
+95dcd58bb0a9457f0ec85a62aef87a347e4a8e60 Merge branch 'kn/the-repository' into seen
 
-59b723cd2adbac2a34fc8e12c74ae26ae45bf230 2e1b3cc9d7f790145a80cb705b168f05dab65df2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcpodAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+odQP/izhpIHnut8rd7M/1cj9
-1Ax52LZ/6jyeTwdmTIx5b62ChyEYz5BeGV98/+reIq2rMSklpwUO6gN7hLF0v7vE
-7KMe08Fc8nHyp7TNPA6U73Z7KvODMHmBQZYM2hGdok6M2gCTxYnfMgyAGW22WspV
-4RqKHbuAl6rgKhLlw6Y7giNIfI39qYwSaxiE3AARkV6EschjTeTappeHWnz9JSNc
-Ow+fNjjiOGbptMWJyr13+5l5Ph9w9wJHiPwoax4rfZEn6uLudtmSo6+zN6USAZTT
-j8CKrUGMTqYE90zuV88KJxsvBkZb3R7fm9qUvE25bEL6NZdPGRYiDO/HbkT75+HT
-1rgF4EjHGpvXdDZPClwWDC7Cn4ekSwLUnRpCmukC29t8cOCZwLUr2qaCTagwNPk5
-D7KIyF1y8ovE34yHtjVQeH2l85jYqAdizUDYw+pyjUJhgQjrQZUaKSi0G4pRxgs/
-rKD97BjkrWPaRZJb68EXJzq9Vt0fERSCz8Hf3UngRkl+DGFP3DmCeiIzPYGqxVFf
-R/6zD0JAvLWLG/60f44kKni5eXkIUEmjbPftWdF7EsT5av84iYhZg6k1aZRhWEzD
-fEeNH+h7BGwsuGfMFWvocCg5SO8q3paYJnzsKIpm6OW9fCwnsPZziyu6LmsVwdn2
-N1cEML69od35hNdBLGz5SmCS
-=m/io
------END PGP SIGNATURE-----
-
---===============0772945796222761654==
+--===============8421174274610666561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-2e1b3cc9d7f7.txt
+Content-Disposition: attachment; filename=revlist-109bd4ddcd41-b7a029f0a53e.txt
 
-d92e9ea2f0f918d7b01cbacb838288bffccc8954 arm64: dts: qcom: msm8939: revert use of APCS mbox for RPM
-2f39bba3b4f037d6c3c9174eed5befcef1c79abb arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
-577b5761679da90e691acc939ebbe7879fff5f31 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-df5f6f2f62b9b50cef78f32909485b00fc7cf7f2 arm64: dts: rockchip: Move L3 cache outside CPUs in RK3588(S) SoC dtsi
-6be82067254cba14f7b9ca00613bdb7caac9501f arm64: dts: rockchip: Start cooling maps numbering from zero on ROCK 5B
-875ea82c75f56697fa500f30fabaa49f82f9b229 arm64: dts: rockchip: Designate Turing RK1's system power controller
-274e58cc226c54c849760d9a6ec7be23b221cb12 MAINTAINERS: Qualcomm SoC: Match reserved-memory bindings
-e694d2b5c58ba2d1e995d068707c8d966e7f5f2a soc: qcom: Add check devm_kasprintf() returned value
-27727cb6604e0998d03d9ec063b517b239d2bb0f arm64: dts: qcom: x1e80100: fix PCIe4 and PCIe6a PHY clocks
-0b80b3c0f6d20f1bc1f7fea6176a8df15619e884 arm64: dts: qcom: x1e80100: fix PCIe5 PHY clocks
-d67907154808745b0fae5874edc7b0f78d33991c firmware: qcom: scm: suppress download mode error
-ca61d6836e6f4442a77762e1074d2706a2a6e578 firmware: qcom: scm: fix a NULL-pointer dereference
-0a97195d2181caced187acd7454464b8e37021d7 EDAC/qcom: Make irq configuration optional
-de50a7e3681771c6b990238af82bf1dea9b11b21 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-87299d6ee95a37d2d576dd8077ea6860f77ad8e2 arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
-2b6a3f857550e52b1cd4872ebb13cb3e3cf12f5f arm64: dts: rockchip: Fix reset-gpios property on brcm BT nodes
-f94b934336e30cebae75d4fbe04a2109a3c8fdec arm64: dts: rockchip: fix i2c2 pinctrl-names property on anbernic-rg353p/v
-98c3f4a2d61a29a53244ce45e50655140bd47afb arm64: dts: rockchip: Drop regulator-init-microvolt from two boards
-2fa98dcc8d3ea2ebbd9e6be778f8bb19231c28be arm64: dts: rockchip: Fix bluetooth properties on rk3566 box demo
-ea74528aaea5a1dfc8e3de09ef2af37530eca526 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-1b670212ee3dd9d14c6d39a042dfe4ae79b49b4e arm64: dts: rockchip: Remove undocumented supports-emmc property
-5ed96580568c4f79a0aff11a67f10b3e9229ba86 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-3a53a7187f41ec3db12cf4c2cb0db4ba87c2f3a1 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-b1f8d3b81d9289e171141a7120093ddefe7bd2f4 arm64: dts: rockchip: remove num-slots property from rk3328-nanopi-r2s-plus
-80fe25fcc605209b707583e3337e3cd40b7ed0bf arm64: dts: qcom: x1e80100: Add Broadcast_AND region in LLCC block
-5d3d966400d0a094359009147d742b3926a2ea53 arm64: dts: qcom: sm8450 fix PIPE clock specification for pcie1
-eed2d8e8d0051a6551e4dffba99e16eb88c676ac arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
-409dc5196d5b6eb67468a06bf4d2d07d7225a67b arm64: dts: imx8ulp: correct the flexspi compatible string
-d7425f3cfada8c4a3bc72bdd203c4fec7f77b7a6 arm64: dts: imx8: Fix lvds0 device tree
-837c333f46df8ce6755ba82c53acb91948ec0072 arm64: dts: qcom: x1e80100: Fix PCIe 6a lanes description
-734bf13e0c853de4fe2c05d5c0255e9247ad634c arm64: dts: imx8mp-skov-revb-mi1010ait-1cp1: Assign "media_isp" clock rate
-83beece5aff75879bdfc6df8ba84ea88fd93050e firmware: microchip: auto-update: fix poll_complete() to not report spurious timeout errors
-2e11e78667db90a9e732fbe42820e734d0658fc7 riscv: dts: starfive: disable unused csi/camss nodes
-eab6ba2aa3bbaf598a66e31f709bf84b7bb7dc8a arm64: dts: imx8mp: correct sdhc ipg clk
-4fbb73416b10778adfd2c1319e9c5829780d8535 arm64: dts: imx8mp-phyboard-pollux: Set Video PLL1 frequency to 506.8 MHz
-295416091e44806760ccf753aeafdafc0ae268f3 firmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()
-a0a18e91eb3a6ef75a6de69dc00f206b913e3848 firmware: arm_scmi: Reject clear channel request on A2P
-787ade24cc3af4a8ec9498c9cd8a6d47a4d86485 arm64: dts: qcom: x1e80100-crd Rename "Twitter" to "Tweeter"
-f489f6c6eb26482010470d77bad3901a3de1b166 firmware: qcom: scm: Return -EOPNOTSUPP for unsupported SHM bridge enabling
-825bb69228c8ab85637d21cdf4d44207937130b6 riscv: dts: starfive: Update ethernet phy0 delay parameter values for Star64
-dec19f1406fc5d73512cacdcf612e7bb161c2101 arm64: dts: qcom: x1e78100-t14s: fix nvme regulator boot glitch
-37f9477ce9d07ed87f6efe9b99de580bc9d27df5 arm64: dts: qcom: x1e80100-crd: fix nvme regulator boot glitch
-c6d151f61b6703124e14bc0eae98d05206e36e02 arm64: dts: qcom: x1e80100-vivobook-s15: fix nvme regulator boot glitch
-1badd07e4c0e1ecfb187dcba05357c0f3e70e797 arm64: dts: qcom: x1e80100-yoga-slim7x: fix nvme regulator boot glitch
-5462190b11aa62a945dc2fd74e1531b9c1bc9952 arm64: dts: qcom: x1e80100-microsoft-romulus: fix nvme regulator boot glitch
-717f0637ffc6a6a59f838df94a7d61e643c98d62 arm64: dts: qcom: x1e80100-qcp: fix nvme regulator boot glitch
-128fdbf36cddc2a901c4889ba1c89fa9f2643f2c soc: qcom: socinfo: fix revision check in qcom_socinfo_probe()
-384f2024e1a100b9b977a697f5e7cb151b00550d MAINTAINERS: invert Misc RISC-V SoC Support's pattern
-7af1418500124150f9fd24e1a5b9c288771df271 arm64: dts: qcom: x1e80100: Fix up BAR spaces
-f3bba5eb46ddb8f460fc808a65050a9bf2f7ef23 arm64: dts: qcom: x1e80100: fix PCIe4 interconnect
-54376fe116ef69c9e58794589c044abb2555169e arm64: dts: qcom: x1e80100: fix PCIe5 interconnect
-a387e73fedd6307c0e194deaa53c42b153ff0bd6 rpmsg: glink: Handle rejected intent request better
-f8c879192465d9f328cb0df07208ef077c560bb1 soc: qcom: pmic_glink: Handle GLINK intent allocation rejections
-3577d5e2bc1ff78808cbe2f233ae1837ee2ce84c arm64: dts: rockchip: remove orphaned pinctrl-names from pinephone pro
-c7206853cd7d31c52575fb1dc7616b4398f3bc8f ARM: dts: rockchip: fix rk3036 acodec node
-1580ccb6ed9dc76b8ff3e2d8912e8215c8b0fa6d ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-8bade1ad1f0821aef31f6a8fb1027ae292566d85 ARM: dts: rockchip: Fix the spi controller on rk3036
-77a9a7f2d3b94d29d13d71b851114d593a2147cf ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-a4dca88c9c3abd2ba73d09fb5b365fdf7d5198a3 arm64: dts: rockchip: Drop invalid clock-names from es8388 codec nodes
-08846522d9a7bccf18d4f97c3f39d03c7a193970 arm64: dts: rockchip: Correct GPIO polarity on brcm BT nodes
-d99913e1b80b51a058020835e7ea1a44397cb4d7 riscv: dts: Replace deprecated snps,nr-gpios property for snps,dw-apb-gpio-port devices
-8c68b5656e55e9324875881f1000eb4ee3603a87 mmc: sdhci-pci-gli: GL9767: Fix low power mode on the set clock function
-c4dedaaeb3f78d3718e9c1b1e4d972a6b99073cd mmc: sdhci-pci-gli: GL9767: Fix low power mode in the SD Express process
-7bf46ec090b9e6c9ab08d8006b4eefba2cd5a7f5 dt-bindings: firmware: arm,scmi: Add missing vendor string
-54962707f8b8b53812d3d7fca279a68c6e18faae firmware: arm_scmi: Use vendor string in max-rx-timeout-ms
-83359f6bb91c6603aa70fc81b1b20008b11641d8 Merge tag 'imx-fixes-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into HEAD
-e29c29343a89081a9183ff4f70974c4db5fb8839 Merge tag 'riscv-sophgo-dt-fixes-for-v6.12-rc1' of https://github.com/sophgo/linux into HEAD
-896dcf47670de72335e40e5f71f7160fc494d16c Merge tag 'v6.12-rockchip-dtsfixes1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into HEAD
-e5c06efdc0306c2831992dd6fa1a0e38db1a9845 Merge tag 'riscv-soc-fixes-for-v6.12-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into HEAD
-c3b56da655a6725e58c5c3cd1877a2f781e8b797 Merge tag 'scmi-fixes-6.12-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into HEAD
-51c4bae06685dad4d2356a57ea07a87f127c7c65 Merge tag 'qcom-arm64-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into HEAD
-566064e57066a14ef5d2a90e29a7bb3495c0fed2 Merge tag 'qcom-arm64-fixes-for-6.12-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into HEAD
-9265fed6db601ee2ec47577815387458ef4f047a tpm: Lock TPM chip in tpm_pm_suspend() first
-bbfbb57958635912ba472925622f2bb0bab5f06c Merge tag 'qcom-drivers-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-a0339404fd2753c042eb7ea11bd3288dbfc38107 Merge tag 'tpmdd-next-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-557329bcecc2f55e134db8974953b32b69db9d15 Merge tag 'mmc-v6.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-2e1b3cc9d7f790145a80cb705b168f05dab65df2 Merge tag 'arm-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+a952bc96fadfefc1a448871cfc392db31364c384 Notes added by 'git notes add'
+bec816813b5c1b9af1f1882fb6ffc553e8935b9e Notes added by 'git notes add'
+8565f61293c105598c620d61293c9e5296fa896b Notes added by 'git notes add'
+7554a600333ba7e9065eab4dbd457ec0517b20ad Notes added by 'git notes add'
+0d0cb2f9c1c2c04dfce099276b1ababaad3ac8d0 Notes added by 'git notes add'
+780117da1b573689cd5d3d2cfc2991fa0176a18d Notes added by 'git notes add'
+dbe08fa4f2a13e854e9e71183b725e7a03323c10 Notes added by 'git notes add'
+a543556de1fef2bf724dccf93af16419de34a588 Notes added by 'git notes add'
+93c3f6653d22d6e245449654efbb42e805946a92 Notes added by 'git notes add'
+8a08d7a1436db4d1618664c6202b129b676a6c6d Notes added by 'git notes add'
+cc18b38f487dbd51e26b2fbd031a40cb66e8b3ec Notes added by 'git notes add'
+a85046c8eef4a3c298c3a759958be71a701ea985 Notes added by 'git notes add'
+a722b3441045c327e0eae4dc7b59973ba110a443 Notes added by 'git notes add'
+d69de8dd1a54468a7530a3899637f3e9ea2dee73 Notes added by 'git notes add'
+fd6364ac6294a8f2de2b3e23079a155809b039a2 Notes added by 'git notes add'
+98da0c67f7f7d58a1bbf3cb3f9ad903adeb34984 Notes added by 'git notes add'
+5237114e6ee342b5515cfcd9c178fafb66f78400 Notes added by 'git notes add'
+c06f66855e6cc2663d22187c7b10706709f67ebe Notes added by 'git notes add'
+fbdc0ed54539db6fc6166969fcfe45e4c80d3e9e Notes added by 'git notes add'
+7ef4dafffe45c373685e0a927afa65baa622caa8 Notes added by 'git notes add'
+6f4896b835b0ec7c2dc217cdf011984c68fa5831 Notes added by 'git notes add'
+6c6d848914ca0c9c31385b0c83e015210bc48ae9 Notes added by 'git notes add'
+60ee7cc91e62f1bc8557a8bf8ea1812de9957e24 Notes added by 'git notes add'
+9f46d7d81de9e5a46e5b3621f6f4aaf175475c99 Notes added by 'git notes add'
+951bf7898369df3935af67e7f896091a07525f34 Notes added by 'git notes add'
+6088b0840c3de7d04f736c04518fd93afb24585f Notes added by 'git notes add'
+b0f10b790c087f9812bcca07c11677159f5aa778 Notes added by 'git notes add'
+b7a029f0a53ecde058bf876d9f9abf4d95bdb484 Notes added by 'git notes add'
 
---===============0772945796222761654==--
+--===============8421174274610666561==--
