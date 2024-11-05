@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0661667254947552029=="
+Content-Type: multipart/mixed; boundary="===============4027549073558563323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Nov 2024 02:28:21 -0000
-Message-Id: <173077370182.1737140.7533845200679158536@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 02:28:40 -0000
+Message-Id: <173077372073.1737429.4275723945045213616@gitolite.kernel.org>
 
---===============0661667254947552029==
+--===============4027549073558563323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 33ad5b73efce01c84eee823ff70eb029bff6d32f
-    new: ab63c2f1115565ee7ee1f9494f58110a7ecb2a6a
-    log: revlist-33ad5b73efce-ab63c2f11155.txt
+  - ref: refs/heads/6.13/scsi-staging
+    old: b92e5937e3523b0b7d41373681256bec78d7e134
+    new: 8829c890c19d01fa5b209a9179d00daa7bf7ea20
+    log: revlist-b92e5937e352-8829c890c19d.txt
 
---===============0661667254947552029==
+--===============4027549073558563323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1730773713 -0500
+pusher 75C5DE3D 1730773733 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1730773684-2bc661699edd5bda9a468839b6ffea1859e3858e
+nonce 1730773704-3f00490bf0efce84a6e93fc0f3dd3d5e880d8327
 
-33ad5b73efce01c84eee823ff70eb029bff6d32f ab63c2f1115565ee7ee1f9494f58110a7ecb2a6a refs/tags/mkp-scsi-staging
+b92e5937e3523b0b7d41373681256bec78d7e134 8829c890c19d01fa5b209a9179d00daa7bf7ea20 refs/heads/6.13/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgtEACgkQ7ulgGnXF
-3j0ogRAAn+V/S+/z+blakuZeIOt5q5XytoiIlVumwzzxMxPaTNkdYxpAYVmKfSOF
-Kwwwk+KizPzb205poWTa1H141MD4aOeFpkiR7XhCwYu0DDxtkS23Cds2A3lbhUbu
-op+w92GBiu32KTBiu2W1co2h7nL8Mj1uc784zE94fqfQTMHj4ZmZANB+1aOitQb3
-+1GsW/HnpNp4b3X7UJf4Dt/dmObiCUF7UqGocGZ7M00xelTVqzZg2vvcuimyMwNZ
-VRtDykZB3i7hPvoIorzmHT00V7Ti+adSxJcqVN78Lt6ApjixOXqK1DCHdHpKhD2Z
-IkvA352sxE5OW25Yqrkp5uTWihyOmNVyizoE1HBI3Sz6158ybYlvQ4zyUJTohl/G
-wGLGCW1JZ0F5szCOGJzjUcChlhgayPbTjq9IFAf3zQ68kcaypLLLTD7ER+mH563f
-HdrGb+0/97wJFt7n8GZRW1o0MB4jbN0KEcd1Z8gvx9spXkVuByTQRErVCXRQ5OYU
-9GI12fvG/tXNe1JJuvCcaiR++4xTOZMm8QjvtmKuCA4cuM2Ivv+CDZ2h5IRdiTtq
-OB1TWMib2xbphdjIxDkIEbJk29uhjcg7Mke+V/KYcINtuvG2ep5QYm1PkPDkyZjJ
-ibdGT2TNSwSHqy9qkX4PadJ/cymclxBEQjDdKbPD2tkx7mLtXCg=
-=n02/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpguUACgkQ7ulgGnXF
+3j2qMg/+MaTuE47T+aCKlLCxkavKt0ImJt7YPPLKFP/jRm+n8hZj8qf442ClPkaO
+7/Q0M1vrcq/Xmmka3PcslD1/BpIw5GJrL6Bq/4ebWbu5/LnXFAILcRpDG0rTIPQA
+C/HhAQk2eMatDjtAHl+pBBL/BBKwE8wIETihi3T1rVc5jMucrJXVC+5Wh1zpWA4p
+IKolceHML53gN9YjzCd0wdYYP0nn9E7lj7Dzjs3Od1QZ3t3vu6eAQeIR/FqkM2q/
+SYt/He7d4KGWDzZHclSk7yqGWAapp9p6PHlwo8L6MemHDznP0yBLGkGwENR0xL3a
+bNQsK3hONWcgR4Skm4YIv24JmquqjkdSQ/7JDo+xzS1XQhD8JaUjgsHjvQ4fZnRJ
+tTHasP/u8YDfSI3zrA9Ip041BBfB1NdPYDcwsjMxa9exKyJQvITF8hG83m+aTxEg
+/KV8lz5IHuJIhVNu4mguy7XWd8Q1+LJuXeIzsKKR2Qqn5nw/lYq9HNeKYY23F9J8
+7nbar2vw0EDXfXFI+rKu3JmnpBMf9kzf81Wd0AvRP680y2Xi1KJhfNoCDKT3nSV2
+UiQWjoiyvMAWcpZr6fpSicr18+V3WDbROLX4FmsAPXve5eAKt31RtEDVF67g0z8e
+5LgF6UX3qfCKulXaoX1bHQ4mXJLb8pDQBK+n+xHGKIIMogOwU+0=
+=IWrf
 -----END PGP SIGNATURE-----
 
---===============0661667254947552029==
+--===============4027549073558563323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33ad5b73efce-ab63c2f11155.txt
+Content-Disposition: attachment; filename=revlist-b92e5937e352-8829c890c19d.txt
 
 d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
 f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
@@ -109,4 +109,4 @@ eb038363d8e9ae0d9fa31a0600438d19b283dd41 scsi: lpfc: Add cleanup of nvmels_wq af
 be1f509abbf63a28b6a99f08a180525c489d902a scsi: sg: Enable runtime power management
 8829c890c19d01fa5b209a9179d00daa7bf7ea20 Merge branch '6.12/scsi-fixes' into 6.13/scsi-staging
 
---===============0661667254947552029==--
+--===============4027549073558563323==--
