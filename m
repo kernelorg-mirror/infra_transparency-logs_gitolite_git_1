@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2007742804942481070=="
+Content-Type: multipart/mixed; boundary="===============5284725137287988650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 05 Nov 2024 09:12:22 -0000
-Message-Id: <173079794269.2118780.14794522349986845769@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 09:12:26 -0000
+Message-Id: <173079794626.2118899.17226036421568886286@gitolite.kernel.org>
 
---===============2007742804942481070==
+--===============5284725137287988650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
+  - ref: refs/heads/driver-core-linus
+    old: 9a71892cbcdb9d1459c84f5a4c722b14354158a5
     new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
-    log: revlist-8e929cb546ee-59b723cd2adb.txt
+    log: revlist-9a71892cbcdb-59b723cd2adb.txt
 
---===============2007742804942481070==
+--===============5284725137287988650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730797956 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730797959 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1730797941-c98f70a57a6aecd38aa4b4ba8a4e7791b59493ea
+nonce 1730797944-691cdb21ff42b95471b9128b5f9bd4a487f25ba7
 
-8e929cb546ee42c9a61d24fae60605e9e3192354 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 refs/heads/main
+9a71892cbcdb9d1459c84f5a4c722b14354158a5 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp4YQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FqkP/1GdiQRZWVcf+Z4XzNFv
-JrxgunTzy5Zp6wVxHTaGfx0il+JbtXYAuOyM+lI4Oz1faCZbBJIIBkiqPMjiXP/0
-Yf2c8arLSSNIgP14HuOLZfAgEGd0UT0Z1zDoIE6SrbMpG90TgSEej6hz1GoT5Mfo
-/YMkai0OG+0wM/OOCkUJndAAu6iWwZ6k8OBcEIIE9mwr0Y10tp7kE8ZSLtXO0HpA
-lQqns2oOyVofz/BIFjKcKZlO+4eiYBD5iEvnZXzWAESfZfqdQRKfqZn31tNVfuyq
-PMA5KQMN8Xym1sKICJ1V61ZM76f7Ppqeuq9YpBS1zbdMjSjmgjnpgN/ymQ94bURu
-hQQ3X0pttA8mvpomummq94HnHCpfAQ1BEIFPp3C8fYLoyDGh2MmSQyoC7CNsDaEQ
-DY4EatNo5maLCtPbfT9vADQXXJmsy/yq1rKzjdXe1H8VXMydZI+oIZ4daXDbQEy5
-bIrOJDJOtq2wj22jMJYIgSq/SNc5SLfuYxo+KRJq3ON/kqtwR5WRjd6D9MNSWdxT
-xhmZNITtOkX81ODXBG6I9k6dSpXlxGX8pNIUzzdRxN6ltLeZtsPBOyu86AucFJ7H
-HfclimThSw1KZKgfI1V4izJsSMAoZedpaKXEkMginN9tELDqvlV1V7094VqoW0mR
-73Ph5yA7visFIdKWsayu+gby
-=i83D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp4YcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U/4P/i+28yIqk6YEqDzWstSO
+RIw+7mhajDHqXK9lWD7Bg0309+kFvmCLtjkKn77/r7vIJDlcM3bnIpcWT37GDGdf
+w3mx9xXS6+Mh8Odh999m82ZIQnx1NbA/UbZe9JRpqhPGnkrrizK35bd+orlaQ+17
+t/dZmr605vcYNFRaHV/BSk6tup44hZ7nv7tZR+jlmXsFSBbWzhWbYOp9DoLbrms2
+1+bgscpJ1xmcPdMB0NcFBCM4KERFBqkRBzXvMA4hNsh1/hnNC3U0Qz2TGCbEUpCI
+ks5f01o8v/oaMVafWcdTfTjjjC8BXJ76y2H7xnxnt64/wFSf6WbpFuoOujNjBP+Z
+vUiDI3pWe/KbyQGNNx5DqJ8N4dEZbowq6IsPLatqcbKhorlLvsiUE7Re7PN54bQ6
+EUztbRyQOIpeMIojR56IIi5LzRR3q86g7ThU12g+3MNubi1cZWStOxK2HbgcR7F3
+PwHzVXq7dwGpVabX6t0KBdOSDH4mkQ3aUWx4TT+2+7dEeg8OL9fgk7nvLCJ2BB55
+ThtplA1frh22Lep535ZtPm3wavjbpOmA1i5fs906msF6GlK1YsGPTH8bRjuH0GhL
+o1oTLSsczkoAhSqRv7t43p1UVo3nn93TCFWXR1ECto01c9i9bLolfrlG1sQWf1EF
+nDUBiG59NVYYsp8y7DwQ2nXS
+=klku
 -----END PGP SIGNATURE-----
 
---===============2007742804942481070==
+--===============5284725137287988650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e929cb546ee-59b723cd2adb.txt
+Content-Disposition: attachment; filename=revlist-9a71892cbcdb-59b723cd2adb.txt
 
+aebe7ae4cb50551874fdfaf88e4127884298caad sched_ext: bypass mode shouldn't depend on ops.select_cpu()
 967da578325d8539d42245d98f126f47abcc0569 sched_ext: Move scx_tasks_lock handling into scx_task_iter helpers
 b07996c7abac0fe3f70bf74b0b3f76eb7852ef5a sched_ext: Don't hold scx_tasks_lock for too long
 23dbbe8889250bed10cdd8a328d97efd15f808a7 Merge tag 'samsung-clk-fixes-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-fixes
@@ -858,7 +859,6 @@ b5abbf612092ebb3e026c0c4756a109d8750f5a5 Merge branch 'mptcp-sched-fix-some-lock
 f1e54d11b210b53d418ff1476c6b58a2f434dfc0 macsec: Fix use-after-free while sending the offloading packet
 94c11e852955b2eef5c4f0b36cfeae7dcf11a759 usb: add support for new USB device ID 0x17EF:0x3098 for the r8152 driver
 2ef9439f7a19fd3d43b288d38b1c6e55b668a4fe ASoC: dapm: fix bounds checker error in dapm_widget_list_create
-9a71892cbcdb9d1459c84f5a4c722b14354158a5 Revert "driver core: Fix uevent_show() vs driver detach race"
 740be3b9a6d73336f8c7d540842d0831dc7a808b sock_map: fix a NULL pointer dereference in sock_map_link_update_prog()
 cb617e148bb3d50dfbbd44db81227edcee2cd4bc MAINTAINERS: add netup_unidvb maintainer
 4adf613e01bf99e1739f6ff3e162ad5b7d578d1a mei: use kvmalloc for read buffer
@@ -1082,4 +1082,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============2007742804942481070==--
+--===============5284725137287988650==--
