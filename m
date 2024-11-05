@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6248844698869622674=="
+Content-Type: multipart/mixed; boundary="===============2797546965827786593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Nov 2024 08:57:06 -0000
-Message-Id: <173079702627.2106445.3465453839300000291@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 08:57:14 -0000
+Message-Id: <173079703488.2106614.14536477546307980095@gitolite.kernel.org>
 
---===============6248844698869622674==
+--===============2797546965827786593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: afb92ad8733ef0a2843cc229e4d96aead80bc429
-    new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
-    log: revlist-afb92ad8733e-59b723cd2adb.txt
+  - ref: refs/heads/usb-next
+    old: bf373d2919d98f3d1fe1b19a0304f72fe74386d9
+    new: 85c4efbe608887cbce675fad3288172046f74713
+    log: revlist-bf373d2919d9-85c4efbe6088.txt
 
---===============6248844698869622674==
+--===============2797546965827786593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730797039 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730797044 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1730797024-b6a4be5ba48d2eb76b14760800b9c53b60f9dadf
+nonce 1730797030-819b8e6a37edf576bca4dd3af37dabb2450159fd
 
-afb92ad8733ef0a2843cc229e4d96aead80bc429 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 refs/heads/usb-linus
+bf373d2919d98f3d1fe1b19a0304f72fe74386d9 85c4efbe608887cbce675fad3288172046f74713 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp3e8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XKQQALERHdxDTODo0wko6pIb
-ddUzOvILFhjaOI3CpyEpt9UAztu0fuyrZdeUT1hhvOn+Xj3YmDn2/4dGkCW2US1A
-P2iCAr6Z9cV0fyBoXbnFMvYkQ5uQEmUQXtYIOynZqae/E6xbQZjvKrbqEZ2OJgdv
-WctWuvvnUhStny5RP+wooA0R6Xg04IUR03ODU/DqQq0ah1Y8/jQk7J9JwUNE86iM
-PCHoUmyo4io6uKwcmDatSBBfAiKJ4dYerQgYpY5iqiSbqAx+HLzOaYEKfpKz0GOZ
-C5Mue6DKaJDIUHA/Wgxj4tR9MAwAXooUYczJBgDxo+caFXi2UlV2aLV59MeS2drp
-ywBfeNKd3gKJlCrE9yaKnUnVYKsfHBZyjM7cpdoD6kvJhe6EUF1VJTxPK+SLnvgv
-NoEVhvNU3GnCF8+OMhLaynYYkz+mouYN/iFLKc5xJYT9wzg099svAyUTbJAcYU5F
-ajv0aUn7L9UwoFRT7A7NpdJF0eJ8DxfH+NoHUT5kir8PyNzz553Tf9E457Rjp7Uc
-rPqeTJyvxMFUSdaUImBn3UPNGKZyAKqYD2y2tox2qk6OH23XMK3SEdntEzu3+aH8
-YcXDBsXVe+hEUR1WKh6KZhBtysHbFmVPXmDbLnvBWkbMENYQvWjS2NeNjQOw26j3
-LMJTrzDvoUzVs3/ouAIcD5qK
-=8B6f
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcp3fQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+38MQAMUy0iBLXwuZeUtgcdOZ
+0HcYjXB3QVQk6HbC0x8EwXXNcJH2XlGmi+ly+RDHW649FzJzvqlkPfxS9fjhPj4V
+j6dR6ebgP50OdfJKu+cEFkWTXATruLXoe+NZK97RiJlX4AmNCt0LAPNkll2sZAVx
+H9YQek06gSveuUpJTDmNm6yFxuE0G0RwBr1sUC5QbasBuqNrJujWJ6xC7lOHdrk+
+Otd2PK7Ycwaluref2vF5/qK7Xxhk0qd3a7p94rcvIwjHbsp3iKpLlD8AMA7z6nrB
+FzTJh5ziX0NK/gR/DTDDE3SQnN/OC5b6LekV+YsDSqP2NOr6+UfcxDNQE6E/GzMQ
+FgUXDAhnxPXUxji+018sIQheHvQKm7XbzXDiUyG3CBb2Qkpd9lJe2o+A0PU69r6A
+it7cjraBnppTLoDo/l7lKLtQ/4d014YjgKdFjemBNVTLTSHeCbgyFME+qE3Kqbny
+rAXB7WnKO+Z3Cbl5tjSp0boGvHbVIyHECENGLc6T3KnPoE2dXMOfF6bCubHXSNEa
+q2sQQo88hvD+MyghXyqrYJManBdEMtHzdUHGAe7LOssbXrRQA8pf48UGcJITHarL
+y6k+CpOO/n/DxEpWQkTE5HFT4lKHfGTG2V1vI04BSJh/5YTfm0W6qJ13r24d9CZI
+bwObuNNhurg4SbhXxZpkWr69
+=uY8f
 -----END PGP SIGNATURE-----
 
---===============6248844698869622674==
+--===============2797546965827786593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afb92ad8733e-59b723cd2adb.txt
+Content-Disposition: attachment; filename=revlist-bf373d2919d9-85c4efbe6088.txt
 
 980c41f554c3029ce4f99678c0cd95296212775f KVM: arm64: Make the exposed feature bits in AA64DFR0_EL1 writable from userspace
 ffe68b2d19a5a84440fea99a732cfc3b157559eb KVM: arm64: Disable fields that KVM doesn't know how to handle in ID_AA64PFR1_EL1
@@ -114,6 +114,7 @@ b5a468199b995bd8ee3c26f169a416a181210c9e spi: stm32: fix missing device mode cap
 ca2803fadfd239abf155ef4a563b22a9507ee4b2 ASoC: max98388: Fix missing increment of variable slot_found
 9b064d200aa8fee9d1d7ced05d8a617e45966715 ASoC: rsnd: Fix probe failure on HiHope boards due to endpoint parsing
 54c805c1eb264c839fa3027d0073bb7f323b0722 ASoC: fsl_esai: change dev_warn to dev_dbg in irq handler
+e9e1b20fae7de06ba36dd3f8dba858157bad233d thunderbolt: Fix KASAN reported stack out-of-bounds read in tb_retimer_scan()
 df5fd75ee305cb5927e0b1a0b46cc988ad8db2b1 KVM: arm64: Don't eagerly teardown the vgic on init error
 b930d8647869802a0d430aae6b1b05c3acb24a41 ASoC: qcom: Select missing common Soundwire module code on SDM845
 1d59d474e1cb7d4fdf87dfaf96f44647f13ea590 PCI: Hold rescan lock while adding devices during host probe
@@ -229,6 +230,7 @@ f0d3302073e60b55318c941cd10b225a3cde9d32 bcachefs: Workaround for kvmalloc() not
 e04ee8608914d00812e4a10288cf8d8905ced849 bcachefs: Mark more errors as AUTOFIX
 a069f014797fdef8757f3adebc1c16416271a599 bcachefs: Set bch_inode_unpacked.bi_snapshot in old inode path
 373b9338c9722a368925d83bc622c596896b328e uprobe: avoid out-of-bounds memory access of fetching args
+3cea8af2d1a9ae5869b47c3dabe3b20f331f3bbd thunderbolt: Honor TMU requirements in the domain when setting TMU mode
 338b655a1178900ac05aca7ac66dc28b05100430 i915: fix DRM_I915_GVT_KVMGT dependencies
 72cafe63b35d06b5cfbaf807e90ae657907858da ALSA: firewire-lib: Avoid division by zero in apply_constraint_to_size()
 35fdc6e1c16099078bcbd73a6c8f1733ae7f1909 ALSA: hda/realtek: Add subwoofer quirk for Acer Predator G9-593
@@ -531,10 +533,22 @@ f1e54d11b210b53d418ff1476c6b58a2f434dfc0 macsec: Fix use-after-free while sendin
 cb617e148bb3d50dfbbd44db81227edcee2cd4bc MAINTAINERS: add netup_unidvb maintainer
 4adf613e01bf99e1739f6ff3e162ad5b7d578d1a mei: use kvmalloc for read buffer
 d0bc3b92fb9b2c3c981984d52fffe8cca77165dc Merge tag 'iio-fixes-for-6.12b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+5963e0786a3f28cd87c950dec18574bfcceb8335 Merge tag 'thunderbolt-for-v6.12-rc5' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 fa0122eaca4f14272fbf76a70d51db78c69091f6 selftests/mount_setattr: fix idmap_mount_tree_invalid failed to run
 6553bfcb8499bf5e7e6d07d93f29459198dba798 selftests/intel_pstate: fix operand expected error
 722d89c34cc496aadc737e2df40234580fa05877 selftests/intel_pstate: check if cpupower is installed
+e7cd4b811c9e019f5acbce85699c622b30194c24 usbip: tools: Fix detach_port() invalid port error path
+31004740e42846a6f0bb255e6348281df3eb8032 xhci: Use pm_runtime_get to prevent RPM on unsupported systems
+075919f6df5dd82ad0b1894898b315fbb3c29b84 xhci: Fix Link TRB DMA in command ring stopped completion event
+f3b311325fa20023fd1e322538388dca2ddb8dc0 Revert "usb: dwc2: Skip clock gating on Broadcom SoCs"
+623dae3e7084a9504e6dc4cf0cb83f305f413b4d usb: acpi: fix boot hang due to early incorrect 'tunneled' USB3 device links
+7f02b8a5b602098f2901166e7e4d583acaed872a usb: typec: qcom-pmic-typec: use fwnode_handle_put() to release fwnodes
+b8423a2f5814dbf055ed7c41f25bfe91c2066cbe usb: typec: qcom-pmic-typec: fix missing fwnode removal in error path
+9581acb91eaf5bbe70086bbb6fca808220d358ba usb: typec: fix unreleased fwnode_handle in typec_port_register_altmodes()
+1ab0b9ae587373f9f800b6fda01b8faf02b3530b usb: typec: use cleanup facility for 'altmodes_node'
 dc1308bee1ed03b4d698d77c8bd670d399dcd04d selftests/watchdog-test: Fix system accidentally reset after watchdog-test
+fdce49b5da6e0fb6d077986dec3e90ef2b094b50 usb: phy: Fix API devm_usb_put_phy() can not release the phy
+afb92ad8733ef0a2843cc229e4d96aead80bc429 usb: typec: tcpm: restrict SNK_WAIT_CAPABILITIES_TIMEOUT transitions to non self-powered devices
 7c18d4811000945677a8531e89de3e17582e8a36 mm/pagewalk: fix usage of pmd_leaf()/pud_leaf() without present check
 f64e67e5d3a45a4a04286c47afade4b518acd47b fork: do not invoke uffd on fork if error occurs
 985da552a98e27096444508ce5d853244019111f fork: only invoke khugepaged, ksm hooks if no error
@@ -737,5 +751,6 @@ e8529dcb1218ce176d5e84168568f69e1d9de109 Merge tag 'dmaengine-fix-6.12' of git:/
 d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
+85c4efbe608887cbce675fad3288172046f74713 Merge v6.12-rc6 into usb-next
 
---===============6248844698869622674==--
+--===============2797546965827786593==--
