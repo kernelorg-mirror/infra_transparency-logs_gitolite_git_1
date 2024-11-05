@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3583487834403264697=="
+Content-Type: multipart/mixed; boundary="===============0803876133914728529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Nov 2024 02:27:07 -0000
-Message-Id: <173077362749.1735744.12911590483815566005@gitolite.kernel.org>
+Date: Tue, 05 Nov 2024 02:27:26 -0000
+Message-Id: <173077364653.1735956.8652493702593568900@gitolite.kernel.org>
 
---===============3583487834403264697==
+--===============0803876133914728529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: ea19514ded451892aed88d11c70a526b8c34990a
-    new: be07467634ddeae5f7c7928df4d2e79036c86b6b
+  - ref: refs/heads/6.12/scsi-fixes
+    old: cb7e509c4e0197f63717fee54fb41c4990ba8d3a
+    new: 54c814c8b23bc7617be3d46abdb896937695dbfa
     log: |
          7ce3e6107103214d354a16729a472f588be60572 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
          54c814c8b23bc7617be3d46abdb896937695dbfa scsi: ufs: core: Start the RTC update work later
          
 
---===============3583487834403264697==
+--===============0803876133914728529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1730773612 -0500
+pusher 75C5DE3D 1730773659 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1730773583-9e6cc6a34a1f4500100aecad46c73e363a5bcc5b
+nonce 1730773630-6e635372f1b9511b16e42439956ad82f540f187f
 
-ea19514ded451892aed88d11c70a526b8c34990a be07467634ddeae5f7c7928df4d2e79036c86b6b refs/tags/mkp-scsi-fixes
+cb7e509c4e0197f63717fee54fb41c4990ba8d3a 54c814c8b23bc7617be3d46abdb896937695dbfa refs/heads/6.12/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgmwACgkQ7ulgGnXF
-3j3WAw/+Kec4PJFETb0okGgNFa88CY7zX182H6mpkoS30nenX1RpuP7Jnysfif5H
-ZViU8ECcqu6TSS4kpybGCL3CjRkv/WYSPxLhYGSeu+06TgB7mSEIxdE3D/bPNQ2n
-Z6/AXuMcGbiOuTKGdl2wXxesIt+GhP6wnOE3xVChttAyREpnzem6NuCZeI1yo5ea
-lo+u/Wny05lPcf1Ry5G9ggjewZf5+sg5LgZrGmP6X2bF1v9EaL2hz8xEH++sxLTd
-8ZGhhNWowvVaZVT0iM/ZJ+O6TvZki8mAUa7DVry9Hjq6WAYAf1E0MN/Wcm797plg
-Tq2kKftIPv+h9GJquo+dCLm3idksKbMdt2RYpk1IE8PICZUpUJ5aqIv6jV7EGlwC
-A5HJr044thocK39qsm3FVtuALDB/Oecjwfg+z5ZMhuk7RHcCZwFTfj4DwcpVYDx0
-+FzXa488CUtXejYali8NLbJTJva6wf8LI9Eof5ZN8iJ5cjulOx+1CTxz6b2fRbmw
-rhL+P4E5GirzXwzd80P7eEy0C7qMor8+c+tDAb6a8fYGoHsVvsClB0yE26DrcOEr
-szXV6KHDbu5isYS15RdJm8VrvmOxAsx6LkctsHOgMHhCgvCh3XRnCsTlIGidP/ck
-8zj4hyAGbQMPtpaqmHqdCi0weeNmCCgSQZYoLpK5L5jYgKpB154=
-=vNtf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmcpgpsACgkQ7ulgGnXF
+3j2dBA/9EwFOXnHBUaQ1lsnzUDC3s2Gm8EiAd2lEFs9OI3ehWOztqVx2UkZpA9Xr
+CUrB4iaX+Y660g7Ky9iwgJ8vJ+aED8U+lCv0A+okD8GhbOdw2YpoujEHVEJhdLny
+IHcfIIhlDvK7WxM2jfuSGbeIrmjWpabaaXV+JPQFZgfGY75we+/OjQcrulWdq8mn
+nrFXFcqxgvbY6Ac6iwqKff6BPpQWNNt9im/VPiNuPGjGBkPZwgc9DDkyHmdYVyTS
+DnaRL2OHfJVMj2xOk2eXsf1abXxrFJ6yDKDsDwv5uXjdzOV4YX1WraslL1wnJzRP
+2mwUto3HSRAnSu0ByvGNzJAJJIByOGTcLHBK20r9ZAO+Eh8/9U3W6FdtXYYo2JM2
+24Xn4+Euz87KIX9APrALGkTqA4VISeWY5qcmxgOzUfEt36JpK5w9w2c9DK+mAcnQ
+SleOUBgjqtHq3su4h830jUrUw/4QDfkPk7akycgFgKUBKk5vA5BqVk48fCheJVVy
+eAM5cOrPP+z+6Wb72EPXDXy11jFLGc+N3QvRWCGuoQQcUz+zcVD8iCKJ9l6lcq9C
+owNghBZrRaQSFiRx1QdVub3bH+14gJuOybpxJgVH6nauzOy2fWbFRh16FA6paQKB
+QaXoNmOK0eWZSlzkIik+0yU7BzF15mczYTK3YwlMSGQQQKirEeE=
+=UcZY
 -----END PGP SIGNATURE-----
 
---===============3583487834403264697==--
+--===============0803876133914728529==--
