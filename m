@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3701496209649411456=="
+Content-Type: multipart/mixed; boundary="===============3327254914052874433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Nov 2024 16:40:39 -0000
-Message-Id: <173091123948.3730531.2827046285814985886@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 16:40:41 -0000
+Message-Id: <173091124164.3730657.10118949461870769769@gitolite.kernel.org>
 
---===============3701496209649411456==
+--===============3327254914052874433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a
     new: 26a2bebd2c0cb55582501678a182d0ae1a730f2d
     log: revlist-9eaff63bfb59-26a2bebd2c0c.txt
 
---===============3701496209649411456==
+--===============3327254914052874433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ cfbbd4859882a5469f6f4945937a074ee78c4b46 mptcp: no admin perm to list endpoints
 3f2f406a35e9311d9d3ec8db0ac33ea1853825cd Merge branch 'mptcp-pm-fix-wrong-perm-and-sock-kfree'
 26a2bebd2c0cb55582501678a182d0ae1a730f2d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============3701496209649411456==--
+--===============3327254914052874433==--
