@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0356341388812939336=="
+Content-Type: multipart/mixed; boundary="===============2910569011131997873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 06 Nov 2024 10:58:37 -0000
-Message-Id: <173089071705.3421312.2401177154918828460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Wed, 06 Nov 2024 10:59:14 -0000
+Message-Id: <173089075433.3421918.12542749038012093981@gitolite.kernel.org>
 
---===============0356341388812939336==
+--===============2910569011131997873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/master
-    old: 8f54545d0c5895bb77c3045174f7e3b2d5ccc02c
-    new: 2177da621f7daf7ecf5fe1eb2c611a9b7648f13e
-    log: |
-         2177da621f7daf7ecf5fe1eb2c611a9b7648f13e 6.11-stable patches
-         
+  - ref: refs/heads/for-next
+    old: 8807f117be9d15088003e63bfaf0533355371ee8
+    new: 68bfb7eb7f7de355d5b3812c25a2a36e9eead97b
+    log: revlist-8807f117be9d-68bfb7eb7f7d.txt
 
---===============0356341388812939336==
+--===============2910569011131997873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8807f117be9d-68bfb7eb7f7d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730890729 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1730890714-08f2698f9ed2746715050264f9f3f6556c76ef27
+a669c2df36db5fa7a2674ec5ae10548760702f99 fuse: support folios in struct fuse_args_pages and fuse_copy_pages()
+29279e1d4284a29cdd4af11e9a19800b8fda2962 fuse: add support in virtio for requests using folios
+ee80369a8aa850a992e93127bd16023fe1425010 fuse: convert cuse to use folios
+c1e4862b135954dd59596fbd454321ca4109b67e fuse: convert readlink to use folios
+02b78c7a7a0c72aee6f600a167e6adee9417ac0e fuse: convert readdir to use folios
+51b025301824f16d51243aa505709d678f2e059e fuse: convert reads to use folios
+f2ef459bab7326f4800ec2098cf073fbda2185af fuse: convert writes (non-writeback) to use folios
+ac1cf6e3bbe3dd371bd61a423437c1f67bba8b2a fuse: convert ioctls to use folios
+448895df0366041366a84861350ce471446bf560 fuse: convert retrieves to use folios
+cbe9c115b7441dd790540436118eee4626ec9979 fuse: convert writebacks to use folios
+7fce207af5ec074a9a50e90eb866b17ca4a90f06 mm/writeback: add folio_mark_dirty_lock()
+3b97c3652d9128ab7f8c9b8adec6108611fdb153 fuse: convert direct io to use folios
+68bfb7eb7f7de355d5b3812c25a2a36e9eead97b fuse: remove pages for requests and exclusively use folios
 
-8f54545d0c5895bb77c3045174f7e3b2d5ccc02c 2177da621f7daf7ecf5fe1eb2c611a9b7648f13e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcrS+kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgcP/0jqpFm8hLzVZco+5wWi
-yhmQ3jmDaSV4l84X8TdmrB+IiXPo7AlSzJcFZFhsdggLfCwPP4tGFeTdlsfd1iIe
-xI+J7yY7W9qwtjDdMmMp+kKylbYhlPJ0tzw5/bsYphdi5UcvLnUrngz6uMSlbL/G
-CNXhN9RZ7YvEvYe2MQikEc9Fc89CnkqTC8OYGv5PKe+GHHwpuerol3Vn/IiRG5qh
-nhC1fDON2AnnUFb4vFRQBU1UYQKn1VHhz5U4n0dxns8JHWGGYX9rJkW6D+LkB7Wa
-8Wh+p6gQGpS/1MAfFsUtjOudsIkjhnCu9BFnsvT3gMcVF/xLCMZXDwUxraDoxelm
-WH/vlThkBypS72CZQyMWXk89+jfQSrdRPq0gzuulifez/O4YSXrs/jgZKBRhEo+H
-K0rdNOk5U6/8XwlBXc4WhoqfTLjwRtTEA7/rrpH5tyb6idXBjTMq50A5wbiXLHXq
-7nvF/1mzIDvR+6ItjU6Ay0jIU2XO/kmsAiwuGEW6uf6tQCO5EabKFPYF3ECKgI+x
-S8BQ7vUB/b5+GmpMHgtg4kN/VvbRgkyIen8GEEzlrvdc13ZEnXhMSr/tKNp+HUBD
-fCPsJhWl3ojdpBErJJQzJREgUIqkvNAMyzO4gAoQ6k0VxnUa7L9TiqRxAuVSirG2
-NJNNJsXvsh8GAIXVQBeb/N3m
-=UR2c
------END PGP SIGNATURE-----
-
---===============0356341388812939336==--
+--===============2910569011131997873==--
