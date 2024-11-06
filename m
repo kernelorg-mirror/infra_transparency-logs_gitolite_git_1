@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 06 Nov 2024 22:04:51 -0000
-Message-Id: <173093069179.4002591.13280381263781928387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 06 Nov 2024 22:06:32 -0000
+Message-Id: <173093079214.4005118.11970291198409691869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: f6e47b511ca0bb9fbd3998df72301efe156bd21a
-    new: 53e972d443175b001239ad84ab2d3e2ad653b884
+  - ref: refs/heads/pwrctl
+    old: 4e6152af9bb65a892b22a690778286ad5317722f
+    new: c44683dbad6535f7a8fc2f659193e831d56a8ec4
     log: |
-         de5bade1b42730afd10d3a70ba858cb782a2cd5f scripts/tag_push: do not expect ensure_gpg_password.sh failure
-         a2cb051f0651e3de426bc265c32e3cefb13bf216 patches/next: move -damon version suffix patch to the beginning of the queue
-         53e972d443175b001239ad84ab2d3e2ad653b884 patches/next: rebase to latest mm-unstable
+         727a12776a52ec13747db58f9571785ae593d327 PCI/pwrctl: Ensure that the pwrctl drivers are probed before the PCI client drivers
+         c58a317b9f8b109a65eac9ff72a8869f971243a9 PCI/pwrctl: Move pwrctl device creation to its own helper function
+         c44683dbad6535f7a8fc2f659193e831d56a8ec4 PCI/pwrctl: Remove pwrctl device without iterating over all children of pwrctl parent
          
