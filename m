@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Wed, 06 Nov 2024 10:54:38 -0000
-Message-Id: <173089047879.3417499.1967681728469499920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 06 Nov 2024 10:54:41 -0000
+Message-Id: <173089048125.3417608.13819560384130653614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 64dd44a658065ab5595bbfe2cb4d8fd30c9e34a2
-    new: bd19b7a67cb01df5f54e6a18ed58f4a902eef517
+  - ref: refs/heads/for-mfd-next
+    old: 76c6217c31266e800b67a476bba59dfeb9858a90
+    new: bd302f82be1e10a1395d58d405e0e8af049d1cc3
     log: |
-         32360bf6a5d4016669c3545e7b0ec939937f5331 leds: Introduce ordered workqueue for LEDs events instead of system_wq
-         02f58f97419c828f58e30f24f54395ac9be159c0 leds: max5970: Fix unreleased fwnode_handle in probe function
-         95c65546f03f888481eda98b499947252e1f3b20 leds: ktd2692: Set missing timing properties
-         4ca7cd938725a4050dcd62ae9472e931d603118d leds: class: Protect brightness_show() with led_cdev->led_access mutex
-         bd19b7a67cb01df5f54e6a18ed58f4a902eef517 leds: pwm: Add optional DT property default-brightness
+         5a700e77d6458e838b4882627771cc5f367827af mfd: cgbc-core: Fix error handling paths in cgbc_init_device()
+         d256d612f47529ed0b332298e2d5ea981a4dd5b8 mfd: rt5033: Fix missing regmap_del_irq_chip()
+         f49f37f3cfe1482d4dc77d26f3e8c38eab630d52 dt-bindings: mfd: Add support for Airoha EN7581 GPIO System Controller
+         1b630208d797bd43645cbd0cdc3da424d1581919 dt-bindings: mfd: qcom,tcsr: Add compatible for MSM8917
+         c3768c474830fab0fa3063e72dd005eb6cef0618 mfd: intel_soc_pmic_*: Consistently use filename as driver name
+         bd302f82be1e10a1395d58d405e0e8af049d1cc3 mfd: intel_soc_pmic_crc: Add support for non ACPI instantiated i2c_client
          
