@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 06 Nov 2024 20:49:10 -0000
-Message-Id: <173092615066.3937407.11831188067898465204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 06 Nov 2024 20:49:35 -0000
+Message-Id: <173092617513.3938333.7527275022057656197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/perf-ftrace-latency
-    old: 8afa4ad32f362e16ea41f8546a65eefe56ded8bc
-    new: 00ff5373f8a72371fb1e392779e03685078a2166
+  - ref: refs/heads/buffered-uncached.2
+    old: d32acf2c3ab1ce1eec26996721feed055e25a5df
+    new: c2c857930aaf14f7c3c6c57eea9caf0f5e1885a8
     log: |
-         6f874d7b3dd5202ca2c47ac4ae632f02f31bd5dd perf ftrace latency: Introduce --bucket-range to ask for linear bucketing
-         00ff5373f8a72371fb1e392779e03685078a2166 perf ftrace latency: Introduce --min-latency to narrow down into a latency range
+         16ed9914a9b5d80e19e17399f2450eb7d609b72c mm: make buffered writes work with RWF_UNCACHED
+         c2c857930aaf14f7c3c6c57eea9caf0f5e1885a8 iomap: make buffered writes work with RWF_UNCACHED
          
