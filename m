@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 06 Nov 2024 19:49:34 -0000
-Message-Id: <173092257465.3886591.3346536180010174136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 06 Nov 2024 19:55:35 -0000
+Message-Id: <173092293560.3892757.760307757656233082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/buffered-uncached.2
-    old: 622103779465f6d5099f14b272da619fe74623ed
-    new: d32acf2c3ab1ce1eec26996721feed055e25a5df
+  - ref: refs/heads/perf-ftrace-latency
+    old: 872e1cc47bdefffbce9a1ba69e8f07a19182ff63
+    new: efcae24f45f1f843ec4d9b85416a90af7401ad20
     log: |
-         a29e99bd45b3e99dc13e3a8b245435a86a1afe55 fs: add read support for RWF_UNCACHED
-         f186632fc5d0a75a80c0a0e5fac1d920e908dfa5 mm: add support for dropping pages after writeback
-         3e4915125ca07d5f22d165ebe041a3e9713acae2 mm: make buffered writes work with RWF_UNCACHED
-         d32acf2c3ab1ce1eec26996721feed055e25a5df iomap: make buffered writes work with RWF_UNCACHED
+         efcae24f45f1f843ec4d9b85416a90af7401ad20 perf ftrace latency: Introduce --min-latency to narrow down into a latency range
          
