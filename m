@@ -1,41 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8196217675825105433=="
+Content-Type: multipart/mixed; boundary="===============4366378122434027113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Nov 2024 16:40:48 -0000
-Message-Id: <173091124817.3730915.5644126403899665743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 06 Nov 2024 16:40:59 -0000
+Message-Id: <173091125927.3731167.7022418856071640571@gitolite.kernel.org>
 
---===============8196217675825105433==
+--===============4366378122434027113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a
-    new: 26a2bebd2c0cb55582501678a182d0ae1a730f2d
-    log: revlist-9eaff63bfb59-26a2bebd2c0c.txt
+  - ref: refs/heads/main
+    old: ccb35037c48a16dfa377e3af3be2c164e73d54f0
+    new: a84e8c05f58305dfa808bc5465c5175c29d7c9b6
+    log: revlist-ccb35037c48a-a84e8c05f583.txt
 
---===============8196217675825105433==
+--===============4366378122434027113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eaff63bfb59-26a2bebd2c0c.txt
+Content-Disposition: attachment; filename=revlist-ccb35037c48a-a84e8c05f583.txt
 
-e9942bfe493108bceb64a91c2a832412524e8b78 ice: Fix use after free during unload with ports in bridge
-64502dac974a5d9951d16015fa2e16a14e5f2bb2 ice: change q_index variable type to s16 to store -1 value
-81d2fb4c7c18a3b36ba3e00b9d5b753107472d75 idpf: avoid vport access in idpf_get_link_ksettings
-9b58031ff96b84a38d7b73b23c7ecfb2e0557f43 idpf: fix idpf_vc_core_init error path
-f30490e9695ef7da3d0899c6a0293cc7cd373567 i40e: fix race condition by adding filter's intermediate sync state
-b8473723272e346e22aa487b9046fd324b73a0a5 e1000e: Remove Meteor Lake SMBUS workarounds
-256748d5480bb3c4b731236c6d6fc86a8e2815d8 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-cfbbd4859882a5469f6f4945937a074ee78c4b46 mptcp: no admin perm to list endpoints
-99635c91fb8b860a6404b9bc8b769df7bdaa2ae3 mptcp: use sock_kfree_s instead of kfree
-3f2f406a35e9311d9d3ec8db0ac33ea1853825cd Merge branch 'mptcp-pm-fix-wrong-perm-and-sock-kfree'
-26a2bebd2c0cb55582501678a182d0ae1a730f2d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+0452a2d8b8b98a5b1a9139c1a9ed98bccee356cc mlx5_en: use read sequence for gettimex64
+f72aa1b276281b4e4f75261af8425bc99d903f3e selftests: net: include lib/sh/*.sh with lib.sh
+bb2ef9b92bdf7e2e3b5df9747e6f7dcf51587450 bnxt_en: cache only 24 bits of hw counter
+6c0828d00f07954d87ffc89dace1d0c2db2bec20 bnxt_en: replace PTP spinlock with seqlock
+84bfbfbbd32aee136afea4b6bf82581dce79c305 netlink: typographical error in nlmsg_type constants definition
+cc4914d90479bbf13ca7ecea3b71d9c86d3b252f sfc: Remove falcon deadcode
+70e58249a6468fd98575da52ad83f7a29634377c sfc: Remove unused efx_mae_mport_vf
+5254fdfc746a443ba66469e048ae894c2defdc84 sfc: Remove unused mcdi functions
+d3e80070b5b49bb22fef1be22871196f29ee8d31 sfc: Remove more unused functions
+33d005b26fefbdeded7e621c0fa513d3b0f2717e Merge branch 'a-pile-of-sfc-deadcode'
+2cd02f2fdd8a92e5b6b85ff64eab0fc549b30c07 r8169: improve initialization of RSS registers on RTL8125/RTL8126
+7d1c2d517f503c63aac3775b51ec96210a6e6ef9 openvswitch: Pass on secpath details for internal port rx.
+7a4ea5da4d02c6087db8643fd5940974fabbaea3 net: hisilicon: hns: use ethtool string helpers
+ffda5c62878fcd86ec9f1d0122027e7710f9566b net: stmmac: add support for dwmac 3.72a
+8bed89232a8cb7bd4363e010650da7cdc5cc2e7d dt-bindings: net: snps,dwmac: add support for Arria10
+2eed720933fcd814e92e218f8ed9bde8521ced7d Merge branch 'add-support-for-synopsis-designware-version-3-72a'
+83cb4b470c66b37b19a347a35cea01e0cbdd258d r8169: remove leftover locks after reverted change
+f920ce04c39983d3fb181a77590b05bedfd25f98 dt-bindings: net: Add T-HEAD dwmac support
+33a1a01e3afa724c5f0014548008fe12426f6357 net: stmmac: Add glue layer for T-HEAD TH1520 SoC
+dc0f314bc9c58e7e160d572b109cf0816ff21fe1 Merge branch 'add-the-dwmac-driver-support-for-t-head-th1520-soc'
+f2c71c49da8f8941e3e465605fc41939eee9210a mptcp: remove unneeded lock when listing scheds
+fc49b804967e5b1cc1665efd4de112945e1ab4c6 selftests: netfilter: run conntrack_dump_flush in netns
+a84e8c05f58305dfa808bc5465c5175c29d7c9b6 selftests: netfilter: nft_queue.sh: fix warnings with socat 1.8.0.0
 
---===============8196217675825105433==--
+--===============4366378122434027113==--
