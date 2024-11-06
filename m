@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 06 Nov 2024 16:17:01 -0000
-Message-Id: <173090982111.3708689.9077287650113545941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 06 Nov 2024 16:23:56 -0000
+Message-Id: <173091023623.3714243.10692549506149660134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/probes/for-next
-    old: 3fbff988892993a144d0f47db0348c18b4621393
-    new: 4638d7ebeff5a741e22139cf00aaa9db0f668a8c
+  - ref: refs/heads/for-6.12/upstream-fixes
+    old: 49a397ad24ee5e2c53a59dada2780d7e71bd3f77
+    new: ae117e622a9290354615a541a18b008442799ed5
     log: |
-         4638d7ebeff5a741e22139cf00aaa9db0f668a8c x86/kprobes: Cleanup kprobes on ftrace code
+         ae117e622a9290354615a541a18b008442799ed5 HID: rmi: Add select RMI4_F3A in Kconfig
+         
+  - ref: refs/heads/for-next
+    old: 172f00dc96b445a63733d7e775ab8baf0b91b5d1
+    new: 44225538fd0d065c09267d4d4c717a5a2072aca3
+    log: |
+         ae117e622a9290354615a541a18b008442799ed5 HID: rmi: Add select RMI4_F3A in Kconfig
+         44225538fd0d065c09267d4d4c717a5a2072aca3 Merge branch 'for-6.12/upstream-fixes' into for-next
          
