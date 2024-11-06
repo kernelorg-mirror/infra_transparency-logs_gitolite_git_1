@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 06 Nov 2024 17:44:51 -0000
-Message-Id: <173091509194.3783382.15623174142136432497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 Nov 2024 17:45:27 -0000
+Message-Id: <173091512753.3785172.1252564791833974987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/at91-dt
-    old: 2bd3059f1ac59618eb4ed10b9fe4ca70a27947fb
-    new: 371a47c9a58a13e339fce2a3118c9ee6a8422258
-    log: |
-         41af45af8bc304e92e6a45890da751fc5ed5b7df ARM: dts: at91: sam9x7: add device tree for SoC
-         4157293c808f8691bec51da7badaab382849b01e dt-bindings: arm: add sam9x75 curiosity board
-         371a47c9a58a13e339fce2a3118c9ee6a8422258 ARM: dts: microchip: sam9x75_curiosity: add sam9x75 curiosity board
-         
+  - ref: refs/tags/sent/20241101-arm64-sve-ptrace-vl-set-db53eadbfc91-v1
+    old: 0000000000000000000000000000000000000000
+    new: e55bf93cd8f93b7f57d2767a1a5f2ff8dde98457
