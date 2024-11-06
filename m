@@ -1,68 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============7512461072926530829=="
+Content-Type: multipart/mixed; boundary="===============1238780738358993855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 06 Nov 2024 00:53:00 -0000
-Message-Id: <173085438047.2916318.6029000083898147269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 06 Nov 2024 01:00:54 -0000
+Message-Id: <173085485478.2927548.16896621159295554232@gitolite.kernel.org>
 
---===============7512461072926530829==
+--===============1238780738358993855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9b7661c568b92a661999407da35020b697d2ea18
-    new: 9d2df658bf12c9fa9ae1a185b5abf75cfbbdf246
-    log: revlist-9b7661c568b9-9d2df658bf12.txt
+  - ref: refs/heads/clk-cleanup
+    old: 00f8f70a0e8c6601861628be26270a0b6f4bbb34
+    new: dedceb2be8b4342c35967d5d47223631ef5d2eab
+    log: |
+         dedceb2be8b4342c35967d5d47223631ef5d2eab clk: starfive: jh7110-pll: Mark the probe function as __init
+         
+  - ref: refs/heads/clk-fixes
+    old: 6b5cca7868fdd2499384e21279fdab86bfa04997
+    new: 714398d8742d5e019a8e5512de2abb8db69ba0a3
+    log: |
+         f903663a8dcd6e1656e52856afbf706cc14cbe6d clk: qcom: videocc-sm8350: use HW_CTRL_TRIGGER for vcodec GDSCs
+         e02bfea4d7ef587bb285ad5825da4e1973ac8263 clk: qcom: clk-alpha-pll: Fix pll post div mask when width is not set
+         bf0a800415a7397617765fe5f5278a645195c75a clk: qcom: gcc-x1e80100: Fix halt_check for pipediv2 clocks
+         e7f37a7d16310d3c9474825de26a67f00983ebea clk: qcom: gcc-x1e80100: Fix USB MP SS1 PHY GDSC pwrsts flags
+         714398d8742d5e019a8e5512de2abb8db69ba0a3 Merge tag 'qcom-clk-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-fixes
+         
+  - ref: refs/heads/clk-next
+    old: 11713909beb7debd3d466a6dc302a33d91298be0
+    new: 768e1bffbc35556228493660d87713705b76653b
+    log: revlist-11713909beb7-768e1bffbc35.txt
+  - ref: refs/heads/clk-samsung
+    old: 0000000000000000000000000000000000000000
+    new: 31062ea8c850d944aff6362d0a3614da939d08ef
+  - ref: refs/heads/clk-microchip
+    old: 0000000000000000000000000000000000000000
+    new: 9d0af685ca5025ad24431f9387d3ffcdfddbdb87
 
---===============7512461072926530829==
+--===============1238780738358993855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b7661c568b9-9d2df658bf12.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bc2bb732162fb183e5c8df9d42604ddb7ec36e8b dt-bindings: interconnect: qcom: document SAR2130P NoC
-04bad0c91743c8f3753c35750ffe4ddb1bf22489 clk: qcom: Make GCC_6125 depend on QCOM_GDSC
-ab14ec55a2b9da8846afe81ec7264b37a8e51f99 dt-bindings: arm: qcom: Add Snapdragon Devkit for Windows
-7b8a31e82b87cc7784010ddc97601ccaf7a173ae arm64: dts: qcom: Add X1E001DE Snapdragon Devkit for Windows
-3844a8682e55813a6ad02d14f5862d7a73f9dc22 arm64: dts: qcom: x1e001de-devkit: Add audio related nodes
-75837f0b2bc61c62c8326fe3a1eb9a100714cfd7 firmware: qcom: uefisecapp: Allow X1E Devkit devices
-019e1ee32fec24a69e3491d27eb0f1bedce12525 arm64: dts: qcom: x1e001de-devkit: Enable external DP support
-4cadd106208143a919c957171a0634e16fd32f82 dt-bindings: firmware: qcom,scm: Document sm8750 SCM
-92f3397c8c8d63fefe0d045425ad54c5ee5d57bb soc: qcom: llcc: Flip the manual slice configuration condition
-133e4a44f1a09c7e76c5dbecb4c7667980c3e53d dt-bindings: clock: qcom,rpmhcc: Add SAR2130P compatible
-3ee315537e941fb92cff31b259641d19e798b4e6 dt-bindings: clock: qcom: document SAR2130P Global Clock Controller
-528e7bb0cabad075ba6e6c84ba30301718cc75e3 dt-bindings: clock: qcom,sm8550-tcsr: Add SAR2130P compatible
-adac76e7edb1ebdfdb4be179900e1d129912d847 dt-bindings: clock: qcom,sm8550-dispcc: Add SAR2130P compatible
-111481020aa599764790c807312465a4c94f4b5c dt-bindings: clk: qcom,sm8450-gpucc: add SAR2130P compatibles
-f93cea43e5527d1f0828360c09cdfaac0358dcd4 Merge branch '20241027-sar2130p-clocks-v5-0-ecad2a1432ba@linaro.org' into clk-for-6.13
-aec8c0e28ce4a1f89fd82fcc06a5cc73147e9817 clk: qcom: rcg2: add clk_rcg2_shared_floor_ops
-2cc88de6261f01ebd4e2a3b4e29681fe87d0c089 clk: qcom: rpmh: add support for SAR2130P
-13e677de1a7b0f389a8a46d2d148c8b5b55afcdc clk: qcom: add support for GCC on SAR2130P
-d2e0a043530b9d6f37a8de8f05e0725667aba0a6 clk: qcom: tcsrcc-sm8550: add SAR2130P support
-1335c7eb7012f23dc073b8ae4ffcfc1f6e69cfb3 clk: qcom: dispcc-sm8550: enable support for SAR2130P
-30eb0e76d7b4b7dd1e6e8ace010ac24391dd9263 clk: qcom: add SAR2130P GPU Clock Controller support
-2aedc97d9a4dd4d0e4314b44aec2c0fbc3c3d04a Merge branch '20241027-sar2130p-clocks-v5-0-ecad2a1432ba@linaro.org' into arm64-for-6.13
-caf1d8900173ed7da95b7581b1097d4849d4141f Merge branch 'icc-sar2130p' of https://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into HEAD
-23bb55173078ef454868aa814d4273f190afe7da dt-bindings: arm: qcom: add QAR2130P board
-be9115bfe5bf612455968724361a96b135d1f677 arm64: dts: qcom: sar2130p: add support for SAR2130P
-6339e41fa39b498b0c9417925e33c80ad61b0e63 arm64: dts: qcom: sar2130p: add QAR2130P board file
-03e525c66de2535dc1afd26be004621c7c5a253e dt-bindings: clock: Add Qualcomm IPQ5424 GCC binding
-153986098c6639b3b07b3e49fc33af3109d18594 Merge branch '20241028060506.246606-3-quic_srichara@quicinc.com' into clk-for-6.13
-79dfed29aa3f714e0a94a39b2bfe9ac14ce19a6a clk: qcom: clk-alpha-pll: Add NSS HUAYRA ALPHA PLL support for ipq9574
-21b5d5a4a3114607a27653371c0332f2080e3c05 clk: qcom: add Global Clock controller (GCC) driver for IPQ5424 SoC
-362dd128c49e655ff87eb64c2d200f5c9347c539 Merge branch '20241028060506.246606-3-quic_srichara@quicinc.com' into arm64-for-6.13
-7aafdbd3f521ba5e8268fd9c405cdf18732a10f3 dt-bindings: qcom: Add ipq5424 boards
-1a91d2a6021e29fce6bdf32960a89a936dad90da arm64: dts: qcom: add IPQ5424 SoC and rdp466 board support
-fd516bb4f48fc527744cae42d8e156fb09bce157 arm64: defconfig: Enable IPQ5424 RDP466 base configs
-c9cfca98998eb1cd14bdeccd607982ae818711e7 dt-bindings: arm: qcom,ids: add SoC ID for IPQ5424/IPQ5404
-a8fc655e01b6ca3b596b41ad000c7fead6093ce4 soc: qcom: socinfo: add IPQ5424/IPQ5404 SoC ID
-35e0a4f0a39651a6a6009f516847721cfdc633b7 arm64: dts: qcom: ipq5424: Add smem and tcsr_mutex nodes
-9d2df658bf12c9fa9ae1a185b5abf75cfbbdf246 Merge branches 'arm32-for-6.13', 'arm64-defconfig-for-6.13', 'arm64-fixes-for-6.12', 'arm64-for-6.13', 'clk-fixes-for-6.12', 'clk-for-6.13', 'drivers-fixes-for-6.12' and 'drivers-for-6.13' into for-next
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1730854880 -0800
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1730854852-f95ca65d8852f33ce213f10d739c9a95d06f39f9
 
---===============7512461072926530829==--
+00f8f70a0e8c6601861628be26270a0b6f4bbb34 dedceb2be8b4342c35967d5d47223631ef5d2eab refs/heads/clk-cleanup
+6b5cca7868fdd2499384e21279fdab86bfa04997 714398d8742d5e019a8e5512de2abb8db69ba0a3 refs/heads/clk-fixes
+11713909beb7debd3d466a6dc302a33d91298be0 768e1bffbc35556228493660d87713705b76653b refs/heads/clk-next
+0000000000000000000000000000000000000000 31062ea8c850d944aff6362d0a3614da939d08ef refs/heads/clk-samsung
+0000000000000000000000000000000000000000 9d0af685ca5025ad24431f9387d3ffcdfddbdb87 refs/heads/clk-microchip
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmcqv+ARHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSVvFQ/+PB+V4+FKknDIxSnaTG3Mk96//AFyv9oc
+CC22Qjn/6Pz6EEegfIhyxKhoVENFttaVEJFd8VfPFQA6XuzJVb0jq9Xog9Girr+i
+CDqam5BT5auVZnPaUHftRmUc5O/JLWTRANAh9pVNvNX1zq1sA9D+JYvASEa6xBbb
+Px4cJNzl1ENjsYutJ2s8UT24AtAucIInLTxm10nWFpn4DPHswVbd1IVv3uwE1Xok
+l2/rbTMNU1MyNrrtJV9rwM7edcYg22hUwTO8SZSPV10RR4jI5SMVdxq/bTcnjLGA
+iSHBpVEOpDbfvajFSByBWxWY21p60CyTdWwncL7XVPy8OCP+wU3VskojsXccb7vw
+gQw6Nytj6h9znygTVJgVRpq+5TPPlJNno8J6tmrtdYIqIIAfbFa+rgKzlGrRlqgF
+MYMI8kuCXuYUp8/tdLujKsdiZsSkowB+sofvGjITHzGkfu0rPsZGRcuTrbg8fqbr
+Kij6exmwBx9uqQqPc1ekTf7zROkfXZ4b4rnTUPSC8+Qa6HdRB4l7fYrt170y2azF
+9cEt0LwhdXOaRxupQe0l35AynVlU79MW4i2jx2mnSalnpZjDgt/CoTCtwlIiv6fs
+uasKg0jsfix9aARWlHi9dPb2XrSWIe07r4PS8oTKBqyPgdNe/+J75JRyqq6cSrtJ
+8D7UAlaT040=
+=5PJ6
+-----END PGP SIGNATURE-----
+
+--===============1238780738358993855==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-11713909beb7-768e1bffbc35.txt
+
+3ee92799a212963bbd8f860b53dd8b9b5e6bf812 clk: samsung: Fix block comment style warnings reported by checkpatch
+97fd5d447beff9643c2a333ebfbc95fc1d625342 clk: samsung: Fix errors reported by checkpatch
+a86ffa40a64bd4d119c260a99e28f2a71f86d9f4 clk: samsung: fsd: do not define number of clocks in bindings
+2d3e0135cefccbcd8459112a8afe260e7b51ff6d dt-bindings: clock: samsung: remove define with number of clocks for FSD
+f903663a8dcd6e1656e52856afbf706cc14cbe6d clk: qcom: videocc-sm8350: use HW_CTRL_TRIGGER for vcodec GDSCs
+440e3dcd7c739ba5b256196a89e796fb7e59c755 dt-bindings: clock: exynosautov920: add peric1, misc and hsi0/1 clock definitions
+56051619c35b44e4b2183213db8a1bb7ab6d4cc5 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
+ac08b52a5f32d9b40232549bc129559aee2b967a Merge tag 'samsung-clk-fixes-6.12' into next/clk
+5e830d3c97d50d619ea8eec04403e87ff7538c76 clk: samsung: exynosautov920: add peric1, misc and hsi0/1 clock support
+40d8566e9aa9628f71211d4b0b9ff8294496eb13 dt-bindings: clock: add support for lan969x
+6049fa175d84f7f9f8757423f78227c0a5099f09 clk: lan966x: make clk_names const char * const
+118c000211fbc476726a08f810ce9df700bf2bb3 clk: lan966x: prepare driver for lan969x support
+47d072b10507f813fb58d90fe6c37dd8686e8ed6 clk: lan966x: add support for lan969x SoC clock driver
+e02bfea4d7ef587bb285ad5825da4e1973ac8263 clk: qcom: clk-alpha-pll: Fix pll post div mask when width is not set
+bf0a800415a7397617765fe5f5278a645195c75a clk: qcom: gcc-x1e80100: Fix halt_check for pipediv2 clocks
+6aff357efc2bb060e5b400774becfd3d37644b44 clk: samsung: gs101: make all ufs related clocks critical
+e7f37a7d16310d3c9474825de26a67f00983ebea clk: qcom: gcc-x1e80100: Fix USB MP SS1 PHY GDSC pwrsts flags
+a81dca057273c32b8554b3bc562480d4b3816155 dt-bindings: clock: samsung: Add Exynos8895 SoC
+807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
+a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
+9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
+dedceb2be8b4342c35967d5d47223631ef5d2eab clk: starfive: jh7110-pll: Mark the probe function as __init
+1504377953cf25ecbb914b955465762eb3e1ccc3 Merge branch 'clk-cleanup' into clk-next
+714398d8742d5e019a8e5512de2abb8db69ba0a3 Merge tag 'qcom-clk-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-fixes
+1dd76478da587c585082c4c712bbcc8a3f9d5a98 Merge branch 'clk-fixes' into clk-next
+31062ea8c850d944aff6362d0a3614da939d08ef Merge tag 'samsung-clk-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-samsung
+d74a082c82d10e49e024926b2c74e234a47120b6 Merge branch 'clk-samsung' into clk-next
+9d0af685ca5025ad24431f9387d3ffcdfddbdb87 Merge tag 'clk-microchip-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
+768e1bffbc35556228493660d87713705b76653b Merge branch 'clk-microchip' into clk-next
+
+--===============1238780738358993855==--
