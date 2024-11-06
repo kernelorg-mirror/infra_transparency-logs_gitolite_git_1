@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 06 Nov 2024 09:03:10 -0000
-Message-Id: <173088379093.3325823.4101472473263409846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 06 Nov 2024 09:27:39 -0000
+Message-Id: <173088525953.3344648.17200757473638270558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/tags/at24-updates-for-v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8059cabd70fa5b318480b9b78641a008a3d5d228
+  - ref: refs/heads/main
+    old: 13e0a9327a42d78b0c0d0f672e02d8013187251a
+    new: fb9302eb9bc80f4d88db69e78235407f644b46c5
+    log: |
+         fb9302eb9bc80f4d88db69e78235407f644b46c5 Fix fd leakage in uki_image_probe()
+         
+  - ref: refs/heads/master
+    old: 13e0a9327a42d78b0c0d0f672e02d8013187251a
+    new: fb9302eb9bc80f4d88db69e78235407f644b46c5
+    log: |
+         fb9302eb9bc80f4d88db69e78235407f644b46c5 Fix fd leakage in uki_image_probe()
+         
