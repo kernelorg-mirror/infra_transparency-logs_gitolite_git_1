@@ -1,52 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============4535891997163419500=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 06 Nov 2024 18:59:14 -0000
-Message-Id: <173091955406.3844948.145001390149502997@gitolite.kernel.org>
-
---===============4535891997163419500==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-documentation
+Date: Wed, 06 Nov 2024 19:05:56 -0000
+Message-Id: <173091995644.3851843.7103447894836958482@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/djwong/xfs-documentation
+user: djwong
 changes:
-  - ref: refs/heads/master
-    old: 2e1b3cc9d7f790145a80cb705b168f05dab65df2
-    new: 7758b206117dab9894f0bcb8333f8e4731c5065a
-    log: revlist-2e1b3cc9d7f7-7758b206117d.txt
-
---===============4535891997163419500==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e1b3cc9d7f7-7758b206117d.txt
-
-fed13a5478680614ba97fc87e71f16e2e197912e dm: fix a crash if blk_alloc_disk fails
-177f25d1292c7e16e1199b39c85480f7f8815552 HID: core: zero-initialize the report buffer
-e4d32142d1de8bcafd90ea5f4f557104f0969c41 tracing: Fix tracefs mount options
-fa17cb4b3b42618aeed1e0bce80cc55106561718 tracing: Document tracefs gid mount option
-8b55572e51805184353ee7d587c720a51818fb82 tracing/selftests: Add tracefs mount options test
-8ca8d07857c698503b2b3bf615238c87c02f064e platform/x86/amd/pmf: Add SMU metrics table support for 1Ah family 60h model
-bceec87a73804bb4c33b9a6c96e2d27cd893a801 platform/x86/amd/pmc: Detect when STB is not available
-a36b8b84ac4327b90ef5a22bc97cc96a92073330 platform/x86: dell-smbios-base: Extends support to Alienware products
-ec61f0bb4feec3345626a2b93b970b6719743997 platform/x86: dell-wmi-base: Handle META key Lock/Unlock events
-36e66be874a7ea9d28fb9757629899a8449b8748 platform/x86: ideapad-laptop: add missing Ideapad Pro 5 fn keys
-5a4510c762fc04c74cff264cd4d9e9f5bf364bae dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
-a674d0cd56f47628e8057232833cd0654c85d50b dm-verity: don't crash if panic_on_corruption is not selected
-235d2e739fcbe964c9ce179b4c991025662dcdb6 dm cache: correct the number of origin blocks to match the target length
-135496c208ba26fd68cdef10b64ed7a91ac9a7ff dm cache: fix flushing uninitialized delayed_work on cache_ctr error
-792227719725497ce10a8039803bec13f89f8910 dm cache: fix out-of-bounds access to the dirty bitset when resizing
-f484697e619a83ecc370443a34746379ad99d204 dm cache: optimize dirty bit checking with find_next_bit when resizing
-c0ade5d98979585d4f5a93e4514c2e9a65afa08d dm cache: fix potential out-of-bounds access on the first resume
-1be765b292577c752e0b87bf8c0e92aff6699d8e platform/x86: thinkpad_acpi: Fix for ThinkPad's with ECFW showing incorrect fan speed
-0951fede4e5215e4529a3b711ac94fc84f90eca8 Merge tag 'hid-for-linus-20241105' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-9e23acf024895a50306508880a075efa18656322 Merge tag 'for-6.12/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-b226d019836fbab759be8f62818851ee5cb0d9de Merge tag 'platform-drivers-x86-v6.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-7758b206117dab9894f0bcb8333f8e4731c5065a Merge tag 'tracefs-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-
---===============4535891997163419500==--
+  - ref: refs/heads/for-next
+    old: 858b0667d5643eb9250a6037a3ab20024f700321
+    new: 661d339d50b8e504456d6435ae25246057d21a21
+    log: |
+         a1fea3a894c563bb0acc310053571d83f6d39d8e design: document atomic file mapping exchange log intent structures
+         ff9995e7dfd03328e45269de72b78036abab1b6f design: document new logged parent pointer attribute variants
+         2e8458c5836444d12d4ee5f12585da3ffa64b837 design: document the parent pointer ondisk format
+         4d6cdd07d6d7fbb7571916c2fc59fd4f242e3342 design: document the metadump v2 format
+         3ecf3b36dd08cef08d7cb247a0ca911d4d457e56 design: fix the changelog to reflect the new changes
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         
+  - ref: refs/heads/metadir
+    old: cce882ccae074539701605f0e8ff3fcdd9b904f3
+    new: 84345b399361b0fe521fef71b07865c87259d4ca
+    log: |
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         d93055e19210aa940102344dc85d285dcb5d8ae1 design: update metadata reconstruction chapter
+         8162a47e42d9263c60125c4ee717fbc2d7361f79 design: document filesystem properties
+         84345b399361b0fe521fef71b07865c87259d4ca design: document the changes required to handle metadata directories
+         
+  - ref: refs/heads/realtime-groups
+    old: dca6ad12f01d9b8c6577cc877a3f3f4a84fa8c71
+    new: 20531c2cb52824c8957f3a9f9c6a17297395b883
+    log: |
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         d93055e19210aa940102344dc85d285dcb5d8ae1 design: update metadata reconstruction chapter
+         8162a47e42d9263c60125c4ee717fbc2d7361f79 design: document filesystem properties
+         84345b399361b0fe521fef71b07865c87259d4ca design: document the changes required to handle metadata directories
+         7aa338c6e84da9d1fac6f5624a5b46dddc6349ad design: move discussion of realtime volumes to a separate section
+         d0e9e7bcbf2271d74393ad61099d109f33963618 design: document realtime groups
+         fd3bc6496e70e7d2a1f42474f8577d6fbd35d239 design: document metadata directory tree quota changes
+         20531c2cb52824c8957f3a9f9c6a17297395b883 design: update metadump v2 format to reflect rt dumps
+         
+  - ref: refs/heads/realtime-reflink
+    old: 9ee4841ea9a136fd18d5b444dcb20e1a71aebe70
+    new: a8353fe4c0a98cd4d409273875b6f8d8542adafc
+    log: |
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         d93055e19210aa940102344dc85d285dcb5d8ae1 design: update metadata reconstruction chapter
+         8162a47e42d9263c60125c4ee717fbc2d7361f79 design: document filesystem properties
+         84345b399361b0fe521fef71b07865c87259d4ca design: document the changes required to handle metadata directories
+         7aa338c6e84da9d1fac6f5624a5b46dddc6349ad design: move discussion of realtime volumes to a separate section
+         d0e9e7bcbf2271d74393ad61099d109f33963618 design: document realtime groups
+         fd3bc6496e70e7d2a1f42474f8577d6fbd35d239 design: document metadata directory tree quota changes
+         20531c2cb52824c8957f3a9f9c6a17297395b883 design: update metadump v2 format to reflect rt dumps
+         d2092ad12eab0ebc7ad1d8edd1916b8569d151a3 design: document the revisions to the realtime rmap formats
+         a8353fe4c0a98cd4d409273875b6f8d8542adafc design: document changes for the realtime refcount btree
+         
+  - ref: refs/heads/realtime-rmap
+    old: a7a8a8cc7f560413bf12f2982668af2b99821512
+    new: d2092ad12eab0ebc7ad1d8edd1916b8569d151a3
+    log: |
+         661d339d50b8e504456d6435ae25246057d21a21 Merge tag 'xfsdocs-6.10-updates_2024-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation into mainn
+         d93055e19210aa940102344dc85d285dcb5d8ae1 design: update metadata reconstruction chapter
+         8162a47e42d9263c60125c4ee717fbc2d7361f79 design: document filesystem properties
+         84345b399361b0fe521fef71b07865c87259d4ca design: document the changes required to handle metadata directories
+         7aa338c6e84da9d1fac6f5624a5b46dddc6349ad design: move discussion of realtime volumes to a separate section
+         d0e9e7bcbf2271d74393ad61099d109f33963618 design: document realtime groups
+         fd3bc6496e70e7d2a1f42474f8577d6fbd35d239 design: document metadata directory tree quota changes
+         20531c2cb52824c8957f3a9f9c6a17297395b883 design: update metadump v2 format to reflect rt dumps
+         d2092ad12eab0ebc7ad1d8edd1916b8569d151a3 design: document the revisions to the realtime rmap formats
+         
+  - ref: refs/tags/2024-08-22
+    old: 0000000000000000000000000000000000000000
+    new: 996a040e2d2b5435ba226b2f2e3685896e8cedb3
+  - ref: refs/heads/online-fsck
+    old: 0000000000000000000000000000000000000000
+    new: 8162a47e42d9263c60125c4ee717fbc2d7361f79
+  - ref: refs/tags/online-fsck_2024-11-06
+    old: 0000000000000000000000000000000000000000
+    new: 72d93c489a44016f727be6f83da7258ef6cdc06d
+  - ref: refs/tags/metadir_2024-11-06
+    old: 0000000000000000000000000000000000000000
+    new: 7c13693a9b10761984ce38be73228726b683d23e
+  - ref: refs/tags/realtime-groups_2024-11-06
+    old: 0000000000000000000000000000000000000000
+    new: dc10c545cef69ced447d28756ff6aa28450d2417
+  - ref: refs/tags/realtime-rmap_2024-11-06
+    old: 0000000000000000000000000000000000000000
+    new: eba41eb5f685b077fc2720dac2cbd8224df53841
+  - ref: refs/tags/realtime-reflink_2024-11-06
+    old: 0000000000000000000000000000000000000000
+    new: 3b165647713947549b091330038278010bfd2c65
