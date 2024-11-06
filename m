@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7364637434659797153=="
+Content-Type: multipart/mixed; boundary="===============0943057132135735536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 Nov 2024 16:54:51 -0000
-Message-Id: <173091209148.3742277.13817327709508913627@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 16:54:53 -0000
+Message-Id: <173091209367.3742354.17995947563968334298@gitolite.kernel.org>
 
---===============7364637434659797153==
+--===============0943057132135735536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ccb35037c48a16dfa377e3af3be2c164e73d54f0
     new: a84e8c05f58305dfa808bc5465c5175c29d7c9b6
     log: revlist-ccb35037c48a-a84e8c05f583.txt
 
---===============7364637434659797153==
+--===============0943057132135735536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ f2c71c49da8f8941e3e465605fc41939eee9210a mptcp: remove unneeded lock when listin
 fc49b804967e5b1cc1665efd4de112945e1ab4c6 selftests: netfilter: run conntrack_dump_flush in netns
 a84e8c05f58305dfa808bc5465c5175c29d7c9b6 selftests: netfilter: nft_queue.sh: fix warnings with socat 1.8.0.0
 
---===============7364637434659797153==--
+--===============0943057132135735536==--
