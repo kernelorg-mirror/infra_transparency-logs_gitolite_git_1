@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0734485382054034992=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 06 Nov 2024 12:00:54 -0000
-Message-Id: <173089445426.3494184.5683297815726598440@gitolite.kernel.org>
-
---===============0734485382054034992==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 06 Nov 2024 12:01:52 -0000
+Message-Id: <173089451225.3494860.10859817722131475028@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 8a3a58ab75a2b54ffc828c159055163fd21a32b6
-    new: 603e424707548f34f2dc36d53bfe6545d766ae0a
+  - ref: refs/heads/linus-next
+    old: 124d09bc731f3402eade7613da210b722e30debe
+    new: dce0fcf51c1df41b49771fb676368b74518f8fd5
     log: |
-         603e424707548f34f2dc36d53bfe6545d766ae0a 5.4-stable patches
+         e3a5eb4ad79511b9ef47a116ec94ec0b3598cbda auxdisplay: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         e6fc7ef72bf2272d65d97e1b78024d686107d82e auxdisplay: ht16k33: Make use of i2c_get_match_data()
+         0b028ff7e70ecbe5240ad92e36a664af5cf7f382 auxdisplay: Remove unused functions
+         dce0fcf51c1df41b49771fb676368b74518f8fd5 Merge tag 'auxdisplay-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay into linus-next
          
-
---===============0734485382054034992==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730894466 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1730894452-a69c73a8030e5e8a57c4f8b77c2a155f68250837
-
-8a3a58ab75a2b54ffc828c159055163fd21a32b6 603e424707548f34f2dc36d53bfe6545d766ae0a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcrWoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YRQP/ivZVRF8KimujVC0Ypjb
-9ZXzts/AioChxYgAjeqvTeIsEhWORfMzIv3NWhzNhH1sppfXr06uE+tgaT7abr2f
-dXsAIM0h6pgnThhzC/m99uapyd6oYkzi/P1uy79hDRgwVcSHRHmr0gb+NGuo/B6T
-Xt1SyjEavslfO+v8r0vlTk6fZQDVmz04dGlfhu/COqQFRtUXH0N2etlq9DsA6aYW
-d6bo4bG5Xub6uXYw8uU8yS0hGuePrBtKYesi1y/goF6oUrcYl5U6jEjk45jPHB3X
-zFriGj5O/AoVXntFE4QXukKIFWANPCAC8gH/uuaYHMWr4pTGGRVPGhPSmHh2i+KX
-tAmbYdGpdMI6nA9raKAanOVotwwYvtBEGNEi6NhuzcupO5uo5QJHgzSauCLlt7Q4
-OTe0HQH0/X6P0kJFHjvXZWWCUmfyWHQDWrsIdtOMMn2O033DJ0ekDcOPCSOTgpuI
-HmH/t5fVcfRWA/2hqcT4Bgfc2gCtGsxbt5IPgk5w6ilgQ1ySGkT1Ri0NT9rjBpcy
-lwKQ1dc6sX1e7Bi6NYxW0IhMl7xyKfyC/4YHCz0rUChZ2IT9rh9vemrIVPdNJz5W
-d1D8jZd/36D7OfA9zkJPdditzCm0ZwHrco6bWr9cUpi4/EAeajlAjmJOu7Ix4Bp0
-9SP+plG8VQkpty4SbyVUmBTt
-=+nsG
------END PGP SIGNATURE-----
-
---===============0734485382054034992==--
