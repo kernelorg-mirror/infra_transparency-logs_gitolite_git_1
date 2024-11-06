@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2422677893462877426=="
+Content-Type: multipart/mixed; boundary="===============5925384939271868854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 06 Nov 2024 20:14:55 -0000
-Message-Id: <173092409526.3907842.1533164547451414113@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 20:18:06 -0000
+Message-Id: <173092428625.3910590.12057405996500140888@gitolite.kernel.org>
 
---===============2422677893462877426==
+--===============5925384939271868854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: c33f9c2728d0ccc7472e6239346c0fb3de556e0f
-    new: 507f8e730100822b75290bbf96135f0e789da9cc
-    log: revlist-c33f9c2728d0-507f8e730100.txt
+  - ref: refs/heads/pending
+    old: 4203532030ae4aeeb9dad8a21f1bd84661c9cb49
+    new: c6faeca2c8b63f44236b649363c6ae20d41b5c3b
+    log: revlist-4203532030ae-c6faeca2c8b6.txt
 
---===============2422677893462877426==
+--===============5925384939271868854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c33f9c2728d0-507f8e730100.txt
+Content-Disposition: attachment; filename=revlist-4203532030ae-c6faeca2c8b6.txt
 
-4c4834fd8696a949d1b1f1c2c5b96e1ad2083b02 iio: adc: ti-ads8688: add missing select IIO_(TRIGGERED_)BUFFER in Kconfig
-66cf4455f3aba1d7dab4be7f4d8f95dc334ae46e iio: adc: ad4695: Add missing Kconfig select
-28a5dfd4f615539fb22fb6d5c219c199c14e6eb6 drm/vmwgfx: Limit display layout ioctl array size to VMWGFX_NUM_DISPLAY_UNITS
-5c9644a683e1690387a476a4f5f6bd5cf9a1d695 iio: frequency: {admv4420,adrf6780}: format Kconfig entries
 6b8e9dbfaed471627f7b863633b9937717df1d4d iio: frequency: admv4420: fix missing select REMAP_SPI in Kconfig
 4809a017a2bc42ff239d53ade4b2e70f2fe81348 drm/vmwgfx: Handle possible ENOMEM in vmw_stdu_connector_atomic_check
 512a9721cae0d88d34ff441f2f5917cd149af8af drm/vmwgfx: Cleanup kms setup without 3d
@@ -1050,5 +1046,9 @@ a2189d2b8005cd9f3a440512af087eb9b62c103e wifi: ath12k: introduce ath12k_hw_warn(
 0660e1e2ed5ff493f1e383a32d28db2b7d8490f7 wifi: ath12k: add multi-link flag in peer create command
 c20dbc8c68b38fe702e9fbc4748aa117194f8963 wifi: ath12k: add helper to find multi-link station
 507f8e730100822b75290bbf96135f0e789da9cc wifi: ath12k: Add MLO peer assoc command support
+abef141f3f5c0fc80cb7d55ca1c619b8dc583788 wifi: ath11k: Fix unexpected return buffer manager error for WCN6750/WCN6855
+b1ca75c98be05b4e9735352e0383ec15030a4be3 wifi: ath11k: add support for QCA6698AQ
+61741355a52c918423e73ee6dce9cd2be27b0efb wifi: ath11k: use union for vaddr and iaddr in target_mem_chunk
+c6faeca2c8b63f44236b649363c6ae20d41b5c3b wifi: ath11k: Add firmware coredump collection support
 
---===============2422677893462877426==--
+--===============5925384939271868854==--
