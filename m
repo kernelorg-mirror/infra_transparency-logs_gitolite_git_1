@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3685083629183887348=="
+Content-Type: multipart/mixed; boundary="===============5564729426219254550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 06 Nov 2024 13:00:42 -0000
-Message-Id: <173089804201.3545244.1047208565368257573@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 13:01:16 -0000
+Message-Id: <173089807612.3545736.2593128274689792087@gitolite.kernel.org>
 
---===============3685083629183887348==
+--===============5564729426219254550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,37 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 67433cc0b7530492444999c144ea173862e27571
-    new: 088d16747f2eae6de0119f07780f7e95885e868d
-    log: revlist-67433cc0b753-088d16747f2e.txt
+    old: 088d16747f2eae6de0119f07780f7e95885e868d
+    new: 41f911ec1ad583bc10051833497476caa12d5597
+    log: revlist-088d16747f2e-41f911ec1ad5.txt
+  - ref: refs/heads/tip/urgent
+    old: d688a2b81f039bb30e39ecac463812b7c025e40f
+    new: f218e37e1440c8edca49c97372614943ff7dbe2e
+    log: |
+         f218e37e1440c8edca49c97372614943ff7dbe2e Merge branch into tip/master: 'x86/urgent'
+         
 
---===============3685083629183887348==
+--===============5564729426219254550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67433cc0b753-088d16747f2e.txt
+Content-Disposition: attachment; filename=revlist-088d16747f2e-41f911ec1ad5.txt
 
-8b64db9733c2e4d30fd068d0b9dcef7b4424b035 locking/atomic/x86: Use ALT_OUTPUT_SP() for __alternative_atomic64()
-25cf4fbb596d730476afcc0fb87a9d708db14078 locking/atomic/x86: Use ALT_OUTPUT_SP() for __arch_{,try_}cmpxchg64_emu()
-1139c71df5ca29a36f08e3a08c7cee160db21ec1 time/sched_clock: Swap update_clock_read_data() latch writes
-8ab40fc2b9086b915e46890bb9252dc7692f1da0 time/sched_clock: Broaden sched_clock()'s instrumentation coverage
-5c1806c41ce0a0110db5dd4c483cf2dc28b3ddf0 kcsan, seqlock: Support seqcount_latch_t
-93190bc35d6d4364a4d8c38ac8961dabecbff4ed seqlock, treewide: Switch to non-raw seqcount_latch interface
-183ec5f26b2fc97a4a9871865bfe9b33c41fddb2 kcsan, seqlock: Fix incorrect assumption in read_seqbegin()
-b23decf8ac9102fc52c4de5196f4dc0a5f3eb80b sched: Initialize idle tasks only once
-0f0d1b8e5010bfe1feeb4d78d137e41946a5370d sched/ext: Remove sched_fork() hack
-26baa1f1c4bdc34b8d698c1900b407d863ad0e69 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
-7c70cb94d29cd325fabe4a818c18613e3b9919a1 sched: Add Lazy preemption model
-35772d627b55cc7fb4f33bae57c564a25b3121a9 sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
-476e8583ca16eecec0a3a28b6ee7130f4e369389 sched, x86: Enable Lazy preemption
-22aaec357c1ff85b72c105c90503e3b4187384b8 riscv: add PREEMPT_LAZY support
-5b590160d2cf776b304eb054afafea2bd55e3620 perf/x86/intel/pt: Fix buffer full but size is 0 case
-18d92bb57c39504d9da11c6ef604f58eb1d5a117 perf/core: Add aux_pause, aux_resume, aux_start_paused
-08c7454ceb948d773fcd0ff7b6fb9c315e2f801a perf/x86/intel/pt: Add support for pause / resume
-0d5eb14c1e2ed4a8413458cb3b779f215ff214aa perf/x86/intel: Do not enable large PEBS for events with aux actions or aux sampling
-9bce6e94c4b39b6baa649784d92f908aa9168a45 x86/resctrl: Support Sub-NUMA cluster mode SNC6
-8446247e3ddaf3b173ef96131793bab3f567bd96 Merge branch 'locking/core' into core/merge, to resolve conflict
-d42679536472996333e1d347cf6d9aaa6db1ea67 Merge branch into tip/master: 'core/merge'
-a92d798eae52008356aaf32dd76a89e3d1f2daa8 Merge branch into tip/master: 'perf/core'
-86dd7827f952bea77a83573280c0d53851babb48 Merge branch into tip/master: 'sched/core'
-088d16747f2eae6de0119f07780f7e95885e868d Merge branch into tip/master: 'x86/cache'
+f218e37e1440c8edca49c97372614943ff7dbe2e Merge branch into tip/master: 'x86/urgent'
+aec5aa3908d1167f520d19a54695b84fbd10a99d Merge branch into tip/master: 'core/merge'
+a9990727ea7969c9fe767f3db3bc85fcec1422ad Merge branch into tip/master: 'core/debugobjects'
+8e04e773baf0917dd1c5e2f41c4ecdb0e08b65c6 Merge branch into tip/master: 'irq/core'
+1d226e9da1b0a4d609726843b68be3e19e8da057 Merge branch into tip/master: 'objtool/core'
+1e6e79e9b08ccef1708dbbe78dfcb1967f97ed0a Merge branch into tip/master: 'perf/core'
+195b78bd223d0b658a443290b0edf299ab42a161 Merge branch into tip/master: 'ras/core'
+dafc2d42c0a67bcab9969ff8247bc1a67395a6f8 Merge branch into tip/master: 'sched/core'
+4508d46f36dff3fb74e680429c6f8f1d3db29769 Merge branch into tip/master: 'timers/vdso'
+440e79aec47aa7008d0190d39baffd66d88fc671 Merge branch into tip/master: 'x86/cache'
+bb0cd2870e6fcf6390c2a9a8930dd7d220c1a03b Merge branch into tip/master: 'x86/cleanups'
+0c1bcd731018b06a586ccee05d076e27973483f5 Merge branch into tip/master: 'x86/cpu'
+02d6050ff1cd0449d88159431acbf6e3da3fbd6d Merge branch into tip/master: 'x86/microcode'
+dcab38aa25915a8c5ddfeb3b16ee471a282aa7c7 Merge branch into tip/master: 'x86/misc'
+59a0a7540b4e95a9f6935f6e15b2eebe7d5042ce Merge branch into tip/master: 'x86/mm'
+41f911ec1ad583bc10051833497476caa12d5597 Merge branch into tip/master: 'x86/sev'
 
---===============3685083629183887348==--
+--===============5564729426219254550==--
