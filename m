@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8581288831857395361=="
+Content-Type: multipart/mixed; boundary="===============2141431156603250453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 06 Nov 2024 15:53:53 -0000
-Message-Id: <173090843324.3688826.15372940473649919866@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 15:54:02 -0000
+Message-Id: <173090844288.3689003.15318595003258263444@gitolite.kernel.org>
 
---===============8581288831857395361==
+--===============2141431156603250453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: 42f7652d3eb527d03665b09edac47f85fb600924
     new: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
     log: revlist-42f7652d3eb5-59b723cd2adb.txt
 
---===============8581288831857395361==
+--===============2141431156603250453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -721,4 +721,4 @@ d5aaa0bc6de9c2649fa15def775a6710c052c966 Merge tag 'phy-fixes-6.12' of git://git
 a8cc7432728d019a10cb412401ebc15ed7504289 Merge tag 'mm-hotfixes-stable-2024-11-03-10-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59b723cd2adbac2a34fc8e12c74ae26ae45bf230 Linux 6.12-rc6
 
---===============8581288831857395361==--
+--===============2141431156603250453==--
