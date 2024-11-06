@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 06 Nov 2024 01:03:44 -0000
-Message-Id: <173085502448.2928888.7235505446664532913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 06 Nov 2024 01:23:03 -0000
+Message-Id: <173085618366.2945116.8818995153799185638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/exynos-drm-next-for-v6.13-v2
+  - ref: refs/heads/arm64-fpmr-signal-test
     old: 0000000000000000000000000000000000000000
-    new: 488d9d4311f52d573ba069f7638ebf770419a07c
+    new: 9236eef57f221e238bbcecd249e185733cf276de
