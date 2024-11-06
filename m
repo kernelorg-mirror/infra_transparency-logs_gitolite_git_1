@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 06 Nov 2024 02:20:01 -0000
-Message-Id: <173085960145.2994912.13387076878557183906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Wed, 06 Nov 2024 03:08:38 -0000
+Message-Id: <173086251833.3031817.6754024568405393547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 740c58bfda7ea828064ff37f8359e052654f4ff4
-    new: f6e47b511ca0bb9fbd3998df72301efe156bd21a
+  - ref: refs/heads/main
+    old: 838f11e830e31cdd99e39c4134068bf36e4d9796
+    new: 2d10aa2afe35527728db30b35ec491ecb6959e5c
     log: |
-         f6e47b511ca0bb9fbd3998df72301efe156bd21a patches/next: rebase to latest mm-unstable
+         48795c82bdb6cbc597853293fbb41799ccecb5c2 pylibfdt: Don't emit warnings from swig generate C code
+         2d10aa2afe35527728db30b35ec491ecb6959e5c Bump version to v1.7.2
+         
+  - ref: refs/heads/master
+    old: 838f11e830e31cdd99e39c4134068bf36e4d9796
+    new: 2d10aa2afe35527728db30b35ec491ecb6959e5c
+    log: |
+         48795c82bdb6cbc597853293fbb41799ccecb5c2 pylibfdt: Don't emit warnings from swig generate C code
+         2d10aa2afe35527728db30b35ec491ecb6959e5c Bump version to v1.7.2
          
