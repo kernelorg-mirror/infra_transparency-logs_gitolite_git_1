@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9113110947020849672=="
+Content-Type: multipart/mixed; boundary="===============3769701323642279218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 06 Nov 2024 14:53:06 -0000
-Message-Id: <173090478659.3639178.5949779048559572621@gitolite.kernel.org>
+Date: Wed, 06 Nov 2024 14:53:27 -0000
+Message-Id: <173090480715.3639396.17431104729737423378@gitolite.kernel.org>
 
---===============9113110947020849672==
+--===============3769701323642279218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 8bb26465f87e82bfd1a37a5e6a9708daab115ae0
     new: 0dcc2d1066150787017a71f035145c566597dec7
     log: revlist-8bb26465f87e-0dcc2d106615.txt
 
---===============9113110947020849672==
+--===============3769701323642279218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -756,4 +756,4 @@ a49401be4c780f3397ca19a070d7c38e6f032efa kconfig: document the positional argume
 c46cc3914208f490a2abe086760edded55158ab9 AutoFDO: Enable machine function split optimization for AutoFDO
 0dcc2d1066150787017a71f035145c566597dec7 kbuild: Add Propeller configuration for kernel build
 
---===============9113110947020849672==--
+--===============3769701323642279218==--
