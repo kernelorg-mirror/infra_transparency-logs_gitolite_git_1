@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 06 Nov 2024 20:06:21 -0000
-Message-Id: <173092358122.3901505.17034774177991998736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 06 Nov 2024 20:11:44 -0000
+Message-Id: <173092390487.3905852.11783745021586840300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/perf-ftrace-latency
-    old: efcae24f45f1f843ec4d9b85416a90af7401ad20
-    new: bb0c7c6908478655dfefc30fde17f8977047be55
+  - ref: refs/heads/master
+    old: 408ec48013da87d226c56774a685531081473a12
+    new: 2336a5b48954512198205ea38a73ca50c6714446
     log: |
-         bb0c7c6908478655dfefc30fde17f8977047be55 perf ftrace latency: Introduce --min-latency to narrow down into a latency range
+         2336a5b48954512198205ea38a73ca50c6714446 Bluetooth: HCI: Add IPC(11) bus type
          
