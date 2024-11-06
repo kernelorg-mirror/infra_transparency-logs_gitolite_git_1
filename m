@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 06 Nov 2024 19:55:35 -0000
-Message-Id: <173092293560.3892757.760307757656233082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 06 Nov 2024 19:57:08 -0000
+Message-Id: <173092302814.3893525.5747771165429610439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/perf-ftrace-latency
-    old: 872e1cc47bdefffbce9a1ba69e8f07a19182ff63
-    new: efcae24f45f1f843ec4d9b85416a90af7401ad20
+  - ref: refs/heads/controller/mediatek
+    old: 2bee4c1a6fc0408242aedca80a102ef50c0dfbe5
+    new: b609a15e7969d6a50d65067ee783b5d9365b04dd
     log: |
-         efcae24f45f1f843ec4d9b85416a90af7401ad20 perf ftrace latency: Introduce --min-latency to narrow down into a latency range
+         b609a15e7969d6a50d65067ee783b5d9365b04dd PCI: mediatek-gen3: Add support for restricting link width
          
