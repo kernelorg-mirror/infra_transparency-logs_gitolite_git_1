@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1722277862380733023=="
+Content-Type: multipart/mixed; boundary="===============3227642073473257151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 06 Nov 2024 11:09:58 -0000
-Message-Id: <173089139836.3432264.9446008676072523350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ez/bpf-next
+Date: Wed, 06 Nov 2024 11:15:05 -0000
+Message-Id: <173089170566.3437999.17406093713374678494@gitolite.kernel.org>
 
---===============1722277862380733023==
+--===============3227642073473257151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ez/bpf-next
+user: ez
 changes:
-  - ref: refs/heads/master
-    old: 2177da621f7daf7ecf5fe1eb2c611a9b7648f13e
-    new: fa0ff8373a35213cd1a8c5cdcc3901140cade87b
-    log: |
-         fa0ff8373a35213cd1a8c5cdcc3901140cade87b drop block patch
-         
+  - ref: refs/heads/dual-compile
+    old: d5163a37a30b621d7f9b633bf6fc46db3410b7c4
+    new: e7856e1251355d8fcb026ffb75c9633f7521b9a6
+    log: revlist-d5163a37a30b-e7856e125135.txt
 
---===============1722277862380733023==
+--===============3227642073473257151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d5163a37a30b-e7856e125135.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730891408 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1730891394-9755e25b59afb88a45040a1ae7d8740960018bce
+f0ab12f16c3d81f8eb48c153288489a9be51fa01 bpf: use branch predictions in opt_hard_wire_dead_code_branches()
+bbbfecf23e647e665f5778438b5699f1b7509d30 selftests/bpf: tests for opt_hard_wire_dead_code_branches()
+898e41107f2262d13266fe365939ead49cf972e2 bpf: shared BPF/native kfuncs
+fc99204e3110bbbe7f2d2fadf82495693b5c4ed3 bpf: allow specifying inlinable kfuncs in modules
+f094b07f4b1cadd4e196450dc77f61df305977ed bpf: dynamic allocation for bpf_verifier_env->subprog_info
+624d1543ef355f0f58ec013d3051806abe2b7227 bpf: KERNEL_VALUE register type
+61205273474e763476dd92fba6677ea76a990a79 bpf: instantiate inlinable kfuncs before verification
+2ef23d3547385eb6d103a4b57756f1912b6cb012 bpf: special rules for kernel function calls inside inlinable kfuncs
+4fc660afd886960abe89b8fddbb780b9df60cc3d bpf: move selected dynptr kfuncs to inlinable_kfuncs.c
+1173aaf07943ec2f6c7467b26f9808038482905e selftests/bpf: logging for tests
+2320a07c46cb86fa0e922e8f038052197a4b12a2 selftests/bpf: {read,write}_with_timeout for send_signal
+e7856e1251355d8fcb026ffb75c9633f7521b9a6 selftests/bpf: tests to verify handling of inlined kfuncs
 
-2177da621f7daf7ecf5fe1eb2c611a9b7648f13e fa0ff8373a35213cd1a8c5cdcc3901140cade87b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcrTpAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yB0P/jawQqcrO9/ZkQzJAMfm
-tipM9Bjv1enqMM/RYzC9QAGD4LeV+Usour2lvBi1Ly2xF7weYTmb8862U970iNSX
-lPlrv89lm6hmhE7aOfusWRM5kj1gd1VueudSEfFGjs1MtEFCWB7fl85xUL5G29U2
-HfccwBhdXAhztQ7Hz732C3QzFQuURBNCnCeLfpD3A+9dyZWNgcgynLE5dE34BT0g
-wA0/7Of1XSdVo2hk7JvNgYXQTV17bpqj+d7UM6gCDN1rCoX+yQyUQ+isy41WkR7b
-AE0V4/4BcAJN9+ByYEvCHukgEclEpePevRaui5PXVXs6GCkl4I66harcs45+LLDZ
-ZPtYdAhWSSCG0zydwxRJoKkgTvNFS8Afedv08mbXYTt61FvdIqjrX3fQHI87zaRu
-obSbXAfBMl1LeVO2fGzU9wk9PotD+VOOWl6MoxgAWBvgQlqHW+KQP28vDNHD6sGR
-PYxW3+HSkO4royETK/pk6/jJIOmXRwr4u5afujDqcQM1S4IAlQEeF5X868f1uyKW
-y+1TCZYUEX732ocJTYJnTdd5ZRaQWuxvZt0tyjrKS1s8FCWnGeRG+u4DxWCrO7j4
-TIRoSSP9/GBJnykpJnEDfVBl6fn2IAWP7MzRa0VX5D6tCDG3xZT5ueyVA588ZGgd
-02rbxZFT/fasl8lCoJBltSTt
-=t93T
------END PGP SIGNATURE-----
-
---===============1722277862380733023==--
+--===============3227642073473257151==--
