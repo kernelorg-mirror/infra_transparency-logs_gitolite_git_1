@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 06 Nov 2024 17:58:44 -0000
-Message-Id: <173091592428.3795696.10620718502699683207@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3681351631696405172=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 06 Nov 2024 18:06:55 -0000
+Message-Id: <173091641587.3803146.1485859742601987304@gitolite.kernel.org>
+
+--===============3681351631696405172==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 46efeff7d4b0771a1e3d74a3cc981d2a3d7b9726
-    new: d670523a0c973e9c9148aca5f2092c4d33ddcf6f
+  - ref: refs/heads/master
+    old: 3b781155dce2af7d5c1467dd7551e637654e42ab
+    new: 81d335d3586c7a3cb0865e5d6fca205a258c3d22
     log: |
-         537c76629d7855ce11400eaad0137a062bfc15f6 fs: rename struct xattr_ctx to kernel_xattr_ctx
-         a10c4c5e01bdab617eaf3aaac9a96c22ddefa97e new helper: import_xattr_name()
-         66d7ac6bdb07fbe69ca6971558a996ac04bbb643 replace do_setxattr() with saner helpers.
-         0158005aaa3c946ecac9d251c34708a40a85cbe1 replace do_getxattr() with saner helpers.
-         60ad149cf395ff0a502976963d9a89c2f5dfe424 new helpers: file_listxattr(), filename_listxattr()
-         22a4d1954cf5d51d5aa82eccb0b5fd4d8be92551 new helpers: file_removexattr(), filename_removexattr()
-         6140be90ec70c39fa844741ca3cc807dd0866394 fs/xattr: add *at family syscalls
-         46a7fcec097da5b3188dce608362fe6bf4ea26ee xattr: remove redundant check on variable err
-         d670523a0c973e9c9148aca5f2092c4d33ddcf6f Merge branch 'work.xattr2' into for-next
+         81d335d3586c7a3cb0865e5d6fca205a258c3d22 Add AB5FEB886DBB99C2 (Vincent Mailhol)
          
+
+--===============3681351631696405172==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1730916443 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1730916415-a431e92807e57e483354f9c29311ff37e3e77781
+
+3b781155dce2af7d5c1467dd7551e637654e42ab 81d335d3586c7a3cb0865e5d6fca205a258c3d22 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZyuwWwAKCRC2xBzjVmSZ
+bAWhAP4wv8dHUtuEmXzvL5saqoCY5K4NeQXAB1cC/69NKjUgRgEAyzyCDASc4xb9
+0igjwCF7FcFeMM+vjQ6xIHNceO7kiwA=
+=e7JD
+-----END PGP SIGNATURE-----
+
+--===============3681351631696405172==--
