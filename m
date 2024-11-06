@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Nov 2024 01:54:04 -0000
-Message-Id: <173085804486.2972196.5645909542332706170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 06 Nov 2024 01:55:16 -0000
+Message-Id: <173085811657.2974795.7248771024919180380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 83cb4b470c66b37b19a347a35cea01e0cbdd258d
-    new: dc0f314bc9c58e7e160d572b109cf0816ff21fe1
+  - ref: refs/heads/master
+    old: 8083ce9a6e739088de11b8091b596f1674c4281a
+    new: 3b62c0187a932ce60da73fb350ce56b12ba013a4
     log: |
-         f920ce04c39983d3fb181a77590b05bedfd25f98 dt-bindings: net: Add T-HEAD dwmac support
-         33a1a01e3afa724c5f0014548008fe12426f6357 net: stmmac: Add glue layer for T-HEAD TH1520 SoC
-         dc0f314bc9c58e7e160d572b109cf0816ff21fe1 Merge branch 'add-the-dwmac-driver-support-for-t-head-th1520-soc'
+         b3bc8c0bf23f7b048470b033d939a0c4ffde2d47 Fixes for 6.11
+         c648bbc6e1ffa98eaac1daec8cb5a9905bbcb2cc Fixes for 6.6
+         8bd23cdfc46979ed3c4d298e7a6063c74ce08e8c Fixes for 6.1
+         c1bd90769bd234d86d7bff74e280a1df8dad2990 Fixes for 5.15
+         15ffd6c6d1c2eb2480fc37a49027e82b4b708e81 Fixes for 5.10
+         4b77626a0ceab6917bab5bf69aaf1fdf929ca813 Fixes for 5.4
+         3b62c0187a932ce60da73fb350ce56b12ba013a4 Fixes for 4.19
          
