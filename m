@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 06 Nov 2024 00:47:36 -0000
-Message-Id: <173085405680.2911605.11536871090211463279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 06 Nov 2024 00:47:50 -0000
+Message-Id: <173085407043.2911889.9084021546018680158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
+repo: pub/scm/linux/kernel/git/akpm/25-new
 user: akpm
 changes:
-  - ref: refs/tags/mm-everything-2024-11-06-00-35
-    old: 0000000000000000000000000000000000000000
-    new: 9b8b3730223eabe4a427d3bd90c62f3123caebf2
-  - ref: refs/tags/mm-everything-2024-11-06-00-43
-    old: 0000000000000000000000000000000000000000
-    new: beb3434450974670767ace16d19d1981d40c127a
+  - ref: refs/heads/master
+    old: 5818929c86284f790c61b955ab7c9778f276d8f2
+    new: 95f61afd5e786c2fd6b9f4a5990361858578a848
+    log: |
+         5826e90e7fa76560defa2e11a61caf10fae9261b foo
+         95f61afd5e786c2fd6b9f4a5990361858578a848 foo
+         
