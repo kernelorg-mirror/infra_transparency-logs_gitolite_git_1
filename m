@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7977449196418366342=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 06 Nov 2024 15:30:30 -0000
-Message-Id: <173090703001.3670208.90596974363506797@gitolite.kernel.org>
-
---===============7977449196418366342==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 06 Nov 2024 15:37:33 -0000
+Message-Id: <173090745343.3674990.2357787432599706876@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 877f3bea874dcd47641dcd1572e855271f0c5988
-    new: 471463faceb56063d81a32774635e215d0e65539
+  - ref: refs/heads/nfsd-next
+    old: 26e6e693936986309c01e8bb80e318d63fda4a44
+    new: 16c70563cec2d9ea5f727e8104a189cee5184af2
     log: |
-         471463faceb56063d81a32774635e215d0e65539 Merge branches 'acpi-misc', 'acpi-processor' and 'acpi-osl' into linux-next
+         aad23cb600446531f4fcc9b9e3d65b3411630eb3 nfsd: allow for up to 32 callback session slots
+         dc4fc2790f4cbe959181672d61297c44ef67cd9f NFSD: Add a tracepoint to record canceled async COPY operations
+         778736d336ce083fca6bacd814c8a68c410fdfe5 NFSD: Fix nfsd4_shutdown_copy()
+         a623d4c85adcee62fd43b729dd49d46ce388ac92 NFSD: Free async copy information in nfsd4_cb_offload_release()
+         4a3828071bbe4fabde694bfade92f1a902ecfdd0 NFSD: Handle an NFS4ERR_DELAY response to CB_OFFLOAD
+         5411f2389301b539aff0b7500e3fbc94ebe7267d NFSD: Block DESTROY_CLIENTID only when there are ongoing async COPY operations
+         88ad07032be47a85510692759f1c652e830212b3 NFSD: Add a laundromat reaper for async copy state
+         16c70563cec2d9ea5f727e8104a189cee5184af2 NFSD: Add nfsd4_copy time-to-live
          
-  - ref: refs/heads/linux-next
-    old: 4bce7a94aff13a9899ffe408914af993a5e189c0
-    new: 471463faceb56063d81a32774635e215d0e65539
-    log: revlist-4bce7a94aff1-471463faceb5.txt
-  - ref: refs/heads/testing
-    old: 4bce7a94aff13a9899ffe408914af993a5e189c0
-    new: 471463faceb56063d81a32774635e215d0e65539
-    log: revlist-4bce7a94aff1-471463faceb5.txt
-  - ref: refs/heads/intel_pstate-experimental-v2
-    old: 0000000000000000000000000000000000000000
-    new: ac435db302da0467af6988d0b7bf7b863b5733bb
-
---===============7977449196418366342==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bce7a94aff1-471463faceb5.txt
-
-95504d54a2751ad3e995c7bbafc2116affb28ab9 ACPI: thermal: Use strscpy() instead of strcpy()
-0151814c4c60c8e789f4f764037a19bce0a5632a ACPI: APD: Use strscpy() instead of strcpy()
-f098bb555fdd9e6eede8664e308d4b211946853d ACPI: EC: Use strscpy() instead of strcpy()
-e7eb88e3835f7aebd8462179bb71b92fba73efd1 ACPI: event: Use strscpy() instead of strcpy()
-efb365b7958598aff23e3bd947df3442f0474d65 ACPI: pci_link: Use strscpy() instead of strcpy()
-9ff236786334d69dd85d8bc5c208fa31d458e1c7 ACPI: pci_root: Use strscpy() instead of strcpy()
-04c2d3a9c4787596adc638957d9766c5ebbd3f4f ACPI: power: Use strscpy() instead of strcpy()
-c4ff125e372552ae0446ca9c810ae00f056b2753 ACPI: SBS: Use strscpy() instead of strcpy()
-0dac2f74f31d55a6c1a877bd2ba6bf0ceb43b207 ACPI: SBSHC: Use strscpy() instead of strcpy()
-107d55ef8df4892f310ff682dd801c6a831c34ca ACPI: scan: Use strscpy() instead of strcpy()
-bf41bb57b2c1d305d594c15bab8d387b1f5b75dc ACPI: processor_perflib: extend X86 dependency
-4435a125015d3c3d4494a3f4307d23f15d6cb42b ACPI: allow building without CONFIG_HAS_IOPORT
-471463faceb56063d81a32774635e215d0e65539 Merge branches 'acpi-misc', 'acpi-processor' and 'acpi-osl' into linux-next
-
---===============7977449196418366342==--
