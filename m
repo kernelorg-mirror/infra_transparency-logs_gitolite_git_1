@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 07 Nov 2024 20:54:21 -0000
-Message-Id: <173101286173.981676.9712758086938565784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 07 Nov 2024 21:08:18 -0000
+Message-Id: <173101369802.993471.10431690815251137192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/timers/tick-sched
-    old: f0e253cdae796b8b09c2724389ef5d1fee9048c1
-    new: 69e1d0b596e3bfa5e31294af57805fc1076426f4
+  - ref: refs/heads/master
+    old: a47fee884741dfd83bff320b91bd820ecc9ca9c7
+    new: 20bc870ad9172555e28c9e49bc7cba359afbc0c2
     log: |
-         69e1d0b596e3bfa5e31294af57805fc1076426f4 tick-sched: Replace jiffie readout with idle_entrytime
+         45b14e18f95a6aac69cec5a10cec357ac20a2eee foo
+         78538e5771ee8e8ed865fe29b93ae5a2a70ed3b8 foo
+         20bc870ad9172555e28c9e49bc7cba359afbc0c2 foo
          
