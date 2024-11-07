@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 07 Nov 2024 16:09:13 -0000
-Message-Id: <173099575317.747091.10810812008074700386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 07 Nov 2024 16:11:04 -0000
+Message-Id: <173099586446.750255.17916553915471736504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 342f751e15c39dfd578b17cb3fbbf694e34780b0
-    new: 2ed7316a506cadea56c2b954f2c85e1b308b6e12
+    old: 093285cb6a5da1fafd45f3de6e1c527d278c4ffc
+    new: 2410f11e60abd8fd6af7cdb72b7d207b3aa347b8
     log: |
-         2ed7316a506cadea56c2b954f2c85e1b308b6e12 selftests/bpf: Fix uprobe consumer test (again)
+         5b2f86cd08212f0ed783e8064d334ef21c6645e0 meson: default enable compression and openssl
+         5c3ea2f45d8481791c3e93b76cc0501d4cf9ac20 README.md: adjust the optional dependency note
+         2410f11e60abd8fd6af7cdb72b7d207b3aa347b8 meson: s/modulesi/modules/ typo
          
