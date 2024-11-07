@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3293916220680031513=="
+Content-Type: multipart/mixed; boundary="===============6263235669090429136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 07 Nov 2024 08:34:48 -0000
-Message-Id: <173096848802.319164.6806551397133910460@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 08:35:09 -0000
+Message-Id: <173096850974.320935.11084989962650538330@gitolite.kernel.org>
 
---===============3293916220680031513==
+--===============6263235669090429136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/staging-next
     old: 1235b909d312b5e56e26a8e7310ba948a4811940
     new: c4838879bd4b3a63fbb63bdf304e8e15a6800c45
     log: revlist-1235b909d312-c4838879bd4b.txt
 
---===============3293916220680031513==
+--===============6263235669090429136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730968498 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730968521 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1730968485-a54f5edb8fc11c2aa6e603be37fd1c23085edf92
+nonce 1730968508-34a6e0f0c8e68e0e3927dfce3f22fa073de2fad7
 
-1235b909d312b5e56e26a8e7310ba948a4811940 c4838879bd4b3a63fbb63bdf304e8e15a6800c45 refs/heads/staging-testing
+1235b909d312b5e56e26a8e7310ba948a4811940 c4838879bd4b3a63fbb63bdf304e8e15a6800c45 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcse7IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nFQP/jrfNUYEbDy35+B7VfyR
-JWsfzhP1b81nSJzJsNYw7UhKO2H4Q6B1GpljQ4I3bLwSiz1VY+qAM6DDvTaRcMRZ
-naidzsJD847+ecuxsDXkQJqo7tw513Eak25cYzmtY3AM6RxVgF/ye9UqPRfeUpFD
-4kVMZ4jYyndC9O7YnpRAKH2DadVzRLyJgh2g7IcUFlYB+ikeD/q5WVZzlLAnlzxe
-/uwTAwsOXq9AAcBisFhtHJ5+qbwUZokyB2RZe9fH2OEJYLQwEs6n/62yUGZ1zPry
-EpMn2M6A2SStTXnhyKLmzI+hilWwhUF7TzXhOYU6Kv3sqpXUMHLNGejUSwHrekb6
-Xt7UECSp7XQTGhEUI/8k1ag9EuTcFIWX+aDUnwN9JlBQB3zNmv6AZufUj6APzmXa
-Flxo8Eura+Fecl/7/RDIgOhgvq4ZqGbNyD9p+cSxvqg8FUINUExDc1RJxWRl8p+5
-oLODaiv+wqFQ+sqoK9q3XTIZTIC/+Vtoz3mJY+aIeHIPmqJVcjSIVU0+kz36A3os
-+veZjs3oPlTOE2OrD1rVpfmtQ1xk0mASC4zdsxcNBlyULnpo8omm8zS1QHxCzsAU
-oK/cKBqVtdeqXAKxlNy9eBjbBinfdD3GDe2RD7lHLa+QoKoDK3xu3VnbGb+A5+a3
-sGq6veQ9LuaxTSp9eloHkleS
-=I/ML
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcse8kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yKAP/ROBGt2PGpKzjn3+VP1N
+J+2QDvmlBQeUJiLSQ+YFGfUYFQUefgMH0FWU7zYsgMbVDo4Sq+ANI2kxCgcqzv6r
+Tw3NJ4+tW2SvtMjIVfjtPYCakGo8TcFUF2qbDoWBIkbJoMe4YBHUj30Q9JcYpVkC
+H8wOeHJBMlHwzR7+bo0IBU18Pk27WcaQxLv3kudXCCSQj7hbqkfcX/z2RRaPYI6U
+h32fbKsnyxWYwsrcNrwXQ1CWsbbZ8s8e1DzajzbuS5G1M8tKjrMdbqgoLZpJrp6Z
+Fg2nM/8aPmxrakEjGlFO1BpDQz/kDgBdXFTuf+sEV9MiCZpLMJ/pk23xNY/lE7V3
+ZVsIhklB/Va1gGnBRCWhNP3GzZgRB7UV3Gyn3G9UA19u2W9UZiaHKZuhYcTvJj09
+PUFcSdv1WwZXuQIdyUDTnVRkfFEHQRWd/3LR91oZ94kM93w+8BgKqjeCFYOjXsjv
+6oe7WvUttbvrixhJA5LR6GPgewSjCTgF9WQHOEbFJPHI1y9uITJ7SVOxOGbAYeEX
+IQuD+nKRhHROuPD1VtU+IuKINS2jBOgTzExUcwwH0Jo2r8QZCZ0qgAErQarOTTTT
+qzonAqA5FYgBUzqnKzeP1at38Yvg43LeJwrmNZSMAlHLyBvSBdLKsC5IPu7c2qM3
+irMECft85Kx+B7q1NVrDb192
+=prnF
 -----END PGP SIGNATURE-----
 
---===============3293916220680031513==
+--===============6263235669090429136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ dacebe04c1b413d0e505ccd4a81bf065ca5d5d3e staging: rtl8723bs: Remove function hal
 5054276e071df8ca06d9f47b164a468c28c1c613 staging: rtl8723bs: Remove unused function efuse_WordEnableDataRead
 c4838879bd4b3a63fbb63bdf304e8e15a6800c45 staging: rtl8723bs: Remove unused function Efuse_GetCurrentSize
 
---===============3293916220680031513==--
+--===============6263235669090429136==--
