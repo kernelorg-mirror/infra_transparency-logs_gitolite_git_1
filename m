@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 07 Nov 2024 09:49:59 -0000
-Message-Id: <173097299999.429843.6365828571204202699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 07 Nov 2024 09:53:22 -0000
+Message-Id: <173097320296.433004.7110403374210060374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/disable-encrypt-pcrs-v2
-    old: 0dc4f30edcb13d31c323108922eaee47996bff1a
-    new: 60c2d5a4ce9be712662bccecae085526c697d5f7
+  - ref: refs/heads/gpio/for-next
+    old: c6789170ddef58d28cfbc3342933713ce1e2c860
+    new: aca4d2218c9f1c49841a34e411926db1f99a4130
     log: |
-         60c2d5a4ce9be712662bccecae085526c697d5f7 tpm: Opt-in in disable PCR integrity protection
+         12b0e305f50988b0c75f052f86d51b5353108ca5 gpio: acpi: switch to device_for_each_child_node_scoped()
+         aca4d2218c9f1c49841a34e411926db1f99a4130 Merge tag 'intel-gpio-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
          
