@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1121879617143748827=="
+Content-Type: multipart/mixed; boundary="===============0620136383700426102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 07 Nov 2024 10:34:24 -0000
-Message-Id: <173097566454.465254.17585826458035359393@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 10:34:55 -0000
+Message-Id: <173097569553.466163.18047742085441882272@gitolite.kernel.org>
 
---===============1121879617143748827==
+--===============0620136383700426102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 64844729a608d308089510fc3bb23abf602f4e47
-    new: de786f0f83824eaa12aa92603be8655ec5d1a5bf
-    log: revlist-64844729a608-de786f0f8382.txt
+  - ref: refs/heads/for-next
+    old: ad4c3c461a581ef819964a1a60cebeda8f5da075
+    new: 97d7e028b14f29e4752d4712c5a405c8e0da92d8
+    log: revlist-ad4c3c461a58-97d7e028b14f.txt
 
---===============1121879617143748827==
+--===============0620136383700426102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64844729a608-de786f0f8382.txt
+Content-Disposition: attachment; filename=revlist-ad4c3c461a58-97d7e028b14f.txt
 
 34fb045eddd300a2d1c0d7de7e83113215c422e3 s390/kvm: Mask extra bits from program interrupt code
 b7cfc045488e89157a0908783171abf8e6808084 Documentation: s390-diag.rst: Make diag500 a generic KVM hypercall
@@ -40,5 +40,7 @@ e89204070dac190bb38d4e4e87c9a0c88664f385 s390/sparsemem: Provide phys_to_target_
 3fad3bdac4de581a09285d89fd49c81ab1d6af73 s390/uvdevice: Support longer secret lists
 03ab9b96959488175cbaa58bd50b9c4692a81c01 s390/uvdevice: Fix and slightly improve kernel-doc comment
 de786f0f83824eaa12aa92603be8655ec5d1a5bf s390/pci: Add header guards and includes to internal headers
+fe0ec07bc2618ef72972788fa22b6ef341891f7c Merge branch 'fixes' into for-next
+97d7e028b14f29e4752d4712c5a405c8e0da92d8 Merge branch 'features' into for-next
 
---===============1121879617143748827==--
+--===============0620136383700426102==--
