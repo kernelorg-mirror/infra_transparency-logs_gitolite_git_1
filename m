@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Thu, 07 Nov 2024 15:20:06 -0000
-Message-Id: <173099280670.706414.8236492666365729665@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 15:20:11 -0000
+Message-Id: <173099281146.706726.14568233746518325376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/libs/ell/ell
 user: holtmann
 changes:
-  - ref: refs/heads/master
-    old: e5007cee3eed10592a9cc4a41e57660f3c03c941
-    new: 373b828093fd48e5f33558bfba9fceaed311486c
-    log: |
-         373b828093fd48e5f33558bfba9fceaed311486c Release 0.70
-         
+  - ref: refs/tags/0.70
+    old: 0000000000000000000000000000000000000000
+    new: 3f6aef609ae52e7e86b0b7e43ba13feefdb7ca96
