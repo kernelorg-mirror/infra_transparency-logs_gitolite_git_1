@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 07 Nov 2024 19:42:41 -0000
-Message-Id: <173100856121.924158.5949715447706108601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 07 Nov 2024 19:50:04 -0000
+Message-Id: <173100900425.931242.3072808523541110156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2
-    new: 80fb25341631b75f57b84f99cc35b95ca2aad329
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d8c0f8b4ee989b79d8d92f954662efed38c7b23d
+    new: 62a6d092f1e7e72365ecf65bbc3f268121130292
     log: |
-         cc6a931d1f3b412263d515fd93b21fc0ca5147fe pwm: imx-tpm: Use correct MODULO value for EPWM mode
-         517fb4d77c44c7519ae6937329c496894461f416 MAINTAINERS: add self as reviewer for AXI PWM GENERATOR
-         84b9749a3a704dcc824a88aa8267247c801d51e4 proc/softirqs: replace seq_printf with seq_put_decimal_ull_width
-         80fb25341631b75f57b84f99cc35b95ca2aad329 Merge tag 'pwm/for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+         62a6d092f1e7e72365ecf65bbc3f268121130292 perf stat: Expand metric+unit buffer size
          
