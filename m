@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 07 Nov 2024 20:25:59 -0000
-Message-Id: <173101115905.958564.3895813665845822555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 07 Nov 2024 20:29:45 -0000
+Message-Id: <173101138518.960611.18139533934278272991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/tags/iio-for-6.13b
-    old: 0000000000000000000000000000000000000000
-    new: bc9d2135fefb0d511af6bf3a76b29e1a1de1240f
+  - ref: refs/heads/master
+    old: 6bd8c2bc7b677fd0982da6498064b04a073f2537
+    new: aad7c6973bc420dde86870b73ed4efecacfa95ac
+    log: |
+         aad7c6973bc420dde86870b73ed4efecacfa95ac libkmod: Prevent ouf of boundary access
+         
