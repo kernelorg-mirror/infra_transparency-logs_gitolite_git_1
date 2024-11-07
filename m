@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8385595717985220191=="
+Content-Type: multipart/mixed; boundary="===============8310109911864614767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 07 Nov 2024 11:22:14 -0000
-Message-Id: <173097853472.506479.13461895455400894794@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 11:22:31 -0000
+Message-Id: <173097855123.506733.15249968055533908229@gitolite.kernel.org>
 
---===============8385595717985220191==
+--===============8310109911864614767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: c3bb5e8b05f9ce1cccaf2a4ca208e3416fef0a3d
-    new: b02856f1cfcffb3d67384145b49203030e961be7
-    log: revlist-c3bb5e8b05f9-b02856f1cfcf.txt
+    new: a05fa96aa35c3cec8517c6bc64593e17489d5cfc
+    log: revlist-c3bb5e8b05f9-a05fa96aa35c.txt
 
---===============8385595717985220191==
+--===============8310109911864614767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3bb5e8b05f9-b02856f1cfcf.txt
+Content-Disposition: attachment; filename=revlist-c3bb5e8b05f9-a05fa96aa35c.txt
 
 10f0740234f0b157b41bdc7e9c3555a9b86c1599 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
 6e2a10343ecb71c4457bc16be05758f9c7aae7d9 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
@@ -39,5 +39,6 @@ ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2 Merge tag 'nfs-for-6.12-3' of git://git
 c1907628bdc40cd499517d5abaec2eb0f57c9dd6 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
 d8e693b1e2ab460bac24eac9c8aaa1beb73c497c char: tpm: cr50: Add new device/vendor ID 0x50666666
 b02856f1cfcffb3d67384145b49203030e961be7 tpm: atmel: Drop PPC64 specific MMIO setup
+a05fa96aa35c3cec8517c6bc64593e17489d5cfc tpm: Opt-in in disable PCR encryption on TPM2 chips
 
---===============8385595717985220191==--
+--===============8310109911864614767==--
