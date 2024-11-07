@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3262040641621577854=="
+Content-Type: multipart/mixed; boundary="===============4801969171036905474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 07 Nov 2024 19:04:25 -0000
-Message-Id: <173100626586.891551.3492610913711717148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 07 Nov 2024 19:04:42 -0000
+Message-Id: <173100628285.892319.6111315226690894102@gitolite.kernel.org>
 
---===============3262040641621577854==
+--===============4801969171036905474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 80fb25341631b75f57b84f99cc35b95ca2aad329
     log: revlist-59b723cd2adb-80fb25341631.txt
 
---===============3262040641621577854==
+--===============4801969171036905474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -141,4 +141,4 @@ ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2 Merge tag 'nfs-for-6.12-3' of git://git
 84b9749a3a704dcc824a88aa8267247c801d51e4 proc/softirqs: replace seq_printf with seq_put_decimal_ull_width
 80fb25341631b75f57b84f99cc35b95ca2aad329 Merge tag 'pwm/for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============3262040641621577854==--
+--===============4801969171036905474==--
