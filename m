@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1761778874601020895=="
+Content-Type: multipart/mixed; boundary="===============6889637272982256174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Thu, 07 Nov 2024 18:02:25 -0000
-Message-Id: <173100254522.838717.6407748367454459285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 07 Nov 2024 18:02:28 -0000
+Message-Id: <173100254843.838871.1075843239583634511@gitolite.kernel.org>
 
---===============1761778874601020895==
+--===============6889637272982256174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 80fb25341631b75f57b84f99cc35b95ca2aad329
     log: revlist-2e1b3cc9d7f7-80fb25341631.txt
 
---===============1761778874601020895==
+--===============6889637272982256174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2 Merge tag 'nfs-for-6.12-3' of git://git
 84b9749a3a704dcc824a88aa8267247c801d51e4 proc/softirqs: replace seq_printf with seq_put_decimal_ull_width
 80fb25341631b75f57b84f99cc35b95ca2aad329 Merge tag 'pwm/for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============1761778874601020895==--
+--===============6889637272982256174==--
