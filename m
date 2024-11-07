@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5096035569707893251=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 07 Nov 2024 12:06:54 -0000
-Message-Id: <173098121414.543855.17476999033353111298@gitolite.kernel.org>
-
---===============5096035569707893251==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 07 Nov 2024 12:10:02 -0000
+Message-Id: <173098140259.546582.12923611817257323585@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 751ecf6afd6568adc98f2a6052315552c0483d18
-    new: 81235ae0c846e1fb46a2c6fe9283fe2b2b24f7dc
+  - ref: refs/heads/bleeding-edge
+    old: 22985c4643b853b419b7c5f91e7f361bb80d2330
+    new: c0c640fc78059c1f471f0441f791ab4e73ccb369
     log: |
-         8c462d56487e3abdbf8a61cedfe7c795a54f4a78 arm64: smccc: Remove broken support for SMCCCv1.3 SVE discard hint
-         81235ae0c846e1fb46a2c6fe9283fe2b2b24f7dc arm64: Kconfig: Make SME depend on BROKEN for now
+         a29097701020f7e05bd9060f66886e2f7ff2af51 Merge branch 'acpi-processor-fixes' into fixes
+         c0c640fc78059c1f471f0441f791ab4e73ccb369 Merge branch 'fixes' into linux-next
          
-  - ref: refs/heads/for-next/perf
-    old: 8e929cb546ee42c9a61d24fae60605e9e3192354
-    new: 845fd2cbedaf299ee61680a678b279dfeb6fe77c
-    log: revlist-8e929cb546ee-845fd2cbedaf.txt
-
---===============5096035569707893251==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e929cb546ee-845fd2cbedaf.txt
-
-cc847678998305c72c9850efa3fd040b274a8180 drivers perf: remove unused field pmu_node
-0263a1e4f5ddbdac5ad84e84e5ac75dcb20121a1 dt-bindings: perf: fsl-imx-ddr: Add i.MX91 compatible
-44798fe136dc5adc9733a5c3d1fddafd6ec942ff perf: imx_perf: add support for i.MX91 platform
-48545b3eff6b061ed616d3ed67ca215abfb1000d perf/cxlpmu: Support missing events in 3.1 spec
-759b5fc6cc3e3c5841f6a3e4638b39534b0fc716 perf/dwc_pcie: Convert the events with mixed case to lowercase
-0bbff9ed81654d5f06bfca484681756ee407f924 perf/arm_pmuv3: Add PMUv3.9 per counter EL0 access control
-e1dce56443a4a18978fe39ee4af663e5b6b31422 perf/marvell: Marvell PEM performance monitor support
-bdc9a64c8b2041edfbcf02d07ee7402df65918e9 ARM: pmuv3: Add missing write_pmuacr()
-83d511c3ca0cb70a55d8b0ae3e753448fb00272b perf/dwc_pcie: Add support for Ampere SoCs
-94b3ad10c2e1d0e761756a844b78a21101dd1810 perf/dwc_pcie: Fix typos in event names
-3930c88ad0a5a8538ef8a281d4f4c230fb4d4fc4 dt-bindings: arm: pmu: Add Samsung Mongoose core compatible
-9643aaa194737b1ad73f9da6e51fc63d1c7a864a perf: arm_pmuv3: Add support for Samsung Mongoose PMU
-845fd2cbedaf299ee61680a678b279dfeb6fe77c perf: Switch back to struct platform_driver::remove()
-
---===============5096035569707893251==--
+  - ref: refs/heads/fixes
+    old: 6c49974818478a9fdc737bd9081c0d0acea55c95
+    new: a29097701020f7e05bd9060f66886e2f7ff2af51
+    log: |
+         b79276dcac9124a79c8cf7cc8fbdd3d4c3c9a7c7 ACPI: processor: Move arch_init_invariance_cppc() call later
+         a29097701020f7e05bd9060f66886e2f7ff2af51 Merge branch 'acpi-processor-fixes' into fixes
+         
+  - ref: refs/heads/intel_pstate-experimental-v2
+    old: ac435db302da0467af6988d0b7bf7b863b5733bb
+    new: 07c260bab5ba28db128890470e146dc563624317
+    log: |
+         5609296750afd6462a4d994b6803ccc5e8bf1d4e PM: EM: Add min/max available performance state limits
+         ad69c322ab6bd3dc26d23af3dbc0c9b03427c7ba Merge branch 'pm-em' into intel_pstate-experimental-v2
+         0439dd7404427173197171c2bb7122e68460b4a2 PM: EM: Move perf rebuilding function from schedutil to EM
+         c1f8f03e2ca589baffc214bd67473d2ecdacee31 PM: EM: Call em_compute_costs() from em_create_perf_table()
+         a2a924e742151f91f144f4f2495ba98763fd4204 PM: EM: Add special case to em_dev_register_perf_domain()
+         a2c33532b98c96d1040093c2cb7b89095e1384cf PM: EM: Introduce em_dev_expand_perf_domain()
+         e8813f98abd816925c81730414b9ec38b16d8b92 cpufreq: intel_pstate: Add basic EAS support on hybrid platforms
+         07c260bab5ba28db128890470e146dc563624317 x86/sched: Do not rebuild sched domains in sched_clear_itmt_support()
+         
+  - ref: refs/heads/linux-next
+    old: 471463faceb56063d81a32774635e215d0e65539
+    new: c0c640fc78059c1f471f0441f791ab4e73ccb369
+    log: |
+         b79276dcac9124a79c8cf7cc8fbdd3d4c3c9a7c7 ACPI: processor: Move arch_init_invariance_cppc() call later
+         a29097701020f7e05bd9060f66886e2f7ff2af51 Merge branch 'acpi-processor-fixes' into fixes
+         c0c640fc78059c1f471f0441f791ab4e73ccb369 Merge branch 'fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 471463faceb56063d81a32774635e215d0e65539
+    new: c0c640fc78059c1f471f0441f791ab4e73ccb369
+    log: |
+         b79276dcac9124a79c8cf7cc8fbdd3d4c3c9a7c7 ACPI: processor: Move arch_init_invariance_cppc() call later
+         a29097701020f7e05bd9060f66886e2f7ff2af51 Merge branch 'acpi-processor-fixes' into fixes
+         c0c640fc78059c1f471f0441f791ab4e73ccb369 Merge branch 'fixes' into linux-next
+         
