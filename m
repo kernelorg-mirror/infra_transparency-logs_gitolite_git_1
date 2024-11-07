@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 07 Nov 2024 21:40:06 -0000
-Message-Id: <173101560632.1021042.7178019627532377955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 07 Nov 2024 21:49:35 -0000
+Message-Id: <173101617524.1027109.2833654303998720558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/md-6.13
-    old: 6012169e8aae9c0eda38bbedcd7a1540a81220ae
-    new: 4122fef16b172f7c1838fcf74340268c86ed96db
+  - ref: refs/heads/block-6.12
+    old: d0c6cc6c6a6164a853e86206309b5a5bc5e3e72b
+    new: 52ff8e91f916fa05dd47b5c30afa3286c30db444
     log: |
-         91ff97a7225996db1071cfacc209a4fccce2246f mtip32xx: Replace deprecated PCI functions
-         0b66deb16c88f0baa7b8c223211a3c815667ad6f Merge tag 'md-6.13-20241105' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.13/block
-         ab9bc81c1cf0efc7fc5a3aa4e562aa88d09ada57 Revert "block: pre-calculate max_zone_append_sectors"
-         4122fef16b172f7c1838fcf74340268c86ed96db block: Switch to using refcount_t for zone write plugs
+         6d1c69945ce63a9fba22a4abf646cf960d878782 nvme/host: Fix RCU list traversal to use SRCU primitive
+         52ff8e91f916fa05dd47b5c30afa3286c30db444 Merge tag 'nvme-6.12-2024-11-07' of git://git.infradead.org/nvme into block-6.12
          
