@@ -1,59 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============7344345316574358469=="
+Content-Type: multipart/mixed; boundary="===============3293916220680031513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 07 Nov 2024 07:25:25 -0000
-Message-Id: <173096432527.268323.14847773716286156001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 07 Nov 2024 08:34:48 -0000
+Message-Id: <173096848802.319164.6806551397133910460@gitolite.kernel.org>
 
---===============7344345316574358469==
+--===============3293916220680031513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 6cc685facb53314615cb99d2027e94fd54b487ba
-    new: a32a8057af119adfb3e16a545dc47a103f6c2fcb
-    log: |
-         147359e23e5c9652ff8c5a98a51a7323bd51c94a counter: stm32-timer-cnt: fix device_node handling in probe_encoder()
-         842c3755a6bfbfcafa4a1438078d2485a9eb1d87 counter: stm32-timer-cnt: Add check for clk_enable()
-         1437d9f1c56fce9c24e566508bce1d218dd5497a counter: ti-ecap-capture: Add check for clk_enable()
-         a32a8057af119adfb3e16a545dc47a103f6c2fcb Merge tag 'counter-fixes-for-6.12' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
-         
+  - ref: refs/heads/staging-testing
+    old: 1235b909d312b5e56e26a8e7310ba948a4811940
+    new: c4838879bd4b3a63fbb63bdf304e8e15a6800c45
+    log: revlist-1235b909d312-c4838879bd4b.txt
 
---===============7344345316574358469==
+--===============3293916220680031513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730964337 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1730964324-d16dd1db379292bfaccc67defd4d62fe0303ec69
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1730968498 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1730968485-a54f5edb8fc11c2aa6e603be37fd1c23085edf92
 
-6cc685facb53314615cb99d2027e94fd54b487ba a32a8057af119adfb3e16a545dc47a103f6c2fcb refs/heads/char-misc-next
+1235b909d312b5e56e26a8e7310ba948a4811940 c4838879bd4b3a63fbb63bdf304e8e15a6800c45 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcsa3EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CMMP/iBouC7gbnXfyOORcNob
-UGIYaKKioUyO6vDy/x55+iC5jyu49EEBOk0NHEomx/PUgW2MDcDGC8iTcDtxdMc3
-qz6ATpDCxFAFlwOg4kK1G9YelCyBUZso3/88R58LX/oKW5fIz5zdn2pL/6TtqXE2
-HbPNjFrWqNrKQ8DwAmZLSbQjiUvWfPKTuttvUn9QWtuP3sTEEY3v8RV5je+R5GHq
-J91w6mYx+KQxy65Em6L+S6fSzQ2wKPL7MKWsQrtaNX76SiMapayh5YyuqpT5JyXk
-f1bW5gOgyp35k4znFKiEvEU0t7C/gizIgNSybeH6vu5xcyH17MGcKlxDivEiMZP1
-su1/0yJ830yXxbCt17c/AHDcZraohD0gHh7C40lDajnAUz6MOkeCg4NpiE0ymzYn
-J2kSUqiv3oCSaU55P1VVIg41Hw4gg/wzHfdlbxd/UzicB7IYHZtbEjj6ADngE7sl
-IJndxsrLY6SMxXlKsAE8Xas6dpZQI3PtA6f1B+qEbjg3ZLQwGzB+qImAXrGc421+
-VVrNoCpHUiMb+t1FRqx4tQc6lSNzdkDvgV9BiMThMhNpYuI8wkKp7lN3bQVZ4XHM
-xfVjk7EQHMGu115vi2wIHCRMVN0v/nqKKejDvKjhe/eq2akmYzfXQeMF9MpBZfAq
-ZBqJCnhJNtrITBKkbEOO1X95
-=azGv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcse7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nFQP/jrfNUYEbDy35+B7VfyR
+JWsfzhP1b81nSJzJsNYw7UhKO2H4Q6B1GpljQ4I3bLwSiz1VY+qAM6DDvTaRcMRZ
+naidzsJD847+ecuxsDXkQJqo7tw513Eak25cYzmtY3AM6RxVgF/ye9UqPRfeUpFD
+4kVMZ4jYyndC9O7YnpRAKH2DadVzRLyJgh2g7IcUFlYB+ikeD/q5WVZzlLAnlzxe
+/uwTAwsOXq9AAcBisFhtHJ5+qbwUZokyB2RZe9fH2OEJYLQwEs6n/62yUGZ1zPry
+EpMn2M6A2SStTXnhyKLmzI+hilWwhUF7TzXhOYU6Kv3sqpXUMHLNGejUSwHrekb6
+Xt7UECSp7XQTGhEUI/8k1ag9EuTcFIWX+aDUnwN9JlBQB3zNmv6AZufUj6APzmXa
+Flxo8Eura+Fecl/7/RDIgOhgvq4ZqGbNyD9p+cSxvqg8FUINUExDc1RJxWRl8p+5
+oLODaiv+wqFQ+sqoK9q3XTIZTIC/+Vtoz3mJY+aIeHIPmqJVcjSIVU0+kz36A3os
++veZjs3oPlTOE2OrD1rVpfmtQ1xk0mASC4zdsxcNBlyULnpo8omm8zS1QHxCzsAU
+oK/cKBqVtdeqXAKxlNy9eBjbBinfdD3GDe2RD7lHLa+QoKoDK3xu3VnbGb+A5+a3
+sGq6veQ9LuaxTSp9eloHkleS
+=I/ML
 -----END PGP SIGNATURE-----
 
---===============7344345316574358469==--
+--===============3293916220680031513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1235b909d312-c4838879bd4b.txt
+
+8023618a48dc8664a4493cc8279f988f9bd4ed0b staging: gpib: Fix buffer overflow in ni_usb_init
+a836d4ec8f83bbbec06d460008429de437b9104b staging: gpib: Replace custom debug with dev_dbg
+4934b98bb24327c32ed55c96012f019932383da5 staging: gpib: Update messaging and usb_device refs in ni_usb
+fbae7090f30c1bd5a351d0c8f82b6a635718b8d8 staging: gpib: Update messaging and usb_device refs in agilent_usb
+7fa4e5bc10557fbdf459b66ce445c74c35b203a4 staging: gpib: Fix MODULES_DESCRIPTION
+93b17a5982988be1e4dd5e4612c21551c4996b11 staging: gpib: Add comment for mutex define
+45f480139675b09a3bfcdc209794e61fd77e241b staging: gpib: Use dev_xxx for messaging
+0f95c181372380cf779d8c9bd3d5a23bff5c4d57 staging: gpib: Fix Kconfig
+c05a2297c05f991be48b51f44290abaa8bfd714f staging: gpib: Remove unneeded lookup table
+8e93812275510f7970d8016f492d4d1830e69aab staging: gpib: Remove GPIO14 and GPIO15 lines in lookup tables
+3c2ae0cbaf341e579892f2a67f7701931de949b4 staging: gpib: Re-order the lookup tables
+7c8a7d2f88caeaa376964b57243e26e018ad656d staging: gpib: Correct check for max secondary address
+6ec895d2f350a36381ea4b27d9982e66c78c14d1 staging: rtl8723bs: Remove function pointer UpdateRAMaskHandler
+30de9504409c4a3fd14dcb3b54a4f5c3a735f639 staging: rtl8723bs: Remove function pointer set_channel_handler
+31553e08b9af720ffdee72ded2766747f29ac3fe staging: rtl8723bs: Remove function pointer set_chnl_bw_handler
+706fa5fa8c6a1f5ecf7900d24c6fe4e3f6a064eb staging: rtl8723bs: Remove function pointer set_tx_power_level_handler
+d8e9bf2a3a600532eedc994dae578166bbb7d5b2 staging: rtl8723bs: Remove function pointer hal_dm_watchdog
+2ca601a795d2e7ea524f58deef9ff19ee7999bdb staging: rtl8723bs: Remove function pointer hal_dm_watchdog_in_lps
+4e1ddd1ff18ac660cd68dade8b84c9b82c648fc2 staging: rtl8723bs: Remove function pointer SetBeaconRelatedRegistersHandler
+2ca4b94bf807dbff46257be35bd90f5aca4b4445 staging: rtl8723bs: Remove function pointer Add_RateATid
+b3c7d9d211f3405dcc9698ff29bff6b4ff13864c staging: rtl8723bs: Remove function pointer run_thread
+74ee958fefc4100994a342e3f5d2aabdacc87cae staging: rtl8723bs: Remove function pointer cancel_thread
+35083292a4df7d3decd8643615ef63de9bf8607e staging: rtl8723bs: Remove function pointer read_bbreg
+414eeafeebcef6c0f6d6cd3cdb8af994bfb76de7 staging: rtl8723bs: Remove function pointer write_bbreg
+e2b1bf0412d76717d781bef4becf4c4e8c38dfd9 staging: rtl8723bs: Remove function pointer read_rfreg
+d2730bb531300784c439689513d806b901edf114 staging: rtl8723bs: Remove function pointer write_rfreg
+cd05890a5b7acaaec769fdfeea98ad38f6a9e12c staging: rtl8723bs: Remove function pointer EfusePowerSwitch
+4affb575c41717ad5ee4a40cf3a6000c4da1e7c3 staging: rtl8723bs: Remove function pointer ReadEFuse
+fa152eefb46801372f2addac33e86f7a91e96dc8 staging: rtl8723bs: Remove function pointer EFUSEGetEfuseDefinition
+0e3565c9ee0bea74fb84ebbceb5c3b44b7958bc1 staging: rtl8723bs: Remove function pointer EfuseGetCurrentSize
+0452ce8e2c046dcb164a004dcb5a0a4a9c669bfd staging: rtl8723bs: Remove unused function Efuse_PgPacketRead
+790d384afac491fab2bd1a7b7e18a19dc4175ed8 staging: rtl8723bs: Remove unused function Hal_EfusePgPacketRead
+ee65788ce938fca8d1f9b8784652331822ffc76f staging: rtl8723bs: Remove unused function Efuse_PgPacketWrite
+6f569ef127dfa0b040d1c990fffcd846b2b85998 staging: rtl8723bs: Remove unused function Hal_EfusePgPacketWrite
+605685a5a82683869475bf55d6ea77c24a89431b staging: rtl8723bs: Remove unused function Hal_EfusePgPacketWrite_BT
+2b8b60d71175b7533f056200bcfd2b89dfa56afe staging: rtl8723bs: Remove unused function hal_EfusePgPacketWriteData
+442e4a4acaaa8ec9033e8695722410e1a5a44dd5 staging: rtl8723bs: Remove unused function hal_EfusePgPacketWriteHeader
+8dceb8893c2ccbca9ea2f3941521b9acbf65decb staging: rtl8723bs: Remove unused function hal_EfusePartialWriteCheck
+a36a627c85fbd04d72341d5b3155ad147d848b55 staging: rtl8723bs: Remove unused function hal_EfuseConstructPGPkt
+561feaad75a2af7d81512a96eceb0b014a02d65e staging: rtl8723bs: Remove unused function hal_EfusePgCheckAvailableAddr
+dacebe04c1b413d0e505ccd4a81bf065ca5d5d3e staging: rtl8723bs: Remove function hal_EfusePgPacketWrite2ByteHeader
+8a39380d4a0ec36a2052cc5ee756496b24309370 staging: rtl8723bs: Remove function hal_EfusePgPacketWrite1ByteHeader
+5054276e071df8ca06d9f47b164a468c28c1c613 staging: rtl8723bs: Remove unused function efuse_WordEnableDataRead
+c4838879bd4b3a63fbb63bdf304e8e15a6800c45 staging: rtl8723bs: Remove unused function Efuse_GetCurrentSize
+
+--===============3293916220680031513==--
