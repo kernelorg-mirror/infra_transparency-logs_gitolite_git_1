@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 07 Nov 2024 16:08:57 -0000
-Message-Id: <173099573775.746887.14700241721919761200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 07 Nov 2024 16:09:13 -0000
+Message-Id: <173099575317.747091.10810812008074700386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: holtmann
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 2a617e8848dafd2ad94a9fd189f2af577a05a253
-    new: 1b9f9303fbaf3d430e14a4ff65d1f905dbf44f06
+    old: 342f751e15c39dfd578b17cb3fbbf694e34780b0
+    new: 2ed7316a506cadea56c2b954f2c85e1b308b6e12
     log: |
-         1b9f9303fbaf3d430e14a4ff65d1f905dbf44f06 build: Require at least version 0.70 when building with external ELL
+         2ed7316a506cadea56c2b954f2c85e1b308b6e12 selftests/bpf: Fix uprobe consumer test (again)
          
