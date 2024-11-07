@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895304220291410978=="
+Content-Type: multipart/mixed; boundary="===============4456298682420955707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 07 Nov 2024 22:44:21 -0000
-Message-Id: <173101946117.1072456.15876515307871999269@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 22:44:23 -0000
+Message-Id: <173101946378.1072533.1894326872326362471@gitolite.kernel.org>
 
---===============5895304220291410978==
+--===============4456298682420955707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 26a2bebd2c0cb55582501678a182d0ae1a730f2d
     new: bfc64d9b7e8cac82be6b8629865e137d962578f8
     log: revlist-26a2bebd2c0c-bfc64d9b7e8c.txt
 
---===============5895304220291410978==
+--===============4456298682420955707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -386,4 +386,4 @@ d293958a8595ba566fb90b99da4d6263e14fee15 net/smc: do not leave a dangling sk poi
 71712cf519faeed529549a79559c06c7fc250a15 drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
 bfc64d9b7e8cac82be6b8629865e137d962578f8 Merge tag 'net-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5895304220291410978==--
+--===============4456298682420955707==--
