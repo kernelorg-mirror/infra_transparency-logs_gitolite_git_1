@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 07 Nov 2024 13:24:40 -0000
-Message-Id: <173098588096.608769.2064487775452446216@gitolite.kernel.org>
+Date: Thu, 07 Nov 2024 13:29:39 -0000
+Message-Id: <173098617924.613969.12967944881939178711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: db0082faa5fee3e81ef00fc6a5d09d8f97a1b0af
-    new: d83c7e3d0bf23e59071a3deb59ae79eac085b560
+    old: d83c7e3d0bf23e59071a3deb59ae79eac085b560
+    new: e817e483c4b5bd0cd73a3d7e26c0a59c86b8c995
     log: |
-         dbb219d7451a8f188a707ac44c4eedc2b4c6b3c6 i915: Update Xe2LPD DMC to v2.23
-         d83c7e3d0bf23e59071a3deb59ae79eac085b560 Merge branch 'intel/dmc/xe2lpd/2.23' into 'main'
+         ddf25515104b647e79e5df846bbae2f68f7befbf rtw88: Add firmware v52.14.0 for RTL8812AU
+         e817e483c4b5bd0cd73a3d7e26c0a59c86b8c995 Merge branch 'rtw88' into 'main'
          
