@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8157486112954857104=="
+Content-Type: multipart/mixed; boundary="===============0419291677762055901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 08 Nov 2024 15:49:43 -0000
-Message-Id: <173108098333.2084928.1480463778874111697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Fri, 08 Nov 2024 15:49:45 -0000
+Message-Id: <173108098557.2085008.16808250528278137388@gitolite.kernel.org>
 
---===============8157486112954857104==
+--===============0419291677762055901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 906bd684e4b1e517dd424a354744c5b0aebef8af
     log: revlist-80fb25341631-906bd684e4b1.txt
 
---===============8157486112954857104==
+--===============0419291677762055901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ bfc64d9b7e8cac82be6b8629865e137d962578f8 Merge tag 'net-6.12-rc7' of git://git.k
 7b85bb4bc043d703c6d8bb35080b7753a1dd8021 Merge tag 'regulator-fix-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 906bd684e4b1e517dd424a354744c5b0aebef8af Merge tag 'spi-fix-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============8157486112954857104==--
+--===============0419291677762055901==--
