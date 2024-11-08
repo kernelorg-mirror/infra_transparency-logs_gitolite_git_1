@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 08 Nov 2024 17:49:34 -0000
-Message-Id: <173108817453.2182484.9787259614257745998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 08 Nov 2024 17:52:00 -0000
+Message-Id: <173108832080.2185335.1143853391160340794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/buffered-uncached.4
-    old: 245a45fad999a64a557d158d94cbb61272ac70fe
-    new: 8b18020663efd4b2091fc5264c926746a8c3c8ca
+  - ref: refs/heads/master
+    old: 01c8b02c5a00d554acd4b8eb14128ba92370ce88
+    new: 5b72ac7d5b651721750007c14a03ddb66ff26285
     log: |
-         1b4896e62530ad348dcc6afe10d0da76a3621341 mm/filemap: make buffered writes work with RWF_UNCACHED
-         08d4b78bbb29c1286850f0860901cd3e03746010 iomap: make buffered writes work with RWF_UNCACHED
-         bd9364be1c3047a140249b419d3b26b02f62fb95 ext4: flag as supporting FOP_UNCACHED
-         8b18020663efd4b2091fc5264c926746a8c3c8ca xfs: flag as supporting FOP_UNCACHED
+         73e46a77951d0d20db439da12cf01ed31d36ee0d ci/codeql: use Ubuntu 24.04, adjust build flags
+         ebbca1c24054b6a8b3cf0143a2fbf4c88078e6e0 Revert "testsuite/path: match the full rootpath"
+         5b72ac7d5b651721750007c14a03ddb66ff26285 ci: add code coverage via Codecov
          
