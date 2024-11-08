@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 08 Nov 2024 19:41:00 -0000
-Message-Id: <173109486058.2289716.3794834984457139841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 08 Nov 2024 19:41:41 -0000
+Message-Id: <173109490156.2290056.966407824246387417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: d3e8a52e007e7c73d8b3f0c25ecf77e4a891158a
-    new: 212713c7098b21e69a3f6c634a08741810a82ee2
+  - ref: refs/heads/dt/next
+    old: 027af8c26fdc064260a08c0d6dac64d5dc2c25d4
+    new: 01d0467488c72e6d30cbc3261a3020080ba02378
+    log: |
+         01d0467488c72e6d30cbc3261a3020080ba02378 dt-bindings: Enable dtc "interrupt_provider" warnings
+         
