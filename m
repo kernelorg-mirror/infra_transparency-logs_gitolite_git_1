@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8183122388392694389=="
+Content-Type: multipart/mixed; boundary="===============7222323549312595798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 08 Nov 2024 15:31:47 -0000
-Message-Id: <173107990738.2024019.17899580973440220986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 08 Nov 2024 15:32:49 -0000
+Message-Id: <173107996972.2024661.13915837185746239010@gitolite.kernel.org>
 
---===============8183122388392694389==
+--===============7222323549312595798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: dc4313ed83a81e547ee3988796828710459ff749
-    new: 893e702857113384924147ddd687e28d3005210b
-    log: revlist-dc4313ed83a8-893e70285711.txt
+  - ref: refs/heads/master
+    old: a88c223e71533920805c66372d5bc251670c4d87
+    new: 5e25d9698e3bd48de8d62319bbe43405d3917a21
+    log: |
+         5e25d9698e3bd48de8d62319bbe43405d3917a21 Linux 6.11.7
+         
 
---===============8183122388392694389==
+--===============7222323549312595798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc4313ed83a8-893e70285711.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cd7cb1de59d09721c7cad8500220d82e9ab781ea nfs/localio: must clear res.replen in nfs_local_read_done
-306536033aa2085fc7d98861610d31f963e597c5 nfs_common: must not hold RCU while calling nfsd_file_put_local
-fac25be650ebbeed722bf57895146e2d7812fb24 nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
-512b9916415ad3c087e2461a5c793012ff890991 nfs_common: rename functions that invalidate LOCALIO nfs_clients
-193c4393d0744633de7bef19e3dbb9d7047fc63c nfs_common: move localio_lock to new lock member of nfs_uuid_t
-517f72f274cf807cf412882b77d2a2686cc20e61 nfs: cache all open LOCALIO nfsd_file(s) in client
-8a4592e024fe866ccc5aca516fa1cb33b5dd2c90 nfsd: update percpu_ref to manage references on nfsd_net
-937e87b5dc8aff9bae3654fe56e997d16da3012e nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
-5d7b3be90b29abbc66e03ff19c46b0b65eb9b2b3 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
-f3ce1a61b553c98386f1edae035090ad4d09e16f nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
-f2dbd4a35548a993e2dee449fea755d8237beee3 nfs_common: track all open nfsd_files per LOCALIO nfs_client
-632e88c371a090bbaa35028a13deaa2a1d8ddf26 nfs_common: add nfs_localio trace events
-893e702857113384924147ddd687e28d3005210b nfs: probe for LOCALIO when v4 client reconnects to server
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731079980 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731079967-e2d68a5e0e0550dde33215e32ec82d41bd8403b5
 
---===============8183122388392694389==--
+a88c223e71533920805c66372d5bc251670c4d87 5e25d9698e3bd48de8d62319bbe43405d3917a21 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcuLywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/cIQAI7uJRxXafudIu3Ra418
+fTjiCP11yr/U0mMd1QrnMPZFnlemzqsfaSwsYmYK5wrwk6vWMzwXIvXSHY43gws1
+xw698KtUDHPUT0wUPg3CG/Qfz+ASDpYalKYBX4mAk9vIUG+4Pex48Sst0CkRrkqJ
+Qyeucvwlwf/IUwDGuvYqx8abqTKzcf5S54hHk+TMinFGR4CDt0eFZSsnFZo8gfjd
+zio1Duwi8yPxb44YngkxcVynZa78lmp6s6f/VKnDybYQQfPO06IorCHMFHqsCqQK
+vsNTvTJwbIOIMC4cpgmRyNrx2CxBNPrJqDFvD6dPgdL4iSgMXBlBbHXGxwW+PuLj
+WzyAA95EiiMWucb4/cvMuvwKyxaIYcXV8dG4LRmWlCITfdl3LtWUjovkrAjIhU5m
+tyn7pS5VSZG0iIkjCbLERh6Yh+DgXgkT8wGvN9a/HsKusoUFoNwtSyzq15/rfBha
+n5GyB3bGurHknkc5yRplBF0u1TI8KMt2To6YamaXgdb5KCESLuFF5x350zyhWoLI
+Wci2ljUlFcsIUWUQZMHKJZN2ASeAarFPNCauNC1iO1a7k8WA4OXA1klaciVZJfYI
+ICQSihVNS10bgYtukEHvVXa+iGjDanRTyMu9B5h34gBjysWUXzKGiN49UL2W4SBp
+4p/BuWu2/vz0zjd2gWrHvTR8
+=06bn
+-----END PGP SIGNATURE-----
+
+--===============7222323549312595798==--
