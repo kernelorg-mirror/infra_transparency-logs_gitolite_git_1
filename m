@@ -1,125 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============0331605484088899641=="
+Content-Type: multipart/mixed; boundary="===============6284217136714570513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 08 Nov 2024 15:45:16 -0000
-Message-Id: <173108071600.2081788.11022532731284073197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 08 Nov 2024 15:47:12 -0000
+Message-Id: <173108083256.2082727.5881626037553257605@gitolite.kernel.org>
 
---===============0331605484088899641==
+--===============6284217136714570513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.19.323
-    old: 0000000000000000000000000000000000000000
-    new: 56ad5b803809960efc10260785a6cd5af9e99d7b
-  - ref: refs/tags/v5.10.228
-    old: 0000000000000000000000000000000000000000
-    new: 32b8e072959c860c15c33c2b5e9cb7b19383fe1d
-  - ref: refs/tags/v5.10.229
-    old: 0000000000000000000000000000000000000000
-    new: 9f40f5cbbf0b2e2617110cdbadc76c065564a84c
-  - ref: refs/tags/v5.15.169
-    old: 0000000000000000000000000000000000000000
-    new: 8b7473ab1ba83ae6aa074ada816cc9dea020ee3a
-  - ref: refs/tags/v5.15.170
-    old: 0000000000000000000000000000000000000000
-    new: 4aa71dea5ff684011c71ccdc6d8877ede218b2c5
-  - ref: refs/tags/v5.15.171
-    old: 0000000000000000000000000000000000000000
-    new: 6bb8248d1ac9e46bf351b81d85f712f9713904b5
-  - ref: refs/tags/v5.4.285
-    old: 0000000000000000000000000000000000000000
-    new: 8b8908f69f689175f197168504bde409f71049cc
-  - ref: refs/tags/v6.1.114
-    old: 0000000000000000000000000000000000000000
-    new: a014bde3d4563a646ed3814ba9a460d51a44f703
-  - ref: refs/tags/v6.1.115
-    old: 0000000000000000000000000000000000000000
-    new: 8f84d3b6f69e7527efacf0c1bd7c0f2d1c4b44d3
-  - ref: refs/tags/v6.1.116
-    old: 0000000000000000000000000000000000000000
-    new: 8f1ffdfa1d0190a18e971dbf811f3d730dae68e0
-  - ref: refs/tags/v6.11.5
-    old: 0000000000000000000000000000000000000000
-    new: 761e5e491bcf9bc056dfb711a21846ed9e4fe1a9
-  - ref: refs/tags/v6.11.6
-    old: 0000000000000000000000000000000000000000
-    new: 6d62eda736d17fa7dc2afb86e9c248b5e9ffca8e
-  - ref: refs/tags/v6.11.7
-    old: 0000000000000000000000000000000000000000
-    new: 9e1ba3f169938902baf11893f9698a3fb39e44d5
-  - ref: refs/tags/v6.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.6.58
-    old: 0000000000000000000000000000000000000000
-    new: 19f281632b8e2bc9105e5fbc5e1bbe98a30367ee
-  - ref: refs/tags/v6.6.59
-    old: 0000000000000000000000000000000000000000
-    new: f39db86247c8b74f5066c72974dc86cb86af6df5
-  - ref: refs/tags/v6.6.60
-    old: 0000000000000000000000000000000000000000
-    new: f5963171a3276fdd63296491d9025f1f31387f92
+  - ref: refs/heads/char-misc-testing
+    old: 65294bebd4ce532b822fb9de8e78df2e089525f3
+    new: 389c4245f5491e343b1dd07d65923ac372679037
+    log: revlist-65294bebd4ce-389c4245f549.txt
 
---===============0331605484088899641==
+--===============6284217136714570513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731080708 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1731080695-710f43a9a938b95755797cadfb65b70c06f5280d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731080843 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1731080830-c6bb3b565a25d97a57553a7c355dda8266934375
 
-0000000000000000000000000000000000000000 56ad5b803809960efc10260785a6cd5af9e99d7b refs/tags/v4.19.323
-0000000000000000000000000000000000000000 32b8e072959c860c15c33c2b5e9cb7b19383fe1d refs/tags/v5.10.228
-0000000000000000000000000000000000000000 9f40f5cbbf0b2e2617110cdbadc76c065564a84c refs/tags/v5.10.229
-0000000000000000000000000000000000000000 8b7473ab1ba83ae6aa074ada816cc9dea020ee3a refs/tags/v5.15.169
-0000000000000000000000000000000000000000 4aa71dea5ff684011c71ccdc6d8877ede218b2c5 refs/tags/v5.15.170
-0000000000000000000000000000000000000000 6bb8248d1ac9e46bf351b81d85f712f9713904b5 refs/tags/v5.15.171
-0000000000000000000000000000000000000000 8b8908f69f689175f197168504bde409f71049cc refs/tags/v5.4.285
-0000000000000000000000000000000000000000 a014bde3d4563a646ed3814ba9a460d51a44f703 refs/tags/v6.1.114
-0000000000000000000000000000000000000000 8f84d3b6f69e7527efacf0c1bd7c0f2d1c4b44d3 refs/tags/v6.1.115
-0000000000000000000000000000000000000000 8f1ffdfa1d0190a18e971dbf811f3d730dae68e0 refs/tags/v6.1.116
-0000000000000000000000000000000000000000 761e5e491bcf9bc056dfb711a21846ed9e4fe1a9 refs/tags/v6.11.5
-0000000000000000000000000000000000000000 6d62eda736d17fa7dc2afb86e9c248b5e9ffca8e refs/tags/v6.11.6
-0000000000000000000000000000000000000000 9e1ba3f169938902baf11893f9698a3fb39e44d5 refs/tags/v6.11.7
-0000000000000000000000000000000000000000 dd41b19dabde8b19ce2aba70fce98f8bc605802d refs/tags/v6.12-rc4
-0000000000000000000000000000000000000000 ac746e6156c4d6d7b46ba2102acf644ea2aa4aac refs/tags/v6.12-rc5
-0000000000000000000000000000000000000000 f3c18f7b56ad121d3225a32ba6c00b1047a37863 refs/tags/v6.12-rc6
-0000000000000000000000000000000000000000 19f281632b8e2bc9105e5fbc5e1bbe98a30367ee refs/tags/v6.6.58
-0000000000000000000000000000000000000000 f39db86247c8b74f5066c72974dc86cb86af6df5 refs/tags/v6.6.59
-0000000000000000000000000000000000000000 f5963171a3276fdd63296491d9025f1f31387f92 refs/tags/v6.6.60
+65294bebd4ce532b822fb9de8e78df2e089525f3 389c4245f5491e343b1dd07d65923ac372679037 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcuMgQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+430P/RLgI7YAgU4xu9ok4PB5
-VQM85QTuH0CgsaQh6fYsJ2XI6yARW6xF/EGFP6LJcGmG19zd65gqTAhMU2+h73q8
-SWii+XbObPVZ6g6xIi2bKw+RjIkzRzzr7GkHL09x5fBGfDG3pr1ITZGrFtGHievn
-reudjwUU3aMyCjFLONDHLDIlPoyvDc0PuP04nZyVSYiS8N7hpH5AIWj9JN4/r+l3
-XBguKGNvGckc5ScZCcKJRGG1W3IfgUXY7CbPDOXia9FwOyqIkQvVk6s5MTweOTJW
-EtRwjidSK0HsTVqgxFvBAJ7kNPtgpnGdI/i199ArqBdcySGIqRozPq8YQy/yfWLf
-m6JM7P6pfVQcJ+mkKHjq92gROtxk765GfxdzQNYHFTvto8JjtZ3XLQPF/YcDkMze
-E7boov3ZOu6eW5pOaBKchG3cWIMpu+skQgpTmHniNQj67dCk3brOyiuXvRleiVBD
-rQVkjaWy0kGhRcIYY/WcNE3lfOy1HbG0eaVvD5/JZhk1joLN1sZwci6hu+wiITKz
-CY6+wZMgf5fzLjCbyZ+y3OoDHy6ppqiv2ZzRDvB3oWGmKDRcxwR1kfhgQJuv3P47
-x65ZcFJ3Z285xX3k4T29mYbOoS7ATNOfJYZQv+K9uPpu74ZhR9EVrXsC2V0+C4JI
-x0CRPMBfE9qz8JQI80+Omt4Y
-=CXO4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcuMosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LekQAMCudz5biYwoQqPvcL9/
+zUAngAaX2QLAPdo1OIrL6g+Ih45oTgAGzeVXHbYzYAnD0C8YwnelPF9zgNnIsnQD
+w58Fw7IwC9HvTcMYxjpOOXLHc2+xd4KMABM7FAJ6D4Kkv/t7hYloO5Xfv19JKjr1
+Slzqcc0mWOJ2UeWRKobdGYYsnLBcuH6Vy8eO5GydaQ0dRHSmwtGGMpCFRJ6jONFD
+lGbUeWXxCWEUR3fSdhexKBjKWnT1py6Xz4qxxa96tGTQ9M6UK/F67ClEjLeFfmQI
+qhuP6CYqP43t2bBGaOxG1Gmbr+UVFFQkDElfKcOgfJ2EB/bfbSjK1jvXdJCCjo24
+XkKkfBs2T/bqZnrWcYR+pqFYS3Wms9V1nj17DrINMoOL2Um2aHxPw2hjto7ttSpD
+xYYr5tAGRDEc7m5XWCdthAowu2ZnOXpgVnan1B/WxchfzT2E0NVMboyB9pTjVKHB
+/P2Qr6kMJxlE5Fa+0zUHCZX5X8OsStC0wkNZ5hioSBFsSjF7TPnXu9YEcNIQvyu0
+ZwPkXDwnot1m3UsAlz5foIBQqpAf86gCAb5pff55KOdkDGt25zqzDQftbDQwDJU2
+rQL6CXT/GNNMdZlIo9mEs/a9RXllKSc7ukoLSvY/kGwzW/RgPTzWieLKvrdP7uWq
+ec5HrmEuZYw2xq6gTbakgLgm
+=WgVN
 -----END PGP SIGNATURE-----
 
---===============0331605484088899641==--
+--===============6284217136714570513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65294bebd4ce-389c4245f549.txt
+
+ef5f5e7b6f73f79538892a8be3a3bee2342acc9f iio: invensense: fix multiple odr switch when FIFO is off
+fa4076314480bcb2bb32051027735b1cde07eea2 iio: backend: fix wrong pointer passed to IS_ERR()
+3a4187ec454e19903fd15f6e1825a4b84e59a4cd iio: adc: ad7923: Fix buffer overflow for tx_buf and ring_xfer
+c174b53e95adf2eece2afc56cd9798374919f99a ad7780: fix division by zero in ad7780_write_raw()
+62dd96ac9cdf2814f41cfc55ecaf22a28aad6ccb iio: adc: ad4000: fix reading unsigned data
+e2fb2f89faf87b681038475d093214f4cbe12ebb iio: gts: Fix uninitialized symbol 'ret'
+7452f8a0814bb73f739ee0dab60f099f3361b151 iio: gts: fix infinite loop for gain_to_scaletables()
+b7d2bc99b3bdc03fff9b416dd830632346d83530 iio: accel: kx022a: Fix raw read format
+bfa335f18d91c52fa0f8ba3e4d49afebbd9ee792 iio: accel: adxl380: fix raw sample read
+3993ca4add248f0f853f54f9273a7de850639f33 iio: Fix fwnode_handle in __fwnode_iio_channel_get_by_name()
+389c4245f5491e343b1dd07d65923ac372679037 Merge tag 'iio-fixes-for-6.12c' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+
+--===============6284217136714570513==--
