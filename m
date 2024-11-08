@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489323221431408237=="
+Content-Type: multipart/mixed; boundary="===============6111692703079874399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 08 Nov 2024 15:55:58 -0000
-Message-Id: <173108135848.2089297.8503114538594932421@gitolite.kernel.org>
+Date: Fri, 08 Nov 2024 15:57:07 -0000
+Message-Id: <173108142753.2089971.1906278840033576686@gitolite.kernel.org>
 
---===============5489323221431408237==
+--===============6111692703079874399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 65294bebd4ce532b822fb9de8e78df2e089525f3
-    new: 389c4245f5491e343b1dd07d65923ac372679037
-    log: revlist-65294bebd4ce-389c4245f549.txt
+  - ref: refs/heads/char-misc-testing
+    old: 389c4245f5491e343b1dd07d65923ac372679037
+    new: 7215ff51c53732f8725643edae84bd7867579fc6
+    log: |
+         8daf110a44e744664f5f4158ac5e1302ee0e2081 bus: mhi: host: Fix typos in the comments
+         23388a1b305e8aac714fafd5fdc72a580586bd0c bus: mhi: host: Switch trace_mhi_gen_tre fields to native endian
+         bd23e836423ea3968d539d4f0d5722a3a824b99e bus: mhi: host: pci_generic: Use pcim_iomap_region() to request and map MHI BAR
+         7215ff51c53732f8725643edae84bd7867579fc6 Merge tag 'mhi-for-v6.13' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
+         
 
---===============5489323221431408237==
+--===============6111692703079874399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731081370 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731081438 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1731081357-61a1de5e2b51b79b9392d8c14cec86c3e476e782
+nonce 1731081425-e7ef5adec7ca55464a3d923f81ac9204529cebe8
 
-65294bebd4ce532b822fb9de8e78df2e089525f3 389c4245f5491e343b1dd07d65923ac372679037 refs/heads/char-misc-next
+389c4245f5491e343b1dd07d65923ac372679037 7215ff51c53732f8725643edae84bd7867579fc6 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcuNJobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZQIQAJFIaIlp8JWs1936rdBJ
-QYSLPgRpvJNoCyMpwAoHP4lvDe7xTcRyBYj5Q95hUu5H0zj/svaknllnlDg7Q4Vq
-v/AQGY2FZc0lq2hJoQIQglUolaVr0cYCcaWw7MzAfnY3ugJadM8FjACnq2G9ZTZm
-Vunhal+VIZEgpnjt98vevYkAx8oeHirnf8Sg+fiS+8yurZ8a9E2YDjKeS/71T/Bd
-iFYDJv5VqFtc8fWjEkvsJPPzYunJRANijby6xrqw5oA6rw2CKF2iG5C79ncY48IO
-gZTYI3bwAl7vfYDSoqSfLwZ3sEvj2G/pmVYpBSfPNDEfXTfC0iW9OdfUW7WLGTvz
-9htrU+sIWh9WjRr5kTXvAi5sW/ZJbJEiEOUqOW6k8dRwKA/e6VwrppxgUNy1ievJ
-WeDNqlSZtUuvzRx4Ji4yQFFqYKeldH4HshHF9wlDXNos0+1QDtoNlukE8f2TthkN
-/CRV3QR2n1OCNkWDEX9zWqKy1ndUuxF4XVsCvoyTYthz+yRTvCJ0KJjeQYau8V4H
-u4he71gp/RAgWpXROC1zYAesB619UiYbFQjfJg2sAOZY8FB14ociPzc3PnU0uPr2
-+5+VpSXd8FggQLAjNVhJUjNi0XUTi/M23hwdgQus8d3VagxdSJNZZfKkSdO6ciMX
-NTh4yQo7lRnCq7T/rPTN86Vk
-=Q6tQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcuNN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0cQP/RUOVboHzSxRfwNi2QeZ
++ERGcXaLYLAKRKsljPABvc9vNs6jGvIVnDO1hw3q9J+rt4/BRu68plzWRu6UPzfk
+apjNDkX34dAQWB1EBQzgaS561NeBzvggRaRgQFGCG0W8tGhkDFXu5hdcc7r25d1G
+n/IEPGjTf1c8bM5SRZjeAEW91mZH+ymsvNy/XKtE3VZBc2tUJeSxrTxyio1goWNY
+Qqv1KZl3seZkbdGR/RJuBwkPRTrERsWZgYOLySorS7N4RSvsM4+tmckbyjfg4lPt
+mVGE7oL6wuImUsFqEIfo9N3E+mH94CBviyrgr7aRHzB5HcsqBBz0OJQBGDHzxbkf
+WKp0kfl1lpoqnwVHoXovxu1G+7GGtAt6AQZ3PRePEUaTYDAGDD+07tviKt2iQ9gU
+vHxzDUDrpGtoRhvP/Fd9LzqTpCyyhUsyog88PVRLLjMXmm4clqT/+5r6LwJHmMmM
+UrBzLM5caANqX1odVWUVyzJncoVjOFcYnuadFvVBLKdXA5O9QpZyUqXMSu4NtCZv
+vetnqfA8Zk+fhhqlHdoT21nLX/yOR7upPBNJ2vlGOPa10C5dbR/Qw5GyalA9iM2h
+lACwko2ynX22toBdu3IFAXT5SpWu/1kcASX0eG5SKbYDPtAbNxtKRoLx7DEAgSzX
+IscLLS8zTK+nUdgKx7Y2NOpl
+=u6hd
 -----END PGP SIGNATURE-----
 
---===============5489323221431408237==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65294bebd4ce-389c4245f549.txt
-
-ef5f5e7b6f73f79538892a8be3a3bee2342acc9f iio: invensense: fix multiple odr switch when FIFO is off
-fa4076314480bcb2bb32051027735b1cde07eea2 iio: backend: fix wrong pointer passed to IS_ERR()
-3a4187ec454e19903fd15f6e1825a4b84e59a4cd iio: adc: ad7923: Fix buffer overflow for tx_buf and ring_xfer
-c174b53e95adf2eece2afc56cd9798374919f99a ad7780: fix division by zero in ad7780_write_raw()
-62dd96ac9cdf2814f41cfc55ecaf22a28aad6ccb iio: adc: ad4000: fix reading unsigned data
-e2fb2f89faf87b681038475d093214f4cbe12ebb iio: gts: Fix uninitialized symbol 'ret'
-7452f8a0814bb73f739ee0dab60f099f3361b151 iio: gts: fix infinite loop for gain_to_scaletables()
-b7d2bc99b3bdc03fff9b416dd830632346d83530 iio: accel: kx022a: Fix raw read format
-bfa335f18d91c52fa0f8ba3e4d49afebbd9ee792 iio: accel: adxl380: fix raw sample read
-3993ca4add248f0f853f54f9273a7de850639f33 iio: Fix fwnode_handle in __fwnode_iio_channel_get_by_name()
-389c4245f5491e343b1dd07d65923ac372679037 Merge tag 'iio-fixes-for-6.12c' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-
---===============5489323221431408237==--
+--===============6111692703079874399==--
