@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6042095330444235331=="
+Content-Type: multipart/mixed; boundary="===============3215812861590209163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Nov 2024 19:07:34 -0000
-Message-Id: <173109285493.2246661.12033224288953224917@gitolite.kernel.org>
+Date: Fri, 08 Nov 2024 19:07:37 -0000
+Message-Id: <173109285756.2246760.11252871066252223528@gitolite.kernel.org>
 
---===============6042095330444235331==
+--===============3215812861590209163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a84e8c05f58305dfa808bc5465c5175c29d7c9b6
     new: 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba
     log: revlist-a84e8c05f583-4861333b4217.txt
 
---===============6042095330444235331==
+--===============3215812861590209163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -474,4 +474,4 @@ a852e3c356415f61d9329cb3a1a4c90c74570522 netlink: specs: Add a spec for FIB rule
 4592de83a4aa5562d9e8c4626a23587598a5ec96 Merge branch 'netlink-specs-add-neigh-and-rule-ynl-specs'
 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba bonding: add ESP offload features when slaves support
 
---===============6042095330444235331==--
+--===============3215812861590209163==--
