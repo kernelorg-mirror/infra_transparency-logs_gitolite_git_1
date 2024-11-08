@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7103210705276031267=="
+Content-Type: multipart/mixed; boundary="===============4298324871598839351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 08 Nov 2024 04:48:37 -0000
-Message-Id: <173104131762.1416184.3862475705738880151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 08 Nov 2024 04:48:54 -0000
+Message-Id: <173104133448.1416463.9160749274853352770@gitolite.kernel.org>
 
---===============7103210705276031267==
+--===============4298324871598839351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: bcc7ba668818dcadd2f1db66b39ed860a63ecf97
-    new: 3791ea69a4858b81e0277f695ca40f5aae40f312
+  - ref: refs/heads/usb-next
+    old: 474538b8dd1cd9c666e56cfe8ef60fbb0fb513f4
+    new: 226ff2e681d006eada59a9693aa1976d4c15a7d4
     log: |
-         785cbc8b790687859452513acd08964e69795afc tty: atmel_serial: Use devm_platform_ioremap_resource()
-         945def49197d0131d037c7bfaec496e864e6f86e tty: atmel_serial: Fix typo retreives to retrieves
-         3791ea69a4858b81e0277f695ca40f5aae40f312 serial: sh-sci: Clean sci_ports[0] after at earlycon exit
+         226ff2e681d006eada59a9693aa1976d4c15a7d4 usb: typec: ucsi: Convert connector specific commands to bitmaps
          
 
---===============7103210705276031267==
+--===============4298324871598839351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731041329 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1731041316-db89081d66adf3fcc55752b3d854033d8ce2fe64
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731041346 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1731041333-2ae70eefcec9aca5e808a72eaf145a809def743f
 
-bcc7ba668818dcadd2f1db66b39ed860a63ecf97 3791ea69a4858b81e0277f695ca40f5aae40f312 refs/heads/tty-next
+474538b8dd1cd9c666e56cfe8ef60fbb0fb513f4 226ff2e681d006eada59a9693aa1976d4c15a7d4 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmctmDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+udwQAMzLURhNuusC4ypnSaVg
-ApflHw01vR1JRhLjmMZF0PvJzro0J1VeC1TF4Czybiv5ctkGakJDHohaTsgYvuyx
-s7GguH6BgpT4DCQB8e7XAmMvBtB7U6SpfURzcNJ4WwYfpRaWqPqGP6GxL4g5iS8d
-kVlihKwrMO5v4TLOhZJRhnYiUCPdjIy0J5ysaUDsBdxDu6q19zucmcMhWcgq7ffi
-0WSJiAVbJwBBgbXOpoYqxvYT0LraxLBhxaaK4T53GXA/ACEOyx+eZddMmyGGbWal
-rPPfH2VbDkbOgv3SEl636FCRS/6eDOq9OKLdPvyVDY3m2J+aav4TvEaYHO67lvIW
-vPooPutdqCJ4xvo4an78br4lID234Vno6KK6ZqhBWlf6YBERpR/EWb20LGAfHtOv
-09FDO9DDM1LR7bjLJMMdSTp/AXDMLvK2uJMu4yPDzIkmkfB/e6XzosQ9hrvdHZnH
-srT8RROphkvY0vLPq6zLfP2ZIxASuP2f8MjXiUlDTPekwgW8R0+jCfTJ0eDRy8TD
-F5RiPuAtBMIJamOljp1mYL4TmUlMMy4mq97xGUi3Y6qa++9hIxqTB1CieSnfAR/5
-RZ09KKLjwW58EoDYh7rRqJoSqcdF2QQappjK91UVmzsXT+ufF3AB/ufwT0EE3aLp
-kob2rEFCHupuvZ3kIwB340m2
-=Lqlv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmctmEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bXMP+wchMRURcTuulbM/OWYL
+VWn8ijXbwidTo4/kIjvjUHTocJlYDfNTsUEo5kBfQpd3suMYmxD8uTK6gLxGyXd2
+oQNDP2W140fgfpA5oN+WFNt5MC1idNjPnVqnEyumPvNdRYs9zLe1PXGVBfeIaB6j
+qY/SPlQXIqQUGqQ8nTeCEHzLa948AaPlCYKZokwDhTxm2hVzYJTDzNKXG4XDm9mr
+TljoALc2JDozRYnsJlrv69f60P5ufzHVrJVSkWjUijz1NN4+QuM6Ns22RiSNhf7+
+rXTv1VCXB/4IwSfuXerPbYEvAd5uyAbe7NMT+/+TOvpJBLQA0FBEDpIDGoWpUhNb
+uYwR6ydyjqSDDnWKQTmSVAvCCi2Cp5+z7IWbUJ//ARJDmU9+R/5R8LjgSZZMiV/t
+4yexygdzayVPQ9YoWumBaklqSvqsFvcNmL/0LyObz80hCqC7XJkpbSDz1pE+ot+S
+hQQN5dwyYONZ0uARDfYnQXDwlKcGoxzEAGHQ77eypHatp1B/JMDkBAVsDIFT4qEf
+O8bO4y93y4gDrqEGn318YZyYNAaCs75wFY/jk9XyRcqGML6fnaK8IMtEJ77Mihay
+oVcrBs0LmmPjHiW3zuW9tod/KhyP6R9tq8heQ+dOknI7UekNhD7O1wuy8lLJ6ZCa
+Lk2/wvc5k3Ho/pH8nvUIXpOT
+=4CBR
 -----END PGP SIGNATURE-----
 
---===============7103210705276031267==--
+--===============4298324871598839351==--
