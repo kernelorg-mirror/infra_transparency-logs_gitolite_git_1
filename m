@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7145297804878127567=="
+Content-Type: multipart/mixed; boundary="===============3737729105823334737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Nov 2024 19:07:22 -0000
-Message-Id: <173109284298.2246293.2072776903084673150@gitolite.kernel.org>
+Date: Fri, 08 Nov 2024 19:07:32 -0000
+Message-Id: <173109285231.2246489.13370374622342256493@gitolite.kernel.org>
 
---===============7145297804878127567==
+--===============3737729105823334737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8a4124a1211ccbb1ff0f707bcf5ae3459ace5cd8
-    new: 6929a046f4b135b6f3b5bc09ca98d9cea5fe5d7a
-    log: revlist-8a4124a1211c-6929a046f4b1.txt
+  - ref: refs/heads/1GbE
+    old: a84e8c05f58305dfa808bc5465c5175c29d7c9b6
+    new: 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba
+    log: revlist-a84e8c05f583-4861333b4217.txt
 
---===============7145297804878127567==
+--===============3737729105823334737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a4124a1211c-6929a046f4b1.txt
+Content-Disposition: attachment; filename=revlist-a84e8c05f583-4861333b4217.txt
 
 d92e9ea2f0f918d7b01cbacb838288bffccc8954 arm64: dts: qcom: msm8939: revert use of APCS mbox for RPM
 2f39bba3b4f037d6c3c9174eed5befcef1c79abb arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
@@ -63,7 +63,11 @@ e9e1b20fae7de06ba36dd3f8dba858157bad233d thunderbolt: Fix KASAN reported stack o
 d35f40642904b017d1301340734b91aef69d1c0c dmaengine: ti: k3-udma: Set EOP for all TRs in cyclic BCDMA transfer
 80fe25fcc605209b707583e3337e3cd40b7ed0bf arm64: dts: qcom: x1e80100: Add Broadcast_AND region in LLCC block
 5d3d966400d0a094359009147d742b3926a2ea53 arm64: dts: qcom: sm8450 fix PIPE clock specification for pcie1
+6c959fd5e17387201dba3619b2e6af213939a0a7 netfilter: Make legacy configs user selectable
 fed13a5478680614ba97fc87e71f16e2e197912e dm: fix a crash if blk_alloc_disk fails
+0741f55593547d7f25ec003b355a21d6d5fef01e netfilter: nf_tables: Fix percpu address space issues in nf_tables_api.c
+544dded8cb6317c2d3ecf4bba8412e616e70bb86 netfilter: nf_tables: replace deprecated strncpy with strscpy_pad
+08e52cccae11a4148a5810f0bd5614796994d221 netfilter: nf_tables: prefer nft_trans_elem_alloc helper
 eed2d8e8d0051a6551e4dffba99e16eb88c676ac arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
 409dc5196d5b6eb67468a06bf4d2d07d7225a67b arm64: dts: imx8ulp: correct the flexspi compatible string
 d7425f3cfada8c4a3bc72bdd203c4fec7f77b7a6 arm64: dts: imx8: Fix lvds0 device tree
@@ -387,6 +391,13 @@ df3dff8ab6d79edc942464999d06fbaedf8cdd18 net: hns3: fix kernel crash when uninst
 de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi queue Rx on J7
 ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
+9adbb4198bf6cf3634032871118a7052aeaa573f netfilter: nf_tables: avoid false-positive lockdep splat on rule deletion
+8f5f3786dba765099f12da00e6be0c26f69f2fbd netfilter: nf_tables: avoid false-positive lockdep splats with sets
+b3e8f29d6b45e865bab9a9964709ff7413e33e85 netfilter: nf_tables: avoid false-positive lockdep splats with flowtables
+28b7a6b84c0aea37c5f796e14b479f1e8dbeba12 netfilter: nf_tables: avoid false-positive lockdep splats in set walker
+3567146b94afcd69d4916c880eb5b1b0e3797397 netfilter: nf_tables: avoid false-positive lockdep splats with basechain hook
+ee666a541ed957937454d50afa4757924508cd74 netfilter: nf_tables: must hold rcu read lock while iterating expression type list
+cddc04275f95ca3b18da5c0fb111705ac173af89 netfilter: nf_tables: must hold rcu read lock while iterating object type list
 256748d5480bb3c4b731236c6d6fc86a8e2815d8 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
 cfbbd4859882a5469f6f4945937a074ee78c4b46 mptcp: no admin perm to list endpoints
 99635c91fb8b860a6404b9bc8b769df7bdaa2ae3 mptcp: use sock_kfree_s instead of kfree
@@ -399,17 +410,49 @@ b226d019836fbab759be8f62818851ee5cb0d9de Merge tag 'platform-drivers-x86-v6.12-4
 7758b206117dab9894f0bcb8333f8e4731c5065a Merge tag 'tracefs-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 f43b15692129904ccc064180fa2dd796ba3843a5 Merge tag 'keys-next-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2 Merge tag 'nfs-for-6.12-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
+eb02688c5c45c3e7af7e71f036a7144f5639cbfe ipv6: release nexthop on device removal
+52ed077aa6336dbef83a2d6d21c52d1706fb7f16 selftests: net: really check for bg process completion
+3545f9b72f3e0edc43cd807a5c987656ca0a22aa Merge branch 'ipv6-fix-hangup-on-device-removal'
+1e4033b53db48cc77c436feac9c6d7d63db87b87 net: skb_reset_mac_len() must check if mac_header was set
+cfe8394e06f22847ecae0312bdd0b633b471b3f0 net: add debug check in skb_reset_inner_transport_header()
+1732e4bedb3e29986da6ea315e8bf8caf74e1e38 net: add debug check in skb_reset_inner_network_header()
+78a0cb2f45dc9327f26956c242f7f4b450efff49 net: add debug check in skb_reset_inner_mac_header()
+ae50ea52bdd77eabd8f3c4630c1b03c3373f61a5 net: add debug check in skb_reset_transport_header()
+305ae87dafc1a9f35374a783119d9e6001d1b8e0 net: add debug check in skb_reset_network_header()
+3b6167e9bfc9eae4edad065c166c667f9a8e693a net: add debug check in skb_reset_mac_header()
+c1ddfdbee36952b4e494bd372b35f8a13106dbc1 Merge branch 'net-add-debug-checks-to-skb_reset_xxx_header'
+516a5f11eb97c68b4a5e8b3dc20ced1763b9e941 net: phy: respect cached advertising when re-enabling EEE
+4f19c824025a0a541c0c43417088134d27f6fe5a net: enetc: Fix spelling mistake "referencce" -> "reference"
+050eb2cebb9e97adb673550c51988c3de1eb0834 bnxt_en: ethtool: Remove ip4/ip6 ntuple support for IPPROTO_RAW
+5f143efd3804a85d6a17cabc225effd89d017076 bnxt_en: ethtool: Support unset l4proto on ip4/ip6 ntuple rules
+720d33143276d19b758e1656d0f948ced8c9b9d8 Merge branch 'bnxt_en-ethtool-improve-wildcard-l4proto-on-ip4-ip6-ntuple-rules'
+4069dcb7da9569cd2e7370bdf70a271acc5e812d net: bnx2x: use ethtool string helpers
+4ea3e221907aeee77c2f92953045121ddc9f5660 net: hisilicon: hns3: use ethtool string helpers
+fda960354eac34ad0f97991da663e719ad2c93be net: broadcom: use ethtool string helpers
+2246f5b2e982df38dd9cd61059e3fe509e022357 net: ucc_geth: use devm for kmemdup
+edf0e374e446fe9b77098b701be0d56b8c781c51 net: ucc_geth: use devm for alloc_etherdev
+85d05befbbfc949e7ebb4ac52023f18ad3fe693f net: ucc_geth: use devm for register_netdev
+2575897640328d218e4451d2c6f2741ae894ed27 net: ucc_geth: fix usage with NVMEM MAC address
+dc7c381bb8649e3701ed64f6c3e55316675904d7 Merge branch 'net-ucc_geth-devm-cleanups'
 1f26339b2ed63d1e8e18a18674fb73a392f3660e net: vertexcom: mse102x: Fix possible double free of TX skb
 25d70702142ac2115e75e01a0a985c6ea1d78033 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+9907cda95fcbf44141b1292faab89cf8ec542f22 net: nfc: Propagate ISO14443 type A target ATS to userspace via netlink
+90c940ff1f74685c338b34a968869b97cee1cec8 eth: fbnic: Add support to write TCE TCAM entries
 c03d278fdf35e73dd0ec543b9b556876b9d9a8dc netfilter: nf_tables: wait for rcu grace period on net_device removal
 86a48a00efdf61197b6658e52c6140463eb313dc virtio_net: Support dynamic rss indirection table size
 3f7d9c1964fcd16d02a8a9d4fd6f6cb60c4cc530 virtio_net: Add hash_key_length check
 dc749b7b06082ccaacc602e724445da19cd03e9f virtio_net: Sync rss config to device when virtnet_probe
 50bfcaedd78e53135ec0504302269b3b65bf1eff virtio_net: Update rss when set queue
 5d182f711ecc80b085f73c7bdd49fc65c886ac69 Merge branch 'virtio_net-make-rss-interact-properly-with-queue-number'
+17bcfe66376cdf7e2c4fa839706fa40670f29bfb Merge tag 'nf-next-24-11-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+495e7c8e9601245738a6ab53c992cc5aa0b13cb4 wwan: core: Add WWAN ADB and MIPC port type
+61329a1152dd1f1c7ea75f6a8fb815f63a4440ad net: wwan: t7xx: Add debug ports
+238f2ca1e61fe5a2d979e25fd95b3ee26dcc1618 net: wwan: t7xx: Unify documentation column width
+2a6f99ee1a805881c054c113f96cbebc0480cd2f Merge branch 'net-wwan-t7xx-add-t7xx-debug-ports'
 71803c1dfa29e0d13b99e48fda11107cc8caebc7 net: arc: fix the device for dma_map_single/dma_unmap_single
 0a1c7a7b0adbf595ce7f218609db53749e966573 net: arc: rockchip: fix emac mdio node support
 5f897f30f596053499782f5f3c597ea285997765 Merge branch 'fix-the-arc-emac-driver'
+702c290a1cb16f4a64567cae0bedb848399f7915 sctp: Avoid enqueuing addr events redundantly
 013d2c5c6b18db7cc5c8bd7348081ccce7302f30 Merge tag 'nf-24-11-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 84b9749a3a704dcc824a88aa8267247c801d51e4 proc/softirqs: replace seq_printf with seq_put_decimal_ull_width
 80fb25341631b75f57b84f99cc35b95ca2aad329 Merge tag 'pwm/for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
@@ -430,83 +473,5 @@ bc515ed06652b506794f323b9e53d89c01de7e4a netlink: specs: Add a spec for neighbor
 a852e3c356415f61d9329cb3a1a4c90c74570522 netlink: specs: Add a spec for FIB rule management
 4592de83a4aa5562d9e8c4626a23587598a5ec96 Merge branch 'netlink-specs-add-neigh-and-rule-ynl-specs'
 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba bonding: add ESP offload features when slaves support
-76882423c9677a57502821141b93f2f313420837 ice: fix BST key index in ice_bst_key_init()
-e4a97d889fc3a9c59ee2c551e4134b8a6f4dc917 iavf: allow changing VLAN state without calling PF
-111831d099463383df491b659698ce38d0d10261 ice: initialize pf->supported_rxdids immediately after loading DDP
-1a080c8ad776565dbb2ac43c85dc421650d3298e ice: use stack variable for virtchnl_supported_rxdids
-f132f1157fad4b762a7670f34df11347ee0f6df9 ice: Add E830 checksum offload support
-37eece84fe65e09b2a86c09630cf14a3692f5576 igbvf: remove unused spinlock
-e9d789f540e852442ad269db61c9776a9a7b747a ice: Don't check device type when checking GNSS presence
-711c5825fcb882d1c1bcf7bcad8cd4eeb36afc0d ice: Remove unncecessary ice_is_e8xx() functions
-a2a812dfc51eeaca8835f8f6409e579c921b7ace ice: Use FIELD_PREP for timestamp values
-e1e8c4f0c01908665966bc12a7fdf383893c2689 ice: Process TSYN IRQ in a separate function
-82e82d1b382f39c7d2639ac3abf61a7eadbdfdab ice: Add unified ice_capture_crosststamp
-261983ca769800ab17e19b1d9b49243f8eeb279b ice: Refactor ice_ptp_init_tx_*
-009526f2b7f77002ea391f183a1128457f02cf87 ice: Implement PTP support for E830 devices
-772d7f7aab733a7cb3025e02d2916778a0f0fbfa checkpatch: don't complain on _Generic() use
-a827aad826e04bd6062f3cd12355c0fcbe2612cc devlink: add devlink_fmsg_put() macro
-e86571439a34e7d308eb5ab6e759d868f33032fb devlink: add devlink_fmsg_dump_skb() function
-f277e7905b96fabd56f86af7a92138e49b77857f ice: rename devlink_port.[ch] to port.[ch]
-1ded8a864ff49b115a22583c8cb78e7f4ecd148b ice: add Tx hang devlink health reporter
-33005488ce9ee3492112138ad8ff75bccf918c32 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-70e0b1aab4da36fe18446dc0ba039db564068f77 ice: Add MDD logging via devlink health
-7ac4e3ec02823e43cd50f3cb6cef8a29f031e08b ice: rework of dump serdes equalizer values feature
-1363948a80cd7751f3b2a229ab3e2943a7693841 ice: extend dump serdes equalizer values feature
-2e05644c07020994f99cdb1003c049ce14290f13 igc: remove autoneg parameter from igc_mac_info
-6748f9bb9f33a0a520085bd448379974b6695294 ice: c827: move wait for FW to ice_init_hw()
-301b4211e19de090d966a613adafd3320893b709 ice: split ice_init_hw() out from ice_init_dev()
-2356fab75c7aaa321e619aa1a2a8c296595eb47a ice: minor: rename goto labels from err to unroll
-a4abe688b53144600c7a558e75514bf99a07298f ice: ice_probe: init ice_adapter after HW init
-1820baeca0d74b469340f408e575854a0da60bf1 idpf: set completion tag for "empty" bufs associated with a packet
-93b326c188ca77ab3822c7324c588b5c55b20063 ice: Unbind the workqueue
-61c09f51dbcfdf0babd8f3d55c6ddd114e27346b ice: fix PHY Clock Recovery availability check
-7416463e3aedef1e2273f1476419fd66f45279f1 ice: add recipe priority check in search
-cacfe7913156f5a2907b220b1f647b615c201be7 ice: only allow Tx promiscuous for multicast
-e86eb914731ab50d354f75336cc103701de52f0f ixgbe: Add support for E610 FW Admin Command Interface
-3c601d698fbdf7581bbcb4e5e2a97e73dfbeac02 ixgbe: Add support for E610 device capabilities detection
-3ba4569447e10ad55123397d615e04c5bd04aaff ixgbe: Add link management support for E610 device
-cf75b51505b300a8851b2f3c20cd38589b7140b2 ixgbe: Add support for NVM handling in E610 device
-d575a4a495dbaff8cffedf9f697f8afde4c1f4fd ixgbe: Add ixgbe_x540 multiple header inclusion protection
-5ee909be5950f59d6826d3c7af409cd4f7503911 ixgbe: Clean up the E610 link management related code
-042e02f749b2135b80c8f14caf3d3bd5dee4dc6d ixgbe: Enable link management in E610 device
-cf9bf834dedefa6093734e5df8ee5f3c3a237ece ixgbe: Break include dependency cycle
-ed8cb01806eb98a1bc58a365523e64c57502a776 PCI: Add PCI_VDEVICE_SUB helper macro
-3ae804c39f2657c33e28920ad315be090bcb1c53 ixgbevf: Add support for Intel(R) E610 device
-03c546d1c26de8912d4c92c2b43f1bbd789f7e62 igb: Remove static qualifiers
-eabb263339dda517b3ed2663fa8edddc6e951842 igb: Introduce igb_xdp_is_enabled()
-970ca2e70969313b48cf1bf7c43c03226152ab86 igb: Introduce XSK data structures and helpers
-5a5b8be176a7bbe5cc9321b3c1c68a5c4eb34066 igb: Add XDP finalize and stats update functions
-b014d22fe04dc30962a3085a372b170bfd77f212 igb: Add AF_XDP zero-copy Rx support
-b2431b180db76ceba59ce68e96f262cf2949a0b4 igb: Add AF_XDP zero-copy Tx support
-dfe115f28b55e5d7d04d79f59ca2093311e4a9db ice: refactor "last" segment of DDP pkg
-74f4342a765e9fcc0c3b1ad667367c3f2865aa94 ice: support optional flags in signature segment header
-b7a05ce861186997696c4ee081d1506207022528 ice: Add support for persistent NAPI config
-d365e92b3ed900dbf0c96bd64d7ad7965244ac58 igb: Fix 2 typos in comments in igb_main.c
-dacad13627e9c23e04ab235fadb607a77eccd604 pldmfw: selected component update
-cc4726899ebfc19d93134fc78d88b3f4760c5853 devlink: add devl guard
-d594c1afe3c2bdfde13bc2c6e11a30a143abdc25 ice: support FW Recovery Mode
-15584921ef65fb456bc18a93558b145be3f9c65e igb: Fix potential invalid memory access in igb_init_module()
-c9dc6a53d83c9cb49e74deb08fb1d72cd2b27efb e1000: Hold RTNL when e1000_down can be called
-51890c06831a5bfe1bdfe65b202fb76e5c16fbaf igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
-97883cfe00db49e9812b3146c10ef52c858019cc igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
-4967be92934e38b680b637c5e9d19b1de9b97366 ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
-d6b640233f2666af3d1478de8f2bfc0ea8d3d456 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
-f7aed26683c60da590dac048184056c5ea294d24 ice: use string choice helpers
-b1b4bee8e3cdd221b347c029610e1f67338dac83 ice: Fix NULL pointer dereference in switchdev
-77376305e2245068faf6e3f44dc26949c6ce4fe5 igc: Link IRQs to NAPI instances
-65dfb19ea95ba7227dc137b6c1dfa7b02f4d23f3 igc: Link queues to NAPI instances
-371449bd5569d01613643ca13b2e13c42a8a1353 i40e: Fix handling changed priv flags
-1392154477b758a3070f6e89bd6f8e0bb349e7c7 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
-6e9be4b26b81aaec05eaa92a1bad40ec8cd9417a ixgbe: downgrade logging of unsupported VF API version to debug
-7656d3a148b849d127be7984813b0c0a77f48ec4 ice: Fix VLAN pruning in switchdev mode
-feb1ba933d089350605799685eb16c38a5d6955c ice: count combined queues using Rx/Tx count
-f6319f3e0f6b3da9906d1194c3e74ac3470343a8 ice: devlink PF MSI-X max and min parameter
-94e1308658ba1590493f2b6b1ab95dfbf4c1cf61 ice: remove splitting MSI-X between features
-ab0f18631f2c3b18700ce844b1992548518adf26 ice: get rid of num_lan_msix field
-192ee7f5611fd419a8d7f2d4b9839ddd6d47fdee ice, irdma: move interrupts code to irdma
-228fa08790797ea21f37e1b79e6ca11f7e217e6f ice: treat dyn_allowed only as suggestion
-29550e718c648b4cde877b4ab7b45bd04e568e83 ice: enable_rdma devlink param
-afd44fda3a4e93a0abc78f06f8e8387c0db89d3f ice: simplify VF MSI-X managing
-6929a046f4b135b6f3b5bc09ca98d9cea5fe5d7a ice: init flow director before RDMA
 
---===============7145297804878127567==--
+--===============3737729105823334737==--
