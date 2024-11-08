@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 08 Nov 2024 19:11:49 -0000
-Message-Id: <173109310957.2250657.13738593817411198934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 08 Nov 2024 19:15:16 -0000
+Message-Id: <173109331637.2264513.10973365227197184329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 0351950bb8213297af5df9c503242886119127a0
-    new: 674e39b498e28c8bf87bd522ad0e20b52d25ebc1
+  - ref: refs/tags/scsi-fixes
+    old: 57e21c109af8e9c702bda90d316eb190d6682843
+    new: d3e8a52e007e7c73d8b3f0c25ecf77e4a891158a
     log: |
-         ef0b9d46b1fd5c1894f1033c1181ed9aab8a49db media: dt-bindings: renesas,rzg2l-cru: Document Renesas RZ/G2UL CRU block
-         7c75be6e1cdb4efa560b6383b325d79da029a03a media: dt-bindings: renesas,rzg2l-csi2: Document Renesas RZ/G2UL CSI-2 block
-         a6acd00834b367787ec568c685d4dcc46c68d97b arm64: dts: renesas: r9a07g043u: Add CSI and CRU nodes
-         7843a32619fdeb42913782ae4c99bebd4059dcf8 arm64: dts: renesas: rzg2ul-smarc: Enable CRU, CSI support
-         674e39b498e28c8bf87bd522ad0e20b52d25ebc1 arm64: dts: renesas: rzg2lc-smarc: Enable CRU, CSI support
+         7ce3e6107103214d354a16729a472f588be60572 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+         54c814c8b23bc7617be3d46abdb896937695dbfa scsi: ufs: core: Start the RTC update work later
          
