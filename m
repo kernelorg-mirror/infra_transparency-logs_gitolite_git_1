@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 08 Nov 2024 14:57:29 -0000
-Message-Id: <173107784979.1898159.16192390861573409293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 08 Nov 2024 14:59:04 -0000
+Message-Id: <173107794406.1898862.14468886697548802065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/statmount
-    old: 7124dc3210cb28fdfb2c282cf4d2b5f089f0782d
-    new: 4cf233ab3348b1a925e2738c47007cf91f51d6d0
+  - ref: refs/heads/for-next
+    old: a16cc827a39ab0c71194b2307d01dacfe6741642
+    new: 15aecf2ab26773cb39217348bebe5520b0724d85
     log: |
-         f7eeaff7cf044cddb4d977efa634c02663da432d fs: allow statmount to fetch the subtype and devname
-         5a4aa71009d0bac698f5fc1f017d974682968f66 fs: add the ability for statmount() to report the fs_subtype
-         4cf233ab3348b1a925e2738c47007cf91f51d6d0 fs: add the ability for statmount() to report the mnt_devname
+         5ed918c3ab70faeb7b41acc2b29e3ad2ef48e1c6 Merge ftrace/for-next
+         0a45ebf82d2bc729980a076aee3eeb87b6facfbb Merge probes/for-next
+         a4f112c4dfeb90ec31fe259fe9d6875812fb56d0 Merge ring-buffer/for-next
+         15aecf2ab26773cb39217348bebe5520b0724d85 Merge tools/for-next
          
