@@ -1,56 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============1290590022471614023=="
+Content-Type: multipart/mixed; boundary="===============3821908204121624592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/patches
-Date: Fri, 08 Nov 2024 04:15:26 -0000
-Message-Id: <173103932665.1344357.16885007040137789235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 08 Nov 2024 04:16:14 -0000
+Message-Id: <173103937437.1344809.15307022942891865285@gitolite.kernel.org>
 
---===============1290590022471614023==
+--===============3821908204121624592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/patches
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b4aaac55c7c57c1ed5b8faf9cd56425d863a7141
-    new: 2889759315c1a7a867496fd5cd642c8678917171
-    log: |
-         2889759315c1a7a867496fd5cd642c8678917171 misc guards patch
-         
+    old: ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2
+    new: 906bd684e4b1e517dd424a354744c5b0aebef8af
+    log: revlist-ff7afaeca1a1-906bd684e4b1.txt
 
---===============1290590022471614023==
+--===============3821908204121624592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731039352 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/patches.git
-nonce 1731039323-24e602cb48bb849c57f73fd221db2ac7b773dedb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731039401 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1731039371-c131f611cdd303d560addf983edce6340f6e147d
 
-b4aaac55c7c57c1ed5b8faf9cd56425d863a7141 2889759315c1a7a867496fd5cd642c8678917171 refs/heads/master
+ff7afaeca1a15fbeaa2c4795ee806c0667bd77b2 906bd684e4b1e517dd424a354744c5b0aebef8af refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmctkHgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3NEP/1xaf1COj82/4QYoUk7/
-IwHqwq4RYgweh0xvBHqL1OQ1lnDxBMBemGM+hlFPxLqz34BHzOo2uNwRpN5KDWV/
-AjTrjzh+/BmYCrYaItIR43wylSR3KsqgW419/4404cmDSkDcsK/P3moPM7dNt0yq
-j3tIAF36cciPQLWqF1yXOiEeIGYRbb6OIT55ObUfrQujhPFxgL6Etg+rxEEaItUS
-u71digkvPW+acfZ4OiOA8Xf7h8kUT/tB2RTv5X56zu2PmNaodz3iMPI5tVr7HZWm
-2rwwzuQIoypRqoIPiMTPKK6Wg7VSW1UER7Fwh1jS5SdF4upe1FiS0n2OLw3TyRZe
-4Xl5rXXvSS3PKHCJHtPOuZc1MV0e1bNcitSwvCzmuEUk8okr+AfHc7m82aXL7ZhR
-ODOft8N9lzROsmhhwhU3rzc4INXG30DWib/oaYYGbTMp6tXhIAkqzvbOS5JFBWbi
-itHLOJjbcH0UpmgNSuM6grYm7HucfFUskNFnY3UdG1/T1E0hLDqe+izaRrP25WNF
-MgxGcOOW6NEbOn+GgsA/K+xZ0J3MgW0FJqlwlNwhJEPnuvLvxTpIx7EVeep7Oeht
-+rO/bafNMvrIUjcKXik+3iwFbuHOnJuSiqsiqA/wUVLqMdsEbQ7ITDbuvgOCraZ1
-57n7xUZUnP47xEJH5GHv228v
-=L0tC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmctkKkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vKwQAJzKGXd8MKekDjxi+Kd5
+z+zfmfJYdfgkkm9RLepBDlSS8DnW9eT4XQ0M9dBbd26mRT8OmbM5qf3J6eDCqOcD
+VL2asTHqlaOqnDBTOAZ57Eru0QmDRUD78U/mDx95fsHYoKvRoAO7uA0beqFjfbEl
+g15qX63+NzSHTJ8m3aT0CcoxksHRmKeu88RGV1Y4FGncYyBJWtZUPCXyMMQ6Ya6e
+7LpB8fH3lKTYnwLs3NrqX6OY7QmWALmyPJHRtA+K2/Z2yNydiu69c3CH4TgiLhUv
+0Th1RUPPIobO+YWFbOLgJsTuzxFFCKbTXAPMMMMiGWorfs3YFVZfaNSAdNt32BPc
+0c8E/dQT0lJPE4FO2TzX0dJNgGJjMkH6tznko7IDfa1blZd2K2bQMsciS+uBpdTW
+UfVnondZd9cW+U7j0eID8VvTf7Bhzp7KNkR23mRvCE6sev4G92L/WD762au1hTDP
+j/fBumxCsgV/B1cO5U5LkdRIXuRCLzsPhk1KexDQ0qrmIZm3n0hTyij6PdK2Yxqa
+vQMDsnfZFazX/Q0l5wp8eCMENU2xDsBZMeiKdLza1R52cBTuaHn4eoyQApvK8GC2
+4d2kWmlZqggGMt9MT8EDn6ovPlKtibE0x9yKAXxAvOOUh1MAVD6oI5cZcjN++Ypp
+spscr5Iph/OF6N+1IKc/yW83
+=U556
 -----END PGP SIGNATURE-----
 
---===============1290590022471614023==--
+--===============3821908204121624592==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ff7afaeca1a1-906bd684e4b1.txt
+
+cc6a931d1f3b412263d515fd93b21fc0ca5147fe pwm: imx-tpm: Use correct MODULO value for EPWM mode
+517fb4d77c44c7519ae6937329c496894461f416 MAINTAINERS: add self as reviewer for AXI PWM GENERATOR
+2feb023110843acce790e9089e72e9a9503d9fa5 regulator: rtq2208: Fix uninitialized use of regulator_config
+badccd49b93bb945bf4e5cc8707db67cdc5e27e5 net: enetc: set MAC address to the VF net_device
+0144c06c5890d1ad0eea65df074cffaf4eea5a3c net: dpaa_eth: print FD status in CPU endianness in dpaa_eth_fd tracepoint
+5e53e4a66bc7430dd2d11c18a86410e3a38d2940 regulator: rk808: Add apply_bit for BUCK3 on RK809
+b2183187c5fd30659b9caccb92f7e5e680301769 dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
+3b557be89fc688dbd9ccf704a70f7600a094f13a net: wwan: t7xx: Fix off-by-one error in t7xx_dpmaif_rx_buf_alloc()
+0ead60804b64f5bd6999eec88e503c6a1a242d41 sctp: properly validate chunk size in sctp_sf_ootb()
+e15c5506dd39885cd047f811a64240e2e8ab401b net: enetc: allocate vf_state during PF probes
+be31ec5c8efa69f4970e4554c1b760ac8ea3e543 MAINTAINERS: Remove self from DSA entry
+5ccdcdf186aec6b9111845fd37e1757e9b413e2f net: xilinx: axienet: Enqueue Tx packets in dql before dmaengine starts
+ebdcba2126a817da4efc085c9d4dce0c51942eba MAINTAINERS: update AMD SPI maintainer
+b6ec62e01aa4229bc9d3861d1073806767ea7838 can: j1939: fix error in J1939 documentation.
+7b22846f8af5ab2f267de9eb209fb1835ee9978c can: {cc770,sja1000}_isa: allow building on x86_64
+e4de81f9e134c78ff7c75a00e43bd819643530d0 can: m_can: m_can_close(): don't call free_irq() for IRQ-less devices
+4d6d26537940f3b3e17138987ed9e4a334780bf7 can: c_can: fix {rx,tx}_errors statistics
+4384b8b6ec4643aa73487bd1dc458e236c320564 can: rockchip_canfd: CAN_ROCKCHIP_CANFD should depend on ARCH_ROCKCHIP
+51e102ec23b25e6ca45ed45c3b9be42cb48d63dd can: rockchip_canfd: Drop obsolete dependency on COMPILE_TEST
+eb9a839b3d8a989be5970035a5cf29bcd6ffd24d can: mcp251xfd: mcp251xfd_ring_alloc(): fix coalescing configuration when switching CAN modes
+3c1c18551e6ac1b988d0a05c5650e3f6c95a1b8a can: mcp251xfd: mcp251xfd_get_tef_len(): fix length calculation
+e9942bfe493108bceb64a91c2a832412524e8b78 ice: Fix use after free during unload with ports in bridge
+64502dac974a5d9951d16015fa2e16a14e5f2bb2 ice: change q_index variable type to s16 to store -1 value
+81d2fb4c7c18a3b36ba3e00b9d5b753107472d75 idpf: avoid vport access in idpf_get_link_ksettings
+9b58031ff96b84a38d7b73b23c7ecfb2e0557f43 idpf: fix idpf_vc_core_init error path
+f30490e9695ef7da3d0899c6a0293cc7cd373567 i40e: fix race condition by adding filter's intermediate sync state
+b8473723272e346e22aa487b9046fd324b73a0a5 e1000e: Remove Meteor Lake SMBUS workarounds
+08d05cea028276669e44f9a145d55de10ae59547 Merge tag 'linux-can-fixes-for-6.12-20241104' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+249cfa318fb1b77eb726c2ff4f74c9685f04e568 Revert "Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'"
+df3dff8ab6d79edc942464999d06fbaedf8cdd18 net: hns3: fix kernel crash when uninstalling driver
+de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi queue Rx on J7
+ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
+9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
+256748d5480bb3c4b731236c6d6fc86a8e2815d8 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+cfbbd4859882a5469f6f4945937a074ee78c4b46 mptcp: no admin perm to list endpoints
+99635c91fb8b860a6404b9bc8b769df7bdaa2ae3 mptcp: use sock_kfree_s instead of kfree
+3f2f406a35e9311d9d3ec8db0ac33ea1853825cd Merge branch 'mptcp-pm-fix-wrong-perm-and-sock-kfree'
+26a2bebd2c0cb55582501678a182d0ae1a730f2d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+1f26339b2ed63d1e8e18a18674fb73a392f3660e net: vertexcom: mse102x: Fix possible double free of TX skb
+25d70702142ac2115e75e01a0a985c6ea1d78033 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+c03d278fdf35e73dd0ec543b9b556876b9d9a8dc netfilter: nf_tables: wait for rcu grace period on net_device removal
+86a48a00efdf61197b6658e52c6140463eb313dc virtio_net: Support dynamic rss indirection table size
+3f7d9c1964fcd16d02a8a9d4fd6f6cb60c4cc530 virtio_net: Add hash_key_length check
+dc749b7b06082ccaacc602e724445da19cd03e9f virtio_net: Sync rss config to device when virtnet_probe
+50bfcaedd78e53135ec0504302269b3b65bf1eff virtio_net: Update rss when set queue
+5d182f711ecc80b085f73c7bdd49fc65c886ac69 Merge branch 'virtio_net-make-rss-interact-properly-with-queue-number'
+71803c1dfa29e0d13b99e48fda11107cc8caebc7 net: arc: fix the device for dma_map_single/dma_unmap_single
+0a1c7a7b0adbf595ce7f218609db53749e966573 net: arc: rockchip: fix emac mdio node support
+5f897f30f596053499782f5f3c597ea285997765 Merge branch 'fix-the-arc-emac-driver'
+013d2c5c6b18db7cc5c8bd7348081ccce7302f30 Merge tag 'nf-24-11-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+84b9749a3a704dcc824a88aa8267247c801d51e4 proc/softirqs: replace seq_printf with seq_put_decimal_ull_width
+80fb25341631b75f57b84f99cc35b95ca2aad329 Merge tag 'pwm/for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+de88df01796b309903b70888fbdf2b89607e3a6a net/smc: Fix lookup of netdev by using ib_device_get_netdev()
+fc9de52de38f656399d2ce40f7349a6b5f86e787 rxrpc: Fix missing locking causing hanging calls
+d293958a8595ba566fb90b99da4d6263e14fee15 net/smc: do not leave a dangling sk pointer in __smc_create()
+71712cf519faeed529549a79559c06c7fc250a15 drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
+bfc64d9b7e8cac82be6b8629865e137d962578f8 Merge tag 'net-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7b85bb4bc043d703c6d8bb35080b7753a1dd8021 Merge tag 'regulator-fix-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+906bd684e4b1e517dd424a354744c5b0aebef8af Merge tag 'spi-fix-v6.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+
+--===============3821908204121624592==--
