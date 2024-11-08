@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 08 Nov 2024 19:41:53 -0000
-Message-Id: <173109491332.2290285.736367767632596376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 08 Nov 2024 19:47:41 -0000
+Message-Id: <173109526140.2294761.16667272301599676510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 4b28a0dec185fdae3dd9fabdc9534e1505215ec3
-    new: 64ee3cf096ac590e7da2ceac1c390546bff5e240
+  - ref: refs/heads/master
+    old: 67555fc77235876ff67e36edace196e4dc1ab214
+    new: 163ea3dec3c8048618f561a2c3b30f4c5795e991
     log: |
-         01d0467488c72e6d30cbc3261a3020080ba02378 dt-bindings: Enable dtc "interrupt_provider" warnings
-         67759cfb043ae753fb56c3130375b66276633528 of/fdt: Don't use default address cell sizes for address translation
-         045b14ca5c3657dc6c16afa97a00dba17286d3e8 of: WARN on deprecated #address-cells/#size-cells handling
-         64ee3cf096ac590e7da2ceac1c390546bff5e240 of/address: Rework bus matching to avoid warnings
+         81eef03cbf70972f90b63525ae51617c812e2953 bpf: Call free_htab_elem() after htab_unlock_bucket()
+         7d5e83b4d41b287ed1f0c9dcb2056e1d6de9b1ee selftests/bpf: Move ENOTSUPP from bpf_util.h
+         ff605ec69735b5eec1c891e4f5f508ad8c0033f0 selftests/bpf: Test the update operations for htab of maps
+         163ea3dec3c8048618f561a2c3b30f4c5795e991 Merge branch 'fix-lockdep-warning-for-htab-of-map'
          
