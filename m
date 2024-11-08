@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 08 Nov 2024 18:58:23 -0000
-Message-Id: <173109230315.2238579.1769712467467387366@gitolite.kernel.org>
+Date: Fri, 08 Nov 2024 18:58:41 -0000
+Message-Id: <173109232119.2238839.11669623836957863229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: eeb51c09abb7364119d55c9847306dd466e97406
-    new: b8ceccf97a32689d684ec7844d994b1dbde55d66
+  - ref: refs/heads/x86/kvm
+    old: dc414cd768dce496fe3a5dd19255b78fe54d3eb7
+    new: 1b808dd4afc876a60f23ccd0dbf4557009acb47c
     log: |
-         8b64db9733c2e4d30fd068d0b9dcef7b4424b035 locking/atomic/x86: Use ALT_OUTPUT_SP() for __alternative_atomic64()
-         25cf4fbb596d730476afcc0fb87a9d708db14078 locking/atomic/x86: Use ALT_OUTPUT_SP() for __arch_{,try_}cmpxchg64_emu()
-         1139c71df5ca29a36f08e3a08c7cee160db21ec1 time/sched_clock: Swap update_clock_read_data() latch writes
-         8ab40fc2b9086b915e46890bb9252dc7692f1da0 time/sched_clock: Broaden sched_clock()'s instrumentation coverage
-         5c1806c41ce0a0110db5dd4c483cf2dc28b3ddf0 kcsan, seqlock: Support seqcount_latch_t
-         93190bc35d6d4364a4d8c38ac8961dabecbff4ed seqlock, treewide: Switch to non-raw seqcount_latch interface
-         183ec5f26b2fc97a4a9871865bfe9b33c41fddb2 kcsan, seqlock: Fix incorrect assumption in read_seqbegin()
-         b8ceccf97a32689d684ec7844d994b1dbde55d66 rust: helpers: Avoid raw_spin_lock initialization for PREEMPT_RT
+         2ac3861b773ec46322af75b3e823675922cd1abe objtool: Generic annotation infrastructure
+         436d055217f93f2ec67fd3fb015e10b5d3905e64 objtool: Convert ANNOTATE_NOENDBR to ANNOTATE
+         1e131554b77fdfc1c2e1c475a6ad772900eac97c objtool: Convert ANNOTATE_RETPOLINE_SAFE to ANNOTATE
+         0b0e1d16c539c97da5fb90921218f77cf61dd5db objtool: Convert instrumentation_{begin,end}() to ANNOTATE
+         83a082f8ae1187786c2d1569e96366df03f9b7a6 objtool: Convert VALIDATE_UNRET_BEGIN to ANNOTATE
+         2977efc2633803fa70afb7706e820bf8cc4a4969 objtool: Convert ANNOTATE_IGNORE_ALTERNATIVE to ANNOTATE
+         bea9337a1dd8029e791316c19d54a47d404969ba objtool: Convert ANNOTATE_INTRA_FUNCTION_CALLS to ANNOTATE
+         78998da58862ddb65097eec18b1cc9187dcbe223 objtool: Collapse annotate sequences
+         e164518fedc3cbd4d2c5a5a1fd4241bef799b1f6 x86/kvm/emulate: Implement test_cc() in C
+         1f623529d23aa00c418d9b90ae27f8c596f48f90 x86/nospec: JMP_NOSPEC
+         1b808dd4afc876a60f23ccd0dbf4557009acb47c x86/kvm/emulate: Avoid RET for fastops
          
