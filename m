@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2091159117526845815=="
+Content-Type: multipart/mixed; boundary="===============3459590746686844178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 09 Nov 2024 18:09:43 -0000
-Message-Id: <173117578324.3403309.8912163852623687605@gitolite.kernel.org>
+Date: Sat, 09 Nov 2024 18:10:14 -0000
+Message-Id: <173117581420.3405517.1241408426805611657@gitolite.kernel.org>
 
---===============2091159117526845815==
+--===============3459590746686844178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2f5558adb91a624f21035f962185c215e57e2b10
-    new: 577019afd43207355425151a43fa62bbd7e64d35
-    log: revlist-2f5558adb91a-577019afd432.txt
+    old: 577019afd43207355425151a43fa62bbd7e64d35
+    new: c8994e7b0f32ef66c3f7d63a4aff795193dd1d8d
+    log: revlist-577019afd432-c8994e7b0f32.txt
+  - ref: refs/heads/tip/urgent
+    old: 0df233a3f748870025c8a3ed41d82da6f17b39bf
+    new: ac510ee33a382fc03b7c3d24b199da0316c29f2d
+    log: revlist-0df233a3f748-ac510ee33a38.txt
 
---===============2091159117526845815==
+--===============3459590746686844178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f5558adb91a-577019afd432.txt
+Content-Disposition: attachment; filename=revlist-577019afd432-c8994e7b0f32.txt
+
+ff4126eec0baa79a5ad602709f31832535e3f922 Merge branch into tip/master: 'irq/urgent'
+ac510ee33a382fc03b7c3d24b199da0316c29f2d Merge branch into tip/master: 'x86/urgent'
+afa6c2cfd86cd100b44d06eac92c613aa6f8b337 Merge branch into tip/master: 'core/merge'
+692af832b30976c78c6a916962ecef541e588e91 Merge branch into tip/master: 'core/debugobjects'
+43fdff55a7dc06c4b003a0b12a103c53d1f48453 Merge branch into tip/master: 'irq/core'
+5f3d95947fc865201bf3a99c0e0955d1a8c54fff Merge branch into tip/master: 'objtool/core'
+7aea161536d09255480c440b379de70a8506fdba Merge branch into tip/master: 'perf/core'
+7c9be5f8e9d8c5a05cfefd59df9e7f81102be580 Merge branch into tip/master: 'ras/core'
+f1f233d00312f83fe6c7531c056fb659dc6fb99a Merge branch into tip/master: 'sched/core'
+ee7c23789c9edcc430ce0446d18194dd7a644c82 Merge branch into tip/master: 'timers/core'
+b8edb4ac8593df57cea8a69c8974299f7770c24c Merge branch into tip/master: 'timers/vdso'
+5115780073e4fb748c040a0b77dd563f9c8d1429 Merge branch into tip/master: 'x86/cache'
+fa416bf0c7d8db9bfe94958c8bcce5de7c1405ce Merge branch into tip/master: 'x86/cleanups'
+5e23c7f6d38fe95a58db17e9d2bbe34c00156281 Merge branch into tip/master: 'x86/cpu'
+a18584c97c93fa3abefe6224416e0208696aa379 Merge branch into tip/master: 'x86/microcode'
+fbb1eba5c4f70e11167593f38b983f54149689f2 Merge branch into tip/master: 'x86/misc'
+114624af70ec0d1c9f12bd55d06b6811dfff366f Merge branch into tip/master: 'x86/mm'
+d87501e38cd181a0d8f8ffeada69de7c4da55b60 Merge branch into tip/master: 'x86/sev'
+c8994e7b0f32ef66c3f7d63a4aff795193dd1d8d Merge branch into tip/master: 'x86/tdx'
+
+--===============3459590746686844178==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0df233a3f748-ac510ee33a38.txt
 
 fa88dc7db176c79b50adb132a56120a1d4d9d18b media: dvb-core: add missing buffer index check
 4c76f331a9a173ac8fe1297a9231c2a38f88e368 media: v4l2-ctrls-api: fix error handling for v4l2_g_ctrl()
@@ -129,6 +159,7 @@ c291c9cfd76a8fb92ef3d66567e507009236ce90 Merge tag 'scsi-fixes' of git://git.ker
 c7a8f2a504c396f229e6025eca609c4e66f44c8b Merge tag 'acpi-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4f63642c09dbcfe09ba50b896c382e224f7e630f Merge tag 'pm-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 da4373fbcf006deda90e5e6a87c499e0ff747572 Merge tag 'thermal-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-577019afd43207355425151a43fa62bbd7e64d35 Merge branch 'linus'
+ff4126eec0baa79a5ad602709f31832535e3f922 Merge branch into tip/master: 'irq/urgent'
+ac510ee33a382fc03b7c3d24b199da0316c29f2d Merge branch into tip/master: 'x86/urgent'
 
---===============2091159117526845815==--
+--===============3459590746686844178==--
