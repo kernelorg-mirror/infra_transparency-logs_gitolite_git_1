@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2875755890415234675=="
+Content-Type: multipart/mixed; boundary="===============3580815932594942719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 09 Nov 2024 10:45:55 -0000
-Message-Id: <173114915522.3047634.5242543642149285965@gitolite.kernel.org>
+Date: Sat, 09 Nov 2024 10:46:36 -0000
+Message-Id: <173114919639.3048046.11508690037520416791@gitolite.kernel.org>
 
---===============2875755890415234675==
+--===============3580815932594942719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 33da45ec126c90a72360a815fe07719bc10bb034
+  - ref: refs/heads/testing
+    old: c9f8285ec18c08fae0de08835eb8e5953339e664
     new: 20fd1383cd616d61b2a79967da1221dc6cfb8430
-    log: revlist-33da45ec126c-20fd1383cd61.txt
+    log: revlist-c9f8285ec18c-20fd1383cd61.txt
 
---===============2875755890415234675==
+--===============3580815932594942719==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-33da45ec126c-20fd1383cd61.txt
+Content-Disposition: attachment; filename=revlist-c9f8285ec18c-20fd1383cd61.txt
 
 bd5ee6bcc51b617d28e54069fef818751763962b rust: miscdevice: add missing safety comments
 733dc978fab659dee9938739e2b9e88ce72f0408 peci: npcm: Constify struct peci_controller_ops​
@@ -55,4 +55,4 @@ c904e6dcf4024e484cba6d61e379b53d802fa497 iio: adc: ad7380: add support for adaq4
 5e66d01f6083aa79d73efaa3b9ae65850a8929ca docs: iio: ad7380: add adaq4370-4 and adaq4380-4
 20fd1383cd616d61b2a79967da1221dc6cfb8430 iio: Move __private marking before struct element priv in struct iio_dev
 
---===============2875755890415234675==--
+--===============3580815932594942719==--
