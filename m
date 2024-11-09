@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 09 Nov 2024 20:16:05 -0000
-Message-Id: <173118336573.3504680.3477652244268109976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Sat, 09 Nov 2024 20:34:14 -0000
+Message-Id: <173118445467.3517362.10644453640448176145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/master
-    old: 163ea3dec3c8048618f561a2c3b30f4c5795e991
-    new: 5bfc4f22e0d7726f6243e739ca185337e1ab832e
-    log: |
-         5bfc4f22e0d7726f6243e739ca185337e1ab832e selftests/bpf: skip the timer_lockup test for single-CPU nodes
-         
+  - ref: refs/tags/v5.10.226-rt118-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6a9df1a294e34db55fa984d02c04ef75a36e5d93
