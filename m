@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6645431658625995830=="
+Content-Type: multipart/mixed; boundary="===============5437677216669434587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 09 Nov 2024 12:03:14 -0000
-Message-Id: <173115379482.3113248.4759422661030562186@gitolite.kernel.org>
+Date: Sat, 09 Nov 2024 12:04:41 -0000
+Message-Id: <173115388121.3114664.15916500095604190634@gitolite.kernel.org>
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,358 +16,367 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 6ae91ec815771ec3420055762b76f9b388434117
-    new: 4039c9aacbf818ea56c963e9ae9049395d76ff27
-    log: revlist-6ae91ec81577-4039c9aacbf8.txt
+    old: 4039c9aacbf818ea56c963e9ae9049395d76ff27
+    new: 1ad1f5b143bc06e101c9889e516fad61aad00028
+    log: revlist-4039c9aacbf8-1ad1f5b143bc.txt
   - ref: refs/heads/queue/5.10
-    old: da46671f46b35d3dba96c8a33fbcdc3e3baa961e
-    new: cb6c32673affe048b774d875d65203df2d34943b
-    log: revlist-da46671f46b3-cb6c32673aff.txt
+    old: cb6c32673affe048b774d875d65203df2d34943b
+    new: 29bd91b352e6f7049176f57dcd428cc0cf7f895c
+    log: revlist-cb6c32673aff-29bd91b352e6.txt
   - ref: refs/heads/queue/5.15
-    old: f138e38693d1612918f06683d5bd9e2d7b1b6099
-    new: 8aeddde9fa6431834a4b75446c6cfd541e779cec
-    log: revlist-f138e38693d1-8aeddde9fa64.txt
+    old: 8aeddde9fa6431834a4b75446c6cfd541e779cec
+    new: 40b962bed807913be4eb3e787bfc76998104a8e6
+    log: revlist-8aeddde9fa64-40b962bed807.txt
   - ref: refs/heads/queue/5.4
-    old: 4943d9073be6a6de818c029f445e96d7f9bb4a47
-    new: fdb60e5da7bffa4bb2805cfe19545b70dbc370b8
-    log: revlist-4943d9073be6-fdb60e5da7bf.txt
+    old: fdb60e5da7bffa4bb2805cfe19545b70dbc370b8
+    new: e3e9189d4da8e3c8424f19550bb0e7c8a33edcb9
+    log: revlist-fdb60e5da7bf-e3e9189d4da8.txt
   - ref: refs/heads/queue/6.1
-    old: 214a401cec7205dc930e98a410c6162fac8413aa
-    new: 7695cf469211db9a3828312f61fbbafe5d51508d
-    log: revlist-214a401cec72-7695cf469211.txt
+    old: 7695cf469211db9a3828312f61fbbafe5d51508d
+    new: c30384fef41e0b5b751a34459121b21211171370
+    log: revlist-7695cf469211-c30384fef41e.txt
   - ref: refs/heads/queue/6.11
-    old: 6b19bb18277c8eca602916d777d027da9f3a3658
-    new: 88b3a3e0d7bf55b9ba1798e35e353eb5b37dcdaa
-    log: revlist-6b19bb18277c-88b3a3e0d7bf.txt
+    old: 88b3a3e0d7bf55b9ba1798e35e353eb5b37dcdaa
+    new: 4559f135a8fc3fd8ac2b4e1d36797eb56637a077
+    log: revlist-88b3a3e0d7bf-4559f135a8fc.txt
   - ref: refs/heads/queue/6.6
-    old: 08b437dae4958890efbd9672fa0ae9678239d471
-    new: b7d431d53059bdc858b28d24d58bf4f2f7cec3d8
-    log: revlist-08b437dae495-b7d431d53059.txt
+    old: b7d431d53059bdc858b28d24d58bf4f2f7cec3d8
+    new: 59ee66819386592095adeb765c9a25a5b74b8789
+    log: revlist-b7d431d53059-59ee66819386.txt
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ae91ec81577-4039c9aacbf8.txt
+Content-Disposition: attachment; filename=revlist-4039c9aacbf8-1ad1f5b143bc.txt
 
-cc6b066813a7ce957b5cdebc0c1352004ea72eaa arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-e179e7e3389f04929f09391df237f76b4ad38261 ARM: dts: rockchip: fix rk3036 acodec node
-dec87ec9bc5ab51f85f08de474cda1c459007a06 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-cb35f063f4b45fa67dbfcb60e8527bb2c8c1df85 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-0c1ea08f26fb5857fce619f7e579e50e53485d7d HID: core: zero-initialize the report buffer
-959f18c56c49d74c0f6aa9c4014c64cbb8824a35 security/keys: fix slab-out-of-bounds in key_task_permission
-81e45f207aa4e60a7673836b0711e04ab32257b3 sctp: properly validate chunk size in sctp_sf_ootb()
-3b4116b9b358c21a41615a06f97caca8f1dc4b94 can: c_can: fix {rx,tx}_errors statistics
-339a68bedef5c85f8b4eadc6c8d5f494b800abf3 net: hns3: fix kernel crash when uninstalling driver
-2fd7d1dc4229f3809950bb774eb0523d58fca954 media: stb0899_algo: initialize cfr before using it
-8191b95d1693247a7590800e9a65b6503a8fae46 media: dvbdev: prevent the risk of out of memory access
-ef42b7ddeaf513b09b1df8660df1e4b0986d461f media: dvb_frontend: don't play tricks with underflow values
-5256961cb3295d6da224336810603d27e30ae1e0 media: adv7604: prevent underflow condition when reporting colorspace
-0d2cf00a97dc157aa22d02805577b8891cf45eef ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-d034a848f56113ed15eff44f3bb7c1c4ae671830 media: s5p-jpeg: prevent buffer overflows
-a2a9f9988b52b6f157cf03e51a0693716ce6388d media: cx24116: prevent overflows on SNR calculus
-4039c9aacbf818ea56c963e9ae9049395d76ff27 media: v4l2-tpg: prevent the risk of a division by zero
+85d411c1235acb67fafa47fe7da9633b5050ca4f arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+db6b4d2a888b2ecaea57d380e88f3d4368b191a6 ARM: dts: rockchip: fix rk3036 acodec node
+79a01d2b0a4a13ec330f3690dcb783600223f795 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+476f7c885f21570a6c5fb8274a196e9768c93114 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+b5fef0b0c488740c290d0b3f145f64372bf00daf HID: core: zero-initialize the report buffer
+117336a8f502ea16132e4aa87cedd80aece39786 security/keys: fix slab-out-of-bounds in key_task_permission
+46b9dd15897fa1e82282586c78e84be3e1e7ba6d sctp: properly validate chunk size in sctp_sf_ootb()
+8cb6c8d3d1a4dfe5cb8c3c688df5cbe5f5adebc6 can: c_can: fix {rx,tx}_errors statistics
+51b2ca91f6135d10fad1f3ebf89930db52c8203c net: hns3: fix kernel crash when uninstalling driver
+81c039693dbdd1299f9b43a5ca582aac97c52993 media: stb0899_algo: initialize cfr before using it
+25223b65d087a9139b79286728836d1612f02c6f media: dvbdev: prevent the risk of out of memory access
+081338204b018536377fe62acc9f89ee16b29aa7 media: dvb_frontend: don't play tricks with underflow values
+c6d38d6fa04c6ca243d37bc48c17423e7fbe8528 media: adv7604: prevent underflow condition when reporting colorspace
+e0017f012bc2e599effc3f7929342b5ca199ef33 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+e2551a8dd977ba291a2d27ab69d6b2afec6301f1 media: s5p-jpeg: prevent buffer overflows
+8b4f586a919d53454a7889727e8e1665f97ee820 media: cx24116: prevent overflows on SNR calculus
+1ad1f5b143bc06e101c9889e516fad61aad00028 media: v4l2-tpg: prevent the risk of a division by zero
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da46671f46b3-cb6c32673aff.txt
+Content-Disposition: attachment; filename=revlist-cb6c32673aff-29bd91b352e6.txt
 
-a9009868386de7c2e9a1816abdb72e789860e964 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-4725e977cacacee9e7010513c34b9a165c5b7453 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-6704d760459f3d7b1505d785782da6bfe4104134 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-5eaa41eca40d1abbd37c47949b1aad3609f95a60 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-0284c3faaf121f2e63add46064c7dee03d76ced9 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-5fabf9edb6e4184155def4757655c467ca71f739 arm64: dts: imx8mp: correct sdhc ipg clk
-e9e479b0b1b45c3e9db6c84dcc9e4d7d059bfebe ARM: dts: rockchip: fix rk3036 acodec node
-b3d51d0d02ae26b40d09ba7fc331e09037f5517a ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-d222746b8a6849e6ad403412980dd4d711a82224 ARM: dts: rockchip: Fix the spi controller on rk3036
-e1fce06eccbc5468d11d4f5910d48a5e6a78c8b0 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-e695b6eb87328c44bc3a993d493dda34ea250503 HID: core: zero-initialize the report buffer
-066b7dbb67f5cd182c5891dcb80c005e8a83698b security/keys: fix slab-out-of-bounds in key_task_permission
-cdd996bcbc1a543b27df1789c5ec94ad533d1e65 net: enetc: set MAC address to the VF net_device
-bf6c1dd377639919ba11f2316f97c356722948fd sctp: properly validate chunk size in sctp_sf_ootb()
-3ad24edf8c5eb6f997865d4170013792f5279a16 can: c_can: fix {rx,tx}_errors statistics
-476951e4ffd9606a7deb2d33be603dd6262f8c81 net: hns3: fix kernel crash when uninstalling driver
-01f392579b0f95e71f399c421a05056af6560c59 net: phy: export phy_error and phy_trigger_machine
-55db003762ef9de1e75c0082a229b08a9060272a net: phy: ti: implement generic .handle_interrupt() callback
-46ede73137f96aae29597a995e25f12c014e6311 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-efc37d708624f89eb0999d7f8f802ae1127875b0 net: arc: fix the device for dma_map_single/dma_unmap_single
-a634f4a8b0794c5262ab1bd550541ef904137fac Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
-47228823ded24f3795120b23bf26ec323be105c7 media: stb0899_algo: initialize cfr before using it
-afd5518b72058bae5016cd2dd550c2cf0649c9d6 media: dvbdev: prevent the risk of out of memory access
-ad1545a35b69e81ed4a63d6dbe5b8ac49732145e media: dvb_frontend: don't play tricks with underflow values
-89fe8de0dd458bb43e2a5ca7fdd8c3566d30829a media: adv7604: prevent underflow condition when reporting colorspace
-5823a7356f1990a778b505beb9a68c74ff8479e0 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-db54b4d44df3ede71356c4d546703e32ccb5e768 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-cb6c32673affe048b774d875d65203df2d34943b ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+e9ce37528638c6a6afae998905e31d09d874b330 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+2d7b53d616e6642026df9d6da3d3306e5bf3f761 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+2f346cfe1725bc0c2ded7e91344ed912880bc2e2 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+c2d0a5a90636aa4a181c2c7d45de55d7274a7dc2 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+60b2cdf7aa90f82dbe885401d8f15b439df0ad14 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+ba92b4f0a2618c353ddf40beea57786bf8bbc8e3 arm64: dts: imx8mp: correct sdhc ipg clk
+4d563f1ebd14a6b6100d0375de2997d89627da24 ARM: dts: rockchip: fix rk3036 acodec node
+1d90092daa6bac34d24d4fb5851bff77f4458aee ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+210c277bb5bdd430c9ca43628af650f1b61a4fed ARM: dts: rockchip: Fix the spi controller on rk3036
+cf895c9a96e9d2921b8560071c508e625ca46c51 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+d7902e06ea0b5c04facfcc15879e59aad4951f50 HID: core: zero-initialize the report buffer
+cc5fd9166e437a996444b6e703c3cc433fb7fae3 security/keys: fix slab-out-of-bounds in key_task_permission
+e936bf0228a0ab7205b608d858ea71f6897ebacc net: enetc: set MAC address to the VF net_device
+4d23dba26d68ed3184078918664e3f40d291bcd3 sctp: properly validate chunk size in sctp_sf_ootb()
+3ded7fbbc7d4738b05da616073ff2ff8500e275b can: c_can: fix {rx,tx}_errors statistics
+d4ab330ff431681452a609de0fb776f0de1391e2 net: hns3: fix kernel crash when uninstalling driver
+16c9b6438f95422f621f5afaf7446f33b7dfc87f net: phy: export phy_error and phy_trigger_machine
+aae08f9011e666d360b894c9ecb934caf88f821b net: phy: ti: implement generic .handle_interrupt() callback
+351a312d12b3eb228cd7e271d86668df37f3d179 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+08c38c8280d702d62e6d2584fbfd9e97e77f78c1 net: arc: fix the device for dma_map_single/dma_unmap_single
+a054ec6992d0c8b168c0247a26cd9a5599662b91 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+7ac68578bfe800072a2ab1e007026080e78f0051 media: stb0899_algo: initialize cfr before using it
+3899f4d4d770b2f4f6fe668a3c73329f5405d095 media: dvbdev: prevent the risk of out of memory access
+b63f02a62a227600c09918e9b401ad6547341c36 media: dvb_frontend: don't play tricks with underflow values
+2b42625cb00af932c887930bbb0fe5540572fabb media: adv7604: prevent underflow condition when reporting colorspace
+c7e74c78236c507a22de5ec5dcadae8c329f0d18 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+cfbb0c82326e509f0d48ab6cfdc0a7fda64bf605 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+4a2be809a8ff7da340b45709ccb8bae7484418b0 ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+71f7d57f57a7de81c5dd23d97f41b0f12521c512 media: s5p-jpeg: prevent buffer overflows
+90b8958eea8ee8e34a28ad2adcbfb8d0915ea043 media: cx24116: prevent overflows on SNR calculus
+a839aa122c1905c5916b5557a5f7d1ff516ad099 media: pulse8-cec: fix data timestamp at pulse8_setup()
+29bd91b352e6f7049176f57dcd428cc0cf7f895c media: v4l2-tpg: prevent the risk of a division by zero
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f138e38693d1-8aeddde9fa64.txt
+Content-Disposition: attachment; filename=revlist-8aeddde9fa64-40b962bed807.txt
 
-ba17423e8fbb406612f7a07521e13092b787c48e arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-96dae96cb7acaf8ac866e9263b02933a7bd43964 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-b0157f6cfea1dae3e2ab5fa26d06f3ba283f9af9 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-350bcdbec53304de54fc4fa929297f8c48c311e6 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-65c9fdb9afceb2f5cfff093d66271e5e2192ea3a arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-07f7ccba73f57c02baf31fae40b9941fdf06476c arm64: dts: imx8mp: correct sdhc ipg clk
-b303c8c4f4799bd862d441bc19c1f66790cac60c ARM: dts: rockchip: fix rk3036 acodec node
-a1afcd7bf92ca9cb17a79c34db686780b07dea9f ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-4018f6dfe7d35bdaa0e92dec436dd58b12c82123 ARM: dts: rockchip: Fix the spi controller on rk3036
-12e62c6ccf6029c5855d20f506a91891e3632901 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-f9f3db96067bfa22903505e2df9845380c113300 HID: core: zero-initialize the report buffer
-b35a00f8dcedf4b6fbd0020e5f360ea1b50a1ff4 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
-91256ae351b5932b98fc337be3c2e907fd785aa4 NFS: Add a tracepoint to show the results of nfs_set_cache_invalid()
-44c47d96d317a65b83bd98ff95fc8c8bc346c9f3 NFSv3: handle out-of-order write replies.
-980e9c728b3553b5fd96446b5d1837aaff895ef7 nfs: avoid i_lock contention in nfs_clear_invalid_mapping
-9174619488038482e9bdab397887ec86c4156cb4 security/keys: fix slab-out-of-bounds in key_task_permission
-604cc333220256ef65418fb7bcfa8822e794a687 net: enetc: set MAC address to the VF net_device
-c38995aa84dd538c8a49392f5cdff912e70e1152 sctp: properly validate chunk size in sctp_sf_ootb()
-f4b4634f922303dc6edb9c6b4e9e4c7e55fad587 can: c_can: fix {rx,tx}_errors statistics
-097f80c60755990432a6f8cb7a8f5f67ea559994 i40e: fix race condition by adding filter's intermediate sync state
-c5e4963e0fde990eae692bd6156101e7a2f2f73d net: hns3: fix kernel crash when uninstalling driver
-60cca5bb0345264c93e3ddc7123d607e1da08c06 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-87fa83157dede3ac2d36fbd9d4be401483ee8a35 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
-c54f0b612b4c8cb131f41df62aae62029339a550 net: arc: fix the device for dma_map_single/dma_unmap_single
-868d27b9d04c0c0a6baaae182ab36c8c94ed6614 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
-e6b05df814029fed5f064c5c3c0f2292bb690554 media: stb0899_algo: initialize cfr before using it
-03eca6cc1d254c8555251ad0f41b4cb9ca3d252d media: dvbdev: prevent the risk of out of memory access
-c9dfb8199ecadea6a745b4e0343e6c2c67cd21ef media: dvb_frontend: don't play tricks with underflow values
-7cb64b54ccd837e3ceca703729e3cca0c1c34316 media: adv7604: prevent underflow condition when reporting colorspace
-9f8f96765f453c87873f2e046e3111f5844e5681 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-fae1eb0d01647766f51ad3df0cd8fb9b886efcc6 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-8aeddde9fa6431834a4b75446c6cfd541e779cec ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+bec63fbf62011408ab6b73e0f4900ca872f99fdf arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+64f104b2c26634f1bbc1ae00dcd33f7f1c2bbf69 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+adaf7e3f6baa743cf6745aa58fc7af81d5f9cdc7 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+985bd73c8701c8b5464422593286fe2b7b51b4a1 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+0ade0824dceeecb6663bc622da17da1306720aa6 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+0be1f27fba1c17089b0e171537c485a66e4ec19a arm64: dts: imx8mp: correct sdhc ipg clk
+b4f6efd1be331934b06613d93beccd3d5b1f53e2 ARM: dts: rockchip: fix rk3036 acodec node
+a5b99178193e3f2766dd880fdf0489b43265222d ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+564b4736ad38c4edd5b9bfd732c0f86ef58ac610 ARM: dts: rockchip: Fix the spi controller on rk3036
+12b486ab976b81a331388df81f573d26243e5c0e ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+fe2122ecafec4acee847fa3e63e3929652b33a8b HID: core: zero-initialize the report buffer
+14c74e9c7049e249e7fb5f4dae785840d70cabbb NFSv3: only use NFS timeout for MOUNT when protocols are compatible
+0259f8a3e6ae0e7503ed2a4f7c0addcbaf1c16ef NFS: Add a tracepoint to show the results of nfs_set_cache_invalid()
+19cad53bbea48a8f87ffc68f81b759b5444aed96 NFSv3: handle out-of-order write replies.
+8afe1c09ade3dbf1d489bdb9ae3a40138fa610d9 nfs: avoid i_lock contention in nfs_clear_invalid_mapping
+3d5a5ed034d68a4bfb626d7370473157484514b9 security/keys: fix slab-out-of-bounds in key_task_permission
+dcc1d847064fcc6ecfcada7c81abf10be4de3949 net: enetc: set MAC address to the VF net_device
+55acf673aa628bacab43b61fbafaec17f266c4a4 sctp: properly validate chunk size in sctp_sf_ootb()
+b16cce162347fb97c88cc2bf6aff277435769a67 can: c_can: fix {rx,tx}_errors statistics
+0ffcd2c1afd8e1a1a9befe48c18aa12623ccb13f i40e: fix race condition by adding filter's intermediate sync state
+04e828b0d4242b74fa58afed7ef1b8a383ebff05 net: hns3: fix kernel crash when uninstalling driver
+56961016bb790d3d5f29d9355c57abd5574238e4 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+512bb8177ec14638d4b2e2b70479eef2bcdf5a2b net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+9eda154e3c8141a8435aa22fe0986f1d13660271 net: arc: fix the device for dma_map_single/dma_unmap_single
+b7a6bd87f01f34b2be1f9e572113eacd8fada42f Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+716a256f093300f4422ebd71265738224dffbcad media: stb0899_algo: initialize cfr before using it
+226cef68629ec6bcb0356a75ca562b0a27dd4d5a media: dvbdev: prevent the risk of out of memory access
+2ffe935b2f8cc1a2059b628f92dcee8d5885bb98 media: dvb_frontend: don't play tricks with underflow values
+f0c530b95479edbeb5ad95cd38d5910969000da5 media: adv7604: prevent underflow condition when reporting colorspace
+4e25275bbbe3caf6b477063397db5248674655fb scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+4f09f5eb579705c2ed34db783267aa59610218cb ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+6535c68b557cea046fb60ea67b5f3358cd7ef4e3 ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+53d9b22413d351edf957a52f5830e8ede4bfb7a8 media: s5p-jpeg: prevent buffer overflows
+eb884c16f724c392b3d5817d2f02bdffe1c76c65 media: cx24116: prevent overflows on SNR calculus
+d6d8fdad4bca1a989564857c6ed0783dc8e67c93 media: pulse8-cec: fix data timestamp at pulse8_setup()
+029852b1f3d7784093cbe255c0afc2b56b6c475c media: v4l2-tpg: prevent the risk of a division by zero
+40b962bed807913be4eb3e787bfc76998104a8e6 media: v4l2-ctrls-api: fix error handling for v4l2_g_ctrl()
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4943d9073be6-fdb60e5da7bf.txt
+Content-Disposition: attachment; filename=revlist-fdb60e5da7bf-e3e9189d4da8.txt
 
-c5c69af1bf89a58a0206c98454865345237f7ab6 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-7017f4e6fe3255003e5ea59709d928510416e9aa arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-8ef1f8a8a29c8d86730a935859cd031309cc5129 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-21e669a9487364862fdafb0070088d8fe5bbc1e7 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-af45d99456a8e77fe4aa24395dc6244ab4eee8ba ARM: dts: rockchip: fix rk3036 acodec node
-8336821918223d08710c732dd106b54fdd3ba5e5 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-224da64c0b1be3ca3098cd39b615458b33f4ade0 ARM: dts: rockchip: Fix the spi controller on rk3036
-b18d1a6c3bff9f92788c4018504212c8acb1a931 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-275abe53d271f022d5d705b11685a6cd6f2ed4b7 HID: core: zero-initialize the report buffer
-a1c02d7f0830409834afba51e159e0bd9b6d3a44 security/keys: fix slab-out-of-bounds in key_task_permission
-47b879deff155355905b4874153b1e9f01885394 enetc: simplify the return expression of enetc_vf_set_mac_addr()
-02543820f6681cefeaedf60e81cae9990da977bb net: enetc: set MAC address to the VF net_device
-2d79ef852c624ba408864d2760a59f565511429e sctp: properly validate chunk size in sctp_sf_ootb()
-c548e98dc59ec488fd62b4b6e729382ffe2fc9ce can: c_can: fix {rx,tx}_errors statistics
-8259ea926dc45519255db3d347a5b3cc2968bb50 net: hns3: fix kernel crash when uninstalling driver
-dec81a4c43007047375849156c8cc75cda3931fd media: stb0899_algo: initialize cfr before using it
-1c940b22b1f46fe85e282d59b3fa2f657ee5ef42 media: dvbdev: prevent the risk of out of memory access
-6c48ba7104d6a3baea4e6601078fbfd36087db42 media: dvb_frontend: don't play tricks with underflow values
-4069d28d1120b68f93948f805f726e99a8fe45e0 media: adv7604: prevent underflow condition when reporting colorspace
-c27f8dab6830018a9a33747f9b99bbf17af42a52 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-bc2b70ca404b18d652e85345941de99e7bfba265 media: s5p-jpeg: prevent buffer overflows
-e70e6e5cc4ae4c09b5c251cc68c3c96bff76c5e2 media: cx24116: prevent overflows on SNR calculus
-fdb60e5da7bffa4bb2805cfe19545b70dbc370b8 media: v4l2-tpg: prevent the risk of a division by zero
+fa6fb6c2794378744de7d6ff05b67dcb12b7cc77 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+cc12ed5fbf3e092128cf04bfea593fa14a8ef24e arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+d4ab3b0e8dc13af57c34f642e3b7cce3e1a9dff8 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+e71bc6557c5ca9dbf731d08bd6f583fd932c1422 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+40ef66e47dd1a0884740270d50c2e427411b56d1 ARM: dts: rockchip: fix rk3036 acodec node
+1b8c9306871b1f8544a8e38dfd5f1428871c215f ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+2dde9028e3b69e07b4eec878688069b971a2a64f ARM: dts: rockchip: Fix the spi controller on rk3036
+9d8a6c2025e17f140f1d0bc782d90128b78014ae ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+6a686b1f579cd8ac12bf489f547f9f6894910e2f HID: core: zero-initialize the report buffer
+43fc16117fcae14a64602b83a1937f02c11eacc7 security/keys: fix slab-out-of-bounds in key_task_permission
+ecf8f63442893258c4ec1a034af511873c03bb45 enetc: simplify the return expression of enetc_vf_set_mac_addr()
+3011bd86389d264be19b496424396c28d8c988e5 net: enetc: set MAC address to the VF net_device
+156abed050be935c4c28059ce77d1b0a41c3338f sctp: properly validate chunk size in sctp_sf_ootb()
+729c05f01c806e8405bbad170b61140af509707f can: c_can: fix {rx,tx}_errors statistics
+9e6514a2034b587f5dfd01c4493524ae04b57b52 net: hns3: fix kernel crash when uninstalling driver
+c5ad1036e27d03bbf117a809b612497827a85291 media: stb0899_algo: initialize cfr before using it
+d077f357e1d5c47c5725ab7f4bd42702e73a047a media: dvbdev: prevent the risk of out of memory access
+f598744d13cfd1a246a8b23843a443103dfb52d2 media: dvb_frontend: don't play tricks with underflow values
+6987716e149c7d018733e113d9e3b4cf31a9da44 media: adv7604: prevent underflow condition when reporting colorspace
+930f43e4eb12f83fb52f8882d1295c36f93a3287 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+0585bd7fa123451e5fc64fb3fce3bbbabd41d543 media: s5p-jpeg: prevent buffer overflows
+4d12908ecc62428359cbc422713f8814ff4b47cb media: cx24116: prevent overflows on SNR calculus
+e3e9189d4da8e3c8424f19550bb0e7c8a33edcb9 media: v4l2-tpg: prevent the risk of a division by zero
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-214a401cec72-7695cf469211.txt
+Content-Disposition: attachment; filename=revlist-7695cf469211-c30384fef41e.txt
 
-bed4feea8e2c012b2d8e179d8c7e074a3c368599 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
-2975f5b88cdb393942526c47fc57b92268adee9c arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-b25ad7b438f0a9a3ec1ec9df139dc644087b8aa5 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-907b6af225b1fd8878dd8b38e5823ff113fecde3 arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
-9427fe3e9342c257ee3449af8b06629e4fab8cbd arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-d6beb547220ccaee08a8d20234fbc3af232f2e87 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-7ebb5009a84ad7ded61ad070a656f9f278c10904 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-c3a3aca02e6e1c55e8213198c2b0076f25b12eb0 arm64: dts: imx8qm: Fix VPU core alias name
-8392af51d620a30c97a2b5971dcd1c2691109c0a arm64: dts: imx8qxp: Add VPU subsystem file
-23fb1fc9b7a0a19e42657b883d65be039bd572f0 arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
-336a1e24697207f27c9e611d6b19b0410bca5a4d arm64: dts: imx8mp: correct sdhc ipg clk
-7d401991bd3a6bfc5323da02eb29311ee3873707 ARM: dts: rockchip: fix rk3036 acodec node
-2e3e8a96d68aaae7cc368c89f788a3ed4f39602e ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-e6f6d12c24220bea280bafcdb4e2ed537278cb4a ARM: dts: rockchip: Fix the spi controller on rk3036
-5457df20d5c964434e211839acaa921b3f96d20b ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-de130767aaf499469afc295ca98e229eeba6cea2 HID: core: zero-initialize the report buffer
-5ac206d7587c58eafc3167ca541fab834aefdf17 platform/x86/amd/pmc: Detect when STB is not available
-94ecaf87361e291801dba866d963a2a252cf053b sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
-44ca95055354aeebb28814d0112c8442d4bf751a NFSv3: only use NFS timeout for MOUNT when protocols are compatible
-a5d8025abff5e53054403e352abad952361e2b2e NFSv3: handle out-of-order write replies.
-9ca8077d58171cc1d0811caabc4f39d2ec16fd5d nfs: avoid i_lock contention in nfs_clear_invalid_mapping
-ec0814d33a1377d3381702eedf0ec40d6af66665 security/keys: fix slab-out-of-bounds in key_task_permission
-c349d613fda222fda91d519f7b5637952d5ee69f net: enetc: set MAC address to the VF net_device
-9910872435dc743c1ce21e48970c51c60a277710 sctp: properly validate chunk size in sctp_sf_ootb()
-e0b97a18b396bb4c218a312d0282f3a384db2ce6 can: c_can: fix {rx,tx}_errors statistics
-6de586251da9c88a2c46d14b488ed4b64c317a5e ice: change q_index variable type to s16 to store -1 value
-1422a08edb92c19395a5d1c48e411943e2e6a230 i40e: fix race condition by adding filter's intermediate sync state
-5ecb262a605be73ca88fe8e24858d0ed09589073 net: hns3: fix kernel crash when uninstalling driver
-d975ff6a32d2ffa5033c7c0af2e7c068f1391759 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-7bbf676da44e5a3c9844b0e3ebab5d13d1c630c9 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
-b0bdd4302114b52ffc5ad0064e5ffdfea40f7ff7 virtio_net: Add hash_key_length check
-86b98e77748ca8c112ba4d40c61b15a08fb6fff5 net: arc: fix the device for dma_map_single/dma_unmap_single
-c2c9660060272cae9811d2cb1530128cef6b41c5 net: arc: rockchip: fix emac mdio node support
-f91be6e12459ba5dffa6d2e0364ec3d508efea7b Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
-4b998195e417f476e343a7eebf64d51901cf6187 media: stb0899_algo: initialize cfr before using it
-cb2238e337e658a35c95ce74fff08f5a4577194a media: dvbdev: prevent the risk of out of memory access
-3c02908a0cfef56e2cf9c82674238bd88b973fa2 media: dvb_frontend: don't play tricks with underflow values
-09a7a0c1c0caa1f83238763bf2afd4544e3f70b3 media: adv7604: prevent underflow condition when reporting colorspace
-0c1cfde9b41fe467e5de8c6a6cefd17393c16eab scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-bf49212f4aebf3c915580afabea40284d1547559 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-4c9f560110ee5cc5975d5c6b22040b4bb7626ad3 tools/lib/thermal: Fix sampling handler context ptr
-29c9e5b6b840c33acf9f742ec1ad45ca469a733f thermal/of: support thermal zones w/o trips subnode
-7695cf469211db9a3828312f61fbbafe5d51508d ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+9cfc6c77db24309a21ec864582fdf2ad4f37125f arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
+c16bf3c32817ee7f95cca0d4f14bc808bb3d9ed1 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+fc78adf964c9d5ec68aec4d066889906f3498310 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+0791b028a026c6df8e297cdd45e71b5ea8bb0733 arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
+56f4d53fbdd84e6cfdf2634eff73f5e7dd7115b2 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+b8cfbd75841456336d8c8a2aea2e7bbe2b38c17d arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+f8ff9aef14297e7c9e4866e051954821f0296fd6 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+ab589d94ba01d1c0ff109242de14bcd98562f5a5 arm64: dts: imx8qm: Fix VPU core alias name
+573927370e5b5a065f0ad571792070c2ed62d520 arm64: dts: imx8qxp: Add VPU subsystem file
+dca64f444881811571fcf250b7389fac23a7e735 arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
+d407fee9cc0f682013923b54e0e96650b85d943e arm64: dts: imx8mp: correct sdhc ipg clk
+a87b6938cc1b466a89d0fd7a0e0eed84aa8077f8 ARM: dts: rockchip: fix rk3036 acodec node
+1767d6a0220262710b7b061d7a146352c409e783 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+085fefbe946c630ce8f30b735ff254ea5ab4a7ba ARM: dts: rockchip: Fix the spi controller on rk3036
+ef383a63928697b7777055ac8cb408aa868baaff ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+bd55d19d54f020bf904feb7867a7179b49be6568 HID: core: zero-initialize the report buffer
+28e5207b0b2611520cc2b0e4fda70bd4554d8fff platform/x86/amd/pmc: Detect when STB is not available
+378dd3e707c495a2efed57f2e7c4ee2bd69f0db5 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
+738d78984946a336e78dc4d4c6daa537665d8745 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
+8df0876312ce010e3222d5d1d00338a53960fbc2 NFSv3: handle out-of-order write replies.
+15d82437c7b4e6e988570309440986d10b0a44ab nfs: avoid i_lock contention in nfs_clear_invalid_mapping
+f29590528ca169b744e6326f81e3745d2d480969 security/keys: fix slab-out-of-bounds in key_task_permission
+c008c7b4d8b90b7a489f9f8c32d11de500934f9e net: enetc: set MAC address to the VF net_device
+14ac8112cb99bdfea52a2c96222a1c9884561bfa sctp: properly validate chunk size in sctp_sf_ootb()
+19876cbafc460001d16527ba60a32f824be9f462 can: c_can: fix {rx,tx}_errors statistics
+644a2a78e68ed874886d81569bec8de4ea0a024d ice: change q_index variable type to s16 to store -1 value
+01fdc2db8fe0176e53c727fac9ed9ee16ddce413 i40e: fix race condition by adding filter's intermediate sync state
+050bd12a6a477f06b3c8ef44c6ef9959667485f3 net: hns3: fix kernel crash when uninstalling driver
+4caf63d0648740a09d16a72b977be2315dfb5fed net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+9e36904074d169a361e67aad7082cf263f7c147a net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+cbd80391af0a6beb7845bd9ca9438da6adc7b66b virtio_net: Add hash_key_length check
+993c6d2772b44b592029b7e78c7e2a2d2bf112a4 net: arc: fix the device for dma_map_single/dma_unmap_single
+894cab9a3e8002d9b345462febede1d14f158dab net: arc: rockchip: fix emac mdio node support
+37a4b48c7150b7127de0d17db8bc40cb7634190a Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+355ee1c50aae049a01928a96a276753865e27284 media: stb0899_algo: initialize cfr before using it
+fa666ab0c13e8000b98e883c6a5db8eafb919ec1 media: dvbdev: prevent the risk of out of memory access
+95d276c25040ccba3558695933a3b4f7106b9952 media: dvb_frontend: don't play tricks with underflow values
+1617348cd67772e3696f1615a59dcc86b0bd2bff media: adv7604: prevent underflow condition when reporting colorspace
+9e52d63078b9338ff8a9c5c95638cdcd0ca19071 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+fc837c7786df96c27e4adea46223e3f3c7be469d ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+0d143d46d81b50027eb8b1b62423aed9f5023a0d tools/lib/thermal: Fix sampling handler context ptr
+ae5c4067771f7a10ab30557e66af54884646a549 thermal/of: support thermal zones w/o trips subnode
+c30384fef41e0b5b751a34459121b21211171370 ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b19bb18277c-88b3a3e0d7bf.txt
+Content-Disposition: attachment; filename=revlist-88b3a3e0d7bf-4559f135a8fc.txt
 
-67792d65ee0d9f84a0cb02acedae78dec0efd983 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
-2363d7fd53b0011023306eb9a89c8610bb675cec arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-55e590e51ded6075a05a3ed72b49bdbd451970f5 arm64: dts: rockchip: Move L3 cache outside CPUs in RK3588(S) SoC dtsi
-09fcf91fab9bd1e358098f78185be2fbe433f200 arm64: dts: rockchip: Start cooling maps numbering from zero on ROCK 5B
-d05155ced20535bf6d87ac109e18df942bbae07f arm64: dts: rockchip: Designate Turing RK1's system power controller
-058364bc3de721494233231a2adb3b560019cae5 firmware: qcom: scm: fix a NULL-pointer dereference
-50ea7553c0bf8ea30eac0d795bf40f9be5e2ba41 EDAC/qcom: Make irq configuration optional
-5544b0783c97c4b98b4e1831e8466f931217e8f3 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-58e77c50d22dc7ac6d0187430a8484a94c7b8c07 arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
-f40d02b067cf89dd6596d045c43434f6792345cd arm64: dts: rockchip: Fix reset-gpios property on brcm BT nodes
-0e19894fb71c8b1e0f880f298981b07be76764e0 arm64: dts: rockchip: fix i2c2 pinctrl-names property on anbernic-rg353p/v
-43cf543dad16ab6fbf00805ac9ea6df1d11b54a7 arm64: dts: rockchip: Drop regulator-init-microvolt from two boards
-98c837123f403fe96c498ec6061b8edda7fd71a3 arm64: dts: rockchip: Fix bluetooth properties on rk3566 box demo
-edeec9dc57d8f700d3d44af4d78af11df99caf8a arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-536d746ef20f4700144871b0fc0cf28a2452a094 arm64: dts: rockchip: Add DTS for FriendlyARM NanoPi R2S Plus
-d18ca74ade1ffadb360bae67dc6b4988d1d34e6a arm64: dts: rockchip: Remove undocumented supports-emmc property
-a654dcd5f706fd5bde6e16b224ab8a0c74742946 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-8cd461052f70b9f8a94e7d8038f2a3c9f4ac073c arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-475ddf9cb163de55b3a7d1e3aff56fae84ea8d5d arm64: dts: rockchip: remove num-slots property from rk3328-nanopi-r2s-plus
-7b854ee6e57766b0103ff11f3859b89ff83e1d59 arm64: dts: qcom: sm8450 fix PIPE clock specification for pcie1
-95e3c1fe14376dba5a444ab068e0281955076bb2 arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
-7b1a7417520135582fb9be23fe00397d96d3850c arm64: dts: imx8mp: correct sdhc ipg clk
-e2afa84a9462d2b10466feca3697d0d1d41603e9 arm64: dts: imx8mp-phyboard-pollux: Set Video PLL1 frequency to 506.8 MHz
-acb04b884afa46ee530fca9153c0a3abe5fd26d9 firmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()
-220126a3712779197773279038a3c949c778b270 firmware: qcom: scm: Return -EOPNOTSUPP for unsupported SHM bridge enabling
-67b205f04c3ca22ad2d777d21e7b37811f5e6031 arm64: dts: rockchip: remove orphaned pinctrl-names from pinephone pro
-bf150c46697c95f43a5f5e27b6f12e4844b7a7c3 ARM: dts: rockchip: fix rk3036 acodec node
-4ad79fd5b5e90b17e938683a7739a4ea3a4f6d4b ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-d09a7eccb99c1b7f550d4170c065969fd93146d9 ARM: dts: rockchip: Fix the spi controller on rk3036
-d808ccfd3a65c6e68a6b8e133c2a9bea55645c89 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-abb339e8f91b9de3a4787215c37428b9e5269767 arm64: dts: rockchip: Correct GPIO polarity on brcm BT nodes
-216160971ef3625477e51c64cc4ae23db228420e HID: core: zero-initialize the report buffer
-33435793b518b7744090f9adf6915237abd7fef5 platform/x86/amd/pmc: Detect when STB is not available
-7d9424bd35e5c91d6d91d24420dad08b408b2d39 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
-248ef0d1399054c7c1bee16acdd28b8c21af56a2 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
-f6a11c244776c47b6720d1732529a1c26535ce06 NFS: Fix attribute delegation behaviour on exclusive create
-0b79b0da546a0e67f878ac2981a27d1ff7cf8d22 NFS: Further fixes to attribute delegation a/mtime changes
-e15b40cebff44b27f500f373dfe8ffd5e7ad82b8 nfs: avoid i_lock contention in nfs_clear_invalid_mapping
-9b2bd3e2f502936ddae743f4d4f7bb579e12a011 security/keys: fix slab-out-of-bounds in key_task_permission
-2f443bd9109c4ed71cef043dbd332d1b60c36216 regulator: rtq2208: Fix uninitialized use of regulator_config
-bc1614ebd4518952bbbde519559e583f9c01a074 net: enetc: set MAC address to the VF net_device
-e63ee3891651041f2dbc5c564e94a27fd769ef7b net: dpaa_eth: print FD status in CPU endianness in dpaa_eth_fd tracepoint
-c276aad07d078fc6131906826f9c13a0eae950d4 dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
-83508026437142fac0e65b7753f8fc3d416700e1 sctp: properly validate chunk size in sctp_sf_ootb()
-49c77d2f581d54cb78d5e6c95c55f806e6beaa46 net: enetc: allocate vf_state during PF probes
-197cedab3a72014be5b978d0d1a64337bea01ebe net: xilinx: axienet: Enqueue Tx packets in dql before dmaengine starts
-a1ac2352f65a8d14c1e7a772ccb2fc3185ba9322 can: c_can: fix {rx,tx}_errors statistics
-611eca0f19a50cf0b30757b3a15d1c39f294fcc8 ice: change q_index variable type to s16 to store -1 value
-e28b9e41c0c0510c892d81519e50711bc1630963 i40e: fix race condition by adding filter's intermediate sync state
-812572d92d54cd6e450998b11ad50709becb776f e1000e: Remove Meteor Lake SMBUS workarounds
-949508346edc622af087d638b232a6e364f99fe9 net: hns3: fix kernel crash when uninstalling driver
-cd70a8c70b05897666075c92937d27f57acd2aa7 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-cb565ddb35ced811a47dad00afbb1638d25714f1 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
-b7090ed793586a3f8fd881194e750d077b823f31 netfilter: nf_tables: wait for rcu grace period on net_device removal
-0a0447a4d57c9f127d3531a728ad2a018d67129f virtio_net: Support dynamic rss indirection table size
-d1b8e672eee13d48281858bd4957b4b6c5ef312c virtio_net: Add hash_key_length check
-15f867022c531e4413176ea3cdf350289c69ab89 virtio_net: Sync rss config to device when virtnet_probe
-37b36d50e698457c9fa6ed318c4e1cd027f1cf18 virtio_net: Update rss when set queue
-f94321c73d1180061f8cc839d3f33522a3d54e3e net: arc: fix the device for dma_map_single/dma_unmap_single
-fed5c7c2db9f1588d957ce611cc3fe341ebfe861 net: arc: rockchip: fix emac mdio node support
-aa95402cf2ef4dd811b6c4545fa7c891a36c2a8e rxrpc: Fix missing locking causing hanging calls
-408338689f4ed2940d788616567604c84f2b930f net/smc: do not leave a dangling sk pointer in __smc_create()
-15ac458773a2c1df52cf5f7608e3b595e54d97ee drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
-7554f95395b1354ad79f0bdbbf34c3e58b77d297 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
-33586cc4312580672ac53420a67b06eb9961e28d media: stb0899_algo: initialize cfr before using it
-8b877b67218fd4f3f85c90a958abcc1e8599941c media: dvbdev: prevent the risk of out of memory access
-9c6d80dceec87ba48e93e4df5990a88b22d45d91 media: dvb_frontend: don't play tricks with underflow values
-410c5c1f668b3560411538e7cb9f93654c801b76 media: adv7604: prevent underflow condition when reporting colorspace
-10c910c83fe1745c5e8bf93e7ac2b31e0af2361a scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-e67683648ac94568bdb82c1c330170c0f6877cdb ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-34144dfa537a5ae46af2f054bc12db79cc9e5b98 tools/lib/thermal: Fix sampling handler context ptr
-e3ce8a84f2b2f7b2ecd14b72c1c36639eefeb9e4 thermal/of: support thermal zones w/o trips subnode
-04e7038811686f84f5874cf4e8465f9629ba91ee ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
-88b3a3e0d7bf55b9ba1798e35e353eb5b37dcdaa ASoC: SOF: sof-client-probes-ipc4: Set param_size extension bits
+e42d4f09a6a44b4b6f6837d4948353e2fe387a0a arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
+67ac3761b9ddf4de1dbe7ad488dc62124bfa82c6 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+30a9b6747a5bed541d5de1701d78e6d71a6a0312 arm64: dts: rockchip: Move L3 cache outside CPUs in RK3588(S) SoC dtsi
+c56f993b8156b8168d67add328c4efba57993d5a arm64: dts: rockchip: Start cooling maps numbering from zero on ROCK 5B
+dbf5e71bebede832a8da22137a4e8a5e81854a38 arm64: dts: rockchip: Designate Turing RK1's system power controller
+1e945169ecf8e28793d1538a218767ab14524abf firmware: qcom: scm: fix a NULL-pointer dereference
+70028de0550531144b5e7733a53dc086eed6753c EDAC/qcom: Make irq configuration optional
+846d274fff040a7871bf2a750c0ccd7d010d3096 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+c1af3f3125f05deb70774b25ccfd3167ba0236eb arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
+3fb60744b5efdf69ec1624578121762372d1bcb0 arm64: dts: rockchip: Fix reset-gpios property on brcm BT nodes
+d6a69e95c716b83e424fd4658d084a80a052ecb7 arm64: dts: rockchip: fix i2c2 pinctrl-names property on anbernic-rg353p/v
+002f0fb361fcae7c6cd82e84cbed352163865418 arm64: dts: rockchip: Drop regulator-init-microvolt from two boards
+e8681f3f9fe97f273b87a11b248c8d974eb0b5c8 arm64: dts: rockchip: Fix bluetooth properties on rk3566 box demo
+98d066693afa9a2f4ee217d9b5744574478fa4ad arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+0adfd4658ae52bf5b8a08f1d21867665a575973d arm64: dts: rockchip: Add DTS for FriendlyARM NanoPi R2S Plus
+e7ddfc6c92629f4fb46258bafa6b095ee5940695 arm64: dts: rockchip: Remove undocumented supports-emmc property
+17c6d07559ffba26cbf0e567c6dc1e29595ea105 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+d76539225cc5c9ad36b6db20e073d3d68bbb4027 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+161be090c72e50784900b2d6777c818855ffe7c8 arm64: dts: rockchip: remove num-slots property from rk3328-nanopi-r2s-plus
+905619b0fa2ddcf8831fb1f073ee2be12b930d25 arm64: dts: qcom: sm8450 fix PIPE clock specification for pcie1
+8a4acf371edae2adf134be3cc5c9ce80c956c1ce arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
+abc11b51a65bee5cdfefc1d07d69ff19e1116459 arm64: dts: imx8mp: correct sdhc ipg clk
+8432400a58ce4321a2a93766187f91e190420d06 arm64: dts: imx8mp-phyboard-pollux: Set Video PLL1 frequency to 506.8 MHz
+dc3e62b54e06ab61fc5e77ffc9d0d51ea8ebb1a9 firmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()
+196e0d89064506c9b6832923d05d686f864dbcbb firmware: qcom: scm: Return -EOPNOTSUPP for unsupported SHM bridge enabling
+9496c2c8f9396ba6867fd8e7337782f5b56326e1 arm64: dts: rockchip: remove orphaned pinctrl-names from pinephone pro
+51971c3da5815c2620d7af92f475ee58d2eb6e86 ARM: dts: rockchip: fix rk3036 acodec node
+ac7cd5f46922fd376dd16b24483f67bdfca641b9 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+8d9866325b3a540a8121c5196129be9d5a726d03 ARM: dts: rockchip: Fix the spi controller on rk3036
+3639df2bd3026489e2653d5ba6882ea661a0aa5e ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+657f71c2d8f6108c117706d70d1445c7f3db2056 arm64: dts: rockchip: Correct GPIO polarity on brcm BT nodes
+aea0d77b46b693a02bf08052edc47c9a3e77aa2c HID: core: zero-initialize the report buffer
+6aedf73cdd69e655a0f43367e80871b130b29bc0 platform/x86/amd/pmc: Detect when STB is not available
+0c04c4cac5f9d0dca9c67fc1b8012a7b22267373 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
+8915f90c707a54b5b5f97f11ced24c096733b9b8 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
+233f92db0123da18edc212573ea69696fa0c1e6f NFS: Fix attribute delegation behaviour on exclusive create
+c1bc72a44950c185146661c9a495b2b4986a9c01 NFS: Further fixes to attribute delegation a/mtime changes
+8c76069a26a522eddfc9083c6c14566ea01ec07d nfs: avoid i_lock contention in nfs_clear_invalid_mapping
+524b3f58c7a8b2f5ea7f77925bbcb3ad4f9f9778 security/keys: fix slab-out-of-bounds in key_task_permission
+c200a4c190812f71204dd7f9498271c5505cf9a3 regulator: rtq2208: Fix uninitialized use of regulator_config
+3f92e5829fda0559a4bc65d00c0ee7b125006e7f net: enetc: set MAC address to the VF net_device
+7691d30911f9e445ce316e53fa65a7ee7120635f net: dpaa_eth: print FD status in CPU endianness in dpaa_eth_fd tracepoint
+1d36c3f38650c77e22f12dabef255fe92e81107b dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
+95ac17fba2dca740769c6af6284adc0a77c92c59 sctp: properly validate chunk size in sctp_sf_ootb()
+da0f3d852b045627b8163d5eabc693282f65af6f net: enetc: allocate vf_state during PF probes
+c349c29b0fd380e77294520205c841f9198b7e6a net: xilinx: axienet: Enqueue Tx packets in dql before dmaengine starts
+1d3533a5ea73a0abf2f8d96193cd22d660608ad0 can: c_can: fix {rx,tx}_errors statistics
+7605a8d805b8d523ad2e94d17984af92df3b2bbe ice: change q_index variable type to s16 to store -1 value
+943c7fb35a58757713da7b456d320b802ac594e6 i40e: fix race condition by adding filter's intermediate sync state
+d0558fe97ba83ca562c3df796acae6e31640a44f e1000e: Remove Meteor Lake SMBUS workarounds
+46e1ae4c376a266d4773e64e80a994c713016925 net: hns3: fix kernel crash when uninstalling driver
+dc9b444c9e21d75eb78b9ddcc9c28455596b829f net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+b980d6201df28ab677b6e08c1b37e25d468db759 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+5ba3a97ee59fa6470fa679aa4da982613b317b36 netfilter: nf_tables: wait for rcu grace period on net_device removal
+7c0ab90aec2e32a0c2a309366949dfcaa40fca0c virtio_net: Support dynamic rss indirection table size
+479f544ae2a5e2ace3798456964b0f3a8848bbe9 virtio_net: Add hash_key_length check
+19c06d9651268b254ffbd12e16926671f8b94438 virtio_net: Sync rss config to device when virtnet_probe
+c0db4dc929eaf25ffc8e325a1120df08df66e877 virtio_net: Update rss when set queue
+5c835153a6c69b7071f18ad5eba8268ff7558a49 net: arc: fix the device for dma_map_single/dma_unmap_single
+f05e86d2cc65fd06736d6a1cfd8d076547ea4f49 net: arc: rockchip: fix emac mdio node support
+7606c2fb1e8a4794c9b016756f6b2cdd15bc7a68 rxrpc: Fix missing locking causing hanging calls
+c1348b5f4cce41b9ac5bf9949f35778c9c96247d net/smc: do not leave a dangling sk pointer in __smc_create()
+5b0c4e1951b8c6a2ca02f67ed1780c1d781c6e2d drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
+988482cf4d49a00bab744f7f36a655c0e5d67f64 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+0f4f0be06071f1a373c531615abf18cd369e6327 media: stb0899_algo: initialize cfr before using it
+e69f03c4847434a5192d161ed1c4aa35be5158a6 media: dvbdev: prevent the risk of out of memory access
+5596394bc360cb90903a4f73dda15b9de87ddb89 media: dvb_frontend: don't play tricks with underflow values
+292b7eef83722e1997d6b519c44ed498a9122350 media: adv7604: prevent underflow condition when reporting colorspace
+4ff693ab81fbfeffcd3ae4c5f73f34217b5609e2 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+be5eb23d83f157fc1eff30dd9e324f5326e62dca ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+7e1207e00433b8ba6c02a3ea625384f29d235495 tools/lib/thermal: Fix sampling handler context ptr
+cad8675c6bf7259197ab35ccad8e085839c669f6 thermal/of: support thermal zones w/o trips subnode
+e748023b994063e4aef6b107955673b68bc4383d ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+4559f135a8fc3fd8ac2b4e1d36797eb56637a077 ASoC: SOF: sof-client-probes-ipc4: Set param_size extension bits
 
---===============6645431658625995830==
+--===============5437677216669434587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08b437dae495-b7d431d53059.txt
+Content-Disposition: attachment; filename=revlist-b7d431d53059-59ee66819386.txt
 
-06699fcb6a982dfbe5c965d25b0684587c00058a arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
-3b28584b62b10aaf032ded75b754488b24eda2d4 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-ec3a50e21a4c081755aa7399c979eb04da14b6b1 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-315df3ee5e70035aa331c83e1f1ff863b6b3878b arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
-8c0fa0b255ff95e53b63b1e1e3f1e8d4acb54da9 arm64: dts: rockchip: Fix reset-gpios property on brcm BT nodes
-74318a7d51705cd83436e3f367632af67dcd3236 arm64: dts: rockchip: fix i2c2 pinctrl-names property on anbernic-rg353p/v
-923e678477dc61e18350a12d40f724b0becbd393 arm64: dts: rockchip: Fix bluetooth properties on rk3566 box demo
-00a2eb0f57e0db20ab4b3934b2d8443a87a3c703 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-1e24c8002c8f688c1a81dd54a5b1bfc9ff0de1c0 arm64: dts: rockchip: Add DTS for FriendlyARM NanoPi R2S Plus
-b560e492ab55034e2680479a76865f8c4de69225 arm64: dts: rockchip: Remove undocumented supports-emmc property
-b9e5f16a94214f982989fede1d1a026e31bcf541 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-9607a578547b05c4103a0eb52ce088bea964c424 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
-11339941c78747f2d9b7170fe97b96c46a710b42 arm64: dts: rockchip: remove num-slots property from rk3328-nanopi-r2s-plus
-7ccea2b4f9057403ac2d44099aaef3347343020c arm64: dts: imx8qxp: Add VPU subsystem file
-0a6033588effa37e66864765eb7c703d84c7518b arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
-65040fb4d51ad5f4ea4f53722c4c4b66fa1c4c2e arm64: dts: imx8mp: correct sdhc ipg clk
-59e5e097026edc7a380eb9889b49fd089e00dc86 firmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()
-a012140d81d4534bc60fb76543711a3d975db9d1 arm64: dts: rockchip: remove orphaned pinctrl-names from pinephone pro
-8f4ea26f7623c4d5864b57f9e0ba6d1d02c94ec7 ARM: dts: rockchip: fix rk3036 acodec node
-61b04a1a0d3bd7dc1133ac3d66d336abe1209f3b ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-1d106bcda741321efd95ceb02fa3b800aa7b21c7 ARM: dts: rockchip: Fix the spi controller on rk3036
-82c49106a49431f8010df37f8c22d7d5b6857871 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-f3425aac5799b60f09051854ee6af0b108c548b3 arm64: dts: rockchip: Correct GPIO polarity on brcm BT nodes
-db6209468f560d7b9a43bfa506d38536f13a632b HID: core: zero-initialize the report buffer
-9fbcd054a436e5c9a0aa7db4fc33f8f7b193ad50 platform/x86/amd/pmc: Detect when STB is not available
-9d62082b52ef50ff1dfeeb23d1901ef8b16f5f34 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
-248acb909d0face0b9c7c57f0e22ad3672930396 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
-0bd9ce82d63cf85b48114e4f02ec463cb0aac27a nfs: avoid i_lock contention in nfs_clear_invalid_mapping
-e1e120a18e64d96817630777c5c663727f9ab696 security/keys: fix slab-out-of-bounds in key_task_permission
-edcf7f5ee5b748ef7935346af2329299a778d0e4 regulator: rtq2208: Fix uninitialized use of regulator_config
-c19eff196ccb2dcd8e0ea59ed2e745ba0c60e26e net: enetc: set MAC address to the VF net_device
-722b9eda4d22d12f2d4d4a35a93854dc5319db21 dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
-35022181c443544bf9653d78563d71b4cc844c66 sctp: properly validate chunk size in sctp_sf_ootb()
-168988728d5dda6cdf66bc64d3b0bffad7449852 net: enetc: allocate vf_state during PF probes
-125a68b6e3866d5f70e6f6548d8050730085f2fb can: c_can: fix {rx,tx}_errors statistics
-310edf706e5aa793d627fd87726648f5504d3977 ice: change q_index variable type to s16 to store -1 value
-0797dfd3893f697d27559e22cb452ec65c00174a i40e: fix race condition by adding filter's intermediate sync state
-366b647e30cac5f64ca388aad865e0af83585bca e1000e: Remove Meteor Lake SMBUS workarounds
-19b7d7b01254868b040e8acd101875497ae00b18 net: hns3: fix kernel crash when uninstalling driver
-45e9ca1574af83b93053011ac606c122d0b2ae08 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
-747282e3dd674649f341a11ceff8d0ddecfed6f4 net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
-b251fa8ec3c99242340593b4eb31c2c1b06a25d1 netfilter: nf_tables: cleanup documentation
-5808c4944faa3168866f5ccbd8486dbe84c64740 netfilter: nf_tables: pass nft_chain to destroy function, not nft_ctx
-b63fd6359d6b6e0dc7c53e3f7ff1565e199410ea netfilter: nf_tables: wait for rcu grace period on net_device removal
-da9066baaf407e534bbed3bea8a48c59cfae21ec virtio_net: Add hash_key_length check
-33abec5496516b20a1aca61629603f9ebbfd2df3 net: arc: fix the device for dma_map_single/dma_unmap_single
-8b975061a652042d1f2279a58db0eb19d774449b net: arc: rockchip: fix emac mdio node support
-34ad764b5d0cb73b46dc875dfefcbbfd4f4a422d rxrpc: Fix missing locking causing hanging calls
-c7e6e6b9ac0480089c8323e17e08bb6104607453 drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
-ad22af10503171ec3d5eb071bd285acef4cf9f73 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
-448ff81b8e78a99e83a658c84920d2d3a78faa4c media: stb0899_algo: initialize cfr before using it
-043ab1f36513d1e9295251d39a9dc40c1f954d9e media: dvbdev: prevent the risk of out of memory access
-1ef4d1b0178cc7aa8bb7051ca83cdfa7d2203aa9 media: dvb_frontend: don't play tricks with underflow values
-d9e60b64bd16f39d6b954fec3b4a3c0356ae9cd9 media: adv7604: prevent underflow condition when reporting colorspace
-4c0ca0ae451c2ba84e8a16f19285394002f08b0b scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
-5300d352e92ec552facbc4ad6067dcea31939e17 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-d11b536a146fb1867e297ce2966c180d836bb972 tools/lib/thermal: Fix sampling handler context ptr
-bed9a31916089aa852d3ecdfd545ea7edc7de395 thermal/of: support thermal zones w/o trips subnode
-c4c003e33c30cdea958ddcab438fcec951be27cc ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
-b7d431d53059bdc858b28d24d58bf4f2f7cec3d8 ASoC: SOF: sof-client-probes-ipc4: Set param_size extension bits
+bbc283d04ebb9fc11040e256dce40bf013dd65d0 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
+f10e952e06bde87449e0ef76cabecc688d4ab750 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+2137c9e2482755fa03cb442873287f9a8005e25e arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+6c31acde1cf047eeb3a9e4b86b590286bdfb172f arm64: dts: rockchip: Fix wakeup prop names on PineNote BT node
+29c58ee151ddcaf780b555ea7e03eca5550b55e9 arm64: dts: rockchip: Fix reset-gpios property on brcm BT nodes
+a394b9e17950c933cf6c602e5c425a3b001d0a88 arm64: dts: rockchip: fix i2c2 pinctrl-names property on anbernic-rg353p/v
+62434aed4f285251880fa39835dcc6bf1e3a358f arm64: dts: rockchip: Fix bluetooth properties on rk3566 box demo
+82898be99aea37212d6e25a638a8b0cf07985bd9 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+21d90a6cd58c5e54b3bdfa3da5eeb68fd1966874 arm64: dts: rockchip: Add DTS for FriendlyARM NanoPi R2S Plus
+0433d094bbe7cf05e913dd96f45e9aab340f08f7 arm64: dts: rockchip: Remove undocumented supports-emmc property
+415d2eb55e1e77a7cd0a3b459c43a4c8f75659f6 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+eceb1759309aad36afe24fd51062872745198efb arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+7fb2b5bcc6d18554cea913d5542a11f45e86c621 arm64: dts: rockchip: remove num-slots property from rk3328-nanopi-r2s-plus
+15eb0c6bba1da1881ace6142d1cfaed7ed5db7aa arm64: dts: imx8qxp: Add VPU subsystem file
+ee2cc4afa60aa74c7d0d9c3f276e182bd0576de5 arm64: dts: imx8-ss-vpu: Fix imx8qm VPU IRQs
+5d01ca5f442e38af777dc8a6f24ec8965f71bb07 arm64: dts: imx8mp: correct sdhc ipg clk
+befe9a02c4f5be16417b3f29b6035c2fe1f85fe6 firmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()
+a054ee64ef8cc33c2f851ad820b1b8f570a944e6 arm64: dts: rockchip: remove orphaned pinctrl-names from pinephone pro
+c93f1a1cf0ca9c51078db83b40e4ba160d92bbf5 ARM: dts: rockchip: fix rk3036 acodec node
+e94cd4682060cea7b4dce2556c4b7393c1cd0a89 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+20ece15c12dc7241fb6b9f8eebd94e54c84be01c ARM: dts: rockchip: Fix the spi controller on rk3036
+1ebd1a53e001cb8c406bfc287e3628e90e0fe59e ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+e09b0008d70b4f04e06ecb2721ab8ff7b6f4071b arm64: dts: rockchip: Correct GPIO polarity on brcm BT nodes
+c571e7325a673bf29e80dea6ede449702db9fd70 HID: core: zero-initialize the report buffer
+e9261882a4837f1932f5c7c02da4550105690bbd platform/x86/amd/pmc: Detect when STB is not available
+800ed5e6bfd3c4c07c6af3a8d52ac855091447c9 sunrpc: handle -ENOTCONN in xs_tcp_setup_socket()
+e5be7a0a66774468cab458dff888874f0dd55bc8 NFSv3: only use NFS timeout for MOUNT when protocols are compatible
+032693fc49ea124821914d0a27468bd130814484 nfs: avoid i_lock contention in nfs_clear_invalid_mapping
+3f37a824be0cc2b1cdbf9751638a8d7e01ba99f2 security/keys: fix slab-out-of-bounds in key_task_permission
+c65f9d0a4ba571201d350665553bf09bd680c8e3 regulator: rtq2208: Fix uninitialized use of regulator_config
+ab644dfb058a7f941c616b2e863071e40c48a9ad net: enetc: set MAC address to the VF net_device
+35baa281e1ba229d6bbce201b27083b90780f30f dt-bindings: net: xlnx,axi-ethernet: Correct phy-mode property value
+2a3bcdb6e519c31b761c12cedf6ab9328067d48b sctp: properly validate chunk size in sctp_sf_ootb()
+b15a679d1b28b8ac6920ff7c7d81455c7dc51510 net: enetc: allocate vf_state during PF probes
+32504d6f90db103d6b526c2e91a7b6e88a9b9516 can: c_can: fix {rx,tx}_errors statistics
+7b79d51826138f69749fa821cc09b4355926bfbc ice: change q_index variable type to s16 to store -1 value
+b77162c61de90c6044c1fd592296f0c7dc87fe2c i40e: fix race condition by adding filter's intermediate sync state
+5a89e414038cfda3408d41819e144c6f72e75f14 e1000e: Remove Meteor Lake SMBUS workarounds
+29d97a4096ab688f4ba272af546baf61b29af66a net: hns3: fix kernel crash when uninstalling driver
+82ca88702238e9373d248d0fd69c669679fa8dd3 net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+c23b8eda30bab1a3b21fe9837695392cfc4e60da net: stmmac: Fix unbalanced IRQ wake disable warning on single irq case
+8f3d6574277d0bb57d0048077d45b23b5e4b7fab netfilter: nf_tables: cleanup documentation
+e827ffcd6cdc47405fd110c0bfda45d9e67cc9a8 netfilter: nf_tables: pass nft_chain to destroy function, not nft_ctx
+5d4e5bc03ae4c2d94000a1fde621f0e2039862ea netfilter: nf_tables: wait for rcu grace period on net_device removal
+08687063cf8caeb10aa1e1ac0a4af1da6623f7c2 virtio_net: Add hash_key_length check
+7f4b29bb7b2fc513bd8b138a5ef9ccf6edd22ed3 net: arc: fix the device for dma_map_single/dma_unmap_single
+3d67e0f3c45ea3b32782f0d1dfa30e425549e22a net: arc: rockchip: fix emac mdio node support
+f5f5251b4173527b2b384bbb33af8888d693fc31 rxrpc: Fix missing locking causing hanging calls
+36c079a96882f658e6f83a6a10fa6072b31f73d4 drivers: net: ionic: add missed debugfs cleanup to ionic_probe() error path
+3759ef7da15e6e7dffe8d151fb620de5912b4899 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+f92550f0954d20d862c4baaf7bdd72a9d939fdf7 media: stb0899_algo: initialize cfr before using it
+d49899549192fbb6a1359a18f4c392d2ccde2e22 media: dvbdev: prevent the risk of out of memory access
+f2bc94c4d83fe54882afee2e9a89df6a15bc3257 media: dvb_frontend: don't play tricks with underflow values
+c9164d897ba8d479a51000aaf246ec94f1947f70 media: adv7604: prevent underflow condition when reporting colorspace
+35f4c7c1d0d0090d5f72bd331bbf907c30327074 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+117338dd800ef6b66940ce2750396d2929369530 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+f4784039682064cdc2bad658b248d490ec2d7d99 tools/lib/thermal: Fix sampling handler context ptr
+90cc489985cc3c75a5ad23eb9837499bfb18f8e5 thermal/of: support thermal zones w/o trips subnode
+a179f690d0e6bd9f101e2ffdfc52c5c215d5aa70 ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+59ee66819386592095adeb765c9a25a5b74b8789 ASoC: SOF: sof-client-probes-ipc4: Set param_size extension bits
 
---===============6645431658625995830==--
+--===============5437677216669434587==--
