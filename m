@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5188922577182012907=="
+Content-Type: multipart/mixed; boundary="===============3197863537418037893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 09 Nov 2024 11:20:07 -0000
-Message-Id: <173115120773.3075690.9767196384242846220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 09 Nov 2024 11:20:23 -0000
+Message-Id: <173115122351.3076087.2487843692488682521@gitolite.kernel.org>
 
---===============5188922577182012907==
+--===============3197863537418037893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 4c044d81f45224d419853180e2198424cbff7657
-    new: a5ea9d64efc118a5b6112711005da46baab827fa
+    old: 0e311e5ae85763d964c7c5c7ac875fff69d6edfb
+    new: 5c91d7289ba77a67c8609c75500d3f409262cec2
     log: |
-         6882cc98271302c20162bc2912c3f2e85a2e8779 strip the mbox files from recent cves
-         a5ea9d64efc118a5b6112711005da46baab827fa add .dyad files for new cve ids
+         5c91d7289ba77a67c8609c75500d3f409262cec2 4.19-stable patches
          
 
---===============5188922577182012907==
+--===============3197863537418037893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731151228 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1731151199-3ffb6a297f06d617d16529edf880f421df6502a5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731151250 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731151219-9e7958ef3c80d9b766ae9db6bb3d126e040eeca8
 
-4c044d81f45224d419853180e2198424cbff7657 a5ea9d64efc118a5b6112711005da46baab827fa refs/heads/master
+0e311e5ae85763d964c7c5c7ac875fff69d6edfb 5c91d7289ba77a67c8609c75500d3f409262cec2 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcvRXwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+87IP/iIB7fpuAUc7vmxXTg+E
-Dza8fd1U7RFbzp9NP1A2Pg8uYxgY1wx/rSnQUTQ7nrhtkR7TQK4Qk6XsONMferJV
-xCcH8PFZko12VazGmzGwXqb9CJdQwLlksK+5ZT6QoDFM6/LzoRlJ53Jrhxn0irAz
-Ev0YMqElXOK8TNu5NViyHtnMQccqBBYLrJnlgMXNuj8FghHYpMN1uXBnZHrJFdYe
-ICJnlFrz7YQ0XR7vm1dJlYO5RLU3Z09gOg04kdinbqkbjcpc+WSRG9ZOln2yJdxE
-YxrXz6UetJLQ2MWzlcR7nz7WWKNJ2gK3SXuGryNaQWs4WGBBOdrgcX2ua/zdZcFY
-pWcAI96Io4G0flnCmjlZJCvQbhYgTcSg6DFrBvDHNjHtZP9Rwkje55uuoeFYYtZt
-7w6U7Qr1VWSX55AdApT8XEgeHeS2xQzFfvPyF78qALL8UXzabvmUCD1iibs2WbEx
-iE2sCX8b2OE6GYZXXOyvQxiJznmNXXHFjKRmqMHXEMMEdtP2V8AAsuRipAjQAxoY
-dcBznjpAvCO9mkCsDKVcnJh4qv3PxNXsSHGgDRuXduRWw0QqD0h1hWS6E6vBmUJ/
-NBrJpFHG2v+J1kafJc4CsO67YwRLkRD4XBcdKTyIHNq4vjxPmtpux40Qgy8U9EyG
-GgL8F8VYwsxtLSdAyvJp97af
-=yJzJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcvRZIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xzkP/0PGvm+d1VFJqHFJxDmi
+2UpkALwbYkIUgU5EKRezBN90S5H/LWpSLcv6X1xhAHQuQDs+gbbhaDZ+GF452eC1
+AW2EOIvcdNMgsGvhG+XqtY9vXhvGt1+ffnjhb60FFtKqBXfDUO+YGcZbOk0s8f1F
+mGYyVvxlx5K3vhfpeoosYfMBKjTRw7cWZC6NinW238qx6F363KpAa03zE4I2hA92
++/1yltEPPYhzGUuJJybWvwP4vB7MI/kSBKFPecPRfGLI+jDUow0hkxxj52T8UZjJ
+Epy3Q7fS+SX6cjKYrWndljkTimvIHo4vgXnhAsMig4EWU3uvRwZ8NvwchU6mmhcQ
+cg02fN3kXFO8P+N6Sb3tz1p59VE/2fCZvjOQnF3qxaNzrZ9JX/lTTkmLR9F5qPzW
+642oFjrSnWKK1Mpi1BR6uZZOL+/JbBuM40PakqPonZIO3iZNwVR5PMXPcWkW0Ooe
+XL4tiZ6yq55s5navBEKo5+dDsgg3HBkeSwImAwsZqbAPDYhxyfEsehvPZissLanb
+YoB4C5iZU6m4PaLHysCrVyiXRvVTdCkbE38pbfj2Tdn9yWoVTObxqzr7Y70Ly82P
+2PWqnDhdwm65HLk89DmJ90vguvck45jZC7MAuVtxr115GptbEAbz/4yJAMntBmpa
+YCGNyn9+mzC67M/xzQxhJCK4
+=I2G3
 -----END PGP SIGNATURE-----
 
---===============5188922577182012907==--
+--===============3197863537418037893==--
