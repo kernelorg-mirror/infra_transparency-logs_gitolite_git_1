@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sun, 10 Nov 2024 23:48:27 -0000
-Message-Id: <173128250734.658628.5663649132143018110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Sun, 10 Nov 2024 23:52:23 -0000
+Message-Id: <173128274318.662609.4831109395405683193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/heads/timers/tick-sched
-    old: a1aeb04cad0ea822bbc9ae46ae9e17b6798b86a7
-    new: 3e188e7786d86fbd55e604b2312280f8897904c0
+  - ref: refs/heads/for-next
+    old: faabe02697d7348f5c7cb7be4d93f9c9041021f7
+    new: 2eff056a229e21d9e287a74f1305f947ff6b141b
     log: |
-         18f40359f4507d1f80ce208cd836283d146bf820 tick-sched: Keep tick on if hrtimer is due imminently
-         7bf6ff4c158078006cfcd83c698c8feca982acbe tick-sched: Replace jiffie readout with idle_entrytime
-         3e188e7786d86fbd55e604b2312280f8897904c0 timers: Calculate now from jiffies during remote timer handling
+         2426b5e276b16354925dcfa28655f264fc36981c dt-bindings: arm: aspeed: add Mt. Jefferson board
+         8e2e003ccafe87795a9940ffed456600f71a0fd7 ARM: dts: aspeed: Add device tree for Ampere's Mt. Jefferson BMC
+         000136149f7f2fd09f757525c3c9321d9df7be71 dt-bindings: arm: aspeed: add IBM SBP1 board
+         275017f75a4fefd004962024c3b4a1587a95bdfe ARM: dts: aspeed: sbp1: IBM sbp1 BMC board
+         c63cd57bb09abfb15b6907e85d2df7be152d9f25 arm: dts: aspeed: Everest and Fuji: Add VRM presence gpio expander
+         2eff056a229e21d9e287a74f1305f947ff6b141b ARM: dts: aspeed: Blueridge and Fuji: Fix LED node names
          
