@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============7177135807381016749=="
+Content-Type: multipart/mixed; boundary="===============0494417934506549348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 10 Nov 2024 13:33:55 -0000
-Message-Id: <173124563557.176567.2711596769739891260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 10 Nov 2024 13:34:25 -0000
+Message-Id: <173124566536.176873.15050595686002843470@gitolite.kernel.org>
 
---===============7177135807381016749==
+--===============0494417934506549348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 1395a4e4b58cf6601b3d1144964a18c8c19946cc
-    new: 3ad575b4fa3aaec3a0f1df62a11bed1236c9a726
-    log: |
-         3ad575b4fa3aaec3a0f1df62a11bed1236c9a726 voting_results: add a test suite
-         
+  - ref: refs/heads/dma-split-wip
+    old: cc68b5e922a2b4d3c48525f764d6af972ec872cc
+    new: 9c2ae583a72f3763c979ad114faf84b3512ee9f3
+    log: revlist-cc68b5e922a2-9c2ae583a72f.txt
 
---===============7177135807381016749==
+--===============0494417934506549348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cc68b5e922a2-9c2ae583a72f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731245661 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1731245632-73968be993de051ef4aa4b623cb3e5d5a6e411ba
+a42f5a1ede10d4181c5cab3c88ed43a04be79565 mm/hmm: provide generic DMA managing logic
+7924a6679f27933da9b654693cbaac60c289fd41 RDMA/umem: Store ODP access mask information in PFN
+b0344f059cac76c621c073f5e0407bdf7a7e951a RDMA/core: Convert UMEM ODP DMA mapping to caching IOVA and page linkage
+e482e858de1f745c4caac70d8568eeeaea15dc1a RDMA/umem: Separate implicit ODP initialization from explicit ODP
+912c444cd3632b54e25a9cddc3ce2a4dbf9a002e vfio/mlx5: Explicitly use number of pages instead of allocated length
+ff88bb626c897de6b9808c83ba1b1d7b8517418b vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+7f7d7efa2ea061dc088161ae549f378785b32d13 vfio/mlx5: Enable the DMA link API
+13be220dce0b70ed53c6aecb5cca0ec4c488de8b block: share more code for bio addition helpers
+358b860edd67fa1885f287b9fc1e44deaa331be3 block: don't merge different kinds of P2P transfers in a single bio
+32ef9a1660106fe76b27a36fc03689efb6276344 blk-mq: add a dma mapping iterator
+c458a975937700c2ff98bd5dd63a36641cfffcb0 blk-mq: add scatterlist-less DMA mapping helpers
+3280183dbe3f0bbe4bfb56e7da458aed7c2ea8d5 nvme-pci: remove struct nvme_descriptor
+c5325ab6adebb255cf0eb2fcc1afe9047f8fd0dc nvme-pci: use a better encoding for small prp pool allocations
+cbbb612bb285c1bbcf8e61fb5f42e54503451e76 nvme-pci: convert to blk_rq_dma_map
+9c2ae583a72f3763c979ad114faf84b3512ee9f3 FOLD: Skip sync for p2p pages
 
-1395a4e4b58cf6601b3d1144964a18c8c19946cc 3ad575b4fa3aaec3a0f1df62a11bed1236c9a726 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcwtl0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F8QP+QE753ck7az+71GE/o/l
-1gFXt+Cs6INYBHzKqZXEfADLJpgXA3R1LU6pPWgAdW+ECCUH66oC7Bo5N/gX6g20
-mdrsgnwkBW8YeLgz4r4O6k7vJ4pobk6SQBHvm80SHyFxHwanMWM2Hv6ZDMPWXGDq
-5lv7l9wmPSmBW2owCYhDVgya6AcBlqVdn901lBTvX54qq1Q64/eebUm7jJU2XACK
-QitJq5x+mGiMqlDfiLTwULly4Sj/BHD1DYR+nEbkHre6jXzFxtVeTFBZvpEmBVfc
-3+XqnCvhTqGtyKWm0y88BM8izhyvo5Vj++1wePzxQ1cqDxigfoZkgo+fuYwAOawV
-oiVEVzR70A7F9cgkf4cBpYr8zP1TCEb4rUZ1XpNvVEoDmZbHWWdy9y3FPv78FHh+
-j/YDDB8lukAH61mzBOR3RQlOiwKTfHqnSyo1Pjz4DcYyqmxUwjFlOlpd1rhWIM7o
-z5gUgXzA4zTnk9cK5UbsZ1lnFFRiQISjQ3gv4EgD/v2+686fhA8+Xtv5fV5Jo6hZ
-yBse9b9N3/VSC3ozL7BcvM1MKVE6fjsp2ZCf6ID8d+ziP1dPn2tidIm2gTBSe+TB
-Hvs2AbPeEXU12xNaRveF234T/spaijx2T6uwtZAdCYTsqKo2v8YAE/t0gNgQGPwz
-45sVib/bT7GGoDIKhQmOulbD
-=Bun7
------END PGP SIGNATURE-----
-
---===============7177135807381016749==--
+--===============0494417934506549348==--
