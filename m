@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sun, 10 Nov 2024 17:06:45 -0000
-Message-Id: <173125840565.344911.11624510967907672393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sun, 10 Nov 2024 17:41:48 -0000
+Message-Id: <173126050877.371584.5903034783140347790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/b4/power-supply-extensions
-    old: ee235561e04ef46714a1798c637adca0f42d465a
-    new: 23e34bf0ec0c719327a029a693eb04125182eec8
+  - ref: refs/heads/arm64-for-6.13
+    old: 35e0a4f0a39651a6a6009f516847721cfdc633b7
+    new: 798515297c19d2b5b006049a3e75f57322ffe9d9
     log: |
-         1970d86abc532835e7f4d32f6b5738bf2e8f831c power: supply: extension API
-         6b9c43a24254c3588f368599e18ca3f146a6c135 power: supply: sysfs: format single value in uevents for POWER_SUPPLY_PROP_CHARGE_BEHAVIOUR
-         4e40a6ac5ad23380753824cd97a85e22b40322c6 power: supply: core: rename psy_has_property() to psy_desc_has_property()
-         febedb584d543e8d0dec7660ea441ce4054e8001 power: supply: core: introduce power_supply_has_property()
-         1a23e1b194702bcc0349ba07c823ab242b28abcf power: supply: hwmon: prepare for power supply extensions
-         017763b769ce98120e360f872ccd5d8f60e3f28f power: supply: sysfs: prepare for power supply extensions
-         c9afdd30bb935d097624ae997a990f85efaa574a power: supply: sysfs: rework uevent property loop
-         7319cf1f0574e544f4ca9dae1848636d144901fd power: supply: core: implement extension API
-         2d3f775ceb5ca324f79ed0f375ff2724d66b51dd power: supply: test-power: implement a power supply extension
-         23e34bf0ec0c719327a029a693eb04125182eec8 power: supply: cros_charge-control: use power_supply extensions
+         798515297c19d2b5b006049a3e75f57322ffe9d9 arm64: dts: qcom: x1e80100-vivobook-s15: Enable the gpu
+         
+  - ref: refs/heads/clk-for-6.13
+    old: 21b5d5a4a3114607a27653371c0332f2080e3c05
+    new: 95eeb2ffce73feb883156cbb056c75ee33c28648
+    log: |
+         43b53bca61b032270395152ba93d6e9ead47f0de dt-bindings: clock: qcom: Add GCC clocks for QCS8300
+         559dd75eb95b44537494d34f3223a850a6c20f3e Merge branch '20240822-qcs8300-gcc-v2-1-b310dfa70ad8@quicinc.com' into clk-for-6.13
+         95eeb2ffce73feb883156cbb056c75ee33c28648 clk: qcom: Add support for Global Clock Controller on QCS8300
          
