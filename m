@@ -1,53 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============6155425014814742729=="
+Content-Type: multipart/mixed; boundary="===============3672662773704971412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 10 Nov 2024 06:30:51 -0000
-Message-Id: <173122025154.4026322.4516059716476708226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Sun, 10 Nov 2024 06:33:43 -0000
+Message-Id: <173122042316.4027562.15614152955077355149@gitolite.kernel.org>
 
---===============6155425014814742729==
+--===============3672662773704971412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-6.12-rc7
+  - ref: refs/tags/v5.12-rc1
     old: 0000000000000000000000000000000000000000
-    new: d94c472a38157a6930345fa64548d6614d2f98fd
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v6.11
+    old: 0000000000000000000000000000000000000000
+    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
+  - ref: refs/tags/v6.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
+  - ref: refs/tags/v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
+  - ref: refs/tags/v6.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
+  - ref: refs/tags/v6.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6801a93b4309318c0a7341338184fcd4ce865936
+  - ref: refs/tags/v6.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
+  - ref: refs/tags/v6.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
+  - ref: refs/tags/v6.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
 
---===============6155425014814742729==
+--===============3672662773704971412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731220261 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1731220250-9b501c0c33717ae9efea9715996b972dfe3621f0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731220432 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1731220420-723381fb283936f3e163ea33070cb11e7216cd7e
 
-0000000000000000000000000000000000000000 d94c472a38157a6930345fa64548d6614d2f98fd refs/tags/staging-6.12-rc7
+0000000000000000000000000000000000000000 d1da37c58e65c4800cce768533c563fa3c89c62f refs/tags/v5.12-rc1
+0000000000000000000000000000000000000000 fa7818b3a6dd56c7956f515d287ed9f80c7bf59a refs/tags/v6.11
+0000000000000000000000000000000000000000 042a071fcf19ce0b699ad7caaa4726915f740dd6 refs/tags/v6.11-rc5
+0000000000000000000000000000000000000000 8e7c1c539395e34648d859c20b0f9478eb5901cc refs/tags/v6.11-rc6
+0000000000000000000000000000000000000000 8517d20decd39c018e8d7d6bbc5a0ca254c9a007 refs/tags/v6.11-rc7
+0000000000000000000000000000000000000000 03dc72319cee7d0dfefee9ae7041b67732f6b8cd refs/tags/v6.12-rc1
+0000000000000000000000000000000000000000 cd54879c3cbf655d161b2f5f401bbc74ea20cf18 refs/tags/v6.12-rc2
+0000000000000000000000000000000000000000 6801a93b4309318c0a7341338184fcd4ce865936 refs/tags/v6.12-rc3
+0000000000000000000000000000000000000000 dd41b19dabde8b19ce2aba70fce98f8bc605802d refs/tags/v6.12-rc4
+0000000000000000000000000000000000000000 ac746e6156c4d6d7b46ba2102acf644ea2aa4aac refs/tags/v6.12-rc5
+0000000000000000000000000000000000000000 f3c18f7b56ad121d3225a32ba6c00b1047a37863 refs/tags/v6.12-rc6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcwUyUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ThgP/imiCMFlX78ryYiEGcnh
-aomhzSipC6YCpmiMircPB0QLBPKZgex26VrSBsM5EEjXiLmY/Navr6xIl0Qon+aF
-MirFZ8va1cRC2CNfMOhOEj+aTxX4N11SPYtjBb24Joe/goUJJIIE7oBR/tT+OQGi
-T6FaeR/dU8NJSBP0HE5QbjxiIRQ3TIwgFA+n/4IvixJ/kvZE0MRdimLYZPUHMQ/7
-CAuexC6kJPVyIXna8PB3Q8QTvUATXLCkScq9QLafzJAaUrSdjVPM1Ij0fiZ4L9OF
-OjF7kRAo1lPZWxI0Gajz2NS4+ZjFo+9+McakR241LnweJ8warHafEwVvOFKuFkUL
-WbA5bdMoCne6+AZjAuMmsz3Z60urtsWaAubx/hNIcGSpZ3lDIaP2a3W9Rk9UmTpl
-BedVyQ7IHT1gOaA8kAbUk4X9iYOfLsJAdRjvQLzRZrhLLt7BUfcgM7griaJFmyOm
-j/MbTXNjU8JfvUc2fOGWZJsDVhhM3ya2YmRJ3rc2Io5vaC3xvZzzVyKjx3J7M5ND
-+pS7iuOyFyeMXJLvI4bcHm6ukoSO1vTXAx+nOVySAKA0Dl35UxyMnp0vQsy/UJb0
-mJ1Uli/b9HuTEeO5bUDjobTFbbdzCaEFIZKlN1UnjrXFjs9opYqsoZpPO5vIPEef
-1fa+jRJ92AH5cd1KKmOusuuV
-=AcQm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcwU9AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KbkP/A80RRMe2oGpAQ89wNDT
+0/J+UJ+oO3SZMIQAOY+TbKoGrlc5GQuF+HsMDzecYGp1CZXyiwypDuLvvbyr0JOm
+0tmwJQJTrjYHlhKehOff1bCwu2cuggqVH2ozbw1jyWuZrxdCKJ5znTMN4LuPzByt
+BF9bAqSMFYHNtBUHqpTYLbzKwJlgTEHTZIl8EHSJdUtcsI7osbImKmf8ybqGV7W/
+7G6dWs6ubQ99TGXPihfWw1dmu3siKKTZ3xZyR7I1sHgwHGB1tgfTjT+mMEpR2+cY
+ErQyZtLLnBz705hkTuSFCRIo+B0tn75XfZI0UcTrxNo3hX5OueeZT7nWv8HuVRfy
+M7QQ+OfX9GxQ7MbUNxQ0owICKAZC06lCOI6OgdX3W0RV4mkHHTkD4hdgZ4LDKCmQ
+BbIABmyZBaSjSXjhsXhOII2cb2aihQHHge5ELWkGBl3iIb/FCUA6nU3Z2lZSDM1o
+tCp8L0smR0TClq5Ioc6NVRY90pLsQIWBjw2kv9VzP+KfPnFqw4ef+aySG+bA18E9
+0lZ2GdaWfOf+0vxlV1o6ypS4aMu9Ly2oE1IB0jJno0GopxuBUQNIXxIH8hcN1G0m
+yDci7dnzpXFA9bu7vlZT95ghvEbP9HZNtdmyR2tJ/NM6h0REV9BaodxrOYXqiBnr
+gcPY09zK2ZXsNtZQFDEf3Kmh
+=Tcl8
 -----END PGP SIGNATURE-----
 
---===============6155425014814742729==--
+--===============3672662773704971412==--
