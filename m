@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1011915252179538284=="
+Content-Type: multipart/mixed; boundary="===============4713592016695033366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 10 Nov 2024 18:42:18 -0000
-Message-Id: <173126413839.417264.11929121336632636159@gitolite.kernel.org>
+Date: Sun, 10 Nov 2024 18:45:16 -0000
+Message-Id: <173126431680.420705.6125729875402439008@gitolite.kernel.org>
 
---===============1011915252179538284==
+--===============4713592016695033366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 2e1b3cc9d7f790145a80cb705b168f05dab65df2
-    new: a9cda7c0ffedb47b23002e109bd26ab2a2ab99c9
-    log: revlist-2e1b3cc9d7f7-a9cda7c0ffed.txt
+  - ref: refs/heads/testing
+    old: 723628fcfe10d957759c67b314b12430f0405ff9
+    new: 371a8bbca4f0c9c43eed04fa19cba96bb2fb4aea
+    log: revlist-723628fcfe10-371a8bbca4f0.txt
 
---===============1011915252179538284==
+--===============4713592016695033366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e1b3cc9d7f7-a9cda7c0ffed.txt
+Content-Disposition: attachment; filename=revlist-723628fcfe10-371a8bbca4f0.txt
 
 fa88dc7db176c79b50adb132a56120a1d4d9d18b media: dvb-core: add missing buffer index check
 fed13a5478680614ba97fc87e71f16e2e197912e dm: fix a crash if blk_alloc_disk fails
@@ -145,6 +145,13 @@ bd646c768a934d28e574ee940d6759c7954a024d thunderbolt: Fix connection issue with 
 de794169cf1711a98e1e4856c76388e6dadd73a1 net: ethernet: ti: am65-cpsw: Fix multi queue Rx on J7
 ba3b7ac4f7143568ed6480180a847dc752780ece net: ethernet: ti: am65-cpsw: fix warning in am65_cpsw_nuss_remove_rx_chns()
 9eaff63bfb59b93a79ac8450e3d1e45a1f72f29a Merge branch 'net-ethernet-ti-am65-cpsw-fixes-to-multi-queue-rx-feature'
+2fcb9a27e1c0f8c787bbbe21e5320a70e3275492 dt-bindings: hwmon: pmbus: Add bindings for MPS MP297x
+67623bb915faf459d5ab9ee804a0350fa4af8162 dt-bindings: hwmon: pmbus: Add bindings for Vicor pli1209bc
+a3339acdbdcfc7069d7fef02ba1a965f26f19d68 dt-bindings: hwmon: Add NCT7363Y documentation
+cc3b857975d370f2bf24d3d2ac5cfc8189acde67 hwmon: Add driver for I2C chip Nuvoton NCT7363Y
+5b475a394d6360f7dd5736789bbd3740cbe7ee32 dt-bindings: hwmon: ltc2978: add support for ltc7841
+f40f7aec8e3eceeb5bf49919d4826607e63e8930 hwmon: (pmbus/ltc7841) add support for LTC7841 - docs
+aa8cbc0898902070f1ad093a6e036cf57f0d47bc hwmon: (pmbus/ltc2978) add support for ltc7841
 3ce3f85787352fa48fc02ef6cbd7a5e5aba93347 drm/amdgpu: Fix DPX valid mode check on GC 9.4.3
 b46dadf7e3cfe26d0b109c9c3d81b278d6c75361 drm/amdgpu: Adjust debugfs register access permissions
 f790a2c494c4ef587eeeb9fca20124de76a1646f drm/amdgpu: Adjust debugfs eviction and IB access permissions
@@ -245,6 +252,14 @@ c289f4de8e479251b64988839fd0e87f246e03a2 mailmap: add entry for Thorsten Blum
 fd836e82de0a98ea04c488953384da716b72ff7e Merge tag 'amd-drm-fixes-6.12-2024-11-07' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 742afcc22d8eb5dcc67c1dc58ed249851e7cdbdf Merge tag 'usb-serial-6.12-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 fa59caa7859813b2a20f33e7c1f89459e7b6055f Merge tag 'asoc-fix-v6.12-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+ab0b5b150fd3a5d4b190615637b8cb0c64addce7 dt-bindings: Add SY24655 to ina2xx devicetree bindings
+be3c016b04d8ff497a6835d57c8064a803b24e5f hwmon: (ina226) Add support for SY24655
+619ce0b0721d1da4eb813a36db6b71d1acb6643f hwmon: (pmbus) add documentation for existing flags
+26ff98884cd22582a6bad88212219ba7e2590436 hwmon: (pmbus/core) allow drivers to override WRITE_PROTECT
+f5a04944e470ff6515e6f8090520f556b8064292 hwmon: (pmbus/core) clear faults after setting smbalert mask
+c897b9c0373ef64e9d21ff54219cfe73cd23bb80 dt-bindings: hwmon: pmbus: add ti tps25990 support
+371db8b22c15df2cc2af8adcad54125cfbf434be hwmon: (f71882fg) Fix grammar in fan speed trip points explanation
+e98d562cd5075710b3b0cfcb8ea146c829041ef0 hwmon: (jc42) Drop of_match_ptr() protection
 51b47860ad8058ae54e4789b5f9b253fd555d2e9 Merge tag 'powerpc-6.12-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 9ea7edac83630a9e8a05042b8750eaa10ecb6a38 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 b5f1b488000068107869ab2553ab16b568f487b1 Merge tag 'bcachefs-2024-11-07' of git://evilpiepirate.org/bcachefs
@@ -260,12 +275,28 @@ c291c9cfd76a8fb92ef3d66567e507009236ce90 Merge tag 'scsi-fixes' of git://git.ker
 c7a8f2a504c396f229e6025eca609c4e66f44c8b Merge tag 'acpi-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4f63642c09dbcfe09ba50b896c382e224f7e630f Merge tag 'pm-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 da4373fbcf006deda90e5e6a87c499e0ff747572 Merge tag 'thermal-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+370634b124d120cacbe425f18bd0c5ccf5ad5b5b hwmon: (sch5627, max31827) Fix typos in driver documentation
+54ef1a7dba2d5d201ed7ae507a7bc5ca55d4d303 dt-bindings: hwmon: isl68137: add bindings to support voltage dividers
+1c40f00a702a86fa77865c1e3e3a306b25c08096 hwmon: (pmbus/isl68137) add support for voltage divider on Vout
+c1cad6eba888fb75155a2d9a20b9c2afbd50989b hwmon: (spd5118) Split into core and i2c specific code
+dfe42929346cd2d1ffd2a856d8fe532a80f80649 hwmon: (spd5118-core) Add support for 16-bit addressing
 a58f4dd9526abbb83523ea515508ba714a1e6881 Merge tag 'block-6.12-20241108' of git://git.kernel.dk/linux
 bceea667990a3c00d371a58120a457452b4c741c Merge tag 'v6.12-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 de2f378f2b771b39594c04695feee86476743a69 Merge tag 'nfsd-6.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+e049e5ee10502c6324474399613aa11c27d857e6 hwmon: (spd5118) Add I3C support
+476bdb2905cf4154f1e0b15febc01b0c263b3245 hwmon: (spd5118-i2c) Detect and support 16-bit register addressing
 023d4fc00fdeac9c73b6c1da2d720eade48db020 Merge tag 'staging-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 a558cc34936b48909c0c54f7efac8b6a2c1120a4 Merge tag 'usb-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 28e43197c4460e08b55554c05998d6de9da7d0b6 Merge tag 'mm-hotfixes-stable-2024-11-09-22-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a9cda7c0ffedb47b23002e109bd26ab2a2ab99c9 Merge tag 'irq_urgent_for_v6.12_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3de4fe718b6810139936398c3845eff56d20455c hwmon: (max16065) Reorder include files to alphabetic order
+4a5cc3ddaea4023251963302a7a45b771a2a6b3a hwmon: (max16065) Use bit operations
+c27705f5f04c7278d6dbb67257d9d849cd9de9c0 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+13ad6edb411bb65881a1cca62901e136d9462dc9 Merge branch 'hwmon-next' into hwmon-staging
+9057f9eaffd5dbdc5582c1fc60acea9e1a815216 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+dcb6f4046b4bbc5ad3df34adaecdbc7dabf367c6 Merge branch 'hwmon-g762' into hwmon-staging
+60b2b513fb1d2fa41c51748849dc826ee8aecf44 Merge branch 'hwmon-emc2103' into hwmon-staging
+f81624838b8166aa9b0abda2e3f18db3beaf315b Merge branch 'hwmon-max16065' into hwmon-staging
+371a8bbca4f0c9c43eed04fa19cba96bb2fb4aea Merge branch 'hwmon-staging' into testing
 
---===============1011915252179538284==--
+--===============4713592016695033366==--
