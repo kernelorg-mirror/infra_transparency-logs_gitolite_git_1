@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Sun, 10 Nov 2024 15:08:42 -0000
-Message-Id: <173125132283.248607.14280372148924878580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sun, 10 Nov 2024 15:31:40 -0000
+Message-Id: <173125270012.267646.16896589831643458839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/topic/fprobe-on-fgraph
-    old: 4c4bd9c0c8cdbefa8d3ae3b53bc2546220803661
-    new: 0b2c6214cb26d94f883e8935b878dcae1f76af1b
+  - ref: refs/heads/main
+    old: ad74054cd57db9401caf9c1c0b340b667d322216
+    new: 9e285408ca9209ed031031d59ff892b911983cfc
     log: |
-         2e522c55818256c2c69fca0c94c51e10b70d4333 s390/tracing: Enable HAVE_FTRACE_GRAPH_FUNC
-         e3ea2cf032318aabbd968d986f6c64b9b10b61f8 fprobe: Rewrite fprobe on function-graph tracer
-         7708d330c6dfb1bae503498fa38b6e0694d73c98 fprobe: Add fprobe_header encoding feature
-         dc4042aed4e64a19132aaecb5aea81a781a8e09f tracing/fprobe: Remove nr_maxactive from fprobe
-         30ccfa50e23de5ef118ea84ef0f3ea94a60110b9 selftests: ftrace: Remove obsolate maxactive syntax check
-         ee4c0b748a77ef32bcc9051a3fa080c00938c71f selftests/ftrace: Add a test case for repeating register/unregister fprobe
-         9aab44b529414374bb951c97ba1f2f44476c2629 Documentation: probes: Update fprobe on function-graph tracer
-         fc5bdcf20472307683b0c1a9a34d4a04bf6d13e9 ftrace: Add ftrace_get_symaddr to convert fentry_ip to symaddr
-         0b2c6214cb26d94f883e8935b878dcae1f76af1b bpf: Use ftrace_get_symaddr() in get_entry_ip()
+         b6bfff1a5b0fad254a693b9d4275271d4dda7f03 rtw89: 8852a: update fw to v0.13.36.2
+         7ff9ed74665ac103c81851162df27338f4c73c7f Merge tag 'rtw-fw-2024-11-08' of https://github.com/pkshih/linux-firmware into rtw
+         ef8829fd0477eed65a9b9b9d005a4db3b736a9ee Merge branch 'rtw' into 'main'
+         6627b0257d6f7af773def44c776f1a785b7f5823 linux-firmware: update firmware for MT7920 WiFi device
+         3636204f508eee8e7b0e2794bbbb13634bc1c1fa mediatek MT7920: update bluetooth firmware to 20241104091246
+         9e285408ca9209ed031031d59ff892b911983cfc Merge branch 'mt7290' into 'main'
          
