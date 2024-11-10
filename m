@@ -1,62 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============2407208251470967769=="
+Content-Type: multipart/mixed; boundary="===============0911337598752633776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 10 Nov 2024 04:48:01 -0000
-Message-Id: <173121408142.3899872.2739709696261119996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 10 Nov 2024 05:21:27 -0000
+Message-Id: <173121608713.3972633.7208355358099358951@gitolite.kernel.org>
 
---===============2407208251470967769==
+--===============0911337598752633776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: da4373fbcf006deda90e5e6a87c499e0ff747572
-    new: de2f378f2b771b39594c04695feee86476743a69
+    old: ec2bcca96d5bac5ac44e58e8848f1f6e9da3561a
+    new: 19f2d2ddd0e2028bfea16ecf3d2b6de14c899637
     log: |
-         ef7134c7fc48e1441b398e55a862232868a6f0a7 smb: client: Fix use-after-free of network namespace.
-         6d1c69945ce63a9fba22a4abf646cf960d878782 nvme/host: Fix RCU list traversal to use SRCU primitive
-         bb1fb40f8beb45a3733118780a3da24fb071a2e9 NFSD: Fix READDIR on NFSv3 mounts of ext4 exports
-         52ff8e91f916fa05dd47b5c30afa3286c30db444 Merge tag 'nvme-6.12-2024-11-07' of git://git.infradead.org/nvme into block-6.12
-         a58f4dd9526abbb83523ea515508ba714a1e6881 Merge tag 'block-6.12-20241108' of git://git.kernel.dk/linux
-         bceea667990a3c00d371a58120a457452b4c741c Merge tag 'v6.12-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
-         de2f378f2b771b39594c04695feee86476743a69 Merge tag 'nfsd-6.12-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         da9128118c394921a233ada11f913a9c74ed4b24 4.19-stable patches
+         383355ea1bb0447f44af7e03566f0d117fddba39 5.4-stable patches
+         e323695ad755fac35a49e3db6fb460f657c91a5f 5.10-stable patches
+         46ee9265039897dff9623a07f50a0ba89dab336f 5.15-stable patches
+         6c6607b84f9c8e7cc11d17166c95612e9840c7c2 6.1-stable patches
+         f445e727370d64706aa50e9b2db2948d30b4750d 6.6-stable patches
+         5981257e15f1b7b504fc30d972f8b0fa237fc9d0 4.19-stable patches
+         8ddb3d1f167e6d32d117cd3855ed321b749abb1d 5.4-stable patches
+         630fd417f5211a0e52886e17a7139616afc46f62 5.10-stable patches
+         c749dcaa7efe7a4e3127fa8dcce0dafc59f74447 5.15-stable patches
+         adc93bbdf50042977f1b6fa10e63e15f69315e7f 6.1-stable patches
+         46ad24ef4cd2d8f9fb5143cd38427c824660c728 6.6-stable patches
+         19f2d2ddd0e2028bfea16ecf3d2b6de14c899637 6.11-stable patches
          
 
---===============2407208251470967769==
+--===============0911337598752633776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731214108 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1731214078-9c20441c81b5073b2ba8ae3c470a4748db50de70
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731216111 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731216082-d28cd9986bfe3e1b1a480b7830eba56b300ddcc4
 
-da4373fbcf006deda90e5e6a87c499e0ff747572 de2f378f2b771b39594c04695feee86476743a69 refs/heads/master
+ec2bcca96d5bac5ac44e58e8848f1f6e9da3561a 19f2d2ddd0e2028bfea16ecf3d2b6de14c899637 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcwOxwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rtMP/2wfvt1glohY98pbA3u1
-gzmuwzIvT7soAH+8cVpWz//pOEuThuZ+lwl6+NuxBKSDIZUPnuz0cPWTuxwW39+S
-QyUpvoPwXt0ytOiP4hBCdT6Z7/k0rirLvGj8uFr05EAwFOh3S44iP8YID5V38EIH
-v09T4yVOyLGU2IajbGhrwjV3+A2l0GulVLmDvJQtDKhElOt8TAKWQN34HUJpz4BF
-qYBJ1dQHEGKUV30OVEy3TX85E4EknRIUKFA2jyhjKnr0Zbl9/3iOEnGYFcoO4L3I
-sfFAxaLOmb9vIMnSFomJYao7/tcIrQAzB7eFPFdSkCP0aBm+Yl3Wc+E78PxzNWcE
-2Rm2gn+XkxmMK0hWZheckrUg2HfhbWmV37MHfrd3L6R1TFs2nvPWaARKnLyK8kga
-c6x/5RxszCa3Eb0huaM/k9vPWgaFh461uJ0Euo51HogbY0/vuPS9ckqLGjaBOV9q
-OE20kOlRRiBi7hRPk/BQvT1QrWRGAARGSGX4GwLWKDW6Dn8AMQjGDILELU0ZiPmR
-AChvYB/i/KkiLE2e9nWcBmnEqqGVmoNaF24bFBFSkIhNL7+3DOzxOcp6UpAkcdln
-r/adwvM1G4XKflkaWN+3nFYuXzScwWYhVkVd+rR6zRx3ax3cHPQ3kVwaVYYLBVWg
-2NW1dcenoenZde4qJAOrfo71
-=NSR6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmcwQvAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+79YP/3Xodw41pE35hy2C+LfY
+NKPt5KpnkVtcweqnQpEAcUIV+wqjEEfEQc90+TirL1HLrZHRg/IGz9OYldDclUcA
+zncICUqe1uZ5Ju5x6PSL7iuiZY22RNIadVt9eEZV7ur4C2S1YaEjOplGvg+iQ0Jz
+3yJpUrGvPUvhHBwqAz5bjTYViZF2IfoSe0npYJekoy+4kFMKvZTm5ns0tpMWKmym
+lpj5PVRgElWYL4j5uLP/hlh7xH2zl21fi+q6mPcQA3l8051g7lrx+WLAsak+pHGq
+lu/uKN5Lfz7EwgQJVsZ86Q6RByjR8LMDC/UB/+EOAEuDdx3AnnR3stoLKWjKyBHO
+ssR+095xpz8Ae/g6b/LLWNLbSsInCGouJjaAjXj2O4i9395v+10YcicpsmAXICH7
+I8cyG/nGunbFy0UFmTxUWy5qFc4FuyLn7J46G7VYL0nKG0sHgMno7PZ8LTOqlhkA
+ruvn5Q3tmUTFTogkhQlEJ+zb+Cs1ZK2UOgWna+RnZ6PrDnxgHVij0pRjeT82M1fz
+hzFT4j9OXfx7DqUSTwq/TURyscfpZxFmpAZ7Fs33vCCTg2gaU8JSzlGFyX2ucEFv
+2pNUWskzNJUxfu2zYnwqrtyrI1Wy1V3h2E00lXTsJqoag3prt8hjbxeT9TrM8gVS
+e8CXniLx1i2lHNl4kqWctFwv
+=zMjm
 -----END PGP SIGNATURE-----
 
---===============2407208251470967769==--
+--===============0911337598752633776==--
