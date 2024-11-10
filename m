@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0494417934506549348=="
+Content-Type: multipart/mixed; boundary="===============5920800891562383740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 10 Nov 2024 13:34:25 -0000
-Message-Id: <173124566536.176873.15050595686002843470@gitolite.kernel.org>
+Date: Sun, 10 Nov 2024 13:35:04 -0000
+Message-Id: <173124570470.179161.13252190110285268467@gitolite.kernel.org>
 
---===============0494417934506549348==
+--===============5920800891562383740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/dma-split-wip
-    old: cc68b5e922a2b4d3c48525f764d6af972ec872cc
-    new: 9c2ae583a72f3763c979ad114faf84b3512ee9f3
-    log: revlist-cc68b5e922a2-9c2ae583a72f.txt
+  - ref: refs/tags/dma-split-nov-09
+    old: e8dea0785ca0ab5931f88c74fb5b92f646d68b3b
+    new: cbbb612bb285c1bbcf8e61fb5f42e54503451e76
+    log: revlist-e8dea0785ca0-cbbb612bb285.txt
 
---===============0494417934506549348==
+--===============5920800891562383740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc68b5e922a2-9c2ae583a72f.txt
+Content-Disposition: attachment; filename=revlist-e8dea0785ca0-cbbb612bb285.txt
 
 a42f5a1ede10d4181c5cab3c88ed43a04be79565 mm/hmm: provide generic DMA managing logic
 7924a6679f27933da9b654693cbaac60c289fd41 RDMA/umem: Store ODP access mask information in PFN
@@ -40,6 +40,5 @@ c458a975937700c2ff98bd5dd63a36641cfffcb0 blk-mq: add scatterlist-less DMA mappin
 3280183dbe3f0bbe4bfb56e7da458aed7c2ea8d5 nvme-pci: remove struct nvme_descriptor
 c5325ab6adebb255cf0eb2fcc1afe9047f8fd0dc nvme-pci: use a better encoding for small prp pool allocations
 cbbb612bb285c1bbcf8e61fb5f42e54503451e76 nvme-pci: convert to blk_rq_dma_map
-9c2ae583a72f3763c979ad114faf84b3512ee9f3 FOLD: Skip sync for p2p pages
 
---===============0494417934506549348==--
+--===============5920800891562383740==--
