@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8761893219146258045=="
+Content-Type: multipart/mixed; boundary="===============3742918470569271906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Nov 2024 12:55:06 -0000
-Message-Id: <173132970672.1338367.1175410802726856383@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 12:55:25 -0000
+Message-Id: <173132972583.1338738.6531463364609752967@gitolite.kernel.org>
 
---===============8761893219146258045==
+--===============3742918470569271906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 077b33b9e2833ff25050d986178a2c4c4036cbac
-    new: 647619b6bd27d2b7c3c6055f3f0d996e61884202
-    log: |
-         647619b6bd27d2b7c3c6055f3f0d996e61884202 m68k: defconfig: Update defconfigs for v6.12-rc1
-         
-  - ref: refs/heads/for-v6.13
-    old: 077b33b9e2833ff25050d986178a2c4c4036cbac
-    new: 647619b6bd27d2b7c3c6055f3f0d996e61884202
-    log: |
-         647619b6bd27d2b7c3c6055f3f0d996e61884202 m68k: defconfig: Update defconfigs for v6.12-rc1
-         
-  - ref: refs/heads/master
-    old: 2a821bf4589a975eda9c33b0e53087fb0efbd366
-    new: 562f9fbff464ba8e657bfcf64dfbf61c33b0e33b
-    log: revlist-2a821bf4589a-562f9fbff464.txt
+  - ref: refs/heads/m68k-queue
+    old: 50b3ea95ff0c9e3c9b8219c4fdf45683b2bbb012
+    new: 65d0e872221583f0a35cc5fb53381434e608b39a
+    log: revlist-50b3ea95ff0c-65d0e8722215.txt
 
---===============8761893219146258045==
+--===============3742918470569271906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a821bf4589a-562f9fbff464.txt
+Content-Disposition: attachment; filename=revlist-50b3ea95ff0c-65d0e8722215.txt
 
 d92e9ea2f0f918d7b01cbacb838288bffccc8954 arm64: dts: qcom: msm8939: revert use of APCS mbox for RPM
 2f39bba3b4f037d6c3c9174eed5befcef1c79abb arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
@@ -368,6 +356,16 @@ ace149e0830c380ddfce7e466fe860ca502fe4ee filemap: Fix bounds checking in filemap
 d7e67a9e8c304ba767c5069a9c1f0c8ca80276f9 Merge tag 'i2c-for-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 541f3d87b6b7eb97073d0e5a46beae5ebcc0ba96 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 2d5404caa8c7bb5c4e0435f94b28834ae5456623 Linux 6.12-rc7
-562f9fbff464ba8e657bfcf64dfbf61c33b0e33b Merge tag 'v6.12-rc7'
+7405e908d63725c0e18211ff34b603a7061bcf0c m68k: mvme147: Make mvme147_sched_init() __init
+880a2ae250c89ed10a0197e90bb0138f7e00565a m68k: mvme147: Fix SCSI controller IRQ numbers
+fc13c512a5a82cddcfbfc7acc9ffa21e416a0617 m68k: Initialize jump labels early during setup_arch()
+9e0767837057d754dadc8b142297c94f80cc4c65 m68k: kernel: Use str_read_write() helper function
+6348c1d206bb5cfd53499b2b1a1717eea2dcbf15 m68k: Move Sun 3 into a top-level platform option
+64468d9fff3be5c5bcd933cd7eedbc67d9c459c4 m68k: Select M68020 as fallback for classic
+40a53bcc669704278fcaa5b5b9140f6906ccb5e0 m68k: Make sure NR_IRQS is never zero
+4492801c323863cd9f70d21498fa3aa76f2c2845 m68k: mvme147: Reinstate early console
+8a905b1cccc473d92de5099aa59aab66ca154684 m68k: atari: usb: Add ISP1160 USB host controller support
+bbaf8171baec733a00c01a5d102a95dfe56658f4 m68k: atari: Update Kconfig.bus help text
+65d0e872221583f0a35cc5fb53381434e608b39a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8761893219146258045==--
+--===============3742918470569271906==--
