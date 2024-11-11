@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552255416923641278=="
+Content-Type: multipart/mixed; boundary="===============1846242076916210312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 11 Nov 2024 16:23:27 -0000
-Message-Id: <173134220729.1511624.12796983062358884784@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 16:24:28 -0000
+Message-Id: <173134226842.1512259.11435509104901945539@gitolite.kernel.org>
 
---===============5552255416923641278==
+--===============1846242076916210312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
-    old: a2b4a9cddae87e6ff605cf0d2014c749cfbaf14e
-    new: 7b6e5bfa2541380b478ea1532880210ea3e39e11
-    log: revlist-a2b4a9cddae8-7b6e5bfa2541.txt
+  - ref: refs/heads/for-next
+    old: dd1b372d87f915e64de9a86ffe434b16c253d85c
+    new: 3e3a6e2df3a35940301eaf478d928558845c7ec4
+    log: revlist-dd1b372d87f9-3e3a6e2df3a3.txt
 
---===============5552255416923641278==
+--===============1846242076916210312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2b4a9cddae8-7b6e5bfa2541.txt
+Content-Disposition: attachment; filename=revlist-dd1b372d87f9-3e3a6e2df3a3.txt
 
 ec8d3b5c2adc356d3b34c0fe44a5be74022be037 selftests/bpf: Allow building with extra flags
 5249b164e666cbdea970c88f2f0e5b06577f9e7b bpf: Remove trailing whitespace in verifier.rst
@@ -51,5 +51,6 @@ cb55657c7fc800b722f2ef0afaf4d9c3c8902e6d selftests/bpf: Test the update operatio
 f6b9a69a9e56b2083aca8a925fc1a28eb698e3ed bpf: Refactor active lock management
 ae6e3a273f590a2b64f14a9fab3546c3a8f44ed4 bpf: Drop special callback reference handling
 7b6e5bfa2541380b478ea1532880210ea3e39e11 Merge branch 'refactor-lock-management'
+3e3a6e2df3a35940301eaf478d928558845c7ec4 Merge branch 'bpf-next/master' into for-next
 
---===============5552255416923641278==--
+--===============1846242076916210312==--
