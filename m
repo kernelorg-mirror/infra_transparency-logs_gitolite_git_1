@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 11 Nov 2024 17:56:35 -0000
-Message-Id: <173134779576.1591507.7501255895330009936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 11 Nov 2024 18:07:49 -0000
+Message-Id: <173134846951.1599873.1366500190971942567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/dm-6.13
-    old: 02f655ded53008ff0f45bfd96b82581fcd61d2c2
-    new: 7aa197c2e3bdbdf00404e73321b4f52cb70cddb4
+  - ref: refs/heads/drivers-for-6.13
+    old: a8fc655e01b6ca3b596b41ad000c7fead6093ce4
+    new: 98e5b7f98356cef2f13b54862ca9ac016b71ff06
     log: |
-         f85f9d046c0c8ed89c61d0f01b3e5494ecb732b7 dm: add support for get_unique_id
-         7aa197c2e3bdbdf00404e73321b4f52cb70cddb4 dm thin: Add missing destroy_work_on_stack()
+         1af75b2ad08bd5977c51c2d0fc11741a4c0a48d9 firmware: qcom: scm: Introduce CP_SMMU_APERTURE_ID
+         98e5b7f98356cef2f13b54862ca9ac016b71ff06 drm/msm/adreno: Setup SMMU aparture for per-process page table
          
