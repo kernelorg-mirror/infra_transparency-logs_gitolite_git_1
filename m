@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Nov 2024 18:32:48 -0000
-Message-Id: <173134996855.1619974.5886440266427880408@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 18:32:53 -0000
+Message-Id: <173134997332.1620156.9105770371812032862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20241111-arm64-selftest-pac-clang-cb80de079169-v1
+  - ref: refs/heads/arm64-selftest-pac-clang
     old: 0000000000000000000000000000000000000000
-    new: df4d0c2f34e64df9a6948de3d4e89fb1c8fa291a
+    new: 326d58be1f83837010fc39ab5c551686ecf207eb
