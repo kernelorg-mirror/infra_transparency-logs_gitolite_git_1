@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 11 Nov 2024 21:14:13 -0000
-Message-Id: <173135965345.1751604.15502251506833049737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 11 Nov 2024 21:24:04 -0000
+Message-Id: <173136024407.1760181.17468046308679934789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/rtc-next
-    old: 10e078b273ee7a2b8b4f05a64ac458f5e652d18d
-    new: 00f1bb9b8486bc963211e6c8eae34a1e759efbd1
+  - ref: refs/heads/kdevops
+    old: 5a45f2b7db3116658e9d7a2250d37d87b5f75a02
+    new: a976174c853570e00c7fe5802f54533d8394951b
     log: |
-         b263d7c102126a65ca493c627cb13905e0abd215 rtc: pcf8563: Sort headers alphabetically
-         00f1bb9b8486bc963211e6c8eae34a1e759efbd1 rtc: pcf8563: Switch to regmap
+         a976174c853570e00c7fe5802f54533d8394951b samples: add a mnt-ns-walk program to demonstrate statmount()/listmount()
          
