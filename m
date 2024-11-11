@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 11 Nov 2024 21:58:44 -0000
-Message-Id: <173136232455.1789381.8444928222726793355@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 22:10:34 -0000
+Message-Id: <173136303429.1800009.6067070234255759068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,8 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: cf6f2ddfd0395ee65f70e306572d8f07f4cfd3ad
-    new: 00f1bb9b8486bc963211e6c8eae34a1e759efbd1
+    old: 00f1bb9b8486bc963211e6c8eae34a1e759efbd1
+    new: e8ba8a2bc4f60a1065f23d6a0e7cbea945a0f40d
+    log: |
+         e8ba8a2bc4f60a1065f23d6a0e7cbea945a0f40d rtc: check if __rtc_read_time was successful in rtc_timer_do_work()
+         
