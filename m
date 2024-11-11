@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6899734743220625632=="
+Content-Type: multipart/mixed; boundary="===============1760912503131299211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 11 Nov 2024 00:30:10 -0000
-Message-Id: <173128501048.692609.14680509991696340522@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 00:31:06 -0000
+Message-Id: <173128506627.693384.7583767968511264997@gitolite.kernel.org>
 
---===============6899734743220625632==
+--===============1760912503131299211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
-    new: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
-    log: revlist-59b723cd2adb-2d5404caa8c7.txt
+  - ref: refs/heads/nfsd-next
+    old: 519cdbfe501ddf4a29b9c72b6961c58a33afb041
+    new: 70b363ecc99697659c618efa43686bb37f716d91
+    log: revlist-519cdbfe501d-70b363ecc996.txt
 
---===============6899734743220625632==
+--===============1760912503131299211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-2d5404caa8c7.txt
+Content-Disposition: attachment; filename=revlist-519cdbfe501d-70b363ecc996.txt
 
 d92e9ea2f0f918d7b01cbacb838288bffccc8954 arm64: dts: qcom: msm8939: revert use of APCS mbox for RPM
 2f39bba3b4f037d6c3c9174eed5befcef1c79abb arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
@@ -356,5 +356,84 @@ ace149e0830c380ddfce7e466fe860ca502fe4ee filemap: Fix bounds checking in filemap
 d7e67a9e8c304ba767c5069a9c1f0c8ca80276f9 Merge tag 'i2c-for-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 541f3d87b6b7eb97073d0e5a46beae5ebcc0ba96 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 2d5404caa8c7bb5c4e0435f94b28834ae5456623 Linux 6.12-rc7
+4127e588a0d4cc54b96edb2ac0cf47dc4d8d5f36 NFSD: Prevent a potential integer overflow
+57826877bb70343a434df9ae784774d29807d06f svcrdma: Address an integer overflow
+f855c3eece19cc2a4e999c46985fc80d61e7dc63 NFSD: Remove unnecessary posix_acl_entry pointer initialization
+ca086d378dc257e147a476beefc9c9a91d980c07 NFSD: Remove unused function parameter
+d70e5765605c4af8e03b14e4971f7e8dce2bdd84 xdrgen: Exit status should be zero on success
+b57995bc89bd3c32ee8d62b423675b98966c1504 xdrgen: Clean up type_specifier
+c2cc2f81e4cc0e2affb4ee3b36e5ca40973d8a3c xdrgen: Rename "variable-length strings"
+44079ee87720cfed2608169890788bc36b4d45ce xdrgen: Rename enum's declaration Jinja2 template
+9b70fe21f039f2d73bc5d24899f53e90092988fe xdrgen: Rename "enum yada" types as just "yada"
+32d496dabc4459175286786485315ba17cefc751 xdrgen: Implement big-endian enums
+aaa625fe48d30725f489bd90f22e0cde65967561 xdrgen: Refactor transformer arms
+980f8df729498275922bbfd7856ff121cc9e572a xdrgen: Track constant values
+a40589f8a3ad3fd11262bd9a66bd4bccefea11e7 xdrgen: Keep track of on-the-wire data type widths
+b5d3c1272e3ed03c08420ad6d22a0799c34c473a xdrgen: XDR widths for enum types
+6838c13a43ba71bb8bb3e0a4166822607b89df75 xdrgen: XDR width for fixed-length opaque
+415817229e280c6cefe8f5b17ba424f82dce1586 xdrgen: XDR width for variable-length opaque
+1c4252cc55e4a9cb3bbd277be806bada121863f5 xdrgen: XDR width for a string
+2d4b2176a4cfce2add3e38800b6070e3bb65008d xdrgen: XDR width for fixed-length array
+c67a2e6b56c81c516df5dd55611373da6c464f98 xdrgen: XDR width for variable-length array
+a33de0d4a2589b7dc3cc63778f2d726d7156f35d xdrgen: XDR width for optional_data type
+1f22f199d288ad95b15c65549087ecacd89278de xdrgen: XDR width for typedef
+57b128b8d8f3df63750cc47178140619c310061b xdrgen: XDR width for struct types
+7df0f117310d56989936a37004f5023910086c65 xdrgen: XDR width for pointer types
+3267365b4906685b1e2a581e30b43ee71ee2181c xdrgen: XDR width for union types
+b5f26ed89169200bc54a60f3ce4dc55560293992 xdrgen: Add generator code for XDR width macros
+4ac9f8bb18654574c5385c23f5f5506f3c4de4f2 xdrgen: emit maxsize macros
+260a3b261b230d2a3b5178bcea311ac51113df68 nfsd: drop the ncf_cb_bmap field
+827d08cc146cde56d5d63f17df8e20fa02a31ac5 nfsd: drop the nfsd4_fattr_args "size" field
+40923ed873d122a876b97b91da67d37208eae1cb nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
+b274dc1fca6df44dc0c9c756d66417f5a1b5adde nfsd: fix handling of delegated change attr in CB_GETATTR
+3965471a6ac8f1f366afac4fb0d11afeaed80d9a nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+bdc8e91edc3a943cb6eea82ee2f6d41ecff5dead nfsd: add support for FATTR4_OPEN_ARGUMENTS
+9a6e2fafc68c1f17f839e87cc04f3e405918868b nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+670a311110c24d056c658ad5223bd6849f264200 nfsd: drop inode parameter from nfsd4_change_attribute()
+5d934be518acce98fc8607498edf8dda26449ea7 nfsd: switch to autogenerated definitions for open_delegation_type4
+15bc2b2fa0347bec2cb6c6456e7dda20eeaf9f7a nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
+45ab961e34400eb980b9be3c270d52c895b37a76 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
+9744d163805e1c2d11bbf45846192450d7cd44e0 nfsd: add support for delegated timestamps
+c3c4c9a4c43b2942f2d56eb40bc9df9943369bc7 nfsd: handle delegated timestamps in SETATTR
+004c4bf0225e664db5bb259d7b5e8ea82eba6696 nfsd: new tracepoint for after op_func in compound processing
+2693f0d774b237a82b1510adb22e9c4b92c3d789 lockd: Fix comment about NLMv3 backwards compatibility
+eb0a0253c1e9a9d76d2cc61efa551756a3ca96a0 nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
+9409e302a24c5308e2ec72c1ae6e19fb5f6f6708 nfsd: Fix NFSD_MAY_BYPASS_GSS and NFSD_MAY_BYPASS_GSS_ON_ROOT
+b77d3d684c15cded994a73cb828f827d24208fa6 xdrgen: Add a utility for extracting XDR from RFCs
+bef4c150eb917d6a1ab52bc6f8e2e33ad9f709da nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+6d1a8f3a70f918b5d49788f590f694f2e3ae0a12 NFSD: Replace use of NFSD_MAY_LOCK in nfsd4_lock()
+0a3279bc04b97f345a0846de24cb43080d150e0c nfsd: refine and rename NFSD_MAY_LOCK
+db114379ec4797d4db5ca896d120db271940e017 NFSD: Remove dead code in nfsd4_create_session()
+16d4c3afeedf5492990baecf57619cd6c33a458f NFSD: Remove a never-true comparison
+0934748a44267e0732233865169acad5fedb0441 NFSD: Prevent NULL dereference in nfsd4_process_cb_update()
+2878afec831ca04293b8048772ff91250a8b144e NFSD: Remove unused results in nfsd4_encode_pathname4()
+1c42ca5c3662d2e3a7c35e6b429afb9a6a1fde2e NFSD: Remove unused values from nfsd4_encode_components_esc()
+420e2d55e1c3502234f91563deb8f023deea433c NFSD: Cap the number of bytes copied by nfs4_reset_recoverydir()
+609e8049e0b8acd353765b5999f15cd78b2b853f lockd: Remove unused typedef
+9747cf4ae5ee6505d54e27ade435720d563e3c7b lockd: Remove unnecessary memset()
+7994fd39ebc4379c43edb2e6554fef06b2f5527f lockd: Remove some snippets of unfinished code
+21d54215f39fa8ca39936863c965e4308b3d55c8 lockd: Remove unused parameter to nlmsvc_testlock()
+82c4630a74294f6691e7baf5a6f11414846bddc9 lockd: Remove unneeded initialization of file_lock::c.flc_flags
+85603b05567b9ab249a4612bd6db8b06bf7c42e0 nfsd: make sure exp active before svc_export_show
+5c72ca234d94ba93af6e34922f4830aae96f36af SUNRPC: make sure cache entry active before cache_show
+4459043315cbbc0c01a6114815c279024162e322 nfsd: release svc_expkey/svc_export with rcu_work
+21cb887a573992b5fcdc110c4b12bac89ec9e5e5 xdrgen: Remove tracepoint call site
+75afdfbf3d81668403f81b3003b3a42c6cb229be xdrgen: Remove check for "nfs_ok" in C templates
+c44fcf723bcbdd8c53f23e8f545930d0837de485 xdrgen: Update the files included in client-side source code
+35351f3914528c6ee52b547c3ae535efb211a581 xdrgen: Remove program_stat_to_errno() call sites
+f98b267ac8ea0d7e00bf892d953ee95081d5807b svcrdma: fix miss destroy percpu_counter in svc_rdma_proc_init()
+6bd8d3646b3cf479e6d84e0e831235ac605db064 nfsd: Don't fail OP_SETCLIENTID when there are too many clients.
+dad36b8f232c0d47bfeb0cec458cfb161f172008 nfsd: make use of warning provided by refcount_t
+fc88a69f15bfa8b81b35d83831e663b92fc4fb0c nfsd: remove nfsd4_session->se_bchannel
+c15e1cc69abace41019f7219d2ce59bf68bda37e nfsd: make nfsd4_session->se_flags a bool
+9ab4c4077de9f8ca4f67d2987fef97c0fedbf815 nfsd: allow for up to 32 callback session slots
+c48ca3468f852765bd217522f9d1ba05eedb1fe1 NFSD: Add a tracepoint to record canceled async COPY operations
+d9a453b4948d653722af7ee80d594e201f115ea3 NFSD: Fix nfsd4_shutdown_copy()
+a599975c1affcd5b4d34324cdbc9d4b26095fe8a NFSD: Free async copy information in nfsd4_cb_offload_release()
+505a261e9e5e83b2ccb137d9b79072adf3459fd5 NFSD: Handle an NFS4ERR_DELAY response to CB_OFFLOAD
+8a4a1f7bd6209e4b48695fae70cc71237dad6a09 NFSD: Block DESTROY_CLIENTID only when there are ongoing async COPY operations
+ae93f502caacb40bfa0bdecc1ea90a4a365ec9fc NFSD: Add a laundromat reaper for async copy state
+2b916636069d2e3133dbacebb0a6435ef253e593 NFSD: Add nfsd4_copy time-to-live
+70b363ecc99697659c618efa43686bb37f716d91 nfsd: fix nfs4_openowner leak when concurrent nfsd4_open occur
 
---===============6899734743220625632==--
+--===============1760912503131299211==--
