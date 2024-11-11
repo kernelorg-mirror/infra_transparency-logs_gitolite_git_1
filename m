@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Mon, 11 Nov 2024 07:34:05 -0000
-Message-Id: <173131044506.1076377.10305076996433506874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 11 Nov 2024 07:49:06 -0000
+Message-Id: <173131134649.1088483.9467243532014027311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/futex_local_v3
-    old: ca715b99641d5113ad75a0c2f647d8cc0a87e38d
-    new: 8233b7641f6d268bfcc8aa23f66683e6eb017c6f
+  - ref: refs/heads/dma-split-wip
+    old: 9c2ae583a72f3763c979ad114faf84b3512ee9f3
+    new: 40e043acd0a0b6373b1850e2215543c3d08ace0d
     log: |
-         8233b7641f6d268bfcc8aa23f66683e6eb017c6f futex: Wire up all hash functions for testing.
+         40e043acd0a0b6373b1850e2215543c3d08ace0d FOLD: Skip sync for p2p pages
          
