@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 11 Nov 2024 22:39:46 -0000
-Message-Id: <173136478640.1822900.7655732635511502541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 11 Nov 2024 22:49:35 -0000
+Message-Id: <173136537511.1830604.2995350928952634857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/statmount
-    old: 4cf233ab3348b1a925e2738c47007cf91f51d6d0
-    new: a976174c853570e00c7fe5802f54533d8394951b
+  - ref: refs/heads/buffered-uncached.6
+    old: 4db45700029e08dc4435d9a401015f73a2f879f2
+    new: 45e4ce384eba9a411690b0dad62523dda6b6f217
     log: |
-         2b59b484775407681f00f2828f3922881c2d649b fs: allow statmount to fetch the fs_subtype and sb_source
-         d37088d11fcbc506e9b6d43f4f1fdb197901a27c fs: don't let statmount return empty strings
-         b26c7c38d8ee67f4b69af61f8c79cc669cd8dd4a fs: add the ability for statmount() to report the fs_subtype
-         041aa2d01f8ba548936b761bf4012e584416ee3d fs: add the ability for statmount() to report the sb_source
-         a976174c853570e00c7fe5802f54533d8394951b samples: add a mnt-ns-walk program to demonstrate statmount()/listmount()
+         527653135e1eb7e18c0c249fbfba8f491b885f5e ext4: add RWF_UNCACHED write support
+         270ce375b36c3d99390b32e6a541f1f2aab89999 iomap: make buffered writes work with RWF_UNCACHED
+         dd18f7a1f87d7cb3388fe91745e5c2cdc5009235 xfs: punt uncached write completions to the completion wq
+         db69b62cb33d9136dccb523b723d34bd5040ceed xfs: flag as supporting FOP_UNCACHED
+         45e4ce384eba9a411690b0dad62523dda6b6f217 btrfs: add support for uncached writes
          
