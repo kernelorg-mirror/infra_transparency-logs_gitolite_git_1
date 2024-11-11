@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5034198247185072723=="
+Content-Type: multipart/mixed; boundary="===============5317160168280676495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Nov 2024 14:20:13 -0000
-Message-Id: <173133481350.1408350.11486647215368160341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 11 Nov 2024 14:20:22 -0000
+Message-Id: <173133482251.1408618.118921319680271070@gitolite.kernel.org>
 
---===============5034198247185072723==
+--===============5317160168280676495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.12
-    old: 48b86532c10128cf50c854a90c2d5b1410f4012d
-    new: d859923faeca740ae9235e2b9328999836e681b9
+  - ref: refs/heads/for-6.13
+    old: 3ec83a377a995559c18880ff780a6873df9cc5d3
+    new: c6d0529fb70c14e3ea67ac70211ed4359bbac99d
     log: |
-         f8da001ae7af0abd9f6250c02c01a1121074ca60 ASoC: audio-graph-card2: Purge absent supplies for device tree nodes
-         d859923faeca740ae9235e2b9328999836e681b9 ASoC: intel: sof_sdw: add quirk for Dell SKU
-         
-  - ref: refs/heads/asoc-6.13
-    old: 125d0f698ad500b0092812e52a6c342ba055ae68
-    new: 725570f96321f3e0ae1c6a1f80482d2907538d07
-    log: |
-         e90dbd3839f554bef35786c4bec8276455691b20 ASoC: machine: update documentation
-         725570f96321f3e0ae1c6a1f80482d2907538d07 ASoC: max98088: Remove duplicate DACs
+         c6d0529fb70c14e3ea67ac70211ed4359bbac99d spi: apple: Remove unnecessary .owner for apple_spi_driver
          
 
---===============5034198247185072723==
+--===============5317160168280676495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1731334840 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1731334810-46593b22f35d6ab5b4979dc1e9c2203a3564010c
+pusher Mark Brown <broonie@kernel.org> 1731334849 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1731334820-7046d31e643752d525bfd6227521c005dee5ae95
 
-48b86532c10128cf50c854a90c2d5b1410f4012d d859923faeca740ae9235e2b9328999836e681b9 refs/heads/asoc-6.12
-125d0f698ad500b0092812e52a6c342ba055ae68 725570f96321f3e0ae1c6a1f80482d2907538d07 refs/heads/asoc-6.13
+3ec83a377a995559c18880ff780a6873df9cc5d3 c6d0529fb70c14e3ea67ac70211ed4359bbac99d refs/heads/for-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcyErgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GawB/9QNctmSiEbkVg0t+mc8f0d9dCdnxgS
-t13ptuh3Eb1mgwg+roiGISFiP5v4UwcqAhE6CBoBBO4EVTAhQ7Yx2hnk3XuUCdOF
-HADdHNJQtya/fy4xSH2Uq1pFXgQjXgKqZaolTa1Lki3yee5IVz/n1sx33mKcloDB
-U0k8uc8taTKOQGecwxfZFLwavINpHLraSIDU8kYfVmgXuTxQWH5uZKMRHN07vPxH
-qgVKVRSDYF5EFeLmCQuZZ/2SQvF4+mfpmDoXT1a0WuE0xPdW+tssHpQ7jr9wXgYE
-NCxMSJbUikanJngsr35OQG5AKp9nq8HqWx7/eSpdGEcDb3H5kPbR7BKw
-=Mmvd
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmcyEsETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0PM7B/461ujjVWpdz4kur+ren1Xd1Ut7itcG
+NIWKUSaCH69R5/U2U79DeVLb0pGNaV6rOJ1SVFEmxXA9oqZqaHN1igPy/xfkPl74
+wvzSeYal7XAZNlPcD0j0wNHCBGgD+YG5xWLVu8EbaIWSRVTplmSZ0X7tEJVbRGOS
+HU3H9IdKsjEO/2e8booV3V88eyhMGxib9zZWR3lrCSGgBboHWA4eB4iB6xhH84pG
+V14CnMti0rIm57En/CwhnEJDgmgRDVkF/Hyl3vkMX6o0DxIJUfk70IIhMATzwZk7
+l3DRLP1ejyZtPr7GlbpjpwIjLTSkXlw7NLbbFihKLTRzGXVIx80saqC+
+=+ffZ
 -----END PGP SIGNATURE-----
 
---===============5034198247185072723==--
+--===============5317160168280676495==--
