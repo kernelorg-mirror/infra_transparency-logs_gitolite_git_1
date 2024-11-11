@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 11 Nov 2024 21:38:54 -0000
-Message-Id: <173136113485.1772001.9939640510540636448@gitolite.kernel.org>
+Date: Mon, 11 Nov 2024 21:39:29 -0000
+Message-Id: <173136116957.1772319.5765469770358268308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,17 @@ repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
   - ref: refs/heads/b4/power-supply-extensions
-    old: 3f62add1da9e4afc5da4f33bc8ebdf60e06e212c
-    new: c3bd14ad0d6b18cfef14668b02b4bbc7acb96ba7
+    old: c3bd14ad0d6b18cfef14668b02b4bbc7acb96ba7
+    new: 6c3781fdd993f49f504facd26334ee53b8a48a15
     log: |
-         32234e4ac34995742fc9070ec5db64fab55952db power: supply: extension API
-         6d68ced086fd5dc3e9b7e156258f2e45066d54ad power: supply: sysfs: print single value in uevent for POWER_SUPPLY_PROP_CHARGE_BEHAVIOUR
-         973f947efbef20c9b0f1163d0f76033640fe722b power: supply: core: rename psy_has_property() to psy_desc_has_property()
-         6de2279fb55cabaefde20cff927166fea4576009 power: supply: core: introduce power_supply_has_property()
-         d4e6c78f9af007f28998142dfeef0d2013824ad1 power: supply: hwmon: prepare for power supply extensions
-         67273a2cb1685d1a85619af4976eddb2ab761343 power: supply: sysfs: prepare for power supply extensions
-         66f19f5c1daabdcb14109efd1f7eb0bdd98c9bc5 power: supply: sysfs: rework uevent property loop
-         d3667b7c675239920b760147d8693af399437b2f power: supply: core: implement extension API
-         73329e28c535cf5312b53ada5f171ba3ac35b323 power: supply: test-power: implement a power supply extension
-         c3bd14ad0d6b18cfef14668b02b4bbc7acb96ba7 power: supply: cros_charge-control: use power_supply extensions
+         4f5afb355ceeb97c30866b57854ab8be9f225dc1 power: supply: extension API
+         75cee8a83976beb1d462381eac758711b07c832c power: supply: sysfs: print single value in uevent for POWER_SUPPLY_PROP_CHARGE_BEHAVIOUR
+         dacb9822fe7e2bcc94544988f18922f521cae206 power: supply: core: rename psy_has_property() to psy_desc_has_property()
+         67219df97c8082f581872b947867ba4ceabfa079 power: supply: core: introduce power_supply_has_property()
+         094735ca26fba28b47d0209cf71635b0f26203f7 power: supply: hwmon: prepare for power supply extensions
+         724ebd396d9d2a58f819a41b865ccccc37af2196 power: supply: sysfs: prepare for power supply extensions
+         1bb5fea977629f254eefd310f00b92f06123e224 power: supply: sysfs: rework uevent property loop
+         658bf4b97bf03cb725afb0ca876d0af843ebddc5 power: supply: core: implement extension API
+         e2891a46e31bc4d0749e013b79582da8c198edbd power: supply: test-power: implement a power supply extension
+         6c3781fdd993f49f504facd26334ee53b8a48a15 power: supply: cros_charge-control: use power_supply extensions
          
