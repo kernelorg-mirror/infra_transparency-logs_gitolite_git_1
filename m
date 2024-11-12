@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1347472747797423162=="
+Content-Type: multipart/mixed; boundary="===============4937762569500183005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 12 Nov 2024 22:36:01 -0000
-Message-Id: <173145096150.3016592.6534562275963473385@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 22:36:19 -0000
+Message-Id: <173145097990.3017051.17377032306792201511@gitolite.kernel.org>
 
---===============1347472747797423162==
+--===============4937762569500183005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b02856f1cfcffb3d67384145b49203030e961be7
     new: 58e09c1d317231058e26c7fdfd4fd6f63fb3330c
     log: revlist-b02856f1cfcf-58e09c1d3172.txt
 
---===============1347472747797423162==
+--===============4937762569500183005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -292,4 +292,4 @@ f3b4b27b8dc7a621fac37484773f1f3dd2fa652d char: tpm: cr50: Use generic request/re
 0c5fa6a29ea7aa3083bef30c00aaaa3672f69388 char: tpm: cr50: Add new device/vendor ID 0x50666666
 58e09c1d317231058e26c7fdfd4fd6f63fb3330c tpm: atmel: Drop PPC64 specific MMIO setup
 
---===============1347472747797423162==--
+--===============4937762569500183005==--
