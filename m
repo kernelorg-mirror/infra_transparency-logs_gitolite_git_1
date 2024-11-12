@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 12 Nov 2024 14:39:00 -0000
-Message-Id: <173142234042.2601977.6945611362586080882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 12 Nov 2024 14:46:41 -0000
+Message-Id: <173142280117.2609347.9454030640242178378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/rtc-next
-    old: 82ee16cfb290ae259d1cd6658a6988b430258e94
-    new: d8e6bea50dbab368d527b61b8282029850fd6286
+  - ref: refs/heads/statmount
+    old: a976174c853570e00c7fe5802f54533d8394951b
+    new: 569bf734983e24665dcc8df768496048755fdb49
     log: |
-         ce57cf7319e5315637349c02b50a51b2d2efba89 dt-bindings: rtc: Add Amlogic A4 and A5 RTC
-         c89ac9182ee297597f1c6971045382bae19c3f9d rtc: support for the Amlogic on-chip RTC
-         a012d430a4f29bf76810b019b5d34cb88b29e7eb MAINTAINERS: Add an entry for Amlogic RTC driver
-         d8e6bea50dbab368d527b61b8282029850fd6286 rtc: amlogic-a4: drop error messages
+         569bf734983e24665dcc8df768496048755fdb49 samples: add a mnt-ns-walk program to demonstrate statmount()/listmount()
          
