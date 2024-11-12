@@ -1,31 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Tue, 12 Nov 2024 20:04:32 -0000
-Message-Id: <173144187281.2881348.13648940636879305655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 12 Nov 2024 20:05:37 -0000
+Message-Id: <173144193796.2884116.8836474278044949510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/tags/v6.12-rc2
+  - ref: refs/heads/stable-6.13
     old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
-  - ref: refs/tags/v6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6801a93b4309318c0a7341338184fcd4ce865936
-  - ref: refs/tags/v6.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
+    new: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
