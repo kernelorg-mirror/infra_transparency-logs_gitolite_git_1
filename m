@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 12 Nov 2024 00:22:09 -0000
-Message-Id: <173137092928.1905196.7914248756707484353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 12 Nov 2024 00:51:03 -0000
+Message-Id: <173137266372.1927657.3047650924603826615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 1ae4c61082be17bfc8455668563a2c9bed857ae0
-    new: a076809c9635fa0f556ad933deb9b4493e1ca74b
+  - ref: refs/heads/dev
+    old: c0b45140c47f528df5acae9e361bf45f858a307a
+    new: 5e3decb0d9d168614d3f3604e0be6038705de795
     log: |
-         a076809c9635fa0f556ad933deb9b4493e1ca74b meson: undefine NDEBUG in the tests
+         41291179b58616fd7700de9f746e532278b8b23b srcu: Remove smp_mb() from srcu_read_unlock_lite()
+         34d3cac6474c6fc34a1471a5be8047f6e323a830 srcu: Check for srcu_read_lock_lite() across all CPUs
+         5e3decb0d9d168614d3f3604e0be6038705de795 srcu: Unconditionally record srcu_read_lock_lite() in ->srcu_reader_flavor
          
+  - ref: refs/tags/v6.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: da1080d807252c8614048d7b630cb36c7e25cfb5
