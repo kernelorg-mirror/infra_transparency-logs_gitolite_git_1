@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8792570596782471340=="
+Content-Type: multipart/mixed; boundary="===============0570059788552372684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 12 Nov 2024 10:00:38 -0000
-Message-Id: <173140563810.2371725.918520871467075833@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 10:00:55 -0000
+Message-Id: <173140565514.2372124.1357814291866457997@gitolite.kernel.org>
 
---===============8792570596782471340==
+--===============0570059788552372684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: de9df030ccb5d3e31ee0c715d74cd77c619748f8
     new: ba454a5d961a5ad70b92117846246fece51c7d19
     log: revlist-de9df030ccb5-ba454a5d961a.txt
 
---===============8792570596782471340==
+--===============0570059788552372684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731405664 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731405682 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1731405635-f951bc36f59ec48d69a573237606c63c91f9ba63
+nonce 1731405654-5c1f0067f9830d6f161c9e5e7e1037dbc1a51dc1
 
-de9df030ccb5d3e31ee0c715d74cd77c619748f8 ba454a5d961a5ad70b92117846246fece51c7d19 refs/heads/usb-testing
+de9df030ccb5d3e31ee0c715d74cd77c619748f8 ba454a5d961a5ad70b92117846246fece51c7d19 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczJ2AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZTAP9i9P/g5ao2LXwXJR9ngv
-CQRFldsauRBAzrYISHMd0G89p28mH+sRGGPOyvPAjH0Uxz+PWbkGfALeR/brs0j0
-q9+3pFokETkgyqq75fqYAbiMK+7fL+fznp/LWa0gU9VU5SUeWNZXXw0bay+cPNL/
-8YD1+3jjPZV6LPPWSi6aJ563Rbx0CgtjZiUEbilrRWdgCQsgOJMZr899jizDC9w6
-jldB9LJZp37F8YI3jM65lB8bZDB7TJHqOiY49JWx4Z3b4kcSa1n8A6XYq1kkvkyJ
-S0hQ4RhZK9CoBsplllHY3CbSQcuV3054DLdCeeyS+CwdC92zgWzbEX2nuN0RZl+0
-ocf+VPSohrxVbL8gE+5Es3RsY7eJr9+NbYcbQkoHkdqvGXMvkr48ka3N1SC5+jQK
-EhT2Wam6KXzRCXbF2bLPB94qoa85YTo9FAYprCk9ahSOosZWM8KaMNbRLW6RvIxy
-UUAGI1DjXFXzSiBZTpo/JViDpPPKxPabLUKjRykTyWcQSTgsA2L7gMZ1zL+6Nguj
-03wu0AKuoSIKV1cBP5Fm9yIrMyi12dDQeY7JJCe5Io7C9X313ECXdXEaacK4nTzB
-1dOc/nXntHuVBeUUfjhQr8E1PLTVOrEB9eQtqqrheBBgMQ441uRN59BnlC0NlkbI
-sm6MHLhWa1/1hlefesb53fA=
-=1Q9k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczJ3MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++VIP/i/eKDNAPiVcdo23CzhU
+avOAvUl5BeltHgtMBa3DY213kQo4OB+09AN3pTmn9ad9fqooPVBwdtSWLVgAmzNe
+96nF+qtnib8N8OiaHjVFNlvSl3PRDTmgucWrtsyvDb31rqMOMoPj29dmaCaWPQGn
+FAmyoViVjE4/7f+vGdcHnvqJAZxe1r8NdKvNr8OxyQZGsESgYqpwy6qSR2cyJLSI
+2F8547hLegLdiOJKGaVzZxbcZX+59B0gEpAXfn6M5uV2ObJMqQ5UgTDP71EFsEHv
+WKUGfuT4DXK0Up1QZLmr+3X+NHcRFvuUPrx52PeH0CmCcWsAMhmuGfIWyt5pUZfi
+nHOY7wfQqmXLEqMeaCB9bNG9ikeIw0O/0mb1XciBDUMWAXYYzk4arSk3svRj6dyd
+FRxxPqRDrhL00qoJPiHaezV8KNJ6goisxjKPRyntJNay5WVXtGYIwL+6WaoAAbCD
+z9QSa9PghTDDqD8wj9rCpftcN54yt/Z+EyrK88eMa0HjwiQit1oaT87wPi06pvy/
+z/DmEJN9rwy4nm+1UuWMhTgOpwFPflPWJE9GVG8D5m38BMbQQ1mQQwOj94M2y/P6
+PhhTHONca3yHNrHovaHE9SetAD22hIoK3BoweIcee/ijqA3iLad1DfwUpFrKDRBd
+vnGGrSt6rNu4U1voQgrxotZl
+=dSWT
 -----END PGP SIGNATURE-----
 
---===============8792570596782471340==
+--===============0570059788552372684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ e6c9905ff4d8f898c06bb30a37ac9ba21885dc26 thunderbolt: debugfs: Replace "both lan
 40aeea50444793ed106997a49c7083b656bccfa7 thunderbolt: Replace deprecated PCI functions
 ba454a5d961a5ad70b92117846246fece51c7d19 Merge tag 'thunderbolt-for-v6.13-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============8792570596782471340==--
+--===============0570059788552372684==--
