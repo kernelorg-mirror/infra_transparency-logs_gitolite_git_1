@@ -1,61 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3142720845360040188=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 12 Nov 2024 10:36:26 -0000
-Message-Id: <173140778639.2403240.59179460475599057@gitolite.kernel.org>
-
---===============3142720845360040188==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 12 Nov 2024 10:47:14 -0000
+Message-Id: <173140843441.2411535.15593978968687823748@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 7e3eeb0e5c32261801187f45ff4688e1d6710722
-    new: 7aaf39168e61c8bb74cefc0cf65472a92162b564
+  - ref: refs/heads/main
+    old: 544070db6c8b0c403e4c6befbc76b52831b897da
+    new: 12f077a728faaf8d11c65a4724915527c9317f08
     log: |
-         5bfd0064a1a56c3515b45a7dd5cf04be6b6c4bf9 bippy: fix --name handling
-         04a8cf0a584a5f433b7af43e8939a597d80de973 test-dyad: add version matching test
-         89e9490b898e18435e307673bdd5d87090f34493 test-dyad: add stable branch commit pairs test
-         4203c701801ca6d600e9f8fd8d1382f08cf784ca test-dyad: add multiple vulnerable commits test
-         1044dc43645e2be57519151fca2153bf164b0b75 test-dyad: add stable backport fix test
-         7aaf39168e61c8bb74cefc0cf65472a92162b564 test-dyad: add cherry-picked fix without Fixes tag test
+         37653a0b8a6f5d6ab23daa8e585c5ed24a0fc500 net: ip: make fib_validate_source() support drop reasons
+         c6c670784b862878deba7e16210ca4b2a2966ca0 net: ip: make ip_route_input_mc() return drop reason
+         d46f827016d891dbc234cb05c406180f77fb3b2d net: ip: make ip_mc_validate_source() return drop reason
+         5b92112acd8e2ed84a4df653fc20575f4da6fa49 net: ip: make ip_route_input_slow() return drop reasons
+         61b95c70f3449c1c0bd1415c8ef37e2959cf1c41 net: ip: make ip_route_input_rcu() return drop reasons
+         82d9983ebeb871cb5abd27c12a950c14c68772e1 net: ip: make ip_route_input_noref() return drop reasons
+         50038bf38e6577a15d52b890d82c197cf3b163a0 net: ip: make ip_route_input() return drop reasons
+         d9340d1e02779dbf83d53b0deb4068c7768b8261 net: ip: make ip_mkroute_input/__mkroute_input return drop reasons
+         479aed04e84a5d66caa3b25bfc651292c153ef70 net: ip: make ip_route_use_hint() return drop reasons
+         12f077a728faaf8d11c65a4724915527c9317f08 Merge branch 'net-ip-add-drop-reasons-to-input-route'
          
-
---===============3142720845360040188==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731407811 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1731407783-f5031626a5797cd0ff958b1bfc2db1a19e50ddda
-
-7e3eeb0e5c32261801187f45ff4688e1d6710722 7aaf39168e61c8bb74cefc0cf65472a92162b564 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczL8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SfsQAJ97wEaxpJ6SY+HTisle
-8n9pw9QYyrvuKlOhwTmAVNwbkLSULOV7GNR1uQm5bcp6uLESk3OL3Zyzl/RTeHpq
-H9Kv04A4w+HdYI9MmVTDzA2sX0n8o50DKgac/j/Fhg4piOrEmjCm+PFAma1g7UwN
-jlBOIPrEtl2smAsXlIY/aauKkp2BluoGib8hd7RsNqARbSs58GNXIJFPag+aGDml
-msnXVboFKJw0x7HgFIRbCrYeU20jcpuB3VLZwb3iZGVT+dYZmThEfoDhxRP59wpH
-BexZ05jlse/PRXM4Zd/6lS9NaODbvFZpgrsc3gIe24hT4+RJ782Y9HpyDzJ/qDfJ
-wHbAr5OMh9HygX3rv1PCartTze6HZZKaa+Do1zPexQUsskyLiEeZIaGTbLznv8yQ
-ZCV8CRy0q36ZjydzJ2F/8PnuMdU1lOP/o1HrGQp8pD74sWmD42lMX3wOp0rsJr1k
-JFi9GWBRaHXuVm9uWnJdAFRfkz2/g3V1LWY4Js5Sa7lCs24/uv+RrOg+8t/PGadl
-PLoDAUH2CyFkHKu2JliXN2544emRvAwrA5n3hHQxxdQ5de44KKhAAVuBcHrf5um3
-Gw+V2YcRS7QKcHGpLfXoDwRr8Nb58Nye+epo875GV7Hb2AFUOsftLzg2XMskF0qa
-Fu4TI/bUjqjamOSGx5zqbtaB
-=kSeF
------END PGP SIGNATURE-----
-
---===============3142720845360040188==--
