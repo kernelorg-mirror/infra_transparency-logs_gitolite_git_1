@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0081323138734300715=="
+Content-Type: multipart/mixed; boundary="===============1629353033398493330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 12 Nov 2024 14:13:45 -0000
-Message-Id: <173142082593.2581541.10801557200686291202@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 14:14:01 -0000
+Message-Id: <173142084166.2581756.1018597616441035278@gitolite.kernel.org>
 
---===============0081323138734300715==
+--===============1629353033398493330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: de786f0f83824eaa12aa92603be8655ec5d1a5bf
-    new: 182c02a6cd5f7947c403ba2321e262fb0aeaabfc
-    log: revlist-de786f0f8382-182c02a6cd5f.txt
+  - ref: refs/heads/for-next
+    old: 97d7e028b14f29e4752d4712c5a405c8e0da92d8
+    new: 17502bfdbc9d03fdf25679fce4a8785bf230b620
+    log: revlist-97d7e028b14f-17502bfdbc9d.txt
 
---===============0081323138734300715==
+--===============1629353033398493330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de786f0f8382-182c02a6cd5f.txt
+Content-Disposition: attachment; filename=revlist-97d7e028b14f-17502bfdbc9d.txt
 
 97b5cf629459094bf3a882c567db2c293e0975bd s390/con3270: Use NULL instead of 0 for pointers
 01bfb451a3e9b7005d626964588d89b699749147 s390/dump: Add firmware sysfs attribute for dump area size
@@ -44,5 +44,7 @@ e449399ffd295a1202b74a258227193454ef333f s390/perf_cpum_sf: Convert to use try_c
 0708967e2d56e370231fd07defa0d69f9ad125e8 s390/syscalls: Avoid creation of arch/arch/ directory
 e17aca2005087ff501dd9e8f187627f91751c7d3 s390/syscalls: Remove unnecessary argument of filechk_syshdr
 182c02a6cd5f7947c403ba2321e262fb0aeaabfc s390/syscalls: Convert filechk to if_changed
+d89091004e5789201f0428093f00f2033eb77017 Merge branch 'fixes' into for-next
+17502bfdbc9d03fdf25679fce4a8785bf230b620 Merge branch 'features' into for-next
 
---===============0081323138734300715==--
+--===============1629353033398493330==--
