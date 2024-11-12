@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 12 Nov 2024 12:49:42 -0000
-Message-Id: <173141578259.2511884.7774019140254518286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 12 Nov 2024 12:51:44 -0000
+Message-Id: <173141590452.2515878.17744447324755606544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 1f694a0d626fca85852159a84779ad995c8af48c
-    new: a5b0ee21a8542843d9eb2fab1dc280a166f2d9cf
+  - ref: refs/heads/gpio/for-next
+    old: e106b1dd38e723ec2bb2bf57ea9b2aff464b9423
+    new: 8bcbd0379c05c66ce2e842c7e8901aa317cdf04e
     log: |
-         af7f6e4f72a11e8b2604ec476a1fea087b33d27b qcom: Update aic100 firmware files
-         01842da45df0a9f862098d1597f6ae5774b3e48a qcom: Add QDU100 firmware image files.
-         00923eb19d0c28010fba121e9826162810ff5f4a Merge branch 'aic100_1_18_2_0' of https://github.com/quic-jhugo/linux-firmware into qcom
-         c57a0a42468b985aac981b9b139ba4d27035b4de Merge branch 'qdu100_xbl_s_melf' of https://github.com/quic-batta/linux-firmware into qcom
-         a5b0ee21a8542843d9eb2fab1dc280a166f2d9cf Merge branch 'qcom' into 'main'
+         591ae6bed250e4067db926313ff7279d23a1c7d1 gpio: rockchip: explan the format of the GPIO version ID
+         41209307cad7f14c387c68375a93b50e54261a53 gpio: rockchip: change the GPIO version judgment logic
+         8bcbd0379c05c66ce2e842c7e8901aa317cdf04e gpio: rockchip: support new version GPIO
          
