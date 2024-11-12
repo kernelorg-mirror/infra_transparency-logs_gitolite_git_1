@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 12 Nov 2024 14:49:06 -0000
-Message-Id: <173142294659.2610826.5257346503136807493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 12 Nov 2024 14:50:37 -0000
+Message-Id: <173142303751.2613600.1901772992173245472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 0d3f073975ad28bd16034ed81b8e525e808cbe37
-    new: 131a975aba393cc81dc86687e55412137c520dec
+  - ref: refs/heads/python-v2.2.x
+    old: b89a90aaed2cc8974733c38ab358ed83296f15cc
+    new: 2371df467151b2b11b39918e37a3f29bff32d1bd
     log: |
-         131a975aba393cc81dc86687e55412137c520dec dt-bindings: mfd: sprd,sc2731: Convert to YAML
+         2371df467151b2b11b39918e37a3f29bff32d1bd bindings: python: gpiod v2.2.2
          
