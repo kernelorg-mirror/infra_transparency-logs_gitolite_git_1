@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 12 Nov 2024 00:00:52 -0000
-Message-Id: <173136965280.1888297.12270521143009183625@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 00:11:35 -0000
+Message-Id: <173137029568.1896332.16335027951670843109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,12 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 5b72ac7d5b651721750007c14a03ddb66ff26285
-    new: f8ed5ee139effe73f8322421580c599068698a90
+    old: f8ed5ee139effe73f8322421580c599068698a90
+    new: 28ba117fc655b237eb865f0fec439dacb89fba30
     log: |
-         ae16a0277b7d6193e28d025ce369e223fda88e71 ci: add coreutils to Alpine
-         7eaf41bda7dc744d1f1528ba110ff01cc6656a28 meson.build: install kmod symlinks to /usr/sbin/
-         4b1b5e413088060092a8d75247df1c7f93779dcc meson: install the configuration directories
-         f8ed5ee139effe73f8322421580c599068698a90 man: add modprobe.conf.5 manpage link
+         f94b5c4c3711a07b83595713614ab64b476292bc shared: Move cleanup attribute
+         4063401a051cebda5507618e7193b11b59957e75 build: Stop warning for attribute clang::suppress
+         317f89a59a428af714558f840cf7750a3900c8cd shared: Ignore clang-analyzer on cleanup attribute
+         5322bb8fd1c5de0a1f3d0ae5bb50459cd9243923 libkmod: Simplify lookup_builtin_file()
+         28ba117fc655b237eb865f0fec439dacb89fba30 tree-wide: Sprinkle _clang_suppress_alloc_
          
