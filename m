@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Tue, 12 Nov 2024 16:04:55 -0000
-Message-Id: <173142749538.2677139.4938777201922722247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 12 Nov 2024 16:08:16 -0000
+Message-Id: <173142769638.2680073.14929778870072858566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: frankja
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/kvm-s390-next-6.13-1
-    old: 0000000000000000000000000000000000000000
-    new: 362aafb95cb11e72badd5e36bb032b8efa071b3d
+  - ref: refs/heads/master
+    old: 042d95c6b30eef7ed05d2355a92314045c9e9560
+    new: 47e2c45c9c89fe71893aa234dc1a27dec1c7c8d2
