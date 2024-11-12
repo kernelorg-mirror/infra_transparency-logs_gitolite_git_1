@@ -1,42 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0032411724422904784=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 12 Nov 2024 16:47:12 -0000
-Message-Id: <173143003211.2713997.334332585565849046@gitolite.kernel.org>
-
---===============0032411724422904784==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 12 Nov 2024 16:49:55 -0000
+Message-Id: <173143019548.2715779.2200369212149252069@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 0dcc2d1066150787017a71f035145c566597dec7
-    new: 06513ddaf77b8f49ef8540c92d92c9ef0ad49426
-    log: revlist-0dcc2d106615-06513ddaf77b.txt
-
---===============0032411724422904784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dcc2d106615-06513ddaf77b.txt
-
-d49c22a396dfd4f51fb3eaabe488db89f7aa1ca5 kbuild: deb-pkg: Don't fail if modules.order is missing
-3d8ae1e72a92983805ba27670c042f300cba30aa kbuild: replace two $(abs_objtree) with $(CURDIR) in top Makefile
-de51342c51578db3d26576bd496abe88ab76c3da kbuild: add $(objtree)/ prefix to some in-kernel build artifacts
-89399b4c52a6bbceac12332b63c671bdfda7abfe kbuild: rename abs_objtree to abs_output
-7706c0cae5ccb44a9a1f533ad796e8f87ebc51b8 kbuild: use 'output' variable to create the output directory
-80f2891016905bc00b569afbb4242038fef3b9eb kbuild: change working directory to external module directory with M=
-25cf564b37e433caeb3f91728e03e004a1f95397 kbuild: remove extmod_prefix, MODORDER, MODULES_NSDEPS variables
-8832d07c9fb7039a76498342e3d754ae70273293 kbuild: support building external modules in a separate build directory
-ec894f165670ffc9bcb45fd1e16de79ed09d514d kbuild: support -fmacro-prefix-map for external modules
-1635d3b0acb7b8c21b3d07c00e70eb3b13c88ee7 kbuild: use absolute path in the generated wrapper Makefile
-c7c9dd072f0f044e02a9b7df3e22b473f267a53f kbuild: make wrapper Makefile more convenient for external modules
-06513ddaf77b8f49ef8540c92d92c9ef0ad49426 kbuild: allow to start building external modules in any directory
-
---===============0032411724422904784==--
+  - ref: refs/heads/linus-next
+    old: 7eba9f7234b6002c783e23d9989e38f403284821
+    new: 1e5c29c05ecea284c2541168f0e56df5c414ba5b
+    log: |
+         923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
+         699ae6241920b0fa837fa57e61f7d5b0e2e65b58 evm: stop avoidably reading i_writecount in evm_file_release
+         08ae3e5f5fc8edb9bd0c7ef9696ff29ef18b26ef integrity: Use static_assert() to check struct sizes
+         1e5c29c05ecea284c2541168f0e56df5c414ba5b Merge tag 'integrity-v6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity into linus-next
+         
