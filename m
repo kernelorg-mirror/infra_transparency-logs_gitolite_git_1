@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Nov 2024 13:07:27 -0000
-Message-Id: <173141684712.2529188.9914661755156879257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Nov 2024 13:09:36 -0000
+Message-Id: <173141697677.2530707.12568815821164420671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 52cf5128e13ead28a004361ea02dd40f4896bdc8
-    new: 90c4f99ad1271289a72d023f32aa5bb698c76463
-    log: |
-         14c7f4867b7e4ddbbde58b398452295051c77137 ASoC: max98088: Add left/right DAC volume control
-         d0621105eff307408ceb3d0eb61ca2a23c37fcbe ASoC: max98088: Add headphone mixer switch
-         90c4f99ad1271289a72d023f32aa5bb698c76463 Merge remote-tracking branch 'asoc/for-6.13' into asoc-next
-         
+  - ref: refs/tags/sent/20241105-arm64-fp-ptrace-fpmr-ff061facd3da-v2
+    old: 0000000000000000000000000000000000000000
+    new: 6c121fb98be1939dcb429c47f4ba6c04e6335fb7
+  - ref: refs/tags/sent/20241111-asoc-max9768-event-085b4d2bb517-v1
+    old: 0000000000000000000000000000000000000000
+    new: 302df8429f02bbfae1756f4d97643ab00b957e08
