@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5989626051756404547=="
+Content-Type: multipart/mixed; boundary="===============5995046622798829872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 12 Nov 2024 12:00:25 -0000
-Message-Id: <173141282546.2471588.12033702560159469582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 12 Nov 2024 12:05:30 -0000
+Message-Id: <173141313044.2475915.4795229422797256985@gitolite.kernel.org>
 
---===============5989626051756404547==
+--===============5995046622798829872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 5770e9f237b6ee1cd17e06ecbc69c5e05efceacb
-    new: 5a6c35258d10a4966f45ee48ae24a7d4dad303ce
+  - ref: refs/heads/tty-testing
+    old: 3791ea69a4858b81e0277f695ca40f5aae40f312
+    new: 166105c9030a30ba08574a9998afc7b60bc72dd7
     log: |
-         5a6c35258d10a4966f45ee48ae24a7d4dad303ce mei: vsc: Fix typo "maintstepping" -> "mainstepping"
+         166105c9030a30ba08574a9998afc7b60bc72dd7 serial: 8250_fintek: Add support for F81216E
          
 
---===============5989626051756404547==
+--===============5995046622798829872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731412852 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1731412824-a0e894dfa886cf47c4790f837600601246891c73
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731413157 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1731413128-2395fb50d2a4cc4a63418cc41438c941529bbee8
 
-5770e9f237b6ee1cd17e06ecbc69c5e05efceacb 5a6c35258d10a4966f45ee48ae24a7d4dad303ce refs/heads/char-misc-testing
+3791ea69a4858b81e0277f695ca40f5aae40f312 166105c9030a30ba08574a9998afc7b60bc72dd7 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczQ3UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3F4P/0xoZSswZZwf+ILFEQmG
-bg3wp6y0TL0b94f8gahK2xBp+Yqs5jjHT4FZL9NzQfJvdtx+Fqd0h4A8rhFVeh2i
-sv3XoBe8Pmc1lEde4DKg0hVFsQ0cKbjkXGBqwkUfwkCm2hD0pcgmX8nNRKh3eIZ3
-Q/Q5qih2z8yPtYdon64BB8OsqzW5A8W60zKAS+uaEiaCtOUQluPLpKei83HJmgui
-VerPwD3bMxD+er62OJX3lc+jlCxExZOaLtAGoJI1o8aL8rfe09NgBueQDIp5RDT4
-aA7LAq9G/HxLf42URQbMedak3zWkiRF51ishVm8xH0BFmxSjENgYfoVkD4oDH/bG
-+AKVT6nyqYNXPG8NdJ2/OikYJv9oiRv+GwsCjcIfBQHLVozUT8un7zQeXdXN8pTO
-/lJqoIfS8ukaG+LN2kOSnvbaaeaTTFj9DGxGnjRUlv2yOmZzocnZEUdpsqjyLz2p
-qrYepboPm34hJVWDp5Fp1z76WjtGbHOLqsgTKGewSv9IqC++HEmyu3IeULSBbk9x
-N9iVeosPHgo9onj0vsL7ATy+6KKx9fYR3KuOHVb7Ylx6VTDoxbORyPYrPfmiwAFg
-cYtUz7AbJKRF5UZ01w47CeDk3zq+Xhk+joD2hbbTro1yJn1Mod5QizPnJSmg0Ig5
-VLI/Z8zO+voqBpv7cDqMCXm/
-=xQLx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczRKYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7mkP/i/JkxfGXRQ+ta3u1nNx
+Gd60ELFV9yWzuFSz3bAjUDMmVxm6Bm48CvJoKk4tgDGWXVcMIB1MAQLj/8iU3Rfo
+gnBcKYjN+0JYcZ//7E1hoxyr3xmWG4lljwPr7j2W3KIFKgdE1R6Sz5IcrvexzC2r
+H1aEYb2vr1XZryntstYlSrYx6uH4bpf6CbOE5paOP9QH8mxo3aQrW1RJdM7wdiNz
+02IHibrvImJK93tPTDSR7FENApKr/FJwG8sxqUOBTiUwLVvKvXFLLfAumNs+nHdC
+19Xt430GDNME+kVghR/inR3ox2vByiNhGDqvj+zTQ9IrR8RRPPB1Q8Craqw6g42w
+/X9AkKjlUpDIsRx08yUF7BwdYIdzAEefi2AFbjgFwQIil5cTS4hsBTt5/iJgynfh
+fiZ8JsAKcnLwQlaA6QgqaShkjlCuTb0LmvuNkw3mwvBKXNz4KobZH1aodVC6NWgF
++E+iXfjo0XZzkC/pYSIYi+puiwbO7fC+tRY82mSDgRtWVrXDgFr9UbCv6JOtAlKb
+TX/NFZWXgju7ilqls3Yvbk+3faFcCZ/cHHQfIoXoIViW7sqCZ+vNqZGcWSOhLmmY
+N3bLs7Ae15LRV+8I1qW52nzyd6YPXtTkGHjtlYimh9ODo7peQYqAoJJ205FXGjC/
+kdFXovjwb7Qzf6G3vSYcZZwK
+=PE5c
 -----END PGP SIGNATURE-----
 
---===============5989626051756404547==--
+--===============5995046622798829872==--
