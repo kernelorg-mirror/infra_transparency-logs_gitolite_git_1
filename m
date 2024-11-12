@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5297103126703583073=="
+Content-Type: multipart/mixed; boundary="===============0750515699659030771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 12 Nov 2024 05:35:56 -0000
-Message-Id: <173138975629.2160092.12531798013828339329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 12 Nov 2024 05:36:07 -0000
+Message-Id: <173138976783.2160349.8375683545582170306@gitolite.kernel.org>
 
---===============5297103126703583073==
+--===============0750515699659030771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6d59cab07b8d74d0f0422b750038123334f6ecc2
     new: 28955f4fa2823e39f1ecfb3a37a364563527afbc
     log: revlist-6d59cab07b8d-28955f4fa282.txt
-  - ref: refs/heads/stable
-    old: a9cda7c0ffedb47b23002e109bd26ab2a2ab99c9
-    new: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
-    log: revlist-a9cda7c0ffed-2d5404caa8c7.txt
-  - ref: refs/tags/next-20240812
-    old: e0ecc27074c153187bc92e96ad3558200c74480d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241112
     old: 0000000000000000000000000000000000000000
     new: 06c2920724445aa742610d810b3b341887d96d3f
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: da1080d807252c8614048d7b630cb36c7e25cfb5
 
---===============5297103126703583073==
+--===============0750515699659030771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1040,23 +1033,4 @@ fecd55618246cdae215324c870c6defaadae314e Merge branch 'next' of https://git.kern
 c730c4ba89caef0db5600ae59af7e61849fe5a85 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 28955f4fa2823e39f1ecfb3a37a364563527afbc Add linux-next specific files for 20241112
 
---===============5297103126703583073==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9cda7c0ffed-2d5404caa8c7.txt
-
-f903663a8dcd6e1656e52856afbf706cc14cbe6d clk: qcom: videocc-sm8350: use HW_CTRL_TRIGGER for vcodec GDSCs
-e02bfea4d7ef587bb285ad5825da4e1973ac8263 clk: qcom: clk-alpha-pll: Fix pll post div mask when width is not set
-bf0a800415a7397617765fe5f5278a645195c75a clk: qcom: gcc-x1e80100: Fix halt_check for pipediv2 clocks
-e7f37a7d16310d3c9474825de26a67f00983ebea clk: qcom: gcc-x1e80100: Fix USB MP SS1 PHY GDSC pwrsts flags
-ab2e5c8ff253ff612f7c6ef9441d2ff6558e5449 i2c: muxes: Fix return value check in mule_i2c_mux_probe()
-714398d8742d5e019a8e5512de2abb8db69ba0a3 Merge tag 'qcom-clk-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-fixes
-8de3e97f3d3d62cd9f3067f073e8ac93261597db i2c: designware: do not hold SCL low when I2C_DYNAMIC_TAR_UPDATE is not set
-547aad93e00d5acdefb9ba6de2a7dfaeaf311475 Merge tag 'i2c-host-fixes-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-ace149e0830c380ddfce7e466fe860ca502fe4ee filemap: Fix bounds checking in filemap_read()
-d7e67a9e8c304ba767c5069a9c1f0c8ca80276f9 Merge tag 'i2c-for-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-541f3d87b6b7eb97073d0e5a46beae5ebcc0ba96 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-2d5404caa8c7bb5c4e0435f94b28834ae5456623 Linux 6.12-rc7
-
---===============5297103126703583073==--
+--===============0750515699659030771==--
