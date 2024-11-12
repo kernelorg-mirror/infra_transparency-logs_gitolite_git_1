@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6568462259447225014=="
+Content-Type: multipart/mixed; boundary="===============2337432206326923290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 12 Nov 2024 09:28:56 -0000
-Message-Id: <173140373662.2342188.12990044113322408157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 12 Nov 2024 09:38:39 -0000
+Message-Id: <173140431950.2349937.11261525893045870547@gitolite.kernel.org>
 
---===============6568462259447225014==
+--===============2337432206326923290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/loongarch-next
-    old: cdc6c3d8f66c5f345bfcaf1916c5dedec2b75882
-    new: f7cc7a98fb7124abc269ebf162fcb3a8893b660a
-    log: revlist-cdc6c3d8f66c-f7cc7a98fb71.txt
+  - ref: refs/heads/master
+    old: 4faff4c52a7ebfd78d76a3eb7f6dca7c08b0f275
+    new: ea31bbd04c8bc4e87a9f2d2be6198054980d90f5
+    log: |
+         ea31bbd04c8bc4e87a9f2d2be6198054980d90f5 6.1-stable patches
+         
 
---===============6568462259447225014==
+--===============2337432206326923290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdc6c3d8f66c-f7cc7a98fb71.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ec9e25f6c60963ab7ad159e4ce141a3e06a46906 LoongArch: KVM: Add iocsr and mmio bus simulation in kernel
-7eb45d3c2a9e8bc6a33cd1a5a469f5d210ab6239 LoongArch: KVM: Add IPI device support
-d54b67ca84ea36c28596e13629ba0e2f50caa4c4 LoongArch: KVM: Add IPI read and write function
-9dccaf273e14ca0a3a7926fa1e7910d32896def4 LoongArch: KVM: Add IPI user mode read and write function
-5a6f29c93289a802f0e8ef05039d5d78dc85ca9b LoongArch: KVM: Add EIOINTC device support
-e24e9e0c1da481a94e143096e766ccb246fe4f0d LoongArch: KVM: Add EIOINTC read and write functions
-98acfb1f35171217431d43dbac7024faf8cbbe81 LoongArch: KVM: Add EIOINTC user mode read and write functions
-82ce67f185820773f56729821c5bed44b9ca0bfd LoongArch: KVM: Add PCHPIC device support
-af7893b6d3f1b1593e837a88e28b282836256836 LoongArch: KVM: Add PCHPIC read and write functions
-e9f94830323ec5f785bb9716c79bd76f33fad298 LoongArch: KVM: Add PCHPIC user mode read and write functions
-a7212a5f839efe715e8b6ecbf5aa56ec6f0447d8 LoongArch: KVM: Add irqfd support
-02d9b5f0222cffec13f9e7b81bac371ae51d03d9 irqchip/loongson-eiointc: Add virt extension support
-f7cc7a98fb7124abc269ebf162fcb3a8893b660a Merge branch 'loongarch-kvm' into loongarch-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731404347 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731404316-6e68785ee317be5d2a38e428b782a961fd8bd1f5
 
---===============6568462259447225014==--
+4faff4c52a7ebfd78d76a3eb7f6dca7c08b0f275 ea31bbd04c8bc4e87a9f2d2be6198054980d90f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczIjsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8r0QAMPida/vCmRXbDX77WJh
+gohUdIpdY1rG1/0dPPbJ4A7S8ajBOLkYpah1Dug4QOc9o4q3RZCcNgEy9GCrg20d
+65fIwEpRYE+Rvn0nkBe3HmujmaXSFZ5iwHphR7uAs3MWhMtnrICmj+acnOEC+dC5
+fxycO3Vqf88NgiAhmqNII/4Hu6jemV5ICFey6adCJYVBAmJZXytBD7qbIJWUJk7Y
+No2zxxsCxKb8qLggC4xlTlAlKeODrPp/lcJSb3SnQJl6PbvoPhV+HqpdET/cl/wH
+jF08rZv/eRaZtaOOir1B4QvWqwj3NpKQIi5D5nKTUEFIoIdUz0e6MQHoqSVibr3/
+w//E8RrEsKEob7S6n4RhUHeassBNZsrqvyMa5rHaZLHPy5n6Fh+XcrT5hGLDJYoj
+WAClNZqWEACpAGaxXg6URAf97slWmZcMtEWvI5fdrBeHbYOBo/d+yToC9ce3KGYH
+C7YCpYaUpq88nw6Tni5+EVOlVREBS654vuL266cUGl3C9oHlk15raXlAbZ2dRt6W
+lPaE5hxw+w6YV9nDnUIH26HsPEhPFuUtH1SPqRtKLs0J44ZcPzOyj8jHHpnXZhHs
+FUytv4JEOB7vu7ruZL0vLX3TzSqX1u4Hj3akA02fHSLMduKwzGrt3UdKFIBV6LaE
+r2ZCrxR5ZXdxQ67RQVAl2Z8r
+=I6rK
+-----END PGP SIGNATURE-----
+
+--===============2337432206326923290==--
