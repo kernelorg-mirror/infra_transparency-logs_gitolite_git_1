@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 12 Nov 2024 10:06:31 -0000
-Message-Id: <173140599176.2377373.2144062786399738866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfs-linux
+Date: Tue, 12 Nov 2024 10:12:49 -0000
+Message-Id: <173140636931.2382056.9380552657104880463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/cem/xfs-linux
+user: cem
 changes:
-  - ref: refs/tags/kcsan-20241112-v6.13-rc1
+  - ref: refs/heads/staging-merge
     old: 0000000000000000000000000000000000000000
-    new: e2cc497e7cde024c51132968741ef2131d72b1a0
+    new: 5877dc24be5dad833e09e3c4c8f6e178d2970fbd
