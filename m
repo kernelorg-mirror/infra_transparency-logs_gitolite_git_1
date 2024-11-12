@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 12 Nov 2024 01:09:27 -0000
-Message-Id: <173137376794.1946599.13835758616285617446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 12 Nov 2024 01:15:01 -0000
+Message-Id: <173137410172.1951692.13212184553315235439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 26e6f59d0bbaac76fa3413462d780bd2b5f9f653
-    new: f8bed73c6c52b726ed3dff200cfeadcfbdfe88d6
+  - ref: refs/heads/main
+    old: 7762876fdb3e43441b56129c9fa2a79c048a535b
+    new: 7a3bcd39ae1f0e3ab896d9df62339ab4297a0bfd
     log: |
-         f8bed73c6c52b726ed3dff200cfeadcfbdfe88d6 Revert "f2fs: remove unreachable lazytime mount option parsing"
+         7a3bcd39ae1f0e3ab896d9df62339ab4297a0bfd r8169: use helper r8169_mod_reg8_cond to simplify rtl_jumbo_config
          
