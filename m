@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 12 Nov 2024 02:42:38 -0000
-Message-Id: <173137935857.2023783.4375310294953190896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 12 Nov 2024 02:55:15 -0000
+Message-Id: <173138011529.2034709.15465714494842123827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: 21f91d93912c0ace122784b9c7065147144cfff2
-    new: 5985c1347b0424e771693e2707bba4c84f7ee99f
+  - ref: refs/heads/main
+    old: f0fe51a043868bd12e0eb9ee532723342ce3faf6
+    new: 80b6f094756f9a9e7d1e40208683ba5b8538d590
     log: |
-         654e8b8a8f1a87b0746ff47db00dec1afc05fbc9 erofs-utils: lib: capture errors from {mkfs,rebuild}_handle_inode()
-         5985c1347b0424e771693e2707bba4c84f7ee99f erofs-utils: lib: drop prefix_sha256 digests
+         5dc51ec86df6e2214d8398079c1e31736593ab53 net: Add napi_struct parameter irq_suspend_timeout
+         3fcbecbdeb048dfd1bea824f4276717fed02d10e net: Add control functions for irq suspension
+         ab5b28b007a7ab3edeb0a5e1d04669945ddb1d37 eventpoll: Trigger napi_busy_loop, if prefer_busy_poll is set
+         8a6de2627fd37b76c6e8e77fa6c0fe82888e3fc3 eventpoll: Control irq suspension for prefer_busy_poll
+         347fcdc414f98998df1c5969e4612e4da67d6852 selftests: net: Add busy_poll_test
+         a90a91e24b4851367e26e0990bd8c2e9213672ff docs: networking: Describe irq suspension
+         80b6f094756f9a9e7d1e40208683ba5b8538d590 Merge branch 'suspend-irqs-during-application-busy-periods'
          
