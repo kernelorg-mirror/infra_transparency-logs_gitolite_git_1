@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 12 Nov 2024 08:00:59 -0000
-Message-Id: <173139845931.2269815.3414000604097662607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 12 Nov 2024 08:33:12 -0000
+Message-Id: <173140039236.2293314.14685687618630924585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/for-next
-    old: 7566752e4d7d7fc0186531aa800068a7243f95c1
-    new: 6b526d17eed850352d880b93b9bf20b93006bd92
+  - ref: refs/heads/spi-nor/next
+    old: f8f6224948d83792e9eef798d8a2407e91a51331
+    new: 98d1fb94ce75f39febd456d6d3cbbe58b6678795
     log: |
-         5dbcb1c1900f45182b5651c89257c272f1f3ead7 RDMA/hns: Fix out-of-order issue of requester when setting FENCE
-         6b526d17eed850352d880b93b9bf20b93006bd92 RDMA/hns: Fix NULL pointer derefernce in hns_roce_map_mr_sg()
+         98d1fb94ce75f39febd456d6d3cbbe58b6678795 mtd: spi-nor: core: replace dummy buswidth from addr to data
          
