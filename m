@@ -1,19 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 12 Nov 2024 19:05:57 -0000
-Message-Id: <173143835746.2831605.4532847490589022251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Tue, 12 Nov 2024 19:07:41 -0000
+Message-Id: <173143846189.2832435.17876568051105345283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: 9d0bee66f7398c3c81df613de2e246fbb6a04a86
-    new: 60ad25e14ab5a4e56c8bf7f7d6846eacb9cd53df
+  - ref: refs/heads/for-6.13
+    old: 30026390b3a90cb0d5dd1abb5a105adf86746325
+    new: c4c9cebe2fb9cdc73e55513de7af7a4f50260e88
     log: |
-         60ad25e14ab5a4e56c8bf7f7d6846eacb9cd53df KVM: arm64: Pass on SVE mapping failures
+         bcd7012afd7bcd45fcd7a0e2f48e57b273702317 cgroup/cpuset: Revert "Allow suppression of sched domain rebuild in update_cpumasks_hier()"
+         a040c351283e3ac75422621ea205b1d8d687e108 cgroup/cpuset: Enforce at most one rebuild_sched_domains_locked() call per operation
+         c4c9cebe2fb9cdc73e55513de7af7a4f50260e88 cgroup/cpuset: Further optimize code if CONFIG_CPUSETS_V1 not set
+         
+  - ref: refs/heads/for-next
+    old: 04828a42970fd1e08b6add3420114a76ddf11ef5
+    new: 95ab67727b8fcd200cca45e5bf8fd1c0e2f2f12d
+    log: |
+         bcd7012afd7bcd45fcd7a0e2f48e57b273702317 cgroup/cpuset: Revert "Allow suppression of sched domain rebuild in update_cpumasks_hier()"
+         a040c351283e3ac75422621ea205b1d8d687e108 cgroup/cpuset: Enforce at most one rebuild_sched_domains_locked() call per operation
+         c4c9cebe2fb9cdc73e55513de7af7a4f50260e88 cgroup/cpuset: Further optimize code if CONFIG_CPUSETS_V1 not set
+         95ab67727b8fcd200cca45e5bf8fd1c0e2f2f12d Merge branch 'for-6.13' into for-next
          
