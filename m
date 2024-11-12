@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 12 Nov 2024 19:20:51 -0000
-Message-Id: <173143925190.2845184.8858210443410689441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Tue, 12 Nov 2024 19:22:54 -0000
+Message-Id: <173143937496.2846215.5491453140949777454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
-    new: f060c89dc1a3cfb6db3894e1d96980a568aa355c
+  - ref: refs/heads/b4/drm_edid_to_speaker_allocation
+    old: 9df0a4460ba79e665a8579c5e97bca59b5d44c3b
+    new: 355e5bfdfa2aa4453539604f34471670738f4bf4
     log: |
-         f060c89dc1a3cfb6db3894e1d96980a568aa355c x86/sgx: Use vmalloc_array() instead of vmalloc()
+         997926588518f881e856d4137c421d1ec7a9b055 drm/radeon: Switch radeon_connector to struct drm_edid
+         f95db8f60a9c8ee1a2e828a8fe273fc92f34d1f9 drm: Pass drm_edid to drm_edid_to_speaker_allocation()/drm_edid_to_sad()
+         2f95c080f4298efdaf489231b697dcecf3cd96a7 drm: Pass drm_edid to drm_edid_to_speaker_allocation()
+         355e5bfdfa2aa4453539604f34471670738f4bf4 drm: Pass drm_edid to drm_edid_to_sad()
          
