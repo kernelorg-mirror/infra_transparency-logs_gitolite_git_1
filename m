@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 12 Nov 2024 17:24:57 -0000
-Message-Id: <173143229789.2745496.667605641964880936@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 17:27:04 -0000
+Message-Id: <173143242480.2748153.13291346446390697046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 420c536925c77dbffb473db70a21cbb0bbc30fbf
-    new: 405a113694d12f3e948fd97c0db0bd766987c2cb
+    old: 405a113694d12f3e948fd97c0db0bd766987c2cb
+    new: b024c718b68e84fb92ea90f88be9327145d82354
     log: |
-         5366f6ca7a401d13ddd83c6f658a1401bedd3943 perf trace: Fix tracing itself, creating feedback loops
-         1a909a0ada8fa28faa3d2f7f67fb113fb090f1f7 perf-probe: Fix error message for failing to find line range
-         f50fa2d85e61b38b1945db9a9f346192c0bd14be perf-probe: Fix to ignore escaped characters in --lines option
-         a050e80182c700269b3dbf5036acc16b7cdccc26 perf probe: Accept FUNC@* to specify function name explicitly
-         cb2cc679dc4f4faa3de8b9e160a3b0816a96c211 perf: Add strpbrk_esq() and strdup_esq() for escape and quote
-         405a113694d12f3e948fd97c0db0bd766987c2cb perf-probe: Introduce quotation marks support
+         9ec501fa25b7b74b3ce08c30aafa6e325aeed524 perf probe: Fix error message for failing to find line range
+         8cb06e365df9c1794d343fe1fddfd01ef87ef1fd perf probe: Fix to ignore escaped characters in --lines option
+         3a34d64333c66c2ec5ca53684eb137ff3168594c perf probe: Accept FUNC@* to specify function name explicitly
+         ba76543dbe7ed3208526ef49bc5d6a756e48f33d perf string: Add strpbrk_esq() and strdup_esq() for escape and quote
+         b024c718b68e84fb92ea90f88be9327145d82354 perf probe: Introduce quotation marks support
          
