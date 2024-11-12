@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Nov 2024 11:37:39 -0000
-Message-Id: <173141145916.2451616.9817895113625550090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 12 Nov 2024 11:38:09 -0000
+Message-Id: <173141148988.2452007.12110677723381171057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 76d71eee1b56de9123b8f07e94ab170ce3ea75c1
-    new: 20bbe5b802494444791beaf2c6b9597fcc67ff49
+  - ref: refs/heads/arm64-fp-ptrace-fpmr
+    old: f679865ffd25db916a28bc08ca46784c7351c661
+    new: d76b9a980014287c95b78dd00a50ed6a40ae63b6
     log: |
-         d7b0ff5a866724c3ad21f2628c22a63336deec3f virtio/vsock: Fix accept_queue memory leak
-         fbf7085b3ad1c7cc0677834c90f985f1b4f77a33 vsock: Fix sk_error_queue memory leak
-         60cf6206a1f513512f5d73fa4d3dbbcad2e7dcd6 virtio/vsock: Improve MSG_ZEROCOPY error handling
-         20bbe5b802494444791beaf2c6b9597fcc67ff49 Merge branch 'virtio-vsock-fix-memory-leaks'
+         e6dc09ed6fd497b4d72625e8139140cc08b6111f kselftest/arm64: fp-ptrace enhancements
+         02e60ba66896712cc14a08b4c71a96fe6be59602 kselftets/arm64: Use flag bits for features in fp-ptrace assembler code
+         2df6e33b675803c41f83a19f966c914a82b2b098 kselftest/arm64: Expand the set of ZA writes fp-ptrace does
+         d76b9a980014287c95b78dd00a50ed6a40ae63b6 kselftest/arm64: Add FPMR coverage to fp-ptrace
          
