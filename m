@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5130659415616753156=="
+Content-Type: multipart/mixed; boundary="===============8874888393968835274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 12 Nov 2024 10:18:12 -0000
-Message-Id: <173140669206.2386761.12578986609021895011@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 10:18:15 -0000
+Message-Id: <173140669596.2386953.5915448876836173272@gitolite.kernel.org>
 
---===============5130659415616753156==
+--===============8874888393968835274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,100 +16,116 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 8916ca64f3b95cba4b8ee1f0a4c4f6d49be02f67
-    new: a31ac1fbbebd4deaa6b5a031b41708ae148e5830
-    log: revlist-8916ca64f3b9-a31ac1fbbebd.txt
+  - ref: refs/heads/linux-5.10.y
+    old: b845d2948fcda093898b7e1ad456e94ce0af4c93
+    new: 3e280b4178a3d9dd3fc0c7f511f10269876dd2bd
+    log: revlist-b845d2948fcd-3e280b4178a3.txt
 
---===============5130659415616753156==
+--===============8874888393968835274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731406719 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731406722 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1731406689-6d59bd245665bb4ef2bbe9ad6aebf70f14a007e8
+nonce 1731406692-44b0d1718f5b3b87cb0f71dc3839c1a7c94d5608
 
-8916ca64f3b95cba4b8ee1f0a4c4f6d49be02f67 a31ac1fbbebd4deaa6b5a031b41708ae148e5830 refs/heads/linux-5.4.y
+b845d2948fcda093898b7e1ad456e94ce0af4c93 3e280b4178a3d9dd3fc0c7f511f10269876dd2bd refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczK38bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uRIP/0H5b2tv0ck3TgSfdzf6
-ZtLo2xJMcn9KgvEDNwYHQr7nCUsIvBWSGrh6gI2F1pFj4Wqw2qpvISELXwa1ZWjK
-Nm9EXd3fgoKSmIGfNpIUqrk/TTlA83z8PTE+e+1uZdZOzcV6BJklAG3ieQyYe9el
-7HmcIVRICZD7FrJyP2smqLXDFOiicH5BOLwgpeqqazfVRhx0sP+rXvoJjwHjAqdG
-vqL1ZexIUz0xfZJOg0e0l9/FRnHmrE4Cmq/TzqilywYIvo0umNMaQtDh/9xXzweU
-eKlboKSmrmWhXp61u4ohvOOcHfXhiw9bitQiWswibIBa3toqQAY8bG4oBmRAshC/
-a0gEXRGBu1fqDUx01CsXeSGSIOGKAod3EPNvl6L0DnkVHdUJvElA3j1d1TuvU8gJ
-K4cVwcx/AVvheGdpZ8yqyopYHY9AOjogVdWqgZkSX+MwglFiNAQOQqBAolUYZ+Op
-k7K08fUggDvhVIIAivDzAyZ8KggbeSECzajrxUtBFOm7D8SXrSTacJpN6ELACjQa
-mYhl+ZKi3PGmaz7OJC7sREXnzd66HUUszFrZk+T3ay1ZAk1DSaTXjf6pUDEkqzyL
-fPbm1SS38eK4OfMGFu+8Abc3wBXoq3MusX2MzN7OoL89SXmSlqz6KOBbpwBh0OVA
-dWM2B1utPev1y8Y1dETI6hNM
-=o7Tg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmczK4IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EjAP/06MWsew2KZOjawTuenY
+sU/mT9KpEW5JWHEaNTTVizhBzS6BvV4WPm/yv8hg63Awt7z4wCuQPLx5QZH5AePO
+l4/yyaYhr80X3T8ATbeoh3KDa9WLDRNy9O2qcq6CA4BJQlMsjZ6XFAS/6DOtFHMe
+QsBHfeWBGKI5DgPuTsgMQkFeH2yT4oiZf9ZTsaqIP5/jMZjLnDnewJhshNIoKPSA
+qo6dWNPLkVDTwIzWuU5LomessCrtd3ntHRpfhHUx/g61A4EKoXYnbD3YgO3k8wH+
+BygwzPJUo45aZm36N2SeigDVBJCf6Xds1zmzzvqwLQziEolSJE3Thck4EkK/tSv3
+M1R+jkq67KlpqoJYdC2/74Ye58AeNrP4us+HEqVxlTCW4t+TG5gaPcfSOforAeYg
+A4QC+1Uay5ToK7ODR7KRDWZpYKJ0v/hZqtbVUqvl+eJGATikxto1KWcBfosxsZ1n
+9v/KC5zvsjrWk0jJDgbZEbKCmrx7da6otu4pTL/U8HmQpjCGgTYuxHT3Ra6Xt4lf
+2rXY0kQuXwqCp/Dkjj57tgoesLA9a4yZYOLZwcPUnxLRx+nK7LSC3EYc47kRtS5/
+YIrev5MGT4n9LvdwyM6H/91g3vNpc76ZG+OjQwL1Kpa/9Os+A6ou1UjkXOg9M6MF
+j+rOo3SM69OxmNyacl3VOmtg
+=Tm1V
 -----END PGP SIGNATURE-----
 
---===============5130659415616753156==
+--===============8874888393968835274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8916ca64f3b9-a31ac1fbbebd.txt
+Content-Disposition: attachment; filename=revlist-b845d2948fcd-3e280b4178a3.txt
 
-a19135e39946cca2c9c603ce69484b2904814cae arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
-01594e09d698cbe4d7b11900ade984151f0ae3c9 arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
-26360fac4e29be4e419101319b44a8350890eda9 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
-77643ab12b96ea655b1e4bda102f6d0c3e9ac8a5 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
-eaaa666611136c8094501d44f3331481019dcd58 ARM: dts: rockchip: fix rk3036 acodec node
-fec5f65881b66476b3671c1c50c2dac13d6a501c ARM: dts: rockchip: drop grf reference from rk3036 hdmi
-8761b595b0335bfd103420bc19c6815d056a7228 ARM: dts: rockchip: Fix the spi controller on rk3036
-2654aa7f0b8df81efb6fcd44f392cf55240ec0aa ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
-23fcc1d05756e9cea26feece24e5de5877cfc0a9 HID: core: zero-initialize the report buffer
-de9e66240bbdc9c48f3a643ecf084ae19c85ca3b security/keys: fix slab-out-of-bounds in key_task_permission
-bf2367b98aedb28341debef31e4dbb1e5eb7c7fe enetc: simplify the return expression of enetc_vf_set_mac_addr()
-2a5c98f2f9860c8a39854e5688e4bd9f9229c61d net: enetc: set MAC address to the VF net_device
-6fbc719c3532375f2230fbe3f2a389f8af8b42b8 sctp: properly validate chunk size in sctp_sf_ootb()
-16ec451345d70ea489cabd382917d1f5f716aae6 can: c_can: fix {rx,tx}_errors statistics
-7957d85a6f061474cbb4e185bfb80069caf8e201 net: hns3: fix kernel crash when uninstalling driver
-b1e77aa279ee155bc78629ea9e049c530c94daed media: stb0899_algo: initialize cfr before using it
-ac6b771f5ecc7e9bcc37c1883c34d0c0672ffe85 media: dvbdev: prevent the risk of out of memory access
-6d36cc227522126ef2189546a6a07a04031c2165 media: dvb_frontend: don't play tricks with underflow values
-d719d9dd3b29609912bb619da3446c58f5d91fe7 media: adv7604: prevent underflow condition when reporting colorspace
-d6b2c92fd71449da89696432cb64aaca4ef915df ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
-d649092a7b685523530fb32fd3adb42ad625a7cd media: s5p-jpeg: prevent buffer overflows
-71f37e2c84615d5a52d28cf61159821d9e159906 media: cx24116: prevent overflows on SNR calculus
-0a8bfec7c3ac56d0f21a1759679f32a9a66cdea1 media: v4l2-tpg: prevent the risk of a division by zero
-45115c9cda27e143d2098795a2d5bf580ed258a8 pwm: imx-tpm: Use correct MODULO value for EPWM mode
-e91fbf3fead4a81d28a8b9bfbbc6e7ae4e8bdd75 drm/amdgpu: add missing size check in amdgpu_debugfs_gprwave_read()
-946cee546066929fad777810d3431bc3916f61bd drm/amdgpu: prevent NULL pointer dereference if ATIF is not supported
-d192a6528b39af577d87a781c3b754e1a77b86a8 dm cache: correct the number of origin blocks to match the target length
-2b5a44b425b1bc5e6836e466355215a0c533c20a dm cache: fix out-of-bounds access to the dirty bitset when resizing
-24106d359a6e0420b89b95e0421182151808e833 dm cache: optimize dirty bit checking with find_next_bit when resizing
-1f06c3784dab5cb42f17739142ec0736e0b76459 dm cache: fix potential out-of-bounds access on the first resume
-d7e1a6aa3d50cc31c2805d8286d0a1c0112e6af7 dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
-13a631d6cd384607655d5c7047bd0abed66d2102 nfs: Fix KMSAN warning in decode_getfattr_attrs()
-61c5e1ab06ee40e94f5baab7e1b4c940a6432c14 btrfs: reinitialize delayed ref list after deleting it from the list
-23abe9d6355765265d9bcb202f28a4b2096ed749 mtd: rawnand: protect access to rawnand devices while in suspend
-bb6297e6b32191ab44c7ee2351f70b6c80cace1b spi: Fix deadlock when adding SPI controllers on SPI buses
-a9558f9171d203a02c5517cabbe92cd413409c1f spi: fix use-after-free of the add_lock mutex
-28f857a23286e7a5133c541262969aaa92f7e20b net: bridge: xmit: make sure we have at least eth header len bytes
-9f092cac1fb9262e2c816170a213f22c9cc74ddf media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
-1df3c7e3329ff6a16fb49c8bab6e2be75179e3f4 fs/proc: fix compile warning about variable 'vmcore_mmap_ops'
-71f79f609e3706ad11ba377251428205c07430d6 usb: musb: sunxi: Fix accessing an released usb phy
-00b375470d4ffb3f131cfec3889bf8c60831b6a7 USB: serial: io_edgeport: fix use after free in debug printk
-6b85ccd1ecc1c19faecaabab44e86953346e4157 USB: serial: qcserial: add support for Sierra Wireless EM86xx
-dc2b7d3defe4bb19a1dbff9c486ac94df79818a9 USB: serial: option: add Fibocom FG132 0x0112 composition
-093ae70043ea80d24c6ef3792b6d3018cdc0f87d USB: serial: option: add Quectel RG650V
-51d2f6b1f099988abd7b9ad8906248849937b5ed irqchip/gic-v3: Force propagation of the active state with a read-back
-5eaa7687c09cdc71772279eed016dfb934fd9149 ocfs2: remove entry once instead of null-ptr-dereference in ocfs2_xa_remove()
-651cd29a9efcde68b686987935e27cb9d5169cb3 ALSA: usb-audio: Support jack detection on Dell dock
-fdb44b2fe5a2d91fec6f995654eff963ce276d22 ALSA: usb-audio: Add quirks for Dell WD19 dock
-8bf0ff2c669b3bac01128049acec6834feb0f531 NFSD: Fix NFSv4's PUTPUBFH operation
-23d315a6cdb0d5b07661b366ccfe0aca5774a82f ftrace: Fix possible use-after-free issue in ftrace_location()
-b347171d3c0be20c4b7842e42ff5d70cf2a185dd hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer
-5731d930107c67e49ce354954e0322cab6000d87 vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
-fc664c4b1bb8070c0f1ad67abb36f39f2fd0a306 ALSA: usb-audio: Add endianness annotations
-a31ac1fbbebd4deaa6b5a031b41708ae148e5830 Linux 5.4.286-rc1
+4d18861b7140a8ae5470a44dfda4c7f975676df8 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+95f04584744668cb3d3b5cb89d2412b9e46d9a8d arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+bd3f7a4e0ecbdc2e372d55861f30beeac76a54f3 arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+c74a33878274020aeaed370fed702fb55d2516e6 arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+a2b600609a07f5d45b979ad9c3c02e27a0e777c7 arm64: dts: rockchip: Fix LED triggers on rk3308-roc-cc
+5a8b1b4d4b904fed08d7d9d6761ee6130d5e0c9c arm64: dts: imx8mp: correct sdhc ipg clk
+a92460f35d473344b4b2005644e7f5de4ecdc6e5 ARM: dts: rockchip: fix rk3036 acodec node
+05b94cb8d4c89ac567ac681b95dd340f38ea8a29 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+cccfaec3b625b274916d23988c6f2ea939359947 ARM: dts: rockchip: Fix the spi controller on rk3036
+1ad2cd925ed6b8529dcb936628240c011a5518f6 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+b77d2963ba1c4ceb3854862d2bcc96370b0d211c HID: core: zero-initialize the report buffer
+8769a5908455a132fff0ae35435dca01b24e679d security/keys: fix slab-out-of-bounds in key_task_permission
+1b44210b8cb3a62f78e8a61e16c40fdc1ae3c4d6 net: enetc: set MAC address to the VF net_device
+05e2b838098312216b2be761c88dd2a50baf8659 sctp: properly validate chunk size in sctp_sf_ootb()
+e6e67e9e3788364c658c71548600444989a1b45b can: c_can: fix {rx,tx}_errors statistics
+5a305355489688296a23f03029d246f0bc2e1447 net: hns3: fix kernel crash when uninstalling driver
+00f68816985506a4ab4f182ffeeefdfa149cd146 net: phy: export phy_error and phy_trigger_machine
+eee3607ec9cae11a5af67f21222b5fe7ec02b70f net: phy: ti: implement generic .handle_interrupt() callback
+1c4330a264d32ed33db0e396a427be677589a96a net: phy: ti: add PHY_RST_AFTER_CLK_EN flag
+fa53373dfbdcde81d17e0a8fc1ed5bb0d6dd0c4e net: arc: fix the device for dma_map_single/dma_unmap_single
+63c299365750f100e3984b8075ab892d3eac6298 Revert "ALSA: hda/conexant: Mute speakers at suspend / shutdown"
+f6bdf7948081c89fe1ed1f45ca39f1b45d08a1c5 media: stb0899_algo: initialize cfr before using it
+68b5eafff537e37f02d38572d43bc1b2eadd4d69 media: dvbdev: prevent the risk of out of memory access
+47885c1b056e9da0664ca4382f0465e6af5c4a4f media: dvb_frontend: don't play tricks with underflow values
+f6d895ff9c2fc8a407c60a309c74bbc203fd7431 media: adv7604: prevent underflow condition when reporting colorspace
+e9315adb40070b59d0cd324e68ec2f64b0e253a3 scsi: sd_zbc: Use kvzalloc() to allocate REPORT ZONES buffer
+2a8f9e1e20b30cb704697b60a8715876c8fba8ce ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+26e8e7f22fb3eed3279ec03e5c054c0f53cf683d ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
+44f91cec074afd7ac5df76287e48803fe41f8df2 media: s5p-jpeg: prevent buffer overflows
+a48f683d543d1e36f63670334f5be2efe96cc09b media: cx24116: prevent overflows on SNR calculus
+4ba456f5ad5d105e459005df9b559772ebc5e707 media: pulse8-cec: fix data timestamp at pulse8_setup()
+7da7615e8d210c591aa117f80534a6269e38e2ac media: v4l2-tpg: prevent the risk of a division by zero
+7ee299ae817ac458ab07bcacc87f9d3816aa0ba5 pwm: imx-tpm: Use correct MODULO value for EPWM mode
+8c58cbaf892663c84a379037ef48959a6c722c32 drm/amdgpu: add missing size check in amdgpu_debugfs_gprwave_read()
+762109bb26217d01cd50bfd67c787ab438b90012 drm/amdgpu: prevent NULL pointer dereference if ATIF is not supported
+855fc381e0c3a3cec92ca7d64a982bc34fa3e7d7 dm cache: correct the number of origin blocks to match the target length
+fb0a22c2bb300b68979977f9179c28e679de2a35 dm cache: fix out-of-bounds access to the dirty bitset when resizing
+4fc371d4f65d7cbcbeb74c8d88479bcedab3da30 dm cache: optimize dirty bit checking with find_next_bit when resizing
+527cd82003fd561c05e5ac5c7e406f400a765da0 dm cache: fix potential out-of-bounds access on the first resume
+163d17bfcc7e299499e4df1d8d7da6899107320b dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
+134736cf9669aac5e61289c79c28fd7b7757144e io_uring: rename kiocb_end_write() local helper
+648a239dc93a2bc74bcd6efa676dac411179ea8e fs: create kiocb_{start,end}_write() helpers
+092dd755472c0cbb018976dfc7a363649a466e79 io_uring: use kiocb_{start,end}_write() helpers
+98134ea010263eb12ca92b34cdd87093d539204e io_uring/rw: fix missing NOWAIT check for O_DIRECT start write
+27c9e5d324d16471b50c7ff240d9ef501d2529f7 nfs: Fix KMSAN warning in decode_getfattr_attrs()
+30ca4fcb1d8ec7c62f64af51f6f67dd288d23995 btrfs: reinitialize delayed ref list after deleting it from the list
+d8363d9ba880cd98a0f5b9cd2e6ada654cb4a1ec splice: don't generate zero-len segement bvecs
+67a3c0168d3688f09a275fb776acc8e17c0692a1 spi: Fix deadlock when adding SPI controllers on SPI buses
+8f78d8edaeb42c10b47b2ab7e2243b7fde8837fb spi: fix use-after-free of the add_lock mutex
+8737e914c709820fbb10112c7bb62486218ce23e net: bridge: xmit: make sure we have at least eth header len bytes
+196e0850f0d4a7b4fc572ca9da98f41f377bd340 Revert "perf hist: Add missing puts to hist__account_cycles"
+be0b68c313fcfa94403da98ecfcfe97671413750 perf session: Add missing evlist__delete when deleting a session
+4ffdd0cd5720a338af04e0cd90609d6f7f95bdc8 net: do not delay dst_entries_add() in dst_release()
+1a4508f1efae5fd10fb2b90e3b17cdbed6a1bac3 media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
+533fc95ed0befcd2776b5bbccca183bac4da4a36 fs/proc: fix compile warning about variable 'vmcore_mmap_ops'
+68d3469cc1c5305e0d695661aaa67583af914423 usb: musb: sunxi: Fix accessing an released usb phy
+7a5de65b923af35fbf5a9083aa24723701474b67 usb: typec: fix potential out of bounds in ucsi_ccg_update_set_new_cam_cmd()
+1529b721bf7e9a96552f2cbfdc0ef240f6adba6e USB: serial: io_edgeport: fix use after free in debug printk
+b23068583807373633acf9a838b648f55610ccc4 USB: serial: qcserial: add support for Sierra Wireless EM86xx
+941901af895544f40308cc8153424325448f637c USB: serial: option: add Fibocom FG132 0x0112 composition
+4069970c410cfc9404446ac57e0811472620b0b9 USB: serial: option: add Quectel RG650V
+4ba6db3cea703560094da840ce4c95a7dde96d83 irqchip/gic-v3: Force propagation of the active state with a read-back
+6aaaafa159aceddd1bc5ac4ff6e7875528f92031 ocfs2: remove entry once instead of null-ptr-dereference in ocfs2_xa_remove()
+b45237240674ffec99ef7b84b4a31b018e438085 ALSA: usb-audio: Support jack detection on Dell dock
+2a6b6fecb151f67e5953ec73d4c0a8448201ee12 ALSA: usb-audio: Add quirks for Dell WD19 dock
+2d7164fd54c53a7dd18a4e71805d66740d2dcf3a hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer
+9fa75cdeb79618e345123b4a4b3e3ff14afca7bc vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
+41d51470e14b699dab4fcd32553369b0631e8e36 ALSA: usb-audio: Add endianness annotations
+05b8c7a0ba0c3dc4781415aec626adb20670f657 net: phy: ti: take into account all possible interrupt sources
+3e280b4178a3d9dd3fc0c7f511f10269876dd2bd Linux 5.10.230-rc1
 
---===============5130659415616753156==--
+--===============8874888393968835274==--
