@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 12 Nov 2024 15:34:09 -0000
-Message-Id: <173142564918.2650198.1240616588778214650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 12 Nov 2024 15:37:06 -0000
+Message-Id: <173142582629.2653607.10812836131879568024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fixes
-    old: eede2ee2cbc45052c5cfac41afbba1432743afae
-    new: 57f7c7dc78cd09622b12920d92b40c1ce11b234e
+  - ref: refs/heads/kdevops
+    old: 569bf734983e24665dcc8df768496048755fdb49
+    new: 2013f5d9dbfe0b5e8f526e5e08062dad6f375c92
     log: |
-         57f7c7dc78cd09622b12920d92b40c1ce11b234e drivers: perf: Fix wrong put_cpu() placement
+         2013f5d9dbfe0b5e8f526e5e08062dad6f375c92 samples: add a mnt-ns-walk program to demonstrate statmount()/listmount()
          
