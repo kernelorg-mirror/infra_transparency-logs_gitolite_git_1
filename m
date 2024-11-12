@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rmk/linux
-Date: Tue, 12 Nov 2024 17:21:55 -0000
-Message-Id: <173143211510.2743784.7045098459229588742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 12 Nov 2024 17:24:57 -0000
+Message-Id: <173143229789.2745496.667605641964880936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rmk/linux
-user: rmk
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 4afb826ced8e9a56966f4c75856fdc3f866401ac
-    new: 315cfa0efa30b8f1c9b8d6b8b5cc9e6c337906ff
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 420c536925c77dbffb473db70a21cbb0bbc30fbf
+    new: 405a113694d12f3e948fd97c0db0bd766987c2cb
     log: |
-         ff6f3c3430f464ec80b664478d4f510a81ca6c21 ARM: fix cacheflush with PAN
-         315cfa0efa30b8f1c9b8d6b8b5cc9e6c337906ff Merge branches 'fixes' and 'misc' into for-next
+         5366f6ca7a401d13ddd83c6f658a1401bedd3943 perf trace: Fix tracing itself, creating feedback loops
+         1a909a0ada8fa28faa3d2f7f67fb113fb090f1f7 perf-probe: Fix error message for failing to find line range
+         f50fa2d85e61b38b1945db9a9f346192c0bd14be perf-probe: Fix to ignore escaped characters in --lines option
+         a050e80182c700269b3dbf5036acc16b7cdccc26 perf probe: Accept FUNC@* to specify function name explicitly
+         cb2cc679dc4f4faa3de8b9e160a3b0816a96c211 perf: Add strpbrk_esq() and strdup_esq() for escape and quote
+         405a113694d12f3e948fd97c0db0bd766987c2cb perf-probe: Introduce quotation marks support
          
