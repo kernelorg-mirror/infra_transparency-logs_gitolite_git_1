@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 12 Nov 2024 14:46:56 -0000
-Message-Id: <173142281688.2609756.9969902140755988876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 12 Nov 2024 14:49:06 -0000
+Message-Id: <173142294659.2610826.5257346503136807493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 4ca7cd938725a4050dcd62ae9472e931d603118d
-    new: e8501858035b1f95468da525e7357c8c33811b88
+  - ref: refs/heads/for-mfd-next
+    old: 0d3f073975ad28bd16034ed81b8e525e808cbe37
+    new: 131a975aba393cc81dc86687e55412137c520dec
     log: |
-         44e04fb8d69fa7fa4ec9a20762834eab1e7945af dt-bindings: leds: pwm: Add default-brightness property
-         8cb08101835d98fd69cfa2a2b06146eddc057df6 leds: pwm: Add optional DT property default-brightness
-         e8501858035b1f95468da525e7357c8c33811b88 leds: ss4200: Fix the wrong format specifier for 'blinking'
+         131a975aba393cc81dc86687e55412137c520dec dt-bindings: mfd: sprd,sc2731: Convert to YAML
          
