@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5290681467719507181=="
+Content-Type: multipart/mixed; boundary="===============0032411724422904784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 12 Nov 2024 16:46:58 -0000
-Message-Id: <173143001822.2713789.138890627760296049@gitolite.kernel.org>
+Date: Tue, 12 Nov 2024 16:47:12 -0000
+Message-Id: <173143003211.2713997.334332585565849046@gitolite.kernel.org>
 
---===============5290681467719507181==
+--===============0032411724422904784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 0dcc2d1066150787017a71f035145c566597dec7
     new: 06513ddaf77b8f49ef8540c92d92c9ef0ad49426
     log: revlist-0dcc2d106615-06513ddaf77b.txt
 
---===============5290681467719507181==
+--===============0032411724422904784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ec894f165670ffc9bcb45fd1e16de79ed09d514d kbuild: support -fmacro-prefix-map for 
 c7c9dd072f0f044e02a9b7df3e22b473f267a53f kbuild: make wrapper Makefile more convenient for external modules
 06513ddaf77b8f49ef8540c92d92c9ef0ad49426 kbuild: allow to start building external modules in any directory
 
---===============5290681467719507181==--
+--===============0032411724422904784==--
