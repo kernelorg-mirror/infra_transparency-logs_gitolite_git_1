@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 13 Nov 2024 22:48:45 -0000
-Message-Id: <173153812500.55152.12599532443963359266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 13 Nov 2024 22:49:35 -0000
+Message-Id: <173153817523.56188.7625607579884423358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: d4cb9b765798d1b54a544ebcc425ee1f52f70055
-    new: fe6c5eff7c67a2c549d84a1f952007cc1d71ed79
+  - ref: refs/heads/buffered-uncached.7
+    old: bdad376263274c755496bccb1bc304a8dd067031
+    new: 8a925ebd72f50fc1fbfcfb302b991b315cf671cd
     log: |
-         fe6c5eff7c67a2c549d84a1f952007cc1d71ed79 docs: i2c: piix4: Add ACPI section
+         8a925ebd72f50fc1fbfcfb302b991b315cf671cd block: support uncached IO
          
