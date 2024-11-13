@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 13 Nov 2024 22:46:04 -0000
-Message-Id: <173153796440.53583.1879478797533643863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 13 Nov 2024 22:48:33 -0000
+Message-Id: <173153811392.54863.6086100687060641791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next.getname
-    old: 25ea033155f4d083b5a20417d53754b11a39c3bb
-    new: f0592ead26405707c00a8d934602216516ba5b17
+  - ref: refs/heads/reset
+    old: 750af79f55c2925f333021d19d0addf831e076ab
+    new: a3151e6daaec171b7d46ac79170ec420ad874cae
     log: |
-         68c2cb360a8c7c0c8240d761f5da945a60874d88 convert do_sys_truncate() to getname()
-         f0592ead26405707c00a8d934602216516ba5b17 RIP filename::uptr
+         2fa046449a82a7d0f6d9721dd83e348816038444 PCI: Add 'reset_subordinate' to reset hierarchy below bridge
+         a3151e6daaec171b7d46ac79170ec420ad874cae PCI: Warn if a running device is unaware of reset
          
