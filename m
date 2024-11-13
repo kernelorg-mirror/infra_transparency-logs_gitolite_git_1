@@ -1,63 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7367857636105460950=="
+Content-Type: multipart/mixed; boundary="===============5368946935740715983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 13 Nov 2024 14:09:49 -0000
-Message-Id: <173150698985.3820163.1344923512883419353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 13 Nov 2024 14:11:59 -0000
+Message-Id: <173150711918.3822829.1789144817615479243@gitolite.kernel.org>
 
---===============7367857636105460950==
+--===============5368946935740715983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/usb-testing
-    old: 12bbabd3cab8a7dab0ddad8ed1e671f40c7cdeeb
-    new: 528ea1aca24fba5616f397d43ccb2de99d2a41d7
-    log: |
-         b7d49096d595c3413420b02e7851e8b5524353bf drivers/usb/gadget: refactor min with min_t
-         28d96b7a925309a6a8024620d83a113f75a02b0d drivers/usb/core: refactor max with max_t
-         982883b010d7fe485e7772d6e9347365df66130a drivers/usb/host: refactor min/max with min_t/max_t
-         9a0c58d025e8a01e726432006788a4b6f3179da2 drivers/usb/misc: refactor min with min_t
-         fa3b4b9bc74c999457bce3a06d595e9aca814646 drivers/usb/mon: refactor min with min_t
-         a05e885dd2254bf0c31e00b74089d261e2a5a01e drivers/usb/musb: refactor min/max with min_t/max_t
-         6d8a67e3954fe2a66ca726d1ce80ab7fe0c2998b drivers/usb/serial: refactor min with min_t
-         528ea1aca24fba5616f397d43ccb2de99d2a41d7 drivers/usb/storage: refactor min with min_t
-         
+  - ref: refs/heads/features
+    old: 182c02a6cd5f7947c403ba2321e262fb0aeaabfc
+    new: e200565d434b66e5b2bfc3b143b66b8ca29666ad
+    log: revlist-182c02a6cd5f-e200565d434b.txt
 
---===============7367857636105460950==
+--===============5368946935740715983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-182c02a6cd5f-e200565d434b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731507015 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1731506986-c93037267855f6e6238858ca178f1999f8ad2d9e
+2f4b3b83b8c6e798a2e581521f00933d0f9ec777 s390/cio: Externalize full CMG characteristics
+e7583c5f8d0e0aa34178b6f34a89f81090393c64 s390/asm: Helper macros for flag output operand handling
+eade39cc724c3ba08541ebca4b1b4c4bf19c49a5 s390/sthyi: Convert to use flag output macros
+34c4812366edaa8383efc3221f35d713a3ee1ced s390/pageattr: Convert to use flag output macros
+81c54fc570fe7eb5ab66f8a4f7b8d515e2426cf4 s390/time: Convert to use flag output macros
+d4e50cfe9c75f4d3caab62c7227152db10d23c82 s390/topology: Convert to use flag output macros
+ca6dd1faa0220483cb2f9d22e0556ba9d48c90bd s390/cpcmd: Convert to use flag output macros
+fbe057e874c7037982dea38235e8b9a9be05a8d5 s390/cpu_mf: Convert to use flag output macros
+9ce8bc0cb42b5054a005d4012e7672b078855a28 s390/mm: Convert to use flag output macros
+f07a788895bf16a8dd5468a7b3bb3125c110800f s390/pai: Convert to use flag output macros
+3611a2367c3f9192f3fb14c51020fc7476c174fe s390/uv: Convert to use flag output macros
+553ed6d88a31fce30656ae5dab50a2f0625f9008 s390/smp: Convert to use flag output macros
+5a5897d65b6f7b3c0f2dd39dcffa9b08317942a9 s390/irq: Convert to use flag output macros
+a6122f690af6deefc67cc95a7d8139e63bdbdb39 s390/diag: Convert to use flag output macros
+0caf91f6d695dac811b7959c98625238390ad075 s390/string: Convert to use flag output macros
+0b7265ae169ac64bdc3ac3de536c32e38ec249af s390/extmem: Convert to use flag output macros
+4e20996f0dc51acd37ea4c2fbcb53df3e33dc9f7 s390/kvm: Convert to use flag output macros
+0eb597bd81ac8aa6803bd9ca91849f627a16396f s390/pci: Convert to use flag output macros
+d80888232e44a4a648a719c5fc1658d8776c3f5b s390/boot/physmem: Convert to use flag output macros
+cd5e5a3723001aa750ed64c97e36872f8b0a6fb0 s390/dasd: Convert to use flag output macros
+6816e2124d6a23158af8eef27ca0b93c740e1634 s390/sclp: Convert to use flag output macros
+f62ad9073ae3f3a024a1abe7860d5356b2ec868e s390/cio/qdio: Convert to use flag output macros
+e200565d434b66e5b2bfc3b143b66b8ca29666ad s390/cio/ioasm: Convert to use flag output macros
 
-12bbabd3cab8a7dab0ddad8ed1e671f40c7cdeeb 528ea1aca24fba5616f397d43ccb2de99d2a41d7 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc0s0cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gx8QAMGgKokRycUJZJhkUMC9
-b212aivZvlLNj577Ae0Ypd6UyY9zYBhN8IzDEQJURCezixB6pmCcNg+n8CfzuKq2
-yWvPD9AvloBB/ao3Grxcr/RAPuaoMU/OMLqfJa/u0bVVadtXdRyzpTLLV3dsfmfq
-6fyxm6P3Z3haegutikfgr+5jCoNJJBxkCepi/nKH0IAEr63zU2DvL456zMKd5k/o
-fzriZA70jSqbfThA/sAiC4cu4g9hIElW4eDIAr/NfijMBFp+F+O99518wxJSRfYw
-tOityx9GnhsZ7Hl8OFFNxHNjR6RRHu9mNfpxSqI4iw03e58pyfc9PHuBKfzRd3eB
-CWgx4ZdUIiL5gcCpwYCvLOUQdjfAt2BjSk7qArLFc9kNvTsksixYP679wbIrVi71
-mUbRF7DFrmxMEXuHiD6480gjKDMiXXBf1BW5zXSfvYyxN3J6SgYTvuXi8RXG20q+
-Ra7Q9oc/LJt663Wo3/oxN4x52aIrFXdtFwrSIltWsTE4XqQcUNBWQScugI/RGTe8
-Nw1mfUriYeABLBocdod1RTwqJOahd91dM39+WNXH52whnN43SKHbe2Vf4E3DDQbZ
-nacLaWWa6xGuohguRnQ4GHpD5VV1y6gEfy0t7fNhhGLNOA5nJpKoWriZby26nfg3
-ZqouHbvbqIYA+Zfe8Hg8W9KH
-=jxNe
------END PGP SIGNATURE-----
-
---===============7367857636105460950==--
+--===============5368946935740715983==--
