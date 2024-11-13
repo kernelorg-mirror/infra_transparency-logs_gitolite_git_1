@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7386835283922446031=="
+Content-Type: multipart/mixed; boundary="===============1860628239472517507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 13 Nov 2024 17:45:17 -0000
-Message-Id: <173151991705.3997731.15609181148499906563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Nov 2024 17:45:23 -0000
+Message-Id: <173151992302.3997924.15621500651034682656@gitolite.kernel.org>
 
---===============7386835283922446031==
+--===============1860628239472517507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.12
+  - ref: refs/heads/asoc-6.12
     old: d859923faeca740ae9235e2b9328999836e681b9
     new: 2ae6da569e34e1d26c5275442d17ffd75fd343b3
     log: |
          2ae6da569e34e1d26c5275442d17ffd75fd343b3 ASoC: max9768: Fix event generation for playback mute
          
 
---===============7386835283922446031==
+--===============1860628239472517507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1731519943 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1731519915-242755f6b49638b12c5e4465a9face74bc840e50
+pusher Mark Brown <broonie@kernel.org> 1731519949 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1731519920-ca7a7ebb94c0cd2b1ebd91f0134c80377d099ca3
 
-d859923faeca740ae9235e2b9328999836e681b9 2ae6da569e34e1d26c5275442d17ffd75fd343b3 refs/heads/for-6.12
+d859923faeca740ae9235e2b9328999836e681b9 2ae6da569e34e1d26c5275442d17ffd75fd343b3 refs/heads/asoc-6.12
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmc05ccTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0DepB/9+Wp5+gITXU3j7kMpZUF+6akr7MO1A
-1iY1AKbYrHQeJnrRpebOeL9s3BExDxbu+NIHnXIwpJZ/VvBs7d89kvQd9d7l331t
-UJMgQncZPfYQy3TUjdhu1pT/PJvMB0svbmlB7Eyc+wT4QNZM0yBPTP4ItUzz66MP
-xZtR0voYpnvEI9EB8DHqL/BY6R1C8FiZEpFs/vyZRxmtnfM61rQ6l5AdFZX1w112
-5NF/+M7+eDlS66kOD0uYY+Yxgue34Z3u7tdQcQB/CJi5uh7g8dfeJI02VgMlncYm
-QSFYhB4lGCpiI2FdIpoYvwgd3RKA3tKvnWJo7s5EgmHpicxAMg5J+Ls6
-=4CkM
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmc05c0THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GE0B/9fqZG4X9WfGPzc/DPUxaPtDViMQv4I
+l0WzEx2pOIJjYBsuegqeeQL0c+zJsQDaDoJyRF3ZNXqt9kCK2rqdwwR9Dtc6mpez
+LOq6aHHJBQSqI0etfRQPRVnGLcxcUQTNSQtKmMTxKmGqiIPy4p/tOOQK90LarcWp
+UK72RgppZssopO4Yvviy47snK6q2Y8tYWnwCP+ZtDkSz+pw2CITso0aJhna4xNsM
+S/XJYCMJ9OwFG2kvS/vabET56JxTjsbYIFiKrRP+dCjKtsvxaHGWM8mlWzY7Ek9H
+9LPpMJUxn37nVt8ZjO9zGNmWgiOnDaWRslCKxyX9T4/dMfAS8kjmHUWQ
+=EZu1
 -----END PGP SIGNATURE-----
 
---===============7386835283922446031==--
+--===============1860628239472517507==--
