@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0922784677077566322=="
+Content-Type: multipart/mixed; boundary="===============4134799531385587233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 13 Nov 2024 09:10:31 -0000
-Message-Id: <173148903134.3580909.9492659515650007827@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 09:22:21 -0000
+Message-Id: <173148974122.3589320.14474001944841970352@gitolite.kernel.org>
 
---===============0922784677077566322==
+--===============4134799531385587233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/for-next
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
+  - ref: refs/heads/staging-merge
+    old: fe4e0faac931e01cd3a17ae45e45167e7855f048
     new: 5877dc24be5dad833e09e3c4c8f6e178d2970fbd
-    log: revlist-59b723cd2adb-5877dc24be5d.txt
+    log: revlist-fe4e0faac931-5877dc24be5d.txt
 
---===============0922784677077566322==
+--===============4134799531385587233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-5877dc24be5d.txt
+Content-Disposition: attachment; filename=revlist-fe4e0faac931-5877dc24be5d.txt
 
-8b9b261594d8ef218ef4d0e732dad153f82aab49 xfs: remove the redundant xfs_alloc_log_agf
-792ef2745d12cc129887eaef5bc62fe15f6f088a xfs: simplify sector number calculation in xfs_zero_extent
-59e43f5479cce106d71c0b91a297c7ad1913176c xfs: sb_spino_align is not verified
-1171de329692163470f1cde7cc99f89487ca555a xfs: split the page fault trace event
-1eb6fc044752d0ec1a637956519787e5f6ce8760 xfs: split write fault handling out of __xfs_filemap_fault
-a7fd3327d3ba208e1086ef972162fb54c7fb4bea xfs: remove __xfs_filemap_fault
-fe4e0faac931e01cd3a17ae45e45167e7855f048 xfs: remove xfs_page_mkwrite_iomap_ops
 62027820eb4486f075b89ec31c1548c6cb1bb13f xfs: fix simplify extent lookup in xfs_can_free_eofblocks
 cd8ae42a82d2d71627a08c33a673ac735e0508ee xfs: fix superfluous clearing of info->low in __xfs_getfsmap_datadev
 4e071d79e477189a6c318f598634799e50921994 xfs: remove the unused pagb_count field in struct xfs_perag
@@ -183,4 +176,4 @@ b939bcdca3756db877aa084edd70901624faf26a Merge tag 'realtime-groups-6.13_2024-11
 052378aef8b9f26dfaa1e22a1a3bae4c18a6a9c7 Merge tag 'metadir-6.13_2024-11-05' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into staging-merge
 5877dc24be5dad833e09e3c4c8f6e178d2970fbd Merge tag 'better-ondisk-6.13_2024-11-05' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into staging-merge
 
---===============0922784677077566322==--
+--===============4134799531385587233==--
