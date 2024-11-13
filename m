@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5368946935740715983=="
+Content-Type: multipart/mixed; boundary="===============7911562554829520341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 13 Nov 2024 14:11:59 -0000
-Message-Id: <173150711918.3822829.1789144817615479243@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 14:12:13 -0000
+Message-Id: <173150713380.3823086.16087642159637532797@gitolite.kernel.org>
 
---===============5368946935740715983==
+--===============7911562554829520341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 182c02a6cd5f7947c403ba2321e262fb0aeaabfc
-    new: e200565d434b66e5b2bfc3b143b66b8ca29666ad
-    log: revlist-182c02a6cd5f-e200565d434b.txt
+  - ref: refs/heads/for-next
+    old: 17502bfdbc9d03fdf25679fce4a8785bf230b620
+    new: 72ec0efef1437d33a9435ff6503d803a8f448111
+    log: revlist-17502bfdbc9d-72ec0efef143.txt
 
---===============5368946935740715983==
+--===============7911562554829520341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-182c02a6cd5f-e200565d434b.txt
+Content-Disposition: attachment; filename=revlist-17502bfdbc9d-72ec0efef143.txt
 
 2f4b3b83b8c6e798a2e581521f00933d0f9ec777 s390/cio: Externalize full CMG characteristics
 e7583c5f8d0e0aa34178b6f34a89f81090393c64 s390/asm: Helper macros for flag output operand handling
@@ -49,5 +49,7 @@ cd5e5a3723001aa750ed64c97e36872f8b0a6fb0 s390/dasd: Convert to use flag output m
 6816e2124d6a23158af8eef27ca0b93c740e1634 s390/sclp: Convert to use flag output macros
 f62ad9073ae3f3a024a1abe7860d5356b2ec868e s390/cio/qdio: Convert to use flag output macros
 e200565d434b66e5b2bfc3b143b66b8ca29666ad s390/cio/ioasm: Convert to use flag output macros
+067c4541541c86ee8c4334caf7f49410f9975318 Merge branch 'fixes' into for-next
+72ec0efef1437d33a9435ff6503d803a8f448111 Merge branch 'features' into for-next
 
---===============5368946935740715983==--
+--===============7911562554829520341==--
