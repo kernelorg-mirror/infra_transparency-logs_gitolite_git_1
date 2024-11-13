@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 13 Nov 2024 21:02:53 -0000
-Message-Id: <173153177353.4164050.4908998526134813504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 13 Nov 2024 21:05:59 -0000
+Message-Id: <173153195939.4167375.2973864655403224823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rtc-next
-    old: eb4ffa40010472dffdc276da307161545aab45a3
-    new: 6cc79a6295719ff917b1fe191c681f642854b3f9
+  - ref: refs/heads/40GbE
+    old: 73af53d82076bbe184d9ece9e14b0dc8599e6055
+    new: e7b9f2704ea2f22537e0dd47edbe29a717c5c5ba
     log: |
-         6cc79a6295719ff917b1fe191c681f642854b3f9 rtc: amlogic-a4: fix compile error
+         e7b9f2704ea2f22537e0dd47edbe29a717c5c5ba i40e: Fix handling changed priv flags
          
