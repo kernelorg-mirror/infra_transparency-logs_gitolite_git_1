@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Wed, 13 Nov 2024 23:04:31 -0000
-Message-Id: <173153907135.67445.5393067807864234683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 13 Nov 2024 23:13:00 -0000
+Message-Id: <173153958073.74847.4036201081970593601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
   - ref: refs/heads/dev
-    old: 6f5204d71ccb9ee6e1fe1c65469ab050e7a40c74
-    new: 3e7c69cdb053f9edea95502853f35952ab6cbf06
+    old: a0e35b3c3ac10ef1e4f35fb0cae3bf39950239b7
+    new: bf481f81f23b4066c75d061b75a5bf205195e49d
     log: |
-         6a0c5887a54318eaaafb00825ebb10d1f7c8f0cf ext4: use str_yes_no() helper function
-         2bd9077b6261b8f1281d0fa74d51afe090319263 jbd2: avoid dozens of -Wflex-array-member-not-at-end warnings
-         de183b2baf90f0acc1854a3998c14b8b228f9643 ext4: annotate struct fname with __counted_by()
-         d5e9836e13a53ef36af702d87ab20d1a126b0fb8 ext4: use struct_size() to improve ext4_htree_store_dirent()
-         e06a8c24f6445c2f1b5255caa4f63b38e31c43fa ext4: prevent an infinite loop in the lazyinit thread
-         3e7c69cdb053f9edea95502853f35952ab6cbf06 jbd2: Fix comment describing journal_init_common()
+         605531ffa34e05f0f93e26e2ffcc3da1dc1f5675 scftorture: Handle NULL argument passed to scf_add_to_free_list().
+         ee350d35a4c594e0ceed7d92d958ec0143fe932e squash! srcu: Unconditionally record srcu_read_lock_lite() in ->srcu_reader_flavor
+         6cbb2b3a351cc07e20239efc969211e23f75b27e fixup! rcutorture: Read CPU ID for decoration protected by both reader types
+         53313ed1eb1c9fe46a4372219763764c1c58b9c9 torture: Add get_torture_init_jiffies() for test-start time
+         bf481f81f23b4066c75d061b75a5bf205195e49d rcutorture: Add a test_boost_holdoff module parameter
          
