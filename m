@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4194839488836782581=="
+Content-Type: multipart/mixed; boundary="===============9024959405788271552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Nov 2024 18:19:42 -0000
-Message-Id: <173152198266.4027250.9664145651620860121@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 18:19:45 -0000
+Message-Id: <173152198515.4027328.3880228326640453200@gitolite.kernel.org>
 
---===============4194839488836782581==
+--===============9024959405788271552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba
     new: 31a1f8752f7df7e3d8122054fbef02a9a8bff38f
     log: revlist-4861333b4217-31a1f8752f7d.txt
 
---===============4194839488836782581==
+--===============9024959405788271552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -182,4 +182,4 @@ d8dec30b51655bdab2657978982e49b6c13ce3d3 octeontx2-pf: Implement offload stats n
 219cecbb3e864685a1f08bcb79ce07d9bc4f506e net: phy: mediatek: add MT7530 & MT7531's PHY ID macros
 31a1f8752f7df7e3d8122054fbef02a9a8bff38f Merge branch 'phy-mediatek-reorg'
 
---===============4194839488836782581==--
+--===============9024959405788271552==--
