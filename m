@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 13 Nov 2024 00:58:34 -0000
-Message-Id: <173145951475.3184260.14326039281425255245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 13 Nov 2024 01:02:42 -0000
+Message-Id: <173145976265.3192064.904133570151798996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 14b6320953a3f856a3f93bf9a0e423395baa593d
-    new: f1b785f4c7870c42330b35522c2514e39a1e28e7
+  - ref: refs/heads/nfsd-testing
+    old: 53512a673e8a6650bdd3af9d4f1ac5a64b9a21d3
+    new: df27e159e730bf3da81a5ecf167d9d0ad36e5ba4
     log: |
-         29ce8b8a4fa74e841342c8b8f8941848a3c6f29f vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
-         f1b785f4c7870c42330b35522c2514e39a1e28e7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+         df27e159e730bf3da81a5ecf167d9d0ad36e5ba4 libfs: debugging
          
