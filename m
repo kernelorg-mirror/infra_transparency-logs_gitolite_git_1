@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8645530643561842060=="
+Content-Type: multipart/mixed; boundary="===============3062922574106659733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Nov 2024 18:10:17 -0000
-Message-Id: <173152141782.4019607.1358873426786363412@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 18:10:20 -0000
+Message-Id: <173152142001.4019724.49681862916930151@gitolite.kernel.org>
 
---===============8645530643561842060==
+--===============3062922574106659733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 55d42a0c3f9ccd07c199e0ddbe1ba87572d30074
     new: 73af53d82076bbe184d9ece9e14b0dc8599e6055
     log: revlist-55d42a0c3f9c-73af53d82076.txt
 
---===============8645530643561842060==
+--===============3062922574106659733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ e707e366f35576a455678ad74c4835d1c62633c6 Merge tag 'for-net-2024-11-12' of git:/
 2b99b2532593b5a4c7dc6bff2486e98d211a8596 MAINTAINERS: Re-add cancelled Renesas driver sections
 73af53d82076bbe184d9ece9e14b0dc8599e6055 net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
 
---===============8645530643561842060==--
+--===============3062922574106659733==--
