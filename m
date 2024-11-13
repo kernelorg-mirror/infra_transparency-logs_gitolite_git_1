@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3554160431372203952=="
+Content-Type: multipart/mixed; boundary="===============0845070072100994023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Nov 2024 18:06:31 -0000
-Message-Id: <173152119175.4016004.3039399490813321444@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 18:06:38 -0000
+Message-Id: <173152119814.4016270.17488297396784449695@gitolite.kernel.org>
 
---===============3554160431372203952==
+--===============0845070072100994023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 55d42a0c3f9ccd07c199e0ddbe1ba87572d30074
-    new: 73af53d82076bbe184d9ece9e14b0dc8599e6055
-    log: revlist-55d42a0c3f9c-73af53d82076.txt
+  - ref: refs/heads/dev-queue
+    old: 46d4a2fa5ef28208ebc19d12088e4a36696a8081
+    new: 24480cb442732720747387ab8b99187f70a9a4cf
+    log: revlist-46d4a2fa5ef2-24480cb44273.txt
 
---===============3554160431372203952==
+--===============0845070072100994023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55d42a0c3f9c-73af53d82076.txt
+Content-Disposition: attachment; filename=revlist-46d4a2fa5ef2-24480cb44273.txt
 
 eb72e7fcc83987d5d5595b43222f23b295d5de7f sctp: fix possible UAF in sctp_v6_available()
 e68da664d379f352d41d7955712c44e0a738e4ab net: vertexcom: mse102x: Fix tx_bytes calculation
@@ -53,5 +53,17 @@ e707e366f35576a455678ad74c4835d1c62633c6 Merge tag 'for-net-2024-11-12' of git:/
 50d325bb05cef24a2105e40e7cace5e2b237236d Revert "igb: Disable threaded IRQ for igb_msix_other"
 2b99b2532593b5a4c7dc6bff2486e98d211a8596 MAINTAINERS: Re-add cancelled Renesas driver sections
 73af53d82076bbe184d9ece9e14b0dc8599e6055 net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
+057d54edea51a512b142acb0d1a7226a1a7260c8 iavf: allow changing VLAN state without calling PF
+96cbc31e288bc5a15dd46af159c27c6c4e6c64d6 idpf: set completion tag for "empty" bufs associated with a packet
+0e655b70476c9e2d132e05046bbc70ab6bf756e9 ice: fix PHY Clock Recovery availability check
+b31c30cb638271dcf63d857608b8c14fdb98d45d igb: Fix potential invalid memory access in igb_init_module()
+300b25a67b762d7a5113dc72d10834e83b719630 i40e: Fix handling changed priv flags
+a68a4044b72ef3d7f47a2d8d425eec512b1d65ee ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
+41ba3b3f1960c09edf4df72d34577c6771c65edf ixgbe: downgrade logging of unsupported VF API version to debug
+d67e2471ba4a7bc4e7c8d76c8f884d2950e11373 ice: Fix E825 initialization
+215617604f80fb39750586a418ab8aeb6f5207b0 ice: Fix quad registers read on E825
+da96c0476ae5bf0e685dd50048486118d2e53dbc ice: Fix ETH56G FC-FEC Rx offset value
+820e8cab688b93d9f38e51d9f3c1f057cd8a8afb ice: Add correct PHY lane assignment
+24480cb442732720747387ab8b99187f70a9a4cf ice: Fix VLAN pruning in switchdev mode
 
---===============3554160431372203952==--
+--===============0845070072100994023==--
