@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4563007487407756830=="
+Content-Type: multipart/mixed; boundary="===============3279401957411189788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Nov 2024 02:23:44 -0000
-Message-Id: <173146462451.3261078.9348664985463016731@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 02:24:16 -0000
+Message-Id: <173146465643.3261474.18276716465668241950@gitolite.kernel.org>
 
---===============4563007487407756830==
+--===============3279401957411189788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0ecc944881b2ddfa7871ad448e673793e8b6b4f5
-    new: c4017f38982364bc9000744d5396fb3af9049e0b
-    log: revlist-0ecc944881b2-c4017f389823.txt
+    old: c4017f38982364bc9000744d5396fb3af9049e0b
+    new: e4a03c5b584b366c91c479cfdb129808af869d88
+    log: revlist-c4017f389823-e4a03c5b584b.txt
+  - ref: refs/heads/tip/urgent
+    old: 486869edd7c80baf900a5091e0cbffabada05027
+    new: 1cbbfae6904b337171a1ef6cde1869ec6ea7b852
+    log: revlist-486869edd7c8-1cbbfae6904b.txt
 
---===============4563007487407756830==
+--===============3279401957411189788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ecc944881b2-c4017f389823.txt
+Content-Disposition: attachment; filename=revlist-c4017f389823-e4a03c5b584b.txt
+
+1cbbfae6904b337171a1ef6cde1869ec6ea7b852 Merge branch into tip/master: 'x86/urgent'
+1be8840f32908f120363021e89ffe606a6382600 Merge branch into tip/master: 'core/merge'
+8e448862a9d1d855388bce595eb9fad1771114f4 Merge branch into tip/master: 'core/debugobjects'
+df2ab14e9d986d1217d91aaf8f2900ea7b73c980 Merge branch into tip/master: 'irq/core'
+53a91b99abeb8fd6e8cc37aa9aabc4d546b8ec63 Merge branch into tip/master: 'locking/core'
+b0c2c64fcf6a183dfcf5f09ff73848d55a13aa32 Merge branch into tip/master: 'objtool/core'
+52b260f95130b0435d686d85ce28a8a0e314dfd6 Merge branch into tip/master: 'perf/core'
+9896ff247003b1073f17e9bce804b9cac183a1e8 Merge branch into tip/master: 'ras/core'
+6fccf302aeee31e92c2c5ec8e7880962ce8b95de Merge branch into tip/master: 'sched/core'
+d3877e81dc707543c64ad69a366786e3b772f7d7 Merge branch into tip/master: 'timers/core'
+cd73032f8ac09e3589241769926e380f26d8055b Merge branch into tip/master: 'timers/vdso'
+cc87a259c160d3f100bceb30fbcb00888bd7142f Merge branch into tip/master: 'x86/cache'
+5ab934b771a2e3e37cde250fda54f365079b4688 Merge branch into tip/master: 'x86/cleanups'
+cd6cb654c52d1ab3baa33182c3c944b94e7c0b4b Merge branch into tip/master: 'x86/cpu'
+191d65a1aef95d7d38f33072cb3e93d32d2ca44d Merge branch into tip/master: 'x86/microcode'
+ddba43c43016200eefb57d02b67728b088d31fb6 Merge branch into tip/master: 'x86/misc'
+680f3f0d544fefd13ab481c3eea5c43821d32eb8 Merge branch into tip/master: 'x86/mm'
+7069feeb7e2d78c0f6dcb8bb336d2976b79ce3df Merge branch into tip/master: 'x86/platform'
+7620242684e207d21b1cde4b0a02e9d4a460b507 Merge branch into tip/master: 'x86/sev'
+eaf48eba1c6796875acdae24d6c95a39360fa835 Merge branch into tip/master: 'x86/sgx'
+e4a03c5b584b366c91c479cfdb129808af869d88 Merge branch into tip/master: 'x86/tdx'
+
+--===============3279401957411189788==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-486869edd7c8-1cbbfae6904b.txt
 
 923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
 699ae6241920b0fa837fa57e61f7d5b0e2e65b58 evm: stop avoidably reading i_writecount in evm_file_release
@@ -68,6 +100,6 @@ a6250aa251eacaf3ebfcfe152a96a727fd483ecd sched_ext: Handle cases where pick_task
 14b6320953a3f856a3f93bf9a0e423395baa593d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 29ce8b8a4fa74e841342c8b8f8941848a3c6f29f vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
 f1b785f4c7870c42330b35522c2514e39a1e28e7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-c4017f38982364bc9000744d5396fb3af9049e0b Merge branch 'linus'
+1cbbfae6904b337171a1ef6cde1869ec6ea7b852 Merge branch into tip/master: 'x86/urgent'
 
---===============4563007487407756830==--
+--===============3279401957411189788==--
