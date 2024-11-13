@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 13 Nov 2024 17:46:17 -0000
-Message-Id: <173151997731.3999395.9475593541085125374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 13 Nov 2024 17:46:25 -0000
+Message-Id: <173151998580.3999668.14000091009745307656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: d216b5727a32153fbec0461ae7f5d1cdf04f1c50
-    new: 573e6dd580813828f17e44d2cb27a77123cf8502
+    old: 38408d27f5298585f2ffe2c2dcf6a77171c86e38
+    new: fe94d33f211a284a62abf7df24e401d68772815a
     log: |
-         21ccadc64dae18bd092f1255bdbaf595f53381d5 regulator: dt-bindings: qcom,rpmh: Correct PM8550VE supplies
-         573e6dd580813828f17e44d2cb27a77123cf8502 Merge remote-tracking branch 'regulator/for-6.13' into regulator-next
+         b1e7828cf9343e1da6c575f3ebaa0f511d8b8cbd spi: Delete useless checks
+         f3c605147741e0ad8f1c51a7decef2040debfd16 spi: cs42l43: Add GPIO speaker id support to the bridge configuration
+         fe94d33f211a284a62abf7df24e401d68772815a Merge remote-tracking branch 'spi/for-6.13' into spi-next
          
