@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 13 Nov 2024 17:19:24 -0000
-Message-Id: <173151836420.3973921.15504059721054226585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 13 Nov 2024 17:25:51 -0000
+Message-Id: <173151875133.3980616.9005836606727910558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/for_next
-    old: aa5d964c8aa1953dcbf99d6378df82c908176780
-    new: 0c1a02826c68dc9b854535c3371b67f5bfb1012f
+  - ref: refs/heads/controller/cadence
+    old: e0a77e4727efc8b707cd3bd9bbe90650d98a1745
+    new: e3e309b2bea8d2c37ed6f52c837848b601d3245e
     log: |
-         aa52c54da40d9eee3ba87c05cdcb0cd07c04fa13 fsnotify: fix sending inotify event with unexpected filename
-         0c1a02826c68dc9b854535c3371b67f5bfb1012f Merge inotify event fix from Amir.
+         e3e309b2bea8d2c37ed6f52c837848b601d3245e PCI: cadence: Lower severity of message when phy-names property is absent in DTS
          
