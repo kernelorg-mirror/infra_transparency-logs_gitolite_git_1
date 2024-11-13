@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4856486942559016619=="
+Content-Type: multipart/mixed; boundary="===============1693098099090106083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 13 Nov 2024 06:12:10 -0000
-Message-Id: <173147833078.3442387.11835805484791107538@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 06:13:43 -0000
+Message-Id: <173147842336.3443177.3017845818330261581@gitolite.kernel.org>
 
---===============4856486942559016619==
+--===============1693098099090106083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e56aac6e5a25630645607b6856d4b2a17b2311a5
-    new: fa518772fb63e201207bcdab7ea108198dc15f3c
+    old: fa518772fb63e201207bcdab7ea108198dc15f3c
+    new: ce25e2a8d82de7f8bcbedd18973e5b8030749d45
     log: |
-         fa518772fb63e201207bcdab7ea108198dc15f3c USB: core: remove dead code in do_proc_bulk()
+         61eb055cd3048ee01ca43d1be924167d33e16fdc usb: dwc3: gadget: Add missing check for single port RAM in TxFIFO resizing logic
+         ce25e2a8d82de7f8bcbedd18973e5b8030749d45 usb: dwc3: core: Set force_gen1 bit for all applicable SuperSpeed ports
          
 
---===============4856486942559016619==
+--===============1693098099090106083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731478357 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731478450 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1731478329-bc1515a77c3df3a70943b06c63938f5fc9d17c6e
+nonce 1731478421-a616c4c94e613c2ebe8ede9899222469b62b5b4e
 
-e56aac6e5a25630645607b6856d4b2a17b2311a5 fa518772fb63e201207bcdab7ea108198dc15f3c refs/heads/usb-testing
+fa518772fb63e201207bcdab7ea108198dc15f3c ce25e2a8d82de7f8bcbedd18973e5b8030749d45 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc0Q1YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5WkP/AgzH0DMXt4yFGJeNRLi
-aumUeE+TXl2686i35DNNOOcsDwD7tMEbv9kEBLL0NXX8hhHPgvVnkmwp6XuR5i+k
-xACyutzfeGtlzvn0b9ek2HED7RfrUWTIRmWMv7Tt+zJY/17zjnuGSZVoVy07nRWu
-ugO9WvnfLmyn6+tpj9/yXKbVviAzEJdaAAX9JASdWg0xKnS5SPCF4q9WRdkSTstl
-GmTBw9n1f6XULtyKxBTEktmMSzyEmpU3PjHaszzeevac4W1Nxe0szIxDYowbAf7z
-CViamfaEXv0D0xaULix1hKCyeLbUd/xAMSpcnfDAg17IcH4mD4X8eptAiuLKUs6i
-WaGwUVTDBP4CVKV6jJ5RrakZT0IihrirEb3ofsaPAUNRPOpPEP84MIh/sITrZNIn
-2w3425J6+1DMNEigUltpjaD748CeE3PTd1+F5JPIDL0bSizIs9+WF4ZT+2zmI11P
-x1q26tT5TKQFmV879fCrYB+tE0D7DAYHmcU2lVBfWguFuVFRV0qUBjMMk+udlc/N
-jHd9hhZHYFALzJsO1/qUg4FDYeJ+gDkTIbKXiUW1kzsVtbwhdy1pb/tsujYPEX4y
-0YwyOUHUK3rpjKQEHf5zUjFKncS4vllmFFcIEsj2xxKQJnpW+jV4ONk4TG+gOXpm
-+hGyBl4aORp0ZbdwMRJ7ypAz
-=IbPv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc0Q7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FesQAKEVVv6fNVTkaZqxOcU+
+fOFMFy8HqL6q3zR4OEB63a3+5FjGzq8/pTCCKBNCKBN7c1DxGhsuX52CBICYbpMR
+KflG+NuObgXOuwnaA65V7LF4LfDnk4EZRv+7aANjGuPNW05xorSL/RcG0iFhUbbw
+UY5WiAQ3fvvswoLcLC0mZH3Ar7AsslEg6OoksEhLwkYgw/O02eZ3/ozl6HufGq43
+FPUssb9mjOW68TnHzpIDYm+UqU/1t0IZy/YaQAzmb7ApKn59r1Ha0wFpTxq2brn/
+xRmwLUVKPx/4AERcZgme7I+lQbLHBLlr50ld9HAqsU8Bvu7AL3yON/ReOwpmFQfx
+ugt9rpaQtNvNpD4i4ctDizRozVzHD671vQgEaDlqBAULjIHpdmuYzQ9F3dZlAyYC
+iG0YhTYDMwh9DaDuMVRq+PVTnDD/N4ov4b8pYScbXrXFLDrsQ6ZGe49Xs6nZ9cNn
+U6K3TcBV8DtUY+ApaqyspGdPKPebxxdMn64M1gb/rMmGzZn90gXaZCeas21VCVYJ
+mQLUGgIPiBp+yBRKDzXXMVRQ1m3wtckGY+1A9HKILXgIOpqMRrGAPQQaXDt0ph+y
+aUJIOBlKpRHXHpNgnDG1+Jci83Y/U702Pvq6H+dp9J2DbZmZLldW8dxrU4V9Yett
+N4jx9By7MhPHHfnL19+ACwR8
+=4mY2
 -----END PGP SIGNATURE-----
 
---===============4856486942559016619==--
+--===============1693098099090106083==--
