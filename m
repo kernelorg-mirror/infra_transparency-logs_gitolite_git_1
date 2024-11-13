@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 13 Nov 2024 13:21:01 -0000
-Message-Id: <173150406172.3780841.15418949080299471086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 13 Nov 2024 13:22:23 -0000
+Message-Id: <173150414365.3781620.13359865984508563770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/tags/loongarch-kvm-6.13
-    old: 0000000000000000000000000000000000000000
-    new: 7094dd4fe2aa60b2f472fde67a910e52476a580f
+  - ref: refs/heads/main
+    old: f70e08be84adc50906e6cf02cfdc98b4a695d0b9
+    new: f0ed3e2ec105637d0a0391ac3c35a2c577e0b273
+    log: |
+         478a2d477a2a0462d37fa87b8a494c8bb706956e Fix 07reshape5initr test
+         f0ed3e2ec105637d0a0391ac3c35a2c577e0b273 func.sh: do not hang when grow-continue can't finish
+         
