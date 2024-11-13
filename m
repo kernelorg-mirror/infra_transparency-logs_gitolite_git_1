@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9131844273461468139=="
+Content-Type: multipart/mixed; boundary="===============3202136657943171199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Nov 2024 18:10:39 -0000
-Message-Id: <173152143984.4020481.15083446733959766581@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 18:10:58 -0000
+Message-Id: <173152145862.4020728.8851258955080730903@gitolite.kernel.org>
 
---===============9131844273461468139==
+--===============3202136657943171199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4861333b42178fa3d8fd1bb4e2cfb2fedc968dba
-    new: 31a1f8752f7df7e3d8122054fbef02a9a8bff38f
-    log: revlist-4861333b4217-31a1f8752f7d.txt
+  - ref: refs/heads/dev-queue
+    old: 6d0dbb3dae5273e8efd6fd25deb00404ff5a8f38
+    new: cad2777e4215b105cd9e87f4098b4becbe523573
+    log: revlist-6d0dbb3dae52-cad2777e4215.txt
 
---===============9131844273461468139==
+--===============3202136657943171199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4861333b4217-31a1f8752f7d.txt
+Content-Disposition: attachment; filename=revlist-6d0dbb3dae52-cad2777e4215.txt
 
 580db513b4a9d52f306580015a1872eea0a0894e net: mctp: Expose transport binding identifier via IFLA attribute
 7d28f4fc868ccc26124d368e8d2ead9d21c23542 mptcp: remove the redundant assignment of 'new_ctx->tcp_sock' in subflow_ulp_clone()
@@ -181,5 +181,97 @@ d8dec30b51655bdab2657978982e49b6c13ce3d3 octeontx2-pf: Implement offload stats n
 3cb1a3c9cbaaadaf91437374b96ec72256c40db2 net: phy: mediatek: Integrate read/write page helper functions
 219cecbb3e864685a1f08bcb79ce07d9bc4f506e net: phy: mediatek: add MT7530 & MT7531's PHY ID macros
 31a1f8752f7df7e3d8122054fbef02a9a8bff38f Merge branch 'phy-mediatek-reorg'
+798fa0960b0f06e540f0201dc83aac9670729e76 ice: fix BST key index in ice_bst_key_init()
+91ea8c1ed01fc94ddce4f47b1ea91af143af1e28 iavf: allow changing VLAN state without calling PF
+e18cb0047c6ade842b2c8f605931a2cd5583ba51 ice: initialize pf->supported_rxdids immediately after loading DDP
+310d3bd2e62fadf5759f215630c43ec55bd092af ice: use stack variable for virtchnl_supported_rxdids
+155e341a9edbd3de6458755c3d2126b577c5542d ice: Add E830 checksum offload support
+00272b833463d1c7a45728b55f1b65c92e81ae58 igbvf: remove unused spinlock
+b75796198134523bc29081965bf3fbcd365ed25c ice: Don't check device type when checking GNSS presence
+fea6c86be94abb26073cb2e32c389e7d1072dd28 ice: Remove unncecessary ice_is_e8xx() functions
+7dac2f5fe34d20b353c44f020bedc91c8221c2d7 ice: Use FIELD_PREP for timestamp values
+21f54732d163153c833999e191367f8c73682779 ice: Process TSYN IRQ in a separate function
+520853bca106e38c117a15f6957073f961017b93 ice: Add unified ice_capture_crosststamp
+1dd28a70a91c9b40436042306f682f881aa09c5d ice: Refactor ice_ptp_init_tx_*
+eceded6db3ccaeb6116b2b0664f9cac5873d510e ice: Implement PTP support for E830 devices
+36da9499bc57ff7b0990a3d48adf7e87f3c1eb3d checkpatch: don't complain on _Generic() use
+34df4b62faf40eb083c3469f725255154850a341 devlink: add devlink_fmsg_put() macro
+926d5fa68982bad4b271e30a6859de6b2e7a65be devlink: add devlink_fmsg_dump_skb() function
+7b86af3cd55ec6606072906fde40bcc8c957ed3c ice: rename devlink_port.[ch] to port.[ch]
+bee2c79d74669751e1ff406a64552e2f59c7a27b ice: add Tx hang devlink health reporter
+baa645703742e6475750734d67c6bb50915bbf3c ice: dump ethtool stats and skb by Tx hang devlink health reporter
+3fc59602e3b579896b897fa9463378fe59c215f7 ice: Add MDD logging via devlink health
+3019cbe1f492d59812ddf0eb064da436c88a4274 ice: rework of dump serdes equalizer values feature
+644b8ec3afa536de8348020e01617904d76a5dee ice: extend dump serdes equalizer values feature
+a8e68caa63845b6e4f45620abd68c80d281a485c igc: remove autoneg parameter from igc_mac_info
+a5584520d54bee34ac8442046417b5879b4681ed ice: c827: move wait for FW to ice_init_hw()
+332dd65fe9991f0f7a38d7851bcb674932a99545 ice: split ice_init_hw() out from ice_init_dev()
+c04f03ff52c5bba5075f1b23408f48d625e0d758 ice: minor: rename goto labels from err to unroll
+65822acbf437a95dc3a5a1e298e33afd93d5131b ice: ice_probe: init ice_adapter after HW init
+9832c7191f68b74c1f43bbe3542adc4791bc4ad6 idpf: set completion tag for "empty" bufs associated with a packet
+18d13670ebeab3142c32f47b261ce95386ec58a4 ice: Unbind the workqueue
+aabc002d28f4c68407c62b013f65e4bce675f952 ice: fix PHY Clock Recovery availability check
+ce4f1855510f9dfacfc877e78f5cfa358d921688 ice: add recipe priority check in search
+14115adbc4207f1941ef37a665680d5e2f897df9 ice: only allow Tx promiscuous for multicast
+674635e633356c2141a3038204b219c6c4bc89ce ixgbe: Add support for E610 FW Admin Command Interface
+ddb7875a6e6ac46875acc569c15377ed56a2f118 ixgbe: Add support for E610 device capabilities detection
+d34d28c4f29c9b47a8b9be53c7a3e34c2b826550 ixgbe: Add link management support for E610 device
+279650ab42c2be070af380534af5ea147fb0feb0 ixgbe: Add support for NVM handling in E610 device
+dc060e54163f416b9a83c2d84ac4b46985beb7f0 ixgbe: Add ixgbe_x540 multiple header inclusion protection
+0bd2ce5cd4eadedebf6401f71a5bef486ed52ac6 ixgbe: Clean up the E610 link management related code
+23b24838e927c9e916ec7b2b7520e084039c4594 ixgbe: Enable link management in E610 device
+879e97b6f368e878f5d7c1596a78d211dbef345e ixgbe: Break include dependency cycle
+e7abfefa613b8b020df1e2114804fb1e3d49a4f0 PCI: Add PCI_VDEVICE_SUB helper macro
+ec6f03e0e6ca8eec58dd49624cd4068d9cc0871f ixgbevf: Add support for Intel(R) E610 device
+75a4f00f9badb10c93daa6c239b38ad9ded2287f igb: Remove static qualifiers
+3a4a5b1e76b3f911774ee35572f53b7542e7f075 igb: Introduce igb_xdp_is_enabled()
+2420da466dc41a9894f9a96996c04a8bcc0dc319 igb: Introduce XSK data structures and helpers
+ec6f94677b5ebea076ccd9b4b6a6ee252ade3cf9 igb: Add XDP finalize and stats update functions
+8342047d8aa805315019e6c8f8878cb09315854e igb: Add AF_XDP zero-copy Rx support
+ca2a571a3d63759de80a640f1fd726a0352e17ab igb: Add AF_XDP zero-copy Tx support
+fc7d97b38af50ab21f94a75f9c85a718d7ddbd92 ice: refactor "last" segment of DDP pkg
+243e84777bc6b99bc9f69b8156f754e8e447d5cb ice: support optional flags in signature segment header
+1103a9d2f4779d90bd146aba5367a7599751759f ice: Add support for persistent NAPI config
+09fdcd31ef93d7ddeb84ebf8c2f687037b8c85d0 igb: Fix 2 typos in comments in igb_main.c
+4aff81b70775e9899ad2d2c7ff6ce601437b4686 pldmfw: enable selected component update
+ef47c8430e93abb139614f4a8879294bfe0d2ccd devlink: add devl guard
+5985e916f50f9647e408e7590370d0bbaf8bb518 ice: support FW Recovery Mode
+d691ba3113288e602504b91f4b9617223459521b igb: Fix potential invalid memory access in igb_init_module()
+0970c1a416e50dc153b5a594260bbe5b8f5a2ab1 e1000: Hold RTNL when e1000_down can be called
+48120d84cdaa176f8104a48b042c703da5b2dfe2 igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
+f2e814707cd832fd794fb85f325ac35a09a27551 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
+81cc081e9e0889d1ceeb2143717aa9687a46033f ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
+75046a9efd54cfcff978cc90850f9c9b81e188f3 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
+b576938e94cea2617939ae64a0d8a4392987ad17 ice: use string choice helpers
+71bfbfcdbf67f3edb1eece24b6b945588e759fcc igc: Link IRQs to NAPI instances
+d6719a9c59890ef611fdb4b1057e217a2fbf36ae igc: Link queues to NAPI instances
+f0de1fbf1c2b16edc7ee76607c163793275d621c i40e: Fix handling changed priv flags
+be82110e9ef123d013e10233d83aa557e1362268 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
+a999213e1dbbbb04b61ad2f6944942a1e1ae8b0f ixgbe: downgrade logging of unsupported VF API version to debug
+639e39501c3b3b6b8983c89bc6f51e3a8e082035 ice: Fix VLAN pruning in switchdev mode
+49da1e55459d040cbe8dab687cdb37337e3a1851 ice: count combined queues using Rx/Tx count
+49e8f7050a4cdd1ed81879227ae68fdfa4927e38 ice: devlink PF MSI-X max and min parameter
+4109d5f993e60cc801913a49e50f3ba93f7713d5 ice: remove splitting MSI-X between features
+e84f29ceba36e5ad7e074dbe2789561678fcd684 ice: get rid of num_lan_msix field
+a5cf3f302078a21a2e7d926cafcbfe7efe977e66 ice, irdma: move interrupts code to irdma
+ae480dac8bb8381e890fc27b3cebfd656e373212 ice: treat dyn_allowed only as suggestion
+96844b50d658258dc61224d564d829fdc6a487f8 ice: enable_rdma devlink param
+6ffa71fba480d002510681c32c39ffeac02d74b4 ice: simplify VF MSI-X managing
+366813e0acfa60cfa204fdf2ed603db803c4e720 ice: init flow director before RDMA
+7d274441117bc3b10314224adec68b10b2c612b7 ice: Fix NULL pointer dereference in switchdev
+08d563bc89041c8b78df99cbaf0acd72eeee891e virtchnl: add support for enabling PTP on iAVF
+4812f33d6c44ce9b524631b05ed1bc0cd2ca404a ice: support Rx timestamp on flex descriptor
+3b85b164df4237c38b09d214cfbc8f27d1687fb7 virtchnl: add enumeration for the rxdid format
+41a1ded9392c70cc8337b79c5523ff2d3de006d4 iavf: add support for negotiating flexible RXDID format
+a1a3c52786e1130e54e70920f791337a59e78238 iavf: negotiate PTP capabilities
+08217315edcdb9a470c834b88cba565441f97aa3 iavf: add initial framework for registering PTP clock
+7a10bbb6cd2a58b1de6b4d4ce0deb00151713031 iavf: add support for indirect access to PHC time
+c102d1260405f340de6a8e6d424cfedc8deafa46 iavf: periodically cache PHC time
+eceee600e63b20f4feae9ace55b2875882fb87a8 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+92cac003822958b92786ab99cca18498459511f6 iavf: define Rx descriptors as qwords
+f3f0557f9d4dd6e03c8e685b50c03ac438eef17d iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+d4a424f4498b5f9fb8e44eac57800561959c6a84 iavf: Implement checking DD desc field
+f5e95f8a4db13ba622846a23644fb1759e102729 iavf: handle set and get timestamps ops
+cad2777e4215b105cd9e87f4098b4becbe523573 iavf: add support for Rx timestamps to hotpath
 
---===============9131844273461468139==--
+--===============3202136657943171199==--
