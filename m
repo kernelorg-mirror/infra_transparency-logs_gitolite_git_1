@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 13 Nov 2024 23:37:34 -0000
-Message-Id: <173154105424.94469.946656246022870967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 13 Nov 2024 23:49:35 -0000
+Message-Id: <173154177533.103476.4095448462210568000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/at91/dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: d1312c5c06f5cfbed55207cdef4a319015042579
+  - ref: refs/heads/buffered-uncached.7
+    old: 8a925ebd72f50fc1fbfcfb302b991b315cf671cd
+    new: 7d92f3912cbd907180190e4599d0e3ab521eba18
+    log: |
+         7d92f3912cbd907180190e4599d0e3ab521eba18 block: support uncached IO
+         
