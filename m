@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 13 Nov 2024 10:12:41 -0000
-Message-Id: <173149276147.3629960.18362667256855473772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 13 Nov 2024 10:54:57 -0000
+Message-Id: <173149529745.3661217.11322816975427840431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/staging-merge
-    old: c0769eafd879e6ad944f00db899fca97c2bea536
-    new: be09570f5feda014bc8880a2257a8d479d27d781
+  - ref: refs/heads/linus-next
+    old: d53fe3952eb81eeed0387b224011e09926782b21
+    new: 8299f2dab1aaafc0aad0335040e3347655c98ec5
     log: |
-         64f3269fdfa25f027a6d3a880ec7fb10e7701d13 xfs: fix sparse inode limits on runt AG
-         5ada188b63f9a06574a6b8075c2e6663583d0c63 xfs: delalloc and quota softlimit timers are incoherent
-         be09570f5feda014bc8880a2257a8d479d27d781 xfs: prevent mount and log shutdown race
+         6801cf7890f2ed8fcc14859b47501f8ee7a58ec7 selftests/bpf: Use -4095 as the bad address for bits iterator
+         44d0469f79bd3d0b3433732877358df7dc6b17b1 bpf: Add sk_is_inet and IS_ICSK check in tls_sw_has_ctx_tx/rx
+         fb86c42a2a5d44e849ddfbc98b8d2f4f40d36ee3 bpf: Fix mismatched RCU unlock flavour in bpf_out_neigh_v6
+         8299f2dab1aaafc0aad0335040e3347655c98ec5 Merge tag 'bpf-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf into linus-next
          
