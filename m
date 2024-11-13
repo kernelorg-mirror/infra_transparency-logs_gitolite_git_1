@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 13 Nov 2024 03:05:36 -0000
-Message-Id: <173146713668.3297762.6774532855734889917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 13 Nov 2024 03:23:36 -0000
+Message-Id: <173146821650.3310454.10141786747364414882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/hwmon-next
-    old: c40655e3310649866c4ebf7a10f0d53802ebdfa9
-    new: c1fff92d808bb41064b783a072dee834bcc29f33
-    log: |
-         c1fff92d808bb41064b783a072dee834bcc29f33 hwmon: (cros_ec) register thermal sensors to thermal framework
-         
+  - ref: refs/tags/qcom-drivers-for-6.13-2
+    old: 0000000000000000000000000000000000000000
+    new: 5465d74d92f65ea2fa434dc02dbfad496abd372c
