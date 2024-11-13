@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5483523418555759986=="
+Content-Type: multipart/mixed; boundary="===============7585814961567922116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 13 Nov 2024 14:12:20 -0000
-Message-Id: <173150714045.3823300.2366161754845262647@gitolite.kernel.org>
+Date: Wed, 13 Nov 2024 14:13:17 -0000
+Message-Id: <173150719748.3823844.7068744961956167387@gitolite.kernel.org>
 
---===============5483523418555759986==
+--===============7585814961567922116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 166105c9030a30ba08574a9998afc7b60bc72dd7
-    new: 635a9fca54f4f4148be1ae1c7c6bd37af80f5773
+    old: 635a9fca54f4f4148be1ae1c7c6bd37af80f5773
+    new: b3a882e814e007bfd0d50dc2150d48d47cb1973b
     log: |
-         635a9fca54f4f4148be1ae1c7c6bd37af80f5773 tty: ldsic: fix tty_ldisc_autoload sysctl's proc_handler
+         2bcacc1c87acf9a8ebc17de18cb2b3cfeca547cf serial: amba-pl011: Fix RX stall when DMA is used
+         3f356922d4cb9c7bd0871e27dcc3b357bfb14181 tty/serial/altera_jtaguart: unwrap error log string
+         b3a882e814e007bfd0d50dc2150d48d47cb1973b tty/serial/altera_uart: unwrap error log string
          
 
---===============5483523418555759986==
+--===============7585814961567922116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731507167 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731507224 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1731507138-5fd0be689bdf37d48ed390dd22df56b4c15004b4
+nonce 1731507195-ffdc3234693543618a5f8746a120bc40b01513ae
 
-166105c9030a30ba08574a9998afc7b60bc72dd7 635a9fca54f4f4148be1ae1c7c6bd37af80f5773 refs/heads/tty-testing
+635a9fca54f4f4148be1ae1c7c6bd37af80f5773 b3a882e814e007bfd0d50dc2150d48d47cb1973b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc0s98bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eCUP/RIlw+7LU8ohRJOX5Ygu
-JTb0XO4zPWqIxbsgDI4mmi4E6a1lkU+0L3uop1VeLyxLKHAq45pk+DAFYsQ8utRL
-/dHH0VaIq+s0I9Eaa864NzH+dlAdnhU4kUDTsOCQEdkiQVywWvfHW1ND5DK4oMUv
-mYmxWgZv86+JHUjmr6DnAj+sxz1AblhK7aXNYTY3GxUQJw0RRBZJuRrKEof8AcK6
-NqrBgrL4BoWDdGZnI7/dcCkAUi9BlPpXRdf1Uv8Nka+rPQ4d3hQinooWaSKFzyFT
-11mSReQvzrFct5QvBce8UlsJh/uqffGviDTbCDea3PDaYa1bze71X1sggBPGeMBn
-dAiEajCnt4iWuBEwxrGaT2091k1GsOKtTioJg7B3NdTeidHwZDehtGlcGSR6lbF1
-8MT8F+EJrIitqTI05ATrhLRalLuonVkWgY6XQOhUmbpNETubvkhC+ORiODOZZuov
-60lEJxM4GE/GzMzEcFC/7o2G2ksHP0pUzwkTY9E95cabsL+QYS1EU5xwgsCnmQRW
-lSTzbm3MMNQrimyZvxiogJMS+KELIgz165aVHVFMf3ONvCfnbY6dN3YtdBzlQRZP
-MMpQhj9QIRxF9AEZt91a37JYJI+4JXOPmrx1BJjyP22+BE0GByz4+gLVWCgk8K+6
-6C9ZEIVitdGxR03Q25JAWiNU
-=toXj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc0tBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XpEQAJ/k809D22sHRW374ecq
+6O3qGkJMPpJjwx3jo/5jJHqqh9y877cwJanVcZxuJornSVIz518jvLuXpH87nLrK
+lLVhcXlY9cutZWDdmp11awprEU3bBBbPkVGTBDpOaCe5y7fm40p3Eeh/HWi9cIiN
+VzwGTira2JEwGap7TEoENE962tlL5Xf79hKTtFMAOT1cZsvJgVIxc9B8RuELKFNw
+aIgGrxRdpm96FeCTJ6twM8P28QKBZyvtrSMBSaYhQnJPJrhUd4dnSTIkVteineCk
+EHQgMra1j7oSCZstI8bg/PsCxOtQCMi8LSPH8EX6biwG9OMtILTmxCQpp6fFeIGo
+62z6H93yT+mw8MVq/0jBZzpTY5eFUh4vOU+04K8uy0Qy9pUaCd8WJje1CyQ4h8zr
+YCsLEX0B0a568m6hCeBXC5TrIvrVnin4tpd+zk4haeQyzZpvKNi0u5n+k+iUvxvN
+mP29SOzPEdJOnMCJOPRqDfRZlljhOODUaaWrw/vuOawlAOf20/QzXiCJONSbuVV6
+vus6X7GKCBGDHf5whNRTl1GMu8lYZqxzo2hW33MIhlXUl96sxfYGBh3/CetEdjB/
+oJPOzcqFlA+X5xc4L3etNdxHTbqgYh3RQCOFwgxtdGxsLpoJgrh7DslIkdxlLKoq
+DG4d1ky88kXThIC0fWQILtoL
+=AcaJ
 -----END PGP SIGNATURE-----
 
---===============5483523418555759986==--
+--===============7585814961567922116==--
