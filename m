@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7604437269741433344=="
+Content-Type: multipart/mixed; boundary="===============8667890383374326485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Nov 2024 02:48:26 -0000
-Message-Id: <173155250683.246361.12823065649279357308@gitolite.kernel.org>
+Date: Thu, 14 Nov 2024 02:48:31 -0000
+Message-Id: <173155251129.246516.16658176637735900006@gitolite.kernel.org>
 
---===============7604437269741433344==
+--===============8667890383374326485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ad658b9e8e1a590546477eea589b02ff722a7295
-    new: e1a80dd501d759ff67e6ff420f4c5ab0b5004f91
-    log: revlist-ad658b9e8e1a-e1a80dd501d7.txt
+  - ref: refs/heads/6.13/scsi-queue
+    old: b92e5937e3523b0b7d41373681256bec78d7e134
+    new: 128faa1845a2d5b0178b986f3bd18fb38cc08cc2
+    log: revlist-b92e5937e352-128faa1845a2.txt
 
---===============7604437269741433344==
+--===============8667890383374326485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1731552498 -0500
+pusher 75C5DE3D 1731552538 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1731552469-8b458c56bf445519f2d7d00505147c5e991a81ca
+nonce 1731552509-c6b421111a6456ec23e175d012d60e9b37987ee0
 
-ad658b9e8e1a590546477eea589b02ff722a7295 e1a80dd501d759ff67e6ff420f4c5ab0b5004f91 refs/tags/mkp-scsi-queue
+b92e5937e3523b0b7d41373681256bec78d7e134 128faa1845a2d5b0178b986f3bd18fb38cc08cc2 refs/heads/6.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmc1ZPIACgkQ7ulgGnXF
-3j2N6RAAodeA9N81VKgpQJrvttY8IRJukQg0K4wPTCyGCfFdm7kKB9Kj1ycE3dC+
-yBJk1qmSgAej861elJwLmPrBi2YMK0BVyj6OW2OWUruc57uXGm7ifVCgVLJ/9XJ9
-M/AKFauk+j+Ic3dFlnkDGNLHAi6Puu16zdte2Pkhje69FZVvVQCODkZaYxMdBlt4
-3xc6aiX8c4iUOFaWWIYMmTyivCBa6Uozj34HR92LO83V7VanwbscR7wtFpBIx0mv
-+Q0wACk8Lvt1Yt8Ze0Qj+t8exykQzlq3esNp8L0vm8VSiRaNp+FfprP4JmRUvWUc
-4ZkpzD5P68uzPH3B/jiKWtNqBixko/ulCRQN2haa5gu3P5T0booNmUihmnhG5OpE
-Df4hN2yR/Q/IBrLkjKYXDt9zYgY7Rtqi/tqnX3lNYMY63FjNYNOQQQGsCdHqZGUJ
-0gGqyEq15vNE44O64U/BhlfSMpLMoQCnrkJP6jfks7qjaIoKY8CUOsGgdqhBHAEm
-BWCDxQyc5yJoXWM97EzTXcBt9nnXxqVrfQDq6VpsHGer8ipzOIS+3zQdZawOs4wb
-o9Wo5ztWFGfD21MDz/HeN8GKNTglWEaRd/oO/75Hq0KUzmochPul6YPirU/mUhA/
-5uzdtUXapi9Dnlzb1XK4R8+hMvsFhYkePllrvlWJhzEkoIVlba0=
-=lFCb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmc1ZRoACgkQ7ulgGnXF
+3j3chw//bTKv2adM0v/4T0+EkVKtYoOj4Hd4O/CPoHjcZ152kSK+5aGQjQjItUwL
+XK491FhTjJO2OlWjyT6jFIQHHsv04mW45JpF+F+OLwzWJ7SEDHsdrDo3ljkQBEEC
+eFLKSPYsodfIONYI8v8UBEleXI/o4cVK8kUXu7DISQotexnuRQauAjeDyTaGlOAd
+nTgRnGyQ2a/0WUIIaGw5ou4nRurYyDd47YLt97I87Vp+uY9iJyI8LdT+qkx5Bg6B
+zs/TrRHlrcBJdEHyOkcaaGVHB2I2i+X3NSVd/J2O6u5Ah397B4ILVqq228Y30ejm
+mOBw/1hYFtknfLlHT79IPJMOKf2IvXzQ45IbFq6HrCCvO+oH5qj9o4igsfWXKbxE
+2ux1WuHJMPAbdlZre4X7Woq5gwuByOyD2suYCQ9gYjj94eZO8esniKfpUSyokZS3
+/ZGdgnHZpPGOQg1A2mAcPOg79JUAiN465YTjNwXCWHlzLcBP12bMzd4ERiJ8uetA
+60KzU89tgMLnVtIZlEGMG1WB23m7xXopbpzzN61TtcMFBGTqd4mf+ausNLLOlonU
+B7WssKQUwf1WLU6aUuCx9WcOkEk2ao+O90bPIBhHCcHnEDi6By1Kflechkx+4sOP
+VPEJHtesDNjtqV/02xdxpmHTxwa8Q5nN23kj9UmmuVeYidRnLQc=
+=Krwp
 -----END PGP SIGNATURE-----
 
---===============7604437269741433344==
+--===============8667890383374326485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad658b9e8e1a-e1a80dd501d7.txt
+Content-Disposition: attachment; filename=revlist-b92e5937e352-128faa1845a2.txt
 
 d5130c5a093257aa4542aaded8034ef116a7624a scsi: ufs: Use pre-calculated offsets in ufshcd_init_lrb()
 f30e5f77d2f205ac14d09dec40fd4bb76712f13d scsi: fnic: Move flush_work initialization out of if block
@@ -115,4 +115,4 @@ c62c30429db3eb4ced35c7fcf6f04a61ce3a01bb scsi: qedf: Fix a possible memory leak 
 a4550b28c8c853e7241ecf30b4f1d9c6bc631fda scsi: st: New session only when Unit Attention for new tape
 128faa1845a2d5b0178b986f3bd18fb38cc08cc2 Merge patch series "scsi: st: Device reset patches"
 
---===============7604437269741433344==--
+--===============8667890383374326485==--
