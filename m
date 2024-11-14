@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 Nov 2024 09:54:25 -0000
-Message-Id: <173157806583.627214.10697560141350379159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 14 Nov 2024 09:55:10 -0000
+Message-Id: <173157811000.629710.13726212810009587524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 42fa14076df738835fde3f61c9397dcef8df3ab3
-    new: d272387c6e26939255ff1899869bdb6baff89956
+  - ref: refs/heads/for-next
+    old: 6b526d17eed850352d880b93b9bf20b93006bd92
+    new: cdb21c12adcb9eaf97ac085fd0d1382f9830224b
     log: |
-         e33ed362cf9e35db6082f7a776b7e8d557407e19 perf/arm: Drop unused functions
-         04782e63917dbcb60932fe93df52c4a4e3859d07 perf/core: Hoist perf_instruction_pointer() and perf_misc_flags()
-         3e807cf07d96eedb57d91a91f611f828e8918aab perf/powerpc: Use perf_arch_instruction_pointer()
-         baff01f3d75ff3948a0465853dcaa71c394c5c46 perf/x86: Refactor misc flag assignments
-         2c47e7a74f445426d156278e339b7abb259e50de perf/core: Correct perf sampling with guest VMs
-         d272387c6e26939255ff1899869bdb6baff89956 Merge branch into tip/master: 'perf/core'
+         53371c5c218f9fd5ec18843762a65c686040c574 bnxt_en: Add support for RoCE sriov configuration
+         304cc83807da5fd3044b0f20ed415027e40cd6e7 RDMA/bnxt_re: Enhance RoCE SRIOV resource configuration design
+         cdb21c12adcb9eaf97ac085fd0d1382f9830224b RDMA/bnxt_re: Add set_func_resources support for P5/P7 adapters
          
