@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Thu, 14 Nov 2024 12:10:09 -0000
-Message-Id: <173158620950.738552.15640792526529753112@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0573416470099176590=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 14 Nov 2024 12:11:47 -0000
+Message-Id: <173158630764.739407.11581773093042382247@gitolite.kernel.org>
+
+--===============0573416470099176590==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linus-next
-    old: 40586f21c8ac330912cb20bc341a74f5bc30783f
-    new: caeba3df0c2d71bdf418f5375cfd69869e0777b6
+  - ref: refs/heads/master
+    old: 2c997ea972bf936764e4b01b7717f1793bc6e0cb
+    new: 27ef6eb65603313023c47435144e925628384d07
     log: |
-         ca43f73cd1720e3b0b9c49deec1a13c89c0ca1e8 bcachefs: bch2_btree_write_buffer_flush_going_ro()
-         27a036a0c3e7046f508143af96a54f657c3584b8 bcachefs: Fix bch_member.btree_bitmap_shift validation
-         f8f1dde6868139f2294786365c56d7ff5cc3f4e7 bcachefs: Fix missing validation for bch_backpointer.level
-         dc537189b5cf09e61839491fc6a465c5659d7dbd bcachefs: Fix validate_bset() repair path
-         bcf77a05fb3d6210026483703bcacb22ed961c99 bcachefs: Fix hidden btree errors when reading roots
-         0b6ec0c5ac6c9e80a6157cbc5631802c81a674d7 bcachefs: Fix assertion pop in topology repair
-         2642084f26b5a5e9353fa530efb30f49e752185d bcachefs: Allow for unknown key types in backpointers fsck
-         657d4282d8c4ac2349472529c9a6f20c503d1aee bcachefs: Fix journal_entry_dev_usage_to_text() overrun
-         840c2fbcc5cd33ba8fab180f09da0bb7f354ea71 bcachefs: Fix assertion pop in bch2_ptr_swab()
-         caeba3df0c2d71bdf418f5375cfd69869e0777b6 Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs into linus-next
+         27ef6eb65603313023c47435144e925628384d07 add bluetooth regression reverts for 6.1 to be queued up later
          
+
+--===============0573416470099176590==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731586328 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731586298-5bab126c3738e0d7dd9f24db18cd6e0c94c3b256
+
+2c997ea972bf936764e4b01b7717f1793bc6e0cb 27ef6eb65603313023c47435144e925628384d07 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc16RgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dWAP/jFSY6kSwP8YJUPQnb4N
+Xhm9zVqeP9IJIJeqZxt4DGJoiCd8lbRuzC8ner0ItK8LqRdb+2qP46ngwLmwUe+b
+Y+iXCvmWzLk4xLLh/pu8zyPy9rduHGXFtufwW/34je5oNCZI72viP9XbnRF9Rdg6
+ydE35BPylkZVuHVpSBlAVrqAd0O6kaoBw8QasFCIbvs7VsIevohOO8Pm6cvJfu7z
+hKB0npMK8YI2PvtVsQVqdnVfHdKPsNA9aec8Y2+GlMcoyN4j+6os4zrs67bAHoFD
+5pDkZDWPCQpqsg4vm/FtokpBv8HYlPfxYfggldy2yZAlQdLIaV6u1gsoFooJk+Op
++vTrsR9w5QEraDYCdw7oRPFkwwlTzZOZhaOkRUmoZjX/Sf5YDk37PPbELN65MrlR
+8o7201rBKg+lnjpx4t3QlRMbZfGPVD4kNcHdcaKJfwSdlashZf/KYjdAxCiwETbY
+CAb0DW3gDGgCcoMJ8B7xkOLkbMhXgohBPSjw8hjnZlVk3aye9bCxjNMn6QQ/OXna
+o0G7MfWxlh5H4uljO+0Vg3DDKpd4eleDhL2t07+NyPAccqQ/0MdVgC4ChHSelsJm
+h1Pl6Smb58CTkozI7e+3s84c9abdrvxW68xO0mF+6r0cxVmelvSujbjtteeoRZkt
+sEH2OeozXYIHs3jwv5nZ0fuB
+=q3N9
+-----END PGP SIGNATURE-----
+
+--===============0573416470099176590==--
