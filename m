@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 14 Nov 2024 03:13:01 -0000
-Message-Id: <173155398163.267913.11627925637745089069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Nov 2024 03:13:22 -0000
+Message-Id: <173155400209.268368.10954433253606590997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: bf481f81f23b4066c75d061b75a5bf205195e49d
-    new: 98c5f2a6fd8594b67706a3be83b6273a18b98e72
+  - ref: refs/heads/main
+    old: 3342dc8b4623d835e7dd76a15cec2e5a94fe2f93
+    new: e28acc9c1ccfcb24c08e020828f69d0a915b06ae
     log: |
-         98c5f2a6fd8594b67706a3be83b6273a18b98e72 rcutorture: Add per-reader-segment preemption diagnostics
+         e28acc9c1ccfcb24c08e020828f69d0a915b06ae ipmr: Fix access to mfc_cache_list without lock held
          
