@@ -1,65 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3468924411425144202=="
+Content-Type: multipart/mixed; boundary="===============3599395424577609996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Thu, 14 Nov 2024 09:21:05 -0000
-Message-Id: <173157606514.554037.1988258334294216409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 14 Nov 2024 09:31:10 -0000
+Message-Id: <173157667002.562325.712354715090127159@gitolite.kernel.org>
 
---===============3468924411425144202==
+--===============3599395424577609996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/gmsl/work
-    old: be0f56183f2b0f4dc106f6c2f2ebab666662fde3
-    new: 2f3f4469751968251c3bde83fea0d998a8768b33
-    log: revlist-be0f56183f2b-2f3f44697519.txt
+  - ref: refs/heads/master
+    old: 5283b49a869ba4d60e8b7fc4d353955512404bec
+    new: bdca94c5ff4d3ddb3c8de83aa65793a5fcdcc864
+    log: revlist-5283b49a869b-bdca94c5ff4d.txt
 
---===============3468924411425144202==
+--===============3599395424577609996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be0f56183f2b-2f3f44697519.txt
+Content-Disposition: attachment; filename=revlist-5283b49a869b-bdca94c5ff4d.txt
 
-748c8565ab5943a30b8a38a1d4f2671d89c08940 media: i2c: maxim-serdes: remove regmap config to chip driver
-23de1ff4bb9f6f72c71b8ae73308c21d90b60327 media: i2c: maxim-serdes: max96724: use FIELD_PREP when writing 1 bit
-b9b51485c85c22fa281b176a8cea08772b5064fa media: i2c: maxim-serdes: max9296a: reformat comment
-8e03b0262b513ac4043ba5e5db6d7ab2739b8870 media: i2c: maxim-serdes: max9296a: fix comment
-d61e5ee7b4b6b0bbd8799c909eb19fa49dae8cd2 media: i2c: maxim-serdes: max9296a: add RLMS register settings for 3Gbps
-9ec482a99aaa6c338d19146e248ca8881f91b820 media: i2c: maxim-serdes: max9296a: inline max9296a_init_link prototype
-70e4967d2fbeecf594887e88028bdd74f0e63d9b media: i2c: maxim-serdes: max9296a: reorder RLMS writes to be in order
-6716530b8449ced8c3dbabdfa446562b6dfb18e8 media: i2c: maxim-serdes: max_des: remove supports_tunnel_mode flag
-2b32dd4cdb92f772a073d755eb791e39659af5cc media: i2c: maxim-serdes: max9296a: use macros for regs and masks
-98211af15d9bf67c20145cee753faedd533e6836 ============================== Start RCAR ==============================
-dbfeb9102ea624a392c5215f432d9f926368132a whitehawk.dts: Add GMSL des & ser & camera
-77f8a28998f9f6e2e7e93bb7225005b4bb0071ed rcar-isp: enable SRGGB8
-0012164e869cdecb9b2755e736e64cacaad67821 rcar: hack fix V4L2_CID_PIXEL_RATE
-15e8b5ef8900869abe5b08dbaf33d45cdb5a40d1 rcar: fix csi mbps
-b97236aaa19416d9d8e73c15e2f8f91c3222dc2a rcar-csi2: quickhack to use enable_streams
-35a40e4e0f9d270e30a19218e13938a5d1aea86a dts: rcar: Fix imx219 reset
-82d1063fd9612efd5bd62c9362a3a4a7551abff1 rcar: dts: cleanup
-1ce1abb0a942a02810616bc24b37955cbfe4aae3 dts: rcar: Add second ser + imx219
-ab10f74d7beb957a8527ab6d9e59a7f33dabf9e0 Revert "dts: rcar: Add second ser + imx219"
-707c218a23fd4f33e479e0bd1ee77e9365464a7f =============================== End RCAR ===============================
-96e73b55b1eb156072855561256008034734257c max: disable reg read/write debug prints
-535123cae42c633811d9b4eda62554ce8b995d7c Revert "max: disable reg read/write debug prints"
-33e44ec45e22483e951164f7fef98a85c82d7ffa Add cfg-tomi
-f2075fac82dcfd0f42e92e8f8e0d0836a5600d18 max_ser: fix possible use of uninitialize var
-c25ab546a4ac1618a4f1dc72ca5b7bf24f45fccc regmap: provide regmap_assign_bits()
-ec7436095bb8d9d15f5770dcbc9820ba1a3f9814 max: serdes: Add TPG videomodes
-3b95e440a8c3881cbd15e2bfd556e9d8dc9965eb max: serdes: Add struct max_serdes_reg_sequence
-53e04068a35782b1024b4b9af36949ecdbb7836a max: des: Add TPG
-1a8f0a55e43f38a8475572302c31d8a0be2ddff4 max: ser: Add TPG
-a2e3567a84c7eea6408d0d6fed3046a8b7443035 max96724: Fix powerdown on remove()
-a9f20c167703b9fccb136a7905590dc049127146 max96724: reset at remove()
-8918f673d1c4e4e74bb2fa3c61311ba4715ea68d max20086: allow probe without enable gpio
-f7083e124ab5f13578b8cf58dacf7e5a9d1e5cf9 dts: Add max20087 and vpoc regulators
-7f34937d8367e6f355d908278a0ec3f7c8622a45 WIP: max96724: Add vpoc regulator support
-2f3f4469751968251c3bde83fea0d998a8768b33 HACK: max96724: Add hack-wait for the serializer boards
+1d58f7f3a1373734b2e86a246edcf1cd39359f3e clocksource/drivers/dw_apb: Remove unused dw_apb_clockevent functions
+0309f714a0908e947af1c902cf6a330cb593e75e clocksource/drivers:sp804: Make user selectable
+314413317b6d78cc76cd48f0296fde9fcfdec400 clocksource/drivers/timer-ti-dm: Don't fail probe if int not found
+dfe101bcad840d025deb5e43150d54050ab7724d clocksource/drivers/mips-gic-timer: Always use cluster 0 counter as clocksource
+cd5375610baadd3a0842a9e83ca502684f938be8 clocksource/drivers/ralink: Add Ralink System Tick Counter driver
+ae4705e1b1bc4dedceb6b0956509e3eb2fedaaf1 dt-bindings: timer: actions,owl-timer: convert to YAML
+e5cfc0989d9a2849c51c720a16b90b2c061a1aeb clocksource/drivers/timer-ti-dm: Fix child node refcount handling
+5569d7348b4a927eb5a2449ddc175ec7c3930c4d clocksource/drivers/gpx: Remove redundant casts
+08b97fbd13de79744b31d2b3c8a0ab1a409b94fa clocksource/drivers/arm_arch_timer: Use of_property_present() for non-boolean properties
+8d9ffb2fe65a6c4ef114e8d4f947958a12751bbe x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+f9ed1f7c2e26fcd19781774e310a6236d7525c11 genirq/proc: Use seq_put_decimal_ull_width() for decimal values
+228ad72e7660e99821fd430a04ac31d7f8fe9fc4 Merge tag 'timers-v6.13-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+4315e4075954ade00fa8c6aa39f619c287732a8a Merge branch into tip/master: 'x86/urgent'
+b7162cb409e6bbd736120a1c372439bf89ca19a5 Merge branch into tip/master: 'irq/core'
+bdca94c5ff4d3ddb3c8de83aa65793a5fcdcc864 Merge branch into tip/master: 'timers/core'
 
---===============3468924411425144202==--
+--===============3599395424577609996==--
