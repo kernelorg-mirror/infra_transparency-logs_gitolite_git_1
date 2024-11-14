@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1130847428602764982=="
+Content-Type: multipart/mixed; boundary="===============2788748547016913669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 14 Nov 2024 12:07:40 -0000
-Message-Id: <173158606020.735096.7139743540608395479@gitolite.kernel.org>
+Date: Thu, 14 Nov 2024 12:08:29 -0000
+Message-Id: <173158610908.735687.10709535026249394214@gitolite.kernel.org>
 
---===============1130847428602764982==
+--===============2788748547016913669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: a0423af92cb31e6fc4f53ef9b6e19fdf08ad4395
-    new: 0586ade9e7f9491ccbe1e00975978cb9c2093006
-    log: revlist-a0423af92cb3-0586ade9e7f9.txt
+  - ref: refs/heads/queue
+    old: 6f8ad38887012bddde4c265ab5ae5c8d2c0de43f
+    new: 087488f8e45cf1c1a6d173aac115b502406eec6a
+    log: revlist-6f8ad3888701-087488f8e45c.txt
 
---===============1130847428602764982==
+--===============2788748547016913669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1731586083 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1731586133 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1731586052-6ad8900d9526cd437d1e370cf6969e8742faff40
+nonce 1731586102-07cafda82c9514c7080ae67349bd33210f420d9c
 
-a0423af92cb31e6fc4f53ef9b6e19fdf08ad4395 0586ade9e7f9491ccbe1e00975978cb9c2093006 refs/heads/next
+6f8ad38887012bddde4c265ab5ae5c8d2c0de43f 087488f8e45cf1c1a6d173aac115b502406eec6a refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmc16CMUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNXTAf9FGi3w+ySK33MomEL5id37bAmMAG8
-vF31e3cMEd35CLxImTW93XZrY+Y+VMydUehWwXY/gGGWFxO64GzYcYqaX4bDNf75
-hf9pp7Wi7mL9X7QO2aclt3g3+2cxUYD3g31UQseUwDlJvAIzb+e99RjFaoAL+5Xn
-T/o/U2QHFBnPgbQNfcFlGCTu873p/7Zy/GQ+t+xUrXJw9+vWzpBaQn2mG4wx54UI
-hxnRwovfAnuLW7vSBt6vj1KrHSPHiSyZwN8Qu0z3TGPPyBfD374O1fW2WbAN0Zsk
-3MIVpfgHZp9pSL4kKnuBPlYbBHupj6NYjLf/WgsE4G8ubSEPOZDO3UCB8A==
-=H+OL
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmc16FUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP4dgf+P7mzfFPsNk+ygIQ0lZ+mt4N5flCJ
+JS+C08QPOO0CbcbCFjmBj1G9UhIsjF/xb0YxFlJCLDn0vOppSp5jBRxJHF/MG/8f
+G/KfD37FhuLJH7V1Ag6Av3fLGGvAMqnEqOtyDZHSzcVntUheLjwxVRi1xeBcjuyH
+gnXwYb72W6jv4QL4O6L2+ujN0mGOjH1iqYK9X529q6O8WFOtTrVs6MXjSWv6g34C
+Rmrkwm8GAvchxewPyQBd4CMPk7w6errE9ZLMtyo4ODzx5pPdx5+HRpFw686qEbth
+fs/CeDwB9m8f/mypB8cUPlwI5DivvinLMg7jtGM6DkCiaPar7ttoFofSlw==
+=5z1K
 -----END PGP SIGNATURE-----
 
---===============1130847428602764982==
+--===============2788748547016913669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0423af92cb3-0586ade9e7f9.txt
+Content-Disposition: attachment; filename=revlist-6f8ad3888701-087488f8e45c.txt
 
 d92e9ea2f0f918d7b01cbacb838288bffccc8954 arm64: dts: qcom: msm8939: revert use of APCS mbox for RPM
 2f39bba3b4f037d6c3c9174eed5befcef1c79abb arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-eaidk-610
@@ -483,8 +483,12 @@ f5f31efa3c2d51c03afab5ab6e3f004d2d529013 LoongArch: KVM: Add PCHPIC read and wri
 d206d951487326b535007639d58e2a98d18e3dee LoongArch: KVM: Add PCHPIC user mode read and write functions
 1928254c5ccb7bdffd7f0334e1ce250e9ce4de94 LoongArch: KVM: Add irqfd support
 9899b8201025d00b23aee143594a30c55cc4cc35 irqchip/loongson-eiointc: Add virt extension support
-b467ab82a9fde4b46c0cd2c299220857afb0e0d4 KVM: x86: expose MSR_PLATFORM_INFO as a feature MSR
 7b541d557f705c7e5bcd874f3b960c8fb8dee562 Merge tag 'kvmarm-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 0586ade9e7f9491ccbe1e00975978cb9c2093006 Merge tag 'loongarch-kvm-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
+5711d00b6befb3c30ae51080219b34a62abb35cc KVM: x86: switch hugepage recovery thread to vhost_task
+51c68918dd298775c03d9aa39f4924fe03dd6ef1 KVM: gmem: allocate private data for the gmem inode
+59a3e8942c3e0efe18b0547d66f2127aad519013 KVM: gmem: add a complete set of functions to query page preparedness
+c9a05f3b3b149c967233070c464ad8329a816aa0 KVM: gmem: limit hole-punching to ranges within the file
+087488f8e45cf1c1a6d173aac115b502406eec6a KVM: gmem: track preparedness a page at a time
 
---===============1130847428602764982==--
+--===============2788748547016913669==--
