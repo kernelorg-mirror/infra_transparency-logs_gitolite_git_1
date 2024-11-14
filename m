@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 14 Nov 2024 00:10:16 -0000
-Message-Id: <173154301602.122351.931870623125675299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 14 Nov 2024 00:13:17 -0000
+Message-Id: <173154319725.123760.73583830158032818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 24480cb442732720747387ab8b99187f70a9a4cf
-    new: 182ff3dabe8f127049c09660346cad492bcc0ceb
+    old: cad2777e4215b105cd9e87f4098b4becbe523573
+    new: 4f5642c58787c32c8191ff2be8ed2c7150be093b
     log: |
-         56058e8b285db6bee0e3a202c8d000bb805623c8 idpf: Change function argument
-         805f85458f85143d7603d375292eed899df08682 idpf: rename vport_ctrl_lock
-         a62f73ba2bcd0805dbe771f978c5f3142e5dd019 idpf: Add init, reinit, and deinit control lock
-         182ff3dabe8f127049c09660346cad492bcc0ceb idpf: add lock class key
+         8613d619254a5cf8e7122b682c3b5baced95bb5c idpf: Change function argument
+         6d5ef66e8ec1c0eee8562ff50ff7f92491ad34db idpf: rename vport_ctrl_lock
+         8508c242831b06dbe16e3d37097e35a272903d61 idpf: Add init, reinit, and deinit control lock
+         4f5642c58787c32c8191ff2be8ed2c7150be093b idpf: add lock class key
          
