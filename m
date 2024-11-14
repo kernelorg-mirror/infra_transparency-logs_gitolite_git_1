@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Thu, 14 Nov 2024 12:17:11 -0000
-Message-Id: <173158663187.791863.12689807996637550683@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4908792714695461944=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 14 Nov 2024 12:17:33 -0000
+Message-Id: <173158665356.792209.1013086018765949836@gitolite.kernel.org>
+
+--===============4908792714695461944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/overlayfs/vfs
-user: amir73il
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: b2fceb6bc00579b5ce98fbabf2642cf981ff014b
-    new: b52e62ec3d9b8499a0817b10a4b9a46060343b80
+  - ref: refs/heads/master
+    old: 82330ffcca43c80b2dd1dcf3ad44855f0edbab84
+    new: f2d9a4b8ab2aed9b7ba2160836bd6d74963ddbf0
     log: |
-         711747e204ead127235aa41b350e518e92a87fcc ovl: pass an explicit reference of creators creds to callers
-         6b4a7cfba7aa190c7928a923d081a6bfb4270c00 ovl: Optimize override/revert creds
-         5c2ce2d7b4ed4a0dd832c77c8c6e37d6aa956614 ovl: do not open non-data lower file for fsync
-         60e152652ad0c2af19b0b272ff76b51f3e284aaf ovl: allocate a container struct ovl_file for ovl private context
-         c853755c55aec60df0a46b9e508d4ffe3ab3471b ovl: store upper real file in ovl_file struct
-         19d960407d058c8544a6412408629a0bc6bb5152 ovl: convert ovl_real_fdget_path() callers to ovl_real_file_path()
-         b52e62ec3d9b8499a0817b10a4b9a46060343b80 ovl: convert ovl_real_fdget() callers to ovl_real_file()
+         f2d9a4b8ab2aed9b7ba2160836bd6d74963ddbf0 Linux 6.1.117
          
+
+--===============4908792714695461944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731586680 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1731586646-bd4d1394fb7b6052935447bbb260310abe4ad2a1
+
+82330ffcca43c80b2dd1dcf3ad44855f0edbab84 f2d9a4b8ab2aed9b7ba2160836bd6d74963ddbf0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc16ngbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ml4QAIlJZbo7jH09Eo3AEcA/
+dS30dNST8r6GvJA8uNSfPiQA3zc2Rrx07bk86b+jy5syj29eBAIKfRGlvEpTfzyz
+tA13sUNiO1j8ffWG6QPBXPpCVh5sI8SoHLPrPzmeY7aJSBTSR8rycbIzp2IRJmWX
+bw4iQy4x1lbO1UVMdYA9+Uoruk+ZfYnpmrhbd0/+EUjwHa4u59LDXrlA3bwHJFjX
+0SPVeFPdfqu0lp9uDWfiOwc7G5TZgKBqa5yVB4Ig8cJh2cEvu4jbfrSWdQwE2JxC
+t/tInqhtTjO5g1VUcLGXQJ8JKWxxY/cxV+wXoNGmesYahHXOluCBxox53JVz65EK
+O/pblBVRY73buGrCKG4YPlhCTPNWQ0VBgB1fONV5UfXi/nEpMP48JX6gGh9P7o8/
+EDtyZYl47iylQlLITDjRzDCeYv59K+50wCN+DKzdwny4tw9dfa0zu7vTBJiQp71P
+DXRsdlvfsjaZ2h0MlhFJsPF5yYr2QMM6zIAUIoNoJEgR0cPBQGD3o33ItH1jPlVe
+24lBqycmzbrGpB3Ps2VXflN9ebX1S9NaXHCXknUIjaIdZVd+8gzWbrs7iYNpYr4o
+QtHutM3PVfO3Y+sGjb4IguH6jcz+jzd3vhBQCTry3o9bMkcG+YeLztRGNqrAHHez
+JDrbCX+c7tWA8Ir/b1Y1I30+
+=1HBR
+-----END PGP SIGNATURE-----
+
+--===============4908792714695461944==--
