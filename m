@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 14 Nov 2024 18:31:50 -0000
-Message-Id: <173160911007.1201949.11687206523832967686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Thu, 14 Nov 2024 18:43:59 -0000
+Message-Id: <173160983906.1210393.6448140347191332593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: e88b020190bf5bc3e7ce5bd8003fc39b23cc95fe
-    new: 29186974d7f022396a85b8fede8a4c5a3c05a7ba
+  - ref: refs/heads/for-6.13
+    old: c4c9cebe2fb9cdc73e55513de7af7a4f50260e88
+    new: fbfbf86685b3270dc27d1c5d6108532334aaf329
     log: |
-         29186974d7f022396a85b8fede8a4c5a3c05a7ba Bluetooth: fix use-after-free in device_for_each_child()
+         fbfbf86685b3270dc27d1c5d6108532334aaf329 cgroup/cpuset: Disable cpuset_cpumask_can_shrink() test if not load balancing
+         
+  - ref: refs/heads/for-next
+    old: 95ab67727b8fcd200cca45e5bf8fd1c0e2f2f12d
+    new: d6821c9e43915f8b654bf36919db5cc98447c75a
+    log: |
+         fbfbf86685b3270dc27d1c5d6108532334aaf329 cgroup/cpuset: Disable cpuset_cpumask_can_shrink() test if not load balancing
+         d6821c9e43915f8b654bf36919db5cc98447c75a Merge branch 'for-6.13' into for-next
          
