@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 14 Nov 2024 15:16:30 -0000
-Message-Id: <173159739003.1037436.9058960274868838488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 14 Nov 2024 15:24:35 -0000
+Message-Id: <173159787534.1043723.6606337663392174236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/next-fixes
-    old: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
-    new: d22160d9bdb1b42aa2b7f34367a0e4d6aec2557e
-    log: |
-         7d493a5ecc26f861421af6e64427d5f697ddd395 btrfs: fix incorrect comparison for delayed refs
-         d22160d9bdb1b42aa2b7f34367a0e4d6aec2557e Merge branch 'misc-6.12' into next-fixes
-         
+  - ref: refs/heads/coccinelle/include_directly
+    old: 0000000000000000000000000000000000000000
+    new: 35e7569e17da8b329ec7559bfad6b676ede02f1a
