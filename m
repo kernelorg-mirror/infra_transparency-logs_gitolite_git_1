@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1395494551340150038=="
+Content-Type: multipart/mixed; boundary="===============4456443630978954642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 14 Nov 2024 16:57:15 -0000
-Message-Id: <173160343519.1121924.12594148350987325301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 14 Nov 2024 16:57:25 -0000
+Message-Id: <173160344531.1122118.3912661236890032756@gitolite.kernel.org>
 
---===============1395494551340150038==
+--===============4456443630978954642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.13
+  - ref: refs/heads/for-next
     old: a59360466a712d416f8cddfa4e52e118c53aa3a3
     new: 9a5a75bf1f485e2d109303a996d147b94c5e79c9
     log: revlist-a59360466a71-9a5a75bf1f48.txt
 
---===============1395494551340150038==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1731603461 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1731603432-2e4eed60742a48091a4aefc9aa564714d9e8562b
-
-a59360466a712d416f8cddfa4e52e118c53aa3a3 9a5a75bf1f485e2d109303a996d147b94c5e79c9 refs/heads/asoc-6.13
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmc2LAUTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0M4GB/9a5SrIjPvaw3KjuSLMBIynCpNtcL+T
-DZN+6/1DtCycrtis8f2A0mzTFuN30Q/CWBiHvKqDr9ldTMlP8HsB/WhF/TOAWuyl
-zWlNGMARl6F6G+lCkx+e44YuMG6vwfWV3jA3baeWyDlRFwFZaXmJ50X/pT/p8fZq
-z5Rz/Nr5diEUvo6CZS8G4jolYl8JA75qmi4sDKgb1UNsfFKbYkecvDTgo8ZjzNir
-kK/Oa+aJlAyQqQbJo5XKWvAv4wM1ywM4Q/1Gb7ytjvjq4EJHVFLPEAE4SL+7g9OM
-wPG1LmsPslL0OIbxwmh/BVDuXj9CFCHJ1kLNAnAPVkhJT/2JAu4XdoGE
-=DISp
------END PGP SIGNATURE-----
-
---===============1395494551340150038==
+--===============4456443630978954642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1051,4 @@ d7e67a9e8c304ba767c5069a9c1f0c8ca80276f9 Merge tag 'i2c-for-6.12-rc7' of git://g
 f3f9f0de30a5106078cd610f80eaa6f9386b2186 Add generic AMD Soundwire machine driver for Legacy(No
 9a5a75bf1f485e2d109303a996d147b94c5e79c9 ASoc: simple-mux: Allow to specify an idle-state
 
---===============1395494551340150038==--
+--===============4456443630978954642==--
