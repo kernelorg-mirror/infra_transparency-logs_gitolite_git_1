@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 14 Nov 2024 10:38:06 -0000
-Message-Id: <173158068697.663083.14578270371156142050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Thu, 14 Nov 2024 10:39:14 -0000
+Message-Id: <173158075469.663684.2184969188248317688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/dev-test
-    old: 6442759df936c600b54cf023068c736fcf08b09d
-    new: 336c33955714ff0ecd374f97e3734776cd7d1731
+  - ref: refs/heads/testing
+    old: 9d287e70c51f1c141ac588add261ed2efdd6fc6b
+    new: 9e1a6db68e3ccc5c20fd2d6243285d1cc7215fe4
     log: |
-         e90a2a1393258bfff424cb89ad9001fd6e924bd9 erofs: fix file-backed mounts over FUSE
-         336c33955714ff0ecd374f97e3734776cd7d1731 erofs: get rid of `buf->kmap_type`
+         9e1a6db68e3ccc5c20fd2d6243285d1cc7215fe4 xfrm: replace deprecated strncpy with strscpy_pad
          
