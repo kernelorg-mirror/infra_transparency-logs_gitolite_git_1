@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6828835456231822269=="
+Content-Type: multipart/mixed; boundary="===============4271687572706039217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 14 Nov 2024 07:12:50 -0000
-Message-Id: <173156837098.452056.5559535734075046135@gitolite.kernel.org>
+Date: Thu, 14 Nov 2024 07:13:15 -0000
+Message-Id: <173156839560.452364.6866023557821392886@gitolite.kernel.org>
 
---===============6828835456231822269==
+--===============4271687572706039217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 94c11e852955b2eef5c4f0b36cfeae7dcf11a759
     new: 5b366eae71937ae7412365340b431064625f9617
     log: revlist-94c11e852955-5b366eae7193.txt
 
---===============6828835456231822269==
+--===============4271687572706039217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -750,4 +750,4 @@ a03b18a71c128846360cc81ac6fdb0e7d41597b4 net: stmmac: dwmac-mediatek: Fix invert
 eb94b7bb10109a14a5431a67e5d8e31cfa06b395 net: Make copy_safe_from_sockptr() match documentation
 5b366eae71937ae7412365340b431064625f9617 stmmac: dwmac-intel-plat: fix call balance of tx_clk handling routines
 
---===============6828835456231822269==--
+--===============4271687572706039217==--
