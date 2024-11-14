@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 14 Nov 2024 15:08:10 -0000
-Message-Id: <173159689032.1029480.10481191318657534147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 14 Nov 2024 15:08:11 -0000
+Message-Id: <173159689177.1029533.420992556640705508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-linus-6.13
-    old: 0000000000000000000000000000000000000000
-    new: afc545da381ba0c651b2658966ac737032676f01
+  - ref: refs/heads/ring-buffer/fixes
+    old: 09661f75e75cb6c1d2d8326a70c311d46729235f
+    new: 580bb355bcae7e9a6606ce9644af09b2a793f1bb
+    log: |
+         580bb355bcae7e9a6606ce9644af09b2a793f1bb Revert: "ring-buffer: Do not have boot mapped buffers hook to CPU hotplug"
+         
