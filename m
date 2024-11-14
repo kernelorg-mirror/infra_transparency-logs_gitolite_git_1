@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 14 Nov 2024 11:42:35 -0000
-Message-Id: <173158455562.715524.4536979943329834424@gitolite.kernel.org>
+Date: Thu, 14 Nov 2024 11:43:16 -0000
+Message-Id: <173158459683.715884.17233870569589585638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/file6qf3gE
-    old: 0000000000000000000000000000000000000000
-    new: a59360466a712d416f8cddfa4e52e118c53aa3a3
-  - ref: refs/heads/v2_20241114_h_v_raven_asoc_simple_mux_allow_to_specify_an_idle_state
-    old: 0000000000000000000000000000000000000000
-    new: 3b7e11a0116c30848d44429650ad80f9cc3bd963
+  - ref: refs/heads/v2_20241113_jre_spi_imx_support_word_delay_in_ecspi
+    old: a3bb4e663df318b232746478e7b191bcf6e3af40
+    new: 0000000000000000000000000000000000000000
