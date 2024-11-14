@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8757073263752002525=="
+Content-Type: multipart/mixed; boundary="===============4128161438941156937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 14 Nov 2024 16:11:41 -0000
-Message-Id: <173160070142.1084458.8966566676832996398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 14 Nov 2024 16:11:43 -0000
+Message-Id: <173160070311.1084535.12473683024646391855@gitolite.kernel.org>
 
---===============8757073263752002525==
+--===============4128161438941156937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0a9b9d17f3a781dea03baca01c835deaa07f7cc3
     log: revlist-2d5404caa8c7-0a9b9d17f3a7.txt
 
---===============8757073263752002525==
+--===============4128161438941156937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -97,4 +97,4 @@ c5f404511890d75c90e4ec06c54f06bd397d96f5 Merge tag 'loongarch-fixes-6.12-2' of g
 4ba05b0e857d1f78f92084a15e618ea89a318089 Merge tag 'tpmdd-next-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0a9b9d17f3a781dea03baca01c835deaa07f7cc3 Merge tag 'pm-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============8757073263752002525==--
+--===============4128161438941156937==--
