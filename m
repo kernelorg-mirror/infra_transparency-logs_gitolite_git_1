@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Thu, 14 Nov 2024 00:24:23 -0000
-Message-Id: <173154386332.131961.5783540660115424064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Thu, 14 Nov 2024 02:39:41 -0000
+Message-Id: <173155198179.238926.16164204697817558489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/for-next
-    old: b7688fcde3cfdd8489421b8eeeb908733316d638
-    new: 4752e8cde8344cb8673abdefe0dd74e9a2fe23ad
+  - ref: refs/heads/main
+    old: 3c0d6fbcfc635559bf4d853cddf5b98ad11d3864
+    new: 1f06728eb91d184b9826d31666ef451f6c2dac13
     log: |
-         4752e8cde8344cb8673abdefe0dd74e9a2fe23ad tools/firewire: Fix several incorrect format specifiers
+         1f06728eb91d184b9826d31666ef451f6c2dac13 rteval: timerlat: Add --timerlat-interval
          
