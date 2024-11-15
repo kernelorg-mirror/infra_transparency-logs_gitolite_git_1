@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1617015612495084856=="
+Content-Type: multipart/mixed; boundary="===============7395159330202551887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Nov 2024 06:37:05 -0000
-Message-Id: <173165262586.1829890.371116603826704931@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 06:37:08 -0000
+Message-Id: <173165262813.1829969.14336985479152393060@gitolite.kernel.org>
 
---===============1617015612495084856==
+--===============7395159330202551887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,95 +16,113 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 973ec2fe894fec2615098a9c8f4483d28a5ad03a
-    new: 68a649492c1fa0ed80e347e707b68e57128fa3c7
-    log: revlist-973ec2fe894f-68a649492c1f.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 9d8217c4ba0540cbf99d6adc25dd53eccdb351ef
+    new: 0440d0f2cc217a9b6cbf1fe3238c619875b92c3b
+    log: revlist-9d8217c4ba05-0440d0f2cc21.txt
 
---===============1617015612495084856==
+--===============7395159330202551887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731652649 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731652650 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1731652618-14c316a1141dbdfdbfd806d49223b2b610911a2c
 
-973ec2fe894fec2615098a9c8f4483d28a5ad03a 68a649492c1fa0ed80e347e707b68e57128fa3c7 refs/heads/linux-6.6.y
+9d8217c4ba0540cbf99d6adc25dd53eccdb351ef 0440d0f2cc217a9b6cbf1fe3238c619875b92c3b refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc27CkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xNwQAKpMD75RiZsmg+Sd1Mw0
-YcTlZYhMBhHxbTjNK/qjacwxJnCR0Zry0SA5DJxkIzcFCd5PXPQTZDSgRBPTJ3Wk
-c4Gzg3qQxFIZtw2rqFpK7YPpRgv1TejOJTbZ2x2NIpxNmiYj6k3hP/zJNZkoz1Ap
-/2mZj1XDXDCwIcGSfzlUqjFgVejuVGSKimARDAxtC+O9rUwZgAY8VA4G0s1gtHzh
-9LjjjjNZD87V4J/PQNNSZMhMU/Q86LPl4gmzB/1/CVBa4DuZIrB7ZIuK0v8ynQ5o
-2kwlEWxqrAjij8nhq0WoRapvICOuAffJDZGA4hHFzBxleH30mhJwknncEIgIsLPD
-Ibij2V7vYS8Ok2o7tpXOM+5Zv9KvVgbiIn8Ga+BrXv+ycOmaAvxDMjUf644dChiy
-Tgnhxmtdt/Wtm4LxmYCkDSnOksi3e9Y2tMHkwxWXS1tk3ZkUk8IwezCmbRcAzvPW
-ztFdv/1mDLCRT94+6nLWuXhAWGWqSA5cK+RJsbaFVkh1JkK3brVze4o54B88C93p
-j2oCG1jcxT/GS9XH56q6LgrYd1WghpCqwFT157Wnt2PlSi5JEKv6YkQYY8EXSKRB
-FDucAX48WyCf3PERwWsSP2AL8cliigdL5XPmYs89SeZCP7dsUf3ml0ZdK0B8k0/4
-NaHJJEGtIATup81oCCWefrR1
-=ZP+Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc27CobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ECkP/j9nD3eXfgAeUCHQCRXd
+Fi5e1WgHZSSquMVmrN14WAWBXfbr3YKLoJryi2lqw0YLfgvgVxE4j3MuaRYyoTHt
+ybvrf5fGhrxCcN7OWHpsWRqsaXYCGumP53xtLz1BIZn5GFJNXsHsEK/2rCfd/57d
+oSfskPulA8+uEGkuzSU86qLCcv0l8ldPzT+PTIc3rO6zyZXobxWtNz1R1uaamMNd
+SvsXbGhAx5/Mqd9W2QcRPu+N9RcjP64wY/pAUH72OhAjciVyudaIcrKfBUZyvnKO
+r0p6qY8jABQhRWViAq4vgcstWsKiFHp3b1mnETR405YbXWs5X7tY2tg0XcG8GBfS
+lBmEzVLXoIEDvyrMIKlbXDwzzfEBuC18/M+iqgPd2H57K8IkL0x7icCAIiigUq1j
+myvB5dZxm5fzHoove5sunw78GeVUu/R3UNbBJelQTiXavthz40fH+PW6HTnXHsJ1
+zxQtX1jUptWnknvX1pluk39/A9ifG6kEsOZ6S5qj2+zmPkHnc5L4C5ecmZtscqr/
+ixGfKqDkOhcu29sD1MhkBwaXrMmvJ8ckh3A16wjiEwpQ/v2KWIgGl6QaBCCyB8Q+
+RqYIsfciI0XNuKj5eQEbnZaDEnX2mkiA/kio1IzhEYQnuLbpBaOUd1yIG5l+k4+5
+tQ7cFP/IA1qWWTrwdUJlqQmd
+=SmwA
 -----END PGP SIGNATURE-----
 
---===============1617015612495084856==
+--===============7395159330202551887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-973ec2fe894f-68a649492c1f.txt
+Content-Disposition: attachment; filename=revlist-9d8217c4ba05-0440d0f2cc21.txt
 
-af1cbe8fb8ed23e5594bf1a7f2fe78b8d7aba4df 9p: v9fs_fid_find: also lookup by inode if not found dentry
-bcaa4c22d2d6f8d147f5aa3710879a056d55e92f 9p: Avoid creating multiple slab caches with the same name
-1e613a91dc95f20f0931420dd973739a13ce22bf selftests/bpf: Verify that sync_linked_regs preserves subreg_def
-f17065fd75a2421ca543541728c3953306708d7c irqchip/ocelot: Fix trigger register address
-ee22806ac73a48c7bd81c33ef514711f831e92d8 nvme: tcp: avoid race between queue_lock lock and destroy
-93758976a9172593e91191ec73413a73913bd766 block: Fix elevator_get_default() checking for NULL q->tag_set
-fc2173a1dada754471e7a3f79d2438cefd4ac540 HID: multitouch: Add support for B2402FVA track point
-c0510c0fc5f78b280462553a648d000677fb47a7 HID: multitouch: Add quirk for HONOR MagicBook Art 14 touchpad
-dbc3dd7eb1faf451c98db697df550239401c55d7 iommu/arm-smmu: Clarify MMU-500 CPRE workaround
-375f80e0350661718b5609f4dc4cf53edcb7273d nvme: disable CC.CRIME (NVME_CC_CRIME)
-a7db50a3d127db97f9e0b39eb99fd0391f66ed01 bpf: use kvzmalloc to allocate BPF verifier environment
-f51be470c168879b48c512063debbcb3699c3143 crypto: api - Fix liveliness check in crypto_alg_tested
-dea5c6c3335a3207a49e8b1cd068607cea4074e3 crypto: marvell/cesa - Disable hash algorithms
-07c8c10fc60f1f41c2488c418a86ab2171293767 sound: Make CONFIG_SND depend on INDIRECT_IOMEM instead of UML
-5c1246ac913f15b16a122e51d8935a2db5f7b789 drm/vmwgfx: Limit display layout ioctl array size to VMWGFX_NUM_DISPLAY_UNITS
-952c74e43910ce1c59ec5a133d6f91c4c69e99ff RDMA/siw: Add sendpage_ok() check to disable MSG_SPLICE_PAGES
-5208a6f9183c6873ec9793dac6b7305b649fdc01 kasan: Disable Software Tag-Based KASAN with GCC
-c79c74562f9644ed850eb423b87a0f3c82953a55 nvme-multipath: defer partition scanning
-7bf6f515c482891bcab5378aaf3ff0a2a6ae9686 drm/amdkfd: Accounting pdd vram_usage for svm
-fbbd7a8ac712fc73a61924171f32900b5babe796 powerpc/powernv: Free name on error in opal_event_init()
-91b626d0347135cad59d1b2943a4a113f7a7fa74 net: phy: mdio-bcm-unimac: Add BCM6846 support
-f55eaa6b024dd39f5cfc55f62815e458a2f1b6d4 nvme-loop: flush off pending I/O while shutting down loop controller
-030cac40beab2ee4d7f5e91d00e2f283aea4bec3 nvme: make keep-alive synchronous operation
-5dd36eeb76b04333d72862a56200634af8b4cfe0 smb: client: Fix use-after-free of network namespace.
-eca08f8ba08d7e84718f636d4aef0c4b48b45065 nvme/host: Fix RCU list traversal to use SRCU primitive
-e89bab82bd2cc60a4720b029945b76510554fd85 vDPA/ifcvf: Fix pci_read_config_byte() return code handling
-fe1d049d97a55cabe8396dcaccb0d6542d10e68d bpf: Add sk_is_inet and IS_ICSK check in tls_sw_has_ctx_tx/rx
-1ba8b7ee3661dc39a36f2230f873e6639b68c6c5 bpf: Fix mismatched RCU unlock flavour in bpf_out_neigh_v6
-8163cac15fa1d59c536787efc50852f8aaf6779d ASoC: amd: yc: Add quirk for ASUS Vivobook S15 M3502RA
-fb4e6682eaa3050c09f8acc2fee78e1957b4521a ASoC: amd: yc: Fix non-functional mic on ASUS E1404FA
-d46829d60b0ee41cd8c9ffc58f036da71c1d6492 fs: Fix uninitialized value issue in from_kuid and from_kgid
-a15d5cb5cc3743cc60426d6a3d749c7b812f4370 HID: multitouch: Add quirk for Logitech Bolt receiver w/ Casa touchpad
-6870ddabcf2572c46155059c13cf6be6ef09f9e2 HID: lenovo: Add support for Thinkpad X1 Tablet Gen 3 keyboard
-d513afc9f96029f141aa87dfed2ef6ba6d468ce8 RISCV: KVM: use raw_spinlock for critical section in imsic
-1d5beb7bdd7730281f99451c306b089adff8af46 ASoC: rt722-sdca: increase clk_stop_timeout to fix clock stop issue
-163e7dfb4b09c2f8c9a17664fa3ea669af8b5d14 LoongArch: Use "Exception return address" to comment ERA
-7d6b941f6bc08f7cbd4aa2fa08da54dcf9e6c190 ASoC: fsl_micfil: Add sample rate constraint
-7624cd574a07c1b7b8bd33392f6f014d794d6c6d net: usb: qmi_wwan: add Fibocom FG132 0x0112 composition
-db5fea8d783ce813f54e20bc856a68dfce726641 bpf: Check validity of link->type in bpf_link_show_fdinfo()
-d772242eee5b130347e0ca48553b6cc1d7694ed3 io_uring: fix possible deadlock in io_register_iowq_max_workers()
-74eb0e71a8a1593625311830a278ff0aa0b366d9 mm: krealloc: Fix MTE false alarm in __do_krealloc
-9ed1d6c45d66030320b55dafc13ac66841a79273 mm: add page_rmappable_folio() wrapper
-a7af561ae4ef8fe965cc6ab3bee6f0c7cb27b2d6 mm/readahead: do not allow order-1 folio
-c4c1151420507aca5d9c8cf7819e6b587ebda27c mm: support order-1 folios in the page cache
-fdd5c2cec47b8e1b3741789fa31c8e6502ef1ed8 mm: always initialise folio->_deferred_list
-c792b3e080184518d0482f52676c95b69154c8d3 mm: refactor folio_undo_large_rmappable()
-92549392765756beddce308072434ac0610b5046 mm/thp: fix deferred split unqueue naming and locking
-1c9a9402d44187bf03f9b0c2a72130ab99444211 9p: fix slab cache name creation for real
-68a649492c1fa0ed80e347e707b68e57128fa3c7 Linux 6.6.62-rc1
+d66f34be32f3e35fe6890e69cbc12f02448e27cd arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+f4d15bfde19eb9f8511129022bc005cd6fd296df arm64: dts: rockchip: Remove hdmi's 2nd interrupt on rk3328
+a96cea88bca2444cf69feb29abe9f4ea8d6944af arm64: dts: rockchip: Fix bluetooth properties on Rock960 boards
+33b5824e0fc5a3feefac258319b54d12c11dda8e arm64: dts: rockchip: Remove #cooling-cells from fan on Theobroma lion
+8add275ca9bdfabc7f8ef23bb8420154ce37d679 ARM: dts: rockchip: fix rk3036 acodec node
+b480a76e5a089c4f53ec5a029ee9cbb8335cfa52 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+c144e692a6e51f559c64f0fb192ac4413074f348 ARM: dts: rockchip: Fix the spi controller on rk3036
+edceb7fa1b27033392e71569132290453b7f4888 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+a3d6c97c50462477abd35bf69777ef0abbe7b880 HID: core: zero-initialize the report buffer
+52fb64c0eef404ea8913d5ca486f2a499ecf01f6 security/keys: fix slab-out-of-bounds in key_task_permission
+c92dcd295dc3691e0374e99ca219e8bc3752fc63 enetc: simplify the return expression of enetc_vf_set_mac_addr()
+b2a460a6a76c7122354ec316ae2c1b86bed26bb8 net: enetc: set MAC address to the VF net_device
+1e7409b4f0ba7e959562ac8e4310984f7faa54ec sctp: properly validate chunk size in sctp_sf_ootb()
+c331f9be5cb1a40944c16f5b85990b7bdc8543a9 can: c_can: fix {rx,tx}_errors statistics
+499021d80f7e8d6faf31323717c3215399fb8bf1 net: hns3: fix kernel crash when uninstalling driver
+6c48d8a4b790db45e05c0b8b8845f1c8f29d3886 media: stb0899_algo: initialize cfr before using it
+04f5bcf9402e7d60bffe4f3e647b8624112af19e media: dvbdev: prevent the risk of out of memory access
+6d01884f596870d6f8963cecc498a35faca072db media: dvb_frontend: don't play tricks with underflow values
+e3ffa8f279446beb8098981c8d207faa2ee4ad7a media: adv7604: prevent underflow condition when reporting colorspace
+fee49f7a2e05c2311e435c5f38389e43d96e2f20 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+196258e437c1f86eaf6afff2fad7f6c97f5ea6e9 media: s5p-jpeg: prevent buffer overflows
+b9484be38af73a7d1c66c287788e4781c027be99 media: cx24116: prevent overflows on SNR calculus
+3c35ba6e1fa15900851915381522a212fe7823ca media: v4l2-tpg: prevent the risk of a division by zero
+26bea7fa709a20a04cbe046c883246a7cd78e7ee pwm: imx-tpm: Use correct MODULO value for EPWM mode
+fc6ae2cc7c81f5b97802b4e572bbd0f3f1940f22 drm/amdgpu: add missing size check in amdgpu_debugfs_gprwave_read()
+21e228262b9d6463402bf56407653bb40aab839d drm/amdgpu: prevent NULL pointer dereference if ATIF is not supported
+eb7a0a6f5b993838373c0cad4b416ae86e1cd9ee dm cache: correct the number of origin blocks to match the target length
+1e836474b279a6548eebfda499f935f9ce9f8cbc dm cache: fix out-of-bounds access to the dirty bitset when resizing
+41693cf6e3576fc77d2120c83ca271dd5b1da4d8 dm cache: optimize dirty bit checking with find_next_bit when resizing
+2c31138eac823f001db18729fdc1b5f654b7dcc5 dm cache: fix potential out-of-bounds access on the first resume
+99a0213ceab5ff4ee2c4cbc1db6a9f17d54a211c dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
+3f8587a559aa8c1a9e2f70b3cdd10ae6991c9e9b nfs: Fix KMSAN warning in decode_getfattr_attrs()
+3ac58fc012f0ed18566bdaa51d5f982e6518f018 btrfs: reinitialize delayed ref list after deleting it from the list
+b7eaaffcd96dbf231612494d366a2d693c93d69c mtd: rawnand: protect access to rawnand devices while in suspend
+fd7b4e860915a8d5b54042e0cb4fb62499579559 spi: Fix deadlock when adding SPI controllers on SPI buses
+14dab2cc6c4d1d63919192ae8d77edb65ea1bf4e spi: fix use-after-free of the add_lock mutex
+5fe01eece9dd95656b5d84043dce26e88637f835 net: bridge: xmit: make sure we have at least eth header len bytes
+72c04fdb20a2c0fe011867b534acb8d349333efb media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
+281ff1a54dd6c06da44c66b86b0a01bd330e46e7 fs/proc: fix compile warning about variable 'vmcore_mmap_ops'
+8d6c2565f56d0517e8b47239b90834bbdda466ed usb: musb: sunxi: Fix accessing an released usb phy
+2b15ae59a3a702abf5b34b8ad20af1974e989b56 USB: serial: io_edgeport: fix use after free in debug printk
+7f6233ef7bd18f1c3ba17f3265148612d41d92b5 USB: serial: qcserial: add support for Sierra Wireless EM86xx
+c0c887cb42e2a309b0f59abd9b0da3ac7e264523 USB: serial: option: add Fibocom FG132 0x0112 composition
+b4b9dcdc4d937baea26734b2031eb2e4294e6eef USB: serial: option: add Quectel RG650V
+68f40703e357cc71dfb145287937784d3612fc35 irqchip/gic-v3: Force propagation of the active state with a read-back
+44342db7510a7f13abe6dc04d712e32c7bd87ba9 ocfs2: remove entry once instead of null-ptr-dereference in ocfs2_xa_remove()
+c0ff40b277324697831cb7b3682d5302897a3bf4 ALSA: usb-audio: Support jack detection on Dell dock
+21ed66c5c0588c4725b913ce086f59e3dc6e10d4 ALSA: usb-audio: Add quirks for Dell WD19 dock
+5faaa3d16219501f0f7e314b4518426dba19d92e NFSD: Fix NFSv4's PUTPUBFH operation
+aeb42719de03848923818355b82b61b0b9b2d99f ftrace: Fix possible use-after-free issue in ftrace_location()
+a1724a416911f0097e6b7dc57e56d14c72781463 hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer
+537bcc43d62c1cb81ae0c6e0b1ba0d3ee5ee1f42 vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
+98ce0eca741fe80b8d84a439242a19e1dafe0491 ALSA: usb-audio: Add endianness annotations
+20e5d995af9014b1a26b9fb515305a42c2a3e004 9p: Avoid creating multiple slab caches with the same name
+1ec8296b22ac503f3e85d5e0126bff372cd978e1 HID: multitouch: Add quirk for HONOR MagicBook Art 14 touchpad
+26c9f0c6156abd3c5d5ce478e262296bcfe64349 bpf: use kvzmalloc to allocate BPF verifier environment
+9478de00700c0cfac267658b931602988dd5eb20 sound: Make CONFIG_SND depend on INDIRECT_IOMEM instead of UML
+3f80e03128439669ace6499bf30163c7b337af51 powerpc/powernv: Free name on error in opal_event_init()
+8b604f49c1ca4c47d4a81a6a00c5579c534c7cbc fs: Fix uninitialized value issue in from_kuid and from_kgid
+f9d58dd9d44265e944b1850139996ce233016620 net: usb: qmi_wwan: add Fibocom FG132 0x0112 composition
+54bbe2d0e65f4492362381eb3cb761728b28d333 md/raid10: improve code of mrdev in raid10_sync_request
+159a6516eb8b5880976e52dc945b77d99d2e1d74 mm: clarify a confusing comment for remap_pfn_range()
+ea751e2894208bd60f34cc983ea52eea773326b4 mm: fix ambiguous comments for better code readability
+af119b80d9c8dd2a4e21ec2cc58aef366696b741 mm/memory.c: make remap_pfn_range() reject unaligned addr
+7d30863a2eecc30d175b702c98a430c7ae0ca9aa mm: add remap_pfn_range_notrack
+c17d1ce72ef0d4dd0728aa657b3ae3fe47dd5dd4 9p: fix slab cache name creation for real
+0440d0f2cc217a9b6cbf1fe3238c619875b92c3b Linux 5.4.286-rc1
 
---===============1617015612495084856==--
+--===============7395159330202551887==--
