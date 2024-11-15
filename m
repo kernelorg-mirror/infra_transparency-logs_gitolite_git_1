@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4147480265549043795=="
+Content-Type: multipart/mixed; boundary="===============6325434525933582692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 15 Nov 2024 02:20:52 -0000
-Message-Id: <173163725292.1578333.16533813128083711615@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 02:22:33 -0000
+Message-Id: <173163735311.1579345.1795326770890792903@gitolite.kernel.org>
 
---===============4147480265549043795==
+--===============6325434525933582692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 8ddead83f9debaa070ea0211ed967a8e97d4c44a
-    new: c22a4daa6142a3071e1a1b475ce2e3480bb923bd
-    log: revlist-8ddead83f9de-c22a4daa6142.txt
+  - ref: refs/heads/tpm2_sign
+    old: 154cd60332a314f1504d0c2d60f3cbd673879308
+    new: 7c947975e78d995e7d0b64de55a46931677e7dc3
+    log: revlist-154cd60332a3-7c947975e78d.txt
 
---===============4147480265549043795==
+--===============6325434525933582692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ddead83f9de-c22a4daa6142.txt
+Content-Disposition: attachment; filename=revlist-154cd60332a3-7c947975e78d.txt
 
 6801cf7890f2ed8fcc14859b47501f8ee7a58ec7 selftests/bpf: Use -4095 as the bad address for bits iterator
 44d0469f79bd3d0b3433732877358df7dc6b17b1 bpf: Add sk_is_inet and IS_ICSK check in tls_sw_has_ctx_tx/rx
@@ -90,6 +90,8 @@ e707e366f35576a455678ad74c4835d1c62633c6 Merge tag 'for-net-2024-11-12' of git:/
 4b49c0ba4eeb31b44462303cac4162476b72c831 Merge tag 'mm-hotfixes-stable-2024-11-12-16-39' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c5f404511890d75c90e4ec06c54f06bd397d96f5 Merge tag 'loongarch-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 9f8e716d46c68112484a23d1742d9ec725e082fc Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+27184f8905ba680f22abf1707fbed24036a67119 tpm: Opt-in in disable PCR integrity protection
+423893fcbe7e9adc875bce4e55b9b25fc1424977 tpm: Disable TPM on tpm2_create_primary() failure
 4ba05b0e857d1f78f92084a15e618ea89a318089 Merge tag 'tpmdd-next-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0a9b9d17f3a781dea03baca01c835deaa07f7cc3 Merge tag 'pm-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e0266319413d5d687ba7b6df7ca99e4b9724a4f2 mptcp: update local address flags when setting it
@@ -114,5 +116,10 @@ db03dced790d4f8db6535afe63b4a60bbcaaa92c tpm: ibmvtpm: Set TPM_OPS_AUTO_STARTUP 
 0d06403ce9902036305e38405e7970b3969ae3b8 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
 2f4f07655d7ae11a8026a0e2a88f9218a4b5798a char: tpm: cr50: Add new device/vendor ID 0x50666666
 c22a4daa6142a3071e1a1b475ce2e3480bb923bd tpm: atmel: Drop PPC64 specific MMIO setup
+d989ecf6fd546e0b480d5e560ff630d707fccbac crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+ca5302fca207c6e6476997bef392a4daf6043546 KEYS: trusted: return -E2BIG instead of -EINVAL
+41f876fb1350d91f1982fed5988df242630180c0 crypto: tpm2_key: Introduce a TPM2 key type
+b4e0e73c529d4ee941faa3680760cc68cda6e621 KEYS: asymmetric: Add tpm2_key_rsa signer
+7c947975e78d995e7d0b64de55a46931677e7dc3 KEYS: asymmetric: Add tpm2_key_ecdsa signer
 
---===============4147480265549043795==--
+--===============6325434525933582692==--
