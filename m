@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Nov 2024 16:10:36 -0000
-Message-Id: <173168703643.2295365.13748226744391088989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Fri, 15 Nov 2024 16:12:39 -0000
+Message-Id: <173168715998.2296412.2711977956433835449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
   - ref: refs/heads/master
-    old: f01750aecdfb8bfb02842f60af3d805a3ae7267a
-    new: ab4dc30c5322fc46d0db938d1c0bdd56d7adcea1
+    old: 14de7661e74731ec900aa2744214503ae7f3ca7a
+    new: d70a0a7a794b35225295f77225941462c1d57254
     log: |
-         ab4dc30c5322fc46d0db938d1c0bdd56d7adcea1 bpf: Do not alloc arena on unsupported arches
+         5d1a8fdbe868adcdfbd8e7acccf1ffd947dce558 add listen backlog config for mcelog server
+         d70a0a7a794b35225295f77225941462c1d57254 Merge pull request #124 from meow-watermelon/add_listen_backlog_opt
          
