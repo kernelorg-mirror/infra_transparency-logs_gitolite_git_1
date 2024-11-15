@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Nov 2024 19:28:57 -0000
-Message-Id: <173169893717.2457917.12791156044619642830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 15 Nov 2024 19:29:21 -0000
+Message-Id: <173169896147.2458248.7974533002612999917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 96a30e469ca1d2b8cc7811b40911f8614b558241
-    new: fab974e6487475c2fca0a79918e8e75bd6bafffc
+  - ref: refs/heads/dev-test
+    old: 557de15f73b340275a060249c7aed24ff9b30c91
+    new: 2795294b4d617b6b7bdfa4b5bba7562a14381f51
     log: |
-         fab974e6487475c2fca0a79918e8e75bd6bafffc libbpf: Fix memory leak in bpf_program__attach_uprobe_multi
+         2795294b4d617b6b7bdfa4b5bba7562a14381f51 erofs: handle NONHEAD !delta[1] lclusters gracefully
          
