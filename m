@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Fri, 15 Nov 2024 23:38:40 -0000
-Message-Id: <173171392098.2663291.13481446222838527067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 15 Nov 2024 23:42:48 -0000
+Message-Id: <173171416820.2667265.10615082326165317325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/apparmor-next
-    old: 8c4f7960ae8a7a03a43f814e4af471b8e6ea3391
-    new: 1432b850e9f3e4269551ad20f17bae06a32c6ab5
+  - ref: refs/heads/main
+    old: 025b2bbc5ab1c9ccd50189cae028d1b2bf3d433e
+    new: 253239044808e0036f4e36b0347d161b893c4767
     log: |
-         973e9b1e8e762833cab25dea40649de4a01afe3a apparmor: fix 'Do simple duplicate message elimination'
-         db448fcb9f42d5f21a644f48bb0f41ec5d506d4a apparmor: document capability.c:profile_capable ad ptr not being NULL
-         3262d1f3a44db0d5ef64f8561a29a4c08d5fa03d apparmor: add a cache entry expiration time aging out capability audit cache
-         572b0240ab22c013de32b9ac74f1956760107eb8 apparmor: audit_cap dedup based on subj_cred instead of profile
-         9a7d70cd5b7eb42c24d43bae8b344c4425637c5e Docs: Update LSM/apparmor.rst
-         4ce19f6feaf3f600cf8f711eab11af9624c76629 apparmor: Remove unused parameter L1 in macro next_comb
-         2b8b30835a3916a38a2d806be307a7758252f614 parser: drop dead code for XXX_comb macros
-         e2d0dd4fbff23813298a839423ac99f47cc560de apparmor: replace misleading 'scrubbing environment' phrase in debug print
-         1432b850e9f3e4269551ad20f17bae06a32c6ab5 apparmor: lift new_profile declaration to remove C23 extension warning
+         b67609c9315397789a3c497e08779b00d8cf4621 enic: Create enic_wq/rq structures to bundle per wq/rq data
+         231646cb6a8cc4e94943daf223d72aefe242ec23 enic: Make MSI-X I/O interrupts come after the other required ones
+         5aee3324724a7a449a1f2bdaee209cfa80fa80b1 enic: Save resource counts we read from HW
+         a64e5492ca908bb4f8c286b5761507792a0e03cd enic: Allocate arrays in enic struct based on VIC config
+         cc94d6c4d40c070ca95db8e43e92c4ee1fff5009 enic: Adjust used MSI-X wq/rq/cq/interrupt resources in a more robust way
+         374f6c04df8e03c6f60eafbd1e02ac875017b85e enic: Move enic resource adjustments to separate function
+         a28ccf1d6c102c8d874e8d75d676a2f870b75fa9 enic: Move kdump check into enic_adjust_resources()
+         253239044808e0036f4e36b0347d161b893c4767 Merge branch 'enic-use-all-the-resources-configured-on-vic'
          
