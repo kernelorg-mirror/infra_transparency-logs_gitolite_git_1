@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 15 Nov 2024 07:58:54 -0000
-Message-Id: <173165753413.1894136.11145350147010444908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Fri, 15 Nov 2024 07:59:02 -0000
+Message-Id: <173165754229.1894319.1926455326786923945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/dev
-    old: 18288625aa64a499885046ae0c0befa180a35ee9
-    new: 557de15f73b340275a060249c7aed24ff9b30c91
-    log: |
-         557de15f73b340275a060249c7aed24ff9b30c91 erofs: clarify direct I/O support
-         
+  - ref: refs/tags/ovl-update-6.13
+    old: 0000000000000000000000000000000000000000
+    new: 648755dfb060b6dfa4d32f810d92db8281363fd9
