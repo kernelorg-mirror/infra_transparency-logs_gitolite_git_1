@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5120914195541302123=="
+Content-Type: multipart/mixed; boundary="===============4248437920621078257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Nov 2024 17:21:01 -0000
-Message-Id: <173169126184.2354744.12067355630427327371@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 17:21:04 -0000
+Message-Id: <173169126434.2354931.12769076745170932916@gitolite.kernel.org>
 
---===============5120914195541302123==
+--===============4248437920621078257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: 73af53d82076bbe184d9ece9e14b0dc8599e6055
     new: ea301aec8bb718b02b68761d2229fc12c9fefa29
     log: revlist-73af53d82076-ea301aec8bb7.txt
 
---===============5120914195541302123==
+--===============4248437920621078257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -291,4 +291,4 @@ cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.k
 378e8feea9a70d37a5dc1678b7ec27df21099fa5 net: phy: dp83869: fix status reporting for 1000base-x autonegotiation
 ea301aec8bb718b02b68761d2229fc12c9fefa29 i40e: Fix handling changed priv flags
 
---===============5120914195541302123==--
+--===============4248437920621078257==--
