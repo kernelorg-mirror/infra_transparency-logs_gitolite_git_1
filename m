@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5393998766981557215=="
+Content-Type: multipart/mixed; boundary="===============6187480898642898935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 15 Nov 2024 17:32:09 -0000
-Message-Id: <173169192920.2364930.10548242780223697414@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 17:32:21 -0000
+Message-Id: <173169194107.2365183.1110389869109341303@gitolite.kernel.org>
 
---===============5393998766981557215==
+--===============6187480898642898935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 31a1f8752f7df7e3d8122054fbef02a9a8bff38f
     new: dfc14664794a4706e0c2186a0c082386e6b14c4d
     log: revlist-31a1f8752f7d-dfc14664794a.txt
 
---===============5393998766981557215==
+--===============6187480898642898935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -529,4 +529,4 @@ e9e8abfec214b6a47f6c21d533c43c7f3c1f8887 selftest: validate RSS+ntuple filters w
 29a4bc1fe961caea52a5b945be2b4267b02002d7 selftest: extend test_rss_context_queue_reconfigure for action addition
 dfc14664794a4706e0c2186a0c082386e6b14c4d Merge branch 'net-make-rss-rxnfc-semantics-more-explicit'
 
---===============5393998766981557215==--
+--===============6187480898642898935==--
