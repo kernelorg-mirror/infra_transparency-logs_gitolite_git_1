@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8443091356818961709=="
+Content-Type: multipart/mixed; boundary="===============5239672699014360228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Nov 2024 06:36:59 -0000
-Message-Id: <173165261970.1829605.72194243333675727@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 06:37:02 -0000
+Message-Id: <173165262280.1829743.752213851137737771@gitolite.kernel.org>
 
---===============8443091356818961709==
+--===============5239672699014360228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,86 +16,99 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 0ea9d37f3de8c7e18c3b688528f0ebaecc8ecd3e
-    new: b9e54d0ed258a28241a31fd3e9830c7ec6dc7124
-    log: revlist-0ea9d37f3de8-b9e54d0ed258.txt
+  - ref: refs/heads/linux-4.19.y
+    old: fb43928478ca2f6a2d080e6b18f21caed64da279
+    new: 3b4d1c2cc31466d675bc2579661f90066a9c0404
+    log: revlist-fb43928478ca-3b4d1c2cc314.txt
 
---===============8443091356818961709==
+--===============5239672699014360228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731652646 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731652648 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1731652616-f839af9a10ad8c033ad5858d40cf6b8ef6bd0b27
+nonce 1731652618-14c316a1141dbdfdbfd806d49223b2b610911a2c
 
-0ea9d37f3de8c7e18c3b688528f0ebaecc8ecd3e b9e54d0ed258a28241a31fd3e9830c7ec6dc7124 refs/heads/linux-6.1.y
+fb43928478ca2f6a2d080e6b18f21caed64da279 3b4d1c2cc31466d675bc2579661f90066a9c0404 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc27CYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kq0P/1TUuUWD8xVk2IUS8Q3u
-eQBMpZ56xSIGnK5TPOww2Ny2wHLUXl8GmK/DxscaK8XoGlFcsqYZULRGRTyS3dqU
-xRLMp9lqvYuq2D9ZIngLyZEiztB5I1DG32a7LA7e34xBYBq/YQ+OGloi5c4ZO2y6
-MqdXo6hRlqEtrytnA/vWflz7sW+ek+MvSz8kpI69tBFQXpTks0isfMnyfsphwIVJ
-O/Wpxdbsb6M0mMzXBM9EnLWgJYsFMFVOwOsh0gmur5KsxCJVBgtthYvIBU4a74qh
-jECPnOvICsK8rpMOd8F9WjggADVqH28w7V5/sZI1VBNW+RpvloyJdk1L1bloLf+z
-R8h021VNyUMvs05y/pGq4Ss+SKWXYidKInp7bDB7DIRREr6kizHpPOlem5D615Gu
-FpfT2dr6xoDWa74yHCN+yCqaR4U+RGFmxtlNwvDwK9a/0hxKpK5WGSzhyP+A8+tm
-BCtxgs1+6pDI85yO9n+QO6XJgRJ18mLWaN0pzt9MwcMxkVs6p4U+kgT3P7T6YDFH
-u1UnZDTm8VdTQecU2V+qustwd2k8o0Ps31kAVNT+yIaY+QenBbmnHAJiwzB9esFi
-m8z+ap22ZrNIwJrNdiH4y4z7Tc9kNvN1C/61tgkjr8YdsJDMtCVn7Wh40xM0+DQ7
-QYWjICQN0mvy3pGfV7EqrO3K
-=u4GW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc27CgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VDYQAJyCnYLgKrmNCPoIpilD
+T7TOXonRiep+SnHCMiPv3ObGymm/Vlt+THOmpWLPdy21g4k+gEkeLIUKXRrSggZ8
+t17vpFvZ27U0KLD5D3UmOYMO5iC8xqunoAhFqKu5bkwh5dW7r58VRoQG3CpIZOjd
+Z/QpH+zLn4GL3dqecnDf10Pot8N07uksaU2B+0cqVBrjqXu8e9e6cXF1k4X/Zq4I
+vC70LVS9Gc0c/ElOX1f2XCoGyg+UtIGXwODPqH79ggoZ4fvKmbbC1XxitiPOeZtW
+jMe0DxjTWrl6MGCoqnSQRMPO5XaunL1cuNewYzoM0ftiHYFIoPx/kv1nia4fvLpe
+g2g2N99DJ4Y0RFEom+AZ8w/GWy4BHvjl79FkOfKA1akVwdMFiHvuokvlTQZeD0Vd
+vP4fWCy36uxwG9qzS418SyErQaELcxwp2/rm+aF30sjrwWyljlw27d0HriIZ4GfG
+peZRYazq12+cDuK/l5RnmdsZCtMhnavhK31vmMcNLXxEsqup23pmlpdukKgTHgE1
+liK6ryhcO6133DhN956I1/Jk7k8x7sjLWJn/9Ffa4jnYfdsGPTS7P//SNJKc6eXX
+PkHcAbRT1QsJQuJIytRlVbJOJO5iI845a3BmDHNsmJG72/RrZQfvvtGvhKKHTdMO
+rnKHCgYDdFRWo9gUTXF9GGNq
+=4JWY
 -----END PGP SIGNATURE-----
 
---===============8443091356818961709==
+--===============5239672699014360228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ea9d37f3de8-b9e54d0ed258.txt
+Content-Disposition: attachment; filename=revlist-fb43928478ca-3b4d1c2cc314.txt
 
-7350fea2b8e6ef8a3d64a613ab54e395c15bcba7 Revert "Bluetooth: fix use-after-free in accessing skb after sending it"
-e5e9b0580d37026aa7fb382b91d9e5e9d236d543 Revert "Bluetooth: hci_sync: Fix overwriting request callback"
-ca9a822d49791a609f985ef1f142d943fcaa473e Revert "Bluetooth: af_bluetooth: Fix deadlock"
-8456fd1dbdf9f24f69f6b76e9c60451f656cdf5e Revert "Bluetooth: hci_core: Fix possible buffer overflow"
-368239180f82a7cd9098a21b73b16a1531ffad65 Revert "Bluetooth: hci_conn: Consolidate code for aborting connections"
-850184552b6001fcf2baec272cccc30f726ee728 9p: Avoid creating multiple slab caches with the same name
-c3988ab8e7ec3c647b510cf81187160a1990d93a irqchip/ocelot: Fix trigger register address
-674f3f36c3547ca3b3861da664903a69d8b06d9f nvme: tcp: avoid race between queue_lock lock and destroy
-a5c2aa3136abfa0e8ebc336cf24115b1a622bd97 block: Fix elevator_get_default() checking for NULL q->tag_set
-83a23b016fa2d4e79c9fe304147934ea1419a998 HID: multitouch: Add support for B2402FVA track point
-962b1eac5927ee6d8c6a8715fb84f79cc21ebd44 HID: multitouch: Add quirk for HONOR MagicBook Art 14 touchpad
-f46c0db21761855158b03d3384dbba4a4c9ddca5 nvme: disable CC.CRIME (NVME_CC_CRIME)
-ff5be4007c54e4adcf6acbe15bcf4b1bcd7160af bpf: use kvzmalloc to allocate BPF verifier environment
-0b65155861439dde1a08764dc1fe1d0d7719668b crypto: api - Fix liveliness check in crypto_alg_tested
-52860ce53925fecf46b8a938dcfc475270a8d87d crypto: marvell/cesa - Disable hash algorithms
-6476488e93bd558a5029d6b0c404ca44b5760c8a sound: Make CONFIG_SND depend on INDIRECT_IOMEM instead of UML
-0c04b1852f49bbaba5933bd2c42c722076a3f403 drm/vmwgfx: Limit display layout ioctl array size to VMWGFX_NUM_DISPLAY_UNITS
-5c2dc7216e04d7e7cd3de3b8d3aa8d02118fc959 kasan: Disable Software Tag-Based KASAN with GCC
-5436af5ffa5251201079c5eb8b390f6d760b15ca nvme-multipath: defer partition scanning
-ec03894d510f1cb93b7d9c67db3f5f467924b989 powerpc/powernv: Free name on error in opal_event_init()
-22ba4c0414557326dd781e9dabfd84d20ba21252 nvme: make keep-alive synchronous operation
-99e65450ad6694f1141ac4c026f1090f5c878b1f vDPA/ifcvf: Fix pci_read_config_byte() return code handling
-efa709367fd807449579a399076489a17f18c1f2 bpf: Fix mismatched RCU unlock flavour in bpf_out_neigh_v6
-6ce50d66672ede2e7fc18db38d556bb65deb9fd2 fs: Fix uninitialized value issue in from_kuid and from_kgid
-2fc5bb0404677b49544ffe8363bc820a80fc73b8 HID: multitouch: Add quirk for Logitech Bolt receiver w/ Casa touchpad
-bd6e6a56cfd4fee56a4a43728095841199d1ab8f HID: lenovo: Add support for Thinkpad X1 Tablet Gen 3 keyboard
-eaea6d128ce893f61f09a335a4d1d31c147667bc LoongArch: Use "Exception return address" to comment ERA
-d7b986d28064a7144a18b4cf21e94e9ab5e14172 net: usb: qmi_wwan: add Fibocom FG132 0x0112 composition
-a3e87426cb6d1eac035a2e89c5916903fff1f457 md/raid10: improve code of mrdev in raid10_sync_request
-293846a92744c8c9da5131554b20f9a621043bec io_uring: fix possible deadlock in io_register_iowq_max_workers()
-b7f523929db851c9a7003abdbaa8830a8c5ef509 uprobes: encapsulate preparation of uprobe args buffer
-1467f4453d4cf1e2fd64dd0d35dce3986f6a38c2 uprobe: avoid out-of-bounds memory access of fetching args
-7c77c6f1201a76d3f22c5dc0f4e75dce3c52404b drm/amdkfd: amdkfd_free_gtt_mem clear the correct pointer
-3669b96c91cc79e0452a4717375dffeacea9c3d9 ext4: fix timer use-after-free on failed mount
-0f0d38436c0469c8f35e21b010a5cacb7d976109 Bluetooth: L2CAP: Fix uaf in l2cap_connect
-cececb50bd414fa40c7e9659037d7271daa793fa mm: krealloc: Fix MTE false alarm in __do_krealloc
-a9083c4946491742e3268e63e32a158cb341624a platform/x86: x86-android-tablets: Fix use after free on platform_device_register() errors
-7289ea73560b2bed78ad45b8de379a3a30bc2b7a fs/ntfs3: Fix general protection fault in run_is_mapped_full
-855ff3c2ded4170633d3322335da963f7a68c9f7 9p: fix slab cache name creation for real
-b9e54d0ed258a28241a31fd3e9830c7ec6dc7124 Linux 6.1.118-rc1
+8109c16c6f8c811e20fa3a2c6cba70ea4912fce9 arm64: dts: rockchip: Fix rt5651 compatible value on rk3399-sapphire-excavator
+f5cbbd92e62377cf7bb0f841804695b58d193a01 ARM: dts: rockchip: fix rk3036 acodec node
+12e4bf88d44eeed9d3acebce7a31cbde607a82a0 ARM: dts: rockchip: drop grf reference from rk3036 hdmi
+12de2a4f531249bc56c9a151d382f8d324d2ea37 ARM: dts: rockchip: Fix the realtek audio codec on rk3036-kylin
+bae9359a8fb3b9359d6bb56b6e8eb27bcac339a8 HID: core: zero-initialize the report buffer
+93be46fe53c53dd53a683bef1ed43e91f56cd929 security/keys: fix slab-out-of-bounds in key_task_permission
+329a7eda478c6b146d96fc2b7d8a49f44ecf7137 sctp: properly validate chunk size in sctp_sf_ootb()
+5ed9628f1ad36331ce5326d081a4e836b648973b can: c_can: fix {rx,tx}_errors statistics
+abd6a6eca055b5ec0155c37cda83436de045b458 net: hns3: fix kernel crash when uninstalling driver
+e91641b52ed3b94472a24cc2b66a176a01d8fa63 media: stb0899_algo: initialize cfr before using it
+f043a0d5d32161f2f70a426e96a20e4fe4e18972 media: dvbdev: prevent the risk of out of memory access
+93b1e9e50b851ea88647046bf3db9c33d3bada5e media: dvb_frontend: don't play tricks with underflow values
+7fdeebced5a3c8649491493efda62330dab3994a media: adv7604: prevent underflow condition when reporting colorspace
+1bdb859cb0c5214806e039eb0e0b992499d0ee28 ALSA: firewire-lib: fix return value on fail in amdtp_tscm_init()
+7b834b1e4c2db37bd18d4fc8d1caba8dea6f64ba media: s5p-jpeg: prevent buffer overflows
+da2d5b018cc06cd5a6e36623d07dafef46048dc1 media: cx24116: prevent overflows on SNR calculus
+54a355461d56951103d31079487c91696ea01077 media: v4l2-tpg: prevent the risk of a division by zero
+93daf70da4cf5dc38818c3ec9904591b614c7ce8 drm/amdgpu: add missing size check in amdgpu_debugfs_gprwave_read()
+e197ef92528854f889c7dad3f0f1351d42c253a3 drm/amdgpu: prevent NULL pointer dereference if ATIF is not supported
+446cab54d037cf8538504c8ba8ad237069fd2e23 dm cache: correct the number of origin blocks to match the target length
+45fa0d9fc656618218c7a894a3843aa9839bdb78 dm cache: fix out-of-bounds access to the dirty bitset when resizing
+7b6ee788efde0fadfbe6ad0781d5100e9a326573 dm cache: optimize dirty bit checking with find_next_bit when resizing
+967a2d57f1d754291535903f189d3070ddf5b22a dm cache: fix potential out-of-bounds access on the first resume
+4a3cc02dc7d90c0bdd9fa2732093f533a5a28f19 dm-unstriped: cast an operand to sector_t to prevent potential uint32_t overflow
+b13ddfa1167f20a85a27983c1337b6f481644f6f nfs: Fix KMSAN warning in decode_getfattr_attrs()
+bf99b4885c1d5e6075d1edf7db8d73e4d4b302c9 btrfs: reinitialize delayed ref list after deleting it from the list
+98e2eb58bf88e7cea1017401d9cb417fddec2240 bonding (gcc13): synchronize bond_{a,t}lb_xmit() types
+8183a39943b2040952fec7a5f1326508f32fa74c net: bridge: xmit: make sure we have at least eth header len bytes
+fc39fd9609fecc952b959b6de5217f565ef29f76 media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
+5e1a53c2ce9164c257b565d2b48ba5ce0dd44ecb fs/proc: fix compile warning about variable 'vmcore_mmap_ops'
+d9bcd85d61ed64b189544f113df04943306fc5e3 usb: musb: sunxi: Fix accessing an released usb phy
+a35f3be0cbe1d5573266fe15b399d8b6ffee6561 USB: serial: io_edgeport: fix use after free in debug printk
+5313a45acd2aaeefca46b1e1fd984a2bcce55688 USB: serial: qcserial: add support for Sierra Wireless EM86xx
+d51d96b2e50eed04210f06a5df830304e7ba35e0 USB: serial: option: add Fibocom FG132 0x0112 composition
+80f67ca744e608428edb1f007c3ed715a6ab10dc USB: serial: option: add Quectel RG650V
+baa9cd8833525d850623d54c8d2f046b29334f93 irqchip/gic-v3: Force propagation of the active state with a read-back
+080ee50c653f644bbca5e739c549a68e3322a54d ocfs2: remove entry once instead of null-ptr-dereference in ocfs2_xa_remove()
+3992dc77509f3a4c0060335eb38272dbe2df84a9 ALSA: pcm: Return 0 when size < start_threshold in capture
+b95d25ebb67fbb935b8a1527c712814930282522 ALSA: usb-audio: Add custom mixer status quirks for RME CC devices
+9ef0efc9fd29f08d80edb207a867438c818810b1 ALSA: usb-audio: Support jack detection on Dell dock
+b52388b0958e9cf7f428855c8a244f65c614de7c ALSA: usb-audio: Add quirks for Dell WD19 dock
+8ec9d74b095521edda6b3a27810d7bf0bdf3c76c hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer
+647791e1c7b3c4d9cef4d9482e2d7b9d6c560df3 vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
+5b61c612bc3d8c4808eb4c402e0f989e88a08010 ALSA: usb-audio: Add endianness annotations
+82e915b7ae2e2fd547f53da641b6346466c70f98 9p: Avoid creating multiple slab caches with the same name
+1ef6a4729e457b77d151a93340b1fc6322a7c1f4 HID: multitouch: Add quirk for HONOR MagicBook Art 14 touchpad
+5e11889b9cf34c920b140731c7af7320f969bbf9 bpf: use kvzmalloc to allocate BPF verifier environment
+438333a86adb4ba2ca6b75c42965dd2d02969ff2 sound: Make CONFIG_SND depend on INDIRECT_IOMEM instead of UML
+dba83f0c4954446b62d3deafbe121f7a42717147 powerpc/powernv: Free name on error in opal_event_init()
+6c1e1498a61940763d1a5dc0dd493d61055dc845 fs: Fix uninitialized value issue in from_kuid and from_kgid
+6b05a5f4065b6c5da9499e6b84a11d137fa8cceb net: usb: qmi_wwan: add Fibocom FG132 0x0112 composition
+207c33ae77c7ce2d6c4695054137d6404b773855 9p: fix slab cache name creation for real
+3b4d1c2cc31466d675bc2579661f90066a9c0404 Linux 4.19.324-rc1
 
---===============8443091356818961709==--
+--===============5239672699014360228==--
