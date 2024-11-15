@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8546484799471183345=="
+Content-Type: multipart/mixed; boundary="===============4064222141564520001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Nov 2024 21:17:20 -0000
-Message-Id: <173170544017.2547044.11467143633160942520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Nov 2024 21:17:25 -0000
+Message-Id: <173170544593.2547205.2109740828010764208@gitolite.kernel.org>
 
---===============8546484799471183345==
+--===============4064222141564520001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 9a5a75bf1f485e2d109303a996d147b94c5e79c9
     new: 82ff5abc2edcfba0c0f1a1be807795e2876f46e9
     log: |
          82ff5abc2edcfba0c0f1a1be807795e2876f46e9 ASoC: hdmi-codec: reorder channel allocation list
          
 
---===============8546484799471183345==
+--===============4064222141564520001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1731705467 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1731705438-137b38027764dad18dcdf9cf2724316786081fb7
+pusher Mark Brown <broonie@kernel.org> 1731705472 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1731705443-b4653ac25f29c391d38466e4e7395d61adf08c26
 
-9a5a75bf1f485e2d109303a996d147b94c5e79c9 82ff5abc2edcfba0c0f1a1be807795e2876f46e9 refs/heads/for-6.13
+9a5a75bf1f485e2d109303a996d147b94c5e79c9 82ff5abc2edcfba0c0f1a1be807795e2876f46e9 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmc3unsTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GctB/4+7mgK9cc4paUvkyUOVaAyA+p9PeXi
-BkHygyYX1f9klrOU6145XL70FjALKJeJLoqlhwXcPorWrsYZwYA9MW8PJpY0k93P
-0H7PA2jKufsKrDal8UhztllyqypdqfyopVCQ7wxJqMw3sZzrj7EXpg75QQXdAP34
-MkWkyXc523LAN19Srmcq1HG729dqpmWxW9Hl3ApMiBbJtGgFRlhxx1cAIp/aZpRH
-hwQ/d/r3rV3ClBikm54iTzrQOMbIAmPrRKDkoyY86NQYzOQsO8gIS4VAYs+yqqhh
-FKj1kWV/bz6R34alzjnJrdlZrN2SHPbVxXc7XAIufZcm/gcLo3dZ4dzG
-=1z3o
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmc3uoATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0G9ZB/0XqmpwhZ1PMT4/rskAQyXKks/oxoXS
+rbimAsil17CdWWtKUAPFHz0XxNY3SlG1hl+8HYcDUoNyDzw/BzyT7rsvWAFQ46hr
+9+OUTih6yN8Y7+zrCBYqfr3c0hTBXBgnxyMRyx5l4mBn01Ov9AbtTSQGfJ0YK3j1
+7MlQki1FKbJmjCCNWn6O3z1WOPfn927TmmhoGFXPpcgSzIBbqBELoxzEJ8v6gNQU
+fUcwP3RIcBDSVDXWVVbluBALCST4U9k7GdBtKBybFbxT+flilq/GAJt47H1MzN20
+5RxGnh1AdIJFxL+ueooOkeeRkl74iiEnASBPEb38bRrV5xGTu1XOakC4
+=t42P
 -----END PGP SIGNATURE-----
 
---===============8546484799471183345==--
+--===============4064222141564520001==--
