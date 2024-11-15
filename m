@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6546910187549834029=="
+Content-Type: multipart/mixed; boundary="===============4196947773680809174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 15 Nov 2024 15:03:07 -0000
-Message-Id: <173168298775.2239099.15305046206391935690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 15 Nov 2024 15:03:09 -0000
+Message-Id: <173168298945.2239174.14726216321792333194@gitolite.kernel.org>
 
---===============6546910187549834029==
+--===============4196947773680809174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: cfaaa7d010d1fc58f9717fcc8591201e741d2d49
     log: revlist-2d5404caa8c7-cfaaa7d010d1.txt
 
---===============6546910187549834029==
+--===============4196947773680809174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -152,4 +152,4 @@ ca34aceb322bfcd6ab498884f1805ee12f983259 net: sched: u32: Add test case for syst
 4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
 cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6546910187549834029==--
+--===============4196947773680809174==--
