@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1567760119122338340=="
+Content-Type: multipart/mixed; boundary="===============8561578577647216974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Nov 2024 17:13:01 -0000
-Message-Id: <173169078154.2347328.9415597410772981152@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 17:20:39 -0000
+Message-Id: <173169123917.2354214.13612049186968651768@gitolite.kernel.org>
 
---===============1567760119122338340==
+--===============8561578577647216974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 182ff3dabe8f127049c09660346cad492bcc0ceb
-    new: 6ef5f61a4aa7d4df94a855a44f996bff08b0be83
-    log: revlist-182ff3dabe8f-6ef5f61a4aa7.txt
+  - ref: refs/heads/1GbE
+    old: 73af53d82076bbe184d9ece9e14b0dc8599e6055
+    new: ea301aec8bb718b02b68761d2229fc12c9fefa29
+    log: revlist-73af53d82076-ea301aec8bb7.txt
 
---===============1567760119122338340==
+--===============8561578577647216974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-182ff3dabe8f-6ef5f61a4aa7.txt
+Content-Disposition: attachment; filename=revlist-73af53d82076-ea301aec8bb7.txt
 
 f903663a8dcd6e1656e52856afbf706cc14cbe6d clk: qcom: videocc-sm8350: use HW_CTRL_TRIGGER for vcodec GDSCs
 923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
@@ -290,20 +290,5 @@ ca34aceb322bfcd6ab498884f1805ee12f983259 net: sched: u32: Add test case for syst
 cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 378e8feea9a70d37a5dc1678b7ec27df21099fa5 net: phy: dp83869: fix status reporting for 1000base-x autonegotiation
 ea301aec8bb718b02b68761d2229fc12c9fefa29 i40e: Fix handling changed priv flags
-18884fd8ba591f7b1369050234e185c90dcb8e45 iavf: allow changing VLAN state without calling PF
-ad7b5daf60e380477f871ef061d9ddcafa87a7ea idpf: set completion tag for "empty" bufs associated with a packet
-e5681ee99dd43add49e87292c3e39b5fab4f8f64 ice: fix PHY Clock Recovery availability check
-7c98d44f62153b9b9442094e9938096f350ff8c4 igb: Fix potential invalid memory access in igb_init_module()
-95e5bc439aed0d559269778642467b99aaa12843 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
-6e5b835e0e63609bfd9ddf373aa25269175311ae ixgbe: downgrade logging of unsupported VF API version to debug
-5eaffa47fdd279f3830ef9c79cf28839f9ea9ae4 ice: Fix E825 initialization
-c032cc6e3ba2c970de9a9c7353136cf9d9915db2 ice: Fix quad registers read on E825
-98e9aaab9c75cdae3c865e7aaea8b765c913fe44 ice: Fix ETH56G FC-FEC Rx offset value
-32c341b74c64a37afafd3d541c23ba5680478b25 ice: Add correct PHY lane assignment
-add0cf549d00bc8a900fca2dc52ad69b1813a3a3 ice: Fix VLAN pruning in switchdev mode
-d19c026a9abbb6b91701bafccb85d2414d4daec0 idpf: Change function argument
-23418a6878593b4d2ba2ba8b8c7d73d784ca9099 idpf: rename vport_ctrl_lock
-78171062ddd439f7357ed867035f18cdb2b51221 idpf: Add init, reinit, and deinit control lock
-6ef5f61a4aa7d4df94a855a44f996bff08b0be83 idpf: add lock class key
 
---===============1567760119122338340==--
+--===============8561578577647216974==--
