@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 15 Nov 2024 20:42:20 -0000
-Message-Id: <173170334090.2517547.14738981792635897618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 15 Nov 2024 20:43:52 -0000
+Message-Id: <173170343246.2518329.18129095938234453679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/thermal
-    old: c285b11e289dbe8973735ab8dc84210bde417673
-    new: 0104dcdaad3a7afd141e79a5fb817a92ada910ac
+  - ref: refs/heads/ring-buffer/fixes
+    old: 580bb355bcae7e9a6606ce9644af09b2a793f1bb
+    new: 09663753bb7c50b33f8e5fa562c20ce275b88237
     log: |
-         9782dd101f343d7f1cad824dc26ad355341e1f3b thermal: testing: Simplify tt_get_tt_zone()
-         1c426fd09ca85fb77f120f7933e39eb9df99a39a thermal: testing: Use DEFINE_FREE() and __free() to simplify code
-         0104dcdaad3a7afd141e79a5fb817a92ada910ac thermal: testing: Initialize some variables annoteded with _free()
+         09663753bb7c50b33f8e5fa562c20ce275b88237 tracing/ring-buffer: Clear all memory mapped CPU ring buffers on first recording
          
-  - ref: refs/tags/thermal-6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 32771d05156a6979db75507a1b4183c1a9386b58
