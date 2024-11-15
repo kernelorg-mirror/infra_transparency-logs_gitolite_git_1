@@ -1,117 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1365917606688616083=="
+Content-Type: multipart/mixed; boundary="===============1216936223199493191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 15 Nov 2024 02:18:55 -0000
-Message-Id: <173163713592.1575229.15753217147146753529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 15 Nov 2024 02:20:37 -0000
+Message-Id: <173163723784.1578038.15517658412096706989@gitolite.kernel.org>
 
---===============1365917606688616083==
+--===============1216936223199493191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: 6c873366a511e2ff2789490c3f59c637f5cbfd6c
-    new: 1413968bfcf365c51527813267cd82d8a5aa5b3b
-    log: revlist-6c873366a511-1413968bfcf3.txt
+  - ref: refs/heads/master
+    old: 8ddead83f9debaa070ea0211ed967a8e97d4c44a
+    new: c22a4daa6142a3071e1a1b475ce2e3480bb923bd
+    log: revlist-8ddead83f9de-c22a4daa6142.txt
 
---===============1365917606688616083==
+--===============1216936223199493191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c873366a511-1413968bfcf3.txt
+Content-Disposition: attachment; filename=revlist-8ddead83f9de-c22a4daa6142.txt
 
-923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
-699ae6241920b0fa837fa57e61f7d5b0e2e65b58 evm: stop avoidably reading i_writecount in evm_file_release
-08ae3e5f5fc8edb9bd0c7ef9696ff29ef18b26ef integrity: Use static_assert() to check struct sizes
-9803787a23c57328cd70c393a661266c396d12fb landlock: Improve documentation of previous limitations
-dad2f20715163e80aab284fb092efc8c18bf97c7 landlock: Fix grammar issues in documentation
-387285530d1d4bdba8c5dff5aeabd8d71638173f samples/landlock: Fix port parsing in sandboxer
-f51e55a0892bd2030c847d4583c12498bb93f812 samples/landlock: Refactor help message
-53b9d789df983790015ef04b0283ac5a33917cad samples/landlock: Clarify option parsing behaviour
-2d0f2a648147d6bbf0655e03500586a6712a7281 KVM: selftests: memslot_perf_test: increase guest sync timeout
-945bdae20be5a13f1fcdcb14ec356dcbeee35839 KVM: selftests: fix unintentional noop test in guest_memfd_test.c
-5b188cc4866aaf712e896f92ac42c7802135e507 KVM: selftests: Disable strict aliasing
-979956bc681105f34642971448c4cda048954a07 KVM: selftests: Don't force -march=x86-64-v2 if it's unsupported
-2657b82a78f18528bef56dc1b017158490970873 KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
-e5d253c60e9627a22940e00a05a6115d722f07ed KVM: SVM: Propagate error from snp_guest_req_init() to userspace
-f7d1b585e1533e26801c13569b96b84b2ad2d3c1 sched_ext: Add a missing newline at the end of an error message
-a759bf0dfc4db3cb6556fc79c7c98da3a46b2b80 sched_ext: Update scx_show_state.py to match scx_ops_bypass_depth's new type
 6801cf7890f2ed8fcc14859b47501f8ee7a58ec7 selftests/bpf: Use -4095 as the bad address for bits iterator
-6ca575374dd9a507cdd16dfa0e78c2e9e20bd05f vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
-0b364cf53b20204e92bac7c6ebd1ee7d3ec62931 vdpa: solidrun: Fix UB bug with devres
-03a942f793ca33653f3fa4bdb377f5d2376e74f6 Fix typo in vringh_test.c
-7f8825b2a78ac392d3fbb3a2e65e56d9e39d75e9 vDPA/ifcvf: Fix pci_read_config_byte() return code handling
-97ee04feb682c906a1fa973ebe586fe91567d165 virtio_pci: Fix admin vq cleanup by using correct info pointer
-4e39ecadf1d2a08187139619f1f314b64ba7d947 vp_vdpa: fix id_table array not null terminated error
 44d0469f79bd3d0b3433732877358df7dc6b17b1 bpf: Add sk_is_inet and IS_ICSK check in tls_sw_has_ctx_tx/rx
 1904fb9ebf911441f90a68e96b22aa73e4410505 netlink: terminate outstanding dump on socket close
 55d42a0c3f9ccd07c199e0ddbe1ba87572d30074 selftests: net: add a test for closing a netlink socket ith dump in progress
-83e445e64f48bdae3f25013e788fcf592f142576 vdpa/mlx5: Fix error path during device add
 ca43f73cd1720e3b0b9c49deec1a13c89c0ca1e8 bcachefs: bch2_btree_write_buffer_flush_going_ro()
 27a036a0c3e7046f508143af96a54f657c3584b8 bcachefs: Fix bch_member.btree_bitmap_shift validation
 f8f1dde6868139f2294786365c56d7ff5cc3f4e7 bcachefs: Fix missing validation for bch_backpointer.level
-9893deb08b0f08b114458fe4966b049786fb876f Merge tag 'kvm-x86-fixes-6.12-rcN' of https://github.com/kvm-x86/linux into HEAD
-10299cdde869abab7a42fb5ab905a47a4e2cd24e KVM: selftests: use X86_MEMTYPE_WB instead of VMX_BASIC_MEM_TYPE_WB
-e3a7792d96765ff435f3000e94619fcef2f6bfec kvm: svm: Fix gctx page leak on invalid inputs
-d3ddef46f22e8c3124e0df1f325bc6a18dadff39 KVM: x86: Unconditionally set irr_pending when updating APICv state
-aa0d42cacf093a6fcca872edc954f6f812926a17 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
 dc537189b5cf09e61839491fc6a465c5659d7dbd bcachefs: Fix validate_bset() repair path
 bcf77a05fb3d6210026483703bcacb22ed961c99 bcachefs: Fix hidden btree errors when reading roots
 fb86c42a2a5d44e849ddfbc98b8d2f4f40d36ee3 bpf: Fix mismatched RCU unlock flavour in bpf_out_neigh_v6
 eb72e7fcc83987d5d5595b43222f23b295d5de7f sctp: fix possible UAF in sctp_v6_available()
-0c0effb07f7d662af3e6f74da4d34241e412029b landlock: Refactor filesystem access mask management
-8376226e5f53e78cd16a2b23577304e43acb3ba4 landlock: Refactor network access mask management
-03197e40a22c2641a1f9d1744418cd29f4954b83 landlock: Optimize scope enforcement
-a6250aa251eacaf3ebfcfe152a96a727fd483ecd sched_ext: Handle cases where pick_task_scx() is called without preceding balance_scx()
 e68da664d379f352d41d7955712c44e0a738e4ab net: vertexcom: mse102x: Fix tx_bytes calculation
 252e01e68241d33bfe0ed1fc333220d9bd8b06df selftests: net: add netlink-dumps to .gitignore
-a7e03f96791e098ebde43acce6b04283f10815db hwmon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-de0da6ae1908b43b23782d64b4564b5ca3119f7f hwmon: (ina2xx) Add support for has_alerts configuration flag
-70fb84a109c639637f0636281dbdb21ed8ffb000 hwmon: (ina2xx) Add support for INA260
-ff140456b5fbf03cbd04277c21d4fcdc5974e97b hwmon: (pmbus/mpq8785) Convert comma to semicolon
-247a80fde14edc84feb8bae707e60a55993ee636 dt-bindings: hwmon: add support for ti,amc6821
-8f38236de689afe1ebba6ff25676f0631818ef37 hwmon: (amc6821) add support for tsd,mule
-edeed7b6666cd02bd7e370b47573d95bc9b0f51c hwmon: (max31827) Fix spelling errors reported by codespell
-79bc0af904db647979c735563299c9b0d820e432 hwmon: Add static visibility member to struct hwmon_ops
-7506ebcd662b868780774d191a7c024c18c557a8 hwmon: (max6639) : Configure based on DT property
-5deb42295db7296e9c47f0647cc1eadcd2b4fb49 hwmon: (i5500_temp) Simplify specifying static visibility attribute
-041e20ee60409de444e71981ad6941393fb5d7a3 hwmon: (surface_fan) Simplify specifying static visibility attribute
-10963cef5f510a847939d50c455263618cfe8a70 hwmon: (sl28cpld) Simplify specifying static visibility attribute
-9df39924c47a95a688762616cb3183610985ab9c hwmon: (gsc) Simplify specifying static visibility attribute
-1d92c936ca18d60638e1a8807d3e3d492c35d65a hwmon: (powerz) Simplify specifying static visibility attribute
-39a8cf342bc2ad656b4bad536f930e2aa8562151 hwmon: (raspberrypi) Simplify specifying static visibility attribute
-182137ecfb37509127fc94b1edb2e2b5dc6fccf1 hwmon: (intel-m10-bmc) Simplify specifying static visibility attribute
-83cca55a63344f0d43102badc0e77e715180153f hwmon: (nzxt-kraken2) Simplify specifying static visibility attribute
-0eed6fc3d2b9eef8074dc799176e0c1e78a3cc3f hwmon: (sht4x): add heater support
-6126f7bb6075d0af577e55bf7e2cbbcc272f520b hwmon: Switch back to struct platform_driver::remove()
-f3bfd13c4a45ab8874d4cf855abf57d0b9f29279 dt-bindings: hwmon: add renesas,isl28022
-39671a14df4f26e091730d3b8fd3bb900005b83c hwmon: (isl28022) new driver for ISL28022 power monitor
-ccae49e5cf6ebda1a7fa5d2ca99500987c7420c4 hwmon: (nct6775) Add 665-ACE/600M-CL to ASUS WMI monitoring list
-547a5c453cd386f39d5e8cf4d299defafe8bc8f0 MAINTAINERS: Remove Aleksandr Mezin as NZXT-SMART2 driver maintainer
-c9fb2552fd23ad748743ba5209b0cd4ca583b62d dt-bindings: hwmon: pmbus: Add bindings for MPS MP297x
-c20a783b67e75e549e6d45d8791f7bb8b8d97e32 dt-bindings: hwmon: pmbus: Add bindings for Vicor pli1209bc
-15cae9c0b9c0e78b78da7a08ff8ab0ea15294f57 dt-bindings: hwmon: Add NCT7363Y documentation
-46b94c485ed197bc681da242440c6e2315697c57 hwmon: Add driver for I2C chip Nuvoton NCT7363Y
-8b882f6ff00536a7324fc89dafdaa3c9573967ca dt-bindings: hwmon: ltc2978: add support for ltc7841
-baf88c49a2b1cb0ca0d060486441b8ce876ec079 hwmon: (pmbus/ltc7841) add support for LTC7841 - docs
-9c1716bc519c11615898c587b2e30398d083ddee hwmon: (pmbus/ltc2978) add support for ltc7841
-0196d07f0e3ba3f5639ea5a74f59af8c990b95f0 dt-bindings: Add SY24655 to ina2xx devicetree bindings
-52172ad87a22ed6e687ca678da21d3c949bc89a1 hwmon: (ina226) Add support for SY24655
-544177f20be2eebc7dd2a55feaf186ac68acc22d hwmon: (pmbus) add documentation for existing flags
 0b6ec0c5ac6c9e80a6157cbc5631802c81a674d7 bcachefs: Fix assertion pop in topology repair
 2642084f26b5a5e9353fa530efb30f49e752185d bcachefs: Allow for unknown key types in backpointers fsck
 e7ac4daeed91a25382091e73818ea0cddb1afd5e mm: count zeromap read and set for swapout and swapin
 1a1030d10a6335bb5e6cdb24fc9388d3d9bcc1ac cpufreq: intel_pstate: Rearrange locking in hybrid_init_cpu_capacity_scaling()
-42964e4b5e3ac95090bdd23ed7da2a941ccd902c dm-bufio: fix warnings about duplicate slab caches
-346dbf1b1345476a6524512892cceb931bee3039 dm-cache: fix warnings about duplicate slab caches
-0ccd733ac99edc473aaee90c8f6adc346d82befb Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-3022e9d00ebec31ed435ae0844e3f235dba998a9 Merge tag 'sched_ext-for-6.12-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 073d89808c065ac4c672c0a613a71b27a80691cb net: fix data-races around sk->sk_forward_alloc
 66edc3a5894c74f8887c8af23b97593a0dd0df4d mm: page_alloc: move mlocked flag clearance into free_pages_prepare()
 cd45e963e44b0f10d90b9e6c0e8b4f47f3c92471 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
@@ -149,24 +80,6 @@ d5359a7f583ab9b7706915213b54deac065bcb81 Bluetooth: btintel: Direct exception ev
 94efde1d15399f5c88e576923db9bcd422d217f2 mm/gup: avoid an unnecessary allocation call for FOLL_LONGTERM cases
 a3477c9e02cc9d62a7c8bfc4e7453f5af9a175aa mm/thp: fix deferred split queue not partially_mapped: fix
 fae1980347bfd23325099b69db6638b94149a94c selftests: hugetlb_dio: fixup check for initial conditions to skip in the start
-92dda329e337b7ab9cb63f4563dd7a21d001e47c Merge tag 'landlock-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-93db202ce00c07ca78121478b26dc77a6a72bce3 Merge tag 'integrity-v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-5456ec9dab3a918ccfc0dc82677d38a74fab4212 Merge tag 'for-6.12/dm-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-14b6320953a3f856a3f93bf9a0e423395baa593d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-7a750b3986b7910711a5525dde0c84b541e72746 hwmon: (pmbus/core) allow drivers to override WRITE_PROTECT
-509c3a362675bc995771df74d545548f98e37621 hwmon: (pmbus/core) clear faults after setting smbalert mask
-2fc032ec1de485c64d8561dc7fa0de3f7acf147d dt-bindings: hwmon: pmbus: add ti tps25990 support
-2e5bdf8aa2f49d06200fb6e645673c819135b614 hwmon: (f71882fg) Fix grammar in fan speed trip points explanation
-c412d7af010154ce9273dbc0296ae9327a605256 hwmon: (jc42) Drop of_match_ptr() protection
-1f22c0725705d2100b0a63dd77130c30d90fd6ad hwmon: (sch5627, max31827) Fix typos in driver documentation
-4585580781d69d8627e15f027873e46282ea3787 dt-bindings: hwmon: ti,tmp108: Add nxp,p3t1085 compatible string
-11d35624d7696a64724160199fc94587010d7cb2 hwmon: (tmp108) Add NXP p3t1085 support
-80bc64201e78f18248343c8986a55fe342a19e17 dt-bindings: hwmon: pwm-fan: Document start from stopped state properties
-255ab27a0743865e625d7a6c385d6d10d38eafd5 hwmon: (pwm-fan) Introduce start from stopped state handling
-57ee12b6c514146c19b6a159013b48727a012960 hwmon: (nct6775-core) Fix overflows seen when writing limit attributes
-fabb1f813ec05975fd3428e72a62ef9f855fd3b4 hwmon: (acpi_power_meter) Fix fail to load module on platform without _PMD method
-700f3250198d51093884254220a96777a922dd47 hwmon: (tmp108) Add helper function tmp108_common_probe() to prepare I3C support
-c40655e3310649866c4ebf7a10f0d53802ebdfa9 hwmon: (tmp108) Add support for I3C device
 29ce8b8a4fa74e841342c8b8f8941848a3c6f29f vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
 dcf32ea7ecede94796fb30231b3969d7c838374c mm: swapfile: fix cluster reclaim work crash on rotational devices
 f1b785f4c7870c42330b35522c2514e39a1e28e7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
@@ -174,15 +87,9 @@ e707e366f35576a455678ad74c4835d1c62633c6 Merge tag 'for-net-2024-11-12' of git:/
 50d325bb05cef24a2105e40e7cace5e2b237236d Revert "igb: Disable threaded IRQ for igb_msix_other"
 2b99b2532593b5a4c7dc6bff2486e98d211a8596 MAINTAINERS: Re-add cancelled Renesas driver sections
 73af53d82076bbe184d9ece9e14b0dc8599e6055 net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
-c1fff92d808bb41064b783a072dee834bcc29f33 hwmon: (cros_ec) register thermal sensors to thermal framework
 4b49c0ba4eeb31b44462303cac4162476b72c831 Merge tag 'mm-hotfixes-stable-2024-11-12-16-39' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c5f404511890d75c90e4ec06c54f06bd397d96f5 Merge tag 'loongarch-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 9f8e716d46c68112484a23d1742d9ec725e082fc Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-27184f8905ba680f22abf1707fbed24036a67119 tpm: Opt-in in disable PCR integrity protection
-423893fcbe7e9adc875bce4e55b9b25fc1424977 tpm: Disable TPM on tpm2_create_primary() failure
-83b645ee43f796dc765cc541d5cafa6fe2b1f3fa hwmon: tmp108: fix I3C dependency
-71d689f60b51113a9a6de343bde35d9375c22c57 dt-bindings: hwmon: isl68137: add bindings to support voltage dividers
-3996187f80a0e24bff1959609065d49041cf648d hwmon: (pmbus/isl68137) add support for voltage divider on Vout
 4ba05b0e857d1f78f92084a15e618ea89a318089 Merge tag 'tpmdd-next-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0a9b9d17f3a781dea03baca01c835deaa07f7cc3 Merge tag 'pm-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e0266319413d5d687ba7b6df7ca99e4b9724a4f2 mptcp: update local address flags when setting it
@@ -202,37 +109,10 @@ f8d670b1ae90cb1c5a18a4698c264e96dedc762c Merge branch 'bonding-fix-ns-targets-no
 ca34aceb322bfcd6ab498884f1805ee12f983259 net: sched: u32: Add test case for systematic hnode IDR leaks
 4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
 cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-3dc8fcd0bf85962a75d971e284a3b45511919e3c i2c: Dummy functions for i2c_register_driver and i2c_del_driver
-1301b9468ced3f8af8880616af9fced5281444c6 spi: Dummy functions for __spi_register_driver and spi_unregister_driver
-a063e82f11cbd6857eca0d0dd34df8f0e0d7ed18 Add infrastructure for supporting both I2C and SPI in single driver
-a0d124e0ef1c2bdbf26155aa6a410fd550ca4af2 hwmon: (ltc2947) Combine I2C and SPI drivers into one driver
-d3720fc7615c6448fd1fde517b69b1f18d31ece2 dt-bindings: hwmon: isl68137: add bindings to support voltage dividers
-e0154273cb82fe16732e06a0dc4b1428c11ffb2d hwmon: (spd5118) Split into core and i2c specific code
-ae3cf5cb86b512426a8ca27c1653d460ebb76d24 hwmon: (spd5118-core) Add support for 16-bit addressing
-ec641feaf269ee67e4d8bb545b9158420ed85250 hwmon: (spd5118) Add I3C support
-a5d6c056f86b32a51c14392c06716f666067141c hwmon: (spd5118-i2c) Detect and support 16-bit register addressing
-6e5b76f7056413d60e4216b873e547f0076c2c9e hwmon: (g762) Simplify clock initialization
-2ca8e0ee7cdca4c845eccaa0b3134626a07a1804 hwmon: (g762) Drop platform data support
-f899e0b386506bb118db8a1a6d8eae94510f5016 hwmon: (g762) Reorder include files to be in alphabetic order
-b4055554e1ef07a424434de3788567c5ea5b93f4 hwmon: (g762) Use bit operations
-54ca952f7d176f58f4639d1102d820b47af5ac2e hwmon: (g762) Make chip configuration devicetree independent
-5a010d72ed54545b3fd6bd849bddf0ec664d4dd1 hwmon: (g762) Convert to use regmap
-0d14fbaa8ee02a051261095b71fcd059cb42989c hwmon: (g762) Convert to with_info API
-f4e31f2079bfd35f5e1004d4d45ea839ce098da7 hwmon: (emc2103) Reorder include files to alphabetic order
-9f61bcc73745126c3040748e21c130a9f43c0b61 hwmon: (emc2103) Basic regmap conversion
-69edf455baedcd63f2588b1d3605fad762e6ded4 hwmon: (emc2103) Convert to use with_info API, and use regmap for caching
-dc6f3272ef7926b021255561e9fc841132e225bc hwmon: (emc2103) Support for additional fan and pwm attributes
-2112e5b5f7c8921fdf3a3beca017a207474fff53 hwmon: (emc2103) Add support for additional temperature attributes
-b070a24a9e67beeadee11d2755f030169b83ab06 hwmon: (emc2103) Rework diode fault detection
-dc9367c58f3cd59c8c78f9d9f805a968981fa353 hwmon: (max16065) Reorder include files to alphabetic order
-db6826b8b87bca3f5ca622adf88bd196659baf45 hwmon: (max16065) Use bit operations
-d5a51c152fe6b2a03a4a45d22e5b8a2bafbc67cc hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
-65edbf3f7dbb9d950f681c44a781b6902a7e4865 Merge branch 'hwmon-next' into hwmon-staging
-669102943d2c066d24b997e6ff12803b1bce4c4b Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-ba02a3baad1bd3ad49d4e54d2f5f446360e7f927 Merge branch 'hwmon-g762' into hwmon-staging
-8f3a087efb08d96a962d6892b3efa850b746bfed Merge branch 'hwmon-emc2103' into hwmon-staging
-67e0df409a440067f91d91e1835f4cf5a566a990 Merge branch 'hwmon-i2c-spi-merge' into hwmon-staging
-13281dbeeb0252777ed4cc1c29cec4530456e5f7 Merge branch 'hwmon-max16065' into hwmon-staging
-1413968bfcf365c51527813267cd82d8a5aa5b3b Merge branch 'hwmon-staging' into testing
+db03dced790d4f8db6535afe63b4a60bbcaaa92c tpm: ibmvtpm: Set TPM_OPS_AUTO_STARTUP flag on driver
+8ef00b5968658567e1f621c2805c3c8608519cee char: tpm: cr50: Use generic request/relinquish locality ops
+0d06403ce9902036305e38405e7970b3969ae3b8 char: tpm: cr50: Move i2c locking to request/relinquish locality ops
+2f4f07655d7ae11a8026a0e2a88f9218a4b5798a char: tpm: cr50: Add new device/vendor ID 0x50666666
+c22a4daa6142a3071e1a1b475ce2e3480bb923bd tpm: atmel: Drop PPC64 specific MMIO setup
 
---===============1365917606688616083==--
+--===============1216936223199493191==--
