@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7808260038778157724=="
+Content-Type: multipart/mixed; boundary="===============1365917606688616083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 15 Nov 2024 02:18:20 -0000
-Message-Id: <173163710073.1574701.364898376973389846@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 02:18:55 -0000
+Message-Id: <173163713592.1575229.15753217147146753529@gitolite.kernel.org>
 
---===============7808260038778157724==
+--===============1365917606688616083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: a84d5a4a3de032a97be09d4803757dec27ecb26b
-    new: 1d9291b1b80002f92c7be63b2814ad8341dbdb38
-    log: revlist-a84d5a4a3de0-1d9291b1b800.txt
+  - ref: refs/heads/testing
+    old: 6c873366a511e2ff2789490c3f59c637f5cbfd6c
+    new: 1413968bfcf365c51527813267cd82d8a5aa5b3b
+    log: revlist-6c873366a511-1413968bfcf3.txt
 
---===============7808260038778157724==
+--===============1365917606688616083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a84d5a4a3de0-1d9291b1b800.txt
+Content-Disposition: attachment; filename=revlist-6c873366a511-1413968bfcf3.txt
 
 923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
 699ae6241920b0fa837fa57e61f7d5b0e2e65b58 evm: stop avoidably reading i_writecount in evm_file_release
@@ -227,11 +227,12 @@ b070a24a9e67beeadee11d2755f030169b83ab06 hwmon: (emc2103) Rework diode fault det
 dc9367c58f3cd59c8c78f9d9f805a968981fa353 hwmon: (max16065) Reorder include files to alphabetic order
 db6826b8b87bca3f5ca622adf88bd196659baf45 hwmon: (max16065) Use bit operations
 d5a51c152fe6b2a03a4a45d22e5b8a2bafbc67cc hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
-cb873b5b9431baca60b76d78d52ab1f20ea18d6c Merge branch 'hwmon-next' into hwmon-staging
-762a72b577f75eb0f19c1b81ec8aa35d75b3c04f Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-88663fbd838c57b56facb1c671db3b7661bcbc34 Merge branch 'hwmon-g762' into hwmon-staging
-0bf3ecbe41d8d6afd9e149e2206aee1b2c1910f8 Merge branch 'hwmon-emc2103' into hwmon-staging
-c815a2d1f0ba57fc54147437be5eac0e229187b8 Merge branch 'hwmon-i2c-spi-merge' into hwmon-staging
-1d9291b1b80002f92c7be63b2814ad8341dbdb38 Merge branch 'hwmon-max16065' into hwmon-staging
+65edbf3f7dbb9d950f681c44a781b6902a7e4865 Merge branch 'hwmon-next' into hwmon-staging
+669102943d2c066d24b997e6ff12803b1bce4c4b Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+ba02a3baad1bd3ad49d4e54d2f5f446360e7f927 Merge branch 'hwmon-g762' into hwmon-staging
+8f3a087efb08d96a962d6892b3efa850b746bfed Merge branch 'hwmon-emc2103' into hwmon-staging
+67e0df409a440067f91d91e1835f4cf5a566a990 Merge branch 'hwmon-i2c-spi-merge' into hwmon-staging
+13281dbeeb0252777ed4cc1c29cec4530456e5f7 Merge branch 'hwmon-max16065' into hwmon-staging
+1413968bfcf365c51527813267cd82d8a5aa5b3b Merge branch 'hwmon-staging' into testing
 
---===============7808260038778157724==--
+--===============1365917606688616083==--
