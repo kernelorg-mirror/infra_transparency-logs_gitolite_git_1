@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 15 Nov 2024 19:29:21 -0000
-Message-Id: <173169896147.2458248.7974533002612999917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Fri, 15 Nov 2024 19:43:30 -0000
+Message-Id: <173169981048.2469436.12659931381462377057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/dev-test
-    old: 557de15f73b340275a060249c7aed24ff9b30c91
-    new: 2795294b4d617b6b7bdfa4b5bba7562a14381f51
+  - ref: refs/heads/next
+    old: dfe5a6cc42043d8a9433aea6d2e49887b72bf3ed
+    new: f74dacb4c81164d7578a11d5f8b660ad87059e6a
     log: |
-         2795294b4d617b6b7bdfa4b5bba7562a14381f51 erofs: handle NONHEAD !delta[1] lclusters gracefully
+         f74dacb4c81164d7578a11d5f8b660ad87059e6a dlm: fix recovery of middle conversions
          
