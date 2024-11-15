@@ -1,26 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Nov 2024 18:30:58 -0000
-Message-Id: <173169545802.2412899.3350940148585932678@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4106757694022556465=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 15 Nov 2024 18:36:49 -0000
+Message-Id: <173169580943.2417362.4090593889810303222@gitolite.kernel.org>
+
+--===============4106757694022556465==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: e2be7c15e5ea879f9958b6c5fea840ee3366e906
-    new: 66df48a78c786b7a81627bb02cfe1aa91974a55d
+  - ref: refs/heads/driver-core-testing
+    old: 369a9c046c2fdfe037f05b43b84c386bdbccc103
+    new: 5943c0dc7912210be1ab2732e0b663c1082ab543
     log: |
-         b795379757eb054925fbb6783559c86f01c1a614 bpf: Introduce range_tree data structure and use it in bpf arena
-         e58358afa84e8e271a296459d35d1715c7572013 selftests/bpf: Add a test for arena range tree algorithm
-         379d5ee624eda6a897d9e1f7f88c68ea482bd5fa Merge branch 'bpf-range_tree-for-bpf-arena'
-         f01750aecdfb8bfb02842f60af3d805a3ae7267a selftests/bpf: Set test path for token/obj_priv_implicit_token_envvar
-         ab4dc30c5322fc46d0db938d1c0bdd56d7adcea1 bpf: Do not alloc arena on unsupported arches
-         4ff04abf9d5bc33d33c7a799887517619188b068 bpf: Add necessary migrate_disable to range_tree.
-         96a30e469ca1d2b8cc7811b40911f8614b558241 bpf: use common instruction history across all states
-         66df48a78c786b7a81627bb02cfe1aa91974a55d Merge branch 'bpf-next/master' into for-next
+         906c508afdca3487c4273bfeda8abedc8e21047b sysfs: attribute_group: allow registration of const bin_attribute
+         5943c0dc7912210be1ab2732e0b663c1082ab543 driver core: Constify bin_attribute definitions
          
+
+--===============4106757694022556465==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731695815 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1731695807-f61362aaf6d27e6160ace7dffee4ddcdc60186ed
+
+369a9c046c2fdfe037f05b43b84c386bdbccc103 5943c0dc7912210be1ab2732e0b663c1082ab543 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc3lMcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3gkQAMlKfeC64PERGaqu18ZG
+i63yEjnNqW40vJTYj5ToeRUllxCEanTxXxYWZKvXPUtAp9LBefNC6b8ko8wv6fPs
+5EBRyuFSMuW4NjpYzVZD+r20AqEXipPqse2fY183ivmZEE7CfdeVxMj2zI+bqxfm
+ItLI+CDkZSaYrQpZJ3y8WNIsH8lhTmDNTH38cCLHNAI466G6mbG3TIXFopbbNwuu
+g+ecAQ6wrYcZVLHOScT5JQXhov17ConKHfm9KZ1bCxMBKf9UmmOjfC0dLrmgbk3c
+4QBD1BvzzSBrWisP6RvasJHeCGau9/8mjgmH2ZSFDDBs+uRxJrK0/0xOTPMn+ftF
+fvOzlzRHXtFuRrlMn2mPr+5sL+JY3R/TDfKFPa42CrDlA9+w7WprLwFcEJW6aZkL
+TnF4PGtczxVjPSaC1sb0VogUZSCBeF+5P+q9hR7U/8yc32kmMWBLlgE2pGHY2Rb6
+B63p7E8xwm/IcPB1CrzTuyQsaB9lVobd1H8Ca1ty1evXVdD8tmHR5nj8++Uf7udB
+UFX1XkzQ6wovXQmwgWUPjVnq7pejZ9r7YL4imKiVvXs4SXP3tZ/fC1uWjGcang1Y
+ZkvFtucXA4/KJOWCg9YMYBRfRR/dYhz4V66mzNow6jfb8sNQMlvzmjtJf8csMAhV
+aNqa+Mn/nH4dNHILZ5KvRTmV
+=xCzQ
+-----END PGP SIGNATURE-----
+
+--===============4106757694022556465==--
