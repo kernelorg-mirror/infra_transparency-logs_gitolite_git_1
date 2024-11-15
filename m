@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8297708909138833840=="
+Content-Type: multipart/mixed; boundary="===============0234734903257353619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Nov 2024 10:58:20 -0000
-Message-Id: <173166830010.2043161.3691315106883892475@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 10:58:53 -0000
+Message-Id: <173166833339.2043642.17728522262853158779@gitolite.kernel.org>
 
---===============8297708909138833840==
+--===============0234734903257353619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 389a44f6642eb578add093a0f3dc3716d3c7a7f1
-    new: 6a1be85ba0d9dfd997f05949b556e7962663fbf1
-    log: revlist-389a44f6642e-6a1be85ba0d9.txt
+    old: 6a1be85ba0d9dfd997f05949b556e7962663fbf1
+    new: da7a2b18d89589e866401a0a170b16b82d928992
+    log: revlist-6a1be85ba0d9-da7a2b18d895.txt
+  - ref: refs/heads/tip/urgent
+    old: a2512b55bfb1b25107cf32a44f2f4b76b7f74465
+    new: f54f6a96bf88836f37010cc908234444efc31c10
+    log: revlist-a2512b55bfb1-f54f6a96bf88.txt
 
---===============8297708909138833840==
+--===============0234734903257353619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-389a44f6642e-6a1be85ba0d9.txt
+Content-Disposition: attachment; filename=revlist-6a1be85ba0d9-da7a2b18d895.txt
+
+f54f6a96bf88836f37010cc908234444efc31c10 Merge branch into tip/master: 'x86/urgent'
+e1f8a608ad7841b77dcd3d703a1bab3e8c0b4b09 Merge branch into tip/master: 'core/merge'
+47a740abe91bf243aec055f84c9cacc4c18a0663 Merge branch into tip/master: 'core/debugobjects'
+ba0494665654d4abf0088b7f7d7323b6835e9c1f Merge branch into tip/master: 'irq/core'
+fc35fff635f52892a2a6f55f9ab6a766f2d9adcf Merge branch into tip/master: 'locking/core'
+7e3a5cd7798e6739101fe71bfd2ca8e9db37e3e3 Merge branch into tip/master: 'objtool/core'
+10a164f161a00d2cecde7aaf7984d51b98563355 Merge branch into tip/master: 'perf/core'
+b5cb61c076f009fe4924315f103d2895d8a02553 Merge branch into tip/master: 'ras/core'
+d24ca7d2725b610b368b06636481674c469cb9c9 Merge branch into tip/master: 'sched/core'
+d0582976ac6e963257dcae879f3296f68f937e99 Merge branch into tip/master: 'timers/core'
+fd2cd224e594625f66583aaafd5295aa9c9cbf5b Merge branch into tip/master: 'timers/vdso'
+0ee70f3d499862cf92544a70fa3c04875f80ce27 Merge branch into tip/master: 'x86/cache'
+708d9cc31d589b3914dc7e97bf6d67a1fafde79e Merge branch into tip/master: 'x86/cleanups'
+343a3ad184459faa4e0e3b6d1e893612a6990963 Merge branch into tip/master: 'x86/cpu'
+0034781038396cbb27c218c797004c905e26a151 Merge branch into tip/master: 'x86/microcode'
+09542eba7e7dec4540cf4e378edf39e6f5b9e204 Merge branch into tip/master: 'x86/misc'
+25b36375cfe66979795d1ae92917281aab84d57e Merge branch into tip/master: 'x86/mm'
+359ad24fa45bf724bed0bd40b7e98dc8127c9ff0 Merge branch into tip/master: 'x86/platform'
+a93d6c6e4d746bd33811afb739ea8fb0cab01231 Merge branch into tip/master: 'x86/sev'
+b85f6723a7a411001eb9e82f92071a44cf1a635a Merge branch into tip/master: 'x86/sgx'
+da7a2b18d89589e866401a0a170b16b82d928992 Merge branch into tip/master: 'x86/tdx'
+
+--===============0234734903257353619==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a2512b55bfb1-f54f6a96bf88.txt
 
 1904fb9ebf911441f90a68e96b22aa73e4410505 netlink: terminate outstanding dump on socket close
 55d42a0c3f9ccd07c199e0ddbe1ba87572d30074 selftests: net: add a test for closing a netlink socket ith dump in progress
@@ -81,6 +113,6 @@ f8d670b1ae90cb1c5a18a4698c264e96dedc762c Merge branch 'bonding-fix-ns-targets-no
 ca34aceb322bfcd6ab498884f1805ee12f983259 net: sched: u32: Add test case for systematic hnode IDR leaks
 4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
 cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-6a1be85ba0d9dfd997f05949b556e7962663fbf1 Merge branch 'linus'
+f54f6a96bf88836f37010cc908234444efc31c10 Merge branch into tip/master: 'x86/urgent'
 
---===============8297708909138833840==--
+--===============0234734903257353619==--
