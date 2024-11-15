@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2454132915708220413=="
+Content-Type: multipart/mixed; boundary="===============9114636016747575794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 15 Nov 2024 21:35:52 -0000
-Message-Id: <173170655299.2562935.14525545399249839149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 15 Nov 2024 21:35:56 -0000
+Message-Id: <173170655644.2563090.17436143895818924032@gitolite.kernel.org>
 
---===============2454132915708220413==
+--===============9114636016747575794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e8bdb3c8be08c9a3edc0a373c0aa8729355a0705
     log: revlist-0a9b9d17f3a7-e8bdb3c8be08.txt
 
---===============2454132915708220413==
+--===============9114636016747575794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -146,4 +146,4 @@ f5395732841802fcfd04fa7faa9a6cf2d4a8a714 Merge tag 'for-linus' of git://git.kern
 f868cd2517763c66783c6000b29d97f0b966b311 Merge tag 'drm-fixes-2024-11-16' of https://gitlab.freedesktop.org/drm/kernel
 e8bdb3c8be08c9a3edc0a373c0aa8729355a0705 Merge tag 'riscv-for-linus-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============2454132915708220413==--
+--===============9114636016747575794==--
