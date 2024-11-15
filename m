@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3126024194859103632=="
+Content-Type: multipart/mixed; boundary="===============5822395093758911958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 15 Nov 2024 05:19:59 -0000
-Message-Id: <173164799940.1762967.8200865527718360337@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 05:21:13 -0000
+Message-Id: <173164807397.1764990.13634964874357523929@gitolite.kernel.org>
 
---===============3126024194859103632==
+--===============5822395093758911958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,45 @@ repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
   - ref: refs/heads/crc32-lib
-    old: f7806c4224aa895c50ab865f7d8e36b9ff715088
-    new: 14d25a3e9d49311639c509500a9e330c8b2acbd9
-    log: revlist-f7806c4224aa-14d25a3e9d49.txt
+    old: 14d25a3e9d49311639c509500a9e330c8b2acbd9
+    new: e72350f3249859cb5a99b3cfc7c578c2bb102f44
+    log: revlist-14d25a3e9d49-e72350f32498.txt
 
---===============3126024194859103632==
+--===============5822395093758911958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7806c4224aa-14d25a3e9d49.txt
+Content-Disposition: attachment; filename=revlist-14d25a3e9d49-e72350f32498.txt
 
-2930074615900145bfcf7b2b99f474bce80254ff arm/crc32: expose CRC32 functions through lib
-d42c9c71961eda71618b2ca847e715dab67d8767 loongarch/crc32: expose CRC32 functions through lib
-5a92be68d7044727a0d729f637e89717b5b0cdc5 mips/crc32: expose CRC32 functions through lib
-10389b3facf5ca1c71cf4f03de3c0c91e73c3ce8 powerpc/crc32: expose CRC32 functions through lib
-64a6b8336f36b91995a4e3e2c4fa914e880adff2 s390/crc32: expose CRC32 functions through lib
-4a8895bee41cab409593f797bef13c06a131ece2 sparc/crc32: expose CRC32 functions through lib
-43e149431f70b7d541be14851be32f4b55b55517 x86/crc32: update prototype for crc_pcl()
-8c043fa5b5790ce9ba9927c9bcf85b782b690fc6 x86/crc32: update prototype for crc32_pclmul_le_16()
-e21e3622a6cdaf5073db7db82da4fbef5ce3f645 x86/crc32: expose CRC32 functions through lib
-199292e8ba5b4bf398a42b02c1fadce5d5a833ac lib/crc32: make crc32c() go directly to lib
-6a147817f0b352b7965832267f397f75cb2e379f ext4: switch to using the crc32c library
-a9af5e59b8c192ba1724d5ef9a1ce4d6ce18d762 jbd2: switch to using the crc32c library
-abb75203c096207cd4de7257d898dd61ed89a5f7 f2fs: switch to using the crc32 library
-ad0fd6c4d55d8a3e999dbdbb446ecce6008c0308 scsi: target: iscsi: switch to using the crc32c library
-a552e74d7916beecf4a030000a5cdbe93ae83f1f dm-crypt: switch to using the crc32 library
-88bc02bfb2a6aeca957f1e7cc666db2f1f711f7e RDMA/rxe: handle ICRC correctly on big endian systems
-56fb932c73af145b6a2d25854bf9604327ca616a RDMA/rxe: consolidate code for calculating ICRC of packets
-f734f078badd1176a9d00f44150e727d97dbd861 RDMA/rxe: switch to using the crc32 library
-b3d1eed99d5a4879270ba3c3347381a9792e91f6 RDMA/irdma: switch to using the crc32c library
-940937ad343dfa67ca666dfa1f86fd17eb344f5d RDMA/siw: fix type of CRC field
-fbdef869d2f8050b3387220096e2efa4f6e2844e RDMA/siw: switch to using the crc32c library
-a75563033b89998dbc0ea64fefa86ff19152efc2 scsi: iscsi_tcp: switch to using the crc32c library
-f4e83cece220727b93ca42baf988a8916e0c838d net: export __skb_datagram_iter()
-d86bb367694e6d4fe99576a69e4c708a4486fb84 nvme-tcp: switch to using the crc32c library
-ef52f362fe4bf04c369482b2ba42e1767b6a3716 net: remove skb_copy_and_hash_datagram_iter()
-14d25a3e9d49311639c509500a9e330c8b2acbd9 nvmet-tcp: switch to using the crc32c library
+1cde64bba48899d3bafd19266330c92795fd4c7e lib/crc32: drop leading underscores from __crc32c_le_base
+f6a2b464dc954f5d11e995c1a37e45705b25a35c lib/crc32: improve support for arch-specific overrides
+76dc0e952e2f1ce403501e9f18099d9cd4314fe0 lib/crc32: expose whether the lib is really optimized at runtime
+f141d903bc7607d6e624955f835390a1873ab55b crypto: crc32 - don't unnecessarily register arch algorithms
+3211942ee6a7e153047f481c307b65e815f70f84 arm/crc32: expose CRC32 functions through lib
+41eb39affbb353aa5be5aef5ae9d239b265dfb9d loongarch/crc32: expose CRC32 functions through lib
+8956ec934b9652a7a8b6ba9e3d1c35b1033bdae0 mips/crc32: expose CRC32 functions through lib
+0f283c0d9c2e490b509f1e6d455daea1a815c28d powerpc/crc32: expose CRC32 functions through lib
+8cba3199dd32f3537fd464a0912340776e5be654 s390/crc32: expose CRC32 functions through lib
+c375a19a9a4ef1d704c88a109b69d90b03698db0 sparc/crc32: expose CRC32 functions through lib
+cd37d441086cb8452df744ea9aa2063f0261f837 x86/crc32: update prototype for crc_pcl()
+037bc1d6fdad61945b1af2a9041a3c2dce710eba x86/crc32: update prototype for crc32_pclmul_le_16()
+ce8ca29cb3a22018a66661b26344932f4dd777db x86/crc32: expose CRC32 functions through lib
+87e81623d9d564abd016dc3e89ed6c94ed55503f lib/crc32: make crc32c() go directly to lib
+69142a1e7895145922a571346723012c6ed50d51 ext4: switch to using the crc32c library
+bb9ea6ca36d64d81a8ad3eb0e636680e9b3cef4b jbd2: switch to using the crc32c library
+00205103fe033984fa1014890308f7b10f0da892 f2fs: switch to using the crc32 library
+7958e2ea0a558570351bc0dd0255ca3f6243fef2 scsi: target: iscsi: switch to using the crc32c library
+28faeda98622d9b6590ae20d38b9256525664add dm-crypt: switch to using the crc32 library
+86abbb595eb50ac25101d05a4783262708a63096 RDMA/rxe: handle ICRC correctly on big endian systems
+8d35e868888bd2212a697a859eb4dbc7852ab7fd RDMA/rxe: consolidate code for calculating ICRC of packets
+3e70f737d1939fdc1a4345dfec9c257315c900e0 RDMA/rxe: switch to using the crc32 library
+94a44e0b1abe7343f60f7b752bcef656fefedb56 RDMA/irdma: switch to using the crc32c library
+8a804b8aedb08923b3ab3a6e6df48357b723deea RDMA/siw: fix type of CRC field
+db1c574ee784c4a03d6650a570a3d1dd1d0d9a02 RDMA/siw: switch to using the crc32c library
+429942c5dbc55229f7498b19efff7358c78909d6 scsi: iscsi_tcp: switch to using the crc32c library
+6327146c96b37d3d5b4a62e289118639b8db1624 net: export __skb_datagram_iter()
+7f6dfc69f6b43568c1e2a99e458bbdd7df8c524f nvme-tcp: switch to using the crc32c library
+8fd8f70742c5b9696d7e331603038e7c0a00ec0b net: remove skb_copy_and_hash_datagram_iter()
+e72350f3249859cb5a99b3cfc7c578c2bb102f44 nvmet-tcp: switch to using the crc32c library
 
---===============3126024194859103632==--
+--===============5822395093758911958==--
