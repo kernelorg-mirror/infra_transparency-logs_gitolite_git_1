@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6246112420880382885=="
+Content-Type: multipart/mixed; boundary="===============8374963989246555252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Nov 2024 17:20:41 -0000
-Message-Id: <173169124174.2354318.17627138784146153845@gitolite.kernel.org>
+Date: Fri, 15 Nov 2024 17:20:59 -0000
+Message-Id: <173169125926.2354667.12941826763022248961@gitolite.kernel.org>
 
---===============6246112420880382885==
+--===============8374963989246555252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 73af53d82076bbe184d9ece9e14b0dc8599e6055
+  - ref: refs/heads/40GbE
+    old: e7b9f2704ea2f22537e0dd47edbe29a717c5c5ba
     new: ea301aec8bb718b02b68761d2229fc12c9fefa29
-    log: revlist-73af53d82076-ea301aec8bb7.txt
+    log: revlist-e7b9f2704ea2-ea301aec8bb7.txt
 
---===============6246112420880382885==
+--===============8374963989246555252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73af53d82076-ea301aec8bb7.txt
+Content-Disposition: attachment; filename=revlist-e7b9f2704ea2-ea301aec8bb7.txt
 
 f903663a8dcd6e1656e52856afbf706cc14cbe6d clk: qcom: videocc-sm8350: use HW_CTRL_TRIGGER for vcodec GDSCs
 923168a0631bc42fffd55087b337b1b6c54dcff5 ima: fix buffer overrun in ima_eventdigest_init_common
@@ -291,4 +291,4 @@ cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.k
 378e8feea9a70d37a5dc1678b7ec27df21099fa5 net: phy: dp83869: fix status reporting for 1000base-x autonegotiation
 ea301aec8bb718b02b68761d2229fc12c9fefa29 i40e: Fix handling changed priv flags
 
---===============6246112420880382885==--
+--===============8374963989246555252==--
