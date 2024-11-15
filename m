@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 15 Nov 2024 23:14:28 -0000
-Message-Id: <173171246808.2642829.8540398270132463322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 15 Nov 2024 23:15:10 -0000
+Message-Id: <173171251070.2645435.1309629122651839755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/uaccess-hardening
-    old: ef175fa7bcb906ed95402f067dd48f781fa59e96
-    new: 3a8f013eb53cb10afde51c3aba12550aa197ca6f
+  - ref: refs/heads/pwrctrl
+    old: 4b0494705b033bb5197be6d11f19d457181d7661
+    new: 3b10a542d9144e560ba17949e71a4ec3217ef327
     log: |
-         3a8f013eb53cb10afde51c3aba12550aa197ca6f x86/uaccess: Avoid barrier_nospec() in 64-bit __get_user()
+         fa44c038c58ce8c281baa7fa5943e7b1eb5cc442 PCI/pwrctrl: Rename pwrctl files to pwrctrl
+         3b10a542d9144e560ba17949e71a4ec3217ef327 PCI/pwrctrl: Rename pwrctrl functions and structures
          
