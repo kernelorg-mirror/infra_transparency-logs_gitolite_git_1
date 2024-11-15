@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Nov 2024 03:32:53 -0000
-Message-Id: <173164157309.1635106.15675812614224137837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 15 Nov 2024 03:33:57 -0000
+Message-Id: <173164163798.1635781.14546285821682492055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: f66af9616148e10e04eb172c7616ad79912b446e
-    new: b52a8deea530f027e4bd0d2444f068ff8a86ea4e
+  - ref: refs/heads/master
+    old: 379d5ee624eda6a897d9e1f7f88c68ea482bd5fa
+    new: f01750aecdfb8bfb02842f60af3d805a3ae7267a
     log: |
-         4c54e9497d9abbaca814a963f805884f02dc89ec net: sparx5: add missing lan969x Kconfig dependency
-         ac0928d5b6ffedb42465fd3c5e112e340b9c8292 dt-bindings: net: mdio-mux-gpio: Drop undocumented "marvell,reg-init"
-         b52a8deea530f027e4bd0d2444f068ff8a86ea4e dt-bindings: net: sff,sfp: Fix "interrupts" property typo
+         f01750aecdfb8bfb02842f60af3d805a3ae7267a selftests/bpf: Set test path for token/obj_priv_implicit_token_envvar
          
