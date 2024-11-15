@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 15 Nov 2024 23:47:37 -0000
-Message-Id: <173171445769.2671479.12457106725255221896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 15 Nov 2024 23:49:43 -0000
+Message-Id: <173171458354.2673089.2359319682225259632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: 0000000000000000000000000000000000000000
-    new: 644e9c53316e0af810d4fa19fa50840372c55a14
+  - ref: refs/heads/todo
+    old: 61ada19650594d19fcab8e7e88e90766ca3abcf2
+    new: 85bb99cbaa07f5c1f1cf0ec9d7506206865d0e22
+    log: |
+         85bb99cbaa07f5c1f1cf0ec9d7506206865d0e22 What's cooking (2024/11 #06)
+         
