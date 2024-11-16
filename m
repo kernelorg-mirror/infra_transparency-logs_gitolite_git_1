@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4245558825137735646=="
+Content-Type: multipart/mixed; boundary="===============7620201260796900834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 16 Nov 2024 18:37:54 -0000
-Message-Id: <173178227464.3545509.14731399075018044753@gitolite.kernel.org>
+Date: Sat, 16 Nov 2024 18:39:18 -0000
+Message-Id: <173178235802.3546229.16681045918227784386@gitolite.kernel.org>
 
---===============4245558825137735646==
+--===============7620201260796900834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,39 @@ repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
   - ref: refs/heads/crc32-lib
-    old: 06291d8a21fcbcfb5ec451f8e3f14f2835a77319
-    new: 5429b0e7305ef7feae6bbf4b49ed7d6e20c4aed0
-    log: revlist-06291d8a21fc-5429b0e7305e.txt
+    old: 5429b0e7305ef7feae6bbf4b49ed7d6e20c4aed0
+    new: cbf914d50e7efa456b4455bf49e7bad06b7ee27c
+    log: revlist-5429b0e7305e-cbf914d50e7e.txt
 
---===============4245558825137735646==
+--===============7620201260796900834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06291d8a21fc-5429b0e7305e.txt
+Content-Disposition: attachment; filename=revlist-5429b0e7305e-cbf914d50e7e.txt
 
-7420ce72b2781252bfdbe7e59d678cb0a98ab142 crypto: mips/crc32 - fix the CRC32C implementation
-a020a10f3a27f34d575abb94672e8332724438a0 bcachefs: Explicitly select CRYPTO from BCACHEFS_FS
-2ba36928522aee2ba47b1351f00efb55f4eabec0 lib/crc32: drop leading underscores from __crc32c_le_base
-4a3708faff67fa7f931139a720d0401adbcb4d60 lib/crc32: improve support for arch-specific overrides
-bd04e15fa9931f07a7d2664304751d3425e7feb2 lib/crc32: expose whether the lib is really optimized at runtime
-de93146a986e4a9eb645b67e5889fd40f10c8193 crypto: crc32 - don't unnecessarily register arch algorithms
-0273a88271d13c0bce2d34e86dfa8599ea5f6efc arm/crc32: expose CRC32 functions through lib
-10dc44dec1d2423c33e227f3a5a479afe2a840d4 loongarch/crc32: expose CRC32 functions through lib
-12f0314fbd176890809e478d188e2ebb93f1edb4 mips/crc32: expose CRC32 functions through lib
-8d8748355641568118a815356ba7cf71bfb0645e powerpc/crc32: expose CRC32 functions through lib
-92f1b5c54e6102b23aaa589be3b0b65edd4948df s390/crc32: expose CRC32 functions through lib
-27aec5cbb42ae29543e83b4183abef31a26280b3 sparc/crc32: expose CRC32 functions through lib
-c1325f38789755e5ea5d50e34ab71278d00cb79d x86/crc32: update prototype for crc_pcl()
-7aa9fc125a1d29b8adb2864de3f1ad048c6432d8 x86/crc32: update prototype for crc32_pclmul_le_16()
-b39bfb74725806807ad5a827c2c37484b8e34efa x86/crc32: expose CRC32 functions through lib
-09d29c9a19b5db92ba4908baa03b8626951415d4 lib/crc32: make crc32c() go directly to lib
-b52d7b7ef317c7ed5b07a93269d0e6e84c449709 ext4: switch to using the crc32c library
-8505c703432dc367819533093637a567f6c0c1e4 jbd2: switch to using the crc32c library
-802d07ec3702b3ad9c8e8d4e5b8128b2a819e0af f2fs: switch to using the crc32 library
-5429b0e7305ef7feae6bbf4b49ed7d6e20c4aed0 scsi: target: iscsi: switch to using the crc32c library
+28a80ff14b0c4658509b72bca81034c4ebbbedd8 crypto: arm64/crct10dif - Remove obsolete chunking logic
+0d69aef1ca8c59c769d872af349a28961b365bcf crypto: arm64/crct10dif - Use faster 16x64 bit polynomial multiply
+80668be6919fe467f44ffac1fddc25bef9335fc7 crypto: arm64/crct10dif - Remove remaining 64x64 PMULL fallback code
+05d2859e4c3aae9599f308c392af21c15eb35540 crypto: arm/crct10dif - Use existing mov_l macro instead of __adrl
+242a318c87a591f23e41c62e4c6f882fbd1ad2a8 crypto: arm/crct10dif - Macroify PMULL asm code
+d8ba658a59ae78f7369efc45c89cd4d627b7cf47 crypto: arm/crct10dif - Implement plain NEON variant
+89e2b40aec22cf228061615235be19ec78291e01 lib/crc32: drop leading underscores from __crc32c_le_base
+7c7ea55563f49bc5a7494b78bba667714656223a lib/crc32: improve support for arch-specific overrides
+22fd7489e78ed89c32745faef1390927ee776df3 lib/crc32: expose whether the lib is really optimized at runtime
+87e1a3af11d70a006755bdc584c52bdc79ef8b63 crypto: crc32 - don't unnecessarily register arch algorithms
+6c60d6aba20fafe26645180b6db7f615dcb3ca2a arm/crc32: expose CRC32 functions through lib
+af5eb7579ec6cd4268ef725c609c82a1dd979fd9 loongarch/crc32: expose CRC32 functions through lib
+426a85a71d3444a4433f68bf84defd0f058f2399 mips/crc32: expose CRC32 functions through lib
+38bca0ed19f03bdbeec590ba9ef087a5f547dfba powerpc/crc32: expose CRC32 functions through lib
+70032bf7a2c0a65f09b325993ca506f2fa1f1847 s390/crc32: expose CRC32 functions through lib
+61e0ec5dc04f456ccf29e14aa82da53a59e48edc sparc/crc32: expose CRC32 functions through lib
+d8de508aea389a6420b4804420563942dd2dd15c x86/crc32: update prototype for crc_pcl()
+227a2068a62f8752f2c835e1be9442e618c7ae06 x86/crc32: update prototype for crc32_pclmul_le_16()
+bf602803d6738897cf521e46a5b48b66067df0d9 x86/crc32: expose CRC32 functions through lib
+795bab16400cd9bec753f4605225d2dd97ac5b49 lib/crc32: make crc32c() go directly to lib
+ee76c12585ddda60f12b7f4ce1009a439ab35f2b ext4: switch to using the crc32c library
+460ee3283760437adc1661abce1ae75a7df2e41d jbd2: switch to using the crc32c library
+bfbbeaf69e18421ef4ebb5642feb26d6dad81b7a f2fs: switch to using the crc32 library
+cbf914d50e7efa456b4455bf49e7bad06b7ee27c scsi: target: iscsi: switch to using the crc32c library
 
---===============4245558825137735646==--
+--===============7620201260796900834==--
