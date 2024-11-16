@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 16 Nov 2024 20:08:07 -0000
-Message-Id: <173178768779.3617390.13763446657389754548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Sat, 16 Nov 2024 20:09:58 -0000
+Message-Id: <173178779894.3618715.386520732912835635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 8f997865ee9e73281a92a7ab7ebcab84e1a36d83
-    new: 85c60a01b85ee956adf8d46c253fc50f75363e8f
+  - ref: refs/heads/master
+    old: 6b4d0e4fab8c66cfda02f936da36da10d1ef7a12
+    new: 65b7fd68ccbb49904444cdf8be30a9a41f9d61df
     log: |
-         85c60a01b85ee956adf8d46c253fc50f75363e8f perf: Remove unused del_perf_probe_events()
+         da2f7e56e7a69063b852f94db290102fcb17bdf6 dwarf_loader: Check DW_OP_[GNU_]entry_value for possible parameter matching
+         65b7fd68ccbb49904444cdf8be30a9a41f9d61df dwarf_loader: Use libdw__lock for dwarf_getlocation(s)
          
