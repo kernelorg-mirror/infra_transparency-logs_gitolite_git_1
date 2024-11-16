@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0905247470762214360=="
+Content-Type: multipart/mixed; boundary="===============4639991050495878867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 16 Nov 2024 10:25:02 -0000
-Message-Id: <173175270232.3165184.1133799712065453310@gitolite.kernel.org>
+Date: Sat, 16 Nov 2024 10:25:32 -0000
+Message-Id: <173175273261.3166408.4711936205241392458@gitolite.kernel.org>
 
---===============0905247470762214360==
+--===============4639991050495878867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5340da6dc421b2ac0fe6ae8052c4836972e7ece4
-    new: fb56efe9a6c89957bba22e8db83af69800ad8c17
-    log: revlist-5340da6dc421-fb56efe9a6c8.txt
+    old: fb56efe9a6c89957bba22e8db83af69800ad8c17
+    new: 46c50ca3f7b0c8b29289817dac7d8a8adf9aee48
+    log: revlist-fb56efe9a6c8-46c50ca3f7b0.txt
+  - ref: refs/heads/tip/urgent
+    old: f34ca5a61dbc21dcfdbc10db4d78dd715c26b0d9
+    new: c8df2d2a9199e221808177b7450a86a15915440c
+    log: revlist-f34ca5a61dbc-c8df2d2a9199.txt
 
---===============0905247470762214360==
+--===============4639991050495878867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5340da6dc421-fb56efe9a6c8.txt
+Content-Disposition: attachment; filename=revlist-fb56efe9a6c8-46c50ca3f7b0.txt
+
+c8df2d2a9199e221808177b7450a86a15915440c Merge branch into tip/master: 'x86/urgent'
+9b5f2766330c17c2e708a207b1f5930acb3ecd68 Merge branch into tip/master: 'core/merge'
+94e2919cf06b2523b7240cc835a8451e8d02e0d7 Merge branch into tip/master: 'core/debugobjects'
+26a19c170c6b294b16a3776cda6ba1e3f53884ec Merge branch into tip/master: 'irq/core'
+0139ef227db1d61b9bd684196fc443f8f21f3778 Merge branch into tip/master: 'locking/core'
+12b8c98c432fb391c57922cd5d91a3f6fc473185 Merge branch into tip/master: 'objtool/core'
+fb6fad0e243151d1cfede3ad327919de8f70315f Merge branch into tip/master: 'perf/core'
+e112953faeb58c68f8254315e95894a252e87bba Merge branch into tip/master: 'ras/core'
+6e206eed7b381f58842dda08e9fd5b631c8f4137 Merge branch into tip/master: 'sched/core'
+bb0b7b9632d9e16f67b3146d2611d17f34e599e5 Merge branch into tip/master: 'timers/core'
+3502aa68eee7a7ff4d8c961d103305c93c60548a Merge branch into tip/master: 'timers/vdso'
+b99e5950a104d44a1bbe9c66351b291df7772c50 Merge branch into tip/master: 'x86/cache'
+b434bfb08a936b0fe971a18f5ff663d8b28af145 Merge branch into tip/master: 'x86/cleanups'
+8a6507c8959e0ccf141f2cc64a0d8d750ad95190 Merge branch into tip/master: 'x86/cpu'
+28ae508b9fb646311bf83d54c5dd436a60078848 Merge branch into tip/master: 'x86/microcode'
+821835152036628a6322ad427a747622dbdaef33 Merge branch into tip/master: 'x86/misc'
+86fac3d21daff4628b217a86acd2698e31ce86d5 Merge branch into tip/master: 'x86/mm'
+99aefe3450457999f174797953af5dacf13ec68a Merge branch into tip/master: 'x86/platform'
+3e55536b20753ba146473411b46e58b01f33dee4 Merge branch into tip/master: 'x86/sev'
+ad90685c23e8fe1ae23f7644ca0b1413208213b7 Merge branch into tip/master: 'x86/sgx'
+46c50ca3f7b0c8b29289817dac7d8a8adf9aee48 Merge branch into tip/master: 'x86/tdx'
+
+--===============4639991050495878867==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f34ca5a61dbc-c8df2d2a9199.txt
 
 dd41b283ef2f028e414312706b48f2880b7050b5 crypto: mips/crc32 - fix the CRC32C implementation
 899f44531fe6cac4b024710fec647ecc127724b8 pmdomain: core: Add GENPD_FLAG_DEV_NAME_FW flag
@@ -90,6 +122,6 @@ aa35f5446fac73c96f4c282e333b119deba2d82e Merge tag 'mmc-v6.12-rc3-2' of git://gi
 f5395732841802fcfd04fa7faa9a6cf2d4a8a714 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 f868cd2517763c66783c6000b29d97f0b966b311 Merge tag 'drm-fixes-2024-11-16' of https://gitlab.freedesktop.org/drm/kernel
 e8bdb3c8be08c9a3edc0a373c0aa8729355a0705 Merge tag 'riscv-for-linus-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-fb56efe9a6c89957bba22e8db83af69800ad8c17 Merge branch 'linus'
+c8df2d2a9199e221808177b7450a86a15915440c Merge branch into tip/master: 'x86/urgent'
 
---===============0905247470762214360==--
+--===============4639991050495878867==--
