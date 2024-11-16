@@ -1,40 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 16 Nov 2024 16:07:34 -0000
-Message-Id: <173177325440.3425744.15527294486897071991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 16 Nov 2024 16:09:09 -0000
+Message-Id: <173177334941.3426552.12630635383316312726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: ef683aebd8409a4cf2d47ca20870f58080a184e9
-    new: dfbabec04cad1f89ac63ef571637960763e4ffef
+  - ref: refs/heads/bwctrl
+    old: 78cf4790c97b69c721dd8d2949021f16d1b3110a
+    new: ba58eee1c57b2ad45c36f782861c18faef170a55
     log: |
-         9207ee0eeaa53eb133053b7272f499635cc22f37 hwmon: (spd5118) Add I3C support
-         6783521fad88a020460801747e440a57f76fc013 Merge branch 'hwmon-next' into hwmon-staging
-         a0de7bf63caad9aacc5107af3d16b7b93b9da251 Merge branch 'hwmon-tmp108' into hwmon-staging
-         2d6979c28d67559306fffdcbcf916747ccf2ddb9 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-         dfc837139db22d354f107e140b7ed336abfdba86 Merge branch 'hwmon-g762' into hwmon-staging
-         70554f9954e6e11b42f91acff61a2945d22df0a3 Merge branch 'hwmon-emc2103' into hwmon-staging
-         819ee43ed7500bcbe4f0824f42862649af1ced6d Merge branch 'hwmon-i2c-spi-merge' into hwmon-staging
-         dfbabec04cad1f89ac63ef571637960763e4ffef Merge branch 'hwmon-max16065' into hwmon-staging
-         
-  - ref: refs/heads/testing
-    old: c1cec819fd07505db7967e0210c5aa534b2e37d4
-    new: 5ddf387886c7faee46761e9b4c6f24eae8b991d9
-    log: |
-         9207ee0eeaa53eb133053b7272f499635cc22f37 hwmon: (spd5118) Add I3C support
-         6783521fad88a020460801747e440a57f76fc013 Merge branch 'hwmon-next' into hwmon-staging
-         a0de7bf63caad9aacc5107af3d16b7b93b9da251 Merge branch 'hwmon-tmp108' into hwmon-staging
-         2d6979c28d67559306fffdcbcf916747ccf2ddb9 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-         dfc837139db22d354f107e140b7ed336abfdba86 Merge branch 'hwmon-g762' into hwmon-staging
-         70554f9954e6e11b42f91acff61a2945d22df0a3 Merge branch 'hwmon-emc2103' into hwmon-staging
-         819ee43ed7500bcbe4f0824f42862649af1ced6d Merge branch 'hwmon-i2c-spi-merge' into hwmon-staging
-         dfbabec04cad1f89ac63ef571637960763e4ffef Merge branch 'hwmon-max16065' into hwmon-staging
-         5ddf387886c7faee46761e9b4c6f24eae8b991d9 Merge branch 'hwmon-staging' into testing
+         665745f274870c921020f610e2c99a3b1613519b PCI/bwctrl: Re-add BW notification portdrv as PCIe BW controller
+         de9a6c8d5dbfedb5eb3722c822da0490f6a59a45 PCI/bwctrl: Add pcie_set_target_speed() to set PCIe Link Speed
+         d278b098282d1327f6e1be82aacb18457a4d244d thermal: Add PCIe cooling driver
+         838f12c3d551f8941295ed7085ad360c3d3ad665 selftests/pcie_bwctrl: Create selftests
+         ba58eee1c57b2ad45c36f782861c18faef170a55 PCI: Drop duplicate pcie_get_speed_cap(), pcie_get_width_cap() declarations
          
