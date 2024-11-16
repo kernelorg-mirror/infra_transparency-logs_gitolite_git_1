@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 16 Nov 2024 22:12:49 -0000
-Message-Id: <173179516921.3714583.11245475226361027617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 16 Nov 2024 22:12:59 -0000
+Message-Id: <173179517954.3714777.368331777070109596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: e8bdb3c8be08c9a3edc0a373c0aa8729355a0705
-    new: b5a24181e461e8bfa8cdf35e1804679dc1bebcdd
+    old: ba130ba5915e7d072b9202d77549083e65227e03
+    new: 41715475423e29c3e37c5a666d10a6d58218b5e9
     log: |
-         580bb355bcae7e9a6606ce9644af09b2a793f1bb Revert: "ring-buffer: Do not have boot mapped buffers hook to CPU hotplug"
-         09663753bb7c50b33f8e5fa562c20ce275b88237 tracing/ring-buffer: Clear all memory mapped CPU ring buffers on first recording
-         b5a24181e461e8bfa8cdf35e1804679dc1bebcdd Merge tag 'trace-ringbuffer-v6.12-rc7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         dad920b26840466b999190344f48e95e9c96f48a todo: update items on current status
+         41715475423e29c3e37c5a666d10a6d58218b5e9 patches/next: let damon_call() canceled
          
