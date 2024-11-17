@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6604982941988399221=="
+Content-Type: multipart/mixed; boundary="===============8959402095409968989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 17 Nov 2024 20:39:04 -0000
-Message-Id: <173187594443.839003.3624569209555940381@gitolite.kernel.org>
+Date: Sun, 17 Nov 2024 20:40:29 -0000
+Message-Id: <173187602982.842166.9853452727918201580@gitolite.kernel.org>
 
---===============6604982941988399221==
+--===============8959402095409968989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,174 +16,282 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: fd06e35c8f65213111a8cb1f4dc237c454620c15
-    new: df20045dbbf65c346dabbe66c125699bf698f2bd
+    old: df20045dbbf65c346dabbe66c125699bf698f2bd
+    new: c7df57116f33a00f34f53b76fc8631d5b23a51af
     log: |
-         7716e2547ddcac6d04613c3df38af40a8954c127 netlink: terminate outstanding dump on socket close
-         05a710f5660d241dd14c39cc9b3f951b49ba29b8 ocfs2: uncache inode which has failed entering the group
-         b7a7472aac6f814ba7d915bec7212439cb837d67 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
-         2554436daac924f036060c3de45907382a0face2 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
-         dcf666f964037294e2f2fd5b4256b7919c5d642a nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
-         df20045dbbf65c346dabbe66c125699bf698f2bd Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+         c33d8e0f4f67dc69ecbd2cc7cd2a893d67759789 netlink: terminate outstanding dump on socket close
+         378cb1ef9ca360cfdfd010a02f70d977bdfad9d3 ocfs2: uncache inode which has failed entering the group
+         08afc8e8f29ec73dcc8e01ea6b9be3ab29484ef8 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+         ec5b7304ea939bc06f608e9e6a79fada22630258 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+         7679ee10beb94e9f81eadb32469ae267fe798a6e nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+         c7df57116f33a00f34f53b76fc8631d5b23a51af Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
          
   - ref: refs/heads/queue/5.10
-    old: 222eb5b682c8b2b9e7e32386bd339e2f20020310
-    new: c89417a40b05ac170a8585267a72187665da80fd
-    log: revlist-222eb5b682c8-c89417a40b05.txt
+    old: c89417a40b05ac170a8585267a72187665da80fd
+    new: aa1b7404cf15afd01e777cb7af8e52ba269f929b
+    log: revlist-c89417a40b05-aa1b7404cf15.txt
   - ref: refs/heads/queue/5.15
-    old: 806e6abc1025922a2ddfa472805c7a7232324056
-    new: 8b83720a4f51d4275c70b73b16d6ffda1f433932
-    log: |
-         1aee649c1d7868173750a4a8a72389b104aa0285 netlink: terminate outstanding dump on socket close
-         5a4d52fbf3ddb0c747e23fd103ff1939b69a9585 drm/rockchip: vop: Fix a dereferenced before check warning
-         ce333f5f688759dab2ade742f83c535f4bc14a9f net/mlx5: fs, lock FTE when checking if active
-         20d5e76002ed2f16d7920fd9033a616cc92bbfbd net/mlx5e: kTLS, Fix incorrect page refcounting
-         d9fb5bab4bfa49f1b06926fa6dbb9c2d5738985a net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
-         cd3315c85aafbf503036b03493bc4ebcbc312a9f samples: pktgen: correct dev to DEV
-         8b83720a4f51d4275c70b73b16d6ffda1f433932 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
-         
+    old: 8b83720a4f51d4275c70b73b16d6ffda1f433932
+    new: 845e6563f97e696b80ab0bca1de2564ffaf78c19
+    log: revlist-8b83720a4f51-845e6563f97e.txt
   - ref: refs/heads/queue/5.4
-    old: 59c97700fad7b645c6555c307c5e3d438b51f5d4
-    new: 622be9942b492985eeaa2ace985a8823d15f43a9
+    old: 622be9942b492985eeaa2ace985a8823d15f43a9
+    new: fb0e1769c48c90b956142ae61a503b812c97b7b2
     log: |
-         c96fd37a216bca2a6e486e2200d11639e2765763 netlink: terminate outstanding dump on socket close
-         de209a4caf7a2cd6c98d843f763f076ee339a26a net/mlx5: fs, lock FTE when checking if active
-         92b4898c5469c679292b6b8370cf56d728e7eedf net/mlx5e: kTLS, Fix incorrect page refcounting
-         c6876a14fad04fc4e6b9bf3eff6cfc6714aef628 ocfs2: uncache inode which has failed entering the group
-         1feaa93bc5e417f1aa290433f9bb7d0e4453c9c8 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
-         9ea654e355d92c64317a075037c0ad570f299daf nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
-         e46aa5f16a1a40aed07ac438cc9c32a0cd276ce9 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
-         9140e1506f2be966726aa969934becbf1c90da5e nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
-         622be9942b492985eeaa2ace985a8823d15f43a9 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+         0aca72c968eac2c10d3e5b3a655400dee161931a netlink: terminate outstanding dump on socket close
+         1f1bc098874a65d1a4dce81ae00da6894ac96275 net/mlx5: fs, lock FTE when checking if active
+         03daf15109bbefde69186e0bf5c6342294686dfa net/mlx5e: kTLS, Fix incorrect page refcounting
+         d021f81778d0af27117a4f1aef1ef3fa23658fdc ocfs2: uncache inode which has failed entering the group
+         891d699fd604422e35be1083c38f49a759d61169 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+         91e119acd0dfbec35c3f6193751b818304f54f8c nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+         d091e6d9a1c8aab4db3346dacfe5c7f1db3b77db ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+         7c11fdfb05d650f070a2aed1a4858029ff3d0191 nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+         fb0e1769c48c90b956142ae61a503b812c97b7b2 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
          
   - ref: refs/heads/queue/6.1
-    old: f54a0809f4b35524bca7850128bb86ee976d11d4
-    new: dcea8298184f7056a05db69744080b722b737273
-    log: revlist-f54a0809f4b3-dcea8298184f.txt
+    old: dcea8298184f7056a05db69744080b722b737273
+    new: 0c87803d18ab27c9d5fdadb3263f3b15ec41a986
+    log: revlist-dcea8298184f-0c87803d18ab.txt
   - ref: refs/heads/queue/6.11
-    old: 9fe1fecff774011c8b70808e23b34d5251da35be
-    new: de593718bd9c71c96f66f7cf716e845d2097ff56
-    log: revlist-9fe1fecff774-de593718bd9c.txt
+    old: de593718bd9c71c96f66f7cf716e845d2097ff56
+    new: 8f79693378cb3e3bce953997a9599ba7ff7936b7
+    log: revlist-de593718bd9c-8f79693378cb.txt
   - ref: refs/heads/queue/6.6
-    old: 71da17eb047635e0d3f82579fe48589415b6bcb3
-    new: 44eab56a63d991cf64301a7cb4751519b25cc315
-    log: revlist-71da17eb0476-44eab56a63d9.txt
+    old: 44eab56a63d991cf64301a7cb4751519b25cc315
+    new: 607a6f53002e3c4f6a6b54949baa303ca2fed1df
+    log: revlist-44eab56a63d9-607a6f53002e.txt
 
---===============6604982941988399221==
+--===============8959402095409968989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-222eb5b682c8-c89417a40b05.txt
+Content-Disposition: attachment; filename=revlist-c89417a40b05-aa1b7404cf15.txt
 
-ac411c981834450304ed11e3fbadca6640853972 netlink: terminate outstanding dump on socket close
-f81194aefc19ec485217132eff91768a453c19b7 net/mlx5: fs, lock FTE when checking if active
-b853da624e72a5cee71dafbf0929e5f02a043110 net/mlx5e: kTLS, Fix incorrect page refcounting
-00326043efb9d20961ccf295a7a3d6893e7957d2 x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
-3bdbaa2ac8b2a6ac0747625cd4023984236b731f ocfs2: uncache inode which has failed entering the group
-b4e664f2191c3af8d4a8277aef90483acb7b0260 vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
-2263a13720dbafc4033866069c5e4bfd3543bc74 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
-2660807374faa92a75db3d05715a7891cd24c6b0 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
-2b3e0f70044aceaad4185810cfced3c46833f503 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
-0afed2e72bbfae54f373d591874b44954155c3f2 nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
-1225b6894de22a9f8ecf89d25e144bc401950dee Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
-c89417a40b05ac170a8585267a72187665da80fd drm/bridge: tc358768: Fix DSI command tx
+4065f335b8599e6181e0009e8dfa961420383b51 netlink: terminate outstanding dump on socket close
+db9e4570b8a51f0494dd1ed7d2d0c8cf5cd58ff1 net/mlx5: fs, lock FTE when checking if active
+0272d85369f0cdcd358dda15827562fd80915a04 net/mlx5e: kTLS, Fix incorrect page refcounting
+5d7ff8250a3fa112c41a9e635b3eb7f909ef310d x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+960b86966b704f7307cdceb345c14d29d60884a2 ocfs2: uncache inode which has failed entering the group
+579e8616f7cf6c22b5d8fdcfa1f2b63c9a7a7f2b vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+3a2f3214475ee74b1445ab54bd72e66fedfea341 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+5f042c2224a77e0d03908a496a5053f6b5162668 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+d139ae343b211b8bee2bbb1ffd0affaa09a9cba0 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+c2010516a5fdd5546aa32b4b178e9bb15c43f250 nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+61c42c90130cf42da0ca534cc07765c59ae7ac9f Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+aa1b7404cf15afd01e777cb7af8e52ba269f929b drm/bridge: tc358768: Fix DSI command tx
 
---===============6604982941988399221==
+--===============8959402095409968989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f54a0809f4b3-dcea8298184f.txt
+Content-Disposition: attachment; filename=revlist-8b83720a4f51-845e6563f97e.txt
 
-ede94337392a295f813be14f82b4593c9fd0c56c netlink: terminate outstanding dump on socket close
-10b032ef8b6b41be500313899b5c67601636457f net: vertexcom: mse102x: Fix tx_bytes calculation
-7ecc13dbe7574bc10123f24292b4dcd9b4530f63 drm/rockchip: vop: Fix a dereferenced before check warning
-eedfca92a690b19c2a46a222fbb439935da423fe mptcp: error out earlier on disconnect
-94d16d45558bb5811f848766212fe45512b4d348 net/mlx5: fs, lock FTE when checking if active
-16f872d9c9a9b6fc5942f88a915583d675b0fc79 net/mlx5e: kTLS, Fix incorrect page refcounting
-66be53488bd75dbf56dcbfed78338fde3b439b69 net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
-7864470fa7e4d77073d5b4e99d15190b1911a345 virtio/vsock: Fix accept_queue memory leak
-a83186806b6d24bfef37cfadde2c868f309b9810 Bluetooth: hci_event: Remove code to removed CONFIG_BT_HS
-b71eb4cfb83b866cfe54c27635f14196a124aeef Bluetooth: hci_core: Fix calling mgmt_device_connected
-4f41b86172050f7bc86d46618ca9b82caf66cfbb net/sched: cls_u32: replace int refcounts with proper refcounts
-260bac8349158c1bf731d08bdf48a70f1952d87e net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
-f0aa9f0cda9bd3754f7c8bed58017b573cc469a7 samples: pktgen: correct dev to DEV
-43bad8dc6424da8c975a846f262ec2d02a8c5b37 bonding: add ns target multicast address to slave device
-dcea8298184f7056a05db69744080b722b737273 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+b2bfaf1cc3883aac5513ca6e9e2868f6ab293b07 netlink: terminate outstanding dump on socket close
+a7ac130aae911d55d4f2f4713129bc630c5c567b drm/rockchip: vop: Fix a dereferenced before check warning
+cd41cca96fd9335e3c94d169830778e304fd2c04 net/mlx5: fs, lock FTE when checking if active
+33f0e70d3bb7216cf27adda43709a3c2affda37b net/mlx5e: kTLS, Fix incorrect page refcounting
+236d5121bfb459a6ad07c72744fd46e7d9af4583 net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
+18c6cbd0570908c00a6b58b865a35e13534c0612 samples: pktgen: correct dev to DEV
+bd651a7300fa92e3f1aa740ef81f913b00edeb74 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+a24d759b98ce2509a79f3381527abbba40791a2b x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+6d7bd06c69460dfb5df4ce185169ca400a2f53ef mm: fix NULL pointer dereference in alloc_pages_bulk_noprof
+ecfe978db42b5a0ce4de00d129e4fe91670db99d ocfs2: uncache inode which has failed entering the group
+8ff49057a8ab42cc6f97a011e7e660a456ce0333 vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+76bd17b7697375906d463c442ef6ec546eec34ae KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
+eabe88f1d81a6c0878747a1407183eec1cc065ff KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+8be7b9e0c157189520c9a5fbb412d505c8d0f673 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+691b5364c9303d0d5bc7c630e6bf0a4019f5598d ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+2e9bc1d3e4e9975dd291a3c1e903195f45bdf1ae nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+0418d1d43aab1c258b450fe276d525fce570033d Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+d68a3b3fb6bb87571a445744490e064b63a7007b mmc: sunxi-mmc: Fix A100 compatible description
+845e6563f97e696b80ab0bca1de2564ffaf78c19 drm/bridge: tc358768: Fix DSI command tx
 
---===============6604982941988399221==
+--===============8959402095409968989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fe1fecff774-de593718bd9c.txt
+Content-Disposition: attachment; filename=revlist-dcea8298184f-0c87803d18ab.txt
 
-ba2780d17e2213a10a4ac2a01209bfd8343280be netlink: terminate outstanding dump on socket close
-d9ea5bc36bf1bb4d882db9e5a41c21ec545a018b sctp: fix possible UAF in sctp_v6_available()
-18905797b36fd0dd4083469f531af4a8eaf60382 net: vertexcom: mse102x: Fix tx_bytes calculation
-b4d900c1fe8d8a4e38d399e85947c18a01332b6b drm/rockchip: vop: Fix a dereferenced before check warning
-568d569d112893f91c673eacde4922c430693b9f net: fix data-races around sk->sk_forward_alloc
-ff68c62fc4aad80615abbcaf9bffa4d8936bfedb mptcp: error out earlier on disconnect
-4b1be144c287235cf0e31b1564a968daeb0f7aba mptcp: cope racing subflow creation in mptcp_rcv_space_adjust
-7597c672ffd48a29b802d4d68f494ca2244054e9 net/mlx5: Fix msix vectors to respect platform limit
-cc6a5ef760d9be11086d0d03b8ca091b81aa6a5c net/mlx5: fs, lock FTE when checking if active
-a9079c836d0198efa89f7df8154943f0e02c3457 net/mlx5e: kTLS, Fix incorrect page refcounting
-afbd9b4dbe1d8bcbe2274aa3e96f5562d7715803 net/mlx5e: clear xdp features on non-uplink representors
-29a89864d5893fa90ce6e02b10ae6fa3cc6456b9 net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
-30d7c4c0f42b038c30f32e0a6ca9659b7fd3d906 net/mlx5e: Disable loopback self-test on multi-PF netdev
-fa18e92e3a42160612cadb5b6b1c8d73de25139e drm/i915/gsc: ARL-H and ARL-U need a newer GSC FW.
-e301c19f5aacd3812449da79ab9c52ed39571b0e virtio/vsock: Fix accept_queue memory leak
-95a0e012f2a80615e796caa7b10f6d128d273b38 vsock: Fix sk_error_queue memory leak
-de9e56f1ef532d8811587b2fb2ba3f8d8d80a675 virtio/vsock: Improve MSG_ZEROCOPY error handling
-c72c3ac07661a90b81a6c54355bb609f53c07d48 Revert "RDMA/core: Fix ENODEV error for iWARP test over vlan"
-d266f9cd5180a3961548f7dc1d32f1fa311d8bae drivers: perf: Fix wrong put_cpu() placement
-57f62ed5dd8ff7fdc17ab980f4a9aeb1a0c9edb3 Bluetooth: hci_core: Fix calling mgmt_device_connected
-2f6f46f45eaa9e91747c39421e03734027fd7a90 Bluetooth: btintel: Direct exception event to bluetooth stack
-0051e4a439873dda054eca8b7f99345b4f08d208 drm/panthor: Fix handling of partial GPU mapping of BOs
-f27e27e60b2f73f35f2b3b2a7ed704cca67ddffb net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
-3b244453b30dc21fd0afe8202d0afbafdf28c90c net: phylink: ensure PHY momentary link-fails are handled
-0fd286c1fbd72356875128645d2156fa042a9117 samples: pktgen: correct dev to DEV
-2fa374e1468fcb76f93f8e768252350097f80102 net: stmmac: dwmac-mediatek: Fix inverted handling of mediatek,mac-wol
-f56a2342a18c796464264762ae63b4a27b32623b net: Make copy_safe_from_sockptr() match documentation
-4b974e3894372ff259762a8b687d1b8e9853091b stmmac: dwmac-intel-plat: fix call balance of tx_clk handling routines
-1e761d8e5287d1871a29972d77cbbc308b62febd drm/vmwgfx: avoid null_ptr_deref in vmw_framebuffer_surface_create_handle
-d2827c5e934a51d9c1978c475734f5ff9bdc9f62 net: ti: icssg-prueth: Fix 1 PPS sync
-532b97e0b9ad22f6061a8694f74ad5ef3282f7c1 bonding: add ns target multicast address to slave device
-c0034aab8e938c76c510bc811db323dc999ed147 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
-38d862ebafcd532dabd9ed4298a758a5b3fad4d5 ARM: fix cacheflush with PAN
-dc9a51e49c00f514491d2feb34d0ce5d630e07ab tools/mm: fix compile error
-de593718bd9c71c96f66f7cf716e845d2097ff56 Revert "drm/amd/pm: correct the workload setting"
+252308811329b6950d92f4ab679496a2c97ed6df netlink: terminate outstanding dump on socket close
+b3b9e87e9870932509a10f0ea0763addec0d72e5 net: vertexcom: mse102x: Fix tx_bytes calculation
+58233f8439b7a4e9ce2c8843e3a7d5b3025fc84c drm/rockchip: vop: Fix a dereferenced before check warning
+7916136a8c9389ec815b6b0386e96e13d078bf8f mptcp: error out earlier on disconnect
+e6c41fea48ac19a2dce09e740a7b4fb306d0504d net/mlx5: fs, lock FTE when checking if active
+5a26323159210cf135db1794a3a7edbb1abe54a8 net/mlx5e: kTLS, Fix incorrect page refcounting
+55a398ae4d631d89802a020a021693bab18c7601 net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
+973a9c19f2162e00eec31de0515cd15ffd4db368 virtio/vsock: Fix accept_queue memory leak
+2d443a5048310d7282b0b951269d2aeb979388eb Bluetooth: hci_event: Remove code to removed CONFIG_BT_HS
+7605ba392ba2c275baab2406b2eb6d30ea4ce6a8 Bluetooth: hci_core: Fix calling mgmt_device_connected
+34cfc886ae8fae879fb92196a846169aa646c602 net/sched: cls_u32: replace int refcounts with proper refcounts
+94b06a5c91ee3807411aacbdd38a0722fe14876e net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
+fa96e1502095f92fbcbe9920e2d5f5c06b6bfd1f samples: pktgen: correct dev to DEV
+de1b210aa2aa2b48f0630b1c44130a97f760a583 bonding: add ns target multicast address to slave device
+3bd4d24682f4a651b13566f1c42ec6e13d4ba032 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+78b0db906f0446f628034d38212770d06bc3bdbe x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+05180a4084dbe7e8953fffa228e26637005208fa mm: fix NULL pointer dereference in alloc_pages_bulk_noprof
+eabaa61576a8dbd491db600d27c82013c3b98f25 ocfs2: uncache inode which has failed entering the group
+91523d23ed255f332fa026bf40e21a15377d40ac vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+e6e1c9cc81acc0de4d2e71428381cdb9f627a28c vp_vdpa: fix id_table array not null terminated error
+c3fbe8c40fc4725e236ea17eb5cbbca3b9500a79 ima: fix buffer overrun in ima_eventdigest_init_common
+59b79c7612ef4764cfb90f24ac4029474644505b KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
+1a5425a131b0bf12183dbc800e67a61db1ed21b8 KVM: x86: Unconditionally set irr_pending when updating APICv state
+f421fdad4056577f17fc889f93ade6a2d1151639 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+141d863bdd4ae437524a519bbbeb8fd79e3e1e51 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+8fce3ca96594c8744116d4de2c7ebddb2d71c2a0 ALSA: hda/realtek - Fixed Clevo platform headset Mic issue
+3859a73b933abf20a819dfef01eba76993dbffb2 ALSA: hda/realtek: fix mute/micmute LEDs for a HP EliteBook 645 G10
+c261810c6c1163dc50a6a581b94acbf479329c80 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+ffb046c5567b773ed17bc02f791152ff32a81d43 nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+0d49d984e998d29fc70e98b294c7a48dd2c133a0 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+cd59388b8599f7cfaea6a1992b5c257046146592 mmc: sunxi-mmc: Fix A100 compatible description
+0c87803d18ab27c9d5fdadb3263f3b15ec41a986 drm/bridge: tc358768: Fix DSI command tx
 
---===============6604982941988399221==
+--===============8959402095409968989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71da17eb0476-44eab56a63d9.txt
+Content-Disposition: attachment; filename=revlist-de593718bd9c-8f79693378cb.txt
 
-2d51246f0edf1c6164f4552811a1bdd76336e4c8 netlink: terminate outstanding dump on socket close
-2a26011caee6f8135f63ffacd56ffccbb3b51d65 sctp: fix possible UAF in sctp_v6_available()
-b9da0cd72ad5c829385bd9120672c31ca91401a6 net: vertexcom: mse102x: Fix tx_bytes calculation
-77dca9a3b3cf13af85f19decf67df629ddd8648f drm/rockchip: vop: Fix a dereferenced before check warning
-3a8f1249aec533b9eaa76371ec371c1ff6b3cbbc mptcp: error out earlier on disconnect
-50c87aec4222083e48490bea056cb7334dbedc9e mptcp: cope racing subflow creation in mptcp_rcv_space_adjust
-7e4f71f33ad36500d373528a38b225935265dcfa net/mlx5: fs, lock FTE when checking if active
-bb6020d0ebb66ab01295fec0d4bb94903735a557 net/mlx5e: kTLS, Fix incorrect page refcounting
-03b99a90babac293b1798f44769d4e99f6c2e51c net/mlx5e: clear xdp features on non-uplink representors
-655e6ede78cf24fec713888ae73f8fd1a7fcce1c net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
-3a1cda9e24e39ac3fe262476e0afeac0ec439981 virtio/vsock: Fix accept_queue memory leak
-4376fcb1bc4649d61fb3c5c7f5d2e94f3eb2fef5 Revert "RDMA/core: Fix ENODEV error for iWARP test over vlan"
-a8fb52fde3a5128718d6ce03627fd6f72edd4e99 Bluetooth: hci_core: Fix calling mgmt_device_connected
-a71b6f9c258549a4d6c0fdefd74a88022f21c6a1 Bluetooth: btintel: Direct exception event to bluetooth stack
-3a85e6fec2d432035d67076cedd591073a5fda66 net/sched: cls_u32: replace int refcounts with proper refcounts
-5c932ea96fbca8971ab7bff6dae745b22533d75b net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
-e0de1b606ba414f28ea2fe6c79f944a122f24b3c samples: pktgen: correct dev to DEV
-0c299662ab87acda96f6eaf2a514f4908a203c58 net: stmmac: dwmac-mediatek: Fix inverted handling of mediatek,mac-wol
-5322f6c1e7b83e68a2f76642f2f36e551235ff2a net: Make copy_safe_from_sockptr() match documentation
-30ad1027a175e6ec5ec46228063e5dde2b69ccc7 net: stmmac: dwmac-intel-plat: use devm_stmmac_probe_config_dt()
-51b2904789453b388efa8724e3e5d57b4d4d2d0f net: stmmac: dwmac-visconti: use devm_stmmac_probe_config_dt()
-464fcf65046d0f49b83ceac35706098150f75a66 net: stmmac: rename stmmac_pltfr_remove_no_dt to stmmac_pltfr_remove
-a7f06bf72e835a0fbcb23976803fee2bf61f615b stmmac: dwmac-intel-plat: fix call balance of tx_clk handling routines
-9178f9f3b138ac1328154f69d7dadc93a3c8ed5a net: ti: icssg-prueth: Fix 1 PPS sync
-7a4f15bf70b616db0d580c880fb9656f0a6d2cf9 bonding: add ns target multicast address to slave device
-e3e5d8efd6b76a37b4219c84df8b1fe962c10e72 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
-44eab56a63d991cf64301a7cb4751519b25cc315 tools/mm: fix compile error
+46752ca7f63902bbba2535815dc5a309580af4ee netlink: terminate outstanding dump on socket close
+ac271068343bc62f2c9018a6dd1bad0ebd8128c2 sctp: fix possible UAF in sctp_v6_available()
+72b680cfc609bade65a3da1195557bda1876938f net: vertexcom: mse102x: Fix tx_bytes calculation
+f671550b04bcbfef81cdbd47010c33120c36b06c drm/rockchip: vop: Fix a dereferenced before check warning
+1fe92f7552d6663c0b14cd36cf74eafa0775ffa6 net: fix data-races around sk->sk_forward_alloc
+67679883c6bf0830a35838597b207421ecf31c09 mptcp: error out earlier on disconnect
+b0c82d8753e7f271f880f30e346868e0e4269565 mptcp: cope racing subflow creation in mptcp_rcv_space_adjust
+8c252f69f12d28ea9c211291d9655fd272bc81ca net/mlx5: Fix msix vectors to respect platform limit
+9b76e5d89524aa467d54ac5f670219de811d8db0 net/mlx5: fs, lock FTE when checking if active
+d119d606e72e87016f9c7f8dfeb84fab1cb19ad6 net/mlx5e: kTLS, Fix incorrect page refcounting
+b18621425e1a8b6fc230f895c8d39410359cec51 net/mlx5e: clear xdp features on non-uplink representors
+00e800546a9d47b29e813ba8a3e205d25f430158 net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
+7664ad827844bb708b935fd069e74ff6defbdd5e net/mlx5e: Disable loopback self-test on multi-PF netdev
+ea271614b6141fb67fd7fd52b9a5b24fd36addfe drm/i915/gsc: ARL-H and ARL-U need a newer GSC FW.
+50e89eff9a826323a7fb1a45469789563090be12 virtio/vsock: Fix accept_queue memory leak
+22a48686d89f50d8f1b1a543caf9957e3eadde27 vsock: Fix sk_error_queue memory leak
+8c7d3b741194ecd875a5d25c0000640742e5be21 virtio/vsock: Improve MSG_ZEROCOPY error handling
+935e67746dcc4ee7ae39e163b40ae4bd190b83e5 Revert "RDMA/core: Fix ENODEV error for iWARP test over vlan"
+b872a75856f968d317cacb7a99ac51c5a837c7e4 drivers: perf: Fix wrong put_cpu() placement
+b5fb758f1cd5372d6122bee8bdb25b62c39a5671 Bluetooth: hci_core: Fix calling mgmt_device_connected
+10a00cb40e2a5b2f4b49923b1b1c9e5e6a10e9b4 Bluetooth: btintel: Direct exception event to bluetooth stack
+a01fdd4e5085a56506ec5eda9a30fac71fd3ce05 drm/panthor: Fix handling of partial GPU mapping of BOs
+ea15a991dbc9034b96c694acd5ab41699356d760 net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
+4e76938c0434d82f24d9c4d5b66deda1ffabe533 net: phylink: ensure PHY momentary link-fails are handled
+77c22cc14f063456767c268efd51d6daa2a59eab samples: pktgen: correct dev to DEV
+8a95706e299cc415600bf87170576969a6246062 net: stmmac: dwmac-mediatek: Fix inverted handling of mediatek,mac-wol
+d98222a61e8282b2d9370ab8b321cf49d35da017 net: Make copy_safe_from_sockptr() match documentation
+9ba8374d24519ff107ac3ff5af326107b582fa59 stmmac: dwmac-intel-plat: fix call balance of tx_clk handling routines
+61496c23e047768e2833c91f9fc2f82bea2f39ec drm/vmwgfx: avoid null_ptr_deref in vmw_framebuffer_surface_create_handle
+3e74ade50524b854f96b720cdf323a51142b8de9 net: ti: icssg-prueth: Fix 1 PPS sync
+90ed21835d186e3309d2af3dcd831d5add710dcc bonding: add ns target multicast address to slave device
+16016975588e180e0ae6bd69a6e41cd0df62adc5 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+3c3d19b3b63f4d0f9bdcfde72ac7fd5d7cf4e2fd ARM: fix cacheflush with PAN
+2d7edb384ed5327df8ab61375d9921e2948b9b74 tools/mm: fix compile error
+a887056a07e5a69f9424d3323305a89607760ae7 Revert "drm/amd/pm: correct the workload setting"
+45387eabd54080be7792d4f0bf9525bb185f59bc drm/amd/display: Run idle optimizations at end of vblank handler
+87bc1a7f797d2e4084cb57dfc0854940f6bf9c8e drm/amd/display: Change some variable name of psr
+9ba0c92a84dea8a06140df831f9d55fd1d4c8d36 drm/amd/display: Fix Panel Replay not update screen correctly
+56946fa1abb3331c17005e2b44c4f9e8f08b4a46 x86/CPU/AMD: Clear virtualized VMLOAD/VMSAVE on Zen4 client
+cb41b8133c4f6c90d522ce2cbc8fc3c03fa90ada x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+f435ed8267cee13c971922db507436b297c16631 x86/stackprotector: Work around strict Clang TLS symbol requirements
+1eac5c84d7d2288611f0eb227829489bfce09961 mm: fix NULL pointer dereference in alloc_pages_bulk_noprof
+6f693e2890fccf68931251ec0892f60cc2cba002 ocfs2: uncache inode which has failed entering the group
+73b3a0ede5a9552f81fd1f5400920755a8b18e83 crash, powerpc: default to CRASH_DUMP=n on PPC_BOOK3S_32
+0edd37397ba7a77461e8127f2b88dff5018ab850 sched/task_stack: fix object_is_on_stack() for KASAN tagged pointers
+d946c1297467e870781ace8778bdaefa021b2515 fs/proc/task_mmu: prevent integer overflow in pagemap_scan_get_args()
+e714344a7acc6cf5dc44716596fb6ee7bb536b53 mm/mremap: fix address wraparound in move_page_tables()
+e3eb2e76dbd42285ecb12b1da318acb70c360e70 mm: revert "mm: shmem: fix data-race in shmem_getattr()"
+9652041a827b7dedf85fe0e9f4703008d5e4b7c2 vdpa: solidrun: Fix UB bug with devres
+eb65fa7c23f51ef40a5eac8a264251fd0d361f09 vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+068427b264d5554f72db8d91d1a7ffbd7320cff2 vp_vdpa: fix id_table array not null terminated error
+92bb1f955ac2d8f3c20978bd4e112610aa5676dd ima: fix buffer overrun in ima_eventdigest_init_common
+ea6d8eb3f20a7ec85734076c6c4d3002c60143b2 evm: stop avoidably reading i_writecount in evm_file_release
+b509a67f59e4fefece10c4bac739bdffdbb4804a KVM: selftests: Disable strict aliasing
+b05123d848db6132ce1d7d5c68a42c68c5c06097 KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
+d1e209eeeb0ee027018d105dba13cdc8003afd80 KVM: x86: Unconditionally set irr_pending when updating APICv state
+c821710b704cce7e1bf1c2e35fcffcc1df9a432f KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+abdd0148f0b7a9dfdb5448275ee8804d165a3a8d nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+dfc3d55f9f7485474f631f7757da47a2bf294124 nommu: pass NULL argument to vma_iter_prealloc()
+1912072e7890adaac4f60cb2cdc66d75dc1ad1af tpm: Disable TPM on tpm2_create_primary() failure
+791276955339c7393dff5365c480f0d0b8ec02ef mm: page_alloc: move mlocked flag clearance into free_pages_prepare()
+c99493cc798aa96d96a20b04f3d7c7f61c3a330a ALSA: hda/realtek - Fixed Clevo platform headset Mic issue
+773583e22fb4455ef04ebc52c9ff16fc0f4b7d88 ALSA: hda/realtek - update set GPIO3 to default for Thinkpad with ALC1318
+32c8071f7638d4a264824208d5e8c1e9822943a9 ALSA: hda/realtek: fix mute/micmute LEDs for a HP EliteBook 645 G10
+94feca56598911e30c52b53d78d45d385a0994eb mptcp: update local address flags when setting it
+f5a0262e981f9c6fffae4664a32359fae9ee9914 mptcp: hold pm lock when deleting entry
+fb31234570a3d99031eb5f766cbbbff5262e9169 mptcp: pm: use _rcu variant under rcu_read_lock
+80bce6aa74f0a4cabb9af7e07983890bc00a443d ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+e809a1ba084bb7d8b0dfc4713e946a61a14ea8aa nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+3f22e876ee84c513f00a8921266a8297a39f05a5 LoongArch: Fix early_numa_add_cpu() usage for FDT systems
+b62eee13ecf6bd0ead69e2dd38c1cefcd2233452 LoongArch: Disable KASAN if PGDIR_SIZE is too large for cpu_vabits
+c864e12254e5d0cabe36bbd4ee0121d6189dc152 LoongArch: Add WriteCombine shadow mapping in KASAN
+59f2fc424231d4f535ab5996937dcdad010a4381 LoongArch: Fix AP booting issue in VM mode
+d86fd02c02279ed07c3766c8bb05d63f4d9807c1 LoongArch: Make KASAN work with 5-level page-tables
+d851c35cd727d0fcd56b001275591797b8a48707 selftests: hugetlb_dio: fixup check for initial conditions to skip in the start
+843cc664c8acbf4e3cffdfbfb58823f3c72b4797 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+9390a31d680737d064a5b163e2d330bdcc9011d0 Revert "drm/amd/display: parse umc_info or vram_info based on ASIC"
+67e67526e211611e31d70e101fa54e12c9eb3294 btrfs: fix incorrect comparison for delayed refs
+4c7501b05357c45bd2bde0db31443766ea8e8000 mailbox: qcom-cpucp: Mark the irq with IRQF_NO_SUSPEND flag
+da7b4e07fec97117897426d4b441d829f87f2dbc firmware: arm_scmi: Skip opp duplicates
+ab8ce1c4cba6d0ba602111718251ddefe2f2d6d9 firmware: arm_scmi: Report duplicate opps as firmware bugs
+005923fae8df2150edd78d7951c0019b4227ef66 mmc: sunxi-mmc: Fix A100 compatible description
+0a01ccdf5a9b4b3e115bb938c53a39f94b7ecbc7 drm/bridge: tc358768: Fix DSI command tx
+941397884f1eb0ea35be0fae571e735f36772329 drm/xe: handle flat ccs during hibernation on igpu
+8f79693378cb3e3bce953997a9599ba7ff7936b7 drm/xe/oa: Fix "Missing outer runtime PM protection" warning
 
---===============6604982941988399221==--
+--===============8959402095409968989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-44eab56a63d9-607a6f53002e.txt
+
+5f9452cae32ad01b31bab5aec9e17d7da9ad9cc3 netlink: terminate outstanding dump on socket close
+35bae651a19376be23af7685df7c12b17a06efdd sctp: fix possible UAF in sctp_v6_available()
+5a19181054af0d5b7f6ebf4c17c23fe4eed39e97 net: vertexcom: mse102x: Fix tx_bytes calculation
+0d93f50a3ba879e815ecf2847ff68d2226ffc16c drm/rockchip: vop: Fix a dereferenced before check warning
+50936a83fcbdc774cc43444eb6a401441dd2885e mptcp: error out earlier on disconnect
+0914c15ce498662700667bf0ad477177ca57be58 mptcp: cope racing subflow creation in mptcp_rcv_space_adjust
+9fc6f8f6740d30f2721f2020909fa1f77db4871f net/mlx5: fs, lock FTE when checking if active
+7bc9e3a28ad5e5130d9a5e3cd1ae8b8dae091ed7 net/mlx5e: kTLS, Fix incorrect page refcounting
+bd33f6ccc75d4f69905fc88e953270fe268a1217 net/mlx5e: clear xdp features on non-uplink representors
+697839bc72cf2ba2aca276d310eb96ec60587bba net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
+f873e7fc8ffd22d2803d63890c593fcf6966c727 virtio/vsock: Fix accept_queue memory leak
+defe3be3b6d2c0948e7565f8f0081bd007b8a36f Revert "RDMA/core: Fix ENODEV error for iWARP test over vlan"
+e000276c452f5bea8f7c34f0f4bebb8844c520e9 Bluetooth: hci_core: Fix calling mgmt_device_connected
+33c6928e674ea2b2ddf40d32ed099ea8f646904d Bluetooth: btintel: Direct exception event to bluetooth stack
+e569fa1b157796f929708c433d0c3111619ce645 net/sched: cls_u32: replace int refcounts with proper refcounts
+f30760f6fafc8201554956838a95f6155df2941b net: sched: cls_u32: Fix u32's systematic failure to free IDR entries for hnodes.
+1b3b47268b01c722fdf7bc6044e4dcfd96144afb samples: pktgen: correct dev to DEV
+91f4c3c852caaabf97dca2b7029e82bb8457785b net: stmmac: dwmac-mediatek: Fix inverted handling of mediatek,mac-wol
+3e691216a982d64e79c1d4ede40c6403b4a1d109 net: Make copy_safe_from_sockptr() match documentation
+1c94d3a0cd0ed15ba8d1647f50ddfc73c0150fe9 net: stmmac: dwmac-intel-plat: use devm_stmmac_probe_config_dt()
+c0d6b4f472efd65545e327f8a9371d6c3058d391 net: stmmac: dwmac-visconti: use devm_stmmac_probe_config_dt()
+66b1bdc21d740fdb7f71905ac2584aa11233475c net: stmmac: rename stmmac_pltfr_remove_no_dt to stmmac_pltfr_remove
+a60885fc445ffd10aa3fca525978509dc0a5ec8d stmmac: dwmac-intel-plat: fix call balance of tx_clk handling routines
+81469fad36f0dd2e67b59879b075a2b87b84a9e1 net: ti: icssg-prueth: Fix 1 PPS sync
+96af5aafaf26bda9ccbef85e8b2ee447789e75f0 bonding: add ns target multicast address to slave device
+3e3e8a95bc066c413e83af077611f66779db7205 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+f2ae61327720a772857ebcaafd91e62631b5377d tools/mm: fix compile error
+d9e974f2b1d2e287d11abfdab65f6b8c596371ab x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+d4efe5007befd7ab12bcd4740d1649309341e992 mm: fix NULL pointer dereference in alloc_pages_bulk_noprof
+5b7051cc00080ffd97284184498b205c16d0eda4 ocfs2: uncache inode which has failed entering the group
+f03d91c881a62c75f71fbfbd84aca48e28723630 mm: revert "mm: shmem: fix data-race in shmem_getattr()"
+bc6661e70d5e77f580a036a162fdc5738cf0dd70 vdpa: solidrun: Fix UB bug with devres
+43cb3f472357d7fb919e01d5bb9711e89ecb51b0 vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+93042da1b0537e64c45ac0fdf8270cdf15c54af0 vp_vdpa: fix id_table array not null terminated error
+8f4eaecd10c8643016fa37bebc82b489d62af6d2 ima: fix buffer overrun in ima_eventdigest_init_common
+31e6a21a2e41c51b8bc5ba66e3333e887ea65569 KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
+e78383e5967cb1aff9f0caa5d1029d852df5eb7d KVM: x86: Unconditionally set irr_pending when updating APICv state
+a90a9c8af75adbe31b32a8850140f996b7dea4e4 KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+ea66ccffb495a61a829f2e6619b442ce09c49697 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+73d92c1fe6891eee5529d5eae188aa71abc47987 nommu: pass NULL argument to vma_iter_prealloc()
+80ff5bc844341982618d2a5bdcc795d09809edff ALSA: hda/realtek - Fixed Clevo platform headset Mic issue
+cc76c5eafcfafff4617ad14f91750b4bbf6ad331 ALSA: hda/realtek: fix mute/micmute LEDs for a HP EliteBook 645 G10
+dad7aa14c4431ee8b5cc5f5dd1eb47323b630604 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+80348c2856456b888646c375dd6dc348263fa512 nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+e990637b4fcb7bea84519bd2c5774d5fdfc0cfee LoongArch: Fix early_numa_add_cpu() usage for FDT systems
+b1230e87607d618bbf05264dbe5fdd57200d0df1 LoongArch: Disable KASAN if PGDIR_SIZE is too large for cpu_vabits
+f389b432f340c42d7f1db4afdea8d73bbbdc7440 LoongArch: Make KASAN work with 5-level page-tables
+d63b1ce1adc9ad8abfb0e2f9e650c9400a821f98 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+6996f73441d4fbf268092816e7c12fc70b352bee mmc: sunxi-mmc: Fix A100 compatible description
+607a6f53002e3c4f6a6b54949baa303ca2fed1df drm/bridge: tc358768: Fix DSI command tx
+
+--===============8959402095409968989==--
