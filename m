@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5341903274385786674=="
+Content-Type: multipart/mixed; boundary="===============8849111723678380784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 Nov 2024 12:09:53 -0000
-Message-Id: <173184539391.205687.10138885220149971592@gitolite.kernel.org>
+Date: Sun, 17 Nov 2024 12:10:38 -0000
+Message-Id: <173184543845.207793.12505304043333028228@gitolite.kernel.org>
 
---===============5341903274385786674==
+--===============8849111723678380784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 46c50ca3f7b0c8b29289817dac7d8a8adf9aee48
-    new: 76881f4e83bcf1a9aa27bcc87c346ba8f3374f9b
-    log: revlist-46c50ca3f7b0-76881f4e83bc.txt
+    old: 76881f4e83bcf1a9aa27bcc87c346ba8f3374f9b
+    new: b2b6fd1ba1386a2a4add02fed95fdb0ff544e34d
+    log: revlist-76881f4e83bc-b2b6fd1ba138.txt
+  - ref: refs/heads/tip/urgent
+    old: c8df2d2a9199e221808177b7450a86a15915440c
+    new: 468fbe038f2fc42547db8ba47c9e552e76f52eeb
+    log: revlist-c8df2d2a9199-468fbe038f2f.txt
 
---===============5341903274385786674==
+--===============8849111723678380784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46c50ca3f7b0-76881f4e83bc.txt
+Content-Disposition: attachment; filename=revlist-76881f4e83bc-b2b6fd1ba138.txt
+
+468fbe038f2fc42547db8ba47c9e552e76f52eeb Merge branch into tip/master: 'x86/urgent'
+83ec97f62b406a8a136a6cdfec36080df89ba1fb Merge branch into tip/master: 'core/merge'
+77618aa8085d8ba2da820ed284d0a993d374b658 Merge branch into tip/master: 'core/debugobjects'
+08c12b3e1128ac8a57c7e417a63859d878b1054e Merge branch into tip/master: 'irq/core'
+8f9829af108393fc1aee0f767f5280e45c569bdd Merge branch into tip/master: 'locking/core'
+54d81818337351ea27c5b4312dfc0849e9d24feb Merge branch into tip/master: 'objtool/core'
+1e0679065440ca38bd6ff72e4d689c570256c991 Merge branch into tip/master: 'perf/core'
+45c4861f08d2a3c824c3b0f704eb2d16408bd587 Merge branch into tip/master: 'ras/core'
+e239d09c486edc6ddca5030a5f6ab14ef2f45a23 Merge branch into tip/master: 'sched/core'
+964d90ca8128d96a5e64bf7ca049c6cd2792b9bc Merge branch into tip/master: 'timers/core'
+b1cdef8b72e8a9866d22a48bb2b21b4166928603 Merge branch into tip/master: 'timers/vdso'
+e8e4d87ab26da8428fc8125b2457edab63d93f0f Merge branch into tip/master: 'x86/cache'
+3571feb8b9f7debee9ec117c28f60d2a0f40ea78 Merge branch into tip/master: 'x86/cleanups'
+7ab3fd99ff4e75cca7c5c90490a85a33e17fb95c Merge branch into tip/master: 'x86/cpu'
+5635a83caa709a53813383a63296388b48f2f3c6 Merge branch into tip/master: 'x86/microcode'
+d6dd293862f8bfa15a19c317291c3040d74aaf17 Merge branch into tip/master: 'x86/misc'
+57b1628e4735132982c2a2960e9d5d907dd0b1fa Merge branch into tip/master: 'x86/mm'
+83baa403af23345ddf407d41f0f5ba3aa17a7d7f Merge branch into tip/master: 'x86/platform'
+7b2295423fd5292d89dd9e534b4785a77b76ac38 Merge branch into tip/master: 'x86/sev'
+c2e577c927aeeb68424fcdafb81f1497428d97c4 Merge branch into tip/master: 'x86/sgx'
+b2b6fd1ba1386a2a4add02fed95fdb0ff544e34d Merge branch into tip/master: 'x86/tdx'
+
+--===============8849111723678380784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c8df2d2a9199-468fbe038f2f.txt
 
 ed6cbe6e5563452f305e89c15846820f2874e431 ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
 9e9b0cf9319b4db143014477b0bc4b39894248f1 ARM: 9420/1: smp: Fix SMP for xip kernels
@@ -49,6 +81,6 @@ e06bc45bef9aca52c6bdcb56aa6d392d99516ac3 Merge tag 'drm-fixes-2024-11-17' of htt
 b84eeed05a8823074866924f4c072bdf2d533f5d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in shmem_getattr()"
 4a5df37964673effcd9f84041f7423206a5ae5f2 Merge tag 'mm-hotfixes-stable-2024-11-16-15-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-76881f4e83bcf1a9aa27bcc87c346ba8f3374f9b Merge branch 'linus'
+468fbe038f2fc42547db8ba47c9e552e76f52eeb Merge branch into tip/master: 'x86/urgent'
 
---===============5341903274385786674==--
+--===============8849111723678380784==--
