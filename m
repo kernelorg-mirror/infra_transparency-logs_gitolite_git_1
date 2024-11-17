@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 17 Nov 2024 10:10:49 -0000
-Message-Id: <173183824984.116249.6623656451063865736@gitolite.kernel.org>
+Date: Sun, 17 Nov 2024 10:11:19 -0000
+Message-Id: <173183827958.116599.9119524120829893629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: ede132a5cf559f3ab35a4c28bac4f4a6c20334d8
     new: 68b3bca2df00f0a63f0aa2db2b2adc795665229e
     log: |
