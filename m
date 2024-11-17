@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Sun, 17 Nov 2024 23:42:02 -0000
-Message-Id: <173188692239.988339.8730408248420218122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Sun, 17 Nov 2024 23:49:50 -0000
+Message-Id: <173188739062.994419.4389489375579502365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: frederic
 changes:
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
+  - ref: refs/tags/rcu.release.v6.13
+    old: 9c18f2f8b42b4b14ce83e1157b3c7ef8d5925806
+    new: 0000000000000000000000000000000000000000
