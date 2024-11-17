@@ -1,56 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============4985591566880523483=="
+Content-Type: multipart/mixed; boundary="===============0720628849018806201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 17 Nov 2024 19:19:06 -0000
-Message-Id: <173187114604.728705.7665386551915275228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 17 Nov 2024 19:27:19 -0000
+Message-Id: <173187163921.735983.15018583041291201173@gitolite.kernel.org>
 
---===============4985591566880523483==
+--===============0720628849018806201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 905825f9add979c9cbeaeefa7c0b608290e5619c
-    new: ab6acf7ab6001f138e42de2985dc5ff505643116
+  - ref: refs/heads/usb-next
+    old: aa03bda68af74e2079ae5e064f61a3d3d0b0ffc4
+    new: 237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a
     log: |
-         ab6acf7ab6001f138e42de2985dc5ff505643116 updates due to new stable releaases.
+         40c974826734836402abfd44efbf04f63a2cc1c1 usb: ehci-spear: fix call balance of sehci clk handling routines
+         51cdd69d6a857f527d6d0697a2e1f0fa8bca1005 Revert "usb: gadget: composite: fix OS descriptors w_value logic"
+         5d2fb074dea289c41f5aaf2c3f68286bee370634 usb: dwc3: ep0: Don't clear ep0 DWC3_EP_TRANSFER_STARTED
+         02a6982b0ccfcdc39e20016f5fc9a1b7826a6ee7 usb: dwc3: gadget: Fix checking for number of TRBs left
+         b7fc65f5141c24785dc8c19249ca4efcf71b3524 usb: dwc3: gadget: Fix looping of queued SG entries
+         61440628a4ffe0639c4f69a6ffa46c3a0bead3d5 usb: dwc3: gadget: Cleanup SG handling
+         f5313c8b418c2efb9c0581d8066c5ae8c60c47de usb: dwc3: gadget: Remove dwc3_request->needs_extra_trb
+         9e5cb0978f7fc828363c55c58698a43b26069fec dt-bindings: connector: Add time property for Sink BC12 detection completion
+         3b9d67e7e9237cb91f4830456e45f7e213ce42c3 dt-bindings: usb: maxim,max33359: add usage of sink bc12 time property
+         237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a usb: typec: tcpm: Add support for sink-bc12-completion-time-ms DT property
          
 
---===============4985591566880523483==
+--===============0720628849018806201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731871147 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1731871140-903330d6db566a26702b9e8a7dd9d282f1df6931
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731871645 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1731871638-6d2879654a05965999ad505cd0d90eb3b3be0e27
 
-905825f9add979c9cbeaeefa7c0b608290e5619c ab6acf7ab6001f138e42de2985dc5ff505643116 refs/heads/master
+aa03bda68af74e2079ae5e064f61a3d3d0b0ffc4 237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc6QasbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PA8P/jQ1SuurviBoM+5xSbD/
-6wRG/XcElZdf7wqWiK+ESjRSWejQw9t0KTf6div2K/lyGngHLxEw5GWLgNUKLdsn
-nM+gHrntmWyZNtPDT0Et0cK90bavtLPfDHis558jZ0eMqYjT8HfO5gY0Sx5UXkYQ
-bWakyYTHmOx9sDGKsoyhdJL4dV/MfpLxNBZN5ImGhbv8HDAOItLUugHXyF/SMry9
-pzDpdIIStVGNcMPLFxagtIkUhmyhYJdprn3XzgJg5UNltW0L1zu/qQN63oQUV70P
-3FkUmEmu2lmQ7AVusqdXqO3sO+O46eHmr4uky1eAmk854AdU8EKmn2sTUwqOTShz
-2QVXOpMkTuJHZTFPSyP6aj4eAQIVlcM7UrJuDfumMQyorKNTL4bpnjo465aUd6Ck
-yXS9BdwauUSN22UkUO1Vop9WlM1d2zihr5+bYn7eqEqMScPvwThPvI3iDasjhu1D
-fbgH8QcKoFBpfwMNYHQFjSVC74yoIShP6a6Ics4yOauBBLj3ENbXD7JbISjFQmvK
-/18RV9HrqvE9PIHAUTlP58bPXq2aTSZDNmUXYDq/ixhKDehYhuWHLcpTE1N1jWUb
-0Kg02q9s1eCg3mT9kQah/y707Yq5X07Tge+8MfVXqToNBfEHdmI/XVLtfumr0UH/
-o0vZzmTvop/C08BsnOOvVzDp
-=zjQt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc6Q50bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZpgP/3Rmo/nxmfKxpxJ0XB0N
+owOtJamt08sa+Ro18JLZnsill0MPl5M7JCxi416yvorzma7NlPf43lGaOroSt7gE
+qR+TcPStmJ+TU2TcX2UB2iUay4VxLhqyyoVoSYFditLufmLwXKx/foZVh8tBHihj
+hVNq/33L4w/U4NB9OmW3sfCZGCAW+301hXQM2nFWJ/HahaAQndE5lVInWboE+2ai
+k8KZyV0sSrGgZ04/av5L0w5Zko7LnVgk1V0ORZBPIIelCdMm6/O7ZvfV1bojVcuk
+gLE/kMf6IqPo0KDkCrs8onhUl9F2Bc0EOW+57zNMnXfkMt+bsO8JqkDGix2rsH7z
+Umx4JW52N1g6BFH7bBBSbVgVDo+Xv+3qlgkersA9FelH96RgGtvJ0jFLTY6ehe8y
+x5mlSzjGleYyVbtcHinKic2jBcyWTgdgTF0S2+S3b1kziiW37fvfhs5FQJ5RfVR/
+f1+UAmLCmjyKQ7EqZx6hbuGokoRp4SWEsth+XEtZRBb+NOsFFeoT5cAQ2nzs2wsm
+o2EgXKzhSzlpHA6TBDGMoJY4G4j5Xnp4vZp/vSDSUdOWbBaXC8LWhr3gKPMCNEi9
+L9AXGOQIIfakz9d9WIuD5zJW2HtjuB6/46hjAfPnO6yV7SwhBB+eq9h2EwEXLkzs
+iAsAnVy1d0rPL99LTp4SVEKO
+=v4lU
 -----END PGP SIGNATURE-----
 
---===============4985591566880523483==--
+--===============0720628849018806201==--
