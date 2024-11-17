@@ -1,59 +1,137 @@
-Content-Type: multipart/mixed; boundary="===============8503053707679656945=="
+Content-Type: multipart/mixed; boundary="===============2489843074284668662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 17 Nov 2024 19:27:45 -0000
-Message-Id: <173187166519.736322.11473870046711394395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sun, 17 Nov 2024 19:48:02 -0000
+Message-Id: <173187288280.798905.15734028792399169470@gitolite.kernel.org>
 
---===============8503053707679656945==
+--===============2489843074284668662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 4a5df37964673effcd9f84041f7423206a5ae5f2
-    new: f66d6acccbc08b4146f4c2cf9445241f70f5517d
-    log: |
-         a5ca1dc46a6b610dd4627d8b633d6c84f9724ef0 x86/CPU/AMD: Clear virtualized VMLOAD/VMSAVE on Zen4 client
-         577c134d311b9b94598d7a0c86be1f431f823003 x86/stackprotector: Work around strict Clang TLS symbol requirements
-         8d9ffb2fe65a6c4ef114e8d4f947958a12751bbe x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
-         f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         
+  - ref: refs/heads/b4/b4-sysfs-const-bin_attr-cb
+    old: 216b83e0b4d86a2170ccde16f4a8117e32c02d85
+    new: 7a315c5c3a11f198244918c63efbc9205fc501a1
+    log: revlist-216b83e0b4d8-7a315c5c3a11.txt
 
---===============8503053707679656945==
+--===============2489843074284668662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-216b83e0b4d8-7a315c5c3a11.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1731871671 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1731871663-9ba4ef8a86153bcd90604de553ee9080303bbcdb
+2fa4ae72bb6c0863eaee5762fad3dfbf47e83c4c nvmem
+f385dfae9366ba372f3abf072bd0215614ce831b p2pdma
+b5971456ee106435b0ef3a9e3002efc53f7dd44b devcoredump macro
+883caead40c058a98725b15d6df862aa9ff9eafd devcoredump
+5647f54a05b05b6facbcfede4a6a28b7ace1b12b firmware loader macro
+c6f2887e1d480127ab9841adaac552ffba1ff0e4 firmware_loader
+664c7c7356dca02d78dbae0d08ed017c6b78f63f scsi macro
+c656da46158f46179a0865ca3e5e410b8eae78e0 scsi
+0e687e4bcaf38046225b8195997868c93ed1ea83 x86
+a6699fd6feade19069c5a5e5ec14e3cfeeaf7d79 module 1
+d37edc59c90bd6ac6c227397a1a4f9a02ad810a9 acpi
+0f9eed63e695e66e6b02163657cf065ddbc5baa5 zorro macro
+5e27401b088590d2676b08bc25ac4bbe10df05a0 zorro
+5668d7987e2db1cd76f6f369adb75ea610a4e382 w1 dedup
+cee915e34b3d2455c95dacde48d73aba8cb3a550 w1 macro
+6709cdab0045f9e1978815e9a848ca188ad94d26 w1 const
+6d1dd352115778490ca5e1cb53701a10e40b20e6 habanalabs macro
+849222c060622c545558d569d014cdb8c52423c6 habanalabs
+d904a71eeaa221a9d27762fefc72a8e71d90d51f rapidio macro
+f3775ff2c9475e35c0a717e27189744547f8a6c9 rapidio
+f415820e4216489b543fe4608656d4f04101ba4c psy: ds2780: macro
+a95cd706c15a885cc7968d5f13d07a0b79fcb090 psy: ds2780
+a6991deb5ccace666d7b5e77f8f930e5080a5458 psy: 2781: macro
+042eaa6b0809a623351b311b83db3c68503648e1 psy: ds2781
+87789be030c4f8685d2f39784fb1fd9809ba3698 psy: olpc: macro
+62b726051694ed97dc650793418b964bb04d14d3 psy: olpc
+3a37f14988d79e4a983284df741abe141f615531 opal-core: macro
+1d699aebc8304d3a1f398e95a0be44678a55c073 opal-core
+b1a1b2f2afe2825d34dfa9f8b73bd1fecbc99c14 kheaders
+70a5bfc50f1f6f07647bf54cbc279138c09bfc73 simple attribute
+e2828e6cea09b276bb8ab45098fe0b145c6ccf8f notes
+7df0d0560bb4a0ae75ab371d0f78ed9d5364b8bb acpi
+c18ca5c3e6d166a9136270661ba07a725116e23e i915
+36a3d24a2f434fee8511fe8c91a9373c13c3dda9 int3400
+6d925016a77ad9cb03d633fde007fcd9b4103ba7 rci2 table
+b4033ba41f54841415d86f9dac6d704c60faa88a dmi
+2fe80739c4695c1fa1d6682422f529df2796b85e module
+07179c93095d7d4f40ec0f84209bf339cbcc0bf4 pci
+be2b5e0deaa3d206b5fd46c89cd53a847126e543 apci macro
+332ec48bd98fc0af81fdbdf822ce9ac9abb45f8f pci
+86868c2411441a911cce58c11c39092fe70b7fb9 bridge
+dedabe75ea0112533b4aabae4a13ea79f68db1fd pch_phub macro
+ab3fd60b8fd95c01d324de54e3234bd4085670d7 pch_phub
+6c6d3cf7039ea3a9719b6715123c0aae2505d305 sram
+2f906a144b0fd22fdb87c870d99209fedb4dd7f7 max6875 macro
+0ac2a7b384c2c9dcfe44952c89b63cf5fe2f244b max6875
+320389b4e8c70477b4e25a15340aa191cb72f4e5 ds1682 macro
+eadf5d1dc29f3894e5d461f5dae29bd4736f32f4 ds1682
+d7486864a88c05f8622c40c5ef3c886b0775923b lpfc macro
+b9defce72dc5baa891b4bb3587b6908f86059dec lpfc
+c7884704e10e2c0bb140ea50c8f5384ab47fbaa3 amdgpu psp
+d1b7616f20b1ba7d8618740a8e72db90277224f3 fwlog macro
+123f809ba4a01e46f21d29c81b99843897f85900 fwlog
+17bdfd60b62993b8935ce2c9e85799efb5461f4a wmi-bmof
+dd0168db9abc1ad7cc80adc0110bef0a56460a54 lima macro
+4c1daed4b973da08bac8b61175d179c750fa01ad lima
+afb506306acd7ab10a45e6d89c8aa77643cba78b amdgpu_hdcp
+d1afd57c7d25744fd98d50fb9b9289ac3b31458a udlfb perms
+3182fd79f86191c952418eb2489b9d8747452f71 udlfb macro
+eb9f1cfe050130b1225a2e4eec719be37d443242 udlfb
+6edc7458fe9e4cfa971c9a7118351b7177f04940 radeon macro
+8eb02168c36002dbbb6ca4bf2c95e79caaf2ed64 radeon
+5c6988e2b107ec8b94e5f149528a40f3eff509e9 acpi
+984fdacc05e5605c802f65f192719f713b5056c5 i915 1
+99b2c2b51faf9d81666c088b602aa2dc245b0576 i915 2 macro
+c5054f0abd87c87b5385485720d975fde70d0257 i915 2
+28e439bfbdb5bff070659699b8da0d15bef6e21b 3w-sas
+746675480c592d0f5c6e738a04256c666d45ccb5 scsi/ipr macro
+5a49e209e9e85a9b989479756069b535d1b9c6e7 scsi/ipr
+85c4120f22e3b54f2a28afecab3a1ed50d93e4d0 qedf macro
+531b6ac7bba54ab5a3d7a542784fc5a2e12271b7 qedf
+768fd4606651dac74ad066d1033ecbcf3ad6ad67 qedf 2
+b318681b4f23c1ead75d800a7d32d3abbc50a837 BIN_ATTR_ADMIN_WO
+e4ad3931d314fe98c791df369c970a8f9bb85e10 arcmsr macro
+b3faa6f37b9d9b013de0a9a58bdfaa53f78c272b arcmsr
+62fef3be7b9de159c24a1c6a48e3cad7f3d4bdfb qla2xxx macro
+1b4c1e4d3bbde9839e90d723ed47df88488204c3 qla2xxx
+562910158cf68ef241374e9dc0d764f6a9cd7f1b qla4xxx macro
+9b137a8f28a7f2e8eca1ec54f191e4a5d10408d0 qla4xxx
+25c828dff27080b8615ef2326b3441107699b714 ks8995 macro
+95e5df98086d2c7236c9d53c0677b8c47e33a69b ks8995
+14b8f67b7e142cc363d96c47e5657d0627138d56 qlcnic macro
+ca97368c407aa284d8fef737d228c35987031d78 qlcnic
+50b6b5ba3268f3b8b29fb0e16a6eb07131ae4874 netxen macro
+a2d9b10812aca0f85640970a7ccadf21f17b44b5 i2c eeprom
+d9085ee6601746fb39b6ee686e42223f859e67b7 solo6x10
+446de3c5102a268d3d56b512da5f09b83d58e656 gsmi macro
+d54f711bd9389da00722d06870b588a0651ff1de gsmi
+aa2cd77712a06f25a984837c4fbd52de089980d3 memconsole macro
+62595b80c23f8ad0e4be95fada927cb9515721b0 memconsole
+94e9a3b821db183c15a824905211401f4a28eac0 google/vpd
+f9172aea18ee6195495798c143535bb64f28b42b movar
+dcaea6e1865284ec96461d8fe030489b0fca0c10 dmi macro
+078bbfa7fd80c526e162da8ba0330223da5c9786 dmi
+b97b79c6874144df024c578c770f4f7a543ac150 qemu macro
+b89a6cf2046a8741c8ef667432ad7c7fe899b9a8 of
+342b5de4a9223d4718eb2e7dda6cd6ca182388f8 amd/hsmp
+7ebffe7720d832b6d7f4e156d7c401a9df7097ab intel/pmt
+d67c89ae4ac6e50da0c5516aef9e5f5def2c6d7e cistpl macro
+c77991a0983b8beb82498329d2fde751dd9e4868 cistpl
+10e0989a25336abffce116c265d8bc9fdb9b259c fsi macro
+56a5b8d143dd346b908ea2307fe4909b3889ccb2 fsi
+7bbb848005ce1b66a84e429b9679bd0bcaa57f4d sclp_sd
+a3b8958b819fbbd633f0e6d6ee7fcd729328b04e sclp 2 macro
+3d0019c700d003000e21c8136c6e487cf2a0dead sclp 2
+1f28869c5b7640d10551eda6eeb6352ce0eb203b read/write
+7a315c5c3a11f198244918c63efbc9205fc501a1 bin_attrs
 
-4a5df37964673effcd9f84041f7423206a5ae5f2 f66d6acccbc08b4146f4c2cf9445241f70f5517d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc6Q7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D1cQAJtrVpPT2EM6SkVU+V8x
-BQ7rBWeWdpDFlOXoriFdWY0g+uL6VTCDUQGaRTJq796atPXcUX2RR+313IWFroVL
-tkVknW4ld04G+YO8vnrpfikLpLLSILYcqcOcgNMpwrGOz0Xg/3iADFu8Kntds6iZ
-ae4888gtlK17UIU4iArQ0nAE47A5wCChwF8h5g/e5pitmQoBwSTckcfTn7Epffm9
-ZjmJAdzH9QfmWj73PeWspbC0lNqqlEgljgFz2TIiw4YP9W4FS5foNMhNL5qxMFhl
-QoTApyRInp0LNIMp8VJQvLXLpreAzmsgDjim1v3E1mXYxkSugorGEaxoqY/8BwPN
-f0ocHQqO5qIbDGSpWzioqyzO0sYjzIfHG7ALYu4EU5wQsGVRS/M2GcF4QOKT0vM1
-b4K/d7TJIt6eUF93swGEXaSuq+23GmUyRzLTHYdAFhTUWsBFaOsg7rJOwbQ2kglX
-v82UiWq7PaJ20/fE5HBzAMsiAkLFISH21BGESRxH52uUWuuE8+qnjL8BjnPEmBVH
-Ww5qk1PaoKU9ADORknQcCIv9W4l/9vtTvneL+p+Uw29ezFeUpdhd4Kj2bzvNKGJs
-4rP9/wqaOAZPeNQCfRpABuXT4XF4T+AdyYt/02NNk7lW148fPqzQEYXUei9ypE1b
-xt/S2G5+k0Id7XdtqiOZcV2Y
-=T0Ex
------END PGP SIGNATURE-----
-
---===============8503053707679656945==--
+--===============2489843074284668662==--
