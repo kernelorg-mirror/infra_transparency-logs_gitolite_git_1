@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3430935578451791105=="
+Content-Type: multipart/mixed; boundary="===============3003381092537799481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 18 Nov 2024 18:55:24 -0000
-Message-Id: <173195612473.2054904.13999173808558958536@gitolite.kernel.org>
+Date: Mon, 18 Nov 2024 18:55:27 -0000
+Message-Id: <173195612711.2054985.7212196426623556488@gitolite.kernel.org>
 
---===============3430935578451791105==
+--===============3003381092537799481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: dfc14664794a4706e0c2186a0c082386e6b14c4d
     new: d7ef9eeef0723cc47601923c508ecbebd864f0c0
     log: revlist-dfc14664794a-d7ef9eeef072.txt
 
---===============3430935578451791105==
+--===============3003381092537799481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -172,4 +172,4 @@ ac60031f7988a9ff1a977afccb7f5e01da1bbc09 Merge branch 'udp-4tuple-hash'
 a208f417582ffc9e73d2e27a41d1d5c67528be5f net: ethernet: ti: am65-cpsw: enable DSCP to priority map for RX
 d7ef9eeef0723cc47601923c508ecbebd864f0c0 Merge branch 'am65-cpsw-rx-dscp-prio-map'
 
---===============3430935578451791105==--
+--===============3003381092537799481==--
