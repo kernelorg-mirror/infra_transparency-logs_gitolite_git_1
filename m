@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4934680441034948972=="
+Content-Type: multipart/mixed; boundary="===============3162868638345787691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 18 Nov 2024 07:40:42 -0000
-Message-Id: <173191564231.1478540.8452131152221195123@gitolite.kernel.org>
+Date: Mon, 18 Nov 2024 07:41:12 -0000
+Message-Id: <173191567217.1478837.3182257620769086365@gitolite.kernel.org>
 
---===============4934680441034948972==
+--===============3162868638345787691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-mika
     old: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
     new: adc218676eef25575469234709c2d87185ca223a
     log: revlist-2d5404caa8c7-adc218676eef.txt
 
---===============4934680441034948972==
+--===============3162868638345787691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -244,4 +244,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============4934680441034948972==--
+--===============3162868638345787691==--
