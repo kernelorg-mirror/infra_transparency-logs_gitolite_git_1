@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Mon, 18 Nov 2024 09:56:50 -0000
-Message-Id: <173192381049.1588972.18072347204043500374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 18 Nov 2024 09:57:25 -0000
+Message-Id: <173192384507.1589403.3634689027038169563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 8467d8b282b54d87121f70ce78061af004471d0c
-    new: b6370b338e71cf24c61e33880b8f1a0dd5ad0a44
+  - ref: refs/heads/dev-test
+    old: b371623d5593790d9c4799ad5c33dddae1ab3056
+    new: 99febc458813b36cdf83bb70192ec28771bd05f2
     log: |
-         b6370b338e71cf24c61e33880b8f1a0dd5ad0a44 sparc/vdso: Add helper function for 64-bit right shift on 32-bit target
+         50fb2e20e58ee65a8696f7dfbff0857ab14f15e2 erofs: fix blksize < PAGE_SIZE for file-backed mounts
+         a49a74321ff34524ea3b729b0fefcd9afdc20427 erofs: clarify direct I/O support
+         99febc458813b36cdf83bb70192ec28771bd05f2 erofs: handle NONHEAD !delta[1] lclusters gracefully
          
