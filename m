@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 18 Nov 2024 15:44:41 -0000
-Message-Id: <173194468103.1884095.4269158070353888557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 18 Nov 2024 15:46:33 -0000
+Message-Id: <173194479374.1886532.10736766900228687571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/for-netdev
-    old: 7a8f269aafbf34145d1dc7ac69d0eae679b212a7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/ata-6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f17dd4c4574ffc44530fa44d020274af40ff123e
