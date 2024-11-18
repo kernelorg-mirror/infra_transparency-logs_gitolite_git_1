@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 18 Nov 2024 20:29:40 -0000
-Message-Id: <173196178064.2130017.6347196250293684008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 18 Nov 2024 20:44:24 -0000
+Message-Id: <173196266478.2141238.16495325449657209434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/pwrctl
-    old: e826ea4c7f26fac8198e6a7cfaa38b39f3296c9a
-    new: 3055f91478b6d65a98b0e73009e096c131834e58
+  - ref: refs/heads/tmp.master
+    old: 65b7fd68ccbb49904444cdf8be30a9a41f9d61df
+    new: 6b2341c59d5eea416829afd33d090d5b396ca5b4
     log: |
-         ed34908c93e5e124df34466e6ce6d78b7f3f4ca0 PCI/pwrctrl: Rename pwrctl files to pwrctrl
-         3055f91478b6d65a98b0e73009e096c131834e58 PCI/pwrctrl: Rename pwrctrl functions and structures
+         68835370a6746944bcc60b0bf552d0a669bd8be0 core: Add method to get the vmlinux BTF filename, allow overriding it via env var
+         c55dacfcb5a647df983c2ec44588455dbf74db49 tests default_vmlinux_btf: Introduce test for using BTF by default
+         73ba91cd924542175c2ef8d836f29c87b096e4e0 pahole: Honour exclusive BTF loading
+         f10755edd8961ff961b17bdab0424606d9ff4cfa tests default_vmlinux_btf: Cover the no args segfault too
+         6b2341c59d5eea416829afd33d090d5b396ca5b4 core, libctf: Check if constructor arguments are NULL before using them
          
