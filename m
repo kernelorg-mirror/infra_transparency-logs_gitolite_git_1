@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 18 Nov 2024 10:50:07 -0000
-Message-Id: <173192700763.1634950.748905896097463124@gitolite.kernel.org>
+Date: Mon, 18 Nov 2024 10:50:35 -0000
+Message-Id: <173192703580.1635225.2790661920973434918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 99febc458813b36cdf83bb70192ec28771bd05f2
     new: 0bc8061ffc733a0a246b8689b2d32a3e9204f43c
     log: |
