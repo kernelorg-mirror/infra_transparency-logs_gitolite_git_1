@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 18 Nov 2024 23:18:03 -0000
-Message-Id: <173197188314.2269665.7753066744941551343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Mon, 18 Nov 2024 23:25:49 -0000
+Message-Id: <173197234913.2277065.5801381669908767813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 6f5f581b577b422dc8b595da335bb4be91710147
-    new: e6495d593e60fc22e2bd78c4644f88144e0e881c
+  - ref: refs/heads/linus-next
+    old: 5d05633c27470b11417d4dd5aa9d00c43bbbf538
+    new: 6f9dfbd5bd86f54c62ebd3a7b41fb37ac4520762
     log: |
-         7a1a31385fe2d7f9c9b84e9d88fab3ac3d40a8ee i2c: designware: Add ACPI HID for DWAPB I2C controller on FUJITSU-MONAKA
-         3d6168ecb6cd0db8a68ccb25131be0e1881baf62 dt-bindings: i2c: mv64xxx: Add Allwinner A523 compatible string
-         f8c01038b70142d08b1d47e73a5ac3a864eb17bb dt-bindings: i2c: nomadik: add mobileye,eyeq6h-i2c bindings
-         3f1187be400bd529e38a3e9d6c764f813945cddd dt-bindings: i2c: nomadik: support 400kHz < clock-frequency <= 3.4MHz
-         c22d11605331ee77ef001a33dff4f38c5c7d2d06 i2c: nomadik: switch from of_device_is_compatible() to of_match_device()
-         da104a0ab2a48aebe3167ccbab8cece435d0a123 i2c: nomadik: support Mobileye EyeQ6H I2C controller
-         9fb9f1a0dee6018b5fc2502300ecea1ba4fd31e7 i2c: nomadik: fix BRCR computation
-         e6495d593e60fc22e2bd78c4644f88144e0e881c i2c: nomadik: support >=1MHz speed modes
+         b70ef42405de7d91d38e729884b1a27ed0a247d8 Merge tag 'timers-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into linus-next
+         4ffbc6f078c35ff11fae4b97e5096751d3e6a73b Merge tag 'bpf-next-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next into linus-next
+         045f3fbb9dd6e017094b192602e89cfd89cd7fb8 Merge tag 'linux_kselftest-next-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest into linus-next
+         f39cea386462a4d392058ee2343532d5e69b90b8 Merge tag 'x86_cpu_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into linus-next
+         b19468e2891a56da168f52ca7062d46ccc0befd3 Merge tag 'devicetree-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux into linus-next
+         6f9dfbd5bd86f54c62ebd3a7b41fb37ac4520762 Merge tag 'hid-for-linus-2024111801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid into linus-next
          
