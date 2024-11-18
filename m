@@ -1,132 +1,367 @@
-Content-Type: multipart/mixed; boundary="===============3848812750715658936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Mon, 18 Nov 2024 21:54:41 -0000
-Message-Id: <173196688136.2201345.16431450010779926077@gitolite.kernel.org>
-
---===============3848812750715658936==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Mon, 18 Nov 2024 22:03:52 -0000
+Message-Id: <173196743251.2208673.12351150971750461818@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/linus-next
-    old: a1884c45ab21f14e97878454afac8576e4fa3b70
-    new: 5d05633c27470b11417d4dd5aa9d00c43bbbf538
-    log: revlist-a1884c45ab21-5d05633c2747.txt
-
---===============3848812750715658936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1884c45ab21-5d05633c2747.txt
-
-3d973b98d2744cfced1f06167c83e2cc2d7b63d5 dt-bindings: trivial-devices: add onnn,adt7462
-c5f02e0218e13371d71c9074516ce3c61406ccf2 dt-bindings: interrupt-controller: ti,sci-inta: Add missing "#interrupt-cells" to example
-b70ea8781988a0e81e183c27af9b391b7991ec3b dt-bindings: interrupt-controller: fsl,mu-msi: Drop "interrupt-controller" property
-a6fa1f9e32f573faf53f9587ddbb70a0b9ab8c9f dt-bindings: Fix array property constraints
-f24f669d03f884a6ef95cca84317d0f329e93961 x86/mm: Don't disable PCID when INVLPG has been fixed by microcode
-fbe4ba6c5c7c6bb61321ea65721e3c937e8e82cb dt-bindings: fpga: altr,fpga-passive-serial: Convert to yaml
-61595012f28036a58293df5a2ab75f80ca15c327 HID: simplify code in fetch_item()
-ae9b956cb26c0fd5a365629f2d723ab2fb14df79 HID: simplify snto32()
-c653ffc283404a6c1c0e65143a833180c7ff799b HID: stop exporting hid_snto32()
-8b7fd6a15f8c32760c2026a62dcf55219b4da15b HID: bpf: move HID-BPF report descriptor fixup earlier
-52cd1906ef6b93d638a78a34765c38c7edadd2ff HID: core: save one kmemdup during .probe()
-7316fef4b993c4435f9fe55e7f2590baf25621ec HID: core: remove one more kmemdup on .probe()
-6fd47effe92b794c32f08504c2c64d1e40bbb543 HID: bpf: allow write access to quirks field in struct hid_device
-0b838d768ccdbdfbcaed5f4b18b4bf63e53a0e0d selftests/hid: add dependency on hid_common.h
-4fb41dfde0699796b955eb94e7b8037a67b4b3a5 selftests/hid: cleanup C tests by adding a common struct uhid_device
-72c55473fc8c82b06df79473f04c5231d51580d7 selftests/hid: allow to parametrize bus/vid/pid/rdesc on the test device
-645c224ac5f6e0013931c342ea707b398d24d410 HID: add per device quirk to force bind to hid-generic
-e14e0eaeb040899f7cb363cdfdf8fbee84a45f08 selftests/hid: add test for assigning a given device to hid-generic
-fb6c0583a1435ace7242d3763ea0dde93522c727 HID: logitech-hidpp: Remove feature_type from hidpp_root_get_feature()
-4005667d3a09d832236c8d0ba598e510b6a20560 HID: i2c-hid-of: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-63cafaf47a834fa15d80238f9d8181d32931be17 HID: ishtp-hid-client: replace fake-flex arrays with flex-array members
-aa68d2bd9befe8615852b0ab41b3bd5abeae0979 HID: Fix typo in the comment
-29bf3116cf2973bfaacce52e4e3a3b77719bae52 of:of_numa: remove unused macro
-1d31c6fc86c09a2ed08e71a6bfae74bb1d7b116b dt-bindings: writing-schema: Add details on YAML text blocks
-6ea2a6fd3872e60a4d500b548ad65ed94e459ddd HID: corsair-void: Add Corsair Void headset family driver
-ac0cba683772991b1100e2b26065c188e00a46fe HID: intel-ish-hid: Add firmware version sysfs attributes
-6ba55951e70bf7a8d89c03aa5612d2e0c81ded6d logic_pio: Constify fwnode_handle
-f68303cf1cf2fb96e20df5499c194f1fe5bab9e2 PCI: Constify pci_register_io_range() fwnode_handle
-ec8c2329da1a8695b3fc80ba67cad9dc75d9a3ec of: Constify struct device_node function arguments
-9c63fea9acd077701fd67bbc21b1e77d6b98b7e0 of: Constify struct property pointers
-7118782dfb4ac101b2a9cf1fa7bb95e43d398a9e of: Constify of_changeset_entry function arguments
-3539089bcc86806d5705f094f46b3dbd61606961 of: Constify safe_name() kobject arg
-d79616b04f0e08178ceb716a5d2ef60ab723d532 of/address: Constify of_busses[] array and pointers
-8a6e02d0c00e7b62e6acb74146878bb91e9e7e31 of: reserved_mem: Restructure how the reserved memory regions are processed
-00c9a452a235c61f099504783badd9a7675ff5a5 of: reserved_mem: Add code to dynamically allocate reserved_mem array
-b2b8a75e1d88c551a0b30d44d0be552210219eea HID: Remove default case statement in fetch_item()
-2e030910fa90a1e46333c092c8bd00746a911be5 of: module: remove strlen() call in of_modalias()
-7b2daa648eb75ec75a6ebf5fce5629b758ea06df HID: debug: Remove duplicates from 'keys'
-ff39b0bbc2a4cc7f424eda30e52b07a68f82da04 HID: Add IDs for Kysona
-30c32d05294575c27bdb2fa13c67cd1b601bf400 HID: Kysona: Add basic battery reporting for Kysona M600
-94ec1cd82f55ebbf5c0d63c8aa7f849fdab2b535 HID: Kysona: check battery status every 5s using a workqueue
-9372b6c4ed80f474810d562058b625309827e36e HID: Kysona: add basic online status
-a025b0dbd83f85cf81ff447431cfd8b2d3cacb0a HID: wacom: Set eraser status when either 'Eraser' or 'Invert' usage is set
-2e592244c4874c5e7808ac27f62443e8ff87d901 HID: replace BUG_ON() with WARN_ON()
-9bc089307e8dff7797233308372b4a90ce8f79be HID: bpf: Fix NKRO on Mistel MD770
-cee9faff2f65d00fe8a56c1223c9c52435eb525d HID: bpf: Fix Rapoo M50 Plus Silent side buttons
-b6d8c474e26517f944208e4645a2a09a6eeee88e HID: bpf: drop use of Logical|Physical|UsageRange
-02ac5f9d6caec96071103f7c62b5117526e47b64 of: property: add of_graph_get_next_port()
-58fe47d6ac7413172e1fa88324fb1b4c0eb2c0a2 of: property: add of_graph_get_next_port_endpoint()
-3d4b0149b4d4e558b196fb874713d6bcec10b3f5 of: property: use new of_graph functions
-b345b5b20708b05ade61362f740cf5e61d50fd82 ASoC: test-component: use new of_graph functions
-75e3d9622f3b49904eff3950074ac3c6c6214151 ASoC: audio-graph-card: use new of_graph functions
-0d4f080e9fe497d053f72b12f053a7f6c4998c29 ASoC: audio-graph-card2: use new of_graph functions
-c005d3776ac77a168b7a791bfd662e533595cfeb gpu: drm: omapdrm: use new of_graph functions
-78cd57bbb4529690d152a5dce409dd91fa1a8b9b fbdev: omapfb: use new of_graph functions
-393194cdf11e397705fd5824976b6b8c0757dbe7 media: xilinx-tpg: use new of_graph functions
-104edc6efca628389295392ceb87623fe10c41f6 x86/cpufeatures: Rename X86_FEATURE_FAST_CPPC to have AMD prefix
-1ad466706671436994ec7e71305f44692fed989a x86/cpufeatures: Add X86_FEATURE_AMD_HETEROGENEOUS_CORES
-b0979e53645825a38f814ca5d3d09aed2745911d x86/cpu: Enable SD_ASYM_PACKING for PKG domain on AMD
-45239ba39a5279e9efc671774e2eef29df4d2484 x86/cpu: Add CPU type to struct cpuinfo_topology
-3eef25ab0d89cb1e55699a4d242c5afe17dbbd07 x86/amd: Use heterogeneous core topology for identifying boost numerator
-0c487010cb4f79e451ac9e7cc47494cb21ac3566 x86/cpufeatures: Add X86_FEATURE_AMD_WORKLOAD_CLASS feature bit
-e6e6a303f83d1dcd32dcd1ab0d04ef5b7b7be646 x86/cpu: Fix formatting of cpuid_bits[] in scattered.c
-a9c2d9de10332cae9c901f3d7210d54b5999cea2 dt-bindings: input: convert zii,rave-sp-pwrbutton.txt to yaml
-b213f06da235da689d4e8df2d43e17ea1e9c2207 dt-bindings: watchdog: convert zii,rave-sp-wdt.txt to yaml format
-f9759e2b57049f9c4ea8d7254ba6afcf6eb10cd6 dt-bindings: cache: qcom,llcc: Fix X1E80100 reg entries
-b2473a359763e27567993e7d8f37de82f57a0829 of/fdt: add dt_phys arg to early_init_dt_scan and early_init_dt_verify
-110213b8f0e7021819d4db273facb27701bc3381 x86/cpu: Fix FAM5_QUARK_X1000 to use X86_MATCH_VFM()
-be8f7f2281a26abbda26ce37c5ee4674022a7a2f HID: hid-goodix: Return 0 when receiving an empty HID feature package
-253ed2740be0267ef75b181767b1999ab755bb84 HID: hid-goodix: Fix HID get/set feature operation overwritten problem
-138a339e39bb5acf6b0d0d1da91387f5f0a7dabd HID: steelseries: Fix battery requests stopping after some time
-8ee0f23e2672f004e217b38d4fac956cee251c7f HID: steelseries: Add capacity_level mapping
-49a397ad24ee5e2c53a59dada2780d7e71bd3f77 HID: wacom: Interpret tilt data from Intuos Pro BT as signed values
-ae117e622a9290354615a541a18b008442799ed5 HID: rmi: Add select RMI4_F3A in Kconfig
-01d0467488c72e6d30cbc3261a3020080ba02378 dt-bindings: Enable dtc "interrupt_provider" warnings
-67759cfb043ae753fb56c3130375b66276633528 of/fdt: Don't use default address cell sizes for address translation
-045b14ca5c3657dc6c16afa97a00dba17286d3e8 of: WARN on deprecated #address-cells/#size-cells handling
-64ee3cf096ac590e7da2ceac1c390546bff5e240 of/address: Rework bus matching to avoid warnings
-919e0dd4118ee6fafd2d63d31ecf0c98fec7a152 dt-bindings: interrupt-controller: qcom,pdc: Add SAR2130P compatible
-87a2f10395c82c2b4687bb8611a6c5663a12f9e7 HID: magicmouse: Apple Magic Trackpad 2 USB-C driver support
-66ef47faa90d838cda131fe1f7776456cc3b59f2 HID: hyperv: streamline driver probe to avoid devres issues
-f74642d81c24d9e69745cd0b75e1bddc81827606 x86/cpu: Remove redundant CONFIG_NUMA guard around numa_add_cpu()
-20bcb2734bafa2adfbf8fc62542c742df9c46cfd dt-bindings: input: Goodix GT7986U SPI HID Touchscreen
-c8eb2faef11866be7802ff2ce9852890bcfcde16 HID: hid-goodix-spi: Add OF supports
-332857fdac73f1c7b74ad962c07bb39e4c0c145a of: Allow overlay kunit tests to run CONFIG_OF_OVERLAY=n
-28b513b5a683cf1e7125ba54ffe7ecb206ef4984 Merge branch 'dt/linus' into dt/next
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
-9bdb6a40514f45ceb9b6e3a0265780c9b95f81fc Merge tag 'x86_cpu_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into linus-next
-e08e52a28daf2d203e1608d8e0ce993c243f62c5 Merge tag 'devicetree-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux into linus-next
-e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
-65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
-a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
-b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
-9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
-d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
-390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
-359bfdc3c99191aa4266ad582f6bbc182841d11e Merge branch 'for-6.13/corsair' into for-linus
-22380b5f03ae246c02abe361d0a075cd674ca3fe Merge branch 'for-6.13/core' into for-linus
-ffca1be9b4b3a72cf0c2796413101ba425225f48 Merge branch 'for-6.13/bug-on-to-warn-on' into for-linus
-903796855b6152c479bae07dcebded77897f9e1c Merge branch 'for-6.13/bpf' into for-linus
-5d05633c27470b11417d4dd5aa9d00c43bbbf538 Merge tag 'hid-for-linus-2024111801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid into linus-next
-
---===============3848812750715658936==--
+  - ref: refs/tags/bcain-boot-qemu-4.2-18-Nov-2024
+    old: 0000000000000000000000000000000000000000
+    new: 81327432c999c4304b33463010eaf7476032a1ac
+  - ref: refs/tags/v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/tags/v5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
+  - ref: refs/tags/v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
+  - ref: refs/tags/v5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
+  - ref: refs/tags/v5.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
+  - ref: refs/tags/v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/tags/v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/tags/v5.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
+  - ref: refs/tags/v5.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: afdb472867d4677930236a864496939f496de1b9
+  - ref: refs/tags/v5.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: b9442c86eac959e20abb900442e6cc31d2d775d4
+  - ref: refs/tags/v5.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
+  - ref: refs/tags/v5.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
+  - ref: refs/tags/v5.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
+  - ref: refs/tags/v5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+  - ref: refs/tags/v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+  - ref: refs/tags/v6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/v6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
+  - ref: refs/tags/v6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/tags/v6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+  - ref: refs/tags/v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 7614896350aa20764c5eca527262d9eb0a57da63
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/tags/v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
+  - ref: refs/tags/v6.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
+  - ref: refs/tags/v6.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
+  - ref: refs/tags/v6.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 40747115a02c06d398d801301015db7ea182f7f0
+  - ref: refs/tags/v6.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
+  - ref: refs/tags/v6.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
+  - ref: refs/tags/v6.1-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 586cbada421761e98ada6f7de24426456352bfd6
+  - ref: refs/tags/v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d04e483db22823c13c0313b7c43a52529a2e2672
+  - ref: refs/tags/v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
+  - ref: refs/tags/v6.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ac1064c236193fe48bded6f718ad47203870743b
+  - ref: refs/tags/v6.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/tags/v6.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4d21bfe7c007bb471984890c70a39d01141bc65b
+  - ref: refs/tags/v6.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 70e8cafc09cf49a54b6e6df93586b5f918cee6fa
+  - ref: refs/tags/v6.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 68f64a7c43d1a9c933122ee31aa76625693bce50
+  - ref: refs/tags/v6.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: f7d9d87c1b90c4964d2e65120bc7fc2ac98af1c6
+  - ref: refs/tags/v6.11
+    old: 0000000000000000000000000000000000000000
+    new: fa7818b3a6dd56c7956f515d287ed9f80c7bf59a
+  - ref: refs/tags/v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ad7eb1b6b92ee0c959a0a6ae846ddadd7a79ea64
+  - ref: refs/tags/v6.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 985513f98be23b25f42fd33c0d53e27a0a0ad705
+  - ref: refs/tags/v6.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6e47bdbd91c0c22fc9783fc0233ccfdc9b63be9c
+  - ref: refs/tags/v6.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd9d19c02d27518ed40a2231d0e0f072dfcebe33
+  - ref: refs/tags/v6.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 042a071fcf19ce0b699ad7caaa4726915f740dd6
+  - ref: refs/tags/v6.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8e7c1c539395e34648d859c20b0f9478eb5901cc
+  - ref: refs/tags/v6.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8517d20decd39c018e8d7d6bbc5a0ca254c9a007
+  - ref: refs/tags/v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 32758e7a720e4752a824c6062e75f107314e5598
+  - ref: refs/tags/v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
+  - ref: refs/tags/v6.2-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
+  - ref: refs/tags/v6.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+  - ref: refs/tags/v6.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/tags/v6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
+  - ref: refs/tags/v6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
+  - ref: refs/tags/v6.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
+  - ref: refs/tags/v6.2-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/tags/v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/tags/v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
+  - ref: refs/tags/v6.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
+  - ref: refs/tags/v6.6
+    old: 0000000000000000000000000000000000000000
+    new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
+  - ref: refs/tags/v6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+  - ref: refs/tags/v6.6-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
+  - ref: refs/tags/v6.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
+  - ref: refs/tags/v6.6-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 657c707d1c69d838dfc6e35dd528f161503e46de
+  - ref: refs/tags/v6.6-rc5
+    old: 0000000000000000000000000000000000000000
+    new: e6ec05aacec40cf517511763a28ff627157d131d
+  - ref: refs/tags/v6.6-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
+  - ref: refs/tags/v6.6-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/tags/v6.7
+    old: 0000000000000000000000000000000000000000
+    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
+  - ref: refs/tags/v6.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03d1179639b1515dce087335c1fb5c962908683b
+  - ref: refs/tags/v6.7-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
+  - ref: refs/tags/v6.7-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
+  - ref: refs/tags/v6.7-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
+  - ref: refs/tags/v6.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: be59bee58790f9d137cfc11973e856e4f8ab3888
+  - ref: refs/tags/v6.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
+  - ref: refs/tags/v6.8
+    old: 0000000000000000000000000000000000000000
+    new: 90d1f30371ae3337beb01666b226320728d35c70
+  - ref: refs/tags/v6.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
+  - ref: refs/tags/v6.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+  - ref: refs/tags/v6.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
+  - ref: refs/tags/v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
+  - ref: refs/tags/v6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+  - ref: refs/tags/v6.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
+  - ref: refs/tags/v6.8-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
+  - ref: refs/tags/v6.9
+    old: 0000000000000000000000000000000000000000
+    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/tags/v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/v6.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: eb285c4e8b2d05185325214894357eb2275f972e
+  - ref: refs/tags/v6.9-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
+  - ref: refs/tags/v6.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
+  - ref: refs/tags/v6.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
+  - ref: refs/tags/v6.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
+  - ref: refs/tags/v6.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
