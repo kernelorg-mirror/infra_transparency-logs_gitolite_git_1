@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Mon, 18 Nov 2024 08:27:33 -0000
-Message-Id: <173191845346.1515252.5275251776460994873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 18 Nov 2024 08:48:54 -0000
+Message-Id: <173191973450.1532001.10885918321628638394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 4c6aa5941d89401ec1d194167b245345295e0041
-    new: 481f35c28b5349b7521fc6f6e56892ea11c25210
-    log: |
-         481f35c28b5349b7521fc6f6e56892ea11c25210 CI: assign ret to numeric value
-         
+  - ref: refs/heads/crypto-arm-crct10dif
+    old: f1dbc2e4afe00dab1eace57677b96f4e80d79870
+    new: 0000000000000000000000000000000000000000
