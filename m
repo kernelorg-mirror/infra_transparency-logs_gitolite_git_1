@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
 Date: Mon, 18 Nov 2024 13:31:45 -0000
-Message-Id: <173193670528.1768264.14482708256337555772@gitolite.kernel.org>
+Message-Id: <173193670566.1768303.4639098611441385544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/rtc-next
-    old: fb1283bfa25e65c2d1e3c916b3d67af6609573e9
-    new: a06e4a93067cd8f55a74638d45146ddde76574f2
-    log: |
-         a06e4a93067cd8f55a74638d45146ddde76574f2 rtc: m48t59: Use platform_data struct for year offset value
-         
+  - ref: refs/tags/asoc-v6.13
+    old: 0000000000000000000000000000000000000000
+    new: 755d4d343ca383ce70aed2f732403a9ec65d0e90
