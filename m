@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 18 Nov 2024 07:52:48 -0000
-Message-Id: <173191636853.1488130.641890004909516540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Mon, 18 Nov 2024 08:27:26 -0000
+Message-Id: <173191844613.1514921.9752991888028531633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: andy
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
+  - ref: refs/heads/main
+    old: 4c6aa5941d89401ec1d194167b245345295e0041
+    new: 481f35c28b5349b7521fc6f6e56892ea11c25210
+    log: |
+         481f35c28b5349b7521fc6f6e56892ea11c25210 CI: assign ret to numeric value
+         
