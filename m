@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 18 Nov 2024 16:41:46 -0000
-Message-Id: <173194810686.1936083.11176043064351278909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 18 Nov 2024 16:43:48 -0000
+Message-Id: <173194822836.1937094.10365732095778471764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/sched_ext-for-6.13
-    old: 0000000000000000000000000000000000000000
-    new: b85752e88a0b78ba6a56da59c00a27d61bedded8
+  - ref: refs/heads/filedzMyJu
+    old: eeecf953d697cb7f0d916f9908a2b9f451bb2667
+    new: 0000000000000000000000000000000000000000
