@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4207116115200737621=="
+Content-Type: multipart/mixed; boundary="===============3049848063549217002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 18 Nov 2024 14:05:34 -0000
-Message-Id: <173193873481.1797898.13963903589810506932@gitolite.kernel.org>
+Date: Mon, 18 Nov 2024 14:14:15 -0000
+Message-Id: <173193925595.1803273.887666858804457995@gitolite.kernel.org>
 
---===============4207116115200737621==
+--===============3049848063549217002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: 777e5239066dfc6a3e170ec937370aa35faffdb3
-    new: b66eef7e5bbbf2d646ac3274b64fa19ac2130860
-    log: revlist-777e5239066d-b66eef7e5bbb.txt
+  - ref: refs/heads/testing
+    old: 69d7b9391aea96f48d05963516c21717eac620f7
+    new: ca62ae734735ff0d684680df426fa976fc588f62
+    log: revlist-69d7b9391aea-ca62ae734735.txt
 
---===============4207116115200737621==
+--===============3049848063549217002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-777e5239066d-b66eef7e5bbb.txt
+Content-Disposition: attachment; filename=revlist-69d7b9391aea-ca62ae734735.txt
 
 a5ca1dc46a6b610dd4627d8b633d6c84f9724ef0 x86/CPU/AMD: Clear virtualized VMLOAD/VMSAVE on Zen4 client
 577c134d311b9b94598d7a0c86be1f431f823003 x86/stackprotector: Work around strict Clang TLS symbol requirements
@@ -56,11 +56,12 @@ adc218676eef25575469234709c2d87185ca223a Linux 6.12
 1fe06b640c09557bd6da925b41b561c9f04c5c41 hwmon: (max16065) Reorder include files to alphabetic order
 2b4b5b66265f0dac73e1bbfab8184e3bac0ca0e2 hwmon: (max16065) Use bit operations
 d33f84014e7772f8564bd0a9cf8446e474328ba8 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
-e4b7449650b12796134b8b5fcaef4770e7c4592e Merge branch 'hwmon-next' into hwmon-staging
-1982a48d2916b4bcffa0f8762231b02743c5e1f8 Merge branch 'hwmon-tmp108' into hwmon-staging
-43e6ca5f21245f0b9ea76cbc0efaa3c5bdbc5265 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-9579a771b8689324c5679423b7748a5b274ff57a Merge branch 'hwmon-g762' into hwmon-staging
-e194d624f4ad9ffad543709e6205123404dd69ce Merge branch 'hwmon-emc2103' into hwmon-staging
-b66eef7e5bbbf2d646ac3274b64fa19ac2130860 Merge branch 'hwmon-max16065' into hwmon-staging
+bb12bd7bc2767505ae4fe3990b64cc587948c3d7 Merge branch 'hwmon-next' into hwmon-staging
+6d68851b6774768aead9991402a8d993a67760dd Merge branch 'hwmon-tmp108' into hwmon-staging
+668cce620920e52e7c94c8e99ddad5c859d216aa Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+a99b5c10efc9b9fa2aec2fdecd9c7915bde1393f Merge branch 'hwmon-g762' into hwmon-staging
+4c0c400a3ce9e8363b7a75803e01e55674b9e2cf Merge branch 'hwmon-emc2103' into hwmon-staging
+32f8bc34376c3ce6a399b7e4a4c996a789a12c4c Merge branch 'hwmon-max16065' into hwmon-staging
+ca62ae734735ff0d684680df426fa976fc588f62 Merge branch 'hwmon-staging' into testing
 
---===============4207116115200737621==--
+--===============3049848063549217002==--
