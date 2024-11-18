@@ -1,201 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3913303050686292822=="
+Content-Type: multipart/mixed; boundary="===============2359494933781908206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 18 Nov 2024 19:46:56 -0000
-Message-Id: <173195921653.2095983.16737167681944065452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 18 Nov 2024 19:47:30 -0000
+Message-Id: <173195925015.2096321.5263342815808839644@gitolite.kernel.org>
 
---===============3913303050686292822==
+--===============2359494933781908206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: adc218676eef25575469234709c2d87185ca223a
-    new: 23acd177540d7ba929cdc801b73d15d799f654f4
-    log: revlist-adc218676eef-23acd177540d.txt
+  - ref: refs/heads/dev-queue
+    old: 140ceb8eff2454251c56bd23f84bb74e427dab63
+    new: 9760d0d2024d641efae59ac5817cab226c410090
+    log: revlist-140ceb8eff24-9760d0d2024d.txt
 
---===============3913303050686292822==
+--===============2359494933781908206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adc218676eef-23acd177540d.txt
+Content-Disposition: attachment; filename=revlist-140ceb8eff24-9760d0d2024d.txt
 
-8cf9a01edc216b16b5839eb793ac544d2c97ce97 fs: Introduce FOP_ASYNC_LOCK
-2253ab99f2e978d94693d6f63c83aa5b5d4c7839 gfs2/ocfs2: set FOP_ASYNC_LOCK
-318580ad7f2828f6269e0b8819e943ddedda3375 hugetlbfs: support tracepoint
-014ad7c42a69d41aa670df96e41e8796d8645d37 hugetlbfs: use tracepoints in hugetlbfs functions.
-5fadeed64d27e34c9dd42517d0983fdd20a38d99 adfs: convert adfs to use the new mount api
-de25e36d83fcd7bb97528a267caf07bff62bd844 affs: convert affs to use the new mount api
-c3099e72bf4f5d31f0e0fc725fadcf9397e6aab3 befs: convert befs to use the new mount api
-e7572e5deaf3bc36818f19ba35ac8e0c454c8bac rust: types: add `NotThreadSafe`
-913f8cf4f376d21082c6c33d49c8c3aa9fb7e83a rust: task: add `Task::current_raw`
-851849824bb5590e61048bdd3b311aadeb6a032a rust: file: add Rust abstraction for `struct file`
-a3df991d3d0648dabf761cee70bc1a1ef874db8b rust: cred: add Rust abstraction for `struct cred`
-94d356c0335f95412575c4fa3954b48722359c8a rust: security: add abstraction for secctx
-5da9857b127e9d78bb59b4950653e74a2f598529 rust: file: add `FileDescriptorReservation`
-8ad1a41f7e23287f07a3516c700bc32501d4f104 rust: file: add `Kuid` wrapper
-ac681835b6747fc5a0cd40398d4c28210318df32 rust: file: add abstraction for `poll_table`
-7e64c5bc497cf17872b38003307f320e8f077880 NLM/NFSD: Fix lock notifications for async-capable filesystems
-b875bd5b381e114115922944f7a01e31f8b07c2a exportfs: Remove EXPORT_OP_ASYNC_LOCK
-09ee2a670d08b309f5cf93fdeaa97fedc22ee9b7 Merge patch series "Fixup NLM and kNFSD file lock callbacks"
-2b2b1a20db83cf0c3892dac2a6b2a7292c9607d8 Merge patch series "Introduce tracepoint for hugetlbfs"
-9d926f10b7ff4300a5dc36ecc52d061911d027d8 filemap: filemap_read() should check that the offset is positive or zero
-05fba0a11557dfdc1b6895f4a3fb59165669e643 fs: support relative paths with FSCONFIG_SET_STRING
-9c33d85e34c2a9d24c24d8a4830fa404b851bf39 fs: Move clearing of mappedtodisk to buffer.c
-a38117bc0de674c7bed5b4c6c15af4a9deeea17d nilfs2: Convert nilfs_copy_buffer() to use folios
-a04d5f82fa3893aa06386db93883b151b93b11ed mm: Remove PageMappedToDisk
-a6752a6e7fb0537ed9cc22049de06b688821d7b1 btrfs: Switch from using the private_2 flag to owner_2
-fd15ba4cb00a43fb4df42e1f95f94857ad122eea ceph: Remove call to PagePrivate2()
-7735348d9f3a64a2d9a40f39d17265f836f31b10 migrate: Remove references to Private2
-c6bbfc7ce1567eb7928f22d92b6ad34d8e4ea22b Merge patch series "Filesystem page flags cleanup"
-4e40eff0b5737c0de39e1ae5812509efbc0b986e fs: add infrastructure for multigrain timestamps
-b82f92d5dd1a365ab1e13518c8bf799f6fec4518 fs: have setattr_copy handle multigrain timestamps appropriately
-fcd4904e2f6908d5c255fa5818bcf8ad32a6f0e8 netfs: Remove call to folio_index()
-c6a90fe7f080d71271b723490454cfda1f81e4b0 netfs: Fix a few minor bugs in netfs_page_mkwrite()
-e995e8b600260cff3cfaf2607a62be8bdc4aa9c7 netfs: Remove unnecessary references to pages
-9b8e8091c86391333d217e837883a729b9cebac7 Merge patch series "Random netfs folio fixes"
-8fd3395ec9051a52828fcca2328cb50a69dea8ef get rid of ...lookup...fdget_rcu() family
-be5498cac2ddb112c5bd7433d5e834a1a2493427 remove pointless includes of <linux/fdtable.h>
-1fa4ffd8e6f6d001da27f00382af79bad0336091 close_files(): don't bother with xchg()
-cab0515211f483e392d6862021ed008f49058561 move close_range(2) into fs/file.c, fold __close_range() into it
-52732bb9abc9ee5b82ed62edef51be4a255fc78a fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
-c9a3019603b8a8519f1b6d8ae0059bcb2965f8fe fs/file.c: conditionally clear full_fds
-0c40bf47cf2d9e1413b1e62826c89c2341e66e40 fs/file.c: add fast path in find_next_fd()
-1d3b4bec3ce55e0c46cdce7d0402dbd6b4af3a3d alloc_fdtable(): change calling conventions.
-e880d33b49e62a76a23d2dcdb32e088a6553d299 file.c: merge __{set,clear}_close_on_exec()
-8b1bc2590af61129b82a189e9dc7c2804c34400e fs: protect backing files with rcu
-70d7f7dbd98a4d499b46ec9ef2bd1f2698facf2b Merge patch series "File abstractions needed by Rust Binder"
-22018a5a54a3d353bf0fee7364b2b8018ed4c5a6 rust: add seqfile abstraction
-ffcd06b6d13b72823aba0d7c871f7e4876e7916b hfs: convert hfs to use the new mount api
-432f7c78cb000a3151fa0d39585b000312f50d7e hfsplus: convert hfsplus to use the new mount api
-5b00a0f96d0ad39f2551ffdf00e39d4d0ad23795 Merge patch series "adfs, affs, befs, hfs, hfsplus: convert to new mount api"
-945be8ca819e8a1fa2e2f2132475261b26c4f817 jfs: convert jfs to use the new mount api
-c323cbf720526f4feb75f656bc271104b13ecedf hpfs: convert hpfs to use the new mount api
-c1a6b0fc0400f220d110ae17b63a0de5fe82f3b3 ubifs: Convert ubifs to use the new mount API
-b8ea429d7249253ec1fe90dffc648f0668d12385 make __set_open_fd() set cloexec state as well
-6a8126f077f9d1f33613c9fa3dbd9a6774c6c4dd expand_files(): simplify calling conventions
-ee3283c608dfa21251b0821d7bb198c7ae3189f6 timekeeping: Add interfaces for handling timestamps with a floor value
-2a15385742c689a271345dcbb4c28b9c568bc7ce timekeeping: Add percpu counter for tracking floor swap events
-7f2c86cba3c584c7227cddaabdf0ab54c8151e60 fs: handle delegated timestamps in setattr_copy_mgtime
-c86e3c47187ad7fa17f8533a4142453991684b46 fs: tracepoints around multigrain timestamp events
-73a47cf40f84312cb6ea2b3583825d671930b24f fs: add percpu counters for significant multigrain timestamp events
-e3fad0376d80f91b45e0db3f3634f15e1dd22768 Documentation: add a new file documenting multigrain timestamps
-1cf7e834a6fb84de9d1e038d6cf4c5bd0d202ffa xfs: switch to multigrain timestamps
-d0382c698f9c9c80483987e1b4661b5d97a805d4 ext4: switch to multigrain timestamps
-e2e801d6e62507c297ec2c102e24d09c90618e8b btrfs: convert to multigrain timestamps
-234d8895e3ad8ddb93d687d665086bd303901d87 tmpfs: add support for multigrain timestamps
-d7c898a73f875bd205df53074c1d542766171da1 Merge tag 'timers-core-for-vfs' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip into vfs.mgtime
-b40508ca5d5c1ef0b559bc3bd25a2047240b5601 Merge patch series "timekeeping/fs: multigrain timestamp redux"
-c2f8fde8689272a55b9319b69dfe7e8f0e2e9dfe fs: add helper to use mount option as path or fd
-a08557d19ef41439feaa3137687d8b317c1a359a ovl: specify layers via file descriptors
-a89ed67d3c2423069ff2389c89a8a83fbc36bba6 Documentation,ovl: document new file descriptor based layers
-e94fdd5d9aa263ec259e0bc1ae53b89829c09aad selftests: use shared header
-af9199145b1977316b3c752e2124543e320f087f selftests: add overlayfs fd mounting selftests
-58439f6c48a9dc7a12765a6b37a5c43a542ea90f Merge patch series "ovl: file descriptors based layer setup"
-d59dfd625a8bae3bfc527dd61f24750c4f87266c selftests: add test for specifying 500 lower layers
-51ceeb1a8142537b9f65aeaac6c301560a948197 efs: fix the efs new mount api implementation
-fe95f58320e6c8dcea3bcb01336b9a7fdd7f684b rust: task: adjust safety comments in Task methods
-08ef26ea9ab315b895d57f8fbad41e02ff345bb9 fs: add file_ref
-9a8dbdadae509e5717ff6e5aa572ca0974d2101d block/fs: Pass an iocb to generic_atomic_write_valid()
-c3be7ebbbce5201e151f17e28a6c807602f369c9 fs/block: Check for IOCB_DIRECT in generic_atomic_write_valid()
-1eadb157947163ca72ba8963b915fdc099ce6cca block: Add bdev atomic write limits helpers
-424a55a4a9087887fcfcee561648df497701a4a2 uaccess: add copy_struct_to_user helper
-112cca098a7010c02a4d535a253af72e4e5bbd06 sched_getattr: port to copy_struct_to_user
-6474353a5e3d0b2cf610153cea0c61f576a36d0a epoll: annotate racy check
-e6957c99dca5fd919756e6721e798cbadd23445a vfs: Add a sysctl for automated deletion of dentry
-1e756248be2aa03188a9700da5feb3d3f3c91eed fs: Reorganize kerneldoc parameter names
-0cb9c994e71c15555cf8c3d12fda10fa8f5dcdea namespace: Use atomic64_inc_return() in alloc_mnt_ns()
-c2986387430ae6a98e46094bbe669454656f873a vfs: inode insertion kdoc corrections
-2714b0d1f36999dbd99a3474a24e7301acbd74f1 fcntl: make F_DUPFD_QUERY associative
-80d3ab22277e6dea72c0715a6698d12f2682ec38 fs/inode: Fix a typo
-a54fc4932438cfc1f41626d78404237fd5f82e5b mm/page-writeback.c: Update comment for BANDWIDTH_INTERVAL
-98f3ac9ba0ec35ff276e6c64ac9f173efa27df78 mm/page-writeback.c: Fix comment of wb_domain_writeout_add()
-0dfcb72d33c767bbe63f4a6872108515594154d9 coredump: add cond_resched() to dump_user_range
-900bbaae67e980945dec74d36f8afe0de7556d5a epoll: Add synchronous wakeup support for ep_poll_callback
-99bdadbde9c418f29b78b7241732268dbc0a05cc acl: Realign struct posix_acl to save 8 bytes
-8c6e03ffedc5463d1aa1ba89f6ceb082518a3520 acl: Annotate struct posix_acl with __counted_by()
-cdda1f26e74bac732eca537a69f19f6a37b641be pidfd: add ioctl to retrieve pid info
-30dac24e14b52e1787572d1d4e06eeabe8a63630 fs/writeback: convert wbc_account_cgroup_owner to take a folio
-0e152beb5aa1ccdac9aae9fa570a9e039aff7a03 libfs: Create the helper function generic_ci_validate_strict_name()
-3f5ad0d21db80e31894de4c49874ef5dfc5999a7 ext4: Use generic_ci_validate_strict_name helper
-04dad6c6d37d741bad9946a92171bfa637e989f0 unicode: Export latest available UTF-8 version number
-142fa60f61f93805471012f24e029af6d113c5cc unicode: Recreate utf8_parse_version()
-458532c8dfeb24edd5e07467605a6484a728e5c2 libfs: Export generic_ci_ dentry functions
-58e55efd6c72cbc3e76423a1086f7b4d6c2ae9c2 tmpfs: Add casefold lookup support
-5cd9aecbc72c07e8b83e900078669a7d0bc5f98f tmpfs: Add flag FS_CASEFOLD_FL support for tmpfs dirs
-5132f08bd3325602f4de01ccd59537c7f91e1f89 tmpfs: Expose filesystem features via sysfs
-a713f830c9033f0e92f8f036bd49d6f2e03dde3c docs: tmpfs: Add casefold options
-9c8f520389c26b0a55951d494a6016763e8413fe Merge patch series "tmpfs: Add case-insensitive support for tmpfs"
-90ee6ed776c06435a3fe79c7f5344761f52e1760 fs: port files to file_ref
-62eec753cae265002043872ba419d0887fe33ec6 Merge patch series "fs: introduce file_ref_t"
-2ec67bb4f9c08000982d6aa0e72511bcc83caeb6 Merge branch 'work.fdtable' into vfs.file
-aab154a442f9ba2a08fc130dbc8d178a33e10345 selftests: add file SLAB_TYPESAFE_BY_RCU recycling stressor
-e017671f534dd3f568db9e47b0583e853d2da9b5 initramfs: avoid filename buffer overrun
-cb80d9074f2a56c8226657b01f19656584fc3ab5 fs: optimize acl_permission_check()
-a570bad16b9f5252db2f342622bd71febb39a19c fs: Export generic_atomic_write_valid()
-9e0933c21c128d6d8ac4d8aae0babaf9a43100b8 fs: iomap: Atomic write support
-6432c6e723fffd93e5cb65117ff48a3aa734e259 xfs: Support atomic write for statx
-f096207d327692a066954435dafb4bedbc031d9e xfs: Validate atomic writes
-3af5298ce94bb672845adadf347874ba5bcfad2c xfs: Support setting FMODE_CAN_ATOMIC_WRITE
-807a11dab9dc42dc999ece92d1277b3da37ecfab ecryptfs: Convert ecryptfs_writepage() to ecryptfs_writepages()
-064fe6b4752c41cc4d00d1532f65ef98acd107a2 ecryptfs: Use a folio throughout ecryptfs_read_folio()
-497eb79c3191f30467787f81958e75be16c4eb53 ecryptfs: Convert ecryptfs_copy_up_encrypted_with_header() to take a folio
-890d477a0fcdfdd9e15b5d997cbbb05004045b13 ecryptfs: Convert ecryptfs_read_lower_page_segment() to take a folio
-4d3727fd065b2c36a69daa4790e1e8007f051e10 ecryptfs: Convert ecryptfs_write() to use a folio
-de5ced2721f96002c7e6c108242d5ead293dcccc ecryptfs: Convert ecryptfs_write_lower_page_segment() to take a folio
-6b9c0e8137434f2e22a109f68d4e0a66894a1e33 ecryptfs: Convert ecryptfs_encrypt_page() to take a folio
-c15b81461df9d08ff2b8f93b9d051c6f5d2b6483 ecryptfs: Convert ecryptfs_decrypt_page() to take a folio
-bf64913dfe623d6325329e42fb621b3f358ce40e ecryptfs: Convert lower_offset_for_page() to take a folio
-9b4bb822448b473394bef8049cf86850fa2dd904 ecryptfs: Pass the folio index to crypt_extent()
-b4201b51d93eac77f772298a96bfedbdb0c7150c Merge patch series "Convert ecryptfs to use folios"
-6dfc1c1d597f8b6ebffe25f51f013494994f9b84 ext4: Add statx support for atomic writes
-43c696f9d094061e958e31be7f1dae66bc25d389 ext4: Check for atomic writes support in write iter
-b7987a7d69a4a17b7f334f5c100d6729ebcc2ccb ext4: Support setting FMODE_CAN_ATOMIC_WRITE
-299537e9dfac2ecd08e7dae87a6437b92612568a ext4: Do not fallback to buffered-io for DIO atomic write
-fdfa4c02e6dd6c67f5cef8d78c6204e1ff7e12ca freevxfs: Replace one-element array with flexible array member
-267bf1dd0df39f84143a984d36657521591e1984 Merge tag 'fs-atomic_2024-11-05' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into vfs.untorn.writes
-33b091c08ed85e023c21376e6f787355fd46b440 libfs: Fix kernel-doc warning in generic_ci_validate_strict_name
-18d2f10f6284f5bb9c03a759044121c71e5b3b4c tmpfs: Fix type for sysfs' casefold attribute
-65c481f30896750f659345b915b669f78a3c0289 tmpfs: Initialize sysfs during tmpfs init
-552b15103db404c7971d4958e6e28d4e7123a325 Merge patch series "tmpfs: Casefold fixes"
-54079430c5dbf041363ab39a0c254cd9e4f6aed5 iomap: drop an obsolete comment in iomap_dio_bio_iter
-10c35abd35aa62c9aac56898ae0c63b4d7d115e5 cachefiles: Fix incorrect length return value in cachefiles_ondemand_fd_write_iter()
-56f4856b425a30e1d8b3e41e6cde8bfba90ba5f8 cachefiles: Fix missing pos updates in cachefiles_ondemand_fd_write_iter()
-09ecf8f5505465b5527a39dff4b159af62306eee cachefiles: Clean up in cachefiles_commit_tmpfile()
-31ad74b20227ce6b40910ff78b1c604e42975cf1 cachefiles: Fix NULL pointer dereference in object->file
-22f9400a6f3560629478e0a64247b8fcc811a24d netfs/fscache: Add a memory barrier for FSCACHE_VOLUME_CREATING
-a4b2923376be062a243ac38762212a38485cfab1 Merge patch series "fscache/cachefiles: Some bugfixes"
-1c82587cb57687de3f18ab4b98a8850c789bedcf hfsplus: don't query the device logical block size multiple times
-c4d7d90747f4e8b528c8cd0a2d9ac01dc4a9339e fs:aio: Remove TODO comment suggesting hash or array usage in io_cancel()
-75ead69a717332efa70303fba85e1876793c74a9 fs: don't let statmount return empty strings
-ed9d95f691c29748f21bc019de9566b698fdfab7 fs: add the ability for statmount() to report the fs_subtype
-4d7485cff59951c83aa2b6891b24d68b76d86f6f writeback: add a __releases annoation to wbc_attach_and_unlock_inode
-8182a8b39aa227f5b99b8d4d18f296b82ce4b94c writeback: wbc_attach_fdatawrite_inode out of line
-44010543fc8bedad172aa5b6c43480e5d2124497 fs: add the ability for statmount() to report the sb_source
-3a6ffeb127973806704655fe5fcd92141a5e83d5 Merge patch series "fs: allow statmount to fetch the fs_subtype and sb_source"
-39bb1bf0b49495e70d0763a143ad889925c3d373 Merge patch series "two little writeback cleanups v2"
-2f4d4503e9e5ab765a7948f98bc5deef7850f607 statmount: add flag to retrieve unescaped options
-45c9faf50665812a14fc9b40ab9d6cb893792ffd vfs: make evict() use smp_mb__after_spinlock instead of smp_mb
-9fed2c0f2f0771b990d068ef0a2b32e770ae6d48 fs: reduce pointer chasing in is_mgtime() test
-aefff51e1c2986e16f2780ca8e4c97b784800ab5 statmount: retrieve security mount options
-6ac81fd55e8af8e78a716b4ba213c8c6381d94fd Merge tag 'vfs-6.13.mgtime' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+f9d9588157d1654360737220c2c4e03d14c7848a ice: Fix NULL pointer dereference in switchdev
+3d50f4e8d33b7ba7f33d60c05b69a2ddf6fc5808 virtchnl: add support for enabling PTP on iAVF
+ed523bb889befd96650044c9790c0b7568c03727 ice: support Rx timestamp on flex descriptor
+7c858ce3c9f37b912aa58906b165e5c240c61e3d virtchnl: add enumeration for the rxdid format
+da7d774f47998a3816a032959df0220f018893a4 iavf: add support for negotiating flexible RXDID format
+ef82c71e7c980ba67190b2ad06347099389f200e iavf: negotiate PTP capabilities
+9ac9166e8487349992f918f6d32c79ad49941854 iavf: add initial framework for registering PTP clock
+62227b119e4c02ee68338ff8b64d57961cef8feb iavf: add support for indirect access to PHC time
+449ed1deb6b11d258366c14d7e315fdf052abe45 iavf: periodically cache PHC time
+3adcad8548b12ba7a5a7c99a068d802e6426769c libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+e6a1043b648bf179a723be0793df542c3b991c89 iavf: define Rx descriptors as qwords
+822012ae595b92f8f644db696c030704e50b2326 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+fc7274ce4bf02e5f27012aa888b64b1cf1817150 iavf: Implement checking DD desc field
+17e793556d4b1982522a068fab12feb4316975cb iavf: handle set and get timestamps ops
+a1742fc8aa9e55d2634f96903f420c9ad78d8f53 iavf: add support for Rx timestamps to hotpath
+d7cfe8f39528b48eed0e21fdb294396b73323fa4 idpf: Change function argument
+007926fdd0206690a9d0ebd1284f3112b477c8b2 idpf: rename vport_ctrl_lock
+34fe52e84b7cabb6563109972c855abcc63e1938 idpf: Add init, reinit, and deinit control lock
+9760d0d2024d641efae59ac5817cab226c410090 idpf: add lock class key
 
---===============3913303050686292822==--
+--===============2359494933781908206==--
