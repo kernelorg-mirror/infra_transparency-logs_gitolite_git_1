@@ -1,53 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============4481797954339539877=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 18 Nov 2024 16:46:29 -0000
-Message-Id: <173194838914.1941112.11803045510116043597@gitolite.kernel.org>
-
---===============4481797954339539877==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 18 Nov 2024 16:49:35 -0000
+Message-Id: <173194857548.1943240.5998229456419093665@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 8560b2775a08bf511576a18922c3bde920e69494
-    new: c6a2b4fcec5f2d80b0183fae1117f06127584c28
+  - ref: refs/heads/for-6.13/block
+    old: 88d47f629313730f26a3b00224d1e1a5e3b7bb79
+    new: a3f143c461444c0b56360bbf468615fa814a8372
     log: |
-         0c32840763b1579c923b4216c18bb756ca4ba473 platform/x86/intel/pmt: allow user offset for PMT callbacks
-         2b8dc45b8ca31e3a0ed1d71cfc042b9b7af85dfb alienware-wmi: order alienware_quirks[] alphabetically
-         1c1eb70e7d235f5feb7b68861637a5fd0b52a9fd alienware-wmi: extends the list of supported models
-         01bd181d21cf65e43f30948f9216571218732a12 alienware-wmi: Adds support to Alienware x17 R2
-         bfcda5cbcdb642a64d5b8a0229842dca7917ac6e alienware-wmi: create_thermal_profile() no longer brute-forces IDs
-         6674c5a0eeb55143cd10514d0083624e056e7d13 Documentation: alienware-wmi: Describe THERMAL_INFORMATION operation 0x02
-         5c7bebc1a3f0661db558d60e14dde27fc216d9dc platform/x86: panasonic-laptop: Return errno correctly in show callback
-         c6a2b4fcec5f2d80b0183fae1117f06127584c28 platform/x86: p2sb: Cache correct PCI bar for P2SB on Gemini Lake
+         a3f143c461444c0b56360bbf468615fa814a8372 rust: block: simplify Result<()> in validate_block_size return
          
-
---===============4481797954339539877==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1731948414 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1731948385-2514a1f303c94270766976caa4d38d580c023f28
-
-8560b2775a08bf511576a18922c3bde920e69494 c6a2b4fcec5f2d80b0183fae1117f06127584c28 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZztvgAAKCRBZrE9hU+XO
-Ma2NAP0X7t63StNtE9QtSjUo8K4iCSURNGvBL2pB1Ycb3CgRawEA/9d7gExK/2va
-2hT4osOV/dpCSgRA9sF4hvjOzgxnnAs=
-=0Cqb
------END PGP SIGNATURE-----
-
---===============4481797954339539877==--
+  - ref: refs/heads/for-6.13/io_uring
+    old: a652958888fb1ada3e4f6b548576c2d2c1b60d66
+    new: e358e09a894dbcd51fdbbcf62bec1df249915834
+    log: |
+         c750629caeca01979da3403f4bebecda88713233 io_uring: remove io_uring_cqwait_reg_arg
+         e358e09a894dbcd51fdbbcf62bec1df249915834 io_uring: protect register tracing
+         
+  - ref: refs/heads/for-next
+    old: f8908548261ab3133ba1f3b9503a513867c0f148
+    new: 233ae3ee1080ffa921d25403c1e80872d6f81a62
+    log: |
+         a3f143c461444c0b56360bbf468615fa814a8372 rust: block: simplify Result<()> in validate_block_size return
+         c750629caeca01979da3403f4bebecda88713233 io_uring: remove io_uring_cqwait_reg_arg
+         e358e09a894dbcd51fdbbcf62bec1df249915834 io_uring: protect register tracing
+         2ab7aca1f4272b6a6ca2dec95d7af5ff27d30938 Merge branch 'for-6.13/block' into for-next
+         233ae3ee1080ffa921d25403c1e80872d6f81a62 Merge branch 'for-6.13/io_uring' into for-next
+         
