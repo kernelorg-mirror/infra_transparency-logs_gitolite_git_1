@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3801194362239903887=="
+Content-Type: multipart/mixed; boundary="===============5351741863362680303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 18 Nov 2024 16:19:10 -0000
-Message-Id: <173194675053.1913623.11974510709443952700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 18 Nov 2024 16:19:12 -0000
+Message-Id: <173194675230.1913754.14211335155704915861@gitolite.kernel.org>
 
---===============3801194362239903887==
+--===============5351741863362680303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 06090c9b622a7e1f797e775db4c035e0d779b76e
 
---===============3801194362239903887==
+--===============5351741863362680303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============3801194362239903887==--
+--===============5351741863362680303==--
