@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 18 Nov 2024 04:28:12 -0000
-Message-Id: <173190409262.1217274.8581555030068754933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 18 Nov 2024 04:28:23 -0000
+Message-Id: <173190410319.1217472.7915544364774421211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/cpufreq-arm-updates-6.13
+  - ref: refs/tags/v6.12
     old: 0000000000000000000000000000000000000000
-    new: e103a52324e48f002d4a2ce984de5b08edc3916b
+    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
