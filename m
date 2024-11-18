@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 18 Nov 2024 16:53:31 -0000
-Message-Id: <173194881155.1946837.10012421945465931085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 18 Nov 2024 16:54:26 -0000
+Message-Id: <173194886680.1947470.8754963443698801797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/dev
-    old: 7b0033dbc48340a1c1c3f12448ba17d6587ca092
-    new: f8bed73c6c52b726ed3dff200cfeadcfbdfe88d6
+  - ref: refs/heads/fsnotify
+    old: aa52c54da40d9eee3ba87c05cdcb0cd07c04fa13
+    new: 21d1b618b6b9da46c5116c640ac4b1cc8d40d63a
     log: |
-         5dd00ebda337b9295e7027691fa70540da369ff2 f2fs: fix to map blocks correctly for direct write
-         26e6f59d0bbaac76fa3413462d780bd2b5f9f653 f2fs: fix to avoid forcing direct write to use buffered IO on inline_data inode
-         f8bed73c6c52b726ed3dff200cfeadcfbdfe88d6 Revert "f2fs: remove unreachable lazytime mount option parsing"
+         21d1b618b6b9da46c5116c640ac4b1cc8d40d63a fsnotify: Fix ordering of iput() and watched_objects decrement
          
