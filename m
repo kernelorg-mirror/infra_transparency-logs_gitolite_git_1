@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 18 Nov 2024 20:21:58 -0000
-Message-Id: <173196131872.2123674.16520056690648740347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 18 Nov 2024 20:24:46 -0000
+Message-Id: <173196148614.2125712.13211079870413667465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: 592aac418ebdf451fe9b146bc2ca6dfc96921af0
-    new: d506b30df9a87431e015b6edca8d757d24f29e4b
-    log: |
-         d506b30df9a87431e015b6edca8d757d24f29e4b PCI: rockchip-ep: Handle PERST# signal in EP mode
-         
+  - ref: refs/heads/nfs-localio-for-next-ARK-MLperf
+    old: 0000000000000000000000000000000000000000
+    new: 8049b292328a63884583c72114d7de7ea17103c6
