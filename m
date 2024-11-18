@@ -1,1650 +1,379 @@
-Content-Type: multipart/mixed; boundary="===============6028188315402445361=="
+Content-Type: multipart/mixed; boundary="===============1986611666139826694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
-Date: Mon, 18 Nov 2024 22:56:36 -0000
-Message-Id: <173197059686.2251765.8960356330234113315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Mon, 18 Nov 2024 22:58:44 -0000
+Message-Id: <173197072494.2252878.5528941040213847399@gitolite.kernel.org>
 
---===============6028188315402445361==
+--===============1986611666139826694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
-user: djwong
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/atomic-file-commits
-    old: f32e01f5bd394e72fb811debab0b07b10fc6872e
-    new: 028a4189049d8fa583d2f50f270329bcc31539b0
-    log: revlist-f32e01f5bd39-028a4189049d.txt
-  - ref: refs/heads/capture-mount-failures
-    old: 9c1c2de505f3227bd53fa588fef53c4f2a3a70c2
-    new: a99a9a16222d0504af314007a223f3c55f340dfa
-    log: revlist-9c1c2de505f3-a99a9a16222d.txt
-  - ref: refs/heads/defrag-freespace
-    old: ec6d757fb59ca586e09d5f92ef8afdeef3ab043b
-    new: 28d92ea9cd06613301798342de1ec9287bd9f2e6
-    log: revlist-ec6d757fb59c-28d92ea9cd06.txt
-  - ref: refs/heads/djwong-wtf
-    old: 0a5f811c54cff2861c959113484eeb47298f59d2
-    new: 2840bac5596ede01dc2adc066b467b50cc791975
-    log: revlist-0a5f811c54cf-2840bac5596e.txt
-  - ref: refs/heads/fuzz-baseline
-    old: 72905cbe9d7253216e8fd0c32d694e75c25b2fd3
-    new: 7b43f05b9b90e2717dbad88bf8ca2b9c57bf8402
-    log: revlist-72905cbe9d72-7b43f05b9b90.txt
-  - ref: refs/heads/health-monitoring
-    old: 6aa2ba71e7071b8ebc1dd45a3cc65860a4f0eb35
-    new: 4de1c64eb07c9008b2f1ff1ac3114733e36ea143
-    log: revlist-6aa2ba71e707-4de1c64eb07c.txt
-  - ref: refs/heads/master
-    old: f056971a4d2f2314b162e8e2114514dc86cd8515
-    new: 88be6071da67f94af9721e0f5f0afa159b2605f8
-    log: revlist-f056971a4d2f-88be6071da67.txt
-  - ref: refs/heads/metadir
-    old: 8614c3554dd5be8459d35f768f0deb6f4880e9af
-    new: 7464e889ccf048e538033644540a462cc2b8fb17
-    log: revlist-8614c3554dd5-7464e889ccf0.txt
-  - ref: refs/heads/metadir-quotas
-    old: 29f809d5c8692b35764863eada0c4689e837d62e
-    new: 92eeabe100a820cfc3a8062ca1ab1af9659703dd
-    log: revlist-29f809d5c869-92eeabe100a8.txt
-  - ref: refs/heads/protofiles
-    old: d52f68b8acfbbb27e404dbcbd8ac1208e9fcaa8c
-    new: bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36
-    log: revlist-d52f68b8acfb-bbf37b3d0e84.txt
-  - ref: refs/heads/random-fixes
-    old: a980b1dbae61c31ab7f36eb6068ca59de4f65ec6
-    new: 81da220173f06d4ddb01c9852f64595c3d09b0d5
-    log: revlist-a980b1dbae61-81da220173f0.txt
-  - ref: refs/heads/realtime-groups
-    old: 7b4009386ea2b624718992caae7250f23f5a9d43
-    new: 4f840256d1a77f93b967294b6818034bd71c20bd
-    log: revlist-7b4009386ea2-4f840256d1a7.txt
-  - ref: refs/heads/realtime-quotas
-    old: c2a91120c26afd07c089d4a1234061d89661ec94
-    new: f4234cce423e2f93ac1456183f66936883bedbb5
-    log: revlist-c2a91120c26a-f4234cce423e.txt
-  - ref: refs/heads/realtime-reflink
-    old: 2255f777fd8c68c2759d24d60dd6ac4c25637bf7
-    new: e9e934b24143302e3346ff4c6ffb7299bb454221
-    log: revlist-2255f777fd8c-e9e934b24143.txt
-  - ref: refs/heads/realtime-reflink-extsize
-    old: cf8ac7259d7ad04d7d1bb2ef247fa7e8fe258229
-    new: 26056925436ee35b669dbfbd8392a02a2cf833f0
-    log: revlist-cf8ac7259d7a-26056925436e.txt
-  - ref: refs/heads/realtime-rmap
-    old: 14403597ebd8a08b4d5628379cd98a409fa0031f
-    new: a0a851da65bb67b841de8f4290225c49f106919d
-    log: revlist-14403597ebd8-a0a851da65bb.txt
-  - ref: refs/heads/report-refcounts
-    old: e77f5d87e3c8bad9f99e9da04d56d30c9616e8d8
-    new: 055da1430df4e7b3636c766dfeb39e2ef3a1a785
-    log: revlist-e77f5d87e3c8-055da1430df4.txt
-  - ref: refs/heads/upgrade-newer-features
-    old: 0b565a1e76e4c5a885453cd48ecf87980e9d1d28
-    new: 0d1077d3d603de4f812066cef59eb96a22726e67
-    log: revlist-0b565a1e76e4-0d1077d3d603.txt
-  - ref: refs/heads/upgrade-older-features
-    old: e673c13cfa413d887cd82e1e93a1abc58c800cd1
-    new: b7d288e234b7d951d7ad71955a94909b4104560a
-    log: revlist-e673c13cfa41-b7d288e234b7.txt
-  - ref: refs/tags/v2024.11.17
-    old: 0000000000000000000000000000000000000000
-    new: 295055d67d870e53218239337c529ac9ae4a793e
-  - ref: refs/tags/random-fixes_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 56c34df4aec06479c67552a0782b5a71fd10d195
-  - ref: refs/tags/atomic-file-commits_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: f31dc233bb18a262375c9e7bb3c3767409788409
-  - ref: refs/tags/upgrade-older-features_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: a88545bae1ecec623540efb75ba31a4ad43ac54c
-  - ref: refs/tags/metadir_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 75ba7a6143f64e5f7ea3ad841ec5b6e895c55258
-  - ref: refs/tags/protofiles_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 8a771c6bf364414f47b756c5377649e5bfaa2ada
-  - ref: refs/tags/realtime-groups_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 576032818c7af4e81f8d38b44bb6db184cf1c4cb
-  - ref: refs/tags/metadir-quotas_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: f6b545c34942938612b654a220998d63f4d4e34b
-  - ref: refs/tags/realtime-quotas_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 2e971951854d27d71cd43acda7fed08c549a4107
-  - ref: refs/tags/realtime-rmap_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 3ebb3e9cae72cad3e9f991f8a839f91b044849ef
-  - ref: refs/tags/realtime-reflink_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 1a418d4e1cf318e83f6568a4936ebc0d88a9e42c
-  - ref: refs/tags/realtime-reflink-extsize_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 94110ef2379b1fd8236d414cb4c69b70239bd7a0
-  - ref: refs/tags/report-refcounts_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 153ca011f69351e23a7057ad1c793a6062006fb7
-  - ref: refs/tags/defrag-freespace_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 02cd9adfac1681cd3b44ab4320b89dfc14fa9507
-  - ref: refs/tags/capture-mount-failures_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 70dc5e6fe4ab281cbb3b128af89aad187603e5f2
-  - ref: refs/tags/health-monitoring_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 251eef20abf52e7fa37666a64f4bf338faade09d
-  - ref: refs/tags/upgrade-newer-features_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: b5b0da96fc22de8af208c333af8c9a4ed01b0cb2
-  - ref: refs/tags/fuzz-baseline_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 5290e2f309c4fb8d019f3a22e2ab2d6e2c6753ae
-  - ref: refs/tags/djwong-wtf_2024-11-18
-    old: 0000000000000000000000000000000000000000
-    new: e7e8f67df620be9b63517c280d62a75112b071eb
+  - ref: refs/heads/fs-current
+    old: 3411b60e3168cda2f47805dd86ef583f46623399
+    new: 5948ddb4adaa83ab31ef89be4bd78341949bdbaf
+    log: revlist-3411b60e3168-5948ddb4adaa.txt
+  - ref: refs/heads/fs-next
+    old: a048d47fe907bf61b21dc7c593a027e930aeed30
+    new: f39b1af7d88ddeca9227bef7e6444fda467b23f4
+    log: revlist-a048d47fe907-f39b1af7d88d.txt
 
---===============6028188315402445361==
+--===============1986611666139826694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f32e01f5bd39-028a4189049d.txt
+Content-Disposition: attachment; filename=revlist-3411b60e3168-5948ddb4adaa.txt
 
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
+8cf9a01edc216b16b5839eb793ac544d2c97ce97 fs: Introduce FOP_ASYNC_LOCK
+2253ab99f2e978d94693d6f63c83aa5b5d4c7839 gfs2/ocfs2: set FOP_ASYNC_LOCK
+318580ad7f2828f6269e0b8819e943ddedda3375 hugetlbfs: support tracepoint
+014ad7c42a69d41aa670df96e41e8796d8645d37 hugetlbfs: use tracepoints in hugetlbfs functions.
+5fadeed64d27e34c9dd42517d0983fdd20a38d99 adfs: convert adfs to use the new mount api
+de25e36d83fcd7bb97528a267caf07bff62bd844 affs: convert affs to use the new mount api
+c3099e72bf4f5d31f0e0fc725fadcf9397e6aab3 befs: convert befs to use the new mount api
+e7572e5deaf3bc36818f19ba35ac8e0c454c8bac rust: types: add `NotThreadSafe`
+913f8cf4f376d21082c6c33d49c8c3aa9fb7e83a rust: task: add `Task::current_raw`
+851849824bb5590e61048bdd3b311aadeb6a032a rust: file: add Rust abstraction for `struct file`
+a3df991d3d0648dabf761cee70bc1a1ef874db8b rust: cred: add Rust abstraction for `struct cred`
+94d356c0335f95412575c4fa3954b48722359c8a rust: security: add abstraction for secctx
+5da9857b127e9d78bb59b4950653e74a2f598529 rust: file: add `FileDescriptorReservation`
+8ad1a41f7e23287f07a3516c700bc32501d4f104 rust: file: add `Kuid` wrapper
+ac681835b6747fc5a0cd40398d4c28210318df32 rust: file: add abstraction for `poll_table`
+7e64c5bc497cf17872b38003307f320e8f077880 NLM/NFSD: Fix lock notifications for async-capable filesystems
+b875bd5b381e114115922944f7a01e31f8b07c2a exportfs: Remove EXPORT_OP_ASYNC_LOCK
+09ee2a670d08b309f5cf93fdeaa97fedc22ee9b7 Merge patch series "Fixup NLM and kNFSD file lock callbacks"
+2b2b1a20db83cf0c3892dac2a6b2a7292c9607d8 Merge patch series "Introduce tracepoint for hugetlbfs"
+9d926f10b7ff4300a5dc36ecc52d061911d027d8 filemap: filemap_read() should check that the offset is positive or zero
+05fba0a11557dfdc1b6895f4a3fb59165669e643 fs: support relative paths with FSCONFIG_SET_STRING
+9c33d85e34c2a9d24c24d8a4830fa404b851bf39 fs: Move clearing of mappedtodisk to buffer.c
+a38117bc0de674c7bed5b4c6c15af4a9deeea17d nilfs2: Convert nilfs_copy_buffer() to use folios
+a04d5f82fa3893aa06386db93883b151b93b11ed mm: Remove PageMappedToDisk
+a6752a6e7fb0537ed9cc22049de06b688821d7b1 btrfs: Switch from using the private_2 flag to owner_2
+fd15ba4cb00a43fb4df42e1f95f94857ad122eea ceph: Remove call to PagePrivate2()
+7735348d9f3a64a2d9a40f39d17265f836f31b10 migrate: Remove references to Private2
+c6bbfc7ce1567eb7928f22d92b6ad34d8e4ea22b Merge patch series "Filesystem page flags cleanup"
+4e40eff0b5737c0de39e1ae5812509efbc0b986e fs: add infrastructure for multigrain timestamps
+b82f92d5dd1a365ab1e13518c8bf799f6fec4518 fs: have setattr_copy handle multigrain timestamps appropriately
+fcd4904e2f6908d5c255fa5818bcf8ad32a6f0e8 netfs: Remove call to folio_index()
+c6a90fe7f080d71271b723490454cfda1f81e4b0 netfs: Fix a few minor bugs in netfs_page_mkwrite()
+e995e8b600260cff3cfaf2607a62be8bdc4aa9c7 netfs: Remove unnecessary references to pages
+9b8e8091c86391333d217e837883a729b9cebac7 Merge patch series "Random netfs folio fixes"
+8fd3395ec9051a52828fcca2328cb50a69dea8ef get rid of ...lookup...fdget_rcu() family
+be5498cac2ddb112c5bd7433d5e834a1a2493427 remove pointless includes of <linux/fdtable.h>
+1fa4ffd8e6f6d001da27f00382af79bad0336091 close_files(): don't bother with xchg()
+cab0515211f483e392d6862021ed008f49058561 move close_range(2) into fs/file.c, fold __close_range() into it
+52732bb9abc9ee5b82ed62edef51be4a255fc78a fs/file.c: remove sanity_check and add likely/unlikely in alloc_fd()
+c9a3019603b8a8519f1b6d8ae0059bcb2965f8fe fs/file.c: conditionally clear full_fds
+0c40bf47cf2d9e1413b1e62826c89c2341e66e40 fs/file.c: add fast path in find_next_fd()
+1d3b4bec3ce55e0c46cdce7d0402dbd6b4af3a3d alloc_fdtable(): change calling conventions.
+e880d33b49e62a76a23d2dcdb32e088a6553d299 file.c: merge __{set,clear}_close_on_exec()
+8b1bc2590af61129b82a189e9dc7c2804c34400e fs: protect backing files with rcu
+70d7f7dbd98a4d499b46ec9ef2bd1f2698facf2b Merge patch series "File abstractions needed by Rust Binder"
+22018a5a54a3d353bf0fee7364b2b8018ed4c5a6 rust: add seqfile abstraction
+ffcd06b6d13b72823aba0d7c871f7e4876e7916b hfs: convert hfs to use the new mount api
+432f7c78cb000a3151fa0d39585b000312f50d7e hfsplus: convert hfsplus to use the new mount api
+5b00a0f96d0ad39f2551ffdf00e39d4d0ad23795 Merge patch series "adfs, affs, befs, hfs, hfsplus: convert to new mount api"
+945be8ca819e8a1fa2e2f2132475261b26c4f817 jfs: convert jfs to use the new mount api
+c323cbf720526f4feb75f656bc271104b13ecedf hpfs: convert hpfs to use the new mount api
+c1a6b0fc0400f220d110ae17b63a0de5fe82f3b3 ubifs: Convert ubifs to use the new mount API
+b8ea429d7249253ec1fe90dffc648f0668d12385 make __set_open_fd() set cloexec state as well
+6a8126f077f9d1f33613c9fa3dbd9a6774c6c4dd expand_files(): simplify calling conventions
+ee3283c608dfa21251b0821d7bb198c7ae3189f6 timekeeping: Add interfaces for handling timestamps with a floor value
+2a15385742c689a271345dcbb4c28b9c568bc7ce timekeeping: Add percpu counter for tracking floor swap events
+7f2c86cba3c584c7227cddaabdf0ab54c8151e60 fs: handle delegated timestamps in setattr_copy_mgtime
+c86e3c47187ad7fa17f8533a4142453991684b46 fs: tracepoints around multigrain timestamp events
+73a47cf40f84312cb6ea2b3583825d671930b24f fs: add percpu counters for significant multigrain timestamp events
+e3fad0376d80f91b45e0db3f3634f15e1dd22768 Documentation: add a new file documenting multigrain timestamps
+1cf7e834a6fb84de9d1e038d6cf4c5bd0d202ffa xfs: switch to multigrain timestamps
+d0382c698f9c9c80483987e1b4661b5d97a805d4 ext4: switch to multigrain timestamps
+e2e801d6e62507c297ec2c102e24d09c90618e8b btrfs: convert to multigrain timestamps
+234d8895e3ad8ddb93d687d665086bd303901d87 tmpfs: add support for multigrain timestamps
+d7c898a73f875bd205df53074c1d542766171da1 Merge tag 'timers-core-for-vfs' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip into vfs.mgtime
+b40508ca5d5c1ef0b559bc3bd25a2047240b5601 Merge patch series "timekeeping/fs: multigrain timestamp redux"
+c2f8fde8689272a55b9319b69dfe7e8f0e2e9dfe fs: add helper to use mount option as path or fd
+a08557d19ef41439feaa3137687d8b317c1a359a ovl: specify layers via file descriptors
+a89ed67d3c2423069ff2389c89a8a83fbc36bba6 Documentation,ovl: document new file descriptor based layers
+e94fdd5d9aa263ec259e0bc1ae53b89829c09aad selftests: use shared header
+af9199145b1977316b3c752e2124543e320f087f selftests: add overlayfs fd mounting selftests
+58439f6c48a9dc7a12765a6b37a5c43a542ea90f Merge patch series "ovl: file descriptors based layer setup"
+d59dfd625a8bae3bfc527dd61f24750c4f87266c selftests: add test for specifying 500 lower layers
+51ceeb1a8142537b9f65aeaac6c301560a948197 efs: fix the efs new mount api implementation
+fe95f58320e6c8dcea3bcb01336b9a7fdd7f684b rust: task: adjust safety comments in Task methods
+6a1c4c4688355063c8ead7de328c358bd959297a ufs: fix handling of delete_entry and set_link failures
+7f71d6e3462bde7db08058e749667b5d3235fad1 ufs: missing ->splice_write()
+0bfd3e1078c537cd66a8addb1c01835de4234a4c ufs: fix ufs_read_cylinder() failure handling
+65136e46a03f70ee9e5515c401fd89b2de86b66c ufs: untangle ubh_...block...() macros, part 1
+8bec0618a42959b9fecac115c5dbf942675f9776 ufs: untangle ubh_...block...(), part 2
+dce3e8d33aa7588fe9bea5f58796e94ee66091c3 ufs: untangle ubh_...block...(), part 3
+c5df105f7da3448129b120da7dba765bc64ddb62 ufs_clusteracct(): switch to passing fragment number
+426f07ad3e2c9b51bfd93b870a3a9b04644130d0 ufs_free_fragments(): fix the braino in sanity check
+ae79ce9d061bc6cee3b136813b26dd0c735e682d ufs_inode_getfrag(): remove junk comment
+db57044217d609d1d60854e958e28f5d3684d5bc ufs: get rid of ubh_{ubhcpymem,memcpyubh}()
+64f30e80d653c4d5aa0a7f1390789348af0cf8f2 clean ufs_trunc_direct() up a bit...
+6b103cc0ba58c680ab4e59dfa2fca4ceedfb5495 ufs: take the handling of free block counters into a helper
+d9036c488c6ed503e0c251236abae2b7ed679847 ufs: Convert ufs_inode_getblock() to take a folio
+b6250a013d62d100416d4953ae0fcfe8997a8ad4 ufs: Convert ufs_extend_tail() to take a folio
+24a87a0adb2febe62b6cf3e0932a23d99931906f ufs: Convert ufs_inode_getfrag() to take a folio
+14bcb7bb68094f3a8bb7dd8a6a87db910b596f19 ufs: Pass a folio to ufs_new_fragments()
+b57c010e70ff11cce7f6b702d2e3bba1d893580b ufs: Convert ufs_change_blocknr() to take a folio
+08ef26ea9ab315b895d57f8fbad41e02ff345bb9 fs: add file_ref
+9a8dbdadae509e5717ff6e5aa572ca0974d2101d block/fs: Pass an iocb to generic_atomic_write_valid()
+c3be7ebbbce5201e151f17e28a6c807602f369c9 fs/block: Check for IOCB_DIRECT in generic_atomic_write_valid()
+1eadb157947163ca72ba8963b915fdc099ce6cca block: Add bdev atomic write limits helpers
+5b313bcb6e3597dacd893ae9545fd087df46db45 teach filename_lookup() to treat NULL filename as ""
+e896474fe4851ffc4dd860c92daa906783090346 getname_maybe_null() - the third variant of pathname copy-in
+dc7e76ba7a6057e4c12d449db49f026d0ec238ec io_uring: IORING_OP_F[GS]ETXATTR is fine with REQ_F_FIXED_FILE
+424a55a4a9087887fcfcee561648df497701a4a2 uaccess: add copy_struct_to_user helper
+112cca098a7010c02a4d535a253af72e4e5bbd06 sched_getattr: port to copy_struct_to_user
+6474353a5e3d0b2cf610153cea0c61f576a36d0a epoll: annotate racy check
+e6957c99dca5fd919756e6721e798cbadd23445a vfs: Add a sysctl for automated deletion of dentry
+1e756248be2aa03188a9700da5feb3d3f3c91eed fs: Reorganize kerneldoc parameter names
+0cb9c994e71c15555cf8c3d12fda10fa8f5dcdea namespace: Use atomic64_inc_return() in alloc_mnt_ns()
+c2986387430ae6a98e46094bbe669454656f873a vfs: inode insertion kdoc corrections
+2714b0d1f36999dbd99a3474a24e7301acbd74f1 fcntl: make F_DUPFD_QUERY associative
+80d3ab22277e6dea72c0715a6698d12f2682ec38 fs/inode: Fix a typo
+a54fc4932438cfc1f41626d78404237fd5f82e5b mm/page-writeback.c: Update comment for BANDWIDTH_INTERVAL
+98f3ac9ba0ec35ff276e6c64ac9f173efa27df78 mm/page-writeback.c: Fix comment of wb_domain_writeout_add()
+0dfcb72d33c767bbe63f4a6872108515594154d9 coredump: add cond_resched() to dump_user_range
+900bbaae67e980945dec74d36f8afe0de7556d5a epoll: Add synchronous wakeup support for ep_poll_callback
+99bdadbde9c418f29b78b7241732268dbc0a05cc acl: Realign struct posix_acl to save 8 bytes
+8c6e03ffedc5463d1aa1ba89f6ceb082518a3520 acl: Annotate struct posix_acl with __counted_by()
+cdda1f26e74bac732eca537a69f19f6a37b641be pidfd: add ioctl to retrieve pid info
+30dac24e14b52e1787572d1d4e06eeabe8a63630 fs/writeback: convert wbc_account_cgroup_owner to take a folio
+0e152beb5aa1ccdac9aae9fa570a9e039aff7a03 libfs: Create the helper function generic_ci_validate_strict_name()
+3f5ad0d21db80e31894de4c49874ef5dfc5999a7 ext4: Use generic_ci_validate_strict_name helper
+04dad6c6d37d741bad9946a92171bfa637e989f0 unicode: Export latest available UTF-8 version number
+142fa60f61f93805471012f24e029af6d113c5cc unicode: Recreate utf8_parse_version()
+458532c8dfeb24edd5e07467605a6484a728e5c2 libfs: Export generic_ci_ dentry functions
+58e55efd6c72cbc3e76423a1086f7b4d6c2ae9c2 tmpfs: Add casefold lookup support
+5cd9aecbc72c07e8b83e900078669a7d0bc5f98f tmpfs: Add flag FS_CASEFOLD_FL support for tmpfs dirs
+5132f08bd3325602f4de01ccd59537c7f91e1f89 tmpfs: Expose filesystem features via sysfs
+a713f830c9033f0e92f8f036bd49d6f2e03dde3c docs: tmpfs: Add casefold options
+9c8f520389c26b0a55951d494a6016763e8413fe Merge patch series "tmpfs: Add case-insensitive support for tmpfs"
+90ee6ed776c06435a3fe79c7f5344761f52e1760 fs: port files to file_ref
+62eec753cae265002043872ba419d0887fe33ec6 Merge patch series "fs: introduce file_ref_t"
+2ec67bb4f9c08000982d6aa0e72511bcc83caeb6 Merge branch 'work.fdtable' into vfs.file
+aab154a442f9ba2a08fc130dbc8d178a33e10345 selftests: add file SLAB_TYPESAFE_BY_RCU recycling stressor
+e017671f534dd3f568db9e47b0583e853d2da9b5 initramfs: avoid filename buffer overrun
+cb80d9074f2a56c8226657b01f19656584fc3ab5 fs: optimize acl_permission_check()
+53c0a58beb60b76e105a61aae518fd780eec03d9 net/socket.c: switch to CLASS(fd)
+05e555642c4613d5a2438351c705bb2119352757 regularize emptiness checks in fini_module(2) and vfs_dedupe_file_range()
+919a7a1aac29f7f1ec945dccdf084d494991c78c timerfd: switch to CLASS(fd)
+4dd53b84ff23424e2fe1e902decacdb49303e3d3 get rid of perf_fget_light(), convert kernel/events/core.c to CLASS(fd)
+f302edb9d822804e72df3fa6ba270234050c678b switch netlink_getsockbyfilp() to taking descriptor
+1aaf6a7e7520ea4d2d24406fb695195f554d1572 do_mq_notify(): saner skb freeing on failures
+54dac3dacc86e388e0cd3934cf2a0b6fc7a06323 do_mq_notify(): switch to CLASS(fd)
+0d113fcbc25c481508a5d6aabcee703fc19aae49 simplify xfs_find_handle() a bit
+a6f46579d7da68baa8873ea43acdcc354d55a848 convert vmsplice() to CLASS(fd)
+048181992cade404028c287241f570657195c81d fdget_raw() users: switch to CLASS(fd_raw)
+d7a9616ce0348b9d945d5dff82e4b44c0fe75b39 introduce "fd_pos" class, convert fdget_pos() users to it.
+554ceb7a5e14435725ac59a42bf0708f95721405 o2hb_region_dev_store(): avoid goto around fdget()/fdput()
+46b5e18ae8a5b122f21b2e5ce385cf8688a0413f privcmd_ioeventfd_assign(): don't open-code eventfd_ctx_fdget()
+6348be02eead77bdd1562154ed6b3296ad3b3750 fdget(), trivial conversions
+8152f8201088350c76bb9685cd5990dd51d59aff fdget(), more trivial conversions
+20d9eb3b870630f213adfd82d255acd36341b036 convert do_preadv()/do_pwritev()
+65c8941e7dca1c32908a1d4d191701423fe5077b convert cachestat(2)
+d8426e69720a19be7964e014adafc643d27e9e7b switch spufs_calls_{get,put}() to CLASS() use
+00ec41ac16042e8909dc09538d174b3457b1a866 convert spu_run(2)
+44b11a56c3fb1596542fcdea190c1bd7bd67b05b convert media_request_get_by_fd()
+9bd812744db2e1d27712ab1053527bb54e178e4c convert cifs_ioctl_copychunk()
+6b1a5ae9b5886832fb6d52064f6e3c6fcfefce57 convert vfs_dedupe_file_range().
+d000e073ca2a08ab70accc28e93dee8d70e89d2f convert do_select()
+89359897983825dbfc08578e7ee807aaf24d9911 do_pollfd(): convert to CLASS(fd)
+66635b0776243ff567db08601546b7f26b67dd08 assorted variants of irqfd setup: convert to CLASS(fd)
+7133dd5ac603f04bbaca2bcf550cefdc3ccf6201 memcg_write_event_control(): switch to CLASS(fd)
+457a6549394cd680e935bc6743e832ac42f2603a css_set_fork(): switch to CLASS(fd_raw, ...)
+38052c2dd71f5490f34bba21dc358e97fb205ee5 deal with the last remaing boolean uses of fd_file()
+b8cdd2530c7d7156413c5dfc1f4bc83c1d26b446 io_[gs]etxattr_prep(): just use getname()
+a71874379ec8c6e788a61d71b3ad014a8d9a5c08 xattr: switch to CLASS(fd)
+a570bad16b9f5252db2f342622bd71febb39a19c fs: Export generic_atomic_write_valid()
+9e0933c21c128d6d8ac4d8aae0babaf9a43100b8 fs: iomap: Atomic write support
+6432c6e723fffd93e5cb65117ff48a3aa734e259 xfs: Support atomic write for statx
+f096207d327692a066954435dafb4bedbc031d9e xfs: Validate atomic writes
+3af5298ce94bb672845adadf347874ba5bcfad2c xfs: Support setting FMODE_CAN_ATOMIC_WRITE
+807a11dab9dc42dc999ece92d1277b3da37ecfab ecryptfs: Convert ecryptfs_writepage() to ecryptfs_writepages()
+064fe6b4752c41cc4d00d1532f65ef98acd107a2 ecryptfs: Use a folio throughout ecryptfs_read_folio()
+497eb79c3191f30467787f81958e75be16c4eb53 ecryptfs: Convert ecryptfs_copy_up_encrypted_with_header() to take a folio
+890d477a0fcdfdd9e15b5d997cbbb05004045b13 ecryptfs: Convert ecryptfs_read_lower_page_segment() to take a folio
+4d3727fd065b2c36a69daa4790e1e8007f051e10 ecryptfs: Convert ecryptfs_write() to use a folio
+de5ced2721f96002c7e6c108242d5ead293dcccc ecryptfs: Convert ecryptfs_write_lower_page_segment() to take a folio
+6b9c0e8137434f2e22a109f68d4e0a66894a1e33 ecryptfs: Convert ecryptfs_encrypt_page() to take a folio
+c15b81461df9d08ff2b8f93b9d051c6f5d2b6483 ecryptfs: Convert ecryptfs_decrypt_page() to take a folio
+bf64913dfe623d6325329e42fb621b3f358ce40e ecryptfs: Convert lower_offset_for_page() to take a folio
+9b4bb822448b473394bef8049cf86850fa2dd904 ecryptfs: Pass the folio index to crypt_extent()
+b4201b51d93eac77f772298a96bfedbdb0c7150c Merge patch series "Convert ecryptfs to use folios"
+6dfc1c1d597f8b6ebffe25f51f013494994f9b84 ext4: Add statx support for atomic writes
+43c696f9d094061e958e31be7f1dae66bc25d389 ext4: Check for atomic writes support in write iter
+b7987a7d69a4a17b7f334f5c100d6729ebcc2ccb ext4: Support setting FMODE_CAN_ATOMIC_WRITE
+299537e9dfac2ecd08e7dae87a6437b92612568a ext4: Do not fallback to buffered-io for DIO atomic write
+fdfa4c02e6dd6c67f5cef8d78c6204e1ff7e12ca freevxfs: Replace one-element array with flexible array member
+267bf1dd0df39f84143a984d36657521591e1984 Merge tag 'fs-atomic_2024-11-05' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into vfs.untorn.writes
+33b091c08ed85e023c21376e6f787355fd46b440 libfs: Fix kernel-doc warning in generic_ci_validate_strict_name
+18d2f10f6284f5bb9c03a759044121c71e5b3b4c tmpfs: Fix type for sysfs' casefold attribute
+65c481f30896750f659345b915b669f78a3c0289 tmpfs: Initialize sysfs during tmpfs init
+552b15103db404c7971d4958e6e28d4e7123a325 Merge patch series "tmpfs: Casefold fixes"
+537c76629d7855ce11400eaad0137a062bfc15f6 fs: rename struct xattr_ctx to kernel_xattr_ctx
+a10c4c5e01bdab617eaf3aaac9a96c22ddefa97e new helper: import_xattr_name()
+66d7ac6bdb07fbe69ca6971558a996ac04bbb643 replace do_setxattr() with saner helpers.
+0158005aaa3c946ecac9d251c34708a40a85cbe1 replace do_getxattr() with saner helpers.
+60ad149cf395ff0a502976963d9a89c2f5dfe424 new helpers: file_listxattr(), filename_listxattr()
+22a4d1954cf5d51d5aa82eccb0b5fd4d8be92551 new helpers: file_removexattr(), filename_removexattr()
+6140be90ec70c39fa844741ca3cc807dd0866394 fs/xattr: add *at family syscalls
+46a7fcec097da5b3188dce608362fe6bf4ea26ee xattr: remove redundant check on variable err
+54079430c5dbf041363ab39a0c254cd9e4f6aed5 iomap: drop an obsolete comment in iomap_dio_bio_iter
+10c35abd35aa62c9aac56898ae0c63b4d7d115e5 cachefiles: Fix incorrect length return value in cachefiles_ondemand_fd_write_iter()
+56f4856b425a30e1d8b3e41e6cde8bfba90ba5f8 cachefiles: Fix missing pos updates in cachefiles_ondemand_fd_write_iter()
+09ecf8f5505465b5527a39dff4b159af62306eee cachefiles: Clean up in cachefiles_commit_tmpfile()
+31ad74b20227ce6b40910ff78b1c604e42975cf1 cachefiles: Fix NULL pointer dereference in object->file
+22f9400a6f3560629478e0a64247b8fcc811a24d netfs/fscache: Add a memory barrier for FSCACHE_VOLUME_CREATING
+a4b2923376be062a243ac38762212a38485cfab1 Merge patch series "fscache/cachefiles: Some bugfixes"
+1c82587cb57687de3f18ab4b98a8850c789bedcf hfsplus: don't query the device logical block size multiple times
+c4d7d90747f4e8b528c8cd0a2d9ac01dc4a9339e fs:aio: Remove TODO comment suggesting hash or array usage in io_cancel()
+75ead69a717332efa70303fba85e1876793c74a9 fs: don't let statmount return empty strings
+ed9d95f691c29748f21bc019de9566b698fdfab7 fs: add the ability for statmount() to report the fs_subtype
+4d7485cff59951c83aa2b6891b24d68b76d86f6f writeback: add a __releases annoation to wbc_attach_and_unlock_inode
+8182a8b39aa227f5b99b8d4d18f296b82ce4b94c writeback: wbc_attach_fdatawrite_inode out of line
+6cfe56fbad32c8c5b50e82d9109413566d691569 ufs: ufs_sb_private_info: remove unused s_{2,3}apb fields
+44010543fc8bedad172aa5b6c43480e5d2124497 fs: add the ability for statmount() to report the sb_source
+3a6ffeb127973806704655fe5fcd92141a5e83d5 Merge patch series "fs: allow statmount to fetch the fs_subtype and sb_source"
+39bb1bf0b49495e70d0763a143ad889925c3d373 Merge patch series "two little writeback cleanups v2"
+2f4d4503e9e5ab765a7948f98bc5deef7850f607 statmount: add flag to retrieve unescaped options
+45c9faf50665812a14fc9b40ab9d6cb893792ffd vfs: make evict() use smp_mb__after_spinlock instead of smp_mb
+9fed2c0f2f0771b990d068ef0a2b32e770ae6d48 fs: reduce pointer chasing in is_mgtime() test
+aefff51e1c2986e16f2780ca8e4c97b784800ab5 statmount: retrieve security mount options
+6ac81fd55e8af8e78a716b4ba213c8c6381d94fd Merge tag 'vfs-6.13.mgtime' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+52d0f5ae2b1b686518ddeb8b459fba833d612b32 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
+5948ddb4adaa83ab31ef89be4bd78341949bdbaf Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
 
---===============6028188315402445361==
+--===============1986611666139826694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c1c2de505f3-a99a9a16222d.txt
+Content-Disposition: attachment; filename=revlist-a048d47fe907-f39b1af7d88d.txt
 
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-05437f81c50620aa6777139f3e2e36d8b53aa8aa treewide: convert all $MOUNT_PROG to _mount
-a99a9a16222d0504af314007a223f3c55f340dfa check: capture dmesg of mount failures if test fails
+5dd00ebda337b9295e7027691fa70540da369ff2 f2fs: fix to map blocks correctly for direct write
+26e6f59d0bbaac76fa3413462d780bd2b5f9f653 f2fs: fix to avoid forcing direct write to use buffered IO on inline_data inode
+f8bed73c6c52b726ed3dff200cfeadcfbdfe88d6 Revert "f2fs: remove unreachable lazytime mount option parsing"
+6c9903c330ab91d83b7be6102847e5eabf81b710 cifs: Remove pre-historic unused CIFSSMBCopy
+f69b0187f8745a7a9584f6b13f5e792594b88b2e smb: client: memcpy() with surrounding object base address
+7460bf441656cebc2636189ab9ba9a65a0a8ab86 smb: client: Use str_yes_no() helper function
+343d7fe6df9e247671440a932b6a73af4fa86d95 smb: client: fix use-after-free of signing key
+b091e8ed24b7965953147a389bac1dc7c3e8a11c erofs: get rid of erofs_{find,insert}_workgroup
+9c91f959626e6d9f460b8906e27c37fca1b6456a erofs: move erofs_workgroup operations into zdata.c
+bf1aa03980f4eb1599b866ccd2c4ac577ef56a8a erofs: sunset `struct erofs_workgroup`
+f5ad9f9a603f829d11ca31a0a4049e16091e8c13 erofs: free pclusters if no cached folio is attached
+db80b98305f73ca83891e4228ead5f0324118b00 erofs: add sysfs node to drop internal caches
+90655ee279b299c33dc51be87787b54222d3d2fb erofs: simplify definition of the log functions
+3a23787ca8756920d65fda39f41353a4be1d1642 erofs: fix file-backed mounts over FUSE
+ec4f59d1a99de86e5c14cf97946e94d5cef98ab0 erofs: get rid of `buf->kmap_type`
+bae0854160939a64a092516ff1b2f221402b843b erofs: fix blksize < PAGE_SIZE for file-backed mounts
+b49c0215b176e9c2e0998e7929eeb9261c9a7919 erofs: clarify direct I/O support
+0bc8061ffc733a0a246b8689b2d32a3e9204f43c erofs: handle NONHEAD !delta[1] lclusters gracefully
+69eb56f69efb866c791cc87fd7bf62adf2ffcbb3 fuse: check attributes staleness on fuse_iget()
+d1dfb5f52ffc4a142d88da5c0ed0514f3602c4b8 virtiofs: dax: remove ->writepages() callback
+5707c4cb2b8ab1f57e1bd38bfe2b558549c45362 exfat: remove unnecessary read entry in __exfat_rename()
+c517ef6404ca4b73013066f11031f79a6d4442d4 exfat: rename argument name for exfat_move_file and exfat_rename_file
+a3c3b2ef371bc24b52dcf380d6917f72c75ee801 exfat: add exfat_get_dentry_set_by_ei() helper
+d15feb8ef51498977479a7f9ef07eb94bcc3e6b0 exfat: move exfat_chain_set() out of __exfat_resolve_path()
+3a0cbf93faa2e82016a72387719e775fa8aa7e31 exfat: remove argument 'p_dir' from exfat_add_entry()
+a6a1252e039630bfba83ae5748b4f69d9a7b727e exfat: code cleanup for exfat_readdir()
+dcb9daa9934b66ae690085cba06d15a3617e9440 exfat: reduce FAT chain traversal
+66f9dac9077c9c063552e465212abeb8f97d28a7 Revert "nfs: don't reuse partially completed requests in nfs_lock_and_join_requests"
+a47e0534dc9cc3f9ee7c914cfddd6912855b5d61 nfsd: allow for up to 32 callback session slots
+b6dea6c7fe2d8187050f882fe6f872d30e495ffe nfs: pass flags to second superblock
+c0d6b1a60b4c537d0840956024ca0e0b0dd320a0 nfs: ignore SB_RDONLY when mounting nfs
+527997eb205302b2c8137fecab16150d625f52f7 sunrpc: clear XPRT_SOCK_UPD_TIMEOUT when reset transport
+08c6f4634906dd8a5fdd244722788f7d1a6dee82 SUNRPC: timeout and cancel TLS handshake with -ETIMEDOUT
+076384724c22f60a1a93dd35745d0cca59cdb19d sunrpc: fix one UAF issue caused by sunrpc kernel tcp socket
+200b977ebbc313a59174ba971006a231b3533dc5 dlm: fix dlm_recover_members refcount on error
+21d1b618b6b9da46c5116c640ac4b1cc8d40d63a fsnotify: Fix ordering of iput() and watched_objects decrement
+03854920c39c62b88c0b540c92cf35746d059af2 libceph: Remove unused ceph_pagelist functions
+ee1eb8ccaab8cc2ef4bda8e11a40409ee20f6405 libceph: Remove unused pagevec functions
+32844fd72b879d02f1f6b4394025349d31a09fd3 libceph: Remove unused ceph_osdc_watch_check
+3e0f59f09e3f319b6652e5b4523fe02d965515a5 libceph: Remove unused ceph_crypto_key_encode
+6025b482e48041cd71111ab4f7cc28e0371b2e3e ceph: Remove fs/ceph deadcode
+6779c9d59a0709de5c679a268c4f3d034f22c956 MAINTAINERS: exclude net/ceph from networking
+955710afcb3bb63e21e186451ed5eba85fa14d0b ceph: extract entity name from device id
+64cf95d0b1084860f75f7bf24fdaa88794dccc80 ceph: requalify some char pointers as const
+e50f960bea7a25da0848fa8e1eec715670c4be70 ceph: Use str_true_false() helper in status_show()
+c152737be22b103bff5987e03136a69710c2e68f ceph: Use strscpy() instead of strcpy() in __get_snap_name()
+3500000bb13d300e8d7fdf4a1212abdd0de2b5c1 ceph: miscellaneous spelling fixes
+b5d19c2cd05bbc6c6e8e8ccd7911a2773029b3bd Pull umount race fix from Jann Horn.
+6ac81fd55e8af8e78a716b4ba213c8c6381d94fd Merge tag 'vfs-6.13.mgtime' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+977b1865daabc411eb80e71aaaefab3081f70cfa smb3: request handle caching when caching directories
+89c00c3afdd8da5de5148935d9e00015a67385a5 smb: cached directories can be more than root file handle
+cfe2318d5a3101234f96e25a7305f1727e0ade01 cifs: during remount, make sure passwords are in sync
+8b6cb80e675994a4244675ee03dda967340b6a29 cifs: unlock on error in smb3_reconfigure()
+f1f1304427cf589dcf3ee91088749537b7b18ced cifs: support mounting with alternate password to allow password rotation
+66b50cbe1885101a416d1a6a5fc16975b4d759e4 CIFS: New mount option for cifs.upcall namespace resolution
+32c24729bf93be0ed3707c2fb7d35f869e0829ee cifs: Recognize SFU char/block devices created by Windows NFS server on Windows Server <<2012
+81624f46e4f0cb2a4e389f891eb1f4815a2b01f8 fs/smb/client: implement chmod() for SMB3 POSIX Extensions
+fe37d2e187a156816d984aaaf40f5b9b9f873146 smb: client: improve compound padding in encryption
+ea9a955b237010d8e8954a44f7a87d5e8422c655 smb: client: get rid of bounds check in SMB2_ioctl_init()
+ac816a3e8f598cb3cd2e516435da03af89d123d1 smb: client: handle max length for SMB symlinks
+bd24dab9c51a41a5729a192a046b6009a842f067 smb: Don't leak cfid when reconnect races with open_cached_dir
+a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+52d0f5ae2b1b686518ddeb8b459fba833d612b32 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
+5948ddb4adaa83ab31ef89be4bd78341949bdbaf Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+09d0f5805ae32b0ecf78a1e7b6cf42af65671261 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
+517fd167dbfe44f4b9244b0026d8e0790423a7b9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+b7e8fd727092ca87626f911a15c68a8f6dea8c55 Merge branch 'master' of git://github.com/ceph/ceph-client.git
+cdde2e72ef1f35a6beb046eb030a03743c5e804d Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
+fcc7b0a48906197e4acd3a460d40ee18d023b067 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
+95656ec1926f0e89ef3d37cd38e64b29c62cd340 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
+2740860e5ff6ae669330f3b0ed9bbca99cb4429f Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
+4d8f1d811338e9bf1af98d6f4d0fb24871779ba5 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+bac5ab31c45051bc3f63a4396ebd7aefb0a614ad Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
+471a0ab57b0f667851cb6640f8c7334aa1fbb749 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
+28fa937c124dc75dc604796c80d4b7d7e15bff8c Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
+e1b7b4a9d971939ee99e523d4f6a49d677e507af Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
+feeb5f907aa78fe53bb8ef6e40e4e2293962b937 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
+04f5050b51f27ed722c7a332013d8b109ab1e26a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
+62ed7aaa680540412114e71939c53e9fa4129495 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
+e7072d1ef60b68a95af66eca8ad56719bde665db Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
+cd22b0d7bf0e21ffafc66c01bcbd5ae29601a15d Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
+fed7ef46f4f1a1e0282c10c688cc038d07753701 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+2bdb585cb606eee8429b282e84af9394e52c53fc Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
+0176f67cf016b09ec48388e45ed38fbea314c749 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
+1c58690010dc9dd1b25792a76874a9fea90f6dce Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
+0708e98c8737ca27da89bc20273a896c022fa65f Merge branch '9p-next' of git://github.com/martinetd/linux
+a528b1bd6ccd9120240ec3b7e5b8789d298e1a27 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
+5030a44d22a3e0eeda2e7e5517b15f4e3fe96df8 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+f39b1af7d88ddeca9227bef7e6444fda467b23f4 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec6d757fb59c-28d92ea9cd06.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a5f811c54cf-2840bac5596e.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-05437f81c50620aa6777139f3e2e36d8b53aa8aa treewide: convert all $MOUNT_PROG to _mount
-a99a9a16222d0504af314007a223f3c55f340dfa check: capture dmesg of mount failures if test fails
-e90e7c4101331fcefed27b0de59313bedd858c71 misc: convert all $UMOUNT_PROG to a _umount helper
-6845218577a31b652000e95d80d11ba9e5c5e92e misc: convert all umount(1) invocations to _umount
-f9fd78b167f183df66511661940ad97731bbd923 xfs/122: add health monitoring ioctl
-b7352d5eb164ac6982d82ea076d7139c35954ccc xfs: test health monitoring code
-cbf5ce25f5604c7f22fa3b1bcea04e6490401531 xfs: test for metadata corruption error reporting via healthmon
-bcc054e0e2ffe170314a16ed61b1e5eb49f469c3 xfs: test io error reporting via healthmon
-4de1c64eb07c9008b2f1ff1ac3114733e36ea143 xfs: test new xfs_scrubbed daemon
-8b333db7aa6503ffb0c891c878ebcd524bc022a3 xfs/1856: add metadir upgrade to test matrix
-e9f74cb021868a86ba82a4fad8705f04e98c15f6 xfs/1856: add rtrmapbt upgrade to test matrix
-0d1077d3d603de4f812066cef59eb96a22726e67 xfs/1856: add rtreflink upgrade to test matrix
-b69f78be154c21196b7a82b59eb34e24a66c5af8 xfs: online fuzz test known output
-a27f57468f34256081b97a58f4536736324f2d5a xfs: offline fuzz test known output
-4388c928e018229e02afdbef37155cb89486a48c xfs: norepair fuzz test known output
-cad74477b3606f9b79a0b8d3fd8b746b3b808a3e xfs: bothrepair fuzz test known output
-c7598c3c8dd1da4674b85ebe3b8289f76e440431 xfs: baseline golden output for metadata directory fuzz tests
-3d1bf96b18704c7f892e81d38784cd9f0cbbbcf3 fuzzy: create known output for rt rmap btree fuzz tests
-7b43f05b9b90e2717dbad88bf8ca2b9c57bf8402 xfs: baseline golden output for rt refcount btree fuzz tests
-1b16fbb038cd63c9c64f4cdbf9632a4cb87c822c debug generic/465 problesm
-b8a7196634dd3046d5dbef8425dc024d82d7ac93 try to figure out why x178 sprays weird cannot find superblock messages
-9fac1e1163c12eb4a263cd143092905b04eae3b1 debug some arm problem
-c7efddaf0d98b0baa26cd8a01edb8bc46ffb88af why does x863 occasionally fail the post test check with a dirty log?
-49f23c97612cf6cb25434996f3beb9a41f115973 generic/230: extend grace period to 6 seconds
-dea74801372f2b675c581c689b63020754df5095 xfs/559 debug
-99edb73c62394ec8a701fe6cc1a059a4667ba493 xfs/242 debugging of why map output is weird
-bafbd322caf5d1204ae1f996b5b3de7d3dd89a0c does this fix the writeback invalidation test on arm64?
-009d14bf749d8042d5beadbedc4b8974d768556e g251: more readable diff output
-2840bac5596ede01dc2adc066b467b50cc791975 force local definition until we stabilize abi
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72905cbe9d72-7b43f05b9b90.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-05437f81c50620aa6777139f3e2e36d8b53aa8aa treewide: convert all $MOUNT_PROG to _mount
-a99a9a16222d0504af314007a223f3c55f340dfa check: capture dmesg of mount failures if test fails
-e90e7c4101331fcefed27b0de59313bedd858c71 misc: convert all $UMOUNT_PROG to a _umount helper
-6845218577a31b652000e95d80d11ba9e5c5e92e misc: convert all umount(1) invocations to _umount
-f9fd78b167f183df66511661940ad97731bbd923 xfs/122: add health monitoring ioctl
-b7352d5eb164ac6982d82ea076d7139c35954ccc xfs: test health monitoring code
-cbf5ce25f5604c7f22fa3b1bcea04e6490401531 xfs: test for metadata corruption error reporting via healthmon
-bcc054e0e2ffe170314a16ed61b1e5eb49f469c3 xfs: test io error reporting via healthmon
-4de1c64eb07c9008b2f1ff1ac3114733e36ea143 xfs: test new xfs_scrubbed daemon
-8b333db7aa6503ffb0c891c878ebcd524bc022a3 xfs/1856: add metadir upgrade to test matrix
-e9f74cb021868a86ba82a4fad8705f04e98c15f6 xfs/1856: add rtrmapbt upgrade to test matrix
-0d1077d3d603de4f812066cef59eb96a22726e67 xfs/1856: add rtreflink upgrade to test matrix
-b69f78be154c21196b7a82b59eb34e24a66c5af8 xfs: online fuzz test known output
-a27f57468f34256081b97a58f4536736324f2d5a xfs: offline fuzz test known output
-4388c928e018229e02afdbef37155cb89486a48c xfs: norepair fuzz test known output
-cad74477b3606f9b79a0b8d3fd8b746b3b808a3e xfs: bothrepair fuzz test known output
-c7598c3c8dd1da4674b85ebe3b8289f76e440431 xfs: baseline golden output for metadata directory fuzz tests
-3d1bf96b18704c7f892e81d38784cd9f0cbbbcf3 fuzzy: create known output for rt rmap btree fuzz tests
-7b43f05b9b90e2717dbad88bf8ca2b9c57bf8402 xfs: baseline golden output for rt refcount btree fuzz tests
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6aa2ba71e707-4de1c64eb07c.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-05437f81c50620aa6777139f3e2e36d8b53aa8aa treewide: convert all $MOUNT_PROG to _mount
-a99a9a16222d0504af314007a223f3c55f340dfa check: capture dmesg of mount failures if test fails
-e90e7c4101331fcefed27b0de59313bedd858c71 misc: convert all $UMOUNT_PROG to a _umount helper
-6845218577a31b652000e95d80d11ba9e5c5e92e misc: convert all umount(1) invocations to _umount
-f9fd78b167f183df66511661940ad97731bbd923 xfs/122: add health monitoring ioctl
-b7352d5eb164ac6982d82ea076d7139c35954ccc xfs: test health monitoring code
-cbf5ce25f5604c7f22fa3b1bcea04e6490401531 xfs: test for metadata corruption error reporting via healthmon
-bcc054e0e2ffe170314a16ed61b1e5eb49f469c3 xfs: test io error reporting via healthmon
-4de1c64eb07c9008b2f1ff1ac3114733e36ea143 xfs: test new xfs_scrubbed daemon
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f056971a4d2f-88be6071da67.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8614c3554dd5-7464e889ccf0.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29f809d5c869-92eeabe100a8.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d52f68b8acfb-bbf37b3d0e84.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a980b1dbae61-81da220173f0.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b4009386ea2-4f840256d1a7.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2a91120c26a-f4234cce423e.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2255f777fd8c-e9e934b24143.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf8ac7259d7a-26056925436e.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14403597ebd8-a0a851da65bb.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e77f5d87e3c8-055da1430df4.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b565a1e76e4-0d1077d3d603.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-1e359bc74d24b9014a19d5d5f75097ba07699e7f xfs/122: fix metadirino
-32e405c66264d1e1616142397295ae979ac1bd71 various: fix finding metadata inode numbers when metadir is enabled
-a139958e3fb24e0fcd997569b9f46d63ddfbd669 xfs/{030,033,178}: forcibly disable metadata directory trees
-373ae9dd9b9cd5b2fb4ac307e176902558e227d1 common/repair: patch up repair sb inode value complaints
-469271fa1efc5c0fc443195c3af4803c87ce752e xfs/206: update for metadata directory support
-327746b58788897021efbb9bdbab3ec289f47523 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-a7cc6f78495bcea2423d7fda060f343dec34df8f xfs/509: adjust inumbers accounting for metadata directories
-efed234d73f7575e62057c628c228449578212f1 xfs/122: adjust for metadata directories
-2222c53a20a854d3e3ee772f09bef10c66274f87 xfs: create fuzz tests for metadata directories
-9a8082f4a9d490a3632c0c62e966d0a21492c501 xfs/163: bigger fs for metadir
-41ba6f4435448893a3c25acfc2a0e41b9df1d783 scrub: race metapath online fsck with fsstress
-7464e889ccf048e538033644540a462cc2b8fb17 xfs: test metapath repairs
-bbf37b3d0e844f882dcd0e85924e15f8e5ee5b36 fstests: test mkfs.xfs protofiles with xattr support
-4f66061e662a6c2bf5d15f8fa08f32fdff38f295 common/populate: refactor caching of metadumps to a helper
-49e641aba785355fa5da9469feb33476cf0b3986 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-728e6dffae2f298c9a3485cc790acc938f0cf334 fuzzy: stress data and rt sections of xfs filesystems equally
-96f068dbbab0d5a724e47d07bbb8754037aa0edb common/ext4: reformat external logs during mdrestore operations
-2bec211ee2cec646a36efde6665010ccb0e81a4c common/populate: use metadump v2 format by default for fs metadata snapshots
-d9d6d1f8e5a1ea03755d1b3b8bf0c6c445e651e7 xfs/122: update for rtgroups
-a22d48f2d3f0d6f07a6318f563040c38d5713aed punch-alternating: detect xfs realtime files with large allocation units
-9c7610954c98b880fe8695efc8d698acd30c6b45 xfs/206: update mkfs filtering for rt groups feature
-0c3536a5ae74890c336db464d4d55b2a0a0e14f0 common: pass the realtime device to xfs_db when possible
-a28b529a203dd8074e4989b4a9a56181f302b7a2 xfs/185: update for rtgroups
-1b349c7fb331f908f250a37f3cced5bf5c921f61 xfs/449: update test to know about xfs_db -R
-0d335290871a8aae44a3608a9f577c64942ee1e5 xfs/122: update for rtbitmap headers
-1ca4143c15b280626ffbd66d4c03395a29c6ff87 xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-c3fd349fec7ae2e2becb6b5873711c17c2c61ae2 common/xfs: capture realtime devices during metadump/mdrestore
-ba663c13dc23ce73de30dd5eca6e2e34166387f4 common/fuzzy: adapt the scrub stress tests to support rtgroups
-4f840256d1a77f93b967294b6818034bd71c20bd xfs: fix fuzz tests of rtgroups bitmap and summary files
-1cb99edd29cba3b887f66c3e1910e4fee0c4f608 xfs/122: update for segmented rtblock addresses
-48441be16521cb9cca993eb93d80109a52ba137e xfs: update tests for quota files in the metadir
-2bd0d77c3b3c87fa5189369cda1a198a836d9389 xfs: test persistent quota flags
-92eeabe100a820cfc3a8062ca1ab1af9659703dd xfs: fix tests for persistent qflags
-3e6234a1647d0b8b632e6fd52b39238e12528c2a common: enable testing of realtime quota when supported
-bc90d8507a93c9c739f7c13c4881a6c4a9c0e438 xfs: fix quota tests to adapt to realtime quota
-f4234cce423e2f93ac1456183f66936883bedbb5 xfs: regression testing of quota on the realtime device
-352985a5243e0f03bc1ca685244e02432cfb7fa7 xfs: fix tests that try to access the realtime rmap inode
-98c18e712054b8e353f71abccd3e49c81e766a0d fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-21f0a8cf80db53c2d46ff8a5c925172be2ab87c6 xfs: race fsstress with realtime rmap btree scrub and repair
-6cabb8266478a2ca75ad04f4cbf2dbc12813e1b3 xfs/122: update for rtgroups-based realtime rmap btrees
-77f11e266f44e85b192cca8cd6182328af25538a xfs: fix various problems with fsmap detecting the data device
-5bee26b0fe278e2d15abb360adee10c98e5d7d81 xfs/341: update test for rtgroup-based rmap
-db81eed1097a7e681db55b1b4c2297735d5c24ec xfs/3{43,32}: adapt tests for rt extent size greater than 1
-d80a459cffea870581c047452cc9e50b937d82ed xfs: skip tests if formatting small filesystem fails
-9d27a2e1f805c40cf1876e805db91477cc32e59d xfs/443: use file allocation unit, not dbsize
-12779f3f14cc46248a41f8bf07e003bdc75fef75 populate: adjust rtrmap calculations for rtgroups
-995c0025f2f6e83ed43a472e5b66d059263091ee populate: check that we created a realtime rmap btree of the given height
-a0a851da65bb67b841de8f4290225c49f106919d fuzzy: create missing fuzz tests for rt rmap btrees
-d9f17a9811b5c6f09b4a2c7be32355013a5d2166 xfs/122: update fields for realtime reflink
-db2ff9d4bede0dc262a605a26988dfe99221b952 common/populate: create realtime refcount btree
-6207efc1dde80b57b37282f13649889fbaa35a01 xfs: create fuzz tests for the realtime refcount btree
-86f9004d23b6821acd26ec3a2e64f82e789b70a1 xfs/27[24]: adapt for checking files on the realtime volume
-6a0936c95367eb037a22c010b4ed53f01d885efc xfs: race fsstress with realtime refcount btree scrub and repair
-60f436c21e0c3eaa2506b1ad4d56d14471af839f xfs: remove xfs/131 now that we allow reflink on realtime volumes
-8b095ea912259c98f7e5316b0a87d4914c70eead generic/331,xfs/240: support files that skip delayed allocation
-e9e934b24143302e3346ff4c6ffb7299bb454221 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-62b9550db1413df19c04a4fbd9b7d0dc0cea0318 xfs: make sure that CoW will write around when rextsize > 1
-e3d897910b74803db4c6de22135636c5d22ffe77 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-037998f7697c63fbd8cc93f5502569c3b480026a misc: add more congruent oplen testing
-294890c20a7dfe208f105fc13a48897939ca8a15 xfs: test COWing entire rt extents
-26056925436ee35b669dbfbd8392a02a2cf833f0 generic/303: avoid test failures on weird rt extent sizes
-ddc88799bf2ffe364e45b8d942531c32e46a120a xfs/122: update for the getfsrefs ioctl
-055da1430df4e7b3636c766dfeb39e2ef3a1a785 xfs: test output of new FSREFCOUNTS ioctl
-fb9eee6d5cbaaaed899a59602c96eb7a845f1497 xfs/122: update for XFS_IOC_MAP_FREESP
-28d92ea9cd06613301798342de1ec9287bd9f2e6 xfs: test clearing of free space
-05437f81c50620aa6777139f3e2e36d8b53aa8aa treewide: convert all $MOUNT_PROG to _mount
-a99a9a16222d0504af314007a223f3c55f340dfa check: capture dmesg of mount failures if test fails
-e90e7c4101331fcefed27b0de59313bedd858c71 misc: convert all $UMOUNT_PROG to a _umount helper
-6845218577a31b652000e95d80d11ba9e5c5e92e misc: convert all umount(1) invocations to _umount
-f9fd78b167f183df66511661940ad97731bbd923 xfs/122: add health monitoring ioctl
-b7352d5eb164ac6982d82ea076d7139c35954ccc xfs: test health monitoring code
-cbf5ce25f5604c7f22fa3b1bcea04e6490401531 xfs: test for metadata corruption error reporting via healthmon
-bcc054e0e2ffe170314a16ed61b1e5eb49f469c3 xfs: test io error reporting via healthmon
-4de1c64eb07c9008b2f1ff1ac3114733e36ea143 xfs: test new xfs_scrubbed daemon
-8b333db7aa6503ffb0c891c878ebcd524bc022a3 xfs/1856: add metadir upgrade to test matrix
-e9f74cb021868a86ba82a4fad8705f04e98c15f6 xfs/1856: add rtrmapbt upgrade to test matrix
-0d1077d3d603de4f812066cef59eb96a22726e67 xfs/1856: add rtreflink upgrade to test matrix
-
---===============6028188315402445361==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e673c13cfa41-b7d288e234b7.txt
-
-66434a1cb73131f45457208ca0a0382ff8708067 xfs: notrun if kernel xfs not supports ascii-ci feature
-4c1629ae3a3a56d467a010f48f83e3511aa63943 generic: new test case to verify if certain fio load will hang the filesystem
-5089b050a6724c8226f28ab3e7c70912bc610299 f2fs/005: add testcase to check checkpoint disabling functionality
-23ebca50151d3e12f6a4675e4269c10774f2a772 f2fs/006: add testcase to check out-of-space case
-7838e3082b15354323f29efbcf6380dddb11a751 f2fs/007: add testcase to check consistency of compressed inode metadata
-d9228b41b30fa00973153d688638a336081b2627 btrfs/287: make the test work when compression is enabled
-2fe95b92d6da3669ceaa8d01590448cc9ccac1c6 xfs: online grow vs. log recovery stress test
-083bb0ea9473e709cc11ba0314fc4ab2ad8710a7 xfs: online grow vs. log recovery stress test (realtime version)
-1e990ee9aaa05a4248a243be7385a6d7de6db724 btrfs: add a test for defrag of contiguous file extents
-81477600d36391dcbdfefd0b258fa55c17ae6932 btrfs: a new test case to verify mount behavior with background remounting
-cdbcb808ecc1f7b0f13943e12997292d50ed324b ext4/032: add a new testcase in online resize tests
-3fc00cd4ab986a76ddf1ab355713744749866c86 btrfs/321: make the filter to handle older btrfs-progs
-c3a28053dc09c31b031a733e243e35d78841f801 common/casefold: Support for tmpfs casefold test
-e2affc453cf5a5c172565a6e12be6a45d34b0114 btrfs/136: check for ext3 support
-47aa187fb226189a95d26c55c6fc7328c7ebbec2 xfs/273: check thoroughness of the mappings
-88be6071da67f94af9721e0f5f0afa159b2605f8 xfs/185: don't fail when rtfile is larger than rblocks
-9d1a7a857aa6e436ea9f7797148ed3b17de3521d generic/757: fix various bugs in this test
-817a99e03914c8ec8a44a99a375f607d44293265 xfs/113: fix failure to corrupt the entire directory
-9510d91b6ad30493aec01487a3955fd944aaef5f xfs/508: fix test for 64k blocksize
-10727dd21437d0bb57630b8f515b3b08b13df6da common/rc: capture dmesg when oom kills happen
-60ce093dbede4a4dd8b76c16fc9c5e7f13bdfcb7 generic/562: handle ENOSPC while cloning gracefully
-ffcb14c150b38f81ae76dcc0ceb4f750e11d9254 xfs/163: skip test if we can't shrink due to enospc issues
-fca76df8cf886cd0f16ba42cfd12c92947fc057a xfs/009: allow logically contiguous preallocations
-864bb6558dcc93c371546517274ae170e8574433 generic/251: use sentinel files to kill the fstrim loop
-8451f22f92033367577a6402d80dbcff4de9a54f generic/251: constrain runtime via time/load/soak factors
-65cb9dc1cbfe2457e74e64e65eba3b4290fb74c9 common/rc: _scratch_mkfs_sized supports extra arguments
-96e00f1f280d3bfd91138f899b1f5ff64861daca xfs/157: do not drop necessary mkfs options
-81da220173f06d4ddb01c9852f64595c3d09b0d5 xfs/157: fix test failures when MKFS_OPTIONS has -L options
-028a4189049d8fa583d2f50f270329bcc31539b0 xfs/122: add tests for commitrange structures
-b7d288e234b7d951d7ad71955a94909b4104560a xfs: test upgrading old features
-
---===============6028188315402445361==--
+--===============1986611666139826694==--
