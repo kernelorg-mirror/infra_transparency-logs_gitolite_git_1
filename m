@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 18 Nov 2024 11:14:38 -0000
-Message-Id: <173192847835.1654067.14089956494016745728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Mon, 18 Nov 2024 11:18:06 -0000
+Message-Id: <173192868603.1657277.16065426884521053784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/rtc-next
-    old: 1f7a0c64834484de5950dd85367ce7e483696442
-    new: fb1283bfa25e65c2d1e3c916b3d67af6609573e9
+  - ref: refs/heads/main
+    old: 41ffcd95015f18178ddc53fed919c2842d52fe38
+    new: 8ffade77b6337a8767fae9820d57d7a6413dd1a1
     log: |
-         bb3d498f013e8d31a774c9a8f363baf1eb16ea01 rtc: rv3028: fix RV3028_TS_COUNT type
-         fb1283bfa25e65c2d1e3c916b3d67af6609573e9 rtc: ab-eoz9: fix abeoz9_rtc_read_alarm
+         8ffade77b6337a8767fae9820d57d7a6413dd1a1 gve: Flow steering trigger reset only for timeout error
          
