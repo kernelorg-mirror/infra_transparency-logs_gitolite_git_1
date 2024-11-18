@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 Nov 2024 17:36:35 -0000
-Message-Id: <173195139564.1986859.1025081145395591625@gitolite.kernel.org>
+Date: Mon, 18 Nov 2024 17:50:22 -0000
+Message-Id: <173195222292.1998452.7699220165673062731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: mingo
 changes:
-  - ref: refs/tags/core-debugobjects-2024-11-18
+  - ref: refs/tags/sched-core-2024-11-18
     old: 0000000000000000000000000000000000000000
-    new: edf824bd70966abcb166c313f7d83e8ee1285346
+    new: a831f9e1185224426fd7e190ca246687e48acc9a
