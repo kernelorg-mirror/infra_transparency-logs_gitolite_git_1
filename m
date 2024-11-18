@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1567417588152928906=="
+Content-Type: multipart/mixed; boundary="===============8018669952660149452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 18 Nov 2024 07:39:19 -0000
-Message-Id: <173191555951.1475446.4693653446647758979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 18 Nov 2024 07:40:03 -0000
+Message-Id: <173191560322.1477485.15055029665826187560@gitolite.kernel.org>
 
---===============1567417588152928906==
+--===============8018669952660149452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
     new: adc218676eef25575469234709c2d87185ca223a
     log: revlist-2d5404caa8c7-adc218676eef.txt
 
---===============1567417588152928906==
+--===============8018669952660149452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -244,4 +244,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============1567417588152928906==--
+--===============8018669952660149452==--
