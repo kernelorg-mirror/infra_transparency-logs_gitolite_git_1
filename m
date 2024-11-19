@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
-Date: Tue, 19 Nov 2024 07:53:02 -0000
-Message-Id: <173200278235.2696335.17692866792685787595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 19 Nov 2024 08:21:44 -0000
+Message-Id: <173200450496.2720151.8581732471554293107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mchehab/linux-media
-user: mchehab
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/tags/media/v6.13-1
+  - ref: refs/tags/v6.12-dts
     old: 0000000000000000000000000000000000000000
-    new: ddd8cf44235e1da8b67748fc6140c8f33cd6ea19
+    new: 93ce0c05223f81ee4c0160116bffcbfe73277fbb
