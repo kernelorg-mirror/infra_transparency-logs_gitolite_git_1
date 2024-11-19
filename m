@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============7852739990893516146=="
+Content-Type: multipart/mixed; boundary="===============7867981797664798512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Tue, 19 Nov 2024 16:46:13 -0000
-Message-Id: <173203477304.3151717.7289460776787800447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 19 Nov 2024 16:46:15 -0000
+Message-Id: <173203477566.3151813.10435392885245448653@gitolite.kernel.org>
 
---===============7852739990893516146==
+--===============7867981797664798512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 64848394454ee93256381fe2a1c8a72b3f0b639b
-    new: 63f2e8f4477ccee29ee2b06669106735676fb322
-    log: revlist-64848394454e-63f2e8f4477c.txt
+    old: 2150c7af635defde2d4ffcc46750484f36ffb127
+    new: c970368cce7477986fe8e46cb2cfa8bdbd9d35ae
+    log: revlist-2150c7af635d-c970368cce74.txt
   - ref: refs/tags/v6.12
     old: 0000000000000000000000000000000000000000
     new: 06090c9b622a7e1f797e775db4c035e0d779b76e
 
---===============7852739990893516146==
+--===============7867981797664798512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64848394454e-63f2e8f4477c.txt
+Content-Disposition: attachment; filename=revlist-2150c7af635d-c970368cce74.txt
 
 b68c18957029b7be71a73f89a083856305536e1f Merge tag 'usb-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 c01ac4b9440aa85374536075b1d61af961c3e567 Merge tag 'tty-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
@@ -1052,6 +1052,6 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 4a5df37964673effcd9f84041f7423206a5ae5f2 Merge tag 'mm-hotfixes-stable-2024-11-16-15-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
-63f2e8f4477ccee29ee2b06669106735676fb322 audit: add a Linux Audit specific README.md and SECURITY.md
+c970368cce7477986fe8e46cb2cfa8bdbd9d35ae selinux: add a SELinux specific README.md and SECURITY.md
 
---===============7852739990893516146==--
+--===============7867981797664798512==--
