@@ -1,44 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4557237451927506100=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 19 Nov 2024 02:42:06 -0000
-Message-Id: <173198412698.2444505.17338479443258938292@gitolite.kernel.org>
-
---===============4557237451927506100==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 19 Nov 2024 02:50:59 -0000
+Message-Id: <173198465931.2452320.6863907610724628434@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: bd5b7e3a21ee8e064c177e1f2177a058eba04528
-    new: 154f822c4cb79a36adb89905cab9a003cf138d57
-    log: revlist-bd5b7e3a21ee-154f822c4cb7.txt
-
---===============4557237451927506100==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd5b7e3a21ee-154f822c4cb7.txt
-
-6371b4bc179aad17d84ee301b409a5a8ce675657 tracing: Remove redundant check on field->field in histograms
-537affea1672a841cd5b87b208c193a3a542c7cf ring-buffer: Correct a grammatical error in a comment
-60b1f578b5789730d81460d1836dec7fa60510bf ftrace: Get the true parent ip for function tracer
-859dc5e29cae48994ebd609e8a12092f0c214afa rtla/timerlat: Do not set params->user_workload with -U
-fda90b990eaf109c7b376b232bd553dde8bc07e1 tools/rtla: Improve code readability in timerlat_load.py
-814d9d7c613aa20d634cc093f6ee81f6e6d17e99 tools/rtla: Enhance argument parsing in timerlat_load.py
-355e9195bf25b828efc853417600179678c85ac0 tools/rtla: Improve exception handling in timerlat_load.py
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-5f99dca95f3c208abb2b8757a2a2bd671d04d7e0 verification/dot2: Improve dot parser robustness
-f3dfb84d9ad34f32854dbe779aa56d1145ebc040 Merge ftrace/for-next
-5de25586161199922e2b3b951b46bc6285947ffa Merge probes/for-next
-1834a9afb8620872b6afe472acbf371fd74a71e8 Merge ring-buffer/for-next
-8ece2d3fb0b46e199a17b102abe5e9208ca97ced Merge rust/for-next
-154f822c4cb79a36adb89905cab9a003cf138d57 Merge tools/for-next
-
---===============4557237451927506100==--
+  - ref: refs/heads/main
+    old: e64285ff41bb7a934bd815bd38f31119be62ac37
+    new: e867ed3ac8aa50945170723a450b5c068a56339a
+    log: |
+         0de6a472c3b38432b2f184bd64eb70d9ea36d107 net/neighbor: clear error in case strict check is not set
+         357c52ff860b3d047de5d2c605c46dd9a8448821 selftests: net: netlink-dumps: validation checks
+         e1a897ef4e9e633b8ad657063799707aa2d818a8 eth: fbnic: add missing SPDX headers
+         2a0d6c1705c42b81efd927f0bad91e68245dba7f eth: fbnic: add missing header guards
+         08606cb528bed9f265ea8a99b0c310f3eba0ca89 eth: fbnic: add basic debugfs structure
+         25ba596d137db208ace697e3adc7cc35b3b2882b eth: fbnic: add PCIe hardware statistics
+         79da2aaa08ee9980ac3f750f8b3d3db389714257 eth: fbnic: add RPC hardware statistics
+         4be4a91d53b6e3a1c392aa10aa4f72f3dea86459 Merge branch 'eth-fbnic-cleanup-and-add-a-few-stats'
+         e867ed3ac8aa50945170723a450b5c068a56339a net: txgbe: remove GPIO interrupt controller
+         
