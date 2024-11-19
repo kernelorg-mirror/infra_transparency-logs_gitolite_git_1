@@ -1,26 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============9108631793745525030=="
+Content-Type: multipart/mixed; boundary="===============4675264394816549060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 19 Nov 2024 19:49:50 -0000
-Message-Id: <173204579086.3305152.16219179571967160646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 19 Nov 2024 19:50:08 -0000
+Message-Id: <173204580891.3306892.11841757000319625057@gitolite.kernel.org>
 
---===============9108631793745525030==
+--===============4675264394816549060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
+  - ref: refs/heads/linus-next
+    old: 3a9978f64fe945dede31e5f087d3426118d82a32
+    new: 4187f64e465eee33edb468f0011705d2e1864a06
+    log: |
+         ad52c55e1d3a2e85e05e47b6d7056c662a9c0246 Merge tag 'pm-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         cd7fa3e1b0bc9c210eba23edbe8d6884f0368281 Merge tag 'thermal-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         4e9ad033b405336cea3c19b68e2acdf47d88c339 Merge tag 'acpi-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         2b5d5f23d4056543757919bb2db06d0829835f7e Merge tag 'hwmon-for-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+         8cdf2d19038fa266806d15603d691dc2fd774858 Merge tag 'rcu.release.v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
+         769ca7d4d29748f1c95b4ae4ce325ba4ea8cd2b4 Merge tag 'kcsan-20241112-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux
+         4187f64e465eee33edb468f0011705d2e1864a06 Merge remote-tracking branch 'origin/master' into linus-next
+         
   - ref: refs/heads/master
     old: 8a7fa81137fabb5d86be5825e03d28c371d178d6
     new: 769ca7d4d29748f1c95b4ae4ce325ba4ea8cd2b4
     log: revlist-8a7fa81137fa-769ca7d4d297.txt
 
---===============9108631793745525030==
+--===============4675264394816549060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -248,4 +260,4 @@ cd7fa3e1b0bc9c210eba23edbe8d6884f0368281 Merge tag 'thermal-6.13-rc1' of git://g
 8cdf2d19038fa266806d15603d691dc2fd774858 Merge tag 'rcu.release.v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 769ca7d4d29748f1c95b4ae4ce325ba4ea8cd2b4 Merge tag 'kcsan-20241112-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux
 
---===============9108631793745525030==--
+--===============4675264394816549060==--
