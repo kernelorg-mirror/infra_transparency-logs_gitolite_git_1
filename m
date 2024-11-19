@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Nov 2024 02:51:01 -0000
-Message-Id: <173198466189.2452393.16903465706662625578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Tue, 19 Nov 2024 03:27:23 -0000
+Message-Id: <173198684343.2481257.11347657835999885471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 8ffade77b6337a8767fae9820d57d7a6413dd1a1
-    new: 4262bacb748fdab129dfbe1e93af75119a9c2775
-    log: |
-         62e9c00ea868ceb71156c517747dc69316c25bf1 eth: fbnic: don't disable the PCI device twice
-         2160428bcb20f2f70a72ee84aba91a1264dc4ff3 net: txgbe: fix null pointer to pcs
-         4262bacb748fdab129dfbe1e93af75119a9c2775 MAINTAINERS: exclude can core, drivers and DT bindings from netdev ML
-         
+  - ref: refs/tags/mm-stable-2024-11-18-19-27
+    old: 0000000000000000000000000000000000000000
+    new: 3c5bf5e5213b88a477961a94dd6eeaf7c7e3168f
+  - ref: refs/tags/v6.12
+    old: 0000000000000000000000000000000000000000
+    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
