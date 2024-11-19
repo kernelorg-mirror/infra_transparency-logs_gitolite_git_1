@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 19 Nov 2024 17:04:46 -0000
-Message-Id: <173203588694.3167791.958035223365899020@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4915571223689136512=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 19 Nov 2024 17:14:48 -0000
+Message-Id: <173203648827.3175895.15148585886340599949@gitolite.kernel.org>
+
+--===============4915571223689136512==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/soc/dt
-    old: a1cc63408f72f038e7aa4b5c735270261daf9691
-    new: 9f5cbdaae5f760c218c82e0a5e0f9c58bac56f0c
+  - ref: refs/heads/master
+    old: 5d13399de5f558e5fac91dd847047e62be0463d0
+    new: 6102a2df9ca1516faf8263f1dffae33c93005ee2
     log: |
-         dd36ad71ad65968f97630808bc8d605c929b128e ARM: dts: cubieboard4: Fix DCDC5 regulator constraints
-         44a50de51b8273ca90f7476cd21a529ee9a545db Merge tag 'sunxi-fixes-for-6.12' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
-         26bda0dff9ca74ae071643e0176f248d72f43580 arm64: dts: amd: Remove unused and undocumented "amd,zlib-support" property
-         a21b2eb7cfe28227ecc2e702b4a2aad8068d4ad2 arm: dts: spear13xx: Remove unused and undocumented "pl022,slave-tx-disable" property
-         9f5cbdaae5f760c218c82e0a5e0f9c58bac56f0c arm64: dts: apm: Remove unused and undocumented "bus_num" property
+         6102a2df9ca1516faf8263f1dffae33c93005ee2 proposed: Add Ruiqi's CVE review of v6.11.8
          
+
+--===============4915571223689136512==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732036489 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1732036483-28b33467d9831833a2e2aed2fc890b3e679019e8
+
+5d13399de5f558e5fac91dd847047e62be0463d0 6102a2df9ca1516faf8263f1dffae33c93005ee2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc8x4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0AwP+wRmOH4x0GE6U7+1xptM
+jmjl6RcKFkgxGv+FQwiS3S1bg9/R3bPp54IYWWOU/ZG1Iy5wWfXYpefTBh9BDUdZ
+1zW9eeuqzPZpG6yTnXqQhqhaITWAGCOPZQbUrSjuFEs1kr3ZM+bbF4dCB5uITh7m
+6cv7tjgI74/9sk5Yz47YmPWxd68pEkzrwNINY2hK/xM775BGnwPpIUQtlMRuyqbA
+JgbOPghvvwa7OIQ8qFOPep6nicOXPJVDXkrjZZ6a8tDYM5beyEzNuRmFrbC9KKn8
+RIFDXoGcDGkGnCrApAml8rrY6mNb3cA9+HQvXESdMYiYEGS2hHNa0ZGOUqdu20sc
+pl37PzLSUGvcSzppbNauMB5NImfxFJJUDZvG3W/jUfnkyDmI/yb9JW8ah26ioNJA
+54VNkds+nI1hEV14gJulAYhWffb/IjDlIU49O7ZSyF3ThrgAPe/uhZux9+sA+93C
+75WDdQ2k/DRxHKw8zXGfXaTzJeHUQA7fydwzHbJ/a37vIiON7oDfr1us0s1Puv6C
+9U/3Or0OmXMqxzsEdD82V6oZNhHrRYGi6EMsV/Hp10xB97BbWbWtsrJicNJdAEOR
+sUN/Q7UeVqikzI9oFQ3PFl2hGwWl8oWW2jzzsEnwX6/MbPdi3kuPmV8OwLXvc7tg
+rjDrDREIY6u8wcdl2bKQf6jA
+=XWRK
+-----END PGP SIGNATURE-----
+
+--===============4915571223689136512==--
