@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4377077304958289135=="
+Content-Type: multipart/mixed; boundary="===============5740922420281668508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 19 Nov 2024 10:55:17 -0000
-Message-Id: <173201371738.2846824.4106073174236164494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 19 Nov 2024 10:55:21 -0000
+Message-Id: <173201372191.2847011.1362335091187186267@gitolite.kernel.org>
 
---===============4377077304958289135==
+--===============5740922420281668508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: adc218676eef25575469234709c2d87185ca223a
     log: revlist-2d5404caa8c7-adc218676eef.txt
 
---===============4377077304958289135==
+--===============5740922420281668508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -244,4 +244,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============4377077304958289135==--
+--===============5740922420281668508==--
