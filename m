@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3363338616670671118=="
+Content-Type: multipart/mixed; boundary="===============0332432511239644014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Tue, 19 Nov 2024 09:50:04 -0000
-Message-Id: <173200980443.2793557.7002695482965953752@gitolite.kernel.org>
+Date: Tue, 19 Nov 2024 09:50:08 -0000
+Message-Id: <173200980890.2793732.3410854354376056964@gitolite.kernel.org>
 
---===============3363338616670671118==
+--===============0332432511239644014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: 09573b1cc76e7ff8f056ab29ea1cdc152ec8c653
+  - ref: refs/heads/main
+    old: bff1709b3980bd7f80be6786f64cc9a9ee9e56da
     new: 2c87309ea741341c6722efdf1fb3f50dd427c823
-    log: revlist-09573b1cc76e-2c87309ea741.txt
+    log: revlist-bff1709b3980-2c87309ea741.txt
 
---===============3363338616670671118==
+--===============0332432511239644014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09573b1cc76e-2c87309ea741.txt
+Content-Disposition: attachment; filename=revlist-bff1709b3980-2c87309ea741.txt
 
 293c485cbac2607595fdaae2b1fb390fc7b2d014 HID: i2c-hid: Delayed i2c resume wakeup for 0x0d42 Goodix touchpad
 526748b925185e95f1415900ee13c2469d4b64cc HID: multitouch: Add quirk for Logitech Bolt receiver w/ Casa touchpad
@@ -1051,4 +1051,4 @@ a57d5a72f8dec7db8a79d0016fb0a3bdecc82b56 netpoll: Use rcu_access_pointer() in ne
 66418447d27b7f4c027587582a133dd0bc0a663b Merge branch 'bpf-fix-recursive-lock-and-add-test'
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 
---===============3363338616670671118==--
+--===============0332432511239644014==--
