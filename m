@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2010168506778207248=="
+Content-Type: multipart/mixed; boundary="===============7923027681746551649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 19 Nov 2024 01:06:39 -0000
-Message-Id: <173197839931.2363282.18141777932978466961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 19 Nov 2024 01:21:59 -0000
+Message-Id: <173197931991.2375982.6071048076470739915@gitolite.kernel.org>
 
---===============2010168506778207248==
+--===============7923027681746551649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: c6d64479d6093a5c3d709d4cc992a5344877cc3c
+    old: 9fb2cfa4635ab7b3d44e88104666e599cd163692
     new: 8350142a4b4cedebfa76cd4cc6e5a7ba6a330629
-    log: revlist-c6d64479d609-8350142a4b4c.txt
+    log: revlist-9fb2cfa4635a-8350142a4b4c.txt
 
---===============2010168506778207248==
+--===============7923027681746551649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6d64479d609-8350142a4b4c.txt
+Content-Disposition: attachment; filename=revlist-9fb2cfa4635a-8350142a4b4c.txt
 
 794007a8c848dab99dfdfbaa2c7e143481026f32 ata: Fix typos in the comment
 f7a870d0be12e3ae38cbe899d858994c5b51f22b ata: libata: Remove unused macro definitions
@@ -361,6 +361,11 @@ ac626a3d52ac097cb22d8450fadd8706b3f2533c jbd2: factor out jbd2_do_replay()
 abe1ac7ca84236513a3d8ede02cc47584437f24f jbd2: make b_frozen_data allocation always succeed
 97f5ec3b166db4e47ee2c0bdb0deb027413d4f2a ext4: prevent delalloc to nodelalloc on remount
 b9d69371e8fa90fa3ab100f4fcb4815b13b3673a io_uring: fix invalid hybrid polling ctx leaks
+8e15e12d37f21c03dacac0c37561db5a222690c0 io_statx_prep(): use getname_uflags()
+88a20626d8ed708432cf51afb1f92070459f6165 kill getname_statx_lookup_flags()
+0dd4fb733132f8f934390647ba064c51e34f99fa fs/stat.c: switch to CLASS(fd_raw)
+95f567f81e43a1bcb5fbf0559e55b7505707300d fs: Simplify getattr interface function checking AT_GETATTR_NOSEC flag
+6c056ae4b27575d9230b883498d3cd02315ce6cc libfs: kill empty_dir_getattr()
 609e60a3a9f4053b420d3ece565dee273bfdc2e8 nvmet: report ns's vwc not present
 8a502b5c1689862b1fce1ef3019dcd284cc98aa8 nvme: parse reservation commands's action and rtype to string
 50bee3857d081ab1b83f93c64cb5c10a4babe2d9 nvmet: add tracing of reservation commands
@@ -391,10 +396,11 @@ dfbbfbf191878e8dd422768ce009858d8b5b761e io_uring: introduce concept of memory r
 d617b3147d54c42351eac63b5398d4ddf4f4011b io_uring: restore back registered wait arguments
 88d47f629313730f26a3b00224d1e1a5e3b7bb79 Merge tag 'md-6.13-20241115' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into for-6.13/block
 a652958888fb1ada3e4f6b548576c2d2c1b60d66 io_uring/region: fix error codes after failed vmap
+c6d64479d6093a5c3d709d4cc992a5344877cc3c Merge tag 'pull-statx' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 3e7447ab48d101353c3e5be29e6ff0d322fa5a95 Merge tag 'ext4_for_linus-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 c14a8a4c04c5859322eb5801db662b56b2294f67 Merge tag 'for-6.13-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 3d1b536c13f7cd966aa660d1730855b26d01c9ae Merge tag 'ata-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 77a0cfafa9af9c0d5b43534eb90d530c189edca1 Merge tag 'for-6.13/block-20241118' of git://git.kernel.dk/linux
 8350142a4b4cedebfa76cd4cc6e5a7ba6a330629 Merge tag 'for-6.13/io_uring-20241118' of git://git.kernel.dk/linux
 
---===============2010168506778207248==--
+--===============7923027681746551649==--
