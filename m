@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 19 Nov 2024 20:13:14 -0000
-Message-Id: <173204719448.3326059.899871664763848212@gitolite.kernel.org>
+Date: Tue, 19 Nov 2024 20:20:46 -0000
+Message-Id: <173204764643.3333552.9199563346269746170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,13 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/tmp.master
-    old: 86637ff54132b6853987fd07b2807258da24c68f
-    new: ac1001065f70c8dcb0ccc4db31b3d6c35aefe880
+  - ref: refs/heads/next
+    old: ac1001065f70c8dcb0ccc4db31b3d6c35aefe880
+    new: 98d1f018a8fc3fc368778e364705d39aa6d6396c
     log: |
-         6354ecc7435364b35757aebc77ebd155f71c0443 tests default_vmlinux_btf: Introduce test for using BTF by default
-         ac1001065f70c8dcb0ccc4db31b3d6c35aefe880 tests default_vmlinux_btf: Cover the no args segfault too
+         ce69ca108201836d7964e223ed5427da209ce37a core: Add method to get the vmlinux BTF filename, allow overriding it via env var
+         e843385b66522ecb5e61558321d0f2d6814578a2 pahole: Honour exclusive BTF loading
+         9374bf455e5dcfab73e84881b6bc0a09d3b7f41c core, libctf: Check if constructor arguments are NULL before using them
+         031495f8a4b193bfdf107e4e7171d16d4b5fc815 tests default_vmlinux_btf: Introduce test for using BTF by default
+         98d1f018a8fc3fc368778e364705d39aa6d6396c tests default_vmlinux_btf: Cover the no args segfault too
          
