@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0170804072914563483=="
+Content-Type: multipart/mixed; boundary="===============4377077304958289135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Tue, 19 Nov 2024 10:19:24 -0000
-Message-Id: <173201156448.2816902.2976938753102895542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 19 Nov 2024 10:55:17 -0000
+Message-Id: <173201371738.2846824.4106073174236164494@gitolite.kernel.org>
 
---===============0170804072914563483==
+--===============4377077304958289135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
   - ref: refs/heads/master
     old: 2d5404caa8c7bb5c4e0435f94b28834ae5456623
     new: adc218676eef25575469234709c2d87185ca223a
     log: revlist-2d5404caa8c7-adc218676eef.txt
 
---===============0170804072914563483==
+--===============4377077304958289135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -244,4 +244,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============0170804072914563483==--
+--===============4377077304958289135==--
