@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 19 Nov 2024 18:32:35 -0000
-Message-Id: <173204115533.3242660.8579633585614152033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Tue, 19 Nov 2024 18:45:01 -0000
+Message-Id: <173204190175.3252238.1661195504907724700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: da0253959ec384d8c4ff7c970ce12fb8a95bd052
-    new: 5c65356cae64ddbc95210deb36ee66430645edf8
+    old: 0820c26b098a8c0bb7e3f6db7747a6747d61e30f
+    new: a6b3a55c0c302bf94b95a09a9fdda55f3465d630
     log: |
-         5c65356cae64ddbc95210deb36ee66430645edf8 shared/att: Fix failing to set security level
+         a6b3a55c0c302bf94b95a09a9fdda55f3465d630 TODO: add an item for maintaining list open history in a separate file
          
