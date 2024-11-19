@@ -1,63 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5624686867689488165=="
+Content-Type: multipart/mixed; boundary="===============0965984770246405577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 19 Nov 2024 23:33:50 -0000
-Message-Id: <173205923043.3534507.15492021035978780697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 19 Nov 2024 23:57:59 -0000
+Message-Id: <173206067999.3553858.11283921973682104617@gitolite.kernel.org>
 
---===============5624686867689488165==
+--===============0965984770246405577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: c1f7c7a036a6e38f84978c1e0ea9793203aca6f4
-    new: 0042c059238452c76013759ab00f113e696ac925
-    log: revlist-c1f7c7a036a6-0042c0592384.txt
+  - ref: refs/heads/linus-next
+    old: 861ccb7d1cf494a83acd7c5284cfd1e5e3472985
+    new: 56140b3e84532f7f3620524ac0f657749f38d3f7
+    log: revlist-861ccb7d1cf4-56140b3e8453.txt
 
---===============5624686867689488165==
+--===============0965984770246405577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1f7c7a036a6-0042c0592384.txt
+Content-Disposition: attachment; filename=revlist-861ccb7d1cf4-56140b3e8453.txt
 
-7486d010a47ee3bbba10babd5629c1707be02530 PCI: rockchip-ep: Handle PERST# signal in EP mode
-84d107c1dcaaf601a42f810b1ad68fb2b560ba2e Merge branch 'pci/aspm'
-ad4c15006d328c012ecb5df0dbd20e64f857359b Merge branch 'pci/bwctrl'
-e36833ca8cc6a4a62c94dcb36e277ba0e03e139c Merge branch 'pci/doe'
-bc4559e7acb41d283fb9143ece528dce3cc34fdf Merge branch 'pci/devm'
-6d3eda8f0b101a03c6fcb8c781f8a6b9878f6603 Merge branch 'pci/driver-remove'
-eced6db0546a4016f7bfed7d6d6f439f3f751674 Merge branch 'pci/enumeration'
-ed11588c81587ae8437e76196ccfd5084024e8d8 Merge branch 'pci/hotplug'
-584edbe136fa9e61ce54df093f380ce998523a80 Merge branch 'pci/hotplug-octeon'
-7141844345b04a21b190d6c32581f4eddf4437c2 Merge branch 'pci/locking'
-27f935a3d72f67a9c571463a67dcf4a3a6eca4a6 Merge branch 'pci/of'
-b9903eba0a5153a21e85e2c77f826e17c9e6db95 Merge branch 'pci/pm'
-58d9f642706d710b69f15ddb5567b165437b54b2 Merge branch 'pci/pwrctl'
-1c6d9239d82aa7c076ae9e2d76b09ed4054c94b8 Merge branch 'pci/reset'
-ba59c44532e69ec1b0f41f3bc93f1959afee0f9f Merge branch 'pci/resource'
-f97c120b3abf4e9490e519372ceb7619e866bbc9 Merge branch 'pci/thunderbolt'
-6afe0d78810bf19230c59d514639ccb98e3a5d78 Merge branch 'pci/tph'
-fbc634af787f8cac78d57f1617c83fec0502008b Merge branch 'pci/virtualization'
-38b9a53691c1444a6cd9b848ddc9b5a72f32afd6 Merge branch 'pci/dt-bindings'
-4e571f891bc9a1571bbad2323866b939338db218 Merge branch 'pci/endpoint'
-463a4a3d221e44659e5e943e1eb5eee44cf2081c Merge branch 'pci/controller/cadence'
-93c6e2c8ee1a1463e09023d0cf36b40389fcfb46 Merge branch 'pci/controller/dwc'
-66523d94a828ac6c142f0b01481f8547477b3222 Merge branch 'pci/controller/imx6'
-dc2b7de5e05b36404b611aa4a661d45d83103692 Merge branch 'pci/controller/j721e'
-6dfb0144c0c00fa2ce957e884b2d6c4b59b18671 Merge branch 'pci/controller/keystone'
-85c84af25f751049a524282fec2889399161c561 Merge branch 'pci/controller/mediatek'
-ab652da73b1ce30846c7243885f8a8975a1e8abe Merge branch 'pci/controller/microchip'
-9913a1e34dfff6aaf24af6356c0c6a1e45abea53 Merge branch 'pci/controller/qcom'
-351f3818dad50dbf07ceb2382bc5af27d926152d Merge branch 'pci/controller/rockchip'
-04da9aabd00bba0b24795d6e9599ccc7d1043d35 Merge branch 'pci/controller/tegra194'
-d09131b862358bed9a05b5e831dd1df8d63ad85d Merge branch 'pci/controller/vmd'
-f0d6c06804851081c98ee8077b4adb317a167f0c Merge branch 'pci/misc'
-0042c059238452c76013759ab00f113e696ac925 Merge branch 'pci/typos'
+66418687ac895717dc2f6ddffe24cf9b74cd0d3e kernel/range: Const-ify range_contains parameters
+7a01213d6c18d97c2f98455bb22c8416f8cca28b cxl/core/regs: Add rcd_pcie_cap initialization
+c5eaec79fa43e994ec54c11538dc603d60cd0c4e cxl/pci: Add sysfs attribute for CXL 1.1 device link status
+9474d586819940f00a98dd98015fe456f9b35452 cxl: downgrade a warning message to debug level in cxl_probe_component_regs()
+8e7f07e608864dcf7cabc9c252ca02b6ca9ff0d4 test printf: Add very basic struct resource tests
+3dff66ff8367cd4dabb6a34633e55324c281348a Documentation/printf: struct resource add start == end special case
+4261974701851630951e9ab31f0de4ade0faea53 printf: Add print format (%pra) for struct range
+bdd7c35fc59f391de5a1d93ca7cbc715bf8c015c cxl/cdat: Use %pra for dpa range outputs
+86bcd81d66d63c549e98c9c502ccd3be01a52fe2 Merge branch 'cxl/for-6.12/printf' into cxl-for-next
+06cf321aadef17c7b1578369e314193c0e1c7d8e range: Add range_overlaps()
+d62e2ed065785c9a7837519067e1307e4a24d2c2 ACPI/CDAT: Add CDAT/DSMAS shared and read only flag values
+f88b3ecc9cc737fc518b7a386d38bb2110712fa2 dax: Document struct dev_dax_range
+0f6f0d687adcb4747e71f2a797acc9a739d71778 cxl/pci: Delay event buffer allocation
+27fcfb416827b9e549d821317a9bd21d1abe6821 cxl/hdm: Use guard() in cxl_dpa_set_mode()
+a90326c76bd684bdf0a4f2842ff987ad5c77ff11 cxl/region: Refactor common create region code
+a83383e2ae7c499ff7b318945d9b2fe4e3006c2c Merge branch 'cxl/for-6.13/dcd-prep' into cxl-for-next
+f6aeb7fb089d04f5a06f20822f7c6ce30b428438 Merge tag 'cxl-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl into linus-next
+9080d11a6c5c1fbf27127afdef84d8dcd65b91ff scripts: ipe: polgen: remove redundant close and error exit path
+56140b3e84532f7f3620524ac0f657749f38d3f7 Merge tag 'ipe-pr-20241119' of git://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe into linus-next
 
---===============5624686867689488165==--
+--===============0965984770246405577==--
