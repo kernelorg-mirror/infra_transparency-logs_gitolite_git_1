@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0332432511239644014=="
+Content-Type: multipart/mixed; boundary="===============8463500161212257061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Tue, 19 Nov 2024 09:50:08 -0000
-Message-Id: <173200980890.2793732.3410854354376056964@gitolite.kernel.org>
+Date: Tue, 19 Nov 2024 09:50:13 -0000
+Message-Id: <173200981333.2793841.10639151071503099306@gitolite.kernel.org>
 
---===============0332432511239644014==
+--===============8463500161212257061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: bff1709b3980bd7f80be6786f64cc9a9ee9e56da
     new: 2c87309ea741341c6722efdf1fb3f50dd427c823
     log: revlist-bff1709b3980-2c87309ea741.txt
 
---===============0332432511239644014==
+--===============8463500161212257061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a57d5a72f8dec7db8a79d0016fb0a3bdecc82b56 netpoll: Use rcu_access_pointer() in ne
 66418447d27b7f4c027587582a133dd0bc0a663b Merge branch 'bpf-fix-recursive-lock-and-add-test'
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 
---===============0332432511239644014==--
+--===============8463500161212257061==--
