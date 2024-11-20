@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1881866100898394943=="
+Content-Type: multipart/mixed; boundary="===============5657934900667443028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Nov 2024 12:41:06 -0000
-Message-Id: <173210646653.4175887.13434170704653400355@gitolite.kernel.org>
+Date: Wed, 20 Nov 2024 12:41:07 -0000
+Message-Id: <173210646785.4175989.10909636020444512760@gitolite.kernel.org>
 
---===============1881866100898394943==
+--===============5657934900667443028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: b691d8a48cabc31fa331394a2a618b4c6b0cbd12
-    new: 53504d530e5ecd4c32edd34ab074f6e745bb4e4d
-    log: revlist-b691d8a48cab-53504d530e5e.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 1c36f337d7ee3691b0b5dceea815c3914386e707
+    new: 765608b24f2192193901d4b27e0d5a0a248e043c
+    log: revlist-1c36f337d7ee-765608b24f21.txt
 
---===============1881866100898394943==
+--===============5657934900667443028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732106469 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732106471 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1732106465-2ee60a73e754b3d281bb4ed79d47a0b7765bd384
+nonce 1732106466-fb2ce9e4f3bd4d890c164f9e053eb032249017e0
 
-b691d8a48cabc31fa331394a2a618b4c6b0cbd12 53504d530e5ecd4c32edd34ab074f6e745bb4e4d refs/heads/linux-5.10.y
+1c36f337d7ee3691b0b5dceea815c3914386e707 765608b24f2192193901d4b27e0d5a0a248e043c refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc92OUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ucMP/i8hPxSVumUDel4rBX9a
-F3ikszFaJjOL+29zf09yvn25RTB/sy9xQyWZMmSHF7BSx8jxRTNDg2PLJUG9/3sz
-gWB4MBwCjfTtoUlZ79O0AxmeXASq8+YTxbKbszppeYt/YMS7fOzDvgEw+y7rSpft
-KB0xt9lyLObiPLvDmOfo0jzfhiX3Lcgoi+VE7skiBuxQnPaehmp9vyg9MPQsiG8k
-sUYAT/wE1P+236nuoNm67bY0FBjl2LFaunCEfDh9JQlfkHqdbIW9wdy698Jy0Qzo
-4WlWkHHTgB3KF2BpCKW6+BhRc7BzJa1fW5D5Ryp7qf74LunKKZY+egsLAIAVOfdK
-QkM0zBnckzC7VE3Uk+zb1rgkQlsgw6Wro+xwCtZ0hglnlZk10pv/evLpko8DHpvg
-quhot7jggCQG/f/jrv5WqehxLRz0A3Dbv+tlF75GpiK+YF7NlFqoSLY4t/8KqNA1
-yoL5ERTTMpfj3Bte9oocaEpEZzqejNRhohfEbYFZd1SNjvFWMF+RhSaI5Jmxs7H2
-G3Xx2tiHMq4NUbNPo++WtJOOtO6pBgyJTxtrIg/gHk78RINrHcHXX2YuEkyk1BsS
-A9wAf6GnyEsyd30uN2OmMJ5KTbmhOtzWpk0nuQ6mA23bg/iOCaVn5M1i6/GUDTGN
-gVn/rno5Mr6dDutvY+DXeGqy
-=v9GI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc92OcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wbsP/0cXVTSB3oXLhrifhs/e
+ZR/LdyDlS3AP0uua/Pl/d/O5YMNRfPCR1hdQh5Se3U252Dre5FtSFmchDS3HU8rj
+se4TIM3ry8w3c8HgXb9dMSfjZjDim/Z8r0xDKyzb3viD6Xcok6+GWi3bii7Mbrp+
+imMpwlIiYh1Nh9JC+H2h5g6UMGqexPJWpkmDXSvksqRGB8eCL6rnSWdvvIdeczef
+78h/I8xgDU/QWEZLHbieqIy5r40b3RSz084B0g3yyCaGskmz0Nq3bYimVkNwu+IV
+bDJbTdGZ3nE3uYVWkzz9mHfOLLfBoU4hWMhBFJmzyJEsio06MmiP8kfyzolcwdlU
+g3hagM1mtWVmQqU1Q75qgvsuV/N+/S4t4e5PRVAMLL2NaUBeD3kKrIxDvIiPLFQB
+nKIZNvD5j7FJk5qC2MeGusBvFHtDV0lBlq43RkVlawB6uxm6hSdPjRLdauTC4BYY
+fKatWdYEpBnyMmmyn+/LywpHkwanN/Kk7mMn0Fs2hIRrb3YP4wiI14OrcdxhP/sS
+j/4tgy3PrAuOLVmFPDeGoaVcozXS4icQmAWoyRB0bN6pf94Ana4gmjd1Imu284MM
+4+FEJXsHQ0VD0R6VdULjAlVQeelQe3VderU9lqGWKqzR3+eULn9hArv94AiQKTT/
+U7FQ5nCurw9lUFfWn4KHUevz
+=QUhX
 -----END PGP SIGNATURE-----
 
---===============1881866100898394943==
+--===============5657934900667443028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b691d8a48cab-53504d530e5e.txt
+Content-Disposition: attachment; filename=revlist-1c36f337d7ee-765608b24f21.txt
 
-748d20300d533db832b40ef532961de07cf93aac netlink: terminate outstanding dump on socket close
-13a1653af20f79f7c0f6fa24452d339201d8d4f9 net/mlx5: fs, lock FTE when checking if active
-4f10253bee4312c3fdb04fcda5d375c3912405ec net/mlx5e: kTLS, Fix incorrect page refcounting
-fa443a23d01316e9fa55fa1fb2460d0f3e118035 x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
-4ec47d2067f1d8b112ba4ca2e2ac347a98eeb408 ocfs2: uncache inode which has failed entering the group
-4468ddcc064f27958f6dffaac6f89af96bddf679 vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
-9117680bdb2f41ba8be46076a480f28b668b7ccf KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
-eb04ed04187fba7d92b3c297339753011a338a9d nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
-c03a838ad5a8570f129817db5e5fde846d352bde ocfs2: fix UBSAN warning in ocfs2_verify_volume()
-965aa96bb4238e18040e51fc8490c8792119478f nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
-c1e605b2495156b6c99d7de2f698e949cc8ba46e Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
-e5023cd50d65ab4466a873933b9d2fe91e17d50e drm/bridge: tc358768: Fix DSI command tx
-9ef47275f4eeadf23d5ab8eaec3458d85d1a065f mmc: core: fix return value check in devm_mmc_alloc_host()
-76f05066b98c704f79da85ad14dd312d0640ac5d media: dvbdev: fix the logic when DVB_DYNAMIC_MINORS is not set
-11094584810aa1237fd676f53a096cff497f11e1 NFSD: initialize copy->cp_clp early in nfsd4_copy for use by trace point
-e620faf1c5e964625ef540e397944d71095ad3fe NFSD: Async COPY result needs to return a write verifier
-3c6ce44bb5c6998aadd6626f9cc246006d2cc281 NFSD: Limit the number of concurrent async COPY operations
-ed3bf07b772f1e4827b61337edf443297b31c824 NFSD: Initialize struct nfsd4_copy earlier
-d92b39f14458542d08c508fe8c01430ddf54c724 NFSD: Never decrement pending_async_copies on error
-4b5c61a52e69efcd3dce366b18b8b58668dad78b mm: revert "mm: shmem: fix data-race in shmem_getattr()"
-6fc934bff55bec62d074af7ab1cf3500e73e7255 mm: avoid unsafe VMA hook invocation when error arises on mmap hook
-24434d930b6470f699a469745ec8ae86565015d7 mm: unconditionally close VMAs on error
-405b6ccc0db06e091ca4746516e787b435b600e4 mm: refactor arch_calc_vm_flag_bits() and arm64 MTE handling
-f866e64ff3bb5579e0937f788e3c565b1d42d070 mm: resolve faulty mmap_region() error path behaviour
-53504d530e5ecd4c32edd34ab074f6e745bb4e4d Linux 5.10.231-rc1
+f4e819f2a20c5f1a76e96d7bc3526279153403b5 netlink: terminate outstanding dump on socket close
+fa0ed45e49d226458287508b480ad1d1d74c7200 drm/rockchip: vop: Fix a dereferenced before check warning
+52d04b45262354bfe1e17abec8ac90315dee52c9 net/mlx5: fs, lock FTE when checking if active
+09e3960c88b471f7e9c129a3d8e7552508ea5eb3 net/mlx5e: kTLS, Fix incorrect page refcounting
+72f3dfcbd58e750561da8884ba65714c9ab104ea net/mlx5e: CT: Fix null-ptr-deref in add rule err flow
+a27fb8abe88d0d21078e6e79259b285587e86e05 samples: pktgen: correct dev to DEV
+6255f75990f59c1f91294f8009f21bbe1f17eeef ARM: 9419/1: mm: Fix kernel memory mapping for xip kernels
+d17d5cb763020a0ed8ba070c03e16df4d5197bfc x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
+377675c16c8220d3c09a5f598f4c232b46f23d5c mm: fix NULL pointer dereference in alloc_pages_bulk_noprof
+65ed3bf8b0c0aa81f42fd91c7624ef9f900537a5 ocfs2: uncache inode which has failed entering the group
+b07dd9b05a65d2115cf4607a1c852b345f9f8a0b vdpa/mlx5: Fix PA offset with unaligned starting iotlb map
+6cd1d69cc06d8ea22cd096c1ff3aae3f1ab36db6 KVM: nVMX: Treat vpid01 as current if L2 is active, but with VPID disabled
+32b84d78bf1d3d3f9e17d3b9d8a9857a976a0dfa KVM: VMX: Bury Intel PT virtualization (guest/host mode) behind CONFIG_BROKEN
+4f2efce52acd181fcf36007d0805387c5eccadc8 nilfs2: fix null-ptr-deref in block_touch_buffer tracepoint
+c4d0b73aa14a7b2ec6e2727e97e1690a08606314 ocfs2: fix UBSAN warning in ocfs2_verify_volume()
+55ee92b023c68f1c56c8e42fd1f92c90809cad7b nilfs2: fix null-ptr-deref in block_dirty_buffer tracepoint
+89922991ab50461a1fbf41f838f998ea45dda8a1 Revert "mmc: dw_mmc: Fix IDMAC operation with pages bigger than 4K"
+4dce6348bcd09e32724d3ac78c7601f9a9b4b43f drm/bridge: tc358768: Fix DSI command tx
+633e6b095a7e002c5468cb23eaa77ed8e6a31a0d mmc: sunxi-mmc: Add D1 MMC variant
+f0306944eb046cbd4f47fe70059286e784b90b70 mmc: sunxi-mmc: Fix A100 compatible description
+0b7f79c0900335c59dc25b86dc0b1d58bc725f01 lib/buildid: Fix build ID parsing logic
+bba945f99f12456842f9ad9ee78ffb64e3415365 media: dvbdev: fix the logic when DVB_DYNAMIC_MINORS is not set
+03001e77d9aaa7a5641bc71004b9dd8390dc4f01 NFSD: initialize copy->cp_clp early in nfsd4_copy for use by trace point
+e9aa5b56aee1ec9ebce4653d8ba3163d451c7a24 NFSD: Async COPY result needs to return a write verifier
+71c5a9f7b6492af2e0b496b903ea0b25cfdbb21a NFSD: Limit the number of concurrent async COPY operations
+14444b9fd2eb354b6d3f33eafe6ed296fe0ae1cc NFSD: Initialize struct nfsd4_copy earlier
+5cf6852c9ce39871e6a1a13a8ebc775aa705df2c NFSD: Never decrement pending_async_copies on error
+b58c9f0a44c8bf16289ecede18b4fc13789421fa mptcp: cope racing subflow creation in mptcp_rcv_space_adjust
+d63141ec9496b9480e6ed3e4087b75954f9c2440 mm: revert "mm: shmem: fix data-race in shmem_getattr()"
+c6027070a6e2392d969607375a72dd89399dca0b mm: avoid unsafe VMA hook invocation when error arises on mmap hook
+937c8a3e9a942fcb4a9d2caef14b8d2f3dfd7a1c mm: unconditionally close VMAs on error
+327de8b5a2a25e0e12168861f3771d72a8b83b57 mm: refactor arch_calc_vm_flag_bits() and arm64 MTE handling
+83ed2458ad9e384f50e40033722fb448b854cd04 mm: resolve faulty mmap_region() error path behaviour
+765608b24f2192193901d4b27e0d5a0a248e043c Linux 5.15.174-rc1
 
---===============1881866100898394943==--
+--===============5657934900667443028==--
