@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4150363123634586844=="
+Content-Type: multipart/mixed; boundary="===============0859842277673201909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 20 Nov 2024 10:47:36 -0000
-Message-Id: <173209965629.4078883.10493871666059273007@gitolite.kernel.org>
+Date: Wed, 20 Nov 2024 10:47:50 -0000
+Message-Id: <173209967045.4079086.10957418050314367780@gitolite.kernel.org>
 
---===============4150363123634586844==
+--===============0859842277673201909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.13
     old: 7aa197c2e3bdbdf00404e73321b4f52cb70cddb4
     new: a573e404cbf269d46b3a96b18f7316aa57161fdf
     log: revlist-7aa197c2e3bd-a573e404cbf2.txt
 
---===============4150363123634586844==
+--===============0859842277673201909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e74fa2447bf9ed03d085b6d91f0256cc1b53f1a8 dm thin: Add missing destroy_work_on_st
 61a57254a942705ca0a13d71a0b8387b299a65da dm-bufio: use kmalloc to allocate power-of-two sized buffers
 a573e404cbf269d46b3a96b18f7316aa57161fdf dm-verity: remove the unused "data_start" variable
 
---===============4150363123634586844==--
+--===============0859842277673201909==--
