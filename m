@@ -1,26 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 20 Nov 2024 17:51:19 -0000
-Message-Id: <173212507991.242881.7622279339136539946@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5900263209939756304=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 20 Nov 2024 18:16:34 -0000
+Message-Id: <173212659482.262648.5650353212155516551@gitolite.kernel.org>
+
+--===============5900263209939756304==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: fc2965649c49417cb02b40a81d57bf07bf35c4c6
-    new: 94ebc9d90bc4148e50069f38b5bb5368112ee137
+  - ref: refs/heads/slab/for-next
+    old: e4bafb82625e8b765068451496a1de5914b84e6f
+    new: 9008fe8fad8255edfdbecea32d7eb0485d939d0d
     log: |
-         bb57d61add2c956b57ea83b31f7011a83caa7c6a util: add util_linear_map
-         c40e66509442dcbe66325899e631cabecd8634f7 unit: add linear mapping test
-         a910a21beb8c1da4f29d41791c2266e2d5a5e46b util: add util_exponential_decay
-         7465abe5f817cdae33e1cd1c2ebe5d3e31ce1dfd network: use util_exponential_decay
-         7c5b40ff6bc4120d65f04ee3050c4ad1a854d118 scan: parse station count from BSS load IE
-         f2ac45eb52469b3a7ce5f32a05777fef117e0def scan: add ranking modifiers for utilization/station count
-         b0759ebbb2eeedcf720e4e9493650ca3195a6054 doc: document [Rank].HighUtilization/StationCount thresholds
-         94ebc9d90bc4148e50069f38b5bb5368112ee137 station: print client count in scan results
+         9008fe8fad8255edfdbecea32d7eb0485d939d0d slab: Fix too strict alignment check in create_cache()
          
+
+--===============5900263209939756304==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1732126616 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1732126587-799dfaac23fd13cd1d3e1191d843b9f8452988f4
+
+e4bafb82625e8b765068451496a1de5914b84e6f 9008fe8fad8255edfdbecea32d7eb0485d939d0d refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmc+J5gACgkQu+CwddJF
+iJo6Swf+PUrW/CSa/E/yo7Bq6bUjJAUXdl9kYOW2NbNeoIZrlnQN1m7u+NoAhZgn
+4Zrht21zNj+o2JowUuQ55kzofqu09B4aTu6PrpKR8Gir4lBfy9gAwvgT0NfNxoFW
+iEwY9Ydoeb8+nVq039RPENieXFOFCcE69uiSVywzoxJPzLWTN8fZuxyl0zneOd2B
+ze2IFagqFtfEbDuT+hTM+A8CSXAxQvg40pstxvZ9Squ+lhfdTcjfjQcm9Ur4wTvE
+tezpTMAKkz249+BYhJvAWFOIhQyVqCNv/cpNdHhzBUw+ue3kCe3ulMMznmlx/ioP
+LaTKglgophUQyEjXP1pGH61JyR/OaQ==
+=zexI
+-----END PGP SIGNATURE-----
+
+--===============5900263209939756304==--
