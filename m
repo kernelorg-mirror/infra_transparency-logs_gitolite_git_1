@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Wed, 20 Nov 2024 11:04:51 -0000
-Message-Id: <173210069160.4092215.15175973669824883219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 20 Nov 2024 11:32:02 -0000
+Message-Id: <173210232220.4114343.8372062013979656306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/kvm-arm64/guest-trfcr
+  - ref: refs/tags/sound-6.13-rc1
     old: 0000000000000000000000000000000000000000
-    new: c21b65d8e37b70f893a0b98471a14f241b4b0482
+    new: 2774987c657e41e9beb7d6864d6abb219875c764
