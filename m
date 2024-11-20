@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0255734271765309872=="
+Content-Type: multipart/mixed; boundary="===============7201065162399586077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 20 Nov 2024 00:51:46 -0000
-Message-Id: <173206390602.3599839.17493970909786528581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 20 Nov 2024 00:51:50 -0000
+Message-Id: <173206391050.3599982.3811772907714707064@gitolite.kernel.org>
 
---===============0255734271765309872==
+--===============7201065162399586077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: bf9aa14fc523d2763fc9a10672a709224e8fcaf4
     log: revlist-adc218676eef-bf9aa14fc523.txt
 
---===============0255734271765309872==
+--===============7201065162399586077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fb1dd1403c7b2219b8c1524c909938bd4b3f401f Merge tag 'core-debugobjects-2024-11-18
 035238752319a58244d86facd442c5f40b0e97e2 Merge tag 'timers-vdso-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bf9aa14fc523d2763fc9a10672a709224e8fcaf4 Merge tag 'timers-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============0255734271765309872==--
+--===============7201065162399586077==--
