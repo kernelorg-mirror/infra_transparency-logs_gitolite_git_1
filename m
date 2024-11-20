@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0788239981679032852=="
+Content-Type: multipart/mixed; boundary="===============7496041883216842324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 20 Nov 2024 15:07:15 -0000
-Message-Id: <173211523585.104439.7898368739206611294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 20 Nov 2024 15:07:17 -0000
+Message-Id: <173211523763.104514.758441624151219012@gitolite.kernel.org>
 
---===============0788239981679032852==
+--===============7496041883216842324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: bf9aa14fc523d2763fc9a10672a709224e8fcaf4
     log: revlist-adc218676eef-bf9aa14fc523.txt
 
---===============0788239981679032852==
+--===============7496041883216842324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fb1dd1403c7b2219b8c1524c909938bd4b3f401f Merge tag 'core-debugobjects-2024-11-18
 035238752319a58244d86facd442c5f40b0e97e2 Merge tag 'timers-vdso-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bf9aa14fc523d2763fc9a10672a709224e8fcaf4 Merge tag 'timers-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============0788239981679032852==--
+--===============7496041883216842324==--
