@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4201276578771537861=="
+Content-Type: multipart/mixed; boundary="===============2228504552529571385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 20 Nov 2024 23:33:16 -0000
-Message-Id: <173214559674.516275.17800512635601577210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 20 Nov 2024 23:33:20 -0000
+Message-Id: <173214560088.516435.18251422978362094361@gitolite.kernel.org>
 
---===============4201276578771537861==
+--===============2228504552529571385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c66fbc6c3df9ccefbb896695cfc4db279d517ff1
     log: revlist-bf9aa14fc523-c66fbc6c3df9.txt
 
---===============4201276578771537861==
+--===============2228504552529571385==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -965,4 +965,4 @@ df66aeadd8f8445a1a73c39f5ec62c61c89f7e9a Merge tag 'seccomp-v6.13-rc1' of git://
 f103749785a76c3e06d52fc08bdb695fbde6e042 Merge tag 'microblaze-v6.13' of git://git.monstr.eu/linux-2.6-microblaze
 c66fbc6c3df9ccefbb896695cfc4db279d517ff1 Merge tag 'for-linus' of https://github.com/openrisc/linux
 
---===============4201276578771537861==--
+--===============2228504552529571385==--
