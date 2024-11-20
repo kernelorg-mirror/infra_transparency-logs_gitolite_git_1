@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 20 Nov 2024 15:41:11 -0000
-Message-Id: <173211727156.134107.418797464972523352@gitolite.kernel.org>
+Date: Wed, 20 Nov 2024 15:41:21 -0000
+Message-Id: <173211728187.134321.11560916464188876448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: b5f871ab4913b2403a7cdcbcde16d39d0b071fb3
+  - ref: refs/heads/pending
+    old: c8ea7df813a7925ef69185bbbec918787e098f9a
     new: ea58aae8458480d6391c404e62f1a4b30462b9c3
     log: |
          a93d125ebfdd530ea1980a45b7ad2e9471b82c87 wifi: ath12k: Support Downlink Pager Stats
