@@ -1,23 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 20 Nov 2024 15:41:21 -0000
-Message-Id: <173211728187.134321.11560916464188876448@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9071180383411930175=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 20 Nov 2024 15:48:05 -0000
+Message-Id: <173211768508.139177.12305981117048430463@gitolite.kernel.org>
+
+--===============9071180383411930175==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: c8ea7df813a7925ef69185bbbec918787e098f9a
-    new: ea58aae8458480d6391c404e62f1a4b30462b9c3
+  - ref: refs/heads/slab/for-next
+    old: 9e19aa165cb5b8f976d073cdc12cfe9a8da2bd12
+    new: e4bafb82625e8b765068451496a1de5914b84e6f
     log: |
-         a93d125ebfdd530ea1980a45b7ad2e9471b82c87 wifi: ath12k: Support Downlink Pager Stats
-         c3527cdfcdf70dcd613c4582283e28e4f81df9ea wifi: ath12k: Support phy counter and TPC stats
-         3a660e7fa44d556f41cbef6d2430f7227ef3f3ef wifi: ath12k: Support SoC Common Stats
-         c8f314703bcbade1bcef8dfee9ffc6a1d66b9d8f wifi: ath12k: Support Transmit PER Rate Stats
-         ea58aae8458480d6391c404e62f1a4b30462b9c3 wifi: ath12k: Support MBSSID Control Frame Stats
+         e4bafb82625e8b765068451496a1de5914b84e6f slab: Fix too strict alignment check in create_cache()
          
+
+--===============9071180383411930175==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1732117710 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1732117681-c55833207fd2280f8c81d6cc4fa666e92506ddd4
+
+9e19aa165cb5b8f976d073cdc12cfe9a8da2bd12 e4bafb82625e8b765068451496a1de5914b84e6f refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmc+BM4ACgkQu+CwddJF
+iJolugf/YWV/73VXEuwXu8WfSaUTUB7dPiWdM6+Qh6x9f+NlDHmZ3l+0XJ8aERKV
+KuQ/Ko7tttHp6HBPn4v05zojFj3YxhA2DtMIysoRYzNJwPJogmgaB6niYjyol7Rl
+nLUWviF8MILEa0N1EVRXS983Ke8B6OiXNsOr/w+0oLmcsiys36E6GXyN5gfSDRCl
+a2mptF+rL76vwQQMuCIFRx3bLCcB5uilx0UREMqWTu4wqMM46Jvk4Wi1MwlPuqia
+ii2DQNzr/MwRhHoBu38eEAAlQG4VL1zup56Qvd27JS8cM1QGrmSWTxNf0Dh/Pl3W
+AIbWdhCVlY/f5gFHchnGW6DXg8VPWA==
+=+4/x
+-----END PGP SIGNATURE-----
+
+--===============9071180383411930175==--
