@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6330394215175382840=="
+Content-Type: multipart/mixed; boundary="===============7305515532710991881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 21 Nov 2024 12:32:51 -0000
-Message-Id: <173219237184.1145469.5216628771039789203@gitolite.kernel.org>
+Date: Thu, 21 Nov 2024 12:33:10 -0000
+Message-Id: <173219239036.1145845.12010671835183776456@gitolite.kernel.org>
 
---===============6330394215175382840==
+--===============7305515532710991881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/fixes
-    old: 0338cd9c22d1bce7dc4a6641d4215a50f476f429
-    new: 3f020399e4f1c690ce87b4c472f75b1fc89e07d5
-    log: revlist-0338cd9c22d1-3f020399e4f1.txt
-  - ref: refs/heads/master
-    old: 0338cd9c22d1bce7dc4a6641d4215a50f476f429
-    new: 3f020399e4f1c690ce87b4c472f75b1fc89e07d5
-    log: revlist-0338cd9c22d1-3f020399e4f1.txt
+  - ref: refs/heads/features
+    old: 1e37192e088fed30dbf8507d32115f4b1cc0f0ce
+    new: 45c9f2b856a075a34873d00788d2e8a250c1effd
+    log: revlist-1e37192e088f-45c9f2b856a0.txt
+  - ref: refs/heads/for-next
+    old: 1e37192e088fed30dbf8507d32115f4b1cc0f0ce
+    new: 45c9f2b856a075a34873d00788d2e8a250c1effd
+    log: revlist-1e37192e088f-45c9f2b856a0.txt
 
---===============6330394215175382840==
+--===============7305515532710991881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0338cd9c22d1-3f020399e4f1.txt
+Content-Disposition: attachment; filename=revlist-1e37192e088f-45c9f2b856a0.txt
 
 7cbf28998d737e04c4872cfeedd1a546d22cfb44 platform/chrome: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 6074e905023d09f64f2c896f475820a5623deb2c firmware: sysfb: Add a sysfb_handles_screen_info() helper function
@@ -769,5 +769,11 @@ d8d78a90e7fca1ce7c90fa791400b287bc5b42a1 Merge tag 'x86_cpu_for_v6.13' of git://
 9d7d4ad222aea8ab482e78858d03b10221c7fe78 Merge tag 'objtool-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f41dac3efb7582cd3f518fadf7764d424f453788 Merge tag 'perf-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f020399e4f1c690ce87b4c472f75b1fc89e07d5 Merge tag 'sched-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+897614f90f7cd9fd7f5b7acca24dfb55b6c0c4ae s390/debug: Pass in and enforce output buffer size for format handlers
+2f32cc40f1440a6aa9e7396af41db79bece67bb2 s390/mm: Remove bogus comment in __tlb_flush_mm()
+588a9836a4ef7ec3bfcffda526dfa399637e6cfc s390/stacktrace: Use break instead of return statement
+9c7260b527f0f7c75a9c0fee297663d1acc40937 s390/vfio-ap: Remove gmap_convert_to_secure() from vfio_ap_ops
+7bc1ee28f4d21fc1e2f3d09534baf86ce7f3ba5e s390/cpum_sf: Simplify release of SDBs and SDBTs
+45c9f2b856a075a34873d00788d2e8a250c1effd s390/entry: Mark IRQ entries to fix stack depot warnings
 
---===============6330394215175382840==--
+--===============7305515532710991881==--
