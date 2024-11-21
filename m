@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2315242368100728904=="
+Content-Type: multipart/mixed; boundary="===============6227041019000165120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 21 Nov 2024 18:08:28 -0000
-Message-Id: <173221250872.1449667.6575828721859076987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 21 Nov 2024 18:08:32 -0000
+Message-Id: <173221251260.1449805.10096250647234051758@gitolite.kernel.org>
 
---===============2315242368100728904==
+--===============6227041019000165120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fc39fb56917bb3cb53e99560ca3612a84456ada2
     log: revlist-c66fbc6c3df9-fc39fb56917b.txt
 
---===============2315242368100728904==
+--===============6227041019000165120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c01f664e4ca210823b7594b50669bbd9b0a3c3b0 Merge tag 'reiserfs_delete' of git://gi
 6a550ae5560f7237c82dc9c0c128ba1d593c4dde Merge tag 'dlm-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 fc39fb56917bb3cb53e99560ca3612a84456ada2 Merge tag 'jfs-6.13' of github.com:kleikamp/linux-shaggy
 
---===============2315242368100728904==--
+--===============6227041019000165120==--
