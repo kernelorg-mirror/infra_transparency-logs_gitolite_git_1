@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1209598263395626538=="
+Content-Type: multipart/mixed; boundary="===============8280298401421699920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 21 Nov 2024 22:48:20 -0000
-Message-Id: <173222930013.1737610.13587278531492525718@gitolite.kernel.org>
+Date: Thu, 21 Nov 2024 22:48:46 -0000
+Message-Id: <173222932658.1737982.10370524791293834402@gitolite.kernel.org>
 
---===============1209598263395626538==
+--===============8280298401421699920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: c22a4daa6142a3071e1a1b475ce2e3480bb923bd
     new: ade77d156dfd77f1a1904720e7fa6b8a8e878fbb
     log: revlist-c22a4daa6142-ade77d156dfd.txt
 
---===============1209598263395626538==
+--===============8280298401421699920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fc39fb56917bb3cb53e99560ca3612a84456ada2 Merge tag 'jfs-6.13' of github.com:klei
 2e1827de1b0f22b420c9446a3c94e6cce8eb4da4 char: tpm: cr50: Add new device/vendor ID 0x50666666
 ade77d156dfd77f1a1904720e7fa6b8a8e878fbb tpm: atmel: Drop PPC64 specific MMIO setup
 
---===============1209598263395626538==--
+--===============8280298401421699920==--
