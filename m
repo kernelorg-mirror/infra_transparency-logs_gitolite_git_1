@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7478316769541455193=="
+Content-Type: multipart/mixed; boundary="===============6200147986615938322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 21 Nov 2024 10:13:05 -0000
-Message-Id: <173218398587.1035356.10014336659866880520@gitolite.kernel.org>
+Date: Thu, 21 Nov 2024 10:13:44 -0000
+Message-Id: <173218402439.1035901.8676766208656022914@gitolite.kernel.org>
 
---===============7478316769541455193==
+--===============6200147986615938322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo
+  - ref: refs/heads/for-next
     old: c6a2b4fcec5f2d80b0183fae1117f06127584c28
     new: 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2
     log: revlist-c6a2b4fcec5f-43fb83c17ba2.txt
 
---===============7478316769541455193==
+--===============6200147986615938322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1732184008 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1732184049 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1732183979-69f9a5ba42756e73de2d0efb0bbacfe37a37700e
+nonce 1732184019-844198b9d4ee06374ed09306abb87d5b79b43aac
 
-c6a2b4fcec5f2d80b0183fae1117f06127584c28 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 refs/heads/review-ilpo
+c6a2b4fcec5f2d80b0183fae1117f06127584c28 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZz8HzQAKCRBZrE9hU+XO
-MRgcAQDPIAoQwIak6GyNmHdeS14nI/sA52jfbO1eYMSU8NK9SgD6Ao3S0SSgf7B2
-J8Pc+aiLJeRKBx+FxeqIMvSS60Y+hgQ=
-=6pFy
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZz8H9AAKCRBZrE9hU+XO
+MR7CAPwPCqjeFqOcqJVeG/DD+/UogD2wsFrKAOxW6bhXNucv2AD7B/2z8f/UcfZW
++exnxkrZe0tPVi+mUX5FaAtfgsHbSgk=
+=HB4J
 -----END PGP SIGNATURE-----
 
---===============7478316769541455193==
+--===============6200147986615938322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ c66fbc6c3df9ccefbb896695cfc4db279d517ff1 Merge tag 'for-linus' of https://github
 06e47dce8fc3ab68c2ea3b5082caab99e8002b80 Merge tag 'soc-defconfig-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 Merge tag 'soc-arm-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============7478316769541455193==--
+--===============6200147986615938322==--
