@@ -1,56 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============1545619674706175837=="
+Content-Type: multipart/mixed; boundary="===============0272305718101110306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 21 Nov 2024 18:27:45 -0000
-Message-Id: <173221366551.1470123.6973489062417292526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Thu, 21 Nov 2024 18:28:29 -0000
+Message-Id: <173221370940.1470627.2835029253894398386@gitolite.kernel.org>
 
---===============1545619674706175837==
+--===============0272305718101110306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d8f989c59b27b5d9fea2361198651e4824330d79
-    new: e00f006d4affe0a7a9489917ceae1e83314008b2
-    log: |
-         e00f006d4affe0a7a9489917ceae1e83314008b2 strip .mbox files for newly created cve ids
-         
+    old: cda6883cade6ec67671d0c7de61e70eb992509a9
+    new: 54dcbfc0e8d5ce47b97e2ceea21e9b435378d92a
+    log: revlist-cda6883cade6-54dcbfc0e8d5.txt
 
---===============1545619674706175837==
+--===============0272305718101110306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732213669 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1732213664-45e08f990fdcf02776efd8b35a9d136d6ccccb0d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732213712 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1732213708-0957e4d56dbbc519d2f14163e0d194ec3ec0c4af
 
-d8f989c59b27b5d9fea2361198651e4824330d79 e00f006d4affe0a7a9489917ceae1e83314008b2 refs/heads/master
+cda6883cade6ec67671d0c7de61e70eb992509a9 54dcbfc0e8d5ce47b97e2ceea21e9b435378d92a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc/e6UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MNsP/ioQXRtD6oG3r0tvZznr
-Y9jL7djhwDAdQ8bJFCxXaKMNOSL8w2QCNN0Ax6mdcE750LWfqNGLHfXF2jk0DeT4
-BQkp1QuhBbp0bjUVHxE0xg5VuUsnyLOMB9/pAbpyc7CyLMdal1Qono7rA42CwCix
-idODWol/ES9VQU0egykmO49Ij0dxvn85uniUQrRo1NFs3elGuvCZ3t95VjhbsYHv
-Vd2cwLziJkcfrgugIPDnPddCn+JXOD3A4AyZuX/sNGjpOycelmZSHhUC0tQdO8uv
-y7r1+hrLcNKQobSoHCKB7bdZDMSGozoZHaVN5zqCmyyTWbR3map19/nHQI8j5I1T
-sUgtt6x/IeZi9w7u0zNzGwEmn6+Wb0JhddSwu5RanW2qVBEVnBuULYXnFpGUzhEh
-9C+d/0siEErlOlZ6ggo75qLy6DmIjiv/fJ+3oyCRgjLT4eJ2P97zW6C60nPTYGDw
-Hysf0dC4R8mC80xJRsIl5oNMTMuNGaTC6bdrgFAeve+5iIkM0w57Y2Zqx+YpA7Ia
-mCT0pvQ3kGxXsT/yYNvwroU2BsmjZJzwbio3zztzmIZHbwM4pRSh0NnDMwR0JA2b
-a1f9A9b3l5L0+xtPgy34eJxaFKvJie4zYQYgCm/wPBYZzJYbUgmoDRJt8lVV3rxV
-q/ahhMCQAJcH9QbL7o+vlIDQ
-=Xj6q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmc/e9AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55EQAJucJBXSWCyoTpp7HkY/
+t75PiOIwqsCA0ydONASvJB3tHc1xjBHQvPW5h3Kg08zRfBWgt1CtGzSYNZmo42Q1
+8Hwfdjz/U/nj+BXnybGN5GVRkG51jkP22DtL+hBOfjjSFNDM//HoQm3/LTVUxvy5
+i/GoNdLUexwf4VVZhBumbnomWlqJbJd1tAyKxtDLZ7b1Xf0ZLq0u85IIl4RmBZjt
+kNeCTEqeowGfp8OLSXIDX+ExQjaZoHlWUl9ELMm+J0GjsfsS1hLc3VOLNR0dkvZ9
+SwCE/mWzp+zqId7M32RyjR5McYNMcCtd4C6kvVRiDQ+WMLn/YAMgaEv3pycwhuoP
+gghTHdEj8z/uSSheeJN+g0T6Q4Su1wx62RtH+SJDk/skE7u1ABNzSNAjijbCO2jQ
+mwl3gXhwszFJK1oQqsiwSqiQ6TltrxaU3I/+WqTcseQkZhWpQAbYypCWVghf5Zan
+diXW79c4UEiELtj6Tq+26dTnwz3psmvgYZjIqyygiaXU63l0uD1JFoXS8HxE0xGa
+uFI52bSdYUCOaCD1Ct4Tte73L05EzHrnauGf0Ab4gFnLXQktCDAGR7buo9XnLEBt
+oWZMXRHPOb1nng+fBce0qk+GbV/T7gSQ49aXXloX9Wfq0p9VDhJWByLrwYlGOD5Z
+ixVEI1/Vibi1GqzTPgrrWqw5
+=4sJY
 -----END PGP SIGNATURE-----
 
---===============1545619674706175837==--
+--===============0272305718101110306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cda6883cade6-54dcbfc0e8d5.txt
+
+3fd7d1fac4a0f4d135434aa6907d94d0d6e82b33 lsusb.py: add usb.ids path for Debian
+ceed7cac9ab06f3213f7a92ee8796574aa814643 ci: bump the all-actions group with 4 updates
+74c5fdc280cf5d9f85cc1134b003d38888ae8067 Merge pull request #208 from gregkh/dependabot/github_actions/all-actions-71f7308342
+dd312acc27f3a0622999e68c1a148bef77840e12 Merge pull request #207 from aurel32/debian-usb.ids
+5c02e04ebcb2192ea4bdc430de2aedca29538207 lsusb: improve usb2 device capability descriptor
+807d0cce0b67597edcb77aa4fe6fef3a8d6a6b5f Merge pull request #209 from tsundre/improve-usb2-extension-devcap
+a25e93188b1d3a957749e70457e38ef74edfd053 ci: Fix debian/ubuntu installation
+2c488b6e19060ecbadfa60d8ec4a4c23243240c4 ci: stop manually creating build/
+e9282203fe1e3df894c7062b71beaa90bf899ae9 ci/codeql: use filter-sarif to filter meson-private
+79a0b233a36c5e173a4e6ea9b0af94a465859b2a Merge pull request #211 from evelikov/codeql-tidy
+ddcab4c53bf75b616228153758fd4245689bc99e Remove commented out code in usbreset.c and list.h and container_of.h
+e393a76c3765785573651a0a62c22cf45abf17bc lsusb: turn a FIXME comment for dump_comm_descriptor() into something real
+87639bc6f1efa0c7db072739cdc609fa1f0788c4 lsusb: remove FIXME about wireless usb device
+c6e9bcfcdfa4d4fbdf35144838aacf90058c8bdb lsusb: change FIXME for bmEthernetStatistics into a TODO
+54dcbfc0e8d5ce47b97e2ceea21e9b435378d92a lsusb.c: change TODO into a fixme in do_dualspeed()
+
+--===============0272305718101110306==--
