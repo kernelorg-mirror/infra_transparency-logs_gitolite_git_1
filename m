@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 21 Nov 2024 14:02:01 -0000
-Message-Id: <173219772113.1218019.12265823367989693762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 21 Nov 2024 14:03:14 -0000
+Message-Id: <173219779429.1218744.15865510062312653308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/hwmon
-    old: c284aeb75d28be260f75363556e2243ff9397dcb
-    new: 6b09bc5f819b4438aa665434c58e4137bc462200
-    log: |
-         6b09bc5f819b4438aa665434c58e4137bc462200 hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
-         
+  - ref: refs/heads/fileuRbMDH
+    old: 0000000000000000000000000000000000000000
+    new: f32c3f01c21cdd6a354988006aaca5e3dfe478f9
