@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8514565783996136443=="
+Content-Type: multipart/mixed; boundary="===============1642685512168258912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 21 Nov 2024 17:21:33 -0000
-Message-Id: <173220969354.1412134.14137016088638617680@gitolite.kernel.org>
+Date: Thu, 21 Nov 2024 17:22:13 -0000
+Message-Id: <173220973321.1412583.4720353116100271459@gitolite.kernel.org>
 
---===============8514565783996136443==
+--===============1642685512168258912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,59 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-mlo
-    old: f27e4f14a5788bb3a63af76455576307e181c1e3
-    new: 66005568b5bec2a84c0812c7f7290e3feabbe494
-    log: revlist-f27e4f14a578-66005568b5be.txt
-  - ref: refs/tags/ath12k-mlo-202411211721
+  - ref: refs/heads/ath12k-mlo-qcn9274
+    old: 7cc33d31e0b34413c2850787fd13c41da1e6a245
+    new: e1b576dc624f8cd8256d03e96001157c585a60de
+    log: revlist-7cc33d31e0b3-e1b576dc624f.txt
+  - ref: refs/tags/ath12k-mlo-qcn9274-202411211722
     old: 0000000000000000000000000000000000000000
-    new: 66005568b5bec2a84c0812c7f7290e3feabbe494
+    new: e1b576dc624f8cd8256d03e96001157c585a60de
 
---===============8514565783996136443==
+--===============1642685512168258912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f27e4f14a578-66005568b5be.txt
+Content-Disposition: attachment; filename=revlist-7cc33d31e0b3-e1b576dc624f.txt
 
-157a4881225bd0af5444aab9510e7b6da28f2469 Merge branch 'add-ethernet-dts-schema-for-qcs615-qcs8300'
-aa6f8b2593b56a02043684182a89853f919dff3e mm/gup: stop leaking pinned pages in low memory conditions
-f4657e16e767105194f97586fe3c03d3f64c4d37 mm/codetag: fix null pointer check logic for ref and tag
-e0fc203748377835bbb4fb4c45174592214a3211 mm: avoid VM_BUG_ON when try to map an anon large folio to zero page.
-b54e1bfecc4b2775c184d2edb319232b853a686d mm: fix PSWPIN counter for large folios swap-in
-5168a68eb78fa1c67a8b2d31d0642c7fd866cc12 mm, swap: avoid over reclaim of full clusters
-ece5897e5a10fcd56a317e32f2dc7219f366a5a8 tools/mm: -Werror fixes in page-types/slabinfo
-330d8df81f3673d6fb74550bbc9bb159d81b35f7 kasan: remove vmalloc_percpu test
-d31638ff6c5437ca2968d6c22fb16524fd485013 Squashfs: fix variable overflow in squashfs_readpage_block
-b3a033e3ecd3471248d474ef263aadc0059e516a nilfs2: fix potential deadlock with newly created symlinks
-9d08ec41a0645283d79a2e642205d488feaceacf mm: allow set/clear page_type again
-caa714f86699bcfb01aa2d698db12d91af7d0d81 drm/tests: helpers: Add helper for drm_display_mode_from_cea_vic()
-926163342a2e7595d950e84c17c693b1272bd491 drm/connector: hdmi: Fix memory leak in drm_display_mode_from_cea_vic()
-add4163aca0d4a86e9fe4aa513865e4237db8aef drm/tests: hdmi: Fix memory leaks in drm_display_mode_from_cea_vic()
-d5953d680f7e96208c29ce4139a0e38de87a57fe netfilter: nft_payload: sanitize offset and length before calling skb_checksum()
-e6ab19443b36a45ebfb392775cb17d6a78dd07ea net: hns3: default enable tx bounce buffer when smmu enabled
-f2c14899caba76da93ff3fff46b4d5a8f43ce07e net: hns3: add sync command to sync io-pgtable
-3e0f7cc887b77603182dceca4d3a6e84f6a40d0a net: hns3: fixed reset failure issues caused by the incorrect reset type
-662ecfc46690e92cf630f51b5d4bbbcffe102980 net: hns3: fix missing features due to dev->features configuration too early
-2758f18a83ef283d50c0566d3f672621cc658a1a net: hns3: Resolved the issue that the debugfs query result is inconsistent.
-5f62009ff10826fefa215da68831f42b0c36b6fb net: hns3: don't auto enable misc vector
-d1c2e2961ab460ac2433ff8ad46000582abc573c net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-3e22b7de34cbdb991a2c9c5413eeb8a6fb7da2a5 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
-2cf246143519ecc11dab754385ec42d78b6b6a05 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
-d80a3091308491455b6501b1c4b68698c4a7cd24 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
-ee802a49545ac20d7021c24068badd2c280c2bf7 Merge tag 'for-net-2024-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-50ae879de107ca2fe2ca99180f6ba95770f32a62 Merge tag 'nf-24-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-a14968aea637bbe38a99e6089944e4ad8e6c49e5 gpio: fix uninit-value in swnode_find_gpio
-cb08a0265917bc2943bf68c1760058660882e394 kbuild: rpm-pkg: disable kernel-devel package when cross-compiling
-e2c318225ac13083cdcb4780cdf5b90edaa8644d kbuild: deb-pkg: add pkg.linux-upstream.nokernelheaders build profile
-2ad7126c5190864e928154ef74e0ae6cbdcea783 kbuild: deb-pkg: add pkg.linux-upstream.nokerneldbg build profile
-d01661e1f422f071279417c6a21d9d7989844d25 kconfig: show sub-menu entries even if the prompt is hidden
-90bad749858cf88d80af7c2b23f86db4f7ad61c2 gpio: sloppy-logic-analyzer: Check for error code from devm_mutex_init() call
-37bb5628379295c1254c113a407cab03a0f4d0b4 USB: serial: io_edgeport: fix use after free in debug printk
-993ca0eccec65a2cacc3cefb15d35ffadc6f00fb drm/xe: Add mmio read before GGTT invalidate
-fe05cee4d9533892210e1ee90147175d87e7c053 drm/xe: Don't short circuit TDR on jobs not started
-3c1f19ab3d59d4b01cbb70fc5fbaa8c5805f108b Merge tag 'ath-next-20241030' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-3b88a9876779b55478a4dde867e73f7a100ffa23 wifi: wfx: Fix error handling in wfx_core_init()
-1e52d0061a8375dab8ae2627a001bf94d95ef3d4 wifi: brcm80211: Remove unused dma_txflush()
 2b94751626a6d49bbe42a19cc1503bd391016bd5 wifi: cw1200: Fix potential NULL dereference
 1d60d74e852647255bd8e76f5a22dc42531e4389 io_uring/rw: fix missing NOWAIT check for O_DIRECT start write
 9e114ec8084020e10e1cb7b43dbbf6e69940866b net: phy: dp83822: Configure RMII mode on DP83825 devices
@@ -1053,5 +1014,44 @@ d48a9655ac979c9bbe4e1df8a3f6948bea2f2933 wifi: ath12k: handle ath12k_bss_assoc f
 1a7e1aacf553adb459ccc484966483aee2ba64f1 wifi: ath12k: Defer vdev creation for MLO
 86bc694d2c149397887712e50d1b86ad2e277840 wifi: ath12k: ath12k_mac_op_set_key(): fix uninitialized symbol 'ret'
 66005568b5bec2a84c0812c7f7290e3feabbe494 wifi: ath12k: ath12k_mac_op_sta_rc_update(): use mac80211 provided link id
+9faa64f61252618e06d0cd3b346663a9132ab4a6 wifi: ath12k: Refactor core start api
+2c63f6e92fbb7dd98cffee16074e0891daf3a40b wifi: ath12k: Add helpers to get or set ath12k_hw
+2e1256240edb0baef25361fadbecdaa5f1e07e55 wifi: ath12k: Add ath12k_get_num_hw api
+d691781a2839b435f8a3fe40bcc42414a12193f2 wifi: ath12k: Introduce QMI firmware ready flag
+d489949e2370cc089c4ec4a6ae1c54ae3cf6c3f6 wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
+c07d1e5f0b6a650d0089b520a14a235e89e7c13e wifi: ath12k: rename mlo_capable_flags to single_chip_mlo_supp
+0a44669baf075ce4538007c0b0f71c101189b809 wifi: ath12k: Introduce device group abstraction
+98a156d17d6dac59724b1db7115b3e0b61155b98 wifi: ath12k: refactor core start based on hardware group
+b81850c291a2e71bdd9d1a84ea97b0dbb7ce292a wifi: ath12k: move ath12k_hw from per device to group
+3c97ecc76f73d1cfb96550b4371e7af688be24ba wifi: ath12k: Send QMI host capability after device group is ready
+79b20490786a36f43327518a34109fab51bc0938 wifi: ath12k: Introduce mlo_capable flag for device group
+cd336e8fa103c537503c1c54e02e384d243c7a06 wifi: ath12k: Parse multiple device information from device tree
+0b82ef7cb5185fbdd1ceb178750625bd15f0e31a dt-bindings: net: wireless: Describe ath12k PCI module with WSI
+d4703f6c30c02f145e6302ebd0e2e5807f1bd5eb wifi: ath12k: Send partner device details in QMI MLO capability
+128382219dfdf106b91b33d6d3334db493a98405 wifi: ath12k: Refactor ath12k_qmi_alloc_target_mem_chunk function
+d85e3207bf7b745c12b48fd6ca63825a2ff4f2de wifi: ath12k: Add support to allocate MLO global memory region
+68a9f0075963e775da01c2cbec3894d6ab8f7e56 wifi: ath12k: Add MLO WMI setup and teardown helper APIs
+7031daa2f43a2286d45a408409dd277ddd102bcb wifi: ath12k: Add MLO setup and teardown from core start
+8108975b823ed930e39af216ff9ba645491abea7 wifi: ath12k: avoid redundant code in DP Rx error process
+409fd7f4b1726206a3f991ffbfc5d0bd99f10d9f wifi: ath12k: Move to hw link id based Rx process
+93a393f76d2bc1c1232e7ffb9695108771dfc22d wifi: ath12k: Add partner device buffer support in data path Rx process
+7e9d0c383202efba211a7f07e0f47998a8da79a7 wifi: ath12k: Add helper function to init partner cmem configuration
+58936d6fc753c4d6f0b01e6ea33fd2c9257bbdea wifi: ath12k: Introduce iface combination cleanup helper
+7e1416666f652932e24e2dac1a2761f6592dac3c wifi: ath12k: Refactor radio freq low and high information
+43943e9b74610bbb362c8087631f0adc7c76a122 wifi: ath12k: Advertise multi device iface combination
+72fe10df763cff2674dd6442935396833367f892 wifi: ath12k: fix ath12k_qmi_alloc_chunk()
+a8debb192c82445e9f61b537f4c3062f5402939c wifi: ath12k: fix ar->supports_6ghz usage during hw register
+be4e852b9e56ac9653c1cbc00c748c66ffb2c897 wifi: ath12k: pass link ID during MLO while delivering skb
+e33b529a9c2a9110ec3d7c4bff4ce10c2431f441 wifi: ath12k: symmetrize scan vdev creation and deletion during HW scan
+c7d0347a8dfafdf98777d54d5ed3aaa1526978a9 wifi: ath12k: add can_activate_links mac ops
+355e88e669f0c95834e46d8d00a1ba5c3d201737 wifi: ath12k: add no-op without debug print in WMI Rx event
+a018a6b330597eef94b61e32b5362e749896b7d1 wifi: ath12k: remove warning print in htt mlo offset event message
+6862831704defb24f04e5df7970630afd069a3e0 wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
+d650e95e7eb95bb4ff63cabf38ead18616a955cb wifi: ath12k: assign unique hardware link IDs during QMI host cap
+ff4625c8e3208c148e1fb58723bcdfa82bf17d28 wifi: ath12k: advertise MLO support and capabilities
+4eef79372620e38a57c45cb3c5bf5b09e12b51c2 wifi: ath12k: Decrease ath12k_mac_op_remain_on_channel() stack usage
+b4e1665c16c3b3cfaf26a2f044219244dd658976 wifi: ath12k: Decrease ath12k_bss_assoc() stack usage
+aa84af683893aa9e58224736ad797dae439a208e wifi: ath12k: Decrease ath12k_sta_rc_update_wk() stack usage
+e1b576dc624f8cd8256d03e96001157c585a60de wifi: ath12k: Decrease ath12k_mac_station_assoc() stack usage
 
---===============8514565783996136443==--
+--===============1642685512168258912==--
