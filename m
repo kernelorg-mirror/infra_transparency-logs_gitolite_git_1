@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0133807636103895564=="
+Content-Type: multipart/mixed; boundary="===============7371625109565021581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 21 Nov 2024 20:59:32 -0000
-Message-Id: <173222277283.1641968.4044153666892824486@gitolite.kernel.org>
+Date: Thu, 21 Nov 2024 21:01:00 -0000
+Message-Id: <173222286056.1645065.15786004821542714852@gitolite.kernel.org>
 
---===============0133807636103895564==
+--===============7371625109565021581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,48 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2
-    new: fc39fb56917bb3cb53e99560ca3612a84456ada2
-    log: revlist-43fb83c17ba2-fc39fb56917b.txt
+  - ref: refs/heads/testing
+    old: b731b2c24d88f6782fdf6e1c19d735cd5aadeb3b
+    new: 8c8865aa3d3c2dabf9a2161d2809eccfeae92645
+    log: revlist-b731b2c24d88-8c8865aa3d3c.txt
 
---===============0133807636103895564==
+--===============7371625109565021581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43fb83c17ba2-fc39fb56917b.txt
+Content-Disposition: attachment; filename=revlist-b731b2c24d88-8c8865aa3d3c.txt
 
-1ddf9916ac09313128e40d6581cef889c0b4ce84 xfrm: Add support for per cpu xfrm state handling.
-0045e3d80613cc7174dc15f189ee6fc4e73b9365 xfrm: Cache used outbound xfrm states at the policy.
-81a331a0e72ddc2f75092603d9577bd1a0ca23ad xfrm: Add an inbound percpu state cache.
-83dfce38c49f3242c7edf5baab5c79c9ec360ecc xfrm: Restrict percpu SA attribute to specific netlink message types
-0a24488d93e8039d046518990291aae827c0eab9 net: ibm: emac: use netif_receive_skb_list
-c9bf90863df5fc8bae9513ce9bfcc260fad2ea0e net: ibm: emac: use devm_platform_ioremap_resource
-a598f66d9169312e7eaab8cc7b8f175866e68997 net: ibm: emac: use platform_get_irq
-af4698be49e856589f559fee2054de5bc7d5b72f net: ibm: emac: use devm for mutex_init
-707f1c4b6a2cf0bd290a63b6f3701878bb15e05f net: ibm: emac: generate random MAC if not found
-c093e2b9768b3a5cd7a37ea654cd47094519f843 Merge branch 'ibm-emac-more-cleanups'
-b76ebf22c578375e69b35061b5d47149efd957f9 ipv4: Prepare fib_compute_spec_dst() to future .flowi4_tos conversion.
-0ed373390c5c180d19a40f258c2e72754f641eb9 ipv4: Prepare icmp_reply() to future .flowi4_tos conversion.
-6ab04392dd087d896910dc618b4a14e54c58a499 ipv4: Prepare ipmr_rt_fib_lookup() to future .flowi4_tos conversion.
-85ef52e8693c4d3d23f33dc8007ebf11d5d4d4ce ipv4: Prepare ip_rt_get_source() to future .flowi4_tos conversion.
-25c509f483c3bb018d7a872699553c1bba416ad5 Merge branch 'ipv4-prepare-core-ipv4-files-to-future-flowi4_tos-conversion'
-42602e3a06f8e5b9a059344e305c9bee2dcc87c8 bpf: handle implicit declaration of function gettid in bpf_iter.c
-bdd85ddce5a9fb786daecbc7ed73bf8cdee06856 rtnetlink: Fix kdoc of rtnl_af_register().
-9a1036389fa25cf90d58e3ae1bb0b1ad877ef1c8 selftests: tc-testing: Fix typo error
-3f7f3ef44f4b735b577291afdf7a87e6ce4b415d wwan: core: Pass string literal as format argument of dev_set_name()
-7999da12a6706f10ef47f2a4d34ebd5bc99a26de net/mlx5e: Update features on MTU change
-a7b6c074e42da96c106c6efd8f7925195fe3b411 net/mlx5e: Update features on ring size change
-6c9c579166b7edd4c97a5d8d0059d7299d3d661a Merge branch 'mlx5e-update-features-on-config-changes'
-0ab7cd1f18648ab50c4685553ca92e8cdc4a42da selftests/bpf: remove xdp_synproxy IP_DF check
-e0e918494c3cfdc589c9ede49183046a42cdff39 net: phylink: simplify phylink_parse_fixedlink()
-280ed44982ff478a949a810f9ddfb4adb8207b57 net: phylink: add common validation for sfp_select_interface()
-41caa7e81b9732a10d523ed6ac57bd67f56494bf net: phylink: validate sfp_select_interface() returned interface
-25391e82ffe2247a0eb39cc50ac486fd89996f31 net: phylink: simplify how SFP PHYs are attached
-b62607870b291d72ca4a07b24fa298dcb2762b79 Merge branch 'net-phylink-simplify-sfp-phy-attachment'
-8a0cfd8adf81c438b9a0f527fcc3537498441785 docs/bpf: Add description of .BTF.base section
-74975e1303a326bba6edb2136e2050aa0a735f1b libbpf: start v1.6 development cycle
-ca84a2c9be482836b86d780244f0357e5a778c46 jfs: array-index-out-of-bounds fix in dtReadFirst
 a5f5e4698f8abbb25fe4959814093fb5bfa1aa9d jfs: fix shift-out-of-bounds in dbSplit
 839f102efb168f02dfdd46717b7c6dddb26b015e jfs: fix array-index-out-of-bounds in jfs_readdir
 d9f9d96136cba8fedd647d2c024342ce090133c2 jfs: xattr: check invalid xattr size more strictly
@@ -1041,6 +1010,13 @@ fbbf93556f0c1ad9b53fd1ec8fd2e67b2debb740 selftests: nic_performance: Add selftes
 a202e6014709d329346b0766e89f797ef0d1eccf Documentation: tipc: fix formatting issue in tipc.rst
 96ed62ea02984f14b6d4f2e4aed327d803875b7a mm: page_frag: fix a compile error when kernel is not compiled
 dd7207838d38780b51e4690ee508ab2d5057e099 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+4bb51fe9804a48824adc0a1f207329bda6c5cbbe hwmon: Introduce 64-bit energy attribute support
+430571126c9d0f077e3d81574a86b7629081babe hwmon: (ltc2947) Use the new energy64 attribute type to report the energy
+f3f76c7b3a7e8d072de6409ef3e3193afe29b93b hwmon: (ltc4282) Use the new energy64 attribute type to report the energy
+c284aeb75d28be260f75363556e2243ff9397dcb hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
+ae41d3fcf9056e6f5a7cfa85372656dd9ffb1880 hwmon: (isl28022) use proper path for DT bindings
+76d5c77e6126f805d55c770baf0a2373d69e253d hwmon: (isl28022) document shunt voltage channel
+c7920a044938964f19ed1e97263cd4a5e793ffd6 hwmon: (isl28022) apply coding style to module init/exit
 6e95ef0258ff4ee23ae3b06bf6b00b33dbbd5ef7 Merge tag 'bpf-next-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 fcc79e1714e8c2b8e216dc3149812edd37884eef Merge tag 'net-next-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 90a19b744de3a4fb51aee2edd8f2b9a4b14c9878 Merge tag 'erofs-for-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
@@ -1050,5 +1026,29 @@ c01f664e4ca210823b7594b50669bbd9b0a3c3b0 Merge tag 'reiserfs_delete' of git://gi
 2dde263d81dc6ded2df086bf9db05396c7c215ee Merge tag 'fsnotify_for_v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 6a550ae5560f7237c82dc9c0c128ba1d593c4dde Merge tag 'dlm-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 fc39fb56917bb3cb53e99560ca3612a84456ada2 Merge tag 'jfs-6.13' of github.com:kleikamp/linux-shaggy
+4e773b9c90d56f34b5a6c5fc22b99f3583943e64 net: microchip: vcap: Add typegroup table terminators in kunit tests
+c1bc1f4e02a7640eb7404e8d8dc92b2e222b3e98 slab: Fix too strict alignment check in create_cache()
+87978c2a2d9ad070e8b26a6fea77066273bc69aa hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
+3020c52199357c60574850544f779683ac9a917a hwmon: (tps23861) Fix reporting of negative temperatures
+4df12bbdaf58e4d2f1ed36bf5e48e5272fa7f24d hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
+894b9bff54c4e4080990653e0f3c4c7dbc1c3487 hwmon: (tmp108) Drop of_match_ptr() protection
+b8d64efb3d68c8f1572d9799586e5f201b7bfe69 hwmon: (spd5118) Split into common and I2C specific code
+27ea62b151038f9d8bcf41941c854c258b147ec2 hwmon: (spd5118) Support 16-bit addressing for NVMEM accesses
+350870416db707a303cbe5de7adb5d9290d9ad3d hwmon: (spd5118) Detect and support 16-bit register addressing
+805d4efed5509bb399acdbc421964060c83acdb8 hwmon: (spd5118) Add I3C support
+f82ba3847b70a27239fc9b93b51a8bc5ec83e62c hwmon: (spd5118) Name chips taking the specification literally
+3d257aaec26caee20cb04c3c3171c07c5689ce51 hwmon: (max16065) Reorder include files to alphabetic order
+394e4ce38ca267a256ad79fccea15d182f2de171 hwmon: (max16065) Use bit operations
+c3443e0f800fb3863778b8d01f6935140e1c4d51 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+816463a4d59444eeca90de1c9de24fc14d6620af Merge branch 'hwmon-next' into hwmon-staging
+87a0b2970991488e8f2a81cc5275632f8b552c64 Merge branch 'hwmon' into hwmon-staging
+41943496df163082ced1155b8f146d18bd4af06f Merge branch 'hwmon-tmp108' into hwmon-staging
+4010467ca71406631c741b09cde95c4058831ab3 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+2773b652ee9bed7c3ab42806e0b261e7fbeaade9 Merge branch 'hwmon-energy' into hwmon-staging
+a9da87ea97bdfd31881bca98d32d4d5a98574eba Merge branch 'hwmon-g762' into hwmon-staging
+be943329d0d776878985595a3e1c9e8454479041 Merge branch 'hwmon-emc2103' into hwmon-staging
+5f458a85a2c5af9c9f95f4e1ac53f18bac684850 Merge branch 'hwmon-max16065' into hwmon-staging
+837150953b8bc00c6ee3cea887485c059c6fdf59 Merge branch 'hwmon-staging' into testing
+8c8865aa3d3c2dabf9a2161d2809eccfeae92645 Merge branch 'fixes-v6.13' into testing
 
---===============0133807636103895564==--
+--===============7371625109565021581==--
