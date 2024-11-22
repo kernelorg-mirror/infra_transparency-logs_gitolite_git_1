@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1281426351946905101=="
+Content-Type: multipart/mixed; boundary="===============1505221887928007912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Fri, 22 Nov 2024 15:05:40 -0000
-Message-Id: <173228794024.2752954.15224494304736524310@gitolite.kernel.org>
+Date: Fri, 22 Nov 2024 15:06:50 -0000
+Message-Id: <173228801083.2753530.15746901520403596468@gitolite.kernel.org>
 
---===============1281426351946905101==
+--===============1505221887928007912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
-  - ref: refs/heads/landlock-audit
-    old: b3b217bbd19f28ca1b2d9f86cd12a7e590d98a39
-    new: 6da405a874858ad3a79d8762b442678e046e1111
-    log: revlist-b3b217bbd19f-6da405a87485.txt
+  - ref: refs/heads/next
+    old: 03197e40a22c2641a1f9d1744418cd29f4954b83
+    new: adc218676eef25575469234709c2d87185ca223a
+    log: revlist-03197e40a22c-adc218676eef.txt
 
---===============1281426351946905101==
+--===============1505221887928007912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3b217bbd19f-6da405a87485.txt
+Content-Disposition: attachment; filename=revlist-03197e40a22c-adc218676eef.txt
 
+3ec4350d4efb5ccb6bd0e11d9cf7f2be4f47297d RISCV: KVM: use raw_spinlock for critical section in imsic
+ddd5c5820116a04b5f95711518d3be922990b5ec Merge tag 'kvmarm-fixes-6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+e9001a382fa2c256229adc68d55212028b01d515 Merge tag 'kvmarm-fixes-6.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+10e93e1900286cdb2db2754d86910e229be635dc Merge tag 'dma-mapping-6.12-2024-10-20' of git://git.infradead.org/users/hch/dma-mapping
+a5ee44c8297803efd36cd0c773d72687afdd7500 Merge tag 'for-linus-6.12a-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+2b4d25010d0f2e359ff34e06c120e0cee3848fc7 Merge tag 'sched_urgent_for_v6.12_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+949c9ef59be74a0439e57629b72ac972c0f47136 Merge tag 'irq_urgent_for_v6.12_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+db87114dcf138b5b1290ba9aa9e29c21297a0b48 Merge tag 'x86_urgent_for_v6.12_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b68c18957029b7be71a73f89a083856305536e1f Merge tag 'usb-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+c01ac4b9440aa85374536075b1d61af961c3e567 Merge tag 'tty-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+c55228220dd33e7627ad9736b6fce4df5e7eac98 Merge tag 'char-misc-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+eb5db64c4570948e6ee0b0f53d658e136e06cd04 bcachefs: Fix __bch2_fsck_err() warning
+3956ff8bc2f39a7e77d7a6da8d95c7ffc4928d64 bcachefs: Don't use wait_event_interruptible() in recovery
+f0d3302073e60b55318c941cd10b225a3cde9d32 bcachefs: Workaround for kvmalloc() not supporting > INT_MAX allocations
+dd4f50373e508632f01b63eab5a3c0b5debe22e3 Merge tag 'pinctrl-v6.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+d7f513ae7b108f953cceec8bc96d2e5e83c3ccd0 Merge tag 'for-net-2024-10-16' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+e04ee8608914d00812e4a10288cf8d8905ced849 bcachefs: Mark more errors as AUTOFIX
+a069f014797fdef8757f3adebc1c16416271a599 bcachefs: Set bch_inode_unpacked.bi_snapshot in old inode path
+42f7652d3eb527d03665b09edac47f85fb600924 Linux 6.12-rc4
+373b9338c9722a368925d83bc622c596896b328e uprobe: avoid out-of-bounds memory access of fetching args
+3cea8af2d1a9ae5869b47c3dabe3b20f331f3bbd thunderbolt: Honor TMU requirements in the domain when setting TMU mode
+338b655a1178900ac05aca7ac66dc28b05100430 i915: fix DRM_I915_GVT_KVMGT dependencies
+72cafe63b35d06b5cfbaf807e90ae657907858da ALSA: firewire-lib: Avoid division by zero in apply_constraint_to_size()
+35fdc6e1c16099078bcbd73a6c8f1733ae7f1909 ALSA: hda/realtek: Add subwoofer quirk for Acer Predator G9-593
+86c96e7289c5758284b562ac7b5c94429f48d2d9 ALSA: hda/tas2781: select CRC32 instead of CRC32_SARWATE
+a552e2ef5fd1a6c78267cd4ec5a9b49aa11bbb1c bpf, arm64: Fix address emission with tag-based KASAN enabled
 184429a17f8ffc9e188dee9a4459165014025e71 Revert "fuse: move initialization of fuse_file to fuse_writepages() instead of in callback"
 efeddd552ec6767e4c8884caa516ac80b65f8823 fsl/fman: Save device references taken in mac_probe()
 1dec67e0d9fbb087c2ab17bf1bd17208231c3bb1 fsl/fman: Fix refcount handling of fman-related devices
@@ -845,9 +871,6 @@ c7a8f2a504c396f229e6025eca609c4e66f44c8b Merge tag 'acpi-6.12-rc7' of git://git.
 4f63642c09dbcfe09ba50b896c382e224f7e630f Merge tag 'pm-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 da4373fbcf006deda90e5e6a87c499e0ff747572 Merge tag 'thermal-6.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 eb72e7fcc83987d5d5595b43222f23b295d5de7f sctp: fix possible UAF in sctp_v6_available()
-0c0effb07f7d662af3e6f74da4d34241e412029b landlock: Refactor filesystem access mask management
-8376226e5f53e78cd16a2b23577304e43acb3ba4 landlock: Refactor network access mask management
-03197e40a22c2641a1f9d1744418cd29f4954b83 landlock: Optimize scope enforcement
 a6250aa251eacaf3ebfcfe152a96a727fd483ecd sched_ext: Handle cases where pick_task_scx() is called without preceding balance_scx()
 a58f4dd9526abbb83523ea515508ba714a1e6881 Merge tag 'block-6.12-20241108' of git://git.kernel.dk/linux
 bceea667990a3c00d371a58120a457452b4c741c Merge tag 'v6.12-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
@@ -1027,28 +1050,5 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 4a5df37964673effcd9f84041f7423206a5ae5f2 Merge tag 'mm-hotfixes-stable-2024-11-16-15-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
-410e103790af00a23f57a06527dedb0e39f543bd lsm: Only build lsm_audit.c if CONFIG_SECURITY and CONFIG_AUDIT are set
-37951f927513d451ab17635785bb42b609326160 lsm: Add audit_log_lsm_data() helper
-74ed706097c14d9747acda78f1ee4479c7378575 landlock: Factor out check_access_path()
-d12571ec49919e53a10f8ae59db6aaac93fd3145 landlock: Add unique ID generator
-564dcd46eddebbf337916296a8fdf156509d58e1 landlock: Move access types
-7de3acf395bba9dcd2af2f50bd75c6f287552e0f landlock: Simplify initially denied access rights
-564cbdecc0e06217118a95a277bf054c07a593aa landlock: Move domain hierarchy management
-fc755e407dd1a55f50b57384b4f2084d58cb650c landlock: Log ptrace denials
-34e615cb154c774ed97b27571048b161c798c109 audit: Add a new audit_get_ctime() helper
-170c11a69d564164a7a6458a12d98f76c9cabb23 landlock: Log domain properties and release
-8d597dbf9a3a26f0dd440f79f74c3d0601d30eb5 landlock: Log mount-related denials
-b8759cafbf207b30dd9c81af483a5aa36079e69c landlock: Align partial refer access checks with final ones
-bf7fc80d2eb435eb5051bd67133f60e7cad9b765 selftests/landlock: Add test to check partial access in a mount tree
-cfd93a437c73764bd73797632b1a5a8bcdb2b465 landlock: Optimize file path walks and prepare for audit support
-46e8e868da6cb847ca4fde594339c713c9e74fce landlock: Log file-related denials
-892430abd98210d1138c6709ef78ee4a0ee47a71 landlock: Log truncate and ioctl denials
-048ccebc02d8c3c66229b64fe045898d4dac4e7a landlock: Log TCP bind and connect denials
-381db340cdf438d8ed15a76a50eba106b835b752 landlock: Log scoped denials
-d10d814271711c460ff49ffd9f46480f7a4e4a19 landlock: Control log events with LANDLOCK_RESTRICT_SELF_LOGLESS
-67a92c9e15c9d2e248ba9d96027e9b25c261556c samples/landlock: Do not log denials from the sandboxer by default
-39772bff0c7c6cc75526ad5d29185e4e74765aee selftests/landlock: Extend tests for landlock_restrict_self()'s flags
-1be973a097ec8ba74b81481955ebdc9cfc444e17 selftests/landlock: Add tests for audit
-6da405a874858ad3a79d8762b442678e046e1111 selftests/landlock: Add audit tests for ptrace
 
---===============1281426351946905101==--
+--===============1505221887928007912==--
