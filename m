@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 22 Nov 2024 09:17:35 -0000
-Message-Id: <173226705525.2266369.17120213329852305474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Fri, 22 Nov 2024 09:40:37 -0000
+Message-Id: <173226843751.2301202.12755114956123218877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/notes/signatures/tar
-    old: d8f88200f8167351f0e4150f7eb8ad4029b15439
-    new: 3a10641e6bdb526fd3c5f21d25a7001f343f8141
+  - ref: refs/heads/main
+    old: 655012434b7c059811a5f26001e47dd418f20a36
+    new: 83b24cb61cbed6a38fcca069678416ef128ff687
     log: |
-         3a10641e6bdb526fd3c5f21d25a7001f343f8141 Notes added by 'git notes add'
+         83b24cb61cbed6a38fcca069678416ef128ff687 CI: run mdadm tests on test scripts change
          
