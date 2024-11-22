@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5883810803214026954=="
+Content-Type: multipart/mixed; boundary="===============4087957546416991366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 22 Nov 2024 11:19:55 -0000
-Message-Id: <173227439534.2378270.16074970343051982205@gitolite.kernel.org>
+Date: Fri, 22 Nov 2024 11:25:44 -0000
+Message-Id: <173227474413.2384491.1292736317291899280@gitolite.kernel.org>
 
---===============5883810803214026954==
+--===============4087957546416991366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs-6.14.misc
-    old: bb35f8709172fd542565a0f422010d3834b1a7d6
-    new: 88b32c28d7304ab9d39f1de5678ecc359af276c3
-    log: |
-         ec07dced06b6b5f1fa319ee6e1c589d3602e43af samples: add a mountinfo program to demonstrate statmount()/listmount()
-         d2269a2bfe4a21fffa6484f7b00cca99b7577760 fs: prepend statmount.mnt_opts string with security_sb_mnt_opts()
-         d74d4c9b0edb774f2a2836b8f799d4a0df353998 Merge patch series "fs: listmount()/statmount() fix and sample program"
-         c795e8ac8471d418fe15a461a375bf0dc3b86db9 seqlock: annotate spinning as unlikely() in __read_seqcount_begin
-         07537da4e21984cbcbde7320e0cdc2b62e7de396 fiemap: use kernel-doc includes in fiemap docbook
-         5cbb3c7e0051fc697e90d905c654a8c9755d44e4 vfs: support caching symlink lengths in inodes
-         740456f6701794d22b1c77b8c6b864c1b10924e9 ext4: use inode_set_cached_link()
-         30071e02c16388129272e1048a51a36cc31ff53a tmpfs: use inode_set_cached_link()
-         ef2a3c318e6b6daf177999e56b6a8b019609092c Merge patch series "symlink length caching"
-         88b32c28d7304ab9d39f1de5678ecc359af276c3 samples: fix missing nodiratime option and handle propagate_from correctly
-         
-  - ref: refs/heads/vfs-6.14.netfs
-    old: a1be9a9aff6bffd914b7614f7c59f4179800e0df
-    new: 574cb560cc1caca0823e6916912ad2a5cc6a3686
-    log: |
-         574cb560cc1caca0823e6916912ad2a5cc6a3686 netfs: silence an uninitialized variable warning
-         
-  - ref: refs/heads/vfs.fixes
-    old: c749d9b7ebbc5716af7a95f7768634b30d9446ec
-    new: 088f294609d8f8816dc316681aef2eb61982e0da
-    log: revlist-c749d9b7ebbc-088f294609d8.txt
-  - ref: refs/heads/vfs-6.14.pidfs
-    old: 0000000000000000000000000000000000000000
-    new: 9a4b8de3ca939ccb9585039d2af094e9ac893e9d
+  - ref: refs/heads/vfs.all
+    old: d13908688a7fefc348a8050ed69fdc6680181e7b
+    new: 5c9e141c6f61d518af02ce98a882f715023fef00
+    log: revlist-d13908688a7f-5c9e141c6f61.txt
 
---===============5883810803214026954==
+--===============4087957546416991366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c749d9b7ebbc-088f294609d8.txt
+Content-Disposition: attachment; filename=revlist-d13908688a7f-5c9e141c6f61.txt
 
-b4201b51d93eac77f772298a96bfedbdb0c7150c Merge patch series "Convert ecryptfs to use folios"
-9bb4af400c386374ab1047df44c508512c08c31f ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
-9c9201afebea1efc7ea4b8f721ee18a05bb8aca1 mm/slab: fix warning caused by duplicate kmem_cache creation in kmem_buckets_create
-c74649b6e400edae67eba56e5285a92619dfb647 nvmet: make nvmet_wq visible in sysfs
-43d5d3b417410edcbe1584b17ac90bea9e633493 nvme-core: remove repeated wq flags
-a5ca1dc46a6b610dd4627d8b633d6c84f9724ef0 x86/CPU/AMD: Clear virtualized VMLOAD/VMSAVE on Zen4 client
-95504d54a2751ad3e995c7bbafc2116affb28ab9 ACPI: thermal: Use strscpy() instead of strcpy()
-0151814c4c60c8e789f4f764037a19bce0a5632a ACPI: APD: Use strscpy() instead of strcpy()
-f098bb555fdd9e6eede8664e308d4b211946853d ACPI: EC: Use strscpy() instead of strcpy()
-e7eb88e3835f7aebd8462179bb71b92fba73efd1 ACPI: event: Use strscpy() instead of strcpy()
 efb365b7958598aff23e3bd947df3442f0474d65 ACPI: pci_link: Use strscpy() instead of strcpy()
 9ff236786334d69dd85d8bc5c208fa31d458e1c7 ACPI: pci_root: Use strscpy() instead of strcpy()
 04c2d3a9c4787596adc638957d9766c5ebbd3f4f ACPI: power: Use strscpy() instead of strcpy()
@@ -84,10 +50,6 @@ a353c78459f4d116216393cc29032ef5fe1472d2 drm/xe/pf: Fix potential GGTT allocatio
 ff31a7ef2b13aae27203d7fc29280ab0a2f8bf18 md/raid1: don't wait for Faulty rdev in wait_blocked_rdev()
 d419284c95d369f2b77f71fb20f2d61850aa61b8 md/raid10: don't wait for Faulty rdev in wait_blocked_rdev()
 649bfec6908bd2365008db79b7328c6c22e662d8 md/raid5: don't set Faulty rdev for blocked_rdev
-6dfc1c1d597f8b6ebffe25f51f013494994f9b84 ext4: Add statx support for atomic writes
-43c696f9d094061e958e31be7f1dae66bc25d389 ext4: Check for atomic writes support in write iter
-b7987a7d69a4a17b7f334f5c100d6729ebcc2ccb ext4: Support setting FMODE_CAN_ATOMIC_WRITE
-299537e9dfac2ecd08e7dae87a6437b92612568a ext4: Do not fallback to buffered-io for DIO atomic write
 e66f3185fa04ccb807c6fbf0ea066574f4308831 mm/thp: fix deferred split queue not partially_mapped
 f8f931bba0f92052cf842b7e30917b1afcc77d5a mm/thp: fix deferred split unqueue naming and locking
 3dd6ed34ce1f2356a77fb88edafb5ec96784e3cf mm: avoid unsafe VMA hook invocation when error arises on mmap hook
@@ -108,13 +70,7 @@ a373830f96db288a3eb43a8692b6bcd0bd88dfe1 KVM: PPC: Book3S HV: Mask off LPCR_MER 
 7f8825b2a78ac392d3fbb3a2e65e56d9e39d75e9 vDPA/ifcvf: Fix pci_read_config_byte() return code handling
 97ee04feb682c906a1fa973ebe586fe91567d165 virtio_pci: Fix admin vq cleanup by using correct info pointer
 4e39ecadf1d2a08187139619f1f314b64ba7d947 vp_vdpa: fix id_table array not null terminated error
-fdfa4c02e6dd6c67f5cef8d78c6204e1ff7e12ca freevxfs: Replace one-element array with flexible array member
-267bf1dd0df39f84143a984d36657521591e1984 Merge tag 'fs-atomic_2024-11-05' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into vfs.untorn.writes
 9bce6e94c4b39b6baa649784d92f908aa9168a45 x86/resctrl: Support Sub-NUMA cluster mode SNC6
-33b091c08ed85e023c21376e6f787355fd46b440 libfs: Fix kernel-doc warning in generic_ci_validate_strict_name
-18d2f10f6284f5bb9c03a759044121c71e5b3b4c tmpfs: Fix type for sysfs' casefold attribute
-65c481f30896750f659345b915b669f78a3c0289 tmpfs: Initialize sysfs during tmpfs init
-552b15103db404c7971d4958e6e28d4e7123a325 Merge patch series "tmpfs: Casefold fixes"
 1be765b292577c752e0b87bf8c0e92aff6699d8e platform/x86: thinkpad_acpi: Fix for ThinkPad's with ECFW showing incorrect fan speed
 751ecf6afd6568adc98f2a6052315552c0483d18 arm64/sve: Discard stale CPU state when handling SVE traps
 25eb47eed52979c2f5eee3f37e6c67714e02c49c USB: serial: qcserial: add support for Sierra Wireless EM86xx
@@ -422,6 +378,40 @@ baf88c49a2b1cb0ca0d060486441b8ce876ec079 hwmon: (pmbus/ltc7841) add support for 
 2642084f26b5a5e9353fa530efb30f49e752185d bcachefs: Allow for unknown key types in backpointers fsck
 e7ac4daeed91a25382091e73818ea0cddb1afd5e mm: count zeromap read and set for swapout and swapin
 14062c267f09c7b33a8d5a7d9eb3908b9941aae4 Merge drm/drm-fixes into drm-misc-fixes
+3033d243b97c4078b7e99aa20b57d2e5d567c4c0 kheaders: Ignore silly-rename files
+f709cec9dc5215a26c8615f8545e92256f8e23d0 netfs: Remove call to folio_index()
+07a80742a52bea0a9ecdc1cbf5a9f7d7c37d87d4 netfs: Fix a few minor bugs in netfs_page_mkwrite()
+53f5f31a15495cb57cfc05f262186bf273f16641 netfs: Remove unnecessary references to pages
+1d044b4cb3e9eda5f6e625afa53432cb50f92e73 netfs: Use a folio_queue allocation and free functions
+7583f643f7145c0d9650e9d94d4e91ca51ed7a51 netfs: Add a tracepoint to log the lifespan of folio_queue structs
+2029a747a14d2064a53e5e7bfabd48d21d959007 netfs: Abstract out a rolling folio buffer implementation
+34961bbe07a593a7b990d2758b15ad2081f4fd1f netfs: Make netfs_advance_write() return size_t
+8816207a3e268a3c6a47547e289a639d4147fcd6 netfs: Split retry code out of fs/netfs/write_collect.c
+44c5114bb1553648e32ecd3d542af2be7bac7c61 netfs: Drop the error arg from netfs_read_subreq_terminated()
+3c8a83f74e0ea7e4c2fdaf197f928f2241a29db5 netfs: Drop the was_async arg from netfs_read_subreq_terminated()
+5c962f9982cd9cee981b34ff392d5f3f61fae839 netfs: Don't use bh spinlock
+244059f6472c4b1351d63c2ff1bd5a0bb13f147b afs: Don't use mutex for I/O operation lock
+10e890507ed5e3666eb74da4d31e79ad54173c97 afs: Fix EEXIST error returned from afs_rmdir() to be ENOTEMPTY
+c8f34615191c117325e7e4956de4fc66bc35285c afs: Fix directory format encoding struct
+ab143ef48b3b577efbbc6889b3e03fbee8a4cddc netfs: Remove some extraneous directory invalidations
+46599823a2811e5227762f6fd48c172e89a8167b cachefiles: Add some subrequest tracepoints
+499c9d489d7ba427a85641c88806c7f54e5b0150 cachefiles: Add auxiliary data trace
+606d920396fdef3e5023e50b0bad31a62505bdca afs: Add more tracepoints to do with tracking validity
+823f8d570db58213c297af56247980ea5c590142 netfs: Add functions to build/clean a buffer in a folio_queue
+5ae8e69c119a11fd138fab43255b9a7674d6f7ca netfs: Add support for caching single monolithic objects such as AFS dirs
+bfeb953ddf0bf5a20eb21f757df97456253dd018 afs: Make afs_init_request() get a key if not given a file
+2b6bae4ca558736f2c21da1fc38b7cf9d880d3b6 afs: Use netfslib for directories
+a16c68c66f52f64c8e23ffd83d457c35f4c11a43 afs: Use netfslib for symlinks, allowing them to be cached
+b84e275b6da2dc8912ac1b750b8a1de2c3ba437e afs: Eliminate afs_read
+355d0773708200eb86429f60849bafcee4077600 afs: Fix cleanup of immediately failed async calls
+e31fb01515dae22c28fe96719c91a0efc7379378 afs: Make {Y,}FS.FetchData an asynchronous operation
+1bd9011ee163e11f186b72705978fd6b21bdc07b netfs: Change the read result collector to only use one work item
+4e93a341aec15680a465417df475fa0465d8d929 afs: Make afs_mkdir() locally initialise a new directory's content
+08890740b1d7267f33ae82a84253ca1183648336 afs: Use the contained hashtable to search a directory
+d4f4a6bde6766604508abf2483c9f91f5678c4bd afs: Locally initialise the contents of a new symlink on creation
+f06ba511d8d5999ed72670d724e0cc7f82b15747 afs: Add a tracepoint for afs_read_receive()
+19375843912f6317ecf4dc922b660109ee1151a6 netfs: Report on NULL folioq in netfs_writeback_unlock_folios()
+a1be9a9aff6bffd914b7614f7c59f4179800e0df Merge patch series "netfs: Read performance improvements and "single-blob" support"
 d5173f7537505315557d8580e3a648f07f17deda objtool: Exclude __tracepoints data from ENDBR checks
 771d271b2b908cf660d6789bb4355ed553250edc sched, x86: Update the comment for TIF_NEED_RESCHED_LAZY.
 5c2e7736e20d9b348a44cafbfa639fe2653fbc34 rust: helpers: Avoid raw_spin_lock initialization for PREEMPT_RT
@@ -551,13 +541,6 @@ e36d114990d2acf0a0fca135d50ac21a832daf11 btrfs: simplify logic to decrement snap
 722d343f12a626c9aee8844f5bf19a107d9a1067 btrfs: remove check for NULL fs_info at btrfs_folio_end_lock_bitmap()
 dc058f5fda091abcdccc2487b48dbbc1cdde98d0 btrfs: send: check for dead send root under critical section
 e82c936293aafb4f33b153c684c37291b3eed377 btrfs: send: check for read-only send root under critical section
-54079430c5dbf041363ab39a0c254cd9e4f6aed5 iomap: drop an obsolete comment in iomap_dio_bio_iter
-10c35abd35aa62c9aac56898ae0c63b4d7d115e5 cachefiles: Fix incorrect length return value in cachefiles_ondemand_fd_write_iter()
-56f4856b425a30e1d8b3e41e6cde8bfba90ba5f8 cachefiles: Fix missing pos updates in cachefiles_ondemand_fd_write_iter()
-09ecf8f5505465b5527a39dff4b159af62306eee cachefiles: Clean up in cachefiles_commit_tmpfile()
-31ad74b20227ce6b40910ff78b1c604e42975cf1 cachefiles: Fix NULL pointer dereference in object->file
-22f9400a6f3560629478e0a64247b8fcc811a24d netfs/fscache: Add a memory barrier for FSCACHE_VOLUME_CREATING
-a4b2923376be062a243ac38762212a38485cfab1 Merge patch series "fscache/cachefiles: Some bugfixes"
 220772691dcee69673a7c2f8204f4d668dadfa19 Merge back cpufreq material for 6.13
 1a1030d10a6335bb5e6cdb24fc9388d3d9bcc1ac cpufreq: intel_pstate: Rearrange locking in hybrid_init_cpu_capacity_scaling()
 c285b11e289dbe8973735ab8dc84210bde417673 Merge back thermal control material for 6.13
@@ -667,12 +650,6 @@ c297aa7d3fb6755890b78b483e82c9cf07370d50 kselftest/arm64: Enable build of PAC te
 c0350076c13eac4f1d7f7ab6acd43bb252baef7a kselftets/arm64: Use flag bits for features in fp-ptrace assembler code
 7e9c5b00009a625cc304c865192978c01c0cc077 kselftest/arm64: Expand the set of ZA writes fp-ptrace does
 7dbd26d0b22d69d36ab3e76ee7f152482a19cbed kselftest/arm64: Add FPMR coverage to fp-ptrace
-1c82587cb57687de3f18ab4b98a8850c789bedcf hfsplus: don't query the device logical block size multiple times
-c4d7d90747f4e8b528c8cd0a2d9ac01dc4a9339e fs:aio: Remove TODO comment suggesting hash or array usage in io_cancel()
-75ead69a717332efa70303fba85e1876793c74a9 fs: don't let statmount return empty strings
-ed9d95f691c29748f21bc019de9566b698fdfab7 fs: add the ability for statmount() to report the fs_subtype
-4d7485cff59951c83aa2b6891b24d68b76d86f6f writeback: add a __releases annoation to wbc_attach_and_unlock_inode
-8182a8b39aa227f5b99b8d4d18f296b82ce4b94c writeback: wbc_attach_fdatawrite_inode out of line
 6f891ca15b017707840c9e7f5afd9fc6cfd7d8b1 ALSA: usb-audio: Fix Yamaha P-125 Quirk Entry
 016d659e62ad9ddda1b6899468d0d0798ed71a4d kselftest/arm64: Fix missing printf() argument in gcs/gcs-stress.c
 42ee87df8530150d637aa48363b72b22a9bbd78f ALSA: hda/realtek - Fixed Clevo platform headset Mic issue
@@ -821,9 +798,6 @@ ae4705e1b1bc4dedceb6b0956509e3eb2fedaaf1 dt-bindings: timer: actions,owl-timer: 
 e5cfc0989d9a2849c51c720a16b90b2c061a1aeb clocksource/drivers/timer-ti-dm: Fix child node refcount handling
 5569d7348b4a927eb5a2449ddc175ec7c3930c4d clocksource/drivers/gpx: Remove redundant casts
 08b97fbd13de79744b31d2b3c8a0ab1a409b94fa clocksource/drivers/arm_arch_timer: Use of_property_present() for non-boolean properties
-44010543fc8bedad172aa5b6c43480e5d2124497 fs: add the ability for statmount() to report the sb_source
-3a6ffeb127973806704655fe5fcd92141a5e83d5 Merge patch series "fs: allow statmount to fetch the fs_subtype and sb_source"
-39bb1bf0b49495e70d0763a143ad889925c3d373 Merge patch series "two little writeback cleanups v2"
 8d9ffb2fe65a6c4ef114e8d4f947958a12751bbe x86/mm: Fix a kdump kernel failure on SME system when CONFIG_IMA_KEXEC=y
 2f4b3b83b8c6e798a2e581521f00933d0f9ec777 s390/cio: Externalize full CMG characteristics
 e7583c5f8d0e0aa34178b6f34a89f81090393c64 s390/asm: Helper macros for flag output operand handling
@@ -853,7 +827,6 @@ ce0d6970231903f43572a6998020fdc8b3a8f455 drm/xe: Ensure all locks released in ex
 dd886a63d6e2ce5c16e662c07547c067ad7d91f5 drm/xe: Restore system memory GGTT mappings
 46f1f4b0f3c2a2dff9887de7c66ccc7ef482bd83 drm/xe: improve hibernation on igpu
 be7eeaba2a11d7c16a9dc034a25f224f1343f303 drm/xe: handle flat ccs during hibernation on igpu
-2f4d4503e9e5ab765a7948f98bc5deef7850f607 statmount: add flag to retrieve unescaped options
 f9ed1f7c2e26fcd19781774e310a6236d7525c11 genirq/proc: Use seq_put_decimal_ull_width() for decimal values
 8e15e12d37f21c03dacac0c37561db5a222690c0 io_statx_prep(): use getname_uflags()
 88a20626d8ed708432cf51afb1f92070459f6165 kill getname_statx_lookup_flags()
@@ -912,8 +885,6 @@ e33ed362cf9e35db6082f7a776b7e8d557407e19 perf/arm: Drop unused functions
 3e807cf07d96eedb57d91a91f611f828e8918aab perf/powerpc: Use perf_arch_instruction_pointer()
 baff01f3d75ff3948a0465853dcaa71c394c5c46 perf/x86: Refactor misc flag assignments
 2c47e7a74f445426d156278e339b7abb259e50de perf/core: Correct perf sampling with guest VMs
-45c9faf50665812a14fc9b40ab9d6cb893792ffd vfs: make evict() use smp_mb__after_spinlock instead of smp_mb
-9fed2c0f2f0771b990d068ef0a2b32e770ae6d48 fs: reduce pointer chasing in is_mgtime() test
 8eb36164d1a6769a20ed43033510067ff3dab9ee bonding: add ns target multicast address to slave device
 86fb6173d11e773a00a5b6d1b7bd17caff8692b8 selftests: bonding: add ns multicast group testing
 f8d670b1ae90cb1c5a18a4698c264e96dedc762c Merge branch 'bonding-fix-ns-targets-not-work-on-hardware-nic'
@@ -928,7 +899,6 @@ a8aaea4f6e1a33614854414ad37144f6eb61c6aa Merge back cpufreq material for 6.13
 580bb355bcae7e9a6606ce9644af09b2a793f1bb Revert: "ring-buffer: Do not have boot mapped buffers hook to CPU hotplug"
 7d493a5ecc26f861421af6e64427d5f697ddd395 btrfs: fix incorrect comparison for delayed refs
 5ec23a1b53a98dbd7ea33954db5f0fe7110903aa Merge tag 'asoc-fix-v6.12-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-aefff51e1c2986e16f2780ca8e4c97b784800ab5 statmount: retrieve security mount options
 0104dcdaad3a7afd141e79a5fb817a92ada910ac thermal: testing: Initialize some variables annoteded with _free()
 09663753bb7c50b33f8e5fa562c20ce275b88237 tracing/ring-buffer: Clear all memory mapped CPU ring buffers on first recording
 4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
@@ -1065,6 +1035,7 @@ fb1dd1403c7b2219b8c1524c909938bd4b3f401f Merge tag 'core-debugobjects-2024-11-18
 035238752319a58244d86facd442c5f40b0e97e2 Merge tag 'timers-vdso-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bf9aa14fc523d2763fc9a10672a709224e8fcaf4 Merge tag 'timers-core-2024-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f13242a46438e690067a4bf47068fde4d5719947 selftests/mount_setattr: Fix failures on 64K PAGE_SIZE kernels
+574cb560cc1caca0823e6916912ad2a5cc6a3686 netfs: silence an uninitialized variable warning
 eb65540aa9fc828e9f3f8b30d6dc37f1ed35263d iomap: warn on zero range of a post-eof folio
 2519369201f36a6b2571bc672c4e48f88c6b68d6 iomap: reset per-iter state on non-error iter advances
 889ac75787cbeb129df7faf917ce7d53a32ea696 iomap: lift zeroed mapping handling into iomap_zero_range()
@@ -1074,5 +1045,10 @@ b3e2963916ec70e4c6927e68d1b5d0916afb139a Merge patch series "iomap: zero range f
 d18516a0218da360dd27ae204acbd8d1440f6d6b statmount: clean up unescaped option handling
 3e5360167ac3bccdc032cdafa68d4904a8fa0c75 statmount: fix security option retrieval
 088f294609d8f8816dc316681aef2eb61982e0da fs/proc/kcore.c: Clear ret value in read_kcore_iter after successful iov_iter_zero
+ca4af1582291a13a5b6c57ed9af622efce52ba90 Merge branch 'vfs.fixes' into vfs.all
+2036aa2eb359be6291639402aeb2819f12014738 Merge branch 'vfs.rust.pid_namespace' into vfs.all
+094ca318aedf247ac7fccaada2874564712f9778 Merge branch 'vfs.exportfs' into vfs.all
+30676e710eff37926d46a03ac1a1c61063260198 Merge branch 'vfs.ecryptfs.mount.api' into vfs.all
+5c9e141c6f61d518af02ce98a882f715023fef00 Merge branch 'vfs-6.14.netfs' into vfs.all
 
---===============5883810803214026954==--
+--===============4087957546416991366==--
