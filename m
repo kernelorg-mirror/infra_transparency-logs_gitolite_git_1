@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devsec/tsm
-Date: Fri, 22 Nov 2024 20:15:42 -0000
-Message-Id: <173230654252.3056266.11596911746585987022@gitolite.kernel.org>
+Date: Fri, 22 Nov 2024 20:15:43 -0000
+Message-Id: <173230654392.3056333.4064183336140380371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devsec/tsm
 user: lukas
 changes:
-  - ref: refs/tags/v5.12-rc6
-    old: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
+    old: 33bc861b3af62f4d44957319d850f1767d16ab84
     new: 0000000000000000000000000000000000000000
