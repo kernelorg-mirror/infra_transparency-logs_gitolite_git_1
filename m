@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7308947373373572490=="
+Content-Type: multipart/mixed; boundary="===============5954940142925129410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 22 Nov 2024 14:31:04 -0000
-Message-Id: <173228586407.2580023.15914947308513853164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 22 Nov 2024 14:32:54 -0000
+Message-Id: <173228597419.2581032.311232433612989566@gitolite.kernel.org>
 
---===============7308947373373572490==
+--===============5954940142925129410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 665e421ed83d6cc869f970f9f02d7a7f436eb0f0
-    new: c82267fab25580e84d252e8023eacb4fb0d8063a
+  - ref: refs/heads/driver-core-testing
+    old: e7240bd91f96f925a3bb8d2b9348fcb1db457b10
+    new: acfeb6defcb9310b1ff44db1e633798ba766337d
     log: |
-         c82267fab25580e84d252e8023eacb4fb0d8063a Notes added by 'git notes add'
+         acfeb6defcb9310b1ff44db1e633798ba766337d Fix a potential abuse of seq_printf() format string in drivers
          
 
---===============7308947373373572490==
+--===============5954940142925129410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732285866 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1732285863-5558c4b3c63962a4391a01b855c12d61fe83f40c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732285975 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1732285971-27a7906e134ffc13a0c58cda0461a716c99f40cb
 
-665e421ed83d6cc869f970f9f02d7a7f436eb0f0 c82267fab25580e84d252e8023eacb4fb0d8063a refs/notes/signatures/tar
+e7240bd91f96f925a3bb8d2b9348fcb1db457b10 acfeb6defcb9310b1ff44db1e633798ba766337d refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdAlaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mVIP/1HW+J3i7KoJtG01aSU+
-iuk252DyFSj/jyelM+/nyDup8aF9MIUs4EJBuijUDcOcJNADC1rDi3fmnV/YswJ0
-klusybZ4Y2ZtDF9N1DLf/6P6GSMNjWxmjoUD4+fQajQWdoL3VWUww4tlgDfHbAvC
-5s5n66/+8CUD/u0odhiIEPi63JyNfmhDewJMzSzlOgIexML/gikjSkeaW0n0NnGK
-oY1qNt3nyyGbRup9Q9n3C08DG8okkTCtICH6+dhmKazFKUWKKXizJBvf66nIsrJU
-OG6zM+BSK5fC+080TTiC3lQRGYjRpsr89TKSPlhD/UYSRVvvifArUPln2kXqAj6e
-wNWSox26NgEYOGmJTPz4hzVQ0WtQ4Hhnfo5sKWamnK0oe27L9L9oT2WW+g/mA3zi
-xtkJF7tSXjRGGa6BAn0rgZgluZtPWwoG0e/5WF90K2O62FpjdZLLVsqsH7z7CMen
-Uq5uvLEyoC218cUpWjIQGFgzDl5NmNwJJGpZyJSttHNL/gTCl27Qa6FJCI70cpxd
-qwNEm0x/kqoyyp2MibrT3tRBowU5hUiqMZgWgHoJro6Wc8wxQJwPCijKuU03dlHw
-EFAy2Z3AePz2xsdVIBNBDTjvsmB6uxRl4TCvhgkB/kqBqXshsY7Q9yCXpIdz8zV2
-KuzzFhnCw1TRLLLMOm25UCrZ
-=7aMv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdAlhcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rUkQALQT9JLiGFT6gzx74bVL
+Ie8oYB88iJBuzVvAD8/JWguX+SCXXpVrpqvsSMmJJneyADFCLPCQVci6nvaOR229
+AGrW1W2GdRBkQNJsfubqzJAHl86djIy0kBp9xfkJw/zAV2+H3xnDqHaBSX3FDS7F
+L174mgX3SK9XDVykutAUVtCpsjPTwDuwwRYsKwRN5q9MwYhTsj1T73b0sp16kceB
+6aaWBG9lpB58xW4c5faTOe44vGH+MzqcU0kcvVtu58We9tGmJNzhvxmCmzIyqqQ5
+g9neBT7Iyn2apiTGnRUZY6r7UMa73se/nuB2Bw3iitHOzZ2IEZa27f6KYDbAeGb/
+NWd9AU5ynhQ+pcftM9rt9AnpBu0CxTGZIvdHVQvefV5+mD1VbL/MuFSoj2Zjo04S
+uLf+qJLFf1XG4vcXkDmJsIXbj0YVArTH5cxHUCTIjUhqwG1fuKXK8SBwTriMazKw
+wGv/ssg1Je2Q7yznArkXmou0P0c4Tnv42od/CH1hctbgZjlUVlqowBt3vtA2NNGI
+D9Ezm+lFK7xYOONT7KfiDfCNgrrpy015miTiHRF1ZSvgXY6hfn4J0fpI9xN610CS
+t91hc/EcRd7RRJ+Gir0IxTa/rRwX7/X+RKtHCHes+t6HwV5KTymZrfaEOl82INDb
+YMkZfy+5Nuob2V5FuvkGJTiY
+=fX5d
 -----END PGP SIGNATURE-----
 
---===============7308947373373572490==--
+--===============5954940142925129410==--
