@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8567031206971227846=="
+Content-Type: multipart/mixed; boundary="===============4804939188862463769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 22 Nov 2024 14:30:47 -0000
-Message-Id: <173228584700.2576239.4513282284797954479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 22 Nov 2024 14:30:53 -0000
+Message-Id: <173228585318.2579687.2835096941049233817@gitolite.kernel.org>
 
---===============8567031206971227846==
+--===============4804939188862463769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12.1
-    old: 0000000000000000000000000000000000000000
-    new: 2526d97d01befcd144563104c567af7d00417a3c
+  - ref: refs/heads/linux-6.12.y
+    old: adc218676eef25575469234709c2d87185ca223a
+    new: d390303b28dabbb91b2d32016a4f72da478733b9
+    log: |
+         8621725afb38e111969c64280b71480afde2aace hv_sock: Initializing vsk->trans to NULL to prevent a dangling pointer
+         1ee9d9122801eb688783acd07791f2906b87cb4f media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
+         3cb721578ad99677ac2dede8b084ae3e306f5a3f mm/mmap: fix __mmap_region() error handling in rare merge failure case
+         d390303b28dabbb91b2d32016a4f72da478733b9 Linux 6.12.1
+         
 
---===============8567031206971227846==
+--===============4804939188862463769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732285849 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1732285846-ea94463adfcb074cdf40d219f0ddcf2ae569c767
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732285855 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1732285852-6f3fdebdf5473bbf0331d20a6f227e8d65fe9559
 
-0000000000000000000000000000000000000000 2526d97d01befcd144563104c567af7d00417a3c refs/tags/v6.12.1
+adc218676eef25575469234709c2d87185ca223a d390303b28dabbb91b2d32016a4f72da478733b9 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdAlZkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O/IQAI53EuLTWW6rd5+Ijw9R
-Q228g2c00EIjt0XuLnnWgY12skRjEaxjlotIzD8nWu7UhmqL8xvi2nmmGtX7osMA
-588joWrSVYFeTkr2LC5gCo7SHMA3uWIB7l4sHcLd6YAQtJG33RHOQtEz5tlZ4Cip
-/1tKnn4ASN6mlyI8wgH65lYYqXOFuQZlCp1jtfK7Pf/iqI/8W7jAlXQUpkl+9N5T
-UjSC3OAX9l58WB6cTGKtsG+i6FNyizV8CrorSrFj+pQhsoPyFEdfYZlJfb49SHY3
-wFNJV2u4dbD2uN8qFVz/1XNrmP1C7LVRFJlqpuYDCEmVasXPcDcQp5vEyMifbmxe
-RYBJ6xJU+Zg2pOrZXXJwy0QKGD93gUAj792mPysDSfpg0SKCn72ggH6OtitsHAL1
-rsXyxxKOUt8PAjY3cYOYGmspBUhtNfFirhdkhdozVwqyUerf19Wf9o4WffRT9LfH
-X1omSIdo4gGUuQbKsN8nhObzX8oSxFmJDBQJX2T1RGTHgMmNMOKbmsdBUAbiI4aI
-NUYb/G1jPsgK6jYN7s02kA/H7cIl3Sd90alRungdl9cG1lezzKCI1frBL6z8Fz5D
-s5fPzTnag980/2i7/zinRfIkCOQzxu3um1EmXABXtskgfo9dJKeIVtiYcxVio1VC
-6ZWdUPjJtqpwI8RFhALrHKUh
-=UZ5c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdAlZ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KwQP+wc7xFY2BkezyrQCx6ge
+BPgesks7j2METutmg2fzp89bj4tVFdB0Sut9GsgD6vi1VEQ5AQ27QOGElqDGIlXz
+Rttz6aqXXGViUZYbpymd9l6ulC8ibovRQCKd1Yq9+EnoqdFM+DW10QUmOc6E3BLA
+435gE5d+V28y9Uiuw24rxsuw/wXZU0qqM/1v6/dzU0X+UsTXG16E27xmiyePFSyZ
+uN71bojc1SlXiR3RDBNNn82Q0diYwRy/V3nTaC+9zu0+DCq1rwU148vgunZlopuD
+38x3kI6BSAiErIVVIoGPR6SGbwWQfCIUiHPSpP2yHTNbPAdBiwaTaA5g6u+0wgNi
+P10pJEU5ujcpVoCKUJoLTX5eqlfiPVUT0ByoTEeS9WDP/Bcg1w3ZSAIIFJ6YK0VI
+QFgJ0B8XT1dXorQfEJxlIkgULe2FtU7lTsr4aUjQFR6IABPV4hyCCiOwa0xy+DCe
+slnj1FreEKIifmDq9XnFCFm845CgI5r2OqH6o7Oy02E/a4r8PaIjoVQFhNPLueHW
+5kpHA+bp/FYWbR/lVKJakFJk9KH9fH8nGLfBjvNkBBhAxgYikNqMaHneF0mgR9HX
+GVx6HcqxtOqD7UMlFXoXDhgPRWOnhUCKmJ8D3/cucH/HL+hFuDQOib75CO7dOipM
+fKA1OrPEGEW8jE7d5xrl2LJI
+=Dhw+
 -----END PGP SIGNATURE-----
 
---===============8567031206971227846==--
+--===============4804939188862463769==--
