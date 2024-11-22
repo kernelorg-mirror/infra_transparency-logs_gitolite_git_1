@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4163210297352531576=="
+Content-Type: multipart/mixed; boundary="===============4117397574326014551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 22 Nov 2024 19:59:07 -0000
-Message-Id: <173230554748.2988418.5058633484783129194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 22 Nov 2024 19:59:36 -0000
+Message-Id: <173230557636.2989253.5614590428044490034@gitolite.kernel.org>
 
---===============4163210297352531576==
+--===============4117397574326014551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 28eb75e178d389d325f1666e422bc13bbbb9804c
     log: revlist-fc39fb56917b-28eb75e178d3.txt
 
---===============4163210297352531576==
+--===============4117397574326014551==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e3f8064d8b29036f037fd1ff6000e5d959d84843 ALSA: hda: Poll jack events for LS7A HD
 071b34dcf71523a559b6c39f5d21a268a9531b50 Merge tag 'sound-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 28eb75e178d389d325f1666e422bc13bbbb9804c Merge tag 'drm-next-2024-11-21' of https://gitlab.freedesktop.org/drm/kernel
 
---===============4163210297352531576==--
+--===============4117397574326014551==--
