@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7793829830301070633=="
+Content-Type: multipart/mixed; boundary="===============7835323273581454866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 22 Nov 2024 12:54:00 -0000
-Message-Id: <173228004057.2453297.18304045747723380262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 22 Nov 2024 12:54:02 -0000
+Message-Id: <173228004260.2453372.5494081188146400048@gitolite.kernel.org>
 
---===============7793829830301070633==
+--===============7835323273581454866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 28eb75e178d389d325f1666e422bc13bbbb9804c
     log: revlist-bf9aa14fc523-28eb75e178d3.txt
 
---===============7793829830301070633==
+--===============7835323273581454866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fc39fb56917bb3cb53e99560ca3612a84456ada2 Merge tag 'jfs-6.13' of github.com:klei
 071b34dcf71523a559b6c39f5d21a268a9531b50 Merge tag 'sound-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 28eb75e178d389d325f1666e422bc13bbbb9804c Merge tag 'drm-next-2024-11-21' of https://gitlab.freedesktop.org/drm/kernel
 
---===============7793829830301070633==--
+--===============7835323273581454866==--
