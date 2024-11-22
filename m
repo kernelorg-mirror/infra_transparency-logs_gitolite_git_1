@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 22 Nov 2024 18:15:40 -0000
-Message-Id: <173229934009.2906681.13452505853679176728@gitolite.kernel.org>
+Date: Fri, 22 Nov 2024 18:18:03 -0000
+Message-Id: <173229948316.2907631.12711981870476320733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
   - ref: refs/heads/pwm/for-nexxt
-    old: b374105a497b718695f7457bcca5f9bc4628af3f
-    new: 03c4d718a50128c7807294df477994f69304dd12
+    old: 03c4d718a50128c7807294df477994f69304dd12
+    new: e23c5934caf05feb39879305828a8bd28af7d0f5
     log: |
-         03c4d718a50128c7807294df477994f69304dd12 dt-bindings: pwm: sprd,ums512-pwm: convert to YAML
+         e23c5934caf05feb39879305828a8bd28af7d0f5 dt-bindings: pwm: marvell,berlin-pwm: Convert from txt to yaml
          
