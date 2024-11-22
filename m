@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 22 Nov 2024 04:46:19 -0000
-Message-Id: <173225077949.2040525.6650665414985983057@gitolite.kernel.org>
+Date: Fri, 22 Nov 2024 04:47:04 -0000
+Message-Id: <173225082449.2040998.10734750154959353001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/v4l2-loopback
-    old: ceabe1c2c8ae17f2fbb10cda9dc191dcb69ab0e8
-    new: 3f0a120b67605db8dccbcf5d930937caabeb12b5
+    old: 3f0a120b67605db8dccbcf5d930937caabeb12b5
+    new: b64e74ea5d1f710afdb4943bd92b7a035a0b4e3b
     log: |
-         3f0a120b67605db8dccbcf5d930937caabeb12b5 media: v4l2-loopback
+         b64e74ea5d1f710afdb4943bd92b7a035a0b4e3b media: v4l2-loopback
          
