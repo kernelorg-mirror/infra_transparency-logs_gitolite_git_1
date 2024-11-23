@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 23 Nov 2024 15:39:24 -0000
-Message-Id: <173237636494.3990677.18231984150494191588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 23 Nov 2024 15:39:27 -0000
+Message-Id: <173237636788.3990755.15662341427333242719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: b72e28a34d38eb2a9bc2026e6684a96798462701
-    new: 523911e005490d4691e60d1876a6db90466d368a
+  - ref: refs/heads/damon/next
+    old: 78907e9aaa2afc17557ccada5eeafa2f4423ddcc
+    new: 7401a702f38a981b1131c2b20ab142ccd833765e
     log: |
-         523911e005490d4691e60d1876a6db90466d368a iio: gyro: fxas21002c: Fix missing data update in trigger handler
+         74b866938a402fc479938747f93b9ced3c9a1282 samples/damon/prcl: fix type of max_age_region
+         7401a702f38a981b1131c2b20ab142ccd833765e mm/damon/core: fix a bad line on comment
          
