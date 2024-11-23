@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5063445650212683991=="
+Content-Type: multipart/mixed; boundary="===============3729662090932700927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 23 Nov 2024 17:52:45 -0000
-Message-Id: <173238436594.4102006.3646169621451841146@gitolite.kernel.org>
+Date: Sat, 23 Nov 2024 17:53:34 -0000
+Message-Id: <173238441461.4102378.14325308543401998236@gitolite.kernel.org>
 
---===============5063445650212683991==
+--===============3729662090932700927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 3020c52199357c60574850544f779683ac9a917a
-    new: de2bf507fabba9c0c678cf5ed54beb546f5ca29a
-    log: revlist-3020c5219935-de2bf507fabb.txt
+  - ref: refs/heads/testing
+    old: 8c8865aa3d3c2dabf9a2161d2809eccfeae92645
+    new: 6a537bb9887fb41c8b6468c9834281c643282dbb
+    log: revlist-8c8865aa3d3c-6a537bb9887f.txt
 
---===============5063445650212683991==
+--===============3729662090932700927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3020c5219935-de2bf507fabb.txt
+Content-Disposition: attachment; filename=revlist-8c8865aa3d3c-6a537bb9887f.txt
 
-d2db0b8fd70bb216eb96ad1a32c158889e247c16 drm/mediatek: Allow build with COMPILE_TEST=y
-d4e4e498bec6c16d303ff55c0211d5c11e81e379 drm/meson: Allow build with COMPILE_TEST=y
-f2be0c3a9584b1a28c06692d4fc52a8a3586c6ab mfd: twl-core: Add a clock subdevice for the TWL6030
-04177158cf98a79744937893b100020d77e6f9ac ALSA: compress_offload: introduce accel operation mode
-0216ded72db896b24cbdd8cd6531482571b25cf6 Merge branch 'topic/compress-accel' into for-next
-b739073af44ef8c35f633570c5d86d94721ab1e3 clk: renesas: rzg2l-cpg: Move PM domain power on in rzg2l_cpg_pd_setup()
-ddcc2f619b4388b4ccd30786dfc153487845b0c6 clk: renesas: rzg2l-cpg: Use GENPD_FLAG_* flags instead of local ones
-de4e3db2705813e3630ee95ce2d4a6740a757cd4 clk: renesas: r9a08g045: Mark the watchdog and always-on PM domains as IRQ safe
-ba73f1ead5db93abe955598f8f7dd9f14a28d8f6 Merge tag 'renesas-r9a08g045-dt-binding-defs-tag2' into renesas-clk-for-v6.13
-e200b06d8ecaa70798f45f815b2cac280a7c1b20 clk: renesas: r9a08g045: Add power domain for RTC
-20079dd9b364483db613186b289fe372bddf41b5 ASoC: rt1320: add mic function
-581d1f8248550f2b67847e6d84f29fbe3751ea0a drm/panfrost: Remove unused id_mask from struct panfrost_model
-d0c322b6e4bff8cc0e40ee4983bf2ab1f7f680f0 clk: sunxi-ng: h616: Add sigma-delta modulation settings for audio PLL
-c7e09a613bbddd0eea086e475855aba3b2410148 clk: sunxi-ng: Constify struct ccu_reset_map
-3ae80b375739495e36fc6143ff27716fe390a13e drm/sched: warn about drm_sched_job_init()'s partial init
-93accc16a8d45a44e1f51fdf2c6014feedb13d27 accel/qaic: Add crashdump to Sahara
-dba8bed8b6857ac23938219feaab96cdb1ae814d drm/i915/display: Fix out-of-bounds access in pipe-related tracepoints
-85c5cad1bf622e536d2e725f7396e49337553b7d drm/i915/display: Zero-initialize frame/scanline counts in tracepoints
-60e82e56d36f3eb6aab28455f02e219ae6e6236d drm/i915/display: Store pipe name in trace events
-2698bdbf7034c1c7d683c2125f90a9ec201a477f drm/i915/display: Do not use ids from enum pipe in TP_printk()
-8793d092aee38c9a7d934543a04f9d0b01cf9716 drm/i915/display: Cover all possible pipes in TP_printk()
-0d018d1dc62222176a5e30b052e0133c63d3be8e drm/i915/xe3lpd: Load DMC
-807b1a361d0aa5b322fcd1cb54be9b9e35bf74c1 Merge branch 'for-v6.13/clk-dt-bindings' into next/clk
-a794e783ebf94c7bd9c8d40e390a54fa4322b2cb clk: samsung: clk-pll: Add support for pll_{1051x,1052x}
-9174fac3b302a853b78c78f2f5ad11462b0c54b0 clk: samsung: Introduce Exynos8895 clock driver
-74c374648ed08efb2ef339656f2764c28c046956 drm/msm: Simplify NULL checking in msm_disp_state_dump_regs()
-45a4f888988a142b34d57a3e02950b3942b8cfc7 drm/msm/a6xx: Remove logically deadcode in a6xx_preempt.c
 5773cce8615c6ae982eaa31aba28dc888bfcc61c drm/msm/a6xx: Add support for A663
 1c967110e7983c4eab4ca847a15ab527278079e3 dt-bindings: display/msm/gmu: Add Adreno 663 GMU
 7d39ef944c5008ac01b5bba4bc05bed378327a89 drm/msm: Fix some typos in comment
@@ -1025,6 +998,8 @@ a9685b409a03b73d2980bbfa53eb47555802d0a9 smb: prevent use-after-free due to open
 2e1827de1b0f22b420c9446a3c94e6cce8eb4da4 char: tpm: cr50: Add new device/vendor ID 0x50666666
 28eb75e178d389d325f1666e422bc13bbbb9804c Merge tag 'drm-next-2024-11-21' of https://gitlab.freedesktop.org/drm/kernel
 5578b4347bb5d5dfc8eeb8ee2eb8248658707d9b tpm: atmel: Drop PPC64 specific MMIO setup
+d7c1bd2aff0b7375264d46b02b7ce160ca4fe29a MAINTAINERS: Drop IIO from the title of the Chipcap 2 hwmon driver
+62d0a200d0a5d65c705052b1800c41bde144d15e hwmon: (chipcap2) Switch to guard() for mutext handling
 f3e66e78f2ecb18a55374f7d58030556b751dd79 Merge branch 'pm-cpuidle'
 563cb0b1e736853cfc78956b9de362d2aae74887 Merge tag 'cxl-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 be9318cd5a36ff67689e0fb0f8f5007a56290ac7 Merge tag 'x86_sgx_for_6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1024,31 @@ ceba6f6f33f29ab838b23a567621b847e527d085 Merge tag 'iommu-updates-v6.13' of git:
 e7675238b9bf4db0b872d5dbcd53efa31914c98f Merge tag 'ovl-update-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 228a1157fb9fec47eb135b51c0202b574e079ebf Merge tag '6.13-rc-part1-SMB3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8281d627905dc72241ca3969ee18f3e029e96d00 hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
+433235d259f575313f34f5aa188aa5b8fd891c06 hwmon: (tmp108) Do not fail in I3C probe when I3C regmap is a module
 de2bf507fabba9c0c678cf5ed54beb546f5ca29a hwmon: (tps23861) Fix reporting of negative temperatures
+f4c6adcb13a06e84f8297e6ea3e8f65b20f5d56b hwmon: (tmp108) Drop of_match_ptr() protection
+ae03b11a37e46cf72204dba1597820c2da358fa6 hwmon: (spd5118) Split into common and I2C specific code
+1fdf183be50499f2bdda16677ef2f93c1e955797 hwmon: (spd5118) Support 16-bit addressing for NVMEM accesses
+9fb9e6944ac1f8d39ee41607a4d17c4c9c0b1484 hwmon: (spd5118) Detect and support 16-bit register addressing
+918dc75e81a08e5c22fc09d9aabbf25920acee8e hwmon: (spd5118) Add I3C support
+d2f4fb6b54e20ea08313e56f4816edc10a9d48d9 hwmon: (spd5118) Name chips taking the specification literally
+00df4eaaefeda6f8185e1be866aa1acebd9488c4 hwmon: (max16065) Reorder include files to alphabetic order
+52e51a1ba1041593d52f5c428729069090521021 hwmon: (max16065) Use bit operations
+7102a2ca6a01448f06de0d34a12fcfd1a0284f87 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+35cf8a753e5950fa387856573cdcdde23f7e436f net: microchip: vcap: Add typegroup table terminators in kunit tests
+af84dfa7546256a2c775a6e5bc1228cd720317ba slab: Fix too strict alignment check in create_cache()
+631def35c578a6c4c446f0d26fb6ec1e387db08e drm/rockchip: avoid 64-bit division
+978ff005f3c6cbcd261d0deeca525b822db5e0e1 Revert "tty: serial: export serial_8250_warn_need_ioport"
+6b925bc9cfc83e06172c52cfce61590fc613e1fa Revert "tty: serial: handle HAS_IOPORT dependencies"
+10b13e06215ed7aef39a54b7084199c2a3431eaf Merge branch 'hwmon-next' into hwmon-staging
+91498d38c88e35393e45a8b882d4844a2b50c4e6 Merge branch 'hwmon' into hwmon-staging
+1622069e293ae0cbe992f9af4f99d99261348468 Merge branch 'hwmon-tmp108' into hwmon-staging
+099ad6f74551b16920f2b1b8e5bf1047bd740d57 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+bb1d9e9ccc64fc64ba8e88c8e3919d7c25b0831a Merge branch 'hwmon-energy' into hwmon-staging
+70805d60553017840719bf0d12ae4a0bfb81761b Merge branch 'hwmon-g762' into hwmon-staging
+0d671a719748475ed9b4f31fdbf0d8156bd0a159 Merge branch 'hwmon-emc2103' into hwmon-staging
+a556bf390a4ba3cf367954bd9105b4e83c32baef Merge branch 'hwmon-max16065' into hwmon-staging
+85faeeddd2bafe97ab70c40d6ed8fde77ed4875e Merge branch 'hwmon-staging' into testing
+6a537bb9887fb41c8b6468c9834281c643282dbb Merge branch 'fixes-v6.13' into testing
 
---===============5063445650212683991==--
+--===============3729662090932700927==--
