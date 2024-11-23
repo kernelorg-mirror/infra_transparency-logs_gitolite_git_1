@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 23 Nov 2024 20:14:03 -0000
-Message-Id: <173239284309.26261.17463172557687810826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Sat, 23 Nov 2024 20:51:46 -0000
+Message-Id: <173239510665.56576.253138045220546817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/v4l2-loopback-dev
-    old: 1670e49b1d28f24f15ca77a448c03556b311f042
-    new: 520e4971b3472a7b8822f07eb85b74f890158023
+  - ref: refs/heads/main
+    old: 863c96cea49d4a873a584f63e8851e661e475835
+    new: bf410407103fbbfe95d18195cc1172cc6f15171e
     log: |
-         520e4971b3472a7b8822f07eb85b74f890158023 media: v4l2-loopback: Remove dprintkrw()
+         bf410407103fbbfe95d18195cc1172cc6f15171e add .editorconfig file for basic formatting
+         
+  - ref: refs/heads/master
+    old: 863c96cea49d4a873a584f63e8851e661e475835
+    new: bf410407103fbbfe95d18195cc1172cc6f15171e
+    log: |
+         bf410407103fbbfe95d18195cc1172cc6f15171e add .editorconfig file for basic formatting
          
