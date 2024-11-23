@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 23 Nov 2024 16:19:06 -0000
-Message-Id: <173237874661.4023517.14620707891892441806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 23 Nov 2024 16:19:26 -0000
+Message-Id: <173237876690.4023746.2275474297299465394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 57f8afd12dc91d1f86e2fd9988edc6117a6d9ba6
-    new: ed2bd1a57130ad370fcff1de1cdf4ee50d14e2d8
+  - ref: refs/heads/fixes-togreg
+    old: 523911e005490d4691e60d1876a6db90466d368a
+    new: c222db56d7e45b8d1b28be9d93726934a147d40d
     log: |
-         45450d5b2c44f2fdd9755d1e6b736cb56155ec7f _hkml: add in-reply-to-msgid field to mail
-         bebebba76ec03d5f7dc801cc1dfee984eb6b26ec hkml_list: use in-reply-to-msgid field to get only message id
-         fd340fdaa158452b626dd71bb3ec69e54e4a2065 TODO: remove handling more than msgid in-reply-to field
-         ed2bd1a57130ad370fcff1de1cdf4ee50d14e2d8 TODO: add an item
+         c222db56d7e45b8d1b28be9d93726934a147d40d iio: imu: inv_icm42600: fix spi burst write not supported
          
-  - ref: refs/tags/v1.1.9
-    old: 0000000000000000000000000000000000000000
-    new: d69a6a001dd16cebe30c2ed1280ce573099575e0
