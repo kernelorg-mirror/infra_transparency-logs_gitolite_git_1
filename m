@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sat, 23 Nov 2024 19:41:11 -0000
-Message-Id: <173239087171.4192321.2732882289292120515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 23 Nov 2024 19:47:25 -0000
+Message-Id: <173239124529.3135.5484330142074795248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/uaccess-hardening-2
-    old: 228a1157fb9fec47eb135b51c0202b574e079ebf
-    new: 88c20432be9300ca7761bd54de7542142f872998
+  - ref: refs/heads/v4l2-loopback
+    old: e55aab24394fd83311b84b28c3abd9b68847995e
+    new: 6bcf1a855a712be03b200774a07b0f55f419d1aa
     log: |
-         88c20432be9300ca7761bd54de7542142f872998 x86/uaccess: Avoid barrier_nospec() in 64-bit __get_user()
+         6bcf1a855a712be03b200774a07b0f55f419d1aa media: v4l2-loopback: Remove LINUX_VERSION_CODE checks
          
