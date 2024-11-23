@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sat, 23 Nov 2024 19:13:45 -0000
-Message-Id: <173238922591.4168341.10274468449692898416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 23 Nov 2024 19:34:55 -0000
+Message-Id: <173239049514.4185477.15041238470349235318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/uaccess-hardening-2
-    old: 0000000000000000000000000000000000000000
-    new: 228a1157fb9fec47eb135b51c0202b574e079ebf
+  - ref: refs/heads/v4l2-loopback
+    old: 233052a718566431d3fff5b40c1f9b5fd9404437
+    new: 0403925444e0f06f580cdfccfa4639ab5cb08f85
+    log: |
+         911abdcd73d18dd70f119657b58b83fc0853fc24 media: v4l2-loopback: Remove !SPLIT_DEVICES
+         0403925444e0f06f580cdfccfa4639ab5cb08f85 media: v4l2-loopback: Remove !HAVE_TIMER_SETUP
+         
