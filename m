@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4882549089447654859=="
+Content-Type: multipart/mixed; boundary="===============6162628563637137017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 24 Nov 2024 10:36:34 -0000
-Message-Id: <173244459437.694982.1278821868534468460@gitolite.kernel.org>
+Date: Sun, 24 Nov 2024 10:36:47 -0000
+Message-Id: <173244460795.695258.16076566436536413193@gitolite.kernel.org>
 
---===============4882549089447654859==
+--===============6162628563637137017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/ls64
-    old: de62720ab1224204309ca648d5418ed95b077f45
-    new: 7150da624e62ed152c09834f1981c0f3569c28db
-    log: revlist-de62720ab122-7150da624e62.txt
+  - ref: refs/heads/kvm-arm64/nv-e2h-select
+    old: 13fad8d8c606fcab8a2765bc88467a3c80a8d9b1
+    new: faa80f45b868406e622443fe33bf4d8ce4fddfe3
+    log: revlist-13fad8d8c606-faa80f45b868.txt
 
---===============4882549089447654859==
+--===============6162628563637137017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de62720ab122-7150da624e62.txt
+Content-Disposition: attachment; filename=revlist-13fad8d8c606-faa80f45b868.txt
 
+a194c985973276b2f280428c848f20369bb83734 vsock/virtio: use GFP_ATOMIC under RCU read lock
+221af82f606d928ccef19a16d35633c63026f1be vhost/scsi: null-ptr-dereference in vhost_scsi_get_req()
+c10e50a469b5ec91eabf653526a22bdce03a9bca cpufreq/amd-pstate: Fix amd_pstate mode switch on shared memory systems
+ab8851431bef5cc44f0f3f0da112e883fd4d0df5 lib/Kconfig.debug: fix grammar in RUST_BUILD_ASSERT_ALLOW
+564a278573783cd8859829767851744087e676d8 ACPI: resource: Make Asus ExpertBook B2402 matches cover more models
+435f2d87579e2408ab6502248f2270fc3c9e636e ACPI: resource: Make Asus ExpertBook B2502 matches cover more models
+158d0f3700fd7190df609a0a61294f29ae698d9e ACPI: resource: Fold Asus ExpertBook B1402C* and B1502C* DMI quirks together
+1af7e441feb08cdaab8f4a320577ed0bba1f5896 ACPI: resource: Fold Asus Vivobook Pro N6506M* DMI quirks together
 91e8f835a7eda4ba2c0c4002a3108a0e3b22d34e powercap: intel_rapl_tpmi: Fix bogus register reading
 99ca0b57e49fb73624eede1c4396d9e3d10ccf14 thermal: intel: int340x: processor: Fix warning during module unload
 87d6aab2389e5ce0197d8257d5f8ee965a67c4cd Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
@@ -1038,17 +1046,9 @@ e9649129d33dca561305fc590a7c4ba8c3e5675a KVM: arm64: vgic-its: Clear DTE when MA
 7602ffd1d5e8927fadd5187cb4aed2fdc9c47143 KVM: arm64: vgic-its: Clear ITE when DISCARD frees an ITE
 9d0bee66f7398c3c81df613de2e246fbb6a04a86 Merge branch kvm-arm64/vgic-its-fixes into kvmarm/next
 60ad25e14ab5a4e56c8bf7f7d6846eacb9cd53df KVM: arm64: Pass on SVE mapping failures
-f1f49781cd64445ec031f1605fa4356699877096 arm64: Expose ID_AA64ISAR1_EL1.XS to sanitised feature consumers
-bf9c574f2d7061808924d5dc6da57268e433d502 arm64: Add ID_AA64ISAR1_EL1.LS64 encoding for FEAT_LS64WB
-26905c46ee0842eb1f24268a9a136b3318b2d7f4 arm64: Add syndrome information for trapped LD64B/ST64B{,V,V0}
-3527d123eca2eae1af5a8320899a98f1834bd9cb KVM: arm64: Add ACCDATA_EL1 to the sysreg array
-549d659b5a0ab8ace93b18b1588977d45b2be1cb KVM: arm64: Add context-switch of ACCDATA_EL1
-63fa27ca78b8a19382bbb021b228d8c22ed6c196 KVM: arm64: Handle trapping of FEAT_LS64* instructions
-005234f44e76d0a044209f303d0c42238d5cf442 KVM: arm64: Add exit to userspace on {LD,ST}64B* outside of memslots
-5df8aea7abd7d3d3cd370f3cfc99d10192ba6415 KVM: arm64: Restrict ACCDATA_EL1 undef to FEAT_ST64_ACCDATA being disabled
-aef2cc78e1296de2bd24a5130918576568d00ee6 KVM: arm64: Conditionnaly enable FEAT_LS64* instructions
-0801d71a8334047373209618805981a356421407 KVM: arm64: nv: Expose FEAT_LS64* to a nested guest
-809144f6baaf769b15967720cf2afa7fa3a2b4b4 arm64: Expose ID_AA64ISAR1_EL1.LS64 to sanitised feature consumers
-7150da624e62ed152c09834f1981c0f3569c28db KVM: arm64: Add documentation for KVM_EXIT_ARM_LDST64B
+7ab1126f5911da44618a235c202cf23ab8f3725a arm64: cpufeature: Handle NV_frac as a synonym of NV2
+995699a11e1814bea731ae5fe7560f06bdd67f66 KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
+bea468fa422ed9fd41f49ccf61637462b8b846dc KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
+faa80f45b868406e622443fe33bf4d8ce4fddfe3 KVM: arm64: nv: Mark HCR.EL2.E2H as RES0 when ID_AA64MMFR1_EL1.VH is zero
 
---===============4882549089447654859==--
+--===============6162628563637137017==--
