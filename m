@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 24 Nov 2024 20:43:03 -0000
-Message-Id: <173248098379.1172955.8409095042850307107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 24 Nov 2024 20:44:05 -0000
+Message-Id: <173248104542.1173697.14286915038135519154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/v4l2-loopback-dev
-    old: 36ae93bcb2d7a7e6d13533fb976c545fc85bdee8
-    new: 75cc3a15ccf020596f94a23250daa0bd551ed70f
+  - ref: refs/heads/master
+    old: 712c93b951bdc366aa515d0926ef970f75e2abbb
+    new: 0a358405dd5166aee011b125c893c69572baaa27
     log: |
-         75cc3a15ccf020596f94a23250daa0bd551ed70f media: v4l2-loopback: Remove the parameter "debug"
+         e900e97c7d0fae81c5daec56634b319360c9a2ec TODO: add an item for easier draft management
+         0a358405dd5166aee011b125c893c69572baaa27 TODO: add an item for another draft management corner case
          
