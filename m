@@ -1,16 +1,139 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 24 Nov 2024 10:44:36 -0000
-Message-Id: <173244507621.701571.3962375588940545398@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5855729651330982438=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sun, 24 Nov 2024 10:53:15 -0000
+Message-Id: <173244559519.708792.602002603415418769@gitolite.kernel.org>
+
+--===============5855729651330982438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/x86-efi-zboot
-    old: 0000000000000000000000000000000000000000
-    new: 305409cca497d26ddcc39661df12d7630faa0c00
+  - ref: refs/heads/b4/b4-sysfs-const-bin_attr-cb
+    old: ee83a6ab79375853a40d7a418fdc9cef65e4d7f9
+    new: 0ba15e9aeced7921289d689baffe2093b874f68e
+    log: revlist-ee83a6ab7937-0ba15e9aeced.txt
+
+--===============5855729651330982438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ee83a6ab7937-0ba15e9aeced.txt
+
+3883b0e2a8bdb60b45cf58cfe92f47553e09b39c nvmem
+655223b67d198e996a866e7a61a89664cb142aef p2pdma
+ec016c9c7453a257623b101538ca631b851d91a2 devcoredump macro
+4c53eae21cc45f94fffdec7250136434b6a1c86a devcoredump
+6056b7abe27a7a0d8d1d186593364e880111de71 firmware loader macro
+2a0804f2dc82f2af2cc29f9b69646aa0f130eb23 firmware_loader
+8866508672092d6220acdb07268b8917082b193f scsi macro
+73dba262e94c7689aab1debd66ae7efef9b4b404 scsi
+30d090c71dbe6f165c50bfd38f730c0f9077f490 x86
+10906387d585bab32c5b79df000e51d3dac60f9c module 1
+1477c9d7fa97d4c9af31bc9569a4193508c7e76f acpi
+1c6c7374e1973313df976f058480ae5057d50b7d acpi
+6c4cdb94a648241882b8adbba1c43de31407d27d zorro macro
+0b1322b407a68b2e5badbc26ae004a2d036bef39 zorro
+72f0cc8b30ca09186589019fd25331e4614cca02 w1 dedup
+3a3c72f2126b31a4ee6e04161930c176591b48f8 w1 macro
+bbaa11cde58476a1f8dea63c45c12be3a9fa5c03 w1 const
+f642781ea3e6372064dc3228fe5ab5ba7bb95bf1 habanalabs macro
+dfe75bc30219afb8451841367f0193f2a9d9d421 habanalabs
+994a019abd9d2c980d9ea12837daabd1ed3e016c rapidio macro
+927eca3882192d9b5f2b4789e6b632a73a7cd336 rapidio
+668344df1d01eefa67c054793564117ef874a365 psy: ds2780: macro
+fbd9394213b19d4275afe8bb82ff1e18dcba60cd psy: ds2780
+f5ce5a90ec3ff9ca7d6be55cbd0cf3621dd979f6 psy: 2781: macro
+7aaa6a8f9ed03886e402bf43fab1fbabc8cd5961 psy: ds2781
+5bd8562b7fcaee65ce2f910eb51faf35e1d5d0fa psy: olpc: macro
+f5cdca5f1f21963458c854d5d2390e51c38d51b5 psy: olpc
+747de694e80ddfa15f4e074017bb6820faba11c3 opal-core: macro
+713452ac062025e33bbc0c1a64a2095c1d520754 opal-core
+ab2f8494c9e61f6425f491401e63033a56e89ffe kheaders
+8c40be1d8051f4ca35f7018d627058b2341cfd0a module
+49a25b81e0ee847a0cf0d61c650a7586d928e86f pci
+db0c8b8a3114b29b402a25d8248de6409a57deb4 apci macro
+1d9aa867d01b9857e3137a685739fd43437717eb pci
+af618acbb561aa9951faaa18f3b529cc05e2d376 bridge
+3c27de869d86f439bc25aa4b64e57cb0dc2949df pch_phub macro
+201b330caeb551290bbd65528404544360afc63e pch_phub
+139031def7fe183fd708b27535394137c291f747 sram
+88a9f364b81d2aae0308391f644e8415deadf38b max6875 macro
+8136945ae4502f499a1fdafbe8ba20c02b9fd853 max6875
+2a05127898d6ea7e9f0207a00e0c01186526576f ds1682 macro
+602308e1a75dad7f02bf906841cfae694a042574 ds1682
+b43c4982abf8b9773dca3141ab3e527b213163f8 lpfc macro
+8fa103fc9bdd6cf42a591f939de89dba476ea8de lpfc
+ab1e525e6607fa89c6a1f1250db7cf9f0372963c amdgpu psp
+53c0bc0410b6dcb1ef40c349013b169d810b1852 fwlog macro
+0fe4126e351f4e2af40bc15b74abe49eaf3b376a fwlog
+6b432fa1f8d42e1970a7a72ea2d3da97900bef55 wmi-bmof
+3ea0dd0d3b01e7ab52ad8da276e4691689bd3deb lima macro
+552a458f710e11c3d067210ed5b6e8e34b5b4cd9 lima
+300f21424d1d51fae38892c68056eebe5ded8e4c amdgpu_hdcp
+222ae08c6b87765f49bef3fbcd7e8087fb9df04e udlfb perms
+93e374796dff8e821edd0050701645239d46cc4d udlfb macro
+e3df36556fc3c674be26205c06d65182f17d0137 udlfb
+f6e986be744b72eb4017d820840e6d3dab221f6b radeon macro
+0c8405cf90b6dad59ac1cad3fe481e834e885bb1 radeon
+768decc870fdc3c550dd2788979ce1844524c9d4 acpi
+4194112d2c209f2107f921e5262012ea53270c40 i915 1
+768120ade3b73d734d3b34c0ad51b6e4c9cc327c i915 2 macro
+e63e7364bfa3dafe6467ccc0eb4599e88f0cf98c i915 2
+1ff61c48c9be38a9ec3612183c23088879c78c58 3w-sas
+dfdca81cfaef7fd6a9e245834175f3a3cd6e7260 scsi/ipr macro
+247b6d85c060b68afe19ff395bc9188ef062329d scsi/ipr
+ec3614390d6c891c2cb86b02f6aa7cb1d5062809 qedf macro
+aaf71a0201f3b8491b0388bdf6d454be85054edb qedf
+33eed4b9b9e15730984262cd97ebc2a8bc5ca5db qedf 2
+97410d096276d77f2ef73e367ec1cb0ba9dff3e8 arcmsr macro
+dfbe677d8933b2e26bfb062f4d823a935e495594 arcmsr
+23123f6a952d9dcd133ba4158e34470840bf1ad3 qla2xxx macro
+28322956bbf8cdd477bd69f24d7c24a15feda90a qla2xxx
+b69445e2be268a53abce99e1c200632a802f7e7b qla4xxx macro
+2afb56e66397e38fa1a3b963b3fbc7ed0504249c qla4xxx
+472de1546bd578268e5f0a11b693a65e60951961 ks8995 macro
+7811502ce71f44452ce2e6e0581d7113c1b9bb0e ks8995
+c982e66c2300e215ea49bcf1fc17c196b264fd60 qlcnic macro
+42a77bf54bb55fd8c5337844facbc4c5f46e2be8 qlcnic
+6d62223797098414634bcf959b5bc38a27025130 netxen macro
+4821e3eb87f361951f51885aa182500d06c05fb0 i2c eeprom
+a03001e7ed550bee4606eabef871ed0d11e9dd6d solo6x10
+5bc693d8f05e0e2c36e4c8b255a3b025df6651ee gsmi macro
+8fcd833ab011aae6310cf36241a3c87295b2d20e gsmi
+334c2c85e87980707cba417b0097408bc67c7c92 memconsole macro
+71165228e77bdedd41933b4d38b101a3afe4abe8 memconsole
+9dd11e77562615666d01733966cafa9b6fee217e google/vpd
+d9efe452b4a80af16c9328a4b59b1ac5a1a7adfb movar
+bcbe582210d7d0ad9d7a1c4705813a2c3cc8ad1b dmi macro
+d97336a187d9b9c8c0ff5c64f4f3687e3f29b53b dmi
+58018548e432268e56bab0c1af84ecb7ced396d6 qemu macro
+fd0e3b13622e0b24b0db93d1d01c6bec1947c16f qemu
+983128552e7adc599c97a10707510c292e05c3b6 amd/hsmp
+020bf445cca4179cc7cea17a80e9788dc764b27a intel/pmt
+7c640bc53e3f058745cf68301ec79826d8a94862 cistpl macro
+ede401404fd1a1bfe96c757a0e38b01c1db8ee07 cistpl
+a4831b70a678ebf651ac9944f48dadf5e67666d1 fsi macro
+313b32bdf88b362ca7fa465f76345b79aa31be7f fsi
+f6d35111b2463e8ffcb2ba5c1c5fe2028b963ada sclp_sd
+c79e5be29b3ecafd32ae81a907150f424bd1a752 sclp 2 macro
+e487c18c5334f4db3bfa8a14a62c27cae0a6e0e2 sclp 2
+0b1822064cd63e8f81c166cdbe25aef25948d421 bpf mod\ simple
+67e08a8ec6196c19b0fcf6c39c951d5d4d29da60 bpf vmlinux\ simple
+088209053e82868616cebc34f3c1493dbb88b16f cxl
+b4f6f73d1d5678e88b4d032c02128f5350f9cfb9 ocxl
+2b69294adfc34e9140740f82fb7d79512e58823c ibmvscsi
+4c05dcbdca9b31bac53d8e189c478e1687c1b307 mlxbf macro
+facae9abc150fd5a72c8f6ed340d8477b672a329 mlxbf
+e4fd7f402a055d791615e2735d00b903b1598008 powernv
+4a236128ce949a49d66b3e7c2f304ffdfc5989ee ===== After all handlers
+b0d8a0a008c4a3eb40b427584d1f29a9f5d39789 read/write
+0ba15e9aeced7921289d689baffe2093b874f68e bin_attrs
+
+--===============5855729651330982438==--
