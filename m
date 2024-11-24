@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sun, 24 Nov 2024 17:52:57 -0000
-Message-Id: <173247077778.1038952.15212765165405093340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 24 Nov 2024 17:54:37 -0000
+Message-Id: <173247087785.1040440.7954249450203936228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/linus-next
-    old: b17c8bd7dd449757dbea2943a2c8e7fc85ab06ff
-    new: 9e57545aa2113fb20ca704e39a62e95f4d66b4f1
+  - ref: refs/heads/fixes-togreg
+    old: 263135aa59644e06cde8298ec27457b616d44cad
+    new: f5a0ea554ca9d1b27e6338d61c9f38ea6f4be8fe
     log: |
-         f89d17ae2ac42931be2a0153fecbf8533280c927 fbdev: sh7760fb: Fix a possible memory leak in sh7760fb_alloc_mem()
-         8d7493133bfd89322349be3daaf39a256e4354ac fbdev: omapfb: Remove some deadcode
-         9e57545aa2113fb20ca704e39a62e95f4d66b4f1 Merge tag 'fbdev-for-6.13-rc1' of http://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev into linus-next
+         975db44dd4f54a8568e9ad3e3e02c40f0ea8d677 iio: adc: stm32-dfsdm: handle label as an optional property
+         f5a0ea554ca9d1b27e6338d61c9f38ea6f4be8fe iio: adc: ti-ads1298: Add NULL check in ads1298_init
          
