@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 24 Nov 2024 17:54:37 -0000
-Message-Id: <173247087785.1040440.7954249450203936228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 24 Nov 2024 18:49:48 -0000
+Message-Id: <173247418898.1082366.17195322250093352839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 263135aa59644e06cde8298ec27457b616d44cad
-    new: f5a0ea554ca9d1b27e6338d61c9f38ea6f4be8fe
+  - ref: refs/heads/master
+    old: ee4225bbd36a837a099df5c3492557a597468502
+    new: c6a0d1feb54f5ca8f825bef6d4e2bdaa0aca0b71
     log: |
-         975db44dd4f54a8568e9ad3e3e02c40f0ea8d677 iio: adc: stm32-dfsdm: handle label as an optional property
-         f5a0ea554ca9d1b27e6338d61c9f38ea6f4be8fe iio: adc: ti-ads1298: Add NULL check in ads1298_init
+         e88c710b294d897ec9baeff4d0d9828256f13a76 hkml_view: Add {git, lore}-style coloring for text
+         c6a0d1feb54f5ca8f825bef6d4e2bdaa0aca0b71 hkml_init: Fix manifest initialization typo
          
