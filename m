@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 24 Nov 2024 10:08:32 -0000
-Message-Id: <173244291244.671587.499207350843724676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 24 Nov 2024 10:08:42 -0000
+Message-Id: <173244292293.671915.4131361971051205330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 6d297b2cee5ac5419105a2b5d67f365ebcbb25f1
-    new: cd998652d3c4e4bfb68553e33ab1c2e49a736f2c
-    log: |
-         cd998652d3c4e4bfb68553e33ab1c2e49a736f2c foo
-         
+  - ref: refs/heads/kvm-arm64/nv-gic
+    old: 0000000000000000000000000000000000000000
+    new: f02c94e64607418b939b5660440a826b405e383d
