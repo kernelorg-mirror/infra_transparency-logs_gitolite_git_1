@@ -1,166 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============2266918418264373832=="
+Content-Type: multipart/mixed; boundary="===============4564801798857515106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sun, 24 Nov 2024 11:03:18 -0000
-Message-Id: <173244619842.717259.11355259326057861718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sun, 24 Nov 2024 12:03:56 -0000
+Message-Id: <173244983696.763866.4571574212824539490@gitolite.kernel.org>
 
---===============2266918418264373832==
+--===============4564801798857515106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/b4/b4-sysfs-const-bin_attr-cb
-    old: 63ff0d02919ad1570933dcec3c50e1eaecec8ee9
-    new: 6f8dc678557864c0f850a774caa0c7dd4cda89fd
-    log: revlist-63ff0d02919a-6f8dc6785578.txt
+  - ref: refs/heads/linus-next
+    old: 9806ff9509cb2d7dffaaa926dfbcbc5b46acf1d9
+    new: abd04a3e93dd39a4da86bef1019e83ac2771ed50
+    log: revlist-9806ff9509cb-abd04a3e93dd.txt
 
---===============2266918418264373832==
+--===============4564801798857515106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63ff0d02919a-6f8dc6785578.txt
+Content-Disposition: attachment; filename=revlist-9806ff9509cb-abd04a3e93dd.txt
 
-c47fb3d81d952892ccb00dc7714c363955e20eba powerpc
-f5755fa563891431dd8942e4d365d5b73fddd599 s390
-bd62e25159261f4ff8fe746eda8dfce5b0ac0437 cxl
-29127e6dde4b6a90a1228992419e4ae15192352c cbmem
-1a3e8c2956c8cab0cc2a8fbf8c4ea8ca4854ab1a mtd
-00b33b75d14ebd4932abc2822bc5102ed8a3f24e i2c
-fc18caa3a539ebbd179e884ecb5a31b27b25895d input
-536a7db7e0854c446007a7b1a18538835c589906 hwmon
-1e24564f43c5474e0069ae42f75ed995d6f4c1a1 infiniband
-431065497d254f53457a9088593e9f39dc363100 iio
-73dcde219dd0ae69ab3664b4af11ed3ce8d2c84d c2port bin_size
-b15fc8b74d831b04efd28c4b88eecdb1b2d44228 c2port class
-dafce975ce4a95b67c2fdbce7353d74fd3b981b6 eeprom
-9aec9f9ab3d27c398635f6e976fe389798d2f19d esas2r
-b17854c6ab2ce4f517c6c7a4f820655cee291155 hid roccat arvo
-32a97ef271858513386191e70cbfb7b3569bbdab hid roccat isku
-3baef16be40bbf778084fee8ce405dbd1d66240b roccat kone
-bf3f55358846743d1c0f94c93bc9e11ae30f46aa hid roccat koneplus
-27c2af4c72127c578b68c017cd1bf2081d8cc3c7 hid roccat kovaplus
-9f91b2234c17f3e60718e793fd89459ae0821c09 hid roccat lua
-6dd5b6586e9de01d3fa7d6b98293331944eae1f2 hid roccat pyro
-9fdde6c51016c0a6cdafed1e39a921b5821e6fab hid roccat common
-47bf79fc7adfc4c63c5d73ec475c27df871337f3 hid core
-c0642f05467c457111e8a425004d357d56abaf1e amdgpu psp macro
-432fc40d44cf3ae9b2ef197d886ab410bafea53f amdgpu psp
-4c7ca34308bed8744054fcd56e3e7f5fff56e586 drm edid macro
-1c7bbffb620c904e42f4c4f0af18ba3babed0ecd drm
-241a0dc6be657e7fa387d3330778c3cc0645ea35 nvmem
-e16a9f1beb84e842f9659a9bdabdae570f79ac47 p2pdma
-3b16cc9a402a1d8c33367b6f94a44c858d55f893 devcoredump macro
-243ac23a8023bacc48209c117124e9e3a6cf2f60 devcoredump
-b76d9a4e3a09babdd58a0e2cf8f9b24282d787df firmware loader macro
-d6680e21cc187157c0545f6ea10065c9b074195e firmware_loader
-e30ee4fa510b6717837cafa3e6a79669befa10f1 scsi macro
-ed052239873445bf8d6d7f63dd6f9dfae015cd37 scsi
-67d99ecc346d5407c797aedde527cc961ea33c69 x86
-0db024731ddff713bc956fb6722d7cc998962d9f module 1
-a3dcbc26dc615b9320796302b636d471a85256a1 acpi
-c5cd7ae9764e970568d8d26ab38b4b238aa3006d acpi
-28e4306847b60f6992f2a1be797d232d34fab92c zorro macro
-7fe1aa5f7c0bec43bee5a4d657d6fcd95e45227c zorro
-ba25b7a535cfdbbfc83bef0fd861688bfe159e57 w1 dedup
-8161cc6c515211b641ac872d7ec0e2e79f9b5693 w1 macro
-09f64b78b00880b7278364fd0c2a90427e0d69fe w1 const
-6cfdafa6e4c6d601225a7e45c3247f63810a37ba habanalabs macro
-37e3cf1b9a127e805973de16c6af7c8bea83e0a5 habanalabs
-2cf962c5428a9b1dfd27f73058b47b72a238a965 rapidio macro
-1d3cac95f9a41589b0aa60caa3026684a3a07487 rapidio
-1b0dd1ad43cf4a09866478baf19f9cfe39b9371c psy: ds2780: macro
-146398161f437a3dd5ded9ba265f00dae5cd2f4e psy: ds2780
-3f1908c5aaa6e37916761d59fc56f5aa4c63308a psy: 2781: macro
-d5aacdc8c5b667292a3ffddea68cb33f71a442fc psy: ds2781
-763e66c06bf4b99654e72a3c32910dc2d478b612 psy: olpc: macro
-33c33170711c1c577e176b4ee0789b02b8e12565 psy: olpc
-abcdc51cb1a25362ac0c5b433a3270f45e03e738 opal-core: macro
-2fef8bcb85fee8ac7e256ea049993d0377126e01 opal-core
-f7512f52e0afb52b5d73814a0597efc86432bb08 kheaders
-9ca9189fdbe4033a30b1505dd8b1324bec179d97 module
-d224ec6ffb9ccf3551f0af83e1546510775c11b6 pci
-5b1400779b1c764149e60c93a8c2f693225afa5a apci macro
-3b1e688447e5db7f6dc0e87cd350e20439a456cd pci
-d057c2c560af112bd59ca752ce626099d3cf9733 bridge
-0166caa3585671b05f9fe787f0b0beee50720dfb pch_phub macro
-ae0dd4cd99eddd86498efa718f73be4cfd27703a pch_phub
-a02fdcd81ec5f1e4fc5d136a64b0dcadb8b77846 sram
-4b4b1534ee9ecc959d675dafad6177fcf6c761d6 max6875 macro
-674bee47c03e77e6be9eb71cf16b89a04fe02ece max6875
-19bd2ae1a598710a4550241bd7386735481e9260 ds1682 macro
-50e52e2c04c1a73aa854d047bb9be26ec266e5b8 ds1682
-ab4f1d3b755535f054fc0689163cea076fddf6d7 lpfc macro
-4961d18f03527725be4f27ff6115bd4d1dbe7500 lpfc
-d9d2c8d9ecaca1b17361e15995fcb42d47dcd1f6 amdgpu psp
-fec48ff41683b789cbcd2b89af49df8b9c516374 fwlog macro
-d80e5f96490c8c7b1e745d3e5f4e865e6857770e fwlog
-0a69487b64776444a950f7b222747c93d3938047 wmi-bmof
-902882ef3ab0af82ac2e75e98ab719979e46c341 lima macro
-91498dc055f1aad5e6942f6198d094c85d9972b8 lima
-178d4a6e372042a732491447711064351a61ba1b amdgpu_hdcp
-6c2dcaf47c4715d8ea7cc4fc0170487187ab942c udlfb perms
-1965a488e0170bf282d59cc166b83edbe3042055 udlfb macro
-a8986442154b65555221ac4db20388eac11ca439 udlfb
-c88ebd58a28d5cfbb3bee5a5862f57f7a3d81dc3 radeon macro
-add0370990d97ed78376d95cdb426f5eb19f9f11 radeon
-7d537729487a2e106d0eca21eafc601b9c3cf560 acpi
-bd93e64064c2433597c53cba9864a076c2ae49c1 i915 1
-1302f6a04e2aaf5fae830b00f902ff9998584647 i915 2 macro
-7de886f0a6dac7c106d77ddb59410313af8948d3 i915 2
-ef6ddb3398fda2e1f8564efaad502f4fa1dc063d 3w-sas
-3f85c20f2b09e8454f8e0b20ea0a428a93934ec7 scsi/ipr macro
-8e6b0fa42c183ad483a75e12473add4e42ac7c5d scsi/ipr
-001b5c6606d0f8a9179d63e7b01e5a8928751c05 qedf macro
-27101ac89bd9549f675a1d62527717a0e2fcdcb1 qedf
-cf92511e03e2c183dc4f7a09f32f3666e9e9e03c qedf 2
-cc42bb2dd9b829debb052ffb25ebfaa92ef5fbd4 arcmsr macro
-5736962d9aed006989ea0a5766b435072aa1e294 arcmsr
-befc41b037450b9ed21b039f8a59c20b7b4af925 qla2xxx macro
-36a75b673a41b48e950d2ee3d1f6b7973cd9a2a7 qla2xxx
-6004cf08dcdadbdd7f7dff4fbef589f0f8bd8d76 qla4xxx macro
-7a10efc46e93a8a44b3850379ddf923c6089a9fd qla4xxx
-d9c9ce1cc92cdd256f90a40fe8965534f6eec1cd ks8995 macro
-54f0d73ab47ad4580ad4fd295d406c37fa329b8c ks8995
-19f9d20916fbd9faacccba1c0e7893d71b1474c9 qlcnic macro
-8caf52e07477ca6cb9c1a89ecfc83069783b4c0b qlcnic
-72ba1dcdac0842c8f3f85b13a91f186581cce309 netxen macro
-0845abedb55579033fe221b8c5f8804243c6dc47 i2c eeprom
-1510b6a40edff0437d8ce58281b4eea73aae4869 solo6x10
-aecb2c710a32e4ad9126e37cf0af63f0fdaa13f6 gsmi macro
-ff03f3e58dc502d3fb5f7b08d6fd52bb0006db40 gsmi
-ca10c5ba309809a6074c974ca106930b764b48d0 memconsole macro
-a3ee249cdb8dcfc4b680a5e976eed70a28e22c7a memconsole
-a1dcc7a8c7ee9b6468b22cf1b2bb29a009482090 google/vpd
-30ce048cbb881cb2b6e35c788e4ac04c7a83d1f4 movar
-a2470310ad8657c11efd62966e196e66245ca11e dmi macro
-3c9723e77562d10e3bd490e2e9530c6f290076d7 dmi
-4d5a044f17f10f168f8f7d39505c836159cf8601 qemu macro
-9664334e61b6d049df844265b630256819a5e54a qemu
-2d90fe02f511a290abde57764273d54b23f56b8b amd/hsmp
-0b0be3ed4f729e595af6f39c46530ee59472f0bf intel/pmt
-ca28f85ca2c81421f266d0eb299e563cff5943af cistpl macro
-b7e9086c1886fad50c85b4851c58a2c86a21ef54 cistpl
-539195e7416de2959a7c78066beb7f8d248280cc fsi macro
-4757ab0842df073116d046a809f427263e3545bf fsi
-262d6ad64a91b689fbf1b9edb550fb10139b74ef sclp_sd
-b81039333cbe20b75a90022a5f08240638ff1fbd sclp 2 macro
-79d30888c892e73f9f74256826fed64d47cee246 sclp 2
-139cf9af1b2f7d339cc90062c5e4cde5f420cb36 bpf mod\ simple
-743dec660495f03a96a761a702991475bc4b10a3 bpf vmlinux\ simple
-f4cc41fa73d811a7e014a7cd00136f2e9dc5c06c cxl
-ddd045527999f607e516c61f7c58baf4f82b6f7d ocxl
-812f61cfd3d710dd9f6f436d573777d42f7fd48f ibmvscsi
-f094745c4f3bc417125f035f1ab7ec80dc7c223d mlxbf macro
-6be37bf3a05ffa23d40695328439d3472d5a48d3 mlxbf
-502c90d53915978e72c593f82c11eea4ce78483c powernv
-ee936cbdf451f7c4ae953b56e3723593c115d109 ===== After all handlers
-5eda2af8b5cac3b464c1f7f1ecd35a334e2a6297 read/write
-6f8dc678557864c0f850a774caa0c7dd4cda89fd bin_attrs
+cedcf08f43dab0bf27e7a4e9bc82f27ccf89241d ocfs2: remove unused declaration in header file
+5c50b3b8cfefbe306f2b348eec0663b458d70221 ocfs2: fix typo in comment
+6efbd5ddb6af0408301b4c15b413e6425c7650b2 kexec/crash: no crash update when kexec in progress
+838010180241f5a9779a9ef9a621cdd2842f7354 kernel/watchdog: always restore watchdog_softlockup(,hardlockup)_user_enabled after proc show
+5c1edea773c98707fbb23d1df168bcff52f61e4b resource: replace open coded resource_intersection()
+ba1eccc114ffc62c4495a5e15659190fa2c42308 resource: introduce is_type_match() helper and use it
+9357bf5e66660cf56da44905ff2b158056bc6087 scripts/spelling.txt: add more spellings corrections
+f9a4d8930f272fd76edc1f76062b5ca316bda25d ipc/msg: replace one-element array with flexible array member
+4cc0473d7754d387680bdf0728eb29f0ec8834bf get rid of __get_task_comm()
+286d7a54c8a2f124337a91235199585a35822d94 auditsc: replace memcpy() with strscpy()
+d4ee4ac395eec1e64f696dbea1de82e90b17127d security: replace memcpy() with get_task_comm()
+d967757d288182522ca263a3d4472101d15a2bfb bpftool: ensure task comm is always NUL-terminated
+44ff630170edd89dcdca8a2552b1317fdcc65e51 mm/util: fix possible race condition in kstrdup()
+43731516facc3257b514e5c45ae80664b28d3ca3 mm/util: deduplicate code in {kstrdup,kstrndup,kmemdup_nul}
+3240aadaccc15d781d1669965ccad230a8c4a175 drm: replace strcpy() with strscpy()
+b42166427b46af0d963242283fc99d429623d303 lib/Kconfig.debug: move int_pow test option to runtime testing section
+5a3c9366cbbf876521f570ce1fb525dc2cb0ed5c list: test: check the size of every lists for list_cut_position*()
+834b251b1db6b88b9364955196e5e32746e5ccc7 resource: correct reallocate_resource() documentation
+f2fa0fd4e7db8326a77618962714924b64f5f889 reboot: move reboot_notifier_list to kernel/reboot.c
+a9d38bcd7337f051912174ebfc500e1cef73982e scatterlist: fix a typo
+5d042707089f0d0c49473d05250e4f319a71e1df lib/crc16_kunit.c: add KUnit tests for crc16
+8801c35c3672c8492824f5d3c4d3b37f43ed63c3 tools: fix -Wunused-result in linux.c
+bf9850f6ea3577a099b0ed43f6e19ca43ef08704 lib/Makefile: make union-find compilation conditional on CONFIG_CPUSETS
+1bb5d6609767b631526a95446198e5f436159bea scripts/decode_stacktrace.sh: remove trailing space
+ad8f63f935b6785c87681d35b9408f5ecd5db967 perf/hw_breakpoint: use ERR_PTR_PCPU(), IS_ERR_PCPU() and PTR_ERR_PCPU() macros
+f3adb88e6c0b50e18dab3d58b1d6c5abd35dfcf7 scripts/spelling.txt: add typo "exprienced" and "rewritting"
+bc8f5921cd69188627c08041276238de222ab466 ipc: fix memleak if msg_init_ns failed in create_ipc_ns
+908ef9bb4bd36837c3619109bdcf58f6ab00bfc7 lib/list_sort: remove unnecessary header includes
+ff1a39c3f86c4d998630645f6778a622a993fb8b tools/lib/list_sort: remove unnecessary header includes
+8f0d91f41000e769f16b62a4b44f1f6da6db905b perf tools: update expected diff for lib/list_sort.c
+74ef070e325465a1b364db6a5c6859785537f835 percpu: merge VERIFY_PERCPU_PTR() into its only user
+001217defda86d0d6a5a9e6cf77a6b813857e7e3 percpu: introduce PERCPU_PTR() macro
+dabddd687c9e1a06241d6b4d1f66b9f2b60b3ad1 percpu: cast percpu pointer in PERCPU_PTR() via unsigned long
+92a8b224b833e82d286d2100432adbac8cf8a2a1 lib/min_heap: introduce non-inline versions of min heap API functions
+aa5888afc2347ebb394c2c4b694fa3026775009e lib min_heap: optimize min heap by prescaling counters for better performance
+03ec56d084611b5a4dc06ffa74db0928616e4d7f lib min_heap: avoid indirect function call by providing default swap
+d559bb2c6deea1fb4650b8a784b27e87ea12f71d lib/test_min_heap: update min_heap_callbacks to use default builtin swap
+083ad2871a8bbaf404b97eaa5e713e427e229f6b perf/core: update min_heap_callbacks to use default builtin swap
+d6844302074aac634afd00c4b70a1e1249afeff3 dm vdo: update min_heap_callbacks to use default builtin swap
+3d8a9a1c35227c3f1b0bd132c9f0a80dbda07b65 bcache: update min_heap_callbacks to use default builtin swap
+06ce25145bb864e5d948c4bc7e35bdb460a4e597 bcachefs: clean up duplicate min_heap_callbacks declarations
+75e849f3d0972e28d53fcfb540593c699a61c095 bcachefs: update min_heap_callbacks to use default builtin swap
+ec7c2bda802191241940e333fb199edf4b9ea67c Documentation/core-api: add min heap API introduction
+3ad563b1371b95f40b045b3bfa82848174e32a4c MAINTAINERS: add entry for min heap library code
+25f12e46a0e05f5f75fd434e8098564e6f6793a5 nilfs2: convert segment buffer to be folio-based
+4fd0a096f46887822b1138677510980fe03c002b nilfs2: convert common metadata file code to be folio-based
+832acfe6ea0365524a35df1e9b1d7350ed9ea5f5 nilfs2: convert segment usage file to be folio-based
+21cf934eed5c82994ce570b43b3a3ed049e4275a nilfs2: convert persistent object allocator to be folio-based
+f99de3d5703a92cc18a9a95995b99b8401331bf7 nilfs2: convert inode file to be folio-based
+aac6925e20e0e9476bc906f6bd83b6c508430d5a nilfs2: convert DAT file to be folio-based
+cdee17960f67d1dad0738ef3ae9f1a63d3c92138 nilfs2: remove nilfs_palloc_block_get_entry()
+a6cb5b1e9c707c3a43ede691c7faee45e796458b nilfs2: convert checkpoint file to be folio-based
+310293201ed242e466b0e9f10f53b4a4abccffec nilfs2: remove nilfs_writepage
+c1d73eb8d06003e7714cd3ce1d0d79832e59b1e9 nilfs2: convert nilfs_page_count_clean_buffers() to take a folio
+b18d78dec38e0ccd06e968396388eadea1da1c4e nilfs2: convert nilfs_recovery_copy_block() to take a folio
+013a07052a1a02d6d8bebf84ad3a8cb483292da7 nilfs2: convert metadata aops from writepage to writepages
+2f07b652384969f5d0b317e1daa5f2eb967bc73d checkpatch: always parse orig_commit in fixes tag
+e01caa2b63c88c64ee90b83a92a584ec90feeda5 lib/scatterlist: use sg_phys() helper
+b5e60497a4b7f0b295c4c59b202cf4703b27062b ocfs2: cluster: fix a typo
+77e94b0496ef39b759f23b4ece8c434a4b5c2e47 ocfs2: remove unused errmsg function and table
+d7ce9c73da54a096311edbf4688b78b179dd79bc resource: avoid unnecessary resource tree walking in __region_intersects()
+82e33f249f1126cf3c5f39a31b850d485ac33bc3 fs/proc/kcore.c: fix coccinelle reported ERROR instances
+777620b890d783c6575f172041f390c4c075b666 dma-buf: use atomic64_inc_return() in dma_buf_getfile()
+03ecb24db20e78c478b9b7c0ec767bfdc053ecd4 hung_task: add detect count for hung tasks
+62bf7065cc6056a51a240c810b95d887e5bb7c8c hung_task: add docs for hung_task_detect_count
+adc77b19f62d7e80f98400b2fca9d700d2afdd6f ocfs2: fix uninitialized value in ocfs2_file_read_iter()
+a7306f3c283bfe03611229bb6280987aae2af8f9 Improve consistency of '#error' directive messages
+bc73b4186736341ab5cd2c199da82db6e1134e13 util_macros.h: fix/rework find_closest() macros
+111314157f7891da7a51a8f95df42eeb22f4268a lib: util_macros_kunit: add kunit test for util_macros.h
+45dac1959bbdc498a2abb89919221455225789dc kernel/reboot: replace sprintf() with sysfs_emit()
+2c259a91d8d23a8266092b0dd51b8092877717a4 gdb: lx-symbols: do not error out on monolithic build
+abd04a3e93dd39a4da86bef1019e83ac2771ed50 Merge tag 'mm-nonmm-stable-2024-11-24-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm into linus-next
 
---===============2266918418264373832==--
+--===============4564801798857515106==--
