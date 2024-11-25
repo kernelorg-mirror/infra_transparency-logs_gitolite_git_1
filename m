@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 25 Nov 2024 15:32:48 -0000
-Message-Id: <173254876874.2111990.17245996387418386184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/next-analysis
+Date: Mon, 25 Nov 2024 15:46:33 -0000
+Message-Id: <173254959304.2123618.15018829866350450294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/joel.granados/next-analysis
+user: joel.granados
 changes:
-  - ref: refs/tags/v6.12
+  - ref: refs/heads/jag/master
     old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
+    new: ccf596da3a629333534e8b2f6dc5f2ba3ae1e65a
