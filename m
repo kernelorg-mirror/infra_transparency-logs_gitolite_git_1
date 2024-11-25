@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 25 Nov 2024 05:54:28 -0000
-Message-Id: <173251406875.1625679.7543928320994266341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 25 Nov 2024 05:55:23 -0000
+Message-Id: <173251412357.1628429.12062472928021586007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/todo
-    old: 99deada7c62231ac579881f48490a9fa95e45a0b
-    new: 58804758837d07e54bd097447be8023ef5d137ee
+  - ref: refs/heads/uaccess-hardening-2
+    old: 4ad87915543398ef3aacbbece2f72cd0b644ec8d
+    new: 94875b72da986f998cdcfc2eec3350132ed81749
     log: |
-         d55cb7b87054f3f000929624fd598ee057f5b83f MaintNotes: gitk has new maintainer
-         58804758837d07e54bd097447be8023ef5d137ee What's cooking (2024/11 #09)
+         94875b72da986f998cdcfc2eec3350132ed81749 x86/uaccess: Avoid barrier_nospec() in 64-bit __get_user()
          
