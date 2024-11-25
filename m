@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 25 Nov 2024 04:39:25 -0000
-Message-Id: <173250956593.1563556.18266975403749255007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 25 Nov 2024 04:46:31 -0000
+Message-Id: <173250999159.1570612.16265743231367243336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/v4l2-loopback-dev
-    old: d1b3afb98d45d1dfbe8586f9cb0c2756c2482a36
-    new: 281f5f38da424f3badf202af1d49601d6ab8e2cc
+  - ref: refs/heads/master
+    old: cd998652d3c4e4bfb68553e33ab1c2e49a736f2c
+    new: de7350bd4e6ad9be1673ce471fe47a48825b5092
     log: |
-         281f5f38da424f3badf202af1d49601d6ab8e2cc media: v4l2-loopback: Open code free_devices()
+         de7350bd4e6ad9be1673ce471fe47a48825b5092 foo
          
