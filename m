@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6114578805806904720=="
+Content-Type: multipart/mixed; boundary="===============4626008595797352554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 25 Nov 2024 21:59:10 -0000
-Message-Id: <173257195085.2427206.14642310869525962332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 25 Nov 2024 22:03:22 -0000
+Message-Id: <173257220266.2431165.6066738159509185882@gitolite.kernel.org>
 
---===============6114578805806904720==
+--===============4626008595797352554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 17bb91551ee98aaaf48339a08d0541919ebf54b7
-    new: 65c876ed72615f41551ce32c739577c3dc5e0f3a
-    log: |
-         65c876ed72615f41551ce32c739577c3dc5e0f3a add .dyad files for new entries
-         
+  - ref: refs/heads/main
+    old: fcc79e1714e8c2b8e216dc3149812edd37884eef
+    new: 9bb88c659673003453fd42e0ddf95c9628409094
+    log: revlist-fcc79e1714e8-9bb88c659673.txt
 
---===============6114578805806904720==
+--===============4626008595797352554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fcc79e1714e8-9bb88c659673.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732571950 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1732571947-8c7c30e1d51f6fc80ec713cee7ecb6c8b0c4ca3d
+f26a29a038ee3982099e867bec2260576a19720f net: phy: ensure that genphy_c45_an_config_eee_aneg() sees new value of phydev->eee_cfg.eee_enabled
+03819abbeb11117dcbba40bfe322b88c0c88a6b6 net: usb: lan78xx: Fix double free issue with interrupt buffer allocation
+ae7370e61c5d8f5bcefc2d4fca724bd4e9bbf789 net: usb: lan78xx: Fix memory leak on device unplug by freeing PHY device
+078f644cb81b78afdfbc42b9cc2c11959f2ed65c selftests: fix nested double quotes in f-string
+9b234a97b10cf1385d451a3824539b774abbcdaf rtnetlink: fix rtnl_dump_ifinfo() error path
+614f4d166eeeb9bd709b0ad29552f691c0f45776 tg3: Set coherent DMA mask bits to 31 for BCM57766 chipsets
+e863ff806f72098bccaf8fa89c80d9ad6187c3b0 net: usb: lan78xx: Fix refcounting and autosuspend on invalid WoL configuration
+f164b296638d1eb1fb1c537e93ab5c8b49966546 net: microchip: vcap: Add typegroup table terminators in kunit tests
+3bf39fa849ab8ed52abb6715922e6102d3df9f97 netlink: fix false positive warning in extack during dumps
+9bb88c659673003453fd42e0ddf95c9628409094 selftests: net: test extacks in netlink dumps
 
-17bb91551ee98aaaf48339a08d0541919ebf54b7 65c876ed72615f41551ce32c739577c3dc5e0f3a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdE8y4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgMP/i7xFWu6dgTxc2vQSiSe
-B6nCl8p/xTz8cky9sI2Ms84nzmoqZSmVbHvlGIhcYyr+RiADXLc02Yb+D8/GDq1q
-KgRrMutYdzB5+S2UAOeXBEhEqk0VL5MkOW3ue8Z3z+PUKZvy/43NNIlUaVAspsgk
-oqmIbcBHxSnbmBBQ6qQjBmQAzGMQ458/vkdS7UWEQD/L7lrH7VnXEdc4NWWCVzZ5
-k7WWCWj9Xx1LZIiXDfLgOqHDEkT/RVKiuymCIBmogfVXU3ms1VZW39RItWivG9B4
-Es1GG1J4ES/fOpJYGeK3eoct30gRlng89hvtyJ6um/PuuCbAlPOWmH6AIXd7e6EZ
-wzxkbWXFw4R2altvcJtxKZt7ZRcuEupPkNa0PafO+EkSVnOIhr5wHJo2mXJlepfv
-7zBRZUA2L6RTG/ZiQ/S6aKrGSLDm4DJuhKhVycMoXKxGikBomXeD1nLR2Kv/qR0O
-rRuatX2u89Fwnqf+b/FwrCwgvRbwO7VZ+8SeeE6c4WDinPICWjsYfETIZNAf8kqJ
-yposnM2beowsTCzG9uqpr2zNjJc5n+AtM3ATaodRq37CWj+kdXjymjgsw6vMybsq
-TmtecXBNBvYfRzWlJtQKKbpoDZSX+qV1llhYhpOabaHmrYstcW+9lvKsiu/JSgts
-xflOTkDbEQ6OkR0JSJxb411S
-=MiFq
------END PGP SIGNATURE-----
-
---===============6114578805806904720==--
+--===============4626008595797352554==--
