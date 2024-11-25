@@ -1,29 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 25 Nov 2024 14:35:23 -0000
-Message-Id: <173254532310.2066254.5739469285095269219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 25 Nov 2024 14:48:33 -0000
+Message-Id: <173254611305.2075412.4336860204458003330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/objtool/core
-    old: 174c7be160d72135939adc7fc82c57d68c7ea48a
-    new: a5091c456d5d4e22f5729d7600080b18a37f10a2
+  - ref: refs/heads/for-linus
+    old: 9d5ce1aa91db1b9dec9e06128b1ba241aeb004c2
+    new: a3dd4d63eeb452cfb064a13862fb376ab108f6a6
     log: |
-         e5e188afbabadf366e4b1144f4e3674f6a5937c3 objtool: Generic annotation infrastructure
-         f4b16a1d266666624331222f640e9de652bc1dd4 objtool: Convert ANNOTATE_NOENDBR to ANNOTATE
-         066bfe2dc3d6859fc66929c81b49f218f90110b4 objtool: Convert ANNOTATE_RETPOLINE_SAFE to ANNOTATE
-         b9d2e96c090f68c89616279c226e7b35a5dc317a objtool: Convert instrumentation_{begin,end}() to ANNOTATE
-         dd10e657c9bf64ece67e56608826659d969dc51a objtool: Convert VALIDATE_UNRET_BEGIN to ANNOTATE
-         7758d46dd98b75264f0d37f17c001d33b8a3abb5 objtool: Convert ANNOTATE_IGNORE_ALTERNATIVE to ANNOTATE
-         849cba8f69d5192587cae2ed9a84d460a5b42313 objtool: Convert ANNOTATE_INTRA_FUNCTION_CALLS to ANNOTATE
-         50f98e841fa33927da1b19138a62e600bde54a59 objtool: Collapse annotate sequences
-         610aed45c9b31a1a82973fd1df672dcd111834b4 objtool: Collect more annotations in objtool.h
-         c8c3c26f8472d8f4c42efd523f2abed1f52e5653 compiler: Move unreachable() into its own header
-         a5091c456d5d4e22f5729d7600080b18a37f10a2 objtool: Convert {.UN}REACHABLE to ANNOTATE
+         5ebe792a5139f1ce6e4aed22bef12e7e2660df96 ALSA: hda/realtek: Fix Internal Speaker and Mic boost of Infinix Y4 Max
+         20c0c49720dc4e205d4c1d64add56a5043c5ec5f ALSA: rawmidi: Fix kvfree() call in spinlock
+         a3dd4d63eeb452cfb064a13862fb376ab108f6a6 ALSA: usb-audio: Fix out of bounds reads when finding clock sources
+         
+  - ref: refs/heads/for-next
+    old: 9d5ce1aa91db1b9dec9e06128b1ba241aeb004c2
+    new: 5ebe792a5139f1ce6e4aed22bef12e7e2660df96
+    log: |
+         5ebe792a5139f1ce6e4aed22bef12e7e2660df96 ALSA: hda/realtek: Fix Internal Speaker and Mic boost of Infinix Y4 Max
+         
+  - ref: refs/heads/master
+    old: 2bb40a1c76ffd986bfa50685710dd91075f9dfe0
+    new: 95e48684d05b9fbf6f083eb201c265f95a6cfe04
+    log: |
+         5ebe792a5139f1ce6e4aed22bef12e7e2660df96 ALSA: hda/realtek: Fix Internal Speaker and Mic boost of Infinix Y4 Max
+         3aab0c163f95166d4b227db5b5cc75f78ea311fc Merge branch 'for-linus'
+         20c0c49720dc4e205d4c1d64add56a5043c5ec5f ALSA: rawmidi: Fix kvfree() call in spinlock
+         a3dd4d63eeb452cfb064a13862fb376ab108f6a6 ALSA: usb-audio: Fix out of bounds reads when finding clock sources
+         95e48684d05b9fbf6f083eb201c265f95a6cfe04 Merge branch 'for-linus'
          
