@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7318470710811365567=="
+Content-Type: multipart/mixed; boundary="===============4466909772933498954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 25 Nov 2024 22:05:39 -0000
-Message-Id: <173257233941.2434641.12798151180699650580@gitolite.kernel.org>
+Date: Mon, 25 Nov 2024 22:05:41 -0000
+Message-Id: <173257234178.2434785.314459702048925554@gitolite.kernel.org>
 
---===============7318470710811365567==
+--===============4466909772933498954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: fcc79e1714e8c2b8e216dc3149812edd37884eef
     new: 9bb88c659673003453fd42e0ddf95c9628409094
     log: revlist-fcc79e1714e8-9bb88c659673.txt
 
---===============7318470710811365567==
+--===============4466909772933498954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ f164b296638d1eb1fb1c537e93ab5c8b49966546 net: microchip: vcap: Add typegroup tab
 3bf39fa849ab8ed52abb6715922e6102d3df9f97 netlink: fix false positive warning in extack during dumps
 9bb88c659673003453fd42e0ddf95c9628409094 selftests: net: test extacks in netlink dumps
 
---===============7318470710811365567==--
+--===============4466909772933498954==--
