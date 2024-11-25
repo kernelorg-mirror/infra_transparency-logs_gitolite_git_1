@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 25 Nov 2024 18:49:56 -0000
-Message-Id: <173256059642.2272103.4272344630342234015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Mon, 25 Nov 2024 18:58:32 -0000
+Message-Id: <173256111245.2279020.17774921905047863304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/tags/pci-v6.13-changes
-    old: 496f38f5711a2add663074dc029f93c4a1c769ee
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 9b2f6b94132d14b1d2d2a7d3b65bac4f3a056aac
+    new: 54eba3e912488b950e9af507aaaa6b0dc022b0ee
+    log: |
+         54eba3e912488b950e9af507aaaa6b0dc022b0ee rxclass: Make output for RSS context action explicit
+         
