@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Mon, 25 Nov 2024 18:38:12 -0000
-Message-Id: <173255989295.2262703.8552170355759389461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 25 Nov 2024 18:49:56 -0000
+Message-Id: <173256059642.2272103.4272344630342234015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 27723dc20f9c365cc818ceacce49f4c7adf7b277
-    new: 975cd94c34d3c08d0ce8a7ba4b49a3aa3d84e06a
-    log: |
-         975cd94c34d3c08d0ce8a7ba4b49a3aa3d84e06a TODO: add item to support --dim_old suggestion for cached list
-         
+  - ref: refs/tags/pci-v6.13-changes
+    old: 496f38f5711a2add663074dc029f93c4a1c769ee
+    new: 0000000000000000000000000000000000000000
