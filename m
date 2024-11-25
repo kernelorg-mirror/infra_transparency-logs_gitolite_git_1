@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Nov 2024 20:44:11 -0000
-Message-Id: <173256745168.2368014.4018504783739960218@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1811712680962550306=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 25 Nov 2024 21:17:54 -0000
+Message-Id: <173256947405.2394704.455007666495508564@gitolite.kernel.org>
+
+--===============1811712680962550306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cb33151e1ddbc0c335a04967ae032776cbf6f786
-    new: d319ed2d7105ddbe7da21a5386e9220e5af8dfec
+    old: c42beb7c7ebf97287434eceb10ee0d29094a3a76
+    new: 8bc0d32049fa474a5b6eb05e4411f101c010fb76
     log: |
-         6e464fa43516c987506aa22b5a7aac3969e6e46f Merge branch into tip/master: 'x86/urgent'
-         115827df2187a1eb847e54e434b70cf66b690e2b Merge branch into tip/master: 'perf/core'
-         d319ed2d7105ddbe7da21a5386e9220e5af8dfec Merge branch into tip/master: 'x86/mm'
+         8bc0d32049fa474a5b6eb05e4411f101c010fb76 assigned CVE-2024-53096 on request
          
-  - ref: refs/heads/tip/urgent
-    old: 8ab2cf4d9124462ac758d763c8de6570291d5597
-    new: 6e464fa43516c987506aa22b5a7aac3969e6e46f
-    log: |
-         be4ca6c53e66cb275cf0d71f32dac0c4606b9dc0 x86/Documentation: Update algo in init_size description of boot protocol
-         6e464fa43516c987506aa22b5a7aac3969e6e46f Merge branch into tip/master: 'x86/urgent'
-         
+
+--===============1811712680962550306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1732569473 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1732569471-108a1b33146b9d66b865ba1ef18983edc1ca1a2b
+
+c42beb7c7ebf97287434eceb10ee0d29094a3a76 8bc0d32049fa474a5b6eb05e4411f101c010fb76 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdE6YEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5GEP+wRqu6Ps4GTQnlR0aJQD
+h7kw0tX8vi+oIsld1p0YTYYsaKN2W9uDhQKlW3+ubGnkjfkv1/pgri9d0zVEI7/3
+E9q9SBeFD7ClYroXugVDHYoZ+uYilFLFIGyFjoI/6KeFwH5LMq+PTZIYajRJ22F3
+FodIACc0xY49A0EFHWNmoKYhvW9wYYcTv6XqNKy2bMw+Nefz/9cNjZwoQ8ERdSln
+cdzU36ruN4pImzzOtM2Raij7RBq6GeHqddTq0Yug24WglM1gxH3YH8/HVxE35Gml
+TjjKGypKnoYNCM4TTH+3an2dfHxTSO02fj3LHoz42uXKMfiswMzMH2H4PoYJ3Nmy
+O3FUEopK40y3AHB3UO3UY6SdocRyS8URQT5HeyILi0ruj7UdocAmnP3I75IclVhQ
+q7gAhA1TXqDr/UKkOXf4J3edlFLtkdMzohf9lbVP7mDKw2jlIrkFwJPnBpl6G6ce
+acFTa14aAAGCLi5tjgz5MDbKRw3mGIzgGEMp5GMB65qynpqsX9igqB61PsUviCmU
+cOs/HbEIMbCsEbW2jVoeEl9GJBs8n4hAucnUzI9gX4grFdvegeuTzpOSzhwtruDB
+gw9FSNGsno1GZbz/xUOBrRq1yilRMkgazWYl9YGjLETEAR/8/VDLdesgPSthn9ei
+lYO/Lz4gzQiKM86EKpTGKBvj
+=qK05
+-----END PGP SIGNATURE-----
+
+--===============1811712680962550306==--
