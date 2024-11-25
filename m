@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 25 Nov 2024 19:52:54 -0000
-Message-Id: <173256437437.2326117.3342896340968958234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Mon, 25 Nov 2024 20:01:12 -0000
+Message-Id: <173256487275.2333617.13467287248366420355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/snitm-kernel-6.12/localio
-    old: d7f98adcf68fbce85a417c3dda74f07f088d944b
-    new: 132630ef1fbb93ace0698044221e68a59d349e1a
+  - ref: refs/heads/master
+    old: 975cd94c34d3c08d0ce8a7ba4b49a3aa3d84e06a
+    new: 236fb09f7d507f3aed312eb12709e62198652113
     log: |
-         aaab85afe41170b5af325c4c00fc4c6ab77b2a02 redhat: various "fixes" to allow building ARK kernel on EL8 buildhost
-         f7957685f98807073161e8eeb035d24924ab03fa Merge tag 'nfsd-and-nfs-for-6.13' into snitm-kernel-6.12/localio
-         977749b5ed09c0d066f11ef0e887c522bea88f93 Merge tag 'nfs-localio-for-6.13.m2' into snitm-kernel-6.12/localio
-         132630ef1fbb93ace0698044221e68a59d349e1a nfs: add dummy definition for nfsd_file
+         236fb09f7d507f3aed312eb12709e62198652113 _hkml: avoid split() on None in-reply-to field from parse_atom()
          
