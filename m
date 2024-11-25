@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 25 Nov 2024 16:42:53 -0000
-Message-Id: <173255297336.2169409.3983882094268041853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Mon, 25 Nov 2024 16:47:11 -0000
+Message-Id: <173255323111.2173454.14341080681226343622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 13216b6903dd7e504863513d59a29a86a92cd763
-    new: c42beb7c7ebf97287434eceb10ee0d29094a3a76
+    old: 1bfc2be0ce96f05536764d6ac230d596aefd8dfa
+    new: 4f2abadf015dd730d9c42a10ca5db6ed3bd6b9d2
     log: |
-         c42beb7c7ebf97287434eceb10ee0d29094a3a76 proposed: Add Lee's v6.11.9 results
+         4f2abadf015dd730d9c42a10ca5db6ed3bd6b9d2 Extend the GNU/Hurd back-end to work on 64-bit systems
          
