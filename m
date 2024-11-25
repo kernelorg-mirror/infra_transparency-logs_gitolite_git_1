@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5912113935315094562=="
+Content-Type: multipart/mixed; boundary="===============5882808851982258928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 25 Nov 2024 08:07:27 -0000
-Message-Id: <173252204761.1750603.17351968304743798340@gitolite.kernel.org>
+Date: Mon, 25 Nov 2024 08:08:43 -0000
+Message-Id: <173252212342.1751277.12256851271618461262@gitolite.kernel.org>
 
---===============5912113935315094562==
+--===============5882808851982258928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 0fc810ae3ae110f9e2fcccce80fc8c8d62f97907
-    new: 9f16d5e6f220661f73b36a4be1b21575651d8833
-    log: revlist-0fc810ae3ae1-9f16d5e6f220.txt
+  - ref: refs/heads/dev
+    old: dcb9daa9934b66ae690085cba06d15a3617e9440
+    new: 8a3f5711ad74db9881b289a6e34d7f3b700df720
+    log: revlist-dcb9daa9934b-8a3f5711ad74.txt
 
---===============5912113935315094562==
+--===============5882808851982258928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fc810ae3ae1-9f16d5e6f220.txt
+Content-Disposition: attachment; filename=revlist-dcb9daa9934b-8a3f5711ad74.txt
 
-f4b295ab65980435d7dc8b12d110387d1d1c653c selftests/bpf: Add tracing prog private stack tests
-5bd36da1e37e7a78e8b38efd287de6e1394b7d6e bpf: Support private stack for struct_ops progs
-becfe32b57c7d323fbd94c1a2c6d7eba918ddde8 selftests/bpf: Add struct_ops prog private stack tests
-c1bc51f85cd6be28a4ec901b358731550a203bb2 Merge branch 'bpf-support-private-stack-for-bpf-progs'
-3387e043918e154ca08d83954966a8b087fe2835 drm/panthor: Fix handling of partial GPU mapping of BOs
-f1b785f4c7870c42330b35522c2514e39a1e28e7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-fae2987e67786a6358c0ef47189b12ff19e9543a cpufreq: maple: Remove maple driver
-be6b0eb5c46d85e360c0ff8bdde1aaa199a8fb6d powerpc/cell: Remove dead extern declaration for spu_priv1_beat_ops
-bd9d9b48eb1814ad761cce45774a18d95c33803c bpf: Remove unused member rcu from bpf_struct_ops_map
-821a3fa32bbe3bc0fa23b3189325d3720a49a24c bpf: Use function pointers count as struct_ops links count
 7c8ce4ffb684676039b1ff9ff81c126794e8d88e bpf: Add kernel symbol for struct_ops trampoline
 faadc69af1ef68f2820fc29c874a42f1da2685f9 Merge branch 'add-kernel-symbol-for-struct_ops-trampoline'
 a1087da9d11e5bcacc706002bc0f84b790881f69 bpf, x86: Propagate tailcall info only for subprogs
@@ -1050,5 +1040,15 @@ e7675238b9bf4db0b872d5dbcd53efa31914c98f Merge tag 'ovl-update-6.13' of git://gi
 5c00ff742bf5caf85f60e1c73999f99376fb865d Merge tag 'mm-stable-2024-11-18-19-27' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 42d9e8b7ccddee75989283cf7477305cfe3776ff Merge tag 'powerpc-6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 9f16d5e6f220661f73b36a4be1b21575651d8833 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+184fa506e392eb78364d9283c961217ff2c0617b exfat: fix out-of-bounds access of directory entries
+02dffe9ab092fc4c8800aee68cb7eafd37a980c4 exfat: fix uninit-value in __exfat_get_dentry_set
+2e94e5bb94a3e641a25716a560bf474225fda83c exfat: fix file being changed by unaligned direct write
+30ef0e0d7ff5b6dceda19d18a85d9d72a4909784 exfat: remove unnecessary read entry in __exfat_rename()
+06a2b0b3b490a6103376652c01c3ac6e8e22e654 exfat: rename argument name for exfat_move_file and exfat_rename_file
+ac844e91364a03c35838fd488437605fbe56f8c3 exfat: add exfat_get_dentry_set_by_ei() helper
+0891c7313d87a1b6baf7162bc2f0d755ce70383f exfat: move exfat_chain_set() out of __exfat_resolve_path()
+33a86666d37ed44a7280adcc6ca293f7718507b2 exfat: remove argument 'p_dir' from exfat_add_entry()
+6b151eb5df78dc1a1ea7c862834199e08ea11c7b exfat: code cleanup for exfat_readdir()
+8a3f5711ad74db9881b289a6e34d7f3b700df720 exfat: reduce FAT chain traversal
 
---===============5912113935315094562==--
+--===============5882808851982258928==--
