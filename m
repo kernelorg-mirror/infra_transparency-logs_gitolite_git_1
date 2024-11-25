@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 25 Nov 2024 00:30:13 -0000
-Message-Id: <173249461399.1354509.16696345787067706557@gitolite.kernel.org>
+Date: Mon, 25 Nov 2024 00:47:32 -0000
+Message-Id: <173249565236.1367145.16813574199898390110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f26a29a038ee3982099e867bec2260576a19720f
-    new: ae7370e61c5d8f5bcefc2d4fca724bd4e9bbf789
+    old: ae7370e61c5d8f5bcefc2d4fca724bd4e9bbf789
+    new: 614f4d166eeeb9bd709b0ad29552f691c0f45776
     log: |
-         03819abbeb11117dcbba40bfe322b88c0c88a6b6 net: usb: lan78xx: Fix double free issue with interrupt buffer allocation
-         ae7370e61c5d8f5bcefc2d4fca724bd4e9bbf789 net: usb: lan78xx: Fix memory leak on device unplug by freeing PHY device
+         078f644cb81b78afdfbc42b9cc2c11959f2ed65c selftests: fix nested double quotes in f-string
+         9b234a97b10cf1385d451a3824539b774abbcdaf rtnetlink: fix rtnl_dump_ifinfo() error path
+         614f4d166eeeb9bd709b0ad29552f691c0f45776 tg3: Set coherent DMA mask bits to 31 for BCM57766 chipsets
          
