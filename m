@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1931235425576873215=="
+Content-Type: multipart/mixed; boundary="===============6676901564131150602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 25 Nov 2024 18:08:27 -0000
-Message-Id: <173255810761.2239475.12679318365199587542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 25 Nov 2024 18:08:54 -0000
+Message-Id: <173255813479.2239823.16318225612891157495@gitolite.kernel.org>
 
---===============1931235425576873215==
+--===============6676901564131150602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9f16d5e6f220661f73b36a4be1b21575651d8833
     log: revlist-28eb75e178d3-9f16d5e6f220.txt
 
---===============1931235425576873215==
+--===============6676901564131150602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e7675238b9bf4db0b872d5dbcd53efa31914c98f Merge tag 'ovl-update-6.13' of git://gi
 42d9e8b7ccddee75989283cf7477305cfe3776ff Merge tag 'powerpc-6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 9f16d5e6f220661f73b36a4be1b21575651d8833 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============1931235425576873215==--
+--===============6676901564131150602==--
