@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 25 Nov 2024 22:33:50 -0000
-Message-Id: <173257403087.2458755.7040773716301914816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 25 Nov 2024 22:35:07 -0000
+Message-Id: <173257410792.2461573.12261984800175753998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/rtc-next
-    old: 3ed345c948ef6ccd0f5dc85c5b6731593b4591f7
-    new: e0779a0dcf41a6452ac0a169cd96863feb5787c7
+  - ref: refs/heads/master
+    old: 6398ef949aba1371510c25bd28da1f468dd6834d
+    new: 27802ca14caea7a4881eafaedbbf172d3658eeaa
     log: |
-         e0779a0dcf41a6452ac0a169cd96863feb5787c7 rtc: ab-eoz9: don't fail temperature reads on undervoltage notification
+         27802ca14caea7a4881eafaedbbf172d3658eeaa samples/bpf: Remove unused variable
          
