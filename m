@@ -1,41 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2663544168089199622=="
+Content-Type: multipart/mixed; boundary="===============4430745654583323504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 26 Nov 2024 16:21:23 -0000
-Message-Id: <173263808349.3320057.18199183692406210659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 26 Nov 2024 16:27:25 -0000
+Message-Id: <173263844536.3324599.11563004573230510932@gitolite.kernel.org>
 
---===============2663544168089199622==
+--===============4430745654583323504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/cpu-hotplug
-    old: 74fa06f38f93f3da2f1fb9f54de44e6a42791ce5
-    new: 9c8ee0626caab1afab82c79d5378e7c97d53511c
-    log: revlist-74fa06f38f93-9c8ee0626caa.txt
+  - ref: refs/heads/linus-next
+    old: e0bd41cc13438f51c2f15c43a4957e1ef265baa2
+    new: 07e98e730a08081b6d0b5c3a173b0487c36ed27f
+    log: revlist-e0bd41cc1343-07e98e730a08.txt
 
---===============2663544168089199622==
+--===============4430745654583323504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74fa06f38f93-9c8ee0626caa.txt
+Content-Disposition: attachment; filename=revlist-e0bd41cc1343-07e98e730a08.txt
 
-7785831920e388e73637f57eefe5bbba9b8b653f arm64: smp: Tidy up smp_prepare_cpus()
-7f4ef05d3a0f63d362d92dbc8a08ddbc739f117d arm64: smp: Use generic HOTPLUG_CORE_SYNC_FULL machinery for CPU onlining
-5a2f9136dce027f47804ffa2ddc3668f03495fff arm64: smp: Use generic HOTPLUG_SPLIT_STARTUP machinery for CPU onlining
-32b8fac8b3cf018b0029aa3cb591d26b2ab32afb arm64: cpu_ops: Make 'cpu_operations' pointer global instead of per-cpu
-a5abf81a7503abb89b7c8c34f31af0df96bdc144 arm64: cpu_ops: Introduce get_secondary_cpu_ops()
-decf0540c8d36028cf28fe042801da38ef8da79d firmware/psci: Cache PSCI v0.2+ version number to avoid redundant SMCs
-b4cc9450fc953ae350b557d273d9d9ba7f2f9f2e firmware/psci: Extend ->cpu_on() callback to take an additional argument
-60c72b7a8871b713a96a8ab1864c6a848f62c1c0 arm64: cpu_ops: Expose optional argument to target cpu in ->cpu_boot()
-6fb3cb8afe926f976e71675f03fd3056e154ff62 arm64: smp: Pass secondary CPU boot parameters via firmware if possible
-9fe40b4389b4a19119d44200489326beb3028234 arm64: smp: Use generic HOTPLUG_PARALLEL machinery for CPU onlining
-9c8ee0626caab1afab82c79d5378e7c97d53511c cpu/hotplug: Fixes and optimisations to generic hotplug logic
+bbee049d8ee21f33ef68d02b16763ae7e5bf9025 kvm/vfio: Constify struct kvm_device_ops
+12cd88a9116acf79416a39adcd8bb1337ae7cee1 vfio/nvgrace-gpu: Add a new GH200 SKU to the devid table
+9283b7392570421c22a6c8058614f5b76a46b81c vfio/qat: fix overflow check in qat_vf_resume_write()
+ece8a2c77b881a379d24fee4656195d809161867 hisi_acc_vfio_pci: extract public functions for container_of
+19629206894f1265d9148be475d8665c58596ab3 hisi_acc_vfio_pci: create subfunction for data reading
+b398f91779b86e5f285d9f0df5d2e753ddcdac3f hisi_acc_vfio_pci: register debugfs for hisilicon migration driver
+a13bf78feebd432c31cff9d0d84968c8b78bcbfb Documentation: add debugfs description for hisi migration
+7c1ae151e81268db1fe8c8a473d922fc5ba47b72 virtio_pci: Introduce device parts access commands
+704806ca400e5daa86c110f14bfdda9d28203bb7 virtio: Extend the admin command to include the result size
+bfcad518605d927eff17ffb8ce0a828d7b7ac79f virtio: Manage device and driver capabilities via the admin commands
+52a22c0ed03ce23f20df81f79b23cb6637716fae virtio-pci: Introduce APIs to execute device parts admin commands
+0bbc82e4ec79df437de49d45c512335d97f9c7ce vfio/virtio: Add support for the basic live migration functionality
+6cea64b1db8885b82c226f9f80c2325f39d9d309 vfio/virtio: Add PRE_COPY support for live migration
+40bcdb12c68dbb6f457deb0adab5008ef61c13d7 vfio/virtio: Enable live migration once VIRTIO_PCI was configured
+22e87bf3f77c18f5982c19ffe2732ef0c7a25f16 vfio/mlx5: Fix an unwind issue in mlx5vf_add_migration_pages()
+cb04444c243c001fc27f275e84792ff1c2b96867 vfio/mlx5: Fix unwind flows in mlx5vf_pci_save/resume_device_data()
+a5f05a138a8cac035bf9da9b6ed0e532bc7942c8 parisc/ftrace: Fix function graph tracing disablement
+fe4bf8d0b6716a423b16495d55b35d3fe515905d vfio/pci: Properly hide first-in-list PCIe extended capability
+3bc4564786e7bc913424c756debffc7f9fd65635 Merge tag 'parisc-for-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux into linus-next
+07e98e730a08081b6d0b5c3a173b0487c36ed27f Merge tag 'vfio-v6.13-rc1' of https://github.com/awilliam/linux-vfio into linus-next
 
---===============2663544168089199622==--
+--===============4430745654583323504==--
