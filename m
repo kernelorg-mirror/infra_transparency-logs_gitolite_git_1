@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2386823064335469618=="
+Content-Type: multipart/mixed; boundary="===============6180170775108404137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 26 Nov 2024 04:33:35 -0000
-Message-Id: <173259561587.2751364.14605593412882313706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 26 Nov 2024 04:33:42 -0000
+Message-Id: <173259562225.2751553.2809193364567817597@gitolite.kernel.org>
 
---===============2386823064335469618==
+--===============6180170775108404137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 85a2dd7d7c8152cb125712a1ecae1d0a6ccac250
     new: ed9a4ad6e5bd3a443e81446476718abebee47e82
     log: revlist-85a2dd7d7c81-ed9a4ad6e5bd.txt
-  - ref: refs/tags/next-20240826
-    old: 2892a62bcd95c432f2bbc08cd7e47083e9fe6544
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241126
     old: 0000000000000000000000000000000000000000
     new: c936f1b5eb1b710535f30284524ea05953275460
 
---===============2386823064335469618==
+--===============6180170775108404137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -335,4 +332,4 @@ ea907004cb49d62cf18168ad23ba80e58166364e Merge branch 'zstd-next' of https://git
 1de95d38a8952d8e7820e154a45e157ae81724ff Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe.git
 ed9a4ad6e5bd3a443e81446476718abebee47e82 Add linux-next specific files for 20241126
 
---===============2386823064335469618==--
+--===============6180170775108404137==--
