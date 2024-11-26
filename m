@@ -1,19 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 26 Nov 2024 14:18:44 -0000
-Message-Id: <173263072429.3213254.1075980063193302547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 26 Nov 2024 14:25:17 -0000
+Message-Id: <173263111779.3220096.14325576948808104128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/x86/urgent
-    old: be4ca6c53e66cb275cf0d71f32dac0c4606b9dc0
-    new: ff6cdc407f4179748f4673c39b0921503199a0ad
+  - ref: refs/heads/for-linus
+    old: 155699ccab7c78cbba69798242b68bc8ac66d5d2
+    new: a166f80343cd436d6d414199d18ad0ab291caaa5
     log: |
-         ff6cdc407f4179748f4673c39b0921503199a0ad x86/CPU/AMD: Terminate the erratum_1386_microcode array
+         a166f80343cd436d6d414199d18ad0ab291caaa5 ALSA: asihpi: Remove unused variable
+         
+  - ref: refs/heads/for-next
+    old: 155699ccab7c78cbba69798242b68bc8ac66d5d2
+    new: a166f80343cd436d6d414199d18ad0ab291caaa5
+    log: |
+         a166f80343cd436d6d414199d18ad0ab291caaa5 ALSA: asihpi: Remove unused variable
+         
+  - ref: refs/heads/master
+    old: 6dbc04fc6571c47899d45439ea6c428235c03424
+    new: 42b234bafa782050964ebe866a0645e0379dc2ab
+    log: |
+         a166f80343cd436d6d414199d18ad0ab291caaa5 ALSA: asihpi: Remove unused variable
+         42b234bafa782050964ebe866a0645e0379dc2ab Merge branch 'for-linus'
          
