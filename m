@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 26 Nov 2024 14:54:27 -0000
-Message-Id: <173263286704.3243083.14336460266502340776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Tue, 26 Nov 2024 15:02:28 -0000
+Message-Id: <173263334859.3250482.7048869033225331885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 33528874b0d3684358e9ec98b49e689a96e285ee
-    new: c5dd3c39ef0a4f2ee654a9f8f3870ad2609a7bf2
-    log: |
-         c5dd3c39ef0a4f2ee654a9f8f3870ad2609a7bf2 nfsd: trace: remove redundant stateid even deleg_recall
-         
+  - ref: refs/heads/ovl-fixes
+    old: fed5480d7a8af1788dc6723e1ecd33762bcaf8cb
+    new: 228a1157fb9fec47eb135b51c0202b574e079ebf
