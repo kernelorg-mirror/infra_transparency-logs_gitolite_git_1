@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5288811048813015573=="
+Content-Type: multipart/mixed; boundary="===============8440185828129251791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 26 Nov 2024 19:32:44 -0000
-Message-Id: <173264956427.3507310.7785256230515119889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 26 Nov 2024 19:32:49 -0000
+Message-Id: <173264956945.3507463.18439314350815926652@gitolite.kernel.org>
 
---===============5288811048813015573==
+--===============8440185828129251791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7eef7e306d3c40a0c5b9ff6adc9b273cc894dbd5
     log: revlist-28eb75e178d3-7eef7e306d3c.txt
 
---===============5288811048813015573==
+--===============8440185828129251791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e06635e26cd8144eee17e9f256e8fde8aed3ba4f Merge tag 'slab-for-6.13-v2' of git://g
 0637a68b9c6c1dfffcc1fca003cb7cd3257c3c03 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 7eef7e306d3c40a0c5b9ff6adc9b273cc894dbd5 Merge tag 'for-6.13/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============5288811048813015573==--
+--===============8440185828129251791==--
