@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8145464189706724406=="
+Content-Type: multipart/mixed; boundary="===============1680286772636640444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 26 Nov 2024 17:00:48 -0000
-Message-Id: <173264044809.3369676.5170430555025546811@gitolite.kernel.org>
+Date: Tue, 26 Nov 2024 17:01:01 -0000
+Message-Id: <173264046124.3369921.13316743966744512192@gitolite.kernel.org>
 
---===============8145464189706724406==
+--===============1680286772636640444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 3596c721c4348b2a964e43f9296a0c01509ba927
     new: fef35a5fceb0b7ebbde8300d59a8f3a031f0bdda
     log: revlist-3596c721c434-fef35a5fceb0.txt
 
---===============8145464189706724406==
+--===============1680286772636640444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ e79ebe8c6c970353d34d8aa1d150855d3257567b modpost: rename alias symbol for MODULE
 f7feecd120ed14276362fa3b7094913819f5ee58 gitignore: Don't ignore 'tags' directory
 fef35a5fceb0b7ebbde8300d59a8f3a031f0bdda kbuild: rename .tmp_vmlinux.kallsyms0.syms to .tmp_vmlinux0.syms
 
---===============8145464189706724406==--
+--===============1680286772636640444==--
