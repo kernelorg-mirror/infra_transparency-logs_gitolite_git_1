@@ -1,270 +1,225 @@
-Content-Type: multipart/mixed; boundary="===============0284170999760611705=="
+Content-Type: multipart/mixed; boundary="===============8506935393421806989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 26 Nov 2024 23:37:34 -0000
-Message-Id: <173266425472.3701823.2703441779853084553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 26 Nov 2024 23:46:14 -0000
+Message-Id: <173266477441.3709583.6443767772912402020@gitolite.kernel.org>
 
---===============0284170999760611705==
+--===============8506935393421806989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
+  - ref: refs/heads/main
+    old: 6ea2d9d271a56afa0e77cd45796ea0592aa9c2d4
+    new: cc01bad4a9f566cf4453c7edd6b433851b0835e2
+    log: revlist-6ea2d9d271a5-cc01bad4a9f5.txt
   - ref: refs/heads/master
-    old: 798bb342e0416d846cf67f4725a3428f39bfb96b
-    new: b50ecc5aca4d18f1f0c4942f5c797bc85edef144
-    log: revlist-798bb342e041-b50ecc5aca4d.txt
+    old: 6ea2d9d271a56afa0e77cd45796ea0592aa9c2d4
+    new: cc01bad4a9f566cf4453c7edd6b433851b0835e2
+    log: revlist-6ea2d9d271a5-cc01bad4a9f5.txt
+  - ref: refs/heads/next
+    old: 7bb66a1faf91824fd72713a2fcc88d66c1f1c2e4
+    new: 9683f9f59cff4f0ca7284ea095da2a5b84b43535
+    log: revlist-7bb66a1faf91-9683f9f59cff.txt
+  - ref: refs/heads/seen
+    old: b567e281bd69819eff991e251cd46e7928ebecf9
+    new: c1dff97b9083b817d1c1a2f9c04f1a810f40db10
+    log: revlist-b567e281bd69-c1dff97b9083.txt
+  - ref: refs/notes/amlog
+    old: 72d0751654de9b10b556ca7e5e61f231dec196ee
+    new: b4f8d283e122f6fbf3aca6099eeb0ea5a73cd519
+    log: revlist-72d0751654de-b4f8d283e122.txt
 
---===============0284170999760611705==
+--===============8506935393421806989==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-6ea2d9d271a5-cc01bad4a9f5.txt
+
+b886db48c61bdfb817f29482e18120c4fa2bc89c refs: don't invoke reference-transaction hook for reflogs
+68e3c69efae688165a70f1e81b238fbbbff9a4b0 Documentation/glossary: describe "trailer"
+e8b3bcf49120309b207b7afc25c4aa81b866ac45 index-pack: rename struct thread_local
+639cd8db63b07c958062bde4d3823dadbf469b0b reflog: rename unreachable
+df0cf6faad08fb5a2467c694e1fecec58a5d6df5 Documentation/git-bundle.txt: mention full backup example
+f27b48d9047121ef051267a500cf5982a7b09fc9 Documentation/git-bundle.txt: remove old `--all` example
+c43a67f83d8a8cccfc8b2f2ee7813207136e6dad Documentation/git-bundle.txt: mention --all in spec. refs
+820fd1a5694b8d96609590163088d3f14731b565 Documentation/git-bundle.txt: discuss naïve backups
+9a91ab940012601247d6ef46e10e0c136b86ba69 t/unit-tests: convert "clar-generate.awk" into a shell script
+8839dccc8d7526afe8020f80776c7ee76df847bf cmake: use SH_EXE to execute clar scripts
+8caa7b9b05a67da7cbcd7fe42725177cda9eae7c cmake: use verbatim arguments when invoking clar commands
+5dac35bbdeb8684bba8e9633eaf282e59c482010 Makefile: let clar header targets depend on their scripts
+e770f36307202b1e87e57a3f355dcdac89d4f5aa object-file: prefer array-of-bytes initializer for hash literals
+2911f9ed1eccf92c4a98c50c3a88abb2c03a8126 object-file: drop confusing oid initializer of empty_tree struct
+b2a95dfd63e812dc4abe5750371f2f0596d2d063 object-file: move empty_tree struct into find_cached_object()
+9202ffcf1064f883aacc4aba8016918e1d8d8243 object-file: drop oid field from find_cached_object() return value
+e37feea00b2b81c0295fddb4f5137d12ea1825c0 object-file: treat cached_object values as const
+2af8ead52be9b72f3db76c9016cc4444eea33544 object-file: inline empty tree and blob literals
+5e904f1a4ade49372970bd172d63f9c9fd7b2653 fast-import: avoid making replace refs point to themselves
+1f2be8bed66dc5911fbbf725246ff0e7dcc209a6 index-pack: teach --promisor to forbid pack name
+c515230dcf2b1d16402e2aff114e9b34e8b321b3 Merge branch 'kh/bundle-docs'
+87fc668ce5650af05288bf2333e675ea8f91e188 Merge branch 'ps/clar-build-improvement'
+93905d3b704e89e8381e174b111c67b5cdf8246d Merge branch 'bc/c23'
+f670d811e2acbe4fae2b98dc45a9405836ee56fb Merge branch 'jk/gcc15'
+89ceab7b4c1ecb07e575a7caaeaba4d478c6a104 Merge branch 'kh/trailer-in-glossary'
+8eaa06590fe916d4f2baa1fdb93959f1cfa9ab47 Merge branch 'en/fast-import-avoid-self-replace'
+1f3d9b981465a8320878c725d2dd5924f452e786 Merge branch 'jt/index-pack-allow-promisor-only-while-fetching'
+4a611ee7ebd2269b6f4711efd18adc811631af9f Merge branch 'kn/ref-transaction-hook-with-reflog'
+cc01bad4a9f566cf4453c7edd6b433851b0835e2 The twelfth batch
+
+--===============8506935393421806989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-798bb342e041-b50ecc5aca4d.txt
+Content-Disposition: attachment; filename=revlist-7bb66a1faf91-9683f9f59cff.txt
 
-c940a66b3ac930227df0ab6e01f84bea1afa6c3f perf test: Be more tolerant of metricgroup failures
-5afd032961e8465808c4bc385c06e7676fbe1951 perf cs-etm: Don't flush when packet_queue fills up
-ba5ae78a5a2a956d281ac62f581ab95e618bbf18 perf cs-etm: Use new OpenCSD consistency checks
-9943581c64b1d1edaf9985ee81e45e728f67cd2e perf scripting python: Add function to get a config value
-7b371afc9b67349c724c15d235924bc40694872a perf scripts python cs-etm: Update to use argparse
-8286cc55a9a6f03d62bd140ce827025f9ed5e619 perf scripts python cs-etm: Improve arguments
-66dd3b539efe0d4b44324c1fe39978db8111ed93 perf scripts python cs-etm: Add start and stop arguments
-eb0a59e9e1e799303bc421770dc039f96ab8b84d perf test: cs-etm: Test Coresight disassembly script
-f115506d2ce4549df306746cd0b1c5d7bf6537f5 perf evsel: display dmesg command of showing a hardcoded path
-e880a70f8046df0dd9089fa60dcb866a2cc69194 perf stat: Close cork_fd when create_perf_stat_counter() failed
-b77f8c36ce0b23da97f5442c2f55cc98c2cb5567 perf stat: Stop repeating when ref_perf_stat() returns -1
-235f0da3274690f540aa53fccf77d433e344e4b8 perf vendor events arm64: imx95: add imx95_bandwidth_usage.lpddr4x metric
-77b004f4c5c3c90b20ad61c5fa2ba7d494c1dba1 perf symbol: Do not fixup end address of labels
-7e73ea40295620e7be9b6da29c711514c287fb78 perf test: Ignore security failures in all PMU test
-22a4db3c36034e2b034c5b88414680857fc59cf4 perf evsel: Add alternate_hw_config and use in evsel__match
-057f8bfc6f7070577523d1e3081081bbf4229c1c perf stat: Uniquify event name improvements
-d38461e977baf93f9e01967caa9571ccd1694def perf stat: Remove evlist__add_default_attrs use strings
-e2216fac1ee2bdfd7beab435ef1190a349cb3745 perf evsel x86: Make evsel__has_perf_metrics work for legacy events
-d7d156fc5e40cce21404579b0080dfc51399507b perf evsel: Remove pmu_name
-14b6b269f42a8fecc426ee940764251e621d943d perf test: Make stat test work on DT devices
-65d11821910bd910a2b4b5b005360d036c76ecef perf test: Add a test for default perf stat command
-6490dda55dcabbd5cf408387f932c9343a22c872 libperf: Explicitly specify install-html dependencies
-6adeb277fea06eeed3e9658a2e72573ac70fd011 perf sched replay: Remove unused parts of the code
-4f23fc34cc68812c68c3a3dec15e26e87565f430 perf mem: Fix printing PERF_MEM_LVLNUM_{L2_MHB|MSC}
-b38c49d8296b9eee1ffb6471853d542fd76de2fb perf/test: Speed up test case perf annotate basic tests
-9865f0a209fe78c7d924e10261c08fa7774e3e55 perf test: Use ARRAY_SIZE for array length
-f0cb9fa7a567d613eb23dd486ca89f8820f778bf perf vender events arm64: Use "Topdown" as topdown metric group name
-4d1b305dc8d74114abd544b0c11397ceb9ded528 perf evsel: Reduce a variables scope
-39820ced2aa1fb2453294909651dfc7dd6e6e028 perf x86/topdown: Complete topdown slots/metrics events check
-1e53e9d1787babb1544eaec7c7fdcb78a4a20a13 perf x86/topdown: Correct leader selection with sample_read enabled
-3b5edc0421e2598a0ae7f0adcd592017f37e3cdf perf x86/topdown: Don't move topdown metric events in group
-387892723ad4044ff139ad7433e4dd24f7cfe303 perf tests: Add leader sampling test in record tests
-0836aa60083a478cbc788f19fd2f389574a921bf perf tests: Add topdown events counting and sampling tests
-80f192724e314ba860206e51bc1e3bc1ac7f58dd perf tests: Add more topdown events regroup tests
-8d7f85e323ea402005fa83ddbdf5d00292d77098 perf jevents: Don't stop at the first matched pmu when searching a events table
-7f6ccb70e465bd8c9cf8973aee1c01224e4bdb3c perf stat: Fix affinity memory leaks on error path
-1334ee91694c21777d2df1da20bc5d5a7022a1e5 perf test: Fix memory leaks on event-times error paths
-7457bcfcfb988a5600dca2433bbc4901ba49d123 perf test: Skip not fail tp fields test when insufficient permissions
-ad321b19d2bb6ed0380ad53a06972ea7f4e7d7b1 perf test: Skip not fail syscall tp fields test when insufficient permissions
-80c281fca252827facd05875b8d9d36d7aad0f8d tools/perf: Correctly calculate sample period for inherited SAMPLE_READ values
-90035d3cd876cb71f98868d44ee60f5c5aa5ad69 tools/perf: Allow inherit + PERF_SAMPLE_READ when opening events
-5873de90315a13d211b1d50a1ba97f21a6f17516 perf/test: perf test 86 fails on s390
-d29d92df410e2fb523f640478b18f70c1823e55e perf trace: Keep exited threads for summary
-f72751a73a6b6ad678d254335e031e4511282564 perf test: Restore sample rate for perf_event_attr
-f7ef062fe154a4249663ba87d8ffab47519033cf perf list: update option desc in man page
-0ca2c45404eed3b6bb80d3169bf672b09cf3a70d perf arm-spe: Define metadata header version 2
-59715b1908b051fa3e4c0efb8a3724786d98bc48 perf arm-spe: Calculate meta data size
-703f344d0c4a3a006d3e1466d38ee6d8791acd87 perf arm-spe: Save per CPU information in metadata
-7842a4b6ff698768ccdb13324c3902a069b5d5dd perf arm-spe: Support metadata version 2
-e52abceb4b6c2723c7e49388e67a32ffb47bd90c perf arm-spe: Dump metadata with version 2
-6bff76af9635411214ca44ea38fc2781e78064b6 perf test attr: Add back missing topdown events
-3c4e558787f233044052ffd255a44ff7127952ce perf probe: Remove unused add_perf_probe_events
-9f759d41b3ed8feb550473027e674edf46ce7b94 perf test x86: Fix typo in intel-pt-test
-c7c1bb78f3eec716bc35f58d74592331cc3281b2 perf tools: Remove unused color_fwrite_lines
-c051220d38463cfe8a248d204461beb3ed52b4ea perf pmu: Simplify an asprintf error message
-c798f72c7a67a4c089142d4b16c8b9587e6db5e6 perf pmu: Allow hardcoded terms to be applied to attributes
-d2f3ecb0ca2099d13bf8bf69219214c1425dc453 perf parse-events: Expose/rename config_term_name
-240505b2d0adcdc8fd018117e88dc27b09734735 perf tool_pmu: Factor tool events into their own PMU
-0709a82c10bb98d0426dd289a6b8c143f61a8786 perf tool_pmu: Rename enum perf_tool_event to tool_pmu_event
-b8f1a1b0680c055bbe9f99e82e2e5b474621a1d6 perf tool_pmu: Rename perf_tool_event__* to tool_pmu__*
-069057239a676a82cce9330a81994129179dc817 perf tool_pmu: Move expr literals to tool_pmu
-c9b121b7fa5d99e87184d69d0852bf7f6a61179d perf jevents: Add tool event json under a common architecture
-609aa2667f67c1588d4e741110265f74b7713177 perf tool_pmu: Switch to standard pmu functions and json descriptions
-8c25df7af322040fdf5041e912af7cc810b0f86d perf tests: Add tool PMU test
-48966a5a48cd48a499e7c431e09465ce0c092e38 perf report: Display columns Predicted/Abort/Cycles in --branch-history
-d94d86cee1032bbf429d5bd0914b064e03b56f0e tools/perf/tests: Fix compilation error with strncpy in tests/tool_pmu
-9ea671d1b2d5962368b94b28507ae65f94c86fb3 tools/perf/tests: Remove duplicate evlist__delete in tests/tool_pmu.c
-1a3d6a9723d4dbdad41dad67b66a64d4a84c5f5c perf tools: Fix compiler error in util/tool_pmu.c
-77b679453d3364688ff3e5153c0be5b2b52672b7 Merge tag 'v6.12-rc3' into perf-tools-next
-04042674b21a8dfa143abacf7b1ef5b25a58d86e perf tools: Fix possible compiler warnings in hashmap
-af3902bfc1b60941681a0db9db95d8fe3d5c785d perf tools: Remove unnecessary parentheses
-cd912ab3b65445df7b95bbdd06ac29f823d4df98 perf sched timehist: Add pre-migration wait time option
-1afe05b0cf183035a77fdda1bc633aa5fb9daa43 perf evsel: Fix missing inherit + sample read check
-0c383c0827ec73c0c349a2f1eef3e7b9c189fc52 perf test: Delete unused Intel CQM test
-fb98fa3bf86893e53fac7bc951f503caf4a6eb23 perf arm-spe: Rename arm_spe__synth_data_source_generic()
-50b8f1d5bf4ad7f09ef8012ccf5f94f741df827b perf arm-spe: Rename the common data source encoding
-56ae663e7636f2ce180201f0f18d7736c319a43f perf arm-spe: Introduce arm_spe__is_homogeneous()
-ba5e7169e5483a61899497e23fa18f7ef33aa827 perf arm-spe: Use metadata to decide the data source feature
-6bcf54c89b3d8406433839f0e3b72c08b4a1caf3 perf arm-spe: Remove the unused 'midr' field
-041c0e5715a65a1b653283b853b4ca973780607a perf arm-spe: Add Neoverse-V2 to common data source encoding list
-ea2ead4224fd3899f6dadd4c1fc526f32ec2246c perf arm-spe: Add Cortex CPUs to common data source encoding list
-42fd7cac57d6001974a0546e5eb50a430aa95b11 perf tool_pmu: Remove duplicate io.h header
-b68b5b36c790a82522623f9f1fd1c4e1f06aff2d perf x86/topdown: Make topdown metrics comparators be symmetric
-fbc798316bef1b143e2cd0665cc6079529d6b0db perf x86/topdown: Refine helper arch_is_topdown_metrics()
-3662f82f16814636aaa152cdbd8db4b96984abea perf test: Speed up some tests using perf list
-d08e3f14e87259b9d63bf7eea7072d1bd61392ef perf probe: Use the MAX_EVENT_NAME_LEN macro
-6768faf9b70eec01c3c6d685b4f39049c561dbda perf probe: Check group string length
-e34f6ac511be5347b270e42a7a23a4569ea74bc2 perf probe: Improve log for long event name failure
-05a62936e6b14c005db3b0c9c7d8b93d825dd9ca perf dso: Fix symtab_type for kmod compression
-86f45d0f17d2f4d4857a8553673add9c71fb45aa tools/perf/pmu-events/powerpc: Add support for compat events in json
-54f9aa109245717df95d8dd2a1f42a3f42abdd3b tools/perf/powerpc/util: Add support to handle compatible mode PVR for perf json events
-1280f012e06e1555de47e3c3a9be898d8cbda5fb perf disasm: Fix capstone memory leak
-4585038b8e186252141ef86e9f0d8e97f11dce8d perf probe: Fix libdw memory leak
-58fc358a3e2d484697afbae86496fc5982f222f3 perf color: Add printf format checking and resolve issues
-9809b2b1f23d0b7e0c6154ee0e94445e584435d4 perf stat: Fix/add parameter names for print_metric
-1133e7f7dc53edcb26c0e07d345f7285c3246efa perf stat: Display "none" for NaN with metric only json
-e1cc918b6cfd12064f9b085f4c5b059d183bd8c6 perf stat: Drop metric-unit if unit is NULL
-37b77ae954167f0ed1bf3dd610b319eeb43cf854 perf stat: Change color to threshold in print_metric
-f9825601aa5e8f45a21ead5dd9b48e7f5119b3b0 perf stat: Add metric-threshold to json output
-17df33fe22c71e0b07567e3c3c35c678b08e8689 perf stat: Disable metric thresholds for CSV and JSON metric-only mode
-314909f13cc12d47c468602c37dace512d225eeb perf probe: Correct demangled symbols in C++ program
-8519e4f44c2af72214dc029f0334be068466e71f perf test: Add a shell wrapper for "Setup struct perf_event_attr"
-3a447031f5fc21c4e112a5ca52d091d1ef33aeb6 perf test: Remove C test wrapper for attr.py
-8296aa0f28c2433f213fce18bad00a97965c052f perf test: Move attr files into shell directory where they are used
-a9823dae4ccf70c388371e1e135fda0a3e08f4e6 perf build: Fix LIBDW_DIR
-54a1368567e8edd4f452085d89239b8b05d36856 perf build: Rename NO_DWARF to NO_LIBDW
-a6c55df973a8399d06d1bed676cb9ea4792e4e29 perf build: Remove defined but never used variable
-7c943261a1becfda44ac0468ca329e0f2bb95f2a perf build: Rename test-dwarf to test-libdw
-3034b48a4bc13effd3be03b44111b1cf0384bc13 perf build: Combine libdw-dwarf-unwind into libdw feature tests
-23580d7bb1f9a60bf60a26ce25615d18ca9b3e55 perf build: Combine test-dwarf-getlocations into test-libdw
-26385fd237260f27befd49e25674baf3901050d4 perf build: Combine test-dwarf-getcfi into test-libdw
-91e81e988fc9c51f9f9f4cf6de74aa66a57b4361 perf probe: Move elfutils support check to libdw check
-5eb2242513072b9ad3d39ff13d771479554ae4aa perf libdw: Remove unnecessary defines
-8838abf6261444f7d8047c363f90cafbd2ff32c5 perf build: Rename HAVE_DWARF_SUPPORT to HAVE_LIBDW_SUPPORT
-5455d89bf3da85176606ff861f4178f6bea648ba perf build: Rename CONFIG_DWARF to CONFIG_LIBDW
-e2cb1db7daf8b7863aeec07bb574d3fae54518e6 perf test: Update all metrics test like metricgroups test
-21677f653f1a6b9a3796d3ed7406722d289ef781 perf test: Fix perf test case 84 on s390
-f101a8e345c22a588132fda52055a16ec54e7621 perf vendor events amd: Add Zen 5 data fabric events
-17aedce6e0ff80d5e210b7a773738877336f1ca5 perf vendor events amd: Add Zen 5 data fabric metrics
-46610ba41ef10b9570c5f5b12bde2f2eabb25bb5 perf vendor events amd: Update Zen 5 data cache fill events
-18b63d63cd0148fef02c6c3f33a596ad7ee97a9a perf test: Introduce workloads__for_each()
-13c138308d15cb194db53d0f24a4dd9de37193f3 perf test: Introduce --list-workloads to list the available workloads
-915a377627f7ad91983377f68c3096b3594961a4 perf test: Document the -w/--workload option
-3e2d4df574fc6bbd00b422f2f1ce5c1ac251feae perf tools: sched-pipe bench: add (-n) nonblocking benchmark
-bb6e7cb11d97ce1957894d30d13bfad3e8bfefe9 perf tools: Add fallback for exclude_guest
-35c8d21371e9b342dbd91a8e9b1abaabaec95d41 perf tools: Don't set attr.exclude_guest by default
-d9e0970f77b92b0e2afff5e4a9e379bc9885df56 perf tools: Simplify evsel__add_modifier()
-88bc63d00eb6defb661b9fd79957660b4dfa4b50 perf tools: Do not set exclude_guest for precise_ip
-3b193a57baf15c468e4f86cebc694ca4fe18301b perf tools: Detect missing kernel features properly
-28398ce1726e5dfa74f6305dd842e0fb7e332ef1 perf tools: Move x86__is_amd_cpu() to util/env.c
-af954f76eea56453713ae657f6812d4063f9bc57 perf tools: Check fallback error and order
-634d36f82517eb5c6a9b9ec7fe3ba19dbbcb7809 perf record: Just use "cycles:P" as the default event
-36fae9f93e5f00eb3e410784ce99a4d7503aa12e perf test: Add precise_max subtest to the perf record shell test
-b4e0e9a1e30059f4523c9b6a1f8045ad89b5db8a perf disasm: Use disasm_line__free() to properly free disasm_line
-908d50e50ef91713ae94bc8988db87def6b6fec3 perf disasm: Use disasm_line__free() to properly free disasm_line
-150dab31d5609f896fbfaa06b442ca314da79858 perf disasm: Fix not cleaning up disasm_line in symbol__disassemble_raw()
-5ce42b5de461c3154f61a023b191dd6b77ee66c0 tools subcmd: Add non-waitpid check_if_command_finished()
-0e036dcad4e62b89f8df3e41402babb9345521af perf test: Display number of active running tests
-d50318fe00d176c5ee5de9092ca092bee05a9eb6 perf test: Reduce scope of parallel variable
-2c66343927eebe799324410f1ca9cde79e71dbe4 perf test: Avoid list test blocking on writing to stdout
-2532be3d219d8819e59dc52a5ead4696b8354a82 perf test: Tag parallel failing shell tests with "(exclusive)"
-a6fffc60940a903ebcd70d44f047277ba5188225 perf test: Add a signal handler around running a test
-79e72f384d733f78cb07a9649a5ea52b78898a30 perf test: Run parallel tests in two passes
-94d1a913bdc423073d5f58fcd8caaf7ee9f57ebc perf test: Make parallel testing the default
-553d5efeb341f2f814f937e0658ed7d22f625662 perf test: Add a signal handler to kill forked child processes
-7449a4d674cc14f8e689cecf7354748706d00f30 perf test: Sort tests placing exclusive tests last
-e3b2949e3fa2fd8c19cd5fbb0424d38f70a70e9c perf vendor events arm64: Add i.MX91 DDR Performance Monitor metrics
-19966d792b9e6b055aeb2f0e573b4d4573d5e15b perf arm-spe: Set sample.addr to target address for instruction sample
-c1b67c85108f99af0a80aa9e59a2b94ad95428d7 perf arm-spe: Use ARM_SPE_OP_BRANCH_ERET when synthesizing branches
-edff8dad3f9a483259140fb814586b39da430a38 perf arm-spe: Correctly set sample flags
-35f5aa9ccc83f4a4171cdb6ba023e514e2b2ecff perf arm-spe: Update --itrace help text
-54afc56db221c831479dd1b59eb0657c078355d1 perf probe: Fix retrieval of source files from a debuginfod server
-8c0d1202bad3aa6e40fb078dc08158f0bb4e03e2 perf, riscv: Wire up perf trace support for RISC-V
-064d569e20e82c065b1dec9d20c29c7087bb1a00 perf ftrace latency: Fix unit on histogram first entry when using --use-nsec
-ba993e5ada1ddce7a71140dc85ef65bc2cd981bc perf arm-spe: Use old behavior when opening old SPE files
-07dc3a6de33098b0dd2ab73ef43fe721abed4825 perf stat: Support inherit events during fork() for bperf
-d36e5b36a2928b30e09ff59ce5ce2d5df935176e perf test: Use sqrtloop workload to test bperf event
-aa5c90601b531323f82ceb02b41a66974153b76f Merge 'origin/master' into perf-tools-next
-13e17c9ff49119aa2826dbf1e130f34d4d7a55d9 perf build: Make libunwind opt-in rather than opt-out
-c741c7b5e98357e9f45e012f8c4295b5aed8d5c0 perf test: Remove cpu-list BPF cgroup counter test
-d5a0a4ab4af4c27de097b78d6f1b7e7f7e31908f perf build: Add missing cflags when building with custom libtraceevent
-6e0e0a18632630bbe2f3e97c79d154ae1faf64df perf tools: Add all shellcheck_log to gitignore
-a52143aa2127aa92b11b3936b606de81d1ef6ef3 perf test: Remove dangling CFLAGS for removed attr.o object
-29bf07bc9ad2eca06a14d78f7f4dc5dc8f10aae3 perf test: Fix ftrace test with regex patterns
-5fb8e56542a3cf469fdf25d77f50e21cbff3ae7e perf trace: avoid garbage when not printing a trace event's arguments
-9ac98662dbd3254007b2b32e792a236e93ace805 perf: event: Remove deadcode
-d8c0f8b4ee989b79d8d92f954662efed38c7b23d perf tools: Add the empty-pmu-events build to .gitignore
-62a6d092f1e7e72365ecf65bbc3f268121130292 perf stat: Expand metric+unit buffer size
-26ec3d7cc3f3aa591c8d5f3fde99df6caca92d02 perf script cs_etm: Add map_pgoff to python dictionary
-e8328bf3cd135b5f443bed77f3791ac1633ae01e perf script python: Adjust objdump start/end per map pgoff parameter
-35de42cdfb64af8357b8c531cc2dad28bde5c712 perf build: Include libtraceevent headers directly indicated by pkg-config
-f4db95b68ae68ebaf91d35cc0487ac1cbd04261e tools api io: Ensure line_len_out is always initialized
-4810b761f812da3ca33badd7861a04b58613a4a1 perf hwmon_pmu: Add hwmon filename parser
-8c329057def8e3409a82839b1a730935b77feeab perf test: Add hwmon filename parser test
-53cc0b351ec99278447d6c253c37fa61f4b35da0 perf hwmon_pmu: Add a tool PMU exposing events from hwmon in sysfs
-654986ed5d53248ee2037cfebc4052441e2d1126 perf pmu: Add calls enabling the hwmon_pmu
-531ee0fd4836994fc99f22cc79ef94554f2ae54e perf test: Add hwmon "PMU" test
-6d5d90a6abb98ecd964cd213db7e75a6fa5ff518 perf docs: Document tool and hwmon events
-2bf7692eadc5e569d334c66d4a816301822c536e perf bpf-prologue: Remove unused file
-6ac75289b2884652abacab368f3850b9c0246e4a perf dwarf-regs: Remove PERF_HAVE_ARCH_REGS_QUERY_REGISTER_OFFSET
-ae894b77923e7531f2c728121a40902f01adc8c6 perf dwarf-regs: Add EM_HOST and EF_HOST defines
-cd6c9dca9d4bf1d5a9d3606cf5cace513f6dc5ce perf disasm: Add e_machine/e_flags to struct arch
-9fc4489a16f41d9306af6c94ca97be6364d51ea9 perf dwarf-regs: Pass accurate disassembly machine to get_dwarf_regnum
-a784847c2da1f2d17da737bb7be541e2f7b79f8f perf dwarf-regs: Pass ELF flags to get_dwarf_regstr
-bf4e799a0a339cab73925790ce164ee3c63f9dc1 perf dwarf-regs: Move x86 dwarf-regs out of arch
-6f8e8add5a0a551aa748c9345b80e6cad85ec829 perf arm64: Remove dwarf-regs.c
-0c0a20ecdf67b0af07ec6d6167335ef5c6e3b9ec perf arm: Remove dwarf-regs.c
-d4a0c4f22121f4ec635c726727a0d1a9f5f9a7af perf dwarf-regs: Move csky dwarf-regs out of arch
-1d37bd8366d8cc99d8dbb1d39b285db8b429ec69 perf loongarch: Remove dwarf-regs.c
-8a768a2f65921c497e796e0d91170595a3c60abc perf mips: Remove dwarf-regs.c
-285b523c2da2e71f529e477a64b09f2e719f9d6f perf dwarf-regs: Move powerpc dwarf-regs out of arch
-a90c4519186dfc083cbc47b62dfde421129c4fd4 perf riscv: Remove dwarf-regs.c and add dwarf-regs-table.h
-b232b704a78151262de55d3205f4cf71b6230089 perf s390: Remove dwarf-regs.c
-04150f29e212fb0d9a908bf37f81722c39ca6f3b perf sh: Remove dwarf-regs.c
-85567a2a8d4217203085ba2243868457664b9e24 perf sparc: Remove dwarf-regs.c
-a4747c09507dbe3f8b0296dc7566cd1153eb6a0e perf xtensa: Remove dwarf-regs.c
-3ef6b89a129a668814d6fffcd0d7a3f0170e4451 perf dwarf-regs: Remove get_arch_regstr code
-ddbfb6f20c1b7a8b111e2194fff767cea032d491 perf build: Remove PERF_HAVE_DWARF_REGS
-f212140962c93cd5da43283a18e31681540fc23d m68k: mcfgpio: Fix incorrect register offset for CONFIG_M5441x
-63a24cf8cc330e5a68ebd2e20ae200096974c475 m68k: coldfire/device.c: only build FEC when HW macros are defined
-4c1d8f0547363893bc3b7755aa90755bfd89e2ed perf disasm: Introduce symbol__disassemble_objdump()
-1f7393adf67de6897b1ee614903e1900d7cf069b perf disasm: Define stubs for the LLVM and capstone disassemblers
-a6e8a58de6294578195447596fb975a9027b4d2c perf disasm: Allow configuring what disassemblers to use
-463c2031655c08007401b0eefed817ed2da2ebfb perf tools: Fix typos Muliplier -> Multiplier
-d99b3125726aade4f5ec4aae04805134ab4b0abd perf list: Fix topic and pmu_name argument order
-b81bb703372837a6d6b4cc964b6db58d1dfdba8b perf timechart: Remove redundant variable assignment
-31bedc1fb1d93250ae1900ee92ccd56689956d22 libsubcmd: Move va_end() before exit
-fe4f9b4124967ffb75d66994520831231b779550 perf trace: Fix tracing itself, creating feedback loops
-e7c70ee7c9aa7420d22b47d8951f4b5fef4554ea perf probe: Fix error message for failing to find line range
-47fa0f99a9aa962bac8e6da09cb104e8da94e4df perf probe: Fix to ignore escaped characters in --lines option
-b9e577225c16fae9f5e4d3d642153c64b538c44e perf probe: Accept FUNC@* to specify function name explicitly
-313026f3ced102a9ef044fbde4a806554ccfe959 perf string: Add strpbrk_esq() and strdup_esq() for escape and quote
-080e47b2a2377f9cfad7bc7fa074e9819eafa394 perf probe: Introduce quotation marks support
-3fd7c36973a250e17a4ee305a31545a9426021f4 perf trace: Do not lose last events in a race
-1302e352b26f34991b619b5d0b621b76d20a3883 perf trace: Avoid garbage when not printing a syscall's arguments
-f72bcb92e9a1402baedad45dd34abb686ae1e8cb perf tests: Add test for trace output loss
-7ca41faa5f5b9784ae2ef27e1c6902cddbc530ef perf test shell trace_exit_race: Show what went wrong in verbose mode
-0b687912c94181fdf530aa33036871cd8a26eb72 perf test shell trace_exit_race: Use --no-comm to avoid cases where COMM isn't resolved
-264708b8ac6cce132c61865bfe0463adeb80d7ef perf util: Remove kernel version deadcode
-180fd0c1eac7cd8c5aa9a9f8b54088a61d9e05db perf tests: Make leader sampling test work without branch event
-db26a8c9e3c285092ed3e14a33755582c04e0269 perf test: Add missing __exit calls in tool/hwmon tests
-4a159e6049f319bef6f9e6d2ccdd322f57d24830 perf jevents: fix breakage when do perf stat on system metric
-c6fafe36bab32b9b24941fe381f0b66751021c25 perf header: Move is_cpu_online to numa bench
-cec0d6572a4472848b87d016105634e4eef76d13 perf header: Refactor get_cpuid to take a CPU for ARM
-538737da9625d5cceeec3ae90e66afa0792cab50 perf arm64 header: Use cpu argument in get_cpuid
-7463ee17a74090081f0f013fa514904a01fcc954 perf header: Avoid transitive PMU includes
-494c403ff159fdfdb41c364acbe79f2f53ad585d perf header: Pass a perf_cpu rather than a PMU to get_cpuid_str
-0434410fa45c9aff6183bb99e0fbc255d75fcf95 perf jevents: Add map_for_cpu()
-8f997865ee9e73281a92a7ab7ebcab84e1a36d83 perf pmu: Move pmu_metrics_table__find and remove ARM override
-85c60a01b85ee956adf8d46c253fc50f75363e8f perf: Remove unused del_perf_probe_events()
-a5f05a138a8cac035bf9da9b6ed0e532bc7942c8 parisc/ftrace: Fix function graph tracing disablement
-fc26637d70d3f1ba9df8cd0f7c22b8b331c564e7 perf test: Correct hwmon test PMU detection
-bd077a53ad87cb111632e564cdfe8dfbe96786de perf bpf-filter: Return -ENOMEM directly when pfi allocation fails
-5f2c8f4e1070e474642b9dea104f531b8be52e1e perf/test: fix perf ftrace test on s390
-870748fa1fac5a397c26126bc32662e9249762c7 perf tests hwmon_pmu: Remove double evlist__delete()
-62878b400f5b02416368eda361277c045c675466 perf hwmon_pmu: Ensure hwmon key union is zeroed before use
-6d78089da9805787a72e52604ad4b2ed7380be3f perf tests: Fix hwmon parsing with PMU name test
-7ebe7afed716391a9831de8adc910fff65001ef2 Merge tag 'm68knommu-for-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
-9160b68e0cf8d57243f17debcb564ce01e327ada Merge tag 'parisc-for-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-b50ecc5aca4d18f1f0c4942f5c797bc85edef144 Merge tag 'perf-tools-for-v6.13-2024-11-24' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+8bf7f9e1ff7a5c2138a0a707bf86bacc5feefd3e git-curl-compat: remove check for curl 7.21.5
+f7c094060c40256c21ee46005b6062a69d71886e git-curl-compat: remove check for curl 7.25.0
+6545b26eebeccd08a13ec449bd4e665f6ae090d6 git-curl-compat: remove check for curl 7.34.0
+05dd4ec507f022462125afb1af3c8b42861dcdc5 git-curl-compat: remove check for curl 7.39.0
+f47a1faa9bd147048bf5d9d93a043e9a438d30d0 git-curl-compat: remove check for curl 7.43.0
+5c91da6d5b9ba973968221e6885a3da279284e44 git-curl-compat: remove check for curl 7.44.0
+17de6fd83b03f52a1fcc95cf335f2a704e61df53 git-curl-compat: remove check for curl 7.52.0
+d2f078c341cdbb17282f37afd97ab1a1a89ec11d git-curl-compat: remove check for curl 7.53.0
+603cf3e9421e093034d0f0933b3375159afc3c17 git-curl-compat: remove check for curl 7.56.0
+7bae4e7f581a2f7d02d3a88391a228da2a16fda2 INSTALL: document requirement for libcurl 7.61.0
+702d8c1f3b5377a64670b0f22add157b0bfc33dd Require Perl 5.26.0
+5f139a194f22b34eb49a891253271693989d6fdc gitweb: make use of s///r
+e72c2d2e913049e144e7fd4459238d237ba0baf8 doc: git-diff: apply new documentation guidelines
+6b552e39c01f6a38158eab78816e8954ec46ccde doc: git-diff: apply format changes to diff-options
+6ace09b2f96eb4c5f48cf8f26c2748c26f92b2c2 doc: git-diff: apply format changes to diff-format
+0b080a70abb392f658903d7d8da8fe51572e6e81 doc: git-diff: apply format changes to diff-generate-patch
+f3b2ceea39bcc8cf08dc191840f94a692208aceb doc: git-diff: apply format changes to config part
+c6c977e82b94a8266a1f24bed6fcddb15bd01d1c Merge branch 'ps/leakfixes-part-10' into ps/bisect-double-free-fix
+5f9f7fafb7e74ef2965766345f45851732315b00 bisect: address Coverity warning about potential double free
+4a2790a257b314ab59f6f2e25f3d7ca120219922 fast-import: disallow "." and ".." path components
+6f33d8e255cb2ff738cd28eab22751efb7c2d6ce builtin: pass repository to sub commands
+c515230dcf2b1d16402e2aff114e9b34e8b321b3 Merge branch 'kh/bundle-docs'
+87fc668ce5650af05288bf2333e675ea8f91e188 Merge branch 'ps/clar-build-improvement'
+93905d3b704e89e8381e174b111c67b5cdf8246d Merge branch 'bc/c23'
+f670d811e2acbe4fae2b98dc45a9405836ee56fb Merge branch 'jk/gcc15'
+89ceab7b4c1ecb07e575a7caaeaba4d478c6a104 Merge branch 'kh/trailer-in-glossary'
+8eaa06590fe916d4f2baa1fdb93959f1cfa9ab47 Merge branch 'en/fast-import-avoid-self-replace'
+1f3d9b981465a8320878c725d2dd5924f452e786 Merge branch 'jt/index-pack-allow-promisor-only-while-fetching'
+4a611ee7ebd2269b6f4711efd18adc811631af9f Merge branch 'kn/ref-transaction-hook-with-reflog'
+cc01bad4a9f566cf4453c7edd6b433851b0835e2 The twelfth batch
+8b145bb54386aff918e691857e0d791314661933 Merge branch 'en/fast-import-path-sanitize' into next
+e163bce0181f60683388cfe42a8f73aa7cdd52ad Merge branch 'ps/bisect-double-free-fix' into next
+668c0913f5803ebcc3b0b1f13e6cd49503194869 Merge branch 'kn/pass-repo-to-builtin-sub-sub-commands' into next
+aa7866a3abf1b1fd8b3a38d68178caaf34f6c90f Merge branch 'bc/drop-ancient-libcurl-and-perl' into next
+b33b5ae49b961efa89ac510075d603cd9f2e56ff Merge branch 'ja/git-diff-doc-markup' into next
+9683f9f59cff4f0ca7284ea095da2a5b84b43535 Sync with 'master'
 
---===============0284170999760611705==--
+--===============8506935393421806989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b567e281bd69-c1dff97b9083.txt
+
+ad0986c6764eed4dd9f0302aa3b1c5367e5c16a3 refs/reftable: encapsulate reftable stack
+46b5f67019bbf9864416d13693f6292bca62d7af refs/reftable: handle reloading stacks in the reftable backend
+c9f76fc7d197d9ed2624400d5fc34d6ab53b7a22 reftable/stack: add accessor for the hash ID
+3ec8022bb0bd20da40e9d4a173331ac864d1bd28 refs/reftable: figure out hash via `reftable_stack`
+27fdf8f4ed0b76f4c21c6ee1f95886c731c4e196 refs/reftable: read references via `struct reftable_backend`
+ad6c41f4b7e93f9c16a69d03a32d8f99d8428144 refs/reftable: refactor reading symbolic refs to use reftable backend
+96e7cb83b65622c8189678ea52d469786bdf0240 refs/reftable: refactor reflog expiry to use reftable backend
+eb22c1b46b85f7fac8467f991890d50853e4ca4d reftable/stack: add mechanism to notify callers on reload
+9d471b9dfed15f023572133893a2d0817e5e8004 reftable/merged: drain priority queue on reseek
+7cf65e266020f23d31863a1f9508f375be818071 refs/reftable: reuse iterators when reading refs
+6322bd8070bdfdf2d6e8737366497f774b3a9bb4 packfile: add repository to struct `packed_git`
+7dfab09d07705e60b6c4fccc4b16bb2528cb47b6 packfile: use `repository` from `packed_git` directly
+5c63011d8cdef096c15ff93d3d9bc814e57f82cf packfile: pass `repository` to static function in the file
+7ef26f600b738eca40074d7aeb76358168d69fba packfile: pass down repository to `odb_pack_name`
+2b94a5cc3d23a36123445e363abbd511203bb71b packfile: pass down repository to `has_object[_kept]_pack`
+5f66c86f859e77c39d0d3ef50205d3dac6ba765b packfile: pass down repository to `for_each_packed_object`
+6217ae75dc3bdcfe9c9222b0ab417ab17addea5a config: make `delta_base_cache_limit` a non-global variable
+eca6e08573e8c5f8b2af4612bd47ccbe000c1296 config: make `packed_git_(limit|window_size)` non-global variables
+bd8a774d12cf4c4920e807b41fab3290da1eb079 midx: add repository to `multi_pack_index` struct
+a8d703b83f812a9c12cf657198cfe9ef00417ffa packfile.c: remove unnecessary prepare_packed_git() call
+b6318cf23a21b4d1917438c642d8877fb31e7c3e ref-cache: fix invalid free operation in `free_ref_entry`
+c515230dcf2b1d16402e2aff114e9b34e8b321b3 Merge branch 'kh/bundle-docs'
+87fc668ce5650af05288bf2333e675ea8f91e188 Merge branch 'ps/clar-build-improvement'
+93905d3b704e89e8381e174b111c67b5cdf8246d Merge branch 'bc/c23'
+f670d811e2acbe4fae2b98dc45a9405836ee56fb Merge branch 'jk/gcc15'
+89ceab7b4c1ecb07e575a7caaeaba4d478c6a104 Merge branch 'kh/trailer-in-glossary'
+8eaa06590fe916d4f2baa1fdb93959f1cfa9ab47 Merge branch 'en/fast-import-avoid-self-replace'
+1f3d9b981465a8320878c725d2dd5924f452e786 Merge branch 'jt/index-pack-allow-promisor-only-while-fetching'
+4a611ee7ebd2269b6f4711efd18adc811631af9f Merge branch 'kn/ref-transaction-hook-with-reflog'
+cc01bad4a9f566cf4453c7edd6b433851b0835e2 The twelfth batch
+1a2a4b965884174f4cc483f79d636c77e152756b Merge branch 'ps/gc-stale-lock-warning' into jch
+4d6545a7dd9e32716d037d9cd9d57d8d56304b7b Merge branch 'ps/leakfixes-part-10' into jch
+2d9f99b947219b967d4577f949b2c0541346f13d Merge branch 'ps/ref-backend-migration-optim' into jch
+c5f0d96ff148b06db62c57b74608898d31ff2337 Merge branch 'sj/ref-contents-check' into jch
+a1ef511c09019bbcc973f85f3332556e12aa87f7 Merge branch 'tb/boundary-traversal-fix' into jch
+b4037507725a4da96858abd5072ae2f0417281dd Merge branch 'tb/use-test-file-size-more' into jch
+7ccbb69c16804a8a084a9ccc64e5ab90c6eacb31 Merge branch 'en/fast-import-path-sanitize' into jch
+6af4109ca6456be5903e7317e61007e289bd7b57 Merge branch 'ps/bisect-double-free-fix' into jch
+6e7598fe7d2b9db79207c24c6c6e81b5e99e2a8c Merge branch 'kn/pass-repo-to-builtin-sub-sub-commands' into jch
+15bf743370919acf6e53ac8bab25cf6df799e109 Merge branch 'bc/drop-ancient-libcurl-and-perl' into jch
+f69a9731045340948409685b0a4d63acf94aca57 Merge branch 'ja/git-diff-doc-markup' into jch
+b593dcf57220b85fd5e31e1b8e61be4b28993f0c ### match next
+8ee0283c6cdba056ac8865930adb731c06992174 Merge branch 'ej/cat-file-remote-object-info' into jch
+c3a38b6692f19e3499b5f90b071cb36761fe7288 Merge branch 'ps/reftable-detach' into jch
+c788b5df4a4d36fa645e31f8880de428b0345316 Merge branch 'cc/promisor-remote-capability' into jch
+69f1e05973c0bc4e9b82d870330a1749d10cd1d7 Merge branch 'as/show-index-uninitialized-hash' into jch
+3cbc0172a6aec31bd858f5a0abf5832b0f4712d6 Merge branch 'ds/path-walk-1' into jch
+7ceac8ab43060ec35e530337a02658a9eaf27a7d Merge branch 'bc/ancient-ci' into jch
+8ec79ee584153c8523be1d7cbac42d7cfcf82362 Merge branch 'js/range-diff-diff-merges' into jch
+f4ddf4c0eb7111d2ba8b639e258832ef99903c24 Merge branch 'ps/reftable-iterator-reuse' into jch
+7a15d3209e7983b3b61ca9459aa7eea3ea86c7a1 Merge branch 'js/log-remerge-keep-ancestry' into jch
+b424f0ce44329c7057e0ecce5ca4040de5165b58 Merge branch 'tb/incremental-midx-part-2' into jch
+f3388a91d4297916298287a0a05fa9f5995e4064 Merge branch 'tb/unsafe-hash-test' into jch
+2b1e42c2adf496f07ca4049f92cbf59a801c1e4a Merge branch 'jt/bundle-fsck' into jch
+a24e6a766589be6a9b587cb0f52fe4954beeea7d Merge branch 'jc/doc-opt-tilde-expand' into jch
+306e4dc89c8eb71e53b87655b40c90bd5b6e5159 Merge branch 'pb/mergetool-errors' into jch
+0856625c3a06cd677f066c3f1539ae41d1f54737 Merge branch 'bf/set-head-symref' into jch
+66c4fdfc374286bc541ea0569bb37262afab6655 Merge branch 'kh/sequencer-comment-char' into jch
+1b1ef9dd0344c90cbb2df42e877a925f2b789d99 Merge branch 'sj/refs-symref-referent-fix' into jch
+b43bf2f41cf783344cd5ecfc59f1187c3bbfdb19 Merge branch 'js/libgit-rust' into seen
+f4fb901bc1b08e1fd91c40764dabb9b34ec05262 Merge branch 'es/oss-fuzz' into seen
+b2c2b0f93326768e8d42f701b75ae5f418ecf84f Merge branch 'y5/diff-pager' into seen
+102aff8d54a34490d7d5577690ba2c499536fa4d Merge branch 'km/config-remote-by-name' into seen
+b40cf2afc1292e223951eeb1d744d2f1212f0ae9 Merge branch 'ds/full-name-hash' into seen
+9aa3521b0ceaabb4bb9b1b9d6d06c04ee6a331ba Merge branch 'kn/the-repository' into seen
+10454b4f1145e29a45ca5a4b9b7723d5a644e6c4 Merge branch 'jc/move-is-bare-repository-cfg-variable-to-repo' into seen
+aa52cf4e9c87b9885e0ce9bdcf88bb648c31c247 Merge branch 'jk/describe-perf' into seen
+aea43266a650da5f9082db83f0ded6b72a0b4e74 Merge branch 'ps/send-pack-unhide-error-in-atomic-push' into seen
+49f0efa2c121c72f4c414e608b8725ad2070a436 Merge branch 'bc/allow-upload-pack-from-other-people' into seen
+3cdca374676db65f6617f6c597d4d861752c0c4a Merge branch 'cw/worktree-extension' into seen
+c1dff97b9083b817d1c1a2f9c04f1a810f40db10 Merge branch 'ps/build' into seen
+
+--===============8506935393421806989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-72d0751654de-b4f8d283e122.txt
+
+8bc68350177815caf64892bdac93304c70dd5b06 Notes added by 'git notes add'
+8131bb9760d6c7d188285783c04609da2268e2f6 Notes added by 'git notes add'
+ca50edec432bfe8e7ca457f190783d6bbd77af8e Notes added by 'git notes add'
+243dc3f2eb5bf013934ca9f6785cb4df7339629b Notes added by 'git notes add'
+1a228c26375cd2b5644b3ffc34870bf5bdcffd5d Notes added by 'git notes add'
+cf511a13059551e1ea6e10cc6bc6e5aec5a2f527 Notes added by 'git notes add'
+9fe68f36f7f96546b8829a55b62437173b3a7171 Notes added by 'git notes add'
+38915aa4de1298d1d1062a2fae2fd8b23a005d8e Notes added by 'git notes add'
+1ab5c2b1d369d7f83c9b1241ff5fd714244ae064 Notes added by 'git notes add'
+1a30c28ad3d2d29fed9e90fe1d2769d0aa5666a7 Notes added by 'git notes add'
+2c05fd033b746b8122217b6e0bfcf9af3dd8de1e Notes added by 'git notes add'
+874de3db7f0ea5065d29f4497e0490fbbe807742 Notes added by 'git notes add'
+ad8a0df133fcdc9035e2f85d0e9361b9022ee648 Notes added by 'git notes add'
+0108f0bbbbd01435b5687ebe1e91ee1a1a46a027 Notes added by 'git notes add'
+a2313b79567f3f1d5ff20edc96011714ab3f9113 Notes added by 'git notes add'
+2fd74dca5efb807f93f0110593a54c0ae6275de6 Notes added by 'git notes add'
+51ff3a907462d491f80fc2044bdeaab958b07c69 Notes added by 'git notes add'
+4a348d445d7ee4b865cd2e43c7d976db88fc2c9b Notes added by 'git notes add'
+6db17962dc72c87680c15739085aac99f2eff819 Notes added by 'git notes add'
+c5cb1f7e146e6bf1aec2e3a6aa26888c6c543833 Notes added by 'git notes add'
+ab2abba126b96953d3f9d14ad2570c36e68f5e82 Notes added by 'git notes copy'
+b4f8d283e122f6fbf3aca6099eeb0ea5a73cd519 Notes added by 'git notes add'
+
+--===============8506935393421806989==--
