@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 26 Nov 2024 19:05:52 -0000
-Message-Id: <173264795272.3486370.16590212594906950996@gitolite.kernel.org>
+Date: Tue, 26 Nov 2024 19:09:26 -0000
+Message-Id: <173264816697.3487859.11421402148826214954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
   - ref: refs/heads/irq/urgent
-    old: 12aaf67584cf19dc84615b7aba272fe642c35b8b
-    new: f82e62d470cc990ebd9d691f931dd418e4e9cea9
+    old: f82e62d470cc990ebd9d691f931dd418e4e9cea9
+    new: cc47268cb4841c84d54f0ac73858986bcd515eb4
     log: |
-         f82e62d470cc990ebd9d691f931dd418e4e9cea9 irqchip/gicv3-its: Add workaround for hip09 ITS erratum 162100801
+         cc47268cb4841c84d54f0ac73858986bcd515eb4 irqchip: Switch back to struct platform_driver::remove()
          
