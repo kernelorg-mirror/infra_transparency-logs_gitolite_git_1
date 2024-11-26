@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 26 Nov 2024 10:18:59 -0000
-Message-Id: <173261633908.3020615.11801928259765476067@gitolite.kernel.org>
+Date: Tue, 26 Nov 2024 10:19:13 -0000
+Message-Id: <173261635386.3020933.15016038746511204508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 7eb5d00d948bb5158daf3300cd08a7a1604b667c
-    new: 3c272a7551af1c10f6dbba0e71add7dccc7733fa
+  - ref: refs/tags/loongarch-6.13
+    old: 0b376931b3651f75110326c64fbe0187aa31a7d4
+    new: 299203957a6416e793e6a80f9c6c20303322dc11
     log: |
          e67e0eb6a98b261caf45048f9eb95fd7609289c0 LoongArch: Explicitly specify code model in Makefile
          947d5d036c788156f09e83e7f16322ffe8124384 LoongArch: Fix build failure with GCC 15 (-std=gnu23)
