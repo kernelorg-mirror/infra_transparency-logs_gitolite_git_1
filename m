@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5504360099161336841=="
+Content-Type: multipart/mixed; boundary="===============6807560355199144815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 26 Nov 2024 21:40:20 -0000
-Message-Id: <173265722060.3610332.9259538779363176906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 26 Nov 2024 21:52:17 -0000
+Message-Id: <173265793780.3618946.17005637457354136345@gitolite.kernel.org>
 
---===============5504360099161336841==
+--===============6807560355199144815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 445d9f05fa149556422f7fdd52dacf487cc8e7be
-    new: 6daf0882c63a9f9347a1268a042652fffaa99509
-    log: revlist-445d9f05fa14-6daf0882c63a.txt
+    old: 0f12fa73178baa6ec8d2cef04c20ea405d169dad
+    new: 7c127e8cdaac1d5989582959d718ae4fa1bd9e50
+    log: |
+         7c127e8cdaac1d5989582959d718ae4fa1bd9e50 Periodic update from keyservers
+         
 
---===============5504360099161336841==
+--===============6807560355199144815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-445d9f05fa14-6daf0882c63a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e0020ba6cbcbfbaaa50c3d4b610c7caa36459624 rust: add PidNamespace
-4a530a7c751d27f9dbd70b7fc45670cd11713b13 fs: prepare for "explicit connectable" file handles
-c374196b2b9f4b803fccd59ed82f0712041e21e1 fs: name_to_handle_at() support for "explicit connectable" file handles
-a20853ab8296d4a8754482cb5e9adde8ab426a25 fs: open_by_handle_at() support for decoding "explicit connectable" file handles
-a312c10c0186b3fa6e6f9d4ca696913372804fae Merge patch series "API for exporting connectable file handles to userspace"
-56bd06c2640b78cef985159e03f42bf3897013ff ecryptfs: Factor out mount option validation
-92f3da0d9276f921af49a05c2684fca45e1f1c21 ecryptfs: Convert ecryptfs to use the new mount API
-2cc789654a36e2561c2c96332a684e351b10f13f Merge patch series "ecryptfs: convert to the new mount API"
-7ff3e945a35ac472c6783403eae1e7519d96f1cf ecryptfs: Fix spelling mistake "validationg" -> "validating"
-9ad8d22f2f3fad7a366c9772362795ef6d6a2d51 Merge tag 'vfs-6.13.rust.pid_namespace' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-1675db5c42b780f8a6d45d080d5ac037d9714f7a Merge tag 'vfs-6.13.exportfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6daf0882c63a9f9347a1268a042652fffaa99509 Merge tag 'vfs-6.13.ecryptfs.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+certificate version 0.1
+pusher B6C41CE35664996C! 1732657965 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1732657936-b59b946f6d64dd2469b12bdf50bb2bc36d68c131
 
---===============5504360099161336841==--
+0f12fa73178baa6ec8d2cef04c20ea405d169dad 7c127e8cdaac1d5989582959d718ae4fa1bd9e50 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ0ZDLQAKCRC2xBzjVmSZ
+bBTmAP9Yv97DEEKtu2cE4PYj7O+X1V172juEfBRuPuX3d3Q6wgEA8ERlhJVUBvY5
+kzOUyJR7fz4QV5BHLcNfcjt7qvUzYQM=
+=0r+F
+-----END PGP SIGNATURE-----
+
+--===============6807560355199144815==--
