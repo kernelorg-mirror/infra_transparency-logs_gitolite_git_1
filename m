@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 26 Nov 2024 10:28:43 -0000
-Message-Id: <173261692338.3029228.12217952751278916998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 26 Nov 2024 10:41:27 -0000
+Message-Id: <173261768750.3040123.13545613193145026205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/rust-v6.13.pid_namespace
+  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
     old: 0000000000000000000000000000000000000000
-    new: e1621df93d3a8339451e5d26cccace498249dda9
+    new: 27905aa35c94bc3aaac83e7b55d001ce233f0a01
