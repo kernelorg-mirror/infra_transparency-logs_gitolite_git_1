@@ -1,41 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============5643090126984936479=="
+Content-Type: multipart/mixed; boundary="===============1940928744935411578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-documentation
-Date: Wed, 27 Nov 2024 00:25:53 -0000
-Message-Id: <173266715317.3743360.5884216305581159271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 27 Nov 2024 00:41:22 -0000
+Message-Id: <173266808244.3755415.12847581413012662371@gitolite.kernel.org>
 
---===============5643090126984936479==
+--===============1940928744935411578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-documentation
-user: djwong
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 661d339d50b8e504456d6435ae25246057d21a21
-    new: f512c164a1d0e83a54eabf757be689c3f8bc54a7
-    log: revlist-661d339d50b8-f512c164a1d0.txt
+  - ref: refs/heads/kbuild
+    old: fef35a5fceb0b7ebbde8300d59a8f3a031f0bdda
+    new: 5f2d24bd887d1ee1f992fbac6a06e8c9096d63e7
+    log: revlist-fef35a5fceb0-5f2d24bd887d.txt
 
---===============5643090126984936479==
+--===============1940928744935411578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-661d339d50b8-f512c164a1d0.txt
+Content-Disposition: attachment; filename=revlist-fef35a5fceb0-5f2d24bd887d.txt
 
-d1eae8f704d8c1e2f9ea4826f542447fbc03059c design: update metadata reconstruction chapter
-50cc5ebc4df7dae77a2634e4231fc6f211048a5a design: document filesystem properties
-7e5b5ce0cdf2ced9f334d505862709cc6020c01f design: move superblock documentation to a separate file
-96dbe1c6444ac99d935d37e23772e10f2307070e design: document the actual ondisk superblock
-9feec865ecec2a6f2bdc83ed2578a1ab8d6f3d39 design: document the changes required to handle metadata directories
-94508b87c93d10b5a63ed9e2a2f28153c6c66bc6 design: move discussion of realtime volumes to a separate section
-770553ba7196cb6afdf67ccabcafaf9df7a31185 design: document realtime groups
-7a34dc0985cf9228b910f4ebf5fb72200d288294 design: document metadata directory tree quota changes
-6d3d7596b8635d7ffee088cf38693a5e40b901c2 design: update metadump v2 format to reflect rt dumps
-368784fa00f920518ac686638c163852a477937c xfs-documentation: release for 6.1[23]
-f512c164a1d0e83a54eabf757be689c3f8bc54a7 Merge tag 'xfsdocs-6.13-updates_2024-11-26' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation
+52892ed6b03a14b961c1df783ed05763758abc73 MIPS: Place __kernel_entry at the beginning of text section
+0043ecea2399ffc8bfd99ed9dbbe766e7c79293c vmlinux.lds.h: Adjust symbol ordering in text output section
+db0b2991ae1aac5ca985ec6fd8ff9bd9b2126c9b vmlinux.lds.h: Add markers for text_unlikely and text_hot sections
+0847420f5e499a7ab518942fff71482179290163 AutoFDO: Enable -ffunction-sections for the AutoFDO build
+2fd65f7afd5a73b685a1651cb651ade120b53e15 AutoFDO: Enable machine function split optimization for AutoFDO
+d5dc95836147f2e25b134c0ca3a0bc1a5867ea29 kbuild: Add Propeller configuration for kernel build
+d63b852430be7fa2b6d7c550ea67e94b6681d0b5 kbuild: Fix Propeller build option
+bb43a59944f45e89aa158740b8a16ba8f0b0fa2b Rename .data.unlikely to .data..unlikely
+dbefa1f31a91670c9e7dac9b559625336206466f Rename .data.once to .data..once to fix resetting WARN*_ONCE
+bcbbf493f2fa6fa1f0832f6b5b4c80a65de242d6 kbuild: deb-pkg: Don't fail if modules.order is missing
+0afd73c5f5c606b0f8f8ff036e4f5d6c4b788d02 kbuild: replace two $(abs_objtree) with $(CURDIR) in top Makefile
+214c0eea43b2ea66bcd6467ea57e47ce8874191b kbuild: add $(objtree)/ prefix to some in-kernel build artifacts
+5ea172165400e6efaa88989c837d2077c49161d8 kbuild: rename abs_objtree to abs_output
+d17113601909eb43c29cbb3449fd49db427ff6be kbuild: use 'output' variable to create the output directory
+a0e1364558688b5993637d434023391b7784ffb1 kbuild: change working directory to external module directory with M=
+d66884aed9b48bb24e97771933289d69cc868d35 kbuild: remove extmod_prefix, MODORDER, MODULES_NSDEPS variables
+df77c598e71011bdfd3ae44b487a52cc7dd41967 kbuild: support building external modules in a separate build directory
+ce0f7096c1cdf23415195c42d67944a5cbb01772 kbuild: support -fmacro-prefix-map for external modules
+287e1414d2aa909cd4d3487074fc992955421da8 kbuild: use absolute path in the generated wrapper Makefile
+d51689f73f19c14bad8d3ee3e940986b985a59d1 kbuild: make wrapper Makefile more convenient for external modules
+2ce51fe58d2dbbd36d71828edb8c236d40cabb02 kbuild: allow to start building external modules in any directory
+f814551e41afc7d78169047fcd63d4d8ef01e9b3 kbuild: do not pass -r to genksyms when *.symref does not exist
+f38368c37225830163ad5ad3c93e107aa52ae761 kbuild: remove support for single %.symtypes build rule
+64f650ba3bf273c44bbfb00144ccac37d44e0db7 kbuild: move cmd_cc_o_c and cmd_as_o_S to scripts/Malefile.lib
+cb59f296e7e65a5997cbcd97138b5335de622fcf kbuild: enable objtool for *.mod.o and additional kernel objects
+8d877e82eb82990f07e21de1557f7b8d631f0729 kbuild: re-enable KCSAN for autogenerated *.mod.c intermediaries
+87ab684e63755ea13fdf35418bcd959e93188e07 kbuild: switch from lz4c to lz4 for compression
+a7b7b70978d464c5d28a69854473fcd6c49dc4f6 setlocalversion: work around "git describe" performance
+67918738739ea07ecdc5ecb56a943c64d22dea2c setlocalversion: add -e option
+f44350f1b2833fb32a5592c4a2eef2ded93157b7 modpost: remove incorrect code in do_eisa_entry()
+5006bbd4979f0095dbdac47ea416b496bb35ca18 modpost: remove unnecessary check in do_acpi_entry()
+6975e7d897d7899f652d7fe2ddd3f83141bcd0b7 modpost: introduce module_alias_printf() helper
+3ad9cc087728771cc118032e392cff98177cb0c4 modpost: deduplicate MODULE_ALIAS() for all drivers
+6b2c9cbeb73cf5be866a3d1d8754d69157b01049 modpost: remove DEF_FIELD_ADDR_VAR() macro
+553caa5832e8aa096610f5eccb17521f25d945bb modpost: pass (struct module *) to do_*_entry() functions
+478085e9687504cff4e353f087436c959bde1eec modpost: call module_alias_printf() from all do_*_entry() functions
+32b29e4f671e30ef3840b842dd0f248c8e85d181 modpost: convert do_pnp_card_entries() to a generic handler
+3ef4bb6954e3ba0f036a7bd229d3c96aed7f8750 modpost: convert do_pnp_device_entry() to a generic handler
+897fc0f6dba476737fb7c2149d336469997926c5 modpost: convert do_of_table() to a generic handler
+5072f364b300d59ff2a7a853944964736515db38 modpost: convert do_usb_table() to a generic handler
+ecdebc0aac3f890a766be4f8f066c0334b5ba9d6 modpost: move strstarts() to modpost.h
+aa876f586be4475cce61a666000d4fdc20b6bb18 modpost: rename variables in handle_moddevtable()
+076addb06233d6fbee845c29148a13ee7df4fe73 modpost: rename alias symbol for MODULE_DEVICE_TABLE()
+016a88deb9fb66395f06d7eaae6bf4267aea2bdc modpost: improve error messages in device_id_check()
+ca57a6257ca95b5a27fe4445cab4b6947ed2ee08 genksyms: reduce indentation in export_symbol()
+2439f90dba7c1c15e115f631a950dc2aa8cee836 kbuild: deb-pkg: add python3:native to build dependency
+a3db3d5fa9cb0a800c309a4ba933e40c6f53dbfa modpost: replace tdb_hash() with hash_str()
+1cefa3fc1ffd8b969eea23b655b738cfb793befa kbuild: add dependency from vmlinux to resolve_btfids
+2eaacae8e5b3dc7bbd46c88cd08f653e64c4113b gitignore: Don't ignore 'tags' directory
+5f2d24bd887d1ee1f992fbac6a06e8c9096d63e7 kbuild: rename .tmp_vmlinux.kallsyms0.syms to .tmp_vmlinux0.syms
 
---===============5643090126984936479==--
+--===============1940928744935411578==--
