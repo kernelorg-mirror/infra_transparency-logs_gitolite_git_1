@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 27 Nov 2024 08:12:34 -0000
-Message-Id: <173269515486.4117321.9155835405070320812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 27 Nov 2024 08:13:44 -0000
+Message-Id: <173269522419.4117842.10067885393626849772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/tags/dmaengine-6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f2a5b34267a1bc5ec22048080e3cf6b0ee3a4ab8
+  - ref: refs/heads/main
+    old: eb24054faa67750a37e29037cb0ab9cbfdf0174c
+    new: 8032700b7a44df2dd54af478940938958c08dcf0
+    log: |
+         8032700b7a44df2dd54af478940938958c08dcf0 imsm: fix tpv drvies check in add_to_super
+         
