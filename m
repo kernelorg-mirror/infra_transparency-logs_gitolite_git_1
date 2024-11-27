@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1940928744935411578=="
+Content-Type: multipart/mixed; boundary="===============4439257145115516060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 27 Nov 2024 00:41:22 -0000
-Message-Id: <173266808244.3755415.12847581413012662371@gitolite.kernel.org>
+Date: Wed, 27 Nov 2024 00:41:35 -0000
+Message-Id: <173266809554.3755732.13616367494583657070@gitolite.kernel.org>
 
---===============1940928744935411578==
+--===============4439257145115516060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: fef35a5fceb0b7ebbde8300d59a8f3a031f0bdda
     new: 5f2d24bd887d1ee1f992fbac6a06e8c9096d63e7
     log: revlist-fef35a5fceb0-5f2d24bd887d.txt
 
---===============1940928744935411578==
+--===============4439257145115516060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ a3db3d5fa9cb0a800c309a4ba933e40c6f53dbfa modpost: replace tdb_hash() with hash_s
 2eaacae8e5b3dc7bbd46c88cd08f653e64c4113b gitignore: Don't ignore 'tags' directory
 5f2d24bd887d1ee1f992fbac6a06e8c9096d63e7 kbuild: rename .tmp_vmlinux.kallsyms0.syms to .tmp_vmlinux0.syms
 
---===============1940928744935411578==--
+--===============4439257145115516060==--
