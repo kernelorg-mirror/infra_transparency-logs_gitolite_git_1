@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0992964523139551888=="
+Content-Type: multipart/mixed; boundary="===============8157488453133349200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 27 Nov 2024 15:59:00 -0000
-Message-Id: <173272314025.297095.6328466279619200597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 27 Nov 2024 15:59:03 -0000
+Message-Id: <173272314359.297210.3509241585058005194@gitolite.kernel.org>
 
---===============0992964523139551888==
+--===============8157488453133349200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: aaf20f870da056752f6386693cc0d8e25421ef35
     log: revlist-7eef7e306d3c-aaf20f870da0.txt
 
---===============0992964523139551888==
+--===============8157488453133349200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -756,4 +756,4 @@ b50ecc5aca4d18f1f0c4942f5c797bc85edef144 Merge tag 'perf-tools-for-v6.13-2024-11
 08906abc8c6e3a64f7d02965b657a3c6c159cd96 Merge tag 'rproc-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 aaf20f870da056752f6386693cc0d8e25421ef35 Merge tag 'rpmsg-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============0992964523139551888==--
+--===============8157488453133349200==--
