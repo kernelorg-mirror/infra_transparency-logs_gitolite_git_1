@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9147403583541103195=="
+Content-Type: multipart/mixed; boundary="===============5691723126999239937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 27 Nov 2024 14:16:44 -0000
-Message-Id: <173271700462.214100.14299059209930465573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 27 Nov 2024 14:18:28 -0000
+Message-Id: <173271710839.214813.15536481917748407820@gitolite.kernel.org>
 
---===============9147403583541103195==
+--===============5691723126999239937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: ffd1cf0443a208b80e40100ed02892d2ec74c7e9
-    new: ff2a7a064a69069554564f52b6a84fc8a8c7d688
-    log: revlist-ffd1cf0443a2-ff2a7a064a69.txt
+  - ref: refs/heads/timers/urgent
+    old: b5413156bad91dc2995a5c4eab1b05e56914638a
+    new: 299130166e70124956c865a66a3669a61db1c212
+    log: revlist-b5413156bad9-299130166e70.txt
 
---===============9147403583541103195==
+--===============5691723126999239937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffd1cf0443a2-ff2a7a064a69.txt
+Content-Disposition: attachment; filename=revlist-b5413156bad9-299130166e70.txt
 
 08b97fbd13de79744b31d2b3c8a0ab1a409b94fa clocksource/drivers/arm_arch_timer: Use of_property_present() for non-boolean properties
 b773c086ed58c7e9111a4d4f251a98db3d4165d8 ALSA: compress_offload: Add missing descriptions in structs
@@ -1049,6 +1049,6 @@ e06635e26cd8144eee17e9f256e8fde8aed3ba4f Merge tag 'slab-for-6.13-v2' of git://g
 222974c6ec9d901f7ad13bbe6e505ec1f1d822d4 iommu: remove stale declaration left over by a merge conflict
 0637a68b9c6c1dfffcc1fca003cb7cd3257c3c03 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 7eef7e306d3c40a0c5b9ff6adc9b273cc894dbd5 Merge tag 'for-6.13/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-ff2a7a064a69069554564f52b6a84fc8a8c7d688 Merge tag 'gfs2-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+299130166e70124956c865a66a3669a61db1c212 ntp: Remove invalid cast in time offset math
 
---===============9147403583541103195==--
+--===============5691723126999239937==--
