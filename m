@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5190189361733908927=="
+Content-Type: multipart/mixed; boundary="===============5643090126984936479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-documentation
-Date: Wed, 27 Nov 2024 00:25:28 -0000
-Message-Id: <173266712873.3743006.18343671392105829247@gitolite.kernel.org>
+Date: Wed, 27 Nov 2024 00:25:53 -0000
+Message-Id: <173266715317.3743360.5884216305581159271@gitolite.kernel.org>
 
---===============5190189361733908927==
+--===============5643090126984936479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-documentation
 user: djwong
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 661d339d50b8e504456d6435ae25246057d21a21
     new: f512c164a1d0e83a54eabf757be689c3f8bc54a7
     log: revlist-661d339d50b8-f512c164a1d0.txt
-  - ref: refs/tags/v2024-11-26
-    old: 0000000000000000000000000000000000000000
-    new: 9afa141f5c971325a696c3237726075f15d51022
 
---===============5190189361733908927==
+--===============5643090126984936479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +38,4 @@ d1eae8f704d8c1e2f9ea4826f542447fbc03059c design: update metadata reconstruction 
 368784fa00f920518ac686638c163852a477937c xfs-documentation: release for 6.1[23]
 f512c164a1d0e83a54eabf757be689c3f8bc54a7 Merge tag 'xfsdocs-6.13-updates_2024-11-26' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-documentation
 
---===============5190189361733908927==--
+--===============5643090126984936479==--
