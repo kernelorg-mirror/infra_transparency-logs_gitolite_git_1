@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7221549842825265063=="
+Content-Type: multipart/mixed; boundary="===============4869998201510982315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 27 Nov 2024 05:39:59 -0000
-Message-Id: <173268599909.3999147.13642747751679327743@gitolite.kernel.org>
+Date: Wed, 27 Nov 2024 05:40:17 -0000
+Message-Id: <173268601797.4001025.13555592545107975162@gitolite.kernel.org>
 
---===============7221549842825265063==
+--===============4869998201510982315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/next-test
+  - ref: refs/heads/next
     old: 3c592ce7991cdf03bc7d139d790ce58c82c5903b
     new: cf89c9434af122f28a3552e6f9cc5158c33ce50a
     log: revlist-3c592ce7991c-cf89c9434af1.txt
 
---===============7221549842825265063==
+--===============4869998201510982315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1732686013 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1732686044 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1732685984-9ede7e0b6f877188418a700f8e08bc65d8be9287
+nonce 1732686015-82e0bdec300cc25ac5bd623dcb74feb6241990ae
 
-3c592ce7991cdf03bc7d139d790ce58c82c5903b cf89c9434af122f28a3552e6f9cc5158c33ce50a refs/heads/next-test
+3c592ce7991cdf03bc7d139d790ce58c82c5903b cf89c9434af122f28a3552e6f9cc5158c33ce50a refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdGsL0ACgkQpnEsdPSH
-ZJQfWRAAnUyAKV2ypSsCy4m5/0xEw/T+pRs9xdDkJeTd3U3T/aCAr9BeC0kLbi0Z
-ZLl6aSsrGSV6Fg9RozKeIfrunFR+Y/9iENQbyWe3Cym3f++qbi2o+5LMQDG4SQvP
-GodvYQ35UBPLu9zWcATDRY1yoMpfQywPM9HvAxjp9tujnd1eo0ZlDHZlVMJRZMpo
-Ip5wZH5DHlzxylThRTAeZP09QsmQELYZndtgIXpBVOr34T3Wyj21oc4SFb7O5FDV
-D3y1+niwHm5t6GQOFwlTGXvrGiq1STGcCbTq/d1LVwQewySrOVn7JAR2d9jssbUi
-viKpls0+CAFYEu5toaZJPVWGVQtWuF5xvRbjwG0603k9EwaovH9dZhCcrBq/6Kqq
-hAKwm9mDH5oR0EWn2g6EvKyEZGTXxKnhUGY/pHSyB9X6NqaiGm5ashDBquagF1hS
-e8VCUyYnc0ZOx8fbhMIvAA0nvy9FbRHuu97d/vxpR2IR3t8m5mN9obNUmHByI5Tx
-UFQIiYD+o+czq7hKmxg57kwU+KSrrUziNPBrnThdGv52zyt3NBwFTgLNZmhln8KN
-w8mnqcjLCYjlf3fv5vZv7b0bPxEqVyxlgAjdTwBsWn9vBDrQJDdNQK8jm0C/A23V
-uYNR6adBvgZV8zfZuWZU70mEUrJw3a8GCzEaxTUo62cHCR6Iwp4=
-=0ROm
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdGsNwACgkQpnEsdPSH
+ZJSHwg//cf2s6op1AgpAx4YK6hO3+TifBmHnjaro/xN2ZW2yO7eJwypxoiVx1Gk/
+W6VybB+BqMMlgoaMKGzODkz/R8+uzg6WzSkTOIyDTwZSGlEatsTJcR22dlEYNYqd
+nOKMERzBXVba/BaCcBYyabjVnrSKD4oj9ol4WTsOc6weE5cHK/X/X2wmmyXgOeXW
+TKXDUDq9LVpvQ9gaP/vLH1Div3e/5qgY3q4CiO702IxLKG/I8LSamCbxpXvuBTij
+z7gi+ZKIjpPwLpATuLkkAHrpyaocT028/OEgD1nQtRcLV7ARYMTGk2ijh5Ty918z
+3G7KXiZl++gVtbUZMuJWtGSwe0Ko+6GZV4ly1EE++t+iRCUl+WkPXDin9W9spcgw
+jjdmDA1fytcVfL2JdipK4RE+jqRNoMWwYsIJzBFDWR0I72LIgQStftNLUkeO2kHt
+wGyxqxkiaiLYIS9j2eeucpp9DSJNcOfLSuMcUoUXtLm9Z9f+LHw1C8gegDcG4PYN
+6c5BH/IyAob4hw/dyMUTXo1t+lHsiO3P0dEg2mC+hZJheG3Dh56mkCv0qzWtx0wD
+cPHSCf/RQhjHzmeWUtXOLnAFYhtwvFe4CT+FO1chanOuXqTbN/+VpLTw2UtG22j+
+Rv6BFeCseldHwEdheearnsz7BAVP+Y5BpKAie5CRkiJRcGfdDQU=
+=xFtE
 -----END PGP SIGNATURE-----
 
---===============7221549842825265063==
+--===============4869998201510982315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,4 +1081,4 @@ e4a4565489622b29cc4208d117828596207ee6f6 powerpc/machdep: Remove duplicated incl
 a74769564eb0a94c41a6224ee81230554c167f71 docs: ABI: sysfs-bus-event_source-devices-vpa-pmu: Fix htmldocs errors
 cf89c9434af122f28a3552e6f9cc5158c33ce50a powerpc/prom_init: Fixup missing powermac #size-cells
 
---===============7221549842825265063==--
+--===============4869998201510982315==--
