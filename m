@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8231640360903585663=="
+Content-Type: multipart/mixed; boundary="===============1220296673368530186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 Nov 2024 17:42:07 -0000
-Message-Id: <173272932787.382214.17050161556571004401@gitolite.kernel.org>
+Date: Wed, 27 Nov 2024 17:42:36 -0000
+Message-Id: <173272935648.382620.3613825926852689194@gitolite.kernel.org>
 
---===============8231640360903585663==
+--===============1220296673368530186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6ff908de1eafb53f31db75d929b7566a87847d2d
-    new: 47fce2fe427094965df59478bc0642185172120c
-    log: revlist-6ff908de1eaf-47fce2fe4270.txt
+    old: 47fce2fe427094965df59478bc0642185172120c
+    new: 233556ac49d48a2030e8a0cc6d651062f624539b
+    log: |
+         58b98b10d6b35342185377ec8fc4b7ca0be4ec47 Merge branch into tip/master: 'irq/urgent'
+         afb7955d33d6a57c681a7d088a6e36ee86ef55a3 Merge branch into tip/master: 'x86/urgent'
+         f6ec5de7667dc99e4c969714b2cca448b5ef342c Merge branch into tip/master: 'perf/core'
+         233556ac49d48a2030e8a0cc6d651062f624539b Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: d29bdce2c7b62192e8073695f625fad1f71a990b
+    new: afb7955d33d6a57c681a7d088a6e36ee86ef55a3
+    log: revlist-d29bdce2c7b6-afb7955d33d6.txt
 
---===============8231640360903585663==
+--===============1220296673368530186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ff908de1eaf-47fce2fe4270.txt
+Content-Disposition: attachment; filename=revlist-d29bdce2c7b6-afb7955d33d6.txt
 
 43731516facc3257b514e5c45ae80664b28d3ca3 mm/util: deduplicate code in {kstrdup,kstrndup,kmemdup_nul}
 3240aadaccc15d781d1669965ccad230a8c4a175 drm: replace strcpy() with strscpy()
@@ -1048,7 +1057,7 @@ aaf20f870da056752f6386693cc0d8e25421ef35 Merge tag 'rpmsg-v6.13' of git://git.ke
 3b832035387ff508fdcf0fba66701afc78f79e3d Revert "fs: don't block i_writecount during exec"
 b5287c55dedae89f273f505197244d9ece1d42d9 Merge tag 'vfs-6.13.exec.deny_write_access.revert' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7d4050728c83aa63828494ad0f4d0eb4faf5f97a Merge tag 'vfs-6.13-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d570d00291bd85e10b18640c1566ea1601ec6d15 Merge branch 'linus'
-47fce2fe427094965df59478bc0642185172120c Merge branch into tip/master: 'irq/urgent'
+58b98b10d6b35342185377ec8fc4b7ca0be4ec47 Merge branch into tip/master: 'irq/urgent'
+afb7955d33d6a57c681a7d088a6e36ee86ef55a3 Merge branch into tip/master: 'x86/urgent'
 
---===============8231640360903585663==--
+--===============1220296673368530186==--
