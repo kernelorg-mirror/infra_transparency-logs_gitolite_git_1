@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 27 Nov 2024 04:37:57 -0000
-Message-Id: <173268227701.3949555.341497020178929226@gitolite.kernel.org>
+Date: Wed, 27 Nov 2024 04:52:26 -0000
+Message-Id: <173268314610.3961321.5972908407284502454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
-  - ref: refs/heads/static-key-noinstr
-    old: fac7e09eefcc90f2cb34afeb1d0c52bfd1f25857
-    new: 51fd13276df848dcb320bf7ff423f73364b06266
+  - ref: refs/heads/uaccess-hardening-2
+    old: abb6abd4769adf11db312fb23360ccd7bf128763
+    new: fe61a94918d25569e09dcdbdd5c8f67b2736f540
     log: |
-         51fd13276df848dcb320bf7ff423f73364b06266 objtool: Add noinstr validation for static branches/calls
+         f9a6dbb2d60f379d854056d6dc354cd2dad3166f x86/bug: Add asm implementation of WARN_ONCE()
+         fe61a94918d25569e09dcdbdd5c8f67b2736f540 x86/uaccess: Avoid barrier_nospec() in 64-bit __get_user()
          
