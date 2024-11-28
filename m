@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5500189012957977404=="
+Content-Type: multipart/mixed; boundary="===============3696127333894579924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 28 Nov 2024 12:41:36 -0000
-Message-Id: <173279769691.1288236.15341525770083644914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 28 Nov 2024 12:49:45 -0000
+Message-Id: <173279818520.1294253.1302910011972144326@gitolite.kernel.org>
 
---===============5500189012957977404==
+--===============3696127333894579924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/fsnotify_hsm
-    old: 5368a4f8fe21e02fbad25597ef2969fc595680fe
-    new: 34e7744bdcfeeb2128afd6a8540a161333810d79
-    log: revlist-5368a4f8fe21-34e7744bdcfe.txt
+  - ref: refs/heads/sched/urgent
+    old: f7382c3d064a5112ab89b4d6bc772e2eac2e0a66
+    new: 0bd84223f5269f6e3428efa70dedc3f3d42decf6
+    log: revlist-f7382c3d064a-0bd84223f526.txt
 
---===============5500189012957977404==
+--===============3696127333894579924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5368a4f8fe21-34e7744bdcfe.txt
+Content-Disposition: attachment; filename=revlist-f7382c3d064a-0bd84223f526.txt
 
+829ed626499c11c9d11c65e93febc1e0da7cd61b iommufd: Add IOMMU_IOAS_CHANGE_PROCESS
+c0dec4b848ce5110e95095d0d0ae46724beb70ec iommufd: IOMMU_IOAS_CHANGE_PROCESS selftest
+4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
+cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d96c77bd4eeba469bddbbb14323d2191684da82a KVM: x86: switch hugepage recovery thread to vhost_task
+22e87bf3f77c18f5982c19ffe2732ef0c7a25f16 vfio/mlx5: Fix an unwind issue in mlx5vf_add_migration_pages()
+cb04444c243c001fc27f275e84792ff1c2b96867 vfio/mlx5: Fix unwind flows in mlx5vf_pci_save/resume_device_data()
+fbfbf86685b3270dc27d1c5d6108532334aaf329 cgroup/cpuset: Disable cpuset_cpumask_can_shrink() test if not load balancing
+a4af89cc50f3c1035c1e0dfb50948a23107f3e95 sched_ext: ops.cpu_acquire() should be called with SCX_KF_REST
+a79993b5fce69e97f900bb975f6127e25cebf130 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 fe4f9b4124967ffb75d66994520831231b779550 perf trace: Fix tracing itself, creating feedback loops
 e7c70ee7c9aa7420d22b47d8951f4b5fef4554ea perf probe: Fix error message for failing to find line range
 47fa0f99a9aa962bac8e6da09cb104e8da94e4df perf probe: Fix to ignore escaped characters in --lines option
@@ -465,6 +475,7 @@ e3f8064d8b29036f037fd1ff6000e5d959d84843 ALSA: hda: Poll jack events for LS7A HD
 9c98750eb3079ee6e47a448fe095347821a21b45 MAINTAINERS: Use Daniel Thompson's korg address for kgdb work
 24b2455fe8fce17258fab4bb945d8e6929baeb77 kdb: fix ctrl+e/a/f/b/d/p/n broken in keyboard mode
 200b977ebbc313a59174ba971006a231b3533dc5 dlm: fix dlm_recover_members refcount on error
+21d1b618b6b9da46c5116c640ac4b1cc8d40d63a fsnotify: Fix ordering of iput() and watched_objects decrement
 60b1f578b5789730d81460d1836dec7fa60510bf ftrace: Get the true parent ip for function tracer
 cdc905d16b07981363e53a21853ba1cf6cd8e92a posix-timers: Fix spurious warning on double enqueue versus do_exit()
 6ac81fd55e8af8e78a716b4ba213c8c6381d94fd Merge tag 'vfs-6.13.mgtime' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1031,24 +1042,13 @@ c94696977527f69cbb41aa6a9af9d1991895d002 Merge tag 'loongarch-6.13' of git://git
 92b459d82a6ec472d01f18edd532946aea80df6a Merge tag 'thermal-6.13-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 79525e24af2f3046a5b4ed39a0ac6d0c00aa0892 Merge tag 'pm-6.13-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 b86545e02e8c22fb89218f29d381fa8e8b91d815 Merge tag 'acpi-6.13-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-8adc64d0221775240349448e8d6437f9191072f9 fs: get rid of __FMODE_NONOTIFY kludge
-19e0e436cd47f457d97fa0bc2f871526f947d9f3 fsnotify: opt-in for permission events at file open time
-a72a6f134b1695989cc8df3c7800a165d0cc7d3b fsnotify: check if file is actually being watched for pre-content events on open
-74094f677916ebd4ad502ec6c1abb6c66d26140a fanotify: don't skip extra event info if no info_mode is set
-874454b5deb54c36f8e3c9a48780eb660e5eacab fanotify: rename a misnamed constant
-035d01a2c5e3aa24770b596c75af82cc0acfda23 fanotify: reserve event bit of deprecated FAN_DIR_MODIFY
-2f7f203aa5b76c4dc11c1ed2d6947f5ede5095af fsnotify: introduce pre-content permission events
-4da248fb9340119a8e837b3f9419c015e6ca341d fsnotify: pass optional file access range in pre-content event
-70ee1660db24d8cc03726c7086fb02420a2beda8 fsnotify: generate pre-content permission event on truncate
-fef79653cf8fceeebcb57624ef106410cba602a7 fanotify: introduce FAN_PRE_ACCESS permission event
-7f193a0a2a6c0b096a8323d24be527dc2df9d872 fanotify: report file range info with pre-content events
-d8a4c388887bb2f36fee5627bd32a4436660b6b8 fanotify: allow to set errno in FAN_DENY permission response
-c59f6f35989837bcb80244dedb4b10817ec8a9d9 fanotify: disable readahead if we have pre-content watches
-9c41b6688466db11fcff937cd5cad28289b8370e mm: don't allow huge faults for files with pre content watches
-dc805feb75303c526d1dece80f652c4d38998598 fsnotify: generate pre-content permission event on page fault
-18a9eb701460fd4fb9163a92629e7c78f8a58b9d xfs: add pre-content fsnotify hook for DAX faults
-1a925d827cadf23f46de4a4b489de822d970ec77 btrfs: disable defrag on pre-content watched files
-4cf37b1b210632ca68ded0c09896bac124c01793 ext4: add pre-content fsnotify hook for DAX faults
-34e7744bdcfeeb2128afd6a8540a161333810d79 fs: enable pre-content events on supported file systems
+e40f931a83eb32db30212a26309457dd2600d97a sched/deadline: Fix replenish_dl_new_period dl_server condition
+a94579085d5eadbf03c34d0019a57ff6a3883935 sched: fix warning in sched_setaffinity
+960e8d8772f83386c4e7ec0a20176f3343e593cb softirq: Allow raising SCHED_SOFTIRQ from SMP-call-function on RT kernel
+af9701b7980566af032e0d2a7b17381ee87ee06d sched/core: Remove the unnecessary need_resched() check in nohz_csd_func()
+fdeedae13fdbed6a5b1b024dd599acea4c78ed3e sched/fair: Check idle_cpu() before need_resched() to detect ilb CPU turning busy
+46bca0798f0951f4137d6cec555bae23520fe74b sched/core: Prevent wakeup of ksoftirqd during idle load balance
+3654967c90db829e45933693558f51456f95fd50 sched/core: Update kernel boot parameters for LAZY preempt.
+0bd84223f5269f6e3428efa70dedc3f3d42decf6 sched/deadline: Fix warning in migrate_enable for boosted tasks
 
---===============5500189012957977404==--
+--===============3696127333894579924==--
