@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 28 Nov 2024 12:16:46 -0000
-Message-Id: <173279620690.1266519.17930456875181570848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 28 Nov 2024 12:16:49 -0000
+Message-Id: <173279620975.1266572.12648482903774784241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/for-next
-    old: a8581099604dfa609a34a3fac8ef5af0d300d2c1
-    new: cc2dba08cc33daf8acd6e560957ef0e0f4d034ed
-    log: |
-         214093534f3c046bf5acc9affbf4e6bd9af4538b xfs: Use xchg() in xlog_cil_insert_pcp_aggregate()
-         cc2dba08cc33daf8acd6e560957ef0e0f4d034ed xfs: don't call xfs_bmap_same_rtgroup in xfs_bmap_add_extent_hole_delay
-         
+  - ref: refs/heads/for-netdev-nf-24-11-28
+    old: 0000000000000000000000000000000000000000
+    new: c24e5dbe2e66a24b1713d893806e3fb340df3501
