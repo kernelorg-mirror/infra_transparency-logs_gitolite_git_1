@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5557804726087143244=="
+Content-Type: multipart/mixed; boundary="===============4516907627235735230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 28 Nov 2024 12:50:00 -0000
-Message-Id: <173279820092.1294519.316604250218086418@gitolite.kernel.org>
+Date: Thu, 28 Nov 2024 12:50:15 -0000
+Message-Id: <173279821519.1296235.16197749503803105760@gitolite.kernel.org>
 
---===============5557804726087143244==
+--===============4516907627235735230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 37c89d5432feddf2878cf3a46797c738c6e636bb
-    new: 3f03bdc6db25738db397a20e27564ff9ceabe312
-    log: revlist-37c89d5432fe-3f03bdc6db25.txt
+  - ref: refs/heads/perf/urgent
+    old: 635bb04acd3dfccd64304ebbcfe44aa6f1cdb8c3
+    new: 4038d64a97a8286649083889c4776305477dfc29
+    log: revlist-635bb04acd3d-4038d64a97a8.txt
 
---===============5557804726087143244==
+--===============4516907627235735230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37c89d5432fe-3f03bdc6db25.txt
+Content-Disposition: attachment; filename=revlist-635bb04acd3d-4038d64a97a8.txt
 
+5ec23a1b53a98dbd7ea33954db5f0fe7110903aa Merge tag 'asoc-fix-v6.12-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+aefff51e1c2986e16f2780ca8e4c97b784800ab5 statmount: retrieve security mount options
+0104dcdaad3a7afd141e79a5fb817a92ada910ac thermal: testing: Initialize some variables annoteded with _free()
+10caa8b45119fa19fa98ea304d49f7e1283062fc iommufd: Export do_update_pinned
+051ae5aa73d782a8be2699a11e17c68f28b4e758 iommufd: Lock all IOAS objects
+09663753bb7c50b33f8e5fa562c20ce275b88237 tracing/ring-buffer: Clear all memory mapped CPU ring buffers on first recording
+829ed626499c11c9d11c65e93febc1e0da7cd61b iommufd: Add IOMMU_IOAS_CHANGE_PROCESS
+c0dec4b848ce5110e95095d0d0ae46724beb70ec iommufd: IOMMU_IOAS_CHANGE_PROCESS selftest
+4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
+cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d96c77bd4eeba469bddbbb14323d2191684da82a KVM: x86: switch hugepage recovery thread to vhost_task
+22e87bf3f77c18f5982c19ffe2732ef0c7a25f16 vfio/mlx5: Fix an unwind issue in mlx5vf_add_migration_pages()
+cb04444c243c001fc27f275e84792ff1c2b96867 vfio/mlx5: Fix unwind flows in mlx5vf_pci_save/resume_device_data()
+fbfbf86685b3270dc27d1c5d6108532334aaf329 cgroup/cpuset: Disable cpuset_cpumask_can_shrink() test if not load balancing
 a4af89cc50f3c1035c1e0dfb50948a23107f3e95 sched_ext: ops.cpu_acquire() should be called with SCX_KF_REST
 a79993b5fce69e97f900bb975f6127e25cebf130 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 fe4f9b4124967ffb75d66994520831231b779550 perf trace: Fix tracing itself, creating feedback loops
@@ -1034,21 +1048,7 @@ c94696977527f69cbb41aa6a9af9d1991895d002 Merge tag 'loongarch-6.13' of git://git
 92b459d82a6ec472d01f18edd532946aea80df6a Merge tag 'thermal-6.13-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 79525e24af2f3046a5b4ed39a0ac6d0c00aa0892 Merge tag 'pm-6.13-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 b86545e02e8c22fb89218f29d381fa8e8b91d815 Merge tag 'acpi-6.13-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e40f931a83eb32db30212a26309457dd2600d97a sched/deadline: Fix replenish_dl_new_period dl_server condition
-a94579085d5eadbf03c34d0019a57ff6a3883935 sched: fix warning in sched_setaffinity
-960e8d8772f83386c4e7ec0a20176f3343e593cb softirq: Allow raising SCHED_SOFTIRQ from SMP-call-function on RT kernel
-af9701b7980566af032e0d2a7b17381ee87ee06d sched/core: Remove the unnecessary need_resched() check in nohz_csd_func()
-fdeedae13fdbed6a5b1b024dd599acea4c78ed3e sched/fair: Check idle_cpu() before need_resched() to detect ilb CPU turning busy
-46bca0798f0951f4137d6cec555bae23520fe74b sched/core: Prevent wakeup of ksoftirqd during idle load balance
-3654967c90db829e45933693558f51456f95fd50 sched/core: Update kernel boot parameters for LAZY preempt.
-0bd84223f5269f6e3428efa70dedc3f3d42decf6 sched/deadline: Fix warning in migrate_enable for boosted tasks
-d6d2ba4f214beb3bbfb6f2a907ef5117abbfee1e sched: Don't try to catch up excess steal time.
-502f3654fbfe15662a1919bbdac44be4173f26d7 sched: add READ_ONCE to task_on_rq_queued
-394a9e451cb2d5585267bf223248ddcce800d6c2 locking: rtmutex: Fix wake_q logic in task_blocks_on_rt_mutex
-42e590dd666febab9f530818fcc913b01845cd7c sched/deadline: Restore dl_server bandwidth on non-destructive root domain changes
-77744f83a8f081b17969dc74f12a74be339fa44f sched/deadline: Correctly account for allocated bandwidth during hotplug
-aff7f93e505cc3b3183708fa4f4942534215a19c sched/deadline: Check bandwidth overflow earlier for hotplug
-96cb2aaea74efab1e855f7476db8645d3017a0d7 sched/deadline: Consolidate Timer Cancellation
-3f03bdc6db25738db397a20e27564ff9ceabe312 sched/fair: Remove CONFIG_CFS_BANDWIDTH=n definition of cfs_bandwidth_used()
+5c325d2c34228787066f8615845b27506e685aba perf/x86/intel: Add Arrow Lake U support
+4038d64a97a8286649083889c4776305477dfc29 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
 
---===============5557804726087143244==--
+--===============4516907627235735230==--
