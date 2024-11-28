@@ -1,41 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 28 Nov 2024 14:25:38 -0000
-Message-Id: <173280393836.1372191.12948787910128643872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Thu, 28 Nov 2024 14:39:44 -0000
+Message-Id: <173280478412.1382128.15216270109514799820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/features
-    old: 487ef5d4d912f6a32556d8a61cede17870925295
-    new: 889221c4d78d754023bec8edec13d11a13b3fb51
+  - ref: refs/heads/fsnotify_hsm
+    old: 34e7744bdcfeeb2128afd6a8540a161333810d79
+    new: 4f77d683c51a543a6c6dd64919ca07284a701a81
     log: |
-         adb44a4bfc8a3312d2a13cc09d2b89d5828e7702 s390/mm/hugetlbfs: Add missing includes
-         48796104c864cf4dafa80bd8c2ce88f9c92a65ea s390/pci: Fix leak of struct zpci_dev when zpci_add_device() fails
-         c4a585e952ca403a370586d3f16e8331a7564901 s390/pci: Fix potential double remove of hotplug slot
-         b5f463486b212c56d837c2592d87de7fb4833662 s390: Support PREEMPT_DYNAMIC
-         78486ed9e76b72d81e7bb142adb47194f95e188d s390/spinlock: Use symbolic names in inline assemblies
-         2c3bc137f1e339c4fa9485ec4028433b8cb7374b s390/spinlock: Remove condition code clobber from arch_spin_unlock()
-         1200f216a3043ad78e89ce1f573fe6d62ed5e5d0 s390/spinlock: Generate shorter code for arch_spin_unlock()
-         84ac96587b2a7a27d2aba250009c45dffb8ab4b6 s390/spinlock: Use R constraint for arch_load_niai4()
-         889221c4d78d754023bec8edec13d11a13b3fb51 s390/spinlock: Use flag output constraint for arch_cmpxchg_niai8()
-         
-  - ref: refs/heads/for-next
-    old: 487ef5d4d912f6a32556d8a61cede17870925295
-    new: 889221c4d78d754023bec8edec13d11a13b3fb51
-    log: |
-         adb44a4bfc8a3312d2a13cc09d2b89d5828e7702 s390/mm/hugetlbfs: Add missing includes
-         48796104c864cf4dafa80bd8c2ce88f9c92a65ea s390/pci: Fix leak of struct zpci_dev when zpci_add_device() fails
-         c4a585e952ca403a370586d3f16e8331a7564901 s390/pci: Fix potential double remove of hotplug slot
-         b5f463486b212c56d837c2592d87de7fb4833662 s390: Support PREEMPT_DYNAMIC
-         78486ed9e76b72d81e7bb142adb47194f95e188d s390/spinlock: Use symbolic names in inline assemblies
-         2c3bc137f1e339c4fa9485ec4028433b8cb7374b s390/spinlock: Remove condition code clobber from arch_spin_unlock()
-         1200f216a3043ad78e89ce1f573fe6d62ed5e5d0 s390/spinlock: Generate shorter code for arch_spin_unlock()
-         84ac96587b2a7a27d2aba250009c45dffb8ab4b6 s390/spinlock: Use R constraint for arch_load_niai4()
-         889221c4d78d754023bec8edec13d11a13b3fb51 s390/spinlock: Use flag output constraint for arch_cmpxchg_niai8()
+         09e7642a7529c3d74181a67512637de5d8c0d0e4 fanotify: introduce FAN_PRE_ACCESS permission event
+         6cc9cb93ac86ada0af3c5f132075b5b6ca7e85dd fanotify: report file range info with pre-content events
+         ac8957a60b20cb18270f25cc18da0d1deb1e1be7 fanotify: allow to set errno in FAN_DENY permission response
+         9dee1a117266990083bf514038a19017bdc21497 fanotify: disable readahead if we have pre-content watches
+         6199ec7fa1ddb7e9c546ae8e549da904a3afb688 mm: don't allow huge faults for files with pre content watches
+         639e471f668cf6e1e5e88b3dd27554146325ffa5 fsnotify: generate pre-content permission event on page fault
+         2c51a242a91859c96bb24a33ea3647e0e5a856b8 xfs: add pre-content fsnotify hook for DAX faults
+         835337ec64dca9da01d689463838bac1c084efcc btrfs: disable defrag on pre-content watched files
+         f05df5c041cd1b31b7e80566c06a3f56b8570e95 ext4: add pre-content fsnotify hook for DAX faults
+         4f77d683c51a543a6c6dd64919ca07284a701a81 fs: enable pre-content events on supported file systems
          
