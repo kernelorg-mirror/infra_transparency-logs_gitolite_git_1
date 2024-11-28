@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Thu, 28 Nov 2024 01:48:39 -0000
-Message-Id: <173275851956.769898.15616755466864853950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 28 Nov 2024 02:12:56 -0000
+Message-Id: <173275997641.789288.11494158441987510505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 4726b0da3383757377069af3975d042348b579fe
-    new: a9a34483d89ff07db3945052141ae487332340ac
+  - ref: refs/heads/dev-test
+    old: e2c770d610123b88f57ab07c42f236b66ffcef9d
+    new: 21c8a16b73491166a498634e285484d7112003f8
     log: |
-         a9a34483d89ff07db3945052141ae487332340ac Slightly briefer cap example.
+         21c8a16b73491166a498634e285484d7112003f8 erofs: fix PSI memstall accounting
          
