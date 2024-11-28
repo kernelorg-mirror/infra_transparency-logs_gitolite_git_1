@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4516907627235735230=="
+Content-Type: multipart/mixed; boundary="===============3698517167610906844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 28 Nov 2024 12:50:15 -0000
-Message-Id: <173279821519.1296235.16197749503803105760@gitolite.kernel.org>
+Date: Thu, 28 Nov 2024 12:50:26 -0000
+Message-Id: <173279822688.1296447.2854343837896885776@gitolite.kernel.org>
 
---===============4516907627235735230==
+--===============3698517167610906844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 635bb04acd3dfccd64304ebbcfe44aa6f1cdb8c3
-    new: 4038d64a97a8286649083889c4776305477dfc29
-    log: revlist-635bb04acd3d-4038d64a97a8.txt
+  - ref: refs/heads/perf/core
+    old: 0d5eb14c1e2ed4a8413458cb3b779f215ff214aa
+    new: 02fae3a65df8f78e7cbe879f5f089a4e46c95d6b
+    log: revlist-0d5eb14c1e2e-02fae3a65df8.txt
 
---===============4516907627235735230==
+--===============3698517167610906844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-635bb04acd3d-4038d64a97a8.txt
+Content-Disposition: attachment; filename=revlist-0d5eb14c1e2e-02fae3a65df8.txt
 
-5ec23a1b53a98dbd7ea33954db5f0fe7110903aa Merge tag 'asoc-fix-v6.12-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-aefff51e1c2986e16f2780ca8e4c97b784800ab5 statmount: retrieve security mount options
-0104dcdaad3a7afd141e79a5fb817a92ada910ac thermal: testing: Initialize some variables annoteded with _free()
-10caa8b45119fa19fa98ea304d49f7e1283062fc iommufd: Export do_update_pinned
-051ae5aa73d782a8be2699a11e17c68f28b4e758 iommufd: Lock all IOAS objects
-09663753bb7c50b33f8e5fa562c20ce275b88237 tracing/ring-buffer: Clear all memory mapped CPU ring buffers on first recording
-829ed626499c11c9d11c65e93febc1e0da7cd61b iommufd: Add IOMMU_IOAS_CHANGE_PROCESS
-c0dec4b848ce5110e95095d0d0ae46724beb70ec iommufd: IOMMU_IOAS_CHANGE_PROCESS selftest
-4abcd80f23357808b0444d261ed08e5a77dbaa9a Merge tag 'bcachefs-2024-11-13' of git://evilpiepirate.org/bcachefs
-cfaaa7d010d1fc58f9717fcc8591201e741d2d49 Merge tag 'net-6.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-d96c77bd4eeba469bddbbb14323d2191684da82a KVM: x86: switch hugepage recovery thread to vhost_task
-22e87bf3f77c18f5982c19ffe2732ef0c7a25f16 vfio/mlx5: Fix an unwind issue in mlx5vf_add_migration_pages()
-cb04444c243c001fc27f275e84792ff1c2b96867 vfio/mlx5: Fix unwind flows in mlx5vf_pci_save/resume_device_data()
-fbfbf86685b3270dc27d1c5d6108532334aaf329 cgroup/cpuset: Disable cpuset_cpumask_can_shrink() test if not load balancing
-a4af89cc50f3c1035c1e0dfb50948a23107f3e95 sched_ext: ops.cpu_acquire() should be called with SCX_KF_REST
-a79993b5fce69e97f900bb975f6127e25cebf130 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-fe4f9b4124967ffb75d66994520831231b779550 perf trace: Fix tracing itself, creating feedback loops
-e7c70ee7c9aa7420d22b47d8951f4b5fef4554ea perf probe: Fix error message for failing to find line range
-47fa0f99a9aa962bac8e6da09cb104e8da94e4df perf probe: Fix to ignore escaped characters in --lines option
-b9e577225c16fae9f5e4d3d642153c64b538c44e perf probe: Accept FUNC@* to specify function name explicitly
-313026f3ced102a9ef044fbde4a806554ccfe959 perf string: Add strpbrk_esq() and strdup_esq() for escape and quote
-080e47b2a2377f9cfad7bc7fa074e9819eafa394 perf probe: Introduce quotation marks support
-6b76bf8f3b79fc8e2bac4ecd6fe925f18fdfd14a Merge tag 'drm-intel-fixes-2024-11-14' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-ad0c6f603bb0b07846fda484c59a176a8cd02838 Bluetooth: btusb: mediatek: move Bluetooth power off command position
 5fbe6f51ca987dfbeab3d06144afc2d2cd835c66 dt-bindings: clock: ti: Convert mux.txt to json-schema
 cea1805f165cdd783dd21f26df957118cb8641b4 Bluetooth: btusb: mediatek: add callback function in btusb_disconnect
 489304e67087abddc2666c5af0159cb95afdcf59 Bluetooth: btusb: mediatek: add intf release flow when usb disconnect
@@ -642,6 +618,9 @@ b2f8240153fb762e23dfc3dd1b042c299b3e265b Merge branches 'clk-mobileye', 'clk-twl
 0cf32b1f37180bba9b7d2c54e902eadc44a4f7a7 Merge branches 'clk-samsung', 'clk-microchip', 'clk-imx', 'clk-amlogic' and 'clk-allwinner' into clk-next
 21a5352dc702d8e6dc874e0eb6ba6d81291a788a Merge branches 'clk-marvell', 'clk-adi', 'clk-qcom' and 'clk-devm' into clk-next
 3c592ce7991cdf03bc7d139d790ce58c82c5903b EDAC/powerpc: Remove PPC_MAPLE drivers
+b9c44b91476b67327a521568a854babecc4070ab perf/core: Save raw sample data conditionally based on sample type
+f226805bc5f60adf03783d8e4cbfe303ccecd64e perf/core: Check sample_type in perf_sample_save_callchain
+faac6f105ef169e2e5678c14e1ffebf2a7d780b6 perf/core: Check sample_type in perf_sample_save_brstack
 6116075e18f79698419f2606d9cb34d23198f7e3 selftests: nic_link_layer: Add link layer selftest for NIC driver
 c087dc54394b3f8a2950007fb17a8937a38fe73a selftests: nic_link_layer: Add selftest case for speed and duplex states
 fbbf93556f0c1ad9b53fd1ec8fd2e67b2debb740 selftests: nic_performance: Add selftest for performance of NIC driver
@@ -1050,5 +1029,26 @@ c94696977527f69cbb41aa6a9af9d1991895d002 Merge tag 'loongarch-6.13' of git://git
 b86545e02e8c22fb89218f29d381fa8e8b91d815 Merge tag 'acpi-6.13-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 5c325d2c34228787066f8615845b27506e685aba perf/x86/intel: Add Arrow Lake U support
 4038d64a97a8286649083889c4776305477dfc29 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
+1f6786d0bfe757d1f09d225ce05794ce285f84d8 Merge branch 'perf/urgent'
+9c23d3ffb141b4788b0f2b136a8870d3c6cf176c perf/x86/intel/ds: Clarify adaptive PEBS processing
+4cd374114904004f59bf524bcc14cacd64472e2a perf/x86/intel/ds: Factor out functions for PEBS records processing
+05006f2f56e0a438550f69f083b0bc232d918043 perf/x86/intel/ds: Simplify the PEBS records processing for adaptive PEBS
+eceab0a6c05e01e7a2ed9b16c45235fa620870e2 perf/x86/rapl: Remove the unused get_rapl_pmu_cpumask() function
+cb24b5a8ac59a8b605891a1f85f50839dfbd3e52 x86/topology: Introduce topology_logical_core_id()
+f0a91132eb4eb5fd909e6a8653e8c4bb877711e4 perf/x86/rapl: Remove the cpu_to_rapl_pmu() function
+8ccd5e0232904c6685159a0f2a1d0408d376ffc9 perf/x86/rapl: Rename rapl_pmu variables
+fcecd18f94490f6ccb27ea935aa84ac7f50eb17f perf/x86/rapl: Make rapl_model struct global
+dd1680fd50454b4f3218c3284b560f4213f0e36f perf/x86/rapl: Add arguments to the init and cleanup functions
+f6a38d2b7b6f00dfa42c3c78fc8da19ea7cfe740 perf/x86/rapl: Modify the generic variable names to *_pkg*
+c846982ac64c82173c06fb99a9dd7dbff488e124 perf/x86/rapl: Remove the global variable rapl_msrs
+923b7d517cf5bc5f432c2bef9599f3fb74f81c04 perf/x86/rapl: Move the cntr_mask to rapl_pmus struct
+65abacd41e84b3d72de431049eb2e0a1640d8ac2 perf/x86/rapl: Add core energy counter support for AMD CPUs
+0676a9a7f78445ec4a8fcaf1e8150c4d85b4bb7e seqlock: add raw_seqcount_try_begin
+6c660ef5a2d86c99035b73bbd8e2c81cfcddf2c5 mm/gup: Use raw_seqcount_try_begin()
+5089fa88edbfac8c3b18db1c27853f683170e437 mm: convert mm_lock_seq to a proper seqcount
+5d2cabb4d57d32299a3467eb8a5f9ad2a01f666d mm: introduce mmap_lock_speculate_{try_begin|retry}
+b6fde39380ce4f028bccb5224946e25bb5687a88 uprobes: simplify find_active_uprobe_rcu() VMA checks
+1e36a148cb1854e596d5eb6d05cd61ce75869245 uprobes: add speculative lockless VMA-to-inode-to-uprobe resolution
+02fae3a65df8f78e7cbe879f5f089a4e46c95d6b perf: map pages in advance
 
---===============4516907627235735230==--
+--===============3698517167610906844==--
