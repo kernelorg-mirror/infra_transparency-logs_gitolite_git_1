@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 28 Nov 2024 19:29:39 -0000
-Message-Id: <173282217995.1662046.1320993974000398926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 28 Nov 2024 19:29:54 -0000
+Message-Id: <173282219405.1662348.17006088097807124520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: ec4e79c678f58814b555de2575ffc67b27dbc8e5
-    new: e6c08272f15b6802bd9832a364074ec7e8a37166
-    log: |
-         ea71da6f0690470e44b2da29a0f7d86990992294 i915: Update Xe2LPD DMC to v2.24
-         e6c08272f15b6802bd9832a364074ec7e8a37166 Merge branch 'intel/dmc/xe2lpd/2.24' into 'main'
-         
+  - ref: refs/heads/dev.2024.11.17a
+    old: 0000000000000000000000000000000000000000
+    new: 9861a4952a3a33d834b9fa5e5e8075cb9531dd99
+  - ref: refs/tags/v6.12
+    old: 0000000000000000000000000000000000000000
+    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
