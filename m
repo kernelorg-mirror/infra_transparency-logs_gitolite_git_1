@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8682104681042423698=="
+Content-Type: multipart/mixed; boundary="===============1524634827591129020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 28 Nov 2024 00:00:11 -0000
-Message-Id: <173275201198.681569.11000432296073434559@gitolite.kernel.org>
+Date: Thu, 28 Nov 2024 00:00:23 -0000
+Message-Id: <173275202356.681769.13102298467436972445@gitolite.kernel.org>
 
---===============8682104681042423698==
+--===============1524634827591129020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 5f2d24bd887d1ee1f992fbac6a06e8c9096d63e7
     new: e6064da6461f989a357f2e280d7f8d4155267c4c
     log: revlist-5f2d24bd887d-e6064da6461f.txt
 
---===============8682104681042423698==
+--===============1524634827591129020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ abd20428c3f2f8b97a2a0414343faf0ff246a018 modpost: convert do_usb_table() to a ge
 4198a4d25141c76021ae65368a5841843ee66098 gitignore: Don't ignore 'tags' directory
 e6064da6461f989a357f2e280d7f8d4155267c4c kbuild: rename .tmp_vmlinux.kallsyms0.syms to .tmp_vmlinux0.syms
 
---===============8682104681042423698==--
+--===============1524634827591129020==--
