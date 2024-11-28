@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 28 Nov 2024 09:28:17 -0000
-Message-Id: <173278609731.1132959.149160560718770165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 28 Nov 2024 10:38:51 -0000
+Message-Id: <173279033104.1186843.17878923031809966838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/main
-    old: 663a917475530feff868a4f2bda286ea4171f420
-    new: 0dd298579794d88f872bdf6a4f48d3a368353d4b
+  - ref: refs/heads/syscon-rework
+    old: c6b50aa192fffd23b1f045bef03d55863ac04480
+    new: c45c71c3d6c75b3e380b97353b7b579926f570cb
     log: |
-         11b6e701bce96f98474084f26821157cb0dccf69 ipmr: add debug check for mr table cleanup
-         f1553c9894b4dbeb10a2ab15ab1aa113b3b4047c ip6mr: fix tables suspicious RCU usage
-         fc9c273d6daaa9866f349bbe8cae25c67764c456 ipmr: fix tables suspicious RCU usage
-         0dd298579794d88f872bdf6a4f48d3a368353d4b Merge branch 'net-fix-mcast-rcu-splats'
+         76c4cd41681a69237b6d411636eb48603c71ba82 clk: microchip: use split out regmap divider type
+         c45c71c3d6c75b3e380b97353b7b579926f570cb split regmap divider into a new compilation unit
          
