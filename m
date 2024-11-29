@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 29 Nov 2024 12:48:20 -0000
-Message-Id: <173288450006.2483928.5068688519276246753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 29 Nov 2024 12:48:28 -0000
+Message-Id: <173288450822.2484093.16702596168069090616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/work.pidfs.file_handle
-    old: b19a4ae89a5f86e6a8bdb1a0a274718863f7683c
-    new: 1ff41b5b8ecaf77f0bf4d8cc7b0e68768b42446d
+  - ref: refs/heads/features
+    old: 889221c4d78d754023bec8edec13d11a13b3fb51
+    new: cc00550b2ae7ab1c7c56669fc004a13d880aaf0a
     log: |
-         adae26f0570b74b374dd98a24b0fc3d31242b9cd exportfs: add open method
-         22e130e248e4d1e783bfb0833503564dbf5db3dd fhandle: pull CAP_DAC_READ_SEARCH check into may_decode_fh()
-         1e50537ca5d3bf89f2f5f97ce5afb2a9d8c7b092 exportfs: add permission method
-         2c792d1cb84b7f9d5d8f784bb3dba6f386344c79 pidfs: implement file handle support
-         1ff41b5b8ecaf77f0bf4d8cc7b0e68768b42446d pidfs: implement file handle support
+         cc00550b2ae7ab1c7c56669fc004a13d880aaf0a Revert "s390/mm: Allow large pages for KASAN shadow mapping"
+         
+  - ref: refs/heads/for-next
+    old: 889221c4d78d754023bec8edec13d11a13b3fb51
+    new: cc00550b2ae7ab1c7c56669fc004a13d880aaf0a
+    log: |
+         cc00550b2ae7ab1c7c56669fc004a13d880aaf0a Revert "s390/mm: Allow large pages for KASAN shadow mapping"
          
