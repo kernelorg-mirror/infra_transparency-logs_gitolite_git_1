@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Fri, 29 Nov 2024 20:30:30 -0000
-Message-Id: <173291223016.2859357.13395118255961561337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 29 Nov 2024 20:40:07 -0000
+Message-Id: <173291280774.2869089.15540288536599404048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/linus-next
-    old: 67a5002ef7d52cf543569490762f3ecc0754ffda
-    new: ae7a0fc2f3ccba7c777277b42533a4417bfa6b81
-    log: |
-         ae7a0fc2f3ccba7c777277b42533a4417bfa6b81 hack
-         
+  - ref: refs/tags/rtc-6.13
+    old: 0000000000000000000000000000000000000000
+    new: 9f2b8ee685295ce27586eec0cf8d2ba76e8653b4
