@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 29 Nov 2024 14:02:52 -0000
-Message-Id: <173288897256.2544870.12678789402078795279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 29 Nov 2024 14:27:09 -0000
+Message-Id: <173289042939.2564466.11770254072001523677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/master
-    old: 9badf04e213a8a37e8e444390f15edb6cfe0e5eb
-    new: cef202d48f5da2d910420c2acdd219c0736d94da
+  - ref: refs/heads/for-6.13/upstream-fixes
+    old: 0b1b0c112437d7547a6588009e08face31b22c47
+    new: 8d355b56f29533e0b0db0d9a2de8bdc05ab27375
     log: |
-         cef202d48f5da2d910420c2acdd219c0736d94da libkmod: expand the deprecated/0xB007FA57 comment
+         8d355b56f29533e0b0db0d9a2de8bdc05ab27375 selftests/hid: fix kfunc inclusions with newer bpftool
          
