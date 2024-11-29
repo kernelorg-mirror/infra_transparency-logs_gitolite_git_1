@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 29 Nov 2024 21:59:45 -0000
-Message-Id: <173291758563.2929210.6110133887415125280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Fri, 29 Nov 2024 22:29:09 -0000
+Message-Id: <173291934986.2951556.4121807991327961502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/uml/linux
+user: rw
 changes:
-  - ref: refs/heads/kvm-arm64/nv-gic
-    old: b03861d3e9672325a1a67fd1fab2a227ca608f09
-    new: 36ca98f3c3ab4db5be05fcfb3243aa51ecc4259c
-    log: |
-         36ca98f3c3ab4db5be05fcfb3243aa51ecc4259c WIP
-         
+  - ref: refs/tags/uml-for-linus-6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: eefb450d5e318b345e847345809d40e1fd5de4fd
