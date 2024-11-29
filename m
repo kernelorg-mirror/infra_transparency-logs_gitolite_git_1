@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5997881547590124007=="
+Content-Type: multipart/mixed; boundary="===============1707738694107421063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 29 Nov 2024 02:11:09 -0000
-Message-Id: <173284626980.1982974.11287934231980205660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 29 Nov 2024 02:14:25 -0000
+Message-Id: <173284646533.1984312.8126845314448402176@gitolite.kernel.org>
 
---===============5997881547590124007==
+--===============1707738694107421063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: d47552124bb0b9527da7a95357ae7d2e6046c4f6
+  - ref: refs/heads/extcon-next
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: adc218676eef25575469234709c2d87185ca223a
-    log: revlist-d47552124bb0-adc218676eef.txt
+    log: revlist-9852d85ec9d4-adc218676eef.txt
 
---===============5997881547590124007==
+--===============1707738694107421063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d47552124bb0-adc218676eef.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-adc218676eef.txt
 
 db87114dcf138b5b1290ba9aa9e29c21297a0b48 Merge tag 'x86_urgent_for_v6.12_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b68c18957029b7be71a73f89a083856305536e1f Merge tag 'usb-6.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
@@ -1051,4 +1051,4 @@ d1aa0c04294e29883d65eac6c2f72fe95cc7c049 mm: revert "mm: shmem: fix data-race in
 f66d6acccbc08b4146f4c2cf9445241f70f5517d Merge tag 'x86_urgent_for_v6.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 adc218676eef25575469234709c2d87185ca223a Linux 6.12
 
---===============5997881547590124007==--
+--===============1707738694107421063==--
