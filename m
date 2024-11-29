@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 29 Nov 2024 16:14:23 -0000
-Message-Id: <173289686347.2652826.2866485747779045178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 29 Nov 2024 16:17:24 -0000
+Message-Id: <173289704465.2656394.12525080908539739254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: bd8cae35f2939e6db035a02a5bac66677024d0f2
-    new: 9032c80cdc7e64bf146ec801fa8917bed6493075
+    old: 3448ad23b34e43a2526bd0f9e1221e8de876adec
+    new: 537a2525eaf76ea9b0dca62b994500d8670b39d5
     log: |
-         9032c80cdc7e64bf146ec801fa8917bed6493075 man/io_uring_register_sync_cancel.3: update io_uring_sync_cancel_reg
+         537a2525eaf76ea9b0dca62b994500d8670b39d5 tools: Override makefile ARCH variable if defined, but empty
          
