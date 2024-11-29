@@ -1,35 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 29 Nov 2024 13:59:51 -0000
-Message-Id: <173288879118.2541652.18180224086298643641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 29 Nov 2024 14:00:22 -0000
+Message-Id: <173288882227.2543588.15365665403279120193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-linus
-    old: 947c4012f8f03a8bb946beb6e5294d5e32817d67
-    new: 9b5f8ee43e48c25fbe1a10163ec04343d750acd0
-    log: |
-         4f9d674377d090e38d93360bd4df21b67534d622 ALSA: usb-audio: Notify xrun for low-latency mode
-         9b5f8ee43e48c25fbe1a10163ec04343d750acd0 ALSA: sh: Use standard helper for buffer accesses
-         
-  - ref: refs/heads/for-next
-    old: 947c4012f8f03a8bb946beb6e5294d5e32817d67
-    new: 9b5f8ee43e48c25fbe1a10163ec04343d750acd0
-    log: |
-         4f9d674377d090e38d93360bd4df21b67534d622 ALSA: usb-audio: Notify xrun for low-latency mode
-         9b5f8ee43e48c25fbe1a10163ec04343d750acd0 ALSA: sh: Use standard helper for buffer accesses
-         
   - ref: refs/heads/master
-    old: 49cbead5b66b3adcfb95680f55cd05bbf33759e0
-    new: 04f10b068ac68a77289942fcfe35af70abd9361e
+    old: da98d970e8726b15b3a34992bd000c8e6708cade
+    new: 9badf04e213a8a37e8e444390f15edb6cfe0e5eb
     log: |
-         4f9d674377d090e38d93360bd4df21b67534d622 ALSA: usb-audio: Notify xrun for low-latency mode
-         9b5f8ee43e48c25fbe1a10163ec04343d750acd0 ALSA: sh: Use standard helper for buffer accesses
-         04f10b068ac68a77289942fcfe35af70abd9361e Merge branch 'for-linus'
+         7cbefe7a328686cefa0267f4739fd38f2dd50995 testsuite: Remove duplicated directory
+         2e18d72cffd012bcc4dc6f921cd95e68dd13ce31 testsuite: Check cmdline for multiple blacklist
+         58d67284a219b40b82d2b363a0d261d48f2f79f0 testsuite: No need to check for not loaded
+         9badf04e213a8a37e8e444390f15edb6cfe0e5eb testsuite: Test that modprobe --show-depends doesn't load module
          
