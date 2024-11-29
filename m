@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 29 Nov 2024 18:27:35 -0000
-Message-Id: <173290485534.2759724.6410316187429318550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 29 Nov 2024 18:41:36 -0000
+Message-Id: <173290569633.2771424.12229936649586793162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/crc-x86
-    old: 0000000000000000000000000000000000000000
-    new: 862da2b2c6da774d5a909c2f902fb0f754f28736
+  - ref: refs/heads/netfs-writeback
+    old: 2aece382e1dadd03231e3133c17ddddd6c6f75bb
+    new: 1daca71a815b0d8cfe3db81a31b6dd3fc0da4b50
+    log: |
+         1daca71a815b0d8cfe3db81a31b6dd3fc0da4b50 netfs: Fix hang in synchronous read due to failed subreq
+         
