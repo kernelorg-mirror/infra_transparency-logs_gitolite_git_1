@@ -1,54 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0536039444149802658=="
+Content-Type: multipart/mixed; boundary="===============2993220675253630305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Sat, 30 Nov 2024 03:18:58 -0000
-Message-Id: <173293673898.3181209.5875446116474809011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 30 Nov 2024 03:29:50 -0000
+Message-Id: <173293739015.3190382.6442985246184866705@gitolite.kernel.org>
 
---===============0536039444149802658==
+--===============2993220675253630305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/kvm-arm64/fsck-debug
-    old: d8df4bddc2071ccef6355a401e1df69fef2e8a6c
-    new: bc1bdf86bf1b41ea2e19b6f9d96380b30d922a49
-    log: revlist-d8df4bddc207-bc1bdf86bf1b.txt
+  - ref: refs/heads/linus-next
+    old: 9f818f6550457f11fe30c17e8752685955135cdb
+    new: 7cc20e37ca0160b25912baa3e05b1a83414a7e02
+    log: revlist-9f818f655045-7cc20e37ca01.txt
 
---===============0536039444149802658==
+--===============2993220675253630305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8df4bddc207-bc1bdf86bf1b.txt
+Content-Disposition: attachment; filename=revlist-9f818f655045-7cc20e37ca01.txt
 
-60ad25e14ab5a4e56c8bf7f7d6846eacb9cd53df KVM: arm64: Pass on SVE mapping failures
-d561491ba927cb5634094ff311795e9d618e9b86 KVM: arm64: vgic-v3: Sanitise guest writes to GICR_INVLPIR
-add570b39f9fc4b830e7f4b487bbc16d74c388ad KVM: arm64: vgic: Make vgic_get_irq() more robust
-e7619f2a2f8f9b10feb784ec6b8ea5320ad3b97e KVM: arm64: vgic: Kill VGIC_MAX_PRIVATE definition
-3b2c81d5feb250dfdcb0ef5825319f36c29f8336 KVM: arm64: vgic-its: Add stronger type-checking to the ITS entry sizes
-0f3a0f23f5621b9a5a28c9235c950caf6e2012d5 KVM: arm64: Mark set_sysreg_masks() as inline to avoid build failure
-54bbee190d42166209185d89070c58a343bf514b KVM: arm64: Ignore PMCNTENSET_EL0 while checking for overflow status
-13905f4547b050316262d54a5391d50e83ce613a KVM: arm64: Use MDCR_EL2.HPME to evaluate overflow of hyp counters
-539134a3dcca4ed4b585fb4abba331956f164287 KVM: arm64: Drop MDSCR_EL1_DEBUG_MASK
-60e84f9b7ff733077db07076445e18a674b7aff0 KVM: arm64: Get rid of __kvm_get_mdcr_el2() and related warts
-3df0275b842260f2a567612f92a6042f2b04480a KVM: arm64: Track presence of SPE/TRBE in kvm_host_data instead of vCPU
-1287e9fa2163b60fbad9f5f15d33901494dd6d76 KVM: arm64: Move host SME/SVE tracking flags to host data
-89b2c5766b828e56142b97b5f78504486e5fb251 KVM: arm64: Evaluate debug owner at vcpu_load()
-9f7d095fb95d494ab220bc8f8305c2a9a3b9a8e0 KVM: arm64: Clean up KVM_SET_GUEST_DEBUG handler
-38b961f681754898e198d890d581dbe3e57d213a KVM: arm64: Select debug state to save/restore based on debug owner
-0cb199f708c9c9a4ccb362b4518277267c19f546 KVM: arm64: Remove debug tracepoints
-b4500e28d736acca40a0aec98856aefe9e09ef24 KVM: arm64: Remove vestiges of debug_ptr
-fc7dc466f3ec79c9a5f43cd77dd11c845dcf7f16 KVM: arm64: Use debug_owner to track if debug regs need save/restore
-0b8be8b755966348a2a769f728b464a9aa777a45 KVM: arm64: Reload vCPU for accesses to OSLAR_EL1
-14e018869aa2245015cd5d9a967779ee729b540c KVM: arm64: Compute MDCR_EL2 at vcpu_load()
-24c83b37316af149bc68a357e9f2c31467662a38 KVM: arm64: Don't hijack guest context MDSCR_EL1
-4f93012e0e2d9e140a6056cb730a21cbce0b1688 KVM: arm64: Manage software step state at load/put
-d593d30835bc7c84b042507fbde71dd15dce6877 KVM: arm64: nv: Honor MDCR_EL2.TDE routing for debug exceptions
-bc1bdf86bf1b41ea2e19b6f9d96380b30d922a49 KVM: arm64: Avoid reading ID_AA64DFR0_EL1 for debug save/restore
+f6e88838400d8872be090c0bc14b36d3a7a12975 smb: client: remove unnecessary checks in open_cached_dir()
+ceaf1451990e3ea7fb50aebb5a149f57945f6e9f smb: client: disable directory caching when dir_cache_timeout is zero
+07bdf9272a01741b43461d666fb870ee00b02480 smb: client: change return value in open_cached_dir_by_dentry() if !cfids
+ab02d8774181b2834247e913f61e471af149979e Update misleading comment in cifs_chan_update_iface
+4bdec0d1f658f7c98749bd2c5a486e6cfa8565d2 smb: client: fix NULL ptr deref in crypto_aead_setkey()
+723f4ef90452aa629f3d923e92e0449d69362b1d cifs: Fix parsing native symlinks relative to the export
+dd26bc067e44956e43a273e6e0a9c1fc4ed32cb7 cifs: Validate content of native symlink
+06a7adf318a30bdcfa1222ed6d2640e6bb266d7b cifs: Add support for parsing WSL-style symlinks
+d3d797e326533794c3f707ce1761da7a8895458c cifs: Improve guard for excluding $LXDEV xattr
+1f48660667efb97c3cf70485c7e1977af718b48b cifs: Validate content of WSL reparse point buffers
+f4ca4f5a36eac9b4da378a0f28cbbe38534a0901 cifs: Fix parsing reparse point with native symlink in SMB1 non-UNICODE session
+28ec614f2f9bfb57a76dd387be67bb6054f96b04 smb: client: allow more DFS referrals to be cached
+b2fe4a8fa0f6b9dbb7d4965f71ec72191cda34f1 smb: client: get rid of @nlsc param in cifs_tree_connect()
+e1481075981d25634961c973ed991ba6ab393e67 smb: client: allow reconnect when sending ioctl
+36008fe6e3dc588e5e9ceae6e82c7f69399eb5d8 smb: client: don't try following DFS links in cifs_tree_connect()
+796733054e4a55c78c1c58c6121a550667ebccbf smb: client: fix noisy message when mounting shares
+3fa640d035e5ae526769615c35cb9ed4be6e3662 smb: During unmount, ensure all cached dir instances drop their dentry
+a65d9d1d893b124917141bd8cdf0e0e47ff96438 ima: uncover hidden variable in ima_match_rules()
+c353ee4fb119a2582d0e011f66a76a38f5cf984d smb: Initialize cfid->tcon before performing network ops
+b9aef1b13a0a92aa7058ba235afb24b5b89153ca cifs: support mounting with alternate password to allow password rotation
+0f0e357902957fba28ed31bde0d6921c6bd1485d cifs: during remount, make sure passwords are in sync
+cda88d2fef7aa7de80b5697e8009fcbbb436f42d cifs: unlock on error in smb3_reconfigure()
+8d7690b3c146f8ae3089918226697bf4e3943032 cifs: update internal version number
+2ce9017809439705addbdae482966bf0210fc8f1 Merge tag '6.13-rc-part2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6 into linus-next
+7cc20e37ca0160b25912baa3e05b1a83414a7e02 Merge tag 'lsm-pr-20241129' of https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm into linus-next
 
---===============0536039444149802658==--
+--===============2993220675253630305==--
