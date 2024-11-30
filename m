@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3937939323276699591=="
+Content-Type: multipart/mixed; boundary="===============3331956554992165720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 30 Nov 2024 20:15:19 -0000
-Message-Id: <173299771992.3976854.4238898668774035905@gitolite.kernel.org>
+Date: Sat, 30 Nov 2024 20:16:35 -0000
+Message-Id: <173299779587.3977734.4165470899128345815@gitolite.kernel.org>
 
---===============3937939323276699591==
+--===============3331956554992165720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: de404344c37f50ec584cba93fde17ea72bbfe263
-    new: 6ceecc9c12ffb12b2afb481c1b9bf112137a782f
-    log: revlist-de404344c37f-6ceecc9c12ff.txt
+  - ref: refs/heads/crc-x86
+    old: 862da2b2c6da774d5a909c2f902fb0f754f28736
+    new: 7fb764a4451ebe7a466ac594f4d552046acd252f
+    log: revlist-862da2b2c6da-7fb764a4451e.txt
 
---===============3937939323276699591==
+--===============3331956554992165720==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-de404344c37f-6ceecc9c12ff.txt
+Content-Disposition: attachment; filename=revlist-862da2b2c6da-7fb764a4451e.txt
 
-602711d566c94c5209f6cef38dcfa0d5ee3f623a iio: frequency: adf4350: Get platform data via dev_get_platdata()
-80253ed8dbe5297a9b3abe35aa16a108bc046b6e iio: gyro: hid-sensor-gyro-3d: Get platform data via dev_get_platdata()
-57063b1d9e73239fa590f05113bf402648c94ad7 iio: imu: st_lsm6dsx: Get platform data via dev_get_platdata()
-a5b2f6548369de1c78db38da3e5f2992844bc63b iio: light: hid-sensor-als: Get platform data via dev_get_platdata()
-d72be90ac66ff1544ce3a830e1471aac2f6f7201 iio: light: hid-sensor-prox: Get platform data via dev_get_platdata()
-e2f4b3063bfcecc2162268fb80118947364939bc iio: light: lm3533-als: Get platform data via dev_get_platdata()
 c2a12a1a4093aded43ee3261d516c4fc7acce162 iio: magnetometer: hid-sensor-magn-3d: Get platform data via dev_get_platdata()
 b1b2cda4c04bf6a6639289132f179ecbcca5fb85 iio: orientation: hid-sensor-incl-3d: Get platform data via dev_get_platdata()
 a6cf377ad2f147283adc5928c3d9d2affe61346b iio: orientation: hid-sensor-rotation: Get platform data via dev_get_platdata()
@@ -1050,5 +1044,11 @@ c2c48c0b5f36e49d4e7ad7cdbb82c653492a9dee lib/crc_kunit.c: add KUnit test suite f
 b3ae27088eb6ad8a739162f9907e6eed463555f0 lib/crc32test: delete obsolete crc32test.c
 4598535d08e33f7e73a75d87ffebe4b9bbcf7d4c powerpc/crc: delete obsolete crc-vpmsum_test.c
 6ceecc9c12ffb12b2afb481c1b9bf112137a782f MAINTAINERS: add entry for CRC library
+8e3ca6707bbfe3a9cf264984ecedfa62879d9931 x86: move ZMM exclusion list into CPU feature flag
+6f3c7e5c201b62d6c2e390a590310f83f0bddf7b scripts/gen-crc-consts: add gen-crc-consts.py
+82c4a19df84973b172abb736b88395ed60f91863 x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+b5d0b034261b8d204509289f591bfa6e4d4a2da5 x86/crc32: implement crc32_le using new template
+b7e3dd82077a42ce6d06f1b34a662e5652f6c490 x86/crc-t10dif: implement crc_t10dif using new template
+7fb764a4451ebe7a466ac594f4d552046acd252f x86/crc32: implement crc32_be using new template
 
---===============3937939323276699591==--
+--===============3331956554992165720==--
