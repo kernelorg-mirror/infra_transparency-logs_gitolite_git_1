@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3944457298165360454=="
+Content-Type: multipart/mixed; boundary="===============4873309328103536818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 30 Nov 2024 02:34:00 -0000
-Message-Id: <173293404084.3143549.13109623681540689173@gitolite.kernel.org>
+Date: Sat, 30 Nov 2024 02:34:29 -0000
+Message-Id: <173293406930.3143893.13891961970151902561@gitolite.kernel.org>
 
---===============3944457298165360454==
+--===============4873309328103536818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 5578b4347bb5d5dfc8eeb8ee2eb8248658707d9b
     new: 2ba9f676d0a2e408aef14d679984c26373bf37b7
     log: revlist-5578b4347bb5-2ba9f676d0a2.txt
 
---===============3944457298165360454==
+--===============4873309328103536818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a0c1ca3934ddffe4f3f2a2bd860283a7b0ca5439 Merge tag 'staging-6.13-rc1' of git://g
 517363b4949e4442dfe54b281ef5a8bbfafa3bbb Merge tag 'sound-fix-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 2ba9f676d0a2e408aef14d679984c26373bf37b7 Merge tag 'drm-next-2024-11-29' of https://gitlab.freedesktop.org/drm/kernel
 
---===============3944457298165360454==--
+--===============4873309328103536818==--
