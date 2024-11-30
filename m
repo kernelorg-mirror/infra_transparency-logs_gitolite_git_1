@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Sat, 30 Nov 2024 02:20:44 -0000
-Message-Id: <173293324415.3133941.9035984645760635369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sat, 30 Nov 2024 02:23:37 -0000
+Message-Id: <173293341726.3135146.17121684571283024079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/tags/lsm-pr-20241129
-    old: 0000000000000000000000000000000000000000
-    new: bc80dae49a3c93976eb1efd4a9f7da3bc540078b
+  - ref: refs/heads/for-dave-check-parallel
+    old: 8591739684dc7bb75ebcd22dded512b362fdc742
+    new: 0000000000000000000000000000000000000000
