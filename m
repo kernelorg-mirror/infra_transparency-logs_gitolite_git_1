@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2934083591944966053=="
+Content-Type: multipart/mixed; boundary="===============6279599122398440197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 01 Dec 2024 13:36:45 -0000
-Message-Id: <173306020557.702295.10472439641330560884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 01 Dec 2024 13:37:02 -0000
+Message-Id: <173306022260.702613.17142524326380785866@gitolite.kernel.org>
 
---===============2934083591944966053==
+--===============6279599122398440197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b
+  - ref: refs/heads/tty-next
+    old: 718632467d88e98816fa01ab12681ef1c2aa56f8
     new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    log: revlist-8cf0b93919e1-bcc8eda6d349.txt
+    log: revlist-718632467d88-bcc8eda6d349.txt
 
---===============2934083591944966053==
+--===============6279599122398440197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733060225 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1733060196-1106017ea1397888acfbdc16268dfb486fac7ba6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733060249 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1733060219-f4cef14ebf4f0d30afa0218e63ae9c1bd028f640
 
-8cf0b93919e13d1e8d4466eb4080a4c4d9d66d7b bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/main
+718632467d88e98816fa01ab12681ef1c2aa56f8 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZoEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kJYQALUx9gLhvVtveDoDi+1p
-CSIhHQ/48eHVerpHAcvP0cJ0N6EW/O7RKCnLxkNyoc87aK1CIkncOuqFY0vJLUw3
-4EEsS/CgHXk1J/WMZjIrksJPXDLoPe2fU7HnRTLK01xMGRwmS8tsm5GDwfVwO4eN
-zGeVeyfm+sZiI1T0gLB8pYX1yg8tLHQQbpiBnsXQLlm0S6tDR0VHV8f786zIVPWS
-wEg/I8aS+ApHfM7/Noksd5lmGdbuLPvutM5FBnQ4QhwPrDWdbhDRFy506fT/kbwM
-nhmgWtUqXvhIw+u6l35Sy99uq7B1eS2clbKeLKnJ8QQsJ4+qS1CODua8qL6r9yCE
-DlP5bHxXfEco9bsIZBBcAw1EC3XHxUlqEhCjTZgPqhBk8XJZe1d/WFSH7hiU7Vo8
-hB/YhclmXPKE7pVXUpQykLn5AsZ0ydXTDK4aKRbpYjZB4dlbHXUE1S6TrsQxADNi
-Zg1x83Z7BXGc/eIK+9GYPl0PT7t0H7JpvWWUxLH6RO35Z+UU/AX48YUM1A/ElYRH
-dfzl+ihMUxjYUQAtDnqzPsZdUvZjIWQPPc8xd1mdVxdK/NrKHjMBrOmdoZMvFtlt
-9GGIp/ypX6rs2HJiu6VKj2KWadfAohx5aqEm+bsYNUa99D55lNfumv+k8p87Mfcx
-KHOES8SxyqsHyNYGXWyWxP07
-=DALy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZpobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ox0P/2r1O8fs7iAdf/dZOUZI
+X+kSoeoLEmnz9i952RE8NZWaWSMjU0TWVPTjWn3VyC1S2KvgEiEXs6GsZpMVeGS9
+CrqNQOG64hDtiVGVNn5aTMydXAXhAKts1W9i3BPoXeY/N/9rT/aKSMK4pw/Q78ec
+pYxheKw/m0yE0SwNY8Rz85DezvWTFZjbzathoLLmvo7iqkN67RffzaIzPwGi0S2+
+qwwK0s/BZBqYMtQFZiDgQnmup3su8phPdJu+npx5lgu7o6dmVJAkVTrBiymUifdh
+a8DAD8ei3qUH3xSgZy6phP9bRxid3rgySj6pVDaSFcXcoT1+ExtakGthXJj25z9g
+0HNgOtTaVoeTJEAtncygqDbPmN7/Uo6pBKshunlOFu9v0lzKrAFubpxPcjlPTgd+
+1MGi/+/MmqJV6MjeO7Ps/MwuosIu3Jyj+vaZPOjltpvsttxG0PSGQjPH2vqDwIny
+REgBeZ7dW0dqoSHcWdSReou4FBt2KoUs1bXhp8zKUTHkur8vGPgh+RwfdbsKgYhm
+wTf7WqN7z8E+umBHiKhuoCJcaw8iHl5bFjksmgG45f5XVgchcHXIg1EQjkjvLih8
+OJSc1hyBDd82bM6+LbLSX4ZVc54+XALuAk4Jj9wBBN7r+svu2fqSIs2LetgQwglf
+MV1W2XiLW/6i3ygd1Kl+OX8S
+=CLNT
 -----END PGP SIGNATURE-----
 
---===============2934083591944966053==
+--===============6279599122398440197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cf0b93919e1-bcc8eda6d349.txt
+Content-Disposition: attachment; filename=revlist-718632467d88-bcc8eda6d349.txt
 
+573bcbe17e98f2cc4d398a15c8ef32dd685cda85 perf: arm-ni: Remove spurious NULL in attribute_group definition
 b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
 e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
 eeecf953d697cb7f0d916f9908a2b9f451bb2667 regulator: qcom-rpmh: Update ranges for FTSMPS525
@@ -1041,7 +1042,6 @@ a0c1ca3934ddffe4f3f2a2bd860283a7b0ca5439 Merge tag 'staging-6.13-rc1' of git://g
 2ba9f676d0a2e408aef14d679984c26373bf37b7 Merge tag 'drm-next-2024-11-29' of https://gitlab.freedesktop.org/drm/kernel
 3c891f7c6a4e90bb1199497552f24b26e46383bc sh: cpuinfo: Fix a warning for CONFIG_CPUMASK_OFFSTACK
 63e72e551942642c48456a4134975136cdcb9b3c sh: intc: Fix use-after-free bug in register_intc_controller()
-718632467d88e98816fa01ab12681ef1c2aa56f8 Revert "serial: sh-sci: Clean sci_ports[0] after at earlycon exit"
 d8b78066f4c9c8ec898bd4246fc4db31d476dd88 Merge tag 'tty-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 5c8418cf4025388bedd4d65ada993f7d3786cc3a PCI/pwrctrl: Unregister platform device only if one actually exists
 109daa2356efe73491e32a3b2431c8bf57a6c58e Merge tag '6.13-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
@@ -1082,4 +1082,4 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============2934083591944966053==--
+--===============6279599122398440197==--
