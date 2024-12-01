@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1582928109458855585=="
+Content-Type: multipart/mixed; boundary="===============8892325940968927600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 01 Dec 2024 18:03:22 -0000
-Message-Id: <173307620252.907280.9264350380243869156@gitolite.kernel.org>
+Date: Sun, 01 Dec 2024 18:04:36 -0000
+Message-Id: <173307627626.908364.8805566752700563486@gitolite.kernel.org>
 
---===============1582928109458855585==
+--===============8892325940968927600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs-6.14.pidfs
-    old: 74e20c5946ab3f8ad959ea34f63f21e157d3ebae
-    new: 4cd976eac0336f5a25016092acc08518e5fc23c3
-    log: revlist-74e20c5946ab-4cd976eac033.txt
+  - ref: refs/heads/vfs.all
+    old: 8ccc6894b7890fe35b559ffbff6cbfcec6ec1243
+    new: cfe08244a021c0e43c81f313cb3932db39cdc2fb
+    log: revlist-8ccc6894b789-cfe08244a021.txt
 
---===============1582928109458855585==
+--===============8892325940968927600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74e20c5946ab-4cd976eac033.txt
+Content-Disposition: attachment; filename=revlist-8ccc6894b789-cfe08244a021.txt
 
 caa4893edaad0f2306e685c0a236d8dd76073140 exportfs: add flag to indicate local file handles
 d4da2126d0f8e7341ad1f1425afb5098dbe20c5d kernfs: restrict to local file handles
@@ -42,5 +42,12 @@ c5ff0c1d253b3126cfb9cd6e680e0c32832a0b9d Merge patch series "pidfs: file handle 
 3a87c594e5f38f06a8dc1f8de6ab3f1476e3183d pidfs: implement file handle support
 e766203bc0c30259d38b83b5423bf80701bdf45d Merge patch series "pidfs: implement file handle support"
 4cd976eac0336f5a25016092acc08518e5fc23c3 pidfs: check for valid ioctl commands
+2d895bd14a6e7a97b5c47a822f1c6268be00aa98 Merge branch 'vfs-6.14.netfs' into vfs.all
+cc0551c9070aa3ef1cde253aa6c5ff4cdd8cdb8c Merge branch 'vfs-6.14.kcore' into vfs.all
+e16083fe7b03d4cfd040a842d68d4a4acc45532a Merge branch 'vfs-6.14.misc' into vfs.all
+7d27fc80d49ee19fbf5a311b27a4a701c56a23ca Merge branch 'vfs-6.14.exportfs' into vfs.all
+e5a41d9edbfa311c770b43407e6ecc8544df17e4 Merge branch 'vfs-6.14.pidfs' into vfs.all
+c20f6feebfeab0f5cb1d3ad0cd2cde354d0605e8 Merge branch 'kernel.cred' into vfs.all
+cfe08244a021c0e43c81f313cb3932db39cdc2fb Merge branch 'kernel.pid' into vfs.all
 
---===============1582928109458855585==--
+--===============8892325940968927600==--
