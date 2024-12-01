@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8776900049619292400=="
+Content-Type: multipart/mixed; boundary="===============4512036310380731411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 01 Dec 2024 13:29:25 -0000
-Message-Id: <173305976535.693196.3988161155854533201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 01 Dec 2024 13:29:38 -0000
+Message-Id: <173305977884.694066.6685243451429830942@gitolite.kernel.org>
 
---===============8776900049619292400==
+--===============4512036310380731411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a
+  - ref: refs/heads/driver-core-linus
+    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
     new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    log: revlist-237d4e0f4113-bcc8eda6d349.txt
+    log: revlist-59b723cd2adb-bcc8eda6d349.txt
 
---===============8776900049619292400==
+--===============4512036310380731411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059792 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1733059763-ad7c8b100c8f7c6f8e5e166c53c6e079363c6fa1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059806 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1733059777-c1a6fd165ad127dd77484694ce65fbc9d1eceff3
 
-237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/usb-testing
+59b723cd2adbac2a34fc8e12c74ae26ae45bf230 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZNAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lp8QAIX8FaeVxDd5gl6pUZP7
-X1jLtWup3Lwd7o8u27DkaSeSfnfO9yROW9vnAr11S/FGHnNIIqTg6mJRKyC8Gjm7
-2bXAdHhZEm+K2w1AmOm5K628DFEv0QP0tbLog8AuadPxKrkxOAQ5cLC2a1/bxxZm
-KecnZP4F8KkxeVmwfPVPuoXSE6muWSS97F+u20sPYfw/d8Gb2DiMc5BbQ45eo03m
-bs52V/XzrOO4HqPEOZSraNxY5k/OhDIVjiFE8/2qBm3rg02TSoNklAjdLVfDXnqs
-+Zur/x6TkAjdpXXXAc5IaGfBJvVstebSBNlhS719AX9vm8UUUFllXLBdXqJEXxEu
-q/9hjvGfzTQZJ3eHbJo+8y8Gt1ys2eAtw7ROCCXRghDFZeM0GqZVeptmQURD9yjY
-00qrhfe+E44tTnYTwKJFSAing0MOKgZj/d43qYLPd67nkXvPKKc7L397hTLATWek
-hgq1lKShABTY9bbSIcmNzsiyRlW+xzBIlFSEei87R+/m8mHFj1MbxulTV18E/cv5
-lu3IXvximMwfXhntHnIXo3re459pXjR8xBYnh8SVu1r4CBEVmxdhGMS0phLlmdXt
-wwHWfFR/7EQWLbUPa16yVQF3LlOv6D4npK24aRs1nCkxxA5vzYx9Bw/POw3NOojP
-ixG5okLxjnsW3JNAhpLWfOnm
-=8snt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BgMQAIizqz+Y916Frfwr1gJF
+1B7Y3+KEHibuRYdiowPfsGqhVovcmf4AXD6SIiRKRDTGpC+uAiDZGQvfFFfHOzaq
+hpm/BP55bgC/F5vb+CBNdJ7vTn+Oz6WWpDiu0Mb+hUryQMXfpAYWsKvLr883wjRD
+VSXzHw4kyJLWvFRDjDzEqXM22vAPAppzAbRUSK+KSj5BlxrcF5CxcIwHo9kxcd//
+MrgtP/3cg45TB+duKt6DFSccFROb4lBzCGHfR3kNV4clHE6/xhTLGd+UODYByVm/
+XZG0MHwY1WhPaFSWlr1CQ9Z/ny5QVyw8krDvP4ciNiC06pc4ERZC/izV+iG2o9eV
+Pz5eu2LEWMQKsWjB9Vdd7ygRyp9RcW3jJOYhCzRGvryGYPuy9FWB/f//seDrab7K
+Rr1d+3/V4sGA1ZSo3dvD0bulQFGTVu9r6so1EUPSyKDPPMmYsl3yiR8LICyeOH7t
+obs2ACl3Q3MCEtfC4wNwUuQmKuqB0BEnYzPeSVFuLt9nRPkR01XHd52S88ytcDKJ
+baoJPLumLmdzekZx0PnumfDyEVtTAPKtgSTkPIqdTynsdEMNHgJy8Doux8Sy5GfE
+nhOuE7nQYQTrYaQNucDlyTWHcSmIfg9e7WuEMO5h3n1r1FyfyvOOVRUr0UJlbJE5
++2vtCl811oyPuVOmtz8zsB+9
+=D3sL
 -----END PGP SIGNATURE-----
 
---===============8776900049619292400==
+--===============4512036310380731411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-237d4e0f4113-bcc8eda6d349.txt
+Content-Disposition: attachment; filename=revlist-59b723cd2adb-bcc8eda6d349.txt
 
 b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
 e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
@@ -1082,4 +1082,4 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============8776900049619292400==--
+--===============4512036310380731411==--
