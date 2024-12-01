@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============9150227299053846946=="
+Content-Type: multipart/mixed; boundary="===============1272802118242322444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 01 Dec 2024 13:30:42 -0000
-Message-Id: <173305984261.696821.1479282461704722421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 01 Dec 2024 13:30:45 -0000
+Message-Id: <173305984571.696970.464782875783824358@gitolite.kernel.org>
 
---===============9150227299053846946==
+--===============1272802118242322444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: 8ebaf63c8fdb2d3adc2789ff739b25669ffeea68
-    new: a38f6bf588903069e185d4997acbcae69d41f39e
-    log: revlist-8ebaf63c8fdb-a38f6bf58890.txt
+  - ref: refs/heads/tty-linus
+    old: 42f7652d3eb527d03665b09edac47f85fb600924
+    new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
+    log: revlist-42f7652d3eb5-bcc8eda6d349.txt
 
---===============9150227299053846946==
+--===============1272802118242322444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059868 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1733059839-f3d87212f4178894a28fd317a1590d48fd7c372e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059873 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1733059843-6297b25456470d3a35b7ad2238d9da869e63805c
 
-8ebaf63c8fdb2d3adc2789ff739b25669ffeea68 a38f6bf588903069e185d4997acbcae69d41f39e refs/heads/rndis-removal
+42f7652d3eb527d03665b09edac47f85fb600924 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZRwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hYUQAKX7AIcQHGcNCCPQ/Aqc
-onEC3fUZ4ylFevTZqgWTxM0cDsswfgJ0Spbj1saiewYZBinbFunbStrIgY7Ln5WJ
-p5QOofoXOF/E9x8LTqR70p9Xhu6dnM7WubDk5OgtiNZ++yeDFnJHpl0xxSs04MaZ
-BR5htqGlehjDmUVTMtln0wx16N6ZwAixpnaMJBKdA5REaQZyqUG0MaU1GJ3+CtrN
-5e7vPULqa9TQAvJbYbPDmamrBpdJDr+F0zzcY5Lk+BjLVlsxqS8Y7mcHBxaTZM7+
-F6Tz9FXI2mslMd6jqw1GWeOZlVM2bPLClPR2ZXWvnMD97daeyuHyCcIsuZT/uIh5
-J3v5u0B7yLwYyJTP1QCEsQ6JcDw4Nd+tsoTo6GTKq4/48izbfws0aKD5h0EJPof0
-tCljQWh6KOFuNlceCzH1cwTiDZ83Tk0/sCN5oYYF734nEjobn5Kik9QEUlHsSWlU
-WBXguBCbnwraggPr+CHtL0oSOnUuVQ1C3sW+hGVw3ocjgiWtG0GTe5yh2Kq2gS1G
-spb8AccFO2lmd9eemnx5JKRhNXOVjj3+5M2wk9ltjDswrDifurQ8UIqP7TIHTIa/
-xNjDibAIoQ0DBPbZtxyXXH1z90g0XblJtOBhmbWdqosl3Rc6rqf/DKbmdgFTuvHF
-G4MTEtO6hthaSkG4AgKjwxTT
-=H0G/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZSEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k94P/ij5BZumX+9g4Vj8lfYi
+cnDNoOeeVAKHbli5ASt0jcPtLIotIoSGb6OO9N4MOpTHbfG8qNtAzUiPtLzTP4xA
+4nBn4XQ//KKZ5OEtvZemVUJA7Hlae31zJL7OehtI61bz85lK4IyaCbOcasLxj/Q4
+bC2Y0Wq2mfisJFnwDcu8AnqEWtnSmZtRnaJSrcUvXeLM+wDDcbhxW5m0SPtVd2Hq
+O1qBIjzp0XnzFoHJgASw/zjpmKFhY1yf1KKMB9a/MXtAqPY78fthkSRPyT4hDli0
+Qcg3bhn0xB0p+f+zJR+4vrc82PmkTnWtvfqF9atT5PDJkXMYbksFDX5bsBgUNwhf
+ib4pbYos3FgSyKJ0er3LqzU5Vqnn5eTpgbpeq9bkJ7iozQ6CO4sr0kU2y3pfk0tE
+gDtG9kVDUmBkMyjZmHMdRpLYmx41YA3rNpfkTt/LRfrfKIADs347fkxw0UmbZwWw
+L+hPN2TpttRAedTbUSoHr1PrTTJs5b8B4daUI7Hfmo9WRfsT/lxlZ/6A3tNMk9hg
+OaV/xo4CkxvZKgBAr0dzXfIM76/Gg6Loy6g/eUDHoKkRytTvQMVURstu4WhFNwCO
+GsAsYJ4MVShe9nZChNkf9NbdVwCg1J/cFDmBNI/69K+xqUmoUpAQaLUBxToA/d+X
+n1Xq5ad8sQT4l1E/9qnuYwOc
+=e3MU
 -----END PGP SIGNATURE-----
 
---===============9150227299053846946==
+--===============1272802118242322444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ebaf63c8fdb-a38f6bf58890.txt
+Content-Disposition: attachment; filename=revlist-42f7652d3eb5-bcc8eda6d349.txt
 
+b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
 e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
 eeecf953d697cb7f0d916f9908a2b9f451bb2667 regulator: qcom-rpmh: Update ranges for FTSMPS525
 200b977ebbc313a59174ba971006a231b3533dc5 dlm: fix dlm_recover_members refcount on error
@@ -1080,6 +1081,5 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 8a6a03ad5b04a29f07fb79d2990d93c82394f730 Merge tag 'lsm-pr-20241129' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-a38f6bf588903069e185d4997acbcae69d41f39e USB: disable all RNDIS protocol drivers
 
---===============9150227299053846946==--
+--===============1272802118242322444==--
