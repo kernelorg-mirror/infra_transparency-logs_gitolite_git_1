@@ -1,25 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sun, 01 Dec 2024 06:43:25 -0000
-Message-Id: <173303540539.276445.11881192141785120647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 01 Dec 2024 08:51:48 -0000
+Message-Id: <173304310850.375826.7550999207951680979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/b4/sysfs-const-attr
-    old: aed513ca2679dc1dac28c9fc5e230c9102c73a72
-    new: 894533cd9290280e8b523fcaa2232662ceccd57b
+  - ref: refs/heads/for-linus
+    old: ed990c07af70d286f5736021c6e25d8df6f2f7b0
+    new: a0cd2b265fe3f675c121df848aec2e79ff7c100f
     log: |
-         5457046136377427a40a2eac8f7647a20ad33103 omapfb
-         cc6da88945b48a560a60b0568eb87513c782e19d device_attr 1
-         0f6846d77074ceafe3ba0ec692babec113cba8bb kobj 1
-         521c4eb7eebd403d87c1e06d3b9c1e8dc8ae9696 __ATTR
-         83adbc551118ecb3a607708a372d4447cbb7d2dd _Generic
-         1c1534f303b4eb45d33bc6a7c4bfea6d7afd0f51 device_attr 2
-         894533cd9290280e8b523fcaa2232662ceccd57b kobj_attr 2
+         a7de2b873f3dbcda02d504536f1ec6dc50e3f6c4 ALSA: usb-audio: add mixer mapping for Corsair HS80
+         3a83f7baf1346aca885cb83cb888e835fef7c472 ALSA: hda/realtek: Enable mute and micmute LED on HP ProBook 430 G8
+         a0cd2b265fe3f675c121df848aec2e79ff7c100f ALSA: hda/tas2781: Fix error code tas2781_read_acpi()
+         
+  - ref: refs/heads/for-next
+    old: ed990c07af70d286f5736021c6e25d8df6f2f7b0
+    new: a0cd2b265fe3f675c121df848aec2e79ff7c100f
+    log: |
+         a7de2b873f3dbcda02d504536f1ec6dc50e3f6c4 ALSA: usb-audio: add mixer mapping for Corsair HS80
+         3a83f7baf1346aca885cb83cb888e835fef7c472 ALSA: hda/realtek: Enable mute and micmute LED on HP ProBook 430 G8
+         a0cd2b265fe3f675c121df848aec2e79ff7c100f ALSA: hda/tas2781: Fix error code tas2781_read_acpi()
+         
+  - ref: refs/heads/master
+    old: f188aa6d3a42fe8aed3bce20573ee78ea42bd690
+    new: 029fa38ffd3ea913a5f0d0aef49c0288ce50c214
+    log: |
+         a7de2b873f3dbcda02d504536f1ec6dc50e3f6c4 ALSA: usb-audio: add mixer mapping for Corsair HS80
+         3a83f7baf1346aca885cb83cb888e835fef7c472 ALSA: hda/realtek: Enable mute and micmute LED on HP ProBook 430 G8
+         a0cd2b265fe3f675c121df848aec2e79ff7c100f ALSA: hda/tas2781: Fix error code tas2781_read_acpi()
+         029fa38ffd3ea913a5f0d0aef49c0288ce50c214 Merge branch 'for-linus'
          
