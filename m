@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0795457535077437098=="
+Content-Type: multipart/mixed; boundary="===============5959536291144256196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 01 Dec 2024 13:29:15 -0000
-Message-Id: <173305975533.692899.9011292283819413127@gitolite.kernel.org>
+Date: Sun, 01 Dec 2024 13:29:20 -0000
+Message-Id: <173305976049.693100.5733506747729598192@gitolite.kernel.org>
 
---===============0795457535077437098==
+--===============5959536291144256196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 742afcc22d8eb5dcc67c1dc58ed249851e7cdbdf
+  - ref: refs/heads/usb-next
+    old: 237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a
     new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    log: revlist-742afcc22d8e-bcc8eda6d349.txt
+    log: revlist-237d4e0f4113-bcc8eda6d349.txt
 
---===============0795457535077437098==
+--===============5959536291144256196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059782 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059787 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1733059753-210c66813a389b93662870ab707a5fe920d6e08c
+nonce 1733059758-70cc60dbf85ea8cfe9233dda4b418f36cae425d6
 
-742afcc22d8eb5dcc67c1dc58ed249851e7cdbdf bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/usb-linus
+237d4e0f41130a5ff0e1c7dc1cb41ee2fe21cd2a bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZMYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W4sQALv0fnzkap7yL7EfwOJY
-shOyFRBB63QQ1AOKNGIeNABojvfp0bxHq2Qi3KbC9U6dl2tD8hi83Q8pgqQIJNU7
-3Lp7qBlOFa4LGDxzAxbJMMk+id3nmRP4PK2ooEmcktcxZZBS86+K/FNMEEq6wto0
-4ky2RQXF9CodTTYN+YR5RjCkTg5VfxJDPQui490rQr+irG+9lKewZeMaF4wxLpSO
-2NGJ7FORsfnx+oKex6t1Bz68u5CgmJpN46E8DETo50IqwK0hda1v/0IoSWvOFru+
-e4v6jNnKy5P++mAy40rvcU29LL6XshFx2CmpwCtgJNKqf1gFAj+KQKqc3Lxb76U4
-7Is/JyoOdsdTk/uhWnMtebqjZRI9NSWqV7xWwMlGcaXZonseav4dX2g4QoWNtOck
-te484Tz0O5mdS4325eltQUHQJMycmgHcIQyntYprG6uBbyAFaPRZXZuuBi4CEFtb
-yePwxNs7CLahH08LA5F88I0kNlHyGcypgFqWBEMOd8euh35Kq3xYOEpCikv1+x3A
-1QbpXznx1k/FyiwK5yPhA4QonAksVSzhHyrEjZuD0A6bUvrmrnPezbe4FjEsdoMX
-G5MBli+p3e64Jg0AOXcrI1GVSXfVAnppQYgGLHbImVhJArx2RrfeLQ3kOhcFWHFF
-2/NbbIwqpRQpFoJfEM4KW928
-=VZlI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZMsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cg0P/RdHvQ5MXlebLRm3TUxf
+1S9Bpegd1wvHmbXrjRdC9EReyS1RGSNkQr7e+ZaHuvVMQDX26oaJ6OPg/7eizFoD
+ZZ7xRWcpge94GEvl973jcZOOIQkQ8wfjeF7zU5kk533Gr2ZYL3qWDIKc5fRyDB3Y
+6YE/4+Mqhf5A1HKIoYJ5FpfnlkN8whMo/riWm1kBO7jGuSv0p591QkJtn+uYxIT0
+4rusybHSDy/FVihEqKN4a63k/AYmv3ibjl7QOA+jJF7TtKyY7UxO89cEx1Zft3pP
+2EZzRp19z4YaO2N+UySp97fyBL97NiSTo/RdQKNPVi6/PQmqN0+6xpBBCEyUfLxS
+0hAOdBD6hv9hmpOs/76LYIEmykveM1oV0ZbIGcLBrYgmK8wYM8fNkz5mFJnYfeXA
+gZ/kZT/Zl4FmmhUKLCW9pyM5QFunBQIeKvobRe/tX5OFp2JT/zcuPjmvM7ySXbvw
+G31+rkce0NoycVTK2L8rtC8eWTU02IcHe1p9WkYuSGU4yyIRFJqbi4+4BYLdgys4
+92VG02u64WuE4WkB2FYqAcV8AL0Y3n9Gc67zXJgtCdxRGMeayzLrxrptn66eQnIA
+QoFRv2VcdkqU6DhhBWKpR4EgfgOdcRnpAnLkXH+Bzm7P0nxhejDY1sLQQHhVH00m
+aL17mjh78Oc81jM+v9zKx1J+
+=dCc+
 -----END PGP SIGNATURE-----
 
---===============0795457535077437098==
+--===============5959536291144256196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-742afcc22d8e-bcc8eda6d349.txt
+Content-Disposition: attachment; filename=revlist-237d4e0f4113-bcc8eda6d349.txt
 
 b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
 e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
@@ -1082,4 +1082,4 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============0795457535077437098==--
+--===============5959536291144256196==--
