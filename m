@@ -1,41 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4129250859113903173=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Dec 2024 21:44:03 -0000
-Message-Id: <173308944314.1081072.12724663988361723937@gitolite.kernel.org>
-
---===============4129250859113903173==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 01 Dec 2024 21:44:08 -0000
+Message-Id: <173308944833.1081279.7160498099930131424@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 88862eeb476375687a1de5f45528a437ea598338
-    new: a14bf463e7dfa389850b9d47d38dda4fa71c8ade
-    log: revlist-88862eeb4763-a14bf463e7df.txt
-
---===============4129250859113903173==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88862eeb4763-a14bf463e7df.txt
-
-81de291d86b704de1809cfb06672902d003cf3a3 of: dynamic: Add of_changeset_update_prop_string
-1fcc67e3a354865775355eafec1fb061a755c971 of: base: Add for_each_child_of_node_with_prefix()
-157ce8f381efe264933e9366db828d845bade3a1 i2c: Introduce OF component probe function
-897261149d255d03fc90bec6782e3835cacbfdde i2c: of-prober: Add simple helpers for regulator support
-39b415f84654892003cebb7c026b7daa3380610b i2c: of-prober: Add GPIO support to simple helpers
-3fc361af8ab0a96619ba0146a5f694f59ae3f4c2 platform/chrome: Introduce device tree hardware prober
-aac9e2afa807e862073e9536099a3184b0e936d2 arm64: dts: mediatek: mt8173-elm-hana: Mark touchscreens and trackpads as fail
-44b682694a0ca366bf15c26c3c3c16d26c9e9f6d i2c: Fix whitespace style issue
-0d40daa1c1369c2fef6a40f44640b2e5f3453daa of: base: Document prefix argument for of_get_next_child_with_prefix()
-caf4bdb558cbc9893524b0a15e6423ee6305cb0c MAINTAINERS: fix typo in I2C OF COMPONENT PROBER
-a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-
---===============4129250859113903173==--
+  - ref: refs/heads/controller/cadence
+    old: e3e309b2bea8d2c37ed6f52c837848b601d3245e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dwc
+    old: 118397c9baaac0b7ec81896f8d755d09aa82c485
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/imx6
+    old: 0a726f542d7c8cc0f9c5ed7df5a4bd4b59ac21b3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/j721e
+    old: 22a9120479a40a56c13c5e473a0100fad2e017c0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/keystone
+    old: 9e9ec8d8692a6f64d81ef67d4fb6255af6be684b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/mediatek
+    old: d19ea320d3029a12993c671f4815bf6c02ae0727
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/microchip
+    old: ac7f53b7e7283fee35ad12de8359f20989a47eb5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/qcom
+    old: fba6045161d686adc102b6ef71b2fd1e5f90a616
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/rockchip
+    old: a7137cbf6bd53a9f9c40c64fc8b12b88289b3d4a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/tegra194
+    old: 40e2125381dc11379112485e3eefdd25c6df5375
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/vmd
+    old: b727484cace4be22be9321cc0bc9487648ba447b
+    new: 0000000000000000000000000000000000000000
