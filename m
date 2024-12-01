@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1008749480531460134=="
+Content-Type: multipart/mixed; boundary="===============1918055806079759719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Dec 2024 20:48:39 -0000
-Message-Id: <173308611980.1036634.11263031416878088086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 01 Dec 2024 20:49:01 -0000
+Message-Id: <173308614111.1036942.6829078726479763835@gitolite.kernel.org>
 
---===============1008749480531460134==
+--===============1918055806079759719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
   - ref: refs/heads/master
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4
     log: revlist-bcc8eda6d349-f788b5ef1ca9.txt
 
---===============1008749480531460134==
+--===============1918055806079759719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ f5807b0606da7ac7c1b74a386b22134ec7702d05 ntp: Remove invalid cast in time offset
 63f4993b792efe9ccde7302184d0184d2c52a9b7 Merge tag 'irq_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============1008749480531460134==--
+--===============1918055806079759719==--
