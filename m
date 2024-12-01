@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6613851050630885650=="
+Content-Type: multipart/mixed; boundary="===============0795457535077437098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 01 Dec 2024 13:27:22 -0000
-Message-Id: <173305964217.692193.10890992936987046974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 01 Dec 2024 13:29:15 -0000
+Message-Id: <173305975533.692899.9011292283819413127@gitolite.kernel.org>
 
---===============6613851050630885650==
+--===============0795457535077437098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
+  - ref: refs/heads/usb-linus
+    old: 742afcc22d8eb5dcc67c1dc58ed249851e7cdbdf
     new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    log: revlist-59b723cd2adb-bcc8eda6d349.txt
+    log: revlist-742afcc22d8e-bcc8eda6d349.txt
 
---===============6613851050630885650==
+--===============0795457535077437098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059663 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733059633-66a527b777abc68c0f96615cfdea7aa898d40c26
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059782 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1733059753-210c66813a389b93662870ab707a5fe920d6e08c
 
-59b723cd2adbac2a34fc8e12c74ae26ae45bf230 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/main
+742afcc22d8eb5dcc67c1dc58ed249851e7cdbdf bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZE8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LhoP/1pc1hCuINj/sIq07MsY
-Itex83eHy6sIxl4I7eemQnieAwSHeIwq2ze6HGcYeAcBrTKlxeX4+1y+K03HAcZ4
-PHnx5ION9ywsK5JXuwWoabA/n5UHBkgnySf2yYt8ab/QgCE9pv/wY7yDFFIfQ8FU
-/R25LUeGmsRIRSmD53A9BheiH8QMYsRGb6zEydqyuoq4QA/S21DUlH/fjiaK1duz
-T+oD1mHBzq95J5gl3leFwM+lwBQwaQpM31Uizpblik6+Evoo3/f2DMCdLNt+/X+m
-sh08w0PrCwtMXX8OZAGbeswfupo7OIHr25dMVYvGmBwGQ4LyMaDULMJGOQ3FYqW7
-sLWcfa/OnNPInB1GkZ5WE1/Uor1IRu6lv1dl7kJ45Cm/sWLcvzx0w8bdHcILzvXy
-nB8DkmxEbDndD+5bJKMZd1/NyVI/fdZqN7z3v/7g18roDu/Hu7nNirbTB+s2TFq/
-GjjX0XrBflpV7iGXQj4q9o4GEqrANvtby0QNrhtSldIPJq3VD38JckjGNn1jysk5
-U/A/m176UB+ZMmSfLeDGJIvTA7YfyvPcC/N2i8hguupsFbXR2vXwBMQkgkJjacp1
-tf82Bc8Af1UABgqS87RFgOQw9sUdZcz6Sy+5oF27qRzlIJp5p2IpjWt2MUBo8Sma
-MibEQqy9wgbNuDqB/gO7iB+O
-=INZc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZMYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W4sQALv0fnzkap7yL7EfwOJY
+shOyFRBB63QQ1AOKNGIeNABojvfp0bxHq2Qi3KbC9U6dl2tD8hi83Q8pgqQIJNU7
+3Lp7qBlOFa4LGDxzAxbJMMk+id3nmRP4PK2ooEmcktcxZZBS86+K/FNMEEq6wto0
+4ky2RQXF9CodTTYN+YR5RjCkTg5VfxJDPQui490rQr+irG+9lKewZeMaF4wxLpSO
+2NGJ7FORsfnx+oKex6t1Bz68u5CgmJpN46E8DETo50IqwK0hda1v/0IoSWvOFru+
+e4v6jNnKy5P++mAy40rvcU29LL6XshFx2CmpwCtgJNKqf1gFAj+KQKqc3Lxb76U4
+7Is/JyoOdsdTk/uhWnMtebqjZRI9NSWqV7xWwMlGcaXZonseav4dX2g4QoWNtOck
+te484Tz0O5mdS4325eltQUHQJMycmgHcIQyntYprG6uBbyAFaPRZXZuuBi4CEFtb
+yePwxNs7CLahH08LA5F88I0kNlHyGcypgFqWBEMOd8euh35Kq3xYOEpCikv1+x3A
+1QbpXznx1k/FyiwK5yPhA4QonAksVSzhHyrEjZuD0A6bUvrmrnPezbe4FjEsdoMX
+G5MBli+p3e64Jg0AOXcrI1GVSXfVAnppQYgGLHbImVhJArx2RrfeLQ3kOhcFWHFF
+2/NbbIwqpRQpFoJfEM4KW928
+=VZlI
 -----END PGP SIGNATURE-----
 
---===============6613851050630885650==
+--===============0795457535077437098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-bcc8eda6d349.txt
+Content-Disposition: attachment; filename=revlist-742afcc22d8e-bcc8eda6d349.txt
 
 b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
 e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
@@ -1082,4 +1082,4 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============6613851050630885650==--
+--===============0795457535077437098==--
