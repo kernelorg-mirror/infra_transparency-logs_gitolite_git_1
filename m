@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8681688612267220213=="
+Content-Type: multipart/mixed; boundary="===============4848289534685112286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 01 Dec 2024 09:33:36 -0000
-Message-Id: <173304561629.407143.11165165767056991128@gitolite.kernel.org>
+Date: Sun, 01 Dec 2024 09:34:41 -0000
+Message-Id: <173304568189.408140.112550919055353683@gitolite.kernel.org>
 
---===============8681688612267220213==
+--===============4848289534685112286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,20 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b1b238fba309eb15b71a44375eddb68a12c2b0c6
-    new: 389840e61ef02c98c24b9127d40570736a283238
-    log: revlist-b1b238fba309-389840e61ef0.txt
+    old: 389840e61ef02c98c24b9127d40570736a283238
+    new: 45f7777f2a785cb9112e4dc2406f8af0c61b5a5e
+    log: |
+         4501a15e090d09d2e06b9f26f8c97a040adb033d Merge branch into tip/master: 'irq/urgent'
+         7f9d501707ddcc369e31b5094c2d7adf619e5268 Merge branch into tip/master: 'timers/urgent'
+         ee044f0ee9c4ac706010c543b5dc470c4a600cb4 Merge branch into tip/master: 'x86/urgent'
+         b9748615404a08418f8f3e6bb3d7835b5288c120 Merge branch into tip/master: 'perf/core'
+         45f7777f2a785cb9112e4dc2406f8af0c61b5a5e Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: cde39ebf0d83c8e89f9473c0568bb2c1973f3af6
+    new: ee044f0ee9c4ac706010c543b5dc470c4a600cb4
+    log: revlist-cde39ebf0d83-ee044f0ee9c4.txt
 
---===============8681688612267220213==
+--===============4848289534685112286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1b238fba309-389840e61ef0.txt
+Content-Disposition: attachment; filename=revlist-cde39ebf0d83-ee044f0ee9c4.txt
 
-eaba902d85b1517fd9d4573bc932a321418723a5 iio: imu: bmi270: Add triggered buffer for Bosch BMI270 IMU
-99e46bbb131e7b102bf7850fa65594a1734f72af iio: imu: bmi270: Add scale and sampling frequency to BMI270 IMU
-b6ee20afca66cb1767a9e77cdf823de588c9b6f4 dt-bindings: iio: imu: bmi270: Add Bosch BMI260
-f35f3c832eb58862ab9b62f8e24d1d8864f9f205 iio: imu: bmi270: Add support for BMI260
 8ebfd09255219ae55f8a101f6aeb0f64dd780d88 iio: adc: ad4000: Check for error code from devm_mutex_init() call
 869aa5e847696bcda8966be9d03de2560226bcc3 iio: adc: pac1921: Check for error code from devm_mutex_init() call
 f928099e5f5c3ce60ecbd70ea17614e9b253068f iio: chemical: bme680: use s16 variable for temp value to avoid casting
@@ -990,6 +996,8 @@ c54fdcc57b74ebaf7a507f43e278918c6efeb1a8 Merge tag 'drm-misc-next-fixes-2024-11-
 3e1d95b63c97506d0d98c75fc72a60662981a3c6 selftests: kallsyms: fix and clarify current test boundaries
 c5efad88a94613cf60fed010b96dbc3044389316 selftests: find_symbol: Actually use load_mod() parameter
 7af08b57bcb9ebf78675c50069c54125c0a8b795 Merge tag 'trace-v6.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+4d17c25eaf5d8b95d70726e6946e8eb94619e139 delay: Fix ndelay() spuriously treated as udelay()
+63dffecfba3eddcf67a8f76d80e0c141f93d44a5 posix-timers: Target group sigqueue to current task only if not exiting
 cc00550b2ae7ab1c7c56669fc004a13d880aaf0a Revert "s390/mm: Allow large pages for KASAN shadow mapping"
 7eb75ce7527129d7f1fee6951566af409a37a1c4 io_uring/tctx: work around xa_store() allocation error issue
 e8b8344de3980709080d86c157d24e7de07d70ad block, bfq: fix bfqq uaf in bfq_limit_depth()
@@ -1049,6 +1057,8 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 8a6a03ad5b04a29f07fb79d2990d93c82394f730 Merge tag 'lsm-pr-20241129' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-389840e61ef02c98c24b9127d40570736a283238 Merge branch 'linus'
+4501a15e090d09d2e06b9f26f8c97a040adb033d Merge branch into tip/master: 'irq/urgent'
+7f9d501707ddcc369e31b5094c2d7adf619e5268 Merge branch into tip/master: 'timers/urgent'
+ee044f0ee9c4ac706010c543b5dc470c4a600cb4 Merge branch into tip/master: 'x86/urgent'
 
---===============8681688612267220213==--
+--===============4848289534685112286==--
