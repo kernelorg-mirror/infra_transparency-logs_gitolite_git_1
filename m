@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4512036310380731411=="
+Content-Type: multipart/mixed; boundary="===============2473845867965883118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 01 Dec 2024 13:29:38 -0000
-Message-Id: <173305977884.694066.6685243451429830942@gitolite.kernel.org>
+Date: Sun, 01 Dec 2024 13:29:44 -0000
+Message-Id: <173305978479.694376.5865371046150771599@gitolite.kernel.org>
 
---===============4512036310380731411==
+--===============2473845867965883118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
+  - ref: refs/heads/driver-core-next
+    old: acfeb6defcb9310b1ff44db1e633798ba766337d
     new: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    log: revlist-59b723cd2adb-bcc8eda6d349.txt
+    log: revlist-acfeb6defcb9-bcc8eda6d349.txt
 
---===============4512036310380731411==
+--===============2473845867965883118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059806 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733059812 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733059777-c1a6fd165ad127dd77484694ce65fbc9d1eceff3
+nonce 1733059782-f908d083e013b1b38cc5f8cb5f8d525dfcbd7757
 
-59b723cd2adbac2a34fc8e12c74ae26ae45bf230 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/driver-core-linus
+acfeb6defcb9310b1ff44db1e633798ba766337d bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZN4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BgMQAIizqz+Y916Frfwr1gJF
-1B7Y3+KEHibuRYdiowPfsGqhVovcmf4AXD6SIiRKRDTGpC+uAiDZGQvfFFfHOzaq
-hpm/BP55bgC/F5vb+CBNdJ7vTn+Oz6WWpDiu0Mb+hUryQMXfpAYWsKvLr883wjRD
-VSXzHw4kyJLWvFRDjDzEqXM22vAPAppzAbRUSK+KSj5BlxrcF5CxcIwHo9kxcd//
-MrgtP/3cg45TB+duKt6DFSccFROb4lBzCGHfR3kNV4clHE6/xhTLGd+UODYByVm/
-XZG0MHwY1WhPaFSWlr1CQ9Z/ny5QVyw8krDvP4ciNiC06pc4ERZC/izV+iG2o9eV
-Pz5eu2LEWMQKsWjB9Vdd7ygRyp9RcW3jJOYhCzRGvryGYPuy9FWB/f//seDrab7K
-Rr1d+3/V4sGA1ZSo3dvD0bulQFGTVu9r6so1EUPSyKDPPMmYsl3yiR8LICyeOH7t
-obs2ACl3Q3MCEtfC4wNwUuQmKuqB0BEnYzPeSVFuLt9nRPkR01XHd52S88ytcDKJ
-baoJPLumLmdzekZx0PnumfDyEVtTAPKtgSTkPIqdTynsdEMNHgJy8Doux8Sy5GfE
-nhOuE7nQYQTrYaQNucDlyTWHcSmIfg9e7WuEMO5h3n1r1FyfyvOOVRUr0UJlbJE5
-+2vtCl811oyPuVOmtz8zsB+9
-=D3sL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdMZOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xEMQAKpR/03M/KvOUpULBJdO
+T012SZpLB3Up8dm6JMoMs4HV5fADoUtbtfSsDHNB6oBp49FJ8aTVa5RwBwugJaIj
+3d+BH3k4ZwKCznQ5ZF9oJ7YJkWTCfeQRALNoamC5vZ/hWkhiP5l38fkg7ufpSsyR
+hzqYe5C/WXcFfW4/BEiGgyANUX6JOMjydf1jE/LR1+YVPu5XTziz1UjIEzkxCwPv
+2M+Vv/2uAS5TG9D4ZiiKHBPr77125XKmVQUavePV5ICbCWmTndUFy/nT7X8WtcbU
+f87zbJ5+voR44t54T3qlPIKACNmBdfOSj6H1aBiiITJwKu0M9djQtEYHV1gFgYlr
+fMEKN+DJPK6XpGW8fd8KGvXdlihh0I+KCtkLbWAu/bo1QN5ZxDME7otfUDDbSg8J
+J/cqG6OZ+4X6q9Z/NpxAtBIZKiqv/boCKFCzdpPkKdeFfCAGRJxU1Ri6PkSnMJYX
+fqxrcqFCarSgIVgyoLHrF6YtcLo28+xzIVe1yuNs2rxfbNgn6kNDgnmlcwnjkY8Y
++ZRrTc8C/1fMiKbBxtu9d3ny+RlUF9E8AjWDn/TQpPC+z59996AjmSvDISkKpM0P
+p7KT7tmWIokb8F9hEic7dpL9S2eiuQStaRdZFkxJ0T37mbHjnQz8/pgppE/1839R
+8wNxyYOH1zGYDALjviyRRXMW
+=GkwW
 -----END PGP SIGNATURE-----
 
---===============4512036310380731411==
+--===============2473845867965883118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-bcc8eda6d349.txt
+Content-Disposition: attachment; filename=revlist-acfeb6defcb9-bcc8eda6d349.txt
 
-b22fd46830c24f5a5833b60f9fac1682afc201ec s390/con3215: Remove spurious NULL in attribute_group definition
-e7240bd91f96f925a3bb8d2b9348fcb1db457b10 cpu: Remove spurious NULL in attribute_group definition
+67a0463d339059eeeead9cd015afa594659cfdaf ASoC: amd: yc: fix internal mic on Redmi G 2022
+9c98750eb3079ee6e47a448fe095347821a21b45 MAINTAINERS: Use Daniel Thompson's korg address for kgdb work
+24b2455fe8fce17258fab4bb945d8e6929baeb77 kdb: fix ctrl+e/a/f/b/d/p/n broken in keyboard mode
 eeecf953d697cb7f0d916f9908a2b9f451bb2667 regulator: qcom-rpmh: Update ranges for FTSMPS525
 200b977ebbc313a59174ba971006a231b3533dc5 dlm: fix dlm_recover_members refcount on error
 a3f143c461444c0b56360bbf468615fa814a8372 rust: block: simplify Result<()> in validate_block_size return
@@ -545,7 +546,6 @@ b61badd20b443eabe132314669bb51a263982e5c drm/amdgpu: fix usage slab after free
 818956c76517e127fad8cf02cd29866e0a852072 drm/rockchip: avoid 64-bit division
 088f294609d8f8816dc316681aef2eb61982e0da fs/proc/kcore.c: Clear ret value in read_kcore_iter after successful iov_iter_zero
 f57c084928661969a337c731cd05e1da97320829 gpio: mpsse: Remove usage of the deprecated ida_simple_xx() API
-acfeb6defcb9310b1ff44db1e633798ba766337d Fix a potential abuse of seq_printf() format string in drivers
 e43c608f40c065b30964f0a806348062991b802d 9p/xen: fix release of IRQ
 e0260d530b73ee969ae971d14daa02376dcfc93f net/9p/usbg: allow building as standalone module
 1e726223be5bdedc59ccf9df3bed53456cb2fb05 Documentation: filesystems: update filename extensions
@@ -1082,4 +1082,4 @@ cfd47302ac64b595beb0a67a337b81942146448a Merge tag 'block-6.13-20242901' of git:
 0cb71708c5816569f8addd5c6f33cb9679e73b5b Merge tag 'pci-v6.13-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a Merge tag 'turbostat-2024.11.30' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============4512036310380731411==--
+--===============2473845867965883118==--
