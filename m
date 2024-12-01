@@ -1,24 +1,76 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 01 Dec 2024 21:34:02 -0000
-Message-Id: <173308884242.1072868.1799823253271823457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 01 Dec 2024 21:43:28 -0000
+Message-Id: <173308940826.1080717.11089841541185822291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/tip/urgent
-    old: ee044f0ee9c4ac706010c543b5dc470c4a600cb4
-    new: 88862eeb476375687a1de5f45528a437ea598338
-    log: |
-         f69e63756f7822fcdad8a34f9967e8b243e883ee printf: Remove unused 'bprintf'
-         9022ed0e7e65734d83a0648648589b9fbea8e8c9 strscpy: write destination buffer only once
-         58ac609b99db0b03f3b09299c8fa3a76face3370 Merge tag 'x86_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         63f4993b792efe9ccde7302184d0184d2c52a9b7 Merge tag 'irq_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
+  - ref: refs/heads/aspm
+    old: d66041063192497a4a97d21dbf86b79a03a7f4fb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/bwctrl
+    old: ba58eee1c57b2ad45c36f782861c18faef170a55
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/devm
+    old: 64fe9bc34f781538682af34e7adb6aee1a52c425
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/doe
+    old: 86efc62d031307e53ad4011e0aa8898e029cef47
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/driver-remove
+    old: 43d6961cdf1d0621c55638ed33554027978ae1fe
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-bindings
+    old: 718c157a0b941fe2d3b4cca689148775e6ea2330
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/endpoint
+    old: 28b6acd75e3cefbe746ec7402c7ff4fdb114f327
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: 32ec7b362d904c1e67f8e64524fb0b6c43d5c9c2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hotplug
+    old: c7acef99642b763ba585f4a43af999fcdbcc3dc4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hotplug-octeon
+    old: e434e54d3ffcd17eeadfcf3cf434bc1dff36daff
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/locking
+    old: 38a18dfe9035d5a02a53271824de1854129c61dc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc
+    old: d9db393f2b9ed674f965dd823c1692b41bad7bfb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/of
+    old: 5e316d34b53039346e252d0019e2f4167af2c0ef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm
+    old: dc421bb3c0db2aac926b548d259d3b550394908e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwrctl
+    old: 3f925cd6287401bbc9d568f56d796a69c8bd292a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/reset
+    old: a3151e6daaec171b7d46ac79170ec420ad874cae
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/resource
+    old: 19f73e938df2b8edfa2e93e0280bd26fd4df5b92
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/thunderbolt
+    old: 3b96b895127b7c0aed63d82c974b46340e8466c1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tph
+    old: 48d0fd2b903e397c2a9621ab35f3d8877f61aee4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/typos
+    old: 31457d4cea19dc807e3beab15883c912f19acef7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/virtualization
+    old: aa46a3736afcb7b0793766d22479b8b99fc1b322
+    new: 0000000000000000000000000000000000000000
