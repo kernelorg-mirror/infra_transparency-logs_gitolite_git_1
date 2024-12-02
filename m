@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0962020286303225261=="
+Content-Type: multipart/mixed; boundary="===============7244224773044223753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 02 Dec 2024 01:11:25 -0000
-Message-Id: <173310188586.1257175.9749452042373974798@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 01:11:46 -0000
+Message-Id: <173310190656.1257497.16416197486379460080@gitolite.kernel.org>
 
---===============0962020286303225261==
+--===============7244224773044223753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
-    old: 7c626ce4bae1ac14f60076d00eafe71af30450ba
+  - ref: refs/heads/master
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-7c626ce4bae1-40384c840ea1.txt
+    log: revlist-1613e604df0c-40384c840ea1.txt
 
---===============0962020286303225261==
+--===============7244224773044223753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c626ce4bae1-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============0962020286303225261==--
+--===============7244224773044223753==--
