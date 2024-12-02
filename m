@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 02 Dec 2024 22:24:00 -0000
-Message-Id: <173317824041.2407019.8913223929489420046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 02 Dec 2024 22:30:07 -0000
+Message-Id: <173317860799.2413738.14672975228989682324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/work.pidfs.file_handle.selftests
-    old: 376f5f2469b0b2fe7d89fa29080620cf588a389c
-    new: 3b5ba9bcb44df348b828f02495ac43e648d7b56e
+  - ref: refs/heads/master
+    old: 389eeaf59809376a92c9fcd18a0ae1bc32d00b6f
+    new: 47ebf099106eb021cf7dd677720e6469a38785a5
     log: |
-         3b5ba9bcb44df348b828f02495ac43e648d7b56e selftests/pidfd: add pidfs file handle selftests
+         47ebf099106eb021cf7dd677720e6469a38785a5 Bluetooth: iso: Allow BIG re-sync
          
