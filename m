@@ -1,80 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5786366266037975750=="
+Content-Type: multipart/mixed; boundary="===============6707218497636830405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Dec 2024 15:11:49 -0000
-Message-Id: <173315230974.2033361.925306492378158665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Dec 2024 15:13:59 -0000
+Message-Id: <173315243908.2034291.17556823982613354631@gitolite.kernel.org>
 
---===============5786366266037975750==
+--===============6707218497636830405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/x86/cache
-    old: 9bce6e94c4b39b6baa649784d92f908aa9168a45
-    new: a763fc24ecf2ef0471ccba3b1ff6e6271f4bdc0b
-    log: revlist-9bce6e94c4b3-a763fc24ecf2.txt
+  - ref: refs/heads/kvm-arm64/nv-next
+    old: e745edc2feb448dc88cd178600621f258504c018
+    new: e2d483d7f172a65bc37bb47b35e5b566b42e9ee4
+    log: revlist-e745edc2feb4-e2d483d7f172.txt
 
---===============5786366266037975750==
+--===============6707218497636830405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bce6e94c4b3-a763fc24ecf2.txt
+Content-Disposition: attachment; filename=revlist-e745edc2feb4-e2d483d7f172.txt
 
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
-82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
-65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
-a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
-b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
-9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
-d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
-390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
-9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-359bfdc3c99191aa4266ad582f6bbc182841d11e Merge branch 'for-6.13/corsair' into for-linus
-22380b5f03ae246c02abe361d0a075cd674ca3fe Merge branch 'for-6.13/core' into for-linus
-ffca1be9b4b3a72cf0c2796413101ba425225f48 Merge branch 'for-6.13/bug-on-to-warn-on' into for-linus
-903796855b6152c479bae07dcebded77897f9e1c Merge branch 'for-6.13/bpf' into for-linus
-9c0ba14828d64744ccd195c610594ba254a1a9ab blk-settings: round down io_opt to physical_block_size
-7643155dce1428fd63e47d7afe8bf3dbca20cc25 jump_label: rust: pass a mut ptr to `static_key_count`
-7e86490c5dee5c41a55f32d0dc34269e200e6909 pinctrl: k210: Undef K210_PC_DEFAULT
-c6d64479d6093a5c3d709d4cc992a5344877cc3c Merge tag 'pull-statx' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-ac6f0825e582f2216a582c9edf0cee7bfe347ba6 pinctrl: airoha: Use unsigned long for bit search
-5bf99baefb3ebebb13128ebfe58ebc6add5afd43 dt-bindings: net: renesas,ether: Drop undocumented "micrel,led-mode"
-3e7447ab48d101353c3e5be29e6ff0d322fa5a95 Merge tag 'ext4_for_linus-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-c14a8a4c04c5859322eb5801db662b56b2294f67 Merge tag 'for-6.13-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-3d1b536c13f7cd966aa660d1730855b26d01c9ae Merge tag 'ata-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-77a0cfafa9af9c0d5b43534eb90d530c189edca1 Merge tag 'for-6.13/block-20241118' of git://git.kernel.dk/linux
-8350142a4b4cedebfa76cd4cc6e5a7ba6a330629 Merge tag 'for-6.13/io_uring-20241118' of git://git.kernel.dk/linux
-b9376c7e42ca22644085332fd450b153cd4e9bde nfsd: new tracepoint for after op_func in compound processing
-2dc84a75229c37e350dd1a83aaf4a63dc2ba86f3 lockd: Fix comment about NLMv3 backwards compatibility
-600020927b004f027e737e6bf57c450d48f2405e nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
-bb4f07f2409c26c01e97e6f9b432545f353e3b66 nfsd: Fix NFSD_MAY_BYPASS_GSS and NFSD_MAY_BYPASS_GSS_ON_ROOT
-a32442f6ca32cf402a76856d5e713bd742481ba2 xdrgen: Add a utility for extracting XDR from RFCs
-ed9887b876c957c9c9a0486cf0edf7c964e99cb9 nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
-6640556b0c80edc66d6f50abe53f00311a873536 NFSD: Replace use of NFSD_MAY_LOCK in nfsd4_lock()
-4cc9b9f2bf4dfe13fe573da978e626e2248df388 nfsd: refine and rename NFSD_MAY_LOCK
-d08bf5ea649c045175c191609ccd52644b85985f NFSD: Remove dead code in nfsd4_create_session()
-da4f777e623936d4d93427b69fca37baefd62669 NFSD: Remove a never-true comparison
 1e02c641c3a43c88cecc08402000418e15578d38 NFSD: Prevent NULL dereference in nfsd4_process_cb_update()
 6b9c1080a69ee4d37e88f3743c13a45cce6afcbf NFSD: Remove unused results in nfsd4_encode_pathname4()
 30c1d2411acd6d9d987f5f804aa173abb3b097ce NFSD: Remove unused values from nfsd4_encode_components_esc()
@@ -1049,6 +1000,55 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-a763fc24ecf2ef0471ccba3b1ff6e6271f4bdc0b x86/resctrl: Use kthread_run_on_cpu()
+d75a4820a89710d4d97136cb718720a7bf041e51 arm64: cpufeature: Handle NV_frac as a synonym of NV2
+8d56ac41ed271d1b570d7dcd574b4752ccfbfd31 KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
+d5f4755e7b031b5a53eff5f9859fbe8a4cc26a3a KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
+3436bb26b1323020cea253a62d79fe7f60e61a12 KVM: arm64: nv: Mark HCR.EL2.E2H as RES0 when ID_AA64MMFR1_EL1.VH is zero
+f894c3a3caf1c9b02d43a3fc965bd7c1bbbbceb4 arm64: Add ID_AA64ISAR1_EL1.LS64 encoding for FEAT_LS64WB
+291ffafe56fbc8781ea967800ff256d2b3be072e arm64: Add syndrome information for trapped LD64B/ST64B{,V,V0}
+f07b821b71fd13509a3ad2bc521ab631c776dded KVM: arm64: Add ACCDATA_EL1 to the sysreg array
+b0dfce759e388a0adae3bcaacc276e477797fccb KVM: arm64: Add context-switch of ACCDATA_EL1
+8790f189faab97f1f54bd6f09ad790b271c4d121 KVM: arm64: Handle trapping of FEAT_LS64* instructions
+7ef4f42d03cd9376c9b5483cae8c1547105f666d KVM: arm64: Add exit to userspace on {LD,ST}64B* outside of memslots
+68c7265ec28fc6bf4b592a839216c1ccd3b7ad0b KVM: arm64: Restrict ACCDATA_EL1 undef to FEAT_ST64_ACCDATA being disabled
+a6db4ed69116b6bed19dc6ca112e985e24c0c511 KVM: arm64: Conditionnaly enable FEAT_LS64* instructions
+fd264385838c0cce90461483b34299b296ab6029 KVM: arm64: nv: Expose FEAT_LS64* to a nested guest
+feed41f985486426f92b810a52b5b3e93cab5dfa arm64: Expose ID_AA64ISAR1_EL1.LS64 to sanitised feature consumers
+1368094e478fc036034088a8daacb629727b53df KVM: arm64: Add documentation for KVM_EXIT_ARM_LDST64B
+89aba9f9eae0233fb53f1a60ebcc979c8e6f684b KVM: arm64: nv: Add handling of EL2-specific timer registers
+240f313e15cfc945af484fdc9227989d65a130c3 KVM: arm64: nv: Sync nested timer state with FEAT_NV2
+626e0ac5e63b92fd5c4d7106f5a6000230d19473 KVM: arm64: nv: Publish emulated timer interrupt state in the in-memory state
+8dbf3d6b816738c734b97a259f5e802f8a095d76 KVM: arm64: nv: Use FEAT_ECV to trap access to EL0 timers
+b564ea696b621a6ac833ff3176759607915f4dfc KVM: arm64: nv: Accelerate EL0 timer read accesses when FEAT_ECV in use
+52987be76e1727711beefef562d6386f15596145 KVM: arm64: nv: Acceletate EL0 counter accesses from hypervisor context
+98de98ff260c616e270e471dde4dcec77c78b4c9 KVM: arm64: Handle counter access early in non-HYP context
+f1d5022e756ac7d419fb75447c48f54493af8b15 KVM: arm64: nv: Add trap routing for CNTHCTL_EL2.EL1{NVPCT,NVVCT,TVT,TVCT}
+b291a1523def4720ca9bee971c38535ab817b2f6 KVM: arm64: nv: Propagate CNTHCTL_EL2.EL1NV{P,V}CT bits
+c4dbbf59616205c2652eb847a2fc8a1108a86235 KVM: arm64: nv: Sanitise CNTHCTL_EL2
+d6e1cc1e4afa838d80c5989914db73d7bafcde7d KVM: arm64: Work around x1e's CNTVOFF_EL2 bogosity
+1874a965b6f58bbf0818d851e987b5cfb1756426 arm64: sysreg: Add layout for ICH_HCR_EL2
+b1219eae2df6bcba3d93996b0fc0a509b78c032e KVM: arm64: nv: Allocate VNCR page when required
+fd59624e36f95f91ae4186e9769dfe65b377a5b9 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
+05186631d2d13d6b6f2e960f1e94a2793fb4fd8a arm64: sysreg: Add layout for ICH_VTR_EL2
+1d608c736c65c600b05411e1f1d5c18d23c1635a arm64: sysreg: Add layout for ICH_MISR_EL2
+2efb638a5fdc7b1673a99d3806092d5724e16368 KVM: arm64: Move host SVE/SME state flags out of vCPU
+bf73a00ce58120dc48f247c8d823a97d1ad3ccf8 KVM: arm64: nv: Load timer before the GIC
+621ecb096a65bac6edf7dc09fdcf5a05b877e276 KVM: arm64: nv: Add ICH_*_EL2 registers to vpcu_sysreg
+dc5557211c64dd343d45ef3ba4fb79a083acdb80 KVM: arm64: nv: Plumb handling of GICv3 EL2 accesses
+07a6f3f46280b5763cb40510404ae94a7c47a79e KVM: arm64: nv: Sanitise ICH_HCR_EL2 accesses
+64f4ee35d95d1342c5da6ab2814769d96cc836ff KVM: arm64: nv: Nested GICv3 emulation
+cda5903c0d602c73d8aeb5392fb34a2a63e68ea5 KVM: arm64: nv: Handle L2->L1 transition on interrupt injection
+3eb79ef09f8b19f0d838bdc31f82137d782fe096 KVM: arm64: nv: Add Maintenance Interrupt emulation
+a6eca3d1c30e6b0c862390f40575b881dc6b7e70 KVM: arm64: nv: Respect virtual HCR_EL2.TWx setting
+b2d4691edef4f760fff8556a17b1e9cfb150cd10 KVM: arm64: nv: Request vPE doorbell upon nested ERET to L2
+6b59949973c4ed6068d77325af6f2d5316152cbb KVM: arm64: nv: Don't block in WFI from nested state
+4a863760073cfc686eec74819ebe8a1f5ded009a KVM: arm64: nv: Propagate used_lrs between L1 and L0 contexts
+1b68de7f17f662144e3fab9fffacb68544423ca9 KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
+9125e82f6ab66c8be3f1b99302293bdba29b5a05 KVM: arm64: nv: Allow userland to set VGIC maintenance IRQ
+7fee770456b32a1dc5d08d26ffb464fe9a44cd7a KVM: arm64: nv: Add nested GICv3 tracepoints
+a1136bdc9b68fc7ee7c6cfa2d3c89ad065a3cefb Merge branch 'kvm-arm64/ls64' into kvm-arm64/nv-next-WIP
+4d61e8e098491c4de46430e294003de1fe276a00 Merge branch 'kvm-arm64/nv-timers' into kvm-arm64/nv-next-WIP
+3b8be17931b21ad5c4418db13eeb92ea640658e9 Merge branch 'kvm-arm64/nv-gic' into kvm-arm64/nv-next-WIP
+e2d483d7f172a65bc37bb47b35e5b566b42e9ee4 Merge branch 'kvm-arm64/nv-roll-baby-roll' into kvm-arm64/nv-next-WIP
 
---===============5786366266037975750==--
+--===============6707218497636830405==--
