@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5873737728974686519=="
+Content-Type: multipart/mixed; boundary="===============2820508779785499663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 02 Dec 2024 21:21:43 -0000
-Message-Id: <173317450369.2357246.1545023126979670599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 02 Dec 2024 21:21:47 -0000
+Message-Id: <173317450701.2357332.2708356445714015820@gitolite.kernel.org>
 
---===============5873737728974686519==
+--===============2820508779785499663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: d7b6918e22c74f2b354d8dc0ef31ab17ae334b93
+    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-d7b6918e22c7-40384c840ea1.txt
+    log: revlist-89282beaf75d-40384c840ea1.txt
   - ref: refs/heads/dev-staging
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-9852d85ec9d4-40384c840ea1.txt
+    log: revlist-b85ea95d0864-40384c840ea1.txt
   - ref: refs/heads/next
-    old: d7b6918e22c74f2b354d8dc0ef31ab17ae334b93
+    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-d7b6918e22c7-40384c840ea1.txt
+    log: revlist-89282beaf75d-40384c840ea1.txt
   - ref: refs/heads/stable-6.13
-    old: d7b6918e22c74f2b354d8dc0ef31ab17ae334b93
+    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-d7b6918e22c7-40384c840ea1.txt
+    log: revlist-89282beaf75d-40384c840ea1.txt
 
---===============5873737728974686519==
+--===============2820508779785499663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7b6918e22c7-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-89282beaf75d-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1063,11 +1063,11 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============5873737728974686519==
+--===============2820508779785499663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -2094,4 +2094,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============5873737728974686519==--
+--===============2820508779785499663==--
