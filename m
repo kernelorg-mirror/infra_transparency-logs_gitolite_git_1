@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============0716910328389252217=="
+Content-Type: multipart/mixed; boundary="===============4393419339548904961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Dec 2024 10:52:47 -0000
-Message-Id: <173313676712.1793761.11170853112791468291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 02 Dec 2024 10:53:20 -0000
+Message-Id: <173313680082.1794182.12983642571639232073@gitolite.kernel.org>
 
---===============0716910328389252217==
+--===============4393419339548904961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/perf/core
-    old: faac6f105ef169e2e5678c14e1ffebf2a7d780b6
-    new: bcfd5f644c5b933cfb3c488220e40a03e011e8a4
-    log: revlist-faac6f105ef1-bcfd5f644c5b.txt
+  - ref: refs/heads/for-next
+    old: d1dfb5f52ffc4a142d88da5c0ed0514f3602c4b8
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-d1dfb5f52ffc-40384c840ea1.txt
 
---===============0716910328389252217==
+--===============4393419339548904961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faac6f105ef1-bcfd5f644c5b.txt
+Content-Disposition: attachment; filename=revlist-d1dfb5f52ffc-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-bcfd5f644c5b933cfb3c488220e40a03e011e8a4 Merge tag 'v6.13-rc1' into perf/core, to refresh the branch
 
---===============0716910328389252217==--
+--===============4393419339548904961==--
