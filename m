@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8036048843090477027=="
+Content-Type: multipart/mixed; boundary="===============2350188594597586769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 02 Dec 2024 19:34:35 -0000
-Message-Id: <173316807515.2270650.16933556310298771779@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 19:34:40 -0000
+Message-Id: <173316808049.2270915.11014225437075457317@gitolite.kernel.org>
 
---===============8036048843090477027==
+--===============2350188594597586769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9bb88c659673003453fd42e0ddf95c9628409094
     new: 28866d6e84b8d36a76b2cde221391aed1294e5cd
     log: revlist-9bb88c659673-28866d6e84b8.txt
 
---===============8036048843090477027==
+--===============2350188594597586769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c44daa7e3c73229f7ac74985acb8c7fb909c4e0a net: Fix icmp host relookup triggering 
 a747e02430dfb3657141f99aa6b09331283fa493 ipv6: avoid possible NULL deref in modify_prefix_route()
 28866d6e84b8d36a76b2cde221391aed1294e5cd octeontx2-af: Fix SDP MAC link credits configuration
 
---===============8036048843090477027==--
+--===============2350188594597586769==--
