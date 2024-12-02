@@ -1,26 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============8664889814642873716=="
+Content-Type: multipart/mixed; boundary="===============5917353022567210804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 02 Dec 2024 07:52:51 -0000
-Message-Id: <173312597169.1633997.9339561053232726814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 02 Dec 2024 07:57:05 -0000
+Message-Id: <173312622557.1638222.10408264378850714897@gitolite.kernel.org>
 
---===============8664889814642873716==
+--===============5917353022567210804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/microchip-dt64-fixes
+  - ref: refs/heads/master
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-9852d85ec9d4-40384c840ea1.txt
+  - ref: refs/tags/v6.12
+    old: 0000000000000000000000000000000000000000
+    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
+  - ref: refs/tags/v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cbc4912199deab59fdbd830b115d81941d0add46
 
---===============8664889814642873716==
+--===============5917353022567210804==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1733126251 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1733126222-2e38283da5baca55d2ab8bb4a2a3c64feb69d85c
+
+9852d85ec9d492ebef56dc5f229416c925758edc 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/master
+0000000000000000000000000000000000000000 06090c9b622a7e1f797e775db4c035e0d779b76e refs/tags/v6.12
+0000000000000000000000000000000000000000 cbc4912199deab59fdbd830b115d81941d0add46 refs/tags/v6.13-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdNaGsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11KPD/kByKwhLTOUS/bEYq3zrTuQ1rGFgjGeTaQO
+mBfDulwU10/488KZBiH6s4MQdksZbgVMZ89WfglnFoodpCGh1KUi0fBuR5Sqm2Sf
+Gg2rD1evYIZ3HZIIgEju/Ti0CArV7eBh7N3fDrFHUSe64gkMY0xt2XYaMImMwgoF
+x93EQMCwYhAdAVtkZpU0TDJc7wfifg6I2zvWF8AIY5BqcDxB8hgwcor1qlX+nq9q
+qau/AiHWqttsTERwfkh+jro9D5zAOfBY3XaHwVwAnI6Vx6b9YCoUxENhWhUf8+lB
+IwbxcWpe+Zk+1OPYguoWINsTc5sHe+iWg3Of5ADYxXpO+HduYrk2azpoj39CZ2ZN
+OG3ol/8Cvy+KyHOHUdVk47mOVh/c3t6CY7uxzk/XR6/6RRGLcqwt/ektgvLVbqQD
++EPyx8KnorNjpRl2HXkhjUgTddRu/0TtkDdQ7q2f3aBeaiY2Yb/3ZlsDzONXvCVA
+i6eep2K0bZ3lBNch/Mro3sskqb3ZCkTCRzqbI1fzXZtQkaGfbvRWG1wL4YhXEYko
+T17oQBjP46R4WWqx+daBfzwfuh2agXaEYAbYvQPRc+CKkFsUfXTSAJhYRGH0W9D4
+mWCW0VQ5HNTE3Ryi0pCnTNfd7AVvhuSpvuGLOHu++aRqZBWJEpFsBH399rR4e78R
+OHAWSf6TgA==
+=dssk
+-----END PGP SIGNATURE-----
+
+--===============5917353022567210804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1090,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============8664889814642873716==--
+--===============5917353022567210804==--
