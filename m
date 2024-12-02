@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4766739409624266961=="
+Content-Type: multipart/mixed; boundary="===============0521171103190136334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 02 Dec 2024 12:14:25 -0000
-Message-Id: <173314166535.1867434.15185943085031039323@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 12:14:44 -0000
+Message-Id: <173314168414.1868194.3692528304012423358@gitolite.kernel.org>
 
---===============4766739409624266961==
+--===============0521171103190136334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/ls64
-    old: 7150da624e62ed152c09834f1981c0f3569c28db
-    new: 1368094e478fc036034088a8daacb629727b53df
-    log: revlist-7150da624e62-1368094e478f.txt
+  - ref: refs/heads/kvm-arm64/nv-e2h-select
+    old: faa80f45b868406e622443fe33bf4d8ce4fddfe3
+    new: 3436bb26b1323020cea253a62d79fe7f60e61a12
+    log: revlist-faa80f45b868-3436bb26b132.txt
 
---===============4766739409624266961==
+--===============0521171103190136334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7150da624e62-1368094e478f.txt
+Content-Disposition: attachment; filename=revlist-faa80f45b868-3436bb26b132.txt
 
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
 0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -1039,16 +1046,9 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-f894c3a3caf1c9b02d43a3fc965bd7c1bbbbceb4 arm64: Add ID_AA64ISAR1_EL1.LS64 encoding for FEAT_LS64WB
-291ffafe56fbc8781ea967800ff256d2b3be072e arm64: Add syndrome information for trapped LD64B/ST64B{,V,V0}
-f07b821b71fd13509a3ad2bc521ab631c776dded KVM: arm64: Add ACCDATA_EL1 to the sysreg array
-b0dfce759e388a0adae3bcaacc276e477797fccb KVM: arm64: Add context-switch of ACCDATA_EL1
-8790f189faab97f1f54bd6f09ad790b271c4d121 KVM: arm64: Handle trapping of FEAT_LS64* instructions
-7ef4f42d03cd9376c9b5483cae8c1547105f666d KVM: arm64: Add exit to userspace on {LD,ST}64B* outside of memslots
-68c7265ec28fc6bf4b592a839216c1ccd3b7ad0b KVM: arm64: Restrict ACCDATA_EL1 undef to FEAT_ST64_ACCDATA being disabled
-a6db4ed69116b6bed19dc6ca112e985e24c0c511 KVM: arm64: Conditionnaly enable FEAT_LS64* instructions
-fd264385838c0cce90461483b34299b296ab6029 KVM: arm64: nv: Expose FEAT_LS64* to a nested guest
-feed41f985486426f92b810a52b5b3e93cab5dfa arm64: Expose ID_AA64ISAR1_EL1.LS64 to sanitised feature consumers
-1368094e478fc036034088a8daacb629727b53df KVM: arm64: Add documentation for KVM_EXIT_ARM_LDST64B
+d75a4820a89710d4d97136cb718720a7bf041e51 arm64: cpufeature: Handle NV_frac as a synonym of NV2
+8d56ac41ed271d1b570d7dcd574b4752ccfbfd31 KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
+d5f4755e7b031b5a53eff5f9859fbe8a4cc26a3a KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
+3436bb26b1323020cea253a62d79fe7f60e61a12 KVM: arm64: nv: Mark HCR.EL2.E2H as RES0 when ID_AA64MMFR1_EL1.VH is zero
 
---===============4766739409624266961==--
+--===============0521171103190136334==--
