@@ -1,59 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1855774247127483670=="
+Content-Type: multipart/mixed; boundary="===============4723184063094849509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 02 Dec 2024 13:15:43 -0000
-Message-Id: <173314534382.1924543.3533254047571941743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 02 Dec 2024 13:16:05 -0000
+Message-Id: <173314536574.1924824.288377361108411338@gitolite.kernel.org>
 
---===============1855774247127483670==
+--===============4723184063094849509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.13
-    old: 351f2bfe6362c663f45f5c6111f14365cfd094ab
+  - ref: refs/heads/for-linus
+    old: a11cdc4ff172cb8816c960b8e0b9e7f31c11b911
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-351f2bfe6362-40384c840ea1.txt
-  - ref: refs/heads/regulator-6.14
-    old: 0000000000000000000000000000000000000000
+    log: revlist-a11cdc4ff172-40384c840ea1.txt
+  - ref: refs/heads/for-next
+    old: d34340de766b18c4e35c1ba92015f79099b1197e
     new: a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26
+    log: |
+         a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 regulator: bd96801: Add ERRB IRQ
+         
 
---===============1855774247127483670==
+--===============4723184063094849509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733145370 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733145340-a45722696cba7a7526d8684fc3b5e884563d29ed
-
-351f2bfe6362c663f45f5c6111f14365cfd094ab 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/regulator-6.13
-0000000000000000000000000000000000000000 a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 refs/heads/regulator-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsxoACgkQJNaLcl1U
-h9DOYAf/afC7Elw8P/bBRw7mSCrl4YWA0GYttHJALoPrxB2xfeg6BCBEUGDfebD6
-snCWTP8PTnC/NkStR0z0zyGQQ+6j58NTO1uYyt8B/NthIPEqDQZJSidYS5KRIaBe
-L186tmcO1/5/TZ2v8Cd9hpbJXcBCeBNtUOEAy5jB2Z5BgLmf/yaSd1eJ7vmfzTVG
-tAkudkcyO1TXGrRYctjxd6lPOfOhgMmANV5hgc0cS7PnyCM1YvikfTwkrsFto/we
-uSGmpMwVgiOPGGMVgz7layiYu5RptxskPQaFafbw+tRSBmyaThEqKcGe5txRuZT3
-enxZhTDD4tdcIByegkJbmGhU6uLl7A==
-=jxsg
------END PGP SIGNATURE-----
-
---===============1855774247127483670==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-351f2bfe6362-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-a11cdc4ff172-40384c840ea1.txt
 
 28b6acd75e3cefbe746ec7402c7ff4fdb114f327 PCI: endpoint: Fix pci_epc_map map_size kerneldoc string
 6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
@@ -1080,4 +1057,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1855774247127483670==--
+--===============4723184063094849509==--
