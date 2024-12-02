@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3661217608901696798=="
+Content-Type: multipart/mixed; boundary="===============7636311422550765010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 02 Dec 2024 07:41:50 -0000
-Message-Id: <173312531074.1623147.2296829760878223860@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 07:41:59 -0000
+Message-Id: <173312531958.1623391.1524969051219158354@gitolite.kernel.org>
 
---===============3661217608901696798==
+--===============7636311422550765010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
-    log: revlist-9852d85ec9d4-e70140ba0d2b.txt
+  - ref: refs/heads/gpio/for-next
+    old: bef29ca3a6458582ac13320d47bf2646e5734dc8
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-bef29ca3a645-40384c840ea1.txt
 
---===============3661217608901696798==
+--===============7636311422550765010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-e70140ba0d2b.txt
+Content-Disposition: attachment; filename=revlist-bef29ca3a645-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============3661217608901696798==--
+--===============7636311422550765010==--
