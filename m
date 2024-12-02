@@ -1,43 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============8375784537620993199=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 02 Dec 2024 17:02:05 -0000
-Message-Id: <173315892570.2138518.10293542492884439856@gitolite.kernel.org>
-
---===============8375784537620993199==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 02 Dec 2024 17:04:35 -0000
+Message-Id: <173315907539.2140172.11805648615736573888@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/testing/v6.13-rc1
     old: 0000000000000000000000000000000000000000
-    new: e9fba20c29e27dc99e55e1c550573a114561bf8c
-
---===============8375784537620993199==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733158948 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1733158919-5abe9474d186f41c8c7d07c1f031274207087ea8
-
-0000000000000000000000000000000000000000 e9fba20c29e27dc99e55e1c550573a114561bf8c refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ03oKQAKCRBZrE9hU+XO
-MaqLAQCzP9ZuRpXw+0msY9T7LcdPoBdqZ+x4p8vVtAruot+59QD+IAMlSPU1bIqS
-fvygEgShkAonK4OP5DiMs3hdaYbDQgk=
-=4SqT
------END PGP SIGNATURE-----
-
---===============8375784537620993199==--
+    new: 68a48ae0748ff33d4b21e439556c656bf201166d
