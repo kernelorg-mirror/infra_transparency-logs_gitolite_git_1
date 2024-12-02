@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1872195023112743580=="
+Content-Type: multipart/mixed; boundary="===============5948290700002622416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Dec 2024 12:33:46 -0000
-Message-Id: <173314282656.1885686.8136506964040453472@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 12:34:24 -0000
+Message-Id: <173314286491.1886134.7796753021313390372@gitolite.kernel.org>
 
---===============1872195023112743580==
+--===============5948290700002622416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 190aac013000ed04cda6b1dbf06f0ace14dbd055
-    new: 941f2328498c0b774ebfd9eeeda1a5c453c0487d
-    log: revlist-190aac013000-941f2328498c.txt
+  - ref: refs/heads/m68k-queue
+    old: dd065655835f8c150bee56ab02242ab560f2efee
+    new: 768795eda4989162bd86f39f8441d176677581f1
+    log: revlist-dd065655835f-768795eda498.txt
 
---===============1872195023112743580==
+--===============5948290700002622416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-190aac013000-941f2328498c.txt
+Content-Disposition: attachment; filename=revlist-dd065655835f-768795eda498.txt
 
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1047,8 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-941f2328498c0b774ebfd9eeeda1a5c453c0487d Merge tag 'v6.13-rc1'
+1d5a9eeeddc132bca02e67df03b9748ce9d9276b m68k: atari: usb: Add ISP1160 USB host controller support
+007fce7fc42cdda8e16b197aa3da941bfb2f1416 m68k: atari: Update Kconfig.bus help text
+768795eda4989162bd86f39f8441d176677581f1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1872195023112743580==--
+--===============5948290700002622416==--
