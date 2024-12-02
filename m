@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3191066056199566437=="
+Content-Type: multipart/mixed; boundary="===============7522103807651412383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 02 Dec 2024 08:43:25 -0000
-Message-Id: <173312900571.1677227.7038661682028912039@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 08:43:44 -0000
+Message-Id: <173312902495.1677534.9707796314433176971@gitolite.kernel.org>
 
---===============3191066056199566437==
+--===============7522103807651412383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2
     new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
     log: revlist-43fb83c17ba2-e70140ba0d2b.txt
 
---===============3191066056199566437==
+--===============7522103807651412383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733129028 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733129046 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1733128999-44a554b25757f564b897dca61018fc54848b4d53
+nonce 1733129017-ae9b369862dd4cba01d40bca7902e4625c6ba28e
 
-43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/master
+43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ01zRwAKCRBZrE9hU+XO
-MVNcAQCORirAv4FsnibVpQfy7oL4A5oaOepXFi+QymVlD/JiCwEAyZIEsgJFKr80
-ngCg6KJB7bcW2bAHuWBGHBXaUjvWEgQ=
-=bKUk
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ01zXAAKCRBZrE9hU+XO
+MREWAQDBsY9oYuNCdgt8hoRp24zh03rBFUEwSg4AXWnkw1NdrgEA96UtdEGH9Bem
+btCV3DUTiFLePbZkZEQlYGe9KiO7AAU=
+=F/+Z
 -----END PGP SIGNATURE-----
 
---===============3191066056199566437==
+--===============7522103807651412383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============3191066056199566437==--
+--===============7522103807651412383==--
