@@ -1,46 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7753378952814192009=="
+Content-Type: multipart/mixed; boundary="===============4101935331177459949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 02 Dec 2024 10:53:30 -0000
-Message-Id: <173313681079.1794493.2686923791478810257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Dec 2024 10:58:31 -0000
+Message-Id: <173313711169.1798729.11002029586438104348@gitolite.kernel.org>
 
---===============7753378952814192009==
+--===============4101935331177459949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/arm64/alternatives/info
-    old: 52c05b1560a355865dbc64cb1909bc4aea97ef04
-    new: 9e45698209f2450fa625c644853db91c3fb2c540
-    log: revlist-52c05b1560a3-9e45698209f2.txt
+  - ref: refs/heads/kvm-arm64/nv-gic
+    old: f02c94e64607418b939b5660440a826b405e383d
+    new: b8f358c853166a55d17af2430bcb889b7660890d
+    log: revlist-f02c94e64607-b8f358c85316.txt
 
---===============7753378952814192009==
+--===============4101935331177459949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52c05b1560a3-9e45698209f2.txt
+Content-Disposition: attachment; filename=revlist-f02c94e64607-b8f358c85316.txt
 
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
 82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
 65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
@@ -1049,6 +1034,21 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-9e45698209f2450fa625c644853db91c3fb2c540 HACK: arm64: alternatives: dump summary of alternatives
+1874a965b6f58bbf0818d851e987b5cfb1756426 arm64: sysreg: Add layout for ICH_HCR_EL2
+a81ac619f15da07bdf00ae895aef0af328d27b57 arm64: sysreg: Add layout for ICH_MISR_EL2
+d3d32db2d6f498a7e02786d873199fb1ecdd4009 KVM: arm64: Move host SVE/SME state flags out of vCPU
+654657499279f9508b7d8d8b663ea83756ef07f8 KVM: arm64: nv: Respect virtual HCR_EL2.TWx setting
+1c46c26e394d279d70a49ec0aafde565fd92436c KVM: arm64: nv: Load timer before the GIC
+82dd8ba2045e13d91b5c16443b36358f2bb54a70 KVM: arm64: nv: Add ICH_*_EL2 registers to vpcu_sysreg
+5f6888ed343aaa8c243876290a04288239c3168d KVM: arm64: nv: Plumb handling of GICv3 EL2 accesses
+3704c8804076b404992ac77214445cc367d2519b KVM: arm64: nv: Nested GICv3 emulation
+859e9e29c2a75a419ae74c2b02add776c8d420ed KVM: arm64: nv: Handle L2->L1 transition on interrupt injection
+370f6e7074b0dc39aea581c4245e390a90956984 KVM: arm64: nv: Add Maintenance Interrupt emulation
+62d583626515a4d537403d013925e54272db313c KVM: arm64: nv: Request vPE doorbell upon nested ERET to L2
+05e4a7ed6917af9c63f2837114c56482ceeba660 KVM: arm64: nv: Don't block in WFI from nested state
+d0b0b1d19b12be7c0e65cdfefb6811008da41720 KVM: arm64: nv: Allow userland to set VGIC maintenance IRQ
+a24896756b4837725351401072f94be4a42b3ead KVM: arm64: nv: Propagate used_lrs between L1 and L0 contexts
+460c7b0852345b94ae7241a258fa6225a0d3b812 KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
+b8f358c853166a55d17af2430bcb889b7660890d KVM: arm64: nv: Add nested GICv3 tracepoints
 
---===============7753378952814192009==--
+--===============4101935331177459949==--
