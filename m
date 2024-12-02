@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0745820229045244543=="
+Content-Type: multipart/mixed; boundary="===============1463506721213106151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 02 Dec 2024 13:29:05 -0000
-Message-Id: <173314614572.1936410.17444491169185908858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Dec 2024 13:29:12 -0000
+Message-Id: <173314615219.1936695.2613654598888918725@gitolite.kernel.org>
 
---===============0745820229045244543==
+--===============1463506721213106151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: d24cfee7f63d6b44d45a67c5662bd1cc48e8b3ca
     new: 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4
     log: revlist-d24cfee7f63d-1b299bd0c228.txt
+  - ref: refs/heads/spi-6.14
+    old: 0000000000000000000000000000000000000000
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
 
---===============0745820229045244543==
+--===============1463506721213106151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733146172 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1733146143-175b9d70d2b3ae7f0b38703a98ccbc0deef9bff5
+pusher C3F436CA30F5D8EB 1733146178 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733146149-269295fc9ab6ca4dd31d5a3f29e9ea570f5d7108
 
-d24cfee7f63d6b44d45a67c5662bd1cc48e8b3ca 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 refs/heads/for-6.13
+d24cfee7f63d6b44d45a67c5662bd1cc48e8b3ca 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 refs/heads/spi-6.13
+0000000000000000000000000000000000000000 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNtjwACgkQJNaLcl1U
-h9Brygf/RprmnxWzcNtKkgTkRkjC+becnJPndTI+EgTCkMoaLwgoimYZPxnwx9tT
-R296ZsBP+wG9lk2CYJwrzXI9kNGQ7Wg8j8vXc/MAJ4Qt53BrGbhO0nkHfl8Cd+qN
-sxHvYmFhVax/VFbnS87XUE1wow8V25tfnfmZ2Wmmu4MKRLBMbxpPzWnphwIpnBOI
-R6j0coeHSYiNI/DM4XJwBSJkqo0OZL0tzJdln7RZqE8GE6MZWelbQ9FljPnZJV0u
-Plu3CPG+NmYQM+iaHXkfjdeDLLq3/t11G/m7pYIeufvMZ3wO7HMHRDMuFwihDTEx
-CdYE4MtJUgi/HeSi0u6RadujcABozQ==
-=HmX4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNtkIACgkQJNaLcl1U
+h9DnDQf+O4M2siAfoG1XnsbBXg4YG6O6ijrWxhGNCdKaf4VAhWNk+B4dHQx/gJlQ
+PFx82DTvqDJO/vof5O/xVJ5FKoRYcn0LXsvs9Tj3XTFkZ5jMOseS3SFwn0gkukrq
+jGCeKGL32ETdXNIYzWEbextUCCySMD7EfQSoav9o+a+eraXOX66+Pg6FYEAO6sRb
+1Ces4IxYWHtwlaXjh8MONPlmIO65541TJVWkWIuo7rtSguoJ0ao/npnklmJZYCyo
+64DdrYtqyDxK4R1/2Z2swacbtCZbiKLWP8rqE/qHYALS10mCijSLKR4wszmovjNy
++l2VG3zJ/8OETUCmerUnV+INNWU34w==
+=LlRG
 -----END PGP SIGNATURE-----
 
---===============0745820229045244543==
+--===============1463506721213106151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 984836621aad98802d92c4a3047114cf518074c8 spi: mpc52xx: Add cancel_work_sync before module remove
 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 spi: apple: Set use_gpio_descriptors to true
 
---===============0745820229045244543==--
+--===============1463506721213106151==--
