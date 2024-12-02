@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0907817935020214209=="
+Content-Type: multipart/mixed; boundary="===============2091882885639967661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 02 Dec 2024 19:17:49 -0000
-Message-Id: <173316706983.2256767.276022421214754173@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 19:18:00 -0000
+Message-Id: <173316708056.2257020.7384860188005582261@gitolite.kernel.org>
 
---===============0907817935020214209==
+--===============2091882885639967661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9bb88c659673003453fd42e0ddf95c9628409094
-    new: 28866d6e84b8d36a76b2cde221391aed1294e5cd
-    log: revlist-9bb88c659673-28866d6e84b8.txt
+  - ref: refs/heads/dev-queue
+    old: cef3450b7554872344aa4679940972a6f59af285
+    new: b3dc167c157570c23a712a06c742a5f6232f828d
+    log: revlist-cef3450b7554-b3dc167c1575.txt
 
---===============0907817935020214209==
+--===============2091882885639967661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bb88c659673-28866d6e84b8.txt
+Content-Disposition: attachment; filename=revlist-cef3450b7554-b3dc167c1575.txt
 
-acbbbd2375034e332dc4b28e12932a12871ab204 drm/amd/display: 3.2.309
-60c58d72afb81d2dc3f52f638eff5197511ac114 drm/amdgpu: Update SRIOV Exchange Headers for RAS Telemetry Support
-9928509dfc2296a66cd073eb84bfae8eccf7195d drm/amdgpu: Add msg handlers for SRIOV RAS Telemetry
-907fec2dfd061ca422d8b121f4af1b6062e098ba drm/amdgpu: VF Query RAS Caps from Host if supported
-84a2947ecc85c67f433f2cc2186e54cdb9047b61 drm/amdgpu: Implement virt req_ras_err_count
-92fd1714ee3cef8ad9c466ced354ab0581ee3782 drm/amd/amdgpu: Increase MES log buffer to dump mes scratch data
-408d20812742014c57b145eb4509364a0c92a1bb drm/amdgpu: Cleanup shift coding style
-6cb6d437b57a16487197e4abc3ab2838d7bf473c drm/amdkfd: change kfd process kref count at creation
-14c7f4867b7e4ddbbde58b398452295051c77137 ASoC: max98088: Add left/right DAC volume control
-d0621105eff307408ceb3d0eb61ca2a23c37fcbe ASoC: max98088: Add headphone mixer switch
-af5661c7c708b1923a1761fe12527c2b85ad47ba drm/amd/amdkfd: add/remove kfd queues on start/stop KFD scheduling
-ce4971388c79d36b3f50f607c3278dbfae6c789b drm/amd : Update MES API header file for v11 & v12
-5bea9bbb45eb14d9a1bdc64eef2e44bbdbcc947c drm/amdgpu: Support vcn and jpeg error info parsing
-cfe98204a06329b6b7fce1b828b7d620473181ff drm/amdgpu/mes12: correct kiq unmap latency
-377dda2cff59825079aee3906aa4904779747b0b drm/fourcc: add AMD_FMT_MOD_TILE_GFX9_4K_D_X
-fd0a5afb5455b4561bfc6dfb0c4b2d8226f9ccfe kunit: skb: use "gfp" variable instead of hardcoding GFP_KERNEL
-4c1d8f0547363893bc3b7755aa90755bfd89e2ed perf disasm: Introduce symbol__disassemble_objdump()
-e9b57d7f9740deb31acb02a00bdf6653e60c7e61 KVM: arm64: Make L1Ip feature in CTR_EL0 writable from userspace
-2865463442f8be5943686c767eb45089f29fb157 Merge branch kvm-arm64/nv-s1pie-s1poe into kvmarm/next
 7ccd615bc6ebb5e5d3565bf74ab2d695eb83b95e Merge branch kvm-arm64/psci-1.3 into kvmarm/next
 24bb181136483f9dbade65cb41763fd8a5d155b5 Merge branch kvm-arm64/mpam-ni into kvmarm/next
 7f33b92e5b18e904a481e6e208486da43e4dc841 NFSD: Prevent a potential integer overflow
@@ -1050,5 +1031,24 @@ be75cda92a65a13db242117d674cd5584477a168 bnxt_en: ethtool: Supply ntuple rss con
 c44daa7e3c73229f7ac74985acb8c7fb909c4e0a net: Fix icmp host relookup triggering ip_rt_bug
 a747e02430dfb3657141f99aa6b09331283fa493 ipv6: avoid possible NULL deref in modify_prefix_route()
 28866d6e84b8d36a76b2cde221391aed1294e5cd octeontx2-af: Fix SDP MAC link credits configuration
+e7352b07dee4a66b7647f7d6e7f818e7e047d938 iavf: allow changing VLAN state without calling PF
+a286d6a44bc95dc479c728ec852051d28d53c4cf idpf: set completion tag for "empty" bufs associated with a packet
+3537be9ad14df5e569f4fb68fcfd06fcd671a484 ice: fix PHY Clock Recovery availability check
+f8f9292a1cd80f1209caa8aa246da1cf7646e68b igb: Fix potential invalid memory access in igb_init_module()
+9b4b247f9c129547667e28baff99c561df331fd1 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
+7edb7ff9a9f4655b9895894a01f45323f57bbe2d ixgbe: downgrade logging of unsupported VF API version to debug
+0d381e717cf2d16bf565591d3f96ac73bbbba597 ice: Fix E825 initialization
+5a89c9836667f26300dbde2b6ffb5376fcc9c8af ice: Fix quad registers read on E825
+21d881091dd1339ef7571695f12556603527126e ice: Fix ETH56G FC-FEC Rx offset value
+1931aec4df47d5591a811ec673c045e6c01db23f ice: Add correct PHY lane assignment
+4439824040edbe999aacf9c2ef0a5e676a115d77 ice: Fix VLAN pruning in switchdev mode
+61427777b2287bc685b08b7ce05c660488ba7414 idpf: Change function argument
+4e0cadc485ea77d76be297554ce327eeb3440003 idpf: rename vport_ctrl_lock
+41049c1d260cf8a63cfe4bff0edf72d0d2d472c7 idpf: Add init, reinit, and deinit control lock
+591e2488362fefce9c42c8d10d9ca564f12fc71b idpf: add lock class key
+c205e7533659b69b8bce988bce63f964a6d34e90 ixgbe: Correct BASE-BX10 compliance code
+b41c486c48192cb04242d05b42102febe5d0291a ice: fix PHY timestamp extraction for ETH56G
+8a5f9a84f75bee21ebd4a0f2cea991c3c675759b ice: fix max values for dpll pin phase adjust
+b3dc167c157570c23a712a06c742a5f6232f828d idpf: add read memory barrier when checking descriptor done bit
 
---===============0907817935020214209==--
+--===============2091882885639967661==--
