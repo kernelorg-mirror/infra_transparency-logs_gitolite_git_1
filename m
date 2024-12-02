@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0659271254028184988=="
+Content-Type: multipart/mixed; boundary="===============0859733146198059146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 02 Dec 2024 16:46:04 -0000
-Message-Id: <173315796453.2122470.12901172624458755913@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 16:46:39 -0000
+Message-Id: <173315799955.2122965.356756509390503668@gitolite.kernel.org>
 
---===============0659271254028184988==
+--===============0859733146198059146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 44024ebf25918efb8c771e1b496250bc9c4ef893
+  - ref: refs/heads/for-next
+    old: f9cbf229fa3a40aec5cb773107fa3016a1c3d245
     new: 7378aeb664e5ebc396950b36a1f2dedf5aabec20
-    log: revlist-44024ebf2591-7378aeb664e5.txt
+    log: revlist-f9cbf229fa3a-7378aeb664e5.txt
 
---===============0659271254028184988==
+--===============0859733146198059146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44024ebf2591-7378aeb664e5.txt
+Content-Disposition: attachment; filename=revlist-f9cbf229fa3a-7378aeb664e5.txt
 
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 7378aeb664e5ebc396950b36a1f2dedf5aabec20 remoteproc: core: Fix ida_free call while not allocated
 
---===============0659271254028184988==--
+--===============0859733146198059146==--
