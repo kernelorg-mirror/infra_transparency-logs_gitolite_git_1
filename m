@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2124655851249260693=="
+Content-Type: multipart/mixed; boundary="===============5148985280554319272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 02 Dec 2024 08:53:06 -0000
-Message-Id: <173312958697.1687801.9690195042390604996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Mon, 02 Dec 2024 08:54:24 -0000
+Message-Id: <173312966421.1688446.6496846759805821239@gitolite.kernel.org>
 
---===============2124655851249260693==
+--===============5148985280554319272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next/dt64
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: aa33006c53c9c56ecbcbbb9b5415e27000eb86d4
-    log: |
-         aa33006c53c9c56ecbcbbb9b5415e27000eb86d4 arm64: dts: exynos8895: Add serial_0/1 nodes
-         
+  - ref: refs/tags/linux-can-fixes-for-6.13-20241202
+    old: f98af9540921b55097b24bf36c7896a14e9652c7
+    new: 0000000000000000000000000000000000000000
 
---===============2124655851249260693==
+--===============5148985280554319272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1733129613 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1733129584-9bc464097597647d4dd6c235fb2d0025022ad53b
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1733129689 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1733129660-a9cca79f2ecb967c828944a26c29914667bec53d
 
-40384c840ea1944d7c5a392e8975ed088ecf0b37 aa33006c53c9c56ecbcbbb9b5415e27000eb86d4 refs/heads/next/dt64
+f98af9540921b55097b24bf36c7896a14e9652c7 0000000000000000000000000000000000000000 refs/tags/linux-can-fixes-for-6.13-20241202
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdNdY0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zW/D/9f7s1lUpJiMARQ0u5aHxdjNCjQBz+3fgOy
-3VqJe238KxY9zE7l8rGMFerpAndVbsEMDOiQ3DvrCH8awYVNCtLsmUR6LWSgWcTU
-527CQ3IwePAMde7jI+tMLfEdpWK+cH/O4q6jOk1eZ7Ube6iRlWrYvls0jxKPH+12
-bX59ehkVcBUlJOfOvnTLyCWX3yR+aR6ti2XAVTi4ZtnMYqt/kh5EKz+x6whmWuDv
-sBSP7LxOXbcnDXgZ5AO0Em3VVtQQaOxbTs0+pwSlylblaydSE4IQYGI9fHQBUwzW
-bisis0hl89FnZxS5GI19RSJjU1xmjUodOAstD/iLzNdgt8i2gz22DkjNO0lq7rj7
-szLPkWTFu/tu2hQ173C3lNyYAyIXewQkScMGv94czwZPo9bM30ydjcxiHC5h2ZiN
-x3fXd7usyoavS98J0wxCjR4/eIoJchV0h1NuXRAnlo49aOpbVCsUv0GOesCq0lz3
-YDn+RIVW+rdWRrSDBAcnowaZpvKbARpaUQLxKEKYNMBThKZL4mWAtLZSy71qd5+4
-DXjuWsMiWbcZ4xAxYKMTO6oWFIUuZmJqAMYRwx3Jps9FL7SuC4fNe9Aao2zgFUIz
-X4t7w1AAlmJCywGOhT8TVyhHu8UkvDLXQ05r+tGRJdzpfbZRtDJH3//HMsjoQug6
-6kA4INnf8g==
-=NrTu
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmdNddkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b/AaB/45UzbGu9zqkEe0JBRQwjdMgvML5oiB
+0KwX/sRTWONnVLSPdmtOErA5Djtt0FxNKeMURmy9gzdIMKq6RPWRpRr+LdqzIO2F
+CBLIbmhNObN2uOUlSM1t0RB+ifkpIVzZScWaxO38p8F1f8FX1zaLBrZElp2oY2cY
+SNcQOfd4xVIxoPmdHESm1CVcz7Ir8k0043jqb0NVtGR2oRNiktc+8vKy/NSnLw6l
+qNjHsD6mGywTfLWEOuRWou2bhbAdtll9c8Q/pYgqK6YZ8fyi+Dysre8gGmiM6iPP
+q+0xUNp3Db6FhL360bYlQ4xDu85MArWMrtxlgofA4IGS6koNz8aWOoO4
+=VqUV
 -----END PGP SIGNATURE-----
 
---===============2124655851249260693==--
+--===============5148985280554319272==--
