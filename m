@@ -1,40 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 02 Dec 2024 23:28:21 -0000
-Message-Id: <173318210169.2460332.3033689432468577324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 02 Dec 2024 23:28:29 -0000
+Message-Id: <173318210958.2460489.2523492344849020933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: e0fc7a7869452b877c26644fdf0b38dd9a6cf8d2
+  - ref: refs/heads/snitm-kernel-6.12/baseline
+    old: aaab85afe41170b5af325c4c00fc4c6ab77b2a02
+    new: 330f23f486e64504a489852e8f1036053fa86a67
     log: |
-         da92d3dfc871e821a1bface3ba5afcf8cda19805 arm64: dts: rockchip: enable the mmu600_pcie IOMMU on the rk3588 SoC
-         b6f09f497b07008aa65c31341138cecafa78222c arm64: dts: rockchip: add msi-parent for pcie3x4_ep on rk3588
-         8b9c12757f919157752646faf3821abf2b7d2a64 arm64: dts: rockchip: add reset-names for combphy on rk3568
-         b89a4235eb8cdf1b4bd2f9e4ed096d8adf8994e7 arm64: dts: rockchip: Fix sdmmc access on rk3308-rock-s0 v1.1 boards
-         2ddd93481bce86c6a46223f45accdb3b149a43e4 arm64: dts: rockchip: rename rfkill label for Radxa ROCK 5B
-         9655b433b82c16a26ccddd54869ff82dbf4633bb Merge branch 'v6.13-armsoc/dtsfixes' into for-next
-         e0fc7a7869452b877c26644fdf0b38dd9a6cf8d2 Merge branch 'v6.14-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.13-armsoc/dtsfixes
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 2ddd93481bce86c6a46223f45accdb3b149a43e4
-    log: |
-         8b9c12757f919157752646faf3821abf2b7d2a64 arm64: dts: rockchip: add reset-names for combphy on rk3568
-         2ddd93481bce86c6a46223f45accdb3b149a43e4 arm64: dts: rockchip: rename rfkill label for Radxa ROCK 5B
-         
-  - ref: refs/heads/v6.14-armsoc/dts64
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: b89a4235eb8cdf1b4bd2f9e4ed096d8adf8994e7
-    log: |
-         da92d3dfc871e821a1bface3ba5afcf8cda19805 arm64: dts: rockchip: enable the mmu600_pcie IOMMU on the rk3588 SoC
-         b6f09f497b07008aa65c31341138cecafa78222c arm64: dts: rockchip: add msi-parent for pcie3x4_ep on rk3588
-         b89a4235eb8cdf1b4bd2f9e4ed096d8adf8994e7 arm64: dts: rockchip: Fix sdmmc access on rk3308-rock-s0 v1.1 boards
+         2f5fe39ed2c0d4acda4339796c8077c779889fef tools/power/x86/turbostat: fix turbostat.c el8 compiler errors
+         9fc2108c7cda0874a4c4e0786be0e228784df8fb tools/tracing/rtla: fix el8 compiler errors due to old glibc
+         11fd6325dc81708dacb1f5b6d022b497344b0768 tools/tracing/latency: link failure due to missing -lpthread with old glibc
+         e25437eedde87bce98dc7d13f7950e7f0571828d redhat: reenable 'with_tools' now that tools compilation is fixed for el8
+         330f23f486e64504a489852e8f1036053fa86a67 redhat: fix EL8 build so that it generates symvers.gz
          
