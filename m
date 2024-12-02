@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9071308566886134507=="
+Content-Type: multipart/mixed; boundary="===============4565140738659579152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 02 Dec 2024 07:09:03 -0000
-Message-Id: <173312334312.1592921.3945744937922820788@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 07:09:41 -0000
+Message-Id: <173312338163.1593795.8697711195505244435@gitolite.kernel.org>
 
---===============9071308566886134507==
+--===============4565140738659579152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: adc218676eef25575469234709c2d87185ca223a
+  - ref: refs/heads/next
+    old: 40aeea50444793ed106997a49c7083b656bccfa7
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-adc218676eef-40384c840ea1.txt
+    log: revlist-40aeea504447-40384c840ea1.txt
 
---===============9071308566886134507==
+--===============4565140738659579152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adc218676eef-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-40aeea504447-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============9071308566886134507==--
+--===============4565140738659579152==--
