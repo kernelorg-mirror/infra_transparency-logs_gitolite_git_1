@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3464284796297801630=="
+Content-Type: multipart/mixed; boundary="===============4126602660304250566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 02 Dec 2024 09:04:01 -0000
-Message-Id: <173313024191.1698578.17321761107624146665@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 09:04:16 -0000
+Message-Id: <173313025644.1698807.6664819494441516928@gitolite.kernel.org>
 
---===============3464284796297801630==
+--===============4126602660304250566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: b2eaa1170e45dc18eb09dcc9abafbe9a7502e960
+  - ref: refs/heads/pwm/for-nexxt
+    old: e23c5934caf05feb39879305828a8bd28af7d0f5
     new: 64d4b777a3c9542b476ebe83c11948849c2c766a
-    log: revlist-b2eaa1170e45-64d4b777a3c9.txt
+    log: revlist-e23c5934caf0-64d4b777a3c9.txt
 
---===============3464284796297801630==
+--===============4126602660304250566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2eaa1170e45-64d4b777a3c9.txt
+Content-Disposition: attachment; filename=revlist-e23c5934caf0-64d4b777a3c9.txt
 
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 854132331e46901c1d508ec540713b79db30fe8e dt-bindings: pwm: sprd,ums512-pwm: convert to YAML
 64d4b777a3c9542b476ebe83c11948849c2c766a dt-bindings: pwm: marvell,berlin-pwm: Convert from txt to yaml
 
---===============3464284796297801630==--
+--===============4126602660304250566==--
