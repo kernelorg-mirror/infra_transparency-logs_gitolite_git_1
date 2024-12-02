@@ -1,50 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============6386552206491345993=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 02 Dec 2024 09:38:54 -0000
-Message-Id: <173313233425.1730551.3623202366070942135@gitolite.kernel.org>
-
---===============6386552206491345993==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Mon, 02 Dec 2024 09:43:03 -0000
+Message-Id: <173313258328.1734522.118020173044784704@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/testing
-    old: 30447a1bc0e066e492552b3e5ffeb63c1605dfe2
-    new: a8c695005bfe6569acd73d777ca298ddddd66105
+  - ref: refs/heads/mhi-next
+    old: 7222ae1d3e4e79a3df37a0668f3718a7898b35df
+    new: 069fafff3f6055eeea2263f8dfbd47dada86fd58
     log: |
-         a8c695005bfe6569acd73d777ca298ddddd66105 can: j1939: j1939_session_new(): fix skb reference counting
+         069fafff3f6055eeea2263f8dfbd47dada86fd58 bus: mhi: host: pci_generic: fix MHI BAR mapping
          
-
---===============6386552206491345993==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1733132359 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1733132330-56b89bf46273962154211c22ea8727171911d2e9
-
-30447a1bc0e066e492552b3e5ffeb63c1605dfe2 a8c695005bfe6569acd73d777ca298ddddd66105 refs/heads/testing
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmdNgEcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b1qnB/9mcBPp5TNkrP7RqvfcTIYKkLuU/FM0
-2oUYaBoTNAXKThJa9tWc7DVzIOqR0P3rOVECBRqJ0bk2FTyy3n5ZP2bo/xPa6GCL
-Si2NXQHTyZkgFq3uC2E6wrPZE4IxW6SiW21a4Qrq1sVVl419NhewvotJzXEMR0FW
-aKyg9Y5Jp5o2z7JmaRc+JzAbPt66BNu2dJKFY9QMfX5ePeLPau8vCIy80U7sGcKU
-TcLhDiO4Lt+0ceGv+znPsfRAfwSK7xPhJD+LFmyRygleEXdzHsd4dd7Y8MSjh/Ay
-vuCjMfuJ0EkrZuuEG68IktHBC7oAjeXYSDxJl2T0ILX0SmB1FnKZvUJX
-=oaIo
------END PGP SIGNATURE-----
-
---===============6386552206491345993==--
