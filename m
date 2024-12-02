@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5320996300854472710=="
+Content-Type: multipart/mixed; boundary="===============2620541329775543253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 02 Dec 2024 07:11:15 -0000
-Message-Id: <173312347541.1596687.16902825513519490874@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 07:12:03 -0000
+Message-Id: <173312352342.1597185.16183072363742398874@gitolite.kernel.org>
 
---===============5320996300854472710==
+--===============2620541329775543253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-mika
     old: adc218676eef25575469234709c2d87185ca223a
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-adc218676eef-40384c840ea1.txt
 
---===============5320996300854472710==
+--===============2620541329775543253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============5320996300854472710==--
+--===============2620541329775543253==--
