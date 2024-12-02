@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8331138464941560718=="
+Content-Type: multipart/mixed; boundary="===============0071889703285470759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 02 Dec 2024 17:21:36 -0000
-Message-Id: <173316009637.2155131.5656804197424963637@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 17:21:41 -0000
+Message-Id: <173316010106.2155285.7889620941664610076@gitolite.kernel.org>
 
---===============8331138464941560718==
+--===============0071889703285470759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 43b44f0aff472761a982b391dcd09c833ef47acd
-    new: 551ac3a0b0a1340079a1c260f5e62647b0a20698
-    log: revlist-43b44f0aff47-551ac3a0b0a1.txt
+  - ref: refs/heads/6.13/scsi-queue
+    old: 8e3b6345d113cc917e64b0349dc486b5d8f55e70
+    new: 019880c08d059f214327fd0dc92e9be3707286f2
+    log: revlist-8e3b6345d113-019880c08d05.txt
 
---===============8331138464941560718==
+--===============0071889703285470759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733160075 -0500
+pusher 75C5DE3D 1733160128 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733160046-461d6ff5bc60fcd627540c5ead0bb19edf8d8e31
+nonce 1733160099-33d41568b356e695e2b398a91cd87099ef42adb9
 
-43b44f0aff472761a982b391dcd09c833ef47acd 551ac3a0b0a1340079a1c260f5e62647b0a20698 refs/tags/mkp-scsi-queue
+8e3b6345d113cc917e64b0349dc486b5d8f55e70 019880c08d059f214327fd0dc92e9be3707286f2 refs/heads/6.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN7IsACgkQ7ulgGnXF
-3j2MBQ/9H0UU3drOB/aQ4GFQacHeP+X5DTIvgak6oDBY3/0PbWACJDI42OTFVTM1
-BgAJSzfbMqgdiA7xg3u6UV/Fva7Ml+wnAkRv/NHLl9UzW1ZTXuXe5f5QDOtJA9IO
-NCT7x7B5femCi3dA5wgM1yqaGsPEimNSerMZXwph5S6D5hgZyiHJtqbpbmW2yLZW
-4Nj6bjoCXRbZfReDAC065bfdh/wCNEJkHUJE1DB4++HYlyzxnM92FLd2RXYxqAUg
-2DDOZsITBTnu/xB2qhCLxA/dybgp8mTP+cBMCwlGgywlMWtrrRL7W9Em0JTsn/IE
-9zGdwhBXy9WzIsB2JsSCCCnvwso+5WTpRej8AF/zi/7WDxdmFz898euH5RWNkb6b
-xocRkwFL0ZI8yDR+8F29nJ8GVhknvAvnRQfHo8FuUDr1maqWDFVsgyVz9txhkxIw
-1FZQj58bsAozWXqGJLE4YGvCDxiLcWWUsbJKF5UMvAZANziulgQht2krM8leS+b/
-6+rejEXXi0jqIqxM98HcR7bADB14F2ByORw0ad5ZJ7GPKhDp1u6WRrgljouaJ84m
-ptBPzCcFVZsgaNcmhEEqk2dsy2awdIJv+RNblQk1yxhZv699yUepZXhmQSaNGia9
-fBYaemUrRpgPEE/qU3D/JrdheswwzSXz3Ly4aE1X47Th8k06EVU=
-=k114
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN7MAACgkQ7ulgGnXF
+3j0NixAAs4A2gBhDO68RB29114eWpMT85E0wKl9KEBNLvuA7tjYflHDh0AOnv2VA
+4Hx5nKaaugA9iEUQ9+fi2JqmWbcuSDFoJRgryhALCXrYwc0M8wuenT0wHiY4jHIP
+MBxHxCpWR4ranRA006fuWSmt3SUWy3S9C1NdYHUUBbX9Vrfln3fb+lufIRcl2bjf
+u7l2g4HhO5w1uVUah2KBUYC7LRfw4NyGmpe92txpdPmWa9bteWkn9RRr7DrddoDc
+7C+Alm+uCWWCTM0FaHgaqcJvZH1Sja35No/p1qpzRJeYMRDDjn6zp54yr4iyVOro
+BHG1zJnWrVgVZbOs0IV2zX+gyEx5a82reToFuj2ImQXq6I/nrylCIskYShMNlwiQ
+0WtArzzsNnjlPTGmeF0vkNkPgaY6Y4TMz7fNk5jM7ETDkbYA0fMSc8l4o2HelTjd
+Bg9GFIKs1n1s3PpK6jmKxFuRmhzDlpDhmwbvASzETneQ+PQuq5ES/B8ede1A7LnR
+/TwjMb3GlyTR+DFDSNRexd5rgzDbG3jTGOiguc/sB+/T7a7wG7YqIF/w8Qksdfff
+KqxQ2jig425HK4ocv7EtEd53G/A4FiDVfLBLftebmR93YkQKS+1c49GJX4MqCHe3
+UpqWp8gFo6DZmcioU73kexFE1fU/2CXoK7R+V6nVlC8eKctM+tg=
+=bwyK
 -----END PGP SIGNATURE-----
 
---===============8331138464941560718==
+--===============0071889703285470759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43b44f0aff47-551ac3a0b0a1.txt
+Content-Disposition: attachment; filename=revlist-8e3b6345d113-019880c08d05.txt
 
 c064de86d2a3909222d5996c5047f64c7a8f791b scsi: qla1280: Fix hw revision numbering for ISP1020/1040
 e953835c1d41bbb660d7069dc9e61ea6bd7874f3 scsi: message: fusion: Constify struct pci_device_id
@@ -72,4 +72,4 @@ d3326e6a3f9bf1e075be2201fb704c2fdf19e2b7 scsi: ufs: pltfrm: Disable runtime PM d
 897df60c16d54ad515a3d0887edab5c63da06d1f scsi: ufs: pltfrm: Dellocate HBA during ufshcd_pltfrm_remove()
 019880c08d059f214327fd0dc92e9be3707286f2 Merge patch series "scsi: ufs: Bug fixes for ufs core and platform drivers"
 
---===============8331138464941560718==--
+--===============0071889703285470759==--
