@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0266817826043880864=="
+Content-Type: multipart/mixed; boundary="===============5538944378469616217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 02 Dec 2024 19:16:50 -0000
-Message-Id: <173316701012.2255722.17531883148018881784@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 19:16:55 -0000
+Message-Id: <173316701501.2255874.11812643973621725438@gitolite.kernel.org>
 
---===============0266817826043880864==
+--===============5538944378469616217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fcc79e1714e8c2b8e216dc3149812edd37884eef
     new: 65ae975e97d5aab3ee9dc5ec701b12090572ed43
     log: revlist-fcc79e1714e8-65ae975e97d5.txt
 
---===============0266817826043880864==
+--===============5538944378469616217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d83ec4afd209a0619b32b867f45c845d4dddc2eb Merge tag 'regulator-fix-v6.13-merge-wi
 86f419707c26e802287963f73c27bdaa4b21977e Merge tag 'spi-fix-v6.13-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 65ae975e97d5aab3ee9dc5ec701b12090572ed43 Merge tag 'net-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0266817826043880864==--
+--===============5538944378469616217==--
