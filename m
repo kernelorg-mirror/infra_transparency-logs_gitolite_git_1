@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6639367630761072069=="
+Content-Type: multipart/mixed; boundary="===============1881117093443345412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 02 Dec 2024 06:25:32 -0000
-Message-Id: <173312073208.1534810.4333396228603299781@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 06:25:35 -0000
+Message-Id: <173312073579.1538624.338275640457925924@gitolite.kernel.org>
 
---===============6639367630761072069==
+--===============1881117093443345412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
     log: revlist-bcc8eda6d349-e70140ba0d2b.txt
 
---===============6639367630761072069==
+--===============1881117093443345412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733120759 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733120763 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1733120730-02222c58fda844025aa21516afa9f5b5304883d9
+nonce 1733120734-246360c72cef9a3f731174f98f0f76941d97389b
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/staging-linus
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNUvgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E1sP/RcSSnyXnQmzbxPuNYX+
-5dIPx8RwWRvw7siZgPAg/gmIKzoFH7qzEj04dXTk657yJLBR6Q9NAa7q5BeqDkhh
-oXo/Up/zw1/Raa3bNOHfOT4Oqj3ILg97pqeArMZL/x9rA6Id3MJq4SP529hm1LS4
-M/9ooJ56krqdDNIBMAOeSCbzg/jY8O88wlMLMQ07fjFm0MPkHxx7XtduCb5f1UYv
-oM+VI8X3cvHqrmdcAqoh9TTgB38pFfa2pIYm7QY9kWbAVktjWjdYS4LZE69+wkr6
-QlEksTp+KAz8TwDaspiknccEhYiTe1230G5YbLrZhUc/FFqqczhZwutEpnbmf+qw
-AMrsV/GkSbD29sxOLkM+G0yMfBzpAYSfjuy0DOXl9l1CZcpw6VLwwbB62Qgx6aNs
-+7V1Q6AyPWVhKfzVpFnjZjamb5/2z/xrqd/DJ3TbBGgzRXt7rxfLRRIk+ewQvW6j
-4DAuAmdmp6QD7Hhu96/sMHOlo1lrPFQGZl1CtFGB9e6z5zsLaVBL82uTdCuMImse
-LlaNPVn0U9lxviNz42udg3OYI0H8ruX2Lnlzwpdrqpg4Q0sroOlcbUDQOdXQO/rN
-sDdYMEY4TIByPOWyREATM+X3e96FXtWD/Q1VyYqjVL4kWsa4/cHEP67KBAi3c3rG
-XzDbFdNZSC0MmxvfSWheF2+b
-=vA2o
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNUvsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1JUQAIEZ7WcQ1rCAnTNF/g5j
+bd8jRm29uu3Wpl53rRduJLxzaMlVAgqibVh0W4CfrbFCe+pg6jLQDbSSZL4s8wuQ
+UOtYoIDy/ZrMR3sWp5vd8OS4/fYU48eHjotjZnQ463AUmdydnSop5rORdF/OOZVO
+nx2qGvM988ZD2V7UnMqjWHj1RUTA3gzwWWPtW/Tpt8BHeB9CxIwdOjh05OXRs5Pn
+qF7fAXUKLUxja3uEsgBAq+YqR3IVXK1vP3WFFbvrLDShnox/ktxBBgVJLKiDMMDQ
+JCBCUrOPm1SsA6/bWFUBk0VHRQUtgx25WHsc8kn69qOPgveLwYgeJt5xHGyZIA+x
+sgFStFsuJHD1IKM/wNhHb0wFReCElq7zfVywxSzMBlJY6RFs8fEEkQwnNc3UkvLj
+oNgNsrohMMRdWE4IyK9B+iaZtfog6raRK13/ZWHgO28KLr3SXOMDfCdaNEbdrS+w
+gfdpUa5nQE0c+NAm5/DRAD9tAbP5zcm/pYotoJxI/ak/N1qClT76tRBXuO/Km36o
+x5C6xqjMxT0Vnab2SPEJG39wIuJ8o8BBWItTb9TETUH6GNlRb22pJO4ifI/qGuls
+iYHP5vT3a5Dn4/7vFA58s6Jfh1ojYrl1j9OYJ8NzUuALcj2afkT60OGc3SE/1bZ3
+thND731qdptP5+HI9P3FYaU6
+=99+7
 -----END PGP SIGNATURE-----
 
---===============6639367630761072069==
+--===============1881117093443345412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============6639367630761072069==--
+--===============1881117093443345412==--
