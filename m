@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Dec 2024 17:58:34 -0000
-Message-Id: <173316231424.2188571.10607790778537407033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Mon, 02 Dec 2024 18:00:49 -0000
+Message-Id: <173316244918.2191844.16325078132575798537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/cpu/mce/mcelog
+user: aegl
 changes:
-  - ref: refs/heads/fileG4hzzQ
-    old: 0000000000000000000000000000000000000000
-    new: 8359ea9c119570fb5971379655661f77a3aafb1d
+  - ref: refs/heads/master
+    old: a3f3bb97edf9dd8eef3fb4a83497ab5afff37174
+    new: 6b3fe165f35ef9897a6573042851922b3a3e4e4d
+    log: |
+         6b3fe165f35ef9897a6573042851922b3a3e4e4d mcelog: Wire up model-specific decoding for Clearwater Forest
+         
