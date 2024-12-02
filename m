@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1315952687246338271=="
+Content-Type: multipart/mixed; boundary="===============3893242507892104682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 02 Dec 2024 12:31:30 -0000
-Message-Id: <173314269040.1883498.12083222414561835752@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 12:31:35 -0000
+Message-Id: <173314269547.1883695.8201665728469284921@gitolite.kernel.org>
 
---===============1315952687246338271==
+--===============3893242507892104682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: 61824feae5c07987f70519b1235e50baa138b3c2
+  - ref: refs/heads/for-next/ffa/fixes
+    old: b0798838418abe996d9b618d341d865462264cbe
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-61824feae5c0-40384c840ea1.txt
+    log: revlist-b0798838418a-40384c840ea1.txt
 
---===============1315952687246338271==
+--===============3893242507892104682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61824feae5c0-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-b0798838418a-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1315952687246338271==--
+--===============3893242507892104682==--
