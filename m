@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2143115818511584510=="
+Content-Type: multipart/mixed; boundary="===============6542555878072729808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 02 Dec 2024 04:58:44 -0000
-Message-Id: <173311552481.1439239.3188543040467079809@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 04:59:10 -0000
+Message-Id: <173311555038.1439478.9973233385945924993@gitolite.kernel.org>
 
---===============2143115818511584510==
+--===============6542555878072729808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/linux-next
-    old: ff2653ded4d99b709f62f35656d976c47a7aa476
+  - ref: refs/heads/amd-pstate-fixes
+    old: 18d9b52271213890da295a7c63ef8880ed570cd8
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-ff2653ded4d9-40384c840ea1.txt
+    log: revlist-18d9b5227121-40384c840ea1.txt
 
---===============2143115818511584510==
+--===============6542555878072729808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff2653ded4d9-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-18d9b5227121-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============2143115818511584510==--
+--===============6542555878072729808==--
