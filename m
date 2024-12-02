@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3843167077179714680=="
+Content-Type: multipart/mixed; boundary="===============6712344425375676332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Dec 2024 02:27:12 -0000
-Message-Id: <173310643242.1318038.8046894748137395522@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 02:27:31 -0000
+Message-Id: <173310645185.1318287.12904235031264042615@gitolite.kernel.org>
 
---===============3843167077179714680==
+--===============6712344425375676332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 535807e630d0de569ec3e7598b6a9691b3737d03
-    new: c6fc2277fdede595e81048a6d48b1b99ef017527
-    log: revlist-535807e630d0-c6fc2277fded.txt
+    old: c6fc2277fdede595e81048a6d48b1b99ef017527
+    new: 53b7088dcbdac9136746d64b87801916a334dc42
+    log: |
+         0b8347559edb391d59a825cb19f575487fb9e6db Merge branch into tip/master: 'perf/core'
+         53b7088dcbdac9136746d64b87801916a334dc42 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 88862eeb476375687a1de5f45528a437ea598338
+    new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
+    log: revlist-88862eeb4763-e70140ba0d2b.txt
+  - ref: refs/tags/v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cbc4912199deab59fdbd830b115d81941d0add46
 
---===============3843167077179714680==
+--===============6712344425375676332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-535807e630d0-c6fc2277fded.txt
+Content-Disposition: attachment; filename=revlist-88862eeb4763-e70140ba0d2b.txt
 
 81de291d86b704de1809cfb06672902d003cf3a3 of: dynamic: Add of_changeset_update_prop_string
 1fcc67e3a354865775355eafec1fb061a755c971 of: base: Add for_each_child_of_node_with_prefix()
@@ -39,6 +49,5 @@ caf4bdb558cbc9893524b0a15e6423ee6305cb0c MAINTAINERS: fix typo in I2C OF COMPONE
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
-c6fc2277fdede595e81048a6d48b1b99ef017527 Merge branch 'linus'
 
---===============3843167077179714680==--
+--===============6712344425375676332==--
