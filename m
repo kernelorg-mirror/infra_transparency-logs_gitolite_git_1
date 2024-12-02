@@ -1,69 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============0678441324374895977=="
+Content-Type: multipart/mixed; boundary="===============0201759524120886477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 02 Dec 2024 06:28:41 -0000
-Message-Id: <173312092133.1558542.518180403932375502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 02 Dec 2024 06:30:31 -0000
+Message-Id: <173312103137.1561646.5218432377342491977@gitolite.kernel.org>
 
---===============0678441324374895977==
+--===============0201759524120886477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
+  - ref: refs/heads/staging-testing
+    old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
+    new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
+    log: revlist-bcc8eda6d349-e70140ba0d2b.txt
 
---===============0678441324374895977==
+--===============0201759524120886477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733120947 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1733120918-4e6de0d71775c6a70680a7e3cbd6f10bf8521008
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121059 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1733121030-81795e72d44ee01418514fe8793b02e08e740c15
 
-0000000000000000000000000000000000000000 06090c9b622a7e1f797e775db4c035e0d779b76e refs/tags/v6.12
-0000000000000000000000000000000000000000 ac746e6156c4d6d7b46ba2102acf644ea2aa4aac refs/tags/v6.12-rc5
-0000000000000000000000000000000000000000 f3c18f7b56ad121d3225a32ba6c00b1047a37863 refs/tags/v6.12-rc6
-0000000000000000000000000000000000000000 da1080d807252c8614048d7b630cb36c7e25cfb5 refs/tags/v6.12-rc7
-0000000000000000000000000000000000000000 cbc4912199deab59fdbd830b115d81941d0add46 refs/tags/v6.13-rc1
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNU7MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pEAP/24HPXsOsvfSaJTiISP3
-Yu2b759sSEm5YVfZi+avLzloPz8gmxYCD62RUy/JEx8H3oO6e9nvaLNryVhTpLsz
-rfUiRQulWz4a44fgGgQ+as3sQvfws8TuDR19YS8/1cuYHlyLouwo5CmFaX8fdKIy
-9iW/GedwLsPgovXrphYlFZKV0+GNZz0z32Cm2U5MAErqURG8QCcKbUEhYfmhS/f6
-8dokQLCcQnEBPpR20E0Q3w/Lu+2qemA/EdCXxT5VxKBQ66mE90wJcgFw30QEdS2e
-kn0dHs7FnrvQ2Cg2GgvDnp9cTAfZ8xIpSSpD3+4EmC8/snhvItAHQTn4BlTiqBPH
-XvN09A1JNTcQNbxdICWoVIbYRtsXcheZpA3H4SC+g7rthQw8oj8U/dZ2ftg9NiCu
-PbXUPd3qq8SliCnbjOpsK5DeSP1ayViDlbNVYdvFrj8u+mgXLE4apSyaCxBMA14W
-GEfY/n1VS+FG/al04vz/1/xPiT+f6ujwpaDMGx8IHLk74wbZUImzU9eugJb5YSuW
-ofewQsgO0gMzfyS1IGSk6IfHzvikPz2b/tJoo/dwVKBEBRq+mvpxrMmHeiTQ/bLr
-UssKdCcxITq9Obw9G6DudDE3+m75HnugNJ+g5xdi7ArusFtHmQpZY4175ZJy9voQ
-somqfuO/7VP0FWgN4o56T/rr
-=umMz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVCMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fOMP/i5RVLOqoSdamAehmKza
+xwf1R1F6xbDEmxxzYEvlnqiOa3zf2WwNYN88RFPYPbmvpKFuPJUK/K34vZFHSwpi
+T05A0E6Cu1dHM8ldpAB5K8T39LZwdOqJtOOfTMS68bIkhOdUAh6dB+DTX/wG88I+
++OsZkUAiJ6f/pXopLYW5yff5kHFLPYN7lTKV171lHR2POpr6Mk61jXq5WRZqcz2x
+bkPuCb3RfKoABk3vzGl2ynrkKp293oLtg4KmQZvcTvjIsGPJXHIKoZA9ZLYVryyx
+95+/XY5PtPBm8dBDA6jCwfkfzDxfCdGWylubrbiJpB5kf3tw9Dp9u5AYm+G+GVGP
+x4/3kzwf72CyE6BHf9F/4Xh8cCDuLjTJ5cZcCfOJ6DWRH+vK9ReUTPli0PriSQa4
+Kxtu8fc5uRP+o0IziONa0JMB2QRVtWUBs7AN2+xFgcGvO4rXtpU10ZoCFPyPw9co
+r8TRgExTsZVcZ5HDnZOsmVsWd0Rb6TuE6ee58JdCphszeB4chs4WIpaAHL+GCEh3
+RAbMQ0JfUp7eddaITeImCPt2qjXJwKO5f/EjMQn7qMlG7ohpPIlUV9DzS1XK3MVg
+ueaLLtXnUjIPA95lLQ84UBtTMBasPqUnvv67M6zz1Zoq78piNOwNiX8pZ+Xjj7CU
+djt4Q1G3c0PtwNICF6jxZt1g
+=t4rr
 -----END PGP SIGNATURE-----
 
---===============0678441324374895977==--
+--===============0201759524120886477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bcc8eda6d349-e70140ba0d2b.txt
+
+d9bb40544653cf039fe79225ec1d742183e2339a x86/cpu: Fix PPIN initialization
+f1d84b59cbb9547c243d93991acf187fdbe9fbe9 x86/mm: Carve out INVLPG inline asm for use by others
+c809b0d0e52d01c30066367b2952c4c4186b1047 x86/microcode/AMD: Flush patch buffer mapping after application
+be4ca6c53e66cb275cf0d71f32dac0c4606b9dc0 x86/Documentation: Update algo in init_size description of boot protocol
+ff6cdc407f4179748f4673c39b0921503199a0ad x86/CPU/AMD: Terminate the erratum_1386_microcode array
+12aaf67584cf19dc84615b7aba272fe642c35b8b irqchip/irq-mvebu-sei: Move misplaced select() callback to SEI CP domain
+f82e62d470cc990ebd9d691f931dd418e4e9cea9 irqchip/gicv3-its: Add workaround for hip09 ITS erratum 162100801
+cc47268cb4841c84d54f0ac73858986bcd515eb4 irqchip: Switch back to struct platform_driver::remove()
+81de291d86b704de1809cfb06672902d003cf3a3 of: dynamic: Add of_changeset_update_prop_string
+1fcc67e3a354865775355eafec1fb061a755c971 of: base: Add for_each_child_of_node_with_prefix()
+157ce8f381efe264933e9366db828d845bade3a1 i2c: Introduce OF component probe function
+897261149d255d03fc90bec6782e3835cacbfdde i2c: of-prober: Add simple helpers for regulator support
+39b415f84654892003cebb7c026b7daa3380610b i2c: of-prober: Add GPIO support to simple helpers
+3fc361af8ab0a96619ba0146a5f694f59ae3f4c2 platform/chrome: Introduce device tree hardware prober
+aac9e2afa807e862073e9536099a3184b0e936d2 arm64: dts: mediatek: mt8173-elm-hana: Mark touchscreens and trackpads as fail
+44b682694a0ca366bf15c26c3c3c16d26c9e9f6d i2c: Fix whitespace style issue
+f5807b0606da7ac7c1b74a386b22134ec7702d05 ntp: Remove invalid cast in time offset math
+0d40daa1c1369c2fef6a40f44640b2e5f3453daa of: base: Document prefix argument for of_get_next_child_with_prefix()
+4d17c25eaf5d8b95d70726e6946e8eb94619e139 delay: Fix ndelay() spuriously treated as udelay()
+caf4bdb558cbc9893524b0a15e6423ee6305cb0c MAINTAINERS: fix typo in I2C OF COMPONENT PROBER
+63dffecfba3eddcf67a8f76d80e0c141f93d44a5 posix-timers: Target group sigqueue to current task only if not exiting
+f69e63756f7822fcdad8a34f9967e8b243e883ee printf: Remove unused 'bprintf'
+9022ed0e7e65734d83a0648648589b9fbea8e8c9 strscpy: write destination buffer only once
+58ac609b99db0b03f3b09299c8fa3a76face3370 Merge tag 'x86_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+63f4993b792efe9ccde7302184d0184d2c52a9b7 Merge tag 'irq_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
+
+--===============0201759524120886477==--
