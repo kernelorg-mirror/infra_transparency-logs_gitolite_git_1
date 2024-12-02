@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3460034478109312273=="
+Content-Type: multipart/mixed; boundary="===============3578701517439808711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Dec 2024 06:33:10 -0000
-Message-Id: <173312119047.1563600.3930925047695391331@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 06:33:14 -0000
+Message-Id: <173312119424.1563683.3015960466737440974@gitolite.kernel.org>
 
---===============3460034478109312273==
+--===============3578701517439808711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
     log: revlist-bcc8eda6d349-e70140ba0d2b.txt
 
---===============3460034478109312273==
+--===============3578701517439808711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121218 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121222 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1733121189-ad4425279ab19ee0a0cec86f46de7c5be6cc921e
+nonce 1733121193-009bf93602d20c38961ab5760f8471b06b91f2f5
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/char-misc-next
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVMIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zN0QAMCzpG7qyYv4UMm5M4vD
-MFrsZTv8n0vvvz2MYQewr4q/AgzKhy6jr66HOpx10/buQiuQSTwSz/2lL4n3uqMu
-DJx5zXvM4LKBK0CD3DntbZKpRgXXmlf00TNiYsKTil/jjeOWdMmhBdiTncKIu31g
-yzeIpXLx3GrRAzE3V6b17IddsXLKMeTrepYHhv4mzQNP+81z2g+MBNyeSB1ezJdh
-BjCdrZA21137rkBWk98S5mDuG4p+h47J3SOFjzO/F8I7ke1is0nc4ZP+DLI3sOh+
-Jn/pbxPx4n6XIT9aD7pbUVwRS/4cBJSfuy7whmKGyKOtNqagZIbkTwVytPc0qbTN
-GfUDkYFF0Gaywf8qKXArwM0CPjJPz6HKCM3YNqY3LrUO2SCxc3Z1ik7ZJvGjshQ4
-eA2qyValCqMUgxO4MBOu/rh1Alr6s8GZdz4NRsae5xO5upt8HCRATRpPtk++nM9P
-psEbDXr5ceVEQtkdjiiAyaJDmMphAudt3s8T6FeohQ5dhV+iUq4i/IxvMC7TXDyV
-lzrlI6nXpt49nq1AdVXYzDf0lljjUvt4RjuUGtPSfJnqawA6l9gqoRoxhNMlt+4N
-oHYd2Z07LWIDs+H8dzVnPfW+gHTke0EX5boKajSujtL69bywm3H4T/7ekW9vifeS
-HmkSWiU9H4CQYbYiljcHoNBw
-=po/A
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVMYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rqEQAMDHBYu30i6kXWwkFdaM
+6VVt+uK3CzPBVqPVvlvHMHvejlhXaWIVRy95X2CHEn93tsmn42m0YoN6VBuVfiX6
+tvrH3QS6TZNrPbPq7qL4dJggfK9PsveNn0Ye7Xa9SHoDZXPXhFKTbsGiq52W/Y0t
+SWwxWpA8NOkvP7o8XTVWBVi60LzR3fHa8k/x9bInt0PD6IYnkKrvjaGrvzAZxWde
+7V9pwhI42L1vAzd9st8ucSutGcCfgrTyb4OipigLVlthljula2nj5IID54vuCfDr
+jis0MsxAPVYBy2eMiMz+TR/191KVv+rnnNknLfscRJe7rK+pZO4d7SIUV5jYcH1m
+UdB4WA8PHYKHrxFXewoMK4WMBK/up5ydUApOrI/FexxEV2hVZzDTKCxhPMM/N9E/
+zC67j5+ggXnttCOFFp05WJkiufPTGwXz1VL1BFR9Hfjuv24FjZ02idPiYam6+jZ/
+ksTxd8QcxM4c+wnXZvClUzOWsQSKB5qn6NbhCuu1w3R3wlkqjP5hCE98jTU6fEb1
+NZZTB8wb3wpstUSL6ggdO5quEVZsI18OiyhvLR778LD7WuKarAY7PYoUdh4ubwmr
+r5np1H0jmG1OoqQnTWO/lpWVP3w7lbrS37Tao5H+ef6gta9n2hiMUvAOvuOgdTHM
+lzXZrJaUu1WRPo9s/2qP7hu2
+=/ZN4
 -----END PGP SIGNATURE-----
 
---===============3460034478109312273==
+--===============3578701517439808711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============3460034478109312273==--
+--===============3578701517439808711==--
