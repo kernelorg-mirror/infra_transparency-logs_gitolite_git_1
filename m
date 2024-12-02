@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3555073274416132810=="
+Content-Type: multipart/mixed; boundary="===============8250939828716132168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 02 Dec 2024 06:35:17 -0000
-Message-Id: <173312131746.1567531.14923286921858481927@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 06:35:20 -0000
+Message-Id: <173312132090.1567685.10790793308342318925@gitolite.kernel.org>
 
---===============3555073274416132810==
+--===============8250939828716132168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/tty-linus
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
     log: revlist-bcc8eda6d349-e70140ba0d2b.txt
 
---===============3555073274416132810==
+--===============8250939828716132168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121343 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121348 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1733121314-b0bf117d914dcc3bda0260fd6067c31a9556502b
+nonce 1733121319-bcb80892098b83be084c5b8c32a10b079972f643
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/main
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVT8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgQP/1UXMQYBT9N+ACrjlObk
-5h+eV++nxigUuJ3JEW/KvwHwdOqC2vLt0YOMlqmmBMOIFcjUwnxNxoVgNdba5tRZ
-02BaGv3VBlYCXTLKTTcy3lsGyfHL2uqMhtQqVssPoafyy+0QgBLBGUlLbIr5Kg9I
-+90r0CBc2umdPMQSrl2In3wFFzZi7c34rbjCv5lBJ0Cuu5hxhgHpY3tpgCNdPH81
-iw+M2ULV/YTahaFWaW1x6bUZusfPGTyjJcQb8oHcaaKZmuwbjBLIY2ZLErxMFbi5
-s/FLE4yQ2B/+KiyJDX4+Lc4P2l51WWo6Q9Niecz5q9GtUSfb6tZJlw87esLru/3k
-osokI/bVg5llXY0noFeAvRds0Brwuyy4Z/6fS6zpZ5zrYf4IC2OLKAE5Qb2Sjzjb
-WFSNA6mvBWVEdA96KsqjPy9ZiSDxQNhMtK/eXR9yi0iMSi+8A1oBkGKhvHsY7ICT
-0xDbql2+68Q1kXZmLTSxVf5gBnVrS7XE3D9+Aqv1Z3XDoNagmxF/CUJOJGArl3uT
-t/FxK3+ccszXPJgFr1CKuf7e4eh8V+2htaS5pHUkj58YhLNzyQzoe8puWhf/kgH/
-NWgQYp64h/AY46I2yXfS6HE+EBxHItwK9P6LUwGGA2feyH1CjF79rIrxcMcu7yJl
-FxnbCPuEdrE0oW0UVxvuwIU+
-=zglF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVUQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P10QAIymlNZTFXWUV8HdcapP
+cSbYynnWi6KWHc706foHVmhds+Nx+Wevl3wnO5auVxY5IAZhOXbs4cp69rUc0PkF
+xzck8xMAMYbDvIdSZrYBjqlwvWCLWNwOPzFih5exrqEdOwaETaAPtaqj57bDFHHo
+4+wc2Plc+ohhjidrxxkgRg1IEb6TsoLeX/SESVgUglXGjgij0FX2IRsgj3pQ4RAS
+4NtxCaBgb1rbkxS/49Or6X+Pw8rxudPE0jBL/tyLoNCdvFDFKomF6E/4SfD9bVad
+T4yOcbcFtma9NY7EkkK8LOhhNicKlMHM8BRLjOXh5RcEhKfg/TMX8rDVTUCQpqws
+fSFvWgRBFsk1jkxqgQt2wXQh4n1JZB+KHWZvUw5s/lqAVgVs4syE8bPan43HLmfX
+OmiecH2tHQ7UhW4dUz6MDu/vE21U57uP1zzVGjCAOZ6Xr7kWKBzWCJDM8Tryqc54
+OJGBv6RJbaVrkoAispAnYmBygTXXwLysyoYDFKNIdlyjfTiv5gRGRmCWg3v/0oy3
+iU0zmi6ojEufT7pcoQL4/qDa9NCsB0mnp2GzcFVszfhUyHNmdSemwPnTEsfIWFj1
+N3WAEKIUAGBpzPj9k8gz7VL6mpGLwJOA6tdxKFjW+4x8+eKSs8WN6ij6wLEPMW3Q
+QrLAqEyKN81tOtPLvsxwcm5c
+=Z117
 -----END PGP SIGNATURE-----
 
---===============3555073274416132810==
+--===============8250939828716132168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============3555073274416132810==--
+--===============8250939828716132168==--
