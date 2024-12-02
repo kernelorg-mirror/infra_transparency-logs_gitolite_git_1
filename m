@@ -1,16 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 02 Dec 2024 21:57:38 -0000
-Message-Id: <173317665821.2386339.15707902652464473408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 02 Dec 2024 22:07:40 -0000
+Message-Id: <173317726094.2394401.18359805822403275137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
+  - ref: refs/heads/vfs-6.14.pidfs
+    old: abc1d3a1e7cecf22b5a9554fdb03a12787827fea
+    new: 999a13ac25f956b3fd1c1716eb77d7471f235f12
+    log: |
+         c805a040ddfb9c9c620418ca1a323db5e9c8b9dd pidfs: rework inode number allocation
+         4ec9c881377d192f2881a66a655db7c2cb15308a pidfs: remove 32bit inode number handling
+         f8bc35f728f6c0806f1f1f53ae383c92330032ef pidfs: support FS_IOC_GETVERSION
+         1af28ae85d9d84d88f7226eea0055ed55614cf32 pseudofs: add support for export_ops
+         da72ef8cc531c4785ce4fb7da3f8a129ef3a5dca fhandle: simplify error handling
+         afdee4b9f9c58a5738738fd266a959c93a66d7be exportfs: add open method
+         bc7471eeaa28543738785b204324ff31bc4f63b2 Merge patch series "pidfs: file handle preliminaries"
+         1fe2410d14c5653856304afafe67dfdec5a58578 fhandle: pull CAP_DAC_READ_SEARCH check into may_decode_fh()
+         1a88bb85b7a49b02400a936a81ceebcbf20cbe1a exportfs: add permission method
+         8bdb1005a7d4959918aa11099136508483836f07 pidfs: implement file handle support
+         2e8a2be3c29f6e12d58c31562faaea525f8ebfed Merge patch series "pidfs: implement file handle support"
+         999a13ac25f956b3fd1c1716eb77d7471f235f12 pidfs: check for valid ioctl commands
+         
