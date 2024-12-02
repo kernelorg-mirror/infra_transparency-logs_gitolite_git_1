@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6050455470855810341=="
+Content-Type: multipart/mixed; boundary="===============7010727609155665161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 02 Dec 2024 10:22:14 -0000
-Message-Id: <173313493409.1769813.10805024906219723070@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 10:22:53 -0000
+Message-Id: <173313497345.1770223.9827747035519828196@gitolite.kernel.org>
 
---===============6050455470855810341==
+--===============7010727609155665161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 59b723cd2adbac2a34fc8e12c74ae26ae45bf230
+  - ref: refs/heads/for-next
+    old: 41286036c994af081e9c1f7229a94d68cadf0561
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-59b723cd2adb-40384c840ea1.txt
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/heads/v6.13-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-  - ref: refs/heads/v6.14-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-  - ref: refs/heads/v6.14-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-  - ref: refs/heads/v6.14-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-41286036c994-40384c840ea1.txt
 
---===============6050455470855810341==
+--===============7010727609155665161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59b723cd2adb-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-41286036c994-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1075,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============6050455470855810341==--
+--===============7010727609155665161==--
