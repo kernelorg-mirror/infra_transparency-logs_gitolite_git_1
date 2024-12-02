@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0859733146198059146=="
+Content-Type: multipart/mixed; boundary="===============7926965669833409152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 02 Dec 2024 16:46:39 -0000
-Message-Id: <173315799955.2122965.356756509390503668@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 16:47:33 -0000
+Message-Id: <173315805350.2123505.4875068967968306083@gitolite.kernel.org>
 
---===============0859733146198059146==
+--===============7926965669833409152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/for-next
-    old: f9cbf229fa3a40aec5cb773107fa3016a1c3d245
-    new: 7378aeb664e5ebc396950b36a1f2dedf5aabec20
-    log: revlist-f9cbf229fa3a-7378aeb664e5.txt
+  - ref: refs/heads/rpmsg-next
+    old: 06c59d97f63c1b8af521fa5aef8a716fb988b285
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-06c59d97f63c-40384c840ea1.txt
 
---===============0859733146198059146==
+--===============7926965669833409152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9cbf229fa3a-7378aeb664e5.txt
+Content-Disposition: attachment; filename=revlist-06c59d97f63c-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-7378aeb664e5ebc396950b36a1f2dedf5aabec20 remoteproc: core: Fix ida_free call while not allocated
 
---===============0859733146198059146==--
+--===============7926965669833409152==--
