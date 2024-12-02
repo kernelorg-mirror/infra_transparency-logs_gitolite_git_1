@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0801042193904591091=="
+Content-Type: multipart/mixed; boundary="===============5795363320941345272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 02 Dec 2024 19:38:46 -0000
-Message-Id: <173316832697.2274443.10538753171197315587@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 19:40:07 -0000
+Message-Id: <173316840794.2277264.10776534222057655021@gitolite.kernel.org>
 
---===============0801042193904591091==
+--===============5795363320941345272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/perf-tools
-    old: 6d78089da9805787a72e52604ad4b2ed7380be3f
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-6d78089da980-40384c840ea1.txt
+  - ref: refs/heads/tmp.perf-tools
+    old: 42d62b4ea764587eaad3a73bf95f9afef88a90db
+    new: 97cd4e4389d4418c49386d79da743ba16853aa85
+    log: revlist-42d62b4ea764-97cd4e4389d4.txt
 
---===============0801042193904591091==
+--===============5795363320941345272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d78089da980-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-42d62b4ea764-97cd4e4389d4.txt
 
-4acc902ed3743edd4ac2d3846604a99d17104359 PCI: endpoint: Fix PCI domain ID release in pci_epc_destroy()
 979c6342f9c0a48696a6420f14f9dd409591657f nvme-pci: add support for sgl metadata
 6399a0db8cd61eedbfb4b7809a4f4699157a9bf8 nvme: define the remaining used sgls constants
 688d2eb4c6fcfdcdaed0592f9df9196573ff5ce2 PCI: endpoint: Clear secondary (not primary) EPC in pci_epc_remove_epf()
@@ -1050,5 +1049,6 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+97cd4e4389d4418c49386d79da743ba16853aa85 perf tools: Fix build-id event recording
 
---===============0801042193904591091==--
+--===============5795363320941345272==--
