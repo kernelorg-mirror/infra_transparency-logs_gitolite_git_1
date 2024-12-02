@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0851319462116338481=="
+Content-Type: multipart/mixed; boundary="===============7678942056627895412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 02 Dec 2024 01:23:11 -0000
-Message-Id: <173310259107.1267948.6260168632268309635@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 01:34:24 -0000
+Message-Id: <173310326420.1276587.15962659455389336123@gitolite.kernel.org>
 
---===============0851319462116338481==
+--===============7678942056627895412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: 6ceecc9c12ffb12b2afb481c1b9bf112137a782f
-    new: 9902e01224c86b0e9d103d716e745493143b28e8
-    log: revlist-6ceecc9c12ff-9902e01224c8.txt
+  - ref: refs/heads/crc-x86
+    old: 7fb764a4451ebe7a466ac594f4d552046acd252f
+    new: f4af1fe512cc3065ec7bc17a4473fc03b50f76e1
+    log: revlist-7fb764a4451e-f4af1fe512cc.txt
 
---===============0851319462116338481==
+--===============7678942056627895412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ceecc9c12ff-9902e01224c8.txt
+Content-Disposition: attachment; filename=revlist-7fb764a4451e-f4af1fe512cc.txt
 
 7852ee068afe97eec3e955de3c4197aeb4793c52 um: Remove unused os_process_pc
 47e174969cbf9244add188635a9590ff717d796e um: Remove unused os_process_parent
@@ -452,36 +452,42 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-0a499a7e9819e7a0980408f18df68160a0b55f2e lib/crc32: drop leading underscores from __crc32c_le_base
-d36cebe03c3ae4ea1fde20cfc797fab8729c3ab5 lib/crc32: improve support for arch-specific overrides
-b5ae12e0ee099e4c458f7814f0317f4e2cbf105e lib/crc32: expose whether the lib is really optimized at runtime
-780acb2543eaf163169f8c6d6fe52e7f94a7b0d4 crypto: crc32 - don't unnecessarily register arch algorithms
-1e1b6dbc3d9c152df818f3e560f96839a901ebce arm/crc32: expose CRC32 functions through lib
-72f51a4f4b076d2ea2751432dee07600aea4c4c4 loongarch/crc32: expose CRC32 functions through lib
-289c270eab5e620c8fe29f72887d4e0bfde1a581 mips/crc32: expose CRC32 functions through lib
-372ff60ac4dd72bbd0a0358d5e21f51e62dc5c6f powerpc/crc32: expose CRC32 functions through lib
-008071917dfccffe6637d264e255553af15c99f9 s390/crc32: expose CRC32 functions through lib
-0f60a8ace577f7629244ecf7c95105d4b704a462 sparc/crc32: expose CRC32 functions through lib
-64e3586c0b61ec4800e820ff04f4c3360edbccd6 x86/crc32: update prototype for crc_pcl()
-1e6b72e60a5a16ddda9c0669da7538f497838d0a x86/crc32: update prototype for crc32_pclmul_le_16()
-55d1ecceb8d6a5c9ceff7c6528075bd0ce4e8366 x86/crc32: expose CRC32 functions through lib
-cc354fa7f0160a96896a3b8d7f298a036e3b8602 bcachefs: Explicitly select CRYPTO from BCACHEFS_FS
-38a9a5121c3bcf2ed857430a92e493568b247c35 lib/crc32: make crc32c() go directly to lib
-f2b4fa19647e18a2e2aade7e3e4620567e7e594a ext4: switch to using the crc32c library
-dd348f054b24a3f57cbcdc2c8e7ebc22c62eb72f jbd2: switch to using the crc32c library
-3ca4bec40ee211cd5d907c8e98b66c92f6a1b1e1 f2fs: switch to using the crc32 library
-31e4cdde4d8b4bc358f3e6b44647ead3cba13aba scsi: target: iscsi: switch to using the crc32c library
-be3c45b070cba3be4dd248b38d4798e3e2859451 lib/crc-t10dif: stop wrapping the crypto API
-0961c3bcefa64d5f0999e2b703391862c733bb52 lib/crc-t10dif: add support for arch overrides
-21dda37f3f8b70dd3531bf388773f1b4c803a130 crypto: crct10dif - expose arch-optimized lib function
-ed4bc981d52b49c5d35bfc4cacdac98ff135add3 x86/crc-t10dif: expose CRC-T10DIF function through lib
-1684e8293605062dee45a5e4118fe8db6cd0d9d9 arm/crc-t10dif: expose CRC-T10DIF function through lib
-2051da858534a73589cdb27af914fe1c03b9ee98 arm64/crc-t10dif: expose CRC-T10DIF function through lib
-7439cfed1c41e5a1f3d095d3a4ffecdb13b279c4 powerpc/crc-t10dif: expose CRC-T10DIF function through lib
-e47d9b1a76ed78d0d50491f6a7d8ef59e379f45c lib/crc_kunit.c: add KUnit test suite for CRC library functions
-c14e85360969d7b0aaeab3915314787f3466c326 lib/crc16_kunit: delete obsolete crc16_kunit.c
-747ea393dccdc8221ee386f8ddf484e01aea2a75 lib/crc32test: delete obsolete crc32test.c
-755e7cc45357ccb969f3b4f466e336f46f19d0d4 powerpc/crc: delete obsolete crc-vpmsum_test.c
-9902e01224c86b0e9d103d716e745493143b28e8 MAINTAINERS: add entry for CRC library
+37e249ec20f0d471b895fa8d038e246fa05d29ed lib/crc32: drop leading underscores from __crc32c_le_base
+0bc8bb30816df090913ab185e80f4fbcf8a36c83 lib/crc32: improve support for arch-specific overrides
+789f1a107de64e410941fabdfe917e55cd50e056 lib/crc32: expose whether the lib is really optimized at runtime
+e1d50a5a3e01a8d82d1bfa90fb732831046ff640 crypto: crc32 - don't unnecessarily register arch algorithms
+4654852caff1cc3fd110119f3c301ae0a0fd2214 arm/crc32: expose CRC32 functions through lib
+36b39a77eb9a5e8f485679f41bcd6fd31c634354 loongarch/crc32: expose CRC32 functions through lib
+f799e762b893bffc5646228e1785833c9d4e79fa mips/crc32: expose CRC32 functions through lib
+c7904870c452427366971d1d46a8cf6523a8ca6d powerpc/crc32: expose CRC32 functions through lib
+2f00459716e5bc7cc69b3e5b23de5ce59b39305c s390/crc32: expose CRC32 functions through lib
+9be6b9791b07347c52f4fce4fd4ff6b53dd05763 sparc/crc32: expose CRC32 functions through lib
+d65b58553c39c637f623b3dd4d06a01bf8a395bf x86/crc32: update prototype for crc_pcl()
+270f70e70be8071d5f4fde312effc8ac83036b08 x86/crc32: update prototype for crc32_pclmul_le_16()
+225d442fd3776d434a26c49481dee5a15237247a x86/crc32: expose CRC32 functions through lib
+9e7fb1b71ca75739ad4aa8659866284443bbd8fb bcachefs: Explicitly select CRYPTO from BCACHEFS_FS
+4ff71363628d69aa4c0495fdab52507734869890 lib/crc32: make crc32c() go directly to lib
+0fc2498d83b7931d7ca8970a0812546bddfc2410 ext4: switch to using the crc32c library
+0d7ca13b7ba7261c76a881634d1c9976f891e528 jbd2: switch to using the crc32c library
+b09412c966620676ef6bce622fde8f1c4fa15e3c f2fs: switch to using the crc32 library
+7e0774070c97173007afa46dd510574faf978028 scsi: target: iscsi: switch to using the crc32c library
+a8cb74be3aa1037968f9b27adb173e00f777cb02 lib/crc-t10dif: stop wrapping the crypto API
+24114c93b5f87f41759b41fd4c615ace8f94100f lib/crc-t10dif: add support for arch overrides
+5b6554c324ef64137bbf70a2fee4acac6882e83d crypto: crct10dif - expose arch-optimized lib function
+34200a8f44f51e9f770fb4374258c8e3502afb0e x86/crc-t10dif: expose CRC-T10DIF function through lib
+3df0938285e99a9f6683b96c6102114448aba7a3 arm/crc-t10dif: expose CRC-T10DIF function through lib
+c9e2a6f451d5c900b7713863849a1aae30c0c1d8 arm64/crc-t10dif: expose CRC-T10DIF function through lib
+57ba6427545cb6051a0cbefe2b5a6ae69d80dfee powerpc/crc-t10dif: expose CRC-T10DIF function through lib
+09eed6883b296ce6615995b61b354a156903bb1d lib/crc_kunit.c: add KUnit test suite for CRC library functions
+2c03d3045b71a770ce79e95182d219d9480d622f lib/crc16_kunit: delete obsolete crc16_kunit.c
+5d0ee22b78742cd45c79c29c6789c688567dc8d3 lib/crc32test: delete obsolete crc32test.c
+83c5d6b6dcdd503b2b28a3f14cafe44323fd5ce5 powerpc/crc: delete obsolete crc-vpmsum_test.c
+702ceeba0046703be77fbd96ff1c9fd6e27b38fc MAINTAINERS: add entry for CRC library
+00a589ff7412700198027e88b0806697a9570354 x86: move ZMM exclusion list into CPU feature flag
+52a0b850bd3eb7f2354d0544e1acf64028442f71 scripts/gen-crc-consts: add gen-crc-consts.py
+4bfa78153945d91ed74e276f82063ca9f6367802 x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+0f5c62a6003856b75c8f506fc9b682e2bc769b4c x86/crc32: implement crc32_le using new template
+8764256e252e0c3eb4e16c52e3d6e749b8796d1e x86/crc-t10dif: implement crc_t10dif using new template
+f4af1fe512cc3065ec7bc17a4473fc03b50f76e1 x86/crc32: implement crc32_be using new template
 
---===============0851319462116338481==--
+--===============7678942056627895412==--
