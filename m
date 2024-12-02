@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4617286351497898892=="
+Content-Type: multipart/mixed; boundary="===============5277814969377155295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Dec 2024 13:08:28 -0000
-Message-Id: <173314490896.1914606.11334153497917547421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 02 Dec 2024 13:08:51 -0000
+Message-Id: <173314493118.1914951.13152385010144399494@gitolite.kernel.org>
 
---===============4617286351497898892==
+--===============5277814969377155295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.13
+  - ref: refs/heads/for-6.13
     old: d1f4390dd28ba110f232615dc4610ac1bb2f39f2
     new: 3061e170381af96d1e66799d34264e6414d428a7
     log: revlist-d1f4390dd28b-3061e170381a.txt
 
---===============4617286351497898892==
+--===============5277814969377155295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1733144957 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1733144928-26e0f12cb7e2eeb834c536b66a96ddba70e94358
+
+d1f4390dd28ba110f232615dc4610ac1bb2f39f2 3061e170381af96d1e66799d34264e6414d428a7 refs/heads/for-6.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsX0ACgkQJNaLcl1U
+h9ALeAf/XURP9ufKbSa2qe4Q3W5js7VMXdXFoL19apQYptfCvUOPtQf/YXffCCam
+khnCD9tOpM8Xt4TChGCOp94C7dDirNripFXUhKqFHhVg778PKPYKyDcu0q5QK/z+
+FqQFLFCzwzMo3wYQniqy/9oCMg1Pk5kFaveFnS+gfi/6NOIcVN36EfOx9lxCcFqq
+JedXbVmUZKDKO14i/v9i4KwblRbyYlIC81wCRpLt6sSIKZ5duPTVtdz8Q6d34VYJ
+lfwWzP7s72T+xihiZadch71ThIbT/H99+WCmmZqKkuEWdUoyNftuqRfYHfdpu5WY
+cILeNi7IHSlxXy61LBP55fIsGeI+ag==
+=8aOq
+-----END PGP SIGNATURE-----
+
+--===============5277814969377155295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1076,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
 3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 
---===============4617286351497898892==--
+--===============5277814969377155295==--
