@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1016457365513885917=="
+Content-Type: multipart/mixed; boundary="===============3841814703012733749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 02 Dec 2024 05:49:10 -0000
-Message-Id: <173311855080.1478724.15114360287355266555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 02 Dec 2024 05:50:55 -0000
+Message-Id: <173311865596.1481824.16205511574506916750@gitolite.kernel.org>
 
---===============1016457365513885917==
+--===============3841814703012733749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-9852d85ec9d4-40384c840ea1.txt
   - ref: refs/heads/next
-    old: 32f4a76b8e7cedec9f9aedbfc43626536bba8350
+    old: 8974f34de2ef173470a596a4dee22f4922583d1b
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-32f4a76b8e7c-40384c840ea1.txt
+    log: revlist-8974f34de2ef-40384c840ea1.txt
   - ref: refs/tags/v6.13-rc1
     old: 0000000000000000000000000000000000000000
     new: cbc4912199deab59fdbd830b115d81941d0add46
@@ -49,7 +49,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 06090c9b622a7e1f797e775db4c035e0d779b76e
 
---===============1016457365513885917==
+--===============3841814703012733749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1080,7 +1080,7 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1016457365513885917==
+--===============3841814703012733749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2111,11 +2111,11 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1016457365513885917==
+--===============3841814703012733749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32f4a76b8e7c-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-8974f34de2ef-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -3142,4 +3142,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1016457365513885917==--
+--===============3841814703012733749==--
