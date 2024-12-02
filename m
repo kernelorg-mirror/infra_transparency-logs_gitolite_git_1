@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7663354228347546180=="
+Content-Type: multipart/mixed; boundary="===============0253000029866804790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 02 Dec 2024 17:40:14 -0000
-Message-Id: <173316121444.2173736.1519615377074119733@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 17:40:22 -0000
+Message-Id: <173316122253.2173931.7982639407692103219@gitolite.kernel.org>
 
---===============7663354228347546180==
+--===============0253000029866804790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: 019880c08d059f214327fd0dc92e9be3707286f2
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-019880c08d05-40384c840ea1.txt
 
---===============7663354228347546180==
+--===============0253000029866804790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733161240 -0500
+pusher 75C5DE3D 1733161249 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733161209-6c3ab3bc42c319b00578b91b0d8692bd0cc1e88d
+nonce 1733161217-49019ba27fc31571d772587b88633eb4de71365f
 
-019880c08d059f214327fd0dc92e9be3707286f2 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/staging
+019880c08d059f214327fd0dc92e9be3707286f2 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN8RgACgkQ7ulgGnXF
-3j25Dw/8DbbGq8ZKONvH2yVPYLlShAeN0sNpqPzy5Q9oWAejhKOFFzASpIweVx1J
-jl6IDWHzJww84TaCeTvaAwDyCARPTrs4oQsenb1zrU/b0dDmZr9YYC4j2TTtD8Nl
-X+19Wv3whPN3E9An0k8E+QVzdi2cfYDcf31sxxo9/YkwEmsomYJtKwrjFrte2zPc
-vP9Xd3X3LODeexko4EH6hIGkvGF8TMz/cN0HDwpygiSTgRDMRUl7FqlD+7wnv7W6
-4F2HkO8TMW1W37yhnVMCzo1c5ef96OJnNCo3WlmlOYYVQuodF2FGCB5nYzmtFbEQ
-MdCOpDige6HGQ/Ip5rNs2G4oOU0aFHXLriUeG4mfE7mBjYrCIaKYXTWmZAiWaQ1r
-vbAp/7LH2/9WkYm3yu5+JFZKFFRtKE4y9b7BQCWpwGdS/gqGeiGwOWfyfJZg/Nq4
-gDKTUY7W7gmZ5U+AT6ANmFFH/BH221dgUrY1IrFzmSoov48957zjjIdIv5LNw/rj
-16mDEZiw17ao5U7mIIKRQZrHYljeYyo7EOcm4ajcZg9lpI5XT1glyhRYf2V5VKE5
-c3LOhtrXE9dqDMsQ+3UDfA54TWgri7MuvDtVX15JmAVKsVF1I/KtFFKY8W2Lq1py
-lR58OvjFSACt/ci3FRNBX6BJfdC8sUA8E10/fBDWyfe2h5NEls8=
-=/Dsr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN8SEACgkQ7ulgGnXF
+3j3WFA/5ATx//3AKpSS9ADO3mTwCBuRsfmoQU2S9kG0bTepmghlOZv80mKj2fcyp
+/3yT1PvFZ66U98oG0lwe38SgfAgVyG7ShMjY+jS1abbqmaoAhRxiNWyMxiOnHZLw
+uUrvpXbqB9P+DoHgAegPBz0ztfmKggJc2fDHmxShYegXxlLEx4QzfwwDZRr97KtF
+stFsB2IauhbIAB7vO2op967x2ZFSTW+Gpo1zXakdxiRbWJen7Y3JiybtoOH+bWs4
+OgPkc4kcNBiPQ7mocyz1HjFqWU4dFVJl3JZK1q4WCNRUHT6MbZxiiwZvw9WcPnEK
+pp4xJoXwoBYf+rejYHnQdmC6QozhGctY17hGi6NJ78f+0hkTnJaOTo//vj4baSt8
+ZRsIsmOlnMn7E3JM0UyxzBL6nPhqu7BMJzFFcdMBxB5rj2mVSA9Pc9WKNNBXIEot
+dpGqblmg4HGkqPOdGjcTRh6qsz8b8pY0Lj6vNJcVOMvACBBuHXcTvhz1HaveJKYZ
+KHAjGKwZ3jLQWZt10qYfLW2tq01HctNLfY/KaY9znj0y9h06xOC0Vg7J82rA1MYD
+CVx5UND4irFUXJvb6ejUcoB42mGLoxpCKSLZt56mZ3JXM8TQ/S//CCUZcZGoHaIg
+GOyGHK3SPfclZA4K1eswr1cp4UU2EHmzOmk0S/IxchUMl6+5dCU=
+=Hcm4
 -----END PGP SIGNATURE-----
 
---===============7663354228347546180==
+--===============0253000029866804790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,4 +1081,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============7663354228347546180==--
+--===============0253000029866804790==--
