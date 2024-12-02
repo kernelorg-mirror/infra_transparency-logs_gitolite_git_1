@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8437139129692954481=="
+Content-Type: multipart/mixed; boundary="===============1503373772831561103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 02 Dec 2024 17:09:48 -0000
-Message-Id: <173315938884.2144653.17606088192981113509@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 17:10:03 -0000
+Message-Id: <173315940315.2146147.12935825677853160354@gitolite.kernel.org>
 
---===============8437139129692954481==
+--===============1503373772831561103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 0000000000000000000000000000000000000000
-    new: 0ffafd4a3b39b341a4d7d73df34ab3b2c07a26c0
+  - ref: refs/heads/review-ilpo
+    old: 43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2
+    new: 0000000000000000000000000000000000000000
 
---===============8437139129692954481==
+--===============1503373772831561103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733159412 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733159429 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1733159383-fb37c956bd01597470bcc974f504199e72cdf948
+nonce 1733159400-65fd2479b22866a6cb70e3a0676e2ab8cb56cf7d
 
-0000000000000000000000000000000000000000 0ffafd4a3b39b341a4d7d73df34ab3b2c07a26c0 refs/heads/review-ilpo-next
+43fb83c17ba2d63dfb798f0be7453ed55ca3f9c2 0000000000000000000000000000000000000000 refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ03p+AAKCRBZrE9hU+XO
-MU1AAQCXFy+pQchkFvkmtePWaY2ibCewjSYA8q5a0JODCAfrhAD/bCaY/u08qZPc
-IC6Y2bMKwDf3Krtxxqy74jNPKziyRAA=
-=U3P/
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ03qBwAKCRBZrE9hU+XO
+MZkNAQDiWNZwetS759TbcwWO5e/e/IFffCGafZPQgGUobw1kTQD9F8PToInW5Fw1
+8hnEIlN+VPqd9WhMj+xyu0Ja0dTFDAk=
+=pLEX
 -----END PGP SIGNATURE-----
 
---===============8437139129692954481==--
+--===============1503373772831561103==--
