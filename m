@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5277814969377155295=="
+Content-Type: multipart/mixed; boundary="===============2457334138118937174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 02 Dec 2024 13:08:51 -0000
-Message-Id: <173314493118.1914951.13152385010144399494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Dec 2024 13:08:58 -0000
+Message-Id: <173314493855.1915142.5692045823414711198@gitolite.kernel.org>
 
---===============5277814969377155295==
+--===============2457334138118937174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regmap-6.13
     old: d1f4390dd28ba110f232615dc4610ac1bb2f39f2
     new: 3061e170381af96d1e66799d34264e6414d428a7
     log: revlist-d1f4390dd28b-3061e170381a.txt
+  - ref: refs/heads/regmap-6.14
+    old: 0000000000000000000000000000000000000000
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
 
---===============5277814969377155295==
+--===============2457334138118937174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733144957 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1733144928-26e0f12cb7e2eeb834c536b66a96ddba70e94358
+pusher C3F436CA30F5D8EB 1733144964 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733144935-aae3a7e0acb803075acc8a0e5c75b5b8f6e67748
 
-d1f4390dd28ba110f232615dc4610ac1bb2f39f2 3061e170381af96d1e66799d34264e6414d428a7 refs/heads/for-6.13
+d1f4390dd28ba110f232615dc4610ac1bb2f39f2 3061e170381af96d1e66799d34264e6414d428a7 refs/heads/regmap-6.13
+0000000000000000000000000000000000000000 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/regmap-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsX0ACgkQJNaLcl1U
-h9ALeAf/XURP9ufKbSa2qe4Q3W5js7VMXdXFoL19apQYptfCvUOPtQf/YXffCCam
-khnCD9tOpM8Xt4TChGCOp94C7dDirNripFXUhKqFHhVg778PKPYKyDcu0q5QK/z+
-FqQFLFCzwzMo3wYQniqy/9oCMg1Pk5kFaveFnS+gfi/6NOIcVN36EfOx9lxCcFqq
-JedXbVmUZKDKO14i/v9i4KwblRbyYlIC81wCRpLt6sSIKZ5duPTVtdz8Q6d34VYJ
-lfwWzP7s72T+xihiZadch71ThIbT/H99+WCmmZqKkuEWdUoyNftuqRfYHfdpu5WY
-cILeNi7IHSlxXy61LBP55fIsGeI+ag==
-=8aOq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsYQACgkQJNaLcl1U
+h9ByNAf/RJkCDq4+mUVfmi0Y9H54lxp8la5VW9Es15IyQRjV35WuzCT4Q0AXsHD6
+5psDRXpyFcMkewmrgq1+hCkqEzvuiien/tb8SJhbwIrsSUF2+j4r2VErrxCffhkF
+wtboyr6jAWBG8mWBn0qDa+cpHTyBxeDNYK+0zhSPEJPsbKQktHcq/Kpe1pb1i/Pe
+g92SLKuuc0NEguDnGibgr1vzLC1UPhO3J+oKYQSYu7qyMtLrWdztUcNUeQ/qU045
+wTWJmmQ0jgrlX/S2GgVHch+/YRPZbcQ5DOp2Ey0ORG265hqXxQa9VQCmK8YgnnN1
+pzc3pghZnnPaAVIp2ApJokAJSEtO3Q==
+=odhv
 -----END PGP SIGNATURE-----
 
---===============5277814969377155295==
+--===============2457334138118937174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
 3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 
---===============5277814969377155295==--
+--===============2457334138118937174==--
