@@ -1,30 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3021265283171694918=="
+Content-Type: multipart/mixed; boundary="===============3514853807179904018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 02 Dec 2024 09:31:04 -0000
-Message-Id: <173313186448.1724520.8776001614636566564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 02 Dec 2024 09:31:19 -0000
+Message-Id: <173313187903.1724726.4118781404485316698@gitolite.kernel.org>
 
---===============3021265283171694918==
+--===============3514853807179904018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/mhi-next
-    old: bd23e836423ea3968d539d4f0d5722a3a824b99e
-    new: 7222ae1d3e4e79a3df37a0668f3718a7898b35df
-    log: revlist-bd23e836423e-7222ae1d3e4e.txt
+  - ref: refs/heads/master
+    old: cc0e1c730755617c39faa59c79aa40e03aecbb15
+    new: 13e570932b98d836bddabb365b3d90d7fb0d3112
+    log: revlist-cc0e1c730755-13e570932b98.txt
+  - ref: refs/tags/renesas-devel-2024-12-02-v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2d2f39c75c1b7ce0ab4d6adbf1035b027c3985ee
+  - ref: refs/tags/v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cbc4912199deab59fdbd830b115d81941d0add46
 
---===============3021265283171694918==
+--===============3514853807179904018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd23e836423e-7222ae1d3e4e.txt
+Content-Disposition: attachment; filename=revlist-cc0e1c730755-13e570932b98.txt
 
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1055,6 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-7222ae1d3e4e79a3df37a0668f3718a7898b35df bus: mhi: host: Free mhi_buf vector inside mhi_alloc_bhie_table()
+13e570932b98d836bddabb365b3d90d7fb0d3112 Merge tag 'v6.13-rc1' into renesas-devel
 
---===============3021265283171694918==--
+--===============3514853807179904018==--
