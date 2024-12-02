@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0180988729104864430=="
+Content-Type: multipart/mixed; boundary="===============3164411186390594888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 02 Dec 2024 17:39:05 -0000
-Message-Id: <173316114555.2170296.2022090077330340840@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 17:39:27 -0000
+Message-Id: <173316116720.2170492.5118736890026184125@gitolite.kernel.org>
 
---===============0180988729104864430==
+--===============3164411186390594888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,63 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 54c814c8b23bc7617be3d46abdb896937695dbfa
-    new: e7d3b4079d01c60568a45237224df4447f140189
-    log: revlist-54c814c8b23b-e7d3b4079d01.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 551ac3a0b0a1340079a1c260f5e62647b0a20698
+    new: ddc6a159cce95bdee7c3e67b885c09c7cee6176f
+    log: revlist-551ac3a0b0a1-ddc6a159cce9.txt
 
---===============0180988729104864430==
+--===============3164411186390594888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733161172 -0500
+pusher 75C5DE3D 1733161178 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733161140-d672107e5c483a4a333c18c076de46121b92329e
+nonce 1733161149-5da9412a0ebd3a9f1b013f02e850c2219032d7fd
 
-54c814c8b23bc7617be3d46abdb896937695dbfa e7d3b4079d01c60568a45237224df4447f140189 refs/heads/fixes
+551ac3a0b0a1340079a1c260f5e62647b0a20698 ddc6a159cce95bdee7c3e67b885c09c7cee6176f refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN8NQACgkQ7ulgGnXF
-3j0zIA/+PDto6yB8YHSra+HthTdd7H3xco5dJhY6iCvI+RXJVzd5TmCsGhSGuk9N
-nsmuvgEtZ/DVBDABZAzTA2Ku8ob8Kg28YtAD+E723/VuIMvIg5Y9+GBfBBXz9KCe
-bWQBv35nFbDS/RNMVtXENYaUaiFESOkfbYEjHDxq3lt0mrhMsNG3WKoLvvsyEvEF
-D2TQQKvVImmlUVmQgd0Jq5KS7oKGDdOZcbrPgfb3RC9fZ8m1WqcZNRASg8CckojT
-AW2PvVeRUuhGwLjgE+Nx29s4S5g3jeZYINxwwc3zuyMo+bR31Lpc1rJJ/bfW5Qvb
-ZVDwQnk6Y0jKB4itG78TGow7EdiMpYqe6G60gojXDnbAuNBAFTX2vxbPehyWJ7UJ
-+ogbwtqiNNeHD4gtehjPRvoLPkLlUFxfTY0ITbVs25c/Tt+QREFhcEBGWhSQiC42
-Ju0k4LQfOYDXcTuPAS60J7j87vI/Kjq2kO6G2wfs7cDDdRpbhndZTidOOlbmj/gf
-1nnnusyUtmF6IUaocGnhebtUVMF1hNVbcgnpY0D/EelBmIg07zgAYPS7DtdvKaow
-Pwz1fFCp6pDfwmIAMV8UVZrfUkIZZSubb2vZbNNuA1mIT+SEqEAYTOeeJtvfB2xE
-CnUFTuiGOYUbi/CQQQpB7OXjJWJZ5aK6U7DH5+otqKnOmmCuGAo=
-=x38b
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdN8NoACgkQ7ulgGnXF
+3j0QGRAAiuhKzmsdUdTZ8geWXUJlLFA93aWbm3Sws8UhiOo50W6OUIgkw/iltzP/
+0Sg75jug28oTrs50gCnK6Ikee/h7ylzZXomnntku7QxRnI1P0yxguDmXpGmqsDGG
+b1iHZTsaZx7zEdxX81maKl+6pLPahGalnsCXaTUez9S4cjGv+PuHfZ+wfshJaQLK
+CmMMbOjj93IaKaybdKWMFf2VAYq+l+m2aDLk5hkQJrmKS7eSIYrEaINXLpWmdwpK
+u3nFyTOWnIj/q6WQGgwkS8BFS85t8AbUQ1+UvzkJq7oILkqLjm29vhEuyeW6vPf5
+g4H5LZLKfDrljttz38S2VOJubH9jm3nqbsk7nve7MKxqhcCTBUKk0mVk9OCs22Ow
+VVzr2jsi/r+4REVWLwFlFrUPgFDqSb666Aua6XKInEpxPdJ/AbAu731QZpgji/vH
+s6F6tbNV7zgPj+GnTBOEM2ZHMyyuz3ANvUpaHTdvVWkkzGyxoiNAHaNSBa068SL/
+n0x0URlxSJh367GCduB8aoUtPE71FaWXLYv8ty7EmgQu3PoEulw4jQz3S5yB9tce
+MzRnD+fjPTMpSTWMr6fLrO+toRnbuwFAMdfss39wlT8EHhT+1mq7WeieeeBlHtbB
+YbtZkKuwDLi9hD97s9ZdzgYKeH1bqOkG6BL7b1DgWkw6GawzqUU=
+=acNz
 -----END PGP SIGNATURE-----
 
---===============0180988729104864430==
+--===============3164411186390594888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54c814c8b23b-e7d3b4079d01.txt
+Content-Disposition: attachment; filename=revlist-551ac3a0b0a1-ddc6a159cce9.txt
 
+6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
+0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
+873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
 82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
 65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
@@ -396,22 +413,6 @@ e7619f2a2f8f9b10feb784ec6b8ea5320ad3b97e KVM: arm64: vgic: Kill VGIC_MAX_PRIVATE
 0f3a0f23f5621b9a5a28c9235c950caf6e2012d5 KVM: arm64: Mark set_sysreg_masks() as inline to avoid build failure
 54bbee190d42166209185d89070c58a343bf514b KVM: arm64: Ignore PMCNTENSET_EL0 while checking for overflow status
 13905f4547b050316262d54a5391d50e83ce613a KVM: arm64: Use MDCR_EL2.HPME to evaluate overflow of hyp counters
-8e3b6345d113cc917e64b0349dc486b5d8f55e70 Merge branch '6.12/scsi-fixes' into 6.13/scsi-staging
-c064de86d2a3909222d5996c5047f64c7a8f791b scsi: qla1280: Fix hw revision numbering for ISP1020/1040
-e953835c1d41bbb660d7069dc9e61ea6bd7874f3 scsi: message: fusion: Constify struct pci_device_id
-52172a352c97d39ee2658f6503b065b9896d48ad scsi: bfa: Remove unused structure builders
-575143abcbbc7e291e5ef5c4fc031d94f8501918 scsi: bfa: Remove unused parsers
-5fe4e16fdbb8ca7dd6daea0031a0a84e6eb1e18d scsi: ufs: Switch back to struct platform_driver::remove()
-2c354d12307e58a748ade2802b4d26fd0d8c34a9 scsi: lpfc: Fix spelling errors 'asynchronously'
-50740f4dc78b41dec7c8e39772619d5ba841ddd7 scsi: megaraid_sas: Fix for a potential deadlock
-5cd3167a5ebbbe49516f29e5dd16317ab6ff479a scsi: target: tcmu: Constify some structures
-60b4dd1460f6d65739acb0f28d12bd9abaeb34b4 scsi: ufs: core: Add ufshcd_send_bsg_uic_cmd() for UFS BSG
-1695c4361d35b7bdadd7b34f99c9c07741e181e5 scsi: ufs: core: Cancel RTC work during ufshcd_remove()
-64506b3d23a337e98a74b18dcb10c8619365f2bd scsi: ufs: qcom: Only free platform MSIs when ESI is enabled
-d3326e6a3f9bf1e075be2201fb704c2fdf19e2b7 scsi: ufs: pltfrm: Disable runtime PM during removal of glue drivers
-1745dcdb7227102e16248a324c600b9121c8f6df scsi: ufs: pltfrm: Drop PM runtime reference count after ufshcd_remove()
-897df60c16d54ad515a3d0887edab5c63da06d1f scsi: ufs: pltfrm: Dellocate HBA during ufshcd_pltfrm_remove()
-019880c08d059f214327fd0dc92e9be3707286f2 Merge patch series "scsi: ufs: Bug fixes for ufs core and platform drivers"
 5bbed54ba66925ebca19092d0750630f943d7bf2 gpio: zevio: Add missed label initialisation
 c7899503ad9c06a0c6ee2796301139731cf1f5ab gpio: altera: Add missed base and label initialisations
 72cef64180de04a7b055b4773c138d78f4ebdb77 gpio: exar: set value when external pull-up or pull-down is present
@@ -1079,6 +1080,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-e7d3b4079d01c60568a45237224df4447f140189 Merge branch '6.13/scsi-queue' into 6.13/scsi-fixes
 
---===============0180988729104864430==--
+--===============3164411186390594888==--
