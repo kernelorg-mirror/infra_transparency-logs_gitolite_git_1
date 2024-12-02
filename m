@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1161669580917603596=="
+Content-Type: multipart/mixed; boundary="===============0974095595776370100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Dec 2024 13:01:48 -0000
-Message-Id: <173314450882.1909004.16630958008756345761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 02 Dec 2024 13:02:06 -0000
+Message-Id: <173314452640.1909360.10833576154596944160@gitolite.kernel.org>
 
---===============1161669580917603596==
+--===============0974095595776370100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: cbc4912199deab59fdbd830b115d81941d0add46
 
---===============1161669580917603596==
+--===============0974095595776370100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============1161669580917603596==--
+--===============0974095595776370100==--
