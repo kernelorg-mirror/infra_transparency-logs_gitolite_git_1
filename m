@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7059508298878898735=="
+Content-Type: multipart/mixed; boundary="===============3460034478109312273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Dec 2024 06:33:05 -0000
-Message-Id: <173312118592.1563444.7454210202384117080@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 06:33:10 -0000
+Message-Id: <173312119047.1563600.3930925047695391331@gitolite.kernel.org>
 
---===============7059508298878898735==
+--===============3460034478109312273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
     log: revlist-bcc8eda6d349-e70140ba0d2b.txt
 
---===============7059508298878898735==
+--===============3460034478109312273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121213 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733121218 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1733121184-cd2677d21a755d94b5f160c9cdfde1650b9b5057
+nonce 1733121189-ad4425279ab19ee0a0cec86f46de7c5be6cc921e
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/char-misc-linus
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a e70140ba0d2b1a30467d4af6bcfe761327b9ec95 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVL0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++e4QAJ5Pxrnb8xvlhi8gO0gk
-FBqah3pQiufFDBiNGHbLGRfIHlLM00botLZ8WV4W4ikHaoln8MJTBWiC2iSyQlac
-v20QH+yJWC4bZA3wIaMrukLEuVjLJKoV7B748S4VLBkLD1AW2BLgwx6S+3Hf6I7V
-DxAUARuj+QDMHpy5CzAPUr+/gl568liAAD8zX5ZOnrc3afQsVdqEk7B2wYNL1PMI
-r3OpSxRC9JEzMEFsl9gvAOKTfPBWiYmFRW2pBog2ohABG8yL5yKxRdy3XwDTj2VK
-YAyoitbX67eviVjFkyf4pFC/mjymu0OsO5rSfJ7fGKi7bfFOkQZ9pu+dt/JUo5CQ
-kkyKthxCALvw89oJM0mO2HMKD0bXtM6Va60ojsGBGLRRVvCZg3n8Rttv5Deq4Tuk
-uBXugAls1YMVGBvFuaDTkuq646Mit1ptiOlfZEufgkQS6Ldd0DOn8dF9/DuLUAB6
-nVdRTKMjqucRTd2HWE8WwyFsLdnLm6d34ETKLFkH45CfaCZuDKghUKofWZclBn2J
-hJNShRxfkZt+NXU5GuR3pLivIHHiZGPkEzuoWB8xj3wP2A6/AFJQf66OjCLWoFRK
-f0ySoKU9yFUDsgm1v+oY3o9l5NS1isR0otx9ifLyMfYEcsTG+nphaPNx02saC8EJ
-WrDlOk1zEzfRzl3FjY9mI75t
-=pymN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdNVMIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zN0QAMCzpG7qyYv4UMm5M4vD
+MFrsZTv8n0vvvz2MYQewr4q/AgzKhy6jr66HOpx10/buQiuQSTwSz/2lL4n3uqMu
+DJx5zXvM4LKBK0CD3DntbZKpRgXXmlf00TNiYsKTil/jjeOWdMmhBdiTncKIu31g
+yzeIpXLx3GrRAzE3V6b17IddsXLKMeTrepYHhv4mzQNP+81z2g+MBNyeSB1ezJdh
+BjCdrZA21137rkBWk98S5mDuG4p+h47J3SOFjzO/F8I7ke1is0nc4ZP+DLI3sOh+
+Jn/pbxPx4n6XIT9aD7pbUVwRS/4cBJSfuy7whmKGyKOtNqagZIbkTwVytPc0qbTN
+GfUDkYFF0Gaywf8qKXArwM0CPjJPz6HKCM3YNqY3LrUO2SCxc3Z1ik7ZJvGjshQ4
+eA2qyValCqMUgxO4MBOu/rh1Alr6s8GZdz4NRsae5xO5upt8HCRATRpPtk++nM9P
+psEbDXr5ceVEQtkdjiiAyaJDmMphAudt3s8T6FeohQ5dhV+iUq4i/IxvMC7TXDyV
+lzrlI6nXpt49nq1AdVXYzDf0lljjUvt4RjuUGtPSfJnqawA6l9gqoRoxhNMlt+4N
+oHYd2Z07LWIDs+H8dzVnPfW+gHTke0EX5boKajSujtL69bywm3H4T/7ekW9vifeS
+HmkSWiU9H4CQYbYiljcHoNBw
+=po/A
 -----END PGP SIGNATURE-----
 
---===============7059508298878898735==
+--===============3460034478109312273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 
---===============7059508298878898735==--
+--===============3460034478109312273==--
