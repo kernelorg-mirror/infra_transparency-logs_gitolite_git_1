@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============9014362730442806128=="
+Content-Type: multipart/mixed; boundary="===============1855774247127483670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 02 Dec 2024 13:15:37 -0000
-Message-Id: <173314533710.1924387.16405024455974462105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Dec 2024 13:15:43 -0000
+Message-Id: <173314534382.1924543.3533254047571941743@gitolite.kernel.org>
 
---===============9014362730442806128==
+--===============1855774247127483670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: 351f2bfe6362c663f45f5c6111f14365cfd094ab
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-351f2bfe6362-40384c840ea1.txt
-  - ref: refs/heads/for-6.14
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+  - ref: refs/heads/regulator-6.14
+    old: 0000000000000000000000000000000000000000
     new: a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26
-    log: |
-         a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 regulator: bd96801: Add ERRB IRQ
-         
 
---===============9014362730442806128==
+--===============1855774247127483670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733145363 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1733145334-2d93db06d9364a42e4d88a77152da7498a98ab69
+pusher C3F436CA30F5D8EB 1733145370 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733145340-a45722696cba7a7526d8684fc3b5e884563d29ed
 
-351f2bfe6362c663f45f5c6111f14365cfd094ab 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/for-6.13
-40384c840ea1944d7c5a392e8975ed088ecf0b37 a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 refs/heads/for-6.14
+351f2bfe6362c663f45f5c6111f14365cfd094ab 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/regulator-6.13
+0000000000000000000000000000000000000000 a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 refs/heads/regulator-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsxMACgkQJNaLcl1U
-h9A2WQf/cwO6fbH/iCEibhaBVbg4w2TsIbCTx1x5dhQgDlIAIQslBHtnm7u7oUsS
-TV5f2rC2ZfI5/TRZDYKvYayllcsmNVZ5OkfN+jdtzvtlTK2AOg/p8C1e1wU+Xv/J
-CEsYQQHhj7PeT1YHWUenUpF9HZ72Ei77Nu54iEtuEscTKYMHB9OrJ1DrHm4LbTd/
-YeNvgXZehpSkzBisJcYoi28stTVN/izk2usGjwff+uUTNNcAcRSTqiJdcWmjnJV/
-24xN47tuJNaEx5CflomtGczv07Mc6OHEB3TXqBER3ooVHZqdPvSDGrpEJ2CYed7v
-9O4+z8tEP9jZYjXGxe7nT4z4NokFmg==
-=9IaE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdNsxoACgkQJNaLcl1U
+h9DOYAf/afC7Elw8P/bBRw7mSCrl4YWA0GYttHJALoPrxB2xfeg6BCBEUGDfebD6
+snCWTP8PTnC/NkStR0z0zyGQQ+6j58NTO1uYyt8B/NthIPEqDQZJSidYS5KRIaBe
+L186tmcO1/5/TZ2v8Cd9hpbJXcBCeBNtUOEAy5jB2Z5BgLmf/yaSd1eJ7vmfzTVG
+tAkudkcyO1TXGrRYctjxd6lPOfOhgMmANV5hgc0cS7PnyCM1YvikfTwkrsFto/we
+uSGmpMwVgiOPGGMVgz7layiYu5RptxskPQaFafbw+tRSBmyaThEqKcGe5txRuZT3
+enxZhTDD4tdcIByegkJbmGhU6uLl7A==
+=jxsg
 -----END PGP SIGNATURE-----
 
---===============9014362730442806128==
+--===============1855774247127483670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============9014362730442806128==--
+--===============1855774247127483670==--
