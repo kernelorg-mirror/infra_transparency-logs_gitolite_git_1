@@ -1,37 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============5605358406663739289=="
+Content-Type: multipart/mixed; boundary="===============6881065514996439566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 02 Dec 2024 13:09:42 -0000
-Message-Id: <173314498284.1916378.15632310142649060203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 02 Dec 2024 13:10:01 -0000
+Message-Id: <173314500177.1916707.247183701734496675@gitolite.kernel.org>
 
---===============5605358406663739289==
+--===============6881065514996439566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 831e9a7556ac879bff732a2a792843c3f7aae3f7
-    new: a11cdc4ff172cb8816c960b8e0b9e7f31c11b911
+    old: e61fcd6dfae857c03aea40d8145881f6c5a157c8
+    new: f555808398e79b4e04699d47eac3cadc2e7cfa12
     log: |
-         a11cdc4ff172cb8816c960b8e0b9e7f31c11b911 Merge remote-tracking branch 'regulator/for-6.12' into regulator-linus
+         f555808398e79b4e04699d47eac3cadc2e7cfa12 Merge remote-tracking branch 'spi/for-6.12' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 831e9a7556ac879bff732a2a792843c3f7aae3f7
-    new: d34340de766b18c4e35c1ba92015f79099b1197e
-    log: revlist-831e9a7556ac-d34340de766b.txt
+    old: e61fcd6dfae857c03aea40d8145881f6c5a157c8
+    new: 148a8f391ef628d6243ab19d9daa73a1d5b0be1b
+    log: revlist-e61fcd6dfae8-148a8f391ef6.txt
 
---===============5605358406663739289==
+--===============6881065514996439566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-831e9a7556ac-d34340de766b.txt
+Content-Disposition: attachment; filename=revlist-e61fcd6dfae8-148a8f391ef6.txt
 
+28b6acd75e3cefbe746ec7402c7ff4fdb114f327 PCI: endpoint: Fix pci_epc_map map_size kerneldoc string
+6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -200,7 +202,6 @@ a202e6014709d329346b0766e89f797ef0d1eccf Documentation: tipc: fix formatting iss
 34267d3c26fe5e43589fc8c2b50ab033b261ee8e Merge tag 'spi-nor/for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/next
 96ed62ea02984f14b6d4f2e4aed327d803875b7a mm: page_frag: fix a compile error when kernel is not compiled
 c5b7a2400edc458b22133d5e5394bea26eab1923 gfs2: Only defer deletes when we have an iopen glock
-c752e87b9c3982b78dddcdd70dcb826df3cfd75d spi: rockchip-sfc: Embedded DMA only support 4B aligned address
 ffd1cf0443a208b80e40100ed02892d2ec74c7e9 gfs2: Prevent inode creation race
 dd7207838d38780b51e4690ee508ab2d5057e099 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 fcbc60d7dc4b125c8de130aa1512e5d20726c06e rtla/timerlat: Do not set params->user_workload with -U
@@ -219,6 +220,7 @@ f06e108a3dc53c0f5234d18de0bd224753db5019 Compiler Attributes: disable __counted_
 26bda0dff9ca74ae071643e0176f248d72f43580 arm64: dts: amd: Remove unused and undocumented "amd,zlib-support" property
 a21b2eb7cfe28227ecc2e702b4a2aad8068d4ad2 arm: dts: spear13xx: Remove unused and undocumented "pl022,slave-tx-disable" property
 9f5cbdaae5f760c218c82e0a5e0f9c58bac56f0c arm64: dts: apm: Remove unused and undocumented "bus_num" property
+5262bcbb41d526f944a91a6a6c88dfb6fba3889b dt-bindings: regulator: qcom-labibb-regulator: document the pmi8950 labibb regulator
 d00eea91deaf363f83599532cb49fa528ab8e00e block: Add extra checks in blk_validate_atomic_write_limits()
 d7f36dc446e894e0f57b5f05c5628f03c5f9e2d2 block: Support atomic writes limits for stacked devices
 fa6fec82811bc6ebd3c4337ae4dae36c802c0fc1 md/raid0: Atomic write support
@@ -413,12 +415,12 @@ b8d481671703c4ba24bb250a99225e0e3d8aedac dt-bindings: riscv: Add Svade and Svadu
 97eccf7db4f2e5e59d16bca45f7803ae3aeff6e1 RISC-V: KVM: Add Svade and Svadu Extensions Support for Guest/VM
 c74bfe4ffe8c1ca94e3d60ec7af06cf679e23583 KVM: riscv: selftests: Add Svade and Svadu Extension to get-reg-list test
 7ef3ae82a6ebbf4750967d1ce43bcdb7e44ff74b 9p/xen: fix init sequence
-9e141955ede223d82251a59644ff9448a5aba580 spi-imx: prevent overflow when estimating transfer time
 e038f43edaf0083f6aa7c9415d86cf28dfd152f9 ASoC: imx-audmix: Add NULL check in imx_audmix_probe
 f32c3f01c21cdd6a354988006aaca5e3dfe478f9 ASoC: apple: Fix the wrong format specifier
 40cfe553240b32333b42652370ef5232e6ac59e1 io_uring: add io_local_work_pending()
 f46b9cdb22f7a167c36b6bcddaef7e8aee2598fa io_uring: limit local tw done
 ee116574de8415b0673c466e6cd28ba5f70c41a2 io_uring/nop: ensure nop->fd is always initialized
+351f2bfe6362c663f45f5c6111f14365cfd094ab regulator: core: Ignore unset max_uA constraints in current limit check
 7582fe07f4ca4c560eb47800b640997f06a8baa2 PCI/pwrctl: Use of_platform_device_create() to create pwrctl devices
 278dd091e95d428eea0a2c3c517d895b052de5ff PCI/pwrctl: Create pwrctl device only if at least one power supply is present
 b458ff7e8176523b9d5a8d33f2487f29d7096eb1 PCI/pwrctl: Ensure that pwrctl drivers are probed before PCI client drivers
@@ -745,8 +747,6 @@ d1e8884e050c1255a9ceb477f5ff926ee9214a23 octeontx2-af: RPM: Fix low network perf
 6fc2164108462b913a1290fa2c44054c70b060ef octeontx2-af: RPM: fix stale FCFEC counters
 762ca6eed026346d9d41ed5ac633083c4f1e5071 octeontx2-af: Quiesce traffic before NIX block reset
 05cff25eb32ce375a59431afe47a6fe0b9548b78 Merge branch 'octeontx2-af-misc-rpm-fixes'
-2ac40e6d0ccdd93031f8b1af61b0fe5cdd704923 spi: atmel-quadspi: Fix register name in verbose logging function
-d24cfee7f63d6b44d45a67c5662bd1cc48e8b3ca spi: Fix acpi deferred irq probe
 9cfb5e7f0ded2bfaabc270ceb5f91d13f0e805b9 net: hsr: fix hsr_init_sk() vs network/transport headers.
 ac1f43c03fc91eee53cc95683245350d4d87781e thermal: gov_power_allocator: Add missing NULL pointer check
 69f3aa6ad92447d6e9f50c5b5aea85b56e80b198 thermal: of: Simplify thermal_of_should_bind with scoped for each OF child
@@ -1054,7 +1054,7 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-a11cdc4ff172cb8816c960b8e0b9e7f31c11b911 Merge remote-tracking branch 'regulator/for-6.12' into regulator-linus
-d34340de766b18c4e35c1ba92015f79099b1197e Merge branch 'regulator-linus' into regulator-next
+f555808398e79b4e04699d47eac3cadc2e7cfa12 Merge remote-tracking branch 'spi/for-6.12' into spi-linus
+148a8f391ef628d6243ab19d9daa73a1d5b0be1b Merge branch 'spi-linus' into spi-next
 
---===============5605358406663739289==--
+--===============6881065514996439566==--
