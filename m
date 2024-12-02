@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2907136305786451108=="
+Content-Type: multipart/mixed; boundary="===============8566663632158779601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 02 Dec 2024 14:15:16 -0000
-Message-Id: <173314891654.1983090.15653692553769991667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 02 Dec 2024 14:15:25 -0000
+Message-Id: <173314892548.1983308.14324842012526169512@gitolite.kernel.org>
 
---===============2907136305786451108==
+--===============8566663632158779601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 1f1d847a657523e182df87f88158b607afe7d559
+  - ref: refs/heads/fixes
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-1f1d847a6575-40384c840ea1.txt
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============2907136305786451108==
+--===============8566663632158779601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1733148942 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1733148914-c896171c7cc4b03e2ffe2968c1029395092592a4
+pusher krzk@kernel.org 1733148951 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1733148923-5750c867cc6688cc7b3e4138ec1ff5713fd1bb64
 
-1f1d847a657523e182df87f88158b607afe7d559 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/mem-ctrl-next
+9852d85ec9d492ebef56dc5f229416c925758edc 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdNwQ4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xk6D/0dsxu3fqVvtO2Z8PW0qWVzo4JG64focd4Y
-fM3E0UHt0WTAEPljsq2uDznT4qktPdllovjOmc7G3obySewRbbMC1dV0GtIzV+rt
-gvmzMCiHp1l80NHGZ3eppQEGRvSPKZuaFs09f0sr3bVxqq53wvdBXbS0YjOG3e8k
-ynAI+hcxZ2A0cq98w0QhF8aF6bCIkV+r3l9kkk04zBUsgQDex5SyYvJn0lLzAPB1
-QkoKl4GakTeyIJnUY7RlUc8VLGLGQtKtvYMdWN0atQMNwiw3OaDod05BNMO51GBV
-XOdOkj7Yn8vPTDX37pVgCZNSimgh7vdxp7p1I6J31325J27dfh5aKPetc7yEWr2A
-HLnLIw6Axhj/k1P5QNZB0mOIDhMUdQ0Qi5G62e0zvnV8ReZs7C5BbUlcPg+YU+M8
-js7oyxwj/EQYCSMdWNGhZgzmQn4HjPy4uDdy+yd2J/FVR9ZeY2/hzcHYtf537PYO
-2GG26uCUQccB5KYmcsr3Fdc0RezXT5+tUZKTBOwWJydoe5I+6DxVSCMtpluTIfRS
-Qb4B/x5UejjaOHJ25EdwAGD3NypmMg0/fjjEzrIJ852zpcqADV38fOIgW1ZTnfo1
-KLU5ZK9B8bJu9Wdtgt/MRxwO5Z/0Gv1yQJLFismydhi+/Uu2n6Lfok0dA1aP3+ZA
-ba5YS51C3Q==
-=xIoX
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdNwRcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16r0D/9hBT5ARUOFt52/GypHkBjgPJjv9XR0ALl1
+4Ef6XfdqfTi4BLw0oEwxbR9+quExNAhA8Ft0tzPN2tiPv06LUtuLpXx9LcBcUOl/
+RxOaWWGhVT831LehnYxk+LJdNxu59xDOQf91QhAJIr2bHSQ/wZ88XTfplx85J7Kz
+L41onbQMwpNoYy0q7D5DMUP/pou035AwpQ9iaJjGzNuwMkJhXrM9FPO1KX3GY99p
+7BVL7KkCRhc7d58EfNsI+KfjltBQzUfa6712eY19e58LPKmJxdDRlU8TPHnNSBx3
+bxXPDnsGtrv+nDa6QAaLM1yH0S7RkhaUacHersOgLbdWP9YoI2eSXIAnCnFhAQKj
+ZeAhprqGqDvG4LrR8Vj04kk7rI/jZ8rMf8vOPqeuKUhuwu0R1yv4M2vcgcS9apIc
+xr89yxQv/wsM28X7Fp0Xt89a5eFsccGE9DJxm+lScJMdo4oXptQwto8wLiUCzaDU
+llj1PRnNbCv0y1iTxBH3S01bcFfwYSfWfFVI8aiNyXdWBSrSAzF8wPIiNwKl2byo
+ypk33To0FjCrpap0WZBHRbgDuBSDAMuTIPS41jndBj+vNUhnh7sN085zW8V+vZKT
+ncJxZ66C9wHOOEIwLsFouJ18e7/mQy49zCVnl2BP+jTAsz1y504qkihPaOrvU8k9
+a46cG27guQ==
+=dZSl
 -----END PGP SIGNATURE-----
 
---===============2907136305786451108==
+--===============8566663632158779601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f1d847a6575-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1082,4 +1082,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============2907136305786451108==--
+--===============8566663632158779601==--
