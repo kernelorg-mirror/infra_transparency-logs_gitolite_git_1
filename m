@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 02 Dec 2024 23:30:14 -0000
-Message-Id: <173318221453.2463552.4550241187178121561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 02 Dec 2024 23:44:51 -0000
+Message-Id: <173318309189.2473618.2781741124491132407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/snitm-kernel-6.12-baseline
-    old: aaab85afe41170b5af325c4c00fc4c6ab77b2a02
-    new: 330f23f486e64504a489852e8f1036053fa86a67
+  - ref: refs/heads/main
+    old: 28866d6e84b8d36a76b2cde221391aed1294e5cd
+    new: c889aa2e7c2f0040484182d6cbbc0837b193a93f
     log: |
-         2f5fe39ed2c0d4acda4339796c8077c779889fef tools/power/x86/turbostat: fix turbostat.c el8 compiler errors
-         9fc2108c7cda0874a4c4e0786be0e228784df8fb tools/tracing/rtla: fix el8 compiler errors due to old glibc
-         11fd6325dc81708dacb1f5b6d022b497344b0768 tools/tracing/latency: link failure due to missing -lpthread with old glibc
-         e25437eedde87bce98dc7d13f7950e7f0571828d redhat: reenable 'with_tools' now that tools compilation is fixed for el8
-         330f23f486e64504a489852e8f1036053fa86a67 redhat: fix EL8 build so that it generates symvers.gz
+         c889aa2e7c2f0040484182d6cbbc0837b193a93f MAINTAINERS: list PTP drivers under networking
          
