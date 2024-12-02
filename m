@@ -1,42 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============2820508779785499663=="
+Content-Type: multipart/mixed; boundary="===============8418686940148640198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 02 Dec 2024 21:21:47 -0000
-Message-Id: <173317450701.2357332.2708356445714015820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 02 Dec 2024 21:21:48 -0000
+Message-Id: <173317450884.2357489.4181253880016065317@gitolite.kernel.org>
 
---===============2820508779785499663==
+--===============8418686940148640198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
+    old: 8afd8c8faa24249e48f5007aee46209299377588
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-89282beaf75d-40384c840ea1.txt
-  - ref: refs/heads/dev-staging
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-b85ea95d0864-40384c840ea1.txt
+    log: revlist-8afd8c8faa24-40384c840ea1.txt
   - ref: refs/heads/next
-    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
+    old: a65d9d1d893b124917141bd8cdf0e0e47ff96438
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-89282beaf75d-40384c840ea1.txt
+    log: revlist-a65d9d1d893b-40384c840ea1.txt
   - ref: refs/heads/stable-6.13
-    old: 89282beaf75d81c9e04da7bc7c97bb261c2a0204
+    old: a65d9d1d893b124917141bd8cdf0e0e47ff96438
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-89282beaf75d-40384c840ea1.txt
+    log: revlist-a65d9d1d893b-40384c840ea1.txt
 
---===============2820508779785499663==
+--===============8418686940148640198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89282beaf75d-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-8afd8c8faa24-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1063,12 +1059,13 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============2820508779785499663==
+--===============8418686940148640198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-a65d9d1d893b-40384c840ea1.txt
 
+6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1876,7 +1873,6 @@ d00c2359fc1852258d8ce218cf2f509086da720c Docs: Update LSM/apparmor.rst
 9133493a76d741e1ce00a140be3d2d7791ca3a04 parser: drop dead code for XXX_comb macros
 8acf7ad02d1b1bc6dbb1fc78a295582d0d336502 apparmor: replace misleading 'scrubbing environment' phrase in debug print
 04b5f0a5bfee5a5886dc19296c90d9a6964275e4 apparmor: lift new_profile declaration to remove C23 extension warning
-a65d9d1d893b124917141bd8cdf0e0e47ff96438 ima: uncover hidden variable in ima_match_rules()
 e4a4565489622b29cc4208d117828596207ee6f6 powerpc/machdep: Remove duplicated include in svm.c
 a74769564eb0a94c41a6224ee81230554c167f71 docs: ABI: sysfs-bus-event_source-devices-vpa-pmu: Fix htmldocs errors
 cf89c9434af122f28a3552e6f9cc5158c33ce50a powerpc/prom_init: Fixup missing powermac #size-cells
@@ -2094,4 +2090,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============2820508779785499663==--
+--===============8418686940148640198==--
