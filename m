@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1576542671073684912=="
+Content-Type: multipart/mixed; boundary="===============0884348955736668786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 02 Dec 2024 17:29:09 -0000
-Message-Id: <173316054948.2160300.13444382661098783311@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 17:29:27 -0000
+Message-Id: <173316056769.2160556.8078434360486735159@gitolite.kernel.org>
 
---===============1576542671073684912==
+--===============0884348955736668786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,88 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: fcc79e1714e8c2b8e216dc3149812edd37884eef
-    new: 65ae975e97d5aab3ee9dc5ec701b12090572ed43
-    log: revlist-fcc79e1714e8-65ae975e97d5.txt
+  - ref: refs/heads/dev-queue
+    old: be9bc5f29544142931d3958e972623a1db595af4
+    new: 9e11d56a825f5e927039c285df38c22c20dcb757
+    log: revlist-be9bc5f29544-9e11d56a825f.txt
 
---===============1576542671073684912==
+--===============0884348955736668786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcc79e1714e8-65ae975e97d5.txt
+Content-Disposition: attachment; filename=revlist-be9bc5f29544-9e11d56a825f.txt
 
-64f7b77f0bd9271861ed9e410e9856b6b0b21c48 Merge patch series "Zacas/Zabha support and qspinlocks"
-3adec6f907b698b32ab62f70da31b41abed00c59 MAINTAINERS: Use Daniel Thompson's korg address for Backlight work
-003215f962cdf2265f126a3f4c9ad20917f87fca drm/amd/display: Require minimum VBlank size for stutter optimization
-28b24de43473f3e73341fcf0f3e21c562708f466 drm/amd/display: Remove unused code
-b7e381b1ccd5e778e3d9c44c669ad38439a861d8 drm/amd/display: Adjust VSDB parser for replay feature
-acbbbd2375034e332dc4b28e12932a12871ab204 drm/amd/display: 3.2.309
-60c58d72afb81d2dc3f52f638eff5197511ac114 drm/amdgpu: Update SRIOV Exchange Headers for RAS Telemetry Support
-9928509dfc2296a66cd073eb84bfae8eccf7195d drm/amdgpu: Add msg handlers for SRIOV RAS Telemetry
-907fec2dfd061ca422d8b121f4af1b6062e098ba drm/amdgpu: VF Query RAS Caps from Host if supported
-84a2947ecc85c67f433f2cc2186e54cdb9047b61 drm/amdgpu: Implement virt req_ras_err_count
-92fd1714ee3cef8ad9c466ced354ab0581ee3782 drm/amd/amdgpu: Increase MES log buffer to dump mes scratch data
-408d20812742014c57b145eb4509364a0c92a1bb drm/amdgpu: Cleanup shift coding style
-6cb6d437b57a16487197e4abc3ab2838d7bf473c drm/amdkfd: change kfd process kref count at creation
-14c7f4867b7e4ddbbde58b398452295051c77137 ASoC: max98088: Add left/right DAC volume control
-d0621105eff307408ceb3d0eb61ca2a23c37fcbe ASoC: max98088: Add headphone mixer switch
-af5661c7c708b1923a1761fe12527c2b85ad47ba drm/amd/amdkfd: add/remove kfd queues on start/stop KFD scheduling
-ce4971388c79d36b3f50f607c3278dbfae6c789b drm/amd : Update MES API header file for v11 & v12
-5bea9bbb45eb14d9a1bdc64eef2e44bbdbcc947c drm/amdgpu: Support vcn and jpeg error info parsing
-cfe98204a06329b6b7fce1b828b7d620473181ff drm/amdgpu/mes12: correct kiq unmap latency
-377dda2cff59825079aee3906aa4904779747b0b drm/fourcc: add AMD_FMT_MOD_TILE_GFX9_4K_D_X
-fd0a5afb5455b4561bfc6dfb0c4b2d8226f9ccfe kunit: skb: use "gfp" variable instead of hardcoding GFP_KERNEL
-4c1d8f0547363893bc3b7755aa90755bfd89e2ed perf disasm: Introduce symbol__disassemble_objdump()
-e9b57d7f9740deb31acb02a00bdf6653e60c7e61 KVM: arm64: Make L1Ip feature in CTR_EL0 writable from userspace
-2865463442f8be5943686c767eb45089f29fb157 Merge branch kvm-arm64/nv-s1pie-s1poe into kvmarm/next
-7ccd615bc6ebb5e5d3565bf74ab2d695eb83b95e Merge branch kvm-arm64/psci-1.3 into kvmarm/next
-24bb181136483f9dbade65cb41763fd8a5d155b5 Merge branch kvm-arm64/mpam-ni into kvmarm/next
-7f33b92e5b18e904a481e6e208486da43e4dc841 NFSD: Prevent a potential integer overflow
-3c63d8946e578663b868cb9912dac616ea68bfd0 svcrdma: Address an integer overflow
-b7165ab074b8cd592dcd9304802ee1d999494c6d NFSD: Remove unnecessary posix_acl_entry pointer initialization
-612196ef5c50bdafe34314e36b085d4843fb2e9d NFSD: Remove unused function parameter
-d86fca3affca04b6c2cedd7060206c3e7091ecc8 xdrgen: Exit status should be zero on success
-5383ccd0cc23530b69a0822fba54605615b71946 xdrgen: Clean up type_specifier
-041962d5c6a965f1a6c338be49acfe7ab51d2056 xdrgen: Rename "variable-length strings"
-c060f8168bdf22aa986970955af99702d142dfbe xdrgen: Rename enum's declaration Jinja2 template
-6e853dcd2d3d6f796597c1042340a2de0ce2469f xdrgen: Rename "enum yada" types as just "yada"
-b376d519bd142c65ba9bba35db12b6be95b46893 xdrgen: Implement big-endian enums
-1acd13cbc7c9c69a09e5d8325cf6c3e3f0a75049 xdrgen: Refactor transformer arms
-189f55d93d3eb76d733c28f0c70fd2d162a9ffc5 xdrgen: Track constant values
-631c2925bae41c11dcf3915a2ab5f3be9af54277 xdrgen: Keep track of on-the-wire data type widths
-3f890755c8f5958ef537a6d8f14de5ec4bfdc3fe xdrgen: XDR widths for enum types
-16c98ce04a6929019f66dab40367fb14d0afc678 xdrgen: XDR width for fixed-length opaque
-b0b85ef754740102cd659aea10aa516fe27f6b36 xdrgen: XDR width for variable-length opaque
-da298d01136e2f80a1a3a47f81d8bb3ade2d306c xdrgen: XDR width for a string
-59b01b9636646bbf2eee59e19cc7da5b584f24c7 xdrgen: XDR width for fixed-length array
-2db8940e6ceda6aeb566429e8d58c34ab093d3c7 xdrgen: XDR width for variable-length array
-dc6fa83b6aff5c50277045f53a448afce9616b07 xdrgen: XDR width for optional_data type
-2852c92ba1305fd2d85fd69f73bb4b43a3c58146 xdrgen: XDR width for typedef
-f4bc1e996a34a47f6c8334edcd8ddcd7dc0634b1 xdrgen: XDR width for struct types
-447dc1efebac1484d5903ba34655289e7725df6d xdrgen: XDR width for pointer types
-ce5a75d9939fab904d27b403011eddd2b173b495 xdrgen: XDR width for union types
-e9e1e7e75acd737cf41c6ee64d62da6ea0c10036 xdrgen: Add generator code for XDR width macros
-ac159338d53b8846b020be8260884e8234572a70 xdrgen: emit maxsize macros
-f67eef8da0e8c54709fefdecd16ad8d70f0c9d20 nfsd: drop inode parameter from nfsd4_change_attribute()
-c757ca1a56edff8d288d4a6cfdbb305dd03e8048 nfsd: drop the ncf_cb_bmap field
-3a405432e7cd84f5e137928ce383aa85a54fb3a6 nfsd: drop the nfsd4_fattr_args "size" field
-f6259e2e4f64a1780b285037dbd4f947121ae8fd nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
-5afe18dfa47daead88517b095b6e0ce012f031f8 KVM: selftests: Don't bother deleting memslots in KVM when freeing VMs
-fbf3372baa9daabec9b899fc96ba50aa0c78fd39 Merge branch kvm-arm64/misc into kvmarm/next
-4bc1a8808e33c92d8f28264aa4bc639988ccb8e1 Merge branch kvm-arm64/mmio-sea into kvmarm/next
-6d4b81e2e700c16a09a1dc20c456d031eb3cca21 Merge branch kvm-arm64/nv-pmu into kvmarm/next
-93093ea1f05928b123dae38b710631362bef1601 PCI: Make pci_stop_dev() concurrent safe
-e3f30d563a388220a7c4e3b9a7b52ac0b0324b26 PCI: Make pci_destroy_dev() concurrent safe
-4d6dcd6c2fa3a80898651d323c150e5ebc03881d PCI: Move __pci_walk_bus() mutex to where we need it
-ee061da777f704976c6d3fdc1707788d11a052c5 PCI: Convert __pci_walk_bus() to be recursive
-7fe28d7e68f92cc3d0668b8f2fbdf5c303ac3022 KVM: arm64: vgic-its: Add a data length check in vgic_its_save_*
-e9649129d33dca561305fc590a7c4ba8c3e5675a KVM: arm64: vgic-its: Clear DTE when MAPD unmaps a device
-7602ffd1d5e8927fadd5187cb4aed2fdc9c47143 KVM: arm64: vgic-its: Clear ITE when DISCARD frees an ITE
-9d0bee66f7398c3c81df613de2e246fbb6a04a86 Merge branch kvm-arm64/vgic-its-fixes into kvmarm/next
-d2bd39c0456b75be9dfc7d774b8d021355c26ae3 PCI: Store all PCIe Supported Link Speeds
-e93d9fcfd7dc643eb5fce43053774d27bea2b263 PCI: Refactor pcie_update_link_speed()
-3491f509666865412ad344cd4dde9f3c5a52326e PCI: Abstract LBMS seen check into pcie_lbms_seen()
 38a18dfe9035d5a02a53271824de1854129c61dc PCI: Unexport pci_walk_bus_locked()
 f85219096648b251a81e9fe24a1974590cfc417d zram: clear IDLE flag after recompression
 d37da422edb0664a2037e6d7d42fe6d339aae78a zram: clear IDLE flag in mark_idle()
@@ -1050,5 +979,76 @@ f6d7695b5ae22092fa2cc42529bb7462f7e0c4ad ipmr: fix build with clang and DEBUG_NE
 d83ec4afd209a0619b32b867f45c845d4dddc2eb Merge tag 'regulator-fix-v6.13-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 86f419707c26e802287963f73c27bdaa4b21977e Merge tag 'spi-fix-v6.13-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 65ae975e97d5aab3ee9dc5ec701b12090572ed43 Merge tag 'net-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+60fb9bf85497e1ad0f1ec200a459559d921ec14b ice: fix BST key index in ice_bst_key_init()
+604af809f4a31760102bc1f243804c4f25a12da5 iavf: allow changing VLAN state without calling PF
+bcb12a5a2acd6ecdf4d92f52929f8457f962232a ice: Add E830 checksum offload support
+742120672a49d3230bf15a6c0b7ba9296c7862eb ice: Don't check device type when checking GNSS presence
+5078dc11a685a98a66e34126151185079dbac466 ice: Remove unncecessary ice_is_e8xx() functions
+840dd8cb01852cc1c49cc280bb4ef2e514446c69 ice: Use FIELD_PREP for timestamp values
+f1933aebc4f15635526fbada83dbde85c5fa7017 ice: Process TSYN IRQ in a separate function
+c7fe6c1546db62866d2cb00c97c7690846975898 ice: Add unified ice_capture_crosststamp
+c6135dbaa59298555e3f893053270adadef59af0 ice: Refactor ice_ptp_init_tx_*
+967034c7068b76edb4d4d1b98dbcce4e27236e66 ice: Implement PTP support for E830 devices
+b8226d977e05c4f5b67d64809f27134cdf62231e checkpatch: don't complain on _Generic() use
+bc4d71411069ed52a887800208b04f0fbcc843c5 devlink: add devlink_fmsg_put() macro
+4599c4f2ec008cad6d8e89920f9532411d91526a devlink: add devlink_fmsg_dump_skb() function
+2afa52e55c414807b895af82f694ab0d620c60c9 ice: rename devlink_port.[ch] to port.[ch]
+05f9035af60e2133373025b26bf80c005e68c629 ice: add Tx hang devlink health reporter
+ef1d20f155fc9af3aac1f30e99237f6ee0c5cb8f ice: dump ethtool stats and skb by Tx hang devlink health reporter
+2abefc099555d05b003e2f317c23a93ad53ec7d6 ice: Add MDD logging via devlink health
+6d3fdae6c4e45ff3093adf0bf2196c4550c07ebf ice: c827: move wait for FW to ice_init_hw()
+e9bf7c13f0d6cb7e3045c58313f6994e5144b2fc ice: split ice_init_hw() out from ice_init_dev()
+41d605ae7b646a1964c213d6f9ac4aa6c7f82a17 ice: minor: rename goto labels from err to unroll
+b53fd02bf670ef3bc2f1e090fd4718bc4ef04342 ice: ice_probe: init ice_adapter after HW init
+9811bdb8ef5f8b2ec8ef5f9b399dc35f11e2e945 idpf: set completion tag for "empty" bufs associated with a packet
+9153bda5d8d7b3c5127bb3e83193683d48aeafa5 ice: fix PHY Clock Recovery availability check
+cfcb6506d846ee6cc4c35d90814f49b1fb3cfb4c ice: add recipe priority check in search
+7b9b4513f423a7b74097b8bb74a0f604b41f7bfd PCI: Add PCI_VDEVICE_SUB helper macro
+2b7559e4dcbbf45c94d1839a51759e152583c9cd ixgbevf: Add support for Intel(R) E610 device
+7ae4535ce48577816a3ac097fa1b7b3f24b6ba4a igb: Remove static qualifiers
+d6f79f1b07d2dfb242b634098fb7e41c14ecfd28 igb: Introduce igb_xdp_is_enabled()
+1924d0b3cfa32e7b8311d96a3a466e249a867801 igb: Introduce XSK data structures and helpers
+594539b461a5cc7825be7ba7301d498c9b121858 igb: Add XDP finalize and stats update functions
+dba70f16cb5d612b4de16a8bfd82b5ab0bb75cbf igb: Add AF_XDP zero-copy Rx support
+b7c15d6fdd3757b9131758ec1c741caf9a90f626 igb: Add AF_XDP zero-copy Tx support
+2226bd2412dbb0f6c8733f775d54c8ce21479e58 pldmfw: enable selected component update
+936865e252f6e8389f4c2c0ec57b4d36caa001f7 devlink: add devl guard
+673ed52d64801826333ef89ff9b891f12702c04f ice: support FW Recovery Mode
+360fdaa3947f6d694316f9cea752440ee96fd80b igb: Fix potential invalid memory access in igb_init_module()
+a867cd87ced5847f24185b1d515a6726873d3d27 igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
+d29ff734cbc4b7ed49627f1b1cf7cc581e2d73d0 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
+d76600c69bf554990fb13d91074b7c8f359fd1bf ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
+9c7c7db23dd8458eecf7db2751af7e36b41e0a55 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
+700fd26a58da09c13e6f9b3365873e853e8d6732 ice: use string choice helpers
+d790ee6a995cafc0fcf2b9f467d10da97012d1d1 igc: Link IRQs to NAPI instances
+423f0f441005e7b9b74b3d7bb1ceaa32f4259d3f igc: Link queues to NAPI instances
+6cfa38cff297d7fd4e1f1d7672e570fdb8f14b32 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
+0f49daac1f66725187425bba6404233b2b64b13c ixgbe: downgrade logging of unsupported VF API version to debug
+59640ad720fdad1af81e28ba020db30cf187fe12 ice: Fix VLAN pruning in switchdev mode
+bc35ffe07a533f4d613b5087cfb94b356ac17b0f ice: Fix NULL pointer dereference in switchdev
+afc45fbcf56c939c68c84ded4c3588a451925447 virtchnl: add support for enabling PTP on iAVF
+c2067b05decf04185f207656a4168d3ea555bc1d ice: support Rx timestamp on flex descriptor
+a1eed4735b0dd20343f10eebb0bafcdd83ce1860 virtchnl: add enumeration for the rxdid format
+510e530f07e2f1e8993228a177714b8dab0d1c12 iavf: add support for negotiating flexible RXDID format
+bf25adbd81b6ccf48e331e674157703ca27fe8a0 iavf: negotiate PTP capabilities
+acd05df9c86509143d55b948970c38c99b170f8c iavf: add initial framework for registering PTP clock
+3d5ae1136896395445dbb36e7a22b86c2e602344 iavf: add support for indirect access to PHC time
+cfd9a9a947d05651b9ef58b0b898237d6ab69f2d iavf: periodically cache PHC time
+15fc48535ca7f63f22bea78af2324059e2be1720 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+55cad37e80a4a5341db686729978d6bb902f38a0 iavf: define Rx descriptors as qwords
+c9203a401f5a30cc2518d3a8e7c284bd338d0f3a iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+aa929eac23c9cdea6389617a2a76cbbe5530f95b iavf: Implement checking DD desc field
+ff807350fc341715d9fe15275426000c389e57e2 iavf: handle set and get timestamps ops
+ccf02e52420782e7218837e21a0dc6d714861408 iavf: add support for Rx timestamps to hotpath
+16c1963e2c46e2f24074c5e83837760cef2f9575 idpf: Change function argument
+093a3a04569112117d3e61b445818494ad4d8041 idpf: rename vport_ctrl_lock
+d0f4bca93cb40eb736599186b95ae66ccc99cd17 idpf: Add init, reinit, and deinit control lock
+00591351f63466bd7b8fe51251a642cd1eacf143 idpf: add lock class key
+58f9448f474f7ef14c60084b2d0b545ac0c6f9e7 ixgbe: Correct BASE-BX10 compliance code
+47b5ce75b2e8ca6603dc3ada76c83ffe3a2ce2bd i40e: add ability to reset VF for Tx and Rx MDD events
+557c30274350f20d2803e3ade9536bc8c357125c intel/fm10k: Remove unused fm10k_iov_msg_mac_vlan_pf
+a3c1a3223a407c78830d9d9ba332a43424510b87 igc: Allow hot-swapping XDP program
+904669072d43eb438e59105c41ac010c00b7093c ice: fix max values for dpll pin phase adjust
+9e11d56a825f5e927039c285df38c22c20dcb757 idpf: add read memory barrier when checking descriptor done bit
 
---===============1576542671073684912==--
+--===============0884348955736668786==--
