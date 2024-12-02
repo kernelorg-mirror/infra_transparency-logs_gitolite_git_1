@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2860892788108327299=="
+Content-Type: multipart/mixed; boundary="===============7829623866628284509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 02 Dec 2024 15:20:52 -0000
-Message-Id: <173315285217.2042241.16780651456842344579@gitolite.kernel.org>
+Date: Mon, 02 Dec 2024 15:21:58 -0000
+Message-Id: <173315291895.2042799.786126509419498329@gitolite.kernel.org>
 
---===============2860892788108327299==
+--===============7829623866628284509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 1635e407a4a64d08a8517ac59ca14ad4fc785e75
-    new: 87a0d90fcd31c0f36da0332428c9e1a1e0f97432
-    log: revlist-1635e407a4a6-87a0d90fcd31.txt
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
+  - ref: refs/heads/next
+    old: c0baf6ead75d6db16798ae48a4ac38c3af4e9280
+    new: e0dbb300d318062177682ae8d3f8733be7333028
+    log: revlist-c0baf6ead75d-e0dbb300d318.txt
 
---===============2860892788108327299==
+--===============7829623866628284509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1635e407a4a6-87a0d90fcd31.txt
+Content-Disposition: attachment; filename=revlist-c0baf6ead75d-e0dbb300d318.txt
 
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
 0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
 873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
@@ -1052,6 +1038,17 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 7f0fa47ceebcff0e3591bb7e32a71a2cd7846149 mmc: sdhci-pci: Add DMI quirk for missing CD GPIO on Vexia Edu Atla 10 tablet
+fdfde5010189acf754b570bf0e4d7deeeb66fe65 mmc: core: Respect quirk_max_rate for non-UHS SDIO card
+87dbbfef60681cf3fcefb38f6242fd16b5dc0980 dt-bindings: mmc: marvell,xenon-sdhci: Simplify Armada 3700 if/then schema
+24dec2faca799468c9a45424a1423059e518f234 dt-bindings: mmc: atmel,sama5d2-sdhci: add microchip,sama7d65-sdhci
 87a0d90fcd31c0f36da0332428c9e1a1e0f97432 mmc: core: Further prevent card detect during shutdown
+5408a7dcce3e1a5812f9e005becacbce25f17d88 mmc: sdhci-esdhc-imx: enable 'SDHCI_QUIRK_NO_LED' quirk for S32G
+7e3c28a6e55a9447ab069a6a34217ca70c6ab87f mmc: core: Drop the MMC_RSP_R1_NO_CRC response
+702a8b93039efc1b2a25e3a473ffa8e3d72094d6 mmc: core: Introduce the MMC_RSP_R1B_NO_CRC response
+0ef76b9ae638079f91a0512a7aba61fa3ce6f525 mmc: mtk-sd: Add support for ignoring cmd response CRC
+27608828b2a1be0014432d390c728e3fe7b19d41 mmc: core: don't include 'pm_wakeup.h' directly
+94dfcc9b1f1a28f88179217f4109db2124383aac dt-bindings: Drop Bhupesh Sharma from maintainers
+7284797c5d2c9879028edc16073a544ba560310b mmc: bcm2835: add suspend/resume pm support
+e0dbb300d318062177682ae8d3f8733be7333028 mmc: Merge branch fixes into next
 
---===============2860892788108327299==--
+--===============7829623866628284509==--
