@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 02 Dec 2024 20:36:53 -0000
-Message-Id: <173317181376.2321012.2150490754006933299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 02 Dec 2024 20:46:42 -0000
+Message-Id: <173317240214.2328972.4615793072715704980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
-    new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
+  - ref: refs/heads/dt/linus
+    old: 61a6ba233fe1198e9eacc9ca1d1cbdb27f70cee5
+    new: 60bc447c85f80d3184c7ac327e1d29e0b0a11d46
     log: |
-         cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
+         60bc447c85f80d3184c7ac327e1d29e0b0a11d46 of: Add #address-cells/#size-cells in the device-tree root empty node
          
