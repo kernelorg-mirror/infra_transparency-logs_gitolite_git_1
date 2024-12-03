@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6510475539755374004=="
+Content-Type: multipart/mixed; boundary="===============2197956821299154202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 03 Dec 2024 10:56:30 -0000
-Message-Id: <173322339082.3087598.1137320193969168098@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 10:56:36 -0000
+Message-Id: <173322339675.3087833.6670940766155420595@gitolite.kernel.org>
 
---===============6510475539755374004==
+--===============2197956821299154202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
-    new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
-    log: revlist-bcc8eda6d349-cdd30ebb1b9f.txt
+  - ref: refs/tags/v6.12
+    old: 0000000000000000000000000000000000000000
+    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
+  - ref: refs/tags/v6.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: da1080d807252c8614048d7b630cb36c7e25cfb5
+  - ref: refs/tags/v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cbc4912199deab59fdbd830b115d81941d0add46
 
---===============6510475539755374004==
+--===============2197956821299154202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223418 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223423 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733223389-af96cd63425b45e9a49e9735ba2c4e4271850de4
+nonce 1733223394-1a5010176a439703697b91fd0e40ce0615f44602
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/driver-core-testing
+0000000000000000000000000000000000000000 06090c9b622a7e1f797e775db4c035e0d779b76e refs/tags/v6.12
+0000000000000000000000000000000000000000 da1080d807252c8614048d7b630cb36c7e25cfb5 refs/tags/v6.12-rc7
+0000000000000000000000000000000000000000 cbc4912199deab59fdbd830b115d81941d0add46 refs/tags/v6.13-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4/obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FSoP/iszdVObac1C3N5l1o2B
-jkVUWlal9GE/ahwVA/RzZkBd3szWMVPF7KvKUP5dCFtnhx8vQ2FVW86GtUVpvaNY
-ZYagSBSnE2fUnMtcAYjd2B1JvjeHqj3w+bLQNI0OeXwQRupgIXJsl6kLj73Td4ZE
-KVLsdlffvYwgE20Bs7VnWYFkbhUKOOe2ZhjjrfPx8TZpywdluQ9vULjc1lSji2u+
-n9Jv5PS0Zkvt0Ejw5Kg0EWkEt+YdlwDxcKpgD1Hsx9CZMPtRrxVK6fqKAEGt7Jpi
-L8NzIYOOhUS34wCQULJ9NtWipWqnYp1V9n03dQtj1YWKM6QWJZuV88KzB1uwdLSP
-9Xgw+KdqLCZ+Ic7wKS2l8gcLhvQ+Mttj0ioOIPpT5pjCvidk0KjC8pBYZ8RX5kKc
-gJwdlujApwup1YoO/R28/W+r3Y8EEjvvCIrLMAh+9bmI/wCHa4yz8sKSus1obtI8
-jei+c1RKJvO8c94rjWRAtANKjnmH1kFR8iroIIubrpBuK4rd/IanbR5ppj7WO1xA
-KkxrOc3gvgsrgj0K2jLbMDUTi/id3i/zHPZWovQf/KbVdhOe9COjX3MUyLSbyvI5
-C3DHxtuV4fejtw3cABSjS63dYbZKgGmJJeDSRUt/oOdy9J7WRhUJBjzIZDggIWrm
-9RM8BVp6qjv2cTnzzk48Bvip
-=+d1T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dJwQALKyqcdHZf7CZ06jKEEV
+eDKhyYNXNNkk4PabTL48IXxteSllKR30ks9sk1lYaUj5CKBh9j/4n57/XPYG4g50
+qd8aO3pKT9d1+XnuL64xMhIRAXOKIH4xAgqHRLkjpkZLYBRQNBcN44RrYfw82S5m
+sK13TxuNlzjuzOAr9vIZ5FJDKSDttJ3bL97G0dcgA9FbTk5o37j55oeM6VGKUTKJ
+FQ/ZwPmJIxt9MxW7SSQgjAWS7xhF1cVDZaJQjjUajX8IvDatmdnuFOOxQ0bQgfG1
+skHgAV/rKRBhh+AiWrllZTOmRbt2ol7jRskIpYpO7N1ADUMVPgstu6Nwgr1jOP25
+saYdj18rp8TxNXlVS/PtZ4mZ+vXpwxd2WNWKx8zXkQsy2SKhCNxph6C6fqrZZMJM
+X7jlBaiKsGXmJF4Ip6S7CH9MMblQChUo7NBYTJx3UI3LooZ2G6mKQiYZNtXyl8uo
+GBaB2hMiRouvl/oP2t/aSZ505dCn4eIICi4NrRL7ybLxKAu8XUE0nXMYyuX8kvvE
+RbzQMVY+gzPXRJBL/iBLh3UpkJgEPAwFGCvFNLkGovZPDjwtWldTDJySIdKma+Di
+j8QNvpgtbyDTNBLVuOFsOZgqDmfNLcO2tNQXwS/KGIun6qoBsUw3Z9LMeDx2P9vE
+W8MF7m54F6OavBqMIdIQIFp4
+=R0HM
 -----END PGP SIGNATURE-----
 
---===============6510475539755374004==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc8eda6d349-cdd30ebb1b9f.txt
-
-d9bb40544653cf039fe79225ec1d742183e2339a x86/cpu: Fix PPIN initialization
-f1d84b59cbb9547c243d93991acf187fdbe9fbe9 x86/mm: Carve out INVLPG inline asm for use by others
-c809b0d0e52d01c30066367b2952c4c4186b1047 x86/microcode/AMD: Flush patch buffer mapping after application
-be4ca6c53e66cb275cf0d71f32dac0c4606b9dc0 x86/Documentation: Update algo in init_size description of boot protocol
-ff6cdc407f4179748f4673c39b0921503199a0ad x86/CPU/AMD: Terminate the erratum_1386_microcode array
-12aaf67584cf19dc84615b7aba272fe642c35b8b irqchip/irq-mvebu-sei: Move misplaced select() callback to SEI CP domain
-f82e62d470cc990ebd9d691f931dd418e4e9cea9 irqchip/gicv3-its: Add workaround for hip09 ITS erratum 162100801
-cc47268cb4841c84d54f0ac73858986bcd515eb4 irqchip: Switch back to struct platform_driver::remove()
-81de291d86b704de1809cfb06672902d003cf3a3 of: dynamic: Add of_changeset_update_prop_string
-1fcc67e3a354865775355eafec1fb061a755c971 of: base: Add for_each_child_of_node_with_prefix()
-157ce8f381efe264933e9366db828d845bade3a1 i2c: Introduce OF component probe function
-897261149d255d03fc90bec6782e3835cacbfdde i2c: of-prober: Add simple helpers for regulator support
-39b415f84654892003cebb7c026b7daa3380610b i2c: of-prober: Add GPIO support to simple helpers
-3fc361af8ab0a96619ba0146a5f694f59ae3f4c2 platform/chrome: Introduce device tree hardware prober
-aac9e2afa807e862073e9536099a3184b0e936d2 arm64: dts: mediatek: mt8173-elm-hana: Mark touchscreens and trackpads as fail
-44b682694a0ca366bf15c26c3c3c16d26c9e9f6d i2c: Fix whitespace style issue
-f5807b0606da7ac7c1b74a386b22134ec7702d05 ntp: Remove invalid cast in time offset math
-0d40daa1c1369c2fef6a40f44640b2e5f3453daa of: base: Document prefix argument for of_get_next_child_with_prefix()
-4d17c25eaf5d8b95d70726e6946e8eb94619e139 delay: Fix ndelay() spuriously treated as udelay()
-caf4bdb558cbc9893524b0a15e6423ee6305cb0c MAINTAINERS: fix typo in I2C OF COMPONENT PROBER
-63dffecfba3eddcf67a8f76d80e0c141f93d44a5 posix-timers: Target group sigqueue to current task only if not exiting
-f69e63756f7822fcdad8a34f9967e8b243e883ee printf: Remove unused 'bprintf'
-9022ed0e7e65734d83a0648648589b9fbea8e8c9 strscpy: write destination buffer only once
-58ac609b99db0b03f3b09299c8fa3a76face3370 Merge tag 'x86_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-63f4993b792efe9ccde7302184d0184d2c52a9b7 Merge tag 'irq_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
-cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
-
---===============6510475539755374004==--
+--===============2197956821299154202==--
