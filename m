@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 03 Dec 2024 21:52:22 -0000
-Message-Id: <173326274216.3660967.13762203326591949419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 03 Dec 2024 21:56:19 -0000
+Message-Id: <173326297982.3664901.6523340057499821929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/tmpfs-fixes
-    old: 94b0c1189d074f99aeb392529fafe02c0e74e4be
-    new: 67423a3dffdc5dfd79704ba470bf57be2978b88c
+  - ref: refs/heads/perf-tools
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 88a6e2f67cc94f751a74409ab4c21e5fc8ea6757
     log: |
-         2cd7cdb7f37a64e5349530f097f1fe73916a943b libfs: Replace simple_offset end-of-directory detection
-         67423a3dffdc5dfd79704ba470bf57be2978b88c libfs: Use d_children list to iterate simple_offset directories
+         23c44f6c83257923b179461694edcf62749bedd5 perf tools: Fix build-id event recording
+         f54cd8f43f55c0274c5b51509aff39675639c2e1 perf test: Don't signal all processes on system when interrupting tests
+         88a6e2f67cc94f751a74409ab4c21e5fc8ea6757 perf machine: Initialize machine->env to address a segfault
          
