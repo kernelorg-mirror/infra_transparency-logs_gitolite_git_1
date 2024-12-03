@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 03 Dec 2024 21:56:19 -0000
-Message-Id: <173326297982.3664901.6523340057499821929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Dec 2024 22:03:54 -0000
+Message-Id: <173326343454.3670165.14009752807477899958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/perf-tools
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 88a6e2f67cc94f751a74409ab4c21e5fc8ea6757
+  - ref: refs/heads/asoc-6.14
+    old: 31823f27f84bfa06be20f98ec9be63a671307d63
+    new: c41da3a620e611b16b62a5cf93168caf01252fc4
     log: |
-         23c44f6c83257923b179461694edcf62749bedd5 perf tools: Fix build-id event recording
-         f54cd8f43f55c0274c5b51509aff39675639c2e1 perf test: Don't signal all processes on system when interrupting tests
-         88a6e2f67cc94f751a74409ab4c21e5fc8ea6757 perf machine: Initialize machine->env to address a segfault
+         e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
+         cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
+         c41da3a620e611b16b62a5cf93168caf01252fc4 ASoC: Merge up origin to resolve interaction with manline symbol changes
          
