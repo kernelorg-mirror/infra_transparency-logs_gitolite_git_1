@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3277515799800757179=="
+Content-Type: multipart/mixed; boundary="===============8853852957671048579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 Dec 2024 17:50:01 -0000
-Message-Id: <173324820127.3453718.10564144977477118019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 03 Dec 2024 17:50:12 -0000
+Message-Id: <173324821214.3455411.15829765793996196427@gitolite.kernel.org>
 
---===============3277515799800757179==
+--===============8853852957671048579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 25cd677636d316669871947639430615ff564890
-    new: 31823f27f84bfa06be20f98ec9be63a671307d63
-    log: revlist-25cd677636d3-31823f27f84b.txt
+  - ref: refs/heads/for-next
+    old: f48c1eb19268bddb6f58412b0f4cc9d6885e1f4b
+    new: 437e6342be1c9230f3a94c8e97f9f3ff68495f21
+    log: revlist-f48c1eb19268-437e6342be1c.txt
 
---===============3277515799800757179==
+--===============8853852957671048579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733248228 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733248198-d1d45086439f3b9fa5d1255d686c5450e1dd75f9
-
-25cd677636d316669871947639430615ff564890 31823f27f84bfa06be20f98ec9be63a671307d63 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdPROQACgkQJNaLcl1U
-h9AjgAf9HeDJB0obKt9k5aj+kTLnF4renuWLiubvKcwKuCI4eYtRN3pBzG8HARPm
-3G5l+kgJ3ax0oOF952+aHGML/PvLYlWRQXIFoCZsRnM97RybP+xz58pz5lKCyixS
-GnRNHZ9XYnhl74qBik6Xx5VSF2sa8aP1vmPGODoYaP6aZ/VoMPxgUaLcv/ZUs+zr
-Bu8Oo0HwUnPUvbrtcwcaXqBg73UFueh/o80pqFOKLAR0El49zOrcSZlR8NxsmBfv
-cxifAwD89DTWSO0SfOK0Atokv82V1tgEcPWzuErIkXRSwXldI9RUn7t8fusuLUPW
-Ezuqf6bIoF+ytgrT3V7iilcCZFzTPQ==
-=rYfh
------END PGP SIGNATURE-----
-
---===============3277515799800757179==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25cd677636d3-31823f27f84b.txt
+Content-Disposition: attachment; filename=revlist-f48c1eb19268-437e6342be1c.txt
 
 5a8b4785cddabfad348a96ca38eb0c3d735202df ASoC: fsl_xcvr: Use regmap for PHY and PLL registers
 e6a9750a346b103bd8ab2bf25be76a719d8061b2 ASoC: fsl_xcvr: Add suspend and resume support
@@ -67,5 +42,6 @@ f60646d9c3bd5b390728ed1a1caa9ded53d47afc ASoC: SDCA: Use *-y for Makefile
 d59f0196e990e5a1bb474eabf146f25cb8aea33d ASoC: Correct *-objs usages
 9d6aacda3ad546048e02d83e5831e0b415382518 Add support for codec of F1C100s
 31823f27f84bfa06be20f98ec9be63a671307d63 ASoC: Splitting cs35l56 SoundWire DAI into separate
+437e6342be1c9230f3a94c8e97f9f3ff68495f21 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
 
---===============3277515799800757179==--
+--===============8853852957671048579==--
