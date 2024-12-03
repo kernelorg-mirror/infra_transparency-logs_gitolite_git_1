@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6008251596426084049=="
+Content-Type: multipart/mixed; boundary="===============5915378606574551166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 03 Dec 2024 07:40:49 -0000
-Message-Id: <173321164909.2861769.16179501931677334466@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 07:42:37 -0000
+Message-Id: <173321175769.2862682.9872848001449566771@gitolite.kernel.org>
 
---===============6008251596426084049==
+--===============5915378606574551166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: adc218676eef25575469234709c2d87185ca223a
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-adc218676eef-40384c840ea1.txt
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
+  - ref: refs/heads/dev-test
+    old: 21c8a16b73491166a498634e285484d7112003f8
+    new: 7fe57ae70902e808553eb2900b551c39c2e3644e
+    log: revlist-21c8a16b7349-7fe57ae70902.txt
 
---===============6008251596426084049==
+--===============5915378606574551166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adc218676eef-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-21c8a16b7349-7fe57ae70902.txt
 
-4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1053,5 +1048,7 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+1af8c6b9a11271cb2af3911f679366126519b0c3 erofs: fix rare pcluster memory leak after unmounting
+7fe57ae70902e808553eb2900b551c39c2e3644e erofs: fix PSI memstall accounting
 
---===============6008251596426084049==--
+--===============5915378606574551166==--
