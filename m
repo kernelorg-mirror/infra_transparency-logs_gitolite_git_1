@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Tue, 03 Dec 2024 21:13:18 -0000
-Message-Id: <173326039822.3626684.13863285140889365273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 03 Dec 2024 21:18:58 -0000
+Message-Id: <173326073886.3631246.17870669595256731804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/turbostat
-    old: 86d237734091201d2ab2c1d2e1063893621c770f
-    new: 8e5eab8775a3775703b3165057d37f131c1d70d9
+  - ref: refs/heads/for-next/fixes
+    old: 49ccf2c3cafb5774a4562d61294afcf492bed487
+    new: 92230596252ab6155f2d7f7ff9fa61425800a13f
     log: |
-         e8a99af68c068865dbac7f3330e97bf8e96edf33 tools/power turbostat: Add initial support for PantherLake
-         6b47ed23e2f1bc2c177da47437970e6208ac9ea0 tools/power turbostat: Add initial support for ClearwaterForest
-         9e47f8adb053b69e2e8310551e6fd5156704cef4 tools/power turbostat: update turbostat(8)
-         4133be39e216130a86382fb5cfbaf6851a6f7a45 tools/power turbostat: Exit on unsupported Intel models
-         48c62ba1b407140229e92f5cfae6ae113fc4af8e tools/power turbostat: Exit on unsupported Vendors
-         cc63f89ef9db70f74c563317d36028bb5e6196a1 tools/power turbostat: Improve --help output
-         3d94026af328d3d355d15c1d7fe73278f77c6a42 tools/power turbostat: Introduce --force parameter
-         8e5eab8775a3775703b3165057d37f131c1d70d9 tools/power turbostat: version 24.12.03
+         56a708742a8bf127eb66798bfc9c9516c61f9930 arm64: mm: Fix zone_dma_limit calculation
+         8d09e2d569f6e34301387f24433b42062517ca85 arm64: patching: avoid early page_to_phys()
+         d44679fb954ffea961036ed1aeb7d65035f78489 drivers/virt: pkvm: Don't fail ioremap() call if MMIO_GUARD fails
+         92230596252ab6155f2d7f7ff9fa61425800a13f MAINTAINERS: Add CCA and pKVM CoCO guest support to the ARM64 entry
          
