@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5647581092080325938=="
+Content-Type: multipart/mixed; boundary="===============3879484511049949037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Dec 2024 18:11:19 -0000
-Message-Id: <173324947997.3472392.17468117498266742828@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 18:11:26 -0000
+Message-Id: <173324948635.3472530.10476734238864896991@gitolite.kernel.org>
 
---===============5647581092080325938==
+--===============3879484511049949037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 28866d6e84b8d36a76b2cde221391aed1294e5cd
-    new: af8edaeddbc52e53207d859c912b017fd9a77629
-    log: revlist-28866d6e84b8-af8edaeddbc5.txt
+    new: 0566f83d206c7a864abcd741fe39d6e0ae5eef29
+    log: revlist-28866d6e84b8-0566f83d206c.txt
 
---===============5647581092080325938==
+--===============3879484511049949037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28866d6e84b8-af8edaeddbc5.txt
+Content-Disposition: attachment; filename=revlist-28866d6e84b8-0566f83d206c.txt
 
 ee1dfbdd8b4b6de85e96ae2059dc9c1bdb6b49b5 can: dev: can_set_termination(): allow sleeping GPIOs
 889b2ae9139a87b3390f7003cb1bb3d65bf90a26 can: gs_usb: add usb endpoint address detection at driver probe step
@@ -54,5 +54,14 @@ ccb989e4d1efe0dd81b28c437443532d80d9ecee net: phy: microchip: Reset LAN88xx PHY 
 7a0ea70da56ee8c2716d0b79e9959d3c47efab62 net/qed: allow old cards not supporting "num_images" to work
 48327566769a6ff2e873b6bf075392bd756625ca rtnetlink: fix double call of rtnl_link_get_net_ifla()
 af8edaeddbc52e53207d859c912b017fd9a77629 net: hsr: must allocate more bytes for RedBox support
+01fd68e54794fb1e1fe95be38facf9bbafee9ca3 ice: fix PHY Clock Recovery availability check
+3214fae85e8336fe13e20cf78fc9b6a668bdedff ice: fix PHY timestamp extraction for ETH56G
+9ee87d2b21990f0bc590da9dff9258e9a8895cb3 ice: Fix NULL pointer dereference in switchdev
+761e0be2888a931465e0d7bbeecce797f9c311a3 ice: Fix VLAN pruning in switchdev mode
+4c69c77aafe74cf755af55070584b643e5c4e4d8 idpf: set completion tag for "empty" bufs associated with a packet
+d0725312adf5a803de8f621bd1b12ba7a6464a29 ixgbevf: stop attempting IPSEC offload on Mailbox API 1.5
+15915b43a7fb938934bb7fc4290127218859d795 ixgbe: downgrade logging of unsupported VF API version to debug
+f72ce14b231f7bf06088e4e50f1875f1e35f79d7 ixgbe: Correct BASE-BX10 compliance code
+0566f83d206c7a864abcd741fe39d6e0ae5eef29 igb: Fix potential invalid memory access in igb_init_module()
 
---===============5647581092080325938==--
+--===============3879484511049949037==--
