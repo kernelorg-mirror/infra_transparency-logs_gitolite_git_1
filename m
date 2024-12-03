@@ -1,31 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6995562664050456502=="
+Content-Type: multipart/mixed; boundary="===============0852463921254072084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 03 Dec 2024 19:40:17 -0000
-Message-Id: <173325481772.3551045.10438325743734077788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 03 Dec 2024 19:40:23 -0000
+Message-Id: <173325482358.3551237.9965275053041474317@gitolite.kernel.org>
 
---===============6995562664050456502==
+--===============0852463921254072084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: a0d6ec6575fce400e976af1dd9223823251775e9
-    new: 1694dea95b02eff1a64c893ffee4626df533b2ab
-    log: revlist-a0d6ec6575fc-1694dea95b02.txt
+  - ref: refs/heads/misc-base
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============6995562664050456502==
+--===============0852463921254072084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0d6ec6575fc-1694dea95b02.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
+0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
+873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
+82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
+65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
+a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
+b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
+9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
 d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
 390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
 9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -1028,27 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-b65c6f8cff745ca23c68cb5c4b633001df7e0d34 staging: iio: ad9834: Correct phase range check
-1b745f0bd3ad22ebcfb3beeba8af55369df7280e staging: iio: ad9832: Correct phase range check
-ff884ef2a220164d410eb9ede2d77753ae167c8e iio: adc: ad7124: Disable all channels at probe time
-3afe3cafcd869a2c6b3c28bd884520117b42db3f iio: test : check null return of kunit_kmalloc in iio_rescale_test_scale
-c31686b87a2f11b80ed8a19957385e3eafb053ea iio: gyro: fxas21002c: Fix missing data update in trigger handler
-a42452bd2b04a24c0c92cd301b6052057617b78e iio: imu: inv_icm42600: fix spi burst write not supported
-6a63b3dd273ece305aab2041508e53a31ef766c5 iio: imu: inv_icm42600: fix timestamps after suspend if sensor is on
-24cdda32c334a892f592674083ef5d72ff84adb3 iio: adc: ad4695: fix buffered read, single sample timings
-f978b7e9fa3e6fcdfb05be2406892ef94a6e7f2f iio: adc: stm32-dfsdm: handle label as an optional property
-3f49850e8dfec732ed10a771fd4916c04e8c3998 iio: adc: ti-ads1298: Add NULL check in ads1298_init
-4e122c07cbdec24e3ac985c7270dc47508e6ca82 dt-bindings: iio: st-sensors: Re-add IIS2MDC magnetometer
-f4cbbf4df686a559bcf43368d7c573d1d6cb20fa iio: test: Fix GTS test config
-41ff5b983f3270c384b4de7b015bd01239b599ee iio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer
-5063ddc13ef9b659637a4968aa1f4496febbe313 iio: adc: ti-ads8688: fix information leak in triggered buffer
-b8a962b21a4d96e89599db0c199ea99709935eb6 iio: light: bh1745: fix information leak in triggered buffer
-ed635f5ebb53887ab1e81c0ede93b8057b9aeeae iio: light: vcnl4035: fix information leak in triggered buffer
-b5ddbe87fd39ba35381aa97de2e27c3dcfd4282b iio: imu: kmx61: fix information leak in triggered buffer
-40ee0d800e57ae029b66c991ab2362f6b9d75520 iio: adc: rockchip_saradc: fix information leak in triggered buffer
-8d023abcf2123eaab3b9e59660734ccfe1be59dc iio: pressure: zpa2326: fix information leak in triggered buffer
-84fdf8eef9f628d75822c43f459eb2a88b34a664 iio: adc: ti-ads1119: fix information leak in triggered buffer
-04db9985122c399260f90ef49d25fe0c6252746c iio: adc: ti-ads124s08: Use gpiod_set_value_cansleep()
-1694dea95b02eff1a64c893ffee4626df533b2ab iio: adc: ad7173: fix using shared static info struct
 
---===============6995562664050456502==--
+--===============0852463921254072084==--
