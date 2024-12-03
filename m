@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 03 Dec 2024 02:17:57 -0000
-Message-Id: <173319227778.2603998.3545417600789478826@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 02:20:54 -0000
+Message-Id: <173319245434.2607571.8343621471105543131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: f64c431c37b53c89b93b90ec60374555e1571e7b
-    new: 9482077c06ff9d7c886ef52a194b09a43c2722a9
+  - ref: refs/heads/dev
+    old: 654e8b8a8f1a87b0746ff47db00dec1afc05fbc9
+    new: 80156068eb4980342c0ad3ee47ac7261acce5caf
     log: |
-         a4a24fda82386304ef65af8cb071403ac9181676 erofs-utils: lib: fix user-after-free in xattr.c
-         9482077c06ff9d7c886ef52a194b09a43c2722a9 erofs-utils: lib: drop prefix_sha256 digests
+         c15004f5d417670aec191d07afb7c28bc69e7eb7 erofs-utils: fix `Not a directory` error for incremental builds
+         c8e6407ed8b1d71e74a4d7187c525b43a0ab2133 erofs-utils: lib: clean up zmap.c
+         889aa26c25c72495c1c00d23e108ca78dc1906da erofs-utils: lib: clean up z_erofs_load_full_lcluster()
+         ee7d3dc1dd95a6f832d96c39fab65407963f1123 erofs-utils: avoid silent corruption caused by `c_root_xattr_isize`
+         80156068eb4980342c0ad3ee47ac7261acce5caf erofs-utils: rebuild: set the appropriate `dev` field for dirs
          
