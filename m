@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Tue, 03 Dec 2024 14:07:35 -0000
-Message-Id: <173323485518.3252272.5091754554111048421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 03 Dec 2024 14:07:48 -0000
+Message-Id: <173323486896.3252531.1734539779953748735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: clrkwllms
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/v6.6-rt-next
+  - ref: refs/heads/cpuidle/polling-staging
     old: 0000000000000000000000000000000000000000
-    new: 9ca618d07190e9f502b2c0cdcecdf14b118c6856
+    new: ad8411aae6655a718dee48379459a4faa0cb39c6
