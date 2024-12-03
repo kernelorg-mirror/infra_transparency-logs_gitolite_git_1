@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2832208328522075651=="
+Content-Type: multipart/mixed; boundary="===============5389825049075716829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 03 Dec 2024 10:49:49 -0000
-Message-Id: <173322298913.3079415.660894167813156247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Dec 2024 10:50:32 -0000
+Message-Id: <173322303206.3081485.9900357849752090618@gitolite.kernel.org>
 
---===============2832208328522075651==
+--===============5389825049075716829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 819e0f1e58e0ba3800cd9eb96b2a39e44e49df97
+  - ref: refs/heads/master
+    old: 680e2f2de86ae60d44585a19c34d0cd99da3d30a
+    new: 0f901ec8d2aa17d92f09c49641dec51ca6197fb1
     log: |
-         2e3dbf938656986cce73ac4083500d0bcfbffe24 wifi: nl80211: fix NL80211_ATTR_MLO_LINK_ID off-by-one
-         49dba1ded8dd5a6a12748631403240b2ab245c34 wifi: mac80211: fix mbss changed flags corruption on 32 bit systems
-         496db69fd860570145f7c266b31f3af85fca5b00 wifi: mac80211: init cnt before accessing elem in ieee80211_copy_mbssid_beacon
-         b5c32ff6a3a38c74facdd1fe34c0d709a55527fd wifi: cfg80211: clear link ID from bitmap during link delete after clean up
-         220bf000530f9b1114fa2a1022a871c7ce8a0b38 wifi: mac80211: wake the queues in case of failure in resume
-         11ac0d7c3b5ba58232fb7dacb54371cbe75ec183 wifi: mac80211: fix a queue stall in certain cases of CSA
-         52cebabb1264a51c80b2461d52e71600c1c58df2 wifi: mac80211: fix vif addr when switching from monitor to station
-         819e0f1e58e0ba3800cd9eb96b2a39e44e49df97 wifi: mac80211: fix station NSS capability initialization order
+         0f901ec8d2aa17d92f09c49641dec51ca6197fb1 6.1-stable patches
          
 
---===============2832208328522075651==
+--===============5389825049075716829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1733222991 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1733222962-33c245a73a9a5ab8f166852c90ffa406dc315e2f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223059 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1733223029-e804c789d1a651f1be31d5299f907aab80acde0d
 
-40384c840ea1944d7c5a392e8975ed088ecf0b37 819e0f1e58e0ba3800cd9eb96b2a39e44e49df97 refs/heads/main
+680e2f2de86ae60d44585a19c34d0cd99da3d30a 0f901ec8d2aa17d92f09c49641dec51ca6197fb1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmdO4k8ACgkQ10qiO8sP
-aAAFvRAAj2VWN1p0d+jQc7R3Bg0V2p/7obxKr2n/7HYkt3IL1Z2Ce/MeRs9uxQyH
-xPS99fd7GqVApL8L1P0SiZMUtuIHSQ0mHHYGpZzKs1XgF1HVzkzn/w8PvvzKvxRh
-jcOYRZpPqcWE8l17wlxkf7bPV4MD3fvA4TJXq70I7D0fl6sGShUqwQ6ufWRGP7zl
-fw/0yX/xhIw6sc8dnfZrqrUU+IXw8SnLRrkLBrbChluKWqTnDJ/b1TIhA8OIVXq4
-g+7ropaJQZ7sGZPvG03Orho5bG5azbq6o973DOLvr7vAILxli3Ln0eZudRnKfVXk
-M7d29gLRDdLSTJaYfW4RH2ZaHjj0SjYPBVYhXJElzhm1mYO65i/Univ4NWWYBkPE
-Yd0MOwNd4/2JRLT+kIEgo6ZmZw7efb/PIhWTudtPf4N/kK6pEx6Gx2txyGYqsRYr
-xLwWokWPUjcP9wV97utEAeHaRns65qpiX0TP1snCyrGWWbx9lpkQAnwoRQXCS4TV
-5NAYjZImT36wH45Vcb6yp8T/Mav+F9jJJnpvcUOy5Gmh05U1o29q9kQP54UgUBCY
-GlAkZgwVXK/MGTyG5D8vepDRi0WZAve9fVqdYGGsRUjQWK0b3MW/pGxso46tWLNP
-K3mF7R3+G9KHv38cVMdu5a6Lbm0EQZRzHB+mBAHIOPBV7F2ok48=
-=QuKn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4pMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BlgP/0cJPjdWhFlT4cIoOZOt
+S1WwAiD8dy75ySqMyj81HmTZ5F6sn6q5GgNjaR16IXtD7cS6N3logyti6LKSr8CA
+I6tCwaDO8sftDoNfsRbXSgnkR3VcGACJrlvMIieJ6vvP8lcXLVZWKcXrKyTXMWFI
+qWKbPQqZJ1UR22crE419cSb1vmnswH+5imfHnR5XNz4OojybFmUo7FeIiS+Yrlbp
+npF89JpOpdRHSAKks6/C/HKA6GnOUCbV2bKc5RR61wq6v54f6J1eNWIwe0PBXD5n
+FlC1PtCV+D5f8y1q7e4Hh/q2a5yzdWZCmDr/z29sn/Z7An7SZXJCPb6JMPmRh3l3
+wBh0e/gkL6UeVOJA3TquAgRsyX1xsqpX1WGh7XUTdwrL4j3ADAs85bB3vac3vvr2
+CK1I/TjGq9Lk3tDcmGk7Eo8mkP535EU632izxLYRRn6ZAp8g8RAzBTmNrduFQHzg
+Cziu7g7/7XtDuKVnWCYvfXVswi88gzNoUr0GWjOL163EZXssn8sjAajXu9U6CFmE
+jAyWis4igNS048PIbl/RhB6sZhxJYV32klprjKEpMr4kCCsibgOfY0Tt+U5Ehefo
+gTgue93jUK1dnduLnfd3lqlIaRz1UJtYe+UQizCYM3xcuJUFaqYkviYljJzdzHyZ
+4zR/Ptx7le9J4TutZAPfQVm1
+=Q1bp
 -----END PGP SIGNATURE-----
 
---===============2832208328522075651==--
+--===============5389825049075716829==--
