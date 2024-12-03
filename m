@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 03 Dec 2024 19:35:02 -0000
-Message-Id: <173325450236.3544882.9636178980843601946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 03 Dec 2024 19:38:19 -0000
+Message-Id: <173325469992.3547431.14582947077642268988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/for-later
-    old: fad9d40fb7fba9c5239342392db0bd06bd14fcc3
-    new: 476f08fd5511e3028cbf3e85943c838de85c5ec1
-    log: |
-         476f08fd5511e3028cbf3e85943c838de85c5ec1 gfs2: Flush glock work queue on inode lookup / create
-         
+  - ref: refs/heads/for-netdev-nf-24-11-28
+    old: e4e12f81c14c8c0c5a2920587ad2619abf1b8e30
+    new: 0000000000000000000000000000000000000000
