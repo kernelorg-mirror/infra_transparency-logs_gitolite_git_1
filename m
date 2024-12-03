@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 03 Dec 2024 04:11:06 -0000
-Message-Id: <173319906647.2695731.5201121520813622640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 03 Dec 2024 04:35:56 -0000
+Message-Id: <173320055691.2715052.17058402360031841666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-6.14
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 9986ce65bebb9a07a080d1e6ce04926b4c49ff17
+  - ref: refs/heads/dev
+    old: 9861a4952a3a33d834b9fa5e5e8075cb9531dd99
+    new: 48ca997e8632db65609dcc6a715207a1b6dded57
     log: |
-         9986ce65bebb9a07a080d1e6ce04926b4c49ff17 ata: Constify struct pci_device_id
+         13e3224fa73ec6c7dfeda04b2741c95787196588 rcutorture: Include grace-period sequence numbers in failure/close-call
+         57ae813c7dd59fab5603a6f624d6ae2c891c9998 rcutorture: Expand failure/close-call grace-period output to 16 bits
+         48ca997e8632db65609dcc6a715207a1b6dded57 rcu: Trace expedited grace-period numbers in hexadecimal
          
