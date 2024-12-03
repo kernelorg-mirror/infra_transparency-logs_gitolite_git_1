@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1048268959450496311=="
+Content-Type: multipart/mixed; boundary="===============6510475539755374004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 03 Dec 2024 10:56:27 -0000
-Message-Id: <173322338728.3087406.8576855361176352661@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 10:56:30 -0000
+Message-Id: <173322339082.3087598.1137320193969168098@gitolite.kernel.org>
 
---===============1048268959450496311==
+--===============6510475539755374004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
     log: revlist-bcc8eda6d349-cdd30ebb1b9f.txt
 
---===============1048268959450496311==
+--===============6510475539755374004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223415 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223418 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733223386-09ebd6fd7df77b009ebeac76727576e8c1f01a90
+nonce 1733223389-af96cd63425b45e9a49e9735ba2c4e4271850de4
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/driver-core-next
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4/cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J/4QAJFLZmGb7nrMsBsQdl+a
-7z45bRYPKm3ctx2ZQqHTY2Zs7z4DVyAHfpRQnMe6dW260Q9XaTe0uMl4PDx/iKHe
-KSjJZaIwY65VIER01LXJFXfPlZ6+nmJbnZJanB9fN8m3m+2Kwk7BWUXPBH1aDTtg
-6E44a4H87GXwDHdy3a1ReuCyaIHNdlGsrdOiQEeBYAzfrgZgOXG4ksHPdMhNP8mV
-mkWQPDW1gUUYtKRyGJYtRdgf4o/8Qqkke/vbbPMM+nPnZfx5W7m/miih/Lhmzd7V
-wc0w2rLoIaAsH01BRXg5tF1EVML3PccgFAE9HXyH5Y9/IMsOgcEVKVf31S+tABQI
-CQzD0t4aKcINpIrWCK2yfF4tasW+Mij+BsFgaC3cl/FjIht9OYj0wPpNtAoVu+10
-bdCsKL3HvvJBBcgVo4/Usx8Rw+G4eP1tlsqLxfBWdE7FCbyFph/ChrligiNckPVK
-3LJOdvSMnXoNEwWu2jKSumDKGyKBBR28K7w48CAQ6HXOvNX+lK+SB0trxrzDPC4p
-QWTK3fylYGqFTldS7Fnp04tqTYG1OdWgSrebrQVpF6iNUH0IO/3Iso9qkI/lEunO
-8xr2vQRFBiGsoc1GXZ/2YbwIw0OfIjsS5c0p6/gQj5BENWg0SkhZSBNDbqp830R5
-Gf66nXOgIewK9ds+vYTseTir
-=Kkc1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4/obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FSoP/iszdVObac1C3N5l1o2B
+jkVUWlal9GE/ahwVA/RzZkBd3szWMVPF7KvKUP5dCFtnhx8vQ2FVW86GtUVpvaNY
+ZYagSBSnE2fUnMtcAYjd2B1JvjeHqj3w+bLQNI0OeXwQRupgIXJsl6kLj73Td4ZE
+KVLsdlffvYwgE20Bs7VnWYFkbhUKOOe2ZhjjrfPx8TZpywdluQ9vULjc1lSji2u+
+n9Jv5PS0Zkvt0Ejw5Kg0EWkEt+YdlwDxcKpgD1Hsx9CZMPtRrxVK6fqKAEGt7Jpi
+L8NzIYOOhUS34wCQULJ9NtWipWqnYp1V9n03dQtj1YWKM6QWJZuV88KzB1uwdLSP
+9Xgw+KdqLCZ+Ic7wKS2l8gcLhvQ+Mttj0ioOIPpT5pjCvidk0KjC8pBYZ8RX5kKc
+gJwdlujApwup1YoO/R28/W+r3Y8EEjvvCIrLMAh+9bmI/wCHa4yz8sKSus1obtI8
+jei+c1RKJvO8c94rjWRAtANKjnmH1kFR8iroIIubrpBuK4rd/IanbR5ppj7WO1xA
+KkxrOc3gvgsrgj0K2jLbMDUTi/id3i/zHPZWovQf/KbVdhOe9COjX3MUyLSbyvI5
+C3DHxtuV4fejtw3cABSjS63dYbZKgGmJJeDSRUt/oOdy9J7WRhUJBjzIZDggIWrm
+9RM8BVp6qjv2cTnzzk48Bvip
+=+d1T
 -----END PGP SIGNATURE-----
 
---===============1048268959450496311==
+--===============6510475539755374004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -89,4 +89,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
 
---===============1048268959450496311==--
+--===============6510475539755374004==--
