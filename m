@@ -1,79 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2425290896160910041=="
+Content-Type: multipart/mixed; boundary="===============5130355053623649744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 03 Dec 2024 19:40:29 -0000
-Message-Id: <173325482975.3551503.4606211069194030850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 03 Dec 2024 19:40:59 -0000
+Message-Id: <173325485915.3552079.17388132841827792722@gitolite.kernel.org>
 
---===============2425290896160910041==
+--===============5130355053623649744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/misc
-    old: 8e3b6345d113cc917e64b0349dc486b5d8f55e70
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-8e3b6345d113-40384c840ea1.txt
+  - ref: refs/heads/testing
+    old: 4ecd1edf4994bc5385609c6ea9e599b4ee958706
+    new: 05ff9c9c53c643551fe08fe52bd714310b9afc2e
+    log: revlist-4ecd1edf4994-05ff9c9c53c6.txt
 
---===============2425290896160910041==
+--===============5130355053623649744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e3b6345d113-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-4ecd1edf4994-05ff9c9c53c6.txt
 
-6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
-4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
-82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
-65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
-a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
-b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
-9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
-d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
-390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
-9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-359bfdc3c99191aa4266ad582f6bbc182841d11e Merge branch 'for-6.13/corsair' into for-linus
-22380b5f03ae246c02abe361d0a075cd674ca3fe Merge branch 'for-6.13/core' into for-linus
-ffca1be9b4b3a72cf0c2796413101ba425225f48 Merge branch 'for-6.13/bug-on-to-warn-on' into for-linus
-903796855b6152c479bae07dcebded77897f9e1c Merge branch 'for-6.13/bpf' into for-linus
-9c0ba14828d64744ccd195c610594ba254a1a9ab blk-settings: round down io_opt to physical_block_size
-7643155dce1428fd63e47d7afe8bf3dbca20cc25 jump_label: rust: pass a mut ptr to `static_key_count`
-7e86490c5dee5c41a55f32d0dc34269e200e6909 pinctrl: k210: Undef K210_PC_DEFAULT
-c6d64479d6093a5c3d709d4cc992a5344877cc3c Merge tag 'pull-statx' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-ac6f0825e582f2216a582c9edf0cee7bfe347ba6 pinctrl: airoha: Use unsigned long for bit search
-5bf99baefb3ebebb13128ebfe58ebc6add5afd43 dt-bindings: net: renesas,ether: Drop undocumented "micrel,led-mode"
-3e7447ab48d101353c3e5be29e6ff0d322fa5a95 Merge tag 'ext4_for_linus-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-c14a8a4c04c5859322eb5801db662b56b2294f67 Merge tag 'for-6.13-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-3d1b536c13f7cd966aa660d1730855b26d01c9ae Merge tag 'ata-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-77a0cfafa9af9c0d5b43534eb90d530c189edca1 Merge tag 'for-6.13/block-20241118' of git://git.kernel.dk/linux
-8350142a4b4cedebfa76cd4cc6e5a7ba6a330629 Merge tag 'for-6.13/io_uring-20241118' of git://git.kernel.dk/linux
-b9376c7e42ca22644085332fd450b153cd4e9bde nfsd: new tracepoint for after op_func in compound processing
-2dc84a75229c37e350dd1a83aaf4a63dc2ba86f3 lockd: Fix comment about NLMv3 backwards compatibility
-600020927b004f027e737e6bf57c450d48f2405e nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
-bb4f07f2409c26c01e97e6f9b432545f353e3b66 nfsd: Fix NFSD_MAY_BYPASS_GSS and NFSD_MAY_BYPASS_GSS_ON_ROOT
-a32442f6ca32cf402a76856d5e713bd742481ba2 xdrgen: Add a utility for extracting XDR from RFCs
-ed9887b876c957c9c9a0486cf0edf7c964e99cb9 nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
-6640556b0c80edc66d6f50abe53f00311a873536 NFSD: Replace use of NFSD_MAY_LOCK in nfsd4_lock()
 4cc9b9f2bf4dfe13fe573da978e626e2248df388 nfsd: refine and rename NFSD_MAY_LOCK
 d08bf5ea649c045175c191609ccd52644b85985f NFSD: Remove dead code in nfsd4_create_session()
 da4f777e623936d4d93427b69fca37baefd62669 NFSD: Remove a never-true comparison
@@ -383,6 +335,7 @@ e7619f2a2f8f9b10feb784ec6b8ea5320ad3b97e KVM: arm64: vgic: Kill VGIC_MAX_PRIVATE
 0f3a0f23f5621b9a5a28c9235c950caf6e2012d5 KVM: arm64: Mark set_sysreg_masks() as inline to avoid build failure
 54bbee190d42166209185d89070c58a343bf514b KVM: arm64: Ignore PMCNTENSET_EL0 while checking for overflow status
 13905f4547b050316262d54a5391d50e83ce613a KVM: arm64: Use MDCR_EL2.HPME to evaluate overflow of hyp counters
+8e3b6345d113cc917e64b0349dc486b5d8f55e70 Merge branch '6.12/scsi-fixes' into 6.13/scsi-staging
 5bbed54ba66925ebca19092d0750630f943d7bf2 gpio: zevio: Add missed label initialisation
 c7899503ad9c06a0c6ee2796301139731cf1f5ab gpio: altera: Add missed base and label initialisations
 72cef64180de04a7b055b4773c138d78f4ebdb77 gpio: exar: set value when external pull-up or pull-down is present
@@ -1050,5 +1003,52 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+fdad84a7480baa0e6025883b9cf9d24a510fba72 iio: imu: adis16480: add devices to adis16480 driver
+09e5647445727b8d16b602384764f12d176406dd iio: imu: adis16480: add devices to adis16480 - docs
+b8c5b710d9f6c5c5938bdeea70a48fd2c82aa73a dt-bindings: iio: adis16480: add devices to adis16480
+5cc0030906b46bcb241447d61bf6e09af195af46 iio: imu: lsm6dsx: Use i3cdev_to_dev to get device pointer
+5633005db8ee6a202e635a939bc9cba2a6af38f8 iio: adc: ad7173: remove unused field
+6f0effd559e29fa3ed7a94bcf4a26118f1c91143 iio: dac: mcp4725: Use of_property_present() for non-boolean properties
+bbd4d73f8003f6985c48e410352aa0d60a7516e7 iio: invensense: Prevent possible integer overflow while multiplication
+b3e805ff4ad1a6501cbef6b722d25962d2e7733f dt-bindings: iio: accel: fxls8962af: add compatible string 'nxp,fxls8967af'
+6ef808a38c5b86403245fdc4233d4884e49de834 dt-bindings: iio: accel: fxls8962af: add compatible string 'nxp,fxls8974cf'
+e12b18fa5f23ce6f5e62a27e3d29a14ad29e075a iio: accel: fxls8962af: add fxls8974cf support
+66b2f11c3f42b0e1c042d384e334fdb9c3845831 iio: accel: fxls8962af: add fxls8967af support
+b657c853e522bdbc76a56e4bc53963bc5068d254 iio: dac: ad5624r: fix struct name in doc comment
+55405f55d242ab7d7236f7af8b48be094866c0ee iio: dac: ad5686: fix struct name in doc comment
+2c01947eaa4f88df936a5357736192fb72303b95 iio: dac: ad5686: use devm_regulator_get_enable_read_voltage()
+fa8c83386dab74159a11ca93ae2de84f274bd08d iio: dac: ad5686: drop driver remove function
+9d1dcbf02ae9c93ea8d8002fcad17095418d08ec iio: dac: ad8801: use devm_regulator_get_enable_read_voltage()
+9ec349a39d9d397e9bd8f359097a488759c975ed iio: dac ad8801: drop driver remove function
+1c053b7506110e36fd13591fe2be15542431bd29 iio: dac: ltc2632: use devm_regulator_get_enable_read_voltage()
+908cbc578f8b1bfedf11bcfa00d384dc95629df8 iio: dac ltc2632: drop driver remove function
+ff7607f728f30c3110462e340532bc7740e41913 iio: dac: ltc2688: use devm_regulator_get_enable_read_voltage()
+53948a291aae628c6ebf97a49b20a7695fe66b9e iio: dac: max5821: use devm_regulator_get_enable_read_voltage()
+84374a74b3aace47434618b4fde19df92058d728 iio: dac: Fix converters spelling typo.
+3b26f32187d13c9deed1a34cfd765d7d4871b24e iio: adc: pac1921: Add ACPI support to Microchip pac1921
+4d76b99841238478357d4aaa82293b04b8f80acc iio: accel: kx022a: Improve reset delay
+ffa126b1622f604700861d990065834736e0278b iio: bu27034: simplify using guard(mutex)
+42279a3e6729cfb70158afe5d2d4caea8ee974c9 iio: bm1390: simplify using guard(mutex)
+c432980a3e90c3f5bb635d4030c3cf5b80d8ec28 iio: adc: ad4695: move dt-bindings header
+d5ba23b3b5920a291f116e8b0c88fb746b51e84a dt-bindings: iio: adc: adi,ad4695: change include path
+a599a44cf670fdda9cc068517f1a0b9f901dcd59 iio: light: cm3232: Reset before reading HW ID
+8343757e52582bd3010ba993be0c34819a7be32e iio: buffer-dmaengine: document iio_dmaengine_buffer_setup_ext
+28cf24262ea725ec0901ae95be75779be5dc76e6 iio: adc: ad_sigma_delta: add tab to align irq_line
+d4af1dc835bb08b5c6d6803295807849363bd290 dt-bindings: iio: imu: mpu6050: Add invensense,iam20380 compatible string
+cd6c855bf0286e3a6e4a6a4dcdcc7e2882ef0b93 iio: gyro: Add support for iam20380 sensor
+78b7bbf6ab71d2dfe767f2c93b70fa53c0b10f37 iio: light: Drop BU27008 and BU27010
+b5c200d28359e9475be17f891d6ce0215adf3c08 dt-bindings: iio: light: Drop BU27008 and BU27010
+f46c8d6496e8f489845d24296ab374823948c11c iio: imu: adis: Remove documented not used elements
+c1166a65bde1d361f3b543593ba8754202062f9d iio: accel: kx022a: Use cleanup.h helpers
+90ce78fb646b583e00098fa0140699898b22142f iio: accel: kx022a: Support ICs with different G-ranges
+51877dbbca234b92a73d25d7f296a02985fabf01 dt-bindings: ROHM KX134ACR-LBZ
+c64cfc1621c779db059bf9b388bb36b4b7b45e9a iio: kx022a: Support ROHM KX134ACR-LBZ
+d7364cf1084c2ab9a7dc1190a8aa9fad955f97b7 dt-bindings: iio: kx022a: Support KX134-1211
+07df7a4cf45ace1432f8d3ff6934eb490f05e816 iio: accel: kx022a: Support KX134-1211
+28844b9e6637cfae0b90c592f74149f80b615c5f iio: adc: vf610_adc: use devm_* and dev_err_probe() to simple code
+09715ed0c23d4246791be1090c8cd565aa3b045e iio: adc: vf610_adc: limit i.MX6SX's channel number to 4
+38397493d09d7ae9d3d8caa088f2f5c647631227 iio: core: fix doc reference to iio_push_to_buffers_with_ts_unaligned
+cf8dd3bd63192cfa5158a3bf61d747759f568c26 iio: trigger: stm32-timer-trigger: Add check for clk_enable()
+05ff9c9c53c643551fe08fe52bd714310b9afc2e iio: light: veml6030: add support for triggered buffer
 
---===============2425290896160910041==--
+--===============5130355053623649744==--
