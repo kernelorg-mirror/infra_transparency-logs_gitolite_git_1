@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8136333047601965179=="
+Content-Type: multipart/mixed; boundary="===============5647581092080325938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Dec 2024 18:11:17 -0000
-Message-Id: <173324947777.3472204.3134375115027585131@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 18:11:19 -0000
+Message-Id: <173324947997.3472392.17468117498266742828@gitolite.kernel.org>
 
---===============8136333047601965179==
+--===============5647581092080325938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 28866d6e84b8d36a76b2cde221391aed1294e5cd
     new: af8edaeddbc52e53207d859c912b017fd9a77629
     log: revlist-28866d6e84b8-af8edaeddbc5.txt
 
---===============8136333047601965179==
+--===============5647581092080325938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ ccb989e4d1efe0dd81b28c437443532d80d9ecee net: phy: microchip: Reset LAN88xx PHY 
 48327566769a6ff2e873b6bf075392bd756625ca rtnetlink: fix double call of rtnl_link_get_net_ifla()
 af8edaeddbc52e53207d859c912b017fd9a77629 net: hsr: must allocate more bytes for RedBox support
 
---===============8136333047601965179==--
+--===============5647581092080325938==--
