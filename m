@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5130355053623649744=="
+Content-Type: multipart/mixed; boundary="===============0884299520812342774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 03 Dec 2024 19:40:59 -0000
-Message-Id: <173325485915.3552079.17388132841827792722@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 19:41:15 -0000
+Message-Id: <173325487523.3552292.9785894134405559651@gitolite.kernel.org>
 
---===============5130355053623649744==
+--===============0884299520812342774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 4ecd1edf4994bc5385609c6ea9e599b4ee958706
+  - ref: refs/heads/togreg
+    old: 20fd1383cd616d61b2a79967da1221dc6cfb8430
     new: 05ff9c9c53c643551fe08fe52bd714310b9afc2e
-    log: revlist-4ecd1edf4994-05ff9c9c53c6.txt
+    log: revlist-20fd1383cd61-05ff9c9c53c6.txt
 
---===============5130355053623649744==
+--===============0884299520812342774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ecd1edf4994-05ff9c9c53c6.txt
+Content-Disposition: attachment; filename=revlist-20fd1383cd61-05ff9c9c53c6.txt
 
 4cc9b9f2bf4dfe13fe573da978e626e2248df388 nfsd: refine and rename NFSD_MAY_LOCK
 d08bf5ea649c045175c191609ccd52644b85985f NFSD: Remove dead code in nfsd4_create_session()
@@ -1051,4 +1051,4 @@ d7364cf1084c2ab9a7dc1190a8aa9fad955f97b7 dt-bindings: iio: kx022a: Support KX134
 cf8dd3bd63192cfa5158a3bf61d747759f568c26 iio: trigger: stm32-timer-trigger: Add check for clk_enable()
 05ff9c9c53c643551fe08fe52bd714310b9afc2e iio: light: veml6030: add support for triggered buffer
 
---===============5130355053623649744==--
+--===============0884299520812342774==--
