@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0852463921254072084=="
+Content-Type: multipart/mixed; boundary="===============2425290896160910041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 03 Dec 2024 19:40:23 -0000
-Message-Id: <173325482358.3551237.9965275053041474317@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 19:40:29 -0000
+Message-Id: <173325482975.3551503.4606211069194030850@gitolite.kernel.org>
 
---===============0852463921254072084==
+--===============2425290896160910041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/misc
+    old: 8e3b6345d113cc917e64b0349dc486b5d8f55e70
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-9852d85ec9d4-40384c840ea1.txt
+    log: revlist-8e3b6345d113-40384c840ea1.txt
 
---===============0852463921254072084==
+--===============2425290896160910041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-8e3b6345d113-40384c840ea1.txt
 
+6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -382,7 +383,6 @@ e7619f2a2f8f9b10feb784ec6b8ea5320ad3b97e KVM: arm64: vgic: Kill VGIC_MAX_PRIVATE
 0f3a0f23f5621b9a5a28c9235c950caf6e2012d5 KVM: arm64: Mark set_sysreg_masks() as inline to avoid build failure
 54bbee190d42166209185d89070c58a343bf514b KVM: arm64: Ignore PMCNTENSET_EL0 while checking for overflow status
 13905f4547b050316262d54a5391d50e83ce613a KVM: arm64: Use MDCR_EL2.HPME to evaluate overflow of hyp counters
-8e3b6345d113cc917e64b0349dc486b5d8f55e70 Merge branch '6.12/scsi-fixes' into 6.13/scsi-staging
 5bbed54ba66925ebca19092d0750630f943d7bf2 gpio: zevio: Add missed label initialisation
 c7899503ad9c06a0c6ee2796301139731cf1f5ab gpio: altera: Add missed base and label initialisations
 72cef64180de04a7b055b4773c138d78f4ebdb77 gpio: exar: set value when external pull-up or pull-down is present
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============0852463921254072084==--
+--===============2425290896160910041==--
