@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 03 Dec 2024 06:11:21 -0000
-Message-Id: <173320628109.2791894.16341018245026973290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Dec 2024 07:25:46 -0000
+Message-Id: <173321074612.2849037.18411263720885658678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
+    old: 14fd319494cbd6ae74499a56758415c5dc67691c
+    new: b06006f925d401b2a68b21fbb3811c3349f6c0b2
     log: |
-         e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
-         cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
+         6a1853bdf17874392476b552398df261f75503e0 x86/pkeys: Change caller of update_pkru_in_sigframe()
+         ae6012d72fa60c9ff92de5bac7a8021a47458e5b x86/pkeys: Ensure updated PKRU value is XRSTOR'd
+         b06006f925d401b2a68b21fbb3811c3349f6c0b2 Merge branch into tip/master: 'x86/urgent'
          
