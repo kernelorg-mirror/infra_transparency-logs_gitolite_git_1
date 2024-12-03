@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4644360670610530671=="
+Content-Type: multipart/mixed; boundary="===============5869708768988684165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 03 Dec 2024 17:37:57 -0000
-Message-Id: <173324747794.3443759.17321672699877440679@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 17:40:44 -0000
+Message-Id: <173324764478.3447200.390454835980788191@gitolite.kernel.org>
 
---===============4644360670610530671==
+--===============5869708768988684165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-dts-stage
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/ti-next
+    old: 6eaad8fca267090eb5b14970701fa2b8da494f4b
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-9852d85ec9d4-40384c840ea1.txt
+    log: revlist-6eaad8fca267-40384c840ea1.txt
 
---===============4644360670610530671==
+--===============5869708768988684165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-6eaad8fca267-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============4644360670610530671==--
+--===============5869708768988684165==--
