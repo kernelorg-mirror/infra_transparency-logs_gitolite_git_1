@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4913741016246238663=="
+Content-Type: multipart/mixed; boundary="===============2723359990214285367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 03 Dec 2024 14:43:46 -0000
-Message-Id: <173323702698.3288522.2902552541514181070@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 14:43:53 -0000
+Message-Id: <173323703324.3288726.16287708344995232671@gitolite.kernel.org>
 
---===============4913741016246238663==
+--===============2723359990214285367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 28b513b5a683cf1e7125ba54ffe7ecb206ef4984
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-28b513b5a683-40384c840ea1.txt
 
---===============4913741016246238663==
+--===============2723359990214285367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============4913741016246238663==--
+--===============2723359990214285367==--
