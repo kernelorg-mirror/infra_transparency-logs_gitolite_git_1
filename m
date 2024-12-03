@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 03 Dec 2024 16:35:48 -0000
-Message-Id: <173324374841.3387746.11056139751493552460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Dec 2024 16:40:14 -0000
+Message-Id: <173324401457.3391739.5081473819525067904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
-    new: ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1
+  - ref: refs/heads/irq/urgent
+    old: 9d9f204bdf7243bfc2c6a023d63c63f7cbf8ef0b
+    new: 9151299ee5101e03eeed544c1280b0e14b89a8a4
     log: |
-         62aa6f2ede976dfb3539e59ee55c62cfd3c3faa3 scripts/nsdeps: get 'make nsdeps' working again
-         3727b1a7ca23050f8c7fe3d6a6884fc8038b8336 doc: module: revert misconversions for MODULE_IMPORT_NS()
-         ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1 module: Convert default symbol namespace to string literal
+         9151299ee5101e03eeed544c1280b0e14b89a8a4 irqchip/stm32mp-exti: CONFIG_STM32MP_EXTI should not default to y when compile-testing
          
