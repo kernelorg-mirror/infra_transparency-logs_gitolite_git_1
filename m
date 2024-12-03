@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2850777792945480517=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 03 Dec 2024 12:30:54 -0000
-Message-Id: <173322905400.3171763.15716020322515158953@gitolite.kernel.org>
-
---===============2850777792945480517==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Dec 2024 12:33:53 -0000
+Message-Id: <173322923348.3172976.17027147465573187417@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/tty-testing
-    old: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
-    new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
+  - ref: refs/heads/master
+    old: 48063c9cbf35d441c75d17b791cb0240903375f6
+    new: d6a09802f7e1a2bd00cfca7d104295269e6a5093
     log: |
-         cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
+         d7c4529f3bfc796e427a1cce2507b21313cd5c0c Fixes for 6.12
+         4ed85c3d8bc7c67f47a127b9d4ab60bff0e2f301 Fixes for 6.11
+         c70551541a5ffb3ae263a21fb7896a0da7d4f2c4 Fixes for 6.6
+         5f5f9c0122377e38d7a901457aed77e93e906d87 Fixes for 6.1
+         bbd0633de4357c6e56b32f5780841a039b07364f Fixes for 5.15
+         391e1e3ca03706b781bda2dcef168ffd7ec7fbd2 Fixes for 5.10
+         a5eb4e46b3a7efafff8165d77b9847183dc8902b Fixes for 5.4
+         d6a09802f7e1a2bd00cfca7d104295269e6a5093 Fixes for 4.19
          
-
---===============2850777792945480517==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733229081 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1733229052-ba3978a9f9408b43601540a05a4687184978e9aa
-
-e70140ba0d2b1a30467d4af6bcfe761327b9ec95 cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO+hobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+imEQAM+mPVkgOHUVcxDQNYlY
-A2/chQaZ96RX8m5GvVVDGVteE/sGG1m1R8KwUACA38wb1mIk2CPt+QNdNMsDl9Ht
-q82UJjGv0LcpnH2L6f51dEQBV2mxloPHSuOTWzeu2+XKLEF1pTYAlBklGxiSLxww
-cJHmAD+Gvr0+Ubz2g1D98fHDUnDeCcLLegJgwY7W05Kv7E/cOewKW4hXBR6J39ZR
-0rTZZZpiJGEl+CbujF7OqXfU60denUMJ15u8Hhc3eopqQpZV7RLJdJUJ8EkJZ286
-1D0d1hlu6T9MYZn1QP+EFQ3X0UtXS0Ay+2ZmjTxcUwnNcpv6xd6cDMBEoIJMAWpW
-WVAh/ZHTGQW9akyssFAeoIQXAkFJLrepg4kUE5hhW/Pz22xrOvwZe/0aj+7HTRXw
-+CZ3PWzDUtjp+nPzroCIboZcOE8Nr8b2zsijcf7YKpj26hsxAji7YDiCyRuviE5P
-Z4cxCMLtuaA0+OU0fVGOUZ/EJoGAl9z1jWwyQmITGfpqmTeo8zKK8LRPNfg3CCTU
-FTpYBhaxYTup4a6QFTvZWFOv4GxnWJk3uVYJDG0PdaUz8S3M2/X2O5vMpfnn2GnC
-7rXB/jaThoneEA8OXayBOd5vbIo0arCLndvvy3GjbSBEeH54OMefv7TNUis2yfQp
-BYmVCEuQT+urhJd1FNnaWJyt
-=f6TC
------END PGP SIGNATURE-----
-
---===============2850777792945480517==--
