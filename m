@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0535225805223910526=="
+Content-Type: multipart/mixed; boundary="===============7316689045387283727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 03 Dec 2024 10:56:19 -0000
-Message-Id: <173322337959.3087079.11946240905166363454@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 10:56:23 -0000
+Message-Id: <173322338377.3087323.10928311431522614774@gitolite.kernel.org>
 
---===============0535225805223910526==
+--===============7316689045387283727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a
     new: cdd30ebb1b9f36159d66f088b61aee264e649d7a
     log: revlist-bcc8eda6d349-cdd30ebb1b9f.txt
 
---===============0535225805223910526==
+--===============7316689045387283727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223407 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733223411 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733223378-9f6005abefecd2eb2a966e32d77d8675632d3ccd
+nonce 1733223382-3168119268d9788195f041437f17aaa778aba5cb
 
-bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/main
+bcc8eda6d34934d80b96adb8dc4ff5dfc632a53a cdd30ebb1b9f36159d66f088b61aee264e649d7a refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ryMP/A0ydMzBXi33kJ+235nI
-28JR9U8H7Kb4R6j73hNhWq0mYEgGXbOVInmR3RV50FbPE/uW7MTaUIM0MGhk2b+C
-OjWxy262dnI2pRA7XMI9YHdAWVKsysqAFVzq3jferDLvUX2LW3BXvhtvOp9Eeydc
-Kcb+LBnprafghfLxjilockTUjgIPYhqNFHKINn87WqD3kGC7Q4X470eKOfXz6l3i
-H36uLt87P19MyoNA7OtPgAhsqxTeuxAKgE7nsXyhCz8zNEPQeIZUaw4EuhPz4/ha
-Q9eP66aZ5087iSlUHBBakvw/KQlACpJAgAjwPWJZrRz7/yjkk5pFDO+f+8CUqEFk
-SBtwnqUEX1q0SudN6GB9wAL38DqDtmqpVJ3ndMBFLtBERvKuhu2cyhDGQoHBundm
-Re9Si+N5iuHuMMRC9rGIPdlut1hV/TwmWFnP8XOuaj8MVPGhZEL/R7sN6NpWlu2Q
-+TNxbbE4mb1QgCDT01izjzezHMgIVjlWTNlHNrwbp+CVZ5TmonTPciSjBT7dl2Gu
-5Vb+1LUdz1r29DN5swkc8Hin+uG2fdZYTxqNbNbW9bNNKg/iqj1s7+1zrXI7U1hF
-O4tMoPuL6O52WiEBPAT2UfNCcimQ0ZoWF/ZwoUuWEwWzD3KyFF96MGKlm+1Tmrql
-7PWuxJzLjALK5Hx3TanySgtw
-=EikN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdO4/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CpEQAKhM1ko+G/3AtiFjUYhK
+z+Qz6JR947NlQeGTOTBVBCPbzlVlOeMzP9C8vefP4yF38rv5XNWsSiCA3bKuOPEU
+UK7eg4UCSJ+TysKhloupNaB/WtBjhpPetVRXrVSr2SCc/C6vNQ5WiZ3MKkpL09Zb
+kTP/ukdjRUpziFLHoTarKWcMX9Z1bfh/lWwfR2KGirmkN1aWZxzr0ShKFyGUnsew
+yMRBPeVPhcJIlf1zRmAtZtlXyEVEToY0odRHKK5K5uJyp+0w3VoQ5Uy/qjdRvcOD
+5Dar+FWPISCGEkRVy1E/J1XWMVwczvAZPtTQACN7GUYOVZGbI8iSQSk0UMKnVML0
+ATPkkWRT31rQ4itxmaxUNbGUrIa9AhTZFJ3wZ5AaHlv80qa/loqbx1aAi5mXOMlH
+bzBE2qM4a5U5O4ppXYTJ8jzyd40V6MVcQWMIQ6UaTXUUyltjvTfBSvVD5qy2qfXS
+14m/Ahj72rtzJQ9J9hxZk2TK9MVFeIxHj/16wbatbXClg1dOOpcSjhvVW34YlG+6
+h/2h+mxgMklujRZcvedAI/hj4eyPYu0iWPcDsb0m+XtEskMs/8CtDiJ//9Bhr+PE
+yyVLE9egj3AA38Gjfnne+QeLdeUKgHq39fxsHzySIJyIe1tmGB/iLjr+DfWl+fMa
+yfP3k9XSvRrp6ONmN9Ov7pBb
+=Y9zb
 -----END PGP SIGNATURE-----
 
---===============0535225805223910526==
+--===============7316689045387283727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -89,4 +89,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
 
---===============0535225805223910526==--
+--===============7316689045387283727==--
