@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5915378606574551166=="
+Content-Type: multipart/mixed; boundary="===============0072624040833204141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 03 Dec 2024 07:42:37 -0000
-Message-Id: <173321175769.2862682.9872848001449566771@gitolite.kernel.org>
+Date: Tue, 03 Dec 2024 07:43:04 -0000
+Message-Id: <173321178415.2862970.9800791872320320186@gitolite.kernel.org>
 
---===============5915378606574551166==
+--===============0072624040833204141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: 21c8a16b73491166a498634e285484d7112003f8
     new: 7fe57ae70902e808553eb2900b551c39c2e3644e
     log: revlist-21c8a16b7349-7fe57ae70902.txt
 
---===============5915378606574551166==
+--===============0072624040833204141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 1af8c6b9a11271cb2af3911f679366126519b0c3 erofs: fix rare pcluster memory leak after unmounting
 7fe57ae70902e808553eb2900b551c39c2e3644e erofs: fix PSI memstall accounting
 
---===============5915378606574551166==--
+--===============0072624040833204141==--
