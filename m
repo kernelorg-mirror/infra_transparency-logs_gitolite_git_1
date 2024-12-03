@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 03 Dec 2024 18:22:11 -0000
-Message-Id: <173325013131.3482545.9027802398899446059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Tue, 03 Dec 2024 18:29:17 -0000
+Message-Id: <173325055734.3487645.7068011807641824060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: khilman
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/master
-    old: e70140ba0d2b1a30467d4af6bcfe761327b9ec95
-    new: ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1
-    log: |
-         cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
-         62aa6f2ede976dfb3539e59ee55c62cfd3c3faa3 scripts/nsdeps: get 'make nsdeps' working again
-         3727b1a7ca23050f8c7fe3d6a6884fc8038b8336 doc: module: revert misconversions for MODULE_IMPORT_NS()
-         ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1 module: Convert default symbol namespace to string literal
-         
+  - ref: refs/heads/futex_local_v2.5
+    old: d4fdb4a8e80a5c388ca97a7f00cd0d60bca1be9f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/futex_local_v3
+    old: 99ea4254dbcb068a3b2a63bcd77ba06314571d85
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ktimers_v2.5
+    old: 15afe6bf8889fd44c43ff2956e56716308dbb45b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tracing_flags
+    old: 33e0a35f5c3e7b3c8d8c2deed971a716acd10bac
+    new: 0000000000000000000000000000000000000000
