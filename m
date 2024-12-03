@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0615520687653327286=="
+Content-Type: multipart/mixed; boundary="===============7858071032621973058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 03 Dec 2024 17:32:51 -0000
-Message-Id: <173324717158.3437691.6811244944302907918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 03 Dec 2024 17:35:05 -0000
+Message-Id: <173324730519.3440744.2635997737236233264@gitolite.kernel.org>
 
---===============0615520687653327286==
+--===============7858071032621973058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: d53764723ecd639a0cc0c5ad24146847fc09f78d
+  - ref: refs/heads/cfi/next
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-d53764723ecd-40384c840ea1.txt
-  - ref: refs/heads/for-rc
-    old: a8c9df25f90e5155b70f5e2474c7299841e3335a
-    new: 2ca704f55e22b7b00cc7025953091af3c82fa5c0
-    log: |
-         2ca704f55e22b7b00cc7025953091af3c82fa5c0 iommu/arm-smmu-v3: Improve uAPI comment for IOMMU_HW_INFO_TYPE_ARM_SMMUV3
-         
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============0615520687653327286==
+--===============7858071032621973058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d53764723ecd-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
-688d2eb4c6fcfdcdaed0592f9df9196573ff5ce2 PCI: endpoint: Clear secondary (not primary) EPC in pci_epc_remove_epf()
-28b6acd75e3cefbe746ec7402c7ff4fdb114f327 PCI: endpoint: Fix pci_epc_map map_size kerneldoc string
-6fad84a4d624c300d03ebba457cc641765050c43 nvme-pci: use sgls for all user requests if possible
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -504,6 +495,9 @@ e0260d530b73ee969ae971d14daa02376dcfc93f net/9p/usbg: allow building as standalo
 d8c949c577b5adb9fb87923b5429767aae4be590 docs/licensing: Clarify wording about "GPL" and "Proprietary"
 a037699da0a17e99832875a936b5a6285d8de849 docs: Add debugging section to process
 83a474c11e8cb59e230a43365cb42fa00d3bddaa docs: Add debugging guide for the media subsystem
+2d762281950877eb450ac98bc77a6d340f6b5249 Merge tag 'iommu-updates-v6.13' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/iommu/linux into iommufd.git
+64214c2b95364d26cdff045d8bbefd37380edbe1 iommu: Add ops->domain_alloc_nested()
+d53764723ecd639a0cc0c5ad24146847fc09f78d iommu: Rename ops->domain_alloc_user() to domain_alloc_paging_flags()
 1ec371bab200de8510c893cd22865eb517577e83 m68k: mvme147, mvme16x: Adopt rtc-m48t59 platform driver
 82f250ed1a1dcde0ad2a1513f85af7f9514635e8 ACPI: x86: Add skip i2c clients quirk for Acer Iconia One 8 A1-840
 bd8aa15848f5f21951cd0b0d01510b3ad1f777d4 ACPI: x86: Clean up Asus entries in acpi_quirk_skip_dmi_ids[]
@@ -1057,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============0615520687653327286==--
+--===============7858071032621973058==--
