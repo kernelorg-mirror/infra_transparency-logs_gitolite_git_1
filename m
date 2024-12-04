@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 04 Dec 2024 05:25:31 -0000
-Message-Id: <173328993144.4035331.15706944524536712304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 04 Dec 2024 05:34:05 -0000
+Message-Id: <173329044519.4040919.1769414327289209999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/archive/debian/1.47.2_rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: c011f4c5567fe45d8e4f872b174c6088e4d8638e
-  - ref: refs/tags/debian/1.47.2_rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: 5259a8e767d6b3b4040b81504d50e0d4ff7a3a3b
+  - ref: refs/heads/opp/linux-next
+    old: d5557b27fefccf1942ae0f4a5734aba6751b03bc
+    new: e0460b08c67a3d0e553cc30210eaf34ace224ccd
+    log: |
+         964f28cdc0abf347170c2549750a770de537fab2 OPP: add index check to assert to avoid buffer overflow in _read_freq()
+         e0460b08c67a3d0e553cc30210eaf34ace224ccd OPP: fix dev_pm_opp_find_bw_*() when bandwidth table not initialized
+         
