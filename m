@@ -1,63 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1356509468136960852=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Wed, 04 Dec 2024 12:57:10 -0000
-Message-Id: <173331703092.219678.2977196926873196439@gitolite.kernel.org>
-
---===============1356509468136960852==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 04 Dec 2024 13:18:59 -0000
+Message-Id: <173331833937.235850.9732272548760756939@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/linus-next
-    old: ee5436ab92f194d4125a58c54341bd57ee747edb
-    new: 342201ac91365650038489ded5e827499d8d03d0
+  - ref: refs/heads/fixes
+    old: 4b65d5322e1d8994acfdb9b867aa00bdb30d177b
+    new: dcbef0798eb825cd584f7a93f62bed63f7fbbfc9
     log: |
-         3510398032b445abd034753ce86a60882f41fe27 platform/x86: samsung-laptop: Match MODULE_DESCRIPTION() to functionality
-         25fb5f47f34d90aceda2c47a4230315536e97fa8 platform/x86: asus-wmi: Ignore return value when writing thermal policy
-         e9fba20c29e27dc99e55e1c550573a114561bf8c platform/x86: asus-nb-wmi: Ignore unknown event 0xCF
-         9141c5d389a9ec80121de3125cde7c713726ceea Merge tag 'xfs-fixes-6.13-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-         3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-         feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         7d7a8339e1333cce680919228ba3da9c1afc2d0b Merge remote-tracking branch 'origin/master' into linus-next
-         342201ac91365650038489ded5e827499d8d03d0 Merge tag 'platform-drivers-x86-v6.13-2' of https://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into linus-next
+         790fb9956eead785b720ccc0851f09a5ca3a093e linux/dmaengine.h: fix a few kernel-doc warnings
+         8d55e8a16f019211163f1180fd9f9fbe05901900 dmaengine: apple-admac: Avoid accessing registers in probe
+         dcbef0798eb825cd584f7a93f62bed63f7fbbfc9 dmaengine: amd: qdma: Remove using the private get and set dma_ops APIs
          
-  - ref: refs/heads/master
-    old: ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1
-    new: feffde684ac29a3b7aec82d2df850fbdbdee55e4
-    log: revlist-ceb8bf2ceaa7-feffde684ac2.txt
-
---===============1356509468136960852==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ceb8bf2ceaa7-feffde684ac2.txt
-
-45f69d091bab64a332fe751da9829dcd136348fd xfs: eliminate lockdep false positives in xfs_attr_shortform_list
-652f03db897ba24f9c4b269e254ccc6cc01ff1b7 xfs: remove unknown compat feature check in superblock write validation
-13325333582d4820d39b9e8f63d6a54e745585d9 xfs: fix sparse inode limits on runt AG
-c9c293240e4351aa2678186cd88a08141fc6ce9e xfs: delalloc and quota softlimit timers are incoherent
-a8581099604dfa609a34a3fac8ef5af0d300d2c1 xfs: prevent mount and log shutdown race
-ac6f420291b3fee1113f21d612fa88b628afab5b quota: flush quota_release_work upon quota writeback
-c5566903af56dd1abb092f18dcb0c770d6cd8dcb udf: Skip parent dir link count update if corrupted
-6756af923e06aa33ad8894aaecbf9060953ba00f udf: Verify inode link counts before performing rename
-214093534f3c046bf5acc9affbf4e6bd9af4538b xfs: Use xchg() in xlog_cil_insert_pcp_aggregate()
-cc2dba08cc33daf8acd6e560957ef0e0f4d034ed xfs: don't call xfs_bmap_same_rtgroup in xfs_bmap_add_extent_hole_delay
-05b36b04d74a517d6675bf2f90829ff1ac7e28dc btrfs: fix use-after-free in btrfs_encoded_read_endio()
-7d6872ccbd56c310d2b9658ecaeafeda258727b6 btrfs: fix deadlock between transaction commits and extent locks
-b188ad7791899da8afe937e439e3086ffddd84a8 btrfs: sysfs: advertise experimental features only if CONFIG_BTRFS_EXPERIMENTAL=y
-ed67f2a913a4f0fc505db29805c41dd07d3cb356 btrfs: don't loop for nowait writes when checking for cross references
-3ed51857a50f530ac7a1482e069dfbd1298558d4 btrfs: add a sanity check for btrfs root in btrfs_search_slot()
-7c4e39f9d2af4abaf82ca0e315d1fd340456620f btrfs: ref-verify: fix use-after-free after invalid ref action
-22d2e48e318564f8c9b09faf03ecb4f03fb44dd5 btrfs: fix lockdep warnings on io_uring encoded reads
-9141c5d389a9ec80121de3125cde7c713726ceea Merge tag 'xfs-fixes-6.13-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============1356509468136960852==--
+  - ref: refs/heads/next
+    old: a2d09455b27b64ff6afe409fc87f0418adf2d3fe
+    new: 7a155fefec85af91b5b13909ab18090b2672aa8b
+    log: |
+         23417899110410f2fc1bf7dd8df381312d60c933 dmaengine: sh: rcar-dmac: add comment for r8a779a0 compatible
+         eeca1b60138189ef1b9636709e578d0c9e0de517 dma-engine: sun4i: Add a quirk to support different chips
+         1f738d0c2f67ae3551e4543e8dddbfb44cdd9f53 dma-engine: sun4i: Add has_reset option to quirk
+         1ad2ebf3be836e62792788f4cd105b30ca9178b6 dt-bindings: dmaengine: Add Allwinner suniv F1C100s DMA
+         61785259d1eb4e4c4acef8551a2524441683dbf3 dma-engine: sun4i: Add support for Allwinner suniv F1C100s
+         c76d3daaa0928d4edc49703f7c9c2505ccff4369 dmaengine: idxd: Add a new IAA device ID on Panther Lake family platforms
+         9584fc5efd507c569aafc7bf0beaa15c8eb07a8a dt-bindings: dma: qcom,gpi: Document the sm8750 GPI DMA engine
+         7a155fefec85af91b5b13909ab18090b2672aa8b dmaengine: amd: qdma: make read-only arrays h2c_types and c2h_types static const
+         
