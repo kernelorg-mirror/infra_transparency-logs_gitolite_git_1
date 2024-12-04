@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 04 Dec 2024 18:28:53 -0000
-Message-Id: <173333693316.505780.14596341940533512457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 04 Dec 2024 18:30:02 -0000
+Message-Id: <173333700246.507642.16093908043868425090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 76e36c119ecd557069d1f20cc7ee752ca79b0708
-    new: 198d5d9543818fce651721062bf7a4148054b426
+  - ref: refs/heads/1GbE
+    old: af8edaeddbc52e53207d859c912b017fd9a77629
+    new: 5eb7de8cd58e73851cd37ff8d0666517d9926948
     log: |
-         198d5d9543818fce651721062bf7a4148054b426 patches/next: replace um fix with the formal one
+         cecc1555a8c2acd65f9d36182c28ae463db0ad7e net: Make napi_hash_lock irq safe
+         3d501f562f63b290351169e3e9931ffe3d57b2ae Revert "udp: avoid calling sock_def_readable() if possible"
+         94071909477677fc2a1abf3fb281f203f66cf3ca ethtool: Fix access to uninitialized fields in set RXNFC command
+         292207809486d99c78068d3f459cbbbffde88415 net: sched: fix erspan_opt settings in cls_flower
+         5eb7de8cd58e73851cd37ff8d0666517d9926948 net: sched: fix ordering of qlen adjustment
          
