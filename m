@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5943242959194313542=="
+Content-Type: multipart/mixed; boundary="===============4854839562565929686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 04 Dec 2024 14:02:16 -0000
-Message-Id: <173332093696.271926.13345942041051218135@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 14:02:26 -0000
+Message-Id: <173332094676.272120.5496415707116871611@gitolite.kernel.org>
 
---===============5943242959194313542==
+--===============4854839562565929686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 68e7aa7ae92f5d5af1a3bfd0aae566e687b980fe
-    new: 1f2010f0e1b867709a707bc9317e7c280c10b543
-    log: revlist-68e7aa7ae92f-1f2010f0e1b8.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 523930e4528f8e2267e8223245f0339eaec591c4
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-523930e4528f-40384c840ea1.txt
 
---===============5943242959194313542==
+--===============4854839562565929686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e7aa7ae92f-1f2010f0e1b8.txt
+Content-Disposition: attachment; filename=revlist-523930e4528f-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1048,7 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-3c34055e72169f7e70bee9f833e773f39b10566a i2c: xiic: Relocate xiic_i2c_runtime_suspend and xiic_i2c_runtime_resume to facilitate atomic mode
-1f2010f0e1b867709a707bc9317e7c280c10b543 i2c: xiic: Add atomic transfer support
 
---===============5943242959194313542==--
+--===============4854839562565929686==--
