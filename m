@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0105702906713384475=="
+Content-Type: multipart/mixed; boundary="===============5151944661075069154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
-Date: Wed, 04 Dec 2024 09:29:19 -0000
-Message-Id: <173330455973.49059.17420920018226117083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Wed, 04 Dec 2024 09:30:04 -0000
+Message-Id: <173330460439.51734.17477429565604474455@gitolite.kernel.org>
 
---===============0105702906713384475==
+--===============5151944661075069154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/fastrpc
+repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    old: 9b6e704955fa8db55d11f2e7be5d723c8186ffc6
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-9852d85ec9d4-40384c840ea1.txt
+    log: revlist-9b6e704955fa-40384c840ea1.txt
 
---===============0105702906713384475==
+--===============5151944661075069154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-9b6e704955fa-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============0105702906713384475==--
+--===============5151944661075069154==--
