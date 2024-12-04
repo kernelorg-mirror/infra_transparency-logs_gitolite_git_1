@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1817556778132818373=="
+Content-Type: multipart/mixed; boundary="===============3925778187544487903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 04 Dec 2024 14:40:18 -0000
-Message-Id: <173332321837.307640.9540605180820382129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 04 Dec 2024 14:40:20 -0000
+Message-Id: <173332322002.307759.14194007482253822135@gitolite.kernel.org>
 
---===============1817556778132818373==
+--===============3925778187544487903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: feffde684ac29a3b7aec82d2df850fbdbdee55e4
     log: revlist-ceb8bf2ceaa7-feffde684ac2.txt
 
---===============1817556778132818373==
+--===============3925778187544487903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ ed67f2a913a4f0fc505db29805c41dd07d3cb356 btrfs: don't loop for nowait writes whe
 3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============1817556778132818373==--
+--===============3925778187544487903==--
