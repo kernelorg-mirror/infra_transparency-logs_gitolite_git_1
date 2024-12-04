@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4524502994325365920=="
+Content-Type: multipart/mixed; boundary="===============6553637913378095959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 04 Dec 2024 15:35:44 -0000
-Message-Id: <173332654439.359214.16507279584571603177@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 15:42:08 -0000
+Message-Id: <173332692838.364486.11700475759098611527@gitolite.kernel.org>
 
---===============4524502994325365920==
+--===============6553637913378095959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
-    new: fcf5402d7878f201f3104292623ce3ebe99e61cd
+    old: fcf5402d7878f201f3104292623ce3ebe99e61cd
+    new: 5a6a3b0a526838d11afaa3f27501d7804faf3743
     log: |
-         b8c8748b60ac15d0536c46c6b0d514483e46486c serial: altera_jtaguart: Use device name when requesting IRQ
-         fcf5402d7878f201f3104292623ce3ebe99e61cd serial: altera_jtaguart: Use KBUILD_MODNAME
+         c1117a2fefbcce30cced3a180585e0adebc0fa89 serial: sh-sci: Use plain struct copy in early_console_setup()
+         be0cf843706058facc5dc4360f9619eef74accd9 serial: 8250_port: Assign UPIO_UNKNOWN instead of its direct value
+         d828c6726fe5642d1c71e9edbc4799c959b471cf dt-bindings: serial: renesas: Document RZ/G3E (r9a09g047) scif
+         5a6a3b0a526838d11afaa3f27501d7804faf3743 serial: mpc52xx: Fix typo in mpc52xx_uart.c
          
 
---===============4524502994325365920==
+--===============6553637913378095959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733326570 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733326954 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1733326541-5e58b24bfbc5afc1e1f8f496a2e392857247d123
+nonce 1733326925-24787f5049284fcd0a0455d1da1175301f9c8f0d
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a fcf5402d7878f201f3104292623ce3ebe99e61cd refs/heads/tty-testing
+fcf5402d7878f201f3104292623ce3ebe99e61cd 5a6a3b0a526838d11afaa3f27501d7804faf3743 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQdusbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dLsQAMZugL3wWejfyPXsM9Rj
-A+/UkP6541WYMipMJ80xeghirgWTTaoHJgoHcRrowqiWRkDC9gEigo/Pg3Nb+qgS
-F3kvNJDFDjKXUkoHnEV2SQsjaTjNNYo+gfuP9QZlzkNRi8bE1WJ5CoDiKsnusYGD
-ucsW4k1Pm8pU4JSGV7JfOAO+/zurr7sP2OyM0FbGXAN4wnejqROPCww3qAi3VtPL
-oAfC2dRpX3arE/XLTX4cCTbCM/4VJLvNSrHvdBqCh79peuRaThxSjAhiNib4JOqL
-kot63K3lQACEgrw2e94gEu7ukZbQeR1jpmrS8YvAqT+5Az4JoAqH5Q6EkGDCtnUp
-OM/Uikk1zHawvQofyR5IcNYHTR04PwRWykUXuBLb6Qp68n5TzxTAdiColtANgmnw
-t7gBAU6lkkW8M+eCgGxneYrdPleFTF99zGczAUn0JiiK/9ToJZKmpCZ5hM7KGF/a
-J0jZxF1uaYs3j2FSbaChu9PtECe6V/FHRby2JQd3HDZ5X01b1nrZvN6IauZR55us
-92gM9XzcpHjpTzP+g05PAt3q2BxfyMwSSwvAKSIy/RRkxTj1srjM5m7kJa38ESEo
-W6ChtRN6j1A5tqMjj8ERoCxTpOMf/H/h/u6FZjluKML1MhbgD+LTmpwA/urT2GD7
-jDDXjjWbLriZ1MEyIyfORhL+
-=GVMX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQeGobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p54P/iXcrOlyGo/724nrkuu6
+gKhVLMMhrqJGowKCY3dOfMH2CdDDqtG+2qYAjarvXQmqybBdLOhkjVhP5WPToJQI
+OxtPZwpDVYu3TzeCeN7wYyp6kmTRiItOx/5kJCphBm/rLnNbh95YriJfLz9fiZam
+wrI0A9+8Q03l2VT76ZjMLB99XTjpaLuFpfUpyM8/Ez5tR7oJ666lxxSXKBevo5Ei
+dHEMgXg6/Xz+DEVUoMtC83Rk6Kqv5QiGE3rAEpZmCHssAGT4C2kRkGXl/DoyGTV9
+T1eOXqpHDLGOCUAaSwBbB9C+gfI49pPMfc6JmYkQTG2V8yJG40CyXjXh/66tNKSN
+TiuJSGXafF+HVm+omsZ6sFD9ejQzlCf7VgorYZJ8Y4pMUV3SOB0Lu8VCDby1Oux3
+rsT4e9hDmuSLU1rmZVf0Y3vyg/iT48MZbDcEV0OxoWr/M9jpLO0voywy/KkgOWtL
+sOkO24Qu3/M2RHwP2ikvQ9GFmLlxipwN0w5DfWIJLGPCqFF9x1JU7jY+eK0zQrYD
+DGcEKK7dCiGwoLa2zMx1/yqie0+xUvBpO38kWwbMjRGd8G15UR7S3DmuPOrN2sec
+3EhWYgHbGyH9+3Nn+5xkymiXvrToSHNRj0ayk1AOR5gqkJiqB8VauHC+Tl8WMRZI
+flDrWTL0EjiSfbBMElToEHOf
+=hi5+
 -----END PGP SIGNATURE-----
 
---===============4524502994325365920==--
+--===============6553637913378095959==--
