@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 04 Dec 2024 14:34:44 -0000
-Message-Id: <173332288491.301120.7635113204526958616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 04 Dec 2024 14:35:01 -0000
+Message-Id: <173332290174.301314.17131539693718316249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 6c46f491e5250f2f9942eed1e2077ac97e8383bf
+  - ref: refs/heads/hwmon-next
+    old: 16a5601c9021e584b1a56b4cca4426eb3a406474
+    new: 6f4193955461ed4121f67005e3a076c5d21e5ba2
     log: |
-         6c46f491e5250f2f9942eed1e2077ac97e8383bf i2c: keba: drop check because i2c_unregister_device() is NULL safe
+         e6c10d15db675c43f5ae2eac59f243e0bb97aa88 hwmon: (tmp108) Drop of_match_ptr() protection
+         6f4193955461ed4121f67005e3a076c5d21e5ba2 hwmon: (isl28022) Drop explicit initialization of struct i2c_device_id::driver_data to 0
          
