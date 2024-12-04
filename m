@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 04 Dec 2024 16:09:37 -0000
-Message-Id: <173332857751.388711.9543112647314923661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 04 Dec 2024 16:23:43 -0000
+Message-Id: <173332942343.400803.14893359323167264038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64/nv-gic
-    old: 08ab595cb84eb3171e0a939aa51b823992e2eb72
-    new: eebaeba207786f715ff70bf9878c6e1505f10999
-    log: |
-         eebaeba207786f715ff70bf9878c6e1505f10999 fixup! KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
-         
+  - ref: refs/heads/fileNhBbph
+    old: 577f1cf76ceedb5fbdc9aca4f712b21864ac15ee
+    new: 0000000000000000000000000000000000000000
