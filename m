@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 04 Dec 2024 06:22:59 -0000
-Message-Id: <173329337995.4095394.15887994703844076418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 04 Dec 2024 07:05:36 -0000
+Message-Id: <173329593689.4129680.8826561587225943431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/seen
-    old: 12c465e2a55349ae155ca33d952ad8cfe9cde983
-    new: 14a2f93f8e603e6dff96b865ba038239574999e1
+  - ref: refs/heads/master
+    old: 429f2141518dfe140616d528743fe03c98bc051e
+    new: 18d5ff83007b860969e07d61ab548bfe38b91a2e
     log: |
-         cc1bfd9f6bb99a15aad577d6897e77ff36bea005 sign-compare: 32-bit support
-         14a2f93f8e603e6dff96b865ba038239574999e1 Merge branch 'ps/build-sign-compare' into seen
+         18d5ff83007b860969e07d61ab548bfe38b91a2e foo
          
