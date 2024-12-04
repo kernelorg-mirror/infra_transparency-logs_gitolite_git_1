@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8756211692887843201=="
+Content-Type: multipart/mixed; boundary="===============5700585976223494596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 04 Dec 2024 01:52:34 -0000
-Message-Id: <173327715450.3862321.18348959910931550054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Wed, 04 Dec 2024 02:26:46 -0000
+Message-Id: <173327920616.3889195.2461069429108202245@gitolite.kernel.org>
 
---===============8756211692887843201==
+--===============5700585976223494596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/cpupower
+    old: 47d7650b9cb10381e5472840cf180a803f61fb0e
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-9852d85ec9d4-40384c840ea1.txt
+    log: revlist-47d7650b9cb1-40384c840ea1.txt
 
---===============8756211692887843201==
+--===============5700585976223494596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-47d7650b9cb1-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============8756211692887843201==--
+--===============5700585976223494596==--
