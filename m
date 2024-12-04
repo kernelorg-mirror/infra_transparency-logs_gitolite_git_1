@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0568455652511258347=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 04 Dec 2024 12:12:00 -0000
-Message-Id: <173331432063.182514.16878270246500457457@gitolite.kernel.org>
-
---===============0568455652511258347==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 04 Dec 2024 12:12:35 -0000
+Message-Id: <173331435551.182928.9848792876677863311@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.13-2
-    old: c6940e586d458b39e9700cef8c3a6aaa3aee3e82
-    new: acb8a425633200cb8eee9b5d7389cd0a584d35f3
-
---===============0568455652511258347==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733314347 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1733314318-283c872dfd13e18d6e11c6e7273f8371fd2ed513
-
-c6940e586d458b39e9700cef8c3a6aaa3aee3e82 acb8a425633200cb8eee9b5d7389cd0a584d35f3 refs/tags/platform-drivers-x86-v6.13-2
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ1BHLgAKCRBZrE9hU+XO
-MW1+AQDisYlLDmQ5R8JO6yUFGcL1UMd0ITNpYoMO2CIHyPrdrgEAzZXNXxhy2FsV
-azTv+1j4oCqVM7k2q/VxfNVqh78czwc=
-=0yeQ
------END PGP SIGNATURE-----
-
---===============0568455652511258347==--
+  - ref: refs/heads/irq/msi-parent-arm64
+    old: 76bddb0616e5e18418636246423ea9ed696b8ee5
+    new: e2c3bfbc9dab650b81e2d37b0b4319d80cfac657
+    log: |
+         b9120a4444f02ddd18ac649565e666c2acd67aa8 irqchip/gic: Convert to msi_create_parent_irq_domain() helper
+         e5f318b6f2dd3747826d801ac5ad4e7e89ac85f1 irqchip/mvebu: Convert to msi_create_parent_irq_domain() helper
+         46264d2903761a1677213c8e318bc36ecb045902 irqchip/riscv-imsic: Convert to msi_create_parent_irq_domain() helper
+         18f2be37744263ebe2c03c61b2d01d662201cfe1 irqchip/imx-mu-msi: Convert to msi_create_parent_irq_domain() helper
+         987100423e76165cbb6d8563b50ca2e24232b233 irqchip/loongson-pch-msi: Convert to msi_create_parent_irq_domain() helper
+         bbd5560d42bd75f3e590de38a81d95c6d2643401 iommu/amd: Convert to msi_create_parent_irq_domain() helper
+         49a2cef4df3c190611401b061ac7bb9bf0ca1de1 iommu/intel: Convert to msi_create_parent_irq_domain() helper
+         bee2d9b565c4935b96b7e14a1a1dbeb3635b4882 PCI: apple: Convert to MSI parent infrastructure
+         e2c3bfbc9dab650b81e2d37b0b4319d80cfac657 PCI: xgene: Convert to MSI parent infrastructure
+         
