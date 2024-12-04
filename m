@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1192703605649500246=="
+Content-Type: multipart/mixed; boundary="===============2217940584712755989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 04 Dec 2024 01:51:26 -0000
-Message-Id: <173327708619.3861640.18037476149803742574@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 01:52:05 -0000
+Message-Id: <173327712532.3862059.8610979589142113147@gitolite.kernel.org>
 
---===============1192703605649500246==
+--===============2217940584712755989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/next
-    old: a44c26d7fa74a5f4d2795a5c55a2d6ec1ebf1e38
+  - ref: refs/heads/devel
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-a44c26d7fa74-40384c840ea1.txt
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============1192703605649500246==
+--===============2217940584712755989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a44c26d7fa74-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============1192703605649500246==--
+--===============2217940584712755989==--
