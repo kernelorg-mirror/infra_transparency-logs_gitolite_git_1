@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8279820710748919999=="
+Content-Type: multipart/mixed; boundary="===============6304122475185745369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 Dec 2024 15:21:53 -0000
-Message-Id: <173332571393.345800.18305045683242624920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 04 Dec 2024 15:21:56 -0000
+Message-Id: <173332571697.345898.12210839013056441991@gitolite.kernel.org>
 
---===============8279820710748919999==
+--===============6304122475185745369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4
     new: ceb259e43bf572ba7d766e1679ba73861d16203a
     log: |
          ceb259e43bf572ba7d766e1679ba73861d16203a spi: intel: Add Panther Lake SPI controller support
          
 
---===============8279820710748919999==
+--===============6304122475185745369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733325740 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1733325711-385dd9db3cc94a59e1712045e76f86b096d858ef
+pusher C3F436CA30F5D8EB 1733325744 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733325715-848d738aac34e2a9ae344426f1d68df1d242a075
 
-1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 ceb259e43bf572ba7d766e1679ba73861d16203a refs/heads/for-6.13
+1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 ceb259e43bf572ba7d766e1679ba73861d16203a refs/heads/spi-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdQc6wACgkQJNaLcl1U
-h9BQnAf+PlwY2Uo01vzRo1BjsNxw1YResMBYTxOb67ymS6nmPTKKwPaReekZCdbi
-lFfZkA6uE0Pukf+Lf3XBihZaoF/Rj8trPd62qzXWbVm9kTBJSG6xZ9hr/xnixGXe
-81DPZdpNKSeQDcNMBF1mZ+bdUYnRxCm6m9B8E9JQdjygXiBc8DYwRgSyL9AsTwBV
-5uRKqt9KuOTVIKchrPQW6m5xBsNWUuULedqRI+2hQKXT+Kb41lo/DDOhMij1Blf5
-MEf1oywtr4fAPUM2aPnq2Q84oS1CIxe09Kgg14ZbuTZJ9/gXgUPoZ3tLugktPyoC
-1iMeOohtn92Q9GUosnOhAL103mgYUQ==
-=xc8e
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdQc7AACgkQJNaLcl1U
+h9Bstwf/UUGAk+ykqEhhKI4CfmvfAi9LQtJlK7BLf76LmaeSqKxHje/x/Xv8vNGu
+8YO23z71HTB5LbpHEluojD+U0xtDQZTlf/t5VeGy8URh1WuxvvC0Z96B8YHDdGlb
+ODBeG7VLdmgepWIaJfxhoXUE5OvjuwYW0oTDwnb0JrUQxLW1yFtvuKTQPDJJLzqt
+fJuxnDWKTUYDkIT2Qat7PmB9kq88jq1Ajjb/MQNAtK8KDvQGbof8xoylde1RZBnv
+kZro5dqy0Ng3Mw3RNdSTKVYpR7WZJBy+BXxm9PY7uKKGL2JXh6232RrWUh2ya4N1
+N8+ZZqWnUs+zWKXR7UqCxXjTq2qg6A==
+=+Plo
 -----END PGP SIGNATURE-----
 
---===============8279820710748919999==--
+--===============6304122475185745369==--
