@@ -1,69 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0521428043384767975=="
+Content-Type: multipart/mixed; boundary="===============5283487333178646620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 04 Dec 2024 07:06:12 -0000
-Message-Id: <173329597242.4130189.12491602883712936160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Dec 2024 07:51:34 -0000
+Message-Id: <173329869436.4165674.766980669480106172@gitolite.kernel.org>
 
---===============0521428043384767975==
+--===============5283487333178646620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/rxrpc-iothread
-    old: f639791f38d6bff38e16aec37902fe76f6b7bfbc
-    new: 752851f921a235645fce8bdb3d696f70b364435a
-    log: revlist-f639791f38d6-752851f921a2.txt
+  - ref: refs/heads/master
+    old: 5094eac802ea76fd558b18a2c379a10135fbac31
+    new: 7ef0bf97b43333f136e54ae83ac7011e8138c5dd
+    log: revlist-5094eac802ea-7ef0bf97b433.txt
 
---===============0521428043384767975==
+--===============5283487333178646620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f639791f38d6-752851f921a2.txt
+Content-Disposition: attachment; filename=revlist-5094eac802ea-7ef0bf97b433.txt
 
-924bb55705371724b97eecd1b25588c9f560948e ktime: Add us_to_ktime()
-1d7649ca3ebcb6c6a3d94a78991b2b735c71b577 rxrpc: Fix handling of received connection abort
-eaeab71d1f35ee77dfdfc62d4b49340eb42b7c49 rxrpc: Use umin() and umax() rather than min_t()/max_t() where possible
-2f18ab11be1b3d490626d85a404460160d4528f0 rxrpc: Clean up Tx header flags generation handling
-0c48a0c8dc06ae94a89b6ade72ed88354d37b8a1 rxrpc: Don't set the MORE-PACKETS rxrpc wire header flag
-817e7aef64e05bffe7a7c155b97732f93d9653fd rxrpc: Show stats counter for received reason-0 ACKs
-cd033f4739c6dbf36f23d0ceae653d04550eabf4 rxrpc: Request an ACK on impending Tx stall
-e794c6de7846002bbc35642ad388a01662e3e30a rxrpc: Use a large kvec[] in rxrpc_local rather than every rxrpc_txbuf
-660c80a9a186e12e47fca9a0b34d2af7a5d15c55 rxrpc: Implement path-MTU probing using padded PING ACKs (RFC8899)
-1208c6beaeadecec2c7fe5e0cee63e4b6476e856 rxrpc: Separate the packet length from the data length in rxrpc_txbuf
-90268e1642bd0e270e63a682b9492bc782ab8500 rxrpc: Prepare to be able to send jumbo DATA packets
-3f0cb46d4c4d3c592d05a0f090d7ffbb7a08e7a6 rxrpc: Add a tracepoint to show variables pertinent to jumbo packet size
-fc33be1b070453fce6949f661e8ba9e2abbb52d7 rxrpc: Fix CPU time starvation in I/O thread
-1d18ed9ccfc1f8d8fd8931f13bb1e9fa0f62f47a rxrpc: Fix injection of packet loss
-941f70d6476773f2503aeff8a146faf772a5649c rxrpc: Only set DF=1 on initial DATA transmission
-2fe88fa5d4013d4140178eb2875ba715e023b0f8 rxrpc: Timestamp DATA packets before transmitting them
-6c834db2c2d274a08e0872dc143c689ec44cc024 rxrpc: Don't need barrier for ->tx_bottom and ->acks_hard_ack
-d4ac8f3c13ed8795fe790f133932a5556b7f5bc3 rxrpc: Implement progressive transmission queue struct
-7a8ee9b25395297de7497259a5ececa18d5a23dc rxrpc: call->acks_hard_ack is now the same call->tx_bottom, so remove it
-dc1b2dbb0077b24f63130a5c39558afa4792c329 rxrpc: Replace call->acks_first_seq with tracking of the hard ACK point
-65525a007b25abf9d5a368aab466ad1e96feda0c rxrpc: Display stats about jumbo packets transmitted and received
-fa8462ffb5c5e1eebf00f9ce05d26eefe563ab8f rxrpc: Adjust names and types of congestion-related fields
-1d1cb368b9614de161557e92a2ddf6f9478484c7 rxrpc: Use the new rxrpc_tx_queue struct to more efficiently process ACKs
-4d359de7088a4b8bf59dd5f4a410aa54fabba119 rxrpc: Store the DATA serial in the txqueue and use this in RTT calc
-cb4bfa834af7101b92635c523cc2f9397863da9c rxrpc: Don't use received skbuff timestamps
-67573f8c70faa8b145cd2a8a12c18760723e6989 rxrpc: Generate rtt_min
-d1dfb10b21f351ad699d81068f659fd13e5d79c3 rxrpc: Adjust the rxrpc_rtt_rx tracepoint
-d0251449d440a49704de5638abcec3536459e7b9 rxrpc: Display userStatus in rxrpc_rx_ack trace
-a0298e449bd3f8b702901246aa82a73429ecba36 rxrpc: Fix the calculation and use of RTO
-10852f18a987f9778f1075393f2c95202414a1f0 rxrpc: Fix initial resend timeout
-de01ab3569db7cb4bd3ce4c89ae8c3276d5b6180 rxrpc: Send jumbo DATA packets
-43d5f9f3fa60e0c8edeaff17725bbe2f51a7a776 rxrpc: Don't allocate a txbuf for an ACK transmission
-6863fa291fd48d6735d148436d12903144c78f71 rxrpc: Use irq-disabling spinlocks between app and I/O thread
-ed790712f8560addfc7672031309ca4bbdd3c2dd rxrpc: Tidy up the ACK parsing a bit
-f0c3a4e1738c51fc3c68359c5b27d1bf2b0fc519 rxrpc: Add a reason indicator to the tx_data tracepoint
-d3f646059b0a0e7d5d551507b2b504ff1b6f80ed rxrpc: Add a reason indicator to the tx_ack tracepoint
-9ef7daf702aad0c9da61e0f6f2fbaa111e7e1d1c rxrpc: Manage RTT per-call rather than per-peer
-b65f49530062549f97ef54d1d00ef63b83d182fa rxrpc: Fix request for an ACK when cwnd is minimum
-752851f921a235645fce8bdb3d696f70b364435a rxrpc: Implement RACK/TLP to deal with transmission stalls [RFC8985]
+45f69d091bab64a332fe751da9829dcd136348fd xfs: eliminate lockdep false positives in xfs_attr_shortform_list
+652f03db897ba24f9c4b269e254ccc6cc01ff1b7 xfs: remove unknown compat feature check in superblock write validation
+13325333582d4820d39b9e8f63d6a54e745585d9 xfs: fix sparse inode limits on runt AG
+c9c293240e4351aa2678186cd88a08141fc6ce9e xfs: delalloc and quota softlimit timers are incoherent
+a8581099604dfa609a34a3fac8ef5af0d300d2c1 xfs: prevent mount and log shutdown race
+ac6f420291b3fee1113f21d612fa88b628afab5b quota: flush quota_release_work upon quota writeback
+c5566903af56dd1abb092f18dcb0c770d6cd8dcb udf: Skip parent dir link count update if corrupted
+6756af923e06aa33ad8894aaecbf9060953ba00f udf: Verify inode link counts before performing rename
+214093534f3c046bf5acc9affbf4e6bd9af4538b xfs: Use xchg() in xlog_cil_insert_pcp_aggregate()
+cc2dba08cc33daf8acd6e560957ef0e0f4d034ed xfs: don't call xfs_bmap_same_rtgroup in xfs_bmap_add_extent_hole_delay
+05b36b04d74a517d6675bf2f90829ff1ac7e28dc btrfs: fix use-after-free in btrfs_encoded_read_endio()
+7d6872ccbd56c310d2b9658ecaeafeda258727b6 btrfs: fix deadlock between transaction commits and extent locks
+b188ad7791899da8afe937e439e3086ffddd84a8 btrfs: sysfs: advertise experimental features only if CONFIG_BTRFS_EXPERIMENTAL=y
+ed67f2a913a4f0fc505db29805c41dd07d3cb356 btrfs: don't loop for nowait writes when checking for cross references
+3ed51857a50f530ac7a1482e069dfbd1298558d4 btrfs: add a sanity check for btrfs root in btrfs_search_slot()
+7c4e39f9d2af4abaf82ca0e315d1fd340456620f btrfs: ref-verify: fix use-after-free after invalid ref action
+22d2e48e318564f8c9b09faf03ecb4f03fb44dd5 btrfs: fix lockdep warnings on io_uring encoded reads
+9141c5d389a9ec80121de3125cde7c713726ceea Merge tag 'xfs-fixes-6.13-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+7ef0bf97b43333f136e54ae83ac7011e8138c5dd Merge branch 'linus'
 
---===============0521428043384767975==--
+--===============5283487333178646620==--
