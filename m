@@ -1,58 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============1727946325463625053=="
+Content-Type: multipart/mixed; boundary="===============4402298380659492839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 04 Dec 2024 15:55:40 -0000
-Message-Id: <173332774038.377961.10248498790882787186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 04 Dec 2024 15:56:48 -0000
+Message-Id: <173332780881.378658.10271454491918090720@gitolite.kernel.org>
 
---===============1727946325463625053==
+--===============4402298380659492839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/staging-testing
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
-    new: 724cc0cc17d9431f59b69f1e1d22c880c1e7ba60
-    log: |
-         642aadf148573d0b6c43707593ff144e0aaea9a6 staging:fbtft: Using str_true_false() helper instead of hardcoded strings
-         da6c337a8c075de5bf96139321fa4f67e004dd38 staging: rtl8723bs: change pointer initialization style
-         724cc0cc17d9431f59b69f1e1d22c880c1e7ba60 staging: Fix tnt4882 license to be SPDX compliant
-         
+  - ref: refs/heads/main
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: b81e0211e9c70be9eb70924e4e29698bfbbbc03a
+    log: revlist-40384c840ea1-b81e0211e9c7.txt
 
---===============1727946325463625053==
+--===============4402298380659492839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733327766 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1733327737-959393d9ad4f8e770ddc596d88b48f20003cb9e0
+pusher 7BF9099A 1733327806 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1733327777-aba3bd002a88c9290e09edc7c42c4ca8896a4fb2
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a 724cc0cc17d9431f59b69f1e1d22c880c1e7ba60 refs/heads/staging-testing
+40384c840ea1944d7c5a392e8975ed088ecf0b37 b81e0211e9c70be9eb70924e4e29698bfbbbc03a refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQe5YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZTYP/1frXlWCFFewKEnbJtIU
-pIit90Kv7cusjmxMbkCxXvo2CWvROuzUYH3LoEbLueSP4uZ3nPEqAQxksgROfVub
-asdNnYjx1mbN7UlBq675pv0T2yN0yzCpWVboFFKKNuBLYaALCwugiYrIHJjwb/Ne
-hjtWi0qCARa4kd3m/WFKT/8FGUlGAgLT7Ml6F6cjY6o4rUr7CkP/Yf/0NcFncwzJ
-YN6SuF9x4eh9cA3nGeF1qU6AmjhbWIYzqz/akGL47IXpWmVNcrrqi7qqVB7yWRja
-y6KhUJPWqIDexi3eNJXzuGz25by1Q3BkrtxZ0FnJZp1UUqhgwTPMFmLAChmKPomU
-YM+G4S3iT+rEMKtN3+NOkbsacBvYtyuj22VETEr7E/2Qo4rdd8Zf8kml3kaP1IWy
-ZVorq/gnxgdCMZekobOLf0gPhmDRJRjnC6Z9vWA+5hgHVItVPt/1fAkys64Em2A8
-0bkbOc+TgvuOXmsG/GaAAnpAhUmgm6wsf0Iq0+dpwhYAhAbFsMMbVU9YWt+9dVxW
-agouEin9AkbBT2Iz8OTDuaNoBbhobXUIF6A59JvpTddQHQvZr0vBz7MAd7tXwunU
-eieGAJDx8khMYJrV1Rs3EFGcAnuI4zu/SZo8ZJ68eqGx6RFVxLC20+LpCuEAAvu7
-voo5L5wMElU0W2j6UZ3BGxKZ
-=H16L
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmdQe74ACgkQ10qiO8sP
+aABnQA/+PoJ9EdvK9f7d4V/ue4FyE2BIal/c497PADcWIawtTi8M7CR/D8vfVliH
+5TbjliTD5Fye78UWRU37MPeQafp0IRrD/nbvY4WiKkVvDvwHlU0p8zxMt9z7+zOr
+VBoqdfCLcukywTJSZA+GGwh5S2yP4TpLDsVn3h2n8lJEOI5yXs6lznKQS59AgUIl
+N+ucVuO8AtjZzwDwWcwC/SGSrhGzLWTUEkvWwuxbyW7DHUgytciD5GTgaxXbFumN
+8l8a5b+PN/PmktvUn5rV89tzEL9pl/OsWCxOl3hqYkznnxzwsWjj7ZyXVY2ywAGd
+Jm5KGwr9a3dld0nQsf/PYj04aXVXDhx2DTVmQUeyHt6FG+upWdMnXn0wKgnuJ4iS
+EGwOao2p3XYt3reEbsBTaPFwn1f8bq2FtxtFze7/Xx0vq6kq+OKTlNqZzT71lqZ5
+JTH5K6+KEzJ0Yw8BodtLhRe5yU5OUkppeu9Ar6NfBgnt7cYMKH1vle2aRURL6QDa
+opppCpFf8LM5s0kYBjOt/FfqSkrYStMI/FbulwMoLai107QfEqsIKqfOhWlrYr/F
+DJ316JIISvLgQrPwu9k0ix6n6APJf9Ih8SFjHC8vD+C0HLqPcIrcA4FiS55rc2Vv
+alDEOWu2BcZKFoHa5y3nrDKgIQqzVwSR4/Df5BoPDtLJUFZf2UA=
+=79bj
 -----END PGP SIGNATURE-----
 
---===============1727946325463625053==--
+--===============4402298380659492839==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-40384c840ea1-b81e0211e9c7.txt
+
+1b5b7f3d29dc705bdeb3d2663df1b4617276491a wifi: mac80211: fix variable used in for_each_sdata_link()
+bee404e14477917c2e15f78b2ad1ea443939720c wifi: mac80211: Accept authentication frames on P2P device
+f42d22d3f79639c1b4e41daf28dad2505d6a5a8b wifi: cfg80211: define and use wiphy guard
+8e66f6c6738e5b458345cd5f75ef6da035d95599 wifi: mac80211: use wiphy guard
+13c4f7714c6a1ecf748a2f22099447c14fe6ed8c wifi: cfg80211: tests: Fix potential NULL dereference in test_cfg80211_parse_colocated_ap()
+4e3a841c47bbf985782a9f761d57f2f999e1d31b wifi: iwlwifi: mvm: Replace spaces for tabs in iwl_mvm_vendor_events_idx
+7a53af85d3bbdbe06cd47b81a6d99a04dc0a3963 wifi: cfg80211: send MLO links tx power info in GET_INTERFACE
+24dab555ad5951824e3fb6b665aaca84ac69dd12 wifi: mac80211: get tx power per link
+4f85a3b370e6f1a353cfbbfb5c398590dfeca9d7 wifi: mac80211: ethtool: add monitor channel reporting
+b63a95d35f7ff59329257cfd31f990b3b295a242 wifi: mac80211: add EHT 320 MHz support for mesh
+b81e0211e9c70be9eb70924e4e29698bfbbbc03a wifi: mac80211_hwsim: add 6 GHz EHT Mesh capabilities
+
+--===============4402298380659492839==--
