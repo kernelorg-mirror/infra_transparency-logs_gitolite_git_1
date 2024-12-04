@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8738673548585959175=="
+Content-Type: multipart/mixed; boundary="===============4030457259536573299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 04 Dec 2024 09:35:30 -0000
-Message-Id: <173330493023.56501.7731075824773759632@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 09:35:39 -0000
+Message-Id: <173330493935.56754.16390089545450104663@gitolite.kernel.org>
 
---===============8738673548585959175==
+--===============4030457259536573299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 9d05ae2f489adaaebbebeb5a16c01b1ce2196dd1
     new: 954fbf43e5661c78008e9054839a9f1595fc708e
     log: revlist-9d05ae2f489a-954fbf43e566.txt
 
---===============8738673548585959175==
+--===============4030457259536573299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://g
 a8901a32b43d6ec3f9864a5d8e59489cf51ec791 kbuild: deb-pkg: do not include empty hook directories
 954fbf43e5661c78008e9054839a9f1595fc708e kbuild: deb-pkg: allow hooks also in /usr/share/kernel
 
---===============8738673548585959175==--
+--===============4030457259536573299==--
