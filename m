@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 04 Dec 2024 14:32:16 -0000
-Message-Id: <173332273614.299447.14039274998272276353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 04 Dec 2024 14:34:41 -0000
+Message-Id: <173332288124.300973.3713251219567092590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: b95256b0edb4377a39b2315203b30361026b2fc4
-    new: 3e92ab9f700b73c55a18ba897eb6db3c07561173
+  - ref: refs/heads/i2c/i2c-host
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 6c46f491e5250f2f9942eed1e2077ac97e8383bf
     log: |
-         3e92ab9f700b73c55a18ba897eb6db3c07561173 nfsd: add support for delegated timestamps
+         6c46f491e5250f2f9942eed1e2077ac97e8383bf i2c: keba: drop check because i2c_unregister_device() is NULL safe
          
