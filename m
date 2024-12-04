@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2217940584712755989=="
+Content-Type: multipart/mixed; boundary="===============8756211692887843201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 04 Dec 2024 01:52:05 -0000
-Message-Id: <173327712532.3862059.8610979589142113147@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 01:52:34 -0000
+Message-Id: <173327715450.3862321.18348959910931550054@gitolite.kernel.org>
 
---===============2217940584712755989==
+--===============8756211692887843201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/test
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============2217940584712755989==
+--===============8756211692887843201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============2217940584712755989==--
+--===============8756211692887843201==--
