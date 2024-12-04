@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Dec 2024 03:04:38 -0000
-Message-Id: <173328147835.3920840.10099608352607265380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Dec 2024 03:04:41 -0000
+Message-Id: <173328148137.3920931.11515207748966515416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: af8edaeddbc52e53207d859c912b017fd9a77629
-    new: 94071909477677fc2a1abf3fb281f203f66cf3ca
+    old: ebf7f7d616818f2841c8aece14084e87d59bd8c7
+    new: bb18265c3aba92b91a1355609769f3e967b65dee
     log: |
-         cecc1555a8c2acd65f9d36182c28ae463db0ad7e net: Make napi_hash_lock irq safe
-         3d501f562f63b290351169e3e9931ffe3d57b2ae Revert "udp: avoid calling sock_def_readable() if possible"
-         94071909477677fc2a1abf3fb281f203f66cf3ca ethtool: Fix access to uninitialized fields in set RXNFC command
+         2e20bf8cc05766dcd0357cdfcada49e1bc45512b r8169: remove unused flag RTL_FLAG_TASK_RESET_NO_QUEUE_WAKE
+         bb18265c3aba92b91a1355609769f3e967b65dee r8169: remove support for chip version 11
          
