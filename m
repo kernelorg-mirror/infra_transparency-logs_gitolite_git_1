@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7772118297237662914=="
+Content-Type: multipart/mixed; boundary="===============8686822511833499402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 04 Dec 2024 15:05:53 -0000
-Message-Id: <173332475315.331172.7142177484189719543@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 15:06:27 -0000
+Message-Id: <173332478768.331489.2248449100903117698@gitolite.kernel.org>
 
---===============7772118297237662914==
+--===============8686822511833499402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: b9293db698d40055c440a3a3a0bd5aad47ab1a51
-    new: ff479c2412471d3123e722a27a87405cb98ee4b6
-    log: revlist-b9293db698d4-ff479c241247.txt
+  - ref: refs/heads/class_cleanup
+    old: de8858a0bed253306ab12c22104d5f90c9351ebc
+    new: ea67427643c6af2f731a7b2e42ca6e36cb89589b
+    log: revlist-de8858a0bed2-ea67427643c6.txt
 
---===============7772118297237662914==
+--===============8686822511833499402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733324775 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733324812 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1733324746-895ae8a2486a3887b437cd25e99d7a9cd44ccf77
+nonce 1733324783-b9ad141e562d21c43174d67076dcc670417ced59
 
-b9293db698d40055c440a3a3a0bd5aad47ab1a51 ff479c2412471d3123e722a27a87405cb98ee4b6 refs/heads/bus_cleanup
+de8858a0bed253306ab12c22104d5f90c9351ebc ea67427643c6af2f731a7b2e42ca6e36cb89589b refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQb+cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bt8QAK2x+XEjUURuGOncosK0
-xOIMXBxsohu1r7kHKkSEI1MI3aunQ0v7RZDvdc8zonutl8NjHzvUdr14bu+szzQB
-QAziT2SM1pDGM0pS/tO6iPuY3jspdnmA+ZzoAkDSt1fh2lc/plJoCbKipmQhV46R
-TYt9QB6E5ZfoAD3nnyu81odqc1VURhlG9SqYnC5XYckkrL+DIrBBD76Q0XrtXdhX
-eAnWNJq2E4t0W0XcFnLmwpKS/YI4sn1tUgU7JnLDbVc7AInJchv8lgugdtTq5CoG
-w6k1rCitHDbrbAPdygvoFBatslJjUCIEMLcyQ9Bg6FBHzWkoKlICH9OJq1dpBl3K
-ZrgHOMOapAveIJLf0pH5ddHWQwlbFRi4/9XPAYMCvZ/qzpVG4PQcOzWZ3FWwFa3X
-F+fh0ME50mG56/nC7JZMduxs1NJHlzGUHb4N9Aq4BfOglCvMYR/RvXYOFfaWCOBS
-Hyu6V4Z5Xae/sziggBsHDhm0d6PKA0sF84wvS/yRchFGo8BpZzC9SeWoDxTGBwVK
-LCeg/U3F9DScKR8j08SuG+SNaz5obpOtM7IYKgCBLYhQgw47UNtrymIBAt3CQwSJ
-fqjMGCw89kGyjbCeFcbgH7Se5B9+odxZ0BfMwVV2GECcsZjSRWxCrgNHsnPosb8I
-6QbTJyh4TyBt5T09dbv/Iu8z
-=TSdy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQcA0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mt0QAMeEVTruXdSZuB4C1UNy
+Zm0ybZfIeiV81sagIgjMfOhmOe+xAsuQCsYHIl23o0pZj/cAmCwNGdDwaspXznIq
+qdJ2C4CSFPCcuV5YKFh7qnf36DNBw6mERAHc9jf76yxfWmW1G7DHTAITBpTz4fwH
+1XV/TfOTTdPn2lA5uSUimW8byoCJrNfwugNBIloYnqwGVr56DL0uPah/ZFzE0QV7
+OUHVHj3sg3OyBIARX577TBSR0NmzucWgjfB1XRmaseEPiZAtiAIdFRyJ4YotWRTn
+mLkes2pOL1hNPNIwK+QBq+z3Hqe1MdnaMkT//5xO8/lA/jxvbbdGLk091twpDZp4
+BcA5i0hfT+ZZcHUL9dqyZAhLCLnCItWm6N0b6Iea6lC3zcRiMqpKHgDaikZJw1Cw
+w49OzEybgzpQRx0DluPzYKgBCUiyMI0+8VZIx8++j6K7u5cK2JwEtz8WqWHUwfRZ
+TOXHiqpzWmBjVsnGLdc2+0sXC8soXTqgzKy5VFbm4OTTc/B8WqNDBfCXeBAbwGLo
+l87XEgAMLvqWJjZDAYAhsfjVzzyAp21D/imtGwPj/JBcEdzwVqnMKtlewx8eIYgD
+hiD6OvEzEzOp/3uQxHWhqNnP6HVKun7nf/Vw3LObGdcE4JWo2rRumT/DE/Acxzkg
+/gWZ1qxICPMDSNA4cGbS+4wK
+=jvh/
 -----END PGP SIGNATURE-----
 
---===============7772118297237662914==
+--===============8686822511833499402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9293db698d4-ff479c241247.txt
+Content-Disposition: attachment; filename=revlist-de8858a0bed2-ea67427643c6.txt
 
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
-82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
-65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
-a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
-b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
-9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
-d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
-390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
-9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-359bfdc3c99191aa4266ad582f6bbc182841d11e Merge branch 'for-6.13/corsair' into for-linus
-22380b5f03ae246c02abe361d0a075cd674ca3fe Merge branch 'for-6.13/core' into for-linus
-ffca1be9b4b3a72cf0c2796413101ba425225f48 Merge branch 'for-6.13/bug-on-to-warn-on' into for-linus
-903796855b6152c479bae07dcebded77897f9e1c Merge branch 'for-6.13/bpf' into for-linus
-9c0ba14828d64744ccd195c610594ba254a1a9ab blk-settings: round down io_opt to physical_block_size
-7643155dce1428fd63e47d7afe8bf3dbca20cc25 jump_label: rust: pass a mut ptr to `static_key_count`
-7e86490c5dee5c41a55f32d0dc34269e200e6909 pinctrl: k210: Undef K210_PC_DEFAULT
-c6d64479d6093a5c3d709d4cc992a5344877cc3c Merge tag 'pull-statx' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-ac6f0825e582f2216a582c9edf0cee7bfe347ba6 pinctrl: airoha: Use unsigned long for bit search
-5bf99baefb3ebebb13128ebfe58ebc6add5afd43 dt-bindings: net: renesas,ether: Drop undocumented "micrel,led-mode"
-3e7447ab48d101353c3e5be29e6ff0d322fa5a95 Merge tag 'ext4_for_linus-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 c14a8a4c04c5859322eb5801db662b56b2294f67 Merge tag 'for-6.13-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 3d1b536c13f7cd966aa660d1730855b26d01c9ae Merge tag 'ata-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 77a0cfafa9af9c0d5b43534eb90d530c189edca1 Merge tag 'for-6.13/block-20241118' of git://git.kernel.dk/linux
@@ -1079,7 +1047,39 @@ a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of g
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
-52ae6a0bd185c0ef3cc32448d205ff2a675d3869 FIXME: cdx: make cdx_bus_type constant
-ff479c2412471d3123e722a27a87405cb98ee4b6 make a bunch of struct bus_type const.
+6759175cf433b76ba1413e19b86a69ae3171205a powerpc: cell: make spu_subsys const
+7fd681ae98ea89eb84512670c88a69faafd4ea93 powerpc: ps3: make ps3_system_bus_type const
+d1079c8b74ad2c8dc379649a042f49cc2beb0a30 powerpc: pseries: make cmm_subsys const
+78123b0de043adb043162a843d09b6e504737700 powerpc: pseries: make suspend_subsys const
+11d337b248ea0123dcb004078213ef1d3cd23edd perf: make pmu_bus const
+cf24d0fb74aaef6a15d922510e0770a1a01cd9c2 drm/dp: make drm_dp_aux_dev_class constant
+161ec6be4d0a62b2b502f4ec53e512f804756796 drm/sysfs: make drm_class constant
+8d5983cb4134caa476edbdf2d7ee6f5910decd3d drm/fbdev/core: make fb_class constant
+c101c3856b82c49cbdfce506d8341a6f7fc3ad47 dma-buf: heaps: make dma_heap_class constant
+9f59f448810dc6516ae0f942e4eae0da2e020332 media: dvbdev: make dvb_class constant
+20f6a1dcda4675f9448f5c4c97c3241e519a6bbc drm/dp: constify the struct device_type usage
+87e3d32eabbe74a8a0982ddc7786a45c23730da2 drm/privacy_screen: constify the struct device_type usage
+1c0c1095cc3babaac8721ed0aeb1ffba6d92762c drm/sysfs: constify the struct device_type usage
+6971bd41227158b8e55b1e29e73204aa3958ea8a cxl/port: make cxl_bus_type const
+c42126a2655f0361cd991a801735cbd9cc731d0e ARM: sa1111: make sa1111_bus_type const
+93e8774e69911c77cbf8846e5a71d1ddd27c35e8 ARM: ecard: make ecard_bus_type const
+15c7a7c385514cd856d57ea7a0e5425c35d630b8 fsi: core: make fsi_bus_type const
+d96e34afe4c86dae94cc16a4f32b7f947938f0da bus: mhi: ep: make mhi_ep_bus_type const
+30c6cd495a0522b5afc97598c4fac51678cffaa7 rapidio: make rio_mport_class constant
+489d0db5bbb3be221c5a5524a7c8bd2bd5694b14 pps: make pps_class constant
+688fb0e14031c9e26e1b9118841af057223db597 nvmem: core: make nvmem_bus_type const
+1b35f931e3443936402e2fc3ce1d7bbda3b8990e intel_th: make intel_th_bus const
+a89914b7e0366303e8913635e80ba53af4a2a9dc EISA: make eisa_bus_type const
+785e2123f44842fe2e4ec9d2e86fda0ff5c49e94 parport: constify the struct device_type usage
+64cd1619ae094173c9f1bff27d70a5175e1548a3 bus: fsl-mc: constify the struct device_type usage
+201305c0975f2b49ce6f34bfe123b92c3a130dc9 coda: psdev: make coda_psdev_class a static const structure
+60e6ec89422240428de457e9bede5b159127fc51 cuse: make cuse_class a static const structure
+234a753869ba277f28ec240dabd07e8d52d83407 pstore: pmsg: make pmsg_class a static const structure
+7ca893d7cc22f34bbcbccd2581faeabf34c0a9f7 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+74758c53861c3f31a33a472b1d1db68e6e87929a PM: wakeup: make wakeup_class a static const structure
+9ceb1bf515cc3a6678d4b8ca8a6cb8a2a544a009 PM / devfreq: make all 'class' structures const
+2aef00a64eb9df108646b4879de4c78bb7dbe5ce gnss: make gnss_class a static const structure
+b2254ff297fea9debe6252926b2e6d181cf10f7c extcon: make extcon_class a static const structure
+ea67427643c6af2f731a7b2e42ca6e36cb89589b misc: c2port: core: make c2port_class a static const structure
 
---===============7772118297237662914==--
+--===============8686822511833499402==--
