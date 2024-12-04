@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7206787632683934771=="
+Content-Type: multipart/mixed; boundary="===============5982436015274982111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 04 Dec 2024 15:57:08 -0000
-Message-Id: <173332782802.378963.10792778090416054752@gitolite.kernel.org>
+Date: Wed, 04 Dec 2024 15:57:54 -0000
+Message-Id: <173332787495.379385.18170292228058259569@gitolite.kernel.org>
 
---===============7206787632683934771==
+--===============5982436015274982111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
-    new: 80242c4a9d50e71a4df1b7fa19b922ac88aab22b
+  - ref: refs/heads/staging-testing
+    old: 724cc0cc17d9431f59b69f1e1d22c880c1e7ba60
+    new: 0a4edbeef1e415f2eeaaae01b129f53f33c24d95
     log: |
-         f580786ea900c74ed8046e617e5030d4c37a578b staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
-         80242c4a9d50e71a4df1b7fa19b922ac88aab22b staging: gpib: Workaround for ppc build failure
+         2ff5bc6f5b4bb531907a9a2f57aec764c57fd4cb staging: gpib: Remove useless include
+         0a4edbeef1e415f2eeaaae01b129f53f33c24d95 staging: gpib: Remove duplicate include
          
 
---===============7206787632683934771==
+--===============5982436015274982111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733327854 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733327901 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1733327825-660a54fefb64a1f4f5740d363b4f7d68c187f5b5
+nonce 1733327872-0b2577ac807e5eabcf50087c806aaffe30a69051
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a 80242c4a9d50e71a4df1b7fa19b922ac88aab22b refs/heads/staging-linus
+724cc0cc17d9431f59b69f1e1d22c880c1e7ba60 0a4edbeef1e415f2eeaaae01b129f53f33c24d95 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQe+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TsgP/0SNmeoBblQDtXnglfi6
-E6wCxsysp79RalAME5pl20tuIGr5GQhGpeyDcYa9wUn17yFiJAlT4Q3rBN5ACp7a
-XhiTLrL7UaU5jyPuBhfP4ds4M6+629BFjg3o8m7rm4Vu9K01+BEtPkNxfvkVM2HL
-9Q7HRrsqd1Bc76n4w5aNtNY3nUp7ynNvEEhMXL1zzEcXfkpHLMKVyIAuQPTMnZWi
-W8dchVsY9bgfYqfSz3vCbyQWe/+330lAA6ukM3vJI+30K5JPdpH/JWG7iw44uLLg
-t2FFtJarTZ4iimKHnnD8MEqDrYgW1inMI/rbqqRwKXqvROBS2o08VDHVvYLZSMgr
-1e8pyFy+m26Ukh+3Wbbybes3NpCm/gwKsncIjLchtflPsBrLPLUBkUM3LVbgNaPA
-9NXlrEJPccNwb+cEUwsca6nVC6tN5UuZ8eXiOCnLy9KOLE+RMhPicLvH6qfoZW9d
-THiAuMrD9FSer+xC4MZjtpPgmix81sPiyP9JexGyZNBIbbMUGgk9hs63XGk8a6EW
-o/Evb496WHSc24Xs5g7BKRssnUFiPa3sDjh1cauOe7Sb+bJL5B9CPWM13TNxLdEi
-qa0R6ZZx8vZ3cOBZHu3Mue5769WOTyWcWmbs6YFHGSEwNQLC9P4h/dyH/IdQgdza
-Jz/ACaf2vr51DA0zs4XkeVnl
-=Ke/N
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdQfB0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G3oQAL5+PUnU6dVnUn4d2BNM
+GEG+DsOilVwYxBEzaRO0BQIhJt8/+0ncFyz2wn7BxdhJuFo3V/LOLMdUDJXFof7d
+b8uxRympuLDz3I/6ZPlz9Apm7rHn59NeAWUtwemgNaOeRbwVInRiCOhKwag45f4n
++af8bw7Q/GzdF/jGzRaD7cghb3DZaRGqfuNYE+l7XQThjYdU8Fzd2d3OM8Pmyk33
+HhElQwOvuziyBo0tFKnkeS7oc7UzvNa923+GtlrZCdRWUuLAsYoml1qsiFfc/ce5
+p78AuGUxmnLD9suRIv489V4V1nYU4ZCiRhtpz4JRlL5aLabO0Szylu7+ig/HnztU
+3Kaf7VavyI+Q2fWjITMEQIu34JVfsX+r3NieNVXIpUJPLfJtVHn49A8I10ZG5KKa
+S1WRd8x2Q6hpFt7VznfSvnn/ORUbXyB/N4g9y0PswWRuswKKgXmSNnfk0tsQnj7Z
+n8k84rhdMTitrgzcEK0ZliFgqtgZQ1pMhEuPMH8aYHI8tn20S9OU7F19D6FFsXWO
+vYEP8vM8BVMHdCbfVGjtY75nn0CgWjO8cUUzc/rjowf7wXeu4zdyUudZIBWcVOFT
+4Pt3pYI3pjWDo43KXozuacfjY4og42+UQGKr2f+fesOrM3MA9zPzG7Slupf9IE0w
+5tYfY4ZtsYiMc4TnpUTcx2dc
+=tR/p
 -----END PGP SIGNATURE-----
 
---===============7206787632683934771==--
+--===============5982436015274982111==--
