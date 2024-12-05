@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4981035367581272119=="
+Content-Type: multipart/mixed; boundary="===============2989836022616189548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 05 Dec 2024 16:51:53 -0000
-Message-Id: <173341751303.1881122.4028211615989637615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 05 Dec 2024 16:51:54 -0000
+Message-Id: <173341751485.1881196.16680495867389105575@gitolite.kernel.org>
 
---===============4981035367581272119==
+--===============2989836022616189548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: feffde684ac29a3b7aec82d2df850fbdbdee55e4
     log: revlist-e70140ba0d2b-feffde684ac2.txt
 
---===============4981035367581272119==
+--===============2989836022616189548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ ceb8bf2ceaa77fe222fe8fe32cb7789c9099ddf1 module: Convert default symbol namespac
 3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============4981035367581272119==--
+--===============2989836022616189548==--
