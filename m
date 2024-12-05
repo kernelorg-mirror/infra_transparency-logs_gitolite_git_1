@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8126529736605215341=="
+Content-Type: multipart/mixed; boundary="===============6749083934917407521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 05 Dec 2024 03:46:35 -0000
-Message-Id: <173337039561.965336.16551623379573462404@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 03:46:57 -0000
+Message-Id: <173337041767.965681.5282664457689455417@gitolite.kernel.org>
 
---===============8126529736605215341==
+--===============6749083934917407521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: e7d3b4079d01c60568a45237224df4447f140189
     new: 6918141d815acef056a0d10e966a027d869a922d
     log: revlist-e7d3b4079d01-6918141d815a.txt
 
---===============8126529736605215341==
+--===============6749083934917407521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ f10593ad9bc36921f623361c9e3dd96bd52d85ee scsi: sg: Fix slab-use-after-free read 
 b1aee7f034615b6824d2c70ddb37ef9fc23493b7 scsi: storvsc: Do not flag MAINTENANCE_IN return of SRB_STATUS_DATA_OVERRUN as an error
 6918141d815acef056a0d10e966a027d869a922d scsi: scsi_debug: Fix hrtimer support for ndelay
 
---===============8126529736605215341==--
+--===============6749083934917407521==--
