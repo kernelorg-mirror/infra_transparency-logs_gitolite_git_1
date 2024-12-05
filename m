@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3784580297497359511=="
+Content-Type: multipart/mixed; boundary="===============2072441234562643743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Thu, 05 Dec 2024 23:10:14 -0000
-Message-Id: <173344021489.2201483.16195773959747781668@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 23:10:23 -0000
+Message-Id: <173344022353.2201749.6315659959225209932@gitolite.kernel.org>
 
---===============3784580297497359511==
+--===============2072441234562643743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 1aedd4a93c6caf229c39374850a327503f9b95ad
-    new: 7f5bb1e9ed686412e73d132d3e39bfe938b0668f
-    log: revlist-1aedd4a93c6c-7f5bb1e9ed68.txt
+  - ref: refs/heads/fixes
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============3784580297497359511==
+--===============2072441234562643743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1aedd4a93c6c-7f5bb1e9ed68.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1044,11 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-eaa64013ad85d34510da8dccc6ce3a01894aae3b ARM: OMAP2+: Fix a typo
-08272ce1de633bc99342ac1b7a1bb69172058dc0 ARM: dts: dra7: Add bus_dma_limit for l4 cfg bus
-d8efc0b428856137608ffcbb6994da6041c9fe2a dt-bindings: mfd: syscon: Add ti,j721e-acspcie-proxy-ctrl compatible
-1d5e14a20dc60b440c60bec8489acfd45cdf7508 arm64: dts: ti: k3-j721e-beagleboneai64: Enable ACSPCIE output for PCIe1
-93dadbfbd19fa45405e7ef04014c100b4f7a94ca ARM: dts: ti/omap: gta04: fix pm issues caused by spi module
-7f5bb1e9ed686412e73d132d3e39bfe938b0668f Merge branch 'omap-for-v6.14/soc' into tmp/omap-next-20241205.150829
 
---===============3784580297497359511==--
+--===============2072441234562643743==--
