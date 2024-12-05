@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2886083699260412806=="
+Content-Type: multipart/mixed; boundary="===============5889538543607027347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 05 Dec 2024 02:13:50 -0000
-Message-Id: <173336483067.888579.2942238604796253164@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 02:14:16 -0000
+Message-Id: <173336485634.888835.8067494179614895312@gitolite.kernel.org>
 
---===============2886083699260412806==
+--===============5889538543607027347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,64 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e7d3b4079d01c60568a45237224df4447f140189
-    new: 6918141d815acef056a0d10e966a027d869a922d
-    log: revlist-e7d3b4079d01-6918141d815a.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 72fbd78eb7eb031d4b91c18c439ac776a1c5c7fd
+    new: c5d04d07953a23f3bb6d6ec10167a96bcb4d2446
+    log: revlist-72fbd78eb7eb-c5d04d07953a.txt
 
---===============2886083699260412806==
+--===============5889538543607027347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733364857 -0500
+pusher 75C5DE3D 1733364863 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733364829-0645178adbde5617df00e79a0475ef0871242dc3
+nonce 1733364834-5ca0852aacb288b36dbc811a69fa735a29167d0c
 
-e7d3b4079d01c60568a45237224df4447f140189 6918141d815acef056a0d10e966a027d869a922d refs/heads/fixes
+72fbd78eb7eb031d4b91c18c439ac776a1c5c7fd c5d04d07953a23f3bb6d6ec10167a96bcb4d2446 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdRDHkACgkQ7ulgGnXF
-3j3IOw//Va7JFJaVudDoOxibg2RKc+TWSJoXgbK6DoxzXl4fzr+CewusvJTKF3GJ
-20ibbVNFlxo0qG6yic4L+AwmcHgNj9gQirTIK2PfGz9qi1dHDd0Kd1/L945CIaWo
-iEtXkgC8ArW0w4sfj5736mw7E9GGUlPGnoLe2wtxCOGWZfV0dWBuXlNtrPXNQXk7
-YjP7pC+bUHegl3c0+sn/MnFAUpt7+Xzu64RtbLsdDf6KXPQwO7DNNhd0GRnt1QjI
-vGVY+F5NUtKZB982BsU1vv1XJ4FToskeLnqSM0XTgVOAl47peuElsKDrnwzcOCy8
-r8Aal2IVn9i57J83xUY8oHLNQXAFCUEnC45KRs+hJpuHYJ2jy+m9vkW+UrIUU3w7
-DS8+exlDKVuw/rbuKTOlNLUP42nehgdr7j3nt/bbgHD5RMBCgE5GIEj1QEU2WB/6
-xI1CxDpAz2WQwnGuKL+qegHM3N9j4lloqJbx5ToH4PrXJ0vTFmv0KHd88kJ7f0mw
-2LwZB3+67F+FmntKRFSr6Skp2W13fYb/iOW+yL34HnG4am9QdUSSnwPKNNqcW0Yu
-Muh5EYjsRlzAASiFLNK77O4G0WFUx2hz1S924HqnLdkpwR0kfHR4WwBfserdB7Dx
-i9K89BT0FNr308UqF/GFSXllUcjdWODDdVZVfBdWv9qSAnCK2Qw=
-=44UZ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdRDH8ACgkQ7ulgGnXF
+3j0brhAArWrAmIrFZZvE8Q2LjCfOJdvjf7TWHP+i7OtuR20AgITKrn7LuFFdB5qh
+qOyBa2whUCrfzh9WYiHR3p2nz6KHbsnEpL5NtLpXoAW9aOO1ffg+/I4cUEis1OiU
+zznQurV573H0youGjzbz8v88563M1jwNV8sQ1ZMDXkVJEzfeAvsTiDLtf1rLloRL
+IoO0+ukoxKyq5XgAOni1nRs7lVgMJaV5xaIg0iTFFz6o5Cp3OKfUDSvaqEkINTxy
+l5oaGw/veGJO30Lr8g1Hb72zi/LgtTAR97invtg6yOu0W/NrYrJmU68uj1/gpjw7
+1szMx5g27ZLFHAOoGEcYDOYd6IYu6lc/C4SvkARao0zqHuTg4TaqNzO9i1j1tkRn
+AxBugnaq413KYHdLEkRPHQ7r5E4m6UfDo7jJDDpobDCOWdEYFtEFsyGzgOLJZ69S
+EDun16Z1G1aPObExZhYz0JK2RJosMChM19DJlmeun/yJRfcHC88AvVuNCqzA0ITb
+63csAMLyJOkhqnYpTe079GR5bzd8CnZBQzM9MeQTe5zXlmml43DGO+UNq53psQng
+V+rjpyspPfgZ8CXyEF34SB3Kw1x2vh+woXKsuePv1AKU8NnuGMQFsXzPbxY/Fx5E
+Ojh6tbQvL3V+yCPjuxO76aJVnKpZAL7PdMgtT2CKrTeXVuNxusw=
+=uTJs
 -----END PGP SIGNATURE-----
 
---===============2886083699260412806==
+--===============5889538543607027347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7d3b4079d01-6918141d815a.txt
+Content-Disposition: attachment; filename=revlist-72fbd78eb7eb-c5d04d07953a.txt
 
-3f5eb062e8aa335643181c480e6c590c6cedfd22 scsi: mpt3sas: Diag-Reset when Doorbell-In-Use bit is set during driver load time
-6050471545eecec214ca9ceb38a63e98e9003338 scsi: mpt3sas: Update driver version to 51.100.00.00
-367ac16e5ff2dcd6b7f00a8f94e6ba98875cb397 scsi: mpi3mr: Synchronize access to ioctl data buffer
-711201a8b8334a397440ac0b859df0054e174bc9 scsi: mpi3mr: Fix corrupt config pages PHY state is switched in sysfs
-0d32014f1e3e7a7adf1583c45387f26b9bb3a49d scsi: mpi3mr: Start controller indexing from 0
-fb6eb98f3965e2ee92cbcb466051d2f2acf552d1 scsi: mpi3mr: Handling of fault code for insufficient power
-0deb37c2f42a54610dd3569b01413378f430bfea scsi: mpi3mr: Update driver version to 8.12.0.3.50
-c423263082ee8ccfad59ab33e3d5da5dc004c21e scsi: qla2xxx: Fix abort in bsg timeout
-07c903db0a2ff84b68efa1a74a4de353ea591eb0 scsi: qla2xxx: Fix use after free on unload
-833c70e212fc40d3e98da941796f4c7bcaecdf58 scsi: qla2xxx: Remove check req_sg_cnt should be equal to rsp_sg_cnt
-4812b7796c144f63a1094f79a5eb8fbdad8d7ebc scsi: qla2xxx: Fix NVMe and NPIV connect issue
-e4e268f898c8a08f0a1188677e15eadbc06e98f6 scsi: qla2xxx: Supported speed displayed incorrectly for VPorts
-35002a8ec557f679e414dae9dec9d08c66f2791a scsi: qla2xxx: Update version to 10.02.09.400-k
-eb48e9fc0028bed94a40a9352d065909f19e333c scsi: ufs: core: sysfs: Prevent div by zero
-f10593ad9bc36921f623361c9e3dd96bd52d85ee scsi: sg: Fix slab-use-after-free read in sg_release()
-7f45ed5f0cd5ccbbec79adc6c48a67d6a85fba56 scsi: ufs: core: Add missing post notify for power mode change
-b1aee7f034615b6824d2c70ddb37ef9fc23493b7 scsi: storvsc: Do not flag MAINTENANCE_IN return of SRB_STATUS_DATA_OVERRUN as an error
-6918141d815acef056a0d10e966a027d869a922d scsi: scsi_debug: Fix hrtimer support for ndelay
+5f8822c4a4209b186ba655841993e5797c31e19e scsi: fnic: Use vcalloc() instead of vmalloc() and memset(0)
+cdb03e598750e7ebc222571aa96653e9b5a59dbe scsi: bsg: Replace zero-length array with flexible array member
+e738ba458e7539be1757dcdf85835a5c7b11fad4 scsi: ufs: core: Introduce ufshcd_has_pending_tasks()
+7869c6521f5715688b3d1f1c897374a68544eef0 scsi: ufs: core: Prepare to introduce a new clock_gating lock
+209f4e43b8068c24cde227f464111030430153fa scsi: ufs: core: Introduce a new clock_gating lock
+be769e5cf53b8a45eedcc7354bacf939ae16f72c scsi: ufs: core: Introduce a new clock_scaling lock
+91e11129b9894ef709f3faf13a41ea60d46e7a44 Merge patch series "Untie the host lock entanglement - part 2"
+a9a099575d4f24323ae3351b21fe556d37d9e932 scsi: csiostor: Fix typo doesnt->doesn't
+841df27d619ee1f5ca6473e15227b39d6136562d scsi: qla2xxx: Move FCE Trace buffer allocation to user control
+0f630c58e31afb3dc2373bc1126b555f4b480bb2 scsi: pm80xx: Do not use libsas port ID
+4c567a9d0e009c998125d549dc53ab0d21724a55 scsi: pm80xx: Use dynamic tag numbers for PHY start and stop
+b64004dbcd239d5eeac0b41c167a306291510d55 scsi: pm80xx: Increase reserved tags from 8 to 128
+5efff64c6be9a236200e026ce8f401b2c62afe32 scsi: pm80xx: Improve debugging for aborted commands
+ed638918f4df39daa458435f0825b487c1f192c8 scsi: Rename .slave_alloc() and .slave_destroy()
+47c2e30afcec52968e50db01f92dda7d373042cb scsi: Rename .device_configure() into .sdev_configure()
+49515b7fe50ce4348b3dd5116b6d7d4308546da6 scsi: Convert SCSI drivers to .sdev_configure()
+0f98212d96a2af52e4091a199ef1d35d478d0c60 scsi: core: Remove the .slave_configure() method
+b0d3b8514abd2f49b479dc775a03725c25b2f11c scsi: core: Update API documentation
+2486e60bdd41ca7ad98b9dc7467abf4628f008ab Merge patch series "Replace the "slave_*" function names"
 
---===============2886083699260412806==--
+--===============5889538543607027347==--
