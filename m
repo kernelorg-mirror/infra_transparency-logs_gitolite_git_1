@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 05 Dec 2024 21:01:46 -0000
-Message-Id: <173343250651.2092811.14310650149318058421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Thu, 05 Dec 2024 21:24:19 -0000
+Message-Id: <173343385940.2109230.5124281728608373936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/nfsd-6.6.y
-    old: 239b2338460656a4e4f05d18ce8be140a6c250de
-    new: b10f6747e2e2df8c5fc4599d87902486e6f8aa33
+  - ref: refs/heads/bleeding-edge
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: ab9e5b2eb56412cb8c63b46b935878d29205418e
     log: |
-         b10f6747e2e2df8c5fc4599d87902486e6f8aa33 libfs: Use d_children list to iterate simple_offset directories
+         190ef6409a606599f259cabb686f0c3db78e2d82 cpufreq/amd-pstate: Convert the amd_pstate_get/set_epp() to static calls
+         357a67d326510b2485a05f5512b56bf9bc04e560 cpufreq/amd-pstate: Move the invocation of amd_pstate_update_perf()
+         61fbd9aca7c570256909413cb52f21bb79c6b5a1 cpufreq/amd-pstate: Refactor amd_pstate_epp_reenable() and amd_pstate_epp_offline()
+         f49c01f2459c5ff7c7401684fd5be174bed9ceda cpufreq/amd-pstate: Remove the cppc_state check in offline/online functions
+         ab9e5b2eb56412cb8c63b46b935878d29205418e cpufreq/amd-pstate: Merge amd_pstate_epp_cpu_offline() and amd_pstate_epp_offline()
          
