@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Thu, 05 Dec 2024 21:48:32 -0000
-Message-Id: <173343531234.2128664.13790360947602967274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 05 Dec 2024 21:50:09 -0000
+Message-Id: <173343540997.2131626.16108256702151891571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/module
-    old: 0000000000000000000000000000000000000000
-    new: 07f608d874c619c048232c9e94ea659eba422eee
+  - ref: refs/heads/pending
+    old: cea6667b73496a9f56b527009f4b7080d63e8df2
+    new: ac238605309859da17b65f1095660bfd82452bfb
+    log: |
+         3e9808c3bf481f1e1a40751e69ea118a275d53e0 dt-bindings: net: wireless: Describe ath12k PCI module with WSI
+         8d0c95e36ca8e4a6fc02815cf3c0e5a245244508 wifi: ath12k: parse multiple device information from Device Tree
+         ae3f2efe118d0d11af361162512b9afaf9e0b560 wifi: ath12k: send partner device details in QMI MLO capability
+         eacaccd6df2b58a1b01f4019e06eeca75956e4a0 wifi: ath12k: refactor ath12k_qmi_alloc_target_mem_chunk()
+         777d2491158531529c60300caa2db08910bce420 wifi: ath12k: add support to allocate MLO global memory region
+         a21df232661c05f523fb7138d11058e3277c0309 wifi: ath12k: Add MLO WMI setup and teardown functions
+         c45ef52a17d5ec954cca80871d58969a2a074e54 wifi: ath12k: enable MLO setup and teardown from core
+         ac238605309859da17b65f1095660bfd82452bfb wifi: ath12k: avoid redundant code in DP Rx error process
+         
