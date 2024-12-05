@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 05 Dec 2024 03:11:58 -0000
-Message-Id: <173336831831.936653.12866075856182969612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Dec 2024 03:13:54 -0000
+Message-Id: <173336843406.937618.8579054173104200027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: 8cf4b902a394f30b418a3f79e6fff7e5d7e71a2c
-    new: a7ef38ca601d6b2dbd4a25c0b45130e8b19d9d92
+  - ref: refs/heads/main
+    old: 50b94204446e1215af081fd713d7d566d9258e35
+    new: 910c4788d6155b2202ec88273376cd7ecdc24f0a
     log: |
-         485b31785f89064760e45fc964a083b957a3e53f erofs-utils: use pkg-config for lz4 configuration
-         a7ef38ca601d6b2dbd4a25c0b45130e8b19d9d92 erofs-utils: lib: drop prefix_sha256 digests
+         910c4788d6155b2202ec88273376cd7ecdc24f0a ethtool: Fix wrong mod state in case of verbose and no_mask bitset
          
