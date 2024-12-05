@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Dec 2024 03:19:19 -0000
-Message-Id: <173336875939.942068.804031264688473507@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 03:22:03 -0000
+Message-Id: <173336892382.945357.1376380206531936631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 910c4788d6155b2202ec88273376cd7ecdc24f0a
-    new: 217bbf156f93ada86b91617489e7ba8a0904233c
+    old: 217bbf156f93ada86b91617489e7ba8a0904233c
+    new: 8588c99c7d47448fcae39e3227d6e2bb97aad86d
     log: |
-         217bbf156f93ada86b91617489e7ba8a0904233c mlxsw: spectrum_acl_flex_keys: Use correct key block on Spectrum-4
+         8588c99c7d47448fcae39e3227d6e2bb97aad86d geneve: do not assume mac header is set in geneve_xmit_skb()
          
