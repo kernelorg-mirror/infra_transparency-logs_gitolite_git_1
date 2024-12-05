@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 05 Dec 2024 17:26:07 -0000
-Message-Id: <173341956738.1911622.8239585476173600735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 05 Dec 2024 17:30:03 -0000
+Message-Id: <173341980337.1914979.5450729441377575520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-6.14/arm/dt
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: cec785a7f25d9ebe3a151ddc4f3a4ede7fc0dab0
+  - ref: refs/heads/resource
+    old: c8f6d616eb6715b9bf9d84699e82566b48af55df
+    new: 9dfc6850cfa48a30d6a3068dd92db5b47ea8074e
     log: |
-         cec785a7f25d9ebe3a151ddc4f3a4ede7fc0dab0 ARM: tegra: nyan: Maintain power to USB ports on boot
-         
-  - ref: refs/heads/for-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: ca398b41b0a307a961593ab58a1090c8cb3174ae
-    log: |
-         cec785a7f25d9ebe3a151ddc4f3a4ede7fc0dab0 ARM: tegra: nyan: Maintain power to USB ports on boot
-         ca398b41b0a307a961593ab58a1090c8cb3174ae Merge branch for-6.14/arm/dt into for-next
+         9dfc6850cfa48a30d6a3068dd92db5b47ea8074e PCI: Encourage resource request API users to supply driver name
          
