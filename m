@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 05 Dec 2024 11:21:42 -0000
-Message-Id: <173339770262.1449696.12836748686259934801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 05 Dec 2024 11:24:27 -0000
+Message-Id: <173339786755.1450817.6972172342723977632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/dma-split-wip
-    old: c7aa53f4b1567388b7e6531960400aee56fc6739
-    new: 09acd5cf5536d44e15ce92691558e0cbac75ae3b
-  - ref: refs/tags/dma-split-dec-05
-    old: c7aa53f4b1567388b7e6531960400aee56fc6739
-    new: 09acd5cf5536d44e15ce92691558e0cbac75ae3b
+  - ref: refs/tags/ffa-fixes-6.13
+    old: 0000000000000000000000000000000000000000
+    new: 17f25d4d59f61f0b23cdd64773a617e556a2d1fa
